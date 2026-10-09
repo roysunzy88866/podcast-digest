@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dylan Patel]] · [[OpenAI]] · [[Anthropic]] · [[Meta]] · [[SpaceX]] · [[Google]] · [[NVIDIA]] · [[ASML]] · [[Carl Zeiss]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Dylan Patel":2,"OpenAI":180,"Anthropic":191,"Meta":48,"SpaceX":21,"Google":66,"NVIDIA":63,"ASML":3,"Carl Zeiss":1,"算力":8}</script>
+<script type="application/json" class="pd-epn">{"Dylan Patel":2,"OpenAI":181,"Anthropic":192,"Meta":48,"SpaceX":21,"Google":67,"NVIDIA":64,"ASML":3,"Carl Zeiss":1,"算力":8}</script>
 
 <script>
 (function(){

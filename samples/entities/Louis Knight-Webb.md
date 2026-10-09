@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":85,"智能体":446,"RL 环境":8,"vibe coding":47,"code mode":2,"开源 AI 框架":1,"推理":87,"PLG":12}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"AI Engineers":1,"沙箱":87,"智能体":448,"RL 环境":8,"vibe coding":47,"code mode":3,"开源 AI 框架":1,"推理":88,"PLG":12}</script>
 
 <script>
 (function(){

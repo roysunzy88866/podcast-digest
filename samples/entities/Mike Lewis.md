@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":446,"Claude":92,"组织转型":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":448,"Claude":92,"组织转型":1}</script>
 
 <script>
 (function(){

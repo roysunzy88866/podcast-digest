@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":446,"构建者":4,"可观测性":40,"对话分析":1,"评估":5,"维度思维":1,"ChatGPT":101,"Cursor":83,"OpenAI":180}</script>
+<script type="application/json" class="pd-epn">{"Sundial":1,"智能体":448,"构建者":4,"可观测性":40,"对话分析":1,"评估":5,"维度思维":1,"ChatGPT":102,"Cursor":83,"OpenAI":181}</script>
 
 <script>
 (function(){

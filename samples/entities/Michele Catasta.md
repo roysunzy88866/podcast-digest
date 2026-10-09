@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":21,"Replit Agent":1,"智能体":446,"vibe coding":47,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":22}</script>
+<script type="application/json" class="pd-epn">{"Replit":21,"Replit Agent":1,"智能体":448,"vibe coding":47,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":22}</script>
 
 <script>
 (function(){

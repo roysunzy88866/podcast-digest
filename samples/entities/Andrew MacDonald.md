@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Uber":17,"Uber One":1,"自主性":10,"智能体":446,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Uber":18,"Uber One":1,"自主性":10,"智能体":448,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

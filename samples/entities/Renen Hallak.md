@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":5,"VastData":1,"NVIDIA":63,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":446,"推理":87}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":5,"VastData":1,"NVIDIA":64,"XAI":7,"软件基础设施":1,"AI 工厂":3,"机密计算":1,"权重":4,"智能体":448,"推理":88}</script>
 
 <script>
 (function(){

@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Anthropic]] · [[提示词注入]] · [[Codex]] · [[Zico Kolter]] · [[Garry Tan]] · [[Boris Cherny]] · [[Thariq Shihipar]] · [[Matt Fredrikson]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"沙箱":85,"Anthropic":191,"提示词注入":1,"Codex":81,"Zico Kolter":1,"Garry Tan":2,"Boris Cherny":3,"Thariq Shihipar":2,"Matt Fredrikson":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"沙箱":87,"Anthropic":192,"提示词注入":1,"Codex":81,"Zico Kolter":1,"Garry Tan":2,"Boris Cherny":3,"Thariq Shihipar":2,"Matt Fredrikson":1}</script>
 
 <script>
 (function(){

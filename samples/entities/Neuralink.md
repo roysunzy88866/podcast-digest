@@ -29,7 +29,7 @@ unlisted: true
 
 [[Anthropic]] · [[Max Hodak]] · [[Science]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":191,"Max Hodak":2,"Science":2,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":192,"Max Hodak":2,"Science":2,"Helix":2,"AI 基础设施":4,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
 
 <script>
 (function(){

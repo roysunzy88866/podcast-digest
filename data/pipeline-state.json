@@ -229,13 +229,14 @@
     "wzWNYDY7toc": "2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo",
     "xLxhT2ZI7UM": "2026-10-05-talks-your-llm-judge-is-a-confident-liar-build",
     "5kTFyEOgark": "2026-10-06-talks-how-to-build-a-model-router-in-the-harne",
-    "TeErpYBUIeM": "2026-10-06-talks-the-self-improving-oss-agent-stack-marc"
+    "TeErpYBUIeM": "2026-10-06-talks-the-self-improving-oss-agent-stack-marc",
+    "LpHxwtKRPdQ": "2026-10-06-talks-building-ai-for-the-physical-world-with",
+    "X6l4lpA0_NY": "2026-10-06-talks-harness-engineering-how-to-build-a-softw"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
   },
   "audioWanted": {
-    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7419234216.mp3",
     "2026-09-17-pragmatic-ai-skills-with-matt-pocock": "https://api.substack.com/feed/podcast/215854309/58f711af76405b52f81c0c380a5deed7.mp3",
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9908320817.mp3",
     "2026-08-20-twist-taste-is-the-new-programming-language-w": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT8990784785.mp3",
@@ -317,23 +318,24 @@
     "2026-09-22-howiai-i-left-claude-for-months--opus-5-5-is-wh": "2026-10-07",
     "2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev": "2026-10-07",
     "2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a": "2026-10-07",
-    "2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl": "2026-10-07"
+    "2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl": "2026-10-07",
+    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "2026-10-09"
   },
   "cutoffs": {
     "lennys": "2026-10-05T12:04:54.000Z",
     "pg": "2026-10-08T23:03:02.000Z",
-    "a16z": "2026-10-08T10:00:00.000Z",
+    "a16z": "2026-10-09T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-08T11:30:00.000Z",
     "trainingdata": "2026-10-06T09:00:00.000Z",
     "bigtech": "2026-10-07T16:57:00.000Z",
     "aiandi": "2026-10-07T17:11:13.000Z",
-    "nopriors": "2026-10-02T10:00:00.000Z",
+    "nopriors": "2026-10-09T10:00:00.000Z",
     "thepeel": "2026-10-08T16:14:09.000Z",
     "beyondcoding": "2026-10-07T12:00:00.000Z",
     "founders": "2026-10-05T10:00:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
-    "doac": "2026-10-08T05:00:00.000Z",
+    "doac": "2026-10-09T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-08T07:07:00.000Z",
     "cogrev": "2026-10-08T10:50:43.000Z",
@@ -355,7 +357,7 @@
     "ainativedev": "2026-10-06T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
-    "sourcery": "2026-10-05T10:30:00.000Z",
+    "sourcery": "2026-10-08T14:10:59.000Z",
     "iltb": "2026-10-06T08:00:00.000Z",
     "generalist": "2026-09-29T11:00:00.000Z",
     "sed": "2026-10-08T09:00:00.000Z",
@@ -1175,6 +1177,133 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Your LLM Judge Is a Confident Liar: Building Better Verifiers — Browserbase",
       "pubDate": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "id": "2026-10-09-nopriors-beam-the-great-american-open-model-with",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "pubDate": "2026-10-09T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-09-doac-most-replayed-moment-ai-is-changing-how",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Most Replayed Moment: AI Is Changing How Teams Work Forever",
+      "pubDate": "2026-10-09T05:00:00.000Z"
+    },
+    {
+      "id": "2026-10-08-sourcery-usvs-new-900m-fund-fred-wilson--rebecca",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "USV’s New $900M Fund: Fred Wilson, Rebecca Kaden & Mike Mignano",
+      "pubDate": "2026-10-08T14:10:59.000Z"
     }
-  ]
+  ],
+  "cgcAlign": {
+    "6ac8b044e742e36efcc059c2": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#760. Claude Code：模型越聪明，软件越需要安全边界",
+      "day": "2026-10-09"
+    },
+    "6ac7bd96195d838e2aeee783": {
+      "status": "合集/超长,不对齐",
+      "title": "#759. Y Combinator 2014 年创业课程 20 讲",
+      "day": "2026-10-09"
+    },
+    "6ac5ef7c195d838e2aee1f09": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#758. 李录 - 哥大交流会",
+      "day": "2026-10-09"
+    },
+    "6ac5ac8e195d838e2aee04ef": {
+      "status": "已收",
+      "title": "#757.ChatGPT 负责人 Tibo 谈 Dots、环境人工智能以及为什么互联网上的大部分行为很快将由人工智能完成",
+      "day": "2026-10-09"
+    },
+    "6ac59c6ce742e36efcbf181a": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#756. Huberman 多集混剪｜学习、专注与深度工作",
+      "day": "2026-10-09"
+    },
+    "6ac5480ee742e36efcbf0ea5": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#755. Lauren & Matt Pocock：如何把 2000 个PR上到生产环境",
+      "day": "2026-10-09"
+    },
+    "6ac37be2195d838e2aed7fff": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#754. 如何思考科学",
+      "day": "2026-10-09"
+    },
+    "6ac12348195d838e2aed0286": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#753.Apps, Agents和聚合：AI Agent 会成为你办事的唯一界面",
+      "day": "2026-10-09"
+    },
+    "6ac10e16e742e36efcbe18d1": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#752.Vercel CEO 揭秘其智能体工程工作流程：AI 软件工厂瓶颈不在代码，而在人",
+      "day": "2026-10-09"
+    },
+    "6abec310e742e36efcbd9ae4": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#751.汉斯·季默：从导演的故事找到电影配乐",
+      "day": "2026-10-09"
+    },
+    "6abec328195d838e2aec7e63": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#750.理查德·费曼 - 物理定律的本质 (1964) - 完整版",
+      "day": "2026-10-09"
+    },
+    "6abeb3f9195d838e2aec7dab": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#749.雷·达里奥 2019 课堂实录：投资原则",
+      "day": "2026-10-09"
+    },
+    "6abe1c43e742e36efcbd742b": {
+      "status": "已收",
+      "id": "2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif",
+      "title": "#748.比尔·阿克曼：投资前先想清楚十年后还愿意持有吗",
+      "day": "2026-10-09"
+    },
+    "6abc0813195d838e2aebbf64": {
+      "status": "已收",
+      "title": "#746. AI视频生意：看懂增长和模型成本这笔账",
+      "day": "2026-10-09"
+    },
+    "6abb9467195d838e2aeb995a": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#745.AI自我加速：能力进步快，不等于研究全面提速，中美 AI 差距",
+      "day": "2026-10-09"
+    },
+    "6abb64e8195d838e2aeb7e6a": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#744.Acquired｜劳力士的稀缺生意、机械表、品牌溢价",
+      "day": "2026-10-09"
+    },
+    "6aba8c44e742e36efcbc5974": {
+      "status": "已收",
+      "id": "2026-09-28-iltb-noah-shinn-building-instinct-the-persona",
+      "title": "#743.Instinct 创始人：个人 AI 助手应该站在用户这边",
+      "day": "2026-10-09"
+    },
+    "6aba730d195d838e2aeb3548": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#742.彼得·蒂尔：零增长不是AI的安全替代",
+      "day": "2026-10-09"
+    },
+    "6ab7fc0b195d838e2aea6ccf": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#740.Huberman Lab｜减重不能只靠把胃变小",
+      "day": "2026-10-09"
+    },
+    "6ab79736195d838e2aea4f3f": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#739.黄仁勋：「五层蛋糕」里，最重要的是应用层",
+      "day": "2026-10-09"
+    },
+    "6ab788eee742e36efcbb65fe": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#738.费曼：想象之乐",
+      "day": "2026-10-09"
+    }
+  }
 }

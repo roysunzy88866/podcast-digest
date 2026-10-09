@@ -84,11 +84,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":21,"智能体":446,"Stripe":48,"vibe coding":47,"微调":34,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":21,"智能体":448,"Stripe":48,"vibe coding":47,"微调":34,"Patrick Collison":3,"公开构建":2,"Gagan Viani":1,"Alex Atallah":2,"Magic School":1}</script>
 
 <script>
 (function(){

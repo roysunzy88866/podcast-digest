@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":2,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":101}</script>
+<script type="application/json" class="pd-epn">{"Millennium":1,"ZDR":1,"企业就绪":2,"RBAC":1,"权限":1,"遗留架构":1,"试点":3,"SLA":2,"ChatGPT":102}</script>
 
 <script>
 (function(){

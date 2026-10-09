@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jason</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jason">JA</div><div class="pi"><h1 class="pt">Jason</h1><div class="byl">REWORK 联合主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jason">JA</div><div class="pi"><h1 class="pt">Jason</h1><div class="byl">REWORK 联合主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*17 条*
+*19 条*
 
 ![[2026-07-15-rework-don-39-t-write-it-down#^q1]]
 
@@ -22,6 +22,10 @@ unlisted: true
 ![[2026-08-26-rework-one-way-doors#^q5]]
 
 ![[2026-08-26-rework-one-way-doors#^q6]]
+
+![[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti#^q3]]
+
+![[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti#^q8]]
 
 ![[2026-09-28-twist-the-5-companies-apple-must-buy#^q1]]
 
@@ -49,11 +53,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-15-rework-don-39-t-write-it-down|《别记客户反馈：37signals 的产品决策逻辑》]] — 作为联合主持
 - [[2026-07-22-rework-start-here-building-a-better-onboarding|《Basecamp 5 引导设计：让CEO亲自带客户过产品》]] — 作为联合主持
 - [[2026-08-26-rework-one-way-doors|《37signals 的快决策哲学：五分钟做决定，别回头看》]] — 作为联合主持
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]] — 作为主持
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为联合主持
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为主持
 
@@ -61,9 +66,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Kimberly]] · [[David]] · [[37Signals]] · [[Basecamp]] · [[客户反馈]] · [[入职引导]] · [[单向门]] · [[Jacob]] · [[Aristotle]] · [[路线图]]
+[[Kimberly]] · [[David]] · [[37Signals]] · [[Basecamp]] · [[智能体]] · [[客户反馈]] · [[入职引导]] · [[单向门]] · [[Samar Abbas]] · [[Jacob]]
 
-<script type="application/json" class="pd-epn">{"Kimberly":3,"David":3,"37Signals":4,"Basecamp":2,"客户反馈":2,"入职引导":2,"单向门":1,"Jacob":1,"Aristotle":1,"路线图":1}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"David":3,"37Signals":4,"Basecamp":2,"智能体":448,"客户反馈":2,"入职引导":2,"单向门":1,"Samar Abbas":1,"Jacob":1}</script>
 
 <script>
 (function(){

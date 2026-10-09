@@ -1,0 +1,251 @@
+{
+  "title_zh": "芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场",
+  "tldr": "前 Intel CEO、VMware 掌门人 Pat Gelsinger 做客 a16z，聊 AI 时代芯片设计、内存、光网络和电力的新瓶颈。",
+  "digest_md": "Pat Gelsinger 18 岁进 Intel，从技术员一路做到 486 处理器的架构师，后来执掌 Intel 和 VMware。现在他是 Playground Global 的普通合伙人。在这期对谈里，他和 a16z 的两位投资人聊了一个核心问题：AI 让芯片设计变容易了，但造芯片、供电、连网却越来越难——接下来卡住整个行业的会是什么？\n\n## AI 能三个月设计出芯片，但你要再等九个月才能用\n\nPat 回忆，486 时代他们没有现成工具，只能自己发明硬件描述语言、自己写编译器、和伯克利教授合作搞出最早的自动布线。那是现代芯片设计软件产业的起点。\n\n他判断今天正处在类似的转折点：AI 工具已经能完成大量逻辑设计。假设他和主持人一起创业做芯片，三个月就能拿出很棒的设计。\n\n但问题来了：设计完，晶圆厂生产要三个月，先进封装又要三个月，还得装进机架——「Nothing's a chip anymore, it's a rack.」现在没有芯片这回事了，单位是机架。[10:58 Pat Gelsinger] 等到能用，九个月过去了。\n\n而 AI 工作负载变化极快，一年半后你当初的理解已经过时。他举了 Graphcore 的例子：设计不差，但世界往前走了。**所以制造和规模化，成了比设计更大的瓶颈**。\n\n## 内存是个糟糕但最好的选择，30 年来第一次要变天\n\nPat 对现在 AI 芯片标配的 HBM 内存评价很不客气：「HBM is a hideous memory. It's just the best one that we've got.」——HBM 是个糟糕的内存，只是我们手里最好的一个。[12:15 Pat Gelsinger] 位密度差、功耗高、发热集中，而 AI 恰恰是吃内存带宽的工作负载。\n\n他说，过去 30 年真正的主流新内存是零——数来数去只有 DRAM、SRAM、Flash。他个人经历过至少 5 种没能上市的新内存架构，包括 Intel 的 Optane——我们把它杀了。\n\n但情况变了：三大内存厂商都进了全球市值前 20，整个行业市值 4 年涨了约 2.5 万亿美元。有了钱和需求，突破终于可能发生。他提到铁电材料等新方向，还透露自己刚投了一家还在隐身期的新内存公司。「Memory innovation for the first time in 30 years is nigh upon us.」[26:58 Pat Gelsinger]\n\n## 芯片会叠多高？答案是三四层，不是十六层\n\n内存和计算必须更紧密地叠在一起，但叠加层数不是越多越好。层数越多，每一层的良率要求就得指数级上升，一颗碎裂的芯片芯无论如何救不回来。\n\nPat 的判断是：**三四层是甜蜜点，内存堆叠两到四层就够了**，加上供电、信号布线层，整个封装大概八层厚就到头了。而且「我们工程师正在变成水管工」——供电、散热、液冷，全是管道活。\n\n他也不看好两个流行方案：一是用光纤把内存拉远（访问大内存池时功耗浪费太多）；二是存内计算（把计算塞进内存里），因为这个想法已经转了 25 到 30 年，还会再转 25 到 30 年。\n\n对光纤，他倒是铁杆支持者——用于所有输入输出。「I declared the death of copper about 25 years ago.」他 25 年前就宣判了铜线的死刑。「Eventually I'll be right.」总有一天我会说对的。[35:13 Pat Gelsinger]\n\n## 一百家 AI 芯片公司？这阵仗不会持久\n\n市面上现在大约有一百家 AI 推理加速芯片公司。**Pat 认为这是暂时的，会回归集中**，理由有三个。\n\n第一，他不相信大规模的专用化。工作负载本身还在快速迁移：今天大家为预填充和译码分别做专用芯片，明天推理模型又想要更像 CPU 的东西。为某个切面专门优化的芯片，两三年后可能就对不上需求了。\n\n第二，一百家不可能都赢。芯片要成，需要资本、需要负载、需要规模，市场逻辑决定了会整合。\n\n第三，赢家会挑赢家。OpenAI、NVIDIA、Anthropic 这样的大玩家会选中某些方案并投入软件生态去扶持。\n\n不过主持人也提出了反面观点：过去指令集难写编译器，所以只能标准化到一两种架构；现在 AI 代理一晚上就能写出优化内核，异构硬件的编程门槛大幅降低。Pat 承认这会改变瓶颈位置，但一年半的制造周期加上动辄数百亿的资本开支，仍然会把多样性压回去——而且大公司会把异构性藏到自己的架构里面。他举例说 NVIDIA 收购 Grok 之后，两年后没人会分得清那是什么，它就变成 NVIDIA 架构的一部分。\n\n## 最硬的瓶颈是电：能源容量就是经济容量\n\n从第一性原理看，Pat 认为美国过去 10 到 15 年里，关停煤电的速度和新增可再生能源一样快，全国能源容量基本持平。而「In a AI digital age, energy capacity equals economic capacity.」**在 AI 数字时代，能源容量就等于经济容量**。[43:59 Pat Gelsinger]\n\n最近五年情况略有好转，能源容量大约以每年 4% 的速度增长，但远不够。燃气轮机的交付周期要八年，可再生能源供应链深度依赖中国，上一座美国核电站并网还是 20 年前的事。\n\n他的预言相当直接：会看到越来越多数据中心项目违约，因为电到不了位。==为什么建新数据中心、买一百万块 GPU，如果供不上电==？Oracle 已经是第一个信号。\n\n出路包括核电（Playground 投了做核能运营的公司）、800 伏直流数据中心、氮化镓功率转换器件，甚至他投的超导公司 Snowcat——有机会把功耗特性改善一千倍。「Power's cool again」，电力又变酷了。\n\n## 如果重造 VMware：给智能代理用的虚拟化\n\n对谈最后回到两人共同的老东家 VMware。Pat 提出一个开放问题：当主要用户从人变成 AI 代理，虚拟化的每个环节都需要重做。\n\n==谁来管理成群的代理==？谁来给它们建安全配置、管性能、做迁移？相当于要有代理版的 vMotion。而人这一端也没消失——人要定政策、定宪法、看仪表盘。\n\n设计约束彻底变了：让代理好用、安全、可抽象，而不是伺候硬件和人。这会是下一层计算体系里诞生一批新公司的地方。\n\n## 本集带走\n\n- AI 把芯片设计从一年压缩到几个月，但制造、封装、上机架仍要九个月，工作负载早变了——规模化成了新瓶颈\n- HBM 内存糟糕但别无选择，30 年来第一次，资本和需求同时到位，新内存技术可能真正破局\n- 一百家 AI 芯片公司是暂时现象，会因工作负载迁移、资本整合和大客户选边而收敛\n- 能源是 AI 的硬上限：数据中心项目将因缺电而违约，核电和高压直流供电是主要出路\n- 下一代的 VMware，可能是为 AI 代理而非人类设计的虚拟化层",
+  "quotes": [
+    {
+      "en": "Whenever you have the technology to make something easy, that means the bottleneck moves somewhere else.",
+      "zh": "每当你拥有让某件事变容易的技术，那就意味着瓶颈转移到了别的地方。",
+      "timestamp": "00:17",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "Nothing's a chip anymore, it's a rack.",
+      "zh": "现在已经没有什么东西是一块芯片了，而是一个机架。",
+      "timestamp": "00:22",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "Historically, there have not been a hundred competing processor vendors in any industry ever.",
+      "zh": "从历史上看，任何行业从来都没有过一百家相互竞争的处理器厂商。",
+      "timestamp": "00:53",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "So, I can design the thing in three months, but I can't actually get it into real silicon at scale for nine months.",
+      "zh": "所以，我可以三个月就把这东西设计出来，但实际上我没法在九个月内把它大规模做成真正的硅片。",
+      "timestamp": "10:20",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "And, you know, for that, as I've described, HBM is a hideous memory. It's just the best one that we've got.",
+      "zh": "而且，正如我所说，HBM 是一种糟糕的内存，它只是我们目前拥有的最好的选择。",
+      "timestamp": "12:12",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "And you know, they're not all going to win and they're not all going to win because at the end of the day, you have to get scale on these things.",
+      "zh": "你知道，它们不会全都赢，它们不会全都赢，因为归根结底，你必须在这些东西上获得规模。",
+      "timestamp": "18:09",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "So I think it sort of defies logic that you're going to have a hundred of these things.",
+      "zh": "所以我认为，说会有上百家这样的东西，是有点违背逻辑的。",
+      "timestamp": "18:20",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "Today, you know, writing an optimized kernel for, I mean, I think Calapeño was a great example, but they basically said, look, humans can't really program this thing anymore, but an agent swarm overnight can do it.",
+      "zh": "今天，你知道，写一个优化的 kernel，我认为 Calapeño 是一个很好的例子，但他们基本上说，你看，人类已经无法真正为这个东西编程了，但一个智能体群一夜之间就能做到。",
+      "timestamp": "20:27",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "And exactly how many major new memories have we had over the last 30 years? Zero.",
+      "zh": "那么过去 30 年里，我们到底有过多少种主要的新内存？零。",
+      "timestamp": "23:17",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "But I think memory innovation for the first time in 30 years is nigh upon us.",
+      "zh": "但我认为三十年来的首次存储创新即将到来。",
+      "timestamp": "26:55",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "The femtojoules per bit of communication is comparatively a thousand times worse.",
+      "zh": "而每比特通信的飞焦耳相对而言差了大约一千倍。",
+      "timestamp": "33:35",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "I declared the death of copper about 25 years ago. Eventually, I'll be right.",
+      "zh": "我大约 25 年前就宣告了铜的死亡。最终，我会是对的。",
+      "timestamp": "35:10",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "You know, in reality, I should have never built an NVL 72. You know, it's an engineering marvel and it's a manufacturing nightmare, right?",
+      "zh": "你知道，实际上，我本来就不应该建造 NVL 72。这是一项工程奇迹，但也是一场制造噩梦，对吧？",
+      "timestamp": "36:47",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "Because in a AI digital age, energy capacity equals economic capacity.",
+      "zh": "因为在 AI 数字时代，能源容量等于经济容量。",
+      "timestamp": "43:53",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "And I think you're going to see more and more defaults happening on many of those data center projects because the energy won't be there.",
+      "zh": "而且我认为你会看到越来越多的数据中心项目出现违约，因为能源不会到位。",
+      "timestamp": "45:28",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "By the way, as another characteristic of workload evolution, I do think the separation of training and inferencing is going to become less so going forward, not more so.",
+      "zh": "顺便说一下，作为工作负载演进的另一个特征，我确实认为训练和推理的分离未来会变得不那么明显，而不是更明显。",
+      "timestamp": "40:41",
+      "speaker": "Pat Gelsinger"
+    },
+    {
+      "en": "Humans are a lot more patient than agents.",
+      "zh": "人类比智能体有耐心得多。",
+      "timestamp": "51:13",
+      "speaker": "SPEAKER_03"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:17",
+      "speaker": "Pat Gelsinger",
+      "en": "Whenever you have the technology to make something easy, that means the bottleneck moves somewhere else.",
+      "zh": "每当你拥有让某件事变容易的技术，那就意味着瓶颈转移到了别的地方。"
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Pat Gelsinger",
+      "en": "Nothing's a chip anymore, it's a rack.",
+      "zh": "现在已经没有什么东西是一块芯片了，而是一个机架。"
+    },
+    {
+      "timestamp": "00:53",
+      "speaker": "Pat Gelsinger",
+      "en": "Historically, there have not been a hundred competing processor vendors in any industry ever.",
+      "zh": "从历史上看，任何行业从来都没有过一百家相互竞争的处理器厂商。"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "Pat Gelsinger",
+      "en": "So, I can design the thing in three months, but I can't actually get it into real silicon at scale for nine months.",
+      "zh": "所以，我可以三个月就把这东西设计出来，但实际上我没法在九个月内把它大规模做成真正的硅片。"
+    },
+    {
+      "timestamp": "11:34",
+      "speaker": "Pat Gelsinger",
+      "en": "Okay, my understanding of the AI workloads is no longer applicable to the chip that I designed, right?",
+      "zh": "好，那我对 AI 工作负载的理解已经不再适用于我设计的这块芯片了，对吧？"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Pat Gelsinger",
+      "en": "And, you know, for that, as I've described, HBM is a hideous memory. It's just the best one that we've got.",
+      "zh": "而且，正如我所说，HBM 是一种糟糕的内存，它只是我们目前拥有的最好的选择。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Pat Gelsinger",
+      "en": "And I think any time that you've seen that in history is not sustainable.",
+      "zh": "而我认为，历史上任何时候出现这种情况都是不可持续的。"
+    },
+    {
+      "timestamp": "16:08",
+      "speaker": "Pat Gelsinger",
+      "en": "You know, so I really don't like, I'll say, at-scale specialization, right?",
+      "zh": "你知道，所以我不太喜欢，我可以说，大规模的专门化，对吧？"
+    },
+    {
+      "timestamp": "18:09",
+      "speaker": "Pat Gelsinger",
+      "en": "And you know, they're not all going to win and they're not all going to win because at the end of the day, you have to get scale on these things.",
+      "zh": "你知道，它们不会全都赢，它们不会全都赢，因为归根结底，你必须在这些东西上获得规模。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "Pat Gelsinger",
+      "en": "So I think it sort of defies logic that you're going to have a hundred of these things.",
+      "zh": "所以我认为，说会有上百家这样的东西，是有点违背逻辑的。"
+    },
+    {
+      "timestamp": "20:27",
+      "speaker": "Guido（Host）",
+      "en": "Today, you know, writing an optimized kernel for, I mean, I think Calapeño was a great example, but they basically said, look, humans can't really program this thing anymore, but an agent swarm overnight can do it.",
+      "zh": "今天，你知道，写一个优化的 kernel，我认为 Calapeño 是一个很好的例子，但他们基本上说，你看，人类已经无法真正为这个东西编程了，但一个智能体群一夜之间就能做到。"
+    },
+    {
+      "timestamp": "23:17",
+      "speaker": "Pat Gelsinger",
+      "en": "And exactly how many major new memories have we had over the last 30 years? Zero.",
+      "zh": "那么过去 30 年里，我们到底有过多少种主要的新内存？零。"
+    },
+    {
+      "timestamp": "24:54",
+      "speaker": "Pat Gelsinger",
+      "en": "So, I think there is the combination of capital and technology needs that will justify memory innovation.",
+      "zh": "所以我认为，资本和技术需求的结合将证明内存创新的合理性。"
+    },
+    {
+      "timestamp": "26:55",
+      "speaker": "Pat Gelsinger",
+      "en": "But I think memory innovation for the first time in 30 years is nigh upon us.",
+      "zh": "但我认为三十年来的首次存储创新即将到来。"
+    },
+    {
+      "timestamp": "33:35",
+      "speaker": "Pat Gelsinger",
+      "en": "The femtojoules per bit of communication is comparatively a thousand times worse.",
+      "zh": "而每比特通信的飞焦耳相对而言差了大约一千倍。"
+    },
+    {
+      "timestamp": "35:10",
+      "speaker": "Pat Gelsinger",
+      "en": "I declared the death of copper about 25 years ago. Eventually, I'll be right.",
+      "zh": "我大约 25 年前就宣告了铜的死亡。最终，我会是对的。"
+    },
+    {
+      "timestamp": "36:47",
+      "speaker": "Pat Gelsinger",
+      "en": "You know, in reality, I should have never built an NVL 72. You know, it's an engineering marvel and it's a manufacturing nightmare, right?",
+      "zh": "你知道，实际上，我本来就不应该建造 NVL 72。这是一项工程奇迹，但也是一场制造噩梦，对吧？"
+    },
+    {
+      "timestamp": "43:53",
+      "speaker": "Pat Gelsinger",
+      "en": "Because in a AI digital age, energy capacity equals economic capacity.",
+      "zh": "因为在 AI 数字时代，能源容量等于经济容量。"
+    },
+    {
+      "timestamp": "45:21",
+      "speaker": "Pat Gelsinger",
+      "en": "Because, you know, why build a new data center and buy, you know, the million GPUs if I can't power them?",
+      "zh": "因为，你知道，如果我没法给它们供电，为什么还要建新的数据中心、买那一百万块 GPU 呢？"
+    },
+    {
+      "timestamp": "45:28",
+      "speaker": "Pat Gelsinger",
+      "en": "And I think you're going to see more and more defaults happening on many of those data center projects because the energy won't be there.",
+      "zh": "而且我认为你会看到越来越多的数据中心项目出现违约，因为能源不会到位。"
+    },
+    {
+      "timestamp": "40:41",
+      "speaker": "Pat Gelsinger",
+      "en": "By the way, as another characteristic of workload evolution, I do think the separation of training and inferencing is going to become less so going forward, not more so.",
+      "zh": "顺便说一下，作为工作负载演进的另一个特征，我确实认为训练和推理的分离未来会变得不那么明显，而不是更明显。"
+    },
+    {
+      "timestamp": "50:30",
+      "speaker": "Pat Gelsinger",
+      "en": "Essentially, every fundamental element of virtualization and management needs to get recreated in this next computing hierarchy.",
+      "zh": "本质上，虚拟化与管理的每一个基本要素都需要在这个下一个计算层级中被重新创造出来。"
+    },
+    {
+      "timestamp": "51:13",
+      "speaker": "Guido（Host）",
+      "en": "Humans are a lot more patient than agents.",
+      "zh": "人类比智能体有耐心得多。"
+    }
+  ],
+  "voice_script": "今天咱们听的人来头不小：Pat Gelsinger。这位十八岁就进了 Intel，从技术员一路干到 486 处理器的架构师，后来先后执掌 Intel 和 VMware，现在是 Playground Global 的普通合伙人。这期节目里，他和 a16z 的两位投资人聊了一个特别扎心的问题：AI 让芯片设计变容易了，可是造芯片、供电、连网这些环节却越来越难。那接下来，到底什么会卡住整个行业？\n\n先说设计这一头。Pat 回忆，486 那个年代压根没有现成的设计工具，团队只能自己发明硬件描述语言、自己写编译器，还和伯克利的教授一起搞出了最早的自动布线——那基本就是现代芯片设计软件产业的起点。而今天的判断是，我们又站在一个类似的转折点上：AI 工具已经能完成大量逻辑设计。他打了个比方，假如现在一起创业做芯片，三个月就能拿出很棒的设计。\n\n但问题紧接着就来了。设计完，晶圆厂生产要三个月，先进封装再要三个月，还得装进机架才能用。用原话说，现在已经没有什么东西是一块芯片了，而是一个机架。这么一圈下来，九个月过去了。可 AI 的工作负载变化极快，一年半之后你当初的设计理解早就过时了。Graphcore 就是前车之鉴——设计不差，但世界往前走了。所以你看，制造和规模化，成了比设计更大的瓶颈。每当你拥有让某件事变容易的技术，瓶颈就转移到别的地方去了。\n\n那瓶颈挪到哪儿了？先看内存。现在 AI 芯片标配的 HBM 内存，Pat 的评价很不客气：HBM 是个糟糕的内存，只是我们手里最好的一个。位密度差、功耗高、发热集中，而 AI 恰恰是最吃内存带宽的活儿。更麻烦的是，过去三十年，真正主流的新内存是零——数来数去只有 DRAM、SRAM 和闪存。Intel 的 Optane 就是其中一次失败的尝试。但情况正在变：三大内存厂商都进了全球市值前二十，整个行业市值四年涨了大约二点五万亿美元。有了钱和需求，突破终于可能发生。用原话说，三十年来头一次，内存创新近在眼前。\n\n既然内存是瓶颈，那把内存和计算直接叠在一起行不行？行，但不是叠得越高越好。层数越多，每一层的良率要求就得指数级上升，一颗碎裂的芯片芯无论如何救不回来。所以 Pat 的判断是，三四层就是甜蜜点，加上供电和布线层，整个封装大概八层厚就到头了。而且有个有趣的说法：工程师正在变成水管工——供电、散热、液冷，全是管道活儿。顺带说两个不被看好的方向：一是用光纤把内存拉远，访问大内存池时功耗浪费太多；二是存内计算，这个想法已经转了二十五到三十年，估计还会再转二十五到三十年。不过对光纤本身，Pat 倒是铁杆支持者——用在所有输入输出上。用原话说，二十五年前就宣判了铜线的死刑，总有一天我会说对的。\n\n那市面上大约一百家 AI 推理芯片公司，都能活下来吗？答案是会回归集中，理由有三。第一，工作负载本身还在快速迁移，今天为预填充和译码做专用芯片，明天推理模型又想要更像 CPU 的东西，为某个切面优化的芯片两三年后可能就对不上需求。第二，它们不会全都赢——芯片要成，需要资本、负载和规模，市场逻辑决定了会整合。第三，赢家会挑赢家，OpenAI、NVIDIA 这样的大玩家会选中某些方案，投入软件生态去扶持。当然主持人提了个反面观点：过去写编译器难，所以指令集只能标准化；现在 AI 代理一晚上就能写出优化内核，异构硬件的门槛大幅降低了。Pat 承认这会改变瓶颈位置，但一年半的制造周期加上动辄数百亿的资本开支，仍会把多样性压回去——大公司会把异构性藏进自己的架构里。\n\n再往下挖，最硬的瓶颈其实是电。从第一性原理看，美国过去十到十五年，关停煤电的速度和新增可再生能源一样快，能源容量基本持平。可是在 AI 数字时代，能源容量就等于经济容量。最近五年能源容量每年大约增长百分之四，但远远不够：燃气轮机交付要八年，可再生能源供应链深度依赖中国，上一座美国核电站并网还是二十年前的事。所以预言相当直接：会看到越来越多数据中心项目违约，因为电到不了位——电都供不上，为什么还要建新数据中心、买一百万块 GPU？Oracle 已经是第一个信号。出路也有：核电、八百伏直流数据中心、氮化镓功率器件，甚至还有机会把功耗特性改善一千倍的超导方案。用一句流行话说，电力又变酷了。\n\n最后聊到一个开放问题。当主要用户从人变成 AI 代理，虚拟化的每个环节都需要重做：谁来管理成群的代理，谁来给它们做安全配置、管性能、做迁移？相当于要有一个代理版的 vMotion。而人这一端也没消失——人要定政策、定宪法、看仪表盘。设计约束彻底变了：让代理好用、安全、可抽象，而不是伺候硬件和人。这会是下一层计算体系里诞生一批新公司的地方。\n\n所以这一期听到最后，其实就一句话：当技术把一件事变得容易，真正的战场就挪到了你还没看见的地方——今天的芯片行业，正卡在制造、内存和电力这三道门槛上。"
+}

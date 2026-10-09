@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":180,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":81,"计算机使用":21,"Realtime 模型":1,"推理能力":6,"工具调用":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":181,"语音智能体":2,"语音转语音":1,"语音转动作":1,"事件转语音":1,"Codex":81,"计算机使用":21,"Realtime 模型":1,"推理能力":6,"工具调用":4}</script>
 
 <script>
 (function(){

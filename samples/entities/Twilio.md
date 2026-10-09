@@ -29,7 +29,7 @@ unlisted: true
 
 [[Shopify]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Sal Motamini]] · [[Harry Stabbings]] · [[Kanish Manuja]] · [[Alvaro Morales]] · [[Jason Lamkin]]
 
-<script type="application/json" class="pd-epn">{"Shopify":17,"智能体":446,"OpenAI":180,"Anthropic":191,"ChatGPT":101,"Sal Motamini":1,"Harry Stabbings":2,"Kanish Manuja":1,"Alvaro Morales":1,"Jason Lamkin":1}</script>
+<script type="application/json" class="pd-epn">{"Shopify":17,"智能体":448,"OpenAI":181,"Anthropic":192,"ChatGPT":102,"Sal Motamini":1,"Harry Stabbings":2,"Kanish Manuja":1,"Alvaro Morales":1,"Jason Lamkin":1}</script>
 
 <script>
 (function(){

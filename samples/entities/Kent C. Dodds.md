@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]] [[Rowan Christmas]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":446,"产品工程师":1,"实现":1,"mom test":1,"验证":2,"最小切片":1,"变通办法":1,"MVP":3,"WorkOS":10,"Cloudflare":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"产品工程师":1,"实现":1,"mom test":1,"验证":2,"最小切片":1,"变通办法":1,"MVP":3,"WorkOS":10,"Cloudflare":16}</script>
 
 <script>
 (function(){

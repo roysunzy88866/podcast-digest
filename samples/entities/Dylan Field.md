@@ -46,7 +46,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 

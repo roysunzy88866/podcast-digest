@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":446,"沙箱":85,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":6,"Anthropic":191,"Cloudflare":16,"Vercel AI SDK":2}</script>
+<script type="application/json" class="pd-epn">{"Electric":1,"Electric Agents":1,"智能体":448,"沙箱":87,"会话日志追踪":2,"多智能体系统":1,"Managed Agents":6,"Anthropic":192,"Cloudflare":16,"Vercel AI SDK":2}</script>
 
 <script>
 (function(){

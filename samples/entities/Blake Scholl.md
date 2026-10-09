@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":32,"Boeing":2,"FAA":2,"Uber":17,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":32,"Boeing":2,"FAA":2,"Uber":18,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":3,"马赫切断":1}</script>
 
 <script>
 (function(){

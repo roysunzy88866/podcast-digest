@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":446,"编码智能体":28,"前沿模型":27,"Claude Code":98,"管理者日程":1,"评估":5,"爬坡":2,"沙箱":85}</script>
+<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":448,"编码智能体":30,"前沿模型":27,"Claude Code":98,"管理者日程":1,"评估":5,"爬坡":2,"沙箱":87}</script>
 
 <script>
 (function(){

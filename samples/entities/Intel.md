@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Intel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Intel">IN</div><div class="pi"><h1 class="pt">Intel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Intel">IN</div><div class="pi"><h1 class="pt">Intel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]]**(00:42起):本集提到 Sachin 来 OpenAI 前曾任 Intel 的 CTO，这段经历让他见惯大决策的节奏。
 - **[[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]]**(38:40起):本集说找 Intel 代工本来从不理性，但算力稀缺最终拯救了 Intel——短缺本身就是把 Intel、三星拉回牌桌的经济动力。
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(53:47起):作为大公司文化惯性的反面案例：Steven 带第一台 Surface 去见 Intel 领导层展示 ARM 芯片，但 Intel 的文化是做 Moore's Law，认为 ARM 只是打印机用的芯片，最终被移动平台颠覆。
+- **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(01:10起):本集说 Pat 18 岁加入 Intel，从技术员做到 486 架构师和 CTO，当年为了造 486 自己发明了硬件描述语言、编译器和自动布线，开创了现代 EDA 产业。
 
 ## ① 提到它的金句
 
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]] — 作为被讨论公司(提及)
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为被讨论公司
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为被讨论公司(提及)
+- [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Microsoft]] · [[推理]] · [[Anthropic]] · [[Google]] · [[Amazon]] · [[Sachin Katti]] · [[Ben Thompson]] · [[Martin Casado]] · [[Matt Turk]]
+[[OpenAI]] · [[推理]] · [[Anthropic]] · [[Microsoft]] · [[Google]] · [[NVIDIA]] · [[Amazon]] · [[Sachin Katti]] · [[Ben Thompson]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":180,"Microsoft":29,"推理":87,"Anthropic":191,"Google":66,"Amazon":32,"Sachin Katti":1,"Ben Thompson":1,"Martin Casado":5,"Matt Turk":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":181,"推理":88,"Anthropic":192,"Microsoft":29,"Google":67,"NVIDIA":64,"Amazon":32,"Sachin Katti":1,"Ben Thompson":1,"Martin Casado":5}</script>
 
 <script>
 (function(){

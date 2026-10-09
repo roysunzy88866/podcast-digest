@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":5,"Droid":1,"智能体":446,"harness":61,"模型独立性":1,"路由器":1,"token":32,"开源模型":4,"软件工厂":1,"基于结果的付费":4}</script>
+<script type="application/json" class="pd-epn">{"Factory":5,"Droid":1,"智能体":448,"harness":62,"模型独立性":1,"路由器":1,"token":32,"开源模型":4,"软件工厂":1,"基于结果的付费":4}</script>
 
 <script>
 (function(){

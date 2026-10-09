@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":2,"Opus 4.5":2,"Mythos":5,"编排":7,"拟物化":1,"沉没成本心态":1,"AWS":21,"Vercel":19,"Reddit":7,"Slack":31}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":2,"Opus 4.5":2,"Mythos":5,"编排":7,"拟物化":1,"沉没成本心态":1,"AWS":22,"Vercel":19,"Reddit":7,"Slack":31}</script>
 
 <script>
 (function(){

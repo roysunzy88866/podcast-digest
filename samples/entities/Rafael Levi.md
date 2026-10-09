@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":12,"视频索引":1,"训练数据":3,"YouTube":8,"Meta":48,"NVIDIA":63}</script>
+<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":13,"视频索引":1,"训练数据":3,"YouTube":8,"Meta":48,"NVIDIA":64}</script>
 
 <script>
 (function(){

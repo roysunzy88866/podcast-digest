@@ -25,7 +25,7 @@ unlisted: true
 
 [[Arman Vaziri]] · [[Ramp]] · [[智能体]] · [[持久化执行]] · [[CDP]] · [[MCP]] · [[护栏]] · [[Temporal]] · [[TurboPuffer]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":446,"持久化执行":5,"CDP":1,"MCP":83,"护栏":84,"Temporal":5,"TurboPuffer":2,"Snowflake":20}</script>
+<script type="application/json" class="pd-epn">{"Arman Vaziri":1,"Ramp":10,"智能体":448,"持久化执行":6,"CDP":1,"MCP":83,"护栏":85,"Temporal":6,"TurboPuffer":2,"Snowflake":20}</script>
 
 <script>
 (function(){

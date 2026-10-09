@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":446,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":5,"Salesforce":34}</script>
+<script type="application/json" class="pd-epn">{"Clay":7,"GTM 工程":1,"智能体":448,"编排":7,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":5,"Salesforce":34}</script>
 
 <script>
 (function(){

@@ -191,8 +191,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|LLM 重造 DoorDash 搜索与推荐:四个基础组件]]<span class="pd-rz">同概念:嵌入 (embeddings)、记忆 (memory)</span>
+- [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场]]<span class="pd-rz">同概念:推理 (inference)、记忆 (memory)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:记忆 (memory)、推理 (inference)</span>
-- [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|让 AI 像人一样犯错：Simile 创始人的模拟人类生意]]<span class="pd-rz">同概念:记忆 (memory)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Positron":2,"Anthropic":191,"OpenAI":180,"NVIDIA":63,"DeepSeq":2,"推理":87,"内存墙":1,"KV 缓存":5,"token":32}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Positron":2,"Anthropic":192,"OpenAI":181,"NVIDIA":64,"DeepSeq":2,"推理":88,"内存墙":1,"KV 缓存":5,"token":32}</script>
 
 <script>
 (function(){

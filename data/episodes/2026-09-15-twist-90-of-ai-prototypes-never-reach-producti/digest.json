@@ -1,0 +1,179 @@
+{
+  "title_zh": "为什么 90% 的 AI 原型死在了演示阶段？",
+  "tldr": "Temporal 首席执行官 Samar Abbas 讲解 AI 智能体为何总是跑一半就崩，以及企业该怎么把它们安全地搬上生产线。",
+  "digest_md": "你大概也见过这样的场面：公司里有人兴冲冲地演示一个 AI 智能体，大家都很兴奋，然后有人问一句——这东西能正式上线吗？答案是：不知道。Samar Abbas 是 Temporal 的首席执行官，在 AWS、Microsoft 和 Uber 做了 20 年工程。他跟 This Week in Startups 的主持人聊了聊：为什么 AI 原型遍地都是，真正跑起来的却寥寥无几。\n\n## 为什么演示很惊艳，上线就翻车？\n\nAbbas 说，现在有了编程智能体，任何人只要有想法就能做出一个应用。但 90% 的这些想法死在概念验证阶段，再也见不到天日 [02:31 Samar Abbas]。\n\n原因不神秘。演示用的东西跑在自己的笔记本电脑上，跑几分钟就完事。真正上线的系统不一样：跑得久、规模大、异步、还要在真实世界里执行动作——比如处理退款、下订单。一旦到这个阶段，就会撞上老一套问题：可靠性、可扩展性、容错性。\n\nAbbas 的判断是：**这不是全新的 AI 问题，而是分布式系统的老问题重演**。就像当年云计算兴起时一样，智能体正在从个人电脑毕业，搬进真正的分布式环境，老麻烦也随之而来。\n\n## 跑了就停、停了就忘怎么破？\n\n主持人 Jason 提出一个所有人都遇过的痛点：AI 产品用着用着就卡住了，你必须从头再来——如果是几小时的大任务，那就更惨了。更糟的是，模型不知道自己刚才停在哪一步。\n\nAbbas 举了个例子：一个智能体在处理退款，刚退完钱，机器重启、进程崩溃，它还没来得及通知客户就死了。现在你怎么办？==重新处理一遍，再退一次款==？那可就贵了 [05:22 Samar Abbas]。\n\n这就是 Temporal 在做的事，他们称之为持久化执行：代码运行过程中出了故障，平台会记住之前所有的状态，软件开发者一行相关代码都不用写。退款处理到一半崩了，状态已经安全存好，应用可以继续往前走。\n\n## 顺便，你还得到了一双眼睛\n\nTemporal 带来的另一个好处是可见性。==现在的智能体本质上是什么==？Abbas 的定义很直白：一个大型语言模型，加一段提示词，再给它一堆工具。模型自己决定下一步做什么 [10:20 Samar Abbas]。\n\n问题是，它在你看不见的地方做决定。Temporal 让你能实时看到智能体在调用什么工具、调用哪个模型、进展到哪一步。Jason 看完演示后说，他希望每个消费级 AI 产品都有这样的透明界面，至少能知道自己上次停在哪。\n\n有了这种可见性，你还能中途干预：哪一步出错了、哪一步在胡说八道，直接改业务逻辑，把它拉回正轨。\n\n## 模型负责聪明，挽具负责不翻车\n\n最近业内常说：模型很好，但你得把挽具做对。挽具这个词来自马具——马再有劲儿，缰绳和辕得稳，车才不会翻。\n\nAbbas 打了个比方：我们现在正处于智能体的 MS-DOS 时代，大多数人在自己笔记本电脑上装一个编程智能体用。但下一步是让它长时间独立运行，甚至协调几十个智能体、调用一堆工具，每个工具可能要跑几分钟、几小时甚至几天。\n\n这时候你需要把大脑从智能体循环里分离出来，单独放在外面，驱动整个分布式架构。一旦某个智能体走上歪路，不至于把整个过程全弄崩 [15:12 Samar Abbas]。这个外置的大脑，就是挽具。\n\n## 什么时候该把智能体搬出你的笔记本电脑？\n\nJason 问了一个实际的问题：销售部门的智能体帮我找线索、写跟进邮件、安排通话——什么时候从个人工具升级成公司流程？\n\nAbbas 的回答很干脆：光是从安全角度，在笔记本电脑上跑智能体就已经不是选项了。有一种叫代码模式的做法，智能体在运行时自己生成代码再执行——想象一个大企业把业务流程交给这种智能体，让它现场写代码在业务环境里跑，从安全角度看非常让人不安 [12:23 Samar Abbas]。\n\nTemporal 的办法是用工作流和活动两个构件：智能体生成的每条命令都可以被拦截、审查，套上护栏之后才放进沙盒里执行。\n\n另一个信号是人的变化：当任务从一个人玩，变成一个团队带着一群智能体解决复杂业务问题时，唯一可行的路就是分布式环境。这时候需要前向部署工程师——懂技术的人嵌入业务部门，用合适的工具把它建得牢靠。\n\n## 本集带走\n\n- 90% 的 AI 原型死在概念验证阶段：不是想法不行，是可靠性、可扩展性、容错这些分布式系统老问题没解决。\n- 持久化执行是关键：智能体跑一半崩了，平台要能记住状态、接着往前走，而不是从头再来（比如退两次款）。\n- 智能体 = 语言模型 + 提示词 + 工具；挽具是外置的大脑，保证某个智能体出错时整个流程不崩。\n- 安全正在强制智能体离开个人电脑：智能体现场生成代码再执行，企业必须能拦截、审查每条命令。\n- 从个人玩到团队用，是从笔记本电脑到分布式环境的分水岭，需要前向部署工程师把它建牢。",
+  "quotes": [
+    {
+      "en": "The way people are thinking about applications is very different, like especially with the rise of now coding agents coming in the mix, everyone suddenly is a software developer on the planet.",
+      "zh": "人们思考应用的方式已经非常不同了，尤其是随着现在编码智能体加入进来，地球上突然每个人都是软件开发者了。",
+      "timestamp": "01:47",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "Die after a POC, essentially. They never see light of the day.",
+      "zh": "在 POC 之后基本上就死掉了，永远见不到天日。",
+      "timestamp": "02:38",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "Is it ready for production? And the answer is inevitably, I don't know.",
+      "zh": "它准备好上生产了吗？而答案不可避免地是，我不知道。",
+      "timestamp": "03:00",
+      "speaker": "Jason"
+    },
+    {
+      "en": "The more scale, the more asynchronous they get, the more longer they run, the more actions they take in real world, the more value they create.",
+      "zh": "规模越大，它们变得越异步，运行时间越长，在真实世界中采取的行动越多，它们创造的价值就越大。",
+      "timestamp": "03:33",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "These problems start to look more and more similar to like distributed in nature rather than a completely new AI.",
+      "zh": "这些问题开始看起来越来越像是分布式系统本质上的问题，而不是一个全新的 AI 问题。",
+      "timestamp": "04:08",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "It's a very unnerving world from a security lens because suddenly you are literally running code emitted at runtime from an LLM into a business environment, essentially.",
+      "zh": "从安全视角看，这是一个非常令人不安的世界，因为突然间你实际上是在一个业务环境里，运行由 LLM 在运行时生成的代码。",
+      "timestamp": "12:23",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "I feel right now we are transitioning from an MS-DOS era of agents to a real cloud environment essentially.",
+      "zh": "我感觉我们现在正从智能体的 MS-DOS 时代过渡到一个真正的云环境。",
+      "timestamp": "13:38",
+      "speaker": "Samar Abbas"
+    },
+    {
+      "en": "We're going to have the paradigm shift from, I'm just going to do things on my laptop and have fun, to, hey, how does this affect the entire organization?",
+      "zh": "我们将迎来范式转变，从「我就在我笔记本上做点东西玩玩」到「嘿，这会如何影响整个组织？」",
+      "timestamp": "18:31",
+      "speaker": "Jason"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:47",
+      "speaker": "Samar Abbas",
+      "en": "The way people are thinking about applications is very different, like especially with the rise of now coding agents coming in the mix, everyone suddenly is a software developer on the planet.",
+      "zh": "人们思考应用的方式已经非常不同了，尤其是随着现在编码智能体加入进来，地球上突然每个人都是软件开发者了。"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Samar Abbas",
+      "en": "Die after a POC, essentially. They never see light of the day.",
+      "zh": "在 POC 之后基本上就死掉了，永远见不到天日。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Samar Abbas",
+      "en": "Is it ready for production? And the answer is inevitably, I don't know.",
+      "zh": "它准备好上生产了吗？而答案不可避免地是，我不知道。"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Samar Abbas",
+      "en": "And that's really the difference between production level software and a proof of concept.",
+      "zh": "这就是生产级软件和概念验证之间真正的区别。"
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Samar Abbas",
+      "en": "The more scale, the more asynchronous they get, the more longer they run, the more actions they take in real world, the more value they create.",
+      "zh": "规模越大，它们变得越异步，运行时间越长，在真实世界中采取的行动越多，它们创造的价值就越大。"
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Samar Abbas",
+      "en": "These problems start to look more and more similar to like distributed in nature rather than a completely new AI.",
+      "zh": "这些问题开始看起来越来越像是分布式系统本质上的问题，而不是一个全新的 AI 问题。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Jason",
+      "en": "Everybody's had the experience, no matter what AI product you're using, that it's working, it's working, it's working, and then it peters out, it stops.",
+      "zh": "每个人都经历过，无论你用的是哪款 AI 产品，它运行着、运行着、运行着，然后就慢慢停下来了，它停止了。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Samar Abbas",
+      "en": "And literally, immediately after processing a refund, a failure happens.",
+      "zh": "而就在处理完退款之后，立刻发生了一次故障。"
+    },
+    {
+      "timestamp": "06:02",
+      "speaker": "Samar Abbas",
+      "en": "Handling those failures are exactly the place where all of those production systems are having challenges as this AI starts taking action in the real world.",
+      "zh": "处理这些故障，恰恰就是当 AI 开始在真实世界中采取行动时，所有这些生产系统遇到挑战的地方。"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Samar Abbas",
+      "en": "We describe this thing as durable execution, where during an execution of a code, if a failure happens, we remember all of that state, without you as a software developer writing a single line of code for it.",
+      "zh": "我们把这件事描述为持久执行，即在一段代码的执行过程中，如果发生故障，我们会记住所有的状态，而你作为软件开发者不需要为它编写一行代码。"
+    },
+    {
+      "timestamp": "09:16",
+      "speaker": "Jason",
+      "en": "I've never seen somebody show me what's going on behind the scenes.",
+      "zh": "我从来没有见过有人向我展示幕后正在发生的事情。"
+    },
+    {
+      "timestamp": "09:48",
+      "speaker": "Jason",
+      "en": "I wish I had this heads-up display available to me in every consumer product.",
+      "zh": "我真希望我在每个消费级产品里都有这样的抬头显示。"
+    },
+    {
+      "timestamp": "12:23",
+      "speaker": "Samar Abbas",
+      "en": "It's a very unnerving world from a security lens because suddenly you are literally running code emitted at runtime from an LLM into a business environment, essentially.",
+      "zh": "从安全视角看，这是一个非常令人不安的世界，因为突然间你实际上是在一个业务环境里，运行由 LLM 在运行时生成的代码。"
+    },
+    {
+      "timestamp": "13:34",
+      "speaker": "Samar Abbas",
+      "en": "I feel right now we are transitioning from an MS-DOS era of agents to a real cloud environment essentially.",
+      "zh": "我感觉我们现在正从智能体的 MS-DOS 时代过渡到一个真正的云环境。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Samar Abbas",
+      "en": "This is where a hardness becomes a very core component of driving execution is it's the brain.",
+      "zh": "这就是 harness 成为驱动执行的核心组件的地方，它就是大脑。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Samar Abbas",
+      "en": "I don't think enterprise can even adopt these agentic architectures until they can run with all of the guardrails which are needed to execute like these business processes in those environments.",
+      "zh": "我甚至不认为企业能采用这些智能体架构，除非它们能够在所有必要的护栏下运行，才能在这些环境里执行这些业务流程。"
+    },
+    {
+      "timestamp": "16:33",
+      "speaker": "Samar Abbas",
+      "en": "None of the enterprises will ever allow these agents to run on a laptop, essentially.",
+      "zh": "基本上没有任何企业会允许这些智能体在笔记本上运行。"
+    },
+    {
+      "timestamp": "17:15",
+      "speaker": "Samar Abbas",
+      "en": "Running agents on your laptop is no longer even an option.",
+      "zh": "在笔记本上运行智能体甚至已经不再是一个选项了。"
+    },
+    {
+      "timestamp": "18:09",
+      "speaker": "Samar Abbas",
+      "en": "The only viable path is through running those things through an agent in a distributed environment.",
+      "zh": "唯一可行的路径就是让这些东西通过一个智能体在分布式环境中运行。"
+    },
+    {
+      "timestamp": "18:31",
+      "speaker": "Jason",
+      "en": "We're going to have the paradigm shift from, I'm just going to do things on my laptop and have fun, to, hey, how does this affect the entire organization?",
+      "zh": "我们将迎来范式转变，从「我就在我笔记本上做点东西玩玩」到「嘿，这会如何影响整个组织？」"
+    }
+  ],
+  "voice_script": "今天这一期，主角是 Samar Abbas，Temporal 的首席执行官。这家伙之前在 AWS、Microsoft 和 Uber 做了整整二十年工程，聊的问题特别接地气：为什么现在 AI 智能体的演示遍地都是，公司里人人都在展示，可一问\"能不能正式上线\"，答案永远是\"不知道\"。真正跑起来的产品，寥寥无几。\n\n这事儿你大概也见过。公司里有人兴冲冲演示一个 AI 智能体，大家都很兴奋，然后有人问一句：这东西能上生产吗？答案不可避免地是——不知道。Abbas 给了一个很扎心的数字：现在有了编程智能体，只要有想法，任何人都能做出一个应用，地球上突然人人都是软件开发者。但九成以上的想法，在概念验证之后就死掉了，永远见不到天日。\n\n为什么？原因其实不神秘。演示用的东西跑在自己的笔记本电脑上，跑几分钟就完事。而真正上线的系统不一样：跑得久、规模大、异步执行，还要在真实世界里干实事——处理退款、下订单。一旦走到这一步，就会撞上那几个老麻烦：可靠性、可扩展性、容错性。Abbas 的判断是，这根本不是什么全新的 AI 问题，而是分布式系统的老问题重演。就像当年云计算兴起时一样，智能体正在从个人电脑毕业，搬进真正的分布式环境，当年的老麻烦也就跟着来了。\n\n那这些老麻烦，具体长什么样？主持人 Jason 提了一个所有人都遇过的痛点：AI 产品用着用着就卡住了，你得从头再来。要是几小时的大任务，那就更惨——模型自己都不知道刚才停在哪一步。Abbas 举了个更疼的例子：一个智能体在处理退款，刚退完钱，机器重启、进程崩溃，还没来得及通知客户就死了。现在怎么办？重新处理一遍、再退一次款？那可就贵了。\n\n这正好引出 Temporal 在做的事，术语叫持久化执行。说白了就是：代码运行过程中出了故障，平台会记住之前所有的状态，开发者一行相关代码都不用写。退款处理到一半崩了，状态已经安全存好，应用接着往前走就行，不用从头再来。\n\n而且这还带来一个意外的收获——眼睛。你想想，现在的智能体本质上是什么？Abbas 的定义很直白：一个大型语言模型，加一段提示词，再给它一堆工具，模型自己决定下一步做什么。问题是，它在你完全看不见的地方做决定。有了 Temporal 这套东西，你能实时看到智能体在调用什么工具、调用哪个模型、进展到哪一步。Jason 看完演示之后说，他希望每个消费级 AI 产品都有这样的透明界面，至少让人知道自己上次停在哪。更进一步，有了可见性你还能中途干预：哪一步出错了、哪一步在胡说八道，直接改业务逻辑，把它拉回正轨。\n\n这就引出业内最近常说的一个说法：模型很好，但你得把挽具做对。挽具这个词来自马具——马再有劲儿，缰绳和辕得稳，车才不会翻。Abbas 打了个比方，说我们现在正处于智能体的 MS-DOS 时代，大多数人就是在自己笔记本电脑上装一个编程智能体用。但下一步，是让它长时间独立运行，甚至协调几十个智能体、调用一堆工具，每个工具可能要跑几分钟、几小时甚至几天。这时候你需要把大脑从智能体循环里分离出来，单独放在外面，驱动整个分布式架构。这样一旦某个智能体走上歪路，不至于把整个流程全弄崩。这个外置的大脑，就是挽具。\n\n那么实际操作层面，什么时候该把智能体搬出你的笔记本电脑呢？Jason 问的正是这个：比如销售部门的智能体帮忙找线索、写跟进邮件、安排通话，什么时候从个人工具升级成公司流程？Abbas 的回答很干脆：光从安全角度讲，在笔记本电脑上跑智能体就已经不是选项了。你想，现在有一种叫代码模式的做法，智能体在运行时自己生成代码再执行——想象一个大企业把业务流程交给这种智能体，让它现场写代码在业务环境里跑。从安全视角看，这是一个非常令人不安的世界。Temporal 的办法是用工作流和活动两个构件：智能体生成的每一条命令都可以被拦截、审查，套上护栏之后才放进沙盒里执行。\n\n除了安全，还有一个人的变化也是信号：当任务从一个人玩，变成一个团队带着一群智能体解决复杂业务问题时，唯一可行的路就是分布式环境。这时候就需要前向部署工程师——懂技术的人嵌进业务部门，用合适的工具把它建得牢靠。\n\n所以回头看，九成的 AI 原型死在演示阶段，不是想法不行，而是可靠性、可扩展性、容错这些分布式系统的老问题没解决。用 Abbas 的话说，这些问题看起来越来越像分布式系统本质上的问题，而不是一个全新的 AI 问题。规模越大，智能体越异步，在真实世界里采取的行动越多，创造的价值就越大——但前提是，你得先给这匹马配好挽具，车才不会翻。"
+}

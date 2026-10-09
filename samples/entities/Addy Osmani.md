@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":446,"认知投降":3,"认知债务":3,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":84,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":448,"认知投降":3,"认知债务":3,"循环工程":5,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":85,"Chrome":4}</script>
 
 <script>
 (function(){

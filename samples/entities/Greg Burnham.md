@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":18,"递归自我改进":10,"研究品味":1,"上下文学习":3,"harness":61,"对齐":18}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":18,"递归自我改进":10,"研究品味":1,"上下文学习":3,"harness":62,"对齐":18}</script>
 
 <script>
 (function(){

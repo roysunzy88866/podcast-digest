@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":446,"编排器":4,"护栏":84,"循环":10,"规则":2,"police 文件":1,"vibe coding":47,"vibe engineering":1,"技能文件":4,"Codex":81}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"编排器":4,"护栏":85,"循环":10,"规则":2,"police 文件":1,"vibe coding":47,"vibe engineering":1,"技能文件":4,"Codex":81}</script>
 
 <script>
 (function(){

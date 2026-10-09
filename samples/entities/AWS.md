@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AWS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>21</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AWS">AW</div><div class="pi"><h1 class="pt">AWS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -27,6 +27,7 @@ unlisted: true
 - **[[2026-08-29-talks-agents-are-where-microservices-were-in-2|《Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层》]]**(03:04起):本集说 Navan 全部跑在 AWS 上,重度使用其 agent core 运行时和 agent core 记忆,但会话持久化与状态恢复等空白靠自己构建补齐。
 - **[[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|《机器人流量已超人类：当 AI 智能体开始自己付钱》]]**(00:17起):本集演讲者的公司，发布了 AgentCore Payments 和 WAF AI Traffic Monetization，是 X402 协议的支持方之一。
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(00:48起):本集说嘉宾的职业生涯起点，2010、2011 年前后在那里做工程师，后来发现动手工程对他来说不够。
+- **[[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]]**(00:45起):本集只在介绍嘉宾 Samar Abbas 的 20 年工程履历时提到他曾在 AWS 工作。
 - **[[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]]**(40:48起):本集说与 AWS 的解耦合作也看到类似 5 倍的吞吐量数字；AWS 带着自家 training parts 是四大芯片厂商之一。
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(03:11起):本集嘉宾在此工作 18 年、任 VP 兼杰出工程师，正专注智能体 AI 基础设施，并推出 Agent Core、Strands、Dogwood 等智能体相关产品。
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(21:45起):作为 Thema 团队人才来源被提及:「我们有来自 AWS 的人」。
@@ -44,7 +45,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
@@ -62,6 +63,7 @@ unlisted: true
 - [[2026-08-29-talks-agents-are-where-microservices-were-in-2|《Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层》]] — 作为被讨论公司
 - [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|《机器人流量已超人类：当 AI 智能体开始自己付钱》]] — 作为被讨论公司
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]] — 作为被讨论公司(提及)
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|《一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为被讨论公司
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司(提及)
@@ -72,9 +74,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[NVIDIA]] · [[Databricks]] · [[Microsoft]] · [[推理]] · [[Stripe]] · [[Google]]
+[[智能体]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[NVIDIA]] · [[Databricks]] · [[Microsoft]] · [[推理]] · [[ChatGPT]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"Anthropic":191,"护栏":84,"OpenAI":180,"NVIDIA":63,"Databricks":22,"Microsoft":29,"推理":87,"Stripe":48,"Google":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"Anthropic":192,"护栏":85,"OpenAI":181,"NVIDIA":64,"Databricks":22,"Microsoft":29,"推理":88,"ChatGPT":102,"Stripe":48}</script>
 
 <script>
 (function(){

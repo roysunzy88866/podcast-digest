@@ -41,7 +41,7 @@ unlisted: true
 
 [[Twitter]] · [[智能体]] · [[网络效应]] · [[Anthropic]] · [[ChatGPT]] · [[Facebook]] · [[直播购物]] · [[Google]] · [[Amazon]] · [[Tom Verrilli]]
 
-<script type="application/json" class="pd-epn">{"Twitter":7,"智能体":446,"网络效应":14,"Anthropic":191,"ChatGPT":101,"Facebook":16,"直播购物":2,"Google":66,"Amazon":32,"Tom Verrilli":1}</script>
+<script type="application/json" class="pd-epn">{"Twitter":7,"智能体":448,"网络效应":14,"Anthropic":192,"ChatGPT":102,"Facebook":16,"直播购物":2,"Google":67,"Amazon":32,"Tom Verrilli":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BENT":1,"gem":2,"智能体":446,"多智能体协调":3,"分布式系统":1,"循环工程":5,"MCP":83,"A2A 协议":2,"Claude":92,"Codex":81}</script>
+<script type="application/json" class="pd-epn">{"BENT":1,"gem":2,"智能体":448,"多智能体协调":3,"分布式系统":1,"循环工程":5,"MCP":83,"A2A 协议":2,"Claude":92,"Codex":81}</script>
 
 <script>
 (function(){

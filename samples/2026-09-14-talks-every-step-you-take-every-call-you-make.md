@@ -115,7 +115,7 @@ Restate 不把你钉死在某种写法上:原来内联的 LLM 调用可以提取
 
 - [[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code|当 AI 智能体成为云的主要用户：Render CEO 谈云的下一次重建]]<span class="pd-rz">同概念:持久化执行 (durable execution)、智能体 (agent)、MCP</span>
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同概念:持久化执行 (durable execution)、智能体 (agent)、MCP</span>
-- [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|人是一个异步接口:冰淇淋配送背后的智能体架构]]<span class="pd-rz">同概念:持久化执行 (durable execution)、智能体 (agent)</span>
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|为什么 90% 的 AI 原型死在了演示阶段？]]<span class="pd-rz">同概念:持久化执行 (durable execution)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

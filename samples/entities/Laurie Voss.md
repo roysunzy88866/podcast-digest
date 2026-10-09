@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"代码审查":24,"智能体":446,"提示词注入":1,"基准测试":18,"误报":1,"GitHub":30,"Cursor":83,"OpenAI":180,"Anthropic":191,"Cognition":26}</script>
+<script type="application/json" class="pd-epn">{"代码审查":24,"智能体":448,"提示词注入":1,"基准测试":18,"误报":1,"GitHub":30,"Cursor":83,"OpenAI":181,"Anthropic":192,"Cognition":26}</script>
 
 <script>
 (function(){

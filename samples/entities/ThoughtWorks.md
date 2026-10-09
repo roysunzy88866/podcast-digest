@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Newman]] · [[微服务]] · [[Uber]] · [[分布式系统]] · [[韧性]] · [[可观测性]] · [[生产环境即真相]] · [[规范驱动开发]] · [[幂等性]] · [[惊群效应]]
 
-<script type="application/json" class="pd-epn">{"Sam Newman":1,"微服务":1,"Uber":17,"分布式系统":1,"韧性":2,"可观测性":40,"生产环境即真相":1,"规范驱动开发":2,"幂等性":1,"惊群效应":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Newman":1,"微服务":1,"Uber":18,"分布式系统":1,"韧性":2,"可观测性":40,"生产环境即真相":1,"规范驱动开发":2,"幂等性":1,"惊群效应":1}</script>
 
 <script>
 (function(){

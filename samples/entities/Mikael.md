@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"OLX Classifieds":1,"OpenClaw":23,"Hermes":2,"智能体":446,"知识图谱":6,"向量数据库":6,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"OLX Classifieds":1,"OpenClaw":23,"Hermes":2,"智能体":448,"知识图谱":6,"向量数据库":6,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

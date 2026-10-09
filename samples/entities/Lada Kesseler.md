@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体编码":4,"智能体":446,"Claude MD":2,"技能":29,"TDD":4,"BDD":1,"approval tests":1,"验证器":7,"软件工厂":1,"事件溯源":2}</script>
+<script type="application/json" class="pd-epn">{"智能体编码":4,"智能体":448,"Claude MD":2,"技能":29,"TDD":4,"BDD":1,"approval tests":1,"验证器":7,"软件工厂":1,"事件溯源":2}</script>
 
 <script>
 (function(){

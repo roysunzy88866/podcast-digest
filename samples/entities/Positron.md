@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[NVIDIA]] · [[推理]] · [[上下文长度]] · [[智能体]] · [[缩放定律]] · [[Thomas Sohmers]] · [[Prakash Narayanan]] · [[Harry Stebbings]] · [[Thomas Somers]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":191,"NVIDIA":63,"推理":87,"上下文长度":2,"智能体":446,"缩放定律":13,"Thomas Sohmers":1,"Prakash Narayanan":1,"Harry Stebbings":20,"Thomas Somers":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":192,"NVIDIA":64,"推理":88,"上下文长度":2,"智能体":448,"缩放定律":14,"Thomas Sohmers":1,"Prakash Narayanan":1,"Harry Stebbings":20,"Thomas Somers":1}</script>
 
 <script>
 (function(){

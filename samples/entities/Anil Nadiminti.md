@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":446,"智能体电商":1,"X402":3,"AgentCore Payments":1,"WAF AI Traffic Monetization":1,"AWS":21,"Coinbase":7,"Stripe":48,"Anthropic":191,"护栏":84}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"智能体电商":1,"X402":3,"AgentCore Payments":1,"WAF AI Traffic Monetization":1,"AWS":22,"Coinbase":7,"Stripe":48,"Anthropic":192,"护栏":85}</script>
 
 <script>
 (function(){

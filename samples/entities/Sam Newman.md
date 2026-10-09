@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":17,"分布式系统":1,"韧性":2,"可观测性":40,"生产环境即真相":1,"规范驱动开发":2,"幂等性":1,"惊群效应":1}</script>
+<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":18,"分布式系统":1,"韧性":2,"可观测性":40,"生产环境即真相":1,"规范驱动开发":2,"幂等性":1,"惊群效应":1}</script>
 
 <script>
 (function(){

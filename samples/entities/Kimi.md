@@ -32,7 +32,7 @@ unlisted: true
 
 [[开源]] · [[Anthropic]] · [[Anastasios Angelopoulos]] · [[Zilvinas]] · [[Mamoun Hamid]] · [[Laurent]] · [[Jubin]] · [[Kimchi]] · [[arena]] · [[Cast.AI]]
 
-<script type="application/json" class="pd-epn">{"开源":38,"Anthropic":191,"Anastasios Angelopoulos":1,"Zilvinas":1,"Mamoun Hamid":1,"Laurent":2,"Jubin":2,"Kimchi":1,"arena":2,"Cast.AI":1}</script>
+<script type="application/json" class="pd-epn">{"开源":38,"Anthropic":192,"Anastasios Angelopoulos":1,"Zilvinas":1,"Mamoun Hamid":1,"Laurent":2,"Jubin":2,"Kimchi":1,"arena":2,"Cast.AI":1}</script>
 
 <script>
 (function(){

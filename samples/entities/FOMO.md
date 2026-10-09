@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[harness]] · [[Navin Chaddha]] · [[认知债务]] · [[Lumilens]] · [[认知投降]] · [[Mayfield]] · [[验证]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"Anthropic":191,"harness":61,"Navin Chaddha":1,"认知债务":3,"Lumilens":1,"认知投降":3,"Mayfield":1,"验证":2,"OpenAI":180}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"Anthropic":192,"harness":62,"Navin Chaddha":1,"认知债务":3,"Lumilens":1,"认知投降":3,"Mayfield":1,"验证":2,"OpenAI":181}</script>
 
 <script>
 (function(){

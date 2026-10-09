@@ -47,7 +47,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]] [[Andrew Wang]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
 
 </div>
 

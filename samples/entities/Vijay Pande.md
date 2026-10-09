@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":446,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":448,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
 
 <script>
 (function(){

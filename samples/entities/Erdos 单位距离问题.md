@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lisha Lee]] · [[Daniel Litt]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Codex]] · [[RL]] · [[Lean]] · [[直觉]]
 
-<script type="application/json" class="pd-epn">{"Lisha Lee":1,"Daniel Litt":1,"OpenAI":180,"Anthropic":191,"ChatGPT":101,"Claude":92,"Codex":81,"RL":13,"Lean":2,"直觉":2}</script>
+<script type="application/json" class="pd-epn">{"Lisha Lee":1,"Daniel Litt":1,"OpenAI":181,"Anthropic":192,"ChatGPT":102,"Claude":92,"Codex":81,"RL":13,"Lean":2,"直觉":2}</script>
 
 <script>
 (function(){

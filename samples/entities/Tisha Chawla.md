@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":446,"控制平面":2,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
+<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":448,"控制平面":3,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
 
 <script>
 (function(){

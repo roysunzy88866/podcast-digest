@@ -131,7 +131,7 @@ David 说这是他唯一记得那么卡顿的时刻——而卡成那样本身�
 
 - [[2026-07-15-rework-don-39-t-write-it-down|别记客户反馈：37signals 的产品决策逻辑]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>
 - [[2026-07-22-rework-start-here-building-a-better-onboarding|Basecamp 5 引导设计：让CEO亲自带客户过产品]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>
-- [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同公司:37signals</span>
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|为什么 90% 的 AI 原型死在了演示阶段？]]<span class="pd-rz">同嘉宾:Jason</span>
 
 </div>
 </div>

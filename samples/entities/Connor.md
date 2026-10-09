@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":18,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":87}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":18,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":88}</script>
 
 <script>
 (function(){

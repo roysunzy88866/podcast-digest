@@ -1,0 +1,1152 @@
+{
+  "episode_id": "2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh",
+  "podcast": "The a16z Show",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 基础设施",
+    "芯片设计",
+    "内存",
+    "能源",
+    "智能体"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "pat-gelsinger",
+      "type": "person",
+      "role": "guest",
+      "name": "Pat Gelsinger",
+      "file": "Pat Gelsinger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.888,
+            84.335
+          ],
+          "quote": "In this episode, A16Z's Ragu Ragu Ram and Guido Abedzeller sit down with Pat Gelsinger, general partner at Playground Global and former CEO of Intel and VMware, to discuss the next bottlenecks in AI infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            128.822,
+            134.966
+          ],
+          "quote": "I'm here with our esteemed guest and dear friend and former boss, Mr. Pat Gelsinger.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "type": "company",
+      "role": "company",
+      "name": "Intel",
+      "file": "Intel",
+      "primary": true,
+      "how_described": "本集说 Pat 18 岁加入 Intel，从技术员做到 486 架构师和 CTO，当年为了造 486 自己发明了硬件描述语言、编译器和自动布线，开创了现代 EDA 产业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.888,
+            84.335
+          ],
+          "quote": "In this episode, A16Z's Ragu Ragu Ram and Guido Abedzeller sit down with Pat Gelsinger, general partner at Playground Global and former CEO of Intel and VMware, to discuss the next bottlenecks in AI infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            85.296,
+            92.44
+          ],
+          "quote": "Pat takes us back to his early days designing Intel's processors, when engineers were inventing the tools they needed to build the chips themselves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            145.425,
+            150.129
+          ],
+          "quote": "Intel, for being the CTO of Intel, of course, leading VMware and many other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            168.623,
+            171.725
+          ],
+          "quote": "But yeah, no, let's start actually from your Intel career.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            192.935,
+            200.641
+          ],
+          "quote": "You had a similar experience, like you went to a regular trade school and then jumped into Intel when you were, what, 18 or 19, I should say?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            203.603,
+            213.011
+          ],
+          "quote": "I'm 16 years old, I accidentally win a scholarship, I go to tech school, I skipped my last year and a half of high school, and Intel comes recruiting when I'm 18 years old.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            235.21,
+            240.371
+          ],
+          "quote": "So I got invited to come to Intel and it just became really glorious.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            425.674,
+            427.714
+          ],
+          "quote": "The Intel hardware description language.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vmware",
+      "type": "company",
+      "role": "company",
+      "name": "VMware",
+      "file": "VMware",
+      "primary": true,
+      "how_described": "本集说 Pat 曾执掌 VMware，结尾借 VMware 提出开放问题：当主要用户从人变成 AI 智能体，虚拟化的每个环节都需要重做，要造「面向智能体的 VMware」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.888,
+            84.335
+          ],
+          "quote": "In this episode, A16Z's Ragu Ragu Ram and Guido Abedzeller sit down with Pat Gelsinger, general partner at Playground Global and former CEO of Intel and VMware, to discuss the next bottlenecks in AI infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 21,
+          "t": [
+            114.372,
+            117.754
+          ],
+          "quote": "In drawing on their shared history at VMware, they close with a question.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            145.425,
+            150.129
+          ],
+          "quote": "Intel, for being the CTO of Intel, of course, leading VMware and many other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2939.777,
+            2942.938
+          ],
+          "quote": "How do you think about that, the former CEO of VMware?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2943.398,
+            2949.319
+          ],
+          "quote": "Well, you know, I— I feel excluded from this conversation between former CEOs and VMware.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2991.164,
+            2992.684
+          ],
+          "quote": "One of us go back and run VMware?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2994.264,
+            2997.725
+          ],
+          "quote": "I think I told Kudos how it's time to go back and run VMware again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2999.366,
+            3010.129
+          ],
+          "quote": "And, you know, and I do think some of these abstractions, you know, but you also think about it and like one of the things we did at VMware, we, you know, essentially, you know, managed every aspect of the computing hierarchy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3076.45,
+            3081.673
+          ],
+          "quote": "So it's, if you have to rebuild VMware today, how would it look different?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3082.953,
+            3085.675
+          ],
+          "quote": "And I do think... VMware for agents, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3086.515,
+            3091.498
+          ],
+          "quote": "And I do think there's, you know, does there need to be a VMware for agents for humans?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "playground-global",
+      "type": "company",
+      "role": "company",
+      "name": "Playground Global",
+      "file": "Playground Global",
+      "primary": true,
+      "how_described": "本集说 Pat 现在是 Playground Global 的普通合伙人，投了核能运营公司、隐身期的新内存公司和超导公司 Snowcat。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.888,
+            84.335
+          ],
+          "quote": "In this episode, A16Z's Ragu Ragu Ram and Guido Abedzeller sit down with Pat Gelsinger, general partner at Playground Global and former CEO of Intel and VMware, to discuss the next bottlenecks in AI infrastructure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            136.467,
+            140.41
+          ],
+          "quote": "Pat is currently the general partner at Playground Global.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 是会挑选赢家芯片方案的大玩家之一，会像收购 Grok 后那样把异构性藏进自己的架构；还提到 NVL72 是工程奇迹也是制造噩梦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1127.996,
+            1142.873
+          ],
+          "quote": "Right, you know, where, you know, an OpenAI, an NVIDIA, an Anthropic will say, I like this one because it isn't just hardware, it's how do the hardware and software code evolve, right, you know, for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1295.833,
+            1299.855
+          ],
+          "quote": "Now, you know, clearly big players, and we saw this with what, you know, NVIDIA did with Grok.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1304.838,
+            1309.741
+          ],
+          "quote": "And, you know, two years from now, you're not going to tell what Grok is inside of NVIDIA, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2199.817,
+            2203.221
+          ],
+          "quote": "So, you know, clearly NVIDIA has indicated that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2894.818,
+            2905.104
+          ],
+          "quote": "Because CMOS hasn't improved, you know, the essential power per tera, you know, power per teraflop for the last five generations of NVIDIA chips, you know, flatline.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 这样的赢家会选中某些芯片方案并投入软件生态去扶持，并提到其 speculate and verify 的推理方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            931.521,
+            934.923
+          ],
+          "quote": "Well, maybe speculate and verify if we listen to OpenAI here, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1127.996,
+            1142.873
+          ],
+          "quote": "Right, you know, where, you know, an OpenAI, an NVIDIA, an Anthropic will say, I like this one because it isn't just hardware, it's how do the hardware and software code evolve, right, you know, for it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把 Anthropic 与 OpenAI、NVIDIA 并列为会挑选芯片赢家的大玩家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1127.996,
+            1142.873
+          ],
+          "quote": "Right, you know, where, you know, an OpenAI, an NVIDIA, an Anthropic will say, I like this one because it isn't just hardware, it's how do the hardware and software code evolve, right, you know, for it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "graphcore",
+      "type": "company",
+      "role": "company",
+      "name": "Graphcore",
+      "file": "Graphcore",
+      "primary": false,
+      "how_described": "本集举例说 Graphcore 设计不差，但世界往前走了，说明 AI 工作负载迁移之快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            705.264,
+            711.15
+          ],
+          "quote": "Right, you know, it's almost, you know, and we can look at it historically, it was like, you know, Graphcore wasn't a bad design, but the world moved on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hbm",
+      "type": "concept",
+      "role": "concept",
+      "name": "HBM",
+      "file": "HBM",
+      "primary": true,
+      "how_described": "本集说 HBM 是个糟糕的内存，只是我们手里最好的一个：位密度差、功耗高、发热集中，而 AI 恰恰是吃内存带宽的工作负载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            732.236,
+            735.677
+          ],
+          "quote": "And, you know, for that, as I've described, HBM is a hideous memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1504.088,
+            1515.015
+          ],
+          "quote": "Now, there's two domains that I'm excited about, you know, for, you know, one is, you know, this idea, you know, I do think that the shoreline bandwidth limitations of HBM is a fundamental issue, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存创新 (memory)",
+      "file": "内存创新",
+      "primary": true,
+      "how_described": "本集说过去 30 年主流新内存为零（只有 DRAM、SRAM、Flash），如今三大内存厂商市值暴涨、资本与需求同时到位，内存创新 30 年来第一次近在眼前。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            33.259,
+            36.823
+          ],
+          "quote": "Memory innovation for the first time in 30 years is nigh upon us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            93.508,
+            101.174
+          ],
+          "quote": "He explains why AI could bring a similar shift today, even as manufacturing timelines, memory bandwidth and power become harder constraints.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            102.014,
+            113.223
+          ],
+          "quote": "They also debate whether the explosion of specialized AI chips will last, why Pat believes memory innovation is finally approaching a breakthrough, and how optical networking could change the architecture of AI clusters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            725.894,
+            729.155
+          ],
+          "quote": "Another bottleneck, of course, is memory, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            729.175,
+            730.356
+          ],
+          "quote": "You know, memory bandwidth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            732.236,
+            735.677
+          ],
+          "quote": "And, you know, for that, as I've described, HBM is a hideous memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            738.038,
+            739.579
+          ],
+          "quote": "You know, it's a terrible memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            756.168,
+            758.77
+          ],
+          "quote": "Memory compute workload, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            767.235,
+            771.038
+          ],
+          "quote": "You know, I need to fix memory, right, associated with this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1337.6,
+            1340.161
+          ],
+          "quote": "Earlier you talked about HPM being hideous memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1347.565,
+            1350.647
+          ],
+          "quote": "We can't recall when there was the last memory innovation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1358.951,
+            1362.173
+          ],
+          "quote": "So do you think memory innovation",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1378.844,
+            1389.13
+          ],
+          "quote": "I've probably personally been associated with at least five different new memory architectures, Optane just being one of them, that did not see the light of day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1415.665,
+            1432.559
+          ],
+          "quote": "So in that, it has been a disappointing that we haven't created the next physics that enable low-cost, high-performance, resilient, manufacturable memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1434.44,
+            1446.785
+          ],
+          "quote": "So, I do think, and now, and over the last 30, 40 years, memory was a terrible industry because you would make money one year and then you'd lose money for the next four.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1487.801,
+            1491.763
+          ],
+          "quote": "And, you know, in that, you look at it and say, AI is a memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1494.064,
+            1503.488
+          ],
+          "quote": "So, I think there is the combination of capital and technology needs that will justify memory innovation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1526.242,
+            1528.003
+          ],
+          "quote": "Somehow you got to bring memory and...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1529.084,
+            1532.226
+          ],
+          "quote": "You know, you got to bring memory and compute together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1551.078,
+            1558.384
+          ],
+          "quote": "So I do believe and I've just funded a new memory company as well that's still in stealth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1565.168,
+            1581.256
+          ],
+          "quote": "And you're going to see new materials, you know, for memory, you know, a lot of people looking at things like ferroelectrics, you know, finding non-capacitive, you know, high-density memories, finding memories that can, you know, be high-performance, high-density and stackable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1590.6,
+            1607.188
+          ],
+          "quote": "I think, you know, speed and performance of the underlying cell are somewhat problematic with a flash or an MRAM structure, you know, but I do think there's memory innovations are coming for the first time in 30 years, and I do think that's going to be an exciting space, and, you know, we'll have a couple of companies there, I'm sure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1615.07,
+            1619.351
+          ],
+          "quote": "But I think memory innovation for the first time in 30 years is nigh upon us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1624.073,
+            1627.934
+          ],
+          "quote": "You know, I think the memory industry has now increased by market cap by $2.5 trillion over the last four years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1657.655,
+            1666.083
+          ],
+          "quote": "Is this going to be like, you know, we're going to go to two and then sit there for a while, or will we have, you know, the 16-layer sandwich, you know, happily mixing logic, memory, and SRAM?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1787.106,
+            1789.368
+          ],
+          "quote": "And then you're going to say, I want a memory stack on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1789.488,
+            1792.331
+          ],
+          "quote": "Is it a two stack memory, a four stack memory?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1792.992,
+            1794.834
+          ],
+          "quote": "I don't see it becoming an eight stack memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1868.085,
+            1875.131
+          ],
+          "quote": "So because of that, you know, throwing a 16 high stack, you know, it's like, that's crazy, you know, a two or four high memory stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1943.597,
+            1952.745
+          ],
+          "quote": "Let me ask you about an operant phenomenon, which is some people have said, hey, let's get the memory off of the package and just go all optical between the compute and the memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            1996.746,
+            2002.61
+          ],
+          "quote": "So I'm not a fan of those, you know, because I think it gives you access to large pools of memory, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2034.17,
+            2038.311
+          ],
+          "quote": "Other approach to say like, look, can we actually integrate compute and memory directly, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2038.531,
+            2041.132
+          ],
+          "quote": "Shift some of the compute into the memory itself.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2048.334,
+            2056.457
+          ],
+          "quote": "Because I think workloads, you know, because now I have to take my workload and I have to like push these little pieces of compute into the memory, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2056.517,
+            2061.298
+          ],
+          "quote": "You know, so that, you know, I don't need as much bandwidth of memory coming into my real compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2079.573,
+            2088.877
+          ],
+          "quote": "Right in that sense, you know, give me great memory bandwidth, you know, that I can have, you know, high density, high performance and get it close to the real compute engines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2123.64,
+            2126.061
+          ],
+          "quote": "But that core compute memory complex, no.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2504.545,
+            2507.227
+          ],
+          "quote": "Like some are more compute limited, some are more memory bandwidth.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2571.703,
+            2577.965
+          ],
+          "quote": "So we talked about what, compute, memory, networking, power is the next one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说市面上约一百家 AI 推理加速芯片公司是暂时现象；推理模型需要更像 CPU 的硬件，且训练与推理未来会更趋融合而非分离。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.249,
+            48.336
+          ],
+          "quote": "This is like renaissance in front of AI inference accelerator chips and I'm sure I don't even know them all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            838.651,
+            843.375
+          ],
+          "quote": "Yeah, it's like there's a hundred AI inference accelerator chips and I'm sure I don't even know them all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2429.987,
+            2433.994
+          ],
+          "quote": "Yeah, although, I mean, training and inference this time should look fairly similar.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2434.034,
+            2435.537
+          ],
+          "quote": "The inference corpus less similar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2451.103,
+            2469.332
+          ],
+          "quote": "That's a little bit of the argument against more and more heterogeneous architectures is I think continuous learning, I think there'll be algorithmic domains that will say, yes, continuous learning becomes the nature of the algorithm where, yeah, I do want my inference environment to be updating my model weights because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2484.273,
+            2490.516
+          ],
+          "quote": "But the number of nodes you need in order to be useful is a smaller diameter for inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体群一晚上就能写出优化内核、降低异构硬件编程门槛，并主张为智能体重造虚拟化：安全配置、性能管理、迁移都要有智能体版本，人类负责定政策、定宪法、看仪表盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 276,
+          "t": [
+            1227.879,
+            1237.004
+          ],
+          "quote": "Today, you know, writing an optimized kernel for, I mean, I think Calapeño was a great example, but they basically said, look, humans can't really program this thing anymore, but an agent swarm overnight can do it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3017.535,
+            3021.998
+          ],
+          "quote": "And I think in the AI context, we think about these agent swarms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3064.72,
+            3067.803
+          ],
+          "quote": "You want the agent to make the pick for your VM offering.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "virtualization",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟化 (virtualization)",
+      "file": "虚拟化",
+      "primary": true,
+      "how_described": "本集说当 AI 智能体成为主要用户，虚拟化与管理的每个基本要素都需要在下一个计算层级中被重新创造，相当于要有「智能体版的 vMotion」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            118.435,
+            125.66
+          ],
+          "quote": "What would it look like to rebuild virtualization for a world where AI agents, rather than humans, are the primary users?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3030.986,
+            3038.572
+          ],
+          "quote": "Essentially, every fundamental element of virtualization and management needs to get recreated in this next computing hierarchy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "energy-capacity",
+      "type": "concept",
+      "role": "concept",
+      "name": "能源容量 (energy capacity)",
+      "file": "能源容量",
+      "primary": true,
+      "how_described": "本集说在 AI 数字时代，能源容量等于经济容量：美国能源容量近 15 年基本持平，燃气轮机交付要八年，数据中心项目会因缺电违约，核电与 800 伏直流是出路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.685,
+            5.932
+          ],
+          "quote": "In a AI digital age, energy capacity equals economic capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2608.524,
+            2618.049
+          ],
+          "quote": "Well, the, you know, and if we start at, you know, first principles here, you know, our nation has done a terrible job with this energy capacity, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2618.069,
+            2631.877
+          ],
+          "quote": "You know, and essentially we went through 10 to 15 years where essentially I was taking coal offline at the rate I was adding renewables and essentially the nation was flatlined in terms of overall energy capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2633.438,
+            2639.425
+          ],
+          "quote": "Because in a AI digital age, energy capacity equals economic capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2655.803,
+            2663.528
+          ],
+          "quote": "But, you know, I think, you know, even with that, we've gone to maybe increasing our national energy capacity 4% per year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2675.556,
+            2677.737
+          ],
+          "quote": "So we just need more energy capacity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2715.982,
+            2721.745
+          ],
+          "quote": "And fundamentally, energy capacity somewhat dampens how euphoric we can get on AI, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2767.547,
+            2776.155
+          ],
+          "quote": "But we need more energy capacity and we need to get more innovation into that and we need more of those supply chains in the U.S. Nuclear, one of my favorites.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "optical",
+      "type": "concept",
+      "role": "concept",
+      "name": "光网络 (optical)",
+      "file": "光网络",
+      "primary": true,
+      "how_described": "本集说 Pat 是把所有 I/O 迁移到光学的铁杆拥趸，25 年前就宣判铜线死刑；铜在五米距离比光学一百米还贵，业界预计 28、29 年转向 CPO/NPO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            102.014,
+            113.223
+          ],
+          "quote": "They also debate whether the explosion of specialized AI chips will last, why Pat believes memory innovation is finally approaching a breakthrough, and how optical networking could change the architecture of AI clusters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1085.973,
+            1089.075
+          ],
+          "quote": "You know, there's multiple optical ones, there's probabilistic ones and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1851.15,
+            1853.912
+          ],
+          "quote": "How do I get optical connectivity built into this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1943.597,
+            1952.745
+          ],
+          "quote": "Let me ask you about an operant phenomenon, which is some people have said, hey, let's get the memory off of the package and just go all optical between the compute and the memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1962.389,
+            1979.136
+          ],
+          "quote": "Yeah, you know, I think the more OEO, right, interfaces, you know, optical to electrical to optical to, you know, the more of those that you demand in your core compute complex, you know, to me, it's just hard, right, in that sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2121.738,
+            2122.619
+          ],
+          "quote": "should go to optical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2127.402,
+            2136.313
+          ],
+          "quote": "So the first step for going on optical is to scale up, even more so than scale out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2158.333,
+            2167.457
+          ],
+          "quote": "And all of a sudden, you know, to make my copper work at, you know, five meters is more expensive than making optical work, right, at a hundred meters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2224.106,
+            2231.572
+          ],
+          "quote": "But, you know, that really proved that had we had a more mature optical supply chain, we'd be much more advanced today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2238.197,
+            2243.281
+          ],
+          "quote": "But we didn't have the maturity of the optical supply chains to allow that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2269.519,
+            2274.062
+          ],
+          "quote": "And, you know, there's just a lot of things there, you know, and many forms of optical don't like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2292.696,
+            2303.865
+          ],
+          "quote": "In terms of the networked architecture, builders also mean a switch, what's more circuit switched networks just because, you know, you can't scale these very fast optical networks indefinitely.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2347.067,
+            2350.471
+          ],
+          "quote": "So I do think this confluence of moving to optical",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2351.732,
+            2372.882
+          ],
+          "quote": "And, you know, having a workload that is far more predictable, manageable, you know, large in flow, you know, to me, you know, I do see that, yeah, we will go all the way to bringing optical into the compute complex and we will go all the way to OCS or some form of optical switching, you know, with more predictable flows.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

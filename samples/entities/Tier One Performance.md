@@ -25,7 +25,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Mike Lewis]] · [[非技术构建者]] · [[L0]] · [[智能体]] · [[Claude]] · [[组织转型]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Mike Lewis":1,"非技术构建者":1,"L0":1,"智能体":446,"Claude":92,"组织转型":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Mike Lewis":1,"非技术构建者":1,"L0":1,"智能体":448,"Claude":92,"组织转型":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,712 @@
+{
+  "episode_id": "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-15",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "分布式系统",
+    "企业级 AI",
+    "可靠性工程"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jason",
+      "type": "person",
+      "role": "host",
+      "name": "Jason",
+      "file": "Jason",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            61.722,
+            63.084
+          ],
+          "quote": "Thanks, Jason, for having me here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            87.569,
+            90.691
+          ],
+          "quote": "So Jason, I get this question a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            310.328,
+            321.891
+          ],
+          "quote": "I think, Jason, this is basically, I feel this is becoming table stakes as these AI systems are maturing from like BOCs to powering real production systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            596.653,
+            599.475
+          ],
+          "quote": "And Jason, you are making a really great point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1137.686,
+            1138.527
+          ],
+          "quote": "Thanks a lot, Jason.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "samar-abbas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Samar Abbas",
+      "file": "Samar Abbas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            31.132,
+            34.814
+          ],
+          "quote": "So today on AI Basics, our guest is Samar Abbas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "temporal",
+      "type": "company",
+      "role": "company",
+      "name": "Temporal",
+      "file": "Temporal",
+      "primary": true,
+      "how_described": "本集说 Temporal 是嘉宾 Samar Abbas 领导的公司，提供「持久化执行」平台：代码执行中发生故障时平台记住全部状态，开发者无需为此写一行代码，并给智能体应用提供完整可见性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            34.834,
+            41.599
+          ],
+          "quote": "He is the CEO of Temporal, T-E-M-P-O-R-A-L.io, if you want to go take a look at the website.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            47.945,
+            60.4
+          ],
+          "quote": "Today, we're going to talk about why agents desperately need harnesses and how enterprises can safely dip their toes into the agentic era and why he's building Temporal on Google Cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            473.895,
+            484.462
+          ],
+          "quote": "And here you have, I guess, in the top left corner, your workflow, your code, and then you have this temporal event timeline that plays, and you can kind of watch it work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            504.152,
+            521.806
+          ],
+          "quote": "One of the coding agents, which we have a temporal skills, which is actually, you can just express, this is, I want to build an application which helps me research a bunch of things on the internet and then consolidate the response and then it can emit a code which looks similar to what you are seeing in the top left window here essentially.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            599.515,
+            608.222
+          ],
+          "quote": "And I think that's one of the bigger powers that you get out of Temporal is, first of all, it gives you a transactional engine, which guarantees not only durability,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            635.894,
+            645.382
+          ],
+          "quote": "So exactly to your point is what Temporal not only gives you a transactional engine, which gives you durability guarantees, but it gives you complete visibility.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            756.491,
+            760.893
+          ],
+          "quote": "So what Temporal gives you, it has two constructs called Workflows and Activities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1126.335,
+            1131.7
+          ],
+          "quote": "But you're going to have to be thoughtful, folks, and definitely check out Temporal.io.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1139.988,
+            1145.874
+          ],
+          "quote": "Find out more about Temporal, as I mentioned, by visiting Temporal.io and all of our AI basics.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google-cloud",
+      "type": "company",
+      "role": "company",
+      "name": "Google Cloud",
+      "file": "Google Cloud",
+      "primary": false,
+      "how_described": "本集提到 Temporal 构建在 Google Cloud 上，并在结尾感谢 Google Cloud 赞助。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            47.945,
+            60.4
+          ],
+          "quote": "Today, we're going to talk about why agents desperately need harnesses and how enterprises can safely dip their toes into the agentic era and why he's building Temporal on Google Cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1150.81,
+            1157.766
+          ],
+          "quote": "Thank you so much to our friends at Google Cloud for making great products for all of my startups.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体定义为「一个 LLM 加一段提示词再给它一组工具」，模型自己决定下一步做什么；正在从笔记本电脑「毕业」进入真正的分布式环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            151.365,
+            155.451
+          ],
+          "quote": "I got started and build an application through a coding agent, but like 90% of those ideas",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            322.686,
+            328.15
+          ],
+          "quote": "Imagine an agent which is kind of building, processing a refund.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            620.881,
+            623.844
+          ],
+          "quote": "Mostly like what is an agent these days?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            623.904,
+            625.305
+          ],
+          "quote": "An agent is an LLM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            645.922,
+            651.285
+          ],
+          "quote": "into what your agent is actually doing to execute your task to get the right outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            717.542,
+            725.408
+          ],
+          "quote": "Where an agent on the fly solving a complex problem by building more code essentially.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            826.342,
+            842.048
+          ],
+          "quote": "Because imagine mass majority of the people today, how they are running agents if they install something on their laptops and like a coding agent and then they are running those coding agents which is actually solving complex problems and adding value to their day-to-day work essentially.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            881.187,
+            889.079
+          ],
+          "quote": "Where you people are separating out the brain is if you give an agent a very complex task, which requires to talk to dozens of agents",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            902.911,
+            909.637
+          ],
+          "quote": "You need to separate out a brain so when an agent goes down the round path it doesn't",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            920.741,
+            926.803
+          ],
+          "quote": "How do people know when it's time to take that agent they've been playing with on their desktop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1089.482,
+            1095.75
+          ],
+          "quote": "The only viable path is through running those things through an agent in a distributed environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说编码智能体让每个有想法的人都能构建应用，但 90% 的这类想法死在概念验证阶段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            151.365,
+            155.451
+          ],
+          "quote": "I got started and build an application through a coding agent, but like 90% of those ideas",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            826.342,
+            842.048
+          ],
+          "quote": "Because imagine mass majority of the people today, how they are running agents if they install something on their laptops and like a coding agent and then they are running those coding agents which is actually solving complex problems and adding value to their day-to-day work essentially.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "durable-execution",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化执行 (durable execution)",
+      "file": "持久化执行",
+      "primary": true,
+      "how_described": "本集说这是 Temporal 的核心：代码执行中出故障时，平台记住之前所有状态并保证应用在面对各种故障时持续向前推进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            372.548,
+            394.346
+          ],
+          "quote": "And this is where a platform like Temporo is kind of becoming super critical to just provide, like at the end of the day, what we give you is, we are, we describe this thing as durable execution, where during an execution of a code, if a failure happens, we remember all of that state, without you as a software developer writing a single line of code for it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            491.193,
+            495.6
+          ],
+          "quote": "As I told you earlier, we are the platform which ensures durable execution of your code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "挽具 (harness)",
+      "file": "挽具",
+      "primary": true,
+      "how_described": "本集说模型很好但必须把 harness 做对——它是分离在智能体循环之外的外置大脑，驱动分布式架构，某个智能体走错路时不会弄崩整个流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            783.723,
+            788.846
+          ],
+          "quote": "So talk to me a little bit about the role of the harness versus the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            789.947,
+            796.37
+          ],
+          "quote": "We've heard a lot of people saying these days, hey, models are great, obviously, but you got to get the harness right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            796.83,
+            806.914
+          ],
+          "quote": "Explain to people in plain English what that means to get the harness right and that the power and this next phase of executing on the potential of the models is the harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体循环 (agentic loop)",
+      "file": "智能体循环",
+      "primary": true,
+      "how_described": "本集说人们正在构建智能体循环（甚至有「循环工程/图工程」的说法），让智能体独立运行更长时间，而大脑要分离出循环之外。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            912.358,
+            920.361
+          ],
+          "quote": "So hardnesses are these brains, which is separated outside of the agentic loop to drive these distributed architectures.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "code-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码模式 (code mode)",
+      "file": "代码模式",
+      "primary": true,
+      "how_described": "本集说 code mode 是智能体在运行时现场生成代码再执行的做法，从企业安全视角看非常令人不安。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            714.185,
+            716.847
+          ],
+          "quote": "They are now, there is this thing called code mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            732.914,
+            743.302
+          ],
+          "quote": "I imagine a larger enterprise who is kind of now starting to transition these large business processes to these code mode agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            763.855,
+            770.018
+          ],
+          "quote": "So even those code mode is actually allows you to generate the code which needs to execute in the next step.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说企业只有在必要护栏下才能采用智能体架构：Temporal 让你拦截智能体生成的所有命令、套上护栏后再放进沙箱执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            770.613,
+            782.442
+          ],
+          "quote": "But then it gives you an ability where you can intercept all of those commands and provide the necessary guardrails to secure that environment before it gets executed in a real sandbox or a runtime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            978.195,
+            993.378
+          ],
+          "quote": "I think it's for enterprises, it's even, I don't think enterprise can even adopt these agentic architectures until they can run with all of the guardrails which are needed to execute like these business processes in those environments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到拦截命令之后放进真实沙箱或运行时中执行，作为安全运行智能体生成代码的方式之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            770.613,
+            782.442
+          ],
+          "quote": "But then it gives you an ability where you can intercept all of those commands and provide the necessary guardrails to secure that environment before it gets executed in a real sandbox or a runtime.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distributed-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式环境 (distributed environment)",
+      "file": "分布式环境",
+      "primary": true,
+      "how_described": "本集说智能体从笔记本电脑毕业进入真正的分布式环境后，可靠性、可扩展性、持久性等分布式系统老问题随之而来——这不是新 AI 问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            234.924,
+            254.898
+          ],
+          "quote": "Which feels very similar to when the cloud platform shift happening because suddenly all of these agents are now starting to graduate from running from your laptops into a real distributed environment and these problems start to look more and more similar to like distributed in nature rather than a completely new AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            863.533,
+            871.977
+          ],
+          "quote": "So which means these agents are going to now move away from your laptop to a distributed environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1089.482,
+            1095.75
+          ],
+          "quote": "The only viable path is through running those things through an agent in a distributed environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "proof-of-concept",
+      "type": "concept",
+      "role": "concept",
+      "name": "概念验证 (proof of concept)",
+      "file": "概念验证",
+      "primary": true,
+      "how_described": "本集说 90% 通过编码智能体做出的应用死在概念验证阶段：演示惊艳但不稳定、脆弱、不可复现，与生产级软件之间存在巨大鸿沟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            162.515,
+            165.116
+          ],
+          "quote": "And they die at that proof of concept stage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            185.208,
+            190.791
+          ],
+          "quote": "And that's really the difference between production level software and a proof of concept.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "workflows-and-activities",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作流与活动 (Workflows and Activities)",
+      "file": "工作流与活动",
+      "primary": false,
+      "how_described": "本集说这是 Temporal 的两个构件：Workflows 负责生成命令、可被拦截审查，Activities 在沙箱中执行，从而保障安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            756.491,
+            760.893
+          ],
+          "quote": "So what Temporal gives you, it has two constructs called Workflows and Activities.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前向部署工程师 (forward deployed engineer)",
+      "file": "前向部署工程师",
+      "primary": false,
+      "how_described": "本集说当团队带着智能体大军解决复杂业务问题时，需要前向部署工程师嵌入业务单元、用合适的工具把系统建得不脆弱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1095.87,
+            1100.296
+          ],
+          "quote": "And that's where a forward deployed engineer has to get involved.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集只在介绍嘉宾 Samar Abbas 的 20 年工程履历时提到他曾在 AWS 工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            45.381,
+            47.724
+          ],
+          "quote": "Worked at AWS, Microsoft, and Uber.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集只在介绍嘉宾履历时提到 Samar Abbas 曾在 Uber 工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            45.381,
+            47.724
+          ],
+          "quote": "Worked at AWS, Microsoft, and Uber.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说小组织的人最初通过把提示词给 ChatGPT 获得智能回答来使用 AI，之后才进入构建智能体循环的下一阶段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            1003.122,
+            1022.972
+          ],
+          "quote": "And I think for it is basically more of a question for, I think as a software developer, I think what's happening is like in smaller organizations, people, you know, like people started with using AI by giving their prompts to ChatGPT and they're getting intelligence answers back.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

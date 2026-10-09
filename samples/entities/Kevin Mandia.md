@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":446,"零日漏洞":3,"红队测试":7,"渗透测试":1,"自主防御":1,"开源模型":4,"护栏":84}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":448,"零日漏洞":3,"红队测试":7,"渗透测试":1,"自主防御":1,"开源模型":4,"护栏":85}</script>
 
 <script>
 (function(){

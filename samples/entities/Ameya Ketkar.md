@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":17,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":446,"可观测性":40,"护栏":84,"内环与外环":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":18,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":448,"可观测性":40,"护栏":85,"内环与外环":2}</script>
 
 <script>
 (function(){

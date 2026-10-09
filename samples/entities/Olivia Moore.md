@@ -44,7 +44,7 @@ unlisted: true
 
 [[智能体]] · [[Frederick Rankin]] · [[Elena Berger]] · [[Alex Rampell]] · [[Josh Ellman]] · [[Stein Pella]] · [[ChatGPT]] · [[Lassie]] · [[Claude]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"Frederick Rankin":1,"Elena Berger":5,"Alex Rampell":3,"Josh Ellman":1,"Stein Pella":1,"ChatGPT":101,"Lassie":1,"Claude":92,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"Frederick Rankin":1,"Elena Berger":5,"Alex Rampell":3,"Josh Ellman":1,"Stein Pella":1,"ChatGPT":102,"Lassie":1,"Claude":92,"人在回路":21}</script>
 
 <script>
 (function(){

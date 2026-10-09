@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":29,"Azure":3,"GitHub":30,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":61,"轨迹":4,"智能体":446}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":29,"Azure":3,"GitHub":30,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":62,"轨迹":4,"智能体":448}</script>
 
 <script>
 (function(){

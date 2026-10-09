@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-talks-harness-engineering-how-to-build-a-softw",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/X6l4lpA0_NY.m4a",
+  "duration_sec": 1223.586,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 220,
+  "asr": true,
+  "title_en": "Harness Engineering: How to Build a Software Factory — Dru Knox, Tessl",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "added": "2026-10-09",
+  "added_at": "2026-10-09T14:26:17.421Z",
+  "speaker_map": {
+    "SPEAKER_00": "Dru Knox"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Dru Knox"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "软件工厂不是让 AI 写代码，而是让人去造工厂",
+  "guest_name": "Dru Knox",
+  "guest_title": "Tessl 产品负责人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

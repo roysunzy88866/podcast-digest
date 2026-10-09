@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":5,"免费增值":2,"推理":87,"模板":1,"SEO":8,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":6,"免费增值":2,"推理":88,"模板":1,"SEO":8,"人在回路":21}</script>
 
 <script>
 (function(){

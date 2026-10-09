@@ -36,11 +36,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":191,"智能体":446,"提示词":22,"自动模式":3,"沙箱":85,"评估":5,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":192,"智能体":448,"提示词":22,"自动模式":3,"沙箱":87,"评估":5,"Simon Willison":1,"Cloud Code":4,"Cat Wu":1,"CloudMods":1}</script>
 
 <script>
 (function(){

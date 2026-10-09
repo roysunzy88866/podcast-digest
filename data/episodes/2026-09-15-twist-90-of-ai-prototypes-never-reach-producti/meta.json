@@ -1,0 +1,36 @@
+{
+  "id": "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/LTANT7419234216.mp3",
+  "duration_sec": 1162.217,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 207,
+  "asr": true,
+  "title_en": "90% of AI prototypes never reach production (w/ Temporal's Samar Abbas) | AI Basics",
+  "podcast": "This Week in Startups",
+  "date": "2026-09-15",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/4ddd56a6-b15b-11f1-a58f-17848d50a8d2/image/9cd305fc512d26f1f21aed072f56b0ae.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-09",
+  "added_at": "2026-10-09T14:43:38.615Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jason",
+    "SPEAKER_01": "Samar Abbas"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jason",
+  "cohosts": [
+    "Samar Abbas"
+  ],
+  "title_zh": "为什么 90% 的 AI 原型死在了演示阶段？",
+  "guest_name": "Samar Abbas",
+  "guest_title": "Temporal 首席执行官",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/4ddd56a6-b15b-11f1-a58f-17848d50a8d2/image/9cd305fc512d26f1f21aed072f56b0ae.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "1254x1254",
+    "aspect": 1,
+    "fetched_at": "2026-10-09T14:55:54.580Z"
+  }
+}

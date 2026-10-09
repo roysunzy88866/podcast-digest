@@ -257,9 +257,9 @@ UMI 数据带传感器、比人类数据精确但受传感器拖累不够可扩�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-talks-building-ai-for-the-physical-world-with|机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能]]<span class="pd-rz">同概念:VLA、跨载体 (cross embodiment)</span>
 - [[2026-08-19-eyeonai-from-zero-to-150-robots-in-just-20-month|人形机器人上战场：公关跑得比机器人快]]<span class="pd-rz">同概念:人形机器人 (humanoid)、仿真 (simulation)</span>
 - [[2026-09-11-dwarkesh-john-beren-charlie|RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌]]<span class="pd-rz">同概念:泛化 (generalization)、RL</span>
-- [[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies|从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换]]<span class="pd-rz">同概念:泛化 (generalization)、护栏 (guardrails)</span>
 
 </div>
 <div class="pd-ex">

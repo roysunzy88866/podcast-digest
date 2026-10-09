@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Resolve AI]] · [[Splunk]] · [[GitHub]] · [[Kafka]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]] · [[沙箱]]
+[[Resolve AI]] · [[Splunk]] · [[VMware]] · [[GitHub]] · [[Kafka]] · [[Slack]] · [[智能体]] · [[后台智能体]] · [[生产上下文]] · [[可观测性]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"GitHub":30,"Kafka":3,"Slack":31,"智能体":446,"后台智能体":4,"生产上下文":1,"可观测性":40,"沙箱":85}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":2,"Splunk":3,"VMware":2,"GitHub":30,"Kafka":3,"Slack":31,"智能体":448,"后台智能体":4,"生产上下文":1,"可观测性":40}</script>
 
 <script>
 (function(){

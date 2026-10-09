@@ -1,0 +1,185 @@
+{
+  "title_zh": "软件工厂不是让 AI 写代码，而是让人去造工厂",
+  "tldr": "Tessl 产品负责人 Dru Knox 讲解「harness engineering」——用三层改进循环，把 AI 编程代理变成一条真正的软件生产线。",
+  "digest_md": "Tessl 产品与设计负责人 Dru Knox 在这场演讲里，讲了一个正在硅谷快速成形的思路：既然 AI 编程代理已经能干活，工程师的工作就该变了——不再亲手写产品代码，而是去建造和维护一条由代理组成的生产线。他称之为软件工厂，而建造它的核心手艺，叫 harness engineering(也有人开始叫它 loop engineering)。以下内容适合已经在日常使用编程代理的团队。\n\n## 什么是软件工厂？\n\nKnox 给的定义很简单：**一个由代理系统产出所有最终交付给用户的产品的体系，而工程团队的职责是建造这个工厂**，让它更自主、更自动、产出质量更高 [00:22 Unknown]。换句话说，团队里每个人都变成了内部工具的开发者。\n\n他强调，很多人把工厂当成快速上线更多功能、忍受一点低质代码的手段，但那只是短期现象。真正的回报是：积压的缺陷修复、测试改进、架构重构，这些永远没时间做的事，在工厂模式下不再排队 [05:08 Unknown]——待办清单这个概念本身就消失了。而且非技术角色也更容易贡献想法，因为工程师在底层搭系统，其他人在上面提需求。\n\n## 三个衡量指标：自主、自动、质量\n\n自主(autonomy)指需要多少次人工纠偏——改代码、给提示——代理才能做对。自动化(automation)指你敢不敢不看代码直接接受结果。两者听起来像，其实不同：代理可能经常一次做对(高自主)，但你还不信任它，逐行审查(低自动化)[03:43 Unknown]。**必须先建立自主，才能推进自动化**。质量则是最终产品的好坏，用常规的用户数据和测试覆盖率衡量。路径是：先提自主，再提自动化，质量保持稳定，最后再拉升。\n\n## 核心手艺：造三个循环\n\nHarness engineering 的本质，是搭建让工厂自我改进的循环。Knox 把它拆成三个，对应开发的三个阶段。\n\n内循环(inner loop):代理在提交代码前的快速迭代，循环要便宜、高频地跑，作用是不用人工出手就纠正代理，直接提升自主度 [07:02 Unknown]。\n\n外循环(outer loop):代码提交之后才跑的昂贵检查——比如代理式测试、变异测试——把原本需要人工验证的事变成自动验证，省下审查时间 [07:27 Unknown]。\n\n元循环(meta loop):它站在开发流程之外，观察代理日志、代码评审、问题追踪和用户反馈，找出漏到用户手里的错误或被人工拦下的错误，再把改进反馈回内、外循环 [08:08 Unknown]。Knox 说，**想持续提升AI 原生程度，主要就是投资元循环**。\n\n## 为什么这事难：三个现实问题\n\n第一，这门学科变化太快。 Knox 半开玩笑地说，团队会「基本上变成 AI 研究员才能跟上」[09:29 Unknown]——读论文、看博客，总结出的最佳实践过两周就过时，甚至变成反模式。你得提前想好怎么腾出时间跟上。\n\n第二，它是典型的计划外工作。你无法预知代理会在哪失败、修多久，而改进代理的工作又和按时交付功能直接竞争。不做，代理永远不进步；做了，可能误了工期 [10:27 Unknown]。\n\n第三，你想要的数据拿不到。改进代理需要的信号，大多埋在本地日志里、某人的电脑上、某人的脑子里。得先把工作流搬到一切都被记录、可被工具读取的地方。\n\n## 动手的三层清单\n\nKnox 把要做的事分成三层，也是先后顺序。\n\n**先搭控制平面**：所有工作从问题追踪器开始，交给沙箱里运行的无人值守代理，代理提交代码，工程师在评审里留言纠偏。关键是，人和代理的所有交互都变得可读、可分析 [11:39 Unknown]。基本组件是：问题追踪与触发、代码评审(最简单的是 GitHub 评审)、以及一个统一分发技能的仓库或注册表。\n\n再做代理 IT(Agent IT):把代理真正需要的东西给它——命令行工具、API 权限、内部服务访问、生产日志、能执行代码的环境。Knox 提醒，这一步比你想象的更糟，没人做完后还觉得简单 [13:25 Unknown]。它无法提前规划，只能花一两周硬啃，还牵出权限治理和合规问题。\n\n最后是改进循环：这也是耗时最多的一层。包括每天或每周扫一遍代码库找问题的维护任务、常见开发操作的指南(比如怎么给命令行工具加功能)、识别重复任务并尽快自动化，以及持续检查产出质量，把发现的错误固化成技能更新，避免重犯 [14:26 Unknown]。\n\n## Tessl 卖什么？\n\nKnox 强调以上都是通用技术，不绑定任何工具。Tessl 想做的是让这条路变得渐进、可持续：提供带治理和版本管理的技能注册表，Linear 到 GitHub 的连接器，以及代码评审工具。它的代理会挖掘提交记录和问题，发现「每周都要手动找不稳定测试」这类重复劳动，自动建议做成技能并挂到 GitHub Action 上 [18:03 Unknown]。一条 teslaunch 命令可以把任何技能变成自动化工作流，在沙箱里运行，支持 Codex、Claude Code、Gemini 等代理。他的期望是：半年后回头看，「我们已经走到软件工厂的 40%,从没耽误过交付」[16:31 Unknown]。\n\n## 本集带走\n\n- 软件工厂的定义：产品代码全部由代理产出，工程师负责建造和改进工厂本身。\n- 衡量进度看三个指标：自主(减少人工纠偏)、自动化(减少人工审查)、质量(先持平后提升)。\n- Harness engineering 的核心是三个循环：内循环提自主、外循环提自动化、元循环驱动整体质量。\n- 最大的障碍不是技术而是组织：知识更新太快、改进工作是计划外工作、关键信号散落在不可读的地方。\n- 实施顺序：先搭控制平面，再解决代理的环境与权限，最后持续投资改进循环；可用「人工接管次数、PR 人工评论数、无人工发起的 PR 比例」追踪进展。",
+  "quotes": [
+    {
+      "en": "That's kind of the core idea of a factory, though, is everyone on your team effectively becomes internal tool builders, and then you're building a system that produces your product.",
+      "zh": "这就是工厂的核心思想：你团队里的每个人实际上都变成了内部工具构建者，然后你构建一个生产你产品的系统。",
+      "timestamp": "02:48",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "You can have high autonomy in the sense that agents frequently are one-shotting the problems you're giving them, but low automation because you don't trust it yet.",
+      "zh": "你可以有高自主性，即智能体经常能一次性解决你给它们的问题，但自动化程度低，因为你还不信任它。",
+      "timestamp": "03:43",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "You have to build up autonomy first before you can move to automation.",
+      "zh": "你必须先建立起自主性，然后才能转向自动化。",
+      "timestamp": "04:01",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "With a software factory, the idea of a backlog kind of goes away.",
+      "zh": "有了软件工厂，积压这个概念基本上就消失了。",
+      "timestamp": "05:21",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "You basically become an AI researcher just to try and keep up.",
+      "zh": "你基本上变成了一个 AI 研究员，就为了努力跟上。",
+      "timestamp": "09:29",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "You're coming up with best practices that go out of date the next week and then two weeks after that.",
+      "zh": "你想出一些最佳实践，但下一周就过时了，再过两周又过时了。",
+      "timestamp": "09:35",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "You either don't do it and you get stuck in the local maxima of the agent never improves, or you do it and you miss your deadline for the feature and you get in trouble and so no one ever does it.",
+      "zh": "你要么不做，智能体就永远不会进步，被困在局部最优里；要么做了，就会错过功能的截止日期，惹上麻烦，于是没有人去做。",
+      "timestamp": "10:32",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "Like there's no one who has come in thinking like, yeah, yeah, it's not going to be that hard for us has left saying that at the end.",
+      "zh": "没有人在进来时想着“对对对，这对我们来说不会那么难”，最后离开时还这么说。",
+      "timestamp": "13:25",
+      "speaker": "Dru Knox"
+    },
+    {
+      "en": "So we don't think every component of a factory is going to be best in class with a single company.",
+      "zh": "所以我们认为工厂的每一个组件不可能都由单一公司做到业界最佳。",
+      "timestamp": "16:13",
+      "speaker": "Dru Knox"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "That's kind of the core idea of a factory, though, is everyone on your team effectively becomes internal tool builders, and then you're building a system that produces your product.",
+      "zh": "这就是工厂的核心思想：你团队里的每个人实际上都变成了内部工具构建者，然后你构建一个生产你产品的系统。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Unknown",
+      "en": "You can have high autonomy in the sense that agents frequently are one-shotting the problems you're giving them, but low automation because you don't trust it yet.",
+      "zh": "你可以有高自主性，即智能体经常能一次性解决你给它们的问题，但自动化程度低，因为你还不信任它。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "You have to build up autonomy first before you can move to automation.",
+      "zh": "你必须先建立起自主性，然后才能转向自动化。"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Unknown",
+      "en": "They'll say, like, oh, yeah, you'll get a little bit of slop, but my god, you'll launch so much more features.",
+      "zh": "他们会说，比如，哦，是的，你会得到一点垃圾产出，但天哪，你会发布多得多的功能。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Unknown",
+      "en": "I think that's a very short-term phenomenon, right, as agents are sort of coming online and getting better.",
+      "zh": "我认为那是一个非常短期的现象，对吧，因为智能体正在上线并变得更好。"
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Unknown",
+      "en": "With a software factory, the idea of a backlog kind of goes away.",
+      "zh": "有了软件工厂，积压这个概念基本上就消失了。"
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Unknown",
+      "en": "And then the sort of payoff at the end, why would you want a software factory, is that ultimately we think you can raise quality once you have a factory.",
+      "zh": "然后是最后的回报问题：为什么你会想要一个软件工厂？因为我们最终认为，一旦你拥有了一个工厂，你就可以提升质量。"
+    },
+    {
+      "timestamp": "06:23",
+      "speaker": "Unknown",
+      "en": "It's also started to be called loop engineering over the last couple of weeks.",
+      "zh": "在过去几周里，它也开始被称为 loop 工程。"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Unknown",
+      "en": "You basically become an AI researcher just to try and keep up.",
+      "zh": "你基本上变成了一个 AI 研究员，就为了努力跟上。"
+    },
+    {
+      "timestamp": "09:35",
+      "speaker": "Unknown",
+      "en": "You're coming up with best practices that go out of date the next week and then two weeks after that.",
+      "zh": "你想出一些最佳实践，但下一周就过时了，再过两周又过时了。"
+    },
+    {
+      "timestamp": "10:10",
+      "speaker": "Unknown",
+      "en": "So you will start shipping a feature. You have no way to anticipate, will agents fail?",
+      "zh": "所以你会开始交付一个功能。你没有办法预判，智能体会不会失败？"
+    },
+    {
+      "timestamp": "10:32",
+      "speaker": "Unknown",
+      "en": "You either don't do it and you get stuck in the local maxima of the agent never improves, or you do it and you miss your deadline for the feature and you get in trouble and so no one ever does it.",
+      "zh": "你要么不做，智能体就永远不会进步，被困在局部最优里；要么做了，就会错过功能的截止日期，惹上麻烦，于是没有人去做。"
+    },
+    {
+      "timestamp": "10:55",
+      "speaker": "Unknown",
+      "en": "It's hidden away in local coding agent logs, or it is on someone's machine somewhere. It's in someone's head.",
+      "zh": "它们藏在本地编码智能体的日志里，或者在某个人的某台机器上。它在某个人的脑子里。"
+    },
+    {
+      "timestamp": "12:07",
+      "speaker": "Unknown",
+      "en": "So it still has manual correction. It still has manual interface. But now all of your touch points with the agent are legible.",
+      "zh": "所以它仍然有人工修正，仍然有人工界面。但现在你与智能体的所有接触点都是可读的。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Unknown",
+      "en": "I promise it's worse than you think.",
+      "zh": "我保证，实际情况比你想的还要糟。"
+    },
+    {
+      "timestamp": "13:25",
+      "speaker": "Unknown",
+      "en": "Like there's no one who has come in thinking like, yeah, yeah, it's not going to be that hard for us has left saying that at the end.",
+      "zh": "没有人在进来时想着“对对对，这对我们来说不会那么难”，最后离开时还这么说。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Unknown",
+      "en": "So we don't think every component of a factory is going to be best in class with a single company.",
+      "zh": "所以我们认为工厂的每一个组件不可能都由单一公司做到业界最佳。"
+    },
+    {
+      "timestamp": "16:31",
+      "speaker": "Unknown",
+      "en": "And we really try to make sure it's just incremental steps so that you, six months later, are like, oh, wow, we're like 40% there to a software factory.",
+      "zh": "而且我们真的努力确保这只是增量式的步骤，这样六个月后的你会说，哦，哇，我们已经完成了软件工厂大概 40% 的进度了。"
+    },
+    {
+      "timestamp": "19:39",
+      "speaker": "Unknown",
+      "en": "What you're going to want to focus on as you're doing this work is driving down manual takeovers, driving down human PR comments.",
+      "zh": "你在做这项工作时需要关注的是降低人工接管，降低人工 PR 评论。"
+    },
+    {
+      "timestamp": "19:55",
+      "speaker": "Unknown",
+      "en": "That's a sign that you're automating more.",
+      "zh": "这是你自动化程度更高的一个信号。"
+    }
+  ],
+  "voice_script": "今天想跟你聊一场来自硅谷的演讲，主讲人是 Tessl 的产品与设计负责人 Dru Knox。这家公司做的是 AI 编程方向的产品，而 Knox 本人天天跟工程团队打交道，看的是一线真实发生的变化。这一期要讲的问题一句话就能说明白：既然 AI 编程代理已经能干活了，工程师的工作到底该变成什么？Knox 给出的答案可能跟你直觉不一样——不是\"用 AI 更快写代码\"，而是让工程师别再亲手写产品代码，转而去建造和维护一条由代理组成的生产线。这套思路正在硅谷快速成形，叫软件工厂，而造工厂的核心手艺，有个专门的名字，叫 harness engineering。\n\n先把这个概念本身讲清楚。软件工厂的定义是：一个由代理系统产出所有最终交付给用户的产品的体系，而工程团队的职责，是建造这个工厂，让它更自主、更自动、产出质量更高。换句话说，团队里的每个人，实际上都变成了内部工具的构建者。很多人一听这个，第一反应是\"好啊，那不就能快速上线更多功能了吗，忍受一点低质代码也值\"。Knox 说，这么想的人只看到了短期。真正的回报在别处：那些永远排不上队的活儿——积压的缺陷修复、测试改进、架构重构——在工厂模式下不再排队，因为代理可以顺手干。讲到这儿他有个很妙的说法：有了软件工厂，积压这个概念基本上就消失了。而且还有个附带好处，因为工程师在底层搭系统，非技术角色也能在上面直接提需求、贡献想法。\n\n那怎么知道自己建工厂建得好不好？这就需要尺子。Knox 给了三个指标：自主、自动化、质量。自主说的是，需要多少次人工纠偏——改代码、给提示——代理才能把事做对。自动化说的是，你敢不敢不看代码，直接接受代理的结果。这俩听起来像一回事，其实不是。举个例子：代理可能经常一次就把事做对了，自主性很高，但你还不信任它，每次都逐行审查，那自动化就是低的。所以这里有先后顺序——用 Knox 的原话说，你必须先建立起自主性，然后才能转向自动化。质量就是最终产品的好坏，用常规的用户数据和测试覆盖率衡量。整条路径是：先把自主提上去，再提自动化，这期间质量保持稳定，最后再往上拉升。\n\n好，尺子有了，接下来就是怎么造。这是全场的核心：harness engineering 的本质，是搭建让工厂自我改进的循环，一共三个，对应开发的三个阶段。第一个叫内循环，是代理在提交代码之前的快速迭代，特点是便宜、高频地跑，作用是不用人工出手就能纠正代理，直接提升自主度。第二个叫外循环，是代码提交之后才跑的昂贵检查，比如代理式测试、变异测试，把原本需要人眼验证的事变成自动验证，省下审查时间——你看，它提升的正是自动化。第三个叫元循环，最有意思，它站在整个开发流程之外，观察代理日志、代码评审、问题追踪和用户反馈，找出那些漏到用户手里的错误、或者被人工拦下的错误，再把改进反馈回内循环和外循环。Knox 有一句话值得记住：想持续提升 AI 原生程度，主要就是投资元循环。\n\n听到这儿你可能觉得，行，三步走呗，搭起来就行。但 Knox 接着泼了盆冷水，讲这事为什么难，难在三个很现实的地方。第一，这门学科变化太快。他半开玩笑地说，你基本上变成了一个 AI 研究员，就为了努力跟上——得读论文、看博客，而总结出的最佳实践，下一周就过时了，再过两周甚至变成反模式。第二，改进代理是典型的计划外工作。你没法预知代理会在哪儿失败、要修多久，而改进它的工作又跟按时交付功能直接抢时间：不做，代理永远不进步；做了，可能误了工期。第三，你想要的数据根本拿不到。改进代理需要的信号，大多埋在本地日志里、某人的电脑上、甚至某人的脑子里。所以得先把工作流搬到一切都被记录、能被工具读取的地方去。\n\n那具体怎么动手？Knox 把要做的事分成三层，而且这就是先后顺序。第一层，先搭控制平面：所有工作从问题追踪器开始，交给沙箱里运行的无人值守代理，代理提交代码，工程师在评审里留言纠偏。这一步的关键在于，人和代理的所有交互都变得可读、可分析了——这就回应了刚才第三个难题。基本组件就三样：问题追踪与触发、代码评审，最简单的用 GitHub 评审就行，再加一个统一分发技能的仓库。第二层是代理 IT，说白了就是把代理真正需要的东西给它：命令行工具、API 权限、内部服务访问、生产日志、能执行代码的环境。Knox 特意提醒，这一步比你想象的更糟，没人做完之后还觉得简单，它没法提前规划，只能花一两周硬啃，还会牵出权限治理和合规问题。第三层是改进循环，也是耗时最多的一层：定期扫代码库找问题、把常见开发操作写成指南、识别重复任务尽快自动化，以及持续检查产出质量——发现一个错误，就把它固化成技能更新，避免重犯。\n\n讲到这儿你可能会问，Tessl 自己卖什么呢？Knox 强调，前面讲的都是通用技术，不绑定任何工具。Tessl 想做的是让这条路变得渐进、可持续：提供带治理和版本管理的技能注册表、从 Linear 到 GitHub 的连接器，还有代码评审工具。举一个具体例子：Tessl 的代理会去挖掘提交记录和问题，发现\"每周都要手动找不稳定测试\"这类重复劳动，然后自动建议做成技能、挂到 GitHub Action 上。一条 teslaunch 命令就能把任何技能变成自动化工作流，在沙箱里跑，支持 Codex、Claude Code、Gemini 这些代理。Knox 对这套东西的期望很朴素：半年后回头看，希望已经走到软件工厂的百分之四十，而且从没耽误过交付。\n\n最后送你一句话带走。这就是工厂的核心思想：你团队里的每个人，实际上都变成了内部工具的构建者——然后你去构建一个生产你产品的系统。"
+}

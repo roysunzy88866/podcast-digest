@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":30,"Terraform":1,"Hashicorp":1,"Kubernetes":18,"开源":38,"智能体":446,"PR":6,"AI":29,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":30,"Terraform":1,"Hashicorp":1,"Kubernetes":18,"开源":38,"智能体":448,"PR":6,"AI":29,"工匠精神":1}</script>
 
 <script>
 (function(){

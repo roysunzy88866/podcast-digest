@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>HBM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="HBM">HB</div><div class="pi"><h1 class="pt">HBM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="HBM">HB</div><div class="pi"><h1 class="pt">HBM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(03:54起):本集说 HBM 是 NVIDIA/AMD GPU 和各家 ASIC 共用的高带宽 DRAM 内存，但容量低、贵；Fractile 宣称单芯片带宽可达 HBM 方案的 25 倍。
+- **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(12:12起):本集说 HBM 是个糟糕的内存，只是我们手里最好的一个：位密度差、功耗高、发热集中，而 AI 恰恰是吃内存带宽的工作负载。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh#^q5]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
+- [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Walter Goodwin]] · [[Fractile]] · [[NVIDIA]] · [[Broadcom]] · [[TSMC]] · [[Grok]] · [[Cerebrus]] · [[AMD]] · [[推理]] · [[内存带宽]]
+[[NVIDIA]] · [[推理]] · [[Walter Goodwin]] · [[Pat Gelsinger]] · [[Fractile]] · [[Intel]] · [[Broadcom]] · [[VMware]] · [[TSMC]] · [[Playground Global]]
 
-<script type="application/json" class="pd-epn">{"Walter Goodwin":1,"Fractile":1,"NVIDIA":63,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":87,"内存带宽":2}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":64,"推理":88,"Walter Goodwin":1,"Pat Gelsinger":1,"Fractile":1,"Intel":4,"Broadcom":5,"VMware":2,"TSMC":9,"Playground Global":1}</script>
 
 <script>
 (function(){

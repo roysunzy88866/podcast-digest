@@ -1,0 +1,1762 @@
+[
+ {
+  "seg": 0,
+  "start": 13.048,
+  "end": 13.87,
+  "speaker": "Unknown",
+  "en": "Quick introduction.",
+  "zh": "简短介绍一下。"
+ },
+ {
+  "seg": 1,
+  "start": 13.95,
+  "end": 15.053,
+  "speaker": "Unknown",
+  "en": "My name is Drew Knox.",
+  "zh": "我叫 Drew Knox。"
+ },
+ {
+  "seg": 2,
+  "start": 15.374,
+  "end": 18.201,
+  "speaker": "Unknown",
+  "en": "I'm the head of product and design at TESOL.",
+  "zh": "我是 TESOL 的产品与设计负责人。"
+ },
+ {
+  "seg": 3,
+  "start": 19.241,
+  "end": 21.784,
+  "speaker": "Unknown",
+  "en": "TESOL is an agent enablement platform.",
+  "zh": "TESOL 是一个智能体赋能平台。"
+ },
+ {
+  "seg": 4,
+  "start": 22.104,
+  "end": 26.688,
+  "speaker": "Unknown",
+  "en": "We help you go from scaling skills to building your own software factory.",
+  "zh": "我们帮你从扩展技能到构建你自己的软件工厂。"
+ },
+ {
+  "seg": 5,
+  "start": 27.729,
+  "end": 30.512,
+  "speaker": "Unknown",
+  "en": "So today I'm going to talk about a few things.",
+  "zh": "所以今天我要讲几件事。"
+ },
+ {
+  "seg": 6,
+  "start": 30.732,
+  "end": 42.424,
+  "speaker": "Unknown",
+  "en": "The core is going to focus on harness engineering, which we see as sort of the new discipline of agentic development, and how you can use it to ladder up to a software factory.",
+  "zh": "核心会聚焦在 harness 工程(harness engineering)上，我们把它视为智能体开发的一种新学科，以及你如何利用它逐级攀升到一个软件工厂。"
+ },
+ {
+  "seg": 7,
+  "start": 44.132,
+  "end": 46.554,
+  "speaker": "Unknown",
+  "en": "Before we get started, a few prerequisites.",
+  "zh": "在我们开始之前，有几个前提条件。"
+ },
+ {
+  "seg": 8,
+  "start": 46.634,
+  "end": 55.779,
+  "speaker": "Unknown",
+  "en": "This is a bit of an advanced talk in the sense that if you aren't already using coding agents, what I'm about to walk through is probably not where you want to get started.",
+  "zh": "这是一个偏进阶的演讲，意思是如果你还没有在使用编码智能体，我接下来要讲的内容可能不是你该入门的地方。"
+ },
+ {
+  "seg": 9,
+  "start": 55.859,
+  "end": 63.384,
+  "speaker": "Unknown",
+  "en": "So I'm sort of assuming that if you're working with coding agents, you're used to having a couple sessions at a time.",
+  "zh": "所以我某种程度上假设，如果你正在使用编码智能体，你已经习惯了同时开几个会话。"
+ },
+ {
+  "seg": 10,
+  "start": 65.045,
+  "end": 73.87,
+  "speaker": "Unknown",
+  "en": "You've gotten to a place where coding agents will, for easy tasks and maybe medium complexity tasks, frequently do the right thing.",
+  "zh": "你已经到了一个阶段：对于简单任务和中等复杂度任务，编码智能体经常能做对。"
+ },
+ {
+  "seg": 11,
+  "start": 74.911,
+  "end": 80.314,
+  "speaker": "Unknown",
+  "en": "You're sort of at the sweet spot for starting to think about harness engineering, starting to think about a software factory.",
+  "zh": "你大致处于开始思考 harness 工程、开始思考软件工厂的最佳切入点。"
+ },
+ {
+  "seg": 12,
+  "start": 81.194,
+  "end": 85.237,
+  "speaker": "Unknown",
+  "en": "What I'm going to say here is not exclusive to that, but that's where you'll get your best results.",
+  "zh": "我在这里要说的并不局限于那种情况，但那会是你取得最佳结果的地方。"
+ },
+ {
+  "seg": 13,
+  "start": 87.439,
+  "end": 89.26,
+  "speaker": "Unknown",
+  "en": "So I'm going to walk through a few things.",
+  "zh": "所以我要讲几个方面的内容。"
+ },
+ {
+  "seg": 14,
+  "start": 89.4,
+  "end": 96.065,
+  "speaker": "Unknown",
+  "en": "First, I want to define software factory and talk a little bit about why you might want to build towards one.",
+  "zh": "首先，我想定义一下软件工厂，并稍微谈谈为什么你可能想要朝这个方向构建。"
+ },
+ {
+  "seg": 15,
+  "start": 97.366,
+  "end": 104.511,
+  "speaker": "Unknown",
+  "en": "Second, we're going to then focus a lot on harness engineering, which is kind of the core practice or skill that you'll use to reach a software factory.",
+  "zh": "其次，我们会大量聚焦于 harness 工程，它是你用来达到软件工厂的核心实践或技能。"
+ },
+ {
+  "seg": 16,
+  "start": 105.992,
+  "end": 110.635,
+  "speaker": "Unknown",
+  "en": "We'll talk about what are going to be the components you work on while you're doing harness engineering.",
+  "zh": "我们会谈谈在做 harness 工程时，你要处理的组件有哪些。"
+ },
+ {
+  "seg": 17,
+  "start": 110.776,
+  "end": 116.34,
+  "speaker": "Unknown",
+  "en": "And finally, I'll walk through how the TESOL product briefly can help you along that journey.",
+  "zh": "最后，我会简要讲一下 TESOL 产品如何在那段旅程中帮到你。"
+ },
+ {
+  "seg": 18,
+  "start": 116.64,
+  "end": 120.863,
+  "speaker": "Unknown",
+  "en": "But most of the topics I'm going to talk through here today work with any stack.",
+  "zh": "但我今天要讲的大部分主题适用于任何技术栈。"
+ },
+ {
+  "seg": 19,
+  "start": 120.963,
+  "end": 122.304,
+  "speaker": "Unknown",
+  "en": "They're mostly techniques.",
+  "zh": "它们主要是些技巧。"
+ },
+ {
+  "seg": 20,
+  "start": 122.444,
+  "end": 125.426,
+  "speaker": "Unknown",
+  "en": "TESOL makes them easy, but they're not exclusive to us.",
+  "zh": "TESOL 让它们变得容易，但它们并不专属于我们。"
+ },
+ {
+  "seg": 21,
+  "start": 127.308,
+  "end": 129.309,
+  "speaker": "Unknown",
+  "en": "OK, part one, software factories.",
+  "zh": "好，第一部分，软件工厂。"
+ },
+ {
+  "seg": 22,
+  "start": 129.97,
+  "end": 130.43,
+  "speaker": "Unknown",
+  "en": "What are they?",
+  "zh": "它们是什么？"
+ },
+ {
+  "seg": 23,
+  "start": 132.428,
+  "end": 134.229,
+  "speaker": "Unknown",
+  "en": "There's no strict definition.",
+  "zh": "没有严格的定义。"
+ },
+ {
+  "seg": 24,
+  "start": 134.249,
+  "end": 141.874,
+  "speaker": "Unknown",
+  "en": "I'm sure you're all probably as frustrated as I am with how quickly terminology changes and migrates in the industry today.",
+  "zh": "我相信你们可能都和我一样，对当今行业里术语变化和迁移之快感到沮丧。"
+ },
+ {
+  "seg": 25,
+  "start": 142.014,
+  "end": 151.62,
+  "speaker": "Unknown",
+  "en": "But roughly speaking, a software factory is any agentic system where all of the end product of what you're building and shipping to users",
+  "zh": "但大致来说，软件工厂是任何一种智能体系统，其中你正在构建并交付给用户的所有最终产物"
+ },
+ {
+  "seg": 26,
+  "start": 152.42,
+  "end": 153.72,
+  "speaker": "Unknown",
+  "en": "is created by agents.",
+  "zh": "都是由智能体创建的。"
+ },
+ {
+  "seg": 27,
+  "start": 154.101,
+  "end": 158.742,
+  "speaker": "Unknown",
+  "en": "And your software engineering teams effectively focus on building the factory.",
+  "zh": "而你的软件工程团队实际上专注于构建这个工厂。"
+ },
+ {
+  "seg": 28,
+  "start": 158.782,
+  "end": 165.684,
+  "speaker": "Unknown",
+  "en": "So they work on making the factory more autonomous, more automated, and raising the quality of what it produces.",
+  "zh": "所以他们的工作是让工厂更自主、更自动化，并提升它产出的质量。"
+ },
+ {
+  "seg": 29,
+  "start": 165.824,
+  "end": 167.644,
+  "speaker": "Unknown",
+  "en": "I'll go into each of those terms in just a second.",
+  "zh": "我马上会逐一展开这些术语。"
+ },
+ {
+  "seg": 30,
+  "start": 168.364,
+  "end": 177.347,
+  "speaker": "Unknown",
+  "en": "That's kind of the core idea of a factory, though, is everyone on your team effectively becomes internal tool builders, and then you're building a system that produces your product.",
+  "zh": "这就是工厂的核心思想：你团队里的每个人实际上都变成了内部工具构建者，然后你构建一个生产你产品的系统。"
+ },
+ {
+  "seg": 31,
+  "start": 180.228,
+  "end": 182.35,
+  "speaker": "Unknown",
+  "en": "So I mentioned three key metrics.",
+  "zh": "所以我提到了三个关键指标。"
+ },
+ {
+  "seg": 32,
+  "start": 182.53,
+  "end": 186.675,
+  "speaker": "Unknown",
+  "en": "These are sort of like the pillars you need to think about when building towards a software factory.",
+  "zh": "这些大致就是你在朝软件工厂构建时需要思考的支柱。"
+ },
+ {
+  "seg": 33,
+  "start": 187.395,
+  "end": 189.377,
+  "speaker": "Unknown",
+  "en": "And they sort of go in this order.",
+  "zh": "而且它们大致按这个顺序来。"
+ },
+ {
+  "seg": 34,
+  "start": 189.698,
+  "end": 196.004,
+  "speaker": "Unknown",
+  "en": "So autonomy is effectively how much human intervention do you need to get to the right answer.",
+  "zh": "自主性实际上是说，你需要多少人工干预才能得到正确答案。"
+ },
+ {
+  "seg": 35,
+  "start": 196.405,
+  "end": 202.131,
+  "speaker": "Unknown",
+  "en": "So how many times you need to correct the code or provide a nudge on how the agent should be building.",
+  "zh": "也就是你需要多少次纠正代码，或者在智能体应该如何构建上提供推动。"
+ },
+ {
+  "seg": 36,
+  "start": 203.826,
+  "end": 206.468,
+  "speaker": "Unknown",
+  "en": "Automation, oh, sorry, I've gotten them flipped here.",
+  "zh": "自动化——哦，抱歉，我把它们弄反了。"
+ },
+ {
+  "seg": 37,
+  "start": 207.249,
+  "end": 209.17,
+  "speaker": "Unknown",
+  "en": "Autonomy is the first one.",
+  "zh": "自主性是第一个。"
+ },
+ {
+  "seg": 38,
+  "start": 209.23,
+  "end": 211.332,
+  "speaker": "Unknown",
+  "en": "It's how much do you humans have to correct?",
+  "zh": "它是你们人类需要纠正多少。"
+ },
+ {
+  "seg": 39,
+  "start": 211.932,
+  "end": 215.475,
+  "speaker": "Unknown",
+  "en": "Automation is how much can you let them run, right?",
+  "zh": "自动化是你能让它们运行多少，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 215.495,
+  "end": 220.359,
+  "speaker": "Unknown",
+  "en": "How much do you need to review or build trust in the solution before you accept it?",
+  "zh": "在你接受方案之前，你需要多少审查或建立多少信任？"
+ },
+ {
+  "seg": 41,
+  "start": 221.595,
+  "end": 223.536,
+  "speaker": "Unknown",
+  "en": "They sound quite similar, but there is a difference.",
+  "zh": "它们听起来很相似，但确实有区别。"
+ },
+ {
+  "seg": 42,
+  "start": 223.556,
+  "end": 233.142,
+  "speaker": "Unknown",
+  "en": "You can have high autonomy in the sense that agents frequently are one-shotting the problems you're giving them, but low automation because you don't trust it yet.",
+  "zh": "你可以有高自主性，即智能体经常能一次性解决你给它们的问题，但自动化程度低，因为你还不信任它。"
+ },
+ {
+  "seg": 43,
+  "start": 233.402,
+  "end": 235.684,
+  "speaker": "Unknown",
+  "en": "And so you're reviewing all of the code directly.",
+  "zh": "于是你直接审查所有的代码。"
+ },
+ {
+  "seg": 44,
+  "start": 235.764,
+  "end": 238.045,
+  "speaker": "Unknown",
+  "en": "You are manually verifying everything.",
+  "zh": "你手动验证一切。"
+ },
+ {
+  "seg": 45,
+  "start": 238.545,
+  "end": 241.527,
+  "speaker": "Unknown",
+  "en": "So they are distinct things that obviously have a connection, right?",
+  "zh": "所以它们是两个不同的东西，但显然有关联，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 241.707,
+  "end": 245.75,
+  "speaker": "Unknown",
+  "en": "You have to build up autonomy first before you can move to automation.",
+  "zh": "你必须先建立起自主性，然后才能转向自动化。"
+ },
+ {
+  "seg": 47,
+  "start": 247.132,
+  "end": 254.677,
+  "speaker": "Unknown",
+  "en": "The final quality, probably the most self-explanatory, how good is the product that you're actually producing for your users?",
+  "zh": "最后是质量，大概最不言自明的：你实际为用户产出的产品有多好？"
+ },
+ {
+  "seg": 48,
+  "start": 255.498,
+  "end": 262.143,
+  "speaker": "Unknown",
+  "en": "These metrics are like your usual user analytics, your test quality, your test coverage, et cetera.",
+  "zh": "这些指标就像你常见的用户分析、测试质量、测试覆盖率等等。"
+ },
+ {
+  "seg": 49,
+  "start": 263.735,
+  "end": 271.777,
+  "speaker": "Unknown",
+  "en": "As you work towards a factory, you're going to go improving autonomy, then improving automation, all while keeping quality constant.",
+  "zh": "在你朝工厂努力的过程中，你会先提升自主性，然后提升自动化，同时保持质量不变。"
+ },
+ {
+  "seg": 50,
+  "start": 272.257,
+  "end": 280.28,
+  "speaker": "Unknown",
+  "en": "And then the sort of payoff at the end, why would you want a software factory, is that ultimately we think you can raise quality once you have a factory.",
+  "zh": "然后是最后的回报问题：为什么你会想要一个软件工厂？因为我们最终认为，一旦你拥有了一个工厂，你就可以提升质量。"
+ },
+ {
+  "seg": 51,
+  "start": 281.4,
+  "end": 282.081,
+  "speaker": "Unknown",
+  "en": "Talk about this a bit.",
+  "zh": "谈谈这一点。"
+ },
+ {
+  "seg": 52,
+  "start": 282.141,
+  "end": 287.706,
+  "speaker": "Unknown",
+  "en": "I think most folks look at factories as a way to ship faster.",
+  "zh": "我认为大多数人把工厂看作是一种更快交付的方式。"
+ },
+ {
+  "seg": 53,
+  "start": 288.086,
+  "end": 293.471,
+  "speaker": "Unknown",
+  "en": "They'll say, like, oh, yeah, you'll get a little bit of slop, but my god, you'll launch so much more features.",
+  "zh": "他们会说，比如，哦，是的，你会得到一点垃圾产出，但天哪，你会发布多得多的功能。"
+ },
+ {
+  "seg": 54,
+  "start": 293.491,
+  "end": 296.033,
+  "speaker": "Unknown",
+  "en": "Like, the cost of return, the ROI will be worth it.",
+  "zh": "比如，回报的成本，ROI 会是值得的。"
+ },
+ {
+  "seg": 55,
+  "start": 296.954,
+  "end": 302.72,
+  "speaker": "Unknown",
+  "en": "I think that's a very short-term phenomenon, right, as agents are sort of coming online and getting better.",
+  "zh": "我认为那是一个非常短期的现象，对吧，因为智能体正在上线并变得更好。"
+ },
+ {
+  "seg": 56,
+  "start": 304.091,
+  "end": 307.853,
+  "speaker": "Unknown",
+  "en": "In reality, yes, you will move to higher velocity with a factory.",
+  "zh": "实际上，是的，有了工厂你会达到更高的速度。"
+ },
+ {
+  "seg": 57,
+  "start": 308.714,
+  "end": 319.481,
+  "speaker": "Unknown",
+  "en": "But every team has backlogs of bug fixes or improvements that they wish they could be making that they just don't have time to do, or explorations that they wish they were doing.",
+  "zh": "但每个团队都有积压的 bug 修复或改进，他们希望自己能做，只是没有时间去做，或者他们希望自己能做的探索。"
+ },
+ {
+  "seg": 58,
+  "start": 321.082,
+  "end": 324.244,
+  "speaker": "Unknown",
+  "en": "With a software factory, the idea of a backlog kind of goes away.",
+  "zh": "有了软件工厂，积压这个概念基本上就消失了。"
+ },
+ {
+  "seg": 59,
+  "start": 324.484,
+  "end": 331.607,
+  "speaker": "Unknown",
+  "en": "And so you actually just have much more capacity to work on test quality improvements, architectural refactors.",
+  "zh": "所以你实际上有更多的容量去投入到测试质量改进、架构重构上。"
+ },
+ {
+  "seg": 60,
+  "start": 332.367,
+  "end": 344.593,
+  "speaker": "Unknown",
+  "en": "So at Tesla, we believe that, yes, at first, as you transition, you will want to keep quality constant or maybe like a very small dip, but that the ultimate payoff is you should see better quality in the code that you're producing.",
+  "zh": "所以在 Tesla，我们相信，是的，最初在转型时，你会想保持质量不变，或者可能有很小幅度的下降，但最终的回报是你应该会看到你产出的代码有更好的质量。"
+ },
+ {
+  "seg": 61,
+  "start": 346.147,
+  "end": 349.229,
+  "speaker": "Unknown",
+  "en": "Also, it's great for your overall team collaboration styles.",
+  "zh": "此外，它对整个团队的协作方式也很有好处。"
+ },
+ {
+  "seg": 62,
+  "start": 349.329,
+  "end": 356.092,
+  "speaker": "Unknown",
+  "en": "So once you've moved to a software factory, it's much easier for people who aren't in technical roles to contribute ideas.",
+  "zh": "所以一旦你迁移到了软件工厂，非技术角色的人贡献想法就变得容易多了。"
+ },
+ {
+  "seg": 63,
+  "start": 356.392,
+  "end": 368.638,
+  "speaker": "Unknown",
+  "en": "So it's easier to explore more and to have more perspectives coming in and contributing while your engineering team is much more focused on building the underlying system that everyone is using to push features out to your users.",
+  "zh": "所以更容易进行更多探索、有更多视角涌入并做出贡献，同时你的工程团队可以更专注于构建每个人都在用来向用户推送功能的底层系统。"
+ },
+ {
+  "seg": 64,
+  "start": 369.298,
+  "end": 374.281,
+  "speaker": "Unknown",
+  "en": "So I think ultimately it leads to a more dynamic and inclusive development experience.",
+  "zh": "所以我认为最终它会带来一个更有活力、更包容的开发体验。"
+ },
+ {
+  "seg": 65,
+  "start": 376.738,
+  "end": 378.08,
+  "speaker": "Unknown",
+  "en": "So how do you get to a software factory?",
+  "zh": "那么你如何走向一个软件工厂？"
+ },
+ {
+  "seg": 66,
+  "start": 378.881,
+  "end": 383.307,
+  "speaker": "Unknown",
+  "en": "Harness engineering is a sign of how fast terms evolve.",
+  "zh": "Harness 工程是技术术语演进速度之快的一个标志。"
+ },
+ {
+  "seg": 67,
+  "start": 383.608,
+  "end": 386.712,
+  "speaker": "Unknown",
+  "en": "It's also started to be called loop engineering over the last couple of weeks.",
+  "zh": "在过去几周里，它也开始被称为 loop 工程。"
+ },
+ {
+  "seg": 68,
+  "start": 387.614,
+  "end": 392.581,
+  "speaker": "Unknown",
+  "en": "This is really the core discipline that you're going to take to get towards a software factory.",
+  "zh": "这真的是你要走向软件工厂所需掌握的核心学科。"
+ },
+ {
+  "seg": 69,
+  "start": 394.328,
+  "end": 399.612,
+  "speaker": "Unknown",
+  "en": "At its core, harness engineering is, you know, I mentioned the software factory is building your product.",
+  "zh": "从本质上讲，harness 工程是，你知道，我提到过软件工厂是在构建你的产品。"
+ },
+ {
+  "seg": 70,
+  "start": 400.212,
+  "end": 406.857,
+  "speaker": "Unknown",
+  "en": "You are building the loops that automate and improve the quality of your factory.",
+  "zh": "而你是在构建那些自动化并提升你工厂质量的循环。"
+ },
+ {
+  "seg": 71,
+  "start": 407.358,
+  "end": 409.119,
+  "speaker": "Unknown",
+  "en": "So what do I mean by loops?",
+  "zh": "那么我说的循环是什么意思？"
+ },
+ {
+  "seg": 72,
+  "start": 409.279,
+  "end": 410.76,
+  "speaker": "Unknown",
+  "en": "What are the loops that you might be working on?",
+  "zh": "你可能正在处理的循环有哪些？"
+ },
+ {
+  "seg": 73,
+  "start": 412.481,
+  "end": 414.683,
+  "speaker": "Unknown",
+  "en": "There are three core concepts.",
+  "zh": "这里有三个核心概念。"
+ },
+ {
+  "seg": 74,
+  "start": 416.084,
+  "end": 419.727,
+  "speaker": "Unknown",
+  "en": "Each maps to a certain phase of development.",
+  "zh": "每一个都对应开发的某个特定阶段。"
+ },
+ {
+  "seg": 75,
+  "start": 419.847,
+  "end": 421.168,
+  "speaker": "Unknown",
+  "en": "So you have your inner loop.",
+  "zh": "首先你有内循环。"
+ },
+ {
+  "seg": 76,
+  "start": 422.064,
+  "end": 427.666,
+  "speaker": "Unknown",
+  "en": "Which is as the coding agent is working on a PR before it has put it up.",
+  "zh": "也就是编码智能体在一个 PR 提交上去之前处理它时的阶段。"
+ },
+ {
+  "seg": 77,
+  "start": 427.746,
+  "end": 429.547,
+  "speaker": "Unknown",
+  "en": "So these are very fast iterative loops.",
+  "zh": "所以这些是非常快速的迭代循环。"
+ },
+ {
+  "seg": 78,
+  "start": 429.587,
+  "end": 430.407,
+  "speaker": "Unknown",
+  "en": "You want them to be cheap.",
+  "zh": "你希望它们是廉价的。"
+ },
+ {
+  "seg": 79,
+  "start": 430.988,
+  "end": 432.988,
+  "speaker": "Unknown",
+  "en": "You're expecting the agent to run them all the time.",
+  "zh": "你预期智能体会一直运行它们。"
+ },
+ {
+  "seg": 80,
+  "start": 433.849,
+  "end": 436.63,
+  "speaker": "Unknown",
+  "en": "Improvements here will drive better autonomy.",
+  "zh": "这里的改进会带来更好的自主性。"
+ },
+ {
+  "seg": 81,
+  "start": 436.71,
+  "end": 441.712,
+  "speaker": "Unknown",
+  "en": "They help catch things and correct the agent without your coming in in human intervention.",
+  "zh": "它们帮助捕捉问题并纠正智能体，而不需要你进行人工干预。"
+ },
+ {
+  "seg": 82,
+  "start": 443.885,
+  "end": 446.907,
+  "speaker": "Unknown",
+  "en": "Once the PR is up, you move to the outer loop.",
+  "zh": "一旦 PR 提交上去，你就进入外循环。"
+ },
+ {
+  "seg": 83,
+  "start": 447.228,
+  "end": 455.634,
+  "speaker": "Unknown",
+  "en": "So this is where you're going to put more expensive, exhaustive checks that don't make sense to run over and over again as the agent is iterating on features.",
+  "zh": "在这里你会放入更昂贵、更详尽的检查，这些检查在智能体迭代功能时一遍又一遍地运行是没有意义的。"
+ },
+ {
+  "seg": 84,
+  "start": 456.255,
+  "end": 462.239,
+  "speaker": "Unknown",
+  "en": "But they do encode things that otherwise a human would have to verify to build confidence in the system.",
+  "zh": "但它们确实编码了那些原本需要人工验证才能建立对系统信心的事情。"
+ },
+ {
+  "seg": 85,
+  "start": 463.08,
+  "end": 468.142,
+  "speaker": "Unknown",
+  "en": "And so this is because they're more expensive, but they are taking away human review time that can be worth it.",
+  "zh": "所以这是因为它们更昂贵，但它们省去了人工审查时间，这可能是值得的。"
+ },
+ {
+  "seg": 86,
+  "start": 468.382,
+  "end": 477.586,
+  "speaker": "Unknown",
+  "en": "So this is where you might put something like agentic QA or where you might say like run mutation testing to check the quality of our test suite.",
+  "zh": "所以在这里你可能会放入类似智能体 QA 的东西，或者说运行变异测试来检查我们测试套件的质量。"
+ },
+ {
+  "seg": 87,
+  "start": 478.086,
+  "end": 483.649,
+  "speaker": "Unknown",
+  "en": "This is for expensive things you want to run once when the PR goes up and then have the agent iterate on the results.",
+  "zh": "这是为那些昂贵的东西准备的，你想在 PR 提交上去时运行一次，然后让智能体根据结果进行迭代。"
+ },
+ {
+  "seg": 88,
+  "start": 486.017,
+  "end": 487.942,
+  "speaker": "Unknown",
+  "en": "Finally, you have the meta loop.",
+  "zh": "最后，你有元循环。"
+ },
+ {
+  "seg": 89,
+  "start": 488.844,
+  "end": 491.069,
+  "speaker": "Unknown",
+  "en": "This is where you'll drive quality.",
+  "zh": "这是你驱动质量的地方。"
+ },
+ {
+  "seg": 90,
+  "start": 491.289,
+  "end": 494.357,
+  "speaker": "Unknown",
+  "en": "So the meta loop sits outside of the development process.",
+  "zh": "所以元循环位于开发流程之外。"
+ },
+ {
+  "seg": 91,
+  "start": 495.325,
+  "end": 497.487,
+  "speaker": "Unknown",
+  "en": "It observes your coding agent logs.",
+  "zh": "它观察你的编码智能体日志。"
+ },
+ {
+  "seg": 92,
+  "start": 497.827,
+  "end": 502.17,
+  "speaker": "Unknown",
+  "en": "It looks at PRs, your issue tracker, user feedback.",
+  "zh": "它查看 PR、你的 issue 跟踪器、用户反馈。"
+ },
+ {
+  "seg": 93,
+  "start": 502.911,
+  "end": 512.759,
+  "speaker": "Unknown",
+  "en": "And it's basically finding mistakes that are making their way through the pipeline to your users or that you had to correct as a human to stop that from happening.",
+  "zh": "它基本上是在找出那些一路穿过流水线到达你的用户的错误，或者是你不得不作为人类去纠正以阻止其发生的错误。"
+ },
+ {
+  "seg": 94,
+  "start": 513.419,
+  "end": 518.563,
+  "speaker": "Unknown",
+  "en": "And it feeds back into the inner and the outer loop to make sure that that mistake is not made again.",
+  "zh": "它反馈到内循环和外循环中，以确保那个错误不再被犯。"
+ },
+ {
+  "seg": 95,
+  "start": 519.404,
+  "end": 536.925,
+  "speaker": "Unknown",
+  "en": "So the outer loop is what really kind of, once you have the infrastructure for each of these loops, the outer loop, or sorry, the meta loop is where you're going to be actually driving from a certain percentage of like how AI native am I, you're going to be driving it up by investing in your meta loop.",
+  "zh": "所以外循环才是真正的，一旦你有了这些循环各自的基础设施，外循环，抱歉，元循环才是你真正会从某个百分比——比如我有多 AI 原生——出发，通过投资你的元循环来把这个百分比推上去的地方。"
+ },
+ {
+  "seg": 96,
+  "start": 539.882,
+  "end": 556.43,
+  "speaker": "Unknown",
+  "en": "Before we get into what are the components, what do you do to actually accomplish this, I think full disclosure up front, harness engineering, at least raw unassisted harness engineering, is hard for a few specific reasons that basically come down to human psychology.",
+  "zh": "在我们深入探讨要做什么组件、实际上如何完成这件事之前，我想提前完全坦白，harness 工程，至少是原始的、无辅助的 harness 工程，是很难的，有几个特定的原因，基本上都可以归结为人类心理。"
+ },
+ {
+  "seg": 97,
+  "start": 556.73,
+  "end": 564.654,
+  "speaker": "Unknown",
+  "en": "So the first, hopefully this one will go away over time, but it's a new discipline and it's changing very fast.",
+  "zh": "第一个，希望这个会随着时间消失，就是它是一个新学科，而且变化非常快。"
+ },
+ {
+  "seg": 98,
+  "start": 564.834,
+  "end": 568.336,
+  "speaker": "Unknown",
+  "en": "And so a lot of teams that get into harness engineering",
+  "zh": "所以很多进入 harness 工程的团队"
+ },
+ {
+  "seg": 99,
+  "start": 569.44,
+  "end": 572.783,
+  "speaker": "Unknown",
+  "en": "You basically become an AI researcher just to try and keep up.",
+  "zh": "你基本上变成了一个 AI 研究员，就为了努力跟上。"
+ },
+ {
+  "seg": 100,
+  "start": 572.803,
+  "end": 573.884,
+  "speaker": "Unknown",
+  "en": "You're reading papers.",
+  "zh": "你在读论文。"
+ },
+ {
+  "seg": 101,
+  "start": 573.924,
+  "end": 574.944,
+  "speaker": "Unknown",
+  "en": "You're watching blogs.",
+  "zh": "你在看博客。"
+ },
+ {
+  "seg": 102,
+  "start": 575.004,
+  "end": 580.869,
+  "speaker": "Unknown",
+  "en": "You're coming up with best practices that go out of date the next week and then two weeks after that.",
+  "zh": "你想出一些最佳实践，但下一周就过时了，再过两周又过时了。"
+ },
+ {
+  "seg": 103,
+  "start": 580.909,
+  "end": 584.752,
+  "speaker": "Unknown",
+  "en": "And actually, at some point, they become anti-patterns, and you don't want to do them anymore.",
+  "zh": "而且实际上，到了某个时候，它们会变成反模式，你不想再用它们了。"
+ },
+ {
+  "seg": 104,
+  "start": 584.772,
+  "end": 591.357,
+  "speaker": "Unknown",
+  "en": "And so there's just like a lot of time and space you'll devote to keeping up with how to do harness engineering.",
+  "zh": "所以你会花费大量时间和空间去跟上如何做 harness 工程。"
+ },
+ {
+  "seg": 105,
+  "start": 591.718,
+  "end": 595.541,
+  "speaker": "Unknown",
+  "en": "And so if you want to get into this discipline, you need to have a sort of upfront",
+  "zh": "因此，如果你想进入这个领域，你需要有一种前置的"
+ },
+ {
+  "seg": 106,
+  "start": 596.898,
+  "end": 598.659,
+  "speaker": "Unknown",
+  "en": "Approach to how you're going to solve this problem.",
+  "zh": "方法来解决这个难题。"
+ },
+ {
+  "seg": 107,
+  "start": 598.719,
+  "end": 603.621,
+  "speaker": "Unknown",
+  "en": "How are you going to make time and space to keep up with the knowledge that's changing every week?",
+  "zh": "你打算如何腾出时间和空间，来跟上每一周都在变化的知识？"
+ },
+ {
+  "seg": 108,
+  "start": 605.001,
+  "end": 610.463,
+  "speaker": "Unknown",
+  "en": "The second, and this one is more durable in my opinion, harness engineering is fundamentally unplanned work.",
+  "zh": "第二点，在我看来这一点更持久，harness 工程本质上是计划外的工作。"
+ },
+ {
+  "seg": 109,
+  "start": 610.843,
+  "end": 612.684,
+  "speaker": "Unknown",
+  "en": "So you will start shipping a feature.",
+  "zh": "所以你会开始交付一个功能。"
+ },
+ {
+  "seg": 110,
+  "start": 613.184,
+  "end": 616.766,
+  "speaker": "Unknown",
+  "en": "You have no way to anticipate, will agents fail?",
+  "zh": "你没有办法预判，智能体会不会失败？"
+ },
+ {
+  "seg": 111,
+  "start": 616.886,
+  "end": 617.846,
+  "speaker": "Unknown",
+  "en": "How will they fail?",
+  "zh": "会怎么失败？"
+ },
+ {
+  "seg": 112,
+  "start": 618.106,
+  "end": 619.747,
+  "speaker": "Unknown",
+  "en": "How long is it going to take me to fix it?",
+  "zh": "修复它需要我花多长时间？"
+ },
+ {
+  "seg": 113,
+  "start": 620.547,
+  "end": 625.45,
+  "speaker": "Unknown",
+  "en": "And all of that work that you're going to do to try and make the agent better competes with shipping.",
+  "zh": "而你为了让智能体变得更好而做的所有这些工作，都会与交付功能相竞争。"
+ },
+ {
+  "seg": 114,
+  "start": 625.47,
+  "end": 627.451,
+  "speaker": "Unknown",
+  "en": "So it will slow you down from getting the features out.",
+  "zh": "所以它会拖慢你把功能发布出去的速度。"
+ },
+ {
+  "seg": 115,
+  "start": 627.931,
+  "end": 631.533,
+  "speaker": "Unknown",
+  "en": "And we all know that is just a perpetually hard trade-off to make.",
+  "zh": "而且我们都知道，这是一个永远都很难做的权衡。"
+ },
+ {
+  "seg": 116,
+  "start": 632.013,
+  "end": 641.619,
+  "speaker": "Unknown",
+  "en": "You either don't do it and you get stuck in the local maxima of the agent never improves, or you do it and you miss your deadline for the feature and you get in trouble and so no one ever does it.",
+  "zh": "你要么不做，智能体就永远不会进步，被困在局部最优里；要么做了，就会错过功能的截止日期，惹上麻烦，于是没有人去做。"
+ },
+ {
+  "seg": 117,
+  "start": 643.42,
+  "end": 655.165,
+  "speaker": "Unknown",
+  "en": "The final piece is that once you've solved these initial problems, things like make time and space for harness engineering, you'll find that a lot of the information you want access to is not available.",
+  "zh": "最后一点是，一旦你解决了这些初始问题，比如为 harness 工程腾出时间和空间，你会发现很多你想访问的信息是不可获得的。"
+ },
+ {
+  "seg": 118,
+  "start": 655.245,
+  "end": 659.688,
+  "speaker": "Unknown",
+  "en": "It's hidden away in local coding agent logs, or it is on someone's machine somewhere.",
+  "zh": "它们藏在本地编码智能体的日志里，或者在某个人的某台机器上。"
+ },
+ {
+  "seg": 119,
+  "start": 659.708,
+  "end": 660.588,
+  "speaker": "Unknown",
+  "en": "It's in someone's head.",
+  "zh": "它在某个人的脑子里。"
+ },
+ {
+  "seg": 120,
+  "start": 661.368,
+  "end": 664.57,
+  "speaker": "Unknown",
+  "en": "A lot of the signals that you want to see to make agents better",
+  "zh": "很多你想看到的、用来让智能体变得更好的信号"
+ },
+ {
+  "seg": 121,
+  "start": 665.54,
+  "end": 676.405,
+  "speaker": "Unknown",
+  "en": "You need to do some work to move your workflows onto surfaces where everything is saved and publicly available for later optimization loops.",
+  "zh": "你需要做一些工作，把你的工作流搬到所有内容都会被保存、并且公开可供后续优化循环使用的表面上。"
+ },
+ {
+  "seg": 122,
+  "start": 676.805,
+  "end": 681.227,
+  "speaker": "Unknown",
+  "en": "With all that aside, then, what are the pieces that you should be working on as you're doing harness engineering?",
+  "zh": "把这些放在一边，那么，在你做 harness 工程的时候，你应该着手哪些部分呢？"
+ },
+ {
+  "seg": 123,
+  "start": 683.248,
+  "end": 685.089,
+  "speaker": "Unknown",
+  "en": "I've broken it into three layers.",
+  "zh": "我把它分成了三层。"
+ },
+ {
+  "seg": 124,
+  "start": 685.129,
+  "end": 690.672,
+  "speaker": "Unknown",
+  "en": "These aren't, by any means, standard terms, though if you want to help me make them so, I would be forever grateful.",
+  "zh": "这些绝不是标准术语，不过如果你想帮我把它们变成标准，我会永远感激。"
+ },
+ {
+  "seg": 125,
+  "start": 692.283,
+  "end": 699.368,
+  "speaker": "Unknown",
+  "en": "The first layer, and these are sort of like in the order you need to do them as far as Tesla is concerned, is you have to get your control plane right.",
+  "zh": "第一层，就 Tesla 而言，这些大致是按你需要做的顺序排列的，你必须把你的控制平面弄对。"
+ },
+ {
+  "seg": 126,
+  "start": 699.869,
+  "end": 708.695,
+  "speaker": "Unknown",
+  "en": "And so I mentioned how most of the data that you want to have access to to make agents better and move towards a software factory is not legible.",
+  "zh": "我提到过，大多数你想访问的、用来让智能体变得更好并走向软件工厂的数据，都是不可读的。"
+ },
+ {
+  "seg": 127,
+  "start": 709.596,
+  "end": 717.678,
+  "speaker": "Unknown",
+  "en": "If you move your workflows into, for example, at TESOL, we have all work starts as an issue on the issue tracker.",
+  "zh": "如果你把你的工作流迁移进去，比如，在 TESOL，我们所有的工作都以 issue 追踪器上的一个 issue 开始。"
+ },
+ {
+  "seg": 128,
+  "start": 718.338,
+  "end": 721.859,
+  "speaker": "Unknown",
+  "en": "It gets sent to a headless agent running in a sandbox.",
+  "zh": "它会被发送给一个在沙箱中运行的无头智能体。"
+ },
+ {
+  "seg": 129,
+  "start": 722.519,
+  "end": 727.32,
+  "speaker": "Unknown",
+  "en": "The agent puts up a PR, and then engineers engage with comments on the PR.",
+  "zh": "智能体提交一个 PR，然后工程师参与 PR 上的评论。"
+ },
+ {
+  "seg": 130,
+  "start": 727.38,
+  "end": 728.941,
+  "speaker": "Unknown",
+  "en": "So it still has manual correction.",
+  "zh": "所以它仍然有人工修正。"
+ },
+ {
+  "seg": 131,
+  "start": 728.961,
+  "end": 730.801,
+  "speaker": "Unknown",
+  "en": "It still has manual interface.",
+  "zh": "它仍然有人工界面。"
+ },
+ {
+  "seg": 132,
+  "start": 730.881,
+  "end": 733.682,
+  "speaker": "Unknown",
+  "en": "But now all of your touch points with the agent",
+  "zh": "但现在你与智能体的所有接触点"
+ },
+ {
+  "seg": 133,
+  "start": 734.502,
+  "end": 735.203,
+  "speaker": "Unknown",
+  "en": "are legible.",
+  "zh": "都是可读的。"
+ },
+ {
+  "seg": 134,
+  "start": 735.423,
+  "end": 739.907,
+  "speaker": "Unknown",
+  "en": "So you can then point tools at them to pull that information down and make things better.",
+  "zh": "这样你就可以把工具指向它们，把信息拉下来，把事情变得更好。"
+ },
+ {
+  "seg": 135,
+  "start": 741.457,
+  "end": 749.538,
+  "speaker": "Unknown",
+  "en": "Typically, the three things that everybody comes to when they're trying to set up a control plane is you have some way of tracking issues and kicking off agent work from that.",
+  "zh": "通常，每个人在搭建控制平面时都会想到的三件事是：你有一种追踪 issue 并从中启动智能体工作的方式。"
+ },
+ {
+  "seg": 136,
+  "start": 750.339,
+  "end": 751.739,
+  "speaker": "Unknown",
+  "en": "You're going to have some way to review.",
+  "zh": "你会有某种评审方式。"
+ },
+ {
+  "seg": 137,
+  "start": 752.079,
+  "end": 754.219,
+  "speaker": "Unknown",
+  "en": "GitHub PR review is probably the easiest.",
+  "zh": "GitHub PR 评审大概是最简单的。"
+ },
+ {
+  "seg": 138,
+  "start": 755.079,
+  "end": 762.221,
+  "speaker": "Unknown",
+  "en": "And then you're going to have some way to standardize and distribute workflows, playbooks, things that make the agents better.",
+  "zh": "然后你会有某种方式来标准化和分发工作流、playbook、能让智能体变得更好的东西。"
+ },
+ {
+  "seg": 139,
+  "start": 763.001,
+  "end": 769.122,
+  "speaker": "Unknown",
+  "en": "Typically, that ends up being something like a skills registry or a shared GitHub repo where you push skills that improve agent quality.",
+  "zh": "通常，这最终会变成类似一个 skills 注册表，或者一个共享的 GitHub 仓库，你把能提升智能体质量的 skills 推上去。"
+ },
+ {
+  "seg": 140,
+  "start": 771.585,
+  "end": 788.354,
+  "speaker": "Unknown",
+  "en": "Next is a massive grab bag that I call Agent IT, which is if anyone's ever tried to move a project that had a lot of local config into something that someone else can set up, and you realize with horror all of the dependencies that you thought were cleanly isolated and are not,",
+  "zh": "接下来是一个我叫作 Agent IT 的大杂烩，也就是如果任何人曾经尝试把一个有大量本地配置的项目迁移成别人也能搭建的东西，并且你惊恐地意识到所有那些你以为隔离得很干净的依赖其实并没有，"
+ },
+ {
+  "seg": 141,
+  "start": 789.074,
+  "end": 791.196,
+  "speaker": "Unknown",
+  "en": "You basically are going to have to go through the same thing with agents.",
+  "zh": "你基本上就要对智能体经历同样的事情。"
+ },
+ {
+  "seg": 142,
+  "start": 791.376,
+  "end": 801.706,
+  "speaker": "Unknown",
+  "en": "There's going to be all these things that you thought were easily accessible by an agent, like CLI, API access, giving away for the agent to click through your product, to build it.",
+  "zh": "会有一堆你以为智能体很容易访问的东西，比如 CLI、API 访问，给智能体一个入口去点击你的产品、去构建它。"
+ },
+ {
+  "seg": 143,
+  "start": 803.542,
+  "end": 804.823,
+  "speaker": "Unknown",
+  "en": "I promise it's worse than you think.",
+  "zh": "我保证，实际情况比你想的还要糟。"
+ },
+ {
+  "seg": 144,
+  "start": 805.043,
+  "end": 811.585,
+  "speaker": "Unknown",
+  "en": "Like there's no one who has come in thinking like, yeah, yeah, it's not going to be that hard for us has left saying that at the end.",
+  "zh": "没有人在进来时想着“对对对，这对我们来说不会那么难”，最后离开时还这么说。"
+ },
+ {
+  "seg": 145,
+  "start": 812.425,
+  "end": 815.046,
+  "speaker": "Unknown",
+  "en": "And so there's just like a lot of pieces you'll work through.",
+  "zh": "所以有很多部分需要你一一解决。"
+ },
+ {
+  "seg": 146,
+  "start": 815.066,
+  "end": 822.568,
+  "speaker": "Unknown",
+  "en": "And this is probably the most unplannable and most like spend a week, spend two weeks and just get it done.",
+  "zh": "这大概是最无法规划的，最像是花一周、花两周，直接把它搞定。"
+ },
+ {
+  "seg": 147,
+  "start": 823.588,
+  "end": 831.171,
+  "speaker": "Unknown",
+  "en": "But it will come through things like writing down in your company brain how you get work done, what are your workflows, et cetera.",
+  "zh": "但它会通过诸如在你的公司大脑里写下你是如何完成工作的、你的工作流是什么等等来完成。"
+ },
+ {
+  "seg": 148,
+  "start": 832.373,
+  "end": 838.498,
+  "speaker": "Unknown",
+  "en": "You're going to have to give access to all your internal services, which will require governance and API access questions.",
+  "zh": "你将不得不给所有内部服务授予访问权限，这会带来治理和 API 访问的问题。"
+ },
+ {
+  "seg": 149,
+  "start": 839.659,
+  "end": 842.061,
+  "speaker": "Unknown",
+  "en": "You're going to want to give a way to access production logs.",
+  "zh": "你会想提供一种访问生产日志的方式。"
+ },
+ {
+  "seg": 150,
+  "start": 842.681,
+  "end": 847.125,
+  "speaker": "Unknown",
+  "en": "And that's going to have its whole own question of what's your compliance stance, things like that.",
+  "zh": "而这将带来一整套独立的问题，比如你的合规立场是什么，诸如此类。"
+ },
+ {
+  "seg": 151,
+  "start": 848.266,
+  "end": 851.729,
+  "speaker": "Unknown",
+  "en": "And then you'll need an environment where the agent can execute the code that it is running.",
+  "zh": "然后你还需要一个环境，让智能体能够执行它正在运行的代码。"
+ },
+ {
+  "seg": 152,
+  "start": 852.129,
+  "end": 855.332,
+  "speaker": "Unknown",
+  "en": "There's infinite more, but they're generally pretty company specific.",
+  "zh": "还有无限多的问题，但它们通常都相当针对具体公司。"
+ },
+ {
+  "seg": 153,
+  "start": 855.352,
+  "end": 861.217,
+  "speaker": "Unknown",
+  "en": "And you'll just work through as you try to get agents to put code up without you intervening, you'll quickly learn what are the problems.",
+  "zh": "当你尝试让智能体在你不干预的情况下提交代码时，你会很快发现有哪些问题。"
+ },
+ {
+  "seg": 154,
+  "start": 863.511,
+  "end": 866.313,
+  "speaker": "Unknown",
+  "en": "Finally, this is where you'll end up spending most of your time.",
+  "zh": "最后，这将是你花费最多时间的地方。"
+ },
+ {
+  "seg": 155,
+  "start": 866.834,
+  "end": 868.215,
+  "speaker": "Unknown",
+  "en": "These are the improvement loops.",
+  "zh": "这些就是改进循环。"
+ },
+ {
+  "seg": 156,
+  "start": 868.275,
+  "end": 871.778,
+  "speaker": "Unknown",
+  "en": "So these are the things I mentioned before, the inner, outer meta loop.",
+  "zh": "也就是我之前提到的东西，内层循环、外层元循环。"
+ },
+ {
+  "seg": 157,
+  "start": 872.379,
+  "end": 874.981,
+  "speaker": "Unknown",
+  "en": "These are components that tend to go into your meta loop.",
+  "zh": "这些是通常会进入你元循环的组件。"
+ },
+ {
+  "seg": 158,
+  "start": 875.061,
+  "end": 883.428,
+  "speaker": "Unknown",
+  "en": "So repo maintenance, you're going to want things that sweep your code base every day, every night, every week, something like that to look for problems.",
+  "zh": "比如仓库维护，你会需要一些东西每天、每晚、每周扫描你的代码库，以查找问题。"
+ },
+ {
+  "seg": 159,
+  "start": 884.409,
+  "end": 889.634,
+  "speaker": "Unknown",
+  "en": "You're going to want playbooks for common development practices, so how to add a feature to your CLI.",
+  "zh": "你会需要针对常见开发实践的 playbook，比如如何给你的 CLI 添加一个功能。"
+ },
+ {
+  "seg": 160,
+  "start": 891.102,
+  "end": 898.745,
+  "speaker": "Unknown",
+  "en": "You're going to want to find a way to identify repeated tasks and automate them, and ideally as quickly and easily as possible because otherwise people won't do it.",
+  "zh": "你会需要找到一种方法来识别重复性任务并将其自动化，理想情况下要尽可能快速便捷，否则人们就不会去做。"
+ },
+ {
+  "seg": 161,
+  "start": 900.206,
+  "end": 908.029,
+  "speaker": "Unknown",
+  "en": "And then you're going to want something that looks at the output quality just on a consistent basis and brings back improvements and learnings to the rest of your code base.",
+  "zh": "然后你会需要某种东西，持续地审视输出质量，并把改进和经验带回你的其余代码库。"
+ },
+ {
+  "seg": 162,
+  "start": 908.069,
+  "end": 911.47,
+  "speaker": "Unknown",
+  "en": "So say things like, oh, I saw the agent made this mistake.",
+  "zh": "比如说这样的话，哦，我看到智能体犯了这个错误。"
+ },
+ {
+  "seg": 163,
+  "start": 911.69,
+  "end": 915.832,
+  "speaker": "Unknown",
+  "en": "Let's update a skill on the playbook you have for adding features to the CLI.",
+  "zh": "让我们更新一下你现有的关于给 CLI 添加功能的 playbook 上的技能。"
+ },
+ {
+  "seg": 164,
+  "start": 916.212,
+  "end": 919.053,
+  "speaker": "Unknown",
+  "en": "Let's update that so it doesn't make this mistake again in the future.",
+  "zh": "让我们更新它，这样它以后就不会再犯这个错误了。"
+ },
+ {
+  "seg": 165,
+  "start": 921.975,
+  "end": 926.882,
+  "speaker": "Unknown",
+  "en": "So those three control planes, TESOL sort of exists to try and help you solve them.",
+  "zh": "所以那三个控制平面，TESOL 的存在一定程度上就是为了帮你解决它们。"
+ },
+ {
+  "seg": 166,
+  "start": 927.242,
+  "end": 930.306,
+  "speaker": "Unknown",
+  "en": "As I mentioned, everything I've said before here are just techniques.",
+  "zh": "如我所提，我之前在这里说的一切都只是技术手段。"
+ },
+ {
+  "seg": 167,
+  "start": 930.346,
+  "end": 931.969,
+  "speaker": "Unknown",
+  "en": "You could go do them all yourself if you wanted.",
+  "zh": "如果你愿意，你完全可以自己去做所有这些。"
+ },
+ {
+  "seg": 168,
+  "start": 932.429,
+  "end": 933.951,
+  "speaker": "Unknown",
+  "en": "There's plenty of tools that do that.",
+  "zh": "有很多工具可以做到这一点。"
+ },
+ {
+  "seg": 169,
+  "start": 934.432,
+  "end": 938.498,
+  "speaker": "Unknown",
+  "en": "So I'm going to talk a little bit through how TESOL will help you if you want to use us.",
+  "zh": "所以我要稍微讲一下，如果你想使用我们，TESOL 会如何帮助你。"
+ },
+ {
+  "seg": 170,
+  "start": 940.208,
+  "end": 941.909,
+  "speaker": "Unknown",
+  "en": "To start, why would you want to use us?",
+  "zh": "首先，你为什么会想用我们？"
+ },
+ {
+  "seg": 171,
+  "start": 942.729,
+  "end": 950.433,
+  "speaker": "Unknown",
+  "en": "So we focus really hard on making it relatively iterative and sustainable to get to the cutting edge.",
+  "zh": "我们非常专注于让达到前沿水平这件事相对可迭代、可持续。"
+ },
+ {
+  "seg": 172,
+  "start": 950.453,
+  "end": 956.956,
+  "speaker": "Unknown",
+  "en": "So we try to make it like a bunch of small lifts rather than one massive snake eating the moose all at once.",
+  "zh": "我们试图让它像一堆小的抬举动作，而不是一条巨蛇一口气吞下整头麋鹿。"
+ },
+ {
+  "seg": 173,
+  "start": 958.477,
+  "end": 969.402,
+  "speaker": "Unknown",
+  "en": "We're batteries included, so we solve the knowledge gap by saying, we will keep up and you will have an agentic experience that basically knows the best practices of harness engineering is kept up to date on your behalf.",
+  "zh": "我们是“电池已含”的，所以我们通过这种方式解决知识差距：我们会持续跟进，你会得到一个基本上了解 harness 工程最佳实践、并代表你保持更新的智能体体验。"
+ },
+ {
+  "seg": 174,
+  "start": 970.883,
+  "end": 973.025,
+  "speaker": "Unknown",
+  "en": "We have a real commitment to being modular and open.",
+  "zh": "我们对模块化和开放有真正的承诺。"
+ },
+ {
+  "seg": 175,
+  "start": 973.145,
+  "end": 978.249,
+  "speaker": "Unknown",
+  "en": "So we don't think every component of a factory is going to be best in class with a single company.",
+  "zh": "所以我们认为工厂的每一个组件不可能都由单一公司做到业界最佳。"
+ },
+ {
+  "seg": 176,
+  "start": 978.269,
+  "end": 982.592,
+  "speaker": "Unknown",
+  "en": "We want to make sure you can pick and choose what is the most important piece for your stack.",
+  "zh": "我们想确保你可以挑挑拣拣，选出对你的技术栈最重要的那一块。"
+ },
+ {
+  "seg": 177,
+  "start": 983.633,
+  "end": 985.575,
+  "speaker": "Unknown",
+  "en": "And then, like I said, we focus on making it easy.",
+  "zh": "然后，就像我说的，我们专注于让它变得简单。"
+ },
+ {
+  "seg": 178,
+  "start": 985.615,
+  "end": 990.599,
+  "speaker": "Unknown",
+  "en": "So we have automated loops for you that you can install and just react to the changes that are proposed.",
+  "zh": "所以我们为你提供了自动化的循环，你可以安装它们，只需对提出的变更做出反应。"
+ },
+ {
+  "seg": 179,
+  "start": 991.28,
+  "end": 998.951,
+  "speaker": "Unknown",
+  "en": "And we really try to make sure it's just incremental steps so that you, six months later, are like, oh, wow, we're like 40% there to a software factory.",
+  "zh": "而且我们真的努力确保这只是增量式的步骤，这样六个月后的你会说，哦，哇，我们已经完成了软件工厂大概 40% 的进度了。"
+ },
+ {
+  "seg": 180,
+  "start": 998.991,
+  "end": 1001.315,
+  "speaker": "Unknown",
+  "en": "We never had to stop and delay shipping or anything like that.",
+  "zh": "我们从不需要停下来推迟交付或诸如此类的事情。"
+ },
+ {
+  "seg": 181,
+  "start": 1003.965,
+  "end": 1007.149,
+  "speaker": "Unknown",
+  "en": "So the first place that TESOL helps is in setting up your control plane.",
+  "zh": "所以 TESOL 帮助的第一个地方是搭建你的控制平面。"
+ },
+ {
+  "seg": 182,
+  "start": 1007.93,
+  "end": 1020.828,
+  "speaker": "Unknown",
+  "en": "We have a skills registry where you can publish and version the workflows and the automations that you're working on with built-in governance, things like security reviews, quality reviews, controls for who can publish and update what.",
+  "zh": "我们有一个技能注册表，你可以在其中发布你正在开发的 workflow 和自动化并对其做版本管理，并带有内置的治理，比如安全审查、质量审查、以及谁能发布和更新什么内容的控制。"
+ },
+ {
+  "seg": 183,
+  "start": 1022.058,
+  "end": 1026.562,
+  "speaker": "Unknown",
+  "en": "We also have easy connectors for issue trackers to GitHub.",
+  "zh": "我们还有连接到 GitHub 的 issue 跟踪器的简易连接器。"
+ },
+ {
+  "seg": 184,
+  "start": 1026.602,
+  "end": 1034.429,
+  "speaker": "Unknown",
+  "en": "Right now we're focused on linear to GitHub, so you can basically file a linear ticket and get it to run a GitHub workflow with more connectors coming soon.",
+  "zh": "现在我们专注于 Linear 到 GitHub，所以你基本上可以提交一个 Linear 工单，然后让它运行一个 GitHub workflow，更多连接器即将推出。"
+ },
+ {
+  "seg": 185,
+  "start": 1035.73,
+  "end": 1043.798,
+  "speaker": "Unknown",
+  "en": "And then we also have a suite of tools for code review, just to make it easy to set up your standards for agentic code review as well as more targeted checks.",
+  "zh": "然后我们还有一套用于代码审查的工具，让你可以轻松地为智能体代码审查设置你的标准，以及更有针对性的检查。"
+ },
+ {
+  "seg": 186,
+  "start": 1045.123,
+  "end": 1055.673,
+  "speaker": "Unknown",
+  "en": "See here an example of something like a workflow that has been posted to the registry being scanned for security, quality, and how much it actually improves the agent's output.",
+  "zh": "看这里这个例子，比如一个已发布到注册表的 workflow，正在被扫描安全性、质量、以及它对智能体输出的实际改进程度。"
+ },
+ {
+  "seg": 187,
+  "start": 1058.224,
+  "end": 1061.646,
+  "speaker": "Unknown",
+  "en": "After this, I'm going to play a video while we talk, see how this goes.",
+  "zh": "接下来，我会在我们讲解的同时播放一段视频，看看效果如何。"
+ },
+ {
+  "seg": 188,
+  "start": 1061.686,
+  "end": 1071.912,
+  "speaker": "Unknown",
+  "en": "So we have an agentic experience called TESOL Agent, which will help you with creating and then maintaining your improvement loops over time.",
+  "zh": "我们有一个叫 TESOL Agent 的智能体体验，它会帮助你创建并随时间维护你的改进循环。"
+ },
+ {
+  "seg": 189,
+  "start": 1072.132,
+  "end": 1075.915,
+  "speaker": "Unknown",
+  "en": "So the first thing that we do is we will help you with that",
+  "zh": "所以我们做的第一件事是，我们会在这方面帮助你——"
+ },
+ {
+  "seg": 190,
+  "start": 1076.615,
+  "end": 1083.776,
+  "speaker": "Unknown",
+  "en": "Change management of, like, how do I actually make the time to find repeated tasks and set them up in automation?",
+  "zh": "变更管理，比如，我究竟如何腾出时间来找出重复性任务并把它们设置为自动化？"
+ },
+ {
+  "seg": 191,
+  "start": 1083.876,
+  "end": 1092.338,
+  "speaker": "Unknown",
+  "en": "So the agent will mine through PRs, issues, things like that, and find, like, every week you do a hunt for flaky tests.",
+  "zh": "所以这个智能体会挖掘 PR、issue 之类的，并发现，比如你每周都会做一次 flaky test 的排查。"
+ },
+ {
+  "seg": 192,
+  "start": 1092.398,
+  "end": 1095.559,
+  "speaker": "Unknown",
+  "en": "Why don't we just set that up as a skill for the workflow?",
+  "zh": "为什么我们不直接把它设置为这个 workflow 的一个技能呢？"
+ },
+ {
+  "seg": 193,
+  "start": 1095.579,
+  "end": 1097.579,
+  "speaker": "Unknown",
+  "en": "And then we'll put it in automation on a GitHub Action.",
+  "zh": "然后我们会把它放到 GitHub Action 上做成自动化。"
+ },
+ {
+  "seg": 194,
+  "start": 1098.119,
+  "end": 1101.72,
+  "speaker": "Unknown",
+  "en": "So we help you actually make time to do the automations, just like one workflow at a time.",
+  "zh": "所以我们帮你真正腾出时间来做这些自动化，一次一个 workflow。"
+ },
+ {
+  "seg": 195,
+  "start": 1103.19,
+  "end": 1106.994,
+  "speaker": "Unknown",
+  "en": "The second is that we come with a lot of out-of-the-box maintenance tasks.",
+  "zh": "第二，我们自带很多开箱即用的维护任务。"
+ },
+ {
+  "seg": 196,
+  "start": 1107.094,
+  "end": 1118.024,
+  "speaker": "Unknown",
+  "en": "So I mentioned you want to have weekly scans for things like architecture quality, code duplication, how good are your test suites, do you have any security vulnerabilities.",
+  "zh": "我提到过你会需要每周扫描诸如架构质量、代码重复、你的测试套件质量如何、你是否有任何安全漏洞之类的东西。"
+ },
+ {
+  "seg": 197,
+  "start": 1118.044,
+  "end": 1125.732,
+  "speaker": "Unknown",
+  "en": "So if you use TESL, you can just one-click install a bunch of those things and just get weekly improvements to your code base without any other effort.",
+  "zh": "所以如果你使用 TESL，你可以一键安装一堆这些东西，然后在无需任何其他努力的情况下，每周对你的代码库获得改进。"
+ },
+ {
+  "seg": 198,
+  "start": 1127.166,
+  "end": 1131.208,
+  "speaker": "Unknown",
+  "en": "And then finally, we offer a way to turn any skill into an automated workflow.",
+  "zh": "最后，我们提供一种把任何技能变成自动化 workflow 的方法。"
+ },
+ {
+  "seg": 199,
+  "start": 1131.388,
+  "end": 1138.092,
+  "speaker": "Unknown",
+  "en": "So it's through a command called teslaunch, where you effectively take a skill that codifies a workflow.",
+  "zh": "它通过一个叫 teslaunch 的命令实现，你实际上是把一个将 workflow 编纂成文的技能拿来。"
+ },
+ {
+  "seg": 200,
+  "start": 1138.733,
+  "end": 1142.055,
+  "speaker": "Unknown",
+  "en": "You can then pick a particular coding agent that you want to handle it.",
+  "zh": "然后你可以挑选一个你想要的特定编码智能体来处理它。"
+ },
+ {
+  "seg": 201,
+  "start": 1142.955,
+  "end": 1143.976,
+  "speaker": "Unknown",
+  "en": "Tessel Agent can be one of them.",
+  "zh": "Tessel Agent 可以是其中之一。"
+ },
+ {
+  "seg": 202,
+  "start": 1144.016,
+  "end": 1148.301,
+  "speaker": "Unknown",
+  "en": "But for most coding tasks, you probably want to use something like Codex, Claude Code, Gemini.",
+  "zh": "但对于大多数编码任务，你可能想要使用像 Codex、Claude Code、Gemini 这样的东西。"
+ },
+ {
+  "seg": 203,
+  "start": 1148.321,
+  "end": 1149.362,
+  "speaker": "Unknown",
+  "en": "We have access to all of them.",
+  "zh": "我们可以访问所有这些。"
+ },
+ {
+  "seg": 204,
+  "start": 1150.083,
+  "end": 1155.008,
+  "speaker": "Unknown",
+  "en": "And we will run them in a sandbox that has the appropriate permissions, can be long running.",
+  "zh": "而且我们会在一个具有适当权限的沙箱中运行它们，可以是长时间运行的。"
+ },
+ {
+  "seg": 205,
+  "start": 1155.769,
+  "end": 1159.913,
+  "speaker": "Unknown",
+  "en": "We'll have GitHub tokens so that it can put up a PR and respond to comments as you leave them.",
+  "zh": "我们会有 GitHub token，这样它就可以提交 PR 并在你留言时回复评论。"
+ },
+ {
+  "seg": 206,
+  "start": 1159.933,
+  "end": 1163.077,
+  "speaker": "Unknown",
+  "en": "So it just makes it really easy to automate workflows like that.",
+  "zh": "所以它让自动化这样的工作流变得非常容易。"
+ },
+ {
+  "seg": 207,
+  "start": 1164.763,
+  "end": 1177.012,
+  "speaker": "Unknown",
+  "en": "And so with these things together, we just make it really easy to get started and just one at a time find an improvement, take a workflow, turn it into a skill, ship it to everyone, and then get your improvement loops going.",
+  "zh": "把这些东西结合在一起，我们只是让上手变得非常容易，一次找到一个改进点，拿一个工作流，把它变成一个技能，发布给所有人，然后让你的改进循环运转起来。"
+ },
+ {
+  "seg": 208,
+  "start": 1179.433,
+  "end": 1187.099,
+  "speaker": "Unknown",
+  "en": "What you're going to want to focus on as you're doing this work is driving down manual takeovers, driving down human PR comments.",
+  "zh": "你在做这项工作时需要关注的是降低人工接管，降低人工 PR 评论。"
+ },
+ {
+  "seg": 209,
+  "start": 1187.159,
+  "end": 1191.282,
+  "speaker": "Unknown",
+  "en": "These are metrics that you can track to see, like, how far am I towards Software Factory?",
+  "zh": "这些是你追踪的指标，可以看到，我在通往 Software Factory 的路上走了多远。"
+ },
+ {
+  "seg": 210,
+  "start": 1192.259,
+  "end": 1195.72,
+  "speaker": "Unknown",
+  "en": "And then over time, you want to see more PRs initiated without human input.",
+  "zh": "然后随着时间推移，你会想看到更多在没有人类输入的情况下发起的 PR。"
+ },
+ {
+  "seg": 211,
+  "start": 1195.74,
+  "end": 1197.18,
+  "speaker": "Unknown",
+  "en": "That's a sign that you're automating more.",
+  "zh": "这是你自动化程度更高的一个信号。"
+ },
+ {
+  "seg": 212,
+  "start": 1198.121,
+  "end": 1203.582,
+  "speaker": "Unknown",
+  "en": "And then, of course, you want to first hold quality constant and then aim to drive it up after that.",
+  "zh": "然后，当然，你要先保持质量不变，之后再致力于把质量提上去。"
+ },
+ {
+  "seg": 213,
+  "start": 1205.463,
+  "end": 1205.743,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 214,
+  "start": 1205.803,
+  "end": 1208.244,
+  "speaker": "Unknown",
+  "en": "If you want to learn more, Tesla booth is just that way.",
+  "zh": "如果你想了解更多，Tesla 展台就在那边。"
+ },
+ {
+  "seg": 215,
+  "start": 1208.624,
+  "end": 1209.864,
+  "speaker": "Unknown",
+  "en": "Please give a scan.",
+  "zh": "请扫一下码。"
+ },
+ {
+  "seg": 216,
+  "start": 1209.904,
+  "end": 1210.604,
+  "speaker": "Unknown",
+  "en": "Come over, see us.",
+  "zh": "过来找我们。"
+ },
+ {
+  "seg": 217,
+  "start": 1210.644,
+  "end": 1211.304,
+  "speaker": "Unknown",
+  "en": "We'd love to chat.",
+  "zh": "我们很乐意聊聊。"
+ },
+ {
+  "seg": 218,
+  "start": 1212.325,
+  "end": 1212.985,
+  "speaker": "Unknown",
+  "en": "Thank you all for your time.",
+  "zh": "感谢大家的时间。"
+ },
+ {
+  "seg": 219,
+  "start": 1222.644,
+  "end": 1223.586,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

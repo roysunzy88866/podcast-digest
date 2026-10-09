@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":191,"Claude":92,"Claude Code":98,"MCP":83,"harness":61,"开源模型":4,"多模型世界":1,"token":32,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":192,"Claude":92,"Claude Code":98,"MCP":83,"harness":62,"开源模型":4,"多模型世界":1,"token":32,"OpenRouter":14}</script>
 
 <script>
 (function(){

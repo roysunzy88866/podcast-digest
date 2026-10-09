@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>code mode</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="code mode">CO</div><div class="pi"><h1 class="pt">code mode</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="code mode">CO</div><div class="pi"><h1 class="pt">code mode</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]]**(02:10起):本集说 code mode 的理念是只暴露一个代码工具，让模型自己写代码去调 API 和外部服务，而不是给模型堆一堆静态工具
 - **[[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]]**(10:43起):本集说这是让聊天机器人写代码并执行的长期趋势，Swyx 认为它是'不变的东西'之一，AIE 网站用 Cloudflare 的 Just Bash 实现，展示形式包括 Monty（JavaScript）和 Just Bash（Python）
+- **[[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]]**(11:54起):本集说 code mode 是智能体在运行时现场生成代码再执行的做法，从企业安全视角看非常令人不安。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-05-27-devtools-cloudflare-devs|《Cloudflare 三人聊：让模型直接写代码，别再堆工具了》]] — 作为概念
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为概念
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Cloudflare]] · [[智能体]] · [[沙箱]] · [[Sunil Pai]] · [[Louis Knight-Webb]] · [[Thomas Ankcorn]] · [[Swyx]] · [[Matt Carey]] · [[AI Engineers]] · [[MCP]]
+[[智能体]] · [[沙箱]] · [[Cloudflare]] · [[Sunil Pai]] · [[Louis Knight-Webb]] · [[Jason]] · [[Thomas Ankcorn]] · [[Swyx]] · [[Samar Abbas]] · [[Matt Carey]]
 
-<script type="application/json" class="pd-epn">{"Cloudflare":16,"智能体":446,"沙箱":85,"Sunil Pai":1,"Louis Knight-Webb":1,"Thomas Ankcorn":1,"Swyx":2,"Matt Carey":1,"AI Engineers":1,"MCP":83}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"沙箱":87,"Cloudflare":16,"Sunil Pai":1,"Louis Knight-Webb":1,"Jason":6,"Thomas Ankcorn":1,"Swyx":2,"Samar Abbas":1,"Matt Carey":1}</script>
 
 <script>
 (function(){

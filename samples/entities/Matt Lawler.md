@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":27,"ClaudeMD":4,"Railway":1,"护栏":84,"内部试用":3}</script>
+<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":27,"ClaudeMD":4,"Railway":1,"护栏":85,"内部试用":3}</script>
 
 <script>
 (function(){

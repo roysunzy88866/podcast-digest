@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[可观测性]] · [[Harry Stebbings]] · [[Elena Berger]] · [[Uber]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"OpenAI":180,"Anthropic":191,"Cursor":83,"推理":87,"可观测性":40,"Harry Stebbings":20,"Elena Berger":5,"Uber":17,"Lovable":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"OpenAI":181,"Anthropic":192,"Cursor":83,"推理":88,"可观测性":40,"Harry Stebbings":20,"Elena Berger":5,"Uber":18,"Lovable":19}</script>
 
 <script>
 (function(){

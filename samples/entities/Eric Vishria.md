@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":21,"Cursor":83,"NVIDIA":63,"推理":87,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":22,"Cursor":83,"NVIDIA":64,"推理":88,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

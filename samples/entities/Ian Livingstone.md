@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Glyfer Johnny":1,"Key Card":1,"智能体":446,"身份":5,"使命":2,"会话":1,"非确定性":2,"同意疲劳":1,"OAuth":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Glyfer Johnny":1,"Key Card":1,"智能体":448,"身份":5,"使命":2,"会话":1,"非确定性":2,"同意疲劳":1,"OAuth":3}</script>
 
 <script>
 (function(){

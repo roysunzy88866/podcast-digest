@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>66</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>67</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -74,6 +74,7 @@ unlisted: true
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Google 是那头『什么都有却不会用爪子』的熊：握有 Gmail、日历、搜索的天然集成，本应是做这件事的人，却因厨房里厨师太多、CC/Spark/AI mode 产品线互相打架而踩不准时机。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
+- **[[2026-10-06-talks-building-ai-for-the-physical-world-with|《机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能》]]**(01:48起):Florence 曾任职之处，在那里把机器人数据扩展到几千小时并参与创造最早的 VLA。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(11:34起):本集提到 Newman 曾以 ThoughtWorks 员工身份在 Google 教自动化测试，以及 Google SRE 的「厄运之轮」演练游戏；另作为模型可用性较好的备选云被提及。
@@ -164,7 +165,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*66 集*
+*67 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -229,6 +230,7 @@ unlisted: true
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司(提及)
+- [[2026-10-06-talks-building-ai-for-the-physical-world-with|《机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能》]] — 作为被讨论公司(提及)
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
@@ -239,7 +241,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Claude]] · [[Amazon]] · [[NVIDIA]] · [[Apple]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"OpenAI":180,"Anthropic":191,"ChatGPT":101,"Meta":48,"Claude":92,"Amazon":32,"NVIDIA":63,"Apple":22,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"OpenAI":181,"Anthropic":192,"ChatGPT":102,"Meta":48,"Claude":92,"Amazon":32,"NVIDIA":64,"Apple":22,"Lenny":68}</script>
 
 <script>
 (function(){

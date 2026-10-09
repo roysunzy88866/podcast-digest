@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":18,"Brené Brown":1,"递归自我改进":10,"勇敢领导力":1,"智能体":446,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":18,"Brené Brown":1,"递归自我改进":10,"勇敢领导力":1,"智能体":448,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":23}</script>
 
 <script>
 (function(){

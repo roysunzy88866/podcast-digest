@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]] [[Woodson Martin]]
+[[Pat Gelsinger]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Garman":1,"AWS":21,"Amazon":32,"智能体":446,"GPU":28,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":85,"Firecracker":3}</script>
+<script type="application/json" class="pd-epn">{"Matt Garman":1,"AWS":22,"Amazon":32,"智能体":448,"GPU":28,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":87,"Firecracker":3}</script>
 
 <script>
 (function(){

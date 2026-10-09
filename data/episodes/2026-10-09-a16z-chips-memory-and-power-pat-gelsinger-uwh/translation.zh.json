@@ -1,0 +1,5874 @@
+[
+ {
+  "seg": 0,
+  "start": 0.685,
+  "end": 5.932,
+  "speaker": "Unknown",
+  "en": "In a AI digital age, energy capacity equals economic capacity.",
+  "zh": "在 AI 数字时代，能源容量等于经济容量。"
+ },
+ {
+  "seg": 1,
+  "start": 6.013,
+  "end": 10.619,
+  "speaker": "Unknown",
+  "en": "Why build a new data center and buy a million GPUs if I can't power that?",
+  "zh": "如果我没法供电，为什么要建新的数据中心、买一百万块 GPU 呢？"
+ },
+ {
+  "seg": 2,
+  "start": 10.659,
+  "end": 17.028,
+  "speaker": "Unknown",
+  "en": "You're going to see more and more defaults happening on many of those data center projects because the energy won't be there.",
+  "zh": "你会看到越来越多的数据中心项目发生违约，因为能源不会到位。"
+ },
+ {
+  "seg": 3,
+  "start": 17.128,
+  "end": 22.112,
+  "speaker": "Unknown",
+  "en": "Whenever you have the technology to make something easy, that means the bottleneck moves somewhere else.",
+  "zh": "每当你拥有让某件事变容易的技术，那就意味着瓶颈转移到了别的地方。"
+ },
+ {
+  "seg": 4,
+  "start": 22.152,
+  "end": 23.934,
+  "speaker": "Unknown",
+  "en": "Nothing's a chip anymore, it's a rack.",
+  "zh": "现在已经没有什么东西是一块芯片了，而是一个机架。"
+ },
+ {
+  "seg": 5,
+  "start": 23.994,
+  "end": 28.037,
+  "speaker": "Unknown",
+  "en": "It took me three months to design it, but it's nine months until I can actually start to use it.",
+  "zh": "我花了三个月设计它，但还要九个月才能真正开始使用它。"
+ },
+ {
+  "seg": 6,
+  "start": 28.117,
+  "end": 31.32,
+  "speaker": "Unknown",
+  "en": "Exactly how many major new memories have you had over the last 30 years?",
+  "zh": "过去 30 年里你到底见过多少次重大的新内存？"
+ },
+ {
+  "seg": 7,
+  "start": 33.259,
+  "end": 36.823,
+  "speaker": "Unknown",
+  "en": "Memory innovation for the first time in 30 years is nigh upon us.",
+  "zh": "30 年来第一次，内存创新近在眼前。"
+ },
+ {
+  "seg": 8,
+  "start": 36.983,
+  "end": 39.686,
+  "speaker": "Unknown",
+  "en": "I declared the death of copper about 25 years ago.",
+  "zh": "我在大约 25 年前就宣布了铜的死亡。"
+ },
+ {
+  "seg": 9,
+  "start": 39.927,
+  "end": 42.229,
+  "speaker": "Unknown",
+  "en": "Eventually I'll be right for all of us hardware guys.",
+  "zh": "最终我们这些搞硬件的人都会等到我说对的那一天。"
+ },
+ {
+  "seg": 10,
+  "start": 42.249,
+  "end": 48.336,
+  "speaker": "Unknown",
+  "en": "This is like renaissance in front of AI inference accelerator chips and I'm sure I don't even know them all.",
+  "zh": "这就像 AI 推理加速器芯片面前的文艺复兴，我敢肯定我甚至都没把它们全认全。"
+ },
+ {
+  "seg": 11,
+  "start": 48.476,
+  "end": 50.619,
+  "speaker": "Unknown",
+  "en": "Why are you guys funding so many of those anyways?",
+  "zh": "你们到底为什么要投这么多这样的公司？"
+ },
+ {
+  "seg": 12,
+  "start": 50.739,
+  "end": 52.02,
+  "speaker": "Unknown",
+  "en": "You funded your first share too.",
+  "zh": "你们当年也投了自己的第一份。"
+ },
+ {
+  "seg": 13,
+  "start": 53.962,
+  "end": 58.284,
+  "speaker": "Unknown",
+  "en": "Historically, there have not been a hundred competing processor vendors in any industry ever.",
+  "zh": "从历史上看，任何行业从来都没有过一百家相互竞争的处理器厂商。"
+ },
+ {
+  "seg": 14,
+  "start": 58.304,
+  "end": 59.664,
+  "speaker": "Unknown",
+  "en": "This is a temporary thing.",
+  "zh": "这是暂时的现象。"
+ },
+ {
+  "seg": 15,
+  "start": 59.844,
+  "end": 61.065,
+  "speaker": "Unknown",
+  "en": "It'll convert back to a view.",
+  "zh": "它会回归成少数几家。"
+ },
+ {
+  "seg": 16,
+  "start": 61.485,
+  "end": 69.988,
+  "speaker": "Unknown",
+  "en": "I see it as AI is making it faster to design ships, but actually building them, powering them, and connecting them may be getting harder.",
+  "zh": "我把它看作 AI 正在让设计芯片变得更快，但真正制造它们、给它们供电、把它们连接起来可能正变得更难。"
+ },
+ {
+  "seg": 17,
+  "start": 70.888,
+  "end": 84.335,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z's Ragu Ragu Ram and Guido Abedzeller sit down with Pat Gelsinger, general partner at Playground Global and former CEO of Intel and VMware, to discuss the next bottlenecks in AI infrastructure.",
+  "zh": "在本集中，A16Z 的 Ragu Ragu Ram 和 Guido Abedzeller 与 Playground Global 普通合伙人、Intel 和 VMware 前 CEO Pat Gelsinger 坐下来，讨论 AI 基础设施的下一个瓶颈。"
+ },
+ {
+  "seg": 18,
+  "start": 85.296,
+  "end": 92.44,
+  "speaker": "Unknown",
+  "en": "Pat takes us back to his early days designing Intel's processors, when engineers were inventing the tools they needed to build the chips themselves.",
+  "zh": "Pat 带我们回到他早期设计 Intel 处理器的日子，当时工程师们在发明他们自己造芯片所需的工具。"
+ },
+ {
+  "seg": 19,
+  "start": 93.508,
+  "end": 101.174,
+  "speaker": "Unknown",
+  "en": "He explains why AI could bring a similar shift today, even as manufacturing timelines, memory bandwidth and power become harder constraints.",
+  "zh": "他解释了为什么 AI 今天可能带来类似的转变，即便制造周期、内存带宽和电力正成为更难的约束。"
+ },
+ {
+  "seg": 20,
+  "start": 102.014,
+  "end": 113.223,
+  "speaker": "Unknown",
+  "en": "They also debate whether the explosion of specialized AI chips will last, why Pat believes memory innovation is finally approaching a breakthrough, and how optical networking could change the architecture of AI clusters.",
+  "zh": "他们还辩论了专用 AI 芯片的爆发是否会持续、为什么 Pat 相信内存创新终于接近突破、以及光网络可能如何改变 AI 集群的架构。"
+ },
+ {
+  "seg": 21,
+  "start": 114.372,
+  "end": 117.754,
+  "speaker": "Unknown",
+  "en": "In drawing on their shared history at VMware, they close with a question.",
+  "zh": "借助他们在 VMware 的共同历史，他们以一个问题作结。"
+ },
+ {
+  "seg": 22,
+  "start": 118.435,
+  "end": 125.66,
+  "speaker": "Unknown",
+  "en": "What would it look like to rebuild virtualization for a world where AI agents, rather than humans, are the primary users?",
+  "zh": "在一个 AI 智能体而非人类是主要用户的世界里，为这样的世界重建虚拟化会是什么样子？"
+ },
+ {
+  "seg": 23,
+  "start": 128.822,
+  "end": 134.966,
+  "speaker": "Unknown",
+  "en": "I'm here with our esteemed guest and dear friend and former boss, Mr. Pat Gelsinger.",
+  "zh": "我和我们的尊贵嘉宾、亲爱的朋友、也是我以前的老板 Pat Gelsinger 先生在一起。"
+ },
+ {
+  "seg": 24,
+  "start": 135.626,
+  "end": 136.307,
+  "speaker": "Unknown",
+  "en": "Welcome, Pat.",
+  "zh": "欢迎，Pat。"
+ },
+ {
+  "seg": 25,
+  "start": 136.467,
+  "end": 140.41,
+  "speaker": "Unknown",
+  "en": "Pat is currently the general partner at Playground Global.",
+  "zh": "Pat 目前是 Playground Global 的普通合伙人。"
+ },
+ {
+  "seg": 26,
+  "start": 141.267,
+  "end": 144.588,
+  "speaker": "Unknown",
+  "en": "But as you are very, very well known in the industry for leading.",
+  "zh": "但正如你在这个行业里非常非常广为人知的领导经历。"
+ },
+ {
+  "seg": 27,
+  "start": 145.425,
+  "end": 150.129,
+  "speaker": "Unknown",
+  "en": "Intel, for being the CTO of Intel, of course, leading VMware and many other things.",
+  "zh": "Intel,担任过 Intel 的 CTO,当然，还有领导 VMware 以及许多其他事情。"
+ },
+ {
+  "seg": 28,
+  "start": 150.709,
+  "end": 151.21,
+  "speaker": "Unknown",
+  "en": "So welcome.",
+  "zh": "所以欢迎。"
+ },
+ {
+  "seg": 29,
+  "start": 151.65,
+  "end": 152.631,
+  "speaker": "Unknown",
+  "en": "Hey, thank you, Raygu.",
+  "zh": "嘿，谢谢你，Raygu。"
+ },
+ {
+  "seg": 30,
+  "start": 152.691,
+  "end": 154.052,
+  "speaker": "Unknown",
+  "en": "Great to be with you and Guido.",
+  "zh": "很高兴和你还有 Guido 在一起。"
+ },
+ {
+  "seg": 31,
+  "start": 154.492,
+  "end": 154.672,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 32,
+  "start": 154.692,
+  "end": 157.214,
+  "speaker": "Unknown",
+  "en": "And to me, this feels just a little bit like old home, right?",
+  "zh": "而对我来说，这感觉有点像回到老家，对吧？"
+ },
+ {
+  "seg": 33,
+  "start": 157.374,
+  "end": 157.615,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 34,
+  "start": 157.675,
+  "end": 160.257,
+  "speaker": "Unknown",
+  "en": "We superimposed a year of change, right?",
+  "zh": "我们叠加了一年的变化，对吧？"
+ },
+ {
+  "seg": 35,
+  "start": 160.337,
+  "end": 161.538,
+  "speaker": "Unknown",
+  "en": "But you both went the same.",
+  "zh": "但你们俩都一样。"
+ },
+ {
+  "seg": 36,
+  "start": 161.618,
+  "end": 162.698,
+  "speaker": "Unknown",
+  "en": "I feel energetic.",
+  "zh": "我感觉精力充沛。"
+ },
+ {
+  "seg": 37,
+  "start": 162.759,
+  "end": 163.999,
+  "speaker": "Unknown",
+  "en": "So let's dive in.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 38,
+  "start": 164.18,
+  "end": 166.321,
+  "speaker": "Unknown",
+  "en": "There has never been a day when you stopped being energetic.",
+  "zh": "你从来没有一天是不精力充沛的。"
+ },
+ {
+  "seg": 39,
+  "start": 166.361,
+  "end": 168.043,
+  "speaker": "Unknown",
+  "en": "So there's no news there.",
+  "zh": "所以这没什么新闻。"
+ },
+ {
+  "seg": 40,
+  "start": 168.623,
+  "end": 171.725,
+  "speaker": "Unknown",
+  "en": "But yeah, no, let's start actually from your Intel career.",
+  "zh": "不过对，我们就从你的 Intel 职业生涯说起吧。"
+ },
+ {
+  "seg": 41,
+  "start": 172.626,
+  "end": 191.853,
+  "speaker": "Unknown",
+  "en": "Recently, Andreessen Horowitz created this Horowitz Andreessen Academy, which was to find talented people between 16 and 22, and then put them into a modern educational setting so they'd be well prepared for either doing things of their own or joining the companies of today.",
+  "zh": "最近，Andreessen Horowitz 创办了这个 Horowitz Andreessen Academy,旨在发掘 16 到 22 岁之间的人才，然后把他们放到一个现代的教育环境中，让他们为either自己做事还是加入当今的公司做好充分准备。"
+ },
+ {
+  "seg": 42,
+  "start": 192.935,
+  "end": 200.641,
+  "speaker": "Unknown",
+  "en": "You had a similar experience, like you went to a regular trade school and then jumped into Intel when you were, what, 18 or 19, I should say?",
+  "zh": "你有过类似的经历，比如你上了一所普通的职业学校，然后在 18 还是 19 岁的时候跳进了 Intel,我该怎么说？"
+ },
+ {
+  "seg": 43,
+  "start": 200.881,
+  "end": 203.543,
+  "speaker": "Unknown",
+  "en": "Yeah, it was really a sort of magical period.",
+  "zh": "是的，那真是一段magic般的时期。"
+ },
+ {
+  "seg": 44,
+  "start": 203.603,
+  "end": 213.011,
+  "speaker": "Unknown",
+  "en": "I'm 16 years old, I accidentally win a scholarship, I go to tech school, I skipped my last year and a half of high school, and Intel comes recruiting when I'm 18 years old.",
+  "zh": "我 16 岁，意外地赢得了一份奖学金，我去了技术学校，我跳过了高中最后一年半，然后 Intel 在我 18 岁的时候来招聘。"
+ },
+ {
+  "seg": 45,
+  "start": 213.851,
+  "end": 230.166,
+  "speaker": "Unknown",
+  "en": "And I'd never been on an airplane, had already fallen in love with computers at tech school, and the interviewer, right, Ron Smith was his name, he writes on his page, and I was number 12 that he interviewed that day, and if you've interviewed 12 people in a row, you can't tell male from female by the end of it, right?",
+  "zh": "而且我从来没坐过飞机，已经在技术学校爱上了计算机，那个面试官，对，他叫 Ron Smith,他在他的本子上写，我是他那天面试的第 12 个人，如果你连续面试了 12 个人，到最后你根本分不清男女，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 230.366,
+  "end": 234.15,
+  "speaker": "Unknown",
+  "en": "I'm number 12, he says, smart, aggressive, arrogant, he'll fit right in.",
+  "zh": "我是第 12 个，他写道，聪明、有冲劲、傲慢，他会很快融入。"
+ },
+ {
+  "seg": 47,
+  "start": 235.21,
+  "end": 240.371,
+  "speaker": "Unknown",
+  "en": "So I got invited to come to Intel and it just became really glorious.",
+  "zh": "所以我被邀请去 Intel,而这一切变得无比辉煌。"
+ },
+ {
+  "seg": 48,
+  "start": 240.812,
+  "end": 256.095,
+  "speaker": "Unknown",
+  "en": "Starting as a technician, moved into the design team at the end of the 286, engineer number four on the 386, architect and design manager for the 486, all of that while doing my bachelor's, my master's and PhD work.",
+  "zh": "从一名技术员做起，在 286 的末期进入设计团队，是 386 的第四号工程师，486 的架构师和设计经理，这一切都是在读我的本科、硕士和博士期间完成的。"
+ },
+ {
+  "seg": 49,
+  "start": 256.135,
+  "end": 259.416,
+  "speaker": "Unknown",
+  "en": "So it was like the best career that you could possibly have.",
+  "zh": "所以这就像你能拥有的最好的职业生涯。"
+ },
+ {
+  "seg": 50,
+  "start": 259.436,
+  "end": 262.897,
+  "speaker": "Unknown",
+  "en": "You're learning by day and you're putting it to practice at night.",
+  "zh": "你白天在学,晚上就在实践。"
+ },
+ {
+  "seg": 51,
+  "start": 263.217,
+  "end": 263.537,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 52,
+  "start": 263.737,
+  "end": 264.258,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 53,
+  "start": 264.278,
+  "end": 267.319,
+  "speaker": "Unknown",
+  "en": "You're creating new, completely new pair of chips.",
+  "zh": "你在做全新的、完全崭新的芯片。"
+ },
+ {
+  "seg": 54,
+  "start": 267.74,
+  "end": 273.523,
+  "speaker": "Unknown",
+  "en": "I bet most of what you learned and what you built, there was a big gap because you're breaking new ground.",
+  "zh": "我敢说你学到的和你造出来的东西之间有很大的差距,因为你在开辟新领域。"
+ },
+ {
+  "seg": 55,
+  "start": 274.043,
+  "end": 275.164,
+  "speaker": "Unknown",
+  "en": "Yeah, in a lot of ways.",
+  "zh": "是的,在很多方面都是。"
+ },
+ {
+  "seg": 56,
+  "start": 275.464,
+  "end": 278.306,
+  "speaker": "Unknown",
+  "en": "And it really was a pretty incredible time in the industry.",
+  "zh": "那确实是业界一段相当了不起的时期。"
+ },
+ {
+  "seg": 57,
+  "start": 278.346,
+  "end": 285.63,
+  "speaker": "Unknown",
+  "en": "And I remember one of the professor classes, he postulated a new Cary Lookahead Adder design, right?",
+  "zh": "我记得有一位教授的课,他提出了一个新的 Cary Lookahead Adder(进位先行加法器)设计,对吧?"
+ },
+ {
+  "seg": 58,
+  "start": 285.65,
+  "end": 287.131,
+  "speaker": "Unknown",
+  "en": "In one of my classes at Stanford.",
+  "zh": "那是在斯坦福我上的一门课里。"
+ },
+ {
+  "seg": 59,
+  "start": 287.151,
+  "end": 291.313,
+  "speaker": "Unknown",
+  "en": "So I said, well, I'm working on the 386 Cary Lookahead Adder, so let me go try it.",
+  "zh": "所以我说,好吧,我正在做 386 的 Cary Lookahead Adder,让我去试一下。"
+ },
+ {
+  "seg": 60,
+  "start": 291.853,
+  "end": 296.035,
+  "speaker": "Unknown",
+  "en": "So I come back two days later to the professor and I said, it doesn't work, right?",
+  "zh": "于是两天后我回到教授那里,我说,这东西不管用,对吧?"
+ },
+ {
+  "seg": 61,
+  "start": 296.075,
+  "end": 298.996,
+  "speaker": "Unknown",
+  "en": "And I started an argument with my professor at Stanford.",
+  "zh": "然后我就和我在斯坦福的教授吵起来了。"
+ },
+ {
+  "seg": 62,
+  "start": 299.016,
+  "end": 304.739,
+  "speaker": "Unknown",
+  "en": "You know, it was like, what, the next two class periods were just me and the professor arguing over why his design didn't work.",
+  "zh": "你知道吗,接下来的两个课时就是我和教授在争论为什么他的设计不工作。"
+ },
+ {
+  "seg": 63,
+  "start": 305.059,
+  "end": 307.86,
+  "speaker": "Unknown",
+  "en": "He had a book that was being published with that design in it.",
+  "zh": "他有一本书正在出版,里面收录了那个设计。"
+ },
+ {
+  "seg": 64,
+  "start": 308.32,
+  "end": 309.44,
+  "speaker": "Unknown",
+  "en": "It was very annoying.",
+  "zh": "这让他非常恼火。"
+ },
+ {
+  "seg": 65,
+  "start": 309.54,
+  "end": 310.821,
+  "speaker": "Unknown",
+  "en": "Oh, it was very time-sensitive for him.",
+  "zh": "哦,对他来说时间上非常紧迫。"
+ },
+ {
+  "seg": 66,
+  "start": 311.281,
+  "end": 313.441,
+  "speaker": "Unknown",
+  "en": "And we started built-in self-test, right?",
+  "zh": "然后我们开始做内建自测试(built-in self-test),对吧?"
+ },
+ {
+  "seg": 67,
+  "start": 313.701,
+  "end": 319.423,
+  "speaker": "Unknown",
+  "en": "And I remember Ed McCluskey at Stanford was my professor, and he was sort of the father of that.",
+  "zh": "我记得斯坦福的 Ed McCluskey 是我的教授,他算是那个领域的鼻祖。"
+ },
+ {
+  "seg": 68,
+  "start": 319.503,
+  "end": 323.364,
+  "speaker": "Unknown",
+  "en": "And we had wonderful arguments around why most of his ideas were bad.",
+  "zh": "我们有过非常精彩的争论,争论为什么他的大部分想法都不好。"
+ },
+ {
+  "seg": 69,
+  "start": 323.404,
+  "end": 328.045,
+  "speaker": "Unknown",
+  "en": "They weren't practical for real chips, but I was putting built-in self-test to work on the three and six.",
+  "zh": "那些想法对真实芯片来说不实用,但我正在把内建自测试用在那三和六上。"
+ },
+ {
+  "seg": 70,
+  "start": 328.765,
+  "end": 333.746,
+  "speaker": "Unknown",
+  "en": "John Hennessy was my thesis advisor, and obviously he did okay.",
+  "zh": "John Hennessy 是我的论文导师,显然他后来混得不错。"
+ },
+ {
+  "seg": 71,
+  "start": 333.786,
+  "end": 336.607,
+  "speaker": "Unknown",
+  "en": "I helped his career, he became president, and he's not okay since then.",
+  "zh": "我帮了他的事业,他当上了校长,从那以后他就“不”错了(he's not okay)。"
+ },
+ {
+  "seg": 72,
+  "start": 336.707,
+  "end": 337.507,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊,是啊。"
+ },
+ {
+  "seg": 73,
+  "start": 337.527,
+  "end": 340.209,
+  "speaker": "Unknown",
+  "en": "Later on, we'll talk about the CIS courses, this kind of debate.",
+  "zh": "稍后我们会谈谈 CIS 课程,这种争论。"
+ },
+ {
+  "seg": 74,
+  "start": 340.529,
+  "end": 342.67,
+  "speaker": "Unknown",
+  "en": "I had the same experience when I was teaching at Stanford.",
+  "zh": "我在斯坦福教书时也有过同样的经历。"
+ },
+ {
+  "seg": 75,
+  "start": 342.73,
+  "end": 349.134,
+  "speaker": "Unknown",
+  "en": "You come with something that you think is the truth, and then the student comes that works in industries, well, actually, not quite.",
+  "zh": "你带着一个自己认为是真理的东西来,然后一个在工业界工作的学生来了,说,嗯,其实不是那么回事。"
+ },
+ {
+  "seg": 76,
+  "start": 350.354,
+  "end": 354.977,
+  "speaker": "Unknown",
+  "en": "So the next lecture you come back with, okay, I looked this up, you're right, this is outdated.",
+  "zh": "于是下一堂课你回来说,好吧,我查了一下,你是对的,这个已经过时了。"
+ },
+ {
+  "seg": 77,
+  "start": 355.037,
+  "end": 360.698,
+  "speaker": "Unknown",
+  "en": "Yeah, and I'll tell you, you know, that's part of the, you know, that interaction, and I think that's part of what makes Silicon Valley so unique.",
+  "zh": "是啊,我告诉你,你知道,这种互动,我觉得这正是让硅谷如此独特的一部分原因。"
+ },
+ {
+  "seg": 78,
+  "start": 360.858,
+  "end": 361.058,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 79,
+  "start": 361.238,
+  "end": 366.859,
+  "speaker": "Unknown",
+  "en": "Right, you know, is you have so many companies and entrepreneurship, it's like in the water here, right?",
+  "zh": "对,你知道,就是这里有这么多公司和创业精神,创业就像融在空气里一样,对吧?"
+ },
+ {
+  "seg": 80,
+  "start": 366.899,
+  "end": 376.121,
+  "speaker": "Unknown",
+  "en": "Starting things up and new ideas and challenging the professors, and you can't be a professor at a place like Stanford and not expect to get challenged and enjoy it.",
+  "zh": "开创事业、新想法、挑战教授——你在斯坦福这样的地方当教授,就不能不预期被挑战,而且要乐在其中。"
+ },
+ {
+  "seg": 81,
+  "start": 376.141,
+  "end": 378.222,
+  "speaker": "Unknown",
+  "en": "There's a good foot traffic in and out of that ivory tower.",
+  "zh": "那座象牙塔进进出出的人流量很可观。"
+ },
+ {
+  "seg": 82,
+  "start": 378.402,
+  "end": 378.762,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 83,
+  "start": 378.862,
+  "end": 381.642,
+  "speaker": "Unknown",
+  "en": "Yeah, no, 486 was your big... Yeah.",
+  "zh": "是啊,对,486 是你的大……是啊。"
+ },
+ {
+  "seg": 84,
+  "start": 385.492,
+  "end": 386.493,
+  "speaker": "Unknown",
+  "en": "Accomplishment, if you will.",
+  "zh": "成就,可以这么说。"
+ },
+ {
+  "seg": 85,
+  "start": 386.513,
+  "end": 388.014,
+  "speaker": "Unknown",
+  "en": "Obviously, lots of people worked on it.",
+  "zh": "显然有很多人参与了这项工作。"
+ },
+ {
+  "seg": 86,
+  "start": 388.894,
+  "end": 393.077,
+  "speaker": "Unknown",
+  "en": "And you guys broke some new ground in chip design there, right?",
+  "zh": "而且你们在芯片设计上开辟了一些新领域,对吧?"
+ },
+ {
+  "seg": 87,
+  "start": 393.097,
+  "end": 396.539,
+  "speaker": "Unknown",
+  "en": "And increased what functions the chip was supposed to do and so on and so forth.",
+  "zh": "还增加了芯片本该实现的功能,等等诸如此类。"
+ },
+ {
+  "seg": 88,
+  "start": 396.88,
+  "end": 403.484,
+  "speaker": "Unknown",
+  "en": "Yeah, it was a pretty magic period as well because it was before what you would think of as the EDA industry.",
+  "zh": "是的,那也是一段非常神奇的时期,因为它是在你通常所说的 EDA 产业出现之前。"
+ },
+ {
+  "seg": 89,
+  "start": 403.944,
+  "end": 405.005,
+  "speaker": "Unknown",
+  "en": "Oh wow, yes, that's right.",
+  "zh": "哦哇,是的,没错。"
+ },
+ {
+  "seg": 90,
+  "start": 405.485,
+  "end": 416.21,
+  "speaker": "Unknown",
+  "en": "And at the end of the, a little bit of the 386, but the 486 was really the first chip to implement what you would think of as modern EDA techniques.",
+  "zh": "在那之后,386 稍微有一点,但 486 才是真正第一个实现你通常所说的现代 EDA 技术的芯片。"
+ },
+ {
+  "seg": 91,
+  "start": 416.59,
+  "end": 422.813,
+  "speaker": "Unknown",
+  "en": "We did a high-level design, right, a description, an RTL description, but there was no Verilog.",
+  "zh": "我们做了高层设计,对吧,一个描述,一个 RTL 描述,但当时没有 Verilog。"
+ },
+ {
+  "seg": 92,
+  "start": 423.473,
+  "end": 425.654,
+  "speaker": "Unknown",
+  "en": "So we invented HDL, right?",
+  "zh": "所以我们发明了 HDL,对吧?"
+ },
+ {
+  "seg": 93,
+  "start": 425.674,
+  "end": 427.714,
+  "speaker": "Unknown",
+  "en": "The Intel hardware description language.",
+  "zh": "Intel 硬件描述语言。"
+ },
+ {
+  "seg": 94,
+  "start": 427.774,
+  "end": 429.234,
+  "speaker": "Unknown",
+  "en": "So I wrote my own language.",
+  "zh": "所以我自己写了一门语言。"
+ },
+ {
+  "seg": 95,
+  "start": 429.294,
+  "end": 431.855,
+  "speaker": "Unknown",
+  "en": "Well, you had to build a compiler for that language, right?",
+  "zh": "嗯,那你就得为那门语言造一个编译器,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 432.135,
+  "end": 434.015,
+  "speaker": "Unknown",
+  "en": "So we created a compiler for the language.",
+  "zh": "所以我们为那门语言做了个编译器。"
+ },
+ {
+  "seg": 97,
+  "start": 434.055,
+  "end": 435.996,
+  "speaker": "Unknown",
+  "en": "There was no automatic placing route.",
+  "zh": "当时没有自动布局布线。"
+ },
+ {
+  "seg": 98,
+  "start": 436.256,
+  "end": 437.396,
+  "speaker": "Unknown",
+  "en": "So we had to invent that.",
+  "zh": "所以我们得把它发明出来。"
+ },
+ {
+  "seg": 99,
+  "start": 437.416,
+  "end": 448.199,
+  "speaker": "Unknown",
+  "en": "And we worked with Alberto Sanjivangi, Vincentelli, Berkeley, and some of his students for the first, you know, placement, the first routing, the first automated timing management.",
+  "zh": "然后我们和伯克利的 Alberto Sanjivangi、Vincentelli 以及他的一些学生合作,做出了第一个布局、第一个布线、第一个自动化的时序管理。"
+ },
+ {
+  "seg": 100,
+  "start": 448.219,
+  "end": 450.219,
+  "speaker": "Unknown",
+  "en": "So they created EDATA into something.",
+  "zh": "所以他们把 EDATA 创造成了某种东西。"
+ },
+ {
+  "seg": 101,
+  "start": 450.239,
+  "end": 467.885,
+  "speaker": "Unknown",
+  "en": "Yeah, to a great degree that, you know, and that was really one of the hallmarks that not only was the 486 this compatible pipeline microprocessor, but we ushered in many of the foundations of what became the modern EDA industry and was really a pretty magical period of the industry.",
+  "zh": "是的，在很大程度上是这样，你知道，那确实是其中的一个标志，不仅 486 是兼容流水线的微处理器，而且我们开创了后来成为现代 EDA 产业基础的诸多东西，那确实是这个行业相当神奇的时期。"
+ },
+ {
+  "seg": 102,
+  "start": 468.223,
+  "end": 469.244,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 103,
+  "start": 469.784,
+  "end": 479.412,
+  "speaker": "Unknown",
+  "en": "If we look at today, will people look back as Blackwell and saying this was of the last generation that was done before AI took over the design process for Microsoft?",
+  "zh": "如果我们看今天，人们回望 Blackwell 时，会不会说这是 AI 接管 Microsoft 设计流程之前的最后一代产品？"
+ },
+ {
+  "seg": 104,
+  "start": 479.452,
+  "end": 481.454,
+  "speaker": "Unknown",
+  "en": "Are we in a similar transition right now?",
+  "zh": "我们现在是否正处于一个类似的转型之中？"
+ },
+ {
+  "seg": 105,
+  "start": 481.794,
+  "end": 483.295,
+  "speaker": "Unknown",
+  "en": "I think there are certainly aspects of that.",
+  "zh": "我认为确实有这方面的因素。"
+ },
+ {
+  "seg": 106,
+  "start": 483.876,
+  "end": 491.182,
+  "speaker": "Unknown",
+  "en": "And I think when you look at things like Jalapeno today, right, you sort of say that's sort of a first principles use of AI.",
+  "zh": "而且我认为，当你今天看像 Jalapeno 这样的东西时，对吧，你会说那算是一种第一性原理式的 AI 应用。"
+ },
+ {
+  "seg": 107,
+  "start": 492.082,
+  "end": 495.323,
+  "speaker": "Unknown",
+  "en": "In the chip design process, right, where you throw out a lot of those things.",
+  "zh": "在芯片设计流程中，对吧，你会把很多那些东西都抛掉。"
+ },
+ {
+  "seg": 108,
+  "start": 495.683,
+  "end": 500.424,
+  "speaker": "Unknown",
+  "en": "Now, there are pieces of design that are still really hard, right, in that sense.",
+  "zh": "当然，设计中有一些部分仍然非常难，对吧，从这个意义上说。"
+ },
+ {
+  "seg": 109,
+  "start": 500.484,
+  "end": 508.045,
+  "speaker": "Unknown",
+  "en": "And a lot of the analog, right, aspects, certes is probably the best example of that, you know, are still not AI-able, right?",
+  "zh": "我们理解如何把它组合成正确的乘加寄存器结构。"
+ },
+ {
+  "seg": 110,
+  "start": 508.065,
+  "end": 511.245,
+  "speaker": "Unknown",
+  "en": "You just need lots of silicon data, right, to get those.",
+  "zh": "你就是需要大量的硅片数据，对吧，才能搞定那些。"
+ },
+ {
+  "seg": 111,
+  "start": 511.265,
+  "end": 519.747,
+  "speaker": "Unknown",
+  "en": "So you either get so conservative in your analog design that you're able to, I'll say, AI it, or, right, you got to do those the hard way.",
+  "zh": "所以你要么把模拟设计做得非常保守，以至于能够，我这么说吧，用 AI 来做，要么，对吧，你就得用笨办法去做。"
+ },
+ {
+  "seg": 112,
+  "start": 520.047,
+  "end": 527.554,
+  "speaker": "Unknown",
+  "en": "But now many of the logic functions can really be done with AI tools and techniques in pretty incredible ways, right?",
+  "zh": "但现在许多逻辑功能确实可以用 AI 工具和技术以相当惊人的方式完成，对吧？"
+ },
+ {
+  "seg": 113,
+  "start": 527.574,
+  "end": 529.296,
+  "speaker": "Unknown",
+  "en": "Your transistor budgets are big enough.",
+  "zh": "你的晶体管预算已经足够大了。"
+ },
+ {
+  "seg": 114,
+  "start": 529.316,
+  "end": 531.117,
+  "speaker": "Unknown",
+  "en": "The design tools are getting smart enough.",
+  "zh": "设计工具也变得足够聪明了。"
+ },
+ {
+  "seg": 115,
+  "start": 531.418,
+  "end": 534.18,
+  "speaker": "Unknown",
+  "en": "A few experts guiding the tools and how to apply it.",
+  "zh": "再加上少数专家指导工具以及如何应用它。"
+ },
+ {
+  "seg": 116,
+  "start": 534.52,
+  "end": 538.164,
+  "speaker": "Unknown",
+  "en": "And I really think it will be somewhat like the 46 that way, right?",
+  "zh": "而且我真的认为它会有些像 46 那样，对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 538.184,
+  "end": 542.508,
+  "speaker": "Unknown",
+  "en": "We just sort of look back and say, yep, that was the beginning of a new era of chip design.",
+  "zh": "我们回望时只会说，是的，那是芯片设计新时代的开端。"
+ },
+ {
+  "seg": 118,
+  "start": 543.243,
+  "end": 548.628,
+  "speaker": "Unknown",
+  "en": "Whenever you have the technology to make something easy, that means the bottleneck moves somewhere else.",
+  "zh": "每当你拥有让某件事变容易的技术，就意味着瓶颈移动到了别处。"
+ },
+ {
+  "seg": 119,
+  "start": 549.769,
+  "end": 552.732,
+  "speaker": "Unknown",
+  "en": "Can we guess at this point where the bottleneck will be in the future?",
+  "zh": "在这个时点，我们能猜到未来的瓶颈会在哪里吗？"
+ },
+ {
+  "seg": 120,
+  "start": 553.453,
+  "end": 556.096,
+  "speaker": "Unknown",
+  "en": "There's some things which it seems like AI is incredibly good at, right?",
+  "zh": "有一些事情似乎 AI 极其擅长，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 556.116,
+  "end": 559.979,
+  "speaker": "Unknown",
+  "en": "Like creating the software layers, you know, writing kernels, a lot of the",
+  "zh": "比如创建软件层，你知道，编写内核，很多……"
+ },
+ {
+  "seg": 122,
+  "start": 562.175,
+  "end": 569.097,
+  "speaker": "Unknown",
+  "en": "I think a lot of this sort of being able to specify the objectives at a higher level, which then gets sort of translated into Verilog, right?",
+  "zh": "我认为很多这类事情，比如能够在更高的层次上指定目标，然后被转换成 Verilog，对吧？"
+ },
+ {
+  "seg": 123,
+  "start": 569.117,
+  "end": 570.438,
+  "speaker": "Unknown",
+  "en": "And so what is the new frontier?",
+  "zh": "那么新的前沿在哪里？"
+ },
+ {
+  "seg": 124,
+  "start": 570.478,
+  "end": 573.399,
+  "speaker": "Unknown",
+  "en": "What is the thing that will be difficult going forward?",
+  "zh": "接下来会困难的事情是什么？"
+ },
+ {
+  "seg": 125,
+  "start": 573.879,
+  "end": 578.761,
+  "speaker": "Unknown",
+  "en": "Well, when you look at today, so let's say Guido and Pat, we're off to do a great new chip together.",
+  "zh": "嗯，你看今天，比方说 Guido 和 Pat，我们打算一起做一款很棒的新芯片。"
+ },
+ {
+  "seg": 126,
+  "start": 578.781,
+  "end": 580.341,
+  "speaker": "Unknown",
+  "en": "We're going to, right, right.",
+  "zh": "我们要做，对，对。"
+ },
+ {
+  "seg": 127,
+  "start": 580.421,
+  "end": 584.062,
+  "speaker": "Unknown",
+  "en": "And it's the one that's going to leap ahead because we have understanding of the AI.",
+  "zh": "而且它会领先一大截，因为我们理解 AI。"
+ },
+ {
+  "seg": 128,
+  "start": 586.583,
+  "end": 588.726,
+  "speaker": "Unknown",
+  "en": "We have understanding of the AI workloads.",
+  "zh": "我们理解 AI 工作负载。"
+ },
+ {
+  "seg": 129,
+  "start": 588.746,
+  "end": 594.193,
+  "speaker": "Unknown",
+  "en": "We have understanding then of how to compose that into the right multiply, accumulate, register structure.",
+  "zh": "那么我们就理解了如何把它组合成正确的乘法、累加、寄存器结构。"
+ },
+ {
+  "seg": 130,
+  "start": 594.293,
+  "end": 596.596,
+  "speaker": "Unknown",
+  "en": "Perfect visibility of the model workloads of tomorrow as well.",
+  "zh": "对明天的模型工作负载也有完美的可见性。"
+ },
+ {
+  "seg": 131,
+  "start": 596.616,
+  "end": 597.817,
+  "speaker": "Unknown",
+  "en": "Yeah, and all of that kind of stuff.",
+  "zh": "是的，还有所有这类东西。"
+ },
+ {
+  "seg": 132,
+  "start": 598.598,
+  "end": 601.522,
+  "speaker": "Unknown",
+  "en": "And let's say we turn our AI tools loose.",
+  "zh": "然后假设我们放开我们的 AI 工具。"
+ },
+ {
+  "seg": 133,
+  "start": 601.702,
+  "end": 602.263,
+  "speaker": "Unknown",
+  "en": "We are great.",
+  "zh": "我们很厉害。"
+ },
+ {
+  "seg": 134,
+  "start": 602.323,
+  "end": 605.286,
+  "speaker": "Unknown",
+  "en": "Within three months, we have an awesome design.",
+  "zh": "三个月内，我们有了一个了不起的设计。"
+ },
+ {
+  "seg": 135,
+  "start": 605.947,
+  "end": 610.388,
+  "speaker": "Unknown",
+  "en": "Before that, we've been a little bit conservative on all the analog components of it.",
+  "zh": "在那之前，我们在它所有的模拟组件上都做得稍微保守一点。"
+ },
+ {
+  "seg": 136,
+  "start": 610.928,
+  "end": 614.349,
+  "speaker": "Unknown",
+  "en": "Now, we still have a couple of really major bottlenecks today.",
+  "zh": "现在，我们今天仍然有几个非常重大的瓶颈。"
+ },
+ {
+  "seg": 137,
+  "start": 615.049,
+  "end": 620.591,
+  "speaker": "Unknown",
+  "en": "One is, we still have nine months of silicon processing time, something like that.",
+  "zh": "一个是，我们仍然有大约九个月的硅片加工时间，差不多是这样。"
+ },
+ {
+  "seg": 138,
+  "start": 620.931,
+  "end": 626.453,
+  "speaker": "Unknown",
+  "en": "So, I can design the thing in three months, but I can't actually get it into real silicon at scale for nine months.",
+  "zh": "所以，我可以三个月就把这东西设计出来，但实际上我没法在九个月内把它大规模做成真正的硅片。"
+ },
+ {
+  "seg": 139,
+  "start": 626.573,
+  "end": 628.153,
+  "speaker": "Unknown",
+  "en": "Okay, that sucks.",
+  "zh": "好吧，那太糟了。"
+ },
+ {
+  "seg": 140,
+  "start": 628.173,
+  "end": 635.535,
+  "speaker": "Unknown",
+  "en": "So, we have to really see that bottleneck improve if we're going to have this innovation because we know… Are you talking about the validation and verification stages or even beyond that?",
+  "zh": "所以，我们必须真正看到那个瓶颈得到改善，才能拥有这种创新，因为我们知道…… 你说的是验证和确认阶段，还是甚至更靠后的阶段？"
+ },
+ {
+  "seg": 141,
+  "start": 635.815,
+  "end": 640.336,
+  "speaker": "Unknown",
+  "en": "Well, you know, first, I can't get anything out of FAB, you know, in less than three months.",
+  "zh": "嗯，你知道，首先，我没法在三个月内从 FAB 拿到任何东西，你知道。"
+ },
+ {
+  "seg": 142,
+  "start": 640.536,
+  "end": 643.897,
+  "speaker": "Unknown",
+  "en": "And that's if I have, you know, like supercharged design flows, right?",
+  "zh": "而那还是在我拥有，你知道，比如超强化设计流程的情况下，对吧？"
+ },
+ {
+  "seg": 143,
+  "start": 643.917,
+  "end": 648.538,
+  "speaker": "Unknown",
+  "en": "So I said, you know, how do I compress that, right, you know, for it?",
+  "zh": "所以我说，你知道，我怎么压缩那个时间，对吧，你知道，为它？"
+ },
+ {
+  "seg": 144,
+  "start": 648.558,
+  "end": 650.618,
+  "speaker": "Unknown",
+  "en": "And then I got to get into advanced packages.",
+  "zh": "然后我还得进入先进封装。"
+ },
+ {
+  "seg": 145,
+  "start": 650.678,
+  "end": 652.398,
+  "speaker": "Unknown",
+  "en": "3D packages are getting complex.",
+  "zh": "3D 封装正变得复杂。"
+ },
+ {
+  "seg": 146,
+  "start": 652.418,
+  "end": 654.359,
+  "speaker": "Unknown",
+  "en": "So that's like another three months, right?",
+  "zh": "所以那又是大概三个月，对吧？"
+ },
+ {
+  "seg": 147,
+  "start": 654.399,
+  "end": 658.72,
+  "speaker": "Unknown",
+  "en": "You know, and then I have to put it into a rack scale solution because nothing's a chip anymore.",
+  "zh": "你知道，然后我还得把它整合进机架级方案，因为现在已经没有东西是单颗芯片了。"
+ },
+ {
+  "seg": 148,
+  "start": 658.78,
+  "end": 659.32,
+  "speaker": "Unknown",
+  "en": "It's a rack.",
+  "zh": "它是一个机架。"
+ },
+ {
+  "seg": 149,
+  "start": 659.68,
+  "end": 660.92,
+  "speaker": "Unknown",
+  "en": "Yeah, so we're nine months.",
+  "zh": "是啊，所以我们是九个月。"
+ },
+ {
+  "seg": 150,
+  "start": 660.94,
+  "end": 665.421,
+  "speaker": "Unknown",
+  "en": "You know, it took me three months to design it, but it's nine months until I can actually start to use it.",
+  "zh": "你知道,我花了三个月来设计它,但还要九个月才能真正开始使用它。"
+ },
+ {
+  "seg": 151,
+  "start": 665.921,
+  "end": 669.983,
+  "speaker": "Unknown",
+  "en": "You know, so how do we start to compress, you know, those aspects of design?",
+  "zh": "你知道,那我们该怎么开始压缩设计的这些环节呢?"
+ },
+ {
+  "seg": 152,
+  "start": 670.003,
+  "end": 673.524,
+  "speaker": "Unknown",
+  "en": "And I think we need new forms of lithography, you know, to enable that.",
+  "zh": "而且我认为我们需要新型光刻技术,才能做到这一点。"
+ },
+ {
+  "seg": 153,
+  "start": 673.604,
+  "end": 680.947,
+  "speaker": "Unknown",
+  "en": "We need, you know, design flows that don't require, you know, $50 million of mass cost until I can get things into prototyping.",
+  "zh": "我们需要,你知道,不需要五千万美元量产成本的设计流程,才能把东西送进原型阶段。"
+ },
+ {
+  "seg": 154,
+  "start": 680.987,
+  "end": 685.089,
+  "speaker": "Unknown",
+  "en": "So, you know, to me, how do you compress that to a month or two, right?",
+  "zh": "所以,对我来说,怎么把这个压缩到一两个月,对吧?"
+ },
+ {
+  "seg": 155,
+  "start": 685.109,
+  "end": 687.15,
+  "speaker": "Unknown",
+  "en": "Because I can now do the design in three months.",
+  "zh": "因为我现在三个月就能完成设计了。"
+ },
+ {
+  "seg": 156,
+  "start": 687.59,
+  "end": 689.471,
+  "speaker": "Unknown",
+  "en": "How can I have that done in a month or two?",
+  "zh": "我怎么能在一个月或两个月内把它做完?"
+ },
+ {
+  "seg": 157,
+  "start": 689.511,
+  "end": 693.953,
+  "speaker": "Unknown",
+  "en": "Because if it takes me a year and a half until I actually get scale and software on it,",
+  "zh": "因为如果要一年半才能真正实现规模化和在它上面跑软件,"
+ },
+ {
+  "seg": 158,
+  "start": 694.473,
+  "end": 700.679,
+  "speaker": "Unknown",
+  "en": "Okay, my understanding of the AI workloads is no longer applicable to the chip that I designed, right?",
+  "zh": "好,那我对 AI 工作负载的理解已经不再适用于我设计的这块芯片了,对吧?"
+ },
+ {
+  "seg": 159,
+  "start": 700.739,
+  "end": 705.224,
+  "speaker": "Unknown",
+  "en": "You know, so, you know, all of those... We've seen that play out live right now, I think, with the AI chips, yeah.",
+  "zh": "你知道,所以,你知道,所有这些……我们现在正亲眼看到这一切在 AI 芯片上上演,是的。"
+ },
+ {
+  "seg": 160,
+  "start": 705.264,
+  "end": 711.15,
+  "speaker": "Unknown",
+  "en": "Right, you know, it's almost, you know, and we can look at it historically, it was like, you know, Graphcore wasn't a bad design, but the world moved on.",
+  "zh": "对,你知道,几乎可以说,回顾历史,Graphcore 的设计并不差,但世界往前走了。"
+ },
+ {
+  "seg": 161,
+  "start": 711.63,
+  "end": 714.491,
+  "speaker": "Unknown",
+  "en": "Right, you know, in that.",
+  "zh": "对,你知道,在这点上。"
+ },
+ {
+  "seg": 162,
+  "start": 714.591,
+  "end": 721.353,
+  "speaker": "Unknown",
+  "en": "So, all of those aspects somewhat obviate the fact that AI has made the design piece easy.",
+  "zh": "所以,所有这些方面在某种程度上削弱了「AI 已经让设计变容易」这个事实的意义。"
+ },
+ {
+  "seg": 163,
+  "start": 721.873,
+  "end": 725.854,
+  "speaker": "Unknown",
+  "en": "All of those manufacturing scale issues to me become a huge bottleneck, right?",
+  "zh": "对我来说,所有这些制造规模化的问题成了巨大的瓶颈,对吧?"
+ },
+ {
+  "seg": 164,
+  "start": 725.894,
+  "end": 729.155,
+  "speaker": "Unknown",
+  "en": "Another bottleneck, of course, is memory, right?",
+  "zh": "当然,另一个瓶颈是内存,对吧?"
+ },
+ {
+  "seg": 165,
+  "start": 729.175,
+  "end": 730.356,
+  "speaker": "Unknown",
+  "en": "You know, memory bandwidth.",
+  "zh": "你知道,内存带宽。"
+ },
+ {
+  "seg": 166,
+  "start": 730.376,
+  "end": 731.576,
+  "speaker": "Unknown",
+  "en": "We noticed, yeah.",
+  "zh": "我们注意到了,是的。"
+ },
+ {
+  "seg": 167,
+  "start": 731.616,
+  "end": 731.836,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 168,
+  "start": 732.236,
+  "end": 735.677,
+  "speaker": "Unknown",
+  "en": "And, you know, for that, as I've described, HBM is a hideous memory.",
+  "zh": "而且,你知道,正如我所说,HBM 是一种糟糕的内存。"
+ },
+ {
+  "seg": 169,
+  "start": 735.977,
+  "end": 737.038,
+  "speaker": "Unknown",
+  "en": "It's just the best one that we've got.",
+  "zh": "它只是我们目前拥有的最好的选择。"
+ },
+ {
+  "seg": 170,
+  "start": 737.078,
+  "end": 737.858,
+  "speaker": "Unknown",
+  "en": "We were asking about that.",
+  "zh": "我们正想问这个。"
+ },
+ {
+  "seg": 171,
+  "start": 738.038,
+  "end": 739.579,
+  "speaker": "Unknown",
+  "en": "You know, it's a terrible memory.",
+  "zh": "你知道,它是一种很糟糕的内存。"
+ },
+ {
+  "seg": 172,
+  "start": 739.599,
+  "end": 741.36,
+  "speaker": "Unknown",
+  "en": "You know, I get terrible bit density.",
+  "zh": "你知道,位密度很糟糕。"
+ },
+ {
+  "seg": 173,
+  "start": 741.46,
+  "end": 748.204,
+  "speaker": "Unknown",
+  "en": "I'm limited to shoreline bandwidth, the power, right, issues, thermal issues, DRAM doesn't like to be hot.",
+  "zh": "我被限于岸线带宽,还有功耗问题、散热问题,DRAM 不喜欢热。"
+ },
+ {
+  "seg": 174,
+  "start": 748.564,
+  "end": 750.445,
+  "speaker": "Unknown",
+  "en": "Concentrating everything in one spot.",
+  "zh": "把所有东西都集中在一个地方。"
+ },
+ {
+  "seg": 175,
+  "start": 750.465,
+  "end": 753.987,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, it's terrible to give an AI is a...",
+  "zh": "是的,你知道,对 AI 来说这很糟糕,AI 是一种……"
+ },
+ {
+  "seg": 176,
+  "start": 756.168,
+  "end": 758.77,
+  "speaker": "Unknown",
+  "en": "Memory compute workload, right?",
+  "zh": "内存-计算工作负载,对吧?"
+ },
+ {
+  "seg": 177,
+  "start": 758.81,
+  "end": 767.215,
+  "speaker": "Unknown",
+  "en": "So, you know, for that, so I, you know, I need to, you know, compress that development and embodiment into real scale.",
+  "zh": "所以,你知道,为此,我需要,你知道,把那段开发和落地压缩到真正的规模。"
+ },
+ {
+  "seg": 178,
+  "start": 767.235,
+  "end": 771.038,
+  "speaker": "Unknown",
+  "en": "You know, I need to fix memory, right, associated with this.",
+  "zh": "你知道,我需要解决内存问题,与此相关的问题。"
+ },
+ {
+  "seg": 179,
+  "start": 771.058,
+  "end": 774.019,
+  "speaker": "Unknown",
+  "en": "So to me, that's another critical bottleneck for us to attack.",
+  "zh": "所以对我来说,那是另一个我们需要攻克的关键瓶颈。"
+ },
+ {
+  "seg": 180,
+  "start": 774.88,
+  "end": 776.521,
+  "speaker": "Unknown",
+  "en": "And power, right?",
+  "zh": "还有功耗,对吧?"
+ },
+ {
+  "seg": 181,
+  "start": 776.541,
+  "end": 782.305,
+  "speaker": "Unknown",
+  "en": "You know, power in, you know, thermal, and most of the power simulation aspects today are bad.",
+  "zh": "你知道,功耗输入、散热,而且如今大多数功耗仿真方面都很糟糕。"
+ },
+ {
+  "seg": 182,
+  "start": 783.24,
+  "end": 783.4,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 183,
+  "start": 783.42,
+  "end": 789.285,
+  "speaker": "Unknown",
+  "en": "You know, you don't have a good 3D modeling tools for power, power dissipation, hotspots, et cetera.",
+  "zh": "你知道,你没有好的 3D 建模工具来做功耗、功耗散逸、热点等等。"
+ },
+ {
+  "seg": 184,
+  "start": 789.565,
+  "end": 795.189,
+  "speaker": "Unknown",
+  "en": "You know, my voltage in, right, you know, I'm essentially guard banding almost my full power envelope.",
+  "zh": "你知道,我的输入电压,对吧,我基本上把几乎整个功耗包络都做了保护带。"
+ },
+ {
+  "seg": 185,
+  "start": 795.409,
+  "end": 795.67,
+  "speaker": "Unknown",
+  "en": "Correct.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 186,
+  "start": 795.79,
+  "end": 796.03,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 187,
+  "start": 796.07,
+  "end": 800.974,
+  "speaker": "Unknown",
+  "en": "So essentially I'm losing, you know, 40% of my power in guard banding.",
+  "zh": "所以基本上我在保护带上损失了大约 40% 的功耗。"
+ },
+ {
+  "seg": 188,
+  "start": 800.994,
+  "end": 806.017,
+  "speaker": "Unknown",
+  "en": "So I got to get much better at power modeling, you know, and then my power dissipation techniques are bad.",
+  "zh": "所以我必须在功耗建模上做得好得多,你知道,而且我的散热技术也很糟糕。"
+ },
+ {
+  "seg": 189,
+  "start": 806.498,
+  "end": 806.698,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 190,
+  "start": 806.758,
+  "end": 807.579,
+  "speaker": "Unknown",
+  "en": "So, you know.",
+  "zh": "所以,你知道。"
+ },
+ {
+  "seg": 191,
+  "start": 807.599,
+  "end": 809.18,
+  "speaker": "Unknown",
+  "en": "The delivery model has to change too.",
+  "zh": "供电模式也得改变。"
+ },
+ {
+  "seg": 192,
+  "start": 809.54,
+  "end": 809.72,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 193,
+  "start": 809.981,
+  "end": 814.546,
+  "speaker": "Unknown",
+  "en": "So all of these things, you know, to me, those are, you know, the next big bottlenecks, right?",
+  "zh": "所以所有这些,对我来说,就是,你知道,下一批大瓶颈,对吧?"
+ },
+ {
+  "seg": 194,
+  "start": 814.566,
+  "end": 817.009,
+  "speaker": "Unknown",
+  "en": "You know, how do I, you know, improve each one of those?",
+  "zh": "你知道,我怎么,你知道,逐一改善它们?"
+ },
+ {
+  "seg": 195,
+  "start": 817.049,
+  "end": 821.934,
+  "speaker": "Unknown",
+  "en": "And now, right, you know, if I've done that, okay, now we're on to an exciting era for what's next.",
+  "zh": "而现在,对吧,你知道,如果我做到了,好,那我们就进入了一个激动人心的新时代。"
+ },
+ {
+  "seg": 196,
+  "start": 821.954,
+  "end": 827.941,
+  "speaker": "Unknown",
+  "en": "So, you know, thank you for those great AI tools, but, you know, I got big challenges even when those are fully deployed.",
+  "zh": "所以,你知道,感谢那些出色的 AI 工具,但你知道,即使它们全部部署到位,我还有巨大的挑战。"
+ },
+ {
+  "seg": 197,
+  "start": 828.402,
+  "end": 828.642,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 198,
+  "start": 830.965,
+  "end": 837.971,
+  "speaker": "Unknown",
+  "en": "We've seen sort of a rebirth in the number of chips and chip architectures and so on and so forth, thanks to these workloads.",
+  "zh": "多亏了这些工作负载,我们看到了芯片数量和芯片架构等的某种复兴。"
+ },
+ {
+  "seg": 199,
+  "start": 838.651,
+  "end": 843.375,
+  "speaker": "Unknown",
+  "en": "Yeah, it's like there's a hundred AI inference accelerator chips and I'm sure I don't even know them all.",
+  "zh": "是的,就好像有一百种 AI 推理加速器芯片,我敢肯定我甚至都没全部听说过。"
+ },
+ {
+  "seg": 200,
+  "start": 843.435,
+  "end": 844.536,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 201,
+  "start": 845.076,
+  "end": 850.6,
+  "speaker": "Unknown",
+  "en": "So... Why are you guys funding so many of those anyway?",
+  "zh": "那么……话说回来，你们为什么投了那么多这类公司？"
+ },
+ {
+  "seg": 202,
+  "start": 851.681,
+  "end": 854.223,
+  "speaker": "Unknown",
+  "en": "You funded your fair share too.",
+  "zh": "你们也投了不少。"
+ },
+ {
+  "seg": 203,
+  "start": 854.864,
+  "end": 856.105,
+  "speaker": "Unknown",
+  "en": "Yeah, so...",
+  "zh": "是的，所以……"
+ },
+ {
+  "seg": 204,
+  "start": 857.648,
+  "end": 867.973,
+  "speaker": "Unknown",
+  "en": "So they're all to their credit making different design assumptions, either in the components that you talked about or in the part of the Pareto curve that they're targeting.",
+  "zh": "平心而论，它们都在做不同的设计假设，无论是在你提到的那些组件上，还是在它们所针对的帕累托曲线的那一段上。"
+ },
+ {
+  "seg": 205,
+  "start": 868.714,
+  "end": 870.275,
+  "speaker": "Unknown",
+  "en": "So do you think there's room for all of these?",
+  "zh": "那么你认为有容纳所有这些芯片的空间吗？"
+ },
+ {
+  "seg": 206,
+  "start": 870.695,
+  "end": 876.498,
+  "speaker": "Unknown",
+  "en": "Or are we in a world where, partly because of what Guido talked about, AI tooling,",
+  "zh": "还是说我们正处于这样一个世界：部分由于 Guido 谈到的 AI 工具，"
+ },
+ {
+  "seg": 207,
+  "start": 878.054,
+  "end": 882.438,
+  "speaker": "Unknown",
+  "en": "We now have the ability to build more different kind of chips.",
+  "zh": "我们现在有能力构建更多不同种类的芯片。"
+ },
+ {
+  "seg": 208,
+  "start": 882.918,
+  "end": 885.841,
+  "speaker": "Unknown",
+  "en": "And the time is enormous, whichever way you want to look at it.",
+  "zh": "而且无论从哪个角度看，其规模都是巨大的。"
+ },
+ {
+  "seg": 209,
+  "start": 885.861,
+  "end": 891.867,
+  "speaker": "Unknown",
+  "en": "To us, even more provocatively, historically, there have not been a hundred competing processor vendors in any industry ever, right?",
+  "zh": "说得更尖锐一点，从历史上看，任何一个行业里从未有过一百家相互竞争的处理器厂商，对吧？"
+ },
+ {
+  "seg": 210,
+  "start": 892.087,
+  "end": 892.728,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 211,
+  "start": 893.168,
+  "end": 894.67,
+  "speaker": "Unknown",
+  "en": "Is this a more heterogeneous future?",
+  "zh": "这是一个更加异构化的未来吗？"
+ },
+ {
+  "seg": 212,
+  "start": 894.69,
+  "end": 896.952,
+  "speaker": "Unknown",
+  "en": "Will we see, is this a temporary thing?",
+  "zh": "我们会看到，这会是一种暂时现象吗？"
+ },
+ {
+  "seg": 213,
+  "start": 897.212,
+  "end": 898.453,
+  "speaker": "Unknown",
+  "en": "It'll convert back to a view?",
+  "zh": "它会回归到收敛状态吗？"
+ },
+ {
+  "seg": 214,
+  "start": 898.814,
+  "end": 899.054,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 215,
+  "start": 899.394,
+  "end": 904.439,
+  "speaker": "Unknown",
+  "en": "And, you know, I see it as a more temporary thing and it will convert, is what I expect.",
+  "zh": "你知道，我把它看作是一个比较暂时的现象，它会回归收敛，这是我的预期。"
+ },
+ {
+  "seg": 216,
+  "start": 904.499,
+  "end": 908.723,
+  "speaker": "Unknown",
+  "en": "And there's probably three different reasons that I see that to be the case.",
+  "zh": "而我之所以这么认为，大概有三个不同的原因。"
+ },
+ {
+  "seg": 217,
+  "start": 909.304,
+  "end": 911.145,
+  "speaker": "Unknown",
+  "en": "You know, one of them is, you know, this",
+  "zh": "你知道，其中之一是，"
+ },
+ {
+  "seg": 218,
+  "start": 911.886,
+  "end": 920.833,
+  "speaker": "Unknown",
+  "en": "Emerging heterogeneity that you see in the compute environment where, okay, now I have specialized pre-fill versus decode.",
+  "zh": "你在计算环境中所看到的这种新兴的异构性，比如，现在我有了专门的 pre-fill 与 decode 之分。"
+ },
+ {
+  "seg": 219,
+  "start": 921.193,
+  "end": 927.618,
+  "speaker": "Unknown",
+  "en": "Well, you know, and now people are saying, well, we really need a specialized tier for mid-fill, not just pre-fill, right?",
+  "zh": "嗯，你知道，现在人们又在说，我们真的需要一个专门针对 mid-fill 的层级，而不仅仅是 pre-fill，对吧？"
+ },
+ {
+  "seg": 220,
+  "start": 927.638,
+  "end": 931.5,
+  "speaker": "Unknown",
+  "en": "So now I have early pre-fill and now I have mid-fill, which is, you know, different.",
+  "zh": "所以现在我有早期 pre-fill，然后我又有 mid-fill，这是不同的。"
+ },
+ {
+  "seg": 221,
+  "start": 931.521,
+  "end": 934.923,
+  "speaker": "Unknown",
+  "en": "Well, maybe speculate and verify if we listen to OpenAI here, right?",
+  "zh": "嗯，如果我们听 OpenAI 的，也许是 speculate and verify，对吧？"
+ },
+ {
+  "seg": 222,
+  "start": 934.983,
+  "end": 942.527,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, and all of a sudden my compute fleet becomes more and more granular across the workload.",
+  "zh": "是的，你知道，突然之间我的算力集群在负载上变得越来越细粒度化。"
+ },
+ {
+  "seg": 223,
+  "start": 943.068,
+  "end": 946.35,
+  "speaker": "Unknown",
+  "en": "And I think any time that you've seen that in history is not sustainable.",
+  "zh": "而我认为，历史上任何时候出现这种情况都是不可持续的。"
+ },
+ {
+  "seg": 224,
+  "start": 946.71,
+  "end": 955.615,
+  "speaker": "Unknown",
+  "en": "And then all of a sudden, right, when, you know, as you look at that and now people are saying, well, as I go to reasoning models, I want something that looks more like a CPU again.",
+  "zh": "然后突然之间，对吧，你知道，当人们说，当我转向推理模型时，我想要的东西看起来又更像 CPU 了。"
+ },
+ {
+  "seg": 225,
+  "start": 956.075,
+  "end": 963.039,
+  "speaker": "Unknown",
+  "en": "So, you know, all of a sudden I didn't want that level, you know, that didn't become the predominant portion of my compute capacity.",
+  "zh": "所以，你知道，突然之间，我并不想要那个层级，那并没有成为我算力容量的主要部分。"
+ },
+ {
+  "seg": 226,
+  "start": 963.059,
+  "end": 964.38,
+  "speaker": "Unknown",
+  "en": "I needed more of it over here.",
+  "zh": "我在这边需要更多。"
+ },
+ {
+  "seg": 227,
+  "start": 964.84,
+  "end": 965.02,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 228,
+  "start": 965.08,
+  "end": 968.641,
+  "speaker": "Unknown",
+  "en": "And model and model workflows and, you know, so on.",
+  "zh": "还有模型和模型工作流程等等。"
+ },
+ {
+  "seg": 229,
+  "start": 968.921,
+  "end": 974.622,
+  "speaker": "Unknown",
+  "en": "You know, so I really don't like, I'll say, at-scale specialization, right?",
+  "zh": "你知道，所以我不太喜欢，我可以说，大规模的专门化，对吧？"
+ },
+ {
+  "seg": 230,
+  "start": 974.662,
+  "end": 981.183,
+  "speaker": "Unknown",
+  "en": "Because I think the workloads are going to continue to moderate, you know, and migrate so significantly first.",
+  "zh": "因为我认为负载会继续发生剧烈的变化和迁移，而且是首当其冲的。"
+ },
+ {
+  "seg": 231,
+  "start": 981.503,
+  "end": 986.804,
+  "speaker": "Unknown",
+  "en": "You know, second is I think today's models are about to go through some evolutionary breakthroughs as well, right?",
+  "zh": "你知道，第二是我认为今天的模型也即将经历一些演进性的突破，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 986.824,
+  "end": 989.824,
+  "speaker": "Unknown",
+  "en": "You know, I think the LLM is sort of reaching the limits.",
+  "zh": "你知道，我认为 LLM 差不多正在触及极限。"
+ },
+ {
+  "seg": 233,
+  "start": 990.284,
+  "end": 992.445,
+  "speaker": "Unknown",
+  "en": "And now as people look to how do I really model 3D?",
+  "zh": "现在人们开始思考如何真正对 3D 进行建模。"
+ },
+ {
+  "seg": 234,
+  "start": 994.205,
+  "end": 1001.527,
+  "speaker": "Unknown",
+  "en": "Where a flattish LLN doesn't work well when you go to molecules and chemicals and imaging.",
+  "zh": "当你转向分子、化学和成像时，扁平化的 LLN 表现并不好。"
+ },
+ {
+  "seg": 235,
+  "start": 1001.927,
+  "end": 1006.288,
+  "speaker": "Unknown",
+  "en": "So I think we'll see limits of that that will cause different shifts in the algorithmic domain.",
+  "zh": "所以我认为我们会看到这方面的极限，这将导致算法领域的不同转变。"
+ },
+ {
+  "seg": 236,
+  "start": 1006.888,
+  "end": 1020.491,
+  "speaker": "Unknown",
+  "en": "I also think that some of the most interesting workloads become where you start bringing HPC-like things back into AI-like things, where all of a sudden 64-bit precision counts again.",
+  "zh": "我还认为，一些最有趣的负载会出现在你开始把类 HPC 的东西带回到类 AI 的东西里的时候，突然之间 64 位精度又变得重要了。"
+ },
+ {
+  "seg": 237,
+  "start": 1020.972,
+  "end": 1022.712,
+  "speaker": "Unknown",
+  "en": "What would be an example of that?",
+  "zh": "能举个例子吗？"
+ },
+ {
+  "seg": 238,
+  "start": 1023.233,
+  "end": 1030.888,
+  "speaker": "Unknown",
+  "en": "Well, you know, imagine that my AI model is now inducing the five most interesting domains for chemical analysis.",
+  "zh": "嗯，你知道，想象一下我的 AI 模型现在正在推导出化学分析中最有趣的五个领域。"
+ },
+ {
+  "seg": 239,
+  "start": 1032.265,
+  "end": 1035.827,
+  "speaker": "Unknown",
+  "en": "Okay, those chemical algorithms are going to run with high precision, right?",
+  "zh": "好，那些化学算法将会以高精度运行，对吧？"
+ },
+ {
+  "seg": 240,
+  "start": 1035.888,
+  "end": 1039.47,
+  "speaker": "Unknown",
+  "en": "You know, which is going to be the dominant piece of the workload, right?",
+  "zh": "你知道，这将成为负载中占主导地位的部分，对吧？"
+ },
+ {
+  "seg": 241,
+  "start": 1039.61,
+  "end": 1047.635,
+  "speaker": "Unknown",
+  "en": "Getting to the five algorithms I need to run or running the five algorithms, right, on different chemical or biological systems.",
+  "zh": "也就是得到我需要运行的五个算法，或者在不同的化学或生物系统上运行这五个算法，对吧？"
+ },
+ {
+  "seg": 242,
+  "start": 1047.655,
+  "end": 1057.201,
+  "speaker": "Unknown",
+  "en": "So, you know, I do think that, you know, or as we optimize our AI systems, they will lead us back to some of the things that have been more traditional high performance computing.",
+  "zh": "所以，你知道，我确实认为，或者随着我们优化我们的 AI 系统，它们会把我们带回到一些更传统的高性能计算的东西。"
+ },
+ {
+  "seg": 243,
+  "start": 1057.241,
+  "end": 1060.142,
+  "speaker": "Unknown",
+  "en": "So I see that aspect of workload as well.",
+  "zh": "所以我也看到了负载的这个方面。"
+ },
+ {
+  "seg": 244,
+  "start": 1061.163,
+  "end": 1065.885,
+  "speaker": "Unknown",
+  "en": "You know, all of that said is, you know, this extreme specialization to me in the compute architect.",
+  "zh": "你知道，说了这么多，这种极端的专门化，在我看来的计算架构中。"
+ },
+ {
+  "seg": 245,
+  "start": 1066.285,
+  "end": 1072.927,
+  "speaker": "Unknown",
+  "en": "I sort of don't like it because I don't think it's going to be what the workloads will look like two, three, four years from now.",
+  "zh": "我有点不喜欢它，因为我不认为它会是两、三、四年之后负载的样子。"
+ },
+ {
+  "seg": 246,
+  "start": 1073.587,
+  "end": 1081.85,
+  "speaker": "Unknown",
+  "en": "So that's one reason I don't see all of these AI chips as they get more and more specialized for portions of the compute workload to necessarily be right.",
+  "zh": "所以这就是原因之一，为什么我不认为所有这些 AI 芯片随着它们越来越多地为部分计算负载专门化就一定是对的。"
+ },
+ {
+  "seg": 247,
+  "start": 1082.47,
+  "end": 1085.953,
+  "speaker": "Unknown",
+  "en": "You know, second is, right, there's like a hundred of them now, right?",
+  "zh": "你知道，第二个是，对，现在已经有大约一百家了，对吧？"
+ },
+ {
+  "seg": 248,
+  "start": 1085.973,
+  "end": 1089.075,
+  "speaker": "Unknown",
+  "en": "You know, there's multiple optical ones, there's probabilistic ones and so on.",
+  "zh": "你知道，有多家做光学的，有做概率计算的等等。"
+ },
+ {
+  "seg": 249,
+  "start": 1089.315,
+  "end": 1095.64,
+  "speaker": "Unknown",
+  "en": "And you know, they're not all going to win and they're not all going to win because at the end of the day, you have to get scale on these things.",
+  "zh": "而你知道，它们不会全都赢，它们不会全都赢，因为归根结底，你必须在这些东西上获得规模。"
+ },
+ {
+  "seg": 250,
+  "start": 1095.7,
+  "end": 1100.823,
+  "speaker": "Unknown",
+  "en": "And scale requires, you know, you have to win, you have to get capital, you have to get workloads onto it.",
+  "zh": "而规模化需要,你知道的,你必须赢,你必须拿到资本,你必须把工作负载放到上面。"
+ },
+ {
+  "seg": 251,
+  "start": 1100.843,
+  "end": 1104.546,
+  "speaker": "Unknown",
+  "en": "So I think it sort of defies logic that you're going to have a hundred of these things.",
+  "zh": "所以我认为,说会有上百家这样的东西,是有点违背逻辑的。"
+ },
+ {
+  "seg": 252,
+  "start": 1104.646,
+  "end": 1105.447,
+  "speaker": "Unknown",
+  "en": "So I see then",
+  "zh": "所以我看到接下来"
+ },
+ {
+  "seg": 253,
+  "start": 1105.987,
+  "end": 1115.695,
+  "speaker": "Unknown",
+  "en": "You know, coming back as a result of, you know, simple, you know, capital market share, et cetera, you know, which are the winning teams, you know, winning designs, winning architecture.",
+  "zh": "你知道的,回归到,你知道的,简单的,你知道的,资本、市场份额等等,你知道的,也就是哪些是获胜的团队、获胜的设计、获胜的架构。"
+ },
+ {
+  "seg": 254,
+  "start": 1115.755,
+  "end": 1123.002,
+  "speaker": "Unknown",
+  "en": "So, I see the workload driving that, you know, I see the natural, you know, industry consolidations, you know, that will occur.",
+  "zh": "所以,我看到工作负载在驱动这一点,你知道的,我看到自然的,你知道的,行业整合,你知道的,将会发生。"
+ },
+ {
+  "seg": 255,
+  "start": 1123.022,
+  "end": 1126.785,
+  "speaker": "Unknown",
+  "en": "And then I also expect that the winners will pick some winners.",
+  "zh": "然后我也预计,赢家会挑选一些赢家。"
+ },
+ {
+  "seg": 256,
+  "start": 1127.996,
+  "end": 1142.873,
+  "speaker": "Unknown",
+  "en": "Right, you know, where, you know, an OpenAI, an NVIDIA, an Anthropic will say, I like this one because it isn't just hardware, it's how do the hardware and software code evolve, right, you know, for it.",
+  "zh": "对,你知道的,比如说,一个 OpenAI、一个 NVIDIA、一个 Anthropic 会说,我喜欢这一个,因为它不仅仅是硬件,而是硬件和软件如何协同演进,对吧,你知道的,为了它。"
+ },
+ {
+  "seg": 257,
+  "start": 1142.893,
+  "end": 1144.255,
+  "speaker": "Unknown",
+  "en": "And I do expect that there's going to be",
+  "zh": "而且我确实预计会有"
+ },
+ {
+  "seg": 258,
+  "start": 1144.775,
+  "end": 1147.556,
+  "speaker": "Unknown",
+  "en": "Hmm, you know, here's this 10 I could pick for this.",
+  "zh": "嗯,你知道的,这是我可以从中挑选的十个。"
+ },
+ {
+  "seg": 259,
+  "start": 1148.096,
+  "end": 1148.896,
+  "speaker": "Unknown",
+  "en": "I like that one.",
+  "zh": "我喜欢那一个。"
+ },
+ {
+  "seg": 260,
+  "start": 1149.716,
+  "end": 1154.777,
+  "speaker": "Unknown",
+  "en": "And it does require investment in the software and the workload evolution to take advantage of those platforms.",
+  "zh": "而这确实需要在软件和工作负载演进上进行投资,才能利用好这些平台。"
+ },
+ {
+  "seg": 261,
+  "start": 1154.797,
+  "end": 1161.079,
+  "speaker": "Unknown",
+  "en": "So, for those three reasons, yeah, we're going to see, you know, a narrowing of the field in that sense.",
+  "zh": "所以,基于这三个原因,是的,我们会看到,你知道的,这个领域在那种意义上会收窄。"
+ },
+ {
+  "seg": 262,
+  "start": 1161.119,
+  "end": 1162.599,
+  "speaker": "Unknown",
+  "en": "And the deployment complexity as well.",
+  "zh": "还有部署复杂性也是如此。"
+ },
+ {
+  "seg": 263,
+  "start": 1162.739,
+  "end": 1162.899,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 264,
+  "start": 1162.919,
+  "end": 1163.679,
+  "speaker": "Unknown",
+  "en": "Sorry, go ahead.",
+  "zh": "抱歉,你请说。"
+ },
+ {
+  "seg": 265,
+  "start": 1163.719,
+  "end": 1165.06,
+  "speaker": "Unknown",
+  "en": "It makes total sense.",
+  "zh": "这完全说得通。"
+ },
+ {
+  "seg": 266,
+  "start": 1165.12,
+  "end": 1169.381,
+  "speaker": "Unknown",
+  "en": "And I think I agree in most part, let me still try to stir a little bit of controversy here just to make sense.",
+  "zh": "而且我想我在很大程度上是同意的,不过让我还是试着制造一点争议,好让这事说得通。"
+ },
+ {
+  "seg": 267,
+  "start": 1169.481,
+  "end": 1171.261,
+  "speaker": "Unknown",
+  "en": "You, Lito, stirring controversy?",
+  "zh": "你,Lito,制造争议?"
+ },
+ {
+  "seg": 268,
+  "start": 1171.321,
+  "end": 1171.761,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不会吧。"
+ },
+ {
+  "seg": 269,
+  "start": 1172.301,
+  "end": 1174.122,
+  "speaker": "Unknown",
+  "en": "You guys have changed it, right?",
+  "zh": "你们已经改变了它,对吧?"
+ },
+ {
+  "seg": 270,
+  "start": 1175.023,
+  "end": 1179.448,
+  "speaker": "Unknown",
+  "en": "So, obviously, 100 companies won't access or consolidate, right?",
+  "zh": "所以,显然,100 家公司不会被接入或整合,对吧?"
+ },
+ {
+  "seg": 271,
+  "start": 1179.628,
+  "end": 1186.075,
+  "speaker": "Unknown",
+  "en": "And I completely agree with your argument that at the end of the day, the large consumers will pick winners to some degree, right?",
+  "zh": "而且我完全同意你的论点,即归根结底,大型消费者会在某种程度上挑选赢家,对吧?"
+ },
+ {
+  "seg": 272,
+  "start": 1186.095,
+  "end": 1195.386,
+  "speaker": "Unknown",
+  "en": "Today, I think, to be a first-tier chip startup to some degree, whether you're there or not, is defined by how much traction you have with the really big guys.",
+  "zh": "今天,我认为,要成为第一梯队的芯片初创公司,在某种程度上,不管你愿不愿意承认,是由你在那些真正的大厂那里的吸引力有多大来定义的。"
+ },
+ {
+  "seg": 273,
+  "start": 1196.067,
+  "end": 1204.23,
+  "speaker": "Unknown",
+  "en": "That said, there's also an argument to say, like, look, in any kind of transition period, you probably have a bit more of an explosion of different approaches, and over time, that'll shake out.",
+  "zh": "话虽如此,也有一种说法是,你看,在任何转型时期,你可能会有更多不同方法的爆发,随着时间的推移,那会自然淘汰。"
+ },
+ {
+  "seg": 274,
+  "start": 1204.69,
+  "end": 1224.577,
+  "speaker": "Unknown",
+  "en": "Now, all that said, I think there's an argument you can make that basically says, look, historically, we standardized on, you know, one or two architectures because, you know, different instruction sets were hard, you had to build multiple compilers, you know, like, there was basically the software complexity dictated that you can only have a certain small number of hardware platforms.",
+  "zh": "现在,说了这些,我认为你可以提出这样一个论点,基本上就是说,你看,历史上,我们标准化在,你知道的,一两种架构上,因为,你知道的,不同的指令集很难,你必须构建多个编译器,你知道的,比如说,基本上是软件复杂性决定了你只能拥有一定的小数量的硬件平台。"
+ },
+ {
+  "seg": 275,
+  "start": 1225.397,
+  "end": 1227.839,
+  "speaker": "Unknown",
+  "en": "That part seems to be changing with AI a little bit, right?",
+  "zh": "这一部分在 AI 时代似乎正在发生一点变化,对吧?"
+ },
+ {
+  "seg": 276,
+  "start": 1227.879,
+  "end": 1237.004,
+  "speaker": "Unknown",
+  "en": "Today, you know, writing an optimized kernel for, I mean, I think Calapeño was a great example, but they basically said, look, humans can't really program this thing anymore, but an agent swarm overnight can do it.",
+  "zh": "今天,你知道的,写一个优化的 kernel,我是说,我认为 Calapeño 是一个很好的例子,但他们基本上说,你看,人类已经无法真正为这个东西编程了,但一个智能体群一夜之间就能做到。"
+ },
+ {
+  "seg": 277,
+  "start": 1237.324,
+  "end": 1238.425,
+  "speaker": "Unknown",
+  "en": "That's all we need, right?",
+  "zh": "这就是我们所需要的全部,对吧?"
+ },
+ {
+  "seg": 278,
+  "start": 1238.845,
+  "end": 1246.449,
+  "speaker": "Unknown",
+  "en": "So basically you can say, like, look, if you can build a chip that has a certain capability, it's now much, much easier to build the software layers on top that fully leverages that.",
+  "zh": "所以基本上你可以说,比如,你看,如果你能构建一个具有一定能力的芯片,现在在上面构建能充分利用它的软件层要容易得多、容易得多了。"
+ },
+ {
+  "seg": 279,
+  "start": 1247.41,
+  "end": 1252.953,
+  "speaker": "Unknown",
+  "en": "Could a result of that be that we have a little bit more heterogeneity just because, you know, it's easy to program that heterogeneity?",
+  "zh": "那么这可能带来的结果之一是,我们会有更多的异构性,仅仅是因为,你知道的,为那种异构性编程变得容易了?"
+ },
+ {
+  "seg": 280,
+  "start": 1252.973,
+  "end": 1253.213,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 281,
+  "start": 1253.574,
+  "end": 1260.638,
+  "speaker": "Unknown",
+  "en": "And I do think it changes some of the, you know, where the bottleneck lands, right, changes in that regard.",
+  "zh": "而且我确实认为它改变了一些,你知道的,瓶颈落在哪里,对吧,在这方面发生了变化。"
+ },
+ {
+  "seg": 282,
+  "start": 1260.958,
+  "end": 1263.84,
+  "speaker": "Unknown",
+  "en": "You know, the first bottleneck is the one I'd point to that we've already talked about.",
+  "zh": "你知道的,第一个瓶颈是我会指出的、我们已经谈论过的那个。"
+ },
+ {
+  "seg": 283,
+  "start": 1264.34,
+  "end": 1266.141,
+  "speaker": "Unknown",
+  "en": "Still takes a year and a half to build these things.",
+  "zh": "构建这些东西仍然需要一年半的时间。"
+ },
+ {
+  "seg": 284,
+  "start": 1266.241,
+  "end": 1266.521,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 285,
+  "start": 1266.841,
+  "end": 1267.041,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 286,
+  "start": 1267.402,
+  "end": 1274.626,
+  "speaker": "Unknown",
+  "en": "You know, and then the second bottleneck is not only does it take a year and a half to get these things into racks and scales and so on like that, now to make them useful,",
+  "zh": "你知道的,然后第二个瓶颈是,不仅把这些东西装进机架并实现规模化等等需要一年半,现在要让它们变得有用,"
+ },
+ {
+  "seg": 287,
+  "start": 1275.326,
+  "end": 1277.567,
+  "speaker": "Unknown",
+  "en": "Okay, well, could I borrow 50 billion?",
+  "zh": "好吧,我能借 500 亿吗?"
+ },
+ {
+  "seg": 288,
+  "start": 1278.147,
+  "end": 1281.608,
+  "speaker": "Unknown",
+  "en": "Right, I mean, you're not talking about small capital expenditures.",
+  "zh": "对,我是说,你谈的不是小额资本支出。"
+ },
+ {
+  "seg": 289,
+  "start": 1281.628,
+  "end": 1288.491,
+  "speaker": "Unknown",
+  "en": "You're talking about very large capital expenditures and data centers, you know, power, you know, commitments and so on like that.",
+  "zh": "你谈的是非常大规模的资本支出,还有数据中心,你知道的,电力,你知道的,各种承诺等等。"
+ },
+ {
+  "seg": 290,
+  "start": 1288.751,
+  "end": 1291.912,
+  "speaker": "Unknown",
+  "en": "Well, I got to build this thing at scale, right, associated with it.",
+  "zh": "嗯,我得把这个东西规模化地建出来,对吧,与之配套。"
+ },
+ {
+  "seg": 291,
+  "start": 1291.932,
+  "end": 1295.793,
+  "speaker": "Unknown",
+  "en": "So, and that's going to defy a lot of heterogeneity as a result.",
+  "zh": "所以,而这一点会抵制很多异构性,结果就是。"
+ },
+ {
+  "seg": 292,
+  "start": 1295.833,
+  "end": 1299.855,
+  "speaker": "Unknown",
+  "en": "Now, you know, clearly big players, and we saw this with what, you know, NVIDIA did with Grok.",
+  "zh": "现在,你知道的,很明显大玩家,而且我们从,你知道的,NVIDIA 对 Grok 做的事情中看到了这一点。"
+ },
+ {
+  "seg": 293,
+  "start": 1300.255,
+  "end": 1304.578,
+  "speaker": "Unknown",
+  "en": "Okay, you know, we're going to sort of own some of that heterogeneity, right?",
+  "zh": "好吧,你知道的,我们会某种程度地拥有其中一部分异构性,对吧?"
+ },
+ {
+  "seg": 294,
+  "start": 1304.838,
+  "end": 1309.741,
+  "speaker": "Unknown",
+  "en": "And, you know, two years from now, you're not going to tell what Grok is inside of NVIDIA, right?",
+  "zh": "而且,你知道的,两年后,你将分不清 NVIDIA 内部什么是 Grok,对吧?"
+ },
+ {
+  "seg": 295,
+  "start": 1309.761,
+  "end": 1311.942,
+  "speaker": "Unknown",
+  "en": "It's just going to be like another, right?",
+  "zh": "它就只会像另一个,对吧?"
+ },
+ {
+  "seg": 296,
+  "start": 1311.982,
+  "end": 1312.782,
+  "speaker": "Unknown",
+  "en": "You know, someone like that.",
+  "zh": "你知道的,类似那样的东西。"
+ },
+ {
+  "seg": 297,
+  "start": 1312.802,
+  "end": 1319.806,
+  "speaker": "Unknown",
+  "en": "So you'll see the architectures, you know, sort of hide the heterogeneity, right, inside of it, which to me is just fine, right?",
+  "zh": "所以你会看到架构,你知道的,把异构性隐藏起来,对吧,藏在里面,而对我来说这完全没问题,对吧?"
+ },
+ {
+  "seg": 298,
+  "start": 1319.826,
+  "end": 1323.569,
+  "speaker": "Unknown",
+  "en": "You know, I mean, that's what layering, that's what abstraction has always done associated with it.",
+  "zh": "你知道的,我是说,这就是分层,这就是抽象一直以来所做的,与之相伴。"
+ },
+ {
+  "seg": 299,
+  "start": 1323.589,
+  "end": 1328.331,
+  "speaker": "Unknown",
+  "en": "You know, but I think those forces are powerful ones to, I'll say, expose",
+  "zh": "你知道的,但我认为这些力量是强大的力量,我可以说,去暴露"
+ },
+ {
+  "seg": 300,
+  "start": 1329.432,
+  "end": 1331.915,
+  "speaker": "Unknown",
+  "en": "A lot of the heterogeneity, no, right?",
+  "zh": "很多异构性,对吧?"
+ },
+ {
+  "seg": 301,
+  "start": 1331.935,
+  "end": 1337.141,
+  "speaker": "Unknown",
+  "en": "I think it will get abstracted underneath, you know, some of these, but at the end of the day, it's still hard to build these things on scale.",
+  "zh": "我觉得它会被抽象到底层之下,你懂的,其中一些,但说到底,大规模构建这些东西仍然很难。"
+ },
+ {
+  "seg": 302,
+  "start": 1337.6,
+  "end": 1340.161,
+  "speaker": "Unknown",
+  "en": "Earlier you talked about HPM being hideous memory.",
+  "zh": "刚才你提到 HPM 是 hideous memory(丑陋内存)。"
+ },
+ {
+  "seg": 303,
+  "start": 1340.562,
+  "end": 1343.003,
+  "speaker": "Unknown",
+  "en": "By far the best one we have today.",
+  "zh": "这是目前为止我们拥有的最好的一个。"
+ },
+ {
+  "seg": 304,
+  "start": 1343.263,
+  "end": 1343.663,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 305,
+  "start": 1343.683,
+  "end": 1345.244,
+  "speaker": "Unknown",
+  "en": "It's like the dumb thing about democracy.",
+  "zh": "这就像民主的愚蠢之处。"
+ },
+ {
+  "seg": 306,
+  "start": 1347.565,
+  "end": 1350.647,
+  "speaker": "Unknown",
+  "en": "We can't recall when there was the last memory innovation.",
+  "zh": "我们记不清上一次内存创新是什么时候了。"
+ },
+ {
+  "seg": 307,
+  "start": 1350.747,
+  "end": 1351.907,
+  "speaker": "Unknown",
+  "en": "It might have been obtained.",
+  "zh": "它可能已经过时了。"
+ },
+ {
+  "seg": 308,
+  "start": 1351.987,
+  "end": 1353.508,
+  "speaker": "Unknown",
+  "en": "I think you probably had something to do with it.",
+  "zh": "我觉得你可能和这事有点关系。"
+ },
+ {
+  "seg": 309,
+  "start": 1353.688,
+  "end": 1354.429,
+  "speaker": "Unknown",
+  "en": "Yeah, that one died.",
+  "zh": "是啊,那个死掉了。"
+ },
+ {
+  "seg": 310,
+  "start": 1354.809,
+  "end": 1355.429,
+  "speaker": "Unknown",
+  "en": "That one died.",
+  "zh": "那个死掉了。"
+ },
+ {
+  "seg": 311,
+  "start": 1356.29,
+  "end": 1356.77,
+  "speaker": "Unknown",
+  "en": "We killed it.",
+  "zh": "我们把它弄死了。"
+ },
+ {
+  "seg": 312,
+  "start": 1356.99,
+  "end": 1358.251,
+  "speaker": "Unknown",
+  "en": "Yeah, we killed it.",
+  "zh": "是啊,我们把它弄死了。"
+ },
+ {
+  "seg": 313,
+  "start": 1358.951,
+  "end": 1362.173,
+  "speaker": "Unknown",
+  "en": "So do you think memory innovation",
+  "zh": "那么你认为内存创新"
+ },
+ {
+  "seg": 314,
+  "start": 1363.375,
+  "end": 1364.456,
+  "speaker": "Unknown",
+  "en": "Is it on the counter?",
+  "zh": "是否已经在倒计时了?"
+ },
+ {
+  "seg": 315,
+  "start": 1364.636,
+  "end": 1366.177,
+  "speaker": "Unknown",
+  "en": "What needs to happen?",
+  "zh": "需要发生什么?"
+ },
+ {
+  "seg": 316,
+  "start": 1366.957,
+  "end": 1371.22,
+  "speaker": "Unknown",
+  "en": "Obviously, we understand the scale problem because it's even more larger there.",
+  "zh": "显然,我们理解规模问题,因为那里的规模问题甚至更大。"
+ },
+ {
+  "seg": 317,
+  "start": 1371.92,
+  "end": 1375.022,
+  "speaker": "Unknown",
+  "en": "But if you keep the scale aside, even from a technology point of view.",
+  "zh": "但如果把规模放在一边,单从技术角度来看。"
+ },
+ {
+  "seg": 318,
+  "start": 1375.102,
+  "end": 1378.304,
+  "speaker": "Unknown",
+  "en": "Yeah, and let's look at that history.",
+  "zh": "是啊,我们来看看那段历史。"
+ },
+ {
+  "seg": 319,
+  "start": 1378.844,
+  "end": 1389.13,
+  "speaker": "Unknown",
+  "en": "I've probably personally been associated with at least five different new memory architectures, Optane just being one of them, that did not see the light of day.",
+  "zh": "我个人可能至少与五种不同的新内存架构有关联,Optane 只是其中之一,它们都没能见到天日。"
+ },
+ {
+  "seg": 320,
+  "start": 1389.75,
+  "end": 1390.771,
+  "speaker": "Unknown",
+  "en": "Right, as well.",
+  "zh": "对,也是。"
+ },
+ {
+  "seg": 321,
+  "start": 1391.351,
+  "end": 1397.416,
+  "speaker": "Unknown",
+  "en": "I'm probably familiar with close to a hundred that have happened in the industry over the last 30 years.",
+  "zh": "过去 30 年里,我可能熟悉行业内近一百项已发生的此类尝试。"
+ },
+ {
+  "seg": 322,
+  "start": 1397.917,
+  "end": 1401.259,
+  "speaker": "Unknown",
+  "en": "And exactly how many major new memories have we had over the last 30 years?",
+  "zh": "那么过去 30 年里,我们到底有过多少种主要的新内存?"
+ },
+ {
+  "seg": 323,
+  "start": 1402.2,
+  "end": 1402.801,
+  "speaker": "Unknown",
+  "en": "Zero.",
+  "zh": "零。"
+ },
+ {
+  "seg": 324,
+  "start": 1403.221,
+  "end": 1405.663,
+  "speaker": "Unknown",
+  "en": "Right, you know, which, you know, okay, DRAM, SRAM, Flash.",
+  "zh": "对,你知道的,好吧,DRAM、SRAM、Flash。"
+ },
+ {
+  "seg": 325,
+  "start": 1405.863,
+  "end": 1406.143,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好吧。"
+ },
+ {
+  "seg": 326,
+  "start": 1406.804,
+  "end": 1407.364,
+  "speaker": "Unknown",
+  "en": "What else is there?",
+  "zh": "还有什么?"
+ },
+ {
+  "seg": 327,
+  "start": 1407.524,
+  "end": 1408.585,
+  "speaker": "Unknown",
+  "en": "DRAM, SRAM, Flash.",
+  "zh": "DRAM、SRAM、Flash。"
+ },
+ {
+  "seg": 328,
+  "start": 1408.665,
+  "end": 1410.467,
+  "speaker": "Unknown",
+  "en": "You know, so I do think...",
+  "zh": "你知道的,所以我确实认为……"
+ },
+ {
+  "seg": 329,
+  "start": 1410.487,
+  "end": 1411.808,
+  "speaker": "Unknown",
+  "en": "Flash stacking comes for a little bit.",
+  "zh": "Flash 堆叠稍微有点动静。"
+ },
+ {
+  "seg": 330,
+  "start": 1412.723,
+  "end": 1414.244,
+  "speaker": "Unknown",
+  "en": "Barely.",
+  "zh": "勉强算吧。"
+ },
+ {
+  "seg": 331,
+  "start": 1414.304,
+  "end": 1415.225,
+  "speaker": "Unknown",
+  "en": "But anyway.",
+  "zh": "但不管怎样。"
+ },
+ {
+  "seg": 332,
+  "start": 1415.665,
+  "end": 1432.559,
+  "speaker": "Unknown",
+  "en": "So in that, it has been a disappointing that we haven't created the next physics that enable low-cost, high-performance, resilient, manufacturable memory.",
+  "zh": "所以在这一点上,令人失望的是,我们还没有创造出能够实现低成本、高性能、有韧性、可制造的内存的下一个物理学。"
+ },
+ {
+  "seg": 333,
+  "start": 1434.44,
+  "end": 1446.785,
+  "speaker": "Unknown",
+  "en": "So, I do think, and now, and over the last 30, 40 years, memory was a terrible industry because you would make money one year and then you'd lose money for the next four.",
+  "zh": "所以我确实认为,而且现在,在过去三四十年里,内存一直是一个糟糕的行业,因为你一年赚钱,然后接下来四年都在亏钱。"
+ },
+ {
+  "seg": 334,
+  "start": 1446.825,
+  "end": 1450.846,
+  "speaker": "Unknown",
+  "en": "So, let's go do R&D in an industry that makes money one out of five years.",
+  "zh": "所以,让我们去一个五年里只有一年赚钱的行业做研发吧。"
+ },
+ {
+  "seg": 335,
+  "start": 1451.526,
+  "end": 1459.91,
+  "speaker": "Unknown",
+  "en": "It's just always been so terribly difficult because it's been driven by such violent commoditization cycles.",
+  "zh": "它一直都极其困难,因为它被如此剧烈的大宗商品化周期所驱动。"
+ },
+ {
+  "seg": 336,
+  "start": 1460.03,
+  "end": 1461.55,
+  "speaker": "Unknown",
+  "en": "That has changed a little bit though recently.",
+  "zh": "不过最近这有一点改变了。"
+ },
+ {
+  "seg": 337,
+  "start": 1461.651,
+  "end": 1462.631,
+  "speaker": "Unknown",
+  "en": "Over the last five years?",
+  "zh": "过去五年?"
+ },
+ {
+  "seg": 338,
+  "start": 1464.048,
+  "end": 1467.25,
+  "speaker": "Unknown",
+  "en": "Happy days, man.",
+  "zh": "好日子啊,兄弟。"
+ },
+ {
+  "seg": 339,
+  "start": 1467.27,
+  "end": 1472.113,
+  "speaker": "Unknown",
+  "en": "So, all three big member events are in the top 20 most valuable companies on the planet.",
+  "zh": "三大内存厂商全都跻身全球市值前 20 的公司。"
+ },
+ {
+  "seg": 340,
+  "start": 1472.133,
+  "end": 1472.313,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 341,
+  "start": 1472.433,
+  "end": 1473.894,
+  "speaker": "Unknown",
+  "en": "That's a crazy change.",
+  "zh": "这是一个疯狂的变化。"
+ },
+ {
+  "seg": 342,
+  "start": 1474.074,
+  "end": 1478.576,
+  "speaker": "Unknown",
+  "en": "It's just so, right, you know, who would have thought, right, associated with it.",
+  "zh": "就是这么,对吧,你知道的,谁能想到呢,对吧,与此相关联。"
+ },
+ {
+  "seg": 343,
+  "start": 1478.917,
+  "end": 1483.079,
+  "speaker": "Unknown",
+  "en": "And anybody who looks at the AI workloads and it's always, you know, it's much harder to...",
+  "zh": "任何看过 AI 工作负载的人,总是,你知道的,要……难得多……"
+ },
+ {
+  "seg": 344,
+  "start": 1483.419,
+  "end": 1487.701,
+  "speaker": "Unknown",
+  "en": "You know, it's easy to predict the past, but it's a little bit harder to predict the future, right?",
+  "zh": "你知道的,预测过去很容易,但预测未来有点难,对吧?"
+ },
+ {
+  "seg": 345,
+  "start": 1487.801,
+  "end": 1491.763,
+  "speaker": "Unknown",
+  "en": "And, you know, in that, you look at it and say, AI is a memory.",
+  "zh": "而且,你知道的,看着它你会说,AI 就是内存。"
+ },
+ {
+  "seg": 346,
+  "start": 1492.043,
+  "end": 1492.623,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 347,
+  "start": 1492.923,
+  "end": 1494.024,
+  "speaker": "Unknown",
+  "en": "Right, you know, inside of it.",
+  "zh": "对,你知道的,在它内部。"
+ },
+ {
+  "seg": 348,
+  "start": 1494.064,
+  "end": 1503.488,
+  "speaker": "Unknown",
+  "en": "So, I think there is the combination of capital and technology needs that will justify memory innovation.",
+  "zh": "所以我认为,资本和技术需求的结合将证明内存创新的合理性。"
+ },
+ {
+  "seg": 349,
+  "start": 1504.088,
+  "end": 1515.015,
+  "speaker": "Unknown",
+  "en": "Now, there's two domains that I'm excited about, you know, for, you know, one is, you know, this idea, you know, I do think that the shoreline bandwidth limitations of HBM is a fundamental issue, right?",
+  "zh": "现在,有两个领域让我感到兴奋,你知道的,一个是,你知道的,这个想法,你知道的,我确实认为 HBM 的 shoreline 带宽限制是一个根本性问题,对吧?"
+ },
+ {
+  "seg": 350,
+  "start": 1515.275,
+  "end": 1524.541,
+  "speaker": "Unknown",
+  "en": "So with that, the idea, you know, and obviously, you know, we have a company, D-Matrix, that's doing this, but I think others will be, you know, whether it's, you know, Cerebrus, you know, and their techniques.",
+  "zh": "所以有了这个想法,你知道,显然,你知道,我们有一家公司 D-Matrix 在做这件事,但我认为其他人也会做,你知道,无论是,你知道,Cerebrus,你知道,以及他们的技术。"
+ },
+ {
+  "seg": 351,
+  "start": 1524.581,
+  "end": 1525.562,
+  "speaker": "Unknown",
+  "en": "The future is stacked.",
+  "zh": "未来是堆叠的。"
+ },
+ {
+  "seg": 352,
+  "start": 1525.662,
+  "end": 1525.882,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 353,
+  "start": 1526.242,
+  "end": 1528.003,
+  "speaker": "Unknown",
+  "en": "Somehow you got to bring memory and...",
+  "zh": "某种程度上你得把存储和……"
+ },
+ {
+  "seg": 354,
+  "start": 1528.043,
+  "end": 1528.864,
+  "speaker": "Unknown",
+  "en": "In more ways than one.",
+  "zh": "从不止一个方面来说。"
+ },
+ {
+  "seg": 355,
+  "start": 1529.084,
+  "end": 1532.226,
+  "speaker": "Unknown",
+  "en": "You know, you got to bring memory and compute together.",
+  "zh": "你知道,你得把存储和计算放在一起。"
+ },
+ {
+  "seg": 356,
+  "start": 1532.306,
+  "end": 1532.526,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 357,
+  "start": 1532.826,
+  "end": 1533.106,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 358,
+  "start": 1533.207,
+  "end": 1537.149,
+  "speaker": "Unknown",
+  "en": "You know, in fundamental new structures.",
+  "zh": "你知道,用全新的基础结构。"
+ },
+ {
+  "seg": 359,
+  "start": 1537.329,
+  "end": 1542.092,
+  "speaker": "Unknown",
+  "en": "I do think that given the workload now has such capital...",
+  "zh": "我确实认为,鉴于现在的工作负载有这么多的资本……"
+ },
+ {
+  "seg": 360,
+  "start": 1542.532,
+  "end": 1551.018,
+  "speaker": "Unknown",
+  "en": "being deployed against it in the AI space that I do think will actually be able to break through some of those physics challenges as well.",
+  "zh": "投入到 AI 领域,我确实认为我们将能够突破其中一些物理学的挑战。"
+ },
+ {
+  "seg": 361,
+  "start": 1551.078,
+  "end": 1558.384,
+  "speaker": "Unknown",
+  "en": "So I do believe and I've just funded a new memory company as well that's still in stealth.",
+  "zh": "所以我确实相信,而且我刚投资了一家仍在隐身模式的新存储公司。"
+ },
+ {
+  "seg": 362,
+  "start": 1559.985,
+  "end": 1565.088,
+  "speaker": "Unknown",
+  "en": "You know, I'm quite excited about some of the innovations that will occur in new memories.",
+  "zh": "你知道,我对新型存储领域将出现的一些创新感到相当兴奋。"
+ },
+ {
+  "seg": 363,
+  "start": 1565.168,
+  "end": 1581.256,
+  "speaker": "Unknown",
+  "en": "And you're going to see new materials, you know, for memory, you know, a lot of people looking at things like ferroelectrics, you know, finding non-capacitive, you know, high-density memories, finding memories that can, you know, be high-performance, high-density and stackable.",
+  "zh": "你会看到用于存储的新材料,你知道,很多人在研究铁电体之类的东西,你知道,寻找非电容性的、高密度的存储器,寻找既能高性能、高密度又可堆叠的存储器。"
+ },
+ {
+  "seg": 364,
+  "start": 1582.296,
+  "end": 1590.52,
+  "speaker": "Unknown",
+  "en": "But, you know, people are looking at low-cost flash, you know, for that, I'm not particularly enthusiastic about that idea myself.",
+  "zh": "但是,你知道,有人在研究低成本闪存来做这个,我自己对这个想法并不特别热衷。"
+ },
+ {
+  "seg": 365,
+  "start": 1590.6,
+  "end": 1607.188,
+  "speaker": "Unknown",
+  "en": "I think, you know, speed and performance of the underlying cell are somewhat problematic with a flash or an MRAM structure, you know, but I do think there's memory innovations are coming for the first time in 30 years, and I do think that's going to be an exciting space, and, you know, we'll have a couple of companies there, I'm sure.",
+  "zh": "我认为,你知道,底层单元的速度和性能用闪存或 MRAM 结构来说有些成问题,你知道,但我确实认为存储创新正在三十年来首次到来,我确实认为这将是一个令人兴奋的领域,而且,你知道,我们肯定会在那里有几家公司。"
+ },
+ {
+  "seg": 366,
+  "start": 1607.628,
+  "end": 1609.489,
+  "speaker": "Unknown",
+  "en": "Yeah, hopefully we'll do a few of them together.",
+  "zh": "是啊,希望我们能一起做其中的几家。"
+ },
+ {
+  "seg": 367,
+  "start": 1609.609,
+  "end": 1610.569,
+  "speaker": "Unknown",
+  "en": "Yeah, hopefully.",
+  "zh": "是啊,希望如此。"
+ },
+ {
+  "seg": 368,
+  "start": 1610.869,
+  "end": 1611.729,
+  "speaker": "Unknown",
+  "en": "What do you think?",
+  "zh": "你觉得呢?"
+ },
+ {
+  "seg": 369,
+  "start": 1611.749,
+  "end": 1612.269,
+  "speaker": "Unknown",
+  "en": "Should we do it?",
+  "zh": "我们该做吗?"
+ },
+ {
+  "seg": 370,
+  "start": 1612.289,
+  "end": 1615.03,
+  "speaker": "Unknown",
+  "en": "Okay, you know, but we'll find some things to do here.",
+  "zh": "好吧,你知道,我们会在这里找到一些可以做的事。"
+ },
+ {
+  "seg": 371,
+  "start": 1615.07,
+  "end": 1619.351,
+  "speaker": "Unknown",
+  "en": "But I think memory innovation for the first time in 30 years is nigh upon us.",
+  "zh": "但我认为三十年来的首次存储创新即将到来。"
+ },
+ {
+  "seg": 372,
+  "start": 1619.931,
+  "end": 1620.932,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊,是啊。"
+ },
+ {
+  "seg": 373,
+  "start": 1621.212,
+  "end": 1624.053,
+  "speaker": "Unknown",
+  "en": "It's amazing what a couple of $10 billion of market cap can do.",
+  "zh": "几个 100 亿美元的市值能起的作用真是惊人。"
+ },
+ {
+  "seg": 374,
+  "start": 1624.073,
+  "end": 1627.934,
+  "speaker": "Unknown",
+  "en": "You know, I think the memory industry has now increased by market cap by $2.5 trillion over the last four years.",
+  "zh": "你知道,我认为存储行业的市值在过去四年里增加了 2.5 万亿美元。"
+ },
+ {
+  "seg": 375,
+  "start": 1627.954,
+  "end": 1628.834,
+  "speaker": "Unknown",
+  "en": "I think that's about right.",
+  "zh": "我觉得差不多是这个数。"
+ },
+ {
+  "seg": 376,
+  "start": 1637.644,
+  "end": 1641.569,
+  "speaker": "Unknown",
+  "en": "Of course, just invested there and not done any of our venture stuff.",
+  "zh": "当然,只是在那里做了投资,而不是做我们的风投业务。"
+ },
+ {
+  "seg": 377,
+  "start": 1641.589,
+  "end": 1642.43,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是啊,没错。"
+ },
+ {
+  "seg": 378,
+  "start": 1643.07,
+  "end": 1646.935,
+  "speaker": "Unknown",
+  "en": "How long, what's your view?",
+  "zh": "多久,你的看法是什么?"
+ },
+ {
+  "seg": 379,
+  "start": 1647.155,
+  "end": 1649.538,
+  "speaker": "Unknown",
+  "en": "Sorry, go ahead, Guillaume.",
+  "zh": "抱歉,你先说,Guillaume。"
+ },
+ {
+  "seg": 380,
+  "start": 1649.618,
+  "end": 1656.566,
+  "speaker": "Unknown",
+  "en": "To expand a little bit on the stacking part, if you have to predict, how quickly will our chips get taller?",
+  "zh": "展开讲一下堆叠这部分,如果让你预测,我们的芯片会多快变高?"
+ },
+ {
+  "seg": 381,
+  "start": 1657.655,
+  "end": 1666.083,
+  "speaker": "Unknown",
+  "en": "Is this going to be like, you know, we're going to go to two and then sit there for a while, or will we have, you know, the 16-layer sandwich, you know, happily mixing logic, memory, and SRAM?",
+  "zh": "会是那种,你知道,我们到两层然后在那里停留一段时间,还是我们会有,你知道,16 层的三明治,你知道,愉快地混合逻辑、存储和 SRAM?"
+ },
+ {
+  "seg": 382,
+  "start": 1666.103,
+  "end": 1668.706,
+  "speaker": "Unknown",
+  "en": "HPM pulled out this.",
+  "zh": "HPM 把这个拿出来了。"
+ },
+ {
+  "seg": 383,
+  "start": 1669.066,
+  "end": 1672.149,
+  "speaker": "Unknown",
+  "en": "HPM is going down at Moffin, but how do you see this evolve?",
+  "zh": "HPM 正在 Moffin 走下坡路,但你如何看待这个的演变?"
+ },
+ {
+  "seg": 384,
+  "start": 1672.529,
+  "end": 1681.538,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, I think there's, you know, the problem with stacking, right, is now essentially the value of the stack",
+  "zh": "是啊,你知道,我认为,你知道,堆叠的问题,对吧,本质上是堆叠的价值"
+ },
+ {
+  "seg": 385,
+  "start": 1682.198,
+  "end": 1692.121,
+  "speaker": "Unknown",
+  "en": "It becomes greater as you go to higher dimensionality of the stack, which means the yield of any individual layer in the stacking process has to keep coming.",
+  "zh": "随着堆叠维度变高而变大,这意味着堆叠工艺中任何单层的良率必须持续……"
+ },
+ {
+  "seg": 386,
+  "start": 1692.141,
+  "end": 1694.162,
+  "speaker": "Unknown",
+  "en": "Essentially, it can't go up linearly.",
+  "zh": "本质上,它不能线性增长。"
+ },
+ {
+  "seg": 387,
+  "start": 1694.722,
+  "end": 1696.542,
+  "speaker": "Unknown",
+  "en": "It has to go up exponentially.",
+  "zh": "它必须指数级增长。"
+ },
+ {
+  "seg": 388,
+  "start": 1696.842,
+  "end": 1705.045,
+  "speaker": "Unknown",
+  "en": "And improving the manufacturing and defect characteristics in an exponential way when you get to eight or 16 high stacks gets to be...",
+  "zh": "而当你达到八层或十六层高的堆叠时,以指数方式改进制造和缺陷特性会变得……"
+ },
+ {
+  "seg": 389,
+  "start": 1705.805,
+  "end": 1709.668,
+  "speaker": "Unknown",
+  "en": "So, so hard when you run the math on that associated with it.",
+  "zh": "当你算一下与之相关的数学时,真的非常难。"
+ },
+ {
+  "seg": 390,
+  "start": 1709.688,
+  "end": 1712.75,
+  "speaker": "Unknown",
+  "en": "You know, your manufacturing flows have to be so close to perfect.",
+  "zh": "你知道,你的制造流程必须接近完美。"
+ },
+ {
+  "seg": 391,
+  "start": 1713.03,
+  "end": 1719.515,
+  "speaker": "Unknown",
+  "en": "Although you could see designs that take into account a certain model class, like we've seen it for a long time for two-dimensional.",
+  "zh": "虽然你可以看到考虑到某个模型类别的设计,就像我们在二维领域已经见过很久的那样。"
+ },
+ {
+  "seg": 392,
+  "start": 1719.555,
+  "end": 1720.095,
+  "speaker": "Unknown",
+  "en": "Yeah, of course.",
+  "zh": "是啊,当然。"
+ },
+ {
+  "seg": 393,
+  "start": 1720.115,
+  "end": 1721.936,
+  "speaker": "Unknown",
+  "en": "But remember, that was the nature of DRAM.",
+  "zh": "但要记住,那就是 DRAM 的本质。"
+ },
+ {
+  "seg": 394,
+  "start": 1721.976,
+  "end": 1726.279,
+  "speaker": "Unknown",
+  "en": "You always have bad block replacement and, you know, spare lines and so on like that.",
+  "zh": "你总是有坏块替换,你知道,备用线之类的。"
+ },
+ {
+  "seg": 395,
+  "start": 1726.299,
+  "end": 1729.281,
+  "speaker": "Unknown",
+  "en": "So not in any way, right, you know, minimizing that.",
+  "zh": "所以说不是,对吧,你知道,尽量减少那个。"
+ },
+ {
+  "seg": 396,
+  "start": 1729.582,
+  "end": 1733.144,
+  "speaker": "Unknown",
+  "en": "But assuming you're doing that, you still need the yields to be so good.",
+  "zh": "但假设你在做这些,你仍然需要良率非常好。"
+ },
+ {
+  "seg": 397,
+  "start": 1733.164,
+  "end": 1734.285,
+  "speaker": "Unknown",
+  "en": "You know, if I have a cracked die,",
+  "zh": "你知道,如果我有一片开裂的裸片,"
+ },
+ {
+  "seg": 398,
+  "start": 1734.585,
+  "end": 1736.566,
+  "speaker": "Unknown",
+  "en": "I don't care how much resilience you've built into it.",
+  "zh": "我不管你在里面构建了多少弹性。"
+ },
+ {
+  "seg": 399,
+  "start": 1736.586,
+  "end": 1738.987,
+  "speaker": "Unknown",
+  "en": "You can't, you know, it's a bad die, right?",
+  "zh": "你没法,你知道,它就是一片坏裸片,对吧?"
+ },
+ {
+  "seg": 400,
+  "start": 1739.007,
+  "end": 1748.471,
+  "speaker": "Unknown",
+  "en": "So, you know, those kinds, you know, so as a result of that, I'm not, you know, a crazy 16, 32 stack, you know, kind of guy.",
+  "zh": "所以，你知道，那些种类，你知道，所以因此，我不是，你知道，一个疯狂的 16 层、32 层堆叠，你知道，那种人。"
+ },
+ {
+  "seg": 401,
+  "start": 1748.511,
+  "end": 1754.353,
+  "speaker": "Unknown",
+  "en": "I think there's going to be, you know, nice three, four, five stacks, you know, that just end up sort of being the sweet spot.",
+  "zh": "我认为会有，你知道，不错的 3 层、4 层、5 层堆叠，你知道，最终会成为最佳平衡点。"
+ },
+ {
+  "seg": 402,
+  "start": 1754.633,
+  "end": 1755.714,
+  "speaker": "Unknown",
+  "en": "The mid-rises, yeah.",
+  "zh": "中间层，是的。"
+ },
+ {
+  "seg": 403,
+  "start": 1755.754,
+  "end": 1755.934,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 404,
+  "start": 1756.234,
+  "end": 1766.419,
+  "speaker": "Unknown",
+  "en": "Right, you know, for, and I expect for, you know, part of its manufacturing, part of its complexity associated with it, you know, where's those yield sweet spots associated with it.",
+  "zh": "对，你知道，对于，而且我预计对于，你知道，部分是它的制造，部分是与它相关的复杂性，你知道，与之相关的良率最佳平衡点在哪里。"
+ },
+ {
+  "seg": 405,
+  "start": 1766.439,
+  "end": 1768.56,
+  "speaker": "Unknown",
+  "en": "So that's sort of where I think most things land.",
+  "zh": "所以那就是我认为大多数东西最终落点的地方。"
+ },
+ {
+  "seg": 406,
+  "start": 1769,
+  "end": 1775.203,
+  "speaker": "Unknown",
+  "en": "But even there, right, you know, so let's say I now have, you know, I now have a great compute tile.",
+  "zh": "但即便在那里，对，你知道，假设我现在有了，你知道，我现在有了一个很棒的计算 tile。"
+ },
+ {
+  "seg": 407,
+  "start": 1775.993,
+  "end": 1778.056,
+  "speaker": "Unknown",
+  "en": "How big does that tile need to be?",
+  "zh": "那个 tile 需要多大？"
+ },
+ {
+  "seg": 408,
+  "start": 1778.076,
+  "end": 1781.219,
+  "speaker": "Unknown",
+  "en": "I mean, everything's become reticle limited now.",
+  "zh": "我是说，现在一切都变成了 reticle 限制。"
+ },
+ {
+  "seg": 409,
+  "start": 1781.82,
+  "end": 1786.885,
+  "speaker": "Unknown",
+  "en": "Can I go to more chiplets, that better yield characteristics, better thermal?",
+  "zh": "我能否转向更多 chiplet，更好的良率特性、更好的散热？"
+ },
+ {
+  "seg": 410,
+  "start": 1787.106,
+  "end": 1789.368,
+  "speaker": "Unknown",
+  "en": "And then you're going to say, I want a memory stack on that.",
+  "zh": "然后你会说，我想在那上面放一个内存堆叠。"
+ },
+ {
+  "seg": 411,
+  "start": 1789.488,
+  "end": 1792.331,
+  "speaker": "Unknown",
+  "en": "Is it a two stack memory, a four stack memory?",
+  "zh": "是两层堆叠的内存，还是四层堆叠的内存？"
+ },
+ {
+  "seg": 412,
+  "start": 1792.992,
+  "end": 1794.834,
+  "speaker": "Unknown",
+  "en": "I don't see it becoming an eight stack memory.",
+  "zh": "我不认为它会变成八层堆叠的内存。"
+ },
+ {
+  "seg": 413,
+  "start": 1795.315,
+  "end": 1797.117,
+  "speaker": "Unknown",
+  "en": "So to me, two or four is sort of right.",
+  "zh": "所以对我来说，二或四层差不多是对的。"
+ },
+ {
+  "seg": 414,
+  "start": 1797.697,
+  "end": 1800.359,
+  "speaker": "Unknown",
+  "en": "But then power delivery needs to get integrated into that.",
+  "zh": "但那样的话，供电需要集成进去。"
+ },
+ {
+  "seg": 415,
+  "start": 1800.439,
+  "end": 1802.56,
+  "speaker": "Unknown",
+  "en": "So that becomes sort of another element.",
+  "zh": "所以那就成了另一个元素。"
+ },
+ {
+  "seg": 416,
+  "start": 1802.9,
+  "end": 1809.663,
+  "speaker": "Unknown",
+  "en": "And I want that in the Z dimension associated with it because I want my power rails coming into this as well.",
+  "zh": "而且我希望它在与之相关的 Z 维度上，因为我也希望我的供电轨道接入进来。"
+ },
+ {
+  "seg": 417,
+  "start": 1810.424,
+  "end": 1815.987,
+  "speaker": "Unknown",
+  "en": "And then I need fairly intelligent RDL layers to distribute signals across that platform.",
+  "zh": "然后我需要相当智能的 RDL 层来在这个平台上分配信号。"
+ },
+ {
+  "seg": 418,
+  "start": 1816.367,
+  "end": 1823.931,
+  "speaker": "Unknown",
+  "en": "So to some degree, my canonical thing is already about eight layers thick when you add up all of those pieces associated with it.",
+  "zh": "所以在某种程度上，我的标准方案当你把所有那些相关部分加起来时已经有大约八层厚了。"
+ },
+ {
+  "seg": 419,
+  "start": 1824.271,
+  "end": 1829.115,
+  "speaker": "Unknown",
+  "en": "And I think that's about all you can do, right, at least as we understand manufacturing today.",
+  "zh": "而且我认为这差不多就是你能做到的全部了，对，至少以我们今天对制造的理解而言。"
+ },
+ {
+  "seg": 420,
+  "start": 1829.135,
+  "end": 1839.202,
+  "speaker": "Unknown",
+  "en": "And then, of course, we expect optics to come in, so you're going to have more 3-5 material structures that are going to be closer to this complex because I want, you know, my I.O.",
+  "zh": "然后当然，我们预期光学会进来，所以你会有更多 3-5 族材料结构会更靠近这个复合体，因为我想要，你知道，我的 I.O."
+ },
+ {
+  "seg": 421,
+  "start": 1839.282,
+  "end": 1844.385,
+  "speaker": "Unknown",
+  "en": "getting, you know, essentially, you know, deeply integrated into that construct as well.",
+  "zh": "得以，你知道，基本上，你知道，深度集成到那个构造中。"
+ },
+ {
+  "seg": 422,
+  "start": 1844.706,
+  "end": 1849.429,
+  "speaker": "Unknown",
+  "en": "You know, so my silicon-centric pieces need to get complemented by some of these other 3-5 materials.",
+  "zh": "你知道，所以我以硅为中心的部分需要由这些其他 3-5 族材料中的一些来补充。"
+ },
+ {
+  "seg": 423,
+  "start": 1851.15,
+  "end": 1853.912,
+  "speaker": "Unknown",
+  "en": "How do I get optical connectivity built into this?",
+  "zh": "我如何把光互连接入到这个之中？"
+ },
+ {
+  "seg": 424,
+  "start": 1853.973,
+  "end": 1856.595,
+  "speaker": "Unknown",
+  "en": "How do I get power rails, you know, built into that?",
+  "zh": "我如何把供电轨道，你知道，接入到那之中？"
+ },
+ {
+  "seg": 425,
+  "start": 1856.635,
+  "end": 1865.282,
+  "speaker": "Unknown",
+  "en": "You know, that is a, you know, I'll say that is an engineering feat and a manufacturing nightmare to bring all those pieces.",
+  "zh": "你知道，那是一个，你知道，我会说那是一个工程壮举，也是把所有那些部分整合起来的制造噩梦。"
+ },
+ {
+  "seg": 426,
+  "start": 1865.462,
+  "end": 1868.045,
+  "speaker": "Unknown",
+  "en": "But that's where the physics is taking us over time.",
+  "zh": "但那就是物理规律随时间把我们带向的地方。"
+ },
+ {
+  "seg": 427,
+  "start": 1868.085,
+  "end": 1875.131,
+  "speaker": "Unknown",
+  "en": "So because of that, you know, throwing a 16 high stack, you know, it's like, that's crazy, you know, a two or four high memory stack.",
+  "zh": "所以正因如此，你知道，扔一个 16 层高的堆叠，你知道，那太疯狂了，你知道，两层或四层高的内存堆叠。"
+ },
+ {
+  "seg": 428,
+  "start": 1875.271,
+  "end": 1877.653,
+  "speaker": "Unknown",
+  "en": "You know, I think that's probably where the sweet spot will be.",
+  "zh": "你知道，我认为那大概就是最佳平衡点所在。"
+ },
+ {
+  "seg": 429,
+  "start": 1878.71,
+  "end": 1884.339,
+  "speaker": "Unknown",
+  "en": "And you didn't talk about the thermal dissipation and new materials needed for that.",
+  "zh": "而且你没有谈到热耗散以及为此所需的新材料。"
+ },
+ {
+  "seg": 430,
+  "start": 1884.479,
+  "end": 1885.06,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 431,
+  "start": 1885.2,
+  "end": 1891.149,
+  "speaker": "Unknown",
+  "en": "And obviously there's going to be a lot of, you know, first thing, right, you just can't have some of the, you know, the physics hotspots that you have today.",
+  "zh": "而且显然会有很多，你知道，首先，对，你就是不能有今天你所拥有的那些，你知道，物理热点。"
+ },
+ {
+  "seg": 432,
+  "start": 1891.169,
+  "end": 1893.432,
+  "speaker": "Unknown",
+  "en": "So you have to be more intelligent about how you use this.",
+  "zh": "所以你必须对如何使用它更加智能。"
+ },
+ {
+  "seg": 433,
+  "start": 1894.113,
+  "end": 1902.057,
+  "speaker": "Unknown",
+  "en": "Heat and spread the heat, but then you're going to be saying, okay, how do I both get power in and dissipate power out of those environments?",
+  "zh": "导热并散热，但你接下来会说，好，我如何既把电力送进去又把热量从那些环境中散出去？"
+ },
+ {
+  "seg": 434,
+  "start": 1902.097,
+  "end": 1913.963,
+  "speaker": "Unknown",
+  "en": "And by the way, if I can get much more efficient power in at the voltages I want with much better power responsiveness and my voltage regulation, then I don't create as much thermal chimneys.",
+  "zh": "顺便说一句，如果我能在想要的电压下以更高的效率输入电力，并且我的电压调节有更好的电力响应性，那我就不会制造那么多热烟囱。"
+ },
+ {
+  "seg": 435,
+  "start": 1914.544,
+  "end": 1917.025,
+  "speaker": "Unknown",
+  "en": "But I do have to think, okay, how do I cool these things?",
+  "zh": "但我确实必须思考，好，我如何冷却这些东西？"
+ },
+ {
+  "seg": 436,
+  "start": 1917.505,
+  "end": 1925.228,
+  "speaker": "Unknown",
+  "en": "You know, what role do new materials, diamonds, and other things have been postulated as ways to, you know, do a better job of the thermal cooling?",
+  "zh": "你知道，新材料扮演什么角色，钻石和其他东西一直被设想为，你知道，把热冷却做得更好的方式？"
+ },
+ {
+  "seg": 437,
+  "start": 1925.488,
+  "end": 1933.011,
+  "speaker": "Unknown",
+  "en": "How do I then have better, you know, liquid cooling techniques and others, you know, sitting right on it, you know, with good thermal characteristics?",
+  "zh": "我如何再拥有更好的，你知道，液冷技术和其他技术，你知道，直接坐在它上面，你知道，具有良好的热特性？"
+ },
+ {
+  "seg": 438,
+  "start": 1933.051,
+  "end": 1938.413,
+  "speaker": "Unknown",
+  "en": "So, yeah, you know, we engineers are becoming plumbers, right?",
+  "zh": "所以，是的，你知道，我们工程师正在变成水管工，对吧？"
+ },
+ {
+  "seg": 439,
+  "start": 1938.453,
+  "end": 1938.994,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 440,
+  "start": 1940.354,
+  "end": 1942.856,
+  "speaker": "Unknown",
+  "en": "Yeah, you got to worry about MEC, the chip scale.",
+  "zh": "是啊，你得操心芯片级别的 MEC。"
+ },
+ {
+  "seg": 441,
+  "start": 1943.597,
+  "end": 1952.745,
+  "speaker": "Unknown",
+  "en": "Let me ask you about an operant phenomenon, which is some people have said, hey, let's get the memory off of the package and just go all optical between the compute and the memory.",
+  "zh": "让我问你一个反常现象，有些人说过，嘿，让我们把内存从封装上拿下来，直接在计算和内存之间全用光学。"
+ },
+ {
+  "seg": 442,
+  "start": 1953.685,
+  "end": 1957.547,
+  "speaker": "Unknown",
+  "en": "And that'll give you more degrees of freedom and more ways of building things.",
+  "zh": "那会给你更多自由度和更多构建东西的方式。"
+ },
+ {
+  "seg": 443,
+  "start": 1958.427,
+  "end": 1961.168,
+  "speaker": "Unknown",
+  "en": "What's your view on that as opposed to stacking?",
+  "zh": "相对于堆叠，你对此的看法是什么？"
+ },
+ {
+  "seg": 444,
+  "start": 1961.228,
+  "end": 1962.149,
+  "speaker": "Unknown",
+  "en": "That's other extreme.",
+  "zh": "那是另一个极端。"
+ },
+ {
+  "seg": 445,
+  "start": 1962.389,
+  "end": 1979.136,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, I think the more OEO, right, interfaces, you know, optical to electrical to optical to, you know, the more of those that you demand in your core compute complex, you know, to me, it's just hard, right, in that sense.",
+  "zh": "是啊，你知道，我认为 OEO，对，接口，你知道，光到电到光，你知道，你在你的核心计算复合体中要求的那些越多，你知道，对我来说，那就是很难的，对，从这个意义上说。"
+ },
+ {
+  "seg": 446,
+  "start": 1979.176,
+  "end": 1981.557,
+  "speaker": "Unknown",
+  "en": "And you're always going to have losses associated with it.",
+  "zh": "而且你总是会有与之相关的损耗。"
+ },
+ {
+  "seg": 447,
+  "start": 1981.937,
+  "end": 1990.222,
+  "speaker": "Unknown",
+  "en": "You know, people are, you know, working hard to come up with more clever techniques to decrease, you know, both the cost and the power, right?",
+  "zh": "你知道，人们正在，你知道，努力想出更聪明的技术来降低，你知道，成本和功耗，对吧？"
+ },
+ {
+  "seg": 448,
+  "start": 1990.242,
+  "end": 1996.446,
+  "speaker": "Unknown",
+  "en": "You know, how much of the power am I wasting as I go through my, you know, my DACs and, you know, conversions?",
+  "zh": "你知道，当我经过我的，你知道，我的 DAC 和，你知道，转换时，我在浪费多少电力？"
+ },
+ {
+  "seg": 449,
+  "start": 1996.746,
+  "end": 2002.61,
+  "speaker": "Unknown",
+  "en": "So I'm not a fan of those, you know, because I think it gives you access to large pools of memory, right?",
+  "zh": "所以我不是那些的粉丝，你知道，因为我认为它给你提供了访问大型内存池的能力，对吧？"
+ },
+ {
+  "seg": 450,
+  "start": 2002.77,
+  "end": 2005.052,
+  "speaker": "Unknown",
+  "en": "But I burn a lot of power getting there.",
+  "zh": "但我到达那里要消耗大量的电力。"
+ },
+ {
+  "seg": 451,
+  "start": 2005.352,
+  "end": 2005.592,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 452,
+  "start": 2006.192,
+  "end": 2015.315,
+  "speaker": "Unknown",
+  "en": "And remember, essentially, the femtojoules per compute is now actually pretty amazingly good.",
+  "zh": "而且要记住，本质上，每计算单元的飞焦耳现在实际上已经相当惊人了。"
+ },
+ {
+  "seg": 453,
+  "start": 2015.875,
+  "end": 2020.576,
+  "speaker": "Unknown",
+  "en": "The femtojoules per bit of communication is comparatively a thousand times worse.",
+  "zh": "而每比特通信的飞焦耳相对而言差了大约一千倍。"
+ },
+ {
+  "seg": 454,
+  "start": 2021.136,
+  "end": 2026.638,
+  "speaker": "Unknown",
+  "en": "And if I'm spending that much to go get to large pools, so I don't like those approaches.",
+  "zh": "如果我要花那么多代价才能到达大型资源池，那我不喜欢那些方法。"
+ },
+ {
+  "seg": 455,
+  "start": 2026.658,
+  "end": 2030.999,
+  "speaker": "Unknown",
+  "en": "Myself, I think I somewhat defy the underlying physics of the solution.",
+  "zh": "我个人认为，我在某种程度上违背了那个解决方案背后的底层物理原理。"
+ },
+ {
+  "seg": 456,
+  "start": 2032.28,
+  "end": 2033.1,
+  "speaker": "Unknown",
+  "en": "And then there's sort of the",
+  "zh": "然后还有一种"
+ },
+ {
+  "seg": 457,
+  "start": 2034.17,
+  "end": 2038.311,
+  "speaker": "Unknown",
+  "en": "Other approach to say like, look, can we actually integrate compute and memory directly, right?",
+  "zh": "另一种方法是说，你看，我们能不能真正把计算和内存直接集成起来，对吧？"
+ },
+ {
+  "seg": 458,
+  "start": 2038.531,
+  "end": 2041.132,
+  "speaker": "Unknown",
+  "en": "Shift some of the compute into the memory itself.",
+  "zh": "把一部分计算移到内存本身里面。"
+ },
+ {
+  "seg": 459,
+  "start": 2041.252,
+  "end": 2042.312,
+  "speaker": "Unknown",
+  "en": "Some of the PIM approaches.",
+  "zh": "一些 PIM 方法。"
+ },
+ {
+  "seg": 460,
+  "start": 2042.332,
+  "end": 2043.133,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "对，没错。"
+ },
+ {
+  "seg": 461,
+  "start": 2043.153,
+  "end": 2045.813,
+  "speaker": "Unknown",
+  "en": "So what are your thoughts about that?",
+  "zh": "那么你对此有什么看法？"
+ },
+ {
+  "seg": 462,
+  "start": 2046.114,
+  "end": 2047.934,
+  "speaker": "Unknown",
+  "en": "I'm not a fan of those either, right?",
+  "zh": "我也不是那些方法的粉丝，对吧？"
+ },
+ {
+  "seg": 463,
+  "start": 2048.334,
+  "end": 2056.457,
+  "speaker": "Unknown",
+  "en": "Because I think workloads, you know, because now I have to take my workload and I have to like push these little pieces of compute into the memory, right?",
+  "zh": "因为我认为，你知道，工作负载，因为现在我必须把我的工作负载，然后我得把这些小块的计算推进到内存里，对吧？"
+ },
+ {
+  "seg": 464,
+  "start": 2056.517,
+  "end": 2061.298,
+  "speaker": "Unknown",
+  "en": "You know, so that, you know, I don't need as much bandwidth of memory coming into my real compute.",
+  "zh": "你知道，这样一来，你知道，进入我真正计算单元的内存带宽需求就没那么大了。"
+ },
+ {
+  "seg": 465,
+  "start": 2061.898,
+  "end": 2063.52,
+  "speaker": "Unknown",
+  "en": "And that puts constraints on workloads.",
+  "zh": "而这给工作负载加上了约束。"
+ },
+ {
+  "seg": 466,
+  "start": 2063.56,
+  "end": 2071.666,
+  "speaker": "Unknown",
+  "en": "And again, I could be wrong on this, particularly some of the design flexibility and the intelligence that we can now bring through the design aspects.",
+  "zh": "再说一次，我在这点上可能是错的，尤其是现在我们能通过设计层面带来的那些设计灵活性和智能。"
+ },
+ {
+  "seg": 467,
+  "start": 2071.707,
+  "end": 2076.15,
+  "speaker": "Unknown",
+  "en": "But most PIM ideas have been around for 25, 30 years.",
+  "zh": "但大多数 PIM 的想法已经存在了 25、30 年。"
+ },
+ {
+  "seg": 468,
+  "start": 2076.571,
+  "end": 2079.233,
+  "speaker": "Unknown",
+  "en": "And I think 25, 30 years from now, they'll still be hanging around.",
+  "zh": "而且我认为 25、30 年之后，它们仍然会徘徊在那里。"
+ },
+ {
+  "seg": 469,
+  "start": 2079.573,
+  "end": 2088.877,
+  "speaker": "Unknown",
+  "en": "Right in that sense, you know, give me great memory bandwidth, you know, that I can have, you know, high density, high performance and get it close to the real compute engines.",
+  "zh": "对，从这个意义上说，你知道，给我出色的内存带宽，你知道，让我能拥有高密度、高性能，并把它放到靠近真正计算引擎的地方。"
+ },
+ {
+  "seg": 470,
+  "start": 2089.097,
+  "end": 2095.059,
+  "speaker": "Unknown",
+  "en": "I expect that's going to be a more generalizable solution across many and evolving workloads over time.",
+  "zh": "我预计那会是一个更具通用性的解决方案，能随时间跨越许多不断演进的工作负载。"
+ },
+ {
+  "seg": 471,
+  "start": 2095.859,
+  "end": 2096.84,
+  "speaker": "Unknown",
+  "en": "So we're still stuck with...",
+  "zh": "所以我们仍然受困于……"
+ },
+ {
+  "seg": 472,
+  "start": 2097.701,
+  "end": 2100.883,
+  "speaker": "Unknown",
+  "en": "Denser and denser chips, more compute, more logic, more power.",
+  "zh": "越来越密的芯片，更多计算、更多逻辑、更多功耗。"
+ },
+ {
+  "seg": 473,
+  "start": 2102.364,
+  "end": 2104.046,
+  "speaker": "Unknown",
+  "en": "Much better I.O.",
+  "zh": "好得多的 I/O。"
+ },
+ {
+  "seg": 474,
+  "start": 2104.326,
+  "end": 2109.449,
+  "speaker": "Unknown",
+  "en": "I am a huge fan of moving to optics for all I.O.",
+  "zh": "我是把所有 I/O 功能迁移到光学的超级拥趸。"
+ },
+ {
+  "seg": 475,
+  "start": 2109.489,
+  "end": 2110.55,
+  "speaker": "Unknown",
+  "en": "function.",
+  "zh": "函数。"
+ },
+ {
+  "seg": 476,
+  "start": 2110.73,
+  "end": 2113.432,
+  "speaker": "Unknown",
+  "en": "I declared the death of copper about 25 years ago.",
+  "zh": "我大约 25 年前就宣告了铜的死亡。"
+ },
+ {
+  "seg": 477,
+  "start": 2113.692,
+  "end": 2114.753,
+  "speaker": "Unknown",
+  "en": "Eventually, I'll be right.",
+  "zh": "最终，我会是对的。"
+ },
+ {
+  "seg": 478,
+  "start": 2114.853,
+  "end": 2116.474,
+  "speaker": "Unknown",
+  "en": "You're still right.",
+  "zh": "你仍然是对的。"
+ },
+ {
+  "seg": 479,
+  "start": 2116.574,
+  "end": 2118.976,
+  "speaker": "Unknown",
+  "en": "One day soon, I'll be right.",
+  "zh": "总有一天很快，我会是对的。"
+ },
+ {
+  "seg": 480,
+  "start": 2119.276,
+  "end": 2121.718,
+  "speaker": "Unknown",
+  "en": "But I think, to me, all I.O.",
+  "zh": "但我认为，对我来说，所有 I/O"
+ },
+ {
+  "seg": 481,
+  "start": 2121.738,
+  "end": 2122.619,
+  "speaker": "Unknown",
+  "en": "should go to optical.",
+  "zh": "都应该走向光学。"
+ },
+ {
+  "seg": 482,
+  "start": 2123.64,
+  "end": 2126.061,
+  "speaker": "Unknown",
+  "en": "But that core compute memory complex, no.",
+  "zh": "但那个核心计算内存复合体，不行。"
+ },
+ {
+  "seg": 483,
+  "start": 2127.402,
+  "end": 2136.313,
+  "speaker": "Unknown",
+  "en": "So the first step for going on optical is to scale up, even more so than scale out.",
+  "zh": "所以走向光学的第一步是 scale up，甚至比 scale out 更是如此。"
+ },
+ {
+  "seg": 484,
+  "start": 2136.874,
+  "end": 2138.917,
+  "speaker": "Unknown",
+  "en": "What's your views on that?",
+  "zh": "你对此有什么看法？"
+ },
+ {
+  "seg": 485,
+  "start": 2139.635,
+  "end": 2144.7,
+  "speaker": "Unknown",
+  "en": "Yeah, you know, and I think we're now seeing... What would be like the application of the workload driver, if you will?",
+  "zh": "是的，你知道，我认为我们现在正在看到……工作负载的驱动因素会是什么，可以这么说？"
+ },
+ {
+  "seg": 486,
+  "start": 2144.96,
+  "end": 2148.103,
+  "speaker": "Unknown",
+  "en": "Well, I think the workload driver is the one in front of us, right?",
+  "zh": "嗯，我认为工作负载的驱动因素就是我们眼前这个，对吧？"
+ },
+ {
+  "seg": 487,
+  "start": 2148.123,
+  "end": 2152.668,
+  "speaker": "Unknown",
+  "en": "I mean, you know, today, you know, our scale-up environments, we're putting tons of copper, right?",
+  "zh": "我是说，你知道，今天，我们的 scale up 环境里，我们用了海量的铜，对吧？"
+ },
+ {
+  "seg": 488,
+  "start": 2152.688,
+  "end": 2157.473,
+  "speaker": "Unknown",
+  "en": "You know, and essentially, copper is becoming a waveguide that's getting shorter and shorter.",
+  "zh": "你知道，本质上，铜正在变成一条越来越短的波导。"
+ },
+ {
+  "seg": 489,
+  "start": 2157.933,
+  "end": 2158.113,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 490,
+  "start": 2158.333,
+  "end": 2167.457,
+  "speaker": "Unknown",
+  "en": "And all of a sudden, you know, to make my copper work at, you know, five meters is more expensive than making optical work, right, at a hundred meters.",
+  "zh": "突然之间，你知道，让我的铜在五米距离上工作，比让光学在一百米距离上工作还要贵，对吧。"
+ },
+ {
+  "seg": 491,
+  "start": 2167.817,
+  "end": 2168.078,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 492,
+  "start": 2168.098,
+  "end": 2173.62,
+  "speaker": "Unknown",
+  "en": "You know, so, you know, I think the physics is driving us there today, you know, and, you know,",
+  "zh": "你知道，所以，你知道，我认为物理原理今天正在把我们推向那里，你知道，而且，"
+ },
+ {
+  "seg": 493,
+  "start": 2174.12,
+  "end": 2176.601,
+  "speaker": "Unknown",
+  "en": "So if that's the case, Pat, why haven't we moved there already?",
+  "zh": "那么，如果是这样的话，Pat，为什么我们还没有迁移过去呢？"
+ },
+ {
+  "seg": 494,
+  "start": 2177.101,
+  "end": 2181.663,
+  "speaker": "Unknown",
+  "en": "It's a complex supply chain that has never been tested at scale.",
+  "zh": "这是一个从未在大规模下被测试过的复杂供应链。"
+ },
+ {
+  "seg": 495,
+  "start": 2182.123,
+  "end": 2188.826,
+  "speaker": "Unknown",
+  "en": "And I think now, I think everybody is looking at some form of NPO, CPO, etc.",
+  "zh": "而我认为现在，我认为每个人都在看某种形式的 NPO、CPO 等等。"
+ },
+ {
+  "seg": 496,
+  "start": 2189.466,
+  "end": 2199.757,
+  "speaker": "Unknown",
+  "en": "You know, in the 28-29 timeframe because, you know, I can't scale up to large radix, you know, compute clusters for my scale up environment without making that move.",
+  "zh": "你知道，在 28 到 29 年的时间框架内，因为，你知道，如果不做这个转变，我就无法把我的 scale up 环境扩展到大 radix 的计算集群。"
+ },
+ {
+  "seg": 497,
+  "start": 2199.817,
+  "end": 2203.221,
+  "speaker": "Unknown",
+  "en": "So, you know, clearly NVIDIA has indicated that.",
+  "zh": "所以，你知道，显然 NVIDIA 已经表明了这一点。"
+ },
+ {
+  "seg": 498,
+  "start": 2203.261,
+  "end": 2206.805,
+  "speaker": "Unknown",
+  "en": "I think everybody else in the industry expects, you know, that's the conversion point.",
+  "zh": "我认为业界所有其他人都预计，你知道，那就是转换点。"
+ },
+ {
+  "seg": 499,
+  "start": 2207.145,
+  "end": 2209.909,
+  "speaker": "Unknown",
+  "en": "You know, in reality, I should have never built an NVL 72.",
+  "zh": "你知道，实际上，我本来就不应该建造 NVL 72。"
+ },
+ {
+  "seg": 500,
+  "start": 2209.949,
+  "end": 2214.755,
+  "speaker": "Unknown",
+  "en": "You know, it's an engineering marvel and it's a manufacturing nightmare, right?",
+  "zh": "你知道，这是一项工程奇迹，但也是一场制造噩梦，对吧？"
+ },
+ {
+  "seg": 501,
+  "start": 2214.775,
+  "end": 2219.841,
+  "speaker": "Unknown",
+  "en": "You know, it took the industry, you know, one extra year and a half to digest that beast, right?",
+  "zh": "你知道，整个行业花了额外一年半的时间才消化掉那个庞然大物，对吧？"
+ },
+ {
+  "seg": 502,
+  "start": 2219.861,
+  "end": 2222.665,
+  "speaker": "Unknown",
+  "en": "And it really is amazing that, you know, we're able to get it to scale.",
+  "zh": "而且真的非常了不起的是，你知道，我们能够让它规模化。"
+ },
+ {
+  "seg": 503,
+  "start": 2223.025,
+  "end": 2223.165,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 504,
+  "start": 2223.185,
+  "end": 2223.786,
+  "speaker": "Unknown",
+  "en": "You know, so on.",
+  "zh": "你知道，诸如此类。"
+ },
+ {
+  "seg": 505,
+  "start": 2224.106,
+  "end": 2231.572,
+  "speaker": "Unknown",
+  "en": "But, you know, that really proved that had we had a more mature optical supply chain, we'd be much more advanced today.",
+  "zh": "但是，你知道，那真的证明了，如果我们当时有更成熟的光学供应链，我们今天会先进得多。"
+ },
+ {
+  "seg": 506,
+  "start": 2231.632,
+  "end": 2237.916,
+  "speaker": "Unknown",
+  "en": "We'd be able to build better scale up environments today, you know, better, you know, power, better cost, better energy.",
+  "zh": "我们今天就能构建更好的 scale up 环境，你知道，更好的电力、更好的成本、更好的能耗。"
+ },
+ {
+  "seg": 507,
+  "start": 2238.197,
+  "end": 2243.281,
+  "speaker": "Unknown",
+  "en": "But we didn't have the maturity of the optical supply chains to allow that.",
+  "zh": "但我们当时没有足够成熟的光学供应链来实现那一点。"
+ },
+ {
+  "seg": 508,
+  "start": 2243.661,
+  "end": 2245.682,
+  "speaker": "Unknown",
+  "en": "And those things are not trivial to get resolved.",
+  "zh": "而且那些问题要解决并不容易。"
+ },
+ {
+  "seg": 509,
+  "start": 2245.702,
+  "end": 2248.545,
+  "speaker": "Unknown",
+  "en": "There's a lot of work to happen, but I think 28, 29 is the year.",
+  "zh": "还有很多工作要做，但我认为 28、29 年就是那一年。"
+ },
+ {
+  "seg": 510,
+  "start": 2248.565,
+  "end": 2250.206,
+  "speaker": "Unknown",
+  "en": "Fab capacity, you know.",
+  "zh": "晶圆厂的产能，你知道。"
+ },
+ {
+  "seg": 511,
+  "start": 2250.226,
+  "end": 2251.167,
+  "speaker": "Unknown",
+  "en": "Good as I think we're currently",
+  "zh": "很好，就像我们目前"
+ },
+ {
+  "seg": 512,
+  "start": 2253.028,
+  "end": 2256.931,
+  "speaker": "Unknown",
+  "en": "Again, you'll have experience how in-packaged optics work in networking, right?",
+  "zh": "再说一次，你会有 in-packaged optics 在网络中如何工作的经验，对吧？"
+ },
+ {
+  "seg": 513,
+  "start": 2257.031,
+  "end": 2260.093,
+  "speaker": "Unknown",
+  "en": "And I think many of that will translate nicely to GPUs.",
+  "zh": "而且我认为其中很多东西会很好地转化到 GPU 上。"
+ },
+ {
+  "seg": 514,
+  "start": 2260.133,
+  "end": 2261.113,
+  "speaker": "Unknown",
+  "en": "Yeah, I do think.",
+  "zh": "是啊，我确实认为。"
+ },
+ {
+  "seg": 515,
+  "start": 2261.293,
+  "end": 2266.277,
+  "speaker": "Unknown",
+  "en": "But all of a sudden, you know, it's like, okay, these things have to work, you know, at 10 million GPU scale.",
+  "zh": "但突然之间，你知道，就像是，好吧，这些东西必须在一千万 GPU 的规模下工作，你知道。"
+ },
+ {
+  "seg": 516,
+  "start": 2266.817,
+  "end": 2269.399,
+  "speaker": "Unknown",
+  "en": "Wow, right, you know, and it has to fit in packages.",
+  "zh": "哇，对吧，你知道，而且它必须装进封装里。"
+ },
+ {
+  "seg": 517,
+  "start": 2269.519,
+  "end": 2274.062,
+  "speaker": "Unknown",
+  "en": "And, you know, there's just a lot of things there, you know, and many forms of optical don't like.",
+  "zh": "而且，你知道，那里有很多事情，你知道，很多形式的光学都不喜欢。"
+ },
+ {
+  "seg": 518,
+  "start": 2274.502,
+  "end": 2275.223,
+  "speaker": "Unknown",
+  "en": "Bad thermals.",
+  "zh": "差的热学。"
+ },
+ {
+  "seg": 519,
+  "start": 2275.263,
+  "end": 2276.043,
+  "speaker": "Unknown",
+  "en": "Well, guess what?",
+  "zh": "嗯，你猜怎么着？"
+ },
+ {
+  "seg": 520,
+  "start": 2276.103,
+  "end": 2278.005,
+  "speaker": "Unknown",
+  "en": "Bad thermals is the nature of the game for it.",
+  "zh": "差的热学本来就是这件事的本质。"
+ },
+ {
+  "seg": 521,
+  "start": 2278.305,
+  "end": 2282.268,
+  "speaker": "Unknown",
+  "en": "You know, so we have thermal problems to deal with, you know, package integration problems.",
+  "zh": "你知道，所以我们有散热问题要处理，你知道，封装集成问题。"
+ },
+ {
+  "seg": 522,
+  "start": 2282.308,
+  "end": 2285.671,
+  "speaker": "Unknown",
+  "en": "We didn't have enough, you know, laser capacity in the industry.",
+  "zh": "我们没有足够的，你知道，行业内的激光器产能。"
+ },
+ {
+  "seg": 523,
+  "start": 2285.691,
+  "end": 2288.553,
+  "speaker": "Unknown",
+  "en": "So a bunch of things, but I don't see anything there fundamental.",
+  "zh": "所以有一堆事情，但我不认为那里有任何根本性的障碍。"
+ },
+ {
+  "seg": 524,
+  "start": 2288.573,
+  "end": 2292.316,
+  "speaker": "Unknown",
+  "en": "It's just a lot of hard work at this point to pull all of those pieces together.",
+  "zh": "只是到了这个阶段，把所有这些部分拼在一起需要大量的艰苦工作。"
+ },
+ {
+  "seg": 525,
+  "start": 2292.696,
+  "end": 2303.865,
+  "speaker": "Unknown",
+  "en": "In terms of the networked architecture, builders also mean a switch, what's more circuit switched networks just because, you know, you can't scale these very fast optical networks indefinitely.",
+  "zh": "在网络架构方面，构建者也意味着交换机，某种更偏电路交换的网络，只是因为，你知道，你无法无限地扩展这些非常快的光网络。"
+ },
+ {
+  "seg": 526,
+  "start": 2304.265,
+  "end": 2311.906,
+  "speaker": "Unknown",
+  "en": "Well, you know, I like, you know, Nick McCune, you know, another Stanford professor here, a good friend of mine, you know, as well.",
+  "zh": "嗯，你知道，我喜欢，你知道，Nick McCune，你知道，这里的另一位斯坦福教授，也是我的好朋友，你知道，也是。"
+ },
+ {
+  "seg": 527,
+  "start": 2312.006,
+  "end": 2315.767,
+  "speaker": "Unknown",
+  "en": "You know, I mean, you know him a little bit also, Guido.",
+  "zh": "你知道，我是说，你也有点认识他，Guido。"
+ },
+ {
+  "seg": 528,
+  "start": 2316.227,
+  "end": 2317.928,
+  "speaker": "Unknown",
+  "en": "Was he your thesis advisor?",
+  "zh": "他是你的论文导师吗？"
+ },
+ {
+  "seg": 529,
+  "start": 2317.948,
+  "end": 2318.788,
+  "speaker": "Unknown",
+  "en": "He was my thesis advisor.",
+  "zh": "他是我当时的论文导师。"
+ },
+ {
+  "seg": 530,
+  "start": 2320.548,
+  "end": 2320.788,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 531,
+  "start": 2320.988,
+  "end": 2331.41,
+  "speaker": "Unknown",
+  "en": "So, but, you know, to me, he describes it, well, you know, we built, you know, networks to be able to handle any packet going anywhere with no knowledge of where it might go.",
+  "zh": "所以，你知道，对我而言，他描述得很好，你知道，我们构建网络是为了能够处理任何发往任何地方的数据包，而对它可能去往何处毫无先验知识。"
+ },
+ {
+  "seg": 532,
+  "start": 2332.25,
+  "end": 2336.035,
+  "speaker": "Unknown",
+  "en": "When you think about AI, it's almost exactly the opposite, right?",
+  "zh": "当你想到 AI 时，情况几乎恰恰相反，对吧？"
+ },
+ {
+  "seg": 533,
+  "start": 2336.235,
+  "end": 2339.298,
+  "speaker": "Unknown",
+  "en": "You know, we're doing flows that are large and predictable.",
+  "zh": "你知道，我们处理的流是大的且可预测的。"
+ },
+ {
+  "seg": 534,
+  "start": 2340.019,
+  "end": 2346.367,
+  "speaker": "Unknown",
+  "en": "So in that sense, just the very description says, hmm, that looks more like a switch than like a packet.",
+  "zh": "所以从那个意义上说，仅仅是这个描述本身就说，嗯，那看起来更像一个交换机而不是一个数据包。"
+ },
+ {
+  "seg": 535,
+  "start": 2347.067,
+  "end": 2350.471,
+  "speaker": "Unknown",
+  "en": "So I do think this confluence of moving to optical",
+  "zh": "所以我确实认为这个转向光学的汇合"
+ },
+ {
+  "seg": 536,
+  "start": 2351.172,
+  "end": 2351.412,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 537,
+  "start": 2351.732,
+  "end": 2372.882,
+  "speaker": "Unknown",
+  "en": "And, you know, having a workload that is far more predictable, manageable, you know, large in flow, you know, to me, you know, I do see that, yeah, we will go all the way to bringing optical into the compute complex and we will go all the way to OCS or some form of optical switching, you know, with more predictable flows.",
+  "zh": "而且，你知道，拥有一个远更可预测、可管理、你知道、大流量的工作负载，你知道，对我而言，你知道，我确实认为，是的，我们会一路走到底，把光学带进计算复合体，并且我们会一路走到底，实现 OCS 或某种形式的光交换，你知道，配合更可预测的流。"
+ },
+ {
+  "seg": 538,
+  "start": 2373.182,
+  "end": 2374.623,
+  "speaker": "Unknown",
+  "en": "You know, I mean, that is the right...",
+  "zh": "你知道，我是说，那才是对的……"
+ },
+ {
+  "seg": 539,
+  "start": 2375.163,
+  "end": 2376.284,
+  "speaker": "Unknown",
+  "en": "You know, architecture.",
+  "zh": "你知道，架构。"
+ },
+ {
+  "seg": 540,
+  "start": 2376.925,
+  "end": 2379.587,
+  "speaker": "Unknown",
+  "en": "And then you sort of say, is that scale up or scale out?",
+  "zh": "然后你会说，那是 scale up 还是 scale out？"
+ },
+ {
+  "seg": 541,
+  "start": 2380.087,
+  "end": 2388.875,
+  "speaker": "Unknown",
+  "en": "And to some degree, if my scale up is big enough, then yeah, you know, just saying, okay, what's the radix in my scale up environment?",
+  "zh": "而在某种程度上，如果我的 scale up 足够大，那么是的，你知道，就是说，好吧，我的 scale up 环境里的 radix 是多少？"
+ },
+ {
+  "seg": 542,
+  "start": 2388.915,
+  "end": 2392.037,
+  "speaker": "Unknown",
+  "en": "And when do I want to hook it up to other clusters that are really big?",
+  "zh": "以及我什么时候想把它连接到其他真正很大的集群上？"
+ },
+ {
+  "seg": 543,
+  "start": 2392.438,
+  "end": 2396.641,
+  "speaker": "Unknown",
+  "en": "And to me, that ends up being a pretty beautiful answer, you know, to the future.",
+  "zh": "对我而言，那最终会是一个相当漂亮的未来答案，你知道。"
+ },
+ {
+  "seg": 544,
+  "start": 2396.701,
+  "end": 2399.884,
+  "speaker": "Unknown",
+  "en": "But I'm looking at somebody who's way more expert on this than myself, so.",
+  "zh": "但我现在面对的是一位在这上面比我专业得多的人，所以。"
+ },
+ {
+  "seg": 545,
+  "start": 2401.317,
+  "end": 2405.619,
+  "speaker": "Unknown",
+  "en": "Look, I always found scale-up was a scale-up to some degree in artificial distinction.",
+  "zh": "瞧，我一直觉得 scale-up 在某种程度上是一种人为的区分。"
+ },
+ {
+  "seg": 546,
+  "start": 2405.9,
+  "end": 2407.26,
+  "speaker": "Unknown",
+  "en": "You understand where it comes from, right?",
+  "zh": "你明白它是从哪来的，对吧？"
+ },
+ {
+  "seg": 547,
+  "start": 2407.28,
+  "end": 2408.601,
+  "speaker": "Unknown",
+  "en": "We're kind of using different protocols.",
+  "zh": "我们其实是在使用不同的协议。"
+ },
+ {
+  "seg": 548,
+  "start": 2408.901,
+  "end": 2410.662,
+  "speaker": "Unknown",
+  "en": "One is front-end, one is back-end network, and so on.",
+  "zh": "一个是前端，一个是后端网络，诸如此类。"
+ },
+ {
+  "seg": 549,
+  "start": 2410.682,
+  "end": 2414.484,
+  "speaker": "Unknown",
+  "en": "So right now, practically speaking, it is a big difference.",
+  "zh": "所以就目前而言，从实际角度讲，这确实是一个很大的区别。"
+ },
+ {
+  "seg": 550,
+  "start": 2415.244,
+  "end": 2424.748,
+  "speaker": "Unknown",
+  "en": "If you take a step back and look at it from a system architecture perspective, it achieves the same goal, you know, with slightly different flavors, slightly different protocols that over time, I think, will converge.",
+  "zh": "如果你退后一步,从系统架构的视角来看,它实现的是同样的目标,只是风味略有不同、协议略有不同,我认为随着时间的推移,这些会趋于收敛。"
+ },
+ {
+  "seg": 551,
+  "start": 2425.048,
+  "end": 2425.189,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 552,
+  "start": 2425.609,
+  "end": 2428.17,
+  "speaker": "Unknown",
+  "en": "I mean, especially for the AI training workload.",
+  "zh": "我的意思是,尤其是对 AI 训练工作负载来说。"
+ },
+ {
+  "seg": 553,
+  "start": 2429.987,
+  "end": 2433.994,
+  "speaker": "Unknown",
+  "en": "Yeah, although, I mean, training and inference this time should look fairly similar.",
+  "zh": "是的,不过,我的意思是,这一次训练和推理应该看起来相当相似。"
+ },
+ {
+  "seg": 554,
+  "start": 2434.034,
+  "end": 2435.537,
+  "speaker": "Unknown",
+  "en": "The inference corpus less similar.",
+  "zh": "推理语料没那么相似。"
+ },
+ {
+  "seg": 555,
+  "start": 2435.677,
+  "end": 2438.582,
+  "speaker": "Unknown",
+  "en": "Yeah, now I'll go on a, you know, right, does your brain stop learning?",
+  "zh": "是的,现在我要说一句,你知道吗,对吧,你的大脑会停止学习吗?"
+ },
+ {
+  "seg": 556,
+  "start": 2441.399,
+  "end": 2450.563,
+  "speaker": "Unknown",
+  "en": "By the way, as another characteristic of workload evolution, I do think the separation of training and inferencing is going to become less so going forward, not more so.",
+  "zh": "顺便说一下,作为工作负载演进的另一个特征,我确实认为训练和推理的分离未来会变得不那么明显,而不是更明显。"
+ },
+ {
+  "seg": 557,
+  "start": 2451.103,
+  "end": 2469.332,
+  "speaker": "Unknown",
+  "en": "That's a little bit of the argument against more and more heterogeneous architectures is I think continuous learning, I think there'll be algorithmic domains that will say, yes, continuous learning becomes the nature of the algorithm where, yeah, I do want my inference environment to be updating my model weights because",
+  "zh": "这是反对越来越多异构架构的一点论据,我认为是持续学习,我认为会有一些算法领域会说,是的,持续学习将成为算法的本质,也就是说,我确实希望我的推理环境去更新我的模型权重,因为"
+ },
+ {
+  "seg": 558,
+  "start": 2469.652,
+  "end": 2479.785,
+  "speaker": "Unknown",
+  "en": "You know, that's giving me more and more refinement, you know, evolution across, you know, workloads, moving into environments that are less formalized training as well.",
+  "zh": "你知道,这能给我带来越来越多的精炼,你知道,跨工作负载的演进,进入那些不那么正式化的训练环境。"
+ },
+ {
+  "seg": 559,
+  "start": 2479.825,
+  "end": 2481.828,
+  "speaker": "Unknown",
+  "en": "We'll have smaller data sets in those environments.",
+  "zh": "在那些环境中我们的数据集会更小。"
+ },
+ {
+  "seg": 560,
+  "start": 2481.848,
+  "end": 2483.711,
+  "speaker": "Unknown",
+  "en": "So, you know, I'm not sure that's a...",
+  "zh": "所以,你知道,我不确定这是不是一个……"
+ },
+ {
+  "seg": 561,
+  "start": 2484.273,
+  "end": 2490.516,
+  "speaker": "Unknown",
+  "en": "But the number of nodes you need in order to be useful is a smaller diameter for inference.",
+  "zh": "但是为了有用所需的节点数量,对推理来说直径更小。"
+ },
+ {
+  "seg": 562,
+  "start": 2490.576,
+  "end": 2491.616,
+  "speaker": "Unknown",
+  "en": "That's the training.",
+  "zh": "那是训练。"
+ },
+ {
+  "seg": 563,
+  "start": 2491.636,
+  "end": 2492.217,
+  "speaker": "Unknown",
+  "en": "That's what it means.",
+  "zh": "就是这个意思。"
+ },
+ {
+  "seg": 564,
+  "start": 2492.257,
+  "end": 2493.437,
+  "speaker": "Unknown",
+  "en": "Today, that's true, yeah.",
+  "zh": "今天确实如此,是的。"
+ },
+ {
+  "seg": 565,
+  "start": 2493.637,
+  "end": 2499.22,
+  "speaker": "Unknown",
+  "en": "I mean, I still think there might be a role for heterogeneity coming from a different angle, which is that...",
+  "zh": "我的意思是,我仍然认为异构性可能有一个来自另一个角度的角色,那就是……"
+ },
+ {
+  "seg": 566,
+  "start": 2499.92,
+  "end": 2504.525,
+  "speaker": "Unknown",
+  "en": "Different types of AI workloads require very different underlying good.",
+  "zh": "不同类型的 AI 工作负载需要非常不同的底层硬件。"
+ },
+ {
+  "seg": 567,
+  "start": 2504.545,
+  "end": 2507.227,
+  "speaker": "Unknown",
+  "en": "Like some are more compute limited, some are more memory bandwidth.",
+  "zh": "比如有些更受算力限制,有些更受内存带宽限制。"
+ },
+ {
+  "seg": 568,
+  "start": 2507.267,
+  "end": 2509.229,
+  "speaker": "Unknown",
+  "en": "They have a small diffusion workload or so, right?",
+  "zh": "比如有一个小的 diffusion 工作负载之类的,对吧?"
+ },
+ {
+  "seg": 569,
+  "start": 2509.249,
+  "end": 2518.318,
+  "speaker": "Unknown",
+  "en": "The optimal card for that looks very different from, you know, top of the line, you know, 15 trillion dollar, sorry, 15 trillion weight LLM, right?",
+  "zh": "它的最优卡看起来与顶级的、你知道的、15 万亿权重的 LLM 非常不同,对吧?"
+ },
+ {
+  "seg": 570,
+  "start": 2518.338,
+  "end": 2519.86,
+  "speaker": "Unknown",
+  "en": "That means a great massive scale, right?",
+  "zh": "那意味着超大规模,对吧?"
+ },
+ {
+  "seg": 571,
+  "start": 2519.88,
+  "end": 2522.843,
+  "speaker": "Unknown",
+  "en": "So it's, I think that might drive heterogeneity, if anything.",
+  "zh": "所以我认为,如果有什么能驱动异构性的话,可能是这个。"
+ },
+ {
+  "seg": 572,
+  "start": 2522.863,
+  "end": 2523.043,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 573,
+  "start": 2523.343,
+  "end": 2531.309,
+  "speaker": "Unknown",
+  "en": "I think there's some room for that, but I'd also say, okay, now I'm talking about putting a million GPUs to work in my data center, right?",
+  "zh": "我觉得确实有一些空间,但我也想说,好,现在我说的是让一百万张 GPU 在我的数据中心里干活,对吧?"
+ },
+ {
+  "seg": 574,
+  "start": 2531.329,
+  "end": 2538.455,
+  "speaker": "Unknown",
+  "en": "And you say, well, you know, for that particular diffusion workload, you know, I should really put something optimized this way, right?",
+  "zh": "然后你说,嗯,你知道,对于那个特定的 diffusion 工作负载,我真的应该放一些按这种方式优化过的东西,对吧?"
+ },
+ {
+  "seg": 575,
+  "start": 2538.515,
+  "end": 2542.338,
+  "speaker": "Unknown",
+  "en": "So I'm now gonna start, you know, putting, you know, a thousand of those in, right?",
+  "zh": "所以我现在要开始放进,你知道,一千张那种卡,对吧?"
+ },
+ {
+  "seg": 576,
+  "start": 2542.438,
+  "end": 2551.885,
+  "speaker": "Unknown",
+  "en": "And for that workload, I need, you know, 2000 of these in, and, you know, for some, you know, and all of a sudden, you know, you don't get some of the, you know, the flexibility of scale.",
+  "zh": "然后对于那个工作负载,我需要,你知道,两千张这种卡进来,你知道,对于某些……突然之间,你知道,你就失去了规模带来的某些灵活性。"
+ },
+ {
+  "seg": 577,
+  "start": 2552.365,
+  "end": 2552.545,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 578,
+  "start": 2552.565,
+  "end": 2560.873,
+  "speaker": "Unknown",
+  "en": "That you would say, and you know, how much does it cost me to manage and upgrade and, you know, connect and, you know, fault domain, you know, all those types of things.",
+  "zh": "你会说,而且你知道,管理和升级、连接、故障域等等这些要花我多少钱。"
+ },
+ {
+  "seg": 579,
+  "start": 2560.893,
+  "end": 2562.695,
+  "speaker": "Unknown",
+  "en": "The agents will do all the upgrades.",
+  "zh": "智能体会完成所有升级。"
+ },
+ {
+  "seg": 580,
+  "start": 2562.715,
+  "end": 2563.936,
+  "speaker": "Unknown",
+  "en": "So that's no longer a problem.",
+  "zh": "所以这不再是个问题了。"
+ },
+ {
+  "seg": 581,
+  "start": 2563.976,
+  "end": 2564.276,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 582,
+  "start": 2564.356,
+  "end": 2564.496,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 583,
+  "start": 2564.797,
+  "end": 2565.397,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 584,
+  "start": 2565.537,
+  "end": 2565.878,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 585,
+  "start": 2565.938,
+  "end": 2566.758,
+  "speaker": "Unknown",
+  "en": "Everything gets easy.",
+  "zh": "一切都变简单了。"
+ },
+ {
+  "seg": 586,
+  "start": 2566.838,
+  "end": 2567.679,
+  "speaker": "Unknown",
+  "en": "So good out of here.",
+  "zh": "非常好。"
+ },
+ {
+  "seg": 587,
+  "start": 2567.719,
+  "end": 2568.1,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 588,
+  "start": 2568.12,
+  "end": 2569.321,
+  "speaker": "Unknown",
+  "en": "So fleet management is done.",
+  "zh": "那么机队管理就搞定了。"
+ },
+ {
+  "seg": 589,
+  "start": 2571.703,
+  "end": 2577.965,
+  "speaker": "Unknown",
+  "en": "So we talked about what, compute, memory, networking, power is the next one.",
+  "zh": "所以我们谈了什么,算力、内存、网络,电力是下一个。"
+ },
+ {
+  "seg": 590,
+  "start": 2578.205,
+  "end": 2578.886,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 591,
+  "start": 2579.266,
+  "end": 2593.531,
+  "speaker": "Unknown",
+  "en": "And you touched upon it with vertical delivery inside the chip, on the chip, but I mean there's 800-volt DC, there's power delivery to the data center, there's an entire ecosystem all the way to...",
+  "zh": "而且你提到了芯片内部、芯片上的垂直供电,但我的意思是还有 800 伏直流、数据中心供电,有一整个生态系统一路延伸到……"
+ },
+ {
+  "seg": 592,
+  "start": 2595.631,
+  "end": 2603.598,
+  "speaker": "Unknown",
+  "en": "Power generation and the sociopolitical dimensions of that and so on and so forth.",
+  "zh": "发电,以及它的社会政治维度等等等等。"
+ },
+ {
+  "seg": 593,
+  "start": 2603.798,
+  "end": 2607.862,
+  "speaker": "Unknown",
+  "en": "So where does innovation come in and where does like its pure execution?",
+  "zh": "那么创新从哪里来,哪里又是纯粹的执行?"
+ },
+ {
+  "seg": 594,
+  "start": 2608.524,
+  "end": 2618.049,
+  "speaker": "Unknown",
+  "en": "Well, the, you know, and if we start at, you know, first principles here, you know, our nation has done a terrible job with this energy capacity, right?",
+  "zh": "嗯,你知道,如果我们从第一性原理开始讲,你知道,我们国家在能源容量这件事上做得很糟糕,对吧?"
+ },
+ {
+  "seg": 595,
+  "start": 2618.069,
+  "end": 2631.877,
+  "speaker": "Unknown",
+  "en": "You know, and essentially we went through 10 to 15 years where essentially I was taking coal offline at the rate I was adding renewables and essentially the nation was flatlined in terms of overall energy capacity.",
+  "zh": "你知道,本质上我们经历了 10 到 15 年,在这期间我下线煤电的速度基本上和增加可再生能源的速度一样,本质上整个国家的总体能源容量是持平的。"
+ },
+ {
+  "seg": 596,
+  "start": 2632.457,
+  "end": 2632.898,
+  "speaker": "Unknown",
+  "en": "Not good.",
+  "zh": "这不好。"
+ },
+ {
+  "seg": 597,
+  "start": 2633.438,
+  "end": 2639.425,
+  "speaker": "Unknown",
+  "en": "Because in a AI digital age, energy capacity equals economic capacity.",
+  "zh": "因为在 AI 数字时代,能源容量等于经济容量。"
+ },
+ {
+  "seg": 598,
+  "start": 2640.686,
+  "end": 2649.556,
+  "speaker": "Unknown",
+  "en": "So essentially my economic capacity as a nation, flat for 15 years if you buy that thesis, which I think is very, you know, provable.",
+  "zh": "所以本质上,作为一个国家的我的经济容量,如果你接受这个论点的话,15 年是持平的,我认为这一点是很容易证明的。"
+ },
+ {
+  "seg": 599,
+  "start": 2650.259,
+  "end": 2655.082,
+  "speaker": "Unknown",
+  "en": "Over the last five years, you know, we've seen this enormous influx into just give me more capacity.",
+  "zh": "过去五年,你知道,我们看到了巨大的涌入,就是给我更多容量。"
+ },
+ {
+  "seg": 600,
+  "start": 2655.803,
+  "end": 2663.528,
+  "speaker": "Unknown",
+  "en": "But, you know, I think, you know, even with that, we've gone to maybe increasing our national energy capacity 4% per year.",
+  "zh": "但是,你知道,我认为,你知道,即使是这样,我们大约是每年把我们的国家能源容量提高 4%。"
+ },
+ {
+  "seg": 601,
+  "start": 2663.928,
+  "end": 2664.568,
+  "speaker": "Unknown",
+  "en": "Something like that.",
+  "zh": "大概是这个数字。"
+ },
+ {
+  "seg": 602,
+  "start": 2664.588,
+  "end": 2667.49,
+  "speaker": "Unknown",
+  "en": "Going from, you know, essentially zero to one, right?",
+  "zh": "你知道,基本上是从零到一,对吧?"
+ },
+ {
+  "seg": 603,
+  "start": 2667.65,
+  "end": 2668.871,
+  "speaker": "Unknown",
+  "en": "Wow, 4X.",
+  "zh": "哇,4 倍。"
+ },
+ {
+  "seg": 604,
+  "start": 2670.012,
+  "end": 2672.534,
+  "speaker": "Unknown",
+  "en": "Or, hmm, 4%, right?",
+  "zh": "或者,嗯,是 4%,对吧?"
+ },
+ {
+  "seg": 605,
+  "start": 2672.554,
+  "end": 2675.515,
+  "speaker": "Unknown",
+  "en": "So to me, you know, that, you know, it's a bad situation.",
+  "zh": "所以对我来说,你知道,这是一个糟糕的局面。"
+ },
+ {
+  "seg": 606,
+  "start": 2675.556,
+  "end": 2677.737,
+  "speaker": "Unknown",
+  "en": "So we just need more energy capacity.",
+  "zh": "所以我们就是需要更多的能源容量。"
+ },
+ {
+  "seg": 607,
+  "start": 2678.538,
+  "end": 2686.604,
+  "speaker": "Unknown",
+  "en": "So, number one, and obviously we have some companies in that space, you know, we talked about nuclear operating as one of those with Alva.",
+  "zh": "首先,显然我们在那个领域有一些公司,你知道,我们谈到过核能运营是其中之一,和 Alva 一起。"
+ },
+ {
+  "seg": 608,
+  "start": 2686.944,
+  "end": 2694.19,
+  "speaker": "Unknown",
+  "en": "And, you know, I think nuclear, right, you know, as a base load is, you know, a fabulous thing that we want to go build more of.",
+  "zh": "而且,你知道,我认为核能,对吧,作为基础负荷,是一件非常了不起的事情,我们想建造更多。"
+ },
+ {
+  "seg": 609,
+  "start": 2694.51,
+  "end": 2700.415,
+  "speaker": "Unknown",
+  "en": "You know, unfortunately, all of our renewables have, you know, deep dependencies in China, which is very unfortunate.",
+  "zh": "你知道,不幸的是,我们所有的可再生能源都在很大程度上依赖中国,这非常不幸。"
+ },
+ {
+  "seg": 610,
+  "start": 2701.295,
+  "end": 2708.639,
+  "speaker": "Unknown",
+  "en": "You know, for us, you know, we're, you know, gas turbine lead times are only eight years at this point, right?",
+  "zh": "你知道,对我们来说,你知道,燃气轮机的交付周期目前只有八年,对吧?"
+ },
+ {
+  "seg": 611,
+  "start": 2708.719,
+  "end": 2715.642,
+  "speaker": "Unknown",
+  "en": "So, you know, you know, I mean, we really have a difficult environment to scale up rapidly, but one, we just need more capacity.",
+  "zh": "所以,你知道,我是说,我们真的处于一个很难快速扩张的环境,但首先,我们就是需要更多的容量。"
+ },
+ {
+  "seg": 612,
+  "start": 2715.982,
+  "end": 2721.745,
+  "speaker": "Unknown",
+  "en": "And fundamentally, energy capacity somewhat dampens how euphoric we can get on AI, right?",
+  "zh": "而且从根本上说,能源容量在某种程度上抑制了我们对 AI 能有多亢奋,对吧?"
+ },
+ {
+  "seg": 613,
+  "start": 2721.765,
+  "end": 2727.348,
+  "speaker": "Unknown",
+  "en": "Because, you know, why build a new data center and buy, you know, the million GPUs if I can't power them?",
+  "zh": "因为,你知道,如果我没法给它们供电,为什么还要建新的数据中心、买那一百万块 GPU 呢?"
+ },
+ {
+  "seg": 614,
+  "start": 2728.37,
+  "end": 2735.898,
+  "speaker": "Unknown",
+  "en": "And I think you're going to see more and more defaults happening on many of those data center projects because the energy won't be there.",
+  "zh": "而且我认为你会看到越来越多的数据中心项目出现违约,因为能源不会到位。"
+ },
+ {
+  "seg": 615,
+  "start": 2735.998,
+  "end": 2737.48,
+  "speaker": "Unknown",
+  "en": "So you think it will be a significant headwind?",
+  "zh": "所以你认为这会是一个重大的逆风?"
+ },
+ {
+  "seg": 616,
+  "start": 2737.82,
+  "end": 2738.861,
+  "speaker": "Unknown",
+  "en": "I think it will be a headwind.",
+  "zh": "我认为它会是一个逆风。"
+ },
+ {
+  "seg": 617,
+  "start": 2739.081,
+  "end": 2742.945,
+  "speaker": "Unknown",
+  "en": "And I think you're already starting to see some of the first indicators of that, the Oracle.",
+  "zh": "而且我认为你已经开始看到一些最早的指标了,比如 Oracle。"
+ },
+ {
+  "seg": 618,
+  "start": 2743.866,
+  "end": 2747.69,
+  "speaker": "Unknown",
+  "en": "And I think that's the first of what you're going to see many.",
+  "zh": "而且我认为这只是你将看到的众多案例中的第一个。"
+ },
+ {
+  "seg": 619,
+  "start": 2747.77,
+  "end": 2762.441,
+  "speaker": "Unknown",
+  "en": "Now, it's not like we're going to slow down as a result, but I think people will start saying, do I really have the energy, you know, to underwrite the capital commitments that I'm making, you know, for, you know, cement, for data center racks and GPU purchases?",
+  "zh": "现在,不是说我们会因此放慢速度,但我认为人们会开始说,我真的有能源,你知道,来支撑我正在做出的资本承诺吗,你知道,为水泥、为数据中心机架和 GPU 采购?"
+ },
+ {
+  "seg": 620,
+  "start": 2762.481,
+  "end": 2766.924,
+  "speaker": "Unknown",
+  "en": "So I do think it's, you know, going to be, you know, an upper bound.",
+  "zh": "所以我确实认为它会是一个,你知道,上限。"
+ },
+ {
+  "seg": 621,
+  "start": 2767.547,
+  "end": 2776.155,
+  "speaker": "Unknown",
+  "en": "But we need more energy capacity and we need to get more innovation into that and we need more of those supply chains in the U.S. Nuclear, one of my favorites.",
+  "zh": "但我们需要更多的能源容量,我们需要在这方面引入更多创新,我们需要更多这样的供应链在美国。核能是我的最爱之一。"
+ },
+ {
+  "seg": 622,
+  "start": 2776.195,
+  "end": 2779.077,
+  "speaker": "Unknown",
+  "en": "When was the last nuclear reactor that came online in the U.S.?",
+  "zh": "美国上一座并网运行的核反应堆是什么时候?"
+ },
+ {
+  "seg": 623,
+  "start": 2779.497,
+  "end": 2779.658,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 624,
+  "start": 2779.678,
+  "end": 2780.679,
+  "speaker": "Unknown",
+  "en": "You know, it's 20 years ago.",
+  "zh": "你知道,那是 20 年前。"
+ },
+ {
+  "seg": 625,
+  "start": 2780.719,
+  "end": 2780.859,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 626,
+  "start": 2781.199,
+  "end": 2781.379,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 627,
+  "start": 2781.439,
+  "end": 2785.303,
+  "speaker": "Unknown",
+  "en": "You know, we just stopped, you know, a very capable industry.",
+  "zh": "你知道,我们就这么停了下来,你知道,一个非常强大的行业。"
+ },
+ {
+  "seg": 628,
+  "start": 2785.323,
+  "end": 2786.724,
+  "speaker": "Unknown",
+  "en": "So that's when we need more.",
+  "zh": "所以这就是为什么我们需要更多。"
+ },
+ {
+  "seg": 629,
+  "start": 2786.744,
+  "end": 2790.247,
+  "speaker": "Unknown",
+  "en": "You know, we need to get much more efficient at delivering.",
+  "zh": "你知道,我们需要在交付上高效得多。"
+ },
+ {
+  "seg": 630,
+  "start": 2790.647,
+  "end": 2791.627,
+  "speaker": "Unknown",
+  "en": "You know, the power networks.",
+  "zh": "你知道,电力网络。"
+ },
+ {
+  "seg": 631,
+  "start": 2791.688,
+  "end": 2808.054,
+  "speaker": "Unknown",
+  "en": "And as you said, you know, moving to 800 volt DC data centers, absolutely, you know, right, you know, and being able to eliminate so many conversion steps along the way because of historical, you know, reasons and, you know, standardization reasons.",
+  "zh": "而且正如你所说,你知道,转向 800 伏直流数据中心,完全正确,你知道,对吧,并且能够因为历史上的原因和标准化的原因,消除沿途如此多的转换步骤。"
+ },
+ {
+  "seg": 632,
+  "start": 2808.074,
+  "end": 2812.496,
+  "speaker": "Unknown",
+  "en": "Okay, we got to fix this, you know, an 800 volt DC, the revenge of Edison is upon us.",
+  "zh": "好吧,我们得解决这个问题,你知道,800 伏直流,爱迪生的复仇降临到我们头上了。"
+ },
+ {
+  "seg": 633,
+  "start": 2812.876,
+  "end": 2820.12,
+  "speaker": "Unknown",
+  "en": "Yeah, I like to say, so, you know, I do think that ends up being, we need better power conversion.",
+  "zh": "是的,我喜欢这么说,所以,你知道,我确实认为这最终意味着,我们需要更好的电力转换。"
+ },
+ {
+  "seg": 634,
+  "start": 2820.52,
+  "end": 2836.589,
+  "speaker": "Unknown",
+  "en": "You know, we have a couple of companies, one of those vertical, you know, vertical GAN, you know, I think will be, you know, a killer technology, you know, to be able to do 800 to 48 or 800 to 12 or even 800 to 5 in one conversion step, right, which just gives you a lot more energy.",
+  "zh": "你知道,我们在这个领域有几家公司,你知道,垂直 GAN,我认为将会是一项杀手级技术,能够用一步转换完成 800 伏到 48 伏,或 800 伏到 12 伏,甚至 800 伏到 5 伏,对吧,这会给你多出很多能源。"
+ },
+ {
+  "seg": 635,
+  "start": 2836.949,
+  "end": 2837.609,
+  "speaker": "Unknown",
+  "en": "You know, we touched on...",
+  "zh": "你知道,我们提到过……"
+ },
+ {
+  "seg": 636,
+  "start": 2838.75,
+  "end": 2838.93,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 637,
+  "start": 2839.19,
+  "end": 2845.333,
+  "speaker": "Unknown",
+  "en": "You know, all of those are, you know, solid state transformers, switches, et cetera, you know, rebuilding, you know, the power delivery network.",
+  "zh": "你知道,所有这些都是固态变压器、开关等等,你知道,重建,你知道,电力传输网络。"
+ },
+ {
+  "seg": 638,
+  "start": 2845.373,
+  "end": 2851.415,
+  "speaker": "Unknown",
+  "en": "And I think that will, you know, have a lot of, you know, innovation, you know, sort of like, okay, power's cool again, right?",
+  "zh": "而且我认为这会带来,你知道,大量的,你知道,创新,你知道,有点像,好吧,电力又酷起来了,对吧?"
+ },
+ {
+  "seg": 639,
+  "start": 2851.795,
+  "end": 2852.615,
+  "speaker": "Unknown",
+  "en": "You know, forward.",
+  "zh": "你知道,前进。"
+ },
+ {
+  "seg": 640,
+  "start": 2852.635,
+  "end": 2856.137,
+  "speaker": "Unknown",
+  "en": "And then you're going to need all of those in the cooling systems as well.",
+  "zh": "然后你在冷却系统中也需要所有这些。"
+ },
+ {
+  "seg": 641,
+  "start": 2856.677,
+  "end": 2867.203,
+  "speaker": "Unknown",
+  "en": "Right, you know, and so there'll be a bunch of innovations in that, you know, so, you know, you know, turbines and refrigerants and, you know, all of a sudden they get to be, you know, exciting new technologies again.",
+  "zh": "对,你知道,所以在那个领域会有一堆创新,你知道,所以,你知道,涡轮机和制冷剂,你知道,突然之间它们又变成激动人心的新技术了。"
+ },
+ {
+  "seg": 642,
+  "start": 2867.303,
+  "end": 2872.025,
+  "speaker": "Unknown",
+  "en": "So, you know, for all of us hardware guys, this, you know, this, you know, is like renaissance.",
+  "zh": "所以,你知道,对我们所有做硬件的人来说,这,你知道,这就像文艺复兴。"
+ },
+ {
+  "seg": 643,
+  "start": 2872.185,
+  "end": 2876.868,
+  "speaker": "Unknown",
+  "en": "After 25 years, I had to go back and read about Cardinal's Law.",
+  "zh": "25 年之后,我不得不回去重新读卡诺定律。"
+ },
+ {
+  "seg": 644,
+  "start": 2876.888,
+  "end": 2877.969,
+  "speaker": "Unknown",
+  "en": "Cardinal's Efficiencies.",
+  "zh": "卡诺效率。"
+ },
+ {
+  "seg": 645,
+  "start": 2878.009,
+  "end": 2879.99,
+  "speaker": "Unknown",
+  "en": "Oh, yeah, this is like good stuff.",
+  "zh": "哦,是的,这就像很棒的东西。"
+ },
+ {
+  "seg": 646,
+  "start": 2880.03,
+  "end": 2882.371,
+  "speaker": "Unknown",
+  "en": "How does that first law of thermodynamics work, I guess?",
+  "zh": "热力学第一定律是怎么运作的来着?"
+ },
+ {
+  "seg": 647,
+  "start": 2882.391,
+  "end": 2882.991,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊,是啊。"
+ },
+ {
+  "seg": 648,
+  "start": 2883.011,
+  "end": 2883.271,
+  "speaker": "Unknown",
+  "en": "Physics.",
+  "zh": "物理。"
+ },
+ {
+  "seg": 649,
+  "start": 2883.331,
+  "end": 2885.012,
+  "speaker": "Unknown",
+  "en": "I think there was something after all here.",
+  "zh": "我想这里终究还是有点名堂的。"
+ },
+ {
+  "seg": 650,
+  "start": 2886.573,
+  "end": 2889.695,
+  "speaker": "Unknown",
+  "en": "You know, so it's going to be, you know, an exciting time that way.",
+  "zh": "你知道，所以那将会是，你知道，一个令人兴奋的时代。"
+ },
+ {
+  "seg": 651,
+  "start": 2889.715,
+  "end": 2894.798,
+  "speaker": "Unknown",
+  "en": "You know, but, you know, we also say, you know, we need to change the physics, right?",
+  "zh": "你知道，但是，你知道，我们也说，你知道，我们需要改变物理原理，对吧？"
+ },
+ {
+  "seg": 652,
+  "start": 2894.818,
+  "end": 2905.104,
+  "speaker": "Unknown",
+  "en": "Because CMOS hasn't improved, you know, the essential power per tera, you know, power per teraflop for the last five generations of NVIDIA chips, you know, flatline.",
+  "zh": "因为 CMOS 在过去五代 NVIDIA 芯片上，你知道，每 tera 的功耗，你知道，每 teraflop 的功耗，一直没有改善，你知道，一直是平的。"
+ },
+ {
+  "seg": 653,
+  "start": 2905.405,
+  "end": 2905.905,
+  "speaker": "Unknown",
+  "en": "Not okay.",
+  "zh": "不行。"
+ },
+ {
+  "seg": 654,
+  "start": 2906.505,
+  "end": 2917.009,
+  "speaker": "Unknown",
+  "en": "And that's where some of the things, you know, we have a superconducting company, Snowcat, right, which affords the opportunity to fundamentally change the physics, you know, a thousand times better power performance.",
+  "zh": "这就是为什么有些东西，你知道，我们有一家超导体公司，Snowcat，对吧，它提供了从根本上改变物理原理的机会，你知道，能效表现好一千倍。"
+ },
+ {
+  "seg": 655,
+  "start": 2917.029,
+  "end": 2920.551,
+  "speaker": "Unknown",
+  "en": "So I do think some of those innovations are upon us in the near future as well.",
+  "zh": "所以我确实认为，其中一些创新在不久的将来也会到来。"
+ },
+ {
+  "seg": 656,
+  "start": 2920.591,
+  "end": 2923.232,
+  "speaker": "Unknown",
+  "en": "So, I've been a terrible time manager here for the past hour.",
+  "zh": "那么，过去一个小时我一直是个糟糕的时间管理者。"
+ },
+ {
+  "seg": 657,
+  "start": 2923.252,
+  "end": 2930.015,
+  "speaker": "Unknown",
+  "en": "So, so many topics yet to cover, we didn't cover, but we gotta cover at least one before we leave.",
+  "zh": "还有这么多话题要讲，我们没讲到的，但至少得在离开前讲一个。"
+ },
+ {
+  "seg": 658,
+  "start": 2930.175,
+  "end": 2930.515,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 659,
+  "start": 2931.015,
+  "end": 2932.495,
+  "speaker": "Unknown",
+  "en": "Because now— You're in charge.",
+  "zh": "因为现在——你来做主。"
+ },
+ {
+  "seg": 660,
+  "start": 2932.975,
+  "end": 2933.276,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好。"
+ },
+ {
+  "seg": 661,
+  "start": 2933.796,
+  "end": 2936.316,
+  "speaker": "Unknown",
+  "en": "So I thought.",
+  "zh": "所以我在想。"
+ },
+ {
+  "seg": 662,
+  "start": 2937.776,
+  "end": 2938.797,
+  "speaker": "Unknown",
+  "en": "Now VMs are back.",
+  "zh": "现在 VM 回来了。"
+ },
+ {
+  "seg": 663,
+  "start": 2939.777,
+  "end": 2942.938,
+  "speaker": "Unknown",
+  "en": "How do you think about that, the former CEO of VMware?",
+  "zh": "你怎么看这件事，VMware 的前 CEO？"
+ },
+ {
+  "seg": 664,
+  "start": 2943.398,
+  "end": 2949.319,
+  "speaker": "Unknown",
+  "en": "Well, you know, I— I feel excluded from this conversation between former CEOs and VMware.",
+  "zh": "嗯，你知道，我——我觉得自己被排除在这场前 CEO 们和 VMware 之间的对话之外了。"
+ },
+ {
+  "seg": 665,
+  "start": 2949.339,
+  "end": 2953.16,
+  "speaker": "Unknown",
+  "en": "No, no, no, I was just— Part of it was I was going to talk about networking as well.",
+  "zh": "不，不，不，我只是——本来其中一部分我还想聊聊网络。"
+ },
+ {
+  "seg": 666,
+  "start": 2953.4,
+  "end": 2954.94,
+  "speaker": "Unknown",
+  "en": "So, but I don't think we want to talk about it.",
+  "zh": "不过，我觉得我们不想聊那个。"
+ },
+ {
+  "seg": 667,
+  "start": 2954.96,
+  "end": 2958.441,
+  "speaker": "Unknown",
+  "en": "But, you know, hey, you know, I think the, you know, every innovation",
+  "zh": "但是，你知道，嘿，你知道，我认为，你知道，每一项创新"
+ },
+ {
+  "seg": 668,
+  "start": 2959.021,
+  "end": 2961.563,
+  "speaker": "Unknown",
+  "en": "Has always led to the next abstraction, right?",
+  "zh": "都总是引出下一层抽象，对吧？"
+ },
+ {
+  "seg": 669,
+  "start": 2961.583,
+  "end": 2967.467,
+  "speaker": "Unknown",
+  "en": "And I think many of these ideas and, right, you know, I would like to say, you know, what's new in our world today?",
+  "zh": "而且我认为很多这些想法，对吧，你知道，我想说，你知道，我们今天的世界里有什么新东西？"
+ },
+ {
+  "seg": 670,
+  "start": 2967.487,
+  "end": 2988.803,
+  "speaker": "Unknown",
+  "en": "You know, data structures, algorithms, you know, an abstraction, you know, we bring it back to those, you know, foundationals and, hey, you know, I think, you know, the virtual machine abstraction, you know, whether it's done from the infrastructure level or from the application level, you know, I think it's still a foundational abstraction model, you know, that deserves to always have a place in the compute",
+  "zh": "你知道，数据结构、算法，你知道，抽象，你知道，我们把它带回到那些基础的东西上，而且，嘿，你知道，我认为，你知道，虚拟机这个抽象，你知道，不管是从基础设施层面来做，还是从应用层面来做，你知道，我认为它仍然是一个基础性的抽象模型，你知道，值得在计算中永远占有一席之地。"
+ },
+ {
+  "seg": 671,
+  "start": 2989.383,
+  "end": 2991.104,
+  "speaker": "Unknown",
+  "en": "So, you know, so what do you think?",
+  "zh": "那么，你知道，所以你怎么想？"
+ },
+ {
+  "seg": 672,
+  "start": 2991.164,
+  "end": 2992.684,
+  "speaker": "Unknown",
+  "en": "One of us go back and run VMware?",
+  "zh": "我们中的一个要不要回去运营 VMware？"
+ },
+ {
+  "seg": 673,
+  "start": 2992.704,
+  "end": 2994.124,
+  "speaker": "Unknown",
+  "en": "Yeah, that's what I tell a lot.",
+  "zh": "对，我经常这么说。"
+ },
+ {
+  "seg": 674,
+  "start": 2994.264,
+  "end": 2997.725,
+  "speaker": "Unknown",
+  "en": "I think I told Kudos how it's time to go back and run VMware again.",
+  "zh": "我想我告诉过 Kudos，是时候回去重新运营 VMware 了。"
+ },
+ {
+  "seg": 675,
+  "start": 2997.785,
+  "end": 2998.546,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 676,
+  "start": 2999.366,
+  "end": 3010.129,
+  "speaker": "Unknown",
+  "en": "And, you know, and I do think some of these abstractions, you know, but you also think about it and like one of the things we did at VMware, we, you know, essentially, you know, managed every aspect of the computing hierarchy.",
+  "zh": "而且，你知道，我确实认为其中一些抽象，你知道，但你也想想，比如我们在 VMware 做的事情之一，我们，你知道，基本上，你知道，管理了计算层级的每一个环节。"
+ },
+ {
+  "seg": 677,
+  "start": 3010.309,
+  "end": 3010.509,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 678,
+  "start": 3011.109,
+  "end": 3017.174,
+  "speaker": "Unknown",
+  "en": "And you manage the workload, you manage the network, you manage the storage system, and how do you abstract those?",
+  "zh": "你管理工作负载，你管理网络，你管理存储系统，以及你如何抽象它们？"
+ },
+ {
+  "seg": 679,
+  "start": 3017.535,
+  "end": 3021.998,
+  "speaker": "Unknown",
+  "en": "And I think in the AI context, we think about these agent swarms.",
+  "zh": "而我认为在 AI 的语境下，我们会想到这些智能体集群。"
+ },
+ {
+  "seg": 680,
+  "start": 3022.018,
+  "end": 3023.359,
+  "speaker": "Unknown",
+  "en": "Well, who's going to manage the agents?",
+  "zh": "那么，谁来管理这些智能体？"
+ },
+ {
+  "seg": 681,
+  "start": 3024.08,
+  "end": 3027.783,
+  "speaker": "Unknown",
+  "en": "Who's going to create the security profiles around all of the agents?",
+  "zh": "谁来为所有智能体创建安全配置？"
+ },
+ {
+  "seg": 682,
+  "start": 3028.083,
+  "end": 3030.966,
+  "speaker": "Unknown",
+  "en": "Who's going to manage the performance of the agents?",
+  "zh": "谁来管理智能体的性能？"
+ },
+ {
+  "seg": 683,
+  "start": 3030.986,
+  "end": 3038.572,
+  "speaker": "Unknown",
+  "en": "Essentially, every fundamental element of virtualization and management needs to get recreated in this next computing hierarchy.",
+  "zh": "本质上，虚拟化与管理的每一个基本要素都需要在这个下一个计算层级中被重新创造出来。"
+ },
+ {
+  "seg": 684,
+  "start": 3038.812,
+  "end": 3044.32,
+  "speaker": "Unknown",
+  "en": "And there's going to be lots of wonderful companies that you'll sort of break through for how those things will be, you know, done.",
+  "zh": "而且将会有很多精彩的公司，会围绕这些东西将如何，你知道，被实现而脱颖而出。"
+ },
+ {
+  "seg": 685,
+  "start": 3044.34,
+  "end": 3045.041,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 686,
+  "start": 3046.023,
+  "end": 3047.365,
+  "speaker": "Unknown",
+  "en": "Do you want to end it on networking?",
+  "zh": "你想以网络来收尾吗？"
+ },
+ {
+  "seg": 687,
+  "start": 3048.907,
+  "end": 3051.37,
+  "speaker": "Unknown",
+  "en": "Actually, I'd love to stay with the VMs for a second.",
+  "zh": "其实，我想再多聊一会儿 VM。"
+ },
+ {
+  "seg": 688,
+  "start": 3053.191,
+  "end": 3058.435,
+  "speaker": "Unknown",
+  "en": "The most interesting thing for me is that we're now building VMs so that they're usable for agents as opposed to usable for humans.",
+  "zh": "对我来说最有趣的是，我们现在构建 VM 是为了让它们对智能体可用，而不是对人类可用。"
+ },
+ {
+  "seg": 689,
+  "start": 3058.455,
+  "end": 3064.7,
+  "speaker": "Unknown",
+  "en": "And what we've seen in some of other companies is that the change is a lot, the form factor that changes a lot how you market them, right?",
+  "zh": "而我们在其他一些公司看到的是，这个变化很大，产品形态会在很大程度上改变你营销它们的方式，对吧？"
+ },
+ {
+  "seg": 690,
+  "start": 3064.72,
+  "end": 3067.803,
+  "speaker": "Unknown",
+  "en": "You want the agent to make the pick for your VM offering.",
+  "zh": "你想要的是让智能体来为你的 VM 产品做选择。"
+ },
+ {
+  "seg": 691,
+  "start": 3069.344,
+  "end": 3071.206,
+  "speaker": "Unknown",
+  "en": "It changes a lot how much complexity you can have.",
+  "zh": "这在很大程度上改变了你能承载多少复杂性。"
+ },
+ {
+  "seg": 692,
+  "start": 3071.246,
+  "end": 3073.007,
+  "speaker": "Unknown",
+  "en": "It changes how quickly the startup should be.",
+  "zh": "它改变了启动速度应该有多快。"
+ },
+ {
+  "seg": 693,
+  "start": 3073.047,
+  "end": 3074.769,
+  "speaker": "Unknown",
+  "en": "Humans are a lot more patient than agents.",
+  "zh": "人类比智能体有耐心得多。"
+ },
+ {
+  "seg": 694,
+  "start": 3076.45,
+  "end": 3081.673,
+  "speaker": "Unknown",
+  "en": "So it's, if you have to rebuild VMware today, how would it look different?",
+  "zh": "所以，如果你今天要重新构建 VMware，它会有什么不同？"
+ },
+ {
+  "seg": 695,
+  "start": 3082.153,
+  "end": 3082.393,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 696,
+  "start": 3082.953,
+  "end": 3085.675,
+  "speaker": "Unknown",
+  "en": "And I do think... VMware for agents, right?",
+  "zh": "而且我确实认为……面向智能体的 VMware，对吧？"
+ },
+ {
+  "seg": 697,
+  "start": 3085.775,
+  "end": 3085.995,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 698,
+  "start": 3086.515,
+  "end": 3091.498,
+  "speaker": "Unknown",
+  "en": "And I do think there's, you know, does there need to be a VMware for agents for humans?",
+  "zh": "而且我确实认为，你知道，是不是也需要一个面向人类的面向智能体的 VMware？"
+ },
+ {
+  "seg": 699,
+  "start": 3092.298,
+  "end": 3093.759,
+  "speaker": "Unknown",
+  "en": "I see what you mean, yes.",
+  "zh": "我明白你的意思了，对。"
+ },
+ {
+  "seg": 700,
+  "start": 3093.799,
+  "end": 3093.979,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 701,
+  "start": 3094.179,
+  "end": 3099.401,
+  "speaker": "Unknown",
+  "en": "You know, in the sense that, you know, I need humans— Let's stick to the agents, they're way more interesting than we are now.",
+  "zh": "你知道,从某种意义上说,你知道,我需要人类—— 我们还是继续聊智能体吧,它们现在比我们有趣多了。"
+ },
+ {
+  "seg": 702,
+  "start": 3099.461,
+  "end": 3112.185,
+  "speaker": "Unknown",
+  "en": "Yeah, but, you know, I think it's an important point because I do think that there needs to be, you know, and I'll use, you know, Dario's constitution, right, or guardrails, right, or being able to set policies.",
+  "zh": "是的,但是,你知道,我认为这是一个重要的点,因为我确实认为需要有,你知道,我会用,你知道,Dario 的宪法,对吧,或者护栏,对吧,或者能够设定策略。"
+ },
+ {
+  "seg": 703,
+  "start": 3112.725,
+  "end": 3119.548,
+  "speaker": "Unknown",
+  "en": "And I think then you really say, okay, every aspect of the virtual machine, as we know, we'll love it today, it is servicing agents.",
+  "zh": "然后我认为你真正会说,好的,虚拟机的每一个方面,正如我们所知,我们今天会喜欢它,它是在服务智能体。"
+ },
+ {
+  "seg": 704,
+  "start": 3120.328,
+  "end": 3123.289,
+  "speaker": "Unknown",
+  "en": "As opposed to servicing hardware and humans.",
+  "zh": "而不是服务硬件和人类。"
+ },
+ {
+  "seg": 705,
+  "start": 3123.809,
+  "end": 3127.65,
+  "speaker": "Unknown",
+  "en": "So I think that becomes your fundamental design constraint on this side.",
+  "zh": "所以我认为这成为你这一侧的根本设计约束。"
+ },
+ {
+  "seg": 706,
+  "start": 3128.33,
+  "end": 3130.931,
+  "speaker": "Unknown",
+  "en": "How do I make agents great?",
+  "zh": "我如何让智能体变得出色?"
+ },
+ {
+  "seg": 707,
+  "start": 3130.971,
+  "end": 3132.152,
+  "speaker": "Unknown",
+  "en": "How can I make them secure?",
+  "zh": "所有这些事情都有新的体现形式,面向智能体的 vMotion。"
+ },
+ {
+  "seg": 708,
+  "start": 3132.192,
+  "end": 3134.052,
+  "speaker": "Unknown",
+  "en": "How can I make them performant?",
+  "zh": "我如何让它们高性能?"
+ },
+ {
+  "seg": 709,
+  "start": 3135.553,
+  "end": 3136.733,
+  "speaker": "Unknown",
+  "en": "How do I abstract them?",
+  "zh": "我如何对它们进行抽象?"
+ },
+ {
+  "seg": 710,
+  "start": 3136.773,
+  "end": 3137.833,
+  "speaker": "Unknown",
+  "en": "How can I migrate them?",
+  "zh": "我如何迁移它们?"
+ },
+ {
+  "seg": 711,
+  "start": 3138.093,
+  "end": 3143.655,
+  "speaker": "Unknown",
+  "en": "All of those things have the new embodiments, vMotion for agents.",
+  "zh": "所有这些东西都有了新的载体,面向智能体的 vMotion。"
+ },
+ {
+  "seg": 712,
+  "start": 3144.155,
+  "end": 3147.819,
+  "speaker": "Unknown",
+  "en": "It's like every one of these will have the new embodiment here for them.",
+  "zh": "就像这些中的每一项都会有属于它们的新体现形式。"
+ },
+ {
+  "seg": 713,
+  "start": 3148.119,
+  "end": 3157.307,
+  "speaker": "Unknown",
+  "en": "But then I also need to think about how can humans be setting the policies, describing the constitutions, getting the dashboards, et cetera.",
+  "zh": "但同时我也需要思考,人类如何设定策略、描述宪法、获取仪表盘等等。"
+ },
+ {
+  "seg": 714,
+  "start": 3157.327,
+  "end": 3161.411,
+  "speaker": "Unknown",
+  "en": "And I think that's sort of where the interesting thing is, because you need to do both of those, right?",
+  "zh": "我认为这就是有趣之处,因为你需要同时做到这两者,对吧?"
+ },
+ {
+  "seg": 715,
+  "start": 3161.511,
+  "end": 3163.293,
+  "speaker": "Unknown",
+  "en": "Not just one of those, but the fundamental.",
+  "zh": "不只是其中之一,而是根本性的。"
+ },
+ {
+  "seg": 716,
+  "start": 3163.693,
+  "end": 3173.38,
+  "speaker": "Unknown",
+  "en": "You know, I'll say the hard design stuff like we did for, you know, virtual machines was associated abstracting the hardware in a performant way for applications or operating systems here.",
+  "zh": "你知道,我会说,就像我们当年为,你知道,虚拟机所做的困难设计工作,是以高性能的方式为应用程序或操作系统抽象硬件,而在这里。"
+ },
+ {
+  "seg": 717,
+  "start": 3173.44,
+  "end": 3177.343,
+  "speaker": "Unknown",
+  "en": "It's, you know, abstracting the hardware and the operations for agents.",
+  "zh": "它是,你知道,为智能体抽象硬件和操作。"
+ },
+ {
+  "seg": 718,
+  "start": 3177.483,
+  "end": 3179.185,
+  "speaker": "Unknown",
+  "en": "It's a fundamental thing that you're serving.",
+  "zh": "这是你所服务的根本性的东西。"
+ },
+ {
+  "seg": 719,
+  "start": 3179.445,
+  "end": 3181.166,
+  "speaker": "Unknown",
+  "en": "It was great discussing this.",
+  "zh": "很高兴讨论这些。"
+ },
+ {
+  "seg": 720,
+  "start": 3181.546,
+  "end": 3184.409,
+  "speaker": "Unknown",
+  "en": "Thank you so much, Pat, for coming in and we'll do it again.",
+  "zh": "非常感谢,Pat,能来做客,我们下次再来。"
+ },
+ {
+  "seg": 721,
+  "start": 3184.429,
+  "end": 3186.45,
+  "speaker": "Unknown",
+  "en": "Well, two of my favorite people, anytime.",
+  "zh": "嗯,你们两位都是我最喜欢的人,随时都可以。"
+ },
+ {
+  "seg": 722,
+  "start": 3186.81,
+  "end": 3187.111,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 723,
+  "start": 3187.231,
+  "end": 3187.791,
+  "speaker": "Unknown",
+  "en": "That was awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 724,
+  "start": 3187.831,
+  "end": 3188.171,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 725,
+  "start": 3188.351,
+  "end": 3188.732,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 726,
+  "start": 3191.657,
+  "end": 3194.46,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 727,
+  "start": 3195.14,
+  "end": 3201.547,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期,请务必点赞、评论、订阅,给我们评分或写评论,并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 728,
+  "start": 3202.307,
+  "end": 3205.911,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 729,
+  "start": 3206.471,
+  "end": 3212.157,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 730,
+  "start": 3212.557,
+  "end": 3215.1,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听,我们下期节目见。"
+ },
+ {
+  "seg": 731,
+  "start": 3217.167,
+  "end": 3230.194,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下,此处内容仅供信息参考,不应被视为法律、商业、税务或投资建议,也不应用于评估任何投资或证券,且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 732,
+  "start": 3230.894,
+  "end": 3235.576,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意,A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 733,
+  "start": 3236.076,
+  "end": 3242.72,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多细节,包括我们投资的链接,请参阅 a16z.com forward slash disclosures。"
+ }
+]

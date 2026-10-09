@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":5,"每瓦特有价值工作":1,"智能体":446,"harness":61,"RLHF":6,"RL":13}</script>
+<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":5,"每瓦特有价值工作":1,"智能体":448,"harness":62,"RLHF":6,"RL":13}</script>
 
 <script>
 (function(){

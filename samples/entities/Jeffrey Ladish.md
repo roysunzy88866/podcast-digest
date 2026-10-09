@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":191,"OpenAI":180,"Hugging Face":30,"NVIDIA":63,"智能体":446,"超级智能":8,"对齐":18,"递归自我改进":10,"沙箱":85}</script>
+<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":192,"OpenAI":181,"Hugging Face":30,"NVIDIA":64,"智能体":448,"超级智能":8,"对齐":18,"递归自我改进":10,"沙箱":87}</script>
 
 <script>
 (function(){

@@ -165,8 +165,8 @@ Workflows 是端到端自研，没 fork 任何东西，底层状态管理主要�
 **顺着「智能体」挖下去**
 
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同公司:Temporal · 同概念:MCP、护栏 (guardrails)、持久化执行 (durable execution)、智能体 (agent)</span>
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|为什么 90% 的 AI 原型死在了演示阶段？]]<span class="pd-rz">同公司:Temporal、AWS · 同概念:护栏 (guardrails)、持久化执行 (durable execution)、智能体 (agent)</span>
 - [[2026-09-01-talks-when-ai-agents-pay-and-sellers-monetize|机器人流量已超人类：当 AI 智能体开始自己付钱]]<span class="pd-rz">同公司:AWS、Stripe · 同概念:护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:Claude · 同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

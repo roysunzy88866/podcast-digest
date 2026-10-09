@@ -28,7 +28,7 @@ unlisted: true
 
 [[OpenAI]] · [[Gabriel Vasquez]] · [[Linda Du]] · [[Elena Berger]] · [[Andrew Wang]] · [[a16z]] · [[Valen]] · [[Adi]] · [[抵押贷款服务]] · [[Eleven Labs]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":180,"Gabriel Vasquez":1,"Linda Du":1,"Elena Berger":5,"Andrew Wang":1,"a16z":18,"Valen":1,"Adi":1,"抵押贷款服务":1,"Eleven Labs":9}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":181,"Gabriel Vasquez":1,"Linda Du":1,"Elena Berger":5,"Andrew Wang":1,"a16z":18,"Valen":1,"Adi":1,"抵押贷款服务":1,"Eleven Labs":9}</script>
 
 <script>
 (function(){

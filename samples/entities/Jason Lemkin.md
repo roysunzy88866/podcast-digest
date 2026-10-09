@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":21,"Salesforce":34,"智能体":446,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":20,"Vercel":19,"Cursor":83,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":21,"Salesforce":34,"智能体":448,"Lenny":68,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":20,"Vercel":19,"Cursor":83,"Artisan":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]] [[Harald Kirschner]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":20,"Cursor":83,"SpaceX":21,"OpenRouter":14,"Stripe":48,"Anthropic":191,"Workday":5,"Microsoft":29,"Meta":48}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":20,"Cursor":83,"SpaceX":21,"OpenRouter":14,"Stripe":48,"Anthropic":192,"Workday":5,"Microsoft":29,"Meta":48}</script>
 
 <script>
 (function(){

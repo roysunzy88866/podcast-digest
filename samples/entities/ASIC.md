@@ -33,7 +33,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Broadcom]] · [[AMD]] · [[缩放定律]] · [[Gavin Baker]] · [[Walter Goodwin]] · [[David George]] · [[Fractile]] · [[Google]] · [[TSMC]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":63,"Broadcom":5,"AMD":5,"缩放定律":13,"Gavin Baker":1,"Walter Goodwin":1,"David George":6,"Fractile":1,"Google":66,"TSMC":9}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":64,"Broadcom":5,"AMD":5,"缩放定律":14,"Gavin Baker":1,"Walter Goodwin":1,"David George":6,"Fractile":1,"Google":67,"TSMC":9}</script>
 
 <script>
 (function(){

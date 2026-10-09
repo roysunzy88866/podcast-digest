@@ -27,7 +27,7 @@ unlisted: true
 
 [[Kanish Manuja]] · [[Sam Newman]] · [[Twilio]] · [[微服务]] · [[LLM 网关]] · [[ThoughtWorks]] · [[回退]] · [[Uber]] · [[断路器]] · [[分布式系统]]
 
-<script type="application/json" class="pd-epn">{"Kanish Manuja":1,"Sam Newman":1,"Twilio":3,"微服务":1,"LLM 网关":3,"ThoughtWorks":1,"回退":1,"Uber":17,"断路器":1,"分布式系统":1}</script>
+<script type="application/json" class="pd-epn">{"Kanish Manuja":1,"Sam Newman":1,"Twilio":3,"微服务":1,"LLM 网关":3,"ThoughtWorks":1,"回退":1,"Uber":18,"断路器":1,"分布式系统":1}</script>
 
 <script>
 (function(){

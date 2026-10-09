@@ -1,0 +1,185 @@
+{
+  "title_zh": "机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能",
+  "tldr": "Generalist 联合创始人 Pete Florence 讲述他们如何让机器人模型学会举一反三，以及 Gen 1.5 背后的故事。",
+  "digest_md": "机器人面前的扫帚被换成了一根香蕉——它捡起香蕉，把它当扫帚用。再换成簸箕，它一手举簸箕，另一只手当刷子把方块扫进去，再倒进碗里。这不是程序写好的，而是模型自己想出来的。\n\n说这话的是 Pete Florence，机器人公司 Generalist 的联合创始人兼 CEO。他曾在 Google 参与做出最早的视觉-语言-动作模型。在这期 Greylock 播客里，他讲了这家公司两年多来走到 Gen 1.5 的路。\n\n## 几年前，这一切都不可能\n\nFlorence 回忆，他读研究生时，会一个人坐在机器人前遥控操作。模型只在 1 小时的机器人数据上训练过，可训练参数只有几万个，勉强能做几个任务。\n\n后来在 Google，数据规模涨到几千小时，开始出现有意思的现象。但即便如此，把曲线外推到今天的数据量，也没人敢保证会有效果。同期，视频生成模型刚刚起步时，拿 YouTube 训练，模型只会预测灰色像素——连记住训练数据都做不到。\n\n所以创办 Generalist 时的核心风险很简单：这一切可能根本做不成。\n\n## 现在为什么行了？\n\n没有单一的突破。Florence 看了一眼公司内部的训练看板：历史上有数万次训练实验，每一个都在回答 A 方案和 B 方案哪个更好 [03:16 Pete]。\n\n这些实验加起来，决定了数据怎么采集、怎么清洗、训练基础设施怎么搭、推理怎么做、部署怎么落地。这不是从互联网下载数据碰运气的语言模型，而是各个环节环环相扣的工程。\n\n## 三个模型，三级台阶\n\n**Gen 0 在公司成立一年半后发布，核心成果是验证了机器人的缩放定律**——数据、算力、模型规模加大，能力可预测地上升。就像 GPT-3 之前的语言模型一样，有了这条可预测的曲线，才有底气继续加大投入。\n\nGen 1 证明了同一个通用模型可以在多个任务上达到 99% 以上的成功率 [10:36 Pete]。Florence 强调，光看成功率不够，他们用精通这个词，还包括速度，以及一种即兴智能——面对意外场景会随机应变。\n\nGen 1.5 则出现了单样本和小样本学习：看一次演示就能学会新任务。而且这个能力不是专门训练出来的，是随规模提升自然出现的——和 GPT-3 当年的少样本学习一样。\n\n## 香蕉和簸箕：真正的物理泛化\n\n回到开头的例子。模型学的是用刷子把方块扫进碗里。换上香蕉，它自己判断香蕉可以当刷子。Florence 说，香蕉的形状和刷子差别很大，这说明模型真有物理直觉 [13:24 Pete]。\n\n簸箕的例子更妙。模型本可以把簸箕当刷子使，但它选择用另一只手当刷子，把方块扫进簸箕，再端起来倒进碗里。**它理解的是任务的意图，而不是死记动作**。\n\nFlorence 打了个比方：这就像考 LSAT 拿高分——重点不是那几分，而是背后确实存在推理能力。\n\n## 跨机身？关键是那双手\n\n行业里常说的跨机身（cross embodiment），Florence 有自己的看法：重要的不是把能力从一种机器人搬到另一种，而是模型本身就能支持多种机身。这不是加分项，是必需品——硬件一直在变，供应链会变，厂商会停产，积累的智能必须能迁移。\n\n而其中最难的部分是手。手是机器人真正接触世界的地方，手的几何形状、接触方式决定了物理交互的一切 [19:00 Pete]。\n\n他们的进展是：Gen 1 的预训练里没有任何机器人数据，学新任务的同时也在适应新机身，1 小时数据就能上手。一个多月前他们宣布，正在采集数据的手已经超过 9000 种不同形态——两指、五指、螺丝刀、胶带枪，什么都有。选哪种手，就像选法拉利还是越野车，是性能和成本的权衡，模型应该都能用。\n\n## 不站队 VLA 还是世界模型\n\n业内喜欢分阵营：视觉-语言-动作模型（VLA）还是世界模型。Florence 说自己参与做出了最早的 VLA，也做了多年世界模型，但他认为这种站队没意义 [25:37 Pete]。\n\n机器学习的历史反复证明：模型什么都能做。真正重要的是目标——比如从单次演示学会新任务。哪个方法或方法组合能达成目标，就用哪个。在 Generalist，他们随时愿意推翻自己走过的整条路线。\n\n## 客户现场是最好的考场\n\nFlorence 认为，模型必须接触现实，不能只在白板上想任务。和客户合作一来让对方用上前沿模型，二来真实环境里的评估会反过来排研究优先级、提供数据。而且客户懂行业：知道哪些机器重要、哪些流程重要，能帮他们做到单打独斗做不到的事。\n\n## 本集带走\n\n- 机器人模型的少样本学习已经出现，且是自然涌现而非专门训练的，类似 GPT-3 时刻。\n- 物理泛化的标志：机器人能把香蕉当刷子、用手当扫帚，理解任务意图而非照搬动作。\n- 缩放定律在机器人领域已验证，数据、算力加大，能力可预测地提升。\n- 跨机身里最难的是手——超过 9000 种不同形态的手正在被用于采集数据。\n- 不必在 VLA 和世界模型之间站队，能达成目标的方法组合就是好方法。",
+  "quotes": [
+    {
+      "en": "That model would only ever be trained on one single hour of robot data.",
+      "zh": "那个模型只会用单一一个小时的机器人数据来训练。",
+      "timestamp": "01:30",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "As simple as it is to state, I don't know of at the time, and maybe even still, another like general model that anybody had shown could achieve like 99% plus success rates on several different tasks.",
+      "zh": "虽然说出来很简单，我不知道在当时，也许甚至到现在，还有哪个任何人展示过的通用模型，能在几个不同的任务上达到 99% 以上的成功率。",
+      "timestamp": "10:36",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "All of these capabilities, including the one-shot and few-shot warning capability, were not explicitly trained for.",
+      "zh": "所有这些能力，包括单样本和少样本学习能力，都不是被明确训练出来的。",
+      "timestamp": "14:54",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "You know, I think that the phrase emergent is completely like it just gets clobbered over the head and overused because people think like, oh, you know, people are going to be excited if I say it's emergent.",
+      "zh": "你知道的，我认为「涌现」这个词完全就是被滥用得不成样子了，因为人们觉得，哦，如果我说它是涌现的，人们就会兴奋。",
+      "timestamp": "15:22",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "had zero robot data in its pre-training.",
+      "zh": "它的预训练中没有任何机器人数据。",
+      "timestamp": "19:50",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "What you really want is you really want a model that, yes, it can do five-finger hands, but it can do anything.",
+      "zh": "你真正想要的是一个模型，是的，它能做五指手，但它什么都能做。",
+      "timestamp": "21:32",
+      "speaker": "Pete Florence"
+    },
+    {
+      "en": "What matters isn't just aligning your model to a certain brand of model type, but rather the thing that we always learn over and over again over the arc of machine learning is that everything is possible and everything is very simple.",
+      "zh": "重要的不只是把你的模型对齐到某个品牌或模型类型，而是在机器学习的发展历程中我们一遍又一遍学到的是，一切都是可能的，而且一切都非常简单。",
+      "timestamp": "26:09",
+      "speaker": "Pete Florence"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:12",
+      "speaker": "Unknown",
+      "en": "We taught the model to take a brush and sweep this little thing into a bowl, sweep a cube into a bowl.",
+      "zh": "我们教模型拿起一把刷子，把这个小东西扫进碗里，把一个立方体扫进碗里。"
+    },
+    {
+      "timestamp": "00:27",
+      "speaker": "Unknown",
+      "en": "And it just uses it as a brush.",
+      "zh": "然后直接把它当刷子用。"
+    },
+    {
+      "timestamp": "01:30",
+      "speaker": "Unknown",
+      "en": "That model would only ever be trained on one single hour of robot data.",
+      "zh": "那个模型只会用单一一个小时的机器人数据来训练。"
+    },
+    {
+      "timestamp": "02:19",
+      "speaker": "Unknown",
+      "en": "And you would take a model and you would try and train it on some subset of YouTube, and the model would just predict gray pixels, which is the average between zero and one, and basically just not even able to fit all of this data at all, let alone generalize, just not even able to overfit the large training sets.",
+      "zh": "你会拿一个模型，尝试在 YouTube 的某个子集上训练它，然后模型就只会预测灰色像素，也就是零和一之间的平均值，基本上完全无法拟合这些数据，更不用说泛化了，连过拟合大型训练集都做不到。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Unknown",
+      "en": "So like these aren't just like download data from the internet, see what happens.",
+      "zh": "所以这不是简单地从互联网下载数据，看看会发生什么。"
+    },
+    {
+      "timestamp": "06:52",
+      "speaker": "Unknown",
+      "en": "For me has been this kind of like one shot and few shot learning starts to work in a very general sense.",
+      "zh": "对我来说是这种一次性学习和少样本学习开始在非常普遍的意义上起作用。"
+    },
+    {
+      "timestamp": "08:42",
+      "speaker": "Unknown",
+      "en": "Scaling laws in a very general way in robotics.",
+      "zh": "以一种非常普遍的方式在机器人领域实现缩放定律。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Unknown",
+      "en": "Is it establishes this predictable ability to continue to improve.",
+      "zh": "它确立了这种可预测的持续改进能力。"
+    },
+    {
+      "timestamp": "10:36",
+      "speaker": "Unknown",
+      "en": "As simple as it is to state, I don't know of at the time, and maybe even still, another like general model that anybody had shown could achieve like 99% plus success rates on several different tasks.",
+      "zh": "虽然说出来很简单，我不知道在当时，也许甚至到现在，还有哪个任何人展示过的通用模型，能在几个不同的任务上达到 99% 以上的成功率。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Unknown",
+      "en": "The reality is, and especially like general robotics models, a lot of, I would say, speed has been a thing that's been under indexed on for a while.",
+      "zh": "现实是，尤其是对于通用机器人模型，我想说，速度这个因素在相当长一段时间里被低估了。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Unknown",
+      "en": "But then, instead of having this brush, we just put a banana in front of the robot.",
+      "zh": "但然后，我们没有放这把刷子，而是只在机器人面前放了一根香蕉。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Unknown",
+      "en": "But instead it sees the dustpan and it's holding the dustpan with one hand, but then it actually decides to bring the other hand over and use the other hand kind of as a little bit of a brush and it brushes the cube into the dustpan.",
+      "zh": "但相反，它用一只手拿着簸箕，然后实际上决定把另一只手伸过来，把另一只手多少当作刷子来用，把立方体刷进簸箕里。"
+    },
+    {
+      "timestamp": "15:00",
+      "speaker": "Unknown",
+      "en": "All of these capabilities, including the one-shot and few-shot warning capability, were not explicitly trained for.",
+      "zh": "所有这些能力，包括单样本和少样本学习能力，都不是被明确训练出来的。"
+    },
+    {
+      "timestamp": "15:22",
+      "speaker": "Unknown",
+      "en": "You know, I think that the phrase emergent is completely like it just gets clobbered over the head and overused because people think like, oh, you know, people are going to be excited if I say it's emergent.",
+      "zh": "你知道的，我认为「涌现」这个词完全就是被滥用得不成样子了，因为人们觉得，哦，如果我说它是涌现的，人们就会兴奋。"
+    },
+    {
+      "timestamp": "16:54",
+      "speaker": "Unknown",
+      "en": "The point isn't that you ace the LSAT.",
+      "zh": "重点不是你在 LSAT 考试中拿高分。"
+    },
+    {
+      "timestamp": "17:55",
+      "speaker": "Unknown",
+      "en": "This isn't a nice-to-have.",
+      "zh": "这不是锦上添花。"
+    },
+    {
+      "timestamp": "18:14",
+      "speaker": "Unknown",
+      "en": "And so what you really don't want to do, you accumulate a bunch of data on a particular robot arm that one manufacturer made and then they stop making that arm.",
+      "zh": "所以你真正不想做的事情是：你在某个制造商生产的特定机械臂上积累了一堆数据，然后他们不再生产那个机械臂了。"
+    },
+    {
+      "timestamp": "19:50",
+      "speaker": "Unknown",
+      "en": "had zero robot data in its pre-training.",
+      "zh": "它的预训练中没有任何机器人数据。"
+    },
+    {
+      "timestamp": "21:32",
+      "speaker": "Unknown",
+      "en": "What you really want is you really want a model that, yes, it can do five-finger hands, but it can do anything.",
+      "zh": "你真正想要的是一个模型，是的，它能做五指手，但它什么都能做。"
+    },
+    {
+      "timestamp": "26:09",
+      "speaker": "Unknown",
+      "en": "What matters isn't just aligning your model to a certain brand of model type, but rather the thing that we always learn over and over again over the arc of machine learning is that everything is possible and everything is very simple.",
+      "zh": "重要的不只是把你的模型对齐到某个品牌或模型类型，而是在机器学习的发展历程中我们一遍又一遍学到的是，一切都是可能的，而且一切都非常简单。"
+    },
+    {
+      "timestamp": "28:10",
+      "speaker": "Unknown",
+      "en": "At Generalist, we are happy to completely ditch and rethink everything that we've done.",
+      "zh": "在 Generalist，我们很乐意彻底抛弃并重新思考我们做过的一切。"
+    },
+    {
+      "timestamp": "30:00",
+      "speaker": "Unknown",
+      "en": "And we are highly confident we will get to the next valley between the mountain ranges, so to speak.",
+      "zh": "而且我们高度自信，可以说，我们会到达下一个山脉之间的谷地。"
+    }
+  ],
+  "voice_script": "今天要讲的,是一家叫 Generalist 的机器人公司。联合创始人兼 CEO 叫 Pete Florence,这个人来头不小——他早年在 Google 参与做出了最早的视觉-语言-动作模型,就是把眼睛看到的、语言理解的、手上做的,揉进同一个模型里的那种。这期 Greylock 播客里,他讲了这家公司两年多来走到 Gen 1.5 这一步的整个路程。\n\n先说一个画面。机器人面前的扫帚被换成了一根香蕉,它呢,捡起香蕉,把它当扫帚用。再换成簸箕,它一手举着簸箕,另一只手当刷子,把方块扫进去,再倒进碗里。注意,这不是程序员写好的动作,是模型自己想出来的。这期节目,说白了就是在回答一个问题:这样的能力,到底是怎么来的?\n\n要理解现在为什么行,得先知道以前有多难。Florence 读研究生的时候,是一个人坐在机器人前面遥控操作的。当时模型只在 1 个小时的机器人数据上训练过,训练参数只有几万个,勉强能做几个任务。后来到了 Google,数据规模涨到几千小时,开始出现有意思的现象。但即便如此,把那条能力曲线外推到今天的数据量,也没人敢保证一定有效果。同期还有一个参照:视频生成模型刚起步的时候,拿 YouTube 来训练,模型只会预测灰色像素——连记住训练数据都做不到。所以创办 Generalist 的时候,核心风险其实很简单:这一切可能根本做不成。\n\n那现在为什么行了呢?答案可能有点反直觉:没有单一的突破。Florence 看了一眼公司内部的训练看板,历史上已经跑过几万次训练实验,每一个实验都在回答一个问题,A 方案和 B 方案,哪个更好。这些实验加起来,决定了数据怎么采集、怎么清洗、训练基础设施怎么搭、推理怎么做、部署怎么落地。这跟从互联网下载数据碰运气的语言模型不一样,这是一个各个环节环环相扣的工程。\n\n有了这个认识,再看他们三个模型的进展,就是一条很清晰的台阶路。Gen 0 是公司成立一年半之后发布的,核心成果是验证了机器人的缩放定律——数据、算力、模型规模加大,能力会可预测地上升。这就像 GPT-3 之前的语言模型,有了这条可预测的曲线,才有底气继续往大了投入。到了 Gen 1,同一个通用模型可以在多个任务上做到 99% 以上的成功率。有句话值得记住,Florence 说,虽然说出来很简单,但他不知道在当时,也许甚至到现在,还有谁展示过的通用模型能在这个水平上。而且光看成功率还不够,所谓精通,还包括速度,以及一种即兴智能——遇到意外场景会随机应变。再往上,Gen 1.5 出现了单样本和小样本学习:看一次演示,就能学会新任务。关键在于,这个能力不是专门训练出来的,是随着规模提升自然出现的——和 GPT-3 当年的少样本学习一模一样。\n\n那开头那个香蕉和簸箕的例子,放在这条线上看就更有意思了,因为它说明模型真的有了物理泛化能力。模型原本学的是用刷子把方块扫进碗里,换上香蕉,它自己判断香蕉可以当刷子。香蕉的形状和刷子差别很大,这说明模型真有物理直觉。簸箕那个例子更妙:模型本可以把簸箕当刷子使,但它没有,它选择用另一只手当刷子,把方块扫进簸箕,再端起来倒进碗里。也就是说,它理解的是任务的意图,而不是死记动作。Florence 打了个比方:这就像考 LSAT 拿高分——重点不在那几分,而在背后确实存在推理能力。\n\n顺着这个思路,就引出行业里吵得很凶的一个话题:跨机身。所谓跨机身,就是让模型的能力能从一种机器人搬到另一种机器人上。Florence 的看法是,重要的不是事后搬运,而是模型本身就能支持多种机身。这不是加分项,是必需品——因为硬件一直在变,供应链会变,厂商会停产,积累下来的智能必须能迁移。而这里面最难的部分是手。手是机器人真正接触世界的地方,手的几何形状、接触方式,决定了物理交互的一切。他们的进展是:Gen 1 的预训练里没有任何机器人数据,学新任务的同时也在适应新机身,1 个小时的数据就能上手。一个多月前他们宣布,正在采集数据的手已经超过 9000 种不同形态——两指的、五指的、螺丝刀、胶带枪,什么都有。至于选哪种手,就像选法拉利还是越野车,是性能和成本的权衡,而模型应该什么都能用。\n\n聊到这,还有一个业内常见的争论没法绕开:你是做视觉-语言-动作模型,就是常说的 VLA,还是做世界模型?听起来必须站队。但 Florence 两边都做过,最早的 VLA 他参与做的,世界模型也做了多年,他的结论是这种站队没意义。机器学习的历史反复证明:模型什么都能做。真正重要的是目标,比如从单次演示学会新任务。哪个方法、哪种方法组合能达成目标,就用哪个。在 Generalist,他们随时愿意推翻自己走过的整条路线。\n\n最后还有一层很务实的东西:模型必须接触现实,不能只在白板上想任务。所以和客户合作对他们来说一举两得,一来让对方真用上前沿模型,二来真实环境里的评估会反过来排研究优先级、提供数据。而且客户懂行业,知道哪些机器重要、哪些流程重要,能帮他们做到单打独斗做不到的事。\n\n回头看这一集,最有分量的一句话其实是:那些能力——把香蕉当刷子、看一次演示就学会新任务——都不是被明确训练出来的,是模型自己长出来的。机器人领域的 GPT-3 时刻,可能真的来了。"
+}

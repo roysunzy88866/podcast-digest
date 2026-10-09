@@ -1,0 +1,683 @@
+{
+  "episode_id": "2026-10-06-talks-harness-engineering-how-to-build-a-softw",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "软件工厂",
+    "harness engineering",
+    "编码智能体",
+    "AI 原生开发",
+    "开发流程自动化"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dru-knox",
+      "type": "person",
+      "role": "guest",
+      "name": "Dru Knox",
+      "file": "Dru Knox",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "tesol",
+      "type": "company",
+      "role": "company",
+      "name": "TESOL",
+      "file": "TESOL",
+      "primary": true,
+      "how_described": "本集说 Tessl（转写稿多作 TESOL/Tesla/TESL）是一个智能体赋能平台，帮你从扩展技能走向构建自己的软件工厂，提供带治理的技能注册表、Linear 到 GitHub 的连接器和代码评审工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.374,
+            18.201
+          ],
+          "quote": "I'm the head of product and design at TESOL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            19.241,
+            21.784
+          ],
+          "quote": "TESOL is an agent enablement platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            110.776,
+            116.34
+          ],
+          "quote": "And finally, I'll walk through how the TESOL product briefly can help you along that journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            122.444,
+            125.426
+          ],
+          "quote": "TESOL makes them easy, but they're not exclusive to us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            709.596,
+            717.678
+          ],
+          "quote": "If you move your workflows into, for example, at TESOL, we have all work starts as an issue on the issue tracker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            921.975,
+            926.882
+          ],
+          "quote": "So those three control planes, TESOL sort of exists to try and help you solve them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            934.432,
+            938.498
+          ],
+          "quote": "So I'm going to talk a little bit through how TESOL will help you if you want to use us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1003.965,
+            1007.149
+          ],
+          "quote": "So the first place that TESOL helps is in setting up your control plane.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1061.686,
+            1071.912
+          ],
+          "quote": "So we have an agentic experience called TESOL Agent, which will help you with creating and then maintaining your improvement loops over time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集定义为一个智能体系统：交付给用户的所有最终产品都由智能体创建，工程团队专注让工厂更自主、更自动化、质量更高，每个人变成内部工具构建者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            22.104,
+            26.688
+          ],
+          "quote": "We help you go from scaling skills to building your own software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            30.732,
+            42.424
+          ],
+          "quote": "The core is going to focus on harness engineering, which we see as sort of the new discipline of agentic development, and how you can use it to ladder up to a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            74.911,
+            80.314
+          ],
+          "quote": "You're sort of at the sweet spot for starting to think about harness engineering, starting to think about a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            89.4,
+            96.065
+          ],
+          "quote": "First, I want to define software factory and talk a little bit about why you might want to build towards one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            97.366,
+            104.511
+          ],
+          "quote": "Second, we're going to then focus a lot on harness engineering, which is kind of the core practice or skill that you'll use to reach a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            142.014,
+            151.62
+          ],
+          "quote": "But roughly speaking, a software factory is any agentic system where all of the end product of what you're building and shipping to users",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            182.53,
+            186.675
+          ],
+          "quote": "These are sort of like the pillars you need to think about when building towards a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            272.257,
+            280.28
+          ],
+          "quote": "And then the sort of payoff at the end, why would you want a software factory, is that ultimately we think you can raise quality once you have a factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            321.082,
+            324.244
+          ],
+          "quote": "With a software factory, the idea of a backlog kind of goes away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            349.329,
+            356.092
+          ],
+          "quote": "So once you've moved to a software factory, it's much easier for people who aren't in technical roles to contribute ideas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            376.738,
+            378.08
+          ],
+          "quote": "So how do you get to a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            387.614,
+            392.581
+          ],
+          "quote": "This is really the core discipline that you're going to take to get towards a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            394.328,
+            399.612
+          ],
+          "quote": "At its core, harness engineering is, you know, I mentioned the software factory is building your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            699.869,
+            708.695
+          ],
+          "quote": "And so I mentioned how most of the data that you want to have access to to make agents better and move towards a software factory is not legible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            991.28,
+            998.951
+          ],
+          "quote": "And we really try to make sure it's just incremental steps so that you, six months later, are like, oh, wow, we're like 40% there to a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1187.159,
+            1191.282
+          ],
+          "quote": "These are metrics that you can track to see, like, how far am I towards Software Factory?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "Harness 工程 (harness engineering)",
+      "file": "Harness 工程",
+      "primary": true,
+      "how_described": "本集称之为智能体开发的新学科（近几周也开始叫 loop engineering），核心是搭建让工厂自我改进的循环——内循环、外循环、元循环，以走向软件工厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            30.732,
+            42.424
+          ],
+          "quote": "The core is going to focus on harness engineering, which we see as sort of the new discipline of agentic development, and how you can use it to ladder up to a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            74.911,
+            80.314
+          ],
+          "quote": "You're sort of at the sweet spot for starting to think about harness engineering, starting to think about a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            97.366,
+            104.511
+          ],
+          "quote": "Second, we're going to then focus a lot on harness engineering, which is kind of the core practice or skill that you'll use to reach a software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            105.992,
+            110.635
+          ],
+          "quote": "We'll talk about what are going to be the components you work on while you're doing harness engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            378.881,
+            383.307
+          ],
+          "quote": "Harness engineering is a sign of how fast terms evolve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            394.328,
+            399.612
+          ],
+          "quote": "At its core, harness engineering is, you know, I mentioned the software factory is building your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            539.882,
+            556.43
+          ],
+          "quote": "Before we get into what are the components, what do you do to actually accomplish this, I think full disclosure up front, harness engineering, at least raw unassisted harness engineering, is hard for a few specific reasons that basically come down to human psychology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            564.834,
+            568.336
+          ],
+          "quote": "And so a lot of teams that get into harness engineering",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            584.772,
+            591.357
+          ],
+          "quote": "And so there's just like a lot of time and space you'll devote to keeping up with how to do harness engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            605.001,
+            610.463
+          ],
+          "quote": "The second, and this one is more durable in my opinion, harness engineering is fundamentally unplanned work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            643.42,
+            655.165
+          ],
+          "quote": "The final piece is that once you've solved these initial problems, things like make time and space for harness engineering, you'll find that a lot of the information you want access to is not available.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            676.805,
+            681.227
+          ],
+          "quote": "With all that aside, then, what are the pieces that you should be working on as you're doing harness engineering?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            958.477,
+            969.402
+          ],
+          "quote": "We're batteries included, so we solve the knowledge gap by saying, we will keep up and you will have an agentic experience that basically knows the best practices of harness engineering is kept up to date on your behalf.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集假设听众已在日常使用编码智能体，全篇讨论如何让它们在沙箱中无人值守地产出代码、提交 PR 并响应评审评论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            46.634,
+            55.779
+          ],
+          "quote": "This is a bit of an advanced talk in the sense that if you aren't already using coding agents, what I'm about to walk through is probably not where you want to get started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            55.859,
+            63.384
+          ],
+          "quote": "So I'm sort of assuming that if you're working with coding agents, you're used to having a couple sessions at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            65.045,
+            73.87
+          ],
+          "quote": "You've gotten to a place where coding agents will, for easy tasks and maybe medium complexity tasks, frequently do the right thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集描述无头智能体在沙箱中运行处理 issue，Tessl 的 teslaunch 也在有适当权限、可长时间运行的沙箱里运行 Codex、Claude Code、Gemini 等智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            718.338,
+            721.859
+          ],
+          "quote": "It gets sent to a headless agent running in a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1150.083,
+            1155.008
+          ],
+          "quote": "And we will run them in a sandbox that has the appropriate permissions, can be long running.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills-registry",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能注册表 (skills registry)",
+      "file": "技能注册表",
+      "primary": true,
+      "how_described": "本集说是控制平面的基本组件之一，用于标准化和分发提升智能体质量的工作流与技能；Tessl 提供带安全审查、质量审查和发布权限治理的技能注册表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            763.001,
+            769.122
+          ],
+          "quote": "Typically, that ends up being something like a skills registry or a shared GitHub repo where you push skills that improve agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1007.93,
+            1020.828
+          ],
+          "quote": "We have a skills registry where you can publish and version the workflows and the automations that you're working on with built-in governance, things like security reviews, quality reviews, controls for who can publish and update what.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "control-plane",
+      "type": "concept",
+      "role": "concept",
+      "name": "控制平面 (control plane)",
+      "file": "控制平面",
+      "primary": true,
+      "how_described": "本集说是实施三层清单的第一层：所有工作从问题追踪器开始、交给沙箱中的智能体、经代码评审纠偏，让人与智能体的所有交互变得可读、可分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            692.283,
+            699.368
+          ],
+          "quote": "The first layer, and these are sort of like in the order you need to do them as far as Tesla is concerned, is you have to get your control plane right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            741.457,
+            749.538
+          ],
+          "quote": "Typically, the three things that everybody comes to when they're trying to set up a control plane is you have some way of tracking issues and kicking off agent work from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1003.965,
+            1007.149
+          ],
+          "quote": "So the first place that TESOL helps is in setting up your control plane.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-it",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent IT",
+      "file": "Agent IT",
+      "primary": true,
+      "how_described": "本集说这是给智能体真正所需的东西：CLI、API 权限、内部服务访问、生产日志、可执行代码的环境，比想象中更糟、无法提前规划，还牵出权限治理与合规问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            771.585,
+            788.354
+          ],
+          "quote": "Next is a massive grab bag that I call Agent IT, which is if anyone's ever tried to move a project that had a lot of local config into something that someone else can set up, and you realize with horror all of the dependencies that you thought were cleanly isolated and are not,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inner-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "内循环 (inner loop)",
+      "file": "内循环",
+      "primary": true,
+      "how_described": "本集说是编码智能体提交 PR 之前快速、廉价、高频迭代的循环，作用是在无需人工干预下纠正智能体，直接提升自主度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            419.847,
+            421.168
+          ],
+          "quote": "So you have your inner loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outer-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "外循环 (outer loop)",
+      "file": "外循环",
+      "primary": true,
+      "how_described": "本集说是 PR 提交后才运行的昂贵、详尽检查（如智能体 QA、变异测试），把原本需人工验证的事变成自动验证，省下人工审查时间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            443.885,
+            446.907
+          ],
+          "quote": "Once the PR is up, you move to the outer loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            513.419,
+            518.563
+          ],
+          "quote": "And it feeds back into the inner and the outer loop to make sure that that mistake is not made again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            519.404,
+            536.925
+          ],
+          "quote": "So the outer loop is what really kind of, once you have the infrastructure for each of these loops, the outer loop, or sorry, the meta loop is where you're going to be actually driving from a certain percentage of like how AI native am I, you're going to be driving it up by investing in your meta loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "元循环 (meta loop)",
+      "file": "元循环",
+      "primary": true,
+      "how_described": "本集说它站在开发流程之外，观察智能体日志、PR、issue 追踪器和用户反馈，找出漏到用户或被人工拦下的错误，再反馈回内外循环；提升 AI 原生程度主要靠投资元循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            486.017,
+            487.942
+          ],
+          "quote": "Finally, you have the meta loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            491.289,
+            494.357
+          ],
+          "quote": "So the meta loop sits outside of the development process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            519.404,
+            536.925
+          ],
+          "quote": "So the outer loop is what really kind of, once you have the infrastructure for each of these loops, the outer loop, or sorry, the meta loop is where you're going to be actually driving from a certain percentage of like how AI native am I, you're going to be driving it up by investing in your meta loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            868.275,
+            871.778
+          ],
+          "quote": "So these are the things I mentioned before, the inner, outer meta loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            872.379,
+            874.981
+          ],
+          "quote": "These are components that tend to go into your meta loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

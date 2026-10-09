@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rogo":2,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":4,"智能体":446,"推理模型":6,"护城河":14,"标准操作程序":1}</script>
+<script type="application/json" class="pd-epn">{"Rogo":2,"Foundation":2,"Basis":1,"Greylock":2,"Retool":1,"Devin":4,"智能体":448,"推理模型":6,"护城河":14,"标准操作程序":1}</script>
 
 <script>
 (function(){

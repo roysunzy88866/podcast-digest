@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>101</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>102</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -83,6 +83,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(00:38起):本集说它是 B2B 软件调研的主力模型（与 Gemini 合占 81% 一手调研份额），遇到商业意图提示会触发「你的钱、你的命」验证层，超过四分之一的买家甚至用手机上的个人版来选软件。
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(24:47起):本集说它通过授权协议使用 Axios 内容，嘉宾还把自己所有验血、MRI、家族病史全部输入 ChatGPT 管理健康。
 - **[[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]]**(12:14起):其最早的两个语音模式用链式方法构建，延迟显著高于用原生方法的高级语音模式
+- **[[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]]**(16:43起):本集说小组织的人最初通过把提示词给 ChatGPT 获得智能回答来使用 AI，之后才进入构建智能体循环的下一阶段。
 - **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(13:43起):被对比的对象：Claire 在 ChatGPT 上做过同样的睡眠训练目标，但体验不如 Muse；并提到 GPT-4O 语音「谄媚」而 Muse 温柔不谄媚。
 - **[[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|《智能体网络来了：网站和浏览器正在被“拆成原子”》]]**(00:43起):本集多处引用：嘉宾母亲和九岁孩子的主要工具，测试框架中 ChatGPT 找结果表现最好
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(08:16起):本集说 Exa 2022 年发布产品两周后 ChatGPT 问世，「真的改变了世界」。
@@ -163,7 +164,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*101 集*
+*102 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -238,6 +239,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]] — 作为被讨论公司(提及)
+- [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|《为什么 90% 的 AI 原型死在了演示阶段？》]] — 作为被讨论公司(提及)
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司(提及)
 - [[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|《智能体网络来了：网站和浏览器正在被“拆成原子”》]] — 作为被讨论公司(提及)
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为概念(提及)
@@ -271,9 +273,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[Cursor]] · [[LLM]] · [[推理]]
+[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[Cursor]] · [[LLM]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":446,"OpenAI":180,"Claude":92,"Anthropic":191,"Google":66,"Codex":81,"Lenny":68,"Cursor":83,"LLM":59,"推理":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"OpenAI":181,"Claude":92,"Anthropic":192,"Google":67,"Codex":81,"Lenny":68,"Cursor":83,"LLM":59,"护栏":85}</script>
 
 <script>
 (function(){

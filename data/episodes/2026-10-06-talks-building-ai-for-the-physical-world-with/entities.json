@@ -1,0 +1,713 @@
+{
+  "episode_id": "2026-10-06-talks-building-ai-for-the-physical-world-with",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "机器人",
+    "具身智能",
+    "缩放定律",
+    "少样本学习",
+    "物理泛化"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "pete-florence",
+      "type": "person",
+      "role": "host",
+      "name": "Pete Florence",
+      "file": "Pete Florence",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.97,
+            48.192
+          ],
+          "quote": "Today on Greylock Change Engines, we have Pete Florence, co-founder and CEO of Generalist.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generalist",
+      "type": "company",
+      "role": "company",
+      "name": "Generalist",
+      "file": "Generalist",
+      "primary": true,
+      "how_described": "本集嘉宾 Pete Florence 联合创办并任 CEO 的机器人公司，目标是「为物理世界构建通用智能」，两年多从 Gen 0 走到 Gen 1.5。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            42.97,
+            48.192
+          ],
+          "quote": "Today on Greylock Change Engines, we have Pete Florence, co-founder and CEO of Generalist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            50.693,
+            53.914
+          ],
+          "quote": "I want to talk about the inception story about Generalist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            343.924,
+            346.146
+          ],
+          "quote": "And so I want to dive more into generalist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            991.689,
+            1010.78
+          ],
+          "quote": "But it's giving you, maybe it's the right way to say it, is it's giving you a sense of, okay, this direction that we're going on, because this ability to few-shot or one-shot learn has emerged, you know, we're on the path towards, like, that generalist intelligence that you were talking about, that's kind of the right path that we're on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1124.307,
+            1136.451
+          ],
+          "quote": "In our view at generalist, the hardest part of cross embodiment and the part that is sort of like still, you know, not quite solved is generalizing to new hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1237.452,
+            1243.455
+          ],
+          "quote": "So at Generalist, I think people know that we have these like two finger hands that we're very proud of and they're quite capable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1690.725,
+            1695.049
+          ],
+          "quote": "At Generalist, we are happy to completely ditch and rethink everything that we've done.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gem-1-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gem 1.5",
+      "file": "Gem 1.5",
+      "primary": true,
+      "how_described": "本集主线模型：具备单样本/少样本学习和零样本物理泛化（香蕉当刷子、用手当刷子配簸箕），且这些能力是涌现而非专门训练的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            458.387,
+            474.252
+          ],
+          "quote": "And I think that we are starting to see that just objectively now in its own different way with, you know, the latest model, Gem 1.5, you know, across the one-shot and the few-shot learning capabilities, and then also with these, like, very compelling levels of physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1637.047,
+            1646.471
+          ],
+          "quote": "So one might be, as an example, being able to take a model and from a single demonstration, learn a new task, as is part of the point of Gem 1.5.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "Gen 0 的核心成果：在机器人领域验证了数据、算力、模型规模加大时能力可预测地提升，像 GPT-3 之前给语言模型带来的信心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 91,
+          "t": [
+            522.104,
+            525.527
+          ],
+          "quote": "Scaling laws in a very general way in robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            545.004,
+            563.577
+          ],
+          "quote": "But the important thing about having really strong scaling laws, which by the way, when we say strong, what I'm really talking about there is like the kind of like slopes of the curve and the ability to predict as we extrapolate out, as we add more like compute and data and model size, you know, what sort of levels of capabilities are we starting to see?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            595.091,
+            597.072
+          ],
+          "quote": "You knew the scaling laws were going to come.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "few-shot-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "少样本学习 (few-shot learning)",
+      "file": "少样本学习",
+      "primary": true,
+      "how_described": "Gen 1.5 看一次演示就能学会新任务；Florence 类比 GPT-3 的少样本学习时刻，强调这是随规模自然涌现的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            412.82,
+            419.442
+          ],
+          "quote": "For me has been this kind of like one shot and few shot learning starts to work in a very general sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            458.387,
+            474.252
+          ],
+          "quote": "And I think that we are starting to see that just objectively now in its own different way with, you know, the latest model, Gem 1.5, you know, across the one-shot and the few-shot learning capabilities, and then also with these, like, very compelling levels of physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            729.465,
+            736.147
+          ],
+          "quote": "So 1.5, broadly speaking, it has these one-shot and few-shot learning capabilities across a wide variety of tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1813.94,
+            1825.323
+          ],
+          "quote": "Yeah, and actually, you know, without oversharing kind of like what you're working on internally, how should we think about, you know, few-shot learning was an incredible goal or milestone that you achieved with 1.5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cross-embodiment",
+      "type": "concept",
+      "role": "concept",
+      "name": "跨具身形态 (cross embodiment)",
+      "file": "跨具身形态",
+      "primary": true,
+      "how_described": "Florence 认为关键不是把能力从一种机器人迁移到另一种，而是模型本身支持多种机身——硬件和供应链一直在变，这是必需品而非加分项。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1032.287,
+            1037.169
+          ],
+          "quote": "And I kind of want to go into cross embodiment, which is another topic that is also spoken about a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1037.189,
+            1040.63
+          ],
+          "quote": "So maybe talk about what is this concept of cross embodiment?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1040.93,
+            1043.431
+          ],
+          "quote": "Cross embodiment is the phrase that people use more often.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1043.471,
+            1050.472
+          ],
+          "quote": "To a certain extent, what really matters is not that it's cross embodiment, but rather that we just have the model capable of supporting many embodiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1051.973,
+            1061.895
+          ],
+          "quote": "People usually say cross embodiment, but I think cross embodiment a little bit kind of implies that what you really need to do is you need to take one embodiment and cross or transfer the capabilities over to another embodiment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1114.353,
+            1123.786
+          ],
+          "quote": "Talk about that and what's the nuance underneath what's hard about cross embodiment and what companies like yourselves do in order to kind of like overcome that obstacle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1124.307,
+            1136.451
+          ],
+          "quote": "In our view at generalist, the hardest part of cross embodiment and the part that is sort of like still, you know, not quite solved is generalizing to new hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1166.565,
+            1178.657
+          ],
+          "quote": "If we ignore for a moment generalizing to new hands, which we're also working on, of course, but if we just take stock of, well, how is cross embodiment doing outside of hands?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1215.162,
+            1221.305
+          ],
+          "quote": "Cross embodiment with one single hour of data or like, you know, again, it's not even cross, but it's new embodiment with one single hour of data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hands",
+      "type": "concept",
+      "role": "concept",
+      "name": "手（末端执行器） (hands)",
+      "file": "手（末端执行器）",
+      "primary": true,
+      "how_described": "跨具身最难的部分：手是真正接触世界的地方，其几何与接触方式定义物理交互；Generalist 正在 9000 多种不同形态的手上扩展数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1124.307,
+            1136.451
+          ],
+          "quote": "In our view at generalist, the hardest part of cross embodiment and the part that is sort of like still, you know, not quite solved is generalizing to new hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1136.831,
+            1138.271
+          ],
+          "quote": "Where specifically we're talking about hands, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1138.291,
+            1139.492
+          ],
+          "quote": "And like hands are the things",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1166.565,
+            1178.657
+          ],
+          "quote": "If we ignore for a moment generalizing to new hands, which we're also working on, of course, but if we just take stock of, well, how is cross embodiment doing outside of hands?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1223.506,
+            1226.307
+          ],
+          "quote": "The hardest part is generalizing to the new hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1230.809,
+            1237.432
+          ],
+          "quote": "We announced about a month or so ago, we now have all the hands that we're scaling data on, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1237.452,
+            1243.455
+          ],
+          "quote": "So at Generalist, I think people know that we have these like two finger hands that we're very proud of and they're quite capable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1250.184,
+            1253.809
+          ],
+          "quote": "But then we can take that model training recipe and scale it horizontally across all the hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1259.377,
+            1269.324
+          ],
+          "quote": "instantiations of hands, not just like copies of hands, but like physically different versions of hands and across two finger hands, five finger hands, screwdriver hands, tape gun dispensing, like all the different possible hands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1288.102,
+            1291.024
+          ],
+          "quote": "I think that five-finger human hands are fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1292.485,
+            1298.65
+          ],
+          "quote": "What you really want is you really want a model that, yes, it can do five-finger hands, but it can do anything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vla",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLA",
+      "file": "VLA",
+      "primary": true,
+      "how_described": "Florence 在 Google 帮忙创造了最早的 VLA，但他认为在 VLA 和世界模型之间站队没意义，能达成目标的方法组合才重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1500.961,
+            1508.846
+          ],
+          "quote": "One thing that you've said publicly is a lot of people like to bucket themselves in the bucket of, I'm either a VLA or I'm using a world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1533.705,
+            1535.867
+          ],
+          "quote": "And VLA, World Models, like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1599.328,
+            1606.45
+          ],
+          "quote": "You know, I would kind of say, what even is the point of like, okay, great, we have got a VLA again, like I love VLAs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "world-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world models)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "业内另一阵营；Florence 做了多年世界模型，认为它只是工具，利用视频数据预测未来模态，最终目标（如单样本学习）才是重要的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1533.705,
+            1535.867
+          ],
+          "quote": "And VLA, World Models, like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1537.568,
+            1543.951
+          ],
+          "quote": "And, you know, I helped create the first VLAs back at Google and been working on world models and robotics for a while.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1555.317,
+            1565.643
+          ],
+          "quote": "And for world models, we want to be able to use a lot of video data or whatever it is and be able to predict what that video or other modalities will look like in the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1647.751,
+            1658.415
+          ],
+          "quote": "To a certain extent, if you wanted to go down an entire research agenda of world models, yes, they're amazing, but it's like at the end of that, enabling one-shot learning in robotics is kind of one of the things that you would hope to be able to do.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physical-generalization",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理泛化 (physical generalization)",
+      "file": "物理泛化",
+      "primary": true,
+      "how_described": "Gen 1.5 的零样本能力：机器人把香蕉当刷子、用手配合簸箕完成任务，说明模型理解任务意图、有真正的物理直觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            458.387,
+            474.252
+          ],
+          "quote": "And I think that we are starting to see that just objectively now in its own different way with, you know, the latest model, Gem 1.5, you know, across the one-shot and the few-shot learning capabilities, and then also with these, like, very compelling levels of physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            745.751,
+            749.632
+          ],
+          "quote": "It also has these zero-shot physical generalization capabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            752.334,
+            754.015
+          ],
+          "quote": "You know, zero shot physical generalization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            856.443,
+            863.089
+          ],
+          "quote": "That was just sort of this level of purely physical generalization and like understanding the intent of the task.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mastery",
+      "type": "concept",
+      "role": "concept",
+      "name": "精通 (mastery)",
+      "file": "精通",
+      "primary": true,
+      "how_described": "Gen 1 的关键概念：不只有 99% 以上成功率，还包括速度和面对意外场景的即兴智能（improvisational intelligence）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            619.267,
+            633.474
+          ],
+          "quote": "The main thing about Gen 1 is we wanted to show that we can actually achieve what we call mastery, so really high levels of performance, which I can unpack what we mean there, across several different tasks, all from a general model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            665.55,
+            677.839
+          ],
+          "quote": "And we have a particular way that since that model, we've liked to think about performance is that we use this term mastery, which for us means like, yes, high success rates, but there's also more to life than just success rates.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            699.59,
+            705.012
+          ],
+          "quote": "So back to the components of mastery we think about are reliability, success rates, speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1178.977,
+            1188.467
+          ],
+          "quote": "And here I would point to, even with our previous generation model, Gen1, as we announced, we had these pretty compelling levels of mastery across several different tasks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "Florence 曾任职之处，在那里把机器人数据扩展到几千小时并参与创造最早的 VLA。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            108.142,
+            111.744
+          ],
+          "quote": "Then when I was at Google, we had started to scale some of these things, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1537.568,
+            1543.951
+          ],
+          "quote": "And, you know, I helped create the first VLAs back at Google and been working on world models and robotics for a while.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-3",
+      "file": "GPT-3",
+      "primary": false,
+      "how_described": "被反复类比：其少样本学习是涌现能力的先例，缩放定律给了扩展语言模型的信心，与 Gen 1.5 的时刻对应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            450.305,
+            457.727
+          ],
+          "quote": "Combo of things, you know, I think it gets over-said, but I do think it's true that, like, that was kind of like what people got excited about with GPT-3.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            572.221,
+            579.104
+          ],
+          "quote": "Leading up to GPT-3, that was the thing that gave the confidence to be able to start to really scale language models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            900.843,
+            914.275
+          ],
+          "quote": "And that actually, if you look back at the history of GPT-3, it was the same situation in that this one-shot, few-shot warning capability that GPT-3 started to really show in spades, that was not something that...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            932.461,
+            943.831
+          ],
+          "quote": "In this case, well, in the case of GPT-3, it was really like a emergent capability in the sense that it wasn't really explicitly trained for and just sort of happened as you sort of scale these models for Gen 1.5.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            950.496,
+            954.36
+          ],
+          "quote": "So like back in GPT-3 era, the way that you could try and...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            955.02,
+            962.491
+          ],
+          "quote": "You know, use the GPT-3 API to get that model to do a task for you is like you would often do prompt engineering and you would do all these few shot examples.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

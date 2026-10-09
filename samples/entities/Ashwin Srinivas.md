@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":9,"智能体":446,"开源模型":4,"微调":34,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":4,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":9,"智能体":448,"开源模型":4,"微调":34,"业务逻辑":1,"前向部署工程师":2,"Duet":1}</script>
 
 <script>
 (function(){

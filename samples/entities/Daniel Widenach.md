@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":12,"智能体":446,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":84}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":12,"智能体":448,"多智能体架构":2,"智能体控制框架":2,"AI 模型":1,"开源权重":9,"封闭模型":2,"垂直整合":1,"开放框架":1,"护栏":85}</script>
 
 <script>
 (function(){

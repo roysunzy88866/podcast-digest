@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":446,"规范驱动开发":2,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":29,"确定性":4,"伪造证据":1,"三层模型分层":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":448,"规范驱动开发":2,"苏格拉底方法":1,"对抗性审查":1,"合并检查":1,"命令":1,"技能":29,"确定性":4,"伪造证据":1,"三层模型分层":1}</script>
 
 <script>
 (function(){

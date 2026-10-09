@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":446,"计算机使用":21,"MCP":83,"网络安全":3,"基于使用量的计费":2,"推理":87,"奇点":1}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Stripe":48,"智能体商务":1,"智能体":448,"计算机使用":21,"MCP":83,"网络安全":3,"基于使用量的计费":2,"推理":88,"奇点":1}</script>
 
 <script>
 (function(){

@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]] [[Matt Jones]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":4,"智能体":446,"工作流":13,"人在回路":21,"自托管":2,"可审计性":2,"Zapier":5,"开源":38,"Claude Code":98,"fair-code":1}</script>
+<script type="application/json" class="pd-epn">{"n8n":4,"智能体":448,"工作流":13,"人在回路":21,"自托管":2,"可审计性":2,"Zapier":5,"开源":38,"Claude Code":98,"fair-code":1}</script>
 
 <script>
 (function(){

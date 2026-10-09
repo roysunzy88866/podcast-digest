@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]] [[Linda Du]]
+[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":2,"NVIDIA":63,"ChatGPT":101,"Cognition":26,"Harvey":20,"Fireworks":7,"数据中心":23,"AI 工厂":3,"能源":2}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Crusoe":2,"NVIDIA":64,"ChatGPT":102,"Cognition":26,"Harvey":20,"Fireworks":7,"数据中心":23,"AI 工厂":3,"能源":2}</script>
 
 <script>
 (function(){
