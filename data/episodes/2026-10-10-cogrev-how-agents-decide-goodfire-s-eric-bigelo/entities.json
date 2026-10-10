@@ -1,0 +1,1549 @@
+{
+  "episode_id": "2026-10-10-cogrev-how-agents-decide-goodfire-s-eric-bigelo",
+  "podcast": "The Cognitive Revolution",
+  "date": "2026-10-10",
+  "tags": [
+    "可解释性",
+    "思维链",
+    "采样与随机性",
+    "开源模型",
+    "AI 智能体研究"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "goodfire",
+      "type": "company",
+      "role": "company",
+      "name": "Goodfire",
+      "file": "Goodfire",
+      "primary": true,
+      "how_described": "本集介绍嘉宾 Eric Bigelow 所在的独角兽机制可解释性初创公司,可能是最大的、估值超过十亿美元的可解释性公司,拥有大型计算资源,并推出了研究智能体 Silico。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.078,
+            9.954
+          ],
+          "quote": "Today, my guest is Eric Bigelow, member of technical staff at unicorn mechanistic interpretability startup, Goodfire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            159.891,
+            180.59
+          ],
+          "quote": "We also get Eric's thoughts on why Chain of Thought is getting so weird, including his perspective on the Chain of Thought dialect and the strange language that Astra uses to communicate with sub-agents, plus his pro tips for using Goodfire's Silico research agent, and how he hopes future AI product interfaces will begin to resurface model uncertainty to users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            220.384,
+            231.849
+          ],
+          "quote": "With that, I hope you enjoy this overview of what we know and how much we have left to discover about how AIs decide what to do with Eric Bigelow from GoodFire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            233.33,
+            238.332
+          ],
+          "quote": "Eric Bigelow, member of technical staff at GoodFire, welcome to the Cognitive Revolution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1912.869,
+            1924.676
+          ],
+          "quote": "And I have some work on this and other folks at Goodfire have some really cool work on there being these low dimensional manifolds that describe the sort of underlying representation space that malls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2814.951,
+            2825.715
+          ],
+          "quote": "And I'm sure that's a factor for you too, but at Goodfire, you guys have significant resources and you've built some infrastructure to do interpretability on whatever, Kimmy K3, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            3158.095,
+            3166.658
+          ],
+          "quote": "And although I haven't studied this personally, I've seen some of the other research that people at Goodfire have done recently, like with reward hacking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            6647.142,
+            6655.472
+          ],
+          "quote": "Last question, aside from how do LLMs make decisions, what are the hot topics over lunch at Goodfire these days?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "interpretability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可解释性 (interpretability)",
+      "file": "可解释性",
+      "primary": true,
+      "how_described": "本集的主线:Eric 认为理解 AI(可解释性,包括评估)是当下最重要的话题,投入远落后于造模型,思维链越来越不可靠后,理解智能体为何行动要靠可解释性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.078,
+            9.954
+          ],
+          "quote": "Today, my guest is Eric Bigelow, member of technical staff at unicorn mechanistic interpretability startup, Goodfire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            138.845,
+            158.402
+          ],
+          "quote": "Along the way, we also discuss why 7 to 8 billion parameters currently seems to be the interpretability sweet spot, why KimiK3 was a step function for studying frontier-level coding and reward hacking, and why, for now at least, interpretability outside of the frontier model companies does meaningfully depend on Chinese open-weights models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            203.256,
+            211.761
+          ],
+          "quote": "That in turn means that an awful lot, including our ability to understand why agents take the actions they do, may rest on interpretability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            893.963,
+            898.164
+          ],
+          "quote": "But yeah, I think we really need more interpretability work in this vein.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            898.244,
+            914.468
+          ],
+          "quote": "And I think in context, learning and reasoning are unfortunately vastly neglected in the world of interpretability compared to how, I think, how defining they are for how we think about lots of the high-level things that LLMs do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            944.785,
+            948.088
+          ],
+          "quote": "Where's the red phone to call the interpretability department?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1399.687,
+            1413.137
+          ],
+          "quote": "And I think more broadly, I think that this is a piece of the puzzle, the thinking about interpretability of LLMs and not just feed forward networks, is that everything that LLMs are doing is happening dynamically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1454.168,
+            1468.878
+          ],
+          "quote": "I think a lot of interpretability work sort of focuses on these like templates where there's just sort of a couple variables that are changed in the input and behavior is mentioned on like one token or one sort of output variable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1839.504,
+            1851.438
+          ],
+          "quote": "Does your experience make you feel like we're ready for continual learning in terms of our interpretability techniques or that it will still pose like a step change, increase in difficulty?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1854.478,
+            1863.765
+          ],
+          "quote": "I think for your question of whether our current like interpretability techniques will face challenges with continual learning, I think it really depends on how continual learning plays out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1883.86,
+            1891.605
+          ],
+          "quote": "I think if that's the case, then there's a possibility that we'll have to have interpretability, our interpretability techniques will have to evolve as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            2147.775,
+            2155.198
+          ],
+          "quote": "Interpretability applied to different architectures have been, for me, like, quite pleasant surprises in terms of how well techniques have translated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2814.951,
+            2825.715
+          ],
+          "quote": "And I'm sure that's a factor for you too, but at Goodfire, you guys have significant resources and you've built some infrastructure to do interpretability on whatever, Kimmy K3, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2936.388,
+            2956.871
+          ],
+          "quote": "qualitatively different I think if it's like you know in the below a billion parameters depending on the task sometimes there are still interesting behaviors you can get out but then I think there's a lot you can learn by like training models from scratch where you train like toy neural networks or transformers on on a version of your task and you look at learning dynamics or you do interpretability on them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2975.768,
+            2997.082
+          ],
+          "quote": "And so with choosing a model I usually I tend towards like the scale of seven to eight billion or more being a sweet spot where like you can start to do good interpretability research and I think also like the few billion models can be good if your task is like relatively simple but I think sort of around that scale of like eight billion or more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            3198.72,
+            3204.705
+          ],
+          "quote": "But I think like in terms of the kind of work we do with interpretability, this doesn't, I think it's not too much of a blocker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            3246.395,
+            3253.78
+          ],
+          "quote": "Does that mean that interpretability research today outside of proprietary model companies is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            3267.775,
+            3273.179
+          ],
+          "quote": "Or are we, like, we have to use Chinese models if we want to do frontier interpretability in today's world?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            3365.497,
+            3368.839
+          ],
+          "quote": "I think that would really get in the way of a lot of good interpretability research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            3374.82,
+            3391.405
+          ],
+          "quote": "And we could probably, if we, well, depends what we had access to, but if we had access to some open source models, I think like there's a lot of foundational interpretability research that could have been studying LLMs from a few years ago and could keep doing that for like, I don't know, a long time from now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            3430.226,
+            3442.793
+          ],
+          "quote": "Yeah, I'd hate to see you have to report to some bunker in the Nevada desert to do your interpretability research underground or whatever the scheme would be in that scenario.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 481,
+          "t": [
+            3682.425,
+            3705.338
+          ],
+          "quote": "You know, I think something that I really want more people who in these fields who are critical of the research do is instead of just seeing it as problematic when people use these words to come and, you know, share your own perspective, you know, start talking to interpretability researchers or whoever who's studying AI and start talking about like, what are beliefs, what are decisions and models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 800,
+          "t": [
+            5818.497,
+            5823.08
+          ],
+          "quote": "I think there's another layer of interpretability and really interesting scientific problems to study there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 858,
+          "t": [
+            6158.667,
+            6160.248
+          ],
+          "quote": "We just need more interpretability research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 862,
+          "t": [
+            6189.062,
+            6202.498
+          ],
+          "quote": "You know, many trillions of dollars and I'm in like the largest interpretability company, maybe the only substantial one that has a value of over a billion dollars and I feel like this is a big deal, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 871,
+          "t": [
+            6243.165,
+            6254.113
+          ],
+          "quote": "And just to be clear, I think when I say interpretability, I also don't want people to feel that I'm excluding evaluations because I think it's all sort of one big spectrum of understanding AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 888,
+          "t": [
+            6365.378,
+            6370.46
+          ],
+          "quote": "All else equal, we might as well bring the agents to bear on this interpretability challenge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 935,
+          "t": [
+            6657.946,
+            6672.793
+          ],
+          "quote": "I think two big ones since the summer that have come in pretty strongly are there is of course the idea of like agents doing interpretability which we just talked about with Silico and then I'm also on a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 937,
+          "t": [
+            6676.737,
+            6692.856
+          ],
+          "quote": "And this does seem like, you know, if we want interpretability to keep up with the breakneck speed of the field, like, it might be the only way we can really keep up is having parts of this be automated and figuring out, like, how we can standardize, like, interpretability as a sort of...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 940,
+          "t": [
+            6719.067,
+            6724.134
+          ],
+          "quote": "And I gave a similar answer here and talking about how agents can automate interpretability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 943,
+          "t": [
+            6735.524,
+            6746.913
+          ],
+          "quote": "And I think this was always a thing that a lot of people at the company were interested in and people interested in interpretability have a very high overlap with people interested at least to some degree in problems like alignment and safety.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 944,
+          "t": [
+            6747.453,
+            6753.298
+          ],
+          "quote": "I mean, this is sort of like when I was first getting under interpretability, I was participating in this safety",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 946,
+          "t": [
+            6759.544,
+            6760.585
+          ],
+          "quote": "About interpretability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            6909.461,
+            6913.244
+          ],
+          "quote": "Develop new interpretability methods to keep up with that or what the heck's going on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 979,
+          "t": [
+            6950.81,
+            6958.893
+          ],
+          "quote": "It's, it's very interesting going into a place where like interpretability is even like, or like things around alignment are almost like a kitchen table conversation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "本集说传统思维链像人类推理一步步来,但新推理模型像把所有可能性倒进一口锅再捞一个;RL 没有保持人类可读的动力,思维链方言演化,监控正变得越来越不可靠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.018,
+            33.418
+          ],
+          "quote": "After recently speaking with Bronson Shane of Apollo Research, who explained that even with access to models internal chain of thought, it is still often extremely difficult to determine how a model will decide to act, I asked Claude to survey the literature to see what the field as a whole understands about how these critical decision tokens are chosen.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            64.382,
+            83.615
+          ],
+          "quote": "We start today with a survey of Eric's work over the last couple of years, beginning with his 2024 paper on Forking Paths in Neural Text Generation, in which he conducted a massive resampling experiment at every token of a model's chain of thought to identify the critical tokens where uncertainty around the final answer suddenly collapses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            159.891,
+            180.59
+          ],
+          "quote": "We also get Eric's thoughts on why Chain of Thought is getting so weird, including his perspective on the Chain of Thought dialect and the strange language that Astra uses to communicate with sub-agents, plus his pro tips for using Goodfire's Silico research agent, and how he hopes future AI product interfaces will begin to resurface model uncertainty to users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            183.043,
+            192.049
+          ],
+          "quote": "The bottom line from this conversation and others I've had recently on the future of AI monitoring and control is that chain of thought is increasingly unreliable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            260.687,
+            275.301
+          ],
+          "quote": "Upstream conversation I had of this one was with Bronson Shane at Apollo, who has the dubious distinction perhaps of having read maybe more chain of thought reasoning than like any other living human, at least any living human who can talk about it all publicly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            295.615,
+            302.58
+          ],
+          "quote": "And even having read all the chain of thought that came before that, it's often like very not obvious why they made the decision that they made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            420.159,
+            428.821
+          ],
+          "quote": "And what we do is we take reasoning chains, we give it a chain of, we give it a question and a chain of thought prompt and have it reason through, you know, step by step.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            792.918,
+            800.945
+          ],
+          "quote": "So I said that this work was done a couple of years ago, and I think that modern reasoning models are a little bit, are a little bit different than chain of thought reasoning was then.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            915.894,
+            934.721
+          ],
+          "quote": "Yeah, I mean, when you talk to the guy who's read more Chain of Thought than anyone and you keep in mind that a huge amount of the Frontier company's plans right now rests on Chain of Thought monitoring as like the way we're gonna keep track of what the AI's are doing and if they're doing the right or wrong thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1584.907,
+            1598.853
+          ],
+          "quote": "I'm really curious if the person you had earlier who's looked at all these chains of thought, if he's looked at resampled outputs for the same model, or kind of done some of this resampling within a single chain of thought.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2702.987,
+            2710.057
+          ],
+          "quote": "I think traditional chain of thought reasoning really was like human reasoning in some way where it's like, let's break it down step by step.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            4607.012,
+            4617.495
+          ],
+          "quote": "In general, do we feel like these phase changes happen at, you've got this other paper about the sort of performative nature of at least some chain of thought.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 734,
+          "t": [
+            5347.355,
+            5360.438
+          ],
+          "quote": "Earlier you mentioned this idea of loop transformers, and I think loop transformers in this world of latent chain of thought that we might be going into with GPT-Astra really seems like pushing the needle on that in a big way and making",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            5428.008,
+            5440.711
+          ],
+          "quote": "But then if the model has some uncertainty and if it like in its latent chain of thought explores the different possibilities, maybe it still happens that as it's generating a response, it still is doing this flip of the coin next word prediction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 749,
+          "t": [
+            5477.405,
+            5492.794
+          ],
+          "quote": "I, I don't think lane lane chain of thought will completely change that because you still eventually do go into this sampling tokens regime, but yeah, it, it might change the, it might change that in, in, in some pretty dramatic ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 751,
+          "t": [
+            5497.497,
+            5503.961
+          ],
+          "quote": "What's going on inside the latent chain of thought and how do we think about that with some of the tools that we have?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 753,
+          "t": [
+            5509.604,
+            5514.427
+          ],
+          "quote": "Do you have intuitions for why the chain of thought is getting wonky?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            5519.281,
+            5528.589
+          ],
+          "quote": "dialect or way of processing information clearly that goes on in the chain of thought with all this like vantage, illusions, disclaim, whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 775,
+          "t": [
+            5663.939,
+            5671.243
+          ],
+          "quote": "And similarly, if you optimize for a chain of thought being monitorable, then sometimes the chains of thought are less faithful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 782,
+          "t": [
+            5719.749,
+            5730.192
+          ],
+          "quote": "Where I used to be very bullish around chain of thought monitoring being promising, where even if it's not perfectly faithful, there's something about it that it is strongly determining what the model can do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 783,
+          "t": [
+            5730.912,
+            5736.935
+          ],
+          "quote": "But then some of like, there is like the stolen chain of thought paper that shows some of the chain of thought of GBT models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 790,
+          "t": [
+            5766.872,
+            5779.56
+          ],
+          "quote": "That there is chain of thought and that things do get forced into a token stream, even if it's harder to read, I'd like to think it's easier to understand like a LLM made up language and probably really interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 797,
+          "t": [
+            5799.95,
+            5812.014
+          ],
+          "quote": "But then, yeah, we might, again, for this latent chain of thought point, we might move into a world where chain of thought is latent and how planners talk to sub-agents is also latent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 804,
+          "t": [
+            5844.697,
+            5854.732
+          ],
+          "quote": "Your comments just now about this quick dramatic evolution of language within Chain of Thought and within Agent to Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 872,
+          "t": [
+            6254.734,
+            6261.519
+          ],
+          "quote": "And the work I described earlier with understanding chain of thought and doing this resampling really is in principle behavioral.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 971,
+          "t": [
+            6904.679,
+            6908.301
+          ],
+          "quote": "I think latent chain of thought, we're talking about that a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            6913.364,
+            6916.606
+          ],
+          "quote": "And, hey, did you see the stolen chain of thought paper?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "in-context-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文学习 (in-context learning)",
+      "file": "上下文学习",
+      "primary": true,
+      "how_described": "Eric 理解大模型的核心框架:不只是少样本示例,而是模型每读一个新词内部表征都在变化,推理就是模型从自己生成的文字中做上下文学习;他判断个性化将靠记忆与上下文而非微调实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            113.325,
+            125.651
+          ],
+          "quote": "Eric frames much of what we are seeking to understand about LLMs in terms of in-context learning, emphasizing that few-shot prompts are just one clear example of how much runtime context can shape model behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            473.754,
+            481.622
+          ],
+          "quote": "And it turns out that you actually have these during reasoning and in context learning as well, where over the course of reasoning,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            740.212,
+            745.037
+          ],
+          "quote": "One of the other big influences in my work is thinking about in-context learning and how models adapt to context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            745.277,
+            751.183
+          ],
+          "quote": "And the way I think about reasoning is that models are basically in-context learning from things that they have generated already.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            898.244,
+            914.468
+          ],
+          "quote": "And I think in context, learning and reasoning are unfortunately vastly neglected in the world of interpretability compared to how, I think, how defining they are for how we think about lots of the high-level things that LLMs do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            1137.54,
+            1147.745
+          ],
+          "quote": "For starters, let's go on this relationship between in-context learning and other things, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1147.785,
+            1157.109
+          ],
+          "quote": "Like there's been a lot of work that's looked at, if not, this is maybe too strong, but sort of an isomorphic relationship between in-context learning and fine-tuning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1180.891,
+            1184.612
+          ],
+          "quote": "So I think the most important thing I'd say about in context learning that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1185.183,
+            1201.715
+          ],
+          "quote": "may not be obvious for people, especially if you're just getting started learning about it, is that I think when people say in context learning historically, it's meant this sort of traditional few shot, give a few shots of input output examples and see how the model behavior changes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1214.608,
+            1229.272
+          ],
+          "quote": "The way I think of in-context learning, and I think there's a few other people that have echoed this, and one paper that I like around this is by Andrew Lambin and others on the, I think it's called the broader spectrum of in-context learning, where I think",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1230.647,
+            1238.65
+          ],
+          "quote": "What I think of in-context learning as capturing is everything the model is doing to adapt its behavior that's not happening within weights learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1257.136,
+            1261.1
+          ],
+          "quote": "I think this view of in-context learning is sort of being really like ubiquitous.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1476.69,
+            1493.139
+          ],
+          "quote": "One other point I want to sort of raise on this view of in-context learning is that something I was inspired by too at the time with grokking in this kind of work was this idea that if you look at learning curves over a huge dataset, they'll be very, very smooth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1531.447,
+            1546.913
+          ],
+          "quote": "And I think in-context learning is like that too, where if you look at aggregate, if you look across a large data set, things might look smooth, maybe deceptively so, but actually individual cases like an individual story have these really non-linear dynamics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1566.624,
+            1575.65
+          ],
+          "quote": "And so I think another thing that I think is sometimes missing from views of in-context learning is this zooming onto one example sort of problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1678.057,
+            1690.6
+          ],
+          "quote": "And so I think we need to do more of that, like looking at like a lot of resampled outputs for the same input examples to kind of understand like how bumpy or smooth the landscape of in-context learning is for these models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1805.696,
+            1816.521
+          ],
+          "quote": "Trying to understand in context learning suggests or implies about how much additional challenge full continual learning might present.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            2027.275,
+            2030.237
+          ],
+          "quote": "To the question about thinking about continual learning and in-context learning,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            2031.861,
+            2050.5
+          ],
+          "quote": "My personal view, I mean, again, I don't have strong perspectives around the architecture argument, but I think there's sort of a bit of a bitter lesson around prompting and in-context learning and context engineering and harnesses and all that, that they might be all you need for quite a lot of stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 561,
+          "t": [
+            4157.927,
+            4171.015
+          ],
+          "quote": "There's a question of like, how does this change across a lot of different inputs or how do these beliefs change through the course of in-context learning or as a model's reading a passage or as it's generating a chain of reasoning?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 873,
+          "t": [
+            6261.599,
+            6265.142
+          ],
+          "quote": "And when you see these in-context learning dynamics, you can see that with behavior.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sampling",
+      "type": "concept",
+      "role": "concept",
+      "name": "采样 (sampling)",
+      "file": "采样",
+      "primary": true,
+      "how_described": "本集核心结论:Forking Paths 研究显示 AI 的决策发生在从 token 分布中采样的那一刻,分布可能在开括号这样的小词上突然坍缩,采样参数如今被各家 API 收走令人遗憾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            93.207,
+            102.31
+          ],
+          "quote": "Interestingly, Eric says that a system's decisions are actually taken not so much by the model itself, but by the process of sampling from the model's final token distribution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            720.663,
+            736.03
+          ],
+          "quote": "And so to go back to your question, I think the simple answer I have is that I think this decision really happens during sampling is my biggest part of how I think about this is that again, every token that's generated by the model",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            757.127,
+            764.449
+          ],
+          "quote": "There's these coin flips that are happening as it's, you could say deciding, but it's really just a sampling from a distribution of these alternate tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            2296.437,
+            2306.526
+          ],
+          "quote": "So how would you describe, how would you like tell the story of two years ago when you were doing this like super high volume sampling and you were seeing these like pivotal tokens",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2323.564,
+            2328.467
+          ],
+          "quote": "And I'm also just interested, do you even know like how sampling is being done these days?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            2335.585,
+            2342.97
+          ],
+          "quote": "I'll say first that I wish I knew what the sampling parameters were for the Claude API and for the latest GPT models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            2381.983,
+            2387.33
+          ],
+          "quote": "Why they did this rather than that they're actually doing a different sampling scheme under the surface.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2570.6,
+            2578.808
+          ],
+          "quote": "I mean, I haven't done like a really massive scale of sampling like hundreds or thousands of different outputs and looking them, looking at them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2662.586,
+            2678.634
+          ],
+          "quote": "My impression of at least like probably the most state-of-the-art proprietary models like GPT-6, Astra, why can't it generate different stories is probably that it just generated a bunch of different possibilities in its reasoning chain and then it's going back and looking at them and that's where the sampling is really happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            4071.09,
+            4081.633
+          ],
+          "quote": "You have done this sampling project to figure out what's the full universe of possibility that an AI might generate in response to a given prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            4476.998,
+            4489.823
+          ],
+          "quote": "But maybe they represent just like a couple steps ahead and I'm working on a project that's sort of studying exactly this and showing that there are that you actually can decode to some extent what models are going to do next and you can actually guide sampling based on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            4490.503,
+            4495.525
+          ],
+          "quote": "And to some extent you can guide sampling based on their predictions of their sort of final outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 690,
+          "t": [
+            5090.199,
+            5094.324
+          ],
+          "quote": "It requires like a lot of sampling to get real uncertainty over reasoning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            5295.888,
+            5302.211
+          ],
+          "quote": "But then I do think stochasticity and sampling is still such an integral part of the equation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 749,
+          "t": [
+            5477.405,
+            5492.794
+          ],
+          "quote": "I, I don't think lane lane chain of thought will completely change that because you still eventually do go into this sampling tokens regime, but yeah, it, it might change the, it might change that in, in, in some pretty dramatic ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 855,
+          "t": [
+            6138.707,
+            6153.354
+          ],
+          "quote": "Of course, there's like the sampling process on a distribution, but when we get to these critical tokens, it seems like we still don't have all that great of an account of how does that distribution from which we then sample get determined?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 918,
+          "t": [
+            6532.608,
+            6537.61
+          ],
+          "quote": "And then like for me, once I like did really high sampling and I saw that curves were smooth, it kind of clicked.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stochasticity",
+      "type": "concept",
+      "role": "concept",
+      "name": "随机性 (stochasticity)",
+      "file": "随机性",
+      "primary": true,
+      "how_described": "本集说「随机鹦鹉」比喻该退休,但随机性没死:想要输出多样性与自洽,分叉就是不可避免的副产品,Eric 不愿住在一个同样输入永远得到同样输出的世界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            103.09,
+            111.132
+          ],
+          "quote": "Which means that while the stochastic parrot paradigm should definitely be retired, stochasticity still plays an important role in model behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            754.046,
+            757.087
+          ],
+          "quote": "There's sort of this stochasticity that's happening.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            5295.888,
+            5302.211
+          ],
+          "quote": "But then I do think stochasticity and sampling is still such an integral part of the equation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 733,
+          "t": [
+            5340.673,
+            5344.874
+          ],
+          "quote": "But yeah, I think stochasticity is definitely not dead.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rl",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL",
+      "file": "RL",
+      "primary": true,
+      "how_described": "本集说 RL 锐化分布、让输出变「熟」,且若只按最终结果给奖励,模型没有任何动力保持思维链人类可读,导致模型用「音乐剧」等暗号绕过监控。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            192.669,
+            201.975
+          ],
+          "quote": "And that because these issues seem to correlate not just with RL training, but with the power of the raw pre-trained model itself, this trend might be quite difficult to reverse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2494.453,
+            2497.336
+          ],
+          "quote": "And then I think RL does something very",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2498.937,
+            2513.484
+          ],
+          "quote": "Pretty different and I think a couple projects I've worked on have shaped a lot how I've thought about RL as well as some of these things recently about actually looking at the reasoning of models and seeing how uninterpretable they are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2514.144,
+            2515.685
+          ],
+          "quote": "And I think RL kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2687.857,
+            2694.579
+          ],
+          "quote": "But then, I don't know, I should probably do more systematic studies with RL models to understand this problem of diversity better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            5572.156,
+            5585.145
+          ],
+          "quote": "Yeah, I think that reasoning kind of presents this really interesting challenge of distribution shift, or like RL in general, where when you're doing RL, whether it's with like a single model or with sub-agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            5683.53,
+            5699.724
+          ],
+          "quote": "And I think, unfortunately, that's kind of the situation we're in with RL, where we're kind of giving models like this freedom of like, if we're only giving them reward or punishment based on their final outcome, then they might as well speak to their sub-agents and like weird.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 786,
+          "t": [
+            5748.1,
+            5753.402
+          ],
+          "quote": "And I think it's kind of obvious in retrospect, why this would happen, because again, if you're doing RL,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 809,
+          "t": [
+            5880.399,
+            5890.988
+          ],
+          "quote": "The representations that we can understand as baseline, whereas these RL training runs are just so massive that it's essentially operating on geological time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 822,
+          "t": [
+            5928.553,
+            5931.737
+          ],
+          "quote": "But it seems like something in this RL thing has changed them quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 828,
+          "t": [
+            5951.437,
+            5957.503
+          ],
+          "quote": "Whereas like a zillion RL episodes cumulatively can make a big change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            5961.106,
+            5971.056
+          ],
+          "quote": "So I think, I think this is a very, this is a very interesting point that like maybe the representations actually are changing a lot during RL as these like languages themselves are changing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 847,
+          "t": [
+            6066.18,
+            6089.713
+          ],
+          "quote": "Over the course of RL and when when models like if you can measure how weird their language is getting like what's happening under the surface is there really like are there really deeper changes happening are there like as the sub agents go into these like really compressed pseudo languages are they developing like are the internal representations shifting in a dramatic way to be different maybe maybe not I'd really love to know.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": true,
+      "how_described": "本集说 Kimi K3 编码能力跨过阶跃函数后展现出小模型上看不到的疯狂奖励作弊行为,Goodfire 正用它研究这类想理解的危险行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            138.845,
+            158.402
+          ],
+          "quote": "Along the way, we also discuss why 7 to 8 billion parameters currently seems to be the interpretability sweet spot, why KimiK3 was a step function for studying frontier-level coding and reward hacking, and why, for now at least, interpretability outside of the frontier model companies does meaningfully depend on Chinese open-weights models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            3158.095,
+            3166.658
+          ],
+          "quote": "And although I haven't studied this personally, I've seen some of the other research that people at Goodfire have done recently, like with reward hacking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            3171.3,
+            3177.804
+          ],
+          "quote": "And also it exhibits this, you know, reward hacking, like crazy behavior that you just don't see at smaller scales.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            3212.971,
+            3234.347
+          ],
+          "quote": "I think this reward hacking with Kimmy is a really interesting example where it seems like just having the model pass that step function just in terms of some particular behavior coding ability was very important to start also getting to see these really dangerous behaviors that we want to study and understand better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            3398.869,
+            3420.862
+          ],
+          "quote": "But then I think maybe some of the most important behaviors to study for risk, reward hacking, or some of these sketchy things that can happen around misalignment that really are emergent behaviors with scale that only come out once you reach some point of capabilities where you're studying the same behavior and not something that's just like it in some way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 955,
+          "t": [
+            6812.614,
+            6829.537
+          ],
+          "quote": "I mean, I think like some of these things with like reward hacking and what's happening when things are going awry with models, when, when they're doing something bad, so to speak, it really like, it's really easy to slip into these like deep questions about like, did the model have an intention of doing this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 960,
+          "t": [
+            6845.041,
+            6846.581
+          ],
+          "quote": "Was it reward hacking?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "type": "company",
+      "role": "company",
+      "name": "Kimi K3",
+      "file": "Kimi K3",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 424,
+          "t": [
+            3257.929,
+            3267.715
+          ],
+          "quote": "Is there an American model that you could use as a substitute for Kimi K3 that you feel like wouldn't lose that much of the value?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "quen",
+      "type": "company",
+      "role": "company",
+      "name": "Quen",
+      "file": "Quen",
+      "primary": true,
+      "how_described": "本集说嘉宾深入研究的 Quen 模型(原文误作 Quen,即 Qwen)在其规模上是真正最先进的,喜欢用中文思考,被 RL 训得较狠。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            2516.585,
+            2544.566
+          ],
+          "quote": "I don't know how to think about it in terms of it like I think it sort of sharpens the distribution in some ways or like there's some really RLed smaller open source models that are like kind of cooked like they'll kind of like you know I've done a bunch of experiments recently with this Quen 3.635A3B like model and it was RLed pretty heavily and when you give it the when you give it this kind of prompt of like give me a story",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2861.168,
+            2875.885
+          ],
+          "quote": "There are idiosyncrasies of like, Quen really likes to think in Chinese and if you do the Logit lens on Quen sometimes there will be a lot of Chinese characters sort of in the middle before it starts outputting English tokens if you're talking to it in English.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            3024.513,
+            3031.056
+          ],
+          "quote": "And then, um, I mentioned that recently studying this Quen 35B A3B model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            3302.945,
+            3313.371
+          ],
+          "quote": "I do study the Quen models pretty heavily, and I think they are really state of the art for their model scales, and I'm very glad that they exist and I can study them.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说前沿可解释性目前实质依赖中国开源权重模型,若对所有开源模型一刀切禁令,会严重拖慢对最危险行为的研究,希望美国公司加大开源投入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            2516.585,
+            2544.566
+          ],
+          "quote": "I don't know how to think about it in terms of it like I think it sort of sharpens the distribution in some ways or like there's some really RLed smaller open source models that are like kind of cooked like they'll kind of like you know I've done a bunch of experiments recently with this Quen 3.635A3B like model and it was RLed pretty heavily and when you give it the when you give it this kind of prompt of like give me a story",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            3132.287,
+            3137.43
+          ],
+          "quote": "And I think that that is one of the things that really differentiates the proprietary models from the open source models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            3291.618,
+            3297.982
+          ],
+          "quote": "Couldn't be closed easily if there was more investment in open source models from American companies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            3353.589,
+            3362.655
+          ],
+          "quote": "I think there have been some loose discussions around placing restrictions on open source models, bar none, regardless of where they're coming from.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            3374.82,
+            3391.405
+          ],
+          "quote": "And we could probably, if we, well, depends what we had access to, but if we had access to some open source models, I think like there's a lot of foundational interpretability research that could have been studying LLMs from a few years ago and could keep doing that for like, I don't know, a long time from now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            3421.622,
+            3426.364
+          ],
+          "quote": "I think those would be slowed down if there was a ban on open source models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 970,
+          "t": [
+            6892.134,
+            6904.259
+          ],
+          "quote": "I mean, we talk about whether Chinese models might get banned in the US and whether open source models will stay and all these kinds of conversations that are happening on the outside about AI and new model releases.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "silico",
+      "type": "company",
+      "role": "company",
+      "name": "Silico",
+      "file": "Silico",
+      "primary": true,
+      "how_described": "本集说 Silico 是 Goodfire 推出的研究智能体,Forking Fast 论文完全由它一周内完成;使用心得是像带一二年级博士生一样手把手给上下文,并守住科学品味。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            159.891,
+            180.59
+          ],
+          "quote": "We also get Eric's thoughts on why Chain of Thought is getting so weird, including his perspective on the Chain of Thought dialect and the strange language that Astra uses to communicate with sub-agents, plus his pro tips for using Goodfire's Silico research agent, and how he hopes future AI product interfaces will begin to resurface model uncertainty to users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 886,
+          "t": [
+            6357.129,
+            6359.57
+          ],
+          "quote": "Any tips for Silico users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            6370.84,
+            6375.782
+          ],
+          "quote": "It's been too long since I talked to Dan about it as Silico was just launching, but have you guys learned broadly?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 891,
+          "t": [
+            6376.562,
+            6384.265
+          ],
+          "quote": "What should I be sure to take to my Silico sessions to get the most from my precious research units?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 893,
+          "t": [
+            6385.245,
+            6390.726
+          ],
+          "quote": "So the thoughts I have here I think also apply to other agents too and not just Silico.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 914,
+          "t": [
+            6512.162,
+            6517.464
+          ],
+          "quote": "When I did this Forking Fast paper, which all the research was done fully by Silico, and it was awesome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 926,
+          "t": [
+            6593.947,
+            6604.014
+          ],
+          "quote": "I think like using Silico is kind of like using, like working with a very eager, like first or maybe second year PhD student that has a lot of skills and is hardworking, but also like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            6657.946,
+            6672.793
+          ],
+          "quote": "I think two big ones since the summer that have come in pretty strongly are there is of course the idea of like agents doing interpretability which we just talked about with Silico and then I'm also on a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 939,
+          "t": [
+            6709.335,
+            6719.047
+          ],
+          "quote": "But yeah, I think we're talking about this exact kind of topic about like, I mean, I just talked to someone the other day about, you know, how can I do good research with Silico?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 941,
+          "t": [
+            6724.214,
+            6727.057
+          ],
+          "quote": "And obviously that was big with the push for Silico.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
