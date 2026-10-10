@@ -121,8 +121,8 @@ Evals(评估，衡量模型/系统表现好坏的测试)公认难做：LLM 不�
 **顺着「智能体」挖下去**
 
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、零信任 (zero trust)、可观测性 (observability)</span>
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|为什么做一个评估平台比看起来难得多]]<span class="pd-rz">同概念:evals、智能体 (agent)、LLM、可观测性 (observability)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:evals、智能体 (agent)、LLM</span>
-- [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:evals、智能体 (agent)、可观测性 (observability)</span>
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,571 @@
+{
+  "episode_id": "2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m",
+  "podcast": "Beyond Coding",
+  "date": "2026-09-16",
+  "tags": [
+    "就业市场",
+    "求职与招聘",
+    "开源贡献",
+    "AI 与工程师职业",
+    "职业成长"
+  ],
+  "categories": [
+    "职业与个人成长",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ai-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 智能体 (AI agent)",
+      "file": "AI 智能体",
+      "primary": true,
+      "how_described": "本集说公司正在设计专门的智能体编程面试环节,评估人如何与智能体互动、引导循环、拆解任务;并说与 AI 智能体协作和带一个初级工程师差不多,而智能体正在接手初级工程师的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            86.39,
+            90.993
+          ],
+          "quote": "Working with an AI agent is not dissimilar to working with a junior engineer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集把开源贡献讲成简历同质化时代的一条真实求职路径:辍学工程师靠长期给 Terraform 相关项目贡献、参加社区会议被 HashiCorp 挖走,但强调别抱着「贡献就能被雇」的功利心,还要模仿维护者的风格降低审阅成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            908.438,
+            914.942
+          ],
+          "quote": "My colleagues, for example, they want to contribute to open source, but then their PR gets stale or it stays open for a long, long time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            935.101,
+            939.207
+          ],
+          "quote": "Yeah, that's a very common problem, I would say, in open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1151.057,
+            1153.378
+          ],
+          "quote": "I think open source is a good alternative.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1217.713,
+            1220.335
+          ],
+          "quote": "But that's not what I do open source for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1582.57,
+            1586.711
+          ],
+          "quote": "Would you advise people to start contributing to open source in any aspect of their career?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1613.874,
+            1618.938
+          ],
+          "quote": "You don't become a better engineer by forcing yourself to contribute to open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "job-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "就业市场 (job market)",
+      "file": "就业市场",
+      "primary": true,
+      "how_described": "本集主线:2026 年超 12 万人被裁却仍有近 6 万软件工程师空缺,裁员先是成本削减、裁完才发现还是需要人,市场需求转向 AI 方向工程师,震荡比以往任何时候都快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            60.267,
+            61.668
+          ],
+          "quote": "How bad is the job market right now?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            108.124,
+            109.785
+          ],
+          "quote": "I wanted to talk about the job market.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            110.365,
+            112.987
+          ],
+          "quote": "And from your perspective, how bad is the job market right now?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            113.98,
+            116.421
+          ],
+          "quote": "Job market's not great, quite frankly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            452.162,
+            455.705
+          ],
+          "quote": "I want to zoom into kind of the current day job market out there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            816.481,
+            825.506
+          ],
+          "quote": "So I remember when I was doing my masters here in the Netherlands, I think we had like a one day workshop on the Dutch job market and it was so fast and so much information.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1731.305,
+            1734.187
+          ],
+          "quote": "And I think that that's also a shift in the job market that we're seeing.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "soft-skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "软技能 (soft skills)",
+      "file": "软技能",
+      "primary": true,
+      "how_described": "本集说硬技能让你进入房间,但真正让你留下的是适应力和韧性这两项软技能——因为技术、公司、同事都会超越你。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            459.808,
+            465.993
+          ],
+          "quote": "You already mentioned soft skills and figuring out from the business side what you're working on and how that contributes to results.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 117,
+          "t": [
+            501.087,
+            504.11
+          ],
+          "quote": "I think there are two specific soft skills that you need to have.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "adaptability",
+      "type": "concept",
+      "role": "concept",
+      "name": "适应性 (adaptability)",
+      "file": "适应性",
+      "primary": false,
+      "how_described": "本集把它说成与韧性并列的关键软技能:主动在问题显现前识别问题、带着多个选项和已做过的小规模试验去找方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            504.491,
+            506.193
+          ],
+          "quote": "Adaptability and resilience.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 129,
+          "t": [
+            548.302,
+            553.866
+          ],
+          "quote": "When it comes to adaptability and resilience, for me, sometimes they might be kind of opaque concept.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            554.386,
+            558.529
+          ],
+          "quote": "How do you make them tangible or how do I show resilience or adaptability as an IC?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hashicorp",
+      "type": "company",
+      "role": "company",
+      "name": "HashiCorp",
+      "file": "HashiCorp",
+      "primary": true,
+      "how_described": "本集嘉宾因长期给 Terraform 相关项目做贡献、参加社区时间和 HashiCorp 大会,最终被 HashiCorp 主动招揽——作为开源贡献换来的真实工作机会的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1229.122,
+            1238.747
+          ],
+          "quote": "And I happened to be offered a job at HashiCorp through all the contributions I did because I positioned myself within that community and within that ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1250.212,
+            1258.042
+          ],
+          "quote": "I attended multiple times HashiCorp, which is the HashiCorp conference, where I spoke to the teams directly that I contributed to and some other folks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集说嘉宾已经好几年没做过简历,工作都是别人在 GitHub 上主动找上门的;GitHub 赞助计划甚至给他寄钱,他还建议在 GitHub 上找最活跃贡献者已合并的请求来模仿风格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            665.906,
+            669.868
+          ],
+          "quote": "Jobs or companies I've now worked for was true folks approaching me on GitHub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            963.67,
+            972.594
+          ],
+          "quote": "And how I at some point navigated that is I just, in GitHub there's a great way to figure out who contributes the most to the repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1597.775,
+            1605.817
+          ],
+          "quote": "He said some of the best engineers don't have a great GitHub profile and don't spend all their time on social media.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集拿它当大厂裁员潮中的反例:OpenAI 仍在招聘,计划年底前把员工规模翻倍,中小型 AI 公司也还在增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            91.513,
+            104.522
+          ],
+          "quote": "So let's say if someone listening wants to work at, name the biggest companies, OpenAI, Anthropic, is there a stepped approach they can take specifically to put themselves out there, get a foot in the door and potentially land the job?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            209.429,
+            211.671
+          ],
+          "quote": "So for example, OpenAI is still hiring.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": true,
+      "how_described": "本集招聘者以 LinkedIn 为例谈冷邮件策略:私信回复率只有约 20%,所以要像做实验一样写不同版本并追踪回复率,消息要关于对方而不是自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            37.131,
+            38.831
+          ],
+          "quote": "Then I tried LinkedIn Hiring Pro.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 14,
+          "t": [
+            47.333,
+            52.874
+          ],
+          "quote": "You know, 60% of hirers found a candidate to interview in the first week using LinkedIn Hiring Pro.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 16,
+          "t": [
+            55.814,
+            59.955
+          ],
+          "quote": "Post your job for free on LinkedIn today at linkedin.com slash quality.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 189,
+          "t": [
+            885.049,
+            886.749
+          ],
+          "quote": "Then I tried LinkedIn Hiring Pro.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 192,
+          "t": [
+            895.231,
+            900.772
+          ],
+          "quote": "You know, 60% of hirers found a candidate to interview in the first week using LinkedIn Hiring Pro.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 194,
+          "t": [
+            903.732,
+            907.853
+          ],
+          "quote": "Post your job for free on LinkedIn today at linkedin.com slash quality.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1061.095,
+            1064.897
+          ],
+          "quote": "So right now the response rate on LinkedIn is only around 20%.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1114.196,
+            1118.059
+          ],
+          "quote": "So if you send out different kind of reach out messages on LinkedIn, track those.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1966.696,
+            1973.019
+          ],
+          "quote": "With LinkedIn Hiring Pro, I get a short list of top-fit candidates, and I can chat with it, just like I would a recruiter.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1980.944,
+            1985.887
+          ],
+          "quote": "You know, four out of five small businesses agree LinkedIn helps businesses make better hiring decisions.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1987.888,
+            1991.17
+          ],
+          "quote": "Post your job for free on LinkedIn today at linkedin.com slash quality.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "terraform",
+      "type": "concept",
+      "role": "concept",
+      "name": "Terraform",
+      "file": "Terraform",
+      "primary": false,
+      "how_described": "本集说嘉宾为了更好地理解 Terraform 而开始为它做贡献,由此被 HashiCorp 挖走。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1633.028,
+            1640.254
+          ],
+          "quote": "So I get to build on top of Kubernetes, I get to use Terraform or AWS CDK, but I don't get to build those tools from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1652.762,
+            1656.544
+          ],
+          "quote": "For me to better understand Terraform, I started contributing to it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nebius",
+      "type": "company",
+      "role": "company",
+      "name": "Nebius",
+      "file": "Nebius",
+      "primary": false,
+      "how_described": "本集嘉宾提到如果现在想加入 Nebius,自己大概会挂在算法题上,以此引出对算法面试的讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1739.81,
+            1745.874
+          ],
+          "quote": "Like if I would want to join Nebius right now, I would fail specifically probably for those algorithms.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "xebia",
+      "type": "company",
+      "role": "company",
+      "name": "Xebia",
+      "file": "Xebia",
+      "primary": false,
+      "how_described": "本集说嘉宾目前是 Xebia 的工程师,大量使用现成软件、在 Kubernetes 之上构建,却很少从零造工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 322,
+          "t": [
+            1626.123,
+            1631.447
+          ],
+          "quote": "Currently in my position as an engineer here at Xebia, I use a lot of software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": false,
+      "how_described": "本集招聘者提到自己曾在 Reddit 工作,并用它举例说明冷邮件/主动联系的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            159.296,
+            163.578
+          ],
+          "quote": "So for example, you know, I've worked at Reddit and Uber and Disney Plus.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1050.971,
+            1058.174
+          ],
+          "quote": "So for example, when I wanted to work at some of the companies I did, so for example, when I joined Reddit, I was like, okay, who's working there?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1131.767,
+            1135.349
+          ],
+          "quote": "I saw this post on Reddit, a person that said, I've hired hundreds of engineers.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

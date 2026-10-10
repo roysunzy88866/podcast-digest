@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[Jon Noronha]] · [[Julien Bek]] · [[Steven Sinofsky]] · [[Gamma]] · [[Harry Stebbings]] · [[对齐]] · [[PowerPoint]] · [[Sequoia]] · [[bug]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":185,"Jon Noronha":1,"Julien Bek":1,"Steven Sinofsky":3,"Gamma":3,"Harry Stebbings":20,"对齐":20,"PowerPoint":1,"Sequoia":7,"bug":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":186,"Jon Noronha":1,"Julien Bek":1,"Steven Sinofsky":3,"Gamma":3,"Harry Stebbings":20,"对齐":20,"PowerPoint":1,"Sequoia":7,"bug":1}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[物理 AI]] · [[Tesla]] · [[Waymo]] · [[OpenAI]] · [[Lenny]] · [[Turner]] · [[Qasar Younis]] · [[Bilal Zuberi]] · [[自动驾驶]] · [[机器人]]
 
-<script type="application/json" class="pd-epn">{"物理 AI":11,"Tesla":12,"Waymo":21,"OpenAI":185,"Lenny":68,"Turner":3,"Qasar Younis":1,"Bilal Zuberi":1,"自动驾驶":1,"机器人":13}</script>
+<script type="application/json" class="pd-epn">{"物理 AI":11,"Tesla":12,"Waymo":21,"OpenAI":186,"Lenny":68,"Turner":3,"Qasar Younis":1,"Bilal Zuberi":1,"自动驾驶":1,"机器人":13}</script>
 
 <script>
 (function(){

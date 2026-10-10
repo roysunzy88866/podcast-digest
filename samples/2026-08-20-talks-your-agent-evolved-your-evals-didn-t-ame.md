@@ -121,9 +121,9 @@ Braintrust 对此的做法是一个叫 Topics 的功能：对所有生产数据�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-talks-advanced-workshop-mastering-ai-observabi|智能体上线后总出问题？先学会「看见」它在干什么]]<span class="pd-rz">同公司:Braintrust · 同概念:评估 (evals)、飞轮 (flywheel)、Topics、可观测性 (observability)</span>
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|为什么做一个评估平台比看起来难得多]]<span class="pd-rz">同公司:Braintrust · 同概念:智能体 (agent)、评估 (evals)、可观测性 (observability)</span>
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同公司:Braintrust · 同概念:智能体 (agent)、评估 (evals)</span>
-- [[2026-01-11-lennys-what-openai-and-google-engineers-learned|AI 产品不能照搬软件老办法：从高控制低自主开始]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)、飞轮 (flywheel)</span>
-- [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|智能体时代，你的 PDF 数据管道拖后腿了吗]]<span class="pd-rz">同概念:RAG、智能体 (agent)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

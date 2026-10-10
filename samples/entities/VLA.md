@@ -39,7 +39,7 @@ unlisted: true
 
 [[世界模型]] · [[跨载体]] · [[LLM]] · [[Alex]] · [[Han Mei]] · [[Kirthana Gopalakrishnan]] · [[Pete Florence]] · [[AMI]] · [[Francois]] · [[Google DeepMind]]
 
-<script type="application/json" class="pd-epn">{"世界模型":13,"跨载体":2,"LLM":59,"Alex":6,"Han Mei":1,"Kirthana Gopalakrishnan":1,"Pete Florence":1,"AMI":1,"Francois":1,"Google DeepMind":7}</script>
+<script type="application/json" class="pd-epn">{"世界模型":13,"跨载体":2,"LLM":60,"Alex":6,"Han Mei":1,"Kirthana Gopalakrishnan":1,"Pete Florence":1,"AMI":1,"Francois":1,"Google DeepMind":7}</script>
 
 <script>
 (function(){

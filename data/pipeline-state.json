@@ -236,7 +236,10 @@
     "ZUZVNKFSmTM": "2026-10-06-talks-how-many-credentials-should-your-ai-agen",
     "FwiS44-xyYw": "2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c",
     "c5U-XbbEN-g": "2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an",
-    "eXA2tjRZIbY": "2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for"
+    "eXA2tjRZIbY": "2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for",
+    "hfEczxdNyvU": "2026-10-06-talks-advanced-workshop-mastering-ai-observabi",
+    "mUQoVz7THu0": "2026-10-06-talks-why-building-an-eval-platform-is-harder",
+    "uKUA1a0Kdfc": "2026-10-06-talks-move-fast-and-don-t-break-things-scaling"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -328,7 +331,8 @@
     "2026-09-24-mos-how-to-build-a-billion-dollar-sports-tea": "2026-10-10",
     "2026-09-22-mos-rebranding-in-a-war-zone-with-prosper-gl": "2026-10-10",
     "2026-09-22-howiai-opus-5-5-vs--gpt-6-sol-which-model-won-m": "2026-10-10",
-    "2026-09-21-a16z-ai-safety-language-is-destroying-the-deb": "2026-10-10"
+    "2026-09-21-a16z-ai-safety-language-is-destroying-the-deb": "2026-10-10",
+    "2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m": "2026-10-10"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -488,7 +492,7 @@
     "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-08T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
-    "latent": "2026-10-08T16:27:54.000Z"
+    "latent": "2026-10-10T00:31:26.000Z"
   },
   "skipped": [
     {
@@ -1348,6 +1352,12 @@
       "reason": "题材不对味:过时:模型盲测对比属时效性评测内容,距今 18 天已超过 14 天时效阈值",
       "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
       "pubDate": "2026-09-22T23:13:43.000Z"
+    },
+    {
+      "id": "2026-10-10-latent-biohub-deepmind",
+      "reason": "题材不对味:属于③学术研究/AI+生物科研:AlphaFold 蛋白质折叠科研话题",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "pubDate": "2026-10-10T00:31:26.000Z"
     }
   ]
 }

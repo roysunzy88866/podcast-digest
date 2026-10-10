@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":40,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":42,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
 
 <script>
 (function(){

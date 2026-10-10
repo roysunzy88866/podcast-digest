@@ -25,7 +25,7 @@ unlisted: true
 
 [[Turner]] · [[Chris Olsen]] · [[Sequoia]] · [[LLM]] · [[云计算]] · [[真空]] · [[主题化投资]] · [[投资组合构建]] · [[产品市场契合]] · [[第一性原理]]
 
-<script type="application/json" class="pd-epn">{"Turner":3,"Chris Olsen":1,"Sequoia":7,"LLM":59,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":28,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":3,"Chris Olsen":1,"Sequoia":7,"LLM":60,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":28,"第一性原理":6}</script>
 
 <script>
 (function(){

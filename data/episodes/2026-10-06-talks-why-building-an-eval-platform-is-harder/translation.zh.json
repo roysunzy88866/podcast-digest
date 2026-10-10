@@ -1,0 +1,1298 @@
+[
+ {
+  "seg": 0,
+  "start": 12.522,
+  "end": 17.265,
+  "speaker": "Unknown",
+  "en": "Thank you for joining this session on why building agent quality platforms is hard.",
+  "zh": "感谢大家参加这个关于为什么构建智能体质量平台很难的专场。"
+ },
+ {
+  "seg": 1,
+  "start": 17.985,
+  "end": 18.806,
+  "speaker": "Unknown",
+  "en": "My name is Hossein.",
+  "zh": "我叫 Hossein。"
+ },
+ {
+  "seg": 2,
+  "start": 19.166,
+  "end": 23.628,
+  "speaker": "Unknown",
+  "en": "I lead the solution engineering organization on the west for Braintrust.",
+  "zh": "我在 Braintrust 负责西部的解决方案工程组织。"
+ },
+ {
+  "seg": 3,
+  "start": 23.869,
+  "end": 28.271,
+  "speaker": "Unknown",
+  "en": "I spent 15 years in solutions between Salesforce and Databricks.",
+  "zh": "我在 Salesforce 和 Databricks 做了 15 年的解决方案工作。"
+ },
+ {
+  "seg": 4,
+  "start": 28.631,
+  "end": 30.212,
+  "speaker": "Unknown",
+  "en": "I've been a lifelong technologist.",
+  "zh": "我一直是一名终身技术爱好者。"
+ },
+ {
+  "seg": 5,
+  "start": 30.252,
+  "end": 31.933,
+  "speaker": "Unknown",
+  "en": "I've built computers since I was five years old.",
+  "zh": "我从五岁起就开始组装电脑。"
+ },
+ {
+  "seg": 6,
+  "start": 32.534,
+  "end": 40.118,
+  "speaker": "Unknown",
+  "en": "So I have this insatiable appetite for technology, which finds me kind of on the bleeding edge of AI here at Braintrust.",
+  "zh": "所以我对技术有一种永不满足的渴望，这让我在 Braintrust 处于 AI 的最前沿。"
+ },
+ {
+  "seg": 7,
+  "start": 42.525,
+  "end": 45.707,
+  "speaker": "Unknown",
+  "en": "For those of you, I know some of you were in the room earlier when Jess did her session.",
+  "zh": "对于在座的各位，我知道有些人之前在房间里听过 Jess 的专场。"
+ },
+ {
+  "seg": 8,
+  "start": 45.867,
+  "end": 47.328,
+  "speaker": "Unknown",
+  "en": "I saw some hands about evals.",
+  "zh": "我看到有人举手问了关于 evals 的事。"
+ },
+ {
+  "seg": 9,
+  "start": 47.949,
+  "end": 51.171,
+  "speaker": "Unknown",
+  "en": "How many of you know what brain trust is and what we do as a company?",
+  "zh": "你们当中有多少人知道 Braintrust 是什么以及我们这家公司是做什么的？"
+ },
+ {
+  "seg": 10,
+  "start": 51.191,
+  "end": 52.112,
+  "speaker": "Unknown",
+  "en": "Just show of hands.",
+  "zh": "只是举个手示意一下。"
+ },
+ {
+  "seg": 11,
+  "start": 53.12,
+  "end": 54.161,
+  "speaker": "Unknown",
+  "en": "Perfect, I see one or two.",
+  "zh": "太好了，我看到一两个人。"
+ },
+ {
+  "seg": 12,
+  "start": 54.861,
+  "end": 62.705,
+  "speaker": "Unknown",
+  "en": "So at a glance, Braintrust as a platform is focused around agent quality.",
+  "zh": "简单来说，Braintrust 作为一个平台，专注于智能体质量。"
+ },
+ {
+  "seg": 13,
+  "start": 63.605,
+  "end": 72.15,
+  "speaker": "Unknown",
+  "en": "And the core idea is helping teams build and maintain confidence with the AI features or the AI agents that they're shipping.",
+  "zh": "核心理念是帮助团队为他们正在发布的 AI 功能或 AI 智能体建立并保持信心。"
+ },
+ {
+  "seg": 14,
+  "start": 72.87,
+  "end": 76.512,
+  "speaker": "Unknown",
+  "en": "And there are two key pillars of agent quality.",
+  "zh": "智能体质量有两大关键支柱。"
+ },
+ {
+  "seg": 15,
+  "start": 77.253,
+  "end": 79.614,
+  "speaker": "Unknown",
+  "en": "The first is evals, which we talked about earlier.",
+  "zh": "第一个是 evals，我们之前已经谈过了。"
+ },
+ {
+  "seg": 16,
+  "start": 80.234,
+  "end": 81.315,
+  "speaker": "Unknown",
+  "en": "Evals is what you do",
+  "zh": "Evals 是你在做的事情"
+ },
+ {
+  "seg": 17,
+  "start": 82.582,
+  "end": 84.885,
+  "speaker": "Unknown",
+  "en": "Before your agent reaches production.",
+  "zh": "在你的智能体到达生产环境之前。"
+ },
+ {
+  "seg": 18,
+  "start": 85.566,
+  "end": 93.956,
+  "speaker": "Unknown",
+  "en": "This is when teams experiment, they test the behavior, and they build the confidence that they want to have before they ship to production.",
+  "zh": "这是团队进行实验、测试行为、并在发布到生产环境之前建立他们想要的信心的阶段。"
+ },
+ {
+  "seg": 19,
+  "start": 95.077,
+  "end": 96.899,
+  "speaker": "Unknown",
+  "en": "The second pillar is observability.",
+  "zh": "第二个支柱是可观测性。"
+ },
+ {
+  "seg": 20,
+  "start": 97.733,
+  "end": 118.387,
+  "speaker": "Unknown",
+  "en": "Observability is once your agent is in production and is interfacing with real-life users, it's creating interactions, and the goal is to take that hypothesis that you built in your offline development process and then reinforce that in your production scenario through continuous monitoring.",
+  "zh": "可观测性是指一旦你的智能体进入生产环境并与真实用户交互、产生互动，目标就是把你在离线开发过程中建立的假设，通过持续监控在生产场景中加以强化。"
+ },
+ {
+  "seg": 21,
+  "start": 119.997,
+  "end": 124.96,
+  "speaker": "Unknown",
+  "en": "evals and observability are closely related to the same problem.",
+  "zh": "Evals 和可观测性紧密相关，属于同一个问题。"
+ },
+ {
+  "seg": 22,
+  "start": 125.54,
+  "end": 133.044,
+  "speaker": "Unknown",
+  "en": "So one happens in production, the other one happens in development, and both is the understanding to improve agent quality.",
+  "zh": "一个发生在生产环境，另一个发生在开发阶段，两者的目的都是获得改进智能体质量的理解。"
+ },
+ {
+  "seg": 23,
+  "start": 134.024,
+  "end": 136.025,
+  "speaker": "Unknown",
+  "en": "Now I won't spend much more time here.",
+  "zh": "现在我不打算在这里多花时间了。"
+ },
+ {
+  "seg": 24,
+  "start": 136.045,
+  "end": 138.046,
+  "speaker": "Unknown",
+  "en": "Let me close that.",
+  "zh": "让我把这个关掉。"
+ },
+ {
+  "seg": 25,
+  "start": 139.327,
+  "end": 146.651,
+  "speaker": "Unknown",
+  "en": "Let's talk about why we're here, which is why are evals important?",
+  "zh": "让我们谈谈我们今天为什么在这里，也就是 evals 为什么重要？"
+ },
+ {
+  "seg": 26,
+  "start": 147.991,
+  "end": 152.515,
+  "speaker": "Unknown",
+  "en": "You know, evals matter because LLMs by nature are non-deterministic.",
+  "zh": "你知道，evals 之所以重要，是因为 LLM 天生就是非确定性的。"
+ },
+ {
+  "seg": 27,
+  "start": 152.595,
+  "end": 154.017,
+  "speaker": "Unknown",
+  "en": "They are highly variable.",
+  "zh": "它们具有高度的可变性。"
+ },
+ {
+  "seg": 28,
+  "start": 155.098,
+  "end": 159.001,
+  "speaker": "Unknown",
+  "en": "That variability is exactly what makes them so powerful.",
+  "zh": "而这种可变性恰恰是它们如此强大的原因。"
+ },
+ {
+  "seg": 29,
+  "start": 159.582,
+  "end": 162.424,
+  "speaker": "Unknown",
+  "en": "They can reason across many different domains.",
+  "zh": "它们可以跨许多不同领域进行推理。"
+ },
+ {
+  "seg": 30,
+  "start": 162.805,
+  "end": 164.767,
+  "speaker": "Unknown",
+  "en": "They can solve different kinds of problems.",
+  "zh": "它们可以解决不同类型的问题。"
+ },
+ {
+  "seg": 31,
+  "start": 165.427,
+  "end": 167.99,
+  "speaker": "Unknown",
+  "en": "And they can handle a wide range of user needs.",
+  "zh": "而且它们可以处理广泛的用户需求。"
+ },
+ {
+  "seg": 32,
+  "start": 168.75,
+  "end": 171.593,
+  "speaker": "Unknown",
+  "en": "But that same flexibility also creates risk.",
+  "zh": "但这种灵活性同时也带来了风险。"
+ },
+ {
+  "seg": 33,
+  "start": 173.359,
+  "end": 176.181,
+  "speaker": "Unknown",
+  "en": "Agents use LLM as their brain.",
+  "zh": "智能体使用 LLM 作为它们的大脑。"
+ },
+ {
+  "seg": 34,
+  "start": 177.021,
+  "end": 184.126,
+  "speaker": "Unknown",
+  "en": "And agentic experiences are starting to become the primary way in which users will interact with companies.",
+  "zh": "而智能体化体验正在开始成为用户与公司交互的主要方式。"
+ },
+ {
+  "seg": 35,
+  "start": 184.986,
+  "end": 192.831,
+  "speaker": "Unknown",
+  "en": "So teams need confidence in their agents that they will behave reliably and produce the outcomes that they expect.",
+  "zh": "所以团队需要对他们的智能体有信心，相信它们会可靠地运行并产生他们所期望的结果。"
+ },
+ {
+  "seg": 36,
+  "start": 194.132,
+  "end": 197.334,
+  "speaker": "Unknown",
+  "en": "And without evals, companies face real risks.",
+  "zh": "如果没有 evals，公司将面临真实的风险。"
+ },
+ {
+  "seg": 37,
+  "start": 200.228,
+  "end": 217.799,
+  "speaker": "Unknown",
+  "en": "Brands become a risk if there's inconsistent behaviors, compliance if the agent says or does the wrong thing, and there's a cost and maintenance risk if the systems are hard or unreliable to debug or control.",
+  "zh": "如果行为不一致，品牌就会成为风险；如果智能体说了或做了错误的事情，就有合规风险；如果系统难以调试或控制、不可靠，就会有成本和维护风险。"
+ },
+ {
+  "seg": 38,
+  "start": 218.66,
+  "end": 228.386,
+  "speaker": "Unknown",
+  "en": "The goal of evals is to reduce that uncertainty before launch so that customers have a good experience and the agents behave the way that you expect them to.",
+  "zh": "Evals 的目标是在发布之前降低这种不确定性，从而让客户获得良好的体验，并让智能体按照你期望的方式运行。"
+ },
+ {
+  "seg": 39,
+  "start": 231.43,
+  "end": 237.214,
+  "speaker": "Unknown",
+  "en": "So you might be thinking, OK, well, evals is just a UI on a spreadsheet, right?",
+  "zh": "所以你可能会想，好吧，evals 不过就是电子表格上的一个 UI，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 238.895,
+  "end": 245.961,
+  "speaker": "Unknown",
+  "en": "And I guess I should ask the audience, just show of hands, how many of you have run evals and logged the results into a spreadsheet?",
+  "zh": "我想我应该问问观众，举个手，你们当中有多少人运行过 evals 并把结果记录到电子表格里？"
+ },
+ {
+  "seg": 41,
+  "start": 246.521,
+  "end": 247.061,
+  "speaker": "Unknown",
+  "en": "Has that happened?",
+  "zh": "有发生过这种事吗？"
+ },
+ {
+  "seg": 42,
+  "start": 247.101,
+  "end": 248.082,
+  "speaker": "Unknown",
+  "en": "OK, I see one or two.",
+  "zh": "好的，我看到一两个人。"
+ },
+ {
+  "seg": 43,
+  "start": 248.703,
+  "end": 250.464,
+  "speaker": "Unknown",
+  "en": "So there's no shame in that, by the way.",
+  "zh": "顺便说一下，这没什么不好意思的。"
+ },
+ {
+  "seg": 44,
+  "start": 250.844,
+  "end": 253.186,
+  "speaker": "Unknown",
+  "en": "It's actually a good first step.",
+  "zh": "这其实是一个很好的第一步。"
+ },
+ {
+  "seg": 45,
+  "start": 254.428,
+  "end": 262.946,
+  "speaker": "Unknown",
+  "en": "The important thing is that teams acknowledge that this is a real problem and they need a way to understand how agents behave based on different inputs.",
+  "zh": "重要的是团队承认这是一个真实的问题，并且他们需要一种方法来理解智能体在面对不同输入时的行为。"
+ },
+ {
+  "seg": 46,
+  "start": 264.782,
+  "end": 272.549,
+  "speaker": "Unknown",
+  "en": "At the simplest level, an eval system has three different criteria.",
+  "zh": "在最简单的层面上，一个 eval 系统有三个不同的标准。"
+ },
+ {
+  "seg": 47,
+  "start": 273.19,
+  "end": 276.933,
+  "speaker": "Unknown",
+  "en": "It has a way to execute agents against test inputs.",
+  "zh": "它有一种针对测试输入执行智能体的方法。"
+ },
+ {
+  "seg": 48,
+  "start": 277.774,
+  "end": 283.879,
+  "speaker": "Unknown",
+  "en": "Second, a way to view the outputs or the scores, even if those are being logged in a spreadsheet.",
+  "zh": "其次，有一种查看输出或分数的方法，即使那些分数是被记录在电子表格里的。"
+ },
+ {
+  "seg": 49,
+  "start": 284.58,
+  "end": 289.545,
+  "speaker": "Unknown",
+  "en": "And third, a set of test inputs or examples that can invoke the agent.",
+  "zh": "第三，是一组可以调用智能体的测试输入或示例。"
+ },
+ {
+  "seg": 50,
+  "start": 290.378,
+  "end": 295.702,
+  "speaker": "Unknown",
+  "en": "An input example is whatever information is needed to start the agent run.",
+  "zh": "输入示例是启动智能体运行所需的任何信息。"
+ },
+ {
+  "seg": 51,
+  "start": 296.683,
+  "end": 301.726,
+  "speaker": "Unknown",
+  "en": "It could be a prompt, a request, or context that causes the agent to act.",
+  "zh": "它可以是一个提示词、一个请求，或者是促使智能体行动的上下文。"
+ },
+ {
+  "seg": 52,
+  "start": 303.408,
+  "end": 307.15,
+  "speaker": "Unknown",
+  "en": "Now, spreadsheet-based evals are not wrong.",
+  "zh": "现在，基于电子表格的评测并不是错的。"
+ },
+ {
+  "seg": 53,
+  "start": 307.991,
+  "end": 312.454,
+  "speaker": "Unknown",
+  "en": "However, they're often the first step for a useful version of eval workflow.",
+  "zh": "然而，它们通常是一个有用的评测工作流的第一步。"
+ },
+ {
+  "seg": 54,
+  "start": 313.595,
+  "end": 319.98,
+  "speaker": "Unknown",
+  "en": "But, of course, as you can imagine, there's more to the iceberg than just what we just talked about.",
+  "zh": "但是，当然，正如你可以想象的，这座冰山远不止我们刚刚谈论的这些。"
+ },
+ {
+  "seg": 55,
+  "start": 321.425,
+  "end": 329.187,
+  "speaker": "Unknown",
+  "en": "And if evals were only run the agent, view the output, and then score it in a spreadsheet, this talk would be over right now.",
+  "zh": "而如果评测只是运行智能体、查看输出，然后在电子表格里打分，这个演讲现在就可以结束了。"
+ },
+ {
+  "seg": 56,
+  "start": 330.327,
+  "end": 334.808,
+  "speaker": "Unknown",
+  "en": "But there's a lot more that happens behind the scenes or underneath the iceberg.",
+  "zh": "但幕后、也就是冰山之下，还发生着多得多的东西。"
+ },
+ {
+  "seg": 57,
+  "start": 336.409,
+  "end": 340.63,
+  "speaker": "Unknown",
+  "en": "There are many supporting teams that eventually need to build",
+  "zh": "有很多支持团队最终需要构建"
+ },
+ {
+  "seg": 58,
+  "start": 342.327,
+  "end": 353.09,
+  "speaker": "Unknown",
+  "en": "Better data sets, scoring systems, review processing, debugging tools, and the way to connect pre-production testing with production behavior.",
+  "zh": "更好的数据集、评分系统、审核流程、调试工具，以及把生产前测试与生产行为连接起来的方式。"
+ },
+ {
+  "seg": 59,
+  "start": 354.371,
+  "end": 355.891,
+  "speaker": "Unknown",
+  "en": "We'll touch on some of these today.",
+  "zh": "我们今天会谈到其中的一些。"
+ },
+ {
+  "seg": 60,
+  "start": 356.372,
+  "end": 360.413,
+  "speaker": "Unknown",
+  "en": "And anything I don't get to, you feel free to come up afterwards and we can chat about.",
+  "zh": "而任何我没来得及讲到的，你们之后可以随时过来和我聊。"
+ },
+ {
+  "seg": 61,
+  "start": 362.153,
+  "end": 364.814,
+  "speaker": "Unknown",
+  "en": "And this is where things start to get complicated.",
+  "zh": "而这就是事情开始变得复杂的地方。"
+ },
+ {
+  "seg": 62,
+  "start": 365.554,
+  "end": 367.615,
+  "speaker": "Unknown",
+  "en": "The underlying technology is complex.",
+  "zh": "底层技术是复杂的。"
+ },
+ {
+  "seg": 63,
+  "start": 368.155,
+  "end": 369.976,
+  "speaker": "Unknown",
+  "en": "LLMs are not simply deterministic.",
+  "zh": "LLM 并不是简单的确定性的。"
+ },
+ {
+  "seg": 64,
+  "start": 370.922,
+  "end": 373.165,
+  "speaker": "Unknown",
+  "en": "Agent quality is a multi-persona problem.",
+  "zh": "智能体质量是一个多角色的问题。"
+ },
+ {
+  "seg": 65,
+  "start": 373.345,
+  "end": 375.687,
+  "speaker": "Unknown",
+  "en": "It's not just software engineers and AI engineers.",
+  "zh": "它不仅仅是软件工程师和 AI 工程师。"
+ },
+ {
+  "seg": 66,
+  "start": 376.108,
+  "end": 379.972,
+  "speaker": "Unknown",
+  "en": "There are PMs who used to build PRDs that are now running evals.",
+  "zh": "有过去编写 PRD 的 PM,现在在跑评测。"
+ },
+ {
+  "seg": 67,
+  "start": 380.392,
+  "end": 385.298,
+  "speaker": "Unknown",
+  "en": "There are SMEs who have the domain expertise of the product that you're building.",
+  "zh": "有拥有你所构建产品领域专业知识的 SME。"
+ },
+ {
+  "seg": 68,
+  "start": 387.36,
+  "end": 392.466,
+  "speaker": "Unknown",
+  "en": "And evals themselves are just one part of the development and operating workflow",
+  "zh": "而评测本身只是开发和运营工作流的一部分"
+ },
+ {
+  "seg": 69,
+  "start": 395.087,
+  "end": 401.151,
+  "speaker": "Unknown",
+  "en": "And gone are the days where you build once with unit tests and regression tests, you ship to production, and you don't think about it.",
+  "zh": "「构建一次，配上单元测试和回归测试，发布到生产，然后就不用再想了」的日子已经一去不复返了。"
+ },
+ {
+  "seg": 70,
+  "start": 401.831,
+  "end": 406.815,
+  "speaker": "Unknown",
+  "en": "Evals are a way for you to continue hill climbing against one target, which is agent quality.",
+  "zh": "评测是一种让你能够持续朝着单一目标攀爬的方式，这个目标就是智能体质量。"
+ },
+ {
+  "seg": 71,
+  "start": 409.476,
+  "end": 414.58,
+  "speaker": "Unknown",
+  "en": "So let's talk about the different stages of the eval platforms that we see.",
+  "zh": "那么让我们来谈谈我们所看到的评测平台的不同阶段。"
+ },
+ {
+  "seg": 72,
+  "start": 416.867,
+  "end": 420.448,
+  "speaker": "Unknown",
+  "en": "And before we do that, this is the north star for many teams.",
+  "zh": "在此之前，这是许多团队的北极星。"
+ },
+ {
+  "seg": 73,
+  "start": 421.049,
+  "end": 427.451,
+  "speaker": "Unknown",
+  "en": "They want to build the improvement loop, which is I have a feature or application that's in production.",
+  "zh": "他们想要构建改进循环，也就是：我有一个已在生产环境中的功能或应用。"
+ },
+ {
+  "seg": 74,
+  "start": 427.471,
+  "end": 431.893,
+  "speaker": "Unknown",
+  "en": "I can observe the failure modes that happen based on dimensions that I define.",
+  "zh": "我可以基于我定义的维度观察发生的失败模式。"
+ },
+ {
+  "seg": 75,
+  "start": 432.573,
+  "end": 444.622,
+  "speaker": "Unknown",
+  "en": "I want to be able to grab those failure modes and create test cases so that I can iterate offline, so I can improve my agent quality without introducing new regressions.",
+  "zh": "我希望能够抓取这些失败模式并创建测试用例，这样我就可以离线迭代，从而在不引入新回归的情况下提升我的智能体质量。"
+ },
+ {
+  "seg": 76,
+  "start": 445.183,
+  "end": 451.948,
+  "speaker": "Unknown",
+  "en": "And then you continue iterating over time because just like in classical ML, drift becomes a real thing.",
+  "zh": "然后你随着时间持续迭代，因为就像经典 ML 一样，漂移会成为一个真实存在的问题。"
+ },
+ {
+  "seg": 77,
+  "start": 452.048,
+  "end": 455.191,
+  "speaker": "Unknown",
+  "en": "The way users interact with your agents will change over time.",
+  "zh": "用户与你的智能体交互的方式会随时间改变。"
+ },
+ {
+  "seg": 78,
+  "start": 455.831,
+  "end": 458.153,
+  "speaker": "Unknown",
+  "en": "The way you build your agents will change over time.",
+  "zh": "你构建智能体的方式也会随时间改变。"
+ },
+ {
+  "seg": 79,
+  "start": 459.78,
+  "end": 461.36,
+  "speaker": "Unknown",
+  "en": "So what does phase one look like?",
+  "zh": "那么第一阶段是什么样的？"
+ },
+ {
+  "seg": 80,
+  "start": 461.921,
+  "end": 467.322,
+  "speaker": "Unknown",
+  "en": "There were some hands that were raised around spreadsheets and there's nothing to be shameful about.",
+  "zh": "刚才有一些人举手表示在用电子表格，这没有什么可羞耻的。"
+ },
+ {
+  "seg": 81,
+  "start": 467.802,
+  "end": 469.502,
+  "speaker": "Unknown",
+  "en": "This is where many people start.",
+  "zh": "这是很多人起步的地方。"
+ },
+ {
+  "seg": 82,
+  "start": 471.403,
+  "end": 474.384,
+  "speaker": "Unknown",
+  "en": "And the basic setup is pretty simple.",
+  "zh": "基本的设置相当简单。"
+ },
+ {
+  "seg": 83,
+  "start": 474.984,
+  "end": 479.925,
+  "speaker": "Unknown",
+  "en": "It's a for loop with a set of input examples and a way to execute the agent.",
+  "zh": "它就是一个 for 循环，带有一组输入示例和一种执行智能体的方式。"
+ },
+ {
+  "seg": 84,
+  "start": 481.94,
+  "end": 488.443,
+  "speaker": "Unknown",
+  "en": "And with that, you can run the same examples that you tweak and see how the agent responds with the outputs over time.",
+  "zh": "有了这个，你可以反复运行你调整过的同样示例，观察智能体随时间推移的输出表现。"
+ },
+ {
+  "seg": 85,
+  "start": 489.364,
+  "end": 492.306,
+  "speaker": "Unknown",
+  "en": "The biggest advantage is accessibility and time.",
+  "zh": "最大的优势是可及性和时间。"
+ },
+ {
+  "seg": 86,
+  "start": 493.226,
+  "end": 496.508,
+  "speaker": "Unknown",
+  "en": "You can start this with basically zero barrier to entry.",
+  "zh": "你基本上可以以零门槛开始。"
+ },
+ {
+  "seg": 87,
+  "start": 497.588,
+  "end": 499.99,
+  "speaker": "Unknown",
+  "en": "But the returns diminish pretty quickly.",
+  "zh": "但回报很快就递减了。"
+ },
+ {
+  "seg": 88,
+  "start": 500.69,
+  "end": 503.271,
+  "speaker": "Unknown",
+  "en": "At this stage, you're pretty much only documenting.",
+  "zh": "在这个阶段，你基本上只是在做记录。"
+ },
+ {
+  "seg": 89,
+  "start": 503.852,
+  "end": 505.973,
+  "speaker": "Unknown",
+  "en": "You can't really do true experimentation.",
+  "zh": "你没法真正做真正的实验。"
+ },
+ {
+  "seg": 90,
+  "start": 507.103,
+  "end": 511.445,
+  "speaker": "Unknown",
+  "en": "And let alone do any type of analysis over time.",
+  "zh": "更不用说随时间做任何类型的分析了。"
+ },
+ {
+  "seg": 91,
+  "start": 512.705,
+  "end": 526.47,
+  "speaker": "Unknown",
+  "en": "Common limitations are analytics are hard, they're manual, human scoring is valuable but difficult to do, collaboration is very weak, and domain experts are usually boxed out of these type of results.",
+  "zh": "常见的局限是：分析很难、全靠手动、人工打分有价值但难以执行、协作非常薄弱，而且领域专家通常被排除在这类结果之外。"
+ },
+ {
+  "seg": 92,
+  "start": 528.751,
+  "end": 533.473,
+  "speaker": "Unknown",
+  "en": "So again, spreadsheets are a great starting place but difficult to evolve.",
+  "zh": "所以再说一次，电子表格是一个很好的起点，但难以演进。"
+ },
+ {
+  "seg": 93,
+  "start": 535.093,
+  "end": 546.639,
+  "speaker": "Unknown",
+  "en": "Then someone, usually a product engineer, they see this problem and they think, OK, I can build a nice UI, a bespoke UI to help solve this problem.",
+  "zh": "然后某个人，通常是产品工程师，看到这个问题后会想：好，我可以构建一个不错的 UI,一个定制的 UI 来帮助解决这个问题。"
+ },
+ {
+  "seg": 94,
+  "start": 547.999,
+  "end": 556.744,
+  "speaker": "Unknown",
+  "en": "And while it might be nice at a glance, it helps you bring in the different personas that you would otherwise not have access to.",
+  "zh": "虽然乍看之下可能不错，它能帮你引入那些原本接触不到的不同角色。"
+ },
+ {
+  "seg": 95,
+  "start": 557.184,
+  "end": 561.606,
+  "speaker": "Unknown",
+  "en": "This allows PMs to now kind of get into the loop of doing evals.",
+  "zh": "这让 PM 现在能够进入到做评测的循环中。"
+ },
+ {
+  "seg": 96,
+  "start": 564.942,
+  "end": 568.364,
+  "speaker": "Unknown",
+  "en": "But the limitation that you might have thought about, it continues.",
+  "zh": "但你可能已经想到的局限，依然存在。"
+ },
+ {
+  "seg": 97,
+  "start": 568.884,
+  "end": 576.568,
+  "speaker": "Unknown",
+  "en": "That the documentation, the review process, though it might visually look nicer, still collaboration becomes difficult.",
+  "zh": "也就是记录和审核流程，虽然视觉上看起来更好了，协作仍然很困难。"
+ },
+ {
+  "seg": 98,
+  "start": 576.988,
+  "end": 586.513,
+  "speaker": "Unknown",
+  "en": "And though iteration cycles become quicker, it is still not easy for users to persist that data and do long horizon analytics on.",
+  "zh": "而且尽管迭代周期变快了，用户仍然不容易持久化这些数据并进行长期的分析。"
+ },
+ {
+  "seg": 99,
+  "start": 588.494,
+  "end": 590.675,
+  "speaker": "Unknown",
+  "en": "Still just a reporting tool.",
+  "zh": "仍然只是一个报告工具。"
+ },
+ {
+  "seg": 100,
+  "start": 592.684,
+  "end": 603.311,
+  "speaker": "Unknown",
+  "en": "Then the next evolution becomes, hey, I want my non-technical users to have an interface where not that they just log the results, but they should be able to experiment.",
+  "zh": "下一步的演化就是,嘿,我希望我的非技术用户有一个界面,不只是记录结果,而是他们应该能够做实验。"
+ },
+ {
+  "seg": 101,
+  "start": 603.851,
+  "end": 606.373,
+  "speaker": "Unknown",
+  "en": "I want to be able to tweak a system prompt.",
+  "zh": "我想要能够调整一个系统提示词。"
+ },
+ {
+  "seg": 102,
+  "start": 606.493,
+  "end": 608.294,
+  "speaker": "Unknown",
+  "en": "I want to change the underlying model.",
+  "zh": "我想要更换底层模型。"
+ },
+ {
+  "seg": 103,
+  "start": 608.714,
+  "end": 611.736,
+  "speaker": "Unknown",
+  "en": "I want to iterate on some parameter values.",
+  "zh": "我想要迭代一些参数值。"
+ },
+ {
+  "seg": 104,
+  "start": 612.476,
+  "end": 619.401,
+  "speaker": "Unknown",
+  "en": "So being able to do this type of side-by-side comparison becomes the next evolution of the eval cycle that we see.",
+  "zh": "因此,能够做这种并排对比就成为我们所看到的评估周期的下一步演化。"
+ },
+ {
+  "seg": 105,
+  "start": 621.118,
+  "end": 634.226,
+  "speaker": "Unknown",
+  "en": "But there's still one primary gap, and that is that the test cases in which you use to do these kind of comparisons are still a curated set that arise in your offline evals.",
+  "zh": "我不会花太多时间讲 Braintrust,但当有生产环境的 trace 进来时,你会想要能够在数据落地的实时状态下查询它。"
+ },
+ {
+  "seg": 106,
+  "start": 634.786,
+  "end": 636.287,
+  "speaker": "Unknown",
+  "en": "But what happens in production?",
+  "zh": "但是生产环境中发生了什么?"
+ },
+ {
+  "seg": 107,
+  "start": 636.767,
+  "end": 638.148,
+  "speaker": "Unknown",
+  "en": "I've done my iterations here.",
+  "zh": "我已经在这里做了我的迭代。"
+ },
+ {
+  "seg": 108,
+  "start": 638.608,
+  "end": 641.51,
+  "speaker": "Unknown",
+  "en": "I have a good idea of what I can expect to happen in prod.",
+  "zh": "我对在生产环境中可以期待什么有了一个大致的了解。"
+ },
+ {
+  "seg": 109,
+  "start": 642.09,
+  "end": 645.332,
+  "speaker": "Unknown",
+  "en": "But once I ship it to production, I'm operating in the blind.",
+  "zh": "但一旦我把它发布到生产环境,我就是在盲目的状态下运行。"
+ },
+ {
+  "seg": 110,
+  "start": 645.972,
+  "end": 651.255,
+  "speaker": "Unknown",
+  "en": "So I have no idea what steps my agent is taking and when those failures are actually happening in my live environment.",
+  "zh": "所以我完全不知道我的智能体在采取哪些步骤,以及在我的实时环境中失败实际上是在什么时候发生的。"
+ },
+ {
+  "seg": 111,
+  "start": 655.243,
+  "end": 673.916,
+  "speaker": "Unknown",
+  "en": "And when we think, kind of going back to the flywheel, when we think about what are the best systems that enable this, well, you should be able to, starting at the top, observe the failure modes, log every input, output, every step of your trace execution that your agent takes, analyze, understand what went wrong.",
+  "zh": "而当我们思考——回到那个飞轮——当我们思考什么是能够实现这一点的最佳系统时,嗯,你应该能够,从顶部开始,观察失败模式,记录每一个输入、输出、你的智能体执行的每一步 trace,分析并理解哪里出了问题。"
+ },
+ {
+  "seg": 112,
+  "start": 674.437,
+  "end": 678.079,
+  "speaker": "Unknown",
+  "en": "You create the dimensions of failure and success because you know the outcomes.",
+  "zh": "你创建失败和成功的维度,因为你知道结果。"
+ },
+ {
+  "seg": 113,
+  "start": 679.12,
+  "end": 684.304,
+  "speaker": "Unknown",
+  "en": "Then grabbing those failure modes, those different scenarios where your users had poor interactions,",
+  "zh": "然后抓取那些失败模式,那些用户有糟糕交互的不同场景,"
+ },
+ {
+  "seg": 114,
+  "start": 686.046,
+  "end": 697.977,
+  "speaker": "Unknown",
+  "en": "And creating evals in them in your offline process, iterating on them so you can create the improvements without developing new regressions, and then shipping to production and hill climbing against this.",
+  "zh": "并在你的离线流程中为它们创建评估,对它们进行迭代,这样你就可以在不引入新回归的情况下做出改进,然后发布到生产环境并针对这个持续爬坡。"
+ },
+ {
+  "seg": 115,
+  "start": 700.339,
+  "end": 707.125,
+  "speaker": "Unknown",
+  "en": "And when you think about the final outcome of this, well, you get teams that are building the flywheel.",
+  "zh": "而当你想到这件事的最终结果时,嗯,你得到的是正在构建这个飞轮的团队。"
+ },
+ {
+  "seg": 116,
+  "start": 708.463,
+  "end": 716.41,
+  "speaker": "Unknown",
+  "en": "You get that entire development cycle inside of your platform, but then the problem becomes you have to maintain it.",
+  "zh": "你把整个开发周期都放进了你的平台里,但随后问题就变成了你必须维护它。"
+ },
+ {
+  "seg": 117,
+  "start": 716.75,
+  "end": 719.152,
+  "speaker": "Unknown",
+  "en": "You own this product that you've built.",
+  "zh": "你拥有这个你已经构建出来的产品。"
+ },
+ {
+  "seg": 118,
+  "start": 720.113,
+  "end": 727.199,
+  "speaker": "Unknown",
+  "en": "And especially, this is easy to do when it comes to smaller scale or POC and demo environments.",
+  "zh": "而且,在小规模或者 POC 和 demo 环境下,这很容易做到。"
+ },
+ {
+  "seg": 119,
+  "start": 728.04,
+  "end": 729.942,
+  "speaker": "Unknown",
+  "en": "But agent traces are nasty.",
+  "zh": "但智能体的 trace 是很棘手的。"
+ },
+ {
+  "seg": 120,
+  "start": 730.462,
+  "end": 732.504,
+  "speaker": "Unknown",
+  "en": "They are semi-structured JSON.",
+  "zh": "它们是半结构化的 JSON。"
+ },
+ {
+  "seg": 121,
+  "start": 732.964,
+  "end": 740.41,
+  "speaker": "Unknown",
+  "en": "In some cases, we see teams that are logging a movie's worth of data in each interaction, hundreds of megabytes.",
+  "zh": "在某些情况下,我们看到团队在每次交互中记录相当于一部电影大小的数据,几百兆字节。"
+ },
+ {
+  "seg": 122,
+  "start": 740.99,
+  "end": 743.812,
+  "speaker": "Unknown",
+  "en": "So being able to query that type of data can be difficult.",
+  "zh": "所以能够查询这类数据可能很困难。"
+ },
+ {
+  "seg": 123,
+  "start": 744.633,
+  "end": 749.897,
+  "speaker": "Unknown",
+  "en": "And your typical cloud data warehouses kind of collapse under this type of volume and load.",
+  "zh": "而你典型的云端数据仓库在这种体量和负载下会崩溃。"
+ },
+ {
+  "seg": 124,
+  "start": 753.017,
+  "end": 755.519,
+  "speaker": "Unknown",
+  "en": "And this is the same problem that we ran into.",
+  "zh": "这和我们遇到的是同一个问题。"
+ },
+ {
+  "seg": 125,
+  "start": 755.939,
+  "end": 768.33,
+  "speaker": "Unknown",
+  "en": "I won't spend much time talking about brain trust, but when you have production traces coming in, you want to be able to query that data in real time as it lands in there.",
+  "zh": "我不会花太多时间讲 brain trust,但当生产环境的追踪数据进来时,你需要能够在数据落进来的同时实时查询这些数据。"
+ },
+ {
+  "seg": 126,
+  "start": 768.63,
+  "end": 779.359,
+  "speaker": "Unknown",
+  "en": "Because if your users are having poor experiences, you want to be able to know in real time what is happening, why are they having these poor experiences, and how can I remedy that as soon as possible.",
+  "zh": "因为如果你的用户正在经历糟糕的体验,你会想要实时知道发生了什么,为什么他们会有这些糟糕的体验,以及我能如何尽快补救。"
+ },
+ {
+  "seg": 127,
+  "start": 780.843,
+  "end": 783.205,
+  "speaker": "Unknown",
+  "en": "You also want to be able to do long-running queries.",
+  "zh": "你还想要能够做长时间运行的查询。"
+ },
+ {
+  "seg": 128,
+  "start": 783.685,
+  "end": 799.316,
+  "speaker": "Unknown",
+  "en": "If you think about being able to fine-tune your agent experience or even have humans who are doing alignment by annotating your judges' outcomes, two different workloads.",
+  "zh": "如果你想想能够微调你的智能体体验,甚至让人类通过标注你的评估器的输出来做对齐,这是两种不同的工作负载。"
+ },
+ {
+  "seg": 129,
+  "start": 800.017,
+  "end": 808.903,
+  "speaker": "Unknown",
+  "en": "So we built an abstraction layer called BTQL, which is another form of complexity because you want an interface for people to be able to query that data.",
+  "zh": "所以我们构建了一个叫做 BTQL 的抽象层,这是另一种形式的复杂性,因为你想要一个让人们能够查询这些数据的界面。"
+ },
+ {
+  "seg": 130,
+  "start": 811.461,
+  "end": 821.447,
+  "speaker": "Unknown",
+  "en": "So it's not necessarily that it's just a UI or UX problem, but building an eval platform truly becomes a systems problem.",
+  "zh": "所以它不一定只是一个 UI 或 UX 问题,构建一个评估平台真正变成了一个系统问题。"
+ },
+ {
+  "seg": 131,
+  "start": 824.536,
+  "end": 833.325,
+  "speaker": "Unknown",
+  "en": "And there are a novel set of issues when the ChatGPT boom happened a few years ago where I need to do real-time ingest.",
+  "zh": "而且当几年前提示词注入的 ChatGPT 热潮发生时,出现了一系列新颖的问题,我需要做实时摄入。"
+ },
+ {
+  "seg": 132,
+  "start": 834.246,
+  "end": 845.016,
+  "speaker": "Unknown",
+  "en": "I have huge payloads that are tens of megabytes, hundreds of megabytes in size sometimes compared to traditional heartbeat observability, which are just kilobytes in size.",
+  "zh": "我有巨大的 payload,有几十兆、有时几百兆的大小,而传统的心跳可观测性数据只有几 KB 的大小。"
+ },
+ {
+  "seg": 133,
+  "start": 845.817,
+  "end": 848.36,
+  "speaker": "Unknown",
+  "en": "The structure and the shape of the data is different.",
+  "zh": "数据的结构和形态是不同的。"
+ },
+ {
+  "seg": 134,
+  "start": 849.137,
+  "end": 855.299,
+  "speaker": "Unknown",
+  "en": "Having deeply nested semi-structured full text is difficult to query.",
+  "zh": "深度嵌套的半结构化全文很难查询。"
+ },
+ {
+  "seg": 135,
+  "start": 855.919,
+  "end": 857.78,
+  "speaker": "Unknown",
+  "en": "And the read patterns are different as well.",
+  "zh": "而且读取模式也不同。"
+ },
+ {
+  "seg": 136,
+  "start": 858.2,
+  "end": 866.082,
+  "speaker": "Unknown",
+  "en": "You want to be able to aggregate in large volumes, but also be able to do snapshots of in-time data.",
+  "zh": "你想要能够在大体量上做聚合,但也要能够对某个时间点的数据做快照。"
+ },
+ {
+  "seg": 137,
+  "start": 868.943,
+  "end": 877.366,
+  "speaker": "Unknown",
+  "en": "And building the right system should allow you to not only empower the AI engineer, but also the PMs",
+  "zh": "而构建正确的系统应该不仅能够赋能 AI 工程师,还能赋能 PM"
+ },
+ {
+  "seg": 138,
+  "start": 878.742,
+  "end": 879.943,
+  "speaker": "Unknown",
+  "en": "As well as the SMEs.",
+  "zh": "以及 SME(领域专家)。"
+ },
+ {
+  "seg": 139,
+  "start": 880.244,
+  "end": 895.521,
+  "speaker": "Unknown",
+  "en": "And more recently, we've seen that agents have become a first class citizen of these eval platforms where you want to be able to use natural language in a headless experience where you can tell your coding agent of choice",
+  "zh": "而最近,我们看到智能体已经成为这些评估平台的一等公民,你想要能够在无界面的体验中使用自然语言,你可以告诉你选择使用的编码智能体"
+ },
+ {
+  "seg": 140,
+  "start": 896.382,
+  "end": 902.165,
+  "speaker": "Unknown",
+  "en": "Find me all traces in the last 24 hours where the user had a poor experience.",
+  "zh": "帮我找出过去 24 小时内用户有糟糕体验的所有 trace。"
+ },
+ {
+  "seg": 141,
+  "start": 902.625,
+  "end": 903.906,
+  "speaker": "Unknown",
+  "en": "Run the evals for me.",
+  "zh": "帮我跑这些评估。"
+ },
+ {
+  "seg": 142,
+  "start": 904.326,
+  "end": 914.431,
+  "speaker": "Unknown",
+  "en": "And because these coding agents have access to all of your underlying infrastructure and your code base, they become the mechanism to run the evals and log those results.",
+  "zh": "而且因为这些编码智能体可以访问你所有的基础设施和你的代码库,它们就成为运行评估并记录结果的机制。"
+ },
+ {
+  "seg": 143,
+  "start": 916.191,
+  "end": 918.713,
+  "speaker": "Unknown",
+  "en": "And then it becomes a question of like, so what?",
+  "zh": "然后问题就变成了,所以呢?"
+ },
+ {
+  "seg": 144,
+  "start": 918.833,
+  "end": 919.733,
+  "speaker": "Unknown",
+  "en": "Why is this important?",
+  "zh": "为什么这很重要?"
+ },
+ {
+  "seg": 145,
+  "start": 922.931,
+  "end": 935.06,
+  "speaker": "Unknown",
+  "en": "Well, the goal is everything that I've shown you so far, it requires the humans, the engineer, the PM, to be deeply involved in this process.",
+  "zh": "嗯,目标在于,我到目前为止给你展示的所有内容,都需要人类,也就是工程师、PM,深度参与到这个过程中。"
+ },
+ {
+  "seg": 146,
+  "start": 935.44,
+  "end": 937.102,
+  "speaker": "Unknown",
+  "en": "And it can be laborious at times.",
+  "zh": "而这有时可能很费力。"
+ },
+ {
+  "seg": 147,
+  "start": 939.744,
+  "end": 945.148,
+  "speaker": "Unknown",
+  "en": "At Braintrust, the way we think about this is we want to help you operate at scale.",
+  "zh": "在 Braintrust,我们对此的思考方式是,我们想要帮助你在大规模下运营。"
+ },
+ {
+  "seg": 148,
+  "start": 947.065,
+  "end": 957.271,
+  "speaker": "Unknown",
+  "en": "Rather than you having to think about these dimensions of success and failure for your AI agent, Braintrust can surface these insights automatically.",
+  "zh": "与其让你自己去思考你的 AI 智能体在成功和失败上的这些维度,Braintrust 可以自动把这些洞察呈现出来。"
+ },
+ {
+  "seg": 149,
+  "start": 957.771,
+  "end": 964.956,
+  "speaker": "Unknown",
+  "en": "Because we log your tracing data into our platform, we can run inference on them, and we can tell you the unknown unknowns.",
+  "zh": "因为我们把你的 tracing 数据记录到我们的平台里,我们可以对它们运行推理,并且我们可以告诉你那些未知的未知。"
+ },
+ {
+  "seg": 150,
+  "start": 965.776,
+  "end": 969.862,
+  "speaker": "Unknown",
+  "en": "Hey, what are scenarios when my agent is failing silently?",
+  "zh": "嘿，我的智能体在哪些场景下会静默失败？"
+ },
+ {
+  "seg": 151,
+  "start": 970.362,
+  "end": 977.492,
+  "speaker": "Unknown",
+  "en": "Or what are scenarios that my users are experiencing frustration by prompting my agent for the same request over and over again?",
+  "zh": "或者说，在哪些场景下，我的用户会因为对同一个请求反复提示我的智能体而感到沮丧？"
+ },
+ {
+  "seg": 152,
+  "start": 980.66,
+  "end": 982.582,
+  "speaker": "Unknown",
+  "en": "And it's a lot of things that we didn't talk about.",
+  "zh": "还有许多我们没有谈到的东西。"
+ },
+ {
+  "seg": 153,
+  "start": 983.002,
+  "end": 992.472,
+  "speaker": "Unknown",
+  "en": "Things like the underlying database that powers it, or having to build RBAC into the system to manage controls and permissions, or data masking.",
+  "zh": "比如支撑它的底层数据库，或者需要在系统中构建 RBAC 来管理控制和权限，又或者数据脱敏。"
+ },
+ {
+  "seg": 154,
+  "start": 992.592,
+  "end": 1001.241,
+  "speaker": "Unknown",
+  "en": "Each one of these features proves that this is not just a UI and a spreadsheet, but rather it is a systems problem that powers it.",
+  "zh": "这些特性中的每一个都证明了，这不仅仅是一个 UI 加一张电子表格，而是一个支撑它的系统问题。"
+ },
+ {
+  "seg": 155,
+  "start": 1003.526,
+  "end": 1021.158,
+  "speaker": "Unknown",
+  "en": "And as we think about the evolution of the improvement loop, I said this earlier, where humans were doing the improvement loop, and now we see coding agents where they could iteratively make changes and suggest what kind of improvements you should be making to your application.",
+  "zh": "当我们思考改进循环的演进时——我之前说过——过去是由人类来做改进循环，而现在我们看到编码智能体可以迭代地做出更改，并建议你应该对你的应用做哪些改进。"
+ },
+ {
+  "seg": 156,
+  "start": 1021.898,
+  "end": 1026.122,
+  "speaker": "Unknown",
+  "en": "And ultimately, the human's responsibility is to review the outcome.",
+  "zh": "而最终，人类的责任是审查结果。"
+ },
+ {
+  "seg": 157,
+  "start": 1026.662,
+  "end": 1038.873,
+  "speaker": "Unknown",
+  "en": "If I have different iterations of these evals that are run by my coding agent, I can look at the outcome and make the decision of which version of it is the best for what I want to ship to production.",
+  "zh": "如果我的编码智能体运行了这些评估的不同迭代版本，我可以查看结果，然后决定哪个版本最适合我要发布到生产环境的内容。"
+ },
+ {
+  "seg": 158,
+  "start": 1040.455,
+  "end": 1043.057,
+  "speaker": "Unknown",
+  "en": "So with that, that is the end of my talk.",
+  "zh": "那么，我的演讲到此结束。"
+ },
+ {
+  "seg": 159,
+  "start": 1043.397,
+  "end": 1047.841,
+  "speaker": "Unknown",
+  "en": "I appreciate you all coming out and learning about why it's hard to build eval systems.",
+  "zh": "感谢大家前来了解为什么构建评估系统如此困难。"
+ },
+ {
+  "seg": 160,
+  "start": 1048.022,
+  "end": 1048.342,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 161,
+  "start": 1056.505,
+  "end": 1057.891,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

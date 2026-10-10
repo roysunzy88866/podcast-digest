@@ -26,7 +26,7 @@ aliases: ["Omnigens", "OmniGenes"]
 
 [[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":22,"Snowflake":20,"MosaicML":2,"Neon":4,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":452}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Databricks":23,"Snowflake":20,"MosaicML":2,"Neon":4,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":454}</script>
 
 <script>
 (function(){

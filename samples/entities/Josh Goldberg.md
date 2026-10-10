@@ -22,7 +22,7 @@ unlisted: true
 
 [[vibe coding]] · [[开源]] · [[Cory Doctorow]] · [[David Burns]] · [[半人马]] · [[BrowserStack]] · [[反向半人马]] · [[Selenium]] · [[劣化]] · [[WebDriver]]
 
-<script type="application/json" class="pd-epn">{"vibe coding":47,"开源":38,"Cory Doctorow":1,"David Burns":1,"半人马":3,"BrowserStack":1,"反向半人马":1,"Selenium":1,"劣化":1,"WebDriver":1}</script>
+<script type="application/json" class="pd-epn">{"vibe coding":47,"开源":39,"Cory Doctorow":1,"David Burns":1,"半人马":3,"BrowserStack":1,"反向半人马":1,"Selenium":1,"劣化":1,"WebDriver":1}</script>
 
 <script>
 (function(){

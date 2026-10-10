@@ -7,29 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Braintrust</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Braintrust">BR</div><div class="pi"><h1 class="pt">Braintrust</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Braintrust">BR</div><div class="pi"><h1 class="pt">Braintrust</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]]**(00:10起):本集主角:Ankur Goyal 创办的 AI 评估平台公司,帮团队对智能体和 AI 系统的输出做评估、日志与可观测性,客户包括 Notion、Stripe、Pylon 等。
 - **[[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]]**(00:00起):本集主角：Ankur 创办的 AI 开发者平台，帮助开发者构建真正有效的 AI，以评测为核心，客户包括 Stripe、Instacart、Airtable 等高品味公司
 - **[[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]]**(00:13起):本集说 Braintrust 是一个可观测性平台，帮助 AI 团队满怀信心地构建和改进他们的 AI；它提供 evals、可观测性以及从生产数据中挖掘新 eval 用例的飞轮组件。
+- **[[2026-10-06-talks-advanced-workshop-mastering-ai-observabi|《智能体上线后总出问题？先学会「看见」它在干什么》]]**(00:16起):本集主讲人所在的、定位为 evals 与可观测性平台的公司，目标是帮助客户构建更好的智能体；支持多语言多框架接入、混合/自托管部署，并自研了后端数据库 BrainStore。
+- **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(00:19起):本集说 Braintrust 是一个专注智能体质量的平台，帮助团队为上线的 AI 功能和智能体建立并保持信心；他们还为此自建了 BTQL 查询抽象层。
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为被讨论公司
 - [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]] — 作为被讨论公司
+- [[2026-10-06-talks-advanced-workshop-mastering-ai-observabi|《智能体上线后总出问题？先学会「看见」它在干什么》]] — 作为被讨论公司
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[评估]] · [[智能体]] · [[Ankur Goyal]] · [[可观测性]] · [[Brainstore]] · [[Figma]] · [[提示词]] · [[Corinne Riley]] · [[LLM]] · [[Ameya Bhatawdekar]]
+[[评估]] · [[智能体]] · [[可观测性]] · [[Brainstore]] · [[Ankur Goyal]] · [[LLM]] · [[Topics]] · [[编码智能体]] · [[Figma]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"评估":5,"智能体":452,"Ankur Goyal":2,"可观测性":40,"Brainstore":2,"Figma":22,"提示词":22,"Corinne Riley":4,"LLM":59,"Ameya Bhatawdekar":1}</script>
+<script type="application/json" class="pd-epn">{"评估":5,"智能体":454,"可观测性":42,"Brainstore":3,"Ankur Goyal":2,"LLM":60,"Topics":2,"编码智能体":32,"Figma":22,"ChatGPT":104}</script>
 
 <script>
 (function(){

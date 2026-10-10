@@ -25,7 +25,7 @@ unlisted: true
 
 [[Adam]] · [[Gio]] · [[Axon 2]] · [[推荐系统]] · [[语义嵌入]] · [[深度神经网络]] · [[GPU]] · [[AI]] · [[品味]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Adam":2,"Gio":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":29,"AI":29,"品味":15,"ChatGPT":103}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"Gio":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":29,"AI":29,"品味":15,"ChatGPT":104}</script>
 
 <script>
 (function(){

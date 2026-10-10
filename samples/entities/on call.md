@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Simon Maple]] · [[Varun Krovvidi]] · [[Marc Brooker]] · [[Resolve AI]] · [[AWS]] · [[事故]] · [[Strands]] · [[模型编排]] · [[Agent Core]]
 
-<script type="application/json" class="pd-epn">{"智能体":452,"Simon Maple":10,"Varun Krovvidi":1,"Marc Brooker":1,"Resolve AI":3,"AWS":22,"事故":2,"Strands":1,"模型编排":1,"Agent Core":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":454,"Simon Maple":10,"Varun Krovvidi":1,"Marc Brooker":1,"Resolve AI":3,"AWS":22,"事故":2,"Strands":1,"模型编排":1,"Agent Core":1}</script>
 
 <script>
 (function(){

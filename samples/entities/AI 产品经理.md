@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Ankit Shukla]] · [[产品构建者]] · [[Claude]] · [[ChatGPT]] · [[Codex]] · [[wipe coding]] · [[智能体 AI]] · [[提示词工程]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"Ankit Shukla":1,"产品构建者":3,"Claude":93,"ChatGPT":103,"Codex":82,"wipe coding":1,"智能体 AI":5,"提示词工程":2,"RAG":28}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"Ankit Shukla":1,"产品构建者":3,"Claude":93,"ChatGPT":104,"Codex":82,"wipe coding":1,"智能体 AI":5,"提示词工程":2,"RAG":28}</script>
 
 <script>
 (function(){

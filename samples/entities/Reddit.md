@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Reddit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Reddit">RE</div><div class="pi"><h1 class="pt">Reddit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Reddit">RE</div><div class="pi"><h1 class="pt">Reddit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:02起):本集提到:嘉宾强调物理世界的数据是互联网上抓取不到的,比如你无法爬取 Reddit 去发现某个特定建筑工地今天发生了什么(以此说明 Samsara 数据的独特性)。
 - **[[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]]**(01:48起):本集举 Reddit 作为『美好旧时光』YC 投的公司的例子：有价值，但『算不上洲际弹道货物』，用来对比现在这一批的『严肃』公司
 - **[[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]]**(08:14起):本集说它是 B2B 软件引用前三（G2、YouTube、Reddit），曾与 G2 不相上下，但在 OpenAI entity update 后引用骤降，成为「模型信任说变就变」的活例证。
+- **[[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]]**(02:39起):本集招聘者提到自己曾在 Reddit 工作,并用它举例说明冷邮件/主动联系的做法。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(13:55起):本集核心案例：研究显示 ChatGPT 检索引擎把约三分之一的基础检索槽位留给 Reddit，但多数在引用环节被拒——被用来给答案提供依据，引用的却是别处；嘉宾建议品牌押注 Reddit，因为很多 B2B 公司不会玩。
 
 ## ① 提到它的金句
@@ -31,7 +32,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司(提及)
@@ -39,15 +40,16 @@ unlisted: true
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|《PG 炉边谈话：创业的核心从来没变过》]] — 作为概念
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
+- [[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]] — 作为被讨论公司(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[AEO]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[SEO]] · [[物理 AI]] · [[护栏]] · [[推理]] · [[LLM]]
+[[ChatGPT]] · [[OpenAI]] · [[AEO]] · [[智能体]] · [[Google]] · [[SEO]] · [[物理 AI]] · [[护栏]] · [[推理]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":103,"AEO":5,"智能体":452,"OpenAI":185,"Google":69,"SEO":8,"物理 AI":11,"护栏":87,"推理":89,"LLM":59}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":104,"OpenAI":186,"AEO":5,"智能体":454,"Google":69,"SEO":8,"物理 AI":11,"护栏":87,"推理":89,"LLM":60}</script>
 
 <script>
 (function(){

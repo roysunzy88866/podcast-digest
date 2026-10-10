@@ -1,0 +1,161 @@
+{
+  "title_zh": "智能体上线后总出问题？先学会「看见」它在干什么",
+  "tldr": "Braintrust 解决方案工程师 Doug Guthrie 示范如何用追踪、评分和主题分析打造智能体改进飞轮。",
+  "digest_md": "做智能体（agent）的人都会撞上同一堵墙：东西做出来了，也上线了，但它到底哪里做得好、哪里在悄悄出错，没人说得清。在这场工作坊里，Braintrust 的解决方案工程师 Doug Guthrie 把他们从 Cloudflare、Dropbox、Netflix 这些客户身上学到的经验掰开讲了一遍：怎么追踪智能体的每一步，怎么从海量数据里淘出有意义的信号，又怎么让生产线上的发现反过来推动开发。哪怕你不用 Braintrust，这套思路也值得借鉴。\n\n## 为什么追踪是一切的基础\n\nGuthrie 说得很直接：**如果你的技术栈里没有类似追踪（trace）的东西，那你的智能体就是个黑盒**。追踪的意思是记录智能体走到最终输出前的每一个步骤——调用了哪些工具、每次的输入输出是什么。步骤一多，数据量会爆炸，这正是难点所在。但反过来，没有这些数据，你连「质量在哪 deteriorating」都找不到，更别提让 Codex 或 Claude Code 这类编程工具帮你定位问题了。[05:53 Unknown]\n\n## 评分怎么设计才不流于形式\n\n他把信号拆成两类。第一类是评分（score），也就是给智能体的输出打分。最简单的是基于代码的评分：验证格式对不对、工具 A 是不是在工具 B 之前被调用，跑得快、花钱少。更主观的问题就要靠大模型当裁判，你给它一套标准，它给对话打分。如果裁判在给线上流量打分，还应该配上人工抽检来校准——这不是设一次就不管的事，智能体会变，评分标准也得跟着变。\n\n几个实战建议：**起步阶段用二元评分（过/不过），而且标准要狠**。如果你的评估全拿满分，「你的评分大概不够严苛」[13:08 Unknown]，测试用例也不够强。另外，在提示词里给裁判举几个例子，评分用的模型可以比生成用的更强一些。\n\n## 光知道已知问题还不够\n\n第二类信号是 Braintrust 的 Topics 功能，专门对付未知的未知——你已经设好的评分，只能覆盖你认识到的那些失败模式，但用户实际会拿各种你没测过的场景去试探你的智能体。Topics 的做法是：把冗长的追踪预处理成一段摘要，让大模型按维度（比如用户意图、情绪、问题类型）归类，再对摘要做向量嵌入、聚类，最后生成一张散点图，把每条追踪打上标签。这样你就能看到哪些模式出现得最频繁。这个流水线用的是 Braintrust 自家的托管模型，成本是输入每百万 token 6 美分、输出 40 美分，目标是能在 100% 的追踪上跑。\n\n有个意外收获：有客户发现用户在拿智能体做团队压根没想到的事——这与其说是发现故障，不如说是免费的产品需求调研。\n\n## 真正的目标是转起来的飞轮\n\nGuthrie 全场反复讲一个词：飞轮（flywheel）。核心主张是「**生产应该反过来指导开发**」[08:17 Unknown]。具体闭环是：从线上日志里发现一个问题，把这条真实交互加回测试数据集，改代码、跑评估、对比上一次的结果确认没有退步，再部署上线。他还现场演示了更进一步的自动化：给 Codex 这类编程智能体装上 Braintrust 的 CLI 工具和相关技能，它就能自己写 SQL 查询线上数据、钻进出错的追踪、创建新评分、补充数据集、跑评估，最后开一个拉取请求，附上改动理由和评估数据，交给人审核。他说首页上有一家客户靠这个每天多产出 5 到 10 个拉取请求。\n\n## 几个值得记住的细节\n\n被问到==凭什么选 Braintrust 而不是竞品==时，他举了两点：一是对语言、框架、模型供应商都很中立；二是他们在 2024 年底就自研了数据库 BrainStore，因为接下 Netflix、Microsoft 这样的客户后，原本用的 ClickHouse 在大规模数据下很快撑不住了。他认为竞品后来也纷纷自建数据库，Braintrust 在这件事上领先了大约一年。\n\n部署方式上，除了标准 SaaS，还有数据留在客户自己基础设施里的方案，他估计首页那些大客户 90% 都是自托管。问答环节还有个实用提醒：新上线的智能体采样率应该高一些，成熟之后可以逐步调低。\n\n## 本集带走\n\n- 没有追踪就是黑盒：先记录智能体每一步的工具调用和输入输出，才谈得上发现质量问题。\n- 评分起步用二元制、标准从严；评估拿满分往往说明测试用例太弱，而不是智能体完美。\n- 已设好的评分只覆盖已知问题，Topics 这类聚类分析能暴露你没料到的使用方式和故障。\n- 核心是把生产反哺开发做成飞轮：线上发现的问题要变成测试用例，改完跑评估对比，确认改进再部署。\n- 把这套飞轮交给编程智能体自动跑——查数据、改代码、开拉取请求——已经有客户每天因此多产出 5 到 10 个拉取请求。",
+  "quotes": [
+    {
+      "en": "Binary scoring, I think, especially at the outset, when we have sort of an agent that we are putting out into production, binary scoring, I think, is better than, you know, A, B, C, D, or so on. And you should be incredibly harsh.",
+      "zh": "我认为二元评分，尤其是在起步阶段、当我们有一个正要投入生产的智能体时，比 A、B、C、D 之类要好。而且你应该极其严苛。",
+      "timestamp": "12:46",
+      "speaker": "Doug Guthrie"
+    },
+    {
+      "en": "But if you get 100% on your evals, one, you probably don't have strong enough test cases in your data set, your scores probably aren't harsh enough, so you should sort of look at that and sort of calibrate accordingly.",
+      "zh": "但如果你在你的 eval 上拿到 100%，其一，你的数据集中可能没有足够强的测试用例，你的评分可能不够严苛，所以你应该审视一下并相应地进行校准。",
+      "timestamp": "13:09",
+      "speaker": "Doug Guthrie"
+    },
+    {
+      "en": "Your evals should evolve with your agent.",
+      "zh": "你的评估应该随着你的智能体一起演进。",
+      "timestamp": "78:32",
+      "speaker": "Doug Guthrie"
+    },
+    {
+      "en": "I can generate a PR based off of all of those insights, but I don't give them access to the underlying traces. I give them access to the analysis.",
+      "zh": "我可以基于所有那些洞察生成一个 PR，但我并不给他们访问底层 trace 的权限。我给他们的是对这些 trace 的分析的访问权限。",
+      "timestamp": "98:38",
+      "speaker": "Doug Guthrie"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "08:17",
+      "speaker": "Unknown",
+      "en": "And what I mean by that is that production should inform development.",
+      "zh": "我的意思是，生产环境应该为开发提供信息。"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Unknown",
+      "en": "This isn't a set it and forget it type thing. Your agent will evolve, so too will your scores.",
+      "zh": "这不是那种设好之后就不用管的东西。你的智能体会演化，你的评分也同样会演化。"
+    },
+    {
+      "timestamp": "12:46",
+      "speaker": "Unknown",
+      "en": "Binary scoring, I think, especially at the outset, when we have sort of an agent that we are putting out into production, binary scoring, I think, is better than, you know, A, B, C, D, or so on. And you should be incredibly harsh.",
+      "zh": "我认为二元评分，尤其是在起步阶段、当我们有一个正要投入生产的智能体时，比 A、B、C、D 之类要好。而且你应该极其严苛。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Unknown",
+      "en": "But if you get 100% on your evals, one, you probably don't have strong enough test cases in your data set, your scores probably aren't harsh enough, so you should sort of look at that and sort of calibrate accordingly.",
+      "zh": "但如果你在你的 eval 上拿到 100%，其一，你的数据集中可能没有足够强的测试用例，你的评分可能不够严苛，所以你应该审视一下并相应地进行校准。"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Unknown",
+      "en": "You wanna go a little bit further beyond the known unknowns, right?",
+      "zh": "你想比已知的未知再往前走一点，对吧？"
+    },
+    {
+      "timestamp": "15:46",
+      "speaker": "Unknown",
+      "en": "We should be able to understand silent failures.",
+      "zh": "我们应该能够理解静默失败。"
+    },
+    {
+      "timestamp": "15:55",
+      "speaker": "Unknown",
+      "en": "They're gonna catch a very small subset of errors.",
+      "zh": "它们只能捕获很小一部分错误。"
+    },
+    {
+      "timestamp": "18:04",
+      "speaker": "Unknown",
+      "en": "This could be potentially feature requests, new things that your agent could do based on the way users are actually interacting with your agent.",
+      "zh": "它可能是功能请求，是基于用户实际与你的智能体交互的方式，你的智能体可以做的新的东西。"
+    },
+    {
+      "timestamp": "21:03",
+      "speaker": "Unknown",
+      "en": "We have customers that generate massive amounts of data, and one of the things that I think we solved for very early on was being able to ingest that data and then being able to, allowing our customers to query over that data in sort of sub-second speeds.",
+      "zh": "我们有产生海量数据的客户，而我认为我们很早就解决好的问题之一，就是能够摄取那些数据，然后让我们的客户以亚秒级的速度对那些数据进行查询。"
+    },
+    {
+      "timestamp": "24:40",
+      "speaker": "Unknown",
+      "en": "I think at the time, people thought we were crazy.",
+      "zh": "我想在当时，人们觉得我们疯了。"
+    },
+    {
+      "timestamp": "25:00",
+      "speaker": "Unknown",
+      "en": "I think people are starting to recognize that this is actually a problem that's not solved for with out of the box solutions and you need something custom.",
+      "zh": "我认为人们开始意识到，这实际上是一个开箱即用的方案解决不了的问题，你需要定制化的东西。"
+    },
+    {
+      "timestamp": "25:09",
+      "speaker": "Unknown",
+      "en": "And so in that regard, I think we're like a year ahead of some of these competitors.",
+      "zh": "所以在这方面，我认为我们领先这些竞争对手大约一年。"
+    },
+    {
+      "timestamp": "29:22",
+      "speaker": "Unknown",
+      "en": "I think what I've heard is that most engineers today, most teams of engineers are using those tools and there needs to now be, I think, insight into the Efficacy or how well these things are actually improving the workflow and those types of things.",
+      "zh": "我听到的是，如今大多数工程师、大多数工程师团队都在使用这些工具，而现在需要的是对这些工具的有效性、它们实际改善工作流的程度如何的洞察。"
+    },
+    {
+      "timestamp": "71:34",
+      "speaker": "Unknown",
+      "en": "It's like I am very reactive. The onus is on me as a user of BrainTrust to like go through and click buttons and filter and then parse through these traces. Like there's got to be a better way.",
+      "zh": "就是我非常被动。责任在我这个 Braintrust 用户身上，我得去点击按钮、进行过滤，然后解析这些追踪。应该有更好的办法。"
+    },
+    {
+      "timestamp": "72:57",
+      "speaker": "Unknown",
+      "en": "You need that signal attached to your traces in some way, and you need that signal to be real.",
+      "zh": "你需要以某种方式把这个信号附加到你的追踪记录上，并且你需要这个信号是真实的。"
+    },
+    {
+      "timestamp": "77:23",
+      "speaker": "Unknown",
+      "en": "But the sort of like operation, the thing that I'm describing here is that where you start to improve the quality the most is when you can curate traces, curate examples from production, and bring those back to your data set.",
+      "zh": "我在这里描述的是，当你能够整理轨迹、整理来自生产环境的示例，并把它们带回你的数据集时，你就能最大程度地提升质量。"
+    },
+    {
+      "timestamp": "78:32",
+      "speaker": "Unknown",
+      "en": "Your evals should evolve with your agent.",
+      "zh": "你的评估应该随着你的智能体一起演进。"
+    },
+    {
+      "timestamp": "79:43",
+      "speaker": "Unknown",
+      "en": "But it's more about the evolution of your agent and ensuring that all of those things that come along with your evals evolve with it so that you can, one, capture new things, but also, as you go change your code, you're not regressing your agent based on previous interactions that you've curated into that data set.",
+      "zh": "但这更多是关于你的智能体的演进，确保所有伴随你的评估而来的东西都与它一起演进，这样你既可以捕捉新东西，同时当你修改代码时，也不会因为你之前整理进那个数据集的历史交互而使你的智能体出现回退。"
+    },
+    {
+      "timestamp": "98:38",
+      "speaker": "Unknown",
+      "en": "I can generate a PR based off of all of those insights, but I don't give them access to the underlying traces. I give them access to the analysis.",
+      "zh": "我可以基于所有那些洞察生成一个 PR，但我并不给他们访问底层 trace 的权限。我给他们的是对这些 trace 的分析的访问权限。"
+    },
+    {
+      "timestamp": "99:49",
+      "speaker": "Unknown",
+      "en": "But to me, most, like, I would wager 100% of you are using some coding agent, right? Like, this is how you are coding today.",
+      "zh": "但对我来说，我敢打赌你们 100% 都在用某种编码智能体，对吧？这就是你今天编写代码的方式。"
+    },
+    {
+      "timestamp": "106:19",
+      "speaker": "Unknown",
+      "en": "One of them that was on the first slide that I showed is using this to generate five to 10 more PRs per day than they were before.",
+      "zh": "在我展示的第一张幻灯片上有一家客户，他们用这个每天比以前多产出五到十个 PR。"
+    }
+  ],
+  "voice_script": "今天要跟你聊的，是一个做智能体的人都躲不开的尴尬：东西做出来了，也上线了，但它到底哪里做得好、哪里在悄悄出错，没人说得清。\n\n讲这件事的人叫 Doug Guthrie，是 Braintrust 的解决方案工程师。Braintrust 是一家专门做智能体观测和评估的公司，客户里有 Cloudflare、Dropbox、Netflix、Microsoft 这些大家伙。在这场工作坊里，Guthrie 把他们从这些客户身上学到的经验掰开讲了一遍：怎么追踪智能体的每一步，怎么从海量数据里淘出有意义的信号，又怎么让线上的发现反过来推动开发。哪怕你不用 Braintrust，这套思路也值得听一听。\n\n咱们从头说起。做智能体，最要命的不是写不出功能，而是上线之后两眼一抹黑。Guthrie 说得很直接：如果你的技术栈里没有类似追踪的东西，那你的智能体就是个黑盒。追踪是什么意思呢？就是把智能体走到最终输出之前的每一步都记下来——调用了哪些工具，每次调用的输入输出是什么。有了这些记录，你才能回头查，到底是哪一步出了岔子，甚至让 Codex 或者 Claude Code 这类编程工具帮你定位问题。\n\n那问题来了，步骤一多，数据量会爆炸，这是难点。但反过来说，没有这些数据，你连质量在哪儿恶化都找不到。所以追踪是一切的基础，先得能看见，才谈得上改进。\n\n看见之后干什么呢？第二步是打分。Guthrie 把信号拆成两类，第一类就是评分，也就是给智能体的输出打分。最简单的做法是基于代码的评分，比如验证格式对不对、工具 A 是不是在工具 B 之前被调用，跑得快、花钱少。那更主观的问题怎么办？比如回答得好不好、态度合不合适，这就得让大模型当裁判，你给它一套标准，它给对话打分。\n\n这里有几个实战建议，很实在。第一，起步阶段用二元评分，就是过或者不过，别搞 ABCD 那种四档五档。用 Guthrie 原话说，当你的智能体正要投入生产时，二元评分比那些分级更好，而且标准要极其严苛。第二，如果你的评估全拿满分，先别高兴——这往往说明你的评分不够严苛，测试用例也不够强，得回头校准一下。另外还有两个小技巧：在提示词里给裁判举几个例子，评分用的模型可以比生成用的更强一些。\n\n当然，评分不是设一次就完事的。智能体会变，评分标准也得跟着变，评估应该随着智能体一起演进。而且如果是裁判在给线上流量打分，最好配上人工抽检来校准。\n\n讲到这儿，你可能会问：评分已经挺好用了，是不是就够了？这恰好引出一个更根本的问题——评分只能覆盖你已经认识到的失败模式。你设了十条评分标准，是因为你预想到了十种出错方式，可用户实际会拿各种你没测过的场景去试探你的智能体。这些未知的未知怎么发现？这就是第二类信号要解决的。\n\nBraintrust 做了个功能叫 Topics，专门对付这件事。做法大概是这样的：先把冗长的追踪预处理成一段摘要，让大模型按几个维度归类，比如用户意图、情绪、问题类型，然后对摘要做向量嵌入、聚类，最后生成一张散点图，把每条追踪都打上标签。这样你一眼就能看出，哪些模式出现得最频繁。这条流水线用的是 Braintrust 自家的托管模型，输入每百万 token 6 美分、输出 40 美分，目标是能在百分之百的追踪上跑。\n\n这里还有个意外收获。有客户发现，用户在拿智能体做团队压根没想到的事。这与其说是发现故障，不如说是免费的产品需求调研——你本来只是想找出错的地方，结果顺便知道该往哪儿做了。\n\n好，追踪有了，评分有了，未知的问题也能挖出来了，那接下来呢？Guthrie 全场反复讲一个词：飞轮。核心主张就一句话，生产应该反过来指导开发。具体怎么转呢？从线上日志里发现一个问题，把这条真实交互加回测试数据集，然后改代码、跑评估、对比上一次的结果确认没有退步，再部署上线。一次循环跑完，下一个问题又进来，轮子就这么转起来。\n\n更狠的是，这一整套可以交给编程智能体自动跑。Guthrie 现场演示了怎么给 Codex 这类工具装上 Braintrust 的命令行工具和相关技能，让它自己写 SQL 查询线上数据、钻进出错的追踪、创建新评分、补充数据集、跑评估，最后开一个拉取请求，附上改动理由和评估数据，交给人审核。有句话说得挺妙：可以基于这些洞察自动生成拉取请求，但不给编程智能体看原始追踪的权限，给它的只是对这些追踪的分析。首页上有一家客户，靠这个每天多产出 5 到 10 个拉取请求。\n\n最后再交代几个背景细节。有人问，凭什么选 Braintrust 而不是竞品？Guthrie 举了两点：一是对语言、框架、模型供应商都很中立；二是早在 2024 年底，因为接下 Netflix、Microsoft 这样的大客户，原来用的 ClickHouse 在大规模数据下撑不住了，就自研了数据库叫 BrainStore。后来竞品也纷纷自建数据库，Braintrust 觉得自己在这件事上领先了大约一年。部署方式上，除了标准 SaaS，还有数据留在客户自己基础设施里的自托管方案，首页那些大客户估计九成都是自托管的。问答环节还有个实用提醒：新上线的智能体，采样率应该高一些，成熟之后可以逐步调低。\n\n把这一集收拢成一句话就是：智能体不是上线就完事，你得先让它能被看见，再用评分和分析找到问题，最后把生产中的发现变回测试用例和代码——这个飞轮转起来，你的智能体才会越跑越好。评估应该随着你的智能体一起演进，这句话值得放在每个做智能体的人的案头。"
+}

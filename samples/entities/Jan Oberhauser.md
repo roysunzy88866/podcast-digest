@@ -54,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"n8n":4,"智能体":452,"工作流":13,"人在回路":21,"自托管":2,"可审计性":2,"Zapier":5,"开源":38,"Claude Code":98,"fair-code":1}</script>
+<script type="application/json" class="pd-epn">{"n8n":4,"智能体":454,"工作流":13,"人在回路":21,"自托管":2,"可审计性":2,"Zapier":5,"开源":39,"Claude Code":98,"fair-code":1}</script>
 
 <script>
 (function(){

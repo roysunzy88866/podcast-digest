@@ -31,7 +31,7 @@ unlisted: true
 
 [[Dru Knox]] · [[TESOL]] · [[软件工厂]] · [[harness 工程]] · [[编码智能体]] · [[沙箱]] · [[技能注册表]] · [[控制平面]] · [[内环与外环]] · [[外循环]]
 
-<script type="application/json" class="pd-epn">{"Dru Knox":1,"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":30,"沙箱":88,"技能注册表":2,"控制平面":3,"内环与外环":2,"外循环":1}</script>
+<script type="application/json" class="pd-epn">{"Dru Knox":1,"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":32,"沙箱":88,"技能注册表":2,"控制平面":3,"内环与外环":2,"外循环":1}</script>
 
 <script>
 (function(){

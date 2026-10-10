@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -31,6 +31,7 @@ unlisted: true
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:51起):被一句话提及：SAP 数据平台的以数据为导向的合作伙伴之一，做零拷贝数据共享。
 - **[[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]]**(09:29起):本集在回顾上一份生物科技公司职位时顺带提到：「我们最后成了一个彻头彻尾的 AWS 用户，我买了 Databricks」。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(08:59起):本集举 Databricks 为「创始人搞出下一件事」的范例：成长基金首笔投资七年后营收反而加速，还会参与争夺 AI 的抽象层。
+- **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(00:23起):本集作为嘉宾背景提及：Hossein 在 Salesforce 和 Databricks 做了 15 年解决方案工作。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(04:18起):本集多次提及:Databricks 收购 Neon(智能体创建分支比例 30%→80% 的数据来源),今年宣布 Lakebase 的 HTAP 故事,被认为最有希望做成混合事务分析
 
 ## ① 提到它的金句
@@ -45,7 +46,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
@@ -68,15 +69,16 @@ unlisted: true
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
 - [[2026-09-30-talks-the-chief-ai-officer-scientist-architect|《首席AI官到底在干什么？一位从业者的亲历拆解》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为被讨论公司(提及)
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Snowflake]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[推理]] · [[开源]] · [[SaaS]] · [[LLM]]
+[[智能体]] · [[Snowflake]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[LLM]] · [[推理]] · [[开源]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"智能体":452,"Snowflake":20,"Anthropic":194,"OpenAI":185,"Cursor":83,"Stripe":48,"推理":89,"开源":38,"SaaS":22,"LLM":59}</script>
+<script type="application/json" class="pd-epn">{"智能体":454,"Snowflake":20,"Anthropic":194,"OpenAI":186,"Cursor":84,"Stripe":48,"LLM":60,"推理":89,"开源":39,"SaaS":22}</script>
 
 <script>
 (function(){

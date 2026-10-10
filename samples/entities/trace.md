@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>trace</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="trace">TR</div><div class="pi"><h1 class="pt">trace</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="trace">TR</div><div class="pi"><h1 class="pt">trace</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]]**(01:41起):本集把它说成：智能体运行记录，量大到不可能人工全看；生产 traces 被引擎批量分析加人工翻看，并要反哺离线 eval。
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(20:26起):本集说 trace 是复利学习循环的记录系统,展示智能体每一步做了什么,Engine 就坐在追踪记录之上工作。
 - **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]]**(04:04起):本集核心方法：把音频、转录文本、trace 放进同一会话视图，逐个 span 可见、内联播放音频、看工具调用与指标的关联；「日志会说谎」，只有 trace 能揭示真实失败。
+- **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(10:55起):本集说智能体 trace 是很棘手的半结构化 JSON，单次交互可达几百兆，普通云数据仓库在这种体量下会崩溃，是评估平台难做的核心原因。
 
 ## ① 提到它的金句
 
@@ -30,20 +31,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|《Clay 的智能体矩阵：如何为数十亿次运行建评估》]] — 作为概念
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为概念
 - [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]] — 作为概念
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[评估]] · [[智能体]] · [[LLM 当裁判]] · [[LangChain]] · [[Anthropic]] · [[harness]] · [[OpenAI]] · [[沙箱]] · [[Lenny]] · [[Vishu]]
+[[评估]] · [[智能体]] · [[LLM 当裁判]] · [[LangChain]] · [[ChatGPT]] · [[Anthropic]] · [[harness]] · [[可观测性]] · [[OpenAI]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"评估":5,"智能体":452,"LLM 当裁判":10,"LangChain":10,"Anthropic":194,"harness":63,"OpenAI":185,"沙箱":88,"Lenny":68,"Vishu":1}</script>
+<script type="application/json" class="pd-epn">{"评估":5,"智能体":454,"LLM 当裁判":10,"LangChain":10,"ChatGPT":104,"Anthropic":194,"harness":63,"可观测性":42,"OpenAI":186,"沙箱":88}</script>
 
 <script>
 (function(){

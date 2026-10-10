@@ -25,7 +25,7 @@ unlisted: true
 
 [[David George]] · [[token]] · [[推理]] · [[前沿模型]] · [[开源]] · [[AI 编程]] · [[推理模型]] · [[自动驾驶]] · [[机器人]] · [[资本周期]]
 
-<script type="application/json" class="pd-epn">{"David George":6,"token":32,"推理":89,"前沿模型":27,"开源":38,"AI 编程":7,"推理模型":6,"自动驾驶":1,"机器人":13,"资本周期":1}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"token":32,"推理":89,"前沿模型":27,"开源":39,"AI 编程":7,"推理模型":6,"自动驾驶":1,"机器人":13,"资本周期":1}</script>
 
 <script>
 (function(){

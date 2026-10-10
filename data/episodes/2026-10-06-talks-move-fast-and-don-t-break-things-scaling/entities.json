@@ -1,0 +1,609 @@
+{
+  "episode_id": "2026-10-06-talks-move-fast-and-don-t-break-things-scaling",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "数据库",
+    "AI 基础设施",
+    "可扩展性",
+    "智能体",
+    "开发者体验"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "ben",
+      "type": "person",
+      "role": "host",
+      "name": "Ben",
+      "file": "Ben",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            177.065,
+            182.269
+          ],
+          "quote": "The reason why I'm talking about this is I'm Ben, and I'm from PlanetScale, and we do databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1127.315,
+            1129.637
+          ],
+          "quote": "I'm Ben, and have a great rest of the conference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "planetscale",
+      "type": "company",
+      "role": "concept",
+      "name": "PlanetScale",
+      "file": "PlanetScale",
+      "primary": true,
+      "how_described": "本集说 PlanetScale 是一家做数据库的公司，与 Cursor 等扩张极快的 AI 公司合作，为它们提供可扩展、可靠的数据库支持，包括 Vitesse 分片、Traffic Control、数据库分支合并回滚等能力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            177.065,
+            182.269
+          ],
+          "quote": "The reason why I'm talking about this is I'm Ben, and I'm from PlanetScale, and we do databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            412.766,
+            418.489
+          ],
+          "quote": "So one of the key things, and this is what we do a lot of at PlanetScale, is sharding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            460.796,
+            464.377
+          ],
+          "quote": "And this is exactly what we do a lot of for some large customers at PlanetScale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            653.175,
+            660.258
+          ],
+          "quote": "But this is a lot of what we think about a lot at PlanetScale because our customers rely on us to be reliable and to scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            810.724,
+            817.847
+          ],
+          "quote": "And once you've developed and designed something that it has thought through and made decisions about the most efficient ways to shard when you are on a platform like PlanetScale,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            946.05,
+            964.92
+          ],
+          "quote": "And then finally, one other thing I want to talk about, and I know I'm showing this is the PlanetScale UI here, but this is not even so much specifically about PlanetScale, but it's about the philosophy of how we do these things with agents, which is most developers are used to using a Git-like flow when you're building, and this applies to your agents as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "concept",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到 PlanetScale 为 Cursor 这类正在疯狂扩张的 AI 公司提供数据库支持",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            186.993,
+            190.996
+          ],
+          "quote": "We work with companies like Cursor, for example, and Power Databases for them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vitesse",
+      "type": "concept",
+      "role": "concept",
+      "name": "Vitesse",
+      "file": "Vitesse",
+      "primary": false,
+      "how_described": "本集说 Vitesse 是一个开源项目，PlanetScale 用它为 MySQL 做分片，VT gate 作为智能代理把查询路由到各分片，配置通过 JSON 的 vschema 文件指定",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            464.397,
+            469.859
+          ],
+          "quote": "We do sharding through Vitesse for MySQL and Niki for Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            742.865,
+            747.069
+          ],
+          "quote": "So going back to sharding, what I'm going to talk a little more specifically about is Vitesse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            749.772,
+            753.296
+          ],
+          "quote": "We operate Vitesse databases for our customers, and it works with MySQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            994.007,
+            1007.472
+          ],
+          "quote": "So what we give you, powered by that same Vitesse earlier, is the ability to branch your database schema, make changes to that schema in an isolated environment, and then merge that back into production with what we call a deploy request, all with no downtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mysql",
+      "type": "concept",
+      "role": "concept",
+      "name": "MySQL",
+      "file": "MySQL",
+      "primary": false,
+      "how_described": "本集说 MySQL 是人们常运行的流行数据库之一，过载处理不佳、容易崩溃，PlanetScale 通过 Vitesse 为它做分片",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            464.397,
+            469.859
+          ],
+          "quote": "We do sharding through Vitesse for MySQL and Niki for Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            516.799,
+            527.568
+          ],
+          "quote": "And what we mean here is there's a lot of systems like MySQL and Postgres and SQLite, these very popular databases that people run, that don't do a good job at handling being overloaded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            749.772,
+            753.296
+          ],
+          "quote": "We operate Vitesse databases for our customers, and it works with MySQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            757.458,
+            759.038
+          ],
+          "quote": "Those would be MySQL databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            761.219,
+            770.204
+          ],
+          "quote": "That is basically an intelligent proxy that takes MySQL queries, parses them, figures out which shard they need to go to, and routes all of those requests in a very sophisticated way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "concept",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": false,
+      "how_described": "本集说 Postgres 同样在过载时表现不佳，PlanetScale 用 Niki 为它做分片",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            464.397,
+            469.859
+          ],
+          "quote": "We do sharding through Vitesse for MySQL and Niki for Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            516.799,
+            527.568
+          ],
+          "quote": "And what we mean here is there's a lot of systems like MySQL and Postgres and SQLite, these very popular databases that people run, that don't do a good job at handling being overloaded.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            593.954,
+            598.117
+          ],
+          "quote": "Your Postgres database, your OLTP workloads, combined with what you're doing for analytics,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 AI 智能体已在写代码、审查代码、部署东西，其需求还带来巨大的流量增长；让智能体安全操作数据库的关键是给它简单安全的接口，如 JSON 配置、类 Git 的分支合并和一键回滚",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            801.24,
+            805.182
+          ],
+          "quote": "So you can give your agent and say, hey, I'm struggling with scalability of my database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sharding",
+      "type": "concept",
+      "role": "concept",
+      "name": "分片 (sharding)",
+      "file": "分片",
+      "primary": true,
+      "how_described": "本集说分片是把数据和查询分散到多台服务器、中间放智能代理分发请求的做法，是扩展海量数据最常见也最高效的方式，且每个分片内部还要有主节点和副本实现自我修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            412.766,
+            418.489
+          ],
+          "quote": "So one of the key things, and this is what we do a lot of at PlanetScale, is sharding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            424.773,
+            426.294
+          ],
+          "quote": "So database sharding, what is this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            464.397,
+            469.859
+          ],
+          "quote": "We do sharding through Vitesse for MySQL and Niki for Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            470.259,
+            472.36
+          ],
+          "quote": "And so this is a very fundamental way of doing sharding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            472.4,
+            474.581
+          ],
+          "quote": "But the other thing is you don't just use sharding by itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            641.45,
+            642.73
+          ],
+          "quote": "We went through sharding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            742.865,
+            747.069
+          ],
+          "quote": "So going back to sharding, what I'm going to talk a little more specifically about is Vitesse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            753.796,
+            754.396
+          ],
+          "quote": "To do sharding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            780.83,
+            793.337
+          ],
+          "quote": "It's what we call a vschema, and it's literally a JSON file where you say, here's the column I want to shard on, and here's the way I want to do sharding, and you can specify certain tables to go on certain shards and have lots of control over where and how things are configured.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "backpressure",
+      "type": "concept",
+      "role": "concept",
+      "name": "背压 (backpressure)",
+      "file": "背压",
+      "primary": true,
+      "how_described": "本集说背压是系统检测到资源超过阈值时主动拒绝部分连接和请求、对部分流量优雅降级，从而保住存量用户，远好过整个应用宕机",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            509.753,
+            510.394
+          ],
+          "quote": "Backpressure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            543.756,
+            551.678
+          ],
+          "quote": "What backpressure is, is it's designing a system to be able to push back and say, when I detect that I'm above a certain threshold of resources, I can actually say,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            850.708,
+            856.209
+          ],
+          "quote": "Another thing, so this is getting into the concept of backpressure that we talked about earlier, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "isolation",
+      "type": "concept",
+      "role": "concept",
+      "name": "隔离 (isolation)",
+      "file": "隔离",
+      "primary": true,
+      "how_described": "本集说隔离是运行基础设施的首要原则之一：让每个组件高度隔离，坏掉的部署搞挂控制平面时，数据平面和数据库不受任何影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            213.93,
+            217.952
+          ],
+          "quote": "So the first and one of the most important is isolation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            381.995,
+            388.597
+          ],
+          "quote": "And in this case, it's still good to have redundancies, to have isolation, to have failure, even for that smaller set of users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            598.537,
+            613.67
+          ],
+          "quote": "Combined with your queuing and your job system, your caching, there is convenience, and some technologies try to do this where we put this all in one, but that does, one, add a lot of complexity, but it also breaks some of the fundamental principles from earlier, like failure isolation, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "redundancy",
+      "type": "concept",
+      "role": "concept",
+      "name": "冗余 (redundancy)",
+      "file": "冗余",
+      "primary": true,
+      "how_described": "本集说冗余通过主节点加不同数据中心或可用区的副本服务器实现，小规模故障几年一次，数千台服务器规模下故障变成每周每月的事，必须有应对机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            276.939,
+            279.3
+          ],
+          "quote": "And another thing is redundancy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            290.384,
+            297.032
+          ],
+          "quote": "Although in the case of application servers, usually redundancy is a little bit easier to solve because it's a stateless workload.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            297.052,
+            305.801
+          ],
+          "quote": "There's lots of auto-scaling Cloudflare workers and Vercel functions and AWS Lambda that can scale and have redundancy very easily because it's not storing state.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "decoupling",
+      "type": "concept",
+      "role": "concept",
+      "name": "解耦 (decoupling)",
+      "file": "解耦",
+      "primary": true,
+      "how_described": "本集说把交易数据库、分析、队列、缓存全合并到一个数据库会破坏故障隔离、造成资源争用，解耦后各部分可以独立伸缩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            577.183,
+            583.507
+          ],
+          "quote": "And then the last component of this that I want to talk about before we move into how to do this all with AI is decoupling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            644.571,
+            645.952
+          ],
+          "quote": "And now we're talking about decoupling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "developer-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者体验 (developer experience)",
+      "file": "开发者体验",
+      "primary": true,
+      "how_described": "本集说开发者体验不只是深浅色模式和快捷键，而是给负责数据库的开发者不搞砸、安全部署、提升性能的工具；专注打磨它的核心，恰好也成了让 AI 安全可靠操作数据库的最好原语",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            1063.315,
+            1067.98
+          ],
+          "quote": "Is we're a company, and I know a lot of companies out there like to focus on the developer experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1068.5,
+            1086.157
+          ],
+          "quote": "And when I say developer experience, I don't just mean light and dark mode switches and good keyboard shortcuts and all of this, but I mean the actual experience of, hey, if you're a developer that's responsible for your company's database or responsible for some piece of infrastructure, do we give you the tools that you need to not mess up, to do deploys safely?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1092.023,
+            1104.034
+          ],
+          "quote": "And it does kind of turn out that when you really focus on that core of the developer experience, what you actually end up with is also very good primitives for AI being able to work with a database safely and reliably and helping it scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "branch",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据库分支 (branch)",
+      "file": "数据库分支",
+      "primary": false,
+      "how_described": "本集说 PlanetScale 把 Git 流程搬到数据库上：给 schema 开分支、在隔离环境改动、通过 deploy request 合并回生产、出问题一键回滚不丢数据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            964.94,
+            972.804
+          ],
+          "quote": "You have a main, you create a branch, you make code changes, you do merge that in, and you deploy that dynamically to wherever your application is deployed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            994.007,
+            1007.472
+          ],
+          "quote": "So what we give you, powered by that same Vitesse earlier, is the ability to branch your database schema, make changes to that schema in an isolated environment, and then merge that back into production with what we call a deploy request, all with no downtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

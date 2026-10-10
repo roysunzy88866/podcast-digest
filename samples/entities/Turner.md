@@ -29,7 +29,7 @@ unlisted: true
 
 [[Sequoia]] · [[Chris Olsen]] · [[Ryan Nece]] · [[Bilal Zuberi]] · [[Path Robotics]] · [[NextLegacy]] · [[物理 AI]] · [[LLM]] · [[Nextplay Capital]] · [[机器人]]
 
-<script type="application/json" class="pd-epn">{"Sequoia":7,"Chris Olsen":1,"Ryan Nece":1,"Bilal Zuberi":1,"Path Robotics":1,"NextLegacy":1,"物理 AI":11,"LLM":59,"Nextplay Capital":1,"机器人":13}</script>
+<script type="application/json" class="pd-epn">{"Sequoia":7,"Chris Olsen":1,"Ryan Nece":1,"Bilal Zuberi":1,"Path Robotics":1,"NextLegacy":1,"物理 AI":11,"LLM":60,"Nextplay Capital":1,"机器人":13}</script>
 
 <script>
 (function(){

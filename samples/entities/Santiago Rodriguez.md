@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":185,"Anthropic":194,"Microsoft":30,"Amazon":32,"Google":69,"Meta":48,"Databricks":22}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":186,"Anthropic":194,"Microsoft":30,"Amazon":32,"Google":69,"Meta":48,"Databricks":23}</script>
 
 <script>
 (function(){

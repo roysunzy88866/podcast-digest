@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Brainstore</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Brainstore">BR</div><div class="pi"><h1 class="pt">Brainstore</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Brainstore">BR</div><div class="pi"><h1 class="pt">Brainstore</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]]**(12:06起):本集说它是 Braintrust 自建的第三个数据库系统，在客户日志系统被指数级增长压垮后才动手，专门为处理海量文本和疯狂 JSON 的 LLM 形态数据而构建
+- **[[2026-10-06-talks-advanced-workshop-mastering-ai-observabi|《智能体上线后总出问题？先学会「看见」它在干什么》]]**(24:35起):本集说 Braintrust 在 2024 年底因 ClickHouse 在 Netflix、Microsoft 等大规模客户下撑不住而自研的专用数据库，可直接写 SQL 查询 trace 数据，领先竞品约一年。
 
 ## ① 提到它的金句
 
@@ -21,18 +22,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为概念
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为被讨论公司
+- [[2026-10-06-talks-advanced-workshop-mastering-ai-observabi|《智能体上线后总出问题？先学会「看见」它在干什么》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ankur Goyal]] · [[Braintrust]] · [[评估]] · [[智能体]] · [[Figma]] · [[提示词]] · [[Corinne Riley]] · [[LLM]] · [[评分函数]] · [[Datadog]]
+[[Braintrust]] · [[评估]] · [[Ankur Goyal]] · [[可观测性]] · [[智能体]] · [[Figma]] · [[提示词]] · [[Corinne Riley]] · [[LLM]] · [[Doug Guthrie]]
 
-<script type="application/json" class="pd-epn">{"Ankur Goyal":2,"Braintrust":3,"评估":5,"智能体":452,"Figma":22,"提示词":22,"Corinne Riley":4,"LLM":59,"评分函数":1,"Datadog":8}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"评估":5,"Ankur Goyal":2,"可观测性":42,"智能体":454,"Figma":22,"提示词":22,"Corinne Riley":4,"LLM":60,"Doug Guthrie":1}</script>
 
 <script>
 (function(){

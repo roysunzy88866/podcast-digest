@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Terraform</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Terraform">TE</div><div class="pi"><h1 class="pt">Terraform</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Terraform">TE</div><div class="pi"><h1 class="pt">Terraform</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]]**(01:33起):本集说它是一个巨大的生态系统，Bruno 的 Go 代码写法基本上是被 Terraform 生态里的项目塑造出来的，他的第一个贡献就是为 Terraform ABS provider 添加缺失的资源
+- **[[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]]**(27:13起):本集说嘉宾为了更好地理解 Terraform 而开始为它做贡献,由此被 HashiCorp 挖走。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|《开源贡献的真正门槛：不是代码，是认知负荷》]] — 作为被讨论公司
+- [[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Bruno Scott Sperka]] · [[GitHub]] · [[Hashicorp]] · [[Kubernetes]] · [[开源]] · [[智能体]] · [[PR]] · [[AI]] · [[工匠精神]]
+[[GitHub]] · [[Hashicorp]] · [[开源]] · [[Bruno Scott Sperka]] · [[AI 智能体]] · [[Kubernetes]] · [[就业市场]] · [[智能体]] · [[软技能]] · [[PR]]
 
-<script type="application/json" class="pd-epn">{"Bruno Scott Sperka":1,"GitHub":30,"Hashicorp":1,"Kubernetes":18,"开源":38,"智能体":452,"PR":6,"AI":29,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":31,"Hashicorp":2,"开源":39,"Bruno Scott Sperka":1,"AI 智能体":2,"Kubernetes":18,"就业市场":1,"智能体":454,"软技能":1,"PR":6}</script>
 
 <script>
 (function(){

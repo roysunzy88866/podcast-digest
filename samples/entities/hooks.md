@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[技能]] · [[MCP]] · [[Codex]] · [[Roberto Milev]] · [[Tyler Folkman]] · [[Paul Bakaus]] · [[Charlie Guo]] · [[Uday Kanagala]] · [[JobNimbus]]
 
-<script type="application/json" class="pd-epn">{"智能体":452,"技能":29,"MCP":84,"Codex":82,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Charlie Guo":2,"Uday Kanagala":1,"JobNimbus":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":454,"技能":29,"MCP":84,"Codex":82,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Charlie Guo":2,"Uday Kanagala":1,"JobNimbus":1}</script>
 
 <script>
 (function(){

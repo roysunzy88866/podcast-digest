@@ -144,9 +144,9 @@ Klingen 说，这套跑法门槛不高：收集生产信号、记录详细执行
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|为什么做一个评估平台比看起来难得多]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)、编码智能体 (coding agent)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
-- [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

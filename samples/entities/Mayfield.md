@@ -25,7 +25,7 @@ unlisted: true
 
 [[Navin Chaddha]] · [[Lumilens]] · [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Claude]] · [[智能体]] · [[推理]] · [[GPU]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Lumilens":1,"Anthropic":194,"OpenAI":185,"NVIDIA":64,"Claude":93,"智能体":452,"推理":89,"GPU":29,"SaaS":22}</script>
+<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Lumilens":1,"Anthropic":194,"OpenAI":186,"NVIDIA":64,"Claude":93,"智能体":454,"推理":89,"GPU":29,"SaaS":22}</script>
 
 <script>
 (function(){

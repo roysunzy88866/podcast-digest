@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Gabriel Chua]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]] [[Kath Korevec]] [[Kent C. Dodds]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":185,"Codex":82,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":452,"语音转动作":1,"子智能体":6,"事件转语音":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":186,"Codex":82,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":454,"语音转动作":1,"子智能体":6,"事件转语音":1}</script>
 
 <script>
 (function(){

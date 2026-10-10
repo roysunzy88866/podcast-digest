@@ -1,0 +1,2226 @@
+{
+  "episode_id": "2026-10-06-talks-advanced-workshop-mastering-ai-observabi",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 可观测性",
+    "智能体评估",
+    "evals",
+    "智能体基础设施",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "doug-guthrie",
+      "type": "person",
+      "role": "guest",
+      "name": "Doug Guthrie",
+      "file": "Doug Guthrie",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            15.106,
+            16.026
+          ],
+          "quote": "My name is Doug Guthrie.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "braintrust",
+      "type": "company",
+      "role": "company",
+      "name": "Braintrust",
+      "file": "Braintrust",
+      "primary": true,
+      "how_described": "本集主讲人所在的、定位为 evals 与可观测性平台的公司，目标是帮助客户构建更好的智能体；支持多语言多框架接入、混合/自托管部署，并自研了后端数据库 BrainStore。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.546,
+            19.987
+          ],
+          "quote": "I'm a solutions engineer at Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            40.851,
+            53.202
+          ],
+          "quote": "This is what we're gonna be using today as part of the workshop and going through understanding how you can do observability within Braintrust and sort of using all of the different features within there to build better agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            96.542,
+            104.067
+          ],
+          "quote": "Cool, so we're all here to master AI observability, and I'm gonna give you what that looks like in the context of using Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            147.307,
+            149.649
+          ],
+          "quote": "And so I'll show you what that looks like within Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            243.802,
+            254.089
+          ],
+          "quote": "If you hang around, and I mean like if you aren't a BrainTrust customer, if you're not using BrainTrust today, would highly recommend coming back and looking at BrainTrust in the next month, two months.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            265.177,
+            268.759
+          ],
+          "quote": "BrainTrust is moving I think a little bit more towards what we call active observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            430.905,
+            448.949
+          ],
+          "quote": "So we are pretty flexible in that we allow you to sort of bring whatever it is you're doing today from a programming language perspective or how you are building your agent, whether it's with a framework, whether you're using open telemetry, whether you're sort of hand-rolling your own orchestration, whatever it is, Braintrust has a way to hook into that pretty seamlessly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            456.511,
+            466.538
+          ],
+          "quote": "You're gonna have to have the ability to go across a lot of different things generally, and you can see over here there's a lot of different ways in which you can integrate your stack into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            534.743,
+            550.055
+          ],
+          "quote": "Most of the customers, especially on the slide that I showed earlier, they have a massive amount of scale, and being able to derive insight, or having a human comb through that data would just be incredibly challenging, and so we need to layer intelligence on top of that, and that's one of the things that BrainTrust will offer, but I think just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            831.933,
+            838.137
+          ],
+          "quote": "To that point, there are obviously two different types of scores, at least the way that we see that here at BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            883.165,
+            890.467
+          ],
+          "quote": "And one of those things that you can do is use those online scorers and score that traffic as it's incoming into BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            912.82,
+            916.964
+          ],
+          "quote": "The second signal is a feature that we have in Braintrust called Topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1017.535,
+            1026.683
+          ],
+          "quote": "And what I mean by that is when you go into your BrainTrust account, you can enable a feature called topics, and out of the box you can see task, issues, and sentiment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1185.178,
+            1201.203
+          ],
+          "quote": "And if I have those labels and those classifiers, it becomes incredibly trivial for me as a user and also incredibly trivial for me as a user using a coding agent on top of Braintrust to now start to filter through that noise using all of that really rich data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1443.658,
+            1446.92
+          ],
+          "quote": "Braintrust built their own database in late 2024.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1811.209,
+            1819.116
+          ],
+          "quote": "And so maybe to like back up even further than this or than the question is like Braintrust was actually architected from day one to support a hybrid deployment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1934.687,
+            1939.451
+          ],
+          "quote": "You can build your own thing that you're trying to understand or to derive patterns of within BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1984.338,
+            1989.925
+          ],
+          "quote": "Okay, this could be a little bit different based on you having a Braintrust org or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2063.198,
+            2068.222
+          ],
+          "quote": "You just see a slightly different flow because I already have organizations created here on the BrainTrust side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2075.541,
+            2079.763
+          ],
+          "quote": "Do most people, are most people just creating a new BrainTrust org for the very first time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2168.403,
+            2176.846
+          ],
+          "quote": "So if you go over to BrainTrust and into your settings, you'll see a place where you can actually configure your AI providers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2192.477,
+            2203.042
+          ],
+          "quote": "But you can also, what our organizations tend to also do or where I see them also build is like they'll have their own gateway and they want to connect their gateway to Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2219.772,
+            2224.676
+          ],
+          "quote": "I haven't seen anybody not be able to connect to anything from Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2478.16,
+            2485.846
+          ],
+          "quote": "And all you're doing in this one is you are adding an API key that you generated on the BrainTrust side, and then you are adding a default model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2531.155,
+            2542.579
+          ],
+          "quote": "Again, I'm just modifying, or added my Braintrust API key, and then I added a default model, and this default model obviously is going to be something that is accessible via the providers that I configured on the Braintrust side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2552.105,
+            2557.97
+          ],
+          "quote": "The other thing that's gonna be really important for this workshop is to install the Braintrust CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2579.552,
+            2583.496
+          ],
+          "quote": "So you'll see over here, I already have the Braintrust CLI installed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2797.088,
+            2806.196
+          ],
+          "quote": "I'm gonna do something slightly different because I have already initialized an ending to OAuth into Braintrust to access a different organization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2816.809,
+            2824.415
+          ],
+          "quote": "So again, if you already have the Braintrust CLI and you created a new org, you'll go through that and then you'll just select that org that you just created.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2892.265,
+            2894.106
+          ],
+          "quote": "Do we have the Braintrust CLI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2894.126,
+            2895.707
+          ],
+          "quote": "Do we have a Braintrust API key?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2913.478,
+            2916.44
+          ],
+          "quote": "Are we seeing logs flow into Braintrust?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2919.301,
+            2925.024
+          ],
+          "quote": "We should now see a log show up over on the Braintrust side with the question that we just asked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2940.543,
+            2944.626
+          ],
+          "quote": "Just to show you what sort of integration looks like within Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2953.153,
+            2961.28
+          ],
+          "quote": "This is what we're pulling in from the Braintrust SDK, and we are setting a trace processor to a Braintrust tracing processor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2976.571,
+            2986.758
+          ],
+          "quote": "Braintrust also has a gateway, so all of those AI providers that you have configured within Braintrust, we can now access from a single interface, which is what we're doing here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2994.285,
+            2998.349
+          ],
+          "quote": "We are setting that trace processor to a Braintrust tracing processor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2998.91,
+            3005.596
+          ],
+          "quote": "And again, this means that all of those traces that are emitted, all those spans that are emitted are now going to Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            3048.586,
+            3052.05
+          ],
+          "quote": "So what we've just done again is used our Braintrust CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 480,
+          "t": [
+            3061.677,
+            3074.023
+          ],
+          "quote": "It'll sort of pass each row within that data set and invoke our agent, and now we will store all that telemetry and the sort of results of that eval directly within Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 484,
+          "t": [
+            3089.952,
+            3091.633
+          ],
+          "quote": "So we have, actually, I'll just come out to Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3142.494,
+            3147.955
+          ],
+          "quote": "And obviously we have a single log right now and we will need to generate some data and put it into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            3147.995,
+            3159.178
+          ],
+          "quote": "But before we do that, let's use those series of scores and push those into Braintrust so that we can now configure an automation so that they can run when logs come into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            3163.02,
+            3170.883
+          ],
+          "quote": "This is actually going to look for the series of scorers that we've created and push them into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3173.904,
+            3179.327
+          ],
+          "quote": "You could also, like you see here, define your scorers in code and push them into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3193.934,
+            3200.717
+          ],
+          "quote": "Again, here are the series of tools that we just, excuse me, the series of scores that we just loaded into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3281.591,
+            3291.577
+          ],
+          "quote": "So now that we have our scores loaded into BrainTrust, the thing that we need to do now is actually wire them up to run when traces come into BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3291.677,
+            3294.94
+          ],
+          "quote": "What that looks like on the BrainTrust side is an automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3397.55,
+            3410.114
+          ],
+          "quote": "So if you're following along, just know that depending on the sampling rate that you put here, you're going to incur actual model compute when you go and load data into BrainTrust via these judges.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3424.515,
+            3435.261
+          ],
+          "quote": "So what I've just done now is I've said, hey, any new logs that have come into BrainTrust, I want to run those scores against those, and I want to run against the trace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3524.765,
+            3533.809
+          ],
+          "quote": "We're just gonna use the default thread one here today, but just know that if you wanted to bring your own function to Braintrust to parse something within that trace, you could certainly do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3548.931,
+            3556.796
+          ],
+          "quote": "And so, back in BrainTrust, I'm gonna grab the support workflow issue name.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3626.163,
+            3634.808
+          ],
+          "quote": "I'm not gonna go through this, but I just wanted to highlight again the ability to utilize the Braintrust CLI to do a lot of interesting things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3774.727,
+            3787.018
+          ],
+          "quote": "We've enabled our out-of-the-box ones, and we have also created our own custom facet, and then we have configured our automation settings to be run when data comes into BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3805.25,
+            3808.293
+          ],
+          "quote": "So we can actually take that data and push it into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3835.757,
+            3852.902
+          ],
+          "quote": "1,052 spans, or that's the rate, excuse me, 5,260 spans, so pretty quick way to get data into Braintrust, but again, like the whole idea here is for us to start to generate some signal and start to understand where we can make some improvements within our agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3888.028,
+            3911.025
+          ],
+          "quote": "But the sort of OpenAI Agents gives you somewhat of a cheat code where it actually just attaches all of those previous messages, so we don't necessarily have to go through this step, but just wanted to highlight another feature within Braintrust that allows you to group traces by some arbitrary metadata that you've defined within those that they share across those traces, and you can pull all of those relevant traces into the tree here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4022.376,
+            4030.864
+          ],
+          "quote": "We loaded traces into Braintrust and based on the sort of automations and topics we've configured, we are now starting to get that signal in real time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            4052.423,
+            4058.127
+          ],
+          "quote": "So I showed you some illustrations earlier of what this perhaps starts to look like within Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            4192.792,
+            4201.542
+          ],
+          "quote": "I want to show you sort of like a workflow that I think, you know, I certainly did when I first started at Braintrust and I think a lot of folks",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4210.649,
+            4220.277
+          ],
+          "quote": "And so I think, you know, obviously within the Braintrust UI here, there's a lot of different things that I can utilize to start to understand or, again, filter through that noise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            4297.057,
+            4303.363
+          ],
+          "quote": "The onus is on me as a user of BrainTrust to like go through and click buttons and filter and then parse through these traces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            4334.097,
+            4342.509
+          ],
+          "quote": "Another thing that I think is, again, really interesting about Braintrust, and specifically Brainstore, the backend that powers it, is that you can write SQL directly against it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4613.142,
+            4617.184
+          ],
+          "quote": "So this is sort of what an eval looks like in BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4618.564,
+            4628.869
+          ],
+          "quote": "Your dataset here is actually part of like the commands that we ran at the outset was to load our sample data, like our series of test cases into BrainTrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            5014.938,
+            5037.053
+          ],
+          "quote": "This is what the primitives in Braintrust, our topics, our Braintrust CLI, the backend allowing you to write SQL, having a platform that does both evals and observability, all of these things sort of taken together allow you to, again, create that flywheel and then do so in a really meaningful way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 840,
+          "t": [
+            5261.81,
+            5266.512
+          ],
+          "quote": "And so we have enforced it so it's only BrainTrust hosted models for this step.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            5305.348,
+            5307.531
+          ],
+          "quote": "And just some Braintrust stuff here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            5452.091,
+            5455.873
+          ],
+          "quote": "There's nothing within Braintrust that allows you to say, hey, I want to run score A.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 885,
+          "t": [
+            5650.321,
+            5658.889
+          ],
+          "quote": "If you wanted to create a more organization-scoped view, you'd have to create queries and pull data out of Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 907,
+          "t": [
+            5787.171,
+            5792.615
+          ],
+          "quote": "I think some of it's preference, some of it sometimes is just not understanding what Braintrust can do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 909,
+          "t": [
+            5814.67,
+            5823.715
+          ],
+          "quote": "What you can do within BrainTrust when you go push a score, and even when you push a code-based score, you can bundle dependencies within that push.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 914,
+          "t": [
+            5850.85,
+            5854.872
+          ],
+          "quote": "And so to me the value is like offloading some of that complexity into Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 917,
+          "t": [
+            5860.421,
+            5865.487
+          ],
+          "quote": "Things about like the BrainTrust data model is that you can actually update spans in place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5866.068,
+            5869.692
+          ],
+          "quote": "So if that span already exists within BrainTrust, it is mutable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 939,
+          "t": [
+            5964.848,
+            5968.789
+          ],
+          "quote": "My guess is the Braintrust CLI is very properly rated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 943,
+          "t": [
+            5981.572,
+            5987.637
+          ],
+          "quote": "And I still think, like, I'm going out to customers today and I'm asking, like, are you using the BrainTrust CLI, are you using it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 966,
+          "t": [
+            6115.706,
+            6120.027
+          ],
+          "quote": "Braintrust itself, at least at the moment, doesn't have access to your codebase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 968,
+          "t": [
+            6130.089,
+            6142.211
+          ],
+          "quote": "But when you bring the Braintrust CLI into your sort of coding agent and then attach that, obviously, like, I'm within my repo here, I'm able to now go through, let's see if we've been able to, like, get something here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 985,
+          "t": [
+            6231.52,
+            6234.202
+          ],
+          "quote": "This to me is like one of the most compelling parts of Braintrust right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            6330.857,
+            6332.317
+          ],
+          "quote": "It pulls in the Braintrust CLI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            6355.824,
+            6359.745
+          ],
+          "quote": "Here's some links out to Braintrust where you can actually go inspect those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            6409.263,
+            6411.025
+          ],
+          "quote": "Yeah, that Braintrust Skills repo?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            6453.51,
+            6461.435
+          ],
+          "quote": "So I showed earlier how we write evals, or one of the ways in which you can write evals with Braintrust is by using that eval code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            6491.212,
+            6494.035
+          ],
+          "quote": "You have different things that you can pull into Braintrust, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1039,
+          "t": [
+            6567.919,
+            6574.541
+          ],
+          "quote": "Yes, Braintrust will initiate a POST request to an evals endpoint that you have exposed on that server.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tracing",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪 (tracing)",
+      "file": "追踪",
+      "primary": true,
+      "how_described": "本集称之为可观测性的基础：记录智能体到达最终输出前的每一步、每次工具调用的输入输出；没有它智能体就是个黑盒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            305.981,
+            313.246
+          ],
+          "quote": "So the foundation to all of this, the foundation to observability in general, like I'm guessing most of you already know here, is tracing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            337.484,
+            344.369
+          ],
+          "quote": "But without that tracing, right, we're not actually able to understand what's going on, where quality is actually deteriorating.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            380.438,
+            382.94
+          ],
+          "quote": "So tracing is the foundation, I think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2953.153,
+            2961.28
+          ],
+          "quote": "This is what we're pulling in from the Braintrust SDK, and we are setting a trace processor to a Braintrust tracing processor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2987.739,
+            2993.585
+          ],
+          "quote": "We have our sort of tracing set up from our SDK directly for OpenAI agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2994.285,
+            2998.349
+          ],
+          "quote": "We are setting that trace processor to a Braintrust tracing processor.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集主题：从智能体产生的海量 trace 数据中生成信号、得出洞见；Braintrust 主张从被动观察走向『主动可观测性』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            40.851,
+            53.202
+          ],
+          "quote": "This is what we're gonna be using today as part of the workshop and going through understanding how you can do observability within Braintrust and sort of using all of the different features within there to build better agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            96.542,
+            104.067
+          ],
+          "quote": "Cool, so we're all here to master AI observability, and I'm gonna give you what that looks like in the context of using Braintrust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            106.286,
+            114.249
+          ],
+          "quote": "I do have some slides that I want to sort of set the foundation for doing observability and I think what we've learned of how to do it really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            137.219,
+            142.543
+          ],
+          "quote": "There's one side of actually being able to trace and then have a sort of platform that allows for observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            174.027,
+            178.15
+          ],
+          "quote": "We are an AI, we are an evals, an observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            228.933,
+            230.994
+          ],
+          "quote": "We are an evals and observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            232.655,
+            238.979
+          ],
+          "quote": "You think about like evals and observability, I think they're like two sides of the same coin taken together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            265.177,
+            268.759
+          ],
+          "quote": "BrainTrust is moving I think a little bit more towards what we call active observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            283.329,
+            289.813
+          ],
+          "quote": "So active observability is the way in which we can start to bring those insights to you so that you can build better quality agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            305.981,
+            313.246
+          ],
+          "quote": "So the foundation to all of this, the foundation to observability in general, like I'm guessing most of you already know here, is tracing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            354.437,
+            364.405
+          ],
+          "quote": "Just in general, if you're thinking about observability, if you don't have some part of your stack in a trace that looks like this, then it's a black box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            383.821,
+            393.608
+          ],
+          "quote": "If you look at the eval side, and of course, talking today, the observability, it all sort of centers around us being able to capture all of the different things that our agent is doing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1282.675,
+            1284.877
+          ],
+          "quote": "And this is where that active observability comes into play.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3023.025,
+            3024.687
+          ],
+          "quote": "We're talking a little bit about observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            3025.467,
+            3029.57
+          ],
+          "quote": "But I think in the context of observability, you need to think about the flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            5014.938,
+            5037.053
+          ],
+          "quote": "This is what the primitives in Braintrust, our topics, our Braintrust CLI, the backend allowing you to write SQL, having a platform that does both evals and observability, all of these things sort of taken together allow you to, again, create that flywheel and then do so in a really meaningful way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说 evals 与可观测性是一枚硬币的两面：离线跑数据集与评分，判断改动是改进还是退步，并应随智能体一起演进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            174.027,
+            178.15
+          ],
+          "quote": "We are an AI, we are an evals, an observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            228.933,
+            230.994
+          ],
+          "quote": "We are an evals and observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            232.655,
+            238.979
+          ],
+          "quote": "You think about like evals and observability, I think they're like two sides of the same coin taken together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            783.761,
+            788.025
+          ],
+          "quote": "If you get 100% on every single one of your evals, and we probably will today because it's,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            788.885,
+            804.957
+          ],
+          "quote": "Sort of dummy use case, but if you get 100% on your evals, one, you probably don't have strong enough test cases in your data set, your scores probably aren't harsh enough, so you should sort of look at that and sort of calibrate accordingly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            839.998,
+            841.439
+          ],
+          "quote": "This is our evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            926.412,
+            932.837
+          ],
+          "quote": "So like your scores that you've already created in your offline evals, they are failure modes that perhaps you've already recognized.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            963.589,
+            984.197
+          ],
+          "quote": "And then to that point, the evals that you're running, again, are using those subset of scores to understand improvement or regression, but there is a sort of wide swath of use cases that your test scenarios are not capturing, that your users are actually probing your agent with and trying to get some type of output, and perhaps maybe it's not the right one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            993.191,
+            994.052
+          ],
+          "quote": "We want to run evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2012.288,
+            2020.235
+          ],
+          "quote": "We wanna create that flywheel, and I think we'll focus a little bit more on the online side, but just know that there is the flip side, which is the evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2486.406,
+            2492.03
+          ],
+          "quote": "This is really only needed if you wanted to spin up the sort of chat UI and run, I think, evals as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2558.69,
+            2565.896
+          ],
+          "quote": "This is going to allow you to run arbitrary SQL, to run evals, to view your logs, to create datasets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2594.564,
+            2605.132
+          ],
+          "quote": "That's supported also, but the idea here is that we are going to give our coding agent access to some skills to understand how to create a dataset, how to run evals, how to write SQL, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            3013.018,
+            3018.522
+          ],
+          "quote": "Okay, so I also have a script in here, or I have a code in here to run evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            3029.61,
+            3031.792
+          ],
+          "quote": "And part of that flywheel is evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            3032.793,
+            3038.177
+          ],
+          "quote": "The things that we are able to understand and derive about what happened in production should make their way back to our evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4155.166,
+            4165.313
+          ],
+          "quote": "There's something going on with my agent that we haven't, again, recognized with our evals, but we are understanding that there is a lookup failure as part of that agent going through its process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4456.364,
+            4460.348
+          ],
+          "quote": "I wanna go bring that example back to my offline evals, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4574.208,
+            4578.97
+          ],
+          "quote": "I want it to create new scores and run evals and modify something within my agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4712.178,
+            4715.381
+          ],
+          "quote": "Your evals should evolve with your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4716.022,
+            4718.945
+          ],
+          "quote": "And when I think about evals, I think about a data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            4762.122,
+            4783.228
+          ],
+          "quote": "But it's more about the evolution of your agent and ensuring that all of those things that come along with your evals evolve with it so that you can, one, capture new things, but also, as you go change your code, you're not regressing your agent based on previous interactions that you've curated into that data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 806,
+          "t": [
+            4992.975,
+            4995.496
+          ],
+          "quote": "Looks like we're looking at how to run evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            5014.938,
+            5037.053
+          ],
+          "quote": "This is what the primitives in Braintrust, our topics, our Braintrust CLI, the backend allowing you to write SQL, having a platform that does both evals and observability, all of these things sort of taken together allow you to, again, create that flywheel and then do so in a really meaningful way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 828,
+          "t": [
+            5149.575,
+            5174.822
+          ],
+          "quote": "I don't know, like, specifically, I haven't seen small models necessarily, but I have seen folks start to perhaps fine-tune their own models and see if it can't drive, you know, the whole idea, again, like, behind evals, as one example, is to be able to understand if I can swap in and out models without sort of introducing regressions or deteriorating quality of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 879,
+          "t": [
+            5595.083,
+            5599.767
+          ],
+          "quote": "I'm also storing the data sets that I'm running my evals for my support agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            5686.627,
+            5695.774
+          ],
+          "quote": "I think maybe what you'd potentially see is your evals changing as often as you are changing the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 898,
+          "t": [
+            5716.363,
+            5724.585
+          ],
+          "quote": "And to me, what I've seen more frequently is that your evals will generally change as a result of something that you are changing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 899,
+          "t": [
+            5724.625,
+            5732.667
+          ],
+          "quote": "Obviously, if it's a simple prompt change, you're probably not changing a lot within your evals outside of maybe curating some new examples into that data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 903,
+          "t": [
+            5763.823,
+            5767.185
+          ],
+          "quote": "And so the evals may not change too much as a result of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1006,
+          "t": [
+            6351.982,
+            6355.744
+          ],
+          "quote": "Here is the actual impact, right, based on the evals that I ran.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            6453.51,
+            6461.435
+          ],
+          "quote": "So I showed earlier how we write evals, or one of the ways in which you can write evals with Braintrust is by using that eval code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1039,
+          "t": [
+            6567.919,
+            6574.541
+          ],
+          "quote": "Yes, Braintrust will initiate a POST request to an evals endpoint that you have exposed on that server.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1043,
+          "t": [
+            6599.382,
+            6605.043
+          ],
+          "quote": "It exposes all of the evals, at least in the way that I've configured it, in my evals directory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            6629.724,
+            6637.733
+          ],
+          "quote": "And part of that is actually it's running evals on the skills that they're using, is understanding the sessions that they have with Claude Code and Codex and so on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 评审 (LLM judge)",
+      "file": "LLM 评审",
+      "primary": true,
+      "how_described": "本集把信号分为基于代码的评分与 LLM 评审两类：给 LLM 一套标准给对话打分，宜配合人工抽检校准、用更强的模型做评分、起步用二元制并从严。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            646.367,
+            648.569
+          ],
+          "quote": "The more subjective, though, is that LLM judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            670.346,
+            678.716
+          ],
+          "quote": "And then there's probably actually a fourth one here, but the third one that you see over on the right is an LLM judge aligned with human review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            679.336,
+            690.929
+          ],
+          "quote": "What's also important you could probably imagine is if I have an LLM judge and it's producing results and we are sort of making decisions based on those results, we should probably understand whether or not those results are good or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1238.219,
+            1244.763
+          ],
+          "quote": "Compare that to other models that you might be using on the LLM judge to create that same type of signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            3116.732,
+            3119.013
+          ],
+          "quote": "Then I have maybe a little bit more of that LLM judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3210.963,
+            3213.245
+          ],
+          "quote": "This is going to be an LLM judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3225.556,
+            3232.061
+          ],
+          "quote": "One thing I'd call out here is that there are different sort of variables you can access and pass to an LLM judge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 830,
+          "t": [
+            5195.838,
+            5197.339
+          ],
+          "quote": "Sorry, is this like for an LLM judge?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            5364.162,
+            5375.926
+          ],
+          "quote": "I think there's also, if you're doing things with an LLM judge that is a little bit more on the classification side or on the taxonomy side, you can look to alter, or you can look to swap that out with topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 857,
+          "t": [
+            5395.371,
+            5408.634
+          ],
+          "quote": "One, because actually the most important reason for that is it's a much more cost-effective way to run across the majority or 100% of their traces, where the LLM judge just was not able to scale to that, and you're not able to generate as much signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 860,
+          "t": [
+            5421.478,
+            5430.071
+          ],
+          "quote": "The types of things that your LLM judge might be producing, if it's a little bit more on that classification or taxonomy side, you can look to swap that out with topics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "topics",
+      "type": "concept",
+      "role": "concept",
+      "name": "topics",
+      "file": "topics",
+      "primary": true,
+      "how_described": "本集介绍的 Braintrust 功能：把 trace 预处理、摘要、向量嵌入、聚类成主题图，用于发现『未知的未知』与静默失败，在 100% 的 trace 上以低成本运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            208.979,
+            220.128
+          ],
+          "quote": "So I get to go actually talk to the engineers of Cloudflare, and I get to talk to the engineers of Dropbox, and I get to understand what they're doing, the types of scores they're creating, how they think about our new feature topics,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            912.82,
+            916.964
+          ],
+          "quote": "The second signal is a feature that we have in Braintrust called Topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            943.545,
+            946.305
+          ],
+          "quote": "And topics is one of those things that will help enable that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            998.14,
+            999.902
+          ],
+          "quote": "So what is topics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1000.082,
+            1006.046
+          ],
+          "quote": "Topics in general or at a high level is a way for us to understand patterns within your data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1017.535,
+            1026.683
+          ],
+          "quote": "And what I mean by that is when you go into your BrainTrust account, you can enable a feature called topics, and out of the box you can see task, issues, and sentiment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1059.876,
+            1067.063
+          ],
+          "quote": "This is just an example of an illustration that you might see with the topics that were generated, but why would you use it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1226.231,
+            1229.093
+          ],
+          "quote": "That's the sort of goal of our topics pipeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1245.103,
+            1253.869
+          ],
+          "quote": "You can create a pretty compelling use case, especially if you start to see value in the sort of topics and the labels and classifiers that we generate as a result of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1514.165,
+            1521.709
+          ],
+          "quote": "And where that shows up is in topics, is in being able to generate real insights on data at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1612.018,
+            1629.139
+          ],
+          "quote": "Yeah, I mean, like during the workshop, sorry if anybody couldn't hear, the question was just like examples of topics and a little bit more insight into perhaps the process and are we actually generating anything that is meaningfully different because the traces are relatively the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1706.812,
+            1711.016
+          ],
+          "quote": "You can even toggle on topics to see if it is actually generating some of these things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1711.536,
+            1719.645
+          ],
+          "quote": "So would just encourage you even after this workshop to go play with it and see if it does generate some interesting topics for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1735.931,
+            1743.897
+          ],
+          "quote": "Yeah, the question is like can we use topics perhaps on like our own sessions with Claude Code and Codex and so on?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1753.764,
+            1761.251
+          ],
+          "quote": "And so you can, I'm actually working with multiple customers right now where they are trying to do exactly that and layer topics on top of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1864.182,
+            1867.563
+          ],
+          "quote": "Yeah, so the question is like how do you handle long running conversations with topics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2341.036,
+            2348.861
+          ],
+          "quote": "The only caveat to do that is that topics pipeline, which uses our brain trust built-in models for that complex pipeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3441.5,
+            3443.401
+          ],
+          "quote": "Okay, let's jump into topics now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3461.473,
+            3468.799
+          ],
+          "quote": "Topics, again, is more for those unknown unknowns, those areas that we are not yet testing for or that we're not yet aware of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3469.62,
+            3474.631
+          ],
+          "quote": "You'll also notice right next to our automations is an enable topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3479.606,
+            3481.047
+          ],
+          "quote": "Enable topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3640.912,
+            3643.674
+          ],
+          "quote": "I can actually configure these topics to run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3771.144,
+            3774.307
+          ],
+          "quote": "So now we have sort of like the topics configured.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3992.437,
+            3995.539
+          ],
+          "quote": "And what you should also see is some topics starting to be generated as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4022.376,
+            4030.864
+          ],
+          "quote": "We loaded traces into Braintrust and based on the sort of automations and topics we've configured, we are now starting to get that signal in real time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            4058.567,
+            4073.696
+          ],
+          "quote": "So at the top here, or in this page, what you start to see is a snapshot in time of your topics and the frequency with which the traces that we have recognized some patterns in, where they are being grouped.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            4221.358,
+            4231.603
+          ],
+          "quote": "I might wanna look at, you know, the different classifiers or the different labels that were placed on top of these traces, right, that map to those topics that you saw in that other illustration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4432.412,
+            4443.257
+          ],
+          "quote": "So I'm gonna skip through some of this, but sort of what I described here is using topics and scores to understand and to like actually parse through that data based on the signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4700.489,
+            4706.674
+          ],
+          "quote": "I think the Topics pipeline running behind the scenes is kind of the star of the show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 783,
+          "t": [
+            4863.459,
+            4868.503
+          ],
+          "quote": "The actual logs here that were generated, or like the topics that were generated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 794,
+          "t": [
+            4919.791,
+            4928.157
+          ],
+          "quote": "And we should be able to also recognize and understand, or Codex should be able to recognize and understand those topics and those scores that were run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            5014.938,
+            5037.053
+          ],
+          "quote": "This is what the primitives in Braintrust, our topics, our Braintrust CLI, the backend allowing you to write SQL, having a platform that does both evals and observability, all of these things sort of taken together allow you to, again, create that flywheel and then do so in a really meaningful way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 839,
+          "t": [
+            5251.746,
+            5261.57
+          ],
+          "quote": "We started off by allowing different models to be plugged into that, but the topics pipeline or the topics that were generated as a result of that just were not good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            5364.162,
+            5375.926
+          ],
+          "quote": "I think there's also, if you're doing things with an LLM judge that is a little bit more on the classification side or on the taxonomy side, you can look to alter, or you can look to swap that out with topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 856,
+          "t": [
+            5390.85,
+            5394.251
+          ],
+          "quote": "And they have experimented with using topics to do that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 860,
+          "t": [
+            5421.478,
+            5430.071
+          ],
+          "quote": "The types of things that your LLM judge might be producing, if it's a little bit more on that classification or taxonomy side, you can look to swap that out with topics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 876,
+          "t": [
+            5559.654,
+            5571.758
+          ],
+          "quote": "So yeah, I don't have the exact thing that the topics uncovered, but it was much more around like, hey, I didn't realize these users were using our agents or trying to use my agent for this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            6179.6,
+            6184.042
+          ],
+          "quote": "Use my scores or use my topics because I have sort of attached",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "飞轮 (flywheel)",
+      "file": "飞轮",
+      "primary": true,
+      "how_described": "本集全场反复强调的核心主张：生产应该反哺开发——线上发现问题、加回数据集、改代码、跑 eval 对比无退步后再部署，并可交给编码智能体自动化执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            477.728,
+            484.531
+          ],
+          "quote": "This is something that I sort of, I say the word flywheel like, I don't know, 100 times a day, it seems like.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            501.417,
+            515.828
+          ],
+          "quote": "You should have a really simple and easy to create flywheel that allows you to develop some type of change, fix something within your agent, test whether or not that change regressed the agent in some way or improved it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            523.433,
+            533.762
+          ],
+          "quote": "That observation, though, we need to like tack something on top of that, which maybe you don't see necessarily called out specifically within this flywheel, but you need to be able to derive some type of insight at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            550.776,
+            556.719
+          ],
+          "quote": "If you're thinking about the process of building a better agent in general, you need a flywheel like this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            986.56,
+            990.887
+          ],
+          "quote": "We want to capture the tail end and we want to structure then the flywheel, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1306.155,
+            1313.478
+          ],
+          "quote": "I think a really interesting primitive and foundation that our customers can build on to inform that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1313.638,
+            1327.162
+          ],
+          "quote": "At the end of the day, the thing that we're trying to do is enable our customers to build that flywheel and to build it in a way that actually improves their agent quality and they can do it very, very quickly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2012.288,
+            2020.235
+          ],
+          "quote": "We wanna create that flywheel, and I think we'll focus a little bit more on the online side, but just know that there is the flip side, which is the evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2566.616,
+            2578.831
+          ],
+          "quote": "You think about that flywheel that I just described, a lot of those things are part of that flywheel, and it's something that we can plug into our agent to actually start to do itself, which you'll see at the end of the workshop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            3025.467,
+            3029.57
+          ],
+          "quote": "But I think in the context of observability, you need to think about the flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            3029.61,
+            3031.792
+          ],
+          "quote": "And part of that flywheel is evals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            3074.183,
+            3081.627
+          ],
+          "quote": "You could also imagine this is going to be incredibly informative when we do go run that flywheel, when we do go start to understand and we go make a change.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3974.677,
+            3979.642
+          ],
+          "quote": "So just a different way to bring in perhaps another persona to sort of inform that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            4108.201,
+            4112.282
+          ],
+          "quote": "All of this taken together will be used to sort of inform that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            4321.519,
+            4332.048
+          ],
+          "quote": "So one of the things that you'll start to see that's, I think, again, really interesting from a flywheel perspective is how we can start to pull in relevant data to inform that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 731,
+          "t": [
+            4529.362,
+            4532.503
+          ],
+          "quote": "These things that you would probably want to do to create that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            4558.819,
+            4564.245
+          ],
+          "quote": "The idea is to give your coding agents the ability to run that automated flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 773,
+          "t": [
+            4821.543,
+            4824.065
+          ],
+          "quote": "So now I might wanna just run this flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            5014.938,
+            5037.053
+          ],
+          "quote": "This is what the primitives in Braintrust, our topics, our Braintrust CLI, the backend allowing you to write SQL, having a platform that does both evals and observability, all of these things sort of taken together allow you to, again, create that flywheel and then do so in a really meaningful way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            5909.27,
+            5918.357
+          ],
+          "quote": "I think that workflow that I just described is like that flywheel, that automated flywheel, is actually a great way to do that because I can surface insights to people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 936,
+          "t": [
+            5932.726,
+            5950.295
+          ],
+          "quote": "If you have, just like no engineers are able to actually view that data, write it to a project that nobody has access to, lock it down from that perspective, but then create sort of a service account that is actually able to like go run that sort of flywheel on top of it so you don't lose access to all of those insights.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 952,
+          "t": [
+            6027.038,
+            6035.004
+          ],
+          "quote": "The other one that could be like somewhat compelling, it depends I think a little bit on your organization and the different folks contributing to that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 956,
+          "t": [
+            6051.617,
+            6056.979
+          ],
+          "quote": "Contributing to that flywheel in some way, like they are modifying prompts or they are doing some of that hill climbing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 961,
+          "t": [
+            6083.072,
+            6099.202
+          ],
+          "quote": "Like why that might be interesting for an AI engineer is that you don't necessarily have to be sort of like the bottleneck in producing applications or producing something for a product manager to go plug into and allow them to modify a prompt or contribute to that flywheel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            6171.397,
+            6178.76
+          ],
+          "quote": "What I've just sort of demonstrated here is that flywheel of like, hey, figure out what's going on in production.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 982,
+          "t": [
+            6220.012,
+            6227.057
+          ],
+          "quote": "So that whole sort of flywheel is captured here within this agent improvement skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            6239.568,
+            6251.462
+          ],
+          "quote": "If I can bring the right context, if I can have access to the right primitives that attach the right data to my traces, then this flywheel, this automated flywheel becomes pretty interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            6281.435,
+            6286.859
+          ],
+          "quote": "So within the platform right now, there isn't like a button that you hit that says like, hey, go do the flywheel.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说大家如今都借助 Codex、Claude Code 等编码智能体开发，Braintrust 通过 CLI 与技能让它自己写 SQL、钻取出错 trace、创建评分、跑 eval 并开拉取请求，有客户因此每天多产出 5-10 个 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1185.178,
+            1201.203
+          ],
+          "quote": "And if I have those labels and those classifiers, it becomes incredibly trivial for me as a user and also incredibly trivial for me as a user using a coding agent on top of Braintrust to now start to filter through that noise using all of that really rich data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2594.564,
+            2605.132
+          ],
+          "quote": "That's supported also, but the idea here is that we are going to give our coding agent access to some skills to understand how to create a dataset, how to run evals, how to write SQL, and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            4348.243,
+            4352.846
+          ],
+          "quote": "You may not want to write that SQL, but your coding agent can very, very easily write that SQL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 708,
+          "t": [
+            4412.357,
+            4425.365
+          ],
+          "quote": "But if I can offload some of that, again, to loop to inform what I might go change or might go fix or might go add, or I can offload to my coding agent, this is the kind of thing that actually I think drives agent quality in a really efficient way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 945,
+          "t": [
+            5989.819,
+            5995.644
+          ],
+          "quote": "But to me, most, like, I would wager 100% of you are using some coding agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 950,
+          "t": [
+            6013.912,
+            6021.594
+          ],
+          "quote": "Use the CLI, attach that, or give your coding agent the skills to understand how to use that, and then use that to augment your workflow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 968,
+          "t": [
+            6130.089,
+            6142.211
+          ],
+          "quote": "But when you bring the Braintrust CLI into your sort of coding agent and then attach that, obviously, like, I'm within my repo here, I'm able to now go through, let's see if we've been able to, like, get something here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            6235.103,
+            6239.088
+          ],
+          "quote": "We're all sort of developing our agents to some degree with the help of a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            6623.637,
+            6628.703
+          ],
+          "quote": "How well their coding agent is actually, how efficient they are with their coding agents.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "brainstore",
+      "type": "concept",
+      "role": "concept",
+      "name": "BrainStore",
+      "file": "BrainStore",
+      "primary": true,
+      "how_described": "本集说 Braintrust 在 2024 年底因 ClickHouse 在 Netflix、Microsoft 等大规模客户下撑不住而自研的专用数据库，可直接写 SQL 查询 trace 数据，领先竞品约一年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1475.506,
+            1478.31
+          ],
+          "quote": "And so this is where the engineering team at Anker built BrainStore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            4334.097,
+            4342.509
+          ],
+          "quote": "Another thing that I think is, again, really interesting about Braintrust, and specifically Brainstore, the backend that powers it, is that you can write SQL directly against it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

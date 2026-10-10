@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Notion":16,"GitHub":30,"Heroku":2,"Anthropic":194,"OpenAI":185,"Figma":22,"主观能动性":1,"可塑软件":1,"智能体":452}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Notion":16,"GitHub":31,"Heroku":2,"Anthropic":194,"OpenAI":186,"Figma":22,"主观能动性":1,"可塑软件":1,"智能体":454}</script>
 
 <script>
 (function(){

@@ -1,0 +1,143 @@
+{
+  "title_zh": "为什么做一个评估平台比看起来难得多",
+  "tldr": "Braintrust 的解决方案负责人 Hossein 讲解了为什么大模型评估不只是电子表格加界面，而是一个真正的系统难题。",
+  "digest_md": "在 AI 智能体快速普及的今天，怎么确保它们上线后不出岔子？Hossein 在 Salesforce 和 Databricks 做了 15 年解决方案工作，现在在 Braintrust 负责西区的解决方案工程团队。这场演讲回答了一个很多团队都会遇到的问题：==为什么自己搭一个评估（eval）平台，远比想象中难==。\n\n## 评估到底在评估什么\n\n智能体的质量靠两根支柱。第一根是评估：在上线之前，用测试输入跑智能体，看它的行为是否符合预期。第二根是可观测性：上线之后持续监控真实用户的交互，验证之前的假设是否成立 [01:59 Unknown]。\n\n两者本质上是同一个问题的两面——都是为了让智能体更可靠。而这件事之所以必要，是因为大模型天生是不确定的、高度可变的。这种灵活性让它能处理各种任务，但也带来了风险：品牌风险、合规风险，还有系统难以调试带来的成本风险 [03:20 Unknown]。\n\n## 从电子表格开始，没错，但很快会遇到天花板\n\n很多人评估的第一步就是：跑一批测试输入，把结果记进电子表格。Hossein 说这没什么可羞愧的，反而是个好的开始。最简单的评估系统只需要三样东西：执行智能体的方式、查看输出的方式、一组测试输入 [04:24 Unknown]。\n\n但问题很快出现。这个阶段你基本上只是在记录，没法做真正的实验，更没法做长期分析。人工打分有价值但费时费力，协作很弱，懂业务的领域专家往往被排除在外 [08:32 Unknown]。\n\n## 自己写个界面？只是看起来更漂亮\n\n接下来通常是产品工程师出手，做一个定制界面。这确实能把产品经理拉进评估流程，但根本问题还在：数据难以留存，长期分析做不了，本质上还是个报告工具 [09:48 Unknown]。\n\n再往前一步，是让非技术用户也能在界面上做实验：改提示词、换底层模型、调参数，做并排对比。可这里仍有个关键缺口——所有测试用例都来自离线环境，一旦上线，你就成了睁眼瞎，不知道智能体在生产环境里到底在哪一步出了错 [10:45 Unknown]。\n\n## 真正的目标：让失败自动回流成测试用例\n\n成熟的团队想要的是一个改进闭环：从生产环境观察到失败模式，**把这些失败转化成测试用例，离线迭代改进，再上线，如此循环** [07:01 Unknown]。而且这个循环不会停，因为用户和智能体的交互方式会随时间漂移，就像经典机器学习里的数据漂移一样。\n\n## 难就难在：这是个系统问题，不是界面问题\n\n把这套闭环做进平台后，你得自己维护它。而智能体的追踪数据非常棘手：它们是半结构化的 JSON，有的团队一次交互就记录几百兆数据——相当于一部电影的信息量。普通的云数据仓库在这种负载下会直接垮掉 [12:20 Unknown]。\n\nBraintrust 自己也撞上了这堵墙，最后造了一层叫 BTQL 的查询抽象。实时摄入、超大载荷、深度嵌套的半结构化文本、既要大规模聚合又要时间点快照——这些都是 ChatGPT 爆火后出现的新问题 [13:44 Unknown]。传统的可观测性数据只有几 KB，完全不是一个量级。\n\n还没完：底层数据库、权限管理、数据脱敏，每一个都是独立的工程难题。所以说，**评估平台不是界面加电子表格，而是实打实的系统问题**。\n\n## 下一步：让智能体评估智能体\n\n现在，智能体本身成了评估平台的一等公民。你可以用自然语言对编程智能体下达指令，比如「找出过去 24 小时用户体验差的追踪记录，帮我跑一遍评估」。因为编程智能体能访问代码库和基础设施，它可以直接执行评估并记录结果 [14:56 Unknown]。\n\n在 Braintrust 的愿景里，平台还能自动从追踪数据中做推理，告诉你那些未知的未知——比如智能体在哪些场景下悄悄失败了，用户在哪些情况下反复用同样的请求表达不满 [16:05 Unknown]。而人的角色退到最后一步：看结果，决定哪个版本值得上线。\n\n## 本集带走\n\n- 评估和可观测性是同一问题的两面：一个在上线前，一个在上线后，共同目标是智能体的可靠性。\n- 电子表格评估是合理起点，但很快会遇到无法实验、无法分析、无法协作的天花板。\n- 成熟团队的核心是改进闭环：把生产环境的失败自动转化为测试用例，离线改进后再上线。\n- 智能体追踪数据又大又乱（单次交互可达几百兆），普通数据仓库撑不住，评估平台本质是系统问题。\n- 未来趋势：编程智能体自己跑评估，平台自动发现未知的未知，人只负责最后拍板。",
+  "quotes": [
+    {
+      "en": "Evals are a way for you to continue hill climbing against one target, which is agent quality.",
+      "zh": "评测是一种让你能够持续朝着单一目标攀爬的方式，这个目标就是智能体质量。",
+      "timestamp": "06:41",
+      "speaker": "Hossein"
+    },
+    {
+      "en": "But once I ship it to production, I'm operating in the blind.",
+      "zh": "但一旦我把它发布到生产环境，我就是在盲目的状态下运行。",
+      "timestamp": "10:42",
+      "speaker": "Hossein"
+    },
+    {
+      "en": "In some cases, we see teams that are logging a movie's worth of data in each interaction, hundreds of megabytes.",
+      "zh": "在某些情况下，我们看到团队在每次交互中记录相当于一部电影大小的数据，几百兆字节。",
+      "timestamp": "12:12",
+      "speaker": "Hossein"
+    },
+    {
+      "en": "I have huge payloads that are tens of megabytes, hundreds of megabytes in size sometimes compared to traditional heartbeat observability, which are just kilobytes in size.",
+      "zh": "我有巨大的 payload，有几十兆、有时几百兆的大小，而传统的心跳可观测性数据只有几 KB 的大小。",
+      "timestamp": "13:54",
+      "speaker": "Hossein"
+    },
+    {
+      "en": "Each one of these features proves that this is not just a UI and a spreadsheet, but rather it is a systems problem that powers it.",
+      "zh": "这些特性中的每一个都证明了，这不仅仅是一个 UI 加一张电子表格，而是一个支撑它的系统问题。",
+      "timestamp": "16:32",
+      "speaker": "Hossein"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:27",
+      "speaker": "Unknown",
+      "en": "You know, evals matter because LLMs by nature are non-deterministic.",
+      "zh": "你知道，evals 之所以重要，是因为 LLM 天生就是非确定性的。"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Unknown",
+      "en": "That variability is exactly what makes them so powerful.",
+      "zh": "而这种可变性恰恰是它们如此强大的原因。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "But that same flexibility also creates risk.",
+      "zh": "但这种灵活性同时也带来了风险。"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Unknown",
+      "en": "And agentic experiences are starting to become the primary way in which users will interact with companies.",
+      "zh": "而智能体化体验正在开始成为用户与公司交互的主要方式。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Unknown",
+      "en": "And gone are the days where you build once with unit tests and regression tests, you ship to production, and you don't think about it.",
+      "zh": "「构建一次，配上单元测试和回归测试，发布到生产，然后就不用再想了」的日子已经一去不复返了。"
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Unknown",
+      "en": "Evals are a way for you to continue hill climbing against one target, which is agent quality.",
+      "zh": "评测是一种让你能够持续朝着单一目标攀爬的方式，这个目标就是智能体质量。"
+    },
+    {
+      "timestamp": "07:25",
+      "speaker": "Unknown",
+      "en": "And then you continue iterating over time because just like in classical ML, drift becomes a real thing.",
+      "zh": "然后你随着时间持续迭代，因为就像经典 ML 一样，漂移会成为一个真实存在的问题。"
+    },
+    {
+      "timestamp": "08:17",
+      "speaker": "Unknown",
+      "en": "But the returns diminish pretty quickly.",
+      "zh": "但回报很快就递减了。"
+    },
+    {
+      "timestamp": "10:42",
+      "speaker": "Unknown",
+      "en": "But once I ship it to production, I'm operating in the blind.",
+      "zh": "但一旦我把它发布到生产环境，我就是在盲目的状态下运行。"
+    },
+    {
+      "timestamp": "12:08",
+      "speaker": "Unknown",
+      "en": "But agent traces are nasty.",
+      "zh": "但智能体的 trace 是很棘手的。"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Unknown",
+      "en": "In some cases, we see teams that are logging a movie's worth of data in each interaction, hundreds of megabytes.",
+      "zh": "在某些情况下，我们看到团队在每次交互中记录相当于一部电影大小的数据，几百兆字节。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "Unknown",
+      "en": "And your typical cloud data warehouses kind of collapse under this type of volume and load.",
+      "zh": "而你典型的云端数据仓库在这种体量和负载下会崩溃。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Unknown",
+      "en": "So it's not necessarily that it's just a UI or UX problem, but building an eval platform truly becomes a systems problem.",
+      "zh": "所以它不一定只是一个 UI 或 UX 问题，构建一个评估平台真正变成了一个系统问题。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Unknown",
+      "en": "I have huge payloads that are tens of megabytes, hundreds of megabytes in size sometimes compared to traditional heartbeat observability, which are just kilobytes in size.",
+      "zh": "我有巨大的 payload，有几十兆、有时几百兆的大小，而传统的心跳可观测性数据只有几 KB 的大小。"
+    },
+    {
+      "timestamp": "16:05",
+      "speaker": "Unknown",
+      "en": "Hey, what are scenarios when my agent is failing silently?",
+      "zh": "嘿，我的智能体在哪些场景下会静默失败？"
+    },
+    {
+      "timestamp": "16:32",
+      "speaker": "Unknown",
+      "en": "Each one of these features proves that this is not just a UI and a spreadsheet, but rather it is a systems problem that powers it.",
+      "zh": "这些特性中的每一个都证明了，这不仅仅是一个 UI 加一张电子表格，而是一个支撑它的系统问题。"
+    },
+    {
+      "timestamp": "17:01",
+      "speaker": "Unknown",
+      "en": "And ultimately, the human's responsibility is to review the outcome.",
+      "zh": "而最终，人类的责任是审查结果。"
+    }
+  ],
+  "voice_script": "今天这一期，要聊一个很多做 AI 的团队都撞过的问题：为什么自己搭一个评估平台，远比想象中难。主角叫 Hossein，在 Salesforce 和 Databricks 做了十五年解决方案工作，现在在 Braintrust 负责西区的解决方案工程团队。十五年跟各种企业打交道下来，见过太多团队在这件事上从自信到头疼。今天就把这条弯路，从头给你捋一遍。\n\n先说清楚背景。现在 AI 智能体铺得越来越快，很多公司都把它们接进了自己的产品和服务里。但大模型有个天生的特点：它是不确定的、高度可变的。这种灵活是好事，意味着它能应付各种任务；但代价是风险——品牌风险、合规风险，还有系统出了问题难以调试带来的成本风险。所以怎么确保智能体上线之后不出岔子，就成了绕不开的问题。\n\n那怎么保证质量呢？靠两根支柱。第一根叫评估，就是在上线之前，用一批测试输入去跑智能体，看行为符不符合预期。第二根叫可观测性，就是上线之后，持续监控真实用户跟它的交互，验证之前的假设到底成不成立。听起来是两件事，其实本质上是同一个问题的两面——一个是上线前把关，一个是上线后验证，共同的目标都是让智能体更可靠。\n\n好，那最直接的思路来了：先把评估做起来呗。很多人的第一步非常朴素——跑一批测试输入，把结果记进电子表格。Hossein 说了，这没什么可羞愧的，反而是个好的开始。最简单的评估系统，其实只需要三样东西：执行智能体的方式、查看输出的方式，再加一组测试输入。就这样，评估跑起来了。\n\n但用着用着，天花板就出现了。这个阶段你基本上只是在记录结果，没法做真正的实验，更没法做长期分析。人工打分有价值，但费时费力，协作也很弱——最懂业务的领域专家，反而被排除在这个流程之外。\n\n于是下一步通常是谁来接手呢？产品工程师出手，做一个定制界面。这一步确实有效果，至少能把产品经理拉进评估流程里了。但根本问题还摆在那儿：数据难以留存，长期分析还是做不了，说白了它还是个报告工具。那再往前推一步，让非技术的用户也能在界面上做实验——改提示词、换底层模型、调参数、做并排对比。看起来挺完整了，可这里仍然有个关键缺口：你所有的测试用例，全都来自离线环境。一旦上线，你就成了睁眼瞎，不知道智能体在生产环境里到底哪一步出了错。用 Hossein 原话说，一旦发布到生产环境，我就是在盲目的状态下运行。\n\n这就引出了成熟团队真正想要的东西——一个改进闭环：从生产环境里观察到失败模式，把这些失败转化成测试用例，回到离线环境迭代改进，改进好了再上线，如此循环。而且这个循环不能停，因为用户和智能体的交互方式会随时间漂移，就像经典机器学习里说的数据漂移一样——今天测过的场景，不代表半年后还够用。\n\n那这个闭环听起来很清晰，做起来为什么这么难？因为到这里，问题已经彻底变了性质——它不再是设计一个界面的问题，而是要维护一整套系统的问题。难在哪呢？首先，智能体的追踪数据非常棘手。它们是半结构化的 JSON，嵌套很深，而且体量大得吓人。有的团队一次交互就记录几百兆数据——相当于一部电影的信息量。这还只是单次交互，乘上真实的流量，这个数据洪流普通云数据仓库直接就垮了。\n\nBraintrust 自己也撞上了这堵墙。实时摄入、超大载荷、深度嵌套的半结构化文本，既要支持大规模聚合，又要支持时间点的快照查询——这些都是 ChatGPT 爆火之后才出现的新问题。为什么说是新的？因为传统的可观测性数据，就是那种心跳信号，只有几 KB 的大小，跟这个完全不是一个量级。最后没办法，Braintrust 自己造了一层叫 BTQL 的查询抽象来解决这个问题。\n\n还没完。就算查询层搞定了，底下的数据库要自己维护，权限管理要自己做，数据脱敏要自己处理——每一个都是独立的工程难题。所以 Hossein 那句话说得特别实在：每一个这样的特性都在证明，这不仅仅是一个界面加一张电子表格，而是一个支撑它的系统问题。\n\n那这条路往下走，会变成什么样？现在有个很有意思的趋势：智能体本身成了评估平台的一等公民。因为编程智能体能访问代码库和基础设施，你可以直接用自然语言给它下指令，比如，找出过去二十四小时里用户体验差的追踪记录，帮我跑一遍评估——它就真的能执行评估并记录结果。再往后看，Braintrust 的愿景是平台还能自动从追踪数据里做推理，告诉你那些未知的未知：比如智能体在哪些场景下悄悄失败了，用户在哪些情况下反复用同样的请求来表达不满。而人的角色，退到最后一步——看结果，决定哪个版本值得上线。\n\n评估这件事，说到底是一种让你能持续朝着单一目标攀爬的方式，这个目标就是智能体质量。"
+}

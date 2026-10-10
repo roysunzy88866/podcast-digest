@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>59</b> 集 · <b>47</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>60</b> 集 · <b>47</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -68,6 +68,7 @@ unlisted: true
 - **[[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]]**(16:31起):本集说模型约每两周出一个新版本，但共同点是「新 LLM 迫切希望拥有高出几个数量级的内存带宽」；前沿实验室必须既有最好权重又有最快部署。
 - **[[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]]**(02:09起):本集说 StrandsAgents 是跑 LLM 的 harness，可自带模型，出新模型时无需重写 system prompt 或架构，直接替换即可。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(03:18起):本集说 LLM 让「把非结构化对话变成结构化数据再做预测」变容易；同时 Dan 反驳拿一个 LLM 加几个 MCP 服务器和 API 就能缝合六个单点软件的想法。
+- **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(02:53起):本集说 LLM 天生非确定性、高度可变，这种灵活性既是能力来源，也带来品牌、合规和调试成本等风险，因此必须做评估。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(35:55起):本集说技术界从根本上误解了 LLM：它没有因果概念、不是世界模型，会删掉你的数据库正因此；应期待适度、用模块边界约束它，能换确定性代码的环节就换。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(24:24起):本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它
 
@@ -171,7 +172,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*59 集*
+*60 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -230,6 +231,7 @@ unlisted: true
 - [[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with|《内存带宽才是 AI 芯片的下一个战场：Fractile 创始人 Walter 的押注》]] — 作为概念
 - [[2026-10-04-talks-agents-that-write-their-own-tools-at-run|《智能体自己造工具、自己修 Bug:AWS 工程师现场演示》]] — 作为概念(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为概念
+- [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为概念
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
 
@@ -239,7 +241,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[Lenny]] · [[推理]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":452,"Anthropic":194,"ChatGPT":103,"MCP":84,"OpenAI":185,"Claude":93,"Claude Code":98,"Lenny":68,"推理":89,"Google":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":454,"Anthropic":194,"ChatGPT":104,"MCP":84,"OpenAI":186,"Claude":93,"Claude Code":98,"Lenny":68,"推理":89,"Google":69}</script>
 
 <script>
 (function(){

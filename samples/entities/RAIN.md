@@ -25,7 +25,7 @@ unlisted: true
 
 [[Farooq Malik]] · [[Mario]] · [[稳定币]] · [[代币化货币]] · [[智能体]] · [[Stripe]] · [[Bridge]] · [[Revolut]] · [[AOL]]
 
-<script type="application/json" class="pd-epn">{"Farooq Malik":1,"Mario":3,"稳定币":5,"代币化货币":1,"智能体":452,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Farooq Malik":1,"Mario":3,"稳定币":5,"代币化货币":1,"智能体":454,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

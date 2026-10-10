@@ -1,0 +1,149 @@
+{
+  "title_zh": "快速迭代，但别把数据库搞挂",
+  "tldr": "PlanetScale 的 Ben 讲解 AI 时代如何一边快速上线产品，一边让数据库在用户暴涨时不崩。",
+  "digest_md": "“快速行动，打破常规”，这句话你可能听过。它出自早期 Facebook 的工程文化，意思是：尽快发布产品，别让数据库、基础设施拖后腿。那是 20 年前。现在 AI 智能体已经开始替人写代码、做部署，这件事比以往任何时候都更成立。演讲者 Ben 认为，两个目标其实可以兼得：跑得快，但别把东西搞坏 [00:49 Unknown]。\n\nBen 来自 PlanetScale，一家做数据库的公司，客户包括 Cursor 这类正在疯狂扩张的 AI 公司。过去半年到两年里，很多公司的日活用户翻倍、翻十倍、翻百倍，背后很大一部分是 AI 智能体带来的流量，基础设施经常跟不上。他的演讲分三部分：怎么构建不出故障的系统、怎么把它扩展到百万用户、以及怎么让 AI 智能体参与其中。\n\n## 为什么隔离是第一条原则？\n\n跑基础设施时，要保证一个部件坏掉不会拖垮整个系统。数据库本身——如果用的是靠谱的平台——反而不太容易挂。更容易出事的是那些你频繁改动的部分：控制面、可观测性管道、应用、MCP 服务。设计得好，就算一次糟糕的部署把控制面搞挂，数据库照常服务，别的什么都不受影响 [04:19 Unknown]。\n\n## 服务器多了，故障就从几年一次变每周一次\n\n第二条原则是冗余。应用服务器是无状态的，用自动扩缩容很容易做到冗余。但数据库必须可靠地存数据，一个字节都不能丢。常见做法是设一个主节点承接大部分流量，同时在不同的数据中心或可用区里放若干个副本节点随时待命。Ben 提醒：小规模时，100 个用户加一台数据库服务器，可能几年才遇到一次故障；**规模大了，几千台服务器，故障就变成每周、每月的事，必须有应对机制** [05:41 Unknown]。\n\n## 数据涨到 10TB 以上，就得分片\n\n单个数据库节点在 10GB 数据时工作得很好，到 10TB、100TB 就不行了。办法是分片：**把数据和查询分散到很多台服务器上，中间放一个代理，把请求智能地分发出去**。PlanetScale 用 Vitesse 做 MySQL 的分片，用 Niki 做 Postgres 的分片 [07:44 Unknown]。\n\n而且分片不是单独使用的——每个分片内部还要有自己的主节点和副本，某个服务器坏了，这个分片能自我修复，很快恢复上线。\n\n## 过载时，宁可拒绝部分请求，也别整个崩掉\n\nMySQL、Postgres、SQLite 这些流行数据库，一遇到查询太多、CPU 或内存耗尽，很多时候直接就崩了，所有用户一起遭殃。反压的意思是：**系统检测到资源超过阈值时，主动拒绝一部分连接和请求**，让存量用户继续正常使用，其他流量优雅降级。不理想，但比整个应用下线好得多 [09:12 Unknown]。\n\n## 别把所有东西塞进一个数据库\n\n有人主张把交易数据库、分析、队列、缓存全合在一起，图方便。但这破坏了故障隔离——一个服务挂，全都挂。而且各部分会抢资源：队列任务突然暴涨时，你只想扩队列，不想被迫扩整个系统。解耦之后，每个部分可以独立伸缩 [10:14 Unknown]。\n\n## AI 智能体能不能碰数据库？\n\n现在用 AI 写代码已是常态，有人甚至一行代码都不写了，只是引导智能体。但让智能体去改数据库、改配置、做分片，风险完全不同——搞砸了不像代码那样点一下回滚就行，可能整个应用瘫痪，每个用户都看得见 [12:04 Unknown]。\n\nBen 的答案是：**给智能体简单、安全的接口**。比如 Vitesse 的分片配置叫 vschema，就是一个 JSON 文件，指定按哪一列分片、怎么分。AI 智能体最擅长的就是处理 JSON——你可以直接说：我的数据库撑不住了，这是我的表结构，帮我设计一个分片方案 [13:21 Unknown]。\n\n## 数据库也能像代码一样分支、合并、回滚\n\n开发者熟悉 Git 流程：开分支、改代码、合并、部署。PlanetScale 把同样的体验搬到了数据库上：给表结构开分支，在隔离环境里加表、加列、加索引，然后通过部署请求合并回生产环境，全程不停机。更关键的是，部署后发现有问题，一键回滚到旧状态，不丢数据 [16:47 Unknown]。\n\n这套本是为人类设计的，但现在通过接口和命令行，智能体也能自动化整个流程——它改代码、开分支、发请求做代码审查时，可以有一个同步变动的数据库状态。可以全自动，也可以半自动，很多人仍然让人类审查每一步变更，Ben 认为这是好事 [17:22 Unknown]。\n\n## 专为人类做好用的工具，恰好也适合 AI\n\n结尾 Ben 说，他说的开发者体验不是深色模式或快捷键，而是：如果你负责公司的数据库，工具有没有给足你不出错、安全部署、提升性能的能力。PlanetScale 为此构建了很多年，结果发现，**这些为人类打磨的核心体验，恰好也是让 AI 安全可靠地操作数据库的最好基础** [18:06 Unknown]。\n\n## 本集带走\n\n- 隔离、冗余、反压、解耦，是不管用户多少都适用的可靠性原则\n- 规模一大，故障频率随之上升：几千台服务器时，故障变成每周的事\n- 分片是扩展海量数据最常见也最高效的方式，每个分片内部还要有冗余\n- 让 AI 操作数据库的关键是给它安全接口：JSON 配置、类 Git 的分支合并、一键回滚\n- 为人类做好的开发者体验，天然就是 AI 智能体友好的基础设施",
+  "quotes": [
+    {
+      "en": "But at a large scale, when you have thousands of servers, a once or twice a year failure becomes a weekly or monthly failure, and so you need to have systems in place to deal with this very well.",
+      "zh": "但在大规模下，当你有数千台服务器时，一年一两次的故障就变成了每周或每月一次的故障，所以你需要有相应的系统来很好地应对这种情况。",
+      "timestamp": "05:41",
+      "speaker": "Ben"
+    },
+    {
+      "en": "In some cases, people are not even writing any lines of code anymore. AI is actually writing all of your code, reviewing all of your code, and you're just sort of guiding these agents to doing that.",
+      "zh": "在某些情况下，人们甚至不再亲手写任何一行代码了。AI 实际上在写你的所有代码，审查你的所有代码，而你只是在引导这些智能体去做这些事。",
+      "timestamp": "11:44",
+      "speaker": "Ben"
+    },
+    {
+      "en": "So this is one of those things, very complex infrastructure in reality under the hood that is scaling your systems, but you provide the right interfaces for it, like simple configuration files, and those things become much more accessible to any company trying to scale.",
+      "zh": "所以这是那种——底层现实中是非常复杂的基础设施在扩展你的系统——但只要你为它提供合适的接口，比如简单的配置文件，这些能力对任何想要扩展的公司来说都变得容易接触得多。",
+      "timestamp": "13:55",
+      "speaker": "Ben"
+    },
+    {
+      "en": "I think there was a tweet a couple of months ago from GitHub that basically said like their traffic had like two or three or four x from what already was an extremely high load, and pretty much all of that was attributed to AI agents, right?",
+      "zh": "我记得几个月前 GitHub 发过一条推文，大概说他们的流量比原本就已经极高的负载又涨了两三倍甚至四倍，而这几乎全部归因于 AI 智能体，对吧？",
+      "timestamp": "14:22",
+      "speaker": "Ben"
+    },
+    {
+      "en": "And it does kind of turn out that when you really focus on that core of the developer experience, what you actually end up with is also very good primitives for AI being able to work with a database safely and reliably and helping it scale.",
+      "zh": "而且结果某种程度上证明，当你真正专注于开发者体验的核心时，你最终得到的东西同时也是非常好的原语，能让 AI 安全、可靠地与数据库协作并帮助它扩展。",
+      "timestamp": "18:12",
+      "speaker": "Ben"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:49",
+      "speaker": "Unknown",
+      "en": "So if anything the idea of doing this is more true than ever but in my opinion we can actually achieve both right.",
+      "zh": "所以如果说有什么变化，那就是这个想法比以往任何时候都更正确，但在我看来，我们其实可以两者兼得。"
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Unknown",
+      "en": "A lot of that powered by the demand of AI agents where the infrastructure struggles to keep up.",
+      "zh": "其中很多是由 AI 智能体的需求驱动的，基础设施难以跟上。"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Unknown",
+      "en": "You can't lose a single byte of data.",
+      "zh": "你不能丢失哪怕一个字节的数据。"
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Unknown",
+      "en": "But at a large scale, when you have thousands of servers, a once or twice a year failure becomes a weekly or monthly failure, and so you need to have systems in place to deal with this very well.",
+      "zh": "但在大规模下，当你有数千台服务器时，一年一两次的故障就变成了每周或每月一次的故障，所以你需要有相应的系统来很好地应对这种情况。"
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Unknown",
+      "en": "What you do is instead of relying on that single node, which works fine when you have 10 gigabytes of data, it doesn't work so well when you have 10 terabytes of data or 100 terabytes of data or a petabyte of data.",
+      "zh": "你要做的是，不再依赖那个单节点——它在你有 10GB 数据时工作得很好，但在你有 10TB、100TB 或 1PB 数据时就不那么好使了。"
+    },
+    {
+      "timestamp": "10:14",
+      "speaker": "Unknown",
+      "en": "If one service goes down, that actually means everything is going down.",
+      "zh": "如果一个服务宕机了，那实际上意味着一切都宕机了。"
+    },
+    {
+      "timestamp": "11:44",
+      "speaker": "Unknown",
+      "en": "In some cases, people are not even writing any lines of code anymore. AI is actually writing all of your code, reviewing all of your code, and you're just sort of guiding these agents to doing that.",
+      "zh": "在某些情况下，人们甚至不再亲手写任何一行代码了。AI 实际上在写你的所有代码，审查你的所有代码，而你只是在引导这些智能体去做这些事。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Unknown",
+      "en": "It's taking down your entire application, and every user notices.",
+      "zh": "它会让你的整个应用程序宕机，每个用户都会注意到。"
+    },
+    {
+      "timestamp": "12:50",
+      "speaker": "Unknown",
+      "en": "So the software is fairly complicated, but the interface that we present for specifying how do you want all of your queries and your data sharded is actually quite simple.",
+      "zh": "所以这个软件相当复杂，但我们为指定「你想如何对所有查询和数据进行分片」而呈现的接口其实相当简单。"
+    },
+    {
+      "timestamp": "13:13",
+      "speaker": "Unknown",
+      "en": "And the great thing is, as we all know, AI agents are excellent at working with things like text files and JSON files.",
+      "zh": "而很棒的一点是，众所周知，AI 智能体非常擅长处理文本文件和 JSON 文件这类东西。"
+    },
+    {
+      "timestamp": "13:55",
+      "speaker": "Unknown",
+      "en": "So this is one of those things, very complex infrastructure in reality under the hood that is scaling your systems, but you provide the right interfaces for it, like simple configuration files, and those things become much more accessible to any company trying to scale.",
+      "zh": "所以这是那种——底层现实中是非常复杂的基础设施在扩展你的系统——但只要你为它提供合适的接口，比如简单的配置文件，这些能力对任何想要扩展的公司来说都变得容易接触得多。"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Unknown",
+      "en": "I think there was a tweet a couple of months ago from GitHub that basically said like their traffic had like two or three or four x from what already was an extremely high load, and pretty much all of that was attributed to AI agents, right?",
+      "zh": "我记得几个月前 GitHub 发过一条推文，大概说他们的流量比原本就已经极高的负载又涨了两三倍甚至四倍，而这几乎全部归因于 AI 智能体，对吧？"
+    },
+    {
+      "timestamp": "15:34",
+      "speaker": "Unknown",
+      "en": "And this is one of those things that, OK, it's not ideal to have to deny requests, but it's much better than your whole application going down and being offline for all of your users.",
+      "zh": "这就是那种——好吧，不得不拒绝请求并不理想，但这远好过你的整个应用程序宕机、对所有用户离线。"
+    },
+    {
+      "timestamp": "16:13",
+      "speaker": "Unknown",
+      "en": "What we have done, and this was long before Agents even existed, is we wanted to take that same UX and mirror that for your database.",
+      "zh": "我们所做的，而这早在智能体存在之前，就是想把同样的 UX 拿来，为你的数据库做镜像。"
+    },
+    {
+      "timestamp": "16:47",
+      "speaker": "Unknown",
+      "en": "And not only that, but actually the ability you might see here at the bottom, the ability to, if you deploy a schema change and you see a problem, we give you the ability to one-click revert that and go back to the old state of your database without data loss.",
+      "zh": "不仅如此，如果你部署了一个 schema 变更然后发现了问题，我们给你一键回滚、无数据丢失地回到数据库旧状态的能力。"
+    },
+    {
+      "timestamp": "18:12",
+      "speaker": "Unknown",
+      "en": "And it does kind of turn out that when you really focus on that core of the developer experience, what you actually end up with is also very good primitives for AI being able to work with a database safely and reliably and helping it scale.",
+      "zh": "而且结果某种程度上证明，当你真正专注于开发者体验的核心时，你最终得到的东西同时也是非常好的原语，能让 AI 安全、可靠地与数据库协作并帮助它扩展。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Unknown",
+      "en": "And then the rest of your stack has to be built to support that.",
+      "zh": "而你技术栈的其余部分也必须构建成支持这一点。"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Unknown",
+      "en": "The databases, the queues, the things that are powering every other layer of your stack.",
+      "zh": "数据库、队列，那些支撑着你技术栈其他所有层的东西。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们聊一个特别实际的问题：怎么一边快速上线产品，一边保证数据库不崩。说话的人叫 Ben，来自一家叫 PlanetScale 的数据库公司。这家公司的客户里，有 Cursor 这种正在疯狂扩张的 AI 公司，所以他见过的场景特别真实：过去半年到两年里，很多公司的日活用户翻倍、翻十倍、翻百倍，背后很大一部分是 AI 智能体带来的流量，基础设施经常跟不上。GitHub 甚至发过推文说，他们的流量比原本已经很高的负载又涨了两三倍、四倍，而这几乎全部归因于 AI 智能体。\n\n这个话题的来头，是那句老话：“快速行动，打破常规”。这话出自二十年前的 Facebook 工程文化，意思是尽快发布，别让数据库、基础设施拖后腿。二十年后，AI 智能体开始替人写代码、做部署，这句话比以往任何时候都更成立。但 Ben 认为，跑得快和不出事，其实可以兼得。\n\n那到底怎么做？先从最基础的原则说起。\n\n第一条，叫隔离。说白了，就是保证一个部件坏掉，不会拖垮整个系统。有意思的是，数据库本身——只要用的是靠谱的平台——反而不容易挂。更容易出事的，恰恰是那些你频繁改动的部分，比如控制面、可观测性管道、应用、MCP 服务。设计得好，就算一次糟糕的部署把控制面搞挂了，数据库照样服务，别的什么都不受影响。\n\n第二条，是冗余。应用服务器是无状态的，自动扩缩容，很容易做到冗余。但数据库不一样，数据一个字节都不能丢。常见做法是设一个主节点承接大部分流量，同时在不同的数据中心或者可用区里放若干个副本节点随时待命。这里有个特别容易被忽视的点：小规模的时候，一百个用户加一台数据库服务器，可能几年才碰上一次故障，你觉得没什么大不了。可一旦规模大了，几千台服务器，故障就变成每周、每月的事了。到了那个量级，你必须有应对机制，靠运气是撑不住的。\n\n冗余解决单点问题，但数据量本身涨上来怎么办？单个数据库节点，数据在 10GB 的时候工作得很好，涨到 10TB、100TB 就不行了。办法叫分片：把数据和查询分散到很多台服务器上，中间放一个代理，把请求智能地分发出去。PlanetScale 用 Vitesse 做 MySQL 的分片，用 Niki 做 Postgres 的分片。而且分片不是单独用的——每个分片内部还要有自己的主节点和副本，某台服务器坏了，这个分片能自我修复，很快恢复上线。\n\n接下来一个问题也很现实：流量突然暴涨，扛不住了怎么办？MySQL、Postgres、SQLite 这些流行数据库，一遇到查询太多、CPU 或内存耗尽，很多时候直接就崩了，所有用户一起遭殃。这里的思路叫反压：系统检测到资源超过阈值，主动拒绝一部分连接和请求，让存量用户继续正常用，其他流量优雅降级。听起来不理想，但比整个应用下线好得多。\n\n顺着这个逻辑，还有一条相关原则：别把所有东西塞进一个数据库。有人主张把交易数据库、分析、队列、缓存全合在一起，图个方便。但这恰恰破坏了故障隔离——一个服务挂，全都挂。而且各部分会抢资源：队列任务突然暴涨的时候，你只想扩队列，不想被迫扩整个系统。解耦之后，每个部分可以独立伸缩。\n\n好，可靠性这块讲完了，下面进入更前沿的部分：AI 智能体能不能碰数据库？\n\n现在用 AI 写代码已是常态，某些情况下，人们甚至不再亲手写任何一行代码，AI 在写所有代码、审查所有代码，人只是在引导智能体。但让智能体去改数据库、改配置、做分片，风险完全不同——搞砸了不像代码那样点一下回滚就行，可能整个应用瘫痪，每个用户都看得见。\n\nBen 的答案是：给智能体简单、安全的接口。举个例子，Vitesse 的分片配置叫 vschema，就是一个 JSON 文件，指定按哪一列分片、怎么分。AI 智能体最擅长处理的就是 JSON——你可以直接说：我的数据库撑不住了，这是我的表结构，帮我设计一个分片方案。底层是非常复杂的基础设施在扩展你的系统，但只要给它合适的接口，比如简单的配置文件，这些能力对任何想扩展的公司来说，都变得容易接触得多。\n\n还有更妙的一招。开发者都熟悉 Git 流程：开分支、改代码、合并、部署。PlanetScale 把同样的体验搬到了数据库上：给表结构开分支，在隔离环境里加表、加列、加索引，然后通过部署请求合并回生产环境，全程不停机。更关键的是，部署完发现有问题，一键回滚到旧状态，不丢数据。这套流程本来是为人类设计的，现在通过接口和命令行，智能体也能自动化整个流程——改代码、开分支、发请求做代码审查的时候，有一个同步变动的数据库状态。可以全自动，也可以半自动，很多人仍然让人类审查每一步变更，Ben 认为这是好事。\n\n最后收个尾。Ben 说，他讲的开发者体验，不是深色模式或者快捷键，而是：如果你负责公司的数据库，工具有没有给足你不出错、安全部署、提升性能的能力。PlanetScale 为此构建了很多年，结果发现一件挺有意思的事——这些为人类打磨的核心体验，恰好也是让 AI 安全可靠地操作数据库的最好基础。把工具为人做好，就已经为智能体铺好了路。"
+}

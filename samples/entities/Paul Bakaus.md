@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":63,"品味":15,"智能体":452,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":98,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":63,"品味":15,"智能体":454,"技能":29,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":98,"形容词引导设计":1}</script>
 
 <script>
 (function(){

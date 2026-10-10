@@ -25,7 +25,7 @@ unlisted: true
 
 [[Josh Goldberg]] · [[David Burns]] · [[Selenium]] · [[WebDriver]] · [[WebDriver BiDi]] · [[W3C]] · [[开源]] · [[无障碍性]] · [[vibe coding]] · [[可观测性]]
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"David Burns":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":38,"无障碍性":4,"vibe coding":47,"可观测性":40}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"David Burns":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":39,"无障碍性":4,"vibe coding":47,"可观测性":42}</script>
 
 <script>
 (function(){

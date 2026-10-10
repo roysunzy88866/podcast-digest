@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Wade Foster]] · [[Elizabeth Stone]] · [[Zapier]] · [[Netflix]] · [[编码智能体]] · [[InterPositive]] · [[确定性]] · [[WorkOS]]
 
-<script type="application/json" class="pd-epn">{"智能体":452,"Lenny":68,"Wade Foster":2,"Elizabeth Stone":1,"Zapier":5,"Netflix":6,"编码智能体":30,"InterPositive":1,"确定性":4,"WorkOS":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":454,"Lenny":68,"Wade Foster":2,"Elizabeth Stone":1,"Zapier":5,"Netflix":6,"编码智能体":32,"InterPositive":1,"确定性":4,"WorkOS":10}</script>
 
 <script>
 (function(){

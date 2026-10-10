@@ -1,0 +1,173 @@
+{
+  "title_zh": "大裁员时代，顶尖工程师为什么照样被抢着要",
+  "tldr": "一位招聘者和一位开源工程师对谈，聊透残酷的科技业求职市场：哪些人在被淘汰，哪些人被疯抢。",
+  "digest_md": "2026 年的科技业求职市场有多难？仅这一年就有超过 120,000 人被裁，平均每天约 1,000 人。但奇怪的是，市场上同时还有近 60,000 个软件工程师职位空缺。一边疯狂裁员，一边招不到人——这期 Beyond Coding 请来两位过来人拆解这个矛盾：一位是在 Reddit、Uber、Disney Plus 做过招聘的招聘者，一位是靠 GitHub 上的开源贡献拿到工作、如今在 Xebia 和 Nebius 工作的工程师（大学辍学，没有文凭）。他们的回答，对任何行业里想不被淘汰的人都有用。\n\n## 为什么裁了 12 万人，还有 6 万个岗位空着？\n\n招聘者的判断很直接：很多公司裁员先是当成本削减手段，裁完才发现「我们以为 AI 能干一切，其实还是需要人」[04:21 招聘者]。有的公司甚至把拿了遣散费的人又招了回去。于是市场出现了一波接一波的循环：裁员、招聘、再裁员，节奏比以往任何时候都快。\n\n**岗位也没消失，而是换了地方**。大厂在收缩，但 OpenAI 计划年底前把员工翻倍，中小型 AI 公司还在扩张。需求的方向也变了：以前招后端、Android、iOS 工程师，现在招 AI 方向的工程师；产品设计师、产品经理的岗位比工程师缩得还狠。\n\n## 面试可以用 AI 吗？面试官说：别想\n\n==既然工作都在用 AI，面试时用 AI 助手行不行==？负责招聘的工程师说得毫不客气：「**AI 辅助的面试是一团糟，我完全不喜欢**」[07:30 工程师]。\n\n问题在于现在的面试作弊工具太强了——隔着屏幕，面试官根本看不出你有没有外援。这意味着公司花大力气面试的，可能不是屏幕前那个真人。\n\n有意思的是反向趋势：疫情时全改成远程面试，现在公司又把看好的资深候选人花钱请到办公室现场面。算法题虽然常被吐槽工作中根本用不到，但他坚持保留，因为这是判断一个人计算机科学基本功的基线。他们正在设计新的环节——专门考察你怎么和 AI 智能体协作：怎么拆解任务、怎么把控循环、怎么判断结果好不好。他说，和 AI 智能体协作，其实和带一个初级工程师差不多 [01:26 工程师]。\n\n## 硬技能让你进门，软技能让你留下\n\n招聘者的分工很清晰：**硬技能让你拿到房间入场券**——交付快、bug 少、风险低。但进了房间之后，决定你能不能混下去的是两样东西：适应力和韧性。\n\n理由很冷酷：「技术会超过你，公司会超过你，同事会超过你」[08:47 工程师]。不持续更新自己，结局要么被公司不需要，要么自己干得无聊、失去连接。\n\n怎么证明自己有适应力？不是嘴上说。是主动发现别人还没意识到的问题，并且带着方案去——不是一个方案，是好几个选项，最好已经做过小规模试验。这同时展示了另一个信号：你愿意学、愿意投入。\n\n## 简历越来越精致，也越来越没用\n\n现在的简历被裁剪得太贴合岗位了，人人写得都像量身定做。有招聘者在网上吐槽：收到几百份简历，全按职位描述定制，看起来一模一样，根本没法筛。\n\n面试一追问就露馅——简历上写着做过这个，一问细节说不出所以然。\n\n所以真正管用的还是老办法：内推和人脉。招聘者给在校学生的建议尤其直接：初级岗位比前几年少得多，别等到毕业才想找工作，在读期间就要去社区活动、技术聚会，线上线下的关系都要建，这样毕业时才有机会拿到实习或初级职位。这些事学校不教，得自己来。\n\n## 开源贡献：一条真实存在，但不该抱功利心的路\n\n那位辍学工程师自己的经历就是证明：他多年没写过简历，工作机会都是别人在 GitHub 上找上门来的 [01:21 工程师]。他因为长期给 Terraform 相关项目贡献代码、参加社区会议和 HashiCorp 大会，最终被 HashiCorp 主动挖走。\n\n但他反复提醒：别抱着贡献就能被雇的心态入场，就像开店别抱着开店就能发财的心态一样。找你喜欢的事，持续做，被认可是副产品。\n\n==开源贡献还有一个常见坑：提交的代码合并请求长期没人理，热情被耗光==。他的解法很实用——在 GitHub 上找到项目里最活跃的贡献者，看他们已合并的请求，模仿他们的标题、提交说明和风格。用维护者的语言说话，降低他们的审阅成本，你的请求就不容易被晾在一边。\n\n## 哪类工程师会在 3 到 5 年内消失？\n\n工程师的预言很扎心：那种坐在银行里、用 Java 机械地自动化内部流程的工程师，风险最大。他们任务导向、缺乏产品思维，**这类岗位会在 3 到 5 年内过时** [24:49 工程师]。\n\n但这不是因为 AI 无所不能，而是因为衡量人的标准变了。「没人在乎你会什么框架、什么库，没人在乎你背不背得出处理器的全部指令」[22:47 工程师]。深入钻研会变成一种专业选择，而不再是必需品。真正值钱的能力是：把问题想清楚、拆开、组织好，输出一段简洁清晰的思路——这件事人本来就很不擅长，所以稀缺。\n\n那系统谁维护？他说，人其实比 AI 更不擅长搞懂庞大的遗留代码库，唯一不可替代的是只存在于某些人脑子里的隐性知识。而知识从不共享、关键人只有一个的问题，是管理问题，不是工程问题。靠不写文档来保饭碗，这招四十年前就有，以后也会一直有。\n\n## 冷邮件怎么写才不像骚扰？\n\nLinkedIn 上私信的回复率只有 20% 左右——发 100 条，约 20 个人会回 [17:44 招聘者]。被已读不回是必然的，所以策略上要像做实验：写不同版本，追踪各自回复率，留下效果好的那个。\n\n内容上，关键是让消息关于对方而不是关于你。别写「我要工作，给我工作」，而是「我看了你在 YouTube 上的演讲，你讲的某一点我很受启发」。给对方一个具体的钩子，人家才会想回你。\n\n## 想升职，别盯着头衔，盯着影响范围\n\n关于职业发展，工程师的建议是：别在意头衔，同一个头衔在不同公司含义完全不同。要看的是工作范围（scope）——不是更多加班和工作量，而是更有影响力的项目。\n\n具体做法：先想清楚自己要变成什么，然后直接告诉经理：如果这样的机会出现，我现在该做什么准备，才能成为最佳人选？对方应该给出答案——如果没有，你得去找那个有答案的人。\n\n而对公司来说，如果有人带着一个已经试验过的想法来找你说我想做更有影响力的事，那就让他做：他主动、他兴奋、他想成长。组织该提供成长的框架和流程，但成长本身的所有权在每个人自己手里，别外包给任何人。\n\n## 本集带走\n\n- 2026 年科技业裁员超 120,000 人，但仍有近 60,000 个工程师岗位空缺——公司在裁错人之后重新招人，市场震荡加速。\n- 硬技能让你进门，适应力和韧性决定你能留下；技术、公司、同事都会超过你。\n- 简历高度同质化的时代，内推和人脉比精致简历更有用，在校学生就该开始建关系。\n- 开源贡献是被 HashiCorp、GitHub 挖角的真实路径，但要为热爱而做，别抱着求职的功利心。\n- 机械任务型的工程师（比如银行里写 Java 自动化流程的）预计 3 到 5 年内被淘汰；值钱的能力是拆解问题、输出清晰思路。",
+  "quotes": [
+    {
+      "en": "And then they realize, oh, we thought AI could do everything. But actually, we still need people.",
+      "zh": "然后他们才意识到，哦，我们以为 AI 什么都能做。但实际上，我们还是需要人。",
+      "timestamp": "04:21",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "But what will actually make you thrive once you are in the room is how you collaborated with others.",
+      "zh": "但一旦你进入房间，真正让你茁壮成长的，是你如何与他人协作。",
+      "timestamp": "08:11",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "You cannot afford not be one because the technology will outgrow you.",
+      "zh": "你不能不具备其中之一，因为技术会超越你。",
+      "timestamp": "08:41",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "No one cares about the framework. No one cares about a particular library.",
+      "zh": "没有人在乎框架。没有人在乎某个特定的库。",
+      "timestamp": "22:45",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And yes, this will change how we view engineers and this will probably change the composition of these teams and some people who have a great career will phase out, right?",
+      "zh": "是的，这会改变我们看待工程师的方式，这可能会改变这些团队的构成，一些拥有辉煌职业生涯的人会被淘汰，对吧？",
+      "timestamp": "23:39",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And for sure, having a job security by not writing documentation has been around for 40 years now, at the very least.",
+      "zh": "而且可以肯定的是，靠不写文档来保住工作安全感这件事，至少已经存在 40 年了。",
+      "timestamp": "26:02",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Yeah, so over the past year, there's a 70% increase in job descriptions mentioning AI-related technologies as a skills requirement, even for non-engineering roles.",
+      "zh": "是的，在过去一年里，提到 AI 相关技术作为技能要求的职位描述增长了 70%，甚至包括非工程类岗位。",
+      "timestamp": "27:57",
+      "speaker": "SPEAKER_04"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:17",
+      "speaker": "Unknown",
+      "en": "So for example, in 2026 alone, they've been over 120,000 people who've been laid off.",
+      "zh": "比如，仅在 2026 年，就已经有超过 12 万人被裁员了。"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Unknown",
+      "en": "That's about 1,000 people a day.",
+      "zh": "那大约是每天一千人。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Unknown",
+      "en": "However, there's still almost 60,000 software engineer vacancies available at the moment.",
+      "zh": "然而，目前仍然有差不多 6 万个软件工程师的职位空缺。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "The math is not mathing.",
+      "zh": "这笔账算不通。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Unknown",
+      "en": "And then they realize, oh, we thought AI could do everything. But actually, we still need people.",
+      "zh": "然后他们才意识到，哦，我们以为 AI 什么都能做。但实际上，我们还是需要人。"
+    },
+    {
+      "timestamp": "05:48",
+      "speaker": "Unknown",
+      "en": "Because for our process, that would mean that we've gone through a lot of investment and maybe we don't get the person that we really interviewed.",
+      "zh": "因为对我们的流程来说，那意味着我们投入了大量成本，结果可能招到的不是我们真正面试的那个人。"
+    },
+    {
+      "timestamp": "06:06",
+      "speaker": "Unknown",
+      "en": "No one writes that code for their production use cases.",
+      "zh": "没有人在生产场景里写那种代码。"
+    },
+    {
+      "timestamp": "06:48",
+      "speaker": "Unknown",
+      "en": "This model interview cheating tools are crazy, right?",
+      "zh": "这些 model 面试作弊工具太疯狂了，对吧？"
+    },
+    {
+      "timestamp": "06:55",
+      "speaker": "Unknown",
+      "en": "You can't even by looking at the person determine if they are having assistance or not.",
+      "zh": "你甚至没法通过看这个人来判断他们有没有辅助工具。"
+    },
+    {
+      "timestamp": "07:57",
+      "speaker": "Unknown",
+      "en": "In my view, this is what gets you in the room, your hard skills.",
+      "zh": "在我看来，这是让你进入房间的通行证，也就是你的硬技能。"
+    },
+    {
+      "timestamp": "08:11",
+      "speaker": "Unknown",
+      "en": "But what will actually make you thrive once you are in the room is how you collaborated with others.",
+      "zh": "但一旦你进入房间，真正让你茁壮成长的，是你如何与他人协作。"
+    },
+    {
+      "timestamp": "08:41",
+      "speaker": "Unknown",
+      "en": "You cannot afford not be one because the technology will outgrow you.",
+      "zh": "你不能不具备其中之一，因为技术会超越你。"
+    },
+    {
+      "timestamp": "11:35",
+      "speaker": "Unknown",
+      "en": "So I think almost CVs are too good these days.",
+      "zh": "所以我觉得现在几乎所有的简历都太漂亮了。"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Unknown",
+      "en": "So to stand out even more, that is where good old fashioned relationships come into play.",
+      "zh": "所以要更加脱颖而出，这就是老式的人际关系发挥作用的地方。"
+    },
+    {
+      "timestamp": "17:41",
+      "speaker": "Unknown",
+      "en": "So right now the response rate on LinkedIn is only around 20%.",
+      "zh": "现在在 LinkedIn 上的回复率大概只有 20% 左右。"
+    },
+    {
+      "timestamp": "19:22",
+      "speaker": "Unknown",
+      "en": "But I wouldn't recommend starting to contribute to a vendor's project with the assumption that you'll be hired one day.",
+      "zh": "但我不建议带着\"总有一天会被录用\"的假设去开始给某个厂商的项目做贡献。"
+    },
+    {
+      "timestamp": "22:45",
+      "speaker": "Unknown",
+      "en": "No one cares about the framework. No one cares about a particular library.",
+      "zh": "没有人在乎框架。没有人在乎某个特定的库。"
+    },
+    {
+      "timestamp": "23:39",
+      "speaker": "Unknown",
+      "en": "And yes, this will change how we view engineers and this will probably change the composition of these teams and some people who have a great career will phase out, right?",
+      "zh": "是的，这会改变我们看待工程师的方式，这可能会改变这些团队的构成，一些拥有辉煌职业生涯的人会被淘汰，对吧？"
+    },
+    {
+      "timestamp": "26:02",
+      "speaker": "Unknown",
+      "en": "And for sure, having a job security by not writing documentation has been around for 40 years now, at the very least.",
+      "zh": "而且可以肯定的是，靠不写文档来保住工作安全感这件事，至少已经存在 40 年了。"
+    },
+    {
+      "timestamp": "27:57",
+      "speaker": "Unknown",
+      "en": "Yeah, so over the past year, there's a 70% increase in job descriptions mentioning AI-related technologies as a skills requirement, even for non-engineering roles.",
+      "zh": "是的，在过去一年里，提到 AI 相关技术作为技能要求的职位描述增长了 70%，甚至包括非工程类岗位。"
+    }
+  ],
+  "voice_script": "2026 年的科技业求职市场，有多拧巴？就说一个数字：光这一年，被裁掉的人超过了十二万，平均下来每天差不多一千人丢掉工作。可与此同时呢，市场上还挂着将近六万个软件工程师的空缺岗位。一边疯狂裁员，一边又招不到人，这矛盾怎么解释？\n\n今天这期 Beyond Coding,请来两位过来人拆解这件事。一位是招聘者，在 Reddit、Uber、Disney Plus 都做过招聘；另一位是工程师，大学辍学，连文凭都没有，工作是靠 GitHub 上的开源贡献找上门来的，现在在 Xebia 和 Nebius 工作。一个负责挑人，一个本身就没走寻常路，他们聊的东西，对任何行业里不想被淘汰的人都有用。\n\n先说那个矛盾本身。招聘者的判断很直接：很多公司裁员，一开始就是当成削减成本的手段，裁完才反应过来，用一句话说就是，\"我们以为 AI 能干一切，其实还是需要人\"。有的公司甚至把刚拿了遣散费的人又招了回去。结果市场就出现一轮接一轮的循环：裁员、招聘、再裁员，节奏比以往任何时候都快。\n\n而且岗位并没有消失，是换地方了。大厂在收缩，但 OpenAI 计划年底前把员工翻倍，中小型 AI 公司还在扩张。需求的方向也变了：以前招的是后端、Android、iOS 工程师，现在招的是 AI 方向的工程师。受冲击的不只是工程师，产品设计师、产品经理的岗位，缩得比工程师还狠。\n\n那求职者最关心的问题来了：既然工作里都在用 AI,面试的时候能不能也用 AI 助手？负责招聘的那位工程师说得毫不客气：\"AI 辅助的面试是一团糟，我完全不喜欢。\"为什么？因为现在的面试作弊工具太强了，隔着屏幕，面试官根本看不出你有没有外援。这意味着公司花大力气面试的，可能压根不是屏幕前那个真人。\n\n所以你能看到一个反向趋势：疫情那会儿全改成远程面试，现在公司又把看中的资深候选人，花钱请到办公室现场面。算法题虽然老被人吐槽工作中根本用不到，但工程师坚持保留，理由是这是判断一个人计算机科学基本功的基线。更有意思的是，他们正在设计新的面试环节，专门考察你怎么和 AI 智能体协作，怎么拆解任务、怎么把控循环、怎么判断结果好不好。这位工程师打了个比方：和 AI 智能体协作，其实就跟带一个初级工程师差不多。\n\n这就引出一个更根本的问题：进了门之后，靠什么留下来？招聘者的分工很清晰：硬技能让你拿到房间的入场券，交付快、bug 少、风险低。但进了房间之后，决定你能不能混下去的，是两样东西：适应力和韧性。这话听着虚，但理由很冷酷，用工程师的原话说：\"技术会超过你，公司会超过你，同事会超过你。\"不持续更新自己，结局要么是公司不再需要你，要么是你自己干得无聊、失去连接。\n\n那适应力怎么证明？不是嘴上说。是主动发现别人还没意识到的问题，并且带着方案去——注意，不是一个方案，是好几个选项，最好你已经做过小规模试验。这个动作同时传递了另一个信号：你愿意学、愿意投入。\n\n可现实是，很多人连门都进不去，因为简历这一关已经彻底失灵了。现在的简历被裁剪得太贴合岗位了，人人写得都像量身定做。有招聘者在网上吐槽：收到几百份简历，全都按职位描述定制，看起来一模一样，根本没法筛。而且面试一追问就露馅，简历上写着做过这个，一问细节，说不出所以然。\n\n所以真正管用的，还是老办法：内推和人脉。给在校学生的建议尤其直接：初级岗位比前几年少得多，千万别等到毕业才想找工作，在读期间就要去社区活动、技术聚会，线上线下的关系都得建。这些事学校不教，得自己来。\n\n说到不走寻常路，就得讲讲那位辍学工程师自己的故事了。他多年没写过简历，工作机会全是别人在 GitHub 上找上门来的。因为长期给 Terraform 相关的项目贡献代码、参加社区会议和 HashiCorp 大会，最后被 HashiCorp 主动挖走。这是一条真实存在的路。但他反复提醒：别抱着\"贡献了就能被雇\"的心态入场，就像开店别抱着开店就能发财的心态一样。找你喜欢的事，持续做，被认可是副产品。\n\n开源贡献还有个常见的坑：提交的代码合并请求长期没人理，热情被耗光。解法很实用：在 GitHub 上找到项目里最活跃的贡献者，去看他们已经合并的请求，模仿他们的标题、提交说明和风格。说白了，用维护者的语言说话，降低人家审阅的成本，你的请求就不容易被晾在一边。\n\n聊到未来，工程师有个很扎心的预言：那种坐在银行里、用 Java 机械地自动化内部流程的工程师，风险最大。任务导向、缺乏产品思维，这类岗位会在三到五年内过时。但注意，这不是因为 AI 无所不能，而是因为衡量人的标准变了。\"没人在乎你会什么框架、什么库，没人在乎你背不背得出处理器的全部指令。\"深入钻研会变成一种专业选择，而不再是必需品。真正值钱的能力是：把问题想清楚、拆开、组织好，输出一段简洁清晰的思路——这件事人本来就很不擅长，所以稀缺。\n\n那庞大的遗留系统以后谁维护？答案有点反直觉：人其实比 AI 更搞不懂那些庞大的遗留代码库，唯一不可替代的，是只存在于某些人脑子里的隐性知识。而知识从不共享、关键人只有一个，这是管理问题，不是工程问题。至于靠不写文档来保饭碗这招，至少已经存在四十年了，以后也会一直有。\n\n最后还有两条实操建议。一条是冷邮件怎么写：LinkedIn 私信的回复率大概只有百分之二十，发一百条，约二十个人回。被已读不回是必然的，所以策略上要像做实验：写不同版本，追踪回复率，留下效果好的那个。内容上的关键是，让消息关于对方而不是关于你——别写\"我要工作，给我工作\"，而是\"我看了你在 YouTube 上的演讲，你讲的某一点我很受启发\"，给对方一个具体的钩子，人家才会想回。\n\n另一条是关于升职：别盯着头衔，盯住影响范围。同一个头衔在不同公司含义完全不同，真正要看的是你能不能拿到更有影响力的项目。具体做法是，先想清楚自己要变成什么，然后直接告诉经理：如果这样的机会出现，我现在该做什么准备，才能成为最佳人选？如果对方给不出答案，你就去找那个有答案的人。而站在公司这边，如果有人带着一个已经试验过的想法来找你说，我想做更有影响力的事，那就让他做。组织该提供成长的框架和流程，但成长本身的所有权，在你自己手里，别外包给任何人。\n\n回到开头那个矛盾：十二万人被裁，六万个岗位空着。市场不是不需要人了，是需要不一样的人了。一些拥有辉煌职业生涯的人会被淘汰，而硬技能让你进门、适应力让你留下——这一条，比什么时候都真。"
+}

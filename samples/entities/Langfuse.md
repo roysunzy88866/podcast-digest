@@ -25,7 +25,7 @@ unlisted: true
 
 [[Marc Klingen]] · [[智能体]] · [[数据集]] · [[可观测性]] · [[自我改进智能体]] · [[隐式信号]] · [[编码智能体]]
 
-<script type="application/json" class="pd-epn">{"Marc Klingen":1,"智能体":452,"数据集":1,"可观测性":40,"自我改进智能体":1,"隐式信号":1,"编码智能体":30}</script>
+<script type="application/json" class="pd-epn">{"Marc Klingen":1,"智能体":454,"数据集":1,"可观测性":42,"自我改进智能体":1,"隐式信号":1,"编码智能体":32}</script>
 
 <script>
 (function(){

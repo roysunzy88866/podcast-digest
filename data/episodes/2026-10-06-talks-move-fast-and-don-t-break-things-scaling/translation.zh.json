@@ -1,0 +1,1634 @@
+[
+ {
+  "seg": 0,
+  "start": 12.578,
+  "end": 13.158,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.258,
+  "end": 13.879,
+  "speaker": "Unknown",
+  "en": "How's it going?",
+  "zh": "最近怎么样？"
+ },
+ {
+  "seg": 2,
+  "start": 14.279,
+  "end": 16.26,
+  "speaker": "Unknown",
+  "en": "Hope you're having a good last day of AI Engineer.",
+  "zh": "希望大家在 AI Engineer 大会的最后一天过得愉快。"
+ },
+ {
+  "seg": 3,
+  "start": 17.021,
+  "end": 21.344,
+  "speaker": "Unknown",
+  "en": "What I'm going to talk about today is how to move fast and not break things.",
+  "zh": "我今天要讲的是如何快速行动并且不搞坏东西。"
+ },
+ {
+  "seg": 4,
+  "start": 22.004,
+  "end": 25.987,
+  "speaker": "Unknown",
+  "en": "So the phrase move fast and break things, you've probably heard this before.",
+  "zh": "「快速行动，打破常规」这个说法，大家可能之前听过。"
+ },
+ {
+  "seg": 5,
+  "start": 26.687,
+  "end": 32.131,
+  "speaker": "Unknown",
+  "en": "And what this refers to is it's a phrase from early Facebook engineering culture days, right?",
+  "zh": "它指的是来自早期 Facebook 工程师文化时代的一句话，对吧？"
+ },
+ {
+  "seg": 6,
+  "start": 32.151,
+  "end": 36.874,
+  "speaker": "Unknown",
+  "en": "And the idea was we want to be able to move fast and ship fast and not be constrained by",
+  "zh": "这个想法是，我们希望能够快速行动、快速发布，而不被束缚，"
+ },
+ {
+  "seg": 7,
+  "start": 37.394,
+  "end": 49.297,
+  "speaker": "Unknown",
+  "en": "You know databases going down or breaking certain features because the priority is there's so much value in shipping fast and this was 20 years ago right before we had AI agents writing code for us and shipping things and deploying things on our behalf.",
+  "zh": "比如数据库宕机或某些功能被弄坏，因为快速发布有巨大的价值，而这是 20 年前的事了，那时候我们还没有 AI 智能体为我们写代码、发布东西、替我们部署东西。"
+ },
+ {
+  "seg": 8,
+  "start": 49.877,
+  "end": 56.939,
+  "speaker": "Unknown",
+  "en": "So if anything the idea of doing this is more true than ever but in my opinion we can actually achieve both right.",
+  "zh": "所以如果说有什么变化，那就是这个想法比以往任何时候都更正确，但在我看来，我们其实可以两者兼得，对吧。"
+ },
+ {
+  "seg": 9,
+  "start": 57.019,
+  "end": 66.781,
+  "speaker": "Unknown",
+  "en": "I want to be able to ship fast, build great features, get things out to my customers but also not break the databases, the infrastructure, the application servers that are powering what I'm doing.",
+  "zh": "我希望能够快速发布、构建出色的功能、把东西交付给我的客户，但同时也不要搞坏支撑我所做工作的数据库、基础设施、应用服务器。"
+ },
+ {
+  "seg": 10,
+  "start": 67.541,
+  "end": 71.484,
+  "speaker": "Unknown",
+  "en": "And we've probably all seen something that looks approximately like this.",
+  "zh": "我们大概都见过一些大致长这样的东西。"
+ },
+ {
+  "seg": 11,
+  "start": 71.564,
+  "end": 73.646,
+  "speaker": "Unknown",
+  "en": "And I'm not calling out any particular company.",
+  "zh": "我不是在点名任何特定的公司。"
+ },
+ {
+  "seg": 12,
+  "start": 73.666,
+  "end": 85.135,
+  "speaker": "Unknown",
+  "en": "There's a number of companies that, due to the kind of insane scale that we've seen over the past even six months, year, two years, where we've had daily active users double, triple, 10x, 100x,",
+  "zh": "有很多公司，由于过去六个月、一年、两年里我们看到的那种疯狂的规模增长——日活用户翻倍、三倍、10 倍、100 倍——"
+ },
+ {
+  "seg": 13,
+  "start": 86.376,
+  "end": 91.638,
+  "speaker": "Unknown",
+  "en": "A lot of that powered by the demand of AI agents where the infrastructure struggles to keep up.",
+  "zh": "其中很多是由 AI 智能体的需求驱动的，基础设施难以跟上。"
+ },
+ {
+  "seg": 14,
+  "start": 91.819,
+  "end": 94.68,
+  "speaker": "Unknown",
+  "en": "And some of this is simply because it's a very hard problem, right?",
+  "zh": "其中一些原因仅仅是因为这是一个非常难的问题，对吧？"
+ },
+ {
+  "seg": 15,
+  "start": 94.7,
+  "end": 97.001,
+  "speaker": "Unknown",
+  "en": "This is not meant to call anybody in particular out.",
+  "zh": "这不是要特意点名批评谁。"
+ },
+ {
+  "seg": 16,
+  "start": 97.021,
+  "end": 101.483,
+  "speaker": "Unknown",
+  "en": "It's hard to scale things to tens of millions or hundreds of millions of users.",
+  "zh": "把东西扩展到几千万或几亿用户是很难的。"
+ },
+ {
+  "seg": 17,
+  "start": 101.983,
+  "end": 109.807,
+  "speaker": "Unknown",
+  "en": "But what we would like to have is great products that scale well for lots of users and have our status pages look a little bit more like this one, right?",
+  "zh": "但我们想要的是，能很好地为大量用户扩展的出色产品，并且让我们的状态页看起来更像这一张，对吧？"
+ },
+ {
+  "seg": 18,
+  "start": 109.887,
+  "end": 111.688,
+  "speaker": "Unknown",
+  "en": "Three or four nines of availability.",
+  "zh": "三个或四个 9 的可用性。"
+ },
+ {
+  "seg": 19,
+  "start": 112.668,
+  "end": 119.394,
+  "speaker": "Unknown",
+  "en": "Maybe five nines of availability, where our databases are healthy, our applications are healthy, and ultimately our users are happy, right?",
+  "zh": "也许是五个 9 的可用性，我们的数据库健康，我们的应用健康，最终我们的用户开心，对吧？"
+ },
+ {
+  "seg": 20,
+  "start": 119.994,
+  "end": 125.299,
+  "speaker": "Unknown",
+  "en": "So this is kind of the idea behind what I want to talk about, which is a little different than probably most of the talks you've been at.",
+  "zh": "所以这就是我想讲的内容背后的大致想法，这可能与你们听过的大多数演讲有点不同。"
+ },
+ {
+  "seg": 21,
+  "start": 125.319,
+  "end": 131.664,
+  "speaker": "Unknown",
+  "en": "A lot of the talks are probably talking about inference or specifically how to do things with agents or different kinds of automations.",
+  "zh": "很多演讲可能在讲推理，或者具体讲如何用智能体做事，或者各种自动化。"
+ },
+ {
+  "seg": 22,
+  "start": 132.085,
+  "end": 139.731,
+  "speaker": "Unknown",
+  "en": "This is more of an infrastructure talk, but how you can do that and ship fast, both with the demand of AI agents as well as the",
+  "zh": "这更偏向一场基础设施演讲，但讲的是你如何做到这一点并且快速发布——既要应对 AI 智能体的需求，也要"
+ },
+ {
+  "seg": 23,
+  "start": 140.692,
+  "end": 145.601,
+  "speaker": "Unknown",
+  "en": "You being able to use AI agents to make all of these processes more optimized and smoother.",
+  "zh": "让你自己能够使用 AI 智能体让所有这些流程更加优化和顺畅。"
+ },
+ {
+  "seg": 24,
+  "start": 146.63,
+  "end": 148.951,
+  "speaker": "Unknown",
+  "en": "So there's three parts to this that I want to talk about.",
+  "zh": "所以我想讲的有三个部分。"
+ },
+ {
+  "seg": 25,
+  "start": 149.411,
+  "end": 155.873,
+  "speaker": "Unknown",
+  "en": "The first one is, how do you even build systems, regardless of the number of users you have that aren't going down all the time?",
+  "zh": "第一个是，无论你有多少用户，你到底该怎么构建不会总是宕机的系统？"
+ },
+ {
+  "seg": 26,
+  "start": 156.433,
+  "end": 165.196,
+  "speaker": "Unknown",
+  "en": "And then tying that into, well, OK, if you're going to build the next hit application that's going to scale to millions of people using it, how do we scale that using these same principles?",
+  "zh": "然后把它与这个问题联系起来：好吧，如果你要构建下一个爆款应用，要扩展到数百万人使用，我们如何用这些相同的原则来扩展它？"
+ },
+ {
+  "seg": 27,
+  "start": 165.736,
+  "end": 172.618,
+  "speaker": "Unknown",
+  "en": "And then finally, how can we take these two things and let AI agents do them for us, or at least in part work with them in doing this?",
+  "zh": "最后，我们如何把这两件事交给 AI 智能体去做，或者至少部分地与它们协作完成？"
+ },
+ {
+  "seg": 28,
+  "start": 174.103,
+  "end": 176.845,
+  "speaker": "Unknown",
+  "en": "So I should probably introduce myself a little bit too.",
+  "zh": "所以我大概也应该自我介绍一下。"
+ },
+ {
+  "seg": 29,
+  "start": 177.065,
+  "end": 182.269,
+  "speaker": "Unknown",
+  "en": "The reason why I'm talking about this is I'm Ben, and I'm from PlanetScale, and we do databases.",
+  "zh": "我之所以讲这个话题，是因为我叫 Ben，来自 PlanetScale，我们是做数据库的。"
+ },
+ {
+  "seg": 30,
+  "start": 182.329,
+  "end": 183.19,
+  "speaker": "Unknown",
+  "en": "This is our whole thing.",
+  "zh": "这就是我们全部的事情。"
+ },
+ {
+  "seg": 31,
+  "start": 183.21,
+  "end": 186.973,
+  "speaker": "Unknown",
+  "en": "And we work with a lot of these AI companies that are scaling extremely fast.",
+  "zh": "我们与很多扩展速度极快的 AI 公司合作。"
+ },
+ {
+  "seg": 32,
+  "start": 186.993,
+  "end": 190.996,
+  "speaker": "Unknown",
+  "en": "We work with companies like Cursor, for example, and Power Databases for them.",
+  "zh": "比如 Cursor 这样的公司，我们为它们提供数据库支持。"
+ },
+ {
+  "seg": 33,
+  "start": 191.656,
+  "end": 195.219,
+  "speaker": "Unknown",
+  "en": "And so this is something that we as a company take very seriously.",
+  "zh": "所以这是我们作为一家公司非常认真对待的事情。"
+ },
+ {
+  "seg": 34,
+  "start": 195.319,
+  "end": 199.963,
+  "speaker": "Unknown",
+  "en": "How do we scale and support companies that have millions of users on their platforms?",
+  "zh": "我们如何扩展并支持平台上拥有数百万用户的公司？"
+ },
+ {
+  "seg": 35,
+  "start": 200.643,
+  "end": 207.267,
+  "speaker": "Unknown",
+  "en": "And some of what I'm talking about comes from an article that we published last year about our philosophy of how we operate databases.",
+  "zh": "我讲的一些内容来自我们去年发布的一篇文章，关于我们运营数据库的理念。"
+ },
+ {
+  "seg": 36,
+  "start": 207.287,
+  "end": 210.408,
+  "speaker": "Unknown",
+  "en": "I would encourage you to go Google that and read that.",
+  "zh": "我建议你去 Google 一下并读读那篇文章。"
+ },
+ {
+  "seg": 37,
+  "start": 210.769,
+  "end": 212.129,
+  "speaker": "Unknown",
+  "en": "But a couple of these principles.",
+  "zh": "但先讲几个这样的原则。"
+ },
+ {
+  "seg": 38,
+  "start": 212.169,
+  "end": 213.51,
+  "speaker": "Unknown",
+  "en": "Let's go over some of these.",
+  "zh": "我们来看其中一些。"
+ },
+ {
+  "seg": 39,
+  "start": 213.93,
+  "end": 217.952,
+  "speaker": "Unknown",
+  "en": "So the first and one of the most important is isolation.",
+  "zh": "第一个也是最重要的原则之一是隔离。"
+ },
+ {
+  "seg": 40,
+  "start": 218.293,
+  "end": 227.738,
+  "speaker": "Unknown",
+  "en": "When you are running infrastructure, one of the things you want to make sure you do is have a setup where if something fails, it doesn't take down the whole system, but every component is very isolated.",
+  "zh": "当你在运行基础设施时，你要确保做到的事情之一是，建立这样一种架构：如果某个东西出现故障，它不会拖垮整个系统，而是每个组件都被高度隔离。"
+ },
+ {
+  "seg": 41,
+  "start": 228.298,
+  "end": 230.698,
+  "speaker": "Unknown",
+  "en": "So what I'm showing here is data plane.",
+  "zh": "我在这里展示的是数据平面。"
+ },
+ {
+  "seg": 42,
+  "start": 230.718,
+  "end": 232.539,
+  "speaker": "Unknown",
+  "en": "That basically means, where are your databases?",
+  "zh": "这基本上意味着，你的数据库在哪里？"
+ },
+ {
+  "seg": 43,
+  "start": 232.579,
+  "end": 238,
+  "speaker": "Unknown",
+  "en": "Where does your most critical data live that you need to be using for your users to log in and interact with your application?",
+  "zh": "你的最关键数据存放在哪里，也就是你的用户登录并与你的应用交互时所需要的数据？"
+ },
+ {
+  "seg": 44,
+  "start": 238.6,
+  "end": 240.16,
+  "speaker": "Unknown",
+  "en": "But there's lots of other components.",
+  "zh": "但还有很多其他组件。"
+ },
+ {
+  "seg": 45,
+  "start": 240.18,
+  "end": 241.18,
+  "speaker": "Unknown",
+  "en": "There's your control planes.",
+  "zh": "有你的控制平面。"
+ },
+ {
+  "seg": 46,
+  "start": 241.2,
+  "end": 242.881,
+  "speaker": "Unknown",
+  "en": "There's your observability pipelines.",
+  "zh": "有你的可观测性管道。"
+ },
+ {
+  "seg": 47,
+  "start": 242.901,
+  "end": 244.261,
+  "speaker": "Unknown",
+  "en": "There might be your analytics frameworks.",
+  "zh": "可能有你的分析框架。"
+ },
+ {
+  "seg": 48,
+  "start": 244.281,
+  "end": 244.801,
+  "speaker": "Unknown",
+  "en": "There's your apps.",
+  "zh": "有你的应用。"
+ },
+ {
+  "seg": 49,
+  "start": 244.821,
+  "end": 245.681,
+  "speaker": "Unknown",
+  "en": "There's your MCPs.",
+  "zh": "有你的 MCP。"
+ },
+ {
+  "seg": 50,
+  "start": 245.701,
+  "end": 248.802,
+  "speaker": "Unknown",
+  "en": "And there's all these different components that can potentially fail.",
+  "zh": "而且有这么多不同的组件都可能出故障。"
+ },
+ {
+  "seg": 51,
+  "start": 249.262,
+  "end": 254.723,
+  "speaker": "Unknown",
+  "en": "And in fact, assuming you're using a good database platform, the database is hopefully low likely to fail.",
+  "zh": "事实上,假设你用的是一个好的数据库平台,数据库本身出故障的概率 Hopefully 是比较低的。"
+ },
+ {
+  "seg": 52,
+  "start": 255.123,
+  "end": 259.025,
+  "speaker": "Unknown",
+  "en": "But these other things you're shipping and deploying to more frequently so are more likely to fail.",
+  "zh": "但你更频繁地发布和部署这些其他东西,所以它们更容易出故障。"
+ },
+ {
+  "seg": 53,
+  "start": 259.626,
+  "end": 272.133,
+  "speaker": "Unknown",
+  "en": "So we want to make sure that we've designed things where if I deploy a bad ship to the control plane and take it down, nothing else is impacted and can still access the database and anything in my data plane.",
+  "zh": "所以我们要确保我们的设计是:如果我部署了一个坏的发布到控制平面并把它搞挂了,其他任何东西都不受影响,仍然可以访问数据库和数据平面里的任何东西。"
+ },
+ {
+  "seg": 54,
+  "start": 273.058,
+  "end": 276.519,
+  "speaker": "Unknown",
+  "en": "So this is one of these kind of core principles that we take very seriously.",
+  "zh": "所以这是我们非常认真对待的核心原则之一。"
+ },
+ {
+  "seg": 55,
+  "start": 276.939,
+  "end": 279.3,
+  "speaker": "Unknown",
+  "en": "And another thing is redundancy.",
+  "zh": "另一件事是冗余。"
+ },
+ {
+  "seg": 56,
+  "start": 279.72,
+  "end": 285.342,
+  "speaker": "Unknown",
+  "en": "And if any of you have worked with databases before in the past, you've probably seen a diagram that looks something like this.",
+  "zh": "如果你们中任何人以前用过数据库,你可能见过类似这样的图。"
+ },
+ {
+  "seg": 57,
+  "start": 285.762,
+  "end": 289.844,
+  "speaker": "Unknown",
+  "en": "And similar things apply to your app infrastructure and your other infrastructure.",
+  "zh": "类似的原则也适用于你的应用基础设施和其他基础设施。"
+ },
+ {
+  "seg": 58,
+  "start": 290.384,
+  "end": 297.032,
+  "speaker": "Unknown",
+  "en": "Although in the case of application servers, usually redundancy is a little bit easier to solve because it's a stateless workload.",
+  "zh": "不过在应用服务器的情况下,冗余通常更容易解决,因为它是无状态的工作负载。"
+ },
+ {
+  "seg": 59,
+  "start": 297.052,
+  "end": 305.801,
+  "speaker": "Unknown",
+  "en": "There's lots of auto-scaling Cloudflare workers and Vercel functions and AWS Lambda that can scale and have redundancy very easily because it's not storing state.",
+  "zh": "有很多自动扩缩容的东西,比如 Cloudflare Workers、Vercel Functions 和 AWS Lambda,它们可以很容易地扩容并实现冗余,因为它们不存储状态。"
+ },
+ {
+  "seg": 60,
+  "start": 306.302,
+  "end": 309.024,
+  "speaker": "Unknown",
+  "en": "But in the database world, you have to store state reliably.",
+  "zh": "但在数据库的世界里,你必须可靠地存储状态。"
+ },
+ {
+  "seg": 61,
+  "start": 309.064,
+  "end": 310.725,
+  "speaker": "Unknown",
+  "en": "You can't lose a single byte of data.",
+  "zh": "你不能丢失哪怕一个字节的数据。"
+ },
+ {
+  "seg": 62,
+  "start": 311.065,
+  "end": 311.846,
+  "speaker": "Unknown",
+  "en": "And so how do you do this?",
+  "zh": "那么你该怎么做呢?"
+ },
+ {
+  "seg": 63,
+  "start": 312.746,
+  "end": 320.652,
+  "speaker": "Unknown",
+  "en": "A very common approach, which costs more money and is more complex, but it's the way that you scale reliably, is by having a primary node.",
+  "zh": "一种非常常见的方法,它成本更高也更复杂,但却是你可靠扩展的方式,就是拥有一个主节点。"
+ },
+ {
+  "seg": 64,
+  "start": 320.672,
+  "end": 322.413,
+  "speaker": "Unknown",
+  "en": "So this is where most of your traffic goes to.",
+  "zh": "你的大部分流量都去往这里。"
+ },
+ {
+  "seg": 65,
+  "start": 322.453,
+  "end": 332.58,
+  "speaker": "Unknown",
+  "en": "But you always have replica servers or follower servers standing by in different data centers or different availability zones ready to take over because the fact is servers do fail sometimes.",
+  "zh": "但你总是在不同的数据中心或不同的可用区备有副本服务器或从属服务器,随时准备接管,因为事实上服务器有时确实会出故障。"
+ },
+ {
+  "seg": 66,
+  "start": 333.42,
+  "end": 341.428,
+  "speaker": "Unknown",
+  "en": "And on a small scale, when you've got an app that has 100 users and you have one database server, you might only experience a failure once every couple of years.",
+  "zh": "在小规模下,当你有一个 100 用户的应用和一台数据库服务器时,你可能几年才遇到一次故障。"
+ },
+ {
+  "seg": 67,
+  "start": 341.888,
+  "end": 351.638,
+  "speaker": "Unknown",
+  "en": "But at a large scale, when you have thousands of servers, a once or twice a year failure becomes a weekly or monthly failure, and so you need to have systems in place to deal with this very well.",
+  "zh": "但在大规模下,当你有数千台服务器时,一年一两次的故障就变成了每周或每月一次的故障,所以你需要有相应的系统来很好地应对这种情况。"
+ },
+ {
+  "seg": 68,
+  "start": 353.389,
+  "end": 353.649,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 69,
+  "start": 354.029,
+  "end": 362.751,
+  "speaker": "Unknown",
+  "en": "So we've talked about what the principles of scaling reliably are or of having reliable systems are.",
+  "zh": "我们已经谈了可靠扩展的原则,或者说拥有可靠系统的原则是什么。"
+ },
+ {
+  "seg": 70,
+  "start": 363.171,
+  "end": 367.552,
+  "speaker": "Unknown",
+  "en": "But then the question is, what I've just told you here, we could write a whole book on, right?",
+  "zh": "但接下来的问题是,我刚才讲的这些内容,足够我们写一整本书了,对吧?"
+ },
+ {
+  "seg": 71,
+  "start": 367.572,
+  "end": 368.472,
+  "speaker": "Unknown",
+  "en": "So there's lots more.",
+  "zh": "所以还有很多更多东西。"
+ },
+ {
+  "seg": 72,
+  "start": 368.492,
+  "end": 371.313,
+  "speaker": "Unknown",
+  "en": "There's people who spend their entire careers focused on this.",
+  "zh": "有人把整个职业生涯都专注在这上面。"
+ },
+ {
+  "seg": 73,
+  "start": 371.333,
+  "end": 373.033,
+  "speaker": "Unknown",
+  "en": "So we're going a little bit quickly through it.",
+  "zh": "所以我们讲得稍微快了一点。"
+ },
+ {
+  "seg": 74,
+  "start": 373.733,
+  "end": 379.114,
+  "speaker": "Unknown",
+  "en": "But these principles apply no matter what point of this user growth chart you're at, right?",
+  "zh": "但这些原则无论你处于这张用户增长曲线的哪个位置都适用,对吧?"
+ },
+ {
+  "seg": 75,
+  "start": 379.234,
+  "end": 380.695,
+  "speaker": "Unknown",
+  "en": "You could be at 100 users.",
+  "zh": "你可以只有 100 个用户。"
+ },
+ {
+  "seg": 76,
+  "start": 381.995,
+  "end": 388.597,
+  "speaker": "Unknown",
+  "en": "And in this case, it's still good to have redundancies, to have isolation, to have failure, even for that smaller set of users.",
+  "zh": "在这种情况下,拥有冗余、隔离、容错仍然是有好处的,即使是针对那一小部分用户。"
+ },
+ {
+  "seg": 77,
+  "start": 389.058,
+  "end": 392.639,
+  "speaker": "Unknown",
+  "en": "And you want to apply those same principles when you are all the way up here.",
+  "zh": "而当你一路走到这里的时候,你也想应用同样的原则。"
+ },
+ {
+  "seg": 78,
+  "start": 392.959,
+  "end": 396.841,
+  "speaker": "Unknown",
+  "en": "I don't know if you can see that line very well, but at millions of daily active users.",
+  "zh": "我不确定你们能不能看清那条线,但那是数百万日活用户的位置。"
+ },
+ {
+  "seg": 79,
+  "start": 397.441,
+  "end": 402.763,
+  "speaker": "Unknown",
+  "en": "But there is a point where you actually have to incorporate different technologies to scale efficiently and effectively.",
+  "zh": "但确实有一个点,在那个点上你必须引入不同的技术来高效且有效地扩展。"
+ },
+ {
+  "seg": 80,
+  "start": 403.66,
+  "end": 407.262,
+  "speaker": "Unknown",
+  "en": "So let's talk about how we scale those systems for a few minutes.",
+  "zh": "那么我们花几分钟谈谈我们是如何扩展这些系统的。"
+ },
+ {
+  "seg": 81,
+  "start": 407.502,
+  "end": 411.365,
+  "speaker": "Unknown",
+  "en": "And probably the part you're most excited about is the AI agents part, which we'll get to at the end.",
+  "zh": "你们可能最兴奋的部分是 AI 智能体的部分,我们会在最后讲到。"
+ },
+ {
+  "seg": 82,
+  "start": 412.766,
+  "end": 418.489,
+  "speaker": "Unknown",
+  "en": "So one of the key things, and this is what we do a lot of at PlanetScale, is sharding.",
+  "zh": "其中一个关键点,也是我们在 PlanetScale 做得很多的事情,就是分片。"
+ },
+ {
+  "seg": 83,
+  "start": 418.609,
+  "end": 420.09,
+  "speaker": "Unknown",
+  "en": "I just realized my mouse is on the screen.",
+  "zh": "我刚意识到我的鼠标在屏幕上。"
+ },
+ {
+  "seg": 84,
+  "start": 420.13,
+  "end": 423.892,
+  "speaker": "Unknown",
+  "en": "So let me get that off the screen here, see if that will go away eventually.",
+  "zh": "让我把它移出屏幕,看看它是不是最终会消失。"
+ },
+ {
+  "seg": 85,
+  "start": 424.773,
+  "end": 426.294,
+  "speaker": "Unknown",
+  "en": "So database sharding, what is this?",
+  "zh": "那么数据库分片,这是什么?"
+ },
+ {
+  "seg": 86,
+  "start": 427.45,
+  "end": 439.964,
+  "speaker": "Unknown",
+  "en": "What you do is instead of relying on that single node, which works fine when you have 10 gigabytes of data, it doesn't work so well when you have 10 terabytes of data or 100 terabytes of data or a petabyte of data.",
+  "zh": "你要做的是,不再依赖那个单节点——它在你有 10GB 数据时工作得很好,但在你有 10TB、100TB 或 1PB 数据时就不那么好使了。"
+ },
+ {
+  "seg": 87,
+  "start": 440.384,
+  "end": 441.666,
+  "speaker": "Unknown",
+  "en": "So what do you have to start doing?",
+  "zh": "那你必须开始做什么呢?"
+ },
+ {
+  "seg": 88,
+  "start": 441.686,
+  "end": 445.87,
+  "speaker": "Unknown",
+  "en": "Well, what you need to do is spread your data and your queries out across many servers.",
+  "zh": "嗯,你需要把你的数据和查询分散到多台服务器上。"
+ },
+ {
+  "seg": 89,
+  "start": 446.791,
+  "end": 449.012,
+  "speaker": "Unknown",
+  "en": "And so that's what all of these shards down here below are.",
+  "zh": "而这就是下面所有这些分片的作用。"
+ },
+ {
+  "seg": 90,
+  "start": 449.432,
+  "end": 460.056,
+  "speaker": "Unknown",
+  "en": "And typically you put some kind of proxy, and we'll talk more about what VT gate means later, in between that intelligently handles distributing all of the user requests or the query requests across all of these servers.",
+  "zh": "通常你会在中间放某种代理,我们稍后会更多讲 VT gate 是什么意思,它智能地处理把所有用户请求或查询请求分发到所有这些服务器上。"
+ },
+ {
+  "seg": 91,
+  "start": 460.796,
+  "end": 464.377,
+  "speaker": "Unknown",
+  "en": "And this is exactly what we do a lot of for some large customers at PlanetScale.",
+  "zh": "而这正是我们在 PlanetScale 为一些大客户经常做的事情。"
+ },
+ {
+  "seg": 92,
+  "start": 464.397,
+  "end": 469.859,
+  "speaker": "Unknown",
+  "en": "We do sharding through Vitesse for MySQL and Niki for Postgres.",
+  "zh": "我们通过 Vitesse 做 MySQL 的分片,通过 Niki 做 Postgres 的分片。"
+ },
+ {
+  "seg": 93,
+  "start": 470.259,
+  "end": 472.36,
+  "speaker": "Unknown",
+  "en": "And so this is a very fundamental way of doing sharding.",
+  "zh": "所以这是一种非常基础的分片方式。"
+ },
+ {
+  "seg": 94,
+  "start": 472.4,
+  "end": 474.581,
+  "speaker": "Unknown",
+  "en": "But the other thing is you don't just use sharding by itself.",
+  "zh": "但另一件事是,你不会只单独使用分片。"
+ },
+ {
+  "seg": 95,
+  "start": 475.081,
+  "end": 481.886,
+  "speaker": "Unknown",
+  "en": "If we look at this and we see, for example, shard A, within that box, you actually would want a redundant system.",
+  "zh": "如果我们看这个,比如说看分片 A,在那个框里,你实际上会想要一个冗余的系统。"
+ },
+ {
+  "seg": 96,
+  "start": 482.287,
+  "end": 484.388,
+  "speaker": "Unknown",
+  "en": "So you'd have a primary and several replicas in there.",
+  "zh": "所以你会在里面有一个主节点和若干副本。"
+ },
+ {
+  "seg": 97,
+  "start": 484.408,
+  "end": 490.553,
+  "speaker": "Unknown",
+  "en": "So if one of those servers fail, that single shard can do self-healing and get back online very quickly if there's a problem.",
+  "zh": "这样如果其中一台服务器出故障,那一个分片就可以自我修复,在出现问题时很快恢复上线。"
+ },
+ {
+  "seg": 98,
+  "start": 491.808,
+  "end": 508.276,
+  "speaker": "Unknown",
+  "en": "So this is one of the ways that we see and is probably the most common and performant way to scale databases, but really the same principle of, hey, let's take queries and data and spread them out across many servers, many nodes, many drives, applies to lots of other areas of the stack that you're building.",
+  "zh": "所以这是我们见到的、而且可能是最常见和高性能的数据库扩展方式之一,但同样的原则——嘿,让我们把查询和数据分散到多台服务器、多个节点、多块硬盘上——也适用于你正在构建的技术栈的许多其他领域。"
+ },
+ {
+  "seg": 99,
+  "start": 509.753,
+  "end": 510.394,
+  "speaker": "Unknown",
+  "en": "Backpressure.",
+  "zh": "背压。"
+ },
+ {
+  "seg": 100,
+  "start": 510.514,
+  "end": 516.258,
+  "speaker": "Unknown",
+  "en": "So this is another one that is sort of a mix of being a part of scalability but also a part of reliability.",
+  "zh": "所以这是另一个既属于可扩展性范畴、又属于可靠性范畴的问题。"
+ },
+ {
+  "seg": 101,
+  "start": 516.799,
+  "end": 527.568,
+  "speaker": "Unknown",
+  "en": "And what we mean here is there's a lot of systems like MySQL and Postgres and SQLite, these very popular databases that people run, that don't do a good job at handling being overloaded.",
+  "zh": "我们在这里的意思是,有很多系统,比如 MySQL、Postgres 和 SQLite,这些人们经常运行的非常流行的数据库,在处理过载方面做得很差。"
+ },
+ {
+  "seg": 102,
+  "start": 528.008,
+  "end": 533.733,
+  "speaker": "Unknown",
+  "en": "The moment that they have too many queries or using too much CPU or they run out of RAM for the cache,",
+  "zh": "一旦它们的查询太多,或者占用太多 CPU,或者缓存用尽了内存(RAM),"
+ },
+ {
+  "seg": 103,
+  "start": 534.393,
+  "end": 537.354,
+  "speaker": "Unknown",
+  "en": "In many cases, if not taken a lot of care for, they'll just crash.",
+  "zh": "在很多情况下,如果没有非常小心地处理,它们就会直接崩溃。"
+ },
+ {
+  "seg": 104,
+  "start": 537.594,
+  "end": 543.055,
+  "speaker": "Unknown",
+  "en": "And now your server is down, and now all of your users are impacted, and they can't use your service that the database is powering.",
+  "zh": "现在你的服务器宕机了,你所有的用户都受到影响,他们无法使用数据库所支撑的服务。"
+ },
+ {
+  "seg": 105,
+  "start": 543.756,
+  "end": 551.678,
+  "speaker": "Unknown",
+  "en": "What backpressure is, is it's designing a system to be able to push back and say, when I detect that I'm above a certain threshold of resources, I can actually say,",
+  "zh": "所谓背压(backpressure),就是设计一个系统能够推回并说,当我检测到自己超过了某个资源阈值时,我实际上可以说,"
+ },
+ {
+  "seg": 106,
+  "start": 552.278,
+  "end": 564.167,
+  "speaker": "Unknown",
+  "en": "I want to push back and start failing requests, denying connections so that I can keep the existing users or some of the traffic healthy while gracefully degrading some of the other traffic.",
+  "zh": "我要推回去,开始让请求失败、拒绝连接,这样我就可以保住现有用户或部分流量的健康,同时对其余部分流量进行优雅降级。"
+ },
+ {
+  "seg": 107,
+  "start": 564.187,
+  "end": 566.449,
+  "speaker": "Unknown",
+  "en": "And then the rest of your stack has to be built to support that.",
+  "zh": "而你技术栈的其余部分也必须构建成支持这一点。"
+ },
+ {
+  "seg": 108,
+  "start": 567.389,
+  "end": 570.652,
+  "speaker": "Unknown",
+  "en": "So this is a principle that applies in lots of areas of the stack.",
+  "zh": "所以这是一个适用于技术栈很多领域的原则。"
+ },
+ {
+  "seg": 109,
+  "start": 570.792,
+  "end": 573.274,
+  "speaker": "Unknown",
+  "en": "But in the database, it's arguably the most important.",
+  "zh": "但在数据库领域,它可以说是最重要的。"
+ },
+ {
+  "seg": 110,
+  "start": 575.182,
+  "end": 576.363,
+  "speaker": "Unknown",
+  "en": "Let's see here.",
+  "zh": "让我们看看这里。"
+ },
+ {
+  "seg": 111,
+  "start": 576.383,
+  "end": 576.763,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 112,
+  "start": 577.183,
+  "end": 583.507,
+  "speaker": "Unknown",
+  "en": "And then the last component of this that I want to talk about before we move into how to do this all with AI is decoupling.",
+  "zh": "然后在我们进入如何用 AI 来实现这一切之前,我想谈的最后一个组成部分是解耦。"
+ },
+ {
+  "seg": 113,
+  "start": 583.608,
+  "end": 593.494,
+  "speaker": "Unknown",
+  "en": "There's a lot of people that you'll talk to, and when it comes to databases, will argue that you should probably have all of your services combined into one because there's some convenience to that.",
+  "zh": "你会和很多人交谈,当谈到数据库时,他们会争辩说你可能应该把所有服务合并成一个,因为这样有一些便利性。"
+ },
+ {
+  "seg": 114,
+  "start": 593.954,
+  "end": 598.117,
+  "speaker": "Unknown",
+  "en": "Your Postgres database, your OLTP workloads, combined with what you're doing for analytics,",
+  "zh": "你的 Postgres 数据库、你的 OLTP 工作负载,与你要做的分析工作合并在一起,"
+ },
+ {
+  "seg": 115,
+  "start": 598.537,
+  "end": 613.67,
+  "speaker": "Unknown",
+  "en": "Combined with your queuing and your job system, your caching, there is convenience, and some technologies try to do this where we put this all in one, but that does, one, add a lot of complexity, but it also breaks some of the fundamental principles from earlier, like failure isolation, right?",
+  "zh": "再与你的队列和作业系统、你的缓存合并在一起,确实有便利性,也有一些技术试图把这一切放在一个地方,但这样做,第一,增加了大量复杂性,而且它也破坏了前面提到的一些基本原则,比如故障隔离,对吧?"
+ },
+ {
+  "seg": 116,
+  "start": 614.01,
+  "end": 617.273,
+  "speaker": "Unknown",
+  "en": "If one service goes down, that actually means everything is going down.",
+  "zh": "如果一个服务宕机了,那实际上意味着一切都宕机了。"
+ },
+ {
+  "seg": 117,
+  "start": 617.713,
+  "end": 620.596,
+  "speaker": "Unknown",
+  "en": "And then you also have to deal with contention of resources.",
+  "zh": "然后你还得处理资源的争用。"
+ },
+ {
+  "seg": 118,
+  "start": 620.676,
+  "end": 635.912,
+  "speaker": "Unknown",
+  "en": "So if you suddenly have a burst of queue jobs and you need to scale up your queues, but maybe nothing else really needs to scale, it would be nice if we can independently scale the amount of compute resources that we've given to each of these parts of our backend service powering your favorite application, right?",
+  "zh": "所以如果你突然出现一波队列作业的高峰,需要扩展你的队列,但其他部分其实不需要扩展,那如果我们能独立地扩展分配给后端服务中支撑你最喜欢的应用程序的各个部分的计算资源量,那就太好了,对吧?"
+ },
+ {
+  "seg": 119,
+  "start": 637.308,
+  "end": 640.109,
+  "speaker": "Unknown",
+  "en": "So this is not a complete list.",
+  "zh": "所以这并不是一份完整的清单。"
+ },
+ {
+  "seg": 120,
+  "start": 640.389,
+  "end": 641.41,
+  "speaker": "Unknown",
+  "en": "What did we go through so far?",
+  "zh": "我们到目前为止讲了什么?"
+ },
+ {
+  "seg": 121,
+  "start": 641.45,
+  "end": 642.73,
+  "speaker": "Unknown",
+  "en": "We went through sharding.",
+  "zh": "我们讲了分片。"
+ },
+ {
+  "seg": 122,
+  "start": 642.91,
+  "end": 644.111,
+  "speaker": "Unknown",
+  "en": "We went through back pressure.",
+  "zh": "我们讲了背压。"
+ },
+ {
+  "seg": 123,
+  "start": 644.571,
+  "end": 645.952,
+  "speaker": "Unknown",
+  "en": "And now we're talking about decoupling.",
+  "zh": "现在我们在讲解耦。"
+ },
+ {
+  "seg": 124,
+  "start": 646.292,
+  "end": 648.913,
+  "speaker": "Unknown",
+  "en": "There's many other aspects to scalability.",
+  "zh": "可扩展性还有很多其他方面。"
+ },
+ {
+  "seg": 125,
+  "start": 648.953,
+  "end": 652.515,
+  "speaker": "Unknown",
+  "en": "And again, you could spend your entire career becoming an expert in scalability.",
+  "zh": "再说一次,你可以把整个职业生涯都花在成为可扩展性专家上。"
+ },
+ {
+  "seg": 126,
+  "start": 653.175,
+  "end": 660.258,
+  "speaker": "Unknown",
+  "en": "But this is a lot of what we think about a lot at PlanetScale because our customers rely on us to be reliable and to scale.",
+  "zh": "但这正是我们在 PlanetScale 一直在思考的很多事情,因为我们的客户依赖我们来保持可靠并实现扩展。"
+ },
+ {
+  "seg": 127,
+  "start": 661.895,
+  "end": 664.958,
+  "speaker": "Unknown",
+  "en": "So finally, let's go to the last part of this.",
+  "zh": "那么,最后让我们进入这个话题的最后一部分。"
+ },
+ {
+  "seg": 128,
+  "start": 665.819,
+  "end": 668.922,
+  "speaker": "Unknown",
+  "en": "Let's say we have all of these principles in place.",
+  "zh": "假设我们已经具备了所有这些原则。"
+ },
+ {
+  "seg": 129,
+  "start": 669.062,
+  "end": 672.125,
+  "speaker": "Unknown",
+  "en": "We are doing things reliably where we have fault tolerance.",
+  "zh": "我们在可靠地做事,拥有容错能力。"
+ },
+ {
+  "seg": 130,
+  "start": 672.525,
+  "end": 674.327,
+  "speaker": "Unknown",
+  "en": "We're doing things that are very scalable.",
+  "zh": "我们在做非常可扩展的事情。"
+ },
+ {
+  "seg": 131,
+  "start": 674.787,
+  "end": 686.758,
+  "speaker": "Unknown",
+  "en": "But these days, in a lot of organizations, and we talk to a lot of people that feel this, both at the small scale and at very large organizations, how can we allow agents to, whether in part or in full, have control",
+  "zh": "但如今,在很多组织中——我们和很多有这种感受的人交谈过,包括小规模和非常大型的组织——我们如何允许智能体,无论是部分还是全部地,获得控制权,"
+ },
+ {
+  "seg": 132,
+  "start": 687.519,
+  "end": 691.2,
+  "speaker": "Unknown",
+  "en": "Over what is arguably the most important infrastructure of your company, right?",
+  "zh": "控制可以说是你公司最重要的基础设施,对吧?"
+ },
+ {
+  "seg": 133,
+  "start": 691.22,
+  "end": 696.202,
+  "speaker": "Unknown",
+  "en": "The databases, the queues, the things that are powering every other layer of your stack.",
+  "zh": "数据库、队列,那些支撑着你技术栈其他所有层的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 696.822,
+  "end": 702.144,
+  "speaker": "Unknown",
+  "en": "And this is something that can be a little bit intimidating because it's pretty much the standard these days, right?",
+  "zh": "这是一件可能有点让人胆怯的事,因为这现在基本上已经是标准了,对吧?"
+ },
+ {
+  "seg": 135,
+  "start": 702.164,
+  "end": 703.105,
+  "speaker": "Unknown",
+  "en": "To write code with AI.",
+  "zh": "用 AI 写代码。"
+ },
+ {
+  "seg": 136,
+  "start": 704.085,
+  "end": 707.106,
+  "speaker": "Unknown",
+  "en": "In some cases, people are not even writing any lines of code anymore.",
+  "zh": "在某些情况下,人们甚至不再亲手写任何一行代码了。"
+ },
+ {
+  "seg": 137,
+  "start": 707.166,
+  "end": 712.628,
+  "speaker": "Unknown",
+  "en": "AI is actually writing all of your code, reviewing all of your code, and you're just sort of guiding these agents to doing that.",
+  "zh": "AI 实际上在写你的所有代码,审查你的所有代码,而你只是在引导这些智能体去做这些事。"
+ },
+ {
+  "seg": 138,
+  "start": 713.048,
+  "end": 724.232,
+  "speaker": "Unknown",
+  "en": "But it is quite different to say, I'm going to now also give my agents the ability to deploy changes to the database, or make changes to how things are configured there, or to shard my database.",
+  "zh": "但要说“我现在还要给我的智能体部署数据库变更的能力,或者修改那里配置方式的能力,或者给我的数据库分片的能力”,那就完全不同了。"
+ },
+ {
+  "seg": 139,
+  "start": 724.552,
+  "end": 729.634,
+  "speaker": "Unknown",
+  "en": "Because that's something, if it gets wrong, it's generally not as simple as clicking a button to roll it back.",
+  "zh": "因为那件事,一旦出错,通常不像点一个按钮回滚那么简单。"
+ },
+ {
+  "seg": 140,
+  "start": 729.674,
+  "end": 732.315,
+  "speaker": "Unknown",
+  "en": "It's taking down your entire application, and every user notices.",
+  "zh": "它会让你的整个应用程序宕机,每个用户都会注意到。"
+ },
+ {
+  "seg": 141,
+  "start": 732.955,
+  "end": 735.177,
+  "speaker": "Unknown",
+  "en": "So we want to do this effectively and safely.",
+  "zh": "所以我们要有效地、安全地做到这一点。"
+ },
+ {
+  "seg": 142,
+  "start": 735.618,
+  "end": 742.284,
+  "speaker": "Unknown",
+  "en": "So I'm going to revisit a couple of the concepts that I previously talked about and think about how do we use agents to solve this.",
+  "zh": "所以我要重新回顾一下我之前讲过的几个概念,思考一下我们如何用智能体来解决这个问题。"
+ },
+ {
+  "seg": 143,
+  "start": 742.865,
+  "end": 747.069,
+  "speaker": "Unknown",
+  "en": "So going back to sharding, what I'm going to talk a little more specifically about is Vitesse.",
+  "zh": "回到分片,我要更具体一点讲的是 Vitesse。"
+ },
+ {
+  "seg": 144,
+  "start": 747.37,
+  "end": 749.171,
+  "speaker": "Unknown",
+  "en": "And this is an open source project.",
+  "zh": "这是一个开源项目。"
+ },
+ {
+  "seg": 145,
+  "start": 749.772,
+  "end": 753.296,
+  "speaker": "Unknown",
+  "en": "We operate Vitesse databases for our customers, and it works with MySQL.",
+  "zh": "我们为客户运营 Vitesse 数据库,它适用于 MySQL。"
+ },
+ {
+  "seg": 146,
+  "start": 753.796,
+  "end": 754.396,
+  "speaker": "Unknown",
+  "en": "To do sharding.",
+  "zh": "用于做分片。"
+ },
+ {
+  "seg": 147,
+  "start": 754.656,
+  "end": 757.418,
+  "speaker": "Unknown",
+  "en": "So what you can see here is all of those shards down there.",
+  "zh": "你在这里看到的,是下面所有的那些分片。"
+ },
+ {
+  "seg": 148,
+  "start": 757.458,
+  "end": 759.038,
+  "speaker": "Unknown",
+  "en": "Those would be MySQL databases.",
+  "zh": "那些就是 MySQL 数据库。"
+ },
+ {
+  "seg": 149,
+  "start": 759.479,
+  "end": 761.199,
+  "speaker": "Unknown",
+  "en": "And the VT gate, that's the proxy.",
+  "zh": "而 VT gate,那就是代理。"
+ },
+ {
+  "seg": 150,
+  "start": 761.219,
+  "end": 770.204,
+  "speaker": "Unknown",
+  "en": "That is basically an intelligent proxy that takes MySQL queries, parses them, figures out which shard they need to go to, and routes all of those requests in a very sophisticated way.",
+  "zh": "那基本上是一个智能代理，它接收 MySQL 查询，解析它们，弄清楚它们需要发往哪个分片，并以非常复杂的方式路由所有这些请求。"
+ },
+ {
+  "seg": 151,
+  "start": 770.944,
+  "end": 780.59,
+  "speaker": "Unknown",
+  "en": "So the software is fairly complicated, but the interface that we present for specifying how do you want all of your queries and your data sharded is actually quite simple.",
+  "zh": "所以这个软件相当复杂，但我们为指定「你想如何对所有查询和数据进行分片」而呈现的接口其实相当简单。"
+ },
+ {
+  "seg": 152,
+  "start": 780.83,
+  "end": 793.337,
+  "speaker": "Unknown",
+  "en": "It's what we call a vschema, and it's literally a JSON file where you say, here's the column I want to shard on, and here's the way I want to do sharding, and you can specify certain tables to go on certain shards and have lots of control over where and how things are configured.",
+  "zh": "这就是我们所说的 vschema,它实际上就是一个 JSON 文件，你在里面说，这是我要分片的列，这是我要做分片的方式，而且你可以指定某些表放在某些分片上，对东西配置在何处以及如何配置有大量的控制权。"
+ },
+ {
+  "seg": 153,
+  "start": 793.937,
+  "end": 800.86,
+  "speaker": "Unknown",
+  "en": "And the great thing is, as we all know, AI agents are excellent at working with things like text files and JSON files.",
+  "zh": "而很棒的一点是，众所周知，AI 智能体非常擅长处理文本文件和 JSON 文件这类东西。"
+ },
+ {
+  "seg": 154,
+  "start": 801.24,
+  "end": 805.182,
+  "speaker": "Unknown",
+  "en": "So you can give your agent and say, hey, I'm struggling with scalability of my database.",
+  "zh": "所以你可以把你的智能体拿来，然后说，嘿，我在数据库可扩展性上遇到困难了。"
+ },
+ {
+  "seg": 155,
+  "start": 805.782,
+  "end": 806.682,
+  "speaker": "Unknown",
+  "en": "Here's my schema.",
+  "zh": "这是我的 schema。"
+ },
+ {
+  "seg": 156,
+  "start": 806.882,
+  "end": 810.304,
+  "speaker": "Unknown",
+  "en": "I want you to come up and help me prototype a good V schema, right?",
+  "zh": "我要你想出一个好的 V schema 并帮我做原型，对吧?"
+ },
+ {
+  "seg": 157,
+  "start": 810.724,
+  "end": 817.847,
+  "speaker": "Unknown",
+  "en": "And once you've developed and designed something that it has thought through and made decisions about the most efficient ways to shard when you are on a platform like PlanetScale,",
+  "zh": "而一旦你开发并设计出某种它已经深入思考过、并对最高效分片方式做出决策的东西，当你在像 PlanetScale 这样的平台上时,"
+ },
+ {
+  "seg": 158,
+  "start": 818.227,
+  "end": 824.996,
+  "speaker": "Unknown",
+  "en": "You literally will plug this in and you make a deploy and we give you an interface for creating new sharded systems and scaling up your database.",
+  "zh": "你真的只需把它插进去，做一个部署，我们给你一个用于创建新分片系统并扩展你数据库的接口。"
+ },
+ {
+  "seg": 159,
+  "start": 825.396,
+  "end": 834.167,
+  "speaker": "Unknown",
+  "en": "And a lot of this can happen with either the help of AI or letting AI take some control over these processes given our API and our command line interface that we run.",
+  "zh": "而且这其中的很多过程既可以借助 AI 的帮助，也可以让 AI 通过我们的 API 和我们运行的命令行界面对这些流程进行一定的控制。"
+ },
+ {
+  "seg": 160,
+  "start": 835.215,
+  "end": 849.082,
+  "speaker": "Unknown",
+  "en": "So this is one of those things, very complex infrastructure in reality under the hood that is scaling your systems, but you provide the right interfaces for it, like simple configuration files, and those things become much more accessible to any company trying to scale.",
+  "zh": "所以这是那种——底层现实中是非常复杂的基础设施在扩展你的系统——但只要你为它提供合适的接口，比如简单的配置文件，这些能力对任何想要扩展的公司来说都变得容易接触得多。"
+ },
+ {
+  "seg": 161,
+  "start": 850.708,
+  "end": 856.209,
+  "speaker": "Unknown",
+  "en": "Another thing, so this is getting into the concept of backpressure that we talked about earlier, right?",
+  "zh": "另一件事，这就进入了我们之前谈到的背压(backpressure)概念，对吧?"
+ },
+ {
+  "seg": 162,
+  "start": 856.269,
+  "end": 862.07,
+  "speaker": "Unknown",
+  "en": "So when a database is overloaded, and this, as you might imagine, probably happens all the time at some of these companies, right?",
+  "zh": "当数据库过载时——正如你可以想象的，这在某些公司可能时时刻刻都在发生,对吧?"
+ },
+ {
+  "seg": 163,
+  "start": 862.09,
+  "end": 874.472,
+  "speaker": "Unknown",
+  "en": "I think there was a tweet a couple of months ago from GitHub that basically said like their traffic had like two or three or four x from what already was an extremely high load, and pretty much all of that was attributed to AI agents, right?",
+  "zh": "我记得几个月前 GitHub 发过一条推文，大概说他们的流量比原本就已经极高的负载又涨了两三倍甚至四倍，而这几乎全部归因于 AI 智能体,对吧?"
+ },
+ {
+  "seg": 164,
+  "start": 874.492,
+  "end": 879.053,
+  "speaker": "Unknown",
+  "en": "So they already had gigantic infrastructure, because they're the most popular place in the world to develop,",
+  "zh": "所以他们本来就有庞大的基础设施，因为他们是世界上最受欢迎的开发平台,"
+ },
+ {
+  "seg": 165,
+  "start": 879.413,
+  "end": 887.637,
+  "speaker": "Unknown",
+  "en": "And then they had multiple traffic increases, especially over the holidays due to these overloaded systems.",
+  "zh": "然后由于这些过载的系统，他们的流量出现了多倍增长，尤其是在节假日期间。"
+ },
+ {
+  "seg": 166,
+  "start": 887.657,
+  "end": 888.557,
+  "speaker": "Unknown",
+  "en": "So how do we deal with this?",
+  "zh": "那我们如何应对这个?"
+ },
+ {
+  "seg": 167,
+  "start": 889.398,
+  "end": 899.543,
+  "speaker": "Unknown",
+  "en": "One of our solutions, and the way that we like to think about it, is we give users a system called Traffic Control, which allows you to essentially categorize and tag all of the traffic coming into your database.",
+  "zh": "我们的解决方案之一,也是我们喜欢思考这个问题的方式,是我们给用户提供一个叫 Traffic Control 的系统,它让你本质上可以对进入你数据库的所有流量进行分类和打标签。"
+ },
+ {
+  "seg": 168,
+  "start": 900.203,
+  "end": 908.631,
+  "speaker": "Unknown",
+  "en": "And then you create resource budgets to say, hey, this segment of my traffic cannot exceed this amount resources of CPU usage or of backend processes.",
+  "zh": "然后你创建资源预算,说,嘿,我这部分流量不能超过这个数量的 CPU 使用资源或后端进程。"
+ },
+ {
+  "seg": 169,
+  "start": 909.132,
+  "end": 912.055,
+  "speaker": "Unknown",
+  "en": "And again, we do graceful degradation when that happens.",
+  "zh": "同样,当这种情况发生时,我们会做优雅降级。"
+ },
+ {
+  "seg": 170,
+  "start": 912.075,
+  "end": 920.483,
+  "speaker": "Unknown",
+  "en": "So what I'm showing here is this is a graph of I have a budget set up to say don't exceed these amount of resources and warn if I do start exceeding these resources.",
+  "zh": "所以我在这里展示的是一个图表,我设置了一个预算,说不超过这些数量的资源,并且如果我开始超过这些资源就发出警告。"
+ },
+ {
+  "seg": 171,
+  "start": 920.523,
+  "end": 924.847,
+  "speaker": "Unknown",
+  "en": "So it's showing me this is the amount of queries that are exceeding your budget over time.",
+  "zh": "所以它向我展示的是,这是随时间推移超过你预算的查询数量。"
+ },
+ {
+  "seg": 172,
+  "start": 925.007,
+  "end": 928.431,
+  "speaker": "Unknown",
+  "en": "And we're sending warnings back to the client like, hey, I'm overloaded.",
+  "zh": "而我们会向客户端发送警告,比如,嘿,我过载了。"
+ },
+ {
+  "seg": 173,
+  "start": 928.652,
+  "end": 929.432,
+  "speaker": "Unknown",
+  "en": "You need to slow down.",
+  "zh": "你需要放慢速度。"
+ },
+ {
+  "seg": 174,
+  "start": 929.473,
+  "end": 933.618,
+  "speaker": "Unknown",
+  "en": "And we can even make it more strict where we actually kill those queries that are executing.",
+  "zh": "我们甚至可以做得更严格,我们会真的终止那些正在执行的查询。"
+ },
+ {
+  "seg": 175,
+  "start": 934.639,
+  "end": 944.291,
+  "speaker": "Unknown",
+  "en": "And this is one of those things that, OK, it's not ideal to have to deny requests, but it's much better than your whole application going down and being offline for all of your users.",
+  "zh": "而这就是那种——好吧,不得不拒绝请求并不理想,但这远好过你的整个应用程序宕机、对所有用户离线。"
+ },
+ {
+  "seg": 176,
+  "start": 946.05,
+  "end": 964.92,
+  "speaker": "Unknown",
+  "en": "And then finally, one other thing I want to talk about, and I know I'm showing this is the PlanetScale UI here, but this is not even so much specifically about PlanetScale, but it's about the philosophy of how we do these things with agents, which is most developers are used to using a Git-like flow when you're building, and this applies to your agents as well.",
+  "zh": "最后,我还想谈一件事,我知道我在这里展示的是 PlanetScale 的 UI,但这其实并不特别关乎 PlanetScale 本身,而是关乎我们如何用智能体做这些事情的哲学,那就是大多数开发者已经习惯在构建时使用类似 Git 的流程,这同样适用于你的智能体。"
+ },
+ {
+  "seg": 177,
+  "start": 964.94,
+  "end": 972.804,
+  "speaker": "Unknown",
+  "en": "You have a main, you create a branch, you make code changes, you do merge that in, and you deploy that dynamically to wherever your application is deployed.",
+  "zh": "你有一个 main,你创建一个分支,你修改代码,你把它 merge 进去,然后你动态地部署到你应用程序部署的任何地方。"
+ },
+ {
+  "seg": 178,
+  "start": 973.444,
+  "end": 980.252,
+  "speaker": "Unknown",
+  "en": "What we have done, and this was long before Agents even existed, is we wanted to take that same UX and mirror that for your database.",
+  "zh": "我们所做的,而这早在智能体存在之前,就是想把同样的 UX 拿来,为你的数据库做镜像。"
+ },
+ {
+  "seg": 179,
+  "start": 980.272,
+  "end": 986.198,
+  "speaker": "Unknown",
+  "en": "Because a lot of the times when you're building new application features, you're also making changes to your schema.",
+  "zh": "因为很多时候,当你在构建新的应用功能时,你也在对你的 schema 做修改。"
+ },
+ {
+  "seg": 180,
+  "start": 986.218,
+  "end": 987.119,
+  "speaker": "Unknown",
+  "en": "You're adding tables.",
+  "zh": "你在添加表。"
+ },
+ {
+  "seg": 181,
+  "start": 987.139,
+  "end": 987.94,
+  "speaker": "Unknown",
+  "en": "You're adding columns.",
+  "zh": "你在添加列。"
+ },
+ {
+  "seg": 182,
+  "start": 987.96,
+  "end": 989.042,
+  "speaker": "Unknown",
+  "en": "You're deleting things.",
+  "zh": "你在删除东西。"
+ },
+ {
+  "seg": 183,
+  "start": 989.162,
+  "end": 990.063,
+  "speaker": "Unknown",
+  "en": "You're adding indexes.",
+  "zh": "你在添加索引。"
+ },
+ {
+  "seg": 184,
+  "start": 990.083,
+  "end": 993.146,
+  "speaker": "Unknown",
+  "en": "You're doing all of this stuff to your database to keep it in sync with your code base.",
+  "zh": "你对你的数据库做所有这些事情,以让它与你的代码库保持同步。"
+ },
+ {
+  "seg": 185,
+  "start": 994.007,
+  "end": 1007.472,
+  "speaker": "Unknown",
+  "en": "So what we give you, powered by that same Vitesse earlier, is the ability to branch your database schema, make changes to that schema in an isolated environment, and then merge that back into production with what we call a deploy request, all with no downtime.",
+  "zh": "所以我们给你的,由之前那个同样的 Vitesse 驱动,是给你的数据库 schema 建分支的能力,在一个隔离环境中对该 schema 做修改,然后通过我们所说的 deploy request 把它 merge 回生产环境,全程零停机。"
+ },
+ {
+  "seg": 186,
+  "start": 1007.712,
+  "end": 1020.257,
+  "speaker": "Unknown",
+  "en": "And not only that, but actually the ability you might see here at the bottom, the ability to, if you deploy a schema change and you see a problem, we give you the ability to one-click revert that and go back to the old state of your database without data loss.",
+  "zh": "不仅如此,你可能看到这里底部的,还有这样的能力,如果你部署了一个 schema 变更然后发现了问题,我们给你一键回滚、无数据丢失地回到数据库旧状态的能力。"
+ },
+ {
+  "seg": 187,
+  "start": 1021.217,
+  "end": 1039.936,
+  "speaker": "Unknown",
+  "en": "And so this is something that was great for humans, but we also have the APIs and the CLIs to be able to let agents automate this so when they are doing things and automating code and branching and making pull requests and doing code review, there can actually be a mirrored database state that is working in sync with all of those things, right?",
+  "zh": "所以这对人类来说是件很棒的事,但我们也有 API 和 CLI 让智能体把这一切自动化,这样当它们在做事、自动化代码、建分支、发起 pull request、做 code review 时,可以真正有一个镜像的数据库状态与所有那些事情同步运作,对吧?"
+ },
+ {
+  "seg": 188,
+  "start": 1040.076,
+  "end": 1042.819,
+  "speaker": "Unknown",
+  "en": "And that can either be fully automated, it can be semi-automated.",
+  "zh": "而且它可以是全自动的,也可以是半自动的。"
+ },
+ {
+  "seg": 189,
+  "start": 1042.899,
+  "end": 1045.702,
+  "speaker": "Unknown",
+  "en": "Obviously, many of us are working in a human-in-the-loop fashion.",
+  "zh": "显然,我们中的许多人是在 human-in-the-loop 的方式下工作。"
+ },
+ {
+  "seg": 190,
+  "start": 1046.202,
+  "end": 1050.786,
+  "speaker": "Unknown",
+  "en": "Where humans are still reviewing all of these changes that AI agents are making, which is a good thing.",
+  "zh": "由人类仍在审查 AI 智能体所做的所有这些变更,这是件好事。"
+ },
+ {
+  "seg": 191,
+  "start": 1051.886,
+  "end": 1056.21,
+  "speaker": "Unknown",
+  "en": "But we have the primitives in place for building these systems.",
+  "zh": "但我们已经把构建这些系统所需的原语准备到位了。"
+ },
+ {
+  "seg": 192,
+  "start": 1056.77,
+  "end": 1062.354,
+  "speaker": "Unknown",
+  "en": "And there's a number of other things that I didn't get to to talk about this, but kind of the ending point that I want to make",
+  "zh": "还有一些其他东西我没能展开讲,但我想做的结尾要点是"
+ },
+ {
+  "seg": 193,
+  "start": 1063.315,
+  "end": 1067.98,
+  "speaker": "Unknown",
+  "en": "Is we're a company, and I know a lot of companies out there like to focus on the developer experience.",
+  "zh": "我们是一家公司,而且我知道外面很多公司喜欢专注于开发者体验。"
+ },
+ {
+  "seg": 194,
+  "start": 1068.5,
+  "end": 1086.157,
+  "speaker": "Unknown",
+  "en": "And when I say developer experience, I don't just mean light and dark mode switches and good keyboard shortcuts and all of this, but I mean the actual experience of, hey, if you're a developer that's responsible for your company's database or responsible for some piece of infrastructure, do we give you the tools that you need to not mess up, to do deploys safely?",
+  "zh": "当我说开发者体验时,我不仅是指亮色暗色模式切换和好的键盘快捷键诸如此类,而是指真实的体验,比如,嘿,如果你是一个负责公司数据库或负责某块基础设施的开发者,我们有没有给你所需的工具,让你不把事情搞砸、安全地做部署?"
+ },
+ {
+  "seg": 195,
+  "start": 1086.878,
+  "end": 1088.86,
+  "speaker": "Unknown",
+  "en": "To make your database faster to get better performance.",
+  "zh": "让你的数据库更快、获得更好的性能。"
+ },
+ {
+  "seg": 196,
+  "start": 1089.761,
+  "end": 1091.623,
+  "speaker": "Unknown",
+  "en": "And we've been building these things for years.",
+  "zh": "而我们已经构建这些东西很多年了。"
+ },
+ {
+  "seg": 197,
+  "start": 1092.023,
+  "end": 1104.034,
+  "speaker": "Unknown",
+  "en": "And it does kind of turn out that when you really focus on that core of the developer experience, what you actually end up with is also very good primitives for AI being able to work with a database safely and reliably and helping it scale.",
+  "zh": "而且结果某种程度上证明,当你真正专注于开发者体验的核心时,你最终得到的东西同时也是非常好的原语,能让 AI 安全、可靠地与数据库协作并帮助它扩展。"
+ },
+ {
+  "seg": 198,
+  "start": 1105.095,
+  "end": 1114.283,
+  "speaker": "Unknown",
+  "en": "And so because we expose a lot of these things through our MCP server, through command line interfaces, obviously there's plenty of debate on which of those is better when working with your AI agents.",
+  "zh": "因为我们通过我们的 MCP server、通过命令行接口暴露了其中很多东西,显然关于用你的 AI 智能体工作时哪一个更好有大量的争论。"
+ },
+ {
+  "seg": 199,
+  "start": 1114.704,
+  "end": 1122.791,
+  "speaker": "Unknown",
+  "en": "But because we expose those things to both parties, it's actually a great experience for operating your database and working well with AI agents.",
+  "zh": "但因为我们把那些东西同时暴露给双方,这对运营你的数据库以及与 AI 智能体良好协作来说实际上是一种很棒的体验。"
+ },
+ {
+  "seg": 200,
+  "start": 1123.652,
+  "end": 1125.894,
+  "speaker": "Unknown",
+  "en": "So that is all that I have to say.",
+  "zh": "我要说的就这些了。"
+ },
+ {
+  "seg": 201,
+  "start": 1126.354,
+  "end": 1127.275,
+  "speaker": "Unknown",
+  "en": "Thank you guys for coming.",
+  "zh": "感谢大家前来。"
+ },
+ {
+  "seg": 202,
+  "start": 1127.315,
+  "end": 1129.637,
+  "speaker": "Unknown",
+  "en": "I'm Ben, and have a great rest of the conference.",
+  "zh": "我是 Ben,祝大家会议剩余时间愉快。"
+ },
+ {
+  "seg": 203,
+  "start": 1136.358,
+  "end": 1136.82,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

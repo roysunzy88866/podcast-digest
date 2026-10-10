@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Charlie Guo]] [[Gabriel Chua]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Ben]] [[Hossein]] [[Kath Korevec]] [[Kent C. Dodds]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":30,"沙箱":88,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":2,"外循环":1}</script>
+<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":32,"沙箱":88,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":2,"外循环":1}</script>
 
 <script>
 (function(){

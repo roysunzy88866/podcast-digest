@@ -1,0 +1,738 @@
+{
+  "episode_id": "2026-10-06-talks-why-building-an-eval-platform-is-harder",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "智能体",
+    "评估",
+    "可观测性",
+    "AI 基础设施",
+    "LLM"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "hossein",
+      "type": "person",
+      "role": "host",
+      "name": "Hossein",
+      "file": "Hossein",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            17.985,
+            18.806
+          ],
+          "quote": "My name is Hossein.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "braintrust",
+      "type": "company",
+      "role": "company",
+      "name": "Braintrust",
+      "file": "Braintrust",
+      "primary": true,
+      "how_described": "本集说 Braintrust 是一个专注智能体质量的平台，帮助团队为上线的 AI 功能和智能体建立并保持信心；他们还为此自建了 BTQL 查询抽象层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.166,
+            23.628
+          ],
+          "quote": "I lead the solution engineering organization on the west for Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            32.534,
+            40.118
+          ],
+          "quote": "So I have this insatiable appetite for technology, which finds me kind of on the bleeding edge of AI here at Braintrust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            54.861,
+            62.705
+          ],
+          "quote": "So at a glance, Braintrust as a platform is focused around agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            939.744,
+            945.148
+          ],
+          "quote": "At Braintrust, the way we think about this is we want to help you operate at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            947.065,
+            957.271
+          ],
+          "quote": "Rather than you having to think about these dimensions of success and failure for your AI agent, Braintrust can surface these insights automatically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集作为嘉宾背景提及：Hossein 在 Salesforce 和 Databricks 做了 15 年解决方案工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            23.869,
+            28.271
+          ],
+          "quote": "I spent 15 years in solutions between Salesforce and Databricks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集作为嘉宾背景提及：Hossein 在 Salesforce 和 Databricks 做了 15 年解决方案工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            23.869,
+            28.271
+          ],
+          "quote": "I spent 15 years in solutions between Salesforce and Databricks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把 evals 说成智能体质量的两大支柱之一：在上线前用测试输入跑智能体、验证行为是否符合预期，是发布前降低不确定性的手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            45.867,
+            47.328
+          ],
+          "quote": "I saw some hands about evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            77.253,
+            79.614
+          ],
+          "quote": "The first is evals, which we talked about earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            80.234,
+            81.315
+          ],
+          "quote": "Evals is what you do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            119.997,
+            124.96
+          ],
+          "quote": "evals and observability are closely related to the same problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            139.327,
+            146.651
+          ],
+          "quote": "Let's talk about why we're here, which is why are evals important?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            147.991,
+            152.515
+          ],
+          "quote": "You know, evals matter because LLMs by nature are non-deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            194.132,
+            197.334
+          ],
+          "quote": "And without evals, companies face real risks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            218.66,
+            228.386
+          ],
+          "quote": "The goal of evals is to reduce that uncertainty before launch so that customers have a good experience and the agents behave the way that you expect them to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            231.43,
+            237.214
+          ],
+          "quote": "So you might be thinking, OK, well, evals is just a UI on a spreadsheet, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            238.895,
+            245.961
+          ],
+          "quote": "And I guess I should ask the audience, just show of hands, how many of you have run evals and logged the results into a spreadsheet?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            303.408,
+            307.15
+          ],
+          "quote": "Now, spreadsheet-based evals are not wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            321.425,
+            329.187
+          ],
+          "quote": "And if evals were only run the agent, view the output, and then score it in a spreadsheet, this talk would be over right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            376.108,
+            379.972
+          ],
+          "quote": "There are PMs who used to build PRDs that are now running evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            387.36,
+            392.466
+          ],
+          "quote": "And evals themselves are just one part of the development and operating workflow",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            401.831,
+            406.815
+          ],
+          "quote": "Evals are a way for you to continue hill climbing against one target, which is agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            557.184,
+            561.606
+          ],
+          "quote": "This allows PMs to now kind of get into the loop of doing evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            621.118,
+            634.226
+          ],
+          "quote": "But there's still one primary gap, and that is that the test cases in which you use to do these kind of comparisons are still a curated set that arise in your offline evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            686.046,
+            697.977
+          ],
+          "quote": "And creating evals in them in your offline process, iterating on them so you can create the improvements without developing new regressions, and then shipping to production and hill climbing against this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            902.625,
+            903.906
+          ],
+          "quote": "Run the evals for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            904.326,
+            914.431
+          ],
+          "quote": "And because these coding agents have access to all of your underlying infrastructure and your code base, they become the mechanism to run the evals and log those results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1026.662,
+            1038.873
+          ],
+          "quote": "If I have different iterations of these evals that are run by my coding agent, I can look at the outcome and make the decision of which version of it is the best for what I want to ship to production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性是智能体质量的第二根支柱：智能体进入生产环境后，通过持续监控真实用户交互来验证离线开发的假设，与 evals 是同一问题的两面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            95.077,
+            96.899
+          ],
+          "quote": "The second pillar is observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            97.733,
+            118.387
+          ],
+          "quote": "Observability is once your agent is in production and is interfacing with real-life users, it's creating interactions, and the goal is to take that hypothesis that you built in your offline development process and then reinforce that in your production scenario through continuous monitoring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            119.997,
+            124.96
+          ],
+          "quote": "evals and observability are closely related to the same problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            834.246,
+            845.016
+          ],
+          "quote": "I have huge payloads that are tens of megabytes, hundreds of megabytes in size sometimes compared to traditional heartbeat observability, which are just kilobytes in size.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体以 LLM 为大脑、正在成为用户与公司交互的主要方式，其可靠性需要靠评估与可观测性来保障；本集主线就是如何保证智能体质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.522,
+            17.265
+          ],
+          "quote": "Thank you for joining this session on why building agent quality platforms is hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            54.861,
+            62.705
+          ],
+          "quote": "So at a glance, Braintrust as a platform is focused around agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            72.87,
+            76.512
+          ],
+          "quote": "And there are two key pillars of agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            82.582,
+            84.885
+          ],
+          "quote": "Before your agent reaches production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            97.733,
+            118.387
+          ],
+          "quote": "Observability is once your agent is in production and is interfacing with real-life users, it's creating interactions, and the goal is to take that hypothesis that you built in your offline development process and then reinforce that in your production scenario through continuous monitoring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            125.54,
+            133.044
+          ],
+          "quote": "So one happens in production, the other one happens in development, and both is the understanding to improve agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            200.228,
+            217.799
+          ],
+          "quote": "Brands become a risk if there's inconsistent behaviors, compliance if the agent says or does the wrong thing, and there's a cost and maintenance risk if the systems are hard or unreliable to debug or control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            284.58,
+            289.545
+          ],
+          "quote": "And third, a set of test inputs or examples that can invoke the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            290.378,
+            295.702
+          ],
+          "quote": "An input example is whatever information is needed to start the agent run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            296.683,
+            301.726
+          ],
+          "quote": "It could be a prompt, a request, or context that causes the agent to act.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            321.425,
+            329.187
+          ],
+          "quote": "And if evals were only run the agent, view the output, and then score it in a spreadsheet, this talk would be over right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            370.922,
+            373.165
+          ],
+          "quote": "Agent quality is a multi-persona problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            401.831,
+            406.815
+          ],
+          "quote": "Evals are a way for you to continue hill climbing against one target, which is agent quality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            432.573,
+            444.622
+          ],
+          "quote": "I want to be able to grab those failure modes and create test cases so that I can iterate offline, so I can improve my agent quality without introducing new regressions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            474.984,
+            479.925
+          ],
+          "quote": "It's a for loop with a set of input examples and a way to execute the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            481.94,
+            488.443
+          ],
+          "quote": "And with that, you can run the same examples that you tweak and see how the agent responds with the outputs over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            645.972,
+            651.255
+          ],
+          "quote": "So I have no idea what steps my agent is taking and when those failures are actually happening in my live environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            655.243,
+            673.916
+          ],
+          "quote": "And when we think, kind of going back to the flywheel, when we think about what are the best systems that enable this, well, you should be able to, starting at the top, observe the failure modes, log every input, output, every step of your trace execution that your agent takes, analyze, understand what went wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            728.04,
+            729.942
+          ],
+          "quote": "But agent traces are nasty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            783.685,
+            799.316
+          ],
+          "quote": "If you think about being able to fine-tune your agent experience or even have humans who are doing alignment by annotating your judges' outcomes, two different workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            880.244,
+            895.521
+          ],
+          "quote": "And more recently, we've seen that agents have become a first class citizen of these eval platforms where you want to be able to use natural language in a headless experience where you can tell your coding agent of choice",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            947.065,
+            957.271
+          ],
+          "quote": "Rather than you having to think about these dimensions of success and failure for your AI agent, Braintrust can surface these insights automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            965.776,
+            969.862
+          ],
+          "quote": "Hey, what are scenarios when my agent is failing silently?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            970.362,
+            977.492
+          ],
+          "quote": "Or what are scenarios that my users are experiencing frustration by prompting my agent for the same request over and over again?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1026.662,
+            1038.873
+          ],
+          "quote": "If I have different iterations of these evals that are run by my coding agent, I can look at the outcome and make the decision of which version of it is the best for what I want to ship to production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 天生非确定性、高度可变，这种灵活性既是能力来源，也带来品牌、合规和调试成本等风险，因此必须做评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            173.359,
+            176.181
+          ],
+          "quote": "Agents use LLM as their brain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪数据 (trace)",
+      "file": "追踪数据",
+      "primary": true,
+      "how_described": "本集说智能体 trace 是很棘手的半结构化 JSON，单次交互可达几百兆，普通云数据仓库在这种体量下会崩溃，是评估平台难做的核心原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            655.243,
+            673.916
+          ],
+          "quote": "And when we think, kind of going back to the flywheel, when we think about what are the best systems that enable this, well, you should be able to, starting at the top, observe the failure modes, log every input, output, every step of your trace execution that your agent takes, analyze, understand what went wrong.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agent)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集说编程智能体已成为评估平台的一等公民：它们能访问代码库和基础设施，可用自然语言指挥它们跑评估并记录结果，人只负责最后审查拍板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            880.244,
+            895.521
+          ],
+          "quote": "And more recently, we've seen that agents have become a first class citizen of these eval platforms where you want to be able to use natural language in a headless experience where you can tell your coding agent of choice",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1026.662,
+            1038.873
+          ],
+          "quote": "If I have different iterations of these evals that are run by my coding agent, I can look at the outcome and make the decision of which version of it is the best for what I want to ship to production.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "btql",
+      "type": "concept",
+      "role": "concept",
+      "name": "BTQL",
+      "file": "BTQL",
+      "primary": true,
+      "how_described": "本集说 Braintrust 为实时查询海量生产追踪数据而造的一层查询抽象，是评估平台变成系统问题的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            800.017,
+            808.903
+          ],
+          "quote": "So we built an abstraction layer called BTQL, which is another form of complexity because you want an interface for people to be able to query that data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提及 ChatGPT 爆火后出现实时摄入、超大载荷、深度嵌套半结构化文本等一系列新颖的数据问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            824.536,
+            833.325
+          ],
+          "quote": "And there are a novel set of issues when the ChatGPT boom happened a few years ago where I need to do real-time ingest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
