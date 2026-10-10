@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jason]] · [[Aristotle]] · [[Khan Academy]] · [[Anthropic]] · [[OpenAI]] · [[AI 导师]] · [[客户发现]] · [[后训练]] · [[多智能体架构]] · [[训练数据]]
 
-<script type="application/json" class="pd-epn">{"Jason":6,"Aristotle":1,"Khan Academy":2,"Anthropic":194,"OpenAI":186,"AI 导师":1,"客户发现":2,"后训练":1,"多智能体架构":2,"训练数据":3}</script>
+<script type="application/json" class="pd-epn">{"Jason":6,"Aristotle":1,"Khan Academy":2,"Anthropic":194,"OpenAI":188,"AI 导师":1,"客户发现":2,"后训练":1,"多智能体架构":2,"训练数据":3}</script>
 
 <script>
 (function(){

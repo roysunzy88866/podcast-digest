@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":4,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":8,"反事实推理":1,"现实到仿真再到现实":1,"Marble":4}</script>
+<script type="application/json" class="pd-epn">{"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":5,"Cynics":1,"空间智能":3,"大型世界模型":1,"模拟":9,"反事实推理":1,"现实到仿真再到现实":1,"Marble":5}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Databricks]] · [[Snowflake]] · [[Anthropic]] · [[HTAP]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Sarah Wang]] · [[Andy Pavlo]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"沙箱":88,"Databricks":23,"Snowflake":20,"Anthropic":194,"HTAP":2,"Ivan Burazin":1,"Matei Zaharia":1,"Sarah Wang":4,"Andy Pavlo":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"沙箱":88,"Databricks":23,"Snowflake":20,"Anthropic":194,"HTAP":2,"Ivan Burazin":1,"Matei Zaharia":1,"Sarah Wang":4,"Andy Pavlo":1}</script>
 
 <script>
 (function(){

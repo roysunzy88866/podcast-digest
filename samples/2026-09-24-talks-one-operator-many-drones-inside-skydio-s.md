@@ -133,8 +133,8 @@ Skydio 的行业优势在于同时掌控硬件、软件、云和用户界面。�
 **换个口味**
 
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|AI 定价的黄金象限：别把 20% 的价值白送]]<span class="pd-rz">同概念:智能体 (agent)、自主性 (autonomy)</span>
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 </div>

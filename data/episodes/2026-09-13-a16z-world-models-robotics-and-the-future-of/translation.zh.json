@@ -1,0 +1,2658 @@
+[
+ {
+  "seg": 0,
+  "start": 0.435,
+  "end": 4.778,
+  "speaker": "Unknown",
+  "en": "Language models are these general horizontal engines for processing streams of discrete text, discrete tokens.",
+  "zh": "语言模型是这些通用的横向引擎，用于处理离散文本流、离散 token 流。"
+ },
+ {
+  "seg": 1,
+  "start": 5.098,
+  "end": 8.181,
+  "speaker": "Unknown",
+  "en": "Those have had tons of applications from, you know, everything that we know and love today.",
+  "zh": "它们已经有大量的应用，从，你知道，我们今天所熟知和喜爱的一切。"
+ },
+ {
+  "seg": 2,
+  "start": 8.661,
+  "end": 17.968,
+  "speaker": "Unknown",
+  "en": "And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding that can be used to generate, simulate, reconstruct worlds.",
+  "zh": "而我们的论点是，还存在另一类模型，叫做世界模型，它应该基于视觉理解、基于物理理解，可以用来生成、模拟、重建世界。"
+ },
+ {
+  "seg": 3,
+  "start": 18.588,
+  "end": 23.171,
+  "speaker": "Unknown",
+  "en": "And if we can build these with the right generality, they should be applicable to tons of different industries, right?",
+  "zh": "而如果我们能以正确的通用性构建这些模型，它们应该能应用于大量不同的行业，对吧？"
+ },
+ {
+  "seg": 4,
+  "start": 23.191,
+  "end": 25.932,
+  "speaker": "Unknown",
+  "en": "From entertainment to VR to construction to robotics.",
+  "zh": "从娱乐到 VR 到建筑到机器人。"
+ },
+ {
+  "seg": 5,
+  "start": 26.332,
+  "end": 30.895,
+  "speaker": "Unknown",
+  "en": "We live our lives in this physical built space all around us, and we need models to help us with these things as well.",
+  "zh": "我们生活在周围这个物理建成的空间里，我们也需要模型来帮助我们处理这些事情。"
+ },
+ {
+  "seg": 6,
+  "start": 31.755,
+  "end": 34.557,
+  "speaker": "Unknown",
+  "en": "Language models gave AI a way to work with words.",
+  "zh": "语言模型给了 AI 一种处理文字的方式。"
+ },
+ {
+  "seg": 7,
+  "start": 35.197,
+  "end": 38.519,
+  "speaker": "Unknown",
+  "en": "What happens when models can understand and simulate the physical world?",
+  "zh": "当模型能够理解并模拟物理世界时，会发生什么？"
+ },
+ {
+  "seg": 8,
+  "start": 39.439,
+  "end": 48.206,
+  "speaker": "Unknown",
+  "en": "World Labs co-founder Justin Johnson joins Theo Jaffe and Sofia Puccini on MTS to discuss Atlas and the broader idea behind world models.",
+  "zh": "World Labs 联合创始人 Justin Johnson 做客 MTS，与 Theo Jaffe 和 Sofia Puccini 讨论 Atlas 以及世界模型背后的更宏大的理念。"
+ },
+ {
+  "seg": 9,
+  "start": 48.887,
+  "end": 63.419,
+  "speaker": "Unknown",
+  "en": "They explore how models could generate and reconstruct environments, what separates them from video generation, and applications across gaming, VFX, and robotics, including turning a few photos of a real space into a simulation for training a robot.",
+  "zh": "他们探讨了模型如何生成和重建环境、它们与视频生成的区别，以及在游戏、VFX 和机器人领域的应用，包括把一个真实空间的几张照片变成用于训练机器人的模拟。"
+ },
+ {
+  "seg": 10,
+  "start": 66.049,
+  "end": 72.851,
+  "speaker": "Unknown",
+  "en": "We're live with Justin Johnson, who is a co-founder of World Labs, which is a startup that builds spatial intelligence products.",
+  "zh": "我们现在与 Justin Johnson 直播连线，他是 World Labs 的联合创始人，这是一家构建空间智能产品的初创公司。"
+ },
+ {
+  "seg": 11,
+  "start": 73.591,
+  "end": 81.153,
+  "speaker": "Unknown",
+  "en": "And just today they announced Atlas, the world's first multimodal world model that generates image and video frames with pixel perfect camera control and reconstructs them in 3D.",
+  "zh": "就在今天，他们发布了 Atlas，世界上第一个多模态世界模型，它能以像素级完美的摄像机控制生成图像和视频帧，并将其重建为 3D。"
+ },
+ {
+  "seg": 12,
+  "start": 81.253,
+  "end": 83.453,
+  "speaker": "Unknown",
+  "en": "Model the world, move the camera and simulate space and time.",
+  "zh": "对世界建模，移动摄像机，模拟空间和时间。"
+ },
+ {
+  "seg": 13,
+  "start": 83.513,
+  "end": 85.093,
+  "speaker": "Unknown",
+  "en": "So congrats on the launch.",
+  "zh": "所以恭喜发布。"
+ },
+ {
+  "seg": 14,
+  "start": 85.113,
+  "end": 87.674,
+  "speaker": "Unknown",
+  "en": "Like the launch video looks really cool.",
+  "zh": "发布视频看起来真的很酷。"
+ },
+ {
+  "seg": 15,
+  "start": 88.354,
+  "end": 88.814,
+  "speaker": "Unknown",
+  "en": "Welcome to MTS.",
+  "zh": "欢迎来到 MTS。"
+ },
+ {
+  "seg": 16,
+  "start": 88.834,
+  "end": 89.955,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks for having me.",
+  "zh": "是的，谢谢邀请我。"
+ },
+ {
+  "seg": 17,
+  "start": 90.255,
+  "end": 90.715,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "不客气。"
+ },
+ {
+  "seg": 18,
+  "start": 91.235,
+  "end": 95.716,
+  "speaker": "Unknown",
+  "en": "So tell us a little bit more about like what this product is specifically, what you can do with it.",
+  "zh": "那么请多讲讲这个产品具体是什么，你能用它做什么。"
+ },
+ {
+  "seg": 19,
+  "start": 96.256,
+  "end": 97.096,
+  "speaker": "Unknown",
+  "en": "What people will use it for?",
+  "zh": "人们会用它来做什么？"
+ },
+ {
+  "seg": 20,
+  "start": 97.196,
+  "end": 97.316,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 21,
+  "start": 97.336,
+  "end": 98.517,
+  "speaker": "Unknown",
+  "en": "So this is not a product launch.",
+  "zh": "这不是一次产品发布。"
+ },
+ {
+  "seg": 22,
+  "start": 98.597,
+  "end": 99.857,
+  "speaker": "Unknown",
+  "en": "This is a model announcement.",
+  "zh": "这是一次模型发布。"
+ },
+ {
+  "seg": 23,
+  "start": 100.177,
+  "end": 101.218,
+  "speaker": "Unknown",
+  "en": "So the products are coming later.",
+  "zh": "产品会在晚些时候推出。"
+ },
+ {
+  "seg": 24,
+  "start": 101.738,
+  "end": 102.818,
+  "speaker": "Unknown",
+  "en": "This is the base model.",
+  "zh": "这是基础模型。"
+ },
+ {
+  "seg": 25,
+  "start": 102.878,
+  "end": 105.459,
+  "speaker": "Unknown",
+  "en": "It's going to be used to power our future products from WorldLabs.",
+  "zh": "它将被用来驱动 WorldLabs 未来的产品。"
+ },
+ {
+  "seg": 26,
+  "start": 105.879,
+  "end": 107.059,
+  "speaker": "Unknown",
+  "en": "But at its heart, it's a world model.",
+  "zh": "但它的核心是一个世界模型。"
+ },
+ {
+  "seg": 27,
+  "start": 107.499,
+  "end": 112.461,
+  "speaker": "Unknown",
+  "en": "It does basically three different kinds of things, generation, reconstruction, and simulation, right?",
+  "zh": "它基本上做三种不同的事情：生成、重建和模拟，对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 112.661,
+  "end": 116.042,
+  "speaker": "Unknown",
+  "en": "Generation is you want to generate new worlds that don't exist, right?",
+  "zh": "生成就是你想要生成不存在的全新世界，对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 116.062,
+  "end": 117.382,
+  "speaker": "Unknown",
+  "en": "Like I can start from a text prompt.",
+  "zh": "比如我可以从一段文本提示开始。"
+ },
+ {
+  "seg": 30,
+  "start": 117.422,
+  "end": 118.603,
+  "speaker": "Unknown",
+  "en": "I can start from an image prompt.",
+  "zh": "我可以从一张图像提示开始。"
+ },
+ {
+  "seg": 31,
+  "start": 118.823,
+  "end": 125.465,
+  "speaker": "Unknown",
+  "en": "Then I can direct the camera and sort of fly through that world in whatever, have the model generate a world that never existed before.",
+  "zh": "然后我可以导播摄像机，以某种方式飞越那个世界，让模型生成一个从未存在过的世界。"
+ },
+ {
+  "seg": 32,
+  "start": 126.005,
+  "end": 129.867,
+  "speaker": "Unknown",
+  "en": "So that obviously has tons of applications across many things in creativity, right?",
+  "zh": "所以这显然在创意领域的许多方面有大量应用，对吧？"
+ },
+ {
+  "seg": 33,
+  "start": 129.887,
+  "end": 133.369,
+  "speaker": "Unknown",
+  "en": "From VFX to gaming to all the kinds of use cases that people are using there.",
+  "zh": "从 VFX 到游戏，再到人们正在使用的各种用例。"
+ },
+ {
+  "seg": 34,
+  "start": 134.29,
+  "end": 136.851,
+  "speaker": "Unknown",
+  "en": "The second major capability of Atlas is reconstruction, right?",
+  "zh": "Atlas 的第二个主要能力是重建，对吧？"
+ },
+ {
+  "seg": 35,
+  "start": 136.911,
+  "end": 139.412,
+  "speaker": "Unknown",
+  "en": "There sometimes I don't want to generate a new world.",
+  "zh": "有时我不想生成一个新世界。"
+ },
+ {
+  "seg": 36,
+  "start": 139.513,
+  "end": 146.917,
+  "speaker": "Unknown",
+  "en": "Sometimes I have an existing space in the real world that I'd like to model and bring into virtual reality or the virtual world in some way, right?",
+  "zh": "有时我在现实世界中有一个已有的空间，我想对它建模并以某种方式带入虚拟现实或虚拟世界，对吧？"
+ },
+ {
+  "seg": 37,
+  "start": 146.997,
+  "end": 149.078,
+  "speaker": "Unknown",
+  "en": "So there what Atlas can do is sparse reconstruction.",
+  "zh": "在这方面 Atlas 能做的是稀疏重建。"
+ },
+ {
+  "seg": 38,
+  "start": 149.718,
+  "end": 154.002,
+  "speaker": "Unknown",
+  "en": "I can take just a few photos of a space, as few as one, up to 100 or more.",
+  "zh": "我可以只拍几张一个空间的照片，少到一张，多到 100 张或更多。"
+ },
+ {
+  "seg": 39,
+  "start": 154.562,
+  "end": 158.626,
+  "speaker": "Unknown",
+  "en": "And the more photos you give it, the more you can reconstruct that existing real world space accurately.",
+  "zh": "你给它的照片越多，你就越能准确地重建那个已有的真实世界空间。"
+ },
+ {
+  "seg": 40,
+  "start": 159.726,
+  "end": 161.528,
+  "speaker": "Unknown",
+  "en": "And the third thing we can do is simulation, right?",
+  "zh": "我们能做的第三件事是模拟，对吧？"
+ },
+ {
+  "seg": 41,
+  "start": 161.568,
+  "end": 163.85,
+  "speaker": "Unknown",
+  "en": "And this is going after more robotics.",
+  "zh": "而这更多是面向机器人。"
+ },
+ {
+  "seg": 42,
+  "start": 164.15,
+  "end": 165.411,
+  "speaker": "Unknown",
+  "en": "Well, both VFX and robotics.",
+  "zh": "其实 VFX 和机器人都是。"
+ },
+ {
+  "seg": 43,
+  "start": 165.831,
+  "end": 173.538,
+  "speaker": "Unknown",
+  "en": "But there we want to be able to take an existing space, recreate that space in 3D, then simulate how a robot might behave in that space.",
+  "zh": "但在那方面我们希望能够获取一个已有的空间，在 3D 中重建那个空间，然后模拟机器人在这个空间中可能会如何行动。"
+ },
+ {
+  "seg": 44,
+  "start": 173.818,
+  "end": 176.1,
+  "speaker": "Unknown",
+  "en": "And we show some examples of all these different use cases on the blog.",
+  "zh": "我们在博客上展示了所有这些不同用例的一些例子。"
+ },
+ {
+  "seg": 45,
+  "start": 176.603,
+  "end": 176.763,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 46,
+  "start": 177.063,
+  "end": 177.303,
+  "speaker": "Unknown",
+  "en": "Hmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 47,
+  "start": 177.844,
+  "end": 183.207,
+  "speaker": "Unknown",
+  "en": "Is the ultimate vision for WorldLab something more like environment for teaching robotics how to work?",
+  "zh": "WorldLab 的终极愿景是更像一个教机器人如何工作的环境？"
+ },
+ {
+  "seg": 48,
+  "start": 183.307,
+  "end": 187.149,
+  "speaker": "Unknown",
+  "en": "Or is it more like a metaverse that people will like spend time in?",
+  "zh": "还是更像一个人们会愿意花时间待在里面的元宇宙？"
+ },
+ {
+  "seg": 49,
+  "start": 187.169,
+  "end": 187.969,
+  "speaker": "Unknown",
+  "en": "All of the above, probably.",
+  "zh": "以上可能全都是。"
+ },
+ {
+  "seg": 50,
+  "start": 187.989,
+  "end": 188.91,
+  "speaker": "Unknown",
+  "en": "Or is it just kind of all of the above?",
+  "zh": "还是说其实以上皆是？"
+ },
+ {
+  "seg": 51,
+  "start": 188.93,
+  "end": 189.97,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's all of the above.",
+  "zh": "是的，我认为以上皆是。"
+ },
+ {
+  "seg": 52,
+  "start": 189.99,
+  "end": 194.653,
+  "speaker": "Unknown",
+  "en": "The central thesis here is that there's a new, there's a different kind of horizontal model that we can build called a world model.",
+  "zh": "这里的核心论点是，存在一种新的，一种我们可以构建的不同类型的横向模型，叫做世界模型。"
+ },
+ {
+  "seg": 53,
+  "start": 195.053,
+  "end": 195.233,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 54,
+  "start": 195.253,
+  "end": 199.795,
+  "speaker": "Unknown",
+  "en": "Like language models are these general horizontal engines for processing streams of discrete text, discrete tokens.",
+  "zh": "就像语言模型是这些用于处理离散文本流、离散 token 流的通用横向引擎。"
+ },
+ {
+  "seg": 55,
+  "start": 200.116,
+  "end": 203.197,
+  "speaker": "Unknown",
+  "en": "Those have had tons of applications from, you know, everything that we know and love today.",
+  "zh": "它们已经有了大量的应用，从，你知道，我们今天所知和喜爱的一切。"
+ },
+ {
+  "seg": 56,
+  "start": 203.657,
+  "end": 213.122,
+  "speaker": "Unknown",
+  "en": "And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding, that can be used to generate, simulate, reconstruct worlds.",
+  "zh": "我们的论点是，存在另一类模型叫做世界模型，它应该基于视觉理解，应该基于物理理解，可以用来生成、模拟、重建世界。"
+ },
+ {
+  "seg": 57,
+  "start": 213.742,
+  "end": 218.328,
+  "speaker": "Unknown",
+  "en": "And if we can build these with the right generality, they should be applicable to tons of different industries, right?",
+  "zh": "而如果我们能以足够强的通用性构建它们，它们应该能适用于大量不同的行业，对吧？"
+ },
+ {
+  "seg": 58,
+  "start": 218.348,
+  "end": 221.091,
+  "speaker": "Unknown",
+  "en": "From entertainment, to VR, to construction, to robotics.",
+  "zh": "从娱乐，到 VR，到建筑，到机器人。"
+ },
+ {
+  "seg": 59,
+  "start": 221.912,
+  "end": 227.059,
+  "speaker": "Unknown",
+  "en": "You know, we live our lives in this physical built space all around us, and we need models to help us with these things as well.",
+  "zh": "你知道，我们生活在周围这个物理建成的空间里，我们也需要模型来帮助我们处理这些事情。"
+ },
+ {
+  "seg": 60,
+  "start": 227.397,
+  "end": 231.138,
+  "speaker": "Unknown",
+  "en": "Right, so the model is the input that would go to all those industries, like the input intelligence.",
+  "zh": "对，所以这个模型就是输入到所有那些行业的东西，就像输入的智能。"
+ },
+ {
+  "seg": 61,
+  "start": 231.778,
+  "end": 236.239,
+  "speaker": "Unknown",
+  "en": "I'm curious like how this has evolved and why Atlas is a big jump here.",
+  "zh": "我很好奇这是如何演进的，以及为什么 Atlas 是这里的一大跳跃。"
+ },
+ {
+  "seg": 62,
+  "start": 236.279,
+  "end": 251.743,
+  "speaker": "Unknown",
+  "en": "So I would imagine like one of the difficulties with procedurally generating worlds is that like after a certain point, like I feel like, you know, with video models like 10 seconds in, I feel like the output could start to get jumbled, especially if you have like a reference image and then it starts to take its own direction.",
+  "zh": "所以我可以想象，程序化生成世界的困难之一是，过了某个点之后，我觉得，你知道，对于视频模型来说，10 秒之后，我觉得输出可能开始变得混乱，尤其是如果你有一个参考图像，然后它开始走自己的方向。"
+ },
+ {
+  "seg": 63,
+  "start": 251.783,
+  "end": 253.684,
+  "speaker": "Unknown",
+  "en": "It starts to like hallucinate in its own way.",
+  "zh": "它开始以自己的方式产生幻觉。"
+ },
+ {
+  "seg": 64,
+  "start": 253.724,
+  "end": 254.524,
+  "speaker": "Unknown",
+  "en": "So how do you fix",
+  "zh": "那么你如何解决"
+ },
+ {
+  "seg": 65,
+  "start": 255.224,
+  "end": 259.831,
+  "speaker": "Unknown",
+  "en": "This thing of like at a certain horizon, things would start to get jumped or distorted.",
+  "zh": "这个在某个时间范围之后，东西开始变得混乱或扭曲的问题。"
+ },
+ {
+  "seg": 66,
+  "start": 260.051,
+  "end": 260.893,
+  "speaker": "Unknown",
+  "en": "Yeah, that's a great question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 67,
+  "start": 260.953,
+  "end": 265.48,
+  "speaker": "Unknown",
+  "en": "So here we built Atlas specifically around spatial control and the notion of a spatial context.",
+  "zh": "所以我们构建 Atlas 时专门围绕空间控制和空间上下文的概念。"
+ },
+ {
+  "seg": 68,
+  "start": 265.98,
+  "end": 268.945,
+  "speaker": "Unknown",
+  "en": "So when you give Atlas reference images, they aren't just images.",
+  "zh": "所以当你给 Atlas 参考图像时，它们不只是图像。"
+ },
+ {
+  "seg": 69,
+  "start": 269.245,
+  "end": 270.608,
+  "speaker": "Unknown",
+  "en": "They're actually grounded in 3D space.",
+  "zh": "它们实际上是被锚定在 3D 空间中的。"
+ },
+ {
+  "seg": 70,
+  "start": 271.028,
+  "end": 276.894,
+  "speaker": "Unknown",
+  "en": "So you can stage those images in 3D and say, this reference image should be here, this reference image should be here, this reference image should be here.",
+  "zh": "所以你可以把这些图像在 3D 中摆放，并说，这张参考图像应该在这里，这张参考图像应该在这里，这张参考图像应该在这里。"
+ },
+ {
+  "seg": 71,
+  "start": 277.434,
+  "end": 288.885,
+  "speaker": "Unknown",
+  "en": "And when you generate a video from Atlas, you're not just giving it a text prompt, you also go in and steer the camera and say, I want the camera to fly this way, this way, this way, this way, with exact precise pixel control.",
+  "zh": "而当你用 Atlas 生成视频时，你不只是给它一个文本提示词，你还可以进去操纵相机，说，我想让相机朝这个方向飞，这个方向、这个方向、这个方向，具有精确的像素级控制。"
+ },
+ {
+  "seg": 72,
+  "start": 289.385,
+  "end": 297.97,
+  "speaker": "Unknown",
+  "en": "So then we show some examples where even up to a minute of video, we give it more reference images and sort of leave breadcrumbs of those images along the trail in 3D.",
+  "zh": "然后我们展示了一些例子，即使长达一分钟的视频，我们给它更多参考图像，并有点像在 3D 中沿路径留下那些图像的面包屑。"
+ },
+ {
+  "seg": 73,
+  "start": 298.25,
+  "end": 301.152,
+  "speaker": "Unknown",
+  "en": "And then you get that direct tutorial control over the video that you're generating.",
+  "zh": "然后你就获得了对你正在生成的视频的直接教学式控制。"
+ },
+ {
+  "seg": 74,
+  "start": 301.652,
+  "end": 306.675,
+  "speaker": "Unknown",
+  "en": "So the idea here is that even as you go to really long generations, it's not a slot machine.",
+  "zh": "所以这里的理念是，即使你去到非常长的生成，它也不是一台老虎机。"
+ },
+ {
+  "seg": 75,
+  "start": 306.996,
+  "end": 310.578,
+  "speaker": "Unknown",
+  "en": "You're generating and directing and really controlling what the model outputs.",
+  "zh": "你在生成、执导，并真正控制模型的输出。"
+ },
+ {
+  "seg": 76,
+  "start": 311.249,
+  "end": 311.489,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 77,
+  "start": 312.31,
+  "end": 322.017,
+  "speaker": "Unknown",
+  "en": "So yeah, we were just talking right before we went on about our friend Tyce from OpenAI did this project that went kind of viral that was like GTA, but it's San Francisco.",
+  "zh": "对，我们刚在上场前还谈到我们的朋友 OpenAI 的 Tyce 做了一个有点走红的项目，就像 GTA，不过是旧金山。"
+ },
+ {
+  "seg": 78,
+  "start": 322.057,
+  "end": 326.44,
+  "speaker": "Unknown",
+  "en": "So it like, I think it was like a giant Gaussian splat of the whole city or something.",
+  "zh": "所以就像，我记得那是整个城市的一个巨大的 Gaussian splat 之类的。"
+ },
+ {
+  "seg": 79,
+  "start": 327.04,
+  "end": 328.562,
+  "speaker": "Unknown",
+  "en": "And you can like walk around in it.",
+  "zh": "然后你可以在里面走来走去。"
+ },
+ {
+  "seg": 80,
+  "start": 329.002,
+  "end": 330.763,
+  "speaker": "Unknown",
+  "en": "You can steal cars and drive around.",
+  "zh": "你可以偷车并开车兜风。"
+ },
+ {
+  "seg": 81,
+  "start": 330.783,
+  "end": 331.384,
+  "speaker": "Unknown",
+  "en": "You can fly around.",
+  "zh": "你可以四处飞行。"
+ },
+ {
+  "seg": 82,
+  "start": 331.604,
+  "end": 332.845,
+  "speaker": "Unknown",
+  "en": "It's not very high resolution.",
+  "zh": "它的分辨率不是很高。"
+ },
+ {
+  "seg": 83,
+  "start": 333.105,
+  "end": 334.986,
+  "speaker": "Unknown",
+  "en": "Definitely not as much as Atlas.",
+  "zh": "肯定比不上 Atlas。"
+ },
+ {
+  "seg": 84,
+  "start": 335.406,
+  "end": 335.627,
+  "speaker": "Unknown",
+  "en": "You think",
+  "zh": "你认为"
+ },
+ {
+  "seg": 85,
+  "start": 336.798,
+  "end": 338.96,
+  "speaker": "Unknown",
+  "en": "Ultimately, this is something you'll be able to do with Atlas?",
+  "zh": "最终，这是你能用 Atlas 做到的事情吗？"
+ },
+ {
+  "seg": 86,
+  "start": 339.46,
+  "end": 340.021,
+  "speaker": "Unknown",
+  "en": "Yeah, I think so.",
+  "zh": "是的，我认为是。"
+ },
+ {
+  "seg": 87,
+  "start": 340.241,
+  "end": 344.885,
+  "speaker": "Unknown",
+  "en": "And I think there's actually two different futures here of like the tech path that gets us there.",
+  "zh": "而且我认为实际上有两条不同的未来路径，即让我们达成这个目标的技术路径。"
+ },
+ {
+  "seg": 88,
+  "start": 345.205,
+  "end": 347.487,
+  "speaker": "Unknown",
+  "en": "One is sort of the explicit 3D route that you mentioned, right?",
+  "zh": "一条是你提到的显式 3D 路线，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 347.507,
+  "end": 352.431,
+  "speaker": "Unknown",
+  "en": "Like the idea of generating a Gaussian splat reconstruction, then importing that explicit asset into a game engine or something else.",
+  "zh": "就是生成一个 Gaussian splat 重建，然后把那个显式资产导入游戏引擎或其他东西的想法。"
+ },
+ {
+  "seg": 90,
+  "start": 353.011,
+  "end": 354.552,
+  "speaker": "Unknown",
+  "en": "This is something Atlas can do, right?",
+  "zh": "这是 Atlas 可以做到的，对吧？"
+ },
+ {
+  "seg": 91,
+  "start": 354.592,
+  "end": 359.797,
+  "speaker": "Unknown",
+  "en": "Like it can be used to generate, you know, 3D Gaussian splat scenes, and then you could import them and generate and build games around them.",
+  "zh": "就像它可以用来生成，你知道，3D Gaussian splat 场景，然后你可以导入它们，并围绕它们生成和构建游戏。"
+ },
+ {
+  "seg": 92,
+  "start": 360.517,
+  "end": 365.663,
+  "speaker": "Unknown",
+  "en": "Another direction where this could go is, you know, you skip the engine entirely and go directly for frame generation, right?",
+  "zh": "另一个可能的方向是，你知道，你完全跳过引擎，直接进行帧生成，对吧？"
+ },
+ {
+  "seg": 93,
+  "start": 365.703,
+  "end": 369.367,
+  "speaker": "Unknown",
+  "en": "And I have the model directly outputting the frames without any explicit 3D in the mix anywhere.",
+  "zh": "我让模型直接输出帧，而不在任何地方混合任何显式 3D。"
+ },
+ {
+  "seg": 94,
+  "start": 370.208,
+  "end": 371.91,
+  "speaker": "Unknown",
+  "en": "And Atlas is built to do this as well.",
+  "zh": "Atlas 也被构建为能做到这一点。"
+ },
+ {
+  "seg": 95,
+  "start": 372.31,
+  "end": 379.158,
+  "speaker": "Unknown",
+  "en": "So it's one model that both handles, you know, 2D when you need it, 3D when you need it, and can handle both modalities in a native way.",
+  "zh": "所以它是一个模型，既能在你需要时处理 2D，也能在你需要时处理 3D，并且能以原生的方式处理这两种模态。"
+ },
+ {
+  "seg": 96,
+  "start": 379.762,
+  "end": 387.192,
+  "speaker": "Unknown",
+  "en": "If you're somebody using this world model and you have all these inputs, how would you steer Atlas to do what you intended?",
+  "zh": "如果你是一个使用这个世界模型的人，你拥有所有这些输入，你会如何引导 Atlas 去做你想要的事情？"
+ },
+ {
+  "seg": 97,
+  "start": 387.533,
+  "end": 391.699,
+  "speaker": "Unknown",
+  "en": "If you're a film producer or video game developer, how would you work with it?",
+  "zh": "如果你是一个电影制作人或视频游戏开发者，你会如何与它协作？"
+ },
+ {
+  "seg": 98,
+  "start": 392.162,
+  "end": 398.745,
+  "speaker": "Unknown",
+  "en": "Yeah, we have some internal tooling for this, but it's going to take a little bit more iteration on the product side to figure out the right way to expose that.",
+  "zh": "是的，我们有一些用于此的内部工具，但在产品侧还需要更多的迭代来找出公开它的正确方式。"
+ },
+ {
+  "seg": 99,
+  "start": 399.345,
+  "end": 401.787,
+  "speaker": "Unknown",
+  "en": "But the internal tooling is actually pretty awesome, right?",
+  "zh": "但内部工具其实相当棒，对吧？"
+ },
+ {
+  "seg": 100,
+  "start": 401.807,
+  "end": 404.748,
+  "speaker": "Unknown",
+  "en": "You can basically take images, drag them into this interface.",
+  "zh": "你基本上可以把图像拖进这个界面。"
+ },
+ {
+  "seg": 101,
+  "start": 405.148,
+  "end": 408.09,
+  "speaker": "Unknown",
+  "en": "You have this sort of spatial 3D canvas for all your input images.",
+  "zh": "你会有一个空间化的 3D 画布来放所有输入图像。"
+ },
+ {
+  "seg": 102,
+  "start": 408.73,
+  "end": 416.654,
+  "speaker": "Unknown",
+  "en": "Then they end up with this like proxy geometry in 3D space, and you can steer your camera kind of with an FPS type control to like decide exactly where you want this thing to go.",
+  "zh": "然后它们会在 3D 空间中形成一种代理几何体，你可以用类似 FPS 的控制方式来操控相机，精确决定你想让这个东西去到哪里。"
+ },
+ {
+  "seg": 103,
+  "start": 417.295,
+  "end": 420.16,
+  "speaker": "Unknown",
+  "en": "And that's a pretty complicated user experience or user interface.",
+  "zh": "这是一个相当复杂的用户体验或用户界面。"
+ },
+ {
+  "seg": 104,
+  "start": 420.24,
+  "end": 423.846,
+  "speaker": "Unknown",
+  "en": "So I think we'll probably iterate on different ways to expose these capabilities in nice ways.",
+  "zh": "所以我想我们大概会不断迭代，找出以更好的方式暴露这些能力的方法。"
+ },
+ {
+  "seg": 105,
+  "start": 424.627,
+  "end": 427.151,
+  "speaker": "Unknown",
+  "en": "How does it differ from Marble, which is WorldLab's first product?",
+  "zh": "它和 Marble 有什么不同？Marble 是 WorldLab 的第一个产品。"
+ },
+ {
+  "seg": 106,
+  "start": 427.673,
+  "end": 430.456,
+  "speaker": "Unknown",
+  "en": "Yeah, so it's a totally rebuilt stack of models, right?",
+  "zh": "是的，这是一套完全重建的模型栈，对吧？"
+ },
+ {
+  "seg": 107,
+  "start": 430.696,
+  "end": 432.197,
+  "speaker": "Unknown",
+  "en": "I think the central thesis is the same.",
+  "zh": "我认为核心论点是一样的。"
+ },
+ {
+  "seg": 108,
+  "start": 432.238,
+  "end": 436.562,
+  "speaker": "Unknown",
+  "en": "We want to build multimodal models that can input many different modalities, output many modalities.",
+  "zh": "我们想构建多模态模型，能够输入多种不同的模态，输出多种模态。"
+ },
+ {
+  "seg": 109,
+  "start": 436.602,
+  "end": 437.903,
+  "speaker": "Unknown",
+  "en": "This is something that Marble did as well.",
+  "zh": "Marble 也做到了这一点。"
+ },
+ {
+  "seg": 110,
+  "start": 438.524,
+  "end": 444.129,
+  "speaker": "Unknown",
+  "en": "But one way in which they differ is that Marble really put Gaussian splats really at the center of many things that it did.",
+  "zh": "但它们的一个不同之处在于，Marble 真正把高斯溅射放在了它所做的许多事情的中心。"
+ },
+ {
+  "seg": 111,
+  "start": 444.67,
+  "end": 451.897,
+  "speaker": "Unknown",
+  "en": "So Marble could output videos, Marble could output 3D scenes, Marble could output meshes, but everything was kind of bottlenecking through a 3D Gaussian splat representation.",
+  "zh": "所以 Marble 可以输出视频，Marble 可以输出 3D 场景，Marble 可以输出网格，但一切都某种程度上要经过一个 3D 高斯溅射表示的瓶颈。"
+ },
+ {
+  "seg": 112,
+  "start": 452.277,
+  "end": 458.459,
+  "speaker": "Unknown",
+  "en": "So whenever we output videos or images from Marvel, you were always generating a Gaussian scene, then rendering those Gaussians back to images or videos.",
+  "zh": "所以每当我们从 Marvel 输出视频或图像时，你总是先生成一个高斯场景，然后把这些高斯渲染回图像或视频。"
+ },
+ {
+  "seg": 113,
+  "start": 458.999,
+  "end": 461.84,
+  "speaker": "Unknown",
+  "en": "And this is really nice, but we wanted to break that dependency.",
+  "zh": "这确实很好，但我们想打破那个依赖。"
+ },
+ {
+  "seg": 114,
+  "start": 462.18,
+  "end": 473.863,
+  "speaker": "Unknown",
+  "en": "So Atlas was built fully from the ground up to both rethink the architecture, to make it more unified, more easy to scale, and to have that sort of that branch between 2D and 3D happen earlier.",
+  "zh": "所以 Atlas 是完全从零构建的，既重新思考了架构，使其更统一、更容易扩展，也让 2D 和 3D 之间的那个分支更早地发生。"
+ },
+ {
+  "seg": 115,
+  "start": 474.443,
+  "end": 474.603,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 116,
+  "start": 474.623,
+  "end": 480.267,
+  "speaker": "Unknown",
+  "en": "So that when when we're generating 2D outputs or video outputs from Atlas, you're not bottlenecking through a Gaussian splash scene anymore.",
+  "zh": "这样，当我们从 Atlas 生成 2D 输出或视频输出时，你就不再要经过一个高斯溅射场景的瓶颈了。"
+ },
+ {
+  "seg": 117,
+  "start": 480.627,
+  "end": 487.352,
+  "speaker": "Unknown",
+  "en": "The model is directly giving you those beautiful 2D pixels and then only you lift them up to 3D only for the applications that you that you actually know that you need 3D.",
+  "zh": "模型直接给你那些漂亮的 2D 像素，然后只有在你真正知道自己需要 3D 的那些应用中，你才把它们提升到 3D。"
+ },
+ {
+  "seg": 118,
+  "start": 488.333,
+  "end": 496.899,
+  "speaker": "Unknown",
+  "en": "So I guess at this stage, like, are we outgrowing Gaussians as a technology or like what like what is their role within all of this?",
+  "zh": "所以我想在这个阶段，我们是不是正在超越高斯作为一种技术？或者说，它在这一切中的角色是什么？"
+ },
+ {
+  "seg": 119,
+  "start": 497.578,
+  "end": 501.359,
+  "speaker": "Unknown",
+  "en": "I think Gaussians are a tool just like anything else, and you've got to use the right tool for the job, right?",
+  "zh": "我认为高斯就像其他任何东西一样，只是一个工具，你得为工作选用合适的工具，对吧？"
+ },
+ {
+  "seg": 120,
+  "start": 501.399,
+  "end": 509.402,
+  "speaker": "Unknown",
+  "en": "Like if you're working on something like VFX, then the ultimate output is a 2D image or a 2D image or 2D video, and maybe that's all you need.",
+  "zh": "比如如果你在做 VFX 这类东西，那么最终输出是 2D 图像或 2D 图像或 2D 视频，也许那就是你所需要的全部。"
+ },
+ {
+  "seg": 121,
+  "start": 510.042,
+  "end": 516.685,
+  "speaker": "Unknown",
+  "en": "But for other applications, especially real-time applications on embedded devices, like I think Gaussians and other explicit 3D representations still have their place.",
+  "zh": "但对于其他应用，尤其是嵌入式设备上的实时应用，我认为高斯和其他显式 3D 表示仍然有它们的位置。"
+ },
+ {
+  "seg": 122,
+  "start": 517.4,
+  "end": 527.291,
+  "speaker": "Unknown",
+  "en": "I think there might be a world in the future where we're all streaming pixels directly off these models in real time from powerful server farms, but we're not quite there yet, and even if we are, it's going to be pretty expensive.",
+  "zh": "我想也许未来会有这样一个世界：我们都从强大的服务器农场实时地直接从这些模型流式传输像素，但我们还没完全到那一步，而且即使到了，那也会相当昂贵。"
+ },
+ {
+  "seg": 123,
+  "start": 527.671,
+  "end": 537.362,
+  "speaker": "Unknown",
+  "en": "So something like a Gaussian or a Mesh is really useful for client-side rendering, especially on mobile or VR devices, and also really useful for integrating with existing workflows and pipelines.",
+  "zh": "所以像高斯或网格这样的东西对于客户端渲染非常有用，尤其是在移动设备或 VR 设备上，而且对于与现有工作流和管线的集成也非常有用。"
+ },
+ {
+  "seg": 124,
+  "start": 538.157,
+  "end": 545.24,
+  "speaker": "Unknown",
+  "en": "I think we all believe in the future of technology and we're excited about building these solutions that give us whole new experiences.",
+  "zh": "我想我们都相信技术的未来，我们很兴奋能构建这些给我们带来全新体验的解决方案。"
+ },
+ {
+  "seg": 125,
+  "start": 545.52,
+  "end": 550.722,
+  "speaker": "Unknown",
+  "en": "But the reality is that it takes a lot longer for these things to permeate than we expect.",
+  "zh": "但现实是，这些东西渗透所需的时间比我们预期的要长得多。"
+ },
+ {
+  "seg": 126,
+  "start": 550.742,
+  "end": 556.885,
+  "speaker": "Unknown",
+  "en": "So people in gaming and VFX and design and architecture, they have their existing workflows that work on 3D representations.",
+  "zh": "所以游戏、VFX、设计和建筑领域的人，他们有现成的、基于 3D 表示运作的工作流。"
+ },
+ {
+  "seg": 127,
+  "start": 557.285,
+  "end": 564.448,
+  "speaker": "Unknown",
+  "en": "And instead of trying to switch them over all at once to a fully AI-native thing, if you can get with AI into their workflows and meet them where they are,",
+  "zh": "与其试图一下子把他们全部切换到完全 AI 原生的东西，如果你能带着 AI 进入他们的工作流，在他们所在的地方与他们相会，"
+ },
+ {
+  "seg": 128,
+  "start": 564.848,
+  "end": 569.171,
+  "speaker": "Unknown",
+  "en": "Then that's another great use of splats and other explicit 3D representations.",
+  "zh": "那就是溅射和其他显式 3D 表示的又一个很好的用武之地。"
+ },
+ {
+  "seg": 129,
+  "start": 569.571,
+  "end": 569.871,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 130,
+  "start": 570.451,
+  "end": 570.671,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 131,
+  "start": 570.772,
+  "end": 583.219,
+  "speaker": "Unknown",
+  "en": "One of my favorite video games ever is Microsoft Flight Simulator, which is you get in a plane and you fly around the world and it uses like a lot of, not quite real time, but it uses satellite data.",
+  "zh": "我最喜欢的电子游戏之一是 Microsoft Flight Simulator，就是你坐进一架飞机，然后环游世界，它用了很多——不算完全实时——但它使用卫星数据。"
+ },
+ {
+  "seg": 132,
+  "start": 584.199,
+  "end": 588.984,
+  "speaker": "Unknown",
+  "en": "In order to reconstruct a 3D model of the world, basically, in reasonably high fidelity.",
+  "zh": "来重建世界的 3D 模型，基本上，以相当高的保真度。"
+ },
+ {
+  "seg": 133,
+  "start": 589.104,
+  "end": 590.785,
+  "speaker": "Unknown",
+  "en": "Not incredibly high, reasonably high.",
+  "zh": "不是特别高，是相当高。"
+ },
+ {
+  "seg": 134,
+  "start": 590.805,
+  "end": 601.715,
+  "speaker": "Unknown",
+  "en": "Do you think Atlas will eventually be able to... Like, what will it take to get Atlas from where it is now to able to dynamically generate content quickly enough to...",
+  "zh": "你认为 Atlas 最终能不能……比如，需要什么才能让 Atlas 从现在的状态，到能够足够快地动态生成内容，以至于……"
+ },
+ {
+  "seg": 135,
+  "start": 603.477,
+  "end": 604.738,
+  "speaker": "Unknown",
+  "en": "Do what Flight Simulator does.",
+  "zh": "做到 Flight Simulator 做的事。"
+ },
+ {
+  "seg": 136,
+  "start": 605.138,
+  "end": 607.92,
+  "speaker": "Unknown",
+  "en": "And like, is this even like the right tech tree for that?",
+  "zh": "而且，这甚至是对的技术树吗？"
+ },
+ {
+  "seg": 137,
+  "start": 608,
+  "end": 612.683,
+  "speaker": "Unknown",
+  "en": "Imagine like Google Maps in this world, like you could just traverse like any space basically.",
+  "zh": "想象一下这个世界里的 Google Maps，你基本上可以穿行任何空间。"
+ },
+ {
+  "seg": 138,
+  "start": 612.703,
+  "end": 613.684,
+  "speaker": "Unknown",
+  "en": "Is it kind of overkill though?",
+  "zh": "不过这是不是有点杀鸡用牛刀？"
+ },
+ {
+  "seg": 139,
+  "start": 613.924,
+  "end": 616.366,
+  "speaker": "Unknown",
+  "en": "I mean, I think it'll happen sooner than you expect, right?",
+  "zh": "我是说，我认为这会发生得比你预期的更快，对吧？"
+ },
+ {
+  "seg": 140,
+  "start": 616.386,
+  "end": 617.547,
+  "speaker": "Unknown",
+  "en": "And that'll happen in one of two ways.",
+  "zh": "而那会以两种方式之一发生。"
+ },
+ {
+  "seg": 141,
+  "start": 617.887,
+  "end": 622.15,
+  "speaker": "Unknown",
+  "en": "Like there's one sort of, and actually, you know, Atlas was built to handle both of those tech trees.",
+  "zh": "比如有一种——而且实际上，你知道，Atlas 就是为处理这两条技术树而构建的。"
+ },
+ {
+  "seg": 142,
+  "start": 622.55,
+  "end": 624.172,
+  "speaker": "Unknown",
+  "en": "One is the explicit 3D route, right?",
+  "zh": "一种是显式 3D 路线，对吧？"
+ },
+ {
+  "seg": 143,
+  "start": 624.192,
+  "end": 628.737,
+  "speaker": "Unknown",
+  "en": "Like maybe we're generating a Gaussian scene or a 3D point cloud scene and then interpolating that on the client.",
+  "zh": "比如也许我们生成一个高斯场景或 3D 点云场景，然后在客户端进行插值。"
+ },
+ {
+  "seg": 144,
+  "start": 628.777,
+  "end": 630.999,
+  "speaker": "Unknown",
+  "en": "That's something Atlas can do because of its native 3D outputs.",
+  "zh": "因为它有原生 3D 输出，这是 Atlas 能做到的。"
+ },
+ {
+  "seg": 145,
+  "start": 631.34,
+  "end": 634.543,
+  "speaker": "Unknown",
+  "en": "The other version, like I said, is just directly streaming the frames, right?",
+  "zh": "另一个版本，就像我说的，就是直接流式传输帧，对吧？"
+ },
+ {
+  "seg": 146,
+  "start": 634.563,
+  "end": 637.026,
+  "speaker": "Unknown",
+  "en": "And that's something that I think we'll be able to do pretty soon.",
+  "zh": "而那是我认为我们很快就能做到的。"
+ },
+ {
+  "seg": 147,
+  "start": 638.125,
+  "end": 638.345,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 148,
+  "start": 638.686,
+  "end": 642.007,
+  "speaker": "Unknown",
+  "en": "I'm also really curious about reel to sim for robotics.",
+  "zh": "我还对机器人领域的 reel to sim 非常好奇。"
+ },
+ {
+  "seg": 149,
+  "start": 642.247,
+  "end": 645.689,
+  "speaker": "Unknown",
+  "en": "So, you know, taking like a reel video and then building a simulation.",
+  "zh": "就是，你知道，拿一段 reel 视频，然后构建一个模拟。"
+ },
+ {
+  "seg": 150,
+  "start": 646.529,
+  "end": 652.692,
+  "speaker": "Unknown",
+  "en": "So how is this useful and how do you see this possibly being like helping evolve the field?",
+  "zh": "那么这有什么用处,你如何看待它可能帮助推动这个领域的发展?"
+ },
+ {
+  "seg": 151,
+  "start": 653.738,
+  "end": 656.86,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think there's a couple different ways that this is useful.",
+  "zh": "是的,我认为这有几个不同的用处。"
+ },
+ {
+  "seg": 152,
+  "start": 657.341,
+  "end": 659.082,
+  "speaker": "Unknown",
+  "en": "One is for evaluation, right?",
+  "zh": "一个是用于评估,对吧?"
+ },
+ {
+  "seg": 153,
+  "start": 659.162,
+  "end": 664.646,
+  "speaker": "Unknown",
+  "en": "You definitely want to evaluate robotics in the final environment where they're actually going to end up.",
+  "zh": "你肯定希望在机器人最终实际部署的环境中评估机器人。"
+ },
+ {
+  "seg": 154,
+  "start": 664.706,
+  "end": 673.373,
+  "speaker": "Unknown",
+  "en": "If you're going to have a robot working in a particular factory environment with a particular type of machine in a particular environment, you want to make sure the robot works exactly in that intended environment.",
+  "zh": "如果你打算让一台机器人在某个特定的工厂环境里、操作某种特定类型的机器、处于某种特定环境中工作,你要确保机器人正好能在那个预期环境中正常工作。"
+ },
+ {
+  "seg": 155,
+  "start": 674.194,
+  "end": 686.204,
+  "speaker": "Unknown",
+  "en": "So there's a really useful role in simulation at that last mile part of robotics training and evaluation where we build a simulation that matches the final use case as accurately as possible.",
+  "zh": "所以在机器人训练和评估的“最后一公里”环节,仿真有一个非常有用的角色,我们会构建一个尽可能精确匹配最终用例的仿真。"
+ },
+ {
+  "seg": 156,
+  "start": 686.644,
+  "end": 698.835,
+  "speaker": "Unknown",
+  "en": "Then even if you've got your big pre-trained robotics foundation model that knows about a lot of robotics actions in general, then you could either fine tune that thing directly in that final simulation that matches the application or even do evaluations to make sure that it's going to work.",
+  "zh": "这样,即使你有一个大型的预训练机器人基础模型,它总体上了解很多机器人动作,你也可以在匹配该应用的最终仿真中直接对它进行微调,或者做评估来确保它能正常工作。"
+ },
+ {
+  "seg": 157,
+  "start": 699.235,
+  "end": 699.415,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 158,
+  "start": 699.435,
+  "end": 699.595,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 159,
+  "start": 699.655,
+  "end": 708.581,
+  "speaker": "Unknown",
+  "en": "So that gives you like a different avenue than you could just collect a ton of demonstrations of a robot either working in that space or a person teleoperating the robot in that space.",
+  "zh": "所以这给了你一条不同的路径,否则你就只能收集大量机器人 demonstration——要么是机器人在那个空间里工作,要么是一个人在那个空间里遥操作机器人。"
+ },
+ {
+  "seg": 160,
+  "start": 709.022,
+  "end": 712.244,
+  "speaker": "Unknown",
+  "en": "But simulation gives you a different angle to simulate those environments.",
+  "zh": "而仿真给了你一个不同的角度来模拟那些环境。"
+ },
+ {
+  "seg": 161,
+  "start": 712.803,
+  "end": 713.484,
+  "speaker": "Unknown",
+  "en": "Yeah, interesting.",
+  "zh": "是的,有意思。"
+ },
+ {
+  "seg": 162,
+  "start": 713.524,
+  "end": 722.571,
+  "speaker": "Unknown",
+  "en": "So is there a world where like, you know, you have your like general pre-trained robot, but then you always need like a realtism of a specific environment?",
+  "zh": "那么会不会有这样的世界,比如,你有一个通用的预训练机器人,但你总是需要某个特定环境的 realism?"
+ },
+ {
+  "seg": 163,
+  "start": 722.991,
+  "end": 728.096,
+  "speaker": "Unknown",
+  "en": "And could that get us basically to like a working like general robot faster by scaling this?",
+  "zh": "而且通过扩展这个,我们基本上能不能更快地得到一个可用的通用机器人?"
+ },
+ {
+  "seg": 164,
+  "start": 728.436,
+  "end": 728.676,
+  "speaker": "Unknown",
+  "en": "Maybe.",
+  "zh": "有可能。"
+ },
+ {
+  "seg": 165,
+  "start": 728.696,
+  "end": 730.878,
+  "speaker": "Unknown",
+  "en": "I think there's a couple different tech trees that people are working on.",
+  "zh": "我认为人们正在研究几条不同的科技树。"
+ },
+ {
+  "seg": 166,
+  "start": 731.538,
+  "end": 733.3,
+  "speaker": "Unknown",
+  "en": "One is this notion of fully in-context learning.",
+  "zh": "一个是完全 in-context learning 的概念。"
+ },
+ {
+  "seg": 167,
+  "start": 733.6,
+  "end": 733.76,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 168,
+  "start": 733.78,
+  "end": 738.862,
+  "speaker": "Unknown",
+  "en": "Like maybe I've got a robotics foundation model, then I can kind of demonstrate the robot once how a task should be performed.",
+  "zh": "比如,假设我有一个机器人基础模型,然后我只需要给机器人演示一次某个任务应该怎么做。"
+ },
+ {
+  "seg": 169,
+  "start": 739.402,
+  "end": 742.523,
+  "speaker": "Unknown",
+  "en": "And that's enough for the robot to figure out, like stick that demonstration in the context.",
+  "zh": "这就足够了,把那个演示放进上下文里,机器人就能弄明白。"
+ },
+ {
+  "seg": 170,
+  "start": 742.563,
+  "end": 744.683,
+  "speaker": "Unknown",
+  "en": "And now the robot can figure out that task.",
+  "zh": "现在机器人就能完成那个任务了。"
+ },
+ {
+  "seg": 171,
+  "start": 744.723,
+  "end": 748.964,
+  "speaker": "Unknown",
+  "en": "Another version is more this, you know, what we're calling real to sim to real.",
+  "zh": "另一个版本更多是我们所说的 real to sim to real。"
+ },
+ {
+  "seg": 172,
+  "start": 749.985,
+  "end": 755.546,
+  "speaker": "Unknown",
+  "en": "There, maybe I've got my pre-trained robotics foundation model, but I want to adapt it to this like particular environment, right?",
+  "zh": "在那里,也许我有我的预训练机器人基础模型,但我想把它适配到某个特定的环境,对吧?"
+ },
+ {
+  "seg": 173,
+  "start": 755.566,
+  "end": 758.407,
+  "speaker": "Unknown",
+  "en": "Like this studio, like this table, like moving this microphone around.",
+  "zh": "比如这个工作室,比如这张桌子,比如移动这个麦克风。"
+ },
+ {
+  "seg": 174,
+  "start": 758.527,
+  "end": 759.087,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 175,
+  "start": 759.787,
+  "end": 773.252,
+  "speaker": "Unknown",
+  "en": "Then there's a version of that where you could come in here and take just a couple of casual videos with your phone or a couple of images with your phone, use Atlas to reconstruct the space, and now stage all kinds of robotics interactions in this studio space in particular.",
+  "zh": "然后有一种做法是,你可以走进这里,用手机随便拍几段视频或几张图片,用 Atlas 重建这个空间,然后就能专门在这个工作室空间里编排各种机器人交互。"
+ },
+ {
+  "seg": 176,
+  "start": 773.732,
+  "end": 792.357,
+  "speaker": "Unknown",
+  "en": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+  "zh": "如果你能降低做这件事的门槛——比如字面意义上五分钟内就能完成,拍五张照片,上传到 Atlas,得到一个通用仿真,也许再用自然语言描述你想要机器人执行什么样的任务,让一个智能体去构建那个仿真,对你的东西做微调,比如用 RL 微调你的通用机器人基础模型。"
+ },
+ {
+  "seg": 177,
+  "start": 792.657,
+  "end": 797.659,
+  "speaker": "Unknown",
+  "en": "And now you've got a robot maybe in the span of a couple of minutes even that could come in and is perfectly adapted to this space.",
+  "zh": "现在你就得到了一台机器人,也许只需要几分钟的时间,它就能走进来,并且完全适配这个空间。"
+ },
+ {
+  "seg": 178,
+  "start": 798.137,
+  "end": 799.558,
+  "speaker": "Unknown",
+  "en": "Yeah, like a very fast onboarding.",
+  "zh": "是的,就像一种非常快速的 onboarding。"
+ },
+ {
+  "seg": 179,
+  "start": 799.758,
+  "end": 800.038,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 180,
+  "start": 800.058,
+  "end": 800.198,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 181,
+  "start": 800.798,
+  "end": 801.238,
+  "speaker": "Unknown",
+  "en": "That'd be great.",
+  "zh": "那就太棒了。"
+ },
+ {
+  "seg": 182,
+  "start": 801.478,
+  "end": 817.624,
+  "speaker": "Unknown",
+  "en": "I'm kind of curious about, all the way back in 2023, 2024, when the original version of Sora came out, OpenAI's paper on it was called, like, Video Generation Models as World Simulators, which seems like very similar to the vision of World Labs.",
+  "zh": "我有点好奇,早在 2023、2024 年,当 Sora 的原始版本发布时,OpenAI 的论文标题叫作《视频生成模型作为世界模拟器》,这听起来和 World Labs 的愿景非常相似。"
+ },
+ {
+  "seg": 183,
+  "start": 818.445,
+  "end": 821.126,
+  "speaker": "Unknown",
+  "en": "And then, you know, they did Sora as that.",
+  "zh": "然后,你知道,他们做了 Sora。"
+ },
+ {
+  "seg": 184,
+  "start": 821.286,
+  "end": 827.028,
+  "speaker": "Unknown",
+  "en": "They did Sora 2 basically as like a TikTok clone that didn't seem that interested in",
+  "zh": "他们做的 Sora 2 基本上就像一个 TikTok 克隆品,看起来对那个方向没那么感兴趣——"
+ },
+ {
+  "seg": 185,
+  "start": 828.34,
+  "end": 834.046,
+  "speaker": "Unknown",
+  "en": "The fundamental research direction of video models as world simulators seemed like a consumer product instead.",
+  "zh": "视频模型作为世界模拟器这个基础研究方向,似乎变成了一款消费产品。"
+ },
+ {
+  "seg": 186,
+  "start": 834.766,
+  "end": 838.59,
+  "speaker": "Unknown",
+  "en": "And then they dropped Sora and now they're not working on world models at all.",
+  "zh": "然后他们放弃了 Sora,现在他们完全不研究世界模型了。"
+ },
+ {
+  "seg": 187,
+  "start": 839.29,
+  "end": 841.492,
+  "speaker": "Unknown",
+  "en": "So why do you think they decided to drop it?",
+  "zh": "所以你认为他们为什么决定放弃它?"
+ },
+ {
+  "seg": 188,
+  "start": 841.913,
+  "end": 843.654,
+  "speaker": "Unknown",
+  "en": "Well, I don't want to comment on OpenAI in particular.",
+  "zh": "嗯,我不想专门评论 OpenAI。"
+ },
+ {
+  "seg": 189,
+  "start": 843.674,
+  "end": 846.097,
+  "speaker": "Unknown",
+  "en": "I don't really know much about their internal strategy or discussions.",
+  "zh": "我对他们内部的战略或讨论并不太了解。"
+ },
+ {
+  "seg": 190,
+  "start": 846.697,
+  "end": 852.222,
+  "speaker": "Unknown",
+  "en": "But our thesis is that world models are this general horizontal platform that can be used to go after a lot of different applications.",
+  "zh": "但我们的论点是,世界模型是一个通用的横向平台,可以用来进军很多不同的应用。"
+ },
+ {
+  "seg": 191,
+  "start": 852.242,
+  "end": 854.184,
+  "speaker": "Unknown",
+  "en": "And there's going to be a ton of value unlocked there.",
+  "zh": "那里会释放出巨大的价值。"
+ },
+ {
+  "seg": 192,
+  "start": 855.105,
+  "end": 858.148,
+  "speaker": "Unknown",
+  "en": "I think there is maybe a sense of a bit of innovators dilemma, right?",
+  "zh": "我觉得也许有一点创新者困境的感觉,对吧?"
+ },
+ {
+  "seg": 193,
+  "start": 858.168,
+  "end": 862.151,
+  "speaker": "Unknown",
+  "en": "Like you're sitting on LLMs and you've got this as a really powerful thing and you're leading the pack there.",
+  "zh": "就像你手握 LLM,拥有这么强大的东西,并且在这个领域领先。"
+ },
+ {
+  "seg": 194,
+  "start": 862.191,
+  "end": 864.813,
+  "speaker": "Unknown",
+  "en": "It doesn't necessarily make sense to try to invest in that next thing.",
+  "zh": "去投资下一个东西不一定划算。"
+ },
+ {
+  "seg": 195,
+  "start": 865.294,
+  "end": 868.837,
+  "speaker": "Unknown",
+  "en": "But, you know, for us, we think that there is another category of models out here.",
+  "zh": "但是,你知道,对我们来说,我们认为外面还有另一类模型。"
+ },
+ {
+  "seg": 196,
+  "start": 868.897,
+  "end": 871.86,
+  "speaker": "Unknown",
+  "en": "There's a ton of opportunities out here and we want to be the ones to go and grab them.",
+  "zh": "这里有大量的机会,而我们想成为去抓住它们的人。"
+ },
+ {
+  "seg": 197,
+  "start": 872.694,
+  "end": 873.475,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 198,
+  "start": 873.735,
+  "end": 880.54,
+  "speaker": "Unknown",
+  "en": "Do you think that there's like, I'm curious about the mass like consumer applications of world models are the first ones.",
+  "zh": "你觉得有没有——我很好奇世界模型面向大众的消费级应用会不会是最先出现的。"
+ },
+ {
+  "seg": 199,
+  "start": 880.58,
+  "end": 885.383,
+  "speaker": "Unknown",
+  "en": "I feel like VR or AR feels natural and then video games feels very natural.",
+  "zh": "我觉得 VR 或 AR 感觉很自然,然后电子游戏也感觉很自然。"
+ },
+ {
+  "seg": 200,
+  "start": 885.643,
+  "end": 892.549,
+  "speaker": "Unknown",
+  "en": "I feel like there could be like, we could start shifting in a direction where everyone's like vibe coding video games and world models could be a part of that.",
+  "zh": "我感觉可能会出现一种转变,大家都开始用 vibe coding 做视频游戏,而世界模型可以成为其中的一部分。"
+ },
+ {
+  "seg": 201,
+  "start": 893.489,
+  "end": 895.531,
+  "speaker": "Unknown",
+  "en": "Whereas right now we're just like vibe coding websites.",
+  "zh": "而现在我们只是在用 vibe coding 做网站。"
+ },
+ {
+  "seg": 202,
+  "start": 895.551,
+  "end": 896.632,
+  "speaker": "Unknown",
+  "en": "We're already kind of doing that, right?",
+  "zh": "我们其实已经有点在这么做了,对吧?"
+ },
+ {
+  "seg": 203,
+  "start": 896.652,
+  "end": 896.772,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 204,
+  "start": 896.792,
+  "end": 897.752,
+  "speaker": "Unknown",
+  "en": "I think we're moving towards that.",
+  "zh": "我觉得我们正在朝那个方向前进。"
+ },
+ {
+  "seg": 205,
+  "start": 897.772,
+  "end": 900.594,
+  "speaker": "Unknown",
+  "en": "Do you see like world models being like that rapidly",
+  "zh": "你觉得世界模型会不会很快地"
+ },
+ {
+  "seg": 206,
+  "start": 901.635,
+  "end": 904.739,
+  "speaker": "Unknown",
+  "en": "Uh, deployed so that everyone can kind of play around with them.",
+  "zh": "呃,被部署出来,让每个人都能玩弄它们?"
+ },
+ {
+  "seg": 207,
+  "start": 904.939,
+  "end": 905.5,
+  "speaker": "Unknown",
+  "en": "Yeah, definitely.",
+  "zh": "是的,肯定会。"
+ },
+ {
+  "seg": 208,
+  "start": 905.52,
+  "end": 906.441,
+  "speaker": "Unknown",
+  "en": "And that's, that's what we want to do.",
+  "zh": "而这正是我们想做的事。"
+ },
+ {
+  "seg": 209,
+  "start": 906.501,
+  "end": 912.368,
+  "speaker": "Unknown",
+  "en": "So we want to get this, that's, that's kind of like suits, fits into our thesis about these, these models as horizontal general things, right?",
+  "zh": "所以我们想实现这个,这,这其实契合我们关于这些模型是横向通用事物的论点,对吧?"
+ },
+ {
+  "seg": 210,
+  "start": 912.388,
+  "end": 919.958,
+  "speaker": "Unknown",
+  "en": "So if we want to, we want to expose these models to a lot of people, um, let them, you know, be consumable by humans and agents alike, um, and let them interoperate with other tools.",
+  "zh": "所以如果我们想,我们想把这些模型暴露给很多人,呃,让它们,你知道,可以被人类和智能体 alike 消费,呃,并让它们与其他工具互操作。"
+ },
+ {
+  "seg": 211,
+  "start": 920.538,
+  "end": 934.762,
+  "speaker": "Unknown",
+  "en": "So if we can provide a model that has all these general capabilities in simulation, in reconstruction, in generation, in explicit 3D, in 2D, and then we can have a coding agent go and stitch all these capabilities together, then we can let people really quickly iterate on really cool experiences.",
+  "zh": "所以如果我们能提供一个在模拟、重建、生成、显式 3D、2D 方面都具备这些通用能力的模型,然后让一个编码智能体去把这些能力全部拼接起来,那我们就能让人们非常快速地迭代出非常酷的体验。"
+ },
+ {
+  "seg": 212,
+  "start": 935.063,
+  "end": 939.644,
+  "speaker": "Unknown",
+  "en": "So I'm really excited to see, once we get this into people's hands, what kinds of cool experiences people will build with it.",
+  "zh": "所以我非常期待,一旦把这个交到人们手里,大家会用它构建出什么样的酷炫体验。"
+ },
+ {
+  "seg": 213,
+  "start": 940.099,
+  "end": 940.519,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 214,
+  "start": 940.599,
+  "end": 944.182,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm also curious, like, how you think they'll naturally work with LLMs.",
+  "zh": "是的,我也很好奇,比如,你觉得它们会如何自然地与 LLM 协作。"
+ },
+ {
+  "seg": 215,
+  "start": 944.603,
+  "end": 949.286,
+  "speaker": "Unknown",
+  "en": "So are we all going to basically be, like, adding another subscription to our AI stack?",
+  "zh": "也就是说,我们基本上都要在自己的 AI 套件里再加一个订阅吗?"
+ },
+ {
+  "seg": 216,
+  "start": 949.767,
+  "end": 955.911,
+  "speaker": "Unknown",
+  "en": "And, like, do you think, like, agents are very easily able to, like, work with world models in theory?",
+  "zh": "还有,你觉得,比如,智能体在理论上能很轻松地和世界模型协作吗?"
+ },
+ {
+  "seg": 217,
+  "start": 956.292,
+  "end": 956.852,
+  "speaker": "Unknown",
+  "en": "Yeah, definitely.",
+  "zh": "是的,肯定可以。"
+ },
+ {
+  "seg": 218,
+  "start": 956.892,
+  "end": 957.833,
+  "speaker": "Unknown",
+  "en": "I don't see why not, right?",
+  "zh": "我看不出有什么理由不行,对吧?"
+ },
+ {
+  "seg": 219,
+  "start": 957.853,
+  "end": 965.539,
+  "speaker": "Unknown",
+  "en": "Like, once you offer something on an API, like, you know, you get certain things in, certain things out, like, you can, they interoperate with other pieces of software.",
+  "zh": "比如,一旦你通过 API 提供某样东西,你知道,有一定输入、一定输出,它就能与其他软件互操作。"
+ },
+ {
+  "seg": 220,
+  "start": 965.599,
+  "end": 969.102,
+  "speaker": "Unknown",
+  "en": "Like, I think we've always wanted to build these things for both humans and agents to consume.",
+  "zh": "比如,我想我们一直都希望构建这些供人类和智能体共同消费的东西。"
+ },
+ {
+  "seg": 221,
+  "start": 971.247,
+  "end": 982.887,
+  "speaker": "Unknown",
+  "en": "Yeah, I do wonder if like GTA 6 is just the last great piece of like human written software before like all future video games are kind of generated on the fly with stuff like Alice.",
+  "zh": "是啊,我确实在想,比如 GTA 6 会不会就是人类手写软件最后一部伟大的作品,之后所有的视频游戏都用 Alice 这类东西即时生成。"
+ },
+ {
+  "seg": 222,
+  "start": 983.428,
+  "end": 983.828,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 223,
+  "start": 983.848,
+  "end": 985.789,
+  "speaker": "Unknown",
+  "en": "I disagree with that.",
+  "zh": "我不同意这个看法。"
+ },
+ {
+  "seg": 224,
+  "start": 985.829,
+  "end": 989.952,
+  "speaker": "Unknown",
+  "en": "I think there will always be, like, a human in the loop with... Because video games are an art.",
+  "zh": "我觉得永远都会有,比如,人在回路里……因为视频游戏是一门艺术。"
+ },
+ {
+  "seg": 225,
+  "start": 990.012,
+  "end": 991.853,
+  "speaker": "Unknown",
+  "en": "I'm not saying there won't be humans in the loop, but I'm saying...",
+  "zh": "我不是说不会有人类在回路里,我是说……"
+ },
+ {
+  "seg": 226,
+  "start": 991.873,
+  "end": 993.794,
+  "speaker": "Unknown",
+  "en": "But, like, fully hand-stitched, like, video game?",
+  "zh": "但是,比如,完全手工缝制的视频游戏?"
+ },
+ {
+  "seg": 227,
+  "start": 993.994,
+  "end": 1000.918,
+  "speaker": "Unknown",
+  "en": "Yeah, like, you know, you won't need to, like, you know, physically place, like, millions of different assets in a game engine or anything.",
+  "zh": "对,比如,你知道,你不再需要在游戏引擎里,比如,亲手放置,比如,数百万个不同的资产之类的。"
+ },
+ {
+  "seg": 228,
+  "start": 1000.938,
+  "end": 1003.58,
+  "speaker": "Unknown",
+  "en": "Yeah, but this is just the evolution of technology in general, right?",
+  "zh": "是的,但这本来就是技术的普遍演进,对吧?"
+ },
+ {
+  "seg": 229,
+  "start": 1003.62,
+  "end": 1004.861,
+  "speaker": "Unknown",
+  "en": "As we see, like, you know...",
+  "zh": "就像我们看到的那样,你知道……"
+ },
+ {
+  "seg": 230,
+  "start": 1005.982,
+  "end": 1014.989,
+  "speaker": "Unknown",
+  "en": "Like some of the early Disney animation films where they go and they hand paint every cell, like that was already a new type of technology that enabled a new way to make movies and creative experiences at that time, right?",
+  "zh": "比如一些早期迪士尼动画电影,他们逐格手绘每一格画面,那本身在当时就是一种新技术,开启了新的电影和创意体验的制作方式,对吧?"
+ },
+ {
+  "seg": 231,
+  "start": 1015.049,
+  "end": 1018.451,
+  "speaker": "Unknown",
+  "en": "Or some of the early Disney films figured out how to sync audio and video for the first time.",
+  "zh": "或者一些早期迪士尼电影首次搞定了如何让音频和视频同步。"
+ },
+ {
+  "seg": 232,
+  "start": 1018.511,
+  "end": 1020.153,
+  "speaker": "Unknown",
+  "en": "And that was a really transformative experience.",
+  "zh": "那是一次非常具有变革性的体验。"
+ },
+ {
+  "seg": 233,
+  "start": 1020.593,
+  "end": 1025.877,
+  "speaker": "Unknown",
+  "en": "But, you know, new technologies come out and creative people always find really interesting and innovative ways to enable new experiences.",
+  "zh": "但是,你知道,新技术不断出现,有创造力的人总能找到非常有趣、非常创新的方式来开启新的体验。"
+ },
+ {
+  "seg": 234,
+  "start": 1026.377,
+  "end": 1039.707,
+  "speaker": "Unknown",
+  "en": "So moving from, you know, live like live action silent films to like animated animated early Disney films to, you know, the kind of computer generated films like, you know, the Pixar era of CG, you know, into AI.",
+  "zh": "所以从,你知道,真人无声电影,到早期迪士尼动画电影,再到,你知道,计算机制作的电影,比如皮克斯时代的 CG,你知道,再到 AI。"
+ },
+ {
+  "seg": 235,
+  "start": 1039.967,
+  "end": 1046.112,
+  "speaker": "Unknown",
+  "en": "I view these as just new creative tools and they'll always be people like creative people behind the wheel that will be interested in creating new experiences.",
+  "zh": "我把这些看作只是新的创意工具,而永远会有像有创造力的人坐在驾驶座上,愿意创造新的体验。"
+ },
+ {
+  "seg": 236,
+  "start": 1046.58,
+  "end": 1054.389,
+  "speaker": "Unknown",
+  "en": "Yeah, I can imagine like a Pixar but in 3D, like in like a 3D navigable space sort of thing emerging.",
+  "zh": "是啊,我能想象出现一个皮克斯,但是 3D 的,比如在一个 3D 可导航空间里的那种东西。"
+ },
+ {
+  "seg": 237,
+  "start": 1054.649,
+  "end": 1057.653,
+  "speaker": "Unknown",
+  "en": "Like I think this is going to be really good for creatives specifically.",
+  "zh": "我觉得这对创意工作者来说会特别好用。"
+ },
+ {
+  "seg": 238,
+  "start": 1057.673,
+  "end": 1058.674,
+  "speaker": "Unknown",
+  "en": "Yeah, I think so.",
+  "zh": "是的,我也这么认为。"
+ },
+ {
+  "seg": 239,
+  "start": 1058.994,
+  "end": 1059.154,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 240,
+  "start": 1059.194,
+  "end": 1062.258,
+  "speaker": "Unknown",
+  "en": "And what we've wanted to build on all these things is this aspect of creative control.",
+  "zh": "而我们在所有这些事情上想要构建的,就是创意控制这个方面。"
+ },
+ {
+  "seg": 241,
+  "start": 1062.818,
+  "end": 1073.548,
+  "speaker": "Unknown",
+  "en": "We never wanted to be building these generative slot machines where you just like pull the thing and hope you get out a good generation or you don't feel like that generation was yours or that you controlled it or that you knew what you were getting out.",
+  "zh": "我们从来不想构建这些生成式的老虎机——你只是拉一下那个杆,然后祈祷生成出一个好结果,或者感觉那个生成物不是你的、不是你控制的、也不知道自己会得到什么。"
+ },
+ {
+  "seg": 242,
+  "start": 1073.949,
+  "end": 1076.651,
+  "speaker": "Unknown",
+  "en": "Like we want to build these tools that have really deep control, right?",
+  "zh": "我们想构建的是这些具有非常深度控制的工具,对吧?"
+ },
+ {
+  "seg": 243,
+  "start": 1076.671,
+  "end": 1087.021,
+  "speaker": "Unknown",
+  "en": "Like whether it's 3D control, whether it's text control, that you feel like you're a director in the thing guiding this model and deciding exactly what it outputs rather than just like the model spits something out and maybe I can stitch it together after the fact.",
+  "zh": "比如无论是 3D 控制,还是文本控制,让你感觉自己是这个过程中的导演,引导这个模型、精确决定它输出什么,而不是模型吐出一个东西,也许我事后把它拼接起来。"
+ },
+ {
+  "seg": 244,
+  "start": 1087.614,
+  "end": 1088.214,
+  "speaker": "Unknown",
+  "en": "Yeah, totally.",
+  "zh": "是的,完全同意。"
+ },
+ {
+  "seg": 245,
+  "start": 1088.494,
+  "end": 1090.795,
+  "speaker": "Unknown",
+  "en": "How does Atlas perform with like difficult physics stuff?",
+  "zh": "Atlas 在处理比如困难的物理问题上表现如何?"
+ },
+ {
+  "seg": 246,
+  "start": 1091.095,
+  "end": 1101.498,
+  "speaker": "Unknown",
+  "en": "Like, for example, if I wanted to do a simulation of a black hole or something, like would it be able to say like, oh, this is like a scenario where like normal object collisions don't really apply.",
+  "zh": "比如,如果我想做一个黑洞之类的模拟,它能意识到,哦,这是一个比如普通物体碰撞规则不太适用的场景吗?"
+ },
+ {
+  "seg": 247,
+  "start": 1101.518,
+  "end": 1103.779,
+  "speaker": "Unknown",
+  "en": "You'll need to do like spaghettification or whatever.",
+  "zh": "需要做比如面条化之类的处理。"
+ },
+ {
+  "seg": 248,
+  "start": 1104.32,
+  "end": 1105.161,
+  "speaker": "Unknown",
+  "en": "Yeah, black hole's a good one.",
+  "zh": "是的,黑洞是个好例子。"
+ },
+ {
+  "seg": 249,
+  "start": 1105.181,
+  "end": 1106.102,
+  "speaker": "Unknown",
+  "en": "I haven't tried that.",
+  "zh": "我还没试过。"
+ },
+ {
+  "seg": 250,
+  "start": 1106.163,
+  "end": 1107.985,
+  "speaker": "Unknown",
+  "en": "Maybe I'll try it this afternoon and tweet it.",
+  "zh": "也许我今天下午会试一下,然后发推特。"
+ },
+ {
+  "seg": 251,
+  "start": 1108.005,
+  "end": 1109.587,
+  "speaker": "Unknown",
+  "en": "You should do that.",
+  "zh": "你应该这么做。"
+ },
+ {
+  "seg": 252,
+  "start": 1109.828,
+  "end": 1110.208,
+  "speaker": "Unknown",
+  "en": "You should.",
+  "zh": "你应该的。"
+ },
+ {
+  "seg": 253,
+  "start": 1110.228,
+  "end": 1110.548,
+  "speaker": "Unknown",
+  "en": "You should.",
+  "zh": "你应该的。"
+ },
+ {
+  "seg": 254,
+  "start": 1110.609,
+  "end": 1111.87,
+  "speaker": "Unknown",
+  "en": "I'm actually really curious to hear.",
+  "zh": "我其实真的很想听听结果。"
+ },
+ {
+  "seg": 255,
+  "start": 1111.89,
+  "end": 1112.131,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 256,
+  "start": 1112.151,
+  "end": 1115.495,
+  "speaker": "Unknown",
+  "en": "My guess is it probably won't do something super exciting for black holes.",
+  "zh": "我的猜测是,它对黑洞可能做不出什么特别惊艳的东西。"
+ },
+ {
+  "seg": 257,
+  "start": 1116.577,
+  "end": 1116.897,
+  "speaker": "Unknown",
+  "en": "We'll see.",
+  "zh": "到时候看吧。"
+ },
+ {
+  "seg": 258,
+  "start": 1116.957,
+  "end": 1117.238,
+  "speaker": "Unknown",
+  "en": "We'll see.",
+  "zh": "到时候看吧。"
+ },
+ {
+  "seg": 259,
+  "start": 1117.857,
+  "end": 1119.939,
+  "speaker": "Unknown",
+  "en": "Yeah, is the value... Or what about just like hair or something?",
+  "zh": "是的,价值是……那头发之类的怎么样?"
+ },
+ {
+  "seg": 260,
+  "start": 1120.139,
+  "end": 1120.799,
+  "speaker": "Unknown",
+  "en": "Hair is pretty good.",
+  "zh": "头发效果还挺不错的。"
+ },
+ {
+  "seg": 261,
+  "start": 1120.9,
+  "end": 1128.326,
+  "speaker": "Unknown",
+  "en": "I think one of the most amazing applications we got out of this thing that was actually a bit of a surprise to us, how well it worked, were these bullet time shots.",
+  "zh": "我们从这个东西得到的惊艳应用之一,实际上对我们来说有点意外的是,它的效果这么好,那就是这些子弹时间镜头。"
+ },
+ {
+  "seg": 262,
+  "start": 1128.386,
+  "end": 1136.593,
+  "speaker": "Unknown",
+  "en": "So we can do this thing where you can take like a couple of regular iPhones and stick them on tripods, just like three iPhones, take synchronized capture of some event happening.",
+  "zh": "我们可以做这样一件事:你可以拿几台普通的 iPhone,把它们固定在三脚架上,就三台 iPhone,对正在发生的某个事件做同步拍摄。"
+ },
+ {
+  "seg": 263,
+  "start": 1137.293,
+  "end": 1142.838,
+  "speaker": "Unknown",
+  "en": "And then you can use Atlas to do these bullet time reframing shots, like freeze frame fly around.",
+  "zh": "然后你可以用 Atlas 做这些子弹时间重新取景的镜头,比如定格然后环绕飞行。"
+ },
+ {
+  "seg": 264,
+  "start": 1143.578,
+  "end": 1145.6,
+  "speaker": "Unknown",
+  "en": "And this worked better than any of us were expecting.",
+  "zh": "而且这个效果比我们所有人预期的都要好。"
+ },
+ {
+  "seg": 265,
+  "start": 1145.62,
+  "end": 1146.441,
+  "speaker": "Unknown",
+  "en": "It's completely insane.",
+  "zh": "这简直不可思议。"
+ },
+ {
+  "seg": 266,
+  "start": 1146.841,
+  "end": 1151.087,
+  "speaker": "Unknown",
+  "en": "So one of our headliner examples there is a strawberry dropping into a bowl of oat milk.",
+  "zh": "我们的招牌示例之一是,一颗草莓掉进一碗燕麦奶里。"
+ },
+ {
+  "seg": 267,
+  "start": 1151.467,
+  "end": 1157.735,
+  "speaker": "Unknown",
+  "en": "And then we can like, as soon as the strawberry hits the milk, the milk splashes up, we freeze time and like go in there and fly all around it.",
+  "zh": "然后我们可以在草莓碰到奶、奶溅起来的那一刻,把时间定格,然后钻进去绕着它飞着拍。"
+ },
+ {
+  "seg": 268,
+  "start": 1158.055,
+  "end": 1160.659,
+  "speaker": "Unknown",
+  "en": "Like it's just incredible that this works from just three input views.",
+  "zh": "仅凭三个输入视角就能做到这一点,真的太不可思议了。"
+ },
+ {
+  "seg": 269,
+  "start": 1161.195,
+  "end": 1167.079,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm also curious about that like added capability of being able to like adjust where the camera is.",
+  "zh": "是的,我也很好奇那个新增的能力,就是能够调整相机的位置。"
+ },
+ {
+  "seg": 270,
+  "start": 1168.34,
+  "end": 1168.901,
+  "speaker": "Unknown",
+  "en": "Does that help?",
+  "zh": "这有帮助吗?"
+ },
+ {
+  "seg": 271,
+  "start": 1169.021,
+  "end": 1170.662,
+  "speaker": "Unknown",
+  "en": "Like what part does that help with?",
+  "zh": "比如它在哪些方面有帮助?"
+ },
+ {
+  "seg": 272,
+  "start": 1170.702,
+  "end": 1173.984,
+  "speaker": "Unknown",
+  "en": "I can imagine like that helps if you're trying to make like a movie or something.",
+  "zh": "我可以想象,如果你想做电影之类的东西,这会有帮助。"
+ },
+ {
+  "seg": 273,
+  "start": 1174.184,
+  "end": 1177.887,
+  "speaker": "Unknown",
+  "en": "But yeah, how is that a useful capability?",
+  "zh": "但是,这为什么是一个有用的能力呢?"
+ },
+ {
+  "seg": 274,
+  "start": 1178.047,
+  "end": 1182.632,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's very useful as a, so I think there's a couple notions, places where 3D is useful.",
+  "zh": "是的,我认为它非常有用,因为我认为 3D 有用的地方有好几个层面。"
+ },
+ {
+  "seg": 275,
+  "start": 1183.033,
+  "end": 1189.14,
+  "speaker": "Unknown",
+  "en": "One, like we already talked about the output side, like sometimes you want to have that explicit 3D output to plug into a workflow or a game engine or something like that.",
+  "zh": "第一,就像我们之前谈到的输出侧,比如有时候你想要那种显式的 3D 输出,用来接入工作流或者游戏引擎之类的东西。"
+ },
+ {
+  "seg": 276,
+  "start": 1189.781,
+  "end": 1193.045,
+  "speaker": "Unknown",
+  "en": "But I think there's an underappreciated value of 3D on the input side as well.",
+  "zh": "但我认为 3D 在输入侧的价值也被低估了。"
+ },
+ {
+  "seg": 277,
+  "start": 1194.266,
+  "end": 1208.276,
+  "speaker": "Unknown",
+  "en": "Even in a situation like a VFX shot or something like that where the ultimate output is 2D, it's useful for the model to offer these 3D control surfaces to let the human director figure out what kind of scene the model should output.",
+  "zh": "即使在像 VFX 镜头这种最终输出是 2D 的场景里,让模型提供这些 3D 控制面,让人类导演来确定模型应该输出什么样的场景,也是很有用的。"
+ },
+ {
+  "seg": 278,
+  "start": 1209.937,
+  "end": 1210.077,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 279,
+  "start": 1210.117,
+  "end": 1216.202,
+  "speaker": "Unknown",
+  "en": "So in this case, you know, we can do this, you know, there you can control like precisely where does the camera move?",
+  "zh": "所以在这种情况下,你知道,我们可以做到,你可以精确地控制相机怎么移动。"
+ },
+ {
+  "seg": 280,
+  "start": 1216.302,
+  "end": 1219.885,
+  "speaker": "Unknown",
+  "en": "Because I don't just want to write in text like pan in, pan out, truck left.",
+  "zh": "因为我不想只在文本里写什么推进、拉远、左移。"
+ },
+ {
+  "seg": 281,
+  "start": 1220.006,
+  "end": 1223.288,
+  "speaker": "Unknown",
+  "en": "I want to be able to grab the camera and make it like zoom exactly as I like.",
+  "zh": "我想能够抓住相机,让它完全按照我的意愿来变焦。"
+ },
+ {
+  "seg": 282,
+  "start": 1223.548,
+  "end": 1226.651,
+  "speaker": "Unknown",
+  "en": "And there's really no way to describe that explicitly in text.",
+  "zh": "而用文本真的没有办法明确地描述这一点。"
+ },
+ {
+  "seg": 283,
+  "start": 1226.931,
+  "end": 1231.055,
+  "speaker": "Unknown",
+  "en": "You really want to be able to just like grab the camera and make it do exactly what you wanted.",
+  "zh": "你真的就是想要能抓住相机,让它精确地做你想做的事。"
+ },
+ {
+  "seg": 284,
+  "start": 1231.795,
+  "end": 1235.579,
+  "speaker": "Unknown",
+  "en": "So Atlas has camera control as a native input type, right?",
+  "zh": "所以 Atlas 把相机控制作为一种原生的输入类型,对吧?"
+ },
+ {
+  "seg": 285,
+  "start": 1235.619,
+  "end": 1238.161,
+  "speaker": "Unknown",
+  "en": "It's multimodal and one of those modalities is cameras.",
+  "zh": "它是多模态的,而相机就是其中一种模态。"
+ },
+ {
+  "seg": 286,
+  "start": 1238.641,
+  "end": 1239.001,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 287,
+  "start": 1239.601,
+  "end": 1246.264,
+  "speaker": "Unknown",
+  "en": "So if you think it wouldn't do a black hole correctly now, like what more would be required in order to get it to handle all kinds of edge cases in physics?",
+  "zh": "所以如果你觉得它现在做不对黑洞,那需要什么才能让它处理物理学里的各种边缘情况呢?"
+ },
+ {
+  "seg": 288,
+  "start": 1246.504,
+  "end": 1249.605,
+  "speaker": "Unknown",
+  "en": "Oh, I mean, so I think there's a couple different regimes of physics.",
+  "zh": "哦,我是说,我认为物理学有几种不同的范畴。"
+ },
+ {
+  "seg": 289,
+  "start": 1249.745,
+  "end": 1253.687,
+  "speaker": "Unknown",
+  "en": "So like anything that's like roughly Newtonian, like we, that was in the pre-training data.",
+  "zh": "比如任何大致属于牛顿力学的东西,那个已经在预训练数据里了。"
+ },
+ {
+  "seg": 290,
+  "start": 1253.947,
+  "end": 1258.309,
+  "speaker": "Unknown",
+  "en": "So anything that's like roughly Newtonian that doesn't work out is probably just a quick SFT away.",
+  "zh": "所以任何大致属于牛顿力学但表现不对的东西,可能离一次快速的 SFT 就差不远了。"
+ },
+ {
+  "seg": 291,
+  "start": 1259.33,
+  "end": 1269.835,
+  "speaker": "Unknown",
+  "en": "If you want something that's sort of non-Newtonian, right, like black hole physics or like, you know, microscopic stuff, once you're down in the quantum mechanics realm, I think then you'd have to rethink a bit the architecture and the data side.",
+  "zh": "如果你想要某种非牛顿的东西,对吧,比如黑洞物理,或者微观层面的东西,一旦进入量子力学领域,我认为就得在架构和数据这两方面重新思考一下了。"
+ },
+ {
+  "seg": 292,
+  "start": 1270.716,
+  "end": 1272.376,
+  "speaker": "Unknown",
+  "en": "But the black hole example is really interesting.",
+  "zh": "不过黑洞这个例子真的很有意思。"
+ },
+ {
+  "seg": 293,
+  "start": 1272.396,
+  "end": 1273.277,
+  "speaker": "Unknown",
+  "en": "I'll have to give this a try.",
+  "zh": "我得试一试。"
+ },
+ {
+  "seg": 294,
+  "start": 1273.797,
+  "end": 1274.738,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的,是的。"
+ },
+ {
+  "seg": 295,
+  "start": 1274.858,
+  "end": 1278.8,
+  "speaker": "Unknown",
+  "en": "I would definitely be very curious to see or like at a nano scale.",
+  "zh": "我肯定会非常好奇想看看,或者纳米尺度上怎么样。"
+ },
+ {
+  "seg": 296,
+  "start": 1279.34,
+  "end": 1280.682,
+  "speaker": "Unknown",
+  "en": "Yeah, that's probably not going to work.",
+  "zh": "是的,那可能行不通。"
+ },
+ {
+  "seg": 297,
+  "start": 1280.902,
+  "end": 1281.562,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 298,
+  "start": 1281.623,
+  "end": 1281.903,
+  "speaker": "Unknown",
+  "en": "Not yet.",
+  "zh": "暂时还不行。"
+ },
+ {
+  "seg": 299,
+  "start": 1281.983,
+  "end": 1282.303,
+  "speaker": "Unknown",
+  "en": "Not yet.",
+  "zh": "暂时还不行。"
+ },
+ {
+  "seg": 300,
+  "start": 1283.104,
+  "end": 1292.694,
+  "speaker": "Unknown",
+  "en": "But one of our dreams we joked when starting the company is you want to build these 3D world models and how cool would it be to use a 3D world model to design a chip that we then use to train the next generation world model.",
+  "zh": "但我们创业时开玩笑说过的一个梦想是，你想构建这些 3D 世界模型，如果能用一个 3D 世界模型来设计一款芯片，然后再用这款芯片来训练下一代世界模型，那该有多酷。"
+ },
+ {
+  "seg": 301,
+  "start": 1292.714,
+  "end": 1294.116,
+  "speaker": "Unknown",
+  "en": "I was literally just thinking that actually.",
+  "zh": "我刚才其实也正在想这个。"
+ },
+ {
+  "seg": 302,
+  "start": 1294.136,
+  "end": 1294.756,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah, yeah.",
+  "zh": "对，对，对，对。"
+ },
+ {
+  "seg": 303,
+  "start": 1294.796,
+  "end": 1296.038,
+  "speaker": "Unknown",
+  "en": "Because we're talking about quantum stuff.",
+  "zh": "因为我们刚才在聊量子之类的东西。"
+ },
+ {
+  "seg": 304,
+  "start": 1296.729,
+  "end": 1298.651,
+  "speaker": "Unknown",
+  "en": "You have your, like, semiconductor.",
+  "zh": "你有你的，比如，半导体。"
+ },
+ {
+  "seg": 305,
+  "start": 1299.392,
+  "end": 1307.942,
+  "speaker": "Unknown",
+  "en": "Also, to me, what feels very natural is that, like, the natural modality for navigating these and even prompting the world models is just going to be VR, basically.",
+  "zh": "另外，对我来说，感觉非常自然的一点是，导航这些模型、甚至对世界模型进行提示的自然模态，基本上就是 VR。"
+ },
+ {
+  "seg": 306,
+  "start": 1307.962,
+  "end": 1308.623,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 307,
+  "start": 1308.643,
+  "end": 1315.771,
+  "speaker": "Unknown",
+  "en": "Because you can, like, I guess, do WASD and then, like, move your mouse around to traverse a world, but I think eventually you will have to...",
+  "zh": "因为你可以，我想，用 WASD 然后移动鼠标来穿行一个世界，但我认为最终你将不得不……"
+ },
+ {
+  "seg": 308,
+  "start": 1317.207,
+  "end": 1321.889,
+  "speaker": "Unknown",
+  "en": "Not just eventually, we've had Marvel in VR for almost a year at this point.",
+  "zh": "不只是最终，我们已经让 Marvel 在 VR 里存在差不多一年了。"
+ },
+ {
+  "seg": 309,
+  "start": 1321.949,
+  "end": 1324.249,
+  "speaker": "Unknown",
+  "en": "That is a really transformative experience if you guys haven't tried it.",
+  "zh": "如果你们没试过的话，那真的是一种极具变革性的体验。"
+ },
+ {
+  "seg": 310,
+  "start": 1324.629,
+  "end": 1325.19,
+  "speaker": "Unknown",
+  "en": "I haven't tried it.",
+  "zh": "我还没试过。"
+ },
+ {
+  "seg": 311,
+  "start": 1325.21,
+  "end": 1330.391,
+  "speaker": "Unknown",
+  "en": "Then you really stick on the headset and I'm in this complete AI-generated world that I created.",
+  "zh": "然后你戴上头显，我就置身于一个我创造的完全由 AI 生成的世界里。"
+ },
+ {
+  "seg": 312,
+  "start": 1330.471,
+  "end": 1331.692,
+  "speaker": "Unknown",
+  "en": "It's quite amazing.",
+  "zh": "非常不可思议。"
+ },
+ {
+  "seg": 313,
+  "start": 1331.752,
+  "end": 1331.972,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 314,
+  "start": 1333.303,
+  "end": 1334.024,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "对， absolutely——完全是的。"
+ },
+ {
+  "seg": 315,
+  "start": 1334.644,
+  "end": 1340.53,
+  "speaker": "Unknown",
+  "en": "Yeah, I can't wait to see all of the amazing stuff that people are going to do with Atlas once it's fully out into the world.",
+  "zh": "对，我迫不及待想看到 Atlas 完全面世之后，人们用它做出的所有惊艳的东西。"
+ },
+ {
+  "seg": 316,
+  "start": 1341.03,
+  "end": 1341.21,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 317,
+  "start": 1341.651,
+  "end": 1341.871,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 318,
+  "start": 1342.372,
+  "end": 1343.513,
+  "speaker": "Unknown",
+  "en": "Justin, thanks so much for coming on MTS.",
+  "zh": "Justin，非常感谢你来 MTS。"
+ },
+ {
+  "seg": 319,
+  "start": 1343.533,
+  "end": 1344.514,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks for having me.",
+  "zh": "嗯，谢谢你们邀请我。"
+ },
+ {
+  "seg": 320,
+  "start": 1344.754,
+  "end": 1345.194,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "不客气。"
+ },
+ {
+  "seg": 321,
+  "start": 1345.214,
+  "end": 1345.735,
+  "speaker": "Unknown",
+  "en": "This was awesome.",
+  "zh": "这次太棒了。"
+ },
+ {
+  "seg": 322,
+  "start": 1345.835,
+  "end": 1346.936,
+  "speaker": "Unknown",
+  "en": "This was really awesome, yeah.",
+  "zh": "是真的非常棒，对。"
+ },
+ {
+  "seg": 323,
+  "start": 1349.899,
+  "end": 1352.762,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z Podcast。"
+ },
+ {
+  "seg": 324,
+  "start": 1353.382,
+  "end": 1359.869,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们评分或写评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 325,
+  "start": 1360.549,
+  "end": 1364.113,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 326,
+  "start": 1364.713,
+  "end": 1370.339,
+  "speaker": "Unknown",
+  "en": "Follow us on X, A16Z, and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 A16Z，并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 327,
+  "start": 1370.799,
+  "end": 1373.302,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 328,
+  "start": 1374.641,
+  "end": 1380.985,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅用于教育目的，不构成对购买、持有或出售任何投资或金融产品的建议。"
+ },
+ {
+  "seg": 329,
+  "start": 1381.285,
+  "end": 1388.931,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作，可能包含付费推广广告、其他公司引用以及与 A16Z 无关联的个人。"
+ },
+ {
+  "seg": 330,
+  "start": 1389.211,
+  "end": 1396.256,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均不构成 AH Capital Management LLC、A16Z 或其任何关联方的背书。"
+ },
+ {
+  "seg": 331,
+  "start": 1396.716,
+  "end": 1402.4,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来自发布日期被视为可靠的来源，但 A16Z 不保证其准确性。"
+ }
+]

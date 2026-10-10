@@ -32,7 +32,7 @@ unlisted: true
 
 [[Tom Freston]] · [[Andrew Anagnost]] · [[Brené Brown]] · [[Jennifer Ferro]] · [[MTV]] · [[Autodesk]] · [[Reid Hoffman]] · [[Jamie Batmer]] · [[Viacom]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"Tom Freston":1,"Andrew Anagnost":1,"Brené Brown":1,"Jennifer Ferro":1,"MTV":1,"Autodesk":1,"Reid Hoffman":2,"Jamie Batmer":1,"Viacom":1,"AI":29}</script>
+<script type="application/json" class="pd-epn">{"Tom Freston":1,"Andrew Anagnost":1,"Brené Brown":1,"Jennifer Ferro":1,"MTV":1,"Autodesk":1,"Reid Hoffman":2,"Jamie Batmer":1,"Viacom":1,"AI":30}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eleven Labs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eleven Labs">EL</div><div class="pi"><h1 class="pt">Eleven Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]]**(40:14起):本集引用的真实案例：当时用某家初创 CRM，等仪表盘等了四个月，厌倦后搬去 Salesforce——这让 Keith 最偏执。
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(22:33起):Lon 的首轮选择（估值约五十到一百亿美元）：在 Siri 管理生活的时代，AI 语音是修好语音交互的送分题；观众 Michael Lee Jr. 也独立提名它，称试遍所有 AI 语音工具只有它能用。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(33:17起):本集说 Eleven Labs 在语音与音频领域稳居流量与消费榜前列，是实验室没占满的缝隙；也作为消费公司快速变企业公司的例子被提及。
+- **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(41:26起):本集把它当作 AI 时代壁垒的正面例子：钻进开发者技术栈、进入数据反馈循环，做出保留原语气调的配音产品，拿下 Netflix 合同
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|《AI 智能体怎么认证：从标准到红队测试的全流程》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-09-16-a16z-the-ai-native-crm-pmervpt|《从 2500 万用户产品到零重启：Lightfield 如何用 AI 重构 CRM》]] — 作为被讨论公司(提及)
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[可观测性]] · [[Harry Stebbings]] · [[Elena Berger]] · [[Uber]] · [[Lovable]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[可观测性]] · [[Harry Stebbings]] · [[Elena Berger]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"OpenAI":186,"Anthropic":194,"Cursor":84,"推理":89,"可观测性":42,"Harry Stebbings":20,"Elena Berger":5,"Uber":18,"Lovable":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Anthropic":194,"Cursor":84,"NVIDIA":65,"推理":89,"可观测性":42,"Harry Stebbings":20,"Elena Berger":5,"Uber":18}</script>
 
 <script>
 (function(){

@@ -1,0 +1,932 @@
+{
+  "episode_id": "2026-10-10-twentyvc-20sales-inside-ramp-s-sales-playbook-how",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-10",
+  "tags": [
+    "销售机器",
+    "销售招聘",
+    "GTM 工程",
+    "销售薪酬设计",
+    "销售自动化"
+  ],
+  "categories": [
+    "增长与销售",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "max-freeman",
+      "type": "person",
+      "role": "host",
+      "name": "Max Freeman",
+      "file": "Max Freeman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            44.357,
+            54.42
+          ],
+          "quote": "Today, we're joined by one of the fastest growing companies in the world's SVP of sales, Max Freeman, to understand how to think about onboarding, how to think about acquiring the best talent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harry",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry",
+      "file": "Harry",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            307.628,
+            310.15
+          ],
+          "quote": "No, Harry's far too old and arrogant for a prep call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            774.155,
+            777.537
+          ],
+          "quote": "Hey, Harry, I know you're evaluating us and another competitor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1522.795,
+            1524.316
+          ],
+          "quote": "Hey, Harry, today was awesome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1541.228,
+            1543.509
+          ],
+          "quote": "Is this person gonna, is Harry gonna bring Susan into the call?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1576.318,
+            1581.201
+          ],
+          "quote": "Well, Harry, we haven't even determined technically if this is going to fit for your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3051.787,
+            3057.349
+          ],
+          "quote": "When you quantify that, Harry, across hundreds and hundreds of sellers, that is a disgusting loss of productivity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            3523.594,
+            3526.397
+          ],
+          "quote": "Harry, when I come to London, I'll show you this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": true,
+      "how_described": "本集把它说成全球增长最快的公司之一，做企业信用卡与财务管理；嘉宾 Max Freeman 是其销售 SVP，整集都在拆解它如何搭销售团队：给 2 倍底薪换 4-6 倍产出、配常驻增长工程团队、内部建 OATS 与 Ramp Revenue 等工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            16.284,
+            19.747
+          ],
+          "quote": "There are some sellers at RAMP that are on 15 plus calls in a given day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            97.595,
+            106.543
+          ],
+          "quote": "Crosby combines AI, some of the best engineers in the world, from companies like Ramp and Stripe, and some of the best attorneys in the world from top 10 law firms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            116.372,
+            122.658
+          ],
+          "quote": "They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            270.332,
+            273.793
+          ],
+          "quote": "I think when people think of the fastest growing companies, they do immediately think of Ramp.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            289.519,
+            294.742
+          ],
+          "quote": "There's amazing individuals on the go-to-market team at RAMP, and I feel very lucky.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            331.503,
+            341.129
+          ],
+          "quote": "So in building the early go-to-market team at RAMP, we brought on quite a few investment bankers and now they're running pretty large pieces of the business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            529.844,
+            533.285
+          ],
+          "quote": "There are some sellers at RAMP that are on 15 plus calls in a given day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            650.812,
+            653.656
+          ],
+          "quote": "I was like, oh, we get that 10 to 20 times a month at RAMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            811.515,
+            817.081
+          ],
+          "quote": "Which is assuming the role of a seller at RAMP and you have to go through a discovery call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 222,
+          "t": [
+            821.245,
+            824.708
+          ],
+          "quote": "Those three things are RAMP as a business and as a product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            899.007,
+            901.469
+          ],
+          "quote": "In my Ramp story, I was a mid-market account executive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            901.769,
+            906.673
+          ],
+          "quote": "I quit my job to become an SDR all over again at Ramp and people looked at me like I had 20 heads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1007.403,
+            1010.665
+          ],
+          "quote": "The first engineers that I met at RAMP were otherworldly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1190.739,
+            1197.841
+          ],
+          "quote": "They should be focused on just speaking with the customer and helping solve their business problems and getting ramp deployed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1658.905,
+            1665.167
+          ],
+          "quote": "You're so excited for me to join ramp day one and you want to give me a job and it's time for comp design, okay?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1913.492,
+            1919.696
+          ],
+          "quote": "Later stage though, like where Ramp is today, incentive design is incredibly important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2246.525,
+            2251.327
+          ],
+          "quote": "Otherwise, your ability to ramp and become a successful seller is contained.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2327.672,
+            2333.654
+          ],
+          "quote": "Your number is going to keep going up sequentially month over month, quarter over quarter as these new sellers ramp up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            2424.001,
+            2428.422
+          ],
+          "quote": "I think depending on our segments at RAMP, it's anywhere from seven to 12.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2461.573,
+            2464.914
+          ],
+          "quote": "And like ramp time, how long do you give me to ramp post bootcamp?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2464.934,
+            2469.115
+          ],
+          "quote": "Because obviously bootcamp, kind of getting my feet on the ground, how long do I get to ramp?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            2613.318,
+            2616.84
+          ],
+          "quote": "Here's how I think Ramp can uniquely solve some of these said challenges.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 720,
+          "t": [
+            2676.721,
+            2681.264
+          ],
+          "quote": "And while that might work for Snowflake, I don't think it's the right decision for us at RAMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2709.002,
+            2711.444
+          ],
+          "quote": "In RAMP today, there's no shortage of new products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            2932.277,
+            2936.838
+          ],
+          "quote": "Dude, we're seeing brand marketing spend like never before from big brands like Ramp.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2984.228,
+            2992.493
+          ],
+          "quote": "And it's definitely showing up in cycle times, in customer willingness to expand their usage of RAMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3057.509,
+            3065.752
+          ],
+          "quote": "And so we've built our own internal revenue operating system called Ramp Revenue that performs a lot of this pre-call research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3079.86,
+            3084.764
+          ],
+          "quote": "This random person that isn't even in finance or accounting happened to use Ramp at a previous company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3136.098,
+            3144.203
+          ],
+          "quote": "So on the ramp revenue piece, I won't speak for Eric and Karim, but our ambitions are well beyond owning the office of the CFO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3161.694,
+            3163.775
+          ],
+          "quote": "You can't just be like, oh, yeah, why don't we do ramp revenue?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3163.795,
+            3170.096
+          ],
+          "quote": "It's like, no, ramp revenue actually needs salespeople to sell it, to implement it, to do customer success on it, to market it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3223.512,
+            3227.674
+          ],
+          "quote": "A lot of what helped me progress at RAMP was being incredibly hands-on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3350.553,
+            3354.695
+          ],
+          "quote": "And so my question just to you is like, it's amazing, and I'm giving Ramp credit here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3354.975,
+            3363.159
+          ],
+          "quote": "What do you think Ramp and Eric and Kareem did to make, no offense, Max from Namely, who wasn't extraordinary, a founder?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3510.683,
+            3514.406
+          ],
+          "quote": "Inspect is RAMP's internal coding agent in Harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            3557.376,
+            3562.878
+          ],
+          "quote": "You can give it to anyone in sales in the world to join the ramp sales team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            3804.04,
+            3809.503
+          ],
+          "quote": "This was like four or five months into RAMP, but I was deliberate in telling her this is going to fuck up our lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            3866.825,
+            3872.612
+          ],
+          "quote": "Back when I was in SDR at RAMP, I always used to listen to your podcast and take anecdotes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1047,
+          "t": [
+            3872.812,
+            3879.019
+          ],
+          "quote": "This was all done by hand manually and reach out to the founders that you had as guests as a way to try and get them on RAMP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            3911.493,
+            3920.457
+          ],
+          "quote": "Crosby combines AI, some of the best engineers in the world, from companies like Ramp and Stripe, and some of the best attorneys in the world from top ten law firms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1056,
+          "t": [
+            3930.26,
+            3936.543
+          ],
+          "quote": "They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oats",
+      "type": "concept",
+      "role": "concept",
+      "name": "OATS",
+      "file": "OATS",
+      "primary": true,
+      "how_described": "本集说它是 Ramp 内部的 Outbound Automation Team（外呼自动化团队），2020 年底自建，把名单抓取、邮件外呼等原本手工的活交给工程师自动化，让销售专注与客户交谈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1119.671,
+            1129.042
+          ],
+          "quote": "And I give a lot of credit to Kareem early on with providing engineering resources to myself to build out our OATS program super early on in the business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1130.643,
+            1132.325
+          ],
+          "quote": "What is an OATS program?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1159.221,
+            1162.923
+          ],
+          "quote": "And that's what OATS is an acronym for, Outbound Automation Team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ramp-revenue",
+      "type": "concept",
+      "role": "concept",
+      "name": "Ramp Revenue",
+      "file": "Ramp Revenue",
+      "primary": true,
+      "how_described": "本集说它是 Ramp 内部的收入操作系统，自动完成通话前调研，把原来 15-30 分钟的 LinkedIn/PitchBook 资料翻查压缩到 90 秒，省下的时间变成额外销售天数和更高配额。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 819,
+          "t": [
+            3057.509,
+            3065.752
+          ],
+          "quote": "And so we've built our own internal revenue operating system called Ramp Revenue that performs a lot of this pre-call research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3136.098,
+            3144.203
+          ],
+          "quote": "So on the ramp revenue piece, I won't speak for Eric and Karim, but our ambitions are well beyond owning the office of the CFO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3161.694,
+            3163.775
+          ],
+          "quote": "You can't just be like, oh, yeah, why don't we do ramp revenue?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3163.795,
+            3170.096
+          ],
+          "quote": "It's like, no, ramp revenue actually needs salespeople to sell it, to implement it, to do customer success on it, to market it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "type": "concept",
+      "role": "concept",
+      "name": "Inspect",
+      "file": "Inspect",
+      "primary": true,
+      "how_described": "本集说它是 Ramp 内部的编码智能体（coding agent），嘉宾称离不开它——「感觉像口袋里随时装着一名工程师和销售工程师」，能做定制 demo、分析客户配置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            218.547,
+            222.969
+          ],
+          "quote": "Prompt, inspect, edit, and publish in one place at a whole new pace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3509.682,
+            3510.202
+          ],
+          "quote": "Inspect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3510.683,
+            3514.406
+          ],
+          "quote": "Inspect is RAMP's internal coding agent in Harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 939,
+          "t": [
+            3526.537,
+            3536.966
+          ],
+          "quote": "It is insane what our sellers can accomplish with Inspect, like creating bespoke custom demos, performing any analysis on a current customer's RAM configuration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            4032.447,
+            4036.868
+          ],
+          "quote": "Prompt, inspect, edit, and publish in one place at a whole new pace.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDR",
+      "file": "SDR",
+      "primary": true,
+      "how_described": "本集反复以 SDR（销售开发专员）为基准讨论产出与薪酬：Ramp 给标准 SDR 2 倍薪水、要求每月约 40-60 个会议（市场标准约 10 个），并强调不要一次只招一个 SDR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            7.117,
+            9.659
+          ],
+          "quote": "We'll pay 2x what a standard SDR is going to make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            10.8,
+            16.024
+          ],
+          "quote": "You get to book 40, 50, 60 meetings, which is four to six times what a standard SDR has to book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            442.119,
+            444.621
+          ],
+          "quote": "We'll pay 2x what a standard SDR is going to make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            445.782,
+            451.006
+          ],
+          "quote": "You get to book 40, 50, 60 meetings, which is four to six times what a standard SDR has to book.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            471.915,
+            474.417
+          ],
+          "quote": "50 meetings in a given month for an SDR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            901.769,
+            906.673
+          ],
+          "quote": "I quit my job to become an SDR all over again at Ramp and people looked at me like I had 20 heads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1668.569,
+            1674.751
+          ],
+          "quote": "How do you advise founders on comp design for the first AE and the first SDR?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1777.08,
+            1780.662
+          ],
+          "quote": "And you should never hire one seller or one SDR at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2958.066,
+            2968.416
+          ],
+          "quote": "It's hard to truly attribute this in the data, but it's a surround sound for our outbound SDR team, especially if we're in certain markets, certain geos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            3866.825,
+            3872.612
+          ],
+          "quote": "Back when I was in SDR at RAMP, I always used to listen to your podcast and take anecdotes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "outbound",
+      "type": "concept",
+      "role": "concept",
+      "name": "外呼销售 (outbound)",
+      "file": "外呼销售",
+      "primary": true,
+      "how_described": "本集说 outbound 过去是写作和打电话的问题，如今越来越是工程问题：自动化要持续 A/B 测试并保留人工精发，衡量标准不是回复率而是转化成会议的比例（约 1%）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            691.114,
+            692.095
+          ],
+          "quote": "How much of it was outbound?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1138.592,
+            1144.895
+          ],
+          "quote": "Yeah, so outbound used to primarily be a writing and a calling problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1149.077,
+            1159.201
+          ],
+          "quote": "In late 2020, early 21, even before the rise of AI, we built our own internal infrastructure to help automate a lot of our outbound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1159.221,
+            1162.923
+          ],
+          "quote": "And that's what OATS is an acronym for, Outbound Automation Team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1271.977,
+            1291.435
+          ],
+          "quote": "Do you not think you have efficacy reduction, in other words, less efficient outbound with scale versus if I sent 20 really, really great messages that are researched, thoughtful, included a joke about our alma mater and a picture of me and my mum walking on the weekend, my efficiency would be through the roof.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1343.492,
+            1347.817
+          ],
+          "quote": "What's a good response rate when you're sending outbound in a tool like this?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2958.066,
+            2968.416
+          ],
+          "quote": "It's hard to truly attribute this in the data, but it's a surround sound for our outbound SDR team, especially if we're in certain markets, certain geos.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "quota",
+      "type": "concept",
+      "role": "concept",
+      "name": "配额 (quota)",
+      "file": "配额",
+      "primary": true,
+      "how_described": "本集建议早期公司前两个季度 100% OTE、不设配额，因为拍脑袋定的数字要么爆掉欠巨额佣金、要么打掉新人信心；等有数据后再定「有野心又合理」的配额。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            183.898,
+            192.811
+          ],
+          "quote": "Or under pressure to increase bookings ahead of hiring, or behind on target even, and need every rep to hit quota, OneMind is the solution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1686.355,
+            1695.877
+          ],
+          "quote": "And I've actually seen founders get into some trouble where they make a quota that gets blown out in the first six months and it's, holy shit, I owe this seller multiple six figures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1771.236,
+            1772.938
+          ],
+          "quote": "Let's make a quota that is both",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1926.78,
+            1938.927
+          ],
+          "quote": "And so thinking through 2X to 3X, quota retirement for new products, you gotta get the, again, you have to get the momentum going such that you earn your way into more multi-product customers, more case studies, more momentum.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2390.313,
+            2396.434
+          ],
+          "quote": "Carlos, who was the head of sales at Eleven Labs, said that they get 20x quota.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 931,
+          "t": [
+            3498.774,
+            3503.217
+          ],
+          "quote": "Dude, we're going to do a quickfire because otherwise I could talk to you all day and you've got a quota to hit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3997.803,
+            4006.711
+          ],
+          "quote": "Or under pressure to increase bookings ahead of hiring, or behind on target even, and need every rep to hit quota, OneMind is the solution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集顺带提到 Inspect 是 Ramp 内部的「编码智能体」，以及 Framer 广告中「智能体与人类协同工作」的说法，未展开讨论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 935,
+          "t": [
+            3510.683,
+            3514.406
+          ],
+          "quote": "Inspect is RAMP's internal coding agent in Harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moneyball",
+      "type": "concept",
+      "role": "concept",
+      "name": "Moneyball",
+      "file": "Moneyball",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            560.009,
+            568.23
+          ],
+          "quote": "So I am a huge fan of Moneyball and you have to treat go to market recruiting like Billy Bean.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

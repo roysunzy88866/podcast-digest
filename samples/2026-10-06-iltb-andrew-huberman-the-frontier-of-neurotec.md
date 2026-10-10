@@ -210,7 +210,7 @@ Huberman 对健康与长寿领域的公共讨论评价毫不客气：就是一�
 
 - [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:AI</span>
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:记忆 (memory)</span>
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:OpenAI、Anthropic、Meta</span>
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事]]<span class="pd-rz">同公司:OpenAI · 同概念:AI</span>
 
 </div>
 <div class="pd-ex">

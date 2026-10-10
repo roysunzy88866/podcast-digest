@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[资本支出]] · [[Claude]] · [[NVIDIA]] · [[RAG]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"OpenAI":186,"Anthropic":194,"Google":69,"Codex":82,"资本支出":7,"Claude":93,"NVIDIA":64,"RAG":28,"护栏":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Anthropic":194,"Google":69,"Codex":82,"资本支出":7,"Claude":93,"NVIDIA":65,"RAG":28,"护栏":87}</script>
 
 <script>
 (function(){

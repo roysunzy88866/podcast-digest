@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":64,"AMD":5,"GPU":29,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":8,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":65,"AMD":5,"GPU":30,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":9,"CPU":5}</script>
 
 <script>
 (function(){

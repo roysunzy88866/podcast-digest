@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]]
+[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":29,"大语言模型":10,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":6}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":30,"大语言模型":10,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":6}</script>
 
 <script>
 (function(){

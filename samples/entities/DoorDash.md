@@ -56,7 +56,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[Waymo]] · [[OpenAI]] · [[自主性]] · [[Cognition]] · [[Uber]] · [[智能体商务]] · [[Stripe]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"推理":89,"Waymo":21,"OpenAI":186,"自主性":10,"Cognition":26,"Uber":18,"智能体商务":1,"Stripe":48,"ChatGPT":104}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"推理":89,"Waymo":21,"OpenAI":188,"自主性":10,"Cognition":26,"Uber":18,"智能体商务":1,"Stripe":48,"ChatGPT":104}</script>
 
 <script>
 (function(){

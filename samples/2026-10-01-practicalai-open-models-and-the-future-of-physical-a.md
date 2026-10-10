@@ -142,7 +142,7 @@ Ming-Yu 专门澄清了 NVIDIA 语境下「开放模型」的含义,远不止开
 
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:LLM、推理 (inference)、物理 AI (physical AI)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:NVIDIA · 同概念:LLM、推理 (inference)、智能体 (agent)</span>
-- [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型]]<span class="pd-rz">同概念:世界模型 (world model)、模拟 (simulation)、微调 (fine tune)、智能体 (agent)</span>
 
 </div>
 </div>

@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Claude]] · [[OpenClaw]] · [[OpenAI]] · [[Harj]] · [[Meta]] · [[Jeremy Adams]] · [[Raphael Schaad]] · [[Patrick Collison]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"Claude":93,"OpenClaw":23,"OpenAI":186,"Harj":1,"Meta":48,"Jeremy Adams":1,"Raphael Schaad":1,"Patrick Collison":3,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"Claude":93,"OpenClaw":23,"OpenAI":188,"Harj":1,"Meta":48,"Jeremy Adams":1,"Raphael Schaad":1,"Patrick Collison":3,"开源模型":4}</script>
 
 <script>
 (function(){

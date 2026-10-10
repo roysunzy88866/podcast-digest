@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI":29,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":26,"Howard Hughes":1,"Netflix":6,"Brookfield":1,"Berkshire Hathaway":2}</script>
+<script type="application/json" class="pd-epn">{"AI":30,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":26,"Howard Hughes":1,"Netflix":6,"Brookfield":1,"Berkshire Hathaway":2}</script>
 
 <script>
 (function(){

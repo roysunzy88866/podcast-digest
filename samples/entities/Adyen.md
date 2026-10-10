@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[token]] · [[Heitor Lessa]] · [[Matt Jones]] · [[规范驱动开发]] · [[Architect]] · [[苏格拉底方法]] · [[Neo4j]] · [[对抗性审查]] · [[Flink]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"token":32,"Heitor Lessa":1,"Matt Jones":1,"规范驱动开发":2,"Architect":1,"苏格拉底方法":1,"Neo4j":4,"对抗性审查":1,"Flink":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"token":32,"Heitor Lessa":1,"Matt Jones":1,"规范驱动开发":2,"Architect":1,"苏格拉底方法":1,"Neo4j":4,"对抗性审查":1,"Flink":1}</script>
 
 <script>
 (function(){

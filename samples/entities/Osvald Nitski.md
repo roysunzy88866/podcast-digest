@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Mercor":2,"智能体":454,"开源":39,"RL 环境":8,"编码智能体":32,"评估":5,"机器人":13,"合成数据":10}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Mercor":2,"智能体":457,"开源":39,"RL 环境":8,"编码智能体":32,"评估":5,"机器人":14,"合成数据":10}</script>
 
 <script>
 (function(){

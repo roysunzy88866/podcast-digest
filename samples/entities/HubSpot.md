@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>HubSpot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="HubSpot">HU</div><div class="pi"><h1 class="pt">HubSpot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="HubSpot">HU</div><div class="pi"><h1 class="pt">HubSpot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]]**(01:31起):本集多次把它与 Salesforce 并列为被挑战的老派 CRM;Keith 还请过 HubSpot 的 CRO 来办公室演讲做获客活动。
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(01:44起):本集说 HubSpot 是 Exa 服务的市场推广智能体客户，帮用户获得高质量的可销售公司名单。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(24:32起):被拿来举例的巨头：主导了 Google 搜索中所有「金钱关键词」，长尾查询是小公司对抗它的机会。
+- **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(43:39起):本集说 Ben 因为用上 Claude Code 而取消它的订阅，自己动手做了客户管理系统
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为被讨论公司(提及)
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-09-14-pmf-he-turned-off-a-product-with-20m-users-a|《从 2000 万用户到烧掉重来：Tome 创始人的绝地转型与百万播放打法》]] — 作为被讨论公司(提及)
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为被讨论公司(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念(提及)
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Google]] · [[ChatGPT]] · [[Lenny]] · [[LLM]] · [[Salesforce]] · [[OpenAI]] · [[Cursor]] · [[SEO]] · [[go-to-market]]
+[[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Lenny]] · [[LLM]] · [[Salesforce]] · [[Cursor]] · [[SEO]] · [[go-to-market]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"Google":69,"ChatGPT":104,"Lenny":68,"LLM":60,"Salesforce":35,"OpenAI":186,"Cursor":84,"SEO":8,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"Google":69,"ChatGPT":104,"OpenAI":188,"Lenny":68,"LLM":60,"Salesforce":35,"Cursor":84,"SEO":8,"go-to-market":14}</script>
 
 <script>
 (function(){

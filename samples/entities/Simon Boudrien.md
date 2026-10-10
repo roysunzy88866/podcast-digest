@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":8,"智能体":454,"评估":5,"上下文":30,"Cursor":84,"开源权重模型":3,"代码审查":24,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":8,"智能体":457,"评估":5,"上下文":30,"Cursor":84,"开源权重模型":3,"代码审查":24,"上下文腐烂":4}</script>
 
 <script>
 (function(){

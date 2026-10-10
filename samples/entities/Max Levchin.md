@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":8,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":454}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":8,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":457}</script>
 
 <script>
 (function(){

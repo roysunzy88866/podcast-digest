@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]] [[Bilal Zuberi]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Thomas Somers":1,"Positron":2,"Anthropic":194,"NVIDIA":64,"Latent Space":3,"智能体":454,"预训练":9,"蒸馏":1,"推理":89}</script>
+<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Thomas Somers":1,"Positron":2,"Anthropic":194,"NVIDIA":65,"Latent Space":3,"智能体":457,"预训练":9,"蒸馏":1,"推理":89}</script>
 
 <script>
 (function(){

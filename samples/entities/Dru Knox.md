@@ -47,7 +47,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Ben]] [[Hossein]] [[Kath Korevec]] [[Kent C. Dodds]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Ben]] [[Hossein]] [[Kath Korevec]]
 
 </div>
 

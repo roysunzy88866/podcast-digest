@@ -124,9 +124,9 @@ Transformer 本身很强，Justin 不认为需要推翻它。他看到两个更�
 
 **换个口味**
 
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型]]<span class="pd-rz">同嘉宾:Justin Johnson · 同公司:World Labs · 同概念:Marble、世界模型 (world model)、智能体 (agent)</span>
 - [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|Atlas:让 AI 预测世界的下一个视角]]<span class="pd-rz">同嘉宾:Justin Johnson · 同公司:World Labs · 同概念:Marble、世界模型 (world model)</span>
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]]<span class="pd-rz">同公司:World Labs · 同概念:Marble</span>
 
 </div>
 </div>

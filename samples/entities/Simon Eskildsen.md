@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":454,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":6}</script>
+<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":457,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":6}</script>
 
 <script>
 (function(){

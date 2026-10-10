@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Charrington]] · [[Justin Johnson]] · [[World Labs]] · [[世界模型]] · [[高斯溅射]] · [[智能体]] · [[Marble]] · [[RTFM]] · [[Transformers]] · [[模拟器]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Justin Johnson":2,"World Labs":4,"世界模型":13,"高斯溅射":1,"智能体":454,"Marble":4,"RTFM":1,"Transformers":3,"模拟器":3}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Justin Johnson":3,"World Labs":5,"世界模型":14,"高斯溅射":1,"智能体":457,"Marble":5,"RTFM":1,"Transformers":3,"模拟器":3}</script>
 
 <script>
 (function(){

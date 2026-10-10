@@ -31,7 +31,7 @@ unlisted: true
 
 [[David George]] · [[Kevin Mandia]] · [[Mandiant]] · [[智能体]] · [[零日漏洞]] · [[红队测试]] · [[渗透测试]] · [[自主防御]] · [[开源模型]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"David George":6,"Kevin Mandia":1,"Mandiant":1,"智能体":454,"零日漏洞":3,"红队测试":7,"渗透测试":1,"自主防御":1,"开源模型":4,"护栏":87}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Kevin Mandia":1,"Mandiant":1,"智能体":457,"零日漏洞":3,"红队测试":7,"渗透测试":1,"自主防御":1,"开源模型":4,"护栏":87}</script>
 
 <script>
 (function(){

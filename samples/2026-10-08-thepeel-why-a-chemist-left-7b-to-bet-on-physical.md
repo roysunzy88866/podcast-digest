@@ -217,7 +217,7 @@ Red Glass 这个名字是他孩子起的，他自己想不出好名字。
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Applied Intuition、Waymo、Tesla · 同概念:物理 AI (physical AI)</span>
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Waymo、Tesla · 同概念:物理 AI (physical AI)</span>
-- [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Waymo、OpenAI · 同概念:机器人 (robotics)</span>
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型]]<span class="pd-rz">同公司:OpenAI · 同概念:仿真 (simulation)、机器人 (robotics)</span>
 
 </div>
 <div class="pd-ex">

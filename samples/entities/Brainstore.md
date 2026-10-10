@@ -34,7 +34,7 @@ unlisted: true
 
 [[Braintrust]] · [[评估]] · [[Ankur Goyal]] · [[可观测性]] · [[智能体]] · [[Figma]] · [[提示词]] · [[Corinne Riley]] · [[LLM]] · [[Doug Guthrie]]
 
-<script type="application/json" class="pd-epn">{"Braintrust":5,"评估":5,"Ankur Goyal":2,"可观测性":42,"智能体":454,"Figma":22,"提示词":22,"Corinne Riley":4,"LLM":60,"Doug Guthrie":1}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"评估":5,"Ankur Goyal":2,"可观测性":42,"智能体":457,"Figma":22,"提示词":22,"Corinne Riley":4,"LLM":60,"Doug Guthrie":1}</script>
 
 <script>
 (function(){

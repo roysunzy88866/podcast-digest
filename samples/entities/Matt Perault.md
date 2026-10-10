@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":18,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":7,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":19,"Speedrun":1,"小科技":1,"regulation":2,"风险投资":1,"AI 编程":7,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

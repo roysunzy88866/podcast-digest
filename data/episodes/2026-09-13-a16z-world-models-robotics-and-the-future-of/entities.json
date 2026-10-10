@@ -1,0 +1,901 @@
+{
+  "episode_id": "2026-09-13-a16z-world-models-robotics-and-the-future-of",
+  "podcast": "The a16z Show",
+  "date": "2026-09-13",
+  "tags": [
+    "世界模型",
+    "视频生成",
+    "机器人",
+    "3D 重建",
+    "游戏与影视"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "justin-johnson",
+      "type": "person",
+      "role": "host",
+      "name": "Justin Johnson",
+      "file": "Justin Johnson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            39.439,
+            48.206
+          ],
+          "quote": "World Labs co-founder Justin Johnson joins Theo Jaffe and Sofia Puccini on MTS to discuss Atlas and the broader idea behind world models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            66.049,
+            72.851
+          ],
+          "quote": "We're live with Justin Johnson, who is a co-founder of World Labs, which is a startup that builds spatial intelligence products.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "type": "company",
+      "role": "company",
+      "name": "World Labs",
+      "file": "World Labs",
+      "primary": true,
+      "how_described": "Justin Johnson 联合创立的初创公司，构建空间智能产品，核心论点是存在一类基于视觉与物理理解的通用「世界模型」，本集发布了其基础模型 Atlas。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            39.439,
+            48.206
+          ],
+          "quote": "World Labs co-founder Justin Johnson joins Theo Jaffe and Sofia Puccini on MTS to discuss Atlas and the broader idea behind world models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            66.049,
+            72.851
+          ],
+          "quote": "We're live with Justin Johnson, who is a co-founder of World Labs, which is a startup that builds spatial intelligence products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            801.478,
+            817.624
+          ],
+          "quote": "I'm kind of curious about, all the way back in 2023, 2024, when the original version of Sora came out, OpenAI's paper on it was called, like, Video Generation Models as World Simulators, which seems like very similar to the vision of World Labs.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atlas",
+      "file": "Atlas",
+      "primary": true,
+      "how_described": "本集核心话题：号称世界首个多模态世界模型，能做生成、重建、模拟三件事，支持像素级相机控制、参考图锚定 3D 空间，本集强调这是模型发布而非产品发布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            39.439,
+            48.206
+          ],
+          "quote": "World Labs co-founder Justin Johnson joins Theo Jaffe and Sofia Puccini on MTS to discuss Atlas and the broader idea behind world models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            73.591,
+            81.153
+          ],
+          "quote": "And just today they announced Atlas, the world's first multimodal world model that generates image and video frames with pixel perfect camera control and reconstructs them in 3D.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            134.29,
+            136.851
+          ],
+          "quote": "The second major capability of Atlas is reconstruction, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            146.997,
+            149.078
+          ],
+          "quote": "So there what Atlas can do is sparse reconstruction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            231.778,
+            236.239
+          ],
+          "quote": "I'm curious like how this has evolved and why Atlas is a big jump here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            260.953,
+            265.48
+          ],
+          "quote": "So here we built Atlas specifically around spatial control and the notion of a spatial context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            265.98,
+            268.945
+          ],
+          "quote": "So when you give Atlas reference images, they aren't just images.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            277.434,
+            288.885
+          ],
+          "quote": "And when you generate a video from Atlas, you're not just giving it a text prompt, you also go in and steer the camera and say, I want the camera to fly this way, this way, this way, this way, with exact precise pixel control.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            333.105,
+            334.986
+          ],
+          "quote": "Definitely not as much as Atlas.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            336.798,
+            338.96
+          ],
+          "quote": "Ultimately, this is something you'll be able to do with Atlas?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 90,
+          "t": [
+            353.011,
+            354.552
+          ],
+          "quote": "This is something Atlas can do, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            370.208,
+            371.91
+          ],
+          "quote": "And Atlas is built to do this as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            379.762,
+            387.192
+          ],
+          "quote": "If you're somebody using this world model and you have all these inputs, how would you steer Atlas to do what you intended?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            462.18,
+            473.863
+          ],
+          "quote": "So Atlas was built fully from the ground up to both rethink the architecture, to make it more unified, more easy to scale, and to have that sort of that branch between 2D and 3D happen earlier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            474.623,
+            480.267
+          ],
+          "quote": "So that when when we're generating 2D outputs or video outputs from Atlas, you're not bottlenecking through a Gaussian splash scene anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            590.805,
+            601.715
+          ],
+          "quote": "Do you think Atlas will eventually be able to... Like, what will it take to get Atlas from where it is now to able to dynamically generate content quickly enough to...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            617.887,
+            622.15
+          ],
+          "quote": "Like there's one sort of, and actually, you know, Atlas was built to handle both of those tech trees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            628.777,
+            630.999
+          ],
+          "quote": "That's something Atlas can do because of its native 3D outputs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            759.787,
+            773.252
+          ],
+          "quote": "Then there's a version of that where you could come in here and take just a couple of casual videos with your phone or a couple of images with your phone, use Atlas to reconstruct the space, and now stage all kinds of robotics interactions in this studio space in particular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            773.732,
+            792.357
+          ],
+          "quote": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1088.494,
+            1090.795
+          ],
+          "quote": "How does Atlas perform with like difficult physics stuff?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1137.293,
+            1142.838
+          ],
+          "quote": "And then you can use Atlas to do these bullet time reframing shots, like freeze frame fly around.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1231.795,
+            1235.579
+          ],
+          "quote": "So Atlas has camera control as a native input type, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1334.644,
+            1340.53
+          ],
+          "quote": "Yeah, I can't wait to see all of the amazing stuff that people are going to do with Atlas once it's fully out into the world.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "Johnson 的核心论点：继语言模型之后的另一类横向通用模型，基于视觉和物理理解，可生成、模拟、重建各种世界，横跨娱乐、VR、建筑、机器人等行业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            73.591,
+            81.153
+          ],
+          "quote": "And just today they announced Atlas, the world's first multimodal world model that generates image and video frames with pixel perfect camera control and reconstructs them in 3D.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            105.879,
+            107.059
+          ],
+          "quote": "But at its heart, it's a world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            189.99,
+            194.653
+          ],
+          "quote": "The central thesis here is that there's a new, there's a different kind of horizontal model that we can build called a world model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            379.762,
+            387.192
+          ],
+          "quote": "If you're somebody using this world model and you have all these inputs, how would you steer Atlas to do what you intended?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1283.104,
+            1292.694
+          ],
+          "quote": "But one of our dreams we joked when starting the company is you want to build these 3D world models and how cool would it be to use a 3D world model to design a chip that we then use to train the next generation world model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulation)",
+      "file": "模拟",
+      "primary": true,
+      "how_described": "Atlas 三大能力之一：把真实空间复刻成 3D 再模拟机器人行为；在机器人训练评估的「最后一公里」里，构建尽可能匹配最终用例的仿真。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            48.887,
+            63.419
+          ],
+          "quote": "They explore how models could generate and reconstruct environments, what separates them from video generation, and applications across gaming, VFX, and robotics, including turning a few photos of a real space into a simulation for training a robot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            107.499,
+            112.461
+          ],
+          "quote": "It does basically three different kinds of things, generation, reconstruction, and simulation, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            159.726,
+            161.528
+          ],
+          "quote": "And the third thing we can do is simulation, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            642.247,
+            645.689
+          ],
+          "quote": "So, you know, taking like a reel video and then building a simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            674.194,
+            686.204
+          ],
+          "quote": "So there's a really useful role in simulation at that last mile part of robotics training and evaluation where we build a simulation that matches the final use case as accurately as possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            686.644,
+            698.835
+          ],
+          "quote": "Then even if you've got your big pre-trained robotics foundation model that knows about a lot of robotics actions in general, then you could either fine tune that thing directly in that final simulation that matches the application or even do evaluations to make sure that it's going to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            709.022,
+            712.244
+          ],
+          "quote": "But simulation gives you a different angle to simulate those environments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            773.732,
+            792.357
+          ],
+          "quote": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            920.538,
+            934.762
+          ],
+          "quote": "So if we can provide a model that has all these general capabilities in simulation, in reconstruction, in generation, in explicit 3D, in 2D, and then we can have a coding agent go and stitch all these capabilities together, then we can let people really quickly iterate on really cool experiences.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1091.095,
+            1101.498
+          ],
+          "quote": "Like, for example, if I wanted to do a simulation of a black hole or something, like would it be able to say like, oh, this is like a scenario where like normal object collisions don't really apply.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gaussian-splat",
+      "type": "concept",
+      "role": "concept",
+      "name": "高斯溅射 (Gaussian splat)",
+      "file": "高斯溅射",
+      "primary": true,
+      "how_described": "本集讨论的显式 3D 表示：前代产品 Marble 把一切瓶颈在高斯溅射表示上，Atlas 从零重建架构打破该依赖；但高斯在客户端渲染、嵌入式设备和现有工作流集成上仍有位置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            322.057,
+            326.44
+          ],
+          "quote": "So it like, I think it was like a giant Gaussian splat of the whole city or something.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 89,
+          "t": [
+            347.507,
+            352.431
+          ],
+          "quote": "Like the idea of generating a Gaussian splat reconstruction, then importing that explicit asset into a game engine or something else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            354.592,
+            359.797
+          ],
+          "quote": "Like it can be used to generate, you know, 3D Gaussian splat scenes, and then you could import them and generate and build games around them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            444.67,
+            451.897
+          ],
+          "quote": "So Marble could output videos, Marble could output 3D scenes, Marble could output meshes, but everything was kind of bottlenecking through a 3D Gaussian splat representation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "real-to-sim-to-real",
+      "type": "concept",
+      "role": "concept",
+      "name": "真实到模拟再到真实 (real to sim to real)",
+      "file": "真实到模拟再到真实",
+      "primary": true,
+      "how_described": "机器人适配的新路径：手机拍几张环境照片，用 Atlas 重建空间、编排机器人交互并做 RL 微调，几分钟后得到完全适配该环境的机器人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            744.723,
+            748.964
+          ],
+          "quote": "Another version is more this, you know, what we're calling real to sim to real.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "robotics",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (robotics)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "世界模型最实用的落地方向之一：用于评估和微调通用机器人基础模型，让预训练机器人快速适配特定工厂或房间环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.191,
+            25.932
+          ],
+          "quote": "From entertainment to VR to construction to robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            48.887,
+            63.419
+          ],
+          "quote": "They explore how models could generate and reconstruct environments, what separates them from video generation, and applications across gaming, VFX, and robotics, including turning a few photos of a real space into a simulation for training a robot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            161.568,
+            163.85
+          ],
+          "quote": "And this is going after more robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            164.15,
+            165.411
+          ],
+          "quote": "Well, both VFX and robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            177.844,
+            183.207
+          ],
+          "quote": "Is the ultimate vision for WorldLab something more like environment for teaching robotics how to work?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            218.348,
+            221.091
+          ],
+          "quote": "From entertainment, to VR, to construction, to robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            638.686,
+            642.007
+          ],
+          "quote": "I'm also really curious about reel to sim for robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            659.162,
+            664.646
+          ],
+          "quote": "You definitely want to evaluate robotics in the final environment where they're actually going to end up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            674.194,
+            686.204
+          ],
+          "quote": "So there's a really useful role in simulation at that last mile part of robotics training and evaluation where we build a simulation that matches the final use case as accurately as possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 156,
+          "t": [
+            686.644,
+            698.835
+          ],
+          "quote": "Then even if you've got your big pre-trained robotics foundation model that knows about a lot of robotics actions in general, then you could either fine tune that thing directly in that final simulation that matches the application or even do evaluations to make sure that it's going to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            733.78,
+            738.862
+          ],
+          "quote": "Like maybe I've got a robotics foundation model, then I can kind of demonstrate the robot once how a task should be performed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            749.985,
+            755.546
+          ],
+          "quote": "There, maybe I've got my pre-trained robotics foundation model, but I want to adapt it to this like particular environment, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            759.787,
+            773.252
+          ],
+          "quote": "Then there's a version of that where you could come in here and take just a couple of casual videos with your phone or a couple of images with your phone, use Atlas to reconstruct the space, and now stage all kinds of robotics interactions in this studio space in particular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            773.732,
+            792.357
+          ],
+          "quote": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集被拿来对照路线：其 Sora 论文曾提出「视频生成模型作为世界模拟器」，后来 Sora 2 变成类 TikTok 消费品并放弃世界模型方向；Johnson 婉拒评论，只说这像「创新者的困境」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            312.31,
+            322.017
+          ],
+          "quote": "So yeah, we were just talking right before we went on about our friend Tyce from OpenAI did this project that went kind of viral that was like GTA, but it's San Francisco.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 182,
+          "t": [
+            801.478,
+            817.624
+          ],
+          "quote": "I'm kind of curious about, all the way back in 2023, 2024, when the original version of Sora came out, OpenAI's paper on it was called, like, Video Generation Models as World Simulators, which seems like very similar to the vision of World Labs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 188,
+          "t": [
+            841.913,
+            843.654
+          ],
+          "quote": "Well, I don't want to comment on OpenAI in particular.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sora",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sora",
+      "file": "Sora",
+      "primary": true,
+      "how_described": "OpenAI 的视频生成模型，本集说它最初论文定位是世界模拟器、与 World Labs 愿景相似，但 Sora 2 走向消费级短视频产品，最终被放弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            801.478,
+            817.624
+          ],
+          "quote": "I'm kind of curious about, all the way back in 2023, 2024, when the original version of Sora came out, OpenAI's paper on it was called, like, Video Generation Models as World Simulators, which seems like very similar to the vision of World Labs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 183,
+          "t": [
+            818.445,
+            821.126
+          ],
+          "quote": "And then, you know, they did Sora as that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 184,
+          "t": [
+            821.286,
+            827.028
+          ],
+          "quote": "They did Sora 2 basically as like a TikTok clone that didn't seem that interested in",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 186,
+          "t": [
+            834.766,
+            838.59
+          ],
+          "quote": "And then they dropped Sora and now they're not working on world models at all.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "type": "concept",
+      "role": "concept",
+      "name": "Marble",
+      "file": "Marble",
+      "primary": true,
+      "how_described": "World Labs 的第一个产品：与 Atlas 同样的多模态核心论点，但一切输出都瓶颈在 3D 高斯溅射表示上；Atlas 是完全从零重建的模型栈，更统一、更易扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            424.627,
+            427.151
+          ],
+          "quote": "How does it differ from Marble, which is WorldLab's first product?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            436.602,
+            437.903
+          ],
+          "quote": "This is something that Marble did as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            438.524,
+            444.129
+          ],
+          "quote": "But one way in which they differ is that Marble really put Gaussian splats really at the center of many things that it did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            444.67,
+            451.897
+          ],
+          "quote": "So Marble could output videos, Marble could output 3D scenes, Marble could output meshes, but everything was kind of bottlenecking through a 3D Gaussian splat representation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "在 Atlas 重建的仿真里对通用机器人基础模型做微调（含 RL），使其适配特定环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            686.644,
+            698.835
+          ],
+          "quote": "Then even if you've got your big pre-trained robotics foundation model that knows about a lot of robotics actions in general, then you could either fine tune that thing directly in that final simulation that matches the application or even do evaluations to make sure that it's going to work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            773.732,
+            792.357
+          ],
+          "quote": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "innovators-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "创新者的窘境 (innovators dilemma)",
+      "file": "创新者的窘境",
+      "primary": false,
+      "how_described": "Johnson 用它解释 OpenAI 为何放弃世界模型方向：手握领先的 LLM 时，押注下一个东西未必划算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            855.105,
+            858.148
+          ],
+          "quote": "I think there is maybe a sense of a bit of innovators dilemma, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "Johnson 设想未来：用自然语言描述任务，让智能体自动搭建仿真、完成微调；模型通过 API 供人类和智能体共同消费、互操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            773.732,
+            792.357
+          ],
+          "quote": "And if you could lower the barrier to doing that, like literally you could do it in five minutes to like take five photos, upload it to Atlas, have a general simulation, maybe describe in natural language what you think, what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing, like RL, fine tune your general purpose robotics foundation model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            920.538,
+            934.762
+          ],
+          "quote": "So if we can provide a model that has all these general capabilities in simulation, in reconstruction, in generation, in explicit 3D, in 2D, and then we can have a coding agent go and stitch all these capabilities together, then we can let people really quickly iterate on really cool experiences.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "language model",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

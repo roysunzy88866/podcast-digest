@@ -43,7 +43,7 @@ unlisted: true
 
 [[开源]] · [[OpenAI]] · [[就业市场]] · [[Christian Klein]] · [[软技能]] · [[SAP]] · [[Hashicorp]] · [[Anthropic]] · [[GitHub]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"开源":39,"OpenAI":186,"就业市场":1,"Christian Klein":1,"软技能":1,"SAP":4,"Hashicorp":2,"Anthropic":194,"GitHub":31,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"开源":39,"OpenAI":188,"就业市场":1,"Christian Klein":1,"软技能":1,"SAP":4,"Hashicorp":2,"Anthropic":194,"GitHub":31,"Amazon":32}</script>
 
 <script>
 (function(){

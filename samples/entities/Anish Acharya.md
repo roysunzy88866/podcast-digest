@@ -128,11 +128,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":454,"OpenAI":186,"Cursor":84,"护城河":14,"编码智能体":32,"Anthropic":194,"a16z":18,"Decagon":9,"循环":10,"个人智能体":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Cursor":84,"护城河":14,"编码智能体":32,"Anthropic":194,"a16z":19,"Decagon":9,"循环":10,"个人智能体":2}</script>
 
 <script>
 (function(){

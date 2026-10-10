@@ -1,0 +1,593 @@
+{
+  "episode_id": "2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo",
+  "podcast": "The a16z Show",
+  "date": "2026-10-10",
+  "tags": [
+    "创业与风险投资",
+    "AI 行业大势",
+    "招聘与多元化",
+    "AI 基础设施",
+    "嘻哈与商业"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "james-norman",
+      "type": "person",
+      "role": "host",
+      "name": "James Norman",
+      "file": "James Norman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            62.202,
+            70.487
+          ],
+          "quote": "This one comes from Vintage and Vintage, where host James Norman sits down with A16Z co-founder Ben Horwitz for the show's inaugural episode.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            47.401,
+            50.022
+          ],
+          "quote": "For Ben Horowitz, it isn't the absence of weaknesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            215.756,
+            217.658
+          ],
+          "quote": "And this is my guest, Ben Horowitz.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 832,
+          "t": [
+            2723.436,
+            2728.584
+          ],
+          "quote": "When the next vintage of VCs talk about Ben Horowitz, what do you want them to say?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集说它是 Ben Horowitz 联合创办的风险投资公司，理念是为创业者而非 LP 打造更好的产品、把公司本身当作一个网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            62.202,
+            70.487
+          ],
+          "quote": "This one comes from Vintage and Vintage, where host James Norman sits down with A16Z co-founder Ben Horwitz for the show's inaugural episode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            71.308,
+            84.616
+          ],
+          "quote": "Ben shares what he learned going from engineer to first-time CEO, how those experiences shake the founding of A16Z, and why evaluating founders means looking for world-class strengths rather than trying to find someone who checks every box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3035.141,
+            3038.003
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3049.953,
+            3055.597
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 917,
+          "t": [
+            3066.54,
+            3074.083
+          ],
+          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 918,
+          "t": [
+            3074.443,
+            3081.486
+          ],
+          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 919,
+          "t": [
+            3081.946,
+            3087.629
+          ],
+          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把它说成「一台新计算机、计算机的重新发明」，比互联网更大，让构建能力商品化、创造力成为关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            85.624,
+            89.665
+          ],
+          "quote": "They also get into AI and why Ben sees this moment as bigger than the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1424.155,
+            1427.178
+          ],
+          "quote": "One was crypto and then the other was AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1491.014,
+            1502.402
+          ],
+          "quote": "And then the same thing happened to us in AI, where they went as far as like the last executive order from the Biden administration was to say it's illegal to sell a GPU without prior government approval for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1503.403,
+            1508.669
+          ],
+          "quote": "So, like, it would have literally taken us out of the AI, you know, competition at the chip level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1612.647,
+            1623.674
+          ],
+          "quote": "But now we're kind of in the space of performatively exclusive, but it's quite the special, it's quite the special time for it to be inclusive because AI has commoditized the ability to build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2005.65,
+            2007.051
+          ],
+          "quote": "Now, we have AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2038.747,
+            2040.728
+          ],
+          "quote": "He's almost like an AI fiend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2040.768,
+            2041.409
+          ],
+          "quote": "He's an AI fiend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2041.469,
+            2043.91
+          ],
+          "quote": "I think there's like, literally, I think there's gonna be AI rehab at some point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2175.717,
+            2177.681
+          ],
+          "quote": "It's a conduit, but like it ain't AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2179.086,
+            2180.487
+          ],
+          "quote": "You know, AI is a new computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2194.716,
+            2198.418
+          ],
+          "quote": "And then, like, that's AI, and then it's more powerful on top of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 684,
+          "t": [
+            2216.833,
+            2224.9
+          ],
+          "quote": "Any idea, any, like, major problem, like, is getting figured out with AI right now, like, it is wild.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2384.987,
+            2390.87
+          ],
+          "quote": "And so a lot of the narratives around the AI bubble, I just think, aren't correct.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            2428.776,
+            2437.922
+          ],
+          "quote": "So the big thing that's different about AI is in my generation and in every generation, you could not throw money at a problem, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 873,
+          "t": [
+            2920.492,
+            2926.177
+          ],
+          "quote": "So I think the infrastructure for AI is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 882,
+          "t": [
+            2962.503,
+            2966.445
+          ],
+          "quote": "If you look at AI, I mean, just start with the workload, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 885,
+          "t": [
+            2970.985,
+            2973.646
+          ],
+          "quote": "Somebody makes an AI query, like, I think it'd run for a week.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集说 AI 的基础设施「就是错的」，如同云计算早期一样，从芯片、底层系统到模型训练方式都会被推倒重建，是未来 8-12 个月最大的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 873,
+          "t": [
+            2920.492,
+            2926.177
+          ],
+          "quote": "So I think the infrastructure for AI is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 876,
+          "t": [
+            2933.49,
+            2937.491
+          ],
+          "quote": "And it is very reminiscent to me of the infrastructure for cloud computing being wrong.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说对 GPU 的需求是无限的，但拜登政府曾行政令规定未经批准出售 GPU 违法，且未来可能出现 GPU 暂时过剩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            1491.014,
+            1502.402
+          ],
+          "quote": "And then the same thing happened to us in AI, where they went as far as like the last executive order from the Biden administration was to say it's illegal to sell a GPU without prior government approval for that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说它的芯片需求无限但产能不足，并批评现有芯片是「耗电巨大、良率低、为打游戏而造」的，未必适合 AI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 732,
+          "t": [
+            2371.821,
+            2376.043
+          ],
+          "quote": "People were trying to say, oh, the demand for NVIDIA chips is artificial.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 734,
+          "t": [
+            2379.124,
+            2382.186
+          ],
+          "quote": "Like, the demand for NVIDIA chips right now is just unlimited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 888,
+          "t": [
+            2983.491,
+            2986.833
+          ],
+          "quote": "If you look at, I mean, NVIDIA, God bless them, but like...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它从 2022 年 11 月起从零涨到 200 亿美元收入，以此论证当下并非互联网泡沫式的局面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 721,
+          "t": [
+            2335.044,
+            2338.706
+          ],
+          "quote": "OpenAI went like zero to $20 billion since November 2022.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            2449.449,
+            2456.753
+          ],
+          "quote": "And the greatest example to me is, right, like, OpenAI got to $10 billion in revenue, and Elon started a cult.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eleven-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Eleven Labs",
+      "file": "Eleven Labs",
+      "primary": true,
+      "how_described": "本集把它当作 AI 时代壁垒的正面例子：钻进开发者技术栈、进入数据反馈循环，做出保留原语气调的配音产品，拿下 Netflix 合同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 767,
+          "t": [
+            2486.598,
+            2489.82
+          ],
+          "quote": "So like one of my favorite examples is Eleven Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 769,
+          "t": [
+            2491.402,
+            2501.029
+          ],
+          "quote": "Eleven Labs, okay, of all the things, if you rewind back to when we made the first investment, that you would go, okay, they're probably vulnerable to the big guys, is...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2507.983,
+            2517.131
+          ],
+          "quote": "But it turns out that Eleven Labs, a very, very clever company, one, they got in the developer stack.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Ben 用上它之后第二天就取消了 HubSpot 订阅、自己写 CRM 和融资平台，象征软件构建门槛的坍塌",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 613,
+          "t": [
+            2017.476,
+            2023.579
+          ],
+          "quote": "I'd be on Claude Code on my phone, and it's like, you know, now, like, for instance— By the way, I was talking to Deshaun.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 792,
+          "t": [
+            2606.096,
+            2607.037
+          ],
+          "quote": "I got in Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2608.966,
+            2609.867
+          ],
+          "quote": "I got in Claude Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 797,
+          "t": [
+            2614.45,
+            2617.813
+          ],
+          "quote": "So I got in Claude Code and I was like, this goes crazy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集说 Ben 因为用上 Claude Code 而取消它的订阅，自己动手做了客户管理系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 799,
+          "t": [
+            2619.054,
+            2622.337
+          ],
+          "quote": "And then the next day I was like, cancel HubSpot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2678.7,
+            2691.807
+          ],
+          "quote": "But still, yet and still, like, that's a real thing where you can chase you by using GPUs that you don't even own, that Anthropic owns, can chase down HubSpot for your use case like that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集里 Deshaun 说「我这里有个智能体」，四个人也许能减到两个，一笔带过",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 621,
+          "t": [
+            2033.404,
+            2034.124
+          ],
+          "quote": "I got an agent here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2034.144,
+            2034.764
+          ],
+          "quote": "I got an agent here.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

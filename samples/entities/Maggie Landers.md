@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Molly Graham]] [[Jesse Jang]] [[Peter Sellis]]
+[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Molly Graham]]
 
 </div>
 

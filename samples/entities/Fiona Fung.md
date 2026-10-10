@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]]
+[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":194,"Claude Code":98,"Co-work":4,"智能体":454,"验证":2,"测试驱动开发":3,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Anthropic":194,"Claude Code":99,"Co-work":4,"智能体":457,"验证":2,"测试驱动开发":3,"潜在需求":2,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

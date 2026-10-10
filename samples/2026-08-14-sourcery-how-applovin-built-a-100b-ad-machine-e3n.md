@@ -162,8 +162,8 @@ Gio 最锋利的总结：「我会把 Axon 的成功很大程度上归因于我�
 **顺着「创业与行业」挖下去**
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI、品味 (taste)</span>
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事]]<span class="pd-rz">同概念:AI、GPU</span>
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]]<span class="pd-rz">同公司:ChatGPT · 同概念:GPU</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:ChatGPT · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

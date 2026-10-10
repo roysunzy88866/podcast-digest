@@ -198,8 +198,8 @@ jsonLd: |
 **顺着「增长与销售」挖下去**
 
 - [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人]]<span class="pd-rz">同公司:YC · 同概念:产品市场匹配 (product market fit)</span>
+- [[2026-10-10-twentyvc-20sales-inside-ramp-s-sales-playbook-how|Ramp 销售主管的招人经：把投行的人挖来卖信用卡]]<span class="pd-rz">同概念:外呼开发 (outbound)</span>
 - [[2026-07-25-talks-why-physical-ai-is-the-next-platform-shi|从量化交易员到物理 AI 数据层：Anchored 创始人的过山车十年]]<span class="pd-rz">同公司:YC · 同概念:产品市场匹配 (product market fit)</span>
-- [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注]]<span class="pd-rz">同公司:LinkedIn</span>
 
 </div>
 <div class="pd-ex">

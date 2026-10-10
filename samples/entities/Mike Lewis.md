@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]]
+[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":454,"Claude":93,"组织转型":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":457,"Claude":93,"组织转型":1}</script>
 
 <script>
 (function(){

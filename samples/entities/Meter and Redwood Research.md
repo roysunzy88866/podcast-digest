@@ -25,7 +25,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[沙箱]] · [[评估]] · [[奖励黑客]] · [[评分器]] · [[思维链]] · [[Artifactory]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":186,"Hugging Face":32,"智能体":454,"沙箱":88,"评估":5,"奖励黑客":7,"评分器":1,"思维链":9,"Artifactory":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":188,"Hugging Face":32,"智能体":457,"沙箱":88,"评估":5,"奖励黑客":7,"评分器":1,"思维链":9,"Artifactory":2}</script>
 
 <script>
 (function(){

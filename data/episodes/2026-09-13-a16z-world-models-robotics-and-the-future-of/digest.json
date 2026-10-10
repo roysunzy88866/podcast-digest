@@ -1,0 +1,167 @@
+{
+  "title_zh": "当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型",
+  "tldr": "World Labs 联合创始人 Justin Johnson 讲解新模型 Atlas：生成、重建、模拟三维世界，以及它如何改变游戏、影视和机器人训练。",
+  "digest_md": "语言模型让AI学会了处理文字。Justin Johnson 认为，还有另一类模型值得做——世界模型，让AI理解和模拟我们身处的物理世界。他是 World Labs 的联合创始人，这家公司刚发布了 Atlas,号称首个多模态世界模型：既能生成画面，又能精确控制镜头，还能把照片重建成 3D 场景。\n\n## 世界模型到底是个什么东西？\n\nJohnson 的核心论点是：语言模型是处理文字的通用引擎，已经催生了无数应用；而**世界模型应该是基于视觉和物理理解的另一类通用模型**，能够生成、模拟、重建各种世界。[00:09 Justin Johnson]\n\n如果做得足够通用，它可以横跨娱乐、VR、建筑、机器人等众多行业。毕竟我们生活在物理空间里，也需要AI来帮忙处理这些空间里的事。\n\n## Atlas 能做三件事：生成、重建、模拟\n\nAtlas 是模型发布，不是产品发布，产品还在后面。它做三件事 [01:47 Justin Johnson]：\n\n一是生成。输入文字或图片，凭空造出一个不存在的新世界，然后你可以操纵镜头在里面飞行。影视特效、游戏都是天然的应用场景。\n\n二是重建。拍几张某个真实空间的照片——少则一张，多则一百张——就能把这个空间重建成虚拟世界。照片越多，重建越精确。\n\n三是模拟。把真实空间复刻成 3D,再模拟机器人在里面会如何行动。\n\n## 为什么它不像视频生成那样越生成越乱？\n\n视频生成模型有个老大难问题：生成到十几秒后画面就开始跑偏、变形。Atlas 的解法是把参考图锚定在 3D 空间里——你可以指定这张图在这个位置、那张图在那个位置，像沿路留面包屑一样引导模型 [04:49 Justin Johnson]。\n\n同时，镜头控制是像素级的精确输入。所以即使生成一分钟的视频，结果也不是抽奖——它不是一个老虎机(slot machine),你在持续地指挥模型输出什么 [05:05 Justin Johnson]。\n\n这正是 Johnson 强调的设计哲学：他们不想做生成式老虎机——拉动杆子祈祷出个好结果，而是要让人感觉自己是导演，牢牢掌控输出 [17:42 Justin Johnson]。\n\n## 和 OpenAI 的路线之争\n\n2024 年 OpenAI 发布 Sora 时，论文标题就叫「视频生成模型作为世界模拟器」，方向看起来很像。但后来 Sora 2 更像一个消费级短视频产品。\n\nJohnson 不愿评论 OpenAI 的内部决策，但点出了一个可能的困境：当你已经在语言模型上领先时，去押注下一个东西未必划算。**这就是经典的创新者的窘境**。而 World Labs 相信世界模型是另一个独立的模型品类，机会很大，他们想自己去抓 [14:15 Justin Johnson]。\n\n## 最惊艳的功能：三台手机拍出子弹时间\n\n一个连团队自己都没想到的效果：用三台普通 iPhone 架在三脚架上，同步拍下某个瞬间——比如一颗草莓掉进燕麦奶碗——然后用 Atlas 生成电影级的子弹时间镜头：在牛奶溅起的瞬间冻结时间，镜头绕着飞一圈 [18:44 Justin Johnson]。\n\nJohnson 说这比所有人预期的都要好，仅凭三个视角就能做到，非常不可思议。\n\n## 拍五张照片，五分钟适配一个机器人\n\n机器人是最实用的方向之一。思路叫「真实到模拟再到真实」：假设你有了一个通用的机器人基础模型，但要让它在一个特定环境里工作，只需用手机随手拍几张那个空间的照片，用 Atlas 重建出来，在里面微调训练，机器人就完美适配了这个环境 [12:39 Justin Johnson]。\n\nJohnson 设想的未来是：拍五张照片，上传，用自然语言描述你想要机器人干什么，让智能体自动搭建模拟、完成微调——几分钟内，一个针对这个房间量身定制的机器人就绪。\n\n至于奇特的物理场景，比如黑洞？他猜 Atlas 现在大概搞不定，得先试试再说。大致牛顿力学范围内的东西都在训练数据里，问题不大；量子尺度就得重新设计架构了 [20:49 Justin Johnson]。\n\n## 游戏会被AI完全生成吗？\n\n主持人半开玩笑地问：==GTA 6 会不会是最后一批纯人工打造的大作，以后游戏都由模型实时生成==？\n\nJohnson 不同意这个说法。他类比迪士尼的历史：从手绘每一帧，到声画同步，再到皮克斯的电脑动画——每次新技术出现，创作者总能找到新的表达方式。AI 只是新一代创作工具，「创意的人永远握着方向盘」[17:19 Justin Johnson]。\n\n## 本集带走\n\n- 世界模型是继语言模型之后的另一类通用模型，基于视觉和物理理解，能生成、重建、模拟三维世界，横跨游戏、影视、VR、机器人多个行业。\n- Atlas 的关键差异是精确控制：参考图锚定在 3D 空间、镜头像素级操控，长视频生成不再是抽奖。\n- 三台 iPhone 同步拍摄就能生成电影级子弹时间镜头，是发布会上最惊艳的意外之喜。\n- 机器人训练的新路径：拍几张环境照片重建模拟场景，几分钟内让通用机器人适配特定空间。\n- 尽管AI能生成一切，Johnson 认为创意永远需要人在环里——新技术只是新一代创作工具。",
+  "quotes": [
+    {
+      "en": "The central thesis here is that there's a new, there's a different kind of horizontal model that we can build called a world model.",
+      "zh": "这里的核心论点是，存在一种新的、我们可以构建的不同类型的横向模型，叫做世界模型。",
+      "timestamp": "03:09",
+      "speaker": "Justin Johnson"
+    },
+    {
+      "en": "And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding, that can be used to generate, simulate, reconstruct worlds.",
+      "zh": "我们的论点是，存在另一类模型叫做世界模型，它应该基于视觉理解、基于物理理解，可以用来生成、模拟、重建世界。",
+      "timestamp": "03:23",
+      "speaker": "Justin Johnson"
+    },
+    {
+      "en": "So the idea here is that even as you go to really long generations, it's not a slot machine.",
+      "zh": "所以这里的理念是，即使你去到非常长的生成，它也不是一台老虎机。",
+      "timestamp": "05:01",
+      "speaker": "Justin Johnson"
+    },
+    {
+      "en": "We never wanted to be building these generative slot machines where you just like pull the thing and hope you get out a good generation or you don't feel like that generation was yours or that you controlled it or that you knew what you were getting out.",
+      "zh": "我们从来不想构建这些生成式的老虎机——你只是拉一下那个杆，然后祈祷生成出一个好结果，或者感觉那个生成物不是你的、不是你控制的、也不知道自己会得到什么。",
+      "timestamp": "17:42",
+      "speaker": "Justin Johnson"
+    },
+    {
+      "en": "Like whether it's 3D control, whether it's text control, that you feel like you're a director in the thing guiding this model and deciding exactly what it outputs rather than just like the model spits something out and maybe I can stitch it together after the fact.",
+      "zh": "比如无论是 3D 控制，还是文本控制，让你感觉自己是这个过程中的导演，引导这个模型、精确决定它输出什么，而不是模型吐出一个东西，也许我事后把它拼接起来。",
+      "timestamp": "17:56",
+      "speaker": "Justin Johnson"
+    },
+    {
+      "en": "So anything that's like roughly Newtonian that doesn't work out is probably just a quick SFT away.",
+      "zh": "所以任何大致属于牛顿力学但表现不对的东西，可能离一次快速的 SFT 就差不远了。",
+      "timestamp": "20:53",
+      "speaker": "Justin Johnson"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:09",
+      "speaker": "Justin Johnson",
+      "en": "The central thesis here is that there's a new, there's a different kind of horizontal model that we can build called a world model.",
+      "zh": "这里的核心论点是，存在一种新的、我们可以构建的不同类型的横向模型，叫做世界模型。"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Justin Johnson",
+      "en": "And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding, that can be used to generate, simulate, reconstruct worlds.",
+      "zh": "我们的论点是，存在另一类模型叫做世界模型，它应该基于视觉理解、基于物理理解，可以用来生成、模拟、重建世界。"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Justin Johnson",
+      "en": "You know, we live our lives in this physical built space all around us, and we need models to help us with these things as well.",
+      "zh": "你知道，我们生活在周围这个物理建成的空间里，我们也需要模型来帮助我们处理这些事情。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Justin Johnson",
+      "en": "So the idea here is that even as you go to really long generations, it's not a slot machine.",
+      "zh": "所以这里的理念是，即使你去到非常长的生成，它也不是一台老虎机。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Justin Johnson",
+      "en": "You're generating and directing and really controlling what the model outputs.",
+      "zh": "你在生成、执导，并真正控制模型的输出。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Justin Johnson",
+      "en": "Another direction where this could go is, you know, you skip the engine entirely and go directly for frame generation, right?",
+      "zh": "另一个可能的方向是，你知道，你完全跳过引擎，直接进行帧生成，对吧？"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Justin Johnson",
+      "en": "So it's one model that both handles, you know, 2D when you need it, 3D when you need it, and can handle both modalities in a native way.",
+      "zh": "所以它是一个模型，既能在你需要时处理 2D，也能在你需要时处理 3D，并且能以原生的方式处理这两种模态。"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Justin Johnson",
+      "en": "And this is really nice, but we wanted to break that dependency.",
+      "zh": "这确实很好，但我们想打破那个依赖。"
+    },
+    {
+      "timestamp": "08:17",
+      "speaker": "Justin Johnson",
+      "en": "I think Gaussians are a tool just like anything else, and you've got to use the right tool for the job, right?",
+      "zh": "我认为高斯就像其他任何东西一样，只是一个工具，你得为工作选用合适的工具，对吧？"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "Justin Johnson",
+      "en": "I think there might be a world in the future where we're all streaming pixels directly off these models in real time from powerful server farms, but we're not quite there yet, and even if we are, it's going to be pretty expensive.",
+      "zh": "我想也许未来会有这样一个世界：我们都从强大的服务器农场实时地直接从这些模型流式传输像素，但我们还没完全到那一步，而且即使到了，那也会相当昂贵。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Justin Johnson",
+      "en": "But the reality is that it takes a lot longer for these things to permeate than we expect.",
+      "zh": "但现实是，这些东西渗透所需的时间比我们预期的要长得多。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Justin Johnson",
+      "en": "So there's a really useful role in simulation at that last mile part of robotics training and evaluation where we build a simulation that matches the final use case as accurately as possible.",
+      "zh": "所以在机器人训练和评估的“最后一公里”环节，仿真有一个非常有用的角色，我们会构建一个尽可能精确匹配最终用例的仿真。"
+    },
+    {
+      "timestamp": "13:18",
+      "speaker": "Justin Johnson",
+      "en": "And now you've got a robot maybe in the span of a couple of minutes even that could come in and is perfectly adapted to this space.",
+      "zh": "现在你就得到了一台机器人，也许只需要几分钟的时间，它就能走进来，并且完全适配这个空间。"
+    },
+    {
+      "timestamp": "14:15",
+      "speaker": "Justin Johnson",
+      "en": "I think there is maybe a sense of a bit of innovators dilemma, right?",
+      "zh": "我觉得也许有一点创新者困境的感觉，对吧？"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Justin Johnson",
+      "en": "It doesn't necessarily make sense to try to invest in that next thing.",
+      "zh": "去投资下一个东西不一定划算。"
+    },
+    {
+      "timestamp": "14:28",
+      "speaker": "Justin Johnson",
+      "en": "There's a ton of opportunities out here and we want to be the ones to go and grab them.",
+      "zh": "这里有大量的机会，而我们想成为去抓住它们的人。"
+    },
+    {
+      "timestamp": "17:42",
+      "speaker": "Justin Johnson",
+      "en": "We never wanted to be building these generative slot machines where you just like pull the thing and hope you get out a good generation or you don't feel like that generation was yours or that you controlled it or that you knew what you were getting out.",
+      "zh": "我们从来不想构建这些生成式的老虎机——你只是拉一下那个杆，然后祈祷生成出一个好结果，或者感觉那个生成物不是你的、不是你控制的、也不知道自己会得到什么。"
+    },
+    {
+      "timestamp": "17:56",
+      "speaker": "Justin Johnson",
+      "en": "Like whether it's 3D control, whether it's text control, that you feel like you're a director in the thing guiding this model and deciding exactly what it outputs rather than just like the model spits something out and maybe I can stitch it together after the fact.",
+      "zh": "比如无论是 3D 控制，还是文本控制，让你感觉自己是这个过程中的导演，引导这个模型、精确决定它输出什么，而不是模型吐出一个东西，也许我事后把它拼接起来。"
+    },
+    {
+      "timestamp": "19:54",
+      "speaker": "Justin Johnson",
+      "en": "But I think there's an underappreciated value of 3D on the input side as well.",
+      "zh": "但我认为 3D 在输入侧的价值也被低估了。"
+    },
+    {
+      "timestamp": "20:53",
+      "speaker": "Justin Johnson",
+      "en": "So anything that's like roughly Newtonian that doesn't work out is probably just a quick SFT away.",
+      "zh": "所以任何大致属于牛顿力学但表现不对的东西，可能离一次快速的 SFT 就差不远了。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们来聊一个可能不太常听说的词——世界模型。讲故事的人叫 Justin Johnson，他是 World Labs 的联合创始人。这家公司刚刚发布了一个叫 Atlas 的模型，号称是第一个多模态世界模型。它不但能生成画面，还能精确控制镜头，甚至能把照片重建成三维场景。\n\n先说说这期在讲什么问题。你可能知道，语言模型这几年让 AI 学会了处理文字，写文章、编代码都不在话下。但 Johnson 提出一个核心论点：除了处理文字的通用引擎，还应该存在另一类通用模型——世界模型，让 AI 理解和模拟我们身处的这个物理世界。说白了，我们生活在物理空间里，很多事需要 AI 来帮忙处理空间里的事，比如做特效、盖房子、训练机器人。如果这种模型做得足够通用，它能横跨娱乐、VR、建筑、机器人一大堆行业。\n\n那这个 Atlas 到底能干什么？Johnson 说得很清楚，这次是模型发布，不是产品发布，产品还在后面。模型本身做三件事。\n\n第一件是生成。你输入一段文字或者一张图片，它能凭空造出一个不存在的新世界，然后你可以操纵镜头，在里面飞来飞去。影视特效、游戏，这些是天然的应用场景。\n\n第二件是重建。你拿手机拍几张某个真实空间的照片——少则一张，多则一百张——它就能把这个空间重建成一个虚拟世界。照片越多，重建得越精确。\n\n第三件是模拟。把真实空间复刻成三维场景之后，还能模拟机器人在里面会怎么行动。\n\n听起来跟视频生成有点像？那为什么 Atlas 不会有视频生成那个老大难问题——就是画面生成到十几秒以后，开始跑偏、变形？这就引出 Atlas 的关键解法了。它把参考图锚定在三维空间里，你可以指定这张图在这个位置、那张图在那个位置，就像沿路留面包屑一样，一步一步引导模型。同时，镜头控制是像素级的精确输入。所以就算生成一分钟的视频，结果也不是抽奖。Johnson 有个说法特别形象：它不是一台老虎机，你是在持续地指挥模型输出什么。这也是他们的设计哲学——从来不想做生成式的老虎机，拉一下杆、祈祷出个好结果；而是要让人感觉自己是导演，牢牢掌控输出。\n\n说到这儿，有人可能会问，OpenAI 当年发布 Sora 的时候，论文标题不就是「视频生成模型作为世界模拟器」吗，这不是同一个方向？确实很像。但后来 Sora 2 走得更像一个消费级短视频产品。Johnson 不愿意评论人家的内部决策，不过他点出了一个可能的困境：当你已经在语言模型上领先的时候，去押注下一个东西未必划算——这就是经典的「创新者的窘境」。而 World Labs 相信，世界模型是另一个独立的模型品类，机会很大，他们想自己去抓。\n\n接下来讲两个最有意思的演示。第一个，连团队自己都没想到：用三台普通 iPhone，架在三脚架上，同步拍下某个瞬间——比如一颗草莓掉进燕麦奶碗——然后用 Atlas 生成电影级的子弹时间镜头：在牛奶溅起的瞬间冻结时间，镜头绕着飞一圈。 Johnson 自己都说，这比所有人预期的都要好，仅凭三个视角就能做到，非常不可思议。\n\n第二个更实用，是关于机器人的。思路叫「真实到模拟再到真实」。假设你已经有一个通用的机器人基础模型，但要让它在某个特定环境里干活，怎么办？很简单：用手机随手拍几张那个空间的照片，用 Atlas 重建出模拟场景，在里面微调训练，机器人就完美适配这个环境了。Johnson 设想的未来更省事——拍五张照片，上传，用自然语言描述你想要机器人干什么，让智能体自动搭建模拟、完成微调。几分钟之内，一个针对你家这个房间量身定制的机器人，就绪了。\n\n那有听友可能好奇，那些特别奇特的物理场景，比如黑洞，Atlas 能搞定吗？Johnson 猜现在大概不行，得先试试再说。不过大致在牛顿力学范围内的东西，训练数据里都有，问题不大；要到量子尺度，就得重新设计架构了。\n\n最后聊一个大家关心的话题。主持人半开玩笑地问：GTA 6 会不会是最后一批纯人工打造的游戏大作，以后游戏都由模型实时生成？Johnson 不同意这个说法。他打了个比方：回看迪士尼的历史，从手绘每一帧，到声画同步，再到皮克斯的电脑动画——每次新技术出现，创作者总能找到新的表达方式。AI 只是新一代创作工具，创意的人永远握着方向盘。\n\n所以这一期留给你一句话：AI 能生成的世界再大，方向盘也得握在人的手里。"
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>World Labs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="World Labs">WO</div><div class="pi"><h1 class="pt">World Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="World Labs">WO</div><div class="pi"><h1 class="pt">World Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]]**(01:42起):本集说它是一家前沿模型初创公司，致力于构建大型世界模型以实现空间智能，并收购了 Cynics 以补齐机器人的仿真能力。
 - **[[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]]**(01:05起):本集说 World Labs 是由 Justin Johnson 与李飞飞共同创立的公司，同时在做显式 3D 和隐式像素两条世界模型路线，产品包括 Marble 和 RTFM
 - **[[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|《Atlas:让 AI 预测世界的下一个视角》]]**(10:57起):本集嘉宾创办两年半的公司,以攻克空间智能为目标,刚发布下一代世界模型 Atlas
+- **[[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]]**(00:39起):Justin Johnson 联合创立的初创公司，构建空间智能产品，核心论点是存在一类基于视觉与物理理解的通用「世界模型」，本集发布了其基础模型 Atlas。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为被讨论公司
 - [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|《Justin Johnson：世界模型不只有一种，而语言模型做不到这些》]] — 作为被讨论公司
 - [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|《Atlas:让 AI 预测世界的下一个视角》]] — 作为概念
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Marble]] · [[空间智能]] · [[世界模型]] · [[Waymo]] · [[Justin Johnson]] · [[强化学习]] · [[Lenny]] · [[Fei-Fei Li]] · [[Sam Charrington]] · [[Martin Casado]]
+[[Marble]] · [[世界模型]] · [[空间智能]] · [[Justin Johnson]] · [[Waymo]] · [[模拟]] · [[智能体]] · [[Atlas]] · [[强化学习]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Marble":4,"空间智能":3,"世界模型":13,"Waymo":21,"Justin Johnson":2,"强化学习":1,"Lenny":68,"Fei-Fei Li":1,"Sam Charrington":6,"Martin Casado":5}</script>
+<script type="application/json" class="pd-epn">{"Marble":5,"世界模型":14,"空间智能":3,"Justin Johnson":3,"Waymo":21,"模拟":9,"智能体":457,"Atlas":4,"强化学习":1,"Lenny":68}</script>
 
 <script>
 (function(){

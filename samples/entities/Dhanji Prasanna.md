@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]] [[Molly Graham]] [[Jesse Jang]]
+[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Block":3,"Goose":2,"智能体":454,"MCP":84,"康威定律":2,"职能型架构":1,"LLM":60,"开源模型":4,"Anthropic":194}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Block":3,"Goose":2,"智能体":457,"MCP":84,"康威定律":2,"职能型架构":1,"LLM":60,"开源模型":4,"Anthropic":194}</script>
 
 <script>
 (function(){

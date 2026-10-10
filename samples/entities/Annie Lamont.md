@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":29,"大型语言模型":5,"智能体":454,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
+<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":30,"大型语言模型":5,"智能体":457,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
 
 <script>
 (function(){

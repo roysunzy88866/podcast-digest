@@ -39,17 +39,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]]
+[[Lenny]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Sora]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Surge AI":1,"Anthropic":194,"ChatGPT":104,"LLM Arena":1,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93,"基准测试":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Surge AI":1,"Anthropic":194,"ChatGPT":104,"LLM Arena":1,"Sora":4,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93}</script>
 
 <script>
 (function(){

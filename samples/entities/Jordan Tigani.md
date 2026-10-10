@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":2,"DuckDB Labs":1,"BigQuery":1,"Snowflake":20,"open core":1,"数据仓库":3,"智能体":454,"仪表盘":2}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":2,"DuckDB Labs":1,"BigQuery":1,"Snowflake":20,"open core":1,"数据仓库":3,"智能体":457,"仪表盘":2}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lon Harris]] · [[Justin Kan]] · [[Alex Wilhelm]] · [[Jason Calacanis]] · [[Justin TV]] · [[Twitch]] · [[Google]] · [[Airbnb]] · [[Y Combinator]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":69,"Airbnb":13,"Y Combinator":7,"智能体":454}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":69,"Airbnb":13,"Y Combinator":7,"智能体":457}</script>
 
 <script>
 (function(){

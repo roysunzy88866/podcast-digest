@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":32,"机器人":13,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":32,"机器人":14,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

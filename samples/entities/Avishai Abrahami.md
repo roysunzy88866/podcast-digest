@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Wix":4,"Base44":4,"Salesforce":35,"Atlassian":5,"vibe coding":47,"SaaS":22,"回购":1,"股权激励":1,"微调":34}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Wix":4,"Base44":4,"Salesforce":35,"Atlassian":5,"vibe coding":47,"SaaS":22,"回购":1,"股权激励":1,"微调":35}</script>
 
 <script>
 (function(){

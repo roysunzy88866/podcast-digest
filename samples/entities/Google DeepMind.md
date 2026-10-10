@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[持续学习]] · [[Apple]] · [[Harry Stabbings]] · [[Zubin Gharemani]] · [[Ryan Greenblatt]] · [[Kevin Hou]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"OpenAI":186,"Anthropic":194,"Google":69,"持续学习":1,"Apple":23,"Harry Stabbings":2,"Zubin Gharemani":1,"Ryan Greenblatt":2,"Kevin Hou":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Anthropic":194,"Google":69,"持续学习":1,"Apple":23,"Harry Stabbings":2,"Zubin Gharemani":1,"Ryan Greenblatt":2,"Kevin Hou":1}</script>
 
 <script>
 (function(){

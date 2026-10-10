@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Atlas</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Atlas">AT</div><div class="pi"><h1 class="pt">Atlas</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Atlas">AT</div><div class="pi"><h1 class="pt">Atlas</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]]**(21:09起):本集说 25% 的特拉华州公司通过 Atlas 注册成立，通过 Atlas 注册的新公司产生营收的时间在缩短
 - **[[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|《Atlas:让 AI 预测世界的下一个视角》]]**(00:00起):本集主角:World Labs 新发布的下一代世界模型,能生成、重建和模拟世界,底层原语是新视角预测
+- **[[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]]**(00:39起):本集核心话题：号称世界首个多模态世界模型，能做生成、重建、模拟三件事，支持像素级相机控制、参考图锚定 3D 空间，本集强调这是模型发布而非产品发布。
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(20:35起):本集说 Atlas 是 Sequence 在银行建出、预期跨行业泛化的共享平台,分四层:数据本体、智能体构建器、编排引擎 Lattice、应用构建器 Artifacts,核心基础设施可在 Baldwin 复用。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m|《Patrick Collison：AI时代该怎么创业》]] — 作为概念
 - [[2026-09-04-a16z-fei-fei-li-the-race-to-build-world-model|《Atlas:让 AI 预测世界的下一个视角》]] — 作为概念
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]] — 作为概念
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Harj]] · [[Justin Johnson]] · [[Michael Lee]] · [[Patrick Collison]] · [[Martin Casado]] · [[Sequence Holdings]] · [[Stripe]] · [[World Labs]]
+[[智能体]] · [[OpenAI]] · [[Justin Johnson]] · [[World Labs]] · [[世界模型]] · [[Marble]] · [[Harj]] · [[Martin Casado]] · [[模拟]] · [[Michael Lee]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"OpenAI":186,"Harj":1,"Justin Johnson":2,"Michael Lee":1,"Patrick Collison":3,"Martin Casado":5,"Sequence Holdings":1,"Stripe":48,"World Labs":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Justin Johnson":3,"World Labs":5,"世界模型":14,"Marble":5,"Harj":1,"Martin Casado":5,"模拟":9,"Michael Lee":1}</script>
 
 <script>
 (function(){

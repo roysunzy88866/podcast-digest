@@ -36,7 +36,7 @@ unlisted: true
 
 [[智能体]] · [[Swyx]] · [[ChatGPT]] · [[Anastasis]] · [[Akshat Bubna]] · [[Claude]] · [[世界模型]] · [[Vibhu]] · [[Codex]] · [[视频生成]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"Swyx":2,"ChatGPT":104,"Anastasis":1,"Akshat Bubna":1,"Claude":93,"世界模型":13,"Vibhu":1,"Codex":82,"视频生成":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"Swyx":2,"ChatGPT":104,"Anastasis":1,"Akshat Bubna":1,"Claude":93,"世界模型":14,"Vibhu":1,"Codex":82,"视频生成":1}</script>
 
 <script>
 (function(){

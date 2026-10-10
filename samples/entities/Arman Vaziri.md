@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]]
+[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ramp":10,"go-to-market 编排":1,"智能体":454,"持久化执行":6,"CDP":1,"MCP":84,"护栏":87,"Temporal":6,"TurboPuffer":2,"Snowflake":20}</script>
+<script type="application/json" class="pd-epn">{"Ramp":11,"go-to-market 编排":1,"智能体":457,"持久化执行":6,"CDP":1,"MCP":84,"护栏":87,"Temporal":6,"TurboPuffer":2,"Snowflake":20}</script>
 
 <script>
 (function(){

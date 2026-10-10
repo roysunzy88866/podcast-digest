@@ -31,7 +31,7 @@ unlisted: true
 
 [[Sean]] · [[Amazon]] · [[机器人]] · [[智能体机器人]] · [[人形机器人]] · [[垂直整合]] · [[运营数据点]] · [[飞轮]] · [[滚动式收购]] · [[应用层]]
 
-<script type="application/json" class="pd-epn">{"Sean":1,"Amazon":32,"机器人":13,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Sean":1,"Amazon":32,"机器人":14,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

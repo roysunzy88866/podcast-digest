@@ -35,7 +35,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]] [[Ben Moore]] [[Tim Sanders]]
+[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]]
 
 </div>
 

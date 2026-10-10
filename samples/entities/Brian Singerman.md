@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]] [[Reef Frerichs]]
+[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"OpenAI":186,"Anthropic":194,"Cognition":26,"Ramp":10}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"OpenAI":188,"Anthropic":194,"Cognition":26,"Ramp":11}</script>
 
 <script>
 (function(){

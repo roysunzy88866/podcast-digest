@@ -112,8 +112,8 @@ a16z 跟这类人建立关系的方式很具体：帮他们重新激活人脉（
 **顺着「创业与行业」挖下去**
 
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同嘉宾:Elena Berger · 同公司:Eleven Labs、MidJourney、OpenAI</span>
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事]]<span class="pd-rz">同公司:a16z、Eleven Labs、OpenAI · 同概念:AI</span>
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司]]<span class="pd-rz">同嘉宾:Elena Berger · 同公司:a16z、Salesforce</span>
-- [[2026-08-27-a16z-inside-cursor-the-anatomy-of-a-generatio|a16z 三位投资人复盘 Cursor 早期关键决策]]<span class="pd-rz">同公司:a16z、Cognition、OpenAI</span>
 
 </div>
 <div class="pd-ex">

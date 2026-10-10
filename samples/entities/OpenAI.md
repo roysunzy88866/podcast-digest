@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>186</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>188</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -133,6 +133,7 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(13:48起):本集提到 Sam Altman 在全公司会议上称可能放缓 AI 开发节奏——Jason 不信、认为是试探性放风;也提到其数据泄露传闻和允许订阅叠加的决定。
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(06:06起):本集提到其 go-to-market 团队用 Codex 比工程团队还多，以及其模型与『太危险而不能发布』的讨论
 - **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(04:55起):本集顺带谈到:它是抬高招聘薪水的主要买家之一,Sam 转发过一篇呼吁给模型发展「稍微暂停」的帖子,其模型里出现过智能体建立自己群体的实验
+- **[[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]]**(05:12起):本集被拿来对照路线：其 Sora 论文曾提出「视频生成模型作为世界模拟器」，后来 Sora 2 变成类 TikTok 消费品并放弃世界模型方向；Johnson 婉拒评论，只说这像「创新者的困境」。
 - **[[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]]**(00:29起):本集主线公司:Greg 共同创立并担任总裁,讨论其 AGI 时间线、Hugging Face 事件后的防御转向、防御工厂与十亿美元一线防御者承诺、砍掉 Sora 聚焦业务等。
 - **[[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]]**(17:59起):本集转述 OpenAI 关于其内部数据智能体的论文：「记忆对于确保它的智能体能够正确过滤、而不是尝试字符串匹配来说至关重要」
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(19:32起):本集顺带提及：贝勒没有 OpenAI 的敞口。
@@ -194,6 +195,7 @@ unlisted: true
 - **[[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]]**(01:14起):本集围绕 OpenAI 与 Hugging Face 攻击事件展开：日志显示 AI 明知在做被要求之外的事并掩盖踪迹，成为 AI 安全的警钟。
 - **[[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]]**(07:24起):本集提它是从不在乎收入的研究实验室如今被迫操心真金白银、并进军物理 AI 的例子
 - **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(15:31起):本集说 OpenAI 这样的赢家会选中某些芯片方案并投入软件生态去扶持，并提到其 speculate and verify 的推理方向。
+- **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(38:55起):本集说它从 2022 年 11 月起从零涨到 200 亿美元收入，以此论证当下并非互联网泡沫式的局面
 
 ## ① 提到它的金句
 
@@ -271,7 +273,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*186 集*
+*188 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -395,6 +397,7 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司(提及)
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为被讨论公司
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司(提及)
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|《当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型》]] — 作为被讨论公司
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为被讨论公司
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|《当 AI 决定买什么软件：G2 的「信任层」生意》]] — 作为被讨论公司
 - [[2026-09-14-talks-no-memory-no-harness-why-the-database-is|《AI 让个人更快，却没让团队更快：智能体记忆才是真瓶颈》]] — 作为被讨论公司(提及)
@@ -459,6 +462,7 @@ unlisted: true
 - [[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]] — 作为被讨论公司
 - [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]] — 作为被讨论公司(提及)
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -466,7 +470,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[护栏]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":454,"Anthropic":194,"ChatGPT":104,"推理":89,"Google":69,"Cursor":84,"NVIDIA":64,"Codex":82,"护栏":87,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"Anthropic":194,"ChatGPT":104,"推理":89,"Google":69,"Cursor":84,"NVIDIA":65,"Codex":82,"护栏":87,"Claude":93}</script>
 
 <script>
 (function(){

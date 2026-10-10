@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Gemini Robotics":1,"人形机器人":1,"VLA":4,"泛化":4,"跨载体":2,"模拟":8,"遥操作":1,"世界建模":1,"ICL":1}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Gemini Robotics":1,"人形机器人":1,"VLA":4,"泛化":4,"跨载体":2,"模拟":9,"遥操作":1,"世界建模":1,"ICL":1}</script>
 
 <script>
 (function(){

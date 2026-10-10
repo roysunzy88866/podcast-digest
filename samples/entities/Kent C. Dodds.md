@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":454,"产品工程师":1,"实现":1,"mom test":1,"验证":2,"最小切片":1,"变通办法":1,"MVP":3,"WorkOS":10,"Cloudflare":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":457,"产品工程师":1,"实现":1,"mom test":1,"验证":2,"最小切片":1,"变通办法":1,"MVP":3,"WorkOS":10,"Cloudflare":16}</script>
 
 <script>
 (function(){

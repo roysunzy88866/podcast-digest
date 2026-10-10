@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ben Horowitz">BE</div><div class="pi"><h1 class="pt">Ben Horowitz</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>7</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*31 条*
+*41 条*
 
 ![[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a#^q1]]
 
@@ -75,9 +75,29 @@ unlisted: true
 
 ![[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th#^q12]]
 
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q1]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q2]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q5]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q6]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q7]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q8]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q9]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q10]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q11]]
+
+![[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo#^q12]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-07-06-a16z-dont-follow-your-passion-ben-horowitzs-a|《Ben Horowitz：别追随激情，追随贡献》]] — 作为主持
 - [[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut|《Travis Kalanick 王者归来：把厨房变成「物理世界的计算机」》]] — 作为联合主持
@@ -85,14 +105,15 @@ unlisted: true
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|《OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型》]] — 作为联合主持
 - [[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th|《Ben Horowitz 创办 AI 时代新学院：18 岁可能是历史上最好的年纪》]] — 作为主持
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为主持
+- [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[a16z]] · [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]] · [[Gagan Biani]] · [[Martin Casado]]
+[[a16z]] · [[OpenAI]] · [[NVIDIA]] · [[ChatGPT]] · [[Claude Code]] · [[Codex]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]]
 
-<script type="application/json" class="pd-epn">{"a16z":18,"OpenAI":186,"ChatGPT":104,"Codex":82,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1,"Gagan Biani":1,"Martin Casado":5}</script>
+<script type="application/json" class="pd-epn">{"a16z":19,"OpenAI":188,"NVIDIA":65,"ChatGPT":104,"Claude Code":99,"Codex":82,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1}</script>
 
 <script>
 (function(){

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Edwin Chen]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]]
+[[Lenny]] · [[Edwin Chen]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Sora]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Anthropic":194,"ChatGPT":104,"LLM Arena":1,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93,"基准测试":18}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Anthropic":194,"ChatGPT":104,"LLM Arena":1,"Sora":4,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93}</script>
 
 <script>
 (function(){

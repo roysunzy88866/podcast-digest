@@ -25,7 +25,7 @@ unlisted: true
 
 [[Pete Florence]] · [[通才]] · [[缩放定律]] · [[少样本学习]] · [[跨载体]] · [[手（末端执行器）]] · [[VLA]] · [[世界模型]] · [[物理泛化]] · [[精通]]
 
-<script type="application/json" class="pd-epn">{"Pete Florence":1,"通才":2,"缩放定律":14,"少样本学习":2,"跨载体":2,"手（末端执行器）":1,"VLA":4,"世界模型":13,"物理泛化":1,"精通":1}</script>
+<script type="application/json" class="pd-epn">{"Pete Florence":1,"通才":2,"缩放定律":14,"少样本学习":2,"跨载体":2,"手（末端执行器）":1,"VLA":4,"世界模型":14,"物理泛化":1,"精通":1}</script>
 
 <script>
 (function(){

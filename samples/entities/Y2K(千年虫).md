@@ -25,7 +25,7 @@ unlisted: true
 
 [[Steven Sinofsky]] · [[对齐]] · [[bug]] · [[遥测]] · [[计算机病毒]] · [[运营安全]] · [[Microsoft]] · [[OpenAI]] · [[Hugging Face]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Steven Sinofsky":3,"对齐":20,"bug":1,"遥测":4,"计算机病毒":1,"运营安全":1,"Microsoft":30,"OpenAI":186,"Hugging Face":32,"Google":69}</script>
+<script type="application/json" class="pd-epn">{"Steven Sinofsky":3,"对齐":20,"bug":1,"遥测":4,"计算机病毒":1,"运营安全":1,"Microsoft":30,"OpenAI":188,"Hugging Face":32,"Google":69}</script>
 
 <script>
 (function(){

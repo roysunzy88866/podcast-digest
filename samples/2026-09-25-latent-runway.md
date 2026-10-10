@@ -216,9 +216,9 @@ GWM Robotics 从基础视频模型出发,只微调非常少量小时数的机器
 
 **换个口味**
 
+- [[2026-09-13-a16z-world-models-robotics-and-the-future-of|当AI学会理解世界：World Labs 联合创始人谈 Atlas 与世界模型]]<span class="pd-rz">同概念:世界模型 (world model)、机器人 (robotics)、Sora</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:缩放定律 (scaling laws)、智能体 (agent)</span>
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同概念:蒸馏 (distillation)、智能体 (agent)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同概念:缩放定律 (scaling laws)</span>
 
 </div>
 </div>
