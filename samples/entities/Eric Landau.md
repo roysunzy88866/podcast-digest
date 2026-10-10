@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":102,"Gong":3,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":28,"机器学习":4,"数据标注":3,"ChatGPT":103,"Gong":3,"YC":17}</script>
 
 <script>
 (function(){

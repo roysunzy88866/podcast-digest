@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Circle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Circle">CI</div><div class="pi"><h1 class="pt">Circle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Circle">CI</div><div class="pi"><h1 class="pt">Circle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-01-talks-why-your-ai-agent-needs-a-wallet-usdc-an|《给 AI 智能体发一个钱包：Circle 的纳米支付方案》]]**(00:26起):本集说 Circle 是发行 USDC（全球最大受监管稳定币）的稳定币公司，多年积累让支付更简单、更便宜的能力，并据此构建了面向智能体经济的全栈平台 Circle Agent Stack
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb#^q2]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Harshal Bhangale]] · [[USDC]] · [[智能体]] · [[X402]] · [[微交易]] · [[护栏]] · [[Nanopayments]] · [[Claude Code]] · [[Circle Agent Wallet]] · [[付费墙]]
 
-<script type="application/json" class="pd-epn">{"Harshal Bhangale":1,"USDC":1,"智能体":449,"X402":3,"微交易":2,"护栏":86,"Nanopayments":1,"Claude Code":98,"Circle Agent Wallet":1,"付费墙":3}</script>
+<script type="application/json" class="pd-epn">{"Harshal Bhangale":1,"USDC":1,"智能体":452,"X402":3,"微交易":2,"护栏":87,"Nanopayments":1,"Claude Code":98,"Circle Agent Wallet":1,"付费墙":3}</script>
 
 <script>
 (function(){

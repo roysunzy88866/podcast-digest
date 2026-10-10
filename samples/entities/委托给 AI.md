@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Molly Graham]] · [[送出你的乐高]] · [[AI]] · [[智能体]] · [[AI 垃圾内容]] · [[生产力]] · [[职业倦怠]] · [[悲伤]] · [[半人马]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Molly Graham":1,"送出你的乐高":1,"AI":29,"智能体":449,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Molly Graham":1,"送出你的乐高":1,"AI":29,"智能体":452,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
 
 <script>
 (function(){

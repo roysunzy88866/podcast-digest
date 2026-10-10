@@ -130,8 +130,8 @@ Mayank 补了个真实案例：客户用 Resolve 排查事故后，进一步让�
 **顺着「智能体」挖下去**
 
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|氛围编码 vs 氛围工程：智能体时代谁被淘汰]]<span class="pd-rz">同概念:vibe coding、护栏 (guardrails)、智能体 (agent)</span>
+- [[2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for|让 AI 真正接管运维：Resolve AI 的六大支柱]]<span class="pd-rz">同公司:Resolve AI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-08-09-talks-always-on-agents-run-production-without|当代码生成加速，谁来填运维的坑：用后台智能体接手生产环境长尾工作]]<span class="pd-rz">同公司:Resolve AI、Splunk · 同概念:智能体 (agent)、可观测性 (observability)、沙箱 (sandbox)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同公司:Splunk · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

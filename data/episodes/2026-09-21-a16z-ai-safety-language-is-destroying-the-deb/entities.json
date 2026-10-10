@@ -1,0 +1,749 @@
+{
+  "episode_id": "2026-09-21-a16z-ai-safety-language-is-destroying-the-deb",
+  "podcast": "The a16z Show",
+  "date": "2026-09-21",
+  "tags": [
+    "AI 安全",
+    "软件工程",
+    "AI 监管",
+    "对齐",
+    "微软"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "steven-sinofsky",
+      "type": "person",
+      "role": "host",
+      "name": "Steven Sinofsky",
+      "file": "Steven Sinofsky",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            84.223,
+            88.425
+          ],
+          "quote": "We are live with Steven Sinofsky, who is a board partner at Andreessen Horowitz.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集把它说成:AI 圈发明的神秘化术语,把普通的软件 bug 说成道德判断和意图;且对齐本质需要一张巨大的规则清单,约束太多系统会崩",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            68.15,
+            81.359
+          ],
+          "quote": "They also discuss why terms like alignment, goal-seeking, and rogue agents can distort the policy debate, and why treating AI more like software could lead to clearer conversations about both safety and regulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            376.138,
+            383.14
+          ],
+          "quote": "And we didn't sit around like in a circle and pray to the gods of alignment that the spreadsheet would do math correctly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 137,
+          "t": [
+            729.993,
+            739.119
+          ],
+          "quote": "I also think like, you know, the tendency to talk about alignment as if it's impossible or as if it's this like mythical, impossible task is really damaging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            739.479,
+            741.32
+          ],
+          "quote": "Yeah, we have to solve alignment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            997.39,
+            1005.897
+          ],
+          "quote": "And alignment has this very specific problem, which is the only way to be aligned is to have a very large set of rules that say what alignment is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1073.252,
+            1079.057
+          ],
+          "quote": "How similar do you think AI alignment is to like Y2K in that it's, you know, it's something of a real problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1496.879,
+            1509.465
+          ],
+          "quote": "Yeah, like alignment is like just a really advanced capability eventually or alignment will mean like the same thing as like very deeply competent team that's able to tackle very, very like high level issues.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bug",
+      "type": "concept",
+      "role": "concept",
+      "name": "bug",
+      "file": "bug",
+      "primary": true,
+      "how_described": "本集反复强调:软件没做你期望它做的事就叫 bug,AI 的'未对齐'绝大多数就是 bug,该调试而不是祈祷",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.904,
+            18.167
+          ],
+          "quote": "What it means is there was a bug in the software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 6,
+          "t": [
+            36.688,
+            38.33
+          ],
+          "quote": "Or does the software just have a bug?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            349.141,
+            352.404
+          ],
+          "quote": "What it means is there was a bug in the software.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 74,
+          "t": [
+            402.012,
+            403.132
+          ],
+          "quote": "Like there was a bug.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 75,
+          "t": [
+            403.372,
+            407.493
+          ],
+          "quote": "Like when you, when software doesn't do what it's supposed to do, it's a bug.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            437.177,
+            439.438
+          ],
+          "quote": "And that's just a bug in your product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 86,
+          "t": [
+            462.796,
+            469.857
+          ],
+          "quote": "We actually say it's a bug and it's a very dangerous bug because that stop sign means something.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            573.402,
+            580.886
+          ],
+          "quote": "And you read all the bug reports from OpenAI that they just put out yesterday, and it's super clear that they just, they don't know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            581.146,
+            586.168
+          ],
+          "quote": "And so they, like, if somebody had handed me a bug report, and this is, here's a real bug.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            586.788,
+            601.856
+          ],
+          "quote": "In 1987, the first version of Excel for Windows had a bug in it that somewhere on the disk, it wrote the word SINDOGS, just S-I-N-D-O-G-S in a particular Windows settings file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            751.803,
+            764.566
+          ],
+          "quote": "But I do think that what's different, even if you use the bug analogy, is that the total addressable surface area of the bug is obviously more catastrophic in theory, or like this is the least surface area that the bug will like ever have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            882.905,
+            889.45
+          ],
+          "quote": "Nobody had imagined you could create a bug that in 12 hours could do $12 billion worth of damage.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 173,
+          "t": [
+            915.268,
+            919.812
+          ],
+          "quote": "One of the most famous tech journalists, every time there was a bug in our software,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1510.966,
+            1515.888
+          ],
+          "quote": "You can think of it like we went through a phase where we couldn't figure out what a bug was.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1516.349,
+            1522.852
+          ],
+          "quote": "I know that sounds crazy, but like some people wanted a bug to only mean like you lost your data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1528.551,
+            1535.773
+          ],
+          "quote": "And we eventually decided a bug just means the software and the computer didn't do what you wanted it to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1538.774,
+            1544.775
+          ],
+          "quote": "And we allowed customers to tell us any bug in the world, and we put them all in a database.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1584.259,
+            1594.238
+          ],
+          "quote": "And so, so much of what's going on now is we're in the throes of inventing this way to talk about what is a bug in a stochastic statistical system.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "telemetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测 (telemetry)",
+      "file": "遥测",
+      "primary": true,
+      "how_described": "本集说成熟软件必备遥测、日志、逐步调试,而 AI 模型仍处研究项目阶段、缺少这些工具;特斯拉和 Waymo 的自动驾驶软件就是靠遥测和诊断做数理统计决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            53.261,
+            67.23
+          ],
+          "quote": "Drawing on decades of building software, Steven explains why AI labs need better telemetry, debugging, and incident reporting, and what today's industry can learn from earlier software failures, computer viruses, and Y2K.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            474.158,
+            483.46
+          ],
+          "quote": "They have all of this telemetry, all these diagnostics, all these extra cameras, all of these things that you don't normally put in a spreadsheet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 91,
+          "t": [
+            499.669,
+            506.355
+          ],
+          "quote": "They don't have all the tools and all the telemetry and all of the things that you would normally put in software doing important things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            536.429,
+            542.371
+          ],
+          "quote": "And suddenly we had telemetry and suddenly we had more bugs to fix than we knew it ever existed.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 103,
+          "t": [
+            559.555,
+            572.079
+          ],
+          "quote": "They should stop adding things and go and add the telemetry, the tools, the logging, the step-by-step debugging, all of the stuff that you would add if your software did anything at all important and you cared if it did it right.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 119,
+          "t": [
+            665.976,
+            667.697
+          ],
+          "quote": "And then we put in all of this telemetry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1196.112,
+            1205.076
+          ],
+          "quote": "And then when they know, they really, really, really tell you with a tick-tock down to the partial second, with all of the telemetry of the instruments.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "y2k",
+      "type": "concept",
+      "role": "concept",
+      "name": "Y2K(千年虫) (Y2K)",
+      "file": "Y2K(千年虫)",
+      "primary": true,
+      "how_described": "本集把它当作 AI 对齐的参照:专业人士先担忧、再担责,坏事才没发生;规则大多是行业自己起草的,不是立法的功劳",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            53.261,
+            67.23
+          ],
+          "quote": "Drawing on decades of building software, Steven explains why AI labs need better telemetry, debugging, and incident reporting, and what today's industry can learn from earlier software failures, computer viruses, and Y2K.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1073.252,
+            1079.057
+          ],
+          "quote": "How similar do you think AI alignment is to like Y2K in that it's, you know, it's something of a real problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1116.43,
+            1123.452
+          ],
+          "quote": "Actually, there were actually weird regulations about Y2K compliance, but most of it was industry drafted.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "computer-virus",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机病毒 (computer virus)",
+      "file": "计算机病毒",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            1357.672,
+            1365.475
+          ],
+          "quote": "And look, the very beginning of the word computer virus was kind of a fluke, but it turns out it happened at exactly the wrong time.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "opsec",
+      "type": "concept",
+      "role": "concept",
+      "name": "运营安全 (opsec)",
+      "file": "运营安全",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 和 OpenAI 的事件没有任何智能和意识可言,就是纯粹的 opsec 失败,行业必须这样看待和谈论它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1655.106,
+            1656.247
+          ],
+          "quote": "It was an OPSEC failure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1656.768,
+            1661.851
+          ],
+          "quote": "There was no intelligence, no consciousness, nothing but a pure OPSEC failure.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集嘉宾前 Microsoft Windows 总裁,以 Excel 的 SINDOGS bug、1998 年蠕虫病毒后暂停 Outlook 开发等亲身经历,说明成熟软件工程如何调试和担责",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            39.371,
+            52.242
+          ],
+          "quote": "A16Z board partner and former Microsoft Windows president Steven Sanofsky joins Theo Jaffe and Sofia Puccini on MTS to argue that the language around AI safety is making the technology harder to understand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            92.706,
+            99.209
+          ],
+          "quote": "Previously, he was the president of Microsoft's Windows division, engineering and marketing across Windows, Windows Live and Internet Explorer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            667.737,
+            675.662
+          ],
+          "quote": "The first thing I learned when I got to Microsoft was how to figure out buffer overruns and memory allocation and to put that code into every product.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 发布的 bug 报告表明他们'不知道'问题出在哪,遥测和调试基础设施不够;并建议它联合各前沿实验室建立更好的事故报告机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            573.402,
+            580.886
+          ],
+          "quote": "And you read all the bug reports from OpenAI that they just put out yesterday, and it's super clear that they just, they don't know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            689.961,
+            693.344
+          ],
+          "quote": "I can just tell you reading the reports that OpenAI put out, it's not enough.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1131.374,
+            1134.955
+          ],
+          "quote": "We had something that OpenAI needs to get together with.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1644.919,
+            1654.026
+          ],
+          "quote": "We need software, but we also need like the AI people to listen to the operational security people because everything that happened with Hugging Face and OpenAI...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集结尾点到:它与 OpenAI 发生的事件不是智能或意识问题,而是一次纯粹的 opsec 失败",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1644.919,
+            1654.026
+          ],
+          "quote": "We need software, but we also need like the AI people to listen to the operational security people because everything that happened with Hugging Face and OpenAI...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集用 Google 作类比:20 年、几千人全职决定搜索结果该怎么呈现,说明靠加规则实现对齐会陷入的困境;AI 公司签下的是还要合成结果的更难版本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1034.611,
+            1041.293
+          ],
+          "quote": "It starts to look like Google and all the work that they constantly have to do to decide how to present search results.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集提到 Apple 在 Mac 上做了大量防病毒工作,还做出'I'm a Mac, I'm a PC'广告宣传 Mac 更少中病毒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1449.481,
+            1452.764
+          ],
+          "quote": "And so Apple did a fantastic job.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1690.32,
+            1693.861
+          ],
+          "quote": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "excel",
+      "type": "concept",
+      "role": "concept",
+      "name": "Excel",
+      "file": "Excel",
+      "primary": true,
+      "how_described": "本集讲了 1987 年 Windows 版第一代 Excel 的 SINDOGS bug:团队写脚本连跑两天复现,以此示范'不玄学化、去调试'的成熟软件工程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            586.788,
+            601.856
+          ],
+          "quote": "In 1987, the first version of Excel for Windows had a bug in it that somewhere on the disk, it wrote the word SINDOGS, just S-I-N-D-O-G-S in a particular Windows settings file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            602.822,
+            607.568
+          ],
+          "quote": "It was like Excel got taken over by demons and it wrote this word to the file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            610.671,
+            617.519
+          ],
+          "quote": "Everybody was looking through all the Excel source code to find the word send dogs and to figure out, and no one could find it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            620.101,
+            625.244
+          ],
+          "quote": "We're just going to run Excel brutally nonstop doing a million different things for days on end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            658.141,
+            662.442
+          ],
+          "quote": "The Excel brain decided to print Sindog somewhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 121,
+          "t": [
+            676.61,
+            682.235
+          ],
+          "quote": "And then there was a version, you know, what happens is there's a version of Excel that runs that has all this extra logging.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 155,
+          "t": [
+            813.528,
+            826.263
+          ],
+          "quote": "And it turns out all we had to do was grow up and watch people use Excel to decide how do planes fly, use Word to file briefs in the Supreme Court, use PowerPoint to present the Challenger space shuttle failure.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "type": "concept",
+      "role": "concept",
+      "name": "Windows",
+      "file": "Windows",
+      "primary": true,
+      "how_described": "本集嘉宾曾执掌 Windows,并以当年 IBM 老员工批 Windows 软件很烂、后来人们用 Excel 和 Word 干正经事的故事,类比 AI 从研究项目走向成熟软件的过程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            39.371,
+            52.242
+          ],
+          "quote": "A16Z board partner and former Microsoft Windows president Steven Sanofsky joins Theo Jaffe and Sofia Puccini on MTS to argue that the language around AI safety is making the technology harder to understand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            92.706,
+            99.209
+          ],
+          "quote": "Previously, he was the president of Microsoft's Windows division, engineering and marketing across Windows, Windows Live and Internet Explorer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            586.788,
+            601.856
+          ],
+          "quote": "In 1987, the first version of Excel for Windows had a bug in it that somewhere on the disk, it wrote the word SINDOGS, just S-I-N-D-O-G-S in a particular Windows settings file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 147,
+          "t": [
+            786.36,
+            793.522
+          ],
+          "quote": "Windows is just like crap compared to these IBM things that run all the banks and all the airlines and all the power plants.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1468.618,
+            1474.663
+          ],
+          "quote": "And it just so happened, it was work that was very, very difficult for Windows to do because of the business model of Windows and all this other stuff.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "CVE",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+  "episode_id": "2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "智能体商务",
+    "支付",
+    "MCP",
+    "AI 平台",
+    "令牌化"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "sam-parsons",
+      "type": "person",
+      "role": "guest",
+      "name": "Sam Parsons",
+      "file": "Sam Parsons",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            33.564,
+            36.265
+          ],
+          "quote": "My name's Sam Parsons, senior staff engineer here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": true,
+      "how_described": "本集主讲方：PayPal Enterprise Payments(原名 Braintree)为大型企业处理支付，正在为商家搭建桥梁，使其能从 ChatGPT、Google AI 模式等许多不同入口接受来自智能体的付款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.798,
+            18.7
+          ],
+          "quote": "Okay, so I'm gonna talk to you about agentic commerce with PayPal Enterprise Payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            27.862,
+            32.844
+          ],
+          "quote": "So I'm from PayPal and I work on our agentic commerce area.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            40.764,
+            43.866
+          ],
+          "quote": "And Braintree is PayPal's large enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            49.81,
+            51.271
+          ],
+          "quote": "But now it's PayPal enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            51.291,
+            53.033
+          ],
+          "quote": "So I'm going to say PayPal enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            69.49,
+            79.195
+          ],
+          "quote": "And really, the key takeaway that I want you to have is that PayPal Enterprise Payments is building the bridges for merchants to be able to accept payments from many different places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            132.529,
+            140.335
+          ],
+          "quote": "So PayPal Enterprise Payments build an integration to agentic commerce protocol that allows you to start taking payments in this manner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            241.61,
+            245.574
+          ],
+          "quote": "That would get tokenized against PayPal systems, PayPal enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            268.991,
+            273.793
+          ],
+          "quote": "They're receiving these tokens that come from, ultimately, PayPal Enterprise Payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            280.015,
+            289.059
+          ],
+          "quote": "And on the back of it, settlements, refunds, chargebacks, compliance, all of that remains the same and is supported through PayPal Enterprise Payments in general.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            359.097,
+            362.78
+          ],
+          "quote": "And behind the scenes, that'll be tokenized with PayPal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            388.491,
+            395.893
+          ],
+          "quote": "The host app is going to do that tokenization, send it to PayPal Enterprise Payments, and then we give back the token to ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            442.07,
+            460.1
+          ],
+          "quote": "And then the next place where the merchant picks this up is they receive a call to their MCP server with this complete checkout tool, and they get that token, and then they can proceed as usual with their processing of a typical PayPal Enterprise payments token.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            500.692,
+            507.938
+          ],
+          "quote": "So this would show up within PayPal Enterprise Payments as a ChatGPT transaction that occurred.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            553.969,
+            557.092
+          ],
+          "quote": "So Google Pay would tokenize with PayPal Enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            634.106,
+            646.016
+          ],
+          "quote": "And you specify some things that tell us, or tell Google Pay, this needs to be processed on Braintree or PayPal Enterprise Payments, and here's your merchant ID, and here's your client key, and that's safe to pass through in the public.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "braintree",
+      "type": "company",
+      "role": "company",
+      "name": "Braintree",
+      "file": "Braintree",
+      "primary": false,
+      "how_described": "本集说 Braintree 是 PayPal 的大型企业支付业务的旧称，现在叫 PayPal Enterprise Payments,是同一个东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            38.082,
+            40.264
+          ],
+          "quote": "So first of all, you may have heard of Braintree before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            40.764,
+            43.866
+          ],
+          "quote": "And Braintree is PayPal's large enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            46.908,
+            47.329
+          ],
+          "quote": "Braintree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            47.349,
+            48.049
+          ],
+          "quote": "Heart Braintree.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            53.093,
+            56.015
+          ],
+          "quote": "But if you know it as Braintree, it's the same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            634.106,
+            646.016
+          ],
+          "quote": "And you specify some things that tell us, or tell Google Pay, this needs to be processed on Braintree or PayPal Enterprise Payments, and here's your merchant ID, and here's your client key, and that's safe to pass through in the public.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 创建了智能体商务协议(agentic commerce protocol),并提供了 ChatGPT 内的即时结账体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            94.902,
+            96.183
+          ],
+          "quote": "OpenAI has created that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            428.223,
+            433.348
+          ],
+          "quote": "So I'm showing you the real code for do this instant checkout with OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集说 Google 联合其他方创建了通用商务协议,并在 Google AI 模式里由 Google Pay 完成令牌化;商家无需做界面，只需提供商品数据和端点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            102.248,
+            105.17
+          ],
+          "quote": "Google partnered with some others and created that protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            511.601,
+            516.985
+          ],
+          "quote": "So next, I'm going to walk through what Google AI mode and how we're meeting merchants there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            517.586,
+            522.39
+          ],
+          "quote": "So the flow looks a little bit different when you're processing transactions on Google AI mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            551.627,
+            553.689
+          ],
+          "quote": "But here, this is using Google Pay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            553.969,
+            557.092
+          ],
+          "quote": "So Google Pay would tokenize with PayPal Enterprise payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            590.944,
+            593.246
+          ],
+          "quote": "This came in through Google AI mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            593.847,
+            599.111
+          ],
+          "quote": "One of the things to note here is in Google AI mode, the merchant doesn't create",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            603.031,
+            608.977
+          ],
+          "quote": "Their integration with Google AI mode is more providing, here are my products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            634.106,
+            646.016
+          ],
+          "quote": "And you specify some things that tell us, or tell Google Pay, this needs to be processed on Braintree or PayPal Enterprise Payments, and here's your merchant ID, and here's your client key, and that's safe to pass through in the public.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            647.028,
+            648.109
+          ],
+          "quote": "Then Google will take that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            658.317,
+            666.403
+          ],
+          "quote": "And what you'll receive in there is this token representing the credit card behind that Google Pay payment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            687.621,
+            696.805
+          ],
+          "quote": "And we're going to work in things that are not necessarily Google or ChatGPT, but there's a lot of different agents that already support MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            828.894,
+            833.976
+          ],
+          "quote": "So if you want to be in ChatGPT or you want to be on Google, there's options for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成:可渲染商家 MCP 应用的智能体宿主,内建官方即时结账(instant checkout),交易会被标记为来自 ChatGPT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            97.004,
+            98.445
+          ],
+          "quote": "And that'll be in ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            127.044,
+            132.469
+          ],
+          "quote": "So first of all, this is instant checkout in ChatGPT using agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            160.925,
+            162.646
+          ],
+          "quote": "So ChatGPT can render those.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            177.552,
+            181.814
+          ],
+          "quote": "Instant checkout allows us, within ChatGPT,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            193.852,
+            195.614
+          ],
+          "quote": "So they're searching in ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            209.486,
+            214.171
+          ],
+          "quote": "So it's inside of, say, ChatGPT, but the merchant gets to control it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            226.656,
+            232.302
+          ],
+          "quote": "So that's where the MCP app talks to its host, ChatGPT, and says, I'd like to purchase something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            290.605,
+            295.769
+          ],
+          "quote": "So right now, we're just going to do a walkthrough of searching here in ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            307.838,
+            311.54
+          ],
+          "quote": "So you can see this UI here is not a ChatGPT UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            333.572,
+            340.198
+          ],
+          "quote": "This now is pulling up the ChatGPT instant checkout experience inside of there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            388.491,
+            395.893
+          ],
+          "quote": "The host app is going to do that tokenization, send it to PayPal Enterprise Payments, and then we give back the token to ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            500.692,
+            507.938
+          ],
+          "quote": "So this would show up within PayPal Enterprise Payments as a ChatGPT transaction that occurred.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            687.621,
+            696.805
+          ],
+          "quote": "And we're going to work in things that are not necessarily Google or ChatGPT, but there's a lot of different agents that already support MCP apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            828.894,
+            833.976
+          ],
+          "quote": "So if you want to be in ChatGPT or you want to be on Google, there's options for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Claude 可以把 MCP 应用作为 connector 渲染出来,第三条路径的外部结账演示就是在 Claude 里做的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            164.306,
+            165.527
+          ],
+          "quote": "You can render them in Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            745.199,
+            746.521
+          ],
+          "quote": "And you can see this is using Claude.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：越来越多购物将发生在 ChatGPT、Google 这类智能体对话界面里,演讲核心就是商家如何接受来自智能体(可能有也可能没有人在回路)的支付。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            532.175,
+            539.883
+          ],
+          "quote": "Behind the scenes, using the universal commerce protocol, the agent will create a session against that merchant for the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            720.106,
+            731.35
+          ],
+          "quote": "So that gives you a lot more control, but there is a little bit more friction that's introduced in this mode because you're not doing the actual checkout inside of your agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集把它说成:用户在 AI 对话界面内完成发现、选购和支付的商务形态,是一个快速演进的领域。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.798,
+            18.7
+          ],
+          "quote": "Okay, so I'm gonna talk to you about agentic commerce with PayPal Enterprise Payments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            27.862,
+            32.844
+          ],
+          "quote": "So I'm from PayPal and I work on our agentic commerce area.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            89.039,
+            92.961
+          ],
+          "quote": "So first of all, we're going to talk about agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            127.044,
+            132.469
+          ],
+          "quote": "So first of all, this is instant checkout in ChatGPT using agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            132.529,
+            140.335
+          ],
+          "quote": "So PayPal Enterprise Payments build an integration to agentic commerce protocol that allows you to start taking payments in this manner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            232.982,
+            235.084
+          ],
+          "quote": "That uses agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务协议 (agentic commerce protocol)",
+      "file": "智能体商务协议",
+      "primary": true,
+      "how_described": "本集说这是 OpenAI 创建、用于 ChatGPT 的协议,支撑聊天内购买与即时结账,规范与通用商务协议几乎一模一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            89.039,
+            92.961
+          ],
+          "quote": "So first of all, we're going to talk about agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            127.044,
+            132.469
+          ],
+          "quote": "So first of all, this is instant checkout in ChatGPT using agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            132.529,
+            140.335
+          ],
+          "quote": "So PayPal Enterprise Payments build an integration to agentic commerce protocol that allows you to start taking payments in this manner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            232.982,
+            235.084
+          ],
+          "quote": "That uses agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "universal-commerce-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "通用商务协议 (Universal Commerce Protocol)",
+      "file": "通用商务协议",
+      "primary": true,
+      "how_described": "本集说这是 Google 与其他公司合作创建的协议,用于 Google AI 模式下智能体为用户在商家处创建会话并完成结账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            99.986,
+            101.667
+          ],
+          "quote": "Universal Commerce Protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            532.175,
+            539.883
+          ],
+          "quote": "Behind the scenes, using the universal commerce protocol, the agent will create a session against that merchant for the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            624.038,
+            633.386
+          ],
+          "quote": "So you can see here, one of them is specifying in your well-known JSON file for Universal Commerce Protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-app",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 应用 (MCP app)",
+      "file": "MCP 应用",
+      "primary": true,
+      "how_described": "本集把它说成:内嵌 HTML/JavaScript 界面的 MCP 服务器,可被 ChatGPT、Claude 等智能体渲染,商家可完全控制商品展示的外观与内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            142.256,
+            145.099
+          ],
+          "quote": "The one I'm going to walk through uses an MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            145.759,
+            155.227
+          ],
+          "quote": "So an MCP app is like an MCP server, but you embed inside of that app, you embed UI, so it has HTML, JavaScript, and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            167.548,
+            168.468
+          ],
+          "quote": "It's an MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            201.018,
+            207.584
+          ],
+          "quote": "So the merchant, using an MCP app, can show to the user, here's things that you may want to purchase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            226.656,
+            232.302
+          ],
+          "quote": "So that's where the MCP app talks to its host, ChatGPT, and says, I'd like to purchase something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            261.391,
+            267.457
+          ],
+          "quote": "They're providing these MCP app experience to the user, but they're also providing",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            407.677,
+            409.918
+          ],
+          "quote": "And now you see they've come back to the MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            424.279,
+            428.203
+          ],
+          "quote": "So the first integration point is inside of that MCP app widget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            438.454,
+            441.136
+          ],
+          "quote": "So that's provided within the context of your MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            463.362,
+            467.344
+          ],
+          "quote": "Now, there's still obviously the work of creating an MCP app within that experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            600.588,
+            601.309
+          ],
+          "quote": "An MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            699.678,
+            701.56
+          ],
+          "quote": "One is that there's the MCP app widget.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            714.024,
+            719.566
+          ],
+          "quote": "So then you can complete that there and then come back and get it automatically updated within your MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            742.357,
+            744.359
+          ],
+          "quote": "And this loads up an MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            756.003,
+            757.764
+          ],
+          "quote": "So this is the MCP app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            779.517,
+            783.323
+          ],
+          "quote": "But when you complete that, notice how this MCP app updates automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            791.944,
+            797.365
+          ],
+          "quote": "So that, again, just kind of demos for you what you can do with an MCP app and kind of what's on the table.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tokenization",
+      "type": "concept",
+      "role": "concept",
+      "name": "令牌化 (tokenization)",
+      "file": "令牌化",
+      "primary": true,
+      "how_described": "本集把它说成:用不可直接消费的令牌替换真实卡号,令牌可安全传递而不扩大 PCI 合规范围,且被商家、金额上限、币种、有效期等多重限制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            362.8,
+            370.685
+          ],
+          "quote": "So if you're kind of not familiar with payments, tokenization means where the user exchanges a real payment credential that's transactable, say your credit card number.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            378.908,
+            383.329
+          ],
+          "quote": "So that's what's going to happen right here behind the scenes is a tokenization will occur.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            388.491,
+            395.893
+          ],
+          "quote": "The host app is going to do that tokenization, send it to PayPal Enterprise Payments, and then we give back the token to ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            399.294,
+            400.375
+          ],
+          "quote": "Tokenization is occurring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            546.062,
+            551.387
+          ],
+          "quote": "Then when the user says, I now want to check out with this, the tokenization happens.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instant-checkout",
+      "type": "concept",
+      "role": "concept",
+      "name": "即时结账 (instant checkout)",
+      "file": "即时结账",
+      "primary": true,
+      "how_described": "本集把它说成:ChatGPT 官方提供的聊天内结账体验,由宿主而非商家生成,背后完成 PayPal 令牌化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            127.044,
+            132.469
+          ],
+          "quote": "So first of all, this is instant checkout in ChatGPT using agentic commerce protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            177.552,
+            181.814
+          ],
+          "quote": "Instant checkout allows us, within ChatGPT,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            295.789,
+            298.01
+          ],
+          "quote": "This will give you that instant checkout experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            333.572,
+            340.198
+          ],
+          "quote": "This now is pulling up the ChatGPT instant checkout experience inside of there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            342.82,
+            345.302
+          ],
+          "quote": "This is provided from the instant checkout experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            428.223,
+            433.348
+          ],
+          "quote": "So I'm showing you the real code for do this instant checkout with OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "external-checkout",
+      "type": "concept",
+      "role": "concept",
+      "name": "外部结账 (external checkout)",
+      "file": "外部结账",
+      "primary": true,
+      "how_described": "本集把它说成:第三条路径中从 MCP 应用跳转到外部页面完成支付的方式,商家获得完全控制,但引入多一点摩擦,订单状态可自动更新回应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            113.776,
+            123.082
+          ],
+          "quote": "But also, we're going to demo for you another path towards accepting agentic payments, human in the loop, using just MCP apps and external checkout.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "elicitation",
+      "type": "concept",
+      "role": "concept",
+      "name": "elicitation",
+      "file": "elicitation",
+      "primary": false,
+      "how_described": "本集说这是 MCP 应用的新特性,多数主要平台尚未支持,可让外部验证更无缝地嵌在对话的 iframe 里完成,很快会到来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            802.307,
+            806.388
+          ],
+          "quote": "It's not supported in most of the major ones yet that is called elicitation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集说商家的 MCP 服务器会收到带 complete checkout 工具的调用并拿到令牌,像处理普通 PayPal 令牌一样扣款。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            145.759,
+            155.227
+          ],
+          "quote": "So an MCP app is like an MCP server, but you embed inside of that app, you embed UI, so it has HTML, JavaScript, and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            442.07,
+            460.1
+          ],
+          "quote": "And then the next place where the merchant picks this up is they receive a call to their MCP server with this complete checkout tool, and they get that token, and then they can proceed as usual with their processing of a typical PayPal Enterprise payments token.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

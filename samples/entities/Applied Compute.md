@@ -25,7 +25,7 @@ unlisted: true
 
 [[Yash]] · [[OpenAI]] · [[Base 10]] · [[Harvey]] · [[Cursor]] · [[Windsurf]] · [[后训练]] · [[RL]] · [[评估]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Yash":2,"OpenAI":182,"Base 10":2,"Harvey":20,"Cursor":83,"Windsurf":7,"后训练":1,"RL":13,"评估":5,"推理":89}</script>
+<script type="application/json" class="pd-epn">{"Yash":2,"OpenAI":185,"Base 10":2,"Harvey":20,"Cursor":83,"Windsurf":7,"后训练":1,"RL":13,"评估":5,"推理":89}</script>
 
 <script>
 (function(){

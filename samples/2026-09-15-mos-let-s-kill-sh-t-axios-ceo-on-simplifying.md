@@ -178,8 +178,8 @@ Axios 与 [[OpenAI|OpenAI]] 有内容授权协议，授权 [[ChatGPT|ChatGPT]] �
 **换个口味**
 
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude、OpenAI、Google · 同概念:智能体 (agent)</span>
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI、Claude · 同概念:智能体 (agent)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude、OpenAI、Anthropic · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

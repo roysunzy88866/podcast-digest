@@ -233,7 +233,10 @@
     "LpHxwtKRPdQ": "2026-10-06-talks-building-ai-for-the-physical-world-with",
     "X6l4lpA0_NY": "2026-10-06-talks-harness-engineering-how-to-build-a-softw",
     "XTpyNrEgJQ4": "2026-10-06-talks-is-speculative-decoding-worth-it-profili",
-    "ZUZVNKFSmTM": "2026-10-06-talks-how-many-credentials-should-your-ai-agen"
+    "ZUZVNKFSmTM": "2026-10-06-talks-how-many-credentials-should-your-ai-agen",
+    "FwiS44-xyYw": "2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c",
+    "c5U-XbbEN-g": "2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an",
+    "eXA2tjRZIbY": "2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -321,7 +324,11 @@
     "2026-09-17-mos-bren-brown-reid-hoffman-on-the-skills-ev": "2026-10-07",
     "2026-09-03-devtools-siddhartha-borah-from-bracket-teaching-a": "2026-10-07",
     "2026-09-03-twist-becki-degraw-on-spinouts-ip-licensing-cl": "2026-10-07",
-    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "2026-10-09"
+    "2026-09-15-twist-90-of-ai-prototypes-never-reach-producti": "2026-10-09",
+    "2026-09-24-mos-how-to-build-a-billion-dollar-sports-tea": "2026-10-10",
+    "2026-09-22-mos-rebranding-in-a-war-zone-with-prosper-gl": "2026-10-10",
+    "2026-09-22-howiai-opus-5-5-vs--gpt-6-sol-which-model-won-m": "2026-10-10",
+    "2026-09-21-a16z-ai-safety-language-is-destroying-the-deb": "2026-10-10"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -1323,6 +1330,24 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Chat GPT's Creator Explains The Shocking Truth About How AI Understands the World | Ilya Sutskever",
       "pubDate": "2026-10-09T15:00:00.000Z"
+    },
+    {
+      "id": "2026-09-24-mos-how-to-build-a-billion-dollar-sports-tea",
+      "reason": "题材不对味:题材为传统体育行业(WNBA 球队从零建队)的泛话题,与 AI/科技创业不沾边,属拦截类 ①",
+      "title": "How to build a billion-dollar sports team from scratch, with Golden State Valkyries’ Jess Smith",
+      "pubDate": "2026-09-24T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-22-mos-rebranding-in-a-war-zone-with-prosper-gl",
+      "reason": "题材不对味:① 非 AI/科技泛话题:公益组织的品牌重塑故事,与 AI/科技创业均不沾边",
+      "title": "Rebranding in a war zone, with Prosper Global (formerly Mercy Corps)",
+      "pubDate": "2026-09-22T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-22-howiai-opus-5-5-vs--gpt-6-sol-which-model-won-m",
+      "reason": "题材不对味:过时:模型盲测对比属时效性评测内容,距今 18 天已超过 14 天时效阈值",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "pubDate": "2026-09-22T23:13:43.000Z"
     }
   ]
 }

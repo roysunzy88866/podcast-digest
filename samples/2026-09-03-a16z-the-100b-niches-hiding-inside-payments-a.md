@@ -242,7 +242,7 @@ Alex 补充了另一半图景：对于「我知道我要哪个 SKU,只是想用�
 
 - [[2026-09-01-talks-your-agent-just-authorized-what-jay-mok|智能体拿你的钱包购物怎么办：PayPal 的智能体授权心智模型]]<span class="pd-rz">同公司:PayPal · 同概念:智能体 (agent)</span>
 - [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗]]<span class="pd-rz">同公司:PayPal · 同概念:智能体 (agent)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:PayPal · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

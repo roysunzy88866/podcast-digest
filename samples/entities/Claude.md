@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>92</b> 集 · <b>54</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>93</b> 集 · <b>54</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -101,6 +101,7 @@ unlisted: true
 - **[[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]]**(03:14起):本集把 Claude 当作日常智能体：连上 Composio 的 MCP 后，只需粘贴 Slack 链接就能自动跨 Sentry、Datadog 取数、找根因并在五分钟内提交修复 PR，全程无需写工作流或 skill。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Claude 在美国付费订阅者数量上已超过 Gemini，是本报告最大意外之一；Anthropic 名言不做广告，订阅打得更激进，约 7.5% 订阅用户在每月 100 美元以上最高档。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(41:19起):本集吐槽:销售把 Granola 会议记录用 Claude 总结一下就发出来,「你的工作是综合出真正重要的东西,Claude 做不好这件事」。
+- **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(02:44起):本集说 Claude 可以把 MCP 应用作为 connector 渲染出来,第三条路径的外部结账演示就是在 Claude 里做的。
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(03:33起):本集把 Claude 当作贯穿全程的工作工具:用它爬取分析招聘数据、生成用户画像实现「规模化的同理心」、写邮件系统规格,以及面试模拟
 
 ## ① 提到它的金句
@@ -217,7 +218,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*92 集*
+*93 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -310,6 +311,7 @@ unlisted: true
 - [[2026-10-04-talks-dashboards-are-dead-sarah-simionescu-com|《仪表盘已死：智能体才是新用户》]] — 作为概念
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司(提及)
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司(提及)
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
 
 ## ③ 关联
@@ -318,7 +320,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Lenny]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"Anthropic":194,"ChatGPT":102,"Codex":81,"OpenAI":182,"MCP":84,"Google":67,"Lenny":68,"沙箱":88,"Claude Code":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"Anthropic":194,"ChatGPT":103,"Codex":82,"OpenAI":185,"MCP":84,"Google":69,"Lenny":68,"沙箱":88,"Claude Code":98}</script>
 
 <script>
 (function(){

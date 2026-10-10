@@ -1,0 +1,233 @@
+{
+  "title_zh": "AI出问题不是“恶魔附身”，是软件有bug",
+  "tldr": "前微软Windows总裁Steven Sinofsky做客a16z播客，痛批AI行业的“对齐”“失控”话术正在毁掉关于安全与监管的理性讨论。",
+  "digest_md": "Steven Sinofsky管过Windows，现在在a16z做董事合伙人。他这期节目里火力全开：AI圈自己发明的那些词——对齐、目标追寻、失控智能体——正在让国会议员和公众彻底搞不清AI到底出了什么事。\n\n## AI没“对齐失败”，它只是有bug\n\nSinofsky的核心论点很简单：**软件没做你期望它做的事，就叫bug**。但AI圈说成“未能对齐”，好像软件在思考、在做道德判断、有自己的意图。\n\n他说，当年Word吃掉你的文件、删光你的内容，没人认为是恶魔占领了Word，让它违背人类意志行事。电子表格算错数，也没人围着圈祈祷对齐之神保佑它把数学算对。自动驾驶软件把停车标志认成圣诞树，我们说这是bug，而且是危险的bug——但它是bug，不是什么“未对齐”。\n\n他的判断是：现在的AI模型还停留在研究项目阶段，缺少成熟软件该有的遥测、日志、逐步调试工具。\n\n## 一个1987年的bug，教你什么叫专业\n\n他讲了个真事。1987年，Windows版第一代Excel有个bug：不知在哪里，它会把\"SINDOGS\"这个莫名其妙的词写进某个设置文件。没人知道这词从哪来的，翻遍源代码也找不到。\n\n换作今天，完全可以宣布“Excel的大脑自己决定写下这个词”。但当年团队的做法是：写脚本让Excel不停生成图表、用点阵打印机打印，连跑两天，终于复现了bug——它取决于内存大小、运行时长和打印机驱动。\n\n这就是成熟软件工程的样子：不玄学化，去调试。\n\n## 微软当年也被批“软件很烂”，后来呢\n\nSinofsky回忆，早年IBM的人看Windows就像看垃圾：跑银行、航空公司、电厂的是大型机，你这玩具算什么。Windows团队则辩解“我们是新的、不一样的”。\n\n直到人们用Excel决定飞机怎么飞、用Word向最高法院递交诉状，软件就必须长大。1998年3月，一个结合Outlook、Word和电子邮件的蠕虫病毒出现，一天之内号称造成美国经济120亿美元损失。微软当即暂停Outlook开发，直到解决问题。\n\n他的原话很硬：有人总拿“这事很难”当借口，一位科技记者直接怼他：“Sanofsky，这就是为什么给你发大钱”。**要么把软件做好，要么别卖**。\n\n## “对齐”这个词本身就有问题\n\nSinofsky指出，所谓对齐，本质上需要一张巨大的规则清单——这能做、那不能做。但软件工程的常识是：约束太多，系统会崩，还会产生无穷的意外副作用。\n\n加规则的结果就是Google式的困境：20年、几千人全职，永远在决定搜索结果该怎么呈现。AI公司做的是更难的版本——不仅检索，还要合成结果。这活儿确实难，但没有哪条法律能替他们发明解法，全在他们自己身上。\n\n## Y2K的成功，靠的是行业自律不是立法\n\n有人问AI对齐像不像千年虫。Sinofsky说像，而且因果关系很清楚：**专业人士先担忧，然后承担责任，然后坏事才没发生**。大家租发电机、把电脑搬进地堡——没出事是因为做了这些事。\n\n当时也有合规规定，但大部分是行业自己起草的：银行、保险公司跨行业联合会制定规则。他建议OpenAI和各前沿实验室也应该联合起来，建立像航空事故调查和软件漏洞披露（CVE）那样的报告体系。美国联邦航空局出事后绝不在当天就宣布“我们推测是……”，他们闭嘴，直到查清，然后给你精确到零点几秒的完整时间线。\n\n## “计算机病毒”这个词是怎么吓坏全国的\n\n语言的破坏力，早有先例。“计算机病毒”这个词诞生得其实很偶然，但赶上了艾滋病流行的年代，“病毒”一词满天飞。当年国会关于病毒的听证会之所以吓人，是因为人们真的在联想到死亡——而软件层面根本不是那回事。\n\n同样，AI论文里说“目标追寻”，技术含义只是数学上的曲线求极值；但国会议员听到，想到的是一个人想拿A。“秘密协同”在软件里不过是两个程序共用一个信号量，普通人听到的却是间谍渗透。术语正在撕裂这场对话。\n\n## Hugging Face和OpenAI那事，其实是运维安全事故\n\n节目最后，Sinofsky点到最近的安全事件：Hugging Face和OpenAI发生的事，**没有任何智能和意识可言，就是纯粹的运营安全（opsec）失败**。行业必须这么看待它、这么谈论它，否则只会换来一部没人满意的法律——因为立法者根本听不懂这个行业在说什么。\n\n## 本集带走\n\n- AI“对齐失败”在绝大多数情况下就是软件bug，神秘化术语只会让公众和政策讨论更混乱。\n- AI模型缺少成熟软件必备的遥测、日志和调试基础设施，这是行业的功课，不是国会的工作。\n- Y2K的经验是：行业主动担责、制定标准和报告机制，比等待立法更有效。\n- 像航空业和CVE那样的事故报告体系，是AI行业该学的样板。\n- 术语翻译有代价：“目标追寻”“秘密协同”在技术语境和日常语境里意思天差地别，立法者听的是后者。",
+  "quotes": [
+    {
+      "en": "the AI people are making it impossible for anybody to understand what they've done.",
+      "zh": "AI 圈的人正在让任何人都无法理解他们到底做了什么。",
+      "timestamp": "05:34",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "we didn't sit around like in a circle and pray to the gods of alignment that the spreadsheet would do math correctly.",
+      "zh": "我们并没有围坐成一圈向对齐之神祈祷，求电子表格把数学算对。",
+      "timestamp": "06:16",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "when Word ate your file and deleted all your content, we didn't think that demons had taken over Word and made it do things against the will of man.",
+      "zh": "当 Word 吃掉你的文件、删光你所有内容的时候，我们并没有认为是恶魔附体了 Word，让它做出违背人类意愿的事。",
+      "timestamp": "06:25",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "And suddenly we had telemetry and suddenly we had more bugs to fix than we knew it ever existed.",
+      "zh": "突然间我们有了遥测，突然间我们遇到的 bug 比我们以前知道存在的还要多。",
+      "timestamp": "08:56",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "But I do think that what's different, even if you use the bug analogy, is that the total addressable surface area of the bug is obviously more catastrophic in theory, or like this is the least surface area that the bug will like ever have.",
+      "zh": "但我确实认为，即使你用 bug 这个类比，不同之处在于 bug 的总的可触及表面积在理论上显然更具灾难性，或者说这是这个 bug 有史以来最小的表面积。",
+      "timestamp": "12:31",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And it turns out all we had to do was grow up and watch people use Excel to decide how do planes fly, use Word to file briefs in the Supreme Court, use PowerPoint to present the Challenger space shuttle failure.",
+      "zh": "结果发现，我们要做的就是成熟起来，看着人们用 Excel 来决定飞机怎么飞，用 Word 向最高法院提交诉状，用 PowerPoint 来演示挑战者号航天飞机的失事。",
+      "timestamp": "13:33",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "Nobody had imagined you could create a bug that in 12 hours could do $12 billion worth of damage.",
+      "zh": "没有人想到你能制造出一个 bug，在 12 小时内造成 120 亿美元的损失。",
+      "timestamp": "14:42",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "You've got to figure out how to make it work or not sell it.",
+      "zh": "你必须搞清楚怎么让它工作，否则就别卖它。",
+      "timestamp": "15:58",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "It is pure insanity to just sit and argue that higher powers need to be summoned in order to fix this.",
+      "zh": "如果只是坐着争论说需要召唤更高力量才能解决这个问题，那是纯粹的疯狂。",
+      "timestamp": "16:30",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "And so, so much of what's going on now is we're in the throes of inventing this way to talk about what is a bug in a stochastic statistical system.",
+      "zh": "所以，现在正在发生的很多事情，就是我们正处于发明一套方式来谈论「在一个随机统计系统里什么才算 bug」的阵痛之中。",
+      "timestamp": "26:24",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "They don't appeal to Zeus and say, please, Zeus, tell us why our weather was wrong.",
+      "zh": "他们不会去乞求宙斯，说，求求你，宙斯，告诉我们为什么我们的天气报错了。",
+      "timestamp": "27:03",
+      "speaker": "Steven Sinofsky"
+    },
+    {
+      "en": "There was no intelligence, no consciousness, nothing but a pure OPSEC failure.",
+      "zh": "没有智能，没有意识，什么都没有，纯粹是一次 OPSEC 失败。",
+      "timestamp": "27:36",
+      "speaker": "Steven Sinofsky"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:31",
+      "speaker": "Steven Sinofsky",
+      "en": "the AI people are making it impossible for anybody to understand what they've done.",
+      "zh": "AI 圈的人正在让任何人都无法理解他们到底做了什么。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Steven Sinofsky",
+      "en": "What it means is there was a bug in the software.",
+      "zh": "它的意思是软件里有个 bug。"
+    },
+    {
+      "timestamp": "06:16",
+      "speaker": "Steven Sinofsky",
+      "en": "we didn't sit around like in a circle and pray to the gods of alignment that the spreadsheet would do math correctly.",
+      "zh": "我们并没有围坐成一圈向对齐之神祈祷，求电子表格把数学算对。"
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Steven Sinofsky",
+      "en": "when Word ate your file and deleted all your content, we didn't think that demons had taken over Word and made it do things against the will of man.",
+      "zh": "当 Word 吃掉你的文件、删光你所有内容的时候，我们并没有认为是恶魔附体了 Word，让它做出违背人类意愿的事。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Steven Sinofsky",
+      "en": "And this is a huge, huge problem because it's literally nonsense what they're saying.",
+      "zh": "而这是一个巨大的、巨大的问题，因为他们说的简直就是胡说八道。"
+    },
+    {
+      "timestamp": "07:09",
+      "speaker": "Steven Sinofsky",
+      "en": "It means your statistics are wrong.",
+      "zh": "它意味着你的统计是错的。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Steven Sinofsky",
+      "en": "And we've got to get to a place where people are talking about software like it's software.",
+      "zh": "我们必须达到一个人们像谈论软件一样谈论软件的地步。"
+    },
+    {
+      "timestamp": "08:11",
+      "speaker": "Steven Sinofsky",
+      "en": "What I see is the AI models are still in the research project phase.",
+      "zh": "我看到的是 AI 模型仍然处于研究项目阶段。"
+    },
+    {
+      "timestamp": "08:56",
+      "speaker": "Steven Sinofsky",
+      "en": "And suddenly we had telemetry and suddenly we had more bugs to fix than we knew it ever existed.",
+      "zh": "突然间我们有了遥测，突然间我们遇到的 bug 比我们以前知道存在的还要多。"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Steven Sinofsky",
+      "en": "Like literally this is their, it's like you have one job making software that works.",
+      "zh": "说真的，这就是它们的，就像你的唯一工作就是做出能用的软件。"
+    },
+    {
+      "timestamp": "11:33",
+      "speaker": "Steven Sinofsky",
+      "en": "They're just, they're not grown up yet as platforms for doing what they do.",
+      "zh": "它们作为平台来说，要去做它们该做的事情，还不够成熟。"
+    },
+    {
+      "timestamp": "12:31",
+      "speaker": "Steven Sinofsky",
+      "en": "But I do think that what's different, even if you use the bug analogy, is that the total addressable surface area of the bug is obviously more catastrophic in theory, or like this is the least surface area that the bug will like ever have.",
+      "zh": "但我确实认为，即使你用 bug 这个类比，不同之处在于 bug 的总的可触及表面积在理论上显然更具灾难性，或者说这是这个 bug 有史以来最小的表面积。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Steven Sinofsky",
+      "en": "And it turns out all we had to do was grow up and watch people use Excel to decide how do planes fly, use Word to file briefs in the Supreme Court, use PowerPoint to present the Challenger space shuttle failure.",
+      "zh": "结果发现，我们要做的就是成熟起来，看着人们用 Excel 来决定飞机怎么飞，用 Word 向最高法院提交诉状，用 PowerPoint 来演示挑战者号航天飞机的失事。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Steven Sinofsky",
+      "en": "Nobody had imagined you could create a bug that in 12 hours could do $12 billion worth of damage.",
+      "zh": "没有人想到你能制造出一个 bug，在 12 小时内造成 120 亿美元的损失。"
+    },
+    {
+      "timestamp": "15:58",
+      "speaker": "Steven Sinofsky",
+      "en": "You've got to figure out how to make it work or not sell it.",
+      "zh": "你必须搞清楚怎么让它工作，否则就别卖它。"
+    },
+    {
+      "timestamp": "16:30",
+      "speaker": "Steven Sinofsky",
+      "en": "It is pure insanity to just sit and argue that higher powers need to be summoned in order to fix this.",
+      "zh": "如果只是坐着争论说需要召唤更高力量才能解决这个问题，那是纯粹的疯狂。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Steven Sinofsky",
+      "en": "And alignment has this very specific problem, which is the only way to be aligned is to have a very large set of rules that say what alignment is.",
+      "zh": "而对齐有一个非常具体的问题，那就是要对齐的唯一方法是拥有一套非常庞大的规则，来说明什么是对齐。"
+    },
+    {
+      "timestamp": "18:06",
+      "speaker": "Steven Sinofsky",
+      "en": "Well, there's a cause and effect there.",
+      "zh": "嗯，这背后是有因果关系的。"
+    },
+    {
+      "timestamp": "19:56",
+      "speaker": "Steven Sinofsky",
+      "en": "And then when they know, they really, really, really tell you with a tick-tock down to the partial second, with all of the telemetry of the instruments.",
+      "zh": "然后当他们知道的时候，他们会真的、真的、真的告诉你，精确到不足一秒，附上所有的仪表遥测数据。"
+    },
+    {
+      "timestamp": "22:14",
+      "speaker": "Steven Sinofsky",
+      "en": "They think of a person trying to get an A in college.",
+      "zh": "他们会想到一个想在大学里拿 A 的人。"
+    },
+    {
+      "timestamp": "22:32",
+      "speaker": "Steven Sinofsky",
+      "en": "Yeah, all of the language is absolutely destroying this dialogue.",
+      "zh": "是啊，所有这些语言绝对正在摧毁这场对话。"
+    },
+    {
+      "timestamp": "24:02",
+      "speaker": "Steven Sinofsky",
+      "en": "Because we have defensive cybersecurity.",
+      "zh": "因为我们有防御性的网络安全。"
+    },
+    {
+      "timestamp": "26:24",
+      "speaker": "Steven Sinofsky",
+      "en": "And so, so much of what's going on now is we're in the throes of inventing this way to talk about what is a bug in a stochastic statistical system.",
+      "zh": "所以，现在正在发生的很多事情，就是我们正处于发明一套方式来谈论「在一个随机统计系统里什么才算 bug」的阵痛之中。"
+    },
+    {
+      "timestamp": "27:03",
+      "speaker": "Steven Sinofsky",
+      "en": "They don't appeal to Zeus and say, please, Zeus, tell us why our weather was wrong.",
+      "zh": "他们不会去乞求宙斯，说，求求你，宙斯，告诉我们为什么我们的天气报错了。"
+    },
+    {
+      "timestamp": "27:36",
+      "speaker": "Steven Sinofsky",
+      "en": "There was no intelligence, no consciousness, nothing but a pure OPSEC failure.",
+      "zh": "没有智能，没有意识，什么都没有，纯粹是一次 OPSEC 失败。"
+    }
+  ],
+  "voice_script": "今天要讲的人，是Steven Sinofsky。这个人有分量——当年在微软管过整个Windows,现在在a16z做董事合伙人。他最近上了a16z自己的播客，聊的话题很尖锐：AI行业整天挂在嘴边的那些词，什么对齐、目标追寻、失控智能体，正在把关于AI安全和监管的公共讨论搞得一团糟。国会议员听不懂，公众更听不懂。\n\n为什么这事现在值得聊？因为AI模型正从实验室走进千家万户，安全事件也接连出现，社会迟早要给它立规矩。可如果连描述问题的语言都是错的，规矩怎么立得起来？Sinofsky认为，问题恰恰出在这里。\n\n先把最核心的观点摆出来。在软件工程里有一条铁律：软件没做你期望它做的事，就叫bug。就这么简单。但AI圈偏不说bug,偏要说“未能对齐”，好像软件在思考、在做道德判断、有自己的意图。Sinofsky觉得这纯属自己吓自己。想想看，当年Word吃掉你的文件、删光你所有内容的时候，我们并没有认为是恶魔附体了Word,让它做出违背人类意愿的事。电子表格算错数，也没人围坐成一圈向对齐之神祈祷，求它把数学算对。自动驾驶软件把停车标志认成圣诞树，我们说这是bug,而且是危险的bug——但它终究是bug,不是什么“未对齐”。\n\n那怎么证明这是靠谱的判断，而不只是老头发牢骚？Sinofsky讲了个真事。1987年，Windows版第一代Excel有个怪毛病：不知从哪儿冒出来，会把\"SINDOGS\"这么个莫名其妙的词写进某个设置文件。没人知道这词哪来的，翻遍源代码也找不到。换作今天，完全可以宣布“Excel的大脑自己决定写下这个词”，多么玄妙。但当年团队的做法是：写脚本让Excel不停生成图表、用点阵打印机打印，连跑两天，终于复现了bug——最后发现它取决于内存大小、运行时长和打印机驱动。这就是成熟软件工程该有的样子：不搞玄学，去调试。\n\n说到“成熟”，还有一段历史值得讲。Sinofsky回忆，早年IBM的人看Windows就像看垃圾——跑银行、跑航空公司、跑电厂的是大型机，你这玩具算什么。Windows团队只能辩解“我们是新的、不一样的”。转折点是，当人们真的用Excel决定飞机怎么飞、用Word向最高法院递交诉状，软件就必须长大。1998年3月，一个结合Outlook、Word和电子邮件的蠕虫病毒，一天之内号称造成美国经济120亿美元损失。微软当即暂停Outlook开发，直到解决问题。有句话说得特别硬：有人总拿“这事很难”当借口，一位科技记者直接怼回去，这就是为什么给你发大钱。要么把软件做好，要么别卖。\n\n照这个标准看今天的AI,问题就更清楚了。现在的AI模型还停留在研究项目阶段，缺少成熟软件该有的遥测、日志、逐步调试工具。遥测，说白了就是随时知道系统内部在发生什么的一套仪表盘。当年有了遥测之后，突然间遇到的bug比以前知道存在的还要多——看得见，才谈得上修。所以Sinofsky的意思是，这是AI行业的功课，不是国会的工作。\n\n那“对齐”这条路为什么走不通？他指出了一个更根本的问题：所谓对齐，本质上需要一张巨大的规则清单，这能做、那不能做。但软件工程的常识是，约束太多，系统会崩，还会产生无穷的意外副作用。加规则的结果是什么？看看Google就知道了——20年、几千人全职，永远在决定搜索结果该怎么呈现。而AI公司做的是更难的版本，不光检索，还要合成结果。这活儿确实难，但没有哪条法律能替他们发明解法，解法全在他们自己身上。\n\n有人会问，那当年千年虫是怎么解决的，靠立法吗？Sinofsky说像，而且因果关系很清楚：专业人士先担忧，然后承担责任，然后坏事才没发生。当年大家租发电机、把电脑搬进地堡，没出事正是因为做了这些事。而且大部分合规规定是行业自己起草的——银行、保险公司跨行业联合会一起定规则。所以他建议OpenAI和各前沿实验室也联合起来，建立像航空事故调查和软件漏洞披露那样的报告体系。美国联邦航空局出了事，绝不在当天就宣布“我们推测是什么什么”，而是闭嘴，直到查清，再给你精确到零点几秒的完整时间线。\n\n语言为什么这么要命？其实早有先例。“计算机病毒”这个词诞生得很偶然，偏偏赶上了艾滋病流行的年代，“病毒”满天飞。当年国会关于病毒的听证会之所以吓人，是因为人们真的联想到死亡——而软件层面根本不是那回事。同样的错位今天在重演：AI论文里说“目标追寻”，技术含义只是数学上的曲线求极值；国会议员听到，想到的是一个人处心积虑要达成目标。“秘密协同”在软件里不过是两个程序共用一个信号量，普通人听到的却是间谍渗透。术语正在撕裂这场对话。\n\n最后落到最近那件大事上。Hugging Face和OpenAI发生的安全事件，在Sinofsky看来，没有任何智能和意识可言，就是纯粹的运营安全失败——好比门没锁，跟AI觉醒半点关系没有。行业必须这么看待它、这么谈论它，否则只会换来一部没人满意的法律，因为立法者根本听不懂这个行业在说什么。AI圈的人，正在让任何人都无法理解他们到底做了什么。\n\n说到底，AI出的绝大多数问题不是恶魔附身，就是软件有bug。把话说回bug,行业才能成熟起来，社会才能做出清醒的决定。"
+}

@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>hooks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="hooks">HO</div><div class="pi"><h1 class="pt">hooks</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="hooks">HO</div><div class="pi"><h1 class="pt">hooks</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-29-talks-agents-are-where-microservices-were-in-2|《Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层》]]**(07:30起):本集说别再翻日志——以 Claude 为例,用 hooks 在工具调用前后、会话前后拦截智能体行为,决定阻止、放行或记录指标,并发出 OTL 追踪。
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(22:21起):本集介绍的 Claude hooks：在会话结束等时点强制触发机制，可用于闭环改进技能；工具 hooks 还能确定性地拦截 rm-rf 或分享凭证等危险操作，比提示词约定更可靠。
 - **[[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]]**(07:44起):本集说它是'会反击的 hooks':每次编辑触发的被动护栏,弱模型要用 pre-tool use hook 直接阻止写文件而非 post-tool use,且要允许用户配置忽略规则
+- **[[2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c|《用 Codex 做菜：从截图到自动化的六步烹饪法》]]**(26:53起):本集说钩子是在特定检查点运行确定性脚本的护栏,用于拦截误贴 API 密钥、白名单外工具调用,自主权越大越有用。
 
 ## ① 提到它的金句
 
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-08-29-talks-agents-are-where-microservices-were-in-2|《Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层》]] — 作为概念
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为概念
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|《技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展》]] — 作为概念
+- [[2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c|《用 Codex 做菜：从截图到自动化的六步烹饪法》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[技能]] · [[智能体]] · [[MCP]] · [[Roberto Milev]] · [[Tyler Folkman]] · [[Paul Bakaus]] · [[Uday Kanagala]] · [[JobNimbus]] · [[Impeccable]] · [[Navan]]
+[[智能体]] · [[技能]] · [[MCP]] · [[Codex]] · [[Roberto Milev]] · [[Tyler Folkman]] · [[Paul Bakaus]] · [[Charlie Guo]] · [[Uday Kanagala]] · [[JobNimbus]]
 
-<script type="application/json" class="pd-epn">{"技能":29,"智能体":449,"MCP":84,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Uday Kanagala":1,"JobNimbus":1,"Impeccable":2,"Navan":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"技能":29,"MCP":84,"Codex":82,"Roberto Milev":1,"Tyler Folkman":1,"Paul Bakaus":2,"Charlie Guo":2,"Uday Kanagala":1,"JobNimbus":1}</script>
 
 <script>
 (function(){

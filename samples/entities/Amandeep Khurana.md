@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":194,"Amazon":32,"AWS":22,"Cloudera":1,"Databricks":22,"Palantir":20,"Microsoft":29,"Lovable":19,"前向部署工程师":2,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":194,"Amazon":32,"AWS":22,"Cloudera":1,"Databricks":22,"Palantir":20,"Microsoft":30,"Lovable":19,"前向部署工程师":2,"前置部署工程":3}</script>
 
 <script>
 (function(){

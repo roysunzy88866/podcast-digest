@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>67</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>69</b> 集 · <b>40</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -63,6 +63,7 @@ unlisted: true
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(03:03起):本集说 Google 并不是想成为精确给出你想要结果的世界信息数据库，「它更像是一个推荐引擎」——搜「没有条纹的衬衫」会得到带条纹的衬衫，也答不了「列出全部匹配者」的查询。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(03:07起):传统 SEO 的主场与对照物：核心更新、PageRank 权威评估、与 OpenAI/Reddit 的商业协议；嘉宾认为其在智能体可访问性标准上会「很慢然后一夜之间爆发」。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(11:13起):本集说『我们网上搜索的根本方式已经永远地彻底改变了』——Josh 已经很久没用 Google 搜索，改用 Claude/GPT/Gemini
+- **[[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]]**(17:14起):本集用 Google 作类比:20 年、几千人全职决定搜索结果该怎么呈现,说明靠加规则实现对齐会陷入的困境;AI 公司签下的是还要合成结果的更难版本
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(02:35起):Molly 见证乐高建议起源的地方：她 2007 年加入时约一万名员工，她的部门九个月内从 25 人涨到 125 人，第一次经历真正的快速规模化
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(02:48起):本集提到 Liz 从 Google 的 SRE 起步、管理过 Bigtable SRE 团队；并说 Linux 内核的自动审查机器人 Sashiko 完全由 Google 付费。
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(13:35起):本集说：Google 拥有 90% 搜索份额后不再有增长空间，曾靠把搜索做差让人多搜几次多看广告来提高收入（DOJ 反垄断诉讼曝光）。
@@ -75,6 +76,7 @@ unlisted: true
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(23:44起):本集把它说成:嘉宾职业生涯起点、待满十年的公司,她从「为什么在 Google 待十年」总结出选公司的三条标准(清晰价值观、巨大市场、工程师中的工程师)。
 - **[[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]]**(01:09起):本集提到它 2026 年收购了 Wiz,并且(与 OpenAI、Anthropic 一起)在帮关键开源项目找漏洞上投入努力。
 - **[[2026-10-06-talks-building-ai-for-the-physical-world-with|《机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能》]]**(01:48起):Florence 曾任职之处，在那里把机器人数据扩展到几千小时并参与创造最早的 VLA。
+- **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(01:42起):本集说 Google 联合其他方创建了通用商务协议,并在 Google AI 模式里由 Google Pay 完成令牌化;商家无需做界面，只需提供商品数据和端点。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(11:34起):本集提到 Newman 曾以 ThoughtWorks 员工身份在 Google 教自动化测试，以及 Google SRE 的「厄运之轮」演练游戏；另作为模型可用性较好的备选云被提及。
@@ -165,7 +167,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*67 集*
+*69 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -219,6 +221,7 @@ unlisted: true
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为被讨论公司
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念(提及)
+- [[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]] — 作为被讨论公司
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为被讨论公司
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司(提及)
@@ -231,6 +234,7 @@ unlisted: true
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司
 - [[2026-10-06-sed-security-in-the-age-of-instant-exploits|《从一年到两小时：AI 时代的攻防时钟》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-building-ai-for-the-physical-world-with|《机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能》]] — 作为被讨论公司(提及)
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
@@ -239,9 +243,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Claude]] · [[Amazon]] · [[NVIDIA]] · [[Apple]] · [[Lenny]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"OpenAI":182,"Anthropic":194,"ChatGPT":102,"Meta":48,"Claude":92,"Amazon":32,"NVIDIA":64,"Apple":22,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"OpenAI":185,"Anthropic":194,"ChatGPT":103,"Claude":93,"Meta":48,"Amazon":32,"Apple":23,"NVIDIA":64,"Microsoft":30}</script>
 
 <script>
 (function(){

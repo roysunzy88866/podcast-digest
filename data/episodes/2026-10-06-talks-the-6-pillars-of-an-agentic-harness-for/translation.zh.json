@@ -1,0 +1,2058 @@
+[
+ {
+  "seg": 0,
+  "start": 13.499,
+  "end": 14.96,
+  "speaker": "Unknown",
+  "en": "Can everyone hear me OK?",
+  "zh": "大家能听到我说话吗？"
+ },
+ {
+  "seg": 1,
+  "start": 16.98,
+  "end": 17.3,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 2,
+  "start": 17.82,
+  "end": 20.461,
+  "speaker": "Unknown",
+  "en": "Thank you so much for attending this session.",
+  "zh": "非常感谢大家参加这场分享。"
+ },
+ {
+  "seg": 3,
+  "start": 21.141,
+  "end": 21.822,
+  "speaker": "Unknown",
+  "en": "My name is Varun.",
+  "zh": "我叫 Varun。"
+ },
+ {
+  "seg": 4,
+  "start": 22.042,
+  "end": 23.862,
+  "speaker": "Unknown",
+  "en": "I'm part of the team at Resolve AI.",
+  "zh": "我是 Resolve AI 团队的一员。"
+ },
+ {
+  "seg": 5,
+  "start": 24.402,
+  "end": 25.923,
+  "speaker": "Unknown",
+  "en": "We are building AI for prod.",
+  "zh": "我们在做面向生产环境的 AI。"
+ },
+ {
+  "seg": 6,
+  "start": 26.943,
+  "end": 29.884,
+  "speaker": "Unknown",
+  "en": "Basically, we're building agents to run and fix your software.",
+  "zh": "基本上，我们是在构建智能体来运行和修复你的软件。"
+ },
+ {
+  "seg": 7,
+  "start": 30.504,
+  "end": 39.647,
+  "speaker": "Unknown",
+  "en": "So in this session, we'll cover what are the six pillars of an agentic harness that you'll need in a system that is there to fix and run your software.",
+  "zh": "在这场分享中，我们会讲在一个用于修复和运行你的软件的系统中，你需要什么样的智能体框架的六大支柱。"
+ },
+ {
+  "seg": 8,
+  "start": 41.319,
+  "end": 46.48,
+  "speaker": "Unknown",
+  "en": "Before I get into the session, just a quick show of hands just for me to understand who's there in the audience.",
+  "zh": "在正式开始之前，先快速举个手，让我了解一下在座的听众都是什么背景。"
+ },
+ {
+  "seg": 9,
+  "start": 46.72,
+  "end": 48.24,
+  "speaker": "Unknown",
+  "en": "I'm assuming most of you are engineers.",
+  "zh": "我假设你们大多数人都是工程师。"
+ },
+ {
+  "seg": 10,
+  "start": 49.121,
+  "end": 51.681,
+  "speaker": "Unknown",
+  "en": "How many of you have been on call before?",
+  "zh": "在座有多少人以前值过班（on-call）？"
+ },
+ {
+  "seg": 11,
+  "start": 51.761,
+  "end": 52.521,
+  "speaker": "Unknown",
+  "en": "Quick show of hands.",
+  "zh": "快速举个手。"
+ },
+ {
+  "seg": 12,
+  "start": 53.181,
+  "end": 53.522,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 13,
+  "start": 54.082,
+  "end": 57.582,
+  "speaker": "Unknown",
+  "en": "Have you tried to use AI to help you with your on call?",
+  "zh": "有没有人试过用 AI 来帮助你值班？"
+ },
+ {
+  "seg": 14,
+  "start": 58.363,
+  "end": 59.083,
+  "speaker": "Unknown",
+  "en": "Show of hands.",
+  "zh": "举个手。"
+ },
+ {
+  "seg": 15,
+  "start": 60.803,
+  "end": 61.183,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 16,
+  "start": 62.023,
+  "end": 69.025,
+  "speaker": "Unknown",
+  "en": "For the people who raised their hands, can you tell me that 90% of your on call work is being done by AI?",
+  "zh": "对于举手的朋友们，你们能说你们 90% 的值班工作是由 AI 完成的吗？"
+ },
+ {
+  "seg": 17,
+  "start": 69.485,
+  "end": 70.505,
+  "speaker": "Unknown",
+  "en": "Can you comfortably say that?",
+  "zh": "你们能坦然地这么说吗？"
+ },
+ {
+  "seg": 18,
+  "start": 72.474,
+  "end": 72.754,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 19,
+  "start": 72.854,
+  "end": 75.596,
+  "speaker": "Unknown",
+  "en": "Yes, that's what we realized when we started the company as well.",
+  "zh": "是的，这也是我们创办公司时意识到的情况。"
+ },
+ {
+  "seg": 20,
+  "start": 75.676,
+  "end": 77.357,
+  "speaker": "Unknown",
+  "en": "This is a really hard problem to solve.",
+  "zh": "这是一个非常难解决的问题。"
+ },
+ {
+  "seg": 21,
+  "start": 77.618,
+  "end": 80.94,
+  "speaker": "Unknown",
+  "en": "So in this session, I want to share our journey.",
+  "zh": "所以在这场分享中，我想分享我们的历程。"
+ },
+ {
+  "seg": 22,
+  "start": 81,
+  "end": 82.381,
+  "speaker": "Unknown",
+  "en": "What is the evolution we went through?",
+  "zh": "我们经历了什么样的演进？"
+ },
+ {
+  "seg": 23,
+  "start": 82.401,
+  "end": 86.644,
+  "speaker": "Unknown",
+  "en": "What are some of the learnings we had specifically in building such an agentic harness?",
+  "zh": "在构建这样一个智能体框架的过程中，我们具体有哪些心得？"
+ },
+ {
+  "seg": 24,
+  "start": 87.51,
+  "end": 92.811,
+  "speaker": "Unknown",
+  "en": "Before I get in, I want to set context on what we are experiencing today.",
+  "zh": "在开始之前，我想先交代一下我们如今所处的背景。"
+ },
+ {
+  "seg": 25,
+  "start": 93.271,
+  "end": 97.152,
+  "speaker": "Unknown",
+  "en": "So the first wave of AI really was focused on coding.",
+  "zh": "第一波 AI 真正是聚焦在编程上的。"
+ },
+ {
+  "seg": 26,
+  "start": 97.592,
+  "end": 104.034,
+  "speaker": "Unknown",
+  "en": "And truthfully, I think for most of us, the way we code has fundamentally changed.",
+  "zh": "而说实话，我认为对我们大多数人来说，我们写代码的方式已经发生了根本性的变化。"
+ },
+ {
+  "seg": 27,
+  "start": 104.794,
+  "end": 107.775,
+  "speaker": "Unknown",
+  "en": "And I also wanted to share context on why that is the case.",
+  "zh": "我也想分享一下为什么会是这样的背景。"
+ },
+ {
+  "seg": 28,
+  "start": 109.035,
+  "end": 111.616,
+  "speaker": "Unknown",
+  "en": "Firstly, code in itself is self-documenting.",
+  "zh": "首先，代码本身就是自文档化的。"
+ },
+ {
+  "seg": 29,
+  "start": 111.976,
+  "end": 117.217,
+  "speaker": "Unknown",
+  "en": "It's easy for AI to actually parse and understand what's there to help you out with the next step.",
+  "zh": "AI 很容易解析并理解其中的内容，从而帮你迈出下一步。"
+ },
+ {
+  "seg": 30,
+  "start": 118.098,
+  "end": 120.58,
+  "speaker": "Unknown",
+  "en": "Second, inherently code is very modular.",
+  "zh": "其次，代码本质上是非常模块化的。"
+ },
+ {
+  "seg": 31,
+  "start": 120.98,
+  "end": 129.749,
+  "speaker": "Unknown",
+  "en": "So it's easy for AI to actually break it down as chunks and navigate to the next step and also help you extend and build beyond it.",
+  "zh": "所以 AI 很容易把它拆分成块，推进到下一步，也能帮助你在其基础上扩展和构建。"
+ },
+ {
+  "seg": 32,
+  "start": 130.59,
+  "end": 133.433,
+  "speaker": "Unknown",
+  "en": "Third and the most important thing is code is single domain.",
+  "zh": "第三点也是最重要的一点，代码是单一领域的。"
+ },
+ {
+  "seg": 33,
+  "start": 134.594,
+  "end": 138.798,
+  "speaker": "Unknown",
+  "en": "You do not need to teach AI multiple domains to reason across them.",
+  "zh": "你不需要教 AI 多个领域再做跨领域推理。"
+ },
+ {
+  "seg": 34,
+  "start": 139.299,
+  "end": 145.505,
+  "speaker": "Unknown",
+  "en": "It's easily able to navigate to the next step and that is one of the reasons why we have such defined benchmarks as well.",
+  "zh": "它能轻松推进到下一步，这也是为什么我们会有如此明确的基准测试的原因之一。"
+ },
+ {
+  "seg": 35,
+  "start": 145.525,
+  "end": 150.19,
+  "speaker": "Unknown",
+  "en": "You can objectively assess how good is AI in solving this problem for you.",
+  "zh": "你可以客观地评估 AI 在为你解决这个问题上有多好。"
+ },
+ {
+  "seg": 36,
+  "start": 151.19,
+  "end": 162.836,
+  "speaker": "Unknown",
+  "en": "But in reality, for engineering, 70% of our time is spent on the other side, not generating new software, but rather in production systems, basically running and fixing software.",
+  "zh": "但现实中，在工程工作里，我们 70% 的时间花在另一头，不是生成新软件，而是在生产系统上，基本上就是运行和修复软件。"
+ },
+ {
+  "seg": 37,
+  "start": 164.017,
+  "end": 169.64,
+  "speaker": "Unknown",
+  "en": "And this ranges through a broad range of issues as well, like operating and running software.",
+  "zh": "而这涵盖了一大片范围的问题，比如运维和运行软件。"
+ },
+ {
+  "seg": 38,
+  "start": 170.18,
+  "end": 173.542,
+  "speaker": "Unknown",
+  "en": "Typically, you can actually put it in three broad buckets.",
+  "zh": "通常，你可以把它归入三大类。"
+ },
+ {
+  "seg": 39,
+  "start": 174.122,
+  "end": 177.925,
+  "speaker": "Unknown",
+  "en": "Like one is think of the healthcare analogy.",
+  "zh": "比如一个是医疗健康的类比。"
+ },
+ {
+  "seg": 40,
+  "start": 177.945,
+  "end": 180.427,
+  "speaker": "Unknown",
+  "en": "That's the easiest way I like to think about it as well.",
+  "zh": "这也是我自己最喜欢用来思考的方式。"
+ },
+ {
+  "seg": 41,
+  "start": 181.087,
+  "end": 183.669,
+  "speaker": "Unknown",
+  "en": "One is the regular on-call and maintenance.",
+  "zh": "第一类是常规的值班和维护。"
+ },
+ {
+  "seg": 42,
+  "start": 184.109,
+  "end": 187.131,
+  "speaker": "Unknown",
+  "en": "Think of this as regular small problems that are coming your way.",
+  "zh": "把它想成不断找上门来的常规小问题。"
+ },
+ {
+  "seg": 43,
+  "start": 187.472,
+  "end": 191.574,
+  "speaker": "Unknown",
+  "en": "Maybe you need a Tylenol for some pain that you have.",
+  "zh": "也许你需要一颗泰诺来缓解疼痛。"
+ },
+ {
+  "seg": 44,
+  "start": 191.955,
+  "end": 192.955,
+  "speaker": "Unknown",
+  "en": "Maybe you need an Advil.",
+  "zh": "也许你需要一粒 Advil。"
+ },
+ {
+  "seg": 45,
+  "start": 193.015,
+  "end": 196.178,
+  "speaker": "Unknown",
+  "en": "So these are the regular on-call style alerts that you need to deal with.",
+  "zh": "所以这些就是你日常需要处理的值班式告警。"
+ },
+ {
+  "seg": 46,
+  "start": 196.818,
+  "end": 200.82,
+  "speaker": "Unknown",
+  "en": "Second category is the incidents, where you need all hands on deck.",
+  "zh": "第二类是事故（incident），需要全员上阵。"
+ },
+ {
+  "seg": 47,
+  "start": 201.1,
+  "end": 202.26,
+  "speaker": "Unknown",
+  "en": "It's equivalent to a surgery.",
+  "zh": "它相当于一场手术。"
+ },
+ {
+  "seg": 48,
+  "start": 202.661,
+  "end": 203.641,
+  "speaker": "Unknown",
+  "en": "Systems are shutting down.",
+  "zh": "系统正在宕机。"
+ },
+ {
+  "seg": 49,
+  "start": 203.801,
+  "end": 209.143,
+  "speaker": "Unknown",
+  "en": "You need everyone's attention, who's involved or responsible, to come in and fix it.",
+  "zh": "你需要每一个相关或负责人都过来一起修复它。"
+ },
+ {
+  "seg": 50,
+  "start": 209.804,
+  "end": 212.585,
+  "speaker": "Unknown",
+  "en": "And the third category is more like your daily vitamins.",
+  "zh": "第三类更像你的日常维生素。"
+ },
+ {
+  "seg": 51,
+  "start": 213.045,
+  "end": 219.488,
+  "speaker": "Unknown",
+  "en": "So you need to do a lot of things on a regular basis to maintain the health of your system going on.",
+  "zh": "也就是说，你需要定期做很多事情来维持系统的健康运转。"
+ },
+ {
+  "seg": 52,
+  "start": 219.988,
+  "end": 227.076,
+  "speaker": "Unknown",
+  "en": "So be it things like taking a look at your infrastructure, taking a look at your costs, or maybe some platform engineering work that you do to scale.",
+  "zh": "比如查看你的基础设施、查看你的成本，或者做一些用于扩展的平台工程工作。"
+ },
+ {
+  "seg": 53,
+  "start": 227.897,
+  "end": 231.841,
+  "speaker": "Unknown",
+  "en": "So these things are fundamentally hard because they're not exactly like code.",
+  "zh": "这些事情从根本上是困难的，因为它们并不完全像代码。"
+ },
+ {
+  "seg": 54,
+  "start": 231.921,
+  "end": 241.291,
+  "speaker": "Unknown",
+  "en": "They cut across multiple different domains, multiple different tools, and that is the repercussions that we are starting to see when the initial euphoria of AI is starting to settle in.",
+  "zh": "它们横跨多个不同的领域、多个不同的工具，而这就是当 AI 最初的狂热开始消退时，我们开始看到的后果。"
+ },
+ {
+  "seg": 55,
+  "start": 242.212,
+  "end": 243.914,
+  "speaker": "Unknown",
+  "en": "And that's what you're seeing in the news right now.",
+  "zh": "这也是你现在在新闻里看到的。"
+ },
+ {
+  "seg": 56,
+  "start": 244.395,
+  "end": 254.807,
+  "speaker": "Unknown",
+  "en": "So there's a lot more talk about the number of issues, maybe AI-generated code is starting to create in production, and there is talk around what are the right frameworks to deal with these issues in code.",
+  "zh": "所以现在有更多关于 AI 生成的代码可能开始在生产环境中造成的问题数量的讨论，也有关于用什么才是合适的框架来处理这些代码问题的讨论。"
+ },
+ {
+  "seg": 57,
+  "start": 255.547,
+  "end": 261.774,
+  "speaker": "Unknown",
+  "en": "Second, the era of bottomless AI is over, like the unlimited AI is no longer there.",
+  "zh": "第二，无底洞式的 AI 时代结束了，也就是说无限的 AI 不复存在了。"
+ },
+ {
+  "seg": 58,
+  "start": 262.395,
+  "end": 267.14,
+  "speaker": "Unknown",
+  "en": "You can increasingly see conversations about tokens, token optimization, token efficiency.",
+  "zh": "你越来越能看到关于 token、token 优化、token 效率的讨论。"
+ },
+ {
+  "seg": 59,
+  "start": 267.52,
+  "end": 274.707,
+  "speaker": "Unknown",
+  "en": "How do you basically improve those architectures, those rigorous engineering architectures that you need to efficiently and precisely use AI?",
+  "zh": "你要如何基本地去改进那些架构、那些你需要用来高效且精确使用 AI 的严格工程架构？"
+ },
+ {
+  "seg": 60,
+  "start": 275.488,
+  "end": 284.758,
+  "speaker": "Unknown",
+  "en": "And third, this is the conversation that is probably made popular by Satya Nadella, who's the CEO of Microsoft, where he started talking about the architecture.",
+  "zh": "第三，这场对话可能是由微软 CEO Satya Nadella 带火的，他开始谈论架构。"
+ },
+ {
+  "seg": 61,
+  "start": 285.378,
+  "end": 290.26,
+  "speaker": "Unknown",
+  "en": "You need on top of your regular models for any domain-specific AI to work.",
+  "zh": "你需要在常规模型之上搭建的架构，才能让任何特定领域的 AI 工作。"
+ },
+ {
+  "seg": 62,
+  "start": 290.86,
+  "end": 292.801,
+  "speaker": "Unknown",
+  "en": "So there is a broad classification, right?",
+  "zh": "所以有一个大致的分类，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 292.821,
+  "end": 297.923,
+  "speaker": "Unknown",
+  "en": "Like whenever you look at a generation tasks, you don't have an output or an outcome in mind.",
+  "zh": "比如每当你看生成类任务时，你并没有一个输出或结果在脑海中。"
+ },
+ {
+  "seg": 64,
+  "start": 298.484,
+  "end": 304.906,
+  "speaker": "Unknown",
+  "en": "You're not specifying to AI exactly how an image should look like, how a blog should look like, or how a website should look like.",
+  "zh": "你没有向 AI 精确指定一张图片应该长什么样、一篇博客应该长什么样，或者一个网站应该长什么样。"
+ },
+ {
+  "seg": 65,
+  "start": 305.307,
+  "end": 306.787,
+  "speaker": "Unknown",
+  "en": "So that's where the euphoria sets in.",
+  "zh": "所以这就是狂热出现的地步。"
+ },
+ {
+  "seg": 66,
+  "start": 307.307,
+  "end": 312.71,
+  "speaker": "Unknown",
+  "en": "But when you think of a flip side of a task where you have a single correct answer that you want AI to get to,",
+  "zh": "但当你想到任务的反面——你有一个唯一的正确答案、你希望 AI 达到它——"
+ },
+ {
+  "seg": 67,
+  "start": 313.23,
+  "end": 322.935,
+  "speaker": "Unknown",
+  "en": "That is when the disappointment starts to set in, which in most cases, most people dub it as the last mile, but that is the single longest mile that you have to run with AI.",
+  "zh": "这时候失望就开始出现了，在大多数情况下，大多数人把它称为“最后一英里”，但那是你和 AI 一起要跑的最漫长的一英里。"
+ },
+ {
+  "seg": 68,
+  "start": 323.015,
+  "end": 327.258,
+  "speaker": "Unknown",
+  "en": "That is why you need these architectures for you to focus on a specific problem.",
+  "zh": "这就是为什么你需要这些架构来让你专注于一个具体问题。"
+ },
+ {
+  "seg": 69,
+  "start": 328.248,
+  "end": 334.433,
+  "speaker": "Unknown",
+  "en": "Now, beyond all this, operating production systems is also a multiplayer and a multi-system problem.",
+  "zh": "现在，除了这些之外，运维生产系统还是一个多人协作、多系统的问题。"
+ },
+ {
+  "seg": 70,
+  "start": 334.853,
+  "end": 336.294,
+  "speaker": "Unknown",
+  "en": "You're not just doing it on your own.",
+  "zh": "你不是一个人在做这件事。"
+ },
+ {
+  "seg": 71,
+  "start": 336.634,
+  "end": 338.676,
+  "speaker": "Unknown",
+  "en": "You need to pull in SMEs for different teams.",
+  "zh": "你需要拉入不同团队的领域专家(SME)。"
+ },
+ {
+  "seg": 72,
+  "start": 338.816,
+  "end": 343.039,
+  "speaker": "Unknown",
+  "en": "Over time, all of us have specialized in different categories of engineering.",
+  "zh": "随着时间推移，我们所有人都在不同的工程类别中实现了专业化。"
+ },
+ {
+  "seg": 73,
+  "start": 343.119,
+  "end": 344.36,
+  "speaker": "Unknown",
+  "en": "We are put in different teams.",
+  "zh": "我们被分到不同的团队。"
+ },
+ {
+  "seg": 74,
+  "start": 345.061,
+  "end": 351.866,
+  "speaker": "Unknown",
+  "en": "We need to talk to resolve any issues across your production systems.",
+  "zh": "我们需要通过沟通来解决生产系统中的任何问题。"
+ },
+ {
+  "seg": 75,
+  "start": 353.285,
+  "end": 356.966,
+  "speaker": "Unknown",
+  "en": "All in all, our company Resolve AI started with a single thesis.",
+  "zh": "总而言之，我们的公司 Resolve AI 是从一个单一论点起步的。"
+ },
+ {
+  "seg": 76,
+  "start": 357.266,
+  "end": 367.75,
+  "speaker": "Unknown",
+  "en": "So we genuinely believe that all of this work that you do on production systems, like fixing issues or running your software on a day-to-day basis, should be done by agents in most part.",
+  "zh": "我们真诚地相信，你在生产系统上所做的所有这些工作——比如修复问题或者日常运行你的软件——在大部分情况下都应该由智能体来完成。"
+ },
+ {
+  "seg": 77,
+  "start": 368.111,
+  "end": 373.993,
+  "speaker": "Unknown",
+  "en": "That's one of the reasons why I was asking, can you confidently tell 90% of your work or more is being done by agents?",
+  "zh": "这也是我之前问那个问题的原因之一：你能否自信地说你 90% 或更多的工作正在由智能体完成？"
+ },
+ {
+  "seg": 78,
+  "start": 374.533,
+  "end": 379.695,
+  "speaker": "Unknown",
+  "en": "And engineers should just be running those agents, where agents take care of fixing and running your software.",
+  "zh": "而工程师应该只是运行那些智能体，由智能体负责修复和运行你的软件。"
+ },
+ {
+  "seg": 79,
+  "start": 380.375,
+  "end": 385.26,
+  "speaker": "Unknown",
+  "en": "So that's why we've built Resolve AI as three categories of agents.",
+  "zh": "所以这就是我们把 Resolve AI 构建为三类智能体的原因。"
+ },
+ {
+  "seg": 80,
+  "start": 385.36,
+  "end": 388.723,
+  "speaker": "Unknown",
+  "en": "There are on-call agents to fix your software issues that come in on a daily basis.",
+  "zh": "有 on-call 智能体，用来修复每天出现的软件问题。"
+ },
+ {
+  "seg": 81,
+  "start": 389.303,
+  "end": 398.091,
+  "speaker": "Unknown",
+  "en": "And there are incidents agents that will help you drive incident channels and get you from a complex incident to a root cause and fix.",
+  "zh": "还有事故(incident)智能体，它们会帮助你驱动事故频道，让你从一起复杂事故走到根因和修复。"
+ },
+ {
+  "seg": 82,
+  "start": 398.572,
+  "end": 402.175,
+  "speaker": "Unknown",
+  "en": "And lastly, there are ambient background agents that will help you with your production tasks.",
+  "zh": "最后，还有环境后台智能体，它们会在你的生产任务上帮助你。"
+ },
+ {
+  "seg": 83,
+  "start": 402.595,
+  "end": 411.046,
+  "speaker": "Unknown",
+  "en": "Be it things like deployment monitoring or any of the analysis that you have to run or any of the conditions that you trigger where you want a specific investigation to happen.",
+  "zh": "无论是部署监控，还是你不得不运行的任何分析，或者你触发的任何你希望进行特定调查的条件。"
+ },
+ {
+  "seg": 84,
+  "start": 411.707,
+  "end": 414.751,
+  "speaker": "Unknown",
+  "en": "Underneath all this is the same Resolve AI agent architecture.",
+  "zh": "所有这些之下是同一套 Resolve AI 智能体架构。"
+ },
+ {
+  "seg": 85,
+  "start": 414.791,
+  "end": 419.777,
+  "speaker": "Unknown",
+  "en": "That is what we'll be talking about today and what it takes to get there to build it.",
+  "zh": "这就是我们今天要谈论的内容，以及要构建它需要什么。"
+ },
+ {
+  "seg": 86,
+  "start": 420.869,
+  "end": 422.65,
+  "speaker": "Unknown",
+  "en": "So let's start with a question.",
+  "zh": "那么让我们从一个问题开始。"
+ },
+ {
+  "seg": 87,
+  "start": 422.71,
+  "end": 424.811,
+  "speaker": "Unknown",
+  "en": "So why is this even required?",
+  "zh": "这到底为什么是必需的？"
+ },
+ {
+  "seg": 88,
+  "start": 424.871,
+  "end": 427.592,
+  "speaker": "Unknown",
+  "en": "Why can't we just point the biggest model at production data?",
+  "zh": "为什么我们不能直接把最大的模型对准生产数据？"
+ },
+ {
+  "seg": 89,
+  "start": 427.992,
+  "end": 429.212,
+  "speaker": "Unknown",
+  "en": "Models are, of course, getting better.",
+  "zh": "模型当然在变得更好。"
+ },
+ {
+  "seg": 90,
+  "start": 429.272,
+  "end": 432.593,
+  "speaker": "Unknown",
+  "en": "The reasoning capacity is getting better to fix your software issues.",
+  "zh": "用于修复你的软件问题的推理能力也在变得更好。"
+ },
+ {
+  "seg": 91,
+  "start": 433.114,
+  "end": 434.814,
+  "speaker": "Unknown",
+  "en": "It genuinely demos well.",
+  "zh": "它确实演示效果很好。"
+ },
+ {
+  "seg": 92,
+  "start": 434.914,
+  "end": 439.036,
+  "speaker": "Unknown",
+  "en": "Whenever you focus on a particular use case and you build your harness on top of it,",
+  "zh": "每当你专注于一个特定用例，并在其上构建你的 harness，"
+ },
+ {
+  "seg": 93,
+  "start": 439.596,
+  "end": 441.078,
+  "speaker": "Unknown",
+  "en": "It shows up with a very good demo.",
+  "zh": "它就会呈现出一个非常漂亮的演示。"
+ },
+ {
+  "seg": 94,
+  "start": 441.498,
+  "end": 449.888,
+  "speaker": "Unknown",
+  "en": "But slowly, as you start to scale across use cases and teams, that is where very familiar cracks start to appear in the system.",
+  "zh": "但慢慢地，当你开始跨用例、跨团队扩展时，系统中非常熟悉的裂缝就开始出现了。"
+ },
+ {
+  "seg": 95,
+  "start": 450.368,
+  "end": 454.994,
+  "speaker": "Unknown",
+  "en": "So what are the kind of cracks that we have seen as you start to scale in the product along the way?",
+  "zh": "那么我们在产品扩展的过程中看到了哪些类型的裂缝呢？"
+ },
+ {
+  "seg": 96,
+  "start": 456.235,
+  "end": 459.537,
+  "speaker": "Unknown",
+  "en": "First thing you'll notice that of course models will have anchoring bias.",
+  "zh": "你会注意到的第一件事当然是模型会有锚定偏差。"
+ },
+ {
+  "seg": 97,
+  "start": 459.577,
+  "end": 463.338,
+  "speaker": "Unknown",
+  "en": "This is a very strong thing that you have to deal in your harnesses itself.",
+  "zh": "这是一件非常强烈的事情，你必须在你的 harness 本身中去应对它。"
+ },
+ {
+  "seg": 98,
+  "start": 463.498,
+  "end": 465.759,
+  "speaker": "Unknown",
+  "en": "They're designed to give you like a coherent answer.",
+  "zh": "它们被设计成给你一个连贯的答案。"
+ },
+ {
+  "seg": 99,
+  "start": 466.88,
+  "end": 474.043,
+  "speaker": "Unknown",
+  "en": "And first of all, as and when new models start to come out with better reasoning capabilities, you also need to maintain the treadmill.",
+  "zh": "而且，随着具有更好推理能力的新模型不断推出，你还需要维护这个跑步机(不断跟上迭代)。"
+ },
+ {
+  "seg": 100,
+  "start": 474.703,
+  "end": 484.25,
+  "speaker": "Unknown",
+  "en": "You also need to continuously change, firstly evaluate which model is suitable for the task, and also update the right model for your use case.",
+  "zh": "你还需要持续地改变，首先是评估哪个模型适合这个任务，同时也为你的用例更新正确的模型。"
+ },
+ {
+  "seg": 101,
+  "start": 484.79,
+  "end": 491.995,
+  "speaker": "Unknown",
+  "en": "And second, and a little bit of an overlooked item, so we always associate a model to a workflow or an outcome.",
+  "zh": "第二，这是一个有点被忽视的点，我们总是把一个模型关联到一个工作流或一个结果。"
+ },
+ {
+  "seg": 102,
+  "start": 492.416,
+  "end": 495.658,
+  "speaker": "Unknown",
+  "en": "But every workflow has hundreds of different types of tasks.",
+  "zh": "但每个工作流都有数百种不同类型的任务。"
+ },
+ {
+  "seg": 103,
+  "start": 496.118,
+  "end": 506.941,
+  "speaker": "Unknown",
+  "en": "So there are reasoning tasks, there are deterministic tasks that you go through, there are things like image reasoning or your reasoning across images, your reasoning across SQL or things like logs.",
+  "zh": "有推理任务，有你经历的确定性任务，还有像图像推理这样的东西，或者跨图像的推理、跨 SQL 的推理，或者像日志之类的东西。"
+ },
+ {
+  "seg": 104,
+  "start": 507.541,
+  "end": 514.003,
+  "speaker": "Unknown",
+  "en": "Now, all the models, frontier models that you see around, each of them is good at a specific kind of task.",
+  "zh": "现在，你看到的所有模型、前沿模型，每一个都擅长某种特定类型的任务。"
+ },
+ {
+  "seg": 105,
+  "start": 515.943,
+  "end": 525.133,
+  "speaker": "Unknown",
+  "en": "So the orchestration engine that you need to imagine for moving across these models for a workflow, first of all, needs to keep pace with how models are evolving.",
+  "zh": "所以你需要想象的那个在这些模型之间为一个工作流进行调度的编排引擎，首先需要跟上模型演进的步伐。"
+ },
+ {
+  "seg": 106,
+  "start": 525.613,
+  "end": 529.257,
+  "speaker": "Unknown",
+  "en": "And second, it needs to be able to marry the best model for the best task.",
+  "zh": "其次，它需要能够为最佳任务匹配最佳模型。"
+ },
+ {
+  "seg": 107,
+  "start": 530.725,
+  "end": 533.786,
+  "speaker": "Unknown",
+  "en": "And second failure mode is, of course, the context windows.",
+  "zh": "第二个失败模式当然就是上下文窗口。"
+ },
+ {
+  "seg": 108,
+  "start": 533.906,
+  "end": 544.109,
+  "speaker": "Unknown",
+  "en": "I know the context windows are expanding, but context windows are not just the problem for solving a complex problem like this.",
+  "zh": "我知道上下文窗口在不断扩大，但对于解决像这样的复杂问题，上下文窗口不只是问题所在。"
+ },
+ {
+  "seg": 109,
+  "start": 544.689,
+  "end": 550.15,
+  "speaker": "Unknown",
+  "en": "The second part is, if you provide large enough context, models start to over-explore.",
+  "zh": "第二个部分是，如果你提供足够大的上下文，模型会开始过度探索。"
+ },
+ {
+  "seg": 110,
+  "start": 550.551,
+  "end": 555.352,
+  "speaker": "Unknown",
+  "en": "It'll start to come up with hypotheses that don't even exist or sometimes might not even get you to the right answer.",
+  "zh": "它会开始提出一些根本不存在的假设，有时甚至可能无法让你得到正确的答案。"
+ },
+ {
+  "seg": 111,
+  "start": 555.932,
+  "end": 559.496,
+  "speaker": "Unknown",
+  "en": "Now if you supply very limited context, of course they underexplode.",
+  "zh": "而如果你提供非常有限的上下文，当然它们就会探索不足。"
+ },
+ {
+  "seg": 112,
+  "start": 559.877,
+  "end": 570.81,
+  "speaker": "Unknown",
+  "en": "They won't be able to get to, they won't actually have visibility into what other pathways exist or probably what other potential hypothesis can exist in solving a problem, especially for production incidents.",
+  "zh": "它们无法……它们实际上将无法看到还存在哪些其他路径，或者在解决问题时可能还存在哪些其他潜在假设，尤其是对于生产事故来说。"
+ },
+ {
+  "seg": 113,
+  "start": 571.25,
+  "end": 574.593,
+  "speaker": "Unknown",
+  "en": "This becomes a huge issue because telemetry is literally infinite.",
+  "zh": "这会成为一个巨大的问题，因为遥测数据实际上是无限的。"
+ },
+ {
+  "seg": 114,
+  "start": 574.693,
+  "end": 585.864,
+  "speaker": "Unknown",
+  "en": "You can start to create as many log lines as you want, as many metrics as you want, and now when you start to marry that with your code and infrastructure, that is when real cracks in system starts to appear.",
+  "zh": "你可以想创建多少日志行就创建多少，想创建多少指标就创建多少，而当你开始把这些与你的代码和基础设施结合起来时，系统的真正裂缝就开始出现了。"
+ },
+ {
+  "seg": 115,
+  "start": 587.5,
+  "end": 592.302,
+  "speaker": "Unknown",
+  "en": "Third and my most favorite one is defining causal reasoning.",
+  "zh": "第三个也是我最喜欢的一个是定义因果推理。"
+ },
+ {
+  "seg": 116,
+  "start": 592.862,
+  "end": 595.062,
+  "speaker": "Unknown",
+  "en": "So models are there to please you.",
+  "zh": "模型是用来取悦你的。"
+ },
+ {
+  "seg": 117,
+  "start": 595.102,
+  "end": 600.584,
+  "speaker": "Unknown",
+  "en": "I mean, we've all come across these use cases where you push the model hard enough, it'll start to agree with you in every different direction.",
+  "zh": "我是说，我们都遇到过这样的用例：你把模型逼得足够紧，它就会开始在每个方向上都同意你。"
+ },
+ {
+  "seg": 118,
+  "start": 601.044,
+  "end": 606.146,
+  "speaker": "Unknown",
+  "en": "So models are specifically designed to give you coherent answers but not causality.",
+  "zh": "所以模型是专门被设计来给你连贯的答案，而不是因果关系。"
+ },
+ {
+  "seg": 119,
+  "start": 606.706,
+  "end": 612.49,
+  "speaker": "Unknown",
+  "en": "But production incidents, the only thing you're looking for is a causal chain of evidence, like a detective.",
+  "zh": "但生产事故，你唯一在寻找的就是一条因果证据链，就像侦探一样。"
+ },
+ {
+  "seg": 120,
+  "start": 612.59,
+  "end": 620.315,
+  "speaker": "Unknown",
+  "en": "What are the steps that took place that led to a particular incident so that you can actually fix the right issue instead of creating a patch?",
+  "zh": "发生了哪些步骤导致了某个特定的事故，这样你才能真正修复正确的问题，而不是打一个补丁？"
+ },
+ {
+  "seg": 121,
+  "start": 620.916,
+  "end": 630.723,
+  "speaker": "Unknown",
+  "en": "So especially when you're solving a hard problem like production reasoning, you need causal reasoning built into the system, not just coherent answers.",
+  "zh": "所以尤其是当你在解决像生产推理这样困难的问题时，你需要把因果推理内置到系统里，而不仅仅是连贯的答案。"
+ },
+ {
+  "seg": 122,
+  "start": 631.922,
+  "end": 633.382,
+  "speaker": "Unknown",
+  "en": "And the next one is, of course, guardrails.",
+  "zh": "再下一个当然就是护栏。"
+ },
+ {
+  "seg": 123,
+  "start": 633.422,
+  "end": 642.365,
+  "speaker": "Unknown",
+  "en": "I won't harp on this topic too much, but all of us have read some news or the other where, let's say, AI is going and deleting a particular file system or like a database.",
+  "zh": "我不会在这个话题上啰嗦太多，但我们所有人都读到过这样那样的新闻，比如说，AI 去删除了某个特定的文件系统或者某个数据库。"
+ },
+ {
+  "seg": 124,
+  "start": 643.265,
+  "end": 646.526,
+  "speaker": "Unknown",
+  "en": "So AI, it's also, this is a feature, right?",
+  "zh": "所以 AI，这也是一个特性，对吧？"
+ },
+ {
+  "seg": 125,
+  "start": 646.586,
+  "end": 647.446,
+  "speaker": "Unknown",
+  "en": "Not a bug.",
+  "zh": "不是 bug。"
+ },
+ {
+  "seg": 126,
+  "start": 647.586,
+  "end": 653.367,
+  "speaker": "Unknown",
+  "en": "AI might have determined that the cleanest possible fix is just deletion of that particular code snippet.",
+  "zh": "AI 可能已经判断出最干净的修复方式就是删除那段特定的代码片段。"
+ },
+ {
+  "seg": 127,
+  "start": 653.787,
+  "end": 654.928,
+  "speaker": "Unknown",
+  "en": "You can't fault it for it.",
+  "zh": "你不能为此责怪它。"
+ },
+ {
+  "seg": 128,
+  "start": 655.028,
+  "end": 659.949,
+  "speaker": "Unknown",
+  "en": "You just have to build guardrails around the system so that it works in the right fashion.",
+  "zh": "你只需要围绕系统构建护栏，让它以正确的方式运作。"
+ },
+ {
+  "seg": 129,
+  "start": 660.249,
+  "end": 663.991,
+  "speaker": "Unknown",
+  "en": "What is the least privileged access that AI can operate with in any given scenario?",
+  "zh": "在任何给定场景中，AI 能够以怎样的最小特权访问来运作？"
+ },
+ {
+  "seg": 130,
+  "start": 664.892,
+  "end": 666.472,
+  "speaker": "Unknown",
+  "en": "And lastly, learning loops.",
+  "zh": "最后是学习循环。"
+ },
+ {
+  "seg": 131,
+  "start": 667.093,
+  "end": 671.995,
+  "speaker": "Unknown",
+  "en": "Any system that you build should be scalable across your team or your organization in the best case.",
+  "zh": "你构建的任何系统都应该能在最好的情况下扩展到你的团队或你的组织。"
+ },
+ {
+  "seg": 132,
+  "start": 672.616,
+  "end": 678.159,
+  "speaker": "Unknown",
+  "en": "Every time you're using AI for production incidents, like I said at the starting, it is a multiplayer problem.",
+  "zh": "每次你用 AI 处理生产事故时，就像我在开头说的，这是一个多人协作的问题。"
+ },
+ {
+  "seg": 133,
+  "start": 678.339,
+  "end": 683.482,
+  "speaker": "Unknown",
+  "en": "You have multiple different teams, like SREs, platform teams, backend engineers, or service engineers.",
+  "zh": "你有多个不同的团队，比如 SRE、平台团队、后端工程师，或者服务工程师。"
+ },
+ {
+  "seg": 134,
+  "start": 683.942,
+  "end": 685.383,
+  "speaker": "Unknown",
+  "en": "All of these people should be involved.",
+  "zh": "所有这些人都应该参与进来。"
+ },
+ {
+  "seg": 135,
+  "start": 685.823,
+  "end": 689.425,
+  "speaker": "Unknown",
+  "en": "And most importantly, all of these people should have the same context.",
+  "zh": "而且最重要的是，所有这些人都应该拥有相同的上下文。"
+ },
+ {
+  "seg": 136,
+  "start": 690.125,
+  "end": 702.115,
+  "speaker": "Unknown",
+  "en": "Now, when you add temporal discussions on top of it, your AI system should have the same context of a previous investigation in the 100th investigation, or else you're starting the wheel from the same time again.",
+  "zh": "现在，当你在其上叠加时间维度的讨论时，你的 AI 系统应该在第 100 次调查中仍保有之前那次调查的上下文，否则你就是在再次从零开始转轮子。"
+ },
+ {
+  "seg": 137,
+  "start": 702.676,
+  "end": 705.538,
+  "speaker": "Unknown",
+  "en": "So these are the failure modes where we've seen the cracks appear.",
+  "zh": "所以这些就是我们看到裂缝出现的失败模式。"
+ },
+ {
+  "seg": 138,
+  "start": 705.998,
+  "end": 712.084,
+  "speaker": "Unknown",
+  "en": "So that's why we've actually built an agent architecture that answers these same questions exactly.",
+  "zh": "所以这就是为什么我们实际上构建了一个智能体架构，恰好回答这些同样的问题。"
+ },
+ {
+  "seg": 139,
+  "start": 712.664,
+  "end": 720.746,
+  "speaker": "Unknown",
+  "en": "So there are six major parts for any AI architecture that has to work in a specific domain.",
+  "zh": "对于任何要在特定领域运作的 AI 架构来说，有六个主要部分。"
+ },
+ {
+  "seg": 140,
+  "start": 721.506,
+  "end": 726.447,
+  "speaker": "Unknown",
+  "en": "The reason I'm mentioning it as a specific domain is models are there for general purpose reasoning.",
+  "zh": "我之所以说“特定领域”，是因为模型是为通用推理而存在的。"
+ },
+ {
+  "seg": 141,
+  "start": 726.888,
+  "end": 732.389,
+  "speaker": "Unknown",
+  "en": "Now, when you want to harness these models into a specific answer, you need to take care of six different pillars.",
+  "zh": "现在，当你想把这些模型 harness 到一个特定的答案上时，你需要照顾好六个不同的支柱。"
+ },
+ {
+  "seg": 142,
+  "start": 733.029,
+  "end": 735.291,
+  "speaker": "Unknown",
+  "en": "The first one is model orchestration.",
+  "zh": "第一个是模型编排。"
+ },
+ {
+  "seg": 143,
+  "start": 735.831,
+  "end": 738.633,
+  "speaker": "Unknown",
+  "en": "Like I mentioned, model orchestration is two layers.",
+  "zh": "就像我提到的，模型编排是两层。"
+ },
+ {
+  "seg": 144,
+  "start": 738.833,
+  "end": 741.895,
+  "speaker": "Unknown",
+  "en": "One, how do you keep up with the model treadmill with the latest models?",
+  "zh": "一，你如何跟上最新的模型跑步机？"
+ },
+ {
+  "seg": 145,
+  "start": 742.335,
+  "end": 745.478,
+  "speaker": "Unknown",
+  "en": "And second, how do you match the best model for the task?",
+  "zh": "二，你如何为任务匹配最佳模型？"
+ },
+ {
+  "seg": 146,
+  "start": 745.978,
+  "end": 748.92,
+  "speaker": "Unknown",
+  "en": "Is it Gemini for image-specific reasoning?",
+  "zh": "是用 Gemini 做图像相关的推理？"
+ },
+ {
+  "seg": 147,
+  "start": 749.34,
+  "end": 751.201,
+  "speaker": "Unknown",
+  "en": "Or is it OpenAI for deterministic steps?",
+  "zh": "还是用 OpenAI 做确定性步骤？"
+ },
+ {
+  "seg": 148,
+  "start": 751.301,
+  "end": 754.083,
+  "speaker": "Unknown",
+  "en": "Or is it Claude for open-ended investigations?",
+  "zh": "还是用 Claude 做开放式调查？"
+ },
+ {
+  "seg": 149,
+  "start": 754.263,
+  "end": 760.548,
+  "speaker": "Unknown",
+  "en": "You need to constantly keep evaluating what is the best possible model for the task at that point in time.",
+  "zh": "你需要不断地持续评估在当下什么是对该任务而言最好的模型。"
+ },
+ {
+  "seg": 150,
+  "start": 760.988,
+  "end": 763.951,
+  "speaker": "Unknown",
+  "en": "So this is an engine that we built up front very early.",
+  "zh": "所以这是我们在很早期就预先构建起来的一个引擎。"
+ },
+ {
+  "seg": 151,
+  "start": 765.031,
+  "end": 766.353,
+  "speaker": "Unknown",
+  "en": "Second is context engineering.",
+  "zh": "第二个是上下文工程。"
+ },
+ {
+  "seg": 152,
+  "start": 766.893,
+  "end": 773.038,
+  "speaker": "Unknown",
+  "en": "Now, context engineering is often minimized to the database or an execution solution.",
+  "zh": "现在，上下文工程经常被简化为数据库或某种执行方案。"
+ },
+ {
+  "seg": 153,
+  "start": 773.538,
+  "end": 774.9,
+  "speaker": "Unknown",
+  "en": "Are you using a graph rag?",
+  "zh": "你在用 graph rag 吗？"
+ },
+ {
+  "seg": 154,
+  "start": 774.96,
+  "end": 776.081,
+  "speaker": "Unknown",
+  "en": "Are you using a knowledge graph?",
+  "zh": "你在用知识图谱吗？"
+ },
+ {
+  "seg": 155,
+  "start": 776.141,
+  "end": 777.302,
+  "speaker": "Unknown",
+  "en": "Are you using X, Y, and Z?",
+  "zh": "你在用 X、Y、Z 吗？"
+ },
+ {
+  "seg": 156,
+  "start": 777.622,
+  "end": 779.143,
+  "speaker": "Unknown",
+  "en": "Those are all implementation details.",
+  "zh": "这些全都是实现细节。"
+ },
+ {
+  "seg": 157,
+  "start": 779.604,
+  "end": 783.307,
+  "speaker": "Unknown",
+  "en": "But what matters as a goal is what is the precise amount of context",
+  "zh": "但作为目标真正重要的是，AI 解决那个具体问题所需的精确上下文量是多少。"
+ },
+ {
+  "seg": 158,
+  "start": 784.027,
+  "end": 785.728,
+  "speaker": "Unknown",
+  "en": "AI needs to solve that specific problem.",
+  "zh": "而且通常来说，它是多种技术的组合。"
+ },
+ {
+  "seg": 159,
+  "start": 786.108,
+  "end": 789.709,
+  "speaker": "Unknown",
+  "en": "And most often than not, it's a combination of techniques.",
+  "zh": "而且大多数时候,它是多种技术的组合。"
+ },
+ {
+  "seg": 160,
+  "start": 790.189,
+  "end": 795.552,
+  "speaker": "Unknown",
+  "en": "You might have to use a GraphRag kind of a solution for AI to start investigations.",
+  "zh": "你可能得用一种 GraphRag 类的方案让 AI 开始调查。"
+ },
+ {
+  "seg": 161,
+  "start": 796.192,
+  "end": 812.218,
+  "speaker": "Unknown",
+  "en": "And when you actually further go into the next steps, you need to define very precise tool calls so that you don't burn through tokens very quickly when you're making multiple tool calls in form of log queries, in form of metrics, or dashboards, or code queries, et cetera.",
+  "zh": "而当你真正深入到下一步时，你需要定义非常精确的工具调用，这样当你以日志查询、指标、仪表盘或代码查询等形式进行多次工具调用时，才不会很快烧光 token。"
+ },
+ {
+  "seg": 162,
+  "start": 814.185,
+  "end": 815.726,
+  "speaker": "Unknown",
+  "en": "The third one is causal reasoning.",
+  "zh": "第三个是因果推理。"
+ },
+ {
+  "seg": 163,
+  "start": 815.906,
+  "end": 827.229,
+  "speaker": "Unknown",
+  "en": "Like I mentioned, so this is one of the first principles that we've built into our system at Resolve AI, where the root cause is always based on a causal chain of evidence.",
+  "zh": "就像我提到的，这是我们在 Resolve AI 的系统里构建的首要原则之一，即根因始终基于一条因果证据链。"
+ },
+ {
+  "seg": 164,
+  "start": 827.65,
+  "end": 831.671,
+  "speaker": "Unknown",
+  "en": "What are the exact or precise steps that happened that led to this particular issue?",
+  "zh": "究竟是哪些确切的、精确的步骤发生了，才导致了这个特定问题？"
+ },
+ {
+  "seg": 165,
+  "start": 832.031,
+  "end": 840.474,
+  "speaker": "Unknown",
+  "en": "If you're not able to establish that chain of evidence, we have to give out that information with a low confidence level and point the user in a different direction.",
+  "zh": "如果你无法建立那条证据链，我们就必须以低置信度给出该信息，并把用户指向另一个方向。"
+ },
+ {
+  "seg": 166,
+  "start": 840.934,
+  "end": 850.776,
+  "speaker": "Unknown",
+  "en": "This is true for any domain-specific AI and this is true for Resolve AI as well where we are pointing you in a different direction if we don't see the data beyond a particular point.",
+  "zh": "这对任何领域专用的 AI 都是如此，对 Resolve AI 也是如此——当我们在某个点之后看不到数据时，我们就会把你指向另一个方向。"
+ },
+ {
+  "seg": 167,
+  "start": 852.413,
+  "end": 854.394,
+  "speaker": "Unknown",
+  "en": "The next one, like I said, is governed actions.",
+  "zh": "下一个，就像我说的，是受治理的行动。"
+ },
+ {
+  "seg": 168,
+  "start": 854.434,
+  "end": 855.914,
+  "speaker": "Unknown",
+  "en": "This is quite straightforward.",
+  "zh": "这相当直白。"
+ },
+ {
+  "seg": 169,
+  "start": 856.634,
+  "end": 866.437,
+  "speaker": "Unknown",
+  "en": "It depends upon every team, every different organization, depending on the access levels or probably the restrictions that you have or the industry you operate in.",
+  "zh": "它取决于每个团队、每个不同的组织，取决于你们的访问级别，或者你们拥有的限制，或者你们所处的行业。"
+ },
+ {
+  "seg": 170,
+  "start": 866.877,
+  "end": 870.418,
+  "speaker": "Unknown",
+  "en": "What are those specific guardrails that you need to define for AI to operate under?",
+  "zh": "你需要为 AI 定义哪些具体的护栏让它在其下运作？"
+ },
+ {
+  "seg": 171,
+  "start": 870.878,
+  "end": 871.458,
+  "speaker": "Unknown",
+  "en": "Is it read?",
+  "zh": "是读吗？"
+ },
+ {
+  "seg": 172,
+  "start": 871.538,
+  "end": 872.018,
+  "speaker": "Unknown",
+  "en": "Is it write?",
+  "zh": "是写吗？"
+ },
+ {
+  "seg": 173,
+  "start": 872.238,
+  "end": 872.878,
+  "speaker": "Unknown",
+  "en": "And underwrite?",
+  "zh": "还有受约束的写？"
+ },
+ {
+  "seg": 174,
+  "start": 872.918,
+  "end": 874.519,
+  "speaker": "Unknown",
+  "en": "What are the specific conditions for write?",
+  "zh": "写的具体条件是什么？"
+ },
+ {
+  "seg": 175,
+  "start": 874.939,
+  "end": 875.559,
+  "speaker": "Unknown",
+  "en": "Et cetera, et cetera.",
+  "zh": "等等，等等。"
+ },
+ {
+  "seg": 176,
+  "start": 877.065,
+  "end": 878.545,
+  "speaker": "Unknown",
+  "en": "And lastly, a learning system.",
+  "zh": "最后，是一个学习系统。"
+ },
+ {
+  "seg": 177,
+  "start": 878.765,
+  "end": 879.966,
+  "speaker": "Unknown",
+  "en": "So think of it like this.",
+  "zh": "这样想吧。"
+ },
+ {
+  "seg": 178,
+  "start": 880.086,
+  "end": 884.387,
+  "speaker": "Unknown",
+  "en": "Every interaction that you're doing with an AI system is an opportunity for learning.",
+  "zh": "你与 AI 系统的每一次交互都是一个学习的机会。"
+ },
+ {
+  "seg": 179,
+  "start": 884.507,
+  "end": 892.608,
+  "speaker": "Unknown",
+  "en": "So AI system has to learn, not just from an investigation it is going through, but from how a user is actually interacting with it.",
+  "zh": "所以 AI 系统不仅要从它正在进行的调查中学习，还要从用户实际上是如何与它交互中学习。"
+ },
+ {
+  "seg": 180,
+  "start": 892.928,
+  "end": 894.729,
+  "speaker": "Unknown",
+  "en": "Like, am I giving you positive reinforcement?",
+  "zh": "比如，我是在给你正向强化吗？"
+ },
+ {
+  "seg": 181,
+  "start": 894.809,
+  "end": 897.509,
+  "speaker": "Unknown",
+  "en": "So is this turning into a positive eval?",
+  "zh": "那这是否会变成一个正向 eval？"
+ },
+ {
+  "seg": 182,
+  "start": 897.629,
+  "end": 899.19,
+  "speaker": "Unknown",
+  "en": "Am I giving you some negative reinforcement?",
+  "zh": "我是在给你某种负向强化吗？"
+ },
+ {
+  "seg": 183,
+  "start": 899.69,
+  "end": 903.231,
+  "speaker": "Unknown",
+  "en": "Am I guiding you or steering the investigation in a specific direction?",
+  "zh": "我是否在引导或将调查引向某个特定方向？"
+ },
+ {
+  "seg": 184,
+  "start": 903.571,
+  "end": 905.031,
+  "speaker": "Unknown",
+  "en": "Those are different kinds of evals.",
+  "zh": "这些是不同种类的 eval。"
+ },
+ {
+  "seg": 185,
+  "start": 905.731,
+  "end": 910.474,
+  "speaker": "Unknown",
+  "en": "So that leads into the last piece, where evals is also a very critical step.",
+  "zh": "这就引出了最后一点，即 eval 也是一个非常关键的步骤。"
+ },
+ {
+  "seg": 186,
+  "start": 910.794,
+  "end": 914.417,
+  "speaker": "Unknown",
+  "en": "So this is the starting point and ending point for any agent architecture.",
+  "zh": "它是任何智能体架构的起点和终点。"
+ },
+ {
+  "seg": 187,
+  "start": 914.857,
+  "end": 917.779,
+  "speaker": "Unknown",
+  "en": "So the way we think about evals is in five different levels.",
+  "zh": "我们思考 eval 的方式分为五个不同的层级。"
+ },
+ {
+  "seg": 188,
+  "start": 917.859,
+  "end": 920.54,
+  "speaker": "Unknown",
+  "en": "Like I mentioned, what is the positive reinforcement you can give?",
+  "zh": "就像我提到的，你能给出什么正向强化？"
+ },
+ {
+  "seg": 189,
+  "start": 920.981,
+  "end": 922.622,
+  "speaker": "Unknown",
+  "en": "What is the negative reinforcement you can give?",
+  "zh": "你能给出什么负向强化？"
+ },
+ {
+  "seg": 190,
+  "start": 923.162,
+  "end": 924.563,
+  "speaker": "Unknown",
+  "en": "And can we trace your path?",
+  "zh": "还有，我们能追溯你的路径吗？"
+ },
+ {
+  "seg": 191,
+  "start": 924.823,
+  "end": 926.344,
+  "speaker": "Unknown",
+  "en": "How did you come up with the solution?",
+  "zh": "你是如何得出这个解决方案的？"
+ },
+ {
+  "seg": 192,
+  "start": 926.824,
+  "end": 928.986,
+  "speaker": "Unknown",
+  "en": "Can we score you like an engineer based on that?",
+  "zh": "我们能像评判一名工程师那样基于此给你打分吗？"
+ },
+ {
+  "seg": 193,
+  "start": 929.286,
+  "end": 932.508,
+  "speaker": "Unknown",
+  "en": "How would a best engineer perform this investigation?",
+  "zh": "一个最优秀的工程师会如何执行这项调查？"
+ },
+ {
+  "seg": 194,
+  "start": 932.568,
+  "end": 933.849,
+  "speaker": "Unknown",
+  "en": "And how do you compare against it?",
+  "zh": "你与之相比又如何？"
+ },
+ {
+  "seg": 195,
+  "start": 934.449,
+  "end": 938.153,
+  "speaker": "Unknown",
+  "en": "And on top of it, how are you calibrating yourself as AI?",
+  "zh": "在此之上，作为 AI 你是如何校准自己的？"
+ },
+ {
+  "seg": 196,
+  "start": 938.494,
+  "end": 940.336,
+  "speaker": "Unknown",
+  "en": "How are you giving out that confidence level?",
+  "zh": "你是如何给出那个置信度的？"
+ },
+ {
+  "seg": 197,
+  "start": 940.676,
+  "end": 952.891,
+  "speaker": "Unknown",
+  "en": "So all these are systematic evals that you build into one platform that you constantly have to push the architecture against whenever there's a new model, whenever there's a new use case, or whenever there's an architecture change.",
+  "zh": "所以，所有这些都是你构建进一个平台里的系统性 eval，每当有新模型、每当有新用例、或每当有架构变更时，你都必须不断地用它们去检验这个架构。"
+ },
+ {
+  "seg": 198,
+  "start": 955.578,
+  "end": 955.858,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 199,
+  "start": 956.398,
+  "end": 957.119,
+  "speaker": "Unknown",
+  "en": "This is enough talking.",
+  "zh": "说得够多了。"
+ },
+ {
+  "seg": 200,
+  "start": 957.319,
+  "end": 960.76,
+  "speaker": "Unknown",
+  "en": "So let me actually show you this in action on how it works in Resolve.",
+  "zh": "那么让我实际演示一下它在 Resolve 中是如何工作的。"
+ },
+ {
+  "seg": 201,
+  "start": 961.22,
+  "end": 964.422,
+  "speaker": "Unknown",
+  "en": "Like I mentioned, our platform is specifically there.",
+  "zh": "就像我提到的，我们的平台就是专门为此而存在的。"
+ },
+ {
+  "seg": 202,
+  "start": 965.082,
+  "end": 967.023,
+  "speaker": "Unknown",
+  "en": "So there are two categories of agents that we work with.",
+  "zh": "我们合作的智能体有两类。"
+ },
+ {
+  "seg": 203,
+  "start": 967.143,
+  "end": 970.484,
+  "speaker": "Unknown",
+  "en": "One is an on-call agent, one is an incidence agent, and of course, the background agent.",
+  "zh": "一类是值班(on-call)智能体，一类是事件(incident)智能体，当然还有后台智能体。"
+ },
+ {
+  "seg": 204,
+  "start": 970.964,
+  "end": 976.486,
+  "speaker": "Unknown",
+  "en": "So since most of you are engineers over here, you might be familiar with the system.",
+  "zh": "由于在座大多数都是工程师，你们可能对这个系统比较熟悉。"
+ },
+ {
+  "seg": 205,
+  "start": 976.526,
+  "end": 984.85,
+  "speaker": "Unknown",
+  "en": "Of course, most of your telemetry or observability alerts are firing into a collaboration tool like Slack or Microsoft Teams or whatever you might be using.",
+  "zh": "当然，你们的大多数遥测或可观测性告警都会发送到像 Slack 或 Microsoft Teams 或你们使用的任何协作工具中。"
+ },
+ {
+  "seg": 206,
+  "start": 985.31,
+  "end": 990.555,
+  "speaker": "Unknown",
+  "en": "In this case, what we are seeing is Grafana firing alerts into our common Slack channel.",
+  "zh": "在这个例子里，我们看到的是 Grafana 把告警发送到我们共同的 Slack 频道。"
+ },
+ {
+  "seg": 207,
+  "start": 991.496,
+  "end": 995.921,
+  "speaker": "Unknown",
+  "en": "So Resolve automatically picks up those alerts and kickstarts an investigation.",
+  "zh": "所以 Resolve 会自动接收这些告警并启动一次调查。"
+ },
+ {
+  "seg": 208,
+  "start": 996.361,
+  "end": 1007.032,
+  "speaker": "Unknown",
+  "en": "What you see here is it is throwing an error about a log skill, and it starts to provide what is the root cause that it found for the alert that came in.",
+  "zh": "你在这里看到的是，它抛出了一个关于 log skill 的错误，并开始给出它为该告警找到的根因。"
+ },
+ {
+  "seg": 209,
+  "start": 1007.572,
+  "end": 1011.176,
+  "speaker": "Unknown",
+  "en": "And also the other contributing factors or other theories it rejected.",
+  "zh": "同时也给出其他促成因素，或者它否决掉的其他理论。"
+ },
+ {
+  "seg": 210,
+  "start": 1011.616,
+  "end": 1014.78,
+  "speaker": "Unknown",
+  "en": "It gave a quick root cause and evidence and recommendations.",
+  "zh": "它给出了快速的根因、证据和建议。"
+ },
+ {
+  "seg": 211,
+  "start": 1015.12,
+  "end": 1016.221,
+  "speaker": "Unknown",
+  "en": "But let's actually deep dive.",
+  "zh": "但让我们深入看一下。"
+ },
+ {
+  "seg": 212,
+  "start": 1016.321,
+  "end": 1020.106,
+  "speaker": "Unknown",
+  "en": "So in most cases, like I said, there should be a multiplayer experience.",
+  "zh": "就像我说的，在大多数情况下，这应该是一种多人协作体验。"
+ },
+ {
+  "seg": 213,
+  "start": 1020.506,
+  "end": 1023.689,
+  "speaker": "Unknown",
+  "en": "So let's actually go into the UI and see what's happening here behind the scenes.",
+  "zh": "那么让我们进入 UI,看看幕后发生了什么。"
+ },
+ {
+  "seg": 214,
+  "start": 1024.41,
+  "end": 1032.122,
+  "speaker": "Unknown",
+  "en": "So the work starts off from Resolve AI when it treats the alert that's coming in as a prompt in itself.",
+  "zh": "工作从 Resolve AI 开始，它把进来的告警本身当作一个 prompt。"
+ },
+ {
+  "seg": 215,
+  "start": 1032.302,
+  "end": 1039.693,
+  "speaker": "Unknown",
+  "en": "So it takes the prompt and it spins up a bunch of different agents, actually two different categories of agents, to get the work done.",
+  "zh": "它接收这个 prompt,然后启动一堆不同的智能体，实际上是两个不同类别的智能体，来完成工作。"
+ },
+ {
+  "seg": 216,
+  "start": 1040.154,
+  "end": 1042.616,
+  "speaker": "Unknown",
+  "en": "So first category of agents are basically investigators.",
+  "zh": "第一类智能体基本上是调查者。"
+ },
+ {
+  "seg": 217,
+  "start": 1042.756,
+  "end": 1047.679,
+  "speaker": "Unknown",
+  "en": "So they are trained to actually go through the investigation just like how an engineer would.",
+  "zh": "它们被训练成像工程师一样去进行调查。"
+ },
+ {
+  "seg": 218,
+  "start": 1048.06,
+  "end": 1064.952,
+  "speaker": "Unknown",
+  "en": "Firstly, find out what is the issue, gather more information from metrics and traces, et cetera, and figure out where the issue is happening from traces, logs, and now start to correlate that with things like change events or any of the new deployments that would have gone in, and your code and your infrastructure.",
+  "zh": "首先，找出问题是什么，从指标和追踪(traces)等收集更多信息，从追踪、日志中找出问题发生在哪里，然后开始将其与变更事件或任何新上线部署以及你的代码和基础设施进行关联。"
+ },
+ {
+  "seg": 219,
+  "start": 1065.292,
+  "end": 1070.114,
+  "speaker": "Unknown",
+  "en": "So primarily it's doing this translation or reasoning across four types of data sources.",
+  "zh": "所以它主要是在四种数据源之间做这种翻译或推理。"
+ },
+ {
+  "seg": 220,
+  "start": 1070.134,
+  "end": 1075.176,
+  "speaker": "Unknown",
+  "en": "Your code, your infrastructure, your knowledge bases, and your observability platforms.",
+  "zh": "你的代码、你的基础设施、你的知识库，以及你的可观测性平台。"
+ },
+ {
+  "seg": 221,
+  "start": 1075.956,
+  "end": 1081.058,
+  "speaker": "Unknown",
+  "en": "Based on all that, it starts to give out this root cause or this root cause what we've seen.",
+  "zh": "基于所有这些，它开始给出这个根因，也就是我们看到的这个根因。"
+ },
+ {
+  "seg": 222,
+  "start": 1082.238,
+  "end": 1086.04,
+  "speaker": "Unknown",
+  "en": "So one of the log skill is actually experiencing high failure rate.",
+  "zh": "其中一个 log skill 实际上正在经历高失败率。"
+ },
+ {
+  "seg": 223,
+  "start": 1086.54,
+  "end": 1091.502,
+  "speaker": "Unknown",
+  "en": "It trace the issue all the way down to some stale integrations that are still alive in the system.",
+  "zh": "它把问题一路追踪到系统中仍然存活的一些过期(stale)集成。"
+ },
+ {
+  "seg": 224,
+  "start": 1092.042,
+  "end": 1098.785,
+  "speaker": "Unknown",
+  "en": "The interesting part is it's also showing out some other ruled out theories where generally we would start an investigation.",
+  "zh": "有意思的是，它还展示了一些其他被排除的理论，而我们通常的调查会从那里开始。"
+ },
+ {
+  "seg": 225,
+  "start": 1099.385,
+  "end": 1101.586,
+  "speaker": "Unknown",
+  "en": "At the same time, there was a GCP outage.",
+  "zh": "与此同时，发生了一次 GCP 故障(outage)。"
+ },
+ {
+  "seg": 226,
+  "start": 1102.127,
+  "end": 1106.369,
+  "speaker": "Unknown",
+  "en": "So you would actually, this would be a perfect correlation as well, right?",
+  "zh": "你会想，这本来会是一个完美的关联，对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 1106.389,
+  "end": 1109.35,
+  "speaker": "Unknown",
+  "en": "Going back to AI that is designed to give you coherent answers.",
+  "zh": "回到那个被设计来给你连贯答案的 AI。"
+ },
+ {
+  "seg": 228,
+  "start": 1109.75,
+  "end": 1114.152,
+  "speaker": "Unknown",
+  "en": "So a GCP outage happened at the same time, so of course this might be the issue that we are seeing.",
+  "zh": "GCP 恰好在同一时间发生了故障，所以当然这可能就是我们正在看到的问题。"
+ },
+ {
+  "seg": 229,
+  "start": 1114.832,
+  "end": 1117.774,
+  "speaker": "Unknown",
+  "en": "Or there are other traffic spikes that it is experiencing",
+  "zh": "或者还有它正在经历的其他流量高峰"
+ },
+ {
+  "seg": 230,
+  "start": 1119.119,
+  "end": 1120.26,
+  "speaker": "Unknown",
+  "en": "Without missing integration.",
+  "zh": "而没有缺失的集成。"
+ },
+ {
+  "seg": 231,
+  "start": 1120.34,
+  "end": 1123.641,
+  "speaker": "Unknown",
+  "en": "So that would be the other thread that you would start to pull on.",
+  "zh": "那本来就是你接下来会去拉的另一条线索。"
+ },
+ {
+  "seg": 232,
+  "start": 1124.102,
+  "end": 1129.384,
+  "speaker": "Unknown",
+  "en": "So let's say if I'm a new engineer, if I'm starting in, OK, Resolve gave this as a root cause.",
+  "zh": "比如说我是一个新工程师，我刚入职，好，Resolve 给出了这个根因。"
+ },
+ {
+  "seg": 233,
+  "start": 1129.825,
+  "end": 1133.947,
+  "speaker": "Unknown",
+  "en": "Of course, we have also designed to go operate with the least trust policy.",
+  "zh": "当然，我们也设计成以最小信任策略来运作。"
+ },
+ {
+  "seg": 234,
+  "start": 1134.347,
+  "end": 1141.371,
+  "speaker": "Unknown",
+  "en": "So let's say if I can start to highlight, and it'll pull me in so that I can interrogate this further.",
+  "zh": "所以比如我可以开始高亮，它就会把我带进去，让我可以进一步追问。"
+ },
+ {
+  "seg": 235,
+  "start": 1142.251,
+  "end": 1144.872,
+  "speaker": "Unknown",
+  "en": "In this case, let's say, let's ask Resolve.",
+  "zh": "在这个例子里，比如，让我们问 Resolve。"
+ },
+ {
+  "seg": 236,
+  "start": 1146.394,
+  "end": 1150.204,
+  "speaker": "Unknown",
+  "en": "Is this related to GCP outage?",
+  "zh": "这和 GCP 故障有关吗？"
+ },
+ {
+  "seg": 237,
+  "start": 1154.088,
+  "end": 1158.91,
+  "speaker": "Unknown",
+  "en": "It's giving out the answer here, but there is other precise questions that I ran I want to share with you.",
+  "zh": "它在这里给出了答案，但我还跑过其他一些尖锐的问题想和你们分享。"
+ },
+ {
+  "seg": 238,
+  "start": 1159.07,
+  "end": 1162.752,
+  "speaker": "Unknown",
+  "en": "So there was other deployment errors that happened at the same time.",
+  "zh": "当时还发生了其他一些部署错误。"
+ },
+ {
+  "seg": 239,
+  "start": 1162.932,
+  "end": 1164.593,
+  "speaker": "Unknown",
+  "en": "So that is what I was pushing Resolve on.",
+  "zh": "那就是我在追问 Resolve 的地方。"
+ },
+ {
+  "seg": 240,
+  "start": 1165.133,
+  "end": 1169.595,
+  "speaker": "Unknown",
+  "en": "Going back to what I mentioned, if you push an AI hard enough, it will start to agree with you.",
+  "zh": "回到我之前提到的，如果你把一个 AI 逼得够紧，它就会开始同意你。"
+ },
+ {
+  "seg": 241,
+  "start": 1170.035,
+  "end": 1171.836,
+  "speaker": "Unknown",
+  "en": "We've designed the system to go against it.",
+  "zh": "我们把系统设计成会反驳你。"
+ },
+ {
+  "seg": 242,
+  "start": 1172.256,
+  "end": 1176.418,
+  "speaker": "Unknown",
+  "en": "It will only base its answers based on the causal chain of evidence that it created.",
+  "zh": "它只会基于它建立的因果证据链来给出回答。"
+ },
+ {
+  "seg": 243,
+  "start": 1176.578,
+  "end": 1180.52,
+  "speaker": "Unknown",
+  "en": "Since it is able to establish that, it's able to give out a very coherent answer.",
+  "zh": "正因为它能够建立这一点，它才能给出一个非常连贯的答案。"
+ },
+ {
+  "seg": 244,
+  "start": 1181.34,
+  "end": 1187.687,
+  "speaker": "Unknown",
+  "en": "So this also lets me actually pull in my teammates so that this truly becomes like a multiplayer experience.",
+  "zh": "这也让我可以把我的队友拉进来，从而真正成为一种多人协作体验。"
+ },
+ {
+  "seg": 245,
+  "start": 1187.707,
+  "end": 1194.634,
+  "speaker": "Unknown",
+  "en": "Let's say if I give, I can pull in, Anvir, can you take a look at this?",
+  "zh": "比如说我可以拉人进来，Anvir,你能看一下这个吗？"
+ },
+ {
+  "seg": 246,
+  "start": 1195.795,
+  "end": 1200.36,
+  "speaker": "Unknown",
+  "en": "This can pull in my teammate directly from Slack so that we can collaborate on this virtual war room experience.",
+  "zh": "它可以直接从 Slack 把我的队友拉进来，让我们在这个虚拟作战室体验中协作。"
+ },
+ {
+  "seg": 247,
+  "start": 1202.587,
+  "end": 1203.787,
+  "speaker": "Unknown",
+  "en": "This was a quick demo.",
+  "zh": "这是一个快速的演示。"
+ },
+ {
+  "seg": 248,
+  "start": 1203.867,
+  "end": 1211.99,
+  "speaker": "Unknown",
+  "en": "Like I said, currently, and what I talked about today is just one axis of the architecture.",
+  "zh": "就像我说的，目前，我今天谈到的只是架构的一个轴。"
+ },
+ {
+  "seg": 249,
+  "start": 1212.05,
+  "end": 1216.552,
+  "speaker": "Unknown",
+  "en": "Now there is the other axis of the architecture where you just need to productize an AI.",
+  "zh": "现在还有架构的另一个轴，就是你只需要把一个 AI 产品化。"
+ },
+ {
+  "seg": 250,
+  "start": 1216.652,
+  "end": 1223.594,
+  "speaker": "Unknown",
+  "en": "If you want to put this in front of any user or a customer, you need to make sure it runs on a robust platform.",
+  "zh": "如果你想把这个放到任何用户或客户面前，你需要确保它运行在一个稳健的平台上。"
+ },
+ {
+  "seg": 251,
+  "start": 1224.034,
+  "end": 1227.916,
+  "speaker": "Unknown",
+  "en": "Those are the other aspects that you have to think through, but this is something that we are always familiar with.",
+  "zh": "这些是你必须想清楚的其他方面，但这是我们已经非常熟悉的东西。"
+ },
+ {
+  "seg": 252,
+  "start": 1228.878,
+  "end": 1230.66,
+  "speaker": "Unknown",
+  "en": "So that's been my time.",
+  "zh": "我的时间就到这里。"
+ },
+ {
+  "seg": 253,
+  "start": 1231.06,
+  "end": 1241.149,
+  "speaker": "Unknown",
+  "en": "And if you're interested to learn more about Resolve AI and which customers are currently using us and how are they using it, please check us out at the booth L28, I believe.",
+  "zh": "如果你有兴趣了解更多关于 Resolve AI 的信息，以及哪些客户目前正在使用我们、他们是如何使用的，请到展位 L28 找我们，我记得是 L28。"
+ },
+ {
+  "seg": 254,
+  "start": 1241.95,
+  "end": 1246.234,
+  "speaker": "Unknown",
+  "en": "And by the way, before you leave, take out those cool bags that are right outside.",
+  "zh": "顺便说一下，在你离开之前，去拿外面那些很酷的包。"
+ },
+ {
+  "seg": 255,
+  "start": 1246.914,
+  "end": 1247.455,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 256,
+  "start": 1256.005,
+  "end": 1257.208,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

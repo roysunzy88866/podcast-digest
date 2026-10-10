@@ -27,7 +27,7 @@ unlisted: true
 
 [[vibe coding]] · [[护栏]] · [[可观测性]] · [[Corinne Riley]] · [[Josh Goldberg]] · [[Mayank]] · [[David Burns]] · [[Roshan]] · [[BrowserStack]] · [[Resolve AI]]
 
-<script type="application/json" class="pd-epn">{"vibe coding":47,"护栏":86,"可观测性":40,"Corinne Riley":4,"Josh Goldberg":2,"Mayank":1,"David Burns":1,"Roshan":2,"BrowserStack":1,"Resolve AI":2}</script>
+<script type="application/json" class="pd-epn">{"vibe coding":47,"护栏":87,"可观测性":40,"Corinne Riley":4,"Josh Goldberg":2,"Mayank":1,"David Burns":1,"Roshan":2,"BrowserStack":1,"Resolve AI":3}</script>
 
 <script>
 (function(){

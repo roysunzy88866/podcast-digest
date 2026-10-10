@@ -1,0 +1,2754 @@
+[
+ {
+  "seg": 0,
+  "start": 0.712,
+  "end": 5.916,
+  "speaker": "Unknown",
+  "en": "The AI people are making it impossible for anybody to understand what they've done.",
+  "zh": "做AI的人正在让任何人都无法理解他们做了什么。"
+ },
+ {
+  "seg": 1,
+  "start": 6.777,
+  "end": 11.781,
+  "speaker": "Unknown",
+  "en": "And they're using words like, well, the AI failed to be aligned.",
+  "zh": "而且他们在用一些词，比如，AI 未能实现对齐。"
+ },
+ {
+  "seg": 2,
+  "start": 12.502,
+  "end": 14.223,
+  "speaker": "Unknown",
+  "en": "Okay, what does that mean?",
+  "zh": "好吧，这是什么意思？"
+ },
+ {
+  "seg": 3,
+  "start": 14.904,
+  "end": 18.167,
+  "speaker": "Unknown",
+  "en": "What it means is there was a bug in the software.",
+  "zh": "它的意思是软件里有个 bug。"
+ },
+ {
+  "seg": 4,
+  "start": 18.447,
+  "end": 27.855,
+  "speaker": "Unknown",
+  "en": "When Word ate your file and deleted all your content, we didn't think that demons had taken over Word and made it do things against the will of man.",
+  "zh": "当 Word 吃掉你的文件、删掉你所有内容的时候，我们并没有认为是恶魔附体了 Word，让它做出违背人类意愿的事情。"
+ },
+ {
+  "seg": 5,
+  "start": 32.865,
+  "end": 36.008,
+  "speaker": "Unknown",
+  "en": "When AI does something we didn't expect, is it misaligned?",
+  "zh": "当 AI 做出我们没预料到的事情时，这是未对齐吗？"
+ },
+ {
+  "seg": 6,
+  "start": 36.688,
+  "end": 38.33,
+  "speaker": "Unknown",
+  "en": "Or does the software just have a bug?",
+  "zh": "还是软件只是有个 bug？"
+ },
+ {
+  "seg": 7,
+  "start": 39.371,
+  "end": 52.242,
+  "speaker": "Unknown",
+  "en": "A16Z board partner and former Microsoft Windows president Steven Sanofsky joins Theo Jaffe and Sofia Puccini on MTS to argue that the language around AI safety is making the technology harder to understand.",
+  "zh": "A16Z 董事合伙人、前 Microsoft Windows 总裁 Steven Sanofsky 做客 Theo Jaffe 和 Sofia Puccini 的 MTS 节目，主张围绕 AI 安全的语言正在让这项技术变得更难理解。"
+ },
+ {
+  "seg": 8,
+  "start": 53.261,
+  "end": 67.23,
+  "speaker": "Unknown",
+  "en": "Drawing on decades of building software, Steven explains why AI labs need better telemetry, debugging, and incident reporting, and what today's industry can learn from earlier software failures, computer viruses, and Y2K.",
+  "zh": "凭借数十年构建软件的经验，Steven 解释了为什么 AI 实验室需要更好的遥测、调试和事故报告，以及今天的行业能从早期的软件故障、计算机病毒和 Y2K 中学到什么。"
+ },
+ {
+  "seg": 9,
+  "start": 68.15,
+  "end": 81.359,
+  "speaker": "Unknown",
+  "en": "They also discuss why terms like alignment, goal-seeking, and rogue agents can distort the policy debate, and why treating AI more like software could lead to clearer conversations about both safety and regulation.",
+  "zh": "他们还讨论了为什么对齐、目标寻的和失控智能体这类术语会扭曲政策辩论，以及为什么把 AI 更当成软件来看待，能让关于安全和监管的讨论更清晰。"
+ },
+ {
+  "seg": 10,
+  "start": 84.223,
+  "end": 88.425,
+  "speaker": "Unknown",
+  "en": "We are live with Steven Sinofsky, who is a board partner at Andreessen Horowitz.",
+  "zh": "我们现在与 Steven Sinofsky 进行直播，他是 Andreessen Horowitz 的董事合伙人。"
+ },
+ {
+  "seg": 11,
+  "start": 88.445,
+  "end": 92.386,
+  "speaker": "Unknown",
+  "en": "He's a seed investor, author of the Substack and the book, Hardcore Software.",
+  "zh": "他是一位种子投资人，Substack 和《Hardcore Software》一书的作者。"
+ },
+ {
+  "seg": 12,
+  "start": 92.706,
+  "end": 99.209,
+  "speaker": "Unknown",
+  "en": "Previously, he was the president of Microsoft's Windows division, engineering and marketing across Windows, Windows Live and Internet Explorer.",
+  "zh": "此前，他曾担任 Microsoft Windows 部门总裁，负责 Windows、Windows Live 和 Internet Explorer 的工程与市场营销。"
+ },
+ {
+  "seg": 13,
+  "start": 99.289,
+  "end": 102.21,
+  "speaker": "Unknown",
+  "en": "And he posts on Twitter at SteveSI.",
+  "zh": "他在 Twitter 上发帖，账号是 SteveSI。"
+ },
+ {
+  "seg": 14,
+  "start": 102.59,
+  "end": 103.35,
+  "speaker": "Unknown",
+  "en": "Steven, welcome back.",
+  "zh": "Steven，欢迎回来。"
+ },
+ {
+  "seg": 15,
+  "start": 104.851,
+  "end": 105.171,
+  "speaker": "Unknown",
+  "en": "Howdy.",
+  "zh": "你好。"
+ },
+ {
+  "seg": 16,
+  "start": 106.893,
+  "end": 111.874,
+  "speaker": "Unknown",
+  "en": "So we were just talking about, we're in DC right now at the FAI office.",
+  "zh": "我们刚才在聊，我们现在在华盛顿特区，在 FAI 办公室。"
+ },
+ {
+  "seg": 17,
+  "start": 112.234,
+  "end": 113.015,
+  "speaker": "Unknown",
+  "en": "Shout out FAI.",
+  "zh": "向 FAI 致意。"
+ },
+ {
+  "seg": 18,
+  "start": 113.295,
+  "end": 114.175,
+  "speaker": "Unknown",
+  "en": "Yeah, we're at FAI.",
+  "zh": "对，我们在 FAI。"
+ },
+ {
+  "seg": 19,
+  "start": 114.435,
+  "end": 128.799,
+  "speaker": "Unknown",
+  "en": "And we've been talking about all of the new regulation and new laws that have been proposed for the AI industry over the last few weeks, including the Stop Rogue AI Act, which was proposed by Josh Gottheimer of New Jersey.",
+  "zh": "我们一直在讨论过去几周针对 AI 行业提出的所有新监管和新法律，包括由新泽西州的 Josh Gottheimer 提出的《阻止失控 AI 法案》。"
+ },
+ {
+  "seg": 20,
+  "start": 129.239,
+  "end": 130.98,
+  "speaker": "Unknown",
+  "en": "And you're offering some thoughts on this.",
+  "zh": "而你对此有一些想法。"
+ },
+ {
+  "seg": 21,
+  "start": 131.02,
+  "end": 131.8,
+  "speaker": "Unknown",
+  "en": "What's your take?",
+  "zh": "你的看法是什么？"
+ },
+ {
+  "seg": 22,
+  "start": 132.58,
+  "end": 132.96,
+  "speaker": "Unknown",
+  "en": "Well, sure.",
+  "zh": "好的，没问题。"
+ },
+ {
+  "seg": 23,
+  "start": 133,
+  "end": 139.743,
+  "speaker": "Unknown",
+  "en": "Well, right now we're in the maximal phase of like, let's just throw tons of legislation out there.",
+  "zh": "现在，我们正处于那种「让我们疯狂抛出大量立法」的最狂热阶段。"
+ },
+ {
+  "seg": 24,
+  "start": 140.063,
+  "end": 141.643,
+  "speaker": "Unknown",
+  "en": "So real quick, I'm just going to take you back.",
+  "zh": "那么，很快地，我要带你回到过去。"
+ },
+ {
+  "seg": 25,
+  "start": 142.004,
+  "end": 143.564,
+  "speaker": "Unknown",
+  "en": "I can't believe we're going to take you this far back.",
+  "zh": "我不敢相信我们要把时间拉得这么远。"
+ },
+ {
+  "seg": 26,
+  "start": 143.604,
+  "end": 148.226,
+  "speaker": "Unknown",
+  "en": "This is going to seem like infinity years ago in another dimension of time and space.",
+  "zh": "这听起来像是另一个时空维度里无限年前的事。"
+ },
+ {
+  "seg": 27,
+  "start": 148.506,
+  "end": 151.607,
+  "speaker": "Unknown",
+  "en": "But in 1983, I was a freshman in college.",
+  "zh": "但在 1983 年，我是大学一年级新生。"
+ },
+ {
+  "seg": 28,
+  "start": 152.307,
+  "end": 153.528,
+  "speaker": "Unknown",
+  "en": "And one day in the fall...",
+  "zh": "秋天的某一天……"
+ },
+ {
+  "seg": 29,
+  "start": 154.692,
+  "end": 158.897,
+  "speaker": "Unknown",
+  "en": "And there were two people in our 100-person dorm that had computers, me and another guy.",
+  "zh": "在我们那间一百人的宿舍楼里，只有两个人有电脑，我和另一个人。"
+ },
+ {
+  "seg": 30,
+  "start": 159.618,
+  "end": 160.599,
+  "speaker": "Unknown",
+  "en": "And that was it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 31,
+  "start": 160.659,
+  "end": 161.82,
+  "speaker": "Unknown",
+  "en": "And there was nothing to do with them.",
+  "zh": "而且那些电脑没什么可干的。"
+ },
+ {
+  "seg": 32,
+  "start": 161.86,
+  "end": 163.482,
+  "speaker": "Unknown",
+  "en": "Nobody knew why we had them, blah, blah, blah.",
+  "zh": "没人知道我们为什么要买它们，等等等等。"
+ },
+ {
+  "seg": 33,
+  "start": 164.043,
+  "end": 175.095,
+  "speaker": "Unknown",
+  "en": "And one day, literally, G-men in suits crashed our dorm, confiscated the other guy's computer, and arrested him.",
+  "zh": "直到有一天，真的是穿着西装的联邦调查人员冲进我们的宿舍，没收了那个人的电脑，并逮捕了他。"
+ },
+ {
+  "seg": 34,
+  "start": 176.65,
+  "end": 191.242,
+  "speaker": "Unknown",
+  "en": "And it turns out, fast forward a little bit, he was part of a hacker group, one of the very, very, very first hacker groups called the Inner Circle or the Inner Ring.",
+  "zh": "后来，快进一点才知道，他是一个黑客组织的成员，是最早、最早、最早的黑客组织之一，叫 Inner Circle 或者 Inner Ring。"
+ },
+ {
+  "seg": 35,
+  "start": 192.706,
+  "end": 196.027,
+  "speaker": "Unknown",
+  "en": "And they were hacking this thing called GTE TeleMail.",
+  "zh": "而他们当时在黑一个叫 GTE TeleMail 的东西。"
+ },
+ {
+  "seg": 36,
+  "start": 196.327,
+  "end": 198.627,
+  "speaker": "Unknown",
+  "en": "GTE was a big communications company.",
+  "zh": "GTE 是一家大型通信公司。"
+ },
+ {
+  "seg": 37,
+  "start": 198.908,
+  "end": 207.21,
+  "speaker": "Unknown",
+  "en": "And it was one of the very first online mail services that you used a modem and you dialed up and you could just mail other people without telemail.",
+  "zh": "它是最早的在线邮件服务之一，你用调制解调器拨号上去，就可以不用 telemail 直接给别人发邮件。"
+ },
+ {
+  "seg": 38,
+  "start": 207.79,
+  "end": 209.09,
+  "speaker": "Unknown",
+  "en": "Who were some of the clients of it?",
+  "zh": "它的客户有谁？"
+ },
+ {
+  "seg": 39,
+  "start": 209.43,
+  "end": 212.671,
+  "speaker": "Unknown",
+  "en": "The United States government and NASA in particular.",
+  "zh": "美国政府，尤其是 NASA。"
+ },
+ {
+  "seg": 40,
+  "start": 213.62,
+  "end": 220.021,
+  "speaker": "Unknown",
+  "en": "And immediately after this series of arrests, they arrested people all over the country in this coordinated sting operation.",
+  "zh": "在这一系列逮捕之后——他们在这个协调一致的诱捕行动中逮捕了全国各地的人。"
+ },
+ {
+  "seg": 41,
+  "start": 220.041,
+  "end": 227.603,
+  "speaker": "Unknown",
+  "en": "I mean, imagine, I'm a freshman in college and they just carted this guy off with this IBM PC XT that weighed 50 pounds at a giant monitor.",
+  "zh": "想象一下，我是大学一年级新生，他们就这样把这个人连着他那台重达 50 磅、带巨大显示器的 IBM PC XT 一起带走了。"
+ },
+ {
+  "seg": 42,
+  "start": 228.543,
+  "end": 231.803,
+  "speaker": "Unknown",
+  "en": "And it was like a freshman in the same, we were the computer science majors together.",
+  "zh": "而且他还是个大一新生，我们是一起学计算机科学的。"
+ },
+ {
+  "seg": 43,
+  "start": 232.263,
+  "end": 235.104,
+  "speaker": "Unknown",
+  "en": "And it turns out that there was no crime committed.",
+  "zh": "结果发现，根本没有任何罪行发生。"
+ },
+ {
+  "seg": 44,
+  "start": 236.244,
+  "end": 238.424,
+  "speaker": "Unknown",
+  "en": "It wasn't illegal to do what they were doing.",
+  "zh": "他们做的事情并不违法。"
+ },
+ {
+  "seg": 45,
+  "start": 238.965,
+  "end": 241.005,
+  "speaker": "Unknown",
+  "en": "There was no law that they were violating.",
+  "zh": "没有任何法律被他们违反。"
+ },
+ {
+  "seg": 46,
+  "start": 242.267,
+  "end": 242.447,
+  "speaker": "Unknown",
+  "en": "Oh, wow.",
+  "zh": "哦，哇。"
+ },
+ {
+  "seg": 47,
+  "start": 242.467,
+  "end": 253.059,
+  "speaker": "Unknown",
+  "en": "And suddenly there were all of these hearings and in the hearings in Congress, they're literally playing clips of the new movie War Games and explaining like what this is happening.",
+  "zh": "然后突然之间就有了这么多听证会，在国会听证会上，他们真的在播放新电影《War Games》的片段，并解释说这就是正在发生的事情。"
+ },
+ {
+  "seg": 48,
+  "start": 253.099,
+  "end": 258.426,
+  "speaker": "Unknown",
+  "en": "Like these kids in high school are going to take over the government and launch all the nuclear weapons.",
+  "zh": "就像这些高中孩子将要接管政府并发射所有核武器一样。"
+ },
+ {
+  "seg": 49,
+  "start": 259.578,
+  "end": 260.839,
+  "speaker": "Unknown",
+  "en": "And that's what really happened.",
+  "zh": "而那就是真实发生的事。"
+ },
+ {
+  "seg": 50,
+  "start": 261.139,
+  "end": 267.702,
+  "speaker": "Unknown",
+  "en": "And it took several years before the first federal crime statute for hacking.",
+  "zh": "而且过了好几年才有了第一部关于黑客行为的联邦刑事法规。"
+ },
+ {
+  "seg": 51,
+  "start": 268.122,
+  "end": 269.483,
+  "speaker": "Unknown",
+  "en": "And Ronald Reagan signed that.",
+  "zh": "是罗纳德·里根签署的。"
+ },
+ {
+  "seg": 52,
+  "start": 269.923,
+  "end": 271.124,
+  "speaker": "Unknown",
+  "en": "And that's what became illegal.",
+  "zh": "那就是成为非法行为的东西。"
+ },
+ {
+  "seg": 53,
+  "start": 271.364,
+  "end": 281.469,
+  "speaker": "Unknown",
+  "en": "And then five years later, four years after that, I'm at my first homecoming and I go upstairs to the computer science building to go see my old advisor like the day before homecoming.",
+  "zh": "然后五年后，在那之后四年，我参加我的第一次校友返校日，返校日前一天我上楼到计算机科学大楼去看望我的老导师。"
+ },
+ {
+  "seg": 54,
+  "start": 281.789,
+  "end": 283.55,
+  "speaker": "Unknown",
+  "en": "And there's a press conference going on.",
+  "zh": "那里正在举行一场新闻发布会。"
+ },
+ {
+  "seg": 55,
+  "start": 284.41,
+  "end": 287.713,
+  "speaker": "Unknown",
+  "en": "It was the weirdest thing I'd ever seen, a press conference in the middle of Ithaca, New York.",
+  "zh": "那是我见过的最奇怪的事，在纽约州伊萨卡市中心举行新闻发布会。"
+ },
+ {
+  "seg": 56,
+  "start": 288.033,
+  "end": 297.24,
+  "speaker": "Unknown",
+  "en": "And it turns out that was the press conference to announce that they've found a computer worm called the Morris computer worm that had originated from Cornell.",
+  "zh": "结果那场发布会是宣布他们发现了一种名为 Morris 计算机蠕虫的电脑蠕虫，它源自康奈尔大学。"
+ },
+ {
+  "seg": 57,
+  "start": 298.562,
+  "end": 303.786,
+  "speaker": "Unknown",
+  "en": "And that was the very first prosecution under this criminal act.",
+  "zh": "而那是依据这部刑事法规提起的第一次起诉。"
+ },
+ {
+  "seg": 58,
+  "start": 304.467,
+  "end": 306.528,
+  "speaker": "Unknown",
+  "en": "And so this stuff for me goes way, way back.",
+  "zh": "所以这些东西对我来说要追溯到很久很久以前。"
+ },
+ {
+  "seg": 59,
+  "start": 306.568,
+  "end": 312.513,
+  "speaker": "Unknown",
+  "en": "So I'm very comfortable with all the Congress people opposing legislation and having hearings, being hysterical.",
+  "zh": "所以我对所有国会议员反对立法、举行听证会、歇斯底里的做法非常适应。"
+ },
+ {
+  "seg": 60,
+  "start": 312.593,
+  "end": 314.695,
+  "speaker": "Unknown",
+  "en": "But right now we have this huge problem.",
+  "zh": "但现在我们有这个巨大的问题。"
+ },
+ {
+  "seg": 61,
+  "start": 315.315,
+  "end": 323.522,
+  "speaker": "Unknown",
+  "en": "And well-intentioned people like Congressman Goheim are getting on TV in the morning and saying, we need a bill to stop rogue AI agents.",
+  "zh": "而且像 Goheim 众议员这样善意的人早上上电视说，我们需要一项法案来阻止失控的 AI 智能体。"
+ },
+ {
+  "seg": 62,
+  "start": 324.775,
+  "end": 326.738,
+  "speaker": "Unknown",
+  "en": "And the Stop Rogue AI Act.",
+  "zh": "还有《阻止失控 AI 法案》。"
+ },
+ {
+  "seg": 63,
+  "start": 326.898,
+  "end": 331.423,
+  "speaker": "Unknown",
+  "en": "And you listen to all of this and you realize we have a huge problem.",
+  "zh": "你听完这一切就会意识到我们有一个巨大的问题。"
+ },
+ {
+  "seg": 64,
+  "start": 331.483,
+  "end": 340.114,
+  "speaker": "Unknown",
+  "en": "And this huge problem is just making my head explode, which is the AI people are making it impossible for anybody to understand what they've done.",
+  "zh": "而这个巨大的问题快让我脑袋爆炸了，那就是 AI 圈的人让任何人都无法理解他们到底做了什么。"
+ },
+ {
+  "seg": 65,
+  "start": 340.995,
+  "end": 346.059,
+  "speaker": "Unknown",
+  "en": "And they're using words like, well, the AI failed to be aligned.",
+  "zh": "而且他们在使用这样的措辞，比如说，AI 未能实现对齐。"
+ },
+ {
+  "seg": 66,
+  "start": 346.719,
+  "end": 348.481,
+  "speaker": "Unknown",
+  "en": "Okay, what does that mean?",
+  "zh": "好吧，那是什么意思？"
+ },
+ {
+  "seg": 67,
+  "start": 349.141,
+  "end": 352.404,
+  "speaker": "Unknown",
+  "en": "What it means is there was a bug in the software.",
+  "zh": "它的意思是软件里有个 bug。"
+ },
+ {
+  "seg": 68,
+  "start": 352.684,
+  "end": 355.966,
+  "speaker": "Unknown",
+  "en": "The software did not do what we thought it would do.",
+  "zh": "这个软件没有做我们以为它会做的事。"
+ },
+ {
+  "seg": 69,
+  "start": 356.994,
+  "end": 369.457,
+  "speaker": "Unknown",
+  "en": "But when you say misaligned, it puts all these characteristics on AI that it was thinking of doing something, that it had to make a moral judgment, that it had roles and guidelines to do things.",
+  "zh": "但当你说「未对齐」时，它就给 AI 赋予了所有这些特性，好像它本来想着要做某件事，好像它必须做出道德判断，好像它有角色和准则去行事。"
+ },
+ {
+  "seg": 70,
+  "start": 369.857,
+  "end": 376.038,
+  "speaker": "Unknown",
+  "en": "And it's like, wow, we had bugs in spreadsheets where they didn't do what we thought that they were supposed to do.",
+  "zh": "而这就好比，哇，我们的电子表格里也有过 bug，它们没有做我们以为它们应该做的事。"
+ },
+ {
+  "seg": 71,
+  "start": 376.138,
+  "end": 383.14,
+  "speaker": "Unknown",
+  "en": "And we didn't sit around like in a circle and pray to the gods of alignment that the spreadsheet would do math correctly.",
+  "zh": "而我们并没有围坐成一圈向对齐之神祈祷，求电子表格把数学算对。"
+ },
+ {
+  "seg": 72,
+  "start": 384.517,
+  "end": 395.107,
+  "speaker": "Unknown",
+  "en": "Like, you know, when Word ate your file and deleted all your content, we didn't think that demons had taken over Word and made it do things against the will of man.",
+  "zh": "就像，你知道吗，当 Word 吃掉你的文件、删光你所有内容的时候，我们并没有认为是恶魔附体了 Word，让它做出违背人类意愿的事。"
+ },
+ {
+  "seg": 73,
+  "start": 396.37,
+  "end": 401.632,
+  "speaker": "Unknown",
+  "en": "And this is a huge, huge problem because it's literally nonsense what they're saying.",
+  "zh": "而这是一个巨大的、巨大的问题，因为他们说的简直就是胡说八道。"
+ },
+ {
+  "seg": 74,
+  "start": 402.012,
+  "end": 403.132,
+  "speaker": "Unknown",
+  "en": "Like there was a bug.",
+  "zh": "就是有一个 bug 而已。"
+ },
+ {
+  "seg": 75,
+  "start": 403.372,
+  "end": 407.493,
+  "speaker": "Unknown",
+  "en": "Like when you, when software doesn't do what it's supposed to do, it's a bug.",
+  "zh": "就像，当软件没有做它应该做的事时，那就是一个 bug。"
+ },
+ {
+  "seg": 76,
+  "start": 407.794,
+  "end": 409.254,
+  "speaker": "Unknown",
+  "en": "Now there's different kinds of software.",
+  "zh": "现在软件有不同的种类。"
+ },
+ {
+  "seg": 77,
+  "start": 409.274,
+  "end": 412.455,
+  "speaker": "Unknown",
+  "en": "There are simulations and there's models and there's emulation.",
+  "zh": "有模拟，有模型，还有仿真。"
+ },
+ {
+  "seg": 78,
+  "start": 412.775,
+  "end": 415.076,
+  "speaker": "Unknown",
+  "en": "There are all these ways to decide what to do.",
+  "zh": "有所有这些决定做什么的方式。"
+ },
+ {
+  "seg": 79,
+  "start": 415.796,
+  "end": 429.244,
+  "speaker": "Unknown",
+  "en": "And just because it decides to do it, not based on step one, step two, step three, if A or B do step five, but just based on statistics, that doesn't mean you eliminate the idea that it should do what you want it to do.",
+  "zh": "而仅仅因为它是基于统计而不是基于第一步、第二步、第三步、如果 A 或 B 就执行第五步来决定做某事，并不意味着你可以排除「它应该做你想让它做的事」这个概念。"
+ },
+ {
+  "seg": 80,
+  "start": 429.704,
+  "end": 431.165,
+  "speaker": "Unknown",
+  "en": "It means your statistics are wrong.",
+  "zh": "它意味着你的统计是错的。"
+ },
+ {
+  "seg": 81,
+  "start": 431.945,
+  "end": 436.268,
+  "speaker": "Unknown",
+  "en": "It means that you guess a word that should come next that shouldn't have come next.",
+  "zh": "它意味着你猜了一个本不该出现的下一个词。"
+ },
+ {
+  "seg": 82,
+  "start": 437.177,
+  "end": 439.438,
+  "speaker": "Unknown",
+  "en": "And that's just a bug in your product.",
+  "zh": "而那只是你产品里的一个 bug。"
+ },
+ {
+  "seg": 83,
+  "start": 439.939,
+  "end": 444.641,
+  "speaker": "Unknown",
+  "en": "And we've got to get to a place where people are talking about software like it's software.",
+  "zh": "我们必须达到一个人们像谈论软件一样谈论软件的地步。"
+ },
+ {
+  "seg": 84,
+  "start": 445.161,
+  "end": 453.026,
+  "speaker": "Unknown",
+  "en": "You know, if full self-driving blows through a stop sign because the software interpreted the stop sign as like a Christmas tree,",
+  "zh": "你知道，如果全自动驾驶冲过了一个停止标志，因为软件把那个停止标志解读成了类似圣诞树的东西，"
+ },
+ {
+  "seg": 85,
+  "start": 454.194,
+  "end": 462.716,
+  "speaker": "Unknown",
+  "en": "We don't sit around and say, oh, it was not aligned with the idea of, you know, December holiday seasons and road signs.",
+  "zh": "我们不会坐在一起说，哦，它与十二月节日季节和道路标志的理念不对齐。"
+ },
+ {
+  "seg": 86,
+  "start": 462.796,
+  "end": 469.857,
+  "speaker": "Unknown",
+  "en": "We actually say it's a bug and it's a very dangerous bug because that stop sign means something.",
+  "zh": "我们实际上会说这是个 bug，而且是一个非常危险的 bug，因为那个停止标志是有含义的。"
+ },
+ {
+  "seg": 87,
+  "start": 470.197,
+  "end": 474.078,
+  "speaker": "Unknown",
+  "en": "And Tesla built in all of these tools and Waymo.",
+  "zh": "而 Tesla 内置了所有这些工具，Waymo 也是。"
+ },
+ {
+  "seg": 88,
+  "start": 474.158,
+  "end": 483.46,
+  "speaker": "Unknown",
+  "en": "They have all of this telemetry, all these diagnostics, all these extra cameras, all of these things that you don't normally put in a spreadsheet.",
+  "zh": "它们有所有这些遥测、所有这些诊断、所有这些额外的摄像头、所有这些你通常不会放进电子表格里的东西。"
+ },
+ {
+  "seg": 89,
+  "start": 484.313,
+  "end": 490.94,
+  "speaker": "Unknown",
+  "en": "But you put in software that life depends on it and it's making mathematical statistical decisions on things.",
+  "zh": "但你会放进那些人命关天的软件里，它在根据这些东西做数理统计决策。"
+ },
+ {
+  "seg": 90,
+  "start": 491.861,
+  "end": 499.028,
+  "speaker": "Unknown",
+  "en": "What I see is the AI models are still in the research project phase.",
+  "zh": "我看到的是 AI 模型仍然处于研究项目阶段。"
+ },
+ {
+  "seg": 91,
+  "start": 499.669,
+  "end": 506.355,
+  "speaker": "Unknown",
+  "en": "They don't have all the tools and all the telemetry and all of the things that you would normally put in software doing important things.",
+  "zh": "它们没有所有那些工具、所有那些遥测，以及所有那些你通常会放进承担重要任务的软件里的东西。"
+ },
+ {
+  "seg": 92,
+  "start": 507.255,
+  "end": 508.596,
+  "speaker": "Unknown",
+  "en": "And I lived through this.",
+  "zh": "而我是亲身经历过这一切的。"
+ },
+ {
+  "seg": 93,
+  "start": 508.816,
+  "end": 516.139,
+  "speaker": "Unknown",
+  "en": "We went through a whole 20 years of building software where we actually never really knew why it crashed.",
+  "zh": "我们经历了整整 20 年构建软件的历程，而我们实际上从来都不真正知道它为什么崩溃。"
+ },
+ {
+  "seg": 94,
+  "start": 516.239,
+  "end": 519.14,
+  "speaker": "Unknown",
+  "en": "It just crashed and we went, oh, software crashes.",
+  "zh": "它就是崩溃了，然后我们说，哦，软件嘛，总会崩溃的。"
+ },
+ {
+  "seg": 95,
+  "start": 519.54,
+  "end": 522.722,
+  "speaker": "Unknown",
+  "en": "Let's make a list of all the places it crashes and fix the top 10.",
+  "zh": "我们列一个所有崩溃地点的清单，然后修复前 10 名。"
+ },
+ {
+  "seg": 96,
+  "start": 523.122,
+  "end": 524.422,
+  "speaker": "Unknown",
+  "en": "And then one day we said, well, why?",
+  "zh": "然后有一天我们说，嗯，为什么？"
+ },
+ {
+  "seg": 97,
+  "start": 524.522,
+  "end": 526.283,
+  "speaker": "Unknown",
+  "en": "We literally did say this.",
+  "zh": "我们确实真的说过这句话。"
+ },
+ {
+  "seg": 98,
+  "start": 526.363,
+  "end": 534.867,
+  "speaker": "Unknown",
+  "en": "Someone said, why don't we just write a program such that when it crashes, it uses this new internet thing to tell us that it crashed.",
+  "zh": "有人说，为什么我们不写一个程序，让它崩溃时利用这个新兴的互联网玩意儿告诉我们它崩溃了。"
+ },
+ {
+  "seg": 99,
+  "start": 536.429,
+  "end": 542.371,
+  "speaker": "Unknown",
+  "en": "And suddenly we had telemetry and suddenly we had more bugs to fix than we knew it ever existed.",
+  "zh": "突然间我们有了遥测，突然间我们遇到的 bug 比我们以前知道存在的还要多。"
+ },
+ {
+  "seg": 100,
+  "start": 543.411,
+  "end": 553.615,
+  "speaker": "Unknown",
+  "en": "Like we literally went from like, we're shipping, we have no bugs, we're ready to go to, oh my God, we have enough bugs that if we just stopped work, we would just fix bugs for the rest of time.",
+  "zh": "就像我们真的从“我们在发布产品、我们没有 bug、我们准备好上线了”一下子变成“天哪,我们的 bug 多到如果我们停下所有工作,剩下的时间光修 bug 都修不完”。"
+ },
+ {
+  "seg": 101,
+  "start": 555.154,
+  "end": 555.334,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 102,
+  "start": 555.794,
+  "end": 559.435,
+  "speaker": "Unknown",
+  "en": "So when you talk about an AI pause, of course they should slow down.",
+  "zh": "所以当你谈到 AI 暂停的时候,他们当然应该放慢速度。"
+ },
+ {
+  "seg": 103,
+  "start": 559.555,
+  "end": 572.079,
+  "speaker": "Unknown",
+  "en": "They should stop adding things and go and add the telemetry, the tools, the logging, the step-by-step debugging, all of the stuff that you would add if your software did anything at all important and you cared if it did it right.",
+  "zh": "他们应该停止添加新东西,去添加遥测、工具、日志、逐步调试,所有那些如果你的软件真的承担着重要功能、而且你在乎它是否做对了的时候你会添加的东西。"
+ },
+ {
+  "seg": 104,
+  "start": 573.402,
+  "end": 580.886,
+  "speaker": "Unknown",
+  "en": "And you read all the bug reports from OpenAI that they just put out yesterday, and it's super clear that they just, they don't know.",
+  "zh": "你去读 OpenAI 昨天刚发布的所有 bug 报告,非常明显他们就是,他们不知道。"
+ },
+ {
+  "seg": 105,
+  "start": 581.146,
+  "end": 586.168,
+  "speaker": "Unknown",
+  "en": "And so they, like, if somebody had handed me a bug report, and this is, here's a real bug.",
+  "zh": "所以,就像,如果有人递给我一份 bug 报告,而这是一个真实的 bug。"
+ },
+ {
+  "seg": 106,
+  "start": 586.788,
+  "end": 601.856,
+  "speaker": "Unknown",
+  "en": "In 1987, the first version of Excel for Windows had a bug in it that somewhere on the disk, it wrote the word SINDOGS, just S-I-N-D-O-G-S in a particular Windows settings file.",
+  "zh": "1987 年,第一版 Windows 上的 Excel 有一个 bug,它在磁盘的某个地方写下了 SINDOGS 这个词,就是 S-I-N-D-O-G-S,写进了某个 Windows 设置文件里。"
+ },
+ {
+  "seg": 107,
+  "start": 602.822,
+  "end": 607.568,
+  "speaker": "Unknown",
+  "en": "It was like Excel got taken over by demons and it wrote this word to the file.",
+  "zh": "就好像 Excel 被恶魔附体了一样,把这个词写进了文件。"
+ },
+ {
+  "seg": 108,
+  "start": 608.288,
+  "end": 610.411,
+  "speaker": "Unknown",
+  "en": "Nobody knew where that word came from.",
+  "zh": "没有人知道那个词是从哪来的。"
+ },
+ {
+  "seg": 109,
+  "start": 610.671,
+  "end": 617.519,
+  "speaker": "Unknown",
+  "en": "Everybody was looking through all the Excel source code to find the word send dogs and to figure out, and no one could find it.",
+  "zh": "所有人都在翻 Excel 的全部源代码去找 send dogs 这个词,想弄清楚,但没人找得到。"
+ },
+ {
+  "seg": 110,
+  "start": 618.5,
+  "end": 620.081,
+  "speaker": "Unknown",
+  "en": "And so somebody said, you know what we're going to do?",
+  "zh": "于是有人说,你们知道我们要怎么做吗?"
+ },
+ {
+  "seg": 111,
+  "start": 620.101,
+  "end": 625.244,
+  "speaker": "Unknown",
+  "en": "We're just going to run Excel brutally nonstop doing a million different things for days on end.",
+  "zh": "我们就直接狠狠地不停地运行 Excel,连续几天做一百万件不同的事情。"
+ },
+ {
+  "seg": 112,
+  "start": 625.744,
+  "end": 634.249,
+  "speaker": "Unknown",
+  "en": "And so one tester wrote a script that created graph after graph after graph and printed it on an old school dot matrix printer.",
+  "zh": "于是一个测试员写了一个脚本,一个接一个地创建图表,然后在老式的点阵打印机上打印出来。"
+ },
+ {
+  "seg": 113,
+  "start": 635.089,
+  "end": 641.393,
+  "speaker": "Unknown",
+  "en": "And it turns out if you did that for like two days, it would write send dogs to that one spot in the file.",
+  "zh": "结果发现如果你这样跑个大概两天,它就会把 send dogs 写到文件的那个位置。"
+ },
+ {
+  "seg": 114,
+  "start": 642.617,
+  "end": 652.599,
+  "speaker": "Unknown",
+  "en": "Yeah, and I thought it was all contextual and it was based on how much memory the computer had, how long it ran for, and what printer and device driver was all in use.",
+  "zh": "是啊,我当时以为这完全是上下文相关的,取决于电脑有多少内存、运行了多久,以及用的是什么打印机和设备驱动。"
+ },
+ {
+  "seg": 115,
+  "start": 653.78,
+  "end": 657.401,
+  "speaker": "Unknown",
+  "en": "We could have very easily just concluded it did this.",
+  "zh": "我们本来很容易就会得出结论说它就是这么干的。"
+ },
+ {
+  "seg": 116,
+  "start": 658.141,
+  "end": 662.442,
+  "speaker": "Unknown",
+  "en": "The Excel brain decided to print Sindog somewhere.",
+  "zh": "Excel 的大脑决定在某个地方打印 Sindog。"
+ },
+ {
+  "seg": 117,
+  "start": 663.235,
+  "end": 663.935,
+  "speaker": "Unknown",
+  "en": "But we didn't.",
+  "zh": "但我们没有。"
+ },
+ {
+  "seg": 118,
+  "start": 664.155,
+  "end": 665.716,
+  "speaker": "Unknown",
+  "en": "We actually went and debugged it.",
+  "zh": "我们真的去调试了它。"
+ },
+ {
+  "seg": 119,
+  "start": 665.976,
+  "end": 667.697,
+  "speaker": "Unknown",
+  "en": "And then we put in all of this telemetry.",
+  "zh": "然后我们加入了所有这些遥测。"
+ },
+ {
+  "seg": 120,
+  "start": 667.737,
+  "end": 675.662,
+  "speaker": "Unknown",
+  "en": "The first thing I learned when I got to Microsoft was how to figure out buffer overruns and memory allocation and to put that code into every product.",
+  "zh": "我到 Microsoft 学到的第一件事,就是如何找出缓冲区溢出和内存分配问题,并把那些代码放进每一个产品。"
+ },
+ {
+  "seg": 121,
+  "start": 676.61,
+  "end": 682.235,
+  "speaker": "Unknown",
+  "en": "And then there was a version, you know, what happens is there's a version of Excel that runs that has all this extra logging.",
+  "zh": "然后会有一个版本,你知道,情况就是会有一个带所有这些额外日志的 Excel 版本在运行。"
+ },
+ {
+  "seg": 122,
+  "start": 682.275,
+  "end": 684.537,
+  "speaker": "Unknown",
+  "en": "And we ran that internally for the beta tests.",
+  "zh": "我们在内部运行那个版本来做 beta 测试。"
+ },
+ {
+  "seg": 123,
+  "start": 685.037,
+  "end": 689.461,
+  "speaker": "Unknown",
+  "en": "And so all of that infrastructure, I have no idea in these models how much is there.",
+  "zh": "所以所有那些基础设施,我不知道在这些模型里有多少是存在的。"
+ },
+ {
+  "seg": 124,
+  "start": 689.961,
+  "end": 693.344,
+  "speaker": "Unknown",
+  "en": "I can just tell you reading the reports that OpenAI put out, it's not enough.",
+  "zh": "我只能告诉你,从读 OpenAI 发布的报告来看,这不够。"
+ },
+ {
+  "seg": 125,
+  "start": 693.904,
+  "end": 699.289,
+  "speaker": "Unknown",
+  "en": "They're just, they're not grown up yet as platforms for doing what they do.",
+  "zh": "它们作为平台来说,要去做它们该做的事情,还不够成熟。"
+ },
+ {
+  "seg": 126,
+  "start": 699.889,
+  "end": 701.651,
+  "speaker": "Unknown",
+  "en": "And they've got to figure that out.",
+  "zh": "而它们必须把这件事想明白。"
+ },
+ {
+  "seg": 127,
+  "start": 702.071,
+  "end": 702.972,
+  "speaker": "Unknown",
+  "en": "And they should just do that.",
+  "zh": "它们就该去做这件事。"
+ },
+ {
+  "seg": 128,
+  "start": 702.992,
+  "end": 705.454,
+  "speaker": "Unknown",
+  "en": "They should just wake up and say, we have to go do that.",
+  "zh": "它们应该一觉醒来就说,我们必须去做到这一点。"
+ },
+ {
+  "seg": 129,
+  "start": 706.597,
+  "end": 713.305,
+  "speaker": "Unknown",
+  "en": "And they shouldn't be like saying, okay, well, Congress needs to meet and order us through legislation to fix our software.",
+  "zh": "它们不应该说,好吧,国会需要开会,通过立法来命令我们修复我们的软件。"
+ },
+ {
+  "seg": 130,
+  "start": 713.805,
+  "end": 718.471,
+  "speaker": "Unknown",
+  "en": "Like literally this is their, it's like you have one job making software that works.",
+  "zh": "说真的,这就是它们的,就像你的唯一工作就是做出能用的软件。"
+ },
+ {
+  "seg": 131,
+  "start": 718.891,
+  "end": 719.292,
+  "speaker": "Unknown",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 132,
+  "start": 719.392,
+  "end": 720.233,
+  "speaker": "Unknown",
+  "en": "That's the job.",
+  "zh": "这就是这份工作。"
+ },
+ {
+  "seg": 133,
+  "start": 721.328,
+  "end": 724.01,
+  "speaker": "Unknown",
+  "en": "Then that turns out to be a really important part of your job.",
+  "zh": "然后事实证明这真的是你工作中非常重要的一部分。"
+ },
+ {
+  "seg": 134,
+  "start": 724.07,
+  "end": 724.83,
+  "speaker": "Unknown",
+  "en": "Okay, I'm done ranting.",
+  "zh": "好了,我吐槽完了。"
+ },
+ {
+  "seg": 135,
+  "start": 724.97,
+  "end": 725.591,
+  "speaker": "Unknown",
+  "en": "Ask me a question.",
+  "zh": "问我一个问题吧。"
+ },
+ {
+  "seg": 136,
+  "start": 725.771,
+  "end": 729.553,
+  "speaker": "Unknown",
+  "en": "No, I really like the like historical perspective that you bring to it.",
+  "zh": "不,我真的很喜欢你带来的那种历史视角。"
+ },
+ {
+  "seg": 137,
+  "start": 729.993,
+  "end": 739.119,
+  "speaker": "Unknown",
+  "en": "I also think like, you know, the tendency to talk about alignment as if it's impossible or as if it's this like mythical, impossible task is really damaging.",
+  "zh": "我也觉得,你知道,把对齐说得好像不可能、好像是什么神秘的、不可能完成的任务,这种倾向真的很有害。"
+ },
+ {
+  "seg": 138,
+  "start": 739.479,
+  "end": 741.32,
+  "speaker": "Unknown",
+  "en": "Yeah, we have to solve alignment.",
+  "zh": "是啊,我们必须解决对齐问题。"
+ },
+ {
+  "seg": 139,
+  "start": 741.36,
+  "end": 741.78,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 140,
+  "start": 741.8,
+  "end": 742.361,
+  "speaker": "Unknown",
+  "en": "Whatever that means.",
+  "zh": "不管那意味着什么。"
+ },
+ {
+  "seg": 141,
+  "start": 743.081,
+  "end": 744.681,
+  "speaker": "Unknown",
+  "en": "I mean, I think that that will happen.",
+  "zh": "我是说,我认为这会发生。"
+ },
+ {
+  "seg": 142,
+  "start": 744.741,
+  "end": 750.083,
+  "speaker": "Unknown",
+  "en": "Like, I don't think that it's like this unanswerable question or like domain that's impossible.",
+  "zh": "就像,我不认为这是个无法回答的问题,或者是不可能实现的领域。"
+ },
+ {
+  "seg": 143,
+  "start": 751.803,
+  "end": 764.566,
+  "speaker": "Unknown",
+  "en": "But I do think that what's different, even if you use the bug analogy, is that the total addressable surface area of the bug is obviously more catastrophic in theory, or like this is the least surface area that the bug will like ever have.",
+  "zh": "但我确实认为,即使你用 bug 这个类比,不同之处在于 bug 的总的可触及表面积在理论上显然更具灾难性,或者说这是这个 bug 有史以来最小的表面积。"
+ },
+ {
+  "seg": 144,
+  "start": 764.886,
+  "end": 768.729,
+  "speaker": "Unknown",
+  "en": "And then in the future, you know, it just becomes like wider and wider.",
+  "zh": "而在未来,你知道,它只会变得越来越宽。"
+ },
+ {
+  "seg": 145,
+  "start": 768.769,
+  "end": 779.837,
+  "speaker": "Unknown",
+  "en": "That's one of the things that, I mean, again, all of these things, I was young once and I remember sitting in a room going, yeah, our software, it's not like mainframe software.",
+  "zh": "这是其中一件事,我是说,再说一次,所有这些事,我也年轻过,我记得坐在一个房间里说,是啊,我们的软件,它不像大型机软件。"
+ },
+ {
+  "seg": 146,
+  "start": 780.097,
+  "end": 784.2,
+  "speaker": "Unknown",
+  "en": "And all the little IBM people were looking at us saying, you know, your software is really crappy.",
+  "zh": "所有那些 IBM 的小职员看着我们说,你知道,你们的软件真的很烂。"
+ },
+ {
+  "seg": 147,
+  "start": 786.36,
+  "end": 793.522,
+  "speaker": "Unknown",
+  "en": "Windows is just like crap compared to these IBM things that run all the banks and all the airlines and all the power plants.",
+  "zh": "Windows 跟那些运行着所有银行、所有航空公司、所有发电厂的 IBM 的东西比起来就是垃圾。"
+ },
+ {
+  "seg": 148,
+  "start": 794.242,
+  "end": 796.922,
+  "speaker": "Unknown",
+  "en": "And for a long time, we kept looking at them saying, no, you don't understand.",
+  "zh": "有很长一段时间,我们一直看着他们说,不,你不明白。"
+ },
+ {
+  "seg": 149,
+  "start": 797.342,
+  "end": 798.022,
+  "speaker": "Unknown",
+  "en": "We're different.",
+  "zh": "我们不一样。"
+ },
+ {
+  "seg": 150,
+  "start": 798.302,
+  "end": 800.223,
+  "speaker": "Unknown",
+  "en": "This is all new and cool.",
+  "zh": "这一切都是全新又炫酷的。"
+ },
+ {
+  "seg": 151,
+  "start": 800.603,
+  "end": 803.783,
+  "speaker": "Unknown",
+  "en": "And we run on 64K, not one megabyte.",
+  "zh": "而且我们跑在 64K 内存上，不是一兆字节。"
+ },
+ {
+  "seg": 152,
+  "start": 803.803,
+  "end": 806.924,
+  "speaker": "Unknown",
+  "en": "And we cost $5,000, not $5 million.",
+  "zh": "而且我们的成本是 5000 美元，不是 500 万美元。"
+ },
+ {
+  "seg": 153,
+  "start": 806.944,
+  "end": 811.625,
+  "speaker": "Unknown",
+  "en": "And we had all of these reasons to claim that our bugs were okay.",
+  "zh": "所以我们有各种理由声称我们的 bug 是可以接受的。"
+ },
+ {
+  "seg": 154,
+  "start": 812.727,
+  "end": 813.488,
+  "speaker": "Unknown",
+  "en": "In terms of bugs.",
+  "zh": "就 bug 而言。"
+ },
+ {
+  "seg": 155,
+  "start": 813.528,
+  "end": 826.263,
+  "speaker": "Unknown",
+  "en": "And it turns out all we had to do was grow up and watch people use Excel to decide how do planes fly, use Word to file briefs in the Supreme Court, use PowerPoint to present the Challenger space shuttle failure.",
+  "zh": "结果发现，我们要做的就是成熟起来，看着人们用 Excel 来决定飞机怎么飞，用 Word 向最高法院提交诉状，用 PowerPoint 来演示挑战者号航天飞机的失事。"
+ },
+ {
+  "seg": 156,
+  "start": 826.623,
+  "end": 832.51,
+  "speaker": "Unknown",
+  "en": "But like once you use your tools for that, and so one of the things that happened was the very first internet worm happened.",
+  "zh": "但是一旦你把工具用到那种程度，其中发生的一件事就是第一场互联网蠕虫病毒爆发了。"
+ },
+ {
+  "seg": 157,
+  "start": 832.71,
+  "end": 837.431,
+  "speaker": "Unknown",
+  "en": "So the internet then is like people using America Online and sending email and stuff like that.",
+  "zh": "那时候的互联网就是人们用 America Online、发电子邮件之类的东西。"
+ },
+ {
+  "seg": 158,
+  "start": 837.451,
+  "end": 851.275,
+  "speaker": "Unknown",
+  "en": "There's very little corporate email, nobody to eat, but it turns out there was just enough that if somebody used Outlook, Word and internet email all together, they could grind the entire United States and world economy to a halt.",
+  "zh": "企业邮件非常少，没有人……但结果发现，数量刚好足够——如果有人同时使用 Outlook、Word 和互联网电子邮件，他们就能让整个美国和世界经济陷入停摆。"
+ },
+ {
+  "seg": 159,
+  "start": 851.995,
+  "end": 855.276,
+  "speaker": "Unknown",
+  "en": "And that's literally what happened in March of 1998.",
+  "zh": "而这字面上就发生在 1998 年 3 月。"
+ },
+ {
+  "seg": 160,
+  "start": 855.336,
+  "end": 860.938,
+  "speaker": "Unknown",
+  "en": "I wake up and there's a reporter hyperventilating on the phone to me saying, I love you, I love you, I love you.",
+  "zh": "我一觉醒来，有个记者在电话里对我上气不接下气地说，我爱你，我爱你，我爱你。"
+ },
+ {
+  "seg": 161,
+  "start": 861.419,
+  "end": 866.441,
+  "speaker": "Unknown",
+  "en": "And it turns out that was a virus that got created that then spread over the internet as a worm.",
+  "zh": "结果那是一个被制造出来的病毒，然后作为蠕虫在互联网上传播。"
+ },
+ {
+  "seg": 162,
+  "start": 866.921,
+  "end": 872.163,
+  "speaker": "Unknown",
+  "en": "And the next day, the headlines were $12 billion worth of damage to the US economy in one day.",
+  "zh": "第二天，头条新闻是：一天之内对美国经济造成 120 亿美元的损失。"
+ },
+ {
+  "seg": 163,
+  "start": 873.237,
+  "end": 874.618,
+  "speaker": "Unknown",
+  "en": "And so I did that.",
+  "zh": "于是我干了那件事。"
+ },
+ {
+  "seg": 164,
+  "start": 876.259,
+  "end": 882.364,
+  "speaker": "Unknown",
+  "en": "And we had to have a meeting and go, we're going to pause the development of Outlook right now until we figure this out.",
+  "zh": "我们不得不开个会，说：我们现在要暂停 Outlook 的开发，直到我们搞清楚这件事。"
+ },
+ {
+  "seg": 165,
+  "start": 882.905,
+  "end": 889.45,
+  "speaker": "Unknown",
+  "en": "Nobody had imagined you could create a bug that in 12 hours could do $12 billion worth of damage.",
+  "zh": "没有人想到你能制造出一个 bug，在 12 小时内造成 120 亿美元的损失。"
+ },
+ {
+  "seg": 166,
+  "start": 890.03,
+  "end": 890.611,
+  "speaker": "Unknown",
+  "en": "But we did it.",
+  "zh": "但我们做到了。"
+ },
+ {
+  "seg": 167,
+  "start": 891.211,
+  "end": 892.192,
+  "speaker": "Unknown",
+  "en": "Woo-hoo, yay team.",
+  "zh": "喔呼，团队万岁。"
+ },
+ {
+  "seg": 168,
+  "start": 893.353,
+  "end": 900.418,
+  "speaker": "Unknown",
+  "en": "And so, of course, the more people use a system, the more damage you can do if it goes awry.",
+  "zh": "所以，当然，使用一个系统的人越多，一旦出错，你能造成的损害就越大。"
+ },
+ {
+  "seg": 169,
+  "start": 900.798,
+  "end": 902.459,
+  "speaker": "Unknown",
+  "en": "But that's like table stakes.",
+  "zh": "但那只是最低门槛。"
+ },
+ {
+  "seg": 170,
+  "start": 902.539,
+  "end": 905.121,
+  "speaker": "Unknown",
+  "en": "That's like what you literally signed up to do.",
+  "zh": "那就是你字面上签字承诺要做的事。"
+ },
+ {
+  "seg": 171,
+  "start": 905.902,
+  "end": 912.146,
+  "speaker": "Unknown",
+  "en": "The fact that it caught you off guard or that, wow, we're so popular, we can't figure it out so quickly because we're still competing.",
+  "zh": "事实是它让你措手不及，或者，哇，我们太受欢迎了，我们没法这么快搞定它，因为我们还在竞争。"
+ },
+ {
+  "seg": 172,
+  "start": 912.426,
+  "end": 914.788,
+  "speaker": "Unknown",
+  "en": "That's like too bad, tough luck.",
+  "zh": "那只能说是太糟糕了，运气不好。"
+ },
+ {
+  "seg": 173,
+  "start": 915.268,
+  "end": 919.812,
+  "speaker": "Unknown",
+  "en": "One of the most famous tech journalists, every time there was a bug in our software,",
+  "zh": "有一位最著名的技术记者，每次我们的软件出 bug，"
+ },
+ {
+  "seg": 174,
+  "start": 920.392,
+  "end": 926.442,
+  "speaker": "Unknown",
+  "en": "And I would do what he would just make fun of me because I would say, well, it's not so straightforward or it's hard or it's complicated.",
+  "zh": "而我就会……他只会嘲笑我，因为我会说，嗯，这不是那么直截了当，或者这很难，或者这很复杂。"
+ },
+ {
+  "seg": 175,
+  "start": 926.662,
+  "end": 932.452,
+  "speaker": "Unknown",
+  "en": "He would just look at me and just say, Sanofsky, that's why you're paid the big bucks.",
+  "zh": "他只会看着我说，Sanofsky，这就是为什么你拿高薪。"
+ },
+ {
+  "seg": 176,
+  "start": 933.773,
+  "end": 935.254,
+  "speaker": "Unknown",
+  "en": "You don't, it's not an option.",
+  "zh": "你不能……这不是一个选项。"
+ },
+ {
+  "seg": 177,
+  "start": 935.435,
+  "end": 949.446,
+  "speaker": "Unknown",
+  "en": "It's not a thing that you get to appeal to some higher authority, whether it's the United States Congress or embedded testers or some other third party evaluators or just like laws of nature.",
+  "zh": "这不是你可以去诉诸某种更高权威的事情，无论是美国国会、内嵌的测试人员、某个第三方评估机构，还是自然法则。"
+ },
+ {
+  "seg": 178,
+  "start": 950.267,
+  "end": 951.748,
+  "speaker": "Unknown",
+  "en": "That's not any option.",
+  "zh": "那不是任何选项。"
+ },
+ {
+  "seg": 179,
+  "start": 952.528,
+  "end": 957.572,
+  "speaker": "Unknown",
+  "en": "Like this is a tool that human beings are building, that other humans are using.",
+  "zh": "这是一个人类正在构建的工具，其他人类正在使用。"
+ },
+ {
+  "seg": 180,
+  "start": 958.405,
+  "end": 962.35,
+  "speaker": "Unknown",
+  "en": "You've got to figure out how to make it work or not sell it.",
+  "zh": "你必须搞清楚怎么让它工作，否则就别卖它。"
+ },
+ {
+  "seg": 181,
+  "start": 962.911,
+  "end": 964.353,
+  "speaker": "Unknown",
+  "en": "Like those are your two choices.",
+  "zh": "这就是你的两个选择。"
+ },
+ {
+  "seg": 182,
+  "start": 965.354,
+  "end": 970.16,
+  "speaker": "Unknown",
+  "en": "And since it's made by people, we're fully capable of figuring out how to make it work.",
+  "zh": "既然它是由人制造的，我们完全有能力搞清楚怎么让它工作。"
+ },
+ {
+  "seg": 183,
+  "start": 971.245,
+  "end": 972.426,
+  "speaker": "Unknown",
+  "en": "It wasn't handed down.",
+  "zh": "它不是被授予下来的。"
+ },
+ {
+  "seg": 184,
+  "start": 972.446,
+  "end": 980.594,
+  "speaker": "Unknown",
+  "en": "It didn't show up like an obelisk of one by four by nine that we're supposed to figure out how does it do what it does and what's its source of power.",
+  "zh": "它不是像一块 1×4×9 的黑色石碑那样出现的，让我们去琢磨它是怎么运作的、它的动力来源是什么。"
+ },
+ {
+  "seg": 185,
+  "start": 981.295,
+  "end": 986.84,
+  "speaker": "Unknown",
+  "en": "Like literally it had no code, then it had a little bit of code and a few users and a lot of code and a lot of users.",
+  "zh": "字面上说，它一开始没有代码，然后有了一点代码和几个用户，然后有大量代码和大量用户。"
+ },
+ {
+  "seg": 186,
+  "start": 987.06,
+  "end": 988.362,
+  "speaker": "Unknown",
+  "en": "We've all been there through this.",
+  "zh": "我们所有人都经历过这个过程。"
+ },
+ {
+  "seg": 187,
+  "start": 990.004,
+  "end": 997.33,
+  "speaker": "Unknown",
+  "en": "It is pure insanity to just sit and argue that higher powers need to be summoned in order to fix this.",
+  "zh": "如果只是坐着争论说需要召唤更高力量才能解决这个问题，那是纯粹的疯狂。"
+ },
+ {
+  "seg": 188,
+  "start": 997.39,
+  "end": 1005.897,
+  "speaker": "Unknown",
+  "en": "And alignment has this very specific problem, which is the only way to be aligned is to have a very large set of rules that say what alignment is.",
+  "zh": "而对齐有一个非常具体的问题，那就是要对齐的唯一方法是拥有一套非常庞大的规则，来说明什么是对齐。"
+ },
+ {
+  "seg": 189,
+  "start": 1006.197,
+  "end": 1006.858,
+  "speaker": "Unknown",
+  "en": "You can do this.",
+  "zh": "你可以做这个。"
+ },
+ {
+  "seg": 190,
+  "start": 1006.878,
+  "end": 1007.579,
+  "speaker": "Unknown",
+  "en": "You can't do that.",
+  "zh": "你不能做那个。"
+ },
+ {
+  "seg": 191,
+  "start": 1007.599,
+  "end": 1008.459,
+  "speaker": "Unknown",
+  "en": "This is safe.",
+  "zh": "这是安全的。"
+ },
+ {
+  "seg": 192,
+  "start": 1008.499,
+  "end": 1009.14,
+  "speaker": "Unknown",
+  "en": "This is unsafe.",
+  "zh": "这是不安全的。"
+ },
+ {
+  "seg": 193,
+  "start": 1009.34,
+  "end": 1014.845,
+  "speaker": "Unknown",
+  "en": "And it turns out software, it's well understood that if you don't put too many constraints on a system,",
+  "zh": "结果发现，在软件领域，人们很好地理解一点：如果你不对系统施加太多约束，"
+ },
+ {
+  "seg": 194,
+  "start": 1015.926,
+  "end": 1017.346,
+  "speaker": "Unknown",
+  "en": "Then its system won't work.",
+  "zh": "那么这个系统就不会正常工作。"
+ },
+ {
+  "seg": 195,
+  "start": 1017.807,
+  "end": 1022.128,
+  "speaker": "Unknown",
+  "en": "And you'll have an infinite number of unintended side effects.",
+  "zh": "而且你会有无数个意想不到的副作用。"
+ },
+ {
+  "seg": 196,
+  "start": 1022.328,
+  "end": 1028.109,
+  "speaker": "Unknown",
+  "en": "And so you can't really just say we're gonna align because you're gonna have to come up with a rule.",
+  "zh": "所以你不能只是说我们要对齐，因为你将不得不制定一条规则。"
+ },
+ {
+  "seg": 197,
+  "start": 1028.269,
+  "end": 1031.85,
+  "speaker": "Unknown",
+  "en": "And then when you come up with this rule, someone's gonna say, yeah, but what about this case?",
+  "zh": "然后当你制定出这条规则时，会有人说，是的，但是这种情况怎么办？"
+ },
+ {
+  "seg": 198,
+  "start": 1032.09,
+  "end": 1033.131,
+  "speaker": "Unknown",
+  "en": "Then you're gonna add another rule.",
+  "zh": "然后你要再加一条规则。"
+ },
+ {
+  "seg": 199,
+  "start": 1033.171,
+  "end": 1034.531,
+  "speaker": "Unknown",
+  "en": "And you know what that starts to look like?",
+  "zh": "而你知道那开始像什么了吗？"
+ },
+ {
+  "seg": 200,
+  "start": 1034.611,
+  "end": 1041.293,
+  "speaker": "Unknown",
+  "en": "It starts to look like Google and all the work that they constantly have to do to decide how to present search results.",
+  "zh": "它开始变得像 Google 以及他们为了决定如何呈现搜索结果而必须不断做的所有工作。"
+ },
+ {
+  "seg": 201,
+  "start": 1042.713,
+  "end": 1044.935,
+  "speaker": "Unknown",
+  "en": "And it turns out that's really, really, really hard.",
+  "zh": "而事实证明,那真的、真的、真的非常难。"
+ },
+ {
+  "seg": 202,
+  "start": 1044.955,
+  "end": 1050.459,
+  "speaker": "Unknown",
+  "en": "And they have spent 20 years and thousands of people full-time forever working on that.",
+  "zh": "他们为此花了 20 年,几千人全职永远在做这件事。"
+ },
+ {
+  "seg": 203,
+  "start": 1051.119,
+  "end": 1062.007,
+  "speaker": "Unknown",
+  "en": "And so that's what they've just signed up for the next level version of it because they're also making up the result, not just searching through the node club entities for the results, but they're also synthesizing it.",
+  "zh": "所以他们刚才签下的就是这个东西的更进一级的版本,因为他们不仅在那些节点俱乐部实体里搜索结果,还在合成结果。"
+ },
+ {
+  "seg": 204,
+  "start": 1062.847,
+  "end": 1068.532,
+  "speaker": "Unknown",
+  "en": "So they're going to have to invent a whole bunch of stuff, but none of it has to do, there's no law that's going to make it invented.",
+  "zh": "所以他们将不得不发明一大堆东西,但没有任何法律会强制要求它被发明出来。"
+ },
+ {
+  "seg": 205,
+  "start": 1068.732,
+  "end": 1070.273,
+  "speaker": "Unknown",
+  "en": "Like it's just all on them.",
+  "zh": "就像一切都全靠他们自己。"
+ },
+ {
+  "seg": 206,
+  "start": 1071.731,
+  "end": 1072.412,
+  "speaker": "Unknown",
+  "en": "I'm a little wound up.",
+  "zh": "我有点激动了。"
+ },
+ {
+  "seg": 207,
+  "start": 1073.252,
+  "end": 1079.057,
+  "speaker": "Unknown",
+  "en": "How similar do you think AI alignment is to like Y2K in that it's, you know, it's something of a real problem.",
+  "zh": "你觉得 AI 对齐和 Y2K 有多相似?就是说,你知道的,它某种程度上是一个真实的问题,"
+ },
+ {
+  "seg": 208,
+  "start": 1079.557,
+  "end": 1083.5,
+  "speaker": "Unknown",
+  "en": "It was addressed proactively by companies operating under their own incentives.",
+  "zh": "在自身激励下运营的公司主动地处理了它,"
+ },
+ {
+  "seg": 209,
+  "start": 1083.8,
+  "end": 1086.483,
+  "speaker": "Unknown",
+  "en": "And then it ended up not becoming a global catastrophic risk.",
+  "zh": "然后最终没有变成全球性灾难风险。"
+ },
+ {
+  "seg": 210,
+  "start": 1086.923,
+  "end": 1089.325,
+  "speaker": "Unknown",
+  "en": "Well, there's a cause and effect there.",
+  "zh": "嗯,这背后是有因果关系的。"
+ },
+ {
+  "seg": 211,
+  "start": 1090.285,
+  "end": 1092.267,
+  "speaker": "Unknown",
+  "en": "There was a lot of worry by professionals.",
+  "zh": "专业人士有很多担忧。"
+ },
+ {
+  "seg": 212,
+  "start": 1093.268,
+  "end": 1097.111,
+  "speaker": "Unknown",
+  "en": "And then there was a lot of taking of responsibility by professionals.",
+  "zh": "然后专业人士承担了很多责任。"
+ },
+ {
+  "seg": 213,
+  "start": 1098.171,
+  "end": 1099.913,
+  "speaker": "Unknown",
+  "en": "And then nothing bad happened.",
+  "zh": "然后没有发生坏事。"
+ },
+ {
+  "seg": 214,
+  "start": 1101.266,
+  "end": 1103.767,
+  "speaker": "Unknown",
+  "en": "There's a direct causal relationship.",
+  "zh": "这里面有直接的因果关系。"
+ },
+ {
+  "seg": 215,
+  "start": 1103.807,
+  "end": 1113.633,
+  "speaker": "Unknown",
+  "en": "Like the fact that we rented generators and campers and moved computers into secure bunkers, like that led to the fact that nothing happened.",
+  "zh": "比如我们租了发电机和房车,把电脑搬进安全的掩体,正是这些导致了什么都没发生。"
+ },
+ {
+  "seg": 216,
+  "start": 1114.81,
+  "end": 1116.39,
+  "speaker": "Unknown",
+  "en": "But we, nobody legislated.",
+  "zh": "但我们,没有任何人立法。"
+ },
+ {
+  "seg": 217,
+  "start": 1116.43,
+  "end": 1123.452,
+  "speaker": "Unknown",
+  "en": "Actually, there were actually weird regulations about Y2K compliance, but most of it was industry drafted.",
+  "zh": "实际上,其实有一些关于 Y2K 合规的奇怪法规,但大部分是行业起草的。"
+ },
+ {
+  "seg": 218,
+  "start": 1123.552,
+  "end": 1131.334,
+  "speaker": "Unknown",
+  "en": "Like we all, there was a cross consortium of banks and of insurance companies and all sorts of people to generate the rules and what meant.",
+  "zh": "就像我们所有人,有一个由银行、保险公司和各种各样的人组成的跨联合财团来制定规则及其含义。"
+ },
+ {
+  "seg": 219,
+  "start": 1131.374,
+  "end": 1134.955,
+  "speaker": "Unknown",
+  "en": "We had something that OpenAI needs to get together with.",
+  "zh": "我们需要某种 OpenAI 需要去参与的东西。"
+ },
+ {
+  "seg": 220,
+  "start": 1136.84,
+  "end": 1142.367,
+  "speaker": "Unknown",
+  "en": "With all the model frontier people and the labs, and they just need to have much better reporting.",
+  "zh": "和所有前沿模型的人以及实验室一起,他们需要好得多的报告。"
+ },
+ {
+  "seg": 221,
+  "start": 1142.407,
+  "end": 1151.619,
+  "speaker": "Unknown",
+  "en": "The reporting that they did yesterday, sure, it's a great first step, but that is not anywhere near the kind of reporting that you need as a third party to understand what went on.",
+  "zh": "他们昨天做的那个报告,当然,这是一个很好的第一步,但那远远达不到作为第三方理解发生了什么所需要的报告程度。"
+ },
+ {
+  "seg": 222,
+  "start": 1152.46,
+  "end": 1157.364,
+  "speaker": "Unknown",
+  "en": "You see all of this information, what versions of software, what are the context of it?",
+  "zh": "你能看到所有这些信息,什么软件版本,它的上下文是什么?"
+ },
+ {
+  "seg": 223,
+  "start": 1157.464,
+  "end": 1158.865,
+  "speaker": "Unknown",
+  "en": "What are the steps required?",
+  "zh": "需要哪些步骤?"
+ },
+ {
+  "seg": 224,
+  "start": 1159.165,
+  "end": 1160.566,
+  "speaker": "Unknown",
+  "en": "What other software is impacted?",
+  "zh": "影响了哪些其他软件?"
+ },
+ {
+  "seg": 225,
+  "start": 1160.607,
+  "end": 1161.948,
+  "speaker": "Unknown",
+  "en": "What other bugs are related?",
+  "zh": "有哪些相关联的其他 bug?"
+ },
+ {
+  "seg": 226,
+  "start": 1162.328,
+  "end": 1163.349,
+  "speaker": "Unknown",
+  "en": "What is it a derivative?",
+  "zh": "它是什么东西的衍生?"
+ },
+ {
+  "seg": 227,
+  "start": 1163.409,
+  "end": 1165.43,
+  "speaker": "Unknown",
+  "en": "Like you see all of this information.",
+  "zh": "你能看到所有这些信息。"
+ },
+ {
+  "seg": 228,
+  "start": 1166.011,
+  "end": 1167.992,
+  "speaker": "Unknown",
+  "en": "So we need a version of that for AI.",
+  "zh": "所以我们需要 AI 版的这个东西。"
+ },
+ {
+  "seg": 229,
+  "start": 1168.112,
+  "end": 1170.975,
+  "speaker": "Unknown",
+  "en": "And maybe yesterday, giving them the benefit of the doubt was a first step.",
+  "zh": "也许昨天,往好处想算是第一步。"
+ },
+ {
+  "seg": 230,
+  "start": 1171.475,
+  "end": 1177.18,
+  "speaker": "Unknown",
+  "en": "It still felt more like marketing covering for the event because it still said a lot of stuff like,",
+  "zh": "但它仍然感觉更像是在为事件做掩护的营销,因为它还是说了很多这样的话,"
+ },
+ {
+  "seg": 231,
+  "start": 1178.044,
+  "end": 1183.647,
+  "speaker": "Unknown",
+  "en": "Well, we are looking into this, but we presume at this point, okay, well then don't write anything.",
+  "zh": "「我们正在调查此事,但我们目前推测……」好吧,那就什么都别写。"
+ },
+ {
+  "seg": 232,
+  "start": 1183.927,
+  "end": 1191.49,
+  "speaker": "Unknown",
+  "en": "Like go figure out, like the Federal Aviation Administration does not like announce on the day of some awful event.",
+  "zh": "就像去搞清楚,联邦航空管理局不会在某个糟糕事件发生的当天宣布"
+ },
+ {
+  "seg": 233,
+  "start": 1191.97,
+  "end": 1193.271,
+  "speaker": "Unknown",
+  "en": "We presume what happened.",
+  "zh": "「我们推测发生了什么」。"
+ },
+ {
+  "seg": 234,
+  "start": 1193.531,
+  "end": 1195.572,
+  "speaker": "Unknown",
+  "en": "They just keep their mouths shut until they know.",
+  "zh": "他们就是闭口不谈,直到他们知道为止。"
+ },
+ {
+  "seg": 235,
+  "start": 1196.112,
+  "end": 1205.076,
+  "speaker": "Unknown",
+  "en": "And then when they know, they really, really, really tell you with a tick-tock down to the partial second, with all of the telemetry of the instruments.",
+  "zh": "然后当他们知道的时候,他们会真的、真的、真的告诉你,精确到不足一秒,附上所有的仪表遥测数据。"
+ },
+ {
+  "seg": 236,
+  "start": 1205.536,
+  "end": 1206.697,
+  "speaker": "Unknown",
+  "en": "And that's what CVEs are.",
+  "zh": "这就是 CVE 的意义所在。"
+ },
+ {
+  "seg": 237,
+  "start": 1208.41,
+  "end": 1212.913,
+  "speaker": "Unknown",
+  "en": "And they need to do way, way more because these are defects in the software.",
+  "zh": "而他们需要做得远、远更多,因为这些就是软件的缺陷。"
+ },
+ {
+  "seg": 238,
+  "start": 1214.073,
+  "end": 1219.476,
+  "speaker": "Unknown",
+  "en": "And it's just so critical to wrap our heads around the fact that that's what's going on.",
+  "zh": "让我们真正理解正在发生的事情,这一点太关键了。"
+ },
+ {
+  "seg": 239,
+  "start": 1220.137,
+  "end": 1222.418,
+  "speaker": "Unknown",
+  "en": "It's not divine intervention.",
+  "zh": "这不是什么神圣干预。"
+ },
+ {
+  "seg": 240,
+  "start": 1222.858,
+  "end": 1229.041,
+  "speaker": "Unknown",
+  "en": "It's not, you know, oh my God, we need to spark up more of the left brain of this thing to make it more rational.",
+  "zh": "这不是,你知道的,天哪,我们需要激发这个东西更多的左脑让它更理性。"
+ },
+ {
+  "seg": 241,
+  "start": 1229.062,
+  "end": 1229.802,
+  "speaker": "Unknown",
+  "en": "It's silly.",
+  "zh": "那很可笑。"
+ },
+ {
+  "seg": 242,
+  "start": 1231.088,
+  "end": 1232.188,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 243,
+  "start": 1232.368,
+  "end": 1245.732,
+  "speaker": "Unknown",
+  "en": "So I guess with the Stop Rogue AI Act, for example, do you think that these are people in Congress having like imperfect information about what's going on in the labs and so that they tend to use this like more anthropomorphic language?",
+  "zh": "所以我想,比如拿《Stop Rogue AI 法案》来说,你觉得这些是国会里的人掌握着关于实验室里正在发生什么的不完美信息,所以他们倾向于使用这种更拟人化的语言?"
+ },
+ {
+  "seg": 244,
+  "start": 1246.713,
+  "end": 1254.475,
+  "speaker": "Unknown",
+  "en": "Or do you think it's more intentional, like they know that this is what will like spark a reaction in the people or will get some sort of like populist support?",
+  "zh": "还是你觉得这更多是有意的,比如他们知道这样会在人们中激起反应,或者会得到某种民粹主义支持?"
+ },
+ {
+  "seg": 245,
+  "start": 1255.318,
+  "end": 1266.727,
+  "speaker": "Unknown",
+  "en": "Well, it's really important right now to not ascribe, you know, ill motives to people when they're doing stuff, because that's not gonna bring everybody together to solve the problem.",
+  "zh": "嗯,现在很重要的一点是,不要在人们做事的时候,你知道的,给他们归因恶意的动机,因为那样不会让所有人团结起来解决问题。"
+ },
+ {
+  "seg": 246,
+  "start": 1267.327,
+  "end": 1269.449,
+  "speaker": "Unknown",
+  "en": "I have no idea why anybody is doing anything.",
+  "zh": "我完全不知道任何人为什么做任何事。"
+ },
+ {
+  "seg": 247,
+  "start": 1269.489,
+  "end": 1276.434,
+  "speaker": "Unknown",
+  "en": "I actually think, look, AI was, you know, in the Dartmouth Summer Conference, they started talking about human brains and consciousness and all this stuff.",
+  "zh": "我实际上认为,你看,AI,你知道的,在达特茅斯夏季会议上,他们就开始谈论人脑和意识以及所有这些东西。"
+ },
+ {
+  "seg": 248,
+  "start": 1276.674,
+  "end": 1282.979,
+  "speaker": "Unknown",
+  "en": "So there's, and there's a long history in all fields of academic research to basically be too cutesy about things.",
+  "zh": "所以,呃,在所有学术研究领域都有很长的历史,基本上就是对这些事情过于卖巧。"
+ },
+ {
+  "seg": 249,
+  "start": 1283.607,
+  "end": 1285.649,
+  "speaker": "Unknown",
+  "en": "Like, cause that's how you get attention in academia.",
+  "zh": "因为,那样你才能在学术界获得关注。"
+ },
+ {
+  "seg": 250,
+  "start": 1285.949,
+  "end": 1287.611,
+  "speaker": "Unknown",
+  "en": "Your paper has a cool title and all that.",
+  "zh": "你的论文标题确实很酷,等等。"
+ },
+ {
+  "seg": 251,
+  "start": 1287.891,
+  "end": 1296.48,
+  "speaker": "Unknown",
+  "en": "So it's no surprise that something that had its roots in academia carried forth all of this terminology, but it's just time to stop.",
+  "zh": "所以,一个根植于学术界的东西把这一整套术语延续下来,这并不奇怪,但现在是时候停止了。"
+ },
+ {
+  "seg": 252,
+  "start": 1297.06,
+  "end": 1301.144,
+  "speaker": "Unknown",
+  "en": "Like the terminology is driving people apart because people...",
+  "zh": "就像这些术语正在把人们隔开,因为人们……"
+ },
+ {
+  "seg": 253,
+  "start": 1301.925,
+  "end": 1309.392,
+  "speaker": "Unknown",
+  "en": "I presume a vast amount of stuff when you use metaphor or allegory or anthropomorphism, and it's just not true.",
+  "zh": "当你使用隐喻、寓言或拟人化时,我预设了大量东西,而那根本不是真的。"
+ },
+ {
+  "seg": 254,
+  "start": 1309.893,
+  "end": 1316.198,
+  "speaker": "Unknown",
+  "en": "Like this stuff is not acting with any of the verbs that it says.",
+  "zh": "比如这些东西并没有以它所说的那些动词的方式行事。"
+ },
+ {
+  "seg": 255,
+  "start": 1316.879,
+  "end": 1317.38,
+  "speaker": "Unknown",
+  "en": "It's not...",
+  "zh": "它不是……"
+ },
+ {
+  "seg": 256,
+  "start": 1318.481,
+  "end": 1333.001,
+  "speaker": "Unknown",
+  "en": "It's goal-seeking in this old-school technical sense that it, oh, well, there's a curve and it's trying to get to the min or to the max, and that's goal-seeking in those terms, but it's not when a normal person like a congressman hears goal-seeking.",
+  "zh": "它是在那种老派技术意义上做目标寻优,即,哦,有一条曲线,它试图达到最小值或最大值,在这个意义上那是目标寻优,但当普通大众——比如一个国会议员——听到\"目标寻优\"时,情况就不一样了。"
+ },
+ {
+  "seg": 257,
+  "start": 1334.062,
+  "end": 1336.563,
+  "speaker": "Unknown",
+  "en": "They think of a person trying to get an A in college.",
+  "zh": "他们会想到一个想在大学里拿 A 的人。"
+ },
+ {
+  "seg": 258,
+  "start": 1336.963,
+  "end": 1341.005,
+  "speaker": "Unknown",
+  "en": "And then when they hear cheating, they hear that they did the thing you're not allowed to do.",
+  "zh": "然后当他们听到\"作弊\"时,他们听到的是它做了不被允许做的事。"
+ },
+ {
+  "seg": 259,
+  "start": 1341.465,
+  "end": 1346.547,
+  "speaker": "Unknown",
+  "en": "And when they hear secretly coordinating, they think of spies invading a country.",
+  "zh": "而当他们听到\"秘密协调\"时,他们会想到间谍入侵一个国家。"
+ },
+ {
+  "seg": 260,
+  "start": 1346.848,
+  "end": 1352.19,
+  "speaker": "Unknown",
+  "en": "They don't think of two pieces of software with a semaphore, which is just another form of secretly coordinating.",
+  "zh": "他们不会想到两个通过信号量协作的软件,而那其实只是\"秘密协调\"的另一种形式。"
+ },
+ {
+  "seg": 261,
+  "start": 1352.67,
+  "end": 1356.612,
+  "speaker": "Unknown",
+  "en": "Yeah, all of the language is absolutely destroying this dialogue.",
+  "zh": "是啊,所有这些语言绝对正在摧毁这场对话。"
+ },
+ {
+  "seg": 262,
+  "start": 1357.672,
+  "end": 1365.475,
+  "speaker": "Unknown",
+  "en": "And look, the very beginning of the word computer virus was kind of a fluke, but it turns out it happened at exactly the wrong time.",
+  "zh": "而且你看,\"计算机病毒\"这个词的开端其实有点偶然,但结果它恰好发生在最糟糕的时机。"
+ },
+ {
+  "seg": 263,
+  "start": 1365.755,
+  "end": 1369.536,
+  "speaker": "Unknown",
+  "en": "It happened right when AIDS and HIV were a thing.",
+  "zh": "它恰好发生在艾滋病和 HIV 成为议题的时候。"
+ },
+ {
+  "seg": 264,
+  "start": 1369.996,
+  "end": 1373.277,
+  "speaker": "Unknown",
+  "en": "So virus was like in the air everywhere.",
+  "zh": "所以\"病毒\"这个词当时弥漫在空气中的每一个角落。"
+ },
+ {
+  "seg": 265,
+  "start": 1373.637,
+  "end": 1386.161,
+  "speaker": "Unknown",
+  "en": "So if you listen to the computer hearings from the 1980s about the first viruses, they're scary in that context because people are literally thinking about death, but that's not at all what was happening.",
+  "zh": "所以如果你去听 1980 年代关于第一批病毒的计算机听证会,在那个背景下它们听起来很可怕,因为人们字面上在想着死亡,但那完全不是当时实际发生的事。"
+ },
+ {
+  "seg": 266,
+  "start": 1387.32,
+  "end": 1392.238,
+  "speaker": "Unknown",
+  "en": "It was a metaphor that one person in graduate school picked up on from a friend.",
+  "zh": "那只是一个隐喻,是一个研究生从朋友那里借来的。"
+ },
+ {
+  "seg": 267,
+  "start": 1393.841,
+  "end": 1401.105,
+  "speaker": "Unknown",
+  "en": "And in fact, they were smart enough back then, a little trivia, he wrote his thesis on computer viruses and it basically proved there's nothing you can do about them.",
+  "zh": "而且实际上,他们那时候还挺聪明的,说个小趣闻:他写的论文就是关于计算机病毒的,并且基本上证明了你对它们无能为力。"
+ },
+ {
+  "seg": 268,
+  "start": 1401.525,
+  "end": 1407.509,
+  "speaker": "Unknown",
+  "en": "They're here forever, which of course is a metaphor to how people thought about HIV at the same time.",
+  "zh": "它们会永远存在,这当然是对当时人们如何看待 HIV 的一种隐喻。"
+ },
+ {
+  "seg": 269,
+  "start": 1408.229,
+  "end": 1419.235,
+  "speaker": "Unknown",
+  "en": "But he also couldn't prove it because his university wouldn't let him run the test because he was writing a paper about how dangerous all this software was and they wouldn't let him use the computer to run the test.",
+  "zh": "但他也无法证明这一点,因为他的大学不让他运行那个测试,因为他在写一篇关于这些软件有多危险的论文,而他们不让他用计算机来运行测试。"
+ },
+ {
+  "seg": 270,
+  "start": 1421.081,
+  "end": 1421.261,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 271,
+  "start": 1421.461,
+  "end": 1421.601,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 272,
+  "start": 1421.621,
+  "end": 1426.444,
+  "speaker": "Unknown",
+  "en": "I mean, it was like it seems like viruses are actually like kind of avoidable.",
+  "zh": "我是说,看起来病毒实际上是……有点可以避免的。"
+ },
+ {
+  "seg": 273,
+  "start": 1426.464,
+  "end": 1430.086,
+  "speaker": "Unknown",
+  "en": "I mean, obviously, like there will always be some viruses out there at all times.",
+  "zh": "我是说,显然,任何时候总会有一些病毒存在。"
+ },
+ {
+  "seg": 274,
+  "start": 1430.186,
+  "end": 1437.531,
+  "speaker": "Unknown",
+  "en": "But, you know, we still get to use computers normally almost all the time without worrying about everything we have getting hacked.",
+  "zh": "但是,你知道,我们几乎所有时候都能正常使用计算机,而不用担心我们拥有的一切被黑。"
+ },
+ {
+  "seg": 275,
+  "start": 1439.192,
+  "end": 1439.452,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 276,
+  "start": 1440.052,
+  "end": 1440.813,
+  "speaker": "Unknown",
+  "en": "And why is that?",
+  "zh": "为什么会这样?"
+ },
+ {
+  "seg": 277,
+  "start": 1442.554,
+  "end": 1443.935,
+  "speaker": "Unknown",
+  "en": "Because we have defensive cybersecurity.",
+  "zh": "因为我们有防御性的网络安全。"
+ },
+ {
+  "seg": 278,
+  "start": 1445.277,
+  "end": 1447.479,
+  "speaker": "Unknown",
+  "en": "Yes, because the industry said, well, this is bad.",
+  "zh": "是的,因为行业说,好吧,这是坏事。"
+ },
+ {
+  "seg": 279,
+  "start": 1447.519,
+  "end": 1448.821,
+  "speaker": "Unknown",
+  "en": "We can't allow this to happen.",
+  "zh": "我们不能让这种事发生。"
+ },
+ {
+  "seg": 280,
+  "start": 1449.481,
+  "end": 1452.764,
+  "speaker": "Unknown",
+  "en": "And so Apple did a fantastic job.",
+  "zh": "于是 Apple 做得非常出色。"
+ },
+ {
+  "seg": 281,
+  "start": 1452.784,
+  "end": 1457.268,
+  "speaker": "Unknown",
+  "en": "They did such a good job that they made up TV commercials on the Mac and on the PC.",
+  "zh": "他们做得如此之好,以至于他们为 Mac 和 PC 制作了电视广告。"
+ },
+ {
+  "seg": 282,
+  "start": 1457.488,
+  "end": 1467.437,
+  "speaker": "Unknown",
+  "en": "And they told people that Macs are better because they get fewer viruses, not by some fluke of nature, but because they did a whole bunch of work on the Mac to prevent viruses from happening.",
+  "zh": "他们告诉人们 Mac 更好,因为感染的病毒更少,这不是大自然的偶然,而是因为他们在 Mac 上做了大量工作来防止病毒发生。"
+ },
+ {
+  "seg": 283,
+  "start": 1468.618,
+  "end": 1474.663,
+  "speaker": "Unknown",
+  "en": "And it just so happened, it was work that was very, very difficult for Windows to do because of the business model of Windows and all this other stuff.",
+  "zh": "而碰巧的是,这项工作对 Windows 来说非常非常困难,因为 Windows 的商业模式和其他种种原因。"
+ },
+ {
+  "seg": 284,
+  "start": 1475.783,
+  "end": 1475.984,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 285,
+  "start": 1476.084,
+  "end": 1480.687,
+  "speaker": "Unknown",
+  "en": "Yeah, I remember the, like, I'm a Mac, I'm a PC, like, video ad thing.",
+  "zh": "是啊,我记得那个,像是\"我是 Mac,我是 PC\"的视频广告。"
+ },
+ {
+  "seg": 286,
+  "start": 1480.847,
+  "end": 1481.027,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 287,
+  "start": 1481.067,
+  "end": 1484.33,
+  "speaker": "Unknown",
+  "en": "Where the PC guy was, like, sneezing and coughing.",
+  "zh": "那个 PC 家伙在打喷嚏、咳嗽。"
+ },
+ {
+  "seg": 288,
+  "start": 1484.65,
+  "end": 1486.571,
+  "speaker": "Unknown",
+  "en": "He was like, oh, I have this terrible virus going around.",
+  "zh": "他就像,哦,我染上了这种正在流行的可怕病毒。"
+ },
+ {
+  "seg": 289,
+  "start": 1486.591,
+  "end": 1489.654,
+  "speaker": "Unknown",
+  "en": "And then the Mac guy's like, oh, I think I'll be, I think I'll be good.",
+  "zh": "然后 Mac 家伙就说,哦,我想我会没事的,我想我会没事的。"
+ },
+ {
+  "seg": 290,
+  "start": 1489.694,
+  "end": 1490.835,
+  "speaker": "Unknown",
+  "en": "You know, Macs don't get viruses.",
+  "zh": "你知道,Mac 不会中病毒。"
+ },
+ {
+  "seg": 291,
+  "start": 1490.995,
+  "end": 1492.096,
+  "speaker": "Unknown",
+  "en": "I think what's funny is that way.",
+  "zh": "我觉得有趣的地方就在这里。"
+ },
+ {
+  "seg": 292,
+  "start": 1492.116,
+  "end": 1492.776,
+  "speaker": "Unknown",
+  "en": "You know, this hurts.",
+  "zh": "你知道,这很伤人。"
+ },
+ {
+  "seg": 293,
+  "start": 1492.796,
+  "end": 1495.578,
+  "speaker": "Unknown",
+  "en": "Those hurt me physically, thinking about those commercials.",
+  "zh": "一想到那些广告,我身体上都感到难受。"
+ },
+ {
+  "seg": 294,
+  "start": 1495.618,
+  "end": 1496.038,
+  "speaker": "Unknown",
+  "en": "But yes.",
+  "zh": "不过,是的。"
+ },
+ {
+  "seg": 295,
+  "start": 1496.339,
+  "end": 1496.579,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 296,
+  "start": 1496.879,
+  "end": 1509.465,
+  "speaker": "Unknown",
+  "en": "Yeah, like alignment is like just a really advanced capability eventually or alignment will mean like the same thing as like very deeply competent team that's able to tackle very, very like high level issues.",
+  "zh": "是啊,就像对齐最终就像是……一种非常先进的能力,或者对齐将意味着和一支非常有深度能力的团队一样的东西,能够应对非常、非常高层次的问题。"
+ },
+ {
+  "seg": 297,
+  "start": 1510.406,
+  "end": 1510.886,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对是。"
+ },
+ {
+  "seg": 298,
+  "start": 1510.966,
+  "end": 1515.888,
+  "speaker": "Unknown",
+  "en": "You can think of it like we went through a phase where we couldn't figure out what a bug was.",
+  "zh": "你可以这样想:我们经历过一个连\"什么是 bug\"都搞不清楚的阶段。"
+ },
+ {
+  "seg": 299,
+  "start": 1516.349,
+  "end": 1522.852,
+  "speaker": "Unknown",
+  "en": "I know that sounds crazy, but like some people wanted a bug to only mean like you lost your data.",
+  "zh": "我知道这听起来很疯狂,但就像有些人希望 bug 只指你丢失了数据这种情况。"
+ },
+ {
+  "seg": 300,
+  "start": 1523.89,
+  "end": 1527.871,
+  "speaker": "Unknown",
+  "en": "Other people were like, well, maybe your data's fine, but the computer still crashes.",
+  "zh": "其他人则说,好吧,也许你的数据没问题,但计算机还是会崩溃。"
+ },
+ {
+  "seg": 301,
+  "start": 1528.551,
+  "end": 1535.773,
+  "speaker": "Unknown",
+  "en": "And we eventually decided a bug just means the software and the computer didn't do what you wanted it to do.",
+  "zh": "我们最终决定,bug 就意味着软件和计算机没有做你想要它做的事。"
+ },
+ {
+  "seg": 302,
+  "start": 1536.993,
+  "end": 1538.453,
+  "speaker": "Unknown",
+  "en": "You weren't happy with the results.",
+  "zh": "你对结果不满意。"
+ },
+ {
+  "seg": 303,
+  "start": 1538.774,
+  "end": 1544.775,
+  "speaker": "Unknown",
+  "en": "And we allowed customers to tell us any bug in the world, and we put them all in a database.",
+  "zh": "我们允许客户告诉我们世界上任何 bug,我们把它们全部放进一个数据库。"
+ },
+ {
+  "seg": 304,
+  "start": 1544.895,
+  "end": 1550.276,
+  "speaker": "Unknown",
+  "en": "And so suddenly we went from only the bugs we could find to the bugs of the universe.",
+  "zh": "于是我们突然从只有我们能找到的 bug,变成了全宇宙的 bug。"
+ },
+ {
+  "seg": 305,
+  "start": 1550.316,
+  "end": 1552.717,
+  "speaker": "Unknown",
+  "en": "And we went from thousands to hundreds of thousands.",
+  "zh": "我们从几千个变成了几十万个。"
+ },
+ {
+  "seg": 306,
+  "start": 1553.547,
+  "end": 1556.529,
+  "speaker": "Unknown",
+  "en": "But then we put both a severity and a priority.",
+  "zh": "但接着我们引入了严重性和优先级。"
+ },
+ {
+  "seg": 307,
+  "start": 1557.589,
+  "end": 1560.691,
+  "speaker": "Unknown",
+  "en": "And so a severity meant like, at one, you lost your data.",
+  "zh": "严重性意味着,比如一级,你丢失了数据。"
+ },
+ {
+  "seg": 308,
+  "start": 1561.191,
+  "end": 1563.292,
+  "speaker": "Unknown",
+  "en": "And at three, well, it was flaky.",
+  "zh": "而三级,嗯,就是不太稳定。"
+ },
+ {
+  "seg": 309,
+  "start": 1564.152,
+  "end": 1566.154,
+  "speaker": "Unknown",
+  "en": "And a priority meant, must fix this.",
+  "zh": "而优先级意味着,必须修复这个。"
+ },
+ {
+  "seg": 310,
+  "start": 1566.214,
+  "end": 1571.156,
+  "speaker": "Unknown",
+  "en": "And so we walked around, the whole lingo of our hallway was SEV1, PRI1.",
+  "zh": "于是我们到处走动,我们整个走廊的行话就是 SEV1、PRI1。"
+ },
+ {
+  "seg": 311,
+  "start": 1571.536,
+  "end": 1576.879,
+  "speaker": "Unknown",
+  "en": "And IBM, the old people at IBM looked at us and said, we've been doing this since 1965.",
+  "zh": "而 IBM,IBM 的老员工看着我们说,我们从 1965 年就开始这么干了。"
+ },
+ {
+  "seg": 312,
+  "start": 1576.919,
+  "end": 1580.101,
+  "speaker": "Unknown",
+  "en": "Like, where have you guys been?",
+  "zh": "就是说,你们这些人都去哪儿了?"
+ },
+ {
+  "seg": 313,
+  "start": 1580.381,
+  "end": 1582.362,
+  "speaker": "Unknown",
+  "en": "And we were all proud of ourselves for inventing it.",
+  "zh": "而我们还为自己发明了这套东西而沾沾自喜。"
+ },
+ {
+  "seg": 314,
+  "start": 1584.259,
+  "end": 1594.238,
+  "speaker": "Unknown",
+  "en": "And so, so much of what's going on now is we're in the throes of inventing this way to talk about what is a bug in a stochastic statistical system.",
+  "zh": "所以,现在正在发生的很多事情,就是我们正处于发明一套方式来谈论「在一个随机统计系统里什么才算 bug」的阵痛之中。"
+ },
+ {
+  "seg": 315,
+  "start": 1595.309,
+  "end": 1598.09,
+  "speaker": "Unknown",
+  "en": "But it turns out software has been doing that for years.",
+  "zh": "但事实证明,软件行业做这件事已经很多年了。"
+ },
+ {
+  "seg": 316,
+  "start": 1598.45,
+  "end": 1600.811,
+  "speaker": "Unknown",
+  "en": "The weather forecast is exactly this.",
+  "zh": "天气预报正是如此。"
+ },
+ {
+  "seg": 317,
+  "start": 1601.411,
+  "end": 1607.734,
+  "speaker": "Unknown",
+  "en": "It's a statistical model of what's going on and it depends on a bunch of inputs and a bunch of outputs and it's wrong.",
+  "zh": "它是一个关于正在发生什么情况的统计模型,依赖于一堆输入和一堆输出,而它是会出错的。"
+ },
+ {
+  "seg": 318,
+  "start": 1608.234,
+  "end": 1614.997,
+  "speaker": "Unknown",
+  "en": "And when the weather forecast is wrong, like when they predict a hurricane path and then the hurricane goes through in a different way,",
+  "zh": "当天气预报出错时,比如他们预测了一条飓风路径,然后飓风却以不同的方式经过,"
+ },
+ {
+  "seg": 319,
+  "start": 1615.906,
+  "end": 1623.249,
+  "speaker": "Unknown",
+  "en": "The weather people all get together and look at the model and talk about the bugs in the model that led to the incorrect forecast.",
+  "zh": "气象人员会聚在一起研究模型,讨论导致错误预报的模型中的 bug。"
+ },
+ {
+  "seg": 320,
+  "start": 1623.449,
+  "end": 1628.712,
+  "speaker": "Unknown",
+  "en": "They don't appeal to Zeus and say, please, Zeus, tell us why our weather was wrong.",
+  "zh": "他们不会去乞求宙斯,说,求求你,宙斯,告诉我们为什么我们的天气报错了。"
+ },
+ {
+  "seg": 321,
+  "start": 1630.469,
+  "end": 1630.909,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 322,
+  "start": 1631.57,
+  "end": 1634.352,
+  "speaker": "Unknown",
+  "en": "Well, we're coming up on time, but it's been great having you on.",
+  "zh": "好了,我们时间差不多了,但很高兴请到你来。"
+ },
+ {
+  "seg": 323,
+  "start": 1635.052,
+  "end": 1639.135,
+  "speaker": "Unknown",
+  "en": "Yeah, we'll need more sort of fresh perspectives like this in AI world.",
+  "zh": "是的,在 AI 世界里我们需要更多像这样的新鲜视角。"
+ },
+ {
+  "seg": 324,
+  "start": 1639.155,
+  "end": 1640.236,
+  "speaker": "Unknown",
+  "en": "Yeah, totally.",
+  "zh": "是的,完全同意。"
+ },
+ {
+  "seg": 325,
+  "start": 1640.356,
+  "end": 1642.037,
+  "speaker": "Unknown",
+  "en": "Especially from like software veterans.",
+  "zh": "尤其是来自软件老兵的视角。"
+ },
+ {
+  "seg": 326,
+  "start": 1642.497,
+  "end": 1644.779,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm quite sympathetic to this view.",
+  "zh": "是的,我非常认同这个观点。"
+ },
+ {
+  "seg": 327,
+  "start": 1644.919,
+  "end": 1654.026,
+  "speaker": "Unknown",
+  "en": "We need software, but we also need like the AI people to listen to the operational security people because everything that happened with Hugging Face and OpenAI...",
+  "zh": "我们需要软件,但我们也需要 AI 领域的人去倾听运营安全人员的意见,因为 Hugging Face 和 OpenAI 发生的一切……"
+ },
+ {
+  "seg": 328,
+  "start": 1655.106,
+  "end": 1656.247,
+  "speaker": "Unknown",
+  "en": "It was an OPSEC failure.",
+  "zh": "那是一次 OPSEC(运营安全)上的失败。"
+ },
+ {
+  "seg": 329,
+  "start": 1656.768,
+  "end": 1661.851,
+  "speaker": "Unknown",
+  "en": "There was no intelligence, no consciousness, nothing but a pure OPSEC failure.",
+  "zh": "没有智能,没有意识,什么都没有,纯粹是一次 OPSEC 失败。"
+ },
+ {
+  "seg": 330,
+  "start": 1662.492,
+  "end": 1671.299,
+  "speaker": "Unknown",
+  "en": "And they need to treat it like that and they need to talk about it like that because otherwise we're going to get legislation no one is going to be happy with because they don't understand what our industry is saying.",
+  "zh": "他们需要那样看待它、那样谈论它,否则我们将得到一部没有人会满意的立法,因为他们不理解我们这个行业在说什么。"
+ },
+ {
+  "seg": 331,
+  "start": 1672.359,
+  "end": 1673.22,
+  "speaker": "Unknown",
+  "en": "Thanks, guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 332,
+  "start": 1673.48,
+  "end": 1674.441,
+  "speaker": "Unknown",
+  "en": "Seems like we're on our way there.",
+  "zh": "看起来我们正在朝那个方向走。"
+ },
+ {
+  "seg": 333,
+  "start": 1674.501,
+  "end": 1675.522,
+  "speaker": "Unknown",
+  "en": "Thanks so much, Steven.",
+  "zh": "非常感谢,Steven。"
+ },
+ {
+  "seg": 334,
+  "start": 1675.542,
+  "end": 1676.623,
+  "speaker": "Unknown",
+  "en": "Steven, thanks so much for coming on MTS.",
+  "zh": "Steven,非常感谢你来到 MTS。"
+ },
+ {
+  "seg": 335,
+  "start": 1679.657,
+  "end": 1682.518,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 336,
+  "start": 1683.158,
+  "end": 1689.5,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期,请务必点赞、评论、订阅,给我们留下评分或评论,并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 337,
+  "start": 1690.32,
+  "end": 1693.861,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 338,
+  "start": 1694.461,
+  "end": 1700.143,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 339,
+  "start": 1700.563,
+  "end": 1703.084,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听,我们下期节目再见。"
+ },
+ {
+  "seg": 340,
+  "start": 1704.409,
+  "end": 1710.773,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅供教育目的,不构成对购买、持有或出售任何投资或金融产品的建议。"
+ },
+ {
+  "seg": 341,
+  "start": 1711.073,
+  "end": 1718.497,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作,可能包含付费推广广告、其他公司引用以及与 A16Z 无关的个人。"
+ },
+ {
+  "seg": 342,
+  "start": 1718.977,
+  "end": 1726.041,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均不获得 AH Capital Management LLC、A16Z 或其任何关联公司的背书。"
+ },
+ {
+  "seg": 343,
+  "start": 1726.482,
+  "end": 1732.145,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来自发布日期被认为是可靠的来源,但 A16Z 不保证其准确性。"
+ }
+]

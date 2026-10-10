@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jon Noronha]] · [[Gamma]] · [[PowerPoint]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[Canvas]] · [[ChatGPT]]
+[[Jon Noronha]] · [[Gamma]] · [[PowerPoint]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[Excel]] · [[Canvas]]
 
-<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"PowerPoint":1,"Optimizely":2,"Notion":16,"Slack":31,"Loom":1,"Salesforce":34,"Canvas":2,"ChatGPT":102}</script>
+<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"PowerPoint":1,"Optimizely":2,"Notion":16,"Slack":33,"Loom":1,"Salesforce":34,"Excel":3,"Canvas":2}</script>
 
 <script>
 (function(){

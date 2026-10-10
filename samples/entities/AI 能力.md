@@ -79,7 +79,7 @@ unlisted: true
 
 [[Greg Burnham]] · [[Sam Charrington]] · [[Epoch AI]] · [[Frontier Math]] · [[基准测试]] · [[递归自我改进]] · [[研究品味]] · [[上下文学习]] · [[harness]] · [[对齐]]
 
-<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"基准测试":18,"递归自我改进":10,"研究品味":1,"上下文学习":3,"harness":63,"对齐":19}</script>
+<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"基准测试":18,"递归自我改进":10,"研究品味":1,"上下文学习":3,"harness":63,"对齐":20}</script>
 
 <script>
 (function(){

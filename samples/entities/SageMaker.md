@@ -25,7 +25,7 @@ unlisted: true
 
 [[Raguraguram]] · [[Matt Garman]] · [[AWS]] · [[Amazon]] · [[智能体]] · [[GPU]] · [[Trainium]] · [[Graviton]] · [[Bedrock]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Raguraguram":1,"Matt Garman":1,"AWS":22,"Amazon":32,"智能体":449,"GPU":29,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":88}</script>
+<script type="application/json" class="pd-epn">{"Raguraguram":1,"Matt Garman":1,"AWS":22,"Amazon":32,"智能体":452,"GPU":29,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":88}</script>
 
 <script>
 (function(){

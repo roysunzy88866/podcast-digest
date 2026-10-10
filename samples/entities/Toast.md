@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Olivia Moore]] · [[Maggie Crowley]] · [[Bob Baxley]] · [[Frederick Rankin]] · [[Toast IQ]] · [[Apple]] · [[Alex Rampell]] · [[Toast IQ Grow]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"Lenny":68,"Olivia Moore":2,"Maggie Crowley":1,"Bob Baxley":1,"Frederick Rankin":1,"Toast IQ":1,"Apple":22,"Alex Rampell":3,"Toast IQ Grow":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"Lenny":68,"Olivia Moore":2,"Maggie Crowley":1,"Bob Baxley":1,"Frederick Rankin":1,"Toast IQ":1,"Apple":23,"Alex Rampell":3,"Toast IQ Grow":1}</script>
 
 <script>
 (function(){

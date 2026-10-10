@@ -1,0 +1,3186 @@
+{
+  "episode_id": "2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "开发者工具",
+    "自动化",
+    "OpenAI"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "charlie-guo",
+      "type": "person",
+      "role": "guest",
+      "name": "Charlie Guo",
+      "file": "Charlie Guo",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gabriel-chua",
+      "type": "person",
+      "role": "guest",
+      "name": "Gabriel Chua",
+      "file": "Gabriel Chua",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集两位嘉宾所在的开发者体验团队,以工作坊形式介绍 OpenAI 的 Codex 及其周边产品(plugin、Agents SDK、app server)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            37.917,
+            40.179
+          ],
+          "quote": "I'm on the developer experience team at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            726.1,
+            729.481
+          ],
+          "quote": "And we were also actually using the OpenAI Developers plugin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1182.683,
+            1184.806
+          ],
+          "quote": "At OpenAI, we've been using sites extensively.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1306.797,
+            1311.962
+          ],
+          "quote": "So I used to work in a large organization before OpenAI, and not everything had an API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1317.286,
+            1323.211
+          ],
+          "quote": "So let's say, for example, we have this dashboard that somehow pulls data from the OpenAI Python GitHub repo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1798.951,
+            1802.432
+          ],
+          "quote": "Make the experience feel like something OpenAI will launch, so on and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1856.177,
+            1861.882
+          ],
+          "quote": "There's a plug-in for Convex that helps to do real-time interactions, going to deploy in Vercel, and, of course, the OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1945.49,
+            1949.233
+          ],
+          "quote": "So there is actually a skill in the OpenAI skills repo called Define Goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2578.923,
+            2584.546
+          ],
+          "quote": "Some examples of what people have said about compaction, to quote, did OpenAI basically solve compaction?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 740,
+          "t": [
+            2983.772,
+            2986.333
+          ],
+          "quote": "So we have the OpenAI Agents SDK.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3687.479,
+            3693.422
+          ],
+          "quote": "And because it's open source, if you go to git clone openAI slash codex, you can just ask codex about codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 954,
+          "t": [
+            3820.891,
+            3834.481
+          ],
+          "quote": "I think as we've shown, one thing that you might assume when building with Codex or when building with the OpenAI API is that a human needs to be involved to go to the platform page and go get an API key and then paste it into the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3954.673,
+            3959.836
+          ],
+          "quote": "Then lastly, a session about LLM inference and production, and so how we sort of do that at OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 997,
+          "t": [
+            4017.616,
+            4023.481
+          ],
+          "quote": "We've got OpenAI staff here as well to help unblock you or to answer any questions about using Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集绝对主角:OpenAI 的编程智能体产品,包括 Codex 应用、CLI、VS Code 扩展与移动端,本集用六步「烹饪法」演示其全部能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            32.374,
+            34.516
+          ],
+          "quote": "This is the Cooking with Codex workshop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            49.35,
+            58.394
+          ],
+          "quote": "So before we kind of dive into the nuts and bolts, I wanted to do a quick review of what have folks been cooking with Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            87.491,
+            92.614
+          ],
+          "quote": "Codex working on a synth plugin for Ableton.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            95.977,
+            107.202
+          ],
+          "quote": "I think on our team, we have a team member, Brent, who's doing, at this point, video editing with Codex driving Premiere, right, which is not what you would normally expect to see from a coding app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            138.931,
+            147.897
+          ],
+          "quote": "And last but not least, building a self-driving golf cart with Codex, which I think is just absolutely incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            164.628,
+            167.39
+          ],
+          "quote": "Everyone's Codex maxing everywhere, anywhere, all the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            175.418,
+            177.359
+          ],
+          "quote": "Fortunately, we now have Codex on mobile.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            189.007,
+            195.769
+          ],
+          "quote": "And you don't necessarily have to use Codex on the Codex app or use it within the ChatGPT app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            196.169,
+            197.949
+          ],
+          "quote": "You can just put Codex anywhere.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            208.332,
+            210.353
+          ],
+          "quote": "So you really can Codex Max anywhere.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            211.734,
+            215.335
+          ],
+          "quote": "So if it's your first time sort of using Codex, do check it out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            234.186,
+            238.77
+          ],
+          "quote": "And then the real, pun intended, meat of the session is the six ways to cook with Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            254.037,
+            259.84
+          ],
+          "quote": "A bunch of things, I think fundamentally, to just really help you give context to Codex really fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            266.084,
+            267.805
+          ],
+          "quote": "Maybe just show Codex by doing it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            279.871,
+            286.933
+          ],
+          "quote": "And the mobile app is now generally available, so now there's like sort of one-to-one device pairing, a much more secure way of working with Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            300.276,
+            306.42
+          ],
+          "quote": "The plug-ins, computer use, multi-modality, being able to use Codex on the mobile, app shots, that's a personal favorite.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            306.781,
+            311.024
+          ],
+          "quote": "These things really make Codex and the Codex app really fun to use, and we'll be talking about some of these.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            314.847,
+            315.928
+          ],
+          "quote": "So that's cooking a Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            334.596,
+            336.318
+          ],
+          "quote": "And these are the six steps to cooking with Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            337.841,
+            340.142
+          ],
+          "quote": "Number one, you've got to give Codex your context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            348.867,
+            350.207
+          ],
+          "quote": "You've got to give Codex that context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            357.591,
+            361.313
+          ],
+          "quote": "For the power users in the room, there's some interesting stuff where Codex can actually take action.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 81,
+          "t": [
+            361.693,
+            368.136
+          ],
+          "quote": "You might notice right now, like, I'm on Chrome, and you just see this nice thing at the top saying, Codex started debugging this browser.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            368.316,
+            371.777
+          ],
+          "quote": "What's happening in the background is actually Codex is reading the slides as I'm speaking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            372.417,
+            377.74
+          ],
+          "quote": "And then you can sort of collaborate with Codex on long-running tasks, and you want to work overtime where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            428.753,
+            434.535
+          ],
+          "quote": "So maybe you would copy-paste, you would Google or search what these things are, then you would go to Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            448.539,
+            449.4
+          ],
+          "quote": "And let's just ask Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            460.391,
+            462.212
+          ],
+          "quote": "And we're going to let Codex cook on that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            475.263,
+            477.185
+          ],
+          "quote": "You just give Codex, and you have to just figure it out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            507.084,
+            508.925
+          ],
+          "quote": "So here, we sort of worked with Codex for a bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            509.165,
+            510.406
+          ],
+          "quote": "And let's just see what Codex cooked here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            516.086,
+            520.908
+          ],
+          "quote": "You have like six changes, sandbox agents, codex as a tool, tool search, real-time agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            539.161,
+            541.023
+          ],
+          "quote": "And you're just going to give it a codex to build it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            559.295,
+            561.316
+          ],
+          "quote": "So what I want to show you is Codex Remote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            569.341,
+            580.387
+          ],
+          "quote": "So Codex Remote is a feature that is now available in ChatGPT, a mobile app, and allows us to connect to a laptop or remote server and issue commands that can be executed remotely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            623.414,
+            626.618
+          ],
+          "quote": "Codex will keep the laptop open while it's cooking in the background.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            646.374,
+            647.954
+          ],
+          "quote": "Hey, Codex, is everything OK?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            697.6,
+            699.401
+          ],
+          "quote": "And wow, Codex already sort of popped it up there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            706.046,
+            712.491
+          ],
+          "quote": "So if you just go over to Codex app and just scroll right up here, there's this button called plugins, and you'll see a bunch of plugins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            738.805,
+            743.547
+          ],
+          "quote": "Now, with Codex and the plugin, it can just directly create the API key for you as necessary.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            765.102,
+            769.946
+          ],
+          "quote": "I think I would add to that, you know, the Codex app comes with the skills to build your own plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            770.767,
+            779.033
+          ],
+          "quote": "In giving the app context, a lot of times, I will work through a difficult problem or a workflow that I'm not sure how, I wasn't sure before how to tell Codex how to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            790.162,
+            792.863
+          ],
+          "quote": "So this is what Codex built in, say,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            806.771,
+            807.732
+          ],
+          "quote": "And let's see what Codex can do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            818.02,
+            822.924
+          ],
+          "quote": "But with the Codex app and the plugins, I'm able to get that sort of best practices through that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            939.358,
+            943.66
+          ],
+          "quote": "Whenever you talk to Codex, there's a lot of things that Codex can learn about you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            950.744,
+            952.424
+          ],
+          "quote": "But if you go to Codex app, you can turn it on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            954.926,
+            956.567
+          ],
+          "quote": "And then Codex will learn that over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            974.839,
+            976.821
+          ],
+          "quote": "And you just ask Codex, why is this failing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            984.649,
+            990.56
+          ],
+          "quote": "You can just go to the Codex app, you go into settings, and then it's called personalization, and you can enable it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1026.266,
+            1030.59
+          ],
+          "quote": "Then in the subsequent commentary, Codex would always reply like a pirate, a trivial example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1042.133,
+            1045.816
+          ],
+          "quote": "So to recap, part one, right, we want to give Codex context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1116.848,
+            1122.83
+          ],
+          "quote": "I just app shot my Slack window or I just app shot my browser and send it directly into Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1131.346,
+            1138.65
+          ],
+          "quote": "I think AgentsMD, which hopefully folks know and love, and then Memories as well in the Codex app via Chronicle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1155.575,
+            1159.961
+          ],
+          "quote": "There's a ton more stuff, I think, both in, like, context and personalization in the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1189.892,
+            1196.899
+          ],
+          "quote": "After an event like today's, I would ask, hey, Codex, can you summarize what happened today, create a site, and then we can share it with the team, the rest of the organization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1245.038,
+            1249.58
+          ],
+          "quote": "So then what you could also do is use the ImageGen skill and ask Codex to sort of cook it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1278.706,
+            1283.148
+          ],
+          "quote": "So if you're sort of new to Codex, it's your first time, so you're still using coding agents, I think that's really helpful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1293.632,
+            1295.392
+          ],
+          "quote": "So Codex can sort of take actions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1295.412,
+            1298.934
+          ],
+          "quote": "Like, as you see right now in the browser, Codex is debugging something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1340.789,
+            1342.291
+          ],
+          "quote": "So what if Codex could help me with that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1382.233,
+            1385.555
+          ],
+          "quote": "And you will see, OK, Codex has correctly invoked the computer use skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1413.49,
+            1416.312
+          ],
+          "quote": "And Codex is downloading all this data by itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1419.193,
+            1421.534
+          ],
+          "quote": "And we're going to let Codex work in the background.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1421.574,
+            1423.515
+          ],
+          "quote": "And that's the beauty of computer use of Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1438.351,
+            1443.413
+          ],
+          "quote": "Yeah, and so you can still drive your computer while things are just happening, you know, in the apps that Codex needs access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1474.509,
+            1475.951
+          ],
+          "quote": "And let's see if Codex can help me with that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1499.381,
+            1507.848
+          ],
+          "quote": "Just to give Codex a bit of a hit, I mean, just to make things for exposition purposes, what we're using here is the Chrome extension, which is slightly similar to computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1520.978,
+            1523.4
+          ],
+          "quote": "And you would see Codex thinking about the task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1545.443,
+            1549.306
+          ],
+          "quote": "Let's say, like, maybe I'm interested to learn something about the Codex repo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1551.167,
+            1557.112
+          ],
+          "quote": "So I can just ask, hey, can I configure the model that's used for memories in Codex?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1561.194,
+            1566.72
+          ],
+          "quote": "So you see, while you're continuing to do other tasks, Codex in the background is sort of doing the button pressing for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1584.411,
+            1589.656
+          ],
+          "quote": "Yeah, at this point, there's, like Gabe mentioned, a few different ways that Codex can start controlling the applications that you're using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1601.607,
+            1612.739
+          ],
+          "quote": "The in-app browser, why don't I start there, is a feature where in the Codex app, it has the ability to open a browser tab on the side, just like you would kind of a normal desktop coding editor these days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1613.38,
+            1622.209
+          ],
+          "quote": "But in addition to just opening and rendering web pages, Codex has really deep hooks into that browser engine, deeper than it has at the Chrome extension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1622.99,
+            1637.168
+          ],
+          "quote": "And so as a result, I think the in-app browser is really great for when you're building local web applications and you want to do a lot of deep testing on the interaction design, on how it's rendering, because Codex can see much further into the layout at that point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1664.274,
+            1672.578
+          ],
+          "quote": "And so if you just need Codex to drive the app in the same way that you, a human being, would, computer use is really incredible and kind of unlike anything else that I've tried.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1705.13,
+            1715.138
+          ],
+          "quote": "And so the Chrome extension allows Codex, with your permission, to go and read from certain websites as you and borrow your credentials so that you don't have to worry about the authentication step as you're building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1719.502,
+            1720.863
+          ],
+          "quote": "So that's Codex Take Action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1727.759,
+            1734.344
+          ],
+          "quote": "So I think people have really talked about how Codex is really good at complex refactors, long-running tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1734.724,
+            1742.249
+          ],
+          "quote": "And in the sort of next 15 to 20 minutes, I want to share some tips on how you can sort of work best with Codex on these complex tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1807.354,
+            1810.015
+          ],
+          "quote": "You could just ramble to Codex as well, and it'll get the job done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1827.732,
+            1828.713
+          ],
+          "quote": "Codex can't read your mind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1828.733,
+            1831.237
+          ],
+          "quote": "So you just need to tell Codex very clearly what you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1844.008,
+            1846.01
+          ],
+          "quote": "So how I wrote this prompt was I was just talking to Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1848.592,
+            1852.094
+          ],
+          "quote": "I just, hey, Codex, can you polish this prompt so I can show it on stage?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            1898.253,
+            1900.254
+          ],
+          "quote": "And then you've got to let Codex build it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            1923.636,
+            1925.898
+          ],
+          "quote": "And then I told Codex again, and I gave some constraints.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            1929.26,
+            1931.161
+          ],
+          "quote": "And then Codex read the papers and did it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1937.531,
+            1942.699
+          ],
+          "quote": "So in one of these, for example, what I told Codex was this over here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1949.733,
+            1951.915
+          ],
+          "quote": "And I told Codex, hey, don't create one goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2018.656,
+            2025.201
+          ],
+          "quote": "So what I told Codex is that, hey, you can spawn a local thread on my machine and use the Chrome extension to then inspect it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2028.083,
+            2031.766
+          ],
+          "quote": "And you would see it says here, send by Codex from another thread.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2053.404,
+            2060.252
+          ],
+          "quote": "So one other way of thinking about this is that maybe you could just ask Codex to send you Slack messages.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2076.864,
+            2081.146
+          ],
+          "quote": "Maybe there's an authentication issue, there's an API key that you need to give to Codex, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2081.406,
+            2089.23
+          ],
+          "quote": "So I asked Codex to speak to me, and over the weekend, like on Sunday, while I was out with my friends, I was just regularly checking, is there anything I could help unblock Codex for these different tasks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2098.566,
+            2104.232
+          ],
+          "quote": "So another nice feature with Codex is that while you have the main thread, so right here you see in the screenshot on the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2116.18,
+            2124.444
+          ],
+          "quote": "Because I know, like, OK, I think Codex needs probably some help with that because I'm building a new instance on the app server, a new user interface, so it needs to get some credentials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2142.406,
+            2144.107
+          ],
+          "quote": "And you can just ask Codex, like, what's going on?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2163.754,
+            2165.996
+          ],
+          "quote": "Then you can tell Codex, hey, maybe you don't want to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2198.619,
+            2203.581
+          ],
+          "quote": "Codex saying, test spawning a local thread in the local form builder project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2232.036,
+            2238.2
+          ],
+          "quote": "So while it's working in the cloud, locally on my laptop, at 3 a.m. while sleeping, Codex opened Chrome.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2265.56,
+            2267.522
+          ],
+          "quote": "And then Codex said, yeah, agreed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2292.423,
+            2305.534
+          ],
+          "quote": "So this is what it did thereafter, so it did its own test, because I sent a screenshot with the messages flushed to the bottom, I didn't want that, so then Codex did its own test, and it says, send, retro, dex, visible, okay, in one short sentence, and it sent it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2305.554,
+            2309.878
+          ],
+          "quote": "So Codex itself did its own QA testing to sort of verify my feedback.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2334.727,
+            2337.608
+          ],
+          "quote": "And here is a dashboard that Codex created for the goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2368.66,
+            2371.082
+          ],
+          "quote": "But throughout the night, sometimes Codex does get blocked.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2395.481,
+            2396.982
+          ],
+          "quote": "But Codex was telling me it was blocked.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2397.222,
+            2399.525
+          ],
+          "quote": "So I'm trying to get Codex to catch me up to speed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2416.087,
+            2431.051
+          ],
+          "quote": "So then the side thread told the main thread to sort of create the CLI login flow, and I would just click it over here, and I would be able to authenticate and give Codex, which again is running on the remote instance, access and the right permissions to manage my Vercel project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2436.294,
+            2438.875
+          ],
+          "quote": "So I asked Codex, give me a secure way to do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2445.538,
+            2452.142
+          ],
+          "quote": "So that was like a way where I could collaborate with Codex in a remote instance, do different testing, managing permissions, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2534.636,
+            2537.457
+          ],
+          "quote": "And Codex was able to sort of get it done in those cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2550.374,
+            2552.316
+          ],
+          "quote": "You saw how Codex worked for seven hours.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2561.304,
+            2565.428
+          ],
+          "quote": "In November 19, when we released GPT 5.1 Codex Max,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2566.317,
+            2569.118
+          ],
+          "quote": "Yes, the name was GPT 5.1 Codex Max.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2569.458,
+            2577.362
+          ],
+          "quote": "We natively trained the model on multiple context windows through a process called compaction, and that's what lets Codex be really good at it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2585.106,
+            2590.909
+          ],
+          "quote": "I pretty much never had issue with 5.5 and Codex across ultra-long threads spanning many compactions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2591.989,
+            2596.071
+          ],
+          "quote": "This individual from Japan said, like, in fact, Codex has strong compaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2708.947,
+            2712.932
+          ],
+          "quote": "Subagents in Codex, you know, by default will get used out of the box.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            2751.682,
+            2756.486
+          ],
+          "quote": "Subagents can work in tandem with thread-to-thread handoff in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2798.946,
+            2811.692
+          ],
+          "quote": "I think unlike a lot of other tools that we've brought to Codex to help keep context windows efficient, subagents are one where you're keeping the context separate and the models are communicating with each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2877.445,
+            2880.888
+          ],
+          "quote": "We didn't quite show it here, but we also have hooks in the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            2881.048,
+            2886.993
+          ],
+          "quote": "If you want to set up your own hooks, you can do so in your config.toml file in your Codex home directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2911.448,
+            2919.312
+          ],
+          "quote": "Before Codex takes a specific action, maybe you want to look at the prompts and figure out, hey, have we accidentally pasted an API key that's going to go somewhere?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3022.549,
+            3028.113
+          ],
+          "quote": "So on working over time, what we're trying to show here is that now it's a collaborative codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3031.956,
+            3035.479
+          ],
+          "quote": "How can we stitch this all together and let codex work on its own?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3040.803,
+            3045.327
+          ],
+          "quote": "But in reality, you can just let codex work on it with thread handoffs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3086.142,
+            3089.244
+          ],
+          "quote": "And Codex is not going to just keep waiting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3106.377,
+            3110.059
+          ],
+          "quote": "I set a codex heartbeat to resume this track in about five minutes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 788,
+          "t": [
+            3124.487,
+            3131.874
+          ],
+          "quote": "It's a link, like a deep link to the settings page within the Codex app, which automatically sets up the SSH instance for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3148.567,
+            3152.29
+          ],
+          "quote": "So you get a codex to run every five minutes, every 10 minutes, check, is it ready?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3269.093,
+            3283.434
+          ],
+          "quote": "So yeah, it's a comical example, but here it's where, what I was first doing was steering, so I'm gonna, I don't have to wait for Codex to finish, I can sort of steer it midway, and what I'm trying to do is, in addition to all this feedback and classifying it,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 828,
+          "t": [
+            3284.075,
+            3288.978
+          ],
+          "quote": "If it's a bug report, if it's something that we can fix, Codex would then sort of spawn a thread.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3288.998,
+            3299.085
+          ],
+          "quote": "So we're putting all these primitives together, the automation, the plugin, which can read Slack, the fact that one Codex thread can communicate with other Codex threads, and even create work tree threads, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3339.684,
+            3351.332
+          ],
+          "quote": "So earlier, while everyone was coming into the room, I was asking Codex, can you run an automation every five minutes, taking a screenshot of what's happening on screen, the Google Drive presentation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3352.692,
+            3355.654
+          ],
+          "quote": "And I'm asking Codex to estimate to what extent are we going to overrun.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3362.619,
+            3365.981
+          ],
+          "quote": "So Codex is doing its own assessment of to what extent are we going to finish on time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3386.341,
+            3399.567
+          ],
+          "quote": "One automation you can run, maybe every Friday, you ask Codex to look at all your conversation threads and see are there skills that you could improve, are there things you could add to the agents that are marked down, or are there skills you could just remove, maybe skills that you haven't been using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3486.372,
+            3490.095
+          ],
+          "quote": "And then Codex can just quickly tell me, here's what's happened since the last time you checked in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3493.697,
+            3500.222
+          ],
+          "quote": "If you set them up in the Codex app under Scheduled, the Scheduled page, you can have them spin out in their own thread as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            3517.951,
+            3520.773
+          ],
+          "quote": "I think last but not least, we've got Embedding Codex Anywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3522.374,
+            3533.82
+          ],
+          "quote": "And so I think for this one, I want to talk a little bit about the AppServer protocol, which is the core protocol that underpins the Codex app, the Codex CLI, the Codex VS Code extension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3535.281,
+            3542.228
+          ],
+          "quote": "The app server is basically what allows all of these services to talk with the main codex harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3548.801,
+            3559.526
+          ],
+          "quote": "We have built a lot of the components of the Codex ecosystem to be open source because we really want to encourage developers to build wherever you are and for whatever use case that you have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            3559.646,
+            3564.988
+          ],
+          "quote": "And so to that extent, if you're not aware, you can embed Codex into your product using App Server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 890,
+          "t": [
+            3565.548,
+            3577.774
+          ],
+          "quote": "I think this brings a lot of the power of Codex directly to you, and it brings the ability for your users to use their ChatGPT subscription and perhaps more importantly, use their ChatGPT token budget",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 897,
+          "t": [
+            3603.192,
+            3608.656
+          ],
+          "quote": "It was actually to build my own user interface for Codex, the app server, called Retrodex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 916,
+          "t": [
+            3647.39,
+            3657.542
+          ],
+          "quote": "And what's nice, and to just prove that it's all running on the same app server, is that if we go to the Codex app in the same project, Retrodex, you should see that over here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3687.479,
+            3693.422
+          ],
+          "quote": "And because it's open source, if you go to git clone openAI slash codex, you can just ask codex about codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 928,
+          "t": [
+            3695.464,
+            3698.429
+          ],
+          "quote": "Hey, can you tell me more about the Codex app server?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3718.275,
+            3722.297
+          ],
+          "quote": "If you're an AI engineer, seeing the Codex repo, it's a great source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 938,
+          "t": [
+            3736.122,
+            3740.365
+          ],
+          "quote": "I think hopefully you've learned a bit today about how you can use Codex to kind of level up your workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 939,
+          "t": [
+            3741.026,
+            3749.552
+          ],
+          "quote": "Some of the closing thoughts that I want to end on here are questions that I repeatedly ask myself as I'm trying to get to the frontier of what Codex can do, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 940,
+          "t": [
+            3750.273,
+            3754.336
+          ],
+          "quote": "They start pretty simple just by asking, have I tried asking Codex to do it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 941,
+          "t": [
+            3754.756,
+            3760.28
+          ],
+          "quote": "I think one of the things around the office that we say more frequently than ever now is, have you asked Codex?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 947,
+          "t": [
+            3777.008,
+            3786.09
+          ],
+          "quote": "As you go down this path, there's going to be additional questions like, OK, as it's progressing, what blocked Codex from actually getting to the answer?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3790.431,
+            3797.753
+          ],
+          "quote": "Are there ways to build that context into repeatable tools like skills or plug-ins that Codex can use the next time it runs into this problem?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3802.116,
+            3814.186
+          ],
+          "quote": "Like as you think about the work, is there ways that you can be prompting Codex to implicitly delegate the structure of the things that you are building or to start orchestrating across multiple threads to have different Codex instances communicating with each other?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 954,
+          "t": [
+            3820.891,
+            3834.481
+          ],
+          "quote": "I think as we've shown, one thing that you might assume when building with Codex or when building with the OpenAI API is that a human needs to be involved to go to the platform page and go get an API key and then paste it into the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3905.21,
+            3910.612
+          ],
+          "quote": "We also have Jason on the developer experience team giving a talk about how he gets the most out of Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3926.298,
+            3932.041
+          ],
+          "quote": "This workshop will go through the step-by-steps of how to set yourself up for success with Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3942.184,
+            3949.749
+          ],
+          "quote": "Dom will be doing a session on building on the Codex harness, and then another session explaining behind the Codex harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 983,
+          "t": [
+            3961.072,
+            3971.815
+          ],
+          "quote": "So thank you for joining us and that's the end of the first segment of today's workshop where we sort of give that whirlwind twirl of everything Codex and hopefully you have something fun to cope with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3976.076,
+            3981.557
+          ],
+          "quote": "First things first, if you've not downloaded the Codex app, do give it a download and for credits.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3982.037,
+            3987.02
+          ],
+          "quote": "So we are giving 100.USD in Codex credits and 100.USD in API credits.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 997,
+          "t": [
+            4017.616,
+            4023.481
+          ],
+          "quote": "We've got OpenAI staff here as well to help unblock you or to answer any questions about using Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 Codex 定位为能自主执行多步骤任务的编码智能体,反复讨论智能体的委派、编排、权限与「软件工厂」式自主运转。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            580.767,
+            584.929
+          ],
+          "quote": "So in this case, let's say we want to visualize something about this agent's SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            755.472,
+            764.421
+          ],
+          "quote": "Maybe use Microsoft Teams, use Slack, and that provides all the relevant connectivity you need for your agent to work, to bring context into the kitchen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1423.796,
+            1426.317
+          ],
+          "quote": "You don't have to wrestle with the agent for control of your screen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1660.712,
+            1663.994
+          ],
+          "quote": "which doesn't easily expose that kind of interface to an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1681.061,
+            1687.564
+          ],
+          "quote": "And I think that is the most useful for when you need to hand off state or authorization to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1687.584,
+            1694.146
+          ],
+          "quote": "So I think we've all probably run into the issue where we want to build an agent to go and use the World Wide Web the exact same way that we do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2157.469,
+            2163.354
+          ],
+          "quote": "And then from this, when you get the agent tells what it's going to do next, you can also get a sense of what maybe it's on the wrong track.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2274.446,
+            2278.589
+          ],
+          "quote": "So the subagent was already pre-respond, but then the main agent messaged the subagent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3011.38,
+            3012.84
+          ],
+          "quote": "You're giving the agent more autonomy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3589.67,
+            3594.717
+          ],
+          "quote": "But for everything that exists in the core agent harness, we've got that in the app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            3675.032,
+            3676.933
+          ],
+          "quote": "You want to manage different agent providers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 932,
+          "t": [
+            3709.813,
+            3716.715
+          ],
+          "quote": "And there have been more engineering blog posts about a Windows sandbox, first of its kind, how we built the agent loop, amazing stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 951,
+          "t": [
+            3798.953,
+            3802.076
+          ],
+          "quote": "How do I start scaling kind of from one agent to many, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 960,
+          "t": [
+            3856.594,
+            3862.357
+          ],
+          "quote": "I think it is one thing to sit with a coding agent and build a single piece of software.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说子代理像「分包商」——模型自己决定何时委派、上下文保持隔离,适合只要结果不在乎过程的任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 597,
+          "t": [
+            2271.144,
+            2274.186
+          ],
+          "quote": "And you notice here what it did was that it messaged the subagent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2274.446,
+            2278.589
+          ],
+          "quote": "So the subagent was already pre-respond, but then the main agent messaged the subagent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 697,
+          "t": [
+            2719.821,
+            2729.347
+          ],
+          "quote": "So if you want, if you know you have a subagent that should be your, you know, code reviewer, right, you can have a specific prompt set of developer instructions here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2830.341,
+            2838.665
+          ],
+          "quote": "I could have used a subagent and that would have worked fine, but I wanted to see all of the different things that were happening and I didn't want it to just be delegated into the ether via subagents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "thread-handoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "线程交接 (thread handoff)",
+      "file": "线程交接",
+      "primary": true,
+      "how_described": "本集说它适合想让分工全程对用户可见、在心里把两条线分开的场景,与子代理互补,并演示了远程线程指挥本地线程做测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 701,
+          "t": [
+            2751.682,
+            2756.486
+          ],
+          "quote": "Subagents can work in tandem with thread-to-thread handoff in Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2812.272,
+            2823.377
+          ],
+          "quote": "Thread-to-thread handoff is useful for when you still want to be in the loop and you still want to be able to look at everything that's happening, and perhaps even larger than that, you are mentally thinking about separating these two threads.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把「把上下文喂清楚」列为烹饪法第一步,称推理模型时代的关键不是魔法咒语而是给足上下文(app shot、插件、记忆、口述)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            254.037,
+            259.84
+          ],
+          "quote": "A bunch of things, I think fundamentally, to just really help you give context to Codex really fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 74,
+          "t": [
+            337.841,
+            340.142
+          ],
+          "quote": "Number one, you've got to give Codex your context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            340.482,
+            348.406
+          ],
+          "quote": "There's a lot of context in your documents, in your brain, in your conversations, in your email, in Notion, Linear, so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 76,
+          "t": [
+            348.867,
+            350.207
+          ],
+          "quote": "You've got to give Codex that context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            394.279,
+            397.623
+          ],
+          "quote": "Cooking a codecs, where you give it your context, and you can just build things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            444.198,
+            448.099
+          ],
+          "quote": "All that context on Slack, all the conversation, that brainstorming is just right there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 113,
+          "t": [
+            468.958,
+            473.422
+          ],
+          "quote": "And it's very nice because that's where you have a lot of personal context, the conversations, there's brainstorming.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            529.632,
+            533.236
+          ],
+          "quote": "So that's another example of bringing context because you have a code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            536.559,
+            538.201
+          ],
+          "quote": "There's a lot of things that context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            755.472,
+            764.421
+          ],
+          "quote": "Maybe use Microsoft Teams, use Slack, and that provides all the relevant connectivity you need for your agent to work, to bring context into the kitchen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            770.767,
+            779.033
+          ],
+          "quote": "In giving the app context, a lot of times, I will work through a difficult problem or a workflow that I'm not sure how, I wasn't sure before how to tell Codex how to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            931.554,
+            937.177
+          ],
+          "quote": "So one thing is that context is not just about best practices or external information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            937.197,
+            939.038
+          ],
+          "quote": "There's a lot of context in our heads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            946.401,
+            948.843
+          ],
+          "quote": "I think about it as bringing context over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            959.508,
+            961.87
+          ],
+          "quote": "But memories and context isn't just textual.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1031.11,
+            1032.191
+          ],
+          "quote": "So that's context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1042.133,
+            1045.816
+          ],
+          "quote": "So to recap, part one, right, we want to give Codex context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1067.734,
+            1072.575
+          ],
+          "quote": "You want to be able to keep the flow when you're adding your own individual context for the tasks that you're working on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1074.516,
+            1078.817
+          ],
+          "quote": "I think just being able to, as we've been demoing up here on stage, say, here's the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1155.575,
+            1159.961
+          ],
+          "quote": "There's a ton more stuff, I think, both in, like, context and personalization in the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1272.484,
+            1275.626
+          ],
+          "quote": "So those are the first two steps, context and building.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1836.983,
+            1840.746
+          ],
+          "quote": "Reasoning models are really intelligent, and the real thing is about context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1840.946,
+            1843.668
+          ],
+          "quote": "So it actually goes back to our first step, giving context clearly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2174.683,
+            2181.248
+          ],
+          "quote": "So if there is any context that you want to keep long term in your project, make sure you're communicating that back to the main thread because they will get stale after a while.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2243.747,
+            2252.272
+          ],
+          "quote": "Sub-agents are also a particularly helpful thing in these long-running tasks because you want to make sure context is well-separated, agents sort of focus on different tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2394.099,
+            2395.441
+          ],
+          "quote": "I didn't have context of what's going on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2556.86,
+            2559.302
+          ],
+          "quote": "And many times, it's compacting its context window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2569.458,
+            2577.362
+          ],
+          "quote": "We natively trained the model on multiple context windows through a process called compaction, and that's what lets Codex be really good at it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2797.046,
+            2798.926
+          ],
+          "quote": "It also keeps the context separate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2798.946,
+            2811.692
+          ],
+          "quote": "I think unlike a lot of other tools that we've brought to Codex to help keep context windows efficient, subagents are one where you're keeping the context separate and the models are communicating with each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2849.413,
+            2860.781
+          ],
+          "quote": "And I was using those, and I told them in the AgentsMD file, when you're done, go and check with the Creative Director thread, which I'd given a bunch of extra context on the look and feel I wanted for the game.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 875,
+          "t": [
+            3473.324,
+            3477.786
+          ],
+          "quote": "It's constantly updating my notes on different work streams, and it's keeping a lot of context there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3542.268,
+            3547.053
+          ],
+          "quote": "And it's integrating all of the tool calls and the plugins and the context compaction that you know and love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 948,
+          "t": [
+            3787.111,
+            3788.651
+          ],
+          "quote": "Was there context that it needed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 950,
+          "t": [
+            3790.431,
+            3797.753
+          ],
+          "quote": "Are there ways to build that context into repeatable tools like skills or plug-ins that Codex can use the next time it runs into this problem?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机操作 (computer use)",
+      "file": "计算机操作",
+      "primary": true,
+      "how_described": "本集演示 Codex 操控光标替人点按钮下载企业软件数据,说它最擅长没有编程接口的遗留桌面软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            268.305,
+            271.326
+          ],
+          "quote": "It builds on sort of our technology with computer use and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            300.276,
+            306.42
+          ],
+          "quote": "The plug-ins, computer use, multi-modality, being able to use Codex on the mobile, app shots, that's a personal favorite.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1291.871,
+            1293.171
+          ],
+          "quote": "And the first one is computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1368.957,
+            1371.099
+          ],
+          "quote": "Yeah, use like computer use and go for it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1382.233,
+            1385.555
+          ],
+          "quote": "And you will see, OK, Codex has correctly invoked the computer use skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1421.574,
+            1423.515
+          ],
+          "quote": "And that's the beauty of computer use of Codex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1499.381,
+            1507.848
+          ],
+          "quote": "Just to give Codex a bit of a hit, I mean, just to make things for exposition purposes, what we're using here is the Chrome extension, which is slightly similar to computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1508.208,
+            1513.392
+          ],
+          "quote": "So this is computer use, but here it's directly controlling a specific application, which is Chrome.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1568.442,
+            1569.623
+          ],
+          "quote": "So that's computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1593.64,
+            1601.026
+          ],
+          "quote": "The three that we currently have today are computer use, which you saw, the Chrome extension, which you also saw, and the in-app browser, which I think we did not demo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1638.327,
+            1652.55
+          ],
+          "quote": "But going back to the two that we talked about today, we have computer use, which is great for anything on your laptop or your computer, but it really shines when you have applications that otherwise don't have a programmatic interface to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            1664.274,
+            1672.578
+          ],
+          "quote": "And so if you just need Codex to drive the app in the same way that you, a human being, would, computer use is really incredible and kind of unlike anything else that I've tried.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3028.454,
+            3031.516
+          ],
+          "quote": "We have some of the power user tools like computer use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 893,
+          "t": [
+            3585.784,
+            3589.61
+          ],
+          "quote": "The ones that need to live on your computer, like computer use, are not going to be there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文压缩 (compaction)",
+      "file": "上下文压缩",
+      "primary": true,
+      "how_described": "本集说 GPT 5.1 Codex Max 通过 compaction 在多个上下文窗口上原生训练模型,这是 Codex 能跑十几小时长任务的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 662,
+          "t": [
+            2548.412,
+            2550.194
+          ],
+          "quote": "So the first thing is compaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2569.458,
+            2577.362
+          ],
+          "quote": "We natively trained the model on multiple context windows through a process called compaction, and that's what lets Codex be really good at it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2578.923,
+            2584.546
+          ],
+          "quote": "Some examples of what people have said about compaction, to quote, did OpenAI basically solve compaction?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2591.989,
+            2596.071
+          ],
+          "quote": "This individual from Japan said, like, in fact, Codex has strong compaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3542.268,
+            3547.053
+          ],
+          "quote": "And it's integrating all of the tool calls and the plugins and the context compaction that you know and love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3581.619,
+            3585.504
+          ],
+          "quote": "And like I said, it has all the same underlying features that we've been demoing, compaction, steering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plugins",
+      "type": "concept",
+      "role": "concept",
+      "name": "插件 (plugins)",
+      "file": "插件",
+      "primary": true,
+      "how_described": "本集把插件说成捆绑包:技能(最佳实践)+应用(外部服务连接)+MCP 服务器(工具),并演示让 Codex「把这个变成技能」积累插件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            659.398,
+            663.979
+          ],
+          "quote": "So I think we've sort of covered very briefly another concept called plugins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            677.245,
+            697.38
+          ],
+          "quote": "So plugins are a bundle that sort of bundle together skills, which are best practices, external prompts, maybe practices that are custom to your team, apps, which have the configuration and provide the connectivity to external services, and MCP servers, which provide the tools that are necessary.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            701.243,
+            702.784
+          ],
+          "quote": "So that's plugins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            702.964,
+            705.266
+          ],
+          "quote": "And if you just take a look at some of the plugins we were using here,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            706.046,
+            712.491
+          ],
+          "quote": "So if you just go over to Codex app and just scroll right up here, there's this button called plugins, and you'll see a bunch of plugins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            748.429,
+            750.31
+          ],
+          "quote": "So those were the sort of two plugins we were using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            750.55,
+            754.812
+          ],
+          "quote": "But there are other plugins that may be relevant, like, say, Gmail, Outlook.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            765.102,
+            769.946
+          ],
+          "quote": "I think I would add to that, you know, the Codex app comes with the skills to build your own plugins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            818.02,
+            822.924
+          ],
+          "quote": "But with the Codex app and the plugins, I'm able to get that sort of best practices through that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1050.58,
+            1053.963
+          ],
+          "quote": "That includes bringing in external content via plugins, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 887,
+          "t": [
+            3542.268,
+            3547.053
+          ],
+          "quote": "And it's integrating all of the tool calls and the plugins and the context compaction that you know and love.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hooks",
+      "type": "concept",
+      "role": "concept",
+      "name": "钩子 (hooks)",
+      "file": "钩子",
+      "primary": true,
+      "how_described": "本集说钩子是在特定检查点运行确定性脚本的护栏,用于拦截误贴 API 密钥、白名单外工具调用,自主权越大越有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 419,
+          "t": [
+            1613.38,
+            1622.209
+          ],
+          "quote": "But in addition to just opening and rendering web pages, Codex has really deep hooks into that browser engine, deeper than it has at the Chrome extension.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 721,
+          "t": [
+            2877.445,
+            2880.888
+          ],
+          "quote": "We didn't quite show it here, but we also have hooks in the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 722,
+          "t": [
+            2881.048,
+            2886.993
+          ],
+          "quote": "If you want to set up your own hooks, you can do so in your config.toml file in your Codex home directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2899.063,
+            2905.566
+          ],
+          "quote": "So I think in these cases, you might use hooks to do things like send your conversation to a logging engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2908.547,
+            2911.168
+          ],
+          "quote": "I think there's quite a lot of security use cases for hooks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2943.905,
+            2952.488
+          ],
+          "quote": "But if there are things that are a little bit more sophisticated or a little bit more complex that you want to do to validate the output, you can use hooks to take care of that as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 739,
+          "t": [
+            2977.83,
+            2983.692
+          ],
+          "quote": "So just to quickly share, on hooks slipped my mind as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 741,
+          "t": [
+            2986.373,
+            2989.054
+          ],
+          "quote": "And there's actually a quick example of hooks right over there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2989.074,
+            2991.655
+          ],
+          "quote": "So if you go to Settings, all the hooks are solved there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3006.719,
+            3011.36
+          ],
+          "quote": "And hooks can become particularly useful with long-running tasks because there is that trade-off.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3018.421,
+            3021.382
+          ],
+          "quote": "And to that end, hooks become useful in getting the guardrail.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集展示心跳自动化与派生新线程的自动化,现场演示每半小时读 Slack 反馈、修 bug、开 PR 并催 Dom 审查的「软件工厂」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 758,
+          "t": [
+            3053.774,
+            3057.538
+          ],
+          "quote": "So here's one quick example of a automation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3089.264,
+            3091.666
+          ],
+          "quote": "What it's going to do is create a heartbeat automation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3103.875,
+            3105.916
+          ],
+          "quote": "And then it created the automation here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 799,
+          "t": [
+            3157.753,
+            3159.354
+          ],
+          "quote": "So that's a heartbeat automation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3204.789,
+            3206.671
+          ],
+          "quote": "So I'm going to create an automation to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3240.183,
+            3241.463
+          ],
+          "quote": "So it's going to create an automation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3288.998,
+            3299.085
+          ],
+          "quote": "So we're putting all these primitives together, the automation, the plugin, which can read Slack, the fact that one Codex thread can communicate with other Codex threads, and even create work tree threads, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 838,
+          "t": [
+            3317.438,
+            3321.241
+          ],
+          "quote": "So yeah, there's a lot of it you can chain together to build that automation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3329.458,
+            3335.507
+          ],
+          "quote": "So, we were talking earlier about how we've actually been running a automation in the background, and let's find that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3339.684,
+            3351.332
+          ],
+          "quote": "So earlier, while everyone was coming into the room, I was asking Codex, can you run an automation every five minutes, taking a screenshot of what's happening on screen, the Google Drive presentation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3386.341,
+            3399.567
+          ],
+          "quote": "One automation you can run, maybe every Friday, you ask Codex to look at all your conversation threads and see are there skills that you could improve, are there things you could add to the agents that are marked down, or are there skills you could just remove, maybe skills that you haven't been using.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 858,
+          "t": [
+            3400.267,
+            3405.49
+          ],
+          "quote": "A second automation or approach that may be useful, maybe you're using automations to draft email replies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3405.91,
+            3410.272
+          ],
+          "quote": "You can have one automation that drafts the email reply, but you can run a second automation that sort of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3419.977,
+            3423.199
+          ],
+          "quote": "And in that regard, the email drafting automation can get better over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3461.818,
+            3468.141
+          ],
+          "quote": "So I have an automation that just sort of goes through and checks the latest updates from all the sources that might need my attention.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "app-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用服务器 (app server)",
+      "file": "应用服务器",
+      "primary": true,
+      "how_described": "本集说 app server 协议是 Codex 应用/CLI/VS Code 扩展的底层开源协议,可嵌入自己的产品,让用户用 ChatGPT 订阅额度驱动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            198.55,
+            203.551
+          ],
+          "quote": "With it being open source, there being the app server, which we'll talk about briefly at the end, you can put it here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2116.18,
+            2124.444
+          ],
+          "quote": "Because I know, like, OK, I think Codex needs probably some help with that because I'm building a new instance on the app server, a new user interface, so it needs to get some credentials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2354.093,
+            2358.054
+          ],
+          "quote": "There's one managing the app server protocol, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3424.379,
+            3431.223
+          ],
+          "quote": "So I'll let Charlie just recap what automations are and share a bit more about the app server as well, our final step.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3535.281,
+            3542.228
+          ],
+          "quote": "The app server is basically what allows all of these services to talk with the main codex harness, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 889,
+          "t": [
+            3559.646,
+            3564.988
+          ],
+          "quote": "And so to that extent, if you're not aware, you can embed Codex into your product using App Server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 894,
+          "t": [
+            3589.67,
+            3594.717
+          ],
+          "quote": "But for everything that exists in the core agent harness, we've got that in the app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 897,
+          "t": [
+            3603.192,
+            3608.656
+          ],
+          "quote": "It was actually to build my own user interface for Codex, the app server, called Retrodex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 902,
+          "t": [
+            3616.482,
+            3617.463
+          ],
+          "quote": "It's using the app server.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 916,
+          "t": [
+            3647.39,
+            3657.542
+          ],
+          "quote": "And what's nice, and to just prove that it's all running on the same app server, is that if we go to the Codex app in the same project, Retrodex, you should see that over here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3683.097,
+            3687.019
+          ],
+          "quote": "The app server is a useful way for you to integrate it into your own platforms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 928,
+          "t": [
+            3695.464,
+            3698.429
+          ],
+          "quote": "Hey, can you tell me more about the Codex app server?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3705.242,
+            3706.524
+          ],
+          "quote": "So that's the app server.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "goal",
+      "type": "concept",
+      "role": "concept",
+      "name": "goal",
+      "file": "goal",
+      "primary": true,
+      "how_described": "本集用「许愿精灵/猴爪」比喻 Goal:给足可验证的成功标准时它跑 15-40 小时自动评估自身,否则会以非预期方式「达成」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            1766.181,
+            1767.162
+          ],
+          "quote": "I'm running a goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1944.169,
+            1945.19
+          ],
+          "quote": "You can define a goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1945.49,
+            1949.233
+          ],
+          "quote": "So there is actually a skill in the OpenAI skills repo called Define Goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1949.733,
+            1951.915
+          ],
+          "quote": "And I told Codex, hey, don't create one goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1988.593,
+            1990.314
+          ],
+          "quote": "And then it also ran a goal audit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2316.513,
+            2322.519
+          ],
+          "quote": "For example, the audit of the goal, the code review, but also doing the communication back to Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2333.107,
+            2334.347
+          ],
+          "quote": "We earlier talked about goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2334.727,
+            2337.608
+          ],
+          "quote": "And here is a dashboard that Codex created for the goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2609.237,
+            2615.34
+          ],
+          "quote": "I'll let Charlie share a bit more about, like, specific primitives and concepts that enable this, such as Goal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2618.683,
+            2621.105
+          ],
+          "quote": "So as you saw, we have a goal that's already been running for 15 hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            2621.325,
+            2628.151
+          ],
+          "quote": "And I think goal is one of these primitives that is incredibly powerful if you can use it in the right way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2642.381,
+            2649.164
+          ],
+          "quote": "Sometimes I do feel a little bit like goal is kind of like a genie in the sense that when it works well, it is insanely magical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            2678.591,
+            2688.713
+          ],
+          "quote": "Thomas, as you can see, used a slash goal that was running for 40 hours that did a reimplementation of Doom in native Swift code, if that's the type of thing that you want to give a shot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            2700.449,
+            2702.212
+          ],
+          "quote": "I think Goal is pretty incredible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集多次把 Slack 作为上下文来源与通信渠道(插件读反馈频道、长任务汇报进度)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            444.198,
+            448.099
+          ],
+          "quote": "All that context on Slack, all the conversation, that brainstorming is just right there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            755.472,
+            764.421
+          ],
+          "quote": "Maybe use Microsoft Teams, use Slack, and that provides all the relevant connectivity you need for your agent to work, to bring context into the kitchen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1054.003,
+            1066.753
+          ],
+          "quote": "Me personally, I'm a pretty heavy user of Slack, Gmail, Linear, and then it makes it really easy to just say like, hey, go look at my unread Slack messages for today and create a daily agenda for me to think about when I get into work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1110.886,
+            1116.748
+          ],
+          "quote": "The ability to just like from any app, I think I don't copy and paste anything from Slack anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1116.848,
+            1122.83
+          ],
+          "quote": "I just app shot my Slack window or I just app shot my browser and send it directly into Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2053.404,
+            2060.252
+          ],
+          "quote": "So one other way of thinking about this is that maybe you could just ask Codex to send you Slack messages.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2316.513,
+            2322.519
+          ],
+          "quote": "For example, the audit of the goal, the code review, but also doing the communication back to Slack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2322.759,
+            2328.885
+          ],
+          "quote": "So this thread over here where it says provide Slack thread URL, that's over here where I was providing all these updates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 802,
+          "t": [
+            3165.457,
+            3171.24
+          ],
+          "quote": "So one example of this, so right now I have actually this Slack channel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 829,
+          "t": [
+            3288.998,
+            3299.085
+          ],
+          "quote": "So we're putting all these primitives together, the automation, the plugin, which can read Slack, the fact that one Codex thread can communicate with other Codex threads, and even create work tree threads, and so forth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3456.375,
+            3461.277
+          ],
+          "quote": "I think me personally, I feel like I'm drowning in Slack and email and linear notifications every day.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

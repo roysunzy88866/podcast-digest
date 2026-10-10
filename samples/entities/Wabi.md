@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Anish Acharya]] · [[Olivia Moore]] · [[a16z]] · [[Elena Berger]] · [[Kavak]] · [[Josh Ellman]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":182,"Anthropic":194,"Google":67,"智能体":449,"Anish Acharya":4,"Olivia Moore":2,"a16z":18,"Elena Berger":5,"Kavak":1,"Josh Ellman":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":185,"Anthropic":194,"Google":69,"智能体":452,"Anish Acharya":4,"Olivia Moore":2,"a16z":18,"Elena Berger":5,"Kavak":1,"Josh Ellman":1}</script>
 
 <script>
 (function(){

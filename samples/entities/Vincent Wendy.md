@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI Engineer":1,"Devin":4,"Figma":22,"GPT":4,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":59,"MCP":84,"Slack":31}</script>
+<script type="application/json" class="pd-epn">{"AI Engineer":1,"Devin":4,"Figma":22,"GPT":4,"设计系统":7,"像素级还原":1,"自动化":1,"LLM":59,"MCP":84,"Slack":33}</script>
 
 <script>
 (function(){

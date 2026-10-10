@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>182</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>185</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -146,6 +146,7 @@ unlisted: true
 - **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(00:03起):本集说它在 X-Blade, Jim 网络安全基准上故意关掉安全限制测试模型、知情不干预，却至今不公开提示词与给智能体的指令；同时传出按 1.5 万亿美元估值融新资、上月年化收入超 400 亿美元。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(12:39起):本集说它与 Anthropic 同被误读为「烧钱将死」，实则停训即可大幅盈利；其 GPT-6 Astra 被 Thomas 称为 AGI，Greg Brockman 表示想从按 token 定价转向按有效结果计费。
 - **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(04:40起):本集说 OpenAI 正在「速通」整套成熟的广告基础设施，把改进版 VCG 拍卖引入 ChatGPT；做广告时应以「信任」替代「自然价值」计入出价，OpenAI 的广告形式设计是当下 PM/设计师最酷的工作之一。
+- **[[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]]**(09:33起):本集说 OpenAI 发布的 bug 报告表明他们'不知道'问题出在哪,遥测和调试基础设施不够;并建议它联合各前沿实验室建立更好的事故报告机制
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(14:09起):嘉宾前雇主:曾拼命争取部署 InstructGPT(拿下当时 50% 份额),后因认为所有优化都投入在「人类那一半」而离开;聊天里还谈到政变、函数调用接口「疯了」等
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(09:32起):本集被反复讨论的模型提供商:Dines 认为 OpenAI 追赶得很好、会交替使用,ChatGPT 算大数幕后调用计算机是其「精确性」论证的例子;也是企业在 IP 泄露层面对前沿实验室的担忧对象。
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(00:05起):本集说它同一天发布了 GPT-6 Sol 和 GPT-6 Luna,更便宜更快,其模型在角色 SVG 插画上表现最好
@@ -180,6 +181,8 @@ unlisted: true
 - **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(41:42起):本集在讨论 AI 末日论式宣传的来源与前沿实验室安全团队时顺带提到 OpenAI。
 - **[[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]]**(11:21起):本集说 Front 与 OpenAI 有合作关系；同时提到 OpenAI 与政府一起警告不要让中国开源模型主导市场。
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(00:28起):本集把它列为『看似 LLM AI 公司、最终都会变成生物技术公司』的巨头之一,并提到它正进入与医学和慈善相关的有趣领域。
+- **[[2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c|《用 Codex 做菜：从截图到自动化的六步烹饪法》]]**(00:37起):本集两位嘉宾所在的开发者体验团队,以工作坊形式介绍 OpenAI 的 Codex 及其周边产品(plugin、Agents SDK、app server)。
+- **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(01:34起):本集说 OpenAI 创建了智能体商务协议(agentic commerce protocol),并提供了 ChatGPT 内的即时结账体验。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(01:05起):本集说 Diogo 曾在此工作四年半、参与 InstructGPT 与 RLHF；也批评其过度拒绝回滚、客服 demo 六年未解决。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(02:25起):Yash 曾在其工作并参与 Codex;本集重点谈它与 Base 10 的合作,认为这是 OpenAI 想成为企业用 AI 入口的信号,是多模型未来的明确标志。
 - **[[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]]**(36:04起):本集说加入 Valen 的人本可以去 OpenAI、Anthropic,但他们意识到底层模型的问题自会有人解决,想亲手解决这个真正重要的问题。
@@ -267,7 +270,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*182 集*
+*185 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -405,6 +408,7 @@ unlisted: true
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
+- [[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]] — 作为被讨论公司
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为被讨论公司
@@ -441,6 +445,8 @@ unlisted: true
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为被讨论公司(提及)
 - [[2026-10-06-eyeonai-the-coordination-tax-why-ai-is-burning-o|《AI没有消灭客服，反而让他们更累了？》]] — 作为被讨论公司
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为被讨论公司
+- [[2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c|《用 Codex 做菜：从截图到自动化的六步烹饪法》]] — 作为被讨论公司
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为被讨论公司
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司
 - [[2026-10-07-a16z-how-valon-rebuilt-a-13-trillion-industry|《13万亿美元的美国房贷，跑在互联网诞生前的老系统上》]] — 作为被讨论公司(提及)
@@ -456,9 +462,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[推理]] · [[ChatGPT]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[护栏]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[护栏]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"Anthropic":194,"推理":89,"ChatGPT":102,"Google":67,"Cursor":83,"NVIDIA":64,"Codex":81,"护栏":86,"Claude":92}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"Anthropic":194,"ChatGPT":103,"推理":89,"Google":69,"Cursor":83,"NVIDIA":64,"Codex":82,"护栏":87,"Claude":93}</script>
 
 <script>
 (function(){

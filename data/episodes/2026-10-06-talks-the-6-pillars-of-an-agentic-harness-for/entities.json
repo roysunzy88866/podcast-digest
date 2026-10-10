@@ -1,0 +1,556 @@
+{
+  "episode_id": "2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "AI 智能体",
+    "生产运维",
+    "因果推理",
+    "评测",
+    "AI 架构"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "varun-krovvidi",
+      "type": "person",
+      "role": "guest",
+      "name": "Varun Krovvidi",
+      "file": "Varun Krovvidi",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "resolve-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Resolve AI",
+      "file": "Resolve AI",
+      "primary": true,
+      "how_described": "本集介绍 Resolve AI 是做『面向生产环境的 AI』的公司，构建智能体来运行和修复软件，并把产品拆成 on-call 智能体、事故智能体和环境后台智能体三类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            22.042,
+            23.862
+          ],
+          "quote": "I'm part of the team at Resolve AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            353.285,
+            356.966
+          ],
+          "quote": "All in all, our company Resolve AI started with a single thesis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            380.375,
+            385.26
+          ],
+          "quote": "So that's why we've built Resolve AI as three categories of agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            411.707,
+            414.751
+          ],
+          "quote": "Underneath all this is the same Resolve AI agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            815.906,
+            827.229
+          ],
+          "quote": "Like I mentioned, so this is one of the first principles that we've built into our system at Resolve AI, where the root cause is always based on a causal chain of evidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            840.934,
+            850.776
+          ],
+          "quote": "This is true for any domain-specific AI and this is true for Resolve AI as well where we are pointing you in a different direction if we don't see the data beyond a particular point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1024.41,
+            1032.122
+          ],
+          "quote": "So the work starts off from Resolve AI when it treats the alert that's coming in as a prompt in itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1231.06,
+            1241.149
+          ],
+          "quote": "And if you're interested to learn more about Resolve AI and which customers are currently using us and how are they using it, please check us out at the booth L28, I believe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主张：生产系统上的运维与修软件工作大部分应由智能体完成，工程师只需运行智能体；并在演示中把告警当作提示词，派出调查员等多类智能体干活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            411.707,
+            414.751
+          ],
+          "quote": "Underneath all this is the same Resolve AI agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            705.998,
+            712.084
+          ],
+          "quote": "So that's why we've actually built an agent architecture that answers these same questions exactly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            910.794,
+            914.417
+          ],
+          "quote": "So this is the starting point and ending point for any agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            967.143,
+            970.484
+          ],
+          "quote": "One is an on-call agent, one is an incidence agent, and of course, the background agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "on-call",
+      "type": "concept",
+      "role": "concept",
+      "name": "值班 (on-call)",
+      "file": "值班",
+      "primary": true,
+      "how_described": "本集把常规值班维护比作日常小毛病（吃一颗 Tylenol），指出没人敢说 90% 的值班工作已被 AI 接管，并介绍 Resolve AI 的 on-call 智能体负责修复日常软件问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            49.121,
+            51.681
+          ],
+          "quote": "How many of you have been on call before?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            54.082,
+            57.582
+          ],
+          "quote": "Have you tried to use AI to help you with your on call?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            62.023,
+            69.025
+          ],
+          "quote": "For the people who raised their hands, can you tell me that 90% of your on call work is being done by AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            181.087,
+            183.669
+          ],
+          "quote": "One is the regular on-call and maintenance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            193.015,
+            196.178
+          ],
+          "quote": "So these are the regular on-call style alerts that you need to deal with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            385.36,
+            388.723
+          ],
+          "quote": "There are on-call agents to fix your software issues that come in on a daily basis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            967.143,
+            970.484
+          ],
+          "quote": "One is an on-call agent, one is an incidence agent, and of course, the background agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "incident",
+      "type": "concept",
+      "role": "concept",
+      "name": "事故 (incident)",
+      "file": "事故",
+      "primary": true,
+      "how_described": "本集把事故比作需要全员上阵的手术，强调生产事故要的是因果证据链而非连贯答案，事故智能体负责驱动事故频道、从复杂事故走到根因和修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            389.303,
+            398.091
+          ],
+          "quote": "And there are incidents agents that will help you drive incident channels and get you from a complex incident to a root cause and fix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            612.59,
+            620.315
+          ],
+          "quote": "What are the steps that took place that led to a particular incident so that you can actually fix the right issue instead of creating a patch?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型编排 (model orchestration)",
+      "file": "模型编排",
+      "primary": true,
+      "how_described": "本集六大支柱之一：两层含义——跟上新模型的『跑步机』，以及为每个任务匹配最佳模型（图像推理用 Gemini、确定性步骤用 OpenAI、开放式调查用 Claude）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            733.029,
+            735.291
+          ],
+          "quote": "The first one is model orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            735.831,
+            738.633
+          ],
+          "quote": "Like I mentioned, model orchestration is two layers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集六大支柱之一：目标不是选数据库或 GraphRag 等实现细节，而是给 AI 恰好够用的精确上下文量；上下文太大会过度探索、编出不存在假设，太小则探索不足。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            765.031,
+            766.353
+          ],
+          "quote": "Second is context engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            766.893,
+            773.038
+          ],
+          "quote": "Now, context engineering is often minimized to the database or an execution solution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "causal-reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "因果推理 (causal reasoning)",
+      "file": "因果推理",
+      "primary": true,
+      "how_described": "本集反复强调：模型被设计成给连贯答案而非因果关系，但生产事故唯一要找的是像侦探一样的因果证据链；建立不起证据链就应低置信度输出并指向别的方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            587.5,
+            592.302
+          ],
+          "quote": "Third and my most favorite one is defining causal reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            620.916,
+            630.723
+          ],
+          "quote": "So especially when you're solving a hard problem like production reasoning, you need causal reasoning built into the system, not just coherent answers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            814.185,
+            815.726
+          ],
+          "quote": "The third one is causal reasoning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集指出 AI 判断『删掉文件系统是最干净的修法』是特性不是缺陷，解法是围绕系统构建护栏、给 AI 最小特权访问，明确什么能读、什么条件下能写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            631.922,
+            633.382
+          ],
+          "quote": "And the next one is, of course, guardrails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            655.028,
+            659.949
+          ],
+          "quote": "You just have to build guardrails around the system so that it works in the right fashion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            866.877,
+            870.418
+          ],
+          "quote": "What are those specific guardrails that you need to define for AI to operate under?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集称评测是任何智能体架构的起点和终点，分五个层级：正负反馈、能否追溯推理路径、像给工程师打分一样给 AI 打分、与最优秀工程师对比、置信度校准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            903.571,
+            905.031
+          ],
+          "quote": "Those are different kinds of evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            905.731,
+            910.474
+          ],
+          "quote": "So that leads into the last piece, where evals is also a very critical step.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            914.857,
+            917.779
+          ],
+          "quote": "So the way we think about evals is in five different levels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            940.676,
+            952.891
+          ],
+          "quote": "So all these are systematic evals that you build into one platform that you constantly have to push the architecture against whenever there's a new model, whenever there's a new use case, or whenever there's an architecture change.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "GCP",
+      "file": "GCP",
+      "primary": false,
+      "how_described": "本集演示中提到恰逢一次 GCP 大范围故障，时间上与告警完美相关，构成『连贯答案』的诱惑，但系统因只认证据链而没有被带偏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1099.385,
+            1101.586
+          ],
+          "quote": "At the same time, there was a GCP outage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1109.75,
+            1114.152
+          ],
+          "quote": "So a GCP outage happened at the same time, so of course this might be the issue that we are seeing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1146.394,
+            1150.204
+          ],
+          "quote": "Is this related to GCP outage?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集演示里 Grafana 的告警打进 Slack 频道，Resolve 自动接手调查，用户还能从 Slack 直接拉队友进来形成虚拟作战室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            976.526,
+            984.85
+          ],
+          "quote": "Of course, most of your telemetry or observability alerts are firing into a collaboration tool like Slack or Microsoft Teams or whatever you might be using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            985.31,
+            990.555
+          ],
+          "quote": "In this case, what we are seeing is Grafana firing alerts into our common Slack channel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1195.795,
+            1200.36
+          ],
+          "quote": "This can pull in my teammate directly from Slack so that we can collaborate on this virtual war room experience.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grafana",
+      "type": "concept",
+      "role": "concept",
+      "name": "Grafana",
+      "file": "Grafana",
+      "primary": false,
+      "how_described": "本集演示中作为可观测性告警来源：Grafana 把告警发送到共同的 Slack 频道，触发 Resolve 的自动调查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            985.31,
+            990.555
+          ],
+          "quote": "In this case, what we are seeing is Grafana firing alerts into our common Slack channel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "context window",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

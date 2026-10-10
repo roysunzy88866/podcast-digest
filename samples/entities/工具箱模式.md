@@ -25,7 +25,7 @@ unlisted: true
 
 [[Oracle]] · [[Ignacio Martinez]] · [[智能体控制框架]] · [[智能体]] · [[智能体记忆]] · [[上下文窗口]] · [[上下文腐烂]] · [[智能体循环]] · [[语义层]] · [[持续学习]]
 
-<script type="application/json" class="pd-epn">{"Oracle":11,"Ignacio Martinez":1,"智能体控制框架":2,"智能体":449,"智能体记忆":3,"上下文窗口":16,"上下文腐烂":4,"智能体循环":6,"语义层":5,"持续学习":1}</script>
+<script type="application/json" class="pd-epn">{"Oracle":11,"Ignacio Martinez":1,"智能体控制框架":2,"智能体":452,"智能体记忆":3,"上下文窗口":16,"上下文腐烂":4,"智能体循环":6,"语义层":5,"持续学习":1}</script>
 
 <script>
 (function(){

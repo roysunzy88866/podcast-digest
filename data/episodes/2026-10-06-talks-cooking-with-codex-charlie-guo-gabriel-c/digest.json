@@ -1,0 +1,173 @@
+{
+  "title_zh": "用 Codex 做菜：从截图到自动化的六步烹饪法",
+  "tldr": "OpenAI 开发者体验团队的 Charlie 和 Gabriel 现场演示，如何用 Codex 四分钟做出 macOS 应用、跑通 15 小时长任务。",
+  "digest_md": "这是一场名为 Cooking with Codex 的工作坊，两位来自 OpenAI 开发者体验团队的成员——Charlie 和从新加坡飞来的 Gabriel——把用 Codex 干活比作做菜。他们一边讲，一边现场演示：让 Codex 操控浏览器下载文件、凌晨三点自己打开 Chrome 做测试、每半小时刷一遍 Slack 回复用户反馈。整场内容可以归结为六步烹饪法。\n\n## 大家都在用 Codex 做什么？\n\n开场先晒了一波用户作品：有人一次会话跑出近 300 个子代理；有人用 Codex 给 Ableton 写合成器插件；团队成员 Brent 让 Codex 直接驱动 Premiere 剪视频；还有人拿它做可玩的游戏、造自动驾驶高尔夫球车。\n\n使用场景也无处不在。有人在新干线上辗转于城市之间时切换想法，有人遛狗时刷任务。因为 Codex 开源了应用服务器，一位叫 Daniel 的用户甚至把它装进了 3 台电子墨水屏设备。\n\n## 第一步：把你的上下文喂给它\n\nGabriel 讲了个真实的例子。周五下午，团队还没有工作坊的演示点子，在 Slack 上讨论后决定做一个实时翻译应用。他没写一行需求文档，只是双指按下命令键拍了张应用截图——这个功能像截图，但所有文字都嵌入其中——Slack 里整段头脑风暴的上下文就进了 Codex。**四分零二秒后，一个他从未做过的 macOS 应用成型了**。他本人是数据科学家出身，完全不会 WebRTC 和 WebSocket。\n\n上下文也不只是文字。记忆功能（默认关闭，可在设置里打开）能让 Codex 逐渐记住你的偏好，比如你习惯用 uv 管理 Python 包。Pro 订阅用户还可以试试研究预览版的 Chronicle：你在看 GitHub 流水线时直接问为什么挂了，它知道你在看什么。\n\n## 插件：把外部世界搬进厨房\n\n插件是一个打包好的组合：技能（最佳实践）、应用（连接外部服务的配置）、以及提供工具的 MCP 服务器。比如内置的 macOS 插件自带 AppKit 的使用最佳实践；OpenAI Developers 插件可以直接替你创建 API 密钥，不用再手动去平台复制粘贴。\n\nCharlie 补充了一个习惯：每当他艰难地教会 Codex 一个工作流，就在对话结尾说把这个变成技能，下次直接调用，不必重来。\n\n## 让 Codex 替你点鼠标\n\n**很多企业软件没有 API，只有一堆按钮**。Gabriel 演示了计算机操作：拍下仪表盘的应用截图，让 Codex 下载指定日期范围的提交数据和拉取请求数据。屏幕上出现了第二个光标，自己移动、自己下载——他的手根本没碰键盘。更妙的是，macOS 上它不抢你的光标，你可以继续刷别的网页。\n\n计算机操作有 3 种形态：完整的计算机操作适合没有程序接口的桌面软件；Chrome 扩展最擅长借用你已登录的身份访问网站，绕开无头浏览器被验证码卡死的困境；应用内浏览器则对本地网页应用的深度测试最友好，因为 Codex 能看得更深 [26:33 Charlie]。\n\n## 长任务的秘诀：目标、看板和线程协作\n\nGabriel 前一晚开了 4 个长任务做演示素材：一个跑了 15 小时的现场问答网站（给 400 人的房间用，含管理员视图、参与者视图和舞台视图）、一个跑了约 7 小时的任务把研究生时代的 Julia 和 R 论文代码重写成带 Rust 后端的 Python 包、还有一个把开源表单构建器改造成内部工具。\n\n他的做法是：让 Codex 把目标写进 goals.markdown 文件、生成一个进度看板页面，不同里程碑自动触发代码审查和目标审计——**发现跑偏就提醒主线程**。他甚至让远程线程指挥本地线程用 Chrome 做测试，凌晨 3 点他自己睡觉，Codex 自己完成了端到端验证。\n\n被卡住怎么办？有次 Codex 缺 Vercel 和 Convex 的认证权限，它标记了阻塞状态，Gabriel 醒来后通过侧线线程让它给出解决步骤——Convex 的部署密钥他拒绝贴进聊天框，Codex 便给了他一段可以安全设置密钥的命令。\n\n## 提示词还需要工程吗？\n\nGabriel 的看法是：只要指令清晰就仍然重要，但**靠魔法咒语的时代过去了**。推理模型足够聪明，关键还是第一步——把上下文给清楚。他台上那个讲究的提示词，本来就是他对着手机说了一通，再让 Codex 自己润色的。\n\nCharlie 对 Goal 功能有个精妙的比喻：像许愿精灵——成功时无比神奇，失败时就像落入猴爪式陷阱：它技术上做了你要的事，只是完全不是你期望的方式。所以成功标准要尽可能可验证 [43:02 Charlie]。有人用 Goal 跑了 40 小时，用原生 Swift 重写了 Doom。\n\n## 子代理与线程交接怎么选？\n\n两者都是分工手段，区别在于：子代理适合你不在乎过程、只要结果的活，像分包商，模型自己决定何时委派，还能保持上下文隔离；线程交接适合你想全程旁观、在心里把两条线分开的场景。Charlie 周末做游戏时就开了一个创意总监线程，再开美术、音乐、动画、机制的独立线程，并在 AGENTS.md 里规定：完成后必须找创意总监签字才算完。\n\n钩子则提供确定性的护栏：在特定检查点运行固定脚本，比如每轮结束跑 Python 脚本整理仓库、检查是否误贴了 API 密钥、调用不在白名单里的工具前先拦截。自主权越大、跑得越久，钩子越有用。\n\n## 自动化：让 Codex 半夜自己上班\n\n自动化的第一种是线程内的心跳：比如用上周刚发布的 DigitalOcean 插件开通服务器，Codex 每 5 分钟检查一次是否就绪，就绪后自动给一个深度链接，点一下就配好 SSH。\n\n第二种会开出新线程。Gabriel 现场建了一个：每半小时读一遍反馈频道的评论，分类为好评、缺陷和功能请求；如果是缺陷或功能请求，就开出新工作树线程、修复、提拉取请求，然后请 Dom 审查——24 小时内不批准就持续提醒他。把这些原语串起来，**就是你睡觉时运转的软件工厂**。\n\n他甚至当场揭秘：进场时他就设了一个每 5 分钟截屏一次的自动化，让 Codex 自己评估这场 60 分钟的工作坊会不会超时。结论是：会超。\n\n## 把 Codex 装进你自己的产品\n\n最后一步是应用服务器协议。它是 Codex 应用、命令行工具和 VS Code 扩展的底层协议，开源。你可以把它嵌进自己的产品，让用户用自己的 ChatGPT 订阅和额度来驱动你的产品，压缩、转向等核心能力都在——**只有依赖本地计算机的功能（如计算机操作）除外**。Charlie 昨晚让 Codex 跑了一个新任务：给自己做一个叫 Retrodex 的复古风界面，改推理强度时还有不同的闪烁效果。\n\n## 本集带走\n\n- 第一步永远是给上下文：应用截图、插件、记忆、口述，都能省掉重复解释\n- 提示词不靠咒语，靠把可验证的成功标准写清楚，Goal 才不会变成猴爪\n- 子代理适合不在乎过程的委派，线程交接适合想全程旁观的分工\n- 长任务的关键是进度看板、里程碑审查、侧线线程沟通，以及被卡住时让它自己说清怎么解锁\n- 心跳自动化加线程交接，可以拼出整夜运转的软件工厂\n\n> 【背景】Codex 是 OpenAI 推出的编程代理，能自主执行多步骤开发任务；本集为 AI Engineer 世界博览会的现场工作坊。",
+  "quotes": [
+    {
+      "en": "So it's 2026. We're not going to go to the developer platform and click Create API Key, save it somewhere, pray that you actually save it somewhere.",
+      "zh": "都已经是 2026 年了。我们不需要再去开发者平台点击 Create API Key，把它保存到某个地方，祈祷你真的把它保存到某处了。",
+      "timestamp": "12:09",
+      "speaker": "Gabriel Chua"
+    },
+    {
+      "en": "And when I get to the end of that conversation, I will often say, hey, make this a skill, or even better, make this a plugin, so that next time I need to do this, you can just invoke the plugin and get the job done, and we don't have to step through all of this work again.",
+      "zh": "当我聊到那次对话的结尾时，我常常会说，嘿，把这个做成一个技能，或者更好的是，把它做成一个插件，这样下次我需要做这件事时，你只需调用插件就能把活干完，不用再重走一遍整套流程。",
+      "timestamp": "12:59",
+      "speaker": "Charlie Guo"
+    },
+    {
+      "en": "I think dictation to me is a really underutilized feature because we speak so much faster than we can type.",
+      "zh": "对我来说，听写是一个被严重低估的功能，因为我们说话比打字快得多。",
+      "timestamp": "17:59",
+      "speaker": "Charlie Guo"
+    },
+    {
+      "en": "But it's prompt engineering where you see, oh, I've got to use this magic phrase. I don't think we're in that state anymore.",
+      "zh": "但提示词工程是你觉得「哦，我必须用这句咒语」的那种东西。我不认为我们现在还处于那种状态。",
+      "timestamp": "30:31",
+      "speaker": "Gabriel Chua"
+    },
+    {
+      "en": "And when it doesn't, sometimes I feel like I've entered into a monkey's paw type situation where it has done the thing technically that I asked it to do, but very much not in the way that I was expecting.",
+      "zh": "而当它运转不好时，有时我觉得自己陷入了「猴爪」式的处境：它在技术上完成了我要求它做的事情，但完全不是我所期待的方式。",
+      "timestamp": "44:09",
+      "speaker": "Charlie Guo"
+    },
+    {
+      "en": "You're giving the agent more autonomy. It's going to work longer and longer without your supervision or abstracted supervision.",
+      "zh": "你正在给智能体更多的自主权。它会在没有你监督或抽象监督的情况下，工作得越来越久。",
+      "timestamp": "50:11",
+      "speaker": "Gabriel Chua"
+    },
+    {
+      "en": "And how do we figure out how to build the machine that builds the machine?",
+      "zh": "以及我们如何想办法构建那台构建机器的机器？",
+      "timestamp": "64:12",
+      "speaker": "Charlie Guo"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:53",
+      "speaker": "Charlie",
+      "en": "I think gaming to me is really a place where the models and the app can shine.",
+      "zh": "对我来说，游戏领域是模型和应用真正能大放异彩的地方。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Gabriel",
+      "en": "So it's 2026. We're not going to go to the developer platform and click Create API Key, save it somewhere, pray that you actually save it somewhere.",
+      "zh": "都已经是 2026 年了。我们不需要再去开发者平台点击 Create API Key，把它保存到某个地方，祈祷你真的把它保存到某处了。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Charlie",
+      "en": "And when I get to the end of that conversation, I will often say, hey, make this a skill, or even better, make this a plugin, so that next time I need to do this, you can just invoke the plugin and get the job done, and we don't have to step through all of this work again.",
+      "zh": "当我聊到那次对话的结尾时，我常常会说，嘿，把这个做成一个技能，或者更好的是，把它做成一个插件，这样下次我需要做这件事时，你只需调用插件就能把活干完，不用再重走一遍整套流程。"
+    },
+    {
+      "timestamp": "17:59",
+      "speaker": "Charlie",
+      "en": "I think dictation to me is a really underutilized feature because we speak so much faster than we can type.",
+      "zh": "对我来说，听写是一个被严重低估的功能，因为我们说话比打字快得多。"
+    },
+    {
+      "timestamp": "18:26",
+      "speaker": "Charlie",
+      "en": "Likewise, app shots I think are incredible and also very heavily underused.",
+      "zh": "同样，app 截图功能我觉得非常棒，而且也被严重低估了。"
+    },
+    {
+      "timestamp": "23:43",
+      "speaker": "Gabriel",
+      "en": "You don't have to wrestle with the agent for control of your screen.",
+      "zh": "你不需要和智能体争夺屏幕控制权。"
+    },
+    {
+      "timestamp": "27:44",
+      "speaker": "Charlie",
+      "en": "And so if you just need Codex to drive the app in the same way that you, a human being, would, computer use is really incredible and kind of unlike anything else that I've tried.",
+      "zh": "所以如果你只是需要 Codex 像你——一个人类——那样去操作应用，computer use 真的令人难以置信，某种意义上和我试过的任何东西都不一样。"
+    },
+    {
+      "timestamp": "28:01",
+      "speaker": "Charlie",
+      "en": "And I think that is the most useful for when you need to hand off state or authorization to the agent.",
+      "zh": "我认为当你需要把状态或授权交给智能体时，它是最有用的。"
+    },
+    {
+      "timestamp": "30:18",
+      "speaker": "Gabriel",
+      "en": "Misconception in these days is that people always ask, does prompt engineering matter? Insofar as the instructions are clear, it still matters.",
+      "zh": "如今的一个误解是，人们总是问，提示词工程还重要吗？只要指令是清晰的，它依然重要。"
+    },
+    {
+      "timestamp": "30:31",
+      "speaker": "Gabriel",
+      "en": "But it's prompt engineering where you see, oh, I've got to use this magic phrase. I don't think we're in that state anymore.",
+      "zh": "但提示词工程是你觉得「哦，我必须用这句咒语」的那种东西。我不认为我们现在还处于那种状态。"
+    },
+    {
+      "timestamp": "44:02",
+      "speaker": "Charlie",
+      "en": "Sometimes I do feel a little bit like goal is kind of like a genie in the sense that when it works well, it is insanely magical.",
+      "zh": "有时候我真的有点觉得 Goal 就像精灵一样，当它运转良好时，它有着不可思议的魔力。"
+    },
+    {
+      "timestamp": "44:09",
+      "speaker": "Charlie",
+      "en": "And when it doesn't, sometimes I feel like I've entered into a monkey's paw type situation where it has done the thing technically that I asked it to do, but very much not in the way that I was expecting.",
+      "zh": "而当它运转不好时，有时我觉得自己陷入了「猴爪」式的处境：它在技术上完成了我要求它做的事情，但完全不是我所期待的方式。"
+    },
+    {
+      "timestamp": "46:37",
+      "speaker": "Charlie",
+      "en": "I think unlike a lot of other tools that we've brought to Codex to help keep context windows efficient, subagents are one where you're keeping the context separate and the models are communicating with each other.",
+      "zh": "与我们带给 Codex 的很多其他保持上下文窗口高效的工具不同，子智能体是让上下文保持分离、模型之间相互通信的一种。"
+    },
+    {
+      "timestamp": "47:10",
+      "speaker": "Charlie",
+      "en": "I could have used a subagent and that would have worked fine, but I wanted to see all of the different things that were happening and I didn't want it to just be delegated into the ether via subagents.",
+      "zh": "我本可以用子智能体，那也能工作得很好，但我想看到正在发生的所有事情，而不想它只是通过子智能体被委派到虚无中。"
+    },
+    {
+      "timestamp": "50:11",
+      "speaker": "Gabriel",
+      "en": "You're giving the agent more autonomy. It's going to work longer and longer without your supervision or abstracted supervision.",
+      "zh": "你正在给智能体更多的自主权。它会在没有你监督或抽象监督的情况下，工作得越来越久。"
+    },
+    {
+      "timestamp": "57:36",
+      "speaker": "Charlie",
+      "en": "I think me personally, I feel like I'm drowning in Slack and email and linear notifications every day.",
+      "zh": "我个人觉得，我每天都被 Slack、邮件和 Linear 的通知淹没。"
+    },
+    {
+      "timestamp": "59:08",
+      "speaker": "Charlie",
+      "en": "We have built a lot of the components of the Codex ecosystem to be open source because we really want to encourage developers to build wherever you are and for whatever use case that you have.",
+      "zh": "我们把 Codex 生态系统的很多组件都构建成了开源，因为我们真的想鼓励开发者在你所在的任何地方、为你的任何用例进行构建。"
+    },
+    {
+      "timestamp": "63:34",
+      "speaker": "Charlie",
+      "en": "And then ultimately, if you take a step back and ask the question, okay, why does this process need a human at all?",
+      "zh": "然后最终，如果你退后一步问一个问题：好，为什么这个流程需要人类参与？"
+    },
+    {
+      "timestamp": "64:12",
+      "speaker": "Charlie",
+      "en": "And how do we figure out how to build the machine that builds the machine?",
+      "zh": "以及我们如何想办法构建那台构建机器的机器？"
+    },
+    {
+      "timestamp": "64:22",
+      "speaker": "Charlie",
+      "en": "It is another thing to start zooming out and say, actually, I want to build a software factory.",
+      "zh": "开始退后一步说，实际上，我想构建一个软件工厂，则是另一回事。"
+    }
+  ],
+  "voice_script": "今天这场,主角是两位来自 OpenAI 开发者体验团队的人,一个叫 Charlie,一个叫 Gabriel。Gabriel 是从新加坡飞过来的,数据科学家出身,完全不会 WebRTC 和 WebSocket。这场活动叫 Cooking with Codex,就是把用 Codex 干活比作做菜,两人一边讲一边现场演示,最后整场内容可以归结成一套六步烹饪法。先交代下 Codex 是什么:它是 OpenAI 推出的编程代理,能自己执行多步骤的开发任务,今天这场是 AI Engineer 世界博览会的现场工作坊。\n\n先看看大家拿它都在干什么。有人一次会话跑出近三百个子代理;有人用它给 Ableton 写合成器插件;团队成员 Brent 让它直接驱动 Premiere 剪视频;还有人拿它造自动驾驶的高尔夫球车。使用场景也无处不在,有人在新干线上辗转于城市之间时切换想法,有人遛狗时刷任务。因为 Codex 开源了应用服务器,一位叫 Daniel 的用户甚至把它装进了三台电子墨水屏设备。\n\n那这六步烹饪法,第一步是什么?把你的上下文喂给它。Gabriel 讲了个真实的例子:周五下午,团队还没有工作坊的演示点子,在 Slack 上讨论后决定做一个实时翻译应用。这时没写一行需求文档,只是双指按下命令键,拍了张应用截图——这个功能看着像截图,但所有文字都嵌入其中——Slack 里整段头脑风暴的上下文就这么进了 Codex。四分零二秒后,一个从未做过的 macOS 应用成型了。上下文也不只是文字,记忆功能能让 Codex 逐渐记住你的偏好,比如你习惯用 uv 管理 Python 包。这个功能默认关闭,可以在设置里打开。\n\n顺着这个思路,下一步自然就是把外部世界也搬进厨房,这就是插件。插件是一个打包好的组合:技能,也就是最佳实践;应用,是连接外部服务的配置;再加上提供工具的 MCP 服务器。比如内置的 macOS 插件自带 AppKit 的使用最佳实践;OpenAI Developers 插件可以直接替你创建 API 密钥,不用再手动去平台复制粘贴。Charlie 有个习惯值得学:每当他艰难地教会 Codex 一个工作流,就在对话结尾说一句,把这个变成技能,下次直接调用,不必重来。\n\n那只有界面、没有接口的老软件怎么办?很多企业软件没有 API,只有一堆按钮。Codex 的答案是计算机操作:拍下仪表盘的应用截图,让它去下载指定日期范围的提交数据和拉取请求数据。屏幕上出现了第二个光标,自己移动、自己下载,人根本没碰键盘。更妙的是,在 macOS 上它不抢你的光标,你可以继续刷别的网页。这个能力有三种形态:完整的计算机操作适合没有程序接口的桌面软件;Chrome 扩展最擅长借用你已登录的身份访问网站,绕开无头浏览器被验证码卡死的困境;应用内浏览器则对本地网页应用的深度测试最友好。\n\n有了上下文,也有了对外的手,就能上大菜了——长任务。Gabriel 前一晚开了四个长任务做演示素材:一个跑了十五小时的现场问答网站,给四百人的房间用,含管理员视图、参与者视图和舞台视图;还有一个跑了约七小时,把研究生时代的 Julia 和 R 论文代码,重写成带 Rust 后端的 Python 包。那这些任务是怎么不跑偏的?做法是让 Codex 把目标写进一个叫 goals.markdown 的文件,再生成一个进度看板页面,不同里程碑自动触发代码审查和目标审计,发现跑偏就提醒主线程。甚至可以让远程线程指挥本地线程用 Chrome 做测试——凌晨三点人在睡觉,Codex 自己完成了端到端验证。那被卡住怎么办?有次缺 Vercel 和 Convex 的认证权限,它就标记了阻塞状态,等人醒来后通过侧线线程让它给出解决步骤。Convex 的部署密钥不肯贴进聊天框,Codex 便给了他一段可以安全设置密钥的命令。\n\n这就引出一个很多人关心的问题:那提示词还需要工程吗?Gabriel 的看法是,只要指令清晰就仍然重要,但靠魔法咒语的时代过去了。推理模型足够聪明,关键还是第一步——把上下文给清楚。台上那句讲究的提示词,本来就是对着手机说了一通,再让 Codex 自己润色的。听写,在 Gabriel 眼里是个被严重低估的功能,因为说话比打字快得多。不过 Charlie 对 Goal 功能有个精妙的比喻:像许愿精灵。成功时无比神奇,失败时就像落入猴爪式陷阱——它技术上做了你要的事,只是完全不是你期望的方式。所以成功标准要尽可能可验证。有人用 Goal 跑了四十小时,用原生 Swift 重写了 Doom。\n\n再往下是分工的问题:子代理和线程交接怎么选?两者都是分工手段,区别在于,子代理适合你不在乎过程、只要结果的活,像分包商,模型自己决定何时委派,还能保持上下文隔离;线程交接适合你想全程旁观、在心里把两条线分开的场景。Charlie 周末做游戏时就开了一个创意总监线程,再开美术、音乐、动画、机制的独立线程,并在 AGENTS.md 里规定,完成后必须找创意总监签字才算完。但自主权越大、跑得越久,就越需要确定性的护栏,这就是钩子:在特定检查点运行固定脚本,比如每轮结束跑 Python 脚本检查是否误贴了 API 密钥,调用不在白名单里的工具前先拦截。\n\n最后是自动化,让 Codex 半夜自己上班。第一种是线程内的心跳,比如用上周刚发布的 DigitalOcean 插件开通服务器,每五分钟检查一次是否就绪,就绪后自动给一个深度链接,点一下就配好 SSH。第二种会开出新线程:Gabriel 现场建了一个,每半小时读一遍反馈频道的评论,分类为好评、缺陷和功能请求;如果是缺陷或功能请求,就开出新工作树线程、修复、提拉取请求,然后请 Dom 审查,二十四小时内不批准就持续提醒。把这些原语串起来,就是你睡觉时运转的软件工厂。他甚至当场揭秘,进场时就设了一个每五分钟截屏一次的自动化,让 Codex 自己评估这场六十分钟的工作坊会不会超时。结论是:会超。\n\n最后一步,是把 Codex 装进你自己的产品,靠的是应用服务器协议。它是 Codex 应用、命令行工具和 VS Code 扩展的底层协议,开源,可以嵌进自己的产品,让用户用自己的 ChatGPT 订阅和额度来驱动你的产品,压缩、转向这些核心能力都在,只有依赖本地计算机的功能除外。Charlie 昨晚就跑了个新任务,给自己做了一个叫 Retrodex 的复古风界面,改推理强度时还有不同的闪烁效果。\n\n所以这一整套看下来,核心其实就一句话:都已经 2026 年了,我们不需要再去开发者平台点击 Create API Key,把它保存到某个地方,然后祈祷你真的把它保存到某处了。"
+}

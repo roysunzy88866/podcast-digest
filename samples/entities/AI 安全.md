@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[对齐]] · [[超级智能]] · [[Anthropic]] · [[智能体]] · [[护栏]] · [[Alex]] · [[Theo Jaffe]] · [[Jaan Tallinn]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":182,"Hugging Face":31,"对齐":19,"超级智能":9,"Anthropic":194,"智能体":449,"护栏":86,"Alex":6,"Theo Jaffe":7,"Jaan Tallinn":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":185,"Hugging Face":32,"对齐":20,"超级智能":9,"Anthropic":194,"智能体":452,"护栏":87,"Alex":6,"Theo Jaffe":7,"Jaan Tallinn":1}</script>
 
 <script>
 (function(){

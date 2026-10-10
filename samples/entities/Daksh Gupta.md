@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]] [[Dan Adler]] [[Matt Lawler]]
+[[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Kath Korevec]] [[Kent C. Dodds]] [[Jeff Koss]] [[Leo Platzer]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":449,"pull request":5,"代码审查":24,"沙箱":88,"Codex":81,"Devin":4,"Claude":92,"Cursor":83,"vibe coding":47}</script>
+<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":452,"pull request":5,"代码审查":24,"沙箱":88,"Codex":82,"Devin":4,"Claude":93,"Cursor":83,"vibe coding":47}</script>
 
 <script>
 (function(){

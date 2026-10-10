@@ -37,7 +37,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Ultrafast]] · [[Tibo Sottiaux]] · [[MG Siegler]] · [[Decisions API]] · [[Notion]] · [[Instinct]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":182,"智能体":449,"ChatGPT":102,"Codex":81,"Ultrafast":2,"Tibo Sottiaux":2,"MG Siegler":1,"Decisions API":3,"Notion":16,"Instinct":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":185,"智能体":452,"ChatGPT":103,"Codex":82,"Ultrafast":2,"Tibo Sottiaux":2,"MG Siegler":1,"Decisions API":3,"Notion":16,"Instinct":5}</script>
 
 <script>
 (function(){

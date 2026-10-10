@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[MCP]] · [[JetBrains]] · [[Boris]] · [[Ali Haghani]] · [[Alex Hancock]] · [[Anthropic]] · [[Circleback]] · [[Block]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"Claude Code":98,"MCP":84,"JetBrains":2,"Boris":1,"Ali Haghani":1,"Alex Hancock":1,"Anthropic":194,"Circleback":2,"Block":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"Claude Code":98,"MCP":84,"JetBrains":2,"Boris":1,"Ali Haghani":1,"Alex Hancock":1,"Anthropic":194,"Circleback":2,"Block":3}</script>
 
 <script>
 (function(){

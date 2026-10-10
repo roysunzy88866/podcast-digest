@@ -1,0 +1,106 @@
+{
+  "title_zh": "当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成",
+  "tldr": "PayPal 高级工程师 Sam Parsons 演讲，拆解 ChatGPT 和 Google AI 模式里的购物支付如何落地。",
+  "digest_md": "越来越多的购物将发生在 ChatGPT、Google 这类 AI 对话界面里——用户不再打开商家的网站。那支付环节怎么办？PayPal 企业支付部门(原名 Braintree)的资深工程师 Sam Parsons 在一场演讲中，展示了商家如何接到来自 AI 智能体的付款。他讲了三条路径，核心信息是：PayPal 正在为商家搭建桥梁，让它从许多不同的入口收钱。[00:12 Sam Parsons]\n\n## ChatGPT 里怎么买东西？\n\n先解释两个概念。OpenAI 搞了一个智能体商务协议，Google 联合其他方搞了一个通用商务协议。Parsons 说，你去翻规范会发现，两者几乎一模一样。\n\n演示的场景是这样的：用户在 ChatGPT 里搜索想订酒店。商家通过一个 MCP 应用展示商品——所谓 MCP 应用，就是内嵌了网页界面的 MCP 服务器，包含 HTML 和 JavaScript,可以被 ChatGPT、Claude 等智能体渲染出来。这个界面的外观、内容完全由商家控制，不是 ChatGPT 的默认界面。[03:29 Sam Parsons]\n\n用户决定购买时，点击结账，ChatGPT 会弹出官方的即时结账界面。用户输入信用卡号(或者用已存储的)，后台随即完成令牌化——意思是把真实的卡号换成一张不可直接消费的凭证，这样传给谁都不会泄露敏感信息，也不增加商家的合规负担。[06:02 Sam Parsons]\n\n商家最后收到这个令牌，像处理普通 PayPal 令牌一样扣款。结算、退款、拒付、合规，全都照旧。对商家来说，这单在系统里会被标记为来自 ChatGPT 的交易。[08:20 Sam Parsons]\n\n这些令牌还被多重限制：只能给指定商家使用，有最高金额上限，有币种，有有效期——不能永远用下去。[08:03 Sam Parsons]\n\n## Google AI 模式里，商家连界面都不用做\n\n在 Google AI 模式里流程略有不同。用户想买跑步鞋，智能体通过通用商务协议在商家那边创建一个会话。用户决定结账时，由 Google Pay 完成令牌化，再把令牌交回商家扣款。\n\n关键区别在于：商家在 Google AI 模式下不需要做任何界面，不用建 MCP 应用。你只需要在自己的配置文件里声明，我的交易要经由 PayPal 企业支付处理，附上商家 ID 和客户端密钥，然后搭好接收结账请求的接口就行。[10:00 Sam Parsons]\n\n换句话说，Google 这条路对商家来说更省事，但体验由 Google 主导；ChatGPT 那条路，商家能自己设计商品展示。\n\n## 第三条路：商家完全掌控，跳出对话框结账\n\n如果商家既不想绑定 ChatGPT 也不想绑定 Google,还有一条路：自己做一个 MCP 应用，展示商品卡片和购买按钮，用户点击后跳转到一个外部结账页面完成支付，然后页面再自动更新应用里的订单状态。演示用的是 Claude。\n\n这条路的代价是多一步跳转，摩擦稍微大一点，但**商家对整个体验、支付方式拥有完全控制权**。[12:12 Sam Parsons] Parsons 还提到，MCP 应用有个叫 elicitation 的新特性即将普及，以后这类外部验证可以更无缝地嵌在对话里完成。[13:22 Sam Parsons]\n\n## 本集带走\n\n- OpenAI 和 Google 分别推出的两套智能体商务协议，规范内容几乎相同。\n- 令牌化让卡号不出现在流转环节，令牌有商家、金额、币种、有效期等多重限制。\n- ChatGPT 路径：商家做 MCP 应用控制商品展示，结账用 ChatGPT 官方即时结账。\n- Google AI 模式路径：商家不做界面，只提供商品数据和支付接口。\n- 第三条路：MCP 应用加外部结账页，商家控制力最强，但用户多一步跳转。",
+  "quotes": [],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:09",
+      "speaker": "Sam Parsons",
+      "en": "And really, the key takeaway that I want you to have is that PayPal Enterprise Payments is building the bridges for merchants to be able to accept payments from many different places.",
+      "zh": "真正地，我希望你们带走的核心要点是，PayPal Enterprise Payments 正在为商户搭建桥梁，使他们能够接受来自许多不同地方的支付。"
+    },
+    {
+      "timestamp": "01:52",
+      "speaker": "Sam Parsons",
+      "en": "So if you go look at the specs, you're going to find out, oh, they are almost identical. We're kind of early days here.",
+      "zh": "所以如果你去看规范，你会发现，哦，它们几乎一模一样。我们还处于早期阶段。"
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Sam Parsons",
+      "en": "So this is kind of a general standard.",
+      "zh": "所以这算是一种通用标准。"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Sam Parsons",
+      "en": "So it's inside of, say, ChatGPT, but the merchant gets to control it. They get to control the look, the feel.",
+      "zh": "所以它是在比如说 ChatGPT 里面，但是由商家来控制。他们可以控制外观、感觉。"
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Sam Parsons",
+      "en": "And that looks like every token they normally process. So this is a really seamless integration for them at the end of it.",
+      "zh": "而这看起来和他们平时处理的每一个令牌一样。所以这对他们来说最终是一个非常无缝的集成。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Sam Parsons",
+      "en": "That can then be passed around without increasing PCI scope and dangerous things happening.",
+      "zh": "这个令牌随后可以到处传递，而不会扩大 PCI 范围或发生危险的事情。"
+    },
+    {
+      "timestamp": "07:56",
+      "speaker": "Sam Parsons",
+      "en": "And what's kind of happening behind the scenes here is these tokens are constrained in a number of ways.",
+      "zh": "而这背后发生的事情是，这些令牌在多个方面是受限的。"
+    },
+    {
+      "timestamp": "08:11",
+      "speaker": "Sam Parsons",
+      "en": "It also has an expiration, so you can't just use this forever.",
+      "zh": "它还有一个过期时间，所以你不能永远使用它。"
+    },
+    {
+      "timestamp": "08:20",
+      "speaker": "Sam Parsons",
+      "en": "So this would show up within PayPal Enterprise Payments as a ChatGPT transaction that occurred.",
+      "zh": "所以这会作为一笔发生的 ChatGPT 交易显示在 PayPal Enterprise Payments 中。"
+    },
+    {
+      "timestamp": "10:00",
+      "speaker": "Sam Parsons",
+      "en": "They don't create an experience. Their integration with Google AI mode is more providing, here are my products.",
+      "zh": "他们不需要创建一个体验。他们与 Google AI mode 的集成更多是提供：这是我的商品。"
+    },
+    {
+      "timestamp": "10:16",
+      "speaker": "Sam Parsons",
+      "en": "There is no UI that you have to build. You have to stand up endpoints, essentially, to integrate with this.",
+      "zh": "没有任何你必须构建的 UI。你本质上只需要搭建端点，来与它集成。"
+    },
+    {
+      "timestamp": "11:18",
+      "speaker": "Sam Parsons",
+      "en": "And just kind of opening up your mind about what are the other things that you could do with MCP apps, this one gives the merchant really full control over the whole experience.",
+      "zh": "顺便开拓一下思路，看看用 MCP app 还能做哪些其他事情——这个方式让商家对整个体验拥有真正的完全控制。"
+    },
+    {
+      "timestamp": "11:27",
+      "speaker": "Sam Parsons",
+      "en": "And we're going to work in things that are not necessarily Google or ChatGPT, but there's a lot of different agents that already support MCP apps.",
+      "zh": "而且我们要处理的东西不一定是 Google 或 ChatGPT，已经有很多不同的智能体支持 MCP app 了。"
+    },
+    {
+      "timestamp": "12:00",
+      "speaker": "Sam Parsons",
+      "en": "So that gives you a lot more control, but there is a little bit more friction that's introduced in this mode because you're not doing the actual checkout inside of your agent.",
+      "zh": "这给了你更多的控制权，但这个模式也引入了稍微多一点的摩擦，因为你不是在你的智能体内部完成实际的结账。"
+    },
+    {
+      "timestamp": "12:56",
+      "speaker": "Sam Parsons",
+      "en": "You have complete control as a merchant over everything.",
+      "zh": "作为商家，你对一切拥有完全的控制。"
+    },
+    {
+      "timestamp": "13:22",
+      "speaker": "Sam Parsons",
+      "en": "It's not supported in most of the major ones yet that is called elicitation.",
+      "zh": "目前大多数主要平台还不支持，它叫做 elicitation。"
+    }
+  ],
+  "voice_script": "今天请来的主角，是支付公司 PayPal 企业支付部门的一位资深工程师，这个部门原名 Braintree,做的是给商家处理收款。他叫 Sam Parsons,最近在一场演讲里，讲了这么一件事：越来越多的购物，会发生在 ChatGPT、Google 这类 AI 对话界面里——用户根本不再打开商家的网站了。那你站在商家的角度想想，问题就来了：钱怎么收？以前用户在你网站上下单，你接好你的支付系统就行；现在买卖发生在别人的对话框里，商家怎么接到这笔付款？这场演讲，就是把这件事拆开讲清楚的。\n\n先交代个背景。这件事之所以成立，是因为两边都定了一套规矩。OpenAI 搞了一个东西，叫智能体商务协议；Google 联合其他几方，也搞了一个，叫通用商务协议。你去翻这两份规范会发现，Parsons 的原话是，两者几乎一模一样。说白了，就是大家商量好了智能体和商家之间该怎么对话，只是名字不一样。\n\n那具体怎么走？我们先看 ChatGPT 这条路，演示的场景是用户想订酒店。这里得先解释一个新东西，叫 MCP 应用。所谓 MCP 应用，就是内嵌了网页界面的 MCP 服务器——里面装着 HTML 和 JavaScript,可以被 ChatGPT、Claude 这些智能体直接渲染出来。关键是，这个界面的样子和内容，完全由商家自己控制，不是 ChatGPT 的默认界面。也就是说，在 AI 对话里，商家还能保留自己的门面。\n\n好，用户在 ChatGPT 里搜酒店，看到商家展示的界面，决定买了，点击结账。这时 ChatGPT 会弹出一个官方的即时结账界面，用户在上面输信用卡号，或者用已经存好的卡。接下来是最要紧的一步，叫令牌化。这个词听着玄，说白了就是：把真实的卡号，换成一张不能直接消费的凭证。这么一换，卡号就不会在各个环节里流转，传给谁都不会泄露敏感信息，商家也不用背额外的合规负担。\n\n商家最后收到的，就是这张令牌，然后像处理普通的 PayPal 令牌一样扣款。结算、退款、拒付、合规，全都照旧，流程一点不用改。唯一的变化是，这单在系统里会被标记为来自 ChatGPT 的交易，商家能知道这单是从哪来的。而且这些令牌不是给了就能随便用，限制是好几重的：只能给指定的商家用，有最高金额上限，有币种，还有有效期，不能永远用下去。你把这几重限制放在一起看，安全性其实是被锁得很死的。\n\n那 Google 那边呢？流程差不多，但有个关键区别。用户想买双跑步鞋，智能体通过通用商务协议，在商家那边创建一个会话，用户决定结账时，由 Google Pay 完成令牌化，再把令牌交回商家扣款。听起来跟刚才差不多，但差别在于：商家在 Google AI 模式下，连界面都不用做，不用建刚才说的那种 MCP 应用。你只需要在自己的配置文件里声明一句，我的交易要经由 PayPal 企业支付处理，附上商家 ID 和客户端密钥，再搭好一个接收结账请求的接口，就完事了。\n\n所以两条路各有取舍。Google 这条路，对商家来说省事得多，但购物体验是 Google 主导的；ChatGPT 那条路，商家能自己设计商品展示，但得多做一层应用。\n\n那如果商家既不想绑定 ChatGPT,也不想绑定 Google 呢？还有第三条路。商家可以自己做 MCP 应用，展示商品卡片和购买按钮，用户点击购买后，跳转到一个外部的结账页面完成支付，付完之后，页面再自动更新应用里的订单状态。演示用的是 Claude。这条路的好处很明确，商家对整个体验、对支付方式，拥有完全的控制权。代价呢，是多一步跳转，用户要跳出对话框去付钱，摩擦稍微大一点。Parsons 还提到，MCP 应用有个叫 elicitation 的新特性，即将普及，意思是以后这种外部验证，可以更无缝地嵌在对话里完成，不用真跳出去了。\n\n所以回头看，三条路径，摆的是同一个问题的三种答案：购物离开网站之后，支付怎么跟过去。而 PayPal 在这里扮演的角色，说白了就是修桥的——不管用户从 ChatGPT、Google 还是别的智能体哪个入口进来，商家都能通过同一个管道把钱收回来。\n\n购物正在搬进对话框，而支付这件事，正被悄悄重修一遍地基，让每一扇新入口都能通向商家的收银台。"
+}

@@ -151,8 +151,8 @@ Dinh 给的起点很朴素：先评估自己的目录。你的商品数据是偏
 **顺着「智能体」挖下去**
 
 - [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)、智能体商务 (agentic commerce)</span>
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:PayPal、Google · 同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)</span>
-- [[2026-07-23-nopriors-building-an-autonomous-delivery-experien|DoorDash 联合创始人：我们其实是一家机器人公司]]<span class="pd-rz">同概念:智能体 (agent)、智能体商务 (agentic commerce)</span>
 
 </div>
 <div class="pd-ex">

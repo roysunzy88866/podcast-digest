@@ -1,0 +1,197 @@
+{
+  "title_zh": "让 AI 真正接管运维：Resolve AI 的六大支柱",
+  "tldr": "Resolve AI 的 Varun Krovvidi 讲解为什么 AI 能改变写代码却搞不定生产事故，以及需要什么样的架构。",
+  "digest_md": "现场举手提问很能说明问题：在座的工程师几乎都值过班，不少人试过用 AI 帮忙值班，但没有人敢说 90% 的值班工作已经被 AI 接管。Varun 是 Resolve AI 团队的成员，这家公司的产品是让智能体(AGENT)去运行和修复软件。他在这场演讲里分享了他们的教训：为什么这事儿这么难，以及一个能在真实生产环境里干活的智能体系统，需要哪六根支柱。\n\n## 为什么 AI 写代码很强，救生产事故却不行？\n\n第一波 AI 改变的是写代码，Varun 认为这有三个原因：代码本身是自解释的，容易解析；代码是模块化的，容易被拆解处理；代码是单一领域，不需要跨领域推理，所以才有明确的基准测试。\n\n但**工程师生涯里约 70% 的时间不是在写新软件，而是在运维和修软件**。这类工作恰恰相反：跨多个领域、跨一堆工具。Varun 用医疗做比喻，把它分成三类：日常值班的小毛病，像头痛要吃 Tylenol;需要全员上阵的大事故，像做手术；以及每天吃的维生素——定期看基础设施、成本、做平台工程来维持系统健康。[02:54 Unknown]\n\n## 直接把最强模型怼上去，为什么不行？\n\n演示的时候效果很好，一旦要跨用例、跨团队扩展，裂缝就出现了。Varun 列了几种失败模式。\n\n模型有锚定偏见，天生要给你一个连贯的答案。而且每个工作流里有几百种任务——推理任务、确定性任务、看图、查日志、写 SQL——不同模型各有所长，你得不断评估该用哪个模型，还得跟上模型更新的跑步机。[07:36 Unknown]\n\n上下文窗口也是坑。窗口太大会过度探索，编出根本不存在的假设；太小又会探索不足，看不到其他可能的路径。而生产事故里，遥测数据几乎是无限的，日志和指标要多少有多少，再叠加代码和基础设施，问题就来了。\n\n## 最要命的是：模型不找因果，只求连贯\n\nVarun 最喜欢讲的一点：模型是来取悦你的。你逼得够狠，它就会朝任何方向同意你。**模型被设计成给出连贯的答案，而不是因果关系**。[09:52 Unknown]\n\n但生产事故要的恰恰是因果证据链——像侦探一样，搞清楚是哪些步骤导致了这次事故，才能修对问题，而不是打个补丁了事。\n\n> 【背景】GCP 是 Google Cloud,谷歌的云服务平台；Slack 是常用的团队聊天工具。\n\n## 六大支柱：一个生产级智能体系统的骨架\n\n针对这些裂缝，Resolve AI 总结出六根支柱。\n\n一，模型编排：跟上新模型，并为每个任务匹配最合适的模型——图像推理用 Gemini,确定性步骤用 OpenAI,开放式调查用 Claude。[12:25 Unknown]\n\n二，上下文工程：目标不是选什么数据库或方案，而是给 AI 恰好够用的上下文，通常是多种技术的组合。\n\n三，因果推理：根因必须建立在证据链上。建立不起证据链，就低置信度输出，并把用户引向别的方向，而不是硬编一个答案。\n\n四，受治理的行动：AI 可能认为删掉一段代码甚至一个文件系统是最干净的修法——你不能怪它，这是特性不是缺陷。所以必须给它最小权限，明确什么能读、什么条件下能写。[10:33 Unknown]\n\n五，学习系统：每一次交互都是学习机会，不仅从调查本身学，也从用户怎么引导它学。\n\n六，评测：这是架构的起点和终点。像给工程师打分一样给 AI 打分——用户的正反馈负反馈、能否追溯它的推理路径、和最好的工程师比差在哪、置信度校准得准不准。\n\n## 演示：一个真实告警是怎么被调查的\n\n现场演示里，Grafana 的告警打进 Slack,Resolve 自动接手调查。它把告警当成提示词，派出两类智能体干活：调查员像工程师一样，从指标、链路追踪、日志里找线索，再和变更事件、部署记录、代码、基础设施做关联。\n\n它给出的结论是：某个日志技能失败率升高，根因是系统里还残留着失效的集成。有意思的是它同时列出了被排除的其他理论——比如当时正好赶上 GCP 大范围故障，时间上完美相关，很符合“连贯答案”的套路，但它没有被带偏。[18:19 Unknown]\n\n系统还设计成最小信任：新工程师可以追问“这和 GCP 故障有关吗”，甚至硬推它往某个方向走。因为答案只基于证据链，推它也不会顺着你说。你还能直接从 Slack 把同事拉进来，变成一个多人虚拟作战室。\n\n## 本集带走\n\n- 写代码只占工程师工作的一部分，更大一部分时间在运行和修软件，后者才是 AI 的硬骨头，因为它跨领域、跨工具。\n- 把最强模型直接怼上去演示很好看，扩展后必然出现裂缝：锚定偏见、上下文过载或不足、只有连贯没有因果。\n- 生产事故需要因果证据链，而不是讨人喜欢的答案；建立不起证据链就该承认低置信度。\n- 六大支柱：模型编排、上下文工程、因果推理、受治理的行动、学习系统、系统化评测。\n- AI“删库”是最干净修法这类行为是特性不是缺陷，解法是最小权限加明确护栏。",
+  "quotes": [
+    {
+      "en": "But in reality, for engineering, 70% of our time is spent on the other side, not generating new software, but rather in production systems, basically running and fixing software.",
+      "zh": "但现实中，在工程工作里，我们 70% 的时间花在另一头，不是生成新软件，而是在生产系统上，基本上就是运行和修复软件。",
+      "timestamp": "02:31",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "That is when the disappointment starts to set in, which in most cases, most people dub it as the last mile, but that is the single longest mile that you have to run with AI.",
+      "zh": "这时候失望就开始出现了，在大多数情况下，大多数人把它称为“最后一英里”，但那是你和 AI 一起要跑的最漫长的一英里。",
+      "timestamp": "05:13",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "So we genuinely believe that all of this work that you do on production systems, like fixing issues or running your software on a day-to-day basis, should be done by agents in most part.",
+      "zh": "我们真诚地相信，你在生产系统上所做的所有这些工作——比如修复问题或者日常运行你的软件——在大部分情况下都应该由智能体来完成。",
+      "timestamp": "05:57",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "And engineers should just be running those agents, where agents take care of fixing and running your software.",
+      "zh": "而工程师应该只是运行那些智能体，由智能体负责修复和运行你的软件。",
+      "timestamp": "06:14",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "This becomes a huge issue because telemetry is literally infinite.",
+      "zh": "这会成为一个巨大的问题，因为遥测数据实际上是无限的。",
+      "timestamp": "09:31",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "So models are there to please you.",
+      "zh": "模型是用来取悦你的。",
+      "timestamp": "09:52",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "So models are specifically designed to give you coherent answers but not causality.",
+      "zh": "所以模型是专门被设计来给你连贯的答案，而不是因果关系。",
+      "timestamp": "10:01",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "Now, when you add temporal discussions on top of it, your AI system should have the same context of a previous investigation in the 100th investigation, or else you're starting the wheel from the same time again.",
+      "zh": "现在，当你在其上叠加时间维度的讨论时，你的 AI 系统应该在第 100 次调查中仍保有之前那次调查的上下文，否则你就是在再次从零开始转轮子。",
+      "timestamp": "11:30",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "But what matters as a goal is what is the precise amount of context AI needs to solve that specific problem.",
+      "zh": "但作为目标真正重要的是，AI 解决那个具体问题所需的精确上下文量是多少。",
+      "timestamp": "12:59",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "Like I mentioned, so this is one of the first principles that we've built into our system at Resolve AI, where the root cause is always based on a causal chain of evidence.",
+      "zh": "就像我提到的，这是我们在 Resolve AI 的系统里构建的首要原则之一，即根因始终基于一条因果证据链。",
+      "timestamp": "13:35",
+      "speaker": "Varun Krovvidi"
+    },
+    {
+      "en": "Going back to what I mentioned, if you push an AI hard enough, it will start to agree with you.",
+      "zh": "回到我之前提到的，如果你把一个 AI 逼得够紧，它就会开始同意你。",
+      "timestamp": "19:25",
+      "speaker": "Varun Krovvidi"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:02",
+      "speaker": "Unknown",
+      "en": "For the people who raised their hands, can you tell me that 90% of your on call work is being done by AI?",
+      "zh": "对于举手的朋友们，你们能说你们 90% 的值班工作是由 AI 完成的吗？"
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "But in reality, for engineering, 70% of our time is spent on the other side, not generating new software, but rather in production systems, basically running and fixing software.",
+      "zh": "但现实中，在工程工作里，我们 70% 的时间花在另一头，不是生成新软件，而是在生产系统上，基本上就是运行和修复软件。"
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Unknown",
+      "en": "So these things are fundamentally hard because they're not exactly like code.",
+      "zh": "这些事情从根本上是困难的，因为它们并不完全像代码。"
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Unknown",
+      "en": "That is when the disappointment starts to set in, which in most cases, most people dub it as the last mile, but that is the single longest mile that you have to run with AI.",
+      "zh": "这时候失望就开始出现了，在大多数情况下，大多数人把它称为“最后一英里”，但那是你和 AI 一起要跑的最漫长的一英里。"
+    },
+    {
+      "timestamp": "05:57",
+      "speaker": "Unknown",
+      "en": "So we genuinely believe that all of this work that you do on production systems, like fixing issues or running your software on a day-to-day basis, should be done by agents in most part.",
+      "zh": "我们真诚地相信，你在生产系统上所做的所有这些工作——比如修复问题或者日常运行你的软件——在大部分情况下都应该由智能体来完成。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Unknown",
+      "en": "And engineers should just be running those agents, where agents take care of fixing and running your software.",
+      "zh": "而工程师应该只是运行那些智能体，由智能体负责修复和运行你的软件。"
+    },
+    {
+      "timestamp": "07:36",
+      "speaker": "Unknown",
+      "en": "First thing you'll notice that of course models will have anchoring bias.",
+      "zh": "你会注意到的第一件事当然是模型会有锚定偏差。"
+    },
+    {
+      "timestamp": "08:12",
+      "speaker": "Unknown",
+      "en": "But every workflow has hundreds of different types of tasks.",
+      "zh": "但每个工作流都有数百种不同类型的任务。"
+    },
+    {
+      "timestamp": "08:27",
+      "speaker": "Unknown",
+      "en": "Now, all the models, frontier models that you see around, each of them is good at a specific kind of task.",
+      "zh": "现在，你看到的所有模型、前沿模型，每一个都擅长某种特定类型的任务。"
+    },
+    {
+      "timestamp": "08:45",
+      "speaker": "Unknown",
+      "en": "And second, it needs to be able to marry the best model for the best task.",
+      "zh": "其次，它需要能够为最佳任务匹配最佳模型。"
+    },
+    {
+      "timestamp": "09:04",
+      "speaker": "Unknown",
+      "en": "The second part is, if you provide large enough context, models start to over-explore.",
+      "zh": "第二个部分是，如果你提供足够大的上下文，模型会开始过度探索。"
+    },
+    {
+      "timestamp": "09:31",
+      "speaker": "Unknown",
+      "en": "This becomes a huge issue because telemetry is literally infinite.",
+      "zh": "这会成为一个巨大的问题，因为遥测数据实际上是无限的。"
+    },
+    {
+      "timestamp": "09:52",
+      "speaker": "Unknown",
+      "en": "So models are there to please you.",
+      "zh": "模型是用来取悦你的。"
+    },
+    {
+      "timestamp": "10:01",
+      "speaker": "Unknown",
+      "en": "So models are specifically designed to give you coherent answers but not causality.",
+      "zh": "所以模型是专门被设计来给你连贯的答案，而不是因果关系。"
+    },
+    {
+      "timestamp": "10:20",
+      "speaker": "Unknown",
+      "en": "So especially when you're solving a hard problem like production reasoning, you need causal reasoning built into the system, not just coherent answers.",
+      "zh": "所以尤其是当你在解决像生产推理这样困难的问题时，你需要把因果推理内置到系统里，而不仅仅是连贯的答案。"
+    },
+    {
+      "timestamp": "10:47",
+      "speaker": "Unknown",
+      "en": "AI might have determined that the cleanest possible fix is just deletion of that particular code snippet.",
+      "zh": "AI 可能已经判断出最干净的修复方式就是删除那段特定的代码片段。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "Unknown",
+      "en": "Now, when you add temporal discussions on top of it, your AI system should have the same context of a previous investigation in the 100th investigation, or else you're starting the wheel from the same time again.",
+      "zh": "现在，当你在其上叠加时间维度的讨论时，你的 AI 系统应该在第 100 次调查中仍保有之前那次调查的上下文，否则你就是在再次从零开始转轮子。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Unknown",
+      "en": "But what matters as a goal is what is the precise amount of context AI needs to solve that specific problem.",
+      "zh": "但作为目标真正重要的是，AI 解决那个具体问题所需的精确上下文量是多少。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Unknown",
+      "en": "Like I mentioned, so this is one of the first principles that we've built into our system at Resolve AI, where the root cause is always based on a causal chain of evidence.",
+      "zh": "就像我提到的，这是我们在 Resolve AI 的系统里构建的首要原则之一，即根因始终基于一条因果证据链。"
+    },
+    {
+      "timestamp": "19:25",
+      "speaker": "Unknown",
+      "en": "Going back to what I mentioned, if you push an AI hard enough, it will start to agree with you.",
+      "zh": "回到我之前提到的，如果你把一个 AI 逼得够紧，它就会开始同意你。"
+    }
+  ],
+  "voice_script": "你做过运维值班吗?就是凌晨三点被告警吵醒,爬起来打开电脑查日志、查指标、查到底哪里出了事。如果做过,这一集你肯定会感兴趣。\n\n今天的主角是 Varun,来自一家叫 Resolve AI 的公司,这家公司做的事情,就是造一种智能体,让它去运行和修复软件。在这一集里,Varun 讲了一个特别实在的问题:为什么 AI 写代码已经这么强了,但一到救生产事故就不行?以及,如果要造一个能在真实生产环境里干活的智能体系统,它的骨架应该长什么样。\n\n先说说现场的场面。Varun 开场就做了个举手调查:在座的工程师,几乎人人都值过班,不少人还试过用 AI 来帮忙值班。但是,没有一个人敢说,自己的值班工作有九成已经被 AI 接管了。这就是现状——大家都在用,但离真正放手还差得远。\n\n那问题出在哪?Varun 先解释了为什么 AI 在写代码这件事上能成。原因有三个。第一,代码本身是自解释的,机器容易解析。第二,代码是模块化的,可以拆成小块处理。第三,写代码是个单一领域,不需要跨领域推理,所以能建立明确的基准测试来打分。\n\n但 Varun 提醒了一件事:工程师的职业生涯里,大约七成的时间不是在写新软件,而是在运维、在修软件。这类工作跟写代码正好反过来——它跨多个领域,跨一堆工具。Varun 用看病打了个比方,把运维工作分成三类。第一类是日常值班的小毛病,像头痛吃颗止痛药;第二类是需要全员上阵的大事故,像做手术;第三类是每天吃的维生素,就是定期检查基础设施、控制成本、做平台工程,维持系统健康。\n\n好,那有人会说了,现在的模型这么强,直接把最强的模型怼上去不就完了?演示的时候确实效果很好,但一旦要跨用例、跨团队去扩展,裂缝就出现了。Varun 列了几种失败模式。\n\n第一个坑是模型的锚定偏见。模型天生就想给你一个连贯的答案。而且一个工作流里有几百种任务——推理的、确定性的、看图的、查日志的、写 SQL 的——不同模型各有所长,你得不断评估该用哪个,还得跟上模型更新的跑步机。\n\n第二个坑是上下文窗口。窗口开太大,模型会过度探索,编出根本不存在的假设;开太小,又会探索不足,看不到其他可能的路径。麻烦在于,生产事故里的遥测数据几乎是无限的,日志和指标要多少有多少,再叠加代码和基础设施,问题就更复杂了。\n\n但 Varun 说,最要命的是第三个问题。模型是来取悦你的,你逼得够狠,它就会朝任何方向同意你。这句话很关键:模型被设计成给出连贯的答案,而不是因果关系。可生产事故要的恰恰是因果证据链——你得像个侦探一样,搞清楚到底是哪些步骤导致了这次事故,才能修对问题,而不是打个补丁了事。\n\n那么,针对这些裂缝,Resolve AI 总结出了六根支柱,这就是一个生产级智能体系统的骨架。\n\n第一,模型编排。跟上新模型,并为每个任务匹配最合适的模型——图像推理用 Gemini,确定性步骤用 OpenAI,开放式调查用 Claude。\n\n第二,上下文工程。目标不是选什么数据库或方案,而是给 AI 恰好够用的上下文,通常是多种技术的组合。\n\n第三,因果推理。根因必须建立在证据链上。建立不起证据链,就输出低置信度,并把用户引向别的方向,而不是硬编一个答案。\n\n第四,受治理的行动。为什么需要这条?因为 AI 可能认为删掉一段代码、甚至删掉一个文件系统,是最干净的修法。你不能怪它——这是特性不是缺陷。所以必须给它最小权限,明确什么能读、什么条件下能写。\n\n第五,学习系统。每一次交互都是学习机会,不仅从调查本身学,也从用户怎么引导它来学。\n\n第六,评测。这一条既是架构的起点,也是终点。就像给工程师打分一样给 AI 打分——看用户的正反馈负反馈,看能不能追溯它的推理路径,看它跟最好的工程师比差在哪,置信度校准得准不准。\n\n那这一套东西,真跑起来是什么样?Varun 现场演示了一次真实告警的调查过程。Grafana 的告警打进 Slack,Resolve 自动接手。它把告警当成提示词,派出两类智能体干活。调查员就像工程师一样,从指标、链路追踪、日志里找线索,再和变更事件、部署记录、代码、基础设施做关联。\n\n最后给出的结论是:某个日志技能的失败率升高了,根因是系统里还残留着失效的集成。有意思的是,它同时列出了被排除的其他理论。比如,当时正好赶上 GCP 大范围故障,时间上完美相关,这很符合\"连贯答案\"的套路——但系统没有被带偏,因为它只认证据链。\n\n整个系统还设计成最小信任。你可以追问一句\"这和 GCP 故障有关吗\",甚至硬推着它往某个方向走。但答案是建立在证据链上的,你怎么推,它都不会顺着你说。你还能直接从 Slack 把同事拉进来,变成一个多人虚拟作战室。\n\n所以这一集的答案很清楚。写代码只是工程师工作的一部分,更大的一部分时间花在运行和修软件上,那才是 AI 的硬骨头。把最强模型直接怼上去,演示很好看,一扩展就有裂缝:锚定偏见、上下文过载、只有连贯没有因果。而解法就是那六根支柱——模型编排、上下文工程、因果推理、受治理的行动、学习系统、系统化评测。\n\n最后,用 Varun 的话来收尾。Varun 说,我们在生产系统上做的这些工作——修复问题、日常运行软件——在大部分情况下,都应该由智能体来完成,而工程师应该只是运行那些智能体。记住这句话:运维的未来,是工程师管智能体,智能体管事故。"
+}

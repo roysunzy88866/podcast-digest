@@ -154,7 +154,7 @@ Ben 补充：这是从「只读环境」走向「读写环境」，Google 相关
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-09-02-bigtech-cloudflare-ceo-we-re-ready-to-block-mill|AI机器人流量已超人类：Cloudflare CEO谈网络的下一场豪赌]]<span class="pd-rz">同公司:Google · 同概念:SEO、智能体 (agent)</span>
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

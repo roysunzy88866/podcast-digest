@@ -143,7 +143,7 @@ Qasar 认为，硅谷的许多 CEO 缺乏「品味」<button class="pd-ts" data-
 
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同公司:Waymo · 同概念:智能体 (agent)、物理 AI (physical AI)</span>
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:Waymo、Facebook、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、智能体 (agent)</span>
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:Google、OpenAI · 同概念:ChatGPT、智能体 (agent)</span>
 
 </div>
 </div>

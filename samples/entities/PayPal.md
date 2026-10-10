@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PayPal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PayPal">PA</div><div class="pi"><h1 class="pt">PayPal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PayPal">PA</div><div class="pi"><h1 class="pt">PayPal</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]]**(00:57起):本集回顾它的意外起点:Max 本想做低功耗芯片上的加密,发现快速加解密小量数据把你引向支付;它的重大创新是『完全不在乎匿名性』;人才辈出靠刻意筛选创业者加彼此见过对方压力下的真实底层版本。
 - **[[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]]**(52:29起):本集说与 Stripe 的收购交易告吹，传言一方出价 60 多、一方要 70 多，死了之前先别说它死。
 - **[[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]]**(00:15起):本集主讲人所在公司：其 Agentic Commerce 团队研究 AI 智能体如何重塑购物与支付，并做了商家产品数据丰富（enrichment）实验来观察智能体如何搜索和推荐商品。
+- **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(00:12起):本集主讲方：PayPal Enterprise Payments(原名 Braintree)为大型企业处理支付，正在为商家搭建桥梁，使其能从 ChatGPT、Google AI 模式等许多不同入口接受来自智能体的付款。
 
 ## ① 提到它的金句
 
@@ -27,7 +28,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 - [[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]] — 作为被讨论公司(提及)
@@ -36,14 +37,15 @@ unlisted: true
 - [[2026-09-03-a16z-the-100b-niches-hiding-inside-payments-a|《信用卡是最好的用户界面——PayPal 元老与 Affirm CEO 聊支付 25 年》]] — 作为被讨论公司
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|《NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则》]] — 作为被讨论公司(提及)
 - [[2026-10-04-talks-keyword-search-is-dying-is-your-catalog|《关键词搜索正在死去：PayPal 说，你的商品目录准备好了吗》]] — 作为被讨论公司
+- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Harry Stebbings]] · [[Cursor]] · [[Stripe]] · [[Anthropic]] · [[Meta]] · [[OpenAI]] · [[Salesforce]] · [[Claude Code]] · [[Cognition]]
+[[智能体]] · [[OpenAI]] · [[Harry Stebbings]] · [[Google]] · [[Cursor]] · [[智能体商务]] · [[Stripe]] · [[Anthropic]] · [[Meta]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":449,"Harry Stebbings":20,"Cursor":83,"Stripe":48,"Anthropic":194,"Meta":48,"OpenAI":182,"Salesforce":34,"Claude Code":98,"Cognition":26}</script>
+<script type="application/json" class="pd-epn">{"智能体":452,"OpenAI":185,"Harry Stebbings":20,"Google":69,"Cursor":83,"智能体商务":1,"Stripe":48,"Anthropic":194,"Meta":48,"Salesforce":34}</script>
 
 <script>
 (function(){

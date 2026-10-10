@@ -1,0 +1,1690 @@
+[
+ {
+  "seg": 0,
+  "start": 12.798,
+  "end": 18.7,
+  "speaker": "Unknown",
+  "en": "Okay, so I'm gonna talk to you about agentic commerce with PayPal Enterprise Payments.",
+  "zh": "好的,我要和你们聊聊基于 PayPal Enterprise Payments 的智能体商务。"
+ },
+ {
+  "seg": 1,
+  "start": 18.76,
+  "end": 27.582,
+  "speaker": "Unknown",
+  "en": "So this is about how do we accept payments from agents, kind of maybe a human in the loop, maybe not, for merchants.",
+  "zh": "这是关于我们如何接受来自智能体的支付,可能有一个人在回路中,也可能没有,面向商户。"
+ },
+ {
+  "seg": 2,
+  "start": 27.862,
+  "end": 32.844,
+  "speaker": "Unknown",
+  "en": "So I'm from PayPal and I work on our agentic commerce area.",
+  "zh": "我来自 PayPal,我负责我们的智能体商务领域。"
+ },
+ {
+  "seg": 3,
+  "start": 33.564,
+  "end": 36.265,
+  "speaker": "Unknown",
+  "en": "My name's Sam Parsons, senior staff engineer here.",
+  "zh": "我叫 Sam Parsons,是这里的高级资深工程师。"
+ },
+ {
+  "seg": 4,
+  "start": 38.082,
+  "end": 40.264,
+  "speaker": "Unknown",
+  "en": "So first of all, you may have heard of Braintree before.",
+  "zh": "那么首先,你们之前可能听说过 Braintree。"
+ },
+ {
+  "seg": 5,
+  "start": 40.764,
+  "end": 43.866,
+  "speaker": "Unknown",
+  "en": "And Braintree is PayPal's large enterprise payments.",
+  "zh": "Braintree 是 PayPal 的大型企业支付业务。"
+ },
+ {
+  "seg": 6,
+  "start": 44.947,
+  "end": 45.227,
+  "speaker": "Unknown",
+  "en": "What's that?",
+  "zh": "那是什么?"
+ },
+ {
+  "seg": 7,
+  "start": 46.908,
+  "end": 47.329,
+  "speaker": "Unknown",
+  "en": "Braintree.",
+  "zh": "Braintree。"
+ },
+ {
+  "seg": 8,
+  "start": 47.349,
+  "end": 48.049,
+  "speaker": "Unknown",
+  "en": "Heart Braintree.",
+  "zh": "听过 Braintree。"
+ },
+ {
+  "seg": 9,
+  "start": 48.269,
+  "end": 49.77,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 10,
+  "start": 49.81,
+  "end": 51.271,
+  "speaker": "Unknown",
+  "en": "But now it's PayPal enterprise payments.",
+  "zh": "但现在它叫 PayPal enterprise payments。"
+ },
+ {
+  "seg": 11,
+  "start": 51.291,
+  "end": 53.033,
+  "speaker": "Unknown",
+  "en": "So I'm going to say PayPal enterprise payments.",
+  "zh": "所以我会说 PayPal enterprise payments。"
+ },
+ {
+  "seg": 12,
+  "start": 53.093,
+  "end": 56.015,
+  "speaker": "Unknown",
+  "en": "But if you know it as Braintree, it's the same thing.",
+  "zh": "但如果你知道它叫 Braintree,那是同一个东西。"
+ },
+ {
+  "seg": 13,
+  "start": 56.055,
+  "end": 60.077,
+  "speaker": "Unknown",
+  "en": "So we handle payments for really large corporations.",
+  "zh": "我们为真正的大型企业处理支付。"
+ },
+ {
+  "seg": 14,
+  "start": 60.097,
+  "end": 61.638,
+  "speaker": "Unknown",
+  "en": "Think of the biggest ones that you can think of.",
+  "zh": "想想你能想到的最大的那些公司。"
+ },
+ {
+  "seg": 15,
+  "start": 62.099,
+  "end": 63.46,
+  "speaker": "Unknown",
+  "en": "Huge volume, huge scale.",
+  "zh": "巨大的交易量,巨大的规模。"
+ },
+ {
+  "seg": 16,
+  "start": 64.648,
+  "end": 69.17,
+  "speaker": "Unknown",
+  "en": "So what we're going to talk about here is a couple of things, three different paths.",
+  "zh": "我们今天要讲的是几件事,三条不同的路径。"
+ },
+ {
+  "seg": 17,
+  "start": 69.49,
+  "end": 79.195,
+  "speaker": "Unknown",
+  "en": "And really, the key takeaway that I want you to have is that PayPal Enterprise Payments is building the bridges for merchants to be able to accept payments from many different places.",
+  "zh": "真正地,我希望你们带走的核心要点是,PayPal Enterprise Payments 正在为商户搭建桥梁,使他们能够接受来自许多不同地方的支付。"
+ },
+ {
+  "seg": 18,
+  "start": 79.495,
+  "end": 81.296,
+  "speaker": "Unknown",
+  "en": "And so I'm going to give you a flavor of some of them.",
+  "zh": "我会给你们展示其中一些的样子。"
+ },
+ {
+  "seg": 19,
+  "start": 81.756,
+  "end": 84.377,
+  "speaker": "Unknown",
+  "en": "But really, this is a fast-evolving area.",
+  "zh": "但真的,这是一个快速演进的领域。"
+ },
+ {
+  "seg": 20,
+  "start": 84.397,
+  "end": 88.319,
+  "speaker": "Unknown",
+  "en": "You're going to see way more over the coming months and year.",
+  "zh": "在接下来的几个月和一年里,你们会看到多得多的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 89.039,
+  "end": 92.961,
+  "speaker": "Unknown",
+  "en": "So first of all, we're going to talk about agentic commerce protocol.",
+  "zh": "首先我们要聊的是智能体商务协议。"
+ },
+ {
+  "seg": 22,
+  "start": 94.902,
+  "end": 96.183,
+  "speaker": "Unknown",
+  "en": "OpenAI has created that.",
+  "zh": "OpenAI 创建了它。"
+ },
+ {
+  "seg": 23,
+  "start": 97.004,
+  "end": 98.445,
+  "speaker": "Unknown",
+  "en": "And that'll be in ChatGPT.",
+  "zh": "它会在 ChatGPT 中。"
+ },
+ {
+  "seg": 24,
+  "start": 98.465,
+  "end": 99.145,
+  "speaker": "Unknown",
+  "en": "You can use this.",
+  "zh": "你们可以使用它。"
+ },
+ {
+  "seg": 25,
+  "start": 99.986,
+  "end": 101.667,
+  "speaker": "Unknown",
+  "en": "Universal Commerce Protocol.",
+  "zh": "Universal Commerce Protocol。"
+ },
+ {
+  "seg": 26,
+  "start": 102.248,
+  "end": 105.17,
+  "speaker": "Unknown",
+  "en": "Google partnered with some others and created that protocol.",
+  "zh": "Google 与其他一些公司合作创建了那个协议。"
+ },
+ {
+  "seg": 27,
+  "start": 105.21,
+  "end": 106.311,
+  "speaker": "Unknown",
+  "en": "And these are very similar.",
+  "zh": "这两个非常相似。"
+ },
+ {
+  "seg": 28,
+  "start": 106.351,
+  "end": 110.333,
+  "speaker": "Unknown",
+  "en": "So if you go look at the specs, you're going to find out, oh, they are almost identical.",
+  "zh": "所以如果你去看规范,你会发现,哦,它们几乎一模一样。"
+ },
+ {
+  "seg": 29,
+  "start": 112.555,
+  "end": 113.556,
+  "speaker": "Unknown",
+  "en": "We're kind of early days here.",
+  "zh": "我们还处于早期阶段。"
+ },
+ {
+  "seg": 30,
+  "start": 113.776,
+  "end": 123.082,
+  "speaker": "Unknown",
+  "en": "But also, we're going to demo for you another path towards accepting agentic payments, human in the loop, using just MCP apps and external checkout.",
+  "zh": "另外我们还会为你们演示另一条接受智能体支付的路径,人在回路中,只使用 MCP 应用和外部结账。"
+ },
+ {
+  "seg": 31,
+  "start": 123.422,
+  "end": 123.642,
+  "speaker": "Unknown",
+  "en": "OK?",
+  "zh": "好吗?"
+ },
+ {
+  "seg": 32,
+  "start": 124.042,
+  "end": 124.643,
+  "speaker": "Unknown",
+  "en": "So let's dive in.",
+  "zh": "那我们开始吧。"
+ },
+ {
+  "seg": 33,
+  "start": 127.044,
+  "end": 132.469,
+  "speaker": "Unknown",
+  "en": "So first of all, this is instant checkout in ChatGPT using agentic commerce protocol.",
+  "zh": "首先,这是在 ChatGPT 中使用智能体商务协议的即时结账。"
+ },
+ {
+  "seg": 34,
+  "start": 132.529,
+  "end": 140.335,
+  "speaker": "Unknown",
+  "en": "So PayPal Enterprise Payments build an integration to agentic commerce protocol that allows you to start taking payments in this manner.",
+  "zh": "PayPal Enterprise Payments 构建了一个对智能体商务协议的集成,让你能够以这种方式开始接受支付。"
+ },
+ {
+  "seg": 35,
+  "start": 140.435,
+  "end": 142.236,
+  "speaker": "Unknown",
+  "en": "So there's a couple different flavors.",
+  "zh": "有几种不同的形式。"
+ },
+ {
+  "seg": 36,
+  "start": 142.256,
+  "end": 145.099,
+  "speaker": "Unknown",
+  "en": "The one I'm going to walk through uses an MCP app.",
+  "zh": "我要讲解的这种使用一个 MCP 应用。"
+ },
+ {
+  "seg": 37,
+  "start": 145.759,
+  "end": 155.227,
+  "speaker": "Unknown",
+  "en": "So an MCP app is like an MCP server, but you embed inside of that app, you embed UI, so it has HTML, JavaScript, and things like that.",
+  "zh": "MCP 应用就像一个 MCP 服务器,但你在那个应用里面嵌入 UI,所以它有 HTML、JavaScript 之类的东西。"
+ },
+ {
+  "seg": 38,
+  "start": 156.903,
+  "end": 160.885,
+  "speaker": "Unknown",
+  "en": "And those then can get rendered inside of different agents.",
+  "zh": "然后这些可以在不同的智能体中被渲染。"
+ },
+ {
+  "seg": 39,
+  "start": 160.925,
+  "end": 162.646,
+  "speaker": "Unknown",
+  "en": "So ChatGPT can render those.",
+  "zh": "ChatGPT 可以渲染它们。"
+ },
+ {
+  "seg": 40,
+  "start": 163.106,
+  "end": 163.986,
+  "speaker": "Unknown",
+  "en": "You can add an app.",
+  "zh": "你可以添加一个应用。"
+ },
+ {
+  "seg": 41,
+  "start": 164.306,
+  "end": 165.527,
+  "speaker": "Unknown",
+  "en": "You can render them in Claude.",
+  "zh": "你可以在 Claude 中渲染它们。"
+ },
+ {
+  "seg": 42,
+  "start": 165.547,
+  "end": 166.647,
+  "speaker": "Unknown",
+  "en": "You call that a connector.",
+  "zh": "你把那个叫连接器。"
+ },
+ {
+  "seg": 43,
+  "start": 167.107,
+  "end": 167.508,
+  "speaker": "Unknown",
+  "en": "Same thing.",
+  "zh": "同一个东西。"
+ },
+ {
+  "seg": 44,
+  "start": 167.548,
+  "end": 168.468,
+  "speaker": "Unknown",
+  "en": "It's an MCP app.",
+  "zh": "它是一个 MCP 应用。"
+ },
+ {
+  "seg": 45,
+  "start": 169.308,
+  "end": 174.27,
+  "speaker": "Unknown",
+  "en": "And this extension, many different agents out there, Goose or other ones, also support.",
+  "zh": "这个扩展,外面许多不同的智能体,Goose 或其他一些,也支持。"
+ },
+ {
+  "seg": 46,
+  "start": 174.351,
+  "end": 176.191,
+  "speaker": "Unknown",
+  "en": "So this is kind of a general standard.",
+  "zh": "所以这算是一种通用标准。"
+ },
+ {
+  "seg": 47,
+  "start": 177.552,
+  "end": 181.814,
+  "speaker": "Unknown",
+  "en": "Instant checkout allows us, within ChatGPT,",
+  "zh": "即时结账让我们能在 ChatGPT 内部,"
+ },
+ {
+  "seg": 48,
+  "start": 183.502,
+  "end": 187.546,
+  "speaker": "Unknown",
+  "en": "to trigger an in-chat purchase of something.",
+  "zh": "触发一次聊天内购买某样东西。"
+ },
+ {
+  "seg": 49,
+  "start": 188.107,
+  "end": 190.349,
+  "speaker": "Unknown",
+  "en": "So let me kind of walk through what that flow looks like.",
+  "zh": "那让我大致讲一下这个流程是什么样子。"
+ },
+ {
+  "seg": 50,
+  "start": 190.909,
+  "end": 193.812,
+  "speaker": "Unknown",
+  "en": "So first of all, the user will have their intent.",
+  "zh": "首先，用户会有他们的意图。"
+ },
+ {
+  "seg": 51,
+  "start": 193.852,
+  "end": 195.614,
+  "speaker": "Unknown",
+  "en": "So they're searching in ChatGPT.",
+  "zh": "他们在 ChatGPT 里搜索。"
+ },
+ {
+  "seg": 52,
+  "start": 195.874,
+  "end": 198.737,
+  "speaker": "Unknown",
+  "en": "They'd like to buy something and move to the next part.",
+  "zh": "他们想买点东西，然后进入下一步。"
+ },
+ {
+  "seg": 53,
+  "start": 199.817,
+  "end": 200.898,
+  "speaker": "Unknown",
+  "en": "There's discovery there.",
+  "zh": "这里有一个发现的过程。"
+ },
+ {
+  "seg": 54,
+  "start": 201.018,
+  "end": 207.584,
+  "speaker": "Unknown",
+  "en": "So the merchant, using an MCP app, can show to the user, here's things that you may want to purchase.",
+  "zh": "所以商家通过一个 MCP 应用，可以向用户展示：这里是你可能想购买的东西。"
+ },
+ {
+  "seg": 55,
+  "start": 207.905,
+  "end": 209.446,
+  "speaker": "Unknown",
+  "en": "They get to control that experience.",
+  "zh": "他们可以控制那个体验。"
+ },
+ {
+  "seg": 56,
+  "start": 209.486,
+  "end": 214.171,
+  "speaker": "Unknown",
+  "en": "So it's inside of, say, ChatGPT, but the merchant gets to control it.",
+  "zh": "所以它是在比如说 ChatGPT 里面，但是由商家来控制。"
+ },
+ {
+  "seg": 57,
+  "start": 214.231,
+  "end": 215.772,
+  "speaker": "Unknown",
+  "en": "They get to control the look, the feel.",
+  "zh": "他们可以控制外观、感觉。"
+ },
+ {
+  "seg": 58,
+  "start": 216.173,
+  "end": 219.115,
+  "speaker": "Unknown",
+  "en": "They get to control what's showing up and interact there.",
+  "zh": "他们可以控制展示什么内容并在那里交互。"
+ },
+ {
+  "seg": 59,
+  "start": 220.437,
+  "end": 224.461,
+  "speaker": "Unknown",
+  "en": "Then when the user decides, I'd like to go to the next step and buy this,",
+  "zh": "然后当用户决定，我想进入下一步并购买这个，"
+ },
+ {
+  "seg": 60,
+  "start": 225.355,
+  "end": 226.616,
+  "speaker": "Unknown",
+  "en": "They can trigger this checkout.",
+  "zh": "他们可以触发这个结账。"
+ },
+ {
+  "seg": 61,
+  "start": 226.656,
+  "end": 232.302,
+  "speaker": "Unknown",
+  "en": "So that's where the MCP app talks to its host, ChatGPT, and says, I'd like to purchase something.",
+  "zh": "这时 MCP 应用会与它的宿主 ChatGPT 通信，说：我想购买某样东西。"
+ },
+ {
+  "seg": 62,
+  "start": 232.982,
+  "end": 235.084,
+  "speaker": "Unknown",
+  "en": "That uses agentic commerce protocol.",
+  "zh": "这使用的是 agentic commerce protocol。"
+ },
+ {
+  "seg": 63,
+  "start": 235.765,
+  "end": 241.59,
+  "speaker": "Unknown",
+  "en": "Behind the scenes, the user would enter in maybe a credit card, or maybe they had that stored, and move to the next part.",
+  "zh": "在幕后，用户可能会输入一张信用卡，或者他们可能已经存储了卡片信息，然后进入下一步。"
+ },
+ {
+  "seg": 64,
+  "start": 241.61,
+  "end": 245.574,
+  "speaker": "Unknown",
+  "en": "That would get tokenized against PayPal systems, PayPal enterprise payments.",
+  "zh": "那会通过 PayPal 系统、PayPal 企业支付进行令牌化。"
+ },
+ {
+  "seg": 65,
+  "start": 246.355,
+  "end": 248.296,
+  "speaker": "Unknown",
+  "en": "And finally, when we get to the end of that,",
+  "zh": "最后，当我们走到这一步的末尾，"
+ },
+ {
+  "seg": 66,
+  "start": 249.077,
+  "end": 252.861,
+  "speaker": "Unknown",
+  "en": "They'll complete that and send that across to the merchant who then charges that.",
+  "zh": "它会完成并发送给商家，由商家进行扣款。"
+ },
+ {
+  "seg": 67,
+  "start": 253.342,
+  "end": 256.005,
+  "speaker": "Unknown",
+  "en": "So we kind of look at this big lifecycle.",
+  "zh": "所以我们大致来看这个完整的生命周期。"
+ },
+ {
+  "seg": 68,
+  "start": 256.025,
+  "end": 261.371,
+  "speaker": "Unknown",
+  "en": "At the end of it, from the merchant's perspective, they do a couple of things as far as bridging that gap.",
+  "zh": "在最后，从商家的角度来看，为了弥合这个差距，他们要做几件事。"
+ },
+ {
+  "seg": 69,
+  "start": 261.391,
+  "end": 267.457,
+  "speaker": "Unknown",
+  "en": "They're providing these MCP app experience to the user, but they're also providing",
+  "zh": "他们向用户提供这个 MCP 应用体验，但他们同时也提供——"
+ },
+ {
+  "seg": 70,
+  "start": 268.991,
+  "end": 273.793,
+  "speaker": "Unknown",
+  "en": "They're receiving these tokens that come from, ultimately, PayPal Enterprise Payments.",
+  "zh": "他们接收这些最终来自 PayPal 企业支付的令牌。"
+ },
+ {
+  "seg": 71,
+  "start": 274.153,
+  "end": 276.334,
+  "speaker": "Unknown",
+  "en": "And that looks like every token they normally process.",
+  "zh": "而这看起来和他们平时处理的每一个令牌一样。"
+ },
+ {
+  "seg": 72,
+  "start": 276.574,
+  "end": 279.675,
+  "speaker": "Unknown",
+  "en": "So this is a really seamless integration for them at the end of it.",
+  "zh": "所以这对他们来说最终是一个非常无缝的集成。"
+ },
+ {
+  "seg": 73,
+  "start": 280.015,
+  "end": 289.059,
+  "speaker": "Unknown",
+  "en": "And on the back of it, settlements, refunds, chargebacks, compliance, all of that remains the same and is supported through PayPal Enterprise Payments in general.",
+  "zh": "而在其背后，结算、退款、拒付、合规，所有这些都保持不变，并且总体上通过 PayPal 企业支付获得支持。"
+ },
+ {
+  "seg": 74,
+  "start": 290.605,
+  "end": 295.769,
+  "speaker": "Unknown",
+  "en": "So right now, we're just going to do a walkthrough of searching here in ChatGPT.",
+  "zh": "所以现在，我们只是要在 ChatGPT 里做一个搜索的流程演示。"
+ },
+ {
+  "seg": 75,
+  "start": 295.789,
+  "end": 298.01,
+  "speaker": "Unknown",
+  "en": "This will give you that instant checkout experience.",
+  "zh": "这会给你带来那种即时结账体验。"
+ },
+ {
+  "seg": 76,
+  "start": 298.691,
+  "end": 300.953,
+  "speaker": "Unknown",
+  "en": "So this one here is like a travel app.",
+  "zh": "这里这个就像一个旅行应用。"
+ },
+ {
+  "seg": 77,
+  "start": 300.973,
+  "end": 304.896,
+  "speaker": "Unknown",
+  "en": "So I'd like to buy some looking for some hotels.",
+  "zh": "我想买一些——我在找一些酒店。"
+ },
+ {
+  "seg": 78,
+  "start": 305.836,
+  "end": 306.757,
+  "speaker": "Unknown",
+  "en": "Here's some different options.",
+  "zh": "这里是一些不同的选项。"
+ },
+ {
+  "seg": 79,
+  "start": 306.797,
+  "end": 307.818,
+  "speaker": "Unknown",
+  "en": "And I'll just pause here.",
+  "zh": "我在这里暂停一下。"
+ },
+ {
+  "seg": 80,
+  "start": 307.838,
+  "end": 311.54,
+  "speaker": "Unknown",
+  "en": "So you can see this UI here is not a ChatGPT UI.",
+  "zh": "所以你可以看到这里的 UI 不是 ChatGPT 的 UI。"
+ },
+ {
+  "seg": 81,
+  "start": 311.901,
+  "end": 314.983,
+  "speaker": "Unknown",
+  "en": "This is controlled by the merchant.",
+  "zh": "这是由商家控制的。"
+ },
+ {
+  "seg": 82,
+  "start": 315.143,
+  "end": 316.564,
+  "speaker": "Unknown",
+  "en": "Merchant gets to specify that.",
+  "zh": "商家可以指定这个。"
+ },
+ {
+  "seg": 83,
+  "start": 316.764,
+  "end": 320.147,
+  "speaker": "Unknown",
+  "en": "They can have their interface for what makes sense, depending on what they're selling.",
+  "zh": "他们可以根据自己在卖什么，拥有对自己合理的界面。"
+ },
+ {
+  "seg": 84,
+  "start": 321.702,
+  "end": 325.004,
+  "speaker": "Unknown",
+  "en": "Sorry, that fast-forwarded through there.",
+  "zh": "抱歉，那里快进了。"
+ },
+ {
+  "seg": 85,
+  "start": 327.727,
+  "end": 328.027,
+  "speaker": "Unknown",
+  "en": "Hit play.",
+  "zh": "点播放。"
+ },
+ {
+  "seg": 86,
+  "start": 329.108,
+  "end": 330.73,
+  "speaker": "Unknown",
+  "en": "And so then we continue here.",
+  "zh": "然后我们在这里继续。"
+ },
+ {
+  "seg": 87,
+  "start": 331.19,
+  "end": 333.192,
+  "speaker": "Unknown",
+  "en": "When they're ready, they go to proceed to checkout.",
+  "zh": "当他们准备好了，就去点击进行结账。"
+ },
+ {
+  "seg": 88,
+  "start": 333.572,
+  "end": 340.198,
+  "speaker": "Unknown",
+  "en": "This now is pulling up the ChatGPT instant checkout experience inside of there.",
+  "zh": "这时会在里面拉起 ChatGPT 的即时结账体验。"
+ },
+ {
+  "seg": 89,
+  "start": 340.238,
+  "end": 342.78,
+  "speaker": "Unknown",
+  "en": "So the merchant isn't actually generating this.",
+  "zh": "所以这个实际上不是商家生成的。"
+ },
+ {
+  "seg": 90,
+  "start": 342.82,
+  "end": 345.302,
+  "speaker": "Unknown",
+  "en": "This is provided from the instant checkout experience.",
+  "zh": "这是由即时结账体验提供的。"
+ },
+ {
+  "seg": 91,
+  "start": 347.024,
+  "end": 347.945,
+  "speaker": "Unknown",
+  "en": "Apologies about that.",
+  "zh": "对此表示抱歉。"
+ },
+ {
+  "seg": 92,
+  "start": 350.472,
+  "end": 354.074,
+  "speaker": "Unknown",
+  "en": "And from there, they start entering in their credentials.",
+  "zh": "然后从那里，他们开始输入他们的凭证信息。"
+ },
+ {
+  "seg": 93,
+  "start": 354.114,
+  "end": 356.036,
+  "speaker": "Unknown",
+  "en": "So they're going to enter in some credit card details.",
+  "zh": "所以他们要输入一些信用卡信息。"
+ },
+ {
+  "seg": 94,
+  "start": 356.116,
+  "end": 358.277,
+  "speaker": "Unknown",
+  "en": "It's just a test credit card number that they're going to enter.",
+  "zh": "他们要输入的只是一个测试用的信用卡号。"
+ },
+ {
+  "seg": 95,
+  "start": 359.097,
+  "end": 362.78,
+  "speaker": "Unknown",
+  "en": "And behind the scenes, that'll be tokenized with PayPal.",
+  "zh": "而在幕后，它会通过 PayPal 进行令牌化。"
+ },
+ {
+  "seg": 96,
+  "start": 362.8,
+  "end": 370.685,
+  "speaker": "Unknown",
+  "en": "So if you're kind of not familiar with payments, tokenization means where the user exchanges a real payment credential that's transactable, say your credit card number.",
+  "zh": "所以如果你对支付不太熟悉，令牌化的意思是：用户用一个可交易的真实支付凭证，比如说你的信用卡号，"
+ },
+ {
+  "seg": 97,
+  "start": 371.605,
+  "end": 373.426,
+  "speaker": "Unknown",
+  "en": "And instead, they exchange that for a token.",
+  "zh": "然后，他们把它兑换成一个令牌。"
+ },
+ {
+  "seg": 98,
+  "start": 373.606,
+  "end": 378.487,
+  "speaker": "Unknown",
+  "en": "That can then be passed around without increasing PCI scope and dangerous things happening.",
+  "zh": "这个令牌随后可以到处传递，而不会扩大 PCI 范围或发生危险的事情。"
+ },
+ {
+  "seg": 99,
+  "start": 378.908,
+  "end": 383.329,
+  "speaker": "Unknown",
+  "en": "So that's what's going to happen right here behind the scenes is a tokenization will occur.",
+  "zh": "所以接下来在幕后发生的就是会进行一次令牌化。"
+ },
+ {
+  "seg": 100,
+  "start": 384.169,
+  "end": 385.97,
+  "speaker": "Unknown",
+  "en": "And the merchant doesn't have to do that.",
+  "zh": "而商家不需要做这件事。"
+ },
+ {
+  "seg": 101,
+  "start": 386.21,
+  "end": 387.57,
+  "speaker": "Unknown",
+  "en": "This is like within the host.",
+  "zh": "这是在宿主内部。"
+ },
+ {
+  "seg": 102,
+  "start": 388.491,
+  "end": 395.893,
+  "speaker": "Unknown",
+  "en": "The host app is going to do that tokenization, send it to PayPal Enterprise Payments, and then we give back the token to ChatGPT.",
+  "zh": "宿主应用会做那个令牌化，把它发送到 PayPal Enterprise Payments，然后我们把令牌还给 ChatGPT。"
+ },
+ {
+  "seg": 103,
+  "start": 396.073,
+  "end": 397.514,
+  "speaker": "Unknown",
+  "en": "And that's safe to pass around.",
+  "zh": "而且这个令牌是可以安全传递的。"
+ },
+ {
+  "seg": 104,
+  "start": 398.114,
+  "end": 399.234,
+  "speaker": "Unknown",
+  "en": "So this is what's happening right now.",
+  "zh": "所以这就是现在正在发生的事情。"
+ },
+ {
+  "seg": 105,
+  "start": 399.294,
+  "end": 400.375,
+  "speaker": "Unknown",
+  "en": "Tokenization is occurring.",
+  "zh": "令牌化正在发生。"
+ },
+ {
+  "seg": 106,
+  "start": 401.195,
+  "end": 402.715,
+  "speaker": "Unknown",
+  "en": "And then it's going to be sent to the merchant.",
+  "zh": "然后它会被发送给商家。"
+ },
+ {
+  "seg": 107,
+  "start": 402.996,
+  "end": 407.017,
+  "speaker": "Unknown",
+  "en": "The merchant receives that and says, OK, now I transact with that token securely.",
+  "zh": "商家收到后说，好，现在我用这个令牌安全地进行交易。"
+ },
+ {
+  "seg": 108,
+  "start": 407.677,
+  "end": 409.918,
+  "speaker": "Unknown",
+  "en": "And now you see they've come back to the MCP app.",
+  "zh": "现在你们可以看到他们回到了 MCP 应用。"
+ },
+ {
+  "seg": 109,
+  "start": 409.958,
+  "end": 410.878,
+  "speaker": "Unknown",
+  "en": "This has been updated.",
+  "zh": "这里已经更新了。"
+ },
+ {
+  "seg": 110,
+  "start": 410.938,
+  "end": 412.198,
+  "speaker": "Unknown",
+  "en": "Their booking's been confirmed.",
+  "zh": "他们的预订已被确认。"
+ },
+ {
+  "seg": 111,
+  "start": 412.678,
+  "end": 418.88,
+  "speaker": "Unknown",
+  "en": "And so you can see, from a merchant's perspective, they have all control of what that UI looks like.",
+  "zh": "所以你可以看到，从商家的角度，他们对这个 UI 长什么样拥有完全的控制权。"
+ },
+ {
+  "seg": 112,
+  "start": 419.54,
+  "end": 421.741,
+  "speaker": "Unknown",
+  "en": "And it's pretty seamless for the user.",
+  "zh": "而且对用户来说相当无缝。"
+ },
+ {
+  "seg": 113,
+  "start": 422.837,
+  "end": 424.239,
+  "speaker": "Unknown",
+  "en": "What are the integration points here?",
+  "zh": "这里的集成点是什么？"
+ },
+ {
+  "seg": 114,
+  "start": 424.279,
+  "end": 428.203,
+  "speaker": "Unknown",
+  "en": "So the first integration point is inside of that MCP app widget.",
+  "zh": "第一个集成点是在那个 MCP 应用小部件内部。"
+ },
+ {
+  "seg": 115,
+  "start": 428.223,
+  "end": 433.348,
+  "speaker": "Unknown",
+  "en": "So I'm showing you the real code for do this instant checkout with OpenAI.",
+  "zh": "我给你展示的是与 OpenAI 实现即时结账的真实代码。"
+ },
+ {
+  "seg": 116,
+  "start": 433.849,
+  "end": 438.013,
+  "speaker": "Unknown",
+  "en": "You need to have this JavaScript code that triggers that checkout experience.",
+  "zh": "你需要有这段 JavaScript 代码来触发那个结账体验。"
+ },
+ {
+  "seg": 117,
+  "start": 438.454,
+  "end": 441.136,
+  "speaker": "Unknown",
+  "en": "So that's provided within the context of your MCP app.",
+  "zh": "这是在你的 MCP 应用的上下文中提供的。"
+ },
+ {
+  "seg": 118,
+  "start": 442.07,
+  "end": 460.1,
+  "speaker": "Unknown",
+  "en": "And then the next place where the merchant picks this up is they receive a call to their MCP server with this complete checkout tool, and they get that token, and then they can proceed as usual with their processing of a typical PayPal Enterprise payments token.",
+  "zh": "然后商家接手的下一个地方是，他们的 MCP 服务器会收到一个带有 complete checkout 工具的调用，他们拿到那个令牌，然后就可以像往常一样继续处理典型的 PayPal Enterprise 支付令牌。"
+ },
+ {
+  "seg": 119,
+  "start": 460.801,
+  "end": 462.962,
+  "speaker": "Unknown",
+  "en": "So it's really pretty straightforward as far as that goes.",
+  "zh": "所以就这方面而言，它其实相当直接。"
+ },
+ {
+  "seg": 120,
+  "start": 463.362,
+  "end": 467.344,
+  "speaker": "Unknown",
+  "en": "Now, there's still obviously the work of creating an MCP app within that experience.",
+  "zh": "当然，在那个体验中创建一个 MCP 应用仍然是有工作要做的。"
+ },
+ {
+  "seg": 121,
+  "start": 468.425,
+  "end": 470.166,
+  "speaker": "Unknown",
+  "en": "Also, there's links here.",
+  "zh": "另外，这里有链接。"
+ },
+ {
+  "seg": 122,
+  "start": 471.235,
+  "end": 474.998,
+  "speaker": "Unknown",
+  "en": "to the QR code if you want to follow and look at the docs for how you would set this up.",
+  "zh": "指向二维码，如果你想跟进并查看关于如何进行这项设置的文档。"
+ },
+ {
+  "seg": 123,
+  "start": 476.319,
+  "end": 482.223,
+  "speaker": "Unknown",
+  "en": "And what's kind of happening behind the scenes here is these tokens are constrained in a number of ways.",
+  "zh": "而这背后发生的事情是，这些令牌在多个方面是受限的。"
+ },
+ {
+  "seg": 124,
+  "start": 483.104,
+  "end": 487.267,
+  "speaker": "Unknown",
+  "en": "One of them is with the merchant, so that this can only be processed on a given merchant.",
+  "zh": "其中之一是与商家绑定，这样它只能在给定的商家那里被处理。"
+ },
+ {
+  "seg": 125,
+  "start": 487.647,
+  "end": 490.269,
+  "speaker": "Unknown",
+  "en": "It has a max amount of dollars that are applied.",
+  "zh": "它有一个适用的最高金额上限。"
+ },
+ {
+  "seg": 126,
+  "start": 490.409,
+  "end": 491.25,
+  "speaker": "Unknown",
+  "en": "It has a currency.",
+  "zh": "它有一个币种。"
+ },
+ {
+  "seg": 127,
+  "start": 491.43,
+  "end": 493.772,
+  "speaker": "Unknown",
+  "en": "It also has an expiration, so you can't just use this forever.",
+  "zh": "它还有一个过期时间，所以你不能永远使用它。"
+ },
+ {
+  "seg": 128,
+  "start": 494.747,
+  "end": 500.632,
+  "speaker": "Unknown",
+  "en": "And all of those transactions, when processed, they get attributed to the source where they came from.",
+  "zh": "而且所有这些交易在被处理时，都会被归因到它们的来源。"
+ },
+ {
+  "seg": 129,
+  "start": 500.692,
+  "end": 507.938,
+  "speaker": "Unknown",
+  "en": "So this would show up within PayPal Enterprise Payments as a ChatGPT transaction that occurred.",
+  "zh": "所以这会作为一笔发生的 ChatGPT 交易显示在 PayPal Enterprise Payments 中。"
+ },
+ {
+  "seg": 130,
+  "start": 511.601,
+  "end": 516.985,
+  "speaker": "Unknown",
+  "en": "So next, I'm going to walk through what Google AI mode and how we're meeting merchants there.",
+  "zh": "接下来，我要讲一下 Google AI 模式，以及我们是如何在那里服务商家的。"
+ },
+ {
+  "seg": 131,
+  "start": 517.586,
+  "end": 522.39,
+  "speaker": "Unknown",
+  "en": "So the flow looks a little bit different when you're processing transactions on Google AI mode.",
+  "zh": "在 Google AI 模式上处理交易时，流程看起来有点不同。"
+ },
+ {
+  "seg": 132,
+  "start": 523.767,
+  "end": 526.65,
+  "speaker": "Unknown",
+  "en": "So first of all, the user might be shopping in AI mode.",
+  "zh": "首先，用户可能正在 AI 模式中购物。"
+ },
+ {
+  "seg": 133,
+  "start": 526.67,
+  "end": 530.193,
+  "speaker": "Unknown",
+  "en": "They want to buy, say, a pair of running shoes or something like that.",
+  "zh": "他们想买，比如说，一双跑鞋之类的。"
+ },
+ {
+  "seg": 134,
+  "start": 532.175,
+  "end": 539.883,
+  "speaker": "Unknown",
+  "en": "Behind the scenes, using the universal commerce protocol, the agent will create a session against that merchant for the user.",
+  "zh": "在幕后，通过通用商务协议，智能体会为用户在那个商家那里创建一个会话。"
+ },
+ {
+  "seg": 135,
+  "start": 540.203,
+  "end": 543.146,
+  "speaker": "Unknown",
+  "en": "So that kind of exists as an entity belonging to the merchant.",
+  "zh": "所以它作为一种属于商家的实体存在。"
+ },
+ {
+  "seg": 136,
+  "start": 544.12,
+  "end": 545.201,
+  "speaker": "Unknown",
+  "en": "And it uses that.",
+  "zh": "并且它会使用那个会话。"
+ },
+ {
+  "seg": 137,
+  "start": 546.062,
+  "end": 551.387,
+  "speaker": "Unknown",
+  "en": "Then when the user says, I now want to check out with this, the tokenization happens.",
+  "zh": "然后当用户说，我现在想用这个结账时，令牌化就发生了。"
+ },
+ {
+  "seg": 138,
+  "start": 551.627,
+  "end": 553.689,
+  "speaker": "Unknown",
+  "en": "But here, this is using Google Pay.",
+  "zh": "但这里用的是 Google Pay。"
+ },
+ {
+  "seg": 139,
+  "start": 553.969,
+  "end": 557.092,
+  "speaker": "Unknown",
+  "en": "So Google Pay would tokenize with PayPal Enterprise payments.",
+  "zh": "所以 Google Pay 会与 PayPal Enterprise Payments 进行令牌化。"
+ },
+ {
+  "seg": 140,
+  "start": 557.913,
+  "end": 558.954,
+  "speaker": "Unknown",
+  "en": "And so that's step three.",
+  "zh": "这就是第三步。"
+ },
+ {
+  "seg": 141,
+  "start": 559.495,
+  "end": 561.556,
+  "speaker": "Unknown",
+  "en": "And then give that token back to the merchant.",
+  "zh": "然后把那个令牌还给商家。"
+ },
+ {
+  "seg": 142,
+  "start": 561.576,
+  "end": 563.538,
+  "speaker": "Unknown",
+  "en": "And you kind of see, this is actually a very similar model.",
+  "zh": "你多少可以看到，这其实是一个非常相似的模型。"
+ },
+ {
+  "seg": 143,
+  "start": 564.119,
+  "end": 567.122,
+  "speaker": "Unknown",
+  "en": "Then at the completion step, they provide that to the merchant.",
+  "zh": "然后在完成这一步，他们把它提供给商家。"
+ },
+ {
+  "seg": 144,
+  "start": 567.202,
+  "end": 568.263,
+  "speaker": "Unknown",
+  "en": "And at step five,",
+  "zh": "在第五步，"
+ },
+ {
+  "seg": 145,
+  "start": 569.568,
+  "end": 570.269,
+  "speaker": "Unknown",
+  "en": "We do the charge.",
+  "zh": "我们执行扣款。"
+ },
+ {
+  "seg": 146,
+  "start": 570.469,
+  "end": 572.811,
+  "speaker": "Unknown",
+  "en": "So the merchant comes along and says, here's my token.",
+  "zh": "所以商家过来说，这是我的令牌。"
+ },
+ {
+  "seg": 147,
+  "start": 572.891,
+  "end": 574.792,
+  "speaker": "Unknown",
+  "en": "I would like to process this transaction.",
+  "zh": "我想处理这笔交易。"
+ },
+ {
+  "seg": 148,
+  "start": 575.332,
+  "end": 576.593,
+  "speaker": "Unknown",
+  "en": "Here's all the information about it.",
+  "zh": "这是关于它的所有信息。"
+ },
+ {
+  "seg": 149,
+  "start": 577.034,
+  "end": 588.403,
+  "speaker": "Unknown",
+  "en": "And the same sorts of things like this, again, settlement, refunds, chargeback risk, compliance, this all is just standard operating procedure as far as the merchant's perspective.",
+  "zh": "同样的事情，再次包括结算、退款、拒付风险、合规，从商家的角度来看，这些都是标准的操作流程。"
+ },
+ {
+  "seg": 150,
+  "start": 588.943,
+  "end": 590.864,
+  "speaker": "Unknown",
+  "en": "But they received this token from a different path.",
+  "zh": "但他们是从不同的路径收到这个 token 的。"
+ },
+ {
+  "seg": 151,
+  "start": 590.944,
+  "end": 593.246,
+  "speaker": "Unknown",
+  "en": "This came in through Google AI mode.",
+  "zh": "这个是通过 Google AI mode 进来的。"
+ },
+ {
+  "seg": 152,
+  "start": 593.847,
+  "end": 599.111,
+  "speaker": "Unknown",
+  "en": "One of the things to note here is in Google AI mode, the merchant doesn't create",
+  "zh": "这里要注意的一点是，在 Google AI mode 中，商家不需要创建"
+ },
+ {
+  "seg": 153,
+  "start": 600.588,
+  "end": 601.309,
+  "speaker": "Unknown",
+  "en": "An MCP app.",
+  "zh": "一个 MCP app。"
+ },
+ {
+  "seg": 154,
+  "start": 601.489,
+  "end": 602.991,
+  "speaker": "Unknown",
+  "en": "They don't create an experience.",
+  "zh": "他们不需要创建一个体验。"
+ },
+ {
+  "seg": 155,
+  "start": 603.031,
+  "end": 608.977,
+  "speaker": "Unknown",
+  "en": "Their integration with Google AI mode is more providing, here are my products.",
+  "zh": "他们与 Google AI mode 的集成更多是提供：这是我的商品。"
+ },
+ {
+  "seg": 156,
+  "start": 609.518,
+  "end": 615.605,
+  "speaker": "Unknown",
+  "en": "Here is my endpoints for receiving the payments, the complete checkout payment, and so forth.",
+  "zh": "这是我用于接收付款、完成结账付款等功能的端点，诸如此类。"
+ },
+ {
+  "seg": 157,
+  "start": 616.145,
+  "end": 617.947,
+  "speaker": "Unknown",
+  "en": "There is no UI that you have to build.",
+  "zh": "没有任何你必须构建的 UI。"
+ },
+ {
+  "seg": 158,
+  "start": 618.127,
+  "end": 622.032,
+  "speaker": "Unknown",
+  "en": "You have to stand up endpoints, essentially, to integrate with this.",
+  "zh": "你本质上只需要搭建端点，来与它集成。"
+ },
+ {
+  "seg": 159,
+  "start": 624.038,
+  "end": 633.386,
+  "speaker": "Unknown",
+  "en": "So you can see here, one of them is specifying in your well-known JSON file for Universal Commerce Protocol.",
+  "zh": "所以你可以在这里看到，其中之一是在 Universal Commerce Protocol 的 well-known JSON 文件中进行指定。"
+ },
+ {
+  "seg": 160,
+  "start": 634.106,
+  "end": 646.016,
+  "speaker": "Unknown",
+  "en": "And you specify some things that tell us, or tell Google Pay, this needs to be processed on Braintree or PayPal Enterprise Payments, and here's your merchant ID, and here's your client key, and that's safe to pass through in the public.",
+  "zh": "你指定一些内容，告诉我们，或者说告诉 Google Pay：这需要在 Braintree 或 PayPal Enterprise Payments 上处理，这是你的商户 ID，这是你的 client key，这些在公网上传递是安全的。"
+ },
+ {
+  "seg": 161,
+  "start": 647.028,
+  "end": 648.109,
+  "speaker": "Unknown",
+  "en": "Then Google will take that.",
+  "zh": "然后 Google 会接收它。"
+ },
+ {
+  "seg": 162,
+  "start": 648.389,
+  "end": 656.415,
+  "speaker": "Unknown",
+  "en": "And at the final end of it, you will get a call to this endpoint from UCP checkout session with that session ID and a complete.",
+  "zh": "在最后一步，你会收到来自 UCP checkout session 对这个端点的调用，带有那个 session ID 和一个 complete。"
+ },
+ {
+  "seg": 163,
+  "start": 656.996,
+  "end": 658.257,
+  "speaker": "Unknown",
+  "en": "And you then get to process that.",
+  "zh": "然后你就可以处理它。"
+ },
+ {
+  "seg": 164,
+  "start": 658.317,
+  "end": 666.403,
+  "speaker": "Unknown",
+  "en": "And what you'll receive in there is this token representing the credit card behind that Google Pay payment.",
+  "zh": "你在其中收到的，是这个 token，代表 Google Pay 付款背后的那张信用卡。"
+ },
+ {
+  "seg": 165,
+  "start": 667.693,
+  "end": 673.195,
+  "speaker": "Unknown",
+  "en": "So again, two main key integration points as far as receiving those payments.",
+  "zh": "所以再强调一下，就接收这些付款而言，有两个主要的集成点。"
+ },
+ {
+  "seg": 166,
+  "start": 674.056,
+  "end": 677.977,
+  "speaker": "Unknown",
+  "en": "The next one I'm going to show you here is about MCP apps.",
+  "zh": "接下来我要给你展示的是关于 MCP app 的。"
+ },
+ {
+  "seg": 167,
+  "start": 678.137,
+  "end": 686.941,
+  "speaker": "Unknown",
+  "en": "And just kind of opening up your mind about what are the other things that you could do with MCP apps, this one gives the merchant really full control over the whole experience.",
+  "zh": "顺便开拓一下思路，看看用 MCP app 还能做哪些其他事情——这个方式让商家对整个体验拥有真正的完全控制。"
+ },
+ {
+  "seg": 168,
+  "start": 687.621,
+  "end": 696.805,
+  "speaker": "Unknown",
+  "en": "And we're going to work in things that are not necessarily Google or ChatGPT, but there's a lot of different agents that already support MCP apps.",
+  "zh": "而且我们要处理的东西不一定是 Google 或 ChatGPT，已经有很多不同的智能体支持 MCP app 了。"
+ },
+ {
+  "seg": 169,
+  "start": 698.136,
+  "end": 699.558,
+  "speaker": "Unknown",
+  "en": "So a couple of key pieces here.",
+  "zh": "所以这里有几个关键点。"
+ },
+ {
+  "seg": 170,
+  "start": 699.678,
+  "end": 701.56,
+  "speaker": "Unknown",
+  "en": "One is that there's the MCP app widget.",
+  "zh": "一个是 MCP app 部件。"
+ },
+ {
+  "seg": 171,
+  "start": 702.1,
+  "end": 706.165,
+  "speaker": "Unknown",
+  "en": "So this will, in our example here, will show like a product card, and you'll get a checkout button.",
+  "zh": "所以在我们的例子中，它会展示一个商品卡片，你会得到一个结账按钮。"
+ },
+ {
+  "seg": 172,
+  "start": 706.926,
+  "end": 707.887,
+  "speaker": "Unknown",
+  "en": "Then there'll be a handoff.",
+  "zh": "然后会有一次交接。"
+ },
+ {
+  "seg": 173,
+  "start": 709.722,
+  "end": 713.744,
+  "speaker": "Unknown",
+  "en": "That will open up the checkout into an external page.",
+  "zh": "它会把结账打开到一个外部页面。"
+ },
+ {
+  "seg": 174,
+  "start": 714.024,
+  "end": 719.566,
+  "speaker": "Unknown",
+  "en": "So then you can complete that there and then come back and get it automatically updated within your MCP app.",
+  "zh": "然后你可以在那里完成它，再回来，你的 MCP app 内会自动更新。"
+ },
+ {
+  "seg": 175,
+  "start": 720.106,
+  "end": 731.35,
+  "speaker": "Unknown",
+  "en": "So that gives you a lot more control, but there is a little bit more friction that's introduced in this mode because you're not doing the actual checkout inside of your agent.",
+  "zh": "这给了你更多的控制权，但这个模式也引入了稍微多一点的摩擦，因为你不是在你的智能体内部完成实际的结账。"
+ },
+ {
+  "seg": 176,
+  "start": 732.39,
+  "end": 733.911,
+  "speaker": "Unknown",
+  "en": "So let's walk through this one.",
+  "zh": "那么我们来走一遍这个流程。"
+ },
+ {
+  "seg": 177,
+  "start": 735.732,
+  "end": 739.133,
+  "speaker": "Unknown",
+  "en": "So here we're going to search for some things that we'd like to buy.",
+  "zh": "在这里我们要搜索一些我们想买的东西。"
+ },
+ {
+  "seg": 178,
+  "start": 742.357,
+  "end": 744.359,
+  "speaker": "Unknown",
+  "en": "And this loads up an MCP app.",
+  "zh": "这会加载出一个 MCP app。"
+ },
+ {
+  "seg": 179,
+  "start": 745.199,
+  "end": 746.521,
+  "speaker": "Unknown",
+  "en": "And you can see this is using Claude.",
+  "zh": "你可以看到这是在使用 Claude。"
+ },
+ {
+  "seg": 180,
+  "start": 748.582,
+  "end": 749.703,
+  "speaker": "Unknown",
+  "en": "And this is a connector.",
+  "zh": "这是一个 connector。"
+ },
+ {
+  "seg": 181,
+  "start": 749.983,
+  "end": 754.087,
+  "speaker": "Unknown",
+  "en": "So MCP apps show up as connectors or apps, depending on the container.",
+  "zh": "MCP app 会以 connector 或 app 的形式出现，取决于容器是什么。"
+ },
+ {
+  "seg": 182,
+  "start": 756.003,
+  "end": 757.764,
+  "speaker": "Unknown",
+  "en": "So this is the MCP app.",
+  "zh": "所以这就是 MCP app。"
+ },
+ {
+  "seg": 183,
+  "start": 757.784,
+  "end": 758.984,
+  "speaker": "Unknown",
+  "en": "The merchant would design this.",
+  "zh": "商家会设计这个。"
+ },
+ {
+  "seg": 184,
+  "start": 759.304,
+  "end": 761.846,
+  "speaker": "Unknown",
+  "en": "They add the things that the user is now picking what they want.",
+  "zh": "他们添加那些东西，用户现在正在挑选他们想要的。"
+ },
+ {
+  "seg": 185,
+  "start": 762.666,
+  "end": 766.207,
+  "speaker": "Unknown",
+  "en": "And when they click checkout, this is now going to pop up an external link.",
+  "zh": "当他们点击结账时，这会弹出一个外部链接。"
+ },
+ {
+  "seg": 186,
+  "start": 766.308,
+  "end": 769.769,
+  "speaker": "Unknown",
+  "en": "And you can tie these together with a session as a merchant.",
+  "zh": "作为商家，你可以用一个 session 把这些联系在一起。"
+ },
+ {
+  "seg": 187,
+  "start": 769.829,
+  "end": 770.869,
+  "speaker": "Unknown",
+  "en": "So that's what's happening here.",
+  "zh": "这就是这里发生的事情。"
+ },
+ {
+  "seg": 188,
+  "start": 771.15,
+  "end": 772.43,
+  "speaker": "Unknown",
+  "en": "This opens up that session.",
+  "zh": "这打开了那个 session。"
+ },
+ {
+  "seg": 189,
+  "start": 773.05,
+  "end": 776.112,
+  "speaker": "Unknown",
+  "en": "They can then complete things with any payment method that they want.",
+  "zh": "然后他们可以用任何他们想要的支付方式来完成。"
+ },
+ {
+  "seg": 190,
+  "start": 776.772,
+  "end": 779.016,
+  "speaker": "Unknown",
+  "en": "You have complete control as a merchant over everything.",
+  "zh": "作为商家，你对一切拥有完全的控制。"
+ },
+ {
+  "seg": 191,
+  "start": 779.517,
+  "end": 783.323,
+  "speaker": "Unknown",
+  "en": "But when you complete that, notice how this MCP app updates automatically.",
+  "zh": "但当你完成它时，注意这个 MCP app 是如何自动更新的。"
+ },
+ {
+  "seg": 192,
+  "start": 783.383,
+  "end": 790.595,
+  "speaker": "Unknown",
+  "en": "So we're using communication behind the scenes to allow us to know exactly that it was completed and the status of that order and everything.",
+  "zh": "我们在后台使用通信，让我们确切地知道它已经完成、那个订单的状态以及一切。"
+ },
+ {
+  "seg": 193,
+  "start": 791.944,
+  "end": 797.365,
+  "speaker": "Unknown",
+  "en": "So that, again, just kind of demos for you what you can do with an MCP app and kind of what's on the table.",
+  "zh": "所以，这只是给你们演示一下你能用 MCP app 做什么，以及有哪些可能性。"
+ },
+ {
+  "seg": 194,
+  "start": 797.645,
+  "end": 800.206,
+  "speaker": "Unknown",
+  "en": "And there's a lot of new things coming along here.",
+  "zh": "而且这里有很多新东西正在推出。"
+ },
+ {
+  "seg": 195,
+  "start": 800.546,
+  "end": 802.006,
+  "speaker": "Unknown",
+  "en": "MCP apps has a new feature.",
+  "zh": "MCP apps 有一个新特性。"
+ },
+ {
+  "seg": 196,
+  "start": 802.307,
+  "end": 806.388,
+  "speaker": "Unknown",
+  "en": "It's not supported in most of the major ones yet that is called elicitation.",
+  "zh": "目前大多数主要平台还不支持，它叫做 elicitation。"
+ },
+ {
+  "seg": 197,
+  "start": 806.768,
+  "end": 814.089,
+  "speaker": "Unknown",
+  "en": "And so you can do that maybe a little bit more seamlessly as far as requesting that external validation in an iframe or something.",
+  "zh": "这样你就可以在 iframe 或类似的东西中请求那种外部验证，做得更无缝一些。"
+ },
+ {
+  "seg": 198,
+  "start": 814.65,
+  "end": 815.77,
+  "speaker": "Unknown",
+  "en": "So that's coming soon.",
+  "zh": "所以这个很快就会到来。"
+ },
+ {
+  "seg": 199,
+  "start": 816.05,
+  "end": 819.511,
+  "speaker": "Unknown",
+  "en": "I wanted to show you what you could really do today, which is like this.",
+  "zh": "我想给你展示今天你真正能做到的，就像这样。"
+ },
+ {
+  "seg": 200,
+  "start": 820.471,
+  "end": 828.794,
+  "speaker": "Unknown",
+  "en": "This kind of gives you a little bit of an overview of what are the different options that we offer merchants today and what are some of the trade-offs.",
+  "zh": "这大致给大家一个概览，看看我们今天为商家提供的不同选项，以及其中的一些权衡。"
+ },
+ {
+  "seg": 201,
+  "start": 828.894,
+  "end": 833.976,
+  "speaker": "Unknown",
+  "en": "So if you want to be in ChatGPT or you want to be on Google, there's options for you.",
+  "zh": "所以如果你想进入 ChatGPT 或者想在 Google 上，有你可以选择的方案。"
+ },
+ {
+  "seg": 202,
+  "start": 834.056,
+  "end": 840.538,
+  "speaker": "Unknown",
+  "en": "Or if you want more control as a merchant over the whole experience, you also have some options there too.",
+  "zh": "或者如果你作为商家想要对整个体验有更多控制权，那里也有一些选项。"
+ },
+ {
+  "seg": 203,
+  "start": 842.186,
+  "end": 846.547,
+  "speaker": "Unknown",
+  "en": "And yeah, so that's the main thing that I wanted to share with you.",
+  "zh": "是的，这就是我想和大家分享的主要内容。"
+ },
+ {
+  "seg": 204,
+  "start": 847.428,
+  "end": 853.97,
+  "speaker": "Unknown",
+  "en": "There's a link here on this QR code if you want to look at our docs, find out more about how to sign up and how to use that.",
+  "zh": "这个二维码上有一个链接，如果你想查看我们的文档，了解更多关于如何注册以及如何使用的信息。"
+ },
+ {
+  "seg": 205,
+  "start": 854.51,
+  "end": 857.911,
+  "speaker": "Unknown",
+  "en": "And if you have any questions, I'd love to",
+  "zh": "如果你有什么问题，我很乐意"
+ },
+ {
+  "seg": 206,
+  "start": 859.131,
+  "end": 861.233,
+  "speaker": "Unknown",
+  "en": "I don't know if we can maybe do questions here.",
+  "zh": "不知道我们能不能在这里进行提问。"
+ },
+ {
+  "seg": 207,
+  "start": 861.273,
+  "end": 862.794,
+  "speaker": "Unknown",
+  "en": "Maybe just come talk to me afterwards.",
+  "zh": "也许可以之后直接来找我聊。"
+ },
+ {
+  "seg": 208,
+  "start": 863.035,
+  "end": 865.176,
+  "speaker": "Unknown",
+  "en": "We also have a booth over there in the back of the room.",
+  "zh": "我们在房间后面那边还有一个展位。"
+ },
+ {
+  "seg": 209,
+  "start": 865.597,
+  "end": 872.602,
+  "speaker": "Unknown",
+  "en": "So I'm going to be there for the next hour or so and would love to talk to any of you who have any questions about what we offer.",
+  "zh": "接下来一个小时左右我都会在那里，很乐意和任何对我们提供的服务有疑问的朋友交流。"
+ },
+ {
+  "seg": 210,
+  "start": 872.802,
+  "end": 873.183,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]
