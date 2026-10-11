@@ -155,9 +155,9 @@ Hirsh 补了一条红线：**不要接任何关键路径的工作**。你会被�
 
 **换个口味**
 
+- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)、评估 (evals)</span>
 - [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)、评估 (evals)</span>
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同概念:Claude Code、前沿模型 (frontier model)、评估 (evals)、computer use</span>
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、评估 (evals)</span>
 
 </div>
 </div>

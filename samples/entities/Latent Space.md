@@ -8,12 +8,18 @@ aliases: ["Alien Space"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Latent Space</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Latent Space">LA</div><div class="pi"><h1 class="pt">Latent Space</h1><div class="byl">概念 · 又名 Alien Space</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Latent Space">LA</div><div class="pi"><h1 class="pt">Latent Space</h1><div class="byl">概念 · 又名 Alien Space</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(09:04起):本集把它说成:大语言模型内部的概率空间,用来处理品味、判断力,以及理解人类说一些模糊的话时真正想要什么
 - **[[2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1|《个人 AGI：用 Markdown 组建你自己的劳动力》]]**(18:32起):本集说品味、判断、从模糊请求中解读人类真正想要的东西属于潜在空间，存在于模型中，通过 Markdown 文件引导
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri#^q4]]
 
 ## ② 出现在这些集
 
@@ -29,7 +35,7 @@ aliases: ["Alien Space"]
 
 [[智能体]] · [[Garry Tan]] · [[技能文件]] · [[RAG]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]] · [[Codex]] · [[YC]] · [[上下文工程]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"Garry Tan":2,"技能文件":4,"RAG":28,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":83,"YC":17,"上下文工程":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"Garry Tan":2,"技能文件":4,"RAG":28,"确定性空间":2,"工作记忆":2,"Gbrain":2,"Codex":83,"YC":17,"上下文工程":17}</script>
 
 <script>
 (function(){

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[GrokBot]] · [[Cursor]] · [[Grok 4.6]] · [[GitHub]] · [[智能体]] · [[MCP]] · [[连接器]] · [[多智能体]] · [[Git]] · [[Claude]]
+[[GrokBot]] · [[Cursor]] · [[Grok 4.6]] · [[GitHub]] · [[智能体]] · [[MCP]] · [[连接器]] · [[多智能体]] · [[虚拟机]] · [[Git]]
 
-<script type="application/json" class="pd-epn">{"GrokBot":8,"Cursor":86,"Grok 4.6":1,"GitHub":33,"智能体":464,"MCP":85,"连接器":3,"多智能体":4,"Git":4,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"GrokBot":8,"Cursor":86,"Grok 4.6":1,"GitHub":33,"智能体":467,"MCP":85,"连接器":3,"多智能体":4,"虚拟机":3,"Git":4}</script>
 
 <script>
 (function(){

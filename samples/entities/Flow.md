@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Flow</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Flow">FL</div><div class="pi"><h1 class="pt">Flow</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Flow">FL</div><div class="pi"><h1 class="pt">Flow</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]]**(25:00起):本集说它是 Neumann 卸任后的新公司,A16Z 投了 4.7 亿美元;其技术能核算到哪一栋楼、哪一层盈利,还把建筑行业的成本问题作为正在解决的方向
+- **[[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]]**(07:07起):本集说 Flow 是 Labs 做出的视频创作项目，源自更早的 Whisk 实验，提供了前所未有的易用创作控制力。
 
 ## ① 提到它的金句
 
@@ -35,17 +36,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]] — 作为被讨论公司
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Adam Neumann]] · [[WeWork]] · [[SoftBank]] · [[a16z]] · [[基准测试]] · [[Salesforce]] · [[IPO]] · [[自我]] · [[高增长业务]] · [[Co-work]]
+[[Adam Neumann]] · [[Lenny]] · [[WeWork]] · [[Josh Woodward]] · [[SoftBank]] · [[Google]] · [[a16z]] · [[Google Labs]] · [[基准测试]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Adam Neumann":1,"WeWork":1,"SoftBank":5,"a16z":19,"基准测试":18,"Salesforce":35,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"Adam Neumann":1,"Lenny":69,"WeWork":1,"Josh Woodward":1,"SoftBank":5,"Google":70,"a16z":19,"Google Labs":1,"基准测试":2,"Gemini":16}</script>
 
 <script>
 (function(){

@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Thompson</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ben Thompson">BE</div><div class="pi"><h1 class="pt">Ben Thompson</h1><div class="byl">Invest Like the Best 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ben Thompson">BE</div><div class="pi"><h1 class="pt">Ben Thompson</h1><div class="byl">Invest Like the Best 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>30</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*11 条*
+*30 条*
 
 ![[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a#^q1]]
 
@@ -35,27 +35,66 @@ unlisted: true
 
 ![[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a#^q11]]
 
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q1]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q2]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q3]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q4]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q5]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q6]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q7]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q8]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q9]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q10]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q11]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q12]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q13]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q14]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q15]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q16]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q17]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q18]]
+
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q19]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|《Ben Thompson:美国赢得 AI 竞赛反而是危险的》]] — 作为主持
+- [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick O'Shaughnessy]] · [[聚合理论]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[TSMC]] · [[NVIDIA]] · [[Amazon]]
+[[聚合理论]] · [[Meta]] · [[Microsoft]] · [[Patrick O'Shaughnessy]] · [[Steve Jobs]] · [[OpenAI]] · [[Mark Zuckerberg]] · [[Anthropic]] · [[智能体]] · [[Google]]
 
-## ④ 也在聊「创业与行业」的人
+## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"聚合理论":1,"OpenAI":192,"Anthropic":197,"Google":69,"Meta":50,"Microsoft":30,"TSMC":9,"NVIDIA":67,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":51,"Microsoft":31,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":192,"Mark Zuckerberg":1,"Anthropic":197,"智能体":467,"Google":70}</script>
 
 <script>
 (function(){

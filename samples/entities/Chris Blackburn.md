@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":21,"DevOps":4,"变革管理":4,"数字分身":3,"持续交付":2,"ChatGPT":105}</script>
+<script type="application/json" class="pd-epn">{"Liatrio":1,"价值流映射":1,"绞杀组织":1,"增值时间":1,"人在回路":21,"DevOps":4,"变革管理":4,"数字分身":3,"持续交付":2,"ChatGPT":106}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Salesforce</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Salesforce">SA</div><div class="pi"><h1 class="pt">Salesforce</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -44,6 +44,7 @@ unlisted: true
 - **[[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]]**(71:52起):本集只借其创始人 Benioff 之口出现:他曾劝 Neumann 拒绝 Masa、以 50 亿打折上市,并预言估值很快会更大
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(10:10起):本集提及：AI 帮助在 SAP 与 Salesforce 系统之间自动匹配数据；也作为需要经 SAP 网关访问数据的第三方智能体例子。
 - **[[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]]**(03:13起):被作为在位者的典型例子：把 Claude 和 Salesforce 捏成 Claudeforce，数据现成、分发渠道强；其 AgentForce 发布时客户很容易就注册
+- **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(16:39起):本集调侃它打算给旗舰产品收三位数溢价接入智能体——在 AI 会直接用电脑的时代,这等于确保再没有人类会打开 Salesforce 的界面。
 - **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(00:23起):本集作为嘉宾背景提及：Hossein 在 Salesforce 和 Databricks 做了 15 年解决方案工作。
 
 ## ① 提到它的金句
@@ -62,7 +63,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*35 集*
+*36 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为被讨论公司(提及)
@@ -98,15 +99,16 @@ unlisted: true
 - [[2026-09-28-doac-adam-neumann-the-real-story-behind-wewor|《WeWork 崩盘五个月后：Adam Neumann 亲述 470 亿估值如何一夜归零》]] — 作为被讨论公司(提及)
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
 - [[2026-10-02-a16z-why-ai-agents-can-beat-the-incumbents-fc|《采购这门「无聊脏活」，凭什么容得下万亿美元级 AI 创业公司》]] — 作为被讨论公司
+- [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[评估]] · [[LLM]] · [[ChatGPT]] · [[MCP]] · [[Harry Stebbings]] · [[Lenny]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[ChatGPT]] · [[评估]] · [[LLM]] · [[MCP]] · [[Harry Stebbings]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"OpenAI":192,"Anthropic":197,"Cursor":86,"评估":1,"LLM":60,"ChatGPT":105,"MCP":85,"Harry Stebbings":20,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"OpenAI":192,"Anthropic":197,"Cursor":86,"ChatGPT":106,"评估":1,"LLM":60,"MCP":85,"Harry Stebbings":20,"Lenny":69}</script>
 
 <script>
 (function(){

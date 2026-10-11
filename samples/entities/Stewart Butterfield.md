@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Slack":34,"Salesforce":35,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Slack":34,"Salesforce":36,"Glitch":1,"效用曲线":1,"摩擦力":1,"超逼真的类工作活动":1,"帕金森定律":1,"所有者的错觉":1,"我们不卖马鞍":1}</script>
 
 <script>
 (function(){

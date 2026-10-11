@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":464,"Mentor":1,"智能体铸造厂":1,"微调":35,"前沿模型":27,"MCP":85,"合规积压清单":1,"企业就绪":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":467,"Mentor":1,"智能体铸造厂":1,"微调":35,"前沿模型":27,"MCP":85,"合规积压清单":1,"企业就绪":2}</script>
 
 <script>
 (function(){

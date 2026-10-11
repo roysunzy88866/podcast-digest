@@ -204,7 +204,7 @@ Amjad 自己的道德坐标：他读过大量功利主义著作然后拒绝了�
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同公司:ChatGPT、Replit · 同概念:AGI、Vibe Coding</span>
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:ChatGPT · 同概念:AGI</span>
-- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:ChatGPT · 同概念:AGI</span>
+- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:Vibe Coding、网络安全 (cybersecurity)</span>
 
 </div>
 </div>

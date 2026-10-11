@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Nathan]] · [[Vercel]] · [[Arm]] · [[RL]] · [[智能体]] · [[思维链]] · [[奖励信号]] · [[递归自我改进]] · [[分工]] · [[后训练]]
+[[Nathan]] · [[Vercel]] · [[Arm]] · [[DeepSec]] · [[RL]] · [[智能体]] · [[思维链]] · [[奖励信号]] · [[递归自我改进]] · [[分工]]
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"Vercel":19,"Arm":2,"RL":14,"智能体":464,"思维链":10,"奖励信号":1,"递归自我改进":12,"分工":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"Vercel":20,"Arm":2,"DeepSec":2,"RL":14,"智能体":467,"思维链":10,"奖励信号":1,"递归自我改进":12,"分工":1}</script>
 
 <script>
 (function(){

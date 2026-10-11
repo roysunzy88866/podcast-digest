@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>15</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]]**(07:23起):本集说多亏 Antigravity 产品,Gemini 已经学会了如何管理一个智能体团队;Gemini 3.5 Flash 于四月发布,不仅擅长执行任务,还非常擅长领导团队,更快更便宜
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Gemini 背后有 Google 的天然分发和更大用户基数，但美国付费订阅者已被 Claude 反超，付费用户中最高档占比仅约 1%。
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(30:27起):本集提到 Google 正在用 Gemini 为未来的 Gemini 设计硬件
+- **[[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]]**(01:24起):本集说 Gemini 是用户超过 10 亿的应用，与 Labs 同归 Josh 管理，并提到 Nano Banana 爆红、砍功能、personal intelligence 愿景等具体例子。
 
 ## ① 提到它的金句
 
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为概念(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
@@ -58,14 +59,15 @@ unlisted: true
 - [[2026-09-27-talks-get-out-of-the-model-s-way-kevin-hou-goo|《让开,别挡模型:Google Antigravity 的智能体团队打法》]] — 作为被讨论公司
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[Cursor]] · [[DeepMind]] · [[Meta]]
+[[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[TPU]] · [[Cursor]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"Google":69,"ChatGPT":105,"OpenAI":192,"Anthropic":197,"Claude Code":102,"评估":1,"Cursor":86,"DeepMind":16,"Meta":50}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"Google":70,"ChatGPT":106,"OpenAI":192,"Anthropic":197,"Claude Code":103,"评估":1,"TPU":5,"Cursor":86,"Lenny":69}</script>
 
 <script>
 (function(){

@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Max Junestrand]] · [[Legora]] · [[智能体]] · [[微调]] · [[评估]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[Bloomberg]] · [[OpenAI]]
+[[Max Junestrand]] · [[Legora]] · [[智能体]] · [[微调]] · [[评估]] · [[基准测试]] · [[大语言模型]] · [[LangChain]] · [[Azure]] · [[Bloomberg]]
 
-<script type="application/json" class="pd-epn">{"Max Junestrand":1,"Legora":3,"智能体":464,"微调":35,"评估":1,"大语言模型":11,"LangChain":10,"Azure":3,"Bloomberg":3,"OpenAI":192}</script>
+<script type="application/json" class="pd-epn">{"Max Junestrand":1,"Legora":3,"智能体":467,"微调":35,"评估":1,"基准测试":2,"大语言模型":11,"LangChain":10,"Azure":3,"Bloomberg":3}</script>
 
 <script>
 (function(){

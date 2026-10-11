@@ -25,7 +25,7 @@ unlisted: true
 
 [[Navin Chaddha]] · [[Mayfield]] · [[Anthropic]] · [[OpenAI]] · [[NVIDIA]] · [[Claude]] · [[智能体]] · [[推理]] · [[GPU]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Mayfield":1,"Anthropic":197,"OpenAI":192,"NVIDIA":67,"Claude":93,"智能体":464,"推理":91,"GPU":30,"SaaS":22}</script>
+<script type="application/json" class="pd-epn">{"Navin Chaddha":1,"Mayfield":1,"Anthropic":197,"OpenAI":192,"NVIDIA":67,"Claude":93,"智能体":467,"推理":92,"GPU":30,"SaaS":22}</script>
 
 <script>
 (function(){

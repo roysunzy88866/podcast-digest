@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Muse</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(00:26起):本集说 Muse 的用户体验对消费者更友好、头像超可爱,消费场景 Claire 觉得它比 dot 更好上手。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(06:33起):本集说 Muse 是最大的消费助手之一，前 12 天约 50 万下载、25 万活跃用户，但与 Threads 同期 1600 万下载相比仍有差距；被 Amazon 拒绝在其站点购物，已与 Shopify 等几百家产品合作。
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Muse 是 Meta 的个人助手产品，MG 自称意外地发现它从一开局就做得非常好，被 Amazon 封锁但获得 Shopify 合作。
+- **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(06:10起):本集说 Meta 发布的智能体产品 Muse,真正给了普通人拥有自己智能体所需的基础设施——给每个美国用户配一台虚拟机;作者用它五分钟造出了自己的菜谱盒应用,并称 Meta 的设备(眼镜等)都是 Muse 的投递机制。
 
 ## ① 提到它的金句
 
@@ -26,7 +27,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
@@ -34,14 +35,15 @@ unlisted: true
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
+- [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Instinct]] · [[Meta]] · [[Amazon]] · [[OpenAI]] · [[OpenClaw]] · [[Codex]] · [[主动性]] · [[Shopify]]
+[[智能体]] · [[ChatGPT]] · [[Meta]] · [[Instinct]] · [[OpenClaw]] · [[Amazon]] · [[OpenAI]] · [[Codex]] · [[主动性]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"ChatGPT":105,"Instinct":5,"Meta":50,"Amazon":32,"OpenAI":192,"OpenClaw":23,"Codex":83,"主动性":2,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"ChatGPT":106,"Meta":51,"Instinct":5,"OpenClaw":23,"Amazon":32,"OpenAI":192,"Codex":83,"主动性":2,"Shopify":17}</script>
 
 <script>
 (function(){

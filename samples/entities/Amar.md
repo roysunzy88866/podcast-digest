@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":68,"Rippling":3,"Notion":17,"Apple":24,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":29,"熵":3,"幂律分布":3}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":69,"Rippling":3,"Notion":17,"Apple":24,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合":30,"熵":3,"幂律分布":3}</script>
 
 <script>
 (function(){

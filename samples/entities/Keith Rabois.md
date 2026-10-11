@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"PayPal":8,"Square":5,"Faire":1,"Ramp":11,"Airbnb":13,"桶和弹药":1,"人才密度":4,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"PayPal":8,"Square":5,"Faire":1,"Ramp":11,"Airbnb":13,"桶和弹药":1,"人才密度":4,"PM":3,"商业头脑":1}</script>
 
 <script>
 (function(){

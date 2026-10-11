@@ -25,7 +25,7 @@ unlisted: true
 
 [[Dylan Patel]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Oracle]] · [[CoreWeave]] · [[Nebius]] · [[Meta]] · [[DeepMind]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Dylan Patel":2,"NVIDIA":67,"Anthropic":197,"OpenAI":192,"Oracle":11,"CoreWeave":3,"Nebius":3,"Meta":50,"DeepMind":16,"Google":69}</script>
+<script type="application/json" class="pd-epn">{"Dylan Patel":2,"NVIDIA":67,"Anthropic":197,"OpenAI":192,"Oracle":11,"CoreWeave":3,"Nebius":3,"Meta":51,"DeepMind":16,"Google":70}</script>
 
 <script>
 (function(){

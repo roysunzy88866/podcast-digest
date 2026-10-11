@@ -266,8 +266,8 @@ Vahdat 猜测，2036 年的前沿超算集成度会高得多：机柜由工厂�
 **换个口味**
 
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同公司:Google · 同概念:Gemini、智能体 (agent)</span>
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:Google · 同概念:Gemini、智能体 (agent)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Gemini、智能体 (agent)</span>
 
 </div>
 </div>

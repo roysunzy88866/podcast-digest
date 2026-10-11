@@ -138,9 +138,9 @@ Colin 认为从老东家挖人的飞轮效应很强：你雇了前同事里最�
 
 **顺着「产品方法」挖下去**
 
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队]]<span class="pd-rz">同公司:Google · 同概念:产品市场契合 (Product Market Fit)</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
 - [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]]<span class="pd-rz">同概念:产品市场契合 (Product Market Fit)</span>
 
 </div>
 <div class="pd-ex">

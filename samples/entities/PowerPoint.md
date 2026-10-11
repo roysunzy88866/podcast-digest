@@ -33,7 +33,7 @@ unlisted: true
 
 [[Jon Noronha]] · [[Gamma]] · [[Google Slides]] · [[Optimizely]] · [[Notion]] · [[Slack]] · [[Loom]] · [[Salesforce]] · [[Excel]] · [[Canvas]]
 
-<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":17,"Slack":34,"Loom":1,"Salesforce":35,"Excel":3,"Canvas":2}</script>
+<script type="application/json" class="pd-epn">{"Jon Noronha":1,"Gamma":3,"Google Slides":1,"Optimizely":2,"Notion":17,"Slack":34,"Loom":1,"Salesforce":36,"Excel":3,"Canvas":2}</script>
 
 <script>
 (function(){

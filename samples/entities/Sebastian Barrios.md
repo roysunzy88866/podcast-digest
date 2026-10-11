@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":464,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":467,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
 
 <script>
 (function(){

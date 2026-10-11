@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":105,"Claude":93,"GPT":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":106,"Claude":93,"GPT":4}</script>
 
 <script>
 (function(){

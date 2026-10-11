@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":86,"Claude Code":102,"Figma":22,"Conductor":2,"智能体":464,"MCP 服务器":2,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
+<script type="application/json" class="pd-epn">{"Paper":1,"Cursor":86,"Claude Code":103,"Figma":22,"Conductor":2,"智能体":467,"MCP 服务器":2,"代码即真相来源":1,"策展式设计":1,"HTML":1}</script>
 
 <script>
 (function(){

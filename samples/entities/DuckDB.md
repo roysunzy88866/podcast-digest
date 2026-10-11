@@ -27,7 +27,7 @@ unlisted: true
 
 [[Snowflake]] · [[智能体]] · [[Jordan Tigani]] · [[Andy Pavlo]] · [[MotherDuck]] · [[Matt Turk]] · [[DuckDB Labs]] · [[护栏]] · [[BigQuery]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Snowflake":20,"智能体":464,"Jordan Tigani":1,"Andy Pavlo":1,"MotherDuck":1,"Matt Turk":5,"DuckDB Labs":1,"护栏":88,"BigQuery":1,"沙箱":93}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":20,"智能体":467,"Jordan Tigani":1,"Andy Pavlo":1,"MotherDuck":1,"Matt Turk":5,"DuckDB Labs":1,"护栏":88,"BigQuery":1,"沙箱":94}</script>
 
 <script>
 (function(){

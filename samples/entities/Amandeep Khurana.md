@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":197,"Amazon":32,"AWS":22,"Cloudera":1,"Databricks":23,"Palantir":20,"Microsoft":30,"Lovable":19,"前向部署工程师":2,"前置部署工程":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":197,"Amazon":32,"AWS":22,"Cloudera":1,"Databricks":23,"Palantir":20,"Microsoft":31,"Lovable":19,"前向部署工程师":2,"前置部署工程":3}</script>
 
 <script>
 (function(){

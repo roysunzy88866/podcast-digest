@@ -69,7 +69,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":48,"垃圾话":9,"团结":1}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":49,"垃圾话":9,"团结":1}</script>
 
 <script>
 (function(){

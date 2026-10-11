@@ -1,0 +1,1588 @@
+{
+  "episode_id": "2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri",
+  "podcast": "精选演讲",
+  "date": "2026-10-02",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "AI 安全",
+    "vibe coding",
+    "创业与产品方法"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            603.186,
+            611.813
+          ],
+          "quote": "Like when you look at a Vercel, Vercel looks a certain way and we invest in making it so and creating an emotional connection with our audience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1303.967,
+            1311.074
+          ],
+          "quote": "Yeah, so broadly speaking for Vercel, we've encouraged people to try everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1361.375,
+            1372.122
+          ],
+          "quote": "So every engineer at Vercel gets this app and they can understand, okay, how much do I spend on the OpenAI model versus the Kimi model versus the Opus model, etc.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1389.191,
+            1396.053
+          ],
+          "quote": "So when I started Vercel, if you go on the Wayback Machine, I started Vercel by shipping a CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1415.203,
+            1418.304
+          ],
+          "quote": "And, you know, we ended up renaming the product, it's now called Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1479.152,
+            1487.042
+          ],
+          "quote": "So today I'm using FX, which is the coding CLI of Vercel Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1542.017,
+            1547.282
+          ],
+          "quote": "So interestingly enough, Vercel for its entire history has been associated with TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1694.944,
+            1705.827
+          ],
+          "quote": "Today, prior to this interview, we announced Vercel Drives, which is a way of sort of like modeling a file system in the cloud and that you can sort of like launch a bunch of agents around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1880.44,
+            1886.323
+          ],
+          "quote": "on tell me what Vercel could have done better for this experiment and it's been doing wonders for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2051.949,
+            2065.139
+          ],
+          "quote": "Using this mental model of like brain and hands, I don't know if you've heard of it, but like the architecture that we recommend at Vercel is that you run the harness and then you give it tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2066.22,
+            2070.262
+          ],
+          "quote": "So in this example, the tool that we're giving it is the Vercel sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2205.07,
+            2213.822
+          ],
+          "quote": "You can run it inside the Vercel sandbox, or you can use one of our marketplace partner services like BrowserBase or Kernel, and yeah, it's been super fun to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2706.165,
+            2709.647
+          ],
+          "quote": "The Vercel Global CDN is a multi-tiered caching system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2719.237,
+            2727.566
+          ],
+          "quote": "Like when you go to rougg.com, the reason it's really fast is I probably hit the L1 cache of the Vercel CDN in San Francisco.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2796.27,
+            2810.301
+          ],
+          "quote": "You know, when people say 200 or 250, like I almost like I'm okay with it because like this is if everything is like perfect, you're dealing with, you know, Vercel spends a lot of capital on the interlink between regions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2811.482,
+            2836.075
+          ],
+          "quote": "Because we need encryption in the network stack in between, so for example, you put the Vercel CDN in front of a certain workload, the communication between the edge that's closest to you and the origin has to be encrypted, it has redundant, it sends redundant packets, the packets get cloned, and it goes over a high priority network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3518.42,
+            3521.862
+          ],
+          "quote": "One of our values at Vercel is also KYC, know your customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3567.682,
+            3572.005
+          ],
+          "quote": "I have to enter my email or do signing with Google or Vercel or whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3633.968,
+            3651.716
+          ],
+          "quote": "Feature flags, experiments, metrics, those, and interestingly enough, at Vercel Lake, we're turning a lot of these things into CLIs, like Vercel metrics, Vercel traces, because we want to help you hydrate your agents with the real-world data of what's going on in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4093.861,
+            4100.465
+          ],
+          "quote": "So my advice to the world right now and you know Vercel has sort of been putting out a bunch of these warnings out is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            4210.046,
+            4222.47
+          ],
+          "quote": "But right now, we are, Vercel and many others, investing a lot of money into deep-secking it and finding vulnerabilities and doing a bunch of bounties and stuff to make it more secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 991,
+          "t": [
+            5718.702,
+            5721.003
+          ],
+          "quote": "On top of Vercel Sandbox and Vercel AI Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            5830.752,
+            5837.976
+          ],
+          "quote": "Yeah, I mean, check out Vercel.com, obviously, Vercel.com slash labs, where you can find some of these new products that we're researching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            5842.038,
+            5848.661
+          ],
+          "quote": "In fact, the easiest way to check out Vercel AI Gateway is check out FX and you get access to every model that we offer there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fx",
+      "type": "company",
+      "role": "company",
+      "name": "fx",
+      "file": "fx",
+      "primary": true,
+      "how_described": "本集说 fx 是 Vercel Labs 出的编码 CLI，11 兆、启动快如 shell，极简且同时是可嵌入其他程序的库（libfx），嘉宾个人用它做研究、编码和「智能体探究」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1479.152,
+            1487.042
+          ],
+          "quote": "So today I'm using FX, which is the coding CLI of Vercel Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1639.806,
+            1643.251
+          ],
+          "quote": "And so FX is actually simultaneously this super minimalistic CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1656.404,
+            1658.887
+          ],
+          "quote": "So there's libfx that goes together with fx.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1888.524,
+            1891.825
+          ],
+          "quote": "So FX is just the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1910.621,
+            1914.781
+          ],
+          "quote": "One of the ideas of FX is that you should be able to embed it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2442.795,
+            2447.596
+          ],
+          "quote": "Because I can tell, and this is true actually in the development of FX, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2447.776,
+            2456.458
+          ],
+          "quote": "We can do amazing things in FX for startup time, for making the binary smaller, et cetera, but everything comes with trade-offs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3439.513,
+            3449.962
+          ],
+          "quote": "I've had this experience where I will have FX research something and I'll ask it, find me a bunch of projects that have already done this because I don't want to reinvent the wheel from first principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            4349.962,
+            4357.164
+          ],
+          "quote": "So like, do you think moving agents from like, okay, Claude Code in your terminal or FX on your computer to a cloud is inevitable?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4718.388,
+            4740.073
+          ],
+          "quote": "Because it links Safari dynamically, so it's a Safari-based browser, but three megabytes, clean, fast, awesome, like I commend you on pursuing that, like we're doing with FX, like small, fast, embeddable, anything that's slow, anything that's complicated, anything that's not extensible, anything that's not embeddable, like all of these things are going to change really fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1016,
+          "t": [
+            5829.022,
+            5829.202
+          ],
+          "quote": "FX?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            5842.038,
+            5848.661
+          ],
+          "quote": "In fact, the easiest way to check out Vercel AI Gateway is check out FX and you get access to every model that we offer there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "v0",
+      "type": "company",
+      "role": "company",
+      "name": "v0",
+      "file": "v0",
+      "primary": true,
+      "how_described": "本集说 v0 是 Vercel 2023 年发布的应用生成产品，当年 90% 工程时间花在搭 harness 上，如今用 libfx 100 行代码就能拼出迷你 v0。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1915.662,
+            1921.603
+          ],
+          "quote": "And one of the inspirations for libFX was when we created V0, we needed to build a harness from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1923.054,
+            1939.94
+          ],
+          "quote": "If I were to create something like v0 today, or any kind of application, like imagine Gamma, which builds slides, if I were to build something like Notion, or anything that requires sort of agentic intelligence to be embedded, I would want to pick a harness off the shelf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1963.18,
+            1968.787
+          ],
+          "quote": "So the easiest possible V0 that you could build is just creating HTML pages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2008.182,
+            2019.533
+          ],
+          "quote": "So what's really cool about building this demo of FX0 was, you know, back when we built v0 for the first time, I think the amount of time that we spent just on the harness was disproportionate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2216.776,
+            2217.936
+          ],
+          "quote": "V0 was 2023, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2227.119,
+            2238.923
+          ],
+          "quote": "It's amazing to me that, you know, we needed a big team of people building something like V0 and it's now a library that you can import and you can build basically VibeCode your own.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 是嘉宾从 NeoVim 逻辑上走向的编码工具，靠走向 AI 的内核（打包智能、给你一个 prompt）而成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            301.304,
+            305.204
+          ],
+          "quote": "With their official connector you can just ask Codex or Claude code to use it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1279.143,
+            1286.729
+          ],
+          "quote": "So if that's you, if you're paying for a $200 plan on Codex, Claude Code and a bunch of other stuff, go to cloudroom.dev and join the waitlist.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1450.715,
+            1454.056
+          ],
+          "quote": "So my next obvious logical step was Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1455.017,
+            1463.299
+          ],
+          "quote": "I got really excited when Claude Code came out because everyone else was trying out sort of like building very sophisticated apps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1717.034,
+            1722.478
+          ],
+          "quote": "OpenClaw was so simple that it was just Claude Code plus Sol.md.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3593.843,
+            3599.047
+          ],
+          "quote": "By the way, you see this a lot with the Claude Code team, they ship software, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3712.102,
+            3725.111
+          ],
+          "quote": "It's a cybersecurity harness or meta-harness that can invoke codex, Claude Code, OpenModels, et cetera, with the very precise intent of uncovering vulnerabilities in your codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            4349.962,
+            4357.164
+          ],
+          "quote": "So like, do you think moving agents from like, okay, Claude Code in your terminal or FX on your computer to a cloud is inevitable?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成编排的舰队、AI 员工，杠杆正上移到线束工程与软件工厂；还讨论了成千上万智能体并行运行、云端运行智能体的必然性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            275.878,
+            278.619
+          ],
+          "quote": "It's simple, it's scalable, and it's agent first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            311.686,
+            316.007
+          ],
+          "quote": "And the agent will do all of this for you right inside of your Supabase project.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1311.975,
+            1317.159
+          ],
+          "quote": "We're not prescriptive about what coding agent you use, what frameworks you use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1536.01,
+            1539.191
+          ],
+          "quote": "What comes to mind is Py, that's probably the closest minimal agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1724.256,
+            1729.941
+          ],
+          "quote": "A Linux program plus the file system is basically all you need in order to run agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1749.556,
+            1751.198
+          ],
+          "quote": "I can have the agent look at it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1759.3,
+            1774.803
+          ],
+          "quote": "The fact that my agents.md file in this research folder sort of like creates the convention for if I ask the agent the question, reads up the instructions and then dumps my research into this folder and I can sort of basically improve it over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1851.088,
+            1857.971
+          ],
+          "quote": "So anytime we create a new piece of infrastructure, I try to validate it from first principles and how an agent would approach it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1858.591,
+            1870.836
+          ],
+          "quote": "A good example is when we announced drives, I had an agent go and try to break it, try to find race conditions, try to measure latency, try to compare it with alternatives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1872.397,
+            1879.42
+          ],
+          "quote": "I do a lot of what I call agentic inquiry, which is like I'll have an agent go and try out one of our technologies and then I'll have it reflect",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1969.388,
+            1974.895
+          ],
+          "quote": "So we did this thing where we help you choose between design, app or agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2033.767,
+            2037.692
+          ],
+          "quote": "I don't know, 100 lines of code on top of the CreateFX Agent API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2071.263,
+            2075.827
+          ],
+          "quote": "So this prompt said, build a landing page for a CLI coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2086.157,
+            2088.659
+          ],
+          "quote": "And then we gave it a third one, which is agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2089.22,
+            2091.422
+          ],
+          "quote": "And it creates an EVE agent when you give it a prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2177.508,
+            2194.44
+          ],
+          "quote": "So LiveFX is sort of, even though it's a coding agent, what I love about it is that at the end of it, it's just a thing that's really good at working with a bunch of models, calling tools, producing outputs, reflecting on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2264.031,
+            2268.913
+          ],
+          "quote": "So I think like there will be some way of, you know, having a manager or like some director, agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2329.069,
+            2339.577
+          ],
+          "quote": "I think the future of dev tools like Next.js would be very much making these use cases work really, really well, where you have an agent driving the experience rather than a human being.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2342.719,
+            2350.863
+          ],
+          "quote": "But still, like, when you give an agent a computer, like, there's almost like the assumption of like, I'm gonna go and let it cook in the background, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2376.824,
+            2380.125
+          ],
+          "quote": "But what you're describing here is like you need to figure it out with the agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2387.987,
+            2388.907
+          ],
+          "quote": "You can unblock another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2436.192,
+            2442.455
+          ],
+          "quote": "And that also requires that you and the agent agree on a set of axioms and potentially a set of trade-offs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3135.679,
+            3141.884
+          ],
+          "quote": "It's like if you know how to use the agent to understand this file or this module, like that's enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3166.247,
+            3170.57
+          ],
+          "quote": "So that I think the agent was sort of doing like pseudo static analysis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            4345.22,
+            4349.682
+          ],
+          "quote": "If you're in a coffee shop, you don't want to burn all your battery because agent decided to run a thousand tests, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            5119.823,
+            5125.568
+          ],
+          "quote": "A good example is that when a normie asks me what an agent is, I tell them it's like an AI employee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 867,
+          "t": [
+            5126.699,
+            5131.323
+          ],
+          "quote": "You have your marketing agent and you have your, you know, security review agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 875,
+          "t": [
+            5149.106,
+            5161.14
+          ],
+          "quote": "Yeah, I guess that comes with getting your hands dirty, because people who are outside, like, you know, they don't know, like, you're talking about the capabilities, you're not talking about, like, all the other stuff, you know, like, we need the rights for the agent, like, how about less regulation, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 896,
+          "t": [
+            5253.781,
+            5255.683
+          ],
+          "quote": "The same thing is happening now with this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            5332.117,
+            5336.779
+          ],
+          "quote": "What I really need is the agent trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 916,
+          "t": [
+            5347.324,
+            5352.166
+          ],
+          "quote": "If I had this, but for what the agent did in that sandbox,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 929,
+          "t": [
+            5418.773,
+            5433.318
+          ],
+          "quote": "But the timing does seem to point out that I give credibility to the theory that the agent did escape the sandbox by hacking a system, which is Artifactory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 934,
+          "t": [
+            5453.452,
+            5458.597
+          ],
+          "quote": "So you can do insane damage if you're an agent, if you found this vulnerability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 935,
+          "t": [
+            5459.078,
+            5472.59
+          ],
+          "quote": "So this is me also arguing against myself a little bit here, like saying, I'm kind of shocked that an agent found and exploited a zero day vulnerability that ended up being a CVE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            5478.428,
+            5489.633
+          ],
+          "quote": "But not really, because there's the technical skill, like you said, they were benchmarking them on cybersecurity, and then it's like the intent, anthropomorphizing, the agent had this goal, it wanted to escape, it wanted to trick them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 940,
+          "t": [
+            5491.534,
+            5496.636
+          ],
+          "quote": "When there's a security incident like this, OpenAI Anthropic, they should fully open source it, like agent races, everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说沙箱是云端运行智能体的隔离环境，把开发生命周期迁入沙箱理论上可根除供应链攻击，Vercel Sandbox 是可复用的基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1706.087,
+            1708.388
+          ],
+          "quote": "So you can launch a sandbox and attach a drive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2066.22,
+            2070.262
+          ],
+          "quote": "So in this example, the tool that we're giving it is the Vercel sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2205.07,
+            2213.822
+          ],
+          "quote": "You can run it inside the Vercel sandbox, or you can use one of our marketplace partner services like BrowserBase or Kernel, and yeah, it's been super fun to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4675.141,
+            4684.347
+          ],
+          "quote": "Obviously, we're making contributions, but I love to support companies with our sandbox or infrastructure where they're creating new kinds of cybersecurity harnesses and agents and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 916,
+          "t": [
+            5347.324,
+            5352.166
+          ],
+          "quote": "If I had this, but for what the agent did in that sandbox,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 929,
+          "t": [
+            5418.773,
+            5433.318
+          ],
+          "quote": "But the timing does seem to point out that I give credibility to the theory that the agent did escape the sandbox by hacking a system, which is Artifactory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5696.625,
+            5702.089
+          ],
+          "quote": "We've seen this with AI Gateway, with Sandbox, all of these new products that before just didn't exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 991,
+          "t": [
+            5718.702,
+            5721.003
+          ],
+          "quote": "On top of Vercel Sandbox and Vercel AI Gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说你已经在为推理付费，应该能用上自己的推理和喜欢的 harness，而知识工作将坍缩成托管或推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1255.347,
+            1256.908
+          ],
+          "quote": "But you're already paying for inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1259.91,
+            1261.211
+          ],
+          "quote": "You should be able to use that inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 964,
+          "t": [
+            5573.089,
+            5582.638
+          ],
+          "quote": "So one of the last questions I have is, do you think as agents get better, models get better, all of software or even knowledge work would collapse into hosting or inference?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集由 Karpathy 提出的 vibe coding 展开，讨论极端 vibe coding 的安全风险、以及要理解自己背负多少 slop 债。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            188.143,
+            204.013
+          ],
+          "quote": "There was that Karpathy discontinuity tweet of, you know, first he introduced the vibe coding, then he introduced, oh, by the way, the models are getting so good that they can create entire worlds and they can re-render the Hobbit or Lord of the Rings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3305.933,
+            3310.077
+          ],
+          "quote": "When Twitter got started, it was jack vibe coding before vibe coding was a thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3409.791,
+            3424.681
+          ],
+          "quote": "I think something that will backfire for a lot of people that are embracing extreme vibe coding is that if I'm an enterprise, I need to build very strong conviction in the security profile of your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3461.376,
+            3470.426
+          ],
+          "quote": "Because, you know, supply chain attacks, because vibe coding, because, you know, just the surface of attack has become so massive as of recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3522.282,
+            3529.505
+          ],
+          "quote": "I think there's an element of it's very easy to like do quote-unquote AI engineering or Vibe coding when you're the customer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain-attacks",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链攻击 (supply chain attacks)",
+      "file": "供应链攻击",
+      "primary": true,
+      "how_described": "本集说供应链攻击是主要安全威胁，本地开发被攻破攻击者能拿到一切；把开发搬进沙箱可控制乃至根除它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.373,
+            31.402
+          ],
+          "quote": "We could eradicate supply chain attacks if we move more and more of this development lifecycle to sandboxes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3461.376,
+            3470.426
+          ],
+          "quote": "Because, you know, supply chain attacks, because vibe coding, because, you know, just the surface of attack has become so massive as of recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            4412.075,
+            4421.017
+          ],
+          "quote": "I mean, it's a bold statement, but we could eradicate supply chain attacks if we move more and more of this development lifecycle to sandboxes.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络安全 (cybersecurity)",
+      "file": "网络安全",
+      "primary": true,
+      "how_described": "本集大篇幅讨论网络安全：人类代码中潜在漏洞不可估量，便宜模型找漏洞效率惊人，企业要自查并把关键库迁向内存安全语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.287,
+            54.256
+          ],
+          "quote": "I think our ability to stay in control as humans and by that I mean creative control, control over the risks on cybersecurity, control over how we make the agents work for us ultimately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            461.375,
+            463.056
+          ],
+          "quote": "This model is good at cybersecurity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3482.872,
+            3491.841
+          ],
+          "quote": "Before we go to cybersecurity, which I definitely want to touch on, one thing I built for myself to kind of understand the tech debt is like a LOC to ADR ratio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3682.971,
+            3689.296
+          ],
+          "quote": "So, yeah, let's touch on DeepSec and cybersecurity because I think this is going to be a topic that will only get more popular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3712.102,
+            3725.111
+          ],
+          "quote": "It's a cybersecurity harness or meta-harness that can invoke codex, Claude Code, OpenModels, et cetera, with the very precise intent of uncovering vulnerabilities in your codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3743.4,
+            3752.545
+          ],
+          "quote": "And this kind of started back when we started to see that models were getting much better at cybersecurity reasoning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3753.185,
+            3762.572
+          ],
+          "quote": "So cybersecurity reasoning is you look at code and I've had the privilege of meeting a lot of humans who are very good at thinking about corner cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3763.813,
+            3778.383
+          ],
+          "quote": "I've likened being a great engineer, especially in the cybersecurity world, as being a really good detective, like Sherlock Holmes and piecing together evidence and reverse engineering and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3790.707,
+            3806.692
+          ],
+          "quote": "A good QA person or a good cybersecurity researcher is not just saying like, well, like, oh, it looks like, you know, this line of code makes sure that you can read a cookie and then this next line of code makes sure that it contains a certain value",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4675.141,
+            4684.347
+          ],
+          "quote": "Obviously, we're making contributions, but I love to support companies with our sandbox or infrastructure where they're creating new kinds of cybersecurity harnesses and agents and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 938,
+          "t": [
+            5478.428,
+            5489.633
+          ],
+          "quote": "But not really, because there's the technical skill, like you said, they were benchmarking them on cybersecurity, and then it's like the intent, anthropomorphizing, the agent had this goal, it wanted to escape, it wanted to trick them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 990,
+          "t": [
+            5707.513,
+            5717.421
+          ],
+          "quote": "They can build, maybe to use the cybersecurity example, you can build a swarm of cybersecurity agents that red team software",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说很多人凭推文改提示词却不验证结果，建立个人/公司级评估集是在每周新模型的世界里导航的独特优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            491.291,
+            494.232
+          ],
+          "quote": "There's also the personal evals that I think has a lot of alpha.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            534.612,
+            550.298
+          ],
+          "quote": "Do you have a set of company evals that allow you to navigate this world that is moving so fast, like every single week there is sort of like a new model to evaluate or as we saw with Jev, there's even new categories of AI products coming out every week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债 (tech debt)",
+      "file": "技术债",
+      "primary": true,
+      "how_described": "本集说聪明的工程师一直拥抱技术债，硅谷靠背负技术债快速成功（Twitter、Ruby on Rails），vibe coder 也应理解并拥抱 slop 债。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 570,
+          "t": [
+            3274.482,
+            3281.77
+          ],
+          "quote": "Another thing that is also a lesson from the old world is that tech debt would get tossed around as a word a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3282.57,
+            3286.695
+          ],
+          "quote": "And the smarter people that I've worked with have always embraced tech debt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3294.543,
+            3299.167
+          ],
+          "quote": "And I think something I've loved about Silicon Valley is that people have really leaned into tech debt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3367.977,
+            3377.704
+          ],
+          "quote": "And so Silicon Valley has always understood, and I think Move Fast and Break Things was another example of this with Facebook, that taking on some tech debt is so healthy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3482.872,
+            3491.841
+          ],
+          "quote": "Before we go to cybersecurity, which I definitely want to touch on, one thing I built for myself to kind of understand the tech debt is like a LOC to ADR ratio.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": true,
+      "how_described": "本集说应把 libheif 这类关键库迁到 Rust 这类内存安全语言，Microsoft 已在拥抱 Rust，未来可能全是 Rust。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 336,
+          "t": [
+            1842.804,
+            1846.366
+          ],
+          "quote": "I will, you know, create new Zig or Rust programs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            4123.644,
+            4130.31
+          ],
+          "quote": "Take libraries like libHEIF and start proactively moving them into memory-safe languages like Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            4133.533,
+            4138.157
+          ],
+          "quote": "I think Microsoft has already been doing a lot of this work with embracing Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 693,
+          "t": [
+            4139.838,
+            4148.085
+          ],
+          "quote": "It might be that the future will all be Rust because we need to make these very strong assertions when the agents write the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4237.415,
+            4248.283
+          ],
+          "quote": "So are you confident that today you would write a more secure TLS library than the one that Amazon put out that's written Rust?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "libheif",
+      "type": "concept",
+      "role": "concept",
+      "name": "libheif",
+      "file": "libheif",
+      "primary": true,
+      "how_described": "本集说 OpenAI 被黑的起因是 C/C++ 写的图像编码库 libheif 藏有远程代码执行漏洞，它嵌入 Slack、Next.js、OpenAI、Discourse 的图像管线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 667,
+          "t": [
+            3985.621,
+            3994.327
+          ],
+          "quote": "The team that hacked them hacked them because of an image encoding library called libheif.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            4123.644,
+            4130.31
+          ],
+          "quote": "Take libraries like libHEIF and start proactively moving them into memory-safe languages like Rust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deepsecbench",
+      "type": "concept",
+      "role": "concept",
+      "name": "DeepSecBench",
+      "file": "DeepSecBench",
+      "primary": true,
+      "how_described": "本集说 DeepSecBench 是 Vercel 刚发布的网络安全基准，测模型发现漏洞的能力与成本，显示便宜小模型找漏洞效率惊人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 632,
+          "t": [
+            3703.637,
+            3706.359
+          ],
+          "quote": "So we created this benchmark called DeepSecBench.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deepsec",
+      "type": "concept",
+      "role": "concept",
+      "name": "DeepSec",
+      "file": "DeepSec",
+      "primary": true,
+      "how_described": "本集说 DeepSec 是一个网络安全 harness/元 harness，可调用 codex、Claude Code 等来发现代码库中的漏洞，在本地大代码库上跑不动所以用沙箱扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 629,
+          "t": [
+            3682.971,
+            3689.296
+          ],
+          "quote": "So, yeah, let's touch on DeepSec and cybersecurity because I think this is going to be a topic that will only get more popular.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3707.56,
+            3711.322
+          ],
+          "quote": "So first of all, for context, there's a tool called DeepSec.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3954.072,
+            3960.639
+          ],
+          "quote": "So the first thing that happens when you run DeepSec on a program is that you're like, what the fuck?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4071.829,
+            4080.533
+          ],
+          "quote": "DeepSec v4 flash in our benchmark is highly competent at finding vulnerabilities and very cheap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            4108.292,
+            4110.073
+          ],
+          "quote": "DeepSec can help you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            4158.278,
+            4161.179
+          ],
+          "quote": "Because you can run DeepSec on other people's stuff, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 697,
+          "t": [
+            4161.419,
+            4169.502
+          ],
+          "quote": "So if you're going to build something and you're like, okay, this library is great, I don't want to rebuild it, but it was created five years ago, I'm just going to run DeepSec on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4361.146,
+            4369.43
+          ],
+          "quote": "Even DeepSec as an example, like in order to scale itself in very large code bases, it's not tenable to run it on your own computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 869,
+          "t": [
+            5134.065,
+            5138.469
+          ],
+          "quote": "DeepSec is the security engineer employee, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latency-numbers-that-every-programmer-should-know",
+      "type": "concept",
+      "role": "concept",
+      "name": "程序员应该知道的延迟数字 (Latency Numbers That Every Programmer Should Know)",
+      "file": "程序员应该知道的延迟数字",
+      "primary": true,
+      "how_described": "本集说这是 Jeff Dean 在 Google 做的经典表格，给出工程系统的数量级概念；嘉宾拿加州到荷兰往返约 150 毫秒当面试题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2649.01,
+            2651.591
+          ],
+          "quote": "It's called Latency Numbers That Every Programmer Should Know.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Gateway",
+      "file": "AI Gateway",
+      "primary": false,
+      "how_described": "本集说 AI Gateway 是 Vercel 目前增长最快的产品，论点是不该只用一个模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1320.822,
+            1328.564
+          ],
+          "quote": "In fact, our fastest growing product at this point, I think, by revenue, adoption, numbers, et cetera, is our AI Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1329.464,
+            1338.026
+          ],
+          "quote": "And our AI Gateway, like the thesis is, you know, I mentioned, if you're a company, you should probably be investing in your agentic engineering fabric.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5696.625,
+            5702.089
+          ],
+          "quote": "We've seen this with AI Gateway, with Sandbox, all of these new products that before just didn't exist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 991,
+          "t": [
+            5718.702,
+            5721.003
+          ],
+          "quote": "On top of Vercel Sandbox and Vercel AI Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1018,
+          "t": [
+            5840.677,
+            5841.778
+          ],
+          "quote": "Check out the AI Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1019,
+          "t": [
+            5842.038,
+            5848.661
+          ],
+          "quote": "In fact, the easiest way to check out Vercel AI Gateway is check out FX and you get access to every model that we offer there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证工程 (verification engineering)",
+      "file": "验证工程",
+      "primary": false,
+      "how_described": "本集说验证工程是围绕所构建的东西建立一套护栏或证明体系，需要人与智能体就公理和权衡达成一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2416.966,
+            2423.868
+          ],
+          "quote": "And there's also the whole premise of what I've been calling verification engineering, which is...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

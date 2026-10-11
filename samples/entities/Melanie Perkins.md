@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]] [[Claire]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Canva":5,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Canva":5,"Column B":1,"疯狂大目标":1,"从混乱到清晰":1,"使命支柱":1,"两步计划":1,"前端重写":1,"AI":30}</script>
 
 <script>
 (function(){

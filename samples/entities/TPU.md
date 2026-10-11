@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：2013 年 Jeff 做「算盘数学」算出 Google 语音识别扛不住 CPU 开销，于是造了极度专用于低精度密集线性代数的芯片，几年后能效比 CPU/GPU 高 30-80 倍、延迟低 20-30 倍。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(38:37起):本集把它说成:Google 自研的、专为机器学习定制的优质芯片,被 Google 囤积供自家用
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(11:52起):本集说 TPU 是 Google 2013 年启动的反主流赌注——为语言翻译、语音识别等高收益应用做定制加速器；如今演化为 8i（推理）与 8t（训练）两颗互相兜底的芯片，七八年前的 TPU 仍在 100% 利用率运行
+- **[[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]]**(58:26起):本集在团队传统里提到「TPU 收割者」奖：给省下算力资源、回收 TPU 的人发一个 Etsy 定制的小耙子。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为概念
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[NVIDIA]] · [[Gemini]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[SaaS]] · [[GPU]] · [[Meta]] · [[DeepMind]]
+[[Google]] · [[Gemini]] · [[NVIDIA]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[SaaS]] · [[GPU]] · [[Meta]] · [[DeepMind]]
 
-<script type="application/json" class="pd-epn">{"Google":69,"NVIDIA":67,"Gemini":15,"OpenAI":192,"智能体":464,"Anthropic":197,"SaaS":22,"GPU":30,"Meta":50,"DeepMind":16}</script>
+<script type="application/json" class="pd-epn">{"Google":70,"Gemini":16,"NVIDIA":67,"智能体":467,"OpenAI":192,"Anthropic":197,"SaaS":22,"GPU":30,"Meta":51,"DeepMind":16}</script>
 
 <script>
 (function(){

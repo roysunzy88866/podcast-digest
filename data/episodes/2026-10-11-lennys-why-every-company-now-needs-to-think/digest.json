@@ -1,0 +1,221 @@
+{
+  "title_zh": "好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队",
+  "tldr": "Google Labs、Gemini 应用和 AI Studio 负责人 Josh Woodward 讲述最前沿的好点子从哪来、什么时候该放弃，以及为什么每家公司都需要一个「实验室团队」。",
+  "digest_md": "Josh Woodward 在 Google 待了 16 年多，现在管着两件看起来矛盾的事：一边是 Google Labs，专门做从零到一的新产品实验；另一边是 Gemini 应用，一个用户超过 10 亿的产品。他同时见证了 NotebookLM、Flow、AI Studio 这些项目从奇怪的小实验长成大产品。这期 Lenny's Podcast 里，他讲的全是实操层面的经验：点子怎么来、什么时候砍、团队怎么搭。\n\n## 好点子从哪来？不是头脑风暴会\n\nJosh 的第一个观察可能让人意外：好点子很少来自刻意安排的创意会议或设计冲刺（design sprint）。\n\n「你没法用微波炉把好点子加热出来。」他说。点子往往出现在周末、假期、走廊闲聊时——团队里总有人忍不住在折腾新东西，然后跑来说：快看这个。\n\nGoogle Labs 里那些叫得响的项目——NotebookLM、Flow、AI Studio——都是由一小群对某件事着迷的人做起来的。所以**管理者的工作不是生产点子，而是创造一个让怪东西能长出来的空间**，然后保持警觉，及时抓住它们 [06:07 Josh Woodward]。\n\n一个具体做法：团队维护一份差一点就可行的清单。哪些能力现在还不行，但眼看着快行了？一旦某项能力跨过临界点——他形容像物质从液态变成气态的相变——就立刻组队扑上去。当然，光有技术不够，还得配上一个真实的用户问题，最好好到用户愿意付钱。\n\n## 怎么判断点子值得赌？看眼睛\n\n产品市场契合（PMF）这个词听起来很科学，但 Josh 说早期阶段完全是艺术多于科学。他给的信号出奇地朴素：把原型拿给人看，然后观察对方的眼睛。\n\n「不是日活，不是留存，就是看你的眼睛有没有亮起来。」他说。对方是身体前倾还是无聊到走神，骗不了人 [15:43 Josh Woodward]。\n\n他还有一条重要提醒：**要爱的是问题，不是产品方案**。因为一个想法通常要转三四次方向才能成，如果你爱上的是某个具体产品形态，每次转向都会很痛苦。\n\n## 什么时候该砍掉一个项目？\n\n答案同样反直觉：**团队往往比领导更早知道一个项目不行了**。\n\n「团队通常在领导之前就知道。」Josh 说 [18:21 Josh Woodward]。激情消退、能试的都试了还是不行——这些信号团队内部最先感知到。领导要做的是创造一种氛围，让人敢说出不舒服的话。\n\n他举了个刚发生的例子：Gemini 有个功能本来要上线，早期数据回来后，团队的产品经理直接说我觉得不该发，这东西不够好。Josh 全员回复邮件感谢她。这种文化比任何流程都重要。\n\n## 为什么大公司的实验室团队总是死掉？\n\nJosh 读过不少相关书籍，得出的结论很残酷：**大公司创办的实验室，通常三四年后就失效了**，要么死掉，要么做出东西但公司没法商业化——最后往往是别人拿这个想法出去创业成功了。\n\n所以他给出三条搭建建议 [48:02 Josh Woodward]：\n\n一，实验室必须独立，不能塞在现有业务部门下面，很多情况下应该直接向 CEO 汇报。\n\n二，想清楚实验室的目标：是给现有产品输送功能，还是发明新品类？赢和输分别长什么样。他们团队内部的口诀是「用户第一，Google 第二，我们的产品第三」——实验室的任务不是让自己成功。\n\n三，也是最少人想到的一点：把实验室当成挑战公司运作方式的试验田。他说实验室要在 Google 制造好的麻烦——比如他们是最早发现岗位边界在模糊、需要新职位序列的团队，先在 Labs 试点，再推广到全公司。\n\n## AI 时代招人，看遗忘速度\n\nJosh 招人有几个独特的信号。\n\n**他不太看现在流行的学习速度，而是看遗忘速度**（unlearning rate）：一个人学会一样东西之后，能多快放下它、转身走别的路 [01:00 Josh Woodward]。技术变得太快，抱着旧知识不放的人会卡住。\n\n他借用一本写网球明星 Roger Federer 的书里的词：爆发式耐力（explosive endurance）——既能全力冲刺，又能撑得长久。团队为此设计了赛季节奏：比如大模型发布前，五个产品全力冲刺；Google IO 大会之后的六月，就让团队放开手随便折腾。那些看似不产出的时间，恰恰是下一季所有新种子的来源。他说。\n\n还有一个词是Builder的兴起——设计师、工程师、产品经理、甚至市场人员都能动手做东西。但 Josh 觉得人人都是通才这个说法被高估了：人还是要有自己的专业，像大学里的主修和辅修。他对年轻产品经理的建议是，你可以用 AI 做原型，但那是为了成为更出色的产品经理，别丢掉你的主修 [38:10 Josh Woodward]。\n\n## 被高估的和被低估的\n\n被高估的：模型跑分。他说全世界绝大多数用户永远不会关心模型的竞技评分，行业过度关注这些数字，容易忘记真正的问题是——这东西对谁有用？\n\n被低估的：关于价值观和原则的讨论。产品会把建造者的原则编码进去，但行业里很少有人认真讨论我们到底想建一个什么样的未来。\n\n## 一些好玩的团队传统\n\nGoogle Labs 有一套自制的奖项：给省下算力资源（TPU）的人发一把在 Etsy 上定制的小耙子；给修复产品小毛病的人发金色创可贴；给最会跟模型说悄悄话的人发一副大耳朵模型和一个机械键盘。\n\n还有一个神秘会议传统：往某个人的日历上放一个有好几位高管参加、没有任何议程的会议——对方到场后吓一跳，然后大家轮流告诉这个人，为什么团队如此感谢他。\n\n## 本集带走\n\n- 好点子来自着迷的少数人的自发折腾，不是日程表上的创意会议；管理者的任务是创造空间并保持警觉。\n- 早期判断产品有没有戏，最可靠的指标是给人看原型时对方的眼睛有没有亮起来。\n- 砍项目的决定权其实一直在团队手里，领导要做的是让人敢说这不行。\n- 大公司的实验室团队通常撑不过三四年，活下来的关键是独立汇报、目标清晰，还要能和主公司搭上桥。\n- 招人时看遗忘速度和爆发式耐力：能多快放下旧东西，能冲刺多久而不烧干自己。",
+  "quotes": [
+    {
+      "en": "My thesis is that every company needs to start thinking and operating like a Labs team.",
+      "zh": "我的论点是：每家公司都需要开始像 Labs 团队一样思考和运作。",
+      "timestamp": "00:00",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "I'm actually looking a lot right now for people, what's their unlearning rate? How fast can they learn something and then walk away from it?",
+      "zh": "我现在实际上很看重看人的一点是：他们的「反学习率」是多少？他们能多快学会一样东西，然后又能放得下它？",
+      "timestamp": "01:00",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "The team usually knows before the leader knows.",
+      "zh": "团队通常比领导者更早知道。",
+      "timestamp": "01:18",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "This is dangerous ever to make one prediction, let alone 82. But I think you have to almost have a point of view about the future knowing that nine out of 10 or maybe 9.9 out of 10, you're going to be wrong.",
+      "zh": "做一条预测就已经很危险了，更别说 82 条。但我认为你几乎必须对未来有一个观点，同时知道十个里有九个、或者可能十个里有 9.9 个，你会是错的。",
+      "timestamp": "11:28",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "When you're showing people early prototypes, what I'm always doing in those is you're looking at people's eyes and that is the metric.",
+      "zh": "当你给人们看早期原型时，我在那些场合总是在看人们的眼睛，那才是指标。",
+      "timestamp": "15:43",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "Because what I found is it takes three, four, five pivots before you either got something or you're just like, \"That's it. Didn't work.\"",
+      "zh": "因为我发现，通常要经历三四五次转向，才能要么做出点东西，要么你就觉得：“就这样了，没成功。”",
+      "timestamp": "16:25",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "The team usually knows before the leader knows, and the signs are like, \"Does the passion start to run out? You've tried everything you can think of and it's just not working.\"",
+      "zh": "团队通常比领导更早知道，迹象就像是：“热情是不是开始耗尽了？你已经试过你能想到的一切，但就是不管用。”",
+      "timestamp": "18:21",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "The mantra on the team is users first, Google second, and our product third.",
+      "zh": "团队的口号是：用户第一，Google 第二，我们的产品第三。",
+      "timestamp": "21:00",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "I think the over-hyped one, I think I've been saying this maybe for a year now, but I still think it's over-hyped, model benchmarks.",
+      "zh": "至于被高估的那一项，我大概说了一年多了，但我仍然认为它被高估了，那就是模型基准测试。",
+      "timestamp": "28:18",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "Most people in the world are never, ever, ever going to care about an Elo rating. They may not even know how to pronounce Elo. It just doesn't matter.",
+      "zh": "世界上绝大多数人永远、永远、永远不会有 Elo 评分这种东西放在心上。他们甚至可能不知道 Elo 怎么发音。这根本不重要。",
+      "timestamp": "28:42",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "I'm actually looking a lot right now for people, what's their unlearning rate? How fast can they learn something and then walk away from it?",
+      "zh": "我现在实际上很看重的一点是人们的「遗忘学习率」是什么。他们能多快学会一样东西，然后又把它放下？",
+      "timestamp": "32:15",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "Their job is to be at the frontier and they're almost like if they haven't heard about the latest hot thing viral on X in the last 24 hours is like, what are you doing at your job?",
+      "zh": "他们的工作就是站在前沿，如果他们在过去 24 小时内没听说过 X 上最新爆火的东西，就好像在问：你上班都在干什么？",
+      "timestamp": "44:15",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "A large company who starts a lab, the lab is usually ineffective and fizzles out after about three to four years.",
+      "zh": "一家大公司创办一个实验室，这个实验室通常收效甚微，大约三四年后就不了了之。",
+      "timestamp": "45:04",
+      "speaker": "Josh Woodward"
+    },
+    {
+      "en": "You've got to try to create a space where weird things can grow and you can't just nestle this under an existing business unit.",
+      "zh": "你必须尽力创造一个让奇怪的东西可以生长的空间，你不能只是把这个塞进现有的业务部门底下。",
+      "timestamp": "48:03",
+      "speaker": "Josh Woodward"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Lenny",
+      "en": "My thesis is that every company needs to start thinking and operating like a Labs team.",
+      "zh": "我的论点是：每家公司都需要开始像 Labs 团队一样思考和运作。"
+    },
+    {
+      "timestamp": "00:53",
+      "speaker": "Josh Woodward",
+      "en": "You can't microwave good ideas.",
+      "zh": "好想法是没法用微波炉加热出来的。"
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Josh Woodward",
+      "en": "I'm actually looking a lot right now for people, what's their unlearning rate? How fast can they learn something and then walk away from it?",
+      "zh": "我现在实际上很看重看人的一点是：他们的「反学习率」是多少？他们能多快学会一样东西，然后又能放得下它？"
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Josh Woodward",
+      "en": "The team usually knows before the leader knows.",
+      "zh": "团队通常比领导者更早知道。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Josh Woodward",
+      "en": "We have a phrase on the team, we talk about what's almost possible and we just have a list actually where we're trying to track those things.",
+      "zh": "我们团队有一句口头禅，我们谈论什么是「几乎可能」的，而且我们实际上有一个清单，我们在尝试追踪这些东西。"
+    },
+    {
+      "timestamp": "11:20",
+      "speaker": "Josh Woodward",
+      "en": "This is dangerous ever to make one prediction, let alone 82. But I think you have to almost have a point of view about the future knowing that nine out of 10 or maybe 9.9 out of 10, you're going to be wrong.",
+      "zh": "做一条预测就已经很危险了，更别说 82 条。但我认为你几乎必须对未来有一个观点，同时知道十个里有九个、或者可能十个里有 9.9 个，你会是错的。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Josh Woodward",
+      "en": "When you're showing people early prototypes, what I'm always doing in those is you're looking at people's eyes and that is the metric.",
+      "zh": "当你给人们看早期原型时，我在那些场合总是在看人们的眼睛，那才是指标。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "Josh Woodward",
+      "en": "Because what I found is it takes three, four, five pivots before you either got something or you're just like, \"That's it. Didn't work.\"",
+      "zh": "因为我发现，通常要经历三四五次转向，才能要么做出点东西，要么你就觉得：“就这样了，没成功。”"
+    },
+    {
+      "timestamp": "16:45",
+      "speaker": "Josh Woodward",
+      "en": "Usually people talk about PMF, you sort of know it when you have it.",
+      "zh": "通常人们谈到 PMF，你有了它的时候你是知道的。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "Josh Woodward",
+      "en": "And it is both so exhausting and so fun.",
+      "zh": "而它既是那么累人，又是那么有趣。"
+    },
+    {
+      "timestamp": "18:21",
+      "speaker": "Josh Woodward",
+      "en": "The team usually knows before the leader knows, and the signs are like, \"Does the passion start to run out? You've tried everything you can think of and it's just not working.\"",
+      "zh": "团队通常比领导更早知道，迹象就像是：“热情是不是开始耗尽了？你已经试过你能想到的一切，但就是不管用。”"
+    },
+    {
+      "timestamp": "21:06",
+      "speaker": "Josh Woodward",
+      "en": "The mantra on the team is users first, Google second, and our product third.",
+      "zh": "团队的口号是：用户第一，Google 第二，我们的产品第三。"
+    },
+    {
+      "timestamp": "28:18",
+      "speaker": "Josh Woodward",
+      "en": "I think the over-hyped one, I think I've been saying this maybe for a year now, but I still think it's over-hyped, model benchmarks.",
+      "zh": "至于被高估的那一项，我大概说了一年多了，但我仍然认为它被高估了，那就是模型基准测试。"
+    },
+    {
+      "timestamp": "28:36",
+      "speaker": "Josh Woodward",
+      "en": "Most people in the world are never, ever, ever going to care about an Elo rating. They may not even know how to pronounce Elo. It just doesn't matter.",
+      "zh": "世界上绝大多数人永远、永远、永远不会有 Elo 评分这种东西放在心上。他们甚至可能不知道 Elo 怎么发音。这根本不重要。"
+    },
+    {
+      "timestamp": "32:19",
+      "speaker": "Josh Woodward",
+      "en": "I'm actually looking a lot right now for people, what's their unlearning rate? How fast can they learn something and then walk away from it?",
+      "zh": "我现在实际上很看重的一点是人们的「遗忘学习率」是什么。他们能多快学会一样东西，然后又把它放下？"
+    },
+    {
+      "timestamp": "35:04",
+      "speaker": "Josh Woodward",
+      "en": "You used to say it's about five to seven people. Now it's about two to three people, maybe four.",
+      "zh": "你过去会说大概是五到七个人。现在大概是两到三个人，也许四个。"
+    },
+    {
+      "timestamp": "37:27",
+      "speaker": "Josh Woodward",
+      "en": "I actually feel like at least what we're seeing is that people still have their specialty. It's like their major or minor in college or something.",
+      "zh": "我实际的感觉是，至少我们观察到的是，人们仍然保有他们的专长。就像是他们大学里的专业或辅修之类的。"
+    },
+    {
+      "timestamp": "44:14",
+      "speaker": "Josh Woodward",
+      "en": "Their job is to be at the frontier and they're almost like if they haven't heard about the latest hot thing viral on X in the last 24 hours is like, what are you doing at your job?",
+      "zh": "他们的工作就是站在前沿，如果他们在过去 24 小时内没听说过 X 上最新爆火的东西，就好像在问：你上班都在干什么？"
+    },
+    {
+      "timestamp": "45:12",
+      "speaker": "Josh Woodward",
+      "en": "A large company who starts a lab, the lab is usually ineffective and fizzles out after about three to four years.",
+      "zh": "一家大公司创办一个实验室，这个实验室通常收效甚微，大约三四年后就不了了之。"
+    },
+    {
+      "timestamp": "46:55",
+      "speaker": "Josh Woodward",
+      "en": "So the terms we've started using is there's zero to one Labs, there's one to 10 Labs, and there's 10 to 100.",
+      "zh": "所以我们开始使用的术语是：有从零到一的 Labs，有一到十的 Labs，还有十到一百的。"
+    },
+    {
+      "timestamp": "48:02",
+      "speaker": "Josh Woodward",
+      "en": "You've got to try to create a space where weird things can grow and you can't just nestle this under an existing business unit.",
+      "zh": "你必须尽力创造一个让奇怪的东西可以生长的空间，你不能只是把这个塞进现有的业务部门底下。"
+    }
+  ],
+  "voice_script": "今天这期节目，咱们聊聊一个很实在的问题：好点子到底从哪来，又什么时候该放手砍掉。\n\n主角是 Josh Woodward,在 Google 待了十六年多。现在管着两件看起来很矛盾的事：一边是 Google Labs,专门做从零到一的新产品实验；另一边是 Gemini 应用，一个用户超过十亿的大产品。NotebookLM、Flow、AI Studio 这些项目，都是在他眼皮底下，从奇怪的小实验长成大产品的。在 Lenny's Podcast 这期节目里，讲的全是实操层面的经验：点子怎么来、怎么判断值不值得赌、什么时候砍、团队怎么搭。\n\n先说点子从哪来。Josh 的第一个观察可能让人意外：好点子很少来自刻意安排的创意会议或者设计冲刺。有句话说得特别形象——你没法用微波炉把好点子加热出来。点子往往出现在周末、假期、走廊闲聊的时候。团队里总有人忍不住在折腾新东西，然后跑来说：快看这个。\n\n所以管理者的工作，不是去生产点子，而是创造一个让怪东西能长出来的空间，然后保持警觉，及时抓住它们。\n\n有个具体做法值得说：团队维护一份\"差一点就可行的清单\"，记下哪些能力现在还不行，但眼看着快行了。一旦某项能力跨过临界点——形容这个状态像物质从液态变成气态的相变——就立刻组队扑上去。当然，光有技术还不够，还得配上一个真实的用户问题，最好好到用户愿意掏钱。\n\n那点子有了，怎么判断值不值得赌下去？答案出奇地朴素：看眼睛。产品市场契合这个词听起来很科学，但在早期阶段，完全是艺术多于科学。把原型拿给人看，然后观察对方的眼睛。不是看日活，不是看留存，就是看你的眼睛有没有亮起来。对方是身体前倾，还是无聊到走神，骗不了人。\n\n这里还有一条重要提醒：要爱的是问题，不是产品方案。为什么这么说？因为一个想法通常要转三四次方向才能成。如果你爱上的是某个具体的产品形态，每次转向都会很痛苦。爱问题的人，才能撑过这些转弯。\n\n说到转弯，就绕不开一个更残酷的问题：什么时候该砍掉一个项目？答案同样反直觉——团队往往比领导更早知道一个项目不行了。激情消退，能试的都试了还是不行，这些信号团队内部最先感知到。所以领导要做的，是创造一种氛围，让人敢把不舒服的话说出来。\n\n举个例子，刚发生不久。Gemini 有个功能本来要上线，早期数据回来之后，团队的产品经理直接说：我觉得不该发，这东西不够好。Josh 全员回复邮件感谢她。你想想，这种文化比任何流程都管用。\n\n顺着这个话题，就引出一个更大的问题：为什么大公司办的实验室团队，总是活不长？Josh 读过不少相关的书，结论很残酷——大公司创办的实验室，通常三四年后就失效了。要么直接死掉，要么做出东西但公司没法商业化，最后往往是别人拿着这个想法出去创业成功了。\n\n那怎么才能活下来？有三条建议。\n\n第一，实验室必须独立，不能塞在现有业务部门下面，很多情况下应该直接向 CEO 汇报。\n\n第二，想清楚实验室的目标到底是什么：是给现有产品输送功能，还是发明新品类？赢和输分别长什么样？他们团队内部有条口诀，叫\"用户第一，Google 第二，我们的产品第三\"——实验室的任务不是让自己成功。\n\n第三，也是最少人想到的一点：把实验室当成挑战公司运作方式的试验田。用他的话说，实验室要在公司里制造\"好的麻烦\"。比如他们是最早发现岗位边界在模糊、需要新职位序列的团队，先在 Labs 里试点，再推广到全公司。\n\n聊完团队，再说招人。技术变得这么快，Josh 招人有个独特的信号：不看现在流行的学习速度，而是看遗忘速度——一个人学会一样东西之后，能多快放下它，转身走别的路。抱着旧知识不放的人，会卡住。\n\n还有个词，是借用一本写网球明星费德勒的书里的：爆发式耐力——既能全力冲刺，又能撑得长久。团队为此设计了赛季节奏：大模型发布前，五个产品全力冲刺；Google IO 大会之后的六月，就放开手随便折腾。那些看似不产出的时间，恰恰是下一季所有新种子的来源。\n\n现在大家都在说\"人人都是 Builder\",设计师、工程师、产品经理都能动手做东西了。但 Josh 觉得，人人都该是通才这个说法被高估了。人还是要有自己的专业，像大学里的主修和辅修。对年轻产品经理的建议是：你可以用 AI 做原型，但那是为了成为更出色的产品经理，别丢掉你的主修。\n\n最后还有一组对比挺有意思。被高估的是什么？模型跑分。全世界绝大多数用户，永远不会关心模型的竞技评分，行业过度关注这些数字，容易忘记真正的问题是——这东西对谁有用？被低估的是什么？关于价值观和原则的讨论。产品会把建造者的原则编码进去，但行业里很少有人认真讨论：我们到底想建一个什么样的未来？\n\n对了，Google Labs 还有些好玩的团队传统。给省下算力资源的人，发一把在 Etsy 上定制的小耙子；给修好产品小毛病的人，发金色创可贴；给最会跟模型说悄悄话的人，发一副大耳朵模型和一个机械键盘。还有个神秘会议：往某个人的日历上放一个有好几位高管参加、却没有任何议程的会——对方到场吓一跳，然后大家轮流告诉这个人，为什么团队如此感谢他。\n\n回头看这一集，核心其实就是一句话：好点子来自着迷的少数人的自发折腾，判断标准是眼睛有没有亮，砍项目的权力一直在团队手里，而招人要看能多快放下旧东西。Josh 的论点是：每家公司，都需要开始像 Labs 团队一样思考和运作。"
+}

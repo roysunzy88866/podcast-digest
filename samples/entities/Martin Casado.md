@@ -67,7 +67,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Microsoft]] · [[Claude Code]] · [[SpaceX]] · [[缩放定律]] · [[Sophia Du]] · [[Steven Sinofsky]] · [[Sarah Wang]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":192,"Anthropic":197,"Cursor":86,"Microsoft":30,"Claude Code":102,"SpaceX":21,"缩放定律":15,"Sophia Du":4,"Steven Sinofsky":3,"Sarah Wang":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":192,"Anthropic":197,"Cursor":86,"Microsoft":31,"Claude Code":103,"SpaceX":21,"缩放定律":15,"Sophia Du":4,"Steven Sinofsky":3,"Sarah Wang":4}</script>
 
 <script>
 (function(){

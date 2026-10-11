@@ -1,0 +1,123 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:00",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "00:00",
+      "spkWas": "Lenny"
+    },
+    {
+      "i": 3,
+      "timestamp": "01:00",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "01:00",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 4,
+      "timestamp": "01:18",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "01:18",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 5,
+      "timestamp": "11:28",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "11:20",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 6,
+      "timestamp": "15:43",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "15:43",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 7,
+      "timestamp": "16:25",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "16:25",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 8,
+      "timestamp": "18:21",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "18:21",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 9,
+      "timestamp": "21:00",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "21:06",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 10,
+      "timestamp": "28:18",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "28:18",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 11,
+      "timestamp": "28:42",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "28:36",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 12,
+      "timestamp": "32:15",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "32:19",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 13,
+      "timestamp": "44:15",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "44:14",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 14,
+      "timestamp": "45:04",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "45:12",
+      "spkWas": "Josh Woodward"
+    },
+    {
+      "i": 15,
+      "timestamp": "48:03",
+      "speaker": "Josh Woodward",
+      "trimmed": false,
+      "tsWas": "48:02",
+      "spkWas": "Josh Woodward"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "短句(3词<6)在转写稿命中 2 处,无法唯一锚定时间戳/说话人,不猜",
+      "en": "You can't microwave good ideas."
+    }
+  ]
+}

@@ -138,9 +138,9 @@ Eddie 坦承,自己作为高管,天然就有权打破公司既有的流程;但�
 
 **换个口味**
 
+- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:Claude Code、vibe coding、智能体 (agent)</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、OpenClaw</span>
-- [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、vibe coding</span>
 
 </div>
 </div>

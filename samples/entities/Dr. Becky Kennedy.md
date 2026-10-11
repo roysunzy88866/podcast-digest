@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":2,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1,"彻底坦诚":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":2,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1,"彻底坦诚":2}</script>
 
 <script>
 (function(){

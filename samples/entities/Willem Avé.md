@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Square":5,"Block":3,"业务单元模式":1,"职能制":1,"DRI":4,"智能体":464,"聊天机器人":2,"工件":2,"Manager Bot":1,"TAM":3}</script>
+<script type="application/json" class="pd-epn">{"Square":5,"Block":3,"业务单元模式":1,"职能制":1,"DRI":4,"智能体":467,"聊天机器人":2,"工件":2,"Manager Bot":1,"TAM":3}</script>
 
 <script>
 (function(){

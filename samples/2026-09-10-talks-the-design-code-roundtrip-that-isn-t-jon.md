@@ -135,9 +135,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:vibe coding、技术债 (tech debt)、Claude Code</span>
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:LLM、vibe coding</span>
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Figma · 同概念:设计系统 (design system)、Cursor、LLM</span>
-- [[2025-10-23-lennys-al-engineering-101-with-chip-huyen|Chip Huyen：别追 AI 新闻了，真正提升 AI 产品的是这些事]]<span class="pd-rz">同概念:vibe coding、Cursor</span>
 
 </div>
 </div>

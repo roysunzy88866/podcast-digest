@@ -162,7 +162,7 @@ Sidecar 是 Antigravity 带来的新插件协议,本质就是一个 sidecar 进�
 
 - [[2026-08-12-beyondcoding-wes-bos-how-developers-stand-out-when-ai|当所有人都在用智能体写代码，你靠什么脱颖而出：与 Wes 聊开发者的当下]]<span class="pd-rz">同概念:智能体 (agent)、生成式 UI (generative UI)</span>
 - [[2026-09-21-talks-the-dark-arts-of-skill-engineering-paul|技能工程的九种黑暗艺术：把 Skill 从提示词做成 Harness 扩展]]<span class="pd-rz">同公司:Gemini · 同概念:子智能体 (sub-agent)</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队]]<span class="pd-rz">同公司:Gemini · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

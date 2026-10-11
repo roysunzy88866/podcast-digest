@@ -184,8 +184,8 @@ Jeff 说两条路都好,但唯一的标准是问自己:如果这件事做成了,
 **换个口味**
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU</span>
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队]]<span class="pd-rz">同公司:Google · 同概念:Gemini、TPU</span>
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]]<span class="pd-rz">同公司:Google · 同概念:Gemini</span>
-- [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:推理 (inference)、蒸馏 (distillation)</span>
 
 </div>
 </div>

@@ -1,0 +1,221 @@
+{
+  "title_zh": "Vercel CEO：AI 时代，写代码的人要变成什么",
+  "tldr": "Vercel 创始人 Guillermo Rauch 聊 AI 编程工作流、公司如何用好智能体，以及被大家忽视的软件安全问题。",
+  "digest_md": "Vercel 的创始人兼 CEO 来做客。Vercel 靠前端部署工具起家，如今在 AI 基础设施上全面下注。这场访谈信息量很大：从他的个人编程工作流，到怎么判断一家公司会不会被 AI 甩开，再到一个大多数人还没认真对待的安全隐患。\n\n> 【背景】这位嘉宾指 Guillermo Rauch，Vercel 创始人兼 CEO。\n\n## AI 写代码时代，人的优势在哪？\n\nGuillermo 的判断是：杠杆正在往上移一层。你不再亲自写每一行代码，而是去编排一组智能体、设计软件工厂、决定把算力和模型花在什么问题上。\n\n但他对人的价值很乐观。原因很简单：买单的终究是人，而人买的从来不只是功能，还有故事、品牌和品味。他说，我们总以为自己决策很理性，但很多时候「我们买的是故事、氛围、品牌和口味」[01:22 Unknown]。\n\n编程也不会像种地那样消失。他引用了自己一条表现很好的推文：工作时写软件，下班回家写软件放松，还和孩子、妻子一起写。对很多人来说，写代码是创作媒介，这个需求拿不走——就像没人种地了，但阳台种菜的人反而多了。\n\n## 新模型发布时，有一个可以捡钱的窗口\n\n他给了一个具体建议：维护一份清单，记下今天所有模型都做不到的事。每次新模型发布，就拿清单去试。**原来做不到的事一旦变成做得到，往往就是一门新生意**——某个功能的成本突然降一个数量级，或者某个体验突然变得可能。\n\n另一个被低估的能力是评估。很多人用模型全凭网上流传的说法：读了某条推文就改了提示词，从没验证过结果是不是真的变好了。他反问：==你有没有一套自己的评估集，帮你在这个每周都有新模型的世界里找方向==？[08:11 Unknown]\n\n## 判断一家公司 AI 用得好不好：看修复延迟\n\n他提出了一个很硬的衡量标准：从客户报告一个问题，到这个问题被修好、上线，中间隔多久？\n\n用户在 Reddit 抱怨、打客服电话、发邮件说网络坏了——公司能不能用高质量的智能体响应？能不能自动启动事故调查？问题明确可修的，能不能自动修掉、自动发布？「**那个能在 30 分钟内修好一切的公司，会摧毁要花两天才能修好的公司**。」[16:07 Unknown]\n\n当然不是所有反馈都能自动化。他举了个例子：有用户反馈 Vercel 的导航让他困惑，但这条反馈没法直接变成提示词，还得产品负责人跟他来回沟通、要更多视频，再靠人的判断转成产品决策。反馈越模糊，人越不可或缺。\n\n## 速度快不等于方向对：迭代要有速度，更要有方向\n\n他区分了两个词：iteration speed 和 iteration velocity。速度是你产出多快——花了多少 token、合了多少个代码请求。但速度这个词本身不含方向，「**你可以一直合并代码请求，一路合并到毁灭**」[18:03 Unknown]。\n\n一位创业者的例子让他印象深刻：想法不错，但她在同时自建邮件服务和支付网关。AI 让人觉得自己什么都能做，但正确的做法恰恰相反——挑少数几个你有超额优势的问题，把所有 token 都砸进去。同时做 20 件事，结果就是 20 件平庸。\n\n还有一个正在发生的现象：很多人发布速度飞快，但打开网站一看是一堆 AI 生成的粗糙产物。他说，看到这种东西你会自动走神，因为「你能一次生成，我也能一次生成」[20:16 Unknown]——没有增值，就没有价值。\n\n## 他自己的工具：一个 11 兆的小命令行\n\nVercel 内部不强制规定用什么工具，但他个人的选择很有性格：他一直是命令行和 NeoVim 用户，所以自然走向了 Claude Code，现在用的是 Vercel Labs 出的命令行工具 fx。\n\n这个工具体现了一种反潮流的哲学：极小、极快。安装包在磁盘上只占 11 兆，启动速度接近一个普通的 shell。他刻意抵制给工具加界面的诱惑——很多工具一开始又小又快，慢慢膨胀，最后背着一堆插件变得笨重。\n\n更妙的是它同时是一个可以被嵌入其他程序的库。当年做 v0 产品时，90% 的工程时间花在搭建智能体的运行框架上；如今用这套库，100 行代码就能拼出一个迷你 v0。\n\n他还有个叫智能体探究（agentic inquiry）的习惯：让智能体去试用 Vercel 的新技术，试着搞坏它、找竞态条件、量延迟，然后让它反过来反思——Vercel 在这个实验里本可以做得更好吗？[31:12 Unknown]\n\n## 工程师还需要懂底层吗？\n\n现在流行一种论调：不用再读代码了，一切交给 AI。他明确反对。\n\n他的立场是中间派：不必逐行读代码，但每次做完一件事，要弄明白刚才发生了什么。**AI 反而让懂底层的人更值钱**——如果你从汇编到上层都理解整个技术栈，又擅长用 AI，你就是不可阻挡的[51:43 Unknown]。\n\n他喜欢用一张经典表格举例：程序员应该知道的延迟数字。比如一个网络包从加州到荷兰再回来，大约要 150 毫秒。他甚至拿这个当面试题，很多人会答错一个数量级。为什么有用？如果 AI 部署的系统页面加载要 1 秒，你至少知道该往哪逼：「再快一点，再快一点。」\n\n## 被严重低估的炸弹：老代码里的漏洞\n\n这是全场最值得普通读者记住的部分。他指出，人类几十年写下的代码里，潜伏的漏洞数量几乎无法估量。原因在于：**写正常路径的代码很容易，穷举所有边界情况在认知上极其耗费心力**，所以人写的代码几乎都没做全。\n\n他讲了 OpenAI 被黑的事：起因是一个叫 libheif 的开源图像编码库，用 C 和 C++ 写的，里面藏着一个远程代码执行漏洞。这个库嵌在 Slack、Next.js、OpenAI、Discourse 的图像处理流程里——一个小库，波及大半个互联网。\n\n更糟的是，攻防的天平在倾斜。他们发布的 DeepSecBench 基准显示，有些便宜的小模型找漏洞的效率高得吓人——坏演员也能用它们批量扫描开源代码找漏洞。他的建议：赶紧自查，并考虑把关键库迁到 Rust 这类内存安全语言。\n\n## 从笔记本到云端，是必然，但别走极端\n\n智能体搬到云端跑不可避免：代码库太大、本地内存和 CPU 不够、并行需要多个沙箱，而且云端能隔离供应链攻击的伤害范围。他甚至说，把开发生命周期更多搬进沙箱，理论上可以彻底消灭供应链攻击[25:31 时代相近段落 Unknown]——因为云端可以严格监控网络流量，恶意软件偷了数据也发不出去。\n\n但他坚持保留拉回本地的选项：有时你就是要在显微镜下看一个程序怎么和系统互动，最低延迟地盯着它。CLI 的价值也在这里——离金属越近越好。\n\n## 如果 2026 年从零创业，先想清楚你要讲什么故事\n\n被问到假设自己今天白手起家会怎么做，他的答案不是先选赛道，而是先想：我要向世界讲一个什么故事？因为今天什么都能做出来，选题反而成了稀缺能力。\n\n他还提醒：AI 并没有让人变闲。实际发生的是人们工作更拼了——投入的是创意、提示词、验证和评估的努力。所以还是要选一个你真心在乎的问题。然后，「把野心放大 10 倍或 100 倍。你能触达的人比你想象的多，能做的比你想的快，做得也比你想的好。」[96:48 Unknown]\n\n## 本集带走\n\n- 新模型发布时，拿一份以前做不到的事的清单去试，窗口期里藏着生意机会。\n- 衡量公司 AI 化程度的硬指标：从用户报告问题到修复上线的延迟。\n- 速度不等于方向，把 token 集中砸在少数有优势的问题上，别同时开 20 条战线。\n- 不必逐行读代码，但每次做完要理解发生了什么；懂整个技术栈又会用 AI 的人最值钱。\n- 老代码里的安全漏洞几乎无法估量，而便宜的模型正在让批量找漏洞成为可能——这件事大多数人还没当回事。",
+  "quotes": [
+    {
+      "en": "We could eradicate supply chain attacks if we move more and more of this development lifecycle to sandboxes.",
+      "zh": "如果我们把越来越多的开发生命周期迁移到沙箱里，我们就可以根除供应链攻击。",
+      "timestamp": "00:25",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think our ability to stay in control as humans and by that I mean creative control, control over the risks on cybersecurity, control over how we make the agents work for us ultimately.",
+      "zh": "我认为是我们人类保持掌控的能力，我的意思是创意上的掌控，对网络安全风险的掌控，以及最终对如何让智能体为我们工作的掌控。",
+      "timestamp": "00:37",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "But a lot of the time we're actually buying into the stories and the vibes and the brands and the flavors and the tastes.",
+      "zh": "但很多时候，我们实际上是在为故事、氛围、品牌、风味和品味买单。",
+      "timestamp": "01:27",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It really pays off because when a model drops, it's almost like people are exploring its latent space and discovering what's possible.",
+      "zh": "真的会有回报，因为当一个模型发布时，几乎就像人们在探索它的潜在空间，发现什么是可能的。",
+      "timestamp": "06:28",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "There's a lot of alpha right now in which is super ironic because models are so easy to use that you just prompt them in English and yet there's a mastery to them.",
+      "zh": "现在这里面有很多红利，非常讽刺，因为模型如此易用，你只用英语提示它们，然而它们又有一门精通之道。",
+      "timestamp": "07:44",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "The model will happily spend 30 minutes on something useless, something small that a human engineer will just skip given the broader circumstance.",
+      "zh": "而模型会乐意在某件没用的事情上花 30 分钟，在某件人类工程师在更大的情境下会直接跳过的小事上。",
+      "timestamp": "09:24",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And they're probably going to get lapped by these organizations that are moving more autonomously and with more conviction.",
+      "zh": "而他们很可能会被这些更自主、更有信念地行动的组织套圈。",
+      "timestamp": "11:30",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And unless you have a super small addressable market, it's like that business that can just fix everything in sub 30 minutes is going to destroy a business that takes two days.",
+      "zh": "除非你的可触达市场非常小，否则那种能在 30 分钟内修复一切的商业，将会摧毁那种需要两天的商业。",
+      "timestamp": "16:07",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "You could be PRing, PRing, PRing, PRing into oblivion.",
+      "zh": "你可能在不停地 PR、PR、PR、PR，一直 PR 到湮灭。",
+      "timestamp": "18:03",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Yeah, because if you're doing 20 things at once, you're going to be mediocre in all of them.",
+      "zh": "是的，因为如果你同时在做 20 件事，你会在所有这些事情上都很平庸。",
+      "timestamp": "19:26",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "It's also the fact that the file system is basically all you need.",
+      "zh": "还在于文件系统基本上就是你所需要的一切。",
+      "timestamp": "28:10",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "That alone is just, I think, better, quote unquote, agentic engineering than just do it, make no mistakes, please auto-merge and let's keep building a huge pile of slop.",
+      "zh": "单单这一点，我认为就是更好的、带引号的「智能体工程」，而不是「去做吧，别犯错，请自动合并，让我们继续堆一座巨大的 slop 山」。",
+      "timestamp": "54:13",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "I think something that will backfire for a lot of people that are embracing extreme vibe coding is that if I'm an enterprise, I need to build very strong conviction in the security profile of your product.",
+      "zh": "我觉得一件会让很多拥抱极端 vibe coding 的人栽跟头的事是：如果我是一家企业，我需要对你的产品的安全画像建立非常强的信心。",
+      "timestamp": "56:49",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:16",
+      "speaker": "说话人",
+      "en": "The challenge that I think a lot of organizations have today is that the amount of latent vulnerabilities of all of this human written code is almost immeasurable.",
+      "zh": "我认为今天很多组织面临的挑战是，所有这些人类编写的代码中潜在漏洞的数量几乎是不可估量的。"
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "说话人",
+      "en": "We could eradicate supply chain attacks if we move more and more of this development lifecycle to sandboxes.",
+      "zh": "如果我们把越来越多的开发生命周期迁移到沙箱里，我们就可以根除供应链攻击。"
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "说话人",
+      "en": "I think our ability to stay in control as humans and by that I mean creative control, control over the risks on cybersecurity, control over how we make the agents work for us ultimately.",
+      "zh": "我认为是我们人类保持掌控的能力，我的意思是创意上的掌控，对网络安全风险的掌控，以及最终对如何让智能体为我们工作的掌控。"
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "说话人",
+      "en": "Harness engineering, the software factory, the fleets of agents that you orchestrate.",
+      "zh": "线束工程、软件工厂、你所编排的智能体舰队。"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "说话人",
+      "en": "But a lot of the time we're actually buying into the stories and the vibes and the brands and the flavors and the tastes.",
+      "zh": "但很多时候，我们实际上是在为故事、氛围、品牌、风味和品味买单。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "说话人",
+      "en": "It really pays off because when a model drops, it's almost like people are exploring its latent space and discovering what's possible.",
+      "zh": "真的会有回报，因为当一个模型发布时，几乎就像人们在探索它的潜在空间，发现什么是可能的。"
+    },
+    {
+      "timestamp": "07:44",
+      "speaker": "说话人",
+      "en": "There's a lot of alpha right now in which is super ironic because models are so easy to use that you just prompt them in English and yet there's a mastery to them.",
+      "zh": "现在这里面有很多红利，非常讽刺，因为模型如此易用，你只用英语提示它们，然而它们又有一门精通之道。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "说话人",
+      "en": "The model will happily spend 30 minutes on something useless, something small that a human engineer will just skip given the broader circumstance.",
+      "zh": "而模型会乐意在某件没用的事情上花 30 分钟，在某件人类工程师在更大的情境下会直接跳过的小事上。"
+    },
+    {
+      "timestamp": "11:30",
+      "speaker": "说话人",
+      "en": "And they're probably going to get lapped by these organizations that are moving more autonomously and with more conviction.",
+      "zh": "而他们很可能会被这些更自主、更有信念地行动的组织套圈。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "说话人",
+      "en": "And what is your latency?",
+      "zh": "你的延迟是多少？"
+    },
+    {
+      "timestamp": "16:07",
+      "speaker": "说话人",
+      "en": "And unless you have a super small addressable market, it's like that business that can just fix everything in sub 30 minutes is going to destroy a business that takes two days.",
+      "zh": "除非你的可触达市场非常小，否则那种能在 30 分钟内修复一切的商业，将会摧毁那种需要两天的商业。"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "说话人",
+      "en": "Iteration speed is, you know, like how quickly you're turning out stuff.",
+      "zh": "迭代速度是，你知道的，你产出东西有多快。"
+    },
+    {
+      "timestamp": "18:03",
+      "speaker": "说话人",
+      "en": "You could be PRing, PRing, PRing, PRing into oblivion.",
+      "zh": "你可能在不停地 PR、PR、PR、PR，一直 PR 到湮灭。"
+    },
+    {
+      "timestamp": "18:20",
+      "speaker": "说话人",
+      "en": "And what I don't know that it's fully helped people realize yet is that there's certain things you should build and there's certain things you should buy.",
+      "zh": "而我不确定大家是否已经完全意识到的一点是，有些东西你应该自建，有些东西你应该购买。"
+    },
+    {
+      "timestamp": "19:26",
+      "speaker": "说话人",
+      "en": "Yeah, because if you're doing 20 things at once, you're going to be mediocre in all of them.",
+      "zh": "是的，因为如果你同时在做 20 件事，你会在所有这些事情上都很平庸。"
+    },
+    {
+      "timestamp": "20:16",
+      "speaker": "说话人",
+      "en": "Like if you could one shot it, I can also one shot it.",
+      "zh": "如果你能一把生成出来，我也能一把生成出来。"
+    },
+    {
+      "timestamp": "28:10",
+      "speaker": "说话人",
+      "en": "It's also the fact that the file system is basically all you need.",
+      "zh": "还在于文件系统基本上就是你所需要的一切。"
+    },
+    {
+      "timestamp": "41:36",
+      "speaker": "说话人",
+      "en": "That gave you a false sense of confidence.",
+      "zh": "那给了你一种虚假的信心。"
+    },
+    {
+      "timestamp": "47:57",
+      "speaker": "说话人",
+      "en": "So knowing, I think, how these systems work, it's almost like, okay, you don't want to have too much encyclopedic knowledge because the AIs are really good at that.",
+      "zh": "所以我觉得，了解这些系统是如何工作的，差不多就是说，好吧，你不需要有太多百科全书式的知识，因为 AI 在这方面真的很强。"
+    },
+    {
+      "timestamp": "48:41",
+      "speaker": "说话人",
+      "en": "And you can't spend infinite tokens on every task.",
+      "zh": "而且你不能在每个任务上都花无限的 token。"
+    },
+    {
+      "timestamp": "54:13",
+      "speaker": "说话人",
+      "en": "That alone is just, I think, better, quote unquote, agentic engineering than just do it, make no mistakes, please auto-merge and let's keep building a huge pile of slop.",
+      "zh": "单单这一点，我认为就是更好的、带引号的「智能体工程」，而不是「去做吧，别犯错，请自动合并，让我们继续堆一座巨大的 slop 山」。"
+    },
+    {
+      "timestamp": "56:49",
+      "speaker": "说话人",
+      "en": "I think something that will backfire for a lot of people that are embracing extreme vibe coding is that if I'm an enterprise, I need to build very strong conviction in the security profile of your product.",
+      "zh": "我觉得一件会让很多拥抱极端 vibe coding 的人栽跟头的事是：如果我是一家企业，我需要对你的产品的安全画像建立非常强的信心。"
+    }
+  ],
+  "voice_script": "今天这期，来的是 Guillermo Rauch,Vercel 的创始人兼 CEO。Vercel 是靠前端部署工具起家的公司，你现在打开很多网站，背后跑的就是它的基础设施。而最近几年，Vercel 在 AI 基础设施上全面下注，所以由这位老板来聊“AI 时代写代码的人要变成什么”，是很有分量的。\n\n这场访谈覆盖的面很广，我挑一条最值得你听的主线来讲：AI 把编程变得前所未有的容易之后，人的价值到底在哪？公司该怎么用好智能体？以及一个大多数人还没当回事的安全炸弹。\n\n先说人的价值。Guillermo 的判断是，杠杆正在往上移一层——你不再亲自写每一行代码，而是去编排一组智能体，设计所谓的软件工厂，决定把算力和模型花在什么问题上。\n\n但那人对未来并不悲观，反而很乐观。原因很简单：买单的终究是人，而人买的从来不只是功能。用他自己的话说，我们总以为自己决策很理性，但很多时候，我们实际买的是故事、氛围、品牌、风味和品味。这话听着虚，其实很实在——功能谁都能做出来的时代，品味和故事才是差异。\n\n编程会不会像种地一样消失？Guillermo 的答案是不会。有句话挺戳人的：工作时写软件，下班回家还写软件放松，还拉着孩子和妻子一起写。对很多人来说，写代码就是创作媒介，这个需求拿不走。就像现在没什么人种地了，但在阳台种菜的人反而多了。\n\n那具体到实操，有什么可以直接拿去用的东西吗？还真有。\n\n第一个建议：维护一份清单，记下今天所有模型都做不到的事。每次新模型发布，就拿这份清单去试。原来做不到的事一旦变成做得到，往往就是一门新生意——因为某个功能的成本可能突然降了一个数量级，或者某个体验突然变得可能。窗口期就在那里，看谁先发现。\n\n第二个被低估的能力，叫评估。很多人用模型全凭网上流传的说法：读了某条推文，就改了自己的提示词，但从没验证过结果是不是真的变好了。你可以问问自己：我有没有一套自己的评估集，帮我在这个每周都有新模型的世界里找方向？没有的话，你基本是在随波逐流。\n\n顺着这个思路，就能回答一个老板们更关心的问题：怎么判断一家公司 AI 用得好不好？Guillermo 给了一个很硬的指标——修复延迟。从客户报告一个问题，到这个问题被修好、上线，中间隔多久？用户在 Reddit 抱怨、打客服电话、发邮件，公司能不能用高质量的智能体自动响应、自动启动事故调查，问题明确可修的，能不能自动修掉、自动发布？那句话说得非常狠：能在 30 分钟内修好一切的公司，会摧毁要花两天才能修好的公司。\n\n当然，不是所有反馈都能自动化。有用户反馈 Vercel 的导航让人困惑，但这条反馈没法直接丢给 AI,还得产品负责人跟用户来回沟通、要更多视频，再靠人的判断转成产品决策。所以规律是：反馈越模糊，人越不可或缺。\n\n不过，AI 让人什么都能做，也带来一个新陷阱。Guillermo 区分了两个词：迭代速度和迭代方向。速度是你产出多快——花了多少 token、合了多少个代码请求。但速度本身不含方向，你可以一直合并代码请求，一路合并到毁灭。印象很深的是一个反例：一位创业者想法不错，却在同时自建邮件服务和支付网关。AI 让人觉得自己什么都能做，但正确的做法恰恰相反——挑少数几个你有超额优势的问题，把所有 token 都砸进去。同时做 20 件事，结果就是 20 件平庸。\n\n顺着这个陷阱再往下走一步，还有一个正在发生的现象：很多人发布速度飞快，但打开网站一看，是一堆 AI 生成的粗糙产物。这种东西让人自动走神，因为你能一次生成，我也能一次生成——没有增值，就没有价值。\n\n那 Guillermo 自己用什么工具呢？Vercel 内部不强制规定，但他个人的选择很有性格：一直是命令行和 NeoVim 用户，现在用的是 Vercel Labs 出的命令行工具 fx。这个工具体现一种反潮流的哲学：极小、极快，安装包只占 11 兆，启动速度接近一个普通的 shell。而且刻意抵制加界面的诱惑——很多工具一开始又小又快，慢慢膨胀，最后背着一大堆插件变得笨重。更妙的是，这套工具同时是一个能嵌进其他程序的库。当年做 v0 产品时，90% 的工程时间花在搭建智能体的运行框架上；如今用这套库，100 行代码就能拼出一个迷你 v0。\n\n聊到工具，就绕不开一个更大的争论：现在流行一种论调，说不用再读代码了，一切交给 AI。Guillermo 明确反对，立场是个中间派：不必逐行读，但每次做完一件事，要弄明白刚才发生了什么。AI 反而让懂底层的人更值钱——如果你从汇编到上层都理解整个技术栈，又擅长用 AI,那就是不可阻挡的。有个例子很生动：程序员应该知道的那张延迟数字表，比如一个网络包从加州到荷兰再回来，大约 150 毫秒。Guillermo 拿这个当面试题，很多人会答错一个数量级。为什么有用？如果 AI 部署的系统页面加载要一秒，你至少知道该往哪逼——再快一点，再快一点。\n\n而这恰恰引出全场最值得普通人记住的部分：安全问题。人类几十年写下的代码里，潜伏的漏洞数量几乎无法估量。原因是，写正常路径的代码很容易，穷举所有边界情况在认知上极其耗费心力，所以几乎没人做得全。OpenAI 被黑就是例子：起因是一个叫 libheif 的开源图像编码库，用 C 和 C++ 写的，里面藏着一个远程代码执行漏洞。这个小库嵌在 Slack、Next.js、OpenAI、Discourse 的图像处理流程里——一个库，波及大半个互联网。\n\n更糟的是，攻防的天平正在倾斜。他们发布的 DeepSecBench 基准显示，有些便宜的小模型找漏洞的效率高得吓人，坏演员也能拿它们批量扫描开源代码。Guillermo 的建议很直接：赶紧自查，并考虑把关键库迁到 Rust 这类内存安全语言。不过也不全是坏消息——如果把开发生命周期更多地搬进云端沙箱，理论上可以根除供应链攻击，因为云端能严格监控网络流量，恶意软件偷了数据也发不出去。但他坚持保留拉回本地的选项：有时就是要在显微镜下看程序怎么和系统互动，离金属越近越好。\n\n最后聊到假设今天从零创业会怎么做。Guillermo 的答案不是先选赛道，而是先想：我要向世界讲一个什么故事？因为今天什么都能做出来，选题反而成了稀缺能力。还有，AI 并没有让人变闲，实际发生的是人们工作更拼了——投入的是创意、提示词、验证和评估的努力。所以还是要选一个你真心在乎的问题，然后，把野心放大 10 倍或 100 倍。你能触达的人比你想象的多，能做的比你想的快，做得也比你想的好。\n\n最后用 Guillermo 自己的话收个尾：AI 时代真正关键的，是我们人类保持掌控的能力——创意上的掌控，对安全风险的掌控，以及对如何让智能体为我们工作的掌控。"
+}

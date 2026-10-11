@@ -175,8 +175,8 @@ Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button c
 **顺着「组织与领导力」挖下去**
 
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队]]<span class="pd-rz">同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)</span>
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|Hilary Gridley：教团队"挨打"的产品领导力]]<span class="pd-rz">同嘉宾:Lenny</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同嘉宾:Lenny</span>
 
 </div>
 <div class="pd-ex">

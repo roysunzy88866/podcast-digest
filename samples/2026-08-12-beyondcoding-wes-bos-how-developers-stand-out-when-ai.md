@@ -151,7 +151,7 @@ Wes 的判断是——有时候行，有时候不行。你确实能看到大量�
 
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:LLM、vibe coding、智能体 (agent)</span>
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:LLM、智能体 (agent)、上下文 (context)</span>
-- [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞]]<span class="pd-rz">同概念:vibe coding、智能体 (agent)</span>
+- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同公司:Claude Code · 同概念:vibe coding、智能体 (agent)</span>
 
 </div>
 </div>

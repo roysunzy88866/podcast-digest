@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":50,"Muse":6,"OpenAI":192,"Dots":4,"Microsoft":30,"Google":69,"Anthropic":197,"Apple":24,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":51,"Muse":7,"OpenAI":192,"Dots":4,"Microsoft":31,"Google":70,"Anthropic":197,"Apple":24,"Amazon":32}</script>
 
 <script>
 (function(){

@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>105</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>106</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -108,6 +108,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(32:20起):本集说 ChatGPT 是 OpenAI 面向消费者的庞然大物，Sam Altman 宣布已有 12 亿周活跃用户。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(00:15起):本集把它说成:sites 是『用 ChatGPT 和 Codex 构建的东西』;sites 正试验把推理带进站点,让玩家在游戏里直接唤起 ChatGPT 去改东西
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(03:58起):本集说 LangChain 的创立比 ChatGPT 早一个月,真正起飞是在人们想要「我行业专用的那个」之后。
+- **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(05:47起):本集顺带提及:ChatGPT 时代早期就表明 AI 会操作而非取代计算机,添加插件(Wolfram Alpha)时「ChatGPT 得到了一台自己的计算机」。
 - **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(01:37起):本集把它说成:可渲染商家 MCP 应用的智能体宿主,内建官方即时结账(instant checkout),交易会被标记为来自 ChatGPT。
 - **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(13:44起):本集提及 ChatGPT 爆火后出现实时摄入、超大载荷、深度嵌套半结构化文本等一系列新颖的数据问题。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:02起):本集用它举例说明模型在某些事上超级可靠（从无缘无故辱骂人），并问「ChatGPT 感觉起来有多通用」。
@@ -117,7 +118,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*23 条*
+*24 条*
 
 ![[2025-07-17-lennys-inside-every-dan-shipper#^q8]]
 
@@ -163,11 +164,13 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ![[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w#^q1]]
 
+![[2026-10-06-talks-apps-agents-and-aggregation-stratechery#^q9]]
+
 ![[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv#^q6]]
 
 ## ② 出现在这些集
 
-*105 集*
+*106 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -268,6 +271,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司(提及)
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
+- [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司
 - [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为概念(提及)
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念(提及)
@@ -281,7 +285,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[Cursor]] · [[LLM]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"OpenAI":192,"Claude":93,"Anthropic":197,"Google":69,"Codex":83,"Lenny":68,"Cursor":86,"LLM":60,"护栏":88}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"OpenAI":192,"Claude":93,"Anthropic":197,"Google":70,"Codex":83,"Lenny":69,"Cursor":86,"LLM":60,"护栏":88}</script>
 
 <script>
 (function(){

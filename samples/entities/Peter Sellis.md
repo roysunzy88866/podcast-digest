@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snapchat":4,"Snap":3,"Discord":6,"OpenAI":192,"SpaceX":21,"Meta":50,"产品经理":3,"广告":3,"品味":15,"DAU-MAU":1}</script>
+<script type="application/json" class="pd-epn">{"Snapchat":4,"Snap":3,"Discord":6,"OpenAI":192,"SpaceX":21,"Meta":51,"产品经理":3,"广告":3,"品味":15,"DAU-MAU":1}</script>
 
 <script>
 (function(){

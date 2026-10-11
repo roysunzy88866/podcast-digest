@@ -73,7 +73,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":197,"OpenAI":192,"Google":69,"Microsoft":30,"Theo Jaffe":7,"Martin Casado":5,"对齐":23,"Sofia Puccini":4,"Amazon":32,"bug":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":197,"OpenAI":192,"Google":70,"Microsoft":31,"Theo Jaffe":7,"Martin Casado":5,"对齐":23,"Sofia Puccini":4,"Amazon":32,"bug":1}</script>
 
 <script>
 (function(){

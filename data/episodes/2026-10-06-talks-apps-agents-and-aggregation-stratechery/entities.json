@@ -1,0 +1,762 @@
+{
+  "episode_id": "2026-10-06-talks-apps-agents-and-aggregation-stratechery",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "智能体",
+    "聚合理论",
+    "AI 产品",
+    "平台与分发",
+    "生成式 UI"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "ben-thompson",
+      "type": "person",
+      "role": "host",
+      "name": "Ben Thompson",
+      "file": "Ben Thompson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "steve-jobs",
+      "type": "person",
+      "role": "cohost",
+      "name": "Steve Jobs",
+      "file": "Steve Jobs",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            17.398,
+            19.419
+          ],
+          "quote": "That was how Steve Jobs introduced the iPhone.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mark-zuckerberg",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mark Zuckerberg",
+      "file": "Mark Zuckerberg",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            236.232,
+            238.114
+          ],
+          "quote": "CO Mark Zuckerberg told Wired at the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:不只是 AI,而是「能用电脑的 AI」——概率性的语言模型指挥确定性的计算机去干电脑擅长的事;它对你了解越多、能碰到的登录信息和文件越多就越黏人,而大多数人只会有一个智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            360.323,
+            370.029
+          ],
+          "quote": "I've been all in on agents for a while, first coding agents, then an overall idea tracker agent I fashioned from a dedicated quad thread, and most recently an agent specifically tuned to my company's needs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            370.79,
+            376.873
+          ],
+          "quote": "It was that experience that made me instantly excited about Muse, which actually gave people the infrastructure necessary to have an agent of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            423.113,
+            426.774
+          ],
+          "quote": "That's exactly what an agent does, augmented by its ability to write things down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            427.475,
+            437.42
+          ],
+          "quote": "It follows, then, that to actually deliver an agent that is usable by people unable or unwilling to set up a computer for their agent, you have to give people not just an agent, but also a computer for their agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            557.315,
+            562.157
+          ],
+          "quote": "The agent of my choosing can create any app that I want on command, even if that app is only for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            715.472,
+            731.021
+          ],
+          "quote": "Once the user is focused on solving a problem, every app and service required to do so is abstracted away into an implementation detail, mere suppliers facing the fate of publications under aggregators, scrapping for crumbs from the agent, the ultimate gatekeeper of not just user demand, but desire.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            856.403,
+            860.145
+          ],
+          "quote": "Autopilot, proactive and long-running agent built for the enterprise.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1013.195,
+            1016.836
+          ],
+          "quote": "What will draw the most attention, however, is the fight to be the agent users talk to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1029.239,
+            1031.94
+          ],
+          "quote": "Most people in companies will only have one agent, not multiple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1032.78,
+            1038.705
+          ],
+          "quote": "The challenge everyone else will face is that the two companies first out the door with agent products that actually fit the use case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1039.405,
+            1046.05
+          ],
+          "quote": "Broad exposure to a person or employee's life and environments, established messaging services, a computer per agent, etc.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "virtual-machine",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟机 (virtual machine)",
+      "file": "虚拟机",
+      "primary": true,
+      "how_described": "本集说 Meta 为每位用户配置了一台双核处理器、8GB 内存、8GB 存储的虚拟机——一台货真价实的计算机,也是让智能体为普通人可用的唯一途径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            438.5,
+            454.076
+          ],
+          "quote": "This is why the aspect of the Muse launch that I latched onto was not the MuseSpark model that undergirded Muse, but rather the fact that Meta was provisioning every user in the US, and presumably, eventually the world, with a virtual machine with a two-core processor, 8GB of RAM, and 8GB of storage.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集说生成式 UI 已经到来:智能体可以按需为单个用户生成定制界面,用完即弃,不需要应用商店,也不是最终形态的即时生成 UI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            601.924,
+            607.566
+          ],
+          "quote": "Of course, generative AI is also usable on the phone, and that is where I expect most of the exploration around generative UI to happen for now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            653.3,
+            656.843
+          ],
+          "quote": "And, as we saw with my RecipeBox app, Generative UI is here.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aggregation-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "聚合理论 (aggregation theory)",
+      "file": "聚合理论",
+      "primary": true,
+      "how_described": "本集用它解释历史:分发免费后网络充裕,解决「发现」的公司聚合需求而获得对供应方的权力;如今做事能力也变得充裕,稀缺的是意愿,待解决的问题从发现变成灵感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            694.049,
+            695.17
+          ],
+          "quote": "This is aggregation theory.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "type": "concept",
+      "role": "concept",
+      "name": "待完成的任务 (jobs to be done)",
+      "file": "待完成的任务",
+      "primary": true,
+      "how_described": "本集用它反驳扎克伯格「人才是世界的中心」:应用和人都不是中心,智能手机统治世界是因为它为更多的人在更多的地方完成更多的任务;一旦人们能直接达成待完成的任务,用应用的做法会显得很奇怪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            166.776,
+            167.999
+          ],
+          "quote": "Messaging and jobs to be done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            277.402,
+            283.224
+          ],
+          "quote": "I stridently disagreed, writing in apps, people, and jobs to be done, quote, apps versus people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            286.465,
+            287.705
+          ],
+          "quote": "He forgot about jobs to be done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            298.231,
+            299.752
+          ],
+          "quote": "So what if I consider jobs to be done?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            300.412,
+            304.675
+          ],
+          "quote": "Total tally, 151 apps, 80 jobs to be done, four FOSAI on people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "本集说 Meta 发布的智能体产品 Muse,真正给了普通人拥有自己智能体所需的基础设施——给每个美国用户配一台虚拟机;作者用它五分钟造出了自己的菜谱盒应用,并称 Meta 的设备(眼镜等)都是 Muse 的投递机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            370.79,
+            376.873
+          ],
+          "quote": "It was that experience that made me instantly excited about Muse, which actually gave people the infrastructure necessary to have an agent of their own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            438.5,
+            454.076
+          ],
+          "quote": "This is why the aspect of the Muse launch that I latched onto was not the MuseSpark model that undergirded Muse, but rather the fact that Meta was provisioning every user in the US, and presumably, eventually the world, with a virtual machine with a two-core processor, 8GB of RAM, and 8GB of storage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            466.307,
+            473.892
+          ],
+          "quote": "After hearing about how a friend used Muse to look at his Instagram favorites, I asked Muse, quote, can you organize all the recipes I've saved in Instagram?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            491.454,
+            494.175
+          ],
+          "quote": "I asked Muse to actually read the captions and watch the videos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            548.492,
+            554.274
+          ],
+          "quote": "From discovery to inspiration, I frame my new Muse-built recipe box app as number 690 on my computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            636.575,
+            640.016
+          ],
+          "quote": "What was notable about this year, however, was how Muse made everything make sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            644.717,
+            646.237
+          ],
+          "quote": "They are Muse delivery mechanisms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            650.138,
+            652.399
+          ],
+          "quote": "Meta gave it to every user for Muse to use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            911.881,
+            915.684
+          ],
+          "quote": "To that end, it's not a surprise that the new Copilot isn't dissimilar to Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            931.056,
+            943.464
+          ],
+          "quote": "What Muse and Copilot are making a bid to be is both, the only interface you need for everything, using a computer on your behalf, and generating whatever UI you need when you want it, and doing stuff without you but for you the rest of the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集把它说成智能体之争的先跑者之一:分发能力最强、触达地球上几乎每一个人,靠 Muse 给每个用户配电脑;当年它也是靠解决「发现」问题聚合需求而崛起的巨头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            228.705,
+            231.388
+          ],
+          "quote": "Meta's WhatsApp acquisition was actually a step back in ambition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            438.5,
+            454.076
+          ],
+          "quote": "This is why the aspect of the Muse launch that I latched onto was not the MuseSpark model that undergirded Muse, but rather the fact that Meta was provisioning every user in the US, and presumably, eventually the world, with a virtual machine with a two-core processor, 8GB of RAM, and 8GB of storage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            631.094,
+            635.895
+          ],
+          "quote": "Last week's MetaConnect was, as it is every year, about new Meta devices, primarily glasses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            640.776,
+            644.137
+          ],
+          "quote": "Meta's devices are not AR or VR devices, or even AI glasses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            650.138,
+            652.399
+          ],
+          "quote": "Meta gave it to every user for Muse to use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            685.721,
+            693.328
+          ],
+          "quote": "The companies that solved discovery aggregated demand, giving them power over suppliers, and in the case of Meta and Google in particular, incredible advertising businesses.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1050.354,
+            1052.275
+          ],
+          "quote": "Meta reaches nearly every person on Earth.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说微软发布重新设计的 Copilot 超级应用,把聊天、编程、智能体塞进一个界面,纳德拉明言要做「工作的操作系统」;它触达几乎每一位员工,是另一家先跑出线的分发者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            735.546,
+            742.074
+          ],
+          "quote": "After teasing its new co-pilot quote unquote super app last month, Microsoft is officially unmailing it today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            768.932,
+            776.937
+          ],
+          "quote": "Autopilot is a new addition to the co-pilot experience and one that Microsoft VP Jared Spataro describes as a quote digital teammate end quote.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            799.811,
+            809.532
+          ],
+          "quote": "The real difference against some other AI agents is that Microsoft has made Autopilot Enterprise great, appealing to businesses that rely on its office and identity management suites.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            810.378,
+            823.225
+          ],
+          "quote": "Quote, Autopilot lives in your tenant with its own identity, memory, computer, and workspace, and it's built on Microsoft IQ so it understands how your organization actually works, end quote, says Spataro.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            838.153,
+            841.575
+          ],
+          "quote": "Satya Nadella made clear on X that Microsoft's strategy was the same as it ever was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            898.972,
+            902.615
+          ],
+          "quote": "I wrote years ago that the best way to understand Teams is Microsoft's OS for SaaS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1052.896,
+            1054.817
+          ],
+          "quote": "Microsoft reaches nearly every employee.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "本集说新的 Copilot 是微软思路(Teams 是面向 SaaS 的操作系统)的新迭代:其中的 Autopilot 是有自己身份、记忆、电脑和工作区的「数字队友」,你睡觉时它在云端替你干活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            843.716,
+            850.46
+          ],
+          "quote": "We're building Copilot is a new OS for work that spans every model, every form factor, and every task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            851.24,
+            855.543
+          ],
+          "quote": "Today we're announcing our biggest update to Copilot to date, bringing four things together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            861.026,
+            865.048
+          ],
+          "quote": "Code, build apps with Copilot, hosted inside your company's tenant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            869.45,
+            875.396
+          ],
+          "quote": "Office, now fully embedded in Copilot, and Copilot embedded in Office, of course.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            876.837,
+            887.727
+          ],
+          "quote": "Plus, you can invoke Copilot in Teams, and we're introducing today, a proactive experience that surfaces the most important information from across M365 without needing to ask for it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            903.135,
+            905.537
+          ],
+          "quote": "The new Copilot is the obvious new iteration of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            911.881,
+            915.684
+          ],
+          "quote": "To that end, it's not a surprise that the new Copilot isn't dissimilar to Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            931.056,
+            943.464
+          ],
+          "quote": "What Muse and Copilot are making a bid to be is both, the only interface you need for everything, using a computer on your behalf, and generating whatever UI you need when you want it, and doing stuff without you but for you the rest of the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集调侃它打算给旗舰产品收三位数溢价接入智能体——在 AI 会直接用电脑的时代,这等于确保再没有人类会打开 Salesforce 的界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            999.624,
+            1004.628
+          ],
+          "quote": "Salesforce is going to try and charge a three-digit premium to make their flagship product a quad plug-in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1005.388,
+            1012.113
+          ],
+          "quote": "I salute the audacity of the cash grab in the face of computer use that will ensure the Salesforce UI is never interacted with by a human again.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "facebook-home",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook Home",
+      "file": "Facebook Home",
+      "primary": false,
+      "how_described": "本集作为历史案例提及:2014 年 Facebook 推出的 Android 界面,想把整台手机变成 Facebook 设备,作者当年激烈反对,认为它让任务更难完成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            231.968,
+            235.592
+          ],
+          "quote": "A year earlier, the company had launched its own interface for Android called Facebook Home.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            315.238,
+            319.799
+          ],
+          "quote": "Facebook Home makes jobs harder to do, in effect demoting them to the folders on my third screen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集顺带提及:ChatGPT 时代早期就表明 AI 会操作而非取代计算机,添加插件(Wolfram Alpha)时「ChatGPT 得到了一台自己的计算机」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            347.631,
+            353.136
+          ],
+          "quote": "Messaging apps, including WhatsApp, social media, primarily X, and now ChatGPT and Claude.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            382.637,
+            387.659
+          ],
+          "quote": "It was clear very early on in the ChatGPT era that AI would not replace computers, but rather operate them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            388.319,
+            394.461
+          ],
+          "quote": "From 2023's ChatGPT gets a computer, on the occasion of ChatGPT adding plugins, including one from Wolfram Alpha.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            411.647,
+            413.568
+          ],
+          "quote": "And now ChatGPT has a computer of its own.\"",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "chatbot",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

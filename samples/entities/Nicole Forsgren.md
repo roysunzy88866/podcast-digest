@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"代码行数":2,"DORA":3,"SPACE":2,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":2,"技术债":2,"幻觉":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"代码行数":2,"DORA":3,"SPACE":2,"DevEx":2,"心流状态":1,"反馈循环":1,"认知负荷":2,"技术债":2,"幻觉":12}</script>
 
 <script>
 (function(){

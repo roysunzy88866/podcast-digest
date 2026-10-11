@@ -39,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Max Junestrand]] · [[Jubin]] · [[Legora]] · [[Jesse Jang]] · [[微调]] · [[Decagon]] · [[评估]] · [[Sierra]] · [[GPT 3.5]]
+[[智能体]] · [[Max Junestrand]] · [[Jubin]] · [[Legora]] · [[Jesse Jang]] · [[微调]] · [[Decagon]] · [[评估]] · [[Sierra]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"Max Junestrand":1,"Jubin":2,"Legora":3,"Jesse Jang":1,"微调":35,"Decagon":9,"评估":1,"Sierra":7,"GPT 3.5":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"Max Junestrand":1,"Jubin":2,"Legora":3,"Jesse Jang":1,"微调":35,"Decagon":9,"评估":1,"Sierra":7,"基准测试":2}</script>
 
 <script>
 (function(){

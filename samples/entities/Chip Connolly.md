@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]] [[Maggie Landers]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Airbnb":13,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":3,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Airbnb":13,"Modern Elder Academy":1,"Joie de Vivre":1,"创始人模式":3,"流体智力":1,"晶体智力":1,"隐形生产力":1,"文化增项":1,"幸福的 U 型曲线":1}</script>
 
 <script>
 (function(){

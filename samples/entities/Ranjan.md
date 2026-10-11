@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Meta":50,"Anthropic":197,"OpenAI":192,"Google":69,"NVIDIA":67,"表外承诺":1,"AGI":28,"智能体":464,"IPO":5}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":3,"Meta":51,"Anthropic":197,"OpenAI":192,"Google":70,"NVIDIA":67,"表外承诺":1,"AGI":28,"智能体":467,"IPO":5}</script>
 
 <script>
 (function(){

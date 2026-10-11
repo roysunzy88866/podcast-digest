@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>69</b> 集 · <b>41</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google">GO</div><div class="pi"><h1 class="pt">Google</h1><div class="byl">公司</div><div class="nums">本站收录 <b>70</b> 集 · <b>42</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -80,10 +80,11 @@ unlisted: true
 - **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(01:07起):本集主角：今年资本支出预计超 2000 亿美元、大部分投入数据中心建设，嘉宾是 Google AI Infra 负责人，讲述 Google 的 AI 数据中心、TPU 与电力实践
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(18:53起):本集说 Google 的商业模式在演变——向 Anthropic 卖 TPU、在技术栈每一层赚钱——但这在损害 DeepMind 的业务。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(11:34起):本集提到 Newman 曾以 ThoughtWorks 员工身份在 Google 教自动化测试，以及 Google SRE 的「厄运之轮」演练游戏；另作为模型可用性较好的备选云被提及。
+- **[[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]]**(01:24起):本集是嘉宾 Josh Woodward 工作了 16 年多的公司，讨论围绕 Google 如何做从零到一的创新、实验室如何与主公司搭桥展开。
 
 ## ① 提到它的金句
 
-*41 条*
+*42 条*
 
 ![[2025-07-31-lennys-he-saved-openai-bret-taylor#^q1]]
 
@@ -167,9 +168,11 @@ unlisted: true
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q15]]
 
+![[2026-10-11-lennys-why-every-company-now-needs-to-think#^q8]]
+
 ## ② 出现在这些集
 
-*69 集*
+*70 集*
 
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|《AEO实战指南：如何让产品出现在ChatGPT答案里》]] — 作为被讨论公司
@@ -240,14 +243,15 @@ unlisted: true
 - [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
+- [[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Claude]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":464,"OpenAI":192,"Anthropic":197,"ChatGPT":105,"Claude":93,"Meta":50,"Amazon":32,"Apple":24,"NVIDIA":67,"Microsoft":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":467,"OpenAI":192,"Anthropic":197,"ChatGPT":106,"Claude":93,"Meta":51,"Amazon":32,"Apple":24,"NVIDIA":67,"Lenny":69}</script>
 
 <script>
 (function(){

@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":69,"Shopify":17,"Autobot":1,"Anthropic":197,"Claude":93,"代码审查":24,"股权占比":4,"可观测性":42}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":70,"Shopify":17,"Autobot":1,"Anthropic":197,"Claude":93,"代码审查":24,"股权占比":4,"可观测性":42}</script>
 
 <script>
 (function(){
