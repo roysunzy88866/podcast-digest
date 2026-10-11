@@ -25,7 +25,7 @@ unlisted: true
 
 [[Will Bryk]] · [[Exa]] · [[Cursor]] · [[HubSpot]] · [[Google]] · [[ChatGPT]] · [[智能体]] · [[搜索]] · [[嵌入模型]] · [[搜索 API]]
 
-<script type="application/json" class="pd-epn">{"Will Bryk":1,"Exa":4,"Cursor":84,"HubSpot":10,"Google":69,"ChatGPT":105,"智能体":459,"搜索":1,"嵌入模型":4,"搜索 API":1}</script>
+<script type="application/json" class="pd-epn">{"Will Bryk":1,"Exa":4,"Cursor":84,"HubSpot":10,"Google":69,"ChatGPT":105,"智能体":460,"搜索":1,"嵌入模型":4,"搜索 API":1}</script>
 
 <script>
 (function(){

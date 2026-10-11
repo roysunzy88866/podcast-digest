@@ -1,39 +1,31 @@
 ---
-title: 登月项目 (moonshot)
-entity_type: 概念
+title: Meta Superintelligence Labs
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>登月项目 (moonshot)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta Superintelligence Labs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="登月项目">登月</div><div class="pi"><h1 class="pt">登月项目 (moonshot)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta Superintelligence Labs">ME</div><div class="pi"><h1 class="pt">Meta Superintelligence Labs</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]]**(01:52起):本集把它定义为三要素糅合:世界上巨大的问题 + 听起来像科幻的解决方案 + 让它成为可检验假设的突破性技术
-- **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(15:56起):本集说 Moonshot 生产 Kimi，对美国前沿模型做蒸馏、构建表征后开源，是美国前沿模型流向中国的关键一环
-
-## ① 提到它的金句
-
-*1 条*
-
-![[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near#^q19]]
+- **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(27:44起):本集说扎克伯格把 FAIR 并入新组织 MSL（Meta Superintelligence Labs），作为 Llama 4 落后后 11 周推翻重来的一部分。
 
 ## ② 出现在这些集
 
-*2 集*
+*1 集*
 
-- [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]] — 作为概念
-- [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司
+- [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Astro Teller]] · [[Zavain Dar]] · [[X]] · [[Eric Newcomer]] · [[Alphabet]] · [[NVIDIA]] · [[Waymo]] · [[Hugging Face]] · [[Google Brain]] · [[开源]]
+[[Meta]] · [[Facebook]] · [[Instagram]] · [[WhatsApp]] · [[Oculus]] · [[Scale.ai]] · [[Llama]] · [[OpenAI]] · [[Anthropic]] · [[Snapchat]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"Zavain Dar":1,"X":3,"Eric Newcomer":1,"Alphabet":1,"NVIDIA":65,"Waymo":21,"Hugging Face":32,"Google Brain":1,"开源":39}</script>
+<script type="application/json" class="pd-epn">{"Meta":49,"Facebook":17,"Instagram":8,"WhatsApp":5,"Oculus":2,"Scale.ai":3,"Llama":3,"OpenAI":191,"Anthropic":196,"Snapchat":4}</script>
 
 <script>
 (function(){

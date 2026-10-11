@@ -26,7 +26,7 @@ unlisted: true
 
 [[智能体]] · [[Daniel Whitenack]] · [[Daniel Dines]] · [[Emil Lassen]] · [[Harry Stebbings]] · [[the artificial intelligence underwriting company]] · [[Anthropic]] · [[AI UC one]] · [[OpenAI]] · [[红队测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"Daniel Whitenack":11,"Daniel Dines":1,"Emil Lassen":1,"Harry Stebbings":20,"the artificial intelligence underwriting company":1,"Anthropic":194,"AI UC one":1,"OpenAI":189,"红队测试":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"Daniel Whitenack":11,"Daniel Dines":1,"Emil Lassen":1,"Harry Stebbings":20,"the artificial intelligence underwriting company":1,"Anthropic":196,"AI UC one":1,"OpenAI":191,"红队测试":7}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Instagram</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,18 +18,21 @@ unlisted: true
 - **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(06:28起):本集说 Facebook 网络和 Instagram 是黑箱、不给 API 和社交图谱——领先时握着摇钱树就锁死;两人还预测 Instagram 会像当年加滤镜一样推出一个以 CapCut 为范本的 AI 视频编辑器。
 - **[[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]]**(00:12起):Mike 联合创始的公司，本集回顾其全 Python 技术栈（据说正靠模型往 PHP 转）、上线首周崩溃的扩容故事，以及 Python 3 时代做 MonkeyType 加类型的经验。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(00:53起):Meta 的核心产品面,本集用它的 Reels 观看时长增长、「你的算法」可交互推荐功能、以及把 Reel 视频压缩到约 10 个 token 的例子贯穿全篇。
+- **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(18:10起):本集说 Instagram 被 Meta 收购时被嘲笑买贵了，后来扎克伯格用 Instagram Stories 击败了 Snapchat。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m#^q10]]
+
+![[2026-09-28-founders-435-mark-zuckerberg-s-empire#^q10]]
 
 ![[2026-09-30-beyondcoding-why-coding-agents-keep-making-your-codeb#^q7]]
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
@@ -38,14 +41,15 @@ unlisted: true
 - [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]] — 作为被讨论公司
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
+- [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude]] · [[Lenny]] · [[智能体]] · [[ChatGPT]] · [[Facebook]] · [[Google]] · [[TikTok]] · [[LLM]] · [[Meta]] · [[OpenAI]]
+[[Claude]] · [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[ChatGPT]] · [[Facebook]] · [[OpenAI]] · [[后训练]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Claude":93,"Lenny":68,"智能体":459,"ChatGPT":105,"Facebook":16,"Google":69,"TikTok":6,"LLM":60,"Meta":48,"OpenAI":189}</script>
+<script type="application/json" class="pd-epn">{"Claude":93,"Lenny":68,"Anthropic":196,"智能体":460,"Meta":49,"ChatGPT":105,"Facebook":17,"OpenAI":191,"后训练":1,"Google":69}</script>
 
 <script>
 (function(){

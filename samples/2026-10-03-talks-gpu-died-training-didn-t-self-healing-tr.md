@@ -129,9 +129,9 @@ Crusoe 宣布了一键 Slurm：一条命令就配好 Kubernetes 集群、Slurm �
 
 **换个口味**
 
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|走进中国 AI 实验室：他们比你想的更普通，也更专注]]<span class="pd-rz">同概念:推理 (inference)</span>
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由]]<span class="pd-rz">同概念:推理 (inference)</span>
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同概念:推理 (inference)</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同概念:推理 (inference)</span>
 
 </div>
 </div>

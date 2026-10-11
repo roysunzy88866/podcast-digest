@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig":2,"G2":1,"ChatGPT":105,"Gemini":15,"Claude":93,"OpenAI":189,"Reddit":8,"智能体":459,"AEO":5,"验证层":1}</script>
+<script type="application/json" class="pd-epn">{"Craig":2,"G2":1,"ChatGPT":105,"Gemini":15,"Claude":93,"OpenAI":191,"Reddit":8,"智能体":460,"AEO":5,"验证层":1}</script>
 
 <script>
 (function(){

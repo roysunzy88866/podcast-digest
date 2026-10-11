@@ -166,7 +166,7 @@ Suji 最后提醒：
 
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Nebius、NVIDIA · 同概念:推理 (inference)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)</span>
-- [[2026-08-18-iltb-ben-thompson-on-big-tech-china-and-the-a|Ben Thompson:美国赢得 AI 竞赛反而是危险的]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|走进中国 AI 实验室：他们比你想的更普通，也更专注]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
 
 </div>
 </div>

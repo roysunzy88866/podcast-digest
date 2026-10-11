@@ -1,0 +1,179 @@
+{
+  "title_zh": "走进中国 AI 实验室：他们比你想的更普通，也更专注",
+  "tldr": "两位美国 AI 写作者走访中国各大 AI 实验室后，聊了聊真实的见闻：芯片受限、需求爆炸、研究者只想做好模型。",
+  "digest_md": "Interconnects 的作者和 SAIL Media 的 Florian 刚结束一趟中国之行，几乎走访了中国的各大 AI 实验室。这期直播里，他们聊了最直观的感受：这些人跟硅谷的研究员太像了——换工作靠走路，选公司看氛围，甚至对政府竞争的感知都比想象中弱得多。\n\n## 北京像硅谷，实验室多到可以走路换工作\n\n在北京拜访各家公司时，最大的感受是熟悉感。实验室之间步行可达，研究者说「我面试了所有公司，选了这家因为氛围最好」。清华大学就处在这个圈子的中心，地位相当于斯坦福或伯克利 [04:29 Unknown]。\n\n各家的研究风格也不同：有的自下而上，研究员自由探索、逐级上报；有的自上而下，领导定方向再传达下去 [05:11 Unknown]。这种差异和湾区如出一辙。\n\n## DeepSeek 是精神图腾，字节跳动才是吓人的对手\n\n所有人都在谈 Dubal——字节跳动的聊天机器人应用，各家公司都担心跟它竞争。**DeepSeek 的角色则完全不同：它是大家仰望的文化和科学标杆，而字节跳动是令人畏惧的经济对手** [06:07 Unknown]。\n\n国内需求是真實存在的。ZAI 的展示厅挂着实时业务看板：每天提供 5.5 万亿个 token，服务全球企业，中国用户数是第二名（美国）的三四倍 [07:01 Unknown]。有公司最近已经涨价多次——因为需求实在跟不上。\n\n## 被美国制裁，反而成了勋章\n\nZAI 被列入美国实体清单后，公司内部既困惑又有点自豪。一家小型创业公司被美国政府认定为「值得认真对待的对手」，声誉反而大幅提升 [10:14 Unknown]。\n\n芯片限制是实实在在的痛点。研究者们痴迷于 NVIDIA 的芯片，训练周期被拉得很长，设计和迭代都受算力约束 [08:19 Unknown]。出口管制确实在起作用——这是研究者的日常焦虑，不是抽象话题。\n\n## 中国研究员也全是 Claude 的用户\n\n问了一圈后发现：几乎所有实验室的人都在用 Claude Code，公认它是最好的命令行工具 [11:21 Unknown]。有人嘴上说主要用自己的模型，但「难的任务我还是会切回 Claude」。Hugging Face 名义上被禁，但大家都在用，用不了才换成国内的克隆版 ModelScope——不过两个版本的数据和数据中心完全隔离 [12:47 Unknown]。\n\n## 买数据这件事，在中国似乎没那么火\n\n硅谷盛传数据和环境（environments）产业动辄数十亿美元，但中国实验室的回应大多冷淡。有人说在关注国际数据商，有人说国内小产业刚起步，还有一批人完全自建：自己雇数据标注员、律师、财务人员，在内部生产数据以保证质量 [14:39 Unknown]。数据产业到底是关键还是一阵风，两位都没下结论。\n\n## 美团、蚂蚁为什么要自己造模型？\n\n美团、蚂蚁集团这类公司造模型，不是为了卖 API 赚钱——他们知道卖不动。逻辑是：与其每年花几千万美元买别人的 token，不如自建模型，用起来便宜得多。就算到不了前沿水平，省钱也值 [17:06 Unknown]。这和 Meta、微软开放模型的思路类似：把互补品商品化。\n\n## 政府的角色：地方政府抢公司，不管模型\n\n美国政府的影响不是直接下指令。北京的一个区出资成立智源研究院（BAAI），每年投入数千万美元级别的研究经费；各地政府互相竞争，希望重要科技公司落户本地，帮忙开办公室、补贴人才 [20:40 Unknown]。但**没有人 dictates 模型该怎么训练**。所谓DeepSeek 崩了、人才流失的报道，更像是正常的人员流动，跟硅谷一样。\n\n## 他们不谈政治，只想把模型做好\n\n和湾区最大的差异：中国研究者几乎不关心政治影响、劳动力市场这些话题。多次被问及经济冲击时，他们的回应都是真诚的——不在乎，只想训练好模型，早上醒来就兴奋地想做下一个版本 [24:47 Unknown]。\n\n最让人意外的公司是 Xiaomi：模型团队几百人，平均年龄 25 岁，从早期的 7B 模型做到现在的万亿参数，是认真的投入而非副业 [27:46 Unknown]。发布前一晚，主要负责人凌晨 2 点发消息说模型上线了——为了赶上美国的黄金时段——几个小时后照样出现在办公室。\n\n## 本集带走\n\n- 中国 AI 研究文化跟硅谷高度相似：人才流动、看氛围选公司、两种研究管理风格并存\n- 芯片出口管制确实有效，算力约束是实验室的日常焦虑\n- 国内 AI 推理需求爆炸，多家公司因供不应求反复涨价\n- 中国研究员普遍使用 Claude Code 和 Hugging Face，国内替代品尚难撼动网络效应\n- 政府角色主要是地方补贴和抢夺公司落户，而非直接干预模型研发",
+  "quotes": [
+    {
+      "en": "So they just had like the public number that was like, we serve 5.5 trillion tokens a day.",
+      "zh": "所以他们只是挂了一个公开数字，像是我们每天服务 5.5 万亿个 token。",
+      "timestamp": "07:01",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "So I think they have more than tripled or even quintupled the price from the initial starting price in December until now and lowered the rate limits because they just can't keep up with the demand.",
+      "zh": "所以我想从 12 月的初始价格到现在，他们已经把价格涨到了三倍多甚至五倍，并且降低了速率限制，因为他们就是跟不上需求。",
+      "timestamp": "09:43",
+      "speaker": "Florian"
+    },
+    {
+      "en": "It's also like when you bring up ZAI, one of the striking things was them being somewhat proud of being entity listed despite being like they were also totally baffled and they have no idea why.",
+      "zh": "还有，当你提到 ZAI 时，一个引人注目的地方是他们对被列入实体清单多少有些自豪，尽管同时他们也完全困惑，完全不知道为什么。",
+      "timestamp": "10:05",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "I think all of them in China are obsessed with Claude and they were being coy about using their own models and other things, but they're actually just all Claude-pilled.",
+      "zh": "我觉得在中国所有人都在痴迷 Claude，他们对使用自己的模型还是其他东西含糊其辞，但实际上他们全都是 Claude 崇拜者。",
+      "timestamp": "10:30",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Of course, they are not at the frontier, but if you are able to save a lot of money doing exactly this, I can see the reason to develop models in-house versus using whatever frontier model is available.",
+      "zh": "当然，它们不在前沿水平，但如果你能通过这样做省下很多钱，我就能理解为什么自研模型，而不是用任何可用的前沿模型。",
+      "timestamp": "17:14",
+      "speaker": "Florian"
+    },
+    {
+      "en": "And when a company like DeepSeek meets a very high level party member, that helps because the lower level governments see that as a signal of like, if you help them, you're getting closer to the power structures.",
+      "zh": "而当像 DeepSeek 这样的公司见到非常高级别的党内官员时，这是有帮助的，因为下级政府把这视为一个信号：如果你帮它们，你就更接近权力结构。",
+      "timestamp": "21:20",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "They don't think about things like the permanent underclass but only how to scale even bigger models and they are driven by engineering and not by politics or status or whatever.",
+      "zh": "他们不会去想什么永久底层阶级之类的事情，只想着如何把模型扩展得更大，他们的驱动力是工程，而不是政治、地位或别的什么。",
+      "timestamp": "24:12",
+      "speaker": "Florian"
+    },
+    {
+      "en": "They want to go to the center of gravity that is in the U.S., but they have a hard time actually visiting, which I think is kind of an unnecessary own goal in the U.S.'s part to keep the cultural center within San Francisco.",
+      "zh": "他们想去那个位于美国的重心，但他们实际上很难成行，我认为就美国为了让文化中心留在旧金山这一点而言，这算是一种不必要的自摆乌龙。",
+      "timestamp": "30:23",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "07:01",
+      "speaker": "Unknown",
+      "en": "So they just had like the public number that was like, we serve 5.5 trillion tokens a day.",
+      "zh": "所以他们只是挂了一个公开数字，像是我们每天服务 5.5 万亿个 token。"
+    },
+    {
+      "timestamp": "07:35",
+      "speaker": "Unknown",
+      "en": "And it's just like, I think that the AI market for inference growth will be there in China.",
+      "zh": "而且我觉得，中国 AI 推理市场的增长是会存在的。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "So I think they have more than tripled or even quintupled the price from the initial starting price in December until now and lowered the rate limits because they just can't keep up with the demand.",
+      "zh": "所以我想从 12 月的初始价格到现在，他们已经把价格涨到了三倍多甚至五倍，并且降低了速率限制，因为他们就是跟不上需求。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "Unknown",
+      "en": "It's also like when you bring up ZAI, one of the striking things was them being somewhat proud of being entity listed despite being like they were also totally baffled and they have no idea why.",
+      "zh": "还有，当你提到 ZAI 时，一个引人注目的地方是他们对被列入实体清单多少有些自豪，尽管同时他们也完全困惑，完全不知道为什么。"
+    },
+    {
+      "timestamp": "10:14",
+      "speaker": "Unknown",
+      "en": "But it's like when this small, tiny startup gets global recognition by the U.S. government as being a serious company, it just makes them reputationally of like how established they are go up a ton.",
+      "zh": "但当这么一个小小的初创公司被美国政府认定为一家严肃的公司而获得全球认可时，这在声誉上让他们的地位大大提升了。"
+    },
+    {
+      "timestamp": "10:30",
+      "speaker": "Unknown",
+      "en": "I think all of them in China are obsessed with Claude and they were being coy about using their own models and other things, but they're actually just all Claude-pilled.",
+      "zh": "我觉得在中国所有人都在痴迷 Claude，他们对使用自己的模型还是其他东西含糊其辞，但实际上他们全都是 Claude 崇拜者。"
+    },
+    {
+      "timestamp": "11:21",
+      "speaker": "Unknown",
+      "en": "But basically everyone said that Claude Code is the best CLI that exists.",
+      "zh": "但基本上每个人都说 Claude Code 是现存最好的 CLI。"
+    },
+    {
+      "timestamp": "11:49",
+      "speaker": "Unknown",
+      "en": "It's sort of the same thing with Hugging Face where it's like Claude and Hugging Face are both nominally banned and all these companies released their models on Hugging Face and they're like, yeah, you use Hugging Face unless you can't access it.",
+      "zh": "这有点像 Hugging Face 的情况，Claude 和 Hugging Face 名义上都被禁用了，而所有这些公司都在 Hugging Face 上发布了他们的模型，他们说，是的，你用 Hugging Face，除非你访问不了。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Unknown",
+      "en": "And there's just so little signal on them actually buying data in a meaningful amount and feeling like it was central to them developing the models.",
+      "zh": "而关于他们实际大量购买数据、并且觉得这对他们开发模型至关重要，这方面的信号非常少。"
+    },
+    {
+      "timestamp": "14:09",
+      "speaker": "Unknown",
+      "en": "Maybe the data industry is a fad and doesn't matter and a distraction, or in the long term, this could come to be an impactful issue.",
+      "zh": "也许数据行业是一阵风潮，不重要，只是个干扰项，或者从长远来看，这可能成为一个有影响力的问题。"
+    },
+    {
+      "timestamp": "16:31",
+      "speaker": "Unknown",
+      "en": "And they kind of realize that they're not going to sell an API and make direct business from the model.",
+      "zh": "它们意识到自己不会靠卖 API、直接靠模型赚钱。"
+    },
+    {
+      "timestamp": "16:36",
+      "speaker": "Unknown",
+      "en": "So they're like, might as well release it, which is almost like the likes of Meta or even Microsoft.",
+      "zh": "所以它们就想，那不如直接开源，这几乎就像 Meta，甚至微软那样。"
+    },
+    {
+      "timestamp": "17:14",
+      "speaker": "Unknown",
+      "en": "Of course, they are not at the frontier, but if you are able to save a lot of money doing exactly this, I can see the reason to develop models in-house versus using whatever frontier model is available.",
+      "zh": "当然，它们不在前沿水平，但如果你能通过这样做省下很多钱，我就能理解为什么自研模型，而不是用任何可用的前沿模型。"
+    },
+    {
+      "timestamp": "21:20",
+      "speaker": "Unknown",
+      "en": "And when a company like DeepSeek meets a very high level party member, that helps because the lower level governments see that as a signal of like, if you help them, you're getting closer to the power structures.",
+      "zh": "而当像 DeepSeek 这样的公司见到非常高级别的党内官员时，这是有帮助的，因为下级政府把这视为一个信号：如果你帮它们，你就更接近权力结构。"
+    },
+    {
+      "timestamp": "21:37",
+      "speaker": "Unknown",
+      "en": "The top level of the government dictating how models should behave or anything like this.",
+      "zh": "政府最高层规定模型应该如何行事之类的事情。"
+    },
+    {
+      "timestamp": "23:47",
+      "speaker": "Unknown",
+      "en": "Think it's general that they don't seem to care as much as US people about politics, about implications of their work, about things like the labor market and so on.",
+      "zh": "认为普遍来说，他们似乎不像美国人那么关心政治，不关心他们工作的影响，不关心劳动力市场之类的事情。"
+    },
+    {
+      "timestamp": "24:12",
+      "speaker": "Unknown",
+      "en": "They don't think about things like the permanent underclass but only how to scale even bigger models and they are driven by engineering and not by politics or status or whatever.",
+      "zh": "他们不会去想什么永久底层阶级之类的事情，只想着如何把模型扩展得更大，他们的驱动力是工程，而不是政治、地位或别的什么。"
+    },
+    {
+      "timestamp": "24:47",
+      "speaker": "Unknown",
+      "en": "And every time the response was genuine that they don't care about these things and they just want to train good models.",
+      "zh": "每一次他们的回应都是真诚的：他们不在乎这些东西，他们只是想训练出好的模型。"
+    },
+    {
+      "timestamp": "27:04",
+      "speaker": "Unknown",
+      "en": "I think the company that surprised me the most in terms of vibes, but mostly by the researchers, was Xiaomi.",
+      "zh": "就 Vibes 而言，最让我惊讶的公司，主要是就研究人员而言，是小米。"
+    },
+    {
+      "timestamp": "30:23",
+      "speaker": "Unknown",
+      "en": "They want to go to the center of gravity that is in the U.S., but they have a hard time actually visiting, which I think is kind of an unnecessary own goal in the U.S.'s part to keep the cultural center within San Francisco.",
+      "zh": "他们想去那个位于美国的重心，但他们实际上很难成行，我认为就美国为了让文化中心留在旧金山这一点而言，这算是一种不必要的自摆乌龙。"
+    }
+  ],
+  "voice_script": "今天想带你听点不一样的。两位美国 AI 领域的写作者——一个是 Interconnects 的作者，一个是 SAIL Media 的 Florian——刚结束一趟中国之行，几乎走访了中国的各大 AI 实验室。这期内容，就是他们回来之后聊的见闻。为什么要聊这个？因为中美两边的 AI 竞争，大家听到的多是报道和想象，而这次是一线观察：芯片受限到底影响多大，中国的需求到底有多真实，那些研究者每天到底在想什么。\n\n先说他们最直观的感受，说出来可能有点反直觉：这些中国研究员，跟硅谷的研究员太像了。在北京拜访各家公司时，最大的感受是熟悉感。实验室之间步行可达，研究者换工作跟硅谷一样方便，有人的说法很直白：我面试了所有公司，选这家是因为氛围最好。清华就处在这个圈子的中心，地位相当于斯坦福或者伯克利。而且各家的研究风格也跟湾区如出一辙——有的公司自下而上，研究员自由探索、逐级上报；有的自上而下，领导定方向再传达下去。\n\n那这些实验室之间，竞争格局是什么样的？这里有个挺有意思的区分。所有人都在谈 Dubal，也就是字节跳动的聊天机器人应用，各家公司都担心跟它竞争。但 DeepSeek 的角色完全不同——它是大家仰望的文化和科学标杆，而字节跳动才是令人畏惧的经济对手。一个是精神图腾，一个是真实威胁，这两者的分量是不一样的。\n\n好，那需求端呢？两位写作者发现，国内的需求是真真实实存在的。ZAI 的展示厅里挂着一块实时业务看板：每天提供 5.5 万亿个 token，服务全球企业，中国用户数是第二名——也就是美国——的三四倍。需求大到什么程度？有公司最近已经涨价多次，从 12 月的初始价格到现在，价格涨了三倍多甚至五倍，还降低了速率限制，原因很简单：跟不上需求。\n\n再看芯片这一头，情况就完全相反了。芯片限制是实实在在的痛点。研究者们痴迷于 NVIDIA 的芯片，训练周期被拉得很长，设计和迭代都受算力约束。所以出口管制确实在起作用——这不是抽象话题，是研究者的日常焦虑。不过有意思的是，ZAI 被列入美国实体清单之后，公司内部既困惑又有点自豪。困惑是因为不知道为什么，自豪是因为：一家小型创业公司，被美国政府认定为值得认真对待的对手，声誉反而大幅提升。\n\n那他们平时用什么工具干活呢？答案会让你意外。问了一圈，几乎所有实验室的人都在用 Claude Code，公认它是最好的命令行工具。有人嘴上说主要用自己的模型，但难的任务还是会切回 Claude。Hugging Face 名义上被禁，但大家都在用，用不了才换成国内克隆版 ModelScope——不过这两个版本的数据和数据中心是完全隔离的。\n\n顺着这个思路再看一个现象：买数据这件事，在中国似乎没那么火。硅谷盛传数据和环境产业动辄数十亿美元，但中国实验室的回应大多冷淡。有人说在关注国际数据商，有人说国内这个小产业刚起步，还有一批人干脆完全自建——自己雇数据标注员、律师、财务人员，在内部生产数据来保证质量。这到底是关键布局还是一阵风，两位也没下结论。\n\n还有一个问题值得交代：为什么美团、蚂蚁集团这类公司要自己造模型？不是为了卖 API 赚钱——他们知道卖不动。逻辑是这样的：与其每年花几千万美元买别人的 token，不如自建模型，用起来便宜得多。就算到不了前沿水平，能省下大笔钱，这笔账就算得过来。这其实和 Meta、微软开放模型的思路类似，就是经济学里说的：把互补品商品化。\n\n那政府在这中间扮演什么角色？答案也不是大家想象的那种。美国政府的影响是真实的，但中国政府这边，更多是地方政府的行为：北京有一个区出资成立了智源研究院，每年投入数千万美元级别的研究经费；各地政府互相竞争，希望重要科技公司落户本地，帮忙开办公室、补贴人才。但没有人规定模型该怎么训练。至于那些 DeepSeek 崩了、人才流失的报道，更像是正常的人员流动，跟硅谷一样。\n\n那这些研究者到底关心什么？跟湾区最大的差异在这儿：他们几乎不谈政治影响、不谈劳动力市场这些话题。多次被问到经济冲击，他们的回应都很真诚——不在乎，只想训练好模型，早上醒来就兴奋地想做下一个版本。最让人意外的公司是小米：模型团队几百人，平均年龄 25 岁，从早期的 7B 模型做到现在的万亿参数，这是认真的投入，不是副业。发布前一晚，主要负责人凌晨两点发消息说模型上线了——为了赶上美国的黄金时段——几个小时后照样出现在办公室。\n\n所以这趟走访下来，两位写作者的结论其实很朴素：中国的 AI 研究文化跟硅谷高度相似，人才流动、看氛围选公司、管理风格都像；芯片管制确实有效，需求确实爆炸，工具确实趋同。这些人比你想的更普通，也更专注——他们不谈宏大叙事，只想把手里的模型做好，这大概就是这一集最值得带走的一句话。"
+}

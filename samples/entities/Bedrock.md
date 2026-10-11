@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Amazon]] · [[Kiro]] · [[AWS]] · [[Anthropic]] · [[OpenAI]] · [[Michael Giannangelli]] · [[Clare Liguori]] · [[Raguraguram]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"评估":1,"Amazon":32,"Kiro":4,"AWS":22,"Anthropic":194,"OpenAI":189,"Michael Giannangelli":1,"Clare Liguori":1,"Raguraguram":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"评估":1,"Amazon":32,"Kiro":4,"AWS":22,"Anthropic":196,"OpenAI":191,"Michael Giannangelli":1,"Clare Liguori":1,"Raguraguram":1}</script>
 
 <script>
 (function(){

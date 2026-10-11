@@ -139,8 +139,8 @@ Farley 以直言著称,他说过「不要再有无聊的产品」。他的解释
 **顺着「创业与行业」挖下去**
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]]<span class="pd-rz">同公司:Tesla</span>
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|走进中国 AI 实验室：他们比你想的更普通，也更专注]]<span class="pd-rz">同公司:Xiaomi</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Tesla</span>
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]]<span class="pd-rz">同公司:Tesla</span>
 
 </div>
 <div class="pd-ex">

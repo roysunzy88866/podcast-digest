@@ -1,0 +1,907 @@
+{
+  "episode_id": "2026-09-28-founders-435-mark-zuckerberg-s-empire",
+  "podcast": "Founders",
+  "date": "2026-09-28",
+  "tags": [
+    "创始人",
+    "公司故事",
+    "AI 竞争",
+    "帝国与权力",
+    "广告业务"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 是扎克伯格掌管的公司，拥有 36 亿用户、1.6 万亿美元市值，今年的资本开支将超过除美中俄外所有国家的军费；其多年被唱衰却一次次翻身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            412.969,
+            423.913
+          ],
+          "quote": "It's been true, not just at Meta, but in his congressional testimonies and court proceedings, at Taylor Swift concerts and the Prada runway show at the Milan Fashion Week, at dinners with friends and birthday parties of his daughter's friends.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            439.657,
+            452.885
+          ],
+          "quote": "that one day they will be out of office, and eventually dead, while Zuckerberg, whose majority control of Meta's voting power makes his removal effectively impossible, could in 50 years still be ruler of his empire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            664.783,
+            671.766
+          ],
+          "quote": "He often accepts personal blame in public for the mistakes of others, perhaps in part because he accepts the reality of Meta, which they accept too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1072.706,
+            1089.188
+          ],
+          "quote": "More than the total number of humans that existed in 1965, annual revenue runs well above $200 billion, and Meta's capital expenditure this year will exceed the military budget of every country on Earth except the United States, China, and Russia.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1149.882,
+            1154.445
+          ],
+          "quote": "And so then Jeremy at this point is at an event for Meta's",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1162.752,
+            1180.367
+          ],
+          "quote": "He believes they are the vindication of his bet dating back to 2014 when he acquired Oculus for $2 billion and began working in virtual and augmented reality, a division of the company that convinced him to rename the whole thing from Facebook to Meta by 2021 and which to date has burned through approximately $90 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1459.224,
+            1463.047
+          ],
+          "quote": "Apple's ATT threatened to obliterate Meta's mobile ad business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1532.536,
+            1542.641
+          ],
+          "quote": "When Meta hit a record market cap of nearly $2 trillion, he'd done it while refusing investor demands to cut spending on his Reality Labs division where the Metaverse lived.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1597.845,
+            1605.748
+          ],
+          "quote": "One is unusual as Meta, the fact that he started, that Zuck started this when he was 19, that he's got 20 years of accumulated experience and he's just getting started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1636.912,
+            1645.597
+          ],
+          "quote": "Then it talks about when Meta released Llama 3.1, it was near the frontier, but by the time they released Llama 4 in April 2025, they were far behind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1664.849,
+            1676.355
+          ],
+          "quote": "He subsumed FAIR into a new organization, MSL, Meta Superintelligence Labs, and reset the market on compensation for top AI recruits to hundreds of millions or billions of dollars per head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1676.875,
+            1683.722
+          ],
+          "quote": "He paid $14.3 billion for a stake in scale AI and installed its founder, Alexander Wang, as Meta's head of AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1817.873,
+            1824.516
+          ],
+          "quote": "Instead, at the complements Meta already dominates, like distribution, attention, personalization, and commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1862.646,
+            1864.286
+          ],
+          "quote": "I'll be honest, I used to work at Meta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2196.952,
+            2204.594
+          ],
+          "quote": "And I think the result of what we see with Meta today is just like, he started building this when he was in Harvard at 18 or 19 years old and he just never stopped for over two decades.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2398.907,
+            2401.751
+          ],
+          "quote": "I love being at Meta because I still get to create things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集说 Facebook 是扎克伯格 19 岁创办的社交网络，2012 年 IPO 后经历移动危机，月活用户超过基督教在世信徒总数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            167.363,
+            175.805
+          ],
+          "quote": "At early crisis Facebook meetings to fend off threats from Google, Mark would end his speeches by declaring, Carthage must be destroyed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            180.45,
+            192.184
+          ],
+          "quote": "Sean Parker, Facebook's early president, warned Mark that shouting domination could one day be cited in an antitrust suit, and Sean Parker later observed that Zuck had this kind of imperial tendency in him.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            743.447,
+            749.968
+          ],
+          "quote": "Much of Zuckerberg's inner circle consists of people who have been with him for over 15 years, since before Facebook's IPO in 2012.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            750.488,
+            765.171
+          ],
+          "quote": "Some were even around in 2006, when nearly all of Facebook's management team quit after Zuckerberg, who was only 22, rejected their pleas to take an offer from Yahoo to buy the company for a billion dollars, forever establishing a central tenet of the company's culture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            898.613,
+            902.798
+          ],
+          "quote": "He did only once, back when Facebook was a desktop site on the open web.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            911.668,
+            920.152
+          ],
+          "quote": "Scrambling during the 2012 IPO to rebuild Facebook and its advertising business around a platform shift that he didn't see coming or initially understand has never left him.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            920.852,
+            928.355
+          ],
+          "quote": "Although the Facebook app's eventual conquest of mobile more or less made Apple's App Store, the App Store in turn made Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            949.512,
+            951.293
+          ],
+          "quote": "Zuckerberg explored building a Facebook phone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            951.573,
+            954.355
+          ],
+          "quote": "He tried to replace the Android home screen with Facebook Home.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            954.755,
+            961.898
+          ],
+          "quote": "He launched the Internet.org and its free basic service to deliver Facebook through carrier deals in India and other markets where Apple barely existed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1024.12,
+            1026.603
+          ],
+          "quote": "I've read every single book on the history of Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1090.01,
+            1098.075
+          ],
+          "quote": "Facebook, Instagram, and WhatsApp each have more monthly active users than the number of living adherents to Christianity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1162.752,
+            1180.367
+          ],
+          "quote": "He believes they are the vindication of his bet dating back to 2014 when he acquired Oculus for $2 billion and began working in virtual and augmented reality, a division of the company that convinced him to rename the whole thing from Facebook to Meta by 2021 and which to date has burned through approximately $90 billion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1400.429,
+            1411.511
+          ],
+          "quote": "There was the mobile crisis following the IPO in 2012 when Facebook was declared an overvalued website whose audience had moved to a platform it couldn't monetize, and Zuckerberg was considered in over his hoodie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1414.852,
+            1426.134
+          ],
+          "quote": "Then there was the mass exodus of teens to Tumblr and then Snapchat between 2013 and 2017, leaving Facebook to die as the next MySpace after Snapchat rejected a $3 billion acquisition offer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1434.98,
+            1439.865
+          ],
+          "quote": "Then there was a political crisis of 2017 to 2020 when Facebook broke democracy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1497.519,
+            1508.013
+          ],
+          "quote": "By the end of 2020, the widely predicted death of Facebook was revealed as a fantasy as the number of daily active users had grown during each quarter of political scandal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1508.674,
+            1514.862
+          ],
+          "quote": "Advertisers never left and Facebook paid the FTC a $5 billion privacy settlement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1577.018,
+            1589.702
+          ],
+          "quote": "And over the next few pages, this is a great description because if you think about all the tech companies that were founded either at the same time of Facebook or slightly before, I don't think any of them, say for one or two, are founder-led anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1614.384,
+            1621.727
+          ],
+          "quote": "Dating back to 2006, Facebook had been a leader in machine learning, which it used to power its newsfeed, targeted ads, and face recognition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1622.247,
+            1636.432
+          ],
+          "quote": "By 2013, after trying and failing to acquire DeepMind, Zuckerberg recruited legendary AI researcher Jan LeCun to start Facebook AI research, called FAIR, which over the next 11 years became one of the top corporate research labs in the world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "本集说 Instagram 被 Meta 收购时被嘲笑买贵了，后来扎克伯格用 Instagram Stories 击败了 Snapchat。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1090.01,
+            1098.075
+          ],
+          "quote": "Facebook, Instagram, and WhatsApp each have more monthly active users than the number of living adherents to Christianity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1430.155,
+            1434.46
+          ],
+          "quote": "And after Zuckerberg was mocked as overpaying in a panic for Instagram and WhatsApp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1491.953,
+            1497.059
+          ],
+          "quote": "By the end of 2017, he crushed Snapchat by copying its killer innovation with Instagram stories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "type": "company",
+      "role": "company",
+      "name": "WhatsApp",
+      "file": "WhatsApp",
+      "primary": true,
+      "how_described": "本集提到 WhatsApp 被扎克伯格在恐慌中收购、当时被嘲笑出价过高，如今月活用户数超过基督教在世信徒总数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1090.01,
+            1098.075
+          ],
+          "quote": "Facebook, Instagram, and WhatsApp each have more monthly active users than the number of living adherents to Christianity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1430.155,
+            1434.46
+          ],
+          "quote": "And after Zuckerberg was mocked as overpaying in a panic for Instagram and WhatsApp.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oculus",
+      "type": "company",
+      "role": "company",
+      "name": "Oculus",
+      "file": "Oculus",
+      "primary": true,
+      "how_described": "本集说扎克伯格 2014 年以 20 亿美元收购 Oculus VR，押注虚拟现实头显取代智能手机，是他逃离 Apple 平台的越狱隧道之一，元宇宙至今烧掉约 900 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            965.86,
+            972.204
+          ],
+          "quote": "He bought Oculus VR in the hopes that virtual reality headsets would replace the smartphone the way smartphones replace personal computers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1162.752,
+            1180.367
+          ],
+          "quote": "He believes they are the vindication of his bet dating back to 2014 when he acquired Oculus for $2 billion and began working in virtual and augmented reality, a division of the company that convinced him to rename the whole thing from Facebook to Meta by 2021 and which to date has burned through approximately $90 billion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scale-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Scale AI",
+      "file": "Scale AI",
+      "primary": true,
+      "how_described": "本集说扎克伯格斥资 143 亿美元收购 Scale AI 股份，并任命其创始人 Alexander Wang 为 Meta 的 AI 负责人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            1676.875,
+            1683.722
+          ],
+          "quote": "He paid $14.3 billion for a stake in scale AI and installed its founder, Alexander Wang, as Meta's head of AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta-superintelligence-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Meta Superintelligence Labs",
+      "file": "Meta Superintelligence Labs",
+      "primary": true,
+      "how_described": "本集说扎克伯格把 FAIR 并入新组织 MSL（Meta Superintelligence Labs），作为 Llama 4 落后后 11 周推翻重来的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1664.849,
+            1676.355
+          ],
+          "quote": "He subsumed FAIR into a new organization, MSL, Meta Superintelligence Labs, and reset the market on compensation for top AI recruits to hundreds of millions or billions of dollars per head.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llama",
+      "type": "concept",
+      "role": "concept",
+      "name": "Llama",
+      "file": "Llama",
+      "primary": true,
+      "how_described": "本集说 Meta 的 Llama 3.1 发布时还接近前沿，但 2025 年 4 月发布的 Llama 4 已明显落后，直接触发了扎克伯格的 AI 战略大改组。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1636.912,
+            1645.597
+          ],
+          "quote": "Then it talks about when Meta released Llama 3.1, it was near the frontier, but by the time they released Llama 4 in April 2025, they were far behind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1652.462,
+            1656.264
+          ],
+          "quote": "Thus, in his first board meeting after the release of Llama 4, he announced a plan of regime change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1694.654,
+            1711.236
+          ],
+          "quote": "Less than three months after the release of Llama 4, in other words, Zuckerberg had dumped the previous decade-plus of his AI people and strategy, recruited new leadership, new chief scientists, new core researchers, and announced a new capital expenditure of hundreds of billions of dollars.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 一直难以接受「AI 只是有用且酷的工具」这个事实，扎克伯格从中挖走数十人；若 AI 商品化，OpenAI 将归零、价值流向 Meta。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1606.108,
+            1613.531
+          ],
+          "quote": "Now that he's behind Anthropic and OpenAI, it's easy to forget that prior to 2024, Zuckerberg had been hovering around the frontier of AI for over a decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1684.043,
+            1694.053
+          ],
+          "quote": "He recruited ChatGPT co-creator, former GitHub chief, super intelligence co-founder, and picked off dozens of other defectors from OpenAI, Anthropic, and Google DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1767.992,
+            1772.255
+          ],
+          "quote": "Anthropic and, to a lesser extent, OpenAI have trouble ever accepting this fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1792.706,
+            1803.709
+          ],
+          "quote": "He will use cash from the ad business and his ownership of data centers, chips, and other infrastructure that Anthropic and OpenAI have to pay to rent to undercut them on price.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1813.732,
+            1817.793
+          ],
+          "quote": "If AI commoditizes, then Anthropic and OpenAI go to zero and value accrues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说扎克伯格落后于 Anthropic 和 OpenAI，但 Anthropic 必须付费租用数据中心和芯片，而 Meta 拥有自有基础设施，可以在价格上击垮它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1606.108,
+            1613.531
+          ],
+          "quote": "Now that he's behind Anthropic and OpenAI, it's easy to forget that prior to 2024, Zuckerberg had been hovering around the frontier of AI for over a decade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1684.043,
+            1694.053
+          ],
+          "quote": "He recruited ChatGPT co-creator, former GitHub chief, super intelligence co-founder, and picked off dozens of other defectors from OpenAI, Anthropic, and Google DeepMind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1767.992,
+            1772.255
+          ],
+          "quote": "Anthropic and, to a lesser extent, OpenAI have trouble ever accepting this fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1792.706,
+            1803.709
+          ],
+          "quote": "He will use cash from the ad business and his ownership of data centers, chips, and other infrastructure that Anthropic and OpenAI have to pay to rent to undercut them on price.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1813.732,
+            1817.793
+          ],
+          "quote": "If AI commoditizes, then Anthropic and OpenAI go to zero and value accrues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snapchat",
+      "type": "company",
+      "role": "company",
+      "name": "Snapchat",
+      "file": "Snapchat",
+      "primary": false,
+      "how_described": "本集提到 2013-2017 年青少年涌向 Snapchat、其拒绝 30 亿美元收购要约，后被扎克伯格用 Instagram Stories 击败。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1414.852,
+            1426.134
+          ],
+          "quote": "Then there was the mass exodus of teens to Tumblr and then Snapchat between 2013 and 2017, leaving Facebook to die as the next MySpace after Snapchat rejected a $3 billion acquisition offer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1491.953,
+            1497.059
+          ],
+          "quote": "By the end of 2017, he crushed Snapchat by copying its killer innovation with Instagram stories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集说 App Store 成就了 Facebook，而扎克伯格不喜欢「被成就」；Apple 的 ATT 隐私政策一度威胁 Meta 的移动广告业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            920.852,
+            928.355
+          ],
+          "quote": "Although the Facebook app's eventual conquest of mobile more or less made Apple's App Store, the App Store in turn made Facebook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            936.861,
+            946.469
+          ],
+          "quote": "These ventures can also be understood as attempted jailbreaks from Apple and other competitors, a determination to regain and hold his territory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            954.755,
+            961.898
+          ],
+          "quote": "He launched the Internet.org and its free basic service to deliver Facebook through carrier deals in India and other markets where Apple barely existed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1459.224,
+            1463.047
+          ],
+          "quote": "Apple's ATT threatened to obliterate Meta's mobile ad business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1515.543,
+            1531.776
+          ],
+          "quote": "By the end of 2025, he survived the TikTok threat by cloning it with reels, circumvented Apple's ATT by rebuilding ad targeting with large AI models, beat the FTC's attempt to break up the company, and saved cash by weathering mass layoffs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1824.896,
+            1834.779
+          ],
+          "quote": "If it doesn't commoditize, then at least he is not his competitor's prisoner the way he's been with Apple, and all he has to do is remain within six months of the frontier, which he's already close to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dictator-s-dilemma",
+      "type": "concept",
+      "role": "concept",
+      "name": "独裁者的困境 (dictator's dilemma)",
+      "file": "独裁者的困境",
+      "primary": true,
+      "how_described": "本集说独裁者的困境是：权力越大、帝国越大，越依赖别人提供信息，而这些人对恐惧或自保越不敢说你不想听的话，使你越来越脱离现实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            480.894,
+            483.695
+          ],
+          "quote": "And the conundrum they're referring to is the dictator's dilemma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            513.297,
+            516.718
+          ],
+          "quote": "And then there's some great historical examples of this dictator's dilemma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            561.346,
+            566.949
+          ],
+          "quote": "The list of great statesmen in many ways is a list of figures obsessed by the dictator's dilemma.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "founder-led",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人领导的公司 (founder-led)",
+      "file": "创始人领导的公司",
+      "primary": true,
+      "how_described": "本集说扎克伯格因多数投票权不可能被罢免，Llama 4 落后后 11 周内推翻十年 AI 战略，展示了创始人领导的公司的恐怖执行力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 304,
+          "t": [
+            1577.018,
+            1589.702
+          ],
+          "quote": "And over the next few pages, this is a great description because if you think about all the tech companies that were founded either at the same time of Facebook or slightly before, I don't think any of them, say for one or two, are founder-led anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1590.062,
+            1597.425
+          ],
+          "quote": "And I hope you read this entire profile because I think it does a great job of illustrating how powerful a founder-led company can be, especially",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1646.018,
+            1651.921
+          ],
+          "quote": "I'm skipping over that part to get into his reaction to this, which is again, the power of a founder-led company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "micromanager",
+      "type": "concept",
+      "role": "concept",
+      "name": "微管理 (micromanager)",
+      "file": "微管理",
+      "primary": true,
+      "how_described": "本集据近三十位受访者说扎克伯格对独裁者困境高度警觉，是一个 micromanager 和如饥似渴的数据消费者，经常越过直属下级直接找下级的下级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            644.756,
+            647.817
+          ],
+          "quote": "He is a micromanager and a voracious consumer of data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "platform-shift",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台转型 (platform shift)",
+      "file": "平台转型",
+      "primary": true,
+      "how_described": "本集说扎克伯格差点错过向移动应用的平台转型，这段 2012 年 IPO 前后的早期创伤从未离开他，此后 15 年的种种尝试都是夺回领土的越狱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            911.668,
+            920.152
+          ],
+          "quote": "Scrambling during the 2012 IPO to rebuild Facebook and its advertising business around a platform shift that he didn't see coming or initially understand has never left him.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习 (machine learning)",
+      "file": "机器学习",
+      "primary": false,
+      "how_described": "本集提到早在 2006 年 Facebook 就已是机器学习领域的领导者，用它驱动信息流、定向广告和人脸识别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1614.384,
+            1621.727
+          ],
+          "quote": "Dating back to 2006, Facebook had been a leader in machine learning, which it used to power its newsfeed, targeted ads, and face recognition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

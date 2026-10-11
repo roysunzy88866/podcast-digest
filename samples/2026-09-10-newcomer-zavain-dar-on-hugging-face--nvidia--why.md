@@ -10,7 +10,7 @@ image: "/covers/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why.jpg"
 description: 风险投资机构 Dimension 的 Zavandar 解读 NVIDIA 收购 Hugging Face 的战略意图、中美 AI 开源缠斗，以及 AI 制药能否兑现治愈疾病的承诺。
 host: "[[Zavain Dar]]"
 cohosts: ["[[Eric Newcomer]]"]
-companies: ["[[NVIDIA]]", "[[Hugging Face]]", "[[Anthropic]]", "[[OpenAI]]", "[[DeepMind]]", "[[登月项目]]", "[[Helixon]]", "[[Coefficient]]", "[[Chai]]", "[[NewLimit]]"]
+companies: ["[[NVIDIA]]", "[[Hugging Face]]", "[[Anthropic]]", "[[OpenAI]]", "[[DeepMind]]", "[[Moonshot]]", "[[Helixon]]", "[[Coefficient]]", "[[Chai]]", "[[NewLimit]]"]
 concepts: ["[[开源]]", "[[蒸馏]]", "[[推理]]", "[[新云]]", "[[前沿模型]]", "[[垂直 AI]]", "[[智能体]]", "[[生物标志物]]"]
 category: 创业与行业
 tags:
@@ -18,7 +18,7 @@ tags:
   - 智能体
 socialImage: "https://talk.solomind.cc/covers/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#post","headline":"从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why","description":"风险投资机构 Dimension 的 Zavandar 解读 NVIDIA 收购 Hugging Face 的战略意图、中美 AI 开源缠斗，以及 AI 制药能否兑现治愈疾病的承诺。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why.jpg","about":[{"@type":"Person","name":"Zavain Dar"},{"@type":"Person","name":"Eric Newcomer"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Hugging Face"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"DeepMind"},{"@type":"Organization","name":"登月项目 (moonshot)"},{"@type":"Organization","name":"Helixon"},{"@type":"Organization","name":"Coefficient"},{"@type":"Organization","name":"Chai"},{"@type":"Organization","name":"NewLimit"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"新云 (neocloud)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"垂直 AI (vertical AI)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"生物标志物 (biomarkers)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来","item":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#post","headline":"从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why","mainEntityOfPage":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why","description":"风险投资机构 Dimension 的 Zavandar 解读 NVIDIA 收购 Hugging Face 的战略意图、中美 AI 开源缠斗，以及 AI 制药能否兑现治愈疾病的承诺。","datePublished":"2026-09-11","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why.jpg","about":[{"@type":"Person","name":"Zavain Dar"},{"@type":"Person","name":"Eric Newcomer"},{"@type":"Organization","name":"NVIDIA"},{"@type":"Organization","name":"Hugging Face"},{"@type":"Organization","name":"Anthropic"},{"@type":"Organization","name":"OpenAI"},{"@type":"Organization","name":"DeepMind"},{"@type":"Organization","name":"Moonshot"},{"@type":"Organization","name":"Helixon"},{"@type":"Organization","name":"Coefficient"},{"@type":"Organization","name":"Chai"},{"@type":"Organization","name":"NewLimit"},{"@type":"Thing","name":"开源 (open source)"},{"@type":"Thing","name":"蒸馏 (distillation)"},{"@type":"Thing","name":"推理 (inference)"},{"@type":"Thing","name":"新云 (neocloud)"},{"@type":"Thing","name":"前沿模型 (frontier model)"},{"@type":"Thing","name":"垂直 AI (vertical AI)"},{"@type":"Thing","name":"智能体 (agent)"},{"@type":"Thing","name":"生物标志物 (biomarkers)"}],"articleSection":"创业与行业"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"创业与行业","item":"https://talk.solomind.cc/tags/创业与行业"},{"@type":"ListItem","position":3,"name":"从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来","item":"https://talk.solomind.cc/2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 > [!info] 关联
 > **人物** [[Zavain Dar]] · [[Eric Newcomer]]
 >
-> **公司** [[NVIDIA]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]] · [[DeepMind]] · [[登月项目]] · [[Helixon]] · [[Coefficient]] · [[Chai]] · [[NewLimit]]
+> **公司** [[NVIDIA]] · [[Hugging Face]] · [[Anthropic]] · [[OpenAI]] · [[DeepMind]] · [[Moonshot]] · [[Helixon]] · [[Coefficient]] · [[Chai]] · [[NewLimit]]
 >
 > **概念** [[开源]] · [[蒸馏]] · [[推理]] · [[新云]] · [[前沿模型]] · [[垂直 AI]] · [[智能体]] · [[生物标志物]]
 
@@ -58,7 +58,7 @@ jsonLd: |
 
 但他认为「开源来源的主权」这个问题被过度聚焦了。一个模型如果按定义是开放的（许可证不绑定国家偏好），它来自哪个国家重要吗？当然要警惕模型里可能内嵌的后门或准宣传性质的潜在表征，但这里面存在「虚假的精确性」。
 
-他给了一幅今天技术流动的完整图景：Anthropic 或 OpenAI 用美国芯片、大体上用美国数据训练前沿模型 → 中国实验室（比如做 Kimi 的 [[登月项目|Moonshot]]）对它做蒸馏——快速连续地问模型一堆问题，构建出模型的一个表征——然后把这个表征开源 → 硅谷的[[垂直 AI|垂直 AI]] 公司（Harvey、Cursor、Cognition）再在这些中国模型上做微调或后训练。结果就是：**一项技术在到达终端消费者之前，跨越太平洋两次**。
+他给了一幅今天技术流动的完整图景：Anthropic 或 OpenAI 用美国芯片、大体上用美国数据训练前沿模型 → 中国实验室（比如做 Kimi 的 [[Moonshot|Moonshot]]）对它做蒸馏——快速连续地问模型一堆问题，构建出模型的一个表征——然后把这个表征开源 → 硅谷的[[垂直 AI|垂直 AI]] 公司（Harvey、Cursor、Cognition）再在这些中国模型上做微调或后训练。结果就是：**一项技术在到达终端消费者之前，跨越太平洋两次**。
 
 一个美国律师用 Harvey，背后已经接触过亚洲和美国的技术、芯片、数据和人才。Zavandar 认为，现在切断这条跨太平洋纽带，等于砍掉美国垂直 AI 创新能力的大腿——除非真正的美国开源先赶上。
 
@@ -179,7 +179,7 @@ AI 制药公司在做什么？他举了两类：
 
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈]]<span class="pd-rz">同公司:Anthropic、NVIDIA、OpenAI、Hugging Face · 同概念:前沿模型 (frontier model)、开源 (open source)、推理 (inference)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI、Cognition、Cursor · 同概念:开源 (open source)、智能体 (agent)</span>
-- [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Anthropic、DeepMind、NVIDIA、OpenAI · 同概念:NeoCloud、推理 (inference)</span>
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、Hugging Face、NVIDIA、OpenAI · 同概念:推理 (inference)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

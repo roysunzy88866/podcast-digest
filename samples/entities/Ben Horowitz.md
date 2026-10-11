@@ -113,7 +113,7 @@ unlisted: true
 
 [[a16z]] · [[OpenAI]] · [[NVIDIA]] · [[ChatGPT]] · [[Claude Code]] · [[Codex]] · [[air bed and breakfast]] · [[Travis Kalanick]] · [[Theo Jaffe]] · [[Greg Brockman]]
 
-<script type="application/json" class="pd-epn">{"a16z":19,"OpenAI":189,"NVIDIA":65,"ChatGPT":105,"Claude Code":100,"Codex":83,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1}</script>
+<script type="application/json" class="pd-epn">{"a16z":19,"OpenAI":191,"NVIDIA":67,"ChatGPT":105,"Claude Code":101,"Codex":83,"air bed and breakfast":1,"Travis Kalanick":2,"Theo Jaffe":7,"Greg Brockman":1}</script>
 
 <script>
 (function(){

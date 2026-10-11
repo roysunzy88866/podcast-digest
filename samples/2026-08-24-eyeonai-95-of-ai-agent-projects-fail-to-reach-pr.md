@@ -208,7 +208,7 @@ Genesis 智能体就是那台看 95 步深的机器，一台“假设生成机�
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Claude · 同概念:token、智能体 (agent)</span>
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:Anthropic、NVIDIA · 同概念:token、智能体 (agent)</span>
-- [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|Reid Hoffman：聪明的加速主义——继续开发、放慢部署]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:对齐 (alignment)、智能体 (agent)</span>
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、NVIDIA · 同概念:对齐 (alignment)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

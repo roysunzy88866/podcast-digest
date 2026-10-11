@@ -181,8 +181,8 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-05-yc-paul-graham-on-startups--ambition--and-g|PG 炉边谈话：创业的核心从来没变过]]<span class="pd-rz">同公司:OpenAI、YC · 同概念:AGI、推理 (inference)、ChatGPT</span>
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
-- [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

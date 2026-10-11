@@ -226,9 +226,9 @@ AI 的影响还主要在数字世界，但在机器人登场之前，你眼镜�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
 - [[2026-09-26-yc-robot-use-agents-why-general-purpose-mod|编码智能体开始接管机器人：LLM 控制物理世界的前沿]]<span class="pd-rz">同概念:Harness（模型外围脚手架） (harness)、上下文内学习 (in-context learning)</span>
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|Reid Hoffman：聪明的加速主义——继续开发、放慢部署]]<span class="pd-rz">同概念:对齐 (alignment)、递归自我改进 (recursive self-improvement)</span>
-- [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同嘉宾:Sam Charrington · 同概念:Harness（模型外围脚手架） (harness)</span>
 
 </div>
 <div class="pd-ex">

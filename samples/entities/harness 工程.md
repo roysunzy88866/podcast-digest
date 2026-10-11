@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[护栏]] · [[MCP]] · [[Guy Fajani]] · [[Mike Chambers]] · [[Andrew Orobator]] · [[Dru Knox]] · [[Ryan Lopopolo]] · [[Bedrock AgentCore]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"Codex":83,"护栏":88,"MCP":85,"Guy Fajani":3,"Mike Chambers":1,"Andrew Orobator":1,"Dru Knox":1,"Ryan Lopopolo":1,"Bedrock AgentCore":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"Codex":83,"护栏":88,"MCP":85,"Guy Fajani":3,"Mike Chambers":1,"Andrew Orobator":1,"Dru Knox":1,"Ryan Lopopolo":1,"Bedrock AgentCore":1}</script>
 
 <script>
 (function(){

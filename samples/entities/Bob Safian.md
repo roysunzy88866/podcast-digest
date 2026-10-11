@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Anthropic]] · [[Hayden Brown]] · [[Jim Farley]] · [[Jess Hertz]] · [[David Alleman]] · [[Jim VandeHei]] · [[Codie Sanchez]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"ChatGPT":105,"Claude":93,"Anthropic":194,"Hayden Brown":1,"Jim Farley":1,"Jess Hertz":1,"David Alleman":1,"Jim VandeHei":1,"Codie Sanchez":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"ChatGPT":105,"Claude":93,"Anthropic":196,"Hayden Brown":1,"Jim Farley":1,"Jess Hertz":1,"David Alleman":1,"Jim VandeHei":1,"Codie Sanchez":1}</script>
 
 <script>
 (function(){

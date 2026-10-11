@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>100</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>101</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：用于搭配 VS Code 调整前端细节的工具；能极快地编写代码并提交修复，甚至开始帮助用户产生想法、决定要构建什么功能。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(41:34起):本集把它说成:一款用于写代码的AI工具；在使用过程中，如果上下文窗口积累得越长，智能体就越难出色完成当前任务。
 - **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(31:44起):本集讨论的核心产品。稿中说明它是让大模型在终端里写代码的工具，具有 CLI、桌面版和移动版。团队以 Research Preview 形式高频迭代，曾发生源代码泄露，且随着模型变强，团队逐渐移除了早期为弥补模型不足而加上的待办事项列表等外壳。
+- **[[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]]**(00:30起):本集说中国几乎所有实验室的人都在用 Claude Code，公认它是现存最好的 CLI；有人对自家模型嘴硬，但难的任务还是切回 Claude。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(00:00起):Anthropic 推出的终端工具，Dan 一年前曾预测人们严重低估了它在非工程工作（如整理文件、修 bug）上的潜力；它让本地电脑上的智能体拥有了访问一切的超级权限。
 - **[[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]]**(04:32起):本集将其作为 harness 的具体例子，嘉宾说自己喜欢使用 Claude code，并用它处理了为 WAV 文件添加淡出效果的任务
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(08:38起):本集把软件开发者使用它的颠覆感比作 1970 年代会计师第一次看到电子表格，并说它的全部卖点就像给你 150 名专家工程师。
@@ -141,7 +142,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*100 集*
+*101 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -153,6 +154,7 @@ unlisted: true
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
@@ -250,7 +252,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[harness]] · [[Cursor]] · [[MCP]] · [[评估]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"Anthropic":194,"Codex":83,"沙箱":89,"OpenAI":189,"harness":63,"Cursor":84,"MCP":85,"评估":1,"Lenny":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"Anthropic":196,"Codex":83,"沙箱":90,"OpenAI":191,"harness":63,"Cursor":84,"MCP":85,"评估":1,"Lenny":68}</script>
 
 <script>
 (function(){

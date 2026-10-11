@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 工厂 (AI factory)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 工厂">AI</div><div class="pi"><h1 class="pt">AI 工厂 (AI factory)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 工厂">AI</div><div class="pi"><h1 class="pt">AI 工厂 (AI factory)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]]**(02:39起):本集说它替代了六十年来基于检索的数据中心：它是在生成，理解上下文、推理并生成答案需要大量计算；建一座一吉瓦 AI 工厂需 500 亿美元，每年可租出 400 到 500 亿美元。
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(02:29起):本集说它是新技术栈的集大成：每一层（电力、硬件、网络、SSD）都要重做，因为处理的是图片、视频、声音和自然语言且 GPU 要求极快访问；且不只属于大实验室，企业中期都需要
 - **[[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]]**(05:54起):与传统超大规模数据中心对比:GPU 与 GPU 之间持续通信、智能体调用其他服务器的工具,服务器间流量暴增且对延迟极敏感,需要平坦密集得多的网络;其中一半价值在互连技术。
 - **[[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]]**(20:02起):本集把 Crusoe 的业务说成建造 AI 工厂:从第一性原理设计、可互连成 1 吉瓦规模大集群、用水近零、给当地创造蓝领就业与税收。
@@ -23,8 +24,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]] — 作为概念
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为概念
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为概念
 - [[2026-10-03-twentyvc-20vc-the-future-of-datacentres-what-you|《卖数据中心、卖 GPU、再卖 token:Crusoe 的 AI 算力生意经》]] — 作为概念
@@ -33,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[智能体]] · [[ChatGPT]] · [[推理]] · [[GPU]] · [[数据中心]] · [[Renen Hallak]] · [[Herwig]] · [[Chase Lochmiller]] · [[Matt Turk]]
+[[NVIDIA]] · [[智能体]] · [[推理]] · [[ChatGPT]] · [[GPU]] · [[数据中心]] · [[Ezra Klein]] · [[Renen Hallak]] · [[Herwig]] · [[Chase Lochmiller]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":65,"智能体":459,"ChatGPT":105,"推理":89,"GPU":30,"数据中心":23,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1,"Matt Turk":5}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":67,"智能体":460,"推理":91,"ChatGPT":105,"GPU":30,"数据中心":23,"Ezra Klein":1,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1}</script>
 
 <script>
 (function(){

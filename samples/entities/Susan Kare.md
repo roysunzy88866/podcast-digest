@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Apple":23,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":30,"Facebook":16,"General Magic":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":24,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":30,"Facebook":17,"General Magic":2}</script>
 
 <script>
 (function(){

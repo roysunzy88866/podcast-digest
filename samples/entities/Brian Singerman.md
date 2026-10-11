@@ -39,7 +39,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Founders Fund]] · [[GPX]] · [[Anduril]] · [[SpaceX]] · [[Palantir]] · [[Airbnb]] · [[OpenAI]] · [[Anthropic]] · [[Cognition]] · [[Ramp]]
+[[Founders Fund]] · [[GPX]] · [[Anduril]] · [[SpaceX]] · [[Palantir]] · [[Airbnb]] · [[Oculus]] · [[OpenAI]] · [[Anthropic]] · [[Cognition]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"OpenAI":189,"Anthropic":194,"Cognition":26,"Ramp":11}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"Oculus":2,"OpenAI":191,"Anthropic":196,"Cognition":26}</script>
 
 <script>
 (function(){

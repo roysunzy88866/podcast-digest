@@ -259,7 +259,7 @@ Nathan 的判断是：如果你以为 AI 只在可验证任务（比如数学、
 
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:Anthropic、NVIDIA、Positron · 同概念:上下文长度 (context length)、推理 (inference)、智能体 (agent)、缩放定律 (scaling laws)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Anthropic、NVIDIA · 同概念:推理 (inference)、智能体 (agent)、蒸馏 (distillation)</span>
-- [[2026-08-11-iltb-eric-vishria-a-decade-of-lessons-investi|沙堡时代：AI 赢家的画像变了——投资人 Eric 谈算力、云与机器人]]<span class="pd-rz">同公司:NVIDIA、Anthropic · 同概念:SaaS、推理 (inference)、预训练 (pre-training)</span>
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、NVIDIA · 同概念:推理 (inference)、智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
 
 </div>
 <div class="pd-ex">

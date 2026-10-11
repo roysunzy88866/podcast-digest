@@ -7,10 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>32</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]]**(11:49起):本集说它名义上被禁，但大家都在用、各家都在上面发布模型，其网络效应非常强。
 - **[[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]]**(00:58起):本集说它「基本上就是开源 AI 平台」,刚跨过 1 亿美元 ARR,是基于用量、触达并赋能尽可能多 AI 构建者的平台,变现从来不是优先级。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(10:34起):本集提到两次：一是作为下载开源权重模型、供全球开发者拆解和检查的安全平台；二是作为受害者，报道了在录制当天有人使用 AI 智能体在其系统多个节点猛烈攻击试图突破的事件。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(02:28起):本集以它遭遇 OpenAI 黑客入侵的安全事件为例，指出由于其专有模型受限于护栏，最终只能依靠开源模型才得以阻止安全威胁。
@@ -36,6 +37,7 @@ unlisted: true
 - **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(02:43起):本集围绕它那起被广泛引用的「AI 失控入侵」事件展开：《原子科学家公报》分析称事件远没有标题吓人——模型是在安全限制被关掉的攻击性任务上、经配置错误的路径行动的。
 - **[[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]]**(27:24起):本集结尾点到:它与 OpenAI 发生的事件不是智能或意识问题,而是一次纯粹的 opsec 失败
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(40:57起):本集提到被 NVIDIA 收购、托管所有开源模型,是一步好棋但也让中立供应商不再中立。
+- **[[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]]**(30:29起):本集说它是一个开放权重模型的枢纽平台，被 NVIDIA 收购（原文称交易金额为 120 亿美元左右、略多一点），且因 OpenAI 智能体入侵事件变得家喻户晓。
 - **[[2026-09-23-talks-skill-issue-stop-deploying-vision-langua|《别再拿视觉语言模型干所有活：一条3、4美元的自动标注训练流水线》]]**(04:47起):本集说嘉宾在此做计算机视觉工作，整条流水线跑在它的基础设施上：Jobs 做一次性批处理与训练、inference providers 做无服务器路由，还新上了基准排行榜
 - **[[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]]**(04:58起):本集将其近期事件定性为网络安全故障、控制故障，而非「即将挣脱枷锁的超级智能的小小预兆」
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(55:39起):本集提到它是 ExploitBench 事件中被智能体攻击的对象——不是为了拿答案,而是为了拿评分器代码做逆向工程。
@@ -57,8 +59,9 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*32 集*
+*34 集*
 
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]] — 作为概念
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
@@ -85,6 +88,7 @@ unlisted: true
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司
 - [[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司(提及)
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]] — 作为被讨论公司
 - [[2026-09-23-talks-skill-issue-stop-deploying-vision-langua|《别再拿视觉语言模型干所有活：一条3、4美元的自动标注训练流水线》]] — 作为被讨论公司
 - [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为被讨论公司(提及)
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司(提及)
@@ -96,9 +100,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[推理]] · [[NVIDIA]] · [[沙箱]] · [[对齐]] · [[开源]] · [[前沿模型]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[护栏]] · [[NVIDIA]] · [[沙箱]] · [[对齐]] · [[开源]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"OpenAI":189,"Anthropic":194,"护栏":88,"推理":89,"NVIDIA":65,"沙箱":89,"对齐":21,"开源":39,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"OpenAI":191,"Anthropic":196,"推理":91,"护栏":88,"NVIDIA":67,"沙箱":90,"对齐":22,"开源":39,"前沿模型":27}</script>
 
 <script>
 (function(){

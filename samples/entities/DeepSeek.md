@@ -7,29 +7,37 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DeepSeek</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DeepSeek">DE</div><div class="pi"><h1 class="pt">DeepSeek</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DeepSeek">DE</div><div class="pi"><h1 class="pt">DeepSeek</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]]**(72:48起):本集说它横空出世，基本上是重新实现美国大实验室的很多想法并有一些原创想法，说明大实验室之间可能没有太多秘密
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(35:02起):本集提到它是一家中国的人工智能公司,嘉宾借此说明与它的竞争实际上是在与中国政府的国家意志竞争,而非简单的企业竞争。
+- **[[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]]**(06:00起):本集说它在中国实验室中扮演文化和科学标杆的角色，所有人都仰慕它；而所谓「DeepSeek 崩溃、人才流失」的报道更像正常的人员流动。
 - **[[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]]**(00:14起):Lindy 整体跑在 DeepSeek 上——「一切都是 DeepSeek」；能力上大约落后三到六个月，更「尖锐」，需要更多回合找到可行方案
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect#^q6]]
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|《Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵》]] — 作为概念(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]] — 作为概念
 - [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|《Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[vibe coding]] · [[ChatGPT]] · [[Claude]] · [[Marc Andreessen]] · [[Qasar Younis]] · [[Flo Crivello]] · [[AI]] · [[Applied Intuition]]
+[[Lenny]] · [[智能体]] · [[推理]] · [[vibe coding]] · [[ChatGPT]] · [[Claude]] · [[Claude Code]] · [[Marc Andreessen]] · [[Qasar Younis]] · [[Florian]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":459,"vibe coding":47,"ChatGPT":105,"Claude":93,"Marc Andreessen":2,"Qasar Younis":1,"Flo Crivello":1,"AI":30,"Applied Intuition":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"智能体":460,"推理":91,"vibe coding":47,"ChatGPT":105,"Claude":93,"Claude Code":101,"Marc Andreessen":2,"Qasar Younis":1,"Florian":1}</script>
 
 <script>
 (function(){

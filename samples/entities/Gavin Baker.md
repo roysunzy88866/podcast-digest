@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"NVIDIA":65,"Google":69,"TPU":4,"OpenAI":189,"Anthropic":194,"Broadcom":5,"AMD":5,"Gemini":15,"ChatGPT":105}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"NVIDIA":67,"Google":69,"TPU":4,"OpenAI":191,"Anthropic":196,"Broadcom":5,"AMD":5,"Gemini":15,"ChatGPT":105}</script>
 
 <script>
 (function(){

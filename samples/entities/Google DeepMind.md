@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[持续学习]] · [[对齐]] · [[护栏]] · [[沙箱]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"OpenAI":189,"Anthropic":194,"Google":69,"ChatGPT":105,"持续学习":1,"对齐":21,"护栏":88,"沙箱":89,"AGI":28}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"OpenAI":191,"Anthropic":196,"Google":69,"ChatGPT":105,"持续学习":1,"对齐":22,"护栏":88,"沙箱":90,"AGI":28}</script>
 
 <script>
 (function(){

@@ -23,7 +23,7 @@ unlisted: true
 
 [[Farooq Malik]] · [[Scott Morton]] · [[Jaan Tallinn]] · [[RAIN]] · [[Revel]] · [[AI 安全]] · [[稳定币]] · [[SpaceX]] · [[Anthropic]] · [[代币化货币]]
 
-<script type="application/json" class="pd-epn">{"Farooq Malik":1,"Scott Morton":1,"Jaan Tallinn":1,"RAIN":1,"Revel":1,"AI 安全":3,"稳定币":5,"SpaceX":21,"Anthropic":194,"代币化货币":1}</script>
+<script type="application/json" class="pd-epn">{"Farooq Malik":1,"Scott Morton":1,"Jaan Tallinn":1,"RAIN":1,"Revel":1,"AI 安全":3,"稳定币":5,"SpaceX":21,"Anthropic":196,"代币化货币":1}</script>
 
 <script>
 (function(){

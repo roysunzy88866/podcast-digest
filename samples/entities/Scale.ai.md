@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Scale.ai</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Scale.ai">SC</div><div class="pi"><h1 class="pt">Scale.ai</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Scale.ai">SC</div><div class="pi"><h1 class="pt">Scale.ai</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]]**(00:17起):本集提到Melissa在创立NETIC前在Scale.ai工作了约四年，从政府到大型企业构建了很多现实世界业务
 - **[[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]]**(00:33起):本集介绍它以向前沿实验室供应人工标注数据起家，现在也为大型企业构建 AI 应用和智能体，其企业 AI 负责人 Emily Hsu 是本集嘉宾，并发布了那份只有 6% 大企业成功整合 AI 的报告。
+- **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(27:56起):本集说扎克伯格斥资 143 亿美元收购 Scale AI 股份，并任命其创始人 Alexander Wang 为 Meta 的 AI 负责人。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-31-nopriors-building-an-autonomous-enterprise-for-re|《Netic 创始人 Melissa Tokmak:让 AI 运营千万家“维持世界运转”的公司》]] — 作为被讨论公司(提及)
 - [[2026-08-25-sed-the-gap-between-ai-spending-and-ai-value|《企业AI为什么卡壳:只有6%的大公司真正跑通了》]] — 作为被讨论公司
+- [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Melisa Tokmak]] · [[Kevin Ball]] · [[NETIC]] · [[Emily Hsu]] · [[基础服务]] · [[Google]] · [[私募股权]] · [[企业 AI]] · [[自主企业]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Melisa Tokmak]] · [[Kevin Ball]] · [[Meta]] · [[NETIC]] · [[Emily Hsu]] · [[Facebook]] · [[基础服务]]
 
-<script type="application/json" class="pd-epn">{"智能体":459,"Melisa Tokmak":1,"Kevin Ball":3,"NETIC":1,"Emily Hsu":1,"基础服务":1,"Google":69,"私募股权":2,"企业 AI":1,"自主企业":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":460,"OpenAI":191,"Anthropic":196,"Melisa Tokmak":1,"Kevin Ball":3,"Meta":49,"NETIC":1,"Emily Hsu":1,"Facebook":17,"基础服务":1}</script>
 
 <script>
 (function(){

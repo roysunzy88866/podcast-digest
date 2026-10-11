@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Astro Teller]] · [[X]] · [[Alphabet]] · [[Waymo]] · [[Wing]] · [[登月项目]] · [[终止标准]] · [[可检验假设]] · [[登月市场匹配]] · [[产品市场契合]]
+[[Astro Teller]] · [[X]] · [[Alphabet]] · [[Waymo]] · [[Wing]] · [[Moonshot]] · [[终止标准]] · [[可检验假设]] · [[登月市场匹配]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":3,"Alphabet":1,"Waymo":21,"Wing":1,"登月项目":2,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":29}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":3,"Alphabet":1,"Waymo":21,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":29}</script>
 
 <script>
 (function(){

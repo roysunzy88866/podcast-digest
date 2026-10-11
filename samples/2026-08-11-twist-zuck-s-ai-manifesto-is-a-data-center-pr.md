@@ -151,9 +151,9 @@ Jason 认为他们会退缩,并趁机开炮:Spotify 靠播客开放标准(RSS)�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-28-founders-435-mark-zuckerberg-s-empire|扎克伯格：一个不肯停下的皇帝]]<span class="pd-rz">同公司:Instagram、Meta、WhatsApp、OpenAI</span>
 - [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]]<span class="pd-rz">同公司:Meta · 同概念:开源模型 (open source models)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:Meta、Claude、OpenAI · 同概念:智能体 (agent)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:开源模型 (open source models)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

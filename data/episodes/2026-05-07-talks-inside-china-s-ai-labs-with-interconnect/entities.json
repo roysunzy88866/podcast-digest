@@ -1,0 +1,652 @@
+{
+  "episode_id": "2026-05-07-talks-inside-china-s-ai-labs-with-interconnect",
+  "podcast": "精选演讲",
+  "date": "2026-05-07",
+  "tags": [
+    "中国 AI",
+    "研究文化",
+    "出口管制",
+    "开源模型",
+    "推理需求"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "florian",
+      "type": "person",
+      "role": "host",
+      "name": "Florian",
+      "file": "Florian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            22.4,
+            27.121
+          ],
+          "quote": "Florian was there a bit longer than me, but nominally we talked to pretty much every",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            54.854,
+            61.877
+          ],
+          "quote": "And I don't know, it's fun to capture some well rested thoughts with Florian who I last left.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            82.161,
+            87.364
+          ],
+          "quote": "And Florian and I have been nominally obsessed with trying to parse what they are doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "type": "company",
+      "role": "concept",
+      "name": "DeepSeek",
+      "file": "DeepSeek",
+      "primary": true,
+      "how_described": "本集说它在中国实验室中扮演文化和科学标杆的角色，所有人都仰慕它；而所谓「DeepSeek 崩溃、人才流失」的报道更像正常的人员流动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            360.328,
+            366.471
+          ],
+          "quote": "And then everybody obviously is aware of DeepSeek, but they play very different roles where I feel like DeepSeek has this like cultural",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1144.702,
+            1163.368
+          ],
+          "quote": "Pieces where it's like, oh, DeepSeek is crumbling and top researchers are leaving is much more of the ecosystem similar to the U.S. where like people change jobs and there's kind of phases to people career and top researchers try different things and vibes shift over time rather than something like DeepSeek crumbling and people are leaving and the culture is broken.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1176.849,
+            1189.544
+          ],
+          "quote": "Something related, if we said DeepSeek, I think a lot of the US media thinks that DeepSeek is supported by the government, and people are actually fairly willing to talk about the role of government support in some ways, where...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1280.38,
+            1295.209
+          ],
+          "quote": "And when a company like DeepSeek meets a very high level party member, that helps because the lower level governments see that as a signal of like, if you help them, you're getting closer to the power structures.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bytedance",
+      "type": "company",
+      "role": "concept",
+      "name": "ByteDance",
+      "file": "ByteDance",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            345.282,
+            355.406
+          ],
+          "quote": "And then it's just like everybody there is obsessed with Dubal, which is this chatbot app from ByteDance that I had barely heard of before going to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            355.426,
+            359.528
+          ],
+          "quote": "But like everybody brings up how they're worried about competing with this chat app from ByteDance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            367.699,
+            373.429
+          ],
+          "quote": "Scientific role where everybody looks up to them, where ByteDance is like this fearsome economic competitor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            445.75,
+            452.592
+          ],
+          "quote": "Because Alibaba and ByteDance are some of the biggest companies in China because they have like very wide established cloud infrastructure.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zai",
+      "type": "company",
+      "role": "concept",
+      "name": "ZAI",
+      "file": "ZAI",
+      "primary": true,
+      "how_described": "本集说它展厅里挂着实时业务看板，每天服务 5.5 万亿个 token、中国用户数是第二名（美国）的三四倍；被列入美国实体清单后既困惑又自豪，声誉反而大增。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            385.515,
+            389.938
+          ],
+          "quote": "Like you go to ZAI's office and they have a live tracker in their showroom.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            401.759,
+            412.87
+          ],
+          "quote": "Their recent accomplishments and trying to like a way to like show off to group to visiting groups and companies like ZAI and that have APIs, these showrooms have like live business metrics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            413.25,
+            421.358
+          ],
+          "quote": "So the ZAI one had the number of companies served globally on their API and the numbers of tokens per day served.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            605.115,
+            614.318
+          ],
+          "quote": "It's also like when you bring up ZAI, one of the striking things was them being somewhat proud of being entity listed despite being like they were also totally baffled and they have no idea why.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1598.028,
+            1602.832
+          ],
+          "quote": "Maybe ZAI is like absurdly outward AGI forward positioning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1603.273,
+            1608.377
+          ],
+          "quote": "Like you go to the ZAI Zipu office and there's just the word AGI literally everywhere.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "type": "company",
+      "role": "concept",
+      "name": "Xiaomi",
+      "file": "Xiaomi",
+      "primary": true,
+      "how_described": "本集说是最令人惊讶的公司：模型团队几百人、平均年龄 25 岁，从 7B 模型做到万亿参数规模，是认真的投入而非副业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1624.28,
+            1632.108
+          ],
+          "quote": "I think the company that surprised me the most in terms of vibes, but mostly by the researchers, was Xiaomi.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1693.939,
+            1694.66
+          ],
+          "quote": "The Xiaomi car.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1851.479,
+            1855.94
+          ],
+          "quote": "I don't own a car, but many of us on the trip want to get Xiaomi cars.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meituan",
+      "type": "company",
+      "role": "concept",
+      "name": "Meituan",
+      "file": "Meituan",
+      "primary": true,
+      "how_described": "本集说这家中国外卖巨头自建模型不是为了卖 API 赚钱，而是自用省钱，属于「商品化互补品」的逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            954.464,
+            960.248
+          ],
+          "quote": "One of our funny visits was when we went to Meituan, which is the Chinese delivery giant like DoorDash and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            974.28,
+            979.806
+          ],
+          "quote": "And I kind of see the likes of Meituan and then also like Ant Group, which are this financial thing where the models are...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ant-group",
+      "type": "company",
+      "role": "concept",
+      "name": "Ant Group",
+      "file": "Ant Group",
+      "primary": true,
+      "how_described": "本集说它与美团类似，自建模型供内部使用而非卖 API；政府也通过国家级投资基金持有它的大量股份。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            974.28,
+            979.806
+          ],
+          "quote": "And I kind of see the likes of Meituan and then also like Ant Group, which are this financial thing where the models are...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1214.216,
+            1220.017
+          ],
+          "quote": "And in the tech ecosystem, there's things like Ant Group, where the government has a large stake",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "baai",
+      "type": "company",
+      "role": "concept",
+      "name": "BAAI",
+      "file": "BAAI",
+      "primary": true,
+      "how_described": "本集说它由北京一个地方政府资助，每年获数千万美元级经费做 AI 研究，是政府直接出钱的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            1190.79,
+            1202.653
+          ],
+          "quote": "For example, in Beijing, a local municipality, a region in Beijing essentially funds this Beijing Institute for AI, BAAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "type": "company",
+      "role": "concept",
+      "name": "Moonshot",
+      "file": "Moonshot",
+      "primary": true,
+      "how_described": "本集说它的办公室氛围最好，会议室都以不同乐队命名（Metallica、Radiohead），主题布置赏心悦目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1513.3,
+            1522.524
+          ],
+          "quote": "There's the same distribution where I will say that I thought like Moonshot AI, Kimmy's office was like, it was clear that these people had a bond that was like the best vibes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            2035.857,
+            2040.501
+          ],
+          "quote": "Versus Moonshot, which had... Moonshot was a really interesting office.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "minimax",
+      "type": "company",
+      "role": "concept",
+      "name": "Minimax",
+      "file": "Minimax",
+      "primary": false,
+      "how_described": "本集说他们参观了其刚搬入的新办公室，目前状态非常精致但还有很多东西在变动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 315,
+          "t": [
+            2004.179,
+            2005.76
+          ],
+          "quote": "Did you visit Minimax?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2005.8,
+            2013.247
+          ],
+          "quote": "Like, it seems like after I left, you all went clubbing and then... Yeah, we visited Minimax.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说中国几乎所有实验室的人都在用 Claude Code，公认它是现存最好的 CLI；有人对自家模型嘴硬，但难的任务还是切回 Claude。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.47,
+            44.247
+          ],
+          "quote": "I just published a piece on my notes that primarily talks about the research culture and then some of the industrial things, like the data industry, the fact that they're all Claude Code-pilled as well, if there's governance support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            681.689,
+            687.572
+          ],
+          "quote": "But basically everyone said that Claude Code is the best CLI that exists.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "concept",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说它名义上被禁，但大家都在用、各家都在上面发布模型，其网络效应非常强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            709.74,
+            720.347
+          ],
+          "quote": "It's sort of the same thing with Hugging Face where it's like Claude and Hugging Face are both nominally banned and all these companies released their models on Hugging Face and they're like, yeah, you use Hugging Face unless you can't access it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            734.275,
+            738.418
+          ],
+          "quote": "And it's like the network effects on Hugging Face are so strong that it seems kind of unlikely.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "modelscope",
+      "type": "company",
+      "role": "concept",
+      "name": "ModelScope",
+      "file": "ModelScope",
+      "primary": true,
+      "how_described": "本集说它是 Hugging Face 的国内克隆版，两个版本的数据和数据中心完全隔离，国内版有更多图像适配器，但网络效应难撼动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            720.387,
+            725.39
+          ],
+          "quote": "And then you use ModelScope, which is this domestic clone, which we also visited.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            725.47,
+            734.215
+          ],
+          "quote": "And it feels like the ModelScope people are like ready to invest more energy in it and we'll see if that takes off, but it's kind of too early to tell.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "concept",
+      "role": "concept",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说中国研究人员对 NVIDIA 芯片完全痴迷，这是训练模型时唯一想用的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            477.758,
+            481.4
+          ],
+          "quote": "And then also just like hearing the researchers be totally obsessed with NVIDIA chips.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "export-controls",
+      "type": "concept",
+      "role": "concept",
+      "name": "出口管制 (export controls)",
+      "file": "出口管制",
+      "primary": true,
+      "how_described": "本集说从预训练运行时长等迹象看，中国实验室在设计和迭代模型上明显受芯片限制，出口管制确实在起作用，是研究者的日常焦虑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            485.581,
+            498.267
+          ],
+          "quote": "But some of the things like how long some of their pre-training runs are and stuff like this just makes it clear that they're very chip constrained in how they design and iterate on their models, which like many people should be like, yeah, export controls work.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说中国 AI 推理市场增长会存在但受芯片供应限制，且训练相对推理的算力占比正在下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            455.613,
+            463.394
+          ],
+          "quote": "And it's just like, I think that the AI market for inference growth will be there in China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1398.175,
+            1408.522
+          ],
+          "quote": "But I do think that we know that these people are capable of building models, and the amount of compute spent on actual training relative to inference is decreasing as a proportion.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-industry",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据行业 (data industry)",
+      "file": "数据行业",
+      "primary": true,
+      "how_described": "本集说硅谷盛传数据/环境产业动辄数十亿美元，但中国实验室反应冷淡：有人关注国际数据商，有人靠刚起步的国内小产业，还有一批人完全自建数据团队保证质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.47,
+            44.247
+          ],
+          "quote": "I just published a piece on my notes that primarily talks about the research culture and then some of the industrial things, like the data industry, the fact that they're all Claude Code-pilled as well, if there's governance support.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            779.465,
+            781.126
+          ],
+          "quote": "We got a question on data industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            782.708,
+            791.334
+          ],
+          "quote": "Essentially in SF, we hear about a crazy data industry, especially on environments where people will spend tens of billions of dollars on an environment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            830.221,
+            838.643
+          ],
+          "quote": "So I am like very torn on the data industry overall, but it seems like the data industry in China is just like not nearly as much of a thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            849.64,
+            857.864
+          ],
+          "quote": "Maybe the data industry is a fad and doesn't matter and a distraction, or in the long term, this could come to be an impactful issue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            939.806,
+            948.988
+          ],
+          "quote": "Jury's not out yet in my mind on how people reflect on the data industry's role in building LLMs in a few years.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说美团、蚂蚁这类公司自知卖不动 API，索性开源模型，这与 Meta、微软「商品化你的互补品」的思路类似。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            1001.139,
+            1008.244
+          ],
+          "quote": "I could see releasing open models for that matter, where it's the commoditize your compliments thing, where they just don't second guess it and they kind of open",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Doubao",
+      "reason": "专名「Doubao」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

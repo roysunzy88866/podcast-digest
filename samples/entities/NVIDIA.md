@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>65</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>67</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(18:42起):本集在回顾 2012 年 ImageNet 突破时提及,说 Hinton 教授团队当年就是使用了来自 NVIDIA 的两张 GPU 成功训练了首个神经网络算法。
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]]**(18:16起):本集提到它是制造 AI 算力核心组件 GPU 的厂商,由 Jensen 领导,在 AI 深度思考和发展方向上正在做着非凡的事情。Cisco 则负责将他们制造的 GPU 连接在一起形成网络。
+- **[[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]]**(07:57起):本集说中国研究人员对 NVIDIA 芯片完全痴迷，这是训练模型时唯一想用的东西。
 - **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(00:05起):本集把它说成：世界上最具影响力的技术公司，真诚地是一个「只在美国才能发生」的故事；它在通用计算主导的时代逆流而上，押注加速计算和 GPU。
 - **[[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]]**(38:03起):本集把它说成:迎住了开源时代时刻的公司,引领美国本土的开源权重(如 Nemotron 系列)生态。
 - **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(00:34起):本集把它说成:多年来致力于构建开放 AI 系统,自研了 Nemotron 大语言模型系列,并为企业提供安全运行时 OpenShell 以及从云到本地的全套部署方案
@@ -57,6 +58,7 @@ unlisted: true
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(10:04起):本集提到 NVIDIA 的 A100 这类老 GPU 每小时成本反而在升值,且从 A100 到 H100 再到 B300,每代浮点精度都在下降。
 - **[[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]]**(01:35起):本集用其 GPU 说明内存墙：2014-2024 单块 GPU flops 提升约 120 倍而内存带宽只提升 17 倍；也是推理部署的主导硬件，且在市场内存条件下正减少单设备内存。
 - **[[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]]**(26:08起):本集说 Jensen 受开源的成功所束缚——若只剩 Anthropic 与 OpenAI 双寡头它们会自造芯片,所以开源必须成功;收购 Hugging Face 被认为是把钱花在自己利益所在处。
+- **[[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]]**(00:34起):本集说 NVIDIA 是现代 AI 赖以构建的物质与软件基底，全球市值最高（5.4 万亿美元）， CEO 黄仁勋在本集阐述其五层蛋糕的 AI 产业观，并以约 1000 亿美元投资生态、收购 Hugging Face。
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(00:52起):本集说它是投资者兼最深合作伙伴：无法律文件、不排他，任意时点十几个协作项目、双方各投三位数开发者，从网络设备到机密计算到下一代 GPU/DPU，同时 VastData 也与 AMD 合作
 - **[[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]]**(38:19起):本集举 Jensen Huang 为例:2017 年见过他时 NVIDIA 还不是今天的 NVIDIA,但思路一致、执行力惊人、身边聚着忠诚的聪明人。
 - **[[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]]**(08:00起):本集举的浪费例子：NVIDIA 训练 Cosmos 机器人时下载一百万小时视频、丢弃约 96%，浪费算力、带宽、存储和钱。
@@ -78,7 +80,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*13 条*
+*15 条*
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
 
@@ -98,6 +100,10 @@ unlisted: true
 
 ![[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra#^q14]]
 
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q1]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q2]]
+
 ![[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding#^q4]]
 
 ![[2026-10-01-thepeel-from-nearly-bankrupt-to-5b-revenue--with#^q2]]
@@ -108,10 +114,11 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*65 集*
+*67 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
+- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为被讨论公司
 - [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]] — 作为被讨论公司
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
@@ -156,6 +163,7 @@ unlisted: true
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|《推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争》]] — 作为被讨论公司
 - [[2026-09-21-twentyvc-20vc-why-ai-cannot-replace-humans-in-ent|《「数百万个爱因斯坦」还没法雇：UiPath 创始人拆穿 AI 转型的真瓶颈》]] — 作为被讨论公司
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]] — 作为被讨论公司
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-24-talks-physical-ai-s-next-bottleneck-is-finding|《训练机器人缺数据？答案藏在数十亿网络视频里》]] — 作为概念(提及)
@@ -182,7 +190,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":194,"智能体":459,"OpenAI":189,"推理":89,"GPU":30,"Google":69,"Cursor":84,"Meta":48,"开源":39,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":196,"智能体":460,"OpenAI":191,"推理":91,"GPU":30,"Google":69,"Cursor":84,"Meta":49,"开源":39,"数据中心":23}</script>
 
 <script>
 (function(){

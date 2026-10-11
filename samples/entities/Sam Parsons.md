@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PayPal":8,"OpenAI":189,"Google":69,"ChatGPT":105,"Claude":93,"智能体":459,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3,"MCP 应用":1}</script>
+<script type="application/json" class="pd-epn">{"PayPal":8,"OpenAI":191,"Google":69,"ChatGPT":105,"Claude":93,"智能体":460,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3,"MCP 应用":1}</script>
 
 <script>
 (function(){

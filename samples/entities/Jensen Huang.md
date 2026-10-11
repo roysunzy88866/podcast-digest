@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jensen Huang</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jensen Huang">JE</div><div class="pi"><h1 class="pt">Jensen Huang</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>3</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jensen Huang">JE</div><div class="pi"><h1 class="pt">Jensen Huang</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>4</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*22 条*
+*31 条*
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
 
@@ -57,19 +57,38 @@ unlisted: true
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q11]]
 
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q3]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q4]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q5]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q6]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q7]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q8]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q9]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q10]]
+
+![[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon#^q11]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为嘉宾
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为主持
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为主持
+- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[深度学习]] · [[智能体]] · [[沙箱]] · [[Condi Rice]] · [[harness]] · [[Jerry]] · [[AMD]] · [[前沿模型]] · [[Sega]]
+[[NVIDIA]] · [[智能体]] · [[沙箱]] · [[深度学习]] · [[Anthropic]] · [[OpenAI]] · [[Condi Rice]] · [[harness]] · [[Jerry]] · [[Ezra Klein]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -79,7 +98,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":65,"深度学习":4,"智能体":459,"沙箱":89,"Condi Rice":1,"harness":63,"Jerry":1,"AMD":5,"前沿模型":27,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":67,"智能体":460,"沙箱":90,"深度学习":4,"Anthropic":196,"OpenAI":191,"Condi Rice":1,"harness":63,"Jerry":1,"Ezra Klein":1}</script>
 
 <script>
 (function(){

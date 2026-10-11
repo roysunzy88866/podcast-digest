@@ -27,7 +27,7 @@ unlisted: true
 
 [[Braintrust]] · [[评估]] · [[可观测性]] · [[飞轮]] · [[Ameya Bhatawdekar]] · [[Doug Guthrie]] · [[智能体]] · [[追踪]] · [[RAG]] · [[LLM 裁判]]
 
-<script type="application/json" class="pd-epn">{"Braintrust":5,"评估":1,"可观测性":42,"飞轮":6,"Ameya Bhatawdekar":1,"Doug Guthrie":1,"智能体":459,"追踪":1,"RAG":28,"LLM 裁判":3}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"评估":1,"可观测性":42,"飞轮":6,"Ameya Bhatawdekar":1,"Doug Guthrie":1,"智能体":460,"追踪":1,"RAG":28,"LLM 裁判":3}</script>
 
 <script>
 (function(){
