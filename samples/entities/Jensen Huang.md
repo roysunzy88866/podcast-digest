@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":65,"深度学习":4,"智能体":457,"沙箱":88,"Condi Rice":1,"harness":63,"Jerry":1,"AMD":5,"前沿模型":27,"Sega":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":65,"深度学习":4,"智能体":459,"沙箱":89,"Condi Rice":1,"harness":63,"Jerry":1,"AMD":5,"前沿模型":27,"Sega":1}</script>
 
 <script>
 (function(){

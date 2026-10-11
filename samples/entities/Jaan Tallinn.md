@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":3,"AI 安全":3,"Anthropic":194,"OpenAI":188,"Hugging Face":32,"DeepMind":16,"对齐":20,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
+<script type="application/json" class="pd-epn">{"Mario":3,"AI 安全":3,"Anthropic":194,"OpenAI":189,"Hugging Face":32,"DeepMind":16,"对齐":21,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
 
 <script>
 (function(){

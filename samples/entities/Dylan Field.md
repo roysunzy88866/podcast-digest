@@ -50,7 +50,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figma":22,"MCP":84,"Lenny":68,"Nico":1,"Figma Make":3,"GitHub":31,"FigJam":1,"Notion":16,"Dev Mode":1,"Slack":33}</script>
+<script type="application/json" class="pd-epn">{"Figma":22,"MCP":85,"Lenny":68,"Nico":1,"Figma Make":3,"GitHub":32,"FigJam":1,"Notion":17,"Dev Mode":1,"Slack":34}</script>
 
 <script>
 (function(){

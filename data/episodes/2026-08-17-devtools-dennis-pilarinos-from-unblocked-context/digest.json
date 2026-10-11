@@ -1,0 +1,167 @@
+{
+  "title_zh": "AI 写代码很快，但它每天都是入职第一天",
+  "tldr": "Unblocked 创始人 Dennis Pilarinos 讲为什么 AI 编程助手缺的不是智能，而是背景知识。",
+  "digest_md": "Dennis Pilarinos 是 Unblocked 的创始人。这家公司做的事情听起来简单：把散落在 GitHub、Slack、Notion、Confluence 里的团队知识整合起来，喂给写代码的 AI 智能体。在 LeadDev 大会现场，他和 Scaling DevTools 聊了为什么这件事比想象中难得多——以及为什么让 AI 更聪明根本不是解法。\n\n## 为什么说 AI 智能体像专家陌生人？\n\nDennis 有一个好用的比喻：想象两个人都有 10 年经验，一个在你公司待了 10 年，一个是刚入职的新人。让他们修同一个 bug，谁做得好？显然是前者。技能一样，差的是对公司历史的了解。\n\n「Intelligence is not the gap. It's context that's missing.」（差的不是智能，是背景。）[10:00 Dennis]\n\n现在你在终端里启动一个 AI 编程智能体，它就像你入职第一天：对代码库为什么长这样、过去哪些决策是怎么做的，一无所知。于是它疯狂地在源代码里搜索、反复调用工具，做很多无用功。\n\nUnblocked 做的就是把这层背景知识补上。据他介绍，接上之后智能体完成任务能快 40% 到 60%，而且更省——同一任务的算力消耗（token 用量）降低 30% 到 50%。[02:14 Dennis]\n\n## 团队管理 AI 上下文的三个阶段，你卡在哪一级？\n\nDennis 观察到各公司普遍在走一条成熟度路线。\n\n第一阶段：用本地文件喂上下文。很多人把一堆说明文档放在本地目录里，告诉 AI 该怎么做。等两个人合作时，发现各自的文件对不上，只好手工合并、提交到仓库。但这变成了一份静态文档，需要有人持续维护——就像 Confluence，写完的那一刻就开始过时。\n\n第二阶段：把内部系统通过 MCP 接给智能体。这解决了文档腐烂的问题，但又带来新麻烦：AI 在多个数据源之间不会交叉验证。\n\n第三阶段：建一个真正的上下文层，把所有来源整合成一张知识图谱，让 AI 直接得到已经核对过的答案。\n\n## AI 也会「找到第一个答案就收工」\n\n第二阶段有个隐蔽的坑，Dennis 借用一个放射科的术语来解释——搜索满足感（satisfaction of search）：放射科医生在看片子时，一旦发现第一个异常，就会不自觉地忽略其他可能的问题。\n\nAI 智能体干同样的事。它查一下 Notion，再查一下 Slack，**找到一条看起来对的答案就继续干活了，不会去核实**，也不会去找可能推翻这个结论的信息。[07:02 Dennis]\n\n这就是单一数据源汇成的静态答案和跨系统核对过的答案之间的差距。\n\n## 别指望团队为了 AI 改变工作习惯\n\nDennis 对产品有一条坚定原则：不要求用户改变工作流程。他从没见过一个团队觉得自己公司的文档是整齐且最新的——这种团队不存在。\n\n所以 Unblocked 的思路是：什么都不用改。它会自己连接各个数据源，在后台清洗、补全数据，建好知识图谱。用户该在 Slack 里怎么聊就怎么聊，过时的文档也不用删。[14:59 Dennis]\n\n他的判断是，**要求大家先做一堆前期工作、换来一个几个月后才可能出现的收益，这种交易没人会接受**。\n\n## 最难的技术问题之一：搞清楚你是谁\n\n连接所有系统听起来美好，落地时全是硬骨头。Dennis 举了一个例子：同一个人在 GitHub、Slack、Notion 里各有一个身份，每个系统对你的理解都不一样。\n\n**要把这些身份统一起来，是为了做权限控制**。有的公司要求 AI 只回答你有权限看的信息——你可以问我老板挣多少钱，但如果背后那张表格你没权限访问，AI 就不能告诉你答案。[12:23 Dennis]\n\n他说自己最喜欢这类软件：在幕后解决了极其困难的问题，而用户完全无感，只是问题一提，好答案立刻出现。\n\n至于那些只存在人脑子里、从没写下来的知识？他承认暂时没办法——脑机接口还没接入 Unblocked 呢。\n\n## 本集带走\n\n- AI 编程智能体的瓶颈不是智能，而是背景知识：每次启动都相当于新人入职第一天。\n- 团队管理 AI 上下文通常经历三级台阶：本地文件 → MCP 接入各系统 → 统一的知识图谱层。\n- 搜索满足感：AI 找到第一个看起来对的答案就停，不会跨数据源交叉验证。\n- 想让团队为 AI 整理文档、清理过时信息，基本行不通；好的工具应该在后台默默做这些脏活。\n- 整合多系统知识的隐藏难题包括：统一用户身份、做运行时权限判断。",
+  "quotes": [
+    {
+      "en": "So what we're seeing is agents are getting their jobs, their tasks done between 40% to 60% faster with Unblocked.",
+      "zh": "所以我们看到的是，有了 Unblocked，智能体完成工作、完成任务的速度提高了 40% 到 60%。",
+      "timestamp": "02:14",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "Every time you spin a new agent up, it's like you on day one at that company.",
+      "zh": "每次你启动一个新智能体，它就像你在这家公司的第一天。",
+      "timestamp": "03:34",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "Moments after you're finished writing the document, it's obsolete, right?",
+      "zh": "你写完文档的那一刻起，它就过时了，对吧？",
+      "timestamp": "06:00",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "And at a sufficiently scaled organization, finding someone who can apply the judgment that makes sense for their entire organization is actually really hard.",
+      "zh": "而在一个规模足够大的组织里，找到一个能够对整个组织做出合理判断的人，实际上非常难。",
+      "timestamp": "06:08",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "Agents do the exact same thing. They'll hit the Notion MCP, they'll hit the Slack MCP, they find something that looks right, and they carry on their merry way.",
+      "zh": "智能体会做出完全一样的事情。它们会查一下 Notion 的 MCP，查一下 Slack 的 MCP，找到某个看起来对的东西，然后就心满意足地继续走下去了。",
+      "timestamp": "07:26",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "Intelligence is not the gap. It's context that's missing.",
+      "zh": "智能不是差距所在。缺的是上下文。",
+      "timestamp": "09:58",
+      "speaker": "Dennis Pilarinos"
+    },
+    {
+      "en": "I've never met a team that feels like their documentation is like... Well-organized and up-to-date. It just doesn't exist, right?",
+      "zh": "我从未见过一个团队觉得他们的文档组织良好且是最新的。这根本不存在，对吧？",
+      "timestamp": "14:04",
+      "speaker": "Dennis Pilarinos"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:14",
+      "speaker": "Dennis Pilarinos",
+      "en": "So what we're seeing is agents are getting their jobs, their tasks done between 40% to 60% faster with Unblocked.",
+      "zh": "所以我们看到的是，有了 Unblocked，智能体完成工作、完成任务的速度提高了 40% 到 60%。"
+    },
+    {
+      "timestamp": "02:23",
+      "speaker": "Dennis Pilarinos",
+      "en": "And we're seeing significant token savings, anywhere between 30% to 50% less token usage for a given task.",
+      "zh": "而且我们看到显著的 token 节省，对于一个给定任务，token 用量减少 30% 到 50% 不等。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Dennis Pilarinos",
+      "en": "And so people were helping that process, but agents needed the same level of context that people had and didn't have it available to them.",
+      "zh": "人们在辅助这个过程，但智能体需要和人类同等水平的上下文，却没有可用的上下文。"
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Dennis Pilarinos",
+      "en": "Every time you spin a new agent up, it's like you on day one at that company.",
+      "zh": "每次你启动一个新智能体，它就像你在这家公司的第一天。"
+    },
+    {
+      "timestamp": "03:40",
+      "speaker": "Dennis Pilarinos",
+      "en": "And so what it does is struggle.",
+      "zh": "所以它做的就是挣扎。"
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Dennis Pilarinos",
+      "en": "Nothing. It has to learn it all again.",
+      "zh": "一无所知。它必须把所有东西重新学一遍。"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Dennis Pilarinos",
+      "en": "Moments after you're finished writing the document, it's obsolete, right?",
+      "zh": "你写完文档的那一刻起，它就过时了，对吧？"
+    },
+    {
+      "timestamp": "06:08",
+      "speaker": "Dennis Pilarinos",
+      "en": "And at a sufficiently scaled organization, finding someone who can apply the judgment that makes sense for their entire organization is actually really hard.",
+      "zh": "而在一个规模足够大的组织里，找到一个能够对整个组织做出合理判断的人，实际上非常难。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Dennis Pilarinos",
+      "en": "Its origin was actually from radiology.",
+      "zh": "「搜索满足感」这个概念实际上起源于放射学。"
+    },
+    {
+      "timestamp": "07:26",
+      "speaker": "Dennis Pilarinos",
+      "en": "Agents do the exact same thing. They'll hit the Notion MCP, they'll hit the Slack MCP, they find something that looks right, and they carry on their merry way.",
+      "zh": "智能体会做出完全一样的事情。它们会查一下 Notion 的 MCP，查一下 Slack 的 MCP，找到某个看起来对的东西，然后就心满意足地继续走下去了。"
+    },
+    {
+      "timestamp": "07:51",
+      "speaker": "Dennis Pilarinos",
+      "en": "But again, it doesn't give you the exhaustive truth.",
+      "zh": "但再说一次，它并不能给你穷尽的真相。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Dennis Pilarinos",
+      "en": "So, you know, these… I think of them as like expert strangers, right?",
+      "zh": "所以，你知道，这些……我把它们想象成像是陌生的专家，对吧？"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Dennis Pilarinos",
+      "en": "Intelligence is not the gap. It's context that's missing.",
+      "zh": "智能不是差距所在。缺的是上下文。"
+    },
+    {
+      "timestamp": "10:46",
+      "speaker": "Dennis Pilarinos",
+      "en": "Even when things are written down, inevitably, I think one of the hard parts about building this context layer is being able to find the truth when you have data sources that conflict with each other.",
+      "zh": "即使东西被写下来了，不可避免地，我觉得构建这个上下文层的难点之一，就是在你拥有互相冲突的数据源时能够找到真相。"
+    },
+    {
+      "timestamp": "11:46",
+      "speaker": "Dennis Pilarinos",
+      "en": "A person's identity, a person can have multiple identities in each system, right?",
+      "zh": "一个人的身份。一个人在每个系统里可以有多个身份，对吧？"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Dennis Pilarinos",
+      "en": "I've never met a team that feels like their documentation is like... Well-organized and up-to-date. It just doesn't exist, right?",
+      "zh": "我从未见过一个团队觉得他们的文档组织良好且是最新的。这根本不存在，对吧？"
+    },
+    {
+      "timestamp": "14:55",
+      "speaker": "Dennis Pilarinos",
+      "en": "So like, we actually just say, don't change anything. We will connect to those different data sources. We will clean and enrich the data completely transparently.",
+      "zh": "所以，我们实际上就是说，什么都不要改。我们会连接到那些不同的数据源。我们会以完全透明的方式清理和丰富数据。"
+    },
+    {
+      "timestamp": "16:55",
+      "speaker": "Dennis Pilarinos",
+      "en": "So you have to do a whole bunch of upfront work for a payoff down the line. I don't think that's going to work. I strongly don't believe that's going to work.",
+      "zh": "所以你得先做一大堆前期工作，才能在以后得到回报。我不认为那会行得通。我非常不相信那会行得通。"
+    },
+    {
+      "timestamp": "17:40",
+      "speaker": "Dennis Pilarinos",
+      "en": "And so every idea has its time.",
+      "zh": "每个想法都有属于它的时间。"
+    }
+  ],
+  "voice_script": "今天想跟你聊一个人,叫 Dennis Pilarinos,他是 Unblocked 的创始人。这家公司做的事听起来挺简单:把团队里散落在 GitHub、Slack、Notion、Confluence 这些工具里的知识,整合起来,喂给写代码的 AI 智能体。但最近在一个开发者大会上,他讲了一个观点:这件事比大家想象中难得多,而且让 AI 变得更聪明,根本不是解决办法。\n\n这话乍一听有点反直觉,现在的 AI 模型不是越来越强吗?他打了个比方,你一听就明白。想象两个人,都有十年编程经验,一个在你公司干了十年,一个是刚入职的新人。让这两个人修同一个 bug,谁修得好?显然是那个老员工。两个人技能一模一样,差的不是本事,差的是老员工知道这家公司的代码为什么长成这样、当年哪些决策是怎么做出来的。所以 Dennis 有句话,说得特别干脆:智能不是差距所在,缺的是上下文。\n\n这就是问题所在。你现在在终端里启动一个 AI 编程智能体,它每次都像入职第一天:对你公司的历史一无所知。结果就是它疯狂地在源代码里搜索,反复调用各种工具,干一堆无用功。而 Unblocked 做的事,就是把这层背景知识补上。按 Dennis 的说法,接上之后,智能体完成任务能快百分之四十到六十,而且更省,同一个任务的算力消耗能降百分之三十到五十。\n\n那这个背景知识到底怎么给 AI 喂进去呢?这里其实是有一套进化路线的,Dennis 观察到,各公司基本都在走三个阶段。\n\n第一阶段最朴素:用本地文件喂。很多人在项目目录里放一堆说明文档,告诉 AI 该怎么干活。但问题来了,两个人合作的时候,发现各自的文件对不上,只好手工合并、提交到代码仓库。可这样一来,它就变成了一份静态文档,得有人一直维护。这就跟 Confluence 一样,文档写完的那一刻起,它就开始过时了。\n\n第二阶段,是把公司内部系统通过 MCP 接给智能体。MCP 你可以理解成一个标准的插口,让 AI 直接去查各个系统。这确实解决了文档腐烂的问题,但又带来新麻烦:AI 在多个数据源之间,不会交叉验证。\n\n这就引出一个挺隐蔽的坑。Dennis 借用了一个放射科的术语,叫搜索满足感。放射科医生看片子的时候,一旦发现了第一个异常,就会不自觉地忽略其他可能的问题。AI 智能体干的是一模一样的事:查一下 Notion,再查一下 Slack,找到一条看起来对的答案,就心满意足地继续干活了。不会去核实,更不会去找那些可能推翻结论的信息。你看,这就是单一数据源给出的静态答案,和跨系统核对过的答案之间的差距。\n\n所以理想的解法,就是第三阶段:建一个真正的上下文层,把所有来源整合成一张知识图谱,让 AI 直接拿到已经核对过的答案。\n\n不过做这个产品,有一条原则 Dennis 特别坚定:绝不要求用户改变工作流程。为什么?他从没见过哪个团队,觉得自己公司的文档是整齐且最新的,这种团队根本不存在。要是你告诉用户,先花大力气整理文档、清理过时信息,换来几个月之后才可能出现的收益,这种交易没人会接受。所以 Unblocked 的思路是什么都不用改:它自己去连接各个数据源,在后台清洗数据、补全数据、建好知识图谱。用户该在 Slack 里怎么聊就怎么聊,过时的文档也不用删。\n\n听起来很美好,但落地全是硬骨头。举一个例子:同一个人,在 GitHub、Slack、Notion 里各有一个身份,每个系统对你的理解都不一样。得先把这些身份统一起来,为什么?是为了做权限控制。有的公司要求 AI 只能回答你有权限看的信息——你可以问 AI 你老板挣多少钱,但如果背后那张表格你没权限访问,AI 就不能告诉你答案。\n\nDennis 说自己就最喜欢做这类软件:在幕后解决了极其困难的问题,而用户完全无感,只是问题一提,好答案立刻出现。\n\n当然,也有现阶段没办法的事。那些只存在人脑子里、从来没写下来的知识怎么办?Dennis 也很坦诚,承认暂时没办法,脑机接口还没接入 Unblocked 呢。\n\n回到最开始那个问题。AI 写代码很快,模型也越来越聪明,但每次启动,它还是像在这家公司的第一天。所以真正卡住智能体的,不是它不够聪明,而是它不认识你这家公司。差的是上下文,那就把上下文补上——这就是这一集最想让你带走的一句话。"
+}

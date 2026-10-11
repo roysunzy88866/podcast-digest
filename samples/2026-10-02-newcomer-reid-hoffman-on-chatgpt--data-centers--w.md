@@ -211,9 +211,9 @@ Hoffman 支持随社会进步扩大安全网，但明确说**他从来不是 [[U
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:ChatGPT · 同概念:对齐 (alignment)、智能体 (agent)、递归自我改进 (recursive self-improvement)</span>
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:智能体 (agent)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

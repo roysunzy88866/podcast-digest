@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>obsidian</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="obsidian">OB</div><div class="pi"><h1 class="pt">obsidian</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="obsidian">OB</div><div class="pi"><h1 class="pt">obsidian</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(05:15起):本集把它说成:本地文档管理软件，因为像 Codex 这样的工具会在本地生成大量文档，需要用它来把文件夹组织成有条理的「知识库」。
+- **[[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]]**(05:14起):本集提到成熟度第一阶段「人们用 Obsidian 或在本地收集一堆文件」来喂智能体上下文，一处带过。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
+- [[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Meng To]] · [[Akash]] · [[Codex]] · [[Cursor]] · [[hey gen]] · [[智能体]] · [[上下文]] · [[护栏]] · [[Figma]] · [[VS Code]]
+[[智能体]] · [[上下文]] · [[MCP]] · [[Meng To]] · [[Dennis Pilarinos]] · [[Akash]] · [[Unblocked]] · [[Codex]] · [[知识图谱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Meng To":1,"Akash":4,"Codex":82,"Cursor":84,"hey gen":1,"智能体":457,"上下文":30,"护栏":87,"Figma":22,"VS Code":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"上下文":31,"MCP":85,"Meng To":1,"Dennis Pilarinos":1,"Akash":4,"Unblocked":3,"Codex":83,"知识图谱":7,"Cursor":84}</script>
 
 <script>
 (function(){

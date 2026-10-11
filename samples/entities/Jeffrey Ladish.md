@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]] [[Jason Kelligan]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":194,"OpenAI":188,"Hugging Face":32,"NVIDIA":65,"智能体":457,"超级智能":9,"对齐":20,"递归自我改进":10,"沙箱":88}</script>
+<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":194,"OpenAI":189,"Hugging Face":32,"NVIDIA":65,"智能体":459,"超级智能":9,"对齐":21,"递归自我改进":11,"沙箱":89}</script>
 
 <script>
 (function(){

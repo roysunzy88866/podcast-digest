@@ -1,0 +1,714 @@
+{
+  "episode_id": "2026-08-17-devtools-dennis-pilarinos-from-unblocked-context",
+  "podcast": "Scaling DevTools",
+  "date": "2026-08-17",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "上下文",
+    "开发者工具",
+    "知识管理"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "dennis-pilarinos",
+      "type": "person",
+      "role": "host",
+      "name": "Dennis Pilarinos",
+      "file": "Dennis Pilarinos",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 229,
+          "t": [
+            1086.794,
+            1090.517
+          ],
+          "quote": "I have the longest last name, Greek last name you'd ever think of, but it's Dennis Pilarinos.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unblocked",
+      "type": "company",
+      "role": "company",
+      "name": "Unblocked",
+      "file": "Unblocked",
+      "primary": true,
+      "how_described": "本集介绍 Unblocked 是一个上下文层(context layer)公司，把散落在 GitHub、Slack、Notion 等系统里的团队知识整合成知识图谱喂给 AI 智能体，据称能让智能体完成任务快 40%-60%、token 用量省 30%-50%，且不要求用户改变工作流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            2.292,
+            4.413
+          ],
+          "quote": "I'm joined today by Dennis from Unblocked.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 27,
+          "t": [
+            63.821,
+            69.602
+          ],
+          "quote": "So could you tell us, I know you've been on kind of a journey since we last spoke, could you tell us a bit about Unblocked and what...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            75.467,
+            79.19
+          ],
+          "quote": "Unblocked originally started as a platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            94.76,
+            101.087
+          ],
+          "quote": "And so Unblocked has always been this context layer that had interfaces where people could ask questions and get answers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            134.918,
+            143.245
+          ],
+          "quote": "So what we're seeing is agents are getting their jobs, their tasks done between 40% to 60% faster with Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            636.575,
+            642.479
+          ],
+          "quote": "I think the Neuralink folks are kind of working on that or whatever, but we haven't used it unblocked yet, I would say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            743.666,
+            753.476
+          ],
+          "quote": "So an organization might choose to enforce a permissions-aware version of Unblocked, where they're like, you can't ask the question, how much money does my boss make?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            754.277,
+            763.048
+          ],
+          "quote": "Well, you can ask the question, but Unblocked can't give you the answer because you don't have access to the Excel or Google Sheet or whatever it might be that contains that information, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            763.409,
+            765.611
+          ],
+          "quote": "If you have access to it, then Unblocked will answer it to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1093.183,
+            1098.655
+          ],
+          "quote": "Well, if you type in Dennis Unblocked or Dennis Get Unblocked, you'll find me for sure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体比作「陌生的专家」：每次在终端里启动一个新智能体，都像入职第一天的新人，缺的不是智能而是上下文，因此会做大量无用的工具调用和源代码搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            208.636,
+            213.962
+          ],
+          "quote": "So all of that information is what is missing when an agent gets spawned in a terminal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            214.002,
+            217.386
+          ],
+          "quote": "Every time you spin a new agent up, it's like you on day one at that company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            376.622,
+            384.868
+          ],
+          "quote": "So this idea of hand-curating context gets you a level up in terms of the agent's ability to do their work, but you kind of hit a ceiling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            474.646,
+            481.53
+          ],
+          "quote": "There isn't like a fully reconciled view of the thing that the agent is looking for because it's only finding in one data source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1024.377,
+            1032.023
+          ],
+          "quote": "And what happens to you is you ask questions, your agent like, yeah, and you just get the answers that you need completely, opaquely.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集的核心论点：「Intelligence is not the gap. It's context that's missing.」团队管理上下文经历三个阶段——本地文件手工策展、通过 MCP 接入各系统、最终建统一的上下文层/知识图谱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            88.938,
+            94.203
+          ],
+          "quote": "And so in order for them to be able to write code in their business, in their organizations, they needed a bunch of context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            94.76,
+            101.087
+          ],
+          "quote": "And so Unblocked has always been this context layer that had interfaces where people could ask questions and get answers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            118.124,
+            126.931
+          ],
+          "quote": "And so people were helping that process, but agents needed the same level of context that people had and didn't have it available to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            127.252,
+            134.738
+          ],
+          "quote": "And so we've been focusing on making agents just far, far better with servicing that context layer and making it available to them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            154.528,
+            159.969
+          ],
+          "quote": "And like with, I guess context is like a big topic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            162.19,
+            169.392
+          ],
+          "quote": "What are the parts that like, are there any interesting things that you've like discovered about like what really matters in terms of context?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            184.686,
+            193.914
+          ],
+          "quote": "In some capacity, you had to build all this context as a consequence of digging through information or interrupting your coworkers, opening pull requests, getting feedback on your code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            199.717,
+            203.239
+          ],
+          "quote": "These are all the lessons and the context that you built as a consequence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            203.259,
+            207.621
+          ],
+          "quote": "And so over time, you've gotten to be really good at your job because you have all that context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            249.111,
+            255.935
+          ],
+          "quote": "We see people go through these phases of spoon-feeding a context to get them up to speed, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            257.894,
+            273.875
+          ],
+          "quote": "And it's, I guess like the challenge that I saw working with Context was like, we would try to, trying to decide like what, cause we were, we were building something that like used Context and they had to know about their business and stuff like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            330.575,
+            336.237
+          ],
+          "quote": "And then at some point they like sit down and work with someone else and they're like, well, is this how I think about context?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            339.898,
+            348.163
+          ],
+          "quote": "So you're hand curating this context and you check that in probably and it is now basically a static data source, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            376.622,
+            384.868
+          ],
+          "quote": "So this idea of hand-curating context gets you a level up in terms of the agent's ability to do their work, but you kind of hit a ceiling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            387.751,
+            392.614
+          ],
+          "quote": "The most natural thing to do is now surface the context through MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            485.832,
+            486.953
+          ],
+          "quote": "Or a context layer, I should say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            526.72,
+            533.226
+          ],
+          "quote": "It would just use a search, this is not a context necessary, but it would use a search tool to search Jack Bridger's secrets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            596.752,
+            598.532
+          ],
+          "quote": "But it's the one with the context, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            600.333,
+            601.353
+          ],
+          "quote": "It's context that's missing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            646.742,
+            656.534
+          ],
+          "quote": "Even when things are written down, inevitably, I think one of the hard parts about building this context layer is being able to find the truth when you have data sources that conflict with each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            663.543,
+            678.312
+          ],
+          "quote": "What do you think have been the biggest, typically the biggest wins for teams that use you guys versus DIY, managing context themselves?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            799.677,
+            825.658
+          ],
+          "quote": "One of the challenges I remember was like kind of knowing if it's an improvement I guess as well like you like make changes to how the context works I guess this is probably a broader problem but like knowing if like if you make changes to how the context is managed to know if that's like better than what you were doing before or like is it a part of um what what you do as well or",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            826.885,
+            831.367
+          ],
+          "quote": "I mean, I think a lot of people, I guess it depends on how the context is managed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            951.787,
+            962.911
+          ],
+          "quote": "And like, because I guess that's how they manage the context because it's just too big to like be searching Gmail constantly with like, out having all of those like filters and stuff on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1057.251,
+            1059.032
+          ],
+          "quote": "We've been talking about context for years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是成熟度第二阶段的做法：把业务系统暴露给 MCP 服务器能摆脱手工文档的「内容腐烂」，但智能体不会跨数据源交叉验证，找不到穷尽的真相。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            387.751,
+            392.614
+          ],
+          "quote": "The most natural thing to do is now surface the context through MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            393.855,
+            399.32
+          ],
+          "quote": "And so like the next kind of stage is like I'm going to expose all of my line of business systems to these MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            447.985,
+            453.651
+          ],
+          "quote": "They'll hit the Notion MCP, they'll hit the Slack MCP, they find something that looks right, and they carry on their merry way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            462.5,
+            470.384
+          ],
+          "quote": "So like MCP is a great enabler to help you get rid of this kind of content rot that happens when you hand curate this stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "本集把知识图谱描述为上下文层的最终形态：把所有数据源的信息拉到一起、清理丰富后建成的统一知识结构，供智能体直接调用、立刻得到核对过的答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            487.454,
+            500.442
+          ],
+          "quote": "And that's basically the idea of pulling all that information together, creating a knowledge graph, and then making it accessible for agents to call into and get answers right away, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            905.215,
+            913.781
+          ],
+          "quote": "So when we build this knowledge graph for the organization, it is already, it's literally up level the quality of the information or the tribal knowledge that exists in the company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "satisfaction-of-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "搜索满足感 (satisfaction of search)",
+      "file": "搜索满足感",
+      "primary": true,
+      "how_described": "本集借用放射学术语描述智能体的通病：像放射科医生发现第一个异常就忽略其他问题一样，智能体查一下 Notion、再查一下 Slack，找到看起来对的答案就继续干活，不去核实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            417.242,
+            418.542
+          ],
+          "quote": "It's called satisfaction of search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集用「打开一个新的 Claude Code 终端，它对你的组织了解多少？——一无所知」作为智能体缺上下文的例子，一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            239.465,
+            246.889
+          ],
+          "quote": "That's the mental model that I think about, which is you open a new Claude Code terminal, what does it know about your organization?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "confluence",
+      "type": "company",
+      "role": "company",
+      "name": "Confluence",
+      "file": "Confluence",
+      "primary": false,
+      "how_described": "本集以 Confluence 作为「写完那一刻就开始过时」的静态文档的典型例子，并作为需要统一用户身份的数据源之一被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            353.726,
+            359.55
+          ],
+          "quote": "I think everyone's had some experience with Confluence at some point or any kind of wiki or document.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            712.061,
+            718.267
+          ],
+          "quote": "You have an identity in GitHub, you have an identity in Slack, you have an identity in Notion, you have an identity in Confluence, whatever it might be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            992.757,
+            1005.736
+          ],
+          "quote": "We're forcing you to go and update all your historical confluence documentation or any of that kind of stuff for something that you might see a benefit of should that happen to be relevant to a conversation or a question that the AI uses.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集中 Notion 是 Unblocked 连接的数据源之一，也是说明智能体「找到一个答案就收工」时被查的第一个系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            447.985,
+            453.651
+          ],
+          "quote": "They'll hit the Notion MCP, they'll hit the Slack MCP, they find something that looks right, and they carry on their merry way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            712.061,
+            718.267
+          ],
+          "quote": "You have an identity in GitHub, you have an identity in Slack, you have an identity in Notion, you have an identity in Confluence, whatever it might be.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集中 Slack 是 Unblocked 连接的数据源之一；Dennis 强调用户该在 Slack 里怎么聊就怎么聊，工具不该要求改变工作流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            447.985,
+            453.651
+          ],
+          "quote": "They'll hit the Notion MCP, they'll hit the Slack MCP, they find something that looks right, and they carry on their merry way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            712.061,
+            718.267
+          ],
+          "quote": "You have an identity in GitHub, you have an identity in Slack, you have an identity in Notion, you have an identity in Confluence, whatever it might be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            876.997,
+            892.106
+          ],
+          "quote": "So I think it's a very unreasonable thing to ask an organization to go through all their docs and remove all the stuff that's obsolete, which is not going to happen, or go to Slack and delete all the Slack messages that are no longer relevant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            989.874,
+            992.236
+          ],
+          "quote": "But changing how you have a conversation in Slack",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集中 GitHub 是 Unblocked 整合的团队知识来源之一，并作为用户拥有多个分散身份、需要统一身份以做权限控制的系统举例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            712.061,
+            718.267
+          ],
+          "quote": "You have an identity in GitHub, you have an identity in Slack, you have an identity in Notion, you have an identity in Confluence, whatever it might be.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "obsidian",
+      "type": "company",
+      "role": "company",
+      "name": "Obsidian",
+      "file": "Obsidian",
+      "primary": false,
+      "how_described": "本集提到成熟度第一阶段「人们用 Obsidian 或在本地收集一堆文件」来喂智能体上下文，一处带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            314.29,
+            327.634
+          ],
+          "quote": "So in the most like nascent version of that maturity model, I think it largely stems from people using Obsidian or like collecting a bunch of files that they have locally that helps those agents understand how they should perform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

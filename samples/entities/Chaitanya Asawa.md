@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":457,"临床决策支持":1,"评估":5,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":27,"临床记录":1}</script>
+<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":459,"临床决策支持":1,"评估":1,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":27,"临床记录":1}</script>
 
 <script>
 (function(){

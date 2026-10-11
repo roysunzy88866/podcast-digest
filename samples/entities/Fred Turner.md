@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":194,"Salesforce":35,"YC":17,"智能体":457,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":194,"Salesforce":35,"YC":17,"智能体":459,"SaaS 已死":1,"一次性代码":1}</script>
 
 <script>
 (function(){

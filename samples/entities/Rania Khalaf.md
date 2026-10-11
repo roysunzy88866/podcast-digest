@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":457,"MCP 服务器":2,"AI 网关":1,"智能体身份":1,"幻觉":12,"开源":39,"Databricks":23}</script>
+<script type="application/json" class="pd-epn">{"WSO2":1,"首席 AI 官":1,"智能体":459,"MCP 服务器":2,"AI 网关":1,"智能体身份":1,"幻觉":12,"开源":39,"Databricks":23}</script>
 
 <script>
 (function(){

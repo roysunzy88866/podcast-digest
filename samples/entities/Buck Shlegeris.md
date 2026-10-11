@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Efron":2,"OpenAI":188,"Hugging Face":32,"Redwood Research":4,"Anthropic":194,"Meter":4,"智能体":457,"未对齐":2,"AI 接管":2,"评分器":1}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":2,"OpenAI":189,"Hugging Face":32,"Redwood Research":4,"Anthropic":194,"Meter":4,"智能体":459,"未对齐":2,"AI 接管":2,"评分器":1}</script>
 
 <script>
 (function(){

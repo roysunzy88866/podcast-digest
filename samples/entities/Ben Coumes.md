@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jay Mok":1,"PayPal":8,"智能体":457,"智能体授权":1,"Claude Code":99,"token":32,"保险库":1,"OAuth":3,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Jay Mok":1,"PayPal":8,"智能体":459,"智能体授权":1,"Claude Code":100,"token":32,"保险库":1,"OAuth":3,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

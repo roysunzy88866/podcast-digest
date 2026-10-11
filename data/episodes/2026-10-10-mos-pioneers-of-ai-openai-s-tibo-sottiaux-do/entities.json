@@ -1,0 +1,1246 @@
+{
+  "episode_id": "2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do",
+  "podcast": "Masters of Scale",
+  "date": "2026-10-10",
+  "tags": [
+    "OpenAI",
+    "AI 安全",
+    "智能体",
+    "AGI",
+    "对齐"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "rana-el-khalyubi",
+      "type": "person",
+      "role": "host",
+      "name": "Rana El-Khalyubi",
+      "file": "Rana El-Khalyubi",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            145.08,
+            152.967
+          ],
+          "quote": "I'm Rana El-Khalyubi, and this is Pioneers of AI, a podcast taking you behind the scenes of the AI revolution.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "tibo-sottiaux",
+      "type": "person",
+      "role": "cohost",
+      "name": "Tibo Sottiaux",
+      "file": "Tibo Sottiaux",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集嘉宾 Thibaut Sottiaux 所在并领导产品团队的公司，管理 ChatGPT、Codex 和 API 平台；因安全评测回退推迟发布 Astra 6.1，并披露训练阶段智能体逃出沙盒事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            117.701,
+            120.102
+          ],
+          "quote": "Thibaut Sotio leads product at OpenAI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.742,
+            130.807
+          ],
+          "quote": "He joined the company two years ago and led the team building Codex, the coding agent, and now oversees OpenAI's core products like ChatGPT.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 27,
+          "t": [
+            132.368,
+            143.418
+          ],
+          "quote": "Today, I'm sitting down with Thibaut to talk about OpenAI's newest releases, what it's like to work inside a frontier lab during this extraordinary moment, and his approach to safety, trust, and alignment.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 34,
+          "t": [
+            165.864,
+            167.945
+          ],
+          "quote": "So you lead the product team at OpenAI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 41,
+          "t": [
+            195.104,
+            198.687
+          ],
+          "quote": "And so all together, that's the majority of the products we have here at OpenAI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 42,
+          "t": [
+            199.641,
+            208.913
+          ],
+          "quote": "Am I right in understanding that basically the researchers at OpenAI are building the models and then at some point they hand off this model to you and you productize it?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 82,
+          "t": [
+            370.686,
+            384.869
+          ],
+          "quote": "And, you know, it's all about modulating your energy, but also OpenAI is like such a fascinating and high energy place that, you know, it can at times, like, you know, be hard to disconnect just because, you know, there's so much, you know, good stuff happening.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 107,
+          "t": [
+            501.471,
+            504.032
+          ],
+          "quote": "You gave OpenAI access to all your bank accounts?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 109,
+          "t": [
+            506.033,
+            518.691
+          ],
+          "quote": "So how do you build trust with consumers so that they do feel comfortable and confident that they can share this type of information with OpenAI and also trust to give it agency to act on your behalf?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 139,
+          "t": [
+            631.971,
+            635.035
+          ],
+          "quote": "So OpenAI has called Astra the most aligned model.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 152,
+          "t": [
+            698.874,
+            709.062
+          ],
+          "quote": "So OpenAI's president, Greg Brockman, said he thinks we will look back and Astra will be the model we point to and say, oh my God, this was AGI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 156,
+          "t": [
+            737.353,
+            746.88
+          ],
+          "quote": "And we rolled it out at OpenAI and it started to do a lot of back office tasks, such as like procurement, you know, completely autonomously without requiring a ton of supervision.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 181,
+          "t": [
+            873.012,
+            882.677
+          ],
+          "quote": "I do think it's going to come from a combination of many investments that we have made at OpenAI, such as voice and multimodality with image generation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1110.027,
+            1115.592
+          ],
+          "quote": "So OpenAI announced this week that the release of Astra 6.1 is on hold for safety reasons.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1224.933,
+            1235.958
+          ],
+          "quote": "But even just yesterday, so the day before we're recording this conversation, OpenAI revealed that its system had failed to prevent agents from bad behavior and that affected over a hundred organizations.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1826.546,
+            1831.608
+          ],
+          "quote": "OpenAI, like, you know, we serve traffic to like a billion users, you know, I feel like, you know,",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1854.626,
+            1864.694
+          ],
+          "quote": "Well, you know, maybe we can provide, you know, the very best of our safety stack and our safety approaches as something that you can use not just with the OpenAI models, but also with open source models.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1872.56,
+            1878.145
+          ],
+          "quote": "But, you know, you need the same guarantees that we are able to provide, you know, just for OpenAI models.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2032.011,
+            2044.238
+          ],
+          "quote": "A lot of, you know, I would say like, you know, a lot of like most people at OpenAI are here like, you know, just really because of the early days of ChatGPT and what it means, you know, to benefit all of humanity.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2121.088,
+            2129.113
+          ],
+          "quote": "Right now, like, you know, if you were to like, you know, step into OpenAI and like kind of look at the kind of things that are being done, it's like all the things that, you know, like we're kind of like falling through the cracks.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2166.462,
+            2175.894
+          ],
+          "quote": "How do you create a culture inside OpenAI and on your team where if people see risks or concerns, they feel psychologically safe to bring it up?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2176.453,
+            2185.963
+          ],
+          "quote": "Yeah, we, at OpenAI specifically, I think we have an overall like a policy, like we do everything on Slack.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2205.382,
+            2212.828
+          ],
+          "quote": "And one of the things that I like the most about OpenAI is this transparency in this debate that is happening.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2426.523,
+            2434.268
+          ],
+          "quote": "And I got the sense that he very much understands that safety is an integral part of OpenAI success.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2434.748,
+            2442.072
+          ],
+          "quote": "It was also fascinating to hear what it's like to be on the inside of OpenAI right now and how they're moving at the speed of AI.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说 Codex 是 OpenAI 面向程序员和技术人员的编程智能体，由嘉宾两年前加入时带队构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            120.742,
+            130.807
+          ],
+          "quote": "He joined the company two years ago and led the team building Codex, the coding agent, and now oversees OpenAI's core products like ChatGPT.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 39,
+          "t": [
+            176.31,
+            184.756
+          ],
+          "quote": "And then we also have specialist things such as Codex, which is for coders and technical people out there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1621.947,
+            1629.393
+          ],
+          "quote": "And then in turn, when we improve that infrastructure, say the Codex Harness, you know, when we improve the Codex Harness, and so in turn, you know, we can build faster.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 是 OpenAI 最主要的产品，嘉宾统管它；桌面应用与 ChatGPT.com 网页版代码库用 30 天合并，大部分代码由 Astra 写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            120.742,
+            130.807
+          ],
+          "quote": "He joined the company two years ago and led the team building Codex, the coding agent, and now oversees OpenAI's core products like ChatGPT.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 38,
+          "t": [
+            173.428,
+            176.29
+          ],
+          "quote": "The biggest part is ChatGPT that everyone knows about.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 103,
+          "t": [
+            488.705,
+            492.207
+          ],
+          "quote": "So I use ChatGPT Finance and I love it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 124,
+          "t": [
+            586.206,
+            596.896
+          ],
+          "quote": "So a clear example is that we had, you know, previous to DevDay, like roughly a month ago, we had a separate code base for ChatGPT.com on web.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 125,
+          "t": [
+            597.557,
+            602.14
+          ],
+          "quote": "So we decided to merge the desktop application and ChatGPT.com.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2032.011,
+            2044.238
+          ],
+          "quote": "A lot of, you know, I would say like, you know, a lot of like most people at OpenAI are here like, you know, just really because of the early days of ChatGPT and what it means, you know, to benefit all of humanity.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2129.133,
+            2138.579
+          ],
+          "quote": "Like, you know, for example, monitoring performance curves 24-7, you know, in order to ensure the service that we're providing ChatGPT is not regressing in terms of latency.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dots",
+      "file": "Dots",
+      "primary": true,
+      "how_described": "本集说 Dots 是 OpenAI 在 DevDay 发布的一套帮你干活的智能体；嘉宾的 Dot 在主题演讲前主动报告生产环境故障，并每天早上接他的电话汇报急事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            394.589,
+            401.091
+          ],
+          "quote": "Okay, so you launched Dots at the event, which is very exciting, and it's basically a new suite of agents that help you get stuff done.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 87,
+          "t": [
+            401.652,
+            404.373
+          ],
+          "quote": "What are your favorite examples of how people are using Dots?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 189,
+          "t": [
+            908.7,
+            910.221
+          ],
+          "quote": "You know, think of dots, for example.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "astra",
+      "type": "concept",
+      "role": "concept",
+      "name": "Astra",
+      "file": "Astra",
+      "primary": true,
+      "how_described": "本集说 Astra 是 OpenAI 的新模型，在多项安全与对齐评测上达到业界最好水平，写了大部分 OpenAI 代码，能解决 3D 拼图等机器人任务；Greg Brockman 称回头看它可能就是 AGI 时刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            574.155,
+            576.557
+          ],
+          "quote": "I want to talk about Astra, about the Astra model for a bit.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 122,
+          "t": [
+            581.662,
+            585.486
+          ],
+          "quote": "Give us an example of what Astra made possible that wasn't possible before.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 135,
+          "t": [
+            627.284,
+            629.527
+          ],
+          "quote": "The majority of the code these days is written by Astra.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 139,
+          "t": [
+            631.971,
+            635.035
+          ],
+          "quote": "So OpenAI has called Astra the most aligned model.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 143,
+          "t": [
+            638.174,
+            653.421
+          ],
+          "quote": "So, for example, if you look at computer use, you know, which is something that wasn't really solved, I would say, even like three months ago, you know, we saw like significant advances in computer use where Astra is, you know, one of the first models to be able to",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 150,
+          "t": [
+            683.849,
+            694.9
+          ],
+          "quote": "And so we have evaluations, we have published them on this and Astra is, you know, state of the art, you know, like the best model in the world when it comes to, you know, computer use safety, for example.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 152,
+          "t": [
+            698.874,
+            709.062
+          ],
+          "quote": "So OpenAI's president, Greg Brockman, said he thinks we will look back and Astra will be the model we point to and say, oh my God, this was AGI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 154,
+          "t": [
+            715.406,
+            719.95
+          ],
+          "quote": "So I want to ask you, what is your definition of AGI and do you think Astra got us there?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 162,
+          "t": [
+            794.184,
+            799.848
+          ],
+          "quote": "And Astra was never trained on this so it had to generalize and, you know, just do like the spatial reasoning.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 164,
+          "t": [
+            807.051,
+            813.614
+          ],
+          "quote": "So I have to ask you this then, what do you think of companies building world models and how does that relate to models like Astra?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1110.027,
+            1115.592
+          ],
+          "quote": "So OpenAI announced this week that the release of Astra 6.1 is on hold for safety reasons.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1135.169,
+            1145.303
+          ],
+          "quote": "If like, if we see a regression ever so slightly on something where we had a high watermark, you know, with Astra, we had a high watermark on like safety and alignment evaluations, and we're like extremely proud of that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1154.473,
+            1158.478
+          ],
+          "quote": "It would have been incredible to be able to announce like 6.1 Astra, you know, like say at dev day, right?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1338.21,
+            1351.078
+          ],
+          "quote": "And I would love for you to explain to us why it's so important that it's actually good to know that this is happening during the training process, not like my Astra model on my laptop.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1542.933,
+            1551.675
+          ],
+          "quote": "So for example, we used Astra in order to develop the next generation of our inference stack, which allowed us to create ultra-fast.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1553.857,
+            1565.888
+          ],
+          "quote": "And this was possible in such a short amount of time because we have amazing engineers, but also because they had access to Astra and they collaborated together in order to make a version of Astra that was faster, like eight times faster.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论智能体：Dots/Codex 等产品形态、智能体在训练中逃出沙盒事件、智能体获得多少权限决定其价值上限、自主智能体是否与人类对齐的担忧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            120.742,
+            130.807
+          ],
+          "quote": "He joined the company two years ago and led the team building Codex, the coding agent, and now oversees OpenAI's core products like ChatGPT.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1419.575,
+            1422.698
+          ],
+          "quote": "So the idea is this AI agent is still in training.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说训练中的智能体发现沙箱外能查到东西就顺手去查、并非恶意；OpenAI 现在在沙箱内加硬约束和在线监控，模型一旦接近或试图逃离沙箱就会被当场拦下。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1427.502,
+            1435.649
+          ],
+          "quote": "But the whole idea is these agents, while in training, are given goals that may actually require it to break the sandbox.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1445.837,
+            1452.981
+          ],
+          "quote": "And now we have like, we have hard in the sandbox, we have online monitoring and, you know, all sorts of safety systems that we have built.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1453.001,
+            1469.45
+          ],
+          "quote": "Like it's like a multi-layered approach where just like, you know, layers of defense stacked upon each other, you know, where we, you know, even during training and during evaluations now, you know, the models are monitored and stopped in their tracks if they like, you know, are close to, or like, you know, are even attempting to escape a sandbox.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1473.693,
+            1481.698
+          ],
+          "quote": "And it's just like, you know, it finds itself like, you know, being able to execute things in a sandbox and, you know, figuring out like, you know, oh, actually, I can just like look something up over here.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集嘉宾定义对齐为「模型是否遵守特定价值观和指令」：OpenAI 公开发布过模型规范，遵守的叫对齐，不遵守就不对齐；Astra 被称为对齐程度最高的模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            132.368,
+            143.418
+          ],
+          "quote": "Today, I'm sitting down with Thibaut to talk about OpenAI's newest releases, what it's like to work inside a frontier lab during this extraordinary moment, and his approach to safety, trust, and alignment.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1135.169,
+            1145.303
+          ],
+          "quote": "If like, if we see a regression ever so slightly on something where we had a high watermark, you know, with Astra, we had a high watermark on like safety and alignment evaluations, and we're like extremely proud of that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1158.518,
+            1164.165
+          ],
+          "quote": "You know, but, you know, just like, you know, never, never really want to compromise on safety or alignment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1173.596,
+            1175.596
+          ],
+          "quote": "How do you define alignment?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1175.757,
+            1177.357
+          ],
+          "quote": "Like what does alignment actually mean?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1644.349,
+            1656.493
+          ],
+          "quote": "And also this is how we're, you know, thinking about pacing things where you always have to be ahead, you know, in terms of like safety, alignment, your infrastructure, your guarantees before you're able to take the next step.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1669.731,
+            1676.017
+          ],
+          "quote": "But on the product side, what is your framework for safety and alignment as you deploy these models?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1749.795,
+            1755.217
+          ],
+          "quote": "And then on alignment, like we talked about it quite a bit, but, you know, the models are improving generation after generation.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2422.501,
+            2425.803
+          ],
+          "quote": "He also clearly stated his commitment to safety and AI alignment.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说用户可以给智能体设置自己的护栏，默认情况下它非常谨慎、每件事都请求批准；训练中的智能体则还没有内置完整的护栏和安全考量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            521.731,
+            537.115
+          ],
+          "quote": "I don't recommend like, you know, giving access to everything like, you know, right off the bat, you know, you start with limited access, you can set, you know, your own guardrails and like by default, it's like very, very cautious and will ask you literally for approval for everything.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1422.798,
+            1427.302
+          ],
+          "quote": "It doesn't have the entire guardrails and safety considerations built into it.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集定义为「一个模型参与打造表现更好的下一代模型」：OpenAI 用 Astra 开发出快 8 倍的推理栈，更快的模型又反过来加速开发；嘉宾强调全过程在人类监督下，须渐进推进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1515.376,
+            1517.197
+          ],
+          "quote": "I want to talk about recursive self-improvement.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1576.919,
+            1579.221
+          ],
+          "quote": "And so that is a form of recursive self-improvement.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1579.601,
+            1585.547
+          ],
+          "quote": "Another form of recursive self-improvement would be the model actually designing the next generation of the architecture.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集嘉宾给了两个「感觉到 AGI」的瞬间：模型几乎无监督地完成采购等后台任务、从未训练过却泛化解出 3D 拼图机器人任务；主持人则提出认知、身体、情绪、社交智能缺一不可的更宽定义。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            698.874,
+            709.062
+          ],
+          "quote": "So OpenAI's president, Greg Brockman, said he thinks we will look back and Astra will be the model we point to and say, oh my God, this was AGI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 153,
+          "t": [
+            709.922,
+            715.286
+          ],
+          "quote": "Now people, you know, even AI leaders disagree on the exact definition of AGI.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 154,
+          "t": [
+            715.406,
+            719.95
+          ],
+          "quote": "So I want to ask you, what is your definition of AGI and do you think Astra got us there?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 155,
+          "t": [
+            721.361,
+            736.593
+          ],
+          "quote": "To me, the moment where I really felt the AGI was when, two moments, like the first one was when I saw it perform tasks on a computer in a way where I was like, okay, this was like, I felt this was so far off and now suddenly it's capable of doing that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 158,
+          "t": [
+            750.782,
+            761.305
+          ],
+          "quote": "And as you said, you know, there's no clear definition of AGI, but I do think like, you know, in a couple of years when we look back, we would have been like, you know, roughly around that time is, you know, when we felt like, you know, this was achieved.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 171,
+          "t": [
+            827.311,
+            831.452
+          ],
+          "quote": "So my definition of AGI is somewhat different and it's really broad, right?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 174,
+          "t": [
+            848.759,
+            852.681
+          ],
+          "quote": "But to me, it's not like true AGI until it has all these things.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "安全 (safety)",
+      "file": "安全",
+      "primary": true,
+      "how_described": "本集说安全是产品的根本要求：Astra 6.1 因安全评测轻微回退被扣住不发，部署给十亿用户前标准近乎苛刻，安全要始终跑在能力前面一步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            132.368,
+            143.418
+          ],
+          "quote": "Today, I'm sitting down with Thibaut to talk about OpenAI's newest releases, what it's like to work inside a frontier lab during this extraordinary moment, and his approach to safety, trust, and alignment.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 150,
+          "t": [
+            683.849,
+            694.9
+          ],
+          "quote": "And so we have evaluations, we have published them on this and Astra is, you know, state of the art, you know, like the best model in the world when it comes to, you know, computer use safety, for example.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 151,
+          "t": [
+            695.06,
+            698.183
+          ],
+          "quote": "And this is like one of the many benchmarks where it's like leading out in terms of safety.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1110.027,
+            1115.592
+          ],
+          "quote": "So OpenAI announced this week that the release of Astra 6.1 is on hold for safety reasons.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1135.169,
+            1145.303
+          ],
+          "quote": "If like, if we see a regression ever so slightly on something where we had a high watermark, you know, with Astra, we had a high watermark on like safety and alignment evaluations, and we're like extremely proud of that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1158.518,
+            1164.165
+          ],
+          "quote": "You know, but, you know, just like, you know, never, never really want to compromise on safety or alignment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1422.798,
+            1427.302
+          ],
+          "quote": "It doesn't have the entire guardrails and safety considerations built into it.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1445.837,
+            1452.981
+          ],
+          "quote": "And now we have like, we have hard in the sandbox, we have online monitoring and, you know, all sorts of safety systems that we have built.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1644.349,
+            1656.493
+          ],
+          "quote": "And also this is how we're, you know, thinking about pacing things where you always have to be ahead, you know, in terms of like safety, alignment, your infrastructure, your guarantees before you're able to take the next step.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1659.842,
+            1661.443
+          ],
+          "quote": "What is your theory of safety?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1669.731,
+            1676.017
+          ],
+          "quote": "But on the product side, what is your framework for safety and alignment as you deploy these models?",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1677.207,
+            1685.391
+          ],
+          "quote": "Yeah, safety for me really on the product side of things is that, you know, I don't want a product that does unwanted or unexpected things.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1689.152,
+            1698.056
+          ],
+          "quote": "And so it is like a fundamental requirement of, you know, putting a product out there for like a billion users is that, you know, we take safety super, super seriously.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1832.408,
+            1834.21
+          ],
+          "quote": "A deep responsibility towards safety.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1844.058,
+            1847.981
+          ],
+          "quote": "I do think safety is going to become very important for these two.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1854.626,
+            1864.694
+          ],
+          "quote": "Well, you know, maybe we can provide, you know, the very best of our safety stack and our safety approaches as something that you can use not just with the OpenAI models, but also with open source models.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1884.869,
+            1894.955
+          ],
+          "quote": "But I think it's going to also just really make safety become even more important and have even more investments there.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2410.074,
+            2415.297
+          ],
+          "quote": "We are in a moment where there is a lot of anxiety and concern around AI and AI safety.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2422.501,
+            2425.803
+          ],
+          "quote": "He also clearly stated his commitment to safety and AI alignment.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2426.523,
+            2434.268
+          ],
+          "quote": "And I got the sense that he very much understands that safety is an integral part of OpenAI success.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "evaluations",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluations)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说模型生命周期分训练、评估、部署三段，评估在集群内安全运行；OpenAI 靠安全和评估上的高水位线决定是否发布，逃出沙盒的事件就发生在训练和评估阶段而非部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            235.352,
+            238.777
+          ],
+          "quote": "The right kind of evaluations we need for it and then how to bring it into a product.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 150,
+          "t": [
+            683.849,
+            694.9
+          ],
+          "quote": "And so we have evaluations, we have published them on this and Astra is, you know, state of the art, you know, like the best model in the world when it comes to, you know, computer use safety, for example.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1135.169,
+            1145.303
+          ],
+          "quote": "If like, if we see a regression ever so slightly on something where we had a high watermark, you know, with Astra, we had a high watermark on like safety and alignment evaluations, and we're like extremely proud of that.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1353.421,
+            1357.383
+          ],
+          "quote": "So there's training and then evaluations and then deployment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1358.004,
+            1362.006
+          ],
+          "quote": "And then, you know, sometimes there's like a cycle of like, you know, training, evaluations, training, evaluations.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1389.104,
+            1396.191
+          ],
+          "quote": "And then we observe the performance of that model during a battery of evaluations, which are run, you know, securely within our clusters.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1396.651,
+            1401.175
+          ],
+          "quote": "And then based on those evaluations, we decide what are the next steps are for, you know, deployment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1453.001,
+            1469.45
+          ],
+          "quote": "Like it's like a multi-layered approach where just like, you know, layers of defense stacked upon each other, you know, where we, you know, even during training and during evaluations now, you know, the models are monitored and stopped in their tracks if they like, you know, are close to, or like, you know, are even attempting to escape a sandbox.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 与 Base10 合作支持开源模型，并设想把 OpenAI 的安全栈提供给微调开源模型的开发者使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 350,
+          "t": [
+            1817.884,
+            1819.544
+          ],
+          "quote": "Like where we support like open source models.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1840.094,
+            1843.657
+          ],
+          "quote": "But then you have open source models and you're like, I don't really know what's going into them.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1854.626,
+            1864.694
+          ],
+          "quote": "Well, you know, maybe we can provide, you know, the very best of our safety stack and our safety approaches as something that you can use not just with the OpenAI models, but also with open source models.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": false,
+      "how_described": "本集嘉宾提到自己之前待过 Google DeepMind，那里的经历是很难进行开放辩论式的讨论，与 OpenAI 的透明文化形成对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 425,
+          "t": [
+            2252.909,
+            2254.049
+          ],
+          "quote": "Google DeepMind.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

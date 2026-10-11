@@ -256,9 +256,9 @@ Ladish 认为所有白领工作都在 AI 公司的瞄准范围内。
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:对齐 (alignment)、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)、递归自我改进 (recursive self-improvement)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
-- [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

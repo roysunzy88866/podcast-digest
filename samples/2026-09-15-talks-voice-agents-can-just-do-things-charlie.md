@@ -114,9 +114,9 @@ Charlie 最后给的建议是：构建语音智能体时，**不要从「我想�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、护栏 (guardrails)、ChatGPT、Codex</span>
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、计算机使用 (computer use)、ChatGPT</span>
 - [[2026-10-06-talks-cooking-with-codex-charlie-guo-gabriel-c|用 Codex 做菜：从截图到自动化的六步烹饪法]]<span class="pd-rz">同嘉宾:Charlie Guo · 同公司:OpenAI · 同概念:计算机使用 (computer use)、Codex</span>
-- [[2026-09-15-talks-realtime-voice-agents-with-frontier-inte|让语音智能体又快又聪明：Elise AI 的级联架构]]<span class="pd-rz">同概念:工具调用 (tool calling)、语音智能体 (voice agents)、转录 (transcription)</span>
 
 </div>
 <div class="pd-ex">

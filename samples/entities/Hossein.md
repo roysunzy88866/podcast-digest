@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":5,"Salesforce":35,"Databricks":23,"评估":5,"可观测性":42,"智能体":457,"LLM":60,"trace":5,"编码智能体":32,"BTQL":1}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"Salesforce":35,"Databricks":23,"评估":1,"可观测性":42,"智能体":459,"LLM":60,"trace":5,"编码智能体":32,"BTQL":1}</script>
 
 <script>
 (function(){

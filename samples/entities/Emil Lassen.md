@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":457,"红队测试":7,"幻觉":12,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":459,"红队测试":7,"幻觉":12,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

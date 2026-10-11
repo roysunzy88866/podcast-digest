@@ -36,11 +36,11 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":23,"Snowflake":20,"MosaicML":2,"Neon":4,"Omnigen":1,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":457}</script>
+<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":23,"Snowflake":20,"MosaicML":2,"Neon":4,"Omnigen":1,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":459}</script>
 
 <script>
 (function(){

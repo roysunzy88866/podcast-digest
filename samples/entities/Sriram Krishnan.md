@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Sofia Puccini":4,"开源权重":9,"Frontier Labs":4,"蒸馏":1,"智能体":457,"Kimi K3":4,"Hugging Face":32,"Anthropic":194,"OpenAI":188}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Sofia Puccini":4,"开源权重":9,"Frontier Labs":4,"蒸馏":1,"智能体":459,"Kimi K3":4,"Hugging Face":32,"Anthropic":194,"OpenAI":189}</script>
 
 <script>
 (function(){

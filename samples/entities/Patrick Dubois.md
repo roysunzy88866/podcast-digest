@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":10,"智能体":457,"智能体编码":4,"PR":6,"CI-CD":16,"可观测性":42,"护栏":87,"token":32}</script>
+<script type="application/json" class="pd-epn">{"Tamuz Dubnov":1,"Daniel Jones":1,"Simon Maple":10,"智能体":459,"智能体编码":4,"PR":6,"CI-CD":16,"可观测性":42,"护栏":88,"token":32}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>188</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>189</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -196,6 +196,7 @@ unlisted: true
 - **[[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]]**(07:24起):本集提它是从不在乎收入的研究实验室如今被迫操心真金白银、并进军物理 AI 的例子
 - **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(15:31起):本集说 OpenAI 这样的赢家会选中某些芯片方案并投入软件生态去扶持，并提到其 speculate and verify 的推理方向。
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(38:55起):本集说它从 2022 年 11 月起从零涨到 200 亿美元收入，以此论证当下并非互联网泡沫式的局面
+- **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(01:57起):本集嘉宾 Thibaut Sottiaux 所在并领导产品团队的公司，管理 ChatGPT、Codex 和 API 平台；因安全评测回退推迟发布 Astra 6.1，并披露训练阶段智能体逃出沙盒事件。
 
 ## ① 提到它的金句
 
@@ -273,7 +274,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*188 集*
+*189 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -463,6 +464,7 @@ unlisted: true
 - [[2026-10-08-thepeel-why-a-chemist-left-7b-to-bet-on-physical|《投了18年「物理AI」的人，怎么看眼下的机器人热潮》]] — 作为被讨论公司(提及)
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -470,7 +472,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[Cursor]] · [[NVIDIA]] · [[Codex]] · [[护栏]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":457,"Anthropic":194,"ChatGPT":104,"推理":89,"Google":69,"Cursor":84,"NVIDIA":65,"Codex":82,"护栏":87,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"Anthropic":194,"ChatGPT":105,"推理":89,"Google":69,"Cursor":84,"NVIDIA":65,"Codex":83,"护栏":88,"Claude":93}</script>
 
 <script>
 (function(){

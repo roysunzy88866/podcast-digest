@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Justin Johnson]] · [[World Labs]] · [[世界模型]] · [[Marble]] · [[Harj]] · [[Martin Casado]] · [[模拟]] · [[Michael Lee]]
 
-<script type="application/json" class="pd-epn">{"智能体":457,"OpenAI":188,"Justin Johnson":3,"World Labs":5,"世界模型":14,"Marble":5,"Harj":1,"Martin Casado":5,"模拟":9,"Michael Lee":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"OpenAI":189,"Justin Johnson":3,"World Labs":5,"世界模型":14,"Marble":5,"Harj":1,"Martin Casado":5,"模拟":9,"Michael Lee":1}</script>
 
 <script>
 (function(){

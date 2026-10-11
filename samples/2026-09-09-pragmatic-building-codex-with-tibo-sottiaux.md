@@ -154,9 +154,9 @@ Peter Steinberger 让主持人问他:日程表像俄罗斯方块,你怎么还这
 
 **换个口味**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)、护栏 (guardrails)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI、Google · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:harness、智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI · 同概念:智能体 (agent)、护栏 (guardrails)</span>
 
 </div>
 </div>

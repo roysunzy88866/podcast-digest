@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":7,"Interactions API":1,"Managed Agents":6,"智能体":457,"函数调用":3,"沙箱":88,"Gemini API":1,"anti-gravity":1}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":8,"Interactions API":1,"Managed Agents":6,"智能体":459,"函数调用":3,"沙箱":89,"Gemini API":1,"anti-gravity":1}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":457,"沙箱":88,"MCP":84,"MCP 网关":1,"harness":63,"泄露的凭证":4,"渐进式披露":4,"XAA":1,"Docker":8,"SBX":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"沙箱":89,"MCP":85,"MCP 网关":1,"harness":63,"泄露的凭证":4,"渐进式披露":4,"XAA":1,"Docker":8,"SBX":2}</script>
 
 <script>
 (function(){

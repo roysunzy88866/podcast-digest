@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>27</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>28</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,6 +38,7 @@ unlisted: true
 - **[[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]]**(15:19起):嘉宾的收尾判断：「我相信 AGI 将是被说出来的，而不是被打出来的」
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(48:19起):本集说 Ali 把「AI 大多数时候比你周围大多数人都聪明」定义为 AGI——每场演讲约 90% 听众举手认同,这已无可争议。
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(02:08起):本集开场借《城市与群星》讲一座由 AGI 治理的未来城市;Amjad 又疑惑『ARC-AGI 分数都上去了、这些模型接近 AGI 了,为什么下棋这么烂』
+- **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(11:38起):本集嘉宾给了两个「感觉到 AGI」的瞬间：模型几乎无监督地完成采购等后台任务、从未训练过却泛化解出 3D 拼图机器人任务；主持人则提出认知、身体、情绪、社交智能缺一不可的更宽定义。
 
 ## ① 提到它的金句
 
@@ -89,7 +90,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*27 集*
+*28 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为概念(提及)
@@ -118,14 +119,15 @@ unlisted: true
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|《语音智能体不一定要说话:OpenAI 的三种语音交互模式》]] — 作为概念
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为概念
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为概念
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[NVIDIA]] · [[智能体]] · [[Lenny]] · [[LLM]] · [[推理]]
+[[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[Google]] · [[智能体]] · [[NVIDIA]] · [[Lenny]] · [[Codex]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":188,"Anthropic":194,"ChatGPT":104,"Meta":48,"Google":69,"NVIDIA":65,"智能体":457,"Lenny":68,"LLM":60,"推理":89}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":189,"Anthropic":194,"ChatGPT":105,"Meta":48,"Google":69,"智能体":459,"NVIDIA":65,"Lenny":68,"Codex":83,"LLM":60}</script>
 
 <script>
 (function(){

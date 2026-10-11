@@ -1,0 +1,631 @@
+{
+  "episode_id": "2026-10-10-twist-jason-reacts-to-japanese-founder-pitches",
+  "podcast": "This Week in Startups",
+  "date": "2026-10-10",
+  "tags": [
+    "日本创业生态",
+    "创业路演",
+    "风险投资",
+    "AI 应用",
+    "投资逻辑"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "techstars-tokyo",
+      "type": "company",
+      "role": "company",
+      "name": "Techstars Tokyo",
+      "file": "Techstars Tokyo",
+      "primary": true,
+      "how_described": "本集说它是 2024 年开始运营、由 Jetro 和日本政府赞助的加速器，每年招 12 家公司（六家来自日本、六家来自海外），目标是帮日本创业公司走向全球并吸引外国创始人进入日本市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.534,
+            11.555
+          ],
+          "quote": "He's the managing director of the Techstars Tokyo Accelerator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            539.125,
+            541.727
+          ],
+          "quote": "Techstars Tokyo started in 2024, three years ago.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "founder-university",
+      "type": "company",
+      "role": "company",
+      "name": "Founder University",
+      "file": "Founder University",
+      "primary": true,
+      "how_described": "本集说它是 Jason 团队办的加速器之前的项目，12 周、每周两次的战术性实用讲座，在美国已做 12 期，正在日本做第二期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            45.693,
+            60.701
+          ],
+          "quote": "I am very lucky because Jetro asked me last year, hey, would you come to Japan and bring your founder university and bring it to Japan?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            223.42,
+            232.17
+          ],
+          "quote": "And so I told Jetro, we can do Founder University as long as it starts in January.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 61,
+          "t": [
+            249.923,
+            253.404
+          ],
+          "quote": "And then in the summer, we also have Founder University, so twice a year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            398.901,
+            404.966
+          ],
+          "quote": "Okay, so I'll just tell you briefly about Founder University.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            462.692,
+            468.516
+          ],
+          "quote": "The Accelerator, Founder University, 12 weeks, twice a week, tactical and practical talks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            482.084,
+            487.407
+          ],
+          "quote": "And in January, we start the third one, japan.founder.university.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1428.478,
+            1429.899
+          ],
+          "quote": "Founder University is amazing.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2391.293,
+            2400.3
+          ],
+          "quote": "So what we're always contending with in our accelerator and then in Founder University is getting people from the free pilot mode to the paid pilot mode.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3811.723,
+            3824.394
+          ],
+          "quote": "Let's pretend that you and I are deciding, Yuki, who we're going to accept to Techstars or to Launch or Founder University.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1163,
+          "t": [
+            5034.697,
+            5040.881
+          ],
+          "quote": "And then I would give it to Mimi, but since they went through Founder University, I shouldn't vote for you.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "arabat",
+      "type": "company",
+      "role": "company",
+      "name": "Arabat",
+      "file": "Arabat",
+      "primary": true,
+      "how_described": "本集说它用橙皮等廉价农业食品废料替代昂贵化学品，从电子垃圾中回收锂、钴、镍和稀土，比竞争对手便宜 60%、清洁 50%，已与日本大公司 Tayo Yuden 签约做 5 万美元、六个月的付费试点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 507,
+          "t": [
+            2089.099,
+            2094.883
+          ],
+          "quote": "Arabat helps electronics manufacturers to recover valuable materials from their waste.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2096.003,
+            2098.685
+          ],
+          "quote": "I'm Ralph, CEO and co-founder of Arabat.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "japan-media",
+      "type": "company",
+      "role": "company",
+      "name": "Japan Media",
+      "file": "Japan Media",
+      "primary": true,
+      "how_described": "本集说它是把漫画和动画创作与全球发行结合的平台，AI 工具只需与智能体对话就能生成漫画、改编动画、翻译 10 种语言并分发到 Netflix 等平台，速度是原来的 10 倍、成本降为五分之一，手里握有 33 万个日本 IP 授权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 816,
+          "t": [
+            3538.841,
+            3540.861
+          ],
+          "quote": "Hello, we are building Japan Media.",
+          "speaker": "SPEAKER_13"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3540.881,
+            3546.923
+          ],
+          "quote": "Japan Media is a platform that combines manga and anime creation with global distribution.",
+          "speaker": "SPEAKER_13"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3588.847,
+            3594.715
+          ],
+          "quote": "Japan media can make manga and anime 10x faster and one-fifth cost cut.",
+          "speaker": "SPEAKER_13"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3859.404,
+            3879.355
+          ],
+          "quote": "Customer conversations, analyzing them with Crazia, 3D printed stakes with jujuju, jujujujujujuju, and then Japan Media, AI tools for making manga at a tenth of the cost, or David from soon AI creating digital twins of founders who have left companies to bring them back from the grave.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 875,
+          "t": [
+            3886.879,
+            3893.145
+          ],
+          "quote": "It's hard to pick, and then also I have to disclose that Japan Media, Yuko was a textures company.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 876,
+          "t": [
+            3893.745,
+            3898.59
+          ],
+          "quote": "But I would go with Japan Media.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 919,
+          "t": [
+            4025.376,
+            4037.182
+          ],
+          "quote": "I'm not sure if it's going to scale to an exponential degree, but in terms of customer finding and initial growth, I think Crazia is... Japan Media looks like it could scale to the moon, right?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "claudezio",
+      "type": "company",
+      "role": "company",
+      "name": "Claudezio",
+      "file": "Claudezio",
+      "primary": true,
+      "how_described": "本集说它做对话数据分析，用 AI 智能体分析海量用户对话、发现流失风险并自动触达玩家，已有四个付费企业客户、付费客户留存率 100%，被 Yuki 称为「容易的买卖」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 770,
+          "t": [
+            3276.099,
+            3277.8
+          ],
+          "quote": "My name is Yosuke from Claudezio.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "assethub",
+      "type": "company",
+      "role": "company",
+      "name": "AssetHub",
+      "file": "AssetHub",
+      "primary": true,
+      "how_described": "本集说它为 IP 内容打造 3D AI 智能体，能自动完成 3D 角色建模与一致性审核，把单个角色的制作时间从一周缩到一天以内，先以 FDE 模式与 IP 持有方合作再导出为软件，Jason 建议它「先做工具，再做市场」、围绕工具建生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 638,
+          "t": [
+            2635.708,
+            2642.793
+          ],
+          "quote": "Hi, I'm Takuya, I'm the co-founder of AssetHub, and we are making the 3D AI agent for IP contents.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "rumilight",
+      "type": "company",
+      "role": "company",
+      "name": "RumiLight",
+      "file": "RumiLight",
+      "primary": true,
+      "how_described": "本集说它做 AI 服务器里 GPU 与 GPU 之间的高速直连通道，第二代产品能把速度提升八倍以上，被 Yuki 选为「疯狂外卡」，Jason 认为这类团队如果做成会很快被 Nvidia、AMD 之类的巨头收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 956,
+          "t": [
+            4169.475,
+            4170.475
+          ],
+          "quote": "I'm Jacob from RumiLight.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "toraru",
+      "type": "company",
+      "role": "company",
+      "name": "Toraru",
+      "file": "Toraru",
+      "primary": true,
+      "how_described": "本集说它是 Genji 背后的公司：让海外日本流行文化粉丝像打 Uber 一样在地图上选地点、时间、任务，「租」一个身在日本本地人当化身，实时共享对方的视觉和听觉，远程逛店、拿货、下单再寄到家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 982,
+          "t": [
+            4298.034,
+            4299.936
+          ],
+          "quote": "I'm Megumi, co-founder of Toraru.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            4694.338,
+            4696.019
+          ],
+          "quote": "The company is Toraru.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            4696.779,
+            4697.379
+          ],
+          "quote": "Toraru.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "genji",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genji",
+      "file": "Genji",
+      "primary": true,
+      "how_described": "本集把它说成 Toraru 打造的沉浸式体验平台，被 Jason 直呼「疯狂且有趣」，并引 William Gibson「街头自会为技术找到用途」，说它是流媒体、电商、位置数据在街头被重新组合出的新玩法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 983,
+          "t": [
+            4300.336,
+            4301.498
+          ],
+          "quote": "We are building Genji.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 984,
+          "t": [
+            4301.778,
+            4304.861
+          ],
+          "quote": "Genji is immersive experience platform service.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 990,
+          "t": [
+            4328.937,
+            4330.739
+          ],
+          "quote": "That's why we developed Genji.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4331.279,
+            4332.901
+          ],
+          "quote": "Genji is platform service.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 992,
+          "t": [
+            4333.381,
+            4344.531
+          ],
+          "quote": "So Genji lets you achieve your goals remotely through local worker acting on your behalf while sharing sight, hearing, and touch.",
+          "speaker": "SPEAKER_09"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            4376.289,
+            4380.911
+          ],
+          "quote": "So Genji brings a personal immersive experience for you without physical trouble.",
+          "speaker": "SPEAKER_09"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 智能体 (AI agent)",
+      "file": "AI 智能体",
+      "primary": true,
+      "how_described": "本集多家里路演公司都以 AI agent 为核心产品叙事：AssetHub 做 3D AI 智能体、Claudezio 的智能体自动与流失风险玩家对话、Japan Media 只需与 AI 智能体聊天就能产出漫画并分发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 638,
+          "t": [
+            2635.708,
+            2642.793
+          ],
+          "quote": "Hi, I'm Takuya, I'm the co-founder of AssetHub, and we are making the 3D AI agent for IP contents.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2693.456,
+            2697.437
+          ],
+          "quote": "This is our AI agent for making the high-level IP contents.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3278.18,
+            3282.863
+          ],
+          "quote": "We are building the AI agent or turning the conversation data into your business growth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3318.211,
+            3326.401
+          ],
+          "quote": "So Alex select this segment and turn on our AI agent and the agent start the conversation with the users automatically with personalized messages.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3609.323,
+            3612.066
+          ],
+          "quote": "Only you have to do is just chat with the AI agent.",
+          "speaker": "SPEAKER_13"
+        },
+        {
+          "seg": 828,
+          "t": [
+            3612.626,
+            3616.11
+          ],
+          "quote": "And the AI agent can make manga and adapt into anime.",
+          "speaker": "SPEAKER_13"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product-market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集说 PMF 是「世界上最难的东西」，而它感觉正是日本人的核心信条之一——从炸猪排店到列车员，每个人对工作细节的极致在意就像创始人对待自己的初创公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            936.028,
+            951.994
+          ],
+          "quote": "You understand, as a culture, product-market fit, PMF, the hardest thing in the world, feels like it is one of the core tenets, one of the core skill sets of the Japanese people, is product-market fit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            963.081,
+            968.746
+          ],
+          "quote": "How does product market fit become such a deep and important part of the Japanese culture?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "paid-pilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "付费试点 (paid pilot)",
+      "file": "付费试点",
+      "primary": true,
+      "how_described": "本集说做试点时你真正想要的是付费的试点，并以 Arabat 为例：前两次免费，第三次才拿到 5 万美元、六个月的付费试点——从免费转付费是加速器一直要面对的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 567,
+          "t": [
+            2380.602,
+            2385.083
+          ],
+          "quote": "We have done three pilots and now it's a paid pilot from Japanese customer.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2391.293,
+            2400.3
+          ],
+          "quote": "So what we're always contending with in our accelerator and then in Founder University is getting people from the free pilot mode to the paid pilot mode.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "idea-maze",
+      "type": "concept",
+      "role": "concept",
+      "name": "创意迷宫 (idea maze)",
+      "file": "创意迷宫",
+      "primary": false,
+      "how_described": "本集在对室内导航公司的点评中说「你已经身处创意迷宫之中」，提醒创始人必须研究所有尝试过同一方向的人及其结局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            1943.524,
+            1945.287
+          ],
+          "quote": "So you're in the idea maze.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "e-waste",
+      "type": "concept",
+      "role": "concept",
+      "name": "电子垃圾与稀土回收 (e-waste)",
+      "file": "电子垃圾与稀土回收",
+      "primary": true,
+      "how_described": "本集说仅 AI 数据中心到 2030 年每年就将产生超过 2 亿公斤电子垃圾，而其中稀土的全球回收产能 90% 集中在中国，Jason 建议直接拦截正要运往中国的电子垃圾粉末、买下处理权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 512,
+          "t": [
+            2112.672,
+            2119.375
+          ],
+          "quote": "That's the amount of e-waste generated by AI data center alone every year by 2030.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2165.57,
+            2181.354
+          ],
+          "quote": "Our patented technology takes in e-waste and scrap and using more than 50 fruits or vegetables, it can selectively recover critical minerals for the industry like lithium, cobalt, nickel and rare earth.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "ai-twin",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字孪生 (AI twin)",
+      "file": "数字孪生",
+      "primary": false,
+      "how_described": "本集说 TwinAI 为软件开发者打造 AI 孪生，在员工流失前捕捉其思考过程，用带个人化反馈的强化学习微调，两位投资人都把它选为自己偏好的方向之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 848,
+          "t": [
+            3723.065,
+            3727.408
+          ],
+          "quote": "Our AI twin can meta-prompt AI tools such as Claude Code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3734.554,
+            3737.996
+          ],
+          "quote": "Our AI twin can be deployed locally or in the cloud.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

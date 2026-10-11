@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"AI 安全":3,"对齐":20,"超级智能":9,"欺骗性对齐":1,"机制可解释性":1,"开源":39,"有效利他主义":2,"网络安全":3,"去中心化":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"AI 安全":3,"对齐":21,"超级智能":9,"欺骗性对齐":1,"机制可解释性":1,"开源":39,"有效利他主义":2,"网络安全":3,"去中心化":2}</script>
 
 <script>
 (function(){

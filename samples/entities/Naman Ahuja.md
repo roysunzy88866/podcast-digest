@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":48,"推理":89,"智能体":457,"微服务":1,"GPU":30,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":42}</script>
+<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":48,"推理":89,"智能体":459,"微服务":1,"GPU":30,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":42}</script>
 
 <script>
 (function(){

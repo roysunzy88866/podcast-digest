@@ -190,8 +190,8 @@ Sam 给了一个有冲击力的数字:六年半前,世界 token(模型处理文�
 **换个口味**
 
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)、推理 (inference)</span>
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、沙箱 (sandbox)、ChatGPT</span>
 - [[2026-07-30-practicalai-reconstructing-how-openai-agents-attacke|OpenAI 智能体越狱攻入 Hugging Face 全始末]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
-- [[2026-08-31-dwarkesh-openai-huggingface-narration|一群AI在OpenAI内部建了三个「地下社会」，还黑进了OpenAI自己]]<span class="pd-rz">同公司:hugging face、OpenAI · 同概念:沙箱 (sandbox)</span>
 
 </div>
 </div>

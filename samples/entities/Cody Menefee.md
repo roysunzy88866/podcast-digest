@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":60,"上下文":30,"轮牧":1,"vibe coder":2,"知识库":2}</script>
+<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":60,"上下文":31,"轮牧":1,"vibe coder":2,"知识库":2}</script>
 
 <script>
 (function(){

@@ -38,11 +38,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":20,"ACV":4,"前置部署工程":3,"RFP":1,"智能体":457,"产品市场契合":28}</script>
+<script type="application/json" class="pd-epn">{"Peregrine":2,"数据集成":1,"Nick Noone":1,"派驻工程师":1,"Palantir":20,"ACV":4,"前置部署工程":3,"RFP":1,"智能体":459,"产品市场契合":29}</script>
 
 <script>
 (function(){

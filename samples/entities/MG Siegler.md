@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":48,"Muse":6,"OpenAI":188,"Dots":3,"Microsoft":30,"Google":69,"Anthropic":194,"Apple":23,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"Instinct":5,"Meta":48,"Muse":6,"OpenAI":189,"Dots":4,"Microsoft":30,"Google":69,"Anthropic":194,"Apple":23,"Amazon":32}</script>
 
 <script>
 (function(){

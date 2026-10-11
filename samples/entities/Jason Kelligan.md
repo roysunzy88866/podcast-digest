@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":87,"红队测试":7,"开源模型":4,"前沿模型":27,"智能体":457,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":88,"红队测试":7,"开源模型":4,"前沿模型":27,"智能体":459,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
 
 <script>
 (function(){

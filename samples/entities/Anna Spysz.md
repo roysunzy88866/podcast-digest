@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":457,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":87,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":88,"商家能力清单":1,"大语言模型":10,"Stripe":48,"Google":69}</script>
 
 <script>
 (function(){

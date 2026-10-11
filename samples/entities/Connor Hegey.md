@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":457,"子智能体":6,"harness":63,"提示词缓存":4,"记忆":27,"评估":5,"LLM 当裁判":10,"沙箱":88,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":459,"子智能体":6,"harness":63,"提示词缓存":4,"记忆":27,"评估":1,"LLM 当裁判":10,"沙箱":89,"人在回路":21}</script>
 
 <script>
 (function(){

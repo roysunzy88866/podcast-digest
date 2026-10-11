@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":29,"循环":10,"Factory":5,"Tesla 智能体":1,"代码审查":24,"验证器":7,"上下文":30}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy Fajani":3,"TESL":4,"技能":29,"循环":10,"Factory":5,"Tesla 智能体":1,"代码审查":24,"验证器":7,"上下文":31}</script>
 
 <script>
 (function(){

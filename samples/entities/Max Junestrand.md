@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Legora":3,"智能体":457,"微调":35,"评估":5,"GPT 3.5":1,"大语言模型":10,"LangChain":10,"Azure":3,"Bloomberg":3,"OpenAI":188}</script>
+<script type="application/json" class="pd-epn">{"Legora":3,"智能体":459,"微调":35,"评估":1,"GPT 3.5":1,"大语言模型":10,"LangChain":10,"Azure":3,"Bloomberg":3,"OpenAI":189}</script>
 
 <script>
 (function(){

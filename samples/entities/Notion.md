@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Notion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>17</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]]**(04:20起):本集把它列为最令人振奋的横向生产力公司之一，靠好模板对抗空白页做得很好。
 - **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(28:19起):本集作为对比项提及：过去产品经理的活儿散落在各种工具里，比如待在 Notion 中。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(08:09起):本集说 Notion 是伪装成文字处理器的无代码数据库，与 Canva 一样面临被智能体绕过的风险，Jason 团队已经不再需要它
+- **[[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]]**(07:27起):本集中 Notion 是 Unblocked 连接的数据源之一，也是说明智能体「找到一个答案就收工」时被查的第一个系统。
 - **[[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]]**(30:36起):本集仅作为 Parag 个人用例一笔带过，说他使用 Notion 的智能体构建自定义会议准备智能体，每次开会前自动做几十到几百次网络搜索
 - **[[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]]**(30:36起):本集提到 Parag 使用 Notion 的智能体构建自定义会议准备智能体，结合 Parallel API 做数十到数百次网络搜索
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(07:11起):本集提到 Notion 是堆栈中用于计划工作或捕获决策的工具之一
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*10 条*
+*11 条*
 
 ![[2025-12-07-lennys-surge-ai-edwin-chen#^q7]]
 
@@ -44,6 +45,8 @@ unlisted: true
 
 ![[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it#^q3]]
 
+![[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context#^q5]]
+
 ![[2026-08-26-talks-ai-in-gtm-at-notion-flora-liu#^q4]]
 
 ![[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m#^q9]]
@@ -54,7 +57,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*16 集*
+*17 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为被讨论公司
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
@@ -65,6 +68,7 @@ unlisted: true
 - [[2026-07-24-indepth-how-gamma-pulled-off-their-ai-pivot-jon|《Gamma 联创复盘：押注空白页，赌出一亿用户》]] — 作为被讨论公司
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司(提及)
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
+- [[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-parallel-s-parag-agrawal-building-a-new|《前 Twitter CEO Parag：给智能体重造一个搜索引擎和一个新互联网》]] — 作为被讨论公司(提及)
 - [[2026-08-25-trainingdata-search-was-built-for-humans-parallel-s-p|《Parag：为什么智能体搜索不该照搬人类那一套》]] — 作为被讨论公司(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为被讨论公司(提及)
@@ -77,9 +81,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Figma]] · [[Claude]] · [[护栏]] · [[Anthropic]] · [[MCP]] · [[Codex]]
+[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Figma]] · [[Claude]] · [[MCP]] · [[护栏]] · [[GitHub]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":457,"ChatGPT":104,"OpenAI":188,"Slack":33,"Figma":22,"Claude":93,"护栏":87,"Anthropic":194,"MCP":84,"Codex":82}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"ChatGPT":105,"OpenAI":189,"Slack":34,"Figma":22,"Claude":93,"MCP":85,"护栏":88,"GitHub":32,"Codex":83}</script>
 
 <script>
 (function(){

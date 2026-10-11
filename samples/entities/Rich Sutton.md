@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":10,"灾难性遗忘":3,"持续反向传播":1,"大语言模型":10,"智能体":457,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Oak Lab":1,"苦涩的教训":10,"大世界假说":1,"持续学习":1,"合成数据":10,"灾难性遗忘":3,"持续反向传播":1,"大语言模型":10,"智能体":459,"强化学习":1}</script>
 
 <script>
 (function(){

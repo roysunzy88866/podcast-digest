@@ -117,8 +117,8 @@ Brackett 目前即将走出隐身状态，更多消息可以在 bracket.ai 上�
 **顺着「智能体」挖下去**
 
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、记忆 (memory)、Claude</span>
+- [[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|AI 写代码很快，但它每天都是入职第一天]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、知识图谱 (knowledge graph)</span>
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:上下文 (context)、智能体 (agent)、知识图谱 (knowledge graph)</span>
-- [[2026-09-17-sed-scaling-agent-workloads-at-vercel|把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve]]<span class="pd-rz">同概念:工作流 (workflow)、智能体 (agent)、记忆 (memory)</span>
 
 </div>
 <div class="pd-ex">

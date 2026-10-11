@@ -143,7 +143,7 @@ Claire 说 Sol 一直是她的「任劳任怨的工作马」,中档工程任务�
 
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|Sam Altman:AI 是新的文艺复兴,不是工业革命]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、Decisions API、Ultrafast、智能体 (agent)、Astra</span>
 - [[2026-08-30-lennys-ais-third-era-the-rise-of-persistent|OpenAI 产品负责人谈：AI时代怎么做产品、写文档、抬野心]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、Sites、智能体 (agent)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:OpenAI · 同概念:ChatGPT、Codex、智能体 (agent)</span>
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:Astra、ChatGPT、Codex、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

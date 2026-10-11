@@ -205,7 +205,7 @@ Musk 的 [[Grok|Grok]] 发布了叫 Annie 的角色——主持人现场连线�
 
 - [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同公司:ChatGPT、OpenAI</span>
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:ChatGPT、OpenAI</span>
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]]<span class="pd-rz">同公司:OpenAI、ChatGPT</span>
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:ChatGPT、OpenAI</span>
 
 </div>
 <div class="pd-ex">

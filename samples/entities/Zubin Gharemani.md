@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":7,"不确定性":1,"贝叶斯规则":1,"大语言模型":10,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":8}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":8,"不确定性":1,"贝叶斯规则":1,"大语言模型":10,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":8}</script>
 
 <script>
 (function(){

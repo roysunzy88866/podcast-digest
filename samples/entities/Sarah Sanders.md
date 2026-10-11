@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Tibo Sottiaux]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":457,"提示词注入":1,"沙箱":88,"护栏":87,"子智能体":6,"Yara":1,"上下文引擎":4}</script>
+<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":459,"提示词注入":1,"沙箱":89,"护栏":88,"子智能体":6,"Yara":1,"上下文引擎":4}</script>
 
 <script>
 (function(){

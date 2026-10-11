@@ -143,9 +143,9 @@ dots 架构上有个很多人没意识到的点：harness 不跑在你那台机�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:ChatGPT、Codex、dots、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Codex、OpenAI · 同概念:护栏 (guardrails)、智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:MCP、护栏 (guardrails)、智能体 (agent)</span>
-- [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|Sam Altman:AI 是新的文艺复兴,不是工业革命]]<span class="pd-rz">同公司:ChatGPT、Codex、dots、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

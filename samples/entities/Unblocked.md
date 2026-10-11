@@ -7,17 +7,25 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Unblocked</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Unblocked">UN</div><div class="pi"><h1 class="pt">Unblocked</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Unblocked">UN</div><div class="pi"><h1 class="pt">Unblocked</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]]**(00:02起):本集介绍 Unblocked 是一个上下文层(context layer)公司，把散落在 GitHub、Slack、Notion 等系统里的团队知识整合成知识图谱喂给 AI 智能体，据称能让智能体完成任务快 40%-60%、token 用量省 30%-50%，且不要求用户改变工作流程。
 - **[[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]]**(09:04起):本集主角公司:构建一个上下文引擎,为人类员工和智能体提供组织上下文;还有代码评审智能体、开源工具和上下文引擎模拟器。
 - **[[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]]**(00:50起):嘉宾 Brandon 所在公司,做面向工程团队及周边技术团队的上下文引擎,让智能体和员工随时查询组织上下文
 
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context#^q1]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
+- [[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|《AI 写代码很快，但它每天都是入职第一天》]] — 作为被讨论公司
 - [[2026-08-27-talks-how-to-generate-mergeable-code-with-a-co|《智能体为什么总是新员工？给它们造一个上下文引擎》]] — 作为被讨论公司
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|《差距不再是智能，而是上下文：给智能体造一个「上下文引擎」》]] — 作为被讨论公司
 
@@ -25,9 +33,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[上下文引擎]] · [[智能体]] · [[MCP]] · [[Peter Werry]] · [[Brandon Waselnuk]] · [[Claude Code]] · [[上下文工程]] · [[上下文窗口]] · [[RAG]] · [[代码评审智能体]]
+[[智能体]] · [[MCP]] · [[搜索满足感]] · [[上下文引擎]] · [[Claude Code]] · [[GitHub]] · [[Dennis Pilarinos]] · [[Peter Werry]] · [[Brandon Waselnuk]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"上下文引擎":4,"智能体":457,"MCP":84,"Peter Werry":1,"Brandon Waselnuk":1,"Claude Code":99,"上下文工程":17,"上下文窗口":16,"RAG":28,"代码评审智能体":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":459,"MCP":85,"搜索满足感":2,"上下文引擎":4,"Claude Code":100,"GitHub":32,"Dennis Pilarinos":1,"Peter Werry":1,"Brandon Waselnuk":1,"上下文":31}</script>
 
 <script>
 (function(){

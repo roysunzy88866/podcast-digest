@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]] [[Linda Du]] [[Andrew Wang]]
+[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":89,"微调":35,"BitNet":1,"LoRa":1,"数据中心":23,"去中介化":2,"智能体":457,"GPU":30}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":89,"微调":35,"BitNet":1,"LoRa":1,"数据中心":23,"去中介化":2,"智能体":459,"GPU":30}</script>
 
 <script>
 (function(){

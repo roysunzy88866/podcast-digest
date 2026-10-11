@@ -141,9 +141,9 @@ Greg 指出一个被忽视的问题：[[ChatGPT|ChatGPT]] 有超 10 亿周活用
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:Astra、ChatGPT、OpenAI、Codex · 同概念:AGI、对齐 (alignment)、沙箱 (sandbox)</span>
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|语音智能体不一定要说话:OpenAI 的三种语音交互模式]]<span class="pd-rz">同公司:OpenAI、ChatGPT · 同概念:AGI、计算机使用 (computer use)</span>
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra]]<span class="pd-rz">同公司:Astra、ChatGPT、OpenAI、Codex</span>
-- [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|当AI能替你建网站：一个OpenAI产品负责人的花式用法]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Codex · 同概念:计算机使用 (computer use)</span>
 
 </div>
 <div class="pd-ex">
