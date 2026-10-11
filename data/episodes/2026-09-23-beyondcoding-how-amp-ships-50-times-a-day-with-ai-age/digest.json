@@ -1,0 +1,161 @@
+{
+  "title_zh": "一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法",
+  "tldr": "Amp 工程师 Dario Hamidi 讲述他们如何取消拉取请求、一天部署 50 次，并用 AI 智能体处理每天几十条错误报告。",
+  "digest_md": "Amp 是一家只有 20 人左右的软件公司，团队每天往生产环境部署大约 50 次，中间没有任何拉取请求（pull request，即代码提交后等别人审阅再合并的传统流程）。工程师 Dario Hamidi 在 Beyond Coding 播客里解释了他们为什么敢这么做，以及围绕 AI 智能体踩过的坑。\n\n## 为什么说该取消拉取请求了？\n\nDario 的说法很直接：不管你用不用 AI，取消拉取请求都能让生产力提升两位数甚至三位数的百分比 [01:00 Unknown]。\n\n理由是拉取请求本质上来自互不信任的环境——就像网上一个陌生人想改你的项目，你当然要先检查他改了什么。但在一个互相信任的团队里，这套流程反而成了枷锁。\n\n更实际的问题是：没人真的认真审查。理想情况下，审阅者应该把分支拉下来、跑起来、亲手点一遍，但这成本太高，没人做。于是拉取请求挂在那里好几天，双方都想赶紧合并，审查变成走过场。而万一发现架构方向错了，那已经是所有工作都做完之后——最糟糕的发现问题的时机。\n\n## 直接入主干的团队，靠什么保持信心？\n\nDario 建议，如果明天宣布所有拉取请求自动关闭、想发布就必须直接推送到主干，会发生什么？大家会自己做更多验证——比如让智能体展示截图、录像，证明功能真的能跑。\n\n他还点出一个心理变化：想开拉取请求这个念头本身就是信号，通常意味着你害怕改动会弄坏东西，而恐惧往往来自改动太大。取消拉取请求后，人们自然会拆成小块提交，因为小块是安全的。\n\n想试的团队可以做两周实验：不开拉取请求，所有人直接推主干。照常讨论、照常帮同事看代码，只是不阻塞发布。第一周会很痛苦，第二周大家就会爱上小块提交。\n\n他的观察是：**有没有拉取请求，质量没差别，差别在交付速度** [08:27 Unknown]。而且正因为随时能发版，出了错误报告也能用同样的速度修掉，哪怕只是回滚一次提交。\n\n## 智能体权限：调严了挨骂，调松了也挨骂\n\n去年 Amp 解决过一个非常头疼的问题：智能体的每个工具调用要不要用户批准？结果发现，不管怎么选，用户永远是一半对一半地不满意——管得太严，有人抱怨不安全；放得太开，有人抱怨干点小事要点 10 次批准。\n\nDario 的结论是：**这根本不是产品决策问题，而是沟通问题** [12:12 Unknown]。正确做法是让用户自己选择阵营，再给每个阵营配好合理的默认值。\n\nAmp 内部干脆不做逐条批准。原因不是模型完美，而是他们把环境里的“锋利边缘”都磨掉了：就算智能体想删生产数据库，数据库连接本身就没有删除权限，到那里就结束了。\n\n## 出事的团队，都是在“抛刀杂耍”\n\n那些被智能体删掉生产数据库的案例，Dario 的比喻是：他们在抛刀杂耍 [14:47]。往往是刚接触 Cursor、Lovable 这类工具的新手，被这些工具突然带来的可能性兴奋到了，就照着智能体的建议照做，不知道要先配置行级安全。有经验的开发者会说，我们换个不抛刀的玩法行不行？\n\n原则是：**什么该归模型层管，什么该归周围确定性的系统管，这是智能体工程的核心技能** [16:41 Unknown]。不想让智能体推代码，去配置 GitHub 权限；不想让它写生产数据库，就只给它只读凭证。\n\n## Orb：不花钱的待机虚拟机\n\nAmp 现在力推的方案叫 orb——本质是虚拟机，但不只是虚拟机：不运行就不计费，彼此互联，每个 orb 自带一个可以点开的门户页面，直接预览正在开发的应用 [18:44 Unknown]。\n\n可以一口气开 100 个，睡一觉它们就都停了。这解决了并行开发的经典痛点：没人愿意手动管理 Git worktree、解决端口冲突、为不同分支各起一套数据库——每个 orb 就是一套独立的小环境。\n\n有人把 orb 当成“开了外挂的上下文窗口”：一个项目一个 orb，一个月回去一次，架构决策、项目背景全都在里面。\n\n## 最难的两个问题：凭证和状态\n\n远程执行环境里，凭证很麻烦。把密钥写进 orb 的文件里最省事，但 orb 长期存在，密钥会一直躺在磁盘上。理想方案是短时效凭证，但极少有服务商允许你创建只活 7 天或 25 分钟的 API 密钥 [21:56 Unknown]，「创建 API 密钥」流程里根本没有这个选项 [22:11 Unknown]。\n\n> 【背景】节目之外的一个常见折中是用 1Password 的服务账户：智能体只拿到一个短时令牌，密钥本身不落盘。\n\n状态管理同样琐碎：3 个浏览器标签页连着同一个智能体会话，每个标签页是一个身份，底下又挂着来来去去的 WebSocket 连接——合上笔记本电脑、地铁过隧道，连接都会断。听起来简单，做起来每个细节都要做决定。Amp 的经验是先发出去、拿到反馈，才知道一半的方案根本不用考虑。\n\n## 一天 70 条错误报告，怎么消化？\n\nAmp 发版太频繁，用户反馈也多——每天 60 到 70 条错误报告，比如“渐进式网页应用的图标在安卓上很难看”。他们把报告功能做进了产品本身，智能体可以直接读取。\n\nDario 现在每天开工时说一句话：把所有未解决的问题过一遍，按标准挑 10 个分给我；每个问题开一个 orb 去分类——追问用户、提出修复方案，或者判定不是问题。他只负责逐个检查方案并推进，连给用户的邮件都可以直接从 Amp 里发 [39:16 Unknown]。\n\n有个例子：用户想要 shell 补全脚本。智能体写完，Dario 看了一眼觉得可能慢，让它量一下——按一下补全要 600 毫秒。换个实现方式，降到 30 毫秒，顺手又加上了 PowerShell 支持，四种 shell 的补全脚本就都有了。放在两年前，这种需求根本不值得做；现在全程后台跑，几乎不花他精力。\n\n## 警惕一种新型过劳\n\nDario 提醒，智能体时代认知负荷没有上限了——“你想把自己烧干完全可以” [43:06 Unknown]。他提到网上流传的“AI 精神崩溃”案例：有人不停让智能体干活、不停做决定，一直干到凌晨 4 点。所以用智能体来降低自己的认知负荷，本身就是新的必修课。\n\n另一个反直觉的提醒：以前开发成本高，你会先问“这真是个问题吗、值得修吗”；现在做方案太容易，反而容易跳过这个问题直接动手。他说，还是得先退一步，问清楚用户到底想干什么 [44:49 Unknown]。\n\n## 本集带走\n\n- 取消拉取请求、直接推主干，能显著提升交付速度，且质量不会因此下降；小块提交本身就是安全保障。\n- 信任智能体的关键不在模型，而在环境：不给数据库删除权限、不在 GitHub 给推送权限，磨掉锋利边缘。\n- Orb 这类按需计费的远程环境让大规模并行开发变得便宜，不用再手动管理 worktree 和端口冲突。\n- 大批量重复工作（如每日错误报告分诊）可以交给智能体批量处理，人只做判断和把关。\n- 开发变快之后，更要保留“这值得做吗”这个旧问题；认知负荷管理是智能体时代的新技能。",
+  "quotes": [
+    {
+      "en": "And I would even go as far as saying, even if you're not using AI today, you can get double-digit percentage, if not triple-digit percentage gains in productivity if you get rid of pull requests in your organization.",
+      "zh": "我甚至敢说，即使你今天没有用 AI，如果你在你的组织里取消 pull request，你也可以获得两位数百分比甚至三位数百分比的生产力提升。",
+      "timestamp": "01:59",
+      "speaker": "Dario Hamidi"
+    },
+    {
+      "en": "So if you feel the desire to open up a pull request, that's a signal to you that something is off.",
+      "zh": "所以如果你感到有打开一个 pull request 的冲动，那对你来说是一个信号，说明有什么地方不对劲。",
+      "timestamp": "04:02",
+      "speaker": "Dario Hamidi"
+    },
+    {
+      "en": "It doesn't change the quality, whether you have pull requests or whether you don't have pull requests.",
+      "zh": "质量不会改变，无论你有没有 pull request。",
+      "timestamp": "08:27",
+      "speaker": "Dario Hamidi"
+    },
+    {
+      "en": "Now, humans are the bottleneck with their limited attention because so much parallel work is going on.",
+      "zh": "现在，人类才是瓶颈，因为他们注意力有限，因为有这么多并行的工作在进行。",
+      "timestamp": "34:51",
+      "speaker": "Dario Hamidi"
+    },
+    {
+      "en": "There is no ceiling anymore for cognitive load.",
+      "zh": "认知负荷已经没有上限了。",
+      "timestamp": "43:06",
+      "speaker": "Dario Hamidi"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:59",
+      "speaker": "说话人",
+      "en": "And I would even go as far as saying, even if you're not using AI today, you can get double-digit percentage, if not triple-digit percentage gains in productivity if you get rid of pull requests in your organization.",
+      "zh": "我甚至敢说，即使你今天没有用 AI，如果你在你的组织里取消 pull request，你也可以获得两位数百分比甚至三位数百分比的生产力提升。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "说话人",
+      "en": "Yeah, people are going to be double checking all of their work themselves first and foremost, likely going to do agentic verification.",
+      "zh": "是的，人们首先会自己反复检查他们所有的代码，很可能还会做智能体验证。"
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "说话人",
+      "en": "What I was trying to hint at is that the psychology of making changes also changes towards making smaller changes.",
+      "zh": "我想暗示的是，做出改动的心理也会随之改变，朝着做更小的改动转变。"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "说话人",
+      "en": "So if you feel the desire to open up a pull request, that's a signal to you that something is off.",
+      "zh": "所以如果你感到有打开一个 pull request 的冲动，那对你来说是一个信号，说明有什么地方不对劲。"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "说话人",
+      "en": "Usually it's fear.",
+      "zh": "通常是恐惧。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "说话人",
+      "en": "Often the fear comes from the changes being too big.",
+      "zh": "通常恐惧来自于改动太大。"
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "说话人",
+      "en": "And if you find something, it's literally the worst time in the process to find faults.",
+      "zh": "而且如果你发现了什么问题，那简直是整个流程中最糟糕的发现问题时机。"
+    },
+    {
+      "timestamp": "08:27",
+      "speaker": "说话人",
+      "en": "It doesn't change the quality, whether you have pull requests or whether you don't have pull requests.",
+      "zh": "质量不会改变，无论你有没有 pull request。"
+    },
+    {
+      "timestamp": "08:32",
+      "speaker": "说话人",
+      "en": "What it does change is delivery speed.",
+      "zh": "它真正改变的是交付速度。"
+    },
+    {
+      "timestamp": "12:18",
+      "speaker": "说话人",
+      "en": "Like there is no product decision that you can make that will satisfy everyone.",
+      "zh": "就是不存在一个你能做出的、让所有人都满意的产品决策。"
+    },
+    {
+      "timestamp": "12:24",
+      "speaker": "说话人",
+      "en": "It's more like it's always 50-50.",
+      "zh": "更像是永远是五五开。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "说话人",
+      "en": "Yeah, and part of your job is to create an environment in which you can trust the agents.",
+      "zh": "是的，而你工作的一部分就是创造一个你能信任智能体的环境。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "说话人",
+      "en": "Because somebody told them in order to develop software, you need to juggle knives.",
+      "zh": "因为有人告诉他们，要开发软件，你就得抛接小刀。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "说话人",
+      "en": "Whereas an experienced software developer will be like, how about we don't juggle knives?",
+      "zh": "而一个有经验的软件开发者会说，要不我们不抛小刀了？"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "说话人",
+      "en": "You need to learn about just like what parts belong into the model layer and what parts belong into like everything that's deterministic and around it.",
+      "zh": "你需要去学习的，就是哪些部分属于模型层，哪些部分属于确定性的东西和它周围的一切。"
+    },
+    {
+      "timestamp": "20:48",
+      "speaker": "说话人",
+      "en": "The individual harness around the LLM that you're running to actually drive inference and execute tool calls and so on isn't even that important anymore.",
+      "zh": "你运行的那个用来实际驱动推理、执行工具调用等的 LLM 外围的 harness 本身已经没那么重要了。"
+    },
+    {
+      "timestamp": "21:59",
+      "speaker": "说话人",
+      "en": "But then you quickly realize that very few providers allow you to mint API keys that live only for 30 days or seven days or 25 minutes or whatever.",
+      "zh": "但你很快会发现，很少有服务商允许你铸造只活 30 天、7 天、25 分钟或随便多久的 API 密钥。"
+    },
+    {
+      "timestamp": "34:51",
+      "speaker": "说话人",
+      "en": "Now, humans are the bottleneck with their limited attention because so much parallel work is going on.",
+      "zh": "现在，人类才是瓶颈，因为他们注意力有限，因为有这么多并行的工作在进行。"
+    },
+    {
+      "timestamp": "42:53",
+      "speaker": "说话人",
+      "en": "We have intelligence on tap.",
+      "zh": "我们有随取随用的智能。"
+    },
+    {
+      "timestamp": "43:06",
+      "speaker": "说话人",
+      "en": "There is no ceiling anymore for cognitive load.",
+      "zh": "认知负荷已经没有上限了。"
+    }
+  ],
+  "voice_script": "今天这期节目，咱们聊一个挺颠覆的说法：有家公司把代码评审这套流程彻底取消了，而且一天要往线上部署五十次。讲这个事的人叫 Dario Hamidi，是 Amp 公司的工程师，这家公司只有二十来个人，做的是 AI 编程工具。最近他在 Beyond Coding 播客里，把他们的工作方式摊开来讲了一遍，里面既有胆子大的做法，也有踩过的坑。\n\n先说取消拉取请求这件事。所谓拉取请求，就是你写完代码提交上去，等别人审一遍、点头了再合并进主代码库——这是几乎所有软件团队的标准流程。但 Dario 说得很直接：这套流程该扔了。他甚至敢说，就算你今天根本没用 AI，只要在组织里取消拉取请求，生产力也能提升两位数甚至三位数的百分比。\n\n为什么敢这么说？因为拉取请求这个东西，本质上来自互不信任的环境。就好比网上一个陌生人想改你的项目，你当然得先检查他改了什么。可在一个人人都互相信任的团队里，这套防陌生人的流程反而成了枷锁。更扎心的是现实情况：没人真的认真审查。理论上审阅的人应该把代码拉下来、跑起来、亲手点一遍，但这成本太高，没人做。结果就是拉取请求挂在那里好几天，双方都只想赶紧合并，审查变成了走过场。而且万一最后发现架构方向错了，那已经是所有活儿都干完了之后——这是发现问题的最糟糕时机。\n\n那问题来了，直接往主干推代码，团队靠什么保持信心？Dario 让你想一个场景：假如明天宣布所有拉取请求自动关闭，想发布就必须直接推主干，会发生什么？答案是，大家会自己做更多验证，比如让智能体展示截图、录视频，证明功能真的能跑。这里还有个很微妙的心理变化。他说，如果你想开一个拉取请求，这个念头本身就是个信号——说明你心里害怕这次改动会弄坏东西，而恐惧往往来自改动太大。取消了拉取请求，人自然会拆成小块提交，因为小块是安全的。\n\n想试的团队可以做个两周实验：不开拉取请求，所有人直接推主干。照常讨论、照常帮同事看代码，只是不阻塞发布。第一周会很痛苦，第二周大家就会爱上小块提交。他的观察是，有没有拉取请求，质量没差别，差别在交付速度。而且正因为随时能发版，出了错误报告也能用同样的速度修掉，哪怕只是回滚一次提交。\n\n接下来就得说说智能体的事了，因为 Amp 本身就是做 AI 编程工具的。去年他们遇到一个特别头疼的问题：智能体每次调用工具，要不要用户点头批准？结果发现，不管怎么选，用户永远一半人满意一半人骂——管得太严，有人抱怨不安全；放得太开，有人抱怨干点小事要点十次批准。Dario 的结论很有意思：这根本不是产品决策问题，而是沟通问题。正确做法是让用户自己选阵营，再给每个阵营配好合理的默认值。Amp 内部干脆不做逐条批准，原因不是模型有多完美，而是他们把环境里那些锋利的边缘都磨掉了——就算智能体真想删生产数据库，数据库连接本身就没有删除权限，到那儿就结束了。\n\n这就引出一个很多团队都翻过车的话题。那些被智能体删掉生产数据库的案例，Dario 打了个比方：他们在抛刀杂耍。往往是刚接触 Cursor、Lovable 这类工具的新手，被工具突然带来的可能性兴奋坏了，智能体建议什么就照做，根本不知道要先配置行级安全。有经验的开发者会说，咱们换个不抛刀的玩法行不行？所以核心原则是：什么该归模型层管，什么该归周围确定性的系统管，这是智能体工程的核心技能。不想让智能体推代码，去配置 GitHub 权限；不想让它写生产数据库，就只给它只读凭证。\n\n沿着这个思路，Amp 现在力推一套方案，叫 orb。本质上是个虚拟机，但不只是虚拟机：不运行就不计费，彼此互联，每个 orb 自带一个可以点开的门户页面，直接预览正在开发的应用。你可以一口气开一百个，睡一觉它们就都停了。这解决了并行开发的老大难问题——没人愿意手动管理 Git worktree、解决端口冲突、为不同分支各起一套数据库。每个 orb 就是一套独立的小环境。甚至有人把它当成开了外挂的上下文窗口：一个项目一个 orb，一个月回去一次，架构决策、项目背景全都在里面。\n\n当然，真把执行环境搬到远程，麻烦事也不少。最难的俩问题是凭证和状态。把密钥直接写进 orb 的文件里最省事，但 orb 长期存在，密钥就一直躺在磁盘上。理想方案是短时效凭证，可极少有服务商允许你创建只活七天甚至二十五分钟的 API 密钥，创建流程里压根没这个选项。状态管理同样琐碎：三个浏览器标签页连着同一个智能体会话，底下还挂着来来去去的连接，合上笔记本、地铁过个隧道，连接就断了。听起来简单，做起来每个细节都要做决定。他们的经验是先发出去、拿到反馈，才知道一半的方案根本不用考虑。\n\n这一套玩法叠加起来，效果就很有意思了。Amp 发版太频繁，用户反馈也特别多——每天六十到七十条错误报告。他们干脆把报告功能做进产品里，智能体可以直接读取。Dario 现在每天开工时说一句话：把所有没解决的问题过一遍，按标准挑十个分给我。然后每个问题开一个 orb 去分类——追问用户、提出修复方案，或者判定这不是个问题。他自己只负责逐个检查方案、推进，连给用户的回复邮件都能直接从 Amp 里发。有个例子挺典型：有用户想要 shell 补全脚本，智能体写完，Dario 看了一眼觉得可能慢，让它量一下——按一下补全要六百毫秒。换个实现方式，降到三十毫秒，顺手还加上了 PowerShell 支持，四种 shell 的补全脚本就都有了。放在两年前，这种需求根本不值得做；现在全程在后台跑，几乎不花什么精力。\n\n不过 Dario 也提醒了两件事，很值得听。第一，智能体时代，认知负荷已经没有上限了——你想把自己烧干完全可以。网上流传不少所谓 AI 精神崩溃的案例：有人不停让智能体干活、不停做决定，一直干到凌晨四点。所以，学会用智能体来降低自己的认知负荷，本身就是新的必修课。毕竟现在人类才是瓶颈，因为注意力有限，而并行的工作越来越多。第二是个反直觉的提醒：以前开发成本高，你会先问这真是个问题吗、值得修吗；现在做方案太容易，反而容易跳过这个问题直接动手。还是得先退一步，问清楚用户到底想干什么。\n\n所以回头看，这期讲的不只是取消拉取请求这么简单。它说的是一件事：当 AI 把写代码的成本打下来之后，真正的门槛变成了环境设计和判断力——信任要靠磨掉环境的锋利边缘来建立，质量要靠小块提交来保障，而人要留着的，是那个最老的问题：这事儿，值得做吗。"
+}

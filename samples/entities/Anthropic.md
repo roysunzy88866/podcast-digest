@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>196</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>197</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -175,6 +175,7 @@ unlisted: true
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):本集说 Anthropic 发布的 Claude Code Reviews 每次运行要 20-30 美元、耗时 10-20 分钟，Honeycomb 因此自建审查能力；还提到其 Project Glasswing 资助 curl、openSSL 等安全关键开源项目。
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(00:03起):本集嘉宾 Thariq 所在的公司,因 Claude Code 而加入;本集后半段以其 Pacing the Frontier 提案和多层安全防线(探针、auto 模式、身份权限)为主线。
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(53:27起):本集说：Anthropic 声称盈利，但前提是忽略公认会计准则 GAAP——「以一种非常酷的方式盈利，以至于你无法用正常的数学来表达它」。
+- **[[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]]**(02:05起):本集嘉宾 Thariq 的东家、Claude Code 与 Claude Tag 所在的公司，也是呼吁 Pacing the Frontier、用探针/分类器/auto mode 做多层安全的 AI 实验室。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(17:32起):本集说它与 OpenAI 的合并收入图是团队每月都得更新、过时得极快的最爱图表,也是私募市场估值前六、合计约 2.4 万亿美元的巨头之一
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(33:02起):与 OpenAI 并列被讨论的前沿实验室；Klein 称不担心其扣住模型，市场上有足够多健康竞争，且其智能体也走 SAP 网关接入。
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(02:44起):本集提到 Anthropic 的 Nicholas Carlini 让 16 个智能体无人在环写出 C 编译器,其自动化安全审查器在 readme 里承认未针对提示词注入加固。
@@ -271,7 +272,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*196 集*
+*197 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -441,6 +442,7 @@ unlisted: true
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]] — 作为被讨论公司
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
@@ -474,9 +476,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[推理]] · [[NVIDIA]] · [[Claude Code]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[Google]] · [[Meta]]
+[[智能体]] · [[OpenAI]] · [[Claude Code]] · [[推理]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":460,"OpenAI":191,"推理":91,"NVIDIA":67,"Claude Code":101,"Cursor":84,"Claude":93,"沙箱":90,"Google":69,"Meta":49}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"OpenAI":192,"Claude Code":102,"推理":91,"NVIDIA":67,"Cursor":86,"Claude":93,"沙箱":93,"Google":69,"Meta":50}</script>
 
 <script>
 (function(){

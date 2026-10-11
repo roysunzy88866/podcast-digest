@@ -102,7 +102,7 @@ Tonic 的 AI 团队刚发了一篇论文：大约一年前，有人拿一个开�
 
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
-- [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe|超级智能该加速还是刹车？哲学家的算法：先算算每年死多少人]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
 
 </div>
 </div>

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cal.com":1,"开源":39,"商业开源":1,"pull request":5,"AI 垃圾内容":4,"智能体":460,"Vibe hacking":1,"漏洞":2,"供应链攻击":1,"大语言模型":10}</script>
+<script type="application/json" class="pd-epn">{"Cal.com":1,"开源":40,"商业开源":1,"pull request":6,"AI 垃圾内容":4,"智能体":464,"Vibe hacking":1,"漏洞":2,"供应链攻击":1,"大语言模型":11}</script>
 
 <script>
 (function(){

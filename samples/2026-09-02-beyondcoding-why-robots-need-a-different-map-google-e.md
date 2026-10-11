@@ -128,7 +128,7 @@ Niantic Spatial 刚落地的核心能力是[[视觉定位|视觉定位]]：给�
 
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|David Freeberg：美国正在走向社会主义，但AI能开另一扇门]]<span class="pd-rz">同概念:AI</span>
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|为什么医疗是 AI 受益最大的行业: Julie Yu 的判断]]<span class="pd-rz">同概念:AI</span>
-- [[2026-10-01-sourcery-annie-lamont-14b-managed--70-exits--15-i|40 年传奇投资人 Annie Lamont:AI 正在重写医疗与投资]]<span class="pd-rz">同概念:AI</span>
+- [[2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age|一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法]]<span class="pd-rz">同概念:智能体工程 (agentic engineering)</span>
 
 </div>
 <div class="pd-ex">

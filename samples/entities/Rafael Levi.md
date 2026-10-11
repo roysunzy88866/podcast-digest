@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":14,"视频索引":1,"训练数据":3,"YouTube":8,"Meta":49,"NVIDIA":67}</script>
+<script type="application/json" class="pd-epn">{"Bright Data":1,"世界模型":14,"视频索引":1,"训练数据":3,"YouTube":8,"Meta":50,"NVIDIA":67}</script>
 
 <script>
 (function(){

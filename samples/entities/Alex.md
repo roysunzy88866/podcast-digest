@@ -74,11 +74,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
+[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":191,"Anthropic":196,"AGI":28,"Meta":49,"Google":69,"LLM":60,"Amazon":32,"智能体":460,"SpaceX":21,"机器人":14}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":192,"Anthropic":197,"AGI":28,"Meta":50,"Google":69,"LLM":60,"Amazon":32,"智能体":464,"SpaceX":21,"机器人":14}</script>
 
 <script>
 (function(){

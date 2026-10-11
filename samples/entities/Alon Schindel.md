@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]] [[Rowan Christmas]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":69,"智能体":460,"harness":63,"SAST":1,"上下文":31,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
+<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":69,"智能体":464,"harness":63,"SAST":1,"上下文":31,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
 
 <script>
 (function(){

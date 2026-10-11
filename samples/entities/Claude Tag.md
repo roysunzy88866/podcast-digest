@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Tag</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Tag">CL</div><div class="pi"><h1 class="pt">Claude Tag</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Tag">CL</div><div class="pi"><h1 class="pt">Claude Tag</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]]**(00:00起):本集把它说成:住在 Slack 里的主动型队友，拥有跨会话记忆、端到端执行能力和独立权限，能从接反馈到提 PR 一条龙跑完
 - **[[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]]**(22:26起):把企业内部智能体平台打包成的现成产品，在 Slack 里 @ 它只是接口，重点是引擎盖下的上下文工程和架构；体验目标是像一位主动、能办事的同事，被引述为组织级别的 harness
+- **[[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]]**(02:38起):本集说它是跑在 Slack 里的多人协作产品、Anthropic 内部主力（占其云端使用大头），重点讲了权限、跨频道安全等打磨成本。
 
 ## ① 提到它的金句
 
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|《Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」》]] — 作为概念
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[记忆]] · [[harness]] · [[Stripe]] · [[Guy Pajani]] · [[Claude]] · [[Simon Maple]] · [[Messages API]] · [[Lamus Mukta]]
+[[Anthropic]] · [[智能体]] · [[Claude Code]] · [[沙箱]] · [[记忆]] · [[harness]] · [[Stripe]] · [[Guy Pajani]] · [[Claude]] · [[Thariq Shihipar]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":196,"智能体":460,"记忆":27,"harness":63,"Stripe":48,"Guy Pajani":3,"Claude":93,"Simon Maple":10,"Messages API":3,"Lamus Mukta":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":197,"智能体":464,"Claude Code":102,"沙箱":93,"记忆":27,"harness":63,"Stripe":48,"Guy Pajani":3,"Claude":93,"Thariq Shihipar":3}</script>
 
 <script>
 (function(){

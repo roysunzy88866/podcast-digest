@@ -1,0 +1,215 @@
+{
+  "title_zh": "一个月2500个代码合并是怎么做到的：专访pstack作者Potato",
+  "tldr": "Cursor(现SpaceX AI)工程师Potato讲述他如何用验证、环境和自动化循环，让AI代理自己写代码、自己审查、自己合并。",
+  "digest_md": "他叫Potato,前Meta React团队成员，现供职于Cursor(现已更名为SpaceX AI),也是开源技能库pstack的作者。他不久前在X上发了一场演讲，讲自己一个月向生产环境提交了2500个拉取请求，浏览量约300万。这次对谈基本围绕那场演讲展开：信任是怎么一步步攒起来的，人从流水线上退出来之后还剩什么工作。\n\n## 为什么要盯着一个AI代理看？因为你自己成了瓶颈\n\nPotato的故事从倦怠期的一个副业项目开始。当时他用AI写代码，却发现自己在花好几个小时盯着、反复纠正一个代理的输出，像个“监工”。后来加入Cursor做代理窗口的性能优化，同样的问题又出现了：他泡在火焰图和内存快照里，自己成了代理和Chrome开发者工具之间的“人肉代理”。\n\n他的解法是把职业判断变成代理能用的东西——写代码的流程、验证的习惯、踩过的坑。在他的经验里，哪怕是最新最强的模型，也倾向于抄近路、挑简单的做。所以他构建的很多技能，核心都是一件事：**让简单的事恰好就是正确的事**。[06:07 Unknown]\n\n## 领域专家贬值了吗？恰恰相反\n\n主持人问了个流行问题：AI这么强，行业知识是不是不值钱了？Potato的判断相反。**模型越强，瓶颈越不在代理这边，而在你能不能把意图和目标讲清楚**、让代理真正执行到位。一个医生或律师，只要懂点技术、会用代理，加上自己脑子里清晰的愿景，就能做出很好的产品。[08:23 Unknown]\n\n这也是两人共同痴迷语言的原因。Potato举例说，让代理消灭“同义反复的测试”(tautological tests)——一个词就压缩了大量意图，代理会抓住这个词反复强化。而主持人是戏剧专业出身，研究莎士比亚多年，他感叹现在是自然语言和编程语言的交汇点，本质上全是沟通。\n\n## 别叫软件工厂，叫米其林厨房\n\nPotato不喜欢“软件工厂”这个词——不是因为不准确，而是工厂让人联想到流水线和廉价，联想不到品质和手艺。他更愿意用米其林厨房来打比方。\n\n在家做饭，你一个人切菜、备料、收拾，是单人秀。突然全家挤进厨房，你多半会崩溃。而主厨的位置完全不同：他不亲自炒每道菜，却要操心什么时候订食材、怎么储存、怎么备料——他既是厨房的技术负责人，也是厨房的CEO。今天的工程师正走向这个位置：代码是代理写的，但最终结果和你的名誉绑在一起。代码库、技能、环境，就是新时代的食材。[14:15 Unknown]\n\n## 最重要的一个技能：让代理自己验证自己的工作\n\nPotato反复强调，就算不用pstack,工具箱里也必须有一个技能——验证(verification)。意思很简单：给代理装上“手和眼睛”，让它自己运行代码、像真人用户一样点来点去、调试、抓取快照。代理看不到自己工作的结果，就无从迭代；能看到了，它就形成了一个闭环，人从环里退了出去。\n\n有了闭环，他就能做“爬山”：定一个评分标准，让代理不断尝试改进。他说**验证是pstack里最重要的技能**，也是他入职Cursor后写的第一个技能。团队内部如今每个应用都有一个自动维护的验证技能，已经成了关键基础设施。\n\n## 判断留给AI,机械的活写成脚本\n\n验证技能里藏着一个更深的原则：把确定性的部分从代理手里拿走。比如把代码从一种模式机械地迁移到另一种，根本不需要代理每次重新发明做法——早期没有命令行工具时，每个代理都“重建整个世界”，各干各的，上次能用的脚本这次就扔了。Potato把这些确定性的部分封装成技能内部的命令行工具，代理只负责需要判断的那部分。\n\n他的总结是：**充分利用确定性和非确定性，让代理在它擅长的非确定性部分发光**。[24:11 Unknown]\n\n## 环境是新的护城河：让写烂代码变得不可能\n\n他还有个更狠的做法：把错误变成不可能。每看到代理犯一次错，就退一步想——怎么把这条教训变成一条lint规则，让代码库从物理上杜绝这种写法？他内部建了一个叫Dune的框架，自称“内部版Next.js”,配上极其严格的lint规则：每个功能有自己的目录，代码库里做一件事往往只有一条路。GrokBot最早由8个至少一万行的巨型文件组成，被迫拆散后，才有了这套结构。\n\n这也呼应了他对好代码库的定义：**一个容易改东西而不出乱子的代码库**。它既解放了代理的心智，也解放了人的。\n\n## 2500个拉取请求到底从哪来？\n\n答案是：不是他手动开的2500个对话。关键在内外两个循环。内循环是代理工程师们写代码；外循环是Slack、X、邮件、Linear这些外部信息源。以前他自己当搬运工，把外面的bug报告、功能请求人肉搬给代理。现在他用GrokBot订阅这些渠道，发现bug就自动发给Cursor的Projects功能——一种云端协调者代理，像参谋长，自己不干活，负责分派和监督一群子代理。\n\n假设一口气涌进30个相关问题，协调者会琢磨怎么分派最有效率，还不会丢掉问题之间的关联——多个相似的bug报告放在一起看，反而更容易发现真正的病根在上游。[43:55 Unknown]\n\n另一个技巧来自读代码本身：React有很多坑，他让一个代理持续找坏模式，但不许修，只许往一份文档里追加。过几天他翻一翻，发现全是一类问题——先攒缓冲区，再看大方向，比一个bug派一个代理去修高效得多。\n\n## 睡觉时代理自己合并代码，早上起来抽查\n\n最惊人的部分：他的代理现在自己合并拉取请求。开启“全自动模式”后，每个拉取请求会触发一群验证代理——它们真的把应用跑起来，像真人一样乱点乱试(他称之为fuzzing),找回归、找bug,发现问题自己修，修完再来一轮，直到达标才落盘。这很耗token,可以调节验证强度。他现在的日常是早上看提交历史，发现问题就回滚、改lint规则。\n\n他说第一次打开“黑暗工厂”模式很吓人，生怕半夜搞出事故，但如今他睡得比以前好多了。而且这不是Karpathy最初定义的那种“忘记代码存在”的vibe coding——恰恰相反，代码和环境是一切的核心。[51:47 Unknown]\n\n## 什么样的工作能这么干？可验证的才行\n\n主持人追问：医疗、法律、金融里很多改动是“单行道”——错了没法回滚，怎么办？Potato坦诚回答：**一切取决于验证质量**。工作可验证的领域，单行道某种程度上能变双行道；软件工程和数学(比如写证明)恰好是可验证性较强的领域，而很难程序化验证的领域确实难走到这一步。他预测未来会出现更多面向代理的编程语言，还点名了一个叫Bend的语言，它把编程和形式化证明结合在一起。\n\n## 想开始的人：去翻你和代理的历史对话\n\n技能本质上就是用文字写下来的流程。两个人都说，最好的素材是你的历史对话记录——那些你不得不出手纠正代理的时刻，就是技能的原材料。Potato在pstack里有个叫recall的技能，就是因为他做虚拟化时bug太多，每次开新对话都想把旧对话里的上下文带过来，干脆把这个流程压缩成了技能。他建议每个人都该有自己的一套刀：厨师换餐厅，刀是随身带的。[61:06 Unknown]\n\n## 本集带走\n\n- 验证是第一技能：让代理能自己运行、点击、检查代码，它才能自我迭代，人也才能从环里退出去。\n- 把确定性工作写成脚本和命令行工具，判断性的工作才留给AI——各自干各自擅长的事。\n- 环境即护城河：代理每犯一次错，就想办法把它变成lint规则或代码库结构，让这种错再也发生不了。\n- 规模化靠两个循环：外循环自动从Slack等渠道收集信息，内循环用协调者代理分派任务，人只在早上抽查。\n- 领域专家不是贬值而是升值——瓶颈已经从“会不会写代码”变成“能不能把意图讲清楚”。",
+  "quotes": [
+    {
+      "en": "It becomes your ability to express your intent and your goals in a clear way that the agent can understand and actually carry out.",
+      "zh": "而是变成了你能否以智能体能理解并真正执行的方式，清晰地表达你的意图和目标。",
+      "timestamp": "07:22",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "So a lot of the skills that I've built have been around, how do I make the easy thing the right thing?",
+      "zh": "所以我构建的很多 skills 都是围绕：怎么让简单的事变成正确的事？",
+      "timestamp": "06:13",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "And how you set up your skills, your environment, your code base, I think are ultimately the new ingredients that go into building product.",
+      "zh": "你如何搭建你的技能、你的环境、你的代码库，我认为这些最终才是打造产品的新食材。",
+      "timestamp": "15:00",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "And you'll see this in a lot of the other skills that I've built, is like I try to extract out the deterministic parts and turn that into code and just leave only the parts that actually require judgment to the agent.",
+      "zh": "你会在我构建的很多其他技能里看到这一点，就是我尝试把确定性的部分提取出来变成代码，只把真正需要判断力的部分留给智能体。",
+      "timestamp": "21:46",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "That's another core thing or one of my core principles that I like to think about is how do I make very efficient use of determinism and non-determinism and let agents shine at the non-deterministic parts because that's what they're trained to do.",
+      "zh": "这是我喜欢思考的另一个核心的事情，或者说是我的核心原则之一，就是如何非常高效地利用确定性和非确定性，让智能体在非确定性的部分大放异彩，因为那就是它们被训练来做的。",
+      "timestamp": "23:50",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "Yeah, I almost feel like the new job of the engineer is really to spend time on the environment.",
+      "zh": "是的，我几乎觉得工程师的新工作真的是把时间花在环境上。",
+      "timestamp": "26:14",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "And really the big, the last thing I'll say to this is like the big unlock for me for getting to 2,000 PRs is starting from the question and working backwards of how do I get to the point where my agent can merge its own code?",
+      "zh": "关于这一点，我要说的最后一个大要点是，我实现 2000 个 PR 的大突破，是从问题出发倒推：我怎样才能达到让我的智能体自己合并自己的代码的地步？",
+      "timestamp": "39:37",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "And that's also really the benefit of having something like a chief of staff agent is it can see the forest in addition to actually doing the execution.",
+      "zh": "而这也正是拥有类似参谋长智能体的真正好处：它除了真正做执行之外，还能看到整片森林。",
+      "timestamp": "48:52",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "And then you think about how to course correct the environment, not that single agent.",
+      "zh": "然后你思考如何去纠正环境，而不是那一个智能体。",
+      "timestamp": "50:23",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "It's the combination of these two things that allow me to step away and say, agents, go off and merge your thing.",
+      "zh": "正是这两件事的结合，让我可以走开，然后说，智能体们，去把你们的东西合并了吧。",
+      "timestamp": "53:50",
+      "speaker": "Poteto"
+    },
+    {
+      "en": "So I largely think of skills, especially as agents get more capable, as really encoding workflows.",
+      "zh": "所以我在很大程度上把技能，尤其是当智能体变得更强大时，看作是在真正地编码工作流。",
+      "timestamp": "63:45",
+      "speaker": "Poteto"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "06:51",
+      "speaker": "Unknown",
+      "en": "I actually feel like domain expertise is more important than ever.",
+      "zh": "我其实觉得领域专业知识比以往任何时候都更重要。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Unknown",
+      "en": "You know, as the models get really, really, really good, it almost becomes like the bottleneck is no longer the agent, right?",
+      "zh": "你知道，当模型变得非常非常非常好时，瓶颈几乎不再是智能体了，对吧？"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Unknown",
+      "en": "It becomes your ability to express your intent and your goals in a clear way that the agent can understand and actually carry out.",
+      "zh": "而是变成了你能否以智能体能理解并真正执行的方式，清晰地表达你的意图和目标。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Unknown",
+      "en": "So a lot of the skills that I've built have been around, how do I make the easy thing the right thing?",
+      "zh": "所以我构建的很多 skills 都是围绕：怎么让简单的事变成正确的事？"
+    },
+    {
+      "timestamp": "12:13",
+      "speaker": "Unknown",
+      "en": "With food, when you're cooking a meal for yourself, for example, it's both utilitarian.",
+      "zh": "关于食物，比如当你给自己做一顿饭时，它既是实用性的。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Unknown",
+      "en": "But it can actually be transformed into art.",
+      "zh": "但它实际上可以转化为艺术。"
+    },
+    {
+      "timestamp": "14:43",
+      "speaker": "Unknown",
+      "en": "Where you are not writing the code yourself anymore.",
+      "zh": "在那种情况下，你不再亲自编写代码。"
+    },
+    {
+      "timestamp": "15:00",
+      "speaker": "Unknown",
+      "en": "And how you set up your skills, your environment, your code base, I think are ultimately the new ingredients that go into building product.",
+      "zh": "你如何搭建你的技能、你的环境、你的代码库，我认为这些最终才是打造产品的新食材。"
+    },
+    {
+      "timestamp": "17:32",
+      "speaker": "Unknown",
+      "en": "There's no way it can actually iterate.",
+      "zh": "那它根本没有办法真正迭代。"
+    },
+    {
+      "timestamp": "18:00",
+      "speaker": "Unknown",
+      "en": "And that takes you out of the equation where now I can actually do something like, so one of the very first use cases I had for verification was the performance work that I was doing on cursor's agent window.",
+      "zh": "这就把你从这个等式中移了出去，现在我可以真正做一些事情，比如，我最早的验证用例之一就是我在 Cursor 的智能体窗口上做的性能工作。"
+    },
+    {
+      "timestamp": "21:46",
+      "speaker": "Unknown",
+      "en": "And you'll see this in a lot of the other skills that I've built, is like I try to extract out the deterministic parts and turn that into code and just leave only the parts that actually require judgment to the agent.",
+      "zh": "你会在我构建的很多其他技能里看到这一点，就是我尝试把确定性的部分提取出来变成代码，只把真正需要判断力的部分留给智能体。"
+    },
+    {
+      "timestamp": "23:50",
+      "speaker": "Unknown",
+      "en": "That's another core thing or one of my core principles that I like to think about is how do I make very efficient use of determinism and non-determinism and let agents shine at the non-deterministic parts because that's what they're trained to do.",
+      "zh": "这是我喜欢思考的另一个核心的事情，或者说是我的核心原则之一，就是如何非常高效地利用确定性和非确定性，让智能体在非确定性的部分大放异彩，因为那就是它们被训练来做的。"
+    },
+    {
+      "timestamp": "26:14",
+      "speaker": "Unknown",
+      "en": "Yeah, I almost feel like the new job of the engineer is really to spend time on the environment.",
+      "zh": "是的，我几乎觉得工程师的新工作真的是把时间花在环境上。"
+    },
+    {
+      "timestamp": "31:45",
+      "speaker": "Unknown",
+      "en": "Actually, that's another important part is observing how agents fail.",
+      "zh": "其实，那是另一个重要的部分，就是观察智能体是如何失败的。"
+    },
+    {
+      "timestamp": "32:02",
+      "speaker": "Unknown",
+      "en": "And it comes back to me for my, you know, my background learning TypeScript and types, type systems is how do I constrain the space so that, you know, I know precisely what I'm working with.",
+      "zh": "而这就回到我，你知道，我学习 TypeScript 和类型、类型系统的背景，就是怎么约束空间，这样，你知道，我就精确地知道我在处理什么。"
+    },
+    {
+      "timestamp": "36:25",
+      "speaker": "Unknown",
+      "en": "You have to ferry that across to your agent.",
+      "zh": "你必须把这些信息摆渡过去给你的智能体。"
+    },
+    {
+      "timestamp": "36:36",
+      "speaker": "Unknown",
+      "en": "And when you connect those two loops, it's very, very powerful because now all of a sudden your agents have the ability to get context for themselves, right?",
+      "zh": "而当你把这两个循环连接起来时，它是非常非常强大的，因为突然之间，你的智能体就有能力自己去获取上下文了，对吧？"
+    },
+    {
+      "timestamp": "39:37",
+      "speaker": "Unknown",
+      "en": "And really the big, the last thing I'll say to this is like the big unlock for me for getting to 2,000 PRs is starting from the question and working backwards of how do I get to the point where my agent can merge its own code?",
+      "zh": "关于这一点，我要说的最后一个大要点是，我实现 2000 个 PR 的大突破，是从问题出发倒推：我怎样才能达到让我的智能体自己合并自己的代码的地步？"
+    },
+    {
+      "timestamp": "48:52",
+      "speaker": "Unknown",
+      "en": "And that's also really the benefit of having something like a chief of staff agent is it can see the forest in addition to actually doing the execution.",
+      "zh": "而这也正是拥有类似参谋长智能体的真正好处：它除了真正做执行之外，还能看到整片森林。"
+    },
+    {
+      "timestamp": "50:23",
+      "speaker": "Unknown",
+      "en": "And then you think about how to course correct the environment, not that single agent.",
+      "zh": "然后你思考如何去纠正环境，而不是那一个智能体。"
+    },
+    {
+      "timestamp": "53:50",
+      "speaker": "Unknown",
+      "en": "It's the combination of these two things that allow me to step away and say, agents, go off and merge your thing.",
+      "zh": "正是这两件事的结合，让我可以走开，然后说，智能体们，去把你们的东西合并了吧。"
+    },
+    {
+      "timestamp": "56:53",
+      "speaker": "Unknown",
+      "en": "But I guess, I don't know, if you're working on something that is extremely, is very hard to verify programmatically, then I think, yeah, you're definitely in a position where it's very hard to get to that point.",
+      "zh": "但我想，我不知道，如果你在做一件极其、非常难以用程序化方式验证的事情，那我觉得，是的，你肯定处在一种很难达到那个点的境地。"
+    },
+    {
+      "timestamp": "63:45",
+      "speaker": "Unknown",
+      "en": "So I largely think of skills, especially as agents get more capable, as really encoding workflows.",
+      "zh": "所以我在很大程度上把技能，尤其是当智能体变得更强大时，看作是在真正地编码工作流。"
+    }
+  ],
+  "voice_script": "今天要聊的这个人，叫Potato。来头不小：前Meta React团队成员，现在在Cursor工作，Cursor现在已经更名为SpaceX AI。他还有一个开源项目叫pstack,是一套给AI代理用的技能库。前段时间他在X上发了一场演讲，说自己一个月向生产环境提交了2500个拉取请求，浏览量差不多有三百万。今天这一期，就是围绕这场演讲的对谈，核心问题就两个：对AI代理的信任是怎么一步步攒起来的？当人从流水线上退出来之后，还剩下什么工作？\n\n故事得从一段倦怠期说起。当时Potato用AI写代码，结果发现自己每天花好几个小时盯着一个代理，反复纠正它的输出，活像个监工。后来加入Cursor做代理窗口的性能优化，老问题又来了：泡在火焰图和内存快照里，自己成了代理和Chrome开发者工具之间的“人肉代理”。你发现没有，这其实是个很普遍的困境——AI明明能干活，但人反而更累了。\n\n那怎么破？Potato的办法，是把自己的职业判断变成代理能用的东西：写代码的流程、验证的习惯、踩过的坑，都写成技能。因为在他的经验里，哪怕最新最强的模型，也倾向于抄近路、挑简单的做。所以他构建的很多技能，核心就是一句话：让简单的事，恰好就是正确的事。\n\n顺着这个思路，主持人问了一个当下很流行的问题：AI这么强，行业知识是不是不值钱了？Potato的判断恰恰相反。模型越强，瓶颈越不在代理这边，而在你能不能把意图和目标讲清楚，让代理真正执行到位。一个医生或者律师，只要懂点技术、会用代理，加上脑子里有清晰的愿景，就能做出很好的产品。这也是两个人都痴迷语言的原因——主持人是戏剧专业出身，研究过多年莎士比亚，感叹现在正是自然语言和编程语言的交汇点，本质上全是沟通。举个例子，Potato让代理去消灭“同义反复的测试”，就这么一个词，压缩了大量意图，代理会抓住这个词反复强化。\n\n不过，光会表达意图还不够。为了理解Potato整套方法论，得先交代一个他不太喜欢的词：“软件工厂”。为什么不喜欢？不是因为不准确，而是工厂让人联想到流水线和廉价，联想不到品质和手艺。他更愿意用米其林厨房来打比方：在家做饭，你一个人切菜备料收拾，是单人秀；突然全家挤进厨房，你多半会崩溃。而主厨的位置完全不同——不亲自炒每道菜，却要操心什么时候订食材、怎么储存、怎么备料，既是厨房的技术负责人，也是厨房的CEO。今天的工程师正走向这个位置：代码是代理写的，但最终结果和你的名誉绑在一起。代码库、技能、环境，就是新时代的食材。\n\n那么，工具箱里最重要的技能是什么？Potato反复强调，就算不用pstack,也必须有一个技能，叫验证。说白了，就是给代理装上“手和眼睛”：让它自己运行代码、像真人用户一样点来点去、调试、抓取快照。道理很简单——代理看不到自己工作的结果，就无从迭代；能看到了，它就形成了一个闭环，而人，从环里退了出去。有了闭环，还能做“爬山”：定一个评分标准，让代理不断尝试改进。验证是pstack里最重要的技能，也是入职Cursor后写的第一个技能，如今团队内部每个应用都有一个自动维护的验证技能，已经成了关键基础设施。\n\n验证技能里还藏着一个更深的原则：把确定性的部分从代理手里拿走。比如把代码从一种模式机械地迁移到另一种，根本不需要代理每次重新发明做法。早期没有命令行工具的时候，每个代理都“重建整个世界”，各干各的，上次能用的脚本这次就扔了。Potato把这些确定性的部分封装成技能内部的命令行工具，代理只负责需要判断的那部分。一句话总结：充分利用确定性和非确定性，让代理在它擅长的非确定性部分发光。\n\n再往下推一步，就更狠了：与其纠正错误，不如让错误变成不可能。每看到代理犯一次错，就退一步想——怎么把这条教训变成一条lint规则，让代码库从物理上杜绝这种写法？内部有个叫Dune的框架，自称“内部版Next.js”,配上极其严格的lint规则：每个功能有自己的目录，代码库里做一件事往往只有一条路。这套结构是怎么来的？最早GrokBot由8个至少一万行的巨型文件组成，被迫拆散之后，才有了现在的样子。这也呼应了对好代码库的定义：一个容易改东西而不出乱子的代码库，既解放了代理的心智，也解放了人的。\n\n好，铺垫到这儿，那2500个拉取请求到底从哪来的？答案是，不是手动开的2500个对话，关键在内外两个循环。内循环是代理工程师们写代码；外循环是Slack、X、邮件、Linear这些外部信息源。以前是人肉搬运工，把外面的bug报告、功能请求搬给代理；现在用GrokBot订阅这些渠道，发现bug就自动发给Cursor的Projects功能——一种云端协调者代理，像个参谋长，自己不干活，负责分派和监督一群子代理。假设一口气涌进30个相关问题，协调者会琢磨怎么分派最有效率，还不会丢掉问题之间的关联——多个相似的bug报告放在一起看，反而更容易发现真正的病根在上游。另一个技巧来自读代码本身：让一个代理持续找坏模式，但不许修，只许往一份文档里追加。过几天翻一翻，发现全是一类问题——先攒缓冲区，再看大方向，比一个bug派一个代理去修高效得多。\n\n接下来是最惊人的部分：代理现在自己合并拉取请求。开启“全自动模式”之后，每个拉取请求会触发一群验证代理，真的把应用跑起来，像真人一样乱点乱试，找回归、找bug,发现问题自己修，修完再来一轮，直到达标才落盘。这很耗token,验证强度可以调节。现在的日常是什么样？早上看提交历史，发现问题就回滚、改lint规则。第一次打开这个“黑暗工厂”模式的时候很吓人，生怕半夜搞出事故，但如今睡得比以前好多了。顺便说一句，这可不是Karpathy最初定义的那种“忘记代码存在”的vibe coding——恰恰相反，代码和环境是一切的核心。\n\n当然，不是所有行业都能这么干。主持人追问：医疗、法律、金融里很多改动是“单行道”，错了没法回滚，怎么办？回答很坦诚：一切取决于验证质量。工作可验证的领域，单行道某种程度上能变成双行道；软件工程和数学恰好是可验证性较强的领域，而很难程序化验证的领域，确实难走到这一步。照这个趋势，未来会出现更多面向代理的编程语言，比如一个叫Bend的语言，就把编程和形式化证明结合在了一起。\n\n最后，如果你想开始，该从哪儿下手？技能本质上就是用文字写下来的流程，而最好的素材，就是你和代理的历史对话记录——那些你不得不出手纠正代理的时刻，就是技能的原材料。pstack里有个叫recall的技能，就是因为做虚拟化时bug太多，每次开新对话都想把旧对话的上下文带过来，干脆把这个流程压缩成了技能。建议就像那句老话：厨师换餐厅，刀是随身带的，每个人都该有自己的一套刀。\n\n所以回到开头那个问题——人从流水线上退出来之后还剩什么？剩下的可能就是Potato那句话：工程师的新工作，真的是把时间花在环境上。"
+}

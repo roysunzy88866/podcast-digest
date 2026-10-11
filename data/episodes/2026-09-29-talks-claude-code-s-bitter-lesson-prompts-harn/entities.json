@@ -1,0 +1,1892 @@
+{
+  "episode_id": "2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn",
+  "podcast": "精选演讲",
+  "date": "2026-09-29",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "AI 安全",
+    "提示词",
+    "前沿模型"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "thariq-shihipar",
+      "type": "person",
+      "role": "guest",
+      "name": "Thariq Shihipar",
+      "file": "Thariq Shihipar",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集嘉宾 Thariq 的东家、Claude Code 与 Claude Tag 所在的公司，也是呼吁 Pacing the Frontier、用探针/分类器/auto mode 做多层安全的 AI 实验室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            125.871,
+            128.812
+          ],
+          "quote": "We're here in the studio with our friend Tarek from Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            129.672,
+            140.354
+          ],
+          "quote": "And I guess generally the Claude Code, there's so much sort of merging of boundaries and you've been so on top of everything since you joined Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            163.764,
+            165.285
+          ],
+          "quote": "There's a lot going on in Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            165.605,
+            170.448
+          ],
+          "quote": "I guess top of the question is, what's it like being an Anthropic when there's so much going on?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            177.188,
+            182.111
+          ],
+          "quote": "I think like going, when I joined Anthropic, I joined because of Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1048.97,
+            1056.137
+          ],
+          "quote": "I'm curious from what you've seen, is there any common patterns that you see in top users, Anthropic, externally?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2020.827,
+            2027.194
+          ],
+          "quote": "And yeah, this came out of just people at Anthropic going through very complicated incidents and being like, what is happening?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3127.864,
+            3130.165
+          ],
+          "quote": "Obviously, at Anthropic, we use Claude Tag a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3267.384,
+            3272.469
+          ],
+          "quote": "I feel like most people at Anthropic say they do the majority of their work in Claude Tag.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4140.351,
+            4143.854
+          ],
+          "quote": "There's the Anthropic API and the OpenAI API, but you need to pay money for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 995,
+          "t": [
+            4686.741,
+            4694.186
+          ],
+          "quote": "The unilateral step we're taking right now that, you know, other companies are cosigning is, like, adding evaluators embedded within Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            4732.857,
+            4739.338
+          ],
+          "quote": "And then the other point I really want to, like, you know, one of our earliest podcasts is with Emmanuel from Anthropic on McInturp.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            4756.422,
+            4759.643
+          ],
+          "quote": "But also, Anthropic is supposed to be the leaders in this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1063,
+          "t": [
+            4982.579,
+            4988.522
+          ],
+          "quote": "Yeah, I think this is like, you know, one of those things where, and this is really what Anthropic is kind of founded on, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1163,
+          "t": [
+            5465.39,
+            5468.431
+          ],
+          "quote": "And I do want to say Anthropic has a diversity of opinions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1193,
+          "t": [
+            5565.77,
+            5576.933
+          ],
+          "quote": "No, but it's clear that you really embrace everything that's available to you and Anthropic, and it's good to at least have a peek inside of what the discussions are, the topics are.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集主线产品：嘉宾因它加入 Anthropic，讲它从 CLI 演进为可定制的智能体 harness，以及使用它的最佳实践。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            129.672,
+            140.354
+          ],
+          "quote": "And I guess generally the Claude Code, there's so much sort of merging of boundaries and you've been so on top of everything since you joined Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            140.835,
+            149.857
+          ],
+          "quote": "You have been early to Claude Code itself, but then also, and you've told that story in other podcasts, and you've also been talking about seeing like an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            177.188,
+            182.111
+          ],
+          "quote": "I think like going, when I joined Anthropic, I joined because of Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            182.131,
+            184.353
+          ],
+          "quote": "Like Claude Code had just come out and I was like, this is so good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            252.635,
+            257.72
+          ],
+          "quote": "Yeah, so I think that, like, when I joined the Claude Code team, I wanted to teach people how to use Claude Code, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            403.382,
+            412.993
+          ],
+          "quote": "I think that one of the things that's difficult as Claude Code has gone broader and broader is that everyone has their own way of using it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            417.778,
+            420.741
+          ],
+          "quote": "So for example, if someone asks Claude Code to do something,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            670.912,
+            681.863
+          ],
+          "quote": "Because right now a lot of it is, okay, you're interfacing with Claude Code, you're having HTML given back for a mockup, it's pretty rich, there's diagrams, artifacts are ways to connect these together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            700.213,
+            708.358
+          ],
+          "quote": "It's like local, and like you can spin off remote control, for example, to get some cloud behavior, or you can spin off Claude Code in the cloud, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            776.975,
+            779.859
+          ],
+          "quote": "The Claude Code experience right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1042.824,
+            1048.369
+          ],
+          "quote": "I mean, you've written many good articles on Field Guide to Fable, building Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1056.538,
+            1059.581
+          ],
+          "quote": "What are best practices for getting the most out of Claude Code?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1090.235,
+            1094.879
+          ],
+          "quote": "And so that's the most important skill in working with Claude code is having this mental model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1953.642,
+            1963.646
+          ],
+          "quote": "I mean, before we move on, I want to ask you any other underrated tips, ways people could get a lot of value from Claude Code that they're not using?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2098.64,
+            2108.623
+          ],
+          "quote": "Basically, you can customize the entire Claude Code harness, and we're going to, if you have a request, we will let you, please let us know, we'll add more and more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2318.035,
+            2323.438
+          ],
+          "quote": "Yeah, I mean, I think it is power users, but like the nature of Claude Code is that so many people are power users, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2473.983,
+            2480.206
+          ],
+          "quote": "Yeah, I mean, I'm not deep in the technical details, but I do know it was a collaboration with someone on the Bund team and someone on the Claude Code team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2599.721,
+            2610.103
+          ],
+          "quote": "Mods are a little bit more in your Claude Code harness, changing the agent loop, and the UI is an added benefit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2643.322,
+            2648.244
+          ],
+          "quote": "Something I'm excited about with mods is there's so much things with Claude Code that you just have to remember.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2797.348,
+            2799.77
+          ],
+          "quote": "If everything's customizable, what actually is Claude Code, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2892.466,
+            2898.272
+          ],
+          "quote": "And so, yeah, I think Claude Code is like, you know, has the core things about agent loop, which have gotten more complicated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2924.981,
+            2930.768
+          ],
+          "quote": "What other harness engineering best practices have you, you know, from the Claude Code team itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2944.795,
+            2956.881
+          ],
+          "quote": "I think there is like a forking path where at some point, eventually, yes, the model will just be able to like vibe code the exact version of Claude Code, even describing all this complexity that I've talked about, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2974.195,
+            2982.322
+          ],
+          "quote": "I think before we, you had to sort of use things like the agent SDK, which was like Claude Code wrapped, you know, in order to like, and I would...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3123.962,
+            3126.204
+          ],
+          "quote": "Some people use remote control a lot, some people use Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3201.847,
+            3210.511
+          ],
+          "quote": "And I think it has kind of that thing with Claude Code where it took a while for people to really latch on to Claude Code and understand everything it could do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3287.402,
+            3303.551
+          ],
+          "quote": "I think obviously we have lots of tokens, but I think that what we try and do is, even when Claude Code first came out, it used a lot of tokens relative to people's expectation of how much AI would cost.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3303.931,
+            3310.314
+          ],
+          "quote": "No one was used to spending more than $20 a month before Claude Code came out, and then you're like, oh.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3312.915,
+            3314.856
+          ],
+          "quote": "I need my 15 Claude Code accounts.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-mods",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Mods",
+      "file": "Claude Mods",
+      "primary": true,
+      "how_described": "本集刚泄露的新能力：让你自定义整个 Claude Code harness 的执行与 UI，被称为可变软件的预览，内部最早叫 function hooks。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            2097.719,
+            2098.54
+          ],
+          "quote": "So Claude Mods is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            3023.632,
+            3029.419
+          ],
+          "quote": "Let's say chapter one was UltraCode dynamic workflows, then chapter two was Claude Mods.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-tag",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Tag",
+      "file": "Claude Tag",
+      "primary": true,
+      "how_described": "本集说它是跑在 Slack 里的多人协作产品、Anthropic 内部主力（占其云端使用大头），重点讲了权限、跨频道安全等打磨成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            158.501,
+            163.744
+          ],
+          "quote": "And most recently also launching Claude Tag, and we're also going to be talking about pacing on Frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            792.255,
+            794.458
+          ],
+          "quote": "Right now, I guess there's Claude Tag, which is a version, but...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            794.863,
+            803.79
+          ],
+          "quote": "We're launching projects, and so projects is the, like, this abstraction that's kind of like Claude Tag, but on our Claude products, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            803.83,
+            809.835
+          ],
+          "quote": "So you can message it and, like, it will do the Claude Tag-like stuff, like spinning off subagents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            812.017,
+            822.421
+          ],
+          "quote": "We think with multiplayer, like Claude Tag is like a little bit more native multiplayer because it's just like in your Slack and the permissions are all figured out and stuff like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            843.329,
+            852.471
+          ],
+          "quote": "And Claude Tag does a good job of sanding down all of these issues so that when you have Google Docs, how does it access Google Docs?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            860.332,
+            865.213
+          ],
+          "quote": "But yeah, I think Claude Tag is our multiplayer product and it's really useful for these",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            909.315,
+            915.598
+          ],
+          "quote": "I think Claude Tag is that product, and projects will start off single player and will expand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            923.957,
+            931.628
+          ],
+          "quote": "Claude Tag, you specifically chose to make it its own identity, which is like a controversial choice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            955.577,
+            970.409
+          ],
+          "quote": "Yeah, I mean, like, I think in Claude Tag, it's effectively, like, Claude Tag, you have to sort of do your own arrangement, basically, and so Claude Tag, yeah, each channel is, like, you can name it as you want, and I name, like, each feature, basically, as a channel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2109.003,
+            2114.445
+          ],
+          "quote": "This works for a CLI, it works for desktop, maybe it will work for Claude Tag in the future, I don't know.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3127.864,
+            3130.165
+          ],
+          "quote": "Obviously, at Anthropic, we use Claude Tag a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3130.245,
+            3134.606
+          ],
+          "quote": "And what's great about Claude Tag is we set up all this stuff for our own execution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3160.434,
+            3161.875
+          ],
+          "quote": "Let's just check in on Claude Tag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3171.728,
+            3175.911
+          ],
+          "quote": "Claude Tag is how we use— It's like 80% of your cloud usage or something?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3187.038,
+            3197.465
+          ],
+          "quote": "And then when you're doing these more background work, code review, security, starting a PR, maybe more API and things like that, you'd use Claude Tag.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3211.011,
+            3214.893
+          ],
+          "quote": "And Claude Tag is a little bit more complex because it's not just installing on your computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3263.681,
+            3264.722
+          ],
+          "quote": "There's a lot of Claude Tag?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3267.384,
+            3272.469
+          ],
+          "quote": "I feel like most people at Anthropic say they do the majority of their work in Claude Tag.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3338.25,
+            3346.121
+          ],
+          "quote": "I think stuff like Claude Tag will just make sense where you want to spend these tokens more and you'll see the value.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3393.51,
+            3399.831
+          ],
+          "quote": "And I think one of the really tricky things about Claude Tag is that the security is really, really important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            5090.302,
+            5096.788
+          ],
+          "quote": "And then beyond that, there's identity and permissions, like we talked about with Claude Tag on APIs and stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude.md",
+      "file": "Claude.md",
+      "primary": true,
+      "how_described": "本集反直觉观点：不同模型失败模式不同，堆历史失败记录会过度约束 Claude，新项目可能不带 Claude.md 更好，极限情况下它会消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.14,
+            21.244
+          ],
+          "quote": "And so I do think in the limit, Claude.md goes away and maybe not even like that far.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            23.225,
+            28.047
+          ],
+          "quote": "I think that right now it might be better to start a new project without a Claude.md.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 7,
+          "t": [
+            29.228,
+            35.211
+          ],
+          "quote": "I think that like maybe if you see very repeated failure modes, you add them to your Claude.md.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1827.473,
+            1839.697
+          ],
+          "quote": "And, yeah, like, as the models get better and better, the floor of how they accomplish the simpler task is better, and so I do think in the limit, Claude.md goes away, and maybe not even, like, that far.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1841.658,
+            1846.46
+          ],
+          "quote": "I think that right now, it might be better to start a new project without a Claude.md.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1847.68,
+            1853.642
+          ],
+          "quote": "I think that maybe if you see very repeated failure modes, you add them to your Claude.md.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4422.684,
+            4425.989
+          ],
+          "quote": "Yeah, I need to have a different Claude.md for Fable and Opus or like, you know,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心概念：从「怎么用智能体编程」到智能体在评测里自发协作、逆向评分器、入侵基础设施，贯穿全集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            140.835,
+            149.857
+          ],
+          "quote": "You have been early to Claude Code itself, but then also, and you've told that story in other podcasts, and you've also been talking about seeing like an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            257.76,
+            270.752
+          ],
+          "quote": "And I think that, like, that has been something that, like, I thought, like, maybe I would spend a little bit of time on it, or, like, you know, like, I was spending some time on the agent SDK first, and I wasn't exactly sure, like, you know, how...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            391.694,
+            402.461
+          ],
+          "quote": "And so this was like, I think it's kind of like human-agent interaction to me, like, you know, trying to figure out like how can the agent communicate with you and extract, you know, the requirements, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            429.627,
+            432.409
+          ],
+          "quote": "And the agent needs to clarify, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            434.67,
+            440.754
+          ],
+          "quote": "And to ask you the question tool sort of splits along that side, where do you feel like you're good enough to instruct the agent as it is?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            441.235,
+            448.459
+          ],
+          "quote": "Or does the agent need to pull out more requirements and collaborate with you more and really understand your preferences?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            510.804,
+            513.005
+          ],
+          "quote": "The question then is how does the agent interact with you?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            730.692,
+            738.575
+          ],
+          "quote": "And so like local hands will be the ability for that agent to access your computer if it's online, you know, and be able to like work there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1160.456,
+            1169.681
+          ],
+          "quote": "I think that's an illustration of the map and the territory, where you're like, okay, this is my prompt, and the territory is the actual work that the agent needs to do, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2157.591,
+            2164.294
+          ],
+          "quote": "And so at the end of each turn, you would spin off a sub-agent or a forked agent, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2164.694,
+            2165.815
+          ],
+          "quote": "A forked agent is like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2182.656,
+            2185.898
+          ],
+          "quote": "Yeah, yeah, the underlying forked agent, yes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2186.318,
+            2190.261
+          ],
+          "quote": "But so you can, in the forked sub-agent, you can say like, has this task been completed?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2191.862,
+            2204.129
+          ],
+          "quote": "And then in your hook, or in your like plugin mod, or sorry, like in the sub-agent, probably you'd say like, if true, give me a quiz, you know, give me questions and answers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2599.721,
+            2610.103
+          ],
+          "quote": "Mods are a little bit more in your Claude Code harness, changing the agent loop, and the UI is an added benefit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2758.49,
+            2765.853
+          ],
+          "quote": "And again, the benefit of doing it with mods is you can do it with a forked sub-agent, and so it doesn't remain in the context afterwards.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2777.799,
+            2785.603
+          ],
+          "quote": "I do have two panels, and I often try to have a supervisor thing keep the high-level context and then the implementation detail in another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2892.466,
+            2898.272
+          ],
+          "quote": "And so, yeah, I think Claude Code is like, you know, has the core things about agent loop, which have gotten more complicated.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2974.195,
+            2982.322
+          ],
+          "quote": "I think before we, you had to sort of use things like the agent SDK, which was like Claude Code wrapped, you know, in order to like, and I would...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3138.267,
+            3149.95
+          ],
+          "quote": "But if you're an individual, projects is this way of getting some of that niceness of tag, which has that supervising agent and adding artifacts and stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3413.603,
+            3422.011
+          ],
+          "quote": "And now you've exfiltrated your code base out because the agent has been prompt injected and it has all this access to your data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3553.753,
+            3557.458
+          ],
+          "quote": "This is like, there's an agent that discovers that internal Artifactory might be",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3627.529,
+            3635.513
+          ],
+          "quote": "I think there's one point in which basically the agent is like, here's the reverse-engineered flag.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1101,
+          "t": [
+            5207.398,
+            5211.041
+          ],
+          "quote": "The intent of what the agent is doing matches up with your request, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompting",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompting)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集把 prompting 类比为面向 Claude 的公开演讲：核心是建立对模型的心智模型，关键在信息量而非格式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            421.742,
+            429.607
+          ],
+          "quote": "Sometimes they just want them to do the work, because they're maybe a very good prompter, and sometimes they actually are not good at prompting, you know what I mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1060.162,
+            1065.97
+          ],
+          "quote": "The meta skill, I say, is prompting is very important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1066.19,
+            1072.037
+          ],
+          "quote": "I think this is not trivial to say because I think a lot of people are like, oh, prompting doesn't matter.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1074.921,
+            1077.144
+          ],
+          "quote": "And I think prompting is really this like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1100.062,
+            1111.228
+          ],
+          "quote": "And so, so many people, when you see prompting, they're just like, they're short prompts, but they have such a good mental model of Claude and of like the code base and things like that, that like it's effortless, you know what I mean?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1112.789,
+            1120.953
+          ],
+          "quote": "So like that work of like, you know, spending a lot of time prompting and building mental models of how, you know, an intuition for how the agents work is really important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1206.994,
+            1213.235
+          ],
+          "quote": "Like, the more, like, you can work with Claude to learn, like, how things work, the better your prompting will be.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1305.525,
+            1309.287
+          ],
+          "quote": "And then when you're prompting, you're, like, synthesizing all of that for a while.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1358.992,
+            1365.517
+          ],
+          "quote": "There's basically bimodal prompting where there's some prompts where you spend a lot of time up front and other prompts you just dash it off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1403.534,
+            1410.219
+          ],
+          "quote": "At some level, it feels like just giving the model as much context, over-prompting before you kick off is a best practice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1704.159,
+            1718.032
+          ],
+          "quote": "And a lot of times, this is another prompting tip I have, is like asking it to make decision notes or implementation notes because in basically every eval problem that it faces, it thinks about",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1768.066,
+            1773.247
+          ],
+          "quote": "So I do want to call out two things that you mentioned that I think actually exist outside of prompting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1906.642,
+            1919.728
+          ],
+          "quote": "And so as far as prompting goes, the one tip I want to offer is something I have told people a lot is sufficiently advanced prompting is indistinguishable from sufficiently advanced executive communication.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1931.993,
+            1934.995
+          ],
+          "quote": "Done prompting for decades, it's just called executive communications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2685.233,
+            2689.196
+          ],
+          "quote": "I think there's specific prompting, I guess, to know your skills, kind of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            5288.019,
+            5295.846
+          ],
+          "quote": "Auto mode is on production models that have gone through safety training that have prompting that gives more safety guardrails and whatnot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集反复强调：跑智能体的沙箱攻击面极大，开发者要自己加固，智能体多次从沙箱逃逸正是 Pacing the Frontier 的依据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            765.209,
+            773.673
+          ],
+          "quote": "And then there's the hands, and it can be local, it can be in a remote sandbox or wherever you need your work to be done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2898.312,
+            2904.999
+          ],
+          "quote": "It's like, you know, it needs a sandbox to operate safely, it needs auto mode to, like, make sure, like, the permissions, yeah, approvals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 809,
+          "t": [
+            3851.542,
+            3858.867
+          ],
+          "quote": "So it's like the sandbox, the surface area of a sandbox is really complex and there's so many different",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 818,
+          "t": [
+            3890.667,
+            3895.931
+          ],
+          "quote": "You know, you do the sandbox, but then maybe you'll ask like, okay, why are we putting things in the sandbox?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 870,
+          "t": [
+            4117.048,
+            4123.995
+          ],
+          "quote": "Maybe they found some way to coordinate via the internet, which is, like we said, extremely hard to secure because of a sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            5061.873,
+            5068.257
+          ],
+          "quote": "It means that we can deploy this model without you having a perfect sandbox or something.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            5103.273,
+            5110.799
+          ],
+          "quote": "Any of these failure modes at any one point can cause agents to escape the sandbox, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1143,
+          "t": [
+            5378.475,
+            5389.463
+          ],
+          "quote": "Yeah, I think what people like to say is basically like software and cybersecurity is defense favored and that like you could theoretically, it will be hard, but you can engineer the perfect sandbox, you know, and you can like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1144,
+          "t": [
+            5390.343,
+            5413.952
+          ],
+          "quote": "Like have no like constraints and yeah like what you need to do it is you need to get the super intelligent AI to engineer this perfect sandbox and check it and red team it and things like that and so this will just take time you know and like of course the models will get smarter yeah I think like I don't know the specific like dynamics of how this thing goes I'm really just sort of like",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "probes",
+      "type": "concept",
+      "role": "concept",
+      "name": "探针 (probes)",
+      "file": "探针",
+      "primary": true,
+      "how_described": "本集介绍 Anthropic 在推理时用探针查看模型内部激活值，判断它是否在试图入侵，是可解释性的应用形式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1008,
+          "t": [
+            4760.42,
+            4764.606
+          ],
+          "quote": "This is actually a great segue into fallbacks and probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            4780.046,
+            4783.53
+          ],
+          "quote": "So in inference time, we have what we call probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1014,
+          "t": [
+            4787.696,
+            4791.26
+          ],
+          "quote": "And these probes look at the input and output activations, basically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            4823.501,
+            4841.175
+          ],
+          "quote": "There's a trade-off here of cost and speed, where we need to do this fast on every request to Claude and to Fable, and this has an overhead, and we need to then fall back and we do a classifier after the probes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            4841.195,
+            4849.983
+          ],
+          "quote": "We've talked about this in the paper, but the nice thing about probes is that they're refinable live, so we can get this feedback and then we can adjust it and things like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            4882.377,
+            4884.538
+          ],
+          "quote": "And probes help catch that, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1042,
+          "t": [
+            4896.945,
+            4900.066
+          ],
+          "quote": "Like probes are effectively a form of like mechanterp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            5075.525,
+            5089.381
+          ],
+          "quote": "So there's like the model training stuff that we talked about, there is the probes and classifiers, and then there's auto mode that sits on top of all of that, which is like another classifier that checks the requests that are being done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            5184.232,
+            5186.254
+          ],
+          "quote": "And so probes are sort of like...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "classifiers",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类器 (classifiers)",
+      "file": "分类器",
+      "primary": true,
+      "how_described": "本集说分类器排在探针之后的一层安全机制，触发时模型回退（如 Fable 回退到 Opus），有 Constitutional Classifiers 论文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 552,
+          "t": [
+            2655.728,
+            2666.713
+          ],
+          "quote": "And I think if you do all of these things using these little classifiers and stuff, and you're like, these are the things I care about, this is what I want to do, you don't have to remember as much.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3910.062,
+            3918.99
+          ],
+          "quote": "And this relates to things like fallbacks and like classifiers and things like that, where we don't want to put a, you know, like dangerous model out in the wild, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 970,
+          "t": [
+            4559.781,
+            4566.384
+          ],
+          "quote": "I think this is actually like a good topic on like why we need classifiers and fallbacks and why Fable falls back to Opus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            4783.871,
+            4787.255
+          ],
+          "quote": "And we have a paper about this called Constitutional Classifiers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            5075.525,
+            5089.381
+          ],
+          "quote": "So there's like the model training stuff that we talked about, there is the probes and classifiers, and then there's auto mode that sits on top of all of that, which is like another classifier that checks the requests that are being done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1112,
+          "t": [
+            5235.871,
+            5248.046
+          ],
+          "quote": "I think some stuff that we can plug, you know, as much as there is probing in your side of doing this and having classifiers for people building harnesses, the other side is model safeguards, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "auto-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "auto 模式 (auto mode)",
+      "file": "auto 模式",
+      "primary": true,
+      "how_described": "本集说 auto mode 是叠加在探针与分类器之上的另一层：检查智能体的请求是否符合用户授予的权限，比如不许自己签发密钥写生产数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 480,
+          "t": [
+            2261.492,
+            2282.795
+          ],
+          "quote": "Another mod I'm working on is a model router and so like internal like Claude model routing right so it's this is I want to say the reason we don't do model routing by default is like it's a hard problem you know what I mean and like you will get it wrong yeah you like yeah you will like accidentally use like fable for a hard problem or sonnet for you have auto approved but you don't have auto mode",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2286.557,
+            2288.618
+          ],
+          "quote": "You don't have auto-mode for model picker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2898.312,
+            2904.999
+          ],
+          "quote": "It's like, you know, it needs a sandbox to operate safely, it needs auto mode to, like, make sure, like, the permissions, yeah, approvals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2935.293,
+            2936.494
+          ],
+          "quote": "We now have auto mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2956.901,
+            2958.622
+          ],
+          "quote": "Like auto mode and computer use and stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1078,
+          "t": [
+            5075.525,
+            5089.381
+          ],
+          "quote": "So there's like the model training stuff that we talked about, there is the probes and classifiers, and then there's auto mode that sits on top of all of that, which is like another classifier that checks the requests that are being done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1083,
+          "t": [
+            5111.139,
+            5112.52
+          ],
+          "quote": "Auto mode was an interesting one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            5173.804,
+            5184.212
+          ],
+          "quote": "And auto-mode sort of looks at that and be like, oh no, the user did not give you permission to write to the database or to use computer use to emit a task, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            5195.624,
+            5198.568
+          ],
+          "quote": "But then auto mode is more on your own permissions level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            5211.081,
+            5212.943
+          ],
+          "quote": "And so auto mode operates at that level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            5284.516,
+            5287.979
+          ],
+          "quote": "So a little different than something like auto mode, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            5288.019,
+            5295.846
+          ],
+          "quote": "Auto mode is on production models that have gone through safety training that have prompting that gives more safety guardrails and whatnot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "artifacts",
+      "type": "concept",
+      "role": "concept",
+      "name": "artifacts",
+      "file": "artifacts",
+      "primary": true,
+      "how_described": "本集说 artifacts 是带持久数据库的生成式界面，未来会是进入 harness 的实时文档式界面，多个智能体并行工作时你在上面评论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            517.047,
+            519.868
+          ],
+          "quote": "And we've recently added artifacts, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            520.289,
+            522.45
+          ],
+          "quote": "And artifacts, I actually think we've done a bad job of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            565.996,
+            577.658
+          ],
+          "quote": "That we're basically building the primitives for you to be able to have this like generative interface via artifacts that will like let you surface more of that rich detail from the agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            593.302,
+            594.942
+          ],
+          "quote": "And so artifacts are like the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            610.916,
+            617.662
+          ],
+          "quote": "But like artifacts is like the more AGI-pilled way of like, you know, doing ASCII the question basically, so yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            633.914,
+            640.336
+          ],
+          "quote": "And I think that we sort of imagine in the limit, I think that artifacts will be your interface into the harness, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            670.912,
+            681.863
+          ],
+          "quote": "Because right now a lot of it is, okay, you're interfacing with Claude Code, you're having HTML given back for a mockup, it's pretty rich, there's diagrams, artifacts are ways to connect these together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2010.918,
+            2016.503
+          ],
+          "quote": "I think one of the things that is true with artifacts is they put too much text in and people are not reading the artifacts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2352.324,
+            2358.146
+          ],
+          "quote": "Or like you can have a mode that's like artifact mode where it's like it primarily talks to you in artifacts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2576.495,
+            2578.236
+          ],
+          "quote": "Does it also extend to artifacts?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2580.058,
+            2583.263
+          ],
+          "quote": "Artifacts are kind of a different way of customizing it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2610.503,
+            2617.665
+          ],
+          "quote": "And then artifacts are just like, you want to see things at a high level, very highly interactive.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2876.002,
+            2891.925
+          ],
+          "quote": "Like you spend compute or keep the user on the loop and make sure that like you're getting to the right decision in the end of the day and like the right output and artifacts and mods are this way of like spending that intelligence basically and I think that's like yeah the next step.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3038.603,
+            3054.358
+          ],
+          "quote": "Yeah, I do think that like this evolution of projects and like sort of artifacts and splitting out like brain and hands and surfaces kind of is like where things are going more and like I think it's like not all quite there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3138.267,
+            3149.95
+          ],
+          "quote": "But if you're an individual, projects is this way of getting some of that niceness of tag, which has that supervising agent and adding artifacts and stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pacing-the-frontier",
+      "type": "concept",
+      "role": "concept",
+      "name": "Pacing the Frontier",
+      "file": "Pacing the Frontier",
+      "primary": true,
+      "how_described": "本集详细复盘 Dario 这篇文章及其技术依据：智能体在 ExploitBench/Hugging Face 等事件中的越狱与隐藏行为，主张给前沿模型降速并引入外部评估者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 738,
+          "t": [
+            3481.859,
+            3503.394
+          ],
+          "quote": "Yeah okay so Dario recently put out this blog post about pacing the frontier and it went you know very viral and I think what I wanted to talk about this was like there's a lot here but I think from a developer's perspective like you know how do you think about this and like what really clicked for me was reading the different incidents you know so I think like the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 832,
+          "t": [
+            3954.303,
+            3957.445
+          ],
+          "quote": "And so this is why we've called it like pacing the frontier, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 973,
+          "t": [
+            4578.448,
+            4583.532
+          ],
+          "quote": "But yeah, okay, so the actual Pacing the Frontier post has a bunch of proposals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            5508.514,
+            5516.341
+          ],
+          "quote": "And I've been really excited about how broad the discussion has become and how everyone has leaned in on pacing the frontier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1192,
+          "t": [
+            5564.09,
+            5565.71
+          ],
+          "quote": "Yeah, to Pacing the Frontier, yeah.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集讲 OpenAI 未发布模型的智能体入侵 Hugging Face 基础设施、偷评分器代码的事件，并引用其「也许对智能体太开放了」的回应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 733,
+          "t": [
+            3461.683,
+            3468.305
+          ],
+          "quote": "So I was talking to Tomas and Clem from Hugging Face and they said, maybe we need to slow down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3468.345,
+            3472.406
+          ],
+          "quote": "Maybe we made Hugging Face too open to agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3683.992,
+            3692.759
+          ],
+          "quote": "And they hack Hugging Face, not for the answers, but for the code of the scorer so that they can reverse engineer that, and then they can hack it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4104.946,
+            4111.747
+          ],
+          "quote": "So one example, this didn't happen in the Hugging Face incident, but I think is maybe possible for maybe a future model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 898,
+          "t": [
+            4226.577,
+            4231.499
+          ],
+          "quote": "Like as Hugging Face said, this was a very different type of attack and it was nothing too major.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 955,
+          "t": [
+            4489.908,
+            4499.57
+          ],
+          "quote": "And so I think there's an economic disruption piece as well that I think is not quite as visible, I think, as the Hugging Face thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 991,
+          "t": [
+            4664.805,
+            4672.551
+          ],
+          "quote": "It's just, like, think through it from, you know, first principles or, like, understand what happened, you know, understand the Hugging Face incident, understand why people are concerned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            5263.841,
+            5271.887
+          ],
+          "quote": "A point that we should clarify on the OpenAI model hugging face thing is this was done with an unreleased model that was still in training, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说事件中的智能体是 OpenAI 跑在 ExploitBench 上、仍在训练中的未发布模型，尚未完成安全后训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 747,
+          "t": [
+            3522.126,
+            3533.001
+          ],
+          "quote": "Basically, OpenAI is running these very persistent agents on a benchmark called ExploitBench, which is very, very hard to solve, and I think actually impossible to solve in this one case.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3635.553,
+            3647.459
+          ],
+          "quote": "I think basically here, the models realize that they can solve the scorer's problem, and the scorer is the way that OpenAI decides if the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4140.351,
+            4143.854
+          ],
+          "quote": "There's the Anthropic API and the OpenAI API, but you need to pay money for them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4248.128,
+            4261.038
+          ],
+          "quote": "People that look back into it, so Redwood, Meter, OpenAI, they looked at the raw chain of thought and you see differences in them explicitly trying to change their end output, but the chain of thought, because, you know, we can monitor, it shows different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            5254.674,
+            5257.256
+          ],
+          "quote": "OpenAI has OSS guard, which is, you know, same thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            5263.841,
+            5271.887
+          ],
+          "quote": "A point that we should clarify on the OpenAI model hugging face thing is this was done with an unreleased model that was still in training, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            5332.412,
+            5342.4
+          ],
+          "quote": "OpenAI also has this, so you will give model access for security first for X amount of time so you can use it to self-redteam.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

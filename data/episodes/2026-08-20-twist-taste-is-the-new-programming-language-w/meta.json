@@ -1,0 +1,36 @@
+{
+  "id": "2026-08-20-twist-taste-is-the-new-programming-language-w",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/LTANT8990784785.mp3",
+  "duration_sec": 1264.03,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 321,
+  "asr": true,
+  "title_en": "Taste is the new programming language (w/ Astrocade CEO Amir Sadeghian) | AI Basics",
+  "podcast": "This Week in Startups",
+  "date": "2026-08-20",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/c4b62a7e-9ff3-11f1-a93b-f3ce42bf4538/image/c6edd3b5222bef219939dbdbe04d4ca3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-11",
+  "added_at": "2026-10-11T14:17:36.759Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jason",
+    "SPEAKER_01": "Amir Sadeghian"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jason",
+  "cohosts": [
+    "Amir Sadeghian"
+  ],
+  "title_zh": "用嘴巴做游戏：品味才是新的编程语言",
+  "guest_name": "Amir Sadeghian",
+  "guest_title": "Astrocade 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/c4b62a7e-9ff3-11f1-a93b-f3ce42bf4538/image/c6edd3b5222bef219939dbdbe04d4ca3.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "500x500",
+    "aspect": 1,
+    "fetched_at": "2026-10-11T14:32:38.290Z"
+  }
+}

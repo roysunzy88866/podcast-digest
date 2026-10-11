@@ -241,7 +241,7 @@ AI 还颠覆了软件行业的基本逻辑。Ben 讲了自己的亲身经历：
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI · 同概念:Claude Code、智能体 (agent)</span>
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:OpenAI · 同概念:AI、智能体 (agent)</span>
-- [[2026-09-14-a16z-greg-brockman-on-why-openai-says-were-en|OpenAI 总裁 Greg Brockman：我们已进入 AGI 时代，而真正的瓶颈不是模型]]<span class="pd-rz">同嘉宾:Ben Horowitz · 同公司:OpenAI</span>
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同公司:OpenAI · 同概念:Claude Code、智能体 (agent)</span>
 
 </div>
 </div>

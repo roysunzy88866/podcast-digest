@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Snap]] · [[OpenAI]] · [[Instagram]] · [[Meta]] · [[待完成任务]] · [[Robby Stein]] · [[Evan Spiegel]] · [[Peter Sellis]] · [[Facebook]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Snap":3,"OpenAI":191,"Instagram":8,"Meta":49,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Peter Sellis":1,"Facebook":17}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Snap":3,"OpenAI":192,"Instagram":8,"Meta":50,"待完成任务":2,"Robby Stein":1,"Evan Spiegel":1,"Peter Sellis":1,"Facebook":17}</script>
 
 <script>
 (function(){

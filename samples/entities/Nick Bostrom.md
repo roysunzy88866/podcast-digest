@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nick Bostrom</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nick Bostrom">NI</div><div class="pi"><h1 class="pt">Nick Bostrom</h1><div class="byl">Big Technology Podcast 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nick Bostrom">NI</div><div class="pi"><h1 class="pt">Nick Bostrom</h1><div class="byl">Big Technology Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条*
+*20 条*
 
 ![[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia#^q1]]
 
@@ -23,17 +23,48 @@ unlisted: true
 
 ![[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia#^q5]]
 
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q1]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q2]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q3]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q4]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q5]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q6]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q7]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q8]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q9]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q10]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q11]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q12]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q13]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q14]]
+
+![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q15]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|《Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗》]] — 作为联合主持
+- [[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe|《超级智能该加速还是刹车？哲学家的算法：先算算每年死多少人》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alex]] · [[OpenAI]] · [[Anthropic]] · [[Hugging Face]] · [[NVIDIA]] · [[智能体]] · [[对齐]] · [[AI 安全]] · [[护栏]] · [[开源模型]]
+[[Hugging Face]] · [[对齐]] · [[超级智能]] · [[暂停]] · [[Alex]] · [[生存风险]] · [[OpenAI]] · [[工具性趋同]] · [[Anthropic]] · [[强化学习]]
 
 ## ④ 也在聊「AI 安全」的人
 
@@ -43,7 +74,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"OpenAI":191,"Anthropic":196,"Hugging Face":34,"NVIDIA":67,"智能体":460,"对齐":22,"AI 安全":3,"护栏":88,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":36,"对齐":23,"超级智能":10,"暂停":2,"Alex":6,"生存风险":5,"OpenAI":192,"工具性趋同":1,"Anthropic":197,"强化学习":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Edwin Chen]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Sora]] · [[Grok]] · [[Waymo]] · [[GPT-3]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Anthropic":196,"ChatGPT":105,"LLM Arena":1,"Sora":4,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"Lenny":68,"Edwin Chen":1,"Anthropic":197,"ChatGPT":105,"LLM Arena":1,"Sora":4,"Grok":7,"Waymo":21,"GPT-3":4,"Claude":93}</script>
 
 <script>
 (function(){

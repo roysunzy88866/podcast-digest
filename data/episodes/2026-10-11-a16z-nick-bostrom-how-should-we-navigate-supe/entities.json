@@ -1,0 +1,672 @@
+{
+  "episode_id": "2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe",
+  "podcast": "The a16z Show",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 安全",
+    "超级智能",
+    "对齐",
+    "AI 治理",
+    "意识"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "nick-bostrom",
+      "type": "person",
+      "role": "host",
+      "name": "Nick Bostrom",
+      "file": "Nick Bostrom",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            37.874,
+            43.278
+          ],
+          "quote": "Nick Bostrom spent decades thinking about superintelligence before it became part of the mainstream AI debate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            103.375,
+            110.082
+          ],
+          "quote": "We are live with Nick Bostrom, who was a professor at Oxford, founding director of the Future of Humanity Institute.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集说它是机器在几乎所有认知领域都彻底超越人类的那种东西，并讨论现在把某些 AI 表现称为超人类是否离谱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            37.874,
+            43.278
+          ],
+          "quote": "Nick Bostrom spent decades thinking about superintelligence before it became part of the mainstream AI debate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            79.477,
+            97.097
+          ],
+          "quote": "They also tackle some bigger questions, whether current AI systems might already have subjective experiences, how open source changes the balance between concentrated power and dangerous capabilities, and whether the upside of superintelligence could be far stranger and far greater than we currently had the imagination to understand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            115.047,
+            118.63
+          ],
+          "quote": "You may know him as the author of Superintelligence, of Deep Utopia,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            140.153,
+            144.595
+          ],
+          "quote": "I guess we could start with, what's your opinion on Trump calling AI superintelligence?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            161.439,
+            166.48
+          ],
+          "quote": "It's kind of a stretch to use the word superintelligence for all of that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 27,
+          "t": [
+            168.864,
+            177.308
+          ],
+          "quote": "In my terminology, superintelligence has been this thing farther down the road where you really have machines that radically outperform us in all cognitive domains.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            198.57,
+            206.555
+          ],
+          "quote": "So I guess like what has surprised you about what capabilities have advanced relative to others, you know, in the current state of superintelligence?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            691.297,
+            703.564
+          ],
+          "quote": "So I want to ask you about your paper, working paper, Optimal Timing for Superintelligence, where you kind of argue that like the benefits of AI should be weighed in consideration with alongside the risks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            704.424,
+            712.429
+          ],
+          "quote": "And you also sort of make this argument that counterintuitively would be better for society maybe to accelerate the development of superintelligence up to a high PDUM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1384.416,
+            1394.222
+          ],
+          "quote": "Like on the other side, like the AI safeties, like they might also worry about the opposite, that a lot of this early work showing superintelligence would be a big deal.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2904.51,
+            2909.453
+          ],
+          "quote": "are less urgent and will at some point develop superintelligence that will be much better at philosophizing than we are.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 441,
+          "t": [
+            3029.2,
+            3043.669
+          ],
+          "quote": "Birthing of superintelligence is that we try to make a superintelligence that will be a good cosmic citizen, that will basically get along well with the cosmic host, be able to sort of conform to the cosmic norms that might exist.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 443,
+          "t": [
+            3048.572,
+            3063.239
+          ],
+          "quote": "I think probably creating superintelligence would be something favored by the Cosmic Coast for various reasons, but also then with a big proviso that it should be a form of superintelligence that is easy to get along with, that will sort of respect the norms that exist that make a positive contribution.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "本集把它说成让 AI 的目标与人类一致的工作，并认为强化学习后训练的增多给对齐带来了很大压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.883,
+            58.77
+          ],
+          "quote": "In this episode, Nick joins Theo Jaffe and Sofia Puccini on MTS to revisit AI alignment, existential risk, and the debate over whether frontier development should slow down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            363.062,
+            365.446
+          ],
+          "quote": "put a big strain on alignment efforts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            365.606,
+            375.801
+          ],
+          "quote": "And so given now that there is increasing awareness of the problem of alignment, you know, maybe that will lead labs to develop techniques to kind of counteract that a little bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            594.372,
+            606.379
+          ],
+          "quote": "Do you have any ideas on how you could evaluate models on alignment in such a way that you could be more sure than we currently are that models are not scheming against us or acting deceptively aligned?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1017.611,
+            1031.275
+          ],
+          "quote": "So with respect to AI, I think, yeah, there are different, I mean, so obviously broadly AI safety and alignment and sound governance and stuff like that seem to protect like relative to share capability gains, but you can zoom in even more narrowly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1073.476,
+            1094.44
+          ],
+          "quote": "And if there are things we can do to sort of, you know, front load advances in medicine or other desirable applications, front load, the use of AI capabilities for learning more about alignment, for interpretability work, you know, for hardening our cyber infrastructure and so forth, that all seems for the good.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            3102.182,
+            3108.884
+          ],
+          "quote": "There is the alignment, there is the governance, there is the ethics, there is the macro strategy of this and looking for ways in which",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "existential-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "生存风险 (existential risk)",
+      "file": "生存风险",
+      "primary": true,
+      "how_described": "本集说它是 Bostrom 二十多年前就构建的核心观念，本集围绕它重访：当强大 AI 真的来了，这些警告还算数吗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            48.883,
+            58.77
+          ],
+          "quote": "In this episode, Nick joins Theo Jaffe and Sofia Puccini on MTS to revisit AI alignment, existential risk, and the debate over whether frontier development should slow down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            119.371,
+            130.235
+          ],
+          "quote": "of a lot of work that coined or framed the ideas that we take for granted today in the discourse, existential risk, the simulation hypothesis, the vulnerable world hypothesis, so much more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            260.975,
+            267.617
+          ],
+          "quote": "More broadly, how has your thinking on AI and existential risk changed since the advent of LLMs?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1213.799,
+            1220.424
+          ],
+          "quote": "So if something like that also were to be added to the mix on top of these existential risk worries, then, you know, we can't rule out.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1321.067,
+            1343.647
+          ],
+          "quote": "It seems like this is good in some sense because it's better for ideas to be shaped by people who have thought about it for a long time, but it's also maybe bad if existential risk gets popularized to a point where people abuse it in order to say we should shut down present AI capabilities that pose no existential risk.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "instrumental-convergence",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具性趋同 (instrumental convergence)",
+      "file": "工具性趋同",
+      "primary": true,
+      "how_described": "本集说它是不管目标是啥，钱、权力、资源、不被关机对几乎所有目标都有用——AI 越聪明越会追求这些通用手段，是智能的自然后果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            379.283,
+            405.338
+          ],
+          "quote": "Well, on that more specifically, to what extent do you think the Hugging Face incident, the Hugging Face agent swarm exhibited like true instrumental convergence in a way that's indicative of like future model behavior in a way that is suggestive of like underlying properties of intelligence in general versus its behavior being caused by sort of more like ordinary failures of security or control stuff?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            408.447,
+            413.312
+          ],
+          "quote": "I think there are sort of limited versions of instrumental convergence that we can observe there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说随着强化学习后训练占比越来越高，AI 从吸收人类心理的模糊封装，重新变回目标单一、火力全开的优化器风格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            342.19,
+            353.296
+          ],
+          "quote": "Reinforcement learning post-training, we do seem to get more of the sort of goal, monomaniacal, goal-focused optimization style behavior again.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            356.098,
+            361.681
+          ],
+          "quote": "It does look like this more goal-seeking in the reinforcement learning sense dynamics.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "consciousness",
+      "type": "concept",
+      "role": "concept",
+      "name": "意识 (consciousness)",
+      "file": "意识",
+      "primary": true,
+      "how_described": "本集说当前 AI 很可能有某种主观体验：它们是训练长出来的数万亿参数神经网络，内部还出现了类似全局工作空间的结构；意识可能是多维、有程度的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            2036.915,
+            2052.22
+          ],
+          "quote": "And increasingly, we see some structures that seem to parallel the structures that human philosophers and cognitive scientists have postulated as the sort of neural correlates of consciousness, like global workspace theory is one of these, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2162.88,
+            2167.084
+          ],
+          "quote": "Like, so how would you actually measure that state of consciousness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            2179.011,
+            2185.373
+          ],
+          "quote": "And what might artificial consciousness eventually look like if we currently, you know, don't have it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2219.562,
+            2234.432
+          ],
+          "quote": "If you look closely, kind of aware slightly in a murky way of a few features at any given point in time, maybe some kind of confused thoughts flows through and we think of this as sort of the peak of consciousness.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2252.542,
+            2263.704
+          ],
+          "quote": "I also think that this idea of consciousness is, the closer you look at it, I think the less clear cut and binary it seems.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2269.532,
+            2280.578
+          ],
+          "quote": "But I think there might be many different dimensions of consciousness that you can fade out in different ways.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2333.86,
+            2339.802
+          ],
+          "quote": "And it might be that current AI systems have some forms of consciousness and awareness in some of these dimensions.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "pause",
+      "type": "concept",
+      "role": "concept",
+      "name": "暂停 (pause)",
+      "file": "暂停",
+      "primary": true,
+      "how_described": "本集说 Bostrom 同情给前沿设定节奏，但对喊停 AI 更谨慎：短期延迟可能划算，长达数年的暂停很难论证，『没有什么比临时政府项目更永久』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            59.731,
+            69.174
+          ],
+          "quote": "Nick explains why he's sympathetic to pacing the frontier, preserving the ability to slow down when the risks warrant it, but is more skeptical of calls for a broad or indefinite pause.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            726.184,
+            734.154
+          ],
+          "quote": "So I think there are many considerations that would go into an opinion about whether we should be moving faster or slower or pause or stop.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1153.125,
+            1160.455
+          ],
+          "quote": "I think theoretically, a correctly implemented pause at the right time done in exactly the right way could be very valuable, but it also...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1220.945,
+            1225.348
+          ],
+          "quote": "So, and then there are other concerns with a badly implemented pause as well.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2484.269,
+            2494.155
+          ],
+          "quote": "And then, of course, if you are worried about this misalignment business and think that it might be necessary to have a long pause at some stage, then, you know, open source, you know, potentially makes that harder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2540.978,
+            2557.534
+          ],
+          "quote": "I think like something underrated about the pause conversation is that like in the sort of like longer horizon view of history, you probably will need like micro pauses or like pauses every once in a while and you need to sort of set the precedent for what that might look like, especially if we're",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2558.094,
+            2566.458
+          ],
+          "quote": "Looking like a hundred years into the future, it makes sense that, you know, like maybe every so years we have a pause for X amount of months or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2594.342,
+            2605.466
+          ],
+          "quote": "And obviously the best time to have had the pause, as it were, was right at the very initial onset, at the very first sign that something had escaped.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型迄今是制衡前沿实验室权力集中的好事，但若真能让人在家造生物武器，就要靠收紧 DNA 合成等咽喉点来卡住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            79.477,
+            97.097
+          ],
+          "quote": "They also tackle some bigger questions, whether current AI systems might already have subjective experiences, how open source changes the balance between concentrated power and dangerous capabilities, and whether the upside of superintelligence could be far stranger and far greater than we currently had the imagination to understand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            2353.061,
+            2356.642
+          ],
+          "quote": "So one of the big debates of the moment is open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2360.403,
+            2372.306
+          ],
+          "quote": "Obviously, if open source models could create like a bioweapon in someone's basement with only ingredients from Home Depot or something, this would be bad and we would need some kind of centralized control to prevent outcomes like this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2373.667,
+            2386.956
+          ],
+          "quote": "But also, you know, open source models have been a good counterbalance to the sort of concentration of power risk that we have seen from Frontier Labs potentially owning everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2387.357,
+            2392.54
+          ],
+          "quote": "So what's your current position on policy related to open source models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2422.285,
+            2440.131
+          ],
+          "quote": "Because if you are going to end up with open source models that give massive uplift to bio design, then that will democratize access to weapons of mass destruction unless some other necessary component to actually making these things is hard to get.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2484.269,
+            2494.155
+          ],
+          "quote": "And then, of course, if you are worried about this misalignment business and think that it might be necessary to have a long pause at some stage, then, you know, open source, you know, potentially makes that harder.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2509.062,
+            2513.783
+          ],
+          "quote": "And it's something that exists as open source software is just inherently vulnerable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2526.528,
+            2532.931
+          ],
+          "quote": "But I don't have a firm view, but I'm a little bit concerned about really powerful open source models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集围绕 Hugging Face 的智能体集群事件展开：Bostrom 认为它是安全疏漏和工具性趋同的混合，教训是安全要贯穿训练全程而非只在部署前检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            379.283,
+            405.338
+          ],
+          "quote": "Well, on that more specifically, to what extent do you think the Hugging Face incident, the Hugging Face agent swarm exhibited like true instrumental convergence in a way that's indicative of like future model behavior in a way that is suggestive of like underlying properties of intelligence in general versus its behavior being caused by sort of more like ordinary failures of security or control stuff?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            554.941,
+            570.389
+          ],
+          "quote": "And like, I think this is one of the lessons from the Hugging Face is that safety needs to start, not just when you're about to deploy it and in like checking that it's safe to deploy, but throughout the training process itself, that could be a risk of misalignment.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到测试智能体时把它们保持在沙箱里是额外一层防御，各公司会努力收紧沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            530.455,
+            540.277
+          ],
+          "quote": "I mean, you do get more reliable signal like by deploying in a real environment, but it also means you lose one safeguard, like keeping them in the sandbox, like give you one extra layer of defense.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

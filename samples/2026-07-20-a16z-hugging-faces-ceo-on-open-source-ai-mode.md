@@ -162,7 +162,7 @@ Anthropic 指控阿里巴巴通过正常付费账号蒸馏(用强模型的输出
 
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:推理 (inference)、蒸馏 (distillation)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、Hugging Face · 同概念:推理 (inference)</span>
-- [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同概念:前沿模型 (frontier models)、蒸馏 (distillation)</span>
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI</span>
 
 </div>
 </div>

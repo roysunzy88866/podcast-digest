@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[推理]] · [[ChatGPT]] · [[GPU]] · [[数据中心]] · [[Ezra Klein]] · [[Renen Hallak]] · [[Herwig]] · [[Chase Lochmiller]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":67,"智能体":460,"推理":91,"ChatGPT":105,"GPU":30,"数据中心":23,"Ezra Klein":1,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":67,"智能体":464,"推理":91,"ChatGPT":105,"GPU":30,"数据中心":23,"Ezra Klein":1,"Renen Hallak":1,"Herwig":1,"Chase Lochmiller":1}</script>
 
 <script>
 (function(){

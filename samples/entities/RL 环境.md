@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[合成数据]] · [[Harvey]] · [[NVIDIA]] · [[微调]] · [[后训练]] · [[评估]] · [[推理]] · [[Mercor]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"智能体":460,"合成数据":10,"Harvey":20,"NVIDIA":67,"微调":35,"后训练":1,"评估":1,"推理":91,"Mercor":2,"SaaS":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"合成数据":10,"Harvey":20,"NVIDIA":67,"微调":35,"后训练":1,"评估":1,"推理":91,"Mercor":2,"SaaS":22}</script>
 
 <script>
 (function(){

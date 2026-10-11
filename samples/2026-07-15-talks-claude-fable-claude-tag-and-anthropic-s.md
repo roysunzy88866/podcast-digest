@@ -158,9 +158,9 @@ Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所
 
 **换个口味**
 
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同嘉宾:Thariq Shihipar · 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)、自动模式 (auto mode)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic、Datadog · 同概念:Claude Code、Slack、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、系统提示词 (system prompt)、Slack</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude Code、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 </div>

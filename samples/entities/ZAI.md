@@ -31,7 +31,7 @@ unlisted: true
 
 [[Florian]] · [[DeepSeek]] · [[ByteDance]] · [[Xiaomi]] · [[Meituan]] · [[Ant Group]] · [[BAAI]] · [[Moonshot]] · [[Claude Code]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"Florian":1,"DeepSeek":4,"ByteDance":1,"Xiaomi":3,"Meituan":1,"Ant Group":1,"BAAI":1,"Moonshot":3,"Claude Code":101,"Hugging Face":34}</script>
+<script type="application/json" class="pd-epn">{"Florian":1,"DeepSeek":4,"ByteDance":1,"Xiaomi":3,"Meituan":1,"Ant Group":1,"BAAI":1,"Moonshot":3,"Claude Code":102,"Hugging Face":36}</script>
 
 <script>
 (function(){

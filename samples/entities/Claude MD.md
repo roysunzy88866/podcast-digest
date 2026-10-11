@@ -7,35 +7,41 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude MD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude MD">CL</div><div class="pi"><h1 class="pt">Claude MD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude MD">CL</div><div class="pi"><h1 class="pt">Claude MD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]]**(09:17起):本集说它是用户级的基本规则文件(ground rules),Lada 的只有 72 行,因为上下文内存稀缺,只放契约级规则。
 - **[[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]]**(06:44起):本集把它比作「每次智能体开工前在实习生耳边低语的一句话」：加载进其上下文的指引，最优秀的构建者会在 Claude MD 和 skill 文件上投入多得不同寻常的时间
+- **[[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]]**(00:15起):本集反直觉观点：不同模型失败模式不同，堆历史失败记录会过度约束 Claude，新项目可能不带 Claude.md 更好，极限情况下它会消失。
 
 ## ① 提到它的金句
 
-*2 条*
+*4 条*
 
 ![[2026-07-27-talks-boris-cherny-we-cut-80-of-claude-code-s#^q6]]
 
 ![[2026-09-29-latent-thariq#^q1]]
 
+![[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn#^q1]]
+
+![[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn#^q2]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-25-ainativedev-lada-kesseler-i-trust-ai-tests-less-than|《别指望 AI 一次做对:一位首席工程师的协作心法》]] — 作为概念
 - [[2026-09-27-talks-orchestras-not-factories-how-the-fastest|《管弦乐团而非工厂：编码智能体时代的六条构建者原则》]] — 作为概念
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Lada Kesseler]] · [[Charlie Holtz]] · [[智能体编码]] · [[Conductor]] · [[智能体]] · [[Claude Code]] · [[技能]] · [[OpenAI]] · [[TDD]]
+[[Anthropic]] · [[智能体]] · [[Claude Code]] · [[OpenAI]] · [[沙箱]] · [[Lada Kesseler]] · [[Charlie Holtz]] · [[Thariq Shihipar]] · [[智能体编码]] · [[Conductor]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":196,"Lada Kesseler":1,"Charlie Holtz":1,"智能体编码":4,"Conductor":2,"智能体":460,"Claude Code":101,"技能":29,"OpenAI":191,"TDD":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":197,"智能体":464,"Claude Code":102,"OpenAI":192,"沙箱":93,"Lada Kesseler":1,"Charlie Holtz":1,"Thariq Shihipar":3,"智能体编码":4,"Conductor":2}</script>
 
 <script>
 (function(){

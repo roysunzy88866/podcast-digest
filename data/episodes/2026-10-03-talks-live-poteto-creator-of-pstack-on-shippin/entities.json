@@ -1,0 +1,1847 @@
+{
+  "episode_id": "2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin",
+  "podcast": "精选演讲",
+  "date": "2026-10-03",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "软件工厂",
+    "验证",
+    "技能库"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "poteto",
+      "type": "person",
+      "role": "host",
+      "name": "Poteto",
+      "file": "Poteto",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集嘉宾的工作单位（稿中称现已更名 SpaceX AI）：他在此做智能体窗口的性能优化，并称 Cursor 有个叫 Projects 的新功能，即云端的协调者智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            118.728,
+            124.876
+          ],
+          "quote": "So I think the journey sort of began even before I joined Cursor, which is now SpaceX AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            165.257,
+            171.118
+          ],
+          "quote": "This was like, you know, before, you know, things like cursor, you know, like the agents window was, had become popular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            269.401,
+            277.169
+          ],
+          "quote": "And then, you know, after I joined Cursor, I was starting to work on the agents window and it had a lot of performance issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            287.82,
+            295.262
+          ],
+          "quote": "And so the beginning of the cursor journey was very manual.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            323.652,
+            325.072
+          ],
+          "quote": "So I joined Cursor in March.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1017.763,
+            1022.204
+          ],
+          "quote": "And funnily enough, that was actually the first skill I built when I joined Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1080.026,
+            1092.573
+          ],
+          "quote": "And that takes you out of the equation where now I can actually do something like, so one of the very first use cases I had for verification was the performance work that I was doing on cursor's agent window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1146.687,
+            1153.668
+          ],
+          "quote": "And also internally, we have so many verification skills now, like every app that Cursor has or SpaceX AI has,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2346.985,
+            2354.507
+          ],
+          "quote": "It's really like these projects are... Actually, Cursor has a new feature called Projects, which are these like coordinator agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2557.184,
+            2561.044
+          ],
+          "quote": "And whenever you find that, send it to my cursor project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2561.424,
+            2564.485
+          ],
+          "quote": "So one of the really cool things about GraphBot is it connects to cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2565.185,
+            2570.069
+          ],
+          "quote": "So Cursor has, like I just mentioned, this new feature called projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2635.92,
+            2641.285
+          ],
+          "quote": "So I use cursor projects a lot and I also use GropBot a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2641.865,
+            2645.949
+          ],
+          "quote": "And cursor projects are my inner loop and Groffbot is my outer loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2654.297,
+            2655.638
+          ],
+          "quote": "You don't even have to open cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3794.112,
+            3799.278
+          ],
+          "quote": "So specifically, I was working on virtualization for the cursor application, and there were a lot of bugs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "嘉宾加入 Cursor 前在 Meta 的 React 团队工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            129.673,
+            136.899
+          ],
+          "quote": "After Meta, so I used to work at Meta on the React team, I took a month off because I was feeling kind of burnt out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "嘉宾提到以前在 Netflix 时经理们爱谈「上下文，而非控制」的理念，并类比到智能体世界",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2497.93,
+            2510.954
+          ],
+          "quote": "When I used to work in Netflix, one of the biggest things that managers would talk about was this idea of context, not control, which, funnily enough, has so much carry over to the agent's world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pstack",
+      "type": "concept",
+      "role": "concept",
+      "name": "pstack",
+      "file": "pstack",
+      "primary": true,
+      "how_described": "嘉宾的开源技能库（稿中写作 PSAC/Pstack）：本集称验证是其中最重要的技能，还内置 recall 技能和触发高强度验证循环的全自动模式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 628,
+          "t": [
+            3589.18,
+            3594.283
+          ],
+          "quote": "I think I want to ask how you see Pstack...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3718.698,
+            3729.051
+          ],
+          "quote": "You know, someone might find a lot of success combining, you know, like your Grill Me with Docs or Wayfinder skill with some of the execution skills in Pstack as an example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            148.849,
+            154.955
+          ],
+          "quote": "But then I started to realize, you know, I was spending like so many hours just micromanaging one agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            191.892,
+            202.26
+          ],
+          "quote": "And so I kind of started the journey there where I just took a step back and realized I was spending all this time micromanaging a single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            245.342,
+            254.666
+          ],
+          "quote": "And so I was really interested in this idea of how do I, you know, extract my own ability, if that makes sense, and give it to the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            254.686,
+            263.17
+          ],
+          "quote": "Because I realized that, you know, all I was trying to do was trying to teach the agent to write code more like me, you know, do workflows more like me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            312.447,
+            315.768
+          ],
+          "quote": "I was the meat proxy between my agent and Chrome DevTools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            435.309,
+            442.435
+          ],
+          "quote": "You know, as the models get really, really, really good, it almost becomes like the bottleneck is no longer the agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            442.455,
+            452.763
+          ],
+          "quote": "It becomes your ability to express your intent and your goals in a clear way that the agent can understand and actually carry out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            484.704,
+            502.172
+          ],
+          "quote": "If they have a clear enough vision in their head and they can articulate it in a way that the agent can build it, I think that that is really the bottleneck these days is the transfer of your intent and your vision to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            521.006,
+            527.868
+          ],
+          "quote": "What I love is when you find a word that the agent then hooks onto and then goes, okay, I'm going to reinforce that word.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            539.039,
+            545.826
+          ],
+          "quote": "What you're doing is you're getting the agent to think about TDD, getting it to write tests, getting it to prioritize things in a different way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            555.17,
+            563.093
+          ],
+          "quote": "Or at least it helps the agent understand your thinking so that it can propose those words to you and you can pick up and say, yes, exactly that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            913.233,
+            919.377
+          ],
+          "quote": "I think what I love about your approach is the amount of focus that you put into the environment that the agent operates in, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            919.617,
+            923.019
+          ],
+          "quote": "Because I think a lot of people, they think, right, the agent is good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            939.107,
+            946.591
+          ],
+          "quote": "But what I love about your approach, and it's something I advocate for too, is that you can change the environment the agent operates in, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            988.666,
+            1000.436
+          ],
+          "quote": "Because without verification, and by the way, for those watching who don't know what that means, it's this idea that you can sort of give your agent hands and eyes in a way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1003.618,
+            1016.722
+          ],
+          "quote": "where the agent is able to run the code, right, and actually interact with it like a normal human user would, and also do things like, you know, debug it, you know, take traces and snapshots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1035.047,
+            1052.351
+          ],
+          "quote": "Because no matter how good, you know, some of the other skills were, like the how skill, the why skill, the unslop skill were, I was still relying on me, right, as the proxy between my agent and the output so that, you know, if the agent can actually see the result of its work,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1067.282,
+            1068.063
+          ],
+          "quote": "What is an agent loop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1071.802,
+            1079.326
+          ],
+          "quote": "that allows it to be a loop is the verification part because the agent is able to verify its own work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1080.026,
+            1092.573
+          ],
+          "quote": "And that takes you out of the equation where now I can actually do something like, so one of the very first use cases I had for verification was the performance work that I was doing on cursor's agent window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1108.425,
+            1114.05
+          ],
+          "quote": "And now because you have a loop, you can have an agent continually try to make improvements to that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1204.062,
+            1216.909
+          ],
+          "quote": "And there was almost this meme in the community that, you know, once your agent summarized or compacted once, it would become sort of stupid, right, for the rest of your session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1297.385,
+            1303.147
+          ],
+          "quote": "You don't need an agent to think about it and come up with it in a novel way each time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1306.925,
+            1318.899
+          ],
+          "quote": "And you'll see this in a lot of the other skills that I've built, is like I try to extract out the deterministic parts and turn that into code and just leave only the parts that actually require judgment to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1357.434,
+            1365.057
+          ],
+          "quote": "So it's almost you're compressing information and making the agent do more consistent things more consistently.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1367.498,
+            1376.903
+          ],
+          "quote": "And it also helps, I guess, if you care about context window, it does help because now the agent doesn't need to reinvent things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1376.983,
+            1388.91
+          ],
+          "quote": "Because one thing I had noticed early on when we didn't have a CLI was that while the agent would try to verify its work, but it would basically rebuild the world each time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1389.61,
+            1390.95
+          ],
+          "quote": "And every agent did it differently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1398.172,
+            1404.454
+          ],
+          "quote": "Because now an agent had to actually go off and write the scripts or the CLI and test it and it doesn't work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1404.594,
+            1407.354
+          ],
+          "quote": "And the last agent did it and it worked, but it discarded it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1407.434,
+            1418.877
+          ],
+          "quote": "So it was just very obvious at that point, I should just turn this into a CLI and put that inside of the skill so that every agent that uses it now benefits from that same piece.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1488.272,
+            1490.734
+          ],
+          "quote": "Like a script does it for you instead of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1498.925,
+            1509.975
+          ],
+          "quote": "You're taking stuff away from the agent and you're kind of putting it in the environment too a little bit, which is, let's say you have a thing that you notice the agent always gets wrong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1536.427,
+            1543.829
+          ],
+          "quote": "And that means that you have a lot of guardrails, that you have a lot of the agent or the human is constrained to very narrow paths.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1556.892,
+            1561.033
+          ],
+          "quote": "And you guys even, I think, built a framework for your agent to work into.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1601.108,
+            1602.969
+          ],
+          "quote": "You don't have a lot of trust in your agent's work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1864.573,
+            1875.958
+          ],
+          "quote": "It both frees up your own mental capacity, as well as the agent sort of doesn't have to think about that anymore, where it's just like, oh, there's only...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1957.939,
+            1964.501
+          ],
+          "quote": "You should watch your agent like a hawk to make sure that any mistakes it makes, you turn them into things in the environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1964.861,
+            1971.044
+          ],
+          "quote": "And the benefit of the environment is you're not overloading your agent in terms of rules, in terms of things it has to remember.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2132.683,
+            2147.233
+          ],
+          "quote": "I don't know if I'm using the definition correctly, but to me, my inner loop is like basically my engineers, my agent engineers working on the code to and building towards an intent or snapshot of my intent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2153.537,
+            2158.039
+          ],
+          "quote": "that I then have to be the proxy of and transfer that context to my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2185.336,
+            2188.017
+          ],
+          "quote": "You have to ferry that across to your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2292.037,
+            2300.407
+          ],
+          "quote": "And so I try to think about how do I actually get the agent to answer its own question, but not by hallucinating, not by guessing, but actually real data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2313.291,
+            2323.955
+          ],
+          "quote": "To me, it's just about how do I take information that my agent needs that I would otherwise have to go and pass it myself and just teach it how to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2377.273,
+            2390.786
+          ],
+          "quote": "And really the big, the last thing I'll say to this is like the big unlock for me for getting to 2,000 PRs is starting from the question and working backwards of how do I get to the point where my agent can merge its own code?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2422.033,
+            2427.121
+          ],
+          "quote": "Whereas if you've got an agent sort of like doing the expo, then you're able to sort of run it yourself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2497.93,
+            2510.954
+          ],
+          "quote": "When I used to work in Netflix, one of the biggest things that managers would talk about was this idea of context, not control, which, funnily enough, has so much carry over to the agent's world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2522.501,
+            2528.65
+          ],
+          "quote": "Like, teach the agent, teach your engineers how to be self-sufficient, and then you don't have to micromanage them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2570.75,
+            2575.954
+          ],
+          "quote": "And a project is really, again, you get a coordinator agent that's in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2607.169,
+            2614.539
+          ],
+          "quote": "So if you get a sudden burst of issues, let's say you get 30 issues at once in one payload or something, or very quickly, the coordinator agent can figure it out and delegate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2618.745,
+            2621.347
+          ],
+          "quote": "spawns a sub-agent or a single coordinator agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2677.928,
+            2681.308
+          ],
+          "quote": "And you can certainly go off and just spawn one agent per task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2711.217,
+            2717.981
+          ],
+          "quote": "Because it's not just you have a bug report comes in, you spawn a single agent to look at that bug report.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2718.001,
+            2722.423
+          ],
+          "quote": "That single agent will be duplicating work with other agents, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2827.762,
+            2830.063
+          ],
+          "quote": "Uh, agent to go and look at the code, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2865.583,
+            2868.846
+          ],
+          "quote": "And so I have an agent that's just constantly looking for bad patterns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2914.672,
+            2920.835
+          ],
+          "quote": "And sort of use your own human judgment to, or I guess you can use an agent to do that as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2921.435,
+            2931.659
+          ],
+          "quote": "But you give the agent and yourself a way to identify patterns that you might otherwise miss if you're just only solving each bug at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2932.239,
+            2943.164
+          ],
+          "quote": "And that's also really the benefit of having something like a chief of staff agent is it can see the forest in addition to actually doing the execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3023.467,
+            3030.112
+          ],
+          "quote": "And then you think about how to course correct the environment, not that single agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3169.288,
+            3180.455
+          ],
+          "quote": "I tell my agent, full autopilot is something that you can do in PSAC, and that will trigger off this very intense, rigorous verification loop where it'll spawn a bunch of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3217.434,
+            3219.595
+          ],
+          "quote": "Or just tell the agent to verify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3460.107,
+            3475.775
+          ],
+          "quote": "And I think that this is something the industry and us as engineers will have to figure out is, you know, my sort of hope and prediction for the future is that we'll see more and more interesting new agent-oriented programming languages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3748.525,
+            3759.853
+          ],
+          "quote": "Tell the agent to look through all of the patterns that you've used, the times you've had to intervene, suggest turning them into lint rules or new skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把技能说成「用文字写下来的流程」：把人的职业判断提炼成智能体能用的东西，两人还聊了怎么组合各自的技能库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            202.84,
+            211.306
+          ],
+          "quote": "I was creating skills and I was finding it quite difficult to measure the output or the results, the impact of the skill as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            226.797,
+            238.925
+          ],
+          "quote": "And a lot of some tricks I had learned, like building that early set of skills, actually, it's still open source if you want to, if anybody wants to take a look, it's on my GitHub, like potato slash noodle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            239.88,
+            244.682
+          ],
+          "quote": "N-O-O-D-L-E. And in there, you will see some skills and a brain directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            264.01,
+            267.412
+          ],
+          "quote": "So, you know, the skills were like an entry point to doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            328.594,
+            332.936
+          ],
+          "quote": "Early April is when I joined and I didn't have any skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            333.136,
+            337.478
+          ],
+          "quote": "I sort of abandoned my personal skills because I didn't think they'd be relevant anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            338.618,
+            358.013
+          ],
+          "quote": "But then working on the agents window and now working on GrokBot, I sort of realized that a lot of the lessons I had learned from those skills, time building the initial set of skills, were very relevant, especially around things like verification, being very rigorous in your work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            373.38,
+            379.423
+          ],
+          "quote": "So a lot of the skills that I've built have been around, how do I make the easy thing the right thing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            392.164,
+            394.505
+          ],
+          "quote": "That's exactly what I've been doing with the skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            900.339,
+            910.942
+          ],
+          "quote": "And how you set up your skills, your environment, your code base, I think are ultimately the new ingredients that go into building product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            974.555,
+            988.106
+          ],
+          "quote": "Yeah, I've said this a lot, actually, that even if you don't use PSAC or your skills, I think that the single most important skill that should be in your toolkit is verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1023.104,
+            1034.087
+          ],
+          "quote": "That was the thing that actually started to let me ascend the trust ladder a little bit in a way that some of the other skills I had looked at or built had not really let me do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            1035.047,
+            1052.351
+          ],
+          "quote": "Because no matter how good, you know, some of the other skills were, like the how skill, the why skill, the unslop skill were, I was still relying on me, right, as the proxy between my agent and the output so that, you know, if the agent can actually see the result of its work,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1146.687,
+            1153.668
+          ],
+          "quote": "And also internally, we have so many verification skills now, like every app that Cursor has or SpaceX AI has,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1223.638,
+            1231.543
+          ],
+          "quote": "And so that was actually the inspiration for some of the CLI work inside of the verification skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1268.942,
+            1274.283
+          ],
+          "quote": "So I also think of, you know, agents and skills and sort of like, it's like a gradient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1306.925,
+            1318.899
+          ],
+          "quote": "And you'll see this in a lot of the other skills that I've built, is like I try to extract out the deterministic parts and turn that into code and just leave only the parts that actually require judgment to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1420.639,
+            1429.15
+          ],
+          "quote": "But I also think like, you know, it's a good push for people to think about is how much of your skills and rules could actually be deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1589.885,
+            1600.508
+          ],
+          "quote": "I think that if you haven't really spent time building trust in your agents and building skills and tools, you can get stuck in this mode where you're very low on that trust ladder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2226.89,
+            2244.014
+          ],
+          "quote": "Every time there's a bug report about something, go off and triage that thing, go reproduce the issue using the verification skills that we've already spent time building and all of those other skills that we've set up so that I have a lot of trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3055.22,
+            3065.906
+          ],
+          "quote": "Like thinking about your skills, your constraints, your lints, your type systems, and setting or adjusting it so that that problem doesn't happen again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3595.411,
+            3598.406
+          ],
+          "quote": "and how you see skills in general, like in terms of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3599.713,
+            3605.416
+          ],
+          "quote": "We talked about this before we went on air, which is like people think of it as like my skills versus your skills.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3614.501,
+            3620.544
+          ],
+          "quote": "And because I think I see skills as sort of just derived from process, basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3666.134,
+            3669.316
+          ],
+          "quote": "PSAC and your skills are very complementary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3715.233,
+            3718.137
+          ],
+          "quote": "Everybody's skills and toolset is going to look different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3718.698,
+            3729.051
+          ],
+          "quote": "You know, someone might find a lot of success combining, you know, like your Grill Me with Docs or Wayfinder skill with some of the execution skills in Pstack as an example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3729.811,
+            3731.574
+          ],
+          "quote": "Some people might use more of your skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3731.634,
+            3733.196
+          ],
+          "quote": "Some people might use more of my skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3740.801,
+            3746.664
+          ],
+          "quote": "If you trust us both, of course, use our skills, but I also encourage you to look at your own transcripts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3748.525,
+            3759.853
+          ],
+          "quote": "Tell the agent to look through all of the patterns that you've used, the times you've had to intervene, suggest turning them into lint rules or new skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3825.778,
+            3831.642
+          ],
+          "quote": "So I largely think of skills, especially as agents get more capable, as really encoding workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3832.403,
+            3837.066
+          ],
+          "quote": "You know, skills from last year were really more about, like, almost like implementation details.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3856,
+            3861.184
+          ],
+          "quote": "And I think over time, we'll see that skills get smaller and smaller, you know, more compact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3865.407,
+            3872.272
+          ],
+          "quote": "Or you can, you know, if you want, why not read our skills, right, and combine them of your own, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3877.035,
+            3881.901
+          ],
+          "quote": "The thing I love about skills are that they're so malleable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集称其为工具箱里最重要的一个技能：给智能体装上「手和眼睛」，让它自己运行代码、像真人一样点击调试，形成闭环后人才从环里退出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            338.618,
+            358.013
+          ],
+          "quote": "But then working on the agents window and now working on GrokBot, I sort of realized that a lot of the lessons I had learned from those skills, time building the initial set of skills, were very relevant, especially around things like verification, being very rigorous in your work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            946.991,
+            954.955
+          ],
+          "quote": "You can make changes in the code base and also give it tools for verification as well and allow it to verify its own work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            955.575,
+            964.682
+          ],
+          "quote": "So the thing I loved about watching that talk is the amount of focus you put in verification and like that is the lever that you can start to generate trust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            974.555,
+            988.106
+          ],
+          "quote": "Yeah, I've said this a lot, actually, that even if you don't use PSAC or your skills, I think that the single most important skill that should be in your toolkit is verification.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            988.666,
+            1000.436
+          ],
+          "quote": "Because without verification, and by the way, for those watching who don't know what that means, it's this idea that you can sort of give your agent hands and eyes in a way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1071.802,
+            1079.326
+          ],
+          "quote": "that allows it to be a loop is the verification part because the agent is able to verify its own work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1080.026,
+            1092.573
+          ],
+          "quote": "And that takes you out of the equation where now I can actually do something like, so one of the very first use cases I had for verification was the performance work that I was doing on cursor's agent window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1124.062,
+            1132.224
+          ],
+          "quote": "But yeah, verification, I would say is probably the most important skill in PSAC and many other, you know, tool sets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1137.365,
+            1145.546
+          ],
+          "quote": "So a lot of the, a lot of, I spent a lot of time actually, you know, tuning the verification, the creative verification skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1146.687,
+            1153.668
+          ],
+          "quote": "And also internally, we have so many verification skills now, like every app that Cursor has or SpaceX AI has,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1154.328,
+            1158.89
+          ],
+          "quote": "Has a verification skill that is auto maintained as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1223.638,
+            1231.543
+          ],
+          "quote": "And so that was actually the inspiration for some of the CLI work inside of the verification skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2226.89,
+            2244.014
+          ],
+          "quote": "Every time there's a bug report about something, go off and triage that thing, go reproduce the issue using the verification skills that we've already spent time building and all of those other skills that we've set up so that I have a lot of trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3169.288,
+            3180.455
+          ],
+          "quote": "I tell my agent, full autopilot is something that you can do in PSAC, and that will trigger off this very intense, rigorous verification loop where it'll spawn a bunch of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            3220.556,
+            3226.938
+          ],
+          "quote": "But yeah, the key thing is the verification part is really the key piece that gives me a lot of confidence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            3228.118,
+            3229.879
+          ],
+          "quote": "I guess verification plus the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3392.698,
+            3400.283
+          ],
+          "quote": "It all comes back to me to the quality of the verification that you're able to get out of your agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trust-ladder",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任阶梯 (trust ladder)",
+      "file": "信任阶梯",
+      "primary": true,
+      "how_described": "嘉宾演讲的核心概念：随着对智能体的信任逐步积累，可以让它们做越来越好的事、规模化到越来越多的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.574,
+            31.759
+          ],
+          "quote": "Now we have an incredible guest, someone who I'm delighted to welcome on, who's been exploding on Twitter recently about software factories, about increasing the quality of your work, about increasing your velocity, and climbing the trust ladder with agents so that you can ship more and more and more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            93.203,
+            107.945
+          ],
+          "quote": "And I think where I want to start is you talk about a trust ladder with agents where you, as you trust agents more, you can get them to do better and better things and or scale them up to use more and more agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            108.625,
+            117.327
+          ],
+          "quote": "So what is your story of how you climbed the trust ladder and how did that work when like you got SpaceX and started climbing more and more?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            762.142,
+            770.406
+          ],
+          "quote": "And so it almost like mirrors that trust ladder that I talk about, where you can sort of imagine your own journey as a home cook, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1023.104,
+            1034.087
+          ],
+          "quote": "That was the thing that actually started to let me ascend the trust ladder a little bit in a way that some of the other skills I had looked at or built had not really let me do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1589.885,
+            1600.508
+          ],
+          "quote": "I think that if you haven't really spent time building trust in your agents and building skills and tools, you can get stuck in this mode where you're very low on that trust ladder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1983.753,
+            1991.205
+          ],
+          "quote": "Like, how do you, you've built your trust ladder, you've worked on your environment, and you understand, okay, I now want to scale up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inner-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "内循环与外循环 (inner loop)",
+      "file": "内循环与外循环",
+      "primary": true,
+      "how_described": "本集解释 2500 个 PR 来源的框架：内循环是智能体工程师写代码，外循环从 Slack/X/邮件/Linear 拉外部上下文，两环接通后智能体自己获取上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 364,
+          "t": [
+            2122.993,
+            2127.434
+          ],
+          "quote": "And these are external systems that aren't connected to your inner loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2128.014,
+            2130.895
+          ],
+          "quote": "So I like to talk about this outer loop and the inner loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2132.683,
+            2147.233
+          ],
+          "quote": "I don't know if I'm using the definition correctly, but to me, my inner loop is like basically my engineers, my agent engineers working on the code to and building towards an intent or snapshot of my intent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2641.865,
+            2645.949
+          ],
+          "quote": "And cursor projects are my inner loop and Groffbot is my outer loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (deterministic)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "嘉宾的核心原则：把机械确定性的部分封装成脚本和 CLI，只把需要判断的非确定性部分留给智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            1250.433,
+            1268.561
+          ],
+          "quote": "So the CLI is really just more of a way for me to take the deterministic parts of what the skill does and encode that into a script or a CLI to reduce, to kind of take away the judgment that would otherwise unnecessarily be used because with judgment...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1286.801,
+            1296.945
+          ],
+          "quote": "And then you have the more deterministic parts, like, I don't know, if you wanted to refactor some code, right, from one pattern to another, that's very mechanical, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1306.925,
+            1318.899
+          ],
+          "quote": "And you'll see this in a lot of the other skills that I've built, is like I try to extract out the deterministic parts and turn that into code and just leave only the parts that actually require judgment to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1347.451,
+            1357.074
+          ],
+          "quote": "It's a way of conserving the skill, keeping the skill quite small, I imagine, and then you're able to delegate more of the complicated deterministic stuff into a script within the skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1420.639,
+            1429.15
+          ],
+          "quote": "But I also think like, you know, it's a good push for people to think about is how much of your skills and rules could actually be deterministic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1430.885,
+            1450.243
+          ],
+          "quote": "That's another core thing or one of my core principles that I like to think about is how do I make very efficient use of determinism and non-determinism and let agents shine at the non-deterministic parts because that's what they're trained to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1473.459,
+            1488.252
+          ],
+          "quote": "And a lot of how you can do that migration is, I think, through things like scripts and CLIs, like the deterministic parts, like code mods, you know, like crawling the AST, the abstract syntax tree, and transforming code literally mechanically, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lint",
+      "type": "concept",
+      "role": "concept",
+      "name": "lint 规则 (lint)",
+      "file": "lint 规则",
+      "primary": true,
+      "how_described": "「环境即护城河」的手段：智能体每犯一次错，就退一步想怎么把它变成一条 lint 规则，让代码库从物理上杜绝这种写法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1822.652,
+            1825.873
+          ],
+          "quote": "But it comes with a lot of really, really restrictive lint rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1851.852,
+            1859.751
+          ],
+          "quote": "conventional pattern and the lint rules make for an environment where it's actually very hard to write bad code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3243.466,
+            3248.108
+          ],
+          "quote": "And I'll go and revert or modify, add new lint rules and whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3748.525,
+            3759.853
+          ],
+          "quote": "Tell the agent to look through all of the patterns that you've used, the times you've had to intervene, suggest turning them into lint rules or new skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coordinator-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "协调者智能体 (coordinator agent)",
+      "file": "协调者智能体",
+      "primary": true,
+      "how_described": "本集说 Cursor Projects 提供的云端协调者像参谋长/行政主厨，自己不干活，负责分派和监督一群子智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            2570.75,
+            2575.954
+          ],
+          "quote": "And a project is really, again, you get a coordinator agent that's in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2607.169,
+            2614.539
+          ],
+          "quote": "So if you get a sudden burst of issues, let's say you get 30 issues at once in one payload or something, or very quickly, the coordinator agent can figure it out and delegate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2618.745,
+            2621.347
+          ],
+          "quote": "spawns a sub-agent or a single coordinator agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集引用 Karpathy 的原始定义（忘记代码存在），并强调嘉宾的方法恰恰相反——代码和环境是一切的核心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 580,
+          "t": [
+            3293.054,
+            3299.936
+          ],
+          "quote": "If you take the original definition of Karpathy's vibe coding, right, which is the code almost doesn't exist, you forget that code might be a thing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "type": "concept",
+      "role": "concept",
+      "name": "TypeScript",
+      "file": "TypeScript",
+      "primary": false,
+      "how_described": "两人共同的背景：嘉宾用类型收窄类比代码库约束——把空间收窄到只有一种可能，让写坏代码变得困难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            1728.237,
+            1742.726
+          ],
+          "quote": "Actually, a slight tangent on that is I think we should talk about TypeScript because we actually both share a background in TypeScript where you obviously have done a lot of work with TypeScript and Total TypeScript and you're a leader in that space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1743.406,
+            1746.847
+          ],
+          "quote": "And I had adopted TypeScript pretty early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1747.027,
+            1750.968
+          ],
+          "quote": "And I had given a talk or two at TypeScript Conf many years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1759.61,
+            1763.511
+          ],
+          "quote": "One of my most favorite things about TypeScript is actually type narrowing, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1922.987,
+            1935.712
+          ],
+          "quote": "And it comes back to me for my, you know, my background learning TypeScript and types, type systems is how do I constrain the space so that, you know, I know precisely what I'm working with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1939.493,
+            1947.075
+          ],
+          "quote": "And Denny, I mean, it's funny that you mentioned TypeScript and Godfile in the same sentence because TypeScript famously has a 25,000-line type Godfile.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "type": "concept",
+      "role": "concept",
+      "name": "React",
+      "file": "React",
+      "primary": false,
+      "how_described": "嘉宾的出身（Meta React 团队），并举例 React 有很多坑，他让一个智能体持续找坏模式追加进文档",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            129.673,
+            136.899
+          ],
+          "quote": "After Meta, so I used to work at Meta on the React team, I took a month off because I was feeling kind of burnt out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            280.593,
+            286.68
+          ],
+          "quote": "And so since I had experience working on React, I was asked like, hey, do you want to come and help out with the agents window?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2856.493,
+            2865.202
+          ],
+          "quote": "Just another simple example is React has a lot of foot guns, as I'm sure you're aware.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fuzzing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模糊测试 (fuzzing)",
+      "file": "模糊测试",
+      "primary": false,
+      "how_described": "本集描述全自动模式里验证者的做法：真正把应用跑起来，像真人一样到处点点，找回归找 bug，修完再来一轮直到达标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 554,
+          "t": [
+            3185.658,
+            3188.119
+          ],
+          "quote": "Fuzzing meaning that it will actually run the application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": false,
+      "how_described": "嘉宾说验证技能里 CLI 工作的灵感来源：当年压缩摘要不好，社区担心智能体一压缩就变蠢，所以要用脚本节省上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            1179.759,
+            1193.793
+          ],
+          "quote": "Yeah, so this is actually a tip I learned early on where I guess back in January or late last year, the thing that people were very concerned about was context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1194.333,
+            1203.262
+          ],
+          "quote": "That was the big topic at the time was how do I manage the context window because compaction summarization wasn't really that good yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1244.051,
+            1249.433
+          ],
+          "quote": "I still think there's some benefits to, you know, having a clean context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1367.498,
+            1376.903
+          ],
+          "quote": "And it also helps, I guess, if you care about context window, it does help because now the agent doesn't need to reinvent things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dune",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dune",
+      "file": "Dune",
+      "primary": false,
+      "how_described": "嘉宾内部的非开源框架，自称「内部版 Next.js」，配极严格 lint 规则，每个 feature 有自己的目录，做一件事只有一条路",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1807.781,
+            1821.271
+          ],
+          "quote": "And for us, like that framework that I'm building called Dune, it's not an open source framework, it's the way I describe it to people, it's kind of like our internal Next.js for our Electron apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

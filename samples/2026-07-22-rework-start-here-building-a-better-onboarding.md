@@ -124,7 +124,7 @@ David 补充说，这种一对一不是单向的。他们以为发布后会有�
 
 - [[2026-08-26-rework-one-way-doors|37signals 的快决策哲学：五分钟做决定，别回头看]]<span class="pd-rz">同嘉宾:David、Jason · 同公司:37signals</span>
 - [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]]<span class="pd-rz">同公司:37signals · 同概念:onboarding</span>
-- [[2026-08-24-eyeonai-95-of-ai-agent-projects-fail-to-reach-pr|给智能体建一个“人力资源部”：TrustWise 创始人谈运行时治理]]<span class="pd-rz">同概念:引导漂移 (drift)</span>
+- [[2026-08-20-twist-taste-is-the-new-programming-language-w|用嘴巴做游戏：品味才是新的编程语言]]<span class="pd-rz">同嘉宾:Jason</span>
 
 </div>
 </div>

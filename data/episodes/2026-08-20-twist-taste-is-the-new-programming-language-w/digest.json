@@ -1,0 +1,167 @@
+{
+  "title_zh": "用嘴巴做游戏：品味才是新的编程语言",
+  "tldr": "Astrocade 创始人 Amir Sadeghian 做客访谈，讲如何用一句话生成游戏、发布给全世界玩，还聊到品味为何成了创作者最重要的能力。",
+  "digest_md": "做游戏曾经是一条漫长的路：上学、实习、进工作室，练上五六年才摸得到门。Astrocade 的创始人 Amir Sadeghian 想把这条路压缩成一句话——你描述想要的游戏，人工智能替你生成，点一下发布，全世界都能玩。他在 This Week in Startups 的 AI Basics 节目里，和主持人 Jason 聊了这件事怎么做、难在哪，以及为什么他相信玩是人类最普遍的语言。\n\n## 一句话真的能变出一个游戏吗？\n\nAstrocade 的核心用法很简单：左边是一个聊天窗口，你用自然语言描述想要什么，中间是生成的游戏，右边是各种参数设置。比如你说想要一艘飞船去收集甜甜圈，系统就会生成这个游戏。做完点发布，游戏就进入一个类似 TikTok 的信息流，别人刷到就能直接玩，不喜欢就划走。\n\n平台上已经有超过 100,000 名创作者，来自 100 多个国家 [02:04 Unknown]。品类也不只是游戏，还有教育内容、陪伴类应用，甚至有人做互动生日贺卡，放上朋友的照片发过去。\n\n## 做游戏为什么难？AI 又为什么不够？\n\nSadeghian 说，做游戏要会编程、会做美术素材、懂手感调校，还得理解玩家心理，所以过去必须组建工作室。Astrocade 的思路是把这些门槛全部拆掉。\n\n但拆掉之后，AI 也并不能包办一切。他坦白说，**AI 目前只能复制它训练过的东西**——你说要一个 Flappy Bird,它能做出来，因为训练数据里有大量 Flappy Bird 的代码。可一旦想做新玩法或改动规则，AI 就很吃力 [08:36 Unknown]。真正好玩的游戏，都是创作者反复迭代出来的。Astrocade 把用户的指令叫作愿望，好游戏往往要经历很多轮愿望才能成型。\n\n## 冰箱里的西瓜汁，解释了整个产品逻辑\n\nSadeghian 讲了一个创业早期的故事。最初办公室设在他家的姻亲套房，冰箱正中间摆着。工程师们迷上了小瓶西瓜汁，两天喝光一整排。为了省钱，他买了半升装的大瓶放回去——结果两周没人碰。\n\n他弟弟做了个实验：在西瓜旁边摆上杯子。就这么一个小改动，大家又开始喝了。Sadeghian 说，这就是 Astrocade 的故事——**去掉一个摩擦点，需求就自己冒出来了** [06:56 Unknown]。以前是没人喝西瓜汁，现在是人人都在做游戏。\n\n## 品味是新的编程语言\n\n在演示中，Jason 问能否直接让 AI 加上游戏化机制——升级、装备、关卡。Sadeghian 的回答是：AI 会给建议，但大多数时候效果不好，最终还是靠创作者自己选。而且每个数字都要手工调：某个数值从 25% 改成 50%,游戏可能立刻变得无聊，因为玩家轻松通关 [10:38 Unknown]。\n\n所以他反复强调一句话：「**品味是新的编程语言**」[12:53 Unknown]。语言模型读过所有游戏的历史和评论，但它倾向于给出最平均、最常见的设计。你想要独特的东西，就得靠自己的判断去挑选、去细化。现在创作的唯一门槛，就是品味。\n\n还有一个工程细节：自然语言适合下指令，但不适合调参数。你要把花朵出现频率从 0.25 调到 0.3,跟模型来回聊天太低效。所以 Astrocade 除了生成游戏，还会生成一个编辑器，让创作者直接改数值——游戏需要确定性，而语言模型是靠猜的。\n\n## 有人已经靠这个月入数千美元\n\nAstrocade 设有创作者基金，按游戏被玩的次数付钱。Sadeghian 说，已经有人全职在平台上做游戏，每月赚数千美元 [16:28 Unknown]。他拿 YouTube 造出 MrBeast 来类比，认为同样的创作者经济正在游戏领域重演，订阅、打赏等变现方式都可以搬过来。\n\n公司 2022 年成立，目前正在招人，方向包括推荐系统和 AI 智能体的后训练——他们计划用自己的数据重新训练模型，让它越来越擅长生成互动内容。\n\n## 为什么选玩这个切口？\n\nSadeghian 本人背景不寻常：他在西班牙住过 5 年、津巴布韦 5 年、伊朗 10 年，然后在美国生活了 13 年 [03:37 Unknown]。走遍四个大洲，他看到每个地方都由不同文化、不同心态的人建成，却唯独游戏世界没有这种百花齐放——因为做游戏太难了。他 2013 年在 Stanford 攻读人工智能博士，那时 AI 还不火，等到 2022 年技术成熟，他和担任首席技术官的弟弟一起创办了这家公司。\n\n他说当初有两个出发点。一是想做影响十亿人的消费者产品，而现在大部分人都在做企业服务。二是他认为玩是人类最普遍的语言——他有一个两岁的孩子和一个刚满月的孩子，能直观看到人天生就通过玩来学习和社交 [18:12 Unknown]。\n\n## 本集带走\n\n- AI 目前擅长复制已有游戏，做全新玩法仍然要靠人反复迭代；一句话生成成品是误解。\n- 品味是新的编程语言：语言模型倾向于平均化的设计，独特性来自创作者的判断和挑选。\n- 自然语言适合下指令，调数值还是需要编辑器——游戏要确定性，模型爱猜。\n- 拆掉创作门槛后需求会自己爆发，平台上已有人全职做游戏月入数千美元。\n- 好玩法是普世需求：Sadeghian 认为玩是人类最普遍的语言，也是最值得做的消费者切口。",
+  "quotes": [
+    {
+      "en": "The friction, we removed a big barrier from the users and suddenly demand popped up.",
+      "zh": "摩擦力——我们为用户移除了一道巨大的门槛，突然需求就冒出来了。",
+      "timestamp": "06:56",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "If you change this 25% to 50%, suddenly game becomes so boring because you can just go on winning.",
+      "zh": "如果你把这个 25% 改成 50%，游戏突然就变得很无聊，因为你可以一直赢下去。",
+      "timestamp": "10:38",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "Two years ago, three years ago, this would take like five people, six months to bake this game with a lot of budget.",
+      "zh": "两年前、三年前，这需要大概五个人花六个月、还有大量预算才能做出这个游戏。",
+      "timestamp": "11:08",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "What we learned is the optimal way of creating interactive content, through natural language and through an editor.",
+      "zh": "我们学到的是，创作交互内容的最佳方式，就是通过自然语言加上一个编辑器。",
+      "timestamp": "12:43",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "And I call actually, I say, taste is the new programming language.",
+      "zh": "而我实际上说，品味是新的编程语言。",
+      "timestamp": "12:53",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "Because large language models have been trained on everything, there is a reversion to the mean, to the average sometimes.",
+      "zh": "因为 LLM 在所有东西上都训练过，有时会出现向均值回归、向平均值回归的情况。",
+      "timestamp": "12:59",
+      "speaker": "Jason"
+    },
+    {
+      "en": "You can live it, you can act it, and you can personalize it to your taste for the first time.",
+      "zh": "你可以亲身经历它，可以演绎它，而且有史以来第一次可以按你的口味把它个性化。",
+      "timestamp": "14:35",
+      "speaker": "Amir Sadeghian"
+    },
+    {
+      "en": "And there are people that actually, they're full-time building games and interactive experiences on Astrocade and making thousands of dollars a month on Astrocade.",
+      "zh": "而且真的有人在全职于 Astrocade 上构建游戏和互动体验，每月在 Astrocade 上赚到几千美元。",
+      "timestamp": "16:28",
+      "speaker": "Amir Sadeghian"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:14",
+      "speaker": "Amir Sadeghian",
+      "en": "It's hard. Making games is really, really hard.",
+      "zh": "这很难。做游戏真的、真的很难。"
+    },
+    {
+      "timestamp": "03:53",
+      "speaker": "Amir Sadeghian",
+      "en": "Every country you go is completely different.",
+      "zh": "你去的每个国家都完全不同。"
+    },
+    {
+      "timestamp": "05:14",
+      "speaker": "Amir Sadeghian",
+      "en": "I've been in AI 2013, I did my PhD at Stanford AI, when AI was actually not cool.",
+      "zh": "我从 2013 年就从事 AI 了，我在斯坦福 AI 读的博士，那时候 AI 其实一点都不酷。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Amir Sadeghian",
+      "en": "The friction, we removed a big barrier from the users and suddenly demand popped up.",
+      "zh": "摩擦力——我们为用户移除了一道巨大的门槛，突然需求就冒出来了。"
+    },
+    {
+      "timestamp": "08:35",
+      "speaker": "Amir Sadeghian",
+      "en": "AI cannot make a full game. It can copy the games that they have been trained on.",
+      "zh": "AI 无法做出一个完整的游戏。它可以复制它们训练过的那些游戏。"
+    },
+    {
+      "timestamp": "08:47",
+      "speaker": "Amir Sadeghian",
+      "en": "But if you could, the moment you start making actually a new experience or some modification to an experience, actually AI struggles a lot.",
+      "zh": "但一旦你真正开始做一个全新的体验，或者对某个体验做一些修改，AI 实际上会非常吃力。"
+    },
+    {
+      "timestamp": "10:35",
+      "speaker": "Amir Sadeghian",
+      "en": "Every number and every tuning matters.",
+      "zh": "每一个数字、每一次调参都很重要。"
+    },
+    {
+      "timestamp": "10:38",
+      "speaker": "Amir Sadeghian",
+      "en": "If you change this 25% to 50%, suddenly game becomes so boring because you can just go on winning.",
+      "zh": "如果你把这个 25% 改成 50%，游戏突然就变得很无聊，因为你可以一直赢下去。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Amir Sadeghian",
+      "en": "Two years ago, three years ago, this would take like five people, six months to bake this game with a lot of budget.",
+      "zh": "两年前、三年前，这需要大概五个人花六个月、还有大量预算才能做出这个游戏。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Amir Sadeghian",
+      "en": "What we learned is the optimal way of creating interactive content, through natural language and through an editor.",
+      "zh": "我们学到的是，创作交互内容的最佳方式，就是通过自然语言加上一个编辑器。"
+    },
+    {
+      "timestamp": "12:53",
+      "speaker": "Amir Sadeghian",
+      "en": "And I call actually, I say, taste is the new programming language.",
+      "zh": "而我实际上说，品味是新的编程语言。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Amir Sadeghian",
+      "en": "Because large language models have been trained on everything, there is a reversion to the mean, to the average sometimes.",
+      "zh": "因为 LLM 在所有东西上都训练过，有时会出现向均值回归、向平均值回归的情况。"
+    },
+    {
+      "timestamp": "14:35",
+      "speaker": "Amir Sadeghian",
+      "en": "You can live it, you can act it, and you can personalize it to your taste for the first time.",
+      "zh": "你可以亲身经历它，可以演绎它，而且有史以来第一次可以按你的口味把它个性化。"
+    },
+    {
+      "timestamp": "15:50",
+      "speaker": "Amir Sadeghian",
+      "en": "And that's something like I didn't know is going to happen when we start building this technology.",
+      "zh": "而且这是我们开始构建这项技术时完全没想到会发生的事情。"
+    },
+    {
+      "timestamp": "16:28",
+      "speaker": "Amir Sadeghian",
+      "en": "And there are people that actually, they're full-time building games and interactive experiences on Astrocade and making thousands of dollars a month on Astrocade.",
+      "zh": "而且真的有人在全职于 Astrocade 上构建游戏和互动体验，每月在 Astrocade 上赚到几千美元。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Amir Sadeghian",
+      "en": "We are seeing the same exact kind of like market dynamics.",
+      "zh": "我们正在看到一模一样的市场动态。"
+    },
+    {
+      "timestamp": "17:58",
+      "speaker": "Amir Sadeghian",
+      "en": "We wanted to build a product that touches a billion people.",
+      "zh": "我们想打造一个触达十亿人的产品。"
+    },
+    {
+      "timestamp": "18:21",
+      "speaker": "Amir Sadeghian",
+      "en": "Play is so universal, is a universal human language.",
+      "zh": "玩是如此普遍，是一种通用的人类语言。"
+    }
+  ],
+  "voice_script": "今天这期，咱们来聊一个特别有意思的人和一件特别有意思的事。主角叫 Amir Sadeghian,是 Astrocade 这家公司的创始人。这家公司做的事，一句话就能说清楚：你用嘴描述一个游戏，人工智能替你把它生成出来，点一下发布，全世界的人刷到就能玩。这期节目是 This Week in Startups 的 AI Basics 环节，主持人是 Jason。为什么这事值得聊？因为做游戏，曾经是一条特别漫长的路——上学、实习、进工作室，练上五六年才摸得到门。而现在，这条路被压缩成了一句话。这中间到底发生了什么，AI 能做到哪一步、又做不到哪一步，咱们今天就顺着聊下去。\n\n先说说 Astrocade 到底长什么样。打开平台，左边是一个聊天窗口，你用自然语言描述想要什么，中间就是生成出来的游戏，右边是各种参数设置。比如你说，我想要一艘飞船去收集甜甜圈，系统就会把这个游戏做出来。做完点发布，游戏就进入一个类似 TikTok 的信息流，别人刷到就能直接玩，不喜欢就划走。现在平台上已经有超过十万名创作者，来自一百多个国家。而且做的不只是游戏，还有人拿它做教育内容、陪伴类应用，甚至有人做互动生日贺卡，放上朋友的照片发过去。\n\n说到这儿，你可能会问：做游戏到底难在哪，凭什么一句话就能搞定？过去的游戏开发者，要会编程、会做美术素材、懂手感调校，还得理解玩家心理，所以才必须组建工作室。Astrocade 的思路，就是把这些门槛一个一个全拆掉。\n\n但这里得先泼一盆冷水：门槛拆掉了，AI 也并不是包办一切的。Amir 自己就很坦白，说 AI 目前只能复制它训练过的东西。你说要一个 Flappy Bird,它能做出来，因为训练数据里躺着大量 Flappy Bird 的代码。可一旦你想做新玩法、或者改动规则，AI 就很吃力。真正好玩的游戏，都是创作者反复迭代出来的。所以 Astrocade 把用户下的指令叫作\"愿望\"，一个好游戏，往往要经过很多轮愿望才能成型。\n\n那怎么让这些愿望尽快落地呢？Amir 讲了一个创业早期的小故事，特别能说明整个产品的逻辑。最初办公室设在他家的姻亲套房，冰箱正好摆在中间。工程师们迷上了小瓶装的西瓜汁，两天就能喝光一整排。为了省钱，家里买了半升装的大瓶放回去——结果两周没人碰。后来弟弟做了个实验：在西瓜旁边摆上杯子。就这么一个小改动，大家又开始喝了。Amir 说，这就是 Astrocade 的故事——去掉一个摩擦点，需求就自己冒出来了。以前是没人喝西瓜汁，现在是人人都在做游戏。\n\n不过，就算门槛拆掉了，也不代表你可以完全撒手不管。节目里 Jason 现场演示，问能不能直接让 AI 加上游戏化机制——升级、装备、关卡这些。Amir 的回答是：AI 会给建议，但大多数时候效果不好，最终还是得靠创作者自己选。而且每个数字都要手工去调。举个例子，某个数值从 25% 改成 50%,游戏可能立刻变得无聊，因为玩家可以轻松一直赢下去。\n\n所以 Amir 反复强调一句话：品味是新的编程语言。为什么这么说？因为语言模型读过所有游戏的历史和评论，但它倾向于给出最平均、最常见的设计——用他的话说，就是向均值回归。你想要独特的东西，就得靠自己的判断去挑选、去细化。现在做创作的唯一门槛，就是品味了。\n\n这里还有一个工程上的细节，挺有意思的。自然语言适合下指令，但不适合调参数。比如你想把花朵出现频率从 0.25 调到 0.3,跟模型来回聊天，太低效了。所以 Astrocade 除了生成游戏，还会生成一个编辑器，让创作者直接改数值。原因很简单：游戏需要确定性，而语言模型是靠猜的。\n\n那这事能赚钱吗？还真可以。Astrocade 设有创作者基金，按游戏被玩的次数付钱，现在已经有人全职在平台上做游戏，每月赚数千美元。Amir 拿 YouTube 造出 MrBeast 来类比，认为同样的创作者经济正在游戏领域重演，订阅、打赏这些变现方式都可以搬过来。公司是 2022 年成立的，目前正在招人，方向包括推荐系统和 AI 智能体的后训练——他们打算用自己的数据重新训练模型，让它越来越擅长生成互动内容。\n\n最后说说为什么偏偏选\"玩\"这个切口。Amir 的背景很不寻常：在西班牙住过五年、津巴布韦五年、伊朗十年，然后在美国生活了十三年。走遍四个大洲，看到每个地方都是由不同文化、不同心态的人建成的，可唯独游戏世界没有这种百花齐放——因为做游戏太难了。2013 年，他在 Stanford 攻读人工智能博士，那时候 AI 还不火，等到 2022 年技术成熟，就和担任首席技术官的弟弟一起创办了这家公司。当初有两个出发点：一是想做影响十亿人的消费者产品，而不是像大多数人那样去做企业服务；二是这个信念——玩是人类最普遍的语言。家里有一个两岁的孩子和一个刚满月的孩子，能直观看到人天生就是通过玩来学习和社交的。\n\n回头看这一期，其实讲了同一个道理：AI 擅长复制，人负责判断，门槛拆掉之后，需求会自己冒出来。就像那个西瓜汁的故事——不是没人想喝，只是差一个杯子。所以记住这句话吧：品味，是新的编程语言。"
+}

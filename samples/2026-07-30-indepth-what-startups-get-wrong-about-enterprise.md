@@ -223,7 +223,7 @@ Checkr 以前按预订（bookings，预测客户会花多少）给销售发薪�
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同概念:DRI、智能体 (agent)</span>
 - [[2026-08-19-productpodcast-square-global-head-of-product-on-how-to|Square 产品负责人：聊天机器人时代已结束，AI 要替小商家干真活]]<span class="pd-rz">同概念:DRI、智能体 (agent)</span>
-- [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同概念:生成式 AI (generative AI)、智能体 (agent)</span>
+- [[2026-08-20-twist-taste-is-the-new-programming-language-w|用嘴巴做游戏：品味才是新的编程语言]]<span class="pd-rz">同概念:生成式 AI (generative AI)、智能体 (agent)</span>
 
 </div>
 </div>

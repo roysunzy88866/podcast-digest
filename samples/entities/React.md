@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>React</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="React">RE</div><div class="pi"><h1 class="pt">React</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="React">RE</div><div class="pi"><h1 class="pt">React</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(11:44起):本集把它说成:前端组件库形式，在 Paper 中画完的任何动画或区块，都可以右键直接作为 React 组件复制出真实代码并发布上线。
+- **[[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]]**(02:09起):嘉宾的出身（Meta React 团队），并举例 React 有很多坑，他让一个智能体持续找坏模式追加进文档
 
 ## ① 提到它的金句
 
@@ -21,18 +22,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为概念
 - [[2026-08-20-talks-your-agent-evolved-your-evals-didn-t-ame|《模型一换代系统就崩？evals 才是你该押注的持久资产》]] — 作为概念
+- [[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Stephen Haney]] · [[Ameya Bhatawdekar]] · [[Paper]] · [[Braintrust]] · [[Cursor]] · [[评估]] · [[Claude Code]] · [[RAG]] · [[Figma]]
+[[智能体]] · [[Cursor]] · [[Stephen Haney]] · [[Ameya Bhatawdekar]] · [[Poteto]] · [[Paper]] · [[Braintrust]] · [[Meta]] · [[Claude Code]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":460,"Stephen Haney":1,"Ameya Bhatawdekar":1,"Paper":1,"Braintrust":5,"Cursor":84,"评估":1,"Claude Code":101,"RAG":28,"Figma":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"Cursor":86,"Stephen Haney":1,"Ameya Bhatawdekar":1,"Poteto":1,"Paper":1,"Braintrust":5,"Meta":50,"Claude Code":102,"评估":1}</script>
 
 <script>
 (function(){

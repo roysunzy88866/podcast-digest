@@ -182,9 +182,9 @@ AI 抛给你 10 个问题，没必要老老实实一个个答——**你是做�
 
 **换个口味**
 
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude MD、智能体 (agent)</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:智能体 (agent)、智能体编程 (agentic coding)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-08-31-lennys-how-i-turned-claude-into-a-self-improvin|一个PM用Claude CoWork建的自愈型工作系统]]<span class="pd-rz">同概念:skill、智能体 (agent)</span>
 
 </div>
 </div>

@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Brian Singerman]] · [[Meta]] · [[Founders Fund]] · [[Facebook]] · [[GPX]] · [[Instagram]] · [[Anduril]] · [[WhatsApp]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":191,"Anthropic":196,"Brian Singerman":1,"Meta":49,"Founders Fund":1,"Facebook":17,"GPX":1,"Instagram":8,"Anduril":5,"WhatsApp":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":192,"Anthropic":197,"Brian Singerman":1,"Meta":50,"Founders Fund":1,"Facebook":17,"GPX":1,"Instagram":8,"Anduril":5,"WhatsApp":5}</script>
 
 <script>
 (function(){

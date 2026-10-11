@@ -10,13 +10,13 @@ image: "/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg"
 description: 剑桥教授、Google DeepMind Frontier AI 联合负责人主张：真正智能的系统必须能表示并更新自己的不确定性——这也是当前大语言模型最缺的东西。
 host: "[[Zubin Gharemani]]"
 companies: ["[[Google DeepMind]]"]
-concepts: ["[[不确定性]]", "[[贝叶斯规则]]", "[[大语言模型]]", "[[语义熵]]", "[[GenCast]]", "[[AlphaFold]]"]
+concepts: ["[[不确定性]]", "[[贝叶斯规则]]", "[[大型语言模型]]", "[[语义熵]]", "[[GenCast]]", "[[AlphaFold]]"]
 category: AI 安全
 tags:
   - AI 安全
 socialImage: "https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#post","headline":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","description":"剑桥教授、Google DeepMind Frontier AI 联合负责人主张：真正智能的系统必须能表示并更新自己的不确定性——这也是当前大语言模型最缺的东西。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg","about":[{"@type":"Person","name":"Zubin Gharemani"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"不确定性 (uncertainty)"},{"@type":"Thing","name":"贝叶斯规则 (Bayes' rule)"},{"@type":"Thing","name":"大语言模型 (large language model)"},{"@type":"Thing","name":"语义熵 (semantic entropy)"},{"@type":"Thing","name":"GenCast"},{"@type":"Thing","name":"AlphaFold"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","item":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty#post","headline":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","mainEntityOfPage":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty","description":"剑桥教授、Google DeepMind Frontier AI 联合负责人主张：真正智能的系统必须能表示并更新自己的不确定性——这也是当前大语言模型最缺的东西。","datePublished":"2026-08-27","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"image":"https://talk.solomind.cc/covers/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty.jpg","about":[{"@type":"Person","name":"Zubin Gharemani"},{"@type":"Organization","name":"Google DeepMind"},{"@type":"Thing","name":"不确定性 (uncertainty)"},{"@type":"Thing","name":"贝叶斯规则 (Bayes' rule)"},{"@type":"Thing","name":"大型语言模型 (large language model)"},{"@type":"Thing","name":"语义熵 (semantic entropy)"},{"@type":"Thing","name":"GenCast"},{"@type":"Thing","name":"AlphaFold"}],"articleSection":"AI 安全"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"AI 安全","item":"https://talk.solomind.cc/tags/AI 安全"},{"@type":"ListItem","position":3,"name":"给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路","item":"https://talk.solomind.cc/2026-08-26-deepmind-the-mathematics-of-ai-uncertainty"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>给 AI 装上「自我怀疑」：剑桥教授 30 年的不确定性智能之路</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -34,7 +34,7 @@ jsonLd: |
 >
 > **公司** [[Google DeepMind]]
 >
-> **概念** [[不确定性]] · [[贝叶斯规则]] · [[大语言模型]] · [[语义熵]] · [[GenCast]] · [[AlphaFold]]
+> **概念** [[不确定性]] · [[贝叶斯规则]] · [[大型语言模型]] · [[语义熵]] · [[GenCast]] · [[AlphaFold]]
 
 这一集聊的是一个看似抽象、却直接关系到自动驾驶和医疗 AI 能不能落地的问题：机器能不能知道自己「不知道」。主角是 [[Zubin Gharemani|Zubin Gharemani]]，剑桥大学教授、[[Google DeepMind|Google DeepMind]] 的 Frontier AI 联合负责人，过去 30 年一直致力于把「[[不确定性|不确定性]]」做成数学、装进智能系统里。他最核心的主张很反直觉：往 AI 里加入不确定性，不是让它变弱，而是让它更准、更可信——他参与开发的天气预报模型正是靠「承认不确定」才成为业内最先进的。
 
@@ -56,7 +56,7 @@ jsonLd: |
 
 他强调「正确性」和「置信度」是两回事，只考核前者会出大问题。十多年前人们就发现：把一张校车图片在人类完全察觉不到的程度上改动几个像素，神经网络会以 99% 的置信度说那是猎豹——而且任何类别都能这样伪造。
 
-这种「对抗样本」说明：我们不想要过度自信地出错的系统。放到今天的[[大语言模型|大语言模型]]上问题依旧：无论你用哪个模型，它都会自信地给你答案；你一质疑，它立刻改口换一个。很难信任这样的系统，就像很难信任过度自信的人。
+这种「对抗样本」说明：我们不想要过度自信地出错的系统。放到今天的[[大型语言模型|大语言模型]]上问题依旧：无论你用哪个模型，它都会自信地给你答案；你一质疑，它立刻改口换一个。很难信任这样的系统，就像很难信任过度自信的人。
 
 ## 贝叶斯规则：一行公式讲清「学习是什么」
 
@@ -148,7 +148,7 @@ jsonLd: |
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]]<span class="pd-rz">同概念:AlphaFold</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Google DeepMind</span>
-- [[2026-08-26-talks-the-missing-layer-in-agentic-ai-giedrius|智能体缺的那一层：让 AI 顺畅访问开放网络的抓取基建]]<span class="pd-rz">同概念:大语言模型 (large language model)</span>
+- [[2026-08-20-twist-taste-is-the-new-programming-language-w|用嘴巴做游戏：品味才是新的编程语言]]<span class="pd-rz">同概念:大语言模型 (large language model)</span>
 
 </div>
 </div>

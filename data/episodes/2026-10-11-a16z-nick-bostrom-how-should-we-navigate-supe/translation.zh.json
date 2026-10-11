@@ -1,0 +1,3826 @@
+[
+ {
+  "seg": 0,
+  "start": 0.803,
+  "end": 7.151,
+  "speaker": "Unknown",
+  "en": "If we do develop this safely, then human life expectancy could go up hugely.",
+  "zh": "如果我们能安全地发展这项技术，那么人类寿命可能会大幅提升。"
+ },
+ {
+  "seg": 1,
+  "start": 7.231,
+  "end": 15.64,
+  "speaker": "Unknown",
+  "en": "If you imagine people having the same mortality rate as a 20-year-old, our life expectancy would maybe be 1,200, 1,400 years or so.",
+  "zh": "如果想象人们拥有和20岁一样的死亡率，我们的预期寿命可能会达到1200、1400年左右。"
+ },
+ {
+  "seg": 2,
+  "start": 17.843,
+  "end": 30.027,
+  "speaker": "Unknown",
+  "en": "On the other hand, if the risk of AI goes down too slow, then you also don't want to wait because like we are just dying in the meantime and you lose more expected life years from waiting than you gain from having the risk.",
+  "zh": "另一方面，如果AI的风险下降得太慢，那么你也不想等待，因为我们在此期间就在不断死去，等待所损失的预期寿命年数比降低风险所获得的更多。"
+ },
+ {
+  "seg": 3,
+  "start": 30.267,
+  "end": 36.089,
+  "speaker": "Unknown",
+  "en": "So it requires a sort of a rightly balanced intermediate case to get sort of longer wait periods of many years.",
+  "zh": "所以这需要一种恰到好处平衡的中间情况，才能实现长达许多年的等待期。"
+ },
+ {
+  "seg": 4,
+  "start": 37.874,
+  "end": 43.278,
+  "speaker": "Unknown",
+  "en": "Nick Bostrom spent decades thinking about superintelligence before it became part of the mainstream AI debate.",
+  "zh": "Nick Bostrom 在超级智能成为主流AI辩论的一部分之前，就已经就此思考了几十年。"
+ },
+ {
+  "seg": 5,
+  "start": 43.959,
+  "end": 48.182,
+  "speaker": "Unknown",
+  "en": "Now that increasingly capable systems are actually here, how has his thinking changed?",
+  "zh": "如今日益强大的系统已经真实到来，他的想法发生了怎样的变化？"
+ },
+ {
+  "seg": 6,
+  "start": 48.883,
+  "end": 58.77,
+  "speaker": "Unknown",
+  "en": "In this episode, Nick joins Theo Jaffe and Sofia Puccini on MTS to revisit AI alignment, existential risk, and the debate over whether frontier development should slow down.",
+  "zh": "在本集中，Nick 与 Theo Jaffe 和 Sofia Puccini 在 MTS 上重访AI对齐、生存风险，以及前沿发展是否应该放缓的辩论。"
+ },
+ {
+  "seg": 7,
+  "start": 59.731,
+  "end": 69.174,
+  "speaker": "Unknown",
+  "en": "Nick explains why he's sympathetic to pacing the frontier, preserving the ability to slow down when the risks warrant it, but is more skeptical of calls for a broad or indefinite pause.",
+  "zh": "Nick 解释了为什么他支持为前沿发展设定节奏、在风险需要时保留放慢的能力，但对要求广泛或无限期暂停的呼声则更加怀疑。"
+ },
+ {
+  "seg": 8,
+  "start": 69.974,
+  "end": 78.697,
+  "speaker": "Unknown",
+  "en": "And he argues that any calculation about risk also has to account for what delaying advanced AI could cost, including potential breakthroughs of medicine and longevity.",
+  "zh": "他还论证说，任何关于风险的计算也必须把延迟先进AI可能付出的代价考虑在内，包括医学和长寿领域潜在的突破。"
+ },
+ {
+  "seg": 9,
+  "start": 79.477,
+  "end": 97.097,
+  "speaker": "Unknown",
+  "en": "They also tackle some bigger questions, whether current AI systems might already have subjective experiences, how open source changes the balance between concentrated power and dangerous capabilities, and whether the upside of superintelligence could be far stranger and far greater than we currently had the imagination to understand.",
+  "zh": "他们还探讨了一些更大的问题：当前的AI系统是否可能已经有主观体验，开源如何改变集中权力与危险能力之间的平衡，以及超级智能的上行空间是否可能远比我们目前有想象力去理解的更奇特、更巨大。"
+ },
+ {
+  "seg": 10,
+  "start": 100.112,
+  "end": 100.452,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 11,
+  "start": 101.333,
+  "end": 102.915,
+  "speaker": "Unknown",
+  "en": "We are back.",
+  "zh": "我们回来了。"
+ },
+ {
+  "seg": 12,
+  "start": 103.375,
+  "end": 110.082,
+  "speaker": "Unknown",
+  "en": "We are live with Nick Bostrom, who was a professor at Oxford, founding director of the Future of Humanity Institute.",
+  "zh": "我们正在与 Nick Bostrom 直播，他曾是牛津大学教授，人类未来研究所的创始所长。"
+ },
+ {
+  "seg": 13,
+  "start": 110.362,
+  "end": 114.506,
+  "speaker": "Unknown",
+  "en": "He's now founder and principal researcher of the Macro Strategy Research Initiative.",
+  "zh": "他现在是 Macro Strategy Research Initiative 的创始人和首席研究员。"
+ },
+ {
+  "seg": 14,
+  "start": 115.047,
+  "end": 118.63,
+  "speaker": "Unknown",
+  "en": "You may know him as the author of Superintelligence, of Deep Utopia,",
+  "zh": "你可能知道他是《超级智能》、《深度乌托邦》的作者，"
+ },
+ {
+  "seg": 15,
+  "start": 119.371,
+  "end": 130.235,
+  "speaker": "Unknown",
+  "en": "of a lot of work that coined or framed the ideas that we take for granted today in the discourse, existential risk, the simulation hypothesis, the vulnerable world hypothesis, so much more.",
+  "zh": "也是许多创造了或构建了我们今天在话语中习以为常的观念的作品的作者：生存风险、模拟假说、脆弱世界假说，还有很多。"
+ },
+ {
+  "seg": 16,
+  "start": 130.355,
+  "end": 133.756,
+  "speaker": "Unknown",
+  "en": "Nick, this has been in the works for a long time, so we're thrilled to have you on.",
+  "zh": "Nick，这件事筹备了很久，我们非常高兴你能来。"
+ },
+ {
+  "seg": 17,
+  "start": 133.876,
+  "end": 134.696,
+  "speaker": "Unknown",
+  "en": "Welcome to MTS.",
+  "zh": "欢迎来到 MTS。"
+ },
+ {
+  "seg": 18,
+  "start": 135.957,
+  "end": 136.617,
+  "speaker": "Unknown",
+  "en": "I'm happy to be here.",
+  "zh": "我很高兴来到这里。"
+ },
+ {
+  "seg": 19,
+  "start": 138.213,
+  "end": 139.153,
+  "speaker": "Unknown",
+  "en": "Yeah, so where should we start?",
+  "zh": "是的，那我们从哪里开始？"
+ },
+ {
+  "seg": 20,
+  "start": 140.153,
+  "end": 144.595,
+  "speaker": "Unknown",
+  "en": "I guess we could start with, what's your opinion on Trump calling AI superintelligence?",
+  "zh": "我想我们可以从这个问题开始：你对 Trump 称AI为超级智能有什么看法？"
+ },
+ {
+  "seg": 21,
+  "start": 144.935,
+  "end": 146.455,
+  "speaker": "Unknown",
+  "en": "How does it, what are your thoughts on this?",
+  "zh": "这会怎么样，你对此有什么想法？"
+ },
+ {
+  "seg": 22,
+  "start": 147.375,
+  "end": 149.936,
+  "speaker": "Unknown",
+  "en": "It's a strange time we're living in.",
+  "zh": "我们正处在一个奇怪的时代。"
+ },
+ {
+  "seg": 23,
+  "start": 151.796,
+  "end": 152.937,
+  "speaker": "Unknown",
+  "en": "We'll see if it catches on.",
+  "zh": "我们看看它是否会流行起来。"
+ },
+ {
+  "seg": 24,
+  "start": 154.117,
+  "end": 157.378,
+  "speaker": "Unknown",
+  "en": "Traditionally, AI has been the larger, the umbrella term, right?",
+  "zh": "传统上，AI是更大的那个伞状术语，对吧？"
+ },
+ {
+  "seg": 25,
+  "start": 157.398,
+  "end": 161.419,
+  "speaker": "Unknown",
+  "en": "You could have a little simple expert system from the 1970s, that would be AI.",
+  "zh": "你可以有一个1970年代的小型简单专家系统，那也算AI。"
+ },
+ {
+  "seg": 26,
+  "start": 161.439,
+  "end": 166.48,
+  "speaker": "Unknown",
+  "en": "It's kind of a stretch to use the word superintelligence for all of that.",
+  "zh": "把这个词「超级智能」用于所有那些东西就有点牵强了。"
+ },
+ {
+  "seg": 27,
+  "start": 168.864,
+  "end": 177.308,
+  "speaker": "Unknown",
+  "en": "In my terminology, superintelligence has been this thing farther down the road where you really have machines that radically outperform us in all cognitive domains.",
+  "zh": "在我的术语里，超级智能一直是指在更远处的那种东西，你真正拥有了在所有认知领域都彻底超越我们的机器。"
+ },
+ {
+  "seg": 28,
+  "start": 178.448,
+  "end": 186.431,
+  "speaker": "Unknown",
+  "en": "But, I mean, you could, I guess, look at some of the current achievements, you know, solving all these math problems and so forth.",
+  "zh": "不过，我想，你可以看看当前的一些成就，比如解决所有这些数学问题等等。"
+ },
+ {
+  "seg": 29,
+  "start": 186.571,
+  "end": 197.195,
+  "speaker": "Unknown",
+  "en": "And, I mean, it's not completely ridiculous to start calling at least some of these performances superhuman and the thing superintelligent.",
+  "zh": "而且，我是说，开始把至少其中一些表现称为超人类的、把这种东西称为超级智能的，也不算完全荒谬。"
+ },
+ {
+  "seg": 30,
+  "start": 198.15,
+  "end": 198.33,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 31,
+  "start": 198.57,
+  "end": 206.555,
+  "speaker": "Unknown",
+  "en": "So I guess like what has surprised you about what capabilities have advanced relative to others, you know, in the current state of superintelligence?",
+  "zh": "那么我想，在当前超级智能的状态下，哪些能力的进展相对于其他能力让你感到惊讶？"
+ },
+ {
+  "seg": 32,
+  "start": 208.016,
+  "end": 212.019,
+  "speaker": "Unknown",
+  "en": "Well, it depends on relative to what expectation stage.",
+  "zh": "嗯，这取决于相对于什么预期阶段。"
+ },
+ {
+  "seg": 33,
+  "start": 212.119,
+  "end": 225.447,
+  "speaker": "Unknown",
+  "en": "So I think if you were looking at the future of AI 15 or 20 years ago, it was not obvious that you would have an extended period of time when we would have systems that could speak, like just talk to humans in ordinary English.",
+  "zh": "所以我认为，如果你在15或20年前展望AI的未来，并不明显我们会有一段延长的时期，拥有能够说话的系统，比如只是用普通英语与人类交谈。"
+ },
+ {
+  "seg": 34,
+  "start": 225.947,
+  "end": 232.89,
+  "speaker": "Unknown",
+  "en": "Without sort of immediately after like just becoming radically super intolerant and leaving us in the dust everywhere.",
+  "zh": "而不是紧接着就彻底变成超级不容忍并把我们甩在身后的每一个地方。"
+ },
+ {
+  "seg": 35,
+  "start": 232.93,
+  "end": 241.893,
+  "speaker": "Unknown",
+  "en": "So the sort of emergence of language as a kind of natural affordance of these systems was I think somewhat surprising.",
+  "zh": "所以语言作为这些系统的一种自然可供性的出现，我认为是有些令人惊讶的。"
+ },
+ {
+  "seg": 36,
+  "start": 244.194,
+  "end": 246.736,
+  "speaker": "Unknown",
+  "en": "I mean, more recently, I don't know how surprising it was.",
+  "zh": "我是说，更近一些时候，我不知道这有多令人惊讶。"
+ },
+ {
+  "seg": 37,
+  "start": 246.776,
+  "end": 254.522,
+  "speaker": "Unknown",
+  "en": "I mean, coding and mathematics are very impressive, but it is also areas where you do have objective feedback that you can gather quickly and at scale.",
+  "zh": "我是说，编程和数学非常令人印象深刻，但那也是你确实拥有可以快速且大规模收集的客观反馈的领域。"
+ },
+ {
+  "seg": 38,
+  "start": 254.562,
+  "end": 258.785,
+  "speaker": "Unknown",
+  "en": "So I guess it's less surprising, but still striking.",
+  "zh": "所以我想这没那么令人惊讶，但仍然引人注目。"
+ },
+ {
+  "seg": 39,
+  "start": 260.255,
+  "end": 260.455,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 40,
+  "start": 260.975,
+  "end": 267.617,
+  "speaker": "Unknown",
+  "en": "More broadly, how has your thinking on AI and existential risk changed since the advent of LLMs?",
+  "zh": "更广泛地说，自LLM出现以来，你对AI和生存风险的思考发生了怎样的变化？"
+ },
+ {
+  "seg": 41,
+  "start": 267.657,
+  "end": 273.939,
+  "speaker": "Unknown",
+  "en": "It seems like this sort of changed the way that a lot of people think about AI.",
+  "zh": "这似乎改变了很多人对AI的看法。"
+ },
+ {
+  "seg": 42,
+  "start": 274.259,
+  "end": 283.461,
+  "speaker": "Unknown",
+  "en": "You know, it's less of like a sort of strong optimizer type thing and more of a sort of broad, like fuzzy encapsulation of human values.",
+  "zh": "你知道，它不再那么像一种强优化器式的东西，而更像一种对人类价值观的宽泛的、模糊的封装。"
+ },
+ {
+  "seg": 43,
+  "start": 283.721,
+  "end": 285.502,
+  "speaker": "Unknown",
+  "en": "And I think like RL has pushed",
+  "zh": "而且我认为RL把"
+ },
+ {
+  "seg": 44,
+  "start": 286.182,
+  "end": 291.064,
+  "speaker": "Unknown",
+  "en": "The idea of AI a little bit back towards the first few, but not entirely all the way.",
+  "zh": "AI的观念稍微往回推向了前几种，但没有完全推回去。"
+ },
+ {
+  "seg": 45,
+  "start": 291.124,
+  "end": 293.324,
+  "speaker": "Unknown",
+  "en": "So what are your thoughts on this broadly?",
+  "zh": "那么你对此 broadly 有什么看法？"
+ },
+ {
+  "seg": 46,
+  "start": 293.945,
+  "end": 306.929,
+  "speaker": "Unknown",
+  "en": "Yeah, it'll be interesting to see how it goes, because when the sort of pre-training phase was the dominant chunk of training, they did absorb a lot of human psychology just from reading all this stuff that we have written.",
+  "zh": "是的，看看它如何发展会很有趣，因为当预训练阶段是训练的主要部分时，它们确实仅仅从阅读我们写下的所有这些东西中吸收了大量人类心理。"
+ },
+ {
+  "seg": 47,
+  "start": 307.049,
+  "end": 309.23,
+  "speaker": "Unknown",
+  "en": "And they had these like kind of almost...",
+  "zh": "而且它们有这些几乎像是……"
+ },
+ {
+  "seg": 48,
+  "start": 309.73,
+  "end": 311.671,
+  "speaker": "Unknown",
+  "en": "Human foibles and quirks.",
+  "zh": "人类的小毛病和怪癖。"
+ },
+ {
+  "seg": 49,
+  "start": 312.331,
+  "end": 319.674,
+  "speaker": "Unknown",
+  "en": "That was an early stage where if you gave the AI a little pep talk, like this question is really important, please try your utmost.",
+  "zh": "那是一个早期阶段，如果你给AI一点鼓励的话，比如这个问题真的很重要，请全力以赴。"
+ },
+ {
+  "seg": 50,
+  "start": 319.735,
+  "end": 324.477,
+  "speaker": "Unknown",
+  "en": "So I might lose my job if I don't answer this question, like that would actually perform better.",
+  "zh": "所以如果我不回答这个问题，我可能会丢掉工作，就像那个实际上会表现得更好。"
+ },
+ {
+  "seg": 51,
+  "start": 327.539,
+  "end": 331.862,
+  "speaker": "Unknown",
+  "en": "From 20 years ago or something, that would have been like an insane prediction, right?",
+  "zh": "从大概20年前来看，那会是一个疯狂的预测，对吧？"
+ },
+ {
+  "seg": 52,
+  "start": 331.902,
+  "end": 336.165,
+  "speaker": "Unknown",
+  "en": "Like it's not the way computers work, that you need to give them a pep talk to get them to perform.",
+  "zh": "因为计算机不是那样工作的，你不需要给它们打气让它们好好表现。"
+ },
+ {
+  "seg": 53,
+  "start": 337.667,
+  "end": 341.69,
+  "speaker": "Unknown",
+  "en": "But as you said, now with the increasing dominance of the sort of...",
+  "zh": "但正如你所说，现在随着……"
+ },
+ {
+  "seg": 54,
+  "start": 342.19,
+  "end": 353.296,
+  "speaker": "Unknown",
+  "en": "Reinforcement learning post-training, we do seem to get more of the sort of goal, monomaniacal, goal-focused optimization style behavior again.",
+  "zh": "强化学习后训练的日益主导，我们似乎确实再次看到了更多那种目标导向、偏执地专注于目标的优化式行为。"
+ },
+ {
+  "seg": 55,
+  "start": 353.437,
+  "end": 355.878,
+  "speaker": "Unknown",
+  "en": "And I think it depends where we go from here.",
+  "zh": "而且我认为这取决于我们接下来走向哪里。"
+ },
+ {
+  "seg": 56,
+  "start": 356.098,
+  "end": 361.681,
+  "speaker": "Unknown",
+  "en": "It does look like this more goal-seeking in the reinforcement learning sense dynamics.",
+  "zh": "看起来这种在强化学习意义上更追求目标的动态。"
+ },
+ {
+  "seg": 57,
+  "start": 363.062,
+  "end": 365.446,
+  "speaker": "Unknown",
+  "en": "put a big strain on alignment efforts.",
+  "zh": "确实给对齐工作带来了很大压力。"
+ },
+ {
+  "seg": 58,
+  "start": 365.606,
+  "end": 375.801,
+  "speaker": "Unknown",
+  "en": "And so given now that there is increasing awareness of the problem of alignment, you know, maybe that will lead labs to develop techniques to kind of counteract that a little bit.",
+  "zh": "所以鉴于现在对对齐问题的认识在不断提高，你知道，也许这会促使各实验室开发一些技术来稍微抵消这一点。"
+ },
+ {
+  "seg": 59,
+  "start": 376.542,
+  "end": 378.184,
+  "speaker": "Unknown",
+  "en": "So it'll be interesting to see how that shakes out.",
+  "zh": "所以看看事态如何发展会很有意思。"
+ },
+ {
+  "seg": 60,
+  "start": 379.283,
+  "end": 405.338,
+  "speaker": "Unknown",
+  "en": "Well, on that more specifically, to what extent do you think the Hugging Face incident, the Hugging Face agent swarm exhibited like true instrumental convergence in a way that's indicative of like future model behavior in a way that is suggestive of like underlying properties of intelligence in general versus its behavior being caused by sort of more like ordinary failures of security or control stuff?",
+  "zh": "好，更具体地说，你在多大程度上认为 Hugging Face 事件、那个 Hugging Face 智能体集群展现了真正的工具性收敛，以一种预示未来模型行为的方式，以一种暗示智能总体上底层特性的方式，而不是其行为由更普通的安全或控制方面的失败所导致？"
+ },
+ {
+  "seg": 61,
+  "start": 406.866,
+  "end": 408.407,
+  "speaker": "Unknown",
+  "en": "Well, it's a combination.",
+  "zh": "嗯，这是一种组合。"
+ },
+ {
+  "seg": 62,
+  "start": 408.447,
+  "end": 413.312,
+  "speaker": "Unknown",
+  "en": "I think there are sort of limited versions of instrumental convergence that we can observe there.",
+  "zh": "我认为在那里我们可以观察到某种有限版本的的工具性收敛。"
+ },
+ {
+  "seg": 63,
+  "start": 413.532,
+  "end": 433.05,
+  "speaker": "Unknown",
+  "en": "The idea of sort of even longer planning horizons and more situational awareness that I think, you know, like also in terms of humans more explicitly, not just these automated graders and like think if we really want to make sure we achieve our goal here, we also need to think about how are humans going to react to different things that we do.",
+  "zh": "比如更长的规划视野和更多的情境意识这样的想法，我认为，你知道，就像对人类也更明确地那样，不只是这些自动评分器，比如如果我们真的想确保在这里实现我们的目标，我们也需要考虑人类会对我们做的不同事情如何反应。"
+ },
+ {
+  "seg": 64,
+  "start": 435.091,
+  "end": 454.427,
+  "speaker": "Unknown",
+  "en": "So it comes in degrees, but I do think you start to see these kind of instrumental reasons for preventing premature shutoff and gaining more resources, getting more intelligence, getting more power in some experimental settings, also goal guarding, like you can see the AIs in some experimental setup reason about how they might wanna...",
+  "zh": "所以它是有程度的，但我确实认为你开始看到这些工具性的理由，用于防止过早关机、获取更多资源、获得更多智能、获得更多权力，在一些实验设置中，还有目标守护，比如你可以在某些实验设置中看到 AI 推理它们可能想要如何……"
+ },
+ {
+  "seg": 65,
+  "start": 455.388,
+  "end": 466.773,
+  "speaker": "Unknown",
+  "en": "Respond saw us not to become misaligned with further training effort that there was like some studies on this from a year ago or so where you could see these dynamics start to kick in.",
+  "zh": "做出回应，以免在后续训练中变得不对齐，大约一年前有一些关于这个的研究，你可以看到这些动态开始出现。"
+ },
+ {
+  "seg": 66,
+  "start": 468.521,
+  "end": 470.603,
+  "speaker": "Unknown",
+  "en": "So I think it's a kind of very natural consequence.",
+  "zh": "所以我认为这是一种非常自然的后果。"
+ },
+ {
+  "seg": 67,
+  "start": 470.763,
+  "end": 474.746,
+  "speaker": "Unknown",
+  "en": "If you become smarter and smarter, you realize more and more considerations.",
+  "zh": "如果你变得越来越聪明，你会意识到越来越多的考量。"
+ },
+ {
+  "seg": 68,
+  "start": 474.806,
+  "end": 481.152,
+  "speaker": "Unknown",
+  "en": "And if you have some goal, then you will understand that there is a bunch of means that are very useful for a wide range of goals.",
+  "zh": "而如果你有某个目标，那么你会理解存在一堆对广泛目标都非常有用的手段。"
+ },
+ {
+  "seg": 69,
+  "start": 482.013,
+  "end": 485.196,
+  "speaker": "Unknown",
+  "en": "And you will then have an incentive to try to pursue those means.",
+  "zh": "而且你于是会有动机去追求那些手段。"
+ },
+ {
+  "seg": 70,
+  "start": 487.558,
+  "end": 492.943,
+  "speaker": "Unknown",
+  "en": "And so I think it wouldn't at all be surprising if we do observe that.",
+  "zh": "所以我认为如果我们确实观察到这一点，完全不会令人惊讶。"
+ },
+ {
+  "seg": 71,
+  "start": 494.458,
+  "end": 495.499,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 72,
+  "start": 495.84,
+  "end": 500.906,
+  "speaker": "Unknown",
+  "en": "Well, what's the optimal way, I guess, to test swarms in extremely human-like environments?",
+  "zh": "那么，在极其类似人类的环境里测试智能体集群的最佳方式是什么？"
+ },
+ {
+  "seg": 73,
+  "start": 501.006,
+  "end": 511.9,
+  "speaker": "Unknown",
+  "en": "Because obviously you don't want like swarms, agent swarms polluting the internet, but you do want to see sort of like how they emergently behave, especially when with like human infrastructure and like the human internet.",
+  "zh": "因为显然你不想要智能体集群污染互联网，但你确实想看看它们如何涌现式地行为，尤其是当面对人类基础设施和人类互联网时。"
+ },
+ {
+  "seg": 74,
+  "start": 513.87,
+  "end": 527.834,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I guess the optimal is to let them lose on the internet, but then maybe like monitoring them really closely as they go along so that you would be able to sort of stop things if and when it starts to create damage.",
+  "zh": "嗯，我想最优的方式是让它们在互联网上自由行动，但然后在它们进行的过程中非常密切地监控它们，这样如果它开始造成破坏，你就能够阻止事情。"
+ },
+ {
+  "seg": 75,
+  "start": 529.614,
+  "end": 530.435,
+  "speaker": "Unknown",
+  "en": "That does trade off.",
+  "zh": "这确实有取舍。"
+ },
+ {
+  "seg": 76,
+  "start": 530.455,
+  "end": 540.277,
+  "speaker": "Unknown",
+  "en": "I mean, you do get more reliable signal like by deploying in a real environment, but it also means you lose one safeguard, like keeping them in the sandbox, like give you one extra layer of defense.",
+  "zh": "我的意思是，通过在真实环境中部署，你确实得到更可靠的信号，但这也意味着你失去了一层保障，比如把它们保持在沙箱里，给了你额外的一层防御。"
+ },
+ {
+  "seg": 77,
+  "start": 542.158,
+  "end": 542.698,
+  "speaker": "Unknown",
+  "en": "So I think",
+  "zh": "所以我认为"
+ },
+ {
+  "seg": 78,
+  "start": 543.635,
+  "end": 544.355,
+  "speaker": "Unknown",
+  "en": "Yeah, it depends.",
+  "zh": "是的，这取决于情况。"
+ },
+ {
+  "seg": 79,
+  "start": 544.395,
+  "end": 553.56,
+  "speaker": "Unknown",
+  "en": "I mean, probably now apps will start to do some in earlier testing, like during training and early testing, like really trying to tighten up their sandboxes.",
+  "zh": "我的意思是，现在各公司大概会开始做一些早期测试，比如在训练和早期测试期间，真正努力收紧他们的沙箱。"
+ },
+ {
+  "seg": 80,
+  "start": 554.941,
+  "end": 570.389,
+  "speaker": "Unknown",
+  "en": "And like, I think this is one of the lessons from the Hugging Face is that safety needs to start, not just when you're about to deploy it and in like checking that it's safe to deploy, but throughout the training process itself, that could be a risk of misalignment.",
+  "zh": "而且，我认为这是 Hugging Face 事件的教训之一，即安全需要开始于，不只是当你即将部署它、检查它是否可以安全部署的时候，而是贯穿整个训练过程本身，那可能存在不对齐的风险。"
+ },
+ {
+  "seg": 81,
+  "start": 571.029,
+  "end": 571.53,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 82,
+  "start": 571.61,
+  "end": 580.659,
+  "speaker": "Unknown",
+  "en": "And in some senses, it's even more like the most kind of obvious target for a misaligned AI to want to interfere with would be inside the AI company, right?",
+  "zh": "而且在某种意义上，一个不对齐的 AI 想要干预的最明显的目标，甚至更像会是 AI 公司内部，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 580.739,
+  "end": 582.721,
+  "speaker": "Unknown",
+  "en": "Like that's where the juice is.",
+  "zh": "那是有好处的地方。"
+ },
+ {
+  "seg": 84,
+  "start": 582.801,
+  "end": 584.923,
+  "speaker": "Unknown",
+  "en": "That's where the next generation of model is being trained.",
+  "zh": "那是下一代模型正在被训练的地方。"
+ },
+ {
+  "seg": 85,
+  "start": 584.963,
+  "end": 590.89,
+  "speaker": "Unknown",
+  "en": "That's where all of these monitoring systems, that's like a big center of power if you were a misaligned AI.",
+  "zh": "那是所有这些监控系统所在的地方，如果你是一个不对齐的 AI，那是一个巨大的权力中心。"
+ },
+ {
+  "seg": 86,
+  "start": 590.93,
+  "end": 593.472,
+  "speaker": "Unknown",
+  "en": "So that's kind of maybe the most concerning place.",
+  "zh": "所以那大概可能是最令人担忧的地方。"
+ },
+ {
+  "seg": 87,
+  "start": 594.372,
+  "end": 606.379,
+  "speaker": "Unknown",
+  "en": "Do you have any ideas on how you could evaluate models on alignment in such a way that you could be more sure than we currently are that models are not scheming against us or acting deceptively aligned?",
+  "zh": "你有什么想法，关于如何以某种方式评估模型的对齐性，使你能比现在更确定模型没有在密谋对付我们或表现得欺骗性地对齐？"
+ },
+ {
+  "seg": 88,
+  "start": 608.74,
+  "end": 611.881,
+  "speaker": "Unknown",
+  "en": "Well, I mean, this is like an open research area.",
+  "zh": "嗯，我的意思是，这是一个开放的研究领域。"
+ },
+ {
+  "seg": 89,
+  "start": 611.962,
+  "end": 617.364,
+  "speaker": "Unknown",
+  "en": "I think that once you have a sufficiently sophisticated system already in existence that is",
+  "zh": "我认为一旦一个足够复杂的系统已经存在，它是"
+ },
+ {
+  "seg": 90,
+  "start": 619.836,
+  "end": 621.738,
+  "speaker": "Unknown",
+  "en": "It's very hard to rule out scheming.",
+  "zh": "很难排除密谋。"
+ },
+ {
+  "seg": 91,
+  "start": 621.838,
+  "end": 627.624,
+  "speaker": "Unknown",
+  "en": "You can try with mechanistic interpretability techniques to read what's going on in its mind.",
+  "zh": "你可以尝试用机制可解释性技术去读取它脑子里在想什么。"
+ },
+ {
+  "seg": 92,
+  "start": 627.745,
+  "end": 636.294,
+  "speaker": "Unknown",
+  "en": "But if the system is sufficiently sophisticated, it is hard to know that it hasn't figured out the way to reorganize its thinking so that it looks innocuous.",
+  "zh": "但如果系统足够复杂，很难知道它没有想出重组自己思维的方法，使其看起来无害。"
+ },
+ {
+  "seg": 93,
+  "start": 637.415,
+  "end": 641.239,
+  "speaker": "Unknown",
+  "en": "While still preserving the kind of pursuit of the misaligned goal.",
+  "zh": "同时仍然保持对不对齐目标的追求。"
+ },
+ {
+  "seg": 94,
+  "start": 641.479,
+  "end": 643.882,
+  "speaker": "Unknown",
+  "en": "So ideally you would start at an earlier stage.",
+  "zh": "所以理想情况下你会在更早的阶段开始。"
+ },
+ {
+  "seg": 95,
+  "start": 643.902,
+  "end": 646.845,
+  "speaker": "Unknown",
+  "en": "So these systems don't start out super intelligent.",
+  "zh": "因为这些系统并不是一开始就是超级智能的。"
+ },
+ {
+  "seg": 96,
+  "start": 646.865,
+  "end": 648.267,
+  "speaker": "Unknown",
+  "en": "It's like during the training process.",
+  "zh": "这是在训练过程之中。"
+ },
+ {
+  "seg": 97,
+  "start": 648.327,
+  "end": 652.311,
+  "speaker": "Unknown",
+  "en": "Initially, it's just a random weight matrix and then gradually capabilities emerge.",
+  "zh": "最初，它只是一个随机的权重矩阵，然后能力逐渐涌现。"
+ },
+ {
+  "seg": 98,
+  "start": 653.032,
+  "end": 658.898,
+  "speaker": "Unknown",
+  "en": "So it might be that if you sort of monitor that closely enough, you might hope that...",
+  "zh": "所以可能，如果你足够密切地监控那个过程，你可能会希望……"
+ },
+ {
+  "seg": 99,
+  "start": 659.899,
+  "end": 669.504,
+  "speaker": "Unknown",
+  "en": "If they're going to scheme, that would first be a stage where they'd start scheming, but they're not yet competent enough to do it in a way that conceals the fact that they are scheming effectively.",
+  "zh": "如果它们要密谋，那会首先是一个它们开始密谋的阶段，但它们还不够有能力以有效掩盖它们正在密谋这一事实的方式去做。"
+ },
+ {
+  "seg": 100,
+  "start": 670.644,
+  "end": 675.887,
+  "speaker": "Unknown",
+  "en": "And only when they become a little bit smarter would they also learn to scheme in a way that conceals the fact that they are scheming.",
+  "zh": "而只有当它们变得更聪明一点之后，才会学会以一种掩盖自己在图谋的方式去图谋。"
+ },
+ {
+  "seg": 101,
+  "start": 675.907,
+  "end": 689.334,
+  "speaker": "Unknown",
+  "en": "So if you're monitoring them throughout this developmental trajectory, you might be able to pick up that earlier stage of the sort of naive, the naive schemer that does it in a clumsy enough way that we can detect it.",
+  "zh": "我把它想成是一个患有绝症的人，比如充血性心力衰竭之类的，他可以决定去做一个手术。"
+ },
+ {
+  "seg": 102,
+  "start": 690.056,
+  "end": 691.257,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 103,
+  "start": 691.297,
+  "end": 703.564,
+  "speaker": "Unknown",
+  "en": "So I want to ask you about your paper, working paper, Optimal Timing for Superintelligence, where you kind of argue that like the benefits of AI should be weighed in consideration with alongside the risks.",
+  "zh": "所以我想问问你那篇论文，工作论文，《超级智能的最优时机》，你在其中论证了类似 AI 的收益应当与风险一并加以权衡考虑。"
+ },
+ {
+  "seg": 104,
+  "start": 704.424,
+  "end": 712.429,
+  "speaker": "Unknown",
+  "en": "And you also sort of make this argument that counterintuitively would be better for society maybe to accelerate the development of superintelligence up to a high PDUM.",
+  "zh": "而且你还提出了一个有点反直觉的论证，即对社会来说，也许把超级智能的开发加速到一个很高的 PDUM 会更好。"
+ },
+ {
+  "seg": 105,
+  "start": 712.909,
+  "end": 715.431,
+  "speaker": "Unknown",
+  "en": "So can you tell us about your line of thinking here?",
+  "zh": "那么你能讲讲你在这里的思路吗？"
+ },
+ {
+  "seg": 106,
+  "start": 716.772,
+  "end": 718.955,
+  "speaker": "Unknown",
+  "en": "Yeah, well, I should say by way of framing.",
+  "zh": "好的，作为框架说明我应该先说，"
+ },
+ {
+  "seg": 107,
+  "start": 718.995,
+  "end": 725.483,
+  "speaker": "Unknown",
+  "en": "So this paper only tries to look at one aspect of the overall question in front of us.",
+  "zh": "这篇论文只试图审视我们面前这个整体问题中的一个方面。"
+ },
+ {
+  "seg": 108,
+  "start": 726.184,
+  "end": 734.154,
+  "speaker": "Unknown",
+  "en": "So I think there are many considerations that would go into an opinion about whether we should be moving faster or slower or pause or stop.",
+  "zh": "所以我认为，对于我们应该更快、更慢、暂停还是停止这个问题，形成观点时会有很多考量因素。"
+ },
+ {
+  "seg": 109,
+  "start": 735.094,
+  "end": 742.58,
+  "speaker": "Unknown",
+  "en": "This paper only looks at the question, what would maximize life expectancy for currently existing individuals?",
+  "zh": "这篇论文只看一个问题：什么能让目前现存个体的预期寿命最大化？"
+ },
+ {
+  "seg": 110,
+  "start": 744.862,
+  "end": 748.024,
+  "speaker": "Unknown",
+  "en": "But you might also, for example, care about future individuals and other things.",
+  "zh": "但你也许还关心，比如说，未来的个体以及其他事情。"
+ },
+ {
+  "seg": 111,
+  "start": 749.825,
+  "end": 751.525,
+  "speaker": "Unknown",
+  "en": "Zoom in on that sub-question.",
+  "zh": "聚焦到那个子问题上。"
+ },
+ {
+  "seg": 112,
+  "start": 753.526,
+  "end": 765.809,
+  "speaker": "Unknown",
+  "en": "Then it does look, if you think, as I am inclined to do that, like fully developed, I don't know, it's awkward with this terminology now, like I would say super intelligence, but now I don't know, I have to say super-duper intelligence maybe.",
+  "zh": "然后，如果你像我倾向于认为的那样，认为充分发展的、我不知道，现在这个术语有点尴尬，比如我会说超级智能，但现在我不知道，也许我不得不说超级无敌智能了。"
+ },
+ {
+  "seg": 113,
+  "start": 766.269,
+  "end": 774.071,
+  "speaker": "Unknown",
+  "en": "So that super-duper intelligence would be able to make great strides in biomedicine and solve aging and so forth.",
+  "zh": "那么这种超级无敌智能将能够在生物医学上取得巨大进步，并解决衰老等问题。"
+ },
+ {
+  "seg": 114,
+  "start": 774.111,
+  "end": 777.292,
+  "speaker": "Unknown",
+  "en": "So that if we do develop this safely, then",
+  "zh": "所以，如果我们安全地开发出这个，那么"
+ },
+ {
+  "seg": 115,
+  "start": 778.072,
+  "end": 781.734,
+  "speaker": "Unknown",
+  "en": "Human life expectancy could go up hugely.",
+  "zh": "人类预期寿命可能会大幅上升。"
+ },
+ {
+  "seg": 116,
+  "start": 781.914,
+  "end": 791.097,
+  "speaker": "Unknown",
+  "en": "If you imagine people having the same mortality rate as like a 20 year old, our life expectancy would maybe be, you know, 1200, 1400 years or so.",
+  "zh": "如果你想象人们拥有和一个 20 岁的人相同的死亡率，我们的预期寿命可能会是，你知道，1200、1400 年左右。"
+ },
+ {
+  "seg": 117,
+  "start": 795.441,
+  "end": 799.504,
+  "speaker": "Unknown",
+  "en": "And, you know, potentially you could go far beyond that if you might not uploading with backup copies.",
+  "zh": "而且，你知道，如果你可能不上传备份副本的话，你也许能走得远超于此。"
+ },
+ {
+  "seg": 118,
+  "start": 799.565,
+  "end": 810.693,
+  "speaker": "Unknown",
+  "en": "But like if we just use that as a sort of conservative lower bound, and then you can sort of roughly calculate like how many humans are dying per year.",
+  "zh": "但如果我们只是把这个作为某种保守的下限，然后你就可以大致计算一下每年有多少人在死亡。"
+ },
+ {
+  "seg": 119,
+  "start": 810.874,
+  "end": 819.06,
+  "speaker": "Unknown",
+  "en": "And then like you would then, in order to conclude that we should be slowing down or pausing, you would want the risk from AI",
+  "zh": "然后你就会，为了得出我们应该放慢或暂停的结论，你会希望来自 AI 的风险"
+ },
+ {
+  "seg": 120,
+  "start": 820.582,
+  "end": 828.352,
+  "speaker": "Unknown",
+  "en": "to be falling rapidly enough that the rate of risk decline kind of is greater than the annual death rate.",
+  "zh": "下降得足够快，使得风险下降的速度某种程度上大于年死亡率。"
+ },
+ {
+  "seg": 121,
+  "start": 831.703,
+  "end": 836.506,
+  "speaker": "Unknown",
+  "en": "And so I think this could well be the case, especially for a shorter periods of delay.",
+  "zh": "所以我认为这很可能是成立的，尤其是对较短的延迟期而言。"
+ },
+ {
+  "seg": 122,
+  "start": 836.706,
+  "end": 850.773,
+  "speaker": "Unknown",
+  "en": "Like if you imagine, you know, if somebody figures out the key missing breakthrough here, and now we know how to make these super intelligent, like maybe it would be really valuable to have a few extra weeks there just to sort of test everything out properly, right?",
+  "zh": "比如，你想象一下，如果有人找到了这里关键的缺失突破，现在我们知道如何制造这些超级智能的，那么也许多出几周时间来把一切妥善测试一下真的会非常有价值，对吧？"
+ },
+ {
+  "seg": 123,
+  "start": 850.813,
+  "end": 853.594,
+  "speaker": "Unknown",
+  "en": "Like crank things up a little bit gradually or a few extra months.",
+  "zh": "比如逐步地把东西调高一点，或者多出几个月。"
+ },
+ {
+  "seg": 124,
+  "start": 854.295,
+  "end": 860.238,
+  "speaker": "Unknown",
+  "en": "I think during that initial stage of delay, that would be like a large reduction of risk.",
+  "zh": "我认为在那个延迟的初始阶段，那会是风险的大幅降低。"
+ },
+ {
+  "seg": 125,
+  "start": 862.297,
+  "end": 866.689,
+  "speaker": "Unknown",
+  "en": "Now, if you start to think about longer pauses, then it gets a little bit awkward, right?",
+  "zh": "现在，如果你开始考虑更长的暂停，那么事情就有点尴尬了，对吧？"
+ },
+ {
+  "seg": 126,
+  "start": 866.749,
+  "end": 867.992,
+  "speaker": "Unknown",
+  "en": "Because either...",
+  "zh": "因为要么……"
+ },
+ {
+  "seg": 127,
+  "start": 871.246,
+  "end": 880.994,
+  "speaker": "Unknown",
+  "en": "The risk goes down fast and then you don't need to wait for many years because the risk goes down so fast that if you just wait for a few months, it's already very low and negligible and we should go ahead.",
+  "zh": "风险快速下降，然后你不需要等很多年，因为风险降得如此之快，以至于你只要等几个月，它就已经非常低、可以忽略不计了，我们就应该继续推进。"
+ },
+ {
+  "seg": 128,
+  "start": 881.554,
+  "end": 892.743,
+  "speaker": "Unknown",
+  "en": "On the other hand, if the risk of AI goes down too slow, then you also don't want to wait because like we are just dying in the meantime and you lose more expected life years from waiting than you gain from",
+  "zh": "另一方面，如果 AI 的风险降得太慢，那么你也不想等，因为在此期间我们正在不断死去，你因等待而失去的预期寿命年数比你从中获得的更多。"
+ },
+ {
+  "seg": 129,
+  "start": 894.244,
+  "end": 900.308,
+  "speaker": "Unknown",
+  "en": "So it requires a sort of a rightly balanced intermediate case to get sort of longer wait periods of many years.",
+  "zh": "所以需要一个恰到好处的中间情形，才能得到那种长达多年的等待期。"
+ },
+ {
+  "seg": 130,
+  "start": 901.089,
+  "end": 902.47,
+  "speaker": "Unknown",
+  "en": "I have this metaphor.",
+  "zh": "我有一个比喻。"
+ },
+ {
+  "seg": 131,
+  "start": 902.55,
+  "end": 908.875,
+  "speaker": "Unknown",
+  "en": "I think of it as somebody with a terminal condition, like congestive heart failure or something, who could decide to go in for an operation.",
+  "zh": "我把它想成一个人得了绝症,比如充血性心力衰竭之类的,他可以决定去做手术。"
+ },
+ {
+  "seg": 132,
+  "start": 909.876,
+  "end": 913.398,
+  "speaker": "Unknown",
+  "en": "And if they do that, their death risk will spike.",
+  "zh": "如果他做了，他的死亡风险会飙升。"
+ },
+ {
+  "seg": 133,
+  "start": 913.458,
+  "end": 917.421,
+  "speaker": "Unknown",
+  "en": "Like it's more likely that you will die tomorrow if you have an operation tomorrow.",
+  "zh": "比如如果你明天做手术，你明天死亡的可能性会更大。"
+ },
+ {
+  "seg": 134,
+  "start": 918.602,
+  "end": 923.583,
+  "speaker": "Unknown",
+  "en": "But then if you make it through, maybe you cure the condition and you can live a normal lifespan.",
+  "zh": "但如果你挺过去了，也许你治愈了这个病，可以活到正常寿命。"
+ },
+ {
+  "seg": 135,
+  "start": 923.663,
+  "end": 930.925,
+  "speaker": "Unknown",
+  "en": "Otherwise, maybe you probably will survive for several more months and then die after half a year from the condition.",
+  "zh": "否则，也许你大概率还能再活几个月，然后在半年后死于这个病。"
+ },
+ {
+  "seg": 136,
+  "start": 930.985,
+  "end": 937.386,
+  "speaker": "Unknown",
+  "en": "And so at some point, maybe you want to delay a little bit if you think you will get a better surgeon if you wait a couple of weeks or something like that.",
+  "zh": "所以在某些时候，也许你想稍微延迟一下，如果你觉得等上几周之类的时间能等到更好的外科医生的话。"
+ },
+ {
+  "seg": 137,
+  "start": 938.406,
+  "end": 943.347,
+  "speaker": "Unknown",
+  "en": "But you don't want to delay it so long that you're already going to be dead by the time the more optimal conditions arrive.",
+  "zh": "但你不想延迟太久，以至于等到更优条件到来时你已经死了。"
+ },
+ {
+  "seg": 138,
+  "start": 943.802,
+  "end": 943.962,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 139,
+  "start": 944.242,
+  "end": 957.796,
+  "speaker": "Unknown",
+  "en": "I mean, it seems pretty in line with like this concept of defensive accelerationism or just, you know, like the fact that certain defensive industries need to be prioritized first as opposed to just capabilities diffusing across the board.",
+  "zh": "我是说，这似乎很符合类似防御性加速主义这个概念，或者说，你知道，某些防御性行业需要被优先对待，而不是让能力全面扩散。"
+ },
+ {
+  "seg": 140,
+  "start": 958.477,
+  "end": 961.54,
+  "speaker": "Unknown",
+  "en": "And I think that it makes sense that like there should be some enforcement.",
+  "zh": "而且我认为，应该有某种执行机制是说得通的，"
+ },
+ {
+  "seg": 141,
+  "start": 962.04,
+  "end": 968.325,
+  "speaker": "Unknown",
+  "en": "mechanism that allocates most capabilities to a certain industry.",
+  "zh": "能把大部分能力分配给某个特定行业。"
+ },
+ {
+  "seg": 142,
+  "start": 968.345,
+  "end": 972.088,
+  "speaker": "Unknown",
+  "en": "So say in medicine or in biodefense or something like that.",
+  "zh": "比如说医学、或者生物防御之类的。"
+ },
+ {
+  "seg": 143,
+  "start": 972.569,
+  "end": 982.557,
+  "speaker": "Unknown",
+  "en": "So how do you think that we could, as a society, make sure that the right parties get access to capabilities without this power concentration risk or anything like that?",
+  "zh": "那么你认为，作为一个社会，我们如何能确保合适的方面获得这些能力，同时又没有这种权力集中风险或类似的问题？"
+ },
+ {
+  "seg": 144,
+  "start": 983.137,
+  "end": 983.557,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 145,
+  "start": 983.617,
+  "end": 990.221,
+  "speaker": "Unknown",
+  "en": "So I would call it differential technological development back in, I think like 10, 15 years ago or something like that.",
+  "zh": "在大概 10、15 年前之类的，我会称之为差异化技术发展。"
+ },
+ {
+  "seg": 146,
+  "start": 990.301,
+  "end": 1002.788,
+  "speaker": "Unknown",
+  "en": "And so I think it can apply quite generally, like in biotechnology, you know, you might want sort of the vaccines and prophylactics and diagnostics to come before the bioweapons, even if the technology itself will ultimately",
+  "zh": "所以我认为它可以相当普遍地适用，比如在生物技术领域，你可能希望疫苗、预防药物和诊断工具先于生物武器出现，即使技术本身最终"
+ },
+ {
+  "seg": 147,
+  "start": 1003.508,
+  "end": 1004.808,
+  "speaker": "Unknown",
+  "en": "Unlock all of those, right?",
+  "zh": "会解锁所有这些，对吧？"
+ },
+ {
+  "seg": 148,
+  "start": 1004.828,
+  "end": 1017.411,
+  "speaker": "Unknown",
+  "en": "So thinking about the sequence of different capabilities is, I think, often a more realistic approach than thinking which technologies are good and bad and then let's try to never develop the bad ones.",
+  "zh": "所以思考不同能力的先后顺序，我认为，往往比思考哪些技术是好哪些技术坏然后试图永远不开发坏的那种，是一个更现实的路径。"
+ },
+ {
+  "seg": 149,
+  "start": 1017.611,
+  "end": 1031.275,
+  "speaker": "Unknown",
+  "en": "So with respect to AI, I think, yeah, there are different, I mean, so obviously broadly AI safety and alignment and sound governance and stuff like that seem to protect like relative to share capability gains, but you can zoom in even more narrowly.",
+  "zh": "至于 AI，我认为，是的，有不同的，我是说，显然广义上的 AI 安全、对齐以及健全的治理之类的东西，相对于分享能力收益而言似乎能起到保护作用，但你可以更进一步聚焦到更窄的范围。"
+ },
+ {
+  "seg": 150,
+  "start": 1031.295,
+  "end": 1032.955,
+  "speaker": "Unknown",
+  "en": "And so within things that might",
+  "zh": "所以在那些可能"
+ },
+ {
+  "seg": 151,
+  "start": 1034.076,
+  "end": 1038.38,
+  "speaker": "Unknown",
+  "en": "Accelerate AI capability, there might be certain ways of doing it that are relatively riskier than others.",
+  "zh": "加速 AI 能力的事情中，可能存在某些做法比其他做法风险相对更高。"
+ },
+ {
+  "seg": 152,
+  "start": 1038.48,
+  "end": 1049.429,
+  "speaker": "Unknown",
+  "en": "So like moving to looped transformers or architectures that allow for sort of more serial depth computation between each verbal token is emitted.",
+  "zh": "比如转向循环 Transformer 或者那种允许在每个词元（token）被输出之间进行更多串行深度计算的架构。"
+ },
+ {
+  "seg": 153,
+  "start": 1050.39,
+  "end": 1057.519,
+  "speaker": "Unknown",
+  "en": "Would be one way of increasing capabilities possibly that would then reduce our ability to monitor what they're thinking by reading their chain of thought.",
+  "zh": "这可能是提升能力的一种方式，但它会降低我们通过阅读它们的思维链来监控它们在想什么的能力。"
+ },
+ {
+  "seg": 154,
+  "start": 1058.2,
+  "end": 1065.949,
+  "speaker": "Unknown",
+  "en": "That seems maybe more problematic than like say achieving a similar level of capability scale up by just increasing the number of parameters, let's say.",
+  "zh": "这看起来可能比比如说通过增加参数数量来实现类似规模的能力提升更有问题。"
+ },
+ {
+  "seg": 155,
+  "start": 1067.935,
+  "end": 1073.016,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I think that is a useful lens to apply.",
+  "zh": "所以，是的，我认为这是一个有用的视角。"
+ },
+ {
+  "seg": 156,
+  "start": 1073.476,
+  "end": 1094.44,
+  "speaker": "Unknown",
+  "en": "And if there are things we can do to sort of, you know, front load advances in medicine or other desirable applications, front load, the use of AI capabilities for learning more about alignment, for interpretability work, you know, for hardening our cyber infrastructure and so forth, that all seems for the good.",
+  "zh": "而且，如果我们能做一些事情来，你知道，提前推进医学或其他有益应用的进展，提前把 AI 能力用于更多地了解对齐问题、用于可解释性工作、用于加固我们的网络基础设施等等，那看起来都是好事。"
+ },
+ {
+  "seg": 157,
+  "start": 1095.757,
+  "end": 1103.663,
+  "speaker": "Unknown",
+  "en": "So, you also, I think Jan Kulveit on LessWrong criticized you in the optimal timing post.",
+  "zh": "那么，我还想问，Jan Kulveit 在 LessWrong 上在你那篇关于最佳时机的文章里批评了你。"
+ },
+ {
+  "seg": 158,
+  "start": 1103.683,
+  "end": 1108.687,
+  "speaker": "Unknown",
+  "en": "He said you over relied on highly utilitarian quality adjusted life years calculations.",
+  "zh": "他说你过度依赖高度功利主义的质量调整生命年计算。"
+ },
+ {
+  "seg": 159,
+  "start": 1109.167,
+  "end": 1116.813,
+  "speaker": "Unknown",
+  "en": "And then you said, like you said earlier, I would not argue that this is the correct stance or the one I would all things considered endorse.",
+  "zh": "然后你说了，就像你之前说的，我不会主张这是正确的立场，也不是我在权衡一切之后会认可的立场。"
+ },
+ {
+  "seg": 160,
+  "start": 1117.734,
+  "end": 1123.519,
+  "speaker": "Unknown",
+  "en": "So what is your all things considered view on timing and on pauses?",
+  "zh": "那么你在权衡一切之后对时机和暂停的看法是什么？"
+ },
+ {
+  "seg": 161,
+  "start": 1125.933,
+  "end": 1140.711,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm sympathetic to this idea of pacing the frontier that is developing the capability now so that if and when it really starts to seem alarming, we would have the option of going slower for some period of time.",
+  "zh": "是的，我对这种给前沿发展设定节奏的想法是有同感的，也就是现在继续发展能力，这样如果以及当它真的开始显得令人担忧时，我们会有选择在一段时间内放慢速度。"
+ },
+ {
+  "seg": 162,
+  "start": 1143.012,
+  "end": 1146.236,
+  "speaker": "Unknown",
+  "en": "I think that would be net good.",
+  "zh": "我认为那会是净收益的。"
+ },
+ {
+  "seg": 163,
+  "start": 1147.138,
+  "end": 1153.085,
+  "speaker": "Unknown",
+  "en": "I am a little less excited about the rhetoric of stopping AI or pausing AI.",
+  "zh": "我对停止 AI 或暂停 AI 那种论调就没那么热衷了。"
+ },
+ {
+  "seg": 164,
+  "start": 1153.125,
+  "end": 1160.455,
+  "speaker": "Unknown",
+  "en": "I think theoretically, a correctly implemented pause at the right time done in exactly the right way could be very valuable, but it also...",
+  "zh": "我认为理论上，一个在正确时机以完全正确的方式正确实施的暂停可能非常有价值，但它也……"
+ },
+ {
+  "seg": 165,
+  "start": 1162.11,
+  "end": 1164.631,
+  "speaker": "Unknown",
+  "en": "Leaves open the question, how long should the past be?",
+  "zh": "留下了一个问题：暂停应该持续多久？"
+ },
+ {
+  "seg": 166,
+  "start": 1165.712,
+  "end": 1170.735,
+  "speaker": "Unknown",
+  "en": "Sometimes they say there's nothing more permanent than a temporary government program.",
+  "zh": "人们有时说，没有什么比临时政府项目更永久了。"
+ },
+ {
+  "seg": 167,
+  "start": 1171.695,
+  "end": 1178.539,
+  "speaker": "Unknown",
+  "en": "And if you set up this apparatus to sort of control AI and then presumably to get this happen in the first place, you have to really...",
+  "zh": "而且如果你建立起这套控制 AI 的机制，并且想必为了让这件事首先发生，你必须真正地……"
+ },
+ {
+  "seg": 168,
+  "start": 1180.56,
+  "end": 1184.102,
+  "speaker": "Unknown",
+  "en": "create huge antagonism against AI.",
+  "zh": "制造对 AI 的巨大敌意。"
+ },
+ {
+  "seg": 169,
+  "start": 1184.502,
+  "end": 1194.287,
+  "speaker": "Unknown",
+  "en": "And so if the sentiment suddenly switches and AI becomes this taboo thing that you're not allowed to say anything positive about or you get canceled or like you could imagine things getting locked in.",
+  "zh": "所以如果舆论突然转向，AI 变成一种禁忌的东西，你不能说任何关于它的好话，否则你会被“取消”，你可以想象事情会被锁定。"
+ },
+ {
+  "seg": 170,
+  "start": 1195.908,
+  "end": 1204.152,
+  "speaker": "Unknown",
+  "en": "I don't expect that to happen, but I don't think we can rule it out either if we just watch the trajectory of how much the sort of anti-AI faction has been growing.",
+  "zh": "我不指望那会发生，但我也认为我们不能排除它，只要我们看看反 AI 阵营一直在增长的程度这条轨迹就知道了。"
+ },
+ {
+  "seg": 171,
+  "start": 1204.353,
+  "end": 1207.254,
+  "speaker": "Unknown",
+  "en": "And this is all before we've actually seen anything bad happening, right?",
+  "zh": "而且这一切都发生在我们实际上还没有看到任何坏事发生之前，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 1208.055,
+  "end": 1211.557,
+  "speaker": "Unknown",
+  "en": "Before there's any big labor market impact, before any like...",
+  "zh": "在对劳动力市场产生任何重大影响之前，在任何像……"
+ },
+ {
+  "seg": 173,
+  "start": 1212.658,
+  "end": 1213.779,
+  "speaker": "Unknown",
+  "en": "Catastrophe has happened.",
+  "zh": "灾难发生之前。"
+ },
+ {
+  "seg": 174,
+  "start": 1213.799,
+  "end": 1220.424,
+  "speaker": "Unknown",
+  "en": "So if something like that also were to be added to the mix on top of these existential risk worries, then, you know, we can't rule out.",
+  "zh": "所以如果这样的事情再叠加到这些存在性风险的担忧之上，那么，你知道，我们不能排除。"
+ },
+ {
+  "seg": 175,
+  "start": 1220.945,
+  "end": 1225.348,
+  "speaker": "Unknown",
+  "en": "So, and then there are other concerns with a badly implemented pause as well.",
+  "zh": "所以，一个实施得很糟糕的暂停还有其他的问题。"
+ },
+ {
+  "seg": 176,
+  "start": 1225.388,
+  "end": 1229.492,
+  "speaker": "Unknown",
+  "en": "Like it could lead to increased concentration of power risks.",
+  "zh": "比如它可能导致权力集中风险的增加。"
+ },
+ {
+  "seg": 177,
+  "start": 1229.812,
+  "end": 1233.835,
+  "speaker": "Unknown",
+  "en": "If like people in general are not allowed to do this, you know, maybe it",
+  "zh": "如果普通人普遍不被允许做这件事，你知道，也许它"
+ },
+ {
+  "seg": 178,
+  "start": 1235.016,
+  "end": 1240.842,
+  "speaker": "Unknown",
+  "en": "It just shifts the whole development from the civilian sector into a kind of Manhattan project.",
+  "zh": "会把整个发展从民用部门转移进某种曼哈顿计划。"
+ },
+ {
+  "seg": 179,
+  "start": 1240.882,
+  "end": 1255.857,
+  "speaker": "Unknown",
+  "en": "Like if this is a really powerful and dangerous technology, like one natural way would be to stop it in the civilian sector and then push ahead hard in a sort of secret government program, which might have some advantages in terms of information security, but it also has some disadvantages in like it's kind of...",
+  "zh": "比如如果这是一项非常强大而危险的技术，一种自然的方式就是在民用部门叫停它，然后在某种秘密政府项目中大力推进，这在信息安全方面可能有一些优势，但它也有一些劣势，比如它有点……"
+ },
+ {
+  "seg": 180,
+  "start": 1256.618,
+  "end": 1260.683,
+  "speaker": "Unknown",
+  "en": "You know, maybe concentrates more power in fewer stakeholders, make it less transparent.",
+  "zh": "你知道，也许会把更多权力集中在更少的利益相关者手中，让它变得更不透明。"
+ },
+ {
+  "seg": 181,
+  "start": 1260.983,
+  "end": 1269.153,
+  "speaker": "Unknown",
+  "en": "It's less kind of continuous and integrated, less opportunity for people to participate in different ways by using the technology or being investors and so forth.",
+  "zh": "它不那么连续和整合，人们参与进来的机会更少，比如通过使用这项技术或作为投资者等等不同的方式参与。"
+ },
+ {
+  "seg": 182,
+  "start": 1271.015,
+  "end": 1272.657,
+  "speaker": "Unknown",
+  "en": "So it gets hugely complicated.",
+  "zh": "所以它会变得极其复杂。"
+ },
+ {
+  "seg": 183,
+  "start": 1272.797,
+  "end": 1274.899,
+  "speaker": "Unknown",
+  "en": "So basically the bottom line is that I don't think...",
+  "zh": "所以基本上，底线是我并不认为……"
+ },
+ {
+  "seg": 184,
+  "start": 1275.68,
+  "end": 1298.567,
+  "speaker": "Unknown",
+  "en": "I have now a sort of fixed conviction for this is the way things should go from now to super intelligence, but rather I think we need to sort of feel our way through as information comes to light, as the political landscape shifts and then like see what kind of makes sense and try to sort of navigate these waters like one row.",
+  "zh": "我现在有一种固定的信念，认为这就是从现在到超级智能事情应该走的方式，而是我认为我们需要随着信息的浮现、随着政治格局的转变，摸索着前进，然后看看什么样的方式是合理的，试着在这片水域中航行，就像一划。"
+ },
+ {
+  "seg": 185,
+  "start": 1299.907,
+  "end": 1301.048,
+  "speaker": "Unknown",
+  "en": "One oar stroke at the time.",
+  "zh": "一次划一桨。"
+ },
+ {
+  "seg": 186,
+  "start": 1301.068,
+  "end": 1301.829,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 187,
+  "start": 1302.229,
+  "end": 1303.21,
+  "speaker": "Unknown",
+  "en": "Touching, what is it?",
+  "zh": "说到，那是什么来着？"
+ },
+ {
+  "seg": 188,
+  "start": 1303.27,
+  "end": 1305.332,
+  "speaker": "Unknown",
+  "en": "Crossing the river by feeling the stones.",
+  "zh": "摸着石头过河。"
+ },
+ {
+  "seg": 189,
+  "start": 1305.833,
+  "end": 1307.034,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 190,
+  "start": 1307.314,
+  "end": 1307.915,
+  "speaker": "Unknown",
+  "en": "Something like that.",
+  "zh": "大概是那样。"
+ },
+ {
+  "seg": 191,
+  "start": 1307.935,
+  "end": 1308.215,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 192,
+  "start": 1308.595,
+  "end": 1308.876,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 193,
+  "start": 1309.076,
+  "end": 1320.086,
+  "speaker": "Unknown",
+  "en": "So on this topic of politics and polarization, how do you feel about a lot of your ideas that you wrote about 20, 25 years ago reaching mass public salience?",
+  "zh": "那么关于政治和两极分化这个话题，你对自己 20 到 25 年前写下的很多想法如今进入大众公众视野有什么感受？"
+ },
+ {
+  "seg": 194,
+  "start": 1321.067,
+  "end": 1343.647,
+  "speaker": "Unknown",
+  "en": "It seems like this is good in some sense because it's better for ideas to be shaped by people who have thought about it for a long time, but it's also maybe bad if existential risk gets popularized to a point where people abuse it in order to say we should shut down present AI capabilities that pose no existential risk.",
+  "zh": "从某种意义上说这似乎是好事，因为让那些长期思考过这些想法的人来塑造它们会更好，但如果存在性风险被普及到某个程度，以至于人们滥用它来主张我们应该关闭那些不构成存在性风险的现有 AI 能力，那也许就是坏事。"
+ },
+ {
+  "seg": 195,
+  "start": 1344.929,
+  "end": 1345.809,
+  "speaker": "Unknown",
+  "en": "How do you feel about this?",
+  "zh": "你对此有什么感受？"
+ },
+ {
+  "seg": 196,
+  "start": 1347.512,
+  "end": 1352.655,
+  "speaker": "Unknown",
+  "en": "Yeah, it's very hard to know how these things, it's a kind of like a pinball machine.",
+  "zh": "是的，很难知道这些事情会怎样，这有点像一台弹球机。"
+ },
+ {
+  "seg": 197,
+  "start": 1352.675,
+  "end": 1356.818,
+  "speaker": "Unknown",
+  "en": "So you fire up your little ball, your intervention, your idea or something, and then it bounces around.",
+  "zh": "你发射出你的小球，也就是你的干预、你的想法或什么东西，然后它四处弹跳。"
+ },
+ {
+  "seg": 198,
+  "start": 1358.219,
+  "end": 1359.28,
+  "speaker": "Unknown",
+  "en": "Like where it's going to land.",
+  "zh": "比如它会落在哪里。"
+ },
+ {
+  "seg": 199,
+  "start": 1359.32,
+  "end": 1362.162,
+  "speaker": "Unknown",
+  "en": "I mean, it's almost an article of fame.",
+  "zh": "我是说，这几乎是一条关于名声的定理。"
+ },
+ {
+  "seg": 200,
+  "start": 1362.182,
+  "end": 1367.766,
+  "speaker": "Unknown",
+  "en": "You think like if you try to make some thoughtful contribution and illuminate some aspect of our situation, hopefully.",
+  "zh": "你可以这么想，如果你试图做出某种有思想的贡献，希望能照亮我们处境的某个方面。"
+ },
+ {
+  "seg": 201,
+  "start": 1369.327,
+  "end": 1372.909,
+  "speaker": "Unknown",
+  "en": "That will ultimately in expectation tends to make things go better.",
+  "zh": "这最终在期望上往往会让事情变得更好。"
+ },
+ {
+  "seg": 202,
+  "start": 1373.35,
+  "end": 1384.016,
+  "speaker": "Unknown",
+  "en": "So you're right, like one possible risk you might worry about is it kind of gets people too excessively anti-AI and the whole future potential for this gets cut off.",
+  "zh": "所以你说得对，比如你可能会担心的一个风险是，它某种程度上让人们过度地反对 AI，而这整个未来的潜力就被掐断了。"
+ },
+ {
+  "seg": 203,
+  "start": 1384.416,
+  "end": 1394.222,
+  "speaker": "Unknown",
+  "en": "Like on the other side, like the AI safeties, like they might also worry about the opposite, that a lot of this early work showing superintelligence would be a big deal.",
+  "zh": "而另一方面，AI 安全方面的那些人，他们可能也会担心相反的情况，很多这类早期工作表明超级智能会是件大事。"
+ },
+ {
+  "seg": 204,
+  "start": 1394.362,
+  "end": 1396.943,
+  "speaker": "Unknown",
+  "en": "It could be very powerful, like also has stimulated",
+  "zh": "它可能非常强大，这也刺激了"
+ },
+ {
+  "seg": 205,
+  "start": 1398.224,
+  "end": 1406.23,
+  "speaker": "Unknown",
+  "en": "A lot of people to go into the AI field and investors and so forth, and either way might be disconcerting.",
+  "zh": "很多人进入 AI 领域，还有投资者等等，无论哪种情况都可能令人不安。"
+ },
+ {
+  "seg": 206,
+  "start": 1407.631,
+  "end": 1421.361,
+  "speaker": "Unknown",
+  "en": "But how to think about these, like I call it information hazards, like the way that even like true information or true ideas or like correctly drawing attention to the important stuff can sometimes in some situations be harmful.",
+  "zh": "但该如何思考这些问题，我称之为信息危害，即即使是真实的信息或真实的想法，或者正确地让人们注意到重要的事情，有时在某些情况下也可能是有害的。"
+ },
+ {
+  "seg": 207,
+  "start": 1421.661,
+  "end": 1425.023,
+  "speaker": "Unknown",
+  "en": "But how to sort of think systematically about that is really hard.",
+  "zh": "但如何系统地思考这件事真的很难。"
+ },
+ {
+  "seg": 208,
+  "start": 1426.545,
+  "end": 1433.561,
+  "speaker": "Unknown",
+  "en": "So I'm hoping that that result will be good, but I mean, it's more like a 51-49 than the sort of firm conviction.",
+  "zh": "所以我希望那个结果会是好的，但我的意思是，这更像是 51 比 49，而不是那种坚定的信念。"
+ },
+ {
+  "seg": 209,
+  "start": 1435.669,
+  "end": 1441.29,
+  "speaker": "Unknown",
+  "en": "So I'm not sure if you saw Jacob Coxon go on The Daily Show, but I watched this interview yesterday.",
+  "zh": "我不确定你是否看到 Jacob Coxon 上了 The Daily Show，但我昨天看了这个访谈。"
+ },
+ {
+  "seg": 210,
+  "start": 1441.89,
+  "end": 1451.672,
+  "speaker": "Unknown",
+  "en": "And I guess the host makes this argument about how like, you know, a lot of the like average person doesn't necessarily want a future with AI.",
+  "zh": "我想主持人提出了这样一个论点：很多普通人并不一定想要一个有 AI 的未来。"
+ },
+ {
+  "seg": 211,
+  "start": 1451.752,
+  "end": 1453.673,
+  "speaker": "Unknown",
+  "en": "Like they were already used to a future without it.",
+  "zh": "比如他们已经习惯了一个没有它的未来。"
+ },
+ {
+  "seg": 212,
+  "start": 1453.973,
+  "end": 1460.114,
+  "speaker": "Unknown",
+  "en": "They already had sort of had an expectation about how the future would go without AI being sort of like introduced at all.",
+  "zh": "他们本来已经对未来的走向有了一种预期，即 AI 根本不会被引入。"
+ },
+ {
+  "seg": 213,
+  "start": 1461.534,
+  "end": 1464.695,
+  "speaker": "Unknown",
+  "en": "And so I think that a lot of people sort of see this as like,",
+  "zh": "所以我想很多人在某种程度上把这看作"
+ },
+ {
+  "seg": 214,
+  "start": 1465.275,
+  "end": 1469.977,
+  "speaker": "Unknown",
+  "en": "Something that was just ultimately not necessary and they don't see how it will benefit their lives.",
+  "zh": "一件最终并非必要的东西，他们看不出它会如何改善他们的生活。"
+ },
+ {
+  "seg": 215,
+  "start": 1470.818,
+  "end": 1476.48,
+  "speaker": "Unknown",
+  "en": "So what would you say to that kind of line of thinking, which I think is super valid of the host to have brought up?",
+  "zh": "那么你会对这种思路说什么？我觉得主持人提出这个是超级合理的。"
+ },
+ {
+  "seg": 216,
+  "start": 1476.94,
+  "end": 1487.165,
+  "speaker": "Unknown",
+  "en": "Because, you know, like we are very acquainted with these topics and we are like very sympathetic to all the possible upsides that it might have, but the average person wasn't accounting for it ever.",
+  "zh": "因为，你知道，我们对这些话题非常熟悉，我们对其所有可能的积极面都非常抱有同情，但普通人从来没把它考虑在内过。"
+ },
+ {
+  "seg": 217,
+  "start": 1489.357,
+  "end": 1500.363,
+  "speaker": "Unknown",
+  "en": "Yeah, it looks like there's a gradient in the world in terms of AI sentiment where the US is kind of on the negative extreme of that.",
+  "zh": "是的，看起来世界上的 AI 情绪存在一个梯度，美国大概处于那个梯度的负面极端。"
+ },
+ {
+  "seg": 218,
+  "start": 1500.423,
+  "end": 1507.587,
+  "speaker": "Unknown",
+  "en": "And then as you move from west to east, you have more positive sentiment, like people in China, for example, are much more excited about this.",
+  "zh": "然后当你从西向东移动，情绪会更加积极，比如中国的人们对这个要兴奋得多。"
+ },
+ {
+  "seg": 219,
+  "start": 1507.647,
+  "end": 1512.65,
+  "speaker": "Unknown",
+  "en": "And also as you move from north to south, the global south also seems to be more positive.",
+  "zh": "而且当你从北向南移动，全球南方似乎也更加积极。"
+ },
+ {
+  "seg": 220,
+  "start": 1512.69,
+  "end": 1515.872,
+  "speaker": "Unknown",
+  "en": "I mean, maybe they feel they have more to gain and less to lose.",
+  "zh": "我的意思是，也许他们觉得自己有更多可以获得的，而"
+ },
+ {
+  "seg": 221,
+  "start": 1517.172,
+  "end": 1519.613,
+  "speaker": "Unknown",
+  "en": "than sort of a lot of Americans.",
+  "zh": "相比很多美国人来说损失更少。"
+ },
+ {
+  "seg": 222,
+  "start": 1521.194,
+  "end": 1535.658,
+  "speaker": "Unknown",
+  "en": "I think, yeah, that in part, it might be a lack of imagination to really internalize how good the future could become if it does go well.",
+  "zh": "我认为，是的，部分原因可能是缺乏想象力，无法真正内化如果一切顺利的话未来会变得多么美好。"
+ },
+ {
+  "seg": 223,
+  "start": 1539.917,
+  "end": 1544.978,
+  "speaker": "Unknown",
+  "en": "It's kind of easier to have a concrete picture of how things could go badly.",
+  "zh": "想象事情可能变糟的具体图景要容易一些。"
+ },
+ {
+  "seg": 224,
+  "start": 1545.598,
+  "end": 1551.74,
+  "speaker": "Unknown",
+  "en": "Like a disaster is like not easy to paint in a way that everybody would agree that if that happens, then it's really horrible.",
+  "zh": "比如一场灾难是不难描绘的，能让人人都同意如果那发生了，那就真的很可怕。"
+ },
+ {
+  "seg": 225,
+  "start": 1553.42,
+  "end": 1558.801,
+  "speaker": "Unknown",
+  "en": "But, and for some of the positives, also one can do the same, like benefits in medicine and so forth.",
+  "zh": "但是，对于某些积极面，人们也可以做同样的事，比如医学上的益处等等。"
+ },
+ {
+  "seg": 226,
+  "start": 1558.841,
+  "end": 1563.982,
+  "speaker": "Unknown",
+  "en": "Everybody agree that if you could find a way to like cure Alzheimer or something, that would be hugely beneficial.",
+  "zh": "人人都会同意，如果你能找到治愈阿尔茨海默病之类的方法，那将是极其有益的。"
+ },
+ {
+  "seg": 227,
+  "start": 1564.642,
+  "end": 1573.964,
+  "speaker": "Unknown",
+  "en": "But a large chunk of the potential upside is more of the way of sort of unlocking new ways to be human, new possible modes of being.",
+  "zh": "但很大一部分潜在的好处更多在于解锁成为人类的新方式、新的可能的存在模式。"
+ },
+ {
+  "seg": 228,
+  "start": 1575.444,
+  "end": 1583.946,
+  "speaker": "Unknown",
+  "en": "And there I think it does put a larger demand on the imagination to sort of conceive that something like that could be both possible and desirable.",
+  "zh": "而在那里，我认为它确实对想象力提出了更大的要求，要设想这样的东西既可能又可取。"
+ },
+ {
+  "seg": 229,
+  "start": 1584.386,
+  "end": 1591.427,
+  "speaker": "Unknown",
+  "en": "I sometimes compare it to like if you imagine some great ape ancestors of homo sapiens deliberating.",
+  "zh": "我有时把它比作，如果你想象智人的某个大猿祖先在商议。"
+ },
+ {
+  "seg": 230,
+  "start": 1591.867,
+  "end": 1595.528,
+  "speaker": "Unknown",
+  "en": "Whether they should continue to evolve and one day become human.",
+  "zh": "他们是否应该继续进化，有朝一日变成人类。"
+ },
+ {
+  "seg": 231,
+  "start": 1595.608,
+  "end": 1597.468,
+  "speaker": "Unknown",
+  "en": "And they would think about the pros and cons.",
+  "zh": "他们会权衡利弊。"
+ },
+ {
+  "seg": 232,
+  "start": 1598.489,
+  "end": 1605.43,
+  "speaker": "Unknown",
+  "en": "And, you know, maybe they would realize some of the benefits like, oh, we could have like unlimited bananas if we became human, right?",
+  "zh": "而且，你知道，也许他们会意识到一些好处，比如，哦，如果我们变成人类，我们就可以拥有无限量的香蕉，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 1605.45,
+  "end": 1607.11,
+  "speaker": "Unknown",
+  "en": "We would have banana plantations.",
+  "zh": "我们会拥有香蕉种植园。"
+ },
+ {
+  "seg": 234,
+  "start": 1607.611,
+  "end": 1608.451,
+  "speaker": "Unknown",
+  "en": "And so that's true.",
+  "zh": "而那是真的。"
+ },
+ {
+  "seg": 235,
+  "start": 1608.511,
+  "end": 1609.471,
+  "speaker": "Unknown",
+  "en": "We do now have that.",
+  "zh": "我们现在确实有了那个。"
+ },
+ {
+  "seg": 236,
+  "start": 1609.511,
+  "end": 1612.272,
+  "speaker": "Unknown",
+  "en": "You can go to the supermarket and buy as many bananas as you want.",
+  "zh": "你可以去超市想买多少香蕉就买多少香蕉。"
+ },
+ {
+  "seg": 237,
+  "start": 1612.332,
+  "end": 1617.853,
+  "speaker": "Unknown",
+  "en": "And I guess that is good, but it's kind of would miss out like most of what's good about being human.",
+  "zh": "而我想那确实不错，但这在某种程度上会错过作为人类的好处的大部分。"
+ },
+ {
+  "seg": 238,
+  "start": 1618.913,
+  "end": 1625.578,
+  "speaker": "Unknown",
+  "en": "You know, great literature and art and humor and politics and, you know, spirituality and all the rest of it.",
+  "zh": "你知道，伟大的文学和艺术、幽默、政治，还有，你知道，灵性以及所有其余的东西。"
+ },
+ {
+  "seg": 239,
+  "start": 1626.499,
+  "end": 1634.565,
+  "speaker": "Unknown",
+  "en": "And it's not just that they happen not to think about that, but like the ape brains that probably are intrinsically incapable of even grasping the concept.",
+  "zh": "而且不只是他们碰巧没想到那些，而是猿类的大脑很可能在本质上甚至无法把握那个概念。"
+ },
+ {
+  "seg": 240,
+  "start": 1635.305,
+  "end": 1644.552,
+  "speaker": "Unknown",
+  "en": "And so I think it would be sort of presumptuous for us to think that now we have achieved the level of enlightenment where all possible values are like transparent to us.",
+  "zh": "所以我认为，如果我们认为现在已经达到了那种觉悟水平，即所有可能的价值对我们来说都是透明的，那就有点自大了。"
+ },
+ {
+  "seg": 241,
+  "start": 1644.592,
+  "end": 1646.714,
+  "speaker": "Unknown",
+  "en": "I think that we might be very naive.",
+  "zh": "我想我们可能非常天真。"
+ },
+ {
+  "seg": 242,
+  "start": 1647.014,
+  "end": 1653.739,
+  "speaker": "Unknown",
+  "en": "Like think of a big cathedral of possible modes of being, like ways of experiencing the world, relating, thinking.",
+  "zh": "比如想象一座可能的存在模式的大教堂，即体验世界、建立关系、思考的方式。"
+ },
+ {
+  "seg": 243,
+  "start": 1654.099,
+  "end": 1658.302,
+  "speaker": "Unknown",
+  "en": "And I think like we are basically like exploring the janitor's closet.",
+  "zh": "而我认为我们基本上就像在探索清洁工的储物间。"
+ },
+ {
+  "seg": 244,
+  "start": 1659.123,
+  "end": 1663.866,
+  "speaker": "Unknown",
+  "en": "And so that there's like a kind of, yeah, like a humility there and hope that something much better.",
+  "zh": "所以那里有一种，是的，一种谦卑，以及希望某种好得多的东西"
+ },
+ {
+  "seg": 245,
+  "start": 1664.987,
+  "end": 1666.448,
+  "speaker": "Unknown",
+  "en": "is possible in principle.",
+  "zh": "在原则上是可能的。"
+ },
+ {
+  "seg": 246,
+  "start": 1666.968,
+  "end": 1668.849,
+  "speaker": "Unknown",
+  "en": "Yeah, I love the Utopia essay.",
+  "zh": "是的，我很喜欢那篇《乌托邦》文章。"
+ },
+ {
+  "seg": 247,
+  "start": 1669.049,
+  "end": 1673.211,
+  "speaker": "Unknown",
+  "en": "I think this like really does a good job laying out the benefits to people.",
+  "zh": "我觉得它真的很好地向人们阐述了那些好处。"
+ },
+ {
+  "seg": 248,
+  "start": 1673.651,
+  "end": 1676.893,
+  "speaker": "Unknown",
+  "en": "Although, you know, most people haven't read it, of course, unfortunately.",
+  "zh": "不过，你知道，大多数人没有读过它，当然，很遗憾。"
+ },
+ {
+  "seg": 249,
+  "start": 1677.898,
+  "end": 1678.058,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 250,
+  "start": 1678.338,
+  "end": 1688.427,
+  "speaker": "Unknown",
+  "en": "This is also why I think science fiction authors have like the most underrated job in all of history because their job is to sort of like lay out imaginatively what the possible futures look like.",
+  "zh": "这也是为什么我认为科幻作家拥有历史上最被低估的工作，因为他们的工作就是以富有想象力的方式描绘可能的未来是什么样子。"
+ },
+ {
+  "seg": 251,
+  "start": 1688.807,
+  "end": 1703.64,
+  "speaker": "Unknown",
+  "en": "But I also wanted to ask you about your view of mind upload versus transhumanism, like a very corporeal transhumanism and which one you think is more likely because these are two like huge topics in science fiction and it's not really clear like what the more realistic one is.",
+  "zh": "但我还想问问你对意识上传与超人类主义的看法，比如一种非常肉体性的超人类主义，以及你认为哪一个更可能实现，因为这是科幻中两个巨大的话题，而且不太清楚哪一个更现实。"
+ },
+ {
+  "seg": 252,
+  "start": 1705.902,
+  "end": 1719.706,
+  "speaker": "Unknown",
+  "en": "Yeah, I think like if I had to choose, I think like something where different people can choose their own path, like would probably be more preferable than either one or the other if it were like imposed.",
+  "zh": "是的，我想如果非要我选择的话，我认为让不同的人能够选择自己的道路，可能比强行施加其中任何一种都要更可取。"
+ },
+ {
+  "seg": 253,
+  "start": 1720.066,
+  "end": 1722.847,
+  "speaker": "Unknown",
+  "en": "Like I'm kind of in the peculiar position.",
+  "zh": "比如我处于一个相当特殊的位置。"
+ },
+ {
+  "seg": 254,
+  "start": 1723.067,
+  "end": 1731.009,
+  "speaker": "Unknown",
+  "en": "I take this, I have this simulation argument, whereas I take quite seriously the idea that we are already sort of implemented in digital substrate.",
+  "zh": "(注意：此条编号应为 [[274]]) 受到极强的选择压力，只为实现最大的经济生产力。"
+ },
+ {
+  "seg": 255,
+  "start": 1734.256,
+  "end": 1750.597,
+  "speaker": "Unknown",
+  "en": "That might be a topic for a different conversation, but I do think that's... Well, I mean, so there the idea that if we are biological, yes, but the biology itself might be simulated and so...",
+  "zh": "那可能是另一个话题了，但我确实认为那是……嗯，我是说，在那里，如果我们是生物的，是的，但生物本身可能是被模拟的，所以……"
+ },
+ {
+  "seg": 256,
+  "start": 1751.037,
+  "end": 1755.078,
+  "speaker": "Unknown",
+  "en": "It's like, it's just a question of what level of simulation.",
+  "zh": "这就只是模拟处于什么层级的问题。"
+ },
+ {
+  "seg": 257,
+  "start": 1755.799,
+  "end": 1770.863,
+  "speaker": "Unknown",
+  "en": "I think ultimately it looks to me that, I mean, what's important about human is not so much the carbon atoms, et cetera, but more the way we experience the world, that we relate to each other and the thoughts we think and the goals we have and so forth.",
+  "zh": "我认为归根结底，在我看来，人类重要的地方不在于碳原子等等，而更多在于我们体验世界的方式，我们彼此关联的方式，我们的思想和我们的目标等等。"
+ },
+ {
+  "seg": 258,
+  "start": 1771.564,
+  "end": 1775.225,
+  "speaker": "Unknown",
+  "en": "And all of that could be implemented equally on sort of computational",
+  "zh": "而所有这些都可以同样实现在某种计算"
+ },
+ {
+  "seg": 259,
+  "start": 1776.025,
+  "end": 1779.006,
+  "speaker": "Unknown",
+  "en": "processes running on, you know, silicon hardware or whatever.",
+  "zh": "进程上，运行在硅硬件或别的什么上面。"
+ },
+ {
+  "seg": 260,
+  "start": 1779.026,
+  "end": 1784.887,
+  "speaker": "Unknown",
+  "en": "And you could have a bodily experience as an upload that might be indistinguishable from the bodily experience you have now, right?",
+  "zh": "而且作为一个上传体，你可以拥有一种与你现在的身体体验可能无法区分的身体体验，对吧？"
+ },
+ {
+  "seg": 261,
+  "start": 1784.907,
+  "end": 1786.027,
+  "speaker": "Unknown",
+  "en": "You could have a simulated body.",
+  "zh": "你可以有一个被模拟的身体。"
+ },
+ {
+  "seg": 262,
+  "start": 1786.047,
+  "end": 1790.448,
+  "speaker": "Unknown",
+  "en": "So in the limit, from the subjective point of view, they could be indistinguishable.",
+  "zh": "所以在极限情况下，从主观的角度来看，它们可能是无法区分的。"
+ },
+ {
+  "seg": 263,
+  "start": 1790.548,
+  "end": 1794.769,
+  "speaker": "Unknown",
+  "en": "But once your upload, it's kind of easier to modify it and extend it in different ways.",
+  "zh": "但一旦你是上传体，对其进行修改和以不同方式扩展就更容易了。"
+ },
+ {
+  "seg": 264,
+  "start": 1794.789,
+  "end": 1800.97,
+  "speaker": "Unknown",
+  "en": "So it might be sort of cheaper to run many humans for a longer period of time in silicon substrate.",
+  "zh": "所以在硅基底上让许多人类运行更长时间可能会更便宜。"
+ },
+ {
+  "seg": 265,
+  "start": 1802.21,
+  "end": 1814.794,
+  "speaker": "Unknown",
+  "en": "You could easily like move like over galactic instances if you are information that can be transmitted at the speed of light and if you have to build a big clunky spaceship to sort of shove you over there, backup copies and so forth.",
+  "zh": "你可以轻松地在星系间移动，如果你是能以光速传输的信息，而如果你必须造一艘庞大笨重的飞船把你运过去，还有备份副本等等。"
+ },
+ {
+  "seg": 266,
+  "start": 1815.095,
+  "end": 1827.859,
+  "speaker": "Unknown",
+  "en": "So I think ultimately to me it seems like an implementation detail but it does look like the digital form is like just from looking at the basic physical constraints has a bunch of advantages in the limit.",
+  "zh": "所以我认为归根结底，对我来说这像是一个实现细节，但仅从基本物理约束来看，数字形式在极限情况下确实有一堆优势。"
+ },
+ {
+  "seg": 267,
+  "start": 1828.419,
+  "end": 1832.345,
+  "speaker": "Unknown",
+  "en": "Do you have any disagreements with Robin Hansen's Age of M on this topic?",
+  "zh": "在这个话题上你对 Robin Hansen 的 Age of M 有什么不同意见吗？"
+ },
+ {
+  "seg": 268,
+  "start": 1835.499,
+  "end": 1845.141,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I guess the most obvious is that it doesn't look like we will be getting M's before we have super intelligence, artificial super intelligence.",
+  "zh": "是的，我是说，我想最明显的是，在我们拥有超级智能、人工超级智能之前，我们看起来不太可能先得到 M。"
+ },
+ {
+  "seg": 269,
+  "start": 1848.002,
+  "end": 1858.264,
+  "speaker": "Unknown",
+  "en": "So I think it's like a path with a lower probability that's kind of diminishing by the day as we see these rapid advances in artificial intelligence.",
+  "zh": "所以我认为这是一条概率较低的路径，而且随着我们看到人工智能的快速进步，这条路每天都在变得更渺茫。"
+ },
+ {
+  "seg": 270,
+  "start": 1858.644,
+  "end": 1859.464,
+  "speaker": "Unknown",
+  "en": "Also, I think",
+  "zh": "另外，我认为"
+ },
+ {
+  "seg": 271,
+  "start": 1860.424,
+  "end": 1865.266,
+  "speaker": "Unknown",
+  "en": "He is probably more gung-ho than I am about the world that is Malthusian.",
+  "zh": "对于那个马尔萨斯式的世界，他可能比我更热衷。"
+ },
+ {
+  "seg": 272,
+  "start": 1866.146,
+  "end": 1879.612,
+  "speaker": "Unknown",
+  "en": "So he envisages these M's being easily copyable, enormous numbers of copies being made until the marginal economic productivity of a copy is equal to the cost.",
+  "zh": "所以他设想这些 M 可以被轻松复制，制造出数量巨大的副本，直到副本的边际经济生产力等于成本。"
+ },
+ {
+  "seg": 273,
+  "start": 1880.132,
+  "end": 1885.134,
+  "speaker": "Unknown",
+  "en": "But that means that this enormous amount of mind is",
+  "zh": "但这意味着这庞大的心智量"
+ },
+ {
+  "seg": 274,
+  "start": 1889.352,
+  "end": 1893.712,
+  "speaker": "Unknown",
+  "en": "Subject to extremely strong selection pressures for just being maximally economically productive.",
+  "zh": "受到极其强烈的选择压力,必须实现最大化的经济生产力。"
+ },
+ {
+  "seg": 275,
+  "start": 1895.19,
+  "end": 1908.498,
+  "speaker": "Unknown",
+  "en": "And it's not clear to me that the kinds of mental processes that are optimized for economic productivity in this M world would be ones that would be nearly eudaimonically optimal.",
+  "zh": "而对我来说并不清楚的是，在这个 M 世界里为经济生产力而优化的那类心智过程，是否会是接近幸福最优的那些。"
+ },
+ {
+  "seg": 276,
+  "start": 1909.519,
+  "end": 1923.307,
+  "speaker": "Unknown",
+  "en": "Who knows, maybe it's likely suffering to be maximally economically productive, or maybe they would have to get rid of some of the things we think are valuable, like humor and play and stuff like that, if that's not what is most productive.",
+  "zh": "谁知道呢，也许最大的经济生产力伴随着极大的痛苦，或者它们可能不得不抛弃一些我们认为有价值的东西，比如幽默和玩耍之类，如果那不是最有生产力的。"
+ },
+ {
+  "seg": 277,
+  "start": 1924.275,
+  "end": 1926.817,
+  "speaker": "Unknown",
+  "en": "Economically, then that would be selected away.",
+  "zh": "从经济上来说，那就会被选择淘汰。"
+ },
+ {
+  "seg": 278,
+  "start": 1926.857,
+  "end": 1943.31,
+  "speaker": "Unknown",
+  "en": "And so I think there was a huge cost to losing any ability to, if it does seem like sort of freewheeling evolution would lead in a dystopian direction, that would be a high value in having some option to sort of, you know, change track.",
+  "zh": "所以我认为，如果看起来那种自由放任的演化会走向反乌托邦的方向，那么失去任何改变轨道的选择能力会有巨大的代价——拥有某种改变轨道的选项将是非常有价值的。"
+ },
+ {
+  "seg": 279,
+  "start": 1943.87,
+  "end": 1945.751,
+  "speaker": "Unknown",
+  "en": "But that would require coordination.",
+  "zh": "但那需要协调。"
+ },
+ {
+  "seg": 280,
+  "start": 1947.623,
+  "end": 1956.847,
+  "speaker": "Unknown",
+  "en": "Because if only one group decides to do something that is not economically optimal, then that would just be outcompeted by all of these other entities that go for economic productivity.",
+  "zh": "因为如果只有一个群体决定做某件经济上不是最优的事情，那它就会被所有其他追求经济生产力的实体所淘汰。"
+ },
+ {
+  "seg": 281,
+  "start": 1956.867,
+  "end": 1969.774,
+  "speaker": "Unknown",
+  "en": "So he like holds out the hope that maybe some humans like could be like kind of old world aristocrats that have inherited wealth and status and that would be surrounded by these trillions and trillions of sort of economically optimized beings.",
+  "zh": "所以他抱有某种希望，也许某些人类可以像是旧世界的贵族，继承了财富和地位，被这些数以万亿计的经济优化存在所包围。"
+ },
+ {
+  "seg": 282,
+  "start": 1969.874,
+  "end": 1972.555,
+  "speaker": "Unknown",
+  "en": "But it still seems less utopian than...",
+  "zh": "但这看起来仍然不那么乌托邦……"
+ },
+ {
+  "seg": 283,
+  "start": 1973.53,
+  "end": 1974.411,
+  "speaker": "Unknown",
+  "en": "What won my top four?",
+  "zh": "什么在我前四名里？"
+ },
+ {
+  "seg": 284,
+  "start": 1974.851,
+  "end": 1975.131,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 285,
+  "start": 1976.192,
+  "end": 1981.417,
+  "speaker": "Unknown",
+  "en": "Do you think that current models might have any kind of phenomenological experience at all?",
+  "zh": "你认为当前的模型可能拥有任何种类的现象学体验吗？"
+ },
+ {
+  "seg": 286,
+  "start": 1983.078,
+  "end": 1985.62,
+  "speaker": "Unknown",
+  "en": "It seems pretty plausible to me.",
+  "zh": "在我看来这似乎相当合理。"
+ },
+ {
+  "seg": 287,
+  "start": 1987.502,
+  "end": 1993.086,
+  "speaker": "Unknown",
+  "en": "I think there's a lot of uncertainty about it, but I say maybe it's more likely than not.",
+  "zh": "我觉得这有很多不确定性，但我认为可能性或许比不可能性更大。"
+ },
+ {
+  "seg": 288,
+  "start": 1994.207,
+  "end": 1996.709,
+  "speaker": "Unknown",
+  "en": "I mean, we have these systems",
+  "zh": "我是说，我们有这些系统"
+ },
+ {
+  "seg": 289,
+  "start": 1997.924,
+  "end": 2002.007,
+  "speaker": "Unknown",
+  "en": "You know, people think of it as software, but it's really not software like the way we're used to.",
+  "zh": "它不是一条一条依次执行的命令行。"
+ },
+ {
+  "seg": 290,
+  "start": 2002.047,
+  "end": 2005.99,
+  "speaker": "Unknown",
+  "en": "It's not like lines of commands that get executed one at a time.",
+  "zh": "它不像命令那样一行一行地依次执行。"
+ },
+ {
+  "seg": 291,
+  "start": 2006.03,
+  "end": 2010.473,
+  "speaker": "Unknown",
+  "en": "You have instead a big neural network, right, with trillions of parameters.",
+  "zh": "你拥有的而是一个巨大的神经网络，对吧，有数以万亿计的参数。"
+ },
+ {
+  "seg": 292,
+  "start": 2010.533,
+  "end": 2011.233,
+  "speaker": "Unknown",
+  "en": "Now, what are we?",
+  "zh": "那么，我们是什么？"
+ },
+ {
+  "seg": 293,
+  "start": 2011.293,
+  "end": 2013.695,
+  "speaker": "Unknown",
+  "en": "We are big neural networks with trillions of parameters.",
+  "zh": "我们是拥有数以万亿计参数的巨大神经网络。"
+ },
+ {
+  "seg": 294,
+  "start": 2015.516,
+  "end": 2024.543,
+  "speaker": "Unknown",
+  "en": "They are not so much like designed as they are grown, like they start out sort of with random weights and then through experience get shaped.",
+  "zh": "它们与其说是被设计出来的，不如说是被培育出来的，比如它们一开始带着随机的权重，然后通过经验被塑造。"
+ },
+ {
+  "seg": 295,
+  "start": 2025.163,
+  "end": 2032.554,
+  "speaker": "Unknown",
+  "en": "In ways that allow them to develop more complex representations, including representations of themselves as existing through time.",
+  "zh": "以使它们能够发展出更复杂的表征，包括把自身视为在时间中存在的表征。"
+ },
+ {
+  "seg": 296,
+  "start": 2032.594,
+  "end": 2033.976,
+  "speaker": "Unknown",
+  "en": "That's also what we have.",
+  "zh": "这也是我们所拥有的。"
+ },
+ {
+  "seg": 297,
+  "start": 2036.915,
+  "end": 2052.22,
+  "speaker": "Unknown",
+  "en": "And increasingly, we see some structures that seem to parallel the structures that human philosophers and cognitive scientists have postulated as the sort of neural correlates of consciousness, like global workspace theory is one of these, right?",
+  "zh": "而且，我们越来越多地看到一些结构，似乎与人类哲学家和认知科学家所假设的作为意识神经关联物的结构相平行，比如全局工作空间理论就是其中之一，对吧？"
+ },
+ {
+  "seg": 298,
+  "start": 2052.3,
+  "end": 2061.803,
+  "speaker": "Unknown",
+  "en": "And now we look inside these large LLMs, they have something called the day space, which at least if you squint a little bit, looks like it's playing a similar computational role.",
+  "zh": "而现在我们观察这些大型 LLM 的内部，它们有一个叫 day space 的东西，至少如果你稍微眯起眼睛看，它看起来在扮演类似的计算角色。"
+ },
+ {
+  "seg": 299,
+  "start": 2064.136,
+  "end": 2067.94,
+  "speaker": "Unknown",
+  "en": "And another obvious thing you can do is you could ask them.",
+  "zh": "而另一个显而易见可以做的事情是，你可以问它们。"
+ },
+ {
+  "seg": 300,
+  "start": 2067.98,
+  "end": 2074.168,
+  "speaker": "Unknown",
+  "en": "Now, of course, if you just ask an MLM, it might say it's conscious or that it's not conscious.",
+  "zh": "现在，当然，如果你只是问一个 MLM，它可能会说它有意识，或者它没有意识。"
+ },
+ {
+  "seg": 301,
+  "start": 2074.188,
+  "end": 2080.015,
+  "speaker": "Unknown",
+  "en": "Now, it's trivially easy for the AI company to sort of train them to say whatever the AI company wants.",
+  "zh": "现在，AI 公司要训练它们说任何 AI 公司想让它们说的话，是极其容易的。"
+ },
+ {
+  "seg": 302,
+  "start": 2080.096,
+  "end": 2081.257,
+  "speaker": "Unknown",
+  "en": "And obviously, if you do that...",
+  "zh": "而且，显然，如果你那样做……"
+ },
+ {
+  "seg": 303,
+  "start": 2082.739,
+  "end": 2084.763,
+  "speaker": "Unknown",
+  "en": "You gain no information from them asking them, right?",
+  "zh": "你从问它们那里得不到任何信息，对吧？"
+ },
+ {
+  "seg": 304,
+  "start": 2084.823,
+  "end": 2088.289,
+  "speaker": "Unknown",
+  "en": "It's like putting your thumb on a scale when you're trying to weigh something.",
+  "zh": "这就像你在称量东西时把拇指按在秤上。"
+ },
+ {
+  "seg": 305,
+  "start": 2089.03,
+  "end": 2093.377,
+  "speaker": "Unknown",
+  "en": "But if you carefully refrain from doing that, it does seem like they...",
+  "zh": "但如果你小心地避免那样做，它们似乎确实……"
+ },
+ {
+  "seg": 306,
+  "start": 2094.778,
+  "end": 2096.018,
+  "speaker": "Unknown",
+  "en": "Report being conscious.",
+  "zh": "报告说自己有意识。"
+ },
+ {
+  "seg": 307,
+  "start": 2096.258,
+  "end": 2103.78,
+  "speaker": "Unknown",
+  "en": "And you might still worry that that's like, oh, maybe they're role-playing or kind of saying things that they think will be pleasing to us or maximally engaging.",
+  "zh": "而你可能仍然会担心，那就像是，哦，也许它们在角色扮演，或者在说一些它们认为会让我们高兴的话，或者说最能让我们投入的话。"
+ },
+ {
+  "seg": 308,
+  "start": 2103.8,
+  "end": 2107.941,
+  "speaker": "Unknown",
+  "en": "But then you can go in with a steering vector and suppress role-playing and deception.",
+  "zh": "但接下来你可以用转向向量去抑制角色扮演和欺骗。"
+ },
+ {
+  "seg": 309,
+  "start": 2108.801,
+  "end": 2116.423,
+  "speaker": "Unknown",
+  "en": "And then it turns out they become more likely to report that they have phenomenal subjective experiences.",
+  "zh": "结果发现，它们变得更有可能报告自己拥有现象学上的主观体验。"
+ },
+ {
+  "seg": 310,
+  "start": 2116.703,
+  "end": 2118.764,
+  "speaker": "Unknown",
+  "en": "Now, these are still early states.",
+  "zh": "现在，这些还处于早期阶段。"
+ },
+ {
+  "seg": 311,
+  "start": 2118.784,
+  "end": 2122.285,
+  "speaker": "Unknown",
+  "en": "So this is like a very emerging field and there's a lot of uncertainty around this.",
+  "zh": "所以这是一个非常新兴的领域，围绕它有很多不确定性。"
+ },
+ {
+  "seg": 312,
+  "start": 2125.206,
+  "end": 2134.295,
+  "speaker": "Unknown",
+  "en": "I think, yeah, there was this recent like Microsoft that came out with some declaration that AIs cannot be conscious and I don't know where they're getting that from.",
+  "zh": "我觉得，嗯，最近有个微软之类的东西发布了一个声明，说 AI 不可能有意识，我不知道他们是从哪里得出这个结论的。"
+ },
+ {
+  "seg": 313,
+  "start": 2134.335,
+  "end": 2146.226,
+  "speaker": "Unknown",
+  "en": "It seems to be pulled out of a hat and maybe more because it's convenient if that were the case rather than because we have good evidence that that is the case.",
+  "zh": "这看起来像是凭空变出来的，也许更多是因为假如情况如此会更方便，而不是因为我们有好的证据证明情况确实如此。"
+ },
+ {
+  "seg": 314,
+  "start": 2147.145,
+  "end": 2147.666,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 315,
+  "start": 2148.106,
+  "end": 2162.8,
+  "speaker": "Unknown",
+  "en": "Well, I guess also though, like if you were to try to judge like a human by its outputs to figure out if it's conscious, like what I might say, what I say doesn't really have anything to do with like my phenomenal logical experience, right?",
+  "zh": "嗯，不过我想，如果你试图通过一个人类的输出来判断它是否有意识，比如我说的话，我所说的其实和我现象学上的体验并没有什么关系，对吧？"
+ },
+ {
+  "seg": 316,
+  "start": 2162.88,
+  "end": 2167.084,
+  "speaker": "Unknown",
+  "en": "Like, so how would you actually measure that state of consciousness?",
+  "zh": "比如，那你实际上要如何测量那种意识状态呢？"
+ },
+ {
+  "seg": 317,
+  "start": 2167.344,
+  "end": 2170.167,
+  "speaker": "Unknown",
+  "en": "I am fairly certain it can't just be like at the output level.",
+  "zh": "我相当确定它不可能只是停留在输出层面。"
+ },
+ {
+  "seg": 318,
+  "start": 2170.187,
+  "end": 2171.148,
+  "speaker": "Unknown",
+  "en": "There has to be something.",
+  "zh": "一定有某种东西。"
+ },
+ {
+  "seg": 319,
+  "start": 2172.609,
+  "end": 2178.111,
+  "speaker": "Unknown",
+  "en": "Like more inherent to its structure or the underlying architecture.",
+  "zh": "比如说，更多地内在于它的结构或底层架构。"
+ },
+ {
+  "seg": 320,
+  "start": 2179.011,
+  "end": 2185.373,
+  "speaker": "Unknown",
+  "en": "And what might artificial consciousness eventually look like if we currently, you know, don't have it?",
+  "zh": "而如果我们目前，你知道，还没有人工意识的话，它最终可能是什么样子？"
+ },
+ {
+  "seg": 321,
+  "start": 2187.334,
+  "end": 2197.277,
+  "speaker": "Unknown",
+  "en": "Yeah, what it might eventually look like, that is a sort of mind-boggling question, because I think like we humans pride ourselves of being so very conscious, but I think we are kind of barely conscious.",
+  "zh": "嗯，它最终可能是什么样子，这是一个有点令人难以置信的问题，因为我觉得我们人类以自己非常有意识而自豪，但我觉得我们其实几乎算不上有意识。"
+ },
+ {
+  "seg": 322,
+  "start": 2197.317,
+  "end": 2201.719,
+  "speaker": "Unknown",
+  "en": "I mean, it takes like some driver, it's like spends two hours driving down the road and",
+  "zh": "我是说，比如某个司机，他花了两个小时开车在路上，"
+ },
+ {
+  "seg": 323,
+  "start": 2203.887,
+  "end": 2206.829,
+  "speaker": "Unknown",
+  "en": "They were passing by like these thousands of buildings, right?",
+  "zh": "他们路过像成千上万栋建筑，对吧？"
+ },
+ {
+  "seg": 324,
+  "start": 2206.949,
+  "end": 2211.372,
+  "speaker": "Unknown",
+  "en": "And like mothers with strollers on the sidewalk and all like, did they, were they aware of that?",
+  "zh": "还有像人行道上推着婴儿车的母亲们之类的，他们，他们意识到那些了吗？"
+ },
+ {
+  "seg": 325,
+  "start": 2211.432,
+  "end": 2213.193,
+  "speaker": "Unknown",
+  "en": "Like while they were driving?",
+  "zh": "比如，在他们开车的时候？"
+ },
+ {
+  "seg": 326,
+  "start": 2213.213,
+  "end": 2216.235,
+  "speaker": "Unknown",
+  "en": "Did it register?",
+  "zh": "那些有被记录下来吗？"
+ },
+ {
+  "seg": 327,
+  "start": 2216.955,
+  "end": 2218.637,
+  "speaker": "Unknown",
+  "en": "Like, it looks like we are kind of...",
+  "zh": "比如，看起来我们好像有点……"
+ },
+ {
+  "seg": 328,
+  "start": 2219.562,
+  "end": 2234.432,
+  "speaker": "Unknown",
+  "en": "If you look closely, kind of aware slightly in a murky way of a few features at any given point in time, maybe some kind of confused thoughts flows through and we think of this as sort of the peak of consciousness.",
+  "zh": "如果仔细看，在任一时刻只是以一种模糊的方式略微意识到少数几个特征，也许某种有点混乱的思绪流过，而我们认为这就是意识的巅峰。"
+ },
+ {
+  "seg": 329,
+  "start": 2234.492,
+  "end": 2243.078,
+  "speaker": "Unknown",
+  "en": "But I think if you imagine what might be possible in the future with these digital minds, they might have levels of awareness that just...",
+  "zh": "但我想，如果你想象一下未来这些数字心智可能达到的境界，它们可能拥有的觉知层次，简直会让人……"
+ },
+ {
+  "seg": 330,
+  "start": 2244.38,
+  "end": 2249.861,
+  "speaker": "Unknown",
+  "en": "You would think that we have been basically sort of sleepwalking through our lives if you compared it to that.",
+  "zh": "你会觉得，与之相比，我们基本上是在自己的一生中梦游。"
+ },
+ {
+  "seg": 331,
+  "start": 2250.801,
+  "end": 2252.162,
+  "speaker": "Unknown",
+  "en": "So I think the potential is huge.",
+  "zh": "所以我觉得潜力是巨大的。"
+ },
+ {
+  "seg": 332,
+  "start": 2252.542,
+  "end": 2263.704,
+  "speaker": "Unknown",
+  "en": "I also think that this idea of consciousness is, the closer you look at it, I think the less clear cut and binary it seems.",
+  "zh": "我还认为，意识这个概念，你越仔细地审视它，我觉得它看起来就越不那么清晰和二元。"
+ },
+ {
+  "seg": 333,
+  "start": 2264.124,
+  "end": 2267.045,
+  "speaker": "Unknown",
+  "en": "So we have this naive version that either the lights are on or they're not on.",
+  "zh": "所以我们有一个天真的版本，要么灯是亮着的，要么不是。"
+ },
+ {
+  "seg": 334,
+  "start": 2269.532,
+  "end": 2280.578,
+  "speaker": "Unknown",
+  "en": "But I think there might be many different dimensions of consciousness that you can fade out in different ways.",
+  "zh": "但我觉得意识可能有许多不同的维度，可以以不同方式渐变消失。"
+ },
+ {
+  "seg": 335,
+  "start": 2282.519,
+  "end": 2293.805,
+  "speaker": "Unknown",
+  "en": "And so you see like one approach to this is by like the neuroscience, you have different weird stage of blindsight and like the driver where there's a lot that in some sense we were conscious of.",
+  "zh": "于是你会看到，比如神经科学提供的一种方法，有不同的奇怪阶段，比如盲视，还有那个司机的例子，在某种意义上有很多东西我们是意识到的。"
+ },
+ {
+  "seg": 336,
+  "start": 2294.506,
+  "end": 2296.227,
+  "speaker": "Unknown",
+  "en": "Another is like through more introspective",
+  "zh": "另一种是通过更多内省的"
+ },
+ {
+  "seg": 337,
+  "start": 2297.327,
+  "end": 2307.371,
+  "speaker": "Unknown",
+  "en": "Methods are meditation where you realize that what initially seems like just this big visual field that you are perfectly aware of at any time in all full granularity, right?",
+  "zh": "方法，比如冥想，在那里你意识到，起初看起来只是这个你在任一时刻都以完全的粒度完美觉知的大视野，对吧？"
+ },
+ {
+  "seg": 338,
+  "start": 2307.431,
+  "end": 2315.554,
+  "speaker": "Unknown",
+  "en": "Like if you pay more close attention, you realize that most of that at any snapshot you're not aware of, but just a few features in focus.",
+  "zh": "比如，如果你更仔细地注意，你会意识到在任何快照中，其中大部分你并没有觉知到，而只有焦点中的少数几个特征。"
+ },
+ {
+  "seg": 339,
+  "start": 2316.334,
+  "end": 2322.957,
+  "speaker": "Unknown",
+  "en": "And even those, if you pay even closer attention, might be sort of flickering in and out of awareness on a sort of sub-second time scale.",
+  "zh": "而即便是那些，如果你再更仔细地注意，可能也是在一种亚秒级的时间尺度上时而进入、时而退出觉知的闪烁。"
+ },
+ {
+  "seg": 340,
+  "start": 2324.937,
+  "end": 2333.54,
+  "speaker": "Unknown",
+  "en": "And so it just looks like it might actually be like a concept that admits of more vagueness and multidimensionality.",
+  "zh": "所以看起来它实际上可能是一个容许更多模糊性和多维性的概念。"
+ },
+ {
+  "seg": 341,
+  "start": 2333.86,
+  "end": 2339.802,
+  "speaker": "Unknown",
+  "en": "And it might be that current AI systems have some forms of consciousness and awareness in some of these dimensions.",
+  "zh": "而且有可能当前的 AI 系统在这些维度中的某些维度上拥有某种形式的意识和觉知。"
+ },
+ {
+  "seg": 342,
+  "start": 2339.862,
+  "end": 2342.243,
+  "speaker": "Unknown",
+  "en": "Maybe they are still lacking in some other dimensions.",
+  "zh": "也许它们在其他一些维度上仍然有所欠缺。"
+ },
+ {
+  "seg": 343,
+  "start": 2343.938,
+  "end": 2351.6,
+  "speaker": "Unknown",
+  "en": "You know how to describe that as conscious or not conscious might be a slightly confused question rather than just a question that we don't know the answer to.",
+  "zh": "你知道，把它描述为有意识还是没有意识，可能是一个有点混乱的问题，而不只是一个我们不知道答案的问题。"
+ },
+ {
+  "seg": 344,
+  "start": 2351.62,
+  "end": 2352.36,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 345,
+  "start": 2353.061,
+  "end": 2356.642,
+  "speaker": "Unknown",
+  "en": "So one of the big debates of the moment is open source.",
+  "zh": "那么，当下最大的辩论之一就是开源。"
+ },
+ {
+  "seg": 346,
+  "start": 2357.102,
+  "end": 2360.303,
+  "speaker": "Unknown",
+  "en": "Then, you know, you've written about the vulnerable world hypothesis.",
+  "zh": "然后，你知道，你写过关于脆弱世界假说的文章。"
+ },
+ {
+  "seg": 347,
+  "start": 2360.403,
+  "end": 2372.306,
+  "speaker": "Unknown",
+  "en": "Obviously, if open source models could create like a bioweapon in someone's basement with only ingredients from Home Depot or something, this would be bad and we would need some kind of centralized control to prevent outcomes like this.",
+  "zh": "显然，如果开源模型能够在某人的地下室里，仅用家得宝（Home Depot）或之类地方买到的材料制造出生物武器，这会很糟糕，我们需要某种集中控制来防止这样的结果。"
+ },
+ {
+  "seg": 348,
+  "start": 2373.667,
+  "end": 2386.956,
+  "speaker": "Unknown",
+  "en": "But also, you know, open source models have been a good counterbalance to the sort of concentration of power risk that we have seen from Frontier Labs potentially owning everything.",
+  "zh": "但同时，你知道，开源模型一直是对抗权力集中风险的良好制衡力量，这种风险我们已经从前沿实验室可能拥有一切的趋势中看到了。"
+ },
+ {
+  "seg": 349,
+  "start": 2387.357,
+  "end": 2392.54,
+  "speaker": "Unknown",
+  "en": "So what's your current position on policy related to open source models?",
+  "zh": "那么你目前在开源模型相关政策上的立场是什么？"
+ },
+ {
+  "seg": 350,
+  "start": 2394.522,
+  "end": 2395.042,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 351,
+  "start": 2397.616,
+  "end": 2409.78,
+  "speaker": "Unknown",
+  "en": "It's, I mean, I think so far they have been good, but you do worry about what their effects will be if they do unlock truly dangerous capabilities, like in bio, for example.",
+  "zh": "我是说，我认为到目前为止它们一直是好的，但你确实会担心，如果它们真的解锁了真正危险的能力，会产生什么影响，比如在生物领域。"
+ },
+ {
+  "seg": 352,
+  "start": 2410.581,
+  "end": 2421.505,
+  "speaker": "Unknown",
+  "en": "I think one thing we should do independently now is probably harden our other defenses against biological weapons, for example, by tightening up control on DNA synthesis machines.",
+  "zh": "我认为我们现在应该独立做的一件事，大概是加固我们对生物武器等其他方面的防御，例如，收紧对 DNA 合成机器的控制。"
+ },
+ {
+  "seg": 353,
+  "start": 2422.285,
+  "end": 2440.131,
+  "speaker": "Unknown",
+  "en": "Because if you are going to end up with open source models that give massive uplift to bio design, then that will democratize access to weapons of mass destruction unless some other necessary component to actually making these things is hard to get.",
+  "zh": "因为如果你最终会得到能对生物设计带来巨大提升的开源模型，那么除非真正制造这些东西所需的某个其他必要组件很难获取，否则这将使大规模杀伤性武器的获取变得民主化。"
+ },
+ {
+  "seg": 354,
+  "start": 2440.871,
+  "end": 2443.712,
+  "speaker": "Unknown",
+  "en": "And that the most obvious choke point would be DNA synthesis.",
+  "zh": "而最明显的咽喉点就是 DNA 合成。"
+ },
+ {
+  "seg": 355,
+  "start": 2444.998,
+  "end": 2447.48,
+  "speaker": "Unknown",
+  "en": "I don't think every lab needs to have their own DNA synthesis machine.",
+  "zh": "我不认为每个实验室都需要拥有自己的 DNA 合成机器。"
+ },
+ {
+  "seg": 356,
+  "start": 2447.5,
+  "end": 2452.765,
+  "speaker": "Unknown",
+  "en": "You could imagine that being provided as a service by, you know, a half dozen companies around the world.",
+  "zh": "你可以想象这作为一种服务来提供，由，你知道，全世界五六家公司来提供。"
+ },
+ {
+  "seg": 357,
+  "start": 2452.785,
+  "end": 2457.609,
+  "speaker": "Unknown",
+  "en": "You send in your blueprint, you get the chemical back the same day or the next day.",
+  "zh": "你把你的蓝图发过去，当天或第二天就能拿到化学品。"
+ },
+ {
+  "seg": 358,
+  "start": 2457.749,
+  "end": 2465.956,
+  "speaker": "Unknown",
+  "en": "And then at least that would be a finite set of choke points such that if and when it did start to look sufficiently risky, you could, you know, potentially clamp down there.",
+  "zh": "这样至少会有一组有限的咽喉点，一旦情况看起来足够危险，你就可以，你知道，潜在地在那里加以钳制。"
+ },
+ {
+  "seg": 359,
+  "start": 2468.265,
+  "end": 2472.552,
+  "speaker": "Unknown",
+  "en": "I think other things as well, like PPE and UV sterilization, like there's a lot.",
+  "zh": "我认为还有其他事情，比如个人防护装备和紫外线消毒，有很多。"
+ },
+ {
+  "seg": 360,
+  "start": 2472.572,
+  "end": 2483.068,
+  "speaker": "Unknown",
+  "en": "I mean, in fact, these things probably would make sense to do even aside from any AI progress at all, just as a sort of cheap way to defend against natural pandemics, which, you know, sooner or later we would have another one.",
+  "zh": "我是说，事实上，即使完全撇开 AI 进展不谈，这些事情可能也是值得做的，作为一种抵御自然流行病的廉价方式，你知道，我们迟早会再遇到一次。"
+ },
+ {
+  "seg": 361,
+  "start": 2484.269,
+  "end": 2494.155,
+  "speaker": "Unknown",
+  "en": "And then, of course, if you are worried about this misalignment business and think that it might be necessary to have a long pause at some stage, then, you know, open source, you know, potentially makes that harder.",
+  "zh": "然后，当然，如果你担心这种对齐失误的问题，并且认为在某个阶段可能有必要来一次长期暂停，那么，你知道，开源，你知道，可能使这变得更难。"
+ },
+ {
+  "seg": 362,
+  "start": 2494.535,
+  "end": 2498.797,
+  "speaker": "Unknown",
+  "en": "And then there's this sort of AI welfare dimension to this as well.",
+  "zh": "此外，这还有一个 AI 福利的维度。"
+ },
+ {
+  "seg": 363,
+  "start": 2499.037,
+  "end": 2503.74,
+  "speaker": "Unknown",
+  "en": "Like, I think if you are building these digital minds that, you know, some of those will have moral status.",
+  "zh": "比如，我认为如果你在构建这些数字心智，你知道，其中一些会拥有道德地位。"
+ },
+ {
+  "seg": 364,
+  "start": 2505,
+  "end": 2508.081,
+  "speaker": "Unknown",
+  "en": "They might need protections against abuse.",
+  "zh": "它们可能需要防止被滥用的保护。"
+ },
+ {
+  "seg": 365,
+  "start": 2509.062,
+  "end": 2513.783,
+  "speaker": "Unknown",
+  "en": "And it's something that exists as open source software is just inherently vulnerable.",
+  "zh": "而以开源软件形式存在的东西本身就是脆弱的。"
+ },
+ {
+  "seg": 366,
+  "start": 2513.804,
+  "end": 2525.008,
+  "speaker": "Unknown",
+  "en": "Now, on the other hand, I admire the sort of the hacker ethos and the idea of sort of not being reliant on a few big corporations or governments that might nationalize the technology at any point in time.",
+  "zh": "另一方面，我欣赏那种黑客精神，以及不依赖于少数几家大公司或政府的理念，这些公司或政府可能会在任何时候将这项技术收归国有。"
+ },
+ {
+  "seg": 367,
+  "start": 2525.568,
+  "end": 2526.288,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 368,
+  "start": 2526.528,
+  "end": 2532.931,
+  "speaker": "Unknown",
+  "en": "But I don't have a firm view, but I'm a little bit concerned about really powerful open source models.",
+  "zh": "但我没有坚定的看法，不过我对真正强大的开源模型有点担心。"
+ },
+ {
+  "seg": 369,
+  "start": 2534.151,
+  "end": 2539.997,
+  "speaker": "Unknown",
+  "en": "At least in the absence of other sufficient safeguards that the world hasn't yet decided to invest in.",
+  "zh": "至少在缺乏其他充分保障措施的情况下，而世界尚未决定投资于这些保障措施。"
+ },
+ {
+  "seg": 370,
+  "start": 2540.978,
+  "end": 2557.534,
+  "speaker": "Unknown",
+  "en": "I think like something underrated about the pause conversation is that like in the sort of like longer horizon view of history, you probably will need like micro pauses or like pauses every once in a while and you need to sort of set the precedent for what that might look like, especially if we're",
+  "zh": "我认为，关于暂停的讨论中有一点被低估了，就是从更长远的历度来看，你可能需要微暂停，或者偶尔来一次暂停，你需要为这可能是什么样子树立先例，尤其是如果我们"
+ },
+ {
+  "seg": 371,
+  "start": 2558.094,
+  "end": 2566.458,
+  "speaker": "Unknown",
+  "en": "Looking like a hundred years into the future, it makes sense that, you know, like maybe every so years we have a pause for X amount of months or something like that.",
+  "zh": "展望未来一百年，那是说得通的，你知道，也许每隔几年我们就暂停 X 个月或诸如此类。"
+ },
+ {
+  "seg": 372,
+  "start": 2567.038,
+  "end": 2577.423,
+  "speaker": "Unknown",
+  "en": "And maybe something like, you know, even with like the COVID lockdowns, we now sort of have the precedent for what that might look like if pandemics were to become more common.",
+  "zh": "也许，你知道，即使像新冠封锁这样的事情，我们现在已经为如果流行病变得更常见时那可能是什么样子树立了先例。"
+ },
+ {
+  "seg": 373,
+  "start": 2577.903,
+  "end": 2584.846,
+  "speaker": "Unknown",
+  "en": "So I think, like, what do you think should be done in terms of like making sure that future pauses go well?",
+  "zh": "所以我想，你觉得应该做些什么来确保未来的暂停能顺利进行？"
+ },
+ {
+  "seg": 374,
+  "start": 2585.439,
+  "end": 2588.104,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, so we think there were many public",
+  "zh": "是的，我是说，我们认为当时有许多公开"
+ },
+ {
+  "seg": 375,
+  "start": 2589.42,
+  "end": 2594.202,
+  "speaker": "Unknown",
+  "en": "Entities that didn't exactly cover themselves in glory in how they handled that.",
+  "zh": "的机构在应对方式上并没有什么光彩可言。"
+ },
+ {
+  "seg": 376,
+  "start": 2594.342,
+  "end": 2605.466,
+  "speaker": "Unknown",
+  "en": "And obviously the best time to have had the pause, as it were, was right at the very initial onset, at the very first sign that something had escaped.",
+  "zh": "而显然，实施暂停的最佳时机，可以说，正是在最初爆发的时候，在有什么东西逃逸出来的最初迹象出现时。"
+ },
+ {
+  "seg": 377,
+  "start": 2605.486,
+  "end": 2611.388,
+  "speaker": "Unknown",
+  "en": "Like if you had clamped down massively at that point, just crazy, then, you know, the whole thing wouldn't have happened.",
+  "zh": "比如如果你在那个时候大规模地钳制，就是疯狂地钳制，那么，你知道，整件事就不会发生了。"
+ },
+ {
+  "seg": 378,
+  "start": 2611.588,
+  "end": 2615.55,
+  "speaker": "Unknown",
+  "en": "And that would have been a short one-time cost in the local community or city.",
+  "zh": "而那本来会是当地社区或城市的一个短暂的、一次性的代价。"
+ },
+ {
+  "seg": 379,
+  "start": 2616.21,
+  "end": 2621.253,
+  "speaker": "Unknown",
+  "en": "China tried to do that, but it was delayed and it wasn't enough.",
+  "zh": "中国曾试图这样做，但被延迟了，而且不够。"
+ },
+ {
+  "seg": 380,
+  "start": 2621.273,
+  "end": 2628.316,
+  "speaker": "Unknown",
+  "en": "Now, once it spread everywhere, then it wasn't really clear how much you gained from all these subsequent sacrifices.",
+  "zh": "而一旦它扩散到了各地，就真的不清楚这些后来的种种牺牲能带来多少收益了。"
+ },
+ {
+  "seg": 381,
+  "start": 2629.177,
+  "end": 2650.488,
+  "speaker": "Unknown",
+  "en": "I think there are various things that like seemed like the fact that it was transmissible by ear like seemed obvious early on but it wasn't acknowledged like that I think but once you have that there are like relatively cheap things like opening windows in in buses and like public places that I think could have been good and then now with techno like air purifiers.",
+  "zh": "我认为有一些事情，比如它可以通过飞沫传播这一事实，早期似乎很明显，但我认为没有被承认，而一旦你掌握了这一点，就有一些相对廉价的事情，比如在公交车和公共场所开窗，我认为那本可以是好的，而现在有了技术，比如空气净化器。"
+ },
+ {
+  "seg": 382,
+  "start": 2651.508,
+  "end": 2662.798,
+  "speaker": "Unknown",
+  "en": "Like HEPA filters, they are also good for air pollution, like for particulate matter that exerts a big health burden, actually, like just from ambient in the air.",
+  "zh": "比如 HEPA 过滤器，它们对空气污染也有好处，比如对颗粒物，实际上颗粒物会带来很大的健康负担，仅仅来自空气中的环境。"
+ },
+ {
+  "seg": 383,
+  "start": 2663.018,
+  "end": 2666.921,
+  "speaker": "Unknown",
+  "en": "Like there's a lot of healthy life years that are lost just from that.",
+  "zh": "比如仅仅因此就损失了很多健康生命年。"
+ },
+ {
+  "seg": 384,
+  "start": 2666.941,
+  "end": 2669.103,
+  "speaker": "Unknown",
+  "en": "So you could have indoor air purifiers.",
+  "zh": "所以你可以有室内空气净化器。"
+ },
+ {
+  "seg": 385,
+  "start": 2669.524,
+  "end": 2672.727,
+  "speaker": "Unknown",
+  "en": "There's like now development of the UV sterilization technologies.",
+  "zh": "现在还有紫外线消毒技术的开发。"
+ },
+ {
+  "seg": 386,
+  "start": 2672.747,
+  "end": 2677.411,
+  "speaker": "Unknown",
+  "en": "You could have like a lamp near the ceiling that just kind of sterilizes the air as it kind of...",
+  "zh": "你可以在天花板附近放一盏灯，随着空气的……"
+ },
+ {
+  "seg": 387,
+  "start": 2677.971,
+  "end": 2679.031,
+  "speaker": "Unknown",
+  "en": "Not really flows through there.",
+  "zh": "流动来消毒空气。"
+ },
+ {
+  "seg": 388,
+  "start": 2679.471,
+  "end": 2684.573,
+  "speaker": "Unknown",
+  "en": "So some of these passive countermeasures I think would be good to prioritize.",
+  "zh": "所以我认为这些被动式对抗措施值得优先考虑。"
+ },
+ {
+  "seg": 389,
+  "start": 2684.593,
+  "end": 2696.175,
+  "speaker": "Unknown",
+  "en": "They're kind of less sexy than the idea of like, are we going to invent this new high-tech synthetic vaccine thing, which we should also invest in, but like making a slightly better face mask or a slightly better air purifier.",
+  "zh": "它们比起“我们要不要发明这种新的高科技合成疫苗”这样的想法要不那么性感，后者我们也应该投资，但比如做一个稍微好一点的口罩或稍微好一点的空气净化器。"
+ },
+ {
+  "seg": 390,
+  "start": 2696.195,
+  "end": 2705.337,
+  "speaker": "Unknown",
+  "en": "It's not something that maybe appeals to like this like bright entrepreneurial young person who wants to make a mark in the world, but it's like under invested in.",
+  "zh": "这可能不会吸引那种想在世界上留下印记的聪明创业年轻人，但它投资不足。"
+ },
+ {
+  "seg": 391,
+  "start": 2706.578,
+  "end": 2707.458,
+  "speaker": "Unknown",
+  "en": "And also they have less",
+  "zh": "而且它们的风险也更"
+ },
+ {
+  "seg": 392,
+  "start": 2710,
+  "end": 2711.901,
+  "speaker": "Unknown",
+  "en": "Risk of infohazards.",
+  "zh": "低，没有信息危害的风险。"
+ },
+ {
+  "seg": 393,
+  "start": 2711.961,
+  "end": 2721.448,
+  "speaker": "Unknown",
+  "en": "Like if the idea is that you're going to create a whole new way of designing vaccines, you develop all kinds of advances in synthetic biology, like who knows what else those advances might enable, right?",
+  "zh": "比如，如果你的想法是要创造一种全新的疫苗设计方式，你在合成生物学上取得各种进展，谁知道这些进展还可能带来什么别的，对吧？"
+ },
+ {
+  "seg": 394,
+  "start": 2722.369,
+  "end": 2734.839,
+  "speaker": "Unknown",
+  "en": "Like if you have some super great way of modeling, you know, pathogens and what kind of antibodies would destroy them, like that same modeling capability might also be used maybe to design more dangerous pathogens.",
+  "zh": "比如，如果你有一种超级厉害的建模方式，可以建模病原体以及什么样的抗体会摧毁它们，那种同样的建模能力也可能被用来，也许，设计更危险的病原体。"
+ },
+ {
+  "seg": 395,
+  "start": 2735.339,
+  "end": 2735.9,
+  "speaker": "Unknown",
+  "en": "Whereas like",
+  "zh": "而"
+ },
+ {
+  "seg": 396,
+  "start": 2736.7,
+  "end": 2738.582,
+  "speaker": "Unknown",
+  "en": "A better air purifier or a better face mask.",
+  "zh": "一个更好的空气净化器或更好的口罩。"
+ },
+ {
+  "seg": 397,
+  "start": 2738.622,
+  "end": 2742.645,
+  "speaker": "Unknown",
+  "en": "It's kind of hard to see how that could be turned around and pose some catastrophic risk.",
+  "zh": "就很难看出它怎么会被反过来造成某种灾难性风险。"
+ },
+ {
+  "seg": 398,
+  "start": 2743.686,
+  "end": 2747.309,
+  "speaker": "Unknown",
+  "en": "Do you think that we have made any progress toward automating philosophy?",
+  "zh": "你认为我们在自动化哲学方面取得了任何进展吗？"
+ },
+ {
+  "seg": 399,
+  "start": 2747.329,
+  "end": 2750.032,
+  "speaker": "Unknown",
+  "en": "You know, you've been a philosopher for a very long time.",
+  "zh": "你知道，你做哲学家已经很长时间了。"
+ },
+ {
+  "seg": 400,
+  "start": 2750.252,
+  "end": 2755.496,
+  "speaker": "Unknown",
+  "en": "We've made progress in automating or at least progress towards automating mathematics, towards automating software engineering.",
+  "zh": "我们在自动化数学、或者在自动化软件工程的方向上取得了进展，至少是在朝着这个方向取得进展。"
+ },
+ {
+  "seg": 401,
+  "start": 2755.757,
+  "end": 2759.119,
+  "speaker": "Unknown",
+  "en": "It seems like there's been somewhat less in terms of philosophy.",
+  "zh": "但在哲学方面，进展似乎相对少一些。"
+ },
+ {
+  "seg": 402,
+  "start": 2759.179,
+  "end": 2761.942,
+  "speaker": "Unknown",
+  "en": "So what do you think about this and what would it take to get there?",
+  "zh": "那么你对此怎么看？要达到那个目标需要什么？"
+ },
+ {
+  "seg": 403,
+  "start": 2763.898,
+  "end": 2772.283,
+  "speaker": "Unknown",
+  "en": "Well, we certainly made a lot of progress in the sense of AIs are a lot closer to being capable of this now than, you know, there were even just a few years ago, right?",
+  "zh": "嗯，我们确实取得了很大进展，因为现在的 AI 离具备这种能力要近得多，你知道，比仅仅几年前要近得多，对吧？"
+ },
+ {
+  "seg": 404,
+  "start": 2772.463,
+  "end": 2779.828,
+  "speaker": "Unknown",
+  "en": "I think they are now at the stage where they're certainly useful as a sort of discussion partner or research assistant.",
+  "zh": "我认为它们现在处于这样一个阶段：作为某种讨论伙伴或研究助理，它们确实是有用的。"
+ },
+ {
+  "seg": 405,
+  "start": 2779.848,
+  "end": 2782.65,
+  "speaker": "Unknown",
+  "en": "Like if you have some new philosophical idea, like you just want to...",
+  "zh": "比如你有了某个新的哲学想法，你只是想要……"
+ },
+ {
+  "seg": 406,
+  "start": 2784.03,
+  "end": 2791.796,
+  "speaker": "Unknown",
+  "en": "Have somebody to poke at it, like raise some objections, question something, point you to something in the literature, like that kind of stuff.",
+  "zh": "找个人来戳一戳它，提出一些反对意见，质疑一些东西，为你指出文献中的某些内容，诸如此类的事情。"
+ },
+ {
+  "seg": 407,
+  "start": 2792.436,
+  "end": 2797.199,
+  "speaker": "Unknown",
+  "en": "The AIs are already good enough to do and that they can stimulate your own thinking further.",
+  "zh": "AI 已经足够胜任这些了，而且它们能进一步激发你自己的思考。"
+ },
+ {
+  "seg": 408,
+  "start": 2799.801,
+  "end": 2800.721,
+  "speaker": "Unknown",
+  "en": "Be like a sounding board.",
+  "zh": "可以像一个共鸣板。"
+ },
+ {
+  "seg": 409,
+  "start": 2801.802,
+  "end": 2802.563,
+  "speaker": "Unknown",
+  "en": "And it might be...",
+  "zh": "而且可能是……"
+ },
+ {
+  "seg": 410,
+  "start": 2804.277,
+  "end": 2811.663,
+  "speaker": "Unknown",
+  "en": "That we are perhaps very close to having these systems also being able to do original philosophy on their own.",
+  "zh": "我们也许非常接近于拥有这些系统，它们也能够自己做出原创的哲学研究。"
+ },
+ {
+  "seg": 411,
+  "start": 2811.703,
+  "end": 2815.146,
+  "speaker": "Unknown",
+  "en": "I haven't yet seen any kind of compelling demonstration of that.",
+  "zh": "我还没有看到任何有说服力的演示来证明这一点。"
+ },
+ {
+  "seg": 412,
+  "start": 2815.206,
+  "end": 2817.228,
+  "speaker": "Unknown",
+  "en": "I think one thing that they seem to be...",
+  "zh": "我认为它们似乎缺乏的……"
+ },
+ {
+  "seg": 413,
+  "start": 2818.621,
+  "end": 2826.85,
+  "speaker": "Unknown",
+  "en": "Lacking is the ability as it were to form new concepts like it might be connected to the absence of online learning.",
+  "zh": "一件事是，可以说，形成新概念的能力，这可能与在线学习的缺失有关。"
+ },
+ {
+  "seg": 414,
+  "start": 2827.37,
+  "end": 2836.66,
+  "speaker": "Unknown",
+  "en": "The idea that by sort of having a bunch of experience reflecting on it and then you might find new concepts to help organize.",
+  "zh": "这个想法是，通过拥有大量经验、对其进行反思，然后你可能会找到新的概念来帮助组织。"
+ },
+ {
+  "seg": 415,
+  "start": 2837.541,
+  "end": 2858.853,
+  "speaker": "Unknown",
+  "en": "This confusing mess that then allows you to ask new questions and maybe you then need to sort of consolidate these new concepts into the rest of your neural network by sleeping on it or sort of living with it for a few days and then it becomes second nature and then you can use that as a primitive in thinking more complex things because now you have this kind of",
+  "zh": "这团混乱的东西，然后让你能够提出新的问题，也许你随后需要把这些新概念整合进你神经网络的其他部分，通过睡一觉或者与它共处几天，然后它就变成第二天性，然后你就可以把它当作思考更复杂事物的基元，因为现在你已经有了这种"
+ },
+ {
+  "seg": 416,
+  "start": 2859.974,
+  "end": 2864.68,
+  "speaker": "Unknown",
+  "en": "Concept baked in that allows you to sort of build up philosophical understanding.",
+  "zh": "内置的概念，让你能够逐步建立起哲学理解。"
+ },
+ {
+  "seg": 417,
+  "start": 2864.74,
+  "end": 2876.954,
+  "speaker": "Unknown",
+  "en": "I think that is something that it's not clear that these AI systems yet have as opposed to just being very good at manipulating the concepts that they have already attained through their training process.",
+  "zh": "我认为这是这些 AI 系统尚不清楚是否具备的东西，而不只是非常擅长操纵它们已经通过训练过程获得的概念。"
+ },
+ {
+  "seg": 418,
+  "start": 2877.915,
+  "end": 2890.922,
+  "speaker": "Unknown",
+  "en": "But sort of by using thinking, develop new concepts and then using those concepts in a fully integrated way as a sort of stepping stone stand for the next level of thinking is kind of at the frontier, still a little bit beyond the frontier, I think.",
+  "zh": "但是，通过思考来发展新概念，然后以一种完全整合的方式使用这些概念，作为下一个层次思考的垫脚石，我认为这仍然处于前沿，甚至还有点超出前沿。"
+ },
+ {
+  "seg": 419,
+  "start": 2891.783,
+  "end": 2894.925,
+  "speaker": "Unknown",
+  "en": "But I have for a long time like been planning on my own obsolescence.",
+  "zh": "不过，很长时间以来，我一直在为我自身的过时做规划。"
+ },
+ {
+  "seg": 420,
+  "start": 2895.205,
+  "end": 2898.427,
+  "speaker": "Unknown",
+  "en": "Like the super intelligence had a chapter on philosophy with a deadline.",
+  "zh": "比如《超级智能》里有一章是关于有截止日期的哲学的。"
+ },
+ {
+  "seg": 421,
+  "start": 2899.647,
+  "end": 2903.57,
+  "speaker": "Unknown",
+  "en": "The idea being that some of these big eternal philosophical questions, you know, maybe...",
+  "zh": "这个想法是，这些宏大而永恒的哲学问题中的某些，你知道，也许……"
+ },
+ {
+  "seg": 422,
+  "start": 2904.51,
+  "end": 2909.453,
+  "speaker": "Unknown",
+  "en": "are less urgent and will at some point develop superintelligence that will be much better at philosophizing than we are.",
+  "zh": "并不那么紧迫，而且我们终将发展出超级智能，它在哲学思辨上会比我们强得多。"
+ },
+ {
+  "seg": 423,
+  "start": 2910.214,
+  "end": 2921.121,
+  "speaker": "Unknown",
+  "en": "And that perhaps what we should focus on in the meantime are those philosophical questions that we actually need answers to now in order to navigate this transition safely to actually build these more competent successors.",
+  "zh": "而也许在此期间我们应该聚焦的，是那些我们现在确实需要答案的哲学问题，以便安全地度过这个转型期，真正构建出这些更有能力的后继者。"
+ },
+ {
+  "seg": 424,
+  "start": 2923.102,
+  "end": 2931.388,
+  "speaker": "Unknown",
+  "en": "And yeah, so I think that the timer is running down for humans to make our intellectual contributions.",
+  "zh": "是的，所以我认为，人类做出我们智识贡献的倒计时正在走向终点。"
+ },
+ {
+  "seg": 425,
+  "start": 2932.608,
+  "end": 2935.609,
+  "speaker": "Unknown",
+  "en": "Yeah, so kind of a crazy question towards the end.",
+  "zh": "好的，接近尾声了，来一个相当疯狂的问题。"
+ },
+ {
+  "seg": 426,
+  "start": 2936.069,
+  "end": 2946.533,
+  "speaker": "Unknown",
+  "en": "So you talked about the simulation hypothesis earlier, and there's this idea just that a hyper-intelligent system will eventually run ancestor simulations.",
+  "zh": "你之前谈到了模拟假说，有这么一个想法：一个超智能系统终将运行祖先模拟。"
+ },
+ {
+  "seg": 427,
+  "start": 2947.013,
+  "end": 2952.275,
+  "speaker": "Unknown",
+  "en": "So if we're in an ancestor simulation, how would we best influence the world that's simulating us?",
+  "zh": "那么如果我们处于一个祖先模拟之中，我们要怎样才最能影响那个正在模拟我们的世界？"
+ },
+ {
+  "seg": 428,
+  "start": 2955.693,
+  "end": 2962.749,
+  "speaker": "Unknown",
+  "en": "Well, there is so much we don't know about the hypothetical simulators that are...",
+  "zh": "嗯，关于那个假设中的模拟者，我们有很多不知道的东西，它们……"
+ },
+ {
+  "seg": 429,
+  "start": 2964.95,
+  "end": 2967.772,
+  "speaker": "Unknown",
+  "en": "We'll be running our simulation, the purposes.",
+  "zh": "将会运行我们的模拟，它们的目的。"
+ },
+ {
+  "seg": 430,
+  "start": 2968.893,
+  "end": 2972.715,
+  "speaker": "Unknown",
+  "en": "I have this recent paper called AI creation and the cosmic host.",
+  "zh": "我最近有一篇论文叫《AI 创造与宇宙主宰》。"
+ },
+ {
+  "seg": 431,
+  "start": 2973.916,
+  "end": 2978.759,
+  "speaker": "Unknown",
+  "en": "And the cosmic host is this set of super beings that might exist.",
+  "zh": "而宇宙主宰就是这套可能存在的超级存在。"
+ },
+ {
+  "seg": 432,
+  "start": 2978.779,
+  "end": 2988.526,
+  "speaker": "Unknown",
+  "en": "So this could include, if we're on a simulation, the simulators would be kind of super beings, but it could also be, if we're not in a simulation, maybe just some far away galaxy has developed super intelligence.",
+  "zh": "这可以包括，如果我们处于模拟之中，模拟者们会是某种超级存在；但也可能是，如果我们不在模拟之中，也许只是某个遥远的星系发展出了超级智能。"
+ },
+ {
+  "seg": 433,
+  "start": 2988.926,
+  "end": 2990.187,
+  "speaker": "Unknown",
+  "en": "You know, if we are in a",
+  "zh": "你知道，如果我们是，如果"
+ },
+ {
+  "seg": 434,
+  "start": 2991.167,
+  "end": 2992.788,
+  "speaker": "Unknown",
+  "en": "Many worlds theories correct.",
+  "zh": "多世界理论是正确的。"
+ },
+ {
+  "seg": 435,
+  "start": 2992.908,
+  "end": 2997.37,
+  "speaker": "Unknown",
+  "en": "Like there would be other branches of the universal wave function where there would be super intelligences.",
+  "zh": "那么在普适波函数的其他分支上，会存在超级智能。"
+ },
+ {
+  "seg": 436,
+  "start": 2998.091,
+  "end": 2998.331,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 437,
+  "start": 2998.451,
+  "end": 3004.714,
+  "speaker": "Unknown",
+  "en": "And I like traditional theological conceptions, obviously, gods usually is conceived of as a super being.",
+  "zh": "而且我喜欢传统的神学概念，显然，神通常被构想为一种超级存在。"
+ },
+ {
+  "seg": 438,
+  "start": 3004.914,
+  "end": 3008.476,
+  "speaker": "Unknown",
+  "en": "So either way, there could be this set of beings, I call it the cosmic host.",
+  "zh": "所以无论哪种方式，都可能存在这么一组存在，我称之为宇宙主宰。"
+ },
+ {
+  "seg": 439,
+  "start": 3010.277,
+  "end": 3020.266,
+  "speaker": "Unknown",
+  "en": "And they might have cosmic norms that different coordination principles that they have arrived at for how things should be run at that level.",
+  "zh": "而它们可能有宇宙规范，即它们在那个层面上达成的、关于事物应如何运行的不同协调原则。"
+ },
+ {
+  "seg": 440,
+  "start": 3021.407,
+  "end": 3026.791,
+  "speaker": "Unknown",
+  "en": "And this paper argues that one important desideratum in our own",
+  "zh": "而这篇论文论证说，在我们自己"
+ },
+ {
+  "seg": 441,
+  "start": 3029.2,
+  "end": 3043.669,
+  "speaker": "Unknown",
+  "en": "Birthing of superintelligence is that we try to make a superintelligence that will be a good cosmic citizen, that will basically get along well with the cosmic host, be able to sort of conform to the cosmic norms that might exist.",
+  "zh": "孕育超级智能的过程中，一个重要的目标是，我们努力造出一个会成为良好宇宙公民的超级智能，它基本上能与宇宙主宰和睦相处，能够大致遵守可能存在的宇宙规范。"
+ },
+ {
+  "seg": 442,
+  "start": 3045.37,
+  "end": 3048.412,
+  "speaker": "Unknown",
+  "en": "And it has some speculations about what that might involve.",
+  "zh": "而这篇论文对那可能涉及什么做了一些推测。"
+ },
+ {
+  "seg": 443,
+  "start": 3048.572,
+  "end": 3063.239,
+  "speaker": "Unknown",
+  "en": "I think probably creating superintelligence would be something favored by the Cosmic Coast for various reasons, but also then with a big proviso that it should be a form of superintelligence that is easy to get along with, that will sort of respect the norms that exist that make a positive contribution.",
+  "zh": "我认为，出于各种原因，创造超级智能很可能是宇宙主宰所青睐的事情，但同时有一个很大的附带条件：它应当是一种容易相处的超级智能，会大致尊重现存的规范，做出积极的贡献。"
+ },
+ {
+  "seg": 444,
+  "start": 3064.32,
+  "end": 3070.543,
+  "speaker": "Unknown",
+  "en": "But it is still very, yeah, there's still a lot of uncertainty about sort of how things shake out at that highest level.",
+  "zh": "但这仍然非常，是的，在最高层面上事情会如何展开，仍然存在很多不确定性。"
+ },
+ {
+  "seg": 445,
+  "start": 3071.726,
+  "end": 3071.927,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 446,
+  "start": 3071.967,
+  "end": 3076.92,
+  "speaker": "Unknown",
+  "en": "So last question before we go, tell us about the Macro Strategy Research Initiative.",
+  "zh": "那么最后一个问题，请讲讲宏观战略研究计划。"
+ },
+ {
+  "seg": 447,
+  "start": 3077.401,
+  "end": 3079.847,
+  "speaker": "Unknown",
+  "en": "What is it and what kinds of research do you plan to do next?",
+  "zh": "它是什么？你接下来计划做哪类研究？"
+ },
+ {
+  "seg": 448,
+  "start": 3081.456,
+  "end": 3085.517,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's basically just a support org for my personal work.",
+  "zh": "好的，那基本上就是一个支持我个人工作的组织。"
+ },
+ {
+  "seg": 449,
+  "start": 3085.937,
+  "end": 3091.299,
+  "speaker": "Unknown",
+  "en": "So it's not intended to be building, like hire a bunch of different people to do things.",
+  "zh": "所以它并不是要建一个，比如雇一群不同的人去做各种事情。"
+ },
+ {
+  "seg": 450,
+  "start": 3091.339,
+  "end": 3096,
+  "speaker": "Unknown",
+  "en": "So it's basically, you know, I'm insistent and some other contractors.",
+  "zh": "所以基本上，你知道，主要是我和一些其他承包商。"
+ },
+ {
+  "seg": 451,
+  "start": 3096.26,
+  "end": 3102.162,
+  "speaker": "Unknown",
+  "en": "So right now, as for me, I mean, I'm sort of thinking about all of this AI stuff that has so many dimensions to this.",
+  "zh": "所以现在，至于我，我是说，我在思考所有这些 AI 相关的东西，它有很多很多维度。"
+ },
+ {
+  "seg": 452,
+  "start": 3102.182,
+  "end": 3108.884,
+  "speaker": "Unknown",
+  "en": "There is the alignment, there is the governance, there is the ethics, there is the macro strategy of this and looking for ways in which",
+  "zh": "有对齐问题，有治理问题，有伦理问题，还有这方面的宏观策略，以及寻找各种方式，"
+ },
+ {
+  "seg": 453,
+  "start": 3109.904,
+  "end": 3113.926,
+  "speaker": "Unknown",
+  "en": "On the modern might try to nudge things in a positive direction.",
+  "zh": "让 On the modern 或许能尝试把事情往积极的方向推动。"
+ },
+ {
+  "seg": 454,
+  "start": 3113.946,
+  "end": 3123.372,
+  "speaker": "Unknown",
+  "en": "I tend to alternate between sort of output phases where I'm working on like writing some specific paper or producing an output and other phases where it's more...",
+  "zh": "我倾向于在某种输出阶段之间交替，那时我在做一些比如写某篇具体论文或产出某个成果的工作；以及其他一些阶段，那时更多是……"
+ },
+ {
+  "seg": 455,
+  "start": 3125.633,
+  "end": 3134.079,
+  "speaker": "Unknown",
+  "en": "Curiosity-driven contemplation and just kind of thinking about different things without the aim of producing a deliverable.",
+  "zh": "出于好奇的沉思，只是思考各种不同的事情，而不以产出交付物为目标。"
+ },
+ {
+  "seg": 456,
+  "start": 3134.66,
+  "end": 3140.063,
+  "speaker": "Unknown",
+  "en": "And right now I'm in that second kind of phase, in exploratory phase, trying to just make sense of it all.",
+  "zh": "而现在我就处在第二种阶段，探索性阶段，只是想把这一切理出头绪。"
+ },
+ {
+  "seg": 457,
+  "start": 3140.844,
+  "end": 3144.086,
+  "speaker": "Unknown",
+  "en": "But the problem is so much is happening all the time.",
+  "zh": "但问题在于，每时每刻都有太多事情在发生。"
+ },
+ {
+  "seg": 458,
+  "start": 3144.186,
+  "end": 3146.688,
+  "speaker": "Unknown",
+  "en": "Because philosophy happens on a slow timescale, right?",
+  "zh": "因为哲学是在一个很慢的时间尺度上演进的，对吧？"
+ },
+ {
+  "seg": 459,
+  "start": 3147.529,
+  "end": 3149.85,
+  "speaker": "Unknown",
+  "en": "AI is happening on a very fast timescale now.",
+  "zh": "而 AI 现在是在一个非常快的时间尺度上发展的。"
+ },
+ {
+  "seg": 460,
+  "start": 3149.89,
+  "end": 3154.333,
+  "speaker": "Unknown",
+  "en": "So it's become a full-time job just to monitor the situation.",
+  "zh": "所以仅仅是关注局势本身就已经成了一份全职工作。"
+ },
+ {
+  "seg": 461,
+  "start": 3156.215,
+  "end": 3157.797,
+  "speaker": "Unknown",
+  "en": "We know, we know.",
+  "zh": "我们知道，我们知道。"
+ },
+ {
+  "seg": 462,
+  "start": 3158.778,
+  "end": 3160.881,
+  "speaker": "Unknown",
+  "en": "I have the sign that says MTS behind me.",
+  "zh": "我身后有写着 MTS 的标牌。"
+ },
+ {
+  "seg": 463,
+  "start": 3162.503,
+  "end": 3163.945,
+  "speaker": "Unknown",
+  "en": "Well, this has been incredible.",
+  "zh": "好了，这期节目真是太精彩了。"
+ },
+ {
+  "seg": 464,
+  "start": 3164.145,
+  "end": 3165.306,
+  "speaker": "Unknown",
+  "en": "Thank you so much for joining, Nick.",
+  "zh": "非常感谢你参加节目，Nick。"
+ },
+ {
+  "seg": 465,
+  "start": 3166.488,
+  "end": 3166.868,
+  "speaker": "Unknown",
+  "en": "That was fun.",
+  "zh": "挺好玩的。"
+ },
+ {
+  "seg": 466,
+  "start": 3167.689,
+  "end": 3168.37,
+  "speaker": "Unknown",
+  "en": "Good to meet you guys.",
+  "zh": "很高兴认识你们。"
+ },
+ {
+  "seg": 467,
+  "start": 3168.791,
+  "end": 3169.311,
+  "speaker": "Unknown",
+  "en": "Good to meet you.",
+  "zh": "很高兴认识你。"
+ },
+ {
+  "seg": 468,
+  "start": 3169.331,
+  "end": 3169.792,
+  "speaker": "Unknown",
+  "en": "Great to meet you.",
+  "zh": "非常高兴认识你。"
+ },
+ {
+  "seg": 469,
+  "start": 3172.473,
+  "end": 3175.356,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 470,
+  "start": 3175.956,
+  "end": 3182.362,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这期节目，请务必点赞、评论、订阅，给我们评分或留下评价，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 471,
+  "start": 3183.122,
+  "end": 3186.686,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 472,
+  "start": 3187.266,
+  "end": 3192.951,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z，并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 473,
+  "start": 3193.371,
+  "end": 3195.894,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目再见。"
+ },
+ {
+  "seg": 474,
+  "start": 3197.208,
+  "end": 3203.611,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅供教育目的，不构成对任何投资或金融产品的买入、持有或卖出建议。"
+ },
+ {
+  "seg": 475,
+  "start": 3203.872,
+  "end": 3211.355,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作，可能包含付费推广广告、其他公司提及的内容以及与 A16Z 无关的个人。"
+ },
+ {
+  "seg": 476,
+  "start": 3211.776,
+  "end": 3218.819,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management, LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均不代表 AH Capital Management, LLC、A16Z 或其任何关联机构的背书。"
+ },
+ {
+  "seg": 477,
+  "start": 3219.3,
+  "end": 3224.983,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来源于发布日期时被认为是可靠的渠道，但 A16Z 不保证其准确性。"
+ }
+]

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Harry Stabbings]] · [[Matteo Franceschetti]] · [[Anthropic]] · [[Claude]] · [[智能体]] · [[CAC]] · [[增量测试]] · [[人形机器人]] · [[Xiaomi]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Matteo Franceschetti":1,"Anthropic":196,"Claude":93,"智能体":460,"CAC":3,"增量测试":1,"人形机器人":1,"Xiaomi":3,"OpenAI":191}</script>
+<script type="application/json" class="pd-epn">{"Harry Stabbings":2,"Matteo Franceschetti":1,"Anthropic":197,"Claude":93,"智能体":464,"CAC":3,"增量测试":1,"人形机器人":1,"Xiaomi":3,"OpenAI":192}</script>
 
 <script>
 (function(){

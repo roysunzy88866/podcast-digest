@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Block]] · [[MCP]] · [[Anthropic]] · [[Dhanji Prasanna]] · [[Keith Rabois]] · [[Eric Sager]] · [[Willem Avé]]
 
-<script type="application/json" class="pd-epn">{"智能体":460,"Lenny":68,"OpenAI":191,"Block":3,"MCP":85,"Anthropic":196,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"Lenny":68,"OpenAI":192,"Block":3,"MCP":85,"Anthropic":197,"Dhanji Prasanna":1,"Keith Rabois":1,"Eric Sager":1,"Willem Avé":1}</script>
 
 <script>
 (function(){

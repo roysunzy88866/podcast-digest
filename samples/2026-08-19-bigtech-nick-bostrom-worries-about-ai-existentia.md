@@ -113,7 +113,7 @@ Bostrom 认为现在有理由认真对待"AI 可能有[[主观体验|主观体�
 
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)、递归自我改进 (recursive self-improvement)、护栏 (guardrails)</span>
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:AGI、对齐 (alignment)、智能体 (agent)、递归自我改进 (recursive self-improvement)、开源模型 (open source models)、护栏 (guardrails)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
+- [[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe|超级智能该加速还是刹车？哲学家的算法：先算算每年死多少人]]<span class="pd-rz">同嘉宾:Nick Bostrom · 同公司:Hugging Face · 同概念:对齐 (alignment)、暂停 (pause)、超级智能 (superintelligence)</span>
 
 </div>
 <div class="pd-ex">

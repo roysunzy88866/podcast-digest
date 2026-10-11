@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Claude]] · [[开源 AI]] · [[Reid Hoffman]] · [[开放权重模型]] · [[对齐]] · [[表观遗传重编程]] · [[递归自我改进]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"智能体":460,"ChatGPT":105,"Claude":93,"开源 AI":2,"Reid Hoffman":2,"开放权重模型":1,"对齐":22,"表观遗传重编程":2,"递归自我改进":12,"AI":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"ChatGPT":105,"Claude":93,"开源 AI":2,"Reid Hoffman":2,"开放权重模型":1,"对齐":23,"表观遗传重编程":2,"递归自我改进":12,"AI":30}</script>
 
 <script>
 (function(){

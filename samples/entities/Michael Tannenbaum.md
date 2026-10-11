@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
+[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":49}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":6,"Kiavi":1,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":50}</script>
 
 <script>
 (function(){

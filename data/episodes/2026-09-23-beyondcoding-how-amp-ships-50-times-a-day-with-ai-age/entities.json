@@ -1,0 +1,1254 @@
+{
+  "episode_id": "2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age",
+  "podcast": "Beyond Coding",
+  "date": "2026-09-23",
+  "tags": [
+    "AI 编程",
+    "智能体工程",
+    "远程执行环境",
+    "研发效能",
+    "无拉取请求工作流"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dario-hamidi",
+      "type": "person",
+      "role": "host",
+      "name": "Dario Hamidi",
+      "file": "Dario Hamidi",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            69.116,
+            75.904
+          ],
+          "quote": "This is Dario Hamidi, AI engineer over at AMP, and he walks us through some of the biggest problems he solved at AMP specifically.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "amp",
+      "type": "company",
+      "role": "company",
+      "name": "AMP",
+      "file": "AMP",
+      "primary": true,
+      "how_described": "本集主线公司：约 20 人的团队，每天向生产环境部署约 50 次、全程不用 pull request，嘉宾 Dario 是其 AI 工程师，分享了智能体权限、orb 远程执行环境等问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            69.116,
+            75.904
+          ],
+          "quote": "This is Dario Hamidi, AI engineer over at AMP, and he walks us through some of the biggest problems he solved at AMP specifically.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 145,
+          "t": [
+            643.825,
+            653.071
+          ],
+          "quote": "Can you walk me through, when I say an interesting problem that you've solved, what immediately springs to mind when you're working at AMP?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 159,
+          "t": [
+            713.188,
+            714.169
+          ],
+          "quote": "I can't use AMP.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 181,
+          "t": [
+            815.094,
+            826.204
+          ],
+          "quote": "In the entire time I've worked with AMP on AMP daily, there were two instances where the model behavior surprised me.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1119.984,
+            1121.726
+          ],
+          "quote": "I mean, like, AMP uses orbs now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1257.483,
+            1270.032
+          ],
+          "quote": "I mean, yes, we spend a lot of effort and time on making AMP as a harness very useful with tuned tool descriptions and making sure it works well with all of the models and so on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1385.507,
+            1386.748
+          ],
+          "quote": "So the orb is really an AMP orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1399.529,
+            1400.849
+          ],
+          "quote": "Yes, it comes from an AMP orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2139.458,
+            2147.16
+          ],
+          "quote": "Yeah, it's like very, like, since day one, AMP had server-side sessions, like all the sessions are stored and shared within your team.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2158.722,
+            2164.703
+          ],
+          "quote": "I can now ask AMP to send you a message on Slack about a problem I'm working on, and then",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2334.62,
+            2337.462
+          ],
+          "quote": "So that it's part of the system that AMP can access.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2337.482,
+            2341.566
+          ],
+          "quote": "So in AMP, there is a way for you to report an issue with AMP.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2341.846,
+            2348.592
+          ],
+          "quote": "And when you're running AMP, the agent in AMP, AMP can also report that as a tool, essentially, like report an issue to us.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2349.533,
+            2352.776
+          ],
+          "quote": "And we have all of this in one central place that our AMP can access.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2385.288,
+            2394.414
+          ],
+          "quote": "Write an email straight from AMP because we have tools in AMP to send emails to customers and do all of this from one place.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2412.124,
+            2423.907
+          ],
+          "quote": "They have non-obvious problems from yesterday, actually, when somebody knows, like, oh, we don't have, like, completion scripts for your shell, for the AMP command.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2499.694,
+            2504.076
+          ],
+          "quote": "Now it's just like, and yeah, obviously if AMP is in a terminal, it should play nice with the terminal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2511.66,
+            2518.742
+          ],
+          "quote": "Just for the person listening to reference, AMP company, 20-ish people, you get 50, 60 bug reports.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2816.357,
+            2820.6
+          ],
+          "quote": "So you make it easier for users to report bugs if they're using AMP because it's built in.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的主线：用智能体验证代码、给智能体权限、信任智能体的关键是磨掉环境的锋利边缘，以及用智能体批量分诊 bug 报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            76.305,
+            80.85
+          ],
+          "quote": "Shared agent state, remote agent execution, and how agents handle permissions.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 41,
+          "t": [
+            195.177,
+            201.439
+          ],
+          "quote": "So if I do agentic work nowadays, one of the things, because I'm lazy and I don't want to do many pull requests, is I ask my agent to evidence work.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 47,
+          "t": [
+            219.289,
+            222.312
+          ],
+          "quote": "So an agent can work within those boundaries and be more effective.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 96,
+          "t": [
+            442.167,
+            450.652
+          ],
+          "quote": "No, it's just you ask the agent to test it, you have your deterministic verification steps, like all of that, you just do that like you did before.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 157,
+          "t": [
+            706.398,
+            711.004
+          ],
+          "quote": "I don't want my agent to read files outside of the project directory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            718.13,
+            721.152
+          ],
+          "quote": "You change it the other way around saying, man, this agent is useless.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 183,
+          "t": [
+            829.087,
+            833.731
+          ],
+          "quote": "It happened twice in I don't know how many thousands of agent sessions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 189,
+          "t": [
+            850.912,
+            857.597
+          ],
+          "quote": "Especially, I would say, early this year, people would say, how can you give your agent more autonomy?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 207,
+          "t": [
+            918.184,
+            920.586
+          ],
+          "quote": "Because the agent told them to use Superbase.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 215,
+          "t": [
+            947.596,
+            949.078
+          ],
+          "quote": "I have the agent to help me juggle knives.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 228,
+          "t": [
+            993.534,
+            996.297
+          ],
+          "quote": "So give the agent database credentials, but they read only credentials.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1180.134,
+            1181.834
+          ],
+          "quote": "I let my agent handle it.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1181.854,
+            1187.837
+          ],
+          "quote": "Yeah, you have your agent do it, but then it's like, okay, in the work tree, you start the dev server, and it's like, oh, well, the port is already taken.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1204.822,
+            1209.745
+          ],
+          "quote": "I feel like it's a similar example where you said if your agent can delete the database, it's not really the agent problem.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1280.088,
+            1284.675
+          ],
+          "quote": "What are still problems that need to be solved in this kind of remote agent execution?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1288.319,
+            1296.262
+          ],
+          "quote": "How do you give the agent credentials in a way that they're not stored in the execution environment?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1464.663,
+            1470.227
+          ],
+          "quote": "And you give the agent access to its own vault.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1470.267,
+            1473.689
+          ],
+          "quote": "So the only credential you hand to the agent is the service account token.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1474.65,
+            1483.016
+          ],
+          "quote": "And then the agent can access secrets from that service account vault and use them and add more secrets there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1598.988,
+            1603.389
+          ],
+          "quote": "You can send messages to the agent so you can take over the conversation if you want.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1609.75,
+            1624.308
+          ],
+          "quote": "And we have the application as the agent has changed and running in that same warp so we can both just click into the portal tab and use it and see how the change we made about credentials actually looks like in practice and discuss it live because we were on a video call.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1689.771,
+            1693.253
+          ],
+          "quote": "Because in my head, it's like virtual remote desktop agent execution.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1721.448,
+            1725.91
+          ],
+          "quote": "You mentioned credentials as an interesting problem within remote agent execution.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1763.717,
+            1768.739
+          ],
+          "quote": "You have three browser tabs connected to the same agent session.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2212.994,
+            2219.601
+          ],
+          "quote": "Maybe the simple version of that, and maybe you've done that, is you tell your agent...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2220.632,
+            2230.741
+          ],
+          "quote": "Create 10 Tmux windows all running your favorite agent in there and then in each Tmux window take a different task or whatever.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2341.846,
+            2348.592
+          ],
+          "quote": "And when you're running AMP, the agent in AMP, AMP can also report that as a tool, essentially, like report an issue to us.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2376.765,
+            2383.888
+          ],
+          "quote": "So once the agent is done with that, I can just go through all of the orbs, inspect the proposed solution and drive it to completion.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2424.687,
+            2429.189
+          ],
+          "quote": "So I added that, but the way the agent implemented it is, I looked at it, it's like, hmm, this is most likely going to be slow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2464.18,
+            2471.083
+          ],
+          "quote": "The agent has tested it interactively, driving it through Tmux, and made sure it's fast.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2569.084,
+            2570.265
+          ],
+          "quote": "So you do that with an agent as well?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2685.462,
+            2689.023
+          ],
+          "quote": "Have the agent go through the bug reports, categorize them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2799.828,
+            2808.073
+          ],
+          "quote": "Everybody wakes up and asks the agent to try H10 bug reports and develop draft solutions to it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取请求 (pull request)",
+      "file": "拉取请求",
+      "primary": true,
+      "how_described": "本集核心论点：Dario 认为取消 pull request 能带来两位数到三位数的生产力提升，它源于互不信任的环境、审查常走过场，而有没有它质量没差别、差别在交付速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            99.931,
+            101.313
+          ],
+          "quote": "Is it time to kill the pull request?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 34,
+          "t": [
+            146.243,
+            159.896
+          ],
+          "quote": "If you told them the following tomorrow, that every pull request will get auto-closed, and to get something out, you have to commit and push to main.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 52,
+          "t": [
+            242.67,
+            253.185
+          ],
+          "quote": "So if you feel the desire to open up a pull request, that's a signal to you that something is off.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 54,
+          "t": [
+            257.623,
+            262.946
+          ],
+          "quote": "You need to think about, okay, why do I want to open a pull request?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            263.587,
+            265.868
+          ],
+          "quote": "Obviously something motivated me to open a pull request.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 62,
+          "t": [
+            290.486,
+            296.031
+          ],
+          "quote": "In an ideal world, to work on a pull request, you check out the pull request,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 63,
+          "t": [
+            296.632,
+            308.795
+          ],
+          "quote": "Boot up the application in that version, you'd click around, you'd verify that everything works, look at the whole picture, and then the pull request is perfect, and you can merge it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 65,
+          "t": [
+            311.375,
+            314.656
+          ],
+          "quote": "So the effort of actually booting up the pull request is way too high, so nobody does it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 66,
+          "t": [
+            315.356,
+            321.297
+          ],
+          "quote": "Then the pull request has been hanging there for days already, or hours, or in any case, for way too long.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 112,
+          "t": [
+            529.969,
+            533.071
+          ],
+          "quote": "If you've already waited on a pull request for two days and then CI needs like 30 minutes,",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "orb",
+      "type": "concept",
+      "role": "concept",
+      "name": "orb",
+      "file": "orb",
+      "primary": true,
+      "how_described": "Amp 力推的远程执行环境：不只是虚拟机，不运行不花钱、彼此互联、带门户页面可预览应用，解决了 Git worktree、端口冲突等并行开发痛点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1121.847,
+            1122.888
+          ],
+          "quote": "Everybody's asking, what's an orb?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1122.908,
+            1123.449
+          ],
+          "quote": "What's an orb?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1197.54,
+            1203.703
+          ],
+          "quote": "And none of these things are problems with orbs, because every orb is its own little environment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1211.706,
+            1216.048
+          ],
+          "quote": "Now you have an environment where agents can let loose-ish in the form of an orb.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1220.85,
+            1228.534
+          ],
+          "quote": "I feel like the people that are more hesitant and say, well, it's going to delete my laptop, are going to be more comfortable and confident working within an orb with their workloads.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1235.998,
+            1245.881
+          ],
+          "quote": "Oh, it's just like everybody who uses orbs loves orbs and we see orb usage growing very quickly to the point where",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1270.674,
+            1277.564
+          ],
+          "quote": "So there is still value in there, but you would still get value out of orbs if you ran pi inside of the orb, for example.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1297.443,
+            1304.865
+          ],
+          "quote": "The easy way is to just write the secrets to a file in the orb, but the orb never goes away.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1306.246,
+            1308.367
+          ],
+          "quote": "You can come back to an orb that you started two months ago.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1316.034,
+            1319.817
+          ],
+          "quote": "So yes, even if you resurrect that orb two months later, the secret isn't valid anymore.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1353.278,
+            1359.964
+          ],
+          "quote": "So you create a cryptographically signed token identifying the orb in this case.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1367.63,
+            1368.47
+          ],
+          "quote": "Information about the orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1370.593,
+            1376.238
+          ],
+          "quote": "And then you can go to another party that the orb needs to talk to, let's say Google Cloud.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1385.507,
+            1386.748
+          ],
+          "quote": "So the orb is really an AMP orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1399.529,
+            1400.849
+          ],
+          "quote": "Yes, it comes from an AMP orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1451.736,
+            1457.921
+          ],
+          "quote": "You're back to storing secrets in an orb and building a process around having short-lived secrets.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1483.056,
+            1488.439
+          ],
+          "quote": "And then they never enter the disk of the orb, essentially.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1509.944,
+            1521.747
+          ],
+          "quote": "They built a bespoke application that gives them context about their project because they have one orb per project because they're in some management role because orbs are super useful execution environments.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1529.089,
+            1531.97
+          ],
+          "quote": "And then they go back to their orb to get the full context of like...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1540.332,
+            1543.773
+          ],
+          "quote": "And for them, it's like very important that the orb stays around.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1544.954,
+            1551.095
+          ],
+          "quote": "So you could clean up the orbs, but then like, okay, do you want people to configure like, oh, this is an ephemeral orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1562.519,
+            1577.543
+          ],
+          "quote": "So we added this pretty recently, like in last month, that you actually get like a Slack huddle or like full video conferencing inside of the orb where you also have the application running and the conversation is shared between participants.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1577.703,
+            1580.544
+          ],
+          "quote": "So we, like the two of us, we can work in an orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1591.726,
+            1597.347
+          ],
+          "quote": "I can tag you into that conversation and say, hey, Patrick, please join me in this orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1785.437,
+            1787.159
+          ],
+          "quote": "They even parallelize within the same orb?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2056.447,
+            2060.369
+          ],
+          "quote": "It made it really easy to get something like an orb.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2172.206,
+            2179.649
+          ],
+          "quote": "So I can have an orb and tell it, hey, spawn 10 more orbs to investigate the problems you just aggregated from some information source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2181.19,
+            2193.616
+          ],
+          "quote": "And then I can personally go through those 10 orbs to drive them, but I can also just tell the system either through Puck or MetaAgent or just that specific orb, like, now destroy all of the orbs you just created.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2205.587,
+            2212.894
+          ],
+          "quote": "And now I'm imagining kind of this network of information bubbles, and each orb has its own information bucket.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2362.261,
+            2376.065
+          ],
+          "quote": "Then for each of those issues, create an orb that is triaging the issue and determining the next action, like follow up with the user to get more information, propose a fix, or don't fix it because it's not an actual issue.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agentic-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工程 (agentic engineering)",
+      "file": "智能体工程",
+      "primary": true,
+      "how_described": "Dario 把「判断什么归模型层管、什么归周围确定性系统管」称为智能体工程技能的一部分，这是本集反复出现的框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            92.283,
+            94.665
+          ],
+          "quote": "And that's part of the agentic engineering skillset.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1010.33,
+            1013.371
+          ],
+          "quote": "And that's part of like the agentic engineering skillset.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1109.258,
+            1114.72
+          ],
+          "quote": "Do you see this process and kind of this way of agentic engineering going more fully remote?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "credentials",
+      "type": "concept",
+      "role": "concept",
+      "name": "凭证 (credentials)",
+      "file": "凭证",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            993.534,
+            996.297
+          ],
+          "quote": "So give the agent database credentials, but they read only credentials.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1286.619,
+            1287.139
+          ],
+          "quote": "Credentials.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1288.319,
+            1296.262
+          ],
+          "quote": "How do you give the agent credentials in a way that they're not stored in the execution environment?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1335.529,
+            1339.191
+          ],
+          "quote": "So even if you want to mint short-lived credentials, in many cases, you can't.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1583.885,
+            1586.905
+          ],
+          "quote": "I'm working on some new thing to manage credentials, for example.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1609.75,
+            1624.308
+          ],
+          "quote": "And we have the application as the agent has changed and running in that same warp so we can both just click into the portal tab and use it and see how the change we made about credentials actually looks like in practice and discuss it live because we were on a video call.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1721.448,
+            1725.91
+          ],
+          "quote": "You mentioned credentials as an interesting problem within remote agent execution.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1954.882,
+            1973.095
+          ],
+          "quote": "One of the last thoughts I had before we move on from Orbs is, so if we take these problems, so the credentials still being an existing problem as well as kind of state management, specifically for multiplayer, but even when we're talking about a single player just having multiple browsers, the industry is moving quite fast.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-load",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知负荷 (cognitive load)",
+      "file": "认知负荷",
+      "primary": true,
+      "how_described": "Dario 提醒智能体时代认知负荷已无上限，「你想把自己烧干完全可以」，要用智能体降低自己的认知负荷，这与「AI 精神病」是同一类负荷。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 598,
+          "t": [
+            2544.371,
+            2546.933
+          ],
+          "quote": "How is the cognitive load kind of going through that?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2582.573,
+            2584.094
+          ],
+          "quote": "Because still cognitive load is high.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2586.315,
+            2588.817
+          ],
+          "quote": "There is no ceiling anymore for cognitive load.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2596.502,
+            2600.444
+          ],
+          "quote": "It's the same type of cognitive load in the end.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2615.646,
+            2618.689
+          ],
+          "quote": "So you need to leverage agents also to lower your cognitive load.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2765.751,
+            2770.955
+          ],
+          "quote": "It's stuff like, oh, actually, we need to use agents to handle bug reports to reduce cognitive load, stuff like this.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "cloud-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "云端智能体 (cloud agents)",
+      "file": "云端智能体",
+      "primary": true,
+      "how_described": "Dario 说这是当下的新问题：大家都在做云端智能体，表面简单、细节很难，比如执行工具调用的进程死了之后沙箱不可用怎么办。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1031.059,
+            1031.58
+          ],
+          "quote": "Cloud agents.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1031.64,
+            1032.401
+          ],
+          "quote": "Cloud agents?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1033.622,
+            1035.403
+          ],
+          "quote": "Everybody's building cloud agents.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "在讨论云端智能体故障处理时提到「沙箱不可用了怎么办」，一笔带过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1063.359,
+            1064.98
+          ],
+          "quote": "The sandbox is not available anymore.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "作为「抛刀杂耍」案例提及：新手被 Cursor 这类工具的可能性吸引，开始智能体开发却不懂得规避风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            906.315,
+            912.18
+          ],
+          "quote": "Got excited by the possibilities they suddenly got from something like Cursor or whatever the tool was or lovable.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "superbase",
+      "type": "company",
+      "role": "company",
+      "name": "Superbase",
+      "file": "Superbase",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            916.343,
+            917.844
+          ],
+          "quote": "It's like they use Superbase.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 207,
+          "t": [
+            918.184,
+            920.586
+          ],
+          "quote": "Because the agent told them to use Superbase.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 209,
+          "t": [
+            930.154,
+            934.957
+          ],
+          "quote": "And if you use Superbase, there are some things you need to do, like configuring row-level security.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "作为配置点被提及：不想让智能体推代码，应该在 GitHub 里配置权限，而不是在本地配置工具权限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            975.677,
+            977.539
+          ],
+          "quote": "To GitHub, that's the thing you need to configure in GitHub.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1436.475,
+            1438.775
+          ],
+          "quote": "So GitHub supports it, Azure supports it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

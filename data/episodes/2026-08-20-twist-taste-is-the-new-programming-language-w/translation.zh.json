@@ -1,0 +1,2570 @@
+[
+ {
+  "seg": 0,
+  "start": 0.071,
+  "end": 2.892,
+  "speaker": "Unknown",
+  "en": "All right, everybody, welcome back to AI Basics.",
+  "zh": "好的,各位,欢迎回到 AI Basics。"
+ },
+ {
+  "seg": 1,
+  "start": 3.272,
+  "end": 8.773,
+  "speaker": "Unknown",
+  "en": "AI Basics, this is where we go over the fundamentals, the basic things that founders need to know.",
+  "zh": "AI Basics,在这个栏目里我们讲解基础知识,也就是创始人需要了解的基本内容。"
+ },
+ {
+  "seg": 2,
+  "start": 9.373,
+  "end": 14.635,
+  "speaker": "Unknown",
+  "en": "And we do this for legal, we do it for finance, and now we're doing it for AI.",
+  "zh": "我们为法律做过,为金融做过,现在轮到 AI 了。"
+ },
+ {
+  "seg": 3,
+  "start": 14.995,
+  "end": 18.896,
+  "speaker": "Unknown",
+  "en": "You can find all these episodes this week in startups.com slash basics.",
+  "zh": "你可以在本周的 episodes 里通过 startups.com slash basics 找到所有这些内容。"
+ },
+ {
+  "seg": 4,
+  "start": 19.196,
+  "end": 23.437,
+  "speaker": "Unknown",
+  "en": "And AI Basics is brought to you in partnership with our friends at Google Cloud.",
+  "zh": "AI Basics 由我们 Google Cloud 的朋友们联合呈现。"
+ },
+ {
+  "seg": 5,
+  "start": 24.365,
+  "end": 32.19,
+  "speaker": "Unknown",
+  "en": "I'm really excited about today's guest because we're going to talk a little bit about how AI is impacting video games with us today.",
+  "zh": "我对今天的嘉宾感到非常兴奋,因为我们要聊聊 AI 正如何影响电子游戏,今天的嘉宾是"
+ },
+ {
+  "seg": 6,
+  "start": 32.39,
+  "end": 37.413,
+  "speaker": "Unknown",
+  "en": "Amir Sadeghian, he is the founder and CEO of Astrocade.",
+  "zh": "Amir Sadeghian,他是 Astrocade 的创始人兼 CEO。"
+ },
+ {
+  "seg": 7,
+  "start": 37.753,
+  "end": 42.736,
+  "speaker": "Unknown",
+  "en": "This is an app that allows you to easily create original video games and share them with your friends.",
+  "zh": "这是一个让你可以轻松创建原创电子游戏并与朋友分享的应用。"
+ },
+ {
+  "seg": 8,
+  "start": 42.756,
+  "end": 44.117,
+  "speaker": "Unknown",
+  "en": "Welcome to the program, Amir.",
+  "zh": "欢迎来到节目,Amir。"
+ },
+ {
+  "seg": 9,
+  "start": 44.398,
+  "end": 44.998,
+  "speaker": "Unknown",
+  "en": "Thanks, Jason.",
+  "zh": "谢谢,Jason。"
+ },
+ {
+  "seg": 10,
+  "start": 45.018,
+  "end": 46.039,
+  "speaker": "Unknown",
+  "en": "Thank you for having me, man.",
+  "zh": "谢谢你邀请我,兄弟。"
+ },
+ {
+  "seg": 11,
+  "start": 46.199,
+  "end": 47.2,
+  "speaker": "Unknown",
+  "en": "I'm very excited about this.",
+  "zh": "我对此非常兴奋。"
+ },
+ {
+  "seg": 12,
+  "start": 47.64,
+  "end": 58.989,
+  "speaker": "Unknown",
+  "en": "Well, you are in a category that I am seeing all over social media, which is games that were state-of-the-art",
+  "zh": "嗯,你所处的这个品类,我在社交媒体上到处都能看到,也就是那些"
+ },
+ {
+  "seg": 13,
+  "start": 60.014,
+  "end": 68.396,
+  "speaker": "Unknown",
+  "en": "I don't know, maybe 10 or 20 years ago, people are now able to fork to build using AI and you have a platform to do that.",
+  "zh": "我不知道,也许是 10 年或 20 年前最先进的游戏,现在人们能够用 AI 去 fork、去构建,而你正好有一个这样的平台。"
+ },
+ {
+  "seg": 14,
+  "start": 68.416,
+  "end": 73.298,
+  "speaker": "Unknown",
+  "en": "So tell us a little bit about what your product and service does and why you built it.",
+  "zh": "那么请跟我们讲讲你的产品和服务是做什么的,以及你为什么要做它。"
+ },
+ {
+  "seg": 15,
+  "start": 73.518,
+  "end": 80.5,
+  "speaker": "Unknown",
+  "en": "I can tell a little bit about my story, but AstroKid, basically, you said it really well, is a platform that anyone can create, any interactive experiences.",
+  "zh": "我可以讲一点我的故事,不过 AstroKid,基本上,你总结得很好,它是一个任何人都可以创建任何交互式体验的平台。"
+ },
+ {
+  "seg": 16,
+  "start": 80.86,
+  "end": 89.022,
+  "speaker": "Unknown",
+  "en": "Games is a large category of interactive experiences, but there are a lot more like education content, companions that we saw, a lot of different interactive content.",
+  "zh": "游戏是交互式体验的一个大类,但还有很多别的,比如教育内容、我们见到的陪伴类应用,很多不同的交互式内容。"
+ },
+ {
+  "seg": 17,
+  "start": 89.302,
+  "end": 92.624,
+  "speaker": "Unknown",
+  "en": "But the core of it is any kind of content that is interactive.",
+  "zh": "但它的核心是任何形式的交互式内容。"
+ },
+ {
+  "seg": 18,
+  "start": 92.904,
+  "end": 95.065,
+  "speaker": "Unknown",
+  "en": "So anyone can create those content.",
+  "zh": "所以任何人都可以创建这些内容。"
+ },
+ {
+  "seg": 19,
+  "start": 95.105,
+  "end": 101.888,
+  "speaker": "Unknown",
+  "en": "The way they can create it, and the reason I say anyone can create it, is through a natural language, because you can just simply describe.",
+  "zh": "至于他们如何创建,以及我为什么说任何人都能创建,是通过自然语言,因为你只需要简单地描述。"
+ },
+ {
+  "seg": 20,
+  "start": 102.128,
+  "end": 107.61,
+  "speaker": "Unknown",
+  "en": "You can just describe any kind of content, any kind of game, and the AI, our AI system actually generates that.",
+  "zh": "你只需描述任何类型的内容、任何类型的游戏,然后 AI,我们的 AI 系统就会真正把它生成出来。"
+ },
+ {
+  "seg": 21,
+  "start": 108.11,
+  "end": 116.534,
+  "speaker": "Unknown",
+  "en": "And the other exciting part of AstroKit is once you create those kinds of content, you can basically just press a publish button and publish it to a feed of content.",
+  "zh": "而 AstroKit 另一个令人兴奋的地方是,一旦你创建了这些内容,你基本上只需按一个发布按钮,就能把它发布到一个内容信息流里。"
+ },
+ {
+  "seg": 22,
+  "start": 116.734,
+  "end": 118.215,
+  "speaker": "Unknown",
+  "en": "Very similar to TikTok and YouTube.",
+  "zh": "和 TikTok 和 YouTube 非常相似。"
+ },
+ {
+  "seg": 23,
+  "start": 118.235,
+  "end": 124.097,
+  "speaker": "Unknown",
+  "en": "There's a feed of content that all this content is generated with from creators across the world.",
+  "zh": "有一个内容信息流,所有这些内容都是由来自世界各地的创作者生成的。"
+ },
+ {
+  "seg": 24,
+  "start": 124.437,
+  "end": 132.9,
+  "speaker": "Unknown",
+  "en": "We have more than 100,000 creators from various countries, more than 100 countries creating this kind of content and publishing it, which is super, super exciting.",
+  "zh": "我们有超过 100,000 名创作者,来自超过 100 个不同的国家,在创建这类内容并发布,这真是超级、超级令人兴奋。"
+ },
+ {
+  "seg": 25,
+  "start": 133.34,
+  "end": 137.905,
+  "speaker": "Unknown",
+  "en": "And yeah, it's astrocade.com, yeah?",
+  "zh": "然后是,网址是 astrocade.com,对吧?"
+ },
+ {
+  "seg": 26,
+  "start": 138.245,
+  "end": 138.806,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "对,没错。"
+ },
+ {
+  "seg": 27,
+  "start": 138.846,
+  "end": 155.322,
+  "speaker": "Unknown",
+  "en": "And so when you look at the site, I mean, there's just all the greatest hits that you can imagine from, you know, motorcycle games to person versus person, fighter games, all of these different formats, but you do them in a...",
+  "zh": "当你打开这个网站,我是说,那里有你所能想到的所有最经典的类型,从摩托车游戏到人与人对抗的格斗游戏,所有这些不同的形式,但你是用一种……"
+ },
+ {
+  "seg": 28,
+  "start": 156.703,
+  "end": 160.368,
+  "speaker": "Unknown",
+  "en": "A format that looks like TikTok where you can scroll through them.",
+  "zh": "一种看起来像 TikTok 的形式,你可以滑动浏览它们。"
+ },
+ {
+  "seg": 29,
+  "start": 160.829,
+  "end": 170.201,
+  "speaker": "Unknown",
+  "en": "If you don't like this game, you just scroll down to the next one and you can play a casual game, scroll down to the next one, play a military game, scroll down to the next one, play an archery game.",
+  "zh": "如果你不喜欢这个游戏,就往下滑到下一个,你可以玩一个休闲游戏,往下滑到下一个,玩一个军事游戏,再往下滑到下一个,玩一个射箭游戏。"
+ },
+ {
+  "seg": 30,
+  "start": 170.301,
+  "end": 172.804,
+  "speaker": "Unknown",
+  "en": "I mean, it's just incredible.",
+  "zh": "我是说,这太不可思议了。"
+ },
+ {
+  "seg": 31,
+  "start": 173.923,
+  "end": 193.368,
+  "speaker": "Unknown",
+  "en": "The creativity people have, and the idea of creating a video game, people would have to go to college, they would have to do internships, you would be five, six, seven years into training to actually make a game, and now you're telling me they can just do a prompt, make a game, and then publish it, and then play with their friends, yeah?",
+  "zh": "人们的创造力,以及制作电子游戏这个想法,以前人们得上大学,得做实习,得经过五年、六年、七年的训练才能真正做出一个游戏,而现在你告诉我他们只需写一个 prompt、做一个游戏,然后发布,然后和朋友一起玩,对吧?"
+ },
+ {
+  "seg": 32,
+  "start": 193.779,
+  "end": 194.579,
+  "speaker": "Unknown",
+  "en": "Yes, exactly.",
+  "zh": "是的,完全正确。"
+ },
+ {
+  "seg": 33,
+  "start": 194.88,
+  "end": 195.3,
+  "speaker": "Unknown",
+  "en": "It's hard.",
+  "zh": "这很难。"
+ },
+ {
+  "seg": 34,
+  "start": 195.54,
+  "end": 197.181,
+  "speaker": "Unknown",
+  "en": "Making games is really, really hard.",
+  "zh": "做游戏真的、真的很难。"
+ },
+ {
+  "seg": 35,
+  "start": 197.801,
+  "end": 199.882,
+  "speaker": "Unknown",
+  "en": "And I will tell you a little bit why this is so exciting.",
+  "zh": "我来告诉你一点为什么这如此令人兴奋。"
+ },
+ {
+  "seg": 36,
+  "start": 199.982,
+  "end": 208.226,
+  "speaker": "Unknown",
+  "en": "And it actually, I think I've been accidentally being trained to build AstroCape during my entire life.",
+  "zh": "而且实际上,我觉得我这一生都是在无意中被训练来构建 AstroCape 的。"
+ },
+ {
+  "seg": 37,
+  "start": 208.286,
+  "end": 213.568,
+  "speaker": "Unknown",
+  "en": "I can tell you a little bit like, so the co-founder of me, it's one of my brothers actually my CTO and co-founder.",
+  "zh": "我可以这么跟你说,我的联合创始人,其实是我兄弟中的一个,他是我的 CTO 兼联合创始人。"
+ },
+ {
+  "seg": 38,
+  "start": 213.668,
+  "end": 216.93,
+  "speaker": "Unknown",
+  "en": "And we've been raised in four different continents.",
+  "zh": "我们在四个不同的大洲长大。"
+ },
+ {
+  "seg": 39,
+  "start": 217.63,
+  "end": 224.037,
+  "speaker": "Unknown",
+  "en": "We were born and raised in Spain for five years, five years in Zimbabwe, 10 years in Iran, and then we came 13 years in US.",
+  "zh": "我们出生并在西班牙生活了五年,在津巴布韦五年,在伊朗十年,然后我们来到美国 13 年。"
+ },
+ {
+  "seg": 40,
+  "start": 224.097,
+  "end": 226.82,
+  "speaker": "Unknown",
+  "en": "US has been the longest place we've lived in.",
+  "zh": "美国是我们住得最久的地方。"
+ },
+ {
+  "seg": 41,
+  "start": 227.48,
+  "end": 234.368,
+  "speaker": "Unknown",
+  "en": "And the interesting thing, I think when you're raised this way, the interesting thing is you just see so many different cultures.",
+  "zh": "而有趣的是,我觉得当你这样长大,有趣的地方在于你会看到如此多不同的文化。"
+ },
+ {
+  "seg": 42,
+  "start": 234.508,
+  "end": 236.59,
+  "speaker": "Unknown",
+  "en": "Every country you go is completely different.",
+  "zh": "你去的每个国家都完全不同。"
+ },
+ {
+  "seg": 43,
+  "start": 236.97,
+  "end": 238.39,
+  "speaker": "Unknown",
+  "en": "The people are different.",
+  "zh": "人不同。"
+ },
+ {
+  "seg": 44,
+  "start": 238.731,
+  "end": 239.971,
+  "speaker": "Unknown",
+  "en": "The culture is different.",
+  "zh": "文化不同。"
+ },
+ {
+  "seg": 45,
+  "start": 240.011,
+  "end": 245.812,
+  "speaker": "Unknown",
+  "en": "The food, the traditions, the topography and the architecture, everything is unique.",
+  "zh": "食物、传统、地形和建筑,一切都是独特的。"
+ },
+ {
+  "seg": 46,
+  "start": 246.052,
+  "end": 253.635,
+  "speaker": "Unknown",
+  "en": "And it's so beautiful because each of these places have been built by different people with different cultures, with different mindsets.",
+  "zh": "这非常美好,因为每一个这样的地方都是由拥有不同文化、不同思维方式的不同的人建造的。"
+ },
+ {
+  "seg": 47,
+  "start": 254.135,
+  "end": 258.676,
+  "speaker": "Unknown",
+  "en": "And I think one of the biggest things we had was from the beginning, we were all, by the way, gamers.",
+  "zh": "而且我觉得我们最大的特点之一是,从一开始,顺便说一句,我们全都是玩家。"
+ },
+ {
+  "seg": 48,
+  "start": 258.696,
+  "end": 259.036,
+  "speaker": "Unknown",
+  "en": "We were like...",
+  "zh": "我们就像……"
+ },
+ {
+  "seg": 49,
+  "start": 259.436,
+  "end": 260.537,
+  "speaker": "Unknown",
+  "en": "Hardcore gamers.",
+  "zh": "硬核玩家。"
+ },
+ {
+  "seg": 50,
+  "start": 260.697,
+  "end": 263.339,
+  "speaker": "Unknown",
+  "en": "I'm now more of a casual gamer.",
+  "zh": "我现在算是一个比较休闲的游戏玩家了。"
+ },
+ {
+  "seg": 51,
+  "start": 263.759,
+  "end": 270.044,
+  "speaker": "Unknown",
+  "en": "I'll call it even a player rather than gamer because when you say game, it's a different visual.",
+  "zh": "我甚至会说我是玩家而不是游戏玩家，因为你说「游戏」的时候，它呈现出的是另一种画面。"
+ },
+ {
+  "seg": 52,
+  "start": 270.404,
+  "end": 276.488,
+  "speaker": "Unknown",
+  "en": "Yeah, and we were like, okay, why is this not happening with the gaming and interactive content?",
+  "zh": "是的，我们当时就想，为什么游戏和互动内容领域没有发生这种事？"
+ },
+ {
+  "seg": 53,
+  "start": 276.588,
+  "end": 282.172,
+  "speaker": "Unknown",
+  "en": "And it boils down to what you just said, actually, because creating a game, it's so hard.",
+  "zh": "其实归根结底就是你刚才说的那个原因，因为创造一款游戏太难了。"
+ },
+ {
+  "seg": 54,
+  "start": 282.212,
+  "end": 287.596,
+  "speaker": "Unknown",
+  "en": "You have to go get educated and you need to have multiple set of skills or build a studio to do it.",
+  "zh": "你必须去接受教育，你需要掌握多种技能，或者组建一个工作室来做这件事。"
+ },
+ {
+  "seg": 55,
+  "start": 288.376,
+  "end": 289.597,
+  "speaker": "Unknown",
+  "en": "It needs coding, right?",
+  "zh": "它需要编程，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 289.917,
+  "end": 291.557,
+  "speaker": "Unknown",
+  "en": "You need to know how to build assets.",
+  "zh": "你需要知道如何制作资产。"
+ },
+ {
+  "seg": 57,
+  "start": 291.577,
+  "end": 293.638,
+  "speaker": "Unknown",
+  "en": "You need to build how to tune the game.",
+  "zh": "你需要懂得如何调整游戏。"
+ },
+ {
+  "seg": 58,
+  "start": 293.678,
+  "end": 295.419,
+  "speaker": "Unknown",
+  "en": "How the game feels is very, very hard.",
+  "zh": "游戏的手感是非常非常难做的。"
+ },
+ {
+  "seg": 59,
+  "start": 295.659,
+  "end": 298.46,
+  "speaker": "Unknown",
+  "en": "And you need to also understand the psychology of player, right?",
+  "zh": "而且你还需要理解玩家的心理，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 298.48,
+  "end": 300.261,
+  "speaker": "Unknown",
+  "en": "To make something really fun, right?",
+  "zh": "才能做出真正有趣的东西，对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 300.981,
+  "end": 304.783,
+  "speaker": "Unknown",
+  "en": "So basically what we did is we removed all these barriers.",
+  "zh": "所以我们基本上做的就是移除了所有这些门槛。"
+ },
+ {
+  "seg": 62,
+  "start": 306.108,
+  "end": 310.654,
+  "speaker": "Unknown",
+  "en": "We removed all these barriers, and thanks to Generative AI, we started the company in 2022.",
+  "zh": "我们移除了所有这些门槛，多亏了生成式 AI，我们在 2022 年创办了这家公司。"
+ },
+ {
+  "seg": 63,
+  "start": 310.774,
+  "end": 314.479,
+  "speaker": "Unknown",
+  "en": "And the reason, again, is another part of my life.",
+  "zh": "再说原因，这也是我人生的另一部分。"
+ },
+ {
+  "seg": 64,
+  "start": 314.499,
+  "end": 319.265,
+  "speaker": "Unknown",
+  "en": "I've been in AI 2013, I did my PhD at Stanford AI, when AI was actually not cool.",
+  "zh": "我从 2013 年就从事 AI 了，我在斯坦福 AI 读的博士，那时候 AI 其实一点都不酷。"
+ },
+ {
+  "seg": 65,
+  "start": 319.445,
+  "end": 320.847,
+  "speaker": "Unknown",
+  "en": "Nobody was talking about AI at the time.",
+  "zh": "当时没有人谈论 AI。"
+ },
+ {
+  "seg": 66,
+  "start": 322.129,
+  "end": 330.417,
+  "speaker": "Unknown",
+  "en": "And in 2022, we saw that the technology is actually getting to a place that you can actually generate these interactive worlds.",
+  "zh": "到了 2022 年，我们看到技术实际上已经发展到了你真的可以生成这些互动世界的程度。"
+ },
+ {
+  "seg": 67,
+  "start": 331.017,
+  "end": 338.385,
+  "speaker": "Unknown",
+  "en": "It took us a while to basically improve the technology to be able to make fun content, but that's basically the reason.",
+  "zh": "我们花了一段时间来改进技术，才能做出有趣的内容，但基本上这就是原因。"
+ },
+ {
+  "seg": 68,
+  "start": 339.946,
+  "end": 340.868,
+  "speaker": "Unknown",
+  "en": "And we built this technology.",
+  "zh": "我们构建了这项技术。"
+ },
+ {
+  "seg": 69,
+  "start": 340.888,
+  "end": 341.889,
+  "speaker": "Unknown",
+  "en": "It's a funny story.",
+  "zh": "这有个有趣的故事。"
+ },
+ {
+  "seg": 70,
+  "start": 341.929,
+  "end": 344.694,
+  "speaker": "Unknown",
+  "en": "I think this is something I think you would enjoy.",
+  "zh": "我觉得这是你们会喜欢的东西。"
+ },
+ {
+  "seg": 71,
+  "start": 345.716,
+  "end": 350.564,
+  "speaker": "Unknown",
+  "en": "So the first office for us was in my in-law suite in my house.",
+  "zh": "我们的第一间办公室是在我家的姻亲套房里。"
+ },
+ {
+  "seg": 72,
+  "start": 351.505,
+  "end": 352.547,
+  "speaker": "Unknown",
+  "en": "We had a fridge in the middle.",
+  "zh": "中间放着一个冰箱。"
+ },
+ {
+  "seg": 73,
+  "start": 353.406,
+  "end": 358.848,
+  "speaker": "Unknown",
+  "en": "So, and one of my founding engineers, one of them said like, hey, let's just order watermelon juice.",
+  "zh": "我的创始工程师之一说，嘿，我们订点西瓜汁吧。"
+ },
+ {
+  "seg": 74,
+  "start": 360.269,
+  "end": 362.67,
+  "speaker": "Unknown",
+  "en": "So we ordered a bunch of these small watermelon juice.",
+  "zh": "于是我们订了一大堆这种小瓶的西瓜汁。"
+ },
+ {
+  "seg": 75,
+  "start": 362.69,
+  "end": 369.212,
+  "speaker": "Unknown",
+  "en": "We filled up the entire row of the fridge and two days passed, the entire row got finished.",
+  "zh": "我们把冰箱的整排放满了，两天过去，整排都被喝完了。"
+ },
+ {
+  "seg": 76,
+  "start": 370.033,
+  "end": 370.453,
+  "speaker": "Unknown",
+  "en": "It finished.",
+  "zh": "喝完了。"
+ },
+ {
+  "seg": 77,
+  "start": 371.193,
+  "end": 371.914,
+  "speaker": "Unknown",
+  "en": "And they wanted more.",
+  "zh": "而且他们还想要更多。"
+ },
+ {
+  "seg": 78,
+  "start": 371.954,
+  "end": 376.037,
+  "speaker": "Unknown",
+  "en": "So we were like, okay, this is like, we need to be more economically viable.",
+  "zh": "我们就想，好吧，这样，我们需要更经济一点。"
+ },
+ {
+  "seg": 79,
+  "start": 376.357,
+  "end": 381.561,
+  "speaker": "Unknown",
+  "en": "So we went and bought these bigger half a liter bottles of watermelon juice and we put it in the fridge.",
+  "zh": "于是我们去买了这些更大的半升装西瓜汁瓶，放进了冰箱。"
+ },
+ {
+  "seg": 80,
+  "start": 381.962,
+  "end": 382.502,
+  "speaker": "Unknown",
+  "en": "It's tasty.",
+  "zh": "很好喝。"
+ },
+ {
+  "seg": 81,
+  "start": 382.762,
+  "end": 384.203,
+  "speaker": "Unknown",
+  "en": "It's a tasty addiction.",
+  "zh": "这是一种美味的上瘾。"
+ },
+ {
+  "seg": 82,
+  "start": 384.224,
+  "end": 384.444,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 83,
+  "start": 385.064,
+  "end": 385.625,
+  "speaker": "Unknown",
+  "en": "Great thing.",
+  "zh": "很棒的东西。"
+ },
+ {
+  "seg": 84,
+  "start": 387.026,
+  "end": 389.408,
+  "speaker": "Unknown",
+  "en": "Two weeks past, nobody touched these bottles.",
+  "zh": "两周过去了，没人碰那些瓶子。"
+ },
+ {
+  "seg": 85,
+  "start": 389.968,
+  "end": 395.432,
+  "speaker": "Unknown",
+  "en": "From small bottles that everyone finished, we made them just bigger and put them in the fridge.",
+  "zh": "从小瓶子大家都喝完，到我们只是换成更大的瓶子放进冰箱。"
+ },
+ {
+  "seg": 86,
+  "start": 395.452,
+  "end": 397.233,
+  "speaker": "Unknown",
+  "en": "The demand completely disappeared.",
+  "zh": "需求完全消失了。"
+ },
+ {
+  "seg": 87,
+  "start": 397.914,
+  "end": 400.356,
+  "speaker": "Unknown",
+  "en": "So it's funny, my brother was like, okay, let's do an experiment.",
+  "zh": "有意思的是，我弟弟说，好吧，我们做个实验。"
+ },
+ {
+  "seg": 88,
+  "start": 400.936,
+  "end": 405.219,
+  "speaker": "Unknown",
+  "en": "So he then went and took this watermelon and put cups right next to them.",
+  "zh": "于是他走过去，把西瓜汁旁边放上了杯子。"
+ },
+ {
+  "seg": 89,
+  "start": 406.26,
+  "end": 410.063,
+  "speaker": "Unknown",
+  "en": "Just this small change, now people started actually consuming watermelon.",
+  "zh": "就是这么一个小改变，现在人们开始真的喝西瓜汁了。"
+ },
+ {
+  "seg": 90,
+  "start": 410.503,
+  "end": 415.767,
+  "speaker": "Unknown",
+  "en": "And we were watching this and he was like, okay, this is exactly the story of Astrocade.",
+  "zh": "我们看着这一幕，他说，好吧，这完全就是 Astrocade 的故事。"
+ },
+ {
+  "seg": 91,
+  "start": 416.883,
+  "end": 422.187,
+  "speaker": "Unknown",
+  "en": "The friction, we removed a big barrier from the users and suddenly demand popped up.",
+  "zh": "摩擦力——我们为用户移除了一道巨大的门槛，突然需求就冒出来了。"
+ },
+ {
+  "seg": 92,
+  "start": 422.367,
+  "end": 426.491,
+  "speaker": "Unknown",
+  "en": "Like now everyone is making watermelon juice.",
+  "zh": "就像现在每个人都在做西瓜汁。"
+ },
+ {
+  "seg": 93,
+  "start": 426.751,
+  "end": 428.972,
+  "speaker": "Unknown",
+  "en": "Now everyone is creating games, sorry.",
+  "zh": "现在每个人都在创作游戏，抱歉说错了。"
+ },
+ {
+  "seg": 94,
+  "start": 429.053,
+  "end": 429.933,
+  "speaker": "Unknown",
+  "en": "Lon made a game.",
+  "zh": "Lon 做了一款游戏。"
+ },
+ {
+  "seg": 95,
+  "start": 430.674,
+  "end": 431.735,
+  "speaker": "Unknown",
+  "en": "Well, in under 10 minutes.",
+  "zh": "而且是在不到 10 分钟内。"
+ },
+ {
+  "seg": 96,
+  "start": 431.775,
+  "end": 431.895,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 97,
+  "start": 431.915,
+  "end": 435.418,
+  "speaker": "Unknown",
+  "en": "And I have one that's being made as we speak in there.",
+  "zh": "我还有一款游戏正在那边制作中，就在我们说话的这时候。"
+ },
+ {
+  "seg": 98,
+  "start": 435.818,
+  "end": 437.799,
+  "speaker": "Unknown",
+  "en": "I have a spaceship game where I go eat donuts.",
+  "zh": "我做了一款飞船游戏，我要开着飞船去吃甜甜圈。"
+ },
+ {
+  "seg": 99,
+  "start": 438.78,
+  "end": 444.264,
+  "speaker": "Unknown",
+  "en": "But what's really nice is today, a lot of the concepts in",
+  "zh": "但真正棒的是，今天，很多概念在"
+ },
+ {
+  "seg": 100,
+  "start": 445.145,
+  "end": 446.966,
+  "speaker": "Unknown",
+  "en": "are already baked into the language model.",
+  "zh": "已经预先内置在语言模型里了。"
+ },
+ {
+  "seg": 101,
+  "start": 446.986,
+  "end": 461.116,
+  "speaker": "Unknown",
+  "en": "So if you say, I want to create a spaceship game, it has the history of video games, it has reviews of every game ever made, it has people writing blog posts or podcasts about video game culture, what they like about games.",
+  "zh": "所以如果你说,我想创建一个太空飞船游戏,它拥有电子游戏的历史,它拥有有史以来每一款游戏的评论,它拥有人们写的博客文章或关于游戏文化的播客,关于他们喜欢游戏的哪些方面。"
+ },
+ {
+  "seg": 102,
+  "start": 461.777,
+  "end": 467.421,
+  "speaker": "Unknown",
+  "en": "So how does, I just put it in one sentence, I want a spaceship that goes and collects donuts.",
+  "zh": "那么怎么……我就只用一句话输入,我想要一个飞来飞去收集甜甜圈的太空飞船。"
+ },
+ {
+  "seg": 103,
+  "start": 468.441,
+  "end": 473.325,
+  "speaker": "Unknown",
+  "en": "How does it, how do you build the harness and the knowledge around it to then decide,",
+  "zh": "它是怎么,你怎么围绕它构建框架和知识,然后来决定,"
+ },
+ {
+  "seg": 104,
+  "start": 473.625,
+  "end": 486.791,
+  "speaker": "Unknown",
+  "en": "How complex the game is, the levels of the game, all that stuff, you know, and is that something where you want the users to front load that or you want them to just make a simple game and then refine on the back end?",
+  "zh": "游戏有多复杂,游戏的关卡,所有这些东西,你知道的,你是希望用户预先把这些都填好,还是希望他们先做一个简单的游戏然后在后端再打磨?"
+ },
+ {
+  "seg": 105,
+  "start": 486.811,
+  "end": 494.455,
+  "speaker": "Unknown",
+  "en": "Because refining AI-generated content has always been a bit difficult, but here you're doing coding, so maybe it's not as difficult.",
+  "zh": "因为打磨 AI 生成的内容一直都有点困难,但这里你是在做编码,所以也许没那么难。"
+ },
+ {
+  "seg": 106,
+  "start": 494.475,
+  "end": 494.895,
+  "speaker": "Unknown",
+  "en": "You tell me.",
+  "zh": "你告诉我。"
+ },
+ {
+  "seg": 107,
+  "start": 494.995,
+  "end": 496.076,
+  "speaker": "Unknown",
+  "en": "That's a very good point.",
+  "zh": "这是一个非常好的观点。"
+ },
+ {
+  "seg": 108,
+  "start": 496.136,
+  "end": 498.717,
+  "speaker": "Unknown",
+  "en": "We actually tried to find a really good balance here.",
+  "zh": "我们实际上一直试图在这里找到一个非常好的平衡。"
+ },
+ {
+  "seg": 109,
+  "start": 499.117,
+  "end": 506.082,
+  "speaker": "Unknown",
+  "en": "You could let AI to do everything and you can put the user in the middle and try to ask them to refine the experience.",
+  "zh": "你可以让 AI 做所有事情,也可以把用户放在中间,试着让他们打磨体验。"
+ },
+ {
+  "seg": 110,
+  "start": 506.562,
+  "end": 514.627,
+  "speaker": "Unknown",
+  "en": "What we learned actually through the past two and a half years of really working closely with our creators is AI is still not there yet.",
+  "zh": "我们通过过去两年半与创作者密切合作实际学到的是,AI 仍然还没到那一步。"
+ },
+ {
+  "seg": 111,
+  "start": 515.047,
+  "end": 516.388,
+  "speaker": "Unknown",
+  "en": "AI cannot make a full game.",
+  "zh": "AI 无法做出一个完整的游戏。"
+ },
+ {
+  "seg": 112,
+  "start": 516.788,
+  "end": 519.21,
+  "speaker": "Unknown",
+  "en": "It can copy the games that they have been trained on.",
+  "zh": "它可以复制它们训练过的那些游戏。"
+ },
+ {
+  "seg": 113,
+  "start": 519.43,
+  "end": 521.572,
+  "speaker": "Unknown",
+  "en": "Like Flappy Bird, you say, I want a Flappy Bird.",
+  "zh": "比如 Flappy Bird,你说,我想要一个 Flappy Bird。"
+ },
+ {
+  "seg": 114,
+  "start": 521.652,
+  "end": 527.536,
+  "speaker": "Unknown",
+  "en": "It can generate because it's been so many Flappy Bird code that the AI has been trained on and it can generate.",
+  "zh": "它可以生成,因为有太多 Flappy Bird 代码是 AI 训练过的,它可以生成。"
+ },
+ {
+  "seg": 115,
+  "start": 527.956,
+  "end": 535.141,
+  "speaker": "Unknown",
+  "en": "But if you could, the moment you start making actually a new experience or some modification to an experience, actually AI struggles a lot.",
+  "zh": "但一旦你真正开始做一个全新的体验,或者对某个体验做一些修改,AI 实际上会非常吃力。"
+ },
+ {
+  "seg": 116,
+  "start": 535.521,
+  "end": 535.721,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 117,
+  "start": 535.941,
+  "end": 537.062,
+  "speaker": "Unknown",
+  "en": "That's where our creators come.",
+  "zh": "这就是我们的创作者发挥作用的地方。"
+ },
+ {
+  "seg": 118,
+  "start": 537.403,
+  "end": 546.089,
+  "speaker": "Unknown",
+  "en": "Actually, most of our, like, cool games, they've been through many iterations and many, like, literally wishes.",
+  "zh": "实际上,我们大多数,比如说,很酷的游戏,它们都经历了许多次迭代和许多,真的是许多次心愿。"
+ },
+ {
+  "seg": 119,
+  "start": 546.129,
+  "end": 547.03,
+  "speaker": "Unknown",
+  "en": "We call it wish prompt.",
+  "zh": "我们把它叫做心愿提示词。"
+ },
+ {
+  "seg": 120,
+  "start": 547.05,
+  "end": 547.971,
+  "speaker": "Unknown",
+  "en": "We call the prompts wishes.",
+  "zh": "我们把这些提示词称为心愿。"
+ },
+ {
+  "seg": 121,
+  "start": 548.271,
+  "end": 552.194,
+  "speaker": "Unknown",
+  "en": "They go through multiple iteration of wishes to become really, really good.",
+  "zh": "它们要经过多轮心愿的迭代,才能变得真正、真正的好。"
+ },
+ {
+  "seg": 122,
+  "start": 553.054,
+  "end": 553.615,
+  "speaker": "Unknown",
+  "en": "I can show you.",
+  "zh": "我可以给你展示。"
+ },
+ {
+  "seg": 123,
+  "start": 553.635,
+  "end": 555.376,
+  "speaker": "Unknown",
+  "en": "Do you want me to show you a demo of one of these games?",
+  "zh": "你想让我给你演示一下这些游戏中的一个吗?"
+ },
+ {
+  "seg": 124,
+  "start": 555.636,
+  "end": 556.777,
+  "speaker": "Unknown",
+  "en": "Absolutely, absolutely.",
+  "zh": "当然,当然。"
+ },
+ {
+  "seg": 125,
+  "start": 556.797,
+  "end": 564.063,
+  "speaker": "Unknown",
+  "en": "And it's really interesting because you have thought about, I'm in my interface right now, hey, is this a simple game or an advanced game?",
+  "zh": "这真的很有意思,因为你已经考虑到了——我现在在我的界面里——嘿,这是简单游戏还是高级游戏?"
+ },
+ {
+  "seg": 126,
+  "start": 564.503,
+  "end": 566.865,
+  "speaker": "Unknown",
+  "en": "What's the acceleration, the rotation speed?",
+  "zh": "加速度是多少,旋转速度是多少?"
+ },
+ {
+  "seg": 127,
+  "start": 566.885,
+  "end": 569.667,
+  "speaker": "Unknown",
+  "en": "You know, just what the obvious things are I should change.",
+  "zh": "你知道的,就是我应该改的那些显而易见的东西。"
+ },
+ {
+  "seg": 128,
+  "start": 569.687,
+  "end": 571.249,
+  "speaker": "Unknown",
+  "en": "But here you're making Arrow Storm.",
+  "zh": "但这里你在做 Arrow Storm。"
+ },
+ {
+  "seg": 129,
+  "start": 571.289,
+  "end": 573.19,
+  "speaker": "Unknown",
+  "en": "So let's see how you do this.",
+  "zh": "那我们来看看你是怎么做的。"
+ },
+ {
+  "seg": 130,
+  "start": 573.49,
+  "end": 576.052,
+  "speaker": "Unknown",
+  "en": "This is actually, this is from one of our creators.",
+  "zh": "这个其实,这是来自我们一位创作者的。"
+ },
+ {
+  "seg": 131,
+  "start": 576.553,
+  "end": 577.994,
+  "speaker": "Unknown",
+  "en": "Oh, one of your creators.",
+  "zh": "哦,你们的一位创作者。"
+ },
+ {
+  "seg": 132,
+  "start": 578.014,
+  "end": 580.195,
+  "speaker": "Unknown",
+  "en": "Yeah, I just copied for the save of the demo.",
+  "zh": "是的,我为了演示方便直接复制过来的。"
+ },
+ {
+  "seg": 133,
+  "start": 580.215,
+  "end": 585.84,
+  "speaker": "Unknown",
+  "en": "So this is like a game that you have to basically go kill enemies, you can upgrade your arrow and stuff.",
+  "zh": "所以这是一个基本上你要去消灭敌人的游戏,你可以升级你的箭之类的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 586.416,
+  "end": 588.097,
+  "speaker": "Unknown",
+  "en": "Okay, actually level up.",
+  "zh": "好的,实际上升级了。"
+ },
+ {
+  "seg": 135,
+  "start": 588.157,
+  "end": 589.438,
+  "speaker": "Unknown",
+  "en": "Oh, you've leveled up.",
+  "zh": "哦,你升级了。"
+ },
+ {
+  "seg": 136,
+  "start": 589.498,
+  "end": 591.059,
+  "speaker": "Unknown",
+  "en": "I don't want to mess up your streak here.",
+  "zh": "我可不想毁了你的连胜。"
+ },
+ {
+  "seg": 137,
+  "start": 593.181,
+  "end": 594.661,
+  "speaker": "Unknown",
+  "en": "These games are so addicting too.",
+  "zh": "这些游戏也真的很让人上瘾。"
+ },
+ {
+  "seg": 138,
+  "start": 594.722,
+  "end": 599.445,
+  "speaker": "Unknown",
+  "en": "So does it understand gamification natively?",
+  "zh": "那么它能原生理解游戏化吗?"
+ },
+ {
+  "seg": 139,
+  "start": 599.545,
+  "end": 602.627,
+  "speaker": "Unknown",
+  "en": "And can you tell it, hey, I want to do gamification here.",
+  "zh": "你能不能告诉它,嘿,我想在这里做游戏化。"
+ },
+ {
+  "seg": 140,
+  "start": 602.687,
+  "end": 607.05,
+  "speaker": "Unknown",
+  "en": "I want to have these levels and, you know, equipment upgrades, et cetera.",
+  "zh": "我想要有这些关卡,你知道的,装备升级,等等。"
+ },
+ {
+  "seg": 141,
+  "start": 607.11,
+  "end": 608.831,
+  "speaker": "Unknown",
+  "en": "Or does it just guess that you want that?",
+  "zh": "还是说它只是猜你想要那些?"
+ },
+ {
+  "seg": 142,
+  "start": 609.569,
+  "end": 615.091,
+  "speaker": "Unknown",
+  "en": "AI can give you suggestions, but I think the best way that works is like your own taste and choosing it.",
+  "zh": "AI 可以给你建议,但我认为最有效的方式是你自己的品味和选择。"
+ },
+ {
+  "seg": 143,
+  "start": 615.392,
+  "end": 616.252,
+  "speaker": "Unknown",
+  "en": "AI can guide you.",
+  "zh": "AI 可以引导你。"
+ },
+ {
+  "seg": 144,
+  "start": 616.572,
+  "end": 619.493,
+  "speaker": "Unknown",
+  "en": "You can say, hey, add gamification to my game.",
+  "zh": "你可以说,嘿,给我的游戏加上游戏化。"
+ },
+ {
+  "seg": 145,
+  "start": 619.853,
+  "end": 623.155,
+  "speaker": "Unknown",
+  "en": "But like most of the time, it's not a good gamification.",
+  "zh": "但大多数时候,它做出来的并不是一个好的游戏化。"
+ },
+ {
+  "seg": 146,
+  "start": 623.215,
+  "end": 625.436,
+  "speaker": "Unknown",
+  "en": "It gives you ideas, but I think you have to choose.",
+  "zh": "它给你点子,但我觉得你得自己来选。"
+ },
+ {
+  "seg": 147,
+  "start": 625.736,
+  "end": 628.157,
+  "speaker": "Unknown",
+  "en": "So this creator actually chose this kind of gamification.",
+  "zh": "所以这位创作者实际上选择了这种游戏化。"
+ },
+ {
+  "seg": 148,
+  "start": 628.657,
+  "end": 631.098,
+  "speaker": "Unknown",
+  "en": "And even these numbers needs to be tuned.",
+  "zh": "而且甚至这些数值也需要调。"
+ },
+ {
+  "seg": 149,
+  "start": 631.618,
+  "end": 634.9,
+  "speaker": "Unknown",
+  "en": "So one of the hard parts that even with AI in the loop is",
+  "zh": "所以,即使是把 AI 放进流程里,其中一个困难的点就是"
+ },
+ {
+  "seg": 150,
+  "start": 635.72,
+  "end": 638.182,
+  "speaker": "Unknown",
+  "en": "Every number and every tuning matters.",
+  "zh": "每一个数字、每一次调参都很重要。"
+ },
+ {
+  "seg": 151,
+  "start": 638.702,
+  "end": 644.065,
+  "speaker": "Unknown",
+  "en": "If you change this 25% to 50%, suddenly game becomes so boring because you can just go on winning.",
+  "zh": "如果你把这个 25% 改成 50%,游戏突然就变得很无聊，因为你可以一直赢下去。"
+ },
+ {
+  "seg": 152,
+  "start": 644.525,
+  "end": 649.608,
+  "speaker": "Unknown",
+  "en": "So human still needs to play it, like you need to create it, play test it, go back and iterate on it.",
+  "zh": "所以人还是需要去玩它，比如你需要创建它、试玩测试它，然后回头迭代。"
+ },
+ {
+  "seg": 153,
+  "start": 649.628,
+  "end": 652.25,
+  "speaker": "Unknown",
+  "en": "So I'm going to choose this, like, and I'm going to continue.",
+  "zh": "所以我要选这个，比如，然后我要继续。"
+ },
+ {
+  "seg": 154,
+  "start": 652.69,
+  "end": 653.75,
+  "speaker": "Unknown",
+  "en": "So this is basically the game.",
+  "zh": "所以这基本上就是这个游戏。"
+ },
+ {
+  "seg": 155,
+  "start": 653.77,
+  "end": 655.351,
+  "speaker": "Unknown",
+  "en": "Look at the clouds on top.",
+  "zh": "看看顶部的云。"
+ },
+ {
+  "seg": 156,
+  "start": 655.391,
+  "end": 656.412,
+  "speaker": "Unknown",
+  "en": "Look at every, all of these.",
+  "zh": "看每一个、所有这些。"
+ },
+ {
+  "seg": 157,
+  "start": 656.492,
+  "end": 657.792,
+  "speaker": "Unknown",
+  "en": "I mean, the fidelity is amazing.",
+  "zh": "我是说，保真度太惊人了。"
+ },
+ {
+  "seg": 158,
+  "start": 657.812,
+  "end": 667.056,
+  "speaker": "Unknown",
+  "en": "This is like if I was on a Nintendo Switch or my iPhone playing a game, it looks like a modern casual game on an iPhone or an Android phone.",
+  "zh": "这就像如果我在 Nintendo Switch 或我的 iPhone 上玩一个游戏，它看起来像 iPhone 或 Android 手机上的一个现代休闲游戏。"
+ },
+ {
+  "seg": 159,
+  "start": 667.456,
+  "end": 668.696,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 160,
+  "start": 668.876,
+  "end": 673.638,
+  "speaker": "Unknown",
+  "en": "Two years ago, three years ago, this would take like five people, six months to bake this game with a lot of budget.",
+  "zh": "两年前、三年前，这需要大概五个人花六个月、还有大量预算才能做出这个游戏。"
+ },
+ {
+  "seg": 161,
+  "start": 673.958,
+  "end": 676.179,
+  "speaker": "Unknown",
+  "en": "So let me show you actually how this game was made.",
+  "zh": "那让我实际给你展示一下这个游戏是怎么做出来的。"
+ },
+ {
+  "seg": 162,
+  "start": 676.439,
+  "end": 676.679,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 163,
+  "start": 676.699,
+  "end": 684.502,
+  "speaker": "Unknown",
+  "en": "So Amir, I see on the left-hand side, you have the chat window, just like you would have a conversation with any large language model.",
+  "zh": "那么 Amir,我看到在左手边，你有聊天窗口，就像你与任何 LLM 对话一样。"
+ },
+ {
+  "seg": 164,
+  "start": 684.742,
+  "end": 685.442,
+  "speaker": "Unknown",
+  "en": "And then in the middle-",
+  "zh": "然后在中间——"
+ },
+ {
+  "seg": 165,
+  "start": 686.437,
+  "end": 690.58,
+  "speaker": "Unknown",
+  "en": "We have the game, and on the right, we have game settings, yeah?",
+  "zh": "我们有游戏，在右边，我们有游戏设置，对吧？"
+ },
+ {
+  "seg": 166,
+  "start": 691.42,
+  "end": 692.481,
+  "speaker": "Unknown",
+  "en": "Exactly, exactly.",
+  "zh": "没错，没错。"
+ },
+ {
+  "seg": 167,
+  "start": 692.501,
+  "end": 693.361,
+  "speaker": "Unknown",
+  "en": "So, and I'm going to explain.",
+  "zh": "那么，我来解释一下。"
+ },
+ {
+  "seg": 168,
+  "start": 693.541,
+  "end": 695.983,
+  "speaker": "Unknown",
+  "en": "So the main way is the natural language.",
+  "zh": "所以主要方式是自然语言。"
+ },
+ {
+  "seg": 169,
+  "start": 696.003,
+  "end": 702.066,
+  "speaker": "Unknown",
+  "en": "So you describe, hey, in the menu, Photoshop, button, underplay button, whatever you can say, resize it, make the shop button blue.",
+  "zh": "所以你描述，嘿，在菜单里，Photoshop、按钮、play 按钮下面，你可以说任何话，调整它的大小，把商店按钮变成蓝色。"
+ },
+ {
+  "seg": 170,
+  "start": 702.307,
+  "end": 708.07,
+  "speaker": "Unknown",
+  "en": "So you see actually creator is like interacting with AI, but a lot of things that I mentioned needs tuning.",
+  "zh": "所以你实际上看到创作者是在与 AI 交互，但我提到的很多东西都需要调参。"
+ },
+ {
+  "seg": 171,
+  "start": 708.25,
+  "end": 711.251,
+  "speaker": "Unknown",
+  "en": "And natural language sometimes is not the best way to do it, right?",
+  "zh": "而自然语言有时不是最好的方式，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 711.291,
+  "end": 720.515,
+  "speaker": "Unknown",
+  "en": "For example, if you want to fine tune the flower occurrences, you don't want to go like back and forth on like say 0.25, then go to tell you a 0.3.",
+  "zh": "举个例子，如果你想微调花朵出现的频率，你不会想这样来回反复，比如说 0.25,然后再去告诉它 0.3。"
+ },
+ {
+  "seg": 173,
+  "start": 720.555,
+  "end": 729.739,
+  "speaker": "Unknown",
+  "en": "So sometimes it's easier to just like tune it with like- Yeah, put in a number, make it very explicit because large language models are non-deterministic.",
+  "zh": "所以有时候直接调参更容易，比如——对，输入一个数字，让它非常明确，因为 LLM 是非确定性的。"
+ },
+ {
+  "seg": 174,
+  "start": 729.759,
+  "end": 734.681,
+  "speaker": "Unknown",
+  "en": "They're taking a guess, that's the power of them as to what you want because they can fill in the gaps for you.",
+  "zh": "它们在猜测你想要什么，这正是它们的力量所在，因为它们可以帮你填补空白。"
+ },
+ {
+  "seg": 175,
+  "start": 734.701,
+  "end": 735.282,
+  "speaker": "Unknown",
+  "en": "But sometimes-",
+  "zh": "但有时——"
+ },
+ {
+  "seg": 176,
+  "start": 735.942,
+  "end": 737.724,
+  "speaker": "Unknown",
+  "en": "In a game, you want it to be deterministic.",
+  "zh": "在游戏里，你想要它是确定性的。"
+ },
+ {
+  "seg": 177,
+  "start": 737.744,
+  "end": 738.784,
+  "speaker": "Unknown",
+  "en": "You get three lives.",
+  "zh": "你有三条命。"
+ },
+ {
+  "seg": 178,
+  "start": 739.125,
+  "end": 745.951,
+  "speaker": "Unknown",
+  "en": "This boss has a thousand hit points and your sword does 10 hit points of damage each time, whatever it happens to be.",
+  "zh": "这个 Boss 有一千点生命值，你的剑每次造成 10 点伤害，诸如此类。"
+ },
+ {
+  "seg": 179,
+  "start": 746.031,
+  "end": 746.511,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 180,
+  "start": 746.531,
+  "end": 747.812,
+  "speaker": "Unknown",
+  "en": "And you want to tune it very quickly.",
+  "zh": "而且你想非常快速地调参。"
+ },
+ {
+  "seg": 181,
+  "start": 748.132,
+  "end": 749.594,
+  "speaker": "Unknown",
+  "en": "So that's basically what we generate.",
+  "zh": "所以这基本上就是我们生成的东西。"
+ },
+ {
+  "seg": 182,
+  "start": 749.654,
+  "end": 755.058,
+  "speaker": "Unknown",
+  "en": "Also, not that AI that is generating the game, but it also generates the editor for you.",
+  "zh": "另外，不只是 AI 在生成游戏，它还为你生成编辑器。"
+ },
+ {
+  "seg": 183,
+  "start": 755.479,
+  "end": 759.082,
+  "speaker": "Unknown",
+  "en": "So it's actually generating two things for you.",
+  "zh": "所以它实际上为你生成两样东西。"
+ },
+ {
+  "seg": 184,
+  "start": 759.142,
+  "end": 760.743,
+  "speaker": "Unknown",
+  "en": "And then you can basically go and tune it.",
+  "zh": "然后你基本上就可以去调参了。"
+ },
+ {
+  "seg": 185,
+  "start": 760.763,
+  "end": 762.645,
+  "speaker": "Unknown",
+  "en": "And that's basically the...",
+  "zh": "而这基本上就是……"
+ },
+ {
+  "seg": 186,
+  "start": 763.185,
+  "end": 768.667,
+  "speaker": "Unknown",
+  "en": "What we learned is the optimal way of creating interactive content, through natural language and through an editor.",
+  "zh": "我们学到的是，创作交互内容的最佳方式，就是通过自然语言加上一个编辑器。"
+ },
+ {
+  "seg": 187,
+  "start": 768.927,
+  "end": 772.608,
+  "speaker": "Unknown",
+  "en": "And this is, you don't, literally the only barrier right now is taste.",
+  "zh": "而这个，你——说实话，现在唯一的门槛就是品味。"
+ },
+ {
+  "seg": 188,
+  "start": 773.189,
+  "end": 776.55,
+  "speaker": "Unknown",
+  "en": "And I call actually, I say, taste is the new programming language.",
+  "zh": "而我实际上说，品味是新的编程语言。"
+ },
+ {
+  "seg": 189,
+  "start": 777.097,
+  "end": 777.397,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 190,
+  "start": 777.577,
+  "end": 778.758,
+  "speaker": "Unknown",
+  "en": "Well, attractive experience.",
+  "zh": "嗯，吸引人的体验。"
+ },
+ {
+  "seg": 191,
+  "start": 779.058,
+  "end": 788.765,
+  "speaker": "Unknown",
+  "en": "Because large language models have been trained on everything, there is a reversion to the mean, to the average sometimes.",
+  "zh": "因为 LLM 在所有东西上都训练过，有时会出现向均值回归、向平均值回归的情况。"
+ },
+ {
+  "seg": 192,
+  "start": 789.206,
+  "end": 796.631,
+  "speaker": "Unknown",
+  "en": "So people look at web design, and if you build something with a large language model, sometimes it goes to what is the most common design, which is not what you want.",
+  "zh": "所以人们看网页设计，如果你用 LLM 构建一个东西，有时它会变成最常见的设计，而这并不是你想要的。"
+ },
+ {
+  "seg": 193,
+  "start": 797.051,
+  "end": 804.136,
+  "speaker": "Unknown",
+  "en": "So then you've got to get a little bit more granular, and you've got to give it a better definition of that.",
+  "zh": "所以这时你就得更细粒度一些，你得给它一个更好的定义。"
+ },
+ {
+  "seg": 194,
+  "start": 804.676,
+  "end": 805.637,
+  "speaker": "Unknown",
+  "en": "And that could happen here.",
+  "zh": "这在这里也可能发生。"
+ },
+ {
+  "seg": 195,
+  "start": 805.717,
+  "end": 806.218,
+  "speaker": "Unknown",
+  "en": "Hey, it looks",
+  "zh": "嘿,看起来"
+ },
+ {
+  "seg": 196,
+  "start": 806.958,
+  "end": 808.38,
+  "speaker": "Unknown",
+  "en": "It looks like every other game.",
+  "zh": "看起来和其他所有游戏都一样。"
+ },
+ {
+  "seg": 197,
+  "start": 808.901,
+  "end": 810.383,
+  "speaker": "Unknown",
+  "en": "Sometimes that's good because it's familiar.",
+  "zh": "有时这是好事，因为它让人熟悉。"
+ },
+ {
+  "seg": 198,
+  "start": 810.463,
+  "end": 815.77,
+  "speaker": "Unknown",
+  "en": "Other times, if you're trying to do something unique and you want plants versus zombies, you actually want a different theme.",
+  "zh": "但其他时候，如果你想做点独特的东西，你想要 Plants versus Zombies,那你其实想要一个不同的主题。"
+ },
+ {
+  "seg": 199,
+  "start": 815.81,
+  "end": 817.412,
+  "speaker": "Unknown",
+  "en": "You want a different art style.",
+  "zh": "你想要一种不同的美术风格。"
+ },
+ {
+  "seg": 200,
+  "start": 817.472,
+  "end": 820.476,
+  "speaker": "Unknown",
+  "en": "So you got to get more specific in that case.",
+  "zh": "所以在这种情况下，你得更具体一些。"
+ },
+ {
+  "seg": 201,
+  "start": 821.053,
+  "end": 824.774,
+  "speaker": "Unknown",
+  "en": "And eventually, as you get more games and all those things, you can retrain.",
+  "zh": "而最终，随着你获得更多的游戏和所有这些东西，你可以重新训练。"
+ },
+ {
+  "seg": 202,
+  "start": 824.794,
+  "end": 830.556,
+  "speaker": "Unknown",
+  "en": "We have a plan to retrain these language models on our data and make them better and better and better over time.",
+  "zh": "我们有一个计划，要用我们的数据重新训练这些语言模型，让它们随着时间变得越来越好、越来越好。"
+ },
+ {
+  "seg": 203,
+  "start": 830.576,
+  "end": 836.958,
+  "speaker": "Unknown",
+  "en": "So it's going to be a self-evolving kind of agent or model that just keeps getting better at",
+  "zh": "所以它会是一种自我演化的智能体或模型，不断地在……方面变得更好"
+ },
+ {
+  "seg": 204,
+  "start": 837.098,
+  "end": 842.301,
+  "speaker": "Unknown",
+  "en": "Yeah, recursive learning based upon what these builders want, because these builders are different.",
+  "zh": "是的，基于这些创作者想要什么来进行递归学习，因为这些创作者各不相同。"
+ },
+ {
+  "seg": 205,
+  "start": 842.901,
+  "end": 848.304,
+  "speaker": "Unknown",
+  "en": "The first thing I thought of was I want to make a game about our family vacation and then play it with my daughters.",
+  "zh": "我第一反应想到的是，我想做一个关于我们全家度假的游戏，然后和我的女儿们一起玩。"
+ },
+ {
+  "seg": 206,
+  "start": 848.324,
+  "end": 851.646,
+  "speaker": "Unknown",
+  "en": "So I was like, well, we have to be the characters and our Bulldogs have to be the characters.",
+  "zh": "所以我当时想，嗯，我们得成为角色，我们的斗牛犬也得成为角色。"
+ },
+ {
+  "seg": 207,
+  "start": 851.986,
+  "end": 858.71,
+  "speaker": "Unknown",
+  "en": "So do I have the ability to upload assets like pictures of my Bulldogs and have a Bulldog video game based on my three Bulldogs?",
+  "zh": "那我有没有能力上传素材，比如我的斗牛犬的照片，然后做一个基于我那三条斗牛犬的斗牛犬电子游戏？"
+ },
+ {
+  "seg": 208,
+  "start": 858.93,
+  "end": 859.711,
+  "speaker": "Unknown",
+  "en": "Yeah, you can do that.",
+  "zh": "是的，你可以做到。"
+ },
+ {
+  "seg": 209,
+  "start": 859.771,
+  "end": 862.233,
+  "speaker": "Unknown",
+  "en": "You can upload any images.",
+  "zh": "你可以上传任何图片。"
+ },
+ {
+  "seg": 210,
+  "start": 862.834,
+  "end": 865.516,
+  "speaker": "Unknown",
+  "en": "We have safety, so you can upload anything.",
+  "zh": "我们有安全保障，所以你可以上传任何东西。"
+ },
+ {
+  "seg": 211,
+  "start": 865.536,
+  "end": 865.756,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "对。"
+ },
+ {
+  "seg": 212,
+  "start": 865.956,
+  "end": 870.441,
+  "speaker": "Unknown",
+  "en": "Yeah, we have like, you can basically generate and personalize all these things to whatever scenario.",
+  "zh": "是的，我们基本上可以让你生成并把所有这些东西个性化到任何场景。"
+ },
+ {
+  "seg": 213,
+  "start": 870.461,
+  "end": 872.142,
+  "speaker": "Unknown",
+  "en": "And that's the beauty of the world, right?",
+  "zh": "而这就是这个世界的美妙之处，对吧？"
+ },
+ {
+  "seg": 214,
+  "start": 872.162,
+  "end": 873.243,
+  "speaker": "Unknown",
+  "en": "That's the beauty of the world.",
+  "zh": "这就是这个世界的美妙之处。"
+ },
+ {
+  "seg": 215,
+  "start": 873.423,
+  "end": 875.785,
+  "speaker": "Unknown",
+  "en": "That's the beauty of games and interactive experiences.",
+  "zh": "这就是游戏和互动体验的美妙之处。"
+ },
+ {
+  "seg": 216,
+  "start": 875.805,
+  "end": 879.669,
+  "speaker": "Unknown",
+  "en": "You can live it, you can act it, and you can personalize it to your taste for the first time.",
+  "zh": "你可以亲身经历它，可以演绎它，而且有史以来第一次可以按你的口味把它个性化。"
+ },
+ {
+  "seg": 217,
+  "start": 880.395,
+  "end": 882.156,
+  "speaker": "Unknown",
+  "en": "This is like one of the great things of technology.",
+  "zh": "这就像技术最伟大的事情之一。"
+ },
+ {
+  "seg": 218,
+  "start": 882.176,
+  "end": 895.16,
+  "speaker": "Unknown",
+  "en": "I remember when I first got my printer in the eighties, the idea that you could print a birthday card for somebody, they were like literally one of the hottest couple of years, the top software selling program was a greeting card maker.",
+  "zh": "我记得八十年代我第一次拿到打印机的时候，能为别人打印一张生日贺卡这个想法——真的，那几年最火的软件里，销量最高的软件之一就是贺卡制作软件。"
+ },
+ {
+  "seg": 219,
+  "start": 895.761,
+  "end": 901.663,
+  "speaker": "Unknown",
+  "en": "And you would take a eight and a half by 11 and you fold it twice so you could make it into like a birthday card.",
+  "zh": "你会拿一张八点五乘十一的纸，对折两次，这样就能把它做成一张生日贺卡。"
+ },
+ {
+  "seg": 220,
+  "start": 902.123,
+  "end": 903.164,
+  "speaker": "Unknown",
+  "en": "It was incredible.",
+  "zh": "那太不可思议了。"
+ },
+ {
+  "seg": 221,
+  "start": 903.284,
+  "end": 907.366,
+  "speaker": "Unknown",
+  "en": "Everybody was making personalized birthday cards with photos on them, et cetera.",
+  "zh": "每个人都在制作带照片之类的个性化生日贺卡。"
+ },
+ {
+  "seg": 222,
+  "start": 907.946,
+  "end": 910.928,
+  "speaker": "Unknown",
+  "en": "And that creativity is like sort of what you're bringing here.",
+  "zh": "而这种创造力，差不多就是你在这里带来的东西。"
+ },
+ {
+  "seg": 223,
+  "start": 911.008,
+  "end": 917.431,
+  "speaker": "Unknown",
+  "en": "Will you be able to eventually publish not just to your website, but maybe even publish to an app store?",
+  "zh": "你们最终能不能不仅发布到你们的网站上，甚至还能发布到应用商店？"
+ },
+ {
+  "seg": 224,
+  "start": 917.451,
+  "end": 920.473,
+  "speaker": "Unknown",
+  "en": "And then you go from being, hey, this is for...",
+  "zh": "然后你就从「嘿，这是给……」"
+ },
+ {
+  "seg": 225,
+  "start": 921.493,
+  "end": 923.435,
+  "speaker": "Unknown",
+  "en": "Consumers to maybe prosumers.",
+  "zh": "普通消费者，变成可能是产消者。"
+ },
+ {
+  "seg": 226,
+  "start": 923.475,
+  "end": 927.638,
+  "speaker": "Unknown",
+  "en": "Maybe I could make a living off of this video game and have a business model inside of it.",
+  "zh": "也许我可以靠这款电子游戏谋生，并在里面建立商业模式。"
+ },
+ {
+  "seg": 227,
+  "start": 927.658,
+  "end": 929.339,
+  "speaker": "Unknown",
+  "en": "Maybe people will pay 99 cents for it.",
+  "zh": "也许人们会为它付 99 美分。"
+ },
+ {
+  "seg": 228,
+  "start": 929.86,
+  "end": 930.921,
+  "speaker": "Unknown",
+  "en": "Funny you say that.",
+  "zh": "你这么说真有意思。"
+ },
+ {
+  "seg": 229,
+  "start": 930.981,
+  "end": 936.685,
+  "speaker": "Unknown",
+  "en": "So the two things, I'll add a little bit to the birthday card.",
+  "zh": "说两件事，我先在生日贺卡那个话题上补充一点。"
+ },
+ {
+  "seg": 230,
+  "start": 936.805,
+  "end": 942.349,
+  "speaker": "Unknown",
+  "en": "It's funny you say that because we actually saw one of the applications, one of the things that people make is interactive birthday cards.",
+  "zh": "你这么说很有趣，因为我们确实看到其中一个应用、人们会做的东西之一，就是互动生日贺卡。"
+ },
+ {
+  "seg": 231,
+  "start": 942.77,
+  "end": 949.155,
+  "speaker": "Unknown",
+  "en": "And they put actually their friends' image and send a happy birthday as an interactive experience to their friends, which is...",
+  "zh": "他们会真的放上朋友的照片，把一句生日快乐作为一种互动体验发送给朋友，这真是……"
+ },
+ {
+  "seg": 232,
+  "start": 949.735,
+  "end": 950.555,
+  "speaker": "Unknown",
+  "en": "Amazing, right?",
+  "zh": "太棒了，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 950.856,
+  "end": 954.337,
+  "speaker": "Unknown",
+  "en": "And that's something like I didn't know is going to happen when we start building this technology.",
+  "zh": "而且这是我们开始构建这项技术时完全没想到会发生的事情。"
+ },
+ {
+  "seg": 234,
+  "start": 955.398,
+  "end": 958.079,
+  "speaker": "Unknown",
+  "en": "But yeah, the second part is like what you mentioned on earning money.",
+  "zh": "不过是的，第二部分就是你提到的赚钱这件事。"
+ },
+ {
+  "seg": 235,
+  "start": 958.159,
+  "end": 969.644,
+  "speaker": "Unknown",
+  "en": "Actually, one of the things that I'm just generally very, very, very excited about AI and recent advances of AI is one, it's just making everything more efficient and like amazing.",
+  "zh": "实际上，对于 AI 以及 AI 近期的进展，我个人非常非常非常兴奋的事情之一是：第一，它只是让一切都变得更高效、更惊艳。"
+ },
+ {
+  "seg": 236,
+  "start": 969.984,
+  "end": 975.127,
+  "speaker": "Unknown",
+  "en": "But I think it's the part that is the most exciting for me is how much new opportunities",
+  "zh": "但我认为对我来说最令人兴奋的部分是，有多少新的机会"
+ },
+ {
+  "seg": 237,
+  "start": 975.787,
+  "end": 979.128,
+  "speaker": "Unknown",
+  "en": "This new technology is actually creating.",
+  "zh": "是这项新技术真正在创造的。"
+ },
+ {
+  "seg": 238,
+  "start": 979.408,
+  "end": 982.609,
+  "speaker": "Unknown",
+  "en": "We have now a lot of people making money from Astrocade.",
+  "zh": "我们现在有很多人正在从 Astrocade 上赚钱。"
+ },
+ {
+  "seg": 239,
+  "start": 982.629,
+  "end": 983.569,
+  "speaker": "Unknown",
+  "en": "We have a creator fund.",
+  "zh": "我们有一个创作者基金。"
+ },
+ {
+  "seg": 240,
+  "start": 983.589,
+  "end": 987.85,
+  "speaker": "Unknown",
+  "en": "We pay people based on number of plays that they get on Astrocade.",
+  "zh": "我们根据他们在 Astrocade 上获得的游玩次数向他们付费。"
+ },
+ {
+  "seg": 241,
+  "start": 988.23,
+  "end": 997.752,
+  "speaker": "Unknown",
+  "en": "And there are people that actually, they're full-time building games and interactive experiences on Astrocade and making thousands of dollars a month on Astrocade.",
+  "zh": "而且真的有人在全职于 Astrocade 上构建游戏和互动体验，每月在 Astrocade 上赚到几千美元。"
+ },
+ {
+  "seg": 242,
+  "start": 998.072,
+  "end": 1000.793,
+  "speaker": "Unknown",
+  "en": "So we are kind of like building a new creator economy.",
+  "zh": "所以我们差不多是在构建一种新的创作者经济。"
+ },
+ {
+  "seg": 243,
+  "start": 1001.313,
+  "end": 1003.434,
+  "speaker": "Unknown",
+  "en": "Similarly, like, you know how YouTube made MrBeast?",
+  "zh": "同样地，你知道 YouTube 是怎么造就 MrBeast 的吗？"
+ },
+ {
+  "seg": 244,
+  "start": 1003.514,
+  "end": 1004.614,
+  "speaker": "Unknown",
+  "en": "Absolutely, yeah.",
+  "zh": "绝对的，是的。"
+ },
+ {
+  "seg": 245,
+  "start": 1005.034,
+  "end": 1008.456,
+  "speaker": "Unknown",
+  "en": "We are seeing the same exact kind of like market dynamics.",
+  "zh": "我们正在看到一模一样的市场动态。"
+ },
+ {
+  "seg": 246,
+  "start": 1008.476,
+  "end": 1010.157,
+  "speaker": "Unknown",
+  "en": "Yeah, subscribe, donations.",
+  "zh": "是啊，订阅、打赏。"
+ },
+ {
+  "seg": 247,
+  "start": 1010.217,
+  "end": 1013.679,
+  "speaker": "Unknown",
+  "en": "I mean, there's different modalities to do these kind of things.",
+  "zh": "我是说，做这类事情有不同的方式。"
+ },
+ {
+  "seg": 248,
+  "start": 1013.699,
+  "end": 1015.62,
+  "speaker": "Unknown",
+  "en": "So this is an incredible startup.",
+  "zh": "所以这是一家了不起的初创公司。"
+ },
+ {
+  "seg": 249,
+  "start": 1016.661,
+  "end": 1018.182,
+  "speaker": "Unknown",
+  "en": "Where can people find out more?",
+  "zh": "人们可以在哪里了解更多？"
+ },
+ {
+  "seg": 250,
+  "start": 1018.282,
+  "end": 1019.762,
+  "speaker": "Unknown",
+  "en": "And are you hiring for the startup?",
+  "zh": "你们在为这家创业公司招人吗？"
+ },
+ {
+  "seg": 251,
+  "start": 1019.782,
+  "end": 1023.164,
+  "speaker": "Unknown",
+  "en": "People always come on the program and they need a couple of positions filled.",
+  "zh": "来上节目的人总是需要填补几个职位。"
+ },
+ {
+  "seg": 252,
+  "start": 1023.184,
+  "end": 1023.885,
+  "speaker": "Unknown",
+  "en": "So we always love to.",
+  "zh": "所以我们一直很乐意。"
+ },
+ {
+  "seg": 253,
+  "start": 1024.445,
+  "end": 1027.107,
+  "speaker": "Unknown",
+  "en": "There's somebody out there who would love to, I think, join your company and build this.",
+  "zh": "我觉得外面一定有人会很喜欢加入你们的公司，一起打造这个产品。"
+ },
+ {
+  "seg": 254,
+  "start": 1027.247,
+  "end": 1027.948,
+  "speaker": "Unknown",
+  "en": "We would love that.",
+  "zh": "我们非常欢迎。"
+ },
+ {
+  "seg": 255,
+  "start": 1027.968,
+  "end": 1031.57,
+  "speaker": "Unknown",
+  "en": "We have a lot of positions from product side, from recommendation system.",
+  "zh": "我们有很多职位，来自产品方向，来自推荐系统方向。"
+ },
+ {
+  "seg": 256,
+  "start": 1031.67,
+  "end": 1032.371,
+  "speaker": "Unknown",
+  "en": "It's very important.",
+  "zh": "这非常重要。"
+ },
+ {
+  "seg": 257,
+  "start": 1032.391,
+  "end": 1036.674,
+  "speaker": "Unknown",
+  "en": "It's a very hard problem now that you have hundreds of thousands of content, how to surface them.",
+  "zh": "现在当你有几十万条内容时，如何把它们呈现出来，这是一个非常难的问题。"
+ },
+ {
+  "seg": 258,
+  "start": 1037.155,
+  "end": 1038.796,
+  "speaker": "Unknown",
+  "en": "That's a big thing we need to.",
+  "zh": "这是我们需要做的一件大事。"
+ },
+ {
+  "seg": 259,
+  "start": 1038.836,
+  "end": 1042.679,
+  "speaker": "Unknown",
+  "en": "We are hiring for AI agents post-training.",
+  "zh": "我们正在为智能体后训练招人。"
+ },
+ {
+  "seg": 260,
+  "start": 1042.839,
+  "end": 1045.22,
+  "speaker": "Unknown",
+  "en": "A lot of people now, AI startups, want post-training people.",
+  "zh": "现在很多人工智能创业公司都想招后训练的人。"
+ },
+ {
+  "seg": 261,
+  "start": 1045.281,
+  "end": 1049.143,
+  "speaker": "Unknown",
+  "en": "That's something that we want for training models on interactive experiences.",
+  "zh": "这是我们想要的，用于在交互式体验上训练模型。"
+ },
+ {
+  "seg": 262,
+  "start": 1050.164,
+  "end": 1053.727,
+  "speaker": "Unknown",
+  "en": "We want to have the best models in the world for generating interactive experiences.",
+  "zh": "我们想拥有世界上最擅长生成交互式体验的模型。"
+ },
+ {
+  "seg": 263,
+  "start": 1054.687,
+  "end": 1055.707,
+  "speaker": "Unknown",
+  "en": "So we are hiring for that.",
+  "zh": "所以我们为此招人。"
+ },
+ {
+  "seg": 264,
+  "start": 1055.747,
+  "end": 1056.747,
+  "speaker": "Unknown",
+  "en": "There are a ton of positions.",
+  "zh": "有非常多的职位。"
+ },
+ {
+  "seg": 265,
+  "start": 1056.807,
+  "end": 1060.608,
+  "speaker": "Unknown",
+  "en": "And I think the beautiful thing about AstroKid is actually the mission is really fun.",
+  "zh": "我觉得 AstroKid 最美好的一点其实是，它的使命真的很有趣。"
+ },
+ {
+  "seg": 266,
+  "start": 1061.308,
+  "end": 1065.649,
+  "speaker": "Unknown",
+  "en": "You know, Jason, there were actually two big reasons we started AstroKid.",
+  "zh": "你知道，Jason，其实我们创办 AstroKid 有两个重要的原因。"
+ },
+ {
+  "seg": 267,
+  "start": 1066.149,
+  "end": 1067.309,
+  "speaker": "Unknown",
+  "en": "And it's very interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 268,
+  "start": 1067.609,
+  "end": 1070.05,
+  "speaker": "Unknown",
+  "en": "Number one, I really care about impact.",
+  "zh": "第一，我真的很在乎影响力。"
+ },
+ {
+  "seg": 269,
+  "start": 1070.35,
+  "end": 1073.43,
+  "speaker": "Unknown",
+  "en": "And I think when we started this, we wanted to build consumer.",
+  "zh": "我想当我们开始做这件事时，我们想做面向消费者的产品。"
+ },
+ {
+  "seg": 270,
+  "start": 1073.55,
+  "end": 1076.811,
+  "speaker": "Unknown",
+  "en": "You can see there's not a lot of people are building consumer companies in today's world.",
+  "zh": "你可以看到，如今没有很多人在做消费级公司。"
+ },
+ {
+  "seg": 271,
+  "start": 1076.831,
+  "end": 1078.071,
+  "speaker": "Unknown",
+  "en": "Like most of it is B2B.",
+  "zh": "大部分都是 B2B。"
+ },
+ {
+  "seg": 272,
+  "start": 1078.671,
+  "end": 1081.752,
+  "speaker": "Unknown",
+  "en": "We wanted to build a product that touches a billion people.",
+  "zh": "我们想打造一个触达十亿人的产品。"
+ },
+ {
+  "seg": 273,
+  "start": 1082.492,
+  "end": 1088.477,
+  "speaker": "Unknown",
+  "en": "And when you want to build a product that touches a billion people, you have to find something that people need.",
+  "zh": "而当你想打造一个触达十亿人的产品时，你必须找到人们需要的东西。"
+ },
+ {
+  "seg": 274,
+  "start": 1088.577,
+  "end": 1090.418,
+  "speaker": "Unknown",
+  "en": "It's so innate to humans, right?",
+  "zh": "它必须是对人类来说非常本能的东西，对吧？"
+ },
+ {
+  "seg": 275,
+  "start": 1090.478,
+  "end": 1092.48,
+  "speaker": "Unknown",
+  "en": "Like a lot of companies are based on communication.",
+  "zh": "比如很多公司都建立在沟通之上。"
+ },
+ {
+  "seg": 276,
+  "start": 1092.86,
+  "end": 1100.847,
+  "speaker": "Unknown",
+  "en": "But I think the most innate thing to humans, and I have a two-year-old and I have a one-month-old and I can see it like literally in them, is play.",
+  "zh": "但我认为对人类来说最本能的东西——我有两岁的孩子和一个月大的孩子，我可以从他们身上直接看到——就是玩。"
+ },
+ {
+  "seg": 277,
+  "start": 1101.367,
+  "end": 1105.512,
+  "speaker": "Unknown",
+  "en": "Play is so universal, is a universal human language.",
+  "zh": "玩是如此普遍，是一种通用的人类语言。"
+ },
+ {
+  "seg": 278,
+  "start": 1105.893,
+  "end": 1110.559,
+  "speaker": "Unknown",
+  "en": "You learn via play, you kind of like communicate and socialize via play.",
+  "zh": "你通过玩来学习，你在某种程度上通过玩来沟通和社交。"
+ },
+ {
+  "seg": 279,
+  "start": 1110.819,
+  "end": 1111.78,
+  "speaker": "Unknown",
+  "en": "So play is a big thing.",
+  "zh": "所以玩是一件大事。"
+ },
+ {
+  "seg": 280,
+  "start": 1112.421,
+  "end": 1117.528,
+  "speaker": "Unknown",
+  "en": "So we are actually building a product that actually makes you create play and actual play.",
+  "zh": "所以我们其实正在打造一个让你创造玩、创造真实的玩的产品。"
+ },
+ {
+  "seg": 281,
+  "start": 1118.008,
+  "end": 1118.288,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 282,
+  "start": 1118.589,
+  "end": 1123.094,
+  "speaker": "Unknown",
+  "en": "Again, the second thing is about our product is this is very interesting and our mission is actually really fun.",
+  "zh": "再次说到第二点，关于我们的产品，这非常有趣，我们的使命真的很快乐。"
+ },
+ {
+  "seg": 283,
+  "start": 1123.434,
+  "end": 1125.937,
+  "speaker": "Unknown",
+  "en": "You're actually sharing fun with the world.",
+  "zh": "你其实是在与世界分享乐趣。"
+ },
+ {
+  "seg": 284,
+  "start": 1126.017,
+  "end": 1131.202,
+  "speaker": "Unknown",
+  "en": "It's mentally games like there's been a lot of research on how much helpful is for your cognitive.",
+  "zh": "心智游戏方面，已经有很多关于它对你的认知有多大帮助的研究。"
+ },
+ {
+  "seg": 285,
+  "start": 1132.304,
+  "end": 1134.586,
+  "speaker": "Unknown",
+  "en": "Oh, yeah, this is a big part of it.",
+  "zh": "哦，是啊，这是很重要的一部分。"
+ },
+ {
+  "seg": 286,
+  "start": 1135.267,
+  "end": 1135.747,
+  "speaker": "Unknown",
+  "en": "What do they call it?",
+  "zh": "他们管那个叫什么来着？"
+ },
+ {
+  "seg": 287,
+  "start": 1135.767,
+  "end": 1137.649,
+  "speaker": "Unknown",
+  "en": "Plasticity, like neuroplasticity.",
+  "zh": "可塑性，比如神经可塑性。"
+ },
+ {
+  "seg": 288,
+  "start": 1139.211,
+  "end": 1143.236,
+  "speaker": "Unknown",
+  "en": "I always like to take up a new sport every year or play a new game.",
+  "zh": "我总是喜欢每年尝试一项新运动或玩一个新游戏。"
+ },
+ {
+  "seg": 289,
+  "start": 1143.356,
+  "end": 1157.054,
+  "speaker": "Unknown",
+  "en": "And when you learn even a variation of a poker game, as an example, you learn how to play PLO, you have rules you learn from No Limit Hold'em, but then you've given four cards and the whole game changes and you have to reconceptualize all the heuristics.",
+  "zh": "当你学习哪怕一个扑克游戏的变体时，举个例子，你学 PLO，你从无限注德州学来的规则，但之后你拿到四张牌，整个游戏就变了，你必须重新构建所有启发式方法。"
+ },
+ {
+  "seg": 290,
+  "start": 1157.574,
+  "end": 1158.975,
+  "speaker": "Unknown",
+  "en": "You know, chess doesn't change.",
+  "zh": "你知道，国际象棋是不会变的。"
+ },
+ {
+  "seg": 291,
+  "start": 1159.135,
+  "end": 1169.523,
+  "speaker": "Unknown",
+  "en": "It would kind of be interesting to make new versions of chess where the game piece has changed in some way or who knows, but it is for neuroplasticity a great thing to do.",
+  "zh": "做一些新版本的国际象棋，让棋子以某种方式改变，或者谁知道呢，会有点意思，但这对神经可塑性确实是件好事。"
+ },
+ {
+  "seg": 292,
+  "start": 1170.884,
+  "end": 1171.825,
+  "speaker": "Unknown",
+  "en": "Great job on this.",
+  "zh": "做得很棒。"
+ },
+ {
+  "seg": 293,
+  "start": 1172.125,
+  "end": 1174.447,
+  "speaker": "Unknown",
+  "en": "And thanks so much for sharing it.",
+  "zh": "非常感谢你的分享。"
+ },
+ {
+  "seg": 294,
+  "start": 1174.707,
+  "end": 1178.21,
+  "speaker": "Unknown",
+  "en": "Everybody go to astrocade.com to find out more.",
+  "zh": "大家可以去 astrocade.com 了解更多。"
+ },
+ {
+  "seg": 295,
+  "start": 1178.49,
+  "end": 1181.492,
+  "speaker": "Unknown",
+  "en": "And thanks to our partners over at Google.",
+  "zh": "也感谢我们在 Google 的合作伙伴。"
+ },
+ {
+  "seg": 296,
+  "start": 1182.052,
+  "end": 1183.794,
+  "speaker": "Unknown",
+  "en": "They are doing a great job with Gemini.",
+  "zh": "他们在 Gemini 上做得很出色。"
+ },
+ {
+  "seg": 297,
+  "start": 1183.894,
+  "end": 1186.636,
+  "speaker": "Unknown",
+  "en": "I have to say, I'm using Gemini all the time.",
+  "zh": "我必须说，我一直在用 Gemini。"
+ },
+ {
+  "seg": 298,
+  "start": 1187.848,
+  "end": 1189.752,
+  "speaker": "Unknown",
+  "en": "You know, they have code review and all this great stuff.",
+  "zh": "你知道，他们有代码审查以及所有这些很棒的功能。"
+ },
+ {
+  "seg": 299,
+  "start": 1189.772,
+  "end": 1191.055,
+  "speaker": "Unknown",
+  "en": "The API is fantastic.",
+  "zh": "这个 API 太棒了。"
+ },
+ {
+  "seg": 300,
+  "start": 1191.617,
+  "end": 1195.947,
+  "speaker": "Unknown",
+  "en": "I have to say, there was like two or three things that I had on my vacation that worked really well.",
+  "zh": "我得说，我度假的时候有两三样东西用起来特别好。"
+ },
+ {
+  "seg": 301,
+  "start": 1196.923,
+  "end": 1203.246,
+  "speaker": "Unknown",
+  "en": "Google Local and Google Maps and Gemini have all been tied together now.",
+  "zh": "Google Local、Google Maps 和 Gemini 现在都整合在一起了。"
+ },
+ {
+  "seg": 302,
+  "start": 1203.746,
+  "end": 1204.627,
+  "speaker": "Unknown",
+  "en": "So I was in France.",
+  "zh": "当时我在法国。"
+ },
+ {
+  "seg": 303,
+  "start": 1204.647,
+  "end": 1206.148,
+  "speaker": "Unknown",
+  "en": "I was like, I'm here right now.",
+  "zh": "我就说，我现在在这儿。"
+ },
+ {
+  "seg": 304,
+  "start": 1206.748,
+  "end": 1212.351,
+  "speaker": "Unknown",
+  "en": "I need the best croissant, the best pain au chocolat, the best hot chocolate, whatever I was doing with my daughters.",
+  "zh": "我要最好的可颂、最好的巧克力面包、最好的热巧克力，反正就是和我女儿们一起做的那些事。"
+ },
+ {
+  "seg": 305,
+  "start": 1212.731,
+  "end": 1214.112,
+  "speaker": "Unknown",
+  "en": "And can you put it on a map for me?",
+  "zh": "你能帮我把它们标在地图上吗？"
+ },
+ {
+  "seg": 306,
+  "start": 1214.392,
+  "end": 1220.315,
+  "speaker": "Unknown",
+  "en": "And then I was asking about very specific dishes and it was like, oh my God, I have this concierge.",
+  "zh": "然后我还问了一些非常具体的菜品，感觉就像是，天哪，我有一个礼宾服务。"
+ },
+ {
+  "seg": 307,
+  "start": 1221.155,
+  "end": 1229.742,
+  "speaker": "Unknown",
+  "en": "Who is working for me 24 hours a day and just put the best pan au chocolat within walking distance of me and the time it opened.",
+  "zh": "它一天 24 小时为我工作，把步行距离内最好的巧克力面包和营业时间都给我找出来了。"
+ },
+ {
+  "seg": 308,
+  "start": 1230.102,
+  "end": 1231.003,
+  "speaker": "Unknown",
+  "en": "Google's crushing it.",
+  "zh": "Google 太强了。"
+ },
+ {
+  "seg": 309,
+  "start": 1231.703,
+  "end": 1232.063,
+  "speaker": "Unknown",
+  "en": "It's awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 310,
+  "start": 1232.404,
+  "end": 1241.07,
+  "speaker": "Unknown",
+  "en": "If you want to find a great pan au chocolat when you're in France or want to listen to more of these basics, obviously go check out Gemini.",
+  "zh": "如果你想在法国找到一家很棒的巧克力面包店，或者想听更多这类基础内容， obviously 去看看 Gemini。"
+ },
+ {
+  "seg": 311,
+  "start": 1241.231,
+  "end": 1242.131,
+  "speaker": "Unknown",
+  "en": "Great suite of products.",
+  "zh": "很棒的产品套件。"
+ },
+ {
+  "seg": 312,
+  "start": 1242.672,
+  "end": 1244.353,
+  "speaker": "Unknown",
+  "en": "The images and the video is also great.",
+  "zh": "图像和视频也很棒。"
+ },
+ {
+  "seg": 313,
+  "start": 1244.393,
+  "end": 1248.076,
+  "speaker": "Unknown",
+  "en": "That's what we default to when we're making fun memes is a nano banana.",
+  "zh": "我们做搞笑梗图时默认用的就是 nano banana。"
+ },
+ {
+  "seg": 314,
+  "start": 1248.376,
+  "end": 1249.038,
+  "speaker": "Unknown",
+  "en": "It was incredible.",
+  "zh": "难以置信。"
+ },
+ {
+  "seg": 315,
+  "start": 1249.299,
+  "end": 1255.962,
+  "speaker": "Unknown",
+  "en": "But for the basic series, thisweekinstartups.com slash basics, if you're a founder, get all these basics.",
+  "zh": "至于基础系列，thisweekinstartups.com 斜杠 basics，如果你是创始人，把这些基础内容全都拿走。"
+ },
+ {
+  "seg": 316,
+  "start": 1255.982,
+  "end": 1258.009,
+  "speaker": "Unknown",
+  "en": "And you gotta get Nano Banana Pro.",
+  "zh": "而且你一定要用 Nano Banana Pro。"
+ },
+ {
+  "seg": 317,
+  "start": 1258.029,
+  "end": 1260.578,
+  "speaker": "Unknown",
+  "en": "Yeah, I pay the extra 10 bucks or whatever it is a month.",
+  "zh": "是啊，我多付了 10 块钱还是多少，一个月。"
+ },
+ {
+  "seg": 318,
+  "start": 1260.939,
+  "end": 1262.404,
+  "speaker": "Unknown",
+  "en": "It's an incredible product, Amir.",
+  "zh": "这是个 incredible 的产品，Amir。"
+ },
+ {
+  "seg": 319,
+  "start": 1262.786,
+  "end": 1263.729,
+  "speaker": "Unknown",
+  "en": "All right, we'll see you all next time.",
+  "zh": "好了，我们下次再见。"
+ },
+ {
+  "seg": 320,
+  "start": 1263.749,
+  "end": 1264.03,
+  "speaker": "Unknown",
+  "en": "Bye-bye.",
+  "zh": "拜拜。"
+ }
+]

@@ -7,12 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TypeScript</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TypeScript">TY</div><div class="pi"><h1 class="pt">TypeScript</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TypeScript">TY</div><div class="pi"><h1 class="pt">TypeScript</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(07:22起):本集把它说成:在正确性和生产力之间平衡,但针对的是人类生产力;底下 JavaScript 留下了排序转字符串等一堆 baked-in 的 slop,在 AI 时代是埋雷。
 - **[[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]]**(00:12起):本集说说话人决定把整个几十万行的 Python 代码库在一个周末内移植到 TypeScript，并让它能跑、能部署。
+- **[[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]]**(28:48起):两人共同的背景：嘉宾用类型收窄类比代码库约束——把空间收窄到只有一种可能，让写坏代码变得困难
 
 ## ① 提到它的金句
 
@@ -30,18 +31,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念
 - [[2026-09-09-talks-the-exact-tools-used-to-port-a-massive-c|《一个周末把几十万行代码从 Python 移植到 TypeScript》]] — 作为概念
+- [[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Python]] · [[Vaibhav Gupta]] · [[Claude Code]] · [[BAML]] · [[Bun]] · [[垃圾话]] · [[动态工作流]] · [[智能体]] · [[代码审查]] · [[不变量]]
+[[智能体]] · [[Python]] · [[Vaibhav Gupta]] · [[Claude Code]] · [[Poteto]] · [[BAML]] · [[Bun]] · [[Cursor]] · [[垃圾话]] · [[动态工作流]]
 
-<script type="application/json" class="pd-epn">{"Python":5,"Vaibhav Gupta":1,"Claude Code":101,"BAML":1,"Bun":4,"垃圾话":9,"动态工作流":3,"智能体":460,"代码审查":24,"不变量":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":464,"Python":5,"Vaibhav Gupta":1,"Claude Code":102,"Poteto":1,"BAML":1,"Bun":4,"Cursor":86,"垃圾话":9,"动态工作流":3}</script>
 
 <script>
 (function(){

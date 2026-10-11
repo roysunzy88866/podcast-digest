@@ -122,9 +122,9 @@ Anthropic 的多层防线包括：[[推理|推理]]时的[[探针|探针]]（pro
 
 **换个口味**
 
+- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同嘉宾:Thariq Shihipar · 同公司:Anthropic、Hugging Face、OpenAI · 同概念:探针 (probes)、智能体 (agent)、沙箱 (sandbox)、auto 模式 (auto mode)</span>
 - [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、沙箱 (sandbox)、推理 (inference)</span>
-- [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:harness、智能体 (agent)、沙箱 (sandbox)、评估 (evals)</span>
 
 </div>
 </div>

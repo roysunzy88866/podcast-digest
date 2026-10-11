@@ -25,7 +25,7 @@ unlisted: true
 
 [[Meta]] · [[Facebook]] · [[Instagram]] · [[WhatsApp]] · [[Oculus]] · [[Scale.ai]] · [[Llama]] · [[OpenAI]] · [[Anthropic]] · [[Snapchat]]
 
-<script type="application/json" class="pd-epn">{"Meta":49,"Facebook":17,"Instagram":8,"WhatsApp":5,"Oculus":2,"Scale.ai":3,"Llama":3,"OpenAI":191,"Anthropic":196,"Snapchat":4}</script>
+<script type="application/json" class="pd-epn">{"Meta":50,"Facebook":17,"Instagram":8,"WhatsApp":5,"Oculus":2,"Scale.ai":3,"Llama":3,"OpenAI":192,"Anthropic":197,"Snapchat":4}</script>
 
 <script>
 (function(){

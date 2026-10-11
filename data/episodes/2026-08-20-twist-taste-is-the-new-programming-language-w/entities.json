@@ -1,0 +1,266 @@
+{
+  "episode_id": "2026-08-20-twist-taste-is-the-new-programming-language-w",
+  "podcast": "This Week in Startups",
+  "date": "2026-08-20",
+  "tags": [
+    "AI 生成内容",
+    "游戏",
+    "创作者经济",
+    "消费级产品",
+    "品味与设计"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jason",
+      "type": "person",
+      "role": "host",
+      "name": "Jason",
+      "file": "Jason",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            44.398,
+            44.998
+          ],
+          "quote": "Thanks, Jason.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1061.308,
+            1065.649
+          ],
+          "quote": "You know, Jason, there were actually two big reasons we started AstroKid.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amir-sadeghian",
+      "type": "person",
+      "role": "cohost",
+      "name": "Amir Sadeghian",
+      "file": "Amir Sadeghian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            32.39,
+            37.413
+          ],
+          "quote": "Amir Sadeghian, he is the founder and CEO of Astrocade.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "astrocade",
+      "type": "company",
+      "role": "company",
+      "name": "Astrocade",
+      "file": "Astrocade",
+      "primary": true,
+      "how_described": "本集主角:一个让任何人用自然语言描述就能生成原创游戏和交互式体验、并发布到类 TikTok 信息流的平台,已有超过 10 万名创作者,并设创作者基金按游玩次数付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            32.39,
+            37.413
+          ],
+          "quote": "Amir Sadeghian, he is the founder and CEO of Astrocade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            133.34,
+            137.905
+          ],
+          "quote": "And yeah, it's astrocade.com, yeah?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            410.503,
+            415.767
+          ],
+          "quote": "And we were watching this and he was like, okay, this is exactly the story of Astrocade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            979.408,
+            982.609
+          ],
+          "quote": "We have now a lot of people making money from Astrocade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            983.589,
+            987.85
+          ],
+          "quote": "We pay people based on number of plays that they get on Astrocade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            988.23,
+            997.752
+          ],
+          "quote": "And there are people that actually, they're full-time building games and interactive experiences on Astrocade and making thousands of dollars a month on Astrocade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1174.707,
+            1178.21
+          ],
+          "quote": "Everybody go to astrocade.com to find out more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型语言模型 (large language model)",
+      "file": "大型语言模型",
+      "primary": true,
+      "how_described": "本集说 LLM 内置了游戏史和评论,可以一句话生成游戏;但它是非确定性的、爱猜、向均值回归,给出最平均常见的设计,所以调参数需要确定性的编辑器,独特性要靠人的品味。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 163,
+          "t": [
+            676.699,
+            684.502
+          ],
+          "quote": "So Amir, I see on the left-hand side, you have the chat window, just like you would have a conversation with any large language model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            789.206,
+            796.631
+          ],
+          "quote": "So people look at web design, and if you build something with a large language model, sometimes it goes to what is the most common design, which is not what you want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (Generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "嘉宾说多亏了生成式 AI,他们在 2022 年创办公司、移除做游戏的种种门槛,让任何人都能生成交互世界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            306.108,
+            310.654
+          ],
+          "quote": "We removed all these barriers, and thanks to Generative AI, we started the company in 2022.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "creator-economy",
+      "type": "concept",
+      "role": "concept",
+      "name": "创作者经济 (creator economy)",
+      "file": "创作者经济",
+      "primary": true,
+      "how_described": "本集说 Astrocade 正在构建一种新的创作者经济:按游玩次数付费,已有人全职在平台上做游戏月入数千美元,类比 YouTube 造就 MrBeast 的市场动态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            998.072,
+            1000.793
+          ],
+          "quote": "So we are kind of like building a new creator economy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "Astrocade 正在为「AI 智能体的后训练」招人,计划用自己的交互式体验数据重新训练语言模型,让生成交互内容的能力越来越强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1038.836,
+            1042.679
+          ],
+          "quote": "We are hiring for AI agents post-training.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1042.839,
+            1045.22
+          ],
+          "quote": "A lot of people now, AI startups, want post-training people.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集提到 Astrocade 想把模型变成一种基于创作者需求递归学习、自我演化的智能体,并为智能体后训练招人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            830.576,
+            836.958
+          ],
+          "quote": "So it's going to be a self-evolving kind of agent or model that just keeps getting better at",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
