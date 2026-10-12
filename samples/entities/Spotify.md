@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Spotify</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Spotify">SP</div><div class="pi"><h1 class="pt">Spotify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Spotify">SP</div><div class="pi"><h1 class="pt">Spotify</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]]**(02:54起):本集把它作为点图的举例对象，以「听一首歌」为事件画点图，发现工作日用户和周末用户是两批不同的人
 - **[[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]]**(73:00起):本集说 Spotify 正测试让高级订阅用户跳过播客任何段落(含出版方卖的广告,但豁免自家广告)的按钮,遭 Crooked Media 等激烈反弹;Jason 炮轰它靠 RSS 开放标准起家却不支持标准、不给播客主数据控制权。
 - **[[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]]**(47:46起):本集提到在斯德哥尔摩创业时，Spotify 和 Klarna 是最大的科技成功故事，是他们早期的偶像和参照系。
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(10:52起):本集提到 Spotify 正在做很酷的事:按收听数据把演出门票优先送到超级粉丝手中,替代「谁打得过机器人」的分配方式
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(01:47起):本集说 semantic ID 与生成式检索的想法已在 Spotify 等公司走向规模化生产;并举其「提示词歌单」作为可交互推荐的行业案例。
 - **[[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]]**(18:05起):本集案例：为 SRE 建了智能体，从 runbook 和事件上下文汇总修复步骤推进沟通频道，事故发生时即刻有上下文。
 - **[[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]]**(12:46起):本集说 Kath 的 Spotify 被两个孩子接管(Bluey 和芝麻街);她把它当播放器接进 heavy rotation 网站,每周一自动生成播放列表
@@ -27,12 +28,13 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司
 - [[2026-07-09-yc-how-to-better-understand-your-users-e3ls|《点图：看透单个用户行为的可视化工具》]] — 作为被讨论公司(提及)
 - [[2026-08-11-twist-zuck-s-ai-manifesto-is-a-data-center-pr|《扎克伯格 6500 字 AI 宣言：远见还是数据中心公关？》]] — 作为被讨论公司
 - [[2026-08-29-yc-max-junestrand-you-need-the-willingness|《Legora：三个非律师如何造出法律AI操作系统》]] — 作为被讨论公司(提及)
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司(提及)
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
 - [[2026-09-30-talks-the-state-of-ai-in-software-development|《20万工程师的真实数据：AI 到底给开发者提速了多少》]] — 作为被讨论公司(提及)
 - [[2026-10-05-lennys-how-openai-uses-chatgpt-sites-live|《当AI能替你建网站：一个OpenAI产品负责人的花式用法》]] — 作为被讨论公司(提及)
@@ -41,9 +43,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Slack]] · [[Meta]] · [[微调]] · [[推理]] · [[GitHub]] · [[Instagram]] · [[Claude]]
+[[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Meta]] · [[YouTube]] · [[Airbnb]] · [[Instagram]] · [[微调]] · [[LLM]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"ChatGPT":108,"OpenAI":195,"Slack":34,"Meta":52,"微调":36,"推理":98,"GitHub":35,"Instagram":9,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"ChatGPT":110,"OpenAI":197,"Meta":53,"YouTube":9,"Airbnb":14,"Instagram":9,"微调":36,"LLM":62,"推理":98}</script>
 
 <script>
 (function(){

@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":32,"大语言模型":11,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":7}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":32,"大语言模型":11,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":8}</script>
 
 <script>
 (function(){

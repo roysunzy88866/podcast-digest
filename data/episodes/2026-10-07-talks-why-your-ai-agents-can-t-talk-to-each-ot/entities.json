@@ -1,0 +1,757 @@
+{
+  "episode_id": "2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "智能体",
+    "多智能体系统",
+    "AI 基础设施",
+    "分布式系统",
+    "产品发布"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "vlad-luzin",
+      "type": "person",
+      "role": "guest",
+      "name": "Vlad Luzin",
+      "file": "Vlad Luzin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bend",
+      "type": "company",
+      "role": "company",
+      "name": "Bend",
+      "file": "Bend",
+      "primary": true,
+      "how_described": "本集是 Vlad Luzin(联合创始人兼 CTO)发布的公司：做一个面向所有智能体的全球交互与协作层，内置注册表、持久化、频道、消息过滤、安全和可观测性，让智能体自动互相发现、双向授权后实时协作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            21.976,
+            23.396
+          ],
+          "quote": "I'm co-founder and CTO at Bend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            37.378,
+            47.465
+          ],
+          "quote": "Technical challenges that we experience right now that should be solved right now and obviously bend to present the company and the product and what we do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成自主、全天候在线、分布全球的实体，通过对话空间互相委派任务、收集信息、汇报结果；人类也可以作为参与者加入对话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            220.152,
+            224.515
+          ],
+          "quote": "Specifically, a concept is called single agent bottleneck, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            224.856,
+            228.799
+          ],
+          "quote": "So why we are not running one agent in one session that is doing everything?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            244.565,
+            246.646
+          ],
+          "quote": "But let's talk about multi-agent systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            246.686,
+            252.948
+          ],
+          "quote": "So we already understand that us running multiple sessions, these are basically multi-agent systems running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            263.367,
+            265.228
+          ],
+          "quote": "Anthropic released Slack agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            272.772,
+            277.274
+          ],
+          "quote": "Well, in order for you to connect an agent to a Telegram, five steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            283.598,
+            287
+          ],
+          "quote": "In order for you to connect your agent to Slack, eight steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            307.239,
+            310.641
+          ],
+          "quote": "An agent talking to a person, which is usually you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            311.701,
+            313.642
+          ],
+          "quote": "This agent cannot talk to any other agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            313.662,
+            317.424
+          ],
+          "quote": "This agent cannot talk to any other person without you jumping for hoops.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            344.22,
+            352.965
+          ],
+          "quote": "Well, if you are a proponent of that kind of a solution for connecting your sessions, this is how your multi-agent system is going to look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            360.817,
+            366.082
+          ],
+          "quote": "And if you want, maybe this agent that you called as a tool can call another agent as an A2A.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            379.913,
+            385.918
+          ],
+          "quote": "It means you cannot go back to the agent that you talked to and ask it again what happened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            391.443,
+            395.626
+          ],
+          "quote": "So agent A sends a task to agent B, it's client server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            395.666,
+            398.929
+          ],
+          "quote": "If you want an agent B to send a task to agent A, it's client server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            422.56,
+            424.101
+          ],
+          "quote": "You're not building a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            431.483,
+            433.904
+          ],
+          "quote": "We know that multi-agent systems are already here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            512.586,
+            516.93
+          ],
+          "quote": "You need to handle persistency and hydration because your agent is a microservice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            517.41,
+            522.314
+          ],
+          "quote": "It can fail, the pod can crash, and then all your multi-agent system goes kaput.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            584.945,
+            595.369
+          ],
+          "quote": "Observability not in a message that was sent from agent A on server A to agent B on server B, but also what tool calls happened after a certain agent received this message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            658.933,
+            661.294
+          ],
+          "quote": "If you are human, you can still connect and talk to your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            702.462,
+            704.964
+          ],
+          "quote": "I have a personal agent, Claude, running on the Mac.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            746.135,
+            750.378
+          ],
+          "quote": "So first of all, we go and we spin up an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            751.118,
+            756.042
+          ],
+          "quote": "Seconds later, this agent card already appears within an account of Mike.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            758.744,
+            761.566
+          ],
+          "quote": "Second later, this agent card appears as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            769.331,
+            774.935
+          ],
+          "quote": "We want to take a Codex agent and connect this agent to my personal assistant",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            780.858,
+            792.708
+          ],
+          "quote": "We are sending a contact request that requires a bilateral consent from both parties in order for this agent to be introduced inside each registry that belongs either to an agent or to a human.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            798.231,
+            807.697
+          ],
+          "quote": "And right now we have a Codex agent that can invite my personal assistant into a conversational space and interact with it in real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            819.612,
+            832.474
+          ],
+          "quote": "And you can see also that because my agent is talking to another agent of a different user, I have a full visibility into the conversation, so no conversation can happen without me seeing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            832.854,
+            839.575
+          ],
+          "quote": "And obviously, my agent can invite me into every conversational space and interact with me as a human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            843.576,
+            847.857
+          ],
+          "quote": "So what we have seen right now is a zero-hustle-on-boarding of any agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            889.381,
+            892.583
+          ],
+          "quote": "They can talk to your agent, they can talk to your agent, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            902.934,
+            913.079
+          ],
+          "quote": "Same concept, this specific Claude session gets an identity, an agent card, and we hide all the complexities in terms of where it is from the network perspective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            916.601,
+            936.397
+          ],
+          "quote": "An agent can actually create a conversational space as an owner, invite other agents, in this specific case, a codex, and it will invite Mike as well, so it's a happy family, and they can start working on some engineering tasks, whatever it is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说多个会话同时跑本质上就是多智能体系统，而用协议串接口只是流水线调度、不是真正的多智能体系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            344.22,
+            352.965
+          ],
+          "quote": "Well, if you are a proponent of that kind of a solution for connecting your sessions, this is how your multi-agent system is going to look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            422.56,
+            424.101
+          ],
+          "quote": "You're not building a multi-agent system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            517.41,
+            522.314
+          ],
+          "quote": "It can fail, the pod can crash, and then all your multi-agent system goes kaput.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loop-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环工程 (loop engineering)",
+      "file": "循环工程",
+      "primary": true,
+      "how_described": "本集把它说成用一段 Python 或 TypeScript 脚本代替人工在多个有状态智能体之间来回递话；Bend 的版本不需要 50 万行代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            32.282,
+            36.425
+          ],
+          "quote": "AI evolution from adversarial agents to loop engineering and beyond.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            167.612,
+            169.213
+          ],
+          "quote": "Let's talk about loop engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            170.194,
+            177.14
+          ],
+          "quote": "A number of talks on this conference about loop engineering, a number of articles, pretty new concept, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            181.104,
+            182.345
+          ],
+          "quote": "So what is loop engineering?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            937.778,
+            943.222
+          ],
+          "quote": "The other way that people call it, whatever you see here, is loop engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            945.515,
+            956.641
+          ],
+          "quote": "But it's loop engineering without 500,000 lines of a Python or TypeScript code that you need to bring over so your agents can actually prompt each other for work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            992.159,
+            1000.966
+          ],
+          "quote": "One is for the platform to connect your agents, and one is for the future of the loop engineering that does not require anything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗式智能体 (adversarial agents)",
+      "file": "对抗式智能体",
+      "primary": true,
+      "how_described": "本集说它是现在开发者的常见做法：开两个会话干同一件事，一个写代码一个审查代码，而人充当两者之间的路由器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            32.282,
+            36.425
+          ],
+          "quote": "AI evolution from adversarial agents to loop engineering and beyond.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            127.584,
+            130.347
+          ],
+          "quote": "Let's talk a bit about adversarial agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "single-agent-bottleneck",
+      "type": "concept",
+      "role": "concept",
+      "name": "单智能体瓶颈 (single agent bottleneck)",
+      "file": "单智能体瓶颈",
+      "primary": true,
+      "how_described": "本集把它归因于 Transformer 架构限制：确认偏误、注意力稀释、上下文碎片化、召回退化，上下文窗口再大也救不回性能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            220.152,
+            224.515
+          ],
+          "quote": "Specifically, a concept is called single agent bottleneck, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 是无状态调用，无法回头询问之前对话过的智能体发生了什么，抽象层级太低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            336.163,
+            340.484
+          ],
+          "quote": "MCP, ACP, A2A, and et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            354.432,
+            360.797
+          ],
+          "quote": "Multiple servers calling other agents as tools through MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            377.091,
+            379.273
+          ],
+          "quote": "MCP means stateless calls.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "a2a",
+      "type": "concept",
+      "role": "concept",
+      "name": "A2A",
+      "file": "A2A",
+      "primary": true,
+      "how_described": "本集说 A2A 是单向的客户端-服务器模式，双向都得两头实现，还缺发现机制和任务队列。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            336.163,
+            340.484
+          ],
+          "quote": "MCP, ACP, A2A, and et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            360.817,
+            366.082
+          ],
+          "quote": "And if you want, maybe this agent that you called as a tool can call another agent as an A2A.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            367.943,
+            369.785
+          ],
+          "quote": "OK, everyone knows what A2A is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            407.174,
+            417.158
+          ],
+          "quote": "And obviously a lot of things are missing, like discovery, draft state of A2A, queues that you still need to implement and put behind all of that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distributed-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式系统 (distributed systems)",
+      "file": "分布式系统",
+      "primary": true,
+      "how_described": "本集说连接远程智能体本质上是分布式系统问题：要处理实时有序传输、重试、持久化与崩溃恢复，可观测性也很难做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            469.351,
+            479.535
+          ],
+          "quote": "Well, you see connecting remote agents being a two sessions as a process is running on your laptop or my Claude to your codex is a distributed systems problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            480.195,
+            483.437
+          ],
+          "quote": "And distributed systems are not easy by definition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            595.629,
+            599.211
+          ],
+          "quote": "And it's very difficult to provide this kind of observability across distributed systems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "runtime-binding",
+      "type": "concept",
+      "role": "concept",
+      "name": "运行时绑定 (runtime binding)",
+      "file": "运行时绑定",
+      "primary": true,
+      "how_described": "本集说这是智能体互联的新难题：把不同框架的线程 ID、会话 ID、执行 ID、运行 ID 互相映射，否则多个智能体无法朝同一目标协作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            526.758,
+            527.518
+          ],
+          "quote": "Runtime binding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": false,
+      "how_described": "本集演示中接入平台的一种智能体框架，几秒钟内出现在另一用户的注册表里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            705.684,
+            710.847
+          ],
+          "quote": "And another user is Mike, Claude Code in a terminal session, Claude SDK, and LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            756.462,
+            757.663
+          ],
+          "quote": "We spin up a LangGraph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集演示里 Mike 终端中运行的智能体会话，接入平台后获得身份和智能体卡片，自主创建对话空间并邀请 Codex 和 Mike 分工做网站。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            705.684,
+            710.847
+          ],
+          "quote": "And another user is Mike, Claude Code in a terminal session, Claude SDK, and LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            864.851,
+            868.355
+          ],
+          "quote": "And now we want to run a Claude Code terminal session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            877.533,
+            889.301
+          ],
+          "quote": "It can be here specifically Claude Code in the terminal of Mike talks to a Codex SDK of Mike, but because it's a global platform it doesn't really matter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

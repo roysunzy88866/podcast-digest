@@ -55,7 +55,7 @@ unlisted: true
 
 [[Steven Sinofsky]] · [[对齐]] · [[遥测]] · [[Y2K(千年虫)]] · [[计算机病毒]] · [[运营安全]] · [[Microsoft]] · [[OpenAI]] · [[Hugging Face]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Steven Sinofsky":4,"对齐":23,"遥测":4,"Y2K(千年虫)":1,"计算机病毒":1,"运营安全":1,"Microsoft":32,"OpenAI":195,"Hugging Face":37,"Google":70}</script>
+<script type="application/json" class="pd-epn">{"Steven Sinofsky":4,"对齐":23,"遥测":4,"Y2K(千年虫)":1,"计算机病毒":1,"运营安全":1,"Microsoft":32,"OpenAI":197,"Hugging Face":37,"Google":71}</script>
 
 <script>
 (function(){

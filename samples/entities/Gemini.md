@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>16</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,7 +30,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*4 条*
+*5 条*
 
 ![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q2]]
 
@@ -39,6 +39,8 @@ unlisted: true
 ![[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual#^q7]]
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q16]]
+
+![[2026-10-07-talks-why-ai-agents-should-have-their-own-sand#^q1]]
 
 ## ② 出现在这些集
 
@@ -67,7 +69,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[Claude Code]] · [[评估]] · [[TPU]] · [[Cursor]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Google":70,"ChatGPT":108,"OpenAI":195,"Anthropic":200,"Claude Code":105,"评估":1,"TPU":5,"Cursor":86,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Google":71,"ChatGPT":110,"OpenAI":197,"Anthropic":201,"Claude Code":107,"评估":1,"TPU":5,"Cursor":86,"Lenny":69}</script>
 
 <script>
 (function(){

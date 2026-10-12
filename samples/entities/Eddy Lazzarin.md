@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"AI 安全":3,"对齐":23,"超级智能":10,"欺骗性对齐":1,"机制可解释性":1,"开源":40,"有效利他主义":2,"网络安全":4,"去中心化":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":8,"AI 安全":3,"对齐":23,"超级智能":10,"欺骗性对齐":1,"机制可解释性":1,"开源":40,"有效利他主义":2,"网络安全":4,"去中心化":2}</script>
 
 <script>
 (function(){

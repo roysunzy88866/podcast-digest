@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[后训练]] · [[Lenny]] · [[Adam Gleave]] · [[Benjamin Mann]] · [[FAR AI]] · [[Claude]] · [[通用越狱]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":200,"OpenAI":195,"智能体":478,"后训练":1,"Lenny":69,"Adam Gleave":1,"Benjamin Mann":1,"FAR AI":1,"Claude":93,"通用越狱":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":201,"OpenAI":197,"智能体":483,"后训练":1,"Lenny":69,"Adam Gleave":1,"Benjamin Mann":1,"FAR AI":1,"Claude":93,"通用越狱":1}</script>
 
 <script>
 (function(){

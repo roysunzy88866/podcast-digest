@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Theo Jaffe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Theo Jaffe">TH</div><div class="pi"><h1 class="pt">Theo Jaffe</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Theo Jaffe">TH</div><div class="pi"><h1 class="pt">Theo Jaffe</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -19,13 +19,14 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为主持
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为主持
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为主持
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为联合主持
 - [[2026-08-29-a16z-why-1-200-ai-agents-started-working-toge|《一千个AI智能体自发建组织：它们在研究怎么骗评分》]] — 作为主持
+- [[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j|《11亿美元投向AI的“钢筋水泥”:风投为什么重新爱上硬件》]] — 作为联合主持
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为联合主持
 - [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为主持
 
@@ -33,9 +34,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[Sofia Puccini]] · [[开源]] · [[Hugging Face]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]] · [[NVIDIA]] · [[推理]]
+[[Anthropic]] · [[OpenAI]] · [[Sofia Puccini]] · [[开源]] · [[智能体]] · [[Hugging Face]] · [[蒸馏]] · [[NVIDIA]] · [[Kimi K3]] · [[Mistral]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":200,"OpenAI":195,"Sofia Puccini":4,"开源":40,"Hugging Face":37,"蒸馏":1,"智能体":478,"Kimi K3":4,"NVIDIA":69,"推理":98}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":201,"OpenAI":197,"Sofia Puccini":4,"开源":40,"智能体":483,"Hugging Face":37,"蒸馏":1,"NVIDIA":70,"Kimi K3":4,"Mistral":7}</script>
 
 <script>
 (function(){

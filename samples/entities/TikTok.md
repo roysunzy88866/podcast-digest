@@ -8,7 +8,7 @@ aliases: ["tiktok", "tik tok"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TikTok</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TikTok">TI</div><div class="pi"><h1 class="pt">TikTok</h1><div class="byl">公司 · 又名 tiktok / tik tok</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TikTok">TI</div><div class="pi"><h1 class="pt">TikTok</h1><div class="byl">公司 · 又名 tiktok / tik tok</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ aliases: ["tiktok", "tik tok"]
 - **[[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]]**(72:14起):增长奇才 Ajay 在 TikTok/Reels 播种内容,一条做饭视频 72 小时约 700 万观看,带来约 10 倍下载峰值
 - **[[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]]**(08:06起):本集说 Eight Sleep 过去六个月才跑通 TikTok,关键靠网红产出足够多的 UGC 内容,并用关停部分地区的增量测试验证其价值
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(20:40起):本集说微短剧『始于 TikTok』（更早是 Musical.ly），它是发现短内容的入口，也证明如今抓注意力从未如此容易
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(00:46起):本集把 TikTok 说成短视频的基础范式:源自 Musical.ly 卖给字节跳动后实现的个性化信息流愿景;并说它让任何人都能当创作者,正如 AI 将让任何会讲故事的人都能做微短剧
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
@@ -28,14 +29,15 @@ aliases: ["tiktok", "tik tok"]
 - [[2026-08-19-aiandi-the-ai-alien-companion-app-that-39-s-bri|《LLM 是新的叙事媒介:AI 伴侣 Tolan 的故事工程学》]] — 作为被讨论公司(提及)
 - [[2026-09-12-twentyvc-20vc-7-predictions-for-how-ai-changes-th|《工程师一年前就停写代码：Eight Sleep 创始人的 AI 运营实录》]] — 作为被讨论公司(提及)
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Facebook]] · [[智能体]] · [[CAC]] · [[Instagram]] · [[LLM]] · [[Amazon]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[Twitter]]
+[[智能体]] · [[Facebook]] · [[Anthropic]] · [[LLM]] · [[ChatGPT]] · [[Google]] · [[CAC]] · [[Instagram]] · [[Netflix]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Facebook":17,"智能体":478,"CAC":3,"Instagram":9,"LLM":61,"Amazon":32,"Anthropic":200,"Google":70,"ChatGPT":108,"Twitter":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Facebook":17,"Anthropic":201,"LLM":62,"ChatGPT":110,"Google":71,"CAC":3,"Instagram":9,"Netflix":8,"OpenAI":197}</script>
 
 <script>
 (function(){

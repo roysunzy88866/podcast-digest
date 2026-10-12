@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeffrey Ladish]] · [[Anthropic]] · [[OpenAI]] · [[Hugging Face]] · [[NVIDIA]] · [[智能体]] · [[超级智能]] · [[对齐]] · [[递归自我改进]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Jeffrey Ladish":1,"Anthropic":200,"OpenAI":195,"Hugging Face":37,"NVIDIA":69,"智能体":478,"超级智能":10,"对齐":23,"递归自我改进":12,"沙箱":95}</script>
+<script type="application/json" class="pd-epn">{"Jeffrey Ladish":1,"Anthropic":201,"OpenAI":197,"Hugging Face":37,"NVIDIA":70,"智能体":483,"超级智能":10,"对齐":23,"递归自我改进":12,"沙箱":96}</script>
 
 <script>
 (function(){

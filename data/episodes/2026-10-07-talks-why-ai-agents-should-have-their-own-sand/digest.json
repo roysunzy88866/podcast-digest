@@ -1,0 +1,131 @@
+{
+  "title_zh": "给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境",
+  "tldr": "Google DeepMind的Philipp Schmid讲解Interactions API和自带沙盒的托管智能体，并现场演示一台AI电台。",
+  "digest_md": "Philipp Schmid来自Google DeepMind，主要做AI Studio和Gemini API相关的工作。这场演讲的核心主张写在标题里：AI智能体应该有自己专属的沙盒——一个由服务方管理的运行环境。他把这个想法背后的新产品讲了一遍，还现场跑了个演示。\n\n## AI智能体是怎么一步步走到今天的？\n\nSchmid先快速回顾了大模型的演进。在ChatGPT出现之前，最早的BERT和GPT模型让人兴奋的地方，是能接着句子往下写——给几个词，模型就能连贯地续写一首诗。有意思，但没什么实际用处。\n\n之后模型学会了执行指令，能回答问题了。ChatGPT出现后，人机交互变成了你一句我一句的对话。再后来加上函数调用，模型可以替你执行动作。\n\n而现在到了新阶段：你不再一步步下指令，而是给模型一个目标，告诉它怎么验证目标有没有达成，然后让它自己跑几个小时甚至几天，回来交结果 [02:31 Philipp Schmid]。\n\n## 新API的核心变化：不再有“用户回合”\n\n传统的大模型API都遵循“用户回合”结构：用户发一句，模型回一句。Schmid认为这在智能体时代已经不合适了。\n\n比如模型调用函数后，函数的返回结果要硬塞进一个“用户”角色发回去。可这个结果明明来自运行环境，不是来自用户，「for me always felt a little bit weird」[07:26 Philipp Schmid]。\n\n**于是新的Interactions API把对话改成了一条由“步骤”组成的时间线**：每个动作、每次生成都是独立的类型，想加新能力也容易扩展。\n\n这套API还有服务端状态管理——多轮对话只需要传上一轮的ID，服务器会自动拼接历史。另外支持长时间运行的异步任务，比如视频生成很耗时，你可以先拿到一个ID，等生成完再来取结果。\n\n## 重点来了：每个智能体配一个沙盒\n\n在Google I/O上发布的anti-gravity智能体，带来了关键的environment（环境）字段。你在API请求里指定remote，Google的后端就会启动一个云上沙盒，智能体可以在里面跑代码、创建文件、装依赖、调用你自己的API [09:09 Philipp Schmid]。\n\n关键在于：**这一切由Google托管，无状态，你不用管任何基础设施**。用他的话说，你不用碰Terraform，不用想Kubernetes、微服务这些事 [12:02 Philipp Schmid]。\n\n环境还能跨回合复用，甚至可以让多个智能体共享同一个环境——3个智能体可以通过文件系统交换上下文，或者让子智能体接手前一个智能体的工作。\n\n> 【背景】沙盒指隔离的独立运行环境，程序在里面随便折腾也不会影响外部系统。\n\n## 智能体就是一堆文件\n\n演示环节，Schmid展示了一个AI电台应用。它本质上是套在托管智能体上的一层界面：智能体先用Python装依赖、读技能文件，然后自己研究话题、写台词、生成语音和音乐，最后混音出成品。\n\n现场播放了一段关于“早餐麦片该先倒还是先倒牛奶”的电台节目，主持人Paul连线波士顿的David和悉尼的Sarah，两人一本正经地辩论，David还打了个肉汁土豆泥的比方。\n\n有意思的是，**打开这个智能体的内部，它就是几个文件**：一个agent.md写指令，几个Python文件封装具体能力，比如调用语音合成模型。想把它从界面搬到自己的后端，复制文件、创建智能体就行 [17:35 Philipp Schmid]。\n\n## 智能体甚至能造智能体\n\nAgents API让你把一个智能体的“大脑”、指令和环境打包定义好，团队之间可以共享。更妙的是**可以让智能体先搭建自己的环境**——比如装好GitHub命令行工具、放入技能文件、做完检查——得到一个环境ID，再基于这个预装好的环境创建新智能体，每次调用都从这里起步 [11:42 Philipp Schmid]。\n\n现场演示中，Schmid问沙盒里的智能体“你在哪运行”，几秒后得到回答：Ubuntu系统、8个vCPU、16GB内存、Python和pip都装好了。环境里的文件还可以随时下载出来分享。\n\n## 本集带走\n\n- Interactions API把传统的“用户-模型回合”改成了步骤时间线，函数结果不再伪装成用户输入。\n- 托管智能体自带云上沙盒，能跑代码、装依赖、读写文件，开发者不用管任何基础设施。\n- 沙盒环境可复用、可共享，多个智能体能通过文件系统协作。\n- 智能体本质上就是一组文件（agent.md加技能脚本），可以打包分享，甚至用智能体来搭建环境再创建新智能体。\n- 想上手可以去 ai.studio 或 ai.dev，用Gmail账号即可免费试用。",
+  "quotes": [
+    {
+      "en": "Then the anti-gravity agent we have in the Gemini API, but it's still the same harness, meaning if we improve Gemini to become better with that harness, we benefit inside anti-gravity, but we also benefit inside of the Gemini API.",
+      "zh": "而 Gemini API 里的 anti-gravity 智能体仍然是同一个 harness,意思是如果我们改进 Gemini 使它在那个 harness 下变得更好，我们在 anti-gravity 里受益，但我们在 Gemini API 里也受益。",
+      "timestamp": "08:51",
+      "speaker": "Philipp Schmid"
+    },
+    {
+      "en": "And our agent is just files.",
+      "zh": "我们的智能体其实就是文件。",
+      "timestamp": "16:47",
+      "speaker": "Philipp Schmid"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "We basically give a goal to the model, tell them how to verify its goal, how to deploy it, and hopefully have it running for multiple hours or even days, and come back with the results we want to achieve.",
+      "zh": "我们基本上是给模型一个目标，告诉它如何验证这个目标、如何部署它，然后希望它能运行多个小时甚至几天，最后带着我们想要的结果回来。"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Unknown",
+      "en": "It is much more developer-focused, much more simpler, much more web developer-friendly.",
+      "zh": "它更加面向开发者，更加简单，对 Web 开发者更友好。"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Unknown",
+      "en": "And you can already tell in the two snippets here, to call a model like Gemini or to call an agent here, like the anti-gravity agent, it's literally the same interface.",
+      "zh": "从这里的两个代码片段你就能看出来，调用像 Gemini 这样的模型和调用像 anti-gravity 这样的智能体，用的是完全相同的接口。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Unknown",
+      "en": "We call it Interactions because we just not get a response anymore.",
+      "zh": "我们叫它 Interactions,因为我们不再只是拿到一个响应了。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Unknown",
+      "en": "This worked until like one or two years ago, I would say, where we just got back responses from those models.",
+      "zh": "这种方式在大约一两年前还行得通，我想说，那时我们只是从那些模型拿回响应。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Unknown",
+      "en": "But with agents and with reasoning, all of that changed, right?",
+      "zh": "但随着智能体和推理的出现，这一切都改变了，对吧？"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Unknown",
+      "en": "Function calling is not very a user role, right?",
+      "zh": "函数调用并不是很符合 user 角色，对吧？"
+    },
+    {
+      "timestamp": "07:26",
+      "speaker": "Unknown",
+      "en": "With normal or like with previous APIs, you would need to use the user turn to return some function output, which for me always felt a little bit weird because the output or the new input is coming from the environment and not from the user.",
+      "zh": "用以前的 API,你需要用 user 轮次来返回一些函数输出，这对我来说总感觉有点奇怪，因为输出或新输入是来自环境的，而不是来自用户。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "Then the anti-gravity agent we have in the Gemini API, but it's still the same harness, meaning if we improve Gemini to become better with that harness, we benefit inside anti-gravity, but we also benefit inside of the Gemini API.",
+      "zh": "而 Gemini API 里的 anti-gravity 智能体仍然是同一个 harness,意思是如果我们改进 Gemini 使它在那个 harness 下变得更好，我们在 anti-gravity 里受益，但我们在 Gemini API 里也受益。"
+    },
+    {
+      "timestamp": "09:30",
+      "speaker": "Unknown",
+      "en": "Install dependencies, install your own tools, or maybe call your own APIs, and it's all managed and stateless on our site, meaning that you just send the API request, you don't need to manage the infrastructure, and those environments stay persistent.",
+      "zh": "安装依赖、安装你自己的工具，或者调用你自己的 API,这一切在我们这边都是托管且无状态的，意思是你只需要发送 API 请求，不需要管理基础设施，而且这些 environment 会保持持久化。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Unknown",
+      "en": "But also this means that you can share environments between different agents.",
+      "zh": "但这也意味着你可以在不同智能体之间共享 environment。"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Unknown",
+      "en": "So if you have three agents working inside the same environment, they can share context through the file system.",
+      "zh": "所以如果你有三个智能体在同一个 environment 里工作，它们可以通过文件系统共享上下文。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Unknown",
+      "en": "And so it's very easy for you to use agents to build their own environments and then to create agents out of them which you can share with your users or with your customers without writing any Terraform, without thinking about Kubernetes, microservices, Firecracker, or anything else.",
+      "zh": "这样一来，你就可以非常容易地用智能体构建它们自己的 environment,然后从中创建可以分享给你的用户或客户的智能体，而无需写任何 Terraform,无需考虑 Kubernetes、微服务、Firecracker 或其他任何东西。"
+    },
+    {
+      "timestamp": "12:28",
+      "speaker": "Unknown",
+      "en": "It's not a coding agent.",
+      "zh": "它不是一个编码智能体。"
+    },
+    {
+      "timestamp": "12:30",
+      "speaker": "Unknown",
+      "en": "It's really a CLI that your agent can use to call the Gemini API, meaning it can call Nano Banana or Omni if you want to generate some assets.",
+      "zh": "它真的是一个你的智能体可以用来调用 Gemini API 的 CLI,意思是如果你想生成一些素材，它可以调用 Nano Banana 或 Omni。"
+    },
+    {
+      "timestamp": "16:47",
+      "speaker": "Unknown",
+      "en": "And our agent is just files.",
+      "zh": "我们的智能体其实就是文件。"
+    },
+    {
+      "timestamp": "19:34",
+      "speaker": "Unknown",
+      "en": "So when you build agents, normally a lot of times you need to manage the function calling on your client.",
+      "zh": "所以当你构建智能体时，通常很多时候你需要在客户端管理函数调用。"
+    },
+    {
+      "timestamp": "19:44",
+      "speaker": "Unknown",
+      "en": "And with the managed agents, it's really just a single API call and everything runs inside that remote sandbox.",
+      "zh": "而使用托管智能体，真的只需要一次 API 调用，一切都在那个远程沙箱里运行。"
+    }
+  ],
+  "voice_script": "今天想给你讲的是Google DeepMind的一位工程师，Philipp Schmid,他主要做AI Studio和Gemini API相关的工作。这场演讲聊的事情，一句话就能说明白：AI智能体应该有自己专属的沙盒——也就是一个由服务方管理好的运行环境。听起来有点抽象，但这背后其实是大模型这几年的整个演变，所以咱们从头说起。\n\n在ChatGPT出现之前，最早的BERT和GPT模型让人兴奋的地方是什么呢？是能接着句子往下写。你给它几个词，模型就能连贯地续写出一首诗。挺神奇的，但说实话，没什么实际用处。后来模型学会了执行指令，能正经回答问题了。ChatGPT一出来，人机交互就变成了你一句我一句的对话。再往后，模型加上了函数调用的能力，可以替你执行动作了——不只是说，还能做。\n\n而现在到了一个新的阶段：你不再一步步下指令，而是给模型一个目标，告诉它怎么验证这个目标有没有达成，然后让它自己跑几个小时、甚至几天，回来交结果。这就引出了一个问题——传统的API架构还跟得上吗？\n\nSchmid觉得跟不上了。传统的大模型API都是“用户回合”结构：用户发一句，模型回一句。可到了智能体时代，麻烦来了。比如模型调用了一个函数，函数返回的结果要塞回给模型，按老规矩，这个结果得硬塞进一个“用户”角色里发回去。可这个结果明明来自运行环境，根本不是用户说的话。Schmid自己就说，这么干对他来说一直感觉有点别扭。\n\n所以新的Interactions API把整个对话结构改了，改成了一条由“步骤”组成的时间线：每个动作、每次生成，都是独立的类型。这样一来，以后想加新能力，也容易扩展。这套API还有服务端状态管理，多轮对话只需要传上一轮的ID,服务器自动帮你拼接历史。另外它支持长时间运行的异步任务——比如视频生成很耗时，你可以先拿到一个ID,等生成完了再来取结果。\n\n好，API的问题解决了。那智能体跑在哪儿呢？这就到了这场演讲的重点：每个智能体配一个沙盒。先解释一下，沙盒就是一个隔离的独立运行环境，程序在里面随便折腾，也不会影响外部系统。\n\n在Google I/O上发布的anti-gravity智能体，带来了一个关键字段叫environment,环境。你在API请求里指定remote,Google的后端就会启动一个云上沙盒，智能体可以在里面跑代码、创建文件、装依赖、调用你自己的API。关键在于，这一切由Google托管，无状态，你不用管任何基础设施。用Schmid的话说，你不用碰Terraform,不用想Kubernetes、微服务这些事。对很多开发者来说，光这一条就已经省掉一大摊子活了。\n\n而且这个环境还能跨回合复用，甚至可以让多个智能体共享同一个环境——比如3个智能体通过文件系统交换上下文，或者让子智能体接手前一个智能体的工作。\n\n那这套东西用起来到底什么样？演讲现场有个演示，是一个AI电台应用。它本质上是套在托管智能体上的一层界面：智能体先用Python装依赖、读技能文件，然后自己研究话题、写台词、生成语音和音乐，最后混音出成品。现场播了一段关于“早餐麦片该先倒还是先倒牛奶”的电台节目，主持人Paul连线了波士顿的David和悉尼的Sarah,两个人一本正经地辩论，David还打了个肉汁土豆泥的比方。\n\n有意思的是，打开这个智能体的内部一看，它就是几个文件：一个agent.md写指令，几个Python文件封装具体的能力，比如调用语音合成模型。想把它从界面搬到自己的后端？复制文件、创建智能体，就行了。所以有句话说得特别好：我们的智能体，其实就是文件。\n\n再往下推一步，更有意思了——智能体甚至能造智能体。Agents API让你把一个智能体的“大脑”、指令和环境打包定义好，团队之间可以共享。更妙的是，可以让智能体先搭建自己的环境：装好GitHub命令行工具、放入技能文件、做完检查，得到一个环境ID,然后基于这个预装好的环境创建新智能体，每次调用都从这里起步。现场演示里，Schmid问沙盒里的智能体“你在哪运行”，几秒后就得到回答：Ubuntu系统、8个vCPU、16GB内存，Python和pip都装好了。环境里的文件还可以随时下载出来分享。\n\n总结一下这一集能带走的东西。Interactions API把传统的“用户和模型轮流说话”改成了步骤时间线，函数结果不再伪装成用户输入。托管智能体自带云上沙盒，能跑代码、装依赖、读写文件，开发者完全不用管基础设施。沙盒环境可复用、可共享，多个智能体能通过文件系统协作。而智能体本身，就是一组文件，可以打包分享，甚至可以用智能体来搭建环境、再造新的智能体。想上手的话，去ai.studio或ai.dev,用Gmail账号就能免费试用。\n\n说到底，这场演讲讲的就是一件事：给智能体一间自己的屋子，让它在里面自己折腾，而咱们的智能体，其实就是几个文件而已。"
+}

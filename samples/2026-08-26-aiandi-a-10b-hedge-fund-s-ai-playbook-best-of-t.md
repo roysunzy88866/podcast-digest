@@ -160,7 +160,7 @@ Will 是历史爱好者，最爱南北战争到一战那段——他办公室就
 
 - [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
-- [[2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test|AI 写代码快，黑客攻击更快：安全测试得改成全天候]]<span class="pd-rz">同概念:LLM、智能体 (agents)</span>
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会]]<span class="pd-rz">同概念:ChatGPT、LLM</span>
 
 </div>
 </div>

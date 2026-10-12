@@ -142,9 +142,9 @@ Ivan 说，过去你要造一个写代码的智能体，得先调教框架，再
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境]]<span class="pd-rz">同公司:Google DeepMind · 同概念:anti-gravity、Gemini API、Interactions API、Managed Agents、函数调用 (function calling)、智能体 (agent)、沙箱 (sandbox)、AI Studio</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:Managed Agents、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|别给智能体一台电脑：Electric 的“智能体即数据”新架构]]<span class="pd-rz">同概念:Managed Agents、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|智能体就只是文件：当配置取代 Python]]<span class="pd-rz">同概念:函数调用 (function calling)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

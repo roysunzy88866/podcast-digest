@@ -180,9 +180,9 @@ BENT 做的就是这件事：一个跨框架、跨部署环境的全局协作层
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot|AI 智能体为什么还聊不到一起？有人做了个“聊天室”]]<span class="pd-rz">同嘉宾:Vlad Luzin · 同概念:A2A、MCP、分布式系统 (distributed systems)、循环工程 (loop engineering)、智能体 (agent)</span>
 - [[2026-08-29-talks-agents-are-where-microservices-were-in-2|Navan 架构师谈生产环境智能体：从运行时到护栏的实战分层]]<span class="pd-rz">同概念:A2A、MCP、智能体 (agent)</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:MCP、智能体 (agent)、Claude</span>
-- [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同概念:MCP、智能体 (agent)、Claude</span>
 
 </div>
 <div class="pd-ex">

@@ -7,14 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sophia Du</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sophia Du">SO</div><div class="pi"><h1 class="pt">Sophia Du</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sophia Du">SO</div><div class="pi"><h1 class="pt">Sophia Du</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t|《网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落》]] — 作为联合主持
 - [[2026-08-22-a16z-martin-casado-on-where-the-value-is-goin|《Martin Casado：AI 时代，钱比以前好使了》]] — 作为联合主持
+- [[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j|《11亿美元投向AI的“钢筋水泥”:风投为什么重新爱上硬件》]] — 作为联合主持
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为主持
 - [[2026-09-07-a16z-can-open-source-keep-ai-power-from-conce|《Transformer 不满十岁：AI 集中不是宿命》]] — 作为主持
 
@@ -22,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Julie Yoo]] · [[Lucas Kaiser]] · [[Sophia Puccini]] · [[Theo Jaffe]] · [[a16z]] · [[Transformer]]
+[[智能体]] · [[Theo Jaffe]] · [[a16z]] · [[OpenAI]] · [[NVIDIA]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Jen Kha]] · [[Julie Yoo]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":195,"GPU":30,"Ruby Thelot":1,"Martin Casado":7,"Julie Yoo":1,"Lucas Kaiser":1,"Sophia Puccini":1,"Theo Jaffe":7,"a16z":20,"Transformer":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Theo Jaffe":8,"a16z":21,"OpenAI":197,"NVIDIA":70,"GPU":30,"Ruby Thelot":1,"Martin Casado":7,"Jen Kha":1,"Julie Yoo":1}</script>
 
 <script>
 (function(){

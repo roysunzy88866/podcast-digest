@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI Studio</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI Studio">AI</div><div class="pi"><h1 class="pt">AI Studio</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI Studio">AI</div><div class="pi"><h1 class="pt">AI Studio</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(03:02起):本集说它是试用模型的最好方式,有慷慨免费额度,Ivan 的演讲备注就是在上面 vibe 出来的。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(00:18起):本集说是试用 Gemini API 的入口,含 build 版块和 gallery 预构建小程序(如 AI Talk Radio),可用 Gmail 免费开始
 - **[[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]]**(01:24起):本集说 AI Studio 是 Josh 负责的、从 Labs 生长出来的大项目之一，与 NotebookLM、Flow 并列被反复提及。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念(提及)
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念
 - [[2026-10-11-lennys-why-every-company-now-needs-to-think|《好主意没法用微波炉加热：Google Labs 掌门人谈如何在 AI 时代找灵感、砍项目、养团队》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Ivan Leo]] · [[Lenny]] · [[Google DeepMind]] · [[Josh Woodward]] · [[Interactions API]] · [[Google]] · [[Managed Agents]] · [[Google Labs]] · [[函数调用]]
+[[智能体]] · [[Google DeepMind]] · [[Interactions API]] · [[Managed Agents]] · [[函数调用]] · [[沙箱]] · [[Gemini API]] · [[anti-gravity]] · [[Ivan Leo]] · [[Philipp Schmid]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Ivan Leo":1,"Lenny":69,"Google DeepMind":9,"Josh Woodward":1,"Interactions API":1,"Google":70,"Managed Agents":6,"Google Labs":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Google DeepMind":10,"Interactions API":2,"Managed Agents":7,"函数调用":4,"沙箱":96,"Gemini API":2,"anti-gravity":2,"Ivan Leo":1,"Philipp Schmid":2}</script>
 
 <script>
 (function(){

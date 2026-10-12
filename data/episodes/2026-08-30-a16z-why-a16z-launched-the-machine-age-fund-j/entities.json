@@ -1,0 +1,692 @@
+{
+  "episode_id": "2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j",
+  "podcast": "The a16z Show",
+  "date": "2026-08-30",
+  "tags": [
+    "风险投资",
+    "AI 基础设施",
+    "硬件",
+    "数据中心",
+    "投资机构"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jen-kha",
+      "type": "person",
+      "role": "host",
+      "name": "Jen Kha",
+      "file": "Jen Kha",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sophia-du",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sophia Du",
+      "file": "Sophia Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            43.208,
+            58.592
+          ],
+          "quote": "GenCob, Managing Partner and Head of Global Partnerships at E16Z, joins Theo Jaffe and Sophia Du on NTS to discuss E16Z's Machine Age Fund and why the physical infrastructure underneath AI is suddenly one of the most active areas for founders.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "cohost",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            43.208,
+            58.592
+          ],
+          "quote": "GenCob, Managing Partner and Head of Global Partnerships at E16Z, joins Theo Jaffe and Sophia Du on NTS to discuss E16Z's Machine Age Fund and why the physical infrastructure underneath AI is suddenly one of the most active areas for founders.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": true,
+      "how_described": "本集嘉宾所在的公司:今年募集了接近全行业风险资本 23% 的资金,并宣布成立 11 亿美元的 Machine Age Fund,专注投资 AI 之下的物理基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            59.687,
+            74.755
+          ],
+          "quote": "They get into why the existing stack wasn't designed for today's AI workloads, what needs to change across chips, networking, memory, cooling, and data centers, and why hardware has gone from a tiny fraction of the pitch's A16Z sees to more than 20%.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 11,
+          "t": [
+            105.231,
+            114.357
+          ],
+          "quote": "And joining us today is Jen Ka, who's a managing partner and head of global partnerships at A16Z to talk about the machine-age fund and the investment thesis behind it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1387.888,
+            1393.429
+          ],
+          "quote": "It's going to be really fascinating to see how Venture Capital and A16Z, how you guys changed the game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1412.266,
+            1415.127
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1427.07,
+            1432.691
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1443.674,
+            1451.08
+          ],
+          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1451.6,
+            1458.646
+          ],
+          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1459.107,
+            1464.752
+          ],
+          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "machine-age-fund",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器时代基金 (machine-age fund)",
+      "file": "机器时代基金",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            43.208,
+            58.592
+          ],
+          "quote": "GenCob, Managing Partner and Head of Global Partnerships at E16Z, joins Theo Jaffe and Sophia Du on NTS to discuss E16Z's Machine Age Fund and why the physical infrastructure underneath AI is suddenly one of the most active areas for founders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            93.584,
+            104.951
+          ],
+          "quote": "Andreessen Horowitz just launched a new $1.1 billion machine-age fund focused on the physical infrastructure underneath AI, from chips and networking to data centers, robotics, and energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            105.231,
+            114.357
+          ],
+          "quote": "And joining us today is Jen Ka, who's a managing partner and head of global partnerships at A16Z to talk about the machine-age fund and the investment thesis behind it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            122.841,
+            126.463
+          ],
+          "quote": "And we wanted to talk about why this machine age fund, why now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            144.893,
+            155.798
+          ],
+          "quote": "But we announced this $1.1 billion machine-age fund to invest into all of the physical constructs of the world that is now so bottlenecked, given all of the demands in AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            500.369,
+            505.515
+          ],
+          "quote": "What is the specific niche of what the Machine Age Fund is going to be doing at this scale?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1375.361,
+            1381.125
+          ],
+          "quote": "Jen, really wanted to thank you for coming and joining us today on MTS to share more about the Machine Age Fund.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集核心论点:过去 30 年硬件对风投基本是『不可投资的品类』,但 AI 算力和数学密集程度远超上一代,SaaS 时代的『穷人版』基础设施必须为 AI 时代重建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            43.208,
+            58.592
+          ],
+          "quote": "GenCob, Managing Partner and Head of Global Partnerships at E16Z, joins Theo Jaffe and Sophia Du on NTS to discuss E16Z's Machine Age Fund and why the physical infrastructure underneath AI is suddenly one of the most active areas for founders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            75.615,
+            87.682
+          ],
+          "quote": "Jen also explains why this infrastructure race is increasingly global, how governments and institutional investors are thinking about AI as a national priority, and why, as she puts it, what's old is new again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            93.584,
+            104.951
+          ],
+          "quote": "Andreessen Horowitz just launched a new $1.1 billion machine-age fund focused on the physical infrastructure underneath AI, from chips and networking to data centers, robotics, and energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            183.57,
+            203.738
+          ],
+          "quote": "For the last 30 years, because we kind of built that infrastructure out for the last era of the internet and then of course of SaaS, that's all now getting rebuilt because AI is way more mathematically intensive and compute intensive and all that infrastructure, sort of the poor man's version that we're limping along with today needs to be repurposed for the AI age going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            404.857,
+            413
+          ],
+          "quote": "And if you were to rebuild from a blank sheet of paper, it would look very much differently than kind of shoehorning the current infrastructure today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1001.016,
+            1003.178
+          ],
+          "quote": "And they've built their infrastructure to enable that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1042.085,
+            1045.347
+          ],
+          "quote": "And most data centers aren't actually built for that infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1056.671,
+            1062.353
+          ],
+          "quote": "And so you're just seeing all these bottlenecks in the infrastructure that need to get fixed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1151.385,
+            1155.47
+          ],
+          "quote": "Everything that is guided by computer science on the infrastructure side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集反复讨论:公众对数据中心的反感是『叙事挡住了现实』,现代数据中心由科技公司而非房地产公司建造;真正的瓶颈在直流供电(美国仅不到 2% 电工受训)和液冷配套。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.964,
+            35.92
+          ],
+          "quote": "And you see these different examples around the world where they're accelerating their AI development and adoption way faster than in the U.S. And we might also see the influx of a lot of this data center supply chain buildup happen overseas because of this sentiment in the U.S. as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            365.379,
+            374.505
+          ],
+          "quote": "Two, if you think about most of the data center supply stack on the public side, those stocks have been ripping, you know, we were",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            385.01,
+            396.135
+          ],
+          "quote": "But companies also like SK Hynix, like Samsung, these are all kind of companies along the data center supply chain that have gotten so much interest because we're so constrained on the supply side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            906.172,
+            923.019
+          ],
+          "quote": "But, you know, we potentially view that as an opportunity as well, where Elon's building data centers in space, we might also see the influx of a lot of this data center supply chain bill that happen overseas because of this sentiment in the U.S. as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            962.656,
+            978.889
+          ],
+          "quote": "But unfortunately, the narrative has gotten in the way of reality, which is, if you look at most data centers, and particularly the modern ones, so I'm talking about AWS, Meta's data centers, Switch data center, which is one of our portfolio companies, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            980.94,
+            988.006
+          ],
+          "quote": "They are actually modern versions of the data center that are built by tech people, not real estate people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            988.046,
+            994.871
+          ],
+          "quote": "And they're actually building for all the nuances of the sensitivities people have around data center.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1082.262,
+            1091.245
+          ],
+          "quote": "So it's everything, think of, again, below the software stack, but you can almost even analogize it to anything in the data center we are focused on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1108.17,
+            1114.071
+          ],
+          "quote": "And then related to that, you know, robotics within the data center, for example, system software, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1161.499,
+            1166.647
+          ],
+          "quote": "But everything on the computer science guided side inside the data center is the focus of the fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1321.873,
+            1325.937
+          ],
+          "quote": "Both of them come from a very deep kind of selling into the data center background.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1326.317,
+            1335.305
+          ],
+          "quote": "And then Guido Appenizer, who is actually the former CTO of Intel, is also someone who is very, very technical, sold into and ran kind of the data center business for Intel as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "custom-silicon",
+      "type": "concept",
+      "role": "concept",
+      "name": "定制硅 (custom silicon)",
+      "file": "定制硅",
+      "primary": true,
+      "how_described": "本集把它列为基金投资范围之一:从零开始重新设计专为 AI 服务的芯片,如 Unconventional 在做的『用更简单的结构提升芯片性能』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            168.524,
+            182.573
+          ],
+          "quote": "All the physical parts of enabling AI, from data centers to chips to custom silicon, networking, Rackspace, all the stuff in the physical world that was honestly largely an uninvestable category for the most part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1091.265,
+            1097.947
+          ],
+          "quote": "So accelerators, CPUs, custom silicon, memory, storage, again, all things that were",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "liquid-cooling",
+      "type": "concept",
+      "role": "concept",
+      "name": "液冷 (liquid cooling)",
+      "file": "液冷",
+      "primary": true,
+      "how_described": "本集指出它是被遗忘了几十年、如今需要重建的物理层之一;Switch 是极少数能真正为未来芯片液冷(流体学)做管理准备的数据中心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            1098.427,
+            1108.13
+          ],
+          "quote": "Forgotten language, if you will, from an investable category perspective, the last several decades, liquid cooling, you know, all of that physical stuff that needs to get built out.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hyperscalers",
+      "type": "concept",
+      "role": "concept",
+      "name": "超大规模云厂商 (hyperscalers)",
+      "file": "超大规模云厂商",
+      "primary": true,
+      "how_described": "本集说这个领域的创业者需要与超大规模云厂商的关系才能起步;尽调圈子小,客户要么是 a16z 被投公司、要么就是超大规模云厂商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1232.177,
+            1250.288
+          ],
+          "quote": "Like, you're unlikely, although I'm sure there's some entreprenizing, you know, young individual coming out of university who are wanting to go after these categories, but because it requires so much in the way of relationships with the hyperscalers, with customers, really understanding the physical dynamics of how to get something like this off the ground.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1367.316,
+            1374.241
+          ],
+          "quote": "either our portfolio companies or the hyperscalers and can actually do the diligence around it to really assess to whether something can get off the ground.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集用智能体论证需求侧:智能体使用的 token 量是人类的五倍,互联网上智能体流量已超过人类,这会推动基础设施需求继续抛物线式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 177,
+          "t": [
+            1121.757,
+            1124.84
+          ],
+          "quote": "You know, agents are using five times the amount of tokens as humans are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1124.86,
+            1131.909
+          ],
+          "quote": "And we just crossed over to agents being more on the volume of agents are now more on the internet than humans are.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nexthop",
+      "type": "company",
+      "role": "company",
+      "name": "NextHop",
+      "file": "NextHop",
+      "primary": true,
+      "how_described": "本集举的投资案例之一:做 AI 原生高性能网络的公司,团队来自 Arista,a16z 成长基金在其 B 轮拐点投入了 6500 万美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            564.772,
+            572.899
+          ],
+          "quote": "You know, we invested in a company called NextHop, which is building kind of AI-first high-performance networking.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unconventional",
+      "type": "company",
+      "role": "company",
+      "name": "Unconventional",
+      "file": "Unconventional",
+      "primary": true,
+      "how_described": "本集称之为更理想的早期投资范式:创始人 Naveen Rao 曾在 Databricks 工作,公司从设计层面为 AI 重建芯片,a16z 种子轮进入,随后公司大幅溢价完成后续融资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            584.81,
+            589.674
+          ],
+          "quote": "Ideally, though, what we're doing is actually investing into companies like Unconventional instead.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "switch",
+      "type": "company",
+      "role": "company",
+      "name": "Switch",
+      "file": "Switch",
+      "primary": true,
+      "how_described": "本集用 Switch 反驳数据中心『泼脏水』叙事:这家 a16z 被投公司向电网回馈电力、用水极少,并为未来芯片液冷做了准备。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            962.656,
+            978.889
+          ],
+          "quote": "But unfortunately, the narrative has gotten in the way of reality, which is, if you look at most data centers, and particularly the modern ones, so I'm talking about AWS, Meta's data centers, Switch data center, which is one of our portfolio companies, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            994.891,
+            999.155
+          ],
+          "quote": "So in the case of Switch, for example, they actually contribute power back to the grid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1027.074,
+            1041.544
+          ],
+          "quote": "And where we are investing is the next generation of those data centers like a switch that have optimized for the future on not only some of the politically more sensitive things, but even things like, for example, the next set of chips are going to be DC powered versus AC powered.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集以其市值论证 AI 已成国家竞赛:市值 5.5 万亿美元,超过除美国之外的所有 G7 国家 GDP。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            668.202,
+            675.349
+          ],
+          "quote": "If you think about the context of the fact that companies now, NVIDIA, you know, at 5.5 trillion is the same size as...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            677.713,
+            682.9
+          ],
+          "quote": "So NVIDIA is larger than all of the G7 countries except the U.S. Wow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vmware",
+      "type": "company",
+      "role": "company",
+      "name": "VMware",
+      "file": "VMware",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1303.775,
+            1310.702
+          ],
+          "quote": "So, Martin Casado, you know, formerly CEO and founder of a company called Nicera, which sold into VMware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1311.483,
+            1319.431
+          ],
+          "quote": "Raghu Raghuram, who was a former CEO of VMware, who actually acquired Nicera and then was Martin's boss while at VMware.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

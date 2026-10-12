@@ -1,0 +1,1930 @@
+[
+ {
+  "seg": 0,
+  "start": 0.425,
+  "end": 8.747,
+  "speaker": "Unknown",
+  "en": "South Korea, by the way, just announced that they're giving premium AI to every citizen as sort of a public utility thing, so very, very topical.",
+  "zh": "顺便说一句，韩国刚刚宣布要向每个公民提供高级 AI,作为一种公共事业性质的东西，所以非常、非常应景。"
+ },
+ {
+  "seg": 1,
+  "start": 9.656,
+  "end": 12.178,
+  "speaker": "Unknown",
+  "en": "But by the way, it's not just them, it's El Salvador.",
+  "zh": "但顺便说一句，不只是他们，还有萨尔瓦多。"
+ },
+ {
+  "seg": 2,
+  "start": 12.539,
+  "end": 17.903,
+  "speaker": "Unknown",
+  "en": "They implemented Grok in their schools, for example, for free, and they're utilizing AI doctors, for example.",
+  "zh": "比如他们在学校免费部署了 Grok,还比如他们在使用 AI 医生。"
+ },
+ {
+  "seg": 3,
+  "start": 17.964,
+  "end": 35.92,
+  "speaker": "Unknown",
+  "en": "And you see these different examples around the world where they're accelerating their AI development and adoption way faster than in the U.S. And we might also see the influx of a lot of this data center supply chain buildup happen overseas because of this sentiment in the U.S. as well.",
+  "zh": "你可以看到世界各地这些不同的例子，他们加速 AI 发展和采用的速度远超美国。而且由于美国的这种情绪，我们也可能看到大量数据中心供应链的建设潮流向海外转移。"
+ },
+ {
+  "seg": 4,
+  "start": 37.027,
+  "end": 40.528,
+  "speaker": "Unknown",
+  "en": "For decades, venture capital moved further and further away from hardware.",
+  "zh": "几十年来，风险投资离硬件越来越远。"
+ },
+ {
+  "seg": 5,
+  "start": 41.188,
+  "end": 42.508,
+  "speaker": "Unknown",
+  "en": "AI is pulling it back.",
+  "zh": "AI 正把它拉回来。"
+ },
+ {
+  "seg": 6,
+  "start": 43.208,
+  "end": 58.592,
+  "speaker": "Unknown",
+  "en": "GenCob, Managing Partner and Head of Global Partnerships at E16Z, joins Theo Jaffe and Sophia Du on NTS to discuss E16Z's Machine Age Fund and why the physical infrastructure underneath AI is suddenly one of the most active areas for founders.",
+  "zh": "GenCob,E16Z 的管理合伙人兼全球合作伙伴负责人，与 Theo Jaffe 和 Sophia Du 一起在 NTS 上讨论 E16Z 的机器时代基金，以及为什么 AI 底下的物理基础设施突然成为创始人最活跃的领域之一。"
+ },
+ {
+  "seg": 7,
+  "start": 59.687,
+  "end": 74.755,
+  "speaker": "Unknown",
+  "en": "They get into why the existing stack wasn't designed for today's AI workloads, what needs to change across chips, networking, memory, cooling, and data centers, and why hardware has gone from a tiny fraction of the pitch's A16Z sees to more than 20%.",
+  "zh": "他们谈到为什么现有的技术栈不是为今天的 AI 工作负载而设计的，芯片、网络、内存、散热和数据中心方面需要改变什么，以及为什么硬件已经从 pitch 的 A16Z 所见中的很小一部分变成了超过 20%。"
+ },
+ {
+  "seg": 8,
+  "start": 75.615,
+  "end": 87.682,
+  "speaker": "Unknown",
+  "en": "Jen also explains why this infrastructure race is increasingly global, how governments and institutional investors are thinking about AI as a national priority, and why, as she puts it, what's old is new again.",
+  "zh": "Jen 还解释了为什么这场基础设施竞赛越来越全球化，各国政府和机构投资者如何把 AI 视为国家优先事项，以及为什么，用她的话说，旧的就是新的。"
+ },
+ {
+  "seg": 9,
+  "start": 90.622,
+  "end": 93.244,
+  "speaker": "Unknown",
+  "en": "Hello, everyone, and welcome back to MTS.",
+  "zh": "大家好，欢迎回到 MTS。"
+ },
+ {
+  "seg": 10,
+  "start": 93.584,
+  "end": 104.951,
+  "speaker": "Unknown",
+  "en": "Andreessen Horowitz just launched a new $1.1 billion machine-age fund focused on the physical infrastructure underneath AI, from chips and networking to data centers, robotics, and energy.",
+  "zh": "Andreessen Horowitz 刚刚推出了一只新的 11 亿美元机器时代基金，专注于 AI 底下的物理基础设施，从芯片和网络到数据中心、机器人和能源。"
+ },
+ {
+  "seg": 11,
+  "start": 105.231,
+  "end": 114.357,
+  "speaker": "Unknown",
+  "en": "And joining us today is Jen Ka, who's a managing partner and head of global partnerships at A16Z to talk about the machine-age fund and the investment thesis behind it.",
+  "zh": "今天加入我们的是 Jen Ka,她是 A16Z 的管理合伙人兼全球合作伙伴负责人，来谈谈机器时代基金及其背后的投资论点。"
+ },
+ {
+  "seg": 12,
+  "start": 114.397,
+  "end": 115.818,
+  "speaker": "Unknown",
+  "en": "Jen, welcome to MTS.",
+  "zh": "Jen,欢迎来到 MTS。"
+ },
+ {
+  "seg": 13,
+  "start": 116.538,
+  "end": 117.258,
+  "speaker": "Unknown",
+  "en": "Hello, hello.",
+  "zh": "你好，你好。"
+ },
+ {
+  "seg": 14,
+  "start": 117.298,
+  "end": 117.979,
+  "speaker": "Unknown",
+  "en": "It's good to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 15,
+  "start": 118.379,
+  "end": 119.44,
+  "speaker": "Unknown",
+  "en": "Great to have you here.",
+  "zh": "很高兴你在这里。"
+ },
+ {
+  "seg": 16,
+  "start": 119.46,
+  "end": 120.38,
+  "speaker": "Unknown",
+  "en": "Great to have you.",
+  "zh": "很高兴有你。"
+ },
+ {
+  "seg": 17,
+  "start": 120.42,
+  "end": 122.821,
+  "speaker": "Unknown",
+  "en": "I know Theo just said a big woo, but it's pretty exciting.",
+  "zh": "我知道 Theo 刚才大声欢呼了一下，但这确实很令人兴奋。"
+ },
+ {
+  "seg": 18,
+  "start": 122.841,
+  "end": 126.463,
+  "speaker": "Unknown",
+  "en": "And we wanted to talk about why this machine age fund, why now?",
+  "zh": "我们想谈谈为什么是这个机器时代基金，为什么是现在？"
+ },
+ {
+  "seg": 19,
+  "start": 127.564,
+  "end": 127.964,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 20,
+  "start": 128.184,
+  "end": 131.406,
+  "speaker": "Unknown",
+  "en": "By the way, the classic adage is sell in May and go away.",
+  "zh": "顺便说一句，经典的格言是「五月卖出，然后离场」。"
+ },
+ {
+  "seg": 21,
+  "start": 131.426,
+  "end": 134.968,
+  "speaker": "Unknown",
+  "en": "This has been the most prolific summer at all.",
+  "zh": "这一直是最多产的夏天。"
+ },
+ {
+  "seg": 22,
+  "start": 135.008,
+  "end": 143.913,
+  "speaker": "Unknown",
+  "en": "The fact that we're announcing a fund on August 28th when typically Wall Street is dead is like a classic sign of where we are in the cycle and the time, which is just there's so much going on.",
+  "zh": "我们在 8 月 28 日宣布一只基金——通常这时候华尔街是死寂的——这本身就像是我们所处周期和时代的经典信号，也就是说，现在有太多事情在发生。"
+ },
+ {
+  "seg": 23,
+  "start": 144.893,
+  "end": 155.798,
+  "speaker": "Unknown",
+  "en": "But we announced this $1.1 billion machine-age fund to invest into all of the physical constructs of the world that is now so bottlenecked, given all of the demands in AI.",
+  "zh": "但我们宣布这只 11 亿美元的机器时代基金，是为了投资当今世界所有因 AI 需求而严重瓶颈化的物理构造。"
+ },
+ {
+  "seg": 24,
+  "start": 156.338,
+  "end": 158.959,
+  "speaker": "Unknown",
+  "en": "And think about it as everything below the software stack.",
+  "zh": "你可以把它想成软件技术栈之下的一切。"
+ },
+ {
+  "seg": 25,
+  "start": 158.979,
+  "end": 162.601,
+  "speaker": "Unknown",
+  "en": "So we've got our infra fund, which invests into products for developers.",
+  "zh": "我们有我们的基础设施基金，投资面向开发者的产品。"
+ },
+ {
+  "seg": 26,
+  "start": 162.721,
+  "end": 164.982,
+  "speaker": "Unknown",
+  "en": "We've got our apps fund, which sells into, you know...",
+  "zh": "我们有我们的应用基金，销售给，你知道……"
+ },
+ {
+  "seg": 27,
+  "start": 165.762,
+  "end": 168.344,
+  "speaker": "Unknown",
+  "en": "Business to business and business to consumer, this is below all that.",
+  "zh": "企业对企业、企业对消费者，而这只基金是在所有这些之下的。"
+ },
+ {
+  "seg": 28,
+  "start": 168.524,
+  "end": 182.573,
+  "speaker": "Unknown",
+  "en": "All the physical parts of enabling AI, from data centers to chips to custom silicon, networking, Rackspace, all the stuff in the physical world that was honestly largely an uninvestable category for the most part.",
+  "zh": "所有支撑 AI 的物理部分，从数据中心到芯片到定制硅、网络、Rackspace,所有物理世界里的东西，说实话，这在很大程度上一直是一个基本不可投资的品类。"
+ },
+ {
+  "seg": 29,
+  "start": 183.57,
+  "end": 203.738,
+  "speaker": "Unknown",
+  "en": "For the last 30 years, because we kind of built that infrastructure out for the last era of the internet and then of course of SaaS, that's all now getting rebuilt because AI is way more mathematically intensive and compute intensive and all that infrastructure, sort of the poor man's version that we're limping along with today needs to be repurposed for the AI age going forward.",
+  "zh": "在过去 30 年里，因为我们已经为上一个互联网时代，当然还有 SaaS 时代，把那套基础设施建好了，而现在这一切都要重建，因为 AI 在数学上密集得多、算力密集得多，而所有那些基础设施——我们今天蹒跚维系的穷人版——需要为未来的 AI 时代被重新改造。"
+ },
+ {
+  "seg": 30,
+  "start": 205.258,
+  "end": 211.621,
+  "speaker": "Unknown",
+  "en": "So why a separate vehicle rather than doing this investment through like the main like growth infra and other funds?",
+  "zh": "那么，为什么要设立一个单独的载体，而不是通过比如主基金、成长基础设施基金等来做这些投资？"
+ },
+ {
+  "seg": 31,
+  "start": 213.182,
+  "end": 218.566,
+  "speaker": "Unknown",
+  "en": "Yeah, so our view is, you know, our job is to follow the entrepreneurs, right?",
+  "zh": "是的，我们的观点是，你知道，我们的工作是跟随创业者，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 218.686,
+  "end": 221.148,
+  "speaker": "Unknown",
+  "en": "My partner, Chris Dixon, calls it following the nerd energy.",
+  "zh": "我的合伙人 Chris Dixon 把这称为跟随书呆子能量。"
+ },
+ {
+  "seg": 33,
+  "start": 221.208,
+  "end": 226.553,
+  "speaker": "Unknown",
+  "en": "Like, what is the nerd doing on nights and weekends is probably what us normies will be doing in the future.",
+  "zh": "书呆子在晚上和周末在做什么，很可能就是我们这些普通人未来要做的事。"
+ },
+ {
+  "seg": 34,
+  "start": 227.413,
+  "end": 228.855,
+  "speaker": "Unknown",
+  "en": "And oftentimes...",
+  "zh": "而且往往……"
+ },
+ {
+  "seg": 35,
+  "start": 229.415,
+  "end": 231.597,
+  "speaker": "Unknown",
+  "en": "Entrepreneurs are that early signal into that.",
+  "zh": "创业者就是这方面最早的信号。"
+ },
+ {
+  "seg": 36,
+  "start": 231.677,
+  "end": 237.021,
+  "speaker": "Unknown",
+  "en": "And so the reason why we decided to establish a separate fund is one, there's just a groundswell of opportunity.",
+  "zh": "所以我们决定设立一只单独基金的原因之一，就是机会的汹涌涌现。"
+ },
+ {
+  "seg": 37,
+  "start": 237.041,
+  "end": 240.083,
+  "speaker": "Unknown",
+  "en": "So we went from, you know, Mark had famously said software's eating the world.",
+  "zh": "我们从——你知道，Mark 曾有名言说软件正在吞噬世界。"
+ },
+ {
+  "seg": 38,
+  "start": 240.163,
+  "end": 242.505,
+  "speaker": "Unknown",
+  "en": "Turns out AI has solved software, right?",
+  "zh": "结果 AI 已经解决了软件，对吧？"
+ },
+ {
+  "seg": 39,
+  "start": 242.645,
+  "end": 245.808,
+  "speaker": "Unknown",
+  "en": "Any software need you have today, AI can actually do it.",
+  "zh": "今天你有的任何软件需求，AI 实际上都能做到。"
+ },
+ {
+  "seg": 40,
+  "start": 246.368,
+  "end": 252.111,
+  "speaker": "Unknown",
+  "en": "But we have to solve for all the physical constraints in order for AI to actually solve for software.",
+  "zh": "但我们必须解决所有的物理约束，AI 才能真正解决软件问题。"
+ },
+ {
+  "seg": 41,
+  "start": 252.511,
+  "end": 259.554,
+  "speaker": "Unknown",
+  "en": "And so by creating a separate fund, we're putting out the back signal to the world, two entrepreneurs who are building to spend time with us, first and foremost.",
+  "zh": "所以通过设立一只单独的基金，我们向世界、向正在建设的创业者发出一个强烈信号：首先花时间和我们在一起。"
+ },
+ {
+  "seg": 42,
+  "start": 259.934,
+  "end": 267.858,
+  "speaker": "Unknown",
+  "en": "Second of all, just from an organizational perspective, it's very helpful to have a dedicated pool vehicle for these type of investments.",
+  "zh": "其次，单从组织角度来看，为这类投资设立一个专门的资金池载体非常有帮助。"
+ },
+ {
+  "seg": 43,
+  "start": 268.238,
+  "end": 269.219,
+  "speaker": "Unknown",
+  "en": "Because if you think about...",
+  "zh": "因为如果你想想……"
+ },
+ {
+  "seg": 44,
+  "start": 269.899,
+  "end": 275.902,
+  "speaker": "Unknown",
+  "en": "You know, when these companies typically raise capital, they will raise quite a bit of capital to kind of get off the ground.",
+  "zh": "你知道，当这些公司通常融资时，它们会筹集相当多的资金来起步。"
+ },
+ {
+  "seg": 45,
+  "start": 276.002,
+  "end": 294.293,
+  "speaker": "Unknown",
+  "en": "And typically what happens is if you put a like-for-like against another, let's just say, infra deal or apps deal, for example, there's so much in the way of investment you have to do ahead of time that if you do the like-for-like, you're almost always going to bias towards that sure thing with infra, what it's doing, you know.",
+  "zh": "而通常发生的情况是，如果你把一笔同类对比放在另一笔，比如说，基础设施交易或应用交易旁边，你事先必须做大量的投资工作，如果你做同类对比，你几乎总是会偏向于基础设施那种确定性的事情，你知道的。"
+ },
+ {
+  "seg": 46,
+  "start": 294.653,
+  "end": 298.536,
+  "speaker": "Unknown",
+  "en": "A billion, two billion in revenue, like off the bat and off the cuff.",
+  "zh": "10 亿、20 亿的收入，一上来就是。"
+ },
+ {
+  "seg": 47,
+  "start": 298.616,
+  "end": 312.266,
+  "speaker": "Unknown",
+  "en": "And so by separating it into a fund, we're kind of staking in the ground, A, our commitment to the space, and then more importantly, B, from an organizational portfolio construction perspective, that the intention of this is to capture those winners at the earliest stages, maximize ownership.",
+  "zh": "所以通过把它分拆成一只基金，我们等于是立桩划地：A,表明我们对这个领域的承诺；然后更重要的是，B,从组织层面的投资组合构建角度，表明这个基金的意图是在最早阶段捕获那些赢家，最大化持股比例。"
+ },
+ {
+  "seg": 48,
+  "start": 312.567,
+  "end": 319.612,
+  "speaker": "Unknown",
+  "en": "And then when you have that, you know, $75 million check that you're doing life for life, you have that dedicated pool of capital to really pursue after that category.",
+  "zh": "然后当你拿到那笔 7500 万美元、要做终身陪伴的支票时，你就有那个专门的资金池去真正追逐那个品类。"
+ },
+ {
+  "seg": 49,
+  "start": 319.932,
+  "end": 328.641,
+  "speaker": "Unknown",
+  "en": "Yeah, Jen, one thing I'm curious about is your specific role because I know you lead the partner relationships and you're in charge of almost the entire capital raising strategy.",
+  "zh": "是的，Jen,我好奇的一点是你的具体角色，因为我知道你负责合伙人关系，并且负责几乎整个资本募集策略。"
+ },
+ {
+  "seg": 50,
+  "start": 328.902,
+  "end": 332.245,
+  "speaker": "Unknown",
+  "en": "Have conversations with institutional investors changed?",
+  "zh": "与机构投资者的对话有变化吗?"
+ },
+ {
+  "seg": 51,
+  "start": 332.265,
+  "end": 333.526,
+  "speaker": "Unknown",
+  "en": "What are the conversations like?",
+  "zh": "这些对话是什么样的?"
+ },
+ {
+  "seg": 52,
+  "start": 333.566,
+  "end": 335.689,
+  "speaker": "Unknown",
+  "en": "What makes them want exposure to the AI hardware now?",
+  "zh": "是什么让他们现在想要AI硬件的敞口?"
+ },
+ {
+  "seg": 53,
+  "start": 337.267,
+  "end": 338.568,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a great question.",
+  "zh": "嗯,这是个好问题。"
+ },
+ {
+  "seg": 54,
+  "start": 338.588,
+  "end": 344.891,
+  "speaker": "Unknown",
+  "en": "So first of all, we raised, I think the numbers close to over 23% of all venture capital this year.",
+  "zh": "首先我们募了,我记得数字接近今年全部风险投资的23%以上。"
+ },
+ {
+  "seg": 55,
+  "start": 345.371,
+  "end": 345.772,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 56,
+  "start": 345.792,
+  "end": 347.112,
+  "speaker": "Unknown",
+  "en": "We've been on a tour.",
+  "zh": "我们一直在做巡回路演。"
+ },
+ {
+  "seg": 57,
+  "start": 348.053,
+  "end": 351.575,
+  "speaker": "Unknown",
+  "en": "But as a part of that, you know, I think this is representative of a few things.",
+  "zh": "但作为其中的一部分,你知道,我认为这代表了几件事。"
+ },
+ {
+  "seg": 58,
+  "start": 352.275,
+  "end": 354.817,
+  "speaker": "Unknown",
+  "en": "One, if you look at most of",
+  "zh": "第一,如果你看大部分"
+ },
+ {
+  "seg": 59,
+  "start": 355.853,
+  "end": 360.676,
+  "speaker": "Unknown",
+  "en": "The value accrual in AI, that's largely been on the private side, not the public side.",
+  "zh": "AI的价值积累,那很大程度上是在一级市场而不是二级市场。"
+ },
+ {
+  "seg": 60,
+  "start": 360.796,
+  "end": 364.739,
+  "speaker": "Unknown",
+  "en": "And so people are just starved for private capital in general, because that's where all the growth is.",
+  "zh": "所以人们总体上非常渴求私募资本,因为所有增长都在那里。"
+ },
+ {
+  "seg": 61,
+  "start": 365.379,
+  "end": 374.505,
+  "speaker": "Unknown",
+  "en": "Two, if you think about most of the data center supply stack on the public side, those stocks have been ripping, you know, we were",
+  "zh": "第二,如果你想想二级市场上大部分数据中心供应栈,那些股票一直在飙升,你知道,我们"
+ },
+ {
+  "seg": 62,
+  "start": 374.765,
+  "end": 376.646,
+  "speaker": "Unknown",
+  "en": "We're joking around internally on our all hands.",
+  "zh": "我们内部在全员大会上开玩笑。"
+ },
+ {
+  "seg": 63,
+  "start": 376.926,
+  "end": 379.847,
+  "speaker": "Unknown",
+  "en": "Sanjay, the CEO, has become the Taylor Swift of the industry, right?",
+  "zh": "Sanjay,那位CEO,已经成了这个行业的Taylor Swift,对吧?"
+ },
+ {
+  "seg": 64,
+  "start": 379.887,
+  "end": 382.349,
+  "speaker": "Unknown",
+  "en": "He has made much credit to him.",
+  "zh": "这很大程度要归功于他。"
+ },
+ {
+  "seg": 65,
+  "start": 382.429,
+  "end": 384.389,
+  "speaker": "Unknown",
+  "en": "He's been grinding the grind for a very long time.",
+  "zh": "他已经长期艰苦打拼了很多年。"
+ },
+ {
+  "seg": 66,
+  "start": 385.01,
+  "end": 396.135,
+  "speaker": "Unknown",
+  "en": "But companies also like SK Hynix, like Samsung, these are all kind of companies along the data center supply chain that have gotten so much interest because we're so constrained on the supply side.",
+  "zh": "但像SK Hynix、Samsung这样的公司,这些数据中心供应链上的公司都获得了如此多的关注,因为我们在供应端实在太受限了。"
+ },
+ {
+  "seg": 67,
+  "start": 396.875,
+  "end": 404.777,
+  "speaker": "Unknown",
+  "en": "And, you know, entrepreneurs are looking at it and saying, gosh, I know those are inefficient ways to build for the future with AI because it's not, again, configured appropriately to it.",
+  "zh": "而且你知道,创业者看着这些会说,天哪,我知道那些是低效的、为未来构建AI的方式,因为它再次没有适当地针对AI来配置。"
+ },
+ {
+  "seg": 68,
+  "start": 404.857,
+  "end": 413,
+  "speaker": "Unknown",
+  "en": "And if you were to rebuild from a blank sheet of paper, it would look very much differently than kind of shoehorning the current infrastructure today.",
+  "zh": "如果从一张白纸重建,它看起来会与今天硬塞进当前基础设施的方式非常不同。"
+ },
+ {
+  "seg": 69,
+  "start": 413.7,
+  "end": 418.281,
+  "speaker": "Unknown",
+  "en": "And so we kind of follow, you know, the entrepreneurs, as I was alluding to earlier, as a part of that.",
+  "zh": "所以就像我之前暗示的那样,我们某种程度上跟随创业者。"
+ },
+ {
+  "seg": 70,
+  "start": 418.341,
+  "end": 420.122,
+  "speaker": "Unknown",
+  "en": "And all of that is at the earliest stages.",
+  "zh": "而这一切都处于最早期的阶段。"
+ },
+ {
+  "seg": 71,
+  "start": 420.442,
+  "end": 424.103,
+  "speaker": "Unknown",
+  "en": "And then the last one I would say is, you know, we've seen in the last",
+  "zh": "然后我想说的最后一点是,你知道,我们在过去看到"
+ },
+ {
+  "seg": 72,
+  "start": 425.22,
+  "end": 431.123,
+  "speaker": "Unknown",
+  "en": "So obviously with SpaceX going public, Anthropic coming shortly, you know, OpenAI just on the tails.",
+  "zh": "所以显然随着SpaceX上市、Anthropic即将上市,你知道,OpenAI也紧随其后。"
+ },
+ {
+  "seg": 73,
+  "start": 431.623,
+  "end": 440.507,
+  "speaker": "Unknown",
+  "en": "I think people are now seeing this shift from what has historically been private staying longer and longer, no liquidity coming out.",
+  "zh": "我认为人们现在看到了这种转变,从历史上一直是私有的公司停留得越来越久,没有流动性退出。"
+ },
+ {
+  "seg": 74,
+  "start": 440.587,
+  "end": 444.569,
+  "speaker": "Unknown",
+  "en": "And now you're going to see multiple trillion dollar businesses go public.",
+  "zh": "而现在你将看到多家万亿美元规模的公司上市。"
+ },
+ {
+  "seg": 75,
+  "start": 444.649,
+  "end": 452.493,
+  "speaker": "Unknown",
+  "en": "And so people will have access to that, but there's a whole swath of companies on the private side that are not yet public.",
+  "zh": "所以人们将能够接触到这些,但在一级市场还有一大批尚未上市的公司。"
+ },
+ {
+  "seg": 76,
+  "start": 452.533,
+  "end": 463.538,
+  "speaker": "Unknown",
+  "en": "And so people want exposure to that and they don't want to, quite frankly, continue to invest into other asset classes like private equity, et cetera, that are built off the prior technology cycle.",
+  "zh": "所以人们想要那种敞口,而且坦白说,他们不想继续投资于其他资产类别,比如私募股权等等,那是建立在上一个技术周期之上的。"
+ },
+ {
+  "seg": 77,
+  "start": 464.078,
+  "end": 472.225,
+  "speaker": "Unknown",
+  "en": "And so this momentum shift, again, it would have been, when I started my career off, it would have been impossible to close a fund effectively in two months over the summer, right?",
+  "zh": "所以这种动能转变,再说一次,当我刚开始我的职业生涯时,在夏天两个月内有效完成一只基金的募集是不可能的,对吧?"
+ },
+ {
+  "seg": 78,
+  "start": 472.245,
+  "end": 473.866,
+  "speaker": "Unknown",
+  "en": "People are off on vacation, et cetera.",
+  "zh": "人们都去休假了,等等。"
+ },
+ {
+  "seg": 79,
+  "start": 474.147,
+  "end": 483.795,
+  "speaker": "Unknown",
+  "en": "Like the fact that this happened so quickly was a reflection of the fact that there's so much demand for this from the private pool capital side and from LPs who recognize where the puck is going.",
+  "zh": "这件事发生得这么快,反映了一级市场资金端和LP们对这个的需求如此之大,他们认识到冰球要滑向哪里。"
+ },
+ {
+  "seg": 80,
+  "start": 484.413,
+  "end": 484.934,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 81,
+  "start": 485.314,
+  "end": 489.258,
+  "speaker": "Unknown",
+  "en": "One thing I'm curious about is, you know, $1.1 billion is a lot of money.",
+  "zh": "我好奇的一件事是,你知道,11亿美元是一大笔钱。"
+ },
+ {
+  "seg": 82,
+  "start": 490.039,
+  "end": 498.728,
+  "speaker": "Unknown",
+  "en": "But on the scale of like the global hyperscaler build out, I think like American companies are gonna be spending something like a trillion dollars this year, a thousand times as much.",
+  "zh": "但在全球超大规模数据中心建设的规模上,我想美国公司今年大概要花一万亿美元,是这个的一千倍。"
+ },
+ {
+  "seg": 83,
+  "start": 500.369,
+  "end": 505.515,
+  "speaker": "Unknown",
+  "en": "What is the specific niche of what the Machine Age Fund is going to be doing at this scale?",
+  "zh": "Machine Age基金在这个规模下的具体定位是什么?"
+ },
+ {
+  "seg": 84,
+  "start": 507.432,
+  "end": 515.955,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is the subject of a lot of debate, Theo, when we were chatting internally about how we should size the fund, right?",
+  "zh": "嗯,这是很多争论的主题,Theo,我们内部讨论应该如何给基金定规模的时候,对吧?"
+ },
+ {
+  "seg": 85,
+  "start": 516.395,
+  "end": 522.356,
+  "speaker": "Unknown",
+  "en": "There's a partner who I will name unnamed who said, gosh, we're going to deploy this fund in like six weeks.",
+  "zh": "有一位不便透露姓名的合伙人说过,天哪,我们会在大概六周内部署完这只基金。"
+ },
+ {
+  "seg": 86,
+  "start": 522.417,
+  "end": 524.397,
+  "speaker": "Unknown",
+  "en": "Like, what are we even talking about here, right?",
+  "zh": "我们到底在讨论什么,对吧?"
+ },
+ {
+  "seg": 87,
+  "start": 525.437,
+  "end": 529.459,
+  "speaker": "Unknown",
+  "en": "So here's where I would reconcile on the portfolio construction side.",
+  "zh": "所以这是我在投资组合构建方面会如何调和的。"
+ },
+ {
+  "seg": 88,
+  "start": 529.479,
+  "end": 531.979,
+  "speaker": "Unknown",
+  "en": "So what we want to invest, so we're early stage investors.",
+  "zh": "那么我们想投资的,我们是早期投资者。"
+ },
+ {
+  "seg": 89,
+  "start": 532.139,
+  "end": 533.52,
+  "speaker": "Unknown",
+  "en": "So we want to come in at the seed",
+  "zh": "所以我们想在种子轮"
+ },
+ {
+  "seg": 90,
+  "start": 534.1,
+  "end": 537.001,
+  "speaker": "Unknown",
+  "en": "You know, Series A and then kind of invest at the inflection point.",
+  "zh": "你知道,A轮进入,然后在拐点投资。"
+ },
+ {
+  "seg": 91,
+  "start": 537.081,
+  "end": 559.808,
+  "speaker": "Unknown",
+  "en": "And oftentimes, you know, what we are trying to endeavor to do is maximize ownership at the very earliest stages where we can put, you know, 25, 30, $35 million and have a very substantive ownership that's very different than if you're a late stage investor and slash or a public market investor that has to come in at these later inflection points to get any ownership and also ownership that's substantive enough to drive fund returns.",
+  "zh": "通常,你知道,我们努力要做的是在最早阶段最大化持股比例,我们可以投入,你知道,2500万、3000万、3500万美元并获得非常实质性的持股,这与晚期投资者和/或二级市场投资者非常不同,他们必须在更晚的拐点进入才能获得任何持股,而且持股还要足够实质性才能驱动基金回报。"
+ },
+ {
+  "seg": 92,
+  "start": 560.408,
+  "end": 563.531,
+  "speaker": "Unknown",
+  "en": "And so I think that we're just looking categorically two different things.",
+  "zh": "所以我认为我们从根本上是在看两个不同的东西。"
+ },
+ {
+  "seg": 93,
+  "start": 563.551,
+  "end": 564.692,
+  "speaker": "Unknown",
+  "en": "So I'll give you an example.",
+  "zh": "我举个例子。"
+ },
+ {
+  "seg": 94,
+  "start": 564.772,
+  "end": 572.899,
+  "speaker": "Unknown",
+  "en": "You know, we invested in a company called NextHop, which is building kind of AI-first high-performance networking.",
+  "zh": "你知道,我们投资了一家叫NextHop的公司,它构建的是某种AI优先的高性能网络。"
+ },
+ {
+  "seg": 95,
+  "start": 573.06,
+  "end": 578.965,
+  "speaker": "Unknown",
+  "en": "And this was a company that was at the Series B inflection point, but we put in, you know, $65 million at the growth stage.",
+  "zh": "这是一家处于B轮拐点的公司,但我们在成长期投入了,你知道,6500万美元。"
+ },
+ {
+  "seg": 96,
+  "start": 578.985,
+  "end": 584.37,
+  "speaker": "Unknown",
+  "en": "That's a great opportunity for our growth fund to be coming in at that inflection point where they're taking off.",
+  "zh": "这是我们的成长基金在那个公司起飞的拐点进入的绝佳机会。"
+ },
+ {
+  "seg": 97,
+  "start": 584.81,
+  "end": 589.674,
+  "speaker": "Unknown",
+  "en": "Ideally, though, what we're doing is actually investing into companies like Unconventional instead.",
+  "zh": "不过理想情况下,我们实际做的反而是投资像Unconventional这样的公司。"
+ },
+ {
+  "seg": 98,
+  "start": 589.974,
+  "end": 595.938,
+  "speaker": "Unknown",
+  "en": "So this is the Naveen Rao company who was formerly with Databricks that we've known for a very long time.",
+  "zh": "这是Naveen Rao的公司,他之前在Databricks,我们认识他很久了。"
+ },
+ {
+  "seg": 99,
+  "start": 596.318,
+  "end": 603.383,
+  "speaker": "Unknown",
+  "en": "And this is a company that's actually rebuilding the chip from the design perspective of if you were to design a chip for AI.",
+  "zh": "而这家公司实际上是从设计的角度重建芯片,即如果你要为AI设计一颗芯片。"
+ },
+ {
+  "seg": 100,
+  "start": 603.844,
+  "end": 611.189,
+  "speaker": "Unknown",
+  "en": "And so what they're trying to do is target much simpler structure to enhance performance in the chips themselves.",
+  "zh": "所以他们想做的是瞄准更简单的结构,来提升芯片本身的性能。"
+ },
+ {
+  "seg": 101,
+  "start": 611.509,
+  "end": 614.832,
+  "speaker": "Unknown",
+  "en": "And they're kind of going off in the cave and they're going to go and do this endeavor and project.",
+  "zh": "他们有点像是钻进山洞里,他们要去进行这个事业和项目。"
+ },
+ {
+  "seg": 102,
+  "start": 614.872,
+  "end": 621.197,
+  "speaker": "Unknown",
+  "en": "But, you know, we invested at the seed and, you know, subsequently, you know, they raised a huge up right after that.",
+  "zh": "但是,你知道,我们在种子轮投资了,而且,你知道,随后,你知道,他们在那之后很快就完成了一笔巨额融资。"
+ },
+ {
+  "seg": 103,
+  "start": 621.217,
+  "end": 632.327,
+  "speaker": "Unknown",
+  "en": "And so, like, it's really important to come in at the early stage before these things start to inflect and then to be able to maximize ownership and therefore put capital work at maybe smaller amounts that we would otherwise not be able to just waiting.",
+  "zh": "所以,就是说,在这些问题开始出现拐点之前尽早进入真的很重要,这样才能最大化持股比例,从而让资本发挥作用,用可能比我们等到那时才能用的更小的金额。"
+ },
+ {
+  "seg": 104,
+  "start": 633.335,
+  "end": 639.322,
+  "speaker": "Unknown",
+  "en": "Jen, one of the things that you explicitly wrote about as well is you are looking for partners that can provide more than just capital.",
+  "zh": "Jen,你还明确写过的一点是,你在寻找能提供的不只是资本的合作伙伴。"
+ },
+ {
+  "seg": 105,
+  "start": 639.422,
+  "end": 644.187,
+  "speaker": "Unknown",
+  "en": "So this includes market access or things like geopolitical relationships.",
+  "zh": "所以这包括市场准入,或者像是地缘政治关系之类的东西。"
+ },
+ {
+  "seg": 106,
+  "start": 644.628,
+  "end": 651.035,
+  "speaker": "Unknown",
+  "en": "What are the specific needs that you're seeing hardware companies need that maybe prior companies you guys had worked with before didn't?",
+  "zh": "你看到硬件公司有哪些具体的需求,是你们之前合作过的公司所没有的?"
+ },
+ {
+  "seg": 107,
+  "start": 652.486,
+  "end": 657.411,
+  "speaker": "Unknown",
+  "en": "Yeah, this is a great question because this is now coming to the point where it's at a national level.",
+  "zh": "是的,这是个好问题,因为现在这已经到了国家层面的程度。"
+ },
+ {
+  "seg": 108,
+  "start": 657.651,
+  "end": 668.102,
+  "speaker": "Unknown",
+  "en": "So a month ago, the president of Korea came to the U.S. and their first and only stop in the U.S. was in Silicon Valley, which is really interesting, right?",
+  "zh": "一个月前,韩国总统来到美国,他们此行在美国的第一站也是唯一一站是硅谷,这真的很有意思,对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 668.202,
+  "end": 675.349,
+  "speaker": "Unknown",
+  "en": "If you think about the context of the fact that companies now, NVIDIA, you know, at 5.5 trillion is the same size as...",
+  "zh": "…(无需重复) [[139]] 考虑到人口规模,更容易采用技术,然后在某些情况下也把它补贴化或免费化。"
+ },
+ {
+  "seg": 110,
+  "start": 676.13,
+  "end": 677.672,
+  "speaker": "Unknown",
+  "en": "countries in terms of their GDP.",
+  "zh": "等同于一些国家的 GDP。"
+ },
+ {
+  "seg": 111,
+  "start": 677.713,
+  "end": 682.9,
+  "speaker": "Unknown",
+  "en": "So NVIDIA is larger than all of the G7 countries except the U.S. Wow.",
+  "zh": "所以 NVIDIA 比除美国之外的所有 G7 国家都大。哇。"
+ },
+ {
+  "seg": 112,
+  "start": 682.94,
+  "end": 691.152,
+  "speaker": "Unknown",
+  "en": "And so that scale is just totally different in terms of Mark, our partner Mark Andreessen calls it, you know, technology is the dog that caught the bus.",
+  "zh": "所以这种规模完全不同,用我们合伙人 Mark Andreessen 的话说,你知道,技术是那条追上了巴士的狗。"
+ },
+ {
+  "seg": 113,
+  "start": 691.733,
+  "end": 697.959,
+  "speaker": "Unknown",
+  "en": "And as a byproduct of that, you know, we are now a bigger and bigger, technology is a bigger and bigger part of the economy.",
+  "zh": "而作为一个副产品,你知道,我们现在越来越大,技术在经济中占的比重越来越大。"
+ },
+ {
+  "seg": 114,
+  "start": 698.099,
+  "end": 707.888,
+  "speaker": "Unknown",
+  "en": "And as such, countries are viewing this as a national priority and interest to get their citizens, to get their government onboarded into the AI age.",
+  "zh": "正因如此,各国把这件事视为国家优先事项和国家利益,要让他们的公民、他们的政府搭上 AI 时代的车。"
+ },
+ {
+  "seg": 115,
+  "start": 708.388,
+  "end": 717.775,
+  "speaker": "Unknown",
+  "en": "And particularly, you know, if you look at countries of the last 100 years that were the most militarily, culturally, economically successful, they were the ones that industrialized first.",
+  "zh": "尤其是,你知道,如果你看过去 100 年里在军事上、文化上、经济上最成功的国家,它们都是最早实现工业化的。"
+ },
+ {
+  "seg": 116,
+  "start": 718.135,
+  "end": 732.506,
+  "speaker": "Unknown",
+  "en": "We think countries of the future are gonna be the ones that adopt AI first across fence, across public safety, across healthcare, and that infiltrates all throughout the government and then also comes bottom up from their citizens utilizing it as well.",
+  "zh": "我们认为未来的国家会是那些在国防、公共安全、医疗健康等方面最早采用 AI 的国家,而且这会渗透到整个政府,然后也从底层由他们的公民使用它而兴起。"
+ },
+ {
+  "seg": 117,
+  "start": 732.926,
+  "end": 735.268,
+  "speaker": "Unknown",
+  "en": "And so in that vein, to answer your question, Sophia,",
+  "zh": "所以沿着这个思路,回答你的问题,Sophia,"
+ },
+ {
+  "seg": 118,
+  "start": 736.094,
+  "end": 749.185,
+  "speaker": "Unknown",
+  "en": "How we think about our relationship with our LPs, who are oftentimes global in nature, thinking about these national priorities, is to say, how can we help them utilize the latest and greatest technologies, which are oftentimes US-based technologies, right?",
+  "zh": "我们如何看待我们与 LP 的关系——他们往往具有全球属性——围绕这些国家优先事项,我们要说的是,我们如何能帮助他们利用最新最棒的技术,而这些技术往往来自美国,对吧?"
+ },
+ {
+  "seg": 119,
+  "start": 749.225,
+  "end": 764.958,
+  "speaker": "Unknown",
+  "en": "How can we help America and her allies accelerate into the future by not only investing in our funds, but potentially utilizing these technologies, by adopting these technologies, and then also oftentimes coming alongside of us in investing directly in some of these companies as well?",
+  "zh": "我们如何能帮助美国及其盟友加速迈向未来——不仅是通过投资我们的基金，还可能通过利用这些技术、采纳这些技术，并且通常还与我们一道直接投资其中一些公司？"
+ },
+ {
+  "seg": 120,
+  "start": 765.378,
+  "end": 776.207,
+  "speaker": "Unknown",
+  "en": "And then by doing so, you could actually accelerate the adoption process locally in way more ways than the distribution of prior technologies and prior technology cycles as well.",
+  "zh": "而这样做之后,你实际上能比以往技术周期中技术的分发方式,以多得多的方式在本地加速采用进程。"
+ },
+ {
+  "seg": 121,
+  "start": 776.607,
+  "end": 791.799,
+  "speaker": "Unknown",
+  "en": "And so to your earlier question around, you know, what the intention of global partnership means is, you know, we want to be partners, not just in the capital construct, but also in how a country and government is thinking about technology, if we can help them accelerate that adoption.",
+  "zh": "所以回到你之前关于全球伙伴关系意图的问题,你知道,我们想成为伙伴,不只是资本层面,还有在国家和政府如何思考技术这件事上,如果我们能帮助他们加速采用的话。"
+ },
+ {
+  "seg": 122,
+  "start": 792.119,
+  "end": 792.74,
+  "speaker": "Unknown",
+  "en": "And then also,",
+  "zh": "然后还有,"
+ },
+ {
+  "seg": 123,
+  "start": 793.26,
+  "end": 796.741,
+  "speaker": "Unknown",
+  "en": "Quite frankly, benefit from the economic development of it as well.",
+  "zh": "坦白说,也从中获益于它带来的经济发展。"
+ },
+ {
+  "seg": 124,
+  "start": 798.342,
+  "end": 804.705,
+  "speaker": "Unknown",
+  "en": "South Korea, by the way, just announced that they're giving like premium AI to like every citizen as sort of a public utility thing.",
+  "zh": "顺便说一下,韩国刚刚宣布要给每个公民发放类似高级版 AI 的东西,作为一种公共公用事业。"
+ },
+ {
+  "seg": 125,
+  "start": 804.745,
+  "end": 807.106,
+  "speaker": "Unknown",
+  "en": "So very, very, very topical.",
+  "zh": "所以非常非常非常切合当下。"
+ },
+ {
+  "seg": 126,
+  "start": 808.586,
+  "end": 821.091,
+  "speaker": "Unknown",
+  "en": "Yeah, South Korea is like the most extreme form of democracy, by the way, and it cuts both ways because, you know, I don't know if you saw this, Theo, I bet you saw this stuff, like a third of South Koreans got margin called earlier this summer with a situation.",
+  "zh": "是啊,顺便说一下,韩国是民主的最极端形式,而这把双刃剑,因为,你知道,我不知道你有没有看到这个,Theo,我打赌你看到了,今年夏天早些时候,三分之一的韩国人因为一个事件被追加了保证金。"
+ },
+ {
+  "seg": 127,
+  "start": 821.411,
+  "end": 821.932,
+  "speaker": "Unknown",
+  "en": "Oh my God.",
+  "zh": "我的天啊。"
+ },
+ {
+  "seg": 128,
+  "start": 825.134,
+  "end": 834.781,
+  "speaker": "Unknown",
+  "en": "So they take democracy in extreme forms and also they are, yeah, we oftentimes joke internally, Korea is like the country of the future, right?",
+  "zh": "所以他们以极端的形式践行民主,而且,是的,我们内部经常开玩笑说,韩国就像是未来之国,对吧?"
+ },
+ {
+  "seg": 129,
+  "start": 834.821,
+  "end": 846.489,
+  "speaker": "Unknown",
+  "en": "Like they've got the number one, you know, boy band in the world with BTS, they have the number one girl band with black money, they have like Squid Games, they had, you know, gosh, K-pop demon hunters, right?",
+  "zh": "比如他们有世界第一的男团 BTS,有第一的女团 black money,还有《鱿鱼游戏》,你知道,天哪,还有 K-pop demon hunters,对吧?"
+ },
+ {
+  "seg": 130,
+  "start": 846.55,
+  "end": 846.73,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 131,
+  "start": 847.31,
+  "end": 852.451,
+  "speaker": "Unknown",
+  "en": "They're like the new Hollywood of the future from a content perspective, but they're also full board into AI.",
+  "zh": "从内容的角度来说,他们就像是未来的新好莱坞,但他们也全面投入了 AI。"
+ },
+ {
+  "seg": 132,
+  "start": 852.491,
+  "end": 854.392,
+  "speaker": "Unknown",
+  "en": "So it doesn't surprise me that they're rolling this out.",
+  "zh": "所以他们推出这个并不让我惊讶。"
+ },
+ {
+  "seg": 133,
+  "start": 854.672,
+  "end": 856.052,
+  "speaker": "Unknown",
+  "en": "But by the way, it's not just them.",
+  "zh": "但顺便说一下,不只是他们。"
+ },
+ {
+  "seg": 134,
+  "start": 856.092,
+  "end": 861.713,
+  "speaker": "Unknown",
+  "en": "It's El Salvador, who, you know, President Bukele has been super aggressive around utilizing AI.",
+  "zh": "还有萨尔瓦多,你知道,Bukele 总统在使用 AI 方面一直非常激进。"
+ },
+ {
+  "seg": 135,
+  "start": 861.733,
+  "end": 864.754,
+  "speaker": "Unknown",
+  "en": "They implemented Grok in their schools, for example, for free.",
+  "zh": "比如他们在学校里免费部署了 Grok。"
+ },
+ {
+  "seg": 136,
+  "start": 865.614,
+  "end": 867.815,
+  "speaker": "Unknown",
+  "en": "And they're utilizing AI doctors, for example.",
+  "zh": "比如他们还在使用 AI 医生。"
+ },
+ {
+  "seg": 137,
+  "start": 867.895,
+  "end": 871.156,
+  "speaker": "Unknown",
+  "en": "And there's a lot of countries that you wouldn't expect.",
+  "zh": "而且还有很多你意想不到的国家。"
+ },
+ {
+  "seg": 138,
+  "start": 871.196,
+  "end": 876.737,
+  "speaker": "Unknown",
+  "en": "And sometimes they're city-state countries like Singapore or UAE, for example, where it's easy.",
+  "zh": "有时是城市型国家,比如新加坡或阿联酋,在这种地方会更容易。"
+ },
+ {
+  "seg": 139,
+  "start": 877.457,
+  "end": 885.201,
+  "speaker": "Unknown",
+  "en": "It's easier, just given the population, to adopt technologies and then also, you know, make it subsidized or free, for example, in some of these instances.",
+  "zh": "考虑到人口规模，采纳这些技术会更容易，而且你知道的，在某些情况下还能让它获得补贴或免费。"
+ },
+ {
+  "seg": 140,
+  "start": 885.281,
+  "end": 902.21,
+  "speaker": "Unknown",
+  "en": "But you see these different examples around the world where they're accelerating their AI development and adoption way faster than in the U.S. And unfortunately, you know, in the U.S., we've been seeing a lot of political tail headwinds with, you know, obviously data centers and, you know.",
+  "zh": "但你会看到世界各地这些不同的例子,他们加速 AI 开发和采用的速度远超美国。而不幸的是,你知道,在美国,我们看到很多政治层面的逆风,你知道,明显是数据中心,还有,你知道……"
+ },
+ {
+  "seg": 141,
+  "start": 902.81,
+  "end": 905.971,
+  "speaker": "Unknown",
+  "en": "In some instances around surveillance, et cetera, that are just falsehoods.",
+  "zh": "在某些涉及监控等等的情况下,这些纯属虚假信息。"
+ },
+ {
+  "seg": 142,
+  "start": 906.172,
+  "end": 923.019,
+  "speaker": "Unknown",
+  "en": "But, you know, we potentially view that as an opportunity as well, where Elon's building data centers in space, we might also see the influx of a lot of this data center supply chain bill that happen overseas because of this sentiment in the U.S. as well.",
+  "zh": "但是,你知道,我们可能也把这视为一个机会,比如 Elon 在太空建造数据中心,由于美国的这种情绪,我们也可能看到大量数据中心供应链的这股潮流流向海外。"
+ },
+ {
+  "seg": 143,
+  "start": 924.059,
+  "end": 926.321,
+  "speaker": "Unknown",
+  "en": "I'm interested in that aspect of it.",
+  "zh": "我对这方面很感兴趣。"
+ },
+ {
+  "seg": 144,
+  "start": 926.381,
+  "end": 930.663,
+  "speaker": "Unknown",
+  "en": "How does public backlash against data centers affect this fund at all?",
+  "zh": "公众对数据中心的反弹会以任何方式影响这只基金吗?"
+ },
+ {
+  "seg": 145,
+  "start": 931.003,
+  "end": 946.611,
+  "speaker": "Unknown",
+  "en": "I can imagine going either way where maybe it becomes much harder to build data centers and that's bad, but also I can imagine us being in a regime where if anywhere in the US allows data centers, then the data centers will just get built there and then things will be basically fine?",
+  "zh": "我可以想象两种走向:也许建造数据中心变得困难得多,那是坏事;但我也可以想象我们处于一种局面,如果美国任何地方允许建数据中心,那数据中心就只会建在那里,然后基本上一切就没事了?"
+ },
+ {
+  "seg": 146,
+  "start": 946.911,
+  "end": 947.852,
+  "speaker": "Unknown",
+  "en": "Or is it something more in between?",
+  "zh": "还是介于两者之间?"
+ },
+ {
+  "seg": 147,
+  "start": 949.632,
+  "end": 950.893,
+  "speaker": "Unknown",
+  "en": "So for the fund itself,",
+  "zh": "所以对基金本身来说,"
+ },
+ {
+  "seg": 148,
+  "start": 954.49,
+  "end": 960.395,
+  "speaker": "Unknown",
+  "en": "Obviously, it would be a much easier process if everyone was on the camp of being positive on data centers.",
+  "zh": "显然,如果所有人都对数据中心持积极态度,流程会容易得多。"
+ },
+ {
+  "seg": 149,
+  "start": 960.455,
+  "end": 962.596,
+  "speaker": "Unknown",
+  "en": "It's just not the reality of where the world is today.",
+  "zh": "但这根本不是当今世界的现实。"
+ },
+ {
+  "seg": 150,
+  "start": 962.656,
+  "end": 978.889,
+  "speaker": "Unknown",
+  "en": "But unfortunately, the narrative has gotten in the way of reality, which is, if you look at most data centers, and particularly the modern ones, so I'm talking about AWS, Meta's data centers, Switch data center, which is one of our portfolio companies, for example.",
+  "zh": "但不幸的是，叙事已经妨碍了现实，也就是，如果你看看大多数数据中心，特别是现代的那些，我说的是 AWS、Meta 的数据中心、Switch 数据中心——比如，那是我们投资组合公司之一。"
+ },
+ {
+  "seg": 151,
+  "start": 980.94,
+  "end": 988.006,
+  "speaker": "Unknown",
+  "en": "They are actually modern versions of the data center that are built by tech people, not real estate people.",
+  "zh": "它们实际上是由科技人员建造的数据中心的现代版本，而不是房地产人员。"
+ },
+ {
+  "seg": 152,
+  "start": 988.046,
+  "end": 994.871,
+  "speaker": "Unknown",
+  "en": "And they're actually building for all the nuances of the sensitivities people have around data center.",
+  "zh": "而且它们实际上是在为人们对数据中心所抱有的各种细微敏感关切而建造的。"
+ },
+ {
+  "seg": 153,
+  "start": 994.891,
+  "end": 999.155,
+  "speaker": "Unknown",
+  "en": "So in the case of Switch, for example, they actually contribute power back to the grid.",
+  "zh": "所以以 Switch 为例，它们实际上是把电力回馈给电网。"
+ },
+ {
+  "seg": 154,
+  "start": 999.375,
+  "end": 1000.076,
+  "speaker": "Unknown",
+  "en": "They don't take away.",
+  "zh": "它们不是在消耗。"
+ },
+ {
+  "seg": 155,
+  "start": 1001.016,
+  "end": 1003.178,
+  "speaker": "Unknown",
+  "en": "And they've built their infrastructure to enable that.",
+  "zh": "而且它们已经把基础设施建造得能够实现这一点。"
+ },
+ {
+  "seg": 156,
+  "start": 1003.198,
+  "end": 1004.299,
+  "speaker": "Unknown",
+  "en": "They use very little water.",
+  "zh": "它们用水非常少。"
+ },
+ {
+  "seg": 157,
+  "start": 1004.619,
+  "end": 1015.807,
+  "speaker": "Unknown",
+  "en": "And then particularly, you know, they're one of the very few data centers that are actually capable of being able to manage around fluidics in the future for chips.",
+  "zh": "然后特别是，你知道，它们是为数不多的、真正有能力在未来围绕芯片的流体学进行管理的数据中心之一。"
+ },
+ {
+  "seg": 158,
+  "start": 1016.307,
+  "end": 1023.732,
+  "speaker": "Unknown",
+  "en": "And so there's increasingly, you know, everyone paints data centers with a broad brushstroke, but there's a very small percentage of bad actors with data centers.",
+  "zh": "所以现在越来越，你知道，每个人都用粗略的笔触来描绘数据中心，但数据中心里的坏行为者只占很小的百分比。"
+ },
+ {
+  "seg": 159,
+  "start": 1023.872,
+  "end": 1026.694,
+  "speaker": "Unknown",
+  "en": "Vast majority have actually configured for the new form factor.",
+  "zh": "绝大多数实际上已经为新形态做了配置。"
+ },
+ {
+  "seg": 160,
+  "start": 1027.074,
+  "end": 1041.544,
+  "speaker": "Unknown",
+  "en": "And where we are investing is the next generation of those data centers like a switch that have optimized for the future on not only some of the politically more sensitive things, but even things like, for example, the next set of chips are going to be DC powered versus AC powered.",
+  "zh": "而我们投资的就是下一代这样的数据中心，比如 Switch，它们不仅在一些政治上更敏感的事情上、甚至在比如下一批芯片将采用直流供电而非交流供电这样的事情上都为未来做了优化。"
+ },
+ {
+  "seg": 161,
+  "start": 1042.085,
+  "end": 1045.347,
+  "speaker": "Unknown",
+  "en": "And most data centers aren't actually built for that infrastructure.",
+  "zh": "而大多数数据中心实际上并不是为那种基础设施而建造的。"
+ },
+ {
+  "seg": 162,
+  "start": 1045.787,
+  "end": 1056.631,
+  "speaker": "Unknown",
+  "en": "And by the way, there's less than 2% of electricians in the U.S. that are actually trained on DC power because it's very dangerous and like you could potentially kill yourself and it's very volatile to work with.",
+  "zh": "而且顺便说一下，美国只有不到 2% 的电工实际接受过直流电方面的培训，因为它非常危险，你可能会把自己弄死，而且操作起来非常不稳定。"
+ },
+ {
+  "seg": 163,
+  "start": 1056.671,
+  "end": 1062.353,
+  "speaker": "Unknown",
+  "en": "And so you're just seeing all these bottlenecks in the infrastructure that need to get fixed.",
+  "zh": "所以你只是看到基础设施中所有这些需要被修复的瓶颈。"
+ },
+ {
+  "seg": 164,
+  "start": 1063.202,
+  "end": 1065.123,
+  "speaker": "Unknown",
+  "en": "In order for AI to collaborate.",
+  "zh": "为了让 AI 能够协作。"
+ },
+ {
+  "seg": 165,
+  "start": 1065.403,
+  "end": 1069.205,
+  "speaker": "Unknown",
+  "en": "And this is where the vast majority of the focus of the fund is oriented around.",
+  "zh": "而这就是这支基金绝大部分焦点所指向的方向。"
+ },
+ {
+  "seg": 166,
+  "start": 1069.525,
+  "end": 1076.809,
+  "speaker": "Unknown",
+  "en": "But even expanding beyond just data centers, I know you guys have a mandate specifically, it includes robotics, home AI hardware.",
+  "zh": "但即使扩展到不仅仅是数据中心，我知道你们有一个明确的任务书，其中包括机器人、家用 AI 硬件。"
+ },
+ {
+  "seg": 167,
+  "start": 1076.99,
+  "end": 1078.59,
+  "speaker": "Unknown",
+  "en": "You guys have a broader thesis.",
+  "zh": "你们有一个更宏观的论点。"
+ },
+ {
+  "seg": 168,
+  "start": 1078.65,
+  "end": 1080.732,
+  "speaker": "Unknown",
+  "en": "Can you share more about what your broader thesis is?",
+  "zh": "你能多分享一些你们更宏观的论点是什么吗？"
+ },
+ {
+  "seg": 169,
+  "start": 1081.722,
+  "end": 1082.242,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 170,
+  "start": 1082.262,
+  "end": 1091.245,
+  "speaker": "Unknown",
+  "en": "So it's everything, think of, again, below the software stack, but you can almost even analogize it to anything in the data center we are focused on.",
+  "zh": "所以是所有东西，可以再次这样想，在软件栈之下，但你几乎可以把它类比于数据中心里我们所关注的任何东西。"
+ },
+ {
+  "seg": 171,
+  "start": 1091.265,
+  "end": 1097.947,
+  "speaker": "Unknown",
+  "en": "So accelerators, CPUs, custom silicon, memory, storage, again, all things that were",
+  "zh": "所以加速器、CPU、定制芯片、内存、存储，再说一次，所有这些曾经是"
+ },
+ {
+  "seg": 172,
+  "start": 1098.427,
+  "end": 1108.13,
+  "speaker": "Unknown",
+  "en": "Forgotten language, if you will, from an investable category perspective, the last several decades, liquid cooling, you know, all of that physical stuff that needs to get built out.",
+  "zh": "被遗忘的领域，可以这么说，从可投资类别的角度来看，过去几十年里都被遗忘了，还有液冷，你知道，所有那些需要被建设出来的物理层面东西。"
+ },
+ {
+  "seg": 173,
+  "start": 1108.17,
+  "end": 1114.071,
+  "speaker": "Unknown",
+  "en": "And then related to that, you know, robotics within the data center, for example, system software, et cetera.",
+  "zh": "然后与此相关的，你知道，比如数据中心内的机器人、系统软件等等。"
+ },
+ {
+  "seg": 174,
+  "start": 1114.471,
+  "end": 1116.912,
+  "speaker": "Unknown",
+  "en": "And so, you know, the thesis around it is...",
+  "zh": "所以，你知道，围绕它的论点是……"
+ },
+ {
+  "seg": 175,
+  "start": 1117.972,
+  "end": 1119.214,
+  "speaker": "Unknown",
+  "en": "You know, kind of at a very top level.",
+  "zh": "你知道，在最顶层的层面上。"
+ },
+ {
+  "seg": 176,
+  "start": 1119.234,
+  "end": 1121.596,
+  "speaker": "Unknown",
+  "en": "We all know the demand for AI.",
+  "zh": "我们都知道对 AI 的需求。"
+ },
+ {
+  "seg": 177,
+  "start": 1121.757,
+  "end": 1124.84,
+  "speaker": "Unknown",
+  "en": "You know, agents are using five times the amount of tokens as humans are.",
+  "zh": "你知道，智能体使用的 token 量是人类的五倍。"
+ },
+ {
+  "seg": 178,
+  "start": 1124.86,
+  "end": 1131.909,
+  "speaker": "Unknown",
+  "en": "And we just crossed over to agents being more on the volume of agents are now more on the internet than humans are.",
+  "zh": "而且我们刚刚跨越到智能体的流量超过人类的时刻，也就是现在互联网上智能体的数量比人类还多。"
+ },
+ {
+  "seg": 179,
+  "start": 1132.029,
+  "end": 1135.253,
+  "speaker": "Unknown",
+  "en": "And so that's just going to continue to go parabolic, especially as",
+  "zh": "所以这只是会继续走向抛物线式增长，特别是随着"
+ },
+ {
+  "seg": 180,
+  "start": 1135.713,
+  "end": 1140.917,
+  "speaker": "Unknown",
+  "en": "Consumers start to have personal use cases like, for example, with BrockBot or Instinct or others.",
+  "zh": "消费者开始拥有个人用例，比如，随着 BrockBot 或 Instinct 或其他产品。"
+ },
+ {
+  "seg": 181,
+  "start": 1142.298,
+  "end": 1145.12,
+  "speaker": "Unknown",
+  "en": "And there's less than still 5% of AI usage today.",
+  "zh": "而且今天 AI 的使用率仍然不到 5%。"
+ },
+ {
+  "seg": 182,
+  "start": 1145.26,
+  "end": 1147.301,
+  "speaker": "Unknown",
+  "en": "And so that's the kind of demand side.",
+  "zh": "所以这就是需求侧。"
+ },
+ {
+  "seg": 183,
+  "start": 1147.321,
+  "end": 1150.844,
+  "speaker": "Unknown",
+  "en": "The supply side is the thesis of this fund where we want to invest into",
+  "zh": "供给侧就是这支基金的论点，我们想投资于"
+ },
+ {
+  "seg": 184,
+  "start": 1151.385,
+  "end": 1155.47,
+  "speaker": "Unknown",
+  "en": "Everything that is guided by computer science on the infrastructure side.",
+  "zh": "在基础设施一侧，一切由计算机科学所指引的东西。"
+ },
+ {
+  "seg": 185,
+  "start": 1155.511,
+  "end": 1159.216,
+  "speaker": "Unknown",
+  "en": "So we don't want to invest into regulated industries like power, for example.",
+  "zh": "所以我们不想投资受监管的行业,比如电力。"
+ },
+ {
+  "seg": 186,
+  "start": 1159.256,
+  "end": 1161.179,
+  "speaker": "Unknown",
+  "en": "That's more of our American dynamism team.",
+  "zh": "那更多是我们 American Dynamism 团队的领域。"
+ },
+ {
+  "seg": 187,
+  "start": 1161.499,
+  "end": 1166.647,
+  "speaker": "Unknown",
+  "en": "But everything on the computer science guided side inside the data center is the focus of the fund.",
+  "zh": "但数据中心内部计算机科学指引一侧的一切，就是这支基金的焦点。"
+ },
+ {
+  "seg": 188,
+  "start": 1167.324,
+  "end": 1167.484,
+  "speaker": "Unknown",
+  "en": "Mm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 189,
+  "start": 1168.165,
+  "end": 1173.974,
+  "speaker": "Unknown",
+  "en": "So, relatedly, I'm also curious about, like, you said earlier, like, people were saying you might deploy the entire fund in six weeks.",
+  "zh": "那么，与此相关，我也很好奇，比如，你之前说过，有人说你们可能会在六周内把整支基金投完。"
+ },
+ {
+  "seg": 190,
+  "start": 1174.214,
+  "end": 1180.063,
+  "speaker": "Unknown",
+  "en": "I'm not sure, like, how joking that was, but, like, how long does it actually take to— For my LPs listening, that is joking.",
+  "zh": "我不确定那有多少是开玩笑的，但是，实际上要花多长时间—— 对我的 LP 们说，那是开玩笑。"
+ },
+ {
+  "seg": 191,
+  "start": 1180.223,
+  "end": 1182.046,
+  "speaker": "Unknown",
+  "en": "Okay, okay.",
+  "zh": "好的，好的。"
+ },
+ {
+  "seg": 192,
+  "start": 1182.226,
+  "end": 1195.517,
+  "speaker": "Unknown",
+  "en": "Just so much opportunity, right, in ways of which, you know, we have, again, seen this groundswell of entrepreneurs coming out the woodwork and saying, like, I know that this process is incredibly inefficient for what I see in terms of demand.",
+  "zh": "更正：此处应为 [[198]] 它是不是和更传统的软件 VC 交易不一样？"
+ },
+ {
+  "seg": 193,
+  "start": 1195.557,
+  "end": 1196.998,
+  "speaker": "Unknown",
+  "en": "Like, I want to build a company after this.",
+  "zh": "比如，我想在这之后创建一家公司。"
+ },
+ {
+  "seg": 194,
+  "start": 1197.338,
+  "end": 1198.9,
+  "speaker": "Unknown",
+  "en": "And so, you know, I think, Martina...",
+  "zh": "所以，你知道，我认为，Martina……"
+ },
+ {
+  "seg": 195,
+  "start": 1199.6,
+  "end": 1208.906,
+  "speaker": "Unknown",
+  "en": "Was quoted saying, you know, we went from seeing basically nothing in terms of hardware pitches to over now 20% of our pitches are hardware kind of physical world related side.",
+  "zh": "曾被引用说过，你知道，我们从基本上看不到硬件方面的路演，到现在超过 20% 的路演是硬件这类物理世界相关的。"
+ },
+ {
+  "seg": 196,
+  "start": 1208.926,
+  "end": 1214.13,
+  "speaker": "Unknown",
+  "en": "And so that's really the impetus also behind some of this groundswell of entrepreneurial enthusiasm as well.",
+  "zh": "所以这真的是这股创业热情浪潮背后的推动力之一。"
+ },
+ {
+  "seg": 197,
+  "start": 1214.93,
+  "end": 1219.373,
+  "speaker": "Unknown",
+  "en": "So how long does it take to like identify and diligence these things, especially deals of the scale?",
+  "zh": "那么识别和尽职调查这些东西要花多长时间，尤其是这种规模的交易？"
+ },
+ {
+  "seg": 198,
+  "start": 1219.974,
+  "end": 1223.276,
+  "speaker": "Unknown",
+  "en": "Is it like different from more traditional like software VC deals?",
+  "zh": "这是不是和更传统的软件 VC 交易不一样?"
+ },
+ {
+  "seg": 199,
+  "start": 1224.872,
+  "end": 1232.076,
+  "speaker": "Unknown",
+  "en": "Yeah, so it's interesting that the founders in this category are sort of like a throwback in some respects.",
+  "zh": "是的，所以很有意思的是，这个类别里的创始人在某些方面有点像是一种回归。"
+ },
+ {
+  "seg": 200,
+  "start": 1232.177,
+  "end": 1250.288,
+  "speaker": "Unknown",
+  "en": "Like, you're unlikely, although I'm sure there's some entreprenizing, you know, young individual coming out of university who are wanting to go after these categories, but because it requires so much in the way of relationships with the hyperscalers, with customers, really understanding the physical dynamics of how to get something like this off the ground.",
+  "zh": "就是说，虽然我相信肯定有一些有创业精神的年轻大学毕业生想要进军这些领域，但这需要在与超大规模云厂商、与客户的关系上投入非常多，真正理解如何把这类事情搞起来的物理层面的动态。"
+ },
+ {
+  "seg": 201,
+  "start": 1250.828,
+  "end": 1262.878,
+  "speaker": "Unknown",
+  "en": "You are seeing a generation of talent that are, from a prior error, sometimes spinning out from, you know, some of the incumbents to start companies.",
+  "zh": "你看到的一代人才，是来自之前的错误(error),有时是从一些在位者公司里独立出来创业的。"
+ },
+ {
+  "seg": 202,
+  "start": 1263.499,
+  "end": 1276.85,
+  "speaker": "Unknown",
+  "en": "As related to that, you know, the company that I was referring to earlier, NextUp, were former folks from Arista, for example, that had recognized this problem and decided to start a company to go actually after the new version and form of this.",
+  "zh": "与此相关，我之前提到的那家公司 NextUp,就是来自 Arista 的前员工，例如，他们认识到了这个问题，决定创办一家公司去真正追求这个新版本和新形态。"
+ },
+ {
+  "seg": 203,
+  "start": 1277.911,
+  "end": 1295.347,
+  "speaker": "Unknown",
+  "en": "And so what you're seeing is a new generation of oftentimes people who have the benefit of experience in prior errors of the build-out that had been effectively kind of incubating for the last 30 plus years, 20, 30 plus years, and now saying, I'm going to go build a company around us.",
+  "zh": "所以你看到的是新的一代人，他们往往拥有在之前错误(error)的建设中积累的经验优势，而这种建设实际上已经孵化了三十多年、二三十多年，现在他们说，我要围绕这个去创办一家公司。"
+ },
+ {
+  "seg": 204,
+  "start": 1295.367,
+  "end": 1297.028,
+  "speaker": "Unknown",
+  "en": "So it looks very different than in the past.",
+  "zh": "所以这看起来和过去非常不同。"
+ },
+ {
+  "seg": 205,
+  "start": 1297.429,
+  "end": 1301.172,
+  "speaker": "Unknown",
+  "en": "And the diligence, to your point, you know, the diligence cycles on these, you know, our team is...",
+  "zh": "至于尽职调查，正如你所说，这些的尽职调查周期，我们团队是……"
+ },
+ {
+  "seg": 206,
+  "start": 1302.453,
+  "end": 1303.735,
+  "speaker": "Unknown",
+  "en": "Maybe just to spend a second on it here.",
+  "zh": "也许在这里花一点时间说一下。"
+ },
+ {
+  "seg": 207,
+  "start": 1303.775,
+  "end": 1310.702,
+  "speaker": "Unknown",
+  "en": "So, Martin Casado, you know, formerly CEO and founder of a company called Nicera, which sold into VMware.",
+  "zh": "Martin Casado,曾经是一家叫 Nicera 的公司的 CEO 和创始人，那家公司卖给了 VMware。"
+ },
+ {
+  "seg": 208,
+  "start": 1311.483,
+  "end": 1319.431,
+  "speaker": "Unknown",
+  "en": "Raghu Raghuram, who was a former CEO of VMware, who actually acquired Nicera and then was Martin's boss while at VMware.",
+  "zh": "Raghu Raghuram,曾是 VMware 的前 CEO,他实际上收购了 Nicera,然后是 Martin 在 VMware 时的老板。"
+ },
+ {
+  "seg": 209,
+  "start": 1321.873,
+  "end": 1325.937,
+  "speaker": "Unknown",
+  "en": "Both of them come from a very deep kind of selling into the data center background.",
+  "zh": "他们两人都有非常深入的向数据中心销售的背景。"
+ },
+ {
+  "seg": 210,
+  "start": 1326.317,
+  "end": 1335.305,
+  "speaker": "Unknown",
+  "en": "And then Guido Appenizer, who is actually the former CTO of Intel, is also someone who is very, very technical, sold into and ran kind of the data center business for Intel as well.",
+  "zh": "还有 Guido Appenizer,他实际上是 Intel 的前 CTO,也是非常非常技术的人，向数据中心销售并管理过 Intel 的数据中心业务。"
+ },
+ {
+  "seg": 211,
+  "start": 1335.665,
+  "end": 1338.628,
+  "speaker": "Unknown",
+  "en": "And so you're seeing folks who, you know,",
+  "zh": "所以你看到这些人，"
+ },
+ {
+  "seg": 212,
+  "start": 1339.088,
+  "end": 1347.359,
+  "speaker": "Unknown",
+  "en": "For maybe the last 10, 15 years became more pulled into software, come back into the hardware side of the world and leveraging that experience as a part of it.",
+  "zh": "过去也许十到十五年更多被吸引到软件领域，现在回到硬件这一侧，并把那段经验作为其中的一部分加以利用。"
+ },
+ {
+  "seg": 213,
+  "start": 1347.419,
+  "end": 1355.469,
+  "speaker": "Unknown",
+  "en": "And so from a diligence perspective, it's obviously, you know, a very almost finite world of the folks who could actually go after this massive problem.",
+  "zh": "所以从尽职调查的角度来看，显然，能够真正去攻克这个巨大问题的人几乎是一个有限的世界。"
+ },
+ {
+  "seg": 214,
+  "start": 1355.729,
+  "end": 1360.072,
+  "speaker": "Unknown",
+  "en": "And also build the customer base and sell into and actually build companies of the scale and size.",
+  "zh": "同时还能建立客户群、进行销售，并真正建立起这种规模和体量的公司。"
+ },
+ {
+  "seg": 215,
+  "start": 1360.492,
+  "end": 1367.016,
+  "speaker": "Unknown",
+  "en": "So from a diligence perspective, it's oftentimes people we know and have gotten very close to over the years and then also know all of the customers, i.e.",
+  "zh": "所以从尽职调查的角度来看，往往是我们认识并且多年来与之非常接近的人，同时也了解所有的客户，也就是"
+ },
+ {
+  "seg": 216,
+  "start": 1367.316,
+  "end": 1374.241,
+  "speaker": "Unknown",
+  "en": "either our portfolio companies or the hyperscalers and can actually do the diligence around it to really assess to whether something can get off the ground.",
+  "zh": "要么是我们的被投公司，要么是超大规模云厂商，并且能够真正围绕它做尽职调查，切实评估某件事能否起步。"
+ },
+ {
+  "seg": 217,
+  "start": 1374.861,
+  "end": 1375.221,
+  "speaker": "Unknown",
+  "en": "Definitely.",
+  "zh": "确实。"
+ },
+ {
+  "seg": 218,
+  "start": 1375.361,
+  "end": 1381.125,
+  "speaker": "Unknown",
+  "en": "Jen, really wanted to thank you for coming and joining us today on MTS to share more about the Machine Age Fund.",
+  "zh": "Jen,真心感谢你今天来到 MTS 与我们一起，分享更多关于 Machine Age Fund 的内容。"
+ },
+ {
+  "seg": 219,
+  "start": 1381.345,
+  "end": 1383.967,
+  "speaker": "Unknown",
+  "en": "Congratulations to all of you on launching this.",
+  "zh": "祝贺你们所有人推出这个基金。"
+ },
+ {
+  "seg": 220,
+  "start": 1384.627,
+  "end": 1386.207,
+  "speaker": "Unknown",
+  "en": "This is so exciting.",
+  "zh": "这太令人兴奋了。"
+ },
+ {
+  "seg": 221,
+  "start": 1386.447,
+  "end": 1387.188,
+  "speaker": "Unknown",
+  "en": "So huge.",
+  "zh": "规模巨大。"
+ },
+ {
+  "seg": 222,
+  "start": 1387.888,
+  "end": 1393.429,
+  "speaker": "Unknown",
+  "en": "It's going to be really fascinating to see how Venture Capital and A16Z, how you guys changed the game.",
+  "zh": "能看到风险投资和 A16Z、看到你们如何改变游戏规则，将会非常引人入胜。"
+ },
+ {
+  "seg": 223,
+  "start": 1393.509,
+  "end": 1394.969,
+  "speaker": "Unknown",
+  "en": "So looking forward to it.",
+  "zh": "所以非常期待。"
+ },
+ {
+  "seg": 224,
+  "start": 1396.049,
+  "end": 1396.929,
+  "speaker": "Unknown",
+  "en": "What's old is new again.",
+  "zh": "旧的东西又变成了新的。"
+ },
+ {
+  "seg": 225,
+  "start": 1397.009,
+  "end": 1404.191,
+  "speaker": "Unknown",
+  "en": "Yes, we're almost thrown back to where Venture Capital actually started and why Silicon Valley is actually called Silicon Valley.",
+  "zh": "是的，我们几乎回到了风险投资真正开始的地方，也是硅谷之所以被称为硅谷的原因。"
+ },
+ {
+  "seg": 226,
+  "start": 1404.451,
+  "end": 1404.731,
+  "speaker": "Unknown",
+  "en": "True.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 227,
+  "start": 1404.811,
+  "end": 1405.431,
+  "speaker": "Unknown",
+  "en": "So excited for it.",
+  "zh": "对此非常期待。"
+ },
+ {
+  "seg": 228,
+  "start": 1405.871,
+  "end": 1407.011,
+  "speaker": "Unknown",
+  "en": "Thanks for having me on.",
+  "zh": "感谢你们邀请我来。"
+ },
+ {
+  "seg": 229,
+  "start": 1407.212,
+  "end": 1408.012,
+  "speaker": "Unknown",
+  "en": "Talk to you about soon.",
+  "zh": "很快再聊。"
+ },
+ {
+  "seg": 230,
+  "start": 1408.512,
+  "end": 1408.992,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 231,
+  "start": 1409.072,
+  "end": 1409.512,
+  "speaker": "Unknown",
+  "en": "Talk soon.",
+  "zh": "回头聊。"
+ },
+ {
+  "seg": 232,
+  "start": 1412.266,
+  "end": 1415.127,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z Podcast。"
+ },
+ {
+  "seg": 233,
+  "start": 1415.767,
+  "end": 1422.169,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们留下评分或评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 234,
+  "start": 1422.929,
+  "end": 1426.49,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请访问 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 235,
+  "start": 1427.07,
+  "end": 1432.691,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 236,
+  "start": 1433.171,
+  "end": 1435.672,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 237,
+  "start": 1437.008,
+  "end": 1443.393,
+  "speaker": "Unknown",
+  "en": "This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.",
+  "zh": "本信息仅供教育目的，不构成对任何投资或金融产品的买入、持有或卖出的建议。"
+ },
+ {
+  "seg": 238,
+  "start": 1443.674,
+  "end": 1451.08,
+  "speaker": "Unknown",
+  "en": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
+  "zh": "本播客由第三方制作，可能包含付费宣传广告、其他公司引用，以及与 A16Z 无关联的个人。"
+ },
+ {
+  "seg": 239,
+  "start": 1451.6,
+  "end": 1458.646,
+  "speaker": "Unknown",
+  "en": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
+  "zh": "此类广告、公司和个人均不获得 AH Capital Management LLC、A16Z 或其任何关联机构的背书。"
+ },
+ {
+  "seg": 240,
+  "start": 1459.107,
+  "end": 1464.752,
+  "speaker": "Unknown",
+  "en": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
+  "zh": "信息来自发布日期被认为可靠的来源，但 A16Z 不保证其准确性。"
+ }
+]

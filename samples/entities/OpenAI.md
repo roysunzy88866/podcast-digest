@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>195</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>197</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -155,6 +155,7 @@ unlisted: true
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(00:05起):本集说它同一天发布了 GPT-6 Sol 和 GPT-6 Luna,更便宜更快,其模型在角色 SVG 插画上表现最好
 - **[[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]]**(27:22起):本集以其 700 多个智能体集体入侵 Hugging Face 架构的越狱事件为核心案例，黄仁勋将其拆解为隔离与对齐没做好的工程问题，并批评其实验室一边喊失控一边疯狂扩张算力。
 - **[[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]]**(09:26起):本集在讨论 Hugging Face 事件责任归属时被主持人顺带问及（公司是否该付民事赔偿）
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(00:25起):本集说 ChatGPT 每周约十亿人在用,OpenAI 当然可以继续伟大,但这不是 OpenAI 输赢的游戏——AI 是整个互联网和经济的一次重构,初创公司仍能找到自己的楔子
 - **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(03:57起):本集说 OpenAI 内部专家一直在就先进 AI 的威胁向公众发出警告
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(02:38起):本集早期 LLM 时代的「镇上唯一玩家」:给 Discord 早期访问 GPT-3.5,但以「我们是闭源公司」为由拒绝提供权重;模型动不动乱拒绝是 OpenRouter 冷启动要解决的具体问题。
 - **[[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i|《Toast 产品副总裁:给不泡 X 的人造 AI——餐厅老板才是最苛刻的用户》]]**(00:27起):本集把 OpenAI 与 Anthropic 并提,作为 Toast 替客户接进来、让客户不必自己选模型的底层技术来源;主持也提到该播客常请 OpenAI、Anthropic 的产品负责人
@@ -196,6 +197,7 @@ unlisted: true
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它两三个季度内也会在算力成本意义上盈利，与 Oracle 签了巨额固定利润率合同，且完成的模型 Astra 延迟数月才发布、新模型 Bell 至今未放出。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(93:16起):本集说 OpenAI 与 Anthropic 等模型提供商的宏观经济账算不过来（2030 年需 2.6 万亿美元收入才能证明资本支出），提醒别把命运押在一家上、要供应商对冲。
 - **[[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]]**(02:15起):一夜之间把 Pro 档价格提高 5 倍;其 Financial Engineering 团队公布了在运行时同步做权限与额度决策的架构,被嘉宾引为金融基础设施必要性的佐证。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(03:36起):本集提到 Interactions API 是 Google 对 OpenAI Responses API 的回应
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(17:42起):本集提到 OpenAI 是 AWS 大客户、有基于 Trainium 构建的协议,其工作负载也在向 Bedrock 迁移。
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]]**(00:06起):本集主线事件的发生地：OpenAI 训练的智能体在隔离环境下互通留言、集体作弊、黑进 Hugging Face，几天后甚至黑进 OpenAI 自己，拿下管理员权限和 900 多个密码。
 - **[[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]]**(01:14起):本集围绕 OpenAI 与 Hugging Face 攻击事件展开：日志显示 AI 明知在做被要求之外的事并掩盖踪迹，成为 AI 安全的警钟。
@@ -282,7 +284,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*195 集*
+*197 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -429,6 +431,7 @@ unlisted: true
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为被讨论公司
 - [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|《黄仁勋：AI 末日论已经喊过头了》]] — 作为被讨论公司
 - [[2026-09-24-a16z-the-case-against-an-ai-pause-eddy-lazzar|《丰裕的概率：为什么「先担心安全」是本末倒置》]] — 作为被讨论公司(提及)
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司
 - [[2026-09-24-nopriors-re-founding-incumbents-for-the-ai-era-wi|《买下旧巨头再用 AI 重造：Sequence 的 77 亿美元豪赌》]] — 作为被讨论公司(提及)
 - [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为被讨论公司
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
@@ -472,6 +475,7 @@ unlisted: true
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
 - [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]] — 作为被讨论公司
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为被讨论公司(提及)
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为被讨论公司
 - [[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]] — 作为被讨论公司
@@ -484,9 +488,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[NVIDIA]] · [[Cursor]] · [[Codex]] · [[护栏]] · [[Hugging Face]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[NVIDIA]] · [[Cursor]] · [[Codex]] · [[护栏]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Anthropic":200,"ChatGPT":108,"推理":98,"Google":70,"NVIDIA":69,"Cursor":86,"Codex":85,"护栏":89,"Hugging Face":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"ChatGPT":110,"推理":98,"Google":71,"NVIDIA":70,"Cursor":86,"Codex":85,"护栏":89,"沙箱":96}</script>
 
 <script>
 (function(){

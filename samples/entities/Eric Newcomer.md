@@ -7,35 +7,30 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Eric Newcomer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Eric Newcomer">ER</div><div class="pi"><h1 class="pt">Eric Newcomer</h1><div class="byl">Newcomer Pod 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Eric Newcomer">ER</div><div class="pi"><h1 class="pt">Eric Newcomer</h1><div class="byl">Newcomer Pod 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*1 条*
+*2 条*
 
 ![[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why#^q13]]
 
+![[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star#^q1]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为联合主持
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Zavain Dar]] · [[NVIDIA]] · [[Hugging Face]] · [[开源]] · [[蒸馏]] · [[推理]] · [[新云]] · [[前沿模型]] · [[垂直 AI]] · [[智能体]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Zavain Dar]] · [[Josh Elman]] · [[NVIDIA]] · [[聊天机器人]] · [[Hugging Face]] · [[LLM]] · [[开源]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Zavain Dar":1,"NVIDIA":69,"Hugging Face":37,"开源":40,"蒸馏":1,"推理":98,"新云":4,"前沿模型":27,"垂直 AI":2,"智能体":478}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"OpenAI":197,"Zavain Dar":1,"Josh Elman":2,"NVIDIA":70,"聊天机器人":3,"Hugging Face":37,"LLM":62,"开源":40}</script>
 
 <script>
 (function(){

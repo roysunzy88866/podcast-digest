@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google DeepMind</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google DeepMind">GO</div><div class="pi"><h1 class="pt">Google DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google DeepMind">GO</div><div class="pi"><h1 class="pt">Google DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]]**(01:37起):Doj 曾在其中领导一支庞大的化学与材料科学家团队,做模拟与机器学习,后来离开创办 Periodic。
 - **[[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|《跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人》]]**(00:03起):嘉宾所在的实验室,她称之为北美唯一能以跨载体方式研究人形智能的实验室;本集围绕其 Gemini Robotics 2 系列模型展开
 - **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(00:13起):本集是 Google DeepMind 开发者体验团队 Ivan 的产品发布演讲,介绍全新的 Interactions API 和 Managed Agents。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(00:18起):本集说 Philipp Schmid 来自 Google DeepMind 团队,主要做 AI Studio 和 Gemini API 的工作
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(37:32起):本集嘉宾提到自己之前待过 Google DeepMind，那里的经历是很难进行开放辩论式的讨论，与 OpenAI 的透明文化形成对比。
 
 ## ① 提到它的金句
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
@@ -39,15 +40,16 @@ unlisted: true
 - [[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]] — 作为被讨论公司
 - [[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|《跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人》]] — 作为被讨论公司
 - [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为被讨论公司
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为被讨论公司
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Google]] · [[持续学习]] · [[对齐]] · [[护栏]] · [[沙箱]] · [[AGI]]
+[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[Google]] · [[持续学习]] · [[对齐]] · [[护栏]] · [[Interactions API]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":195,"智能体":478,"Anthropic":200,"ChatGPT":108,"Google":70,"持续学习":1,"对齐":23,"护栏":89,"沙箱":95,"AGI":28}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":197,"智能体":483,"ChatGPT":110,"Anthropic":201,"沙箱":96,"Google":71,"持续学习":1,"对齐":23,"护栏":89,"Interactions API":2}</script>
 
 <script>
 (function(){

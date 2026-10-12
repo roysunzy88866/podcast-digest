@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>智能体 API (Agents API)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="智能体 API">智能</div><div class="pi"><h1 class="pt">智能体 API (Agents API)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="智能体 API">智能</div><div class="pi"><h1 class="pt">智能体 API (Agents API)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]]**(00:49起):本集发布的核心产品：现在包含计算机使用，开发者可用与 Codex 和 ChatGPT 同款实现来构建；OpenAI 内部第一方产品也完全构建在它之上。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(11:14起):本集说它让你定义智能体的大脑、指令和环境并打包共享,智能体还能先搭建自己的环境、拿环境 ID 再创建新智能体
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-30-latent-devday-2026|《OpenAI DevDay 双专访：计算机使用 180 度大变样》]] — 作为概念
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ari]] · [[OpenAI]] · [[计算机使用]] · [[智能体]] · [[harness]] · [[无障碍性]] · [[Decisions API]] · [[Responses API]] · [[缓存]] · [[压缩]]
+[[OpenAI]] · [[智能体]] · [[Ari]] · [[Philipp Schmid]] · [[计算机使用]] · [[Google DeepMind]] · [[harness]] · [[Gemini API]] · [[无障碍性]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"Ari":1,"OpenAI":195,"计算机使用":22,"智能体":478,"harness":63,"无障碍性":4,"Decisions API":3,"Responses API":1,"缓存":1,"压缩":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":197,"智能体":483,"Ari":1,"Philipp Schmid":2,"计算机使用":22,"Google DeepMind":10,"harness":64,"Gemini API":2,"无障碍性":4,"沙箱":96}</script>
 
 <script>
 (function(){

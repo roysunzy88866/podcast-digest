@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vlad Luzin</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vlad Luzin">VL</div><div class="pi"><h1 class="pt">Vlad Luzin</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vlad Luzin">VL</div><div class="pi"><h1 class="pt">Vlad Luzin</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>2</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*6 条*
+*13 条*
 
 ![[2026-09-30-talks-your-agents-are-in-solitary-confinement#^q1]]
 
@@ -25,17 +25,32 @@ unlisted: true
 
 ![[2026-09-30-talks-your-agents-are-in-solitary-confinement#^q6]]
 
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q1]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q2]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q3]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q4]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q5]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q6]]
+
+![[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot#^q7]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-30-talks-your-agents-are-in-solitary-confinement|《别再当智能体的路由器：多智能体通信为什么这么难》]] — 作为嘉宾
+- [[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot|《AI 智能体为什么还聊不到一起？有人做了个“聊天室”》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[BENT]] · [[gem]] · [[智能体]] · [[多智能体协调]] · [[分布式系统]] · [[循环工程]] · [[MCP]] · [[A2A 协议]] · [[Claude]] · [[Codex]]
+[[智能体]] · [[分布式系统]] · [[循环工程]] · [[MCP]] · [[A2A 协议]] · [[BENT]] · [[Bend]] · [[gem]] · [[多智能体系统]] · [[多智能体协调]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -45,7 +60,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"BENT":1,"gem":2,"智能体":478,"多智能体协调":3,"分布式系统":1,"循环工程":5,"MCP":86,"A2A 协议":2,"Claude":93,"Codex":85}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"分布式系统":1,"循环工程":6,"MCP":88,"A2A 协议":3,"BENT":1,"Bend":1,"gem":2,"多智能体系统":1,"多智能体协调":3}</script>
 
 <script>
 (function(){

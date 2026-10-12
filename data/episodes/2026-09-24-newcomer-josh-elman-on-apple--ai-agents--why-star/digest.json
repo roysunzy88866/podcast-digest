@@ -1,0 +1,179 @@
+{
+  "title_zh": "从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会",
+  "tldr": "前苹果高管、a16z 新合伙人 Josh Elman 与主持人对谈，聊个人 AI 代理、短剧平台、Siri 的重生，以及为什么初创公司仍有胜算。",
+  "digest_md": "在硅谷，Josh Elman 是个少见的“产品老兵”：他在 Greylock 做风投时投中了 Discord 和 Musical.ly(后来的 TikTok),去 Robinhood 和苹果工作几年后，去年秋天看到 OpenClaw 这类产品，决定重返风投，加入 Andreessen Horowitz。这期 Newcomer 播客里，他和主持人 Eric Newcomer 聊了 AI 时代消费产品的机会与陷阱。\n\n## 十年前的聊天机器人，为什么注定失败？\n\nElman 的职业起点之一是 Operator,一家 2014 年前后的聊天机器人公司，想法是让每家生意都能通过聊天搞定。用户在聊天里提需求，背后有人和软件帮你完成。问题在于，当时的 AI 几乎什么都做不了，只能靠真人在幕后撑着，成本结构彻底崩掉 [04:25 Elman]。\n\n还有一个残酷的发现：用户乐于让 Operator 帮忙找到一件难买的商品，但一旦找到了，就转头去网上搜最低价，不愿意为这项服务付钱。教训是，产品形态、用户习惯、商业模型三者都对不上，再好的想法也白搭。\n\n现在不一样了。今天的产品真的由大语言模型驱动，甚至能让电脑自己上网、翻页面、替你操作。Elman 认为==新的关键问题是：出了错怎么办==？一切顺利时体验惊艳，但规模化之后，小比例的出错会累积成大麻烦，什么时候需要一个“逃生口”转人工，是全行业要学的功课。\n\n## 当所有人都派出自己的代理去抢同一个位子\n\n==个人代理普及后，市场会变成什么样==？Elman 举了个例子：一家餐厅空出一个位子，5 个人的代理同时去抢，该给谁？按先来后到？按谁出价高？还是按谁更“有理由”坐在那里——比如那天是这对夫妻的结婚纪念日 [09:00 Elman]。\n\n**他倾向于认为，真实和诚信最终会胜出**。Airbnb 就是先例：正因为房东和房客之间有真实的信任，陌生人住进别人家里这件事才能运转。而那些用 AI 伪造纪念日照片的“流氓代理”，短期会制造混乱，长期会被识破。\n\n有意思的是，平台本身可能因此变得更重要。像订位平台这样的服务商，如果能替餐厅筛选出“对的客人”、让餐厅保持满座，就从订位工具升级成了餐厅的信任代言人。\n\n## AI 生成内容：先赢下“最无聊的一小时”\n\n聊到 AI 会不会拍出整部电影，Elman 讲了一个他早年听来的 YouTube 故事。有人问 YouTube 怎么和网络电视竞争，答案是：我们不想打败电视最好的一小时，我们要打败你最差的一小时——当你不知道看什么、漫无目的换台的时候 [24:08 Elman]。\n\n同样，新内容平台不需要一上来就对抗 Netflix,只需要比“我不知道看什么”更有吸引力，然后从底部往上长。\n\n眼下最符合这个逻辑的是微短剧：20 到 60 分钟的故事切成多集，在 TikTok 或 Instagram Reels 上放出前几集把你钩住，然后引导你下载独立应用，靠订阅付费。RealShorts、DramaBox 这类公司已经做出了几十亿美元的生意，不少是中国公司，打法有点像手游——批量生产、快速迭代。Elman 认为 AI 会把叙事质量拉上去，让任何会讲故事的人都能进场，“就像 TikTok 让任何人都能拍短视频一样”。\n\n## 苹果给他的最重要一课：技术要讲人话\n\nElman 在苹果的最后几天，正好赶上 Siri AI 在 WWDC 上发布。他承认早期版本的 Siri 尝试达不到苹果的质量标准，但让他佩服的是，公司没有砍掉它，而是埋头做出来了。现在的 Siri 能理解设备上的个人信息、跨应用执行操作——有人发来邮箱地址，按住 Siri 键说一句“把这个邮箱加进联系人”就行 [37:10 Elman]。\n\n但他说，重新赢回用户信任会是漫长过程。Siri 也不会包打天下：你照样会用 ChatGPT、用别的代理，它只是设备上的一个基础层。\n\n从苹果学到的最重要一课是：技术必须“对人类有益”，然后照这个标准做选择、讲故事。他觉得 AI 行业早期的姿态恰恰相反——炫耀“它能消灭工作岗位”，这在普通人听来是红色警报。正确的说法应该是：帮人把工作做得更好。他自己用 AI 写东西、做演示文稿，但“每一个字都要由我掌控”，不认可就直接改。\n\n## 为什么 AI 产品难上手：一个空白输入框是“最糟糕的新手引导”\n\nElman 有个观察：现在的 AI 产品界面往往只有一个空白输入框，什么都能问——这反而让普通人不知道问什么。Google 早期首页上有更多引导内容，随着用户熟悉才逐渐简化；而 AI 产品直接跳到了“最终形态”。\n\n主持人补充说，模型能力太强、太多，反而没人把它包装成具体的使用场景，大家只会喊“AI”两个字。Elman 同意：OpenAI 和 Anthropic 不可能包办所有叙事，这恰恰是初创公司的空间。\n\n## 人工智能是不是 OpenAI 的游戏，初创公司还有戏吗？\n\nElman 的回答是明确的“不是”。每一次平台更替都催生一批赢家：互联网时代有 Google、Amazon、Facebook;移动时代有 Uber、Instacart、DoorDash。AI 是整个互联网和经济的一次重构，不是一个单点 [13:01 Elman]。\n\nChatGPT 每周有约 10 亿人在用，OpenAI 当然可以继续伟大，但初创公司能找到自己的楔子。转折点是 OpenClaw:它证明了模型只是拼图的一块，**真正的价值在围绕模型搭建的软件**——保存上下文、识别技能、完成任务。在那之前，他曾认为没有自有研究员的初创公司做不出差异化；看到 OpenClaw 之后，他改变了看法，这也是他重返风投的直接原因。\n\n## 增长的第一性原理：先有好产品，再谈渠道\n\n对“如何获取前 1000 个用户”这类问题，Elman 的回答有点不给面子：**先确认你有一个用户真心喜欢、会回来反复用的产品，否则一切增长技巧都是零乘以任何数**。想清楚用户在你的产品里做什么动作、为什么来、多久来一次 [49:03 Elman]。\n\n在此之上，选渠道要看人群：触达科技圈用 Twitter;触达青少年用 Instagram 和 TikTok。他对创作者营销有个反直觉的建议：推健康健身产品，别找健身达人——他们每周都在推销新产品，粉丝早已麻木；去找分享日常生活的妈妈们、普通女孩，让产品自然出现在她们的故事里，效果反而好。\n\n## 本集带走\n\n- 2014 年的聊天机器人败在“AI 做不了、真人扛不住”；今天技术终于够用，新难题变成了出错时如何兜底。\n- 个人代理普及后，稀缺资源的分配规则(先到先得、拍卖、还是“谁更有理由”)将重塑订位、票务等市场，真实与诚信是长期胜出的要素。\n- 微短剧是短视频之后最实在的新品类：已有几十亿美元订阅收入，AI 会进一步拉低创作门槛。\n- Elman 看好初创公司的空间：OpenClaw 证明模型只是一块拼图，围绕模型做软件同样能建立价值。\n- 增长的前提是产品本身：先让用户有理由回来，再谈渠道和获客技巧。",
+  "quotes": [
+    {
+      "en": "Yeah, in some ways, the LLMs are more powerful than the humans you can designate now.",
+      "zh": "是啊，在某种意义上，现在的 LLM 比你能指定的真人还要强大。",
+      "timestamp": "06:17",
+      "speaker": "Eric Newcomer"
+    },
+    {
+      "en": "I mean, I think we're at a moment where we're getting to redefine so much of how the internet works, that this is a massive industry change, economy change, not just a... Single point for anyone to win.",
+      "zh": "我的意思是，我认为我们正处于一个可以重新定义互联网运作方式的时刻，这是一场巨大的行业变革、经济变革，而不仅仅是任何人能赢下的单点。",
+      "timestamp": "13:01",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "And I think what both of these companies showed is how magical that moment is, how magical that experience is when we're having live, but also how hard it is to scale when you're only live.",
+      "zh": "我觉得这两家公司都展示了那一刻有多神奇，当我们实时互动时那种体验有多神奇，但同时也展示了当你只有实时时，扩张有多难。",
+      "timestamp": "25:45",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "There's also a lot of resistance to AI because we're telling such bad narratives about how this could replace all jobs or kill everybody as opposed to enable the next incredible wave of innovation, which I very much believe in.",
+      "zh": "对 AI 也有很大的抵触，因为我们讲述的叙事如此糟糕——说它会取代所有工作或者杀死所有人——而不是说它会开启下一波不可思议的创新浪潮，而这一点我深信不疑。",
+      "timestamp": "28:16",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "And again, if you're going to put something out, even if you use AI to help you write it, it should stand for you and you should stand behind every word.",
+      "zh": "再说一次，如果你要把某个东西发布出去，即使你用 AI 帮你写，它也应该代表你，你应该为每一个字负责。",
+      "timestamp": "31:19",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "I joke sometimes that giving you a blank open edit field is an incredibly powerful thing, but in fact, sort of the worst thing in the world to use for onboarding and getting to know a product.",
+      "zh": "我有时开玩笑说，给你一个空白输入框是一件极其强大的事情，但实际上，它是世界上最糟糕的入门和了解产品的方式。",
+      "timestamp": "32:44",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "And the right to forget and the right to not remember and not record and have safe spaces is really valuable too.",
+      "zh": "而遗忘的权利、不去记住和不去记录的权利、拥有安全空间，也同样非常有价值。",
+      "timestamp": "43:43",
+      "speaker": "Josh Elman"
+    },
+    {
+      "en": "Reminded me for the first time that you can build consumer startups again where the models are a piece of the puzzle but are not the actual value. And the value is really in the software that's created around it.",
+      "zh": "它第一次让我想起，你可以重新做消费级创业公司了，模型只是拼图中的一块，而不是实际的价值所在。而价值真正在于围绕它创建的软件。",
+      "timestamp": "45:04",
+      "speaker": "Josh Elman"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "10:11",
+      "speaker": "Unknown",
+      "en": "I mean, I tend to think that truth and authenticity win in the end.",
+      "zh": "我是说，我倾向于认为真相和真实性最终会获胜。"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Unknown",
+      "en": "But now I see this edge that consumer products can really come back and we can build these little startups that are growing to these next wave of great companies.",
+      "zh": "但现在我看到这个契机，消费产品可以真正回归，我们可以打造这些小创业公司，成长为下一波伟大的公司。"
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Unknown",
+      "en": "And it was all just too early. What the AI could actually do at the time was very, very hard to automate. It really couldn't do much at all.",
+      "zh": "但一切都太早了。当时的 AI 真正能做的事情非常非常难自动化。它实际上几乎什么都做不了。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Unknown",
+      "en": "And that just completely tips over your economics, what the actual product is, what the network is.",
+      "zh": "而这完全推翻了你的经济模型、实际的产品是什么、网络是什么。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Unknown",
+      "en": "Yeah, in some ways, the LLMs are more powerful than the humans you can designate now.",
+      "zh": "是啊，在某种意义上，现在的 LLM 比你能指定的真人还要强大。"
+    },
+    {
+      "timestamp": "07:50",
+      "speaker": "Unknown",
+      "en": "And I think we're going to see every chatbot begin to not just give you answers and have a good conversation, but be able to complete tasks for you too.",
+      "zh": "而且我认为我们会看到每一个聊天机器人开始不只是给你答案和进行愉快的对话，还能为你完成任务。"
+    },
+    {
+      "timestamp": "08:12",
+      "speaker": "Unknown",
+      "en": "Well, but here's this challenge, which is, let's say there's one reservation slot that opens up and five of us want it for that time. Who makes the decision?",
+      "zh": "但这里有个挑战，比如说，有一个预订时段开放了，我们五个人都想要那个时间。谁来做决定？"
+    },
+    {
+      "timestamp": "13:01",
+      "speaker": "Unknown",
+      "en": "I mean, I think we're at a moment where we're getting to redefine so much of how the internet works, that this is a massive industry change, economy change, not just a... Single point for anyone to win.",
+      "zh": "我的意思是，我认为我们正处于一个可以重新定义互联网运作方式的时刻，这是一场巨大的行业变革、经济变革，而不仅仅是任何人能赢下的单点。"
+    },
+    {
+      "timestamp": "10:48",
+      "speaker": "Unknown",
+      "en": "Those will eventually get figured out, but we might have some mess along the way.",
+      "zh": "那些最终会被识破，但我们一路上可能会有一些混乱。"
+    },
+    {
+      "timestamp": "19:45",
+      "speaker": "Unknown",
+      "en": "This is now a foundational paradigm of what people do to spend time.",
+      "zh": "这已经成为人们打发时间的基础范式。"
+    },
+    {
+      "timestamp": "20:54",
+      "speaker": "Unknown",
+      "en": "This might not quite be a eight hour Netflix series that's costing hundreds of millions to produce, but this is a thing that is cheaper to produce, but it still requires great storytelling.",
+      "zh": "这可能还不是那种耗资数亿美元制作的八小时 Netflix 剧集，但这是制作成本更低的东西，却仍然需要出色的讲故事能力。"
+    },
+    {
+      "timestamp": "24:08",
+      "speaker": "Unknown",
+      "en": "And it was like, we're not aiming to beat the best hour of network TV. But we're trying to beat the worst hour of TV.",
+      "zh": "而回答是，我们的目标不是打败网络电视最精彩的那一小时，而是打败电视最糟糕的那一小时。"
+    },
+    {
+      "timestamp": "25:45",
+      "speaker": "Unknown",
+      "en": "And I think what both of these companies showed is how magical that moment is, how magical that experience is when we're having live, but also how hard it is to scale when you're only live.",
+      "zh": "我觉得这两家公司都展示了那一刻有多神奇，当我们实时互动时那种体验有多神奇，但同时也展示了当你只有实时时，扩张有多难。"
+    },
+    {
+      "timestamp": "26:26",
+      "speaker": "Unknown",
+      "en": "And I actually think the magic's back.",
+      "zh": "而且我实际上觉得那种魔力回来了。"
+    },
+    {
+      "timestamp": "28:16",
+      "speaker": "Unknown",
+      "en": "There's also a lot of resistance to AI because we're telling such bad narratives about how this could replace all jobs or kill everybody as opposed to enable the next incredible wave of innovation, which I very much believe in.",
+      "zh": "对 AI 也有很大的抵触，因为我们讲述的叙事如此糟糕——说它会取代所有工作或者杀死所有人——而不是说它会开启下一波不可思议的创新浪潮，而这一点我深信不疑。"
+    },
+    {
+      "timestamp": "30:45",
+      "speaker": "Unknown",
+      "en": "And it should be, because that's not the way that we should think about what we're trying to do. It's empower people to do their jobs better.",
+      "zh": "而且理应如此，因为那不是我们应该用来思考我们正在努力做的事情的方式。它应该是赋能人们把工作做得更好。"
+    },
+    {
+      "timestamp": "31:19",
+      "speaker": "Unknown",
+      "en": "And again, if you're going to put something out, even if you use AI to help you write it, it should stand for you and you should stand behind every word.",
+      "zh": "再说一次，如果你要把某个东西发布出去，即使你用 AI 帮你写，它也应该代表你，你应该为每一个字负责。"
+    },
+    {
+      "timestamp": "32:44",
+      "speaker": "Unknown",
+      "en": "I joke sometimes that giving you a blank open edit field is an incredibly powerful thing, but in fact, sort of the worst thing in the world to use for onboarding and getting to know a product.",
+      "zh": "我有时开玩笑说，给你一个空白输入框是一件极其强大的事情，但实际上，它是世界上最糟糕的入门和了解产品的方式。"
+    },
+    {
+      "timestamp": "43:43",
+      "speaker": "Unknown",
+      "en": "And the right to forget and the right to not remember and not record and have safe spaces is really valuable too.",
+      "zh": "而遗忘的权利、不去记住和不去记录的权利、拥有安全空间，也同样非常有价值。"
+    },
+    {
+      "timestamp": "45:04",
+      "speaker": "Unknown",
+      "en": "Reminded me for the first time that you can build consumer startups again where the models are a piece of the puzzle but are not the actual value. And the value is really in the software that's created around it.",
+      "zh": "它第一次让我想起，你可以重新做消费级创业公司了，模型只是拼图中的一块，而不是实际的价值所在。而价值真正在于围绕它创建的软件。"
+    }
+  ],
+  "voice_script": "今天这期节目聊的是 AI 时代消费产品的机会和陷阱，主角叫 Josh Elman,是硅谷一位少见的产品老兵。做风投的时候，在 Greylock 投中了 Discord 和 Musical.ly,就是后来变成 TikTok 的那个产品；之后又去 Robinhood 和苹果干了几年。去年秋天，看到 OpenClaw 这类产品之后，决定重返风投，加入了 Andreessen Horowitz。这期 Newcomer 播客里，他和主持人 Eric Newcomer 把 AI 消费这块从头到尾捋了一遍。为什么一个老兵要在这个时候回来？咱们就顺着这条线讲。\n\n先从一段失败的历史说起。Josh 早年做过一家叫 Operator 的公司，2014 年前后，想法很简单：让每家生意都能通过聊天搞定，用户在聊天里提需求，背后由人和软件一起帮你完成。问题是，那时候的 AI 几乎什么都做不了，全靠真人在幕后撑着，成本结构彻底崩掉。更残酷的发现是，用户乐意让 Operator 帮忙找到一件难买的商品，可一旦找到了，转头就去网上搜最低价，根本不愿意为这项服务付钱。教训很清楚：产品形态、用户习惯、商业模型，三者对不上，再好的想法也白搭。\n\n那今天为什么又行了？因为现在的东西是真由大语言模型驱动的，甚至能让电脑自己上网、翻页面、替你操作。但新的关键问题也跟着来了：出了错怎么办？一切顺利时体验惊艳，可一旦规模化，小比例的出错会累积成大麻烦。什么时候需要一个逃生口、转回人工，是全行业都要学的功课。\n\n技术够用了之后，一个更有意思的问题浮出水面：如果每个人都派出自己的 AI 代理，市场会变成什么样？举个例子：一家餐厅空出一个位子，五个人的代理同时去抢，该给谁？按先来后到？按谁出价高？还是按谁更有理由坐在那里——比如那天正好是这对夫妻的结婚纪念日。Josh 倾向于认为，真实和诚信最终会胜出。Airbnb 就是先例：正因为房东和房客之间有真实的信任，陌生人住进别人家里这件事才能运转。那些用 AI 伪造纪念日照片的流氓代理，短期会制造混乱，长期会被识破。而且平台本身可能因此变得更重要——订位平台如果能替餐厅筛出对的客人、让餐厅保持满座，就从订位工具升级成了餐厅的信任代言人。\n\n再说内容这块。AI 会不会拍出整部电影？早年有个 YouTube 的故事很说明问题：有人问 YouTube 怎么和网络电视竞争，答案是，我们不想打败电视最好的一小时，我们要打败你最差的一小时——就是你不知道看什么、漫无目的换台的时候。同样，新内容平台不需要一上来就对抗 Netflix,只要比“我不知道看什么”更有吸引力，然后从底部往上长。眼下最符合这个逻辑的是微短剧：把故事切成多集，在 TikTok 上放出前几集把你钩住，再引导你下载独立应用，靠订阅付费。RealShorts、DramaBox 这类公司已经做出了几十亿美元的生意，打法像手游，批量生产、快速迭代。AI 会进一步把叙事质量拉上去，让任何会讲故事的人都能进场，就像 TikTok 让任何人都能拍短视频一样。\n\n在苹果的经历，给 Josh 上了一课，也能解释很多产品判断。离开前的最后几天，正好赶上 Siri AI 在 WWDC 上发布。早期版本的 Siri 达不到苹果的质量标准，但让他佩服的是，公司没有砍掉它，而是埋头做出来了——现在的 Siri 能理解设备上的个人信息、跨应用执行操作，有人发来邮箱地址，按住 Siri 键说一句“把这个邮箱加进联系人”就行。不过重新赢回用户信任会是漫长的过程，Siri 也不会包打天下，它只是设备上的一个基础层。从苹果学到的最重要一课是：技术必须对人类有益，然后照这个标准做选择、讲故事。而 AI 行业早期的姿态恰恰相反，炫耀它能消灭工作岗位，这在普通人听来就是红色警报。正确的说法应该是帮人把工作做得更好。Josh 自己用 AI 写东西、做演示文稿，但每一个字都要由自己掌控，不认可就直接改。\n\n顺着这个思路，还有个很实在的观察：现在的 AI 产品界面往往只有一个空白输入框，什么都能问，这反而让普通人不知道该问什么。Google 早期首页上有更多引导内容，随着用户熟悉才逐渐简化，而 AI 产品直接跳到了最终形态。有句话说得挺妙：给你一个空白输入框是一件极其强大的事情，但它其实是世界上最糟糕的新手引导。模型能力太强、太多，反而没人把它包装成具体的使用场景。这恰恰就是初创公司的空间。\n\n那 AI 是不是 OpenAI 的游戏？Josh 的回答很明确：不是。每一次平台更替都催生一批赢家——互联网时代有 Google、Amazon、Facebook,移动时代有 Uber、Instacart、DoorDash。AI 是整个互联网和经济的一次重构，不是任何人能赢下的一个单点。ChatGPT 每周有约十亿人在用，OpenAI 当然可以继续伟大，但初创公司能找到自己的楔子。转折点就是 OpenClaw:它证明了模型只是拼图的一块，真正的价值在围绕模型搭建的软件——保存上下文、识别技能、完成任务。在那之前，Josh 本以为没有自有研究员的初创公司做不出差异化，看到 OpenClaw 之后改变了看法，这也是重返风投的直接原因。\n\n最后落到增长这件事上。对“怎么获取前一千个用户”这类问题，回答有点不给面子：先确认你有一个用户真心喜欢、会回来反复用的产品，否则一切增长技巧都是零乘以任何数。在此之上，选渠道要看人群——触达科技圈用 Twitter,触达青少年用 Instagram 和 TikTok。创作者营销还有个反直觉的建议：推健康健身产品，别找健身达人，他们每周都在推销新产品，粉丝早已麻木；去找分享日常生活的妈妈们、普通女孩，让产品自然出现在故事里，效果反而好。\n\n用 Josh 自己的话收尾：我们正处于一个可以重新定义互联网运作方式的时刻，这是一场巨大的行业变革、经济变革，而不仅仅是一个任何人都能赢下的单点。"
+}

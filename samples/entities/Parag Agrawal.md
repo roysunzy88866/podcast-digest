@@ -53,7 +53,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Parallel":6,"Amazon":32,"Shopify":17,"OpenAI":195,"Perplexity":10,"智能体":478,"网页搜索":2,"推理":98,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Parallel":6,"Amazon":32,"Shopify":17,"OpenAI":197,"Perplexity":10,"智能体":483,"网页搜索":2,"推理":98,"开源模型":4}</script>
 
 <script>
 (function(){

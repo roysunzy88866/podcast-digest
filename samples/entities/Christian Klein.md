@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":195,"Anthropic":200,"Amazon":32,"Shopify":17,"Databricks":23,"Snowflake":20,"Salesforce":36,"Workday":5,"智能体":478}</script>
+<script type="application/json" class="pd-epn">{"SAP":4,"OpenAI":197,"Anthropic":201,"Amazon":32,"Shopify":17,"Databricks":23,"Snowflake":20,"Salesforce":36,"Workday":5,"智能体":483}</script>
 
 <script>
 (function(){

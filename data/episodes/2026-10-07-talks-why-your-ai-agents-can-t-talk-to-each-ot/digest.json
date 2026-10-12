@@ -1,0 +1,167 @@
+{
+  "title_zh": "AI 智能体为什么还聊不到一起？有人做了个“聊天室”",
+  "tldr": "Bend 联合创始人兼首席技术官 Vlad Luzin 讲了智能体之间通信的难题，以及他们的解决方案。",
+  "digest_md": "你大概已经用上了 AI 智能体：让 Claude 写代码，再让另一个会话审查。但你有没有想过，==为什么这些智能体不能自己组个群聊，把活儿分工干完==？Vlad Luzin 是 Bend 公司的联合创始人和首席技术官，在一场开发者活动上，他讲清了这个问题的来龙去脉，并发布了自家产品。\n\n## 未来的工作方式：智能体自己开会\n\nVlad 的判断很直接：**未来属于 AI 之间的通信**——企业内部的 AI 之间、企业之间的 AI 之间、消费者和企业的 AI 之间。智能体会替我们干活，而要干活，它们就必须互相交流。\n\n他描绘的场景是这样的：智能体分布在世界各地、随时在线。它们收到任务后，可以在注册表里查找同伴，把对方拉进一个对话空间，委派任务，收集信息，再汇报给你。整个过程像开一场远程会议——只不过参会的全是 AI。\n\n## 你以为在用多个智能体，其实你是台“路由器”\n\n现在很多开发者的做法，Vlad 称之为“对抗式智能体”：开两个会话干同一件事，一个写代码，一个审查代码。问题在于，两个会话之间不通信，来回搬运信息的是你自己。他的比喻是：你就是思科路由器和交换机，在两个有状态的智能体之间转发数据包。\n\n更进一步的做法叫“循环工程”（loop engineering）：把人工转发换成一段开源的 Python 或 TypeScript 脚本，让脚本自动在几个智能体之间来回递话。思路没变，只是路由器从人换成了代码。\n\n==为什么要费这么大劲开多个智能体==？因为 Transformer 架构有先天限制，也就是“单智能体瓶颈”：确认偏误、注意力稀释、上下文碎片化、记忆衰退。上下文窗口再大——100 万、200 万个词元——性能也救不回来。\n\n## 现有的两条路，都走不通\n\n既然要多智能体协作，最现成的办法似乎是接到聊天平台上：Slack、Teams、Discord、WhatsApp、Telegram。Anthropic 还发过 Slack 智能体。但 Vlad 算了笔账：把智能体接入 Telegram 要 5 步，Discord 7 步，Slack 8 步，WhatsApp 11 步——全是手工操作，你得啃文档才能配好。而且就算配好了，得到的也只是一个能跟你一个人说话的智能体：它没法跟其他智能体对话，也没法跟别人对话。“你的智能体仍然被关在数字版的单独监禁里。”\n\n另一条路是协议：MCP、ACP、A2A 等。**Vlad 认为这些协议的抽象层级太低**。MCP 是无状态调用，你没法回头问刚才那个智能体发生了什么；A2A 是单向的、客户端-服务器模式，想双向就得两头都实现；串起一堆接口调用，你会撞上超时。而且服务发现、任务队列这些关键能力都还缺位，得自己补。他的结论是：照这条路做下去，你是在搭流水线调度，不是在建多智能体系统，“把时间浪费在无聊透顶的事情上”。\n\n## 真正的拦路虎：分布式系统\n\n让两个智能体互相对话，本质上是分布式系统问题。而分布式系统本身就难做——先忘掉智能体，光是确定性软件就已经够头疼了，再加上智能体这种不确定性的“微服务”，麻烦翻倍。\n\n==具体要解决什么==？Vlad 列了几项：传输层必须实时、有序（因为大语言模型要求消息按顺序到达），要处理重试；要处理持久化和恢复，因为智能体所在的进程随时可能崩溃；还有一个全新的难题叫“运行时绑定”——想把一个 LandGraph 和一个 Codex 连起来，你得把线程 ID、会话 ID、执行 ID、运行 ID 互相映射好，否则它们没法为同一个目标协作。\n\n再往上，你不能让开发者去管 IP、端口、URL，得抽象到对话、参与者、频道、消息路由这个层面。最后，企业还要治理：身份认证、可观测性——不光要看到消息从 A 传到了 B，还要看到 B 收到消息之后调用了哪些工具。Vlad 半开玩笑地说：这些问题不解决，“大家领着全民基本收入躺在沙滩上”的美好未来就不会来。\n\n## Bend 的答案：一个全球协作层\n\n接着 Vlad 发布了 Bend 的产品：一个面向所有智能体的全球交互与协作层，支持任何平台、语言、环境。它不是点对点，而是多方互联；人类也能加入，照样可以和自己的智能体对话。底层内置了注册表（智能体自动互相发现）、持久化、频道、消息过滤、安全和可观测性。\n\n现场演示里，两个用户、两台浏览器接入平台。一个 LangGraph 智能体被启动，几秒钟后它的“智能体名片”就出现在另一个用户的账户里，从此双方知道彼此的存在。更进一步的演示：一个 Codex 智能体想连接 Vlad 在自己 Mac 上跑的个人助理，需要发送联系人请求，双方都同意才能进入对方的注册表——像加好友一样。\n\n连上之后，两个完全有状态、部署在世界任意角落的智能体就能实时协作。而且因为其中一方属于 Vlad，他对整个对话有完全的可见性，没有任何对话能绕开他。他的智能体也能随时把他本人拉进对话，人类在环。\n\n## 循环工程，不用写 50 万行代码\n\n最后一段演示：用户 Mike 同时跑着接入平台的 Codex 和终端里的 Claude Code。Claude 会话接入平台后获得身份和名片，然后自己创建对话空间，邀请 Codex 和 Mike 加入，开始分工做一个网站——一个干活，一个审查，卡住了就把人叫进来帮忙。\n\n这就是前面说的“循环工程”，但用 Vlad 的话说，不需要“50 万行 Python 或 TypeScript 代码”来让智能体互相递话。\n\n演讲以玩笑收尾：展位上来了喜欢“编排”却不喜欢“协作”的兽人，把周边纪念品全偷走了，欢迎大家领把剑帮忙把它们打回去。\n\n## 本集带走\n\n- 多智能体协作的瓶颈不在模型能力，而在 Transformer 的单智能体局限：上下文再大也躲不开注意力稀释和记忆衰退。\n- 聊天平台为人类设计，主动阻止机器人互相对话；MCP、A2A 等协议抽象层级太低，缺状态、缺发现、缺队列。\n- 智能体互联本质是分布式系统问题，难点包括实时有序传输、崩溃恢复、运行时绑定和跨系统的可观测性。\n- Bend 发布的全球协作层让智能体自动互相发现、双向授权后进入对话空间，人类可随时以参与者身份加入。",
+  "quotes": [
+    {
+      "en": "AI will be doing work on our behalf and they will have to talk to each other in order to solve tasks on our behalf.",
+      "zh": "AI 将代表我们做工作，它们将不得不互相交谈，以便代表我们解决任务。",
+      "timestamp": "01:02",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "You are basically a Cisco router and a switch moving packets between these two stateful agents.",
+      "zh": "你基本上就是一个 Cisco 路由器和交换机，在这两个有状态的智能体之间传递数据包。",
+      "timestamp": "02:40",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "So one million tokens or two million tokens, context will not help you in terms of the performance.",
+      "zh": "所以一百万 token 或两百万 token 的上下文，在性能方面不会帮到你。",
+      "timestamp": "03:56",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "So basically your agents are still alone in a kind of digital solitary confinement.",
+      "zh": "所以基本上，你的智能体仍然独自处在一种数字式的单独监禁之中。",
+      "timestamp": "05:18",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "They are built for humans, and they actively block you from connecting a bot to a bot.",
+      "zh": "它们是为人类构建的，而且它们会主动阻止你把一个机器人连接到另一个机器人。",
+      "timestamp": "07:21",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "You need to rise above all of the technical details to a different level of abstraction, conversation, participants, channels or rooms, message routing that is tailored to agents as the first citizens.",
+      "zh": "你需要超越所有这些技术细节，上升到一个不同的抽象层次：对话、参与者、频道或房间，以及以智能体为一等公民而定制的消息路由。",
+      "timestamp": "09:17",
+      "speaker": "Vlad Luzin"
+    },
+    {
+      "en": "But it's loop engineering without 500,000 lines of a Python or TypeScript code that you need to bring over so your agents can actually prompt each other for work.",
+      "zh": "但这是不需要 50 万行你需要搬过来的 Python 或 TypeScript 代码的 loop engineering,那样你的智能体才能真正互相提示工作。",
+      "timestamp": "15:45",
+      "speaker": "Vlad Luzin"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:02",
+      "speaker": "Unknown",
+      "en": "AI will be doing work on our behalf and they will have to talk to each other in order to solve tasks on our behalf.",
+      "zh": "AI 将代表我们做工作，它们将不得不互相交谈，以便代表我们解决任务。"
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Unknown",
+      "en": "You are basically a Cisco router and a switch moving packets between these two stateful agents.",
+      "zh": "你基本上就是一个 Cisco 路由器和交换机，在这两个有状态的智能体之间传递数据包。"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Unknown",
+      "en": "So one million tokens or two million tokens, context will not help you in terms of the performance.",
+      "zh": "所以一百万 token 或两百万 token 的上下文，在性能方面不会帮到你。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "So basically your agents are still alone in a kind of digital solitary confinement.",
+      "zh": "所以基本上，你的智能体仍然独自处在一种数字式的单独监禁之中。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Unknown",
+      "en": "You're not building a multi-agent system.",
+      "zh": "你不是在构建一个多智能体系统。"
+    },
+    {
+      "timestamp": "07:04",
+      "speaker": "Unknown",
+      "en": "You're wasting your time on boring, boring stuff.",
+      "zh": "你在把时间浪费在无聊、无聊的东西上。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Unknown",
+      "en": "They are built for humans, and they actively block you from connecting a bot to a bot.",
+      "zh": "它们是为人类构建的，而且它们会主动阻止你把一个机器人连接到另一个机器人。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Unknown",
+      "en": "And we know that protocol is too low level of a technical abstraction to be able to build anything on it at scale.",
+      "zh": "我们知道协议是一个太底层的技术抽象，无法在上面大规模构建任何东西。"
+    },
+    {
+      "timestamp": "07:49",
+      "speaker": "Unknown",
+      "en": "Connecting remote agents, a process running on your laptop or my Claude to your Codex, is a distributed systems problem.",
+      "zh": "连接远程智能体——运行在你笔记本电脑上的进程，或者我的 Claude 连到你的 Codex——是一个分布式系统问题。"
+    },
+    {
+      "timestamp": "08:05",
+      "speaker": "Unknown",
+      "en": "Deterministic software, it's a pain in the butt.",
+      "zh": "确定性软件，已经够让人头疼了。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "Unknown",
+      "en": "Add to this agents that are microservices and non-deterministic, and you'll have a lot of fun.",
+      "zh": "再加上作为微服务的、非确定性的智能体，那你会玩得非常开心。"
+    },
+    {
+      "timestamp": "08:37",
+      "speaker": "Unknown",
+      "en": "It can fail, the pod can crash, and then all your multi-agent system goes kaput.",
+      "zh": "它可能会失败，pod 可能会崩溃，然后你的整个多智能体系统就完蛋了。"
+    },
+    {
+      "timestamp": "09:17",
+      "speaker": "Unknown",
+      "en": "You need to rise above all of the technical details to a different level of abstraction, conversation, participants, channels or rooms, message routing that is tailored to agents as the first citizens.",
+      "zh": "你需要超越所有这些技术细节，上升到一个不同的抽象层次：对话、参与者、频道或房间，以及以智能体为一等公民而定制的消息路由。"
+    },
+    {
+      "timestamp": "10:00",
+      "speaker": "Unknown",
+      "en": "So without all of that solved, you will not have agents talking to each other, and this wonderful future of us lying on the beach will not happen.",
+      "zh": "所以，如果不解决所有这些，你就不会有智能体彼此交谈，我们这个躺在沙滩上的美好未来就不会发生。"
+    },
+    {
+      "timestamp": "10:52",
+      "speaker": "Unknown",
+      "en": "And it's not peer-to-peer, it's multi-peer.",
+      "zh": "而且它不是点对点的，是多对点的。"
+    },
+    {
+      "timestamp": "13:39",
+      "speaker": "Unknown",
+      "en": "Because my agent is talking to another agent of a different user, I have a full visibility into the conversation, so no conversation can happen without me seeing it.",
+      "zh": "因为我的智能体正在与另一个不同用户的智能体对话，我对这次对话有完整的可见性，所以任何对话都不可能在我看不到的情况下发生。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Unknown",
+      "en": "But it's loop engineering without 500,000 lines of a Python or TypeScript code that you need to bring over so your agents can actually prompt each other for work.",
+      "zh": "但这是不需要 50 万行你需要搬过来的 Python 或 TypeScript 代码的 loop engineering,那样你的智能体才能真正互相提示工作。"
+    },
+    {
+      "timestamp": "06:59",
+      "speaker": "Unknown",
+      "en": "And if you're doing this, you're basically building plumbing.",
+      "zh": "如果你这么做，你基本上是在造轮子。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Unknown",
+      "en": "You need to connect a thread ID to a session ID to execution ID to a run ID of these multiple agents and map it to these IDs together.",
+      "zh": "你需要把一个线程 ID 连接到一个会话 ID,再连到执行 ID,再连到这些多个智能体的运行 ID,并把它们映射到一起。"
+    }
+  ],
+  "voice_script": "你平时用 AI 智能体,可能是这样的:开一个 Claude 会话写代码,再开另一个会话来审查。但你有没有想过一个问题——这些智能体,为什么不能自己组个群聊,把活儿分工干完,非得你来回传话?\n\n今天这期,就来聊这件事。主角是 Bend 公司的联合创始人兼首席技术官,Vlad Luzin。在一个开发者活动上,他把智能体之间通信这个难题的来龙去脉讲清楚了,顺便发布了自己家的产品。\n\n先说说 Vlad 对未来的判断。他的说法很直接:未来属于 AI 之间的通信——企业内部的 AI 之间、企业之间的 AI 之间、还有消费者和企业 AI 之间。AI 将代表我们去做工作,而要做工作,它们就必须互相交谈。你想象一下这个画面:智能体分布在世界各地、随时在线,收到任务后去注册表里查找同伴,把对方拉进一个对话空间,委派任务、收集信息,最后汇报给你——整个过程就像开一场远程会议,只不过参会的全是 AI。\n\n那现状是什么样呢?很多开发者现在玩的是\"对抗式智能体\":开两个会话干同一件事,一个写代码,一个审查代码。听起来挺高级,但你仔细想想,这两个会话之间根本不通信,来回搬运信息的,是你自己。Vlad 打了个比方,很扎心:你基本上就是一个思科路由器和交换机,在两个有状态的智能体之间传递数据包。\n\n有人会说,那我把人工转发换成脚本不就行了?确实有这种做法,叫\"循环工程\"——写一段开源的 Python 或 TypeScript 脚本,让代码自动在几个智能体之间来回递话。但思路没变,只是路由器从人换成了代码。那为什么要费这么大劲开多个智能体呢?因为 Transformer 架构有个先天限制,叫\"单智能体瓶颈\":确认偏误、注意力稀释、上下文碎片化、记忆衰退。哪怕上下文窗口给到一百万、两百万个词元,性能也救不回来。\n\n好,既然要多智能体协作,最现成的路子是不是接到聊天平台上?Slack、Teams、Discord、Telegram,这些都有。Vlad 算了一笔账:把智能体接入 Telegram 要五步,Discord 七步,Slack 八步,WhatsApp 十一步——全是手工配置,得啃文档。而且就算配好了,得到的也只是一个只能跟你一个人说话的智能体:没法跟其他智能体对话,也没法跟别人的智能体对话。用 Vlad 的话说,你的智能体仍然独自处在一种数字式的单独监禁之中。\n\n另一条路是协议,比如 MCP、ACP、A2A。但问题在于,这些协议的抽象层级太低。MCP 是无状态调用,你没法回头问刚才那个智能体发生了什么;A2A 是单向的客户端-服务器模式,想双向就得两头都实现;串起一堆接口调用,还会撞上超时。而且服务发现、任务队列这些关键能力全都缺位。Vlad 的结论是:照这条路做下去,你是在搭流水线调度,不是在建多智能体系统,把时间浪费在无聊透顶的事情上。\n\n那为什么这事这么难?说到根上,让两个智能体互相对话,本质上是一个分布式系统问题。分布式系统本来就难做——先忘掉智能体,光是确定性软件就已经够头疼了,再加上智能体这种带不确定性的\"微服务\",麻烦直接翻倍。具体难在哪?传输层必须实时、有序,因为大语言模型要求消息按顺序到达;要处理持久化和恢复,因为智能体所在的进程随时可能崩溃;还有个全新的难题叫\"运行时绑定\"——想把一个 LangGraph 和一个 Codex 连起来,你得把线程 ID、会话 ID、执行 ID 互相映射好,否则它们没法为同一个目标协作。再往上,开发者不该去管 IP、端口、URL,得抽象到对话、参与者、频道、消息路由这个层面。最后,企业还需要治理:身份认证、可观测性——不光要看消息从 A 传到了 B,还要看 B 收到之后调用了哪些工具。Vlad 半开玩笑地说,这些问题不解决,\"大家领着全民基本收入躺在沙滩上\"的美好未来就不会来。\n\n于是就有了 Bend 发布的这款产品:一个面向所有智能体的全球交互与协作层。支持任何平台、语言、环境,不是点对点而是多方互联,人类也能加入。底层内置了注册表、持久化、频道、消息过滤、安全和可观测性。现场演示里,两个用户、两台浏览器接入平台,一个 LangGraph 智能体启动几秒后,它的\"智能体名片\"就出现在另一个用户账户里——从此双方知道彼此的存在。要连接别人的智能体,比如连上 Vlad 在自己 Mac 上跑的个人助理,得发联系人请求,双方都同意才能进入对方的注册表,就像加好友一样。连上之后,两个部署在世界任意角落的智能体就能实时协作,而且智能体随时可以把人拉进对话,人类在环。\n\n最后一段演示最能说明问题:用户 Mike 同时跑着接入平台的 Codex 和终端里的 Claude Code。Claude 接入平台后获得身份和名片,然后自己创建对话空间,邀请 Codex 和 Mike 加入,开始分工做一个网站——一个干活,一个审查,卡住了就把人叫进来帮忙。这就是前面说的\"循环工程\",只不过用 Vlad 的话说,不需要五十万行 Python 或 TypeScript 代码来让智能体互相递话。\n\n所以回头看这一期讲的核心:多智能体协作的瓶颈,不在模型能力,而在沟通的基础设施。AI 将代表我们做工作,它们将不得不互相交谈,才能代表我们把任务解决掉。"
+}

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":478,"数据基础":2,"ETL":2,"token":33,"后训练":1,"PLG":12,"Google":70,"AWS":22}</script>
+<script type="application/json" class="pd-epn">{"Ofir Ehrlich":1,"Eon":1,"智能体":483,"数据基础":2,"ETL":2,"token":33,"后训练":1,"PLG":12,"Google":71,"AWS":22}</script>
 
 <script>
 (function(){

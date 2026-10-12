@@ -78,7 +78,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ramp":12,"Lenny":69,"AI":32,"PayPal":8,"Anthropic":200,"Square":5,"OpenAI":195,"Faire":1,"Rippling":4,"Airbnb":13}</script>
+<script type="application/json" class="pd-epn">{"Ramp":12,"Lenny":69,"AI":32,"PayPal":8,"Anthropic":201,"Square":5,"OpenAI":197,"Faire":1,"Rippling":4,"Airbnb":14}</script>
 
 <script>
 (function(){

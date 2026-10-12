@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]]**(35:56起):本集说它做对两件事：证明给 bot 访问你工作工具的权限就能走完大部分路，以及把 AI 更看作同事队友；Grok Bot 从它吸收灵感并补上规模化和打磨。
 - **[[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]]**(06:14起):Claire 长期使用的开源个人智能体框架，她的智能体 Polly 由此得名。她发现 Muse 带明显 OpenClaw 痕迹（IdentityMD、SoulMD、Memory、heartbeat），且晨报体验比 OpenClaw 做得更好。
 - **[[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]]**(04:18起):本集用作单机智能体的反例：一千人同时发提示词 OpenClaw 会垮，Eve 会横向扩展。
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(06:54起):本集说 OpenClaw 是一个人在客厅里写出的软件,把模型包装起来、保存上下文、识别技能、替用户完成任务;Elman 说看到它后改变了「没有自有研究员就做不出差异化」的看法,是他重返风投的直接原因
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(01:50起):本集举例：原名 ClaudeBot，AJ 围绕它构建了第一个「循环就是产品」的真实案例（Reddit 找价、经销商互相竞价买车）
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(03:43起):11 月下旬发布、席卷世界的项目；嘉宾认为现在的消费级智能体本质上就是预配置好的 OpenClaw 复刻，能力上没有什么是 OpenClaw 做不到的
 - **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]]**(00:40起):本集提到但未选用:嘉宾看到 Craigslist 上预装 OpenClaw 的 Mac Mini 觉得『预装』是危险信号,最终选了更符合口味的 NanoClaw。
@@ -51,7 +52,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*23 集*
+*24 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
@@ -70,6 +71,7 @@ unlisted: true
 - [[2026-09-08-lennys-how-we-built-grok-bot-in-a-month|《Grok Bot 如何三周引爆全球：从零孵化「有电脑的同事」》]] — 作为被讨论公司
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司
 - [[2026-09-17-sed-scaling-agent-workloads-at-vercel|《把智能体从「桌上的宠物」搬进云端：Vercel 开源框架 Eve》]] — 作为概念(提及)
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念(提及)
@@ -81,9 +83,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Claude Code]] · [[ChatGPT]] · [[Cursor]] · [[Anthropic]] · [[harness]] · [[Claude]] · [[OpenAI]] · [[Shopify]]
+[[智能体]] · [[ChatGPT]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[harness]] · [[OpenAI]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Codex":85,"Claude Code":105,"ChatGPT":108,"Cursor":86,"Anthropic":200,"harness":63,"Claude":93,"OpenAI":195,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"ChatGPT":110,"Codex":85,"Claude Code":107,"Anthropic":201,"Cursor":86,"Claude":93,"harness":64,"OpenAI":197,"Shopify":17}</script>
 
 <script>
 (function(){

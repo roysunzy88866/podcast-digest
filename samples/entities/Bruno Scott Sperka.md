@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":35,"Terraform":2,"Hashicorp":2,"Kubernetes":18,"开源":40,"智能体":478,"PR":6,"AI":32,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":35,"Terraform":2,"Hashicorp":2,"Kubernetes":19,"开源":40,"智能体":483,"PR":6,"AI":32,"工匠精神":1}</script>
 
 <script>
 (function(){

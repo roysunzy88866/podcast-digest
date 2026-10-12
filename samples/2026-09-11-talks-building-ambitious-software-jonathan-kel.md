@@ -151,8 +151,8 @@ Kelly 的收尾：「代码现在很廉价，但质量不是。」软件工程�
 **换个口味**
 
 - [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:Rust、智能体 (agent)、Claude Code</span>
+- [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|智能体崩溃后还能原地复活？聊聊 Pi Durable]]<span class="pd-rz">同概念:智能体 (agent)、软件架构 (architecture)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Cognition · 同概念:智能体 (agent)、开源 (open source)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同概念:智能体 (agent)、Claude Code</span>
 
 </div>
 </div>

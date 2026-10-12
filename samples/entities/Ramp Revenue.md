@@ -25,7 +25,7 @@ unlisted: true
 
 [[Max Freeman]] · [[Harry]] · [[Ramp]] · [[OATS]] · [[Inspect]] · [[SDR]] · [[外呼开发]] · [[配额]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":12,"OATS":1,"Inspect":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":478}</script>
+<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":12,"OATS":1,"Inspect":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":483}</script>
 
 <script>
 (function(){

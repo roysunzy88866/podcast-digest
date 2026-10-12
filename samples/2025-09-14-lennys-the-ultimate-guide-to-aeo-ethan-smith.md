@@ -176,9 +176,9 @@ Ethan 的团队做了严格研究：Google 搜索结果里约 10%-12% 是纯 AI 
 
 **换个口味**
 
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会]]<span class="pd-rz">同公司:ChatGPT、Google、YouTube · 同概念:LLM</span>
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:ChatGPT、Google</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:Google · 同概念:LLM</span>
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同公司:ChatGPT · 同概念:LLM</span>
 
 </div>
 </div>

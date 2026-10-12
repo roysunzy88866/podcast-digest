@@ -1,0 +1,209 @@
+{
+  "title_zh": "11亿美元投向AI的“钢筋水泥”:风投为什么重新爱上硬件",
+  "tldr": "a16z 管理合伙人 Jen Kha 讲述新成立的机器时代基金,以及AI为何让芯片、数据中心重新成为创业热点。",
+  "digest_md": "今年夏末,风投公司 a16z 宣布成立一支11亿美元的“机器时代基金”(Machine Age Fund),专门投资AI之下的物理基础设施。管理合伙人、全球合作负责人 Jen Kha 做客节目,解释了这支基金背后的逻辑。她说,按华尔街的老话,“5月就该收手去度假”,但这个夏天是他们最繁忙的一个夏天。\n\n## AI把风投拉回了三十年没碰的领域\n\n这支基金投的是“软件层以下的一切”:数据中心、芯片、定制硅、网络设备、机架、液冷等等。Jen Kha 说,过去30年,这些基本上是风投“不可投资的类别”——上一代互联网和软件即服务的基建已经建好了,没人需要新建。\n\n但AI完全不同：计算量大得多、数学密集得多，现有的基础设施只是“勉强凑合用的穷人版”，必须为AI时代重造。正如软件行业那句名言所说——软件正在吞噬世界，而本期嘉宾的判断是，**AI 已经“解决了软件”，但要先解决所有物理层面的瓶颈**。\n\n> 【背景】“软件正在吞噬世界”出自 Netscape 创始人 Marc Andreessen 2011 年的著名论断；原文转写中仅出现 \"Marc\" 与 \"Jen Kha\"(人名转写存疑)，故正文改为泛指。\n\n## 为什么要单独成立一支基金?\n\n原因有两个。一是向创业者发出信号,表明 a16z 全心投入这个领域。二是内部管理上的考虑:硬件公司起步融资额很大,如果和传统软件项目放在一起比较,团队总会偏向那些已经有10亿、20亿美元收入的“确定项目”,早期硬件公司永远排不上号。\n\n单独的基金可以在种子轮、A轮就重仓进入,争取更大的持股比例,后面还有专属资金可以持续追加。她举了两个例子:NextHop 做 AI 原生的高性能网络,公司在 B 轮拐点,a16z 的成长基金投了 6500 万美元;而更理想的是像 Unconventional 这样的公司——创始人 Naveen Rao 曾在 Databricks 工作,团队从零开始重新设计专为 AI 服务的芯片,a16z 在种子轮就进了,随后公司大幅溢价完成了后续融资 [09:49 Jen]。\n\n## 有钱人为什么抢着要进?\n\nJen Kha 负责募资,她说 a16z 今年募集的资金接近全行业风险资本的 23%。==机构投资者为什么着急==?她给了几个理由。\n\n第一,AI 创造的价值大部分在私有市场,公开市场上买不到。第二,数据中心供应链上的上市公司股价已经暴涨——SK Hynix、三星这些公司都因为供给紧张大受追捧。第三,随着 SpaceX 上市、Anthropic 和 OpenAI 排队,多个万亿美元级公司将走向公开市场,但还有一大批未上市的公司,投资人不想错过,也不愿继续投建立在上一轮技术周期上的资产类别。她感叹,在她职业生涯早期,不可能在两个月内、在夏天募完一支基金 [07:44 Jen]。\n\n## 11亿美元会不会太少?\n\n美国科技公司今年在数据中心上的开支将达到万亿美元级别,11亿美元只是千分之一。有合伙人开玩笑说,这支基金“六个星期就能投完”。Jen Kha 澄清那是玩笑,但她解释说,这支基金做的是早期投资,和超大规模云厂商的自建、后期投资人、二级市场根本不在同一个赛道上。团队的判断依据是:a16z 收到的创业提案中,**硬件相关的已经从几乎没有涨到超过 20%** [19:59 Jen]。\n\n## 创业者是一群“老将复出”\n\n这个领域的创始人不是刚出校门的年轻人。做硬件需要和超大规模云厂商的关系、需要客户、需要懂得物理层面的落地。所以你看到的是一批从老牌公司出来的资深人马。NextHop 的团队就来自网络设备公司 Arista。\n\n做尽调的合伙人也是同类人:Martin Casado 和 Raghu Raghuram 都曾创办公司、执掌大型科技公司,是真正做过这行的人。\n\n> 【背景】Martin Casado 曾创办网络虚拟化公司 Nicira 并卖给 VMware;Raghu Raghuram 曾任 VMware CEO;Guido Appenzeller 曾任 Intel CTO。(此段原文转写缺失,以上为公开背景信息,供参考)\n\n能做这件事的人本来就少,圈子小到大家彼此都认识,客户要么是 a16z 的被投公司,要么是超大规模云厂商,尽调因此反而高效。\n\n## AI建设已经变成了国家竞赛\n\nJen Kha 认为,过去100年里最成功的国家都是率先完成工业化的国家,而**未来的赢家将是率先普及AI的国家**。一个月前韩国总统访美,唯一一站就是硅谷。NVIDIA 市值已达5.5万亿美元,超过除美国之外的所有G7国家 [11:08 Jen]。\n\n各国动作很快:韩国宣布把高端AI作为公共品提供给每个公民;萨尔瓦多在学校里免费部署 Grok,还用上了 AI 医生;新加坡、阿联酋这类城市国家更容易推行。她认为有些国家的AI落地速度已经远超美国,而美国国内对数据中心的抵制,反而可能把一部分供应链建设推到海外。\n\n## 数据中心被“泼脏水”了?\n\n对于公众对数据中心的反感,Jen Kha 直言“**叙事挡住了现实**”。她说现代数据中心是科技公司而非房地产公司建的,比如 a16z 被投公司 Switch 的数据中心不但不消耗电网电力,反而向电网回馈电力,用水量极少,还是极少数能为未来芯片液冷做准备的设施 [16:16 Jen]。\n\n真正的瓶颈在别处:下一代芯片将用直流电而非交流电,大多数数据中心没有为此设计,而美国只有不到2%的电工受过直流电培训。这些基础设施的缺口,正是这支基金要投的方向。她最后说,风投几乎被拉回了起点——硅谷之所以叫硅谷,本来就是从硬件开始的。\n\n## 本集带走\n\n- a16z 成立11亿美元的机器时代基金,专投AI软件层以下的物理基建:芯片、网络、数据中心、液冷等。\n- 过去30年硬件对风投几乎不可投资,AI 的算力需求正在迫使整层基础设施重建。\n- 硬件相关提案已占 a16z 收到提案的 20% 以上;创始人多是资深行业老将,而非年轻创业者。\n- AI 基建已成国家优先事项,韩国、萨尔瓦多等国落地速度可能快于美国。\n- 公众对数据中心的负面印象与事实有差距,真正的瓶颈是直流供电、液冷等下一代技术配套。",
+  "quotes": [
+    {
+      "en": "Turns out AI has solved software, right? Any software need you have today, AI can actually do it.",
+      "zh": "结果 AI 已经解决了软件，对吧？今天你有的任何软件需求，AI 实际上都能做到。",
+      "timestamp": "04:00",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "My partner, Chris Dixon, calls it following the nerd energy. Like, what is the nerd doing on nights and weekends is probably what us normies will be doing in the future.",
+      "zh": "我的合伙人 Chris Dixon 把这称为「跟随书呆子能量」。书呆子在晚上和周末在做什么，很可能就是我们这些普通人未来要做的事。",
+      "timestamp": "03:38",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "AI is way more mathematically intensive and compute intensive and all that infrastructure, sort of the poor man's version that we're limping along with today needs to be repurposed for the AI age going forward.",
+      "zh": "AI 在数学上密集得多、算力密集得多，而所有那些基础设施——我们今天蹒跚维系的穷人版——需要为未来的 AI 时代被重新改造。",
+      "timestamp": "03:11",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "And now you're going to see multiple trillion dollar businesses go public.",
+      "zh": "而现在你将看到多家万亿美元规模的公司上市。",
+      "timestamp": "07:20",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "The value accrual in AI, that's largely been on the private side, not the public side. And so people are just starved for private capital in general, because that's where all the growth is.",
+      "zh": "AI 的价值积累，很大程度上是在一级市场而不是二级市场。所以人们总体上非常渴求私募资本，因为所有增长都在那里。",
+      "timestamp": "05:55",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "So NVIDIA is larger than all of the G7 countries except the U.S. Wow.",
+      "zh": "所以 NVIDIA 比除美国之外的所有 G7 国家都大。哇。",
+      "timestamp": "11:17",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "If you look at countries of the last 100 years that were the most militarily, culturally, economically successful, they were the ones that industrialized first.",
+      "zh": "如果你看过去 100 年里在军事上、文化上、经济上最成功的国家，它们都是最早实现工业化的。",
+      "timestamp": "11:49",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "We think countries of the future are gonna be the ones that adopt AI first across fence, across public safety, across healthcare, and that infiltrates all throughout the government and then also comes bottom up from their citizens utilizing it as well.",
+      "zh": "我们认为未来的国家会是那些在国防、公共安全、医疗健康等方面最早采用 AI 的国家，而且这会渗透到整个政府，然后也从底层由他们的公民使用它而兴起。",
+      "timestamp": "11:58",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "So in the case of Switch, for example, they actually contribute power back to the grid. They don't take away. And they've built their infrastructure to enable that. They use very little water.",
+      "zh": "所以以 Switch 为例，它们实际上是把电力回馈给电网。它们不是在消耗。而且它们已经把基础设施建造得能够实现这一点。它们用水非常少。",
+      "timestamp": "16:34",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "There's less than 2% of electricians in the U.S. that are actually trained on DC power because it's very dangerous and like you could potentially kill yourself and it's very volatile to work with.",
+      "zh": "美国只有不到 2% 的电工实际接受过直流电方面的培训，因为它非常危险，你可能会把自己弄死，而且操作起来非常不稳定。",
+      "timestamp": "17:26",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "Agents are using five times the amount of tokens as humans are. And we just crossed over to agents being more on the volume of agents are now more on the internet than humans are.",
+      "zh": "智能体使用的 token 量是人类的五倍。而且我们刚刚跨越到智能体的流量超过人类的时刻，也就是现在互联网上智能体的数量比人类还多。",
+      "timestamp": "18:42",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "And there's less than still 5% of AI usage today.",
+      "zh": "而且今天 AI 的使用率仍然不到 5%。",
+      "timestamp": "19:02",
+      "speaker": "Jen Kha"
+    },
+    {
+      "en": "We went from seeing basically nothing in terms of hardware pitches to over now 20% of our pitches are hardware kind of physical world related side.",
+      "zh": "我们从基本上看不到硬件方面的路演，到现在超过 20% 的路演是硬件这类物理世界相关的。",
+      "timestamp": "20:00",
+      "speaker": "Jen Kha"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:57",
+      "speaker": "Unknown",
+      "en": "Turns out AI has solved software, right? Any software need you have today, AI can actually do it.",
+      "zh": "结果 AI 已经解决了软件，对吧？今天你有的任何软件需求，AI 实际上都能做到。"
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Unknown",
+      "en": "But we have to solve for all the physical constraints in order for AI to actually solve for software.",
+      "zh": "但我们必须解决所有的物理约束，AI 才能真正解决软件问题。"
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Unknown",
+      "en": "My partner, Chris Dixon, calls it following the nerd energy. Like, what is the nerd doing on nights and weekends is probably what us normies will be doing in the future.",
+      "zh": "我的合伙人 Chris Dixon 把这称为「跟随书呆子能量」。书呆子在晚上和周末在做什么，很可能就是我们这些普通人未来要做的事。"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Unknown",
+      "en": "AI is way more mathematically intensive and compute intensive and all that infrastructure, sort of the poor man's version that we're limping along with today needs to be repurposed for the AI age going forward.",
+      "zh": "AI 在数学上密集得多、算力密集得多，而所有那些基础设施——我们今天蹒跚维系的穷人版——需要为未来的 AI 时代被重新改造。"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Unknown",
+      "en": "And if you were to rebuild from a blank sheet of paper, it would look very much differently than kind of shoehorning the current infrastructure today.",
+      "zh": "如果从一张白纸重建，它看起来会与今天硬塞进当前基础设施的方式非常不同。"
+    },
+    {
+      "timestamp": "07:20",
+      "speaker": "Unknown",
+      "en": "And now you're going to see multiple trillion dollar businesses go public.",
+      "zh": "而现在你将看到多家万亿美元规模的公司上市。"
+    },
+    {
+      "timestamp": "07:32",
+      "speaker": "Unknown",
+      "en": "And so people want exposure to that and they don't want to, quite frankly, continue to invest into other asset classes like private equity, et cetera, that are built off the prior technology cycle.",
+      "zh": "所以人们想要那种敞口，而且坦白说，他们不想继续投资于其他资产类别，比如私募股权等等，那是建立在上一个技术周期之上的。"
+    },
+    {
+      "timestamp": "07:44",
+      "speaker": "Unknown",
+      "en": "When I started my career off, it would have been impossible to close a fund effectively in two months over the summer, right?",
+      "zh": "当我刚入行的时候，在夏天两个月内有效完成一只基金的募集是不可能的，对吧？"
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Unknown",
+      "en": "The value accrual in AI, that's largely been on the private side, not the public side. And so people are just starved for private capital in general, because that's where all the growth is.",
+      "zh": "AI 的价值积累，很大程度上是在一级市场而不是二级市场。所以人们总体上非常渴求私募资本，因为所有增长都在那里。"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Unknown",
+      "en": "So NVIDIA is larger than all of the G7 countries except the U.S. Wow.",
+      "zh": "所以 NVIDIA 比除美国之外的所有 G7 国家都大。哇。"
+    },
+    {
+      "timestamp": "11:22",
+      "speaker": "Unknown",
+      "en": "Our partner Mark Andreessen calls it, you know, technology is the dog that caught the bus.",
+      "zh": "用我们合伙人 Mark Andreessen 的话说，技术是那条追上了巴士的狗。"
+    },
+    {
+      "timestamp": "11:48",
+      "speaker": "Unknown",
+      "en": "If you look at countries of the last 100 years that were the most militarily, culturally, economically successful, they were the ones that industrialized first.",
+      "zh": "如果你看过去 100 年里在军事上、文化上、经济上最成功的国家，它们都是最早实现工业化的。"
+    },
+    {
+      "timestamp": "11:58",
+      "speaker": "Unknown",
+      "en": "We think countries of the future are gonna be the ones that adopt AI first across fence, across public safety, across healthcare, and that infiltrates all throughout the government and then also comes bottom up from their citizens utilizing it as well.",
+      "zh": "我们认为未来的国家会是那些在国防、公共安全、医疗健康等方面最早采用 AI 的国家，而且这会渗透到整个政府，然后也从底层由他们的公民使用它而兴起。"
+    },
+    {
+      "timestamp": "06:16",
+      "speaker": "Unknown",
+      "en": "Sanjay, the CEO, has become the Taylor Swift of the industry, right? He has made much credit to him. He's been grinding the grind for a very long time.",
+      "zh": "Sanjay,那位 CEO,已经成了这个行业的 Taylor Swift,对吧？这很大程度要归功于他。他已经长期艰苦打拼了很多年。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "Unknown",
+      "en": "But unfortunately, the narrative has gotten in the way of reality, which is, if you look at most data centers, and particularly the modern ones, so I'm talking about AWS, Meta's data centers, Switch data center, which is one of our portfolio companies, for example.",
+      "zh": "但不幸的是，叙事已经妨碍了现实——如果你看看大多数数据中心，特别是现代的那些，我说的是 AWS、Meta 的数据中心、Switch 数据中心，比如，那是我们投资组合公司之一。"
+    },
+    {
+      "timestamp": "16:34",
+      "speaker": "Unknown",
+      "en": "So in the case of Switch, for example, they actually contribute power back to the grid. They don't take away. And they've built their infrastructure to enable that. They use very little water.",
+      "zh": "所以以 Switch 为例，它们实际上是把电力回馈给电网。它们不是在消耗。而且它们已经把基础设施建造得能够实现这一点。它们用水非常少。"
+    },
+    {
+      "timestamp": "17:25",
+      "speaker": "Unknown",
+      "en": "There's less than 2% of electricians in the U.S. that are actually trained on DC power because it's very dangerous and like you could potentially kill yourself and it's very volatile to work with.",
+      "zh": "美国只有不到 2% 的电工实际接受过直流电方面的培训，因为它非常危险，你可能会把自己弄死，而且操作起来非常不稳定。"
+    },
+    {
+      "timestamp": "18:41",
+      "speaker": "Unknown",
+      "en": "Agents are using five times the amount of tokens as humans are. And we just crossed over to agents being more on the volume of agents are now more on the internet than humans are.",
+      "zh": "智能体使用的 token 量是人类的五倍。而且我们刚刚跨越到智能体的流量超过人类的时刻，也就是现在互联网上智能体的数量比人类还多。"
+    },
+    {
+      "timestamp": "19:02",
+      "speaker": "Unknown",
+      "en": "And there's less than still 5% of AI usage today.",
+      "zh": "而且今天 AI 的使用率仍然不到 5%。"
+    },
+    {
+      "timestamp": "19:59",
+      "speaker": "Unknown",
+      "en": "We went from seeing basically nothing in terms of hardware pitches to over now 20% of our pitches are hardware kind of physical world related side.",
+      "zh": "我们从基本上看不到硬件方面的路演，到现在超过 20% 的路演是硬件这类物理世界相关的。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一家风投公司的大动作。a16z,硅谷最有名的风投之一，今年夏末宣布成立一支11亿美元的新基金，名字叫“机器时代基金”，专门投AI底下的物理基础设施——芯片、数据中心、网络设备这些东西。来做客的，是管理合伙人兼全球合作负责人 Jen Kha。有意思的是，华尔街有句老话，说五月份就该收手去度假了，但按她的说法，这个夏天是他们最忙的一个夏天。忙什么呢？就是忙这支基金。\n\n那问题来了：芯片、数据中心这些东西，风投过去三十年都是绕着走的。为什么要现在回头投？这里得先交代个背景。过去三十年，风投圈里这些硬件类目基本上属于“不可投资”的类别。为什么呢？因为上一代互联网和软件即服务的基础设施早就建好了，网络、机房、服务器，该有的都有了，没人需要新建。你投软件就行，轻资产、高回报。\n\n但AI把这一切改变了。AI对计算量的需求，和以前的软件完全不是一个量级——用 Jen Kha 的话说，AI在数学上密集得多、算力密集得多，而我们今天蹒跚维系的这些基础设施，只能算“穷人版”，勉强凑合用，必须为AI时代重新造一遍。软件行业有句名言，叫“软件正在吞噬世界”，这话是Netscape创始人Marc Andreessen在2011年说的。而现在他们的判断是，AI已经把软件问题解决了——今天你有的任何软件需求，AI基本都能做到——但要吃到这波红利，得先把所有物理层面的瓶颈解决了。所以这支基金投的，就是“软件层以下的一切”：数据中心、芯片、定制硅、网络设备、机架、液冷，都在范围内。\n\n那你可能会问，为什么非要单独成立一支基金，放进原来的大盘子里不行吗？原因有两个。第一个是对外的信号：告诉创业者，我们是认真全押这个领域的。第二个原因更实际，是内部管理的问题。硬件公司起步的时候融资额就很大，如果和传统软件项目放在一起比较，投资团队永远会偏向那些已经有十几亿、二十亿美元收入的“确定项目”，早期硬件公司永远排不上队。单独一支基金，就可以在种子轮、A轮就重仓进去，拿更大的持股比例，后面还有专属资金持续追加。举个例子：NextHop这家公司，做AI原生的高性能网络，团队来自网络设备公司Arista,B轮拐点的时候，a16z的成长基金投了6500万美元。更理想的案例是Unconventional——创始人是Naveen Rao,曾在Databricks工作，团队从零开始重新设计专为AI服务的芯片，a16z在种子轮就进去了，随后公司大幅溢价完成了后续融资。\n\n再说募资这头。Jen Kha负责募资，她说a16z今年募集的资金，接近全行业风险资本的23%。机构投资人为什么这么着急往里冲？她给了三个理由。第一，AI创造的价值，大部分是在私有市场，公开市场上根本买不到。第二，数据中心供应链上的上市公司，股价已经涨疯了——像SK海力士、三星，都因为供给紧张被抢着买。第三，接下来SpaceX要上市，Anthropic和OpenAI也在排队，多家万亿美元规模的公司都将走向公开市场，但还有一大批没上市的公司，投资人不方案错过，也不愿意继续把钱押在建立在上一轮技术周期上的资产类别上。她感叹说，在自己职业生涯早期，根本不可能两个月内、还赶在夏天，就募完一支基金。\n\n有人会算账：美国科技公司今年在数据中心上的开支，是万亿美元级别，你这一支11亿美元的基金，只是千分之一，够干什么的？有合伙人开玩笑说，这钱六个星期就能投完。Jen Kha澄清那是玩笑，但也解释了，这支基金做的是早期投资，跟超大规模云厂商的自建、后期投资人、二级市场，根本不在同一个赛道上。团队真正的判断依据是这个：a16z收到的创业提案里，硬件相关的，已经从几乎没有，涨到了超过20%。\n\n还有一个有意思的现象：这个领域的创业者，不是刚出校门的年轻人。做硬件，你得跟超大规模云厂商有关系，得有客户，得懂物理层面的落地——所以你看到的是一批从老牌公司出来的资深人马。连做尽调的合伙人也是同类人，Martin Casado和Raghu Raghuram,都是自己创办过公司、执掌过大型科技企业的人，是真正干过这行的。能做这件事的人本来就少，圈子小到大家彼此都认识，客户要么是a16z的被投公司，要么就是超大规模云厂商，所以尽调反而高效。\n\n再往大了看，AI建设已经变成国家之间的竞赛了。Jen Kha有个判断：过去一百年里最成功的国家，都是率先完成工业化的国家；而未来的赢家，将是率先普及AI的国家。一个月前，韩国总统访美，唯一一站就是硅谷。NVIDIA的市值已经到了5.5万亿美元——比除美国以外的所有G7国家加起来还大。各国动作都很快：韩国宣布把高端AI作为公共品提供给每个公民；萨尔瓦多在学校里免费部署Grok,还用上了AI医生；新加坡、阿联酋这类城市国家，推行起来更容易。按她的观察，有些国家的AI落地速度已经远超美国，而美国国内对数据中心的抵制，反而可能把一部分供应链建设推到海外。\n\n说到数据中心，公众现在对它的印象不太好，觉得耗电耗水。Jen Kha的回答很直接：叙事挡住了现实。现代数据中心大多是科技公司、而不是房地产公司建的。比如a16z的被投公司Switch,它的数据中心不但不消耗电网电力，反而向电网回馈电力，用水量极少，还是极少数能为未来芯片液冷做好准备的地方。真正的瓶颈在别处：下一代芯片要用直流电而不是交流电，大多数数据中心没为此设计，而美国只有不到2%的电工受过直流电培训。这些基础设施的缺口，恰恰就是这支基金要投的方向。\n\n最后用一句话收个尾。Jen Kha说，风投这回几乎是被拉回了起点——硅谷之所以叫硅谷，本来就是从硬件开始的。"
+}

@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini API</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini API">GE</div><div class="pi"><h1 class="pt">Gemini API</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini API">GE</div><div class="pi"><h1 class="pt">Gemini API</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(04:21起):本集说通过 Gemini API 既有轻量图像模型、快模型,也有跑三分钟以上的 Deep Research 智能体,是 Interactions API 要统一的既有入口。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(00:18起):本集说它是 Google 面向开发者的 API,新的 Interactions API 与 Agents API 都建立在它之上,可调用 Gemini 模型与 anti-gravity 智能体
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-07-talks-why-ai-agents-should-have-their-own-sand#^q1]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ivan Leo]] · [[Google DeepMind]] · [[Interactions API]] · [[Managed Agents]] · [[智能体]] · [[函数调用]] · [[沙箱]] · [[anti-gravity]] · [[AI Studio]]
+[[Google DeepMind]] · [[Interactions API]] · [[Managed Agents]] · [[智能体]] · [[函数调用]] · [[沙箱]] · [[anti-gravity]] · [[AI Studio]] · [[Ivan Leo]] · [[Philipp Schmid]]
 
-<script type="application/json" class="pd-epn">{"Ivan Leo":1,"Google DeepMind":9,"Interactions API":1,"Managed Agents":6,"智能体":478,"函数调用":3,"沙箱":95,"anti-gravity":1,"AI Studio":2}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":10,"Interactions API":2,"Managed Agents":7,"智能体":483,"函数调用":4,"沙箱":96,"anti-gravity":2,"AI Studio":3,"Ivan Leo":1,"Philipp Schmid":2}</script>
 
 <script>
 (function(){

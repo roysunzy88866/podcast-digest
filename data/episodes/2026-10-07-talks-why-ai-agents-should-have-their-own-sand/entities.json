@@ -1,0 +1,1039 @@
+{
+  "episode_id": "2026-10-07-talks-why-ai-agents-should-have-their-own-sand",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "AI 智能体",
+    "沙箱",
+    "API 设计",
+    "Google DeepMind",
+    "托管基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "philipp-schmid",
+      "type": "person",
+      "role": "guest",
+      "name": "Philipp Schmid",
+      "file": "Philipp Schmid",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集说 Philipp Schmid 来自 Google DeepMind 团队,主要做 AI Studio 和 Gemini API 的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.066,
+            22.13
+          ],
+          "quote": "I'm part of the Google DeepMind team, mostly working on AI Studio and Gemini API.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gemini-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini API",
+      "file": "Gemini API",
+      "primary": true,
+      "how_described": "本集说它是 Google 面向开发者的 API,新的 Interactions API 与 Agents API 都建立在它之上,可调用 Gemini 模型与 anti-gravity 智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.066,
+            22.13
+          ],
+          "quote": "I'm part of the Google DeepMind team, mostly working on AI Studio and Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            165.558,
+            171.661
+          ],
+          "quote": "So if you haven't used Gemini API or AI Studio before, you can go to ai.studio or to ai.dev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            498.442,
+            506.606
+          ],
+          "quote": "So the anti-gravity remote agent inside the Gemini API is powered by the same agent harness, which is used with the anti-gravity product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            531.113,
+            544.8
+          ],
+          "quote": "Then the anti-gravity agent we have in the Gemini API, but it's still the same harness, meaning if we improve Gemini to become better with that harness, we benefit inside anti-gravity, but we also benefit inside of the Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 141,
+          "t": [
+            741.179,
+            746.621
+          ],
+          "quote": "And to make it easier for you and for your coding agents, we created a CLI for the Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 144,
+          "t": [
+            750.082,
+            760.065
+          ],
+          "quote": "It's really a CLI that your agent can use to call the Gemini API, meaning it can call Nano Banana or Omni if you want to generate some assets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1201.473,
+            1213.443
+          ],
+          "quote": "So if you are interested about it, we have great documentation on the Gemini API under Agents with a quick start, which walks you through how to send your first request, build your first agent, and get started.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体已从对话式指令进化到「给一个目标让它自己跑几个小时甚至几天」的阶段,本质上就是一组文件(agent.md 加技能脚本)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            80.233,
+            89.016
+          ],
+          "quote": "And to give a little bit of a brief history, I assume everyone has heard about agent, has heard about large language models, but to really quickly reflect to where we are coming from.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 46,
+          "t": [
+            230.018,
+            239.365
+          ],
+          "quote": "And you can already tell in the two snippets here, to call a model like Gemini or to call an agent here, like the anti-gravity agent, it's literally the same interface.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            243.229,
+            245.01
+          ],
+          "quote": "So you have a model or an agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            256.182,
+            259.945
+          ],
+          "quote": "Which we are going to talk about later, why every model or agent should have its own box.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            377.524,
+            382.665
+          ],
+          "quote": "And all of the code you see here is basically enough to create a very simple, small CVE agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            481.992,
+            491.458
+          ],
+          "quote": "So if you build a function calling agent, you return a function result and not like a role user with some content which might be a function result or not.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            492.858,
+            498.422
+          ],
+          "quote": "And at Google I.O., we ship the anti-gravity agent, which comes with its own sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            498.442,
+            506.606
+          ],
+          "quote": "So the anti-gravity remote agent inside the Gemini API is powered by the same agent harness, which is used with the anti-gravity product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 103,
+          "t": [
+            514.873,
+            517.777
+          ],
+          "quote": "When we talk about harness, we don't mean the same agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            518.157,
+            523.624
+          ],
+          "quote": "The harness is basically the backend of our agent, but it might be different between different products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            523.644,
+            530.713
+          ],
+          "quote": "So the anti-gravity IDE is a coding agent, so it might have a little bit of different tools or a little bit of a different system instruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            531.113,
+            544.8
+          ],
+          "quote": "Then the anti-gravity agent we have in the Gemini API, but it's still the same harness, meaning if we improve Gemini to become better with that harness, we benefit inside anti-gravity, but we also benefit inside of the Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 107,
+          "t": [
+            545.22,
+            549.543
+          ],
+          "quote": "And with that new agent, we also introduce this environment field.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            550.423,
+            569.184
+          ],
+          "quote": "And an environment here, remote, is basically for that API call, your agent gets a sandbox managed by us, meaning if you send a request, our backend starts as a cloud sandbox where the agent can run code, can create files, write files.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 110,
+          "t": [
+            585.138,
+            591.884
+          ],
+          "quote": "So if you have multi-turn conversation where the agent, you set an user input, I don't know,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            613.87,
+            619.811
+          ],
+          "quote": "Or you can even use sub-agents to basically pick up a work another agent has been done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            638.519,
+            641.801
+          ],
+          "quote": "So the anti-gravity agent is skills or",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 126,
+          "t": [
+            652.246,
+            660.39
+          ],
+          "quote": "But also, if you have an agents MD file from your coding agent or from your existing agents, it will also be automatically appended to the system instruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 127,
+          "t": [
+            661.01,
+            662.991
+          ],
+          "quote": "And then you can create an agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            670.375,
+            674.537
+          ],
+          "quote": "Or what if team one builds an agent, team two wants to use?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            674.777,
+            681.16
+          ],
+          "quote": "Therefore, we created the Agents API where you can define the base agent, so what's the underlying brain, so to speak.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 135,
+          "t": [
+            702.866,
+            706.327
+          ],
+          "quote": "I can use the agent to create its own environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 136,
+          "t": [
+            706.667,
+            709.887
+          ],
+          "quote": "And after the agent is done, I get back an environment ID.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 138,
+          "t": [
+            713.208,
+            713.868
+          ],
+          "quote": "The new agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            714.208,
+            721.972
+          ],
+          "quote": "And every time I call this new agent, it will start from that already pre-loaded, pre-configured environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            746.641,
+            748.601
+          ],
+          "quote": "So it's not a coding agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 144,
+          "t": [
+            750.082,
+            760.065
+          ],
+          "quote": "It's really a CLI that your agent can use to call the Gemini API, meaning it can call Nano Banana or Omni if you want to generate some assets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 154,
+          "t": [
+            802.586,
+            807.327
+          ],
+          "quote": "We are going to look at the agent in a little bit, but it's basically a talk show radio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 155,
+          "t": [
+            807.667,
+            809.708
+          ],
+          "quote": "And that talk show agent",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 212,
+          "t": [
+            999.498,
+            1007.206
+          ],
+          "quote": "And since applets are all open in terms of code, we can also take a quick look on how our agent really is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1007.366,
+            1009.849
+          ],
+          "quote": "And our agent is just files.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1010.87,
+            1013.511
+          ],
+          "quote": "We have an agent.md file inside our environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1019.413,
+            1021.353
+          ],
+          "quote": "Very basic agent.md file.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1021.393,
+            1024.174
+          ],
+          "quote": "It has all of the instructions for our agent to do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1041.366,
+            1045.771
+          ],
+          "quote": "The Python file itself allows the Gemini agent to call other Gemini models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1052.939,
+            1054.761
+          ],
+          "quote": "That's all it takes for our agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1055.021,
+            1062.93
+          ],
+          "quote": "And if you want to take that agent from the UI to a back end, you just need to copy that file and create the agent and then use it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1063.851,
+            1068.876
+          ],
+          "quote": "And if you want to play around with the agent itself inside the playground,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1069.477,
+            1073.058
+          ],
+          "quote": "We have inside the model pickers a new agent section.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1076.439,
+            1078.239
+          ],
+          "quote": "But there's also the anti-gravity agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1078.959,
+            1086.821
+          ],
+          "quote": "And on the anti-gravity agent, we have six different agent templates, which you can very easily test, select, and see how it works.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1091.582,
+            1095.083
+          ],
+          "quote": "Let's see what the agent finds out about where it is running.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1102.704,
+            1104.705
+          ],
+          "quote": "And then we see the agent doing its work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1113.953,
+            1123.701
+          ],
+          "quote": "And then we get back a response from our agent that runs on Ubuntu, has eight vCPU, 16 gigabytes of memory, Python installed, pip installed,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1144.574,
+            1150.839
+          ],
+          "quote": "So if your agent has created some files you want to extract out of the environment, share it, you can very easily download it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1171.924,
+            1174.346
+          ],
+          "quote": "And then we have this agent loop completely on our server.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1201.473,
+            1213.443
+          ],
+          "quote": "So if you are interested about it, we have great documentation on the Gemini API under Agents with a quick start, which walks you through how to send your first request, build your first agent, and get started.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集主张每个智能体应有自己的沙箱:由 Google 托管的无状态云上隔离环境,智能体可在里面跑代码、装依赖、读写文件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.182,
+            16.905
+          ],
+          "quote": "Welcome to Why Agents Should Have Their Own Sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            492.858,
+            498.422
+          ],
+          "quote": "And at Google I.O., we ship the anti-gravity agent, which comes with its own sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 108,
+          "t": [
+            550.423,
+            569.184
+          ],
+          "quote": "And an environment here, remote, is basically for that API call, your agent gets a sandbox managed by us, meaning if you send a request, our backend starts as a cloud sandbox where the agent can run code, can create files, write files.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1161.76,
+            1169.163
+          ],
+          "quote": "So when we send a request, we start the sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1184.833,
+            1192.522
+          ],
+          "quote": "And with the managed agents, it's really just a single API call and everything runs inside that remote sandbox.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "interactions-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Interactions API",
+      "file": "Interactions API",
+      "primary": true,
+      "how_described": "本集说是 Google 对 OpenAI Responses API 的回应:放弃「用户-模型回合」改为步骤时间线,带服务端状态管理和长时间运行的异步任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            67.524,
+            71.307
+          ],
+          "quote": "And then also we shipped Omni Flash on the Interactions API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            203.778,
+            211.664
+          ],
+          "quote": "And I want to start about or talk about the Interactions API, which is our new API for Gemini models and Gemini agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            216.027,
+            223.613
+          ],
+          "quote": "So if you never have heard about Interactions API, you can think a little bit about that's our answers to the Responses API from OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 53,
+          "t": [
+            260.645,
+            263.467
+          ],
+          "quote": "New with the Interactions API is you have server-side state management.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            771.049,
+            780.576
+          ],
+          "quote": "And then also we have dedicated skills for working with the Interactions API and the Agents API if you want to play around with it later.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1045.811,
+            1051.117
+          ],
+          "quote": "So it uses the Interactions API to generate some speech, which we can then use.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agents-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agents API",
+      "file": "Agents API",
+      "primary": true,
+      "how_described": "本集说它让你定义智能体的大脑、指令和环境并打包共享,智能体还能先搭建自己的环境、拿环境 ID 再创建新智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            674.777,
+            681.16
+          ],
+          "quote": "Therefore, we created the Agents API where you can define the base agent, so what's the underlying brain, so to speak.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            771.049,
+            780.576
+          ],
+          "quote": "And then also we have dedicated skills for working with the Interactions API and the Agents API if you want to play around with it later.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anti-gravity",
+      "type": "concept",
+      "role": "concept",
+      "name": "anti-gravity",
+      "file": "anti-gravity",
+      "primary": true,
+      "how_described": "本集说这是 Google I/O 发布的智能体,自带沙箱,引入 environment 字段,与 Gemini API 里的远程智能体共用同一个智能体 harness",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            230.018,
+            239.365
+          ],
+          "quote": "And you can already tell in the two snippets here, to call a model like Gemini or to call an agent here, like the anti-gravity agent, it's literally the same interface.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            492.858,
+            498.422
+          ],
+          "quote": "And at Google I.O., we ship the anti-gravity agent, which comes with its own sandbox.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            498.442,
+            506.606
+          ],
+          "quote": "So the anti-gravity remote agent inside the Gemini API is powered by the same agent harness, which is used with the anti-gravity product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 100,
+          "t": [
+            506.626,
+            511.169
+          ],
+          "quote": "So if you have used the IDE or the new anti-gravity 2.0 or the CLI,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            523.644,
+            530.713
+          ],
+          "quote": "So the anti-gravity IDE is a coding agent, so it might have a little bit of different tools or a little bit of a different system instruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            531.113,
+            544.8
+          ],
+          "quote": "Then the anti-gravity agent we have in the Gemini API, but it's still the same harness, meaning if we improve Gemini to become better with that harness, we benefit inside anti-gravity, but we also benefit inside of the Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 123,
+          "t": [
+            638.519,
+            641.801
+          ],
+          "quote": "So the anti-gravity agent is skills or",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1076.439,
+            1078.239
+          ],
+          "quote": "But there's also the anti-gravity agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1078.959,
+            1086.821
+          ],
+          "quote": "And on the anti-gravity agent, we have six different agent templates, which you can very easily test, select, and see how it works.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ai-studio",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Studio",
+      "file": "AI Studio",
+      "primary": true,
+      "how_described": "本集说是试用 Gemini API 的入口,含 build 版块和 gallery 预构建小程序(如 AI Talk Radio),可用 Gmail 免费开始",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.066,
+            22.13
+          ],
+          "quote": "I'm part of the Google DeepMind team, mostly working on AI Studio and Gemini API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            165.558,
+            171.661
+          ],
+          "quote": "So if you haven't used Gemini API or AI Studio before, you can go to ai.studio or to ai.dev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            193.63,
+            197.853
+          ],
+          "quote": "We improved that a lot, so you don't need to leave AI Studio anymore to go into Google Cloud.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            197.873,
+            199.595
+          ],
+          "quote": "You can do everything inside of AI Studio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            786.081,
+            790.742
+          ],
+          "quote": "So I'm in AI Studio inside the AI talk radio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            961.489,
+            966.112
+          ],
+          "quote": "So if you want to play around with it yourself, you can go to AI.studio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            967.348,
+            970.651
+          ],
+          "quote": "And on AI.studio, you have that build section on the left side.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "托管智能体 (managed agents)",
+      "file": "托管智能体",
+      "primary": true,
+      "how_described": "本集说只需一次 API 调用,整个智能体循环都在远程沙箱里运行,开发者不用管理基础设施或客户端函数调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            798.625,
+            802.486
+          ],
+          "quote": "That's just a simple UI on top of managed agents.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1184.833,
+            1192.522
+          ],
+          "quote": "And with the managed agents, it's really just a single API call and everything runs inside that remote sandbox.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "type": "concept",
+      "role": "concept",
+      "name": "函数调用 (function calling)",
+      "file": "函数调用",
+      "primary": true,
+      "how_described": "本集说它是模型替用户执行动作的能力,但在传统「用户回合」API 里返回函数结果「总感觉有点奇怪」,因为输出来自环境而非用户",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            140.531,
+            145.192
+          ],
+          "quote": "Then afterwards, we combined that with function calling because we wanted the model to take actions for us.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            293.711,
+            300.098
+          ],
+          "quote": "So you can combine built-in tools like Google Search with custom function calling and to look at some code examples.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 85,
+          "t": [
+            392.75,
+            398.353
+          ],
+          "quote": "And then function calling to basically give structure to it so you can save it in your database or look it up, for example.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 93,
+          "t": [
+            441.67,
+            445.213
+          ],
+          "quote": "Function calling is not very a user role, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            481.992,
+            491.458
+          ],
+          "quote": "So if you build a function calling agent, you return a function result and not like a role user with some content which might be a function result or not.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1174.646,
+            1179.468
+          ],
+          "quote": "So when you build agents, normally a lot of times you need to manage the function calling on your client.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集一笔带过:用托管智能体就不用再考虑 Kubernetes、Terraform、微服务这些事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            722.452,
+            739.999
+          ],
+          "quote": "And so it's very easy for you to use agents to build their own environments and then to create agents out of them which you can share with your users or with your customers without writing any Terraform, without thinking about Kubernetes, microservices, Firecracker, or anything else.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集在回顾大模型演进时提到:ChatGPT 出现后交互变成用户-模型交替的对话形式,大多数人从那时开始接触",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            127.281,
+            130.824
+          ],
+          "quote": "And then with ChatGPT, everything changed a little bit.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Interactions API 是 Google 对 OpenAI Responses API 的回应",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            216.027,
+            223.613
+          ],
+          "quote": "So if you never have heard about Interactions API, you can think a little bit about that's our answers to the Responses API from OpenAI.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

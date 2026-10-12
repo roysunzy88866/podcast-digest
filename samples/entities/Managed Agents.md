@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Managed Agents</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Managed Agents">MA</div><div class="pi"><h1 class="pt">Managed Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Managed Agents">MA</div><div class="pi"><h1 class="pt">Managed Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]]**(02:20起):本集引用 Anthropic 的 Managed Agents 论文，说托管智能体模式的核心是把智能体逻辑与工具调用执行分离、会话日志做持久化
 - **[[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]]**(00:16起):本集说它是把 anti-gravity harness 开放为远程托管智能体:一次 API 调用即得持久化沙箱,用环境 ID 路由回同一沙箱,存储和沙箱免费、只按模型用量付费。
 - **[[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]]**(04:06起):本集说这是 Google 刚发布的服务：用自然语言描述高阶任务，让一群智能体在 Linux 工作站的沙箱环境里执行，可添加技能和依赖项。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(13:18起):本集说只需一次 API 调用,整个智能体循环都在远程沙箱里运行,开发者不用管理基础设施或客户端函数调用
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念(提及)
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为概念
@@ -28,14 +29,15 @@ unlisted: true
 - [[2026-08-27-devtools-james-arthur-from-electricsql-agents-are|《别给智能体一台电脑：Electric 的“智能体即数据”新架构》]] — 作为概念
 - [[2026-10-03-talks-an-interaction-is-all-you-need-ivan-leo|《一次交互就够了：Google DeepMind 的新 API 到底想解决什么》]] — 作为概念
 - [[2026-10-05-talks-research-to-reality-with-google-deepmind|《在浏览器里跑大模型：DeepMind 带来的开源新玩具》]] — 作为概念(提及)
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[沙箱]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[dreaming]] · [[Claude]] · [[函数调用]] · [[Slack]] · [[harness]] · [[推理]]
+[[沙箱]] · [[智能体]] · [[Anthropic]] · [[函数调用]] · [[Claude Code]] · [[dreaming]] · [[OpenAI]] · [[Google DeepMind]] · [[Slack]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"沙箱":95,"Anthropic":200,"智能体":478,"Claude Code":105,"dreaming":3,"Claude":93,"函数调用":3,"Slack":34,"harness":63,"推理":98}</script>
+<script type="application/json" class="pd-epn">{"沙箱":96,"智能体":483,"Anthropic":201,"函数调用":4,"Claude Code":107,"dreaming":3,"OpenAI":197,"Google DeepMind":10,"Slack":34,"harness":64}</script>
 
 <script>
 (function(){

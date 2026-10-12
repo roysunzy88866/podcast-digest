@@ -42,7 +42,7 @@ unlisted: true
 
 [[ChatGPT]] · [[LLM]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Copilot]] · [[Anthropic]] · [[Claude]] · [[基准测试]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":108,"LLM":61,"智能体":478,"OpenAI":195,"Lenny":69,"Copilot":13,"Anthropic":200,"Claude":93,"基准测试":2,"AGI":28}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":110,"LLM":62,"智能体":483,"OpenAI":197,"Lenny":69,"Copilot":13,"Anthropic":201,"Claude":93,"基准测试":2,"AGI":28}</script>
 
 <script>
 (function(){

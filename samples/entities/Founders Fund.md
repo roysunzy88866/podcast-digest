@@ -26,7 +26,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Ramp]] · [[Brian Singerman]] · [[Keith Rabois]] · [[GPX]] · [[AI]] · [[Anduril]] · [[Rippling]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":195,"Anthropic":200,"Ramp":12,"Brian Singerman":1,"Keith Rabois":2,"GPX":1,"AI":32,"Anduril":5,"Rippling":4,"SpaceX":21}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":197,"Anthropic":201,"Ramp":12,"Brian Singerman":1,"Keith Rabois":2,"GPX":1,"AI":32,"Anduril":5,"Rippling":4,"SpaceX":21}</script>
 
 <script>
 (function(){

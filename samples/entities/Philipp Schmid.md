@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Philipp Schmid</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Philipp Schmid">PH</div><div class="pi"><h1 class="pt">Philipp Schmid</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Philipp Schmid">PH</div><div class="pi"><h1 class="pt">Philipp Schmid</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*8 条*
+*10 条*
 
 ![[2026-09-14-talks-agents-without-code-skills-yaml-and-file#^q1]]
 
@@ -29,17 +29,22 @@ unlisted: true
 
 ![[2026-09-14-talks-agents-without-code-skills-yaml-and-file#^q8]]
 
+![[2026-10-07-talks-why-ai-agents-should-have-their-own-sand#^q1]]
+
+![[2026-10-07-talks-why-ai-agents-should-have-their-own-sand#^q2]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-14-talks-agents-without-code-skills-yaml-and-file|《智能体就只是文件：当配置取代 Python》]] — 作为嘉宾
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[沙箱]] · [[harness]] · [[函数调用]] · [[上下文窗口]] · [[评估]] · [[JSON schema]] · [[Gemini]] · [[Google]] · [[Cursor]]
+[[智能体]] · [[沙箱]] · [[函数调用]] · [[harness]] · [[Google DeepMind]] · [[上下文窗口]] · [[Gemini API]] · [[评估]] · [[Interactions API]] · [[JSON schema]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -49,7 +54,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":478,"沙箱":95,"harness":63,"函数调用":3,"上下文窗口":17,"评估":1,"JSON schema":1,"Gemini":16,"Google":70,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"沙箱":96,"函数调用":4,"harness":64,"Google DeepMind":10,"上下文窗口":17,"Gemini API":2,"评估":1,"Interactions API":2,"JSON schema":1}</script>
 
 <script>
 (function(){

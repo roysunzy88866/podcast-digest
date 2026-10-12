@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":18,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":6,"开放模型":3,"沙箱":95,"推理":98,"GPU":30,"量化":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":18,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":96,"推理":98,"GPU":30,"量化":1,"函数调用":4}</script>
 
 <script>
 (function(){

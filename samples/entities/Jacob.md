@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon":1,"Jason":7,"Apple":26,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"Lucid":1,"GoAI":1,"Eleven Labs":10,"Sony":1}</script>
+<script type="application/json" class="pd-epn">{"Lon":1,"Jason":7,"Apple":27,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"Lucid":1,"GoAI":1,"Eleven Labs":10,"Sony":1}</script>
 
 <script>
 (function(){

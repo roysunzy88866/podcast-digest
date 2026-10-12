@@ -152,9 +152,9 @@ Ben 补充：这是从「只读环境」走向「读写环境」，Google 相关
 
 **换个口味**
 
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会]]<span class="pd-rz">同公司:ChatGPT、YouTube、Google、OpenAI · 同概念:LLM、智能体 (agent)</span>
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":69,"AMD":5,"GPU":30,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":1,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":70,"AMD":5,"GPU":30,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":1,"CPU":5}</script>
 
 <script>
 (function(){

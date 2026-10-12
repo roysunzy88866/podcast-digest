@@ -107,8 +107,8 @@ Rafael 的核心质问是：所有东西都能在网上找到时，为什么要�
 **顺着「智能体」挖下去**
 
 - [[2026-10-06-talks-building-ai-for-the-physical-world-with|机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能]]<span class="pd-rz">同概念:世界模型 (world models)</span>
+- [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|智能体崩溃后还能原地复活？聊聊 Pi Durable]]<span class="pd-rz">同概念:训练数据 (training data)</span>
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]]<span class="pd-rz">同公司:Meta、NVIDIA</span>
-- [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:Meta、YouTube</span>
 
 </div>
 <div class="pd-ex">

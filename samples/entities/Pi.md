@@ -7,27 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Pi</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Pi">PI</div><div class="pi"><h1 class="pt">Pi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Pi">PI</div><div class="pi"><h1 class="pt">Pi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]]**(14:52起):Inflection 的消费级对话产品，被 Mustafa 称为市场上 EQ 最高的类人对话 AI；UI 极简、语音对话占 30% 且语音用户留存最高。
 - **[[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]]**(37:08起):一个高度可定制的开源智能体工具框架，本集提到它最近在 Datadog 内部变得流行，且默认不读取大量上下文，这间接促成了上下文腐烂的发现。
+- **[[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]]**(03:10起):本集主线公司：Mario 创建的开源智能体框架，今年 2 月被 Armin 与朋友 Colin 创办的公司收编，定位为『自我可修改的智能体软件的初步概念验证』，目标是让多个智能体在多台机器上与多个人类协作。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m#^q11]]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2026-08-04-ainativedev-datadog-deleted-all-its-ai-context-it-wo|《Datadog 4000 人AI赋能实战：删掉上下文反而更好》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Seth Rosenberg]] · [[Simon Maple]] · [[Mustafa Suleyman]] · [[Guy for Germany]] · [[DeepMind]] · [[Simon Boudrien]] · [[Inflection AI]] · [[Datadog]] · [[Microsoft]]
+[[智能体]] · [[harness]] · [[Seth Rosenberg]] · [[Simon Maple]] · [[Armin Ronacher]] · [[Mustafa Suleyman]] · [[Guy for Germany]] · [[Mario Zechner]] · [[DeepMind]] · [[Simon Boudrien]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Seth Rosenberg":1,"Simon Maple":10,"Mustafa Suleyman":1,"Guy for Germany":1,"DeepMind":18,"Simon Boudrien":1,"Inflection AI":1,"Datadog":8,"Microsoft":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"harness":64,"Seth Rosenberg":1,"Simon Maple":10,"Armin Ronacher":1,"Mustafa Suleyman":1,"Guy for Germany":1,"Mario Zechner":1,"DeepMind":18,"Simon Boudrien":1}</script>
 
 <script>
 (function(){

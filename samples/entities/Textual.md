@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Textual</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Textual">TE</div><div class="pi"><h1 class="pt">Textual</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Textual">TE</div><div class="pi"><h1 class="pt">Textual</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-06-devtools-ian-coe-from-tonic-ai-synthetic-data-ai|《合成数据怎么做强化学习：Tonic AI 的方法》]]**(07:51起):本集说它是 Tonic 的去标识化产品，能识别文本中的敏感信息并做精准操作，虽然也有合成能力但核心是去标识化
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m#^q9]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Ian]] · [[Tonic AI]] · [[Fabricate]] · [[强化学习]] · [[微调]] · [[去标识化]] · [[推理]] · [[开源模型]] · [[Safe Harbor]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Ian":1,"Tonic AI":1,"Fabricate":1,"强化学习":1,"微调":36,"去标识化":1,"推理":98,"开源模型":4,"Safe Harbor":2,"智能体":478}</script>
+<script type="application/json" class="pd-epn">{"Ian":1,"Tonic AI":1,"Fabricate":1,"强化学习":1,"微调":36,"去标识化":1,"推理":98,"开源模型":4,"Safe Harbor":2,"智能体":483}</script>
 
 <script>
 (function(){

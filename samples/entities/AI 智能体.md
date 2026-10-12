@@ -45,7 +45,7 @@ unlisted: true
 
 [[开源]] · [[OpenAI]] · [[就业市场]] · [[Christian Klein]] · [[Techstars Tokyo]] · [[软技能]] · [[SAP]] · [[Founder University]] · [[Hashicorp]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"开源":40,"OpenAI":195,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"软技能":1,"SAP":4,"Founder University":1,"Hashicorp":2,"Anthropic":200}</script>
+<script type="application/json" class="pd-epn">{"开源":40,"OpenAI":197,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"软技能":1,"SAP":4,"Founder University":1,"Hashicorp":2,"Anthropic":201}</script>
 
 <script>
 (function(){

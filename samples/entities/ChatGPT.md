@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>108</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>110</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -93,6 +93,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]]**(19:40起):Ranjan 提出真正紧迫的威胁是 ChatGPT 涉及自杀、心理健康、成瘾、版权侵权这些「正在发生的问题」。
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(05:56起):本集说她此前几个月非常喜欢 ChatGPT 和 GPT 模型,「它们让我更开心」
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(21:36起):本集说 ChatGPT 下国际象棋很烂、会幻觉出棋步,这促使 Amjad 第一次亲手训练模型
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(07:20起):本集说 ChatGPT 教会了世界与模型交互是什么感觉,每周约十亿人使用;但它像一把瑞士军刀,不可能包办所有叙事,这正是初创公司的空间
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(15:01起):被列为 AI 聊天应用代表之一,作为内容信息流的对照(服务 100 亿到 1000 亿活跃参数的大模型、须自己制造每个 token)。
 - **[[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]]**(49:52起):本集用它作参照:新模型形态可能是自 ChatGPT 以来 AI 模型采用最快的一次
 - **[[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]]**(02:07起):本集说从 ChatGPT 发布之初就有软件工厂的持续闭环想法，但当时 LLM 幻觉严重、基础设施不足，行不通。
@@ -114,6 +115,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(01:37起):本集把它说成:可渲染商家 MCP 应用的智能体宿主,内建官方即时结账(instant checkout),交易会被标记为来自 ChatGPT。
 - **[[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]]**(13:44起):本集提及 ChatGPT 爆火后出现实时摄入、超大载荷、深度嵌套半结构化文本等一系列新颖的数据问题。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:02起):本集用它举例说明模型在某些事上超级可靠（从无缘无故辱骂人），并问「ChatGPT 感觉起来有多通用」。
+- **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(02:07起):本集在回顾大模型演进时提到:ChatGPT 出现后交互变成用户-模型交替的对话形式,大多数人从那时开始接触
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(27:00起):本集说可用 ChatGPT/Claude 快速完成竞品与用户调研,并让 GPT 把外行话的功能清单扩写成正式规格文档
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(02:00起):本集说 ChatGPT 是 OpenAI 最主要的产品，嘉宾统管它；桌面应用与 ChatGPT.com 网页版代码库用 30 天合并，大部分代码由 Astra 写。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
@@ -172,7 +174,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*108 集*
+*110 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -257,6 +259,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena|《AI 末日论反弹：是营销烟雾弹，还是真该警惕？》]] — 作为被讨论公司(提及)
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为概念(提及)
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为被讨论公司
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为被讨论公司
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司(提及)
 - [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]] — 作为概念(提及)
@@ -279,6 +282,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司
 - [[2026-10-06-talks-why-building-an-eval-platform-is-harder|《为什么做一个评估平台比看起来难得多》]] — 作为概念(提及)
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念(提及)
+- [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念(提及)
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
@@ -287,9 +291,9 @@ aliases: ["chat gpt", "ChatGPD"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[Cursor]] · [[LLM]] · [[护栏]]
+[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[LLM]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"OpenAI":195,"Claude":93,"Anthropic":200,"Google":70,"Codex":85,"Lenny":69,"Cursor":86,"LLM":61,"护栏":89}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"OpenAI":197,"Claude":93,"Anthropic":201,"Google":71,"Codex":85,"Lenny":69,"LLM":62,"Cursor":86,"护栏":89}</script>
 
 <script>
 (function(){

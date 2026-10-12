@@ -252,7 +252,10 @@
     "XqF-IFHBCkM": "2026-10-07-talks-redesigning-how-software-gets-built-with",
     "cf2IhzqeQH4": "2026-10-07-talks-every-ai-company-is-accidentally-buildin",
     "exiwa9QbQXI": "2026-10-07-talks-the-software-factory-from-bug-report-to",
-    "f3o0-9Dlw3E": "2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test"
+    "f3o0-9Dlw3E": "2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test",
+    "ja_7AF54OtE": "2026-10-07-talks-pi-durable-agents-that-survive-crashes-m",
+    "oWTEiYpxl80": "2026-10-07-talks-why-ai-agents-should-have-their-own-sand",
+    "toq-jyGLZDk": "2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -269,8 +272,7 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
-    "2026-10-07-talks-why-ai-agents-should-have-their-own-sand": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -359,7 +361,11 @@
     "2026-09-25-bigtech-meta-s-muse-revival-frontier-ai-under-th": "2026-10-12",
     "2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i": "2026-10-12",
     "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears": "2026-10-12",
-    "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor": "2026-10-12"
+    "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor": "2026-10-12",
+    "2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star": "2026-10-13",
+    "2026-09-17-a16z-the-next-frontier-of-ai-video-is-control": "2026-10-13",
+    "2026-09-08-mos-nfl-kickoff-the-science-gets-more-damnin": "2026-10-13",
+    "2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j": "2026-10-13"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -493,6 +499,11 @@
       "status": "非 AI 也非科技创业(Jev),不对齐",
       "title": "#768. 查理·芒格：人类误判的心理学 - 误判往往不是单一心理在作祟",
       "day": "2026-10-12"
+    },
+    "6acd4068195d838e2af0e54b": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#769. OpenAI 产品 Holly Li 畅谈 Dots：不只提效，也帮你拿回生活主动权",
+      "day": "2026-10-13"
     }
   },
   "cutoffs": {
@@ -526,7 +537,7 @@
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-10-12T09:00:00.000Z",
-    "cheekypint": "2026-04-27T11:45:00.000Z",
+    "cheekypint": "2026-10-12T19:16:55.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
     "ainativedev": "2026-10-06T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
@@ -1441,6 +1452,36 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Becki DeGraw on founder vesting, advisor equity & the 4-term-sheet play",
       "pubDate": "2026-09-10T20:27:00.000Z"
+    },
+    {
+      "id": "2026-10-12-lennys-how-meta-designed-muse-an-ai-agent",
+      "reason": "跨源重复:与库内《How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "pubDate": "2026-10-12T12:03:55.000Z"
+    },
+    {
+      "id": "2026-10-12-cheekypint-muse-wonder-zuckerberg-and-wang-s-100b-a",
+      "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+      "pubDate": "2026-10-12T19:16:55.000Z"
+    },
+    {
+      "id": "2026-09-17-a16z-the-next-frontier-of-ai-video-is-control",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "The Next Frontier of AI Video Is Control",
+      "pubDate": "2026-09-17T10:00:00.000Z"
+    },
+    {
+      "id": "2026-09-08-mos-nfl-kickoff-the-science-gets-more-damnin",
+      "reason": "题材不对味:属于❌①非AI/科技泛话题:NFL脑震荡与体育产业,与AI和科技创业无关",
+      "title": "NFL Kickoff: the science gets more damning, but the money keeps growing",
+      "pubDate": "2026-09-08T09:00:00.000Z"
+    },
+    {
+      "id": "2026-09-25-twist-a-rogue-openai-agent-hacked-australia-s",
+      "reason": "内容审查拦下([1301],连拦 2 次已放弃)",
+      "title": "A rogue OpenAI agent hacked Australia’s government. Does this matter? | E2342",
+      "pubDate": "2026-09-25T23:07:00.000Z"
     }
   ]
 }

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>61</b> 集 · <b>49</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>62</b> 集 · <b>51</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -55,6 +55,7 @@ unlisted: true
 - **[[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]]**(11:47起):本集说再巨大的模型和互联网相比也微不足道、永远需要连接检索引擎；Exa 的 token 提取还能省下游 LLM 成本。
 - **[[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]]**(06:56起):买家行为变化的第一性原因：人们在 LLM 里消化信息，「LLM 就是新的网站访客」；它有非确定性/随机因素，需要统计建模来测量可见性。
 - **[[2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin|《用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧》]]**(09:56起):本集说要把一个 LLM 放进轮牧决策循环的中心,做自主放牧:基于牛群 GPS、草高、干旱等多变量给出「下一个最佳位置」的建议、由人确认,并主张很多问题本无确定性算法可解。
+- **[[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]]**(02:28起):本集把 LLM 说成让聊天产品终于可行的技术:现在 products are really powered by LLMs,但 OpenClaw 证明模型只是拼图的一块,价值在围绕模型搭建的软件
 - **[[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]]**(12:14起):本集说对多数企业，拿到一个安全、被批准的 LLM 访问仍是最大障碍；且 LLM 应与调用它的应用和数据尽量同地部署，离 30 跳远的延迟在大规模下就是问题。
 - **[[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|《LLM 重造 DoorDash 搜索与推荐:四个基础组件》]]**(05:02起):本集的核心杠杆:LLM 提供可规模化的推理信号、生成分级相关性标签、支撑语义 ID 与记忆,但主张『在线的 LLM 调用往往不是你所需要的产品架构』。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(00:13起):本集把 LLM 作为推荐的基底:适配成既懂英语又懂领域语言的「双语模型」,直接从内容语料库解码推荐;LLM 推荐器被称为 AI 最大的消费级应用之一。
@@ -75,7 +76,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*49 条*
+*51 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -173,11 +174,15 @@ unlisted: true
 
 ![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q4]]
 
+![[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m#^q7]]
+
+![[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m#^q9]]
+
 ![[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr#^q3]]
 
 ## ② 出现在这些集
 
-*61 集*
+*62 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -223,6 +228,7 @@ unlisted: true
 - [[2026-09-16-talks-the-search-engine-for-the-agentic-web-wi|《AI 搜索量今年将超过人类：Exa 的完美搜索宣言》]] — 作为概念(提及)
 - [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|《让品牌被 AI 看见：AEO 实战与研究》]] — 作为概念
 - [[2026-09-23-talks-you-re-not-thinking-big-enough-rebuildin|《用 AI 让牛自己「搬家」：把 LLM 塞进牧场轮牧》]] — 作为概念
+- [[2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star|《从苹果回到风投：Josh Elman 谈 AI 代理、微短剧与创业者的新机会》]] — 作为概念
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为概念
 - [[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe|《LLM 重造 DoorDash 搜索与推荐:四个基础组件》]] — 作为概念
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为概念
@@ -245,9 +251,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[MCP]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Lenny]] · [[推理]] · [[Google]]
+[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[MCP]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[Lenny]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Anthropic":200,"ChatGPT":108,"MCP":86,"OpenAI":195,"Claude Code":105,"Claude":93,"Lenny":69,"推理":98,"Google":70}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"ChatGPT":110,"OpenAI":197,"MCP":88,"Claude Code":107,"Claude":93,"Google":71,"Lenny":69,"推理":98}</script>
 
 <script>
 (function(){

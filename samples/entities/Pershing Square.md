@@ -31,7 +31,7 @@ unlisted: true
 
 [[Bill Ackman]] · [[AI]] · [[颠覆风险]] · [[泡沫]] · [[永久资本]] · [[Cognition]] · [[Howard Hughes]] · [[Netflix]] · [[Brookfield]] · [[Berkshire Hathaway]]
 
-<script type="application/json" class="pd-epn">{"Bill Ackman":1,"AI":32,"颠覆风险":1,"泡沫":1,"永久资本":1,"Cognition":27,"Howard Hughes":1,"Netflix":7,"Brookfield":1,"Berkshire Hathaway":3}</script>
+<script type="application/json" class="pd-epn">{"Bill Ackman":1,"AI":32,"颠覆风险":1,"泡沫":1,"永久资本":1,"Cognition":27,"Howard Hughes":1,"Netflix":8,"Brookfield":1,"Berkshire Hathaway":3}</script>
 
 <script>
 (function(){

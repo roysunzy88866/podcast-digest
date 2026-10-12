@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>63</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>64</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -73,10 +73,11 @@ unlisted: true
 - **[[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]]**(02:20起):本集说 agent harness 其实很笨:接受上下文、发出工具调用、一个循环而已;它演化很快、会被不断替换,真正的危险在流入它的工具和上下文。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(66:49起):本集说 harness 就是代码，其强大程度只取决于背后的智能；Diogo 甚至完全拒绝 harness 概念，称其为「无马的马车」式思维。
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(00:58起):本集建议先榨干 harness(围绕模型搭的工具链和调用环境)再做模型优化,八成找上门的问题靠一个好 harness 就能解决。
+- **[[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]]**(26:08起):本集反复讨论：Py、AMP、OpenCode、Claude Code 等都是不同的 harness；两人比较各 harness 的插件架构、持久化方案，PyDurable 的架构就是让 harness 中发生的一切都变成可恢复的任务。
 
 ## ① 提到它的金句
 
-*31 条*
+*32 条*
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
@@ -140,9 +141,11 @@ unlisted: true
 
 ![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q6]]
 
+![[2026-10-07-talks-why-ai-agents-should-have-their-own-sand#^q1]]
+
 ## ② 出现在这些集
 
-*63 集*
+*64 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -207,14 +210,15 @@ unlisted: true
 - [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]] — 作为概念
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念
+- [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[护栏]] · [[MCP]] · [[推理]]
+[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[MCP]] · [[护栏]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":478,"Anthropic":200,"沙箱":95,"Claude Code":105,"评估":1,"OpenAI":195,"Codex":85,"护栏":89,"MCP":86,"推理":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"沙箱":96,"Claude Code":107,"评估":1,"OpenAI":197,"Codex":85,"MCP":88,"护栏":89,"推理":98}</script>
 
 <script>
 (function(){

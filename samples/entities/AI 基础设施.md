@@ -7,19 +7,20 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 基础设施 (infrastructure)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>39</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(25:49起):本集把它说成:人类在能源、公路、铁路和互联网之上,正在铺设的一层全新的「智能层」,这是由工业驱动而非季节性消费拉动的底层重构。
 - **[[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]]**(00:12起):本集核心主张:速度决定成败,速度由基础设施(采购、招聘、支出、绩效流程)决定,这是公司的操作系统。
 - **[[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]]**(00:12起):本集说采购、招聘、预算、安全、质量等支持系统就是公司的操作系统,基础设施决定速度,速度决定成败
+- **[[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j|《11亿美元投向AI的“钢筋水泥”:风投为什么重新爱上硬件》]]**(00:43起):本集核心论点:过去 30 年硬件对风投基本是『不可投资的品类』,但 AI 算力和数学密集程度远超上一代,SaaS 时代的『穷人版』基础设施必须为 AI 时代重建。
 - **[[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]]**(19:35起):本集核心经验:在大型企业里,光把最新工具和模型发给工程师不够,必须为智能体构建正确的基础设施让它们在企业环境内运作,否则发挥不了作用
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(48:40起):本集说 AI 的基础设施「就是错的」，如同云计算早期一样，从芯片、底层系统到模型训练方式都会被推倒重建，是未来 8-12 个月最大的机会
 
 ## ① 提到它的金句
 
-*37 条*
+*39 条*
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q3]]
 
@@ -52,6 +53,10 @@ unlisted: true
 ![[2026-08-13-sed-rebuilding-the-cloud-for-ai-agent-code#^q6]]
 
 ![[2026-08-20-talks-the-last-human-code-review-building-trus#^q5]]
+
+![[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j#^q3]]
+
+![[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j#^q9]]
 
 ![[2026-09-03-talks-from-coding-to-knowledge-work-agents-kar#^q1]]
 
@@ -97,11 +102,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为概念
 - [[2026-08-07-talks-max-hodak-average-is-not-good-enough|《Speed 就是护城河：Science CEO 谈深科技公司的基础设施》]] — 作为概念
 - [[2026-08-10-yc-max-hodak-how-startups-build-speed-e3n81|《Science 公司创始人 Max Hodak:深科技创业的成败,90% 看基础设施》]] — 作为概念
+- [[2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j|《11亿美元投向AI的“钢筋水泥”:风投为什么重新爱上硬件》]] — 作为概念
 - [[2026-09-09-talks-500-skills-zero-fine-tuning-linkedin-s-p|《LinkedIn 怎么让编码智能体真正读懂内部系统》]] — 作为概念
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为概念
 
@@ -109,9 +115,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[NVIDIA]] · [[Max Hodak]] · [[OpenAI]] · [[Science]] · [[Neuralink]] · [[Helix]] · [[迭代]] · [[BCI]]
+[[智能体]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Max Hodak]] · [[a16z]] · [[数据中心]] · [[Science]] · [[Neuralink]] · [[Helix]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":200,"智能体":478,"NVIDIA":69,"Max Hodak":2,"OpenAI":195,"Science":2,"Neuralink":3,"Helix":2,"迭代":3,"BCI":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":483,"NVIDIA":70,"Anthropic":201,"OpenAI":197,"Max Hodak":2,"a16z":21,"数据中心":25,"Science":2,"Neuralink":3,"Helix":2}</script>
 
 <script>
 (function(){

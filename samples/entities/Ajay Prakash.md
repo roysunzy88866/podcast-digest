@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LinkedIn":6,"编码智能体":32,"MCP":86,"剧本":4,"上下文工程":17,"AI 基础设施":5}</script>
+<script type="application/json" class="pd-epn">{"LinkedIn":6,"编码智能体":32,"MCP":88,"剧本":4,"上下文工程":17,"AI 基础设施":6}</script>
 
 <script>
 (function(){

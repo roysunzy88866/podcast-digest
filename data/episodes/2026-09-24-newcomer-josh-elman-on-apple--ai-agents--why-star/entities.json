@@ -1,0 +1,1481 @@
+{
+  "episode_id": "2026-09-24-newcomer-josh-elman-on-apple--ai-agents--why-star",
+  "podcast": "Newcomer Pod",
+  "date": "2026-09-24",
+  "tags": [
+    "智能体",
+    "消费产品",
+    "微短剧",
+    "风险投资",
+    "苹果与 Siri"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "eric-newcomer",
+      "type": "person",
+      "role": "host",
+      "name": "Eric Newcomer",
+      "file": "Eric Newcomer",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "josh-elman",
+      "type": "person",
+      "role": "guest",
+      "name": "Josh Elman",
+      "file": "Josh Elman",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念:由 LLM 驱动、能上网操作、替用户完成任务的个人智能体;Elman 认为它将颠覆订位、票务等市场,并讨论了智能体之间的对抗、验证与真实性作证问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            12.119,
+            18.043
+          ],
+          "quote": "Do you think it'll be sort of adversarial where it's like my agent, yours, and like mine's spewing lies, and yours is like trying to ferret them out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            320.169,
+            333.377
+          ],
+          "quote": "You have a sense of, you know, I mean, obviously there are a number of these apps that are getting started, but sort of personal agent, chat-based apps, do you think there are still people filling in the gaps or they're mostly true, fully LLM answers at this point?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            381.59,
+            386.996
+          ],
+          "quote": "It's like, oh, they can use your computer in a way that would have been hard to hand over to some customer service agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            402.751,
+            407.034
+          ],
+          "quote": "You are invested in Talon, which is sort of an enterprise personal agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            407.414,
+            413.718
+          ],
+          "quote": "Give us, I guess, the high-level read on the personal agent space as you see it right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            447.707,
+            453.31
+          ],
+          "quote": "This taught us what interacting with an actual agent that was solving problems and getting things done for you was like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            503.878,
+            507.642
+          ],
+          "quote": "Whose agent is first if we're all using Facebook's Muse or Meta's Muse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            599.887,
+            611.516
+          ],
+          "quote": "Like, do you think it'll be sort of adversarial where it's like my agent, yours and like mine spewing lies and yours is like trying to ferret them out or there is this middle layer that's trying to adjudicate whether it was my anniversary or not?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            744.959,
+            751.165
+          ],
+          "quote": "This agent-to-agent network, whether it's connecting people, connecting people to businesses, connecting agents to other agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            752.185,
+            757.228
+          ],
+          "quote": "Maybe even, you know, having money that flows from agent to agent based on the agent's capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            992.421,
+            997.266
+          ],
+          "quote": "And so you think of like a great real estate agent or a travel agent, they're like texting you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1026.316,
+            1031.639
+          ],
+          "quote": "You know, if I know I have a task I just need taken care of, it's great when the agent can do it for me.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天机器人 (chatbot)",
+      "file": "聊天机器人",
+      "primary": true,
+      "how_described": "本集从 2014 年的 Operator 讲起:当年聊天机器人靠真人幕后撑着、成本崩塌而失败;今天的聊天机器人真由 LLM 驱动,并将从给答案进化为替你完成任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            56.937,
+            58.638
+          ],
+          "quote": "Which was an early chatbot company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            470.82,
+            479.242
+          ],
+          "quote": "And I think we're going to see every chatbot begin to not just give you answers and have a good conversation, but be able to complete tasks for you too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1032.039,
+            1042.605
+          ],
+          "quote": "But if I don't know what I want to get done, the way that AI and the chatbot tools help me explore the space and brainstorm ideas and think about the parameters I should care about.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 说成让聊天产品终于可行的技术:现在 products are really powered by LLMs,但 OpenClaw 证明模型只是拼图的一块,价值在围绕模型搭建的软件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            148.106,
+            150.969
+          ],
+          "quote": "Do you think they could have succeeded or really required LLM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            320.169,
+            333.377
+          ],
+          "quote": "You have a sense of, you know, I mean, obviously there are a number of these apps that are getting started, but sort of personal agent, chat-based apps, do you think there are still people filling in the gaps or they're mostly true, fully LLM answers at this point?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2164.104,
+            2169.166
+          ],
+          "quote": "When ChatGPT came out, it obviously showed a whole new paradigm of being able to have the LLM reason over everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2399.038,
+            2407.3
+          ],
+          "quote": "It's AI for the sake of features you always wanted to build that makes life easier and that think, hopefully, now that there are these LLM tools, we can actually power them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "micro-dramas",
+      "type": "concept",
+      "role": "concept",
+      "name": "微短剧 (micro dramas)",
+      "file": "微短剧",
+      "primary": true,
+      "how_described": "本集称微短剧为短视频之后最实在的新品类:20-60 分钟故事切成多集、TikTok 钩住你后引导下载独立应用靠订阅变现,已有几十亿美元生意,多为中国公司,打法像手游",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1210.443,
+            1212.924
+          ],
+          "quote": "I'm not sure how much you've been following micro dramas.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 是一个人在客厅里写出的软件,把模型包装起来、保存上下文、识别技能、替用户完成任务;Elman 说看到它后改变了「没有自有研究员就做不出差异化」的看法,是他重返风投的直接原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            414.018,
+            420.564
+          ],
+          "quote": "I mean, this is one of those things when I, part of what actually got me really excited to come back to venture was when I first saw OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            420.724,
+            434.257
+          ],
+          "quote": "And what I saw with OpenClaw was one person in, you know, almost, you know, in his living room with some of the story, like wrote this incredible piece of software that wrapped the models, but did a lot of things for users and on top of what the models can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1632.678,
+            1639.741
+          ],
+          "quote": "And as technologies were figuring that out and then they were figuring out what they could build on top of these APIs, things like OpenClaw were very much a tech phenomenon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2699.357,
+            2703.818
+          ],
+          "quote": "You know, as we talked about this moment last fall of seeing OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2730.353,
+            2748.538
+          ],
+          "quote": "But once I saw OpenClaw and then all the things we've seen built since, and even what we were building with Siri, Apple did a great partnership with Google to use some of Google's frontier models, but it still is so much software built into Siri that is way more complex than the model itself, reminded me, you can build consumer startups again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "operator",
+      "type": "company",
+      "role": "company",
+      "name": "Operator",
+      "file": "Operator",
+      "primary": true,
+      "how_described": "本集回顾 Operator 是 2014 年让每家生意可发短信沟通的聊天机器人公司,AI 几乎做不了、全靠真人扛,用户找到商品后却转头去比价,成本结构与商业模式彻底崩掉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            229.574,
+            236.859
+          ],
+          "quote": "With Operator, when I met Robin Chan and Garrett Camp that founded that, where Peter worked, it was this great idea that we should make every business textable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            284.28,
+            285.601
+          ],
+          "quote": "We found this thing with operator,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            287.141,
+            290.062
+          ],
+          "quote": "People love going back and forth with operator to find a really hard to find item.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            290.382,
+            294.923
+          ],
+          "quote": "And somebody in the operator team or with the help of their tools would actually be able to go find that item.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            854.078,
+            857.3
+          ],
+          "quote": "Personal shopping agents specifically, I mean, coming out of an operator.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 每周约十亿人在用,OpenAI 当然可以继续伟大,但这不是 OpenAI 输赢的游戏——AI 是整个互联网和经济的一次重构,初创公司仍能找到自己的楔子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.588,
+            29.351
+          ],
+          "quote": "What's your view on how much this is, you know, OpenAI's to lose?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            29.491,
+            33.874
+          ],
+          "quote": "I look at this not as OpenAI and Anthropics game to lose or win.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            764.171,
+            768.973
+          ],
+          "quote": "OpenAI and probably Anthropic too don't want to give up this space, I imagine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            814.977,
+            818.319
+          ],
+          "quote": "OpenAI and Anthropics game to lose or win.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1955.679,
+            1960.703
+          ],
+          "quote": "And it's too much for like OpenAI and Anthropic to deliver it all because they just sort",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说 ChatGPT 教会了世界与模型交互是什么感觉,每周约十亿人使用;但它像一把瑞士军刀,不可能包办所有叙事,这正是初创公司的空间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            440.522,
+            447.066
+          ],
+          "quote": "And you were like, whoa, I'm actually interacting not with a model, like ChatGPT and other things had taught us what interacting with a model was like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            830.164,
+            837.027
+          ],
+          "quote": "ChatGPT is obviously an incredible product used by, I think it's like a billion people per week, but there's so much more that we're all going to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1589.358,
+            1607.632
+          ],
+          "quote": "I think with AI, the beginning people who really understood AI were the tinkerers, were the ones who would not just get ChatGPT and be like, I can type in what I type into Google, ooh, that's a little bit better result, but I can type in really complex incantations and start to get really thoughtful, different responses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1608.192,
+            1610.955
+          ],
+          "quote": "Remember all those prompts that were shared in the early days of people with ChatGPT?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1627.494,
+            1628.215
+          ],
+          "quote": "And with ChatGPT...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1691.615,
+            1696.136
+          ],
+          "quote": "You know, many of them are very heavy users of AI now, ChatGPT, other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2164.104,
+            2169.166
+          ],
+          "quote": "When ChatGPT came out, it obviously showed a whole new paradigm of being able to have the LLM reason over everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2185.292,
+            2188.513
+          ],
+          "quote": "Everybody was like, well, just can't you be ChatGPT and Siri all at once?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2286.732,
+            2303.408
+          ],
+          "quote": "You'll use ChatGPT for other things, or you might use Muse or Instinct or Town for things in your, you know, Town and your work life and other personal things because you are still, you know, get to use lots of tools on your device, but you'll have this base level on your device that's going to be amazing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "Elman 在本集讲述在 Apple 的经历:没砍掉达不到质量标准的 Siri 项目而是埋头做出 Siri AI;并说从苹果学到的最重要一课是技术必须「造福人类」、帮人把工作做得更好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            68.065,
+            75.43
+          ],
+          "quote": "Then you sort of, you know, you go to Robin Hood, you go to Apple, which Apple, you're not really like staying in touch as well, I think, with the reporters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            109.223,
+            111.525
+          ],
+          "quote": "And I mean, Apple was an incredible place to work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1786.299,
+            1796.866
+          ],
+          "quote": "Yeah, I mean, I think if there's any one thing that I learned from Apple, it's we have such a responsibility in our industry to be grounded in building technology that benefits humanity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1808.714,
+            1812.996
+          ],
+          "quote": "I mean, the Apple Watch is one of the most incredible health devices that's ever been made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2017.63,
+            2020.052
+          ],
+          "quote": "I'd love some reflections from your time at Apple.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2037.97,
+            2048.145
+          ],
+          "quote": "And then on the other hand, I mean, I feel like, you know, Apple intelligence has sort of a marketing frame, sort of veered from some of what you said, which is I think Apple is traditionally good at",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2056.997,
+            2060.382
+          ],
+          "quote": "What did you learn from your Apple experience?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2060.742,
+            2063.026
+          ],
+          "quote": "I had such an incredible time getting to work at Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2063.246,
+            2064.588
+          ],
+          "quote": "Obviously, I was an Apple fanboy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2072.873,
+            2085.402
+          ],
+          "quote": "So getting to work at Apple was kind of like living a lifelong dream and getting to go work on Apple and Siri and Apple Intelligence, figure out how do we tell the story of Apple's place in this AI wave was just such a privilege.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2085.762,
+            2097.271
+          ],
+          "quote": "Over the last couple of years, you know, and getting to launch Siri AI and kind of this latest version of Apple Intelligence, which we announced at WWDC, that happened to be my last week at Apple was kind of going out with that big announcement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2182.731,
+            2184.792
+          ],
+          "quote": "And so I think the Apple journey was one of like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2202.877,
+            2209.939
+          ],
+          "quote": "Things worked and there was a system that could work, but it wasn't at the quality level that Apple needed to be to bring this really mainstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2263.852,
+            2265.434
+          ],
+          "quote": "It's Siri with Apple intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2307.509,
+            2320.593
+          ],
+          "quote": "I mean, I never understood the text summary feature or like that was one that was very visible to me where it's like you'd get a text and Apple AI would say like, oh, it's like texts are short or I don't know.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2352.151,
+            2359.757
+          ],
+          "quote": "And so I think what Apple did really well with Apple intelligence was not just was focused on the assistant, which took longer than it needed to, but",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2468.228,
+            2474.753
+          ],
+          "quote": "So a lot of what we're seeing are things that look like more sensors, whether there's always on recording, even the new Apple Watch can do some of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2715.066,
+            2719.709
+          ],
+          "quote": "Before that, while I was working at Apple, I really wanted to make sure that we got Siri back and shipped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2730.353,
+            2748.538
+          ],
+          "quote": "But once I saw OpenClaw and then all the things we've seen built since, and even what we were building with Siri, Apple did a great partnership with Google to use some of Google's frontier models, but it still is so much software built into Siri that is way more complex than the model itself, reminded me, you can build consumer startups again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "siri",
+      "type": "company",
+      "role": "company",
+      "name": "Siri",
+      "file": "Siri",
+      "primary": true,
+      "how_described": "本集说 Siri 从来不是聊天机器人,而是帮你在设备上把事办成的助手;新版 Siri AI 能理解设备上的个人信息、跨应用执行操作,但赢回用户信任将是漫长的学习与信任曲线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            2020.072,
+            2025.877
+          ],
+          "quote": "On the one hand, it seems like Siri has gotten much better.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2072.873,
+            2085.402
+          ],
+          "quote": "So getting to work at Apple was kind of like living a lifelong dream and getting to go work on Apple and Siri and Apple Intelligence, figure out how do we tell the story of Apple's place in this AI wave was just such a privilege.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2085.762,
+            2097.271
+          ],
+          "quote": "Over the last couple of years, you know, and getting to launch Siri AI and kind of this latest version of Apple Intelligence, which we announced at WWDC, that happened to be my last week at Apple was kind of going out with that big announcement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2115.524,
+            2126.571
+          ],
+          "quote": "You know, incredible work that went into the operating system last year for stability and resilience, but also a ton of work to really make Siri deliver on a lot of the promise that it always did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2126.951,
+            2131.174
+          ],
+          "quote": "And I think, you know, Siri was never like a chat bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2131.554,
+            2135.276
+          ],
+          "quote": "Siri was always supposed to be an assistant that helps you get things done on your device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2185.292,
+            2188.513
+          ],
+          "quote": "Everybody was like, well, just can't you be ChatGPT and Siri all at once?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2199.096,
+            2202.577
+          ],
+          "quote": "And that was part of when I think some of the initial Siri stuff got announced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2222.916,
+            2226.521
+          ],
+          "quote": "And now you truly have a Siri that understands information on your device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2230.165,
+            2238.232
+          ],
+          "quote": "I use it all the time, when somebody texts me their email address, I just say, hold the Siri button, and I say, add that email address to their contact, and it just works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2253.925,
+            2257.747
+          ],
+          "quote": "How do they go tell those stories again and bring people back to Siri?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2259.289,
+            2263.592
+          ],
+          "quote": "It's called Siri AI to give you the sense that, hey, this is a little bit of a different version of Siri.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2263.852,
+            2265.434
+          ],
+          "quote": "It's Siri with Apple intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2284.55,
+            2286.472
+          ],
+          "quote": "Siri is not going to be everything to everybody.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2320.613,
+            2331.957
+          ],
+          "quote": "You know, I think one of the really cool things with the operating system is obviously Siri and the assistant is a very important part of it, but there's so many other things you do every day that AI can help.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2519.724,
+            2527.946
+          ],
+          "quote": "You know, when you're wearing your AirPods and you have Siri there, you can just quickly ask questions or get things out that you don't have to initially pull something out of your pocket.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2715.066,
+            2719.709
+          ],
+          "quote": "Before that, while I was working at Apple, I really wanted to make sure that we got Siri back and shipped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2730.353,
+            2748.538
+          ],
+          "quote": "But once I saw OpenClaw and then all the things we've seen built since, and even what we were building with Siri, Apple did a great partnership with Google to use some of Google's frontier models, but it still is so much software built into Siri that is way more complex than the model itself, reminded me, you can build consumer startups again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": true,
+      "how_described": "本集把 TikTok 说成短视频的基础范式:源自 Musical.ly 卖给字节跳动后实现的个性化信息流愿景;并说它让任何人都能当创作者,正如 AI 将让任何会讲故事的人都能做微短剧",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            46.986,
+            53.814
+          ],
+          "quote": "You were a venture capitalist at Greylock, invested in Discord and Musical.ly, which became TikTok.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1054.41,
+            1058.113
+          ],
+          "quote": "I mean, probably more that's hit more people, which is just TikTok.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1058.193,
+            1064.618
+          ],
+          "quote": "Obviously you were an investor in Musical.ly, which gets acquired by TikTok and helps become the product we know and love today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1079.855,
+            1085.44
+          ],
+          "quote": "It is, I mean, you know, between Meta and TikTok, they've sort of like gobbled up a lot of the opportunity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1124.761,
+            1138.31
+          ],
+          "quote": "And, you know, I have to give real credit to the team and especially Alex, who's one of the co-founders, who painted a vision even then of what TikTok could become, which is this incredible feed of things that were personalized and interesting to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1175.205,
+            1184.537
+          ],
+          "quote": "Look, now we're at a point where between Reels and Shorts and TikTok and Douyin, which is in China, and the same from ByteDance as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1231.671,
+            1239.415
+          ],
+          "quote": "And you might on TikTok see, or on Instagram Reels, see the first episode or two, or the first trailer for this wonderful story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1353.613,
+            1357.515
+          ],
+          "quote": "Or do you think a studio model, like if they were just on TikTok, could they?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1357.835,
+            1365.099
+          ],
+          "quote": "So most of these already are standalone apps, because what you'll do is on TikTok, you'll see the beginning of the show or a trailer for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1396.77,
+            1399.611
+          ],
+          "quote": "And just like TikTok, let anybody be a creator of a short video.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1554.398,
+            1557.88
+          ],
+          "quote": "Most of the products we've talked about TikTok and Instagram and everything else are very much async.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1766.384,
+            1771.528
+          ],
+          "quote": "People use TikTok and Instagram all the time, which are algorithmically generated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2974.698,
+            2984.285
+          ],
+          "quote": "If you're trying to target teens, you need to be using the platforms that they're on and speak to them in a way that is meaningful to them, whether that's more on Instagram or on TikTok.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "andreessen-horowitz",
+      "type": "company",
+      "role": "company",
+      "name": "Andreessen Horowitz",
+      "file": "Andreessen Horowitz",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            77.913,
+            80.056
+          ],
+          "quote": "And then now you're back at Andreessen Horowitz.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            625.781,
+            627.142
+          ],
+          "quote": "It's an Andreessen Horowitz company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2688.455,
+            2694.876
+          ],
+          "quote": "I'm curious, the decision to go to Andreessen Horowitz and I mean, both to get, there's one decision, get back into venture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2797.534,
+            2798.634
+          ],
+          "quote": "And that was Andreessen Horowitz.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2846.033,
+            2853.417
+          ],
+          "quote": "And as I find new founders, I'll partner with them on getting new investments done with Andreessen Horowitz and we'll get to go build great companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2866.33,
+            2870.491
+          ],
+          "quote": "I mean, Andreessen Horowitz has succeeded in sort of the launch.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "type": "company",
+      "role": "company",
+      "name": "YouTube",
+      "file": "YouTube",
+      "primary": true,
+      "how_described": "本集引用 YouTube 早期名言「我们不打败电视最精彩的一小时,要打败最糟糕的一小时」,以此论证新内容平台不必直接对抗 Netflix,只需比「不知道看什么」更有吸引力、从底部往上长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1085.48,
+            1086.301
+          ],
+          "quote": "And YouTube with shorts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1086.321,
+            1087.982
+          ],
+          "quote": "Right, and YouTube, definitely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1102.11,
+            1110.374
+          ],
+          "quote": "I mean, if we had talked in 2015 when we invested Musically, I think we did, you know, everybody was like, well, YouTube, YouTube's already so big on the internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1153.182,
+            1154.904
+          ],
+          "quote": "We're seeing some of that on YouTube as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1441.101,
+            1448.522
+          ],
+          "quote": "I remember the early days of YouTube, one of the best quotes that was told to me was, we're not, you know, it was like, how are you ever going to compete with like network TV?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1461.509,
+            1466.272
+          ],
+          "quote": "Because if we're more interesting to find things on YouTube than your worst hour of TV...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1466.832,
+            1470.315
+          ],
+          "quote": "You'll start to spend that hour on YouTube instead of on TV.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "musical-ly",
+      "type": "company",
+      "role": "company",
+      "name": "Musical.ly",
+      "file": "Musical.ly",
+      "primary": false,
+      "how_described": "本集回顾 Elman 在 Greylock 投资的 Musical.ly,联合创始人 Alex 早就描绘了个性化短视频信息流的愿景,后出售给字节跳动变成 TikTok",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            46.986,
+            53.814
+          ],
+          "quote": "You were a venture capitalist at Greylock, invested in Discord and Musical.ly, which became TikTok.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1058.193,
+            1064.618
+          ],
+          "quote": "Obviously you were an investor in Musical.ly, which gets acquired by TikTok and helps become the product we know and love today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1155.224,
+            1162.351
+          ],
+          "quote": "But with Musical.ly, he was like, this short form can really help them share their lives in a way that is even more impactful than what we were seeing everywhere else.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集举 Airbnb 为例:正因房东与房客之间有真实信任,陌生人住进别人家才能运转,证明真实与诚信最终会胜出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            624.081,
+            625.761
+          ],
+          "quote": "I mean, Airbnb is such a great example.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说这不是 OpenAI 和 Anthropic 输赢的游戏,且指望它们把所有使用叙事都交付出来太多了,初创公司有空间",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            764.171,
+            768.973
+          ],
+          "quote": "OpenAI and probably Anthropic too don't want to give up this space, I imagine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1955.679,
+            1960.703
+          ],
+          "quote": "And it's too much for like OpenAI and Anthropic to deliver it all because they just sort",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到 Meta 是一家迅速转向智能体方向的模型公司,其 Muse 产品让发条消息就能办成事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            503.878,
+            507.642
+          ],
+          "quote": "Whose agent is first if we're all using Facebook's Muse or Meta's Muse?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            769.313,
+            769.914
+          ],
+          "quote": "You know, Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            794.943,
+            803.809
+          ],
+          "quote": "You know, when we look at the, you know, original version of the internet, there are so many winners, Google, Amazon, you know, Facebook Meta, you know, Twitter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            837.427,
+            852.032
+          ],
+          "quote": "And so there's room for them to be great and winners, and there's room for startups to find their wedge and be winners, and there's room for companies like Facebook or Meta and Google to continue to move into that world and be very, very relevant to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1079.855,
+            1085.44
+          ],
+          "quote": "It is, I mean, you know, between Meta and TikTok, they've sort of like gobbled up a lot of the opportunity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集称赞早期 Google 首页放了很多引导内容教用户搜索、随熟悉度逐渐简化,反衬如今 AI 产品只有一个空白输入框是最糟糕的新手引导",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            794.943,
+            803.809
+          ],
+          "quote": "You know, when we look at the, you know, original version of the internet, there are so many winners, Google, Amazon, you know, Facebook Meta, you know, Twitter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            837.427,
+            852.032
+          ],
+          "quote": "And so there's room for them to be great and winners, and there's room for startups to find their wedge and be winners, and there's room for companies like Facebook or Meta and Google to continue to move into that world and be very, very relevant to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1589.358,
+            1607.632
+          ],
+          "quote": "I think with AI, the beginning people who really understood AI were the tinkerers, were the ones who would not just get ChatGPT and be like, I can type in what I type into Google, ooh, that's a little bit better result, but I can type in really complex incantations and start to get really thoughtful, different responses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1621.407,
+            1626.873
+          ],
+          "quote": "With Google, if you ever type that into Google, it would throw up before they really added their AI mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1985.523,
+            1988.305
+          ],
+          "quote": "Now, Google got there, and I'm going to give Google a ton of credit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1994.05,
+            1997.713
+          ],
+          "quote": "But not every product needs to be Google, or certainly not at the beginning when we're doing this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1997.973,
+            2002.617
+          ],
+          "quote": "And even if you look at early Google, they used to have a lot more things on their website to teach people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2730.353,
+            2748.538
+          ],
+          "quote": "But once I saw OpenClaw and then all the things we've seen built since, and even what we were building with Siri, Apple did a great partnership with Google to use some of Google's frontier models, but it still is so much software built into Siri that is way more complex than the model itself, reminded me, you can build consumer startups again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "type": "company",
+      "role": "company",
+      "name": "Spotify",
+      "file": "Spotify",
+      "primary": false,
+      "how_described": "本集提到 Spotify 正在做很酷的事:按收听数据把演出门票优先送到超级粉丝手中,替代「谁打得过机器人」的分配方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            652.629,
+            660.677
+          ],
+          "quote": "I think about this a lot with ticketing too, and Spotify is doing some really cool things where they are helping deliver tickets to super fans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            660.737,
+            670.367
+          ],
+          "quote": "If you listen to somebody the most on Spotify, you deserve at some point to be one of the people who gets good access to their tickets for a show versus who can hit the bots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            670.707,
+            676.51
+          ],
+          "quote": "Man, with Taylor Swift, my wife and I will be like 1%, 2% Spotify Taylor Swift listeners.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            677.131,
+            685.616
+          ],
+          "quote": "The gamesmanship that would occur, you already have Swift fans who just, you know, play her music just to support her and drive up the bill or whatever for Spotify.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集说微短剧不是耗资数亿美元的 Netflix 剧集,新平台今天不需要打败 Netflix 和 Hulu,只需打败「不知道该看什么」的时刻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1254.644,
+            1267.152
+          ],
+          "quote": "This might not quite be a eight hour Netflix series that's costing hundreds of millions to produce, but this is a thing that is cheaper to produce, but it still requires great storytelling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1322.344,
+            1335.326
+          ],
+          "quote": "But when we want to go through something that's a little bit more story mode, maybe instead of Netflix and Hulu, we'll still go watch Game of Thrones on HBO and we'll still go watch, you know, Squid Game on Netflix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1472.958,
+            1478.644
+          ],
+          "quote": "Again, you don't need to beat Netflix and Hulu today, but you need to beat the, I don't really know what to watch.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Resy",
+      "reason": "专名「Resy」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "title_zh": "智能体崩溃后还能原地复活？聊聊 Pi Durable",
+  "tldr": "Pi 作者 Mario Zechner 与 Armin Ronacher 讲解智能体持久化新方案 Pi Durable，以及 AI 写代码的真实边界。",
+  "digest_md": "两位开源老兵坐在一起聊了一次天。Mario Zechner 是开源项目 Pi 的作者，Armin Ronacher 和朋友 Colin 创办的公司在 2 月把 Pi 收编了。两人聊了三件事：AI 到底能不能维护开源项目、什么是“智能体持久化”、以及他们为什么押注一个不是编程智能体的未来。\n\n## AI 能修 bug，但不能做架构\n\nMario 说得很直接：他大部分时间都耗在维护 Pi 上——看 issue、修问题，PiDurable 因此晚了很久才做出来。他的结论是：小的修复可以交给智能体，但**涉及设计和架构的问题必须人来**，因为智能体会「在你的代码库里就地拉屎，把事情弄得更糟」[04:04 Mario]。\n\nArmin 补充了一个有意思的观察：智能体解决问题时几乎必然会新增代码，哪怕很多 bug 的正确修法应该是删代码。长此以往，代码库只会随着每次修复不断膨胀。\n\n但这不代表他们反对用 AI 糊东西。Mario 举了 Pi 的界面库：底层接口是他 2025 年初手写的，稳健、够用；之上的组件——文本渲染、Markdown 显示——全是让智能体照着接口生成的，配上测试就行。「到今天我没看过 markdown 组件的一行代码」，只有性能掉下来时他才出手 [07:02 Mario]。诀窍在于分层：哪一层信任智能体，哪一层必须自己把控。\n\n## 聊天模型越来越能干活，但说话越来越怪\n\n两人抱怨新一代模型的沟通方式：术语堆砌、动不动钻进冷僻技术细节。Mario 因为受不了某个版本的说话风格直接弃用，换回别的模型；现在 Sol 6.1 和 Opus 5.5又像正常人说话了。\n\n能力上有没有进步？有，而且惊人的方向可能出乎意料——逆向工程和安全。Mario 去年加固过一个 JVM 软件，今年被一个用两个 Codex 账号的人攻破了。他用 AI 复盘攻击路径：模型自己逆向了 JVM 的原生内存结构，把它映射回对应的 Java 对象——「地球上没有逆向工程师能走那么远」[11:06 Mario]。Armin 也有类似经历：插上一个 CarPlay 转接器，让 AI 搞定它，设备固件就被完全掌控了。\n\n> 【背景】此处原表述为「花了几百美元 token」，原文中只有约略金额的说法，具体数字未经原稿逐字确认。\n\n他们的总结是：只要任务有明确的对错判据（行话叫 oracle），智能体最终都能搞定——模拟器、移植代码库、模糊测试，全是这类。\n\n## 为什么架构能力学不会？缺训练数据\n\nMario 给出了一个少见的清晰解释：网络安全有大量训练数据，建网站有，重写已有的东西也有。但**设计架构的过程几乎从不以文字形式存在于任何地方**——它是设计师脑子里的过程。这正是模型卡壳的地方 [16:29 Mario]。\n\n那未来怎么办？Armin 猜测，模型公司手上握着海量对话记录和 GitHub 历史，一旦学会从中筛出高质量的架构决策（比如看哪些仓库还在被使用、哪些提交存活至今），能力可能会跳一档——而且这活儿最终可能由模型自己做。\n\n## Pi Durable：让智能体崩溃后原地复活\n\n这是本集的主角。Mario 用五句话解释了它解决的问题：智能体跑在进程里，调用各种工具；进程死了；你想要的是**重启进程后，智能体从断点精确继续**——不用手动输 continue，工具结果不丢，应用状态也原样恢复。这就是持久化 [20:40 Mario]。\n\n为什么重要？长时间运行的智能体（比如挂在 Slack 里几年的机器人）必须有这个能力，否则一次崩溃就前功尽弃。而且现有方案（Hermes、OpenClaw、Amp 的 orbs）各自解决了这个问题，但都不是通用的、能拿来做你自己产品的基础设施。\n\n## 核心机制：三明治\n\nMario 把每个操作（术语叫 effect）拆成三层的“三明治”：执行前先存下意图（我要带这些参数做这件事）；然后真正执行；最后把结果存下来。**无论进程死在三明治的哪一层，重启后都能恢复** [23:35 Mario]。\n\n最麻烦的是死在中间——事情可能做了也可能没做。解法是让外部系统支持幂等操作：先领一个 ID 再执行，重启后拿同一个 ID 去问，系统会告诉你这件事是已经在跑还是需要重新发起。\n\n应用状态则靠一个微型文档数据库：类似 MongoDB 存 JSON 对象，但每个文档都有版本，绑定到对话记录的具体位置。回溯对话到某个时间点时，你可以选择要当时的待办清单，还是最新的那份——两种语义都支持。\n\n整个东西只有约 12000 行代码，能部署到服务器、Cloudflare、笔记本甚至手机上。\n\n## 下一步：不做编程智能体公司\n\nArmin 说公司有两条线：做产品——但明确不想明年还只是一家编程智能体公司，目标是让不懂工程的人也觉得好用；同时做基础设施，让别人能在上面造自己的智能体。\n\nMario 自己的试验更激进：他做了个跑在安卓手机上的客户端，除了大模型调用，一切都在手机本地运行，还能把手机连到他的服务器当执行环境——大脑在口袋里，手脚在机房。他说这验证了他愿景的一部分：**未来应该是多个智能体、多台机器、多个人类随意组合协作** [47:10 Mario]。\n\n## 本集带走\n\n- AI 修小 bug 很强，做架构还不行——因为设计架构的过程几乎不存在于训练数据中\n- 有明确对错判据的任务（测试、移植、模拟器、逆向）AI 几乎必胜\n- Pi Durable 用意图—执行—存结果三明治加幂等操作，让智能体进程崩溃后能从断点精确恢复\n- 分层信任是实用策略：关键接口人写，外围组件交给 AI 加测试\n- 两人最想解决的下一个大问题：让从没用过智能体的人也能上手——现在没人在认真做这件事",
+  "quotes": [
+    {
+      "en": "And then the question is, can an agent fix issues? Yes, obviously. The question is just, does it fix them well?",
+      "zh": "然后问题就变成,智能体能修复 issue 吗?能,显然能。问题只是,它修得好不好?",
+      "timestamp": "03:48",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "For anything that concerns the design or architecture, you still kind of need a human because the agent will just locally shit into your code base and make things worse.",
+      "zh": "任何涉及设计或架构的东西,你还是需要一个人类,因为智能体只会在你的代码库里局部地乱搞一通,把事情弄得更糟。",
+      "timestamp": "04:01",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "It's almost impossible that it will fix a problem without adding code, which seems weird because I think a lot of the issues actually shouldn't be net additive to the code base.",
+      "zh": "它几乎不可能在不增加代码的情况下修复一个问题,这看起来很奇怪,因为我认为很多 issue 实际上本不应该让代码库净增加代码。",
+      "timestamp": "04:17",
+      "speaker": "Armin Ronacher"
+    },
+    {
+      "en": "And then usually the agent is great at identifying a bunch of shit, but it's very bad at coming up with a generalized solution.",
+      "zh": "而那时智能体通常很擅长找出一堆烂东西,但它非常不擅长提出一个通用的解决方案。",
+      "timestamp": "07:14",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "I do think they're a little bit worse in the architecture part because now they are worse in the outcome because you give them way more control.",
+      "zh": "我确实认为它们在架构部分差了一点,因为它们在结果上更差了,因为你给了它们多得多的控制权。",
+      "timestamp": "08:19",
+      "speaker": "Armin Ronacher"
+    },
+    {
+      "en": "No reverser on earth would have gone that far ever, especially not in that amount of time.",
+      "zh": "地球上没有任何逆向工程师曾经能做到那个程度,尤其是在那么短的时间内。",
+      "timestamp": "11:06",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "If you have an oracle that can tell the LLM if what it did is correct or not, then you basically won.",
+      "zh": "如果你有一个 oracle 能告诉 LLM 它做的事情是对还是错,那你基本上就赢了。",
+      "timestamp": "13:31",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "I think DHH doesn't understand what machine learning does.",
+      "zh": "我认为 DHH 不理解机器学习在做什么。",
+      "timestamp": "15:41",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "That is the part, that's the only part in programming that is actually not usually encoded somewhere in textual form so an LLM can learn from it, that the process of building the architecture of something.",
+      "zh": "那是编程中唯一通常没有以文本形式编码在某个地方、因而 LLM 无法从中学习的东西,也就是构建某个东西架构的过程。",
+      "timestamp": "16:29",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "Kind of also have a vision of the future of software engineering, and they are unsure of whether their vision is correct, but they're willing to bet their house on their vision, right?",
+      "zh": "也有一种对软件工程未来的愿景,而且他们不确定自己的愿景是否正确,但他们愿意押上全部身家去赌他们的愿景。",
+      "timestamp": "41:23",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "I think Pi is an initial proof of concept for self-modifiable agentic software, worked out.",
+      "zh": "我认为 Pi 是自我可修改的智能体软件的一个初步概念验证,已经验证通了。",
+      "timestamp": "46:50",
+      "speaker": "Mario Zechner"
+    },
+    {
+      "en": "That is the biggest fucking problem, and nobody does anything.",
+      "zh": "那是最大的一个问题,却没人去做任何事。",
+      "timestamp": "55:36",
+      "speaker": "Mario Zechner"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:40",
+      "speaker": "Unknown",
+      "en": "And then the question is, can an agent fix issues? Yes, obviously. The question is just, does it fix them well?",
+      "zh": "然后问题就变成,智能体能修复 issue 吗?能,显然能。问题只是,它修得好不好?"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "For anything that concerns the design or architecture, you still kind of need a human because the agent will just locally shit into your code base and make things worse.",
+      "zh": "任何涉及设计或架构的东西,你还是需要一个人类,因为智能体只会在你的代码库里局部地乱搞一通,把事情弄得更糟。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Unknown",
+      "en": "It's almost impossible that it will fix a problem without adding code, which seems weird because I think a lot of the issues actually shouldn't be net additive to the code base.",
+      "zh": "它几乎不可能在不增加代码的情况下修复一个问题,这看起来很奇怪,因为我认为很多 issue 实际上本不应该让代码库净增加代码。"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Unknown",
+      "en": "Particularly if you have a fully automated code base, I think it's just naturally going to grow with every single bug fix.",
+      "zh": "特别是如果你有一个全自动的代码库,我认为它自然就会随着每一次 bug 修复而不断增长。"
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Unknown",
+      "en": "They should just work and have a bunch of tests that ensure that the rendering is correct. Everything else I don't care.",
+      "zh": "它们只要能用就行,并且有一堆测试确保渲染是正确的。其他一切我都不在乎。"
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Unknown",
+      "en": "And to this day, I haven't looked at a single line of code of the markdown component or the text component or so.",
+      "zh": "直到今天,我都没有看过 markdown 组件或文本组件之类的哪怕一行代码。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Unknown",
+      "en": "And then usually the agent is great at identifying a bunch of shit, but it's very bad at coming up with a generalized solution.",
+      "zh": "而那时智能体通常很擅长找出一堆烂东西,但它非常不擅长提出一个通用的解决方案。"
+    },
+    {
+      "timestamp": "08:19",
+      "speaker": "Unknown",
+      "en": "I do think they're a little bit worse in the architecture part because now they are worse in the outcome because you give them way more control.",
+      "zh": "我确实认为它们在架构部分差了一点,因为它们在结果上更差了,因为你给了它们多得多的控制权。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Unknown",
+      "en": "No reverser on earth would have gone that far ever, especially not in that amount of time.",
+      "zh": "地球上没有任何逆向工程师曾经能做到那个程度,尤其是在那么短的时间内。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Unknown",
+      "en": "If you have an oracle that can tell the LLM if what it did is correct or not, then you basically won.",
+      "zh": "如果你有一个 oracle 能告诉 LLM 它做的事情是对还是错,那你基本上就赢了。"
+    },
+    {
+      "timestamp": "15:18",
+      "speaker": "Unknown",
+      "en": "It's like rocket fuel for all of the kind of testing.",
+      "zh": "这对所有这类测试来说就像火箭燃料。"
+    },
+    {
+      "timestamp": "15:41",
+      "speaker": "Unknown",
+      "en": "I think DHH doesn't understand what machine learning does.",
+      "zh": "我认为 DHH 不理解机器学习在做什么。"
+    },
+    {
+      "timestamp": "16:29",
+      "speaker": "Unknown",
+      "en": "That is the part, that's the only part in programming that is actually not usually encoded somewhere in textual form so an LLM can learn from it, that the process of building the architecture of something.",
+      "zh": "那是编程中唯一通常没有以文本形式编码在某个地方、因而 LLM 无法从中学习的东西,也就是构建某个东西架构的过程。"
+    },
+    {
+      "timestamp": "17:33",
+      "speaker": "Unknown",
+      "en": "And how would the training know, necessarily, that one of those conversations actually ultimately ended up with the version that we shipped?",
+      "zh": "而训练怎么一定知道,那些对话中哪一个最终结出了我们发布的那一版?"
+    },
+    {
+      "timestamp": "25:18",
+      "speaker": "Unknown",
+      "en": "And then I never have to think about it again.",
+      "zh": "然后我就再也不用想它了。"
+    },
+    {
+      "timestamp": "32:34",
+      "speaker": "Unknown",
+      "en": "So it's very hard to take these things off the shelf and make them your own.",
+      "zh": "所以很难把这些东西拿来即用地变成你自己的东西。"
+    },
+    {
+      "timestamp": "34:07",
+      "speaker": "Unknown",
+      "en": "It does whatever it wants. This is an organism of sorts.",
+      "zh": "它想做什么就做什么。这是一种类似生物体的东西。"
+    },
+    {
+      "timestamp": "41:23",
+      "speaker": "Unknown",
+      "en": "Kind of also have a vision of the future of software engineering, and they are unsure of whether their vision is correct, but they're willing to bet their house on their vision, right?",
+      "zh": "也有一种对软件工程未来的愿景,而且他们不确定自己的愿景是否正确,但他们愿意押上全部身家去赌他们的愿景。"
+    },
+    {
+      "timestamp": "46:50",
+      "speaker": "Unknown",
+      "en": "I think Pi is an initial proof of concept for self-modifiable agentic software, worked out.",
+      "zh": "我认为 Pi 是自我可修改的智能体软件的一个初步概念验证,已经验证通了。"
+    },
+    {
+      "timestamp": "55:36",
+      "speaker": "Unknown",
+      "en": "That is the biggest fucking problem, and nobody does anything.",
+      "zh": "那是最大的一个问题,却没人去做任何事。"
+    },
+    {
+      "timestamp": "57:25",
+      "speaker": "Unknown",
+      "en": "It's like this stuff, by going the minimal route, you overcome a lot of the issues that the models like are naturally prone to.",
+      "zh": "就是这些东西,通过走最简路线,你克服了很多模型天然容易犯的问题。"
+    }
+  ],
+  "voice_script": "今天聊的是两位开源老兵的一次对谈。一位是 Mario Zechner，开源项目 Pi 的作者；另一位是 Armin Ronacher，跟朋友 Colin 创办的公司在今年二月把 Pi 收编了。这期主要讲三件事：AI 到底能不能维护开源项目、什么叫智能体持久化、以及他们为什么押注一个不是编程智能体的未来。最后一件事是本期主角，叫 Pi Durable，先从前面的问题铺垫起。\n\nMario 说得很直接：自己大部分时间都耗在维护 Pi 上，看 issue、修问题，Pi Durable 因此拖了很久才做出来。结论是什么？小的修复可以交给智能体，但任何涉及设计和架构的东西，还是需要人类——因为智能体会「在你的代码库里就地乱搞一通，把事情弄得更糟」。\n\nArmin 补充了一个有意思的观察：智能体解决问题时几乎必然会新增代码，哪怕很多 bug 的正确修法其实应该是删代码。长此以往，代码库只会随着每次修复不断膨胀。\n\n不过这不代表他们反对用 AI 糊东西。Mario 举了 Pi 界面库的例子：底层接口是二零二五年初手写的，稳健、够用；之上的组件——文本渲染、Markdown 显示——全是让智能体照着接口生成的，配上测试就行。到今天，那些 Markdown 组件的代码 Mario 一行都没看过，只有性能掉下来时才出手。诀窍在于分层：哪一层信任智能体，哪一层必须自己把控。\n\n聊到模型本身，两人先抱怨了一通：新一代模型能力在涨，说话却越来越怪，术语堆砌、动不动钻进冷僻技术细节。Mario 因为受不了某个版本的说话风格直接弃用，换回了别的模型；现在的 Sol 6.1 和 Opus 5.5 又像正常人说话了。\n\n那能力上呢？有进步，而且方向可能出乎意料——逆向工程和安全。Mario 去年加固过一个 JVM 软件，今年被一个用两个 Codex 账号的人攻破了。事后用 AI 复盘攻击路径才发现：模型自己逆向了 JVM 的原生内存结构，再把它映射回对应的 Java 对象。Mario 有句话很劲：地球上没有任何逆向工程师曾经做到那个程度，尤其是在那么短的时间内。Armin 也有类似经历——插上一个 CarPlay 转接器，让 AI 搞定它，结果设备固件就被完全掌控了。\n\n两人的总结是：只要任务有明确的对错判据——行话叫 oracle——智能体最终都能搞定。模拟器、移植代码库、模糊测试，全是这类。那架构为什么学不会？Mario 给了个很清晰的解释：网络安全有大量训练数据，建网站有，重写已有的东西也有，但设计架构的过程几乎从不以文字形式存在于任何地方——它是设计师脑子里的过程。这正是模型卡壳的地方。Armin 猜测，模型公司手上握着海量对话记录和 GitHub 历史，一旦学会从中筛出高质量的架构决策，比如看哪些仓库还在被使用、哪些提交存活至今，能力可能会跳一档，而且这活儿最终可能由模型自己来做。\n\n铺垫完了，说回主角 Pi Durable。它解决的问题，Mario 用五句话就讲清楚了：智能体跑在进程里，调用各种工具；进程会死；你想要的是重启进程之后，智能体从断点精确继续——不用手动输 continue，工具结果不丢，应用状态也原样恢复。这就是持久化。为什么重要？长时间运行的智能体，比如挂在 Slack 里几年的机器人，必须有这个能力，否则一次崩溃就前功尽弃。现有方案比如 Hermes、OpenClaw、Amp 的 orbs，各自都解决了这个问题，但都不是通用的、能拿来做你自己产品的基础设施。Pi Durable 想做的就是这个通用底座。\n\n核心机制，Mario 打了个比方，叫三明治。每个操作——术语叫 effect——拆成三层：执行前先存下意图，也就是我要带这些参数做这件事；然后真正执行；最后把结果存下来。无论进程死在三明治的哪一层，重启后都能恢复。最麻烦的是死在中间那一层——事情可能做了也可能没做。解法是让外部系统支持幂等操作：先领一个 ID 再执行，重启后拿同一个 ID 去问，系统会告诉你这件事是已经在跑，还是需要重新发起。应用状态则靠一个微型文档数据库，类似 MongoDB 存 JSON 对象，但每个文档都有版本，绑定到对话记录的具体位置。回溯对话到某个时间点时，你可以选择要当时的待办清单，还是最新的那份，两种语义都支持。整个东西只有约一万两千行代码，能部署到服务器、Cloudflare、笔记本，甚至手机上。\n\n那公司接下来往哪走？Armin 说有两条线：一条做产品，但明确不想明年还只是一家编程智能体公司，目标是让不懂工程的人也觉得好用；另一条做基础设施，让别人能在上面造自己的智能体。Mario 自己的试验更激进：做了个跑在安卓手机上的客户端，除了大模型调用，一切都在手机本地运行，还能把手机连到服务器当执行环境——大脑在口袋里，手脚在机房。用Mario 的话说，这验证了愿景的一部分：未来应该是多个智能体、多台机器、多个人类随意组合协作。\n\n最后带走一句话：AI 修小 bug 很强，做架构还不行，因为设计架构的过程几乎不存在于训练数据里；而凡是有明确对错判据的任务，AI 几乎必胜。"
+}
