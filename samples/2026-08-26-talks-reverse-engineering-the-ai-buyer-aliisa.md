@@ -188,8 +188,8 @@ ChatGPT 在 2022 年底发布时没有任何企业功能，Elisa 被企业客户
 **换个口味**
 
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Clay、OpenAI、Anthropic</span>
+- [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|每家 AI 公司都在不知不觉间盖了一座银行]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:定价 (pricing)</span>
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|Brian Halligan：CEO 的实战手册]]<span class="pd-rz">同公司:Clay · 同概念:go-to-market、前置部署工程师 (forward-deployed engineer)</span>
-- [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:PLG</span>
 
 </div>
 </div>

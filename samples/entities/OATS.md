@@ -25,7 +25,7 @@ unlisted: true
 
 [[Max Freeman]] · [[Harry]] · [[Ramp]] · [[Ramp Revenue]] · [[Inspect]] · [[SDR]] · [[外呼开发]] · [[配额]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":11,"Ramp Revenue":1,"Inspect":1,"SDR":1,"外呼开发":2,"配额":1,"智能体":471}</script>
+<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":12,"Ramp Revenue":1,"Inspect":1,"SDR":1,"外呼开发":2,"配额":1,"智能体":473}</script>
 
 <script>
 (function(){

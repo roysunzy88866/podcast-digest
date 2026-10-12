@@ -1,0 +1,233 @@
+{
+  "title_zh": "软件工厂：从报错到上线，代码不再靠人手写",
+  "tldr": "Factory 工程师 Davis Palmie 讲解如何搭建「软件工厂」，让 AI 从报错信号一路自动跑到生产代码。",
+  "digest_md": "Davis Palmie 是 Factory 的技术团队成员，此前联合创办过投资团队智能体平台 Lumetric，也在大型咨询公司带过创新团队。这段演讲里，他回答了一个很多人关心的问题：当 AI 写的代码比人还多，软件工程师和公司该怎么办？他的答案是一套他称为软件工厂的系统。\n\n## AI 编程经历了哪三个阶段？\n\nDavis 把 AI 编程的演进分成三步。第一步是自动补全，工程师仍然牢牢掌控一切。第二步，AI 能生成整个文件，工程师变成了一个有判断力的复制粘贴者。第三步，智能体出现了——它们能自己收集上下文、调用工具、调试自己的输出。[01:11 Unknown]\n\n他提醒大家注意 AI 攀登抽象阶梯的速度：从词元到文件，再到上下文，现在是整个系统。而每次升级，工程师都变得更有价值，而不是更不值钱。现在正处在转折点：工程师从亲手敲代码，转向管理智能体，最终把这些智能体组织成一个系统——这就是软件工厂。\n\n## 写代码从来不是瓶颈，真正的瓶颈是什么？\n\n「编码是最容易的部分。」Davis 说，它从来不是瓶颈。真正的痛点在别处：一个代码合并请求的中位审核时间是多久？复现一个用户报的漏洞要多久？谁来保证文档跟代码同步、跟战略会议同步？谁来维护测试套件？[05:01 Unknown]\n\n在很多公司，测试团队、工程团队、产品团队像是各自待在不同的大洲。如果去拉数据，从代码写完到真正上线的时间，远超写代码本身的时间。文档过期、死代码堆积、团队之间层层沟通——这些对人类工程师已经够难了，对智能体更是致命。所以搭建软件工厂的核心任务，是让智能体能打通所有这些环节，理解组织内部的细微信号。\n\n## 软件工厂到底长什么样？\n\n它是一组智能体，负责从输入信号到生产部署的全流程。智能体不再只是写代码，它要分拣故障、做计划、创建和更新文档、执行代码、审核、测试、发布上线，然后监控这次发布。[06:35 Unknown]\n\nDavis 的建议是别一口吃成胖子。先从窄而可验证的任务开始，比如故障分拣：让智能体读一条报警，拉取相关的追踪信息，发到 Slack 里，但让工程师来决定下一步。随着正确诊断越来越多，团队才会逐渐信任这套系统。每个环节都要有明确归属和监控，跑顺了再考虑让整个流水线闭环。\n\n## 企业最担心的四个问题，怎么回答？\n\n第一个问题：怎么防止成本失控？他的回答是不要锁死在单一模型上，每个任务用够用的最便宜模型。他引用 Factory 首席执行官的比喻：「如果你孩子需要代数家教，你肯定能找到比爱因斯坦便宜的人。」[02:52 Unknown]\n\n第二个问题：怎么保证用上当下最强的模型？他认为押对一匹马本身就是个伪命题，尤其开源模型越来越强，应该动态路由、按需选择。第三个问题：软件工程师会怎样？角色会演变，产品和工程的边界在模糊，工程师负责建造和维护这个产出代码的系统，并设定方向。第四个问题：组织会怎样变？团队边界模糊，信息不能有孤岛——这对人如此，对智能体尤其如此。\n\n## 软件工厂的三条原则\n\n第一，不绑定模型。他举例说，GPT 5.2 在代码审核上能达到最新 Opus 模型同样的效果，价格只有一半；开源替代方案能把成本砍到原来的十分之一到三十分之一。[08:14 Unknown]\n\n第二，部署模式要自主可控。从全托管到自带机器再到完全物理隔离，公司不该为了迁就 AI 部署而妥协安全架构。第三，要打通整个软件开发生命周期：文档变了应该反过来影响代码，规划目标应该决定测试什么，而不是靠战略、产品、工程、测试团队之间的层层传话。任何一个支柱薄弱，整个系统就薄弱。\n\n## 怎么判断你的公司准备好了没有？\n\nFactory 有个概念叫智能体就绪度，从八个维度评估：有没有代码检查和格式化工具？构建命令是否文档齐全？单元测试和集成测试是否完备？有没有说明文档？开发环境能否干净复现？代码是否模块化、边界清晰？出问题时多久能查到原因？有没有主动做安全扫描、防止密钥泄漏？[13:35 Unknown]\n\nDavis 的结论很妙：如果智能体和人类工程师要走同一条路，把路铺好就有双倍价值。而且搭建工厂的过程本身，会把你组织里的隐性知识、手工流程和过时信息全都暴露出来——解决这些，对人对机器都有好处。\n\n## 别考核代码量，要考核结果\n\n「**衡量结果，而不是词元**。」Davis 说，代码行数和生成的词元数都是可以刷的指标，和实际产出没有关系。大公司搞词元排行榜，只会鼓励挥霍——这是古德哈特定律的现场演绎：一旦你考核词元用量，工程师就会优化词元用量，它就不再是好指标了。[16:31 Unknown]\n\nFactory 推荐的指标是：从信号到上线的时间、人工干预次数、中位修复时间、代码的货架期、每个合并请求的成本。最终用户不关心你在 AI 上花了多少钱，只关心能不能感受到实实在在的改进。\n\n## 工程师会被取代吗？\n\n不会。Davis 说得很直接：精确的执行不能弥补糟糕的设计，从来都不能。架构、战略、方向设定，仍然离不开人。工程师不会被取代，但判断力和优先级排序能力，现在比机械的实现技能更重要。[15:39 Unknown]\n\n智能体处理不了一切，总会有护栏要收紧、代码要偏移，人要作为验证关口站在工厂里。但就像我们不必再往机器里喂打孔卡一样，代码也不必再靠手写。团队设定战略和风险参数，剩下的交给智能体执行。\n\n## 本集带走\n\n- AI 编程从补全到整个文件再到智能体系统，每次抽象升级都让工程师更值钱，而非被淘汰\n- 写代码从来不是瓶颈，审核、复现漏洞、文档同步、团队沟通才是\n- 搭建软件工厂要从小而可验证的任务（如故障分拣）开始，逐步建立团队信任，最后才闭环\n- 不锁定单一模型，按任务选性价比最高的模型，是控制 AI 成本的关键\n- 考核要看结果（上线时间、修复时间、人工干预次数），不要看词元消耗量",
+  "quotes": [
+    {
+      "en": "Now, autocomplete used to feel magical, and now, at best, it's a quaint thing we remember.",
+      "zh": "曾经，自动补全感觉很有魔力，而现在，往好了说，它只是我们记忆中一种古雅的东西。",
+      "timestamp": "01:32",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "But each move up the abstraction ladder has made engineers more valuable, not less.",
+      "zh": "但抽象阶梯上的每一次上移都让工程师更有价值，而不是更没价值。",
+      "timestamp": "01:55",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "Engineers are going from typing code to governing agents.",
+      "zh": "工程师正在从敲代码转向治理智能体。",
+      "timestamp": "02:07",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "As our CEO likes to say, if your kid needs a algebra tutor, you can definitely find someone cheaper than Albert Einstein.",
+      "zh": "正如我们 CEO 喜欢说的，如果你的孩子需要一位代数家教，你肯定能找到比 Albert Einstein 便宜的人。",
+      "timestamp": "03:29",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "Well, we think that having to back the right horse is a false choice, especially with the increasing effectiveness of open source models.",
+      "zh": "嗯，我们认为必须押对马是个伪选择，尤其是在开源模型日益有效的情况下。",
+      "timestamp": "03:47",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "Coding was the easy part.",
+      "zh": "编码是容易的部分。",
+      "timestamp": "05:01",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "If you pull your Dora metric, the time from code written to time in production, I would bet dwarfs the time actually making those engineering changes.",
+      "zh": "如果你拉取你的 Dora 指标，从代码写完到进入生产环境的时间，我敢打赌它远远超过实际做那些工程改动所花的时间。",
+      "timestamp": "05:38",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "But once you can tie the output of this system back to the input signal, that's when you unlock organizational self-improvement.",
+      "zh": "但一旦你能把这个系统的输出回连到输入信号，那时你就解锁了组织的自我改进。",
+      "timestamp": "07:55",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "We found, for instance, that you can achieve the same performance on code review with GPT 5.2 as with the latest Opus models, but at half the price.",
+      "zh": "举例来说，我们发现你在代码审查上用 GPT 5.2 可以达到和最新 Opus 模型相同的性能，但价格只有一半。",
+      "timestamp": "08:25",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "And now if you look at the open source alternatives, that can slash your costs down to 10 to 30x cheaper.",
+      "zh": "现在如果你看看开源替代品，可以把你的成本砍到便宜 10 到 30 倍。",
+      "timestamp": "08:36",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "Not being locked into a single lab means you unlock the entire Pareto frontier of LLMs.",
+      "zh": "不被锁定在单一实验室，意味着你解锁了 LLM 的整条帕累托前沿。",
+      "timestamp": "08:51",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "In tech terms, your software factory should take this pain from O of N to O of 1 conservatively.",
+      "zh": "用技术术语来说，你的软件工厂应该保守地把这种痛苦从 O(N) 降到 O(1)。",
+      "timestamp": "11:37",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "And this standard should make sure that everyone is pulled to the highest bar, not the lowest common denominator.",
+      "zh": "而这个标准应该确保每个人都被拉到最高标准，而不是最低的共同标准。",
+      "timestamp": "11:59",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "If your agents and your human engineers are going to walk the same roads, paving them well is doubly useful.",
+      "zh": "如果你的智能体和你的人类工程师要走同样的路，那么把路铺好就是双倍有用的。",
+      "timestamp": "14:35",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "But judgment and prioritization now beat mechanical implementation skill.",
+      "zh": "但现在，判断力和优先级排序已经胜过了机械式的实现技能。",
+      "timestamp": "15:49",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "Basically, you want to measure outcomes, not tokens.",
+      "zh": "基本上，你要衡量的是结果，而不是 token。",
+      "timestamp": "16:31",
+      "speaker": "Davis Palmie"
+    },
+    {
+      "en": "It's about who can get the highest leverage outcomes from that spend.",
+      "zh": "而在于谁能从这些花费中获得最高杠杆的成果。",
+      "timestamp": "17:06",
+      "speaker": "Davis Palmie"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:32",
+      "speaker": "Unknown",
+      "en": "Now, autocomplete used to feel magical, and now, at best, it's a quaint thing we remember.",
+      "zh": "曾经，自动补全感觉很有魔力，而现在，往好了说，它只是我们记忆中一种古雅的东西。"
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Unknown",
+      "en": "But each move up the abstraction ladder has made engineers more valuable, not less.",
+      "zh": "但抽象阶梯上的每一次上移都让工程师更有价值，而不是更没价值。"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Unknown",
+      "en": "Engineers are going from typing code to governing agents.",
+      "zh": "工程师正在从敲代码转向治理智能体。"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Unknown",
+      "en": "As our CEO likes to say, if your kid needs a algebra tutor, you can definitely find someone cheaper than Albert Einstein.",
+      "zh": "正如我们 CEO 喜欢说的，如果你的孩子需要一位代数家教，你肯定能找到比 Albert Einstein 便宜的人。"
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Unknown",
+      "en": "Well, we think that having to back the right horse is a false choice, especially with the increasing effectiveness of open source models.",
+      "zh": "嗯，我们认为必须押对马是个伪选择，尤其是在开源模型日益有效的情况下。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Unknown",
+      "en": "Coding was the easy part.",
+      "zh": "编码是容易的部分。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Unknown",
+      "en": "This actually was never the bottleneck.",
+      "zh": "这其实从来都不是瓶颈。"
+    },
+    {
+      "timestamp": "05:38",
+      "speaker": "Unknown",
+      "en": "If you pull your Dora metric, the time from code written to time in production, I would bet dwarfs the time actually making those engineering changes.",
+      "zh": "如果你拉取你的 Dora 指标，从代码写完到进入生产环境的时间，我敢打赌它远远超过实际做那些工程改动所花的时间。"
+    },
+    {
+      "timestamp": "07:55",
+      "speaker": "Unknown",
+      "en": "But once you can tie the output of this system back to the input signal, that's when you unlock organizational self-improvement.",
+      "zh": "但一旦你能把这个系统的输出回连到输入信号，那时你就解锁了组织的自我改进。"
+    },
+    {
+      "timestamp": "08:25",
+      "speaker": "Unknown",
+      "en": "We found, for instance, that you can achieve the same performance on code review with GPT 5.2 as with the latest Opus models, but at half the price.",
+      "zh": "举例来说，我们发现你在代码审查上用 GPT 5.2 可以达到和最新 Opus 模型相同的性能，但价格只有一半。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Unknown",
+      "en": "And now if you look at the open source alternatives, that can slash your costs down to 10 to 30x cheaper.",
+      "zh": "现在如果你看看开源替代品，可以把你的成本砍到便宜 10 到 30 倍。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "Not being locked into a single lab means you unlock the entire Pareto frontier of LLMs.",
+      "zh": "不被锁定在单一实验室，意味着你解锁了 LLM 的整条帕累托前沿。"
+    },
+    {
+      "timestamp": "09:50",
+      "speaker": "Unknown",
+      "en": "Each one of these pillars supports the software factory, and weakness in one means a weakness in the entire system.",
+      "zh": "这些支柱中的每一个都在支撑软件工厂，其中任何一处薄弱都意味着整个系统的薄弱。"
+    },
+    {
+      "timestamp": "11:37",
+      "speaker": "Unknown",
+      "en": "In tech terms, your software factory should take this pain from O of N to O of 1 conservatively.",
+      "zh": "用技术术语来说，你的软件工厂应该保守地把这种痛苦从 O(N) 降到 O(1)。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "And this standard should make sure that everyone is pulled to the highest bar, not the lowest common denominator.",
+      "zh": "而这个标准应该确保每个人都被拉到最高标准，而不是最低的共同标准。"
+    },
+    {
+      "timestamp": "14:35",
+      "speaker": "Unknown",
+      "en": "If your agents and your human engineers are going to walk the same roads, paving them well is doubly useful.",
+      "zh": "如果你的智能体和你的人类工程师要走同样的路，那么把路铺好就是双倍有用的。"
+    },
+    {
+      "timestamp": "15:49",
+      "speaker": "Unknown",
+      "en": "But judgment and prioritization now beat mechanical implementation skill.",
+      "zh": "但现在，判断力和优先级排序已经胜过了机械式的实现技能。"
+    },
+    {
+      "timestamp": "16:31",
+      "speaker": "Unknown",
+      "en": "Basically, you want to measure outcomes, not tokens.",
+      "zh": "基本上，你要衡量的是结果，而不是 token。"
+    },
+    {
+      "timestamp": "16:52",
+      "speaker": "Unknown",
+      "en": "It's Goodhart's law in real time.",
+      "zh": "这就是古德哈特定律的实时上演。"
+    },
+    {
+      "timestamp": "17:06",
+      "speaker": "Unknown",
+      "en": "It's about who can get the highest leverage outcomes from that spend.",
+      "zh": "而在于谁能从这些花费中获得最高杠杆的成果。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Davis Palmie,是 Factory 的技术团队成员。这家公司做的事,说来也挺有未来感:搭建「软件工厂」——让 AI 智能体从一条报错信号开始,一路自动跑到代码上线。这个人之前联合创办过投资团队智能体平台 Lumetric,也在大型咨询公司带过创新团队,所以既是做 AI 的,也懂企业里真实的工作方式。\n\n这期演讲要回答的问题,其实很多人都在心里嘀咕过:当 AI 写的代码比人还多,软件工程师和公司该怎么办?要听懂给出的答案,得先看一眼 AI 编程走到哪一步了。\n\n按 Davis 的划分,这条路分三步。第一步是自动补全,工程师仍然牢牢掌控一切。第二步,AI 能生成整个文件,工程师变成了一个有判断力的复制粘贴者。第三步,智能体出现了——它们能自己收集上下文、调用工具、还能调试自己的输出。这里值得留意一个细节:AI 攀登抽象阶梯的速度。从词元到文件,再到上下文,现在是整个系统。而且每次升级,工程师反而变得更有价值,不是更不值钱。现在正卡在转折点上:工程师从亲手敲代码,转向管理智能体,最终把智能体组织成一个系统。这个系统,就是软件工厂。\n\n那为什么要费这么大劲搭一套系统?这里有个反直觉的判断。「编码是最容易的部分。」 Davis 说,写代码从来不是瓶颈。真正的痛点在别处:一个代码合并请求的中位审核时间是多久?复现一个用户报的漏洞要多久?谁来保证文档跟代码同步?谁来维护测试套件?在很多公司,测试团队、工程团队、产品团队像是各自待在不同的大洲。真去拉数据你会发现,从代码写完到真正上线的时间,远超写代码本身。文档过期、死代码堆积、团队之间层层沟通——这些对人类工程师已经够难了,对智能体更是致命。所以搭软件工厂的核心任务,是让智能体打通所有这些环节。\n\n那这东西到底长什么样?说白了,就是一组智能体,负责从输入信号到生产部署的全流程:分拣故障、做计划、创建文档、写代码、审核、测试、发布,然后监控这次发布。听着很美好,但建议是别一口吃成胖子。先从窄而可验证的任务开始,比如故障分拣:让智能体读一条报警、拉取追踪信息、发到 Slack 里,但下一步还是工程师来定。随着正确诊断越来越多,团队才会逐渐信任这套系统,跑顺了再考虑让整条流水线闭环。\n\n当然,企业一听这种方案,最关心的就是四个问题。第一,成本怎么控制?答案是不要锁死在单一模型上,每个任务用够用的最便宜模型。Factory 的首席执行官有个比喻:「如果你的孩子需要一位代数家教,你肯定能找到比爱因斯坦便宜的人。」第二,怎么保证用上最强的模型?回答很干脆:必须押对马,本身就是个伪命题,尤其开源模型越来越强,应该动态路由、按需选择。第三个问题,工程师会怎样?角色会演变,产品和工程的边界在模糊,工程师负责建造和维护这个产出代码的系统,并设定方向。第四,组织会怎样?团队边界模糊,信息不能有孤岛——这对人如此,对智能体尤其如此。\n\n这些回答背后,其实撑着三条原则。第一,不绑定模型。举个例子,GPT 5.2 在代码审核上能做到最新 Opus 模型同样的效果,价格只有一半;开源方案甚至能把成本砍到原来的十分之一到三十分之一。第二,部署模式要自主可控,从全托管到完全物理隔离,公司不该为了迁就 AI 而妥协安全架构。第三,打通整个软件开发生命周期——文档变了应该反过来影响代码,规划目标应该决定测试什么,而不是靠各团队层层传话。三条里任何一条薄弱,整个系统就薄弱。\n\n听到这你可能会问:那我怎么知道自己的公司准备好了没有?Factory 有个概念叫「智能体就绪度」,从八个维度评估:代码检查工具齐不齐、构建命令有没有文档、测试是否完备、开发环境能否干净复现、代码是否模块化、出问题多久能查到原因,等等。结论很妙:如果智能体和人类工程师要走同一条路,把路铺好就有双倍价值。而且搭工厂的过程本身,会把组织里的隐性知识、手工流程和过时信息全暴露出来——解决这些,对人对机器都有好处。\n\n等工厂真跑起来了,还有一个最容易踩的坑:考核什么。「衡量结果,而不是词元。」代码行数和生成的词元数都是可以刷的指标,和实际产出没关系。大公司搞词元排行榜,只会鼓励挥霍——这是古德哈特定律的现场演绎:一旦你考核词元用量,工程师就会优化词元用量,它就不再是好指标了。该看的是:从信号到上线的时间、人工干预次数、中位修复时间、代码的货架期、每个合并请求的成本。毕竟用户不关心你在 AI 上花了多少钱,只关心能不能感受到实实在在的改进。\n\n最后回到那个最扎心的问题:工程师会被取代吗?答案很直接:不会。「精确的执行不能弥补糟糕的设计,从来都不能。」架构、战略、方向设定,仍然离不开人。智能体也处理不了一切,总会有护栏要收紧、代码要偏移,人要作为验证关口站在工厂里。但就像我们不必再往机器里喂打孔卡一样,代码也不必再靠手写——团队设定战略和风险参数,剩下的交给智能体执行。正如那句话说的,抽象阶梯上的每一次上移,都让工程师更有价值,而不是更没价值。"
+}

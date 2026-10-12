@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Keith Rabois">KE</div><div class="pi"><h1 class="pt">Keith Rabois</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Keith Rabois">KE</div><div class="pi"><h1 class="pt">Keith Rabois</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*7 条*
+*22 条*
 
 ![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q1]]
 
@@ -27,27 +27,58 @@ unlisted: true
 
 ![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q7]]
 
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q1]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q2]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q3]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q4]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q5]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q6]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q7]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q8]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q9]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q10]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q11]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q12]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q13]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q14]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q15]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为主持
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[PayPal]] · [[Square]] · [[Faire]] · [[Ramp]] · [[Airbnb]] · [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]]
+[[Ramp]] · [[Lenny]] · [[AI]] · [[PayPal]] · [[Anthropic]] · [[Square]] · [[OpenAI]] · [[Faire]] · [[Rippling]] · [[Airbnb]]
 
-## ④ 也在聊「组织与领导力」的人
+## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
+[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"PayPal":8,"Square":5,"Faire":1,"Ramp":11,"Airbnb":13,"桶和弹药":1,"人才密度":4,"PM":3,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Ramp":12,"Lenny":69,"AI":32,"PayPal":8,"Anthropic":200,"Square":5,"OpenAI":195,"Faire":1,"Rippling":4,"Airbnb":13}</script>
 
 <script>
 (function(){

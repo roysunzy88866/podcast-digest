@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub":33,"Terraform":2,"Hashicorp":2,"Kubernetes":18,"开源":40,"智能体":471,"PR":6,"AI":30,"工匠精神":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":35,"Terraform":2,"Hashicorp":2,"Kubernetes":18,"开源":40,"智能体":473,"PR":6,"AI":32,"工匠精神":1}</script>
 
 <script>
 (function(){

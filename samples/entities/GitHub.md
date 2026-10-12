@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -39,11 +39,13 @@ unlisted: true
 - **[[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]]**(11:05起):本集说嘉宾已经好几年没做过简历,工作都是别人在 GitHub 上主动找上门的;GitHub 赞助计划甚至给他寄钱,他还建议在 GitHub 上找最活跃贡献者已合并的请求来模仿风格。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(06:35起):本集说工厂与 GitHub 集成、自动创建 PR，上个月超过 2000 个 PR
 - **[[2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age|《一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法》]]**(16:15起):作为配置点被提及：不想让智能体推代码，应该在 GitHub 里配置权限，而不是在本地配置工具权限。
+- **[[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i|《硅谷的隐形货币：别人愿不愿意为你背书》]]**(40:18起):本集顺带说对工程师而言 GitHub 可以说是比 LinkedIn 本身更好的 LinkedIn,以此说明细分领域需要自己的职业平台
 - **[[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]]**(01:18起):仅在片头广告里作为 AI DevCon 演讲方被列名，本集未讨论。
 - **[[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]]**(01:36起):本集说 GitHub 的 Copilot 评审员已完成 6000 万次评审,占 GitHub 全部代码评审的五分之一以上,机器评审已是主流默认。
 - **[[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]]**(45:01起):本集说 NVIDIA 把核心开放模型资源、示例 recipe 和 cookbook 放在 GitHub 上，帮助开发者学习他人的用法。
 - **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(10:35起):本集提到 Mercari 用批量变更产品修补一个 GitHub 代码注入漏洞(需正确设置环境变量)。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(25:53起):本集在列举她当年按三条标准筛选出的、有兴趣加入的五家公司时顺带提到(Stripe、GitHub、Slack)。
+- **[[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]]**(02:26起):本集提到 GitHub 先冻结、后彻底取消了 Copilot 免费套餐的试用访问,作为连环定价事故之一。
 
 ## ① 提到它的金句
 
@@ -61,7 +63,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*35 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
@@ -91,19 +93,21 @@ unlisted: true
 - [[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]] — 作为被讨论公司
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为被讨论公司(提及)
 - [[2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age|《一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法》]] — 作为被讨论公司(提及)
+- [[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i|《硅谷的隐形货币：别人愿不愿意为你背书》]] — 作为被讨论公司(提及)
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|《AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识》]] — 作为被讨论公司(提及)
 - [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|《代码评审未死：人类从引擎变飞行员》]] — 作为被讨论公司
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为概念(提及)
 - [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为概念(提及)
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Cursor]] · [[Anthropic]] · [[Claude Code]] · [[MCP]] · [[OpenAI]] · [[代码审查]] · [[Codex]] · [[沙箱]]
+[[智能体]] · [[Slack]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[OpenAI]] · [[MCP]] · [[代码审查]] · [[Codex]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"Slack":34,"Cursor":86,"Anthropic":198,"Claude Code":104,"MCP":85,"OpenAI":193,"代码审查":24,"Codex":83,"沙箱":94}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"Slack":34,"Anthropic":200,"Cursor":86,"Claude Code":104,"OpenAI":195,"MCP":85,"代码审查":24,"Codex":83,"沙箱":94}</script>
 
 <script>
 (function(){

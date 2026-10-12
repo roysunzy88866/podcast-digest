@@ -82,7 +82,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":32,"Anthropic":198,"Martin Casado":6,"Apple":25,"regulation":3,"OpenAI":193,"Google":70,"Theo Jaffe":7,"Amazon":32,"对齐":23}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":32,"Anthropic":200,"Martin Casado":6,"Apple":25,"regulation":3,"OpenAI":195,"Google":70,"Theo Jaffe":7,"Amazon":32,"对齐":23}</script>
 
 <script>
 (function(){

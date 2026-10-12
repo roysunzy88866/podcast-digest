@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Ivan Leo]] · [[Lenny]] · [[Google DeepMind]] · [[Josh Woodward]] · [[Interactions API]] · [[Google]] · [[Managed Agents]] · [[Google Labs]] · [[函数调用]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"Ivan Leo":1,"Lenny":69,"Google DeepMind":9,"Josh Woodward":1,"Interactions API":1,"Google":70,"Managed Agents":6,"Google Labs":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"Ivan Leo":1,"Lenny":69,"Google DeepMind":9,"Josh Woodward":1,"Interactions API":1,"Google":70,"Managed Agents":6,"Google Labs":1,"函数调用":3}</script>
 
 <script>
 (function(){

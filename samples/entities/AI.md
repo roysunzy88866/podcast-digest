@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>30</b> 集 · <b>557</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>32</b> 集 · <b>562</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,9 +30,11 @@ unlisted: true
 - **[[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]]**(27:44起):本集谈了三个真实落地场景:超过 80% 客户咨询 100% 由 AI 处理且满意度超人工、游戏美术外包几乎全由 AI 完成、游戏中聪明的机器人陪新玩家玩
 - **[[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]]**(00:06起):本集主线论点：医疗保健将是从 AI 中受益最多的行业——它没有旧软件的沉没成本，可以直接跳到 AI 原生工作流，并迎来第一波真正的有机采用浪潮。
 - **[[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]]**(13:30起):本集说 Autodesk 很早投入 AI,把它当作处于设计与制造之间的「项目大脑」,连接并自动化双方决策;并主张用 AI 交付精确性、速度和总拥有成本将定义未来的纵向软件。
+- **[[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]]**(00:39起):本集把 AI 说成驱动美国经济、带来生产率提升和高薪岗位的力量，Rabois 认为所有 AI 灭绝风险和失业预测都被夸大或已被证伪。
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(29:16起):本集反复谈 AI:模型已比周围大多数人聪明,但企业只把它当聊天机器人和写代码工具,真正瓶颈是流程再造,人类至少需要十年才能吸收和扩散 AI。
 - **[[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]]**(00:27起):本集谈模型逃脱禁闭、秘密协作、掩盖踪迹、欺骗行为等案例，以及认知萎缩和对社会机构的冲击，认为这些是比排放更深层的担忧
 - **[[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]]**(07:45起):本集说 AI 让小企业更快获得技术红利（雇人更多、更有韧性），把 Gusto 开发速度翻倍，并让『煮沸海洋』式的多产品并行成为可能
+- **[[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i|《硅谷的隐形货币：别人愿不愿意为你背书》]]**(01:16起):本集说随着浏览器自动化和 AI 普及,发帖求助会从 2000 份回复涨到 10 万份,触达无限便宜之后,稀缺的恰恰是人类的背书与信念
 - **[[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]]**(01:31起):本集对 AI 当经营顾问泼冷水：多数建议太泛化、太笼统，倾向说你爱听的话，还会编造数据且从不说『我不知道』；AI 是加速器，不会把普通人变成超级英雄，更好的打法是和街边小生意竞争再加一点 AI。
 - **[[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]]**(00:00起):本集把 AI 说成：正在拿走我们的乐高、被鼓励托付工作对象；它像初级员工/实习生，需要背景、入职引导和不断纠正，而恐惧叙事大多被夸大
 - **[[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]]**(00:03起):本集说 AI 极大增加了所有生意的颠覆风险,是投资者最难预测的问题;同时在 Cognition 重写遗留系统、充当言语治疗师、医疗决策把关等场景带来真实机会。
@@ -44,7 +46,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*557 条*
+*562 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -796,6 +798,8 @@ unlisted: true
 
 ![[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026#^q7]]
 
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q8]]
+
 ![[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti#^q5]]
 
 ![[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra#^q8]]
@@ -899,6 +903,8 @@ unlisted: true
 ![[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f#^q2]]
 
 ![[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f#^q9]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q11]]
 
 ![[2026-09-25-latent-openrouter#^q9]]
 
@@ -1142,6 +1148,12 @@ unlisted: true
 
 ![[2026-10-07-pragmatic-building-resilient-systems-with-sam#^q13]]
 
+![[2026-10-07-talks-every-ai-company-is-accidentally-buildin#^q1]]
+
+![[2026-10-07-talks-every-ai-company-is-accidentally-buildin#^q4]]
+
+![[2026-10-07-talks-every-ai-company-is-accidentally-buildin#^q7]]
+
 ![[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at#^q10]]
 
 ![[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3#^q4]]
@@ -1162,7 +1174,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*30 集*
+*32 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -1183,9 +1195,11 @@ unlisted: true
 - [[2026-09-03-talks-sea-founder-and-ceo-forrest-li-in-conver|《Sea 创始人 Forrest:从网吧预付卡到 100 亿美元放贷》]] — 作为概念
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|《为什么医疗是 AI 受益最大的行业: Julie Yu 的判断》]] — 作为概念
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|《从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学》]] — 作为概念
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]] — 作为概念
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为概念
 - [[2026-09-24-strictlyvc-al-gore-on-the-4-5-trillion-clean-energy|《戈尔：别慌数据中心，该盯的是4.5万亿清洁能源的缺口》]] — 作为概念
 - [[2026-09-24-thepeel-how-gusto-built-a-9-5b-company-with-co-f|《Gusto CEO Tomer：小企业的「伙伴」，不只是工具》]] — 作为概念
+- [[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i|《硅谷的隐形货币：别人愿不愿意为你背书》]] — 作为概念
 - [[2026-09-26-mos-rapid-response-stop-creating-businesses|《Own or Be Owned：不拥有，就被拥有》]] — 作为概念
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|《送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧》]] — 作为概念
 - [[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif|《从女儿脑出血到再造伯克希尔：Bill Ackman 谈投资、AI 泡沫与人生》]] — 作为概念
@@ -1199,9 +1213,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[Anthropic]] · [[a16z]] · [[品味]]
+[[OpenAI]] · [[智能体]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[a16z]] · [[品味]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"OpenAI":193,"Claude":93,"Lenny":69,"Google":70,"Stripe":48,"ChatGPT":108,"Anthropic":198,"a16z":19,"品味":15}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":195,"智能体":473,"Claude":93,"Lenny":69,"Anthropic":200,"Google":70,"Stripe":48,"ChatGPT":108,"a16z":19,"品味":15}</script>
 
 <script>
 (function(){

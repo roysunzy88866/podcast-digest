@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":86,"代码审查":24,"幻觉":12,"护栏":88,"招聘":1,"迭代周期":1}</script>
+<script type="application/json" class="pd-epn">{"Maven Clinic":1,"AI 原生公司":1,"AI 编程工具":2,"Cursor":86,"代码审查":24,"幻觉":12,"护栏":89,"招聘":1,"迭代周期":1}</script>
 
 <script>
 (function(){

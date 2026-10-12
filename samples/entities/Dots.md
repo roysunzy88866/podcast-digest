@@ -39,7 +39,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Astra]] · [[Tibo Sottiaux]] · [[护栏]] · [[Ultrafast]] · [[Notion]] · [[MG Siegler]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":193,"智能体":471,"ChatGPT":108,"Codex":83,"Astra":8,"Tibo Sottiaux":3,"护栏":88,"Ultrafast":2,"Notion":17,"MG Siegler":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":195,"智能体":473,"ChatGPT":108,"Codex":83,"Astra":8,"Tibo Sottiaux":3,"护栏":89,"Ultrafast":2,"Notion":17,"MG Siegler":1}</script>
 
 <script>
 (function(){

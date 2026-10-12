@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Ezinne Udezue":1,"智能体":471,"LLM":60,"评估":1,"主观能动性":1,"护栏":88,"推理":94,"微调":35,"MCP":85}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Ezinne Udezue":1,"智能体":473,"LLM":60,"评估":1,"主观能动性":1,"护栏":89,"推理":95,"微调":35,"MCP":85}</script>
 
 <script>
 (function(){

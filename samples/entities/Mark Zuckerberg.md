@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Steve Jobs":1,"智能体":471,"虚拟机":3,"生成式 UI":5,"聚合理论":2,"待完成任务":3,"Muse":7,"Meta":51,"Microsoft":32}</script>
+<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Steve Jobs":1,"智能体":473,"虚拟机":3,"生成式 UI":5,"聚合理论":2,"待完成任务":3,"Muse":7,"Meta":51,"Microsoft":32}</script>
 
 <script>
 (function(){

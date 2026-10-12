@@ -40,7 +40,7 @@ unlisted: true
 
 [[Microsoft]] · [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[AWS]] · [[Lenny]] · [[基准测试]] · [[Sequoia]] · [[Google]] · [[Brian Halligan]]
 
-<script type="application/json" class="pd-epn">{"Microsoft":32,"OpenAI":193,"智能体":471,"Anthropic":198,"AWS":22,"Lenny":69,"基准测试":2,"Sequoia":7,"Google":70,"Brian Halligan":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":32,"OpenAI":195,"智能体":473,"Anthropic":200,"AWS":22,"Lenny":69,"基准测试":2,"Sequoia":7,"Google":70,"Brian Halligan":1}</script>
 
 <script>
 (function(){

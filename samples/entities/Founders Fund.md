@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Founders Fund</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Founders Fund">FO</div><div class="pi"><h1 class="pt">Founders Fund</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Founders Fund">FO</div><div class="pi"><h1 class="pt">Founders Fund</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,17 +15,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Brian Singerman]] · [[GPX]] · [[Anduril]] · [[SpaceX]] · [[Palantir]] · [[Airbnb]] · [[Oculus]] · [[OpenAI]] · [[Anthropic]] · [[Cognition]]
+[[OpenAI]] · [[Anthropic]] · [[Ramp]] · [[Brian Singerman]] · [[Keith Rabois]] · [[GPX]] · [[AI]] · [[Anduril]] · [[Rippling]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Brian Singerman":1,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":13,"Oculus":2,"OpenAI":193,"Anthropic":198,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":195,"Anthropic":200,"Ramp":12,"Brian Singerman":1,"Keith Rabois":2,"GPX":1,"AI":32,"Anduril":5,"Rippling":4,"SpaceX":21}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[WorkOS]] · [[Anthropic]] · [[Slack]] · [[智能体]] · [[Amol Avasare]] · [[Fiona Fung]] · [[Noam Segal]] · [[Elizabeth Stone]] · [[Stefano Ermon]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"WorkOS":10,"Anthropic":198,"Slack":34,"智能体":471,"Amol Avasare":1,"Fiona Fung":1,"Noam Segal":1,"Elizabeth Stone":1,"Stefano Ermon":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"WorkOS":10,"Anthropic":200,"Slack":34,"智能体":473,"Amol Avasare":1,"Fiona Fung":1,"Noam Segal":1,"Elizabeth Stone":1,"Stefano Ermon":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Charrington]] · [[Justin Johnson]] · [[World Labs]] · [[世界模型]] · [[高斯溅射]] · [[智能体]] · [[PoMDPs]] · [[Marble]] · [[Transformers]] · [[扩散]]
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Justin Johnson":3,"World Labs":5,"世界模型":14,"高斯溅射":1,"智能体":471,"PoMDPs":1,"Marble":5,"Transformers":3,"扩散":2}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Justin Johnson":3,"World Labs":5,"世界模型":14,"高斯溅射":1,"智能体":473,"PoMDPs":1,"Marble":5,"Transformers":3,"扩散":2}</script>
 
 <script>
 (function(){

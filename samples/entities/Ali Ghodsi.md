@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":23,"Snowflake":20,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":30,"AGI":28,"本体":5,"数据科学智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Databricks":23,"Snowflake":20,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":32,"AGI":28,"本体":5,"数据科学智能体":4}</script>
 
 <script>
 (function(){

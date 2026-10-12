@@ -1,0 +1,1362 @@
+[
+ {
+  "seg": 0,
+  "start": 12.943,
+  "end": 13.803,
+  "speaker": "Unknown",
+  "en": "Yeah, we're good, okay.",
+  "zh": "好了，我们准备好了，行。"
+ },
+ {
+  "seg": 1,
+  "start": 14.644,
+  "end": 15.604,
+  "speaker": "Unknown",
+  "en": "So, hi everyone.",
+  "zh": "那么，大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 16.304,
+  "end": 21.967,
+  "speaker": "Unknown",
+  "en": "I hear there's a match right now as we speak, so given that you are here, it means a lot to me.",
+  "zh": "我听说此刻正好有一场比赛在进行，所以鉴于你们还坐在这里，这对我来说意义重大。"
+ },
+ {
+  "seg": 3,
+  "start": 23.307,
+  "end": 27.569,
+  "speaker": "Unknown",
+  "en": "So at least I'm winning the World Cup right now, so that's a big thing.",
+  "zh": "所以至少我现在是赢过世界杯了，这是件大事。"
+ },
+ {
+  "seg": 4,
+  "start": 27.709,
+  "end": 28.529,
+  "speaker": "Unknown",
+  "en": "Thank you for joining me.",
+  "zh": "感谢你们来听我的分享。"
+ },
+ {
+  "seg": 5,
+  "start": 28.73,
+  "end": 29.77,
+  "speaker": "Unknown",
+  "en": "I flew all the way over.",
+  "zh": "我大老远飞过来。"
+ },
+ {
+  "seg": 6,
+  "start": 29.79,
+  "end": 31.331,
+  "speaker": "Unknown",
+  "en": "I'm the co-founder CEO of Stig.",
+  "zh": "我是 Stig 的联合创始人兼 CEO。"
+ },
+ {
+  "seg": 7,
+  "start": 31.911,
+  "end": 41.475,
+  "speaker": "Unknown",
+  "en": "I flew all the way over to make kind of a funky statement on an AI conference, which is literally every AI company right now is accidentally building a bank.",
+  "zh": "我飞这么远过来，是想在 AI 会议上发表一个有点怪异的观点，那就是：实际上现在每一家 AI 公司都在不知不觉地建造一家银行。"
+ },
+ {
+  "seg": 8,
+  "start": 42.575,
+  "end": 66.946,
+  "speaker": "Unknown",
+  "en": "And when I mean bank, I'm going to try to kind of unpack this thing not as like a weird marketing metaphor but effectively what is really happening right now with the AI economy and why a lot of the constructs and the things that we are seeing, using, consuming and paying for in AI are actually really behaving like constructs that we know from the banking financial systems.",
+  "zh": "当我说银行的时候，我会尽量把这件事拆解开来讲，不是当作一个奇怪的营销隐喻，而是有效地说明现在 AI 经济中真正在发生什么，以及为什么我们在 AI 中看到、使用、消费和付费的很多构造和事物，实际上表现得非常像我们从银行金融系统中熟知的那些构造。"
+ },
+ {
+  "seg": 9,
+  "start": 66.986,
+  "end": 71.388,
+  "speaker": "Unknown",
+  "en": "So cool, thank you for having me and let's get it going.",
+  "zh": "好了，感谢主办方，我们开始吧。"
+ },
+ {
+  "seg": 10,
+  "start": 73.443,
+  "end": 76.024,
+  "speaker": "Unknown",
+  "en": "By the way, I'm the first talk today, so the clicker is not working.",
+  "zh": "顺便说一下，我是今天第一个演讲的，所以翻页器不好使。"
+ },
+ {
+  "seg": 11,
+  "start": 76.064,
+  "end": 80.125,
+  "speaker": "Unknown",
+  "en": "It's going to be interesting here and out as I move through it.",
+  "zh": "接下来我一边推进一边处理，会有点有意思。"
+ },
+ {
+  "seg": 12,
+  "start": 80.685,
+  "end": 82.625,
+  "speaker": "Unknown",
+  "en": "Let me take you through a little bit of background.",
+  "zh": "让我先带大家过一点背景。"
+ },
+ {
+  "seg": 13,
+  "start": 83.525,
+  "end": 99.189,
+  "speaker": "Unknown",
+  "en": "As I was working through this talk back in April, really every single co-generating product platform out there just broke under this new type of economy, under this new type of",
+  "zh": "四月份我在准备这个演讲的时候，实际上每一个共创产品平台都在这种新型经济之下崩溃了，在这种新型的——"
+ },
+ {
+  "seg": 14,
+  "start": 101.09,
+  "end": 107.773,
+  "speaker": "Unknown",
+  "en": "In just a matter of five weeks, everything felt like pricing emergency, one after the other.",
+  "zh": "仅仅在五周之内，一切都感觉像是定价紧急事件，一个接一个。"
+ },
+ {
+  "seg": 15,
+  "start": 107.793,
+  "end": 115.958,
+  "speaker": "Unknown",
+  "en": "The case I want to make here is that these pricing emergencies go way beyond just emergencies from a financial commercial side of the house.",
+  "zh": "我在这里想论证的是，这些定价紧急事件远远不止是财务商业层面的紧急事件。"
+ },
+ {
+  "seg": 16,
+  "start": 116.298,
+  "end": 123.709,
+  "speaker": "Unknown",
+  "en": "These really are infrastructure emergencies that are emerging because of how those systems were built to begin with.",
+  "zh": "→ 对应：我们看到诸如尖峰、超支、超额之类的情况，这些体验对业务不利、对用户不利，而且坦白说在很多情况下对供应商也不利。"
+ },
+ {
+  "seg": 17,
+  "start": 124.13,
+  "end": 131.68,
+  "speaker": "Unknown",
+  "en": "So just to give you some perspective, we had in April, we had Anthropic basically eliminating access for OpenClo,",
+  "zh": "先给大家一些背景，四月的时候，Anthropic 基本上切断了对 OpenClo 的访问，"
+ },
+ {
+  "seg": 18,
+  "start": 132.381,
+  "end": 135.383,
+  "speaker": "Unknown",
+  "en": "And other third-party agents to basically use the subscriptions plans.",
+  "zh": "以及其他第三方智能体使用其订阅计划的权限。"
+ },
+ {
+  "seg": 19,
+  "start": 135.743,
+  "end": 146.29,
+  "speaker": "Unknown",
+  "en": "Then immediately we had OpenAI basically changing how the pro tier is being priced, bumping the price overnight, 5x, which is quite intense.",
+  "zh": "然后紧接着 OpenAI 基本上改变了 pro 层级的定价，一夜之间把价格提了 5 倍，这相当激进。"
+ },
+ {
+  "seg": 20,
+  "start": 146.79,
+  "end": 159.318,
+  "speaker": "Unknown",
+  "en": "And then we had GitHub freezing and then completely eliminating access, trial access, free access to their, whoa, we have some echo here, to their free plans for co-pilot.",
+  "zh": "然后我们又有 GitHub 冻结、然后彻底取消了试用访问、免费访问，哇，这里有点回声，取消了他们 co-pilot 的免费计划。"
+ },
+ {
+  "seg": 21,
+  "start": 160.361,
+  "end": 172.139,
+  "speaker": "Unknown",
+  "en": "Effectively, all these companies all at once in a single month experience what it means to actually sell on scale AI and what actually happens when you don't have the fundamentals in place.",
+  "zh": "实际上，所有这些公司在同一个月里同时体验到了在规模化售卖 AI 时真正意味着什么，以及在基础没打好的情况下会发生什么。"
+ },
+ {
+  "seg": 22,
+  "start": 175.085,
+  "end": 176.606,
+  "speaker": "Unknown",
+  "en": "Let me take one step further.",
+  "zh": "让我再往深讲一步。"
+ },
+ {
+  "seg": 23,
+  "start": 177.346,
+  "end": 179.528,
+  "speaker": "Unknown",
+  "en": "Let's zoom into even just one of the use cases.",
+  "zh": "让我们放大到其中一个用例。"
+ },
+ {
+  "seg": 24,
+  "start": 179.708,
+  "end": 195.158,
+  "speaker": "Unknown",
+  "en": "If you think about Anthropic and you think about the OpenClaw use case, what happened was effectively Anthropic was subsidizing every consumption of every user using OpenClaw within the Cloud Max subscription.",
+  "zh": "如果你想想 Anthropic，想想 OpenClaw 这个用例，实际发生的事情是：Anthropic 在 Cloud Max 订阅内，为每一个使用 OpenClaw 的用户的每一次消费都在提供补贴。"
+ },
+ {
+  "seg": 25,
+  "start": 195.758,
+  "end": 215.012,
+  "speaker": "Unknown",
+  "en": "So effectively what the customers were paying daily was dollars and cents, but on the cost side for Anthropic, it was like 150 to even 750 subsidized, which is effectively not an economics that you can scale, even for the company at the size, at the scale of Anthropic.",
+  "zh": "所以实际上客户每天支付的是几美元几美分，但在 Anthropic 的成本端，补贴高达 150 甚至 750，这种经济模型实际上是没法规模化的，即便是 Anthropic 这个体量、这个规模的公司也不行。"
+ },
+ {
+  "seg": 26,
+  "start": 215.432,
+  "end": 215.672,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 27,
+  "start": 216.072,
+  "end": 231.259,
+  "speaker": "Unknown",
+  "en": "So what it seemed to be a business problem really was an infrastructure problem because Anthropic didn't have an effective way to delineate between users who are using their APIs and users who are using their subscription programs.",
+  "zh": "所以看似是业务问题的，实际上是个基础设施问题，因为 Anthropic 没有一种有效的方式去区分使用其 API 的用户和使用其订阅计划的用户。"
+ },
+ {
+  "seg": 28,
+  "start": 231.319,
+  "end": 234.441,
+  "speaker": "Unknown",
+  "en": "And so they had to immediately seize and stop access, right?",
+  "zh": "于是他们不得不立即切断和停止访问，对吧？"
+ },
+ {
+  "seg": 29,
+  "start": 234.461,
+  "end": 236.122,
+  "speaker": "Unknown",
+  "en": "They had to react.",
+  "zh": "他们只能被动应对。"
+ },
+ {
+  "seg": 30,
+  "start": 238.102,
+  "end": 238.363,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 31,
+  "start": 242.202,
+  "end": 244.864,
+  "speaker": "Unknown",
+  "en": "And this is not unique to Anthropic, guys.",
+  "zh": "而且各位，这不是 Anthropic 独有的问题。"
+ },
+ {
+  "seg": 32,
+  "start": 245.364,
+  "end": 262.273,
+  "speaker": "Unknown",
+  "en": "We're seeing this, I don't know if you all have read the news most recently, with a company, undisclosed company, burning through half a billion of their AI Claude credits, just merely having a few employees burning through the entire organization contract.",
+  "zh": "我们正在看到，不知道你们有没有看过最近一则新闻，有一家未披露名字的公司，烧掉了五亿美元的 AI Claude 额度，仅仅是几个员工就把整个组织的合同额度烧光了。"
+ },
+ {
+  "seg": 33,
+  "start": 262.373,
+  "end": 270.918,
+  "speaker": "Unknown",
+  "en": "We had Uber saying they basically turged down their entire AI usage consumption budget for the year in just a few",
+  "zh": "我们还有 Uber 说他们基本上在一年才刚过去几"
+ },
+ {
+  "seg": 34,
+  "start": 271.478,
+  "end": 284.424,
+  "speaker": "Unknown",
+  "en": "weeks into the year and then we had Replit giving an example of what could happen if a single org has three users that are basically burning down the entire credit pool for Replit for the entire org.",
+  "zh": "周的时候，就烧光了全年的 AI 使用消耗预算；然后我们还有 Replit 的例子，说明如果一个组织里有三个用户，基本上就能把 Replit 整个组织的全部额度池烧光，会发生什么。"
+ },
+ {
+  "seg": 35,
+  "start": 284.884,
+  "end": 289.526,
+  "speaker": "Unknown",
+  "en": "So really what's happening here is this is not just an Anthropic",
+  "zh": "所以真正在发生的事情是，这不只是 Anthropic 一家的问题。"
+ },
+ {
+  "seg": 36,
+  "start": 291.047,
+  "end": 309.845,
+  "speaker": "Unknown",
+  "en": "And I think what's mutual and kind of like switching gears from the examples to the actual what's really happening here, the problem basically with all these three examples is that the checks for what you're entitled, what you're allowed to do, whether you're an agent or a user with your AI product,",
+  "zh": "我想把这些例子切到实际的本质上来，这三个例子共同的问题在于：关于你有什么资格、你被允许做什么——无论你是一个智能体还是一个使用 AI 产品的用户——的检查，"
+ },
+ {
+  "seg": 37,
+  "start": 310.305,
+  "end": 314.286,
+  "speaker": "Unknown",
+  "en": "Happened after the invoice and not before.",
+  "zh": "发生在账单之后，而不是之前。"
+ },
+ {
+  "seg": 38,
+  "start": 314.746,
+  "end": 323.769,
+  "speaker": "Unknown",
+  "en": "So basically with each and every one of those examples, you were allowed to consume, you were allowed to use the product, you were allowed to burn tokens, and checks happen only after the invoice.",
+  "zh": "所以基本上在这每一个例子里，你都被允许去消费，被允许去使用产品，被允许去烧 token，而检查只在账单之后才发生。"
+ },
+ {
+  "seg": 39,
+  "start": 324.009,
+  "end": 332.872,
+  "speaker": "Unknown",
+  "en": "So basically the spend and the after effect gets reconciled only after it's too late, only after the invoice is sent, and this is effectively",
+  "zh": "所以基本上支出和事后影响只有在为时已晚之后才被对账，只有在账单发出之后，而这实际上是"
+ },
+ {
+  "seg": 40,
+  "start": 333.552,
+  "end": 352.565,
+  "speaker": "Unknown",
+  "en": "Bad for business, it's sticker shock, it's bad for practice of how we use the systems, these systems are now mission critical and we're basically, none of these companies had in place the financial infrastructure that allows exactly like banks guys to check before we draw down, before we consume, right?",
+  "zh": "对业务不利的，是账单惊吓，对我们使用这些系统的方式不利，这些系统现在是任务关键型的，而我们基本上——这些公司没有一家建立了像银行那样的金融基础设施，能够在提款之前、在消费之前先做检查，对吧？"
+ },
+ {
+  "seg": 41,
+  "start": 353.005,
+  "end": 362.295,
+  "speaker": "Unknown",
+  "en": "So I think what we're seeing is effectively really is a change in how we architect and how we ship and how we build software.",
+  "zh": "所以我认为我们看到的，实际上是一次关于我们如何架构、如何发布、如何构建软件的变革。"
+ },
+ {
+  "seg": 42,
+  "start": 362.696,
+  "end": 370.243,
+  "speaker": "Unknown",
+  "en": "AI is not just changing what is value, it's not just changing how we interact, who is the users, it's also effectively changing",
+  "zh": "AI 不仅在改变什么是有价值的，不仅在改变我们的交互方式、用户是谁，它实际上还在改变"
+ },
+ {
+  "seg": 43,
+  "start": 371.004,
+  "end": 386.901,
+  "speaker": "Unknown",
+  "en": "What exactly is getting paid and how we actually architect for systems that can handle runtime, handle the complexity of usage happening before the invoice, before the checks, and how we actually can architect for that.",
+  "zh": "到底什么在被付费，以及我们如何为那些能处理运行时、能处理在账单之前、在检查之前就发生的复杂使用情况的系统做架构，以及我们如何为此进行架构设计。"
+ },
+ {
+  "seg": 44,
+  "start": 387.345,
+  "end": 404.181,
+  "speaker": "Unknown",
+  "en": "So I think what's interesting and what you see in front of you is basically on the left side, what we're seeing is how most teams ship this architecture today and you can see that basically the check and the settlements are happening after the inference, after the usage is being logged.",
+  "zh": "所以我觉得有意思的是，你们面前看到的，基本上左边展示的是如今大多数团队发布这种架构的方式，你可以看到，检查和结算发生在推理之后，发生在使用被记录之后。"
+ },
+ {
+  "seg": 45,
+  "start": 404.521,
+  "end": 406.022,
+  "speaker": "Unknown",
+  "en": "And that's typically too late.",
+  "zh": "而这通常都太晚了。"
+ },
+ {
+  "seg": 46,
+  "start": 406.042,
+  "end": 416.405,
+  "speaker": "Unknown",
+  "en": "We see situations like spikes, overspends, overages, like experiences that are bad for business, bad for users, and quite frankly in many cases also bad for the vendor.",
+  "zh": "我们看到过尖峰、超支、超额使用这类情况，这些体验对业务不利、对用户不利，坦白说在很多情况下对供应商也不利。"
+ },
+ {
+  "seg": 47,
+  "start": 416.765,
+  "end": 425.368,
+  "speaker": "Unknown",
+  "en": "Because if you didn't allocate enough resources and compute to actually allow for this to happen, you also have a margin problem potentially, right?",
+  "zh": "因为如果你没有分配足够的资源和算力来支撑这些发生，你还可能有一个毛利问题，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 425.788,
+  "end": 430.45,
+  "speaker": "Unknown",
+  "en": "On the right side, we're basically saying, or I'm trying to make the case",
+  "zh": "在右边，我们基本上是在说，或者我试图向大家论证"
+ },
+ {
+  "seg": 49,
+  "start": 430.87,
+  "end": 448.116,
+  "speaker": "Unknown",
+  "en": "For you all that with AI, with the current infrastructure and how AI is being built and sold, we actually need to enforce and do this synchronously before we actually update the balances and reconcile and settle in an async way after After Effects.",
+  "zh": "的是：在 AI 领域，在当前这种 AI 被构建和售卖的基础设施之下，我们实际上需要同步地执行检查，然后才更新余额，之后再以异步的方式进行对账和结算。"
+ },
+ {
+  "seg": 50,
+  "start": 448.136,
+  "end": 452.838,
+  "speaker": "Unknown",
+  "en": "So Hotpath actually gets checked synchronously in everything that comes after.",
+  "zh": "所以 Hotpath 实际上是在后面所有环节中被同步校验的。"
+ },
+ {
+  "seg": 51,
+  "start": 453.498,
+  "end": 454.658,
+  "speaker": "Unknown",
+  "en": "It's basically reconciled after.",
+  "zh": "它基本上是在之后才被对账的。"
+ },
+ {
+  "seg": 52,
+  "start": 454.719,
+  "end": 459.1,
+  "speaker": "Unknown",
+  "en": "I think the best example, guys, is imagine you go to the ATM, right?",
+  "zh": "我认为最好的例子,各位,就是想象你去 ATM 取钱,对吧?"
+ },
+ {
+  "seg": 53,
+  "start": 459.36,
+  "end": 460.3,
+  "speaker": "Unknown",
+  "en": "And you draw cash.",
+  "zh": "然后你取现金。"
+ },
+ {
+  "seg": 54,
+  "start": 460.64,
+  "end": 465.722,
+  "speaker": "Unknown",
+  "en": "When you draw the cash, the check if you're allowed to draw it doesn't happen after you get the cash.",
+  "zh": "当你取现金时,检查你是否有权提取这件事,不会发生在你拿到现金之后。"
+ },
+ {
+  "seg": 55,
+  "start": 466.122,
+  "end": 467.623,
+  "speaker": "Unknown",
+  "en": "It happens before you draw the cash.",
+  "zh": "它发生在你取现金之前。"
+ },
+ {
+  "seg": 56,
+  "start": 467.983,
+  "end": 470.164,
+  "speaker": "Unknown",
+  "en": "And so that's exactly the same thing.",
+  "zh": "所以这就是完全一样的事情。"
+ },
+ {
+  "seg": 57,
+  "start": 470.724,
+  "end": 479.827,
+  "speaker": "Unknown",
+  "en": "Our industry effectively misses this layer, this financial infrastructure that allows for this type of behavior to happen naturally, right?",
+  "zh": "我们的行业实际上缺失了这一层,这种允许这类行为自然发生的金融基础设施,对吧?"
+ },
+ {
+  "seg": 58,
+  "start": 481.703,
+  "end": 484.986,
+  "speaker": "Unknown",
+  "en": "And so obviously this sounds like a great idea, Dor, right?",
+  "zh": "所以显然这听起来像是个好主意,Dor,对吧?"
+ },
+ {
+  "seg": 59,
+  "start": 485.026,
+  "end": 489.269,
+  "speaker": "Unknown",
+  "en": "Like you're pitching this infrastructure, sounds like you have something to do with this.",
+  "zh": "就像你在推销这套基础设施,听起来你跟这事有点关系。"
+ },
+ {
+  "seg": 60,
+  "start": 489.89,
+  "end": 491.371,
+  "speaker": "Unknown",
+  "en": "But guys, this is not just me.",
+  "zh": "但各位,这不只是我一个人。"
+ },
+ {
+  "seg": 61,
+  "start": 491.892,
+  "end": 497.616,
+  "speaker": "Unknown",
+  "en": "In February, OpenAI, they have quite a great team, their team called Financial Engineering.",
+  "zh": "在二月,OpenAI,他们有一个相当不错的团队,他们的团队叫 Financial Engineering。"
+ },
+ {
+  "seg": 62,
+  "start": 497.977,
+  "end": 502.781,
+  "speaker": "Unknown",
+  "en": "And these guys basically published how they think about the architecture",
+  "zh": "而这些人基本上发布了他们对架构的思考"
+ },
+ {
+  "seg": 63,
+  "start": 503.141,
+  "end": 507.745,
+  "speaker": "Unknown",
+  "en": "And what they had to build for this to work at the scale of OpenAI.",
+  "zh": "以及为了让这一切在 OpenAI 的规模上运作,他们必须构建什么。"
+ },
+ {
+  "seg": 64,
+  "start": 507.765,
+  "end": 515.071,
+  "speaker": "Unknown",
+  "en": "And what they had to say reads very similarly to how transactional systems of banks work.",
+  "zh": "而他们所说的内容,读起来与银行交易系统的运作方式非常相似。"
+ },
+ {
+  "seg": 65,
+  "start": 515.451,
+  "end": 523.518,
+  "speaker": "Unknown",
+  "en": "Basically you have a decision waterfall that needs to consider in runtime what is the client, the user, the agent is allowed to do.",
+  "zh": "基本上你有一个决策瀑布,需要在运行时考虑这个客户端、这个用户、这个智能体被允许做什么。"
+ },
+ {
+  "seg": 66,
+  "start": 523.878,
+  "end": 530.024,
+  "speaker": "Unknown",
+  "en": "And it needs to take into account many different conditions and policies of what is really allowed, right?",
+  "zh": "它需要把许多不同的条件和策略纳入考量,以确定什么才是真正被允许的,对吧?"
+ },
+ {
+  "seg": 67,
+  "start": 530.724,
+  "end": 534.266,
+  "speaker": "Unknown",
+  "en": "Are you allowed that you have access to a certain feature or product?",
+  "zh": "你是否有权访问某个功能或产品?"
+ },
+ {
+  "seg": 68,
+  "start": 535.267,
+  "end": 538.169,
+  "speaker": "Unknown",
+  "en": "What are the certain rate limitations under your plan?",
+  "zh": "在你的套餐下有哪些速率限制?"
+ },
+ {
+  "seg": 69,
+  "start": 538.929,
+  "end": 550.817,
+  "speaker": "Unknown",
+  "en": "Whether you are in a trial or in a certain promotional program, like you need all these decisions to be calculated immediately at front time and then ultimately decide can I give this user access?",
+  "zh": "你是在试用中,还是在某个促销计划中,比如你需要所有这些决策在第一时间被立即计算出来,然后最终决定我能否给这个用户访问权限?"
+ },
+ {
+  "seg": 70,
+  "start": 550.857,
+  "end": 551.617,
+  "speaker": "Unknown",
+  "en": "Can they draw down?",
+  "zh": "他们能否支取?"
+ },
+ {
+  "seg": 71,
+  "start": 551.637,
+  "end": 552.498,
+  "speaker": "Unknown",
+  "en": "Can they consume or not?",
+  "zh": "他们能否消费,还是不能?"
+ },
+ {
+  "seg": 72,
+  "start": 552.918,
+  "end": 556.44,
+  "speaker": "Unknown",
+  "en": "And all those decisions really can happen after the invoice.",
+  "zh": "而所有这些决策其实都可以发生在发票之后。"
+ },
+ {
+  "seg": 73,
+  "start": 556.78,
+  "end": 559.102,
+  "speaker": "Unknown",
+  "en": "They can because you need to actually be able to",
+  "zh": "之所以可以,是因为你实际上必须能够"
+ },
+ {
+  "seg": 74,
+  "start": 559.822,
+  "end": 561.403,
+  "speaker": "Unknown",
+  "en": "Calculate and prioritize this.",
+  "zh": "计算并排出优先级。"
+ },
+ {
+  "seg": 75,
+  "start": 561.803,
+  "end": 564.004,
+  "speaker": "Unknown",
+  "en": "So I think we have three things to notice from here.",
+  "zh": "所以我认为从这里我们有三点需要注意。"
+ },
+ {
+  "seg": 76,
+  "start": 564.204,
+  "end": 568.505,
+  "speaker": "Unknown",
+  "en": "The first thing is this is a single synchronous evaluation.",
+  "zh": "第一点,这是单次同步评估。"
+ },
+ {
+  "seg": 77,
+  "start": 568.725,
+  "end": 570.926,
+  "speaker": "Unknown",
+  "en": "It happens at the request.",
+  "zh": "它发生在请求时。"
+ },
+ {
+  "seg": 78,
+  "start": 571.186,
+  "end": 573.067,
+  "speaker": "Unknown",
+  "en": "It doesn't happen after effect.",
+  "zh": "它不在事后才发生。"
+ },
+ {
+  "seg": 79,
+  "start": 573.407,
+  "end": 576.768,
+  "speaker": "Unknown",
+  "en": "I think the second thing is the priority is deterministic.",
+  "zh": "我认为第二点是,优先级是确定性的。"
+ },
+ {
+  "seg": 80,
+  "start": 576.868,
+  "end": 582.29,
+  "speaker": "Unknown",
+  "en": "So we know in advance what are all the different rules that apply for certain things to be consumed.",
+  "zh": "所以我们提前就知道,对于某些东西要被消费,适用哪些不同的规则。"
+ },
+ {
+  "seg": 81,
+  "start": 583.471,
+  "end": 589.135,
+  "speaker": "Unknown",
+  "en": "And I think lastly, and here you guys, this is my opinionated view, you can disagree, I don't think this is billing.",
+  "zh": "我认为最后一点,各位,这是我的主观看法,你们可以不同意,我不认为这是账单。"
+ },
+ {
+  "seg": 82,
+  "start": 589.575,
+  "end": 596.159,
+  "speaker": "Unknown",
+  "en": "I don't think this is necessarily, this entire architecture is just related to the idea of invoicing and billing.",
+  "zh": "我不认为这必然是——这整个架构只是与开票和账单的概念相关。"
+ },
+ {
+  "seg": 83,
+  "start": 596.459,
+  "end": 609.288,
+  "speaker": "Unknown",
+  "en": "This is a financial system that actually makes decisions ahead of any invoice, ahead of any billing element, and I think we're gonna see more and more of this becoming a standard for other products and other AI systems as well.",
+  "zh": "这是一个真正在任何发票之前、在任何账单要素之前就做出决策的金融系统,而且我认为我们会看到越来越多这样的东西成为其他产品和其他 AI 系统的标准。"
+ },
+ {
+  "seg": 84,
+  "start": 611.049,
+  "end": 627.267,
+  "speaker": "Unknown",
+  "en": "really just nerding just a little bit on I'm sorry I just skipped one slide so yeah it's just nerding just a little bit about what other traits or elements we see and are used to in banks and we take them for granted",
+  "zh": "真的只是稍微深入讲一点,抱歉我刚才跳过了一页幻灯片,所以是的,只是稍微深入讲一下我们在银行里习以为常、视为理所当然的其他特性或要素"
+ },
+ {
+  "seg": 85,
+  "start": 627.747,
+  "end": 629.447,
+  "speaker": "Unknown",
+  "en": "But in AI, they're not that granted.",
+  "zh": "但在 AI 里,它们没那么理所当然。"
+ },
+ {
+  "seg": 86,
+  "start": 629.507,
+  "end": 630.968,
+  "speaker": "Unknown",
+  "en": "In software, they're not that granted.",
+  "zh": "在软件里,它们没那么理所当然。"
+ },
+ {
+  "seg": 87,
+  "start": 631.368,
+  "end": 632.888,
+  "speaker": "Unknown",
+  "en": "So just one example, right?",
+  "zh": "所以就举一个例子,对吧?"
+ },
+ {
+  "seg": 88,
+  "start": 633.468,
+  "end": 646.932,
+  "speaker": "Unknown",
+  "en": "If two separate parties have access to the same banking account, and that banking account has like $10, and they're entitled to draw down those $10, what happens when both of them try to draw down the same time, right?",
+  "zh": "如果两个独立的主体都有权访问同一个银行账户,而这个账户里只有 10 美元,他们都有权支取这 10 美元,那么当他们两人同时尝试支取时会发生什么,对吧?"
+ },
+ {
+  "seg": 89,
+  "start": 646.972,
+  "end": 651.693,
+  "speaker": "Unknown",
+  "en": "So banking systems has the idea of holding, of settling.",
+  "zh": "所以银行系统有持有、结算的概念。"
+ },
+ {
+  "seg": 90,
+  "start": 652.033,
+  "end": 652.933,
+  "speaker": "Unknown",
+  "en": "You can really...",
+  "zh": "你真的可以……"
+ },
+ {
+  "seg": 91,
+  "start": 653.373,
+  "end": 658.736,
+  "speaker": "Unknown",
+  "en": "The concurrency is effectively solved with banks, but with AI and agents it's not that case.",
+  "zh": "并发问题在银行那里实际上是被解决掉的,但在 AI 和智能体这里情况并非如此。"
+ },
+ {
+  "seg": 92,
+  "start": 658.756,
+  "end": 672.083,
+  "speaker": "Unknown",
+  "en": "You could have whatever like 10,000 agents trying to reach out to the same dollar pool and they're gonna try to do that at once and superficially it might look like they should be able to draw down because there is balance in the pool.",
+  "zh": "你可以随便有 1 万个智能体尝试去碰同一个资金池,它们会同时尝试那么做,而且表面上看起来它们似乎应该能够支取,因为池子里是有余额的。"
+ },
+ {
+  "seg": 93,
+  "start": 672.543,
+  "end": 676.145,
+  "speaker": "Unknown",
+  "en": "But what happens when they all draw down from the same pool simultaneously?",
+  "zh": "但当它们全部同时从同一个池子里支取时会怎样?"
+ },
+ {
+  "seg": 94,
+  "start": 676.445,
+  "end": 677.645,
+  "speaker": "Unknown",
+  "en": "Concurrency become an issue.",
+  "zh": "并发就成了问题。"
+ },
+ {
+  "seg": 95,
+  "start": 677.965,
+  "end": 679.246,
+  "speaker": "Unknown",
+  "en": "So how do you solve for that?",
+  "zh": "那么你怎么解决这个问题?"
+ },
+ {
+  "seg": 96,
+  "start": 680.167,
+  "end": 682.808,
+  "speaker": "Unknown",
+  "en": "This entire idea in financial systems actually called",
+  "zh": "金融系统里的这整个概念实际上叫"
+ },
+ {
+  "seg": 97,
+  "start": 683.482,
+  "end": 685.825,
+  "speaker": "Unknown",
+  "en": "It's a classic double spend problem.",
+  "zh": "它是一个经典的双花问题。"
+ },
+ {
+  "seg": 98,
+  "start": 686.445,
+  "end": 687.887,
+  "speaker": "Unknown",
+  "en": "It comes from the accounting world.",
+  "zh": "它来自会计领域。"
+ },
+ {
+  "seg": 99,
+  "start": 688.267,
+  "end": 690.449,
+  "speaker": "Unknown",
+  "en": "It's a double entry bookkeeping.",
+  "zh": "它就是复式记账法。"
+ },
+ {
+  "seg": 100,
+  "start": 691.29,
+  "end": 704.383,
+  "speaker": "Unknown",
+  "en": "As I'm sure you all are building shipping today with AI, as the revenue scales, as your company scales, the idea of double entry accounting, double entry billing, the idea that you can solve concurrency, these things would matter.",
+  "zh": "就像我相信你们今天所有人都在用 AI 构建并交付产品一样,随着收入规模扩大,随着公司规模扩大,复式记账、复式计费的概念,你能解决并发问题的概念,这些事情会变得重要。"
+ },
+ {
+  "seg": 101,
+  "start": 705.184,
+  "end": 722.362,
+  "speaker": "Unknown",
+  "en": "as you scale and they're not so easily solved down the line so think about things like you know can you basically introduce traits like hold and settle think about idempotency and auditability of those requests and etc.",
+  "zh": "随着你规模化,这些事情以后并不那么容易解决,所以要考虑一些事情,比如你能不能基本上引入像保留和结算这样的特性,考虑一下这些请求的幂等性和可审计性等等。"
+ },
+ {
+  "seg": 102,
+  "start": 726.799,
+  "end": 739.345,
+  "speaker": "Unknown",
+  "en": "Another thing that I think is very, very known in how banking systems works but not necessarily enough established in AI is the idea that all the different pools have different sources, right?",
+  "zh": "另一件我认为在银行系统运作方式中非常非常广为人知,但在 AI 领域还没有足够确立的事情是,所有不同的容量池都有不同的来源,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 739.365,
+  "end": 745.709,
+  "speaker": "Unknown",
+  "en": "So in bank, you have your debit account, you have your cash account, you have your savings, right?",
+  "zh": "所以在银行里,你有你的借记账户,你有你的现金账户,你有你的储蓄,对吧?"
+ },
+ {
+  "seg": 104,
+  "start": 745.769,
+  "end": 752.012,
+  "speaker": "Unknown",
+  "en": "And if you draw down, the bank actually knows how to calculate where you're drawing down from and what does it mean.",
+  "zh": "而如果你提取资金,银行实际上知道如何计算你是从哪里提取的,以及这意味着什么。"
+ },
+ {
+  "seg": 105,
+  "start": 752.412,
+  "end": 760.355,
+  "speaker": "Unknown",
+  "en": "Here, say I have a pool of 1,700 credits, but they're not the same, they're not alike.",
+  "zh": "在这里,比如我有一个 1,700 个额度的池,但它们并不相同,它们不一样。"
+ },
+ {
+  "seg": 106,
+  "start": 760.715,
+  "end": 767.117,
+  "speaker": "Unknown",
+  "en": "Each one of them is sourced from a different source, so how do you decide which one of them do you draw down against?",
+  "zh": "每一个都来自不同的来源,那么你如何决定针对其中哪一个来提取扣减?"
+ },
+ {
+  "seg": 107,
+  "start": 767.437,
+  "end": 770.918,
+  "speaker": "Unknown",
+  "en": "Do you start with the ones that were granted earlier?",
+  "zh": "你是从最早授予的那些开始吗?"
+ },
+ {
+  "seg": 108,
+  "start": 771.278,
+  "end": 773.339,
+  "speaker": "Unknown",
+  "en": "Do you start with the ones that were promotional?",
+  "zh": "你是从那些促销赠送的开始吗?"
+ },
+ {
+  "seg": 109,
+  "start": 773.639,
+  "end": 777.36,
+  "speaker": "Unknown",
+  "en": "So how do you really calculate what's getting drawn down to the users?",
+  "zh": "所以你到底如何计算用户那边被扣减了什么?"
+ },
+ {
+  "seg": 110,
+  "start": 777.78,
+  "end": 779.601,
+  "speaker": "Unknown",
+  "en": "I think that's a real problem.",
+  "zh": "我认为这是一个真实的问题。"
+ },
+ {
+  "seg": 111,
+  "start": 779.661,
+  "end": 782.022,
+  "speaker": "Unknown",
+  "en": "Most companies today try to solve it like a single integer",
+  "zh": "今天大多数公司试图把它当作一个单一整数来解决,"
+ },
+ {
+  "seg": 112,
+  "start": 782.803,
+  "end": 787.713,
+  "speaker": "Unknown",
+  "en": "databases and that's not really going to work as you think forward.",
+  "zh": "存在数据库里,但如果你往长远想,这真的行不通。"
+ },
+ {
+  "seg": 113,
+  "start": 788.234,
+  "end": 788.515,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 114,
+  "start": 791.514,
+  "end": 798.798,
+  "speaker": "Unknown",
+  "en": "So really tying the knot here, I think if you think about how we interact with software, it used to be flat.",
+  "zh": "所以在这里做个收束,我认为如果你思考我们如何与软件交互,它过去是扁平的。"
+ },
+ {
+  "seg": 115,
+  "start": 799.299,
+  "end": 806.203,
+  "speaker": "Unknown",
+  "en": "So it used to be just users and organizations and there wasn't a lot of meat in between them, right?",
+  "zh": "过去就是用户和组织,它们之间没有太多中间层,对吧?"
+ },
+ {
+  "seg": 116,
+  "start": 806.303,
+  "end": 809.365,
+  "speaker": "Unknown",
+  "en": "The hierarchy of how you consume software was quite flat.",
+  "zh": "你消费软件的层级结构相当扁平。"
+ },
+ {
+  "seg": 117,
+  "start": 809.745,
+  "end": 812.387,
+  "speaker": "Unknown",
+  "en": "It was quite straightforward in terms of who see the value.",
+  "zh": "在谁能看到价值这方面相当直接。"
+ },
+ {
+  "seg": 118,
+  "start": 812.747,
+  "end": 815.969,
+  "speaker": "Unknown",
+  "en": "But today I think effectively credit pools are no longer flat.",
+  "zh": "但今天我认为实际上额度池不再是扁平的了。"
+ },
+ {
+  "seg": 119,
+  "start": 816.63,
+  "end": 830.826,
+  "speaker": "Unknown",
+  "en": "You have a lot of different hierarchies in between who consumes different credits, and also they demand different governance, different logic, allocations, budgets, spend caps, and effectively what happens is that budgets are set at the top.",
+  "zh": "在谁消费哪些额度之间有很多不同的层级,而且它们要求不同的治理、不同的逻辑、分配、预算、支出上限,实际上发生的情况是预算在顶层设定。"
+ },
+ {
+  "seg": 120,
+  "start": 831.326,
+  "end": 837.231,
+  "speaker": "Unknown",
+  "en": "Where, for instance, if you're selling to the enterprise, you're maybe selling like a pre-commit annual contract.",
+  "zh": "比如,如果你在向企业销售,你可能卖的是一种预承诺的年度合同。"
+ },
+ {
+  "seg": 121,
+  "start": 837.411,
+  "end": 848.039,
+  "speaker": "Unknown",
+  "en": "C-suite or somebody who approved that seven-digit contract, they expect to see how that credits are getting drawdown along the contract life, but they don't just want to see that they were used.",
+  "zh": "C-suite 或者批准那份七位数合同的某个人,他们期望看到这些额度在合同生命周期内是如何被消耗的,但他们不只是想看到它们被使用了。"
+ },
+ {
+  "seg": 122,
+  "start": 848.32,
+  "end": 856.926,
+  "speaker": "Unknown",
+  "en": "They want to know who actually used them, which team, which users, which agents, to what extent, and they want to have fine-grained control over that.",
+  "zh": "他们想知道到底是谁使用了它们,哪个团队、哪些用户、哪些智能体、用到了什么程度,而且他们想对此有细粒度的控制。"
+ },
+ {
+  "seg": 123,
+  "start": 858.307,
+  "end": 866.912,
+  "speaker": "Unknown",
+  "en": "Literally the bare bones of how more and more companies thinking about selling AI workloads and how they effectively work in production.",
+  "zh": "这简直就是越来越多公司思考如何销售 AI 工作负载以及它们实际上如何在生产环境中运作的基本骨架。"
+ },
+ {
+  "seg": 124,
+  "start": 867.792,
+  "end": 869.273,
+  "speaker": "Unknown",
+  "en": "I'm going to run through some of this.",
+  "zh": "我要快速过一遍其中一些内容。"
+ },
+ {
+  "seg": 125,
+  "start": 870.874,
+  "end": 887.262,
+  "speaker": "Unknown",
+  "en": "I think this idea of like what does it mean like high cardinality graphs and dimensions, being able to slice and dice against model types, users, like all this type of dimensionality of consumption is probably interesting too to talk about but what I actually want to",
+  "zh": "我认为这个想法,比如高基数图和维度意味着什么,能够针对模型类型、用户进行切片分析,所有这种消费的维度性,可能也值得聊,但我真正想"
+ },
+ {
+  "seg": 126,
+  "start": 887.722,
+  "end": 890.445,
+  "speaker": "Unknown",
+  "en": "Expand on is ultimately those four patterns.",
+  "zh": "展开讲的是最终那四种模式。"
+ },
+ {
+  "seg": 127,
+  "start": 890.665,
+  "end": 901.937,
+  "speaker": "Unknown",
+  "en": "So as you build AI and start selling AI at scale, you're effectively like four patterns that keep repeating themselves and they are very, very much alike and very similar to the idea of banking systems.",
+  "zh": "所以当你在规模化地构建 AI 并开始销售 AI 时,实际上有四种模式在不断重复,它们非常非常相像,与银行系统的概念非常相似。"
+ },
+ {
+  "seg": 128,
+  "start": 901.957,
+  "end": 906.702,
+  "speaker": "Unknown",
+  "en": "I think the first one we talked about earlier is basically being able to reserve before inference.",
+  "zh": "我认为我们之前谈到的第一个模式基本上就是能够在推理之前进行保留。"
+ },
+ {
+  "seg": 129,
+  "start": 907.182,
+  "end": 909.044,
+  "speaker": "Unknown",
+  "en": "And settle actuals after.",
+  "zh": "然后在之后结算实际用量。"
+ },
+ {
+  "seg": 130,
+  "start": 910.005,
+  "end": 914.889,
+  "speaker": "Unknown",
+  "en": "This is going to be like a pattern that again and again we're seeing more and more often.",
+  "zh": "这会是一个我们越来越频繁地反复看到的模式。"
+ },
+ {
+  "seg": 131,
+  "start": 915.209,
+  "end": 923.216,
+  "speaker": "Unknown",
+  "en": "And it has ramifications on how you do accounting, how you do basically handle all those different concurrences workloads and what have you.",
+  "zh": "它会对你如何做会计、你如何基本处理所有那些不同的并发工作负载等等产生影响。"
+ },
+ {
+  "seg": 132,
+  "start": 923.617,
+  "end": 931.624,
+  "speaker": "Unknown",
+  "en": "I think the second thing is we're seeing more and more AI companies unexcited about the idea of sending all this usage data to somewhere else over the cloud.",
+  "zh": "我认为第二件事是,我们看到越来越多的 AI 公司对把所有这些使用数据通过云端发送到别处的想法不感兴趣。"
+ },
+ {
+  "seg": 133,
+  "start": 932.264,
+  "end": 943.034,
+  "speaker": "Unknown",
+  "en": "For latency reasons, for cost reasons, for data sovereignty reasons, there's a lot of good reasons for why these companies actually rather to keep the events data inside their VPC.",
+  "zh": "出于延迟原因、成本原因、数据主权原因,有很多充分的理由说明这些公司实际上更愿意把事件数据保留在它们的 VPC 内部。"
+ },
+ {
+  "seg": 134,
+  "start": 943.294,
+  "end": 953.643,
+  "speaker": "Unknown",
+  "en": "And I think we're going to see more and more AI companies seriously considering deploying this architecture, this ledger, this metering within their VPC, rather the contrary of sending it over the internet.",
+  "zh": "我认为我们会看到越来越多的 AI 公司认真考虑在它们的 VPC 内部署这种架构、这种账本、这种计量,而不是相反地通过互联网发送出去。"
+ },
+ {
+  "seg": 135,
+  "start": 955.064,
+  "end": 969.652,
+  "speaker": "Unknown",
+  "en": "I think for agentic checks, to think about how agents spawn, the idea of checking balances, when agent does something you don't know in advance what they're ultimately going to do, how that task is going to basically cost.",
+  "zh": "我认为对于智能体检查来说,要思考智能体如何衍生,检查余额的想法,当智能体做某件事时,你无法提前知道它们最终会做什么,那个任务基本上会花费多少。"
+ },
+ {
+  "seg": 136,
+  "start": 969.932,
+  "end": 982.179,
+  "speaker": "Unknown",
+  "en": "So if you don't know the cost, you need to be able to check those balances as the agent continues to get work, and you need to be able to reserve and account for them in advance and then asynchronically after effect reconcile.",
+  "zh": "所以如果你不知道成本,你需要能够在智能体继续获取工作的过程中检查那些余额,你需要能够提前为它们做保留和记账,然后在事后异步地对账。"
+ },
+ {
+  "seg": 137,
+  "start": 985.757,
+  "end": 993.082,
+  "speaker": "Unknown",
+  "en": "Quickly moving forward, so ultimately if you have those systems in place, what you really gain out of it is visibility.",
+  "zh": "快速往前推进,所以最终如果你把这些系统都就位了,你从中真正获得的是可见性。"
+ },
+ {
+  "seg": 138,
+  "start": 993.462,
+  "end": 1001.188,
+  "speaker": "Unknown",
+  "en": "So it used to be given that for usage-based products you need visibility, but I think what happens today, it goes beyond just plain visibility.",
+  "zh": "过去对于基于用量的产品来说,需要可见性是理所当然的,但我认为今天发生的情况是,它超越了单纯的可见性。"
+ },
+ {
+  "seg": 139,
+  "start": 1002.309,
+  "end": 1009.734,
+  "speaker": "Unknown",
+  "en": "It means that effectively the ability to see for CFO, for CIO, consumption of AI workloads",
+  "zh": "它实际上意味着让 CFO、CIO 能够看到 AI 工作负载的消费"
+ },
+ {
+  "seg": 140,
+  "start": 1010.074,
+  "end": 1025.745,
+  "speaker": "Unknown",
+  "en": "Across different models, across different features, across different products is not just nice to have it becoming a table stakes, it becomes something that you can't do business without and we're going to see more and more companies expect to have this off the bat before they actually do business with you.",
+  "zh": "跨不同模型、跨不同功能、跨不同产品,这不再只是锦上添花,它正在成为入场门槛,变成没有它你就没法做生意的东西,而且我们会看到越来越多的公司期望在与你做生意之前就一开始就拥有这个。"
+ },
+ {
+  "seg": 141,
+  "start": 1029.462,
+  "end": 1035.485,
+  "speaker": "Unknown",
+  "en": "Really just giving some examples to how some of the best frontier AI companies are approaching some of this.",
+  "zh": "只是举一些例子,说明一些最顶尖的前沿 AI 公司是如何处理其中一些问题的。"
+ },
+ {
+  "seg": 142,
+  "start": 1035.665,
+  "end": 1038.706,
+  "speaker": "Unknown",
+  "en": "I think you're seeing the patterns already there.",
+  "zh": "我认为你们已经能看到这些模式了。"
+ },
+ {
+  "seg": 143,
+  "start": 1038.947,
+  "end": 1048.731,
+  "speaker": "Unknown",
+  "en": "So I think a lot of these companies already appreciate that you're no longer just selling software in the commodity way that we used to think about subscriptions and usage.",
+  "zh": "所以我认为很多这类公司已经认识到,你不再只是以我们过去思考订阅和用量的那种商品化方式销售软件。"
+ },
+ {
+  "seg": 144,
+  "start": 1049.131,
+  "end": 1051.593,
+  "speaker": "Unknown",
+  "en": "It's becoming more and more of a financial systems.",
+  "zh": "它正越来越变成一种金融系统。"
+ },
+ {
+  "seg": 145,
+  "start": 1051.913,
+  "end": 1057.515,
+  "speaker": "Unknown",
+  "en": "And financial systems require some of these complex ideas that were not there before AI.",
+  "zh": "而金融系统需要一些在 AI 出现之前并不存在的复杂概念。"
+ },
+ {
+  "seg": 146,
+  "start": 1059.076,
+  "end": 1066.818,
+  "speaker": "Unknown",
+  "en": "And I think just to give like one small example that I talked about earlier but I think might have gone a little bit hidden.",
+  "zh": "我想举一个我之前提到过但可能有点被忽略的小例子。"
+ },
+ {
+  "seg": 147,
+  "start": 1069.739,
+  "end": 1073.54,
+  "speaker": "Unknown",
+  "en": "One of the changes in April that OpenAI did is really they didn't change the pricing.",
+  "zh": "OpenAI 在四月份所做的变化之一,实际上是他们并没有改变定价。"
+ },
+ {
+  "seg": 148,
+  "start": 1073.66,
+  "end": 1076.941,
+  "speaker": "Unknown",
+  "en": "All they did was change the pace in which tokens get burned.",
+  "zh": "他们所做的只是改变了 token 被消耗的速度。"
+ },
+ {
+  "seg": 149,
+  "start": 1077.301,
+  "end": 1082.263,
+  "speaker": "Unknown",
+  "en": "So effectively you use the same model, we pay the same cost per unit but we burn more tokens.",
+  "zh": "所以实际上你使用同一个模型,我们支付同样的单位成本,但我们消耗更多的 token。"
+ },
+ {
+  "seg": 150,
+  "start": 1082.743,
+  "end": 1085.103,
+  "speaker": "Unknown",
+  "en": "So that effectively was a pricing change.",
+  "zh": "所以这实际上是一次定价变更。"
+ },
+ {
+  "seg": 151,
+  "start": 1085.443,
+  "end": 1086.944,
+  "speaker": "Unknown",
+  "en": "How do you execute such a change?",
+  "zh": "你如何执行这样的变更？"
+ },
+ {
+  "seg": 152,
+  "start": 1087.664,
+  "end": 1090.105,
+  "speaker": "Unknown",
+  "en": "Because it's not just financial change, it's an infrastructure change.",
+  "zh": "因为这不仅仅是财务上的变更，还是基础设施上的变更。"
+ },
+ {
+  "seg": 153,
+  "start": 1090.125,
+  "end": 1093.066,
+  "speaker": "Unknown",
+  "en": "You basically change the rate of how the software gets consumed.",
+  "zh": "你基本上改变了软件被消费的速率。"
+ },
+ {
+  "seg": 154,
+  "start": 1093.426,
+  "end": 1104.371,
+  "speaker": "Unknown",
+  "en": "So there's a lot of complexity, not in terms of just how we change pricing, but also how the infrastructure underneath allows for more complex ideas into how value is getting introduced to the users.",
+  "zh": "所以这里面有很多复杂性，不仅仅在于我们如何改变定价，还在于底层基础设施如何允许更复杂的想法，来体现价值是如何传递给用户的。"
+ },
+ {
+  "seg": 155,
+  "start": 1105.211,
+  "end": 1107.672,
+  "speaker": "Unknown",
+  "en": "And really just before wrapping up,",
+  "zh": "而在结束之前，"
+ },
+ {
+  "seg": 156,
+  "start": 1108.438,
+  "end": 1127.222,
+  "speaker": "Unknown",
+  "en": "You know, our team likes to say, and this is something we started to say more and more often than before, it really feels like, you know, there was in the early 2010s, there was this Stripe moment where every company wanted to ship product into the internet, and needed a checkout, and needed to be secure, and developers needed to make it easy for them",
+  "zh": "你知道，我们团队喜欢说——这是我们比以前越来越常说的一句话——真的感觉就像，你知道，在 2010 年代早期，有过一个 Stripe 时刻，每家公司都想把产品发布到互联网上，需要收银台功能，需要安全，开发者需要让这一切变得容易，"
+ },
+ {
+  "seg": 157,
+  "start": 1127.682,
+  "end": 1129.644,
+  "speaker": "Unknown",
+  "en": "to quickly get them up and running.",
+  "zh": "让他们能快速上线运行起来。"
+ },
+ {
+  "seg": 158,
+  "start": 1130.044,
+  "end": 1134.507,
+  "speaker": "Unknown",
+  "en": "I feel like where we are today is those ideas of building a bank.",
+  "zh": "我觉得我们今天所处的位置，就是那种构建银行的理念。"
+ },
+ {
+  "seg": 159,
+  "start": 1134.607,
+  "end": 1139.331,
+  "speaker": "Unknown",
+  "en": "It's okay if you feel like, I don't know, you like wearing suit and tie, maybe you want to build a bank.",
+  "zh": "如果你觉得，我不知道，你喜欢穿西装打领带，也许你想去构建一家银行，那也没问题。"
+ },
+ {
+  "seg": 160,
+  "start": 1139.931,
+  "end": 1150.939,
+  "speaker": "Unknown",
+  "en": "But if you are building a bank, you probably want to be aware of all of these traits and elements that has to be there so you don't meet them down the line where it gets really, really more complex to fix in hindsight.",
+  "zh": "但如果你要构建一家银行，你最好清楚所有这些必须具备的特质和要素，这样你才不会在事后遇到它们——那时候要修起来会真的、真的复杂得多。"
+ },
+ {
+  "seg": 161,
+  "start": 1151.479,
+  "end": 1167.327,
+  "speaker": "Unknown",
+  "en": "And so it feels like the industry really misses its Stripe moment where all these constructs just exist and they're so easy to use and there's a lot of excitement from our team when it comes to the potential of having such systems ready and help AI companies keep shipping.",
+  "zh": "所以感觉这个行业真的很缺它的 Stripe 时刻——所有这些架构组件都已经存在，而且非常易用。当想到这样的系统就绪、能帮助 AI 公司持续发布产品时，我们团队感到非常兴奋。"
+ },
+ {
+  "seg": 162,
+  "start": 1169.147,
+  "end": 1172.328,
+  "speaker": "Unknown",
+  "en": "If any of that was interesting, really come by our booth.",
+  "zh": "如果这些内容里有任何让你感兴趣的，真的欢迎来我们的展位。"
+ },
+ {
+  "seg": 163,
+  "start": 1172.548,
+  "end": 1176.649,
+  "speaker": "Unknown",
+  "en": "We are in quite a weird location right at the start but still there.",
+  "zh": "我们现在的位置相当奇怪，就在入口处，但我们还在那儿。"
+ },
+ {
+  "seg": 164,
+  "start": 1177.29,
+  "end": 1178.45,
+  "speaker": "Unknown",
+  "en": "I know there's a game right now.",
+  "zh": "我知道现在有个游戏正在进行。"
+ },
+ {
+  "seg": 165,
+  "start": 1178.55,
+  "end": 1179.11,
+  "speaker": "Unknown",
+  "en": "Come visit.",
+  "zh": "过来看看吧。"
+ },
+ {
+  "seg": 166,
+  "start": 1179.15,
+  "end": 1180.371,
+  "speaker": "Unknown",
+  "en": "We're demoing the product.",
+  "zh": "我们在做产品演示。"
+ },
+ {
+  "seg": 167,
+  "start": 1180.411,
+  "end": 1182.951,
+  "speaker": "Unknown",
+  "en": "Feel free to ask any questions and thank you for coming today.",
+  "zh": "欢迎随时提问，感谢大家今天的到来。"
+ },
+ {
+  "seg": 168,
+  "start": 1183.311,
+  "end": 1188.793,
+  "speaker": "Unknown",
+  "en": "It was awesome to have you with me and yeah, love to nerd some more by our booth.",
+  "zh": "很高兴有你在，是的，欢迎来我们展位继续聊技术。"
+ },
+ {
+  "seg": 169,
+  "start": 1198.634,
+  "end": 1199.84,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Astro Teller]] · [[X]] · [[Waymo]] · [[Google Brain]] · [[Wing]] · [[Moonshot]] · [[终止标准]] · [[可检验假设]] · [[登月市场匹配]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":3,"Waymo":21,"Google Brain":1,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":30}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":4,"Waymo":21,"Google Brain":1,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":30}</script>
 
 <script>
 (function(){

@@ -201,7 +201,7 @@ Max Freeman 到今天还在打陌生电话，每天至少发 5 封陌生邮件 <
 
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行]]<span class="pd-rz">同公司:Ramp · 同概念:智能体 (agent)</span>
 - [[2026-09-13-yc-8-ways-to-improve-your-outbound-sales-e3|外呼回复率接近零？创始人卖货的八个实操技巧]]<span class="pd-rz">同概念:外呼销售 (outbound)</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同概念:智能体 (agent)</span>
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|AI 会毁灭人类？传奇投资人 Rabois 说你想多了]]<span class="pd-rz">同公司:Ramp</span>
 
 </div>
 <div class="pd-ex">

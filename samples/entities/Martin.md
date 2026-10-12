@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":86,"智能体":471,"token":32,"harness":63,"上下文窗口":17,"提示词":3,"缓存":1,"压缩":4,"模型选择":1}</script>
+<script type="application/json" class="pd-epn">{"Santi Garza":1,"Cursor":86,"智能体":473,"token":33,"harness":63,"上下文窗口":17,"提示词":3,"缓存":1,"压缩":4,"模型选择":1}</script>
 
 <script>
 (function(){

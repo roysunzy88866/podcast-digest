@@ -7,29 +7,42 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Josh Ellman</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Josh Ellman">JO</div><div class="pi"><h1 class="pt">Josh Ellman</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Josh Ellman">JO</div><div class="pi"><h1 class="pt">Josh Ellman</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*8 条*
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q1]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q2]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q4]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q5]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q8]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q9]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q12]]
+
+![[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i#^q13]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i|《硅谷的隐形货币：别人愿不愿意为你背书》]] — 作为联合主持
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Olivia Moore]] · [[Elena Berger]] · [[智能体]] · [[ChatGPT]] · [[Claude]] · [[Gemini]] · [[OpenAI]] · [[Anthropic]] · [[Muse]] · [[Instinct]]
+[[Olivia Moore]] · [[David Booth]] · [[Elena Berger]] · [[Cosign]] · [[智能体]] · [[背书]] · [[ChatGPT]] · [[职业声誉]] · [[Claude]] · [[社会资本]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Olivia Moore":2,"Elena Berger":5,"智能体":471,"ChatGPT":108,"Claude":93,"Gemini":16,"OpenAI":193,"Anthropic":198,"Muse":7,"Instinct":5}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"David Booth":1,"Elena Berger":5,"Cosign":1,"智能体":473,"背书":1,"ChatGPT":108,"职业声誉":1,"Claude":93,"社会资本":1}</script>
 
 <script>
 (function(){

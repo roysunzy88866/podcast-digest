@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI":30,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":7,"Brookfield":1,"Berkshire Hathaway":2}</script>
+<script type="application/json" class="pd-epn">{"AI":32,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":7,"Brookfield":1,"Berkshire Hathaway":2}</script>
 
 <script>
 (function(){

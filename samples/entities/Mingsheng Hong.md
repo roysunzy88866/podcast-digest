@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":32,"代码审查":24,"CI-CD":16,"不稳定的测试":1,"智能体循环":6,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
+<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":33,"代码审查":24,"CI-CD":16,"不稳定的测试":1,"智能体循环":6,"提示词缓存":4,"上下文修剪":1,"代码行数":2}</script>
 
 <script>
 (function(){

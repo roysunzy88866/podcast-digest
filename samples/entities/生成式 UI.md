@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[沙箱]] · [[Claude]] · [[ChatGPT]] · [[Wes Bos]] · [[Gus Iwanaga]] · [[Jeremiah Lowin]] · [[Kevin Hou]] · [[Ben Thompson]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"MCP":85,"沙箱":94,"Claude":93,"ChatGPT":108,"Wes Bos":1,"Gus Iwanaga":1,"Jeremiah Lowin":1,"Kevin Hou":1,"Ben Thompson":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"MCP":85,"沙箱":94,"Claude":93,"ChatGPT":108,"Wes Bos":1,"Gus Iwanaga":1,"Jeremiah Lowin":1,"Kevin Hou":1,"Ben Thompson":2}</script>
 
 <script>
 (function(){

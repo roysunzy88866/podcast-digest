@@ -1,0 +1,1306 @@
+[
+ {
+  "seg": 0,
+  "start": 12.773,
+  "end": 13.353,
+  "speaker": "Unknown",
+  "en": "Hey, folks.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.894,
+  "end": 17.976,
+  "speaker": "Unknown",
+  "en": "I'm Davis Palmy, a member of technical staff here at Factory.",
+  "zh": "我是 Davis Palmy,Factory 的技术成员。"
+ },
+ {
+  "seg": 2,
+  "start": 19.157,
+  "end": 28.442,
+  "speaker": "Unknown",
+  "en": "Before this, I co-founded Lumetric, which was an agent platform for investment teams that we took through Y Combinator and was acquired by Factory.",
+  "zh": "在此之前，我联合创办了 Lumetric,这是一个面向投资团队的智能体平台，我们带着它经历了 Y Combinator,后来被 Factory 收购。"
+ },
+ {
+  "seg": 3,
+  "start": 28.923,
+  "end": 33.465,
+  "speaker": "Unknown",
+  "en": "And prior to that, I was an engineering lead for Slalom's innovation lab.",
+  "zh": "在那之前，我是 Slalom 创新实验室的工程负责人。"
+ },
+ {
+  "seg": 4,
+  "start": 34.326,
+  "end": 40.83,
+  "speaker": "Unknown",
+  "en": "So I've seen AI deployments both across large enterprises and more AI-native orgs.",
+  "zh": "所以我在大型企业和更 AI 原生的组织中都见过 AI 部署。"
+ },
+ {
+  "seg": 5,
+  "start": 41.718,
+  "end": 53.703,
+  "speaker": "Unknown",
+  "en": "With that in mind, today I'm going to be talking to you about the software factory and how you can move towards an autonomous system that translates input signals into production code.",
+  "zh": "基于这些经验，今天我要和你们谈的是软件工厂，以及你如何迈向一个把输入信号转化为生产代码的自主系统。"
+ },
+ {
+  "seg": 6,
+  "start": 55.224,
+  "end": 61.347,
+  "speaker": "Unknown",
+  "en": "So first, we've moved through three distinct eras of AI engineering.",
+  "zh": "首先，我们已经经历了 AI 工程的三个截然不同的时代。"
+ },
+ {
+  "seg": 7,
+  "start": 62.327,
+  "end": 70.391,
+  "speaker": "Unknown",
+  "en": "First, we had tab autocomplete, next token prediction, and the engineer was still firmly in the driver's seat.",
+  "zh": "第一，我们有过 tab 自动补全、下一个 token 预测，那时工程师仍然牢牢坐在驾驶座上。"
+ },
+ {
+  "seg": 8,
+  "start": 71.725,
+  "end": 74.407,
+  "speaker": "Unknown",
+  "en": "Then AI could generate entire files.",
+  "zh": "然后 AI 可以生成整个文件了。"
+ },
+ {
+  "seg": 9,
+  "start": 74.627,
+  "end": 79.149,
+  "speaker": "Unknown",
+  "en": "And the software engineer became a bit of a discerning copy-paster.",
+  "zh": "软件工程师变成了一个有点挑剔的复制粘贴者。"
+ },
+ {
+  "seg": 10,
+  "start": 79.79,
+  "end": 82.771,
+  "speaker": "Unknown",
+  "en": "But they still heavily had control over the output of the AI.",
+  "zh": "但他们仍然在很大程度上控制着 AI 的输出。"
+ },
+ {
+  "seg": 11,
+  "start": 83.792,
+  "end": 86.974,
+  "speaker": "Unknown",
+  "en": "And then you had agents that were more tightly coupled with the code.",
+  "zh": "接着出现了与代码耦合得更紧密的智能体。"
+ },
+ {
+  "seg": 12,
+  "start": 87.454,
+  "end": 91.877,
+  "speaker": "Unknown",
+  "en": "They could gather their own context, call tools, and debug their own output.",
+  "zh": "它们可以自己收集上下文、调用工具、调试自己的输出。"
+ },
+ {
+  "seg": 13,
+  "start": 92.87,
+  "end": 99.158,
+  "speaker": "Unknown",
+  "en": "Now, autocomplete used to feel magical, and now, at best, it's a quaint thing we remember.",
+  "zh": "曾经，自动补全感觉很有魔力，而现在，往好了说，它只是我们记忆中一种古雅的东西。"
+ },
+ {
+  "seg": 14,
+  "start": 99.959,
+  "end": 110.792,
+  "speaker": "Unknown",
+  "en": "You want to look at the speed at which AI engineering is climbing the abstraction ladder, from tokens to files to context, now to entire systems.",
+  "zh": "你要看看 AI 工程攀爬抽象阶梯的速度，从 token 到文件到上下文，现在到整个系统。"
+ },
+ {
+  "seg": 15,
+  "start": 112.235,
+  "end": 115.178,
+  "speaker": "Unknown",
+  "en": "Every shift you have here is an adjustment.",
+  "zh": "你在这里经历的每一次转变都是一次调整。"
+ },
+ {
+  "seg": 16,
+  "start": 115.938,
+  "end": 122.704,
+  "speaker": "Unknown",
+  "en": "But each move up the abstraction ladder has made engineers more valuable, not less.",
+  "zh": "但抽象阶梯上的每一次上移都让工程师更有价值，而不是更没价值。"
+ },
+ {
+  "seg": 17,
+  "start": 124.446,
+  "end": 126.247,
+  "speaker": "Unknown",
+  "en": "And so now we're at a transformational point.",
+  "zh": "所以现在我们正处于一个变革性的节点。"
+ },
+ {
+  "seg": 18,
+  "start": 127.088,
+  "end": 132.312,
+  "speaker": "Unknown",
+  "en": "Engineers are going from typing code to governing agents.",
+  "zh": "工程师正在从敲代码转向治理智能体。"
+ },
+ {
+  "seg": 19,
+  "start": 132.793,
+  "end": 136.416,
+  "speaker": "Unknown",
+  "en": "And eventually, you'll organize those agents into a system.",
+  "zh": "最终，你会把这些智能体组织成一个系统。"
+ },
+ {
+  "seg": 20,
+  "start": 137.457,
+  "end": 138.658,
+  "speaker": "Unknown",
+  "en": "That's your software factory.",
+  "zh": "那就是你的软件工厂。"
+ },
+ {
+  "seg": 21,
+  "start": 139.732,
+  "end": 150.935,
+  "speaker": "Unknown",
+  "en": "So with this, the engineer's role shifts to keeping guardrails tight, catching code drift, and setting the high level priorities and direction.",
+  "zh": "由此，工程师的角色转变为保持护栏收紧、捕捉代码漂移、设定高层优先级和方向。"
+ },
+ {
+  "seg": 22,
+  "start": 151.975,
+  "end": 161.497,
+  "speaker": "Unknown",
+  "en": "But meanwhile, the system is ingesting input signals like bug reports or user feedback and outputting production code.",
+  "zh": "与此同时，这个系统在摄取诸如 bug 报告或用户反馈之类的输入信号，并输出生产代码。"
+ },
+ {
+  "seg": 23,
+  "start": 163.579,
+  "end": 171.785,
+  "speaker": "Unknown",
+  "en": "So if you have AI systems that are producing more code than humans, there are some big questions that everyone is rightly asking.",
+  "zh": "所以，如果你拥有的 AI 系统产出的代码比人类还多，有一些重大的问题是每个人都在理所当然地提出的。"
+ },
+ {
+  "seg": 24,
+  "start": 172.686,
+  "end": 177.009,
+  "speaker": "Unknown",
+  "en": "First, how can I prevent massive cost overruns?",
+  "zh": "第一，我如何防止巨额的成本超支？"
+ },
+ {
+  "seg": 25,
+  "start": 177.89,
+  "end": 189.679,
+  "speaker": "Unknown",
+  "en": "We've all seen the headlines about Uber's CTO blowing through the year's AI budget by April or Microsoft clawing back Claude code licenses to try and cut down on spend.",
+  "zh": "我们都看过那些头条新闻：Uber 的 CTO 到四月就烧光了全年 AI 预算，或者 Microsoft 收回 Claude code 许可证以试图削减开支。"
+ },
+ {
+  "seg": 26,
+  "start": 190.93,
+  "end": 194.092,
+  "speaker": "Unknown",
+  "en": "At Factory, you're not locked into a single model provider.",
+  "zh": "在 Factory,你不会被锁定在单一的模型供应商上。"
+ },
+ {
+  "seg": 27,
+  "start": 194.792,
+  "end": 199.935,
+  "speaker": "Unknown",
+  "en": "And this means you unlock the entire spectrum of cost performance with LLMs.",
+  "zh": "这意味着你可以解锁 LLM 成本性能的整个光谱。"
+ },
+ {
+  "seg": 28,
+  "start": 201.336,
+  "end": 209.22,
+  "speaker": "Unknown",
+  "en": "You want the maximum cost efficiency and the minimum effectiveness necessary for each task.",
+  "zh": "你要的是每个任务以最低限度的有效性所允许的最大成本效率。"
+ },
+ {
+  "seg": 29,
+  "start": 209.98,
+  "end": 218.285,
+  "speaker": "Unknown",
+  "en": "As our CEO likes to say, if your kid needs a algebra tutor, you can definitely find someone cheaper than Albert Einstein.",
+  "zh": "正如我们 CEO 喜欢说的，如果你的孩子需要一位代数家教，你肯定能找到比 Albert Einstein 便宜的人。"
+ },
+ {
+  "seg": 30,
+  "start": 219.975,
+  "end": 226.838,
+  "speaker": "Unknown",
+  "en": "Second point, how can I ensure the best access to whatever model is top right now?",
+  "zh": "第二点，我如何确保对当下最顶尖模型的最佳访问？"
+ },
+ {
+  "seg": 31,
+  "start": 227.038,
+  "end": 236.262,
+  "speaker": "Unknown",
+  "en": "Well, we think that having to back the right horse is a false choice, especially with the increasing effectiveness of open source models.",
+  "zh": "嗯，我们认为必须押对马是个伪选择，尤其是在开源模型日益有效的情况下。"
+ },
+ {
+  "seg": 32,
+  "start": 237.042,
+  "end": 243.665,
+  "speaker": "Unknown",
+  "en": "We're strong proponents of being able to choose the right tool for the right job or even now have it dynamically routed.",
+  "zh": "我们是「为合适的工作选择合适的工具」的坚定支持者，甚至现在还能动态路由。"
+ },
+ {
+  "seg": 33,
+  "start": 245.487,
+  "end": 248.349,
+  "speaker": "Unknown",
+  "en": "Number three, what happens to software engineers?",
+  "zh": "第三，软件工程师会怎么样？"
+ },
+ {
+  "seg": 34,
+  "start": 248.369,
+  "end": 251.051,
+  "speaker": "Unknown",
+  "en": "What does the future of software engineering look like?",
+  "zh": "软件工程的未来会是什么样子？"
+ },
+ {
+  "seg": 35,
+  "start": 251.952,
+  "end": 258.797,
+  "speaker": "Unknown",
+  "en": "Well, the role is obviously evolving, and the line between product and engineering is blurring.",
+  "zh": "嗯，这个角色显然在演变，产品与工程之间的界线正在模糊。"
+ },
+ {
+  "seg": 36,
+  "start": 259.898,
+  "end": 270.326,
+  "speaker": "Unknown",
+  "en": "Engineers will now build and maintain the system that's responsible for building your production code, and they'll set the high-level direction for the software factory.",
+  "zh": "工程师现在将构建和维护那个负责构建你生产代码的系统，并为软件工厂设定高层方向。"
+ },
+ {
+  "seg": 37,
+  "start": 272.335,
+  "end": 275.077,
+  "speaker": "Unknown",
+  "en": "And lastly, how is this going to change the organization?",
+  "zh": "最后，这将如何改变组织？"
+ },
+ {
+  "seg": 38,
+  "start": 275.557,
+  "end": 283.663,
+  "speaker": "Unknown",
+  "en": "Well, team boundaries are also starting to blur, and context needs to flow seamlessly across these boundaries.",
+  "zh": "嗯，团队边界也开始模糊，上下文需要无缝地跨越这些边界流动。"
+ },
+ {
+  "seg": 39,
+  "start": 284.924,
+  "end": 287.186,
+  "speaker": "Unknown",
+  "en": "Information can't be siloed.",
+  "zh": "信息不能被孤岛化。"
+ },
+ {
+  "seg": 40,
+  "start": 287.326,
+  "end": 291.289,
+  "speaker": "Unknown",
+  "en": "That was true for humans, but it's especially true for AI agents.",
+  "zh": "对人类来说是这样，对 AI 智能体来说尤其如此。"
+ },
+ {
+  "seg": 41,
+  "start": 292.37,
+  "end": 298.434,
+  "speaker": "Unknown",
+  "en": "Everyone across all your teams will have a shared responsibility for the pillars of the software factory.",
+  "zh": "你所有团队的每个人都将对软件工厂的支柱负有共同责任。"
+ },
+ {
+  "seg": 42,
+  "start": 301.354,
+  "end": 303.415,
+  "speaker": "Unknown",
+  "en": "Coding was the easy part.",
+  "zh": "编码是容易的部分。"
+ },
+ {
+  "seg": 43,
+  "start": 304.076,
+  "end": 305.777,
+  "speaker": "Unknown",
+  "en": "This actually was never the bottleneck.",
+  "zh": "这其实从来都不是瓶颈。"
+ },
+ {
+  "seg": 44,
+  "start": 306.137,
+  "end": 309.098,
+  "speaker": "Unknown",
+  "en": "Your context is laid out in natural language.",
+  "zh": "你的上下文是用自然语言铺陈的。"
+ },
+ {
+  "seg": 45,
+  "start": 310.219,
+  "end": 316.743,
+  "speaker": "Unknown",
+  "en": "I bet if you look at your real engineering metrics, what's the median time to review a PR?",
+  "zh": "我敢打赌，如果你看看你真实的工程指标：审查一个 PR 的中位时间是多少？"
+ },
+ {
+  "seg": 46,
+  "start": 317.683,
+  "end": 322.826,
+  "speaker": "Unknown",
+  "en": "How long does it take you to reproduce user bug reports or go through and debug code?",
+  "zh": "你要花多久来复现用户的 bug 报告，或者逐个调试代码？"
+ },
+ {
+  "seg": 47,
+  "start": 324.247,
+  "end": 326.228,
+  "speaker": "Unknown",
+  "en": "Who keeps your docs current with every PR?",
+  "zh": "谁让你的文档跟上每一个 PR?"
+ },
+ {
+  "seg": 48,
+  "start": 326.748,
+  "end": 329.33,
+  "speaker": "Unknown",
+  "en": "And who keeps it current with every strategy meeting?",
+  "zh": "又谁让它跟上每一次战略会议？"
+ },
+ {
+  "seg": 49,
+  "start": 330.325,
+  "end": 331.486,
+  "speaker": "Unknown",
+  "en": "Who maintains your test suites?",
+  "zh": "谁维护你的测试套件？"
+ },
+ {
+  "seg": 50,
+  "start": 332.266,
+  "end": 337.488,
+  "speaker": "Unknown",
+  "en": "Oftentimes, the testing teams and the engineering teams and the product teams are each on their own continent.",
+  "zh": "很多时候，测试团队、工程团队和产品团队各自待在各自的大陆上。"
+ },
+ {
+  "seg": 51,
+  "start": 338.309,
+  "end": 348.253,
+  "speaker": "Unknown",
+  "en": "If you pull your Dora metric, the time from code written to time in production, I would bet dwarfs the time actually making those engineering changes.",
+  "zh": "如果你拉取你的 Dora 指标，从代码写完到进入生产环境的时间，我敢打赌它远远超过实际做那些工程改动所花的时间。"
+ },
+ {
+  "seg": 52,
+  "start": 350.055,
+  "end": 354.056,
+  "speaker": "Unknown",
+  "en": "The real need you have today is cohesion across all of these surfaces.",
+  "zh": "你今天真正需要的是跨所有这些界面的协同一致。"
+ },
+ {
+  "seg": 53,
+  "start": 354.716,
+  "end": 364.358,
+  "speaker": "Unknown",
+  "en": "Right now, docs will go stale, dead code lingers, and there are so many layers of communications between your different teams.",
+  "zh": "现在的情况是，文档会过时，死代码会残留，而且你的不同团队之间隔着这么多层的沟通。"
+ },
+ {
+  "seg": 54,
+  "start": 365.619,
+  "end": 371.4,
+  "speaker": "Unknown",
+  "en": "Again, this is hard for human engineers, but it is especially more pronounced for agents.",
+  "zh": "再说一遍，这对人类工程师来说很难，但对智能体来说更加明显。"
+ },
+ {
+  "seg": 55,
+  "start": 373.022,
+  "end": 382.731,
+  "speaker": "Unknown",
+  "en": "The necessary undertaking to build your factory is to make sure the agents can bridge all of these services and understand the nuance within your organization.",
+  "zh": "建设你的工厂所必需的工作，是确保智能体能够桥接所有这些服务，并理解你组织内部的细微差别。"
+ },
+ {
+  "seg": 56,
+  "start": 384.212,
+  "end": 394.201,
+  "speaker": "Unknown",
+  "en": "So this brings us to the software factory, which is the system of agents that will take you from input signal to production deployment.",
+  "zh": "这就引出了软件工厂，它是一套智能体系统，会带你从输入信号走向生产部署。"
+ },
+ {
+  "seg": 57,
+  "start": 395.517,
+  "end": 397.998,
+  "speaker": "Unknown",
+  "en": "Your agent's not just coding anymore.",
+  "zh": "你的智能体不再只是写代码了。"
+ },
+ {
+  "seg": 58,
+  "start": 398.598,
+  "end": 407.342,
+  "speaker": "Unknown",
+  "en": "It's taking on customer support, product, engineering, deployment ops, and many other roles across these pillars.",
+  "zh": "它在承担客户支持、产品、工程、部署运维，以及这些支柱中的许多其他角色。"
+ },
+ {
+  "seg": 59,
+  "start": 408.402,
+  "end": 422.068,
+  "speaker": "Unknown",
+  "en": "Your agent should be triaging incidents, making plans, creating and updating docs, actually executing the code, reviewing it, testing it, rolling it out, and then monitoring that release.",
+  "zh": "你的智能体应该对事件做分诊、制定计划、创建和更新文档、实际执行代码、审查它、测试它、发布它，然后监控那次发布。"
+ },
+ {
+  "seg": 60,
+  "start": 424.511,
+  "end": 426.713,
+  "speaker": "Unknown",
+  "en": "That's obviously a ton of work.",
+  "zh": "这显然是一大堆工作。"
+ },
+ {
+  "seg": 61,
+  "start": 427.775,
+  "end": 430.157,
+  "speaker": "Unknown",
+  "en": "And you don't want to jump into that all at once.",
+  "zh": "而你不会想一下子全部跳进去。"
+ },
+ {
+  "seg": 62,
+  "start": 430.557,
+  "end": 433.34,
+  "speaker": "Unknown",
+  "en": "For one, it's too heavy of an undertaking.",
+  "zh": "一方面，这是个过于沉重的工程。"
+ },
+ {
+  "seg": 63,
+  "start": 433.641,
+  "end": 438.566,
+  "speaker": "Unknown",
+  "en": "But for two, your teams will not have time to build trust in this system.",
+  "zh": "另一方面，你的团队将没有时间在这个系统上建立信任。"
+ },
+ {
+  "seg": 64,
+  "start": 439.767,
+  "end": 444.672,
+  "speaker": "Unknown",
+  "en": "You want to start with something narrow and verifiable, like incident triage.",
+  "zh": "你要从狭窄且可验证的事情开始，比如事件分诊。"
+ },
+ {
+  "seg": 65,
+  "start": 445.608,
+  "end": 451.174,
+  "speaker": "Unknown",
+  "en": "Let your agent read a sentry alert, pull the traces in other contexts, and then post in Slack.",
+  "zh": "让你的智能体读取一条 sentry 告警，拉取调用链路和其他上下文，然后发到 Slack。"
+ },
+ {
+  "seg": 66,
+  "start": 451.634,
+  "end": 456.299,
+  "speaker": "Unknown",
+  "en": "But keep it so your engineers can review this and decide what to do.",
+  "zh": "但要保持在你的工程师可以审查这些内容并决定怎么做的前提下。"
+ },
+ {
+  "seg": 67,
+  "start": 457.1,
+  "end": 465.589,
+  "speaker": "Unknown",
+  "en": "And as more correct diagnoses roll in and in from the agent, your team can start to build trust and an understanding of this pillar.",
+  "zh": "随着智能体给出越来越多正确的诊断，你的团队就能开始建立对这个支柱的信任和理解。"
+ },
+ {
+  "seg": 68,
+  "start": 466.553,
+  "end": 474.939,
+  "speaker": "Unknown",
+  "en": "So each step in the software factory needs careful ownership and monitoring before you even think about letting the pipeline loop.",
+  "zh": "所以，在你考虑让流水线循环起来之前，软件工厂中的每一步都需要仔细的归属和监控。"
+ },
+ {
+  "seg": 69,
+  "start": 475.179,
+  "end": 485.686,
+  "speaker": "Unknown",
+  "en": "But once you can tie the output of this system back to the input signal, that's when you unlock organizational self-improvement.",
+  "zh": "但一旦你能把这个系统的输出回连到输入信号，那时你就解锁了组织的自我改进。"
+ },
+ {
+  "seg": 70,
+  "start": 487.908,
+  "end": 493.532,
+  "speaker": "Unknown",
+  "en": "Now, we feel pretty strongly that your software factory should have a few key principles.",
+  "zh": "现在，我们非常强烈地认为，你的软件工厂应该有几条关键原则。"
+ },
+ {
+  "seg": 71,
+  "start": 494.748,
+  "end": 497.509,
+  "speaker": "Unknown",
+  "en": "First, it should be model agnostic.",
+  "zh": "第一，它应该是模型无关的。"
+ },
+ {
+  "seg": 72,
+  "start": 498.75,
+  "end": 504.772,
+  "speaker": "Unknown",
+  "en": "Obviously, different models excel at different tasks and with very different cost efficiencies.",
+  "zh": "显然，不同的模型擅长不同的任务，而且成本效率差异非常大。"
+ },
+ {
+  "seg": 73,
+  "start": 505.952,
+  "end": 515.196,
+  "speaker": "Unknown",
+  "en": "We found, for instance, that you can achieve the same performance on code review with GPT 5.2 as with the latest Opus models, but at half the price.",
+  "zh": "举例来说，我们发现你在代码审查上用 GPT 5.2 可以达到和最新 Opus 模型相同的性能，但价格只有一半。"
+ },
+ {
+  "seg": 74,
+  "start": 516.036,
+  "end": 523.319,
+  "speaker": "Unknown",
+  "en": "And now if you look at the open source alternatives, that can slash your costs down to 10 to 30x cheaper.",
+  "zh": "现在如果你看看开源替代品，可以把你的成本砍到便宜 10 到 30 倍。"
+ },
+ {
+  "seg": 75,
+  "start": 524.745,
+  "end": 530.607,
+  "speaker": "Unknown",
+  "en": "So at Factory, again, you have the entire interplay of speed to task, efficacy to cost.",
+  "zh": "所以在工厂里，你面对的是速度对任务、效果对成本的整个相互作用。"
+ },
+ {
+  "seg": 76,
+  "start": 531.627,
+  "end": 537.93,
+  "speaker": "Unknown",
+  "en": "Not being locked into a single lab means you unlock the entire Pareto frontier of LLMs.",
+  "zh": "不被锁定在单一实验室，意味着你解锁了 LLM 的整条帕累托前沿。"
+ },
+ {
+  "seg": 77,
+  "start": 539.47,
+  "end": 543.692,
+  "speaker": "Unknown",
+  "en": "Now, number two, your deployment model should be sovereign.",
+  "zh": "第二，你的部署模型应该是自主可控的。"
+ },
+ {
+  "seg": 78,
+  "start": 545.052,
+  "end": 552.495,
+  "speaker": "Unknown",
+  "en": "You shouldn't have to compromise on your security architecture or your policies to try and fit your AI deployment model in.",
+  "zh": "你不应该为了迁就你的 AI 部署模型而妥协于你的安全架构或策略。"
+ },
+ {
+  "seg": 79,
+  "start": 553.861,
+  "end": 557.442,
+  "speaker": "Unknown",
+  "en": "Now, at factory, you can choose your workspace and your deployment model.",
+  "zh": "在 factory，你可以选择你的工作区和部署模型。"
+ },
+ {
+  "seg": 80,
+  "start": 557.582,
+  "end": 563.664,
+  "speaker": "Unknown",
+  "en": "We support everything from fully managed to bring your own machine to entirely air-gapped.",
+  "zh": "我们支持从全托管到自带机器再到完全气隙隔离的一切形式。"
+ },
+ {
+  "seg": 81,
+  "start": 565.224,
+  "end": 569.825,
+  "speaker": "Unknown",
+  "en": "And number three, your software factory needs to be integrated across the SDLC.",
+  "zh": "第三，你的软件工厂需要贯穿整个 SDLC 集成。"
+ },
+ {
+  "seg": 82,
+  "start": 570.846,
+  "end": 573.846,
+  "speaker": "Unknown",
+  "en": "These are no longer separate uncoupled concerns.",
+  "zh": "这些不再是彼此分离、互不关联的关注点。"
+ },
+ {
+  "seg": 83,
+  "start": 574.667,
+  "end": 578.848,
+  "speaker": "Unknown",
+  "en": "Docs changing should inform your code and vice versa.",
+  "zh": "文档的变更应该反哺你的代码，反之亦然。"
+ },
+ {
+  "seg": 84,
+  "start": 579.845,
+  "end": 589.512,
+  "speaker": "Unknown",
+  "en": "Planning goals should inform what you test for, not however many communication layers there are between strategy, product, engineering, and your testing teams.",
+  "zh": "规划目标应该决定你测试什么，而不是在战略、产品、工程和你的测试团队之间隔着多少层沟通。"
+ },
+ {
+  "seg": 85,
+  "start": 590.833,
+  "end": 599.078,
+  "speaker": "Unknown",
+  "en": "Each one of these pillars supports the software factory, and weakness in one means a weakness in the entire system.",
+  "zh": "这些支柱中的每一个都在支撑软件工厂，其中任何一处薄弱都意味着整个系统的薄弱。"
+ },
+ {
+  "seg": 86,
+  "start": 600.98,
+  "end": 606.984,
+  "speaker": "Unknown",
+  "en": "So tactically, in an AI-native org, what does this look like?",
+  "zh": "那么从战术上说，在一个 AI 原生的组织里，这看起来是什么样子？"
+ },
+ {
+  "seg": 87,
+  "start": 608.125,
+  "end": 618.308,
+  "speaker": "Unknown",
+  "en": "Well, we typically see it as the fusion and the incremental automation of many subteams under the umbrella of one software factory.",
+  "zh": "我们通常把它看作是在一个软件工厂的伞形结构下，许多子团队的融合与渐进式自动化。"
+ },
+ {
+  "seg": 88,
+  "start": 619.708,
+  "end": 637.333,
+  "speaker": "Unknown",
+  "en": "Some really common patterns we see are triaging incoming signals like sentry alerts, having the agent make a diagnosis before the human can even answer the page, proactively testing security, scanning for secrets or vulnerabilities,",
+  "zh": "我们看到的一些非常常见的模式包括：对进入的信号做分诊，比如 sentry 告警，让智能体在人类甚至还没来得及响应呼叫之前就做出诊断；主动进行安全测试，扫描密钥或漏洞；"
+ },
+ {
+  "seg": 89,
+  "start": 638.722,
+  "end": 644.944,
+  "speaker": "Unknown",
+  "en": "Creating, maintaining your tests, monitoring the ones that are becoming brittle or unneeded.",
+  "zh": "创建、维护你的测试，监控那些正在变得脆弱或不再需要的测试。"
+ },
+ {
+  "seg": 90,
+  "start": 646.505,
+  "end": 651.266,
+  "speaker": "Unknown",
+  "en": "Again, keeping docs in sync with code, keeping docs in sync with your different meeting channels.",
+  "zh": "再比如，让文档与代码保持同步，让文档与你不同的会议渠道保持同步。"
+ },
+ {
+  "seg": 91,
+  "start": 652.427,
+  "end": 657.929,
+  "speaker": "Unknown",
+  "en": "And then the classic, reviewing code, commenting on PRs, rollouts, monitoring releases.",
+  "zh": "还有经典的那些：审查代码、在 PR 上评论、发布上线、监控发布。"
+ },
+ {
+  "seg": 92,
+  "start": 659.909,
+  "end": 666.852,
+  "speaker": "Unknown",
+  "en": "And with the agent doing all of this, the human engineer's role shifts to responding, to exercising judgment,",
+  "zh": "而随着智能体做了所有这些事，人类工程师的角色转变为响应、行使判断力，"
+ },
+ {
+  "seg": 93,
+  "start": 668.02,
+  "end": 671.861,
+  "speaker": "Unknown",
+  "en": "And correcting the AI in such a way that it can learn from these mistakes.",
+  "zh": "以及以能让 AI 从这些错误中学习的方式纠正它。"
+ },
+ {
+  "seg": 94,
+  "start": 673.161,
+  "end": 676.562,
+  "speaker": "Unknown",
+  "en": "Now, everything is transitive across sub teams.",
+  "zh": "现在，一切在子团队之间都是可传递的。"
+ },
+ {
+  "seg": 95,
+  "start": 677.423,
+  "end": 681.504,
+  "speaker": "Unknown",
+  "en": "An improvement to one group means an improvement to the entire system.",
+  "zh": "一个团队的改进意味着整个系统的改进。"
+ },
+ {
+  "seg": 96,
+  "start": 683.204,
+  "end": 687.966,
+  "speaker": "Unknown",
+  "en": "So why should your enterprise care about a software factory?",
+  "zh": "那么你的企业为什么应该关心软件工厂？"
+ },
+ {
+  "seg": 97,
+  "start": 688.846,
+  "end": 696.288,
+  "speaker": "Unknown",
+  "en": "Well, the larger and the more fragmented you are, the more you feel the linear pain of managing teams.",
+  "zh": "因为你的规模越大、越碎片化，你感受到的团队管理的线性痛苦就越多。"
+ },
+ {
+  "seg": 98,
+  "start": 697.676,
+  "end": 704.201,
+  "speaker": "Unknown",
+  "en": "In tech terms, your software factory should take this pain from O of N to O of 1 conservatively.",
+  "zh": "用技术术语来说，你的软件工厂应该保守地把这种痛苦从 O(N) 降到 O(1)。"
+ },
+ {
+  "seg": 99,
+  "start": 705.142,
+  "end": 718.211,
+  "speaker": "Unknown",
+  "en": "You can define your guardrails, your agents, your docs, testing policies, really governance just one time, and then standardize it across the organization.",
+  "zh": "你可以只定义一次你的护栏、你的智能体、你的文档、测试策略，也就是治理，然后在整个组织中标准化它。"
+ },
+ {
+  "seg": 100,
+  "start": 719.832,
+  "end": 727.238,
+  "speaker": "Unknown",
+  "en": "And this standard should make sure that everyone is pulled to the highest bar, not the lowest common denominator.",
+  "zh": "而这个标准应该确保每个人都被拉到最高标准，而不是最低的共同标准。"
+ },
+ {
+  "seg": 101,
+  "start": 728.483,
+  "end": 739.413,
+  "speaker": "Unknown",
+  "en": "Now, also, if agents can move across these surfaces, then they can hold that quality bar across teams without you having to linearly scale your time to manage each one.",
+  "zh": "现在，同样地，如果智能体可以在这些界面之间移动，那么它们就能在各团队间保持那个质量标准，而无需你线性地扩展自己的时间去管理每一个。"
+ },
+ {
+  "seg": 102,
+  "start": 740.614,
+  "end": 753.145,
+  "speaker": "Unknown",
+  "en": "And if agents are moving across all these surfaces, then you have one place where context can be unified and you can have executive visibility into how the entire SDLC is performing.",
+  "zh": "而如果智能体在所有这些界面之间移动，那么你就有一个地方可以统一上下文，并且你可以对整个 SDLC 的表现有管理层级的可见性。"
+ },
+ {
+  "seg": 103,
+  "start": 755.258,
+  "end": 764.123,
+  "speaker": "Unknown",
+  "en": "Now, just like model agnosticism removes lock-in, your agents should also be surface agnostic.",
+  "zh": "现在，就像模型无关性消除锁定一样，你的智能体也应该做到界面无关。"
+ },
+ {
+  "seg": 104,
+  "start": 764.904,
+  "end": 770.347,
+  "speaker": "Unknown",
+  "en": "They need to be highly available to your teams, regardless of what tools they use.",
+  "zh": "无论你的团队使用什么工具，它们都需要对你的团队高度可用。"
+ },
+ {
+  "seg": 105,
+  "start": 770.887,
+  "end": 777.831,
+  "speaker": "Unknown",
+  "en": "Your teams should not have to compromise on their processes or their tooling to try and fit your AI provider in.",
+  "zh": "你的团队不应该为了迁就你的 AI 提供商而在流程或工具上做出妥协。"
+ },
+ {
+  "seg": 106,
+  "start": 779.212,
+  "end": 784.155,
+  "speaker": "Unknown",
+  "en": "At Factory, we have agents available everywhere, from remote machines to the CLI to Slack.",
+  "zh": "在 Factory，我们的智能体无处不在，从远程机器到 CLI 再到 Slack。"
+ },
+ {
+  "seg": 107,
+  "start": 784.984,
+  "end": 786.725,
+  "speaker": "Unknown",
+  "en": "Any tool your teams use.",
+  "zh": "你的团队使用的任何工具。"
+ },
+ {
+  "seg": 108,
+  "start": 787.686,
+  "end": 795.312,
+  "speaker": "Unknown",
+  "en": "And even though humans and agents may use different services, everything should share the same underlying harness and context.",
+  "zh": "但是现在，判断力和优先级排序胜过了机械式的实现技能。"
+ },
+ {
+  "seg": 109,
+  "start": 797.673,
+  "end": 807.521,
+  "speaker": "Unknown",
+  "en": "So the undertaking of building the factory will expose tribal knowledge, manual processes, and outdated info.",
+  "zh": "所以，建造工厂这项工程会暴露出部落知识、手动流程和过时的信息。"
+ },
+ {
+  "seg": 110,
+  "start": 808.922,
+  "end": 814.146,
+  "speaker": "Unknown",
+  "en": "Unblocking these is not only going to help your agents, but it's also going to help your engineering teams.",
+  "zh": "解决这些不仅会帮助你的智能体，也会帮助你的工程团队。"
+ },
+ {
+  "seg": 111,
+  "start": 815.997,
+  "end": 819.179,
+  "speaker": "Unknown",
+  "en": "At Factory, we have the concept of agent readiness.",
+  "zh": "在 Factory，我们有一个「智能体就绪度」的概念。"
+ },
+ {
+  "seg": 112,
+  "start": 819.66,
+  "end": 821.941,
+  "speaker": "Unknown",
+  "en": "And we evaluate this based on eight pillars.",
+  "zh": "我们基于八大支柱来评估它。"
+ },
+ {
+  "seg": 113,
+  "start": 823.462,
+  "end": 824.983,
+  "speaker": "Unknown",
+  "en": "The first is validation.",
+  "zh": "第一个是验证。"
+ },
+ {
+  "seg": 114,
+  "start": 825.524,
+  "end": 829.026,
+  "speaker": "Unknown",
+  "en": "Do you have guardrails like linters and formatters in place?",
+  "zh": "你是否有像 linter 和格式化工具这样的护栏？"
+ },
+ {
+  "seg": 115,
+  "start": 829.907,
+  "end": 831.568,
+  "speaker": "Unknown",
+  "en": "Then your build system.",
+  "zh": "然后是你的构建系统。"
+ },
+ {
+  "seg": 116,
+  "start": 832.549,
+  "end": 835.09,
+  "speaker": "Unknown",
+  "en": "Are your build commands in CI well-documented?",
+  "zh": "你在 CI 中的构建命令是否有完善的文档？"
+ },
+ {
+  "seg": 117,
+  "start": 836.811,
+  "end": 837.512,
+  "speaker": "Unknown",
+  "en": "Feedback loops.",
+  "zh": "反馈回路。"
+ },
+ {
+  "seg": 118,
+  "start": 837.732,
+  "end": 840.114,
+  "speaker": "Unknown",
+  "en": "Do you have unit and integration tests tight?",
+  "zh": "你的单元测试和集成测试是否严密？"
+ },
+ {
+  "seg": 119,
+  "start": 841.375,
+  "end": 844.457,
+  "speaker": "Unknown",
+  "en": "And do you have docs like readmes, agents.md files?",
+  "zh": "你是否有像 readme、agents.md 文件这样的文档？"
+ },
+ {
+  "seg": 120,
+  "start": 846.585,
+  "end": 851.027,
+  "speaker": "Unknown",
+  "en": "Are your dev environments cleanly reproducible such that an agent can use them?",
+  "zh": "你的开发环境是否能干净地复现，以便智能体可以使用它们？"
+ },
+ {
+  "seg": 121,
+  "start": 852.328,
+  "end": 856.429,
+  "speaker": "Unknown",
+  "en": "Is your code modular with clear boundaries and rules against sprawl?",
+  "zh": "你的代码是否模块化、有清晰的边界和防止蔓延的规则？"
+ },
+ {
+  "seg": 122,
+  "start": 857.99,
+  "end": 859.311,
+  "speaker": "Unknown",
+  "en": "Do you have observability?",
+  "zh": "你是否有可观测性？"
+ },
+ {
+  "seg": 123,
+  "start": 859.811,
+  "end": 863.273,
+  "speaker": "Unknown",
+  "en": "How long does it take you to find out why something went wrong?",
+  "zh": "你需要多久才能查明某件事出错的原因？"
+ },
+ {
+  "seg": 124,
+  "start": 864.593,
+  "end": 871.456,
+  "speaker": "Unknown",
+  "en": "And are you proactively security scanning so that you don't have to worry about leaked secrets or vulnerabilities?",
+  "zh": "你是否在主动进行安全扫描，这样你就不用担心泄露的密钥或漏洞？"
+ },
+ {
+  "seg": 125,
+  "start": 872.096,
+  "end": 874.778,
+  "speaker": "Unknown",
+  "en": "Basically, the key takeaway here is that",
+  "zh": "基本上，这里的关键要点是"
+ },
+ {
+  "seg": 126,
+  "start": 875.907,
+  "end": 883.25,
+  "speaker": "Unknown",
+  "en": "If your agents and your human engineers are going to walk the same roads, paving them well is doubly useful.",
+  "zh": "如果你的智能体和你的人类工程师要走同样的路，那么把路铺好就是双倍有用的。"
+ },
+ {
+  "seg": 127,
+  "start": 885.451,
+  "end": 891.534,
+  "speaker": "Unknown",
+  "en": "Now, you can't govern what you can't see, and that's true for agents and human engineers.",
+  "zh": "现在，你看不到的东西就无法治理，这对智能体和人类工程师都是如此。"
+ },
+ {
+  "seg": 128,
+  "start": 892.334,
+  "end": 901.598,
+  "speaker": "Unknown",
+  "en": "You can start with this agent readiness assessment, but no matter what, your engineers must monitor agent performance and control behavior.",
+  "zh": "你可以从这个智能体就绪度评估开始，但无论如何，你的工程师必须监控智能体的表现并控制其行为。"
+ },
+ {
+  "seg": 129,
+  "start": 903.106,
+  "end": 905.668,
+  "speaker": "Unknown",
+  "en": "At Factory, every action is auditable.",
+  "zh": "在 Factory，每一个操作都是可审计的。"
+ },
+ {
+  "seg": 130,
+  "start": 906.449,
+  "end": 911.873,
+  "speaker": "Unknown",
+  "en": "It operates under your standards with role-based access control and least privilege, for example.",
+  "zh": "它在你的标准下运行，例如基于角色的访问控制和最小权限。"
+ },
+ {
+  "seg": 131,
+  "start": 913.294,
+  "end": 919.418,
+  "speaker": "Unknown",
+  "en": "Your teams that are building this software factory need to first build trust and understanding.",
+  "zh": "你那些要建造这个软件工厂的团队需要首先建立信任和理解。"
+ },
+ {
+  "seg": 132,
+  "start": 920.439,
+  "end": 923.021,
+  "speaker": "Unknown",
+  "en": "That's why you should roll this out incrementally.",
+  "zh": "这就是为什么你应该渐进式地推广它。"
+ },
+ {
+  "seg": 133,
+  "start": 924.082,
+  "end": 929.226,
+  "speaker": "Unknown",
+  "en": "You want to automate the individual pillars first before you turn this system into a loop.",
+  "zh": "你要先把各个支柱单独自动化，然后再把这个系统变成一个闭环。"
+ },
+ {
+  "seg": 134,
+  "start": 931.726,
+  "end": 937.091,
+  "speaker": "Unknown",
+  "en": "And again, precise execution does not prevent poor design.",
+  "zh": "再说一次，精确的执行并不能弥补糟糕的设计。"
+ },
+ {
+  "seg": 135,
+  "start": 937.551,
+  "end": 938.132,
+  "speaker": "Unknown",
+  "en": "It never has.",
+  "zh": "从来如此。"
+ },
+ {
+  "seg": 136,
+  "start": 939.253,
+  "end": 945.978,
+  "speaker": "Unknown",
+  "en": "You still heavily need humans in the loop for architecture, for strategy, and for setting direction.",
+  "zh": "在架构、战略和设定方向上，你仍然非常需要人类在环。"
+ },
+ {
+  "seg": 137,
+  "start": 946.619,
+  "end": 949.061,
+  "speaker": "Unknown",
+  "en": "Engineers will not be replaced.",
+  "zh": "工程师不会被取代。"
+ },
+ {
+  "seg": 138,
+  "start": 949.742,
+  "end": 956.688,
+  "speaker": "Unknown",
+  "en": "But judgment and prioritization now beat mechanical implementation skill.",
+  "zh": "但现在,判断力和优先级排序已经胜过了机械式的实现技能。"
+ },
+ {
+  "seg": 139,
+  "start": 958.58,
+  "end": 960.021,
+  "speaker": "Unknown",
+  "en": "Agents won't be able to handle everything.",
+  "zh": "智能体将无法处理所有事情。"
+ },
+ {
+  "seg": 140,
+  "start": 960.601,
+  "end": 963.683,
+  "speaker": "Unknown",
+  "en": "There will be guardrails to tighten, code that drifts.",
+  "zh": "会有需要收紧的护栏，会有漂移的代码。"
+ },
+ {
+  "seg": 141,
+  "start": 964.744,
+  "end": 968.446,
+  "speaker": "Unknown",
+  "en": "Humans need to stand as validation gates in this factory.",
+  "zh": "人类需要在这座工厂里作为验证的关卡。"
+ },
+ {
+  "seg": 142,
+  "start": 969.006,
+  "end": 976.03,
+  "speaker": "Unknown",
+  "en": "But just like we don't have to feed punch guards into the machine anymore, code does not have to be written by hand.",
+  "zh": "但就像我们不再需要把防轧装置手动塞进机器一样，代码也不必再由手写出来。"
+ },
+ {
+  "seg": 143,
+  "start": 977.09,
+  "end": 983.114,
+  "speaker": "Unknown",
+  "en": "Your team should be able to set the strategy and their risk parameters and then let agents execute.",
+  "zh": "你的团队应该能够设定战略和风险参数，然后让智能体去执行。"
+ },
+ {
+  "seg": 144,
+  "start": 984.848,
+  "end": 990.953,
+  "speaker": "Unknown",
+  "en": "And knowing if your agents are executing well comes down to measuring the right things.",
+  "zh": "而要知道你的智能体是否执行得好，归根结底在于衡量正确的指标。"
+ },
+ {
+  "seg": 145,
+  "start": 991.774,
+  "end": 995.857,
+  "speaker": "Unknown",
+  "en": "Basically, you want to measure outcomes, not tokens.",
+  "zh": "基本上，你要衡量的是结果，而不是 token。"
+ },
+ {
+  "seg": 146,
+  "start": 997.018,
+  "end": 1001.542,
+  "speaker": "Unknown",
+  "en": "Lines of code and tokens generated are gameable metrics.",
+  "zh": "代码行数和生成的 token 是可以被操纵的指标。"
+ },
+ {
+  "seg": 147,
+  "start": 1001.903,
+  "end": 1004.465,
+  "speaker": "Unknown",
+  "en": "These are not actually associated with outcomes.",
+  "zh": "这些实际上并不与结果相关。"
+ },
+ {
+  "seg": 148,
+  "start": 1005.733,
+  "end": 1011.298,
+  "speaker": "Unknown",
+  "en": "Token leaderboards at big companies just encourage profligate spending.",
+  "zh": "大公司的 token 排行榜只会鼓励挥霍性的支出。"
+ },
+ {
+  "seg": 149,
+  "start": 1012.058,
+  "end": 1013.8,
+  "speaker": "Unknown",
+  "en": "It's Goodhart's law in real time.",
+  "zh": "这就是古德哈特定律的实时上演。"
+ },
+ {
+  "seg": 150,
+  "start": 1013.9,
+  "end": 1021.926,
+  "speaker": "Unknown",
+  "en": "If you decide to measure token usage, engineers are going to optimize for token usage, and then it's no longer a good metric.",
+  "zh": "如果你决定去衡量 token 使用量,工程师们就会去优化 token 使用量,那它就不再是一个好的指标了。"
+ },
+ {
+  "seg": 151,
+  "start": 1023.868,
+  "end": 1025.749,
+  "speaker": "Unknown",
+  "en": "It's not about who spends the most on tokens.",
+  "zh": "关键不在于谁在 token 上花得最多。"
+ },
+ {
+  "seg": 152,
+  "start": 1026.73,
+  "end": 1031.134,
+  "speaker": "Unknown",
+  "en": "It's about who can get the highest leverage outcomes from that spend.",
+  "zh": "而在于谁能从这些花费中获得最高杠杆的成果。"
+ },
+ {
+  "seg": 153,
+  "start": 1032.675,
+  "end": 1045.06,
+  "speaker": "Unknown",
+  "en": "Some metrics that we like at Factory are signal to production time, human intervention count, median time to repair, shelf life of code, and cost per PR.",
+  "zh": "我们在 Factory 喜欢的一些指标是:信号到生产时间、人工干预次数、修复的中位时间、代码的保质期,以及每个 PR 的成本。"
+ },
+ {
+  "seg": 154,
+  "start": 1045.44,
+  "end": 1048.501,
+  "speaker": "Unknown",
+  "en": "These are real, tangible outcomes.",
+  "zh": "这些是真实的、可触及的成果。"
+ },
+ {
+  "seg": 155,
+  "start": 1050.942,
+  "end": 1060.486,
+  "speaker": "Unknown",
+  "en": "So agent readiness is really a precursor to effective engineering, whether it's an agent or a human that ends up in that system.",
+  "zh": "所以智能体就绪度实际上是高效工程的前置条件,无论最终进入那个系统的是智能体还是人类。"
+ },
+ {
+  "seg": 156,
+  "start": 1062.217,
+  "end": 1071.825,
+  "speaker": "Unknown",
+  "en": "Your agents need the exact same careful governance as your engineers, tooling, access levels, systems for review.",
+  "zh": "你的智能体需要和你的工程师完全相同的严格治理:工具、访问权限级别、审查系统。"
+ },
+ {
+  "seg": 157,
+  "start": 1072.505,
+  "end": 1074.847,
+  "speaker": "Unknown",
+  "en": "Don't just turn them loose in your code base.",
+  "zh": "不要只是把它们放养在你的代码库里。"
+ },
+ {
+  "seg": 158,
+  "start": 1076.868,
+  "end": 1078.53,
+  "speaker": "Unknown",
+  "en": "And don't token max.",
+  "zh": "也不要 token 拉满。"
+ },
+ {
+  "seg": 159,
+  "start": 1079.49,
+  "end": 1081.072,
+  "speaker": "Unknown",
+  "en": "Measure what actually matters.",
+  "zh": "去衡量真正重要的东西。"
+ },
+ {
+  "seg": 160,
+  "start": 1082.278,
+  "end": 1085.899,
+  "speaker": "Unknown",
+  "en": "Your end users don't care about how much you're spending on AI.",
+  "zh": "你的最终用户并不关心你在 AI 上花了多少钱。"
+ },
+ {
+  "seg": 161,
+  "start": 1086.659,
+  "end": 1091.701,
+  "speaker": "Unknown",
+  "en": "They care about feeling the dramatic improvements that will come from your software factory.",
+  "zh": "他们关心的是感受到你的软件工厂将带来的巨大改进。"
+ },
+ {
+  "seg": 162,
+  "start": 1092.381,
+  "end": 1092.721,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

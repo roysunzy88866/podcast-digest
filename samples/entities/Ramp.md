@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ramp</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ramp">RA</div><div class="pi"><h1 class="pt">Ramp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ramp">RA</div><div class="pi"><h1 class="pt">Ramp</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,13 +19,22 @@ unlisted: true
 - **[[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]]**(38:55起):本集在列举 Founders Fund 做了集中押注的公司时被顺带提及
 - **[[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]]**(01:24起):被列为「拥有极度狂热的领导团队和工程团队的赢家」公司例子之一，与 Eleven Labs、Anthropic、Speechify 并列。
 - **[[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]]**(09:57起):本集说『厄运循环』这个术语借自 RAMP 的博客文章：超支、同时使用不足，token 拉满把自己逼进紧缩再退出循环。
+- **[[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]]**(12:35起):本集说 Ramp 是纽约起家、靠实习生班底自下而上培养人才的公司，志在成为企业管理、优化和衡量 token 支出的主要平台。
 - **[[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]]**(00:35起):本集提到 Ramp 几个月前发博客介绍他们的 Inspect 系统，点燃了整个行业对软件工厂的兴趣。
 - **[[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]]**(23:00起):本集只在讲欺诈联盟逻辑时顺带提到:在 Brex 被封的欺诈者转头就去 Ramp 申请。
 - **[[2026-10-10-twentyvc-20sales-inside-ramp-s-sales-playbook-how|《Ramp 销售主管的招人经：把投行的人挖来卖信用卡》]]**(00:16起):本集把它说成全球增长最快的公司之一，做企业信用卡与财务管理；嘉宾 Max Freeman 是其销售 SVP，整集都在拆解它如何搭销售团队：给 2 倍底薪换 4-6 倍产出、配常驻增长工程团队、内部建 OATS 与 Ramp Revenue 等工具。
 
+## ① 提到它的金句
+
+*2 条*
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q11]]
+
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q13]]
+
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
@@ -35,6 +44,7 @@ unlisted: true
 - [[2026-09-01-uncapped-uncapped-56--brian-singerman-from-gpx-e3|《别找"有棱角"的创始人，找能赢的人》]] — 作为被讨论公司(提及)
 - [[2026-09-05-twentyvc-20vc-how-to-build-your-own-data-center-w|《每块 GPU 多付 10 万美元插队：Speechify 创始人的算力账与战略悔棋》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-mousepower-agents-that-can-t-be-measured|《鼠标力：为智能体时代找回「马力」这把尺子》]] — 作为被讨论公司(提及)
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]] — 作为被讨论公司
 - [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|《WorkOS 的软件工厂：别只盯着 AI 写了多少代码》]] — 作为被讨论公司(提及)
 - [[2026-10-05-pmf-he-introduced-his-buyers-to-vcs-instead|《20连胜、2000万美元融资背后：一个把客户变成朋友再变成数据的创始人》]] — 作为被讨论公司(提及)
 - [[2026-10-10-twentyvc-20sales-inside-ramp-s-sales-playbook-how|《Ramp 销售主管的招人经：把投行的人挖来卖信用卡》]] — 作为被讨论公司
@@ -43,9 +53,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Airbnb]] · [[Claude Code]] · [[护栏]] · [[PM]] · [[Codex]] · [[Cognition]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[OpenAI]] · [[Brex]] · [[Airbnb]] · [[Claude Code]] · [[护栏]] · [[Keith Rabois]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"Lenny":69,"Anthropic":198,"OpenAI":193,"Airbnb":13,"Claude Code":104,"护栏":88,"PM":3,"Codex":83,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"Anthropic":200,"Lenny":69,"OpenAI":195,"Brex":7,"Airbnb":13,"Claude Code":104,"护栏":89,"Keith Rabois":2,"Codex":83}</script>
 
 <script>
 (function(){

@@ -1,0 +1,692 @@
+{
+  "episode_id": "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears",
+  "podcast": "StrictlyVC Download",
+  "date": "2026-09-15",
+  "tags": [
+    "风险投资",
+    "AI 乐观主义",
+    "创始人评估",
+    "纽约创业生态",
+    "AI 失业争论"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "keith-rabois",
+      "type": "person",
+      "role": "host",
+      "name": "Keith Rabois",
+      "file": "Keith Rabois",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把 AI 说成驱动美国经济、带来生产率提升和高薪岗位的力量，Rabois 认为所有 AI 灭绝风险和失业预测都被夸大或已被证伪。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            39.223,
+            43.186
+          ],
+          "quote": "In this conversation, we get into his bullish outlook on AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            43.646,
+            54.133
+          ],
+          "quote": "More specifically, as you'll hear, we discussed what he thinks of former Anthropic researcher Jacob Coxon's recent comments about the dangers of AI, and he doesn't think much of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            416.021,
+            422.567
+          ],
+          "quote": "First of all, Sam particularly has got much better at this and AI is going to transform so many positive things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            504.765,
+            507.867
+          ],
+          "quote": "The same thing is going to happen to some extent in the short term with AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            513.57,
+            517.476
+          ],
+          "quote": "That said, the defensive uses of AI actually may turn out to be superior.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            528.713,
+            535.336
+          ],
+          "quote": "AI-based code and development should eliminate those and reduce the surface area for vulnerabilities, or at least you can make a pretty strong argument.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            635.067,
+            640.268
+          ],
+          "quote": "Every single prediction about job loss associated with AI as of today is absolutely empirically false.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            660.036,
+            663.499
+          ],
+          "quote": "The economy in the United States right now is being powered by AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            664.04,
+            676.649
+          ],
+          "quote": "Fortunately, because the rest of the economy is necessarily a little more shaky, AI is producing productivity gains, which is leading to employment, which is leading to high paying jobs for people who have actually been excluded from many previous tech revolutions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            701.721,
+            705.283
+          ],
+          "quote": "But I think we're all going to live healthier, happier lives because of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            709.426,
+            715.375
+          ],
+          "quote": "And I also think the explosion of entrepreneurship driven by AI is going to be really exciting if we survive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            998.612,
+            1003.597
+          ],
+          "quote": "Who would have thought that the most popular thing on X most days of the week would be a debate about legal AI?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1217.004,
+            1226.527
+          ],
+          "quote": "Would you power a billion dollars into Harvey, or Lagora, or none of the above, or some startup in legal AI that none of us have heard of yet?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1239.911,
+            1243.932
+          ],
+          "quote": "Almost in every AI vertical, the art of choosing where to do that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1405.946,
+            1413.81
+          ],
+          "quote": "But there was a company recently, let's say in the last year in New York, that does AI infrastructure, which is something I thought I would never touch in my life.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1422.734,
+            1432.418
+          ],
+          "quote": "Like I've never heard anybody in an impressive way walk me through how AI infrastructure works and should work in account for all the moving pieces of what other people are doing or not doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说前 Anthropic 研究员离职时警告 AI 风险，Rabois 不以为然；他还称 Ramp 的真正对手是 Anthropic，因为未来由 token 驱动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            43.646,
+            54.133
+          ],
+          "quote": "More specifically, as you'll hear, we discussed what he thinks of former Anthropic researcher Jacob Coxon's recent comments about the dangers of AI, and he doesn't think much of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            117.676,
+            121.62
+          ],
+          "quote": "The former Anthropic researcher who was also at OpenAI previously said,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            122.481,
+            139.947
+          ],
+          "quote": "On his way out to the door of Anthropic in a, you know, a tweet storm, these companies are gambling with our lives, after which I'm sure you saw another Anthropic researcher weighed in and said, yeah, he's not kidding, and we think there's like a 10% chance that it's going to kill all of us in what, like, I don't know, soon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            396.72,
+            398.882
+          ],
+          "quote": "Yeah, he literally worked at Anthropic for six weeks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 89,
+          "t": [
+            452.556,
+            461.563
+          ],
+          "quote": "So, okay, in terms of regulation, there's different flavors, you know, Anthropic thinks it needs to be regulated by states, which are a little bit heavier-handed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            615.18,
+            625.824
+          ],
+          "quote": "Anthropic's very unpopular with most elected officials, actually on both sides of the aisle, for different reasons in some ways, but their ideology is very offensive, and just the way Dario communicates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1005.654,
+            1014.88
+          ],
+          "quote": "Also, Ramp is pretty savvy about sharing transactional data, sort of to say, oh, Anthropic is being adopted more aggressively right now by enterprises, or no, no, it's OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1032.356,
+            1033.617
+          ],
+          "quote": "We're going to compete with Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1034.739,
+            1037.742
+          ],
+          "quote": "I want to be larger and more successful and more important than Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1042.988,
+            1056.923
+          ],
+          "quote": "of the world is driven through tokens and equivalent, and RAMP's going to be the primary way people manage their token spend, how they optimize it, how they measure ROI, and that will lead us to collide probably with Anthropic in many ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1194,
+            1196.262
+          ],
+          "quote": "Who knows how OpenAI versus Anthropic is going to play out long-term.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1199.805,
+            1201.787
+          ],
+          "quote": "Then everybody's like, now, oh, no, it's Anthropic.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集提到 Rabois 所在机构是 OpenAI 的第一家机构投资人，并讨论 OpenAI 与 Anthropic 谁会胜出，Rabois 自称不知道该怎么选。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            117.676,
+            121.62
+          ],
+          "quote": "The former Anthropic researcher who was also at OpenAI previously said,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            399.418,
+            400.52
+          ],
+          "quote": "How long did he work at OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            582.959,
+            586.902
+          ],
+          "quote": "Your firm is the first institutional investor in OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1005.654,
+            1014.88
+          ],
+          "quote": "Also, Ramp is pretty savvy about sharing transactional data, sort of to say, oh, Anthropic is being adopted more aggressively right now by enterprises, or no, no, it's OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1194,
+            1196.262
+          ],
+          "quote": "Who knows how OpenAI versus Anthropic is going to play out long-term.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1196.482,
+            1199.205
+          ],
+          "quote": "But a year and a half ago, everybody was like, OpenAI is a monopoly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1202.147,
+            1204.469
+          ],
+          "quote": "And now people are shifting back a little bit more OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": true,
+      "how_described": "本集说 Ramp 是纽约起家、靠实习生班底自下而上培养人才的公司，志在成为企业管理、优化和衡量 token 支出的主要平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            755.415,
+            757.556
+          ],
+          "quote": "Like, you know, Ramp is here as an example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            785.585,
+            787.366
+          ],
+          "quote": "Arguably, this is what is powered ramp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            845.28,
+            848.723
+          ],
+          "quote": "The way we solve this at RAMP specifically is we don't hire senior people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            917.173,
+            918.234
+          ],
+          "quote": "You know, you mentioned Ramp.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            922.699,
+            927.444
+          ],
+          "quote": "I think Ramp is so brilliant in ways, including getting press.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1005.654,
+            1014.88
+          ],
+          "quote": "Also, Ramp is pretty savvy about sharing transactional data, sort of to say, oh, Anthropic is being adopted more aggressively right now by enterprises, or no, no, it's OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1020.224,
+            1025.028
+          ],
+          "quote": "It really does seem like, whether or not he says it explicitly, they've got Ramp in their crosshairs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1042.988,
+            1056.923
+          ],
+          "quote": "of the world is driven through tokens and equivalent, and RAMP's going to be the primary way people manage their token spend, how they optimize it, how they measure ROI, and that will lead us to collide probably with Anthropic in many ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1178.507,
+            1182.51
+          ],
+          "quote": "For example, in the Ramp case, many people thought Brex was going to be a successful company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rippling",
+      "type": "company",
+      "role": "company",
+      "name": "Rippling",
+      "file": "Rippling",
+      "primary": true,
+      "how_described": "本集提到外界担心 Rippling 盯上 Ramp，Rabois 回应 Ramp 不担心 Rippling，真正的对手是 Anthropic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            1016.822,
+            1020.004
+          ],
+          "quote": "I do wonder if you are worried in any way about rippling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1030.694,
+            1031.996
+          ],
+          "quote": "Rapp is not worried about Rippling.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": true,
+      "how_described": "本集以 Brex 为例说明挑选赢家之难：人人都以为它会赢、追着每轮投的人最后没赚到钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 244,
+          "t": [
+            1178.507,
+            1182.51
+          ],
+          "quote": "For example, in the Ramp case, many people thought Brex was going to be a successful company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1183.091,
+            1187.975
+          ],
+          "quote": "If you had chased Brex at every valuation, the last couple rounds did not make money.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "type": "company",
+      "role": "company",
+      "name": "Harvey",
+      "file": "Harvey",
+      "primary": true,
+      "how_described": "本集把 Harvey 作为法律 AI 公司的代表，主持人问 Rabois 敢不敢给它开 3 亿美元的支票，他说自己现在不知道怎么选。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            989.523,
+            995.749
+          ],
+          "quote": "I mean, you can't open X these days without Harvey posting some metrics and the Lagorres investors are all publishing their metrics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1217.004,
+            1226.527
+          ],
+          "quote": "Would you power a billion dollars into Harvey, or Lagora, or none of the above, or some startup in legal AI that none of us have heard of yet?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "founders-fund",
+      "type": "company",
+      "role": "company",
+      "name": "Founders Fund",
+      "file": "Founders Fund",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            918.254,
+            922.319
+          ],
+          "quote": "I know that's a big investment of yours through Coastal and Founders Fund where you spent some time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1145.126,
+            1147.769
+          ],
+          "quote": "I'll quote my former colleague at the Founders Fund, Brian Stingerman.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1150.192,
+            1157.275
+          ],
+          "quote": "And what Brian said is like, look, at Founders Fund, we were the 30th investor in Airbnb, but we made the second most money, $3 billion of returns.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "token",
+      "type": "concept",
+      "role": "concept",
+      "name": "token",
+      "file": "token",
+      "primary": true,
+      "how_described": "本集说未来世界由 token 驱动，Ramp 要成为人们管理 token 支出、优化支出、衡量 ROI 的主要方式，因此将与 Anthropic 相撞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1042.988,
+            1056.923
+          ],
+          "quote": "of the world is driven through tokens and equivalent, and RAMP's going to be the primary way people manage their token spend, how they optimize it, how they measure ROI, and that will lead us to collide probably with Anthropic in many ways.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1495.685,
+            1504.252
+          ],
+          "quote": "And he's like, the first thing you do at every meeting is you're going to invalidate their cash right away, you're going to find a way to throw it out, and you're going to notice a time to first new token",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "annualized-revenue",
+      "type": "concept",
+      "role": "concept",
+      "name": "年化收入 (annualized revenue)",
+      "file": "年化收入",
+      "primary": true,
+      "how_described": "本集讨论创业公司用年化收入数字（ARR）博取媒体报道的策略，Rabois 提醒指标公开的下行风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            54.533,
+            64.422
+          ],
+          "quote": "We also talked about why he's spending more time in New York, whether he approves of companies that use annualized revenue numbers to land press, even as these numbers are highly unreliable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            930.778,
+            940.404
+          ],
+          "quote": "I mean, the talk about ARRs, which I know a lot of founders in the audience probably also rely on as a means of attracting attention, annualized revenue, what do you think of that strategy?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (AI infrastructure)",
+      "file": "AI 基础设施",
+      "primary": false,
+      "how_described": "本集提到 Rabois 最近见了一位做 AI 基础设施的纽约创始人，对方画出完整「智力迷宫」地图让他当场决定投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            1405.946,
+            1413.81
+          ],
+          "quote": "But there was a company recently, let's say in the last year in New York, that does AI infrastructure, which is something I thought I would never touch in my life.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1422.734,
+            1432.418
+          ],
+          "quote": "Like I've never heard anybody in an impressive way walk me through how AI infrastructure works and should work in account for all the moving pieces of what other people are doing or not doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

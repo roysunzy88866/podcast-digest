@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>198</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>200</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -154,6 +154,7 @@ unlisted: true
 - **[[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]]**(08:04起):本集提到 Anthropic 和其他模型正开始变得相当昂贵,这是他们转向自家开源模型的动因之一
 - **[[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]]**(00:31起):本集透露贝勒把捐赠基金约 2.5% 配在 Anthropic（强调是经理人的功劳不是自己的），且没有 SpaceX 和 OpenAI 的敞口。
 - **[[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]]**(04:55起):本集提到其有人警告技术有 10% 概率毁灭人类，助长了公众对 AI 的焦虑；也提到它是吞下公开信息的 AI 公司之一。
+- **[[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]]**(00:43起):本集说前 Anthropic 研究员离职时警告 AI 风险，Rabois 不以为然；他还称 Ramp 的真正对手是 Anthropic，因为未来由 token 驱动。
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(10:41起):本集作为先前工作提到:其 Contextual Retrieval 方法给每个块做信息增强,但仍停留在固定块大小的模式里
 - **[[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]]**(31:01起):本集说它与 OpenAI 一样已成大型科技公司，模型会做到最强，但不可能构建一切。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(18:01起):本集中作为前沿实验室被讨论的对象之一：Martin 提出『如果两周后只剩 12 人还加速发模型就该警惕』的试金石，并提及行业要求第三方监管的提议。
@@ -197,6 +198,7 @@ unlisted: true
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:52起):本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(01:00起):本集同样将其列为被质疑经济可持续性的头部模型厂商，并指出其核心模型服务可用性不佳，建议大家用其他云作为主用或备用通道。
+- **[[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]]**(02:04起):本集核心案例:因无法在系统层面区分 API 用户与订阅用户,被迫切断 OpenClaw 等第三方智能体的订阅访问;用户每天付几美元,补贴成本却高达 150 至 750 美元。
 - **[[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]]**(02:38起):本集提到 Anthropic 采取用本地文件系统加 grep 的方式管理代码，且因数据新鲜度难做，Anthropic 等公司放弃了预索引数据。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(37:22起):本集称 Anthropic 是 AWS 大客户与前沿实验室代表,与 AWS 有基于 Trainium 构建的协议,且工作负载在 Bedrock 上快速增长。
 - **[[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]]**(13:30起):本集多处谈到 Anthropic:它的 Claude 被用来生成 RL 环境间接蒸馏给其他公司;它融资演示文稿里『2026 年没人能追上』的旧预测被拿来对照现实;Claude 生成的垃圾代码成了绩效审查的话题。
@@ -207,7 +209,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*32 条*
+*35 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -253,6 +255,8 @@ unlisted: true
 
 ![[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p#^q4]]
 
+![[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears#^q13]]
+
 ![[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo#^q3]]
 
 ![[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model#^q1]]
@@ -269,13 +273,17 @@ unlisted: true
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q15]]
 
+![[2026-10-07-talks-every-ai-company-is-accidentally-buildin#^q2]]
+
+![[2026-10-07-talks-every-ai-company-is-accidentally-buildin#^q3]]
+
 ![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q5]]
 
 ![[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3#^q2]]
 
 ## ② 出现在这些集
 
-*198 集*
+*200 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -423,6 +431,7 @@ unlisted: true
 - [[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]] — 作为被讨论公司(提及)
 - [[2026-09-14-twentyvc-20vc-how-lps-allocate-to-venture-in-2026|《26 亿美元大学捐赠基金的 CIO，把风投和 LP 的账算得明明白白》]] — 作为被讨论公司
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|《Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法》]] — 作为被讨论公司(提及)
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|《AI 会毁灭人类？传奇投资人 Rabois 说你想多了》]] — 作为被讨论公司
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为被讨论公司(提及)
 - [[2026-09-17-cogrev-no-code-is-code-zapier-ceo-wade-foster-o|《Zapier CEO Wade Foster：最强模型也只考了 40 分，你的对手不是别的公司》]] — 作为被讨论公司(提及)
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司(提及)
@@ -468,6 +477,7 @@ unlisted: true
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]] — 作为被讨论公司
 - [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]] — 作为被讨论公司
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
 - [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]] — 作为被讨论公司
@@ -482,7 +492,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[推理]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"OpenAI":193,"Claude Code":104,"推理":94,"NVIDIA":68,"Cursor":86,"Claude":93,"沙箱":94,"Google":70,"Meta":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"OpenAI":195,"Claude Code":104,"推理":95,"NVIDIA":68,"Cursor":86,"Claude":93,"沙箱":94,"Google":70,"Meta":51}</script>
 
 <script>
 (function(){

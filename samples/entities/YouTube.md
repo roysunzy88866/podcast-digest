@@ -45,7 +45,7 @@ unlisted: true
 
 [[LLM]] · [[ChatGPT]] · [[智能体]] · [[Meta]] · [[Lenny]] · [[开源模型]] · [[Instagram]] · [[AEO]] · [[Spotify]] · [[SEO]]
 
-<script type="application/json" class="pd-epn">{"LLM":60,"ChatGPT":108,"智能体":471,"Meta":51,"Lenny":69,"开源模型":4,"Instagram":8,"AEO":5,"Spotify":7,"SEO":8}</script>
+<script type="application/json" class="pd-epn">{"LLM":60,"ChatGPT":108,"智能体":473,"Meta":51,"Lenny":69,"开源模型":4,"Instagram":8,"AEO":5,"Spotify":7,"SEO":8}</script>
 
 <script>
 (function(){

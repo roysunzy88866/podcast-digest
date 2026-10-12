@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Roblox":4,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":4,"MCP":85,"AI":30}</script>
+<script type="application/json" class="pd-epn">{"Roblox":4,"用户生成内容":1,"虚拟货币":1,"Robux":1,"官僚主义":1,"API":4,"MCP":85,"AI":32}</script>
 
 <script>
 (function(){

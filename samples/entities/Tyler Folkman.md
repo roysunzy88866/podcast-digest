@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]] [[Jeff Morris Jr]]
+[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":93,"Herder":1,"循环":10,"智能体":471,"技能":30,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":93,"Herder":1,"循环":10,"智能体":473,"技能":30,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
 
 <script>
 (function(){

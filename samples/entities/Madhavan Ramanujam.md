@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Intercom":6,"Cursor":86,"Charge Flow":1,"Superhuman":5,"Sierra":7,"Delphi":3,"Slack":34,"Canva":5,"GitHub":33}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Intercom":6,"Cursor":86,"Charge Flow":1,"Superhuman":5,"Sierra":7,"Delphi":3,"Slack":34,"Canva":5,"GitHub":35}</script>
 
 <script>
 (function(){

@@ -1,0 +1,716 @@
+{
+  "episode_id": "2026-10-07-talks-the-software-factory-from-bug-report-to",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "软件工厂",
+    "AI 基础设施",
+    "组织变革"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "davis-palmie",
+      "type": "person",
+      "role": "guest",
+      "name": "Davis Palmie",
+      "file": "Davis Palmie",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "factory",
+      "type": "company",
+      "role": "company",
+      "name": "Factory",
+      "file": "Factory",
+      "primary": true,
+      "how_described": "本集嘉宾 Davis 所在的公司，主张「软件工厂」：一套从输入信号到生产部署的智能体系统，不锁定单一模型、支持全托管到气隙隔离的部署，并评估企业的「智能体就绪度」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.894,
+            17.976
+          ],
+          "quote": "I'm Davis Palmy, a member of technical staff here at Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            19.157,
+            28.442
+          ],
+          "quote": "Before this, I co-founded Lumetric, which was an agent platform for investment teams that we took through Y Combinator and was acquired by Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            41.718,
+            53.703
+          ],
+          "quote": "With that in mind, today I'm going to be talking to you about the software factory and how you can move towards an autonomous system that translates input signals into production code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.457,
+            138.658
+          ],
+          "quote": "That's your software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            190.93,
+            194.092
+          ],
+          "quote": "At Factory, you're not locked into a single model provider.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            259.898,
+            270.326
+          ],
+          "quote": "Engineers will now build and maintain the system that's responsible for building your production code, and they'll set the high-level direction for the software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            292.37,
+            298.434
+          ],
+          "quote": "Everyone across all your teams will have a shared responsibility for the pillars of the software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            373.022,
+            382.731
+          ],
+          "quote": "The necessary undertaking to build your factory is to make sure the agents can bridge all of these services and understand the nuance within your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            384.212,
+            394.201
+          ],
+          "quote": "So this brings us to the software factory, which is the system of agents that will take you from input signal to production deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            466.553,
+            474.939
+          ],
+          "quote": "So each step in the software factory needs careful ownership and monitoring before you even think about letting the pipeline loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            487.908,
+            493.532
+          ],
+          "quote": "Now, we feel pretty strongly that your software factory should have a few key principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            524.745,
+            530.607
+          ],
+          "quote": "So at Factory, again, you have the entire interplay of speed to task, efficacy to cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            553.861,
+            557.442
+          ],
+          "quote": "Now, at factory, you can choose your workspace and your deployment model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            565.224,
+            569.825
+          ],
+          "quote": "And number three, your software factory needs to be integrated across the SDLC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            590.833,
+            599.078
+          ],
+          "quote": "Each one of these pillars supports the software factory, and weakness in one means a weakness in the entire system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            608.125,
+            618.308
+          ],
+          "quote": "Well, we typically see it as the fusion and the incremental automation of many subteams under the umbrella of one software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            683.204,
+            687.966
+          ],
+          "quote": "So why should your enterprise care about a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            697.676,
+            704.201
+          ],
+          "quote": "In tech terms, your software factory should take this pain from O of N to O of 1 conservatively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            779.212,
+            784.155
+          ],
+          "quote": "At Factory, we have agents available everywhere, from remote machines to the CLI to Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            797.673,
+            807.521
+          ],
+          "quote": "So the undertaking of building the factory will expose tribal knowledge, manual processes, and outdated info.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            815.997,
+            819.179
+          ],
+          "quote": "At Factory, we have the concept of agent readiness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            903.106,
+            905.668
+          ],
+          "quote": "At Factory, every action is auditable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            913.294,
+            919.418
+          ],
+          "quote": "Your teams that are building this software factory need to first build trust and understanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            964.744,
+            968.446
+          ],
+          "quote": "Humans need to stand as validation gates in this factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1032.675,
+            1045.06
+          ],
+          "quote": "Some metrics that we like at Factory are signal to production time, human intervention count, median time to repair, shelf life of code, and cost per PR.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1086.659,
+            1091.701
+          ],
+          "quote": "They care about feeling the dramatic improvements that will come from your software factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "software-factory",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件工厂 (software factory)",
+      "file": "软件工厂",
+      "primary": true,
+      "how_described": "本集核心概念：一组负责从输入信号到生产部署全流程的智能体系统，承担分诊、计划、文档、执行、审核、测试、发布与监控，工程师角色转为治理这套系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            41.718,
+            53.703
+          ],
+          "quote": "With that in mind, today I'm going to be talking to you about the software factory and how you can move towards an autonomous system that translates input signals into production code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            137.457,
+            138.658
+          ],
+          "quote": "That's your software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            259.898,
+            270.326
+          ],
+          "quote": "Engineers will now build and maintain the system that's responsible for building your production code, and they'll set the high-level direction for the software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            292.37,
+            298.434
+          ],
+          "quote": "Everyone across all your teams will have a shared responsibility for the pillars of the software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            384.212,
+            394.201
+          ],
+          "quote": "So this brings us to the software factory, which is the system of agents that will take you from input signal to production deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            466.553,
+            474.939
+          ],
+          "quote": "So each step in the software factory needs careful ownership and monitoring before you even think about letting the pipeline loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            487.908,
+            493.532
+          ],
+          "quote": "Now, we feel pretty strongly that your software factory should have a few key principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            565.224,
+            569.825
+          ],
+          "quote": "And number three, your software factory needs to be integrated across the SDLC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            590.833,
+            599.078
+          ],
+          "quote": "Each one of these pillars supports the software factory, and weakness in one means a weakness in the entire system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            608.125,
+            618.308
+          ],
+          "quote": "Well, we typically see it as the fusion and the incremental automation of many subteams under the umbrella of one software factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            683.204,
+            687.966
+          ],
+          "quote": "So why should your enterprise care about a software factory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            697.676,
+            704.201
+          ],
+          "quote": "In tech terms, your software factory should take this pain from O of N to O of 1 conservatively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            913.294,
+            919.418
+          ],
+          "quote": "Your teams that are building this software factory need to first build trust and understanding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1086.659,
+            1091.701
+          ],
+          "quote": "They care about feeling the dramatic improvements that will come from your software factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集认为智能体是 AI 编程第三阶段的产物：能自己收集上下文、调用工具、调试输出，最终被组织成软件工厂；工程师从敲代码转向治理智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.157,
+            28.442
+          ],
+          "quote": "Before this, I co-founded Lumetric, which was an agent platform for investment teams that we took through Y Combinator and was acquired by Factory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            395.517,
+            397.998
+          ],
+          "quote": "Your agent's not just coding anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            408.402,
+            422.068
+          ],
+          "quote": "Your agent should be triaging incidents, making plans, creating and updating docs, actually executing the code, reviewing it, testing it, rolling it out, and then monitoring that release.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            445.608,
+            451.174
+          ],
+          "quote": "Let your agent read a sentry alert, pull the traces in other contexts, and then post in Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            457.1,
+            465.589
+          ],
+          "quote": "And as more correct diagnoses roll in and in from the agent, your team can start to build trust and an understanding of this pillar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            619.708,
+            637.333
+          ],
+          "quote": "Some really common patterns we see are triaging incoming signals like sentry alerts, having the agent make a diagnosis before the human can even answer the page, proactively testing security, scanning for secrets or vulnerabilities,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            659.909,
+            666.852
+          ],
+          "quote": "And with the agent doing all of this, the human engineer's role shifts to responding, to exercising judgment,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            815.997,
+            819.179
+          ],
+          "quote": "At Factory, we have the concept of agent readiness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            846.585,
+            851.027
+          ],
+          "quote": "Are your dev environments cleanly reproducible such that an agent can use them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            892.334,
+            901.598
+          ],
+          "quote": "You can start with this agent readiness assessment, but no matter what, your engineers must monitor agent performance and control behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1050.942,
+            1060.486
+          ],
+          "quote": "So agent readiness is really a precursor to effective engineering, whether it's an agent or a human that ends up in that system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-readiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体就绪度 (agent readiness)",
+      "file": "智能体就绪度",
+      "primary": true,
+      "how_described": "Factory 用八个维度评估企业的智能体就绪度：验证护栏、构建文档、测试、文档、可复现的开发环境、模块化代码、可观测性和安全扫描——智能体与人类工程师走同一条路，铺好路双倍有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            815.997,
+            819.179
+          ],
+          "quote": "At Factory, we have the concept of agent readiness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            892.334,
+            901.598
+          ],
+          "quote": "You can start with this agent readiness assessment, but no matter what, your engineers must monitor agent performance and control behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1050.942,
+            1060.486
+          ],
+          "quote": "So agent readiness is really a precursor to effective engineering, whether it's an agent or a human that ends up in that system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-agnostic",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型无关 (model agnostic)",
+      "file": "模型无关",
+      "primary": true,
+      "how_described": "本集三大原则之一：软件工厂不应锁定单一模型供应商，每个任务用够用的最便宜模型——例如 GPT 5.2 审代码性能与最新 Opus 相同但价格一半，开源替代可便宜 10 到 30 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            494.748,
+            497.509
+          ],
+          "quote": "First, it should be model agnostic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "goodhart-s-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "古德哈特定律 (Goodhart's law)",
+      "file": "古德哈特定律",
+      "primary": true,
+      "how_described": "本集用它批评公司考核 token 用量：一旦你衡量 token 使用量，工程师就会去优化它，它就不再是好指标；应衡量结果（上线时间、修复时间、人工干预次数）而非 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            1012.058,
+            1013.8
+          ],
+          "quote": "It's Goodhart's law in real time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说智能体时代工程师的职责是保持护栏收紧、捕捉代码漂移、设定方向；智能体处理不了一切，总会有护栏要收紧，人要作为验证关卡站在工厂里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            139.732,
+            150.935
+          ],
+          "quote": "So with this, the engineer's role shifts to keeping guardrails tight, catching code drift, and setting the high level priorities and direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            705.142,
+            718.211
+          ],
+          "quote": "You can define your guardrails, your agents, your docs, testing policies, really governance just one time, and then standardize it across the organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            825.524,
+            829.026
+          ],
+          "quote": "Do you have guardrails like linters and formatters in place?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            960.601,
+            963.683
+          ],
+          "quote": "There will be guardrails to tighten, code that drifts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集认为开源模型日益有效，使「押对一匹马」成为伪命题；开源替代方案能把成本砍到便宜 10 到 30 倍，应动态路由、按需选择。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            227.038,
+            236.262
+          ],
+          "quote": "Well, we think that having to back the right horse is a false choice, especially with the increasing effectiveness of open source models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lumetric",
+      "type": "company",
+      "role": "company",
+      "name": "Lumetric",
+      "file": "Lumetric",
+      "primary": false,
+      "how_described": "嘉宾 Davis 此前联合创办的面向投资团队的智能体平台，经 Y Combinator 后被 Factory 收购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.157,
+            28.442
+          ],
+          "quote": "Before this, I co-founded Lumetric, which was an agent platform for investment teams that we took through Y Combinator and was acquired by Factory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slalom",
+      "type": "company",
+      "role": "company",
+      "name": "Slalom",
+      "file": "Slalom",
+      "primary": false,
+      "how_described": "大型咨询公司，嘉宾 Davis 曾任其创新实验室的工程负责人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            28.923,
+            33.465
+          ],
+          "quote": "And prior to that, I was an engineering lead for Slalom's innovation lab.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

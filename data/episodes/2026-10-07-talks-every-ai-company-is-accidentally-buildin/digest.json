@@ -1,0 +1,179 @@
+{
+  "title_zh": "每家 AI 公司都在不知不觉间盖了一座银行",
+  "tldr": "Stigg 联合创始人兼 CEO Dor Sasson 解释了为什么 AI 公司的定价危机其实是基础设施危机，以及银行系统早就把答案写好了。",
+  "digest_md": "Dor Sasson 是定价与计费基础设施公司 Stigg 的联合创始人兼 CEO。他专程飞到一场 AI 大会，就为了抛出一个听起来很怪的论断：每一家 AI 公司，都在不知不觉地建一座银行。这不是营销比喻，而是他对当下 AI 经济的严肃诊断。\n\n## 五个星期内，全行业连环定价事故\n\nAnthropic 封掉了 OpenClaw 等第三方代理使用其订阅套餐的通道；OpenAI 一夜之间把 Pro 档价格涨了 5 倍；GitHub 先冻结、后彻底取消了 Copilot 免费套餐的试用。 [02:04 Unknown]\n\n这些事故表面上是商业定价问题，**Dor 认为本质是基础设施问题**。以 Anthropic 为例：用户每天只付几美元，但每个用户背后的补贴成本可能高达 150 到 750 美元。Anthropic 没办法在系统层面区分谁在用 API、谁在用订阅套餐，只能紧急踩刹车。 [03:15 Unknown]\n\n类似的故事还在上演：一家公司几个员工就烧光了整个组织价值 5 亿美元的 Claude 额度；Uber 年初几周就用完全年的 AI 消费预算；Replit 也有过 3 个用户烧掉整个组织信用池的例子。 [04:05 Unknown]\n\n## 问题出在哪？先消费、后检查\n\n所有这些事故的共同点是：**检查发生在账单之后，而不是之前**。你可以随便用、随便烧 token，等账单寄到再对账——那时已经太晚了。 [05:10 Unknown]\n\nDor 给了一个非常好懂的类比：你去自动取款机取钱，检查你能不能取，是在吐钞之前，不是取完之后。AI 行业缺的正是这一层金融基础设施。 [07:34 Unknown]\n\n连 OpenAI 也得自己解决这件事。他们的 Financial Engineering 团队在 2 月公布了架构思路：在运行时同步做一次决策——这个用户或代理有没有权限访问这个功能？套餐的速率限制是多少？是否在试用期或促销期？所有判断必须在请求发生的那一刻完成，而不是事后。 [08:11 Unknown]\n\nDor 强调，这不是简单的计费问题，而是一套在任何账单产生之前就做决策的金融系统。 [09:49 Unknown]\n\n## AI 还没学会银行的老手艺\n\n银行系统里有些理所当然的能力，AI 公司今天都不具备。\n\n比如并发扣款。如果两个账户共有人同时想取同一笔 10 美元，银行有冻结—结算机制来处理。但 AI 场景下，可能有一万个代理同时冲向同一个额度池，表面上池子里还有钱，实际会被超支。**这就是经典的双重支付问题，解法要靠复式记账那套老办法**。 [10:33 Unknown]\n\n再比如额度来源。银行知道你的钱是从活期账户、现金账户还是储蓄账户取的。而你手里可能有 1700 个积分，每个来源不同——有的是赠送的、有的是促销给的。先扣哪个？大多数公司今天只是把额度当成数据库里的一个整数，这在规模化之后是行不通的。 [12:19 Unknown]\n\n## 卖 AI 的四种架构模式\n\nDor 总结了正在反复出现的四种模式：第一，先预留额度、推理完成后按实际用量结算；第二，越来越多的 AI 公司出于延迟、成本和数据主权的考虑，把账本和计量系统部署在自己的私有云里，而不是把用量数据传出去；第三，针对代理的检查——你无法预知一个代理执行任务要花多少钱，所以只能在它干活的过程中持续查余额、预先预留，事后再对账。 [15:01 Unknown]\n\n第四点关乎客户：对首席财务官和首席信息官来说，看清 AI 工作负载在不同模型、不同功能上的消耗，已经不是锦上添花，而是做生意的先决条件。 [16:33 Unknown]\n\n还有一个细节值得注意：OpenAI 4 月的那次调整，其实没改价格——它改的是 token 被烧掉的速度。同样的模型、同样的单价，只是消耗得更快。这事实上就是一次涨价，而且不只是财务调整，是基础设施层面的变更。 [17:49 Unknown]\n\n## AI 行业在等自己的 Stripe 时刻\n\nDor 的团队喜欢打这样一个比方：2010 年代初，每家公司都想把产品搬上互联网，都需要支付、需要安全性，于是有了 Stripe 时刻——开发者几分钟就能接入收款。\n\n**今天的 AI 行业缺的正是这样一个时刻**：把银行级的那些构件——冻结与结算、幂等性、可审计、多层级额度治理——做成开箱即用的东西，让 AI 公司不必在规模化之后才手忙脚乱地补课。 [18:28 Unknown]\n\n他的建议是：既然你已经在建银行了，不如早点知道银行都需要什么。\n\n## 本集带走\n\n- AI 公司 4 月连环涨价和封禁，根因是基础设施问题，不只是定价问题。\n- 核心缺陷：权限和额度检查发生在账单之后，而银行系统的做法是在消费之前同步检查。\n- AI 规模化绕不开银行的老问题：并发扣款、双重支付、来源不同的额度池，解法是复式记账式的思维。\n- 代理的用量无法预知，必须在执行过程中持续查余额、预先预留、事后结算。\n- 行业缺一个Stripe 时刻：把金融基础设施做成开箱即用的服务。",
+  "quotes": [
+    {
+      "en": "which is literally every AI company right now is accidentally building a bank.",
+      "zh": "实际上现在每一家 AI 公司都在不知不觉地建造一家银行。",
+      "timestamp": "00:36",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "So effectively what the customers were paying daily was dollars and cents, but on the cost side for Anthropic, it was like 150 to even 750 subsidized, which is effectively not an economics that you can scale, even for the company at the size, at the scale of Anthropic.",
+      "zh": "实际上客户每天支付的是几美元几美分，但在 Anthropic 的成本端，补贴高达 150 甚至 750，这种经济模型是没法规模化的，即便是 Anthropic 这个体量的公司也不行。",
+      "timestamp": "03:15",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "So what it seemed to be a business problem really was an infrastructure problem because Anthropic didn't have an effective way to delineate between users who are using their APIs and users who are using their subscription programs.",
+      "zh": "看似是业务问题的，实际上是个基础设施问题，因为 Anthropic 没有一种有效的方式去区分使用其 API 的用户和使用其订阅计划的用户。",
+      "timestamp": "03:36",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "We're seeing this, I don't know if you all have read the news most recently, with a company, undisclosed company, burning through half a billion of their AI Claude credits, just merely having a few employees burning through the entire organization contract.",
+      "zh": "不知道你们有没有看过最近一则新闻，有一家未披露名字的公司烧掉了五亿美元的 AI Claude 额度，仅仅是几个员工就把整个组织的合同额度烧光了。",
+      "timestamp": "04:05",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "Happened after the invoice and not before.",
+      "zh": "检查发生在账单之后，而不是之前。",
+      "timestamp": "05:10",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "Bad for business, it's sticker shock, it's bad for practice of how we use the systems, these systems are now mission critical and we're basically, none of these companies had in place the financial infrastructure that allows exactly like banks guys to check before we draw down, before we consume, right?",
+      "zh": "对业务不利的，是账单惊吓，对我们使用这些系统的方式不利，这些系统现在是任务关键型的，而这些公司没有一家建立了像银行那样的金融基础设施，能够在提款之前、在消费之前先做检查，对吧？",
+      "timestamp": "05:33",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "The concurrency is effectively solved with banks, but with AI and agents it's not that case.",
+      "zh": "并发问题在银行那里实际上是被解决掉的，但在 AI 和智能体这里情况并非如此。",
+      "timestamp": "10:53",
+      "speaker": "Dor Sasson"
+    },
+    {
+      "en": "Across different models, across different features, across different products is not just nice to have it becoming a table stakes, it becomes something that you can't do business without and we're going to see more and more companies expect to have this off the bat before they actually do business with you.",
+      "zh": "跨不同模型、跨不同功能、跨不同产品的 AI 工作负载消费可见性，不再只是锦上添花，它正在成为入场门槛，变成没有它你就没法做生意的东西，而且我们会看到越来越多的公司期望在与你做生意之前就一开始就拥有这个。",
+      "timestamp": "16:50",
+      "speaker": "Dor Sasson"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:31",
+      "speaker": "Unknown",
+      "en": "which is literally every AI company right now is accidentally building a bank.",
+      "zh": "实际上现在每一家 AI 公司都在不知不觉地建造一家银行。"
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Unknown",
+      "en": "So effectively what the customers were paying daily was dollars and cents, but on the cost side for Anthropic, it was like 150 to even 750 subsidized, which is effectively not an economics that you can scale, even for the company at the size, at the scale of Anthropic.",
+      "zh": "实际上客户每天支付的是几美元几美分，但在 Anthropic 的成本端，补贴高达 150 甚至 750，这种经济模型是没法规模化的，即便是 Anthropic 这个体量的公司也不行。"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Unknown",
+      "en": "So what it seemed to be a business problem really was an infrastructure problem because Anthropic didn't have an effective way to delineate between users who are using their APIs and users who are using their subscription programs.",
+      "zh": "看似是业务问题的，实际上是个基础设施问题，因为 Anthropic 没有一种有效的方式去区分使用其 API 的用户和使用其订阅计划的用户。"
+    },
+    {
+      "timestamp": "04:05",
+      "speaker": "Unknown",
+      "en": "We're seeing this, I don't know if you all have read the news most recently, with a company, undisclosed company, burning through half a billion of their AI Claude credits, just merely having a few employees burning through the entire organization contract.",
+      "zh": "不知道你们有没有看过最近一则新闻，有一家未披露名字的公司烧掉了五亿美元的 AI Claude 额度，仅仅是几个员工就把整个组织的合同额度烧光了。"
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "Unknown",
+      "en": "Happened after the invoice and not before.",
+      "zh": "检查发生在账单之后，而不是之前。"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Unknown",
+      "en": "Bad for business, it's sticker shock, it's bad for practice of how we use the systems, these systems are now mission critical and we're basically, none of these companies had in place the financial infrastructure that allows exactly like banks guys to check before we draw down, before we consume, right?",
+      "zh": "对业务不利的，是账单惊吓，对我们使用这些系统的方式不利，这些系统现在是任务关键型的，而这些公司没有一家建立了像银行那样的金融基础设施，能够在提款之前、在消费之前先做检查，对吧？"
+    },
+    {
+      "timestamp": "07:40",
+      "speaker": "Unknown",
+      "en": "When you draw the cash, the check if you're allowed to draw it doesn't happen after you get the cash.",
+      "zh": "当你取现金时，检查你是否有权提取这件事，不会发生在你拿到现金之后。"
+    },
+    {
+      "timestamp": "07:50",
+      "speaker": "Unknown",
+      "en": "Our industry effectively misses this layer, this financial infrastructure that allows for this type of behavior to happen naturally, right?",
+      "zh": "我们的行业实际上缺失了这一层——这种让这类行为能够自然发生的金融基础设施，对吧？"
+    },
+    {
+      "timestamp": "08:27",
+      "speaker": "Unknown",
+      "en": "And what they had to say reads very similarly to how transactional systems of banks work.",
+      "zh": "而他们所说的内容，读起来与银行交易系统的运作方式非常相似。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "And I think lastly, and here you guys, this is my opinionated view, you can disagree, I don't think this is billing.",
+      "zh": "我认为最后一点，各位，这是我的主观看法，你们可以不同意，我不认为这是账单。"
+    },
+    {
+      "timestamp": "09:56",
+      "speaker": "Unknown",
+      "en": "This is a financial system that actually makes decisions ahead of any invoice, ahead of any billing element, and I think we're gonna see more and more of this becoming a standard for other products and other AI systems as well.",
+      "zh": "这是一个真正在任何发票之前、在任何账单要素之前就做出决策的金融系统，而且我认为我们会看到越来越多这样的东西成为其他产品和其他 AI 系统的标准。"
+    },
+    {
+      "timestamp": "10:53",
+      "speaker": "Unknown",
+      "en": "The concurrency is effectively solved with banks, but with AI and agents it's not that case.",
+      "zh": "并发问题在银行那里实际上是被解决掉的，但在 AI 和智能体这里情况并非如此。"
+    },
+    {
+      "timestamp": "10:58",
+      "speaker": "Unknown",
+      "en": "You could have whatever like 10,000 agents trying to reach out to the same dollar pool and they're gonna try to do that at once and superficially it might look like they should be able to draw down because there is balance in the pool.",
+      "zh": "你可以随便有 1 万个智能体尝试去碰同一个资金池，它们会同时那么做，而且表面上看起来它们似乎应该能够支取，因为池子里是有余额的。"
+    },
+    {
+      "timestamp": "11:23",
+      "speaker": "Unknown",
+      "en": "It's a classic double spend problem.",
+      "zh": "它是一个经典的双花问题。"
+    },
+    {
+      "timestamp": "11:31",
+      "speaker": "Unknown",
+      "en": "As I'm sure you all are building shipping today with AI, as the revenue scales, as your company scales, the idea of double entry accounting, double entry billing, the idea that you can solve concurrency, these things would matter.",
+      "zh": "就像我相信你们今天都在用 AI 构建并交付产品一样，随着收入和公司规模的扩大，复式记账、复式计费的概念，解决并发问题的概念，这些事情会变得重要。"
+    },
+    {
+      "timestamp": "13:32",
+      "speaker": "Unknown",
+      "en": "But today I think effectively credit pools are no longer flat.",
+      "zh": "但今天我认为实际上额度池不再是扁平的了。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "They want to know who actually used them, which team, which users, which agents, to what extent, and they want to have fine-grained control over that.",
+      "zh": "他们想知道到底是谁使用了这些额度，哪个团队、哪些用户、哪些智能体、用到了什么程度，而且他们想对此有细粒度的控制。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Unknown",
+      "en": "Across different models, across different features, across different products is not just nice to have it becoming a table stakes, it becomes something that you can't do business without and we're going to see more and more companies expect to have this off the bat before they actually do business with you.",
+      "zh": "跨不同模型、跨不同功能、跨不同产品的 AI 工作负载消费可见性，不再只是锦上添花，它正在成为入场门槛，变成没有它你就没法做生意的东西，而且我们会看到越来越多的公司期望在与你做生意之前就一开始就拥有这个。"
+    },
+    {
+      "timestamp": "17:53",
+      "speaker": "Unknown",
+      "en": "All they did was change the pace in which tokens get burned.",
+      "zh": "他们所做的只是改变了 token 被消耗的速度。"
+    },
+    {
+      "timestamp": "18:02",
+      "speaker": "Unknown",
+      "en": "So effectively you use the same model, we pay the same cost per unit but we burn more tokens.",
+      "zh": "所以实际上你使用同一个模型，我们支付同样的单位成本，但我们消耗更多的 token。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Dor Sasson，是一家专门做定价和计费基础设施的公司 Stigg 的联合创始人兼 CEO。他专门飞到一场 AI 大会，就为了说一句听起来很怪的话：每一家 AI 公司，都在不知不觉地建一座银行。这不是营销比喻，是对当下 AI 经济的一个严肃诊断。为什么这么说？我们来把这件事从头讲清楚。\n\n先看最近发生了什么。短短五个星期里，整个行业连环出事故。Anthropic 封掉了第三方代理使用订阅套餐的通道；OpenAI 一夜之间把 Pro 档的价格涨了五倍；GitHub 先冻结、后来干脆取消了 Copilot 免费套餐的试用。看起来是一家接一家在做商业定价调整，但 Dor 的判断是，这些表面上的业务问题，骨子里全是基础设施问题。\n\n为什么这么讲？拿 Anthropic 举例。用户每天付的是几美元、几美分，但在 Anthropic 的成本端，每个用户背后的补贴可能高达一百五十美元，甚至七百五十美元。这种经济模型是没法规模化的，连 Anthropic 这个体量的公司也扛不住。那为什么不赶紧刹住？因为 Anthropic 没办法在系统层面区分，到底是谁在用 API、谁在用订阅套餐。分不清，就只能紧急踩刹车。类似的故事还在别处上演：有一家公司，就几个员工，把整个组织价值五亿美元的 Claude 额度烧光了；Uber 年初才几个星期，就把全年的 AI 消费预算用完了；Replit 也出过三个用户烧掉整个组织信用池的事。\n\n那问题到底出在哪？所有这些事故有一个共同点：检查发生在账单之后，而不是之前。你可以随便用、随便烧 token，等账单寄到再对账，那时候已经太晚了。Dor 打了个特别好懂的比方：你去自动取款机取钱，银行检查你能不能取，是在吐钞之前，不是你取完之后再查。AI 行业缺的，恰恰就是这一层金融基础设施。\n\n这件事连 OpenAI 也躲不开，只能自己动手解决。他们的一个金融工程团队公布了架构思路，核心就是：在运行时同步做一次决策。这个用户或者代理，有没有权限访问这个功能？套餐的速率限制是多少？是不是还在试用期、促销期？所有判断，必须在请求发生的那一刻完成，而不是事后补查。所以 Dor 强调，这不是简单的计费问题，而是一套在任何账单产生之前就做决策的金融系统。\n\n说到这儿，你可能会觉得，这不就是记账吗？还真不止。银行系统里有些理所当然的能力，今天的 AI 公司根本不具备。比如并发扣款。如果两个账户共有人同时想取同一笔十美元，银行有冻结和结算机制来处理。但在 AI 场景下，可能是一万个代理同时冲向同一个额度池，表面上池子里还有钱，实际会被超支。这就是经典的所谓双重支付问题，而它的解法，还是得靠复式记账那套老办法。\n\n再比如额度来源。银行知道你的钱是从活期账户、现金账户还是储蓄账户里取的。可你手里可能有一千七百个积分，每个来源都不一样，有的是赠送的，有的是促销给的。先扣哪个？大多数公司今天只是把额度当成数据库里的一个整数，规模一小还行，规模化之后根本行不通。\n\n那真要卖 AI，该怎么建这套系统？Dor 总结了四种反复出现的模式。第一种，先预留额度，推理完成后按实际用量结算。第二种，越来越多的 AI 公司出于延迟、成本和数据主权的考虑，把账本和计量系统部署在自己的私有云里，不把用量数据传出去。第三种最有意思，是针对代理的检查。你没办法预知一个代理执行任务要花多少钱，所以只能在它干活的过程中持续查余额、预先预留，事后再对账。第四种关乎客户：对首席财务官和首席信息官来说，看清 AI 工作负载在不同模型、不同功能上的消耗，已经不是锦上添花，而是做生意的先决条件。\n\n还有一个细节特别值得琢磨。OpenAI 四月那次调整，其实没改价格，改的是 token 被烧掉的速度。同样的模型、同样的单价，只是消耗得更快。这事实上就是一次涨价，而且不只是财务上的调整，是基础设施层面的变更。\n\n那这一切的出路在哪？Dor 的团队喜欢打这样一个比方。2010 年代初，每家公司都想把产品搬上互联网，都需要支付、需要安全性，于是有了所谓的 Stripe 时刻——开发者几分钟就能接入收款。今天的 AI 行业缺的，正是这样一个时刻：把银行级的那些构件，冻结与结算、幂等性、可审计、多层级额度治理，做成开箱即用的东西，让 AI 公司不必等到规模化之后才手忙脚乱地补课。\n\n所以下次你看到哪家 AI 公司突然涨价、封号、砍套餐，别只当成商业新闻，那背后是一座还没建好的银行。既然每家 AI 公司都已经在建银行了，不如早点知道，银行都需要什么。"
+}

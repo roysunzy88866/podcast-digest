@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Laurent":2,"Kimchi":1,"Cast.AI":1,"Anthropic":198,"Claude":93,"编码智能体":32,"token":32,"harness":63,"沙箱":94,"开源":40}</script>
+<script type="application/json" class="pd-epn">{"Laurent":2,"Kimchi":1,"Cast.AI":1,"Anthropic":200,"Claude":93,"编码智能体":32,"token":33,"harness":63,"沙箱":94,"开源":40}</script>
 
 <script>
 (function(){

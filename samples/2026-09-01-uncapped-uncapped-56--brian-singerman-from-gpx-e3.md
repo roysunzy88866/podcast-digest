@@ -164,9 +164,9 @@ Brian 说 Founders Fund 不是平等合伙制，Peter 有最终决定权。但 P
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|AI 会毁灭人类？传奇投资人 Rabois 说你想多了]]<span class="pd-rz">同公司:Founders Fund、Anthropic、OpenAI、Ramp</span>
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]]<span class="pd-rz">同公司:Anthropic、OpenAI、SpaceX · 同概念:SPV</span>
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Anthropic、OpenAI、Palantir、SpaceX</span>
-- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:SPV</span>
 
 </div>
 <div class="pd-ex">

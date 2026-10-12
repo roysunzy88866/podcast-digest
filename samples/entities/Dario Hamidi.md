@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AMP":1,"智能体":471,"pull request":6,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":94,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"AMP":1,"智能体":473,"pull request":6,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":94,"Cursor":86}</script>
 
 <script>
 (function(){

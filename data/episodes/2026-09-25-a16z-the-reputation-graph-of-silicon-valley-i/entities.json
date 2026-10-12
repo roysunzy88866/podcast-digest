@@ -1,0 +1,1348 @@
+{
+  "episode_id": "2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i",
+  "podcast": "The a16z Show",
+  "date": "2026-09-25",
+  "tags": [
+    "职业声誉",
+    "背书与人脉",
+    "创业社区",
+    "AI 与信号稀缺",
+    "社交平台"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "david-booth",
+      "type": "person",
+      "role": "host",
+      "name": "David Booth",
+      "file": "David Booth",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            67.198,
+            75.503
+          ],
+          "quote": "In this episode, I sit down with Josh Ellman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "josh-ellman",
+      "type": "person",
+      "role": "cohost",
+      "name": "Josh Ellman",
+      "file": "Josh Ellman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            67.198,
+            75.503
+          ],
+          "quote": "In this episode, I sit down with Josh Ellman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "olivia-moore",
+      "type": "person",
+      "role": "cohost",
+      "name": "Olivia Moore",
+      "file": "Olivia Moore",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            67.198,
+            75.503
+          ],
+          "quote": "In this episode, I sit down with Josh Ellman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cosign",
+      "type": "company",
+      "role": "company",
+      "name": "Cosign",
+      "file": "Cosign",
+      "primary": true,
+      "how_described": "本集发布的新产品:一个面向创业社区、围绕职业声誉的开放目录,提供三种背书(塑造职业的人、愿意共事的人、值得关注的人)和双向私密意向信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            67.198,
+            75.503
+          ],
+          "quote": "In this episode, I sit down with Josh Ellman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 16,
+          "t": [
+            105.672,
+            116.238
+          ],
+          "quote": "We're super excited to announce Cosign, a product that is around professional reputation for the startup community and really just trying to be the most comprehensive directory of companies and people.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 52,
+          "t": [
+            257.297,
+            262.719
+          ],
+          "quote": "And angel investing or just investing from venture firm, that's one way to express a cosign or a signal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            270.672,
+            275.917
+          ],
+          "quote": "I'm just really curious as you've been building Cosign, like what are the kinds of endorsements you hope to get from the platform?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            879.417,
+            884.439
+          ],
+          "quote": "The other takeaway for me is like we can all be people matchers now with a product like Cosign.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1250.974,
+            1264.318
+          ],
+          "quote": "Do you know the meme where the guy's like walking into a party, stick figures, and he's like, they don't even know that, like, that's something you get like a baller cosign or whatever, and you're like, but it's not probably like, you know, Mark Andreessen wrote a blog post about me joining the firm.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1986.839,
+            1993.244
+          ],
+          "quote": "And when you get to focus just on kind of making sure the network's right and getting all that usage, I think Cosign can really open up so many opportunities.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2040.871,
+            2047.457
+          ],
+          "quote": "And I love the idea for Cosign of being able to like break that into the granularity that it deserves because it's so much more useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2157.967,
+            2168.211
+          ],
+          "quote": "And so that's where I get especially excited because I think Cosign is going to be valuable to hopefully so many people in the community and also very valuable to the work that we do and what we try to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2218.148,
+            2220.629
+          ],
+          "quote": "We hope that Cosign is about, or I'm sorry, professional identity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2220.849,
+            2222.65
+          ],
+          "quote": "We hope Cosign is about professional reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2229.4,
+            2232.806
+          ],
+          "quote": "And we hope that Cosign delivers both in a more granular way.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2439.032,
+            2442.314
+          ],
+          "quote": "And what gets me excited about Cosign isn't that it has to even be a better LinkedIn.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2488.468,
+            2492.79
+          ],
+          "quote": "And if Cosign works great and it still only serves the tech community as a huge win.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "endorsement",
+      "type": "concept",
+      "role": "concept",
+      "name": "背书 (endorsement)",
+      "file": "背书",
+      "primary": true,
+      "how_described": "本集把它说成:你信任的人公开担保某人值得关注,是被关注、被投资、被雇用的敲门砖,也是硅谷发现人才竞赛的核心机制",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            188.572,
+            190.593
+          ],
+          "quote": "It's an endorsement that this person is worth tracking.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 37,
+          "t": [
+            207.582,
+            209.723
+          ],
+          "quote": "And the exhaust is this endorsement.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 38,
+          "t": [
+            210.143,
+            214.064
+          ],
+          "quote": "And this endorsement, if you're followed by these people, now your doors are open.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1451.347,
+            1473.898
+          ],
+          "quote": "Managers and we are, you know, finance and like there's so many parts of every single company that have to get built and celebrating that work and when that happens from a specific team or a specific individual and be able to have that be part of this kind of endorsement and co-signing I think is going to be incredibly powerful beyond just, you know, the people that we talk about most of the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2148.843,
+            2157.427
+          ],
+          "quote": "Kind of outreach and interest with AI, like the scarce thing is like the human endorsement or the human conviction or the human knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2810.131,
+            2814.011
+          ],
+          "quote": "And it was such a great endorsement of you early in your career and your potential.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reputation",
+      "type": "concept",
+      "role": "concept",
+      "name": "职业声誉 (reputation)",
+      "file": "职业声誉",
+      "primary": true,
+      "how_described": "本集说 Cosign 的核心是让声誉变得持久:社交媒体上的赞誉第二天就被刷走,而声誉应该挂在个人主页上,第一次搜索某人就能看到",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            33.081,
+            41.31
+          ],
+          "quote": "And it allows us to really extend all that network and all that value and all that trust and really that reputation that transfers and builds over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 13,
+          "t": [
+            67.198,
+            75.503
+          ],
+          "quote": "In this episode, I sit down with Josh Ellman, Olivia Moore, and David Booth to introduce Cosign, a new product built around professional reputation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            91.348,
+            102.745
+          ],
+          "quote": "We also get into what we've learned from LinkedIn, X, and AngelList, and what happens when the reputation that normally lives in private conversations and fleeting social posts becomes more visible and durable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 16,
+          "t": [
+            105.672,
+            116.238
+          ],
+          "quote": "We're super excited to announce Cosign, a product that is around professional reputation for the startup community and really just trying to be the most comprehensive directory of companies and people.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 49,
+          "t": [
+            245.713,
+            248.314
+          ],
+          "quote": "So many people have done amazing, of building a reputation for discovering people.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 132,
+          "t": [
+            567.05,
+            570.414
+          ],
+          "quote": "So there was like, in a way, he's co-signing some of his reputation against that company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            702.79,
+            707.871
+          ],
+          "quote": "And he will hopefully take that introduction because he sees me putting my reputation against that introduction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            759.895,
+            763.097
+          ],
+          "quote": "I was talking about sort of the more granular ways of expressing reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 226,
+          "t": [
+            975.749,
+            982.17
+          ],
+          "quote": "It's really still part of the trusted community and really that reputation that transfers and builds over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1114.282,
+            1120.265
+          ],
+          "quote": "And announcement is so interesting because we think a way to differentiate there is to basically make reputation durable.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1120.405,
+            1125.128
+          ],
+          "quote": "A lot of reputation is built on social media, but it's ephemeral.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1155.393,
+            1161.679
+          ],
+          "quote": "And so for us, any announcement is gonna be tied to their sort of durable reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1189.207,
+            1193.65
+          ],
+          "quote": "And in that way, it will also build durable reputation because you get added to a list through that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1411.462,
+            1413.203
+          ],
+          "quote": "So you have the actual, like, reputation of cinema mechanism.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1579.344,
+            1585.228
+          ],
+          "quote": "We're making the reputation market more like efficient, basically more liquid in the sense of both efficient and liquid.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1585.288,
+            1589.13
+          ],
+          "quote": "So for example, there's some people who have an amazing reputation, but there's not awareness.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1589.871,
+            1591.812
+          ],
+          "quote": "Not a lot of people know that they have a great reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1592.693,
+            1600.497
+          ],
+          "quote": "And then more liquid in the sense of if it was known that they have a great reputation, a lot of people would want to hire them or fund them and they should get those opportunities as a result.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2212.086,
+            2216.108
+          ],
+          "quote": "And you don't really get context on the relationship or context on, you know, people's reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2220.849,
+            2222.65
+          ],
+          "quote": "We hope Cosign is about professional reputation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2426.11,
+            2430.671
+          ],
+          "quote": "Is it the individual who's trying to build their reputation as a talent scout?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2457.702,
+            2467.604
+          ],
+          "quote": "This person who may not have had a previously strong reputation, but has an insight and idea and that alone can gather a bunch of people and a bunch of momentum and change the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2633.583,
+            2638.265
+          ],
+          "quote": "So we will also have reliable profiles with, you know, more reputation benefits to it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "social-capital",
+      "type": "concept",
+      "role": "concept",
+      "name": "社会资本 (social capital)",
+      "file": "社会资本",
+      "primary": true,
+      "how_described": "本集说投资人无法直接投资自己对他人的个人社会资本,Cosign 的背书就是在给社会资本的齿轮上润滑油,让人可以把自己的声誉押在一次引荐上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            380.698,
+            383.719
+          ],
+          "quote": "It's almost like fantasy investing or social capital investing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            688.445,
+            693.427
+          ],
+          "quote": "One of the things that's always drawn me back was the idea that I can't invest in my personal social capital in you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            731.542,
+            739.505
+          ],
+          "quote": "And in fact, that sort of lubricates the wheels of social capital that could empower a lot more people to achieve a lot more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2872.705,
+            2875.027
+          ],
+          "quote": "Well, we're talking about social capital and positive sum mindsets.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effect)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "本集以 LinkedIn 为例说它 20 多年无人撼动,因为职业这种事你会想待在所有人都在的平台上,新平台的机会在有新信息或新价值可沉淀的细分领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 557,
+          "t": [
+            2349.691,
+            2353.212
+          ],
+          "quote": "Like that's the kind of network effect that really sticks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2353.352,
+            2356.373
+          ],
+          "quote": "And you think a lot about what is a 20 year network effect?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2356.433,
+            2366.435
+          ],
+          "quote": "Like look at LinkedIn and as you're building, and I say this a lot to new companies, as you're thinking about something new, how do you think about that kind of network effect that could be so powerful for 20 years?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "信号 (signal)",
+      "file": "信号",
+      "primary": true,
+      "how_described": "本集反复说硅谷最重要的机会始于一个简单的信号——你信任的人相信一个你还不认识的人;现有平台把连接一视同仁,让人更难分辨真正的信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            58.855,
+            63.017
+          ],
+          "quote": "Some of the most important opportunities in Silicon Valley start with a simple signal.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 14,
+          "t": [
+            76.504,
+            90.332
+          ],
+          "quote": "We talk about why those who believe in you can sometimes say more than a resume, how endorsements can help serve as great people before they're obvious, and why that human signal could become even more valuable as AI makes everything else easier to generate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            190.653,
+            194.055
+          ],
+          "quote": "It's a public signal that this person is worth following.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 36,
+          "t": [
+            194.595,
+            207.102
+          ],
+          "quote": "And we think there are lots of other ways to express that signal and create this kind of like reputational benefit that these people get, which is really the exhaust of, this person's not even trying to give them reputational benefit, they're just trying to read what they write.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 51,
+          "t": [
+            252.635,
+            256.757
+          ],
+          "quote": "Like if Josh Elliman or Olivia invest in my company, that's a signal to the market.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 52,
+          "t": [
+            257.297,
+            262.719
+          ],
+          "quote": "And angel investing or just investing from venture firm, that's one way to express a cosign or a signal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 54,
+          "t": [
+            266.681,
+            269.902
+          ],
+          "quote": "And so we think there are lots of other ways to express this signal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 65,
+          "t": [
+            296.397,
+            302.023
+          ],
+          "quote": "And that's a signal to other people that I'm worth other people spending time with, too, because if you respect Josh, you respect me by association.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 73,
+          "t": [
+            323.82,
+            328.503
+          ],
+          "quote": "That's a much more granular signal than do I follow them, which could be any number of things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 88,
+          "t": [
+            365.469,
+            367.55
+          ],
+          "quote": "And so there's actually signal in that too.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 104,
+          "t": [
+            418.903,
+            423.424
+          ],
+          "quote": "And we do it every day, and we still, I would say, have to work really hard to find that signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            536.595,
+            538.536
+          ],
+          "quote": "So this kind of signal is more important than ever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            551.223,
+            561.127
+          ],
+          "quote": "An example I love to point to on the site when people go and you've got people like Paki McCormick who I think has always had a lot of very good signal around the deep tech and the vertical integrators in particular and Paki's got 37 companies that he's chosen.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            624.455,
+            629.821
+          ],
+          "quote": "We're going to have a much more granular information to make sure that there's real signal there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 199,
+          "t": [
+            832.794,
+            837.96
+          ],
+          "quote": "Now, what we've enabled is this privately signal that's actually a bit more granular.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 227,
+          "t": [
+            982.61,
+            986.871
+          ],
+          "quote": "So building on something, Eric said, the private signal is one core piece of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            987.031,
+            989.332
+          ],
+          "quote": "And I think what we're talking about here is in a way the public signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            989.392,
+            991.312
+          ],
+          "quote": "So we've built the two of them, the private signal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1390.007,
+            1401.195
+          ],
+          "quote": "I think even just positive signal is going to be incredibly informative because I think a lot of people in Silicon Valley have a pretty high bar for who they're willing to publicly endorse in any way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1714.475,
+            1719.28
+          ],
+          "quote": "Like, or it's not built for this use case of like, you know, discovering people to work for or just get more signal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1816.646,
+            1820.189
+          ],
+          "quote": "Now, the challenge is, as you built the network, there's very single signal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1867.399,
+            1872.021
+          ],
+          "quote": "And the challenge with collecting that network is it makes it much harder to figure out where the real signal is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2095.813,
+            2113.293
+          ],
+          "quote": "I think that that kind of manual work that's truly external signal based and it's kind of binary signal versus really granular signal, that's only going to get harder because, for example, recently I posted on LinkedIn, I was like, hey, I'd love to help my portfolio companies hire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2179.478,
+            2187.723
+          ],
+          "quote": "And that's where we are to start and, you know, growing slowly and basically where you put out a post and you'll just be more confident in the signal that comes in.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "information-asymmetry",
+      "type": "concept",
+      "role": "concept",
+      "name": "信息不对称 (information asymmetry)",
+      "file": "信息不对称",
+      "primary": true,
+      "how_described": "本集说现在信息不对称非常严重:投资人每天都要打听谁和谁共事过,初级工程师手握五份录用通知却无从判断哪家是火箭,Cosign 就是在修复这种不对称",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            408.373,
+            411.757
+          ],
+          "quote": "And there's such information asymmetry right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1600.738,
+            1603.139
+          ],
+          "quote": "And so it's basically like trying to fix that information asymmetry.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集说随着浏览器自动化和 AI 普及,发帖求助会从 2000 份回复涨到 10 万份,触达无限便宜之后,稀缺的恰恰是人类的背书与信念",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            76.504,
+            90.332
+          ],
+          "quote": "We talk about why those who believe in you can sometimes say more than a resume, how endorsements can help serve as great people before they're obvious, and why that human signal could become even more valuable as AI makes everything else easier to generate.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2148.843,
+            2157.427
+          ],
+          "quote": "Kind of outreach and interest with AI, like the scarce thing is like the human endorsement or the human conviction or the human knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2611.956,
+            2617.838
+          ],
+          "quote": "Because of AI, can we generate all of this information on people and like recreate, you know, a professional graph?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2657.237,
+            2663.465
+          ],
+          "quote": "And it wasn't possible before AI for a network, I think, as big as Silicon Valley, and now it is, which is awesome.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": true,
+      "how_described": "本集嘉宾 Josh 回忆 2004-05 年在 LinkedIn 的经历和 Reid Hoffman 的增长-使用-营收三阶段,并说它把所有关系一视同仁、信号被稀释,但网络效应 20 年难撼动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.348,
+            102.745
+          ],
+          "quote": "We also get into what we've learned from LinkedIn, X, and AngelList, and what happens when the reputation that normally lives in private conversations and fleeting social posts becomes more visible and durable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            614.145,
+            622.273
+          ],
+          "quote": "But how often do you go to someone's LinkedIn or text someone and be like, hey, you're connected to someone on LinkedIn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1658.773,
+            1670.296
+          ],
+          "quote": "I feel like even for investors, like, the most up-to-date profile of the companies they care about is maybe if they tag them all in their ex-bio and maybe if they put them on their LinkedIn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1726.07,
+            1730.911
+          ],
+          "quote": "And so I, and then LinkedIn, you know, it's such a valuable utility.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1736.853,
+            1737.953
+          ],
+          "quote": "We love LinkedIn.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1737.973,
+            1738.613
+          ],
+          "quote": "We love LinkedIn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1739.433,
+            1741.954
+          ],
+          "quote": "LinkedIn, you know, one of the most iconic products of all time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1764.349,
+            1774.352
+          ],
+          "quote": "You know, look, I worked at LinkedIn back in 2004 and five when we were just starting to form a network and Reid Hoffman, the founder, used to talk about it very much as like we have three stages of the company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1801.26,
+            1802.58
+          ],
+          "quote": "I helped launch the first LinkedIn jobs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1883.367,
+            1894.713
+          ],
+          "quote": "One of the things I remember when we were first building LinkedIn jobs was the goal was to take a current job service where someone just applies and gets a resume and you see a job listing and go, how do we use the power of your professional network to make it better?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1961.563,
+            1979.394
+          ],
+          "quote": "What has been missing, though, is the set of things that happens, a family through X, like you were talking about, the set of things that we all have, but we don't figure out how to strengthen and put into LinkedIn anymore, the true connection, the reason that we were in the trenches together, we worked on this thing, you bailed me out of a crisis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1997.744,
+            2004.967
+          ],
+          "quote": "And LinkedIn, for good reason, again, I feel like we're all saying iconic product, I'm an hourly activist, making a ton of revenue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2006.528,
+            2013.911
+          ],
+          "quote": "But LinkedIn treats almost every kind of type of connection the same, especially as products like endorsements on LinkedIn have been really taken off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2013.931,
+            2020.074
+          ],
+          "quote": "So like, for example, 90% of the time when I say to someone, hey, I saw you're connected to this person on LinkedIn, can you intro me?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2095.813,
+            2113.293
+          ],
+          "quote": "I think that that kind of manual work that's truly external signal based and it's kind of binary signal versus really granular signal, that's only going to get harder because, for example, recently I posted on LinkedIn, I was like, hey, I'd love to help my portfolio companies hire.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2189.224,
+            2194.968
+          ],
+          "quote": "Going back to LinkedIn for a second, some things that, you know, I wish it had is, like, you know, sort of, like,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2216.128,
+            2217.948
+          ],
+          "quote": "It's like LinkedIn is about personal identity.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2223.11,
+            2224.493
+          ],
+          "quote": "You know, LinkedIn is about this.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2232.826,
+            2235.37
+          ],
+          "quote": "And at the same time, you need to give props to LinkedIn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2242.252,
+            2248.117
+          ],
+          "quote": "I remember Charles Hudson, you know, great, great investor, like, you know, 12 years ago was a blog post, like, where are the LinkedIn competitors?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2257.504,
+            2261.87
+          ],
+          "quote": "Crypto, all sorts of different incentives to break LinkedIn.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2277.349,
+            2285.895
+          ],
+          "quote": "But I think the real thing with LinkedIn is I actually think the NPS is really high for the people who aren't actively in the flow and in the searching and in the community.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2286.176,
+            2287.777
+          ],
+          "quote": "LinkedIn's always served two audiences.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2321.032,
+            2331.941
+          ],
+          "quote": "And I might consider it still might not be right for you in life at the time, but for those mildly happily employed people, they aren't constantly, you know, if they're an engineer, they're not checking LinkedIn every day for like new people or new things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2356.433,
+            2366.435
+          ],
+          "quote": "Like look at LinkedIn and as you're building, and I say this a lot to new companies, as you're thinking about something new, how do you think about that kind of network effect that could be so powerful for 20 years?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2371.876,
+            2375.177
+          ],
+          "quote": "We have looked at and invested in some attempted LinkedIn killers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2385.72,
+            2389.481
+          ],
+          "quote": "There's whole businesses that are built off of scraping LinkedIn and selling that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2412.507,
+            2418.068
+          ],
+          "quote": "Generational shifts and also niche, the hyper niche that needs its own LinkedIn.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2418.108,
+            2421.769
+          ],
+          "quote": "For example, GitHub is arguably a better LinkedIn for engineers than LinkedIn itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2432.732,
+            2437.133
+          ],
+          "quote": "Is there a world for a better LinkedIn that represents their taste in people?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2439.032,
+            2442.314
+          ],
+          "quote": "And what gets me excited about Cosign isn't that it has to even be a better LinkedIn.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2470.105,
+            2477.266
+          ],
+          "quote": "And that's what I think, you know, these platforms like LinkedIn, you know, serving so many people now across so many industries and so many domains.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2549.231,
+            2552.953
+          ],
+          "quote": "And then similarly, like, yeah, LinkedIn's gonna be great, like, it's gonna keep doing its thing.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2699.316,
+            2712.291
+          ],
+          "quote": "It was the ability to see which companies in which geographies, which people at those companies, which, you know, for a long time, it felt like it could be the LinkedIn for this sort of little niche of people who were ambitious in technology.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "type": "company",
+      "role": "company",
+      "name": "X",
+      "file": "X",
+      "primary": true,
+      "how_described": "本集说 X 的产出物对很多人非常有价值,Cosign 接入了 X 的实时信息流,把融资公告和人才流动下的真诚好评自动沉淀为持久声誉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.348,
+            102.745
+          ],
+          "quote": "We also get into what we've learned from LinkedIn, X, and AngelList, and what happens when the reputation that normally lives in private conversations and fleeting social posts becomes more visible and durable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1194.432,
+            1207.715
+          ],
+          "quote": "I think this idea of bringing those ephemeral moments and those ephemeral conversations that happen on Twitter and other social X and other social media forums all the time are like, there's so much that just happens and it's wonderful in the moment and then it gets lost.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1291.216,
+            1302.799
+          ],
+          "quote": "Thanks to our good friends at X, we're plugged into a lot of those and we're taking like whenever someone quote tweets an announcement or replies and you're filtering them, it's a genuinely thoughtful, positive comment you pointed earlier about positivity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1697.123,
+            1702.706
+          ],
+          "quote": "Like X, obviously, you know, such a great platform and the exhaust of it is so valuable to so many people.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1961.563,
+            1979.394
+          ],
+          "quote": "What has been missing, though, is the set of things that happens, a family through X, like you were talking about, the set of things that we all have, but we don't figure out how to strengthen and put into LinkedIn anymore, the true connection, the reason that we were in the trenches together, we worked on this thing, you bailed me out of a crisis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2978.416,
+            2984.1
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "angellist",
+      "type": "company",
+      "role": "company",
+      "name": "AngelList",
+      "file": "AngelList",
+      "primary": true,
+      "how_described": "本集说 AngelList 十年前拥有投资人图谱、服务创业社区,曾是很多人进入硅谷的楔子,但后来转向其他方向,废弃了值得恢复的免费公共社交网络",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.348,
+            102.745
+          ],
+          "quote": "We also get into what we've learned from LinkedIn, X, and AngelList, and what happens when the reputation that normally lives in private conversations and fleeting social posts becomes more visible and durable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2555.094,
+            2565.82
+          ],
+          "quote": "We're also inspired by AngelList, like, 10 years ago, when they owned the InvestorGraph, and it was for the startup community, and it was really focused around, you know, companies, investors, and talent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2691.228,
+            2693.05
+          ],
+          "quote": "And Eric talks about the AngelList example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2693.61,
+            2698.956
+          ],
+          "quote": "I recall very early in my career, AngelList was probably the first, it was like the wedge that I took into Silicon Valley at all.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集顺带说对工程师而言 GitHub 可以说是比 LinkedIn 本身更好的 LinkedIn,以此说明细分领域需要自己的职业平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2418.108,
+            2421.769
+          ],
+          "quote": "For example, GitHub is arguably a better LinkedIn for engineers than LinkedIn itself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

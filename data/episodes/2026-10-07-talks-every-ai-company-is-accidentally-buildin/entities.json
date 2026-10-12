@@ -1,0 +1,487 @@
+{
+  "episode_id": "2026-10-07-talks-every-ai-company-is-accidentally-buildin",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "定价与计费",
+    "AI 基础设施",
+    "智能体",
+    "金融基础设施",
+    "AI 商业化"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dor-sasson",
+      "type": "person",
+      "role": "guest",
+      "name": "Dor Sasson",
+      "file": "Dor Sasson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集核心案例:因无法在系统层面区分 API 用户与订阅用户,被迫切断 OpenClaw 等第三方智能体的订阅访问;用户每天付几美元,补贴成本却高达 150 至 750 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            124.13,
+            131.68
+          ],
+          "quote": "So just to give you some perspective, we had in April, we had Anthropic basically eliminating access for OpenClo,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            179.708,
+            195.158
+          ],
+          "quote": "If you think about Anthropic and you think about the OpenClaw use case, what happened was effectively Anthropic was subsidizing every consumption of every user using OpenClaw within the Cloud Max subscription.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            195.758,
+            215.012
+          ],
+          "quote": "So effectively what the customers were paying daily was dollars and cents, but on the cost side for Anthropic, it was like 150 to even 750 subsidized, which is effectively not an economics that you can scale, even for the company at the size, at the scale of Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            216.072,
+            231.259
+          ],
+          "quote": "So what it seemed to be a business problem really was an infrastructure problem because Anthropic didn't have an effective way to delineate between users who are using their APIs and users who are using their subscription programs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            242.202,
+            244.864
+          ],
+          "quote": "And this is not unique to Anthropic, guys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            284.884,
+            289.526
+          ],
+          "quote": "So really what's happening here is this is not just an Anthropic",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "一夜之间把 Pro 档价格提高 5 倍;其 Financial Engineering 团队公布了在运行时同步做权限与额度决策的架构,被嘉宾引为金融基础设施必要性的佐证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            135.743,
+            146.29
+          ],
+          "quote": "Then immediately we had OpenAI basically changing how the pro tier is being priced, bumping the price overnight, 5x, which is quite intense.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            491.892,
+            497.616
+          ],
+          "quote": "In February, OpenAI, they have quite a great team, their team called Financial Engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            503.141,
+            507.745
+          ],
+          "quote": "And what they had to build for this to work at the scale of OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1069.739,
+            1073.54
+          ],
+          "quote": "One of the changes in April that OpenAI did is really they didn't change the pricing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到 GitHub 先冻结、后彻底取消了 Copilot 免费套餐的试用访问,作为连环定价事故之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            146.79,
+            159.318
+          ],
+          "quote": "And then we had GitHub freezing and then completely eliminating access, trial access, free access to their, whoa, we have some echo here, to their free plans for co-pilot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集举例:Uber 在年初几周内就用光了全年的 AI 使用消耗预算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            262.373,
+            270.918
+          ],
+          "quote": "We had Uber saying they basically turged down their entire AI usage consumption budget for the year in just a few",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": false,
+      "how_described": "本集举例:Replit 曾出现一个组织里 3 个用户烧光整个组织额度池的情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            271.478,
+            284.424
+          ],
+          "quote": "weeks into the year and then we had Replit giving an example of what could happen if a single org has three users that are basically burning down the entire credit pool for Replit for the entire org.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "financial-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "金融基础设施 (financial infrastructure)",
+      "file": "金融基础设施",
+      "primary": true,
+      "how_described": "本集主线论断:每家 AI 公司都在不知不觉地建一座银行;缺的是像银行那样在消费之前同步做检查的金融基础设施层,而不只是事后计费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            333.552,
+            352.565
+          ],
+          "quote": "Bad for business, it's sticker shock, it's bad for practice of how we use the systems, these systems are now mission critical and we're basically, none of these companies had in place the financial infrastructure that allows exactly like banks guys to check before we draw down, before we consume, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            470.724,
+            479.827
+          ],
+          "quote": "Our industry effectively misses this layer, this financial infrastructure that allows for this type of behavior to happen naturally, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "type": "concept",
+      "role": "concept",
+      "name": "计费 (billing)",
+      "file": "计费",
+      "primary": true,
+      "how_described": "本集认为问题不止是计费:检查发生在账单之后而非之前;嘉宾强调这套架构不是开票和账单,而是在任何发票之前就做决策的金融系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            583.471,
+            589.135
+          ],
+          "quote": "And I think lastly, and here you guys, this is my opinionated view, you can disagree, I don't think this is billing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            589.575,
+            596.159
+          ],
+          "quote": "I don't think this is necessarily, this entire architecture is just related to the idea of invoicing and billing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            596.459,
+            609.288
+          ],
+          "quote": "This is a financial system that actually makes decisions ahead of any invoice, ahead of any billing element, and I think we're gonna see more and more of this becoming a standard for other products and other AI systems as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            691.29,
+            704.383
+          ],
+          "quote": "As I'm sure you all are building shipping today with AI, as the revenue scales, as your company scales, the idea of double entry accounting, double entry billing, the idea that you can solve concurrency, these things would matter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (pricing)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            101.09,
+            107.773
+          ],
+          "quote": "In just a matter of five weeks, everything felt like pricing emergency, one after the other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            107.793,
+            115.958
+          ],
+          "quote": "The case I want to make here is that these pricing emergencies go way beyond just emergencies from a financial commercial side of the house.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1069.739,
+            1073.54
+          ],
+          "quote": "One of the changes in April that OpenAI did is really they didn't change the pricing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1082.743,
+            1085.103
+          ],
+          "quote": "So that effectively was a pricing change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1093.426,
+            1104.371
+          ],
+          "quote": "So there's a lot of complexity, not in terms of just how we change pricing, but also how the infrastructure underneath allows for more complex ideas into how value is getting introduced to the users.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讲智能体的用量无法预知:上万个智能体可能同时冲向同一个额度池造成并发问题,必须在执行过程中持续查余额、预先预留、事后对账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            291.047,
+            309.845
+          ],
+          "quote": "And I think what's mutual and kind of like switching gears from the examples to the actual what's really happening here, the problem basically with all these three examples is that the checks for what you're entitled, what you're allowed to do, whether you're an agent or a user with your AI product,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            515.451,
+            523.518
+          ],
+          "quote": "Basically you have a decision waterfall that needs to consider in runtime what is the client, the user, the agent is allowed to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            955.064,
+            969.652
+          ],
+          "quote": "I think for agentic checks, to think about how agents spawn, the idea of checking balances, when agent does something you don't know in advance what they're ultimately going to do, how that task is going to basically cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            969.932,
+            982.179
+          ],
+          "quote": "So if you don't know the cost, you need to be able to check those balances as the agent continues to get work, and you need to be able to reserve and account for them in advance and then asynchronically after effect reconcile.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集提出的关键模式之一:在推理之前预留额度、推理完成后按实际用量结算;而今天大多数团队的检查和结算发生在推理之后,通常太晚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            387.345,
+            404.181
+          ],
+          "quote": "So I think what's interesting and what you see in front of you is basically on the left side, what we're seeing is how most teams ship this architecture today and you can see that basically the check and the settlements are happening after the inference, after the usage is being logged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            901.957,
+            906.702
+          ],
+          "quote": "I think the first one we talked about earlier is basically being able to reserve before inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "double-entry-bookkeeping",
+      "type": "concept",
+      "role": "concept",
+      "name": "复式记账法 (double entry bookkeeping)",
+      "file": "复式记账法",
+      "primary": true,
+      "how_described": "本集把 AI 额度池的并发超支归结为经典的双花问题,解法来自会计领域的复式记账/复式计费思维,并强调幂等性与可审计性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            688.267,
+            690.449
+          ],
+          "quote": "It's a double entry bookkeeping.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "credit-pool",
+      "type": "concept",
+      "role": "concept",
+      "name": "额度池 (credit pool)",
+      "file": "额度池",
+      "primary": true,
+      "how_described": "本集指出额度池不再是扁平的:不同来源(赠送、促销)的额度需要不同的治理与扣减顺序,把它当数据库里的一个整数在规模化后行不通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            271.478,
+            284.424
+          ],
+          "quote": "weeks into the year and then we had Replit giving an example of what could happen if a single org has three users that are basically burning down the entire credit pool for Replit for the entire org.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-sovereignty",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据主权 (data sovereignty)",
+      "file": "数据主权",
+      "primary": false,
+      "how_described": "本集提到出于延迟、成本和数据主权的原因,越来越多 AI 公司倾向于把账本和计量系统部署在自己的 VPC 内,而不是把用量数据传出去。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            932.264,
+            943.034
+          ],
+          "quote": "For latency reasons, for cost reasons, for data sovereignty reasons, there's a lot of good reasons for why these companies actually rather to keep the events data inside their VPC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Stigg",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

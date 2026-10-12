@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"antigravity":1,"Gemini":16,"Google DeepMind":9,"智能体":471,"子智能体":6,"生成式 UI":5,"边车":1,"随智能扩展":1,"智能体编排":1,"Agent Manager":1}</script>
+<script type="application/json" class="pd-epn">{"antigravity":1,"Gemini":16,"Google DeepMind":9,"智能体":473,"子智能体":6,"生成式 UI":5,"边车":1,"随智能扩展":1,"智能体编排":1,"Agent Manager":1}</script>
 
 <script>
 (function(){

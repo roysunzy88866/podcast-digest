@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Chaitanya Asawa]] · [[Evan Spiegel]] · [[Abridge]] · [[Snap]] · [[临床决策支持]] · [[Snapchat]] · [[评估]] · [[Spectacles]]
 
-<script type="application/json" class="pd-epn">{"智能体":471,"Lenny":69,"Chaitanya Asawa":1,"Evan Spiegel":1,"Abridge":1,"Snap":3,"临床决策支持":1,"Snapchat":4,"评估":1,"Spectacles":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":473,"Lenny":69,"Chaitanya Asawa":1,"Evan Spiegel":1,"Abridge":1,"Snap":3,"临床决策支持":1,"Snapchat":4,"评估":1,"Spectacles":1}</script>
 
 <script>
 (function(){

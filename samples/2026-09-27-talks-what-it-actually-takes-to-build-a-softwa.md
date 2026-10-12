@@ -157,8 +157,8 @@ Teresa 的回答是乐观的：人类只是又向上抽象了一层——就像�
 **顺着「智能体」挖下去**
 
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈]]<span class="pd-rz">同概念:智能体 (agent)、编码智能体 (coding agent)、计算机使用 (computer use)、软件工厂 (software factory)</span>
+- [[2026-10-07-talks-the-software-factory-from-bug-report-to|软件工厂：从报错到上线，代码不再靠人手写]]<span class="pd-rz">同公司:factory · 同概念:开源模型 (open source models)、智能体 (agent)、软件工厂 (software factory)</span>
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同公司:factory · 同概念:智能体 (agent)、软件工厂 (software factory)</span>
-- [[2026-09-27-talks-software-engineering-is-becoming-factory|软件工程正在变成「工厂工程」：Warp 创始人的自动化开发全景]]<span class="pd-rz">同概念:智能体 (agent)、计算机使用 (computer use)、软件工厂 (software factory)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Netflix":7,"InterPositive":1,"WorkOS":10,"Mercury":5,"GenAI":1,"智能体":471,"系统思维":5,"动荡阶段":1,"留任测试":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Netflix":7,"InterPositive":1,"WorkOS":10,"Mercury":5,"GenAI":1,"智能体":473,"系统思维":5,"动荡阶段":1,"留任测试":1}</script>
 
 <script>
 (function(){

@@ -139,9 +139,9 @@ Maggie 最想听到候选人问：「法律行业的什么让你如此兴奋？�
 
 **换个口味**
 
+- [[2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears|AI 会毁灭人类？传奇投资人 Rabois 说你想多了]]<span class="pd-rz">同公司:Harvey、Anthropic、OpenAI</span>
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义]]<span class="pd-rz">同公司:Harvey、Anthropic、OpenAI</span>
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:信任 (trust)</span>
-- [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:Harvey、OpenAI</span>
 
 </div>
 </div>
