@@ -41,9 +41,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Slack]] · [[Claude Code]] · [[Cursor]] · [[Meta]] · [[Codex]] · [[Co-work]] · [[Ramp]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Mercury]] · [[Slack]] · [[Claude Code]] · [[Cursor]] · [[Meta]] · [[Codex]] · [[Co-work]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":467,"Anthropic":197,"Slack":34,"Claude Code":103,"Cursor":86,"Meta":51,"Codex":83,"Co-work":4,"Ramp":11}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":471,"Anthropic":198,"Mercury":5,"Slack":34,"Claude Code":104,"Cursor":86,"Meta":51,"Codex":83,"Co-work":4}</script>
 
 <script>
 (function(){

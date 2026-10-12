@@ -214,7 +214,7 @@ Musk 的 [[Grok|Grok]] 发布了叫 Annie 的角色——主持人现场连线�
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Gemini</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Gemini</span>
-- [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Grok</span>
+- [[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体]]<span class="pd-rz">同公司:ChatGPT、OpenAI · 同概念:强化学习 (reinforcement learning)</span>
 
 </div>
 </div>

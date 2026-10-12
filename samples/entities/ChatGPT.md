@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>106</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>108</b> 集 · <b>24</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -94,10 +94,12 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(05:56起):本集说她此前几个月非常喜欢 ChatGPT 和 GPT 模型,「它们让我更开心」
 - **[[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]]**(21:36起):本集说 ChatGPT 下国际象棋很烂、会幻觉出棋步,这促使 Amjad 第一次亲手训练模型
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(15:01起):被列为 AI 聊天应用代表之一,作为内容信息流的对照(服务 100 亿到 1000 亿活跃参数的大模型、须自己制造每个 token)。
+- **[[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]]**(49:52起):本集用它作参照:新模型形态可能是自 ChatGPT 以来 AI 模型采用最快的一次
 - **[[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]]**(02:07起):本集说从 ChatGPT 发布之初就有软件工厂的持续闭环想法，但当时 LLM 幻觉严重、基础设施不足，行不通。
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(17:48起):本集把 Jev 类比为「面向开发者的 ChatGPT」，其爆火完全出乎预料。
 - **[[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]]**(03:55起):本集说自 2023 年第一次用 ChatGPT 起,大家心里就已经有了 AI 助理应该是什么样子的期待。
 - **[[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]]**(00:27起):嘉宾的第二个魔法时刻：ChatGPT Voice 接入 Gmail 和日历后，他骑车上班 30 分钟里动嘴就把邮件分类、回信、发日历邀请全办完
+- **[[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]]**(01:37起):Liam 用 GPT 3.5 做两周冲刺做出来的产品,内部预期仅数万用户却远超预期;他从中学到『质疑一切』,并将其变现模式类比到 Periodic 的收费方式。
 - **[[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]]**(04:32起):本集把它说成：开放生态的载体——开发者可以在 ChatGPT 里构建应用，用户还能把 ChatGPT 订阅的 token 带到任何应用里用。
 - **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(01:07起):本集说 ChatGPT 是承载 dots、Spaces、Sites 和插件生态的平台,企业甚至可能把它当作协作平台、把真相源迁到其托管的文档上。
 - **[[2026-10-01-twist-justin-kan-brian-chesky-the-rejections-t|《回顾特辑：Justin Kan 的至暗时刻与 Chesky 的麦片融资》]]**(21:08起):本集顺带提到 ChatGPT：超十亿人使用、每次问答都有真实成本，还拿它和「前 ChatGPT 时代」对比创业节奏的变化。
@@ -170,7 +172,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*106 集*
+*108 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -256,10 +258,12 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为概念(提及)
 - [[2026-09-23-a16z-amjad-masad-on-rethinking-college-for-th|《年轻人该去质疑，而不是听话：AI 时代重新想象大学》]] — 作为被讨论公司
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司(提及)
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为被讨论公司(提及)
 - [[2026-09-27-talks-what-it-actually-takes-to-build-a-softwa|《软件工厂：让智能体闭环造软件，而不只是写代码》]] — 作为概念(提及)
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
 - [[2026-09-29-a16z-the-personal-agent-race-is-here-anish-ac|《个人 AI 智能体爆发前夜：从订机票到替你砍价的隐形助手》]] — 作为被讨论公司
+- [[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]] — 作为被讨论公司
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为概念
 - [[2026-09-30-sourcery-the-10t-ai-buildout-has-a-photonics-prob|《铜线到头了：光子学如何接住 AI 数据中心》]] — 作为被讨论公司(提及)
@@ -285,7 +289,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[Cursor]] · [[LLM]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":467,"OpenAI":192,"Claude":93,"Anthropic":197,"Google":70,"Codex":83,"Lenny":69,"Cursor":86,"LLM":60,"护栏":88}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"OpenAI":193,"Claude":93,"Anthropic":198,"Google":70,"Codex":83,"Lenny":69,"Cursor":86,"LLM":60,"护栏":88}</script>
 
 <script>
 (function(){

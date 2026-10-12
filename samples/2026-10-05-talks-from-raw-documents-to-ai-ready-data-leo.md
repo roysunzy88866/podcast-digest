@@ -141,7 +141,7 @@ DZ的[[数据切片|数据切片]]可以按计划自动刷新:SharePoint上有�
 
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:RAG、上下文 (context)、元数据 (metadata)、向量数据库 (vector database)、智能体 (agent)</span>
 - [[2026-09-23-talks-building-the-document-context-layer-for|为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)、向量数据库 (vector database)</span>
-- [[2026-08-14-cogrev-lindy-teammate-flo-crivello-on-multiplay|Lindy 创始人谈 AI 员工的上下文战争：从红黑树到"走去洗车"]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)</span>
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|搜代码不用向量库，搜公司文档为什么不行？]]<span class="pd-rz">同概念:RAG、向量数据库 (vector database)、智能体 (agent)、Claude Code</span>
 
 </div>
 <div class="pd-ex">

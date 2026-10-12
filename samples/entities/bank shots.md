@@ -25,7 +25,7 @@ unlisted: true
 
 [[Theo Jaffe]] · [[Sofia Puccini]] · [[Steven Sinofsky]] · [[监管俘获]] · [[precautionary principle]] · [[开源]] · [[AT&T]] · [[Anthropic]] · [[regulation]] · [[幻觉]]
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Sofia Puccini":4,"Steven Sinofsky":3,"监管俘获":3,"precautionary principle":1,"开源":40,"AT&T":2,"Anthropic":197,"regulation":2,"幻觉":12}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":7,"Sofia Puccini":4,"Steven Sinofsky":4,"监管俘获":3,"precautionary principle":1,"开源":40,"AT&T":2,"Anthropic":198,"regulation":3,"幻觉":12}</script>
 
 <script>
 (function(){

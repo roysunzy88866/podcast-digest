@@ -1,0 +1,233 @@
+{
+  "title_zh": "扩散模型能不能取代GPT？扩散模型之父下场创业",
+  "tldr": "Stanford教授、扩散模型奠基人Stefano Ermon创办Inception，用扩散模型做大语言模型，赌的是推理速度。",
+  "digest_md": "如今主流的语言模型是一个字一个字往外蹦，扩散模型则像把一整幅画从模糊修到清晰。前者统治了今天的语言模型，后者统治了图像和视频生成。Stefano Ermon是扩散模型的奠基人之一，2019年和博士生Yang Song一起开创了这条路线。如今他创办了Inception，想把扩散模型搬进语言和代码生成的地盘，直接挑战大实验室的既有架构。他在No Priors播客里讲清了这背后的逻辑。\n\n> 【背景】原文中没有出现「ChatGPT」，故正文改为「如今主流的语言模型」这一表述。\n\n## 从生成模糊数字，到定义一个时代\n\n2014年Ermon加入Stanford时，生成模型还是个冷门方向。他回忆，那时候能在MNIST数据集上生成模糊的手写数字就算大成功，发论文都得另找理由。他的出发点是“世界模型”：人能想象自己站起来走出门会发生什么，这种想象能力背后需要生成模型支撑 [01:47 Stefano Ermon]。\n\n2019年，他和Yang Song提出训练神经网络给图像去噪：如果模型能把噪声去掉，说明它理解了图像结构，就可以据此反向生成图像。这就是扩散模型的起点。今天最好的图像、视频生成模型，以及很多蛋白质设计工作，都建立在它之上。\n\n## 为什么语言模型也能“从噪声开始”？\n\n图像是连续的，两个像素颜色之间可以平滑过渡；文字是离散的，两个词之间没有“中间的词”。所以把扩散模型用到文本上需要全新的研究。2024年，他的团队发表了突破性论文：在GPT-2规模（不到10亿参数）上，**扩散语言模型第一次追平了自回归模型的质量，生成速度却快了约10倍** [05:07 Stefano Ermon]。\n\n这让他决定开公司，把这个技术做大。Inception的Mercury模型，据他称已与Google的Flash、OpenAI的小模型等同类小模型质量相当，但显著更快，并且已在生产环境中服务真实客户。\n\n## 核心赌注：赢在推理，而不是训练\n\nErmon的历史类比很清楚。业界从RNN转向Transformer，是因为RNN必须逐个处理词元，训练太慢；Transformer能并行训练，才有了后来的大语言模型。但到了推理阶段，自回归模型又是逐个词元生成的——必须生成完前面的所有词元，才能生成第10个 [09:00 Stefano Ermon]。这种工作负载对GPU很不友好，大量时间花在搬运权重而不是做计算上。\n\n扩散模型天生就是在推理时并行处理大量词元，工作负载和训练很像，正好匹配图形处理器的长处。他的判断是：“**更并行的方案最终会赢**” [11:11 Stefano Ermon]。加上推理能力是强化学习后训练的瓶颈，推理快的模型在那一步也占优。\n\n## 客户为什么买单：快的回不去\n\n他举了语音智能公司OpenCall的例子。语音助手的流程是语音识别、语言模型推理、语音合成，延迟直接决定体验。OpenCall原来用Cerebras的定制芯片加速自回归模型，后来换成了Mercury——在普通英伟达图形处理器上就达到了同等速度，供应更充足、成本更低 [18:18 Stefano Ermon]。\n\n他估算，在各类任务中，**大约20%到30%对延迟高度敏感**，这是扩散语言模型眼下最确定的市场。他甚至拿宽带作比：一旦用惯了快的模型，就回不去了。\n\n## 小公司怎么和大实验室竞争\n\n一个常见的担忧是：小公司搞出新架构，也会被资源雄厚的大厂吸收。Ermon的回应是，护城河不只是模型本身。扩散语言模型没法跑在现有的开源推理框架上，他们被迫自建了一套服务引擎——光有模型权重，没有这套软件，照样跑不起来 [20:52 Stefano Ermon]。再加上真实客户反馈积累的数据和评测方法，这些都构成更难复制的资产。\n\n代价也明确：一整套训练、对齐、部署的软件栈都要自己做，开源生态几乎不存在，客户采用有摩擦。公司约50人，成立约两年，模型规模和训练算力都保密。他说瓶颈往往不是人，而是算力 [34:45 Stefano Ermon]。\n\n## 扩散模型可能还有隐藏技能\n\n眼下卖点是速度，但Ermon认为更有意思的可能性还没被挖出来。扩散模型从生成一开始就能判断“这个东西是不是我想要的”，可以在半成品阶段就往指定方向引导，而自回归模型必须生成完整个输出才能打分。学术文献里已有不少证据表明**扩散模型更容易控制**。\n\n还有数据效率：去噪训练相当于给同一张图制造很多带噪声的版本，天然是一种数据增强，扩散模型可能更省数据。如果数据成为瓶颈，这会变得关键。他自己也承认，这一切“我们不知道会找到什么”，是涌现出来的 [27:38 Stefano Ermon]。\n\n## 学术研究还有机会吗\n\nErmon的底气来自一串从学界长出来的成果：扩散模型本身、FlashAttention、对齐算法DPO——最后一个最初只是他组里一个轮转项目。学界资源永远不够，但能容纳逆向而行的赌注，“人们不怕下注” [37:17 Stefano Ermon]。在他看来，**现在这套构建人工智能的方法，几乎可以肯定不是最好的那种**。\n\n## 本集带走\n\n- 自回归模型推理时逐词元生成，天然串行；扩散模型并行输出大量词元，工作负载更适合图形处理器，快了约10倍。\n- 2024年论文首次证明扩散语言模型能在同等参数和数据下追平自回归模型的质量。\n- Inception的Mercury已服务生产客户，OpenCall从Cerebras定制芯片切换到了它在普通英伟达芯片上的方案。\n- 约20%–30%的任务对延迟高度敏感，构成扩散语言模型当前的市场下限。\n- 扩散模型更容易控制和引导，可能更省数据——这些潜力尚未在规模上验证。",
+  "quotes": [
+    {
+      "en": "I always felt like that was going to be the, that was the right way to think about kind of like learning from unlabeled data, that like building a generative model is really the right way to make sure you understand the structure in the data.",
+      "zh": "我一直觉得那就是思考如何从无标注数据中学习的正确方式，也就是说，构建一个生成式模型，才是真正能确保你理解数据中结构的正确方法。",
+      "timestamp": "01:48",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model.",
+      "zh": "因为它是 diffusion，因为你同时输出很多 token，我们能够比自回归模型快大约 10 倍地生成文本。",
+      "timestamp": "05:36",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+      "zh": "在 Inception，我们押注 diffusion 模型，因为我们相信最终重要的是推理时扩展。",
+      "timestamp": "08:01",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "That kind of workload is extremely memory bound. You're spending most of your time moving around weights across the memory hierarchy and you're doing very little arithmetic.",
+      "zh": "这种工作负载是极其受内存限制的。你把大部分时间花在内存层次结构之间搬运权重上，而你做的算术运算非常少。",
+      "timestamp": "09:12",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "And the better lesson is that the more parallel solution is the one that is eventually going to win.",
+      "zh": "更好的教训是，更具并行性的方案就是最终会胜出的那个。",
+      "timestamp": "11:07",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "So our Mercury models are on par with the Haiku models, Flash models, Mini Nano models from OpenAI, if you look at benchmarks, while being significantly faster.",
+      "zh": "看 benchmark 的话，我们的 Mercury 模型与 Haiku 模型、Flash 模型、OpenAI 的 Mini Nano 模型相当，同时速度快得多。",
+      "timestamp": "12:33",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "You cannot run these diffusion-based LLMs on VLLM or SGLang. We had to build our own serving engine, and we can handle a lot of the complexity of real production workloads.",
+      "zh": "你没法在 VLLM 或 SGLang 上运行这些基于扩散的 LLM。我们必须构建自己的服务引擎，而且我们能处理真实生产工作负载的很多复杂性。",
+      "timestamp": "13:01",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "I doubt we've discovered the best way of building these systems. There's got to be alternatives. There's got to be other ways of building these models.",
+      "zh": "我怀疑我们还没有发现构建这些系统的最佳方式。肯定存在替代方案，肯定存在构建这些模型的其他方式。",
+      "timestamp": "15:25",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "But I just think if you fundamentally believe that we can use all of the power we have and there will be economic reasons to do so, then I think the focus on efficiency is going to go dramatically up.",
+      "zh": "但我只是认为，如果你从根本上相信我们能够用上我们拥有的全部电力，而且会有经济上的理由这么做，那么对效率的关注将会急剧上升。",
+      "timestamp": "16:21",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And I think once you get used to a fast model, it's hard to go back. It's kind of like broadband, right?",
+      "zh": "而且我觉得一旦你习惯了快的模型，就很难回去了。有点像宽带，对吧？",
+      "timestamp": "17:20",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "That's the exciting piece, is that to some extent, the gains that you get from the software, they are multiplicative with the gains you get from the hardware.",
+      "zh": "令人兴奋的地方在于，在某种程度上，你从软件中获得的收益，与你从硬件中获得的收益是相乘的。",
+      "timestamp": "19:18",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "And fundamentally, if you think about whenever you train a generative model, what you're doing is, whether it's an autoregressive model or to some extent even a diffusion model, is you are trying to identify structure in the data by essentially building a compression scheme.",
+      "zh": "从根本上说，每当你训练一个生成式模型时，你所做的，无论是自回归模型还是某种程度上甚至是扩散模型，都是你试图通过本质上构建一个压缩方案来识别数据中的结构。",
+      "timestamp": "22:34",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "And so there is a lot of evidence in the academic literature, at least, that diffusion models are easier to control and there are different ways of steering them. That are just not possible with autoregressive models.",
+      "zh": "所以至少在学术文献中有大量证据表明，扩散模型更容易控制，而且有不同的引导方式——那些是自回归模型根本做不到的。",
+      "timestamp": "26:53",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "So it's one of the reasons we decided not to open source everything, was really to keep the IP a little bit closer to us and not opening it.",
+      "zh": "所以这也是我们决定不完全开源的原因之一，真的是为了把这些 IP 更多地留在我们自己手里，不把它开放出去。",
+      "timestamp": "31:24",
+      "speaker": "Stefano Ermon"
+    },
+    {
+      "en": "One of the nice things about academia is that it allows you to take these contrarian bets.",
+      "zh": "学术界的一个好处是，它允许你下这些反共识的赌注。",
+      "timestamp": "37:12",
+      "speaker": "Stefano Ermon"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:04",
+      "speaker": "Unknown",
+      "en": "We were still like building little generative models over MNIST. And it was like a big success if you could generate these grainy images of digits.",
+      "zh": "我们还在构建针对 MNIST 的小型生成式模型。如果你能生成这些模糊的数字图像，那就算是一项巨大的成功了。"
+    },
+    {
+      "timestamp": "01:47",
+      "speaker": "Unknown",
+      "en": "I always felt like that was going to be the, that was the right way to think about kind of like learning from unlabeled data, that like building a generative model is really the right way to make sure you understand the structure in the data.",
+      "zh": "我一直觉得那就是思考如何从无标注数据中学习的正确方式，也就是说，构建一个生成式模型，才是真正能确保你理解数据中结构的正确方法。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Unknown",
+      "en": "Like, is there a way to move beyond autoregressive models to something that it's more parallel, more with built-in error correction?",
+      "zh": "比如，有没有办法超越自回归模型，走向更并行、内置纠错能力的东西？"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Unknown",
+      "en": "Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model.",
+      "zh": "因为它是 diffusion，因为你同时输出很多 token，我们能够比自回归模型快大约 10 倍地生成文本。"
+    },
+    {
+      "timestamp": "07:33",
+      "speaker": "Unknown",
+      "en": "There is discrete modalities, text and code, where primarily all the big labs are betting on the same architecture, autoregressive models.",
+      "zh": "而存在离散模态，文本和代码，所有大实验室基本上都在押注同一个架构——自回归模型。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Unknown",
+      "en": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+      "zh": "在 Inception，我们押注 diffusion 模型，因为我们相信最终重要的是推理时扩展。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "But if you think about inference, not training, inference generation, autoregressive models are still sequential.",
+      "zh": "但如果你想到的是推理，而不是训练，推理生成，自回归模型仍然是顺序的。"
+    },
+    {
+      "timestamp": "09:12",
+      "speaker": "Unknown",
+      "en": "That kind of workload is extremely memory bound. You're spending most of your time moving around weights across the memory hierarchy and you're doing very little arithmetic.",
+      "zh": "这种工作负载是极其受内存限制的。你把大部分时间花在内存层次结构之间搬运权重上，而你做的算术运算非常少。"
+    },
+    {
+      "timestamp": "09:29",
+      "speaker": "Unknown",
+      "en": "Autoregressive models, the equivalent at inference time is a diffusion model.",
+      "zh": "自回归模型，在推理时对应的就是扩散模型。"
+    },
+    {
+      "timestamp": "11:07",
+      "speaker": "Unknown",
+      "en": "And the better lesson is that the more parallel solution is the one that is eventually going to win.",
+      "zh": "更好的教训是，更具并行性的方案就是最终会胜出的那个。"
+    },
+    {
+      "timestamp": "12:33",
+      "speaker": "Unknown",
+      "en": "So our Mercury models are on par with the Haiku models, Flash models, Mini Nano models from OpenAI, if you look at benchmarks, while being significantly faster.",
+      "zh": "看 benchmark 的话，我们的 Mercury 模型与 Haiku 模型、Flash 模型、OpenAI 的 Mini Nano 模型相当，同时速度快得多。"
+    },
+    {
+      "timestamp": "13:01",
+      "speaker": "Unknown",
+      "en": "You cannot run these diffusion-based LLMs on VLLM or SGLang. We had to build our own serving engine, and we can handle a lot of the complexity of real production workloads.",
+      "zh": "你没法在 VLLM 或 SGLang 上运行这些基于扩散的 LLM。我们必须构建自己的服务引擎，而且我们能处理真实生产工作负载的很多复杂性。"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Unknown",
+      "en": "I doubt we've discovered the best way of building these systems. There's got to be alternatives. There's got to be other ways of building these models.",
+      "zh": "我怀疑我们还没有发现构建这些系统的最佳方式。肯定存在替代方案，肯定存在构建这些模型的其他方式。"
+    },
+    {
+      "timestamp": "16:21",
+      "speaker": "Unknown",
+      "en": "But I just think if you fundamentally believe that we can use all of the power we have and there will be economic reasons to do so, then I think the focus on efficiency is going to go dramatically up.",
+      "zh": "但我只是认为，如果你从根本上相信我们能够用上我们拥有的全部电力，而且会有经济上的理由这么做，那么对效率的关注将会急剧上升。"
+    },
+    {
+      "timestamp": "17:20",
+      "speaker": "Unknown",
+      "en": "And I think once you get used to a fast model, it's hard to go back. It's kind of like broadband, right?",
+      "zh": "而且我觉得一旦你习惯了快的模型，就很难回去了。有点像宽带，对吧？"
+    },
+    {
+      "timestamp": "18:29",
+      "speaker": "Unknown",
+      "en": "If you have a diffusion-based LLM that it's built to be parallel, it's accelerating at the software level, then you can get the same speed on NVIDIA GPUs, which means much more availability.",
+      "zh": "如果你有一个基于扩散的 LLM，它天生是为并行而构建的、在软件层面进行加速，那么你就可以在 NVIDIA GPU 上获得同样的速度，这意味着更高的可用性。"
+    },
+    {
+      "timestamp": "19:18",
+      "speaker": "Unknown",
+      "en": "That's the exciting piece, is that to some extent, the gains that you get from the software, they are multiplicative with the gains you get from the hardware.",
+      "zh": "令人兴奋的地方在于，在某种程度上，你从软件中获得的收益，与你从硬件中获得的收益是相乘的。"
+    },
+    {
+      "timestamp": "22:34",
+      "speaker": "Unknown",
+      "en": "And fundamentally, if you think about whenever you train a generative model, what you're doing is, whether it's an autoregressive model or to some extent even a diffusion model, is you are trying to identify structure in the data by essentially building a compression scheme.",
+      "zh": "从根本上说，每当你训练一个生成式模型时，你所做的，无论是自回归模型还是某种程度上甚至是扩散模型，都是你试图通过本质上构建一个压缩方案来识别数据中的结构。"
+    },
+    {
+      "timestamp": "26:01",
+      "speaker": "Unknown",
+      "en": "But it could be that I think that's actually a very interesting point is that we know that diffusion models are typically easier to control compared to autoregressive models.",
+      "zh": "但有可能——我认为这其实是一个很有意思的点——我们知道扩散模型通常比自回归模型更容易控制。"
+    },
+    {
+      "timestamp": "26:53",
+      "speaker": "Unknown",
+      "en": "And so there is a lot of evidence in the academic literature, at least, that diffusion models are easier to control and there are different ways of steering them. That are just not possible with autoregressive models.",
+      "zh": "所以至少在学术文献中有大量证据表明，扩散模型更容易控制，而且有不同的引导方式——那些是自回归模型根本做不到的。"
+    },
+    {
+      "timestamp": "31:21",
+      "speaker": "Unknown",
+      "en": "So it's one of the reasons we decided not to open source everything, was really to keep the IP a little bit closer to us and not opening it.",
+      "zh": "所以这也是我们决定不完全开源的原因之一，真的是为了把这些 IP 更多地留在我们自己手里，不把它开放出去。"
+    },
+    {
+      "timestamp": "37:12",
+      "speaker": "Unknown",
+      "en": "One of the nice things about academia is that it allows you to take these contrarian bets.",
+      "zh": "学术界的一个好处是，它允许你下这些反共识的赌注。"
+    }
+  ],
+  "voice_script": "今天这期聊一个人，Stefano Ermon。他是Stanford教授，也是扩散模型的奠基人之一。扩散模型这个词你可能听过，就是今天所有图像、视频生成模型背后的那套技术。但这位奠基人现在干了一件反常的事：创办一家叫Inception的公司，把扩散模型搬进语言模型的地盘，直接挑战GPT这类主流大模型的架构。这一期在No Priors播客里，把这背后的逻辑讲得很清楚，我们来把这条线捋一遍。\n\n先交代一下来龙去脉。2014年刚到Stanford的时候，生成模型还是个冷门方向，那时候能在MNIST数据集上生成模糊的手写数字就算大成功，发论文都得另找理由。Ermon的出发点是所谓世界模型：人能想象自己站起来走出门会发生什么，这种想象能力背后，需要生成模型来支撑。2019年，他和博士生Yang Song提出了一个想法——训练神经网络给图像去噪。如果模型能把噪声去掉，说明它理解了图像的结构，那就可以反过来，从噪声生成图像。这就是扩散模型的起点。今天最好的图像、视频生成模型，还有不少蛋白质设计的工作，都建在这上面。\n\n那问题来了，图像能用，文字为什么不行？这里有个根本区别。图像是连续的，两个像素颜色之间可以平滑过渡；文字是离散的，两个词之间没有中间的词。所以把扩散模型搬到文本上，需要全新的研究。到2024年，团队发表了突破性论文：在GPT-2这个规模、不到10亿参数上，扩散语言模型第一次追平了自回归模型的质量，而生成速度大约快了10倍。正是这个结果，让Ermon决定开公司，于是有了Inception和它的Mercury模型。按他的说法，Mercury在质量上和Google的Flash、OpenAI的小模型相当，但显著更快，而且已经在生产环境里服务真实客户了。\n\n这里就要说到这场创业的核心赌注：赢在推理，而不是训练。Ermon打了个历史比方。当年业界从RNN转向Transformer，就是因为RNN必须一个词一个词地处理，训练太慢，而Transformer能并行训练，才有了后来这波大语言模型。但有趣的是，到了推理阶段，自回归模型又变回串行了——必须生成完前面所有词元，才能生成第十个。这种工作负载对GPU极其不友好，大部分时间花在内存之间搬运权重上，真正做算术的时间很少。扩散模型呢，天生就是在推理时并行处理大量词元，工作负载和训练很像，正好匹配图形处理器的长处。所以有句话值得记住：更具并行性的方案，最终就是会胜出的那个。再加上推理能力现在是强化学习后训练的瓶颈，推理快的模型在这一步也占优。\n\n那客户为什么买单？答案是快的回不去。举个例子，一家叫OpenCall的语音智能公司，语音助手的流程是识别、推理、合成，延迟直接决定体验。原来用Cerebras的定制芯片加速自回归模型，后来换成了Mercury——在普通的英伟达芯片上就达到同等速度，供应更充足，成本更低。Ermon估算，各类任务里大约百分之二十到三十对延迟高度敏感，这就是眼下最确定的市场。\n\n当然，小公司挑战大实验室，常有人担心：新架构搞出来，还不是会被大厂吸收？Ermon的回应是，护城河不只是模型。扩散语言模型跑不了现有的开源推理框架，所以他们被迫自建了一整套服务引擎——光有模型权重，没有这套软件，照样跑不起来。再加上真实客户反馈积累的数据和评测方法，这些都是更难复制的资产。代价也很明确：训练、对齐、部署全要自己做，开源生态几乎不存在。公司现在约五十人，成立两年，瓶颈往往不是人，而是算力。\n\n最后还有一层更远的东西。眼下卖点是速度，但扩散模型可能还有隐藏技能：从生成一开始就能判断输出是不是想要的，可以在半成品阶段就往指定方向引导，而自回归模型必须生成完整个输出才能打分。学术文献里已经有不少证据表明，扩散模型更容易控制，而且去噪训练天然是一种数据增强，可能更省数据。不过这些潜力还没在规模上验证过，用Ermon自己的话说，会找到什么，我们不知道，是涌现出来的。\n\n所以回头看，这家公司的逻辑其实一以贯之：构建一个生成式模型，才是真正能确保你理解数据结构的方法。而在这条路上，押注扩散模型，就是押注最终重要的是推理时的速度。"
+}

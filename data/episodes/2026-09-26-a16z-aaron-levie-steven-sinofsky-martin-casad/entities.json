@@ -1,0 +1,585 @@
+{
+  "episode_id": "2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad",
+  "podcast": "The a16z Show",
+  "date": "2026-09-26",
+  "tags": [
+    "AI 安全",
+    "AI 监管",
+    "智能体",
+    "概率编程",
+    "政府与科技"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "host",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "steven-sinofsky",
+      "type": "person",
+      "role": "guest",
+      "name": "Steven Sinofsky",
+      "file": "Steven Sinofsky",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "aaron-levie",
+      "type": "person",
+      "role": "guest",
+      "name": "Aaron Levie",
+      "file": "Aaron Levie",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:企业里跑软件的『员工』——成千上万个不知疲倦、不会无聊、会犯错的 roaming drones(游荡无人机),颠覆了『员工大体可信』的传统安全假设,需要细粒度权限和内部 API/认证追踪的一整套新层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            28.059,
+            29.721
+          ],
+          "quote": "Agent swarms completely flip that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2171.559,
+            2176.202
+          ],
+          "quote": "And agent swarms completely flip that because these are just roaming drones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2432.272,
+            2446.944
+          ],
+          "quote": "Like, even the, like, lack of granular nature of, like, you know, you have these modes of, like, the agent will either ask you every single time, you know, if you want to, you know, give it permission to do something or the exact opposite of, like, it can just, like, delete your entire computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2447.704,
+            2453.468
+          ],
+          "quote": "And, like, our OS probably wasn't built for the right level of granular set of tools you want to give the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2454.949,
+            2461.493
+          ],
+          "quote": "We've kind of done a lot of work in this space because, obviously, like, you know, do you want to give an agent, like, your entire file system?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2523.172,
+            2535.715
+          ],
+          "quote": "Any time that an agent or, you know, a background agent or a frontline agent touches a third-party product, I'm really worried that they're just going to say, we need a GPR prompt on that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2535.775,
+            2538.275
+          ],
+          "quote": "And it's going to be... Oh, back to the user through the agent.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent-swarms",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体集群 (agent swarms)",
+      "file": "智能体集群",
+      "primary": true,
+      "how_described": "本集说一群 agent 同时涌向企业内部服务,看起来就是一场拒绝服务攻击,连内部 GitHub/财务工具都可能被打挂",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            28.059,
+            29.721
+          ],
+          "quote": "Agent swarms completely flip that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2171.559,
+            2176.202
+          ],
+          "quote": "And agent swarms completely flip that because these are just roaming drones.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pacing",
+      "type": "concept",
+      "role": "concept",
+      "name": "节奏控制 (pacing)",
+      "file": "节奏控制",
+      "primary": true,
+      "how_described": "本集把它说成:实验室提出的给 AI 发展定节奏的主张,但被 Martin 认为是与安全正交的伪命题——没有公布过时间表就无所谓快慢,而实际上实验室在全速奔跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            127.98,
+            128.801
+          ],
+          "quote": "Pacing the frontier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            234.9,
+            237.981
+          ],
+          "quote": "But I think the ideas in the pacing conversation are important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            238.361,
+            243.802
+          ],
+          "quote": "Again, it's a little bit of a funny concept because maybe it's not even pacing as much as just good hygiene and engineering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            297.379,
+            305.462
+          ],
+          "quote": "And then I have this quibble, but it really bothers me because I'm a pedant, which is, I think pacing is the wrong way to describe this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            330.476,
+            333.999
+          ],
+          "quote": "Because the pause people are like, well, that's not a pause, that's just pacing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            533.745,
+            534.285
+          ],
+          "quote": "The pacing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            542.071,
+            543.412
+          ],
+          "quote": "There's no indication that they're pacing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            551.057,
+            553.979
+          ],
+          "quote": "So it's really just the pacing of external releases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            554.079,
+            556.261
+          ],
+          "quote": "But again, back to your point, pacing versus what?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            624.39,
+            629.474
+          ],
+          "quote": "And so, but you said something that I think is super interesting, which is pacing is this sort of...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 186,
+          "t": [
+            695.341,
+            699.202
+          ],
+          "quote": "So the bottom line is if they're asking for pacing, they're gonna get the wrong velocity.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "x-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "生存风险 (X-risk)",
+      "file": "生存风险",
+      "primary": true,
+      "how_described": "本集围绕『员工称 AI 有 10% 物种灭绝概率、Dario 表示同意比不同意多』展开:Martin 认为真信就该国有化,不信就只是人力资源问题,不能既当招聘筹码又当监管借口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            358.558,
+            363.8
+          ],
+          "quote": "And I think what they have to do is they need to come out, they need to address the X-risk question directly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            803.136,
+            807.36
+          ],
+          "quote": "What I don't understand is why the labs have not taken a position on X-Risk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 239,
+          "t": [
+            914.338,
+            918.06
+          ],
+          "quote": "We had a discussion about the risks without talking about X risk, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1785.21,
+            1793.093
+          ],
+          "quote": "But what is interesting is you basically have the X-Risk people saying something you felt was plausible, and then you have like the security people having this kind of endless discussion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "type": "concept",
+      "role": "concept",
+      "name": "GDPR",
+      "file": "GDPR",
+      "primary": true,
+      "how_described": "本集说 Martin 最怕欧洲把 GDPR 那套搬到 AI 上:每次 agent 接触第三方产品就弹同意提示,像汽车安全气囊警告贴纸,人人麻木后监管再加强",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 659,
+          "t": [
+            2489.245,
+            2500.747
+          ],
+          "quote": "If you ask me, like, walking in, like, what I wrote down on my note, like, was my biggest fear is that Europe decides that GDPR was the best thing ever, and they're gonna just GDPR AI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2656.116,
+            2659.919
+          ],
+          "quote": "And so you end up in this world where, just like with GDPR, everybody is numb.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 734,
+          "t": [
+            2764.22,
+            2768.061
+          ],
+          "quote": "There's been real issues, but like, and then can we just quibble about GDPR?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2770.982,
+            2772.582
+          ],
+          "quote": "It's not about GDPR and prompts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "multi-layer-security",
+      "type": "concept",
+      "role": "concept",
+      "name": "多级安全 (multi-layer security)",
+      "file": "多级安全",
+      "primary": true,
+      "how_described": "本集说 MLS 这类老操作系统安全研究早就考虑过这些威胁模型,当年没人用只因可用性太差;现在用系统的是 AI 不嫌麻烦,可能是『安全内建』系统重建与操作系统复兴的机会",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 599,
+          "t": [
+            2244.729,
+            2253.537
+          ],
+          "quote": "I mean, like, the operating systems research, the MLS, the multi-layer security research has considered these sorts of things from an academic lens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "probabilistic-programming",
+      "type": "concept",
+      "role": "concept",
+      "name": "概率化编程 (probabilistic programming)",
+      "file": "概率化编程",
+      "primary": true,
+      "how_described": "本集说新模型『读文本、从选项里挑』让 if 语句变成『80% 概率』,是六七十年代概率 if 语句与模拟研究的回归,可能从根本上让软件更具随机性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 805,
+          "t": [
+            3044.144,
+            3050.186
+          ],
+          "quote": "And then the other, of course, is my favorite, which is the output of it is designed for probabilistic programming.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3070.196,
+            3078.34
+          ],
+          "quote": "And so suddenly the coolest place to be in computer science is going to be in probabilistic programming, which was like all of computer science in the 1960s and 70s.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "监管 (regulation)",
+      "file": "监管",
+      "primary": true,
+      "how_described": "本集说政府产出永远是妥协,没法靠『谈』得到想要的监管结果;成功的科技立法(如 1986 年计算机欺诈与滥用法)都基于已发生的具体损害,对尚未出事的 AI 做预测性监管做不好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            69.683,
+            80.906
+          ],
+          "quote": "In this episode, I sit down with Aaron Levy, Steven Sanofsky, and Martim Casado to debate AI safety, regulation, and what changes when agents start operating across the software we use every day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            807.4,
+            811.923
+          ],
+          "quote": "Like, short of that, I think this goes in any direction other than heavy-handed regulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            821.291,
+            824.273
+          ],
+          "quote": "Like, how can a government not do heavy-handed regulation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1036.918,
+            1039.66
+          ],
+          "quote": "Like industry oversight over time becomes federal regulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1410.413,
+            1416.839
+          ],
+          "quote": "There's a lot of pent-up energy against tech that could end up just all siphoning into AI regulation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集用微软亲身经历说明科技行业每轮浪潮都要重学监管教训:Bill Gates 与 Bill Clinton 打高尔夫,照样被反垄断诉讼",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1163.512,
+            1165.553
+          ],
+          "quote": "And that, you know, Microsoft came along like...",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集借苹果说明平台达到临界质量后创新移到平台外——iPhone 开箱强制更新、以及社区说的 Sherlocking",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            501.904,
+            506.385
+          ],
+          "quote": "Like, you can't claim, this is like when the press reports on Apple's latest iPhone is late.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 122,
+          "t": [
+            511.089,
+            512.57
+          ],
+          "quote": "Yeah, my Apple car was very late.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3262.772,
+            3272.36
+          ],
+          "quote": "And then, you know, Apple, there's this famous expression in the Apple community called Sherlocking, where Apple looks around and the things from the outside world become features and people complain.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 864,
+          "t": [
+            3309.469,
+            3313.03
+          ],
+          "quote": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集用它作参照:新模型形态可能是自 ChatGPT 以来 AI 模型采用最快的一次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 794,
+          "t": [
+            2992.38,
+            2996.243
+          ],
+          "quote": "And so this has probably been the fastest adoption of an AI model since ChatGPT.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandboxing",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandboxing)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提 Dario 文章主张更好的沙箱、更好的测试,三位嘉宾都认同这类安全工程本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            169.763,
+            179.188
+          ],
+          "quote": "So when at least I read the Dario post, I actually didn't disagree with almost anything because it was all about how do you have better security of these systems, sandboxing, better testing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ben">BE</div><div class="pi"><h1 class="pt">Ben</h1><div class="byl">AI &amp; I 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ben">BE</div><div class="pi"><h1 class="pt">Ben</h1><div class="byl">AI &amp; I 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条*
+*9 条*
 
 ![[2026-10-06-talks-move-fast-and-don-t-break-things-scaling#^q1]]
 
@@ -23,28 +23,37 @@ unlisted: true
 
 ![[2026-10-06-talks-move-fast-and-don-t-break-things-scaling#^q5]]
 
+![[2026-10-07-talks-building-engine-v2-how-langchain-approac#^q1]]
+
+![[2026-10-07-talks-building-engine-v2-how-langchain-approac#^q2]]
+
+![[2026-10-07-talks-building-engine-v2-how-langchain-approac#^q3]]
+
+![[2026-10-07-talks-building-engine-v2-how-langchain-approac#^q4]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|《对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”》]] — 作为主持
 - [[2026-10-06-talks-move-fast-and-don-t-break-things-scaling|《快速迭代，但别把数据库搞挂》]] — 作为主持
+- [[2026-10-07-talks-building-engine-v2-how-langchain-approac|《用一个智能体去修智能体:LangChain 如何打造 Engine v2》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Will]] · [[PlanetScale]] · [[Walleye]] · [[Cursor]] · [[Current]] · [[Postgres]] · [[ChatGPT]] · [[分片]] · [[情感分析]]
+[[智能体]] · [[Will]] · [[PlanetScale]] · [[LangChain]] · [[Walleye]] · [[Cursor]] · [[LangSmith]] · [[Current]] · [[Postgres]] · [[Engine]]
 
-## ④ 也在聊「智能体」的人
+## ④ 也在聊「组织与领导力」的人
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":467,"Will":1,"PlanetScale":1,"Walleye":1,"Cursor":86,"Current":1,"Postgres":6,"ChatGPT":106,"分片":1,"情感分析":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"Will":1,"PlanetScale":1,"LangChain":11,"Walleye":1,"Cursor":86,"LangSmith":5,"Current":1,"Postgres":6,"Engine":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,805 @@
+{
+  "episode_id": "2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab",
+  "podcast": "The Generalist",
+  "date": "2026-09-29",
+  "tags": [
+    "AI for Science",
+    "材料发现",
+    "超导体",
+    "物理实验自动化",
+    "强化学习"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "liam-fedus",
+      "type": "person",
+      "role": "host",
+      "name": "Liam Fedus",
+      "file": "Liam Fedus",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            84.894,
+            88.517
+          ],
+          "quote": "Liam Fedus and Doj Chubuk are building a company to change that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "doj-chubuk",
+      "type": "person",
+      "role": "cohost",
+      "name": "Doj Chubuk",
+      "file": "Doj Chubuk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            84.894,
+            88.517
+          ],
+          "quote": "Liam Fedus and Doj Chubuk are building a company to change that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mario",
+      "type": "person",
+      "role": "cohost",
+      "name": "Mario",
+      "file": "Mario",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            124.052,
+            125.813
+          ],
+          "quote": "I'm Mario, and this is The Generalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            619.91,
+            621.831
+          ],
+          "quote": "And I come to you and say, Mario, can you make this?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "periodic-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Periodic Labs",
+      "file": "Periodic Labs",
+      "primary": true,
+      "how_described": "本集主角:两位创始人创办的初创公司,目标是构建能连接物理世界、每天做数千个实验并从中学习的『AI 科学家』,以创造『合成超级智能』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            89.358,
+            96.384
+          ],
+          "quote": "They're the founders of Periodic Labs, a startup building infrastructure to create what they call synthetic superintelligence.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Liam 此前任职的公司,在那里领导后训练团队、缔造 ChatGPT;他说数字世界进展巨大但物理世界影响受限,促使他离开创办 Periodic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            97.344,
+            105.227
+          ],
+          "quote": "Liam previously led post-training at OpenAI and was one of the creators of ChatGPT, while Doge was a research scientist at Google DeepMind.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "Doj 曾在其中领导一支庞大的化学与材料科学家团队,做模拟与机器学习,后来离开创办 Periodic。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            97.344,
+            105.227
+          ],
+          "quote": "Liam previously led post-training at OpenAI and was one of the creators of ChatGPT, while Doge was a research scientist at Google DeepMind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1195.292,
+            1202.556
+          ],
+          "quote": "So by the time, like before we left, before I left, I was running this large team of chemistry and material scientists at Google DeepMind.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "Liam 用 GPT 3.5 做两周冲刺做出来的产品,内部预期仅数万用户却远超预期;他从中学到『质疑一切』,并将其变现模式类比到 Periodic 的收费方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            97.344,
+            105.227
+          ],
+          "quote": "Liam previously led post-training at OpenAI and was one of the creators of ChatGPT, while Doge was a research scientist at Google DeepMind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 25,
+          "t": [
+            116.45,
+            123.612
+          ],
+          "quote": "In this episode, we discuss the limits of LLMs, why science is so hard, and what Liam learned from launching ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1184.887,
+            1191.17
+          ],
+          "quote": "And then at some point, Liam and our other friends, Barrett, Luke, have left and then started ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1347.55,
+            1352.812
+          ],
+          "quote": "And it was a two-week sprint, and then we turned this into ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2817.142,
+            2825.529
+          ],
+          "quote": "So in software engineering, when we first produced ChatGPT in these early models, we didn't promise full-fledged output of software.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMs",
+      "file": "LLMs",
+      "primary": true,
+      "how_described": "本集核心:LLM 在编程、数学上表现疯狂但缺乏物理世界影响;Periodic 认为它必须连上真实实验、应对缺失上下文与不可即时验证的奖励。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            2.353
+          ],
+          "quote": "LLMs, if you talk to them, they're incredibly intelligent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            116.45,
+            123.612
+          ],
+          "quote": "In this episode, we discuss the limits of LLMs, why science is so hard, and what Liam learned from launching ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1606.692,
+            1611.177
+          ],
+          "quote": "And then, of course, the other part is we needed deep expertise in RL and LLMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2178.55,
+            2182.393
+          ],
+          "quote": "The other thing that's really, I think LLMs are really good at, which I'm really excited by is...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2235.279,
+            2237.16
+          ],
+          "quote": "And I think the LLMs will bring these together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2975.326,
+            2985.154
+          ],
+          "quote": "Yeah, so this is something we're very passionate about and something that we kind of like predicted and kind of one of the reasons we started the company, which is that, you know, LLMs, if you talk to them, they're incredibly intelligent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3031.239,
+            3036.124
+          ],
+          "quote": "So we have to come to terms that in real life, LLMs will never have full context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3054.819,
+            3067.947
+          ],
+          "quote": "So if LLMs will actually play a big role in the real world in the physical space, it has to figure out how to deal with missing context, not instantly verifiable rewards, some noise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3325.535,
+            3335.922
+          ],
+          "quote": "But yeah, I mean, looking back, I mean, maybe one thing is people are seeing how much LLMs can change the digital world and they kind of wonder how much it could change the physical world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superconductors",
+      "type": "concept",
+      "role": "concept",
+      "name": "超导体 (superconductors)",
+      "file": "超导体",
+      "primary": true,
+      "how_described": "本集说它是 Periodic 选定的第一目标:最具影响力、从未出局的课题,量子计算、核聚变、无损输电背后都需要它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            311.386,
+            316.33
+          ],
+          "quote": "One of our deep scientific goals is to discover new high-temp superconductors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            347.253,
+            352.777
+          ],
+          "quote": "High-temperature superconductors, how did you land on that as sort of the right first step for this company?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            358.618,
+            364.559
+          ],
+          "quote": "And if we can synthesize anything in the lab, we might as well synthesize the most impactful thing, which is superconductors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            378.602,
+            380.682
+          ],
+          "quote": "These all have superconductors somewhere in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            382.123,
+            388.228
+          ],
+          "quote": "And the other thing is there's a sense in which superconductors are the most macroscale quantum mechanical phenomenon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            697.01,
+            711.293
+          ],
+          "quote": "So when Alex Mueller wanted to study transition metal oxides for new superconductors, and, you know, he succeeded at the end towards 1985, and he discovered coup rates, which were the forced unconventional superconductors, and got a Nobel Prize for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            711.573,
+            713.013
+          ],
+          "quote": "These were the high-temperature superconductors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            725.397,
+            734.022
+          ],
+          "quote": "But then, you know, 40 years later, our neighbors at Stanford, Harold Huang, discovered that nickels are also superconductors, once he could figure out how to make it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            898.516,
+            907.303
+          ],
+          "quote": "Like another example from coop rates is I think when coop rates were first discovered to be superconductors, actually some people wondered if it was even real because they had trouble replicating in the lab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2677.911,
+            2691.854
+          ],
+          "quote": "Yeah, the diversity piece was something I was interested in, maybe because I don't have enough understanding of superconductors, but how do you make sure you are doing these different modalities, like getting the data that is sufficiently diverse and not sort of overly specializing?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "synthesis-superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成超级智能 (synthesis superintelligence)",
+      "file": "合成超级智能",
+      "primary": true,
+      "how_described": "本集把 Periodic 的目标称为『合成超级智能』:不是知道科学结论、而是知道怎么做科学的系统,能有意识地合成物质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            142.11,
+            145.013
+          ],
+          "quote": "So we're calling this a synthesis superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            355.517,
+            358.078
+          ],
+          "quote": "So as Liam said, our goal is synthesis superintelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            577.191,
+            580.594
+          ],
+          "quote": "You both mentioned this phrase, synthesis superintelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2368.253,
+            2376.503
+          ],
+          "quote": "And this is really interesting because now you can build this synthesis superintelligence to begin to predict what are the outcomes based on all of this data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "thinkism",
+      "type": "concept",
+      "role": "concept",
+      "name": "空想主义不够 (thinkism)",
+      "file": "空想主义不够",
+      "primary": true,
+      "how_described": "Liam 提出的说法:光靠 AI 长时间思考、外推推理 token 并不能造出新超导体,必须连接物理世界并迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            164.227,
+            166.308
+          ],
+          "quote": "We kind of talk about like thinkism is not enough.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            289.312,
+            292.214
+          ],
+          "quote": "Liam, you mentioned sort of this idea of thinkism.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "simulations",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulations)",
+      "file": "模拟",
+      "primary": true,
+      "how_described": "本集反复强调:做科学必须用模拟对物理世界建模,再实际开展实验;LLM 能同时做到模拟博士与实验数据分析博士的水平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            14.206,
+            19.471
+          ],
+          "quote": "It's really necessary to use simulations, model the physical world, but then actually carry out the experiments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            156.683,
+            159.345
+          ],
+          "quote": "It's really necessary to use simulations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1043.723,
+            1049.946
+          ],
+          "quote": "And I remember as soon as I got my hands on it, once I figured out how to program, I was just doing like simulations on like applied math, physics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1202.936,
+            1205.558
+          ],
+          "quote": "And we were doing a bunch of simulations and machine learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2189.777,
+            2198
+          ],
+          "quote": "For example, our LLM can do simulations at the level of a PhD in simulations, but it can also do experimental data analysis at the level of a PhD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2220.692,
+            2224.254
+          ],
+          "quote": "But then the LLM actually ran new simulations and then figured out what it must have been.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2228.036,
+            2234.999
+          ],
+          "quote": "Because I often say the people who should run simulations and the people who know how to run simulations are usually disjoint sets of people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2498.365,
+            2499.346
+          ],
+          "quote": "For simulations as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2499.406,
+            2503.23
+          ],
+          "quote": "So for simulations, for certain things, there's already a really good code base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2644.582,
+            2650.37
+          ],
+          "quote": "And that allows you to reinvest that capital elsewhere into other machines or training or simulations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2733.249,
+            2741.477
+          ],
+          "quote": "So then we can build our LLM training, simulations, kind of our hardware in such a way that they benefit from both of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3215.423,
+            3225.987
+          ],
+          "quote": "We do a lot of very advanced simulations and we're starting to do a lot more work where we construct more advanced simulations that we can control every like bit of code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3240.193,
+            3249.578
+          ],
+          "quote": "And especially an area where the AI system is able to write software, write simulations that are maximally consistent with like experimental evidence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3290.019,
+            3302.163
+          ],
+          "quote": "And I think that's sort of the motivation for moving as quickly as possible, building out a huge network of labs, of infrastructure, building simulations and AI systems that can control and orchestrate this.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "x-ray-diffraction",
+      "type": "concept",
+      "role": "concept",
+      "name": "X 射线衍射 (X-ray diffraction)",
+      "file": "X 射线衍射",
+      "primary": true,
+      "how_described": "本集把 XRD 描述为实验循环中判断实验成败的关键表征手段:材料出来不带标签,AI 能读衍射图样判断做出来了什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 445,
+          "t": [
+            1940.827,
+            1945.269
+          ],
+          "quote": "For inorganic crystals, the method we use the most is an XRD, X-ray diffraction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1964.779,
+            1972.483
+          ],
+          "quote": "And that is one part, actually, we find that AI can play a big role because once you get the X-ray diffraction pattern, it's not always easy for a human to tell what you made.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2470.347,
+            2480.813
+          ],
+          "quote": "So there's already so much work into high throughput XRD that we have these instruments that we can put, you know, 40 samples at the same time, and we'll do X-ray diffraction, all of them at the same time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说给模型看某天前全部实验证据的快照、问『科学家接下来做了什么』,构成公开文献中不存在的强化学习训练集,且不受预训练污染。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            1278.497,
+            1288.929
+          ],
+          "quote": "I was working on a mix of some things in the science program, but then switched over to generative models, reinforcement learning, and really was just in this like scaling mentality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2280.838,
+            2284.261
+          ],
+          "quote": "This is a very rich source of training and reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2357.39,
+            2367.653
+          ],
+          "quote": "This becomes a incredibly interesting source of reinforcement learning type tasks and data that is incredibly hard to construct outside of periodic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2387.596,
+            2400.44
+          ],
+          "quote": "Your pre-trained model already knows the answer, and you do reinforcement learning derived against an answer that was already in the pre-training corpus, that the system can basically fake some work, get to the right answer, and you reinforce those strategies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "graph-neural-networks",
+      "type": "concept",
+      "role": "concept",
+      "name": "图神经网络 (graph neural networks)",
+      "file": "图神经网络",
+      "primary": true,
+      "how_described": "本集说 GNN 彻底改写了力场模拟,现在能做覆盖整张元素周期表的通用模型,是永远不会倒退的变化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 700,
+          "t": [
+            3170.218,
+            3179.725
+          ],
+          "quote": "It changed so much because of GNNs, like graph neural networks, that I don't think it will ever go back because now we can do very general across the periodic table models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": false,
+      "how_described": "Liam 在 OpenAI 领导的位于研究与产品之间的团队,最终负责了完整的后训练工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            97.344,
+            105.227
+          ],
+          "quote": "Liam previously led post-training at OpenAI and was one of the creators of ChatGPT, while Doge was a research scientist at Google DeepMind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1479.13,
+            1490.658
+          ],
+          "quote": "And as we were sort of building that up, and eventually I was running the full post-training team that sits between research and product, you know, we made incredible progress in the digital world.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bell-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Bell Labs",
+      "file": "Bell Labs",
+      "primary": false,
+      "how_described": "本集作为历史参照:美国曾在 Bell Labs 时代非常擅长材料合成,此后力量式微。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            595.371,
+            602.057
+          ],
+          "quote": "So one historical reason is U.S. used to be really good at synthesis, and especially during Bell Labs' time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            602.497,
+            610.805
+          ],
+          "quote": "But after Bell Labs stopped, you know, doing research as much, U.S. kind of lost its power and strength in synthesis and it's kind of moved on to some other countries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            611.245,
+            614.967
+          ],
+          "quote": "Like synthesis, when you say Bell Labs was great at synthesis, like what is an example of that?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

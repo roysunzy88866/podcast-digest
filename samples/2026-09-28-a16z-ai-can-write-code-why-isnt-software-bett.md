@@ -10,14 +10,14 @@ description: "TypeSafe 创始人 Diogo Almeida 与 a16z 的 Ben Horowitz、Marti
 host: "[[Ben Horowitz]]"
 cohosts: ["[[Martin Casado]]", "[[Diogo Almeida]]"]
 companies: ["[[TypeSafe]]", "[[Jev]]"]
-concepts: ["[[自动化]]", "[[编码智能体]]", "[[智能软件]]", "[[可靠性]]", "[[RLHF]]", "[[分类器]]", "[[状态机]]", "[[每美元智能]]", "[[SaaS 末日]]", "[[概率编程]]"]
+concepts: ["[[自动化]]", "[[编码智能体]]", "[[智能软件]]", "[[可靠性]]", "[[RLHF]]", "[[分类器]]", "[[状态机]]", "[[每美元智能]]", "[[SaaS 末日]]", "[[概率化编程]]"]
 category: 智能体
 tags:
   - 智能体
   - 创业与行业
 socialImage: "https://talk.solomind.cc/index-og-image.webp"
 jsonLd: |
-  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett#post","headline":"AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett","mainEntityOfPage":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett","description":"TypeSafe 创始人 Diogo Almeida 与 a16z 的 Ben Horowitz、Martin Casado 对谈:为什么编码智能体没让软件更好,以及把 LLM 变成程序原语的 Jev 路线。","datePublished":"2026-09-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ben Horowitz"},{"@type":"Person","name":"Martin Casado"},{"@type":"Person","name":"Diogo Almeida"},{"@type":"Organization","name":"TypeSafe"},{"@type":"Organization","name":"Jev"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"编码智能体 (coding agent)"},{"@type":"Thing","name":"智能软件 (smart software)"},{"@type":"Thing","name":"可靠性 (reliability)"},{"@type":"Thing","name":"RLHF"},{"@type":"Thing","name":"分类器 (classifier)"},{"@type":"Thing","name":"状态机 (state machine)"},{"@type":"Thing","name":"每美元智能 (intelligence per dollar)"},{"@type":"Thing","name":"SaaS 末日 (Saspocalypse)"},{"@type":"Thing","name":"概率编程 (probabilistic programming)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身","item":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett"}]}]}
+  {"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","@id":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett#post","headline":"AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身","inLanguage":"zh-CN","url":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett","mainEntityOfPage":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett","description":"TypeSafe 创始人 Diogo Almeida 与 a16z 的 Ben Horowitz、Martin Casado 对谈:为什么编码智能体没让软件更好,以及把 LLM 变成程序原语的 Jev 路线。","datePublished":"2026-09-28","author":{"@type":"Organization","name":"跨国深谈"},"publisher":{"@type":"Organization","name":"跨国深谈"},"about":[{"@type":"Person","name":"Ben Horowitz"},{"@type":"Person","name":"Martin Casado"},{"@type":"Person","name":"Diogo Almeida"},{"@type":"Organization","name":"TypeSafe"},{"@type":"Organization","name":"Jev"},{"@type":"Thing","name":"自动化 (automation)"},{"@type":"Thing","name":"编码智能体 (coding agent)"},{"@type":"Thing","name":"智能软件 (smart software)"},{"@type":"Thing","name":"可靠性 (reliability)"},{"@type":"Thing","name":"RLHF"},{"@type":"Thing","name":"分类器 (classifier)"},{"@type":"Thing","name":"状态机 (state machine)"},{"@type":"Thing","name":"每美元智能 (intelligence per dollar)"},{"@type":"Thing","name":"SaaS 末日 (Saspocalypse)"},{"@type":"Thing","name":"概率化编程 (probabilistic programming)"}],"articleSection":"智能体"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"跨国深谈","item":"https://talk.solomind.cc/"},{"@type":"ListItem","position":2,"name":"智能体","item":"https://talk.solomind.cc/tags/智能体"},{"@type":"ListItem","position":3,"name":"AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身","item":"https://talk.solomind.cc/2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett"}]}]}
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
@@ -35,7 +35,7 @@ jsonLd: |
 >
 > **公司** [[TypeSafe]] · [[Jev]]
 >
-> **概念** [[自动化]] · [[编码智能体]] · [[智能软件]] · [[可靠性]] · [[RLHF]] · [[分类器]] · [[状态机]] · [[每美元智能]] · [[SaaS 末日]] · [[概率编程]]
+> **概念** [[自动化]] · [[编码智能体]] · [[智能软件]] · [[可靠性]] · [[RLHF]] · [[分类器]] · [[状态机]] · [[每美元智能]] · [[SaaS 末日]] · [[概率化编程]]
 
 这一集聊的是 AI 圈一个很扎心的问题:AI 已经聪明得难以置信,为什么真正的[[自动化|自动化]]几乎没发生?说话的主角是 [[Diogo Almeida|Diogo Almeida]],他是 [[TypeSafe|TypeSafe]] 的创始人,早年在 OpenAI 做过 [[RLHF|RLHF]] 相关的工作。
 
@@ -97,7 +97,7 @@ Jev 的爆火完全出乎 Diogo 的预料——他说如果有人预料到一个
 
 Ben Horowitz 给出了本集最深的收束:如果你真的去看一家大公司的平均 PR(代码提交),大概就 10 行——用 AI 生成软件,你自动化的是 10 行代码;它没有给软件提供新能力。而 Jev 这种「把自然语言理解、推理能力嫁接到状态机上」的原语,意味着应用会因此拥有全新功能——「很可能的情况就是,软件真的会变得更好」。Diogo 说,如果人们把这当作要点,将是对他们所做的事有史以来最大的赞美。
 
-Martin 还指出了更远的地平线:这可能开启一个完整的[[概率编程|概率编程]]时代——这门学科的巨大历史基本在 70 年代就消亡了。Diogo 对生物启发式的说法不感冒(「我的标签是不可思议的实用主义」,生物启发从来没用成功过,它的作用只是激励疯子几十年如一日研究直到成功),但他确实认为,当系统型工程师在极端系统里拥有各种成本/速度档位的智能时,那些「只要一个近似猜测来乐观路由流量」的疯狂用法会成为可能。好消息是:我们有了一个新原语,可以重新构建系统——从大型机到客户端服务器,我们周期性地做这件事;而且由于网络安全问题,关键基础设施可能本来就得重建一遍。
+Martin 还指出了更远的地平线:这可能开启一个完整的[[概率化编程|概率编程]]时代——这门学科的巨大历史基本在 70 年代就消亡了。Diogo 对生物启发式的说法不感冒(「我的标签是不可思议的实用主义」,生物启发从来没用成功过,它的作用只是激励疯子几十年如一日研究直到成功),但他确实认为,当系统型工程师在极端系统里拥有各种成本/速度档位的智能时,那些「只要一个近似猜测来乐观路由流量」的疯狂用法会成为可能。好消息是:我们有了一个新原语,可以重新构建系统——从大型机到客户端服务器,我们周期性地做这件事;而且由于网络安全问题,关键基础设施可能本来就得重建一遍。
 
 ## 本集带走
 
@@ -178,7 +178,7 @@ Martin 还指出了更远的地平线:这可能开启一个完整的[[概率编�
 
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、Claude Code、OpenAI · 同概念:RLHF、分类器 (classifier)、可靠性 (reliability)</span>
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe、Claude Code、Codex</span>
-- [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环]]<span class="pd-rz">同公司:Claude Code、Codex、OpenAI · 同概念:编码智能体 (coding agent)</span>
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|当AI agent满网跑，安全怎么办？三位老将吵了一期]]<span class="pd-rz">同嘉宾:Martin Casado · 同概念:概率编程 (probabilistic programming)</span>
 
 </div>
 <div class="pd-ex">

@@ -126,8 +126,8 @@ Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把
 **顺着「智能体」挖下去**
 
 - [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Claude Code · 同概念:基准测试 (benchmark)、智能体 (agent)</span>
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|搜代码不用向量库，搜公司文档为什么不行？]]<span class="pd-rz">同公司:Claude Code · 同概念:RAG、智能体 (agent)</span>
 - [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|模型是租的，harness 才是你的：拆解智能体的七层框架]]<span class="pd-rz">同公司:Claude Code · 同概念:RAG、智能体 (agent)</span>
-- [[2026-09-23-talks-building-the-document-context-layer-for|为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG]]<span class="pd-rz">同公司:Claude Code · 同概念:RAG、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

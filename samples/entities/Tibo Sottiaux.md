@@ -73,7 +73,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":83,"OpenAI":192,"ChatGPT":106,"智能体":467,"护栏":88,"沙箱":94,"Dots":4,"ChatGPT work":1,"Notion":17,"Rana El-Khalyubi":1}</script>
+<script type="application/json" class="pd-epn">{"Codex":83,"OpenAI":193,"ChatGPT":108,"智能体":471,"护栏":88,"沙箱":94,"Dots":4,"ChatGPT work":1,"Notion":17,"Rana El-Khalyubi":1}</script>
 
 <script>
 (function(){

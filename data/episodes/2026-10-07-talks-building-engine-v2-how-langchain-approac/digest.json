@@ -1,0 +1,155 @@
+{
+  "title_zh": "用一个智能体去修智能体:LangChain 如何打造 Engine v2",
+  "tldr": "LangChain 产品经理 Ben 讲解他们如何评估、迭代自家的智能体工程工具 Engine，以及 v2 的新能力。",
+  "digest_md": "做智能体（agent）的人都熟悉那套痛苦流程：翻看运行轨迹找错误、归类问题、分析根因、写修复、写评测。LangChain 把这整条流水线做成了一个产品叫 Engine——它自己去扫轨迹、发现问题、提出修复和测试用例。今年 5 月发布后，它已经扫描了超过 7000 万条轨迹，创建了超过 21000 个问题 [01:31 Unknown]。这场演讲讲的是团队怎么把 Engine 从 v1 打磨成更快、更强、更便宜的 v2。\n\n## 为什么给 Engine 做评测特别难？\n\nEngine 本身就是个复杂智能体：它要找出有问题的轨迹并聚类，要写人能读懂的问题描述，要对照源代码写修复，要生成测试数据，还要监控问题是否复发 [02:30 Unknown]。这些任务彼此差别很大，混在一起测不出好坏。\n\n团队的做法是给每个环节单独做基准测试。比如测找问题轨迹的能力，就造一批埋了已知问题的轨迹，让 Engine 在一堆干草里找针 [03:46 Unknown]。测聚类归因则给它一批已知错误轨迹和已有问题列表，看它能不能正确配对或新建问题。\n\n## 光靠基准测试不够，还得自己吃自己的狗粮\n\n基准分数高不代表生产环境好用，所以 LangChain 在自家的一堆智能体上跑 Engine——包括做外呼、客户调研的市场智能体，和在 Slack 和 GitHub 里调用的编程智能体 [05:14 Unknown]。Engine 找到的问题会发到 Slack，相关团队直接反馈这问题靠不靠谱。\n\n更有意思的是，他们让 Engine 跑在 Engine 自己上面：Engine 分析轨迹时也会产生轨迹，这些轨迹由另一个实例（他们叫它 meta-engine）来扫描，出问题同样发 Slack 通知 [06:04 Unknown]。这成了团队发现 Engine 改进机会的主要渠道之一。\n\n## 小模型有时反而更好用\n\n一个反直觉的经验：不是所有任务都需要最强的前沿模型。**对于简单的笨任务，用更小、更便宜的模型不光省钱，效果有时反而更好** [07:18 Unknown]。团队会不断给不同环节换模型做实验。所有实验都跑在 LangSmith 平台上，记录成本和基准分数随时间的变化。\n\n结果也拿得出手：在主基准 IssueBench 上，错误识别能力提升了 2 倍 [08:16 Unknown]。\n\n## 单看一条轨迹，有些问题永远发现不了\n\nV1 的 Engine 擅长在单条轨迹里找错：幻觉、坏掉的函数调用、循环调用、上下文爆炸 [10:42 Unknown]。但有些问题必须跨轨迹才能看出来。\n\n单看某条轨迹，一切正常——一条轨迹里 6 次函数调用，另一条 19 次，看起来都不算异常。但把统计拉通，发现函数调用次数整体暴涨，很可能这个新模型在疯狂乱调工具 [11:22 Unknown]。\n\n另一类是低效路径：比如 5% 的情况下，智能体处理一个普通请求时会绕岔路，去调用一堆不该碰的工具和数据源 [12:35 Unknown]。这类问题也只有在更大的图景下才现形。V2 对这两类都强了很多。\n\n## 从提建议到验证过的修复\n\nV1 只给你一个问题描述加修复提示，测试靠自己。V2 的核心新功能是经过验证的修复，流程像软件工程里的复现 bug：Engine 找到问题后，先把出问题的输入重新发给线上版本的智能体，确认 bug 依然存在 [14:11 Unknown]；然后在 LangSmith 部署平台上开一个预览分支跑修复版，用同样的破坏性输入验证修复真的有效；最后再跑一遍你配置的更大数据集，确认没有引入别的退化 [14:56 Unknown]。\n\n**最终交付的不再是一个提示，而是一个确认存在的问题、一个确认有效且不退化的修复**。Ben 认为这是迈向持续学习的第一步——智能体不断自我改进，人仍然在环里把关 [15:38 Unknown]。该功能目前在私测阶段，面向 LangSmith 部署客户。\n\n## 红队测试：在用户受伤之前先打自己\n\n另一个新能力是主动红队：Engine 根据智能体的系统提示词和运行框架，自己猜测什么样的输入可能搞坏它，然后拿这些输入去轰击线上部署，把不满意的结果聚类、打包成问题加修复建议 [16:33 Unknown]。**这样问题在被真实用户碰到之前就被发现和修掉**。同样在私测中。\n\n## v3 想做什么：更大胆的建议\n\n团队已经在做 v3，方向有三个：让验证修复和红队支持更多部署方式；让 Engine 能自动生成一套基线评测而不只是补充回归用例 [18:12 Unknown]；以及北极星目标——不再只提小修小补，而是给出大建议，比如「这个模型太贵太笨重，换这个，我已经用你的评测验证过它更快更便宜」[18:56 Unknown]。此外，Engine 也会在下一个版本支持自带密钥的自托管部署。\n\n## 本集带走\n\n- 评估复杂智能体要拆成环节，每个环节单独建基准测试，再用真实生产环境的狗粮验证基准是否可信。\n- 让 Engine 监控 Engine 自己，成了团队发现产品问题的主渠道之一。\n- 简单任务用小模型，不仅省钱，有时效果反而更好。\n- 单条轨迹看不出的问题（指标趋势、低效路径）需要跨轨迹的统计视角，这是 v2 的重要升级。\n- V2 的核心是从提建议走向验证过的修复：复现 bug、预览部署验证、跑数据集防退化，全程人可介入。",
+  "quotes": [
+    {
+      "en": "And since then, Engine has scanned over 70 million traces and has created over 21,000 issues for the many customers that are using it today.",
+      "zh": "从那以后，Engine 已经扫描了超过 7000 万条追踪记录，并为今天正在使用它的众多客户创建了超过 21000 个问题。",
+      "timestamp": "01:31",
+      "speaker": "Ben"
+    },
+    {
+      "en": "But maybe the most interesting of this dogfooding is that we actually run Engine on top of Engine.",
+      "zh": "但也许这种内部使用最有趣的地方在于，我们实际上是在 Engine 之上运行 Engine。",
+      "timestamp": "05:57",
+      "speaker": "Ben"
+    },
+    {
+      "en": "If it's a quote-unquote dumb task, it's sometimes better to use a dumber or a smaller model as opposed to these state-of-the-art models that are really expensive and really bulky.",
+      "zh": "如果是一个所谓的「愚蠢」任务，有时候用一个更笨或更小的模型反而更好，而不是用那些非常昂贵、非常臃肿的最先进模型。",
+      "timestamp": "07:18",
+      "speaker": "Ben"
+    },
+    {
+      "en": "But the vision that we have for Engine is the finding of problems, the fixing of those problems, and the testing of that fix all autonomously.",
+      "zh": "但我们对 Engine 的愿景是：发现问题、修复这些问题、测试那个修复方案，全部自主完成。",
+      "timestamp": "13:42",
+      "speaker": "Ben"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:31",
+      "speaker": "Unknown",
+      "en": "And since then, Engine has scanned over 70 million traces and has created over 21,000 issues for the many customers that are using it today.",
+      "zh": "从那以后，Engine 已经扫描了超过 7000 万条追踪记录，并为今天正在使用它的众多客户创建了超过 21000 个问题。"
+    },
+    {
+      "timestamp": "05:57",
+      "speaker": "Unknown",
+      "en": "But maybe the most interesting of this dogfooding is that we actually run Engine on top of Engine.",
+      "zh": "但也许这种内部使用最有趣的地方在于，我们实际上是在 Engine 之上运行 Engine。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Unknown",
+      "en": "We call it the meta-engine.",
+      "zh": "我们把它叫做 meta-engine。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "And so it's actually becoming one of the primary ways that we identify opportunities for growth on Engine.",
+      "zh": "所以这实际上正在成为我们发现 Engine 改进机会的主要方式之一。"
+    },
+    {
+      "timestamp": "07:05",
+      "speaker": "Unknown",
+      "en": "It may seem obvious that if you use not a frontier intelligence model, that it will be cheaper.",
+      "zh": "如果你使用的不是前沿智能模型，那它会更便宜，这看起来似乎是显而易见的。"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Unknown",
+      "en": "But I have also found that for specific tasks that we run Engine on, using these non-frontier models actually can be more effective.",
+      "zh": "但我还发现，对于我们运行 Engine 的特定任务，使用这些非前沿模型实际上可能更有效。"
+    },
+    {
+      "timestamp": "07:18",
+      "speaker": "Unknown",
+      "en": "If it's a quote-unquote dumb task, it's sometimes better to use a dumber or a smaller model as opposed to these state-of-the-art models that are really expensive and really bulky.",
+      "zh": "如果是一个所谓的「愚蠢」任务，有时候用一个更笨或更小的模型反而更好，而不是用那些非常昂贵、非常臃肿的最先进模型。"
+    },
+    {
+      "timestamp": "08:46",
+      "speaker": "Unknown",
+      "en": "So these are cool numbers, but what does that actually mean?",
+      "zh": "所以这些数字很酷，但这实际上意味着什么？"
+    },
+    {
+      "timestamp": "10:26",
+      "speaker": "Unknown",
+      "en": "But there's still a portion of this agent problem space that engine in its architecture from our V1 version would never really be able to identify.",
+      "zh": "但这个智能体问题空间中仍然有一部分，是 Engine 在我们 V1 版本的架构下永远无法真正识别的。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "So let's say between September 1st and September 14th, our team has swapped out a new model for our agent, and we see that the cost and latency are pretty much the same, even though we were expecting to see a huge drop in cost or a huge drop in latency.",
+      "zh": "比方说，在 9 月 1 日到 9 月 14 日之间，我们的团队为智能体换了一个新模型，我们看到成本和延迟几乎没变，尽管我们本来预期会看到成本或延迟大幅下降。"
+    },
+    {
+      "timestamp": "11:51",
+      "speaker": "Unknown",
+      "en": "Maybe this new model has just gone haywire and it's deciding to call tools far more than it should.",
+      "zh": "也许这个新模型已经失控了，它调用工具的次数远远超过了应该的次数。"
+    },
+    {
+      "timestamp": "12:17",
+      "speaker": "Unknown",
+      "en": "The other kind of problem that we have become much more capable of, these are two of several of what we've worked on, is the ability for Engine to detect inefficient paths as it works to identify or to meet the demands of a customer request.",
+      "zh": "我们能力提升很多的另一类问题——这些是我们所做工作中的几项之二——是 Engine 在识别或满足客户请求的需求时，检测低效路径的能力。"
+    },
+    {
+      "timestamp": "13:42",
+      "speaker": "Unknown",
+      "en": "But the vision that we have for Engine is the finding of problems, the fixing of those problems, and the testing of that fix all autonomously.",
+      "zh": "但我们对 Engine 的愿景是：发现问题、修复这些问题、测试那个修复方案，全部自主完成。"
+    },
+    {
+      "timestamp": "14:21",
+      "speaker": "Unknown",
+      "en": "We want to confirm this is an ongoing problem and reproduce the bug as you would in software.",
+      "zh": "我们想确认这是一个持续存在的问题，并且像你在软件开发中那样复现这个 bug。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Unknown",
+      "en": "And instead you get a verified issue that we know is still breaking your agent and you get a verified fix that we know addresses the problem and does not regress against other examples.",
+      "zh": "相反，你得到的是一个经过验证的问题——我们知道它仍在破坏你的智能体——以及一个经过验证的修复方案——我们知道它解决了这个问题，并且在其他示例上不会产生回归。"
+    },
+    {
+      "timestamp": "16:23",
+      "speaker": "Unknown",
+      "en": "And that means that it's likely affected a user in some way.",
+      "zh": "而这意味着它很可能已经以某种方式影响了一个用户。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Unknown",
+      "en": "There are also ways that we can try to break your agent before it ever actually touches a user.",
+      "zh": "还有一些方法，我们可以在你的智能体真正接触用户之前就尝试破坏它。"
+    },
+    {
+      "timestamp": "18:56",
+      "speaker": "Unknown",
+      "en": "That would mean that Engine is no longer finding these specific fixes or tweaks or optimizations to your harness, but rather it's saying that this entire model is too bulky, it's too expensive for your agent.",
+      "zh": "那将意味着 Engine 不再只是找出针对你 harness 的具体修复、微调或优化，而是会说这整个模型太臃肿了，对你的智能体来说太贵了。"
+    },
+    {
+      "timestamp": "19:07",
+      "speaker": "Unknown",
+      "en": "You should try this one, and we've actually validated this model against your evals and can confirm it's faster and it's cheaper.",
+      "zh": "你应该试试这一个，而且我们实际上已经针对你的评估验证过这个模型，可以确认它更快、更便宜。"
+    },
+    {
+      "timestamp": "19:15",
+      "speaker": "Unknown",
+      "en": "And the reason this is kind of coming after is because we want this whole flow of being able to identify gaps in your agent's traces as well as the ability to experiment on so that instead of a very loose recommendation of now using a Model A as opposed to Model B, you have a verified claim that this Model A is going to perform much better against your evals.",
+      "zh": "之所以这一项排在后面，是因为我们想要打通整个流程——既能识别你智能体轨迹中的缺口，又能进行实验——这样一来，与其只是得到一个很宽泛的建议说现在用 Model A 而不是 Model B，你能得到一个经过验证的结论：这个 Model A 在你的评估上会有好得多的表现。"
+    }
+  ],
+  "voice_script": "今天要讲的这家公司叫 LangChain，做智能体工程工具的。产品经理 Ben 要讲的，是他们怎么打磨自家的一个产品，名字叫 Engine。这产品解决的是一个所有做智能体的人都熟得不能再熟的痛苦流程：出了问题，你得一条一条翻运行轨迹找错误，归类问题，分析根因，写修复，再写测试。LangChain 把这整条流水线做成了一个产品，Engine 自己去扫轨迹、发现问题、提出修复和测试用例。今年 5 月发布以来，已经扫了超过七千万条轨迹，创建了两万一千多个问题。这一集讲的就是，这个 Engine 是怎么从第一版被打磨成更快、更强、更便宜的 v2 的。\n\n要理解他们怎么迭代，得先从一件听起来有点绕的事说起：怎么评估一个专门用来修智能体的智能体？Engine 本身就是个复杂智能体，要找有问题的轨迹、聚类、写人能读懂的问题描述、对照源代码写修复、生成测试数据、还要监控问题会不会复发。这些任务彼此差别很大，混在一起测是测不出好坏的。团队的办法很朴素：把流水线拆开，每个环节单独建基准测试。比如要测找问题轨迹的能力，就造一批埋了已知问题的轨迹，让 Engine 在一堆干草里找针。要测聚类归因，就给它一批已知错误轨迹和一份已有问题列表，看它能不能正确配对，或者判断出这是一个新问题。\n\n但基准分数高，不代表生产环境里真的好用。所以光靠基准测试还不够，团队还让 Engine 跑在自家的一堆智能体上，包括做外呼和客户调研的市场智能体，还有在 Slack 和 GitHub 里调用的编程智能体。Engine 找到的问题会发到 Slack，相关团队直接反馈这个发现靠不靠谱。更有意思的是，他们让 Engine 跑在 Engine 自己上面：Engine 分析轨迹的时候自己也会产生轨迹，这些轨迹由另一个实例来扫描，他们管它叫 meta-engine。这种自己吃自己狗粮的做法，成了团队发现改进机会的主要渠道之一。\n\n这套流程里还有一个反直觉的经验值得单独说：不是所有任务都需要最强的前沿模型。用 Ben 的话说，如果是个所谓的愚蠢任务，用一个更笨、更小的模型反而更好，而不是那些非常昂贵、非常臃肿的最先进模型。团队会不断给流水线的不同环节换模型做实验，所有实验都跑在 LangSmith 平台上，成本和基准分数随时间的变化都有记录。结果也拿得出手：在主基准 IssueBench 上，错误识别能力提升了 2 倍。\n\n那 v2 到底升级了什么？这就要从第一版的一个盲区说起。V1 擅长在单条轨迹里找错，比如幻觉、坏掉的函数调用、循环调用、上下文爆炸。但有些问题，单看一条轨迹是永远发现不了的。举个例子，一条轨迹里 6 次函数调用，另一条 19 次，单看哪条都算不上异常。可如果把统计拉通，发现函数调用次数整体暴涨，那很可能是这个新模型在疯狂乱调工具。还有一类是低效路径：比如 5% 的情况下，智能体处理一个普通请求时会绕岔路，去调一堆不该碰的工具和数据源。这类问题只有在更大的图景下才现形。V2 对这两类跨轨迹的问题，都强了很多。\n\n另一个核心升级，是从提建议到给出验证过的修复。V1 只给你一个问题描述加修复提示，测试得靠自己。V2 的做法像软件工程里复现 bug：找到问题后，先把出问题的输入重新发给线上版本，确认 bug 依然存在；然后在 LangSmith 部署平台上开一个预览分支跑修复版，用同样的破坏性输入验证修复真的有效；最后再跑一遍更大规模的数据集，确认没有引入别的退化。所以最终交付的不再是一个提示，而是一个确认存在的问题、一个确认有效且不退化的修复。Ben 认为这是迈向持续学习的第一步，智能体不断自我改进，人仍然在环里把关。这个功能目前在私测阶段，面向 LangSmith 部署客户。\n\n再往前看一步，还有一个更主动的新能力：红队测试。Engine 根据智能体的系统提示词和运行框架，自己猜测什么样的输入可能搞坏它，然后拿这些输入去轰击线上部署，把不满意的结果聚类、打包成问题加修复建议。也就是说，问题在被真实用户碰到之前，就被发现和修掉了。\n\n团队已经在做 v3，方向有三个：让验证修复和红队支持更多部署方式；让 Engine 能自动生成一整套基线评测，而不只是补充回归用例；以及北极星目标，不再只提小修小补，而是给出大建议，比如这个模型太贵太笨重，换这个，我已经用你的评测验证过它更快更便宜。\n\n回头看这一集，真正值得带走的是一条思路：评估一个复杂智能体，要拆成环节、每个环节单独建基准，再用真实生产环境验证这些基准可不可信；而当修智能体这件事本身足够可靠，修复就能从建议变成验证过的交付。Engine 扫过了七千万条轨迹，聚成了两万一千多个问题，而他们的愿景就是 Ben 那句话，发现问题、修复问题、测试修复方案，全部自主完成。"
+}

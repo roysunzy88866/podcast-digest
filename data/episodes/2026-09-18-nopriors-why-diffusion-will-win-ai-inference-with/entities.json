@@ -1,0 +1,1126 @@
+{
+  "episode_id": "2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with",
+  "podcast": "No Priors",
+  "date": "2026-09-18",
+  "tags": [
+    "扩散模型",
+    "AI 基础设施",
+    "推理加速",
+    "初创公司",
+    "学术研究"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "stefano-ermon",
+      "type": "person",
+      "role": "guest",
+      "name": "Stefano Ermon",
+      "file": "Stefano Ermon",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "inception",
+      "type": "company",
+      "role": "company",
+      "name": "Inception",
+      "file": "Inception",
+      "primary": true,
+      "how_described": "本集说 Inception 是 Stefano Ermon 创办的公司（约两年、50 人），把扩散模型扩展到商业规模的语言和代码生成，其模型已在生产环境服务真实客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.198,
+            15.322
+          ],
+          "quote": "Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co-founder and CEO of Inception.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            350.535,
+            359.904
+          ],
+          "quote": "And so I started Inception, a company to basically scale up the technology and then try to build commercial scale diffusion-based language models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            481.784,
+            490.171
+          ],
+          "quote": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            800.61,
+            809.756
+          ],
+          "quote": "Actually, a great time to just talk about where Inception is as a company, like how many people, what are you guys actually serving, sort of state of research, yeah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1175.547,
+            1192.599
+          ],
+          "quote": "If we just like zoom out to the, you know, inception in the broader industry, I think there is a vein of concern, and correct me if I'm wrong, that it's very hard to invest in new architectures today because some",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1646.855,
+            1655.778
+          ],
+          "quote": "Are there capabilities that you imagine Inception's models having at scale that today's models don't have beyond performance?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1914.011,
+            1923.684
+          ],
+          "quote": "And then at 50 people, I'm sure you're continuing to hire, like why researchers or engineers or others should consider, you know, investing in this direction or working at inception?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1935.227,
+            1942.068
+          ],
+          "quote": "And Inception is a great place to be if you want to have an opportunity to shape the direction of the field.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1945.869,
+            1953.571
+          ],
+          "quote": "And so a lot of the people that decided to come to Inception instead of joining one of the other labs is really that they want to have ownership.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "type": "company",
+      "role": "company",
+      "name": "Mercury",
+      "file": "Mercury",
+      "primary": true,
+      "how_described": "本集说 Mercury 是 Inception 的基于扩散的语言模型，基准测试上与 Haiku、Flash、OpenAI 小模型相当但显著更快；语音公司 OpenCall 从 Cerebras 定制芯片切换到了它在普通 NVIDIA GPU 上的方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            753.943,
+            765.012
+          ],
+          "quote": "So our Mercury models are on par with the Haiku models, Flash models, Mini Nano models from OpenAI, if you look at benchmarks, while being significantly faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1551.132,
+            1557.338
+          ],
+          "quote": "And so they are still able to provide the kind of level of service to their customers by using Mercury.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diffusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散模型 (diffusion)",
+      "file": "扩散模型",
+      "primary": true,
+      "how_described": "本集说扩散模型从纯噪声开始逐步去噪、并行输出大量词元的生成范式，统治图像和视频生成，Ermon 与博士生 Yang Song 在 2019 年开创此路线，如今被搬进文本和代码生成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.582,
+            23.765
+          ],
+          "quote": "Stefano has an extraordinarily broad body of work around generative modeling, but is especially well-known as one of the fathers of diffusion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            209.427,
+            220.312
+          ],
+          "quote": "And so we started working on score-based, the generative models, which are basically what eventually became diffusion models back in 2019 with my PhD student Yang Song.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            237.16,
+            252.668
+          ],
+          "quote": "And that basically became the underlying technology of modern diffusion models, where instead of generating images left to right one pixel at a time, you start from pure noise, and then you gradually refine the object until you get a clean picture at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            259.273,
+            267.32
+          ],
+          "quote": "And even today, the best models for image generation, video generation, music to some extent, a lot of the protein stuff, they are based on diffusion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            267.6,
+            274.586
+          ],
+          "quote": "And so my group has worked a lot on various kinds of diffusion models, technique for accelerating them to generate samples very quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            277.107,
+            287.632
+          ],
+          "quote": "And so since we were able to get them to work on images, I started thinking about how do we get diffusion models to work on text or code generation and the discrete objects?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            296.936,
+            302.959
+          ],
+          "quote": "And so I've been doing a bunch of research at Stanford on getting diffusion models to work on text and code generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            320.601,
+            326.529
+          ],
+          "quote": "But we were able to train basically still a transformer model as a diffusion model on the same data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            333.859,
+            335.922
+          ],
+          "quote": "But the diffusion model was significantly faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            336.282,
+            344.41
+          ],
+          "quote": "Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            350.535,
+            359.904
+          ],
+          "quote": "And so I started Inception, a company to basically scale up the technology and then try to build commercial scale diffusion-based language models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            359.984,
+            366.147
+          ],
+          "quote": "Everyone has now seen the outputs of diffusion models in particular images.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            366.808,
+            378.194
+          ],
+          "quote": "And I would argue that it's like increasingly a dominant form of like generated short form video from diffusion models is like a dominant form of entertainment in other parts of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            440.955,
+            448.297
+          ],
+          "quote": "And then there's diffusion, which is a course to find generation, kind of like iterative denoising kind of generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            449.017,
+            453.198
+          ],
+          "quote": "And as you said, like we have continuous modalities where diffusion dominate,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            476.62,
+            477.841
+          ],
+          "quote": "Will it be a diffusion model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            481.784,
+            490.171
+          ],
+          "quote": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            490.231,
+            496.556
+          ],
+          "quote": "And there are fundamental reasons for why diffusion models are better than autoregressive models at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            569.805,
+            574.128
+          ],
+          "quote": "Autoregressive models, the equivalent at inference time is a diffusion model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            574.148,
+            582.195
+          ],
+          "quote": "Because a diffusion model is built to have at inference time a workload where you process many tokens at the same time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            582.775,
+            586.178
+          ],
+          "quote": "And so the workload that we have at inference time in a diffusion model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            660.186,
+            666.368
+          ],
+          "quote": "And so that's why we decided to bet on a diffusion-based LLM because it's inherently more parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            713.444,
+            716.307
+          ],
+          "quote": "So if you think about a diffusion model, it's learning how to denoise images.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            745.015,
+            753.503
+          ],
+          "quote": "So we've been able to train diffusion-based MLMs that are comparable in quality with the speed-optimized models for Frontier Labs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            781.11,
+            785.152
+          ],
+          "quote": "You cannot run these diffusion-based LLMs on VLLM or SGLang.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            831.77,
+            839.694
+          ],
+          "quote": "In a diffusion-based model, we know that there is a lot of different possibilities for trading compute for quality at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            839.894,
+            855.982
+          ],
+          "quote": "Like even if you think about image diffusion models or video diffusion models, there is a lot of techniques that you can use to kind of like accelerate sampling of distillation or like fancy differential equation solving techniques that allow you to sample very, very quickly from these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            908.685,
+            915.227
+          ],
+          "quote": "Like it's possible that a diffusion-based language model will be maybe significantly more intelligent than an autoregressive one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1099.039,
+            1108.542
+          ],
+          "quote": "And then they switched over to our diffusion-based LLMs, because they can essentially get the same speed as what you would get if you were to run an autoregressive model on custom hardware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1109.828,
+            1121.417
+          ],
+          "quote": "If you have a diffusion-based LLM that it's built to be parallel, it's accelerating at the software level, then you can get the same speed on NVIDIA GPUs, which means much more availability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1270.568,
+            1279.5
+          ],
+          "quote": "Like even if you train the diffusion-based LLM, if you don't have the serving engine, if you don't have the VLLM equivalent to serve it, you're still stuck and you still cannot use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1302.568,
+            1320.735
+          ],
+          "quote": "You can tell me if this doesn't make sense as a question to ask technically, but one of the things that diffusion models benefit from structurally in images or video generation is, you know, you're replicating something where there should be some consistent structure in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1354.944,
+            1370.352
+          ],
+          "quote": "And fundamentally, if you think about whenever you train a generative model, what you're doing is, whether it's an autoregressive model or to some extent even a diffusion model, is you are trying to identify structure in the data by essentially building a compression scheme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1394.803,
+            1402.589
+          ],
+          "quote": "And that's the same, whether you're using a diffusion model or you're using an autoregressive model, both methods are essentially trying to learn a compression scheme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1507.741,
+            1511.403
+          ],
+          "quote": "I imagine that has to look different for a diffusion-based model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1524.572,
+            1529.935
+          ],
+          "quote": "And the interesting thing about a diffusion-based LLM is that we've built everything to be backwards compatible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1561.319,
+            1570.583
+          ],
+          "quote": "But it could be that I think that's actually a very interesting point is that we know that diffusion models are typically easier to control compared to autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1597.451,
+            1599.832
+          ],
+          "quote": "But a diffusion model, it's more course-to-find generation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1613.917,
+            1621.58
+          ],
+          "quote": "And so there is a lot of evidence in the academic literature, at least, that diffusion models are easier to control and there are different ways of steering them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1684.852,
+            1694.655
+          ],
+          "quote": "And there is a decent amount of evidence in the academic literature, for example, that diffusion-based models are more data efficient compared to ultra-aggressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1697.176,
+            1701.38
+          ],
+          "quote": "If you think about training a diffusion model, you're learning by denoising.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1750.923,
+            1758.832
+          ],
+          "quote": "If we project out two years, what do you think is the workload split between diffusion and traditional?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1809.07,
+            1812.213
+          ],
+          "quote": "What are the challenges of working with diffusion models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2154.333,
+            2159.454
+          ],
+          "quote": "Not necessarily like, of course, there is like the early diffusion work that we did in the lab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2168.921,
+            2174.984
+          ],
+          "quote": "And so, and then while being much more stable, and then the whole thing took over and then became stable diffusion mid-journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2198.034,
+            2203.316
+          ],
+          "quote": "It's an algorithm that is used to align, you know, LLMs and diffusion models and everywhere, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "autoregressive",
+      "type": "concept",
+      "role": "concept",
+      "name": "自回归模型 (autoregressive)",
+      "file": "自回归模型",
+      "primary": true,
+      "how_described": "本集说自回归模型是今天大实验室押注的主流架构，推理时从左到右一次生成一个 token、天然串行，工作负载受内存限制、与 GPU 不匹配，这是它相比扩散模型的根本短板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            179.838,
+            191.34
+          ],
+          "quote": "Yeah, so I was working on generative models of images, initially working on autoregressive models, which were very slow and kind of like very blurry and then VAEs and then GANs took over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            287.992,
+            296.256
+          ],
+          "quote": "Like, is there a way to move beyond autoregressive models to something that it's more parallel, more with built-in error correction?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            307.444,
+            316.836
+          ],
+          "quote": "We published a paper basically showing that for the first time it was possible to match the quality of an autoregressive model at the GPT-2 scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            326.849,
+            333.238
+          ],
+          "quote": "We were able to match the quality, like the same perplexity, and you were fitting the data just as well as an autoregressive model with the same number of parameters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            336.282,
+            344.41
+          ],
+          "quote": "Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            432.933,
+            440.535
+          ],
+          "quote": "There is autoregressive, where you kind of like have a model that predicts the next token or the next pixel, and then you generate left to right one token at a time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            453.718,
+            462.305
+          ],
+          "quote": "There is discrete modalities, text and code, where primarily all the big labs are betting on the same architecture, autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            475.158,
+            476.6
+          ],
+          "quote": "Will it be an autoregressive model?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            490.231,
+            496.556
+          ],
+          "quote": "And there are fundamental reasons for why diffusion models are better than autoregressive models at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            496.796,
+            499.459
+          ],
+          "quote": "So even if you think about the story of autoregressive models,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            531.44,
+            540.223
+          ],
+          "quote": "But if you think about inference, not training, inference generation, autoregressive models are still sequential.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            561.172,
+            563.913
+          ],
+          "quote": "And that's a fundamental problem of autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            569.805,
+            574.128
+          ],
+          "quote": "Autoregressive models, the equivalent at inference time is a diffusion model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            822.124,
+            827.288
+          ],
+          "quote": "Like, it's not obvious how you, even if you think about an autoregressive model, it's pretty clear that there is not a lot of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            908.685,
+            915.227
+          ],
+          "quote": "Like it's possible that a diffusion-based language model will be maybe significantly more intelligent than an autoregressive one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1099.039,
+            1108.542
+          ],
+          "quote": "And then they switched over to our diffusion-based LLMs, because they can essentially get the same speed as what you would get if you were to run an autoregressive model on custom hardware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1354.944,
+            1370.352
+          ],
+          "quote": "And fundamentally, if you think about whenever you train a generative model, what you're doing is, whether it's an autoregressive model or to some extent even a diffusion model, is you are trying to identify structure in the data by essentially building a compression scheme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1394.803,
+            1402.589
+          ],
+          "quote": "And that's the same, whether you're using a diffusion model or you're using an autoregressive model, both methods are essentially trying to learn a compression scheme.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1403.35,
+            1419.502
+          ],
+          "quote": "And when I mentioned the original 2024 paper, when we showed that we are achieving parity with autoregressive models, the metric that we're using is basically perplexity, which is a notion of how much structure have you identified in the data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1420.227,
+            1430.276
+          ],
+          "quote": "And so even though it might not seem obvious, we were actually able to identify at the GPT-2 scale the same amount of structure as an autoregressive model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1561.319,
+            1570.583
+          ],
+          "quote": "But it could be that I think that's actually a very interesting point is that we know that diffusion models are typically easier to control compared to autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1571.003,
+            1573.244
+          ],
+          "quote": "And the reason is that if you think about an autoregressive model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1622.16,
+            1625.561
+          ],
+          "quote": "That are just not possible with autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1625.581,
+            1631.744
+          ],
+          "quote": "So that would be a different interface for the model that maybe might not be even available for autoregressive models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1632.484,
+            1646.449
+          ],
+          "quote": "I think that's something that we've been thinking a lot about, like what would be the right, what's the right product experience that we can build around the new capabilities that are just not provided by autoregressive models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说最终重要的是推理时扩展：扩散模型的推理工作负载与训练相似、能很好映射到 GPU，且推理是 RL 后训练的关键瓶颈，推理快的模型在每瓦特/每美元智能上占优。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            481.784,
+            490.171
+          ],
+          "quote": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            490.231,
+            496.556
+          ],
+          "quote": "And there are fundamental reasons for why diffusion models are better than autoregressive models at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            531.44,
+            540.223
+          ],
+          "quote": "But if you think about inference, not training, inference generation, autoregressive models are still sequential.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            569.805,
+            574.128
+          ],
+          "quote": "Autoregressive models, the equivalent at inference time is a diffusion model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            574.148,
+            582.195
+          ],
+          "quote": "Because a diffusion model is built to have at inference time a workload where you process many tokens at the same time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            582.775,
+            586.178
+          ],
+          "quote": "And so the workload that we have at inference time in a diffusion model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            595.766,
+            605.934
+          ],
+          "quote": "And so it's built to essentially have an inference workload that maps really, really well to map modes, the kind of things GPUs do really, really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            606.674,
+            614.04
+          ],
+          "quote": "And so we bet on trying to build the architecture and trying to build the kind of models that will scale best at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            648.482,
+            652.884
+          ],
+          "quote": "And so inference is, again, a key bottleneck for RL post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            652.924,
+            659.646
+          ],
+          "quote": "And so if you have a model that scales better at inference time, then automatically you're going to get better scaling during RL post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            809.976,
+            821.944
+          ],
+          "quote": "Yeah, so we are about two years old, around 50 people, spending a lot of time still on R&D, kind of like figuring out what's the right way to train these models, how to accelerate inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            831.77,
+            839.694
+          ],
+          "quote": "In a diffusion-based model, we know that there is a lot of different possibilities for trading compute for quality at inference time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            856.642,
+            867.17
+          ],
+          "quote": "And so there is a lot of research on the training, on the inference, and then engineering, like just like thinking about data mixes, evals, RL post-training infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2098.76,
+            2112.509
+          ],
+          "quote": "So there is basically a team that is serving the current best version of the model, and then there is a team that is building the next version of the model, and that includes training, RL, inference, and so that's more research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformer",
+      "file": "Transformer",
+      "primary": true,
+      "how_described": "本集说 2017 年业界从 RNN 转向 Transformer 是因为后者能并行处理 token、训练扩展性更好；Ermon 把扩散模型类比为推理阶段的 Transformer 式转折，且他们的模型仍基于 Transformer 架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            320.601,
+            326.529
+          ],
+          "quote": "But we were able to train basically still a transformer model as a diffusion model on the same data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            406.001,
+            421.149
+          ],
+          "quote": "It's not intuitive that would work for other fields or that, you know, this is a interesting competitive direction to the current, you know, full transformer focus like AGI labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            523.134,
+            524.054
+          ],
+          "quote": "And that was a transformer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            877.156,
+            884.578
+          ],
+          "quote": "For example, it's still a transformer-based model, so you don't have to throw away a lot of the work that has been done on good architectures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1466.657,
+            1474.583
+          ],
+          "quote": "And then it's more a question of an inductive bias, like, you know, is a transformer a better way of identifying those patterns or something else?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "serving-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "服务引擎 (serving engine)",
+      "file": "服务引擎",
+      "primary": true,
+      "how_described": "本集说基于扩散的 LLM 没法跑在 VLLM 或 SGLang 上，Inception 被迫自建服务引擎，没有它即使有模型权重也无法在生产中服务，这构成公司难以复制的护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            776.684,
+            780.67
+          ],
+          "quote": "We did all the work of figuring out how to even just build a serving engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            785.212,
+            791.375
+          ],
+          "quote": "We had to build our own serving engine, and we can handle a lot of the complexity of real production workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1231.193,
+            1247.912
+          ],
+          "quote": "We've developed a product and we have real customers and we are getting feedback on the models from the real world is that by doing that, we are also developing components that are also very important to deploy these models, for example, like a serving engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1249.432,
+            1252.554
+          ],
+          "quote": "If you don't have the serving engine, you can't really serve these models in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1270.568,
+            1279.5
+          ],
+          "quote": "Like even if you train the diffusion-based LLM, if you don't have the serving engine, if you don't have the VLLM equivalent to serve it, you're still stuck and you still cannot use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1814.314,
+            1831.759
+          ],
+          "quote": "And so one of the challenges that we have to build are a lot of things in-house and there is not a mature sort of like ecosystem of even if you think about the serving engine or like kernels, like a lot of the things have to be developed in-house.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cerebras",
+      "type": "company",
+      "role": "company",
+      "name": "Cerebras",
+      "file": "Cerebras",
+      "primary": false,
+      "how_described": "本集提到客户 OpenCall 曾把 LLM 部署在 Cerebras 的定制芯片上以获得所需速度，后来切换到 Mercury 在普通 GPU 上的方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1086.835,
+            1090.916
+          ],
+          "quote": "They were previously serving their LLMs on Cerebras.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dpo",
+      "type": "concept",
+      "role": "concept",
+      "name": "DPO",
+      "file": "DPO",
+      "primary": false,
+      "how_described": "本集举 DPO 作为学术研究产生重大影响的例子：它最初只是 Ermon 组里的一个轮转项目，后来成为广泛用于对齐 LLM 和扩散模型的算法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            2191.391,
+            2192.612
+          ],
+          "quote": "Or another example is DPO.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "FlashAttention",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

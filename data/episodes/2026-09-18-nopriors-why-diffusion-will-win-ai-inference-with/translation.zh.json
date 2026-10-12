@@ -1,0 +1,3194 @@
+[
+ {
+  "seg": 0,
+  "start": 5.677,
+  "end": 6.277,
+  "speaker": "Unknown",
+  "en": "Hi, listeners.",
+  "zh": "听众们，大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 6.517,
+  "end": 7.918,
+  "speaker": "Unknown",
+  "en": "Welcome back to No Priors.",
+  "zh": "欢迎回到 No Priors。"
+ },
+ {
+  "seg": 2,
+  "start": 8.198,
+  "end": 15.322,
+  "speaker": "Unknown",
+  "en": "Today, I'm here with Stefano Erman, who is a longtime Stanford professor and now co-founder and CEO of Inception.",
+  "zh": "今天我做客的嘉宾是 Stefano Erman，他是斯坦福大学的资深教授，现在也是 Inception 的联合创始人兼 CEO。"
+ },
+ {
+  "seg": 3,
+  "start": 15.582,
+  "end": 23.765,
+  "speaker": "Unknown",
+  "en": "Stefano has an extraordinarily broad body of work around generative modeling, but is especially well-known as one of the fathers of diffusion.",
+  "zh": "Stefano 在生成式建模领域有着极其广泛的研究成果，但他最为人熟知的身份是扩散模型的奠基人之一。"
+ },
+ {
+  "seg": 4,
+  "start": 23.886,
+  "end": 31.669,
+  "speaker": "Unknown",
+  "en": "We talk about his company, challenging the large labs, and why speed and efficiency are going to be the name of the game in AI over the next few years.",
+  "zh": "我们会聊到他的公司、对大型实验室的挑战，以及为什么在未来几年里，速度和效率将成为 AI 领域的制胜关键。"
+ },
+ {
+  "seg": 5,
+  "start": 32.089,
+  "end": 32.85,
+  "speaker": "Unknown",
+  "en": "Welcome, Stefano.",
+  "zh": "欢迎，Stefano。"
+ },
+ {
+  "seg": 6,
+  "start": 33.59,
+  "end": 34.931,
+  "speaker": "Unknown",
+  "en": "Stefano, thanks so much for being here.",
+  "zh": "Stefano，非常感谢你能来。"
+ },
+ {
+  "seg": 7,
+  "start": 35.091,
+  "end": 35.752,
+  "speaker": "Unknown",
+  "en": "Great to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 8,
+  "start": 36.032,
+  "end": 42.877,
+  "speaker": "Unknown",
+  "en": "I would love for us to just start with a little bit of your research background and how you ended up starting your company.",
+  "zh": "我很想先从你的研究背景聊起，以及你是怎么最终创立了自己的公司。"
+ },
+ {
+  "seg": 9,
+  "start": 42.917,
+  "end": 43.417,
+  "speaker": "Unknown",
+  "en": "For sure, yeah.",
+  "zh": "当然，好的。"
+ },
+ {
+  "seg": 10,
+  "start": 43.678,
+  "end": 48.721,
+  "speaker": "Unknown",
+  "en": "I've been doing research in generative models for like basically my entire career.",
+  "zh": "基本上我的整个职业生涯都在做生成式模型方面的研究。"
+ },
+ {
+  "seg": 11,
+  "start": 49.302,
+  "end": 53.225,
+  "speaker": "Unknown",
+  "en": "I started at Stanford in 2014 as an assistant professor.",
+  "zh": "我于 2014 年以助理教授的身份加入斯坦福。"
+ },
+ {
+  "seg": 12,
+  "start": 53.725,
+  "end": 56.007,
+  "speaker": "Unknown",
+  "en": "And I was working on building generative models.",
+  "zh": "当时我在做构建生成式模型的工作。"
+ },
+ {
+  "seg": 13,
+  "start": 56.247,
+  "end": 60.65,
+  "speaker": "Unknown",
+  "en": "Back then, the research area was not particularly hot.",
+  "zh": "那个时候，这个研究领域并不算特别热门。"
+ },
+ {
+  "seg": 14,
+  "start": 60.791,
+  "end": 64.594,
+  "speaker": "Unknown",
+  "en": "You know, the models were not quite working well.",
+  "zh": "你知道，那时的模型效果并不太好。"
+ },
+ {
+  "seg": 15,
+  "start": 64.614,
+  "end": 67.156,
+  "speaker": "Unknown",
+  "en": "We were still like building little generative models over MNIST.",
+  "zh": "我们还在构建针对 MNIST 的小型生成式模型。"
+ },
+ {
+  "seg": 16,
+  "start": 67.276,
+  "end": 71.619,
+  "speaker": "Unknown",
+  "en": "And it was like a big success if you could generate these grainy images of digits.",
+  "zh": "如果你能生成这些模糊的数字图像，那就算是一项巨大的成功了。"
+ },
+ {
+  "seg": 17,
+  "start": 71.839,
+  "end": 77.904,
+  "speaker": "Unknown",
+  "en": "And, you know, it was even hard to publish papers back then on that topic.",
+  "zh": "而且，你知道，那时候在这个话题上发表 论文都很难。"
+ },
+ {
+  "seg": 18,
+  "start": 77.944,
+  "end": 79.125,
+  "speaker": "Unknown",
+  "en": "And you had to kind of like justify",
+  "zh": "你还不得不某种程度上去论证，"
+ },
+ {
+  "seg": 19,
+  "start": 79.765,
+  "end": 88.315,
+  "speaker": "Unknown",
+  "en": "Training a generative model as a way to learn features from unlabeled data that then could maybe help you do better at supervised learning, because that was the thing that everybody cared about.",
+  "zh": "训练生成式模型是一种从无标注数据中学习特征的方式，而这些特征之后也许能帮助你在监督学习上做得更好，因为那才是当时所有人关心的东西。"
+ },
+ {
+  "seg": 20,
+  "start": 88.475,
+  "end": 90.637,
+  "speaker": "Unknown",
+  "en": "But then, you know, things took over, of course.",
+  "zh": "但后来，你知道，情况就逆转了，当然。"
+ },
+ {
+  "seg": 21,
+  "start": 90.757,
+  "end": 94.922,
+  "speaker": "Unknown",
+  "en": "And so it was like I was at the right place at the right time, working on the right thing.",
+  "zh": "所以就像是我恰好在正确的时间、正确的地点，做着正确的事情。"
+ },
+ {
+  "seg": 22,
+  "start": 94.982,
+  "end": 100.168,
+  "speaker": "Unknown",
+  "en": "And so I've been doing research in that space since the beginning, basically.",
+  "zh": "所以从最开始，我就一直在那个领域做研究，基本上。"
+ },
+ {
+  "seg": 23,
+  "start": 100.427,
+  "end": 107.072,
+  "speaker": "Unknown",
+  "en": "Did you have like a, besides curiosity in the area, a personal hope for what the models would do back in 2014 and 15?",
+  "zh": "除了对这个领域的好奇心之外，你在 2014、15 年的时候，对这些模型能做到什么，有没有一种个人的期望？"
+ },
+ {
+  "seg": 24,
+  "start": 107.112,
+  "end": 120.301,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I always felt like that was going to be the, that was the right way to think about kind of like learning from unlabeled data, that like building a generative model is really the right way to make sure you understand the structure in the data.",
+  "zh": "是的，我的意思是，我一直觉得那就是……那就是思考如何从无标注数据中学习的正确方式，也就是说，构建一个生成式模型，才是真正能确保你理解数据中结构的正确方法。"
+ },
+ {
+  "seg": 25,
+  "start": 120.481,
+  "end": 121.922,
+  "speaker": "Unknown",
+  "en": "That was kind of like the way I was getting at.",
+  "zh": "那大概就是我当时的切入点。"
+ },
+ {
+  "seg": 26,
+  "start": 123.083,
+  "end": 131.03,
+  "speaker": "Unknown",
+  "en": "I was not even dreaming about the kind of capabilities that these LLMs that we have today could do that.",
+  "zh": "我当时甚至做梦都没想到，我们今天拥有的这些 LLM 能做到的事情。"
+ },
+ {
+  "seg": 27,
+  "start": 131.85,
+  "end": 134.452,
+  "speaker": "Unknown",
+  "en": "But I was thinking more from, I think, world models perspective.",
+  "zh": "但我想我当时更多是从，我认为，世界模型的角度来思考的。"
+ },
+ {
+  "seg": 28,
+  "start": 134.492,
+  "end": 138.336,
+  "speaker": "Unknown",
+  "en": "Like I was working a lot on images and so thinking about, okay, like...",
+  "zh": "比如，我当时在图像上做了很多工作，所以会想，好，比如……"
+ },
+ {
+  "seg": 29,
+  "start": 138.896,
+  "end": 139.817,
+  "speaker": "Unknown",
+  "en": "I have a world model.",
+  "zh": "我有一个世界模型。"
+ },
+ {
+  "seg": 30,
+  "start": 139.857,
+  "end": 143.64,
+  "speaker": "Unknown",
+  "en": "I can imagine what's going to happen if I were to stand up and walk out the door.",
+  "zh": "我能想象如果我站起来走出这扇门会发生什么。"
+ },
+ {
+  "seg": 31,
+  "start": 143.66,
+  "end": 145.401,
+  "speaker": "Unknown",
+  "en": "Like I can kind of like picture that in my mind.",
+  "zh": "比如我可以在脑海里大致描绘出那个画面。"
+ },
+ {
+  "seg": 32,
+  "start": 145.821,
+  "end": 154.427,
+  "speaker": "Unknown",
+  "en": "And that's important to make decisions and kind of like model predictive control when having this kind of model of the world requires some generative capabilities.",
+  "zh": "而这对于做决策很重要，有点像模型预测控制，拥有这种关于世界的模型需要一些生成能力。"
+ },
+ {
+  "seg": 33,
+  "start": 155.088,
+  "end": 158.17,
+  "speaker": "Unknown",
+  "en": "And so I always felt like, okay, that's the right direction to work on.",
+  "zh": "所以我一直觉得，好，那是值得研究的正确方向。"
+ },
+ {
+  "seg": 34,
+  "start": 158.69,
+  "end": 161.012,
+  "speaker": "Unknown",
+  "en": "I felt like this is going to be very hard as a problem.",
+  "zh": "我当时觉得这会是一个非常难的问题。"
+ },
+ {
+  "seg": 35,
+  "start": 161.072,
+  "end": 163.654,
+  "speaker": "Unknown",
+  "en": "It's like, it's going to keep me busy for my whole career.",
+  "zh": "就像是，它会让我忙上整整一辈子的职业生涯。"
+ },
+ {
+  "seg": 36,
+  "start": 163.714,
+  "end": 165.195,
+  "speaker": "Unknown",
+  "en": "And so it's a good problem to work on.",
+  "zh": "所以这是一个值得研究的好问题。"
+ },
+ {
+  "seg": 37,
+  "start": 165.215,
+  "end": 167.316,
+  "speaker": "Unknown",
+  "en": "And then of course I was very wrong and things.",
+  "zh": "然后当然我错得很离谱，事情……"
+ },
+ {
+  "seg": 38,
+  "start": 168.439,
+  "end": 170.975,
+  "speaker": "Unknown",
+  "en": "It evolved much faster than I was expecting.",
+  "zh": "它的演进比我预期的要快得多。"
+ },
+ {
+  "seg": 39,
+  "start": 171.756,
+  "end": 173.997,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that's kind of universally true though.",
+  "zh": "是的，我觉得这在某种程度上是普遍成立的。"
+ },
+ {
+  "seg": 40,
+  "start": 174.137,
+  "end": 179.638,
+  "speaker": "Unknown",
+  "en": "And sort of walk me through the state of your research and how that led you to start the company.",
+  "zh": "那能带我们了解一下你研究的进程，以及它是如何引导你创立公司的吗？"
+ },
+ {
+  "seg": 41,
+  "start": 179.838,
+  "end": 191.34,
+  "speaker": "Unknown",
+  "en": "Yeah, so I was working on generative models of images, initially working on autoregressive models, which were very slow and kind of like very blurry and then VAEs and then GANs took over.",
+  "zh": "是的，我最初在做图像的生成式模型，先是从自回归模型做起，它们非常慢，而且生成结果很模糊，然后是 VAE，接着 GAN 成了主流。"
+ },
+ {
+  "seg": 42,
+  "start": 191.881,
+  "end": 198.022,
+  "speaker": "Unknown",
+  "en": "And back then we were very unhappy with the state of generative models for images, like the GANs were",
+  "zh": "那时候我们对图像生成式模型的现状非常不满意，比如当时的 GAN……"
+ },
+ {
+  "seg": 43,
+  "start": 198.902,
+  "end": 203.164,
+  "speaker": "Unknown",
+  "en": "They worked, but they were very unstable to train, very hard to reproduce results.",
+  "zh": "它们能工作，但训练起来非常不稳定，结果非常难以复现。"
+ },
+ {
+  "seg": 44,
+  "start": 203.705,
+  "end": 208.807,
+  "speaker": "Unknown",
+  "en": "And so we were trying to say, is there a way to build something that is as good as a GAN, but it's more principled?",
+  "zh": "所以我们当时想问，有没有办法构建一个和 GAN 一样好，但更有原则性的东西？"
+ },
+ {
+  "seg": 45,
+  "start": 209.427,
+  "end": 220.312,
+  "speaker": "Unknown",
+  "en": "And so we started working on score-based, the generative models, which are basically what eventually became diffusion models back in 2019 with my PhD student Yang Song.",
+  "zh": "于是我们开始研究基于分数的生成式模型，这基本上就是后来在 2019 年与我的博士生 Yang Song 一起最终演变成扩散模型的东西。"
+ },
+ {
+  "seg": 46,
+  "start": 220.352,
+  "end": 225.495,
+  "speaker": "Unknown",
+  "en": "And so we kind of like came up with this idea of let's train a neural network to denoise images.",
+  "zh": "于是我们大致想出了这个点子：训练一个神经网络来给图像去噪。"
+ },
+ {
+  "seg": 47,
+  "start": 226.155,
+  "end": 236.56,
+  "speaker": "Unknown",
+  "en": "And if you can denoise an image, then you really are understanding enough about the structure of the image that it should be possible to build a generative procedure based on these denoisers.",
+  "zh": "如果你能给一张图像去噪，那说明你对图像的结构已经有了足够深入的理解，那么基于这些去噪器构建一个生成过程应该是可行的。"
+ },
+ {
+  "seg": 48,
+  "start": 237.16,
+  "end": 252.668,
+  "speaker": "Unknown",
+  "en": "And that basically became the underlying technology of modern diffusion models, where instead of generating images left to right one pixel at a time, you start from pure noise, and then you gradually refine the object until you get a clean picture at the end.",
+  "zh": "而这基本上就成了现代扩散模型的底层技术：不是从左到右一个像素一个像素地生成图像，而是从纯噪声开始，然后逐渐 refine 这个对象，直到最后得到一张干净的图像。"
+ },
+ {
+  "seg": 49,
+  "start": 253.588,
+  "end": 259.153,
+  "speaker": "Unknown",
+  "en": "And that started back in 2019 in my lab, and then it kind of like took over the space.",
+  "zh": "这始于 2019 年我的实验室，然后它就逐渐占领了整个领域。"
+ },
+ {
+  "seg": 50,
+  "start": 259.273,
+  "end": 267.32,
+  "speaker": "Unknown",
+  "en": "And even today, the best models for image generation, video generation, music to some extent, a lot of the protein stuff, they are based on diffusion.",
+  "zh": "甚至在今天,最好的图像生成、视频生成、某种程度上音乐生成,还有大量蛋白质方面的工作,都是基于 diffusion 的。"
+ },
+ {
+  "seg": 51,
+  "start": 267.6,
+  "end": 274.586,
+  "speaker": "Unknown",
+  "en": "And so my group has worked a lot on various kinds of diffusion models, technique for accelerating them to generate samples very quickly.",
+  "zh": "所以我的团队在各种各样的 diffusion 模型上做了很多工作,研究加速它们、快速生成样本的技术。"
+ },
+ {
+  "seg": 52,
+  "start": 275.106,
+  "end": 276.807,
+  "speaker": "Unknown",
+  "en": "To improve the quality of these models.",
+  "zh": "以提升这些模型的质量。"
+ },
+ {
+  "seg": 53,
+  "start": 277.107,
+  "end": 287.632,
+  "speaker": "Unknown",
+  "en": "And so since we were able to get them to work on images, I started thinking about how do we get diffusion models to work on text or code generation and the discrete objects?",
+  "zh": "既然我们能让 diffusion 在图像上奏效,我开始思考如何让 diffusion 模型用在文本或代码生成这些离散对象上?"
+ },
+ {
+  "seg": 54,
+  "start": 287.992,
+  "end": 296.256,
+  "speaker": "Unknown",
+  "en": "Like, is there a way to move beyond autoregressive models to something that it's more parallel, more with built-in error correction?",
+  "zh": "比如,有没有办法超越自回归模型,走向更并行、内置纠错能力的东西?"
+ },
+ {
+  "seg": 55,
+  "start": 296.936,
+  "end": 302.959,
+  "speaker": "Unknown",
+  "en": "And so I've been doing a bunch of research at Stanford on getting diffusion models to work on text and code generation.",
+  "zh": "所以我在 Stanford 做了很多研究,让 diffusion 模型用于文本和代码生成。"
+ },
+ {
+  "seg": 56,
+  "start": 304.58,
+  "end": 306.703,
+  "speaker": "Unknown",
+  "en": "We had a breakthrough in 2024.",
+  "zh": "我们在 2024 年取得了突破。"
+ },
+ {
+  "seg": 57,
+  "start": 307.444,
+  "end": 316.836,
+  "speaker": "Unknown",
+  "en": "We published a paper basically showing that for the first time it was possible to match the quality of an autoregressive model at the GPT-2 scale.",
+  "zh": "我们发表了一篇论文,基本证明了首次可以在 GPT-2 规模上匹配自回归模型的质量。"
+ },
+ {
+  "seg": 58,
+  "start": 317.157,
+  "end": 320,
+  "speaker": "Unknown",
+  "en": "So less than a billion parameters, still fairly academic.",
+  "zh": "也就是不到十亿参数,仍然相当学术化。"
+ },
+ {
+  "seg": 59,
+  "start": 320.601,
+  "end": 326.529,
+  "speaker": "Unknown",
+  "en": "But we were able to train basically still a transformer model as a diffusion model on the same data.",
+  "zh": "但我们基本上能用仍然是 transformer 的模型、以 diffusion 模型的方式、在同样的数据上训练。"
+ },
+ {
+  "seg": 60,
+  "start": 326.849,
+  "end": 333.238,
+  "speaker": "Unknown",
+  "en": "We were able to match the quality, like the same perplexity, and you were fitting the data just as well as an autoregressive model with the same number of parameters.",
+  "zh": "我们能够匹配质量,比如同样的困惑度,而且在参数数量相同的情况下,对数据的拟合程度和自回归模型一样好。"
+ },
+ {
+  "seg": 61,
+  "start": 333.859,
+  "end": 335.922,
+  "speaker": "Unknown",
+  "en": "But the diffusion model was significantly faster.",
+  "zh": "但 diffusion 模型明显更快。"
+ },
+ {
+  "seg": 62,
+  "start": 336.282,
+  "end": 344.41,
+  "speaker": "Unknown",
+  "en": "Because it's diffusion, because you're outputting many tokens at the same time, we were able to generate text like 10x faster compared to the autoregressive model.",
+  "zh": "因为它是 diffusion,因为你同时输出很多 token,我们能够比自回归模型快大约 10 倍地生成文本。"
+ },
+ {
+  "seg": 63,
+  "start": 344.91,
+  "end": 346.492,
+  "speaker": "Unknown",
+  "en": "And so that felt very, very exciting.",
+  "zh": "所以这让人感觉非常、非常令人兴奋。"
+ },
+ {
+  "seg": 64,
+  "start": 346.752,
+  "end": 350.055,
+  "speaker": "Unknown",
+  "en": "And I really wanted to see what happens if you scale up, if you train bigger models.",
+  "zh": "我非常想知道如果扩大规模、训练更大的模型会发生什么。"
+ },
+ {
+  "seg": 65,
+  "start": 350.535,
+  "end": 359.904,
+  "speaker": "Unknown",
+  "en": "And so I started Inception, a company to basically scale up the technology and then try to build commercial scale diffusion-based language models.",
+  "zh": "于是我创办了 Inception,这家公司基本上就是把这项技术扩大规模,然后尝试构建商业规模的基于 diffusion 的语言模型。"
+ },
+ {
+  "seg": 66,
+  "start": 359.984,
+  "end": 366.147,
+  "speaker": "Unknown",
+  "en": "Everyone has now seen the outputs of diffusion models in particular images.",
+  "zh": "现在每个人都见过 diffusion 模型的输出,尤其是图像。"
+ },
+ {
+  "seg": 67,
+  "start": 366.808,
+  "end": 378.194,
+  "speaker": "Unknown",
+  "en": "And I would argue that it's like increasingly a dominant form of like generated short form video from diffusion models is like a dominant form of entertainment in other parts of the world.",
+  "zh": "我想说,从 diffusion 模型生成的短视频正日益成为一种主导形式,在世界其他地方,它已经成为一种主要的娱乐形式。"
+ },
+ {
+  "seg": 68,
+  "start": 378.234,
+  "end": 379.755,
+  "speaker": "Unknown",
+  "en": "And it will likely become so here.",
+  "zh": "而且它很可能在这里也会变成这样。"
+ },
+ {
+  "seg": 69,
+  "start": 380.715,
+  "end": 388.497,
+  "speaker": "Unknown",
+  "en": "It's kind of unbelievable, at least to me, even having followed the field for the last decade plus, the quality that is possible today.",
+  "zh": "有点难以置信,至少对我来说是这样,即使我已经追踪这个领域十多年了,今天所能达到的质量依然令人惊叹。"
+ },
+ {
+  "seg": 70,
+  "start": 389.897,
+  "end": 393.138,
+  "speaker": "Unknown",
+  "en": "So I think that is kind of obvious, right?",
+  "zh": "所以我觉得这一点是显而易见的,对吧?"
+ },
+ {
+  "seg": 71,
+  "start": 393.358,
+  "end": 402.98,
+  "speaker": "Unknown",
+  "en": "And it's such a big use case in images and video generation that folks are even creating hardware to support better performance here.",
+  "zh": "而且图像和视频生成的用例如此之大,以至于人们甚至在为支持这方面更好的性能而专门制造硬件。"
+ },
+ {
+  "seg": 72,
+  "start": 406.001,
+  "end": 421.149,
+  "speaker": "Unknown",
+  "en": "It's not intuitive that would work for other fields or that, you know, this is a interesting competitive direction to the current, you know, full transformer focus like AGI labs.",
+  "zh": "但它能否适用于其他领域并不直观,或者说,这是对当前、你知道的,专注于 transformer 的 AGI 实验室的一个有趣的竞争方向。"
+ },
+ {
+  "seg": 73,
+  "start": 422.19,
+  "end": 423.731,
+  "speaker": "Unknown",
+  "en": "Can you offer some intuition on that?",
+  "zh": "你能就此提供一些直觉上的解释吗?"
+ },
+ {
+  "seg": 74,
+  "start": 424.011,
+  "end": 432.913,
+  "speaker": "Unknown",
+  "en": "Yeah, so it's a very interesting kind of like state of the world right now from a researcher perspective, because like there is like two main paradigms, two ways of building generative models.",
+  "zh": "好的,从研究者的角度看,这是一个非常有趣的当前世界状态,因为主要有两种范式、两种构建生成模型的方式。"
+ },
+ {
+  "seg": 75,
+  "start": 432.933,
+  "end": 440.535,
+  "speaker": "Unknown",
+  "en": "There is autoregressive, where you kind of like have a model that predicts the next token or the next pixel, and then you generate left to right one token at a time.",
+  "zh": "一种是自回归,你有一个模型预测下一个 token 或下一个像素,然后从左到右一次生成一个 token。"
+ },
+ {
+  "seg": 76,
+  "start": 440.955,
+  "end": 448.297,
+  "speaker": "Unknown",
+  "en": "And then there's diffusion, which is a course to find generation, kind of like iterative denoising kind of generation.",
+  "zh": "另一种是 diffusion,这是一种从粗到精的生成,有点像迭代去噪式的生成。"
+ },
+ {
+  "seg": 77,
+  "start": 449.017,
+  "end": 453.198,
+  "speaker": "Unknown",
+  "en": "And as you said, like we have continuous modalities where diffusion dominate,",
+  "zh": "正如你所说,在连续模态上 diffusion 占主导地位,"
+ },
+ {
+  "seg": 78,
+  "start": 453.718,
+  "end": 462.305,
+  "speaker": "Unknown",
+  "en": "There is discrete modalities, text and code, where primarily all the big labs are betting on the same architecture, autoregressive models.",
+  "zh": "而存在离散模态,文本和代码,所有大实验室基本上都在押注同一个架构——自回归模型。"
+ },
+ {
+  "seg": 79,
+  "start": 462.325,
+  "end": 472.552,
+  "speaker": "Unknown",
+  "en": "And as we move towards more and more multimodal models, there is this idea that maybe we'll have a model that can handle all modalities and we'll know everything about the world.",
+  "zh": "随着我们走向越来越多的多模态模型,有这样一种想法:也许我们会拥有一个能处理所有模态、并且了解世界一切的模型。"
+ },
+ {
+  "seg": 80,
+  "start": 473.617,
+  "end": 474.878,
+  "speaker": "Unknown",
+  "en": "What architecture would that be?",
+  "zh": "那会是什么样的架构?"
+ },
+ {
+  "seg": 81,
+  "start": 475.158,
+  "end": 476.6,
+  "speaker": "Unknown",
+  "en": "Will it be an autoregressive model?",
+  "zh": "会是自回归模型吗?"
+ },
+ {
+  "seg": 82,
+  "start": 476.62,
+  "end": 477.841,
+  "speaker": "Unknown",
+  "en": "Will it be a diffusion model?",
+  "zh": "会是 diffusion 模型吗?"
+ },
+ {
+  "seg": 83,
+  "start": 479.122,
+  "end": 479.702,
+  "speaker": "Unknown",
+  "en": "Nobody knows.",
+  "zh": "没人知道。"
+ },
+ {
+  "seg": 84,
+  "start": 479.862,
+  "end": 481.764,
+  "speaker": "Unknown",
+  "en": "I think the jury's still out there.",
+  "zh": "我认为还没有定论。"
+ },
+ {
+  "seg": 85,
+  "start": 481.784,
+  "end": 490.171,
+  "speaker": "Unknown",
+  "en": "At inception, we're betting on diffusion models because we believe that what matters eventually will be inference time scaling.",
+  "zh": "在 Inception,我们押注 diffusion 模型,因为我们相信最终重要的是推理时扩展。"
+ },
+ {
+  "seg": 86,
+  "start": 490.231,
+  "end": 496.556,
+  "speaker": "Unknown",
+  "en": "And there are fundamental reasons for why diffusion models are better than autoregressive models at inference time.",
+  "zh": "而且,有一些根本性的原因说明为什么 diffusion 模型在推理时优于自回归模型。"
+ },
+ {
+  "seg": 87,
+  "start": 496.796,
+  "end": 499.459,
+  "speaker": "Unknown",
+  "en": "So even if you think about the story of autoregressive models,",
+  "zh": "即便你回想一下自回归模型的故事,"
+ },
+ {
+  "seg": 88,
+  "start": 499.959,
+  "end": 506.181,
+  "speaker": "Unknown",
+  "en": "There was an inflection point in 2017 when people switched from RNNs to Transformers, right?",
+  "zh": "2017 年有一个转折点,人们从 RNN 转向了 Transformer,对吧?"
+ },
+ {
+  "seg": 89,
+  "start": 506.241,
+  "end": 507.201,
+  "speaker": "Unknown",
+  "en": "And what was that?",
+  "zh": "那是怎么回事?"
+ },
+ {
+  "seg": 90,
+  "start": 507.761,
+  "end": 513.583,
+  "speaker": "Unknown",
+  "en": "The problem was that RNNs had to essentially process tokens sequentially, one at a time.",
+  "zh": "问题是 RNN 本质上必须按顺序逐个处理 token,一次一个。"
+ },
+ {
+  "seg": 91,
+  "start": 514.404,
+  "end": 515.424,
+  "speaker": "Unknown",
+  "en": "And training was very slow.",
+  "zh": "训练非常慢。"
+ },
+ {
+  "seg": 92,
+  "start": 516.128,
+  "end": 523.053,
+  "speaker": "Unknown",
+  "en": "And so people came up with this idea of let's have an architecture that allows you to process many tokens at the same time in parallel.",
+  "zh": "于是人们提出了这个想法:让我们设计一种架构,允许你同时并行处理很多 token。"
+ },
+ {
+  "seg": 93,
+  "start": 523.134,
+  "end": 524.054,
+  "speaker": "Unknown",
+  "en": "And that was a transformer.",
+  "zh": "那就是 Transformer。"
+ },
+ {
+  "seg": 94,
+  "start": 524.435,
+  "end": 530.699,
+  "speaker": "Unknown",
+  "en": "And that was the thing that scaled better for training and that enabled a lot of the successes behind LLAMs.",
+  "zh": "那是在训练上扩展性更好的东西,并促成了 LLAM 背后的许多成功。"
+ },
+ {
+  "seg": 95,
+  "start": 531.44,
+  "end": 540.223,
+  "speaker": "Unknown",
+  "en": "But if you think about inference, not training, inference generation, autoregressive models are still sequential.",
+  "zh": "但如果你想到推理,而不是训练,推理生成,自回归模型仍然是顺序的。"
+ },
+ {
+  "seg": 96,
+  "start": 540.263,
+  "end": 542.964,
+  "speaker": "Unknown",
+  "en": "The computation is one left to right, one token at a time.",
+  "zh": "计算是从左到右的,一次一个 token。"
+ },
+ {
+  "seg": 97,
+  "start": 543.325,
+  "end": 547.586,
+  "speaker": "Unknown",
+  "en": "You cannot generate the 10th token until you've generated everything that comes before it.",
+  "zh": "在生成它之前所有内容之前,你无法生成第 10 个 token。"
+ },
+ {
+  "seg": 98,
+  "start": 547.786,
+  "end": 551.688,
+  "speaker": "Unknown",
+  "en": "That kind of workload does not map well to GPUs.",
+  "zh": "这种工作负载并不能很好地映射到 GPU 上。"
+ },
+ {
+  "seg": 99,
+  "start": 552.148,
+  "end": 554.649,
+  "speaker": "Unknown",
+  "en": "That kind of workload is extremely memory bound.",
+  "zh": "这种工作负载是极其受内存限制的。"
+ },
+ {
+  "seg": 100,
+  "start": 555.909,
+  "end": 561.032,
+  "speaker": "Unknown",
+  "en": "You're spending most of your time moving around weights across the memory hierarchy and you're doing very little arithmetic.",
+  "zh": "你把大部分时间花在内存层次结构之间搬运权重上，而你做的算术运算非常少。"
+ },
+ {
+  "seg": 101,
+  "start": 561.172,
+  "end": 563.913,
+  "speaker": "Unknown",
+  "en": "And that's a fundamental problem of autoregressive models.",
+  "zh": "而这是自回归模型的一个根本问题。"
+ },
+ {
+  "seg": 102,
+  "start": 565.374,
+  "end": 568.656,
+  "speaker": "Unknown",
+  "en": "And so what's the equivalent if you think RNNs, Transformers?",
+  "zh": "那么如果你想想 RNN、Transformer,对应的东西是什么？"
+ },
+ {
+  "seg": 103,
+  "start": 569.805,
+  "end": 574.128,
+  "speaker": "Unknown",
+  "en": "Autoregressive models, the equivalent at inference time is a diffusion model.",
+  "zh": "自回归模型，在推理时对应的就是扩散模型。"
+ },
+ {
+  "seg": 104,
+  "start": 574.148,
+  "end": 582.195,
+  "speaker": "Unknown",
+  "en": "Because a diffusion model is built to have at inference time a workload where you process many tokens at the same time.",
+  "zh": "因为扩散模型生来就是让推理时的工作负载可以同时处理很多 token。"
+ },
+ {
+  "seg": 105,
+  "start": 582.775,
+  "end": 586.178,
+  "speaker": "Unknown",
+  "en": "And so the workload that we have at inference time in a diffusion model",
+  "zh": "所以我们在扩散模型推理时拥有的工作负载"
+ },
+ {
+  "seg": 106,
+  "start": 587.28,
+  "end": 595.026,
+  "speaker": "Unknown",
+  "en": "It's basically very, very similar to the workload you have for training, where you are processing many tokens at the same time in parallel.",
+  "zh": "基本上和训练时的工作负载非常非常相似，都是同时并行处理很多 token。"
+ },
+ {
+  "seg": 107,
+  "start": 595.766,
+  "end": 605.934,
+  "speaker": "Unknown",
+  "en": "And so it's built to essentially have an inference workload that maps really, really well to map modes, the kind of things GPUs do really, really well.",
+  "zh": "所以它生来就有一种推理工作负载，能非常非常好地映射到那种 GPU 真正真正擅长做的事情上。"
+ },
+ {
+  "seg": 108,
+  "start": 606.674,
+  "end": 614.04,
+  "speaker": "Unknown",
+  "en": "And so we bet on trying to build the architecture and trying to build the kind of models that will scale best at inference time.",
+  "zh": "所以我们押注于尝试构建那种在推理时扩展性最好的架构和模型。"
+ },
+ {
+  "seg": 109,
+  "start": 614.86,
+  "end": 622.843,
+  "speaker": "Unknown",
+  "en": "Because, you know, economics are dominated by, you know, the kind of intelligence per watt, the intelligence per dollar that you're able to get from the models.",
+  "zh": "因为，你知道，经济性主要取决于你从模型中能获得的每瓦特智能、每美元智能。"
+ },
+ {
+  "seg": 110,
+  "start": 623.243,
+  "end": 629.005,
+  "speaker": "Unknown",
+  "en": "If you think about a lot of the advances with reasoning models, a lot of it is scaling test and compute, right?",
+  "zh": "如果想想推理模型的很多进展，很多都是扩展测试时计算，对吧？"
+ },
+ {
+  "seg": 111,
+  "start": 629.025,
+  "end": 633.087,
+  "speaker": "Unknown",
+  "en": "And so being able to scale better along that axis will also matter.",
+  "zh": "所以能在这个轴上扩展得更好也会很重要。"
+ },
+ {
+  "seg": 112,
+  "start": 633.927,
+  "end": 641.95,
+  "speaker": "Unknown",
+  "en": "And even if you think about RL post-training, a lot of the bottleneck is generating rollouts, like letting the model explore,",
+  "zh": "甚至想想 RL 后训练，很多瓶颈在于生成 rollout,比如让模型去探索，"
+ },
+ {
+  "seg": 113,
+  "start": 643.3,
+  "end": 648.402,
+  "speaker": "Unknown",
+  "en": "And then scoring the trajectories and then improving the model based on the kind of things it finds.",
+  "zh": "然后给轨迹打分，再根据模型发现的东西来改进模型。"
+ },
+ {
+  "seg": 114,
+  "start": 648.482,
+  "end": 652.884,
+  "speaker": "Unknown",
+  "en": "And so inference is, again, a key bottleneck for RL post-training.",
+  "zh": "所以推理又是 RL 后训练的一个关键瓶颈。"
+ },
+ {
+  "seg": 115,
+  "start": 652.924,
+  "end": 659.646,
+  "speaker": "Unknown",
+  "en": "And so if you have a model that scales better at inference time, then automatically you're going to get better scaling during RL post-training.",
+  "zh": "所以如果你有一个推理时扩展性更好的模型，那么你在 RL 后训练时自然会获得更好的扩展性。"
+ },
+ {
+  "seg": 116,
+  "start": 660.186,
+  "end": 666.368,
+  "speaker": "Unknown",
+  "en": "And so that's why we decided to bet on a diffusion-based LLM because it's inherently more parallel.",
+  "zh": "所以这就是为什么我们决定押注基于扩散的 LLM,因为它天生更具并行性。"
+ },
+ {
+  "seg": 117,
+  "start": 667.109,
+  "end": 670.73,
+  "speaker": "Unknown",
+  "en": "And the better lesson is that the more parallel solution is the one that is eventually going to win.",
+  "zh": "更好的教训是，更具并行性的方案就是最终会胜出的那个。"
+ },
+ {
+  "seg": 118,
+  "start": 671.09,
+  "end": 679.878,
+  "speaker": "Unknown",
+  "en": "How did you think about applicability or what experiments did you run in terms of cracking the nut on discrete versus continuous modalities?",
+  "zh": "你如何看待适用性，或者你做了哪些实验来攻克离散与连续模态这个难题？"
+ },
+ {
+  "seg": 119,
+  "start": 679.898,
+  "end": 685.624,
+  "speaker": "Unknown",
+  "en": "Because I think people have also shaped the existing, you know, dominant paradigm through",
+  "zh": "因为我觉得人们也通过"
+ },
+ {
+  "seg": 120,
+  "start": 686.184,
+  "end": 692.269,
+  "speaker": "Unknown",
+  "en": "New tokenization efforts or methods to make video and voice work, for example.",
+  "zh": "新的分词工作或让视频和语音可行的方法塑造了现有的主导范式，比如说。"
+ },
+ {
+  "seg": 121,
+  "start": 695.192,
+  "end": 699.936,
+  "speaker": "Unknown",
+  "en": "You're not in the same token-oriented paradigm.",
+  "zh": "你并不在同样的面向 token 的范式里。"
+ },
+ {
+  "seg": 122,
+  "start": 699.976,
+  "end": 700.877,
+  "speaker": "Unknown",
+  "en": "How do you make it work here?",
+  "zh": "你在这里是怎么让它可行的？"
+ },
+ {
+  "seg": 123,
+  "start": 701.312,
+  "end": 712.923,
+  "speaker": "Unknown",
+  "en": "Yeah, so there was a lot of research that went into figuring out how to apply a technology that was inherently very tied to kind of like continuous structure in the data.",
+  "zh": "是的，我们做了大量研究来弄清楚如何应用一种天生与数据中连续结构紧密相关联的技术。"
+ },
+ {
+  "seg": 124,
+  "start": 713.444,
+  "end": 716.307,
+  "speaker": "Unknown",
+  "en": "So if you think about a diffusion model, it's learning how to denoise images.",
+  "zh": "如果想想扩散模型，它是在学习如何给图像去噪。"
+ },
+ {
+  "seg": 125,
+  "start": 716.627,
+  "end": 720.951,
+  "speaker": "Unknown",
+  "en": "And it kind of like makes sense for continuous data, because if you think about even two pixel colors,",
+  "zh": "这对连续数据来说是说得通的，因为即使想想两个像素颜色，"
+ },
+ {
+  "seg": 126,
+  "start": 721.972,
+  "end": 724.673,
+  "speaker": "Unknown",
+  "en": "You can kind of like interpolate between them and it will still make sense.",
+  "zh": "你可以在它们之间做插值，结果仍然说得通。"
+ },
+ {
+  "seg": 127,
+  "start": 724.973,
+  "end": 729.074,
+  "speaker": "Unknown",
+  "en": "But if you think about two words, there is not necessarily something in between them, right?",
+  "zh": "但如果想想两个词，它们之间不一定存在什么东西，对吧？"
+ },
+ {
+  "seg": 128,
+  "start": 729.114,
+  "end": 729.855,
+  "speaker": "Unknown",
+  "en": "It's all discrete.",
+  "zh": "一切都是离散的。"
+ },
+ {
+  "seg": 129,
+  "start": 729.915,
+  "end": 741.278,
+  "speaker": "Unknown",
+  "en": "And so it required a lot of R&D and new science that had to be developed to figure out how to extend those kinds of ideas to discrete spaces.",
+  "zh": "所以这需要大量的研发和必须开发的新科学，来弄清楚如何把这些想法扩展到离散空间。"
+ },
+ {
+  "seg": 130,
+  "start": 741.318,
+  "end": 743.219,
+  "speaker": "Unknown",
+  "en": "What can you claim about how well it works today?",
+  "zh": "关于它如今运行得怎么样，你能给出什么说法？"
+ },
+ {
+  "seg": 131,
+  "start": 743.654,
+  "end": 744.635,
+  "speaker": "Unknown",
+  "en": "We think it works really well.",
+  "zh": "我们认为它运行得非常好。"
+ },
+ {
+  "seg": 132,
+  "start": 745.015,
+  "end": 753.503,
+  "speaker": "Unknown",
+  "en": "So we've been able to train diffusion-based MLMs that are comparable in quality with the speed-optimized models for Frontier Labs.",
+  "zh": "我们已经能够训练出在质量上可与 Frontier Labs 速度优化模型相媲美的基于扩散的 MLM。"
+ },
+ {
+  "seg": 133,
+  "start": 753.943,
+  "end": 765.012,
+  "speaker": "Unknown",
+  "en": "So our Mercury models are on par with the Haiku models, Flash models, Mini Nano models from OpenAI, if you look at benchmarks, while being significantly faster.",
+  "zh": "我们的 Mercury 模型与 Haiku 模型、Flash 模型、OpenAI 的 Mini Nano 模型相当，看基准测试的话，同时速度快得多。"
+ },
+ {
+  "seg": 134,
+  "start": 765.888,
+  "end": 773.7,
+  "speaker": "Unknown",
+  "en": "So we've crossed, I think, we went from pure research prototypes to things that are actually used.",
+  "zh": "所以我想我们已经跨越了，从纯粹的研究原型走到了真正被使用的东西。"
+ },
+ {
+  "seg": 135,
+  "start": 774.02,
+  "end": 776.223,
+  "speaker": "Unknown",
+  "en": "Like we are serving these models in production today.",
+  "zh": "比如我们今天就在生产环境中服务这些模型。"
+ },
+ {
+  "seg": 136,
+  "start": 776.684,
+  "end": 780.67,
+  "speaker": "Unknown",
+  "en": "We did all the work of figuring out how to even just build a serving engine.",
+  "zh": "我们做了所有的工作，弄清楚哪怕只是构建一个服务引擎该怎么做。"
+ },
+ {
+  "seg": 137,
+  "start": 781.11,
+  "end": 785.152,
+  "speaker": "Unknown",
+  "en": "You cannot run these diffusion-based LLMs on VLLM or SGLang.",
+  "zh": "你没法在 VLLM 或 SGLang 上运行这些基于扩散的 LLM。"
+ },
+ {
+  "seg": 138,
+  "start": 785.212,
+  "end": 791.375,
+  "speaker": "Unknown",
+  "en": "We had to build our own serving engine, and we can handle a lot of the complexity of real production workloads.",
+  "zh": "我们必须构建自己的服务引擎，而且我们能处理真实生产工作负载的很多复杂性。"
+ },
+ {
+  "seg": 139,
+  "start": 792.856,
+  "end": 800.38,
+  "speaker": "Unknown",
+  "en": "And we've solved all these challenges, and we can deliver this kind of new experience end-to-end to real customers today.",
+  "zh": "我们已经解决了所有这些挑战，今天就能把这种新体验端到端地交付给真实客户。"
+ },
+ {
+  "seg": 140,
+  "start": 800.61,
+  "end": 809.756,
+  "speaker": "Unknown",
+  "en": "Actually, a great time to just talk about where Inception is as a company, like how many people, what are you guys actually serving, sort of state of research, yeah.",
+  "zh": "其实，现在正是聊聊 Inception 作为一家公司所处状态的好时机，比如多少人，你们实际在服务什么，研究现状如何，是的。"
+ },
+ {
+  "seg": 141,
+  "start": 809.976,
+  "end": 821.944,
+  "speaker": "Unknown",
+  "en": "Yeah, so we are about two years old, around 50 people, spending a lot of time still on R&D, kind of like figuring out what's the right way to train these models, how to accelerate inference.",
+  "zh": "是的，我们大约成立两年，50 人左右，仍然花大量时间在研发上，比如弄清楚训练这些模型的正确方式、如何加速推理。"
+ },
+ {
+  "seg": 142,
+  "start": 822.124,
+  "end": 827.288,
+  "speaker": "Unknown",
+  "en": "Like, it's not obvious how you, even if you think about an autoregressive model, it's pretty clear that there is not a lot of",
+  "zh": "比如，这并不显然，即使想想自回归模型，很明显没有太多"
+ },
+ {
+  "seg": 143,
+  "start": 827.668,
+  "end": 830.95,
+  "speaker": "Unknown",
+  "en": "Things you can do there in terms of like, okay, you generate one token at a time and that's it.",
+  "zh": "可以做的事情，就是说，好吧，你一次生成一个 token,就这样。"
+ },
+ {
+  "seg": 144,
+  "start": 831.77,
+  "end": 839.694,
+  "speaker": "Unknown",
+  "en": "In a diffusion-based model, we know that there is a lot of different possibilities for trading compute for quality at inference time.",
+  "zh": "而在基于扩散的模型中，我们知道在推理时有很多不同的可能性来用计算换质量。"
+ },
+ {
+  "seg": 145,
+  "start": 839.894,
+  "end": 855.982,
+  "speaker": "Unknown",
+  "en": "Like even if you think about image diffusion models or video diffusion models, there is a lot of techniques that you can use to kind of like accelerate sampling of distillation or like fancy differential equation solving techniques that allow you to sample very, very quickly from these models.",
+  "zh": "比如即使想想图像扩散模型或视频扩散模型，有很多技术可以用来加速采样，比如蒸馏或者花哨的微分方程求解技术，能让你非常非常快地从这些模型中采样。"
+ },
+ {
+  "seg": 146,
+  "start": 856.642,
+  "end": 867.17,
+  "speaker": "Unknown",
+  "en": "And so there is a lot of research on the training, on the inference, and then engineering, like just like thinking about data mixes, evals, RL post-training infrastructure.",
+  "zh": "所以在训练、推理上都有大量研究，然后是工程，比如思考数据配比、评测、RL 后训练基础设施。"
+ },
+ {
+  "seg": 147,
+  "start": 867.19,
+  "end": 873.755,
+  "speaker": "Unknown",
+  "en": "Like there is a lot of work that needs to happen to figure out how to build the recipes that work for this new model.",
+  "zh": "要弄清楚如何构建适用于这种新模型的有效配方，还有很多工作要做。"
+ },
+ {
+  "seg": 148,
+  "start": 874.275,
+  "end": 876.796,
+  "speaker": "Unknown",
+  "en": "And we try to leverage existing things as much as possible.",
+  "zh": "我们尽量利用已有的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 877.156,
+  "end": 884.578,
+  "speaker": "Unknown",
+  "en": "For example, it's still a transformer-based model, so you don't have to throw away a lot of the work that has been done on good architectures.",
+  "zh": "比如，它仍然是基于 Transformer 的模型，所以你不必扔掉大量在优秀架构上已完成的工作。"
+ },
+ {
+  "seg": 150,
+  "start": 885.278,
+  "end": 886.258,
+  "speaker": "Unknown",
+  "en": "We still use attention.",
+  "zh": "我们仍然使用注意力机制。"
+ },
+ {
+  "seg": 151,
+  "start": 887.438,
+  "end": 893.06,
+  "speaker": "Unknown",
+  "en": "We still use a lot of the public datasets that people have created and evils and benchmarks.",
+  "zh": "我们仍然使用人们创建的很多公开数据集、evals 和基准测试。"
+ },
+ {
+  "seg": 152,
+  "start": 893.66,
+  "end": 895.501,
+  "speaker": "Unknown",
+  "en": "So, you know, we're a startup.",
+  "zh": "所以，你知道，我们是一家初创公司。"
+ },
+ {
+  "seg": 153,
+  "start": 895.521,
+  "end": 896.341,
+  "speaker": "Unknown",
+  "en": "We try to be scrappy.",
+  "zh": "我们尽量精打细算。"
+ },
+ {
+  "seg": 154,
+  "start": 896.361,
+  "end": 905.724,
+  "speaker": "Unknown",
+  "en": "We try to use existing things as much as possible and kind of like focus on the aspects where we can have the highest impact and then where we can be the most differentiated.",
+  "zh": "我们尽量尽可能多地使用现成的东西，把精力集中在我们能产生最高影响、以及我们最能形成差异化的方面。"
+ },
+ {
+  "seg": 155,
+  "start": 906.284,
+  "end": 907.225,
+  "speaker": "Unknown",
+  "en": "And right now it's speed.",
+  "zh": "现在这个方面是速度。"
+ },
+ {
+  "seg": 156,
+  "start": 907.765,
+  "end": 908.605,
+  "speaker": "Unknown",
+  "en": "In the future, who knows?",
+  "zh": "未来呢，谁知道？"
+ },
+ {
+  "seg": 157,
+  "start": 908.685,
+  "end": 915.227,
+  "speaker": "Unknown",
+  "en": "Like it's possible that a diffusion-based language model will be maybe significantly more intelligent than an autoregressive one.",
+  "zh": "比如，有可能基于扩散的语言模型会比自回归模型聪明得多。"
+ },
+ {
+  "seg": 158,
+  "start": 915.288,
+  "end": 916.288,
+  "speaker": "Unknown",
+  "en": "Like nobody knows.",
+  "zh": "没人知道。"
+ },
+ {
+  "seg": 159,
+  "start": 916.308,
+  "end": 921.39,
+  "speaker": "Unknown",
+  "en": "That's why I think this is very exciting because we're developing these really powerful AI systems.",
+  "zh": "所以我觉得这非常令人兴奋，因为我们正在开发这些非常强大的 AI 系统。"
+ },
+ {
+  "seg": 160,
+  "start": 922.73,
+  "end": 923.61,
+  "speaker": "Unknown",
+  "en": "It's all very fresh.",
+  "zh": "一切都很新鲜。"
+ },
+ {
+  "seg": 161,
+  "start": 923.65,
+  "end": 924.551,
+  "speaker": "Unknown",
+  "en": "It's all very new.",
+  "zh": "一切都很新。"
+ },
+ {
+  "seg": 162,
+  "start": 925.931,
+  "end": 929.172,
+  "speaker": "Unknown",
+  "en": "I doubt we've discovered the best way of building these systems.",
+  "zh": "我怀疑我们还没有发现构建这些系统的最佳方式。"
+ },
+ {
+  "seg": 163,
+  "start": 929.612,
+  "end": 930.772,
+  "speaker": "Unknown",
+  "en": "There's got to be alternatives.",
+  "zh": "肯定存在替代方案。"
+ },
+ {
+  "seg": 164,
+  "start": 930.793,
+  "end": 933.173,
+  "speaker": "Unknown",
+  "en": "There's got to be other ways of building these models.",
+  "zh": "肯定存在构建这些模型的其他方式。"
+ },
+ {
+  "seg": 165,
+  "start": 933.273,
+  "end": 936.714,
+  "speaker": "Unknown",
+  "en": "And eventually, yeah, efficiency will be very important.",
+  "zh": "而且最终，是的，效率会非常重要。"
+ },
+ {
+  "seg": 166,
+  "start": 936.794,
+  "end": 940.756,
+  "speaker": "Unknown",
+  "en": "Like if you think about the AI factory, like how is that going to work?",
+  "zh": "比如你想想 AI 工厂，那会是怎么运作的？"
+ },
+ {
+  "seg": 167,
+  "start": 940.816,
+  "end": 942.036,
+  "speaker": "Unknown",
+  "en": "I think nobody really knows.",
+  "zh": "我觉得没有人真正知道。"
+ },
+ {
+  "seg": 168,
+  "start": 942.076,
+  "end": 948.778,
+  "speaker": "Unknown",
+  "en": "And just being able to play in that space and thinking about alternative ways of creating intelligence, I think it's exciting.",
+  "zh": "能够在那个领域里探索，思考创造智能的其他方式，我觉得这很令人兴奋。"
+ },
+ {
+  "seg": 169,
+  "start": 949.06,
+  "end": 949.54,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全同意。"
+ },
+ {
+  "seg": 170,
+  "start": 949.601,
+  "end": 968.757,
+  "speaker": "Unknown",
+  "en": "And I also think that in a increasingly like fundamentally compute and supply constrained environment, the, you know, for some, I wouldn't say that there wasn't very focused research on efficiency of models, but it was a second order.",
+  "zh": "而且我也认为，在一个日益从根本上受算力和供应限制的环境里，你知道，对某些人来说——我不会说之前没有对模型效率非常专注的研究，但它是第二位的。"
+ },
+ {
+  "seg": 171,
+  "start": 970.739,
+  "end": 979.366,
+  "speaker": "Unknown",
+  "en": "Sort of consideration for many of the industrial research efforts versus like pure capability scaling on what we've got.",
+  "zh": "相对于纯粹的能力扩展——即在我们现有方法上的能力扩展——来说，是次要的考量。"
+ },
+ {
+  "seg": 172,
+  "start": 979.686,
+  "end": 980.146,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 173,
+  "start": 980.206,
+  "end": 981.227,
+  "speaker": "Unknown",
+  "en": "And new methods in that.",
+  "zh": "以及这方面的新方法。"
+ },
+ {
+  "seg": 174,
+  "start": 981.287,
+  "end": 992.075,
+  "speaker": "Unknown",
+  "en": "But I just think if you fundamentally believe that we can use all of the power we have and there will be economic reasons to do so, then I think the focus on efficiency is going to go dramatically up.",
+  "zh": "但我只是认为，如果你从根本上相信我们能够用上我们拥有的全部电力，而且会有经济上的理由这么做，那么对效率的关注将会急剧上升。"
+ },
+ {
+  "seg": 175,
+  "start": 992.395,
+  "end": 992.876,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 176,
+  "start": 993.276,
+  "end": 995.378,
+  "speaker": "Unknown",
+  "en": "You know, I think many people now argue like.",
+  "zh": "你知道，我认为现在很多人都在争论，比如——"
+ },
+ {
+  "seg": 177,
+  "start": 996.038,
+  "end": 1006.023,
+  "speaker": "Unknown",
+  "en": "One of the most important decisions for a company in the AI space is how do we use the power we have between training and the most valuable use cases for any watt.",
+  "zh": "AI 领域一家公司最重要的决策之一，就是如何在训练和每瓦最高价值的用例之间分配我们所拥有的电力。"
+ },
+ {
+  "seg": 178,
+  "start": 1006.243,
+  "end": 1012.926,
+  "speaker": "Unknown",
+  "en": "On that topic, here in September of 26, where does speed win?",
+  "zh": "就这个话题，在 26 年 9 月的现在，速度在哪里取胜？"
+ },
+ {
+  "seg": 179,
+  "start": 1012.966,
+  "end": 1014.647,
+  "speaker": "Unknown",
+  "en": "Where do people care enough about this already?",
+  "zh": "哪里的人已经足够在意这一点了？"
+ },
+ {
+  "seg": 180,
+  "start": 1015.035,
+  "end": 1018.238,
+  "speaker": "Unknown",
+  "en": "Yeah, it is basically applications where latency matters.",
+  "zh": "嗯，基本上是对延迟敏感的应用。"
+ },
+ {
+  "seg": 181,
+  "start": 1018.278,
+  "end": 1030.15,
+  "speaker": "Unknown",
+  "en": "I mean, generally speaking, I think everyone cares about speed in the sense that if you can give me the same quality but faster, people will always pick the faster solution.",
+  "zh": "我的意思是，总的来说，我认为每个人都在意速度，意思是如果质量相同但更快，人们总是会选更快的方案。"
+ },
+ {
+  "seg": 182,
+  "start": 1031.512,
+  "end": 1036.476,
+  "speaker": "Unknown",
+  "en": "We're seeing it with this like faster versions of even the models from Frontier Labs.",
+  "zh": "我们从 Frontier Labs 的模型的更快版本中也能看到这一点。"
+ },
+ {
+  "seg": 183,
+  "start": 1036.516,
+  "end": 1040.879,
+  "speaker": "Unknown",
+  "en": "People are willing to pay more to get access to faster models, right?",
+  "zh": "人们愿意付更多钱来获得更快的模型，对吧？"
+ },
+ {
+  "seg": 184,
+  "start": 1040.98,
+  "end": 1044.042,
+  "speaker": "Unknown",
+  "en": "And I think once you get used to a fast model, it's hard to go back.",
+  "zh": "而且我觉得一旦你习惯了快的模型，就很难回去了。"
+ },
+ {
+  "seg": 185,
+  "start": 1044.122,
+  "end": 1045.383,
+  "speaker": "Unknown",
+  "en": "It's kind of like broadband, right?",
+  "zh": "有点像宽带，对吧？"
+ },
+ {
+  "seg": 186,
+  "start": 1045.443,
+  "end": 1047.285,
+  "speaker": "Unknown",
+  "en": "And then it gets faster and faster.",
+  "zh": "而且它变得越来越快。"
+ },
+ {
+  "seg": 187,
+  "start": 1047.325,
+  "end": 1052.449,
+  "speaker": "Unknown",
+  "en": "And if you were able to try, people cannot go back once you get the fast model.",
+  "zh": "如果你能够尝试过，人们一旦用过快的模型就回不去了。"
+ },
+ {
+  "seg": 188,
+  "start": 1052.91,
+  "end": 1057.353,
+  "speaker": "Unknown",
+  "en": "Are there customers that you can talk about publicly that care about this today?",
+  "zh": "有没有你可以在公开场合谈论、而且今天就在意这一点的客户？"
+ },
+ {
+  "seg": 189,
+  "start": 1057.634,
+  "end": 1059.075,
+  "speaker": "Unknown",
+  "en": "There are a few that we can mention.",
+  "zh": "有几个我们可以提到的。"
+ },
+ {
+  "seg": 190,
+  "start": 1059.675,
+  "end": 1063.438,
+  "speaker": "Unknown",
+  "en": "Like in the voice space, for example, OpenCall is an example.",
+  "zh": "比如在语音领域，OpenCall 就是一个例子。"
+ },
+ {
+  "seg": 191,
+  "start": 1064.379,
+  "end": 1067.761,
+  "speaker": "Unknown",
+  "en": "They are building like voice agents.",
+  "zh": "他们在做语音智能体。"
+ },
+ {
+  "seg": 192,
+  "start": 1067.821,
+  "end": 1068.542,
+  "speaker": "Unknown",
+  "en": "Speed, of course.",
+  "zh": "速度当然重要。"
+ },
+ {
+  "seg": 193,
+  "start": 1069.222,
+  "end": 1075.107,
+  "speaker": "Unknown",
+  "en": "The pipeline is like you have an ASR model, you have an LLM that it's kind of like doing all the tool calls and figuring out what to say next.",
+  "zh": "他们的流水线是：你有一个 ASR 模型，有一个 LLM，它基本上在做所有的工具调用、 figuring 出接下来该说什么。"
+ },
+ {
+  "seg": 194,
+  "start": 1076.067,
+  "end": 1079.77,
+  "speaker": "Unknown",
+  "en": "It has to be a reasoning LLM typically to have the highest level of quality.",
+  "zh": "它通常得是一个推理型 LLM 才能达到最高水平的质量。"
+ },
+ {
+  "seg": 195,
+  "start": 1080.35,
+  "end": 1083.333,
+  "speaker": "Unknown",
+  "en": "And then there is a text-to-speech component at the end.",
+  "zh": "最后还有一个文本转语音的组件。"
+ },
+ {
+  "seg": 196,
+  "start": 1084.734,
+  "end": 1086.015,
+  "speaker": "Unknown",
+  "en": "Speed matters a lot to them.",
+  "zh": "速度对他们来说非常重要。"
+ },
+ {
+  "seg": 197,
+  "start": 1086.835,
+  "end": 1090.916,
+  "speaker": "Unknown",
+  "en": "They were previously serving their LLMs on Cerebras.",
+  "zh": "他们之前是把 LLM 部署在 Cerebras 上的。"
+ },
+ {
+  "seg": 198,
+  "start": 1091.316,
+  "end": 1098.319,
+  "speaker": "Unknown",
+  "en": "So they were using custom chips to get to the kind of speed that they need to deliver the best experience to their customers.",
+  "zh": "所以他们用定制芯片来获得那种速度，以便给客户交付最好的体验。"
+ },
+ {
+  "seg": 199,
+  "start": 1099.039,
+  "end": 1108.542,
+  "speaker": "Unknown",
+  "en": "And then they switched over to our diffusion-based LLMs, because they can essentially get the same speed as what you would get if you were to run an autoregressive model on custom hardware.",
+  "zh": "然后他们切换到了我们基于扩散的 LLM，因为他们基本上能获得和把自回归模型跑在定制硬件上一样的速度。"
+ },
+ {
+  "seg": 200,
+  "start": 1109.828,
+  "end": 1121.417,
+  "speaker": "Unknown",
+  "en": "If you have a diffusion-based LLM that it's built to be parallel, it's accelerating at the software level, then you can get the same speed on NVIDIA GPUs, which means much more availability.",
+  "zh": "如果你有一个基于扩散的 LLM,它天生是为并行而构建的，在软件层面进行加速，那么你就可以在 NVIDIA GPU 上获得同样的速度，这意味着更高的可用性。"
+ },
+ {
+  "seg": 201,
+  "start": 1121.437,
+  "end": 1128.442,
+  "speaker": "Unknown",
+  "en": "I mean, GPUs are scarce, but there's more of that than custom chips and lower costs, higher quality.",
+  "zh": "我是说，GPU 很稀缺，但比定制芯片要多，而且成本更低、质量更高。"
+ },
+ {
+  "seg": 202,
+  "start": 1128.782,
+  "end": 1130.944,
+  "speaker": "Unknown",
+  "en": "So that's an example in the voice space.",
+  "zh": "所以这是语音领域的一个例子。"
+ },
+ {
+  "seg": 203,
+  "start": 1131.115,
+  "end": 1146.967,
+  "speaker": "Unknown",
+  "en": "Yeah, I was actually going to ask you how you think this interacts with the hardware landscape as well, given we've seen enough now demand from use cases who are like, yes, I want a big expensive chip with a lot of SRAM and people will pay for the outputs of that.",
+  "zh": "是的，我其实正想问你，你认为这与硬件格局是如何相互作用的，因为我们现在看到了足够多的来自用例的需求，他们就像：是的，我想要一个带大量 SRAM 的大而昂贵的芯片，而且人们会为它的输出付费。"
+ },
+ {
+  "seg": 204,
+  "start": 1147.887,
+  "end": 1149.068,
+  "speaker": "Unknown",
+  "en": "In coding and other use cases.",
+  "zh": "在编程和其他用例中。"
+ },
+ {
+  "seg": 205,
+  "start": 1149.108,
+  "end": 1149.929,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure, for sure.",
+  "zh": "是的，当然，当然。"
+ },
+ {
+  "seg": 206,
+  "start": 1150.229,
+  "end": 1153.311,
+  "speaker": "Unknown",
+  "en": "And I think hardware is one way to accelerate things.",
+  "zh": "而且我认为硬件是加速事物的一种方式。"
+ },
+ {
+  "seg": 207,
+  "start": 1153.911,
+  "end": 1156.934,
+  "speaker": "Unknown",
+  "en": "And the good thing about- And software might be better if we can use the existing hardware.",
+  "zh": "而关于的好处是——如果我们能利用现有硬件，软件可能是更好的方式。"
+ },
+ {
+  "seg": 208,
+  "start": 1156.974,
+  "end": 1157.334,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 209,
+  "start": 1157.474,
+  "end": 1158.735,
+  "speaker": "Unknown",
+  "en": "And especially they are complementary.",
+  "zh": "尤其它们是互补的。"
+ },
+ {
+  "seg": 210,
+  "start": 1158.775,
+  "end": 1167.601,
+  "speaker": "Unknown",
+  "en": "That's the exciting piece, is that to some extent, the gains that you get from the software, they are multiplicative with the gains you get from the hardware.",
+  "zh": "令人兴奋的地方在于，在某种程度上，你从软件中获得的收益，与你从硬件中获得的收益是相乘的。"
+ },
+ {
+  "seg": 211,
+  "start": 1167.901,
+  "end": 1173.745,
+  "speaker": "Unknown",
+  "en": "And maybe someday people develop a system, you know, hardware that fits even better the models that you're building.",
+  "zh": "也许有一天，人们会开发出一个系统，你知道的，更适合你正在构建的模型的硬件。"
+ },
+ {
+  "seg": 212,
+  "start": 1173.765,
+  "end": 1174.106,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 213,
+  "start": 1174.266,
+  "end": 1174.666,
+  "speaker": "Unknown",
+  "en": "For sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 214,
+  "start": 1174.866,
+  "end": 1175.066,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 215,
+  "start": 1175.206,
+  "end": 1175.406,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 216,
+  "start": 1175.547,
+  "end": 1192.599,
+  "speaker": "Unknown",
+  "en": "If we just like zoom out to the, you know, inception in the broader industry, I think there is a vein of concern, and correct me if I'm wrong, that it's very hard to invest in new architectures today because some",
+  "zh": "如果我们放大到，你知道的，整个行业更宏观的初创阶段，我认为存在一种担忧，如果我说得不对请纠正我，就是如今投资新架构非常困难，因为某些——"
+ },
+ {
+  "seg": 217,
+  "start": 1193.239,
+  "end": 1202.243,
+  "speaker": "Unknown",
+  "en": "You know, if there are advances in architecture or methods, it will simply be absorbed by large players with the resources to scale compute.",
+  "zh": "你知道，如果架构或方法上有进展，它会被拥有算力规模资源的大玩家直接吸收掉。"
+ },
+ {
+  "seg": 218,
+  "start": 1202.303,
+  "end": 1206.345,
+  "speaker": "Unknown",
+  "en": "Talk to me about how you think about going and competing as David in this situation.",
+  "zh": "跟我谈谈，在这种情况下，作为 David,你是如何看待去竞争的。"
+ },
+ {
+  "seg": 219,
+  "start": 1206.565,
+  "end": 1210.666,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a very valid point and something that it's also like top of mind for us.",
+  "zh": "是的，这是一个非常合理的观点，也是我们非常关心的一个问题。"
+ },
+ {
+  "seg": 220,
+  "start": 1211.847,
+  "end": 1214.128,
+  "speaker": "Unknown",
+  "en": "I think initially for us, for sure, like the mode...",
+  "zh": "我认为最初对我们来说，当然，护城河……"
+ },
+ {
+  "seg": 221,
+  "start": 1214.468,
+  "end": 1222.711,
+  "speaker": "Unknown",
+  "en": "is sort of like the IP, the trade secrets, like the ideas that we and our researchers have to build these models and make them better.",
+  "zh": "某种程度上就是 IP、商业机密，就像我们和我们的研究人员拥有的构建这些模型并让它们变得更好的想法。"
+ },
+ {
+  "seg": 222,
+  "start": 1224.371,
+  "end": 1230.333,
+  "speaker": "Unknown",
+  "en": "As we mature as a company, and one of the reasons we are not just doing pure research, we're also like, you know,",
+  "zh": "随着我们作为一家公司逐渐成熟，这也是我们不只是做纯研究的原因之一，我们也是，你知道的，"
+ },
+ {
+  "seg": 223,
+  "start": 1231.193,
+  "end": 1247.912,
+  "speaker": "Unknown",
+  "en": "We've developed a product and we have real customers and we are getting feedback on the models from the real world is that by doing that, we are also developing components that are also very important to deploy these models, for example, like a serving engine.",
+  "zh": "我们开发了一个产品，我们有真实的客户，我们从真实世界获得对模型的反馈，通过这样做，我们也开发了对部署这些模型非常重要的组件，比如说，一个推理服务引擎。"
+ },
+ {
+  "seg": 224,
+  "start": 1249.432,
+  "end": 1252.554,
+  "speaker": "Unknown",
+  "en": "If you don't have the serving engine, you can't really serve these models in production.",
+  "zh": "如果你没有推理服务引擎，你就无法真正在生产环境中服务这些模型。"
+ },
+ {
+  "seg": 225,
+  "start": 1252.734,
+  "end": 1262.878,
+  "speaker": "Unknown",
+  "en": "And so by forcing ourselves from the very beginning to go out and deploy something end to end, we're learning a lot about how to serve these models and how to build",
+  "zh": "所以通过从一开始就强迫自己走出去部署一个端到端的东西，我们学到了很多关于如何服务这些模型以及如何构建"
+ },
+ {
+  "seg": 226,
+  "start": 1264.119,
+  "end": 1268.084,
+  "speaker": "Unknown",
+  "en": "Software that it's kind of like needed to run these models.",
+  "zh": "运行这些模型所需的软件。"
+ },
+ {
+  "seg": 227,
+  "start": 1268.445,
+  "end": 1270.508,
+  "speaker": "Unknown",
+  "en": "And that again becomes IP.",
+  "zh": "而这又成为了 IP。"
+ },
+ {
+  "seg": 228,
+  "start": 1270.568,
+  "end": 1279.5,
+  "speaker": "Unknown",
+  "en": "Like even if you train the diffusion-based LLM, if you don't have the serving engine, if you don't have the VLLM equivalent to serve it, you're still stuck and you still cannot use it.",
+  "zh": "比如即使你训练了基于扩散的 LLM,如果你没有推理服务引擎，如果你没有相当于 VLLM 的东西去服务它，你仍然会被卡住，仍然无法使用它。"
+ },
+ {
+  "seg": 229,
+  "start": 1281.053,
+  "end": 1286.916,
+  "speaker": "Unknown",
+  "en": "Along the same lines, we are working with real customers and we're getting feedback on the models.",
+  "zh": "沿着同样的思路，我们与真实客户合作，并获得对模型的反馈。"
+ },
+ {
+  "seg": 230,
+  "start": 1286.936,
+  "end": 1288.496,
+  "speaker": "Unknown",
+  "en": "We figure out what works, what doesn't.",
+  "zh": "我们弄清楚什么有效，什么无效。"
+ },
+ {
+  "seg": 231,
+  "start": 1288.756,
+  "end": 1291.217,
+  "speaker": "Unknown",
+  "en": "We collect data sometimes from them.",
+  "zh": "我们有时从他们那里收集数据。"
+ },
+ {
+  "seg": 232,
+  "start": 1291.457,
+  "end": 1294.259,
+  "speaker": "Unknown",
+  "en": "We create evils based on what they're seeing.",
+  "zh": "我们根据他们所看到的情况创建评测集。"
+ },
+ {
+  "seg": 233,
+  "start": 1294.279,
+  "end": 1302.242,
+  "speaker": "Unknown",
+  "en": "And so that, again, becomes part of the technical mode because, you know, of course, those things are a little bit harder to replicate.",
+  "zh": "所以这又成为了技术护城河的一部分，因为，你知道的，当然，这些东西要更难复制一些。"
+ },
+ {
+  "seg": 234,
+  "start": 1302.568,
+  "end": 1320.735,
+  "speaker": "Unknown",
+  "en": "You can tell me if this doesn't make sense as a question to ask technically, but one of the things that diffusion models benefit from structurally in images or video generation is, you know, you're replicating something where there should be some consistent structure in the world.",
+  "zh": "你可以告诉我这在技术上作为问题是否讲得通，但扩散模型在图像或视频生成中从结构上获益的原因之一是，你知道的，你在复刻某种在现实世界中应当存在一致结构的东西。"
+ },
+ {
+  "seg": 235,
+  "start": 1321.735,
+  "end": 1322.836,
+  "speaker": "Unknown",
+  "en": "Voice as well, right?",
+  "zh": "语音也是，对吧？"
+ },
+ {
+  "seg": 236,
+  "start": 1322.856,
+  "end": 1325.177,
+  "speaker": "Unknown",
+  "en": "It is whatever is really possible and most likely.",
+  "zh": "它是任何真正可能且最可能的东西。"
+ },
+ {
+  "seg": 237,
+  "start": 1326.337,
+  "end": 1332.419,
+  "speaker": "Unknown",
+  "en": "There are some of the fields where AI has been most valuable to date.",
+  "zh": "有一些领域是 AI 迄今为止最有价值的领域。"
+ },
+ {
+  "seg": 238,
+  "start": 1333.059,
+  "end": 1342.082,
+  "speaker": "Unknown",
+  "en": "I'd say a lot of the input data you use to train, like code data, for example, it's very messy, right?",
+  "zh": "我想说你用来训练的很多输入数据，比如代码数据，它非常杂乱，对吧？"
+ },
+ {
+  "seg": 239,
+  "start": 1342.242,
+  "end": 1347.183,
+  "speaker": "Unknown",
+  "en": "And one could argue that a lot of it doesn't actually have the correct real structure you're looking for.",
+  "zh": "而且人们可以争论说，其中很多实际上并不具备你所寻找的正确的真实结构。"
+ },
+ {
+  "seg": 240,
+  "start": 1347.583,
+  "end": 1353.385,
+  "speaker": "Unknown",
+  "en": "How do you think about that when it's human-generated input data versus images, video, voice?",
+  "zh": "当这是人类生成的输入数据，对比图像、视频、语音时，你是怎么看待这个问题的？"
+ },
+ {
+  "seg": 241,
+  "start": 1353.803,
+  "end": 1354.904,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a good question.",
+  "zh": "是的，这是个好问题。"
+ },
+ {
+  "seg": 242,
+  "start": 1354.944,
+  "end": 1370.352,
+  "speaker": "Unknown",
+  "en": "And fundamentally, if you think about whenever you train a generative model, what you're doing is, whether it's an autoregressive model or to some extent even a diffusion model, is you are trying to identify structure in the data by essentially building a compression scheme.",
+  "zh": "从根本上说，如果你思考一下，每当你训练一个生成式模型时，你所做的，无论是自回归模型还是某种程度上甚至是扩散模型，都是你试图通过本质上构建一个压缩方案来识别数据中的结构。"
+ },
+ {
+  "seg": 243,
+  "start": 1370.752,
+  "end": 1379.836,
+  "speaker": "Unknown",
+  "en": "That might not be obvious, but whenever you train these models, you're effectively trying to identify common structure by trying to find an efficient way of compressing the data.",
+  "zh": "这可能不明显，但每当你训练这些模型时，你实际上是在试图通过找到一种压缩数据的高效方式来识别共同结构。"
+ },
+ {
+  "seg": 244,
+  "start": 1380.016,
+  "end": 1388.16,
+  "speaker": "Unknown",
+  "en": "And so the more you can compress the data, the more structure, the more patterns you're identifying, and that's how these models work, which is the amazing thing.",
+  "zh": "所以你能把数据压缩得越多，你识别出的结构、识别出的模式就越多，这就是这些模型的工作方式，这是令人惊叹的地方。"
+ },
+ {
+  "seg": 245,
+  "start": 1388.18,
+  "end": 1394.323,
+  "speaker": "Unknown",
+  "en": "It's just like by predicting the next word, you are learning something about the structure of the data.",
+  "zh": "就像通过预测下一个词，你就在学习关于数据结构的某些东西。"
+ },
+ {
+  "seg": 246,
+  "start": 1394.803,
+  "end": 1402.589,
+  "speaker": "Unknown",
+  "en": "And that's the same, whether you're using a diffusion model or you're using an autoregressive model, both methods are essentially trying to learn a compression scheme.",
+  "zh": "而这是一样的，无论你使用扩散模型还是使用自回归模型，两种方法本质上都是在试图学习一个压缩方案。"
+ },
+ {
+  "seg": 247,
+  "start": 1403.35,
+  "end": 1419.502,
+  "speaker": "Unknown",
+  "en": "And when I mentioned the original 2024 paper, when we showed that we are achieving parity with autoregressive models, the metric that we're using is basically perplexity, which is a notion of how much structure have you identified in the data.",
+  "zh": "当我提到 2024 年的那篇原始论文时，我们展示了我们达到了与自回归模型持平的水平，我们使用的指标基本上是困惑度，它是你识别出了数据中多少结构的一个度量。"
+ },
+ {
+  "seg": 248,
+  "start": 1420.227,
+  "end": 1430.276,
+  "speaker": "Unknown",
+  "en": "And so even though it might not seem obvious, we were actually able to identify at the GPT-2 scale the same amount of structure as an autoregressive model.",
+  "zh": "所以尽管可能看起来不明显，我们实际上能够在 GPT-2 的规模上识别出与自回归模型相同数量的结构。"
+ },
+ {
+  "seg": 249,
+  "start": 1430.536,
+  "end": 1441.886,
+  "speaker": "Unknown",
+  "en": "Yes, I think like that empirical result is there, but the intuition would be like, well, this, you know, code is not, the data set that you are working on is not like grounded in physics, right?",
+  "zh": "是的，我认为那个实证结果是在那里的，但直觉上会是：嗯，你知道的，代码并不是，你正在处理的数据集并不像是以物理学为基础的，对吧？"
+ },
+ {
+  "seg": 250,
+  "start": 1441.906,
+  "end": 1445.61,
+  "speaker": "Unknown",
+  "en": "There's a lot of noise in there and it sounds like that is, you believe that's a manageable problem.",
+  "zh": "里面有很多噪音，听起来你认为这是一个可以管理的问题。"
+ },
+ {
+  "seg": 251,
+  "start": 1445.91,
+  "end": 1448.651,
+  "speaker": "Unknown",
+  "en": "Yeah, there is noise in everything.",
+  "zh": "是的，凡事都有噪音。"
+ },
+ {
+  "seg": 252,
+  "start": 1448.971,
+  "end": 1461.395,
+  "speaker": "Unknown",
+  "en": "And so to the extent, you know, the numbers don't lie, to the extent that you are able to drive the perplexity down, then it means that you can actually build like a compression scheme that will get you that sort of like level of compression.",
+  "zh": "所以在某种程度上，你知道，数字不会说谎，只要你能够把困惑度降下来，那就意味着你实际上可以构建一种压缩方案，达到那种压缩水平。"
+ },
+ {
+  "seg": 253,
+  "start": 1461.435,
+  "end": 1465.977,
+  "speaker": "Unknown",
+  "en": "And so the structure must be there and the model must have been able to uncover it.",
+  "zh": "所以结构一定存在，而且模型一定能够把它发掘出来。"
+ },
+ {
+  "seg": 254,
+  "start": 1466.657,
+  "end": 1474.583,
+  "speaker": "Unknown",
+  "en": "And then it's more a question of an inductive bias, like, you know, is a transformer a better way of identifying those patterns or something else?",
+  "zh": "然后更多是归纳偏置的问题，比如说，Transformer 是不是识别那些模式的更好方式，还是其他东西？"
+ },
+ {
+  "seg": 255,
+  "start": 1475.103,
+  "end": 1480.187,
+  "speaker": "Unknown",
+  "en": "Is next token prediction the right modeling framework or is it more like denoising?",
+  "zh": "下一个 token 预测是正确的建模框架吗，还是更像是去噪？"
+ },
+ {
+  "seg": 256,
+  "start": 1480.828,
+  "end": 1486.852,
+  "speaker": "Unknown",
+  "en": "And that's very much an empirical question that I think at the moment we don't have tools even to understand.",
+  "zh": "这在很大程度上是一个经验性问题，我认为目前我们甚至没有工具去理解它。"
+ },
+ {
+  "seg": 257,
+  "start": 1487.092,
+  "end": 1491.574,
+  "speaker": "Unknown",
+  "en": "Can I ask a question just because you used a voice customer as the example here?",
+  "zh": "我能问个问题吗，就因为你在这里用了语音客户作为例子？"
+ },
+ {
+  "seg": 258,
+  "start": 1492.414,
+  "end": 1507.721,
+  "speaker": "Unknown",
+  "en": "One of the benefits that some people building these AI products have identified of having an LLM in the middle of this voice pipeline is they understand how to do alignment a little bit better there or controllability.",
+  "zh": "构建这些 AI 产品的一些人发现，在语音管道中间放置一个 LLM 的好处之一是，他们更懂得如何在那里做对齐或者说可控性。"
+ },
+ {
+  "seg": 259,
+  "start": 1507.741,
+  "end": 1511.403,
+  "speaker": "Unknown",
+  "en": "I imagine that has to look different for a diffusion-based model.",
+  "zh": "我想象这对于基于扩散的模型来说应该看起来不太一样。"
+ },
+ {
+  "seg": 260,
+  "start": 1511.423,
+  "end": 1512.103,
+  "speaker": "Unknown",
+  "en": "Can you talk about that?",
+  "zh": "你能谈谈这个吗？"
+ },
+ {
+  "seg": 261,
+  "start": 1512.243,
+  "end": 1514.965,
+  "speaker": "Unknown",
+  "en": "Yes, that's a key value proposition.",
+  "zh": "是的，这是一个关键的价值主张。"
+ },
+ {
+  "seg": 262,
+  "start": 1514.985,
+  "end": 1524.071,
+  "speaker": "Unknown",
+  "en": "And one of the things that they always look into is, you know, yeah, to what extent a lot of the value they provide is like the harness and making sure that the models indeed are doing the right thing.",
+  "zh": "而他们总是关注的事情之一就是，你知道，是的，他们提供的价值在多大程度上像是那个挽具，确保模型确实在做正确的事情。"
+ },
+ {
+  "seg": 263,
+  "start": 1524.572,
+  "end": 1529.935,
+  "speaker": "Unknown",
+  "en": "And the interesting thing about a diffusion-based LLM is that we've built everything to be backwards compatible.",
+  "zh": "而基于扩散的 LLM 有一点很有趣，就是我们把一切都构建成向后兼容的。"
+ },
+ {
+  "seg": 264,
+  "start": 1529.995,
+  "end": 1532.037,
+  "speaker": "Unknown",
+  "en": "So it's still like the API is the same.",
+  "zh": "所以它仍然像是 API 是一样的。"
+ },
+ {
+  "seg": 265,
+  "start": 1532.077,
+  "end": 1534.318,
+  "speaker": "Unknown",
+  "en": "It's still OpenAI compatible, text in, text out.",
+  "zh": "它仍然是 OpenAI 兼容的，文本进，文本出。"
+ },
+ {
+  "seg": 266,
+  "start": 1534.579,
+  "end": 1539.662,
+  "speaker": "Unknown",
+  "en": "And it so happens that the models we've trained are good at following instructions.",
+  "zh": "而且恰好我们训练的模型擅长遵循指令。"
+ },
+ {
+  "seg": 267,
+  "start": 1539.702,
+  "end": 1540.243,
+  "speaker": "Unknown",
+  "en": "They're good at",
+  "zh": "它们擅长"
+ },
+ {
+  "seg": 268,
+  "start": 1540.923,
+  "end": 1545.467,
+  "speaker": "Unknown",
+  "en": "Outputting, you know, if you're using JSONs, like structure outputs, they can handle all of those things.",
+  "zh": "输出，你知道，如果你在使用 JSON，比如结构化输出，它们能处理所有那些东西。"
+ },
+ {
+  "seg": 269,
+  "start": 1546.208,
+  "end": 1550.652,
+  "speaker": "Unknown",
+  "en": "And it was good enough, it was better, in fact, than the models they were using before.",
+  "zh": "而且它足够好，实际上比他们之前使用的模型更好。"
+ },
+ {
+  "seg": 270,
+  "start": 1551.132,
+  "end": 1557.338,
+  "speaker": "Unknown",
+  "en": "And so they are still able to provide the kind of level of service to their customers by using Mercury.",
+  "zh": "所以他们仍然能够通过使用 Mercury 为他们的客户提供那种水平的服务。"
+ },
+ {
+  "seg": 271,
+  "start": 1557.538,
+  "end": 1561.239,
+  "speaker": "Unknown",
+  "en": "Well, very simple if the interfaces are the same and you can just use your same stack, yeah.",
+  "zh": "嗯，很简单，如果接口是一样的，你就可以使用你同样的技术栈，是的。"
+ },
+ {
+  "seg": 272,
+  "start": 1561.319,
+  "end": 1570.583,
+  "speaker": "Unknown",
+  "en": "But it could be that I think that's actually a very interesting point is that we know that diffusion models are typically easier to control compared to autoregressive models.",
+  "zh": "但有可能——我认为这其实是一个很有意思的点——我们知道扩散模型通常比自回归模型更容易控制。"
+ },
+ {
+  "seg": 273,
+  "start": 1571.003,
+  "end": 1573.244,
+  "speaker": "Unknown",
+  "en": "And the reason is that if you think about an autoregressive model,",
+  "zh": "原因是，如果你想想一个自回归模型，"
+ },
+ {
+  "seg": 274,
+  "start": 1573.904,
+  "end": 1587.048,
+  "speaker": "Unknown",
+  "en": "You kind of like have to wait until you've generated the full object to know whether or not it satisfies, let's say a constraint or whether or not it's aligned or whether or not whatever, you know, it's on brand, whatever it is that the objective function that you care about.",
+  "zh": "你基本上必须等到你生成了完整的对象，才能知道它是否满足，比如说一个约束，或者它是否对齐，或者它是否，你知道，符合品牌，无论你关心的那个目标函数是什么。"
+ },
+ {
+  "seg": 275,
+  "start": 1587.088,
+  "end": 1596.671,
+  "speaker": "Unknown",
+  "en": "Maybe you're generating a molecule and you care about solubility and then you kind of like have to wait until you have the full object to be able to score it with some reward function.",
+  "zh": "也许你在生成一个分子，你在乎溶解度，那么你基本上必须等到你有了完整的对象，才能用某个奖励函数给它打分。"
+ },
+ {
+  "seg": 276,
+  "start": 1597.451,
+  "end": 1599.832,
+  "speaker": "Unknown",
+  "en": "But a diffusion model, it's more course-to-find generation.",
+  "zh": "但扩散模型是更粗糙到精细的生成。"
+ },
+ {
+  "seg": 277,
+  "start": 1600.292,
+  "end": 1606.774,
+  "speaker": "Unknown",
+  "en": "So from the very beginning, you know, kind of like, is this object the kind of thing I want or not?",
+  "zh": "所以从一开始，你就知道，这大概是不是我想要的那种东西？"
+ },
+ {
+  "seg": 278,
+  "start": 1607.255,
+  "end": 1613.317,
+  "speaker": "Unknown",
+  "en": "And you can steer the generation in the direction provided by an external reward function or some set of constraints.",
+  "zh": "而且你可以把生成引导到由外部奖励函数或某些约束所指定的方向上。"
+ },
+ {
+  "seg": 279,
+  "start": 1613.917,
+  "end": 1621.58,
+  "speaker": "Unknown",
+  "en": "And so there is a lot of evidence in the academic literature, at least, that diffusion models are easier to control and there are different ways of steering them.",
+  "zh": "所以至少在学术文献中有大量证据表明，扩散模型更容易控制，而且有不同的引导方式。"
+ },
+ {
+  "seg": 280,
+  "start": 1622.16,
+  "end": 1625.561,
+  "speaker": "Unknown",
+  "en": "That are just not possible with autoregressive models.",
+  "zh": "那些是自回归模型根本做不到的。"
+ },
+ {
+  "seg": 281,
+  "start": 1625.581,
+  "end": 1631.744,
+  "speaker": "Unknown",
+  "en": "So that would be a different interface for the model that maybe might not be even available for autoregressive models.",
+  "zh": "所以那会是模型的一种不同接口，也许是自回归模型甚至不具备的。"
+ },
+ {
+  "seg": 282,
+  "start": 1632.484,
+  "end": 1646.449,
+  "speaker": "Unknown",
+  "en": "I think that's something that we've been thinking a lot about, like what would be the right, what's the right product experience that we can build around the new capabilities that are just not provided by autoregressive models.",
+  "zh": "我认为这是我们一直在思考很多的东西，比如什么才是正确的，围绕那些自回归模型根本不具备的新能力，我们能构建什么样的正确产品体验。"
+ },
+ {
+  "seg": 283,
+  "start": 1646.855,
+  "end": 1655.778,
+  "speaker": "Unknown",
+  "en": "Are there capabilities that you imagine Inception's models having at scale that today's models don't have beyond performance?",
+  "zh": "有没有一些你想象中 Inception 的模型在规模化时会具备、而今天的模型不具备的能力，超越性能之外？"
+ },
+ {
+  "seg": 284,
+  "start": 1656.079,
+  "end": 1656.659,
+  "speaker": "Unknown",
+  "en": "Yeah, that's the thing.",
+  "zh": "是的，这正是关键。"
+ },
+ {
+  "seg": 285,
+  "start": 1656.679,
+  "end": 1657.64,
+  "speaker": "Unknown",
+  "en": "We don't know.",
+  "zh": "我们不知道。"
+ },
+ {
+  "seg": 286,
+  "start": 1658.32,
+  "end": 1659.04,
+  "speaker": "Unknown",
+  "en": "It's emergent.",
+  "zh": "它是涌现的。"
+ },
+ {
+  "seg": 287,
+  "start": 1659.441,
+  "end": 1660.601,
+  "speaker": "Unknown",
+  "en": "It's emergent, yes.",
+  "zh": "是的，它是涌现的。"
+ },
+ {
+  "seg": 288,
+  "start": 1660.861,
+  "end": 1664.643,
+  "speaker": "Unknown",
+  "en": "Like right now, the wedge speed, we know they are much faster.",
+  "zh": "就像现在，切入点是速度，我们知道它们快得多。"
+ },
+ {
+  "seg": 289,
+  "start": 1664.943,
+  "end": 1667.845,
+  "speaker": "Unknown",
+  "en": "That was the initial bet because that was easier to test.",
+  "zh": "那是最初的赌注，因为那个更容易测试。"
+ },
+ {
+  "seg": 290,
+  "start": 1668.445,
+  "end": 1674.348,
+  "speaker": "Unknown",
+  "en": "It's also easy to measure and it's obviously valuable.",
+  "zh": "它也容易衡量，而且显然有价值。"
+ },
+ {
+  "seg": 291,
+  "start": 1675.428,
+  "end": 1680.751,
+  "speaker": "Unknown",
+  "en": "But that's why I find it so exciting is that as we learn more about how to train these models,",
+  "zh": "但这也是我觉得如此令人兴奋的原因，就是随着我们对如何训练这些模型了解得更多，"
+ },
+ {
+  "seg": 292,
+  "start": 1681.671,
+  "end": 1684.392,
+  "speaker": "Unknown",
+  "en": "You know, we don't know what we're going to find.",
+  "zh": "你知道，我们不知道会发现什么。"
+ },
+ {
+  "seg": 293,
+  "start": 1684.852,
+  "end": 1694.655,
+  "speaker": "Unknown",
+  "en": "And there is a decent amount of evidence in the academic literature, for example, that diffusion-based models are more data efficient compared to ultra-aggressive models.",
+  "zh": "而且学术文献中有相当多的证据，比如，基于扩散的模型相比 ultra-aggressive 模型数据效率更高。"
+ },
+ {
+  "seg": 294,
+  "start": 1695.135,
+  "end": 1696.356,
+  "speaker": "Unknown",
+  "en": "And the intuition is just like...",
+  "zh": "而直觉就是……"
+ },
+ {
+  "seg": 295,
+  "start": 1697.176,
+  "end": 1701.38,
+  "speaker": "Unknown",
+  "en": "If you think about training a diffusion model, you're learning by denoising.",
+  "zh": "如果你想想训练一个扩散模型，你是通过去噪来学习的。"
+ },
+ {
+  "seg": 296,
+  "start": 1701.501,
+  "end": 1705.485,
+  "speaker": "Unknown",
+  "en": "You start with an image, you add noise, and then you learn how to remove the noise.",
+  "zh": "你从一张图像开始，加噪，然后学习如何去除噪声。"
+ },
+ {
+  "seg": 297,
+  "start": 1706.085,
+  "end": 1713.133,
+  "speaker": "Unknown",
+  "en": "And so it's effectively doing data augmentation in the sense that the same image is augmented by many noisy views.",
+  "zh": "所以它实际上是在做数据增强，意义上是同一张图像被许多带噪声的视图增强了。"
+ },
+ {
+  "seg": 298,
+  "start": 1714.835,
+  "end": 1717.277,
+  "speaker": "Unknown",
+  "en": "And so they tend to be a little bit more data efficient.",
+  "zh": "所以它们往往数据效率稍微高一点。"
+ },
+ {
+  "seg": 299,
+  "start": 1718.278,
+  "end": 1727.141,
+  "speaker": "Unknown",
+  "en": "And so if that's, you know, holds up at scale and then you believe that maybe we'll get into... Tasks where we have less data.",
+  "zh": "所以如果这一点，你知道，在规模化时成立，那么也许我们会进入……数据更少的任务。"
+ },
+ {
+  "seg": 300,
+  "start": 1727.161,
+  "end": 1731.463,
+  "speaker": "Unknown",
+  "en": "Yeah, where data becomes the bottleneck, then it becomes more interesting, right?",
+  "zh": "是的，当数据成为瓶颈时，事情就变得更有趣了，对吧？"
+ },
+ {
+  "seg": 301,
+  "start": 1732.203,
+  "end": 1733.503,
+  "speaker": "Unknown",
+  "en": "And so we'll see.",
+  "zh": "我们拭目以待。"
+ },
+ {
+  "seg": 302,
+  "start": 1733.603,
+  "end": 1743.587,
+  "speaker": "Unknown",
+  "en": "That's why it's so exciting because things are changing and then this technology is so important and so valuable that having something differentiated, I think will create value.",
+  "zh": "这也是为什么这么令人兴奋，因为一切都在变化，而这项技术是如此重要、如此有价值，拥有一些差异化的东西，我认为会创造价值。"
+ },
+ {
+  "seg": 303,
+  "start": 1744.075,
+  "end": 1750.803,
+  "speaker": "Unknown",
+  "en": "If we project out five years, that's actually way too long in AI world.",
+  "zh": "如果我们展望五年，那在 AI 世界里其实太长了。"
+ },
+ {
+  "seg": 304,
+  "start": 1750.923,
+  "end": 1758.832,
+  "speaker": "Unknown",
+  "en": "If we project out two years, what do you think is the workload split between diffusion and traditional?",
+  "zh": "如果我们展望两年，你觉得扩散模型和传统模型之间的工作负载会是怎样的分配？"
+ },
+ {
+  "seg": 305,
+  "start": 1760.178,
+  "end": 1764.06,
+  "speaker": "Unknown",
+  "en": "I think we're still, we're not at the frontier level of intelligence.",
+  "zh": "我认为我们还……我们还没达到前沿水平的智能。"
+ },
+ {
+  "seg": 306,
+  "start": 1764.1,
+  "end": 1784.953,
+  "speaker": "Unknown",
+  "en": "And I think a lot of the workloads do require frontier level intelligence, but in my estimates, like even if you just go to, you know, OpenRouter has this very nice way of kind of like looking at all the different use cases and you can kind of see, you know, the research and conversational and coding and software engineering and log processing log, like they have like a nice hard taxonomy basically of tasks.",
+  "zh": "而且我认为很多工作负载确实需要前沿水平的智能，但据我估计，比如哪怕你只是去看，你知道的，OpenRouter 有一种很好的方式来查看所有不同的用例，你可以大致看到，你知道的，研究类、对话类、编码类、软件工程类和日志处理类，他们基本上有一个很清晰的任务分类。"
+ },
+ {
+  "seg": 307,
+  "start": 1785.713,
+  "end": 1793.699,
+  "speaker": "Unknown",
+  "en": "And I was doing some estimates, and I think there is like between 20% and 30% where latency is really, really important.",
+  "zh": "我做了一些估算，我认为大约有 20% 到 30% 的场景里延迟是非常非常重要的。"
+ },
+ {
+  "seg": 308,
+  "start": 1793.899,
+  "end": 1805.228,
+  "speaker": "Unknown",
+  "en": "And so at the very least, as a lower bound, I think it could be addressable by models that are within a given latency budget, they will give you the highest possible quality.",
+  "zh": "所以至少作为一个下限，我认为这部分可以被这样的一些模型覆盖：在给定延迟预算内，它们会给你尽可能高的质量。"
+ },
+ {
+  "seg": 309,
+  "start": 1805.388,
+  "end": 1809.03,
+  "speaker": "Unknown",
+  "en": "And then just, you know, all technology approaches have trade-offs.",
+  "zh": "然后就是，你知道的，所有技术路线都有权衡。"
+ },
+ {
+  "seg": 310,
+  "start": 1809.07,
+  "end": 1812.213,
+  "speaker": "Unknown",
+  "en": "What are the challenges of working with diffusion models?",
+  "zh": "使用扩散模型有哪些挑战？"
+ },
+ {
+  "seg": 311,
+  "start": 1812.573,
+  "end": 1813.893,
+  "speaker": "Unknown",
+  "en": "Yeah, it's a different stack.",
+  "zh": "是的，这是一套不同的技术栈。"
+ },
+ {
+  "seg": 312,
+  "start": 1814.314,
+  "end": 1831.759,
+  "speaker": "Unknown",
+  "en": "And so one of the challenges that we have to build are a lot of things in-house and there is not a mature sort of like ecosystem of even if you think about the serving engine or like kernels, like a lot of the things have to be developed in-house.",
+  "zh": "所以我们面临的挑战之一是必须在内部构建很多东西，目前还没有一个成熟的生态系统，哪怕你想想推理服务引擎或者内核，很多东西都必须在内部开发。"
+ },
+ {
+  "seg": 313,
+  "start": 1832.499,
+  "end": 1839.001,
+  "speaker": "Unknown",
+  "en": "And so there is not really anything open source or there are some open source models, but they're not particularly good.",
+  "zh": "所以基本上没有什么开源的东西，或者说有一些开源模型，但它们不是特别好。"
+ },
+ {
+  "seg": 314,
+  "start": 1839.601,
+  "end": 1841.682,
+  "speaker": "Unknown",
+  "en": "And so that makes it a little bit more",
+  "zh": "所以这让事情变得稍微更"
+ },
+ {
+  "seg": 315,
+  "start": 1841.942,
+  "end": 1845.605,
+  "speaker": "Unknown",
+  "en": "difficult to deploy, to get customers to try things.",
+  "zh": "难以部署，难以让客户去尝试。"
+ },
+ {
+  "seg": 316,
+  "start": 1845.665,
+  "end": 1847.066,
+  "speaker": "Unknown",
+  "en": "They're not used to it.",
+  "zh": "他们不习惯这个。"
+ },
+ {
+  "seg": 317,
+  "start": 1847.486,
+  "end": 1850.369,
+  "speaker": "Unknown",
+  "en": "So that's been one of the challenges.",
+  "zh": "所以这是挑战之一。"
+ },
+ {
+  "seg": 318,
+  "start": 1850.589,
+  "end": 1853.211,
+  "speaker": "Unknown",
+  "en": "I imagine that also reflects externally, right?",
+  "zh": "我想象这在外部也会有所体现，对吧？"
+ },
+ {
+  "seg": 319,
+  "start": 1853.291,
+  "end": 1855.993,
+  "speaker": "Unknown",
+  "en": "You know, in a landscape where folks",
+  "zh": "你知道的，在一个人们"
+ },
+ {
+  "seg": 320,
+  "start": 1857.214,
+  "end": 1869.889,
+  "speaker": "Unknown",
+  "en": "At some sophistication where they would care about cost and performance, and though you might, for certain use cases, you will care about cost and performance from the beginning, there is an increasing amount of interest in post-training, right?",
+  "zh": "有一定成熟度、会在意成本和性能的环境里——当然对某些用例，你从一开始就会在意成本和性能——人们对后训练的兴趣越来越大，对吧？"
+ },
+ {
+  "seg": 321,
+  "start": 1869.929,
+  "end": 1874.314,
+  "speaker": "Unknown",
+  "en": "And so I imagine in a new architecture, that's even more challenging.",
+  "zh": "所以我想象在一个全新的架构下，那就更具挑战性了。"
+ },
+ {
+  "seg": 322,
+  "start": 1874.574,
+  "end": 1877.298,
+  "speaker": "Unknown",
+  "en": "So we have to build our own stack for doing...",
+  "zh": "所以我们必须构建自己的技术栈来做……"
+ },
+ {
+  "seg": 323,
+  "start": 1878.504,
+  "end": 1881.146,
+  "speaker": "Unknown",
+  "en": "SFT for doing RLHF, doing RL.",
+  "zh": "SFT、做 RLHF、做 RL。"
+ },
+ {
+  "seg": 324,
+  "start": 1881.166,
+  "end": 1883.947,
+  "speaker": "Unknown",
+  "en": "I mean, that becomes IP to some extent.",
+  "zh": "我是说，这在某种程度上成为了 IP(知识产权)。"
+ },
+ {
+  "seg": 325,
+  "start": 1884.007,
+  "end": 1894.013,
+  "speaker": "Unknown",
+  "en": "So it's one of the reasons we decided not to open source everything, was really to keep the IP a little bit closer to us and not opening it.",
+  "zh": "所以这也是我们决定不完全开源的原因之一，真的是为了把这些 IP 更多地留在我们自己手里，不把它开放出去。"
+ },
+ {
+  "seg": 326,
+  "start": 1894.093,
+  "end": 1895.094,
+  "speaker": "Unknown",
+  "en": "But then there are downsides.",
+  "zh": "但这样也有坏处。"
+ },
+ {
+  "seg": 327,
+  "start": 1895.254,
+  "end": 1899.396,
+  "speaker": "Unknown",
+  "en": "Like there is less an opportunity for the community to contribute.",
+  "zh": "比如社区贡献的机会更少了。"
+ },
+ {
+  "seg": 328,
+  "start": 1899.436,
+  "end": 1901.417,
+  "speaker": "Unknown",
+  "en": "It's harder to adopt.",
+  "zh": "更难被采用。"
+ },
+ {
+  "seg": 329,
+  "start": 1901.457,
+  "end": 1903.658,
+  "speaker": "Unknown",
+  "en": "It's hard to do on-prem kind of like deployments.",
+  "zh": "很难做本地化(on-prem)部署之类的事情。"
+ },
+ {
+  "seg": 330,
+  "start": 1903.678,
+  "end": 1906.26,
+  "speaker": "Unknown",
+  "en": "And so there are pros and cons with the two choices.",
+  "zh": "所以这两种选择各有利弊。"
+ },
+ {
+  "seg": 331,
+  "start": 1906.42,
+  "end": 1913.55,
+  "speaker": "Unknown",
+  "en": "Can you talk about, you know, scale of your own training and then like current or aspirational?",
+  "zh": "能谈谈你们自己训练的规模吗，就是目前或者期望的？"
+ },
+ {
+  "seg": 332,
+  "start": 1914.011,
+  "end": 1923.684,
+  "speaker": "Unknown",
+  "en": "And then at 50 people, I'm sure you're continuing to hire, like why researchers or engineers or others should consider, you know, investing in this direction or working at inception?",
+  "zh": "然后在 50 人的规模，我相信你们还在继续招聘，比如为什么研究者或工程师或其他人应该考虑投资这个方向，或者加入 Inception？"
+ },
+ {
+  "seg": 333,
+  "start": 1923.804,
+  "end": 1930.626,
+  "speaker": "Unknown",
+  "en": "Yeah, so we're not able to share much about the training, the size of the models or the flops or all of that.",
+  "zh": "是的，关于训练、模型大小或者 flops 之类的，我们没法分享太多。"
+ },
+ {
+  "seg": 334,
+  "start": 1930.666,
+  "end": 1934.687,
+  "speaker": "Unknown",
+  "en": "It's kind of like a trade secret, but we are continuing to push the frontier.",
+  "zh": "这算是商业机密，但我们确实在继续推动前沿。"
+ },
+ {
+  "seg": 335,
+  "start": 1935.227,
+  "end": 1942.068,
+  "speaker": "Unknown",
+  "en": "And Inception is a great place to be if you want to have an opportunity to shape the direction of the field.",
+  "zh": "如果你想有机会去塑造这个领域的方向，Inception 是一个很棒的地方。"
+ },
+ {
+  "seg": 336,
+  "start": 1942.268,
+  "end": 1944.469,
+  "speaker": "Unknown",
+  "en": "Like it's still a relatively small field.",
+  "zh": "毕竟这还是一个相对较小的领域。"
+ },
+ {
+  "seg": 337,
+  "start": 1944.489,
+  "end": 1945.849,
+  "speaker": "Unknown",
+  "en": "There is a lot to be invented.",
+  "zh": "还有很多东西有待发明。"
+ },
+ {
+  "seg": 338,
+  "start": 1945.869,
+  "end": 1953.571,
+  "speaker": "Unknown",
+  "en": "And so a lot of the people that decided to come to Inception instead of joining one of the other labs is really that they want to have ownership.",
+  "zh": "所以很多决定来 Inception 而不是加入其他实验室的人，真的是因为他们想要拥有主导权。"
+ },
+ {
+  "seg": 339,
+  "start": 1954.251,
+  "end": 1956.593,
+  "speaker": "Unknown",
+  "en": "And they like to invent new things.",
+  "zh": "而且他们喜欢发明新东西。"
+ },
+ {
+  "seg": 340,
+  "start": 1957.054,
+  "end": 1964.159,
+  "speaker": "Unknown",
+  "en": "They like to be in a space where there's more of a greenfield and more opportunities to try things.",
+  "zh": "他们喜欢身处一个更像是空白领域、有更多机会去尝试的空间。"
+ },
+ {
+  "seg": 341,
+  "start": 1964.179,
+  "end": 1967.902,
+  "speaker": "Unknown",
+  "en": "There's less that it's known or available out there.",
+  "zh": "外面已知的、现成的东西更少。"
+ },
+ {
+  "seg": 342,
+  "start": 1967.963,
+  "end": 1969.204,
+  "speaker": "Unknown",
+  "en": "It's a little bit more open-ended.",
+  "zh": "它更加开放、更没有定式。"
+ },
+ {
+  "seg": 343,
+  "start": 1969.644,
+  "end": 1972.226,
+  "speaker": "Unknown",
+  "en": "And so we tend to attract those kind of people.",
+  "zh": "所以我们往往会吸引那一类人。"
+ },
+ {
+  "seg": 344,
+  "start": 1972.39,
+  "end": 1983.912,
+  "speaker": "Unknown",
+  "en": "I think one thing that is both exciting and causes some despair amongst research friends is the ability to use models for recursive self-improvement in the research field itself.",
+  "zh": "我认为有一件事既令人兴奋，又让一些研究界的朋友感到绝望，那就是用模型在研究领域本身实现递归式自我改进的能力。"
+ },
+ {
+  "seg": 345,
+  "start": 1984.232,
+  "end": 1989.453,
+  "speaker": "Unknown",
+  "en": "Given you're working on a very different direction, what is your view on this?",
+  "zh": "鉴于你们在做一个非常不同的方向，你对此怎么看？"
+ },
+ {
+  "seg": 346,
+  "start": 1989.673,
+  "end": 1996.395,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, it's something that we- Explicitly, it sounds like you still feel there's work for you and your team to do.",
+  "zh": "是的，我是说，这是我们——听起来你明确认为你和你的团队仍然有事可做。"
+ },
+ {
+  "seg": 347,
+  "start": 1996.535,
+  "end": 1997.155,
+  "speaker": "Unknown",
+  "en": "Oh yeah, yeah.",
+  "zh": "哦是的，是的。"
+ },
+ {
+  "seg": 348,
+  "start": 1997.355,
+  "end": 1998.475,
+  "speaker": "Unknown",
+  "en": "I think we're not there yet.",
+  "zh": "我认为我们还没到那一步。"
+ },
+ {
+  "seg": 349,
+  "start": 1999.196,
+  "end": 2015.361,
+  "speaker": "Unknown",
+  "en": "Maybe we don't have access to the models that other folks have, but I feel like there is still... We use models a lot, of course, and it has accelerated the speed at which we can iterate, try ideas, and we use models from Frontier Labs.",
+  "zh": "也许我们没有其他人拥有的那些模型的访问权限，但我感觉仍然……当然，我们大量使用模型，它加速了我们迭代、尝试想法的速度，我们使用来自 Frontier Labs 的模型。"
+ },
+ {
+  "seg": 350,
+  "start": 2017.402,
+  "end": 2018.523,
+  "speaker": "Unknown",
+  "en": "It's been great.",
+  "zh": "非常棒。"
+ },
+ {
+  "seg": 351,
+  "start": 2018.543,
+  "end": 2021.124,
+  "speaker": "Unknown",
+  "en": "It has accelerated our development process a lot.",
+  "zh": "它极大地加速了我们的开发过程。"
+ },
+ {
+  "seg": 352,
+  "start": 2023.185,
+  "end": 2044.513,
+  "speaker": "Unknown",
+  "en": "At the same time, I think at least that right now, I don't know what it's gonna be in six months or a year, but right now the human ingenuity is still like super important and the ability to come up with the right ideas and kind of like prune the space and kind of like identify directions that are more promising has been really important to us.",
+  "zh": "同时，我认为至少在现在——我不知道六个月或一年后会怎样——人类的聪明才智仍然超级重要，想出正确想法、修剪搜索空间、识别更有前景的方向的能力，对我们来说一直非常重要。"
+ },
+ {
+  "seg": 353,
+  "start": 2045.008,
+  "end": 2056.164,
+  "speaker": "Unknown",
+  "en": "50 people is not that many people for, let's say, like a full stack, you know, research serving product company or however you would think about describing it.",
+  "zh": "对于一家全栈的、研究加服务加产品的公司——或者你怎么描述都行——50 个人其实不算多。"
+ },
+ {
+  "seg": 354,
+  "start": 2057.166,
+  "end": 2062.073,
+  "speaker": "Unknown",
+  "en": "How, you know, how do you organize and then how do you think about how you allocate your resources here?",
+  "zh": "那么，你是如何组织的，又是如何考虑在这里分配资源的？"
+ },
+ {
+  "seg": 355,
+  "start": 2062.287,
+  "end": 2072.598,
+  "speaker": "Unknown",
+  "en": "It's a small team, but everyone is very talented and they work very hard and we have access to agents that are making us a lot more productive.",
+  "zh": "团队很小，但每个人都非常有才华，工作非常努力，而且我们有智能体可以让我们生产力大幅提升。"
+ },
+ {
+  "seg": 356,
+  "start": 2072.638,
+  "end": 2078.544,
+  "speaker": "Unknown",
+  "en": "And so I think the numbers are, you know, are sufficient to do a lot.",
+  "zh": "所以我认为这个人数是足以做很多事情的。"
+ },
+ {
+  "seg": 357,
+  "start": 2079.105,
+  "end": 2084.45,
+  "speaker": "Unknown",
+  "en": "And in fact, often I feel like the bottleneck is more compute than people.",
+  "zh": "而且实际上，我常常觉得瓶颈更多是算力而不是人。"
+ },
+ {
+  "seg": 358,
+  "start": 2085.711,
+  "end": 2087.272,
+  "speaker": "Unknown",
+  "en": "But yeah, the team is organized.",
+  "zh": "不过是的，团队是这样组织的："
+ },
+ {
+  "seg": 359,
+  "start": 2087.293,
+  "end": 2098.019,
+  "speaker": "Unknown",
+  "en": "There is a product team, effectively, that is handling the platform and working with customers to make them successful with our models.",
+  "zh": "实际上有一个产品团队，负责平台，并和客户合作，帮助他们成功使用我们的模型。"
+ },
+ {
+  "seg": 360,
+  "start": 2098.76,
+  "end": 2112.509,
+  "speaker": "Unknown",
+  "en": "So there is basically a team that is serving the current best version of the model, and then there is a team that is building the next version of the model, and that includes training, RL, inference, and so that's more research.",
+  "zh": "所以基本上是一个团队在服务当前最好的模型版本，然后另一个团队在构建模型的下一个版本，这包括训练、RL、推理等等，那更多是研究。"
+ },
+ {
+  "seg": 361,
+  "start": 2112.982,
+  "end": 2114.524,
+  "speaker": "Unknown",
+  "en": "Stefano, one last question for you.",
+  "zh": "Stefano,最后问你一个问题。"
+ },
+ {
+  "seg": 362,
+  "start": 2116.087,
+  "end": 2119.552,
+  "speaker": "Unknown",
+  "en": "The 24 paper was a super interesting result, made a big splash.",
+  "zh": "24 那篇论文是一个非常有趣的结果，引起了很大轰动。"
+ },
+ {
+  "seg": 363,
+  "start": 2119.952,
+  "end": 2121.575,
+  "speaker": "Unknown",
+  "en": "You've been working in this field for a long time.",
+  "zh": "你在这个领域工作很长时间了。"
+ },
+ {
+  "seg": 364,
+  "start": 2121.595,
+  "end": 2127.844,
+  "speaker": "Unknown",
+  "en": "A lot of folks would say that, would claim that academic AI research is",
+  "zh": "很多人会说、会声称学术 AI 研究"
+ },
+ {
+  "seg": 365,
+  "start": 2127.884,
+  "end": 2132.005,
+  "speaker": "Unknown",
+  "en": "Very challenged in this era of, you know, being able to scale resource a great deal.",
+  "zh": "在这个能够大规模扩展资源的时代处境非常艰难。"
+ },
+ {
+  "seg": 366,
+  "start": 2132.105,
+  "end": 2136.007,
+  "speaker": "Unknown",
+  "en": "Like this is certainly true to some degree, given you started a commercial company around it as well.",
+  "zh": "在某种程度上这确实是真的，毕竟你也围绕它创办了一家商业公司。"
+ },
+ {
+  "seg": 367,
+  "start": 2136.427,
+  "end": 2145.33,
+  "speaker": "Unknown",
+  "en": "But how did you get confidence in the directions that you were working in having impact or being promising before you really had those 24 results?",
+  "zh": "但在你真正取得 24 那些成果之前，你是如何获得信心，相信你正在研究的方向有影响力或有前景的？"
+ },
+ {
+  "seg": 368,
+  "start": 2146.25,
+  "end": 2153.893,
+  "speaker": "Unknown",
+  "en": "Yeah, and I think it was like a collection of results that I had been working on in my lab.",
+  "zh": "是的，我觉得那是我在实验室里所做的一系列成果的集合。"
+ },
+ {
+  "seg": 369,
+  "start": 2154.333,
+  "end": 2159.454,
+  "speaker": "Unknown",
+  "en": "Not necessarily like, of course, there is like the early diffusion work that we did in the lab.",
+  "zh": "不一定是——当然，有我们早期在实验室做的扩散模型工作。"
+ },
+ {
+  "seg": 370,
+  "start": 2159.514,
+  "end": 2160.415,
+  "speaker": "Unknown",
+  "en": "We showed that the...",
+  "zh": "我们展示了……"
+ },
+ {
+  "seg": 371,
+  "start": 2161.337,
+  "end": 2168.821,
+  "speaker": "Unknown",
+  "en": "At the kind of scale of models that we could train on academically, we were able to kind of like beat GANs.",
+  "zh": "在学术界能够训练的模型规模上，我们能够击败 GAN。"
+ },
+ {
+  "seg": 372,
+  "start": 2168.921,
+  "end": 2174.984,
+  "speaker": "Unknown",
+  "en": "And so, and then while being much more stable, and then the whole thing took over and then became stable diffusion mid-journey.",
+  "zh": "而且同时更加稳定，然后这整个东西就爆发了，变成了 stable diffusion 和 mid-journey。"
+ },
+ {
+  "seg": 373,
+  "start": 2175.004,
+  "end": 2181.807,
+  "speaker": "Unknown",
+  "en": "So all of that started from ideas that were developed in academia in my lab, but that's not the only one.",
+  "zh": "所以这一切都始于在我的实验室里、在学术界发展出来的想法，但这不是唯一的例子。"
+ },
+ {
+  "seg": 374,
+  "start": 2181.827,
+  "end": 2185.889,
+  "speaker": "Unknown",
+  "en": "Like I was 3,000 co-advisor, so I worked on flash attention, for example, right?",
+  "zh": "比如我是 3,000 的联合导师，比如我们做了 flash attention,对吧？"
+ },
+ {
+  "seg": 375,
+  "start": 2185.909,
+  "end": 2187.89,
+  "speaker": "Unknown",
+  "en": "That's another thing that came out from academia.",
+  "zh": "那是另一个从学术界出来的成果。"
+ },
+ {
+  "seg": 376,
+  "start": 2188.67,
+  "end": 2191.251,
+  "speaker": "Unknown",
+  "en": "that then eventually had a huge impact in industry, right?",
+  "zh": "后来在业界产生了巨大的影响，对吧？"
+ },
+ {
+  "seg": 377,
+  "start": 2191.391,
+  "end": 2192.612,
+  "speaker": "Unknown",
+  "en": "Or another example is DPO.",
+  "zh": "或者另一个例子是 DPO。"
+ },
+ {
+  "seg": 378,
+  "start": 2193.052,
+  "end": 2196.933,
+  "speaker": "Unknown",
+  "en": "That was another project that started out as a rotation project in my group.",
+  "zh": "那是另一个在我组里作为轮转项目启动的项目。"
+ },
+ {
+  "seg": 379,
+  "start": 2198.034,
+  "end": 2203.316,
+  "speaker": "Unknown",
+  "en": "It's an algorithm that is used to align, you know, LLMs and diffusion models and everywhere, right?",
+  "zh": "它是一种用于对齐 LLM 和扩散模型的算法，到处都在用,对吧?"
+ },
+ {
+  "seg": 380,
+  "start": 2203.396,
+  "end": 2208.158,
+  "speaker": "Unknown",
+  "en": "And that's, again, something that was developed entirely in academia.",
+  "zh": "而这,同样,完全是学术界发展出来的东西。"
+ },
+ {
+  "seg": 381,
+  "start": 2208.778,
+  "end": 2221.01,
+  "speaker": "Unknown",
+  "en": "And it was just like based on a clever insight, like some interesting mathematical structure that you have in that problem that allows you to come up with a very different and more efficient way of post-training and aligning these models, right?",
+  "zh": "它只是基于一个聪明的洞见,比如那个问题里存在的某种有趣的数学结构,让你能够想出一种非常不同的、更高效的后训练和对齐这些模型的方法,对吧?"
+ },
+ {
+  "seg": 382,
+  "start": 2221.051,
+  "end": 2224.374,
+  "speaker": "Unknown",
+  "en": "And so there are gems, there are...",
+  "zh": "所以这里有宝藏,有……"
+ },
+ {
+  "seg": 383,
+  "start": 2226.207,
+  "end": 2231.948,
+  "speaker": "Unknown",
+  "en": "Lots of opportunities for finding new and better ways of solving important problems.",
+  "zh": "大量寻找新的、更好的方法来解决重要问题的机会。"
+ },
+ {
+  "seg": 384,
+  "start": 2232.969,
+  "end": 2236.97,
+  "speaker": "Unknown",
+  "en": "One of the nice things about academia is that it allows you to take these contrarian bets.",
+  "zh": "学术界的一个好处是,它允许你下这些反共识的赌注。"
+ },
+ {
+  "seg": 385,
+  "start": 2238.27,
+  "end": 2243.031,
+  "speaker": "Unknown",
+  "en": "As you said, I mean, there is the challenge that maybe we don't have enough resources and there's never enough resources.",
+  "zh": "正如你所说,当然存在挑战,也许我们没有足够的资源,而资源永远是不够的。"
+ },
+ {
+  "seg": 386,
+  "start": 2243.051,
+  "end": 2245.772,
+  "speaker": "Unknown",
+  "en": "And if we had more compute, we could be more efficient.",
+  "zh": "如果我们有更多算力,我们可以更高效。"
+ },
+ {
+  "seg": 387,
+  "start": 2247.052,
+  "end": 2253.233,
+  "speaker": "Unknown",
+  "en": "But you have access to amazing students and everyone is kind of like trying to develop the new thing.",
+  "zh": "但你能接触到出色的学生,而且每个人都在努力开发新东西。"
+ },
+ {
+  "seg": 388,
+  "start": 2253.733,
+  "end": 2256.034,
+  "speaker": "Unknown",
+  "en": "People are not scared about taking bets.",
+  "zh": "人们不怕下注。"
+ },
+ {
+  "seg": 389,
+  "start": 2257.015,
+  "end": 2269.223,
+  "speaker": "Unknown",
+  "en": "And that's why academia has been so impactful, I think, where even in the AI space, a lot of the important ideas have roots or even were created in academia.",
+  "zh": "这就是学术界一直如此有影响力的原因,我认为,即使在 AI 领域,很多重要的想法都植根于学术界,甚至就是在学术界诞生的。"
+ },
+ {
+  "seg": 390,
+  "start": 2269.463,
+  "end": 2269.764,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 391,
+  "start": 2269.804,
+  "end": 2270.644,
+  "speaker": "Unknown",
+  "en": "Super inspirational.",
+  "zh": "非常鼓舞人心。"
+ },
+ {
+  "seg": 392,
+  "start": 2270.664,
+  "end": 2271.925,
+  "speaker": "Unknown",
+  "en": "Thanks so much for being here, Stefano.",
+  "zh": "非常感谢你来到这里,Stefano。"
+ },
+ {
+  "seg": 393,
+  "start": 2272.045,
+  "end": 2272.906,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having me.",
+  "zh": "非常感谢你们邀请我。"
+ },
+ {
+  "seg": 394,
+  "start": 2276.056,
+  "end": 2278.179,
+  "speaker": "Unknown",
+  "en": "Find us on Twitter at NoPriorsPod.",
+  "zh": "在 Twitter 上找我们:NoPriorsPod。"
+ },
+ {
+  "seg": 395,
+  "start": 2278.64,
+  "end": 2281.143,
+  "speaker": "Unknown",
+  "en": "Subscribe to our YouTube channel if you want to see our faces.",
+  "zh": "如果想看我们的脸,请订阅我们的 YouTube 频道。"
+ },
+ {
+  "seg": 396,
+  "start": 2281.644,
+  "end": 2285.149,
+  "speaker": "Unknown",
+  "en": "Follow the show on Apple Podcasts, Spotify, or wherever you listen.",
+  "zh": "在 Apple Podcasts、Spotify 或任何你收听的地方关注本节目。"
+ },
+ {
+  "seg": 397,
+  "start": 2285.369,
+  "end": 2286.972,
+  "speaker": "Unknown",
+  "en": "That way you get a new episode every week.",
+  "zh": "这样你每周都能收到新的一集。"
+ },
+ {
+  "seg": 398,
+  "start": 2287.472,
+  "end": 2291.899,
+  "speaker": "Unknown",
+  "en": "And sign up for emails or find transcripts for every episode at no-priors.com.",
+  "zh": "并在 no-priors.com 注册邮件或查找每一集的文字稿。"
+ }
+]

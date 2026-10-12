@@ -71,7 +71,7 @@ unlisted: true
 
 [[Kimberly]] · [[智能体]] · [[David]] · [[37Signals]] · [[Basecamp]] · [[后训练]] · [[客户反馈]] · [[入职引导]] · [[Amir Sadeghian]] · [[单向门]]
 
-<script type="application/json" class="pd-epn">{"Kimberly":3,"智能体":467,"David":3,"37Signals":4,"Basecamp":2,"后训练":1,"客户反馈":2,"入职引导":2,"Amir Sadeghian":1,"单向门":1}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"智能体":471,"David":3,"37Signals":4,"Basecamp":2,"后训练":1,"客户反馈":2,"入职引导":2,"Amir Sadeghian":1,"单向门":1}</script>
 
 <script>
 (function(){

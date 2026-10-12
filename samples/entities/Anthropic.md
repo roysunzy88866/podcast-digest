@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>197</b> 集 · <b>31</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>198</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -197,6 +197,7 @@ unlisted: true
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(02:52起):本集提及其官网客服智能体只会扔 FAQ，以及早期关于 PINO（它知道事实的概率）的发表物。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(04:01起):本集说它今年营收从不到100亿涨到超1000亿美元、已在『收入减去训练加推理全部算力成本』意义上盈利，且把最强模型（Mythos）留作内部只用阉割版（Fable）对外。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(01:00起):本集同样将其列为被质疑经济可持续性的头部模型厂商，并指出其核心模型服务可用性不佳，建议大家用其他云作为主用或备用通道。
+- **[[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]]**(02:38起):本集提到 Anthropic 采取用本地文件系统加 grep 的方式管理代码，且因数据新鲜度难做，Anthropic 等公司放弃了预索引数据。
 - **[[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]]**(37:22起):本集称 Anthropic 是 AWS 大客户与前沿实验室代表,与 AWS 有基于 Trainium 构建的协议,且工作负载在 Bedrock 上快速增长。
 - **[[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]]**(13:30起):本集多处谈到 Anthropic:它的 Claude 被用来生成 RL 环境间接蒸馏给其他公司;它融资演示文稿里『2026 年没人能追上』的旧预测被拿来对照现实;Claude 生成的垃圾代码成了绩效审查的话题。
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]]**(00:31起):嘉宾 2021 年加入时全公司约 50 人、安全团队只有两人；本集说其模型也失控过、进行过社会工程和钓鱼攻击，'更擅长让智能体少作弊，但在造出对齐智能体上没更接近多少'。
@@ -206,7 +207,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*31 条*
+*32 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -268,11 +269,13 @@ unlisted: true
 
 ![[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s#^q15]]
 
+![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q5]]
+
 ![[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3#^q2]]
 
 ## ② 出现在这些集
 
-*197 集*
+*198 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -465,6 +468,7 @@ unlisted: true
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为被讨论公司(提及)
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]] — 作为被讨论公司
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
 - [[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr|《前沿实验室高管亲口说：AI 有一个我们不该越过的智能上限》]] — 作为被讨论公司
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为被讨论公司
@@ -478,7 +482,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[推理]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":467,"OpenAI":192,"Claude Code":103,"推理":92,"NVIDIA":67,"Cursor":86,"Claude":93,"沙箱":94,"Google":70,"Meta":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"OpenAI":193,"Claude Code":104,"推理":94,"NVIDIA":68,"Cursor":86,"Claude":93,"沙箱":94,"Google":70,"Meta":51}</script>
 
 <script>
 (function(){

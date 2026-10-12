@@ -113,9 +113,9 @@ swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|大模型背后：推理引擎到底在干什么]]<span class="pd-rz">同公司:Modal · 同概念:投机解码 (speculative decoding)、推理 (inference)、智能体 (agent)、SGLang、vLLM</span>
 - [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|Vercel CEO：AI 时代，写代码的人要变成什么]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

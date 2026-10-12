@@ -25,7 +25,7 @@ unlisted: true
 
 [[Paolo Ardoino]] · [[Tether]] · [[QVAC]] · [[推理]] · [[微调]] · [[LoRa]] · [[数据中心]] · [[去中介化]] · [[智能体]] · [[GPU]]
 
-<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"QVAC":1,"推理":92,"微调":35,"LoRa":1,"数据中心":23,"去中介化":2,"智能体":467,"GPU":30}</script>
+<script type="application/json" class="pd-epn">{"Paolo Ardoino":1,"Tether":2,"QVAC":1,"推理":94,"微调":35,"LoRa":1,"数据中心":23,"去中介化":2,"智能体":471,"GPU":30}</script>
 
 <script>
 (function(){

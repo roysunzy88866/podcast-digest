@@ -1,0 +1,1819 @@
+{
+  "episode_id": "2026-10-06-talks-what-is-an-inference-engine-anyway-charl",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "tags": [
+    "推理引擎",
+    "AI 基础设施",
+    "GPU",
+    "性能优化",
+    "可观测性"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "charles-frye",
+      "type": "person",
+      "role": "guest",
+      "name": "Charles Frye",
+      "file": "Charles Frye",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": true,
+      "how_described": "嘉宾工作的云平台,帮许多团队在成百上千块 GPU 上部署和优化推理,并有 Modal Endpoints 新产品帮助快速部署推理引擎",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            393.064,
+            409.638
+          ],
+          "quote": "I'll maybe, in the interest of time, since we kinda had to get started very quickly, I'll skip over this, but I've been working on inference for a couple of years, mostly at Modal, since coming from the sort of training world before that, and helping a lot of teams sort of deploy and optimize their inference on hundreds or thousands of GPUs on the Modal platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            430.855,
+            433.658
+          ],
+          "quote": "Served via the SGLang inference engine and running on modal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3388.892,
+            3392.576
+          ],
+          "quote": "This is an endpoint dashboard on modal and how you might read it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3550.489,
+            3569.194
+          ],
+          "quote": "I'm out of time, so I'll just quickly say if you're interested in deploying and owning your own inference, we have a new product on modal to help you get started with deployment really easily, get an initial baseline of reasonably optimized inference engine deployment that you can work off of with modal endpoints.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3571.754,
+            3578.156
+          ],
+          "quote": "If you're interested in working on deploying inference for hundreds of teams, check out modal.jobs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sglang",
+      "type": "company",
+      "role": "company",
+      "name": "SGLang",
+      "file": "SGLang",
+      "primary": true,
+      "how_described": "本集用来拆解内部架构的典型开源推理引擎,由一组相互通信的进程组成,有多个 token 化进程和一个调度器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            98.969,
+            101.752
+          ],
+          "quote": "You've got SGLang, VLLM, TensorRTLLM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            430.855,
+            433.658
+          ],
+          "quote": "Served via the SGLang inference engine and running on modal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1268.59,
+            1272.713
+          ],
+          "quote": "This is specifically SGLang's architecture.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1629.248,
+            1633.872
+          ],
+          "quote": "To my knowledge, there is no direct communication between the tokenizer and the de-tokenizer in SGLang.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1833.009,
+            1844.278
+          ],
+          "quote": "And then finally, not a part of the question, but something I wanted to point out, it is interesting that you generally have multiple tokenizer processes and one detokenizer in the SGLang architecture, at least.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2252.754,
+            2270.251
+          ],
+          "quote": "There are a few special kernels per engine, like tree attention for tree-based speculators in SGLang, and so there's little bits where an engine will have a specific kernel, but if it's useful, if it's popular, it ends up in some kernel libraries that can be used in lots of places, and then they consume it from an external library.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2303.787,
+            2316.21
+          ],
+          "quote": "So there's, I guess in SGLang and vLLM, there's now a path where you can just use that Transformers implementation, and they'll maybe do a little bit, tiny bit of surgery to see what they can automatically kernel fuse or automatically optimize or rewrite.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2587.348,
+            2598.653
+          ],
+          "quote": "So the dense MOPs, there's a nice library for this from DeepSeq, DeepGem, that gets used a lot in SGLang as kind of like the default.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2650.203,
+            2654.144
+          ],
+          "quote": "With VLLM and SGLang, these are things that you can sort of set and control.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2654.444,
+            2660.906
+          ],
+          "quote": "In SGLang, it's kind of pushed up into your face in the form of configuration at start with smart defaults.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3343.421,
+            3347.042
+          ],
+          "quote": "There's scripts in SGLang, there's scripts in VLLM, there's external benchmarking tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3526.563,
+            3547.612
+          ],
+          "quote": "Cognition also operates this thing called DeepWiki, which basically crawls a bunch of repos, including SGLang and vLLM, and writes nice architecture diagrams and makes this wiki-style page where you can read and then ask their agent questions, which is a nice thing to pair with your own agent setup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "company",
+      "role": "company",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": true,
+      "how_described": "另一个高质量开源推理引擎,同时是 HTTP/gRPC 服务器和引擎层,架构与 SGLang 有细微差别,更偏智能默认值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            98.969,
+            101.752
+          ],
+          "quote": "You've got SGLang, VLLM, TensorRTLLM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1141.093,
+            1157.43
+          ],
+          "quote": "So VLLM has both of these, like VLLM operates as an HTTP or GRPC server, and then the engine layer is sort of like part of the VLLM or SEOing SDK as like VLLM.engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1272.733,
+            1280.739
+          ],
+          "quote": "There's some slight differences with vLLM, but this server IO process communicates with the outside world and then with our pre-processing and post-processing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1635.253,
+            1645.162
+          ],
+          "quote": "In vLLM, they actually live inside the same process, the manager, the engine manager, and so it'll be a little harder to determine if there's any communication there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2303.787,
+            2316.21
+          ],
+          "quote": "So there's, I guess in SGLang and vLLM, there's now a path where you can just use that Transformers implementation, and they'll maybe do a little bit, tiny bit of surgery to see what they can automatically kernel fuse or automatically optimize or rewrite.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2599.593,
+            2607.556
+          ],
+          "quote": "In VLLM, there's some quantization-focused backends for this, the Marlin and Bits and Bytes backends for the,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2650.203,
+            2654.144
+          ],
+          "quote": "With VLLM and SGLang, these are things that you can sort of set and control.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2661.326,
+            2671.888
+          ],
+          "quote": "VLLM is a lot more focused on the smart defaults side, and then you sort of patch, change things more with environment variables.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            3343.421,
+            3347.042
+          ],
+          "quote": "There's scripts in SGLang, there's scripts in VLLM, there's external benchmarking tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3512.536,
+            3518.479
+          ],
+          "quote": "Alexa Gordich did a great walkthrough blog of VLLM and share these slides later.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3526.563,
+            3547.612
+          ],
+          "quote": "Cognition also operates this thing called DeepWiki, which basically crawls a bunch of repos, including SGLang and vLLM, and writes nice architecture diagrams and makes this wiki-style page where you can read and then ask their agent questions, which is a nice thing to pair with your own agent setup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "type": "company",
+      "role": "company",
+      "name": "PyTorch",
+      "file": "PyTorch",
+      "primary": true,
+      "how_described": "一两个小时就能用它加 Hugging Face Transformers 写出一个能跑的推理引擎;模型前向传递层的代码大多在 PyTorch 里,自带内核库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            117.038,
+            137.762
+          ],
+          "quote": "You can write something like this in using PyTorch and Hugging Face Transformers in like an hour or two, especially if you're good with agents, but making it extremely high performance so that you can produce tokens with good tokenomics is the challenging part and that like sort of drives the design and architecture of these systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1314.124,
+            1319.687
+          ],
+          "quote": "This is where the vast majority of the sort of PyTorch and similar code shows up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2177.945,
+            2183.329
+          ],
+          "quote": "It has to manipulate a small number of GPU resources but it doesn't necessarily have to know stuff about models and PyTorch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2461.54,
+            2467.966
+          ],
+          "quote": "So a lot of it goes through PyTorch code which has its own kernel libraries and can run things on the GPU.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face-transformers",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face Transformers",
+      "file": "Hugging Face Transformers",
+      "primary": false,
+      "how_described": "提供 tokenizer 库和模型参考实现的库,但其实现优化不够充分,需各引擎手写内核选择路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            117.038,
+            137.762
+          ],
+          "quote": "You can write something like this in using PyTorch and Hugging Face Transformers in like an hour or two, especially if you're good with agents, but making it extremely high performance so that you can produce tokens with good tokenomics is the challenging part and that like sort of drives the design and architecture of these systems.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "提供 Flash、Cutlass 等内核库和硬件,推测解码让相当大的模型在其硬件上跑到每秒 1000 token",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            1228.748,
+            1237.578
+          ],
+          "quote": "An individual engine replica can track this KV cache, but is up to the wrapping layer, which might be something like NVIDIA Dynamo or LLMD, to handle",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2534.349,
+            2535.95
+          ],
+          "quote": "Flash and Fur from NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2536.551,
+            2538.292
+          ],
+          "quote": "Cutlass also from NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            3186.975,
+            3204.246
+          ],
+          "quote": "So this has emerged as one of the key techniques to allow you to operate, say, 1,000 tokens per second on NVIDIA hardware for actually fairly large models without having to go to a novel accelerator like an LPU or Cerebris.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "运营 DeepWiki,爬取 SGLang、vLLM 等仓库,生成架构图和 wiki 页面供阅读并向其智能体提问",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 498,
+          "t": [
+            3526.563,
+            3547.612
+          ],
+          "quote": "Cognition also operates this thing called DeepWiki, which basically crawls a bunch of repos, including SGLang and vLLM, and writes nice architecture diagrams and makes this wiki-style page where you can read and then ask their agent questions, which is a nice thing to pair with your own agent setup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集的核心论点:训练是成本中心,推理是收入中心,人们愿意为推理付费,推理工程师需求巨大",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            49.196,
+            58.862
+          ],
+          "quote": "And it seems like, talk to a couple of people, it seems like we got a lot of folks here who know their inference, know their engines, and so we can get a sophisticated conversation going.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            61.246,
+            66.489
+          ],
+          "quote": "So the title of this talk is What is an Inference Engine Anyway?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            67.03,
+            78.198
+          ],
+          "quote": "And the goal is to sort of peel back some of the layers that are behind APIs and what is actually going on inside of the code that runs your inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            90.743,
+            98.589
+          ],
+          "quote": "There's this really high-quality open-source software out there for running your language or multimodal model inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 26,
+          "t": [
+            207.818,
+            233.988
+          ],
+          "quote": "All right, so with that stage set, I think I've been to AI Engineer since it was the summit and talked about running inference every time, and the answer to this question gets better and better each time, the question of why inference and why you should care about it, why you should think about being an inference engineer who operates inference engines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            235.889,
+            253.198
+          ],
+          "quote": "Our fearless leader and one-man conference army, Sean Wang, tweeted recently that everybody in AI infrastructure, the boring stuff like inference engines, not the sexy research stuff, is finally getting filthy rich.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 28,
+          "t": [
+            253.879,
+            261.843
+          ],
+          "quote": "And so what I think he's pointing to here is there's tremendous demand for these to run inference engines.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            271.838,
+            274.942
+          ],
+          "quote": "And all of this wraps this core inference workload.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            292.909,
+            306.724
+          ],
+          "quote": "I think the fundamental reason why this is such a critical place for engineering work to get done and why it's such a cool place to work as an engineer is that in the end, training is a cost center and inference is a revenue center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            323.277,
+            328.361
+          ],
+          "quote": "But inference, once you have a model, is something that people will pay for.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            337.907,
+            339.89
+          ],
+          "quote": "There's a lot of opportunities to do inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            340.03,
+            348.964
+          ],
+          "quote": "We have a setup where there are a small number of essentially model foundries who produce foundation models that are then deployed and customized by inference engineers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            351.628,
+            354.971
+          ],
+          "quote": "And then even for training, inference has snuck its way in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            355.371,
+            365.259
+          ],
+          "quote": "A lot of the post-training adaptation of these foundation models requires that you generate samples from the model in inference, and a lot of the same technologies come to play.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            372.463,
+            376.846
+          ],
+          "quote": "Right now, inference is still very new, even though we're years into this new technology.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            393.064,
+            409.638
+          ],
+          "quote": "I'll maybe, in the interest of time, since we kinda had to get started very quickly, I'll skip over this, but I've been working on inference for a couple of years, mostly at Modal, since coming from the sort of training world before that, and helping a lot of teams sort of deploy and optimize their inference on hundreds or thousands of GPUs on the Modal platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            410.478,
+            414.161
+          ],
+          "quote": "I've also been making a lot of inference applications myself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            430.855,
+            433.658
+          ],
+          "quote": "Served via the SGLang inference engine and running on modal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            451.778,
+            462.361
+          ],
+          "quote": "Anyway, so this is the kind of sort of in the middle of the set of inference applications between the lowest latency and the highest throughput applications that get deployed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            464.436,
+            492.825
+          ],
+          "quote": "So I'll start by talking in more detail about those workloads, like what workloads land on these inference engines, and then move from that quickly into architecture, how these engines are designed, some of the key techniques that fit within that architecture to improve their performance, and then lastly, a key piece for making these things work in production, observability and debugability of these engines for correctness and for performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            500.563,
+            506.726
+          ],
+          "quote": "There's Chatbot Plus, which is like the original killer app of inference, something like ChatGPT or Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            507.006,
+            512.569
+          ],
+          "quote": "There's a person waiting on the other side interacting with this inference system and providing additional context.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            581.955,
+            586.037
+          ],
+          "quote": "For now, we're gonna focus on cloud deployment of inference, because that's where the majority of it happens right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 80,
+          "t": [
+            586.117,
+            592.682
+          ],
+          "quote": "Obviously in the future, a lot of these inference engines are gonna end up running on people's machines, like in a couple of years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            652.75,
+            666.897
+          ],
+          "quote": "Both the external interface and this internal pre-filled decode split defines the metrics that you care about for a workload that tells you how to deploy your inference engine and how to measure its success and performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            677.162,
+            687.289
+          ],
+          "quote": "You probably have a better time thinking of it at the engine level, thinking of how many queries per second you can handle per replica of your inference engine, and then you have aggregate demand coming from users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            709.399,
+            712.08
+          ],
+          "quote": "It's under the control of the model inside the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            944.604,
+            948.025
+          ],
+          "quote": "So what is the architecture of an inference engine?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            948.346,
+            953.848
+          ],
+          "quote": "So this is a little diagram showing at a high level what an inference engine does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            954.068,
+            962.652
+          ],
+          "quote": "So the goal of an inference server is to take an HTTP request or a gRPC request and turn it into an HTTP response to the client.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            973.917,
+            983.462
+          ],
+          "quote": "So you can sort of peel back a layer of the arrows and look inside and say, all right, so the inference server does this high-level thing, what's the next level down?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            983.882,
+            994.811
+          ],
+          "quote": "The inference engine is the sort of interesting part of it is the part that is not doing the HTTP serving, because we aren't in one of those situations where HTTP serving is the hard part, is your bottleneck.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            1039.43,
+            1043.393
+          ],
+          "quote": "And these need to be pre-processed before they can get passed to the actual inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1049.396,
+            1053.219
+          ],
+          "quote": "And then we can actually do the inference part of the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1082.186,
+            1087.25
+          ],
+          "quote": "So that's the core right there and that is what is wrapped by the rest of the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1115.079,
+            1119.124
+          ],
+          "quote": "Could you explain the difference between the inference server and the inference engine?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1122.776,
+            1129.983
+          ],
+          "quote": "So the question was, what is the difference between an inference server and an inference engine, and where does something like vLL lie?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1130.143,
+            1140.193
+          ],
+          "quote": "So inference server means that you've wrapped some input-output around the core operations of taking requests and turning them into responses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1222.16,
+            1228.127
+          ],
+          "quote": "Handling things like sessions actually lives outside of the inference server slash inference engine in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1286.503,
+            1292.871
+          ],
+          "quote": "And then the one or more processes that are sort of closely tied to the GPU are the ones that do the real work of doing the inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1393.517,
+            1401.481
+          ],
+          "quote": "And so this is the other place where the majority of performance engineering and care needs to go in the design and operation of an inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1798.642,
+            1819.098
+          ],
+          "quote": "Then in a running inference engine, there's also effects from you break up the input tokens into multiple pieces and run them as separate batches, so you can also get additional, if there's queuing and congestion, that adds more to the processing of a long batch than to a short batch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2192.714,
+            2197.097
+          ],
+          "quote": "So like in the sort of arc of future inference engines, I'd expect it to be a big target.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            2367.172,
+            2370.454
+          ],
+          "quote": "I think in the ideal operation of an inference server, there is no queuing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2776.689,
+            2781.913
+          ],
+          "quote": "How does serverless inference engine use with whole-star problem?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2812.624,
+            2823.154
+          ],
+          "quote": "All right, so let's talk about some of the key techniques that you need to implement inside an inference engine to make sure your performance is good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3151.053,
+            3167.122
+          ],
+          "quote": "So many other optimizations that you can do on your inference engine are like, it's like a game of inches of a percent, five percent, 10 percent each time, and you have to do the very difficult performance engineering for each of those percentage points.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 452,
+          "t": [
+            3245.683,
+            3248.625
+          ],
+          "quote": "Inference services, like all services, will have some bugs in them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            3263.418,
+            3266.902
+          ],
+          "quote": "Are you actually doing your inference correctly when you applied this performance optimization?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3550.489,
+            3569.194
+          ],
+          "quote": "I'm out of time, so I'll just quickly say if you're interested in deploying and owning your own inference, we have a new product on modal to help you get started with deployment really easily, get an initial baseline of reasonably optimized inference engine deployment that you can work off of with modal endpoints.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3571.754,
+            3578.156
+          ],
+          "quote": "If you're interested in working on deploying inference for hundreds of teams, check out modal.jobs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理引擎 (inference engine)",
+      "file": "推理引擎",
+      "primary": true,
+      "how_described": "本集演讲主题:架构为一组互相通信的进程(HTTP 服务、token 化、调度器、模型前向计算),各引擎在裸 GPU 性能上差别不大,比的是批构造",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            61.246,
+            66.489
+          ],
+          "quote": "So the title of this talk is What is an Inference Engine Anyway?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            430.855,
+            433.658
+          ],
+          "quote": "Served via the SGLang inference engine and running on modal.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            652.75,
+            666.897
+          ],
+          "quote": "Both the external interface and this internal pre-filled decode split defines the metrics that you care about for a workload that tells you how to deploy your inference engine and how to measure its success and performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 94,
+          "t": [
+            677.162,
+            687.289
+          ],
+          "quote": "You probably have a better time thinking of it at the engine level, thinking of how many queries per second you can handle per replica of your inference engine, and then you have aggregate demand coming from users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            709.399,
+            712.08
+          ],
+          "quote": "It's under the control of the model inside the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            944.604,
+            948.025
+          ],
+          "quote": "So what is the architecture of an inference engine?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            948.346,
+            953.848
+          ],
+          "quote": "So this is a little diagram showing at a high level what an inference engine does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            983.882,
+            994.811
+          ],
+          "quote": "The inference engine is the sort of interesting part of it is the part that is not doing the HTTP serving, because we aren't in one of those situations where HTTP serving is the hard part, is your bottleneck.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            1049.396,
+            1053.219
+          ],
+          "quote": "And then we can actually do the inference part of the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1082.186,
+            1087.25
+          ],
+          "quote": "So that's the core right there and that is what is wrapped by the rest of the inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1115.079,
+            1119.124
+          ],
+          "quote": "Could you explain the difference between the inference server and the inference engine?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            1122.776,
+            1129.983
+          ],
+          "quote": "So the question was, what is the difference between an inference server and an inference engine, and where does something like vLL lie?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1222.16,
+            1228.127
+          ],
+          "quote": "Handling things like sessions actually lives outside of the inference server slash inference engine in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1393.517,
+            1401.481
+          ],
+          "quote": "And so this is the other place where the majority of performance engineering and care needs to go in the design and operation of an inference engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1798.642,
+            1819.098
+          ],
+          "quote": "Then in a running inference engine, there's also effects from you break up the input tokens into multiple pieces and run them as separate batches, so you can also get additional, if there's queuing and congestion, that adds more to the processing of a long batch than to a short batch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2776.689,
+            2781.913
+          ],
+          "quote": "How does serverless inference engine use with whole-star problem?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2812.624,
+            2823.154
+          ],
+          "quote": "All right, so let's talk about some of the key techniques that you need to implement inside an inference engine to make sure your performance is good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            3151.053,
+            3167.122
+          ],
+          "quote": "So many other optimizations that you can do on your inference engine are like, it's like a game of inches of a percent, five percent, 10 percent each time, and you have to do the very difficult performance engineering for each of those percentage points.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3550.489,
+            3569.194
+          ],
+          "quote": "I'm out of time, so I'll just quickly say if you're interested in deploying and owning your own inference, we have a new product on modal to help you get started with deployment really easily, get an initial baseline of reasonably optimized inference engine deployment that you can work off of with modal endpoints.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scheduler",
+      "type": "concept",
+      "role": "concept",
+      "name": "调度器 (scheduler)",
+      "file": "调度器",
+      "primary": true,
+      "how_described": "语义上单线程的进程,是 GPU 的守门人和整条流水线的瓶颈;并行多个调度器不值得,是 Rust 重写的好目标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            176.476,
+            188.298
+          ],
+          "quote": "One, a sort of scheduler that defines and schedules work to run on the accelerator, usually a GPU, and then the actual code that runs on the GPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1281.079,
+            1286.403
+          ],
+          "quote": "Those things communicate with a scheduler process, which is the one that defines and schedules",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1341.799,
+            1349.885
+          ],
+          "quote": "But critically, this scheduler process out here, or its equivalent in another architecture, is the bottleneck to that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1517.466,
+            1522.391
+          ],
+          "quote": "That then goes into the scheduler that decides like, okay, how many resources is this thing gonna consume?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            2159.234,
+            2170.761
+          ],
+          "quote": "But the scheduler, on the other hand, so the scheduler just needs to stay faster than that work, but as GPUs get faster and as the amount of work on the GPU goes down, the pressure on the scheduler component goes up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2710.265,
+            2713.966
+          ],
+          "quote": "That's happening sort of at our like batch construction and scheduler level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2714.366,
+            2727.489
+          ],
+          "quote": "So basically the scheduler is gonna do the best that it can to decide like which requests to run and generally emphasizing requests that already have KV cache allocated to them, because then you don't need to recompute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2950.93,
+            2973.359
+          ],
+          "quote": "Another problem I already talked about how the scheduler can be this host-side bottleneck, which you want when you're running stuff on the GPU, like both at the sort of scheduler level and then inside of models, is that you want that just like at every moment some kernel is running on the GPU and things happen on the CPU to decide what that should run on the GPU, but they shouldn't ever block progress.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pre-fill",
+      "type": "concept",
+      "role": "concept",
+      "name": "预填充 (pre-fill)",
+      "file": "预填充",
+      "primary": true,
+      "how_described": "每个请求先做的输入处理阶段,算术强度高得多,与 decode 是两个半独立子负载,走不同代码路径",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            620.809,
+            627.397
+          ],
+          "quote": "First, we process the input tokens in the pre-fill phase, and then we generate the output tokens in the decode phase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            688.309,
+            696.614
+          ],
+          "quote": "Then with those queries, you want to look at how many tokens there are per query, input and output, aka pre-fill and decode.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            756.485,
+            768.074
+          ],
+          "quote": "That could be how quickly you finish something like the pre-fill phase and have your first tokens ready to send to users, or it can be how quickly you can generate each set of tokens during your decodes and get them back to users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            901.076,
+            915.379
+          ],
+          "quote": "And they're sort of defined by the fact that the per user in the decode phase, you're doing far less arithmetic, far less math per decode per user than you would do in the pre-fill phase, which is a lot,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1852.343,
+            1859.667
+          ],
+          "quote": "And that's related to the fact that pre-fill can operate at much higher rates of total tokens per second than decode can in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2346.145,
+            2356.808
+          ],
+          "quote": "So you might want to be able to, for example, not operate separate pre-fill and decode queues, but operate one sort of queue where you can mix pre-fill and decodes together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3405.751,
+            3419.42
+          ],
+          "quote": "So there was a traffic spike, which you can see down here, that turns into increasing first time to first token as things start to queue on the pre-fill side and don't enter pre-fill until the things have finished.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decode",
+      "type": "concept",
+      "role": "concept",
+      "name": "解码 (decode)",
+      "file": "解码",
+      "primary": true,
+      "how_described": "串行逐个吐出 token 的阶段,每次都要重新加载模型参数,是推测解码等优化技术的目标",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            620.809,
+            627.397
+          ],
+          "quote": "First, we process the input tokens in the pre-fill phase, and then we generate the output tokens in the decode phase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 90,
+          "t": [
+            632.923,
+            646.258
+          ],
+          "quote": "Prefill run does a forward pass through the model and then multiple decode runs produce one or a few tokens at a time and then once we're done return them to the user or generate a tool call and interact with an external system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            652.75,
+            666.897
+          ],
+          "quote": "Both the external interface and this internal pre-filled decode split defines the metrics that you care about for a workload that tells you how to deploy your inference engine and how to measure its success and performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 95,
+          "t": [
+            688.309,
+            696.614
+          ],
+          "quote": "Then with those queries, you want to look at how many tokens there are per query, input and output, aka pre-fill and decode.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 116,
+          "t": [
+            835.747,
+            837.228
+          ],
+          "quote": "And then you have a very short decode.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            901.076,
+            915.379
+          ],
+          "quote": "And they're sort of defined by the fact that the per user in the decode phase, you're doing far less arithmetic, far less math per decode per user than you would do in the pre-fill phase, which is a lot,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1852.343,
+            1859.667
+          ],
+          "quote": "And that's related to the fact that pre-fill can operate at much higher rates of total tokens per second than decode can in general.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1954.962,
+            1970.028
+          ],
+          "quote": "More if you have a lower decode throughput, like a large MOE that you're running at lower interactivity, and so the tokenizers are definitely millisecond scale or less and only happens once per request.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            2346.145,
+            2356.808
+          ],
+          "quote": "So you might want to be able to, for example, not operate separate pre-fill and decode queues, but operate one sort of queue where you can mix pre-fill and decodes together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 429,
+          "t": [
+            3055.627,
+            3071.454
+          ],
+          "quote": "Another problem, decode here is sequential, and every time you run it, you have to load either all of the parameters of the model or all of the active parameters in an MOE architecture, and you need to do that over and over again by default for each token.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            3138.17,
+            3150.593
+          ],
+          "quote": "The key reason why this is really important is that as you improve the quality of the speculator, as you improve the number of tokens it can guess in a row, you actually get basically a linear speedup in your decode throughput.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "type": "concept",
+      "role": "concept",
+      "name": "KV 缓存 (KV cache)",
+      "file": "KV 缓存",
+      "primary": true,
+      "how_described": "随请求累积的主要状态,用分页或基树结构实现前缀复用;引擎的真正问题是 KV 缓存容量管理和布局,已部分整合进注意力内核",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            720.123,
+            734.892
+          ],
+          "quote": "And then when we do our processing, we produce some intermediate artifacts that we want to cache in the KV cache, and then the degree to which that cache is reusable is a key component of the definition of our workload.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1207.733,
+            1219.197
+          ],
+          "quote": "So in the primary state that you accumulate over time for requests is the KV cache of previously computed things for a previous request attached to some notion of session.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1228.748,
+            1237.578
+          ],
+          "quote": "An individual engine replica can track this KV cache, but is up to the wrapping layer, which might be something like NVIDIA Dynamo or LLMD, to handle",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2714.366,
+            2727.489
+          ],
+          "quote": "So basically the scheduler is gonna do the best that it can to decide like which requests to run and generally emphasizing requests that already have KV cache allocated to them, because then you don't need to recompute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2743.54,
+            2756.382
+          ],
+          "quote": "Yeah, to my point earlier about queuing, I think of that as essentially like a failure state of the engine that we, like I've deployed my engine improperly if I get to the case where I have KV cache thrashing or like things being flushed to disk.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2936.396,
+            2948.065
+          ],
+          "quote": "I put this in here because it used to be like a defining feature of the engine, but now it's kind of actually part of the kernels and really it's the management of KV cache capacity and the layout of the KV cache that's the problem of the engine.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (speculative decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "让推测模型先连猜几个 token、目标模型并行批改,输出与顺序生成完全一致;把 decode 变成迷你 prefill,可带来 2 倍到 8 倍加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 434,
+          "t": [
+            3090.141,
+            3101.945
+          ],
+          "quote": "So one solution, key technique for solving this is speculative decoding, where you take a separate model, the speculator guess what the next couple of tokens will be, and then pass it through the target model.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tokenizer",
+      "type": "concept",
+      "role": "concept",
+      "name": "分词器 (tokenizer)",
+      "file": "分词器",
+      "primary": true,
+      "how_described": "做输入预处理的进程,通常多个并行(因输入 token 到达速率远高于输出);模型刚发布时常有小 bug,窍门是把 token ID 也记进日志",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            1090.673,
+            1098.14
+          ],
+          "quote": "So post-processing turns that new tensor into a response and that's generally done by this D tokenizer that goes back to the sort of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1513.161,
+            1517.125
+          ],
+          "quote": "It sends it to the tokenizer to prepare, preprocess this request.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1617.395,
+            1623.639
+          ],
+          "quote": "Is there communication between the tokenizer and the de-tokenizer?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1623.659,
+            1626.801
+          ],
+          "quote": "The question was, is there communication between the tokenizer and the de-tokenizer?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1629.248,
+            1633.872
+          ],
+          "quote": "To my knowledge, there is no direct communication between the tokenizer and the de-tokenizer in SGLang.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1686.261,
+            1695.743
+          ],
+          "quote": "Right, so the question was about basically maintaining coherence between the tokenizer and the de-tokenizer and how would you handle maybe ambiguous inputs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1697.244,
+            1705.966
+          ],
+          "quote": "The answer is that, yeah, they run the same underlying libraries, usually the tokenizer's library from Hugging Face.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1730.542,
+            1735.386
+          ],
+          "quote": "Yes, so the question was, does the software allow the tokenizer and detokenizer to always make the same decisions?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1761.58,
+            1776.327
+          ],
+          "quote": "Right, so, well, first pointing out that the tokenizer can be parallelized and generally is like multiple processes and yet you still see longer time to first token if you have longer input sequences, so why is that?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1833.009,
+            1844.278
+          ],
+          "quote": "And then finally, not a part of the question, but something I wanted to point out, it is interesting that you generally have multiple tokenizer processes and one detokenizer in the SGLang architecture, at least.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1887.573,
+            1892.618
+          ],
+          "quote": "Yeah, so the question was how much of the latency comes from this part in the tokenizer versus this part in the core loop?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1930.732,
+            1934.714
+          ],
+          "quote": "I actually have not had to think about the tokenizer latency very much.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1971.468,
+            1973.909
+          ],
+          "quote": "Also notable that nobody talks about tokenizer caching.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1974.229,
+            1977.19
+          ],
+          "quote": "People talk about KV caching, not tokenizer caching, even though you could do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            2003.321,
+            2011.488
+          ],
+          "quote": "Many of them, the tokenizer and the detokenizer are doing relatively compute-intensive work relative to most of what happens maybe in a web server.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2418.545,
+            2429.455
+          ],
+          "quote": "Tokenization of an image is just a harder problem than tokenization of a string of Unicode bytes conditioned on already having a tokenizer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            3363.966,
+            3369.067
+          ],
+          "quote": "For tokenizer bugs, hot tip, log the token IDs, set your engine up so that the token IDs are logged as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cuda-graphs",
+      "type": "concept",
+      "role": "concept",
+      "name": "CUDA 图 (CUDA graphs)",
+      "file": "CUDA 图",
+      "primary": true,
+      "how_described": "把前向传播中所有内核记录成一个操作 DAG,让 CPU 侧只需决定启动哪个图,把工作从 worker 进程抽到 GPU 上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            2148.828,
+            2158.954
+          ],
+          "quote": "And there's a few tricks like CUDA graphs that really just pull all the work out of the worker processes and into sort of fast stuff running on the GPU.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把后台智能体列为三大推理负载之一:像 Claude Code 那样干活但没人在等,几分钟出一个 PR 都可接受;极简引擎实现「对智能体来说更是绝佳」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            529.676,
+            536.179
+          ],
+          "quote": "So something like Devon, RampInspect, OpenClaw, or Herbies for a non-coding case of a background agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            780.703,
+            790.891
+          ],
+          "quote": "And we can map those back onto our application archetypes, like Chatbot Plus, background agent, really high prefix reuse, there's some interactivity going on, whether that's a person or an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            808.206,
+            812.13
+          ],
+          "quote": "With a background agent, you maybe have a few minutes to produce a PR, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1072.798,
+            1081.886
+          ],
+          "quote": "Data from the internet or data from what a helpful agent would do or RL data, whatever you learn to predict this next tensor entry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2884.602,
+            2890.993
+          ],
+          "quote": "But you want to be able to make use of that, especially if you have a giant system prompt for an agent system that's tens of thousands of tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 497,
+          "t": [
+            3523.782,
+            3526.183
+          ],
+          "quote": "You can point your coding agent at the coding base and ask questions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3526.563,
+            3547.612
+          ],
+          "quote": "Cognition also operates this thing called DeepWiki, which basically crawls a bunch of repos, including SGLang and vLLM, and writes nice architecture diagrams and makes this wiki-style page where you can read and then ask their agent questions, which is a nice thing to pair with your own agent setup.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "生产调试的关键:日志记的指标要远多于你以为需要的,因为不知道哪个交叉比对会让 bug 一眼看穿",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            464.436,
+            492.825
+          ],
+          "quote": "So I'll start by talking in more detail about those workloads, like what workloads land on these inference engines, and then move from that quickly into architecture, how these engines are designed, some of the key techniques that fit within that architecture to improve their performance, and then lastly, a key piece for making these things work in production, observability and debugability of these engines for correctness and for performance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            3239.981,
+            3243.703
+          ],
+          "quote": "All right, so observability with our last couple minutes here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            3310.274,
+            3315.575
+          ],
+          "quote": "So the goal with these, as with all kinds of production, debugging is observability.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "serverless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器 (serverless)",
+      "file": "无服务器",
+      "primary": false,
+      "how_described": "观众问到无服务器部署如何应对冷启动;嘉宾推荐 Modal 的 Truly Serverless GPUs 博客文章,并在流量峰值时自动扩副本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 388,
+          "t": [
+            2776.689,
+            2781.913
+          ],
+          "quote": "How does serverless inference engine use with whole-star problem?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2789.028,
+            2791.949
+          ],
+          "quote": "Yeah, so the question was about serverless deployments and cold starts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2798.151,
+            2802.632
+          ],
+          "quote": "There's a blog post called Truly Serverless GPUs that talks about how we solve that problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            3433.303,
+            3455.557
+          ],
+          "quote": "And so the solution in this case, with going back to the question about serverless deployments, is this is detected as increased load, you spin up new replicas, those replicas come online, they start taking on some of this request load, and then the amount queued decreases back down to baseline and things are, your congestion is solved.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "cold start",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

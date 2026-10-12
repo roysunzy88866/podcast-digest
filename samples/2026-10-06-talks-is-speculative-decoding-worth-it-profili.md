@@ -116,7 +116,7 @@ Sheila 用的是 [[vLLM|vLLM]] 这个[[推理|推理]]服务引擎，文档写�
 
 - [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同概念:GPU、KV 缓存 (KVCache)、推理 (inference)、vLLM、投机解码 (speculative decoding)</span>
 - [[2026-08-25-iltb-neil-movva-making-ai-10x-cheaper-invest|把 token 压到最便宜：一家「代币工厂」的算力拾荒术]]<span class="pd-rz">同概念:GPU、KV 缓存 (KVCache)、推理 (inference)</span>
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:投机解码 (speculative decoding)、推理 (inference)、vLLM</span>
+- [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|大模型背后：推理引擎到底在干什么]]<span class="pd-rz">同概念:vLLM、投机解码 (speculative decoding)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

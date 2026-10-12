@@ -127,9 +127,9 @@ LlamaParse 的提取能力朝「低成本同时极高准确率」调优,每个�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|搜代码不用向量库，搜公司文档为什么不行？]]<span class="pd-rz">同公司:LlamaIndex · 同概念:LightParse、LlamaParse、RAG、智能体 (agent)、Claude Code、向量数据库 (vector database)</span>
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)、向量数据库 (vector database)</span>
 - [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|智能体时代，你的 PDF 数据管道拖后腿了吗]]<span class="pd-rz">同概念:RAG、VLM、智能体 (agent)、上下文 (context)</span>
-- [[2026-10-05-talks-from-raw-documents-to-ai-ready-data-leo|从40份文件到8万份文件:企业AI落地卡在哪]]<span class="pd-rz">同概念:RAG、上下文 (context)、智能体 (agent)、向量数据库 (vector database)</span>
 
 </div>
 <div class="pd-ex">

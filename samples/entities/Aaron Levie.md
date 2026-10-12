@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Aaron Levie</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Aaron Levie">AA</div><div class="pi"><h1 class="pt">Aaron Levie</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>29</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Aaron Levie">AA</div><div class="pi"><h1 class="pt">Aaron Levie</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>33</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*29 条*
+*33 条*
 
 ![[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr#^q1]]
 
@@ -71,28 +71,37 @@ unlisted: true
 
 ![[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel#^q12]]
 
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q7]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q10]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q11]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q12]]
+
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-09-05-a16z-aaron-levie-on-why-open-ai-wins-yunuvhr|《开源权重不是威胁：Box CEO 聊 AI 的经济账》]] — 作为主持
 - [[2026-09-15-trainingdata-box-s-aaron-levie-on-reinventing-yoursel|《Box 创始人 Erin Levy：套壳的逆袭与应用层的万亿机会》]] — 作为主持
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Box]] · [[开放权重]] · [[推理]] · [[Sofia Puccini]] · [[智能体]] · [[Theo Jaffe]] · [[应用层]] · [[Anthropic]] · [[LLM 套壳]] · [[OpenAI]]
+[[Box]] · [[智能体]] · [[开放权重]] · [[推理]] · [[Sofia Puccini]] · [[应用层]] · [[Martin Casado]] · [[Theo Jaffe]] · [[LLM 套壳]] · [[Steven Sinofsky]]
 
-## ④ 也在聊「智能体」的人
+## ④ 也在聊「AI 安全」的人
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":4,"开放权重":9,"推理":92,"Sofia Puccini":4,"智能体":467,"Theo Jaffe":7,"应用层":4,"Anthropic":197,"LLM 套壳":1,"OpenAI":192}</script>
+<script type="application/json" class="pd-epn">{"Box":4,"智能体":471,"开放权重":9,"推理":94,"Sofia Puccini":4,"应用层":4,"Martin Casado":6,"Theo Jaffe":7,"LLM 套壳":1,"Steven Sinofsky":4}</script>
 
 <script>
 (function(){

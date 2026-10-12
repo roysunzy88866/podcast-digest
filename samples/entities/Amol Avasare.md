@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[Google]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[WorkOS]] · [[智能体编码]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Mercury]] · [[Meta]] · [[Google]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[WorkOS]]
 
 ## ④ 也在聊「增长与销售」的人
 
@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":197,"OpenAI":192,"Meta":51,"Google":70,"Cursor":86,"Lovable":19,"Slack":34,"WorkOS":10,"智能体编码":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":198,"OpenAI":193,"Mercury":5,"Meta":51,"Google":70,"Cursor":86,"Lovable":19,"Slack":34,"WorkOS":10}</script>
 
 <script>
 (function(){

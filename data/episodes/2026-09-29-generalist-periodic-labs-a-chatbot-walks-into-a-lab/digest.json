@@ -1,0 +1,203 @@
+{
+  "title_zh": "让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体",
+  "tldr": "ChatGPT 缔造者之一 Liam Fedus 与 DeepMind 科学家 Doj Chubuk 对谈,讲他们如何造一个能自己做实验的 AI 科学家。",
+  "digest_md": "大语言模型已经能写代码、做数学题,表现惊人。但在物理世界里,它们几乎一事无成。Liam Fedus 和 Doj Chubuk 创办的 Periodic Labs,就是要补上这一环:让 AI 真正走进实验室,自己设计实验、自己做、自己看结果、自己修正。Liam 曾在 OpenAI 领导后训练团队,是 ChatGPT 的缔造者之一;Doj 曾在 Google DeepMind 带一支化学与材料科学团队。\n\n## 为什么光“想”不够,AI 必须动手做实验?\n\n两人有个核心信念：只靠读论文、读教科书,再有“思考”能力也造不出新材料。他们称之为“thinkism is not enough”——空想主义不够 [02:46 Unknown]。\n\n道理很简单:代码写得好不是偶然,因为程序跑不跑得起来,计算机瞬间就能验证,等于自带答案。物理学也有答案——就是现实世界本身。但 **AI 没法自己去查这个答案,它必须真的做实验,把结果拿回来,再修正假设,形成闭环**。\n\n他们想造的系统叫“合成超级智能”:不是知道现有科学结论的系统,而是知道怎么“做科学”的系统 [03:09 Unknown]。\n\n## 为什么第一个目标是超导体?\n\n如果什么都能合成,那就先合成最有影响力的东西。量子计算、核聚变、无损耗输电,这些科幻场景背后都需要超导体 [06:11 Unknown]。\n\n超导还有个特点:自 1910 年代被发现以来,凝聚态物理的热点换了一轮又一轮,唯独它从不过时。而且,为了造出它,你得建起一整套模拟和 AI 基础设施——这些能力本身极具通用性。\n\n历史也给了他们启发。他最终成功把温度降到 4 开尔文以下，顺手发现了超导现象。他拿诺贝尔奖是因为液化氦，不是超导——**他只是创造了一种新能力，新发现自然随之而来**。\n\n> 【背景】这里指的是荷兰物理学家海克·卡末林·昂内斯(Heike Kamerlingh Onnes),他于 1908 年实现氦气液化，1911 年发现超导现象，并于 1913 年获诺贝尔物理学奖。\n\n## 做材料,难的不是“想出来”,而是“做出来”\n\n外行以为发现新材料最难的是想出点子。Doj 说,进过实验室的人都知道,**最难的是把想出来的东西做出来** [11:24 Unknown]。\n\n一个现成的例子:高温超导的发现者早年在做出铜氧化物超导体之前,其实先试的是镍氧化物——镍在元素周期表上就挨着铜。没做成,他放弃了。大约 40 年后,才有研究团队把镍氧化物做出来,证明它也是超导体。想和做之间,隔着 40 年。\n\n> 【背景】发现者指 IBM 苏黎世实验室的 K. Alex Müller,他于上世纪 80 年代发现铜氧化物高温超导;数十年后由斯坦福的 Harold Hwang 团队首次实现镍氧化物超导。\n\n==为什么做这么难==?你即便知道原子该怎么排,也得搞清楚用什么原料、什么比例、什么温度曲线、什么压力。就算做出来一次,复制也难:原料纯度每批不同,炉子用几次温度稳定性就开始乱跑。铜氧化物刚被发现时,有人怀疑是假的,因为别的实验室做不出来;如今它的做法已经写进教科书了。\n\n## 一次实验循环,具体长什么样?\n\n以做超导粉末为例。第一步,AI 决定混哪些原料——它可以直接告诉你该配什么,不只用人类的选择。然后把混合物放进炉子烧,机器人或人来操作都行,但要一天跑几千次,就必须靠机器人。\n\n烧完取出来,用 X 射线衍射仪看原子排成了什么结构——用的就是牙科那种 X 射线。关键来了:材料出来是不带标签的,衍射图样人未必看得懂,AI 能判断实验成功没成功。之后再测抗磁性,看它是不是超导体。\n\n他们最早建的 AI 系统之一,就是干这个的。Liam 说得直白:谁都能进实验室混一堆粉末说做了很多实验,但如果你看不见自己在做什么,就没有纠错循环,没有目的性 [33:27 Unknown]。\n\n## AI 科学家最值钱的本事:跨领域 + 抓细节\n\n他们的模型能同时达到两个博士的水平:模拟做到模拟博士的程度,实验数据分析做到数据分析博士的程度。而真人通常只会一头。\n\n有个真实案例:实验室里样品杯错位了两个位置,所有样品标签全乱。大语言模型翻完数据,发现只是逆时针转了两格,反过来一转全部对上。人也能做到,但太费神;而且一天几千个实验,只能靠它。\n\n更妙的一次:X 射线衍射结果显示做出来的东西既不是目标材料,数据库里也查不到。模型自己跑了一轮新模拟,推断出产物是什么,下一个实验验证了它的推断。\n\n## 最独特的资产:一份“科学过程的完整记录”\n\n现有的 AI 都是在科学的最终产物上训练的——论文、教科书里的结论。但那是事后的叙事,不是过程本身。**Periodic 小心记录每一次实验的意图、假设、计算预测、执行过程,把完整脉络缝合成数据** [34:09 Unknown]。\n\n这带来一种新的训练方式:给模型看某天之前所有实验证据的快照,问“接下来科学家做了什么,结果如何”。这些数据公开文献里不存在,所以也不会被预训练“污染”——模型没法靠背答案装样子 [39:45 Unknown]。\n\n## 不重复造轮子,但该自己造的绝不省\n\n能买现成的硬件就买,X 射线衍射仪已经有能一次放 40 个样品的高通量版本。但某些材料性质测量一小时只能测一个样品,跟不上吞吐量,他们就自己投工程改进。软件也一样:有个分析按第二间实验室的最大吞吐量算,一年要花大约 3000 万美元;他们把它压缩到小型模型里,成本降到百万美元以下 [43:51 Unknown]。\n\n## 怎么赚钱?参照软件和制药\n\n短期像 ChatGPT 之于程序员:先当副驾驶,帮客户更快到达答案,做定制系统收费。长期则想按“成果”收费——保留知识产权和最终产出的收益。如果模型权重里存着室温超导体的配方,你不会想通过一个软件授权合同把它卖掉 [47:58 Unknown]。\n\n制药业提供了参照:过去发现药物赚不到 IP 的钱,如今一个药物的 IP 就能卖几十亿美元。材料领域可能正站在同样的转折点上。\n\n## AI 如果明天停止进步,也没关系\n\nLiam 的回答出人意料:即使模型今天就冻结,以现有能力,物理学的每一个诺贝尔奖级别的分析都做得动——物理科学靠的并不是竞赛编程那种难度 [51:44 Unknown]。而且有些变化已经回不去了,比如图神经网络彻底改写的力场模拟,现在能覆盖整张元素周期表。\n\n真正让人乐观的一点:如果 Periodic 成功,世界上的科学家数量会变多,而不是变少。科学没有尽头,这和 AI 抢工作是完全相反的局面 [21:27 Unknown]。\n\n## 本集带走\n\n- 光靠“想”造不出新材料,AI 必须连上真实世界,做实验、看结果、再修正,形成闭环。\n- 材料发现的最大瓶颈不是想出新东西,而是把想出来的东西做出来、稳定复制出来。\n- Periodic 最独特的数据资产是科学过程的完整记录——意图、假设、执行、结果——这构成了公开文献里不存在的强化学习训练集。\n- 大语言模型的独特价值在跨领域专长和海量细节把关:同时懂模拟和实验,还能从乱数据里找出错位两个格子的标签错误。\n- 成功的 AI 科学不会减少科学家,反而会让更多人涌入这个没有尽头的领域。",
+  "quotes": [
+    {
+      "en": "So rather than knowing the state of science, it knows how to do science.",
+      "zh": "所以它不是知道科学的状态，而是知道如何做科学。",
+      "timestamp": "03:09",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "Which by definition means it cannot just rely on what we already know because science is trying to figure out what we don't yet know.",
+      "zh": "而从定义上讲，这意味着它不能仅仅依赖我们已经知道的东西，因为科学正是在试图弄清楚我们还不知道的东西。",
+      "timestamp": "03:51",
+      "speaker": "Liam Fedus"
+    },
+    {
+      "en": "And we don't think that a system trained in the way that they're trained today will think for a billion or a trillion tokens and suddenly intuit, here's a new high-temp superconductor.",
+      "zh": "我们不认为以今天这种训练方式训练出来的系统，会思考十亿或万亿个 token 后突然直观地领悟到：这里有一个新的高温超导体。",
+      "timestamp": "05:16",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "The data simply just doesn't exist, and that's how you're going to actually build new knowledge, not just rehash the existing knowledge.",
+      "zh": "数据根本就不存在，而这才是你真正构建新知识的方式，而不只是重复现有的知识。",
+      "timestamp": "05:40",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "And one of his very interesting ideas was that science should be done at an industrial scale by professionals.",
+      "zh": "他的一个非常有趣的想法是，科学应该由专业人士以工业化的规模来做。",
+      "timestamp": "08:13",
+      "speaker": "Liam Fedus"
+    },
+    {
+      "en": "It was further surprising because we had GPT-4 internally, and it wasn't this hugely viral product within the company.",
+      "zh": "更令人意外的是，我们内部已经有 GPT-4，而它在公司内部并没有成为一个爆火的产品。",
+      "timestamp": "23:11",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "But just a series of getting feedback, improving the task distribution, improving the data quality, just all these kind of boring details is what led to the system as of today.",
+      "zh": "但就是一连串的获取反馈、改进任务分布、改进数据质量，正是这些看似无聊的细节造就了今天的系统。",
+      "timestamp": "23:50",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "Because I often say the people who should run simulations and the people who know how to run simulations are usually disjoint sets of people.",
+      "zh": "因为我常说，应该运行模拟的人，和知道如何运行模拟的人，通常是不相交的两个人群。",
+      "timestamp": "37:08",
+      "speaker": "Liam Fedus"
+    },
+    {
+      "en": "Your pre-trained model already knows the answer, and you do reinforcement learning derived against an answer that was already in the pre-training corpus, that the system can basically fake some work, get to the right answer, and you reinforce those strategies.",
+      "zh": "你的预训练模型已经知道答案，而你针对一个已经存在于预训练语料库中的答案做强化学习时，系统基本上可以伪造一些工作、得到正确答案，而你会强化这些策略。",
+      "timestamp": "39:47",
+      "speaker": "Doj Chubuk"
+    },
+    {
+      "en": "But to be honest, outside of math, almost everything that's interesting is of this type, where the full context will never be available to you.",
+      "zh": "但说实话，除了数学之外，几乎所有有趣的事情都是这种类型，即完整上下文永远对你不可用。",
+      "timestamp": "50:36",
+      "speaker": "Liam Fedus"
+    },
+    {
+      "en": "What makes life interesting is when you don't have all the context, but you have to make decisions under uncertainty.",
+      "zh": "让生活有趣的是，你没有全部上下文，但你必须在不确定性下做决策。",
+      "timestamp": "50:48",
+      "speaker": "Liam Fedus"
+    },
+    {
+      "en": "I mean, I think from the software engineering side, we could literally stop today and find every existing Nobel Prize, at least from the physicals.",
+      "zh": "我的意思是，从软件工程这方面来说，我们今天完全可以停下来，去复现每一个现有的诺贝尔奖，至少物理学的。",
+      "timestamp": "51:40",
+      "speaker": "Doj Chubuk"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:09",
+      "speaker": "Unknown",
+      "en": "So rather than knowing the state of science, it knows how to do science.",
+      "zh": "所以它不是知道科学的状态，而是知道如何做科学。"
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Unknown",
+      "en": "Which by definition means it cannot just rely on what we already know because science is trying to figure out what we don't yet know.",
+      "zh": "而从定义上讲，这意味着它不能仅仅依赖我们已经知道的东西，因为科学正是在试图弄清楚我们还不知道的东西。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Unknown",
+      "en": "So there's like a clear tension between what we call machine learning and what we call science.",
+      "zh": "所以在我们所说的机器学习和我们所说的科学之间存在明显的张力。"
+    },
+    {
+      "timestamp": "04:36",
+      "speaker": "Unknown",
+      "en": "So we feel like LLM will have to do it too.",
+      "zh": "所以我们觉得 LLM 也将不得不这样做。"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Unknown",
+      "en": "And we don't think that a system trained in the way that they're trained today will think for a billion or a trillion tokens and suddenly intuit, here's a new high-temp superconductor.",
+      "zh": "我们不认为以今天这种训练方式训练出来的系统，会思考十亿或万亿个 token 后突然直观地领悟到：这里有一个新的高温超导体。"
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Unknown",
+      "en": "The data simply just doesn't exist, and that's how you're going to actually build new knowledge, not just rehash the existing knowledge.",
+      "zh": "数据根本就不存在，而这才是你真正构建新知识的方式，而不只是重复现有的知识。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Unknown",
+      "en": "And if you think about the history of condensed matter physics, it goes through these seven year or so cycles of what's very popular and then it falls out.",
+      "zh": "如果你回顾凝聚态物理的历史，它大约每七年左右经历这样的周期：某个方向很热门，然后又失宠。"
+    },
+    {
+      "timestamp": "08:13",
+      "speaker": "Unknown",
+      "en": "And one of his very interesting ideas was that science should be done at an industrial scale by professionals.",
+      "zh": "他的一个非常有趣的想法是，科学应该由专业人士以工业化的规模来做。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Unknown",
+      "en": "But if you go in the lab, usually the hardest part is making the thing you discovered, because it's kind of relatively easy to figure out what could be an interesting material.",
+      "zh": "但如果你走进实验室，通常最难的部分是把发现的东西做出来，因为弄清楚什么可能是有趣的材料相对来说还算容易。"
+    },
+    {
+      "timestamp": "22:27",
+      "speaker": "Unknown",
+      "en": "And it was a two-week sprint, and then we turned this into ChatGPT.",
+      "zh": "那是一个为期两周的冲刺，然后我们把它变成了 ChatGPT。"
+    },
+    {
+      "timestamp": "23:11",
+      "speaker": "Unknown",
+      "en": "It was further surprising because we had GPT-4 internally, and it wasn't this hugely viral product within the company.",
+      "zh": "更令人意外的是，我们内部已经有 GPT-4，而它在公司内部并没有成为一个爆火的产品。"
+    },
+    {
+      "timestamp": "23:50",
+      "speaker": "Unknown",
+      "en": "But just a series of getting feedback, improving the task distribution, improving the data quality, just all these kind of boring details is what led to the system as of today.",
+      "zh": "但就是一连串的获取反馈、改进任务分布、改进数据质量，正是这些看似无聊的细节造就了今天的系统。"
+    },
+    {
+      "timestamp": "29:21",
+      "speaker": "Unknown",
+      "en": "For example, we expect that if we are successful with periodic, it will actually increase the number of scientists in the world.",
+      "zh": "例如，我们预期，如果我们在 Periodic 上取得成功，它实际上会增加世界上科学家的数量。"
+    },
+    {
+      "timestamp": "34:09",
+      "speaker": "Unknown",
+      "en": "So this is what I was alluding to at the beginning, where most AI has been trained on the final artifacts of science.",
+      "zh": "这就是我在开头暗示的东西，大多数 AI 都是在科学的最终产物上训练的。"
+    },
+    {
+      "timestamp": "37:08",
+      "speaker": "Unknown",
+      "en": "Because I often say the people who should run simulations and the people who know how to run simulations are usually disjoint sets of people.",
+      "zh": "因为我常说，应该运行模拟的人，和知道如何运行模拟的人，通常是不相交的两个人群。"
+    },
+    {
+      "timestamp": "39:47",
+      "speaker": "Unknown",
+      "en": "Your pre-trained model already knows the answer, and you do reinforcement learning derived against an answer that was already in the pre-training corpus, that the system can basically fake some work, get to the right answer, and you reinforce those strategies.",
+      "zh": "你的预训练模型已经知道答案，而你针对一个已经存在于预训练语料库中的答案做强化学习时，系统基本上可以伪造一些工作、得到正确答案，而你会强化这些策略。"
+    },
+    {
+      "timestamp": "43:16",
+      "speaker": "Unknown",
+      "en": "One of my friends had used the example of you could read a manual on how to play a saxophone versus learning how to play the saxophone.",
+      "zh": "我的一个朋友举过一个例子：你可以读一本关于如何吹萨克斯的手册，相对于真正学会吹萨克斯。"
+    },
+    {
+      "timestamp": "50:36",
+      "speaker": "Unknown",
+      "en": "But to be honest, outside of math, almost everything that's interesting is of this type, where the full context will never be available to you.",
+      "zh": "但说实话，除了数学之外，几乎所有有趣的事情都是这种类型，即完整上下文永远对你不可用。"
+    },
+    {
+      "timestamp": "50:48",
+      "speaker": "Unknown",
+      "en": "What makes life interesting is when you don't have all the context, but you have to make decisions under uncertainty.",
+      "zh": "让生活有趣的是，你没有全部上下文，但你必须在不确定性下做决策。"
+    },
+    {
+      "timestamp": "51:40",
+      "speaker": "Unknown",
+      "en": "I mean, I think from the software engineering side, we could literally stop today and find every existing Nobel Prize, at least from the physicals.",
+      "zh": "我的意思是，从软件工程这方面来说，我们今天完全可以停下来，去复现每一个现有的诺贝尔奖，至少物理学的。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊两个很厉害的人，正在做的一件挺疯狂的事：造一个能自己动手做实验的AI科学家。\n\n先说说这两位是谁。一位叫Liam Fedus,曾经在OpenAI领导后训练团队，是ChatGPT的缔造者之一。另一位叫Doj Chubuk,之前在Google DeepMind带一支化学与材料科学的团队。这两个人一起创办了一家公司，叫Periodic Labs,做的事一句话就能说明白：大语言模型现在写代码、做数学题都很惊人，可一到物理世界，几乎一事无成——他们要补上的，就是这一环，让AI真正走进实验室，自己设计实验、自己做、自己看结果、自己修正。\n\n那为什么非要AI动手做实验？他们有个核心信念，原话挺有意思，叫“空想主义不够”。意思是，光靠读论文、读教科书，AI的“思考”能力再强，也造不出新材料。道理其实不复杂：代码为什么能写得好？不是偶然，因为程序跑不跑得起来，计算机瞬间就能验证，等于自带答案。物理学其实也有答案，就是现实世界本身。问题是，AI没法自己去查这个答案，它必须真的做实验，把结果拿回来，再修正假设，形成闭环。所以他们想造的系统有个名字，叫“合成超级智能”——注意，不是知道现有科学结论的系统，而是知道怎么“做科学”的系统。\n\n那第一个目标选什么呢？他们选了超导体。为什么？逻辑很直接：如果什么都能合成，那就先合成最有影响力的东西。你想想，量子计算、核聚变、无损耗输电，这些科幻场景背后，都需要超导体。而且超导这个东西，从1910年代被发现以来，凝聚态物理的热点换了一轮又一轮，唯独它从不过时。还有一层：为了造出它，你得建起一整套模拟和AI基础设施，而这些能力本身极具通用性。\n\n这里还有一段历史，给了他们很大启发。一百多年前，荷兰物理学家昂内斯把温度降到4开尔文以下，顺手发现了超导现象。但有意思的是，他拿诺贝尔奖靠的是液化氦，不是超导。这说明什么？他只是创造了一种新能力，新发现自然就跟着来了。Periodic想做的，也是先造能力。\n\n好，那问题来了——造材料这件事，到底难在哪儿？外行一般觉得，发现新材料，最难的是想出好点子。Doj说，进过实验室的人都知道，最难的是把想出来的东西做出来。举个现成的例子：高温超导的发现者，早年在做出铜氧化物超导体之前，其实先试的是镍氧化物——镍在元素周期表上就挨着铜。当时没做成，就放弃了。结果大约40年后，才有研究团队把镍氧化物做出来，证明它也是超导体。你看，想和做之间，隔着40年。\n\n为什么做这么难？你即便知道原子该怎么排，也得搞清楚用什么原料、什么比例、什么温度曲线、什么压力。就算做出来一次，复制也难：原料纯度每批不同，炉子用几次，温度稳定性就开始乱跑。铜氧化物刚被发现的时候，甚至有人怀疑是假的，因为别的实验室做不出来；如今它的做法早就写进教科书了。\n\n那一次完整的实验循环，具体长什么样？以做超导粉末为例。第一步，AI决定混哪些原料——它可以直接告诉你该配什么，不只用人类的选择。然后把混合物放进炉子烧，机器人或者人来操作都行，但要一天跑几千次，就必须靠机器人。烧完取出来，用X射线衍射仪看原子排成了什么结构——用的就是牙科那种X射线。关键在这儿：材料出来是不带标签的，衍射图样人未必看得懂，但AI能判断实验成功没成功。之后再测抗磁性，看它到底是不是超导体。他们最早建的AI系统之一，就是干这个的。Liam说得直白：谁都能进实验室混一堆粉末，说做了很多实验，但如果你看不见自己在做什么，就没有纠错循环，没有目的性。\n\n说到这儿，你可能要问：AI科学家到底比真人强在哪？答案是两样东西。第一是跨领域，他们的模型能同时达到两个博士的水平——模拟做到模拟博士的程度，实验数据分析做到数据分析博士的程度，而真人通常只会一头。第二是抓细节，而且是不知疲倦地抓细节。有个真实案例：实验室里样品杯错位了两个位置，所有样品标签全乱了。大语言模型翻完数据，发现只是逆时针转了两格，反过来一转，全部对上。这事儿人也能做到，但太费神；而且一天几千个实验，只能靠它。更妙的一次是，X射线衍射结果显示，做出来的东西既不是目标材料，数据库里也查不到。模型自己跑了一轮新模拟，推断出产物是什么，下一个实验，验证了它的推断。\n\n讲到这儿，就引出这家公司最独特的一笔资产了。你想，现有的AI都是在科学的最终产物上训练的——论文、教科书里的结论。但那是事后的叙事，不是过程本身。Periodic反着来：他们小心记录每一次实验的意图、假设、计算预测、执行过程，把完整脉络缝合成数据。这就带来一种全新的训练方式：给模型看某天之前所有实验证据的快照，问它“接下来科学家做了什么，结果如何”。这些数据，公开文献里根本不存在，所以也不会被预训练污染——模型没法靠背答案装样子。说白了，这才是你真正构建新知识的方式，而不只是重复现有的知识。\n\n顺着这个思路，工程上他们的原则也清楚了：能买现成的硬件就买，比如X射线衍射仪已经有能一次放40个样品的高通量版本。但有些测量跟不上吞吐量，就自己投工程改进。软件也一样：有个分析，按第二间实验室的最大吞吐量算，一年要花大约3000万美元；他们把它压缩到小型模型里，成本降到了百万美元以下。\n\n那这门生意怎么赚钱？短期像ChatGPT之于程序员：先当副驾驶，帮客户更快到达答案，做定制系统收费。长期呢，想按“成果”收费——保留知识产权和最终产出的收益。理由很硬：如果模型权重里存着室温超导体的配方，你不会想通过一个软件授权合同把它卖掉。制药业就是参照：过去发现药物赚不到知识产权的钱，如今一个药物的IP能卖几十亿美元。材料领域，可能正站在同样的转折点上。\n\n最后说一个出人意料的回答。有人问，AI如果明天就停止进步呢？Liam说，没关系——即使模型今天就冻结，以现有能力，物理学的每一个诺贝尔奖级别的分析都做得动，物理科学靠的并不是竞赛编程那种难度。而且有些变化已经回不去了，比如图神经网络彻底改写的力场模拟，现在能覆盖整张元素周期表。\n\n但整期听下来，最让人乐观的其实是这样一句话：如果Periodic成功，世界上的科学家数量会变多，而不是变少。科学没有尽头——这和AI抢工作，是完全相反的局面。"
+}

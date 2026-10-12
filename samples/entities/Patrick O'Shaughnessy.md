@@ -23,7 +23,7 @@ unlisted: true
 
 [[NVIDIA]] · [[推理]] · [[Anthropic]] · [[Cursor]] · [[OpenAI]] · [[TSMC]] · [[Eric Vishria]] · [[Ben Thompson]] · [[Neil Movva]] · [[Fireworks]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":67,"推理":92,"Anthropic":197,"Cursor":86,"OpenAI":192,"TSMC":9,"Eric Vishria":1,"Ben Thompson":2,"Neil Movva":1,"Fireworks":7}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":68,"推理":94,"Anthropic":198,"Cursor":86,"OpenAI":193,"TSMC":9,"Eric Vishria":1,"Ben Thompson":2,"Neil Movva":1,"Fireworks":7}</script>
 
 <script>
 (function(){

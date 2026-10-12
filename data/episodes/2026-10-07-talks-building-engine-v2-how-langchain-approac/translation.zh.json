@@ -1,0 +1,1306 @@
+[
+ {
+  "seg": 0,
+  "start": 5.35,
+  "end": 5.851,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 6.251,
+  "end": 7.732,
+  "speaker": "Unknown",
+  "en": "Very excited to be chatting with you today.",
+  "zh": "非常高兴今天能和大家聊天。"
+ },
+ {
+  "seg": 2,
+  "start": 8.673,
+  "end": 9.875,
+  "speaker": "Unknown",
+  "en": "Like Harrison said, I'm Ben.",
+  "zh": "正如 Harrison 所说,我是 Ben。"
+ },
+ {
+  "seg": 3,
+  "start": 10.075,
+  "end": 11.016,
+  "speaker": "Unknown",
+  "en": "I'm the product manager.",
+  "zh": "我是产品经理。"
+ },
+ {
+  "seg": 4,
+  "start": 11.056,
+  "end": 15.16,
+  "speaker": "Unknown",
+  "en": "I work on our product engine, which is our agent for agent engineering.",
+  "zh": "我负责我们的产品 Engine,它是我们用于智能体工程的智能体。"
+ },
+ {
+  "seg": 5,
+  "start": 16.321,
+  "end": 25.27,
+  "speaker": "Unknown",
+  "en": "What I want to do today is walk you through the process that we have at LangChain of developing and improving our agents through engine, right?",
+  "zh": "今天我想做的是带大家了解我们在 LangChain 用于通过 Engine 开发和改进智能体的流程,对吧?"
+ },
+ {
+  "seg": 6,
+  "start": 25.33,
+  "end": 27.993,
+  "speaker": "Unknown",
+  "en": "This agent for engineering, agent engineering, I should say.",
+  "zh": "这个用于工程(engineering)的智能体,应该说,是用于智能体工程的智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 29.268,
+  "end": 33.331,
+  "speaker": "Unknown",
+  "en": "Now, the process of building agents we're very familiar with, it's very challenging.",
+  "zh": "现在,构建智能体的流程我们已经很熟悉了,它非常具有挑战性。"
+ },
+ {
+  "seg": 8,
+  "start": 33.831,
+  "end": 51.703,
+  "speaker": "Unknown",
+  "en": "Everything from the identification of errors as you manually look through traces, as you try to cluster them together based on the different problems that you identify, this kind of root cause analysis for those problems, the spinning up of fixes, the writing of evals, this entire process from start to finish can be very challenging.",
+  "zh": "从当你手动翻看追踪记录时的错误识别,到你根据所识别的不同问题尝试把它们聚类在一起,到针对这些问题的这类根因分析,到修复方案的启动,再到评估(evals)的编写,这整个从头到尾的流程都可能非常具有挑战性。"
+ },
+ {
+  "seg": 9,
+  "start": 52.223,
+  "end": 55.985,
+  "speaker": "Unknown",
+  "en": "And so what we've built in Engine is a product and a tool",
+  "zh": "所以我们在 Engine 中构建的产品和工具"
+ },
+ {
+  "seg": 10,
+  "start": 56.966,
+  "end": 84.335,
+  "speaker": "Unknown",
+  "en": "that handles each step of this process, that works to identify the different issues that you might find within your traces, that creates deployable fixes for each one of those identified issues, creates ready-to-use evals for you to run offline and ensure that these fixes work appropriately without regressing, and additional regression detection for any of the issues that might crop back up again after you've attempted to fix them previously.",
+  "zh": "会处理这个流程的每一步:它致力于识别你可能在追踪记录中发现的不同问题,为每一个被识别的问题创建可部署的修复,创建开箱即用的评估供你离线运行,以确保这些修复正常工作而不出现性能回退,还提供额外的回退检测,针对那些在你之前尝试修复后可能再次出现的问题。"
+ },
+ {
+  "seg": 11,
+  "start": 85.465,
+  "end": 87.186,
+  "speaker": "Unknown",
+  "en": "So we're really excited about Engine.",
+  "zh": "所以我们对 Engine 真的非常兴奋。"
+ },
+ {
+  "seg": 12,
+  "start": 87.286,
+  "end": 91.267,
+  "speaker": "Unknown",
+  "en": "We launched it in May at our Interrupt in San Francisco.",
+  "zh": "我们在五月份于旧金山举办的 Interrupt 大会上发布了它。"
+ },
+ {
+  "seg": 13,
+  "start": 91.847,
+  "end": 100.41,
+  "speaker": "Unknown",
+  "en": "And since then, Engine has scanned over 70 million traces and has created over 21,000 issues for the many customers that are using it today.",
+  "zh": "从那以后,Engine 已经扫描了超过 7000 万条追踪记录,并为今天正在使用它的众多客户创建了超过 21000 个问题。"
+ },
+ {
+  "seg": 14,
+  "start": 100.97,
+  "end": 110.193,
+  "speaker": "Unknown",
+  "en": "We're really excited about this progress, but we've had a lot of time and a lot of effort spent on making Engine much better than the version that we released in May as our public beta.",
+  "zh": "我们对这一进展真的非常兴奋,但我们也花费了大量的时间和精力,让 Engine 远好于我们五月份作为公开测试版发布的那一版。"
+ },
+ {
+  "seg": 15,
+  "start": 111.013,
+  "end": 129.729,
+  "speaker": "Unknown",
+  "en": "And so like I said, the hope of today's little talk and session that I have is I want to walk you through this process that our team has followed for making Engine better and for making this a product that is faster, stronger, cheaper, and go beyond what we have today within this existing agent development lifecycle and what's automated today.",
+  "zh": "所以正如我所说,今天这个小演讲和分享环节的期望是,我想带大家了解我们团队为了让 Engine 变得更好、为了让它成为一个更快、更强、更便宜的产品所遵循的流程,并超越我们今天在这个现有智能体开发生命周期中所拥有的以及目前所自动化的部分。"
+ },
+ {
+  "seg": 16,
+  "start": 131.648,
+  "end": 137.069,
+  "speaker": "Unknown",
+  "en": "The number one thing that I want to talk about actually is the process for evaluating Engine.",
+  "zh": "实际上,我最想谈的第一件事就是评估 Engine 的流程。"
+ },
+ {
+  "seg": 17,
+  "start": 137.849,
+  "end": 144.011,
+  "speaker": "Unknown",
+  "en": "As we have been building this very complex agent, it's been very hard to create these evals for Engine as well.",
+  "zh": "在构建这个非常复杂的智能体的过程中,为 Engine 本身创建评估也一直非常困难。"
+ },
+ {
+  "seg": 18,
+  "start": 144.571,
+  "end": 150.372,
+  "speaker": "Unknown",
+  "en": "And the reason that it's so hard for Engine is because of the many complex tasks that are handled by this agent.",
+  "zh": "而对 Engine 来说之所以这么难,是因为这个智能体要处理许多复杂的任务。"
+ },
+ {
+  "seg": 19,
+  "start": 150.752,
+  "end": 161.295,
+  "speaker": "Unknown",
+  "en": "And so to run you through some of the tasks that are handled, Engine will identify these offending or problematic traces and cluster them together after identifying a root cause.",
+  "zh": "带大家过一遍它所处理的一些任务:Engine 会识别这些有问题的或有毛病的追踪记录,并在确定根因后将它们聚类在一起。"
+ },
+ {
+  "seg": 20,
+  "start": 162.015,
+  "end": 166.599,
+  "speaker": "Unknown",
+  "en": "It will write a readable issue description for a human to read through and parse.",
+  "zh": "它会撰写一份可读的问题描述,供人类阅读和理解。"
+ },
+ {
+  "seg": 21,
+  "start": 167.22,
+  "end": 173.685,
+  "speaker": "Unknown",
+  "en": "It will investigate that issue and compare the traces to the actual source code of your agent to create a fix.",
+  "zh": "它会调查那个问题,并将追踪记录与你智能体的实际源代码进行比对,以创建修复方案。"
+ },
+ {
+  "seg": 22,
+  "start": 174.366,
+  "end": 182.273,
+  "speaker": "Unknown",
+  "en": "It will create dataset examples using the offending inputs that it found in production and by creating these ground truth reference outputs.",
+  "zh": "它会利用它在生产环境中发现的有问题的输入来创建数据集示例,并通过创建这些标准参考输出(ground truth reference outputs)来完成。"
+ },
+ {
+  "seg": 23,
+  "start": 182.873,
+  "end": 185.916,
+  "speaker": "Unknown",
+  "en": "It will monitor for regressions to ensure that this problem doesn't happen again.",
+  "zh": "它会监控是否出现回退,以确保这个问题不再发生。"
+ },
+ {
+  "seg": 24,
+  "start": 186.417,
+  "end": 190.12,
+  "speaker": "Unknown",
+  "en": "And so I'm running through all these different stages of this agent and the work that it does.",
+  "zh": "我刚才快速过了一遍这个智能体的所有这些不同阶段以及它所做的工作。"
+ },
+ {
+  "seg": 25,
+  "start": 190.321,
+  "end": 193.744,
+  "speaker": "Unknown",
+  "en": "And each one of these tasks is very different from the last.",
+  "zh": "而其中每一项任务都与上一项非常不同。"
+ },
+ {
+  "seg": 26,
+  "start": 194.325,
+  "end": 201.312,
+  "speaker": "Unknown",
+  "en": "And so in order for us to ensure that engine performs well and that we can make it better and cheaper, we need to be evaluating these separately.",
+  "zh": "所以为了确保 Engine 表现良好、并且我们能让它变得更好更便宜,我们需要对它们分别进行评估。"
+ },
+ {
+  "seg": 27,
+  "start": 201.672,
+  "end": 206.317,
+  "speaker": "Unknown",
+  "en": "And so we have created unique benchmarks for each one of these tasks.",
+  "zh": "所以我们为其中每一项任务都创建了独特的基准测试。"
+ },
+ {
+  "seg": 28,
+  "start": 206.937,
+  "end": 220.223,
+  "speaker": "Unknown",
+  "en": "And so, for example, we have created a unique benchmark for identifying these offending traces that allows us to test engine and understand how well is it able to identify problematic traces.",
+  "zh": "举例来说,我们为识别这些有问题的追踪记录创建了一个独特的基准测试,它让我们能够测试 Engine,并了解它识别有毛病的追踪记录的能力有多强。"
+ },
+ {
+  "seg": 29,
+  "start": 220.884,
+  "end": 224.866,
+  "speaker": "Unknown",
+  "en": "And so in order for us to assess this adequately, the benchmark that we've generated",
+  "zh": "而为了让我们能够充分评估这一点,我们所生成的这个基准测试"
+ },
+ {
+  "seg": 30,
+  "start": 226.652,
+  "end": 231.019,
+  "speaker": "Unknown",
+  "en": "is a set of traces with seeded problems within them.",
+  "zh": "是一组内部埋入了问题的追踪记录。"
+ },
+ {
+  "seg": 31,
+  "start": 231.84,
+  "end": 235.526,
+  "speaker": "Unknown",
+  "en": "And so it's like finding a needle in a haystack of traces.",
+  "zh": "这就像是在追踪记录的 haystack(干草堆)里找针一样。"
+ },
+ {
+  "seg": 32,
+  "start": 236.127,
+  "end": 239.092,
+  "speaker": "Unknown",
+  "en": "And we just test engine's ability to find these problematic traces.",
+  "zh": "我们只是测试 Engine 找到这些有毛病的追踪记录的能力。"
+ },
+ {
+  "seg": 33,
+  "start": 239.492,
+  "end": 241.415,
+  "speaker": "Unknown",
+  "en": "Now that benchmark is separate from",
+  "zh": "这个基准测试与"
+ },
+ {
+  "seg": 34,
+  "start": 242.196,
+  "end": 247.139,
+  "speaker": "Unknown",
+  "en": "Another one that's very similar, which is Engine's ability to cluster those traces by root cause.",
+  "zh": "另一个非常类似的基准测试是分开的,后者测试的是 Engine 按根因对这些追踪记录进行聚类的能力。"
+ },
+ {
+  "seg": 35,
+  "start": 247.699,
+  "end": 256.364,
+  "speaker": "Unknown",
+  "en": "For this benchmark, we provide Engine, the agent, with a set of known error traces, as well as a series of existing issues.",
+  "zh": "对于这个基准测试,我们向 Engine 这个智能体提供一组已知的错误追踪记录,以及一系列已存在的问题。"
+ },
+ {
+  "seg": 36,
+  "start": 256.905,
+  "end": 263.549,
+  "speaker": "Unknown",
+  "en": "And we evaluate Engine's ability to match these known error traces to the set of issues or to create new issues.",
+  "zh": "我们评估 Engine 将这些已知错误追踪记录匹配到问题集合的能力,或者创建新问题的能力。"
+ },
+ {
+  "seg": 37,
+  "start": 264.289,
+  "end": 267.351,
+  "speaker": "Unknown",
+  "en": "And so these are just a couple of the benchmarks that we've generated.",
+  "zh": "所以这些只是我们生成的众多基准测试中的几个。"
+ },
+ {
+  "seg": 38,
+  "start": 267.771,
+  "end": 276.816,
+  "speaker": "Unknown",
+  "en": "But like I said, for each one of these various tasks, we have to create new benchmarks and ensure that Engine is performing and is firing on all cylinders for each one of these different tasks that it handles.",
+  "zh": "但正如我所说,对于这些不同的任务中的每一项,我们都必须创建新的基准测试,并确保 Engine 在它所处理的每一项不同任务上都能表现出色、全力运转。"
+ },
+ {
+  "seg": 39,
+  "start": 280.121,
+  "end": 295.768,
+  "speaker": "Unknown",
+  "en": "And so something interesting that I want to highlight as we talk about these benchmarks is that there are two sides to this coin, where we have evals that we need to ensure these benchmarks that we've created that help us to test very specific components of the agent's run.",
+  "zh": "在我们谈论这些基准测试时,我想强调的一个有趣的点是,这枚硬币有两面:一面是我们需要评估(eval)来确保这些我们创建的、帮助我们测试智能体运行中非常具体组件的基准测试;"
+ },
+ {
+  "seg": 40,
+  "start": 296.369,
+  "end": 302.992,
+  "speaker": "Unknown",
+  "en": "But we also want to ensure that those benchmarks are faithful to what we would see in a production environment, which is the other side of that coin.",
+  "zh": "但我们还想确保那些基准测试忠实于我们在生产环境中所见到的情况,这是硬币的另一面。"
+ },
+ {
+  "seg": 41,
+  "start": 303.752,
+  "end": 312.435,
+  "speaker": "Unknown",
+  "en": "And so in order to ensure that any of the changes that we find very effective against our benchmarks really are effective in a production environment, we dogfood engine.",
+  "zh": "所以为了确保任何我们发现在基准测试上非常有效的改动,在生产环境中也确实有效,我们会自己内部使用(dogfood)Engine。"
+ },
+ {
+  "seg": 42,
+  "start": 312.455,
+  "end": 313.795,
+  "speaker": "Unknown",
+  "en": "We try our own products a lot.",
+  "zh": "我们在自己的产品上做了大量尝试。"
+ },
+ {
+  "seg": 43,
+  "start": 314.296,
+  "end": 324.299,
+  "speaker": "Unknown",
+  "en": "And we have many different agents that we build at LangChain, including go-to-market agents that handle a bunch of go-to-market-related tasks, like sending outbound, doing prospect research.",
+  "zh": "我们在 LangChain 构建了许多不同的智能体,包括处理一堆与市场推广(go-to-market)相关任务的市推智能体,比如发送外联消息、做潜在客户调研。"
+ },
+ {
+  "seg": 44,
+  "start": 325.059,
+  "end": 329.441,
+  "speaker": "Unknown",
+  "en": "And we also have coding agents that are invoked via Slack or via GitHub.",
+  "zh": "我们还有通过 Slack 或 GitHub 调用的编程智能体。"
+ },
+ {
+  "seg": 45,
+  "start": 330.042,
+  "end": 333.643,
+  "speaker": "Unknown",
+  "en": "And so each of these agents that we have built, we run Engine on top of.",
+  "zh": "所以我们构建的每一个智能体,都在其上运行 Engine。"
+ },
+ {
+  "seg": 46,
+  "start": 334.144,
+  "end": 335.664,
+  "speaker": "Unknown",
+  "en": "And Engine will find errors.",
+  "zh": "Engine 会发现错误。"
+ },
+ {
+  "seg": 47,
+  "start": 335.804,
+  "end": 338.006,
+  "speaker": "Unknown",
+  "en": "It will send those issues to our Slack.",
+  "zh": "它会把这些问题发送到我们的 Slack。"
+ },
+ {
+  "seg": 48,
+  "start": 338.386,
+  "end": 339.506,
+  "speaker": "Unknown",
+  "en": "We can investigate them.",
+  "zh": "我们可以去调查它们。"
+ },
+ {
+  "seg": 49,
+  "start": 339.846,
+  "end": 348.471,
+  "speaker": "Unknown",
+  "en": "The teams that are working on these go-to-market agents or the coding agents can tell us that Engine has found really valuable issues or something is wrong with this description.",
+  "zh": "那些负责市推智能体或编程智能体的团队可以告诉我们,Engine 发现了非常有价值的问题,或者这个描述有什么问题。"
+ },
+ {
+  "seg": 50,
+  "start": 348.931,
+  "end": 350.492,
+  "speaker": "Unknown",
+  "en": "And it really helps us to balance out",
+  "zh": "而这真的帮助我们平衡了"
+ },
+ {
+  "seg": 51,
+  "start": 350.892,
+  "end": 356.693,
+  "speaker": "Unknown",
+  "en": "This process that we have had on the benchmarking and the evaluating of Engine on these specific tasks.",
+  "zh": "我们在针对这些特定任务对 Engine 进行基准测试和评估时所经历的这一过程。"
+ },
+ {
+  "seg": 52,
+  "start": 357.554,
+  "end": 364.515,
+  "speaker": "Unknown",
+  "en": "But maybe the most interesting of this dogfooding is that we actually run Engine on top of Engine.",
+  "zh": "但也许这种 dogfooding 最有趣的地方在于，我们实际上是在 Engine 之上运行 Engine。"
+ },
+ {
+  "seg": 53,
+  "start": 364.935,
+  "end": 370.997,
+  "speaker": "Unknown",
+  "en": "So as Engine investigates traces for our go-to-market agents and for our coding agents, it produces traces.",
+  "zh": "所以当 Engine 为我们的 go-to-market 智能体和编码智能体调查 trace 时，它会产生 trace。"
+ },
+ {
+  "seg": 54,
+  "start": 371.657,
+  "end": 374.518,
+  "speaker": "Unknown",
+  "en": "And those traces are scanned by another instance of Engine.",
+  "zh": "而这些 trace 会被另一个 Engine 实例扫描。"
+ },
+ {
+  "seg": 55,
+  "start": 374.538,
+  "end": 376.038,
+  "speaker": "Unknown",
+  "en": "We call it the meta-engine.",
+  "zh": "我们把它叫做 meta-engine。"
+ },
+ {
+  "seg": 56,
+  "start": 377.071,
+  "end": 382.053,
+  "speaker": "Unknown",
+  "en": "And we've hooked up this Meta Engine to send us Slack notifications in the same way.",
+  "zh": "而且我们已经把这个 Meta Engine 接入，以同样的方式向我们发送 Slack 通知。"
+ },
+ {
+  "seg": 57,
+  "start": 382.113,
+  "end": 393.038,
+  "speaker": "Unknown",
+  "en": "And so our team gets notified when our own product is acting up in a little way or something might have failed or there's a suboptimal response in one of the outputs that Engine has.",
+  "zh": "这样，当我们自己的产品出现一点小问题、或者某些东西可能失败了、或者 Engine 的某个输出中存在次优响应时，我们的团队就会收到通知。"
+ },
+ {
+  "seg": 58,
+  "start": 393.639,
+  "end": 398.881,
+  "speaker": "Unknown",
+  "en": "And so it's actually becoming one of the primary ways that we identify opportunities for growth on Engine.",
+  "zh": "所以这实际上正在成为我们发现 Engine 增长机会的主要方式之一。"
+ },
+ {
+  "seg": 59,
+  "start": 399.121,
+  "end": 403.203,
+  "speaker": "Unknown",
+  "en": "And our team is constantly monitoring this Slack feed of notifications with these issues.",
+  "zh": "而我们的团队在持续监控这个充满这些问题的 Slack 通知流。"
+ },
+ {
+  "seg": 60,
+  "start": 405.662,
+  "end": 415.354,
+  "speaker": "Unknown",
+  "en": "I want to highlight a couple of interesting just notes and kind of thoughts that we've had as we have been working on improving Engine, specifically around kind of our use of different models.",
+  "zh": "我想强调几个有趣的笔记和我们的一些想法，那是我们在改进 Engine 的过程中产生的，特别是围绕我们对不同模型的使用。"
+ },
+ {
+  "seg": 61,
+  "start": 416.876,
+  "end": 422.222,
+  "speaker": "Unknown",
+  "en": "Something interesting is that different tasks obviously require different levels of intelligence.",
+  "zh": "有趣的一点是，不同的任务显然需要不同级别的智能。"
+ },
+ {
+  "seg": 62,
+  "start": 422.242,
+  "end": 423.484,
+  "speaker": "Unknown",
+  "en": "Something that I have been surprised by is",
+  "zh": "让我感到惊讶的一点是"
+ },
+ {
+  "seg": 63,
+  "start": 425.005,
+  "end": 431.307,
+  "speaker": "Unknown",
+  "en": "It may seem obvious that if you use not a frontier intelligence model, that it will be cheaper.",
+  "zh": "如果你使用的不是前沿智能模型，那它会更便宜，这看起来似乎是显而易见的。"
+ },
+ {
+  "seg": 64,
+  "start": 431.347,
+  "end": 438.23,
+  "speaker": "Unknown",
+  "en": "But I have also found that for specific tasks that we run Engine on, using these non-frontier models actually can be more effective.",
+  "zh": "但我还发现，对于我们运行 Engine 的特定任务，使用这些非前沿模型实际上可能更有效。"
+ },
+ {
+  "seg": 65,
+  "start": 438.61,
+  "end": 448.433,
+  "speaker": "Unknown",
+  "en": "If it's a quote-unquote dumb task, it's sometimes better to use a dumber or a smaller model as opposed to these state-of-the-art models that are really expensive and really bulky.",
+  "zh": "如果是一个所谓的「愚蠢」任务，有时候使用一个更笨或更小的模型反而更好，而不是用那些非常昂贵、非常臃肿的最先进模型。"
+ },
+ {
+  "seg": 66,
+  "start": 449.013,
+  "end": 454.255,
+  "speaker": "Unknown",
+  "en": "And so we constantly play around with swapping out the models that are used for the different tasks that are handled by Engine.",
+  "zh": "所以我们不断地尝试更换 Engine 所处理的 不同任务所使用的模型。"
+ },
+ {
+  "seg": 67,
+  "start": 455.601,
+  "end": 461.863,
+  "speaker": "Unknown",
+  "en": "Another quick point that I want to make is our team is totally reliant on the LangSmith platform.",
+  "zh": "我想快速说明的另一点是，我们的团队完全依赖 LangSmith 平台。"
+ },
+ {
+  "seg": 68,
+  "start": 462.723,
+  "end": 467.305,
+  "speaker": "Unknown",
+  "en": "We spend a lot of our time looking through traces manually whenever we have a very specific problem.",
+  "zh": "每当我们遇到一个非常具体的问题时，我们会花大量时间手动翻看 trace。"
+ },
+ {
+  "seg": 69,
+  "start": 467.685,
+  "end": 472.126,
+  "speaker": "Unknown",
+  "en": "We also, as I mentioned, rely on this feed of Engine issues that are produced.",
+  "zh": "正如我提到的，我们还依赖这个产生的 Engine 问题流。"
+ },
+ {
+  "seg": 70,
+  "start": 472.766,
+  "end": 475.507,
+  "speaker": "Unknown",
+  "en": "But we also use Engine for our experiments platform.",
+  "zh": "但我们也在实验平台上使用 Engine。"
+ },
+ {
+  "seg": 71,
+  "start": 475.667,
+  "end": 484.65,
+  "speaker": "Unknown",
+  "en": "And so we can have this store of record of the different experiments that we run, and we can see how our cost and our performance upon our different benchmarks is changing over time.",
+  "zh": "这样我们就可以拥有一个关于我们运行的不同实验的记录库，并且我们可以看到我们的成本以及我们在不同基准上的表现是如何随时间变化的。"
+ },
+ {
+  "seg": 72,
+  "start": 486.628,
+  "end": 496.939,
+  "speaker": "Unknown",
+  "en": "And so as we've been working on improving this process and making Engine better, as we've been building these benchmarks and then hill climbing against those benchmarks, we've been able to achieve much better scores against the different benchmarks.",
+  "zh": "所以在我们一直努力改进这一流程、让 Engine 变得更好的过程中，随着我们构建这些基准并针对这些基准进行爬山优化，我们已经在不同的基准上取得了好得多的分数。"
+ },
+ {
+  "seg": 73,
+  "start": 496.979,
+  "end": 508.13,
+  "speaker": "Unknown",
+  "en": "And so Harrison mentioned this in his keynote, that we have two times better error identification against IssueBench, which is our primary benchmark for identification of issues.",
+  "zh": "Harrison 在他的主题演讲中提到了这一点，我们在 IssueBench 上的错误识别能力提升了两倍，IssueBench 是我们用于问题识别的主要基准。"
+ },
+ {
+  "seg": 74,
+  "start": 508.891,
+  "end": 516.813,
+  "speaker": "Unknown",
+  "en": "And then we also test the fixes that Engine proposes against a series of these industry-standard coding benchmarks.",
+  "zh": "然后，我们还针对一系列行业标准的编码基准，测试 Engine 提出的修复方案。"
+ },
+ {
+  "seg": 75,
+  "start": 517.994,
+  "end": 525.096,
+  "speaker": "Unknown",
+  "en": "And then we also pair that with benchmarks that we have designed specifically for these agent-related issues where we've seen Engine get a lot better as well.",
+  "zh": "我们还将其与我们专门为这些智能体相关问题设计的基准配对，在这些基准上我们也看到 Engine 变得好很多。"
+ },
+ {
+  "seg": 76,
+  "start": 526.196,
+  "end": 529.217,
+  "speaker": "Unknown",
+  "en": "So these are cool numbers, but what does that actually mean?",
+  "zh": "所以这些数字很酷，但这实际上意味着什么？"
+ },
+ {
+  "seg": 77,
+  "start": 530.239,
+  "end": 534.362,
+  "speaker": "Unknown",
+  "en": "It ultimately means more issues identified for our customers that are using Engine.",
+  "zh": "它最终意味着为使用 Engine 的客户识别出更多的问题。"
+ },
+ {
+  "seg": 78,
+  "start": 534.943,
+  "end": 541.227,
+  "speaker": "Unknown",
+  "en": "It means increased accuracy in our description and our root cause analysis of the problems that we've identified.",
+  "zh": "它意味着在我们对所识别问题的描述和根因分析上提高了准确性。"
+ },
+ {
+  "seg": 79,
+  "start": 541.868,
+  "end": 547.092,
+  "speaker": "Unknown",
+  "en": "And it means much faster resolution times for the teams that are building agents on top of LangSmith.",
+  "zh": "它意味着在 LangSmith 之上构建智能体的团队能获得快得多的解决时间。"
+ },
+ {
+  "seg": 80,
+  "start": 549.378,
+  "end": 556.065,
+  "speaker": "Unknown",
+  "en": "Now, what I've talked about so far is kind of like the process of designing evals and some of the results that we've seen in the aggregate.",
+  "zh": "现在，我到目前为止所讲的大致上是设计 evals 的流程以及我们在总体上看到的一些结果。"
+ },
+ {
+  "seg": 81,
+  "start": 556.525,
+  "end": 564.413,
+  "speaker": "Unknown",
+  "en": "But what I want to do is talk about a specific way that we've modified our harness, we've modified engine to more adequately find these issues.",
+  "zh": "但我想做的是谈一谈我们修改 harness、修改 engine 的一种具体方式，以便更充分地找到这些问题。"
+ },
+ {
+  "seg": 82,
+  "start": 565.113,
+  "end": 567.135,
+  "speaker": "Unknown",
+  "en": "And I'm going to do so with this little visual here.",
+  "zh": "我将用这个小可视化图来说明。"
+ },
+ {
+  "seg": 83,
+  "start": 567.155,
+  "end": 571.379,
+  "speaker": "Unknown",
+  "en": "So I have this circle up on the screen, which you can imagine within the circle,",
+  "zh": "我在屏幕上放了这样一个圆圈，你可以想象在这个圆圈之内，"
+ },
+ {
+  "seg": 84,
+  "start": 572.2,
+  "end": 577.041,
+  "speaker": "Unknown",
+  "en": "It contains the complete set of problems that might exist as you're building agents.",
+  "zh": "它包含了你在构建智能体时可能存在的全部问题集合。"
+ },
+ {
+  "seg": 85,
+  "start": 577.101,
+  "end": 584.183,
+  "speaker": "Unknown",
+  "en": "So any little dot within this circle is a kind of problem that you can envision within the agent building problem space.",
+  "zh": "所以这个圆圈内的任何一个小点，都是你可以在智能体构建问题空间中设想的一种问题。"
+ },
+ {
+  "seg": 86,
+  "start": 585.263,
+  "end": 594.145,
+  "speaker": "Unknown",
+  "en": "Now, when we first launched Engine, our V1 that we launched in May, you can imagine that Engine captured a portion of those problems.",
+  "zh": "当我们最初发布 Engine 时，也就是我们五月发布的 V1，你可以想象 Engine 捕获了这些问题中的一部分。"
+ },
+ {
+  "seg": 87,
+  "start": 594.245,
+  "end": 600.307,
+  "speaker": "Unknown",
+  "en": "Now, I'd like to imagine that it's a bigger circle than what we have in this visual, but it captured a portion of the problems that are",
+  "zh": "我愿意想象它比这个可视化图中显示的圆圈更大，但它捕获了一部分问题，"
+ },
+ {
+  "seg": 88,
+  "start": 601.93,
+  "end": 605.953,
+  "speaker": "Unknown",
+  "en": "You know, that exists for engineers building agents, but not all of them.",
+  "zh": "你知道的，那些构建智能体的工程师所面临的问题，但不是全部。"
+ },
+ {
+  "seg": 89,
+  "start": 606.693,
+  "end": 615.359,
+  "speaker": "Unknown",
+  "en": "And as we have worked to evaluate and to iterate against our benchmarks, we have expanded what engine in its previous state is able to do.",
+  "zh": "而随着我们不断评估并针对我们的基准进行迭代，我们已经扩展了 engine 在其先前状态下所能做到的事情。"
+ },
+ {
+  "seg": 90,
+  "start": 616,
+  "end": 624.886,
+  "speaker": "Unknown",
+  "en": "But there's still a portion of this agent problem space that engine in its architecture from our V1 version would never really be able to identify.",
+  "zh": "但这个智能体问题空间中仍然有一部分，是 engine 在我们 V1 版本的架构下永远无法真正识别的。"
+ },
+ {
+  "seg": 91,
+  "start": 626.339,
+  "end": 632.648,
+  "speaker": "Unknown",
+  "en": "And that's because our first version, this is the representation of these broader improvement opportunities.",
+  "zh": "这是因为我们的第一个版本——这是这些更广泛的改进机会的表示。"
+ },
+ {
+  "seg": 92,
+  "start": 634.331,
+  "end": 640.981,
+  "speaker": "Unknown",
+  "en": "And this is because in our first version of Engine, we ensured that Engine was really excellent at finding errors in a specific trace.",
+  "zh": "而这是因为在 Engine 的第一个版本中，我们确保 Engine 非常擅长在单条 trace 中发现错误。"
+ },
+ {
+  "seg": 93,
+  "start": 642.01,
+  "end": 648.632,
+  "speaker": "Unknown",
+  "en": "Whether that's a hallucination, whether that's a broken tool call, whether that's looping tool calls, context explosion, right?",
+  "zh": "无论是幻觉、无论是损坏的工具调用、无论是循环的工具调用、上下文爆炸，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 648.652,
+  "end": 651.113,
+  "speaker": "Unknown",
+  "en": "These are all problems that are very visible from a single trace.",
+  "zh": "这些都是从单条 trace 中就非常可见的问题。"
+ },
+ {
+  "seg": 95,
+  "start": 651.553,
+  "end": 658.075,
+  "speaker": "Unknown",
+  "en": "An engine, as it pours through traces, does investigation, it can find multiple traces with that problem, cluster them together based on root cause.",
+  "zh": "Engine 在翻查 trace、进行调查时，可以找到多条带有该问题的 trace，并根据根因将它们聚类在一起。"
+ },
+ {
+  "seg": 96,
+  "start": 659.395,
+  "end": 668.097,
+  "speaker": "Unknown",
+  "en": "But oftentimes, it's difficult to find errors with just a single trace, and there are some kinds of errors that may appear the same at first glance.",
+  "zh": "但很多时候，仅凭单条 trace 很难发现错误，而且有些类型的错误乍一看可能是一样的。"
+ },
+ {
+  "seg": 97,
+  "start": 668.597,
+  "end": 681.52,
+  "speaker": "Unknown",
+  "en": "So let's say between September 1st and September 14th, our team has swapped out a new model for our agent, and we see that the cost and latency are pretty much the same, even though we were expecting to see a huge drop in cost or a huge drop in latency.",
+  "zh": "比方说，在 9 月 1 日到 9 月 14 日之间，我们的团队为我们的智能体换了一个新模型，我们看到成本和延迟几乎没变，尽管我们本来预期会看到成本大幅下降或延迟大幅下降。"
+ },
+ {
+  "seg": 98,
+  "start": 682.08,
+  "end": 688.382,
+  "speaker": "Unknown",
+  "en": "And if I look at trace A versus trace B, these might look like the exact same thing, and no change is recognizable.",
+  "zh": "而如果我对比 trace A 和 trace B，它们可能看起来完全一样，看不出任何变化。"
+ },
+ {
+  "seg": 99,
+  "start": 689.322,
+  "end": 696.844,
+  "speaker": "Unknown",
+  "en": "And even if I see that in trace A we only had six tool calls or in trace B we only had 19 tool calls, these look about the same.",
+  "zh": "即使我看到 trace A 中我们只有六次工具调用，或者 trace B 中我们只有 19 次工具调用，它们看起来也差不多。"
+ },
+ {
+  "seg": 100,
+  "start": 697.024,
+  "end": 699.005,
+  "speaker": "Unknown",
+  "en": "These look not problematic, I should say.",
+  "zh": "这些看起来没有问题,我应该说。"
+ },
+ {
+  "seg": 101,
+  "start": 699.965,
+  "end": 711.288,
+  "speaker": "Unknown",
+  "en": "But the ability for engine or an agent engineer to determine that the tool calls from one step to the next has increased massively is a huge indication that something might be wrong.",
+  "zh": "但是,Engine 工程师或智能体工程师能够发现,从一个步骤到下一个步骤的工具调用大幅增加,这是一个巨大的迹象,表明可能出了问题。"
+ },
+ {
+  "seg": 102,
+  "start": 711.468,
+  "end": 715.889,
+  "speaker": "Unknown",
+  "en": "Maybe this new model has just gone haywire and it's deciding to call tools far more than it should.",
+  "zh": "也许这个新模型已经失控了,它决定调用工具的次数远远超过了应该的次数。"
+ },
+ {
+  "seg": 103,
+  "start": 716.849,
+  "end": 730.479,
+  "speaker": "Unknown",
+  "en": "And so this kind of context across traces and understanding of the history of your agent and the traces that it produces is one of the kinds of problems that we've gotten much better at identifying with engine.",
+  "zh": "因此,这种跨 trace 的上下文,以及对你的智能体的历史和它产生的 trace 的理解,是我们用 Engine 在识别方面已经进步很多的其中一类问题。"
+ },
+ {
+  "seg": 104,
+  "start": 731.62,
+  "end": 736.683,
+  "speaker": "Unknown",
+  "en": "These kind of metric related trends that we want to track and ensure engine is able to catch.",
+  "zh": "这类我们想要追踪并确保 Engine 能够捕捉到的与指标相关的趋势。"
+ },
+ {
+  "seg": 105,
+  "start": 737.644,
+  "end": 751.829,
+  "speaker": "Unknown",
+  "en": "The other kind of problem that we have become much more capable of, these are two of several of what we've worked on, is the ability for Engine to detect inefficient paths as it works to identify or to meet the demands of a customer request.",
+  "zh": "我们能力提升很多的另一类问题——这些是我们所做工作中的几项之二——是 Engine 在识别或满足客户请求的需求时,检测低效路径的能力。"
+ },
+ {
+  "seg": 106,
+  "start": 755.427,
+  "end": 765.809,
+  "speaker": "Unknown",
+  "en": "Let's say that 5% of the time that your agent is handling a very normal request, it goes on a side quest and starts calling all sorts of tool calls or starts looking at all sorts of sources of data that it shouldn't.",
+  "zh": "假设有 5% 的时候,你的智能体在处理一个非常正常的请求时,它会走上一条支线任务,开始调用各种各样的工具调用,或者开始查看各种各样它不应该查看的数据来源。"
+ },
+ {
+  "seg": 107,
+  "start": 766.289,
+  "end": 773.551,
+  "speaker": "Unknown",
+  "en": "This is important for your team to know that some amount of time it's taking an inefficient path that you should be aware of, that you should work to contain.",
+  "zh": "这对你的团队来说很重要,要知道有些时候它走了一条低效路径,你应该意识到这一点,你应该努力去遏制它。"
+ },
+ {
+  "seg": 108,
+  "start": 774.091,
+  "end": 779.952,
+  "speaker": "Unknown",
+  "en": "And so problems like this are examples of the kinds of problems that we've gotten much better at finding in Engine v2.",
+  "zh": "因此,像这样的问题就是我们在 Engine v2 中已经进步很多的各类问题中的一些例子。"
+ },
+ {
+  "seg": 109,
+  "start": 782.373,
+  "end": 783.713,
+  "speaker": "Unknown",
+  "en": "Now, what I've talked about so far,",
+  "zh": "现在,到目前为止我所讲的内容,"
+ },
+ {
+  "seg": 110,
+  "start": 784.949,
+  "end": 796.471,
+  "speaker": "Unknown",
+  "en": "with our improvements to Engine have been improvements to the existing functionality within Engine as it finds issues, as it proposes fixes, and as it proposes evals.",
+  "zh": "我们对 Engine 的改进,是对 Engine 现有功能的改进,包括它发现问题、提出修复方案,以及提出 evals 的方式。"
+ },
+ {
+  "seg": 111,
+  "start": 797.588,
+  "end": 809.475,
+  "speaker": "Unknown",
+  "en": "And what we want Engine to do is really to cover the entire agent development lifecycle from this finding of issues, from the creation of fixes, but also through the testing of those fixes and the deploying of those fixes.",
+  "zh": "而我们想要 Engine 做的,是真正覆盖整个智能体开发生命周期,从发现问题、创建修复方案,一直到测试这些修复方案和部署这些修复方案。"
+ },
+ {
+  "seg": 112,
+  "start": 810.335,
+  "end": 816.639,
+  "speaker": "Unknown",
+  "en": "And what we've been asking ourselves since our first launch is how can we actually test for our users?",
+  "zh": "从我们首次发布以来,我们一直在问自己的是:我们如何才能真正为我们的用户进行测试?"
+ },
+ {
+  "seg": 113,
+  "start": 816.779,
+  "end": 822.082,
+  "speaker": "Unknown",
+  "en": "Right now we create a proposed fix and we hand you the evals and let you experiment on that.",
+  "zh": "现在,我们创建一个建议的修复方案,然后把 evals 交给你,让你在其上进行实验。"
+ },
+ {
+  "seg": 114,
+  "start": 822.922,
+  "end": 829.986,
+  "speaker": "Unknown",
+  "en": "But the vision that we have for Engine is the finding of problems, the fixing of those problems, and the testing of that fix all autonomously.",
+  "zh": "但我们对 Engine 的愿景是:发现问题、修复这些问题、测试那个修复方案,全部自主完成。"
+ },
+ {
+  "seg": 115,
+  "start": 830.766,
+  "end": 835.069,
+  "speaker": "Unknown",
+  "en": "And this is what we are releasing with our validated fixes as part of Engine.",
+  "zh": "这就是我们随 Engine 一起发布的经过验证的修复方案(validated fixes)。"
+ },
+ {
+  "seg": 116,
+  "start": 835.549,
+  "end": 837.55,
+  "speaker": "Unknown",
+  "en": "And what I want to do is walk you through how this actually works.",
+  "zh": "我想做的是带你走一遍这实际上是如何运作的。"
+ },
+ {
+  "seg": 117,
+  "start": 837.57,
+  "end": 840.752,
+  "speaker": "Unknown",
+  "en": "Harrison spoke to this a little bit in the keynote, and I want to get into some of the nitty gritty here.",
+  "zh": "Harrison 在主题演讲中稍微谈到了这一点,我想在这里深入一些细节。"
+ },
+ {
+  "seg": 118,
+  "start": 841.652,
+  "end": 843.793,
+  "speaker": "Unknown",
+  "en": "Engine still finds issues as it does today.",
+  "zh": "Engine 仍然像今天一样发现问题。"
+ },
+ {
+  "seg": 119,
+  "start": 844.193,
+  "end": 850.417,
+  "speaker": "Unknown",
+  "en": "It finds an issue about tool looping, and it identifies specific inputs that it's seen in production that have broken your agent in some way.",
+  "zh": "它发现一个关于工具循环的问题,并且识别出它在生产环境中见过的、以某种方式破坏了你智能体的特定输入。"
+ },
+ {
+  "seg": 120,
+  "start": 851.87,
+  "end": 861.402,
+  "speaker": "Unknown",
+  "en": "Now to verify that this problem is real, we actually send those same inputs to your production version of your agent to verify that it is still broken in your production version.",
+  "zh": "现在,为了验证这个问题是真实的,我们实际上会把那些相同的输入发送到你的生产版本智能体,以验证它在你的生产版本中确实仍然是坏的。"
+ },
+ {
+  "seg": 121,
+  "start": 861.843,
+  "end": 866.649,
+  "speaker": "Unknown",
+  "en": "We want to confirm this is an ongoing problem and reproduce the bug as you would in software.",
+  "zh": "我们想确认这是一个持续存在的问题,并且像你在软件开发中那样复现这个 bug。"
+ },
+ {
+  "seg": 122,
+  "start": 868.414,
+  "end": 878.518,
+  "speaker": "Unknown",
+  "en": "After we've identified and confirmed this is a real problem, we will then propose a fix and spin that up in a preview branch and in a preview deployment available on our LangSmith deployments platform.",
+  "zh": "在我们识别并确认这是一个真实的问题之后,我们将提出一个修复方案,并在我们的 LangSmith deployments 平台上可用的一个预览分支和预览部署中把它启动起来。"
+ },
+ {
+  "seg": 123,
+  "start": 879.558,
+  "end": 896.125,
+  "speaker": "Unknown",
+  "en": "And we will run those same breaking inputs against this previewed fix version of your agent so that we can confirm that whatever fix engine has spun up really solves the problem that identified and that those breaking inputs are no longer breaking in this proposed version of your agent.",
+  "zh": "然后我们会用那些同样的破坏性输入去运行这个预览修复版本的智能体,这样我们就能确认 Engine 启动的任何修复方案确实解决了所识别出的问题,并且那些破坏性输入在这个拟议版本的智能体中不再具有破坏性。"
+ },
+ {
+  "seg": 124,
+  "start": 896.925,
+  "end": 904.634,
+  "speaker": "Unknown",
+  "en": "And after verifying that this fix is effective for those inputs, we want to look at a broader set of inputs, like the ones that you have in a LangSmith dataset.",
+  "zh": "在验证这个修复方案对这些输入有效之后,我们想要查看更广泛的输入集合,比如你在 LangSmith 数据集中拥有的那些输入。"
+ },
+ {
+  "seg": 125,
+  "start": 905.174,
+  "end": 916.907,
+  "speaker": "Unknown",
+  "en": "And so you can configure the different datasets that you have on LangSmith, and so the engine will run evals against the existing inputs that have been breaking your agent, as well as the broader range of inputs that you want to ensure do not regress.",
+  "zh": "因此,你可以在 LangSmith 上配置你拥有的不同数据集,然后 Engine 会针对一直破坏你智能体的现有输入运行 evals,以及针对你希望确保不会发生回归的更广泛范围的输入运行 evals。"
+ },
+ {
+  "seg": 126,
+  "start": 917.808,
+  "end": 926.277,
+  "speaker": "Unknown",
+  "en": "And so what you end up with is now much more than a kind of proposed issue and a hint at what you might want to solve and a hint at how you might solve it.",
+  "zh": "所以你最终得到的,不再仅仅是一个某种意义上的建议问题、一个关于你可能想解决什么的提示、一个关于你可能如何解决的提示。"
+ },
+ {
+  "seg": 127,
+  "start": 926.797,
+  "end": 936.067,
+  "speaker": "Unknown",
+  "en": "And instead you get a verified issue that we know is still breaking your agent and you get a verified fix that we know addresses the problem and does not regress against other examples.",
+  "zh": "相反,你得到的是一个经过验证的问题——我们知道它仍在破坏你的智能体——以及一个经过验证的修复方案——我们知道它解决了这个问题,并且在其他示例上不会产生回归。"
+ },
+ {
+  "seg": 128,
+  "start": 937.447,
+  "end": 938.588,
+  "speaker": "Unknown",
+  "en": "I'm really excited about this.",
+  "zh": "我对此真的非常兴奋。"
+ },
+ {
+  "seg": 129,
+  "start": 938.608,
+  "end": 951.374,
+  "speaker": "Unknown",
+  "en": "I think this is like our kind of first steps into continual learning and this process of continually making your agent better and more capable while still allowing for a human to be in the loop and monitoring the different changes that are proposed.",
+  "zh": "我认为这是我们迈入持续学习的第一步,是持续让你的智能体变得更好、更强大的这一过程,同时仍然允许人类在环中,监控所提出的各种变更。"
+ },
+ {
+  "seg": 130,
+  "start": 953.115,
+  "end": 956.957,
+  "speaker": "Unknown",
+  "en": "So as was mentioned earlier, this is available in private beta.",
+  "zh": "所以正如前面提到的,这在私人测试版(private beta)中可用。"
+ },
+ {
+  "seg": 131,
+  "start": 957.177,
+  "end": 959.758,
+  "speaker": "Unknown",
+  "en": "Right now, this is available to our LangSmith deployments customers.",
+  "zh": "现在,这对我们的 LangSmith deployments 客户可用。"
+ },
+ {
+  "seg": 132,
+  "start": 960.098,
+  "end": 967.062,
+  "speaker": "Unknown",
+  "en": "We are looking to expand that, but we'd love for you to join our waitlist and try out this new ability to validate these fixes via engine.",
+  "zh": "我们希望扩大范围,但我们非常希望你加入我们的候补名单,尝试通过 Engine 验证这些修复方案的新能力。"
+ },
+ {
+  "seg": 133,
+  "start": 968.955,
+  "end": 972.616,
+  "speaker": "Unknown",
+  "en": "Now, the other thing that Harrison mentioned is this ability to red team your agent.",
+  "zh": "现在,Harrison 提到的另一件事,是对你的智能体进行红队测试(red team)的能力。"
+ },
+ {
+  "seg": 134,
+  "start": 972.976,
+  "end": 976.217,
+  "speaker": "Unknown",
+  "en": "I think about this as a way to preemptively identify issues.",
+  "zh": "我把这件事看作是一种预先识别问题的方式。"
+ },
+ {
+  "seg": 135,
+  "start": 976.877,
+  "end": 982.719,
+  "speaker": "Unknown",
+  "en": "Today, the issues that engine catches are ones that have already reached production and they already have a trace for you to go and analyze.",
+  "zh": "今天,Engine 捕捉到的问题是那些已经到达生产环境的问题,它们已经有 trace 供你去分析。"
+ },
+ {
+  "seg": 136,
+  "start": 983.339,
+  "end": 985.78,
+  "speaker": "Unknown",
+  "en": "And that means that it's likely affected a user in some way.",
+  "zh": "而这意味着它很可能已经以某种方式影响了一个用户。"
+ },
+ {
+  "seg": 137,
+  "start": 986.935,
+  "end": 993.599,
+  "speaker": "Unknown",
+  "en": "There are also ways that we can try to break your agent before it ever actually touches a user.",
+  "zh": "还有一些方法,我们可以在你的智能体真正接触用户之前就尝试破坏它。"
+ },
+ {
+  "seg": 138,
+  "start": 993.659,
+  "end": 1012.93,
+  "speaker": "Unknown",
+  "en": "And so this red teaming functionality for engine proactively creates hypotheses for potential inputs that might break your agent based on your agent system prompt or other details of the harness or the context that are available and tries to figure out what might cause for an unsatisfactory output from your agent.",
+  "zh": "因此,Engine 的这个红队测试功能会基于你的智能体系统提示词或 harness 的其他细节或可用的上下文,主动为可能破坏你智能体的潜在输入创建假设,并试图找出什么可能导致你的智能体产生不令人满意的输出。"
+ },
+ {
+  "seg": 139,
+  "start": 1013.883,
+  "end": 1021.008,
+  "speaker": "Unknown",
+  "en": "And against your production deployment of the agent, we'll hit that deployment with these different inputs and monitor the different responses.",
+  "zh": "并且针对你的智能体生产部署,我们会用这些不同的输入去请求那个部署,并监控不同的响应。"
+ },
+ {
+  "seg": 140,
+  "start": 1021.189,
+  "end": 1030.556,
+  "speaker": "Unknown",
+  "en": "And so if there are any unsatisfactory responses that are created, Engine will cluster these together in a similar issue, packaged up with a proposed fix.",
+  "zh": "因此,如果有任何不令人满意的响应被产生,Engine 会把它们聚集成一个类似的问题,并附上一个建议的修复方案打包在一起。"
+ },
+ {
+  "seg": 141,
+  "start": 1031.036,
+  "end": 1038.602,
+  "speaker": "Unknown",
+  "en": "And if you're also using our validated fixes functionality with a validated fix to address that before it ever actually hits a customer as well.",
+  "zh": "而如果你还在使用我们的经过验证的修复方案功能,也会附带一个经过验证的修复方案,在它真正影响到客户之前就解决这个问题。"
+ },
+ {
+  "seg": 142,
+  "start": 1040.708,
+  "end": 1041.989,
+  "speaker": "Unknown",
+  "en": "Again, really excited about this.",
+  "zh": "再次强调,我对此真的非常兴奋。"
+ },
+ {
+  "seg": 143,
+  "start": 1042.409,
+  "end": 1047.953,
+  "speaker": "Unknown",
+  "en": "This is available in private beta, again, to our LangSmith deployments customers, and would love for you to try it out and give us your feedback.",
+  "zh": "这在私人测试版中可用,同样是对我们的 LangSmith deployments 客户开放,非常希望你去尝试并给我们反馈。"
+ },
+ {
+  "seg": 144,
+  "start": 1049.434,
+  "end": 1053.417,
+  "speaker": "Unknown",
+  "en": "And all of this that I've just been talking about is all part of Engine v2.",
+  "zh": "而我刚才一直在讲的这一切,都是 Engine v2 的一部分。"
+ },
+ {
+  "seg": 145,
+  "start": 1053.937,
+  "end": 1059.32,
+  "speaker": "Unknown",
+  "en": "And as we're launching it and announcing it today, we're already thinking about and already working on Engine v3.",
+  "zh": "而随着我们今天发布并宣布它,我们已经在思考和已经在开发 Engine v3 了。"
+ },
+ {
+  "seg": 146,
+  "start": 1059.841,
+  "end": 1061.922,
+  "speaker": "Unknown",
+  "en": "And I want to give you a kind of taste of what we're looking at.",
+  "zh": "我想让你们先尝一口我们正在研究的方向。"
+ },
+ {
+  "seg": 147,
+  "start": 1061.982,
+  "end": 1063.483,
+  "speaker": "Unknown",
+  "en": "And the first is that we're",
+  "zh": "首先,我们"
+ },
+ {
+  "seg": 148,
+  "start": 1064.824,
+  "end": 1074.275,
+  "speaker": "Unknown",
+  "en": "Absolutely looking to expand the access to these validated fixes that we're running, as well as this ability to red team against your agent for different deployment stacks.",
+  "zh": "绝对希望扩大这些我们正在运行的经过验证的修复方案的访问范围,以及这个针对你的智能体进行红队测试的能力,支持不同的部署技术栈。"
+ },
+ {
+  "seg": 149,
+  "start": 1074.395,
+  "end": 1082.924,
+  "speaker": "Unknown",
+  "en": "We want to make this more broadly available, and we're thinking about that today, how we can hit the different endpoints and the different deployments of your agents today to make these available.",
+  "zh": "我们想让这更广泛地可用,我们今天就在思考,如何对接你的智能体的不同端点和不同部署,让这些能力可用。"
+ },
+ {
+  "seg": 150,
+  "start": 1084.546,
+  "end": 1092.295,
+  "speaker": "Unknown",
+  "en": "At the same time, Engine today is really good at identifying eval examples to be added to your data sets based on issues it's identified.",
+  "zh": "与此同时,Engine 今天已经非常擅长根据它识别出的问题,来找出要添加到你的数据集中的评估样例。"
+ },
+ {
+  "seg": 151,
+  "start": 1092.735,
+  "end": 1105.189,
+  "speaker": "Unknown",
+  "en": "Whether that's issues that have been red teamed against and are found proactively, or whether it's issues that have been identified in production, we find these great inputs that are added to your regression test cases.",
+  "zh": "无论是那些经过红队测试而被主动发现的问题,还是在生产环境中被发现的问题,我们都能找到这些很好的输入,把它们加进你的回归测试用例中。"
+ },
+ {
+  "seg": 152,
+  "start": 1105.95,
+  "end": 1119.912,
+  "speaker": "Unknown",
+  "en": "But what we want Engine to become better at is creating a baseline set of evals for you to run against to ensure that all of the different behaviors that you would expect out of your agent are not regressing as you make changes to the model or changes to the harness.",
+  "zh": "但我们希望 Engine 变得更擅长的,是为你创建一套基线评估供你运行,以确保当你对模型或对 harness 做出改动时,你对智能体所期望的所有不同行为都不会出现回归。"
+ },
+ {
+  "seg": 153,
+  "start": 1121.415,
+  "end": 1136.078,
+  "speaker": "Unknown",
+  "en": "And lastly, the one that I'll talk on here is kind of a north star for us as we build Engine, which is that we want to make broader changes, broader proposals, I should say, to your agent's harness and to the models that are used for different tasks.",
+  "zh": "最后,我在这里要讲的这一条,算得上是我们构建 Engine 过程中的一个北极星目标,那就是我们希望做出更广泛的改动,或者说我应该说,是更广泛的提案,针对你的智能体的 harness 以及针对不同任务所使用的模型。"
+ },
+ {
+  "seg": 154,
+  "start": 1136.923,
+  "end": 1147.449,
+  "speaker": "Unknown",
+  "en": "That would mean that Engine is no longer finding these specific fixes or tweaks or optimizations to your harness, but rather it's saying that this entire model is too bulky, it's too expensive for your agent.",
+  "zh": "那将意味着 Engine 不再只是找出这些针对你 harness 的具体修复、微调或优化,而是会说这整个模型太臃肿了,对你的智能体来说太贵了。"
+ },
+ {
+  "seg": 155,
+  "start": 1147.509,
+  "end": 1154.614,
+  "speaker": "Unknown",
+  "en": "You should try this one, and we've actually validated this model against your evals and can confirm it's faster and it's cheaper.",
+  "zh": "你应该试试这一个,而且我们实际上已经针对你的评估验证过这个模型,可以确认它更快、更便宜。"
+ },
+ {
+  "seg": 156,
+  "start": 1155.72,
+  "end": 1175.849,
+  "speaker": "Unknown",
+  "en": "And the reason this is kind of coming after is because we want this whole flow of being able to identify gaps in your agent's traces as well as the ability to experiment on so that instead of a very loose recommendation of now using a Model A as opposed to Model B, you have a verified claim that this Model A is going to perform much better against your evals.",
+  "zh": "之所以这一项排在后面,是因为我们想要打通整个流程——既能识别你智能体轨迹中的缺口,又能进行实验——这样一来,与其只是得到一个很宽泛的建议说现在用 Model A 而不是 Model B,你能得到一个经过验证的结论:这个 Model A 在你的评估上会有好得多的表现。"
+ },
+ {
+  "seg": 157,
+  "start": 1178.259,
+  "end": 1187.79,
+  "speaker": "Unknown",
+  "en": "Now, the last quick thing that I'll add in here that Harrison mentioned is we do have Engine available in our self-hosted deployments via Bring Your Own Key.",
+  "zh": "现在,最后再快速补充一点,也是 Harrison 提到的,就是我们在自托管部署中通过 Bring Your Own Key 提供 Engine。"
+ },
+ {
+  "seg": 158,
+  "start": 1188.111,
+  "end": 1193.617,
+  "speaker": "Unknown",
+  "en": "This is going to be available in our next release of our self-hosted, which we are really excited about.",
+  "zh": "这将在我们下一版自托管版本中可用,我们对此感到非常兴奋。"
+ },
+ {
+  "seg": 159,
+  "start": 1194.358,
+  "end": 1201.601,
+  "speaker": "Unknown",
+  "en": "So very, very fun to chat with you all about Engine v2 and the progress that we've made as well as kind of what we're thinking about for Engine v3.",
+  "zh": "所以,非常非常开心能和大家聊 Engine v2、我们取得的进展,以及我们对 Engine v3 的一些思考。"
+ },
+ {
+  "seg": 160,
+  "start": 1202.121,
+  "end": 1209.504,
+  "speaker": "Unknown",
+  "en": "We have a lot of really awesome customers that have been trying Engine today that have been giving us great feedback and that are accelerating their agent development process.",
+  "zh": "我们有很多非常棒的客户,他们今天就在试用 Engine,给了我们很好的反馈,并且正在加速他们的智能体开发流程。"
+ },
+ {
+  "seg": 161,
+  "start": 1209.724,
+  "end": 1211.224,
+  "speaker": "Unknown",
+  "en": "And we would love for you to join this list.",
+  "zh": "我们非常欢迎你加入这个名单。"
+ },
+ {
+  "seg": 162,
+  "start": 1211.865,
+  "end": 1212.305,
+  "speaker": "Unknown",
+  "en": "So thank you.",
+  "zh": "谢谢大家。"
+ }
+]

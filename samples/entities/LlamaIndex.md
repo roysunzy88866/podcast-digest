@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LlamaIndex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LlamaIndex">LL</div><div class="pi"><h1 class="pt">LlamaIndex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LlamaIndex">LL</div><div class="pi"><h1 class="pt">LlamaIndex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]]**(01:09起):本集提到其 CEO Jerry 属于坚持 RAG 没死的一派,但他也要顺手干掉分块
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(00:14起):本集说它 2023 年以 RAG 框架起家,如今是「AI 智能体的主要文档基础设施」,为智能体提供读取和操作文档的最佳平台,解锁海量文档上下文宝库。
+- **[[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]]**(00:15起):本集嘉宾所在公司，A 轮创业公司，专注文档解析、编排和知识管理，帮助企业在智能体工作流中扩展文档搜索。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-09-16-talks-stop-chunking-like-it-s-2022-yuval-belfe|《分块没死:用多尺度索引把 RAG 提升 20-40%》]] — 作为被讨论公司(提及)
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为被讨论公司
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[RAG]] · [[Yuval Belfer]] · [[Jerry Liu]] · [[AI21]] · [[LlamaParse]] · [[分块]] · [[LightParse]] · [[智能体搜索]] · [[parsebench]] · [[多尺度索引]]
+[[RAG]] · [[Anthropic]] · [[LlamaParse]] · [[LightParse]] · [[智能体]] · [[向量数据库]] · [[Claude Code]] · [[Yuval Belfer]] · [[Jerry Liu]] · [[George He]]
 
-<script type="application/json" class="pd-epn">{"RAG":28,"Yuval Belfer":1,"Jerry Liu":1,"AI21":1,"LlamaParse":1,"分块":1,"LightParse":1,"智能体搜索":4,"parsebench":1,"多尺度索引":1}</script>
+<script type="application/json" class="pd-epn">{"RAG":29,"Anthropic":198,"LlamaParse":2,"LightParse":2,"智能体":471,"向量数据库":7,"Claude Code":104,"Yuval Belfer":1,"Jerry Liu":1,"George He":1}</script>
 
 <script>
 (function(){

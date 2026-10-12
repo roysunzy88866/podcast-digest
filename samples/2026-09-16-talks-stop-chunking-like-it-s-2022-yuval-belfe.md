@@ -114,9 +114,9 @@ Yuval 的回应分两步：第一，智能体搜索确实可能杀死了「检�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|搜代码不用向量库，搜公司文档为什么不行？]]<span class="pd-rz">同公司:Anthropic、LlamaIndex · 同概念:RAG</span>
 - [[2026-09-23-talks-building-the-document-context-layer-for|为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG]]<span class="pd-rz">同公司:LlamaIndex · 同概念:RAG</span>
 - [[2026-09-24-sed-chroma-and-agentic-retrieval|上下文会腐烂：Chroma CTO 谈检索的下一站与 200 亿参数搜索子智能体]]<span class="pd-rz">同概念:智能体搜索 (agentic search)、RAG</span>
-- [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同公司:Anthropic · 同概念:RAG</span>
 
 </div>
 <div class="pd-ex">

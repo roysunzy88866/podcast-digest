@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]]**(00:00起):本集说它发布了首款折叠屏 iPhone Duo(1999 美元起、展开 7.6 英寸),新 CEO John Ternus 主持首场发布会,主持人评价偏冷静:成不成就看双屏价值够不够大,并期待 Ternus 时代全力做健康、交通和本地 AI。
 - **[[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]]**(02:53起):本集说 Josh 在 Apple 待了近六年参与 Siri 新版本，并以 Apple 每年一版的发布节奏为例，说明带大众踏上新体验的旅程需要节制
 - **[[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]]**(24:09起):本集提到 Apple 在 Mac 上做了大量防病毒工作,还做出'I'm a Mac, I'm a PC'广告宣传 Mac 更少中病毒
+- **[[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]]**(08:21起):本集借苹果说明平台达到临界质量后创新移到平台外——iPhone 开箱强制更新、以及社区说的 Sherlocking
 - **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(15:20起):本集说 App Store 成就了 Facebook，而扎克伯格不喜欢「被成就」；Apple 的 ATT 隐私政策一度威胁 Meta 的移动广告业务。
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(00:00起):本集以它为选秀对象：主持人认为苹果的收购哲学向来是回购股票加补强式小技术团队收购（Siri、Touch ID 团队），主张新 CEO John Ternus 停止回购、做几次大豪赌，筛选标准是任何能整合进 iPhone、笔记本、手表、AirPods 和门店的东西，并寻求能取代 iPhone 依赖的千亿美元级收入线。
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(04:08起):本集说：在中国 Apple 关闭了 iOS 平台上所有可用的加密工具，因为平台锁死、逆向工程违法，中国人得到的就只有这些。
@@ -59,7 +60,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
 - [[2025-06-12-lennys-35-years-of-product-design-wisdom-bob-ba|《Bob Baxley：设计是可见的清晰思考》]] — 作为被讨论公司
 - [[2025-08-17-lennys-why-chatgpt-will-be-the-next-big-growth|《Brian Balfour：ChatGPT 即将打开新分发渠道，你怎么下注》]] — 作为被讨论公司(提及)
@@ -81,6 +82,7 @@ unlisted: true
 - [[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups|《不到10人管7个SaaS:让智能体替你做营销的实操系统》]] — 作为被讨论公司
 - [[2026-09-19-a16z-what-makes-a-consumer-ai-product-stick-j|《AI 时代怎么做出能留住人的消费产品》]] — 作为概念
 - [[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]] — 作为被讨论公司(提及)
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为被讨论公司(提及)
 - [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司(提及)
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司(提及)
@@ -90,9 +92,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Google]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Microsoft]] · [[Meta]] · [[NVIDIA]] · [[Amazon]] · [[Lenny]] · [[ChatGPT]]
+[[Google]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Meta]] · [[NVIDIA]] · [[Amazon]] · [[Lenny]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Google":70,"OpenAI":192,"Anthropic":197,"智能体":467,"Microsoft":31,"Meta":51,"NVIDIA":67,"Amazon":32,"Lenny":69,"ChatGPT":106}</script>
+<script type="application/json" class="pd-epn">{"Google":70,"智能体":471,"OpenAI":193,"Anthropic":198,"Microsoft":32,"Meta":51,"NVIDIA":68,"Amazon":32,"Lenny":69,"ChatGPT":108}</script>
 
 <script>
 (function(){

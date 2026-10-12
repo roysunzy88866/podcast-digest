@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kent C. Dodds]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":192,"ChatGPT":106,"Codex":83,"Sites":3,"连接器":3,"技能":30,"计算机使用":22,"推理":92,"MCP":85,"Notion":17}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":193,"ChatGPT":108,"Codex":83,"Sites":3,"连接器":3,"技能":30,"计算机使用":22,"推理":94,"MCP":85,"Notion":17}</script>
 
 <script>
 (function(){

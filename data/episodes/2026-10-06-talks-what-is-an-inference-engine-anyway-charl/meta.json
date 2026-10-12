@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-06-talks-what-is-an-inference-engine-anyway-charl",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/woIYJYd_etI.m4a",
+  "duration_sec": 3583.404,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 504,
+  "asr": true,
+  "title_en": "What Is an Inference Engine, Anyway? — Charles Frye, Modal",
+  "podcast": "精选演讲",
+  "date": "2026-10-06",
+  "added": "2026-10-12",
+  "added_at": "2026-10-11T21:12:11.544Z",
+  "speaker_map": {
+    "SPEAKER_02": "Charles Frye"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Charles Frye"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "大模型背后：推理引擎到底在干什么",
+  "guest_name": "Charles Frye",
+  "guest_title": "Modal",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

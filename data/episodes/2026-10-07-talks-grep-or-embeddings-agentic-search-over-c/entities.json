@@ -1,0 +1,804 @@
+{
+  "episode_id": "2026-10-07-talks-grep-or-embeddings-agentic-search-over-c",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "智能体",
+    "RAG 与检索",
+    "文档解析",
+    "AI 基础设施",
+    "上下文工程"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "george-he",
+      "type": "person",
+      "role": "guest",
+      "name": "George He",
+      "file": "George He",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "llamaindex",
+      "type": "company",
+      "role": "company",
+      "name": "LlamaIndex",
+      "file": "LlamaIndex",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司，A 轮创业公司，专注文档解析、编排和知识管理，帮助企业在智能体工作流中扩展文档搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.965,
+            24.731
+          ],
+          "quote": "Today, we'll be going over a talk on search, document search, and how we get better results here at LlamaIndex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.731,
+            28.033
+          ],
+          "quote": "I'm the head of engineering here at LlamaIndex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集用它作为本地文件搜索路线的代表案例：不做预索引、不做 RAG，只靠 grep/glob 遍历本地文件系统，创造者 Boris 称他们试过向量数据库但最终放弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            136.327,
+            146.653
+          ],
+          "quote": "To get started in understanding where this problem kind of popped up in industry, when Claude Code launched, there was a lot of discussion around the internal mechanics of how Claude Code works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            175.999,
+            181.685
+          ],
+          "quote": "But you'll also notice that this tweet by Boris, Claude Code creator, kind of highlights that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            183.387,
+            193.053
+          ],
+          "quote": "Claude Code experimented with the vector database, didn't end up choosing it, and the reasons aren't just for performance reasons, but because of practical scaling and maintenance reasons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            200.802,
+            210.944
+          ],
+          "quote": "And so specifically, the solution that Claude Code took, which was no pre-indexing, no RAG, no vector search, works really well, but only because of a few characteristics of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            443.278,
+            459.459
+          ],
+          "quote": "But the issue there is because each subagent needs full context, because subagents, even though they might use cheaper or simpler models, if you've noticed in Claude Code, sometimes your main session may issue commands to weaker model subsessions in order to execute the jobs,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集提到 Anthropic 采取用本地文件系统加 grep 的方式管理代码，且因数据新鲜度难做，Anthropic 等公司放弃了预索引数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            158.08,
+            161.983
+          ],
+          "quote": "And Anthropic's taken the approach of using your local file system, grep,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            297.427,
+            300.368
+          ],
+          "quote": "You can try to manage this using Anthropic's Claude MD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            940.253,
+            949.906
+          ],
+          "quote": "This is kind of why Anthropic, a lot of other companies have kind of given up on trying to pre-index data because data freshness is really hard to achieve if your datas are complex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llamaparse",
+      "type": "company",
+      "role": "company",
+      "name": "LlamaParse",
+      "file": "LlamaParse",
+      "primary": true,
+      "how_described": "LlamaIndex 的结构化解析产品，把表格、图表等复杂内容编码成 markdown，让智能体能理解空间布局。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            809.931,
+            811.171
+          ],
+          "quote": "We have a product called LlamaParse.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lightparse",
+      "type": "company",
+      "role": "company",
+      "name": "LightParse",
+      "file": "LightParse",
+      "primary": true,
+      "how_described": "LlamaIndex 开源的文本结构化内容提取工具，处理表格、图表、分段信息的提取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            811.211,
+            815.592
+          ],
+          "quote": "We've also open sourced a tool called LightParse, which handles structural content extraction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "turbopuffer",
+      "type": "company",
+      "role": "company",
+      "name": "TurboPuffer",
+      "file": "TurboPuffer",
+      "primary": true,
+      "how_described": "本集演示用的向量存储，支持权限元数据过滤下沉到存储层；本集建议数据落盘再加内存缓存层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            1041.384,
+            1043.365
+          ],
+          "quote": "For our use cases today, we'll be looking at TurboPuffer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1045.506,
+            1049.771
+          ],
+          "quote": "And TurboPuffer, as well as most vector stores, will also handle permissioning, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体能遍历本地文件系统、使用工具检索信息；正确做法是给它一整套搜索、grep、读取、截图核对的工具，让它自己选择路径并给出可溯源的答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            224.107,
+            228.068
+          ],
+          "quote": "And it leaves a natural hierarchy for how an agent might move about your file system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            229.793,
+            237.06
+          ],
+          "quote": "And the largest part there is code is already on disk and local, especially if your agent has context, so why complicate it with a pre-retrieval system?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            305.731,
+            310.354
+          ],
+          "quote": "You keep track and let your agent know, hey, you can traverse the data this way, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            310.374,
+            318.2
+          ],
+          "quote": "So MCP skills, Claude, Claude agent files, instruction files, these are all options for keeping track of some type of hierarchy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            430.754,
+            442.437
+          ],
+          "quote": "And there have been solutions around how you can use sub-agents, have one larger agent issue sub-commands so that a smaller agent can deal with the memory context, the memory bloat, and just give a response back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            477.331,
+            484.456
+          ],
+          "quote": "And so we'll kind of talk about that here in kind of building out a harness and letting an agent choose what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            507.056,
+            515.078
+          ],
+          "quote": "So give your agent the tools needed to either search through specific files using your old school grep, your old school cat,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            515.938,
+            538.37
+          ],
+          "quote": "File name filtering or metadata filtering in addition to semantic filtering and that way you can get kind of the best of both worlds going through traversal so you can get the rough direction of which files you want to search and use semantic search to downscope your files and then using your agent's built-in file traversal capabilities to dig into the meat of the details so that you can actually ground your answers instead of hallucinating them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            636.747,
+            642.31
+          ],
+          "quote": "So giving the agent a pre-built screenshot index to search through is also very useful as you're performing RAG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            732.025,
+            736.446
+          ],
+          "quote": "Because your agent at the start might not know all the metadata or the extracted content of your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            748.548,
+            762.397
+          ],
+          "quote": "So giving your agent the primitives of listing out the files grep and read that you have locally is really important in a shared and distributed file system, especially if it's one that you don't want to download onto your agent's context every single time, which can get expensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            789.058,
+            797.765
+          ],
+          "quote": "And so thinking about how you do your pre-indexing flow and parsing flow so that you don't have to reread the documents every single time using your agent is also important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            815.752,
+            825.894
+          ],
+          "quote": "So this is like if you have tables, charts, or segmented information, you want to encode that as either markdown or just something that your agent really can understand the spatial reasoning of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1072.029,
+            1088.798
+          ],
+          "quote": "And for the demo today, the process to think about is how is the agent going to use the subcomponents in order to actually give you a response that's grounded, that actually can traverse multiple documents, and actually gets you a result that you're pretty happy with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1162.78,
+            1166.823
+          ],
+          "quote": "And we'll talk through kind of the tools that your agent would want to use along this process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1227.165,
+            1232.769
+          ],
+          "quote": "So with this suite of tools together, your agent doesn't really need the files in a local file state anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1242.356,
+            1245.198
+          ],
+          "quote": "And that gives the agent a much more capable",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1299.716,
+            1310.719
+          ],
+          "quote": "So as an agent is running over the process of retrieving your answers from the corpus, it's going to look through your corpus by issuing search commands.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1310.799,
+            1315.861
+          ],
+          "quote": "And as it's issuing the search commands, you want your agent to be able to review the screenshots, review the context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1333.212,
+            1337.194
+          ],
+          "quote": "So in this agent response, you can see the cash flow summary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1354.145,
+            1359.708
+          ],
+          "quote": "And that gives you much more confidence that your agent's found the right component or the right chunk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1359.728,
+            1362.67
+          ],
+          "quote": "That's what we're looking for at the end of the day for agent-based retrieval.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pre-indexing",
+      "type": "concept",
+      "role": "concept",
+      "name": "预索引 (pre-indexing)",
+      "file": "预索引",
+      "primary": true,
+      "how_described": "本集核心辩论的一端：数据规模到几万、几百万文件时必须有预建索引给智能体指方向；预索引也是避免每次重复处理文档、省 token 的做法，但难在保持同步和数据新鲜度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            113.832,
+            127.041
+          ],
+          "quote": "And so there are kind of two evolving approaches to orchestration between grep or what I like to call kind of local file search and file execution or embeddings or pre-indexing, pre-retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            200.802,
+            210.944
+          ],
+          "quote": "And so specifically, the solution that Claude Code took, which was no pre-indexing, no RAG, no vector search, works really well, but only because of a few characteristics of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            211.504,
+            216.105
+          ],
+          "quote": "They did not care about pre-indexing information because the code in your repo is usually small.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            465.904,
+            476.53
+          ],
+          "quote": "So in order to speed up your process and make sure that you're not burning tokens unnecessarily reprocessing documents each time, you may actually think about building out a pre-indexing system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            607.209,
+            612.913
+          ],
+          "quote": "In your pre-indexing process, one of the most important parts is to chunk or break your documents down into digestible portions, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            789.058,
+            797.765
+          ],
+          "quote": "And so thinking about how you do your pre-indexing flow and parsing flow so that you don't have to reread the documents every single time using your agent is also important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            803.87,
+            809.851
+          ],
+          "quote": "So we usually recommend pre-indexing or pre-parsing your documents using structured parsing flow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "Claude Code 选择了不做 RAG，但对大规模企业数据，本集主张用预索引加截图索引的方式做 RAG，让答案有据可查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            200.802,
+            210.944
+          ],
+          "quote": "And so specifically, the solution that Claude Code took, which was no pre-indexing, no RAG, no vector search, works really well, but only because of a few characteristics of code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            488.831,
+            501.114
+          ],
+          "quote": "Our system, or any system that can scale out, to be manually deciding, should I use a hybrid RAG approach, or should I just individually search through files?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            636.747,
+            642.31
+          ],
+          "quote": "So giving the agent a pre-built screenshot index to search through is also very useful as you're performing RAG.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            657.713,
+            661.496
+          ],
+          "quote": "There's graph rag, there's traditional rag, there's kind of your old-school keyword-based BM25 search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集提到 Claude Code 试验过向量数据库但放弃了，原因不只是性能，更是预建索引难与不断更新的代码保持同步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            183.387,
+            193.053
+          ],
+          "quote": "Claude Code experimented with the vector database, didn't end up choosing it, and the reasons aren't just for performance reasons, but because of practical scaling and maintenance reasons.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "grep",
+      "type": "concept",
+      "role": "concept",
+      "name": "grep",
+      "file": "grep",
+      "primary": true,
+      "how_described": "本集把 grep 代表的本地文件搜索作为预索引之外的另一条路线：代码仓库小而结构清晰时，grep 遍历就够；它也是给智能体的深挖工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.102,
+            48.747
+          ],
+          "quote": "search, grep, and generally manage context using agentic orchestration and just general infrastructure tooling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            113.832,
+            127.041
+          ],
+          "quote": "And so there are kind of two evolving approaches to orchestration between grep or what I like to call kind of local file search and file execution or embeddings or pre-indexing, pre-retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            158.08,
+            161.983
+          ],
+          "quote": "And Anthropic's taken the approach of using your local file system, grep,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            241.333,
+            253.62
+          ],
+          "quote": "The reality is when you switch over to larger company datasets where you have images, you have PDFs, you have PowerPoints mixed in, it's harder because there's not really a folder to grep.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            253.64,
+            257.742
+          ],
+          "quote": "You can't really grep the folders across a company dataset because it's not organized like code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            507.056,
+            515.078
+          ],
+          "quote": "So give your agent the tools needed to either search through specific files using your old school grep, your old school cat,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            748.548,
+            762.397
+          ],
+          "quote": "So giving your agent the primitives of listing out the files grep and read that you have locally is really important in a shared and distributed file system, especially if it's one that you don't want to download onto your agent's context every single time, which can get expensive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1192.138,
+            1197.402
+          ],
+          "quote": "You then might want to think about how you would grep for a specific piece of text in the file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1207.39,
+            1218.139
+          ],
+          "quote": "In order to find that in a specific file, all you need to do is issue a grep command, and then read from that specific command what that offset is, and then what the max length is that you want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文长度 (context length)",
+      "file": "上下文长度",
+      "primary": true,
+      "how_described": "本集指出上下文已到一百万 token，但用模型上下文做数据摄入和搜索极其昂贵，把二进制文件发给模型渲染等于烧 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            396.061,
+            398.924
+          ],
+          "quote": "We got one million token context length now.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parsing",
+      "type": "concept",
+      "role": "concept",
+      "name": "文档解析 (parsing)",
+      "file": "文档解析",
+      "primary": true,
+      "how_described": "本集强调复杂文档（表格、扫描件、原理图）需结构化解析成 markdown，并渲染时持久化页面截图，供智能体像人一样核对原文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            30.334,
+            36.078
+          ],
+          "quote": "We focus quite a bit on document parsing, orchestration, and knowledge management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            789.058,
+            797.765
+          ],
+          "quote": "And so thinking about how you do your pre-indexing flow and parsing flow so that you don't have to reread the documents every single time using your agent is also important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            803.87,
+            809.851
+          ],
+          "quote": "So we usually recommend pre-indexing or pre-parsing your documents using structured parsing flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            831.087,
+            837.789
+          ],
+          "quote": "Last one there is, of course, in your pre-parsing flow, you usually want to generate those screenshots as you actually render the page.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            837.829,
+            844.21
+          ],
+          "quote": "So whatever you're doing for pre-parsing, you probably also want to store and persist screenshots as they're being generated from document rendering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            854.235,
+            858.337
+          ],
+          "quote": "And so parsing is an important part, but it's not the only part of a pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            858.357,
+            866.222
+          ],
+          "quote": "We usually advocate for people to think about how you can distribute parsing and think about scaling out to improve your parsing pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            966.57,
+            971.791
+          ],
+          "quote": "The second step is going to be parsing, which is how do we actually convert your document to a standardized format?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-tenancy",
+      "type": "concept",
+      "role": "concept",
+      "name": "多租户 (multi-tenancy)",
+      "file": "多租户",
+      "primary": false,
+      "how_described": "本集列为生产环境必被客户问到的坑：一个人能否看到另一个人的数据、Google Drive/SharePoint 权限元数据如何同步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            921.319,
+            922.48
+          ],
+          "quote": "There's multi-tenancy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "hybrid search",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

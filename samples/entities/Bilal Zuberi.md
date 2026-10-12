@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":3,"物理 AI":11,"机器人":14,"部署层":1,"模拟":9,"SBIR 工厂":1,"共识投资":1,"管理费":1,"后训练":1,"Red Glass":1}</script>
+<script type="application/json" class="pd-epn">{"Turner":3,"物理 AI":11,"机器人":14,"部署层":1,"模拟":1,"SBIR 工厂":1,"共识投资":1,"管理费":1,"后训练":1,"Red Glass":1}</script>
 
 <script>
 (function(){

@@ -49,7 +49,7 @@ unlisted: true
 
 [[Claude]] · [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[ChatGPT]] · [[Facebook]] · [[OpenAI]] · [[后训练]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Claude":93,"Lenny":69,"Anthropic":197,"智能体":467,"Meta":51,"ChatGPT":106,"Facebook":17,"OpenAI":192,"后训练":1,"Google":70}</script>
+<script type="application/json" class="pd-epn">{"Claude":93,"Lenny":69,"Anthropic":198,"智能体":471,"Meta":51,"ChatGPT":108,"Facebook":17,"OpenAI":193,"后训练":1,"Google":70}</script>
 
 <script>
 (function(){

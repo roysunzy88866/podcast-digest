@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ON</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>711</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ON">ON</div><div class="pi"><h1 class="pt">ON</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>724</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*711 条*
+*724 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q3]]
 
@@ -1029,6 +1029,14 @@ unlisted: true
 
 ![[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a#^q5]]
 
+![[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with#^q3]]
+
+![[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with#^q6]]
+
+![[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with#^q7]]
+
+![[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with#^q9]]
+
 ![[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0#^q8]]
 
 ![[2026-09-19-bigtech-ai-doom-backlash-arrives-anthropic-opena#^q1]]
@@ -1107,6 +1115,10 @@ unlisted: true
 
 ![[2026-09-25-talks-distill-the-llm-don-t-serve-it-search-pe#^q5]]
 
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q7]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q15]]
+
 ![[2026-09-26-mos-rapid-response-stop-creating-businesses#^q6]]
 
 ![[2026-09-26-mos-rapid-response-stop-creating-businesses#^q8]]
@@ -1166,6 +1178,8 @@ unlisted: true
 ![[2026-09-28-twist-the-5-companies-apple-must-buy#^q9]]
 
 ![[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid#^q8]]
+
+![[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab#^q2]]
 
 ![[2026-09-29-knowledge-bill-ackman-the-biggest-fight-of-his-lif#^q4]]
 
@@ -1347,6 +1361,12 @@ unlisted: true
 
 ![[2026-10-06-talks-the-6-pillars-of-an-agentic-harness-for#^q10]]
 
+![[2026-10-06-talks-what-is-an-inference-engine-anyway-charl#^q4]]
+
+![[2026-10-06-talks-what-is-an-inference-engine-anyway-charl#^q7]]
+
+![[2026-10-06-talks-what-is-an-inference-engine-anyway-charl#^q8]]
+
 ![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q4]]
 
 ![[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va#^q12]]
@@ -1378,6 +1398,12 @@ unlisted: true
 ![[2026-10-07-cogrev-software-that-never-breaks-outsystems-ce#^q7]]
 
 ![[2026-10-07-pragmatic-building-resilient-systems-with-sam#^q5]]
+
+![[2026-10-07-talks-building-engine-v2-how-langchain-approac#^q2]]
+
+![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q1]]
+
+![[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c#^q5]]
 
 ![[2026-10-08-a16z-building-the-cloud-for-an-agentic-world#^q2]]
 

@@ -1,31 +1,35 @@
 ---
-title: 概率编程 (probabilistic programming)
+title: PyTorch
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>概率编程 (probabilistic programming)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PyTorch</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="概率编程">概率</div><div class="pi"><h1 class="pt">概率编程 (probabilistic programming)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PyTorch">PY</div><div class="pi"><h1 class="pt">PyTorch</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(01:23起):本集里 Martin 提出这门学科的巨大历史基本在 70 年代就消亡了，而 Jev 这类原语可能开启一个完整的概率编程新时代。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(40:03起):本集将它描述为极其重要的开源框架，指出如果没有它，就不会有现代 AI。
+- **[[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]]**(01:57起):一两个小时就能用它加 Hugging Face Transformers 写出一个能跑的推理引擎;模型前向传递层的代码大多在 PyTorch 里,自带内核库
+- **[[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]]**(54:35起):本集说客户喜欢 PyTorch，Google 提供 Torch TPU 让未修改的模型在 TPU 上运行，不强制锁定
 
 ## ② 出现在这些集
 
-*1 集*
+*3 集*
 
-- [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为概念
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
+- [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]] — 作为被讨论公司
+- [[2026-10-06-trainingdata-google-s-ai-infrastructure-chief-amin-va|《造芯片、建电厂、照镜子：Google AI 基础设施掌门人谈前沿计算的物理极限》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ben Horowitz]] · [[Martin Casado]] · [[Diogo Almeida]] · [[TypeSafe]] · [[Jev]] · [[自动化]] · [[编码智能体]] · [[智能软件]] · [[可靠性]] · [[RLHF]]
+[[NVIDIA]] · [[智能体]] · [[Jensen Huang]] · [[Charles Frye]] · [[Amin Vahdat]] · [[Jerry]] · [[Modal]] · [[Google]] · [[Sega]] · [[SGLang]]
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"Martin Casado":5,"Diogo Almeida":3,"TypeSafe":4,"Jev":7,"自动化":1,"编码智能体":32,"智能软件":1,"可靠性":3,"RLHF":7}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":68,"智能体":471,"Jensen Huang":4,"Charles Frye":1,"Amin Vahdat":1,"Jerry":1,"Modal":7,"Google":70,"Sega":1,"SGLang":4}</script>
 
 <script>
 (function(){

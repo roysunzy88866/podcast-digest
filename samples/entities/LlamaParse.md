@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LlamaParse</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LlamaParse">LL</div><div class="pi"><h1 class="pt">LlamaParse</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LlamaParse">LL</div><div class="pi"><h1 class="pt">LlamaParse</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(13:14起):本集说它是 LlamaParse 围绕文档处理与提取的商业服务:优化底层 PDF/Word/PowerPoint 引擎,用智能体框架在便宜专门模型与前沿模型之间自动路由,加微调的文档 VLM,朝低成本、高准确率调优并带引用溯源和置信度分数。
+- **[[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]]**(13:29起):LlamaIndex 的结构化解析产品，把表格、图表等复杂内容编码成 markdown，让智能体能理解空间布局。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jerry Liu]] · [[LlamaIndex]] · [[LightParse]] · [[parsebench]] · [[RAG]] · [[智能体]] · [[上下文]] · [[文档 OCR]] · [[VLM]] · [[MCP 服务器]]
+[[LlamaIndex]] · [[LightParse]] · [[RAG]] · [[智能体]] · [[向量数据库]] · [[Claude Code]] · [[Jerry Liu]] · [[George He]] · [[parsebench]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Jerry Liu":1,"LlamaIndex":2,"LightParse":1,"parsebench":1,"RAG":28,"智能体":467,"上下文":31,"文档 OCR":1,"VLM":4,"MCP 服务器":2}</script>
+<script type="application/json" class="pd-epn">{"LlamaIndex":3,"LightParse":2,"RAG":29,"智能体":471,"向量数据库":7,"Claude Code":104,"Jerry Liu":1,"George He":1,"parsebench":1,"Anthropic":198}</script>
 
 <script>
 (function(){

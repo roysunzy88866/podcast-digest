@@ -1,0 +1,35 @@
+{
+  "id": "2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with",
+  "audio_mp3": "https://traffic.megaphone.fm/PDP7720707490.mp3",
+  "duration_sec": 2291.899,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 399,
+  "asr": true,
+  "title_en": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+  "podcast": "No Priors",
+  "date": "2026-09-18",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/51c4092c-b309-11f1-8603-fb8d30e1277f/image/432b6af9d1b0d625ffd98b71a629d0a9.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-12",
+  "added_at": "2026-10-11T23:48:33.770Z",
+  "speaker_map": {
+    "SPEAKER_00": "Stefano Ermon"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Stefano Ermon"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "扩散模型能不能取代GPT？扩散模型之父下场创业",
+  "guest_name": "Stefano Ermon",
+  "guest_title": "Stanford教授",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/51c4092c-b309-11f1-8603-fb8d30e1277f/image/432b6af9d1b0d625ffd98b71a629d0a9.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "2560x1440",
+    "aspect": 1.778,
+    "fetched_at": "2026-10-11T23:55:05.551Z"
+  }
+}

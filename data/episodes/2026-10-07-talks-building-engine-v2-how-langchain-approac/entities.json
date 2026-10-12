@@ -1,0 +1,1400 @@
+{
+  "episode_id": "2026-10-07-talks-building-engine-v2-how-langchain-approac",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "智能体工程",
+    "评测与基准",
+    "Agent 可观测性",
+    "红队测试",
+    "产品迭代"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "ben",
+      "type": "person",
+      "role": "host",
+      "name": "Ben",
+      "file": "Ben",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.673,
+            9.875
+          ],
+          "quote": "Like Harrison said, I'm Ben.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集是 LangChain 团队的分享:他们构建了许多不同的智能体(市推智能体、编程智能体),并把整条智能体调试流程做成产品 Engine。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.321,
+            25.27
+          ],
+          "quote": "What I want to do today is walk you through the process that we have at LangChain of developing and improving our agents through engine, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            314.296,
+            324.299
+          ],
+          "quote": "And we have many different agents that we build at LangChain, including go-to-market agents that handle a bunch of go-to-market-related tasks, like sending outbound, doing prospect research.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "company",
+      "role": "company",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": true,
+      "how_described": "本集说 LangSmith 是他们完全依赖的平台:团队在上面看 trace、跑实验、对比成本与基准分数随时间的变化,还提供 deployments(部署)平台和数据集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            455.601,
+            461.863
+          ],
+          "quote": "Another quick point that I want to make is our team is totally reliant on the LangSmith platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            541.868,
+            547.092
+          ],
+          "quote": "And it means much faster resolution times for the teams that are building agents on top of LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            868.414,
+            878.518
+          ],
+          "quote": "After we've identified and confirmed this is a real problem, we will then propose a fix and spin that up in a preview branch and in a preview deployment available on our LangSmith deployments platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            896.925,
+            904.634
+          ],
+          "quote": "And after verifying that this fix is effective for those inputs, we want to look at a broader set of inputs, like the ones that you have in a LangSmith dataset.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            905.174,
+            916.907
+          ],
+          "quote": "And so you can configure the different datasets that you have on LangSmith, and so the engine will run evals against the existing inputs that have been breaking your agent, as well as the broader range of inputs that you want to ensure do not regress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            957.177,
+            959.758
+          ],
+          "quote": "Right now, this is available to our LangSmith deployments customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            1042.409,
+            1047.953
+          ],
+          "quote": "This is available in private beta, again, to our LangSmith deployments customers, and would love for you to try it out and give us your feedback.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "Engine",
+      "file": "Engine",
+      "primary": true,
+      "how_described": "本集把它说成:LangChain 的『用于智能体工程的智能体』产品,自动扫描 trace、发现问题、写描述、提修复和 eval,今年 5 月发布后已扫描超 7000 万条轨迹、创建超 21000 个问题;本集讲它从 v1 打磨到 v2 的过程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            11.056,
+            15.16
+          ],
+          "quote": "I work on our product engine, which is our agent for agent engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            16.321,
+            25.27
+          ],
+          "quote": "What I want to do today is walk you through the process that we have at LangChain of developing and improving our agents through engine, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            52.223,
+            55.985
+          ],
+          "quote": "And so what we've built in Engine is a product and a tool",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            85.465,
+            87.186
+          ],
+          "quote": "So we're really excited about Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            91.847,
+            100.41
+          ],
+          "quote": "And since then, Engine has scanned over 70 million traces and has created over 21,000 issues for the many customers that are using it today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            100.97,
+            110.193
+          ],
+          "quote": "We're really excited about this progress, but we've had a lot of time and a lot of effort spent on making Engine much better than the version that we released in May as our public beta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            111.013,
+            129.729
+          ],
+          "quote": "And so like I said, the hope of today's little talk and session that I have is I want to walk you through this process that our team has followed for making Engine better and for making this a product that is faster, stronger, cheaper, and go beyond what we have today within this existing agent development lifecycle and what's automated today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            131.648,
+            137.069
+          ],
+          "quote": "The number one thing that I want to talk about actually is the process for evaluating Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            137.849,
+            144.011
+          ],
+          "quote": "As we have been building this very complex agent, it's been very hard to create these evals for Engine as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            144.571,
+            150.372
+          ],
+          "quote": "And the reason that it's so hard for Engine is because of the many complex tasks that are handled by this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            150.752,
+            161.295
+          ],
+          "quote": "And so to run you through some of the tasks that are handled, Engine will identify these offending or problematic traces and cluster them together after identifying a root cause.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            194.325,
+            201.312
+          ],
+          "quote": "And so in order for us to ensure that engine performs well and that we can make it better and cheaper, we need to be evaluating these separately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            206.937,
+            220.223
+          ],
+          "quote": "And so, for example, we have created a unique benchmark for identifying these offending traces that allows us to test engine and understand how well is it able to identify problematic traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            236.127,
+            239.092
+          ],
+          "quote": "And we just test engine's ability to find these problematic traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            242.196,
+            247.139
+          ],
+          "quote": "Another one that's very similar, which is Engine's ability to cluster those traces by root cause.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            247.699,
+            256.364
+          ],
+          "quote": "For this benchmark, we provide Engine, the agent, with a set of known error traces, as well as a series of existing issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            256.905,
+            263.549
+          ],
+          "quote": "And we evaluate Engine's ability to match these known error traces to the set of issues or to create new issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            267.771,
+            276.816
+          ],
+          "quote": "But like I said, for each one of these various tasks, we have to create new benchmarks and ensure that Engine is performing and is firing on all cylinders for each one of these different tasks that it handles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            303.752,
+            312.435
+          ],
+          "quote": "And so in order to ensure that any of the changes that we find very effective against our benchmarks really are effective in a production environment, we dogfood engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            330.042,
+            333.643
+          ],
+          "quote": "And so each of these agents that we have built, we run Engine on top of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            334.144,
+            335.664
+          ],
+          "quote": "And Engine will find errors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            339.846,
+            348.471
+          ],
+          "quote": "The teams that are working on these go-to-market agents or the coding agents can tell us that Engine has found really valuable issues or something is wrong with this description.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            350.892,
+            356.693
+          ],
+          "quote": "This process that we have had on the benchmarking and the evaluating of Engine on these specific tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            357.554,
+            364.515
+          ],
+          "quote": "But maybe the most interesting of this dogfooding is that we actually run Engine on top of Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            364.935,
+            370.997
+          ],
+          "quote": "So as Engine investigates traces for our go-to-market agents and for our coding agents, it produces traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            371.657,
+            374.518
+          ],
+          "quote": "And those traces are scanned by another instance of Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            374.538,
+            376.038
+          ],
+          "quote": "We call it the meta-engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            377.071,
+            382.053
+          ],
+          "quote": "And we've hooked up this Meta Engine to send us Slack notifications in the same way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            382.113,
+            393.038
+          ],
+          "quote": "And so our team gets notified when our own product is acting up in a little way or something might have failed or there's a suboptimal response in one of the outputs that Engine has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            393.639,
+            398.881
+          ],
+          "quote": "And so it's actually becoming one of the primary ways that we identify opportunities for growth on Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            405.662,
+            415.354
+          ],
+          "quote": "I want to highlight a couple of interesting just notes and kind of thoughts that we've had as we have been working on improving Engine, specifically around kind of our use of different models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            431.347,
+            438.23
+          ],
+          "quote": "But I have also found that for specific tasks that we run Engine on, using these non-frontier models actually can be more effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            449.013,
+            454.255
+          ],
+          "quote": "And so we constantly play around with swapping out the models that are used for the different tasks that are handled by Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            467.685,
+            472.126
+          ],
+          "quote": "We also, as I mentioned, rely on this feed of Engine issues that are produced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            472.766,
+            475.507
+          ],
+          "quote": "But we also use Engine for our experiments platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            486.628,
+            496.939
+          ],
+          "quote": "And so as we've been working on improving this process and making Engine better, as we've been building these benchmarks and then hill climbing against those benchmarks, we've been able to achieve much better scores against the different benchmarks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            508.891,
+            516.813
+          ],
+          "quote": "And then we also test the fixes that Engine proposes against a series of these industry-standard coding benchmarks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            517.994,
+            525.096
+          ],
+          "quote": "And then we also pair that with benchmarks that we have designed specifically for these agent-related issues where we've seen Engine get a lot better as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            530.239,
+            534.362
+          ],
+          "quote": "It ultimately means more issues identified for our customers that are using Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            556.525,
+            564.413
+          ],
+          "quote": "But what I want to do is talk about a specific way that we've modified our harness, we've modified engine to more adequately find these issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            585.263,
+            594.145
+          ],
+          "quote": "Now, when we first launched Engine, our V1 that we launched in May, you can imagine that Engine captured a portion of those problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            606.693,
+            615.359
+          ],
+          "quote": "And as we have worked to evaluate and to iterate against our benchmarks, we have expanded what engine in its previous state is able to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            616,
+            624.886
+          ],
+          "quote": "But there's still a portion of this agent problem space that engine in its architecture from our V1 version would never really be able to identify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            634.331,
+            640.981
+          ],
+          "quote": "And this is because in our first version of Engine, we ensured that Engine was really excellent at finding errors in a specific trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            651.553,
+            658.075
+          ],
+          "quote": "An engine, as it pours through traces, does investigation, it can find multiple traces with that problem, cluster them together based on root cause.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            699.965,
+            711.288
+          ],
+          "quote": "But the ability for engine or an agent engineer to determine that the tool calls from one step to the next has increased massively is a huge indication that something might be wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            716.849,
+            730.479
+          ],
+          "quote": "And so this kind of context across traces and understanding of the history of your agent and the traces that it produces is one of the kinds of problems that we've gotten much better at identifying with engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            731.62,
+            736.683
+          ],
+          "quote": "These kind of metric related trends that we want to track and ensure engine is able to catch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            737.644,
+            751.829
+          ],
+          "quote": "The other kind of problem that we have become much more capable of, these are two of several of what we've worked on, is the ability for Engine to detect inefficient paths as it works to identify or to meet the demands of a customer request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            774.091,
+            779.952
+          ],
+          "quote": "And so problems like this are examples of the kinds of problems that we've gotten much better at finding in Engine v2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            784.949,
+            796.471
+          ],
+          "quote": "with our improvements to Engine have been improvements to the existing functionality within Engine as it finds issues, as it proposes fixes, and as it proposes evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            797.588,
+            809.475
+          ],
+          "quote": "And what we want Engine to do is really to cover the entire agent development lifecycle from this finding of issues, from the creation of fixes, but also through the testing of those fixes and the deploying of those fixes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            822.922,
+            829.986
+          ],
+          "quote": "But the vision that we have for Engine is the finding of problems, the fixing of those problems, and the testing of that fix all autonomously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            830.766,
+            835.069
+          ],
+          "quote": "And this is what we are releasing with our validated fixes as part of Engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            841.652,
+            843.793
+          ],
+          "quote": "Engine still finds issues as it does today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            879.558,
+            896.125
+          ],
+          "quote": "And we will run those same breaking inputs against this previewed fix version of your agent so that we can confirm that whatever fix engine has spun up really solves the problem that identified and that those breaking inputs are no longer breaking in this proposed version of your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            905.174,
+            916.907
+          ],
+          "quote": "And so you can configure the different datasets that you have on LangSmith, and so the engine will run evals against the existing inputs that have been breaking your agent, as well as the broader range of inputs that you want to ensure do not regress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            960.098,
+            967.062
+          ],
+          "quote": "We are looking to expand that, but we'd love for you to join our waitlist and try out this new ability to validate these fixes via engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            976.877,
+            982.719
+          ],
+          "quote": "Today, the issues that engine catches are ones that have already reached production and they already have a trace for you to go and analyze.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            993.659,
+            1012.93
+          ],
+          "quote": "And so this red teaming functionality for engine proactively creates hypotheses for potential inputs that might break your agent based on your agent system prompt or other details of the harness or the context that are available and tries to figure out what might cause for an unsatisfactory output from your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            1021.189,
+            1030.556
+          ],
+          "quote": "And so if there are any unsatisfactory responses that are created, Engine will cluster these together in a similar issue, packaged up with a proposed fix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1049.434,
+            1053.417
+          ],
+          "quote": "And all of this that I've just been talking about is all part of Engine v2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            1053.937,
+            1059.32
+          ],
+          "quote": "And as we're launching it and announcing it today, we're already thinking about and already working on Engine v3.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1084.546,
+            1092.295
+          ],
+          "quote": "At the same time, Engine today is really good at identifying eval examples to be added to your data sets based on issues it's identified.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1105.95,
+            1119.912
+          ],
+          "quote": "But what we want Engine to become better at is creating a baseline set of evals for you to run against to ensure that all of the different behaviors that you would expect out of your agent are not regressing as you make changes to the model or changes to the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1121.415,
+            1136.078
+          ],
+          "quote": "And lastly, the one that I'll talk on here is kind of a north star for us as we build Engine, which is that we want to make broader changes, broader proposals, I should say, to your agent's harness and to the models that are used for different tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1136.923,
+            1147.449
+          ],
+          "quote": "That would mean that Engine is no longer finding these specific fixes or tweaks or optimizations to your harness, but rather it's saying that this entire model is too bulky, it's too expensive for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1178.259,
+            1187.79
+          ],
+          "quote": "Now, the last quick thing that I'll add in here that Harrison mentioned is we do have Engine available in our self-hosted deployments via Bring Your Own Key.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1194.358,
+            1201.601
+          ],
+          "quote": "So very, very fun to chat with you all about Engine v2 and the progress that we've made as well as kind of what we're thinking about for Engine v3.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1202.121,
+            1209.504
+          ],
+          "quote": "We have a lot of really awesome customers that have been trying Engine today that have been giving us great feedback and that are accelerating their agent development process.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集的主线:构建智能体的痛苦流程(翻轨迹、归类问题、根因分析、写修复、写 eval),Engine 旨在覆盖从发现问题到修复、测试、部署的整个智能体开发生命周期,并迈向持续自我改进、人在环中把关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            11.056,
+            15.16
+          ],
+          "quote": "I work on our product engine, which is our agent for agent engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            25.33,
+            27.993
+          ],
+          "quote": "This agent for engineering, agent engineering, I should say.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            111.013,
+            129.729
+          ],
+          "quote": "And so like I said, the hope of today's little talk and session that I have is I want to walk you through this process that our team has followed for making Engine better and for making this a product that is faster, stronger, cheaper, and go beyond what we have today within this existing agent development lifecycle and what's automated today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            137.849,
+            144.011
+          ],
+          "quote": "As we have been building this very complex agent, it's been very hard to create these evals for Engine as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            144.571,
+            150.372
+          ],
+          "quote": "And the reason that it's so hard for Engine is because of the many complex tasks that are handled by this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            167.22,
+            173.685
+          ],
+          "quote": "It will investigate that issue and compare the traces to the actual source code of your agent to create a fix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            186.417,
+            190.12
+          ],
+          "quote": "And so I'm running through all these different stages of this agent and the work that it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            247.699,
+            256.364
+          ],
+          "quote": "For this benchmark, we provide Engine, the agent, with a set of known error traces, as well as a series of existing issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            280.121,
+            295.768
+          ],
+          "quote": "And so something interesting that I want to highlight as we talk about these benchmarks is that there are two sides to this coin, where we have evals that we need to ensure these benchmarks that we've created that help us to test very specific components of the agent's run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            517.994,
+            525.096
+          ],
+          "quote": "And then we also pair that with benchmarks that we have designed specifically for these agent-related issues where we've seen Engine get a lot better as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            577.101,
+            584.183
+          ],
+          "quote": "So any little dot within this circle is a kind of problem that you can envision within the agent building problem space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            616,
+            624.886
+          ],
+          "quote": "But there's still a portion of this agent problem space that engine in its architecture from our V1 version would never really be able to identify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            668.597,
+            681.52
+          ],
+          "quote": "So let's say between September 1st and September 14th, our team has swapped out a new model for our agent, and we see that the cost and latency are pretty much the same, even though we were expecting to see a huge drop in cost or a huge drop in latency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            699.965,
+            711.288
+          ],
+          "quote": "But the ability for engine or an agent engineer to determine that the tool calls from one step to the next has increased massively is a huge indication that something might be wrong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            716.849,
+            730.479
+          ],
+          "quote": "And so this kind of context across traces and understanding of the history of your agent and the traces that it produces is one of the kinds of problems that we've gotten much better at identifying with engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            755.427,
+            765.809
+          ],
+          "quote": "Let's say that 5% of the time that your agent is handling a very normal request, it goes on a side quest and starts calling all sorts of tool calls or starts looking at all sorts of sources of data that it shouldn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            797.588,
+            809.475
+          ],
+          "quote": "And what we want Engine to do is really to cover the entire agent development lifecycle from this finding of issues, from the creation of fixes, but also through the testing of those fixes and the deploying of those fixes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            844.193,
+            850.417
+          ],
+          "quote": "It finds an issue about tool looping, and it identifies specific inputs that it's seen in production that have broken your agent in some way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            851.87,
+            861.402
+          ],
+          "quote": "Now to verify that this problem is real, we actually send those same inputs to your production version of your agent to verify that it is still broken in your production version.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            879.558,
+            896.125
+          ],
+          "quote": "And we will run those same breaking inputs against this previewed fix version of your agent so that we can confirm that whatever fix engine has spun up really solves the problem that identified and that those breaking inputs are no longer breaking in this proposed version of your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            905.174,
+            916.907
+          ],
+          "quote": "And so you can configure the different datasets that you have on LangSmith, and so the engine will run evals against the existing inputs that have been breaking your agent, as well as the broader range of inputs that you want to ensure do not regress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            926.797,
+            936.067
+          ],
+          "quote": "And instead you get a verified issue that we know is still breaking your agent and you get a verified fix that we know addresses the problem and does not regress against other examples.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            938.608,
+            951.374
+          ],
+          "quote": "I think this is like our kind of first steps into continual learning and this process of continually making your agent better and more capable while still allowing for a human to be in the loop and monitoring the different changes that are proposed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            968.955,
+            972.616
+          ],
+          "quote": "Now, the other thing that Harrison mentioned is this ability to red team your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            986.935,
+            993.599
+          ],
+          "quote": "There are also ways that we can try to break your agent before it ever actually touches a user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            993.659,
+            1012.93
+          ],
+          "quote": "And so this red teaming functionality for engine proactively creates hypotheses for potential inputs that might break your agent based on your agent system prompt or other details of the harness or the context that are available and tries to figure out what might cause for an unsatisfactory output from your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            1013.883,
+            1021.008
+          ],
+          "quote": "And against your production deployment of the agent, we'll hit that deployment with these different inputs and monitor the different responses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1064.824,
+            1074.275
+          ],
+          "quote": "Absolutely looking to expand the access to these validated fixes that we're running, as well as this ability to red team against your agent for different deployment stacks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1105.95,
+            1119.912
+          ],
+          "quote": "But what we want Engine to become better at is creating a baseline set of evals for you to run against to ensure that all of the different behaviors that you would expect out of your agent are not regressing as you make changes to the model or changes to the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            1121.415,
+            1136.078
+          ],
+          "quote": "And lastly, the one that I'll talk on here is kind of a north star for us as we build Engine, which is that we want to make broader changes, broader proposals, I should say, to your agent's harness and to the models that are used for different tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1136.923,
+            1147.449
+          ],
+          "quote": "That would mean that Engine is no longer finding these specific fixes or tweaks or optimizations to your harness, but rather it's saying that this entire model is too bulky, it's too expensive for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1155.72,
+            1175.849
+          ],
+          "quote": "And the reason this is kind of coming after is because we want this whole flow of being able to identify gaps in your agent's traces as well as the ability to experiment on so that instead of a very loose recommendation of now using a Model A as opposed to Model B, you have a verified claim that this Model A is going to perform much better against your evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1202.121,
+            1209.504
+          ],
+          "quote": "We have a lot of really awesome customers that have been trying Engine today that have been giving us great feedback and that are accelerating their agent development process.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "轨迹 (trace)",
+      "file": "轨迹",
+      "primary": true,
+      "how_described": "本集反复强调 trace 是智能体调试的基本单元:V1 擅长在单条 trace 里找幻觉、坏工具调用、循环调用、上下文爆炸;V2 升级到跨 trace 看指标趋势和低效路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            634.331,
+            640.981
+          ],
+          "quote": "And this is because in our first version of Engine, we ensured that Engine was really excellent at finding errors in a specific trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            648.652,
+            651.113
+          ],
+          "quote": "These are all problems that are very visible from a single trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            659.395,
+            668.097
+          ],
+          "quote": "But oftentimes, it's difficult to find errors with just a single trace, and there are some kinds of errors that may appear the same at first glance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            682.08,
+            688.382
+          ],
+          "quote": "And if I look at trace A versus trace B, these might look like the exact same thing, and no change is recognizable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            689.322,
+            696.844
+          ],
+          "quote": "And even if I see that in trace A we only had six tool calls or in trace B we only had 19 tool calls, these look about the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            976.877,
+            982.719
+          ],
+          "quote": "Today, the issues that engine catches are ones that have already reached production and they already have a trace for you to go and analyze.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集把写 eval 列为智能体开发最痛苦的环节之一;团队为 Engine 的每个任务单独建基准,用 evals 验证修复不产生回归,并希望 Engine 未来能自动生成基线评测集。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            33.831,
+            51.703
+          ],
+          "quote": "Everything from the identification of errors as you manually look through traces, as you try to cluster them together based on the different problems that you identify, this kind of root cause analysis for those problems, the spinning up of fixes, the writing of evals, this entire process from start to finish can be very challenging.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            56.966,
+            84.335
+          ],
+          "quote": "that handles each step of this process, that works to identify the different issues that you might find within your traces, that creates deployable fixes for each one of those identified issues, creates ready-to-use evals for you to run offline and ensure that these fixes work appropriately without regressing, and additional regression detection for any of the issues that might crop back up again after you've attempted to fix them previously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            137.849,
+            144.011
+          ],
+          "quote": "As we have been building this very complex agent, it's been very hard to create these evals for Engine as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            280.121,
+            295.768
+          ],
+          "quote": "And so something interesting that I want to highlight as we talk about these benchmarks is that there are two sides to this coin, where we have evals that we need to ensure these benchmarks that we've created that help us to test very specific components of the agent's run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            549.378,
+            556.065
+          ],
+          "quote": "Now, what I've talked about so far is kind of like the process of designing evals and some of the results that we've seen in the aggregate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            784.949,
+            796.471
+          ],
+          "quote": "with our improvements to Engine have been improvements to the existing functionality within Engine as it finds issues, as it proposes fixes, and as it proposes evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            816.779,
+            822.082
+          ],
+          "quote": "Right now we create a proposed fix and we hand you the evals and let you experiment on that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            905.174,
+            916.907
+          ],
+          "quote": "And so you can configure the different datasets that you have on LangSmith, and so the engine will run evals against the existing inputs that have been breaking your agent, as well as the broader range of inputs that you want to ensure do not regress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1105.95,
+            1119.912
+          ],
+          "quote": "But what we want Engine to become better at is creating a baseline set of evals for you to run against to ensure that all of the different behaviors that you would expect out of your agent are not regressing as you make changes to the model or changes to the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1147.509,
+            1154.614
+          ],
+          "quote": "You should try this one, and we've actually validated this model against your evals and can confirm it's faster and it's cheaper.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1155.72,
+            1175.849
+          ],
+          "quote": "And the reason this is kind of coming after is because we want this whole flow of being able to identify gaps in your agent's traces as well as the ability to experiment on so that instead of a very loose recommendation of now using a Model A as opposed to Model B, you have a verified claim that this Model A is going to perform much better against your evals.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集说团队为 Engine 的每类任务创建独特 benchmark——如埋入已知问题的 trace 找针、按根因聚类的配对测试——再配合生产环境 dogfooding 验证基准的可信度;主基准 IssueBench 上错误识别提升 2 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            206.937,
+            220.223
+          ],
+          "quote": "And so, for example, we have created a unique benchmark for identifying these offending traces that allows us to test engine and understand how well is it able to identify problematic traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            220.884,
+            224.866
+          ],
+          "quote": "And so in order for us to assess this adequately, the benchmark that we've generated",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            239.492,
+            241.415
+          ],
+          "quote": "Now that benchmark is separate from",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            247.699,
+            256.364
+          ],
+          "quote": "For this benchmark, we provide Engine, the agent, with a set of known error traces, as well as a series of existing issues.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            496.979,
+            508.13
+          ],
+          "quote": "And so Harrison mentioned this in his keynote, that we have two times better error identification against IssueBench, which is our primary benchmark for identification of issues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "red-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red team)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "本集说 Engine 的新能力是主动红队:根据智能体系统提示词和 harness 细节猜测可能搞坏它的输入,拿去轰击生产部署,把不满意的响应聚类成问题加修复建议,在用户受伤之前先打自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            968.955,
+            972.616
+          ],
+          "quote": "Now, the other thing that Harrison mentioned is this ability to red team your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1064.824,
+            1074.275
+          ],
+          "quote": "Absolutely looking to expand the access to these validated fixes that we're running, as well as this ability to red team against your agent for different deployment stacks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dogfood",
+      "type": "concept",
+      "role": "concept",
+      "name": "狗粮测试 (dogfood)",
+      "file": "狗粮测试",
+      "primary": false,
+      "how_described": "本集说团队在自己的一堆智能体上跑 Engine 验证基准可信度,甚至让 Engine 跑在 Engine 自己上(meta-engine)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            303.752,
+            312.435
+          ],
+          "quote": "And so in order to ensure that any of the changes that we find very effective against our benchmarks really are effective in a production environment, we dogfood engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "smaller-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "小模型 (smaller model)",
+      "file": "小模型",
+      "primary": false,
+      "how_described": "本集的反直觉经验:对简单笨任务,用更小更便宜的非前沿模型不仅省钱,有时效果反而更好,团队不断给不同环节换模型做实验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            438.61,
+            448.433
+          ],
+          "quote": "If it's a quote-unquote dumb task, it's sometimes better to use a dumber or a smaller model as opposed to these state-of-the-art models that are really expensive and really bulky.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

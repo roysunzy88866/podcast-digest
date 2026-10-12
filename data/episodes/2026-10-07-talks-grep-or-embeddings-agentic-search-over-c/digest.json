@@ -1,0 +1,161 @@
+{
+  "title_zh": "搜代码不用向量库，搜公司文档为什么不行？",
+  "tldr": "LlamaIndex 工程负责人 George He 讲解：为什么 Claude Code 靠 grep 就够，而企业文档搜索必须混合方案。",
+  "digest_md": "AI 智能体火了之后，一个老问题被重新翻了出来：让模型在大量文件里找信息，到底是直接在本地文件系统里搜索，还是提前建好向量索引？George He 是 LlamaIndex 的工程负责人，这家公司专门做文档解析和知识管理。他用一场演讲把这个问题讲得很清楚：**答案取决于你的数据长什么样、有多少**。\n\n## 为什么 Claude Code 不用向量库？\n\nClaude Code 发布时，很多人好奇它内部怎么管理代码文件。Anthropic 的选择是：不用预建索引，不做检索增强，就靠 grep、glob 这类本地文件搜索工具直接遍历 [02:42 George He]。\n\n**这之所以行得通，是因为代码有几个天然优势**：仓库通常不大，格式半结构化，而且代码本身会留下线索，导入什么、测试什么，都写在那里。文件层级本身就是一张地图，智能体照着走就行。\n\nClaude Code 的创始人 Boris 也说过，他们试过向量数据库，最后放弃了。不只是性能问题，更是维护问题：代码一直在改，预建索引很难保持同步 [03:03 George He]。\n\n## 公司文档完全是另一回事\n\n可一旦换成企业数据集，情况就变了。图片、PDF、PPT 混在一起，根本没有一个组织好的文件夹让你去 grep。规模大得多，安全权限必须管，格式五花八门，可能有复杂的 PDF、制造图纸、电路原理图 [04:41 George He]。这种数据没法在本地跑。\n\n==那到底什么时候用哪种方案==？George 给了一个粗略的判断：100 到 1000 个文件，本地搜索就够，智能体在上下文里能装下；到了几万、几百万个文件，就必须有预建索引，至少给智能体一个大致方向，像指南针一样指出该往哪找 [06:01 George He]。\n\n## 上下文窗口变大，反而更贵\n\n有人会说，现在模型有 100 万 token 的上下文了，把文档全塞进去不就行了？George 算了笔账：用模型上下文做数据摄入和搜索，极其昂贵。把二进制文件发给模型让它自己渲染再提取，每次都在烧 token [07:05 George He]。\n\n用子智能体分担也不划算。每个子智能体都需要完整上下文，即使用便宜的小模型，整个环境依然又耗 token 又慢。所以为了避免每次重复处理文档，**预建索引系统反而成了省钱的做法**。\n\n## 正确答案：给智能体一整套工具\n\nGeorge 的核心建议是：**不要人为决定用哪种方案，而是做一个工具集，让智能体自己选**。这套工具分两层：\n\n第一层是定向，也就是回答该去哪里找。这里推荐混合搜索：关键词搜索加上语义向量搜索，两者融合加权，再用重排序模型对前 100 条结果精排。基准测试显示，混合方案明显好于单一方法，因为你不会被某一种搜索方式的盲区困住 [11:27 George He]。\n\n第二层是深挖，包括列出文件、按元数据筛选、用 grep 在具体文件里找关键词，以及读取文档实际内容。这样智能体先用搜索缩小范围，再用文件遍历深入细节，得出的答案是有据可查的，而不是编出来的。\n\n## 复杂文档要先解析，还要存截图\n\n表格、图表、扫描件、原理图，这些对传统索引流程是灾难，因为它们不是一行行给人读的文本，而是另一种表达。LlamaIndex 的做法是用结构化解析工具，把表格和图表编码成 markdown，让智能体能理解空间布局 [13:31 George He]。他们有产品 LlamaParse，还开源了 LightParse。\n\n一个有意思的技巧：**解析时顺便给每一页存一张截图**。这些 PDF 和 PPT 本来是给人看的，不是给机器消费的。有了预建的截图索引，智能体在做检索时可以像人一样核对原始页面 [10:36 George He]。\n\n## 生产环境的三个坑\n\n真要上线，客户一定会问三件事。一是多租户：一个人能不能看到另一个人的数据？Google Drive 或 SharePoint 的权限元数据怎么同步进来，还不能让系统停摆？二是数据新鲜度：数据一直在变，预建索引如何跟上？这正是很多公司放弃预索引的原因 [15:40 George He]。三是存储架构：他们处理过千万级文档，建议数据落盘，再加一层内存缓存加速读取；演示用的向量库是 TurboPuffer，权限过滤直接下沉到存储层。\n\n## 演示：135 份财报，一个问题搞定\n\n现场演示用的是从 Alphabet 财报提取的 135 个文件，混合了 HTM 和原始 PDF。智能体收到请求，给出 2021 到 2025 年的现金流量表，流程是：先混合搜索定位相关片段，同时看到对应的页面截图，再 grep 确认具体文本，按偏移量精确读取内容。整个过程不需要把文件下载到本地，直接操作远端存储。\n\n最终结果是从多个文件里汇总出来的，每个数字都能追溯到具体文件。George 的收尾一句话总结了全场：「搜索帮你找到信息，工具集给你能信任的结果」[22:49 George He]。\n\n## 本集带走\n\n- 代码仓库小、结构清晰、自带线索，本地 grep 就够，不必预建索引。\n- 企业文档规模大、格式乱、权限敏感，必须有预索引加混合搜索。\n- 上下文窗口再大，也别拿模型当解析器用，token 太贵。\n- 最好的架构是给智能体一整套工具，搜索定位方向，文件遍历深挖细节。\n- 解析复杂文档时存页面截图，让智能体能像人一样核对原文。",
+  "quotes": [
+    {
+      "en": "And the largest part there is code is already on disk and local, especially if your agent has context, so why complicate it with a pre-retrieval system?",
+      "zh": "其中最重要的一点是，代码已经在磁盘上、在本地了，尤其是如果你的智能体有上下文的话，那为什么要用一个预检索系统把它复杂化呢？",
+      "timestamp": "03:49",
+      "speaker": "George He"
+    },
+    {
+      "en": "You can't really grep the folders across a company dataset because it's not organized like code.",
+      "zh": "你没法真正对一个公司数据集的文件夹做 grep，因为它不像代码那样组织有序。",
+      "timestamp": "04:13",
+      "speaker": "George He"
+    },
+    {
+      "en": "But the major takeaway here is actually it really comes down to the scale of the data that you have and how much curation effort you're going to put in in order to maintain that retrieval system or that data management system that makes sense, right?",
+      "zh": "但这里的主要结论其实是，它最终归结为你所拥有的数据的规模，以及你愿意投入多少整理成本来维护那套合理的检索系统或数据管理系统。",
+      "timestamp": "05:18",
+      "speaker": "George He"
+    },
+    {
+      "en": "It might be fine at the start, but if your LLM doesn't understand the location and spatial reasoning, it falls apart at some point.",
+      "zh": "一开始可能没问题，但如果你的 LLM 不理解位置和空间推理，到了某个时候就会崩掉。",
+      "timestamp": "14:58",
+      "speaker": "George He"
+    },
+    {
+      "en": "This is kind of why Anthropic, a lot of other companies have kind of given up on trying to pre-index data because data freshness is really hard to achieve if your datas are complex.",
+      "zh": "这就是为什么 Anthropic 和许多其他公司差不多已经放弃了尝试预索引数据，因为如果你的数据复杂，数据新鲜度真的很难实现。",
+      "timestamp": "15:40",
+      "speaker": "George He"
+    },
+    {
+      "en": "But the idea here and the takeaway is that search helps you find information, and the harness gives you the results that you can trust.",
+      "zh": "但这里的要点和收获是：搜索帮你找到信息，而 harness 给你可信赖的结果。",
+      "timestamp": "22:49",
+      "speaker": "George He"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:03",
+      "speaker": "Unknown",
+      "en": "Claude Code experimented with the vector database, didn't end up choosing it, and the reasons aren't just for performance reasons, but because of practical scaling and maintenance reasons.",
+      "zh": "Claude Code 试验过向量数据库，最终没有选择它，原因不仅仅是性能，还有实际的扩展和维护方面的原因。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Unknown",
+      "en": "It's hard to keep a pre-indexed vectorized index in sync, especially as code keeps on updating.",
+      "zh": "很难让一个预先索引好的向量化索引保持同步，尤其是当代码在不断更新的时候。"
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Unknown",
+      "en": "They did not care about pre-indexing information because the code in your repo is usually small.",
+      "zh": "他们不在乎预索引信息，因为你仓库里的代码通常很小。"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Unknown",
+      "en": "And the largest part there is code is already on disk and local, especially if your agent has context, so why complicate it with a pre-retrieval system?",
+      "zh": "其中最重要的一点是，代码已经在磁盘上、在本地了，尤其是如果你的智能体有上下文的话，那为什么要用一个预检索系统把它复杂化呢？"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Unknown",
+      "en": "You can't really grep the folders across a company dataset because it's not organized like code.",
+      "zh": "你没法真正对一个公司数据集的文件夹做 grep，因为它不像代码那样组织有序。"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Unknown",
+      "en": "The scale is at a completely different level.",
+      "zh": "规模完全不在一个量级上。"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Unknown",
+      "en": "And the scale just makes it so that you can't run this locally anymore.",
+      "zh": "而且这个规模就意味着你没法再在本地运行它了。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "But the major takeaway here is actually it really comes down to the scale of the data that you have and how much curation effort you're going to put in in order to maintain that retrieval system or that data management system that makes sense, right?",
+      "zh": "但这里的主要结论其实是，它最终归结为你所拥有的数据的规模，以及你愿意投入多少整理成本来维护那套合理的检索系统或数据管理系统。"
+    },
+    {
+      "timestamp": "05:35",
+      "speaker": "Unknown",
+      "en": "But at the end of the day, it's all about keeping the right primitives in place.",
+      "zh": "但归根结底，这一切都是关于把正确的原语放在合适的位置。"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Unknown",
+      "en": "But as you scale out to thousands or millions of files, that's not possible.",
+      "zh": "但当你扩展到数千或数百万个文件时，那就不可行了。"
+    },
+    {
+      "timestamp": "07:05",
+      "speaker": "Unknown",
+      "en": "It just becomes extremely expensive in order to use your model context for ingestion and search.",
+      "zh": "用你的模型上下文来做摄取和搜索会变得极其昂贵。"
+    },
+    {
+      "timestamp": "07:40",
+      "speaker": "Unknown",
+      "en": "The environments are actually rather token-heavy and latency-heavy.",
+      "zh": "这些环境实际上相当消耗 token 和延迟。"
+    },
+    {
+      "timestamp": "11:32",
+      "speaker": "Unknown",
+      "en": "But when you put in a fusion, you combine and weight keyword as well as vector search, you get better results.",
+      "zh": "但当你加入融合，把关键词搜索和向量搜索结合起来并加权，你会得到更好的结果。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Unknown",
+      "en": "Because you aren't blinded by specifics of your search method.",
+      "zh": "因为你不会被搜索方法的特定细节所蒙蔽。"
+    },
+    {
+      "timestamp": "14:52",
+      "speaker": "Unknown",
+      "en": "Because if you get those wrong, your LLM on its semantic reading side later down the line is going to pay for it.",
+      "zh": "因为如果你把这些弄错了，你的 LLM 在后续语义阅读那一步就要付出代价。"
+    },
+    {
+      "timestamp": "14:58",
+      "speaker": "Unknown",
+      "en": "It might be fine at the start, but if your LLM doesn't understand the location and spatial reasoning, it falls apart at some point.",
+      "zh": "一开始可能没问题，但如果你的 LLM 不理解位置和空间推理，到了某个时候就会崩掉。"
+    },
+    {
+      "timestamp": "15:40",
+      "speaker": "Unknown",
+      "en": "This is kind of why Anthropic, a lot of other companies have kind of given up on trying to pre-index data because data freshness is really hard to achieve if your datas are complex.",
+      "zh": "这就是为什么 Anthropic 和许多其他公司差不多已经放弃了尝试预索引数据，因为如果你的数据复杂，数据新鲜度真的很难实现。"
+    },
+    {
+      "timestamp": "20:27",
+      "speaker": "Unknown",
+      "en": "So with this suite of tools together, your agent doesn't really need the files in a local file state anymore.",
+      "zh": "所以有了这一整套工具，你的智能体就不再真正需要本地文件状态下的文件了。"
+    },
+    {
+      "timestamp": "22:49",
+      "speaker": "Unknown",
+      "en": "But the idea here and the takeaway is that search helps you find information, and the harness gives you the results that you can trust.",
+      "zh": "但这里的要点和收获是：搜索帮你找到信息，而 harness 给你可信赖的结果。"
+    }
+  ],
+  "voice_script": "今天想跟你聊一个听起来很技术、但其实挺有意思的问题：让 AI 在一堆文件里找信息，到底该怎么找？是直接在文件系统里搜，还是提前建一个索引？\n\n聊这个的人叫 George He，是 LlamaIndex 的工程负责人。这家公司专门做文档解析和知识管理，所以这个问题对他们来说就是吃饭的家伙。这期内容来自一场演讲，讲的就是一个很具体的现象：Anthropic 的 Claude Code，也就是那个写代码的智能体，它管理代码文件根本不用向量数据库，就靠 grep、glob 这些最原始的本地搜索工具，直接遍历文件夹。可同样的思路，放到企业文档上就完全行不通。为什么？George 把这个道理讲得很清楚。\n\n先说为什么 Claude Code 不需要向量库。因为代码有几个天然的优势。首先，一个代码仓库通常不大，智能体的上下文装得下。其次，代码是半结构化的，格式规整。最关键的是，代码本身会留下线索——它导入了什么、测试了什么，全都明明白白写在文件里，文件夹的层级结构本身就是一张地图，智能体照着走就行。\n\nClaude Code 的创始人 Boris 也说过，他们其实试过向量数据库，最后放弃了。这不只是性能问题，更是维护问题。你想啊，代码天天在改，预建好的索引很难一直跟它保持同步。代码本来就在磁盘上、在本地，智能体自己就能去看，为什么要再搞一套预检索系统把事情复杂化呢？\n\n那既然本地搜索这么好用，企业文档为什么不行？这里就是这期内容的关键转折了。因为企业数据和代码完全是两种东西。你想象一下公司里的数据集：图片、PDF、PPT 混在一起，根本没有一个组织好的文件夹让你去 grep。规模还大得多，可能有几万甚至几百万个文件。而且安全权限必须管，不能谁都能看所有东西。格式更是五花八门，复杂的 PDF、制造图纸、电路原理图，什么都有。这种数据，压根没法靠本地遍历来解决。\n\n那到底什么时候用哪种方案？George 给了一个很实用的粗略判断：文件在 100 到 1000 个的量级，本地搜索就够了；一旦到了几万、几百万个文件，就必须有预建索引。索引的作用不是直接给你答案，而是给智能体一个大致的方向，像指南针一样指出该往哪儿找。\n\n说到这儿，可能会有人抬杠：现在模型不是有 100 万 token 的上下文了吗？把文档全塞进去不就完了？George 算了一笔账，这招听起来省事，实际上极其昂贵。把二进制文件发给模型，让它自己渲染再提取内容，每做一次都在烧 token。有人会说，那用子智能体分担呢？也不划算。每个子智能体都需要完整的上下文，就算用便宜的小模型，整个环境又耗 token 又慢。所以绕了一圈你会发现一个反直觉的结论：为了避免每次都重复处理文档，预建索引系统反而成了省钱的做法。\n\n接下来就是 George 的核心建议了，也是这期最值得带走的东西：不要人为决定用哪种方案，而是给智能体做一整套工具，让它自己选。这套工具分两层。\n\n第一层是定向，回答\"该去哪里找\"。这里推荐混合搜索，也就是关键词搜索加上语义向量搜索，两者融合加权，最后再用重排序模型对前 100 条结果做精排。基准测试显示，混合方案明显好于任何单一方法，因为你不会被某一种搜索方式的盲区困住。\n\n第二层是深挖，包括列出文件、按元数据筛选、用 grep 在具体文件里找关键词，以及读取文档的实际内容。这样一来，智能体先用搜索缩小范围，再用文件遍历深入细节，最后给出的答案是有据可查的，而不是编出来的。\n\n不过到了真实的企业场景，还有个绕不开的难关：复杂文档。表格、图表、扫描件、原理图，这些对传统的索引流程简直是灾难，因为它们不是一行行给人读的文本，而是另一种表达方式。LlamaIndex 的做法是用结构化解析工具，把表格和图表编码成 markdown，让智能体能理解空间布局。他们有产品叫 LlamaParse，还开源了一个 LightParse。这里有个特别有意思的技巧：解析的时候，顺便给每一页存一张截图。你想想，这些 PDF 和 PPT 本来是给人看的，不是给机器消费的。有了预建的截图索引，智能体在检索的时候，就可以像人一样翻回原始页面核对，不用真的下载文件到本地。\n\n好，方向讲清楚了，但真要上线生产环境，还有三个坑躲不掉，客户一定会问。第一是多租户：一个人能不能看到另一个人的数据？Google Drive 或 SharePoint 里的权限元数据怎么同步进来，还不能让系统停摆？第二是数据新鲜度：数据一直在变，预建索引怎么跟得上？George 直说了，这正是很多公司当年放弃预索引的原因，因为只要数据一复杂，新鲜度就真的很难实现。第三是存储架构：LlamaIndex 处理过千万级文档，建议是数据落盘，再加一层内存缓存加速读取，权限过滤直接下沉到存储层。\n\n最后现场还做了一个演示，把整套思路跑了一遍。用的是从 Alphabet 财报里提取的 135 个文件，HTM 和原始 PDF 混着来。智能体收到请求，要 2021 到 2025 年的现金流量表，流程是这样的：先用混合搜索定位相关片段，同时看到对应的页面截图，再用 grep 确认具体文本，按偏移量精确读取内容。整个过程不下载任何文件，直接操作远端存储。最终结果是从多个文件里汇总出来的，每一个数字都能追溯到具体文件。\n\n所以整场演讲其实就归结为两句话。选哪种方案，取决于你手里数据长什么样、有多少，以及你愿意投入多少整理成本去维护那套检索系统。用 George 自己的收尾话来说：搜索帮你找到信息，而工具集给你能信任的结果。"
+}

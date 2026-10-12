@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TurboPuffer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TurboPuffer">TU</div><div class="pi"><h1 class="pt">TurboPuffer</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TurboPuffer">TU</div><div class="pi"><h1 class="pt">TurboPuffer</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]]**(11:43起):本集说非结构化销售数据经分块、嵌入后放进 TurboPuffer，供智能体做向量/属性/关键词组合搜索
+- **[[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]]**(17:21起):本集演示用的向量存储，支持权限元数据过滤下沉到存储层；本集建议数据落盘再加内存缓存层。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(59:00起):本集说它是唯一一家做得非常好的向量数据库公司,高度专精于以远超其他所有人的性价比做向量搜索
 
 ## ① 提到它的金句
@@ -22,18 +23,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-26-talks-the-building-blocks-of-gtm-orchestration|《RAMP 的 GTM 编排实验：一句话意图，全渠道自动执行》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-grep-or-embeddings-agentic-search-over-c|《搜代码不用向量库，搜公司文档为什么不行？》]] — 作为被讨论公司
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[MCP]] · [[护栏]] · [[Snowflake]] · [[Postgres]] · [[Arman Vaziri]] · [[Andy Pavlo]] · [[Ramp]] · [[Matt Turk]] · [[go-to-market 编排]]
+[[智能体]] · [[MCP]] · [[Anthropic]] · [[护栏]] · [[RAG]] · [[Snowflake]] · [[向量数据库]] · [[Postgres]] · [[Arman Vaziri]] · [[George He]]
 
-<script type="application/json" class="pd-epn">{"智能体":467,"MCP":85,"护栏":88,"Snowflake":20,"Postgres":6,"Arman Vaziri":1,"Andy Pavlo":1,"Ramp":11,"Matt Turk":5,"go-to-market 编排":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"MCP":85,"Anthropic":198,"护栏":88,"RAG":29,"Snowflake":20,"向量数据库":7,"Postgres":6,"Arman Vaziri":1,"George He":1}</script>
 
 <script>
 (function(){

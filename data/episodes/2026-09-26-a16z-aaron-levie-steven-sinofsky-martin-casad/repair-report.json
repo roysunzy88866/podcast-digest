@@ -1,0 +1,163 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:47",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "00:47",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 2,
+      "timestamp": "00:58",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "01:03",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "07:12",
+      "speaker": "Steven Sinofsky",
+      "trimmed": false,
+      "tsWas": "07:12",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 4,
+      "timestamp": "08:15",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "08:15",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 5,
+      "timestamp": "09:36",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "09:36",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 6,
+      "timestamp": "10:54",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "10:54",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 7,
+      "timestamp": "12:14",
+      "speaker": "Aaron Levie",
+      "trimmed": false,
+      "tsWas": "12:14",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 8,
+      "timestamp": "12:53",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "12:53",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 9,
+      "timestamp": "16:17",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "16:17",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 10,
+      "timestamp": "23:30",
+      "speaker": "Aaron Levie",
+      "trimmed": false,
+      "tsWas": "23:30",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 11,
+      "timestamp": "24:00",
+      "speaker": "Aaron Levie",
+      "trimmed": false,
+      "tsWas": "24:00",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 12,
+      "timestamp": "36:11",
+      "speaker": "Aaron Levie",
+      "trimmed": false,
+      "tsWas": "36:11",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 13,
+      "timestamp": "37:46",
+      "speaker": "Steven Sinofsky",
+      "trimmed": false,
+      "tsWas": "37:46",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 14,
+      "timestamp": "38:10",
+      "speaker": "Steven Sinofsky",
+      "trimmed": false,
+      "tsWas": "38:13",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 15,
+      "timestamp": "41:29",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "41:29",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 16,
+      "timestamp": "47:40",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "47:40",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 18,
+      "timestamp": "51:10",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "51:10",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 19,
+      "timestamp": "53:53",
+      "speaker": "Steven Sinofsky",
+      "trimmed": false,
+      "tsWas": "53:53",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 20,
+      "timestamp": "54:03",
+      "speaker": "Martin Casado",
+      "trimmed": false,
+      "tsWas": "54:03",
+      "spkWas": "Unknown"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 17,
+      "reason": "命中片段跨说话人(占比0.63/连续他人16词,疑拼接)",
+      "en": "You actually basically don't solve anything, and you still just kind of had the same risk ultimately, but you don't understand the systems well enough. You willed the thing into being, but you haven't figured out how to control it."
+    }
+  ]
+}

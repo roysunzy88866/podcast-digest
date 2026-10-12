@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jaan Tallinn]] · [[Mario]] · [[AI 安全]] · [[Anthropic]] · [[OpenAI]] · [[Hugging Face]] · [[DeepMind]] · [[对齐]] · [[科学家 AI]] · [[零知识证明]]
 
-<script type="application/json" class="pd-epn">{"Jaan Tallinn":1,"Mario":3,"AI 安全":3,"Anthropic":197,"OpenAI":192,"Hugging Face":36,"DeepMind":16,"对齐":23,"科学家 AI":1,"零知识证明":1}</script>
+<script type="application/json" class="pd-epn">{"Jaan Tallinn":1,"Mario":4,"AI 安全":3,"Anthropic":198,"OpenAI":193,"Hugging Face":36,"DeepMind":16,"对齐":23,"科学家 AI":1,"零知识证明":1}</script>
 
 <script>
 (function(){

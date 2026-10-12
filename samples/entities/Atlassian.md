@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Uber]] · [[Harry Stebbings]] · [[Figma]] · [[Cursor]] · [[Revolut]] · [[Salesforce]] · [[Palantir]] · [[Linear]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":467,"Uber":18,"Harry Stebbings":20,"Figma":22,"Cursor":86,"Revolut":5,"Salesforce":36,"Palantir":20,"Linear":11,"LLM":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"Uber":18,"Harry Stebbings":20,"Figma":22,"Cursor":86,"Revolut":5,"Salesforce":36,"Palantir":20,"Linear":11,"LLM":60}</script>
 
 <script>
 (function(){

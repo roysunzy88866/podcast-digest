@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Steven Sinofsky</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Steven Sinofsky">ST</div><div class="pi"><h1 class="pt">Steven Sinofsky</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>3</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Steven Sinofsky">ST</div><div class="pi"><h1 class="pt">Steven Sinofsky</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>4</b> 集 · <b>23</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*19 条*
+*23 条*
 
 ![[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules#^q1]]
 
@@ -51,29 +51,38 @@ unlisted: true
 
 ![[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb#^q12]]
 
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q3]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q13]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q14]]
+
+![[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad#^q18]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-27-a16z-steven-sinofsky-ai-doesnt-need-new-rules|《Steven Sinofsky：AI监管为什么急不得》]] — 作为联合主持
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为嘉宾
 - [[2026-09-21-a16z-ai-safety-language-is-destroying-the-deb|《AI出问题不是“恶魔附身”，是软件有bug》]] — 作为主持
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[Google]] · [[Microsoft]] · [[Theo Jaffe]] · [[Martin Casado]] · [[对齐]] · [[Sofia Puccini]] · [[Amazon]] · [[bug]]
+[[Microsoft]] · [[Anthropic]] · [[Martin Casado]] · [[Apple]] · [[regulation]] · [[OpenAI]] · [[Google]] · [[Theo Jaffe]] · [[Amazon]] · [[对齐]]
 
-## ④ 也在聊「创业与行业」的人
+## ④ 也在聊「AI 安全」的人
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":197,"OpenAI":192,"Google":70,"Microsoft":31,"Theo Jaffe":7,"Martin Casado":5,"对齐":23,"Sofia Puccini":4,"Amazon":32,"bug":1}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":32,"Anthropic":198,"Martin Casado":6,"Apple":25,"regulation":3,"OpenAI":193,"Google":70,"Theo Jaffe":7,"Amazon":32,"对齐":23}</script>
 
 <script>
 (function(){

@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Superconductor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Superconductor">SU</div><div class="pi"><h1 class="pt">Superconductor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Superconductor">SU</div><div class="pi"><h1 class="pt">Superconductor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|《让非工程师也能下指令：Superconductor 的多人智能体协作法》]]**(01:04起):本集把它说成:Arjun Singh 团队目前正在做的产品,核心是把工作流、代码库搬进隔离的云端环境,支撑智能体与人的协作工作流。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab#^q3]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Arjun Singh]] · [[智能体]] · [[沙箱]] · [[基准测试]] · [[上下文]] · [[开放权重模型]] · [[Slack]] · [[Claude Code]] · [[Codex]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Arjun Singh":1,"智能体":467,"沙箱":94,"基准测试":2,"上下文":31,"开放权重模型":1,"Slack":34,"Claude Code":103,"Codex":83,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"Arjun Singh":1,"智能体":471,"沙箱":94,"基准测试":2,"上下文":31,"开放权重模型":1,"Slack":34,"Claude Code":104,"Codex":83,"Cursor":86}</script>
 
 <script>
 (function(){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>X 风险 (X-risk)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="X 风险">X </div><div class="pi"><h1 class="pt">X 风险 (X-risk)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="X 风险">X </div><div class="pi"><h1 class="pt">X 风险 (X-risk)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]]**(00:33起):本集将其定义为生存风险（existential risk），嘉宾给出的发生概率预测区间是 0 到 10%，并强调即使概率低，赌注也是人类的整个未来。
+- **[[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]]**(05:58起):本集围绕『员工称 AI 有 10% 物种灭绝概率、Dario 表示同意比不同意多』展开:Martin 认为真信就该国有化,不信就只是人力资源问题,不能既当招聘筹码又当监管借口
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为概念
+- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|《当AI agent满网跑，安全怎么办？三位老将吵了一期》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Benjamin Mann]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[宪法 AI]] · [[智能体]] · [[缩放定律]] · [[对齐]]
+[[智能体]] · [[Lenny]] · [[Martin Casado]] · [[Benjamin Mann]] · [[Steven Sinofsky]] · [[Anthropic]] · [[Aaron Levie]] · [[OpenAI]] · [[智能体集群]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Benjamin Mann":1,"Anthropic":197,"OpenAI":192,"Claude":93,"Claude Code":103,"宪法 AI":2,"智能体":467,"缩放定律":15,"对齐":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"Lenny":69,"Martin Casado":6,"Benjamin Mann":1,"Steven Sinofsky":4,"Anthropic":198,"Aaron Levie":3,"OpenAI":193,"智能体集群":1,"Claude":93}</script>
 
 <script>
 (function(){

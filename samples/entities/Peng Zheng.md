@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Ben]] [[Hossein]]
+[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]] [[Kath Korevec]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"John Bai":1,"GrokBot":8,"智能体":467,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":8,"垃圾桶方法":1}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":5,"John Bai":1,"GrokBot":8,"智能体":471,"Figma":22,"Figma MCP":1,"Figma Bro":1,"DevBot":1,"原型":8,"垃圾桶方法":1}</script>
 
 <script>
 (function(){

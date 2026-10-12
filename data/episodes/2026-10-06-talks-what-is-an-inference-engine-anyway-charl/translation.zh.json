@@ -1,0 +1,4034 @@
+[
+ {
+  "seg": 0,
+  "start": 12.983,
+  "end": 13.364,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 15.045,
+  "end": 18.87,
+  "speaker": "Unknown",
+  "en": "So I'm going to go ahead and get started while people get seated.",
+  "zh": "趁大家入座,我就先开始了。"
+ },
+ {
+  "seg": 2,
+  "start": 19.731,
+  "end": 26.839,
+  "speaker": "Unknown",
+  "en": "We got a pretty tight turnaround, a lot of really wonderful workshops at this event, so I want to make sure we have plenty of time.",
+  "zh": "我们的日程安排得很紧,这次活动有很多非常精彩的研讨会,所以我想确保我们留有充足的时间。"
+ },
+ {
+  "seg": 3,
+  "start": 27.94,
+  "end": 33.166,
+  "speaker": "Unknown",
+  "en": "So I prepared for 10 or 15 minutes of questions, and I think it'd be best",
+  "zh": "所以我准备了 10 到 15 分钟的提问时间,而且我认为最好的方式是"
+ },
+ {
+  "seg": 4,
+  "start": 33.847,
+  "end": 41.812,
+  "speaker": "Unknown",
+  "en": "Especially given this is a workshop, if people just interrupted me as I was going, raise your hand and I'll call on you and answer your question.",
+  "zh": "鉴于这是一个研讨会,大家在我讲的过程中随时打断我,举手,我会点到你来回答你的问题。"
+ },
+ {
+  "seg": 5,
+  "start": 43.072,
+  "end": 46.054,
+  "speaker": "Unknown",
+  "en": "And so just like, let's keep this interactive.",
+  "zh": "所以就是,让我们保持互动。"
+ },
+ {
+  "seg": 6,
+  "start": 46.655,
+  "end": 48.376,
+  "speaker": "Unknown",
+  "en": "I think it's better that way.",
+  "zh": "我觉得这样更好。"
+ },
+ {
+  "seg": 7,
+  "start": 49.196,
+  "end": 58.862,
+  "speaker": "Unknown",
+  "en": "And it seems like, talk to a couple of people, it seems like we got a lot of folks here who know their inference, know their engines, and so we can get a sophisticated conversation going.",
+  "zh": "而且看起来,我和几个人聊过,似乎今天来了很多懂推理、懂引擎的人,所以我们可以展开一场有深度的对话。"
+ },
+ {
+  "seg": 8,
+  "start": 61.246,
+  "end": 66.489,
+  "speaker": "Unknown",
+  "en": "So the title of this talk is What is an Inference Engine Anyway?",
+  "zh": "这次演讲的题目是:推理引擎到底是什么?"
+ },
+ {
+  "seg": 9,
+  "start": 67.03,
+  "end": 78.198,
+  "speaker": "Unknown",
+  "en": "And the goal is to sort of peel back some of the layers that are behind APIs and what is actually going on inside of the code that runs your inference.",
+  "zh": "目标是揭开 API 背后的一些层,看看运行你推理的代码内部到底发生了什么。"
+ },
+ {
+  "seg": 10,
+  "start": 79.694,
+  "end": 80.535,
+  "speaker": "Unknown",
+  "en": "When you run it yourself.",
+  "zh": "当你自己运行它的时候。"
+ },
+ {
+  "seg": 11,
+  "start": 80.955,
+  "end": 89.962,
+  "speaker": "Unknown",
+  "en": "So roughly, you know, tokens go in, tokens come out, and a lot of the time you get to avoid thinking about what happens in between.",
+  "zh": "大致来说,你知道,token 进去,token 出来,很多时候你可以不用去想中间发生了什么。"
+ },
+ {
+  "seg": 12,
+  "start": 90.743,
+  "end": 98.589,
+  "speaker": "Unknown",
+  "en": "There's this really high-quality open-source software out there for running your language or multimodal model inference.",
+  "zh": "现在有非常高质量的开源软件,可以用来运行你的语言模型或多模态模型推理。"
+ },
+ {
+  "seg": 13,
+  "start": 98.969,
+  "end": 101.752,
+  "speaker": "Unknown",
+  "en": "You've got SGLang, VLLM, TensorRTLLM.",
+  "zh": "你有 SGLang、VLLM、TensorRTLLM。"
+ },
+ {
+  "seg": 14,
+  "start": 101.972,
+  "end": 105.374,
+  "speaker": "Unknown",
+  "en": "Many people write similar things to these in-house.",
+  "zh": "很多人在公司内部写了类似的东西。"
+ },
+ {
+  "seg": 15,
+  "start": 106.195,
+  "end": 106.795,
+  "speaker": "Unknown",
+  "en": "They design these",
+  "zh": "他们设计这些"
+ },
+ {
+  "seg": 16,
+  "start": 108.897,
+  "end": 116.358,
+  "speaker": "Unknown",
+  "en": "Engines that like at a high level just taking in some tokens, putting out some tokens is not that hard.",
+  "zh": "引擎,从高层次看,只是接收一些 token、输出一些 token,这并不难。"
+ },
+ {
+  "seg": 17,
+  "start": 117.038,
+  "end": 137.762,
+  "speaker": "Unknown",
+  "en": "You can write something like this in using PyTorch and Hugging Face Transformers in like an hour or two, especially if you're good with agents, but making it extremely high performance so that you can produce tokens with good tokenomics is the challenging part and that like sort of drives the design and architecture of these systems.",
+  "zh": "你可以用 PyTorch 和 Hugging Face Transformers 在一两个小时内写出类似的东西,尤其是如果你擅长智能体的话,但把它做到极致高性能、让你能以良好的 token 经济学产出 token,这才是有挑战性的部分,而这基本上决定了这些系统的设计和架构。"
+ },
+ {
+  "seg": 18,
+  "start": 140.075,
+  "end": 146.019,
+  "speaker": "Unknown",
+  "en": "So just as like a very quick sketch before we jump back to the high level and talk about why we're here.",
+  "zh": "所以在回到高层次、谈谈我们为什么在这里之前,先简单勾勒一下。"
+ },
+ {
+  "seg": 19,
+  "start": 149.602,
+  "end": 153.504,
+  "speaker": "Unknown",
+  "en": "These are generally architected as a set of communicating processes.",
+  "zh": "这些系统通常被架构为一组相互通信的进程。"
+ },
+ {
+  "seg": 20,
+  "start": 154.004,
+  "end": 160.308,
+  "speaker": "Unknown",
+  "en": "One that does IO, does HTTP or RPC serving and responds to the outside world.",
+  "zh": "一个负责 IO,做 HTTP 或 RPC 服务,响应外部世界。"
+ },
+ {
+  "seg": 21,
+  "start": 161.509,
+  "end": 168.634,
+  "speaker": "Unknown",
+  "en": "And then there's a little bit of pre and post processing with tokenizers and detokenizers and this wraps",
+  "zh": "然后有一点点用分词器和解分词器做的前处理和后处理,这包裹了"
+ },
+ {
+  "seg": 22,
+  "start": 169.574,
+  "end": 175.996,
+  "speaker": "Unknown",
+  "en": "The sort of core of the system where the real work gets done in sort of two pieces.",
+  "zh": "系统的核心,真正的工作在核心里完成,大致分两块。"
+ },
+ {
+  "seg": 23,
+  "start": 176.476,
+  "end": 188.298,
+  "speaker": "Unknown",
+  "en": "One, a sort of scheduler that defines and schedules work to run on the accelerator, usually a GPU, and then the actual code that runs on the GPU.",
+  "zh": "一块是某种调度器,定义并调度要在加速器(通常是 GPU)上运行的工作,另一块是实际运行在 GPU 上的代码。"
+ },
+ {
+  "seg": 24,
+  "start": 189.439,
+  "end": 199.021,
+  "speaker": "Unknown",
+  "en": "And so these two components in the bottom right here are where the sort of majority of the performance sensitive work gets done and where the complicated problems",
+  "zh": "这两个组件,在右下角这里,是大部分性能敏感的工作完成的地方,也是复杂问题"
+ },
+ {
+  "seg": 25,
+  "start": 200.387,
+  "end": 204.082,
+  "speaker": "Unknown",
+  "en": "So that's where we'll spend the majority of our time discussing.",
+  "zh": "所以这就是我们大部分讨论时间要花的地方。"
+ },
+ {
+  "seg": 26,
+  "start": 207.818,
+  "end": 233.988,
+  "speaker": "Unknown",
+  "en": "All right, so with that stage set, I think I've been to AI Engineer since it was the summit and talked about running inference every time, and the answer to this question gets better and better each time, the question of why inference and why you should care about it, why you should think about being an inference engineer who operates inference engines.",
+  "zh": "好了,铺垫到此为止,我从它还是峰会的时候就来 AI Engineer 了,每次都讲运行推理,而这个问题的答案每次都越来越好,这个问题就是:为什么是推理,为什么你应该关心它,为什么你应该考虑做一个运营推理引擎的推理工程师。"
+ },
+ {
+  "seg": 27,
+  "start": 235.889,
+  "end": 253.198,
+  "speaker": "Unknown",
+  "en": "Our fearless leader and one-man conference army, Sean Wang, tweeted recently that everybody in AI infrastructure, the boring stuff like inference engines, not the sexy research stuff, is finally getting filthy rich.",
+  "zh": "我们无畏的领袖、一人成军的会议大军 Sean Wang,最近发推说,AI 基础设施领域所有人——像推理引擎这样无聊的东西,不是性感的科研东西——终于要发大财了。"
+ },
+ {
+  "seg": 28,
+  "start": 253.879,
+  "end": 261.843,
+  "speaker": "Unknown",
+  "en": "And so what I think he's pointing to here is there's tremendous demand for these to run inference engines.",
+  "zh": "所以我认为他这里指的是,运行推理引擎的需求非常巨大。"
+ },
+ {
+  "seg": 29,
+  "start": 262.244,
+  "end": 264.607,
+  "speaker": "Unknown",
+  "en": "There's demand at the labs.",
+  "zh": "实验室有需求。"
+ },
+ {
+  "seg": 30,
+  "start": 264.627,
+  "end": 267.571,
+  "speaker": "Unknown",
+  "en": "There's demand within companies who want to own their own stacks.",
+  "zh": "想要拥有自己技术栈的公司内部有需求。"
+ },
+ {
+  "seg": 31,
+  "start": 267.631,
+  "end": 271.437,
+  "speaker": "Unknown",
+  "en": "There's demand to set up and rethink the infrastructure stack.",
+  "zh": "搭建并重新思考基础设施栈也有需求。"
+ },
+ {
+  "seg": 32,
+  "start": 271.838,
+  "end": 274.942,
+  "speaker": "Unknown",
+  "en": "And all of this wraps this core inference workload.",
+  "zh": "而这一切都包裹着这个核心推理工作负载。"
+ },
+ {
+  "seg": 33,
+  "start": 277.005,
+  "end": 284.336,
+  "speaker": "Unknown",
+  "en": "Sean is also pointing out that a lot of what people have been thinking about up to this point is sort of the research side, the production of models.",
+  "zh": "Sean 还指出,到目前为止很多人思考的都是科研那一面,也就是模型的生产。"
+ },
+ {
+  "seg": 34,
+  "start": 284.837,
+  "end": 287.882,
+  "speaker": "Unknown",
+  "en": "So why not think about training?",
+  "zh": "那为什么不思考训练呢?"
+ },
+ {
+  "seg": 35,
+  "start": 287.942,
+  "end": 292.188,
+  "speaker": "Unknown",
+  "en": "Why not go to the training engines talk with your precious time?",
+  "zh": "为什么要把你宝贵的时间花在训练引擎的演讲上?"
+ },
+ {
+  "seg": 36,
+  "start": 292.909,
+  "end": 306.724,
+  "speaker": "Unknown",
+  "en": "I think the fundamental reason why this is such a critical place for engineering work to get done and why it's such a cool place to work as an engineer is that in the end, training is a cost center and inference is a revenue center.",
+  "zh": "我认为,这里是工程工作如此关键的落点、作为工程师在这里工作如此酷的根本原因是:归根结底,训练是成本中心,推理是收入中心。"
+ },
+ {
+  "seg": 37,
+  "start": 307.505,
+  "end": 309.988,
+  "speaker": "Unknown",
+  "en": "So when you train models, it turns out",
+  "zh": "所以当你训练模型时,事实证明"
+ },
+ {
+  "seg": 38,
+  "start": 311.349,
+  "end": 322.357,
+  "speaker": "Unknown",
+  "en": "People have not generally been able to make businesses work where they sell model weights to people directly, and so you can't really turn a training setup into a proper self-supporting system.",
+  "zh": "人们普遍无法把直接向别人出售模型权重的生意做成,所以你没法真正把一个训练部门变成一个能自我支撑的系统。"
+ },
+ {
+  "seg": 39,
+  "start": 323.277,
+  "end": 328.361,
+  "speaker": "Unknown",
+  "en": "But inference, once you have a model, is something that people will pay for.",
+  "zh": "但推理,一旦你有了模型,就是人们愿意为之付费的东西。"
+ },
+ {
+  "seg": 40,
+  "start": 328.401,
+  "end": 335.926,
+  "speaker": "Unknown",
+  "en": "People will pay for a system to take in their tokens and their contacts to produce new tokens, produce software for them, whatever.",
+  "zh": "人们会为一个系统付费,让它接收他们的 token 和他们的上下文(context),产出新的 token,为他们产出软件,随便什么。"
+ },
+ {
+  "seg": 41,
+  "start": 337.907,
+  "end": 339.89,
+  "speaker": "Unknown",
+  "en": "There's a lot of opportunities to do inference.",
+  "zh": "做推理有很多机会。"
+ },
+ {
+  "seg": 42,
+  "start": 340.03,
+  "end": 348.964,
+  "speaker": "Unknown",
+  "en": "We have a setup where there are a small number of essentially model foundries who produce foundation models that are then deployed and customized by inference engineers.",
+  "zh": "我们现在的格局是,只有少数本质上相当于模型铸造厂的角色生产基础模型,然后由推理工程师部署和定制。"
+ },
+ {
+  "seg": 43,
+  "start": 351.628,
+  "end": 354.971,
+  "speaker": "Unknown",
+  "en": "And then even for training, inference has snuck its way in.",
+  "zh": "而且即便是训练,推理也悄悄渗透了进来。"
+ },
+ {
+  "seg": 44,
+  "start": 355.371,
+  "end": 365.259,
+  "speaker": "Unknown",
+  "en": "A lot of the post-training adaptation of these foundation models requires that you generate samples from the model in inference, and a lot of the same technologies come to play.",
+  "zh": "这些基础模型的很多后训练适配,都要求你在推理中从模型生成样本,而很多相同的技术都用上了。"
+ },
+ {
+  "seg": 45,
+  "start": 365.279,
+  "end": 367.22,
+  "speaker": "Unknown",
+  "en": "A lot of the same concerns are present.",
+  "zh": "很多相同的考量也存在。"
+ },
+ {
+  "seg": 46,
+  "start": 368.601,
+  "end": 371.463,
+  "speaker": "Unknown",
+  "en": "And then finally, sort of more selfishly, it's an engineer.",
+  "zh": "最后,说得自私一点,它对工程师来说——"
+ },
+ {
+  "seg": 47,
+  "start": 372.463,
+  "end": 376.846,
+  "speaker": "Unknown",
+  "en": "Right now, inference is still very new, even though we're years into this new technology.",
+  "zh": "现在,推理仍然非常新,尽管我们进入这项新技术已经好几年了。"
+ },
+ {
+  "seg": 48,
+  "start": 378.026,
+  "end": 386.091,
+  "speaker": "Unknown",
+  "en": "And so you end up kind of straddling the whole stack from application architecture through linear algebra down to electrons and hardware.",
+  "zh": "所以你最终会横跨整个栈,从应用架构到线性代数,一直到电子和硬件。"
+ },
+ {
+  "seg": 49,
+  "start": 386.111,
+  "end": 388.332,
+  "speaker": "Unknown",
+  "en": "So it's an engineer's playground.",
+  "zh": "所以这是工程师的游乐场。"
+ },
+ {
+  "seg": 50,
+  "start": 389.012,
+  "end": 390.333,
+  "speaker": "Unknown",
+  "en": "So we'll see a lot of that as we go.",
+  "zh": "随着我们继续深入，我们会看到很多这样的例子。"
+ },
+ {
+  "seg": 51,
+  "start": 393.064,
+  "end": 409.638,
+  "speaker": "Unknown",
+  "en": "I'll maybe, in the interest of time, since we kinda had to get started very quickly, I'll skip over this, but I've been working on inference for a couple of years, mostly at Modal, since coming from the sort of training world before that, and helping a lot of teams sort of deploy and optimize their inference on hundreds or thousands of GPUs on the Modal platform.",
+  "zh": "为了节省时间——因为我们开始得比较仓促——这部分我就跳过了。不过我做推理已经好几年了，主要是在 Modal,在此之前我来自训练领域，并且帮助很多团队在 Modal 平台上部署和优化他们成百上千块 GPU 上的推理。"
+ },
+ {
+  "seg": 52,
+  "start": 410.478,
+  "end": 414.161,
+  "speaker": "Unknown",
+  "en": "I've also been making a lot of inference applications myself.",
+  "zh": "我自己也做了很多推理应用。"
+ },
+ {
+  "seg": 53,
+  "start": 414.221,
+  "end": 415.943,
+  "speaker": "Unknown",
+  "en": "This is a little art piece that I made.",
+  "zh": "这是我做的一个小型艺术作品。"
+ },
+ {
+  "seg": 54,
+  "start": 417.004,
+  "end": 421.387,
+  "speaker": "Unknown",
+  "en": "We had it in the Legion of Honor just this past week.",
+  "zh": "就在刚过去的那一周，它还在 Legion of Honor(荣誉军团宫)展出。"
+ },
+ {
+  "seg": 55,
+  "start": 422.488,
+  "end": 429.554,
+  "speaker": "Unknown",
+  "en": "This art piece takes what it sees, passes it through a vision language model, one of the Quen MOEs running on",
+  "zh": "这个艺术作品把它看到的东西，通过一个视觉语言模型处理，也就是一个运行在"
+ },
+ {
+  "seg": 56,
+  "start": 430.855,
+  "end": 433.658,
+  "speaker": "Unknown",
+  "en": "Served via the SGLang inference engine and running on modal.",
+  "zh": "通过 SGLang 推理引擎提供服务，并运行在 modal 上的 Quen MOE。"
+ },
+ {
+  "seg": 57,
+  "start": 434.339,
+  "end": 437.683,
+  "speaker": "Unknown",
+  "en": "It takes that input and it describes it as though it were an art piece.",
+  "zh": "它接收那个输入，然后像描述一件艺术作品那样去描述它。"
+ },
+ {
+  "seg": 58,
+  "start": 437.723,
+  "end": 441.487,
+  "speaker": "Unknown",
+  "en": "So it produces one of these little museum placard type things.",
+  "zh": "所以它会生成一张类似博物馆解说牌的东西。"
+ },
+ {
+  "seg": 59,
+  "start": 441.647,
+  "end": 446.152,
+  "speaker": "Unknown",
+  "en": "And as everybody knows, you're not art until somebody writes one of these little placards to describe what you've done.",
+  "zh": "大家都知道，除非有人给你写一张这样的小解说牌来描述你的作品，否则你还算不上艺术。"
+ },
+ {
+  "seg": 60,
+  "start": 447.113,
+  "end": 451.618,
+  "speaker": "Unknown",
+  "en": "So I pointed it at the line on the way in and it came up with a cute little description.",
+  "zh": "所以我把它对准入场的那条队伍，它就写出了一段可爱的小描述。"
+ },
+ {
+  "seg": 61,
+  "start": 451.778,
+  "end": 462.361,
+  "speaker": "Unknown",
+  "en": "Anyway, so this is the kind of sort of in the middle of the set of inference applications between the lowest latency and the highest throughput applications that get deployed.",
+  "zh": "总之，这是介于延迟最低和吞吐量最高的已部署应用之间的那一类推理应用。"
+ },
+ {
+  "seg": 62,
+  "start": 464.436,
+  "end": 492.825,
+  "speaker": "Unknown",
+  "en": "So I'll start by talking in more detail about those workloads, like what workloads land on these inference engines, and then move from that quickly into architecture, how these engines are designed, some of the key techniques that fit within that architecture to improve their performance, and then lastly, a key piece for making these things work in production, observability and debugability of these engines for correctness and for performance.",
+  "zh": "接下来我会先更详细地讲讲这些工作负载，比如什么样的工作负载会落在这类推理引擎上，然后由此快速过渡到架构——这些引擎是如何设计的，以及在这个架构内用来提升性能的一些关键技术，最后讲一个让这些东西在生产环境中正常运转的关键部分——这些引擎在正确性和性能方面的可观测性和可调试性。"
+ },
+ {
+  "seg": 63,
+  "start": 494.08,
+  "end": 495.741,
+  "speaker": "Unknown",
+  "en": "All right, so let's start with workloads really quick.",
+  "zh": "好了，我们快速从工作负载开始。"
+ },
+ {
+  "seg": 64,
+  "start": 497.762,
+  "end": 500.403,
+  "speaker": "Unknown",
+  "en": "I like to break things down into kind of three pieces.",
+  "zh": "我喜欢把东西拆成大概三块。"
+ },
+ {
+  "seg": 65,
+  "start": 500.563,
+  "end": 506.726,
+  "speaker": "Unknown",
+  "en": "There's Chatbot Plus, which is like the original killer app of inference, something like ChatGPT or Claude Code.",
+  "zh": "第一种是 Chatbot Plus,这算是推理最初级的杀手级应用，比如 ChatGPT 或者 Claude Code 这样的东西。"
+ },
+ {
+  "seg": 66,
+  "start": 507.006,
+  "end": 512.569,
+  "speaker": "Unknown",
+  "en": "There's a person waiting on the other side interacting with this inference system and providing additional context.",
+  "zh": "有一个人在另一端等待，与这个推理系统交互并提供额外的上下文。"
+ },
+ {
+  "seg": 67,
+  "start": 513.269,
+  "end": 519.552,
+  "speaker": "Unknown",
+  "en": "The plus indicates that not only does it talk to a person, it also probably interacts with external systems via tool calls.",
+  "zh": "「Plus」表示它不仅和一个人对话，可能还会通过工具调用与外部系统交互。"
+ },
+ {
+  "seg": 68,
+  "start": 520.772,
+  "end": 522.133,
+  "speaker": "Unknown",
+  "en": "Then you have background agents.",
+  "zh": "然后是后台智能体(background agents)。"
+ },
+ {
+  "seg": 69,
+  "start": 522.433,
+  "end": 529.636,
+  "speaker": "Unknown",
+  "en": "They often do similar tasks to something like Claude Code, but they do it in the background, not directly in response to a person.",
+  "zh": "它们经常做和 Claude Code 之类的类似任务，但它们是在后台做的，而不是直接响应某个人。"
+ },
+ {
+  "seg": 70,
+  "start": 529.676,
+  "end": 536.179,
+  "speaker": "Unknown",
+  "en": "So something like Devon, RampInspect, OpenClaw, or Herbies for a non-coding case of a background agent.",
+  "zh": "比如 Devon、RampInspect、OpenClaw,或者非编码场景下的后台智能体 Herbies。"
+ },
+ {
+  "seg": 71,
+  "start": 536.859,
+  "end": 544.763,
+  "speaker": "Unknown",
+  "en": "So this is characterized by a similar sort of affordances or workloads, but a different performance profile.",
+  "zh": "所以这一类的特点是有着类似的交互方式或工作负载，但性能特征不同。"
+ },
+ {
+  "seg": 72,
+  "start": 544.843,
+  "end": 546.945,
+  "speaker": "Unknown",
+  "en": "And then lastly, data processors.",
+  "zh": "最后是数据处理者(data processors)。"
+ },
+ {
+  "seg": 73,
+  "start": 547.906,
+  "end": 549.887,
+  "speaker": "Unknown",
+  "en": "These generally run relatively small models.",
+  "zh": "它们通常运行相对较小的模型。"
+ },
+ {
+  "seg": 74,
+  "start": 549.947,
+  "end": 554.812,
+  "speaker": "Unknown",
+  "en": "They take unstructured data, like a PDF, and they turn it into structured data.",
+  "zh": "它们接收非结构化数据，比如一个 PDF,然后把它转化成结构化数据。"
+ },
+ {
+  "seg": 75,
+  "start": 554.972,
+  "end": 559.416,
+  "speaker": "Unknown",
+  "en": "They extract some information from it, usually the sort of thing you might insert in a database.",
+  "zh": "它们从中提取一些信息，通常是那种你可能会插入数据库的东西。"
+ },
+ {
+  "seg": 76,
+  "start": 559.436,
+  "end": 568.664,
+  "speaker": "Unknown",
+  "en": "So this is something like the Reducto document processing platform or something like Fathom that takes a video and extracts the transcript.",
+  "zh": "所以这一类就像 Reducto 文档处理平台，或者像 Fathom 那样接收一个视频并提取其文字稿。"
+ },
+ {
+  "seg": 77,
+  "start": 571.988,
+  "end": 575.63,
+  "speaker": "Unknown",
+  "en": "So under the hood, what do these workloads look like?",
+  "zh": "那么在底层，这些工作负载是什么样子的？"
+ },
+ {
+  "seg": 78,
+  "start": 576.571,
+  "end": 580.734,
+  "speaker": "Unknown",
+  "en": "You send in some tokens from a client that goes to some server somewhere.",
+  "zh": "你从客户端发送一些 token,它们被送到某处的某个服务器。"
+ },
+ {
+  "seg": 79,
+  "start": 581.955,
+  "end": 586.037,
+  "speaker": "Unknown",
+  "en": "For now, we're gonna focus on cloud deployment of inference, because that's where the majority of it happens right now.",
+  "zh": "目前，我们先聚焦于推理的云端部署，因为现在大部分推理都发生在云端。"
+ },
+ {
+  "seg": 80,
+  "start": 586.117,
+  "end": 592.682,
+  "speaker": "Unknown",
+  "en": "Obviously in the future, a lot of these inference engines are gonna end up running on people's machines, like in a couple of years.",
+  "zh": "显然在未来，很多这样的推理引擎会跑在人们的机器上，比如几年之后。"
+ },
+ {
+  "seg": 81,
+  "start": 592.702,
+  "end": 594.143,
+  "speaker": "Unknown",
+  "en": "Yeah, go ahead.",
+  "zh": "好的，请讲。"
+ },
+ {
+  "seg": 82,
+  "start": 598.906,
+  "end": 599.987,
+  "speaker": "Unknown",
+  "en": "The size of the screen?",
+  "zh": "屏幕的大小？"
+ },
+ {
+  "seg": 83,
+  "start": 601.688,
+  "end": 602.689,
+  "speaker": "Unknown",
+  "en": "Brightness of the screen.",
+  "zh": "屏幕的亮度。"
+ },
+ {
+  "seg": 84,
+  "start": 604.149,
+  "end": 605.83,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was about adjusting the brightness.",
+  "zh": "好的，这个问题是关于调节亮度的。"
+ },
+ {
+  "seg": 85,
+  "start": 605.85,
+  "end": 607.411,
+  "speaker": "Unknown",
+  "en": "I'm not sure if we can fix that.",
+  "zh": "我不确定我们能不能修好这个。"
+ },
+ {
+  "seg": 86,
+  "start": 607.691,
+  "end": 611.854,
+  "speaker": "Unknown",
+  "en": "That's what I get for making dark mode slides, but yeah.",
+  "zh": "这就是我做深色模式幻灯片的下场，不过好吧。"
+ },
+ {
+  "seg": 87,
+  "start": 612.92,
+  "end": 619.728,
+  "speaker": "Unknown",
+  "en": "Yeah, all right, so a client submits an input, and then it's processed by our engine running on a server somewhere.",
+  "zh": "好，那么一个客户端提交一个输入，然后由运行在某处服务器上的引擎来处理它。"
+ },
+ {
+  "seg": 88,
+  "start": 620.809,
+  "end": 627.397,
+  "speaker": "Unknown",
+  "en": "First, we process the input tokens in the pre-fill phase, and then we generate the output tokens in the decode phase.",
+  "zh": "首先，我们在预填充(pre-fill)阶段处理输入 token,然后在解码(decode)阶段生成输出 token。"
+ },
+ {
+  "seg": 89,
+  "start": 628.818,
+  "end": 630.781,
+  "speaker": "Unknown",
+  "en": "And so we have one...",
+  "zh": "所以我们有一个……"
+ },
+ {
+  "seg": 90,
+  "start": 632.923,
+  "end": 646.258,
+  "speaker": "Unknown",
+  "en": "Prefill run does a forward pass through the model and then multiple decode runs produce one or a few tokens at a time and then once we're done return them to the user or generate a tool call and interact with an external system.",
+  "zh": "预填充运行会对模型做一次前向传递，然后多次解码运行每次生成一个或几个 token,最后完成后把它们返回给用户，或者生成一个工具调用并与外部系统交互。"
+ },
+ {
+  "seg": 91,
+  "start": 652.75,
+  "end": 666.897,
+  "speaker": "Unknown",
+  "en": "Both the external interface and this internal pre-filled decode split defines the metrics that you care about for a workload that tells you how to deploy your inference engine and how to measure its success and performance.",
+  "zh": "无论是这个外部接口，还是内部的预填充/解码划分，都定义了你为一个工作负载所关心的指标，这些指标告诉你如何部署你的推理引擎，以及如何衡量它的成功与性能。"
+ },
+ {
+  "seg": 92,
+  "start": 666.937,
+  "end": 671.439,
+  "speaker": "Unknown",
+  "en": "You have something like queries per second in and queries per second produced.",
+  "zh": "你有诸如每秒输入查询数(QPS in)和每秒产出查询数(QPS produced)这样的指标。"
+ },
+ {
+  "seg": 93,
+  "start": 671.72,
+  "end": 675.141,
+  "speaker": "Unknown",
+  "en": "This one, pretty tricky to think about under control of your users.",
+  "zh": "这一个，相当棘手，因为它处于你的用户控制之下。"
+ },
+ {
+  "seg": 94,
+  "start": 677.162,
+  "end": 687.289,
+  "speaker": "Unknown",
+  "en": "You probably have a better time thinking of it at the engine level, thinking of how many queries per second you can handle per replica of your inference engine, and then you have aggregate demand coming from users.",
+  "zh": "你更适合在引擎层面去思考它——想你的推理引擎每个副本每秒能处理多少查询，然后是来自用户的聚合需求。"
+ },
+ {
+  "seg": 95,
+  "start": 688.309,
+  "end": 696.614,
+  "speaker": "Unknown",
+  "en": "Then with those queries, you want to look at how many tokens there are per query, input and output, aka pre-fill and decode.",
+  "zh": "然后对于这些查询，你要看每个查询有多少 token,输入和输出，也就是预填充和解码。"
+ },
+ {
+  "seg": 96,
+  "start": 697.895,
+  "end": 703.357,
+  "speaker": "Unknown",
+  "en": "So this one is tricky because it's not only under control of users but it's also under the control of a model.",
+  "zh": "这一项很棘手，因为它不仅处于用户的控制之下，还处于模型的控制之下。"
+ },
+ {
+  "seg": 97,
+  "start": 703.977,
+  "end": 709.299,
+  "speaker": "Unknown",
+  "en": "So the determination of when to finish processing a query is not under your deterministic control.",
+  "zh": "什么时候结束处理一个查询的决定，并不在你的确定性控制之下。"
+ },
+ {
+  "seg": 98,
+  "start": 709.399,
+  "end": 712.08,
+  "speaker": "Unknown",
+  "en": "It's under the control of the model inside the inference engine.",
+  "zh": "它处于推理引擎内部那个模型的控制之下。"
+ },
+ {
+  "seg": 99,
+  "start": 712.941,
+  "end": 718.783,
+  "speaker": "Unknown",
+  "en": "So this is something, both of those sources of non-determinism means you need to kind of like measure this benchmark it to get it.",
+  "zh": "所以，这两个非确定性来源意味着你需要某种程度上去测量它、对它做基准测试才能得到它。"
+ },
+ {
+  "seg": 100,
+  "start": 720.123,
+  "end": 734.892,
+  "speaker": "Unknown",
+  "en": "And then when we do our processing, we produce some intermediate artifacts that we want to cache in the KV cache, and then the degree to which that cache is reusable is a key component of the definition of our workload.",
+  "zh": "然后当我们做处理时，会产生一些中间产物，我们想把它们缓存到 KV 缓存里，而这个缓存可复用的程度，是我们工作负载定义中的一个关键组成部分。"
+ },
+ {
+  "seg": 101,
+  "start": 735.712,
+  "end": 745.057,
+  "speaker": "Unknown",
+  "en": "This is also mostly under control of users, but you can get, depending on the workload, there's actually pretty relatively fixed patterns of prefix reuse.",
+  "zh": "这也主要是由用户控制的，但根据工作负载不同，实际上会有相对固定的前缀复用模式。"
+ },
+ {
+  "seg": 102,
+  "start": 746.778,
+  "end": 756.445,
+  "speaker": "Unknown",
+  "en": "And then finally coming from the application layer, you have some latency budget, some SLO of how quickly you want to return tokens.",
+  "zh": "最后从应用层来看，你有一定的延迟预算，一定的 SLO，规定你希望多快返回 token。"
+ },
+ {
+  "seg": 103,
+  "start": 756.485,
+  "end": 768.074,
+  "speaker": "Unknown",
+  "en": "That could be how quickly you finish something like the pre-fill phase and have your first tokens ready to send to users, or it can be how quickly you can generate each set of tokens during your decodes and get them back to users.",
+  "zh": "这可能是你多快能完成像 pre-fill 阶段这样的工作并让第一批 token 准备好发给用户，或者是你在 decode 期间多快能生成每一批 token 并把它们返回给用户。"
+ },
+ {
+  "seg": 104,
+  "start": 768.114,
+  "end": 772.938,
+  "speaker": "Unknown",
+  "en": "So that's your time to first token and your time per output token or inter-token latency.",
+  "zh": "所以这就是你的首 token 时间和每个输出 token 的时间，或者说 token 间延迟。"
+ },
+ {
+  "seg": 105,
+  "start": 774.919,
+  "end": 777.721,
+  "speaker": "Unknown",
+  "en": "This is gonna be the primary constraint that you operate under.",
+  "zh": "这将是你运行时的主要约束。"
+ },
+ {
+  "seg": 106,
+  "start": 778.182,
+  "end": 779.783,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 107,
+  "start": 780.703,
+  "end": 790.891,
+  "speaker": "Unknown",
+  "en": "And we can map those back onto our application archetypes, like Chatbot Plus, background agent, really high prefix reuse, there's some interactivity going on, whether that's a person or an agent.",
+  "zh": "我们可以把这些映射回我们的应用原型，比如 Chatbot Plus、后台智能体，前缀复用非常高，会有一些交互在进行，不管交互的是人还是智能体。"
+ },
+ {
+  "seg": 108,
+  "start": 792.412,
+  "end": 800.318,
+  "speaker": "Unknown",
+  "en": "The Chatbot Plus generally has relatively short decodes, relatively short outputs of tens to hundreds of tokens, and a very tight latency tolerance on that.",
+  "zh": "Chatbot Plus 通常有相对较短的 decode、相对较短的输出，几十到几百个 token，并且对延迟的容忍度非常紧。"
+ },
+ {
+  "seg": 109,
+  "start": 800.438,
+  "end": 807.305,
+  "speaker": "Unknown",
+  "en": "Like a person wants to see something in a few hundred milliseconds at the very most, or they get bored, they get angry, they turn away.",
+  "zh": "比如人希望最多在几百毫秒内看到一些东西，否则他们会无聊、生气、转身离开。"
+ },
+ {
+  "seg": 110,
+  "start": 808.206,
+  "end": 812.13,
+  "speaker": "Unknown",
+  "en": "With a background agent, you maybe have a few minutes to produce a PR, right?",
+  "zh": "而后台智能体，你可能有几分钟的时间去产出一个 PR，对吧？"
+ },
+ {
+  "seg": 111,
+  "start": 812.23,
+  "end": 817.156,
+  "speaker": "Unknown",
+  "en": "If it's as high quality as an engineer, maybe as like what would be produced by a good software engineer, maybe you have a few hours.",
+  "zh": "如果它像工程师一样高质量，比如像一个优秀的软件工程师会产出的那样，也许你有几个小时。"
+ },
+ {
+  "seg": 112,
+  "start": 818.177,
+  "end": 822.861,
+  "speaker": "Unknown",
+  "en": "And so there's not as tight of a budget on your milliseconds of network overhead or whatever.",
+  "zh": "所以对你几毫秒的网络开销之类的，就没有那么紧的预算。"
+ },
+ {
+  "seg": 113,
+  "start": 823.802,
+  "end": 827.104,
+  "speaker": "Unknown",
+  "en": "And then with a data processor, you generally have very low prefix reuse.",
+  "zh": "而数据处理器的场景，前缀复用通常非常低。"
+ },
+ {
+  "seg": 114,
+  "start": 828.024,
+  "end": 831.125,
+  "speaker": "Unknown",
+  "en": "You are seeing different documents each time.",
+  "zh": "你每次看到的都是不同的文档。"
+ },
+ {
+  "seg": 115,
+  "start": 831.185,
+  "end": 835.067,
+  "speaker": "Unknown",
+  "en": "There's maybe a system prompt, but it's generally small relative to the other inputs.",
+  "zh": "可能有一个 system prompt，但相对于其他输入来说通常很小。"
+ },
+ {
+  "seg": 116,
+  "start": 835.747,
+  "end": 837.228,
+  "speaker": "Unknown",
+  "en": "And then you have a very short decode.",
+  "zh": "然后你的 decode 非常短。"
+ },
+ {
+  "seg": 117,
+  "start": 837.248,
+  "end": 841.069,
+  "speaker": "Unknown",
+  "en": "You're producing some structured object that's generally short relative to the input.",
+  "zh": "你产出的是一个结构化对象，相对于输入来说通常很短。"
+ },
+ {
+  "seg": 118,
+  "start": 841.81,
+  "end": 844.651,
+  "speaker": "Unknown",
+  "en": "The structured version is shorter than the unstructured version.",
+  "zh": "结构化版本比非结构化版本短。"
+ },
+ {
+  "seg": 119,
+  "start": 845.531,
+  "end": 847.912,
+  "speaker": "Unknown",
+  "en": "And then the demand here is less on latency.",
+  "zh": "而这里的需求更多不在于延迟。"
+ },
+ {
+  "seg": 120,
+  "start": 847.932,
+  "end": 855.934,
+  "speaker": "Unknown",
+  "en": "You can see generally and more on aggregate throughput because you're generally like ripping through a database backfill type job in a lot of these.",
+  "zh": "一般来说更多在于聚合吞吐量，因为这类场景里你通常是在猛跑一个数据库回填类型的任务。"
+ },
+ {
+  "seg": 121,
+  "start": 857.5,
+  "end": 858.861,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 122,
+  "start": 859.781,
+  "end": 878.029,
+  "speaker": "Unknown",
+  "en": "And so maybe we just want to call out, now that we've looked through this, you can see that even though at the application layer, this feels like kind of one, it's one single workload from the perspective of the user, once you start drilling down into what the engine is doing, it really feels like there's two sub-workloads going on.",
+  "zh": "所以也许我们想指出一点，现在我们看完这些之后，你可以看到，虽然在应用层这感觉像是同一种，从用户视角来看它是单一工作负载，但一旦你开始深入探究引擎在做什么，你会真切地感觉到有两个子工作负载在运行。"
+ },
+ {
+  "seg": 123,
+  "start": 878.449,
+  "end": 887.133,
+  "speaker": "Unknown",
+  "en": "There's the workload to do your prefills, to do the processing of input prompts, and then there's work to do the decodes to produce the outputs.",
+  "zh": "一个是做 prefill 的工作负载，即处理输入 prompt，然后是做 decode 以产出输出的工作。"
+ },
+ {
+  "seg": 124,
+  "start": 888.153,
+  "end": 893.674,
+  "speaker": "Unknown",
+  "en": "And these, they sort of operate semi-independently inside the engine.",
+  "zh": "而这两者，它们在引擎内部以半独立的方式运行。"
+ },
+ {
+  "seg": 125,
+  "start": 894.755,
+  "end": 899.816,
+  "speaker": "Unknown",
+  "en": "And so need like a sort of like different perspective and they follow often like different code paths.",
+  "zh": "所以需要一种稍微不同的视角，而且它们通常走不同的代码路径。"
+ },
+ {
+  "seg": 126,
+  "start": 901.076,
+  "end": 915.379,
+  "speaker": "Unknown",
+  "en": "And they're sort of defined by the fact that the per user in the decode phase, you're doing far less arithmetic, far less math per decode per user than you would do in the pre-fill phase, which is a lot,",
+  "zh": "并且它们某种程度上由这样一个事实定义：在 decode 阶段，每个用户每个 decode 做的算术运算要少得多，远少于 pre-fill 阶段，后者运算量非常大，"
+ },
+ {
+  "seg": 127,
+  "start": 915.719,
+  "end": 921.483,
+  "speaker": "Unknown",
+  "en": "Like much higher arithmetic intensity, a lot more math per request.",
+  "zh": "就是算术强度高得多，每个请求的数学运算多得多。"
+ },
+ {
+  "seg": 128,
+  "start": 922.604,
+  "end": 932.252,
+  "speaker": "Unknown",
+  "en": "And so that's your fundamental constraint, but also the sort of space in which you operate in configuring an engine and then like adding features or adjusting the engine behavior to serve these two things.",
+  "zh": "所以这是你的根本约束，同时也是你配置引擎、添加功能或调整引擎行为以服务这两者的运作空间。"
+ },
+ {
+  "seg": 129,
+  "start": 934.794,
+  "end": 934.974,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 130,
+  "start": 935.54,
+  "end": 943.944,
+  "speaker": "Unknown",
+  "en": "So I wanted to make sure we're all on the same page about some of the core stuff about what these engines are actually doing before we peel open the insides and start looking at them.",
+  "zh": "所以在我们打开内部开始研究之前，我想确保我们对这些引擎实际在做什么的核心内容达成一致。"
+ },
+ {
+  "seg": 131,
+  "start": 944.604,
+  "end": 948.025,
+  "speaker": "Unknown",
+  "en": "So what is the architecture of an inference engine?",
+  "zh": "那么，推理引擎的架构是什么？"
+ },
+ {
+  "seg": 132,
+  "start": 948.346,
+  "end": 953.848,
+  "speaker": "Unknown",
+  "en": "So this is a little diagram showing at a high level what an inference engine does.",
+  "zh": "这是一张高层面展示推理引擎做什么的示意图。"
+ },
+ {
+  "seg": 133,
+  "start": 954.068,
+  "end": 962.652,
+  "speaker": "Unknown",
+  "en": "So the goal of an inference server is to take an HTTP request or a gRPC request and turn it into an HTTP response to the client.",
+  "zh": "推理服务器的目标是接收一个 HTTP 请求或 gRPC 请求，并把它转化为返回给客户端的 HTTP 响应。"
+ },
+ {
+  "seg": 134,
+  "start": 963.832,
+  "end": 966.874,
+  "speaker": "Unknown",
+  "en": "And so it does that by passing through all these things down here.",
+  "zh": "它是通过下面这一连串环节来做到这一点的。"
+ },
+ {
+  "seg": 135,
+  "start": 968.515,
+  "end": 973.557,
+  "speaker": "Unknown",
+  "en": "So the idea in this diagram is that if you follow any set of arrows, you get the same thing.",
+  "zh": "这张图的思路是，如果你沿着任何一组箭头走，你都会得到同样的东西。"
+ },
+ {
+  "seg": 136,
+  "start": 973.917,
+  "end": 983.462,
+  "speaker": "Unknown",
+  "en": "So you can sort of peel back a layer of the arrows and look inside and say, all right, so the inference server does this high-level thing, what's the next level down?",
+  "zh": "所以你可以一层层剥开箭头往里看，说：好，推理服务器做了这个高层的事情，那下一层是什么？"
+ },
+ {
+  "seg": 137,
+  "start": 983.882,
+  "end": 994.811,
+  "speaker": "Unknown",
+  "en": "The inference engine is the sort of interesting part of it is the part that is not doing the HTTP serving, because we aren't in one of those situations where HTTP serving is the hard part, is your bottleneck.",
+  "zh": "推理引擎是有意思的部分，即不做 HTTP 服务的部分，因为我们并不是处于 HTTP 服务是难点、是瓶颈的那种情况。"
+ },
+ {
+  "seg": 138,
+  "start": 994.831,
+  "end": 995.851,
+  "speaker": "Unknown",
+  "en": "It's not like a proxy.",
+  "zh": "它不像一个代理。"
+ },
+ {
+  "seg": 139,
+  "start": 997.072,
+  "end": 999.734,
+  "speaker": "Unknown",
+  "en": "This is a case where you're handling",
+  "zh": "这是这样一种情况：你在处理"
+ },
+ {
+  "seg": 140,
+  "start": 1000.455,
+  "end": 1010.678,
+  "speaker": "Unknown",
+  "en": "Tens, hundreds, maybe thousands at most of requests and responses per replica and so general purpose hardware just kind of eats this for lunch.",
+  "zh": "每个 replica 几十个、几百个、最多也许几千个请求和响应，所以通用硬件轻轻松松就能搞定。"
+ },
+ {
+  "seg": 141,
+  "start": 1011.258,
+  "end": 1013.699,
+  "speaker": "Unknown",
+  "en": "So the real interesting stuff is all at the layer below this.",
+  "zh": "所以真正有意思的东西都在这层之下。"
+ },
+ {
+  "seg": 142,
+  "start": 1014.499,
+  "end": 1021.301,
+  "speaker": "Unknown",
+  "en": "So at the top is your server IO for HTTP requests, at the bottom is the actual engine and it's like a collection of processes.",
+  "zh": "顶部是你处理 HTTP 请求的服务器 IO，底部是实际的引擎，它是一组进程的集合。"
+ },
+ {
+  "seg": 143,
+  "start": 1022.021,
+  "end": 1024.401,
+  "speaker": "Unknown",
+  "en": "And you can kind of break this out into three pieces.",
+  "zh": "你可以把它拆成三部分。"
+ },
+ {
+  "seg": 144,
+  "start": 1024.481,
+  "end": 1026.142,
+  "speaker": "Unknown",
+  "en": "The request comes in expressed",
+  "zh": "请求进来时是用"
+ },
+ {
+  "seg": 145,
+  "start": 1026.802,
+  "end": 1032.566,
+  "speaker": "Unknown",
+  "en": "Using like sort of human friendly or external representations.",
+  "zh": "某种对人类友好的或外部的表示形式表达的。"
+ },
+ {
+  "seg": 146,
+  "start": 1032.626,
+  "end": 1038.63,
+  "speaker": "Unknown",
+  "en": "So you have Unicode strings, you have PNG images, you have MP4 videos or WebRTC streams.",
+  "zh": "所以你有 Unicode 字符串、PNG 图片、MP4 视频或 WebRTC 流。"
+ },
+ {
+  "seg": 147,
+  "start": 1039.43,
+  "end": 1043.393,
+  "speaker": "Unknown",
+  "en": "And these need to be pre-processed before they can get passed to the actual inference.",
+  "zh": "这些需要先做预处理才能传给实际的推理。"
+ },
+ {
+  "seg": 148,
+  "start": 1043.413,
+  "end": 1048.936,
+  "speaker": "Unknown",
+  "en": "So they get turned into collections of tokens, which then get mapped into tensors on the GPU.",
+  "zh": "所以它们被转换成 token 集合，然后再映射到 GPU 上的张量。"
+ },
+ {
+  "seg": 149,
+  "start": 1049.396,
+  "end": 1053.219,
+  "speaker": "Unknown",
+  "en": "And then we can actually do the inference part of the inference engine.",
+  "zh": "然后我们就可以真正做推理引擎的推理部分了。"
+ },
+ {
+  "seg": 150,
+  "start": 1053.559,
+  "end": 1062.228,
+  "speaker": "Unknown",
+  "en": "In the simplest case, it takes a tensor with k entries in it and gives you a tensor with k plus one entries in it.",
+  "zh": "在最简单的情况下,它接受一个含有 k 个条目的张量,并给你一个含有 k 加一个条目的张量。"
+ },
+ {
+  "seg": 151,
+  "start": 1062.708,
+  "end": 1065.731,
+  "speaker": "Unknown",
+  "en": "And these are machine learning models that predict the next token.",
+  "zh": "等等,所以这就是硬核的、抠微秒级的性能工程所聚焦的地方。"
+ },
+ {
+  "seg": 152,
+  "start": 1065.751,
+  "end": 1072.478,
+  "speaker": "Unknown",
+  "en": "They guess what would the next entry in this big tensor look like based off of the data I've seen in training, whether that's",
+  "zh": "它们根据我在训练中见过的数据,猜测这个大张量中的下一个条目会是什么样子,不管那是"
+ },
+ {
+  "seg": 153,
+  "start": 1072.798,
+  "end": 1081.886,
+  "speaker": "Unknown",
+  "en": "Data from the internet or data from what a helpful agent would do or RL data, whatever you learn to predict this next tensor entry.",
+  "zh": "来自互联网的数据,还是一个乐于助人的智能体会做什么的数据,还是 RL 数据,无论你学习去预测什么,都是为了预测下一个张量条目。"
+ },
+ {
+  "seg": 154,
+  "start": 1082.186,
+  "end": 1087.25,
+  "speaker": "Unknown",
+  "en": "So that's the core right there and that is what is wrapped by the rest of the inference engine.",
+  "zh": "所以这就是核心所在,而它就是被推理引擎的其余部分所包装的东西。"
+ },
+ {
+  "seg": 155,
+  "start": 1087.951,
+  "end": 1090.653,
+  "speaker": "Unknown",
+  "en": "So then we have post-processing on the side here.",
+  "zh": "那么我们在这一侧有后处理。"
+ },
+ {
+  "seg": 156,
+  "start": 1090.673,
+  "end": 1098.14,
+  "speaker": "Unknown",
+  "en": "So post-processing turns that new tensor into a response and that's generally done by this D tokenizer that goes back to the sort of",
+  "zh": "后处理把那个新张量变成一个响应,这一般是由这个 D 分词器完成的,它先回到某种"
+ },
+ {
+  "seg": 157,
+  "start": 1098.42,
+  "end": 1108.552,
+  "speaker": "Unknown",
+  "en": "Like token space first and then back to the human and external system friendly representation in the response so it can be returned to the user.",
+  "zh": "token 空间,然后再回到人类和外部系统友好的表示形式,作为响应,这样它就可以被返回给用户。"
+ },
+ {
+  "seg": 158,
+  "start": 1111.836,
+  "end": 1112.196,
+  "speaker": "Unknown",
+  "en": "Question?",
+  "zh": "有问题吗?"
+ },
+ {
+  "seg": 159,
+  "start": 1115.079,
+  "end": 1119.124,
+  "speaker": "Unknown",
+  "en": "Could you explain the difference between the inference server and the inference engine?",
+  "zh": "你能解释一下推理服务器和推理引擎之间的区别吗?"
+ },
+ {
+  "seg": 160,
+  "start": 1121.715,
+  "end": 1122.636,
+  "speaker": "Unknown",
+  "en": "Great question, yeah.",
+  "zh": "好问题,是的。"
+ },
+ {
+  "seg": 161,
+  "start": 1122.776,
+  "end": 1129.983,
+  "speaker": "Unknown",
+  "en": "So the question was, what is the difference between an inference server and an inference engine, and where does something like vLL lie?",
+  "zh": "所以问题是,推理服务器和推理引擎之间的区别是什么,以及像 vLL 这样的东西位于哪里?"
+ },
+ {
+  "seg": 162,
+  "start": 1130.143,
+  "end": 1140.193,
+  "speaker": "Unknown",
+  "en": "So inference server means that you've wrapped some input-output around the core operations of taking requests and turning them into responses.",
+  "zh": "推理服务器意味着你已经围绕接收请求并将其转换为响应的核心操作包装了一些输入输出。"
+ },
+ {
+  "seg": 163,
+  "start": 1141.093,
+  "end": 1157.43,
+  "speaker": "Unknown",
+  "en": "So VLLM has both of these, like VLLM operates as an HTTP or GRPC server, and then the engine layer is sort of like part of the VLLM or SEOing SDK as like VLLM.engine.",
+  "zh": "所以 VLLM 两者都有,比如 VLLM 作为一个 HTTP 或 GRPC 服务器运行,而引擎层则更像是 VLLM 或 SEOing SDK 的一部分,比如 VLLM.engine。"
+ },
+ {
+  "seg": 164,
+  "start": 1159.939,
+  "end": 1169.063,
+  "speaker": "Unknown",
+  "en": "Most deployments are deployed as a server with a single request, single response kind of interface as depicted here.",
+  "zh": "大多数部署都是作为服务器部署的,具有这里所描绘的单请求、单响应类型的接口。"
+ },
+ {
+  "seg": 165,
+  "start": 1169.844,
+  "end": 1173.245,
+  "speaker": "Unknown",
+  "en": "Does that answer your question?",
+  "zh": "这回答了你的问题吗?"
+ },
+ {
+  "seg": 166,
+  "start": 1175.246,
+  "end": 1176.087,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 167,
+  "start": 1176.287,
+  "end": 1178.108,
+  "speaker": "Unknown",
+  "en": "I said this earlier, but some people have come in.",
+  "zh": "我之前说过这一点,但有些人刚进来。"
+ },
+ {
+  "seg": 168,
+  "start": 1178.848,
+  "end": 1184.03,
+  "speaker": "Unknown",
+  "en": "Please interrupt, raise your hand with questions if there's anything confusing or if you'd want to dive deeper.",
+  "zh": "如果有任何令人困惑的地方,或者你想深入探讨,请打断、举手提问。"
+ },
+ {
+  "seg": 169,
+  "start": 1184.051,
+  "end": 1184.571,
+  "speaker": "Unknown",
+  "en": "Yeah, Ristam.",
+  "zh": "是的,Ristam。"
+ },
+ {
+  "seg": 170,
+  "start": 1186.812,
+  "end": 1188.533,
+  "speaker": "Unknown",
+  "en": "I'm assuming this is a stateless type of work.",
+  "zh": "我假设这是一种无状态类型的工作。"
+ },
+ {
+  "seg": 171,
+  "start": 1190.707,
+  "end": 1196.349,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question from Rustam is, is this like a stateful or stateless workload?",
+  "zh": "是的,所以 Rustam 的问题是,这是有状态还是无状态的工作负载?"
+ },
+ {
+  "seg": 172,
+  "start": 1196.929,
+  "end": 1203.852,
+  "speaker": "Unknown",
+  "en": "So the answer is it is stateless if you don't care about performance.",
+  "zh": "答案是,如果你不在乎性能,它是无状态的。"
+ },
+ {
+  "seg": 173,
+  "start": 1203.952,
+  "end": 1207.333,
+  "speaker": "Unknown",
+  "en": "It's stateful once you do care about performance, which is pretty much every case.",
+  "zh": "一旦你在乎性能,它就是有状态的,而这几乎是所有情况。"
+ },
+ {
+  "seg": 174,
+  "start": 1207.733,
+  "end": 1219.197,
+  "speaker": "Unknown",
+  "en": "So in the primary state that you accumulate over time for requests is the KV cache of previously computed things for a previous request attached to some notion of session.",
+  "zh": "所以你随时间为请求累积的主要状态,是与某种会话概念相关联的、为之前请求计算过的东西的 KV 缓存。"
+ },
+ {
+  "seg": 175,
+  "start": 1222.16,
+  "end": 1228.127,
+  "speaker": "Unknown",
+  "en": "Handling things like sessions actually lives outside of the inference server slash inference engine in general.",
+  "zh": "处理诸如会话之类的事情,通常位于推理服务器/推理引擎之外。"
+ },
+ {
+  "seg": 176,
+  "start": 1228.748,
+  "end": 1237.578,
+  "speaker": "Unknown",
+  "en": "An individual engine replica can track this KV cache, but is up to the wrapping layer, which might be something like NVIDIA Dynamo or LLMD, to handle",
+  "zh": "单个引擎副本可以跟踪这个 KV 缓存,但如何处理由包装层决定,包装层可能是像 NVIDIA Dynamo 或 LLMD 这样的东西,"
+ },
+ {
+  "seg": 177,
+  "start": 1239.28,
+  "end": 1240.822,
+  "speaker": "Unknown",
+  "en": "Defining what a session means.",
+  "zh": "即定义会话意味着什么。"
+ },
+ {
+  "seg": 178,
+  "start": 1240.962,
+  "end": 1245.205,
+  "speaker": "Unknown",
+  "en": "So it's like the clients in that architecture sort of define the sessions.",
+  "zh": "所以在那个架构中,更像是客户端定义了会话。"
+ },
+ {
+  "seg": 179,
+  "start": 1245.245,
+  "end": 1247.427,
+  "speaker": "Unknown",
+  "en": "And that is where a lot of the trickiness comes in.",
+  "zh": "而这正是很多棘手之处所在。"
+ },
+ {
+  "seg": 180,
+  "start": 1247.467,
+  "end": 1255.975,
+  "speaker": "Unknown",
+  "en": "So we won't talk too much about that because it's kind of outside the, there's enough to talk about with engines already, but yeah, come find me afterwards if you want to talk about that later.",
+  "zh": "所以我们不会过多讨论那个,因为它有点超出了,光是引擎就已经有足够多可讲的了,不过是的,如果你想稍后谈论那个,结束后可以来找我。"
+ },
+ {
+  "seg": 181,
+  "start": 1259.703,
+  "end": 1265.387,
+  "speaker": "Unknown",
+  "en": "Right, so this diagram, we also talked about it previously, we just want to return to it now that we've seen a little bit more.",
+  "zh": "好,所以这张图,我们之前也讲过,现在我们已经多了解了一点,我们想回到它。"
+ },
+ {
+  "seg": 182,
+  "start": 1265.447,
+  "end": 1268.149,
+  "speaker": "Unknown",
+  "en": "So this outer layer is our server IO process.",
+  "zh": "所以这个外层是我们的服务器 IO 进程。"
+ },
+ {
+  "seg": 183,
+  "start": 1268.59,
+  "end": 1272.713,
+  "speaker": "Unknown",
+  "en": "This is specifically SGLang's architecture.",
+  "zh": "这具体是 SGLang 的架构。"
+ },
+ {
+  "seg": 184,
+  "start": 1272.733,
+  "end": 1280.739,
+  "speaker": "Unknown",
+  "en": "There's some slight differences with vLLM, but this server IO process communicates with the outside world and then with our pre-processing and post-processing.",
+  "zh": "与 vLLM 有一些细微差别,但这个服务器 IO 进程与外部世界通信,然后与我们的预处理和后处理通信。"
+ },
+ {
+  "seg": 185,
+  "start": 1281.079,
+  "end": 1286.403,
+  "speaker": "Unknown",
+  "en": "Those things communicate with a scheduler process, which is the one that defines and schedules",
+  "zh": "这些东西与一个调度器进程通信,调度器进程是定义和调度的那个,"
+ },
+ {
+  "seg": 186,
+  "start": 1286.503,
+  "end": 1292.871,
+  "speaker": "Unknown",
+  "en": "And then the one or more processes that are sort of closely tied to the GPU are the ones that do the real work of doing the inference.",
+  "zh": "然后与 GPU 紧密相关的一个或多个进程,是执行推理这一真正工作的那些。"
+ },
+ {
+  "seg": 187,
+  "start": 1303.739,
+  "end": 1314.084,
+  "speaker": "Unknown",
+  "en": "So the key things to pull out here is that if you are an old school ML person who's been in this world for a long time, the model forward passes layer is the one that you're familiar with.",
+  "zh": "所以这里要提取的关键点是,如果你是一个在这个领域待了很久的老派 ML 人,模型前向传递层就是你熟悉的那一层。"
+ },
+ {
+  "seg": 188,
+  "start": 1314.124,
+  "end": 1319.687,
+  "speaker": "Unknown",
+  "en": "This is where the vast majority of the sort of PyTorch and similar code shows up.",
+  "zh": "绝大多数 PyTorch 和类似代码都出现在这里。"
+ },
+ {
+  "seg": 189,
+  "start": 1321.107,
+  "end": 1330.852,
+  "speaker": "Unknown",
+  "en": "And this is the GPU or the accelerator in general is the component that costs the most and is capable of the most work.",
+  "zh": "而这就是 GPU,或者说一般而言的加速器,是成本最高、能做最多工作的组件。"
+ },
+ {
+  "seg": 190,
+  "start": 1331.572,
+  "end": 1334.254,
+  "speaker": "Unknown",
+  "en": "petaflop per second scale operations.",
+  "zh": "每秒 petaflop 规模的操作。"
+ },
+ {
+  "seg": 191,
+  "start": 1334.554,
+  "end": 1340.818,
+  "speaker": "Unknown",
+  "en": "So this is where the hardcore shave a microsecond performance engineering is focused.",
+  "zh": "所以这就是那些硬核的、追求微秒级性能工程的人所专注的地方。"
+ },
+ {
+  "seg": 192,
+  "start": 1341.799,
+  "end": 1349.885,
+  "speaker": "Unknown",
+  "en": "But critically, this scheduler process out here, or its equivalent in another architecture, is the bottleneck to that.",
+  "zh": "但关键的是,外面这个调度器进程,或者它在另一种架构中的对应物,是那一切的瓶颈。"
+ },
+ {
+  "seg": 193,
+  "start": 1351.546,
+  "end": 1361.715,
+  "speaker": "Unknown",
+  "en": "And so this is, it generally operates, it is literally single-threaded in implementations we'll talk about, but it's also, like, semantically, it's single-threaded.",
+  "zh": "所以这个,它通常运行,它在我们将要谈论的实现中是字面意义上的单线程,而且在语义上,它也是单线程的。"
+ },
+ {
+  "seg": 194,
+  "start": 1361.775,
+  "end": 1375.988,
+  "speaker": "Unknown",
+  "en": "It's this one thing that is defining, somebody has to define the work that happens on the GPU, somebody has to manage a bunch of resources there, and there's some fiddly, tricky things to do concurrently, and so this becomes this, like,",
+  "zh": "就是这同一个东西在定义,总得有人定义在 GPU 上发生的工作,总得有人在那里管理一堆资源,而且有一些需要并发完成的繁琐、棘手的事情,所以这就变成了这个,呃,"
+ },
+ {
+  "seg": 195,
+  "start": 1377.609,
+  "end": 1391.175,
+  "speaker": "Unknown",
+  "en": "semantically single-threaded point of control that can potentially, despite the fact that it's not doing much, it's not doing as many operations as the work on the GPU, it actually becomes your bottleneck.",
+  "zh": "语义上单线程的控制点,尽管它做的事情不多,它不像 GPU 上的工作那样做那么多操作,它实际上会变成你的瓶颈。"
+ },
+ {
+  "seg": 196,
+  "start": 1391.215,
+  "end": 1393.256,
+  "speaker": "Unknown",
+  "en": "It's the sort of gatekeeper to the GPU.",
+  "zh": "它有点像 GPU 的守门人。"
+ },
+ {
+  "seg": 197,
+  "start": 1393.517,
+  "end": 1401.481,
+  "speaker": "Unknown",
+  "en": "And so this is the other place where the majority of performance engineering and care needs to go in the design and operation of an inference engine.",
+  "zh": "所以这是另一个大多数性能工程和关注点需要投入到推理引擎设计和运行中的地方。"
+ },
+ {
+  "seg": 198,
+  "start": 1402.922,
+  "end": 1408.128,
+  "speaker": "Unknown",
+  "en": "So we'll see more on that as we go, but that's like the high level takeaway about these things.",
+  "zh": "所以我们后面会看到更多相关内容,但这算是关于这些东西的高层次要点。"
+ },
+ {
+  "seg": 199,
+  "start": 1418.363,
+  "end": 1429.57,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was, is the solution to that bottleneck to operate the schedulers in parallel or to improve some of the external components that consume from it?",
+  "zh": "是的,所以问题是,解决那个瓶颈的方案,是并行运行调度器,还是改进从中消费的一些外部组件?"
+ },
+ {
+  "seg": 200,
+  "start": 1429.97,
+  "end": 1433.412,
+  "speaker": "Unknown",
+  "en": "I think the current state of affairs is that",
+  "zh": "我认为目前的情况是"
+ },
+ {
+  "seg": 201,
+  "start": 1434.747,
+  "end": 1446.062,
+  "speaker": "Unknown",
+  "en": "This is not reached the, like that you can operate these server processes in Python and you just have to be faster on the host side than the GPU side and",
+  "zh": "这还没有达到，比如说你可以在 Python 里运行这些服务进程，你只需要在主机侧比 GPU 侧更快，以及"
+ },
+ {
+  "seg": 202,
+  "start": 1448.54,
+  "end": 1470.345,
+  "speaker": "Unknown",
+  "en": "The complexity increase that you get from trying to manage locks or coordination on the GPU resources, that complexity increase is much greater than the gain, because even if you were able to get it down to a microsecond, the work wouldn't start happening until the previous work on the GPU had finished.",
+  "zh": "你试图在 GPU 资源上管理锁或协调所带来的复杂度增加，远大于收益，因为即使你能把它降到微秒级，工作也要等到 GPU 上前一个工作完成后才会开始。"
+ },
+ {
+  "seg": 203,
+  "start": 1472.384,
+  "end": 1486.149,
+  "speaker": "Unknown",
+  "en": "You know, depends on the particular workload, but you're talking generally tens of milliseconds to hundreds of milliseconds, and so the, like, yeah, there are general, most of the time you can get around it.",
+  "zh": "你知道，这取决于具体的工作负载，但一般来说是几十毫秒到几百毫秒，所以，嗯，是的，通常大多数时候你是可以绕过它的。"
+ },
+ {
+  "seg": 204,
+  "start": 1486.169,
+  "end": 1490.731,
+  "speaker": "Unknown",
+  "en": "We'll talk a little bit more about this, so maybe ask again once we get to that, if that wasn't satisfying.",
+  "zh": "我们会再多谈一点这个，所以如果我们讲到那里时，如果刚才的回答不够令人满意，可以再问一次。"
+ },
+ {
+  "seg": 205,
+  "start": 1493.222,
+  "end": 1494.183,
+  "speaker": "Unknown",
+  "en": "But yeah, great question.",
+  "zh": "不过是的，好问题。"
+ },
+ {
+  "seg": 206,
+  "start": 1494.583,
+  "end": 1495.764,
+  "speaker": "Unknown",
+  "en": "More good questions, please.",
+  "zh": "请继续提好问题。"
+ },
+ {
+  "seg": 207,
+  "start": 1496.045,
+  "end": 1497.126,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 208,
+  "start": 1497.306,
+  "end": 1501.75,
+  "speaker": "Unknown",
+  "en": "So then just looking at that, that was like the architecture diagram that you think of as your engineering.",
+  "zh": "那么看一下这个，这就是你作为工程师所想到的架构图。"
+ },
+ {
+  "seg": 209,
+  "start": 1502.411,
+  "end": 1504.773,
+  "speaker": "Unknown",
+  "en": "Let's look at the life of a request in this architecture.",
+  "zh": "让我们来看看在这个架构下一个请求的生命周期。"
+ },
+ {
+  "seg": 210,
+  "start": 1505.394,
+  "end": 1510.478,
+  "speaker": "Unknown",
+  "en": "So the server receives an input from the outside world.",
+  "zh": "服务器从外部世界收到一个输入。"
+ },
+ {
+  "seg": 211,
+  "start": 1510.498,
+  "end": 1511.86,
+  "speaker": "Unknown",
+  "en": "It says, okay, we've got a request.",
+  "zh": "它说，好，我们收到一个请求。"
+ },
+ {
+  "seg": 212,
+  "start": 1513.161,
+  "end": 1517.125,
+  "speaker": "Unknown",
+  "en": "It sends it to the tokenizer to prepare, preprocess this request.",
+  "zh": "它把它发给 tokenizer 去准备、预处理这个请求。"
+ },
+ {
+  "seg": 213,
+  "start": 1517.466,
+  "end": 1522.391,
+  "speaker": "Unknown",
+  "en": "That then goes into the scheduler that decides like, okay, how many resources is this thing gonna consume?",
+  "zh": "然后它进入调度器，调度器会判断，好，这个东西要消耗多少资源？"
+ },
+ {
+  "seg": 214,
+  "start": 1522.711,
+  "end": 1524.293,
+  "speaker": "Unknown",
+  "en": "What resources are available?",
+  "zh": "有哪些资源可用？"
+ },
+ {
+  "seg": 215,
+  "start": 1525.475,
+  "end": 1532.582,
+  "speaker": "Unknown",
+  "en": "And then that runs this core loop of creating batches of requests to go in the model runners.",
+  "zh": "然后它运行这个核心循环，创建一批批的请求送入 model runner。"
+ },
+ {
+  "seg": 216,
+  "start": 1533.363,
+  "end": 1546.912,
+  "speaker": "Unknown",
+  "en": "So generally, most of the accelerators benefit from operating on multiple requests in parallel, so especially GPUs, but also TPUs and many others, so you want to collect a bunch of requests together and run them.",
+  "zh": "一般来说，大多数加速器都能从并行处理多个请求中受益，尤其是 GPU，但 TPU 和其他很多设备也是，所以你要把一批请求收集起来一起运行。"
+ },
+ {
+  "seg": 217,
+  "start": 1547.633,
+  "end": 1558.3,
+  "speaker": "Unknown",
+  "en": "If you're a database person, you might imagine, I'm about to run a sequential scan, so I might as well grab three or four queries that are all going to read this entire table and do all of their",
+  "zh": "如果你是做数据库的人，你可能会想，我马上要跑一个顺序扫描，那我不如抓上三四个都要读取整张表的查询，把它们所有的"
+ },
+ {
+  "seg": 218,
+  "start": 1559.901,
+  "end": 1561.441,
+  "speaker": "Unknown",
+  "en": "You know, do all their queries at once.",
+  "zh": "你知道，把它们所有的查询一次性做完。"
+ },
+ {
+  "seg": 219,
+  "start": 1562.061,
+  "end": 1565.342,
+  "speaker": "Unknown",
+  "en": "Cause the hard part is that like sequential scan of loading the entire table.",
+  "zh": "因为最难的部分就是那个加载整张表的顺序扫描。"
+ },
+ {
+  "seg": 220,
+  "start": 1566.262,
+  "end": 1568.823,
+  "speaker": "Unknown",
+  "en": "So there's a similar thing going on here.",
+  "zh": "所以这里发生的是类似的事情。"
+ },
+ {
+  "seg": 221,
+  "start": 1569.763,
+  "end": 1581.706,
+  "speaker": "Unknown",
+  "en": "So this core loop operates over and over again, start a batch and output the like the tokens and the probability distribution over tokens, the logits that comes from the model runner or runners.",
+  "zh": "这个核心循环一遍又一遍地运行，启动一个批次，然后输出，就是那些 token 和 token 上的概率分布，也就是 logits，它来自一个或多个 model runner。"
+ },
+ {
+  "seg": 222,
+  "start": 1582.606,
+  "end": 1597.803,
+  "speaker": "Unknown",
+  "en": "So that operates sort of continually, and then as tokens are ready, they can be passed to the detokenizer to be turned back into a proper response to the outside world, and then sent back to the server.",
+  "zh": "它就这样持续运行，然后当 token 准备好了，它们就可以被传给 detokenizer，被转换回对外部世界的正式响应，然后被发送回服务器。"
+ },
+ {
+  "seg": 223,
+  "start": 1601.005,
+  "end": 1617.015,
+  "speaker": "Unknown",
+  "en": "So yeah, what's interesting about this stuff is that it is simple relative to what's going on inside databases, file systems, web servers, partly because it's fairly new, but partly because there's just this core bit at the middle that you just want to operate at maximum speed.",
+  "zh": "是的，这些东西有意思的地方在于，相对于数据库、文件系统、Web 服务器内部正在发生的事情，它是简单的，部分原因是它相当新，但部分原因是因为中间就只有这一小块核心，你只想让它以最大速度运行。"
+ },
+ {
+  "seg": 224,
+  "start": 1617.035,
+  "end": 1617.375,
+  "speaker": "Unknown",
+  "en": "Yeah, question?",
+  "zh": "好，有提问？"
+ },
+ {
+  "seg": 225,
+  "start": 1617.395,
+  "end": 1623.639,
+  "speaker": "Unknown",
+  "en": "Is there communication between the tokenizer and the de-tokenizer?",
+  "zh": "tokenizer 和 detokenizer 之间有通信吗？"
+ },
+ {
+  "seg": 226,
+  "start": 1623.659,
+  "end": 1626.801,
+  "speaker": "Unknown",
+  "en": "The question was, is there communication between the tokenizer and the de-tokenizer?",
+  "zh": "问题是，tokenizer 和 detokenizer 之间有通信吗？"
+ },
+ {
+  "seg": 227,
+  "start": 1629.248,
+  "end": 1633.872,
+  "speaker": "Unknown",
+  "en": "To my knowledge, there is no direct communication between the tokenizer and the de-tokenizer in SGLang.",
+  "zh": "据我所知，在 SGLang 中，tokenizer 和 detokenizer 之间没有直接通信。"
+ },
+ {
+  "seg": 228,
+  "start": 1635.253,
+  "end": 1645.162,
+  "speaker": "Unknown",
+  "en": "In vLLM, they actually live inside the same process, the manager, the engine manager, and so it'll be a little harder to determine if there's any communication there.",
+  "zh": "在 vLLM 中，它们实际上生活在同一个进程里，管理器、引擎管理器，所以要判断它们之间是否有任何通信会稍微难一些。"
+ },
+ {
+  "seg": 229,
+  "start": 1645.722,
+  "end": 1655.43,
+  "speaker": "Unknown",
+  "en": "But in general, they actually don't need to communicate with each other, they just need to operate essentially the same system for mapping from inputs to tokens or tokens to outputs.",
+  "zh": "但总的来说，它们其实不需要互相通信，它们只需要运行基本相同的系统，用于从输入映射到 token 或从 token 映射到输出。"
+ },
+ {
+  "seg": 230,
+  "start": 1656.351,
+  "end": 1657.172,
+  "speaker": "Unknown",
+  "en": "Did that answer your question?",
+  "zh": "这回答了你的问题吗？"
+ },
+ {
+  "seg": 231,
+  "start": 1672.773,
+  "end": 1675.902,
+  "speaker": "Unknown",
+  "en": "Start to have ambiguity at some level.",
+  "zh": "在某种程度上开始出现歧义。"
+ },
+ {
+  "seg": 232,
+  "start": 1676.404,
+  "end": 1678.209,
+  "speaker": "Unknown",
+  "en": "Disconfiguring it in some way.",
+  "zh": "以某种方式对它进行错误配置。"
+ },
+ {
+  "seg": 233,
+  "start": 1686.261,
+  "end": 1695.743,
+  "speaker": "Unknown",
+  "en": "Right, so the question was about basically maintaining coherence between the tokenizer and the de-tokenizer and how would you handle maybe ambiguous inputs.",
+  "zh": "对，所以这个问题基本上是关于维持 tokenizer 和 detokenizer 之间的一致性，以及你会如何处理可能有歧义的输入。"
+ },
+ {
+  "seg": 234,
+  "start": 1697.244,
+  "end": 1705.966,
+  "speaker": "Unknown",
+  "en": "The answer is that, yeah, they run the same underlying libraries, usually the tokenizer's library from Hugging Face.",
+  "zh": "答案是，是的，它们运行相同的底层库，通常是 Hugging Face 的 tokenizer 库。"
+ },
+ {
+  "seg": 235,
+  "start": 1707.667,
+  "end": 1712.348,
+  "speaker": "Unknown",
+  "en": "And I would say the tokenization part is the one that is",
+  "zh": "而我想说，tokenization 这部分是"
+ },
+ {
+  "seg": 236,
+  "start": 1713.609,
+  "end": 1715.813,
+  "speaker": "Unknown",
+  "en": "Harder than the detokentization part.",
+  "zh": "比 detokenization 部分更难的部分。"
+ },
+ {
+  "seg": 237,
+  "start": 1715.893,
+  "end": 1722.146,
+  "speaker": "Unknown",
+  "en": "The detokentization part is like a little bit more entirely under the control of the person implementing the detokenizer.",
+  "zh": "detokenization 这部分更多地完全处于实现 detokenizer 的人的控制之下。"
+ },
+ {
+  "seg": 238,
+  "start": 1722.166,
+  "end": 1722.888,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 239,
+  "start": 1730.542,
+  "end": 1735.386,
+  "speaker": "Unknown",
+  "en": "Yes, so the question was, does the software allow the tokenizer and detokenizer to always make the same decisions?",
+  "zh": "好的，所以问题是，这个软件是否允许 tokenizer 和 detokenizer 总是做出相同的决定？"
+ },
+ {
+  "seg": 240,
+  "start": 1735.927,
+  "end": 1737.928,
+  "speaker": "Unknown",
+  "en": "I would say yes.",
+  "zh": "我会说，是的。"
+ },
+ {
+  "seg": 241,
+  "start": 1737.948,
+  "end": 1740.551,
+  "speaker": "Unknown",
+  "en": "I'm trying to make sure that I'm not over-promising here.",
+  "zh": "我在努力确保我没有在这里过度承诺。"
+ },
+ {
+  "seg": 242,
+  "start": 1741.932,
+  "end": 1745.535,
+  "speaker": "Unknown",
+  "en": "But I don't think you need communication between them to ensure that the same decisions are made, yeah.",
+  "zh": "但我认为你不需要它们之间的通信来确保做出相同的决定，是的。"
+ },
+ {
+  "seg": 243,
+  "start": 1746.495,
+  "end": 1748.117,
+  "speaker": "Unknown",
+  "en": "Question, sorry, the person, yeah.",
+  "zh": "提问，抱歉，那位，是的。"
+ },
+ {
+  "seg": 244,
+  "start": 1752.841,
+  "end": 1753.041,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 245,
+  "start": 1761.58,
+  "end": 1776.327,
+  "speaker": "Unknown",
+  "en": "Right, so, well, first pointing out that the tokenizer can be parallelized and generally is like multiple processes and yet you still see longer time to first token if you have longer input sequences, so why is that?",
+  "zh": "对，那么，首先指出 tokenizer 是可以并行化的，而且通常就是多个进程，然而当你的输入序列更长时，你仍然会看到更长的首 token 时间，这是为什么？"
+ },
+ {
+  "seg": 246,
+  "start": 1777.867,
+  "end": 1778.348,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么，"
+ },
+ {
+  "seg": 247,
+  "start": 1779.81,
+  "end": 1785.994,
+  "speaker": "Unknown",
+  "en": "The answer is that processing a longer sequence of tokens takes longer inside of this core loop.",
+  "zh": "答案是，处理更长的 token 序列在这个核心循环内部需要更长时间。"
+ },
+ {
+  "seg": 248,
+  "start": 1786.014,
+  "end": 1787.455,
+  "speaker": "Unknown",
+  "en": "So it's the primary driver.",
+  "zh": "所以这是主要的驱动因素。"
+ },
+ {
+  "seg": 249,
+  "start": 1788.075,
+  "end": 1793.618,
+  "speaker": "Unknown",
+  "en": "If you have 100,000 tokens, that will take, let's call it 10 times 10,000 tokens.",
+  "zh": "如果你有 100,000 个 token，那大概会花，我们这么说吧，10 倍于 10,000 个 token 的时间。"
+ },
+ {
+  "seg": 250,
+  "start": 1793.738,
+  "end": 1797.521,
+  "speaker": "Unknown",
+  "en": "Once you get to a certain size, it's basically linear in the input sequence size.",
+  "zh": "一旦达到一定的规模，它基本上是随输入序列长度线性增长的。"
+ },
+ {
+  "seg": 251,
+  "start": 1798.642,
+  "end": 1819.098,
+  "speaker": "Unknown",
+  "en": "Then in a running inference engine, there's also effects from you break up the input tokens into multiple pieces and run them as separate batches, so you can also get additional, if there's queuing and congestion, that adds more to the processing of a long batch than to a short batch.",
+  "zh": "然后在一个运行中的推理引擎里，还有其他影响，因为你会把输入 token 拆成多个片段，作为单独的批次来运行，所以你还会得到额外的，如果有排队和拥塞，那会给长批次增加比短批次更多的处理时间。"
+ },
+ {
+  "seg": 252,
+  "start": 1819.359,
+  "end": 1821.781,
+  "speaker": "Unknown",
+  "en": "You experience the queuing delay multiple times, possibly.",
+  "zh": "你可能会多次经历排队延迟。"
+ },
+ {
+  "seg": 253,
+  "start": 1822.641,
+  "end": 1832.149,
+  "speaker": "Unknown",
+  "en": "But maybe the one underlying point to clarify, like producing the first token means producing the first output token, not the tokenization process.",
+  "zh": "但也许有一个 underlying 的要点需要澄清一下，比如产出第一个 token 指的是产出第一个输出 token，而不是分词过程。"
+ },
+ {
+  "seg": 254,
+  "start": 1833.009,
+  "end": 1844.278,
+  "speaker": "Unknown",
+  "en": "And then finally, not a part of the question, but something I wanted to point out, it is interesting that you generally have multiple tokenizer processes and one detokenizer in the SGLang architecture, at least.",
+  "zh": "最后，虽然不是问题的一部分，但我想指出的一点是，有意思的是，至少在 SGLang 架构里，你通常有多个 tokenizer 进程和一个 detokenizer。"
+ },
+ {
+  "seg": 255,
+  "start": 1844.718,
+  "end": 1851.542,
+  "speaker": "Unknown",
+  "en": "And the answer there is that input tokens come in at a much higher rate than output tokens are produced.",
+  "zh": "那里的答案是，输入 token 到达的速率远高于输出 token 生成的速率。"
+ },
+ {
+  "seg": 256,
+  "start": 1852.343,
+  "end": 1859.667,
+  "speaker": "Unknown",
+  "en": "And that's related to the fact that pre-fill can operate at much higher rates of total tokens per second than decode can in general.",
+  "zh": "而这与一个事实有关，那就是 pre-fill 在每秒总 token 数上通常能以远高于 decode 的速率运行。"
+ },
+ {
+  "seg": 257,
+  "start": 1860.207,
+  "end": 1866.192,
+  "speaker": "Unknown",
+  "en": "And so there isn't as much pressure on the detokenizer component of the system to operate as quickly.",
+  "zh": "所以系统中的 detokenizer 组件没有那么大的快速运行压力。"
+ },
+ {
+  "seg": 258,
+  "start": 1866.933,
+  "end": 1873.638,
+  "speaker": "Unknown",
+  "en": "And it's bottlenecking your response to the user, but it's not bottlenecking the core model forward pass resource.",
+  "zh": "它会阻塞你对用户的响应，但它不会阻塞核心模型前向传递的资源。"
+ },
+ {
+  "seg": 259,
+  "start": 1874.039,
+  "end": 1878.703,
+  "speaker": "Unknown",
+  "en": "So it's also off the hot path a little bit, yeah.",
+  "zh": "所以它也有点不在热路径上，是的。"
+ },
+ {
+  "seg": 260,
+  "start": 1887.573,
+  "end": 1892.618,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was how much of the latency comes from this part in the tokenizer versus this part in the core loop?",
+  "zh": "是的，所以问题是，有多少延迟来自 tokenizer 这一部分，又有多少来自核心循环这一部分？"
+ },
+ {
+  "seg": 261,
+  "start": 1892.879,
+  "end": 1894.841,
+  "speaker": "Unknown",
+  "en": "This is gonna depend on your workload.",
+  "zh": "这取决于你的工作负载。"
+ },
+ {
+  "seg": 262,
+  "start": 1895.141,
+  "end": 1898.785,
+  "speaker": "Unknown",
+  "en": "I would say there was a nice thing from...",
+  "zh": "我想说有一个很好的东西来自……"
+ },
+ {
+  "seg": 263,
+  "start": 1901.308,
+  "end": 1901.888,
+  "speaker": "Unknown",
+  "en": "Who is that?",
+  "zh": "那是谁来着？"
+ },
+ {
+  "seg": 264,
+  "start": 1902.548,
+  "end": 1926.173,
+  "speaker": "Unknown",
+  "en": "Crusoe, I think, that pointed out that the existing tokenizers generally don't show up as a bottleneck if you have models that are, let's call it like 20 billion parameters total or above, and that any few, but if you are operating a smaller model and you're operating on very large input contexts, then it can show up as a bottleneck.",
+  "zh": "我想是 Crusoe，他们指出，如果你的模型总共大概在 200 亿参数以上，现有的 tokenizer 通常不会成为瓶颈，而任何几个……但如果你运行的是更小的模型，而且要处理非常大的输入上下文，那它就可能成为瓶颈。"
+ },
+ {
+  "seg": 265,
+  "start": 1926.473,
+  "end": 1929.454,
+  "speaker": "Unknown",
+  "en": "So that's maybe a good rough guide, I would say, like,",
+  "zh": "所以这也许是一个不错的粗略参考，我想说，比如，"
+ },
+ {
+  "seg": 266,
+  "start": 1930.732,
+  "end": 1934.714,
+  "speaker": "Unknown",
+  "en": "I actually have not had to think about the tokenizer latency very much.",
+  "zh": "我实际上从来没有怎么考虑过 tokenizer 的延迟。"
+ },
+ {
+  "seg": 267,
+  "start": 1934.814,
+  "end": 1940.116,
+  "speaker": "Unknown",
+  "en": "It's generally been prefills and substantially decodes that are the latency bottleneck.",
+  "zh": "延迟瓶颈通常是 pre-fill，以及很大程度上是 decode。"
+ },
+ {
+  "seg": 268,
+  "start": 1940.256,
+  "end": 1954.622,
+  "speaker": "Unknown",
+  "en": "And so decodes, if you're producing 1,000 output tokens a second, each one is one millisecond on average, but up to 10 milliseconds, 20 milliseconds, or even",
+  "zh": "所以 decode，如果你每秒生成 1000 个输出 token，那平均每个是 1 毫秒，但可能高达 10 毫秒、20 毫秒，甚至"
+ },
+ {
+  "seg": 269,
+  "start": 1954.962,
+  "end": 1970.028,
+  "speaker": "Unknown",
+  "en": "More if you have a lower decode throughput, like a large MOE that you're running at lower interactivity, and so the tokenizers are definitely millisecond scale or less and only happens once per request.",
+  "zh": "更多，如果你的 decode 吞吐量更低的话，比如一个大 MOE 以较低的交互性运行，所以 tokenizer 肯定是毫秒级或更少，而且每个请求只发生一次。"
+ },
+ {
+  "seg": 270,
+  "start": 1971.468,
+  "end": 1973.909,
+  "speaker": "Unknown",
+  "en": "Also notable that nobody talks about tokenizer caching.",
+  "zh": "同样值得注意的是，没有人谈论 tokenizer 缓存。"
+ },
+ {
+  "seg": 271,
+  "start": 1974.229,
+  "end": 1977.19,
+  "speaker": "Unknown",
+  "en": "People talk about KV caching, not tokenizer caching, even though you could do it.",
+  "zh": "人们谈论 KV 缓存，而不是 tokenizer 缓存，尽管其实可以做。"
+ },
+ {
+  "seg": 272,
+  "start": 1978.411,
+  "end": 1983.273,
+  "speaker": "Unknown",
+  "en": "I'm gonna keep going just to make sure we get through more stuff, but these have been great questions, and so if it's still relevant, please ask.",
+  "zh": "我会继续讲下去，以确保我们能够覆盖更多内容，不过这些问题都非常好，所以如果还有相关问题，请继续问。"
+ },
+ {
+  "seg": 273,
+  "start": 1984.964,
+  "end": 1987.606,
+  "speaker": "Unknown",
+  "en": "Another important question to ask, wait, why are we doing multiprocessing?",
+  "zh": "另一个值得问的重要问题是：等等，我们为什么要用多进程？"
+ },
+ {
+  "seg": 274,
+  "start": 1988.047,
+  "end": 1995.634,
+  "speaker": "Unknown",
+  "en": "The key reason is we want separate threads of control for each subcomponent for our server IO, for our tokenization and detokenization, for each model runner.",
+  "zh": "关键原因是，我们希望每个子组件都有独立的控制线程，比如我们的服务器 IO、我们的分词与反分词、每个 model runner。"
+ },
+ {
+  "seg": 275,
+  "start": 1996.214,
+  "end": 2000.158,
+  "speaker": "Unknown",
+  "en": "We want them to be able to sort of operate as independently of each other as possible.",
+  "zh": "我们希望它们能够尽可能彼此独立地运行。"
+ },
+ {
+  "seg": 276,
+  "start": 2001.559,
+  "end": 2002.4,
+  "speaker": "Unknown",
+  "en": "They are...",
+  "zh": "它们是……"
+ },
+ {
+  "seg": 277,
+  "start": 2003.321,
+  "end": 2011.488,
+  "speaker": "Unknown",
+  "en": "Many of them, the tokenizer and the detokenizer are doing relatively compute-intensive work relative to most of what happens maybe in a web server.",
+  "zh": "它们之中很多，比如 tokenizer 和 detokenizer，相对于网页服务器中可能发生的大部分工作来说，做的是相对计算密集的工作。"
+ },
+ {
+  "seg": 278,
+  "start": 2012.249,
+  "end": 2018.434,
+  "speaker": "Unknown",
+  "en": "The model runner is interfacing with the GPU or accelerator.",
+  "zh": "model runner 是与 GPU 或加速器交互的。"
+ },
+ {
+  "seg": 279,
+  "start": 2018.534,
+  "end": 2025.861,
+  "speaker": "Unknown",
+  "en": "It interacts with that in a way that's kind of similar to the way you would interact with a NIC in a web server, which is to say you offload work onto it.",
+  "zh": "它与加速器交互的方式有点类似于你在网页服务器中与网卡交互的方式，也就是说，你把工作卸载给它。"
+ },
+ {
+  "seg": 280,
+  "start": 2027.382,
+  "end": 2029.124,
+  "speaker": "Unknown",
+  "en": "And so that one...",
+  "zh": "所以那一个……"
+ },
+ {
+  "seg": 281,
+  "start": 2030.084,
+  "end": 2048.87,
+  "speaker": "Unknown",
+  "en": "You're giving it its own event loop, maybe in theory that could be part of a broader event loop, but it's certainly cleaner to have these separate threads of control and optimize their latencies, and there's not sufficient inter-process communication to require them to, say, live in the same thread.",
+  "zh": "你给它自己独立的事件循环，理论上它可以是一个更大事件循环的一部分，但让这些独立的控制线程各自优化延迟肯定更干净，而且进程间通信不足以要求它们，比如说，必须活在同一个线程里。"
+ },
+ {
+  "seg": 282,
+  "start": 2049.99,
+  "end": 2053.434,
+  "speaker": "Unknown",
+  "en": "But why not threads for each of these instead of processes?",
+  "zh": "但为什么不用线程而用进程来处理每一个组件呢？"
+ },
+ {
+  "seg": 283,
+  "start": 2054.735,
+  "end": 2058.959,
+  "speaker": "Unknown",
+  "en": "And one of the fundamental reasons is that Python is single-threaded per process.",
+  "zh": "一个根本原因是 Python 每个进程是单线程的。"
+ },
+ {
+  "seg": 284,
+  "start": 2058.979,
+  "end": 2060.74,
+  "speaker": "Unknown",
+  "en": "This has recently started to change.",
+  "zh": "这种情况最近开始改变。"
+ },
+ {
+  "seg": 285,
+  "start": 2060.78,
+  "end": 2064.324,
+  "speaker": "Unknown",
+  "en": "There's still a lot of work for compatibility and performance to be done there.",
+  "zh": "所以在加速器上用 Python 跑代码很容易。"
+ },
+ {
+  "seg": 286,
+  "start": 2066.826,
+  "end": 2071.89,
+  "speaker": "Unknown",
+  "en": "Because Python has a global interpreter lock for all the threads in the same process, you would frequently block on that.",
+  "zh": "因为 Python 对同一进程中的所有线程有一个全局解释器锁，你会经常阻塞在那个锁上。"
+ },
+ {
+  "seg": 287,
+  "start": 2072.591,
+  "end": 2075.294,
+  "speaker": "Unknown",
+  "en": "So that is another reason to sort of split these up.",
+  "zh": "所以这是把这些拆开的另一个原因。"
+ },
+ {
+  "seg": 288,
+  "start": 2076.214,
+  "end": 2081.939,
+  "speaker": "Unknown",
+  "en": "But that just begs the question, or I guess begets the question, why Python?",
+  "zh": "但这又引出了一个问题，或者说是引出了这个问题：为什么用 Python？"
+ },
+ {
+  "seg": 289,
+  "start": 2083.2,
+  "end": 2086.643,
+  "speaker": "Unknown",
+  "en": "And the answer is Python has excellent model or GPU support.",
+  "zh": "答案是 Python 有出色的模型或 GPU 支持。"
+ },
+ {
+  "seg": 290,
+  "start": 2087.464,
+  "end": 2090.666,
+  "speaker": "Unknown",
+  "en": "So it's like easy to run code on accelerators with Python.",
+  "zh": "所以它让用 Python 在加速器上运行代码变得很容易。"
+ },
+ {
+  "seg": 291,
+  "start": 2090.686,
+  "end": 2095.33,
+  "speaker": "Unknown",
+  "en": "So specifically for that model forward pass component.",
+  "zh": "特别是针对模型前向传递这个组件。"
+ },
+ {
+  "seg": 292,
+  "start": 2096.832,
+  "end": 2099.655,
+  "speaker": "Unknown",
+  "en": "And so, wait, why does Python have excellent support here?",
+  "zh": "那么，等等，为什么 Python 在这里有出色的支持？"
+ },
+ {
+  "seg": 293,
+  "start": 2099.735,
+  "end": 2110.569,
+  "speaker": "Unknown",
+  "en": "Partly it's that it's a great language for researchers, because it's ease of use, and these models are still coming out of a sort of research-y, data science-y environment, but there's a deeper reason, which is that Python has really,",
+  "zh": "部分原因是它对研究人员来说是一门很好的语言，因为它易于使用，而这些模型仍然是诞生于一种偏研究、偏数据科学的环境中，但还有一个更深层次的原因，那就是 Python 确实……"
+ },
+ {
+  "seg": 294,
+  "start": 2111.73,
+  "end": 2128.855,
+  "speaker": "Unknown",
+  "en": "Kept like really deep C and C++ interop as one of its core design principles and that allows for like much easier communication with these accelerators and with like accelerated code in general than like maybe equally ergonomic language like JavaScript.",
+  "zh": "一直把非常深的 C 和 C++ 互操作作为其核心设计原则之一，这使得与这些加速器以及加速代码的通信比比如像 JavaScript 这样也许同样符合人体工程学的语言容易得多。"
+ },
+ {
+  "seg": 295,
+  "start": 2130.175,
+  "end": 2132.557,
+  "speaker": "Unknown",
+  "en": "But why not rewrite it in Rust?",
+  "zh": "但为什么不用 Rust 重写呢？"
+ },
+ {
+  "seg": 296,
+  "start": 2133.338,
+  "end": 2137.54,
+  "speaker": "Unknown",
+  "en": "The model worker processes, again, they're just trying to tell the GPU what to do.",
+  "zh": "model worker 进程再说一遍，它们只是试图告诉 GPU 该做什么。"
+ },
+ {
+  "seg": 297,
+  "start": 2139.702,
+  "end": 2148.648,
+  "speaker": "Unknown",
+  "en": "The code on the GPU is written in a compiled language and it's carefully optimized to within an inch of its life, but the model worker processes are just organizing that.",
+  "zh": "GPU 上的代码是用编译型语言写的，并且被精心优化到了极致，但 model worker 进程只是组织这些工作。"
+ },
+ {
+  "seg": 298,
+  "start": 2148.828,
+  "end": 2158.954,
+  "speaker": "Unknown",
+  "en": "And there's a few tricks like CUDA graphs that really just pull all the work out of the worker processes and into sort of fast stuff running on the GPU.",
+  "zh": "而且有一些技巧，比如 CUDA graphs，它们真的把所有工作从 worker 进程中抽出来，放到 GPU 上运行的快速东西里。"
+ },
+ {
+  "seg": 299,
+  "start": 2159.234,
+  "end": 2170.761,
+  "speaker": "Unknown",
+  "en": "But the scheduler, on the other hand, so the scheduler just needs to stay faster than that work, but as GPUs get faster and as the amount of work on the GPU goes down, the pressure on the scheduler component goes up.",
+  "zh": "但调度器（scheduler）就不同了，调度器只需要比那个工作快，但随着 GPU 变得越来越快，GPU 上的工作量下降，调度器组件上的压力就会上升。"
+ },
+ {
+  "seg": 300,
+  "start": 2171.441,
+  "end": 2177.625,
+  "speaker": "Unknown",
+  "en": "So this is actually like a pretty good target for a rewrite it in Rust type moment because this part is host side.",
+  "zh": "所以这其实是一个相当适合「用 Rust 重写」的场景，因为这部分是宿主机侧的。"
+ },
+ {
+  "seg": 301,
+  "start": 2177.945,
+  "end": 2183.329,
+  "speaker": "Unknown",
+  "en": "It has to manipulate a small number of GPU resources but it doesn't necessarily have to know stuff about models and PyTorch.",
+  "zh": "它只需要操作少量的 GPU 资源，但不一定需要了解模型和 PyTorch 方面的东西。"
+ },
+ {
+  "seg": 302,
+  "start": 2184.469,
+  "end": 2186.391,
+  "speaker": "Unknown",
+  "en": "And so it's like a thinner rewrite.",
+  "zh": "所以这是一个比较轻量的重写。"
+ },
+ {
+  "seg": 303,
+  "start": 2186.471,
+  "end": 2192.534,
+  "speaker": "Unknown",
+  "en": "It's like specific per engine and host side only.",
+  "zh": "它是针对每个引擎特定的，而且只在宿主机侧。"
+ },
+ {
+  "seg": 304,
+  "start": 2192.714,
+  "end": 2197.097,
+  "speaker": "Unknown",
+  "en": "So like in the sort of arc of future inference engines, I'd expect it to be a big target.",
+  "zh": "所以在未来推理引擎的发展轨迹中，我预计它会是一个重要的重写目标。"
+ },
+ {
+  "seg": 305,
+  "start": 2198.558,
+  "end": 2202.759,
+  "speaker": "Unknown",
+  "en": "Making that faster now that the sort of iterative development speed is slowing down a bit.",
+  "zh": "尤其是现在迭代开发的速度稍微放缓了一些，把它变得更快就更有价值。"
+ },
+ {
+  "seg": 306,
+  "start": 2205.1,
+  "end": 2211.061,
+  "speaker": "Unknown",
+  "en": "Okay, so now let's look inside of what is going on inside of these components.",
+  "zh": "好，现在让我们看看这些组件内部到底在发生什么。"
+ },
+ {
+  "seg": 307,
+  "start": 2213.422,
+  "end": 2217.703,
+  "speaker": "Unknown",
+  "en": "Mostly focused on the model forward pass piece.",
+  "zh": "主要聚焦在模型前向传递这部分。"
+ },
+ {
+  "seg": 308,
+  "start": 2218.063,
+  "end": 2220.383,
+  "speaker": "Unknown",
+  "en": "So at the very, we're going sort of like inside out.",
+  "zh": "我们要从外到内地讲。"
+ },
+ {
+  "seg": 309,
+  "start": 2220.683,
+  "end": 2226.645,
+  "speaker": "Unknown",
+  "en": "So at the very bottom, there are kernels that run operations as part of the model architecture in general.",
+  "zh": "在最底层，有一些内核，作为模型架构的一部分运行各种操作。"
+ },
+ {
+  "seg": 310,
+  "start": 2227.645,
+  "end": 2235.248,
+  "speaker": "Unknown",
+  "en": "These are mostly deferred by the engine, which is to say the engine doesn't implement all of the kernels for every operation it needs to support.",
+  "zh": "这些大多由引擎间接调用，也就是说，引擎并不会为它需要支持的每一个操作都实现所有的内核。"
+ },
+ {
+  "seg": 311,
+  "start": 2236.028,
+  "end": 2242.25,
+  "speaker": "Unknown",
+  "en": "It has backends that implement these kernels, and it consumes them from external libraries of kernels.",
+  "zh": "它有实现这些内核的后端，并从外部的内核库中调用它们。"
+ },
+ {
+  "seg": 312,
+  "start": 2242.63,
+  "end": 2248.652,
+  "speaker": "Unknown",
+  "en": "This is one reason why there isn't much differentiation between the engines on sort of raw GPU performance.",
+  "zh": "这是引擎之间在原始 GPU 性能上没有太多差异的原因之一。"
+ },
+ {
+  "seg": 313,
+  "start": 2249.252,
+  "end": 2251.793,
+  "speaker": "Unknown",
+  "en": "It's mostly about how good are you at getting out of the way of the GPU.",
+  "zh": "关键主要在于你有多擅长不去妨碍 GPU。"
+ },
+ {
+  "seg": 314,
+  "start": 2252.754,
+  "end": 2270.251,
+  "speaker": "Unknown",
+  "en": "There are a few special kernels per engine, like tree attention for tree-based speculators in SGLang, and so there's little bits where an engine will have a specific kernel, but if it's useful, if it's popular, it ends up in some kernel libraries that can be used in lots of places, and then they consume it from an external library.",
+  "zh": "每个引擎有一些特殊的内核，比如 SGLang 中用于基于树的投机采样器的树注意力，所以引擎会有一些特定的内核，但如果它有用、受欢迎，最终会进入一些内核库，可以在很多地方使用，然后引擎再从外部库调用它。"
+ },
+ {
+  "seg": 315,
+  "start": 2272.353,
+  "end": 2282.179,
+  "speaker": "Unknown",
+  "en": "Then the kernels are selected by the sort of model forward passcode that does control flow and sort of like selection of which kernels to operate.",
+  "zh": "然后内核由模型前向传递代码来选择，这部分代码负责控制流以及选择运行哪些内核。"
+ },
+ {
+  "seg": 316,
+  "start": 2282.939,
+  "end": 2288.002,
+  "speaker": "Unknown",
+  "en": "And this is implemented in each engine in general and it's implemented per model.",
+  "zh": "这通常在每个引擎中各自实现，而且是按模型实现的。"
+ },
+ {
+  "seg": 317,
+  "start": 2288.122,
+  "end": 2292.545,
+  "speaker": "Unknown",
+  "en": "Like if you want to add support for a new model architecture, this needs to be implemented in each engine.",
+  "zh": "比如，如果你想添加对新模型架构的支持，这需要在每个引擎中实现。"
+ },
+ {
+  "seg": 318,
+  "start": 2293.365,
+  "end": 2303.427,
+  "speaker": "Unknown",
+  "en": "There's generally a reference implementation that comes from a library like Transformers, but that is insufficiently optimized, the setup there.",
+  "zh": "通常有一个来自 Transformers 这类库的参考实现，但那个版本优化得不够充分。"
+ },
+ {
+  "seg": 319,
+  "start": 2303.787,
+  "end": 2316.21,
+  "speaker": "Unknown",
+  "en": "So there's, I guess in SGLang and vLLM, there's now a path where you can just use that Transformers implementation, and they'll maybe do a little bit, tiny bit of surgery to see what they can automatically kernel fuse or automatically optimize or rewrite.",
+  "zh": "所以我想在 SGLang 和 vLLM 中，现在有一条路径是你可以直接使用 Transformers 的实现，他们可能会做一点点、很少量的手术，看看能自动进行哪些内核融合或自动优化或重写。"
+ },
+ {
+  "seg": 320,
+  "start": 2317.15,
+  "end": 2327.496,
+  "speaker": "Unknown",
+  "en": "But in general, for most things people want to run, you're going to go through this as handwritten as software is these days path for selecting which kernels to run.",
+  "zh": "但总体上，对于人们想运行的大多数东西，你都会走这条尽可能手写的路径(就像如今大多数软件那样)来选择运行哪些内核。"
+ },
+ {
+  "seg": 321,
+  "start": 2330.037,
+  "end": 2337.981,
+  "speaker": "Unknown",
+  "en": "Then wrapping those model forward passes is our batch construction to select the inputs to that model forward pass.",
+  "zh": "然后包裹这些模型前向传递的是我们的批次构建，用来选择模型前向传递的输入。"
+ },
+ {
+  "seg": 322,
+  "start": 2338.481,
+  "end": 2343.144,
+  "speaker": "Unknown",
+  "en": "This is kind of one of the primary sources of special sauce per engine.",
+  "zh": "这可以说是每个引擎特有秘方的主要来源之一。"
+ },
+ {
+  "seg": 323,
+  "start": 2343.164,
+  "end": 2345.225,
+  "speaker": "Unknown",
+  "en": "You need to set up this sort of like",
+  "zh": "你需要搭建这种类似"
+ },
+ {
+  "seg": 324,
+  "start": 2346.145,
+  "end": 2356.808,
+  "speaker": "Unknown",
+  "en": "So you might want to be able to, for example, not operate separate pre-fill and decode queues, but operate one sort of queue where you can mix pre-fill and decodes together.",
+  "zh": "比如，你可能不想分别运行独立的预填充和解码队列，而是运行一个可以把预填充和解码混在一起的队列。"
+ },
+ {
+  "seg": 325,
+  "start": 2357.748,
+  "end": 2359.629,
+  "speaker": "Unknown",
+  "en": "That might have some performance implications.",
+  "zh": "这可能会带来一些性能上的影响。"
+ },
+ {
+  "seg": 326,
+  "start": 2359.689,
+  "end": 2365.29,
+  "speaker": "Unknown",
+  "en": "You might also want to be able to dynamically switch whether you're running pure pre-fills, pure decodes, or mixes.",
+  "zh": "你可能还想能够动态切换是运行纯预填充、纯解码，还是混合模式。"
+ },
+ {
+  "seg": 327,
+  "start": 2366.051,
+  "end": 2366.891,
+  "speaker": "Unknown",
+  "en": "And then you want to do this.",
+  "zh": "然后你要做的就是这些。"
+ },
+ {
+  "seg": 328,
+  "start": 2367.172,
+  "end": 2370.454,
+  "speaker": "Unknown",
+  "en": "I think in the ideal operation of an inference server, there is no queuing.",
+  "zh": "我认为在一个理想运行的推理服务器中，是不存在排队的。"
+ },
+ {
+  "seg": 329,
+  "start": 2371.295,
+  "end": 2379.362,
+  "speaker": "Unknown",
+  "en": "So as somebody who operates these things, I treat queuing as a problem, but the engine should be able to kind of do it.",
+  "zh": "所以作为一个运维这些东西的人，我把排队视为一个问题，但引擎应该能够自己处理好它。"
+ },
+ {
+  "seg": 330,
+  "start": 2379.623,
+  "end": 2387.129,
+  "speaker": "Unknown",
+  "en": "Or maybe it's too extreme to say that queuing is a problem, but you don't want this to be a growing queue.",
+  "zh": "或者说排队是个问题可能太极端了，但你不希望这个队列不断增长。"
+ },
+ {
+  "seg": 331,
+  "start": 2388.07,
+  "end": 2389.832,
+  "speaker": "Unknown",
+  "en": "You want it to be flushed as quickly as possible.",
+  "zh": "你希望它尽可能快地被清空。"
+ },
+ {
+  "seg": 332,
+  "start": 2390.953,
+  "end": 2394.736,
+  "speaker": "Unknown",
+  "en": "And then lastly, wrapping that, you have detokenization and tokenization.",
+  "zh": "最后，再往外包裹的是反分词和分词。"
+ },
+ {
+  "seg": 333,
+  "start": 2395.356,
+  "end": 2397.678,
+  "speaker": "Unknown",
+  "en": "This is mostly boring, I'll say.",
+  "zh": "这部分我觉得大多挺无聊的。"
+ },
+ {
+  "seg": 334,
+  "start": 2398.099,
+  "end": 2401.822,
+  "speaker": "Unknown",
+  "en": "It's solved in the existing tokenization libraries outside of the engine.",
+  "zh": "它已经在引擎之外的现有分词库中解决了。"
+ },
+ {
+  "seg": 335,
+  "start": 2402.222,
+  "end": 2405.445,
+  "speaker": "Unknown",
+  "en": "I think the exception to this being multimodal inputs and outputs.",
+  "zh": "我认为例外是多模态的输入和输出。"
+ },
+ {
+  "seg": 336,
+  "start": 2406.366,
+  "end": 2409.929,
+  "speaker": "Unknown",
+  "en": "We now have pretty good open weights multimodal input models.",
+  "zh": "我们现在已经有相当不错的开源权重多模态输入模型。"
+ },
+ {
+  "seg": 337,
+  "start": 2410.91,
+  "end": 2416.895,
+  "speaker": "Unknown",
+  "en": "And if you take a look at some traces, you'll see that there's still many opportunities for optimization on this path.",
+  "zh": "如果你去看一些追踪记录，你会发现这条路径上仍有很多优化机会。"
+ },
+ {
+  "seg": 338,
+  "start": 2418.545,
+  "end": 2429.455,
+  "speaker": "Unknown",
+  "en": "Tokenization of an image is just a harder problem than tokenization of a string of Unicode bytes conditioned on already having a tokenizer.",
+  "zh": "在已经有分词器的前提下，对一张图像做分词比对一串 Unicode 字节做分词要难。"
+ },
+ {
+  "seg": 339,
+  "start": 2429.675,
+  "end": 2431.017,
+  "speaker": "Unknown",
+  "en": "There's more work to be done.",
+  "zh": "还有更多工作要做。"
+ },
+ {
+  "seg": 340,
+  "start": 2431.777,
+  "end": 2437.883,
+  "speaker": "Unknown",
+  "en": "You might need FFmpeg, for instance, to pull out raw frames to go in to something that turns it into a tensor.",
+  "zh": "比如，你可能需要 FFmpeg 来抽取出原始帧，再送入某个把它转换成张量的东西。"
+ },
+ {
+  "seg": 341,
+  "start": 2439.124,
+  "end": 2441.787,
+  "speaker": "Unknown",
+  "en": "And so, yeah, so that is maybe the most interesting part there.",
+  "zh": "所以，是的，这可能是其中最有趣的部分。"
+ },
+ {
+  "seg": 342,
+  "start": 2444.445,
+  "end": 2460.7,
+  "speaker": "Unknown",
+  "en": "The one way to sort of conceptualize the structure around the model forward codes is that the model forward code is like going to call into a couple of different types of libraries or directly sort of write its own code to run on the GPU.",
+  "zh": "一种理解模型前向传递代码周围结构的方式是：模型前向传递代码会调用几种不同类型的库，或者直接自己编写代码来在 GPU 上运行。"
+ },
+ {
+  "seg": 343,
+  "start": 2461.54,
+  "end": 2467.966,
+  "speaker": "Unknown",
+  "en": "So a lot of it goes through PyTorch code which has its own kernel libraries and can run things on the GPU.",
+  "zh": "其中很多通过 PyTorch 代码进行，PyTorch 有自己的内核库，可以在 GPU 上运行东西。"
+ },
+ {
+  "seg": 344,
+  "start": 2469.327,
+  "end": 2480.595,
+  "speaker": "Unknown",
+  "en": "Then there are specific kernel libraries that you would draw from that aren't in the engine, and then finally the engine has its own set of kernels that can directly run code on the GPU.",
+  "zh": "然后还有一些你可以调用的、不在引擎内的特定内核库，最后引擎还有自己的一组内核，可以直接在 GPU 上运行代码。"
+ },
+ {
+  "seg": 345,
+  "start": 2482.724,
+  "end": 2495.336,
+  "speaker": "Unknown",
+  "en": "So picking that apart a little bit, the kernels that exist in their back ends, the core of language modeling architectures these days looks something like this.",
+  "zh": "把这一点稍微拆开来看，存在于这些后端中的内核，如今语言建模架构的核心大致是这样的。"
+ },
+ {
+  "seg": 346,
+  "start": 2495.837,
+  "end": 2498.479,
+  "speaker": "Unknown",
+  "en": "There's a sequence of layers that...",
+  "zh": "有一系列层……"
+ },
+ {
+  "seg": 347,
+  "start": 2499.16,
+  "end": 2512.272,
+  "speaker": "Unknown",
+  "en": "You take an input, you pass it, do some cross-token computation on the sequence, then you do some per-token computation to enrich the sequence, and then you merge that back in with your representation, and you iterate this layer after layer.",
+  "zh": "你接收一个输入，传递它，在序列上做一些跨 token 的计算，然后做一些逐 token 的计算来丰富这个序列，然后把它合并回你的表示中，然后一层接一层地迭代这个过程。"
+ },
+ {
+  "seg": 348,
+  "start": 2513.353,
+  "end": 2521.88,
+  "speaker": "Unknown",
+  "en": "And so this splits nicely into the two kind of classes of really critical, fast kernels that are available, especially via the backends.",
+  "zh": "所以这很好地分成了两类真正关键的高速内核，尤其是通过后端提供的那些。"
+ },
+ {
+  "seg": 349,
+  "start": 2523.021,
+  "end": 2526.564,
+  "speaker": "Unknown",
+  "en": "So the cross-token computation is your attention or linear attention.",
+  "zh": "跨 token 计算就是你的注意力或线性注意力。"
+ },
+ {
+  "seg": 350,
+  "start": 2527.464,
+  "end": 2529.766,
+  "speaker": "Unknown",
+  "en": "There's a bunch of different backends for attention.",
+  "zh": "注意力有很多不同的后端。"
+ },
+ {
+  "seg": 351,
+  "start": 2530.026,
+  "end": 2533.689,
+  "speaker": "Unknown",
+  "en": "The flash attention kernels from TreeDao and Jay Shah and others.",
+  "zh": "来自 TreeDao 和 Jay Shah 等人的 flash attention 内核。"
+ },
+ {
+  "seg": 352,
+  "start": 2534.349,
+  "end": 2535.95,
+  "speaker": "Unknown",
+  "en": "Flash and Fur from NVIDIA.",
+  "zh": "NVIDIA 的 Flash 和 Fur。"
+ },
+ {
+  "seg": 353,
+  "start": 2536.551,
+  "end": 2538.292,
+  "speaker": "Unknown",
+  "en": "Cutlass also from NVIDIA.",
+  "zh": "Cutlass,也是 NVIDIA 的。"
+ },
+ {
+  "seg": 354,
+  "start": 2539.653,
+  "end": 2544.738,
+  "speaker": "Unknown",
+  "en": "Triton implementations of these kernels, that's OpenAI's kernel authoring library.",
+  "zh": "这些内核的 Triton 实现，那是 OpenAI 的内核编写库。"
+ },
+ {
+  "seg": 355,
+  "start": 2545.88,
+  "end": 2554.108,
+  "speaker": "Unknown",
+  "en": "The TRTLM, the engine, has also split out its kernels and they're available as backends for attention.",
+  "zh": "TRTLM,也就是那个引擎，也把它的内核拆分出来了，它们可以作为注意力的后端使用。"
+ },
+ {
+  "seg": 356,
+  "start": 2554.889,
+  "end": 2568.057,
+  "speaker": "Unknown",
+  "en": "You'll see many of the same names that show up as attention backends also show up as backends for your matrix multiplications inside of your per-token computation, which is your MLP layer.",
+  "zh": "你会看到许多相同的名字，既作为注意力后端出现，也作为逐 token 计算中矩阵乘法的后端出现，也就是你的 MLP 层。"
+ },
+ {
+  "seg": 357,
+  "start": 2568.117,
+  "end": 2570.779,
+  "speaker": "Unknown",
+  "en": "It's where the biggest gems are.",
+  "zh": "那是最大的算力密集之处。"
+ },
+ {
+  "seg": 358,
+  "start": 2571.659,
+  "end": 2576.322,
+  "speaker": "Unknown",
+  "en": "It's also, in some architectures, this is a dense MLP, a classic neural network.",
+  "zh": "在某些架构里，这是一个稠密 MLP,一个经典神经网络。"
+ },
+ {
+  "seg": 359,
+  "start": 2576.622,
+  "end": 2580.345,
+  "speaker": "Unknown",
+  "en": "In other architectures, it's these sparse mixture of experts, which basically just says",
+  "zh": "在另一些架构里，它是稀疏专家混合，这基本上就是说"
+ },
+ {
+  "seg": 360,
+  "start": 2580.965,
+  "end": 2583.166,
+  "speaker": "Unknown",
+  "en": "Don't send every token to the same neural network.",
+  "zh": "不要把每个 token 都发给同一个神经网络。"
+ },
+ {
+  "seg": 361,
+  "start": 2583.686,
+  "end": 2586.507,
+  "speaker": "Unknown",
+  "en": "Per token decide which smaller neural network to send it to.",
+  "zh": "按 token 决定把它发给哪个更小的神经网络。"
+ },
+ {
+  "seg": 362,
+  "start": 2587.348,
+  "end": 2598.653,
+  "speaker": "Unknown",
+  "en": "So the dense MOPs, there's a nice library for this from DeepSeq, DeepGem, that gets used a lot in SGLang as kind of like the default.",
+  "zh": "至于稠密 MOPs,DeepSeq 有一个很好的库，DeepGem,它在 SGLang 里被大量用作某种默认选项。"
+ },
+ {
+  "seg": 363,
+  "start": 2599.593,
+  "end": 2607.556,
+  "speaker": "Unknown",
+  "en": "In VLLM, there's some quantization-focused backends for this, the Marlin and Bits and Bytes backends for the,",
+  "zh": "在 VLLM 里，有一些专注于量化的后端，Marlin 和 Bits and Bytes 后端，用于"
+ },
+ {
+  "seg": 364,
+  "start": 2608.777,
+  "end": 2619.102,
+  "speaker": "Unknown",
+  "en": "Group, Gem, you can split this out into first, we have this routing or communication problem of where do tokens go and how do I bring stuff together at the end?",
+  "zh": "Group、Gem,你可以把它拆分为：首先，我们有这个路由或通信问题，token 该去哪里，以及最后怎么把东西汇总起来？"
+ },
+ {
+  "seg": 365,
+  "start": 2619.822,
+  "end": 2627.726,
+  "speaker": "Unknown",
+  "en": "So that can be done with a separate set of kernels for this all-to-all communication and routing, like another one for DeepSeq, DPP.",
+  "zh": "这可以用一组单独的内核来做这种 all-to-all 通信和路由，比如 DeepSeq 的另一个库，DPP。"
+ },
+ {
+  "seg": 366,
+  "start": 2629.867,
+  "end": 2635.293,
+  "speaker": "Unknown",
+  "en": "And that can be sort of factored out from the matrix multiplication step.",
+  "zh": "而这可以从矩阵乘法步骤中某种程度地分解出来。"
+ },
+ {
+  "seg": 367,
+  "start": 2635.353,
+  "end": 2645.883,
+  "speaker": "Unknown",
+  "en": "That can have performance penalties, and so you can also do that as one big kernel, a megakernel, which is what is done in the DeepSeq v4 architecture.",
+  "zh": "那样会有性能损失，所以你也可以把它做成一个大内核，一个 megakernel,这正是 DeepSeq v4 架构所采用的方式。"
+ },
+ {
+  "seg": 368,
+  "start": 2650.203,
+  "end": 2654.144,
+  "speaker": "Unknown",
+  "en": "With VLLM and SGLang, these are things that you can sort of set and control.",
+  "zh": "在 VLLM 和 SGLang 里，这些是你可以进行某种设置和控制的东西。"
+ },
+ {
+  "seg": 369,
+  "start": 2654.444,
+  "end": 2660.906,
+  "speaker": "Unknown",
+  "en": "In SGLang, it's kind of pushed up into your face in the form of configuration at start with smart defaults.",
+  "zh": "在 SGLang 里，它以启动时配置的形式被推到你脸上，同时带有智能默认值。"
+ },
+ {
+  "seg": 370,
+  "start": 2661.326,
+  "end": 2671.888,
+  "speaker": "Unknown",
+  "en": "VLLM is a lot more focused on the smart defaults side, and then you sort of patch, change things more with environment variables.",
+  "zh": "VLLM 更专注于智能默认值这一侧，然后你更多是通过环境变量来修补、更改东西。"
+ },
+ {
+  "seg": 371,
+  "start": 2672.328,
+  "end": 2676.669,
+  "speaker": "Unknown",
+  "en": "At least last I checked, these things change every few days, but yes.",
+  "zh": "至少在我上次查看时是这样，这些东西每隔几天就会变，但没错。"
+ },
+ {
+  "seg": 372,
+  "start": 2677.695,
+  "end": 2677.975,
+  "speaker": "Unknown",
+  "en": "Question.",
+  "zh": "提问。"
+ },
+ {
+  "seg": 373,
+  "start": 2678.796,
+  "end": 2683.438,
+  "speaker": "Unknown",
+  "en": "Can you talk a bit about what happens when there are, like, thousands and millions of requests?",
+  "zh": "你能谈谈当有成千上万乃至上百万个请求时会发生什么吗？"
+ },
+ {
+  "seg": 374,
+  "start": 2683.818,
+  "end": 2687.52,
+  "speaker": "Unknown",
+  "en": "Like, who decides how much KV cash to pay for each request?",
+  "zh": "比如，谁来决定为每个请求支付多少 KV cash?"
+ },
+ {
+  "seg": 375,
+  "start": 2687.98,
+  "end": 2689.201,
+  "speaker": "Unknown",
+  "en": "And how does everything happen?",
+  "zh": "一切是如何发生的？"
+ },
+ {
+  "seg": 376,
+  "start": 2689.821,
+  "end": 2693.983,
+  "speaker": "Unknown",
+  "en": "Like, there's been instances where, like, Claude stopped working and there was a lot of requests.",
+  "zh": "比如，有过 Claude 停止工作的情况，当时有大量请求。"
+ },
+ {
+  "seg": 377,
+  "start": 2698.282,
+  "end": 2705.464,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was basically about what's happening with concurrency with really large numbers of requests.",
+  "zh": "好，这个问题基本上是关于请求数量非常大时的并发问题。"
+ },
+ {
+  "seg": 378,
+  "start": 2705.484,
+  "end": 2709.445,
+  "speaker": "Unknown",
+  "en": "So that goes back, so that's a much higher level than the kernels and backends.",
+  "zh": "那要往回说，那是比内核和后端高得多的层面。"
+ },
+ {
+  "seg": 379,
+  "start": 2710.265,
+  "end": 2713.966,
+  "speaker": "Unknown",
+  "en": "That's happening sort of at our like batch construction and scheduler level.",
+  "zh": "那发生在类似我们的批次构建和调度器层面。"
+ },
+ {
+  "seg": 380,
+  "start": 2714.366,
+  "end": 2727.489,
+  "speaker": "Unknown",
+  "en": "So basically the scheduler is gonna do the best that it can to decide like which requests to run and generally emphasizing requests that already have KV cache allocated to them, because then you don't need to recompute.",
+  "zh": "所以基本上调度器会尽力决定运行哪些请求，通常会优先考虑已经分配了 KV cache 的请求，因为那样你就不需要重新计算。"
+ },
+ {
+  "seg": 381,
+  "start": 2730.411,
+  "end": 2740.098,
+  "speaker": "Unknown",
+  "en": "If you need to evict something from the cache to make space for another request, yeah, that will generally get put out to CPU memory and then disk.",
+  "zh": "如果你需要从缓存中逐出某些东西来为另一个请求腾出空间，那通常会被放到 CPU 内存，然后是磁盘。"
+ },
+ {
+  "seg": 382,
+  "start": 2741.038,
+  "end": 2742.599,
+  "speaker": "Unknown",
+  "en": "And I would say...",
+  "zh": "而我想说……"
+ },
+ {
+  "seg": 383,
+  "start": 2743.54,
+  "end": 2756.382,
+  "speaker": "Unknown",
+  "en": "Yeah, to my point earlier about queuing, I think of that as essentially like a failure state of the engine that we, like I've deployed my engine improperly if I get to the case where I have KV cache thrashing or like things being flushed to disk.",
+  "zh": "是的，回到我之前关于排队的观点，我把那本质上视为引擎的一种失败状态，如果我到了出现 KV cache 抖动或者东西被刷到磁盘的地步，那说明我把引擎部署得不对。"
+ },
+ {
+  "seg": 384,
+  "start": 2756.402,
+  "end": 2764.564,
+  "speaker": "Unknown",
+  "en": "In the same way that there's like swap memory in your operating system, like you can swap memory to disk, but at that point your MacBook becomes unusable, right?",
+  "zh": "就像你的操作系统里有交换内存一样，你可以把内存换出到磁盘，但到了那一步你的 MacBook 就没法用了，对吧？"
+ },
+ {
+  "seg": 385,
+  "start": 2764.684,
+  "end": 2771.885,
+  "speaker": "Unknown",
+  "en": "So it's a useful feature to have, but almost like so that you don't go hard down when you have a serving problem.",
+  "zh": "所以这是一个有用的特性，但几乎是为了在你遇到服务问题时不会直接硬性宕机。"
+ },
+ {
+  "seg": 386,
+  "start": 2772.525,
+  "end": 2772.905,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 387,
+  "start": 2772.925,
+  "end": 2776.409,
+  "speaker": "Unknown",
+  "en": "I have a follow-up question.",
+  "zh": "我有一个后续问题。"
+ },
+ {
+  "seg": 388,
+  "start": 2776.689,
+  "end": 2781.913,
+  "speaker": "Unknown",
+  "en": "How does serverless inference engine use with whole-star problem?",
+  "zh": "无服务器推理引擎如何应对 whole-star 问题？"
+ },
+ {
+  "seg": 389,
+  "start": 2781.953,
+  "end": 2785.717,
+  "speaker": "Unknown",
+  "en": "Like, for example, how is the model compared to, like, AWS",
+  "zh": "比如，这个模型和 AWS 比起来怎么样"
+ },
+ {
+  "seg": 390,
+  "start": 2789.028,
+  "end": 2791.949,
+  "speaker": "Unknown",
+  "en": "Yeah, so the question was about serverless deployments and cold starts.",
+  "zh": "好，这个问题是关于无服务器部署和冷启动的。"
+ },
+ {
+  "seg": 391,
+  "start": 2792.009,
+  "end": 2798.091,
+  "speaker": "Unknown",
+  "en": "I'm not gonna talk about that this much because I promised SWIX I wouldn't do a vendor talk, but please talk to me afterwards.",
+  "zh": "这方面我不会讲太多，因为我答应过 SWIX 不做厂商宣讲，但请之后来找我聊。"
+ },
+ {
+  "seg": 392,
+  "start": 2798.151,
+  "end": 2802.632,
+  "speaker": "Unknown",
+  "en": "There's a blog post called Truly Serverless GPUs that talks about how we solve that problem.",
+  "zh": "有一篇叫 Truly Serverless GPUs 的博客文章，讲了我们如何解决这个问题。"
+ },
+ {
+  "seg": 393,
+  "start": 2803.132,
+  "end": 2807.853,
+  "speaker": "Unknown",
+  "en": "Memory snapshotting, GPU memory snapshotting, custom file system, a bunch of pieces to make the cold starts faster.",
+  "zh": "内存快照、GPU 内存快照、自定义文件系统，一系列让冷启动更快的手段。"
+ },
+ {
+  "seg": 394,
+  "start": 2809.174,
+  "end": 2809.354,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 395,
+  "start": 2812.624,
+  "end": 2823.154,
+  "speaker": "Unknown",
+  "en": "All right, so let's talk about some of the key techniques that you need to implement inside an inference engine to make sure your performance is good.",
+  "zh": "好，那我们来谈谈你需要在推理引擎内部实现的一些关键技术，以确保你的性能是好的。"
+ },
+ {
+  "seg": 396,
+  "start": 2824.015,
+  "end": 2831.922,
+  "speaker": "Unknown",
+  "en": "So attention is fundamentally quadratic, at least the load-bearing part of the attention in every architecture that's popular, and",
+  "zh": "注意力在根本上是二次方的，至少在所有流行架构中注意力的承重部分是这样，而且"
+ },
+ {
+  "seg": 397,
+  "start": 2835.465,
+  "end": 2845.592,
+  "speaker": "Unknown",
+  "en": "So the solution to that is to store things after you've computed them and you do like a little space-time trade-off for linear computational complexity in exchange for linear storage.",
+  "zh": "所以解决方案是把计算过的东西存起来，做一个小的空间换时间的权衡，用线性存储换取线性计算复杂度。"
+ },
+ {
+  "seg": 398,
+  "start": 2846.712,
+  "end": 2856.719,
+  "speaker": "Unknown",
+  "en": "That runs into problems with how much can you store in GPU memory because it's actually often slower to store this somewhere else and then load it back in as opposed to recomputing it.",
+  "zh": "这会遇到 GPU 内存能存多少的问题，因为把这些东西存到别处再加载回来，往往实际上比重新计算更慢。"
+ },
+ {
+  "seg": 399,
+  "start": 2856.919,
+  "end": 2857.7,
+  "speaker": "Unknown",
+  "en": "GPUs are fast.",
+  "zh": "GPU 很快。"
+ },
+ {
+  "seg": 400,
+  "start": 2859.181,
+  "end": 2861.923,
+  "speaker": "Unknown",
+  "en": "So you want to be efficient with your use of GPU memory.",
+  "zh": "所以你会想高效地使用 GPU 显存。"
+ },
+ {
+  "seg": 401,
+  "start": 2863.024,
+  "end": 2866.467,
+  "speaker": "Unknown",
+  "en": "And then you often have requests that share prefixes.",
+  "zh": "而且你经常会有共享前缀的请求。"
+ },
+ {
+  "seg": 402,
+  "start": 2866.567,
+  "end": 2871.091,
+  "speaker": "Unknown",
+  "en": "So for example, like all these commandments start with thou shalt not.",
+  "zh": "比如说，所有这些戒律都以 thou shalt not(你不可)开头。"
+ },
+ {
+  "seg": 403,
+  "start": 2872.052,
+  "end": 2875.314,
+  "speaker": "Unknown",
+  "en": "And so you can reuse the computation of everywhere up to here.",
+  "zh": "所以你可以复用到这里的所有计算。"
+ },
+ {
+  "seg": 404,
+  "start": 2876.355,
+  "end": 2880.559,
+  "speaker": "Unknown",
+  "en": "As soon as a single token differs, you no longer can share the prefix.",
+  "zh": "一旦有一个 token 不同，你就不能再共享前缀了。"
+ },
+ {
+  "seg": 405,
+  "start": 2880.579,
+  "end": 2882.921,
+  "speaker": "Unknown",
+  "en": "So it's kind of this like tree or tri-shaped structure.",
+  "zh": "所以它有点像这种树形或字典树(tri)形状的结构。"
+ },
+ {
+  "seg": 406,
+  "start": 2884.602,
+  "end": 2890.993,
+  "speaker": "Unknown",
+  "en": "But you want to be able to make use of that, especially if you have a giant system prompt for an agent system that's tens of thousands of tokens.",
+  "zh": "但你会想利用这一点，尤其是当你有一个为智能体系统准备的、长达数万 token 的巨型系统提示词时。"
+ },
+ {
+  "seg": 407,
+  "start": 2891.754,
+  "end": 2893.938,
+  "speaker": "Unknown",
+  "en": "It's quite nice to be able to share that across users.",
+  "zh": "能够跨用户共享它是非常好的。"
+ },
+ {
+  "seg": 408,
+  "start": 2896.389,
+  "end": 2901.532,
+  "speaker": "Unknown",
+  "en": "And so the solution to this is like KV caching with pages or radices.",
+  "zh": "所以解决方案就是带分页或基树(radices)的 KV 缓存。"
+ },
+ {
+  "seg": 409,
+  "start": 2902.173,
+  "end": 2914.26,
+  "speaker": "Unknown",
+  "en": "So you store the information in like a page cache data structure like you'd have in an operating system, and then you just need to reconstruct these tensors sort of on the fly to pass them to attention kernels.",
+  "zh": "所以你把信息存储在类似操作系统中那种页缓存的数据结构里，然后你只需要即时重构这些张量，把它们传给注意力核心(kernel)。"
+ },
+ {
+  "seg": 410,
+  "start": 2914.581,
+  "end": 2918.423,
+  "speaker": "Unknown",
+  "en": "So that job is now, it used to be the job of the engine to solve that problem.",
+  "zh": "所以这个任务，它过去是引擎的工作去解决那个问题。"
+ },
+ {
+  "seg": 411,
+  "start": 2918.723,
+  "end": 2921.445,
+  "speaker": "Unknown",
+  "en": "That's now incorporated into the attention kernels like Flash.",
+  "zh": "那现在被整合进注意力核心(kernel)里了，比如 Flash。"
+ },
+ {
+  "seg": 412,
+  "start": 2921.485,
+  "end": 2929.891,
+  "speaker": "Unknown",
+  "en": "Intention 4, something that our team worked on, the page size one and sort of like RADIX-y form of KV caching that you can see on the right.",
+  "zh": "Intention 4，我们团队参与做的，页大小那一个，以及某种类似 RADIX 形式的 KV 缓存，你可以在右边看到。"
+ },
+ {
+  "seg": 413,
+  "start": 2931.693,
+  "end": 2936.056,
+  "speaker": "Unknown",
+  "en": "And yeah, so this is moved a little bit.",
+  "zh": "是的，所以这块有一点移动了。"
+ },
+ {
+  "seg": 414,
+  "start": 2936.396,
+  "end": 2948.065,
+  "speaker": "Unknown",
+  "en": "I put this in here because it used to be like a defining feature of the engine, but now it's kind of actually part of the kernels and really it's the management of KV cache capacity and the layout of the KV cache that's the problem of the engine.",
+  "zh": "我把它放在这里，因为它过去像是引擎的一个定义性特征，但现在它其实某种程度上成了核心(kernel)的一部分，而真正成为引擎问题的是 KV 缓存容量的管理和 KV 缓存的布局。"
+ },
+ {
+  "seg": 415,
+  "start": 2950.93,
+  "end": 2973.359,
+  "speaker": "Unknown",
+  "en": "Another problem I already talked about how the scheduler can be this host-side bottleneck, which you want when you're running stuff on the GPU, like both at the sort of scheduler level and then inside of models, is that you want that just like at every moment some kernel is running on the GPU and things happen on the CPU to decide what that should run on the GPU, but they shouldn't ever block progress.",
+  "zh": "另一个问题，我已经讲过调度器可能成为主机侧的瓶颈，当你把东西跑在 GPU 上时，无论是在调度器层面还是在模型内部，你想要的都是：每一时刻都有某个核心(kernel)在 GPU 上运行，而 CPU 上发生的事情只是决定该在 GPU 上运行什么，但它们绝不应阻塞进度。"
+ },
+ {
+  "seg": 416,
+  "start": 2973.439,
+  "end": 2976.52,
+  "speaker": "Unknown",
+  "en": "But it's very easy to accidentally write some kind of host device sync.",
+  "zh": "但很容易不小心写出某种主机-设备同步(host device sync)。"
+ },
+ {
+  "seg": 417,
+  "start": 2976.82,
+  "end": 2978.381,
+  "speaker": "Unknown",
+  "en": "There does have to be information passed",
+  "zh": "确实必须有信息传递"
+ },
+ {
+  "seg": 418,
+  "start": 2978.441,
+  "end": 2982.203,
+  "speaker": "Unknown",
+  "en": "Between them, the GPU can't just send the response directly to the user.",
+  "zh": "在它们之间，GPU 不能直接把响应发送给用户。"
+ },
+ {
+  "seg": 419,
+  "start": 2982.803,
+  "end": 2986.004,
+  "speaker": "Unknown",
+  "en": "It wouldn't be that good at it if it did run an HTTP server.",
+  "zh": "如果让 GPU 跑一个 HTTP 服务器，它也不会做得那么好。"
+ },
+ {
+  "seg": 420,
+  "start": 2986.104,
+  "end": 2988.365,
+  "speaker": "Unknown",
+  "en": "And so you do need this CPU work.",
+  "zh": "所以你确实需要这些 CPU 工作。"
+ },
+ {
+  "seg": 421,
+  "start": 2988.385,
+  "end": 2989.686,
+  "speaker": "Unknown",
+  "en": "You just want to make sure it doesn't block.",
+  "zh": "你只是要确保它不阻塞。"
+ },
+ {
+  "seg": 422,
+  "start": 2991.406,
+  "end": 2994.288,
+  "speaker": "Unknown",
+  "en": "One of the key techniques for this is CUDA graph capture.",
+  "zh": "这里的一个关键技术是 CUDA 图捕获。"
+ },
+ {
+  "seg": 423,
+  "start": 2994.368,
+  "end": 3004.452,
+  "speaker": "Unknown",
+  "en": "So you take all of these kernels that get run in the forward pass of the model, and you track all of them, and you turn that into one big data structure, a DAG, of operations.",
+  "zh": "所以你把模型前向传播中运行的所有这些核心(kernel)记录下来，你跟踪所有这些核心(kernel)，把它们变成一个大的数据结构，一个操作的有向无环图(DAG)。"
+ },
+ {
+  "seg": 424,
+  "start": 3005.032,
+  "end": 3010.033,
+  "speaker": "Unknown",
+  "en": "of this kernel runs and mutates the data at this pointer.",
+  "zh": "这个核心(kernel)运行并修改这个指针处的数据。"
+ },
+ {
+  "seg": 425,
+  "start": 3010.393,
+  "end": 3017.195,
+  "speaker": "Unknown",
+  "en": "Once that is done, this kernel can now run to mutate what was present at that same pointer and mix it with data from another pointer.",
+  "zh": "一旦完成，这个核心(kernel)现在可以运行去修改同一个指针处的内容，并与来自另一个指针的数据混合。"
+ },
+ {
+  "seg": 426,
+  "start": 3017.515,
+  "end": 3025.837,
+  "speaker": "Unknown",
+  "en": "So this big DAG of operations is your CUDAGraph, and this allows you to go from launching",
+  "zh": "所以这个大的操作 DAG 就是你的 CUDAGraph，这让你能从逐个启动"
+ },
+ {
+  "seg": 427,
+  "start": 3027.057,
+  "end": 3044.946,
+  "speaker": "Unknown",
+  "en": "Each one of these GPU kernels having a little bit of CPU work to decide what to run, how to run it, which pointer to put, you turn it into just one CPU side work to decide which graph to launch, and then all of it gets launched from that single graph, which is what's depicted in this Perfetto trace.",
+  "zh": "每一个 GPU 核心(kernel)都需要一点 CPU 工作来决定运行什么、怎么运行、放哪个指针，变成只需要一次 CPU 侧的工作来决定启动哪个图，然后所有内容都从那一个图启动，这就是这张 Perfetto trace 里所描绘的。"
+ },
+ {
+  "seg": 428,
+  "start": 3045.707,
+  "end": 3052.03,
+  "speaker": "Unknown",
+  "en": "So this allows you to relax quite a bit about what is going on in the model forward pass component, at least.",
+  "zh": "所以这让你可以至少在模型前向传播这一环节上，放宽很多要求。"
+ },
+ {
+  "seg": 429,
+  "start": 3055.627,
+  "end": 3071.454,
+  "speaker": "Unknown",
+  "en": "Another problem, decode here is sequential, and every time you run it, you have to load either all of the parameters of the model or all of the active parameters in an MOE architecture, and you need to do that over and over again by default for each token.",
+  "zh": "另一个问题，这里的 decode(解码)是顺序的，每次运行时，你必须加载模型的全部参数，或者 MOE 架构中全部激活的参数，而且默认情况下对每个 token 都要一遍又一遍地这样做。"
+ },
+ {
+  "seg": 430,
+  "start": 3071.834,
+  "end": 3081.098,
+  "speaker": "Unknown",
+  "en": "So on behalf of your users, you might be loading a terabyte of data or 100 gigabytes of data per token, and you wanna produce a token every couple milliseconds.",
+  "zh": "所以代表你的用户，你可能每个 token 要加载一个太字节或 100 吉字节的数据，而你想每几毫秒产出一个 token。"
+ },
+ {
+  "seg": 431,
+  "start": 3082.078,
+  "end": 3083.319,
+  "speaker": "Unknown",
+  "en": "So now you're looking at",
+  "zh": "所以现在你面对的是"
+ },
+ {
+  "seg": 432,
+  "start": 3083.879,
+  "end": 3087.36,
+  "speaker": "Unknown",
+  "en": "That's petabyte per second scale memory bandwidth.",
+  "zh": "每秒 PB 级的内存带宽。"
+ },
+ {
+  "seg": 433,
+  "start": 3087.76,
+  "end": 3089.421,
+  "speaker": "Unknown",
+  "en": "That's pretty hard to achieve.",
+  "zh": "这是相当难达到的。"
+ },
+ {
+  "seg": 434,
+  "start": 3090.141,
+  "end": 3101.945,
+  "speaker": "Unknown",
+  "en": "So one solution, key technique for solving this is speculative decoding, where you take a separate model, the speculator guess what the next couple of tokens will be, and then pass it through the target model.",
+  "zh": "所以一个解决方案、解决这个问题的关键技术是投机解码，你用一个单独的模型，即 speculator(推测器)，去猜接下来的几个 token 会是什么，然后把它们传给目标模型。"
+ },
+ {
+  "seg": 435,
+  "start": 3102.865,
+  "end": 3105.666,
+  "speaker": "Unknown",
+  "en": "And then the target model sort of grades all of those in parallel.",
+  "zh": "然后目标模型对它们进行某种并行评分。"
+ },
+ {
+  "seg": 436,
+  "start": 3106.746,
+  "end": 3108.787,
+  "speaker": "Unknown",
+  "en": "And if you apply the right sampling techniques,",
+  "zh": "而且如果你应用正确的采样技术，"
+ },
+ {
+  "seg": 437,
+  "start": 3109.147,
+  "end": 3124.203,
+  "speaker": "Unknown",
+  "en": "Rejection sampling, then you can guarantee that the output from the target model is the same as you would have gotten if you'd run it sequentially up to numerics, the same output, but you've now run it in parallel.",
+  "zh": "拒绝采样，那么你可以保证目标模型的输出与顺序运行会得到的输出相同(数值精度上)，相同的输出，但你是并行运行的。"
+ },
+ {
+  "seg": 438,
+  "start": 3124.423,
+  "end": 3127.466,
+  "speaker": "Unknown",
+  "en": "You sort of turn your decodes into tiny prefills, which is nice.",
+  "zh": "你某种程度上把你的 decode 变成了微型的 prefill，这很棒。"
+ },
+ {
+  "seg": 439,
+  "start": 3130.908,
+  "end": 3133.708,
+  "speaker": "Unknown",
+  "en": "I'll skip over any details about the algorithm.",
+  "zh": "我会跳过算法的任何细节。"
+ },
+ {
+  "seg": 440,
+  "start": 3134.529,
+  "end": 3137.61,
+  "speaker": "Unknown",
+  "en": "We wrote a blog post about this just this past week or two.",
+  "zh": "我们就在过去一两周写了一篇关于这个的博客文章。"
+ },
+ {
+  "seg": 441,
+  "start": 3138.17,
+  "end": 3150.593,
+  "speaker": "Unknown",
+  "en": "The key reason why this is really important is that as you improve the quality of the speculator, as you improve the number of tokens it can guess in a row, you actually get basically a linear speedup in your decode throughput.",
+  "zh": "这一点非常重要的关键原因在于，随着你提升 speculator 的质量，随着你提升它能连续猜出的 token 数量，你实际上能获得基本上是线性的 decode 吞吐量提升。"
+ },
+ {
+  "seg": 442,
+  "start": 3151.053,
+  "end": 3167.122,
+  "speaker": "Unknown",
+  "en": "So many other optimizations that you can do on your inference engine are like, it's like a game of inches of a percent, five percent, 10 percent each time, and you have to do the very difficult performance engineering for each of those percentage points.",
+  "zh": "你能对推理引擎做的许多其他优化，都像是寸土必争的百分比游戏，每次百分之五、百分之十，而且你必须为每一个百分点做非常困难的性能工程。"
+ },
+ {
+  "seg": 443,
+  "start": 3168.143,
+  "end": 3173.246,
+  "speaker": "Unknown",
+  "en": "But then, on the other hand, you could sit down and train a better speculator model and",
+  "zh": "但另一方面，你可以坐下来训练一个更好的 speculator 模型，"
+ },
+ {
+  "seg": 444,
+  "start": 3175.007,
+  "end": 3186.354,
+  "speaker": "Unknown",
+  "en": "To first approximation, throw data and compute at it, and then get a 2x speedup or a 4x speedup or an 8x speedup on top of the baseline.",
+  "zh": "作为第一近似，把数据和算力砸进去，然后在基线之上获得 2 倍、4 倍或 8 倍的加速。"
+ },
+ {
+  "seg": 445,
+  "start": 3186.975,
+  "end": 3204.246,
+  "speaker": "Unknown",
+  "en": "So this has emerged as one of the key techniques to allow you to operate, say, 1,000 tokens per second on NVIDIA hardware for actually fairly large models without having to go to a novel accelerator like an LPU or Cerebris.",
+  "zh": "所以这已经成为让你能够在 NVIDIA 硬件上以每秒约 1,000 个 token 运行相当大的模型的关键技术之一，而不必去用像 LPU 或 Cerebris 这样的新型加速器。"
+ },
+ {
+  "seg": 446,
+  "start": 3207.324,
+  "end": 3212.347,
+  "speaker": "Unknown",
+  "en": "Actually, there's a lot of parallelism techniques, but in the interest of time, I'm gonna kind of skip over this one.",
+  "zh": "其实还有很多并行技术，但为了节省时间，我打算跳过这一部分。"
+ },
+ {
+  "seg": 447,
+  "start": 3213.127,
+  "end": 3215.689,
+  "speaker": "Unknown",
+  "en": "You want to be able to split work onto accelerators.",
+  "zh": "你会想把工作拆分到加速器上。"
+ },
+ {
+  "seg": 448,
+  "start": 3217.209,
+  "end": 3218.85,
+  "speaker": "Unknown",
+  "en": "A lot of this comes from the underlying kernels.",
+  "zh": "这很大程度上来自底层核心(kernel)。"
+ },
+ {
+  "seg": 449,
+  "start": 3218.87,
+  "end": 3231.138,
+  "speaker": "Unknown",
+  "en": "You need good kernels that can operate with this parallelism, but within the engine, in the sort of model forward passcode, which is written on a sort of per-engine basis, you need to do all of the communications around that.",
+  "zh": "你需要有能在这种并行度下工作的好核心(kernel)，但在引擎内部，在那种按引擎逐个编写的模型前向传播代码中，你需要完成与之相关的所有通信。"
+ },
+ {
+  "seg": 450,
+  "start": 3232.098,
+  "end": 3237.88,
+  "speaker": "Unknown",
+  "en": "And so the communications is where a lot of the problems come in in these parallelism techniques.",
+  "zh": "所以在这些并行化技术中，很多问题都是出在通信上。"
+ },
+ {
+  "seg": 451,
+  "start": 3239.981,
+  "end": 3243.703,
+  "speaker": "Unknown",
+  "en": "All right, so observability with our last couple minutes here.",
+  "zh": "好的，趁最后几分钟，我们讲一下可观测性。"
+ },
+ {
+  "seg": 452,
+  "start": 3245.683,
+  "end": 3248.625,
+  "speaker": "Unknown",
+  "en": "Inference services, like all services, will have some bugs in them.",
+  "zh": "推理服务和所有服务一样，都会有 bug。"
+ },
+ {
+  "seg": 453,
+  "start": 3248.645,
+  "end": 3254.467,
+  "speaker": "Unknown",
+  "en": "You have everything from application-level bugs, from models misbehaving, which is,",
+  "zh": "你会遇到各种问题，从应用层的 bug，到模型行为异常——这"
+ },
+ {
+  "seg": 454,
+  "start": 3254.907,
+  "end": 3260.314,
+  "speaker": "Unknown",
+  "en": "Really not the engine's problem, it's the app developer's problem, but they'll show up on your dashboard sometimes.",
+  "zh": "其实不是引擎的问题，是应用开发者的问题，但它们有时会出现在你的仪表盘上。"
+ },
+ {
+  "seg": 455,
+  "start": 3260.955,
+  "end": 3263.318,
+  "speaker": "Unknown",
+  "en": "Model quality bugs, these are the problem of the engine.",
+  "zh": "模型质量 bug，这些是引擎的问题。"
+ },
+ {
+  "seg": 456,
+  "start": 3263.418,
+  "end": 3266.902,
+  "speaker": "Unknown",
+  "en": "Are you actually doing your inference correctly when you applied this performance optimization?",
+  "zh": "当你应用了这个性能优化之后，你的推理实际上做得正确吗？"
+ },
+ {
+  "seg": 457,
+  "start": 3267.323,
+  "end": 3269.566,
+  "speaker": "Unknown",
+  "en": "Did you actually guarantee it didn't change model behavior?",
+  "zh": "你是否真的保证了它没有改变模型的行为？"
+ },
+ {
+  "seg": 458,
+  "start": 3270.186,
+  "end": 3274.389,
+  "speaker": "Unknown",
+  "en": "One of the most common ones here is actually on model release, tokenizers are often slightly bugged.",
+  "zh": "这里最常见的问题之一其实出现在模型发布时，tokenizer 常常有些小 bug。"
+ },
+ {
+  "seg": 459,
+  "start": 3274.729,
+  "end": 3279.672,
+  "speaker": "Unknown",
+  "en": "They both tokenize and apply chat templates, and there's often some issues there.",
+  "zh": "它们既做分词又应用聊天模板，而那里经常有一些问题。"
+ },
+ {
+  "seg": 460,
+  "start": 3280.573,
+  "end": 3285.216,
+  "speaker": "Unknown",
+  "en": "They're beaten down in a couple weeks after model release, but it's something you always have to be on guard for.",
+  "zh": "通常在模型发布后的几周内会被修复，但这是你始终需要警惕的事情。"
+ },
+ {
+  "seg": 461,
+  "start": 3286.577,
+  "end": 3292.002,
+  "speaker": "Unknown",
+  "en": "And then performance bugs or engine performance issues, the kind of the worst ones are regressions over time.",
+  "zh": "然后是性能 bug 或引擎性能问题，其中最糟糕的一种是随时间推移出现的性能回退。"
+ },
+ {
+  "seg": 462,
+  "start": 3292.042,
+  "end": 3299.709,
+  "speaker": "Unknown",
+  "en": "As you operate a replica for an extended period, you might see performance degradation from issues that only arise once the thing has been running for an extended period.",
+  "zh": "当你长时间运行一个副本时，你可能会看到性能退化，这些问题的根源只有在系统运行了很长时间之后才会显现。"
+ },
+ {
+  "seg": 463,
+  "start": 3300.35,
+  "end": 3308.958,
+  "speaker": "Unknown",
+  "en": "And then you also might observe, especially in a heterogeneous cloud deployment environment, differences across replicas in their performance that then need to be investigated.",
+  "zh": "此外你还可能观察到，尤其是在异构的云部署环境中，各副本之间的性能差异，这就需要去排查了。"
+ },
+ {
+  "seg": 464,
+  "start": 3310.274,
+  "end": 3315.575,
+  "speaker": "Unknown",
+  "en": "So the goal with these, as with all kinds of production, debugging is observability.",
+  "zh": "和所有生产环境调试一样，应对这些问题的目标就是可观测性。"
+ },
+ {
+  "seg": 465,
+  "start": 3316.275,
+  "end": 3322.997,
+  "speaker": "Unknown",
+  "en": "If you can log enough information to debug just from those logs, then you don't have to spin up a development server and take a bunch of extra time.",
+  "zh": "如果你能记录足够多的信息，仅凭这些日志就能调试，那你就不用启动一个开发服务器、多花一堆额外的时间。"
+ },
+ {
+  "seg": 466,
+  "start": 3324.117,
+  "end": 3330.278,
+  "speaker": "Unknown",
+  "en": "And so this runs from application-level stuff to, I think, focusing on the engine problems.",
+  "zh": "所以这涵盖了从应用层的内容到——我认为——重点关注引擎问题。"
+ },
+ {
+  "seg": 467,
+  "start": 3330.418,
+  "end": 3336.379,
+  "speaker": "Unknown",
+  "en": "Model quality, you want to be good at running evals for model quality as part of your deployment.",
+  "zh": "模型质量方面，你要擅长把模型质量评测作为部署流程的一部分来运行。"
+ },
+ {
+  "seg": 468,
+  "start": 3337.259,
+  "end": 3339.24,
+  "speaker": "Unknown",
+  "en": "So you want to hit your actual deployment,",
+  "zh": "所以你要针对你的实际部署，"
+ },
+ {
+  "seg": 469,
+  "start": 3340,
+  "end": 3343.401,
+  "speaker": "Unknown",
+  "en": "with evaluation benchmarking type scripts.",
+  "zh": "运行评测基准类的脚本。"
+ },
+ {
+  "seg": 470,
+  "start": 3343.421,
+  "end": 3347.042,
+  "speaker": "Unknown",
+  "en": "There's scripts in SGLang, there's scripts in VLLM, there's external benchmarking tools.",
+  "zh": "SGLang 里有脚本，VLLM 里有脚本，也有外部的基准测试工具。"
+ },
+ {
+  "seg": 471,
+  "start": 3348.122,
+  "end": 3363.766,
+  "speaker": "Unknown",
+  "en": "Take those, calculate some numbers, log traces somewhere, log as much data as you can about those so you can debug later, and then in prod, log traces and try to get feedback from users on correctness that you can thread through all the way back to those requests.",
+  "zh": "拿来这些工具，算出一些数字，把 trace 记录到某处，尽可能多地记录相关数据，以便日后调试；然后在生产环境中记录 trace，并尽力从用户那里获取正确性方面的反馈，从而能一路回溯到那些请求。"
+ },
+ {
+  "seg": 472,
+  "start": 3363.966,
+  "end": 3369.067,
+  "speaker": "Unknown",
+  "en": "For tokenizer bugs, hot tip, log the token IDs, set your engine up so that the token IDs are logged as well.",
+  "zh": "对于 tokenizer 的 bug，一个小技巧：把 token ID 记录下来，把你的引擎配置成也记录 token ID。"
+ },
+ {
+  "seg": 473,
+  "start": 3369.908,
+  "end": 3382.848,
+  "speaker": "Unknown",
+  "en": "And then finally, for performance, performance bugs can show up anywhere, so the more metrics that you log, the better, like more metrics than you think you need, because you never know which cross-correlation will make the bug super easy to discover instead of super hard.",
+  "zh": "最后是性能方面，性能 bug 可能出现在任何地方，所以你记录的指标越多越好——比你认为需要的还要多——因为你永远不知道哪个交叉关联会让 bug 变得极易发现，而不是极难发现。"
+ },
+ {
+  "seg": 474,
+  "start": 3385.308,
+  "end": 3388.792,
+  "speaker": "Unknown",
+  "en": "So rather than going through those, I'm gonna talk a little bit about this.",
+  "zh": "所以比起逐条讲这些，我想稍微聊聊这个。"
+ },
+ {
+  "seg": 475,
+  "start": 3388.892,
+  "end": 3392.576,
+  "speaker": "Unknown",
+  "en": "This is an endpoint dashboard on modal and how you might read it.",
+  "zh": "这是 Modal 上的一个 endpoint 仪表盘，以及你可能会怎么读它。"
+ },
+ {
+  "seg": 476,
+  "start": 3393.498,
+  "end": 3403.55,
+  "speaker": "Unknown",
+  "en": "I was operating the art project that I showed at the beginning, and I just actually spun up three different replicas of it to see what would happen.",
+  "zh": "我当时在运营开头展示的那个 art 项目，我实际上启动了它的三个不同副本，看看会发生什么。"
+ },
+ {
+  "seg": 477,
+  "start": 3403.87,
+  "end": 3405.111,
+  "speaker": "Unknown",
+  "en": "Like under increased load.",
+  "zh": "比如在负载增加的情况下。"
+ },
+ {
+  "seg": 478,
+  "start": 3405.751,
+  "end": 3419.42,
+  "speaker": "Unknown",
+  "en": "So there was a traffic spike, which you can see down here, that turns into increasing first time to first token as things start to queue on the pre-fill side and don't enter pre-fill until the things have finished.",
+  "zh": "所以出现了一次流量峰值，你在下面可以看到，随着请求开始在 pre-fill 一侧排队、在上一个完成之前无法进入 pre-fill，首次 token 的首字延迟随之上升。"
+ },
+ {
+  "seg": 479,
+  "start": 3419.961,
+  "end": 3430.968,
+  "speaker": "Unknown",
+  "en": "And then also shows up as well as inter-token latency as decodes first get a little bit slower and then a lot slower with this queuing as there's sort of contention on the underlying GPU.",
+  "zh": "然后这也同样体现在 token 间延迟上，因为底层 GPU 上存在某种争用，decode 先是稍微变慢，然后随着排队而慢了很多。"
+ },
+ {
+  "seg": 480,
+  "start": 3433.303,
+  "end": 3455.557,
+  "speaker": "Unknown",
+  "en": "And so the solution in this case, with going back to the question about serverless deployments, is this is detected as increased load, you spin up new replicas, those replicas come online, they start taking on some of this request load, and then the amount queued decreases back down to baseline and things are, your congestion is solved.",
+  "zh": "那么这种情况下的解决方案，回到关于无服务器部署的那个问题，就是：这被检测为负载增加，你启动新副本，这些副本上线，开始分担一部分请求负载，然后排队量下降回基线水平，拥塞就解决了。"
+ },
+ {
+  "seg": 481,
+  "start": 3455.757,
+  "end": 3456.717,
+  "speaker": "Unknown",
+  "en": "So I think,",
+  "zh": "所以我认为，"
+ },
+ {
+  "seg": 482,
+  "start": 3458.158,
+  "end": 3465.004,
+  "speaker": "Unknown",
+  "en": "That's the primary way, I think, in many cases, we scale up additional resources to solve congestion and queuing.",
+  "zh": "这是在很多情况下我们扩展额外资源来解决拥塞和排队的主要方式。"
+ },
+ {
+  "seg": 483,
+  "start": 3466.105,
+  "end": 3468.126,
+  "speaker": "Unknown",
+  "en": "So, yeah.",
+  "zh": "好，是的。"
+ },
+ {
+  "seg": 484,
+  "start": 3468.687,
+  "end": 3475.852,
+  "speaker": "Unknown",
+  "en": "When you need to go deeper, I'll skip over this, but there's the Nsight Systems or Torch Profiler is one of your key tools here.",
+  "zh": "当你需要更深入时——这部分我会跳过——Nsight Systems 或 Torch Profiler 是你在这里的关键工具之一。"
+ },
+ {
+  "seg": 485,
+  "start": 3476.012,
+  "end": 3477.674,
+  "speaker": "Unknown",
+  "en": "It allows you to see the whole engine at once.",
+  "zh": "它让你能一眼看到整个引擎。"
+ },
+ {
+  "seg": 486,
+  "start": 3477.694,
+  "end": 3481.757,
+  "speaker": "Unknown",
+  "en": "It allows you to see all the processes that are running, all the work that's going on",
+  "zh": "它让你能看到所有正在运行的进程、所有正在进行的工作"
+ },
+ {
+  "seg": 487,
+  "start": 3481.977,
+  "end": 3488.424,
+  "speaker": "Unknown",
+  "en": "The GPU and pick out issues like, oh, this GPU is running everything slower than the others.",
+  "zh": "在 GPU 上，并挑出诸如“哦，这个 GPU 上所有东西都比其他的慢”之类的问题。"
+ },
+ {
+  "seg": 488,
+  "start": 3488.444,
+  "end": 3490.446,
+  "speaker": "Unknown",
+  "en": "It turned out to be a NUMA awareness problem.",
+  "zh": "结果那是一个 NUMA 感知问题。"
+ },
+ {
+  "seg": 489,
+  "start": 3493.847,
+  "end": 3500.951,
+  "speaker": "Unknown",
+  "en": "So closing out here, if you want to learn more, MiniSGLang and NanoVLLM are a really great place to start.",
+  "zh": "最后收尾，如果你想了解更多，MiniSGLang 和 NanoVLLM 是非常好的起点。"
+ },
+ {
+  "seg": 490,
+  "start": 3501.011,
+  "end": 3505.393,
+  "speaker": "Unknown",
+  "en": "These are these simple implementations of the engine architecture by the two teams.",
+  "zh": "这些是由那两个团队实现的引擎架构的简单实现版本。"
+ },
+ {
+  "seg": 491,
+  "start": 3505.673,
+  "end": 3507.114,
+  "speaker": "Unknown",
+  "en": "They're great for humans.",
+  "zh": "它们对人类很友好。"
+ },
+ {
+  "seg": 492,
+  "start": 3507.194,
+  "end": 3508.414,
+  "speaker": "Unknown",
+  "en": "They're incredible for agents.",
+  "zh": "它们对智能体来说更是绝佳。"
+ },
+ {
+  "seg": 493,
+  "start": 3508.454,
+  "end": 3511.776,
+  "speaker": "Unknown",
+  "en": "They can fit all the context in their context window.",
+  "zh": "它们能把全部内容装进智能体的上下文窗口。"
+ },
+ {
+  "seg": 494,
+  "start": 3512.536,
+  "end": 3518.479,
+  "speaker": "Unknown",
+  "en": "Alexa Gordich did a great walkthrough blog of VLLM and share these slides later.",
+  "zh": "Alexa Gordich 写了一篇很棒的 VLLM 走读博客，稍后会分享这些幻灯片。"
+ },
+ {
+  "seg": 495,
+  "start": 3518.92,
+  "end": 3521.501,
+  "speaker": "Unknown",
+  "en": "Also worked through that in a notebook so you can play with it.",
+  "zh": "还在一个 notebook 里做了一遍，这样你可以动手玩。"
+ },
+ {
+  "seg": 496,
+  "start": 3521.861,
+  "end": 3522.521,
+  "speaker": "Unknown",
+  "en": "And then actually,",
+  "zh": "然后，实际上，"
+ },
+ {
+  "seg": 497,
+  "start": 3523.782,
+  "end": 3526.183,
+  "speaker": "Unknown",
+  "en": "You can point your coding agent at the coding base and ask questions.",
+  "zh": "你可以把你的编程智能体指向代码库，向它提问。"
+ },
+ {
+  "seg": 498,
+  "start": 3526.563,
+  "end": 3547.612,
+  "speaker": "Unknown",
+  "en": "Cognition also operates this thing called DeepWiki, which basically crawls a bunch of repos, including SGLang and vLLM, and writes nice architecture diagrams and makes this wiki-style page where you can read and then ask their agent questions, which is a nice thing to pair with your own agent setup.",
+  "zh": "Cognition 还运营着一个叫 DeepWiki 的东西，它基本上会爬取一大堆仓库，包括 SGLang 和 vLLM，绘制漂亮的架构图，做成 wiki 风格的页面，你可以在上面阅读，然后向它们的智能体提问，这是与你自己的智能体配置搭配使用的很好的东西。"
+ },
+ {
+  "seg": 499,
+  "start": 3549.389,
+  "end": 3550.149,
+  "speaker": "Unknown",
+  "en": "So that's everything.",
+  "zh": "以上就是全部内容。"
+ },
+ {
+  "seg": 500,
+  "start": 3550.489,
+  "end": 3569.194,
+  "speaker": "Unknown",
+  "en": "I'm out of time, so I'll just quickly say if you're interested in deploying and owning your own inference, we have a new product on modal to help you get started with deployment really easily, get an initial baseline of reasonably optimized inference engine deployment that you can work off of with modal endpoints.",
+  "zh": "我时间不多了,所以我只快速说一下,如果你有兴趣部署并自己拥有推理,我们在 Modal 上有一个新产品,可以帮助你非常轻松地开始部署,通过 Modal Endpoints 获得一个合理优化的推理引擎部署的初始基线,你可以在其基础上继续工作。"
+ },
+ {
+  "seg": 501,
+  "start": 3570.254,
+  "end": 3571.274,
+  "speaker": "Unknown",
+  "en": "So check that out.",
+  "zh": "所以去看看吧。"
+ },
+ {
+  "seg": 502,
+  "start": 3571.754,
+  "end": 3578.156,
+  "speaker": "Unknown",
+  "en": "If you're interested in working on deploying inference for hundreds of teams, check out modal.jobs.",
+  "zh": "如果你有兴趣为数百个团队做推理部署方面的工作,请查看 modal.jobs。"
+ },
+ {
+  "seg": 503,
+  "start": 3583.024,
+  "end": 3583.404,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -37,7 +37,7 @@ unlisted: true
 
 [[Satya Nadella]] · [[Kwindla Kramer]] · [[Pipecat]] · [[智能体]] · [[AI 原生软件]] · [[推理]] · [[多模态]] · [[云计算]] · [[上下文]] · [[AWS]]
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"智能体":467,"AI 原生软件":1,"推理":92,"多模态":6,"云计算":4,"上下文":31,"AWS":22}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Kwindla Kramer":1,"Pipecat":1,"智能体":471,"AI 原生软件":1,"推理":94,"多模态":6,"云计算":4,"上下文":31,"AWS":22}</script>
 
 <script>
 (function(){

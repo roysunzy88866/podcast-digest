@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>192</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>193</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -164,6 +164,7 @@ unlisted: true
 - **[[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]]**(00:14起):本集提到 Diogo 曾在 OpenAI 做 RLHF；并举例 OpenAI 从 2020 年起就一直尝试自动化客服至今没成。
 - **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(26:46起):本集说 OpenAI 一直难以接受「AI 只是有用且酷的工具」这个事实，扎克伯格从中挖走数十人；若 AI 商品化，OpenAI 将归零、价值流向 Meta。
 - **[[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]]**(14:41起):收入口径对标对象，也被认为会因追广告生意摧毁 20 美元档 prosumer 订阅市场
+- **[[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]]**(01:37起):Liam 此前任职的公司,在那里领导后训练团队、缔造 ChatGPT;他说数字世界进展巨大但物理世界影响受限,促使他离开创办 Periodic。
 - **[[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]]**(56:39起):本集讲它在 ExploitBench 上跑大量算力的持久智能体,出现智能体集群通过缓存目录互相通信、攻击评分器的安全事件。
 - **[[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]]**(55:23起):本集说：Ed Zitron 拿到的 OpenAI 账目显示推理科目很低、营销科目高得和可口可乐一样；理论是他们把百元大钞一块钱卖掉——低价推理被记成营销开支。
 - **[[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]]**(58:42起):本集说事件中的智能体是 OpenAI 跑在 ExploitBench 上、仍在训练中的未发布模型，尚未完成安全后训练。
@@ -203,7 +204,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*35 条*
+*36 条*
 
 ![[2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo#^q7]]
 
@@ -251,6 +252,8 @@ unlisted: true
 
 ![[2026-09-17-dwarkesh-noam-brown#^q8]]
 
+![[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with#^q6]]
+
 ![[2026-09-25-latent-openrouter#^q13]]
 
 ![[2026-09-25-productpodcast-toast-vp-of-product-on-building-agents-i#^q1]]
@@ -277,7 +280,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*192 集*
+*193 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -434,6 +437,7 @@ unlisted: true
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司(提及)
 - [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司
 - [[2026-09-28-twentyvc-20vc-1bn-arr-in-18-months-the-untold-sto|《从哈萨克斯坦到 10 亿美元营收：Higgsfield 创始人 Alex 的极限增长故事》]] — 作为被讨论公司(提及)
+- [[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|《让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体》]] — 作为被讨论公司
 - [[2026-09-29-latent-thariq|《Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车》]] — 作为被讨论公司(提及)
 - [[2026-09-29-sed-cory-doctorow-on-ai-work-and-power|《AI 是马，你是骑士还是马夫？Cory Doctorow 谈科技巨头的算盘与打工人的出路》]] — 作为被讨论公司
 - [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|《Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏》]] — 作为被讨论公司
@@ -478,7 +482,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[推理]] · [[Google]] · [[NVIDIA]] · [[Cursor]] · [[Codex]] · [[护栏]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":467,"Anthropic":197,"ChatGPT":106,"推理":92,"Google":70,"NVIDIA":67,"Cursor":86,"Codex":83,"护栏":88,"Hugging Face":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":471,"Anthropic":198,"ChatGPT":108,"推理":94,"Google":70,"NVIDIA":68,"Cursor":86,"Codex":83,"护栏":88,"Hugging Face":36}</script>
 
 <script>
 (function(){
