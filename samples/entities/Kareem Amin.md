@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":7,"市场进入工程":1,"透明":3,"PLG":12}</script>
+<script type="application/json" class="pd-epn">{"Clay":8,"市场进入工程":1,"透明":3,"PLG":12}</script>
 
 <script>
 (function(){

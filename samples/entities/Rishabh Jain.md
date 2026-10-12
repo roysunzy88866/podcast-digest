@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":17,"ATT":1,"闭环":2,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Motamity":1,"Fermat":1,"LiveRamp":1,"Facebook":17,"ATT":1,"闭环":3,"零售媒体网络":1,"生成式 AI":2,"传统 AI":1,"客户旅程":1}</script>
 
 <script>
 (function(){

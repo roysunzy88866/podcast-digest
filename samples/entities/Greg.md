@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":473,"护栏":89,"MCP":85,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":49}</script>
+<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":478,"护栏":89,"MCP":86,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":49}</script>
 
 <script>
 (function(){

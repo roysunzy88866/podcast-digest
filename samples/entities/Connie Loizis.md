@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":200,"OpenAI":195,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":23,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":200,"OpenAI":195,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":24,"前沿模型":27}</script>
 
 <script>
 (function(){

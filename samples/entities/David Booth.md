@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Ellman":2,"Olivia Moore":3,"Cosign":1,"背书":1,"职业声誉":1,"社会资本":1,"网络效应":15,"Signal":4,"信息不对称":1,"AI":32}</script>
+<script type="application/json" class="pd-epn">{"Josh Ellman":2,"Olivia Moore":3,"Cosign":1,"背书":1,"职业声誉":1,"社会资本":1,"网络效应":16,"Signal":4,"信息不对称":1,"AI":32}</script>
 
 <script>
 (function(){

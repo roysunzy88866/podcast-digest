@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":68,"Hugging Face":36,"开源":40,"蒸馏":1,"推理":95,"新云":4,"前沿模型":27,"垂直 AI":2,"智能体":473}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":1,"NVIDIA":69,"Hugging Face":37,"开源":40,"蒸馏":1,"推理":98,"新云":4,"前沿模型":27,"垂直 AI":2,"智能体":478}</script>
 
 <script>
 (function(){

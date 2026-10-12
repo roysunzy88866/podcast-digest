@@ -113,9 +113,9 @@ Gemma 4 有多个尺寸：20 亿、40 亿、120 亿参数版本，还有 260 亿
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:DeepMind · 同概念:推理 (inference)、沙箱 (sandbox)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、沙箱 (sandbox)</span>
 - [[2026-08-29-talks-agentic-sites-building-hyper-personalize|智能体网站：为每一个人实时生成的超个性化网页]]<span class="pd-rz">同概念:Gemma 4、推理 (inference)</span>
-- [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
 
 </div>
 </div>

@@ -162,7 +162,7 @@ Jason 认为他们会退缩,并趁机开炮:Spotify 靠播客开放标准(RSS)�
 
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:Instagram、Meta、Spotify、YouTube</span>
 - [[2026-08-19-bigtech-nick-bostrom-worries-about-ai-existentia|Nick Bostrom：智能体破笼之后，我们还能驾驭AI吗]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)、超级智能 (superintelligence)</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude、Meta、OpenAI · 同概念:智能体 (agent)、超级智能 (superintelligence)</span>
+- [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法]]<span class="pd-rz">同公司:Instagram、Meta · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

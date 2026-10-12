@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":473,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":478,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

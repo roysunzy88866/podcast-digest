@@ -1,0 +1,655 @@
+{
+  "episode_id": "2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "AI 安全",
+    "渗透测试",
+    "智能体",
+    "AI 编程",
+    "应用安全"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "eli-cohen",
+      "type": "person",
+      "role": "guest",
+      "name": "Eli Cohen",
+      "file": "Eli Cohen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "snyk",
+      "type": "company",
+      "role": "company",
+      "name": "Snyk",
+      "file": "Snyk",
+      "primary": true,
+      "how_described": "本集嘉宾 Eli 曾联合创办的 Helios 被 Snyk 收购，他在 Snyk 做了两年半 AI 产品管理；Snyk 推出 Evo 持续进攻性安全产品线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            29.586,
+            30.747
+          ],
+          "quote": "I got acquired by Snyk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            31.187,
+            43.355
+          ],
+          "quote": "And in the last two and a half years, I had the privilege of working in Snyk, primarily on product management for AI products, but more recently, founding field CTO, meaning I'm working with developers and with security folks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            561.68,
+            565.343
+          ],
+          "quote": "So this is obviously very tied up to what we're doing within Snyk.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evo",
+      "type": "company",
+      "role": "company",
+      "name": "Evo",
+      "file": "Evo",
+      "primary": true,
+      "how_described": "Snyk 推出的持续进攻性安全产品：用 LLM 从零构建一组协作智能体（编排器、侦察、漏洞测试、法官验证、修复、报告），在每次代码变更时自动跑渗透测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            619.001,
+            623.762
+          ],
+          "quote": "We are building one suite out of that for offensive security as part of our Evo offering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1145.804,
+            1149.787
+          ],
+          "quote": "Sneak.io, meet Evo, our new AI security offering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "helios",
+      "type": "company",
+      "role": "company",
+      "name": "Helios",
+      "file": "Helios",
+      "primary": false,
+      "how_described": "Eli 曾联合创办并任 CEO 的运行时安全公司，后被 Snyk 收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            25.944,
+            29.566
+          ],
+          "quote": "I used to be co-founder and CEO of Helios, a runtime security company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pen-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "渗透测试 (pen testing)",
+      "file": "渗透测试",
+      "primary": true,
+      "how_described": "本集把它说成：由真正理解应用业务逻辑的人类渗透测试员手动攻破系统的应用安全测试金标准，但贵且慢，公司通常一年只做一两次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            435.353,
+            436.775
+          ],
+          "quote": "It's the pen testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            436.955,
+            438.677
+          ],
+          "quote": "So what's the idea about pen testing?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            492.217,
+            496.859
+          ],
+          "quote": "Like, doing this pen testing two times a year is simply not good enough, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            590.714,
+            596.276
+          ],
+          "quote": "So first of all, obviously, you need the AI pen testing capabilities, which I will double click on soon again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            645.932,
+            649.434
+          ],
+          "quote": "So what we're doing differently within AI pen testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            652.155,
+            660.506
+          ],
+          "quote": "The great promise of pen testing was always the fact that the human in the end really understand the business context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            873.646,
+            883.12
+          ],
+          "quote": "And those are the points I urge you to check with every vendor out there trying to provide you with a solution or whether you want to implement a solution in-house for AI pen testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            902.775,
+            907.237
+          ],
+          "quote": "We are not just taking our AI pen testing solution as a standalone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 85% 以上开发者在用编码智能体生成远不如过去安全的代码，并展示了用一系列协作智能体（大脑编排器、侦察、漏洞测试、法官、修复、报告）从零构建的 AI 渗透测试系统",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            49.62,
+            55.345
+          ],
+          "quote": "So how do you take your AI agents and making sure they are secured?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            55.625,
+            58.247
+          ],
+          "quote": "How do you work with your agents in production?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            85.49,
+            91.676
+          ],
+          "quote": "And other people like sales, marketing, other people running agents in production that are not from development on security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            119.161,
+            125.526
+          ],
+          "quote": "And more than 85% of the developers are actually using coding agents now probably running here today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            136.276,
+            143.043
+          ],
+          "quote": "And the funny thing about those agents running in production and generating fork for us is that it's far less secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            756.347,
+            759.848
+          ],
+          "quote": "So we have a series of a few agents working together.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            765.069,
+            773.351
+          ],
+          "quote": "This agent is working according to a dynamic plan that it follows and he knows how to operate all the different sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            800.257,
+            804.099
+          ],
+          "quote": "It's actually, again, a series of a few specialized agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            824.869,
+            832.535
+          ],
+          "quote": "So actually, every vulnerability that the previous agents find are now being handed over to this judge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sast",
+      "type": "concept",
+      "role": "concept",
+      "name": "SAST",
+      "file": "SAST",
+      "primary": true,
+      "how_described": "本集把它说成：代码提交时自动查找 SQL 注入、跨站脚本等已知问题的扫描方式——便宜、快，但抓不到运行时和授权类问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            350.597,
+            353.218
+          ],
+          "quote": "was static code scanning, SAST.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bola",
+      "type": "concept",
+      "role": "concept",
+      "name": "BOLA",
+      "file": "BOLA",
+      "primary": false,
+      "how_described": "本集举的运行时授权漏洞例子：用户 A 能访问用户 B 的数据，静态分析永远发现不了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            386.892,
+            397.117
+          ],
+          "quote": "One example is BOLA, Broken Object Level Authorization, which basically it means that user A can access the data of user B.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "business-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "业务上下文 (business context)",
+      "file": "业务上下文",
+      "primary": true,
+      "how_described": "本集反复强调：新漏洞恰恰产生在业务逻辑/应用上下文里，渗透测试的价值在于人理解业务上下文，而理解上下文正是 LLM 最擅长的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            652.155,
+            660.506
+          ],
+          "quote": "The great promise of pen testing was always the fact that the human in the end really understand the business context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            662.849,
+            667.455
+          ],
+          "quote": "And if there is something that the LLM are very good at, it's really trying to understand the business context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            811.961,
+            818.344
+          ],
+          "quote": "And they are trying to break your application to understand the business context and to understand where an attacker can get from.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "false-positive",
+      "type": "concept",
+      "role": "concept",
+      "name": "误报 (false positive)",
+      "file": "误报",
+      "primary": true,
+      "how_described": "本集说安全行业有严重的误报问题，所以每个发现都要经『法官』智能体验证是否真的可利用后才标记为 bug，以减少开发者的认知负担",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            696.249,
+            698.812
+          ],
+          "quote": "But we also help reduce the false positive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            698.892,
+            702.335
+          ],
+          "quote": "For us as an industry, we have a severe problem of false positive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            846.747,
+            849.388
+          ],
+          "quote": "The amount of false positive we have in the system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": false,
+      "how_described": "本集把智能体红队说成：执行多步骤攻击（模拟提示词注入、数据外泄）并与动态测试结合的进攻性安全概念",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            596.736,
+            600.117
+          ],
+          "quote": "But you also need to start taking the concept of red teaming, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            600.137,
+            604.998
+          ],
+          "quote": "So agent red teaming, the idea is to take multi-steps attacks, okay?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-ejection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt ejection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集在介绍智能体红队多步骤攻击时提到的模拟攻击手段之一（原稿误作 prompt ejection）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            605.018,
+            615.46
+          ],
+          "quote": "So to try to simulate prompt ejection or data exfiltration and goal agenting and obviously to combine it with dynamic testing that is good at identifying authorization issues.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集调侃现场每个人可能同时开着 5 个 Claude Code 会话，是代码量暴涨 218% 的典型来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            127.648,
+            133.414
+          ],
+          "quote": "Because I guess that each one of you probably has five different sessions of Claude Code running simultaneously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            288.262,
+            292.826
+          ],
+          "quote": "Each one of us has a few sessions simultaneously of Claude Code or of Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 生成的输出 62% 不安全或有缺陷，攻击者也在利用同样的前沿模型；而 LLM 擅长理解业务上下文，可被用于持续渗透测试",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            420.327,
+            429.01
+          ],
+          "quote": "So this was also something that could find new things, but it wasn't good with the biggest challenge we have with the code that LLM are producing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            542.719,
+            554.75
+          ],
+          "quote": "How we can leverage this new area of AI tools and LLM and frontier models to actually do pentesting on a continuous manner in a scalable manner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            660.566,
+            662.548
+          ],
+          "quote": "So now we are taking this to the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            662.849,
+            667.455
+          ],
+          "quote": "And if there is something that the LLM are very good at, it's really trying to understand the business context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            743.924,
+            753.086
+          ],
+          "quote": "Okay, so what I want you to understand is we are not taking the static scanners or the dust scanners and just combining with LLM, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            753.106,
+            755.907
+          ],
+          "quote": "We build it from the ground up using LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            760.328,
+            762.668
+          ],
+          "quote": "The first one is the LLM orchestrator, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            896.472,
+            900.514
+          ],
+          "quote": "Your LLM are as good as the context that you feed them with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            921.603,
+            929.913
+          ],
+          "quote": "into our AI pentesting solution because that way we know how to tailor and we know how to guide the LLM where to look for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1072.805,
+            1079.912
+          ],
+          "quote": "Because given the nature of those LLM, application context is really where the new vulnerabilities are coming from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1088.79,
+            1094.717
+          ],
+          "quote": "Because the richer the data is, the better and, by the way, cheaper the LLM operation is going to be.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-servers",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP servers)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集引用数据称所有 MCP 服务器中有 43% 存在漏洞",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            275.252,
+            280.716
+          ],
+          "quote": "And 43% of all the MCP servers actually has vulnerabilities.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到每个人同时开着几个 Claude Code 或 Codex 会话",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            288.262,
+            292.826
+          ],
+          "quote": "Each one of us has a few sessions simultaneously of Claude Code or of Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "DAST",
+      "reason": "专名「DAST」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

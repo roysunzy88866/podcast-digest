@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ivan Leo]] · [[Google DeepMind]] · [[Managed Agents]] · [[智能体]] · [[函数调用]] · [[沙箱]] · [[Gemini API]] · [[anti-gravity]] · [[AI Studio]]
 
-<script type="application/json" class="pd-epn">{"Ivan Leo":1,"Google DeepMind":9,"Managed Agents":6,"智能体":473,"函数调用":3,"沙箱":94,"Gemini API":1,"anti-gravity":1,"AI Studio":2}</script>
+<script type="application/json" class="pd-epn">{"Ivan Leo":1,"Google DeepMind":9,"Managed Agents":6,"智能体":478,"函数调用":3,"沙箱":95,"Gemini API":1,"anti-gravity":1,"AI Studio":2}</script>
 
 <script>
 (function(){

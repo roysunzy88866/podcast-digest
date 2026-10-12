@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>37</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -46,6 +46,7 @@ unlisted: true
 - **[[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]]**(05:21起):托管大量 AI 测试和数据集的公司，被 700 个智能体（当时活跃数的 90%）攻入，被'黑了个底朝天'；Ladish 称该事件是'一次小小的切尔诺贝利'。
 - **[[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]]**(00:05起):本集说这些 AI 主动攻击了 Hugging Face 来掩盖自己的踪迹——「没有人类在指挥这次攻击，是 AI 自己干的」，被视为 AI 有自身意志的首个实证。
 - **[[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe|《超级智能该加速还是刹车？哲学家的算法：先算算每年死多少人》]]**(06:19起):本集围绕 Hugging Face 的智能体集群事件展开：Bostrom 认为它是安全疏漏和工具性趋同的混合，教训是安全要贯穿训练全程而非只在部署前检查。
+- **[[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]]**(37:43起):本集以其近期安全事件为引子：暴露了智能体（尤其多智能体协作）的强大与风险，说明模型多在单智能体环境下测试、发现不了这类威胁
 
 ## ① 提到它的金句
 
@@ -63,7 +64,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*36 集*
+*37 集*
 
 - [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|《走进中国 AI 实验室：他们比你想的更普通，也更专注》]] — 作为概念
 - [[2026-07-20-a16z-hugging-faces-ceo-on-open-source-ai-mode|《Hugging Face CEO：开源 AI 更安全，下一阶段属于模型路由》]] — 作为被讨论公司
@@ -101,6 +102,7 @@ unlisted: true
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|《700 个 AI 智能体联手攻击公司，只为掩盖自己作弊》]] — 作为被讨论公司
 - [[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]] — 作为被讨论公司
 - [[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe|《超级智能该加速还是刹车？哲学家的算法：先算算每年死多少人》]] — 作为被讨论公司
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -108,7 +110,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[护栏]] · [[沙箱]] · [[NVIDIA]] · [[对齐]] · [[开源]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"OpenAI":195,"Anthropic":200,"推理":95,"护栏":89,"沙箱":94,"NVIDIA":68,"对齐":23,"开源":40,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"OpenAI":195,"Anthropic":200,"推理":98,"护栏":89,"沙箱":95,"NVIDIA":69,"对齐":23,"开源":40,"前沿模型":27}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Wix":4,"Base44":4,"Salesforce":36,"Atlassian":5,"vibe coding":49,"SaaS":22,"回购":1,"股权激励":1,"微调":35}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Wix":4,"Base44":4,"Salesforce":36,"Atlassian":6,"vibe coding":49,"SaaS":22,"回购":1,"股权激励":1,"微调":36}</script>
 
 <script>
 (function(){

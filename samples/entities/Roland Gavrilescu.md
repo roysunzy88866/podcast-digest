@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":1,"每瓦特有价值工作":1,"智能体":473,"harness":63,"RLHF":7,"RL":14}</script>
+<script type="application/json" class="pd-epn">{"循环":10,"智能体配方":1,"系统蒸馏":1,"品味":15,"评估":1,"每瓦特有价值工作":1,"智能体":478,"harness":63,"RLHF":7,"RL":14}</script>
 
 <script>
 (function(){

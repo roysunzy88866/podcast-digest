@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
+[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Apple":25,"ThoughtSpot":1,"Toast":3,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":7,"Figma":22}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Apple":26,"ThoughtSpot":1,"Toast":3,"设计":2,"设计信条":1,"软件作为一种媒介":1,"原始印记":1,"设计系统":7,"Figma":22}</script>
 
 <script>
 (function(){

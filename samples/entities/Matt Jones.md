@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adyen":2,"Architect":1,"Neo4j":4,"Flink":1,"Kafka":3,"智能体":473,"服务图":1,"Atrium":2,"Git worktree":1,"MCP":85}</script>
+<script type="application/json" class="pd-epn">{"Adyen":2,"Architect":1,"Neo4j":4,"Flink":1,"Kafka":3,"智能体":478,"服务图":1,"Atrium":2,"Git worktree":1,"MCP":86}</script>
 
 <script>
 (function(){

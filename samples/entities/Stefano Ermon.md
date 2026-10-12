@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":95,"Transformer":9,"服务引擎":1,"Cerebras":2}</script>
+<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":98,"Transformer":9,"服务引擎":1,"Cerebras":2}</script>
 
 <script>
 (function(){

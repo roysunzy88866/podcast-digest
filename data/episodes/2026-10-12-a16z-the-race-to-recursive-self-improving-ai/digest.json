@@ -1,0 +1,215 @@
+{
+  "title_zh": "AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」",
+  "tldr": "MakerMaker.AI 创始人 Daval Ajada 和 Owen He 向 a16z 的 Martin Casado 讲解什么是真正的递归自我改进。",
+  "digest_md": "现在很多创业公司都把 RSI（递归自我改进）挂在嘴边。但 MakerMaker.AI 的两位创始人 Daval Ajada 和 Owen He 认为，其中大部分名不副实。一位是 MIT Media Lab 强化学习博士，一位曾在 DeepMind 做研究科学家，他们现在做的，是让 AI 系统真正去改进它自己。\n\n> 【背景】a16z 是硅谷知名风投机构；MakerMaker.AI 是两位嘉宾创立的创业公司；RSI 指递归自我改进（recursive self-improvement），即 AI 系统改进自身的循环过程。\n\n## 用 AI 造 AI不等于自我改进\n\nMartin Casado 说，他见过太多融资路演，一问都说自己在做 RSI，再细问，原来是用 AI 写 GPU 内核。这算吗？\n\n两位创始人的判断标准很简单：分清谁是改进者，谁是被改进者。人类用 AI 工具造出更好的 AI，改进的思路仍然来自人脑——他们称之为自催化，历史上一直如此：没有计算机就造不出更好的芯片，没有蒸汽机就挖不出更多的煤。这不新鲜。[03:32 Unknown]\n\n真正的分水岭在于：「Now, for the first time, we could swap the optimizer as the optimizee」——**第一次，改进者本身可以成为被改进的对象**。模型这个大脑成了被优化的东西，认知上的进步可以再投资回自己身上。[04:46 Unknown]\n\n## 为什么闭环这么重要？\n\n用控制论的视角看：只要系统有缺口、闭环没合上，人就必须不断介入、不断注入资源。闭环合上之后，改进的边际收益才可能保持不变甚至变大。\n\nOwen 给了一个直观的数学拆解：能力增长的速度 = 分子除以分母。分子是性能，分母是成本或难度。对蒸汽机这类技术，分子基本固定，所以增长会趋于平台期。而如果被改进的系统自己也是改进者，分子就会随能力一起增长——最好的情况是指数级起飞，最普通的情况是持续恒定的改进。\n\n但**闭环不等于起飞**。这是个非线性控制问题，Casado 提醒：人们一看到循环箭头图就喊起飞，其实非线性系统的行为极难预测。Owen 的回答很坦率：深度学习本身连学习理论都没有，更别说在它上面再叠五六层的系统。答案只能靠实验测出来。\n\n## 怎么判断进步是真的？看分母\n\n这里有一个容易自欺的陷阱。模型发布周期确实在缩短，看起来进步飞快——但把融到的资金除进去，进步可能并不成立。砸更多的钱换来的提升，不是 RSI。\n\nDaval 说得很干脆：如果提升来自不断注入的资源，那就不是 RSI。你得能证明分母没涨。而且分母要算全：不只是算力和钱，还有人的工时、实验次数、烧掉的脑力。为此 MakerMaker 内部有个bleederboard（流血榜），和追求分数的排行榜相对，记录每个人做实验烧掉的成本，全员可见。[11:53 Unknown]\n\n一个反例是 NanoGPT 基准：重新训练当年的 GPT-2，从数周、多卡、数万美元，降到同一块 GPU、几小时、约 100 美元。但 Daval 指出，这纯粹是分母的改善——算法技巧变好了，性能上限没变。真正的 RSI 要分子分母同时改善，这才罕见。而 Daval 认为，他们已经在自己的数据里看到了苗头，而且过去几个月越来越明显。\n\n## 他们的做法：全栈优化，人也是智能体之一\n\n很多人以为 RSI 系统必须全自动、全数字。Owen 澄清：他们的系统是多智能体的，人类研究员和工程师只是其中一种特殊的智能体。**任何不被优化的环节，日后都会变成瓶颈**。[09:56 Unknown]\n\nRSI 可以发生在这个技术栈的很多层面：提示词、外挂系统、模型权重，一直到芯片。MakerMaker 从外挂和权重入手，发现各有收益但都不完整，猜测最终需要多个层面的联合优化。\n\n选题上，他们刻意挑离 AI 本身最近的问题，比如推理加速——推理越快，改进系统本身也越快，形成复利。这也是当下极有经济价值的难题：全世界都想高效地部署最新开源模型。\n\n有意思的是，连用哪个模型做什么都不再由人来定——「今天其实不是我们在决定优化什么，是我们的智能体在决定。」[20:51 Unknown] 甚至那个总指令改进你自己的提示词，本身也在被改进。\n\n## 别被论文骗了：简单的东西才跑得动\n\nDaval 分享了一个扎心的发现：很多声称实现了 RSI 的论文，放到他们内部基础设施上复现，都不奏效。这些想法复杂、漂亮、能发好论文，但在真实规模上跑不通。**反而是能闭环的简单方案才能扩展**。\n\n他们的方法是从第一性原理出发，先建立统一的数学框架，把几百个可能的方案抽象成少数几个通用框架，避免在巨大的搜索空间里迷路。Owen 借用 Feynman 的话：科学有两种，一种是标本收集，一种是物理学——没有统一框架的研究只是在收集标本，你不知道整体是否在变好，还是只是局部小聪明。\n\n验证结果同样艰难。奖励作弊（reward hacking）可能藏在两层、三层智能体之下；大模型本身高度随机，甚至两块同为 B200 的 GPU 行为都略有差异，噪声会传导到顶层。为此公司专门设了一个岗位，内部戏称方差总督，职责就是摧毁自己人的实验结果、找出哪里错了。Daval 说，到目前为止没有捷径能替代quality time：跑几百个实验、盯着看、养出直觉。\n\n## 起飞有上限：物理定律管着\n\n==如果分子一直涨、分母一直降，不就是起飞了吗==？Daval 认为最终会碰到物理极限：粒子数、光速，相乘就是计算量的上限。所以增长必然在某处渐近。\n\nOwen 还补充：智能不是一个标量，而是多维向量。有些维度会起飞，有些会平台期。决定因素是最慢的环节——如果每验证一个想法都要等数月的湿实验和临床试验，药物研发就快不起来；而代码和数学的验证又快又便宜，会先被加速。这就好比：就算数字部分加速一百万倍，物理部分占八成时间，整体也快不了多少。\n\n> 【背景】这里描述的是计算机体系结构中的 Amdahl 定律：系统整体提速受限于未能加速的部分所占的时间比例。\n\n他们内部还有个冷笑话：RSI 的秘密，藏在威斯康星一家浇花园水管的公司里。意思是：真正难的挑战，可能不在人人扎堆的时髦领域，而在没人用 AI 解决的角落。\n\n## 本集带走\n\n- 用 AI 造 AI不算 RSI，关键看被改进的系统是否同时是改进者，闭环是否真正合上。\n- 判断进步是否真实，必须同时看分子（性能）和分母（成本），只涨分子、靠砸钱堆出来的不是自我改进。\n- 闭环不保证起飞——这是经验问题，不是画个循环箭头就能推断的。\n- 他们的初步数据显示：性能提升的同时成本在下降，分子分母同时改善的迹象已经出现。\n- 智能是多维的，验证快慢决定哪个领域先起飞；物理定律给一切增长设了上限。",
+  "quotes": [
+    {
+      "en": "I mean, honestly, we don't even have a learning theory of deep learning.",
+      "zh": "说实话，我们连深度学习的学习理论都没有。",
+      "timestamp": "08:59",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "I think the closest things we have are scaling laws, and these are empirical laws.",
+      "zh": "我认为我们拥有的最接近理论的东西是缩放定律，而这些是经验性定律。",
+      "timestamp": "09:12",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "In this multi-agent system, human researchers and engineers are actually special case of these agents.",
+      "zh": "在这个多智能体系统里，人类研究员和工程师其实是这些智能体的一种特例。",
+      "timestamp": "09:34",
+      "speaker": "Owen He"
+    },
+    {
+      "en": "Anything that you don't optimize will later become your bottleneck.",
+      "zh": "任何你没有优化的东西，之后都会成为你的瓶颈。",
+      "timestamp": "09:56",
+      "speaker": "Owen He"
+    },
+    {
+      "en": "I think for us it's pretty straightforward. It's because if you get improvement and they just come at more and more resources being poured in, it's not RSI.",
+      "zh": "我认为对我们来说这很直接：如果你的改进只是靠投入越来越多的资源得来的，那就不是 RSI。",
+      "timestamp": "10:48",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "We have something called a bleederboard. Where we keep track of the cost of experiments of everybody who's running experiments.",
+      "zh": "我们有个东西叫放血榜。在上面我们记录每个跑实验的人的实验成本。",
+      "timestamp": "11:53",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "A lot of the papers that claim to do RSI, when we test it in our internal infra, we find that they don't work.",
+      "zh": "很多声称做到 RSI 的论文，当我们在我们的内部基础设施里测试时，我们发现它们不管用。",
+      "timestamp": "14:11",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "And what we found is that the simpler thing that closes the loop is the thing that scales.",
+      "zh": "而我们发现，那个能闭合回路的更简单的东西，才是能扩展的东西。",
+      "timestamp": "14:37",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "if you don't put into a unified system, you don't know if the overall system is actually improving or you're just locally applying an idea that's getting better.",
+      "zh": "但如果你不把它放进一个统一的系统里，你就不知道整体系统是不是真的在改进，还是你只是在局部应用一个正在变好的想法。",
+      "timestamp": "16:44",
+      "speaker": "Owen He"
+    },
+    {
+      "en": "today it's not really us who are deciding what to optimize. It's our agent.",
+      "zh": "说实话，今天真正决定优化什么的并不是我们，是我们的智能体。",
+      "timestamp": "20:48",
+      "speaker": "Owen He"
+    },
+    {
+      "en": "We look at it, we try to replicate it, and we realize, oh, it's noise, you know, it's cherry picking.",
+      "zh": "然后我们看它，我们试着复现它，然后我们意识到，哦，那是噪声，是挑数据。",
+      "timestamp": "25:51",
+      "speaker": "Daval Ajada"
+    },
+    {
+      "en": "The secret to RSI is somewhere in a garden hose company in Wisconsin.",
+      "zh": "RSI 的秘密藏在威斯康星州某家浇花水管公司的某个地方。",
+      "timestamp": "30:21",
+      "speaker": "Daval Ajada"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:34",
+      "speaker": "Owen",
+      "en": "But it's not a belief.",
+      "zh": "但这不是信念。"
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Owen",
+      "en": "I mean, honestly, we don't even have a learning theory of deep learning.",
+      "zh": "说实话，我们连深度学习的学习理论都没有。"
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Owen",
+      "en": "I think the closest things we have are scaling laws, and these are empirical laws.",
+      "zh": "我认为我们拥有的最接近理论的东西是缩放定律，而这些是经验性定律。"
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Owen",
+      "en": "I think one misunderstanding people have about our approach to RSI is that they think the entire system has to be fully automatic and digital.",
+      "zh": "我认为人们对我们的 RSI 路线有一个误解，就是他们认为整个系统必须完全自动化、完全数字化。"
+    },
+    {
+      "timestamp": "01:47",
+      "speaker": "Owen",
+      "en": "In this multi-agent system, human researchers and engineers are actually special case of these agents.",
+      "zh": "在这个多智能体系统里，人类研究员和工程师其实是这些智能体的一种特例。"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Owen",
+      "en": "Anything that you don't optimize will later become your bottleneck.",
+      "zh": "任何你没有优化的东西，之后都会成为你的瓶颈。"
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Martin",
+      "en": "If you divide by the actual amount of capital raised by these companies, that's no longer the case, right?",
+      "zh": "但如果你除以这些公司实际募集到的资本量，情况就不再是那样了，对吧？"
+    },
+    {
+      "timestamp": "02:10",
+      "speaker": "Owen",
+      "en": "I think for us it's pretty straightforward. It's because if you get improvement and they just come at more and more resources being poured in, it's not RSI.",
+      "zh": "我认为对我们来说这很直接：如果你的改进只是靠投入越来越多的资源得来的，那就不是 RSI。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Owen",
+      "en": "We have something called a bleederboard. Where we keep track of the cost of experiments of everybody who's running experiments.",
+      "zh": "我们有个东西叫放血榜。在上面我们记录每个跑实验的人的实验成本。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Owen",
+      "en": "A lot of the papers that claim to do RSI, when we test it in our internal infra, we find that they don't work.",
+      "zh": "很多声称做到 RSI 的论文，当我们在我们的内部基础设施里测试时，我们发现它们不管用。"
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Owen",
+      "en": "And what we found is that the simpler thing that closes the loop is the thing that scales.",
+      "zh": "而我们发现，那个能闭合回路的更简单的东西，才是能扩展的东西。"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Owen",
+      "en": "The reason is because this space is so large that if you don't do that and you don't have this very principled way of doing it, you get lost very quickly in this complexity.",
+      "zh": "原因是这个空间太大了，如果你不这么做、没有一个非常有原则的方法，你会很快迷失在这种复杂性中。"
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Owen",
+      "en": "So without a unified math framework, all these research are sort of just STEM collections.",
+      "zh": "所以没有一个统一的数学框架，所有这些研究都只是 STEM 集合。"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Owen",
+      "en": "But if you don't put into a unified system, you don't know if the overall system is actually improving or you're just locally applying an idea that's getting better.",
+      "zh": "但如果你不把它放进一个统一的系统里，你就不知道整体系统是不是真的在改进，还是你只是在局部应用一个正在变好的想法。"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Owen",
+      "en": "Honestly, today it's not really us who are deciding what to optimize. It's our agent.",
+      "zh": "说实话，今天真正决定优化什么的并不是我们，是我们的智能体。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "Owen",
+      "en": "Yeah, we try to be like as hands-off as possible, let it do its thing.",
+      "zh": "是的，我们尽量做到最大程度的放手，让它做它自己的事。"
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Owen",
+      "en": "But even the master prompt has been improving.",
+      "zh": "但连那个主提示词也一直在被改进。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Owen",
+      "en": "But it's not a belief. It's empirical measurement.",
+      "zh": "不，这不是信念，这是实证测量。"
+    },
+    {
+      "timestamp": "09:30",
+      "speaker": "Owen",
+      "en": "We look at it, we try to replicate it, and we realize, oh, it's noise, you know, it's cherry picking.",
+      "zh": "然后我们看它，我们试着复现它，然后我们意识到，哦，那是噪声，是挑数据。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Owen",
+      "en": "So for example, we have one of our engineers that we named him the Viceroy of Variance.",
+      "zh": "比如说，我们有一位工程师，我们给他起名叫「方差总督」。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Owen",
+      "en": "I think the defining factor is what is the slowest component in it.",
+      "zh": "我认为决定性因素是这个系统里最慢的组件是什么。"
+    },
+    {
+      "timestamp": "13:22",
+      "speaker": "Owen",
+      "en": "The secret to RSI is somewhere in a garden hose company in Wisconsin.",
+      "zh": "RSI 的秘密藏在威斯康星州某家浇花水管公司的某个地方。"
+    }
+  ],
+  "voice_script": "今天这一期，来头不小。两位嘉宾是 MakerMaker.AI 的创始人，一位叫 Daval Ajada，MIT 媒体实验室的强化学习博士；另一位叫 Owen He，之前在 DeepMind 做研究科学家。他们干的活儿，说出来有点科幻——让 AI 系统真正去改进它自己，也就是这两年特别火的一个概念，叫 RSI，递归自我改进。这期对话的另一方，是硅谷风投机构 a16z 的 Martin Casado。\n\n先把这个背景垫清楚。所谓递归自我改进，说白了就是 AI 改进 AI，转起来的一个循环。现在很多创业公司都把这个词挂在嘴边，好像不提就融不到钱。Martin Casado 就说，他见过太多路演，一问都说在做 RSI，再细问，原来只是用 AI 写 GPU 内核。这算不算？两位创始人给出的判断标准很简单：分清谁是改进者，谁是被改进者。\n\n你用 AI 工具造出更好的 AI，听起来很厉害，但改进的思路还是从你脑子里来的。他们管这个叫自催化，历史上一直如此——没有计算机，就造不出更好的芯片；没有蒸汽机，就挖不出更多的煤。这不新鲜。真正的分水岭在于，第一次，改进者本身可以成为被改进的对象。模型这个大脑成了被优化的东西，认知上的进步可以再投资回自己身上。这才是 RSI 该有的样子。\n\n那为什么这个闭环这么重要？Owen 给了一个很直观的数学拆解。你可以把能力增长的速度想象成一个分数：分子是性能，分母是成本或者难度。对蒸汽机这类技术，分子基本是固定的，分母在降，所以增长总会趋于平台期，慢下来。可如果被改进的系统自己也是改进者呢？分子就会跟着能力一起涨——最好的情况是指数级起飞，最普通的情况，也是持续恒定的改进。闭环合上之后，人就不用不断介入、不断往里砸资源了。\n\n不过这里得泼盆冷水。闭环不等于起飞。Casado 提醒说，人们一看到循环箭头图就喊起飞，其实非线性系统的行为极难预测。Owen 的回答很坦率，有句话值得记住：说实话，我们连深度学习的学习理论都没有，最接近理论的东西是缩放定律，而那是经验性的。所以答案只能靠实验测出来，没有捷径。\n\n既然没有理论，那怎么判断进步是不是真的？这里有个特别容易自欺的陷阱。你看，模型的发布周期确实在缩短，看起来进步飞快。但 Daval 说得很干脆：如果提升来自不断注入的资源，那就不是 RSI。你得能证明分母没涨——而且分母要算全，不只是算力和钱，还有人的工时、实验次数、烧掉的脑力。为此 MakerMaker 内部有个榜，叫放血榜，跟追求分数的排行榜相对，上面记录每个人跑实验烧掉的成本，全员可见。听着有点自虐，但这就是诚实。\n\n有个现成的反例。有个叫 NanoGPT 的基准，把当年的 GPT-2 重新训练一遍，从原来要几周、多块 GPU、几万美元，降到同一块卡、几个小时、大约一百美元。厉害吧？但 Daval 指出，这纯粹是分母的改善——算法技巧变好了，性能上限一点没动。真正的 RSI 要分子分母同时改善，这才罕见。而按 Daval 的说法，他们已经在自己的数据里看到了苗头，过去几个月越来越明显。\n\n那他们具体是怎么做的？很多人以为这种系统必须全自动、全数字。Owen 澄清说，他们的系统是多智能体的，人类研究员和工程师只是其中一种特殊的智能体。这背后有个很硬的道理：任何你没有优化的东西，之后都会成为你的瓶颈。R S I 可以发生在技术栈的很多层面，从提示词、外挂系统，到模型权重，一直到芯片。他们从外挂和权重入手，发现各有收益但都不完整，猜测最终需要多个层面的联合优化。更有意思的是，连做什么都不再由人来定了——今天不是他们在决定优化什么，是智能体在决定。甚至那个负责改进系统的总指令提示词，本身也在被改进。\n\n讲到这儿，Daval 分享了一个挺扎心的发现。很多声称实现了 RSI 的论文，拿到他们内部基础设施上复现，都不奏效。这些想法复杂、漂亮、能发好论文，但在真实规模上跑不通。反而是能闭环的简单方案才能扩展。所以他们的方法是从第一性原理出发，先建统一的数学框架，把几百个可能的方案抽象成少数几个通用框架。Owen 借用费曼的话说，科学有两种，一种是标本收集，一种是物理学——没有统一框架的研究，只是在收集标本，你根本不知道整体是在变好，还是只是局部的小聪明。\n\n验证就更难了。奖励作弊可能藏在两层、三层智能体之下；大模型本身高度随机，甚至两块同型号的 GPU 行为都略有差异，噪声会一路传导到顶层。为此公司专门设了一个岗位，内部戏称方差总督，职责就是摧毁自己人的实验结果、找出哪里错了。Daval 说，到目前为止，没有捷径能替代时间：跑几百个实验、盯着看、养出直觉。\n\n那如果分子一直涨、分母一直降，是不是就永远起飞下去了？也不是。Daval 认为最终会碰到物理极限——粒子数、光速，相乘就是计算量的上限，增长必然在某处渐近。Owen 还补了一层：智能不是一个标量，是个多维向量，有些维度会起飞，有些会平台期，决定因素是最慢的环节。比如药物研发，每验证一个想法都要等数月的湿实验和临床试验，那再快的算法也快不起来；而代码和数学的验证又快又便宜，会先被加速。就算数字部分加速一百万倍，物理部分占八成时间，整体也快不了多少。他们内部还有个冷笑话，说 RSI 的秘密，藏在威斯康星一家浇花园水管的公司里——真正难的挑战，可能不在人人扎堆的时髦领域，而在没人用 AI 解决的角落。\n\n这一期听下来，最有价值的就是那个判断标准：用 AI 造 AI 不算自我改进，关键看被改进的系统是不是同时是改进者；而判断进步是不是真的，必须分子分母一起看，靠砸钱堆出来的提升，不算数。闭环不保证起飞，这是要靠实验回答的问题。但他们的初步数据里，性能在涨、成本在降，分子分母同时改善的迹象，已经出现了。"
+}

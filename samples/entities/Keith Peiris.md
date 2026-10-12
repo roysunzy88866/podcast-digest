@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":36,"HubSpot":10,"CRM":6,"记录系统":7,"产品市场契合":30,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":36,"HubSpot":10,"CRM":6,"记录系统":7,"产品市场契合":31,"NDR":1,"发布视频":1,"ICP":3}</script>
 
 <script>
 (function(){

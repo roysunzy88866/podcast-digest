@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":6,"Droid":1,"智能体":473,"harness":63,"模型独立性":1,"路由器":1,"token":33,"开源模型":4,"软件工厂":1,"基于结果的付费":4}</script>
+<script type="application/json" class="pd-epn">{"Factory":6,"Droid":1,"智能体":478,"harness":63,"模型独立性":1,"路由器":1,"token":33,"开源模型":4,"软件工厂":1,"基于结果的付费":4}</script>
 
 <script>
 (function(){

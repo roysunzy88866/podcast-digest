@@ -128,9 +128,9 @@ jsonLd: |
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:Apple、Perplexity · 同概念:推理 (inference)、智能体 (agent)</span>
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]]<span class="pd-rz">同公司:Apple · 同概念:智能体 (agent)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
-- [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同公司:Superhuman · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
+[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Google":70,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":108,"Gemini":16,"Perplexity":9,"Instagram":8,"Stories":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Google":70,"AI Mode":1,"AI Overviews":1,"Google Lens":1,"ChatGPT":108,"Gemini":16,"Perplexity":10,"Instagram":9,"Stories":2}</script>
 
 <script>
 (function(){

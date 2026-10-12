@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michael Tannenbaum]] · [[Figure]] · [[SoFi]] · [[Brex]] · [[高管心态]] · [[市场]] · [[区块链]] · [[分词]] · [[SoftBank]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"SoFi":1,"Brex":7,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":51}</script>
+<script type="application/json" class="pd-epn">{"Michael Tannenbaum":1,"Figure":2,"SoFi":1,"Brex":7,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":52}</script>
 
 <script>
 (function(){

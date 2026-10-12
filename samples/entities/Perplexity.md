@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Perplexity</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Perplexity">PE</div><div class="pi"><h1 class="pt">Perplexity</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Perplexity">PE</div><div class="pi"><h1 class="pt">Perplexity</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]]**(01:08起):本集提到 NVIDIA 正在投资 Perplexity 的 300 亿估值融资轮，作为 NVIDIA 投资布局的一环被提及
 - **[[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]]**(02:43起):本集说 Perplexity 更像一个垂直整合的产品,与个人智能体类产品竞争,而不直接在 Parallel 的网页搜索业务范围内。
 - **[[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]]**(01:44起):Lon 第三选、全场「正确答案」：AI 搜索与智能体公司，苹果没有押注任何单一模型，「完全可以做到模型无关，而 Perplexity 会是完美的路由器」；观众 David Rosenberg 也把它排第一。
+- **[[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]]**(00:01起):本集主题公司：从 2022 年的回答引擎演化为多步骤搜索智能体、浏览器智能体，定位为模型中立的智能体编排平台，营收同比增长 5 倍
 
 ## ① 提到它的金句
 
@@ -33,7 +34,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
@@ -44,14 +45,15 @@ unlisted: true
 - [[2026-08-27-twentyvc-20vc-nvidia-bonanza-buys-poolside-invest|《NVIDIA 布局全栈、OpenAI 被迫上市与 AI 资本的"第五名效应"》]] — 作为被讨论公司(提及)
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|《智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索》]] — 作为被讨论公司(提及)
 - [[2026-09-28-twist-the-5-companies-apple-must-buy|《苹果该买谁？一场收购选秀 + 追踪阳光的可穿戴吊坠》]] — 作为概念
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Shopify]] · [[推理]] · [[Amazon]] · [[Stripe]] · [[Lenny]] · [[Instagram]] · [[开源模型]]
+[[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[推理]] · [[Shopify]] · [[Amazon]] · [[Stripe]] · [[Lenny]] · [[Instagram]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"OpenAI":195,"ChatGPT":108,"Shopify":17,"推理":95,"Amazon":32,"Stripe":48,"Lenny":69,"Instagram":8,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"OpenAI":195,"ChatGPT":108,"推理":98,"Shopify":17,"Amazon":32,"Stripe":48,"Lenny":69,"Instagram":9,"开源模型":4}</script>
 
 <script>
 (function(){

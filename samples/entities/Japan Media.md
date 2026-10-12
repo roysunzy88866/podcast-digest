@@ -25,7 +25,7 @@ unlisted: true
 
 [[Techstars Tokyo]] · [[Founder University]] · [[Arabat]] · [[Claudezio]] · [[AssetHub]] · [[RumiLight]] · [[Toraru]] · [[Genji]] · [[AI 智能体]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Techstars Tokyo":1,"Founder University":1,"Arabat":1,"Claudezio":1,"AssetHub":1,"RumiLight":1,"Toraru":1,"Genji":1,"AI 智能体":3,"产品市场契合":30}</script>
+<script type="application/json" class="pd-epn">{"Techstars Tokyo":1,"Founder University":1,"Arabat":1,"Claudezio":1,"AssetHub":1,"RumiLight":1,"Toraru":1,"Genji":1,"AI 智能体":3,"产品市场契合":31}</script>
 
 <script>
 (function(){

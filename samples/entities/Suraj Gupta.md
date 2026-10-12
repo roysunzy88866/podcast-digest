@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":5,"智能体":473,"软件工厂":1,"技能":30,"外循环智能体":1,"持久记忆":1,"模型路由":11,"分诊智能体":1,"Claude Code":104,"Codex":83}</script>
+<script type="application/json" class="pd-epn">{"Warp":5,"智能体":478,"软件工厂":1,"技能":30,"外循环智能体":1,"持久记忆":1,"模型路由":12,"分诊智能体":1,"Claude Code":105,"Codex":85}</script>
 
 <script>
 (function(){

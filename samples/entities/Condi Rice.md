@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":68,"AMD":5,"GPU":30,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":1,"CPU":5}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":69,"AMD":5,"GPU":30,"Parallel":6,"深度学习":4,"第一性原理":6,"五层蛋糕":1,"模拟":1,"CPU":5}</script>
 
 <script>
 (function(){

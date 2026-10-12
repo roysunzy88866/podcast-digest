@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":5,"OpenAI":195,"数据中心":23,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":95,"GPU":30,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":5,"OpenAI":195,"数据中心":24,"液冷":1,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":98,"GPU":30,"核能":1}</script>
 
 <script>
 (function(){

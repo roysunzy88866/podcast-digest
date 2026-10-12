@@ -275,9 +275,9 @@ Jordan 倒没那么悲观：
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:NVIDIA、DeepMind · 同概念:推理 (inference)、数据中心 (data center)</span>
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、OpenAI、NVIDIA · 同概念:推理 (inference)</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI、Google</span>
 
 </div>
 </div>

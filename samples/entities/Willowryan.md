@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":19,"SpaceX":21,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":20,"SpaceX":21,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
 
 <script>
 (function(){

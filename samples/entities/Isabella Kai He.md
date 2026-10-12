@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":200,"智能体":473,"harness":63,"沙箱":94,"智能体循环":6,"上下文工程":17,"会话日志追踪":2,"泄露的凭证":5,"可观测性":43}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":200,"智能体":478,"harness":63,"沙箱":95,"智能体循环":6,"上下文工程":17,"会话日志追踪":2,"泄露的凭证":5,"可观测性":43}</script>
 
 <script>
 (function(){

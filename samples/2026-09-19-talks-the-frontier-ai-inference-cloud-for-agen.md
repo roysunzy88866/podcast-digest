@@ -126,8 +126,8 @@ Friendly AI 围绕这些挑战逐层重建了技术栈，唯一目标是优化�
 **顺着「智能体」挖下去**
 
 - [[2026-08-26-a16z-the-state-of-ai-macro-apps-and-consumer|AI 应用层的黄金时刻：a16z 投资人 Anish Acharya 谈智能如何变成生意]]<span class="pd-rz">同概念:开放权重模型 (open-weight models)、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同概念:开放权重模型 (open-weight models)、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)、vLLM</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同概念:开放权重模型 (open-weight models)、智能体 (agent)、GLM 5.2</span>
 
 </div>
 <div class="pd-ex">

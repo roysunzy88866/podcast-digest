@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":14,"Marble":5,"智能体":473,"Atlas":4,"Sam Charrington":6,"Martin Casado":6,"模拟":1,"高斯溅射":1,"空间智能":3}</script>
+<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":14,"Marble":5,"智能体":478,"Atlas":4,"Sam Charrington":6,"Martin Casado":7,"模拟":1,"高斯溅射":1,"空间智能":3}</script>
 
 <script>
 (function(){

@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":473,"推理":95,"Stripe":48,"Barney Hussey-Yeo":1,"Cliff Obrecht":1,"Molly O'Shea":1,"Clio":1,"Canva":5,"智能体商务":1,"LLM":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"推理":98,"Stripe":48,"Barney Hussey-Yeo":1,"Cliff Obrecht":1,"Molly O'Shea":1,"Clio":1,"Canva":5,"智能体商务":1,"LLM":61}</script>
 
 <script>
 (function(){

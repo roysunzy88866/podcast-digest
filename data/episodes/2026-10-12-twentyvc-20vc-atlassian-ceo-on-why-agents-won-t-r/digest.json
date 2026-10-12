@@ -1,0 +1,245 @@
+{
+  "title_zh": "智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断",
+  "tldr": "Atlassian 联合创始人兼 CEO Mike Cannon-Brookes 谈 AI 智能体、中国模型、自研模型热潮和创业者的耐力。",
+  "digest_md": "==智能体会不会取代软件界面==?所有公司都该自研模型吗?中国模型该不该用?Atlassian 联合创始人兼 CEO Mike Cannon-Brookes 做客 20VC,给出一连串不太随大流的答案。他语速快、爱抬杠，但也坦率——聊到激动处直接爆粗口。\n\n> 【背景】Atlassian 是澳大利亚软件公司，旗下有 Jira、Confluence 等企业协作产品，市值数百亿美元。Mike 与 Scott Farquhar 共同创办公司，Scott 已退出日常管理。\n\n## 无头是没脑子，界面不会消亡\n\n业界流行一种说法：智能体时代，软件只要开放数据接口、不需要自己的界面了，这叫无头(headless)。Mike 的态度很直接：Headless is brainless——放弃界面等于放弃为客户解决问题的体验，是一个没脑子的赌注[03:31 Mike]。\n\n他不否认接口的价值。Atlassian 的 MCP 服务器排在全球前五，各种智能体都能读写他们的平台。但在他看来，接口展示的只是数据质量，真正留住客户的还是界面和体验。\n\n他的逻辑是：技术创造越来越便宜，做出来一个不错的应用很容易，但今天超过 90% 应用的产品，五年后只比 20% 强。持续升级体验很难，恰恰因此它才是护城河。「**设计和体验会是在 AI 时代脱颖而出的关键**」[07:22 Mike]。\n\n## 没有一个魔法按钮能搞定一切\n\n有人相信会出现一个全能智能体，一个按钮按下去什么都帮你做。Mike 明确表示自己是这种论调的空头。\n\n现实会是三者并存：横向智能体处理一类宽泛任务，纵向智能体在单一任务上扎得很深，而传统界面依然不可替代。他举了个例子：在 Confluence 页面里选中一段文字，让 Databricks 或 Snowflake 帮你核对数字、生成小图表，这很好用——但这不代表 Confluence 要变成商业智能工具。\n\n现在最让设计团队头疼的问题反而是最基础的：一个空白文本框，用户盯着它却只会当谷歌搜索用。还有更麻烦的——Codex 替 Harry 提交了代码，那这活儿到底算 Harry 干的还是机器干的？内容该不该标注水印？「一段文字的来源，是一个不简单的问题」[12:44 Mike]。\n\n他甚至预测，五年后大家不会再纠结内容是否被 AI 碰过，就像今天没人要求看没调过色的电影。\n\n## 中国模型：客户说不，但他觉得矛盾\n\n有投资人说，美国大企业根本不愿用中国的开源模型。Mike 承认确实存在客户抵触，Atlassian 因此「在生产环境中不用任何中国模型」[18:10 Mike]。但他对这种态度本身存疑。\n\n他反问客户：你们用 Linux 吗？Linux 相当比例的贡献来自中国工程师，你们不也用得挺欢？在他看来，谁主导世界的地缘政治问题，和「该不该用一个在中国训练的开源模型」，是两个不同的问题。\n\n更微妙的是，很多美国模型其实也在用中国模型的蒸馏数据训练自己，只是不说。他爆料：大公司宣称自研的模型，多半是在中国开源模型基础上微调再改个名字。「等一下，那是胡扯，那还是同一个东西」[20:32 Mike]。\n\n## 自研模型?大部分是在吹牛\n\n这两年 Harvey、Ramp 等公司都宣传自研模型的好处。Mike 不为所动：「**现在自建专用模型的好处究竟如何，还没有定论**」[21:05 Mike]。\n\n他不否认少数场景成立：有大量专有数据、非常专门的应用，比如机器人和世界模型。但大多数人宣称训练了自己的模型，在他看来言过其实。有人号称花 100 万美元训练模型，他的反应是：不可能，你只是拿别人十亿美元的模型做了定制。\n\n真正的判据是什么？专用模型必须持续证明自己比通用模型更便宜、更好。而现实是，很多三四年前做专用模型的创业公司，已经被通用大模型的进步碾过去了。\n\n## 成本纪律是大公司的武器\n\n主持人打趣：私创公司拿了大笔融资，可以不在乎成本、全用最贵的模型。Mike 不买账——不养成对成本的纪律，长期是坏事。\n\nAtlassian 的做法是：先做让人惊艳的功能，等真有几百万人用了，再拼命降成本。如果一个功能只有 5 个人用，成本无所谓；如果有 500 万人用，成本就是大事 [30:00 Mike]。为此他们有专门的 AI 网关团队做模型路由——每个任务用最合适的模型，兼顾质量、速度和价格。\n\n他还押注推理成本会暴跌：投向芯片、数据中心、蒸馏的资本和人才太庞大了，价格不可能不降。但更重要的判断是：「现在技术的生产速度已经快于消费速度」[32:38 Mike]。你的手机是超级计算机，但你从没把处理器跑满。\n\n## 从信息不对称到想象力不对称\n\n整场谈话里最漂亮的一个观点，是他引用 CultureAmp 创始人 Didier 的话：「**我们正从信息不对称的世界，走向想象力不对称的世界**」[32:41 Mike]。\n\n过去你赢，是因为你知道别人不知道的东西。以后知识会越来越便宜，赢的是那些能把 AI 用在新问题、新方式上的人。对喜欢从第一性原理思考的人来说，这是最好的时代。\n\n他自己最大的短板反而是没时间。他自嘲每天被智能体和通知撕成碎片，最近几个月强迫自己每周留出几个小时做深度慢思考。慢下来才能快起来，这可能是所有人都要学的技能。\n\n## 创业不该这么容易\n\n主持人提到不少二十来岁的创始人融资 1500 万美元、做一阵子就套现离场。Mike 的回应带着老派味道：现在拿钱太容易了。\n\n纯粹的金钱和圈子动机，撑不过五年十年。能撑下来的人，靠的是和聪明人一起解决难题的快乐。他自己和一万名最聪明的人共事，每天乐此不疲——「如果你给我设计一份工作，我会说这就是我想余生都做的事」[45:35]。「我总是说，我每天都能和非常多非常聪明的人一起解决难题」[45:29]。\n\n## 本集带走\n\n- 智能体不会取代界面；技术创造越便宜，设计和体验越是护城河。\n- 别相信魔法按钮：横向智能体、纵向智能体和传统界面会长期共存。\n- Atlassian 因客户顾虑不在生产环境用中国模型，但 Mike 认为抵触开源模型长期站不住脚。\n- 大多数自研模型其实是拿开源模型微调改名；专用模型必须持续跑赢通用模型才成立。\n- 推理成本会大跌，而技术生产已快于消费；真正的稀缺能力从信息变成了想象力。",
+  "quotes": [
+    {
+      "en": "Headless is brainless by definition.",
+      "zh": "无头的在定义上就是无脑的。",
+      "timestamp": "05:23",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "Because when people talk about headless in that way, if you're giving up on your user interface, if you're giving up on evolving your experience for a customer to solve the problems that you set out to solve for them, if you are not a significant part of that experience, yes, I think that's a brainless bet.",
+      "zh": "因为当人们那样谈论无头时，如果你放弃了自己的用户界面，如果你放弃了为客户演进你的体验以解决你当初要为他们解决的问题，如果你不是那个体验的重要组成部分，是的，我认为那是一个无脑的赌注。",
+      "timestamp": "05:31",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "If you argue that technology creation is increasingly cheap, technology creation is abundant and verdant, the differentiators, to me, clearly one of them will be design and experience, will be what makes you stand out as an application or as a product or a service.",
+      "zh": "如果你说技术创造越来越便宜，技术创造充足而繁茂，那么差异化因素——在我看来，其中一个显然会是设计和体验，它将是让你作为一个应用、一个产品或一个服务脱颖而出的东西。",
+      "timestamp": "07:22",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I don't think agents will replace all the interfaces. I think all three of these can be true at the same time.",
+      "zh": "我不认为智能体会取代所有的界面。我认为这三者可以同时成立。",
+      "timestamp": "08:02",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I'm a big bear on their magic button thesis of AI, that there'll be one button we press and it does it all for us.",
+      "zh": "我非常看空 AI 的那个魔法按钮论，即会有一个按钮，我们按下它，它就为我们做好一切。",
+      "timestamp": "09:32",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "For the first time in a long time, we're solving foundational design challenges again, right?",
+      "zh": "很长时间以来第一次，我们又在解决基础性的设计挑战了，对吧？",
+      "timestamp": "10:06",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I mean, text boxes suck, firstly, giving you a little text box and saying, here is a one line piece of text that you can type characters into and it has unlimited power and it's just a blank white line.",
+      "zh": "我是说，首先，文本框很糟糕——给你一个小文本框，说，这里有一行文本，你可以往里面输入字符，而它拥有无限的能力，它就只是一条空白线。",
+      "timestamp": "11:10",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I think in five years' time, we'll have watermarked content for human-created content because it will be 90% AI-created content.",
+      "zh": "我认为五年后，我们将为人类创作的内容打水印，因为那将是 90% AI 创作的内容。",
+      "timestamp": "14:29",
+      "speaker": "Harry Stebbings"
+    },
+    {
+      "en": "We want to be very customer-led in our decision-making, and there is certainly some customer pushback in some places to quote-unquote Chinese models. There is not customer pushback to open models.",
+      "zh": "我们在决策中希望非常以客户为主导，而确实在某些地方，客户对所谓的「中国模型」有抵触。客户对开源模型并没有抵触。",
+      "timestamp": "17:29",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "It's not to pick a model. It's to use the best model for the best job.",
+      "zh": "不是去挑选一个模型。而是为最适合的工作用最好的模型。",
+      "timestamp": "17:52",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I think what people don't understand is the distillation and the back and forth where knowing it's a Chinese model is kind of really interesting, but a lot of the US models are increasingly using Chinese models to train themselves, but they don't say that.",
+      "zh": "我认为人们没有理解的是蒸馏和来回的过程——知道它是个中国模型这一点其实挺有意思，但很多美国模型越来越多地用中国模型来训练自己，只是它们不说。",
+      "timestamp": "18:11",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "The jury is really out on the benefits of building specialized models at the moment.",
+      "zh": "目前，构建专用模型的好处还没有定论。",
+      "timestamp": "21:05",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "You see they train them for like a million bucks and I'm like, there's no way you train this for a million bucks. You took someone's billion dollar model and tailored it, if you want to think about it generically, for a particular application.",
+      "zh": "你会看到他们说花了一百万美元训练它们，我就会想，你不可能只花一百万美元训练出这个。你是拿了别人花费数十亿美元打造的模型，然后把它改造得适合某个特定应用——如果你泛泛地这么理解的话。",
+      "timestamp": "22:26",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "These specialized models have to prove that they can stay ahead of the generified model for a given price performance ratio. I don't think I see many of them doing that.",
+      "zh": "这些专用模型必须证明，在给定的性价比之下，它们能持续领先于通用化模型。我不认为我看到它们中的很多做到了这一点。",
+      "timestamp": "23:43",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "I think that is a core strength and attribute of a great technology company will be its ability to manage technological costs.",
+      "zh": "我认为，一家伟大技术公司的核心优势和特质，将是它管理技术成本的能力。",
+      "timestamp": "26:51",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "So I say to product teams all the time, don't over optimize for cost in the short term. Build amazing magical features.",
+      "zh": "所以我总是对产品团队说，不要在短期内过度优化成本。先构建惊艳的、有魔力的功能。",
+      "timestamp": "29:37",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "Right now, the production of technology is faster than the consumption of technology.",
+      "zh": "现在，技术的生产速度快于技术的消费速度。",
+      "timestamp": "31:32",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "We're moving from a world of information asymmetry to imagination asymmetry, which is such a great way of thinking about it, right?",
+      "zh": "我们正在从一个信息不对称的世界迈向一个想象力不对称的世界，这是一种如此好的思考方式，对吧？",
+      "timestamp": "32:51",
+      "speaker": "Mike Cannon-Brookes"
+    },
+    {
+      "en": "My worry is more that it should be hard, and I completely agree with you on the challenges of founders, but we've made it so normal now for someone to come out, raise 15 million bucks.",
+      "zh": "我更大的担忧是，这件事本来应该是难的，我完全同意你对创始人所面临挑战的看法，但我们现在把这一切变得太正常了：一个人出来融个一千五百万美元。",
+      "timestamp": "48:32",
+      "speaker": "Harry Stebbings"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:23",
+      "speaker": "Unknown",
+      "en": "Headless is brainless by definition.",
+      "zh": "无头的在定义上就是无脑的。"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Unknown",
+      "en": "Because when people talk about headless in that way, if you're giving up on your user interface, if you're giving up on evolving your experience for a customer to solve the problems that you set out to solve for them, if you are not a significant part of that experience, yes, I think that's a brainless bet.",
+      "zh": "因为当人们那样谈论无头时，如果你放弃了自己的用户界面，如果你放弃了为客户演进你的体验以解决你当初要为他们解决的问题，如果你不是那个体验的重要组成部分，是的，我认为那是一个无脑的赌注。"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Unknown",
+      "en": "I think it becomes more important. I think design and experience is one of the keys to success in the AI era.",
+      "zh": "我认为它变得更重要了。我认为设计和体验是 AI 时代成功的关键之一。"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Unknown",
+      "en": "If you argue that technology creation is increasingly cheap, technology creation is abundant and verdant, the differentiators, to me, clearly one of them will be design and experience, will be what makes you stand out as an application or as a product or a service.",
+      "zh": "如果你说技术创造越来越便宜，技术创造充足而繁茂，那么差异化因素——在我看来，其中一个显然会是设计和体验，它将是让你作为一个应用、一个产品或一个服务脱颖而出的东西。"
+    },
+    {
+      "timestamp": "08:02",
+      "speaker": "Unknown",
+      "en": "I don't think agents will replace all the interfaces. I think all three of these can be true at the same time.",
+      "zh": "我不认为智能体会取代所有的界面。我认为这三者可以同时成立。"
+    },
+    {
+      "timestamp": "09:32",
+      "speaker": "Unknown",
+      "en": "I'm a big bear on their magic button thesis of AI, that there'll be one button we press and it does it all for us.",
+      "zh": "我非常看空 AI 的那个魔法按钮论，即会有一个按钮，我们按下它，它就为我们做好一切。"
+    },
+    {
+      "timestamp": "10:06",
+      "speaker": "Unknown",
+      "en": "For the first time in a long time, we're solving foundational design challenges again, right?",
+      "zh": "很长时间以来第一次，我们又在解决基础性的设计挑战了，对吧？"
+    },
+    {
+      "timestamp": "11:10",
+      "speaker": "Unknown",
+      "en": "I mean, text boxes suck, firstly, giving you a little text box and saying, here is a one line piece of text that you can type characters into and it has unlimited power and it's just a blank white line.",
+      "zh": "我是说，首先，文本框很糟糕——给你一个小文本框，说，这里有一行文本，你可以往里面输入字符，而它拥有无限的能力，它就只是一条空白线。"
+    },
+    {
+      "timestamp": "14:29",
+      "speaker": "Unknown",
+      "en": "I think in five years' time, we'll have watermarked content for human-created content because it will be 90% AI-created content.",
+      "zh": "我认为五年后，我们将为人类创作的内容打水印，因为那将是 90% AI 创作的内容。"
+    },
+    {
+      "timestamp": "17:29",
+      "speaker": "Unknown",
+      "en": "We want to be very customer-led in our decision-making, and there is certainly some customer pushback in some places to quote-unquote Chinese models. There is not customer pushback to open models.",
+      "zh": "我们在决策中希望非常以客户为主导，而确实在某些地方，客户对所谓的「中国模型」有抵触。客户对开源模型并没有抵触。"
+    },
+    {
+      "timestamp": "17:52",
+      "speaker": "Unknown",
+      "en": "It's not to pick a model. It's to use the best model for the best job.",
+      "zh": "不是去挑选一个模型。而是为最适合的工作用最好的模型。"
+    },
+    {
+      "timestamp": "18:11",
+      "speaker": "Unknown",
+      "en": "I think what people don't understand is the distillation and the back and forth where knowing it's a Chinese model is kind of really interesting, but a lot of the US models are increasingly using Chinese models to train themselves, but they don't say that.",
+      "zh": "我认为人们没有理解的是蒸馏和来回的过程——知道它是个中国模型这一点其实挺有意思，但很多美国模型越来越多地用中国模型来训练自己，只是它们不说。"
+    },
+    {
+      "timestamp": "21:05",
+      "speaker": "Unknown",
+      "en": "The jury is really out on the benefits of building specialized models at the moment.",
+      "zh": "目前，构建专用模型的好处还没有定论。"
+    },
+    {
+      "timestamp": "22:26",
+      "speaker": "Unknown",
+      "en": "You see they train them for like a million bucks and I'm like, there's no way you train this for a million bucks. You took someone's billion dollar model and tailored it, if you want to think about it generically, for a particular application.",
+      "zh": "你会看到他们说花了一百万美元训练它们，我就会想，你不可能只花一百万美元训练出这个。你是拿了别人花费数十亿美元打造的模型，然后把它改造得适合某个特定应用——如果你泛泛地这么理解的话。"
+    },
+    {
+      "timestamp": "23:43",
+      "speaker": "Unknown",
+      "en": "These specialized models have to prove that they can stay ahead of the generified model for a given price performance ratio. I don't think I see many of them doing that.",
+      "zh": "这些专用模型必须证明，在给定的性价比之下，它们能持续领先于通用化模型。我不认为我看到它们中的很多做到了这一点。"
+    },
+    {
+      "timestamp": "25:57",
+      "speaker": "Unknown",
+      "en": "I think that is a core strength and attribute of a great technology company will be its ability to manage technological costs.",
+      "zh": "我认为，一家伟大技术公司的核心优势和特质，将是它管理技术成本的能力。"
+    },
+    {
+      "timestamp": "29:37",
+      "speaker": "Unknown",
+      "en": "So I say to product teams all the time, don't over optimize for cost in the short term. Build amazing magical features.",
+      "zh": "所以我总是对产品团队说，不要在短期内过度优化成本。先构建惊艳的、有魔力的功能。"
+    },
+    {
+      "timestamp": "31:32",
+      "speaker": "Unknown",
+      "en": "Right now, the production of technology is faster than the consumption of technology.",
+      "zh": "现在，技术的生产速度快于技术的消费速度。"
+    },
+    {
+      "timestamp": "32:41",
+      "speaker": "Unknown",
+      "en": "We're moving from a world of information asymmetry to imagination asymmetry, which is such a great way of thinking about it, right?",
+      "zh": "我们正在从一个信息不对称的世界迈向一个想象力不对称的世界，这是一种如此好的思考方式，对吧？"
+    },
+    {
+      "timestamp": "48:32",
+      "speaker": "Unknown",
+      "en": "My worry is more that it should be hard, and I completely agree with you on the challenges of founders, but we've made it so normal now for someone to come out, raise 15 million bucks.",
+      "zh": "我更大的担忧是，这件事本来应该是难的，我完全同意你对创始人所面临挑战的看法，但我们现在把这一切变得太正常了：一个人出来融个一千五百万美元。"
+    }
+  ],
+  "voice_script": "今天这期,来聊一位澳大利亚企业软件圈的老将。Mike Cannon-Brookes,Atlassian 的联合创始人兼 CEO。Atlassian 这家公司你可能不熟名字,但产品肯定听说过,Jira、Confluence,全球工程师天天在用的协作工具,市值几百亿美元。Mike 最近做客 20VC 这个播客,聊了一堆不太随大流的话题:智能体时代软件界面还要不要、中国模型该不该用、创业公司是不是都该自研模型。语速快、爱抬杠,但相当坦率,聊到激动处直接爆粗口。咱们就顺着他这期里最值钱的那条线,慢慢讲。\n\n先说第一个问题,也是当下业界吵得最凶的:智能体起来了,软件还需要界面吗?有一种流行的说法叫无头,headless,意思是软件只要开放数据接口,让各种智能体来读写,自己不用再维护界面了。Mike 的态度非常直接,一句话:无头的,定义上就是无脑的。为什么这么说?因为放弃界面,等于放弃为客户持续演进体验的能力,放弃解决你当初要为他们解决的问题。这在看来是一个没脑子的赌注。\n\n有人可能会问,接口难道不重要吗?当然重要。Atlassian 自己的 MCP 服务器,排在全球前五,各种智能体都能接入平台读写数据。但关键是,接口展示的只是数据质量,真正留住客户的,还是界面和体验背后的逻辑。你想,技术创造越来越便宜,做出一个还不错的产品很容易,但今天超过九成的应用,五年后只会比剩下那两成强。持续把体验做好,恰恰因为难,才成了护城河。所以那句话值得记下来:设计和体验,会是 AI 时代让一个产品脱颖而出的关键。\n\n那智能体本身呢?会不会有一天出现一个全能按钮,按下去什么都帮你做了?Mike 明确说,自己是这种魔法按钮论的头空头。现实更可能是三者并存:横向智能体处理一类宽泛的任务,纵向智能体在单一任务上扎得很深,而传统界面依然不可替代。举个例子,在 Confluence 页面里选中一段文字,让 Databricks 或者 Snowflake 帮你核对数字、生成小图表,这很好用。但这不代表 Confluence 就该变成商业智能工具。有意思的是,现在最让设计团队头疼的,反而是最基础的问题:一个空白文本框,用户盯着它,却只会当谷歌搜索用。还有更麻烦的,Codex 替 Harry 提交了代码,这活儿算 Harry 干的还是机器干的?内容要不要标水印?Mike 说,一段文字的来源,是个不简单的问题。不过也预测,五年后大家不会再纠结内容有没有被 AI 碰过,就像今天没人要求看没调过色的电影。\n\n从界面聊到模型,这期里最劲爆的一段来了:中国模型该不该用。有投资人说,美国大企业根本不愿碰中国的开源模型。Mike 承认客户抵触确实存在,Atlassian 也因此在生产环境中不用任何中国模型。但对这种态度本身,是有疑问的。反问过客户:你们用 Linux 吗?Linux 相当一部分贡献来自中国工程师,不也用得挺欢?在看来,谁主导世界的地缘政治问题,和该不该用一个在中国训练的开源模型,是两个不同的问题。更微妙的是,很多美国模型其实也在偷偷用中国模型的蒸馏数据训练自己。爆了个料:大公司宣称自研的模型,多半是在中国开源模型基础上微调,再改个名字。用原话说,等一下,那是胡扯,那还是同一个东西。\n\n这个料其实连着下一个话题:创业公司自研模型,到底是真本事还是吹牛?这两年 Harvey、Ramp 都宣传过自研模型的好处。Mike 不为所动,态度是:现在自建专用模型的好处究竟如何,还没有定论。少数场景成立,比如有大量专有数据、应用非常专门,像机器人和世界模型。但大多数人言过其实。有人号称花一百万美元训练模型,反应是:不可能,你只是拿别人十亿美元的模型做了定制。真正的判据只有一条:专用模型必须持续证明自己比通用模型更便宜、更好。而现实是,很多三四年前做专用模型的创业公司,已经被通用大模型的进步碾过去了。\n\n成本这件事,连着大公司和小公司两条线。主持人打趣说,创业公司拿了融资,可以不在乎成本、全用最贵的模型。Mike 不买账:不养成对成本的纪律,长期是坏事。Atlassian 的做法是,先做让人惊艳的功能,等真有几百万人用了,再拼命降成本。功能只有五个人用,成本无所谓;五百万人用,成本就是大事。为此专门有个 AI 网关团队做模型路由,每个任务挑最合适的模型,平衡质量、速度和价格。还押注推理成本会暴跌,因为投向芯片、数据中心、蒸馏的资本和人才太庞大了,价格不可能不降。但更深的一层判断是:现在技术的生产速度,已经快于消费速度。你的手机是超级计算机,可你从没把处理器跑满过。\n\n说到这儿,这场谈话里最漂亮的一个观点就来了,引自 CultureAmp 创始人 Didier 的一句话:我们正从信息不对称的世界,走向想象力不对称的世界。过去你赢,是因为你知道别人不知道的东西。以后知识会越来越便宜,赢的是那些能把 AI 用在新问题、新方式上的人。对喜欢从第一性原理思考的人来说,这是最好的时代。不过对 Mike 自己来说,最大的短板反而是没时间,每天被智能体和通知撕成碎片,最近几个月才强迫自己每周留几个小时做深度慢思考。慢下来才能快起来,这可能是所有人都要学的技能。\n\n最后聊聊创业本身。主持人提到,不少二十来岁的创始人融了一千五百万美元,做一阵子就套现离场。Mike 的回应带着老派味道:现在拿钱太容易了,可纯粹的金钱和圈子动机,撑不过五年十年。能撑下来的,靠的是和聪明人一起解决难题的快乐。跟一万名最聪明的人共事,每天乐此不疲。有句话是这么说的:如果你给我设计一份工作,我会说,这就是我想余生都做的事。所以回到开头那个问题,智能体时代什么最稀缺?不是信息,不是算力,是想象力和耐力。"
+}

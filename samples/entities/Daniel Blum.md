@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":5,"Co-work":4,"Claude Code":104,"Codex":83,"ChatGPT":108,"Notion":17,"Slack":34,"Whisper":2,"Cursor":86,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":6,"Co-work":4,"Claude Code":105,"Codex":85,"ChatGPT":108,"Notion":17,"Slack":34,"Whisper":2,"Cursor":86,"Optimizely":2}</script>
 
 <script>
 (function(){

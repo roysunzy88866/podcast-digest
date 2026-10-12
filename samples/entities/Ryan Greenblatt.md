@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":195,"Anthropic":200,"Hugging Face":36,"对齐":23,"奖励黑客":8,"智能体":473,"Matt Turk":5,"Theo Jaffe":7,"Google DeepMind":9}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":195,"Anthropic":200,"Hugging Face":37,"对齐":23,"奖励黑客":9,"智能体":478,"Matt Turk":5,"Theo Jaffe":7,"Google DeepMind":9}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":200,"Claude":93,"Claude Code":104,"MCP":85,"harness":63,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":200,"Claude":93,"Claude Code":105,"MCP":86,"harness":63,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
 
 <script>
 (function(){

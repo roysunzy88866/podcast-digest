@@ -38,7 +38,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[智能体]] · [[推理]] · [[Cognition]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[Swyx]] · [[投机解码]] · [[Hugging Face]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"推理":95,"Cognition":27,"Anthropic":200,"沙箱":94,"OpenAI":195,"Swyx":2,"投机解码":1,"Hugging Face":36,"NVIDIA":68}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"推理":98,"Cognition":27,"Anthropic":200,"沙箱":95,"OpenAI":195,"Swyx":2,"投机解码":1,"Hugging Face":37,"NVIDIA":69}</script>
 
 <script>
 (function(){

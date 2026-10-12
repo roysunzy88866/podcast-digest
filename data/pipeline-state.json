@@ -251,7 +251,8 @@
     "X4w2Pkz5tDY": "2026-10-07-talks-grep-or-embeddings-agentic-search-over-c",
     "XqF-IFHBCkM": "2026-10-07-talks-redesigning-how-software-gets-built-with",
     "cf2IhzqeQH4": "2026-10-07-talks-every-ai-company-is-accidentally-buildin",
-    "exiwa9QbQXI": "2026-10-07-talks-the-software-factory-from-bug-report-to"
+    "exiwa9QbQXI": "2026-10-07-talks-the-software-factory-from-bug-report-to",
+    "f3o0-9Dlw3E": "2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -268,7 +269,8 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
+    "2026-10-07-talks-why-ai-agents-should-have-their-own-sand": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -356,7 +358,8 @@
     "2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with": "2026-10-12",
     "2026-09-25-bigtech-meta-s-muse-revival-frontier-ai-under-th": "2026-10-12",
     "2026-09-25-a16z-the-reputation-graph-of-silicon-valley-i": "2026-10-12",
-    "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears": "2026-10-12"
+    "2026-09-15-strictlyvc-keith-rabois-on-why-the-ai-bubble-fears": "2026-10-12",
+    "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor": "2026-10-12"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -485,12 +488,17 @@
       "status": "非 AI 也非科技创业(Jev),不对齐",
       "title": "#766. 物理诺奖得主 IceCube 访谈：找到伽马射线看不见的宇宙信号",
       "day": "2026-10-12"
+    },
+    "6acc9b86e742e36efcc1c122": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#768. 查理·芒格：人类误判的心理学 - 误判往往不是单一心理在作祟",
+      "day": "2026-10-12"
     }
   },
   "cutoffs": {
     "lennys": "2026-10-11T12:31:59.000Z",
     "pg": "2026-10-08T23:03:02.000Z",
-    "a16z": "2026-10-11T10:00:00.000Z",
+    "a16z": "2026-10-12T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-08T11:30:00.000Z",
     "trainingdata": "2026-10-06T09:00:00.000Z",
@@ -503,7 +511,7 @@
     "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-10-09T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-10-10T07:07:00.000Z",
+    "twentyvc": "2026-10-12T07:07:00.000Z",
     "cogrev": "2026-10-10T10:47:14.000Z",
     "knowledge": "2026-10-06T10:00:00.000Z",
     "pragmatic": "2026-10-07T17:19:58.000Z",
@@ -511,19 +519,19 @@
     "changelog": "2026-10-09T19:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
     "rework": "2026-08-19T08:00:00.000Z",
-    "howiai": "2026-09-30T14:48:23.000Z",
+    "howiai": "2026-10-12T11:00:00.000Z",
     "unsupervised": "2026-10-06T12:50:23.000Z",
     "twiml": "2026-10-06T21:43:00.000Z",
     "eyeonai": "2026-10-09T15:00:00.000Z",
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
-    "pmf": "2026-10-05T09:00:00.000Z",
+    "pmf": "2026-10-12T09:00:00.000Z",
     "cheekypint": "2026-04-27T11:45:00.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
     "ainativedev": "2026-10-06T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
-    "sourcery": "2026-10-08T14:10:59.000Z",
+    "sourcery": "2026-10-12T10:00:00.000Z",
     "iltb": "2026-10-06T08:00:00.000Z",
     "generalist": "2026-10-08T11:00:00.000Z",
     "sed": "2026-10-08T09:00:00.000Z",
@@ -1427,6 +1435,12 @@
       "reason": "题材不对味:多话题新闻速览:一期拼三个话题(Meta Muse/Frontier AI威胁/Dopamine Sites)的新闻拼盘体",
       "title": "Meta’s Muse Revival, Frontier AI Under Threat, The Rise Of Dopamine Sites",
       "pubDate": "2026-09-25T18:21:00.000Z"
+    },
+    {
+      "id": "2026-09-10-twist-becki-degraw-on-founder-vesting-advisor",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Becki DeGraw on founder vesting, advisor equity & the 4-term-sheet play",
+      "pubDate": "2026-09-10T20:27:00.000Z"
     }
   ]
 }

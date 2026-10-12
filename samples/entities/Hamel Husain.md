@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Shreya Shankar":1,"评估":1,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":10,"智能体":473,"trace":6,"Anthropic":200}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Shreya Shankar":1,"评估":1,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":10,"智能体":478,"trace":6,"Anthropic":200}</script>
 
 <script>
 (function(){

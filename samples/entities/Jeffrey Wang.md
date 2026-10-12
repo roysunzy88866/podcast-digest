@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":14,"智能体":473,"MCP":85,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":14,"智能体":478,"MCP":86,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":36}</script>
 
 <script>
 (function(){

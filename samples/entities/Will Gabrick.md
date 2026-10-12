@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Stripe":48,"Stripe Minions":1,"智能体":473,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Stripe":48,"Stripe Minions":1,"智能体":478,"智能体商务":1,"稳定币":5,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
 
 <script>
 (function(){

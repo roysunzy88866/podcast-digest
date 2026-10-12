@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":85,"FastMCP":1,"Prefab":1,"智能体":473,"沙箱":94,"生成式 UI":5,"Claude":93}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":86,"FastMCP":1,"Prefab":1,"智能体":478,"沙箱":95,"生成式 UI":6,"Claude":93}</script>
 
 <script>
 (function(){

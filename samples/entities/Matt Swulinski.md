@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":20,"Superhuman":5,"Whisper":2,"Victor":2,"Meta":51,"Google":70,"PLG":12,"智能体":473,"ugc":2,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Superhuman":5,"Whisper":2,"Victor":2,"Meta":52,"Google":70,"PLG":12,"智能体":478,"ugc":2,"AEO":5}</script>
 
 <script>
 (function(){

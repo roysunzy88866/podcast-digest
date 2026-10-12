@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Instagram</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Instagram">IN</div><div class="pi"><h1 class="pt">Instagram</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]]**(00:12起):Mike 联合创始的公司，本集回顾其全 Python 技术栈（据说正靠模型往 PHP 转）、上线首周崩溃的扩容故事，以及 Python 3 时代做 MonkeyType 加类型的经验。
 - **[[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]]**(00:53起):Meta 的核心产品面,本集用它的 Reels 观看时长增长、「你的算法」可交互推荐功能、以及把 Reel 视频压缩到约 10 个 token 的例子贯穿全篇。
 - **[[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]]**(18:10起):本集说 Instagram 被 Meta 收购时被嘲笑买贵了，后来扎克伯格用 Instagram Stories 击败了 Snapchat。
+- **[[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]]**(01:19起):本集说 Instagram 收藏是很少被谈论的金矿：藏着大量个人偏好但格式难以利用，Alex 让 Muse 把收藏整理并渲染成九十年代购物目录
 
 ## ① 提到它的金句
 
@@ -32,7 +33,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司
@@ -42,14 +43,15 @@ unlisted: true
 - [[2026-08-27-talks-how-anthropic-builds-lessons-from-labs-m|《Instagram 联合创始人聊 AI 时代怎么「不合常理」地写代码》]] — 作为被讨论公司
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|《Tokens 进、互动出：推荐系统正在像 LLM 一样扩展》]] — 作为被讨论公司
 - [[2026-09-28-founders-435-mark-zuckerberg-s-empire|《扎克伯格：一个不肯停下的皇帝》]] — 作为被讨论公司
+- [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Claude]] · [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Meta]] · [[ChatGPT]] · [[Facebook]] · [[OpenAI]] · [[后训练]] · [[Google]]
+[[智能体]] · [[Meta]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Facebook]] · [[OpenAI]] · [[后训练]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Claude":93,"Lenny":69,"Anthropic":200,"智能体":473,"Meta":51,"ChatGPT":108,"Facebook":17,"OpenAI":195,"后训练":1,"Google":70}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"Meta":52,"Claude":93,"Lenny":69,"Anthropic":200,"ChatGPT":108,"Facebook":17,"OpenAI":195,"后训练":1,"Google":70}</script>
 
 <script>
 (function(){

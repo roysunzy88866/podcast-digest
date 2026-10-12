@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Steve Jobs":1,"智能体":473,"虚拟机":3,"生成式 UI":5,"聚合理论":2,"待完成任务":3,"Muse":7,"Meta":51,"Microsoft":32}</script>
+<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Steve Jobs":1,"智能体":478,"虚拟机":3,"生成式 UI":6,"聚合理论":2,"待完成任务":3,"Muse":8,"Meta":52,"Microsoft":32}</script>
 
 <script>
 (function(){

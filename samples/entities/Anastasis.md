@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":14,"视频生成":1,"缩放定律":15,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":14,"界面世界模型":1}</script>
+<script type="application/json" class="pd-epn">{"Runway":3,"世界模型":14,"视频生成":1,"缩放定律":16,"实时视频生成":1,"蒸馏":1,"反事实生成":1,"第三人称视频数据":1,"机器人":14,"界面世界模型":1}</script>
 
 <script>
 (function(){

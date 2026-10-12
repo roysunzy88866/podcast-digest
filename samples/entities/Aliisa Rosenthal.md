@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"go-to-market":14,"OpenAI":195,"ChatGPT Enterprise":1,"Anthropic":200,"Clay":7,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
+<script type="application/json" class="pd-epn">{"go-to-market":14,"OpenAI":195,"ChatGPT Enterprise":1,"Anthropic":200,"Clay":8,"自助服务":1,"试点":3,"POC":5,"定价":1,"基于用量的计费":1}</script>
 
 <script>
 (function(){

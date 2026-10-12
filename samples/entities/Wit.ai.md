@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex]] · [[AMI]] · [[Facebook]] · [[Meta]] · [[世界模型]] · [[LLM]] · [[VLA]] · [[机器人]] · [[具身经验]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"Alex":6,"AMI":1,"Facebook":17,"Meta":51,"世界模型":14,"LLM":60,"VLA":4,"机器人":14,"具身经验":2,"AGI":28}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"AMI":1,"Facebook":17,"Meta":52,"世界模型":14,"LLM":61,"VLA":4,"机器人":14,"具身经验":2,"AGI":28}</script>
 
 <script>
 (function(){

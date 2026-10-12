@@ -1,0 +1,3386 @@
+[
+ {
+  "seg": 0,
+  "start": 0.691,
+  "end": 5.692,
+  "speaker": "Unknown",
+  "en": "The fundamental idea here is to build AI that improves itself, and I think we're getting there.",
+  "zh": "这里的根本理念是构建能够自我改进的 AI,我认为我们正在接近这一点。"
+ },
+ {
+  "seg": 1,
+  "start": 5.812,
+  "end": 15.615,
+  "speaker": "Unknown",
+  "en": "For the first time, we could swap the optimizer as the optimizee, and this leads to a reinvestment of cognitive improvement into itself.",
+  "zh": "第一次,我们可以把优化器作为被优化对象,这会导致认知改进向自身的再投入。"
+ },
+ {
+  "seg": 2,
+  "start": 15.675,
+  "end": 19.136,
+  "speaker": "Unknown",
+  "en": "You can think of RSI at many different levels of the stack.",
+  "zh": "你可以在技术栈的许多不同层面思考 RSI。"
+ },
+ {
+  "seg": 3,
+  "start": 19.356,
+  "end": 24.577,
+  "speaker": "Unknown",
+  "en": "Prompts, harness, weights, and you can go all the way to basically chips.",
+  "zh": "提示词、harness、权重,你甚至可以一路深入到芯片层面。"
+ },
+ {
+  "seg": 4,
+  "start": 24.817,
+  "end": 27.498,
+  "speaker": "Unknown",
+  "en": "Our goal here is to optimize all the levels of the stack.",
+  "zh": "我们的目标是优化技术栈的所有层面。"
+ },
+ {
+  "seg": 5,
+  "start": 27.798,
+  "end": 33.782,
+  "speaker": "Unknown",
+  "en": "Our approach to RSI is that we have a multi-agent system working together that's been recursively improved.",
+  "zh": "我们对 RSI 的做法是,我们有一个协同工作的多智能体系统,它经过了递归改进。"
+ },
+ {
+  "seg": 6,
+  "start": 34.062,
+  "end": 38.445,
+  "speaker": "Unknown",
+  "en": "I'm so impressed by your belief that this idea of a model improving itself.",
+  "zh": "我对你对这个「模型自我改进」理念的信念印象深刻。"
+ },
+ {
+  "seg": 7,
+  "start": 38.465,
+  "end": 39.246,
+  "speaker": "Unknown",
+  "en": "But it's not a belief.",
+  "zh": "但这不是信念。"
+ },
+ {
+  "seg": 8,
+  "start": 39.466,
+  "end": 42.608,
+  "speaker": "Unknown",
+  "en": "It is a dramatic statement, which I think is the first time I've heard you say it.",
+  "zh": "这是一个非常大胆的表述,我想这是我第一次听你说出来。"
+ },
+ {
+  "seg": 9,
+  "start": 42.748,
+  "end": 47.931,
+  "speaker": "Unknown",
+  "en": "Because we have been so thorough, we have not released things until we're super sure it's correct.",
+  "zh": "因为我们一直非常严谨,直到非常确定它是正确的之前,我们不会发布任何东西。"
+ },
+ {
+  "seg": 10,
+  "start": 47.951,
+  "end": 55.234,
+  "speaker": "Unknown",
+  "en": "Do you envision a system where the amount of energy that goes into it somehow decreases over time relative to the improvement?",
+  "zh": "你是否设想过这样一个系统:相对于改进而言,投入其中的能量会随时间以某种方式减少?"
+ },
+ {
+  "seg": 11,
+  "start": 55.254,
+  "end": 59.436,
+  "speaker": "Unknown",
+  "en": "We can't share too much, but one of the very important things that we've tried to do",
+  "zh": "我们不能分享太多,但我们一直努力去做的非常重要的事情之一"
+ },
+ {
+  "seg": 12,
+  "start": 60.717,
+  "end": 75.965,
+  "speaker": "Unknown",
+  "en": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+  "zh": "A16Z 普通合伙人 Martin Casado 与 MakerMaker.AI 联合创始人 Daval Ajada 和 Owen He 一起解读递归自我改进(RSI),并将这个日益流行的术语与「AI 系统自我改进」的实际含义区分开来。"
+ },
+ {
+  "seg": 13,
+  "start": 76.937,
+  "end": 82.579,
+  "speaker": "Unknown",
+  "en": "Daval and Owen distinguish true RSI from simply using AI to automate pieces of AI development.",
+  "zh": "Daval 和 Owen 区分了真正的 RSI 与仅仅使用 AI 来自动化 AI 开发的部分环节。"
+ },
+ {
+  "seg": 14,
+  "start": 83.199,
+  "end": 92.602,
+  "speaker": "Unknown",
+  "en": "Their goal is a closed loop, where the system being improved is also doing the improving, across components including models, harnesses, and eventually more of the AI stack.",
+  "zh": "他们的目标是形成一个闭环:被改进的系统同时也是执行改进的系统,涵盖模型、harness 等组件,并最终扩展到更多的 AI 技术栈。"
+ },
+ {
+  "seg": 15,
+  "start": 93.518,
+  "end": 103.364,
+  "speaker": "Unknown",
+  "en": "They explain why closing that loop still doesn't guarantee runaway takeoff, and why measuring real progress requires accounting for both capability gains and the resources required to achieve them.",
+  "zh": "他们解释了为什么即使闭合了这个循环也不保证会出现失控式起飞,以及为什么衡量真实进展需要同时考虑能力提升和实现这些提升所需的资源。"
+ },
+ {
+  "seg": 16,
+  "start": 103.884,
+  "end": 111.308,
+  "speaker": "Unknown",
+  "en": "They also share what they're seeing in their own research, including early signs that self-improving systems can increase performance while improving efficiency.",
+  "zh": "他们还分享了他们自己研究中看到的情况,包括自我改进系统能够在提升性能的同时提高效率的早期迹象。"
+ },
+ {
+  "seg": 17,
+  "start": 111.969,
+  "end": 121.254,
+  "speaker": "Unknown",
+  "en": "And they dig into the practical challenges of proving those gains are real, from variance and reward hacking to the enormous difficulty of distinguishing genuine improvement from noise.",
+  "zh": "他们还深入探讨了证明这些提升是真实的实际挑战,从方差和奖励作弊(reward hacking)到区分真正改进与噪声的巨大困难。"
+ },
+ {
+  "seg": 18,
+  "start": 124.302,
+  "end": 125.082,
+  "speaker": "Unknown",
+  "en": "Welcome, both of you.",
+  "zh": "欢迎两位。"
+ },
+ {
+  "seg": 19,
+  "start": 125.182,
+  "end": 129.545,
+  "speaker": "Unknown",
+  "en": "We're going to be talking about everybody's favorite topic, which is RSI, recursive self-improvement.",
+  "zh": "我们要聊的是大家都最喜欢的话题,也就是 RSI,递归自我改进。"
+ },
+ {
+  "seg": 20,
+  "start": 130.065,
+  "end": 136.989,
+  "speaker": "Unknown",
+  "en": "Maybe to start, it'd be great to just introduce yourselves and your backgrounds, then we'll talk a little bit about what you're working on now, and then we'll dig into the content.",
+  "zh": "也许一开始,最好先介绍一下你们自己 and 你们的背景,然后我们稍微聊聊你们现在在做什么,再深入讨论内容。"
+ },
+ {
+  "seg": 21,
+  "start": 137.429,
+  "end": 140.15,
+  "speaker": "Unknown",
+  "en": "I think of myself as a physicist of some kind.",
+  "zh": "我把自己看作某种物理学家。"
+ },
+ {
+  "seg": 22,
+  "start": 140.37,
+  "end": 144.693,
+  "speaker": "Unknown",
+  "en": "I studied that, then I did a PhD in reinforcement learning at the MIT Media Lab.",
+  "zh": "我学的是那个,后来在 MIT 媒体实验室做了强化学习方向的博士。"
+ },
+ {
+  "seg": 23,
+  "start": 145.313,
+  "end": 152.437,
+  "speaker": "Unknown",
+  "en": "I really like building things, and I'm very excited to be building a cool startup, MakerMaker, with Owen and Grace.",
+  "zh": "我非常喜欢构建东西,能和 Owen 以及 Grace 一起构建一家很酷的创业公司 MakerMaker,我感到非常兴奋。"
+ },
+ {
+  "seg": 24,
+  "start": 152.937,
+  "end": 153.717,
+  "speaker": "Unknown",
+  "en": "My name is Owen.",
+  "zh": "我叫 Owen。"
+ },
+ {
+  "seg": 25,
+  "start": 154.058,
+  "end": 165.904,
+  "speaker": "Unknown",
+  "en": "I was first studying math, and then one day I realized that all mathematicians' tools are proving theorems, and I was taking a class called Formal Language and Logic, and they were showing how you can build a theorem prover.",
+  "zh": "我起初是学数学的,后来有一天我意识到所有数学家的工具都是证明定理,当时我在上一门叫形式语言与逻辑的课,他们在展示如何构建一个定理证明器。"
+ },
+ {
+  "seg": 26,
+  "start": 166.344,
+  "end": 167.785,
+  "speaker": "Unknown",
+  "en": "And I was like, oh, that would be cool.",
+  "zh": "我当时就想,哦,那会很酷。"
+ },
+ {
+  "seg": 27,
+  "start": 167.805,
+  "end": 169.866,
+  "speaker": "Unknown",
+  "en": "I can just build a machine that proves theorems for me.",
+  "zh": "我可以就造一台机器替我证明定理。"
+ },
+ {
+  "seg": 28,
+  "start": 170.347,
+  "end": 171.747,
+  "speaker": "Unknown",
+  "en": "That's how I got into AI.",
+  "zh": "我就是这样进入 AI 领域的。"
+ },
+ {
+  "seg": 29,
+  "start": 171.967,
+  "end": 172.368,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 30,
+  "start": 172.648,
+  "end": 179.872,
+  "speaker": "Unknown",
+  "en": "And then for my PhD, I worked on continued learning and math learning, then worked for a few years at DeepMind as a research scientist.",
+  "zh": "然后在我的博士期间,我做的是持续学习和数学学习方向,之后在 DeepMind 做了几年研究科学家。"
+ },
+ {
+  "seg": 31,
+  "start": 180.732,
+  "end": 181.693,
+  "speaker": "Unknown",
+  "en": "Now I'm working on RSI.",
+  "zh": "现在我在做 RSI。"
+ },
+ {
+  "seg": 32,
+  "start": 182.333,
+  "end": 185.516,
+  "speaker": "Unknown",
+  "en": "I see a lot of pitches come in, and a lot of them use the term RSI.",
+  "zh": "我看到很多融资项目进来,其中很多都用 RSI 这个术语。"
+ },
+ {
+  "seg": 33,
+  "start": 186.237,
+  "end": 187.558,
+  "speaker": "Unknown",
+  "en": "And I'll be like, oh, so what do you do?",
+  "zh": "我会说,哦,那你们做什么?"
+ },
+ {
+  "seg": 34,
+  "start": 187.578,
+  "end": 189.42,
+  "speaker": "Unknown",
+  "en": "And they'll say, we use AI to create AI.",
+  "zh": "他们会说,我们用 AI 来创造 AI。"
+ },
+ {
+  "seg": 35,
+  "start": 189.58,
+  "end": 190.481,
+  "speaker": "Unknown",
+  "en": "That sounds very interesting.",
+  "zh": "听起来很有意思。"
+ },
+ {
+  "seg": 36,
+  "start": 190.781,
+  "end": 191.281,
+  "speaker": "Unknown",
+  "en": "So what do you do?",
+  "zh": "那你们具体做什么?"
+ },
+ {
+  "seg": 37,
+  "start": 191.542,
+  "end": 192.983,
+  "speaker": "Unknown",
+  "en": "We use AI to create GPU kernels.",
+  "zh": "我们用 AI 来创造 GPU kernel。"
+ },
+ {
+  "seg": 38,
+  "start": 193.724,
+  "end": 197.848,
+  "speaker": "Unknown",
+  "en": "Which that doesn't, to me, kind of match the definition of what I would consider to be RSI.",
+  "zh": "而这,对我来说,某种程度上并不符合我所认为的 RSI 的定义。"
+ },
+ {
+  "seg": 39,
+  "start": 197.868,
+  "end": 204.394,
+  "speaker": "Unknown",
+  "en": "So maybe can we start by you defining what you think, or what you would include in RSI, definitionally?",
+  "zh": "那么也许可以从你们对 RSI 的定义开始,或者你们认为在定义上哪些应该被纳入 RSI?"
+ },
+ {
+  "seg": 40,
+  "start": 205.105,
+  "end": 208.726,
+  "speaker": "Unknown",
+  "en": "Yeah, I think RSI is definitely an overloaded term today.",
+  "zh": "是的,我认为 RSI 如今绝对是一个被过度使用的术语。"
+ },
+ {
+  "seg": 41,
+  "start": 209.246,
+  "end": 211.387,
+  "speaker": "Unknown",
+  "en": "Many people, when they say RSI, they mean different things.",
+  "zh": "很多人说 RSI 时,指的东西各不相同。"
+ },
+ {
+  "seg": 42,
+  "start": 212.007,
+  "end": 219.729,
+  "speaker": "Unknown",
+  "en": "So I think the important thing when you are differentiating them is to ask the question, what is the optimizer and what is the optimizer?",
+  "zh": "所以我认为区分它们的关键是问这个问题:什么是优化器,什么是被优化对象?"
+ },
+ {
+  "seg": 43,
+  "start": 219.889,
+  "end": 222.19,
+  "speaker": "Unknown",
+  "en": "When you're self-improving, who is improving, right?",
+  "zh": "当你进行自我改进时,是谁在改进,对吧?"
+ },
+ {
+  "seg": 44,
+  "start": 222.63,
+  "end": 228.212,
+  "speaker": "Unknown",
+  "en": "So there are people who are saying, okay, we're doing RSI, we have human using AI to develop better AI.",
+  "zh": "有些人会说,好的,我们在做 RSI,我们让人类使用 AI 来开发更好的 AI。"
+ },
+ {
+  "seg": 45,
+  "start": 229.292,
+  "end": 241.179,
+  "speaker": "Unknown",
+  "en": "But that to us is just autocatalysis in a sense that the improver is still human with tools, even though these tools are getting better and better, but the ideas and the improvement come from human brains.",
+  "zh": "但对我们来说,这只是自催化,即改进者仍然是带着工具的人类,尽管这些工具越来越好,但想法和改进来自人脑。"
+ },
+ {
+  "seg": 46,
+  "start": 241.279,
+  "end": 241.459,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 47,
+  "start": 241.579,
+  "end": 247.723,
+  "speaker": "Unknown",
+  "en": "I don't mean to interrupt, but to be clear, most technical epochs have had autocatalytic effects, right?",
+  "zh": "我不是有意打断,但需要明确的是,大多数技术时代都有过自催化效应,对吧?"
+ },
+ {
+  "seg": 48,
+  "start": 247.743,
+  "end": 250.705,
+  "speaker": "Unknown",
+  "en": "There's no way you can create a computer chip without a computer, right?",
+  "zh": "没有计算机你不可能造出计算机芯片,对吧?"
+ },
+ {
+  "seg": 49,
+  "start": 251.025,
+  "end": 252.326,
+  "speaker": "Unknown",
+  "en": "You could argue that the internet...",
+  "zh": "你可以说互联网……"
+ },
+ {
+  "seg": 50,
+  "start": 252.966,
+  "end": 258.752,
+  "speaker": "Unknown",
+  "en": "Development was sped up by the fact that people that weren't geographically located could coordinate, right?",
+  "zh": "地理上不在一起的人们能够协调，这加速了开发，对吧？"
+ },
+ {
+  "seg": 51,
+  "start": 258.772,
+  "end": 263.097,
+  "speaker": "Unknown",
+  "en": "I mean, the steam engine, you could build better steam engines because you could get coal faster, etc.",
+  "zh": "我是说，蒸汽机，你能造出更好的蒸汽机，因为你 能更快地获得煤炭，等等。"
+ },
+ {
+  "seg": 52,
+  "start": 263.117,
+  "end": 266.081,
+  "speaker": "Unknown",
+  "en": "So this notion of using the thing to build the thing faster is not new.",
+  "zh": "所以这种用工具来更快地造工具的想法并不新鲜。"
+ },
+ {
+  "seg": 53,
+  "start": 267.002,
+  "end": 268.804,
+  "speaker": "Unknown",
+  "en": "And so you're saying something different.",
+  "zh": "所以你说的是某种不同的东西。"
+ },
+ {
+  "seg": 54,
+  "start": 269.396,
+  "end": 269.616,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 55,
+  "start": 270.097,
+  "end": 276.062,
+  "speaker": "Unknown",
+  "en": "I think for us, in history, right, over civilization, we have this autocatalysis, using computers to build better computers.",
+  "zh": "我认为对我们来说，在历史长河中，在整个文明中，我们一直有这种自催化，用计算机去造更好的计算机。"
+ },
+ {
+  "seg": 56,
+  "start": 276.522,
+  "end": 280.846,
+  "speaker": "Unknown",
+  "en": "But the idea for this change, for this improvement, comes from human brain.",
+  "zh": "但这种改变、这种改进的想法，来自人脑。"
+ },
+ {
+  "seg": 57,
+  "start": 281.347,
+  "end": 286.351,
+  "speaker": "Unknown",
+  "en": "But that human brain was never the improvee, never the optimizee, right?",
+  "zh": "但那个人脑从来不是被改进的对象，从来不是被优化的对象，对吧？"
+ },
+ {
+  "seg": 58,
+  "start": 286.652,
+  "end": 292.237,
+  "speaker": "Unknown",
+  "en": "Now, for the first time, we could swap the optimizer as the optimizee.",
+  "zh": "现在，第一次，我们可以把优化者本身变成被优化者。"
+ },
+ {
+  "seg": 59,
+  "start": 292.777,
+  "end": 298.299,
+  "speaker": "Unknown",
+  "en": "So the brain of the agents, which is the LM, the model, can be the thing that you're optimizing.",
+  "zh": "所以智能体的大脑，也就是 LM，也就是模型，可以成为你正在优化的那个东西。"
+ },
+ {
+  "seg": 60,
+  "start": 298.879,
+  "end": 304.682,
+  "speaker": "Unknown",
+  "en": "And this leads to a compound, this reinvestment of cognitive improvement into itself.",
+  "zh": "这就导致了复利，把认知上的改进再投入到自身。"
+ },
+ {
+  "seg": 61,
+  "start": 305.122,
+  "end": 311.404,
+  "speaker": "Unknown",
+  "en": "But there has to be a reason that you decided to take on this hard problem as opposed to what anybody else would do, which is like, throw off pieces of the problem.",
+  "zh": "但你决定接手这个难题，而不是像其他任何人会做的那样，把问题切成碎片来做，这背后一定有原因。"
+ },
+ {
+  "seg": 62,
+  "start": 311.444,
+  "end": 311.684,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 63,
+  "start": 312.205,
+  "end": 319.287,
+  "speaker": "Unknown",
+  "en": "I mean, before I answer your more important question here, the reason I did this is I think it's a hard problem and it's fun working on the hardest problem.",
+  "zh": "我是说，在我回答你更重要的问题之前，我做这件事的原因是，我认为这是一个难题，而攻克最难的问题很有意思。"
+ },
+ {
+  "seg": 64,
+  "start": 321.008,
+  "end": 326.51,
+  "speaker": "Unknown",
+  "en": "But do you have an intuition that this is the actual right answer as opposed to, like, something that's more pragmatic?",
+  "zh": "但你有没有一种直觉，觉得这才是真正正确的答案，而不是某种更务实的东西？"
+ },
+ {
+  "seg": 65,
+  "start": 326.67,
+  "end": 333.933,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the pragmatic thing would be, just from a control theory perspective, if you have a gap in the system, you can't have a closed loop.",
+  "zh": "是的，我认为从控制论的角度看，更务实的做法是：如果你在系统里有一个缺口，你就无法形成闭环。"
+ },
+ {
+  "seg": 66,
+  "start": 334.814,
+  "end": 337.355,
+  "speaker": "Unknown",
+  "en": "And autocatalytic has no closed loop, right?",
+  "zh": "而自催化没有闭环，对吧？"
+ },
+ {
+  "seg": 67,
+  "start": 337.395,
+  "end": 339.876,
+  "speaker": "Unknown",
+  "en": "So whatever you improve, there's still, like, a gap.",
+  "zh": "所以无论你改进了什么，仍然存在一个缺口。"
+ },
+ {
+  "seg": 68,
+  "start": 339.936,
+  "end": 340.896,
+  "speaker": "Unknown",
+  "en": "Humans have to come in.",
+  "zh": "人类必须介入。"
+ },
+ {
+  "seg": 69,
+  "start": 341.456,
+  "end": 344.578,
+  "speaker": "Unknown",
+  "en": "You have to pour in other resources to make it work.",
+  "zh": "你必须注入其他资源才能让它运转起来。"
+ },
+ {
+  "seg": 70,
+  "start": 345.238,
+  "end": 348.479,
+  "speaker": "Unknown",
+  "en": "But if you have a closed loop, you still have to pour in resources.",
+  "zh": "但如果你有一个闭环，你仍然需要注入资源。"
+ },
+ {
+  "seg": 71,
+  "start": 348.919,
+  "end": 353.44,
+  "speaker": "Unknown",
+  "en": "But the marginal gains ideally get either constant or larger over time.",
+  "zh": "但边际收益理想情况下会随时间保持恒定或变大。"
+ },
+ {
+  "seg": 72,
+  "start": 353.7,
+  "end": 355.101,
+  "speaker": "Unknown",
+  "en": "And that's the fundamental difference.",
+  "zh": "这就是根本的区别。"
+ },
+ {
+  "seg": 73,
+  "start": 355.361,
+  "end": 358.382,
+  "speaker": "Unknown",
+  "en": "I think what's really different here can be explained pretty easily.",
+  "zh": "我认为这里真正不同的地方可以很容易地解释清楚。"
+ },
+ {
+  "seg": 74,
+  "start": 358.902,
+  "end": 367.104,
+  "speaker": "Unknown",
+  "en": "So if you think of capability, what we're trying to do here is we're trying to improve the rate of improvement of capability, right?",
+  "zh": "所以如果你想到能力，我们在这里想做的就是努力提高能力的提升速度，对吧？"
+ },
+ {
+  "seg": 75,
+  "start": 367.124,
+  "end": 372.806,
+  "speaker": "Unknown",
+  "en": "So the first derivative of capability with respect to time is the thing that everybody is trying to improve, right?",
+  "zh": "所以能力对时间的一阶导数，就是每个人都在努力提升的东西，对吧？"
+ },
+ {
+  "seg": 76,
+  "start": 374.566,
+  "end": 380.889,
+  "speaker": "Unknown",
+  "en": "Now you can put that to be equal driven by two things, the nominator and the denominator.",
+  "zh": "现在你可以把它设为由两样东西驱动的相等关系，分子和分母。"
+ },
+ {
+  "seg": 77,
+  "start": 381.31,
+  "end": 385.212,
+  "speaker": "Unknown",
+  "en": "The nominator would be performance, which is what everybody is trying to improve.",
+  "zh": "分子是性能，这是每个人都在努力提升的。"
+ },
+ {
+  "seg": 78,
+  "start": 385.812,
+  "end": 390.915,
+  "speaker": "Unknown",
+  "en": "And then the denominator is some kind of cost, let's say capital, right, or difficulty.",
+  "zh": "然后分母是某种成本，比如说是资本，对吧，或者难度。"
+ },
+ {
+  "seg": 79,
+  "start": 391.655,
+  "end": 400.34,
+  "speaker": "Unknown",
+  "en": "And this one is pretty set because the higher the capability, the higher the difficulty of the next step, right?",
+  "zh": "而分母这个基本是固定的，因为能力越高，下一步的难度就越高，对吧？"
+ },
+ {
+  "seg": 80,
+  "start": 401.02,
+  "end": 402.882,
+  "speaker": "Unknown",
+  "en": "Now, the numerator is the interesting part.",
+  "zh": "现在，分子是有意思的部分。"
+ },
+ {
+  "seg": 81,
+  "start": 403.382,
+  "end": 407.206,
+  "speaker": "Unknown",
+  "en": "For things like steam engines and whatnot, that was fixed, right?",
+  "zh": "对于蒸汽机这类东西，分子是固定的，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 407.226,
+  "end": 411.75,
+  "speaker": "Unknown",
+  "en": "So then you end up with a very simple differential equation where you basically plateau, right?",
+  "zh": "于是你最终得到一个非常简单的微分方程，你基本上会进入平台期，对吧？"
+ },
+ {
+  "seg": 83,
+  "start": 412.47,
+  "end": 420.197,
+  "speaker": "Unknown",
+  "en": "Now, if you have a system where the improvee, the things being improved, is also the thing that's doing the improvement,",
+  "zh": "现在，如果你有一个系统，其中被改进的东西同时也是做改进的东西，"
+ },
+ {
+  "seg": 84,
+  "start": 420.978,
+  "end": 422.7,
+  "speaker": "Unknown",
+  "en": "You now have a new way to think about it.",
+  "zh": "那你现在就有了一种新的思考方式。"
+ },
+ {
+  "seg": 85,
+  "start": 422.8,
+  "end": 430.149,
+  "speaker": "Unknown",
+  "en": "And the simplest case would be that the numerator is also correlated with capability, which makes sense, right?",
+  "zh": "最简单的情况是，分子也与能力相关，这是说得通的，对吧？"
+ },
+ {
+  "seg": 86,
+  "start": 430.209,
+  "end": 433.393,
+  "speaker": "Unknown",
+  "en": "Because the better you are, the better you are at also improving.",
+  "zh": "因为你越好，你在改进方面也越好。"
+ },
+ {
+  "seg": 87,
+  "start": 434.074,
+  "end": 438.659,
+  "speaker": "Unknown",
+  "en": "And if you do that, the math cancels out and you basically get constant improvement over time.",
+  "zh": "如果你这样做，数学上会抵消掉，你基本上就得到随时间恒定的改进。"
+ },
+ {
+  "seg": 88,
+  "start": 439.435,
+  "end": 442.417,
+  "speaker": "Unknown",
+  "en": "That could be one level of RSI, right?",
+  "zh": "这可以是 RSI 的一个层级，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 442.498,
+  "end": 449.563,
+  "speaker": "Unknown",
+  "en": "And then there's one more case, which is now that the numerator could be correlated with a higher power of capability.",
+  "zh": "然后还有一种情况，就是分子可以与能力的更高次幂相关。"
+ },
+ {
+  "seg": 90,
+  "start": 449.763,
+  "end": 451.565,
+  "speaker": "Unknown",
+  "en": "And then you get exponential takeoff.",
+  "zh": "然后你就会得到指数式的起飞。"
+ },
+ {
+  "seg": 91,
+  "start": 451.885,
+  "end": 457.79,
+  "speaker": "Unknown",
+  "en": "Can we dig in a little bit more between RSI's having closed the loop and actual convergence properties?",
+  "zh": "我们能再深入一点探讨 RSI 闭合了循环与实际收敛性质之间的关系吗？"
+ },
+ {
+  "seg": 92,
+  "start": 458.59,
+  "end": 467.036,
+  "speaker": "Unknown",
+  "en": "For some reason, when people see a graph where there's like a circle with an arrow to another circle and it goes back, they look at that closed control system and they say, take off.",
+  "zh": "不知为何，当人们看到一张图，上面有一个圆圈带箭头指向另一个圆圈又绕回来，他们看着那个闭环控制系统就说：起飞。"
+ },
+ {
+  "seg": 93,
+  "start": 468.657,
+  "end": 468.918,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 469.218,
+  "end": 475.842,
+  "speaker": "Unknown",
+  "en": "Which, I mean, if this is a nonlinear control system, it's very difficult to know what the hell happens.",
+  "zh": "而我是说，如果这是一个非线性控制系统，很难知道到底会发生什么。"
+ },
+ {
+  "seg": 95,
+  "start": 476.003,
+  "end": 483.408,
+  "speaker": "Unknown",
+  "en": "By the way, most people don't seem to understand this distinction because we very quickly go to take off and foom and all that stuff when we talk about these things.",
+  "zh": "顺便说一句，大多数人似乎不理解这个区别，因为当我们谈论这些事情时，很快就跳到起飞和 foom 之类的东西上。"
+ },
+ {
+  "seg": 96,
+  "start": 483.788,
+  "end": 489.751,
+  "speaker": "Unknown",
+  "en": "Well, as a network guy, you know that it depends on the exponent of your function that's self-referencing.",
+  "zh": "嗯，作为一个网络领域的人，你知道这取决于你那个自我引用函数的指数。"
+ },
+ {
+  "seg": 97,
+  "start": 490.511,
+  "end": 503.858,
+  "speaker": "Unknown",
+  "en": "And what we found is that it's almost not useful to speculate on what we think could happen because this is really an empirical problem.",
+  "zh": "我们发现，去猜测我们认为可能会发生什么几乎没有用处，因为这真的是一个实证问题。"
+ },
+ {
+  "seg": 98,
+  "start": 504.578,
+  "end": 508.081,
+  "speaker": "Unknown",
+  "en": "And the real way to know what's happening is to test things.",
+  "zh": "而了解正在发生什么的真正方式是去测试。"
+ },
+ {
+  "seg": 99,
+  "start": 508.602,
+  "end": 511.204,
+  "speaker": "Unknown",
+  "en": "And testing things is really, really hard.",
+  "zh": "而测试真的、真的非常难。"
+ },
+ {
+  "seg": 100,
+  "start": 511.624,
+  "end": 515.448,
+  "speaker": "Unknown",
+  "en": "Like reward hacking is one of many problems that we have to deal with.",
+  "zh": "比如奖励作弊是我们必须应对的众多问题之一。"
+ },
+ {
+  "seg": 101,
+  "start": 515.908,
+  "end": 518.25,
+  "speaker": "Unknown",
+  "en": "But the question you're asking is very empirical.",
+  "zh": "但你问的这个问题其实是很经验性的。"
+ },
+ {
+  "seg": 102,
+  "start": 518.291,
+  "end": 519.952,
+  "speaker": "Unknown",
+  "en": "And for some algorithms... Oh, interesting.",
+  "zh": "对于某些算法来说……哦,有意思。"
+ },
+ {
+  "seg": 103,
+  "start": 519.992,
+  "end": 520.352,
+  "speaker": "Unknown",
+  "en": "So, but...",
+  "zh": "所以,不过……"
+ },
+ {
+  "seg": 104,
+  "start": 521.133,
+  "end": 522.634,
+  "speaker": "Unknown",
+  "en": "So I'm a networker.",
+  "zh": "我是个靠人脉/networking 的人。"
+ },
+ {
+  "seg": 105,
+  "start": 522.654,
+  "end": 523.835,
+  "speaker": "Unknown",
+  "en": "That's how I would have answered.",
+  "zh": "我就会这么回答。"
+ },
+ {
+  "seg": 106,
+  "start": 524.475,
+  "end": 531.48,
+  "speaker": "Unknown",
+  "en": "I would have thought math people would have been like, we've got this differential equation and I took out my pencil and I wrote down the answer.",
+  "zh": "我原以为数学背景的人会说,我们拿到了这个微分方程,我掏出铅笔就把答案写出来了。"
+ },
+ {
+  "seg": 107,
+  "start": 531.92,
+  "end": 537.704,
+  "speaker": "Unknown",
+  "en": "I mean, it is possible to write down the differential equation, but you still have to empirically measure the variable, the exponent.",
+  "zh": "我是说,把微分方程写出来是可能的,但你仍然需要经验性地测量变量、那个指数。"
+ },
+ {
+  "seg": 108,
+  "start": 537.724,
+  "end": 539.245,
+  "speaker": "Unknown",
+  "en": "So there's no analytical solution.",
+  "zh": "所以并不存在解析解。"
+ },
+ {
+  "seg": 109,
+  "start": 539.585,
+  "end": 543.187,
+  "speaker": "Unknown",
+  "en": "I mean, honestly, we don't even have a learning theory of deep learning.",
+  "zh": "说实话,我们连深度学习的学习理论都没有。"
+ },
+ {
+  "seg": 110,
+  "start": 543.507,
+  "end": 546.409,
+  "speaker": "Unknown",
+  "en": "We don't know fundamentally why it works, right?",
+  "zh": "我们从根本上不知道它为什么有效,对吧?"
+ },
+ {
+  "seg": 111,
+  "start": 546.549,
+  "end": 549.451,
+  "speaker": "Unknown",
+  "en": "And then now you're like five, six layers on top of deep learning.",
+  "zh": "而现在你又在深度学习之上叠加了五六层。"
+ },
+ {
+  "seg": 112,
+  "start": 550.372,
+  "end": 552.493,
+  "speaker": "Unknown",
+  "en": "And so we don't have a good theory.",
+  "zh": "所以我们没有一套好的理论。"
+ },
+ {
+  "seg": 113,
+  "start": 552.813,
+  "end": 556.876,
+  "speaker": "Unknown",
+  "en": "I think the closest things we have are scaling laws, and these are empirical laws.",
+  "zh": "我认为我们拥有的最接近理论的东西是缩放定律,而这些是经验性定律。"
+ },
+ {
+  "seg": 114,
+  "start": 557.256,
+  "end": 566.022,
+  "speaker": "Unknown",
+  "en": "I think one misunderstanding people have about our approach to RSI is that they think the entire system has to be fully automatic and digital.",
+  "zh": "我认为人们对我们的 RSI 路线有一个误解,就是他们认为整个系统必须完全自动化、完全数字化。"
+ },
+ {
+  "seg": 115,
+  "start": 566.342,
+  "end": 573.087,
+  "speaker": "Unknown",
+  "en": "But actually, if you look at our mathematical foundation, we have a multi-agent system, not just one digital agent.",
+  "zh": "但实际上,如果你看我们的数学基础,我们有一个多智能体系统,而不只是一个数字智能体。"
+ },
+ {
+  "seg": 116,
+  "start": 573.667,
+  "end": 579.331,
+  "speaker": "Unknown",
+  "en": "And in this multi-agent system, human researchers and engineers are actually special case of these agents.",
+  "zh": "在这个多智能体系统里,人类研究员和工程师其实是这些智能体的一种特例。"
+ },
+ {
+  "seg": 117,
+  "start": 580.011,
+  "end": 585.135,
+  "speaker": "Unknown",
+  "en": "And it's this hybrid system of multiple agents working together that's been recursively improved.",
+  "zh": "正是这种多个智能体协同工作的混合系统在被递归地改进。"
+ },
+ {
+  "seg": 118,
+  "start": 585.795,
+  "end": 593.157,
+  "speaker": "Unknown",
+  "en": "And we don't want to leave out any component to not optimizing them because if it's possible to optimize in the model, why wouldn't we do that?",
+  "zh": "我们不想把任何组件排除在优化之外,因为如果可以在模型里优化,我们为什么不那么做呢?"
+ },
+ {
+  "seg": 119,
+  "start": 593.177,
+  "end": 596.038,
+  "speaker": "Unknown",
+  "en": "Because you will have more gains if you do include those.",
+  "zh": "因为如果你把那些也包含进来,你会得到更多收益。"
+ },
+ {
+  "seg": 120,
+  "start": 596.638,
+  "end": 599.438,
+  "speaker": "Unknown",
+  "en": "Anything that you don't optimize will later become your bottleneck.",
+  "zh": "任何你没有优化的东西,之后都会成为你的瓶颈。"
+ },
+ {
+  "seg": 121,
+  "start": 599.618,
+  "end": 605.86,
+  "speaker": "Unknown",
+  "en": "So one observation that we have made here is there are claims of",
+  "zh": "所以我们在这里的一个观察是,有说法称"
+ },
+ {
+  "seg": 122,
+  "start": 605.9,
+  "end": 608.362,
+  "speaker": "Unknown",
+  "en": "of speed is improving, which is actually the case, right?",
+  "zh": "速度在提升,而事实确实如此,对吧?"
+ },
+ {
+  "seg": 123,
+  "start": 608.382,
+  "end": 610.764,
+  "speaker": "Unknown",
+  "en": "So if you look at the model release time, it is reducing.",
+  "zh": "如果你看模型的发布间隔时间,它确实在缩短。"
+ },
+ {
+  "seg": 124,
+  "start": 611.344,
+  "end": 617.048,
+  "speaker": "Unknown",
+  "en": "And so on one hand, you can be like, okay, so clearly we're in some sort of a rapidly improving phase.",
+  "zh": "所以一方面,你可以说,好吧,显然我们正处于某种快速改进的阶段。"
+ },
+ {
+  "seg": 125,
+  "start": 617.769,
+  "end": 619.79,
+  "speaker": "Unknown",
+  "en": "But if you divide by the actual...",
+  "zh": "但如果你除以实际的……"
+ },
+ {
+  "seg": 126,
+  "start": 620.938,
+  "end": 624.619,
+  "speaker": "Unknown",
+  "en": "Amount of capital raised by these companies, that's no longer the case, right?",
+  "zh": "这些公司募集到的资本量,情况就不再是那样了,对吧?"
+ },
+ {
+  "seg": 127,
+  "start": 624.659,
+  "end": 629.28,
+  "speaker": "Unknown",
+  "en": "And so you're like, well, maybe they just raise a whole bunch of money and then like AI allows you to apply that money.",
+  "zh": "于是你会想,嗯,也许他们只是募集了一大笔钱,然后 AI 允许你把这笔钱花出去。"
+ },
+ {
+  "seg": 128,
+  "start": 629.32,
+  "end": 642.982,
+  "speaker": "Unknown",
+  "en": "So how would you, this is not for yourself, but how would you encourage people that are either evaluating claims about this or even working on them to think about not fooling yourself by throwing more money at the problem?",
+  "zh": "那么,你会怎么——这不是问你自己——你会怎么鼓励那些正在评估这类说法的人,或者甚至正在做这方面工作的人,去思考如何不靠往问题上砸更多钱来骗过自己?"
+ },
+ {
+  "seg": 129,
+  "start": 643.002,
+  "end": 647.363,
+  "speaker": "Unknown",
+  "en": "Like you're actually showing that you're making an improvement here that's meaningful with the denominator.",
+  "zh": "也就是说,你要用分母真正证明你取得的是有意义的改进。"
+ },
+ {
+  "seg": 130,
+  "start": 648.083,
+  "end": 651.664,
+  "speaker": "Unknown",
+  "en": "I think for us it's pretty straightforward.",
+  "zh": "我认为对我们来说这很直接。"
+ },
+ {
+  "seg": 131,
+  "start": 651.844,
+  "end": 660.066,
+  "speaker": "Unknown",
+  "en": "It's because if you get improvement and they just come at more and more resources being poured in, it's not RSI.",
+  "zh": "因为如果你的改进只是靠投入越来越多的资源得来的,那就不是 RSI。"
+ },
+ {
+  "seg": 132,
+  "start": 660.706,
+  "end": 665.107,
+  "speaker": "Unknown",
+  "en": "You have to be able to back your claim of how much improvement you're getting.",
+  "zh": "你必须能够支撑你关于取得了多少改进的说法。"
+ },
+ {
+  "seg": 133,
+  "start": 665.547,
+  "end": 668.768,
+  "speaker": "Unknown",
+  "en": "But do you include like all the man hours and experimentation that went into that?",
+  "zh": "但你有没有把所有投入其中的人力和实验都算进去?"
+ },
+ {
+  "seg": 134,
+  "start": 669.528,
+  "end": 683.115,
+  "speaker": "Unknown",
+  "en": "Because I, I feel like at some level, like that, like it's like, like they'll talk about like the actual flops that go in and money that go in, but the reality is this is like the 23rd experiment and there's actually a human burning a lot of mental capital to get to that final configuration.",
+  "zh": "因为,我觉得在某种程度上,就像,就像他们会谈论实际投入的 flops 和钱,但现实是这已经是第 23 个实验了,而且实际上有一个人类在为得到那个最终配置燃烧大量的心智资本。"
+ },
+ {
+  "seg": 135,
+  "start": 683.135,
+  "end": 687.518,
+  "speaker": "Unknown",
+  "en": "Like do you actually include that in the denominator?",
+  "zh": "比如说,你有没有真的把那个算进分母里?"
+ },
+ {
+  "seg": 136,
+  "start": 688.858,
+  "end": 689.198,
+  "speaker": "Unknown",
+  "en": "We do.",
+  "zh": "我们算了。"
+ },
+ {
+  "seg": 137,
+  "start": 689.659,
+  "end": 692.86,
+  "speaker": "Unknown",
+  "en": "And I think it's, it's good company discipline to do that.",
+  "zh": "我认为这样做是很好的公司纪律。"
+ },
+ {
+  "seg": 138,
+  "start": 693.401,
+  "end": 695.862,
+  "speaker": "Unknown",
+  "en": "And we've tried again to very",
+  "zh": "而且我们再次尝试非常"
+ },
+ {
+  "seg": 139,
+  "start": 698.003,
+  "end": 705.213,
+  "speaker": "Unknown",
+  "en": "Intentionally, from the beginning, have a culture of tracking where things go, cost, time, all that kind of stuff.",
+  "zh": "有意识地,从一开始,就建立一种追踪事情去向的文化:成本、时间,所有这类东西。"
+ },
+ {
+  "seg": 140,
+  "start": 705.634,
+  "end": 706.495,
+  "speaker": "Unknown",
+  "en": "I'll share a funny thing.",
+  "zh": "我来讲个好玩的事。"
+ },
+ {
+  "seg": 141,
+  "start": 706.735,
+  "end": 707.877,
+  "speaker": "Unknown",
+  "en": "Internally, we have this thing.",
+  "zh": "在内部,我们有这么个东西。"
+ },
+ {
+  "seg": 142,
+  "start": 708.518,
+  "end": 711.361,
+  "speaker": "Unknown",
+  "en": "People talk about leaderboards, you know, which is like score.",
+  "zh": "人们会谈论排行榜,你知道的,就是分数那种。"
+ },
+ {
+  "seg": 143,
+  "start": 712.163,
+  "end": 713.204,
+  "speaker": "Unknown",
+  "en": "You know what I'm about to say.",
+  "zh": "你知道我要说什么。"
+ },
+ {
+  "seg": 144,
+  "start": 713.584,
+  "end": 714.986,
+  "speaker": "Unknown",
+  "en": "We have something called a bleederboard.",
+  "zh": "我们有个东西叫 bleederboard(放血榜)。"
+ },
+ {
+  "seg": 145,
+  "start": 715.847,
+  "end": 721.592,
+  "speaker": "Unknown",
+  "en": "Where we keep track of the cost of experiments of everybody who's running experiments.",
+  "zh": "在上面我们记录每个跑实验的人的实验成本。"
+ },
+ {
+  "seg": 146,
+  "start": 721.772,
+  "end": 722.332,
+  "speaker": "Unknown",
+  "en": "That's awesome.",
+  "zh": "那太棒了。"
+ },
+ {
+  "seg": 147,
+  "start": 722.352,
+  "end": 730.679,
+  "speaker": "Unknown",
+  "en": "You know, and everybody any day can look at who's high up on the bleeder board.",
+  "zh": "你知道的,任何人任何一天都能看到谁在放血榜上排名靠前。"
+ },
+ {
+  "seg": 148,
+  "start": 731.159,
+  "end": 733.68,
+  "speaker": "Unknown",
+  "en": "I can also give an example from AI.",
+  "zh": "我还可以举一个来自 AI 的例子。"
+ },
+ {
+  "seg": 149,
+  "start": 734.1,
+  "end": 737.301,
+  "speaker": "Unknown",
+  "en": "I don't know if you know this NanoGPT benchmark you are running.",
+  "zh": "我不知道你知不知道你们正在跑的这个 NanoGPT 基准。"
+ },
+ {
+  "seg": 150,
+  "start": 737.882,
+  "end": 747.765,
+  "speaker": "Unknown",
+  "en": "It's basically asking you to retrain GPT-2, which when it just came out, is a very expensive model to train and takes weeks, I think, on multiple GPUs.",
+  "zh": "这基本上是在要求你重新训练 GPT-2,它刚发布的时候是一个非常昂贵的训练模型，我记得需要多块 GPU 训练几周。"
+ },
+ {
+  "seg": 151,
+  "start": 748.225,
+  "end": 752.287,
+  "speaker": "Unknown",
+  "en": "And right now, people can train it on single GPU within hours.",
+  "zh": "而现在，人们可以在单块 GPU 上几小时内训练完它。"
+ },
+ {
+  "seg": 152,
+  "start": 752.687,
+  "end": 754.888,
+  "speaker": "Unknown",
+  "en": "And that number has been shrinking constantly.",
+  "zh": "而且这个数字一直在不断缩小。"
+ },
+ {
+  "seg": 153,
+  "start": 755.028,
+  "end": 755.268,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 154,
+  "start": 755.928,
+  "end": 757.869,
+  "speaker": "Unknown",
+  "en": "But that's also totally separate, right?",
+  "zh": "但那也完全是另一回事，对吧？"
+ },
+ {
+  "seg": 155,
+  "start": 757.889,
+  "end": 761.971,
+  "speaker": "Unknown",
+  "en": "Like, that's just like whatever Moore's Law, like... No, no, it's the same GPU.",
+  "zh": "比如，那就像摩尔定律之类的……不，不，是同一块 GPU。"
+ },
+ {
+  "seg": 156,
+  "start": 762.831,
+  "end": 763.772,
+  "speaker": "Unknown",
+  "en": "It's the same hardware.",
+  "zh": "是同样的硬件。"
+ },
+ {
+  "seg": 157,
+  "start": 764.052,
+  "end": 767.173,
+  "speaker": "Unknown",
+  "en": "Using the same hardware and then you improve the techniques of pre-training.",
+  "zh": "使用同样的硬件，然后你改进了预训练的技术。"
+ },
+ {
+  "seg": 158,
+  "start": 767.954,
+  "end": 768.574,
+  "speaker": "Unknown",
+  "en": "Oh, interesting.",
+  "zh": "哦，有意思。"
+ },
+ {
+  "seg": 159,
+  "start": 768.594,
+  "end": 774.537,
+  "speaker": "Unknown",
+  "en": "Yeah, what else improves is like algorithmic techniques, data techniques, kernels, all of that kind of stuff.",
+  "zh": "是的，其他改进的还有算法技术、数据技术、kernel,诸如此类的东西。"
+ },
+ {
+  "seg": 160,
+  "start": 774.557,
+  "end": 777.078,
+  "speaker": "Unknown",
+  "en": "Do you know how much it costs to train GPT to...?",
+  "zh": "你知道训练 GPT to……要花多少钱吗？"
+ },
+ {
+  "seg": 161,
+  "start": 777.578,
+  "end": 778.719,
+  "speaker": "Unknown",
+  "en": "I think it's a few hundred dollars.",
+  "zh": "我记得是几百美元。"
+ },
+ {
+  "seg": 162,
+  "start": 778.739,
+  "end": 779.419,
+  "speaker": "Unknown",
+  "en": "It's a hundred dollars.",
+  "zh": "是一百美元。"
+ },
+ {
+  "seg": 163,
+  "start": 779.499,
+  "end": 782.54,
+  "speaker": "Unknown",
+  "en": "Oh, wow, so the same GPU.",
+  "zh": "哦，哇，所以是同一块 GPU。"
+ },
+ {
+  "seg": 164,
+  "start": 782.56,
+  "end": 783.621,
+  "speaker": "Unknown",
+  "en": "Same GPU, same data.",
+  "zh": "同样的 GPU,同样的数据。"
+ },
+ {
+  "seg": 165,
+  "start": 783.921,
+  "end": 784.862,
+  "speaker": "Unknown",
+  "en": "And this is just algorithmic.",
+  "zh": "而这纯粹是算法层面的。"
+ },
+ {
+  "seg": 166,
+  "start": 784.902,
+  "end": 786.903,
+  "speaker": "Unknown",
+  "en": "And do those come from humans, or do those come from...",
+  "zh": "那些是来自人类，还是来自……"
+ },
+ {
+  "seg": 167,
+  "start": 787.483,
+  "end": 787.844,
+  "speaker": "Unknown",
+  "en": "Agents.",
+  "zh": "智能体。"
+ },
+ {
+  "seg": 168,
+  "start": 788.124,
+  "end": 790.065,
+  "speaker": "Unknown",
+  "en": "A lot of them are auto-research results.",
+  "zh": "其中很多是自动化研究的成果。"
+ },
+ {
+  "seg": 169,
+  "start": 790.205,
+  "end": 792.407,
+  "speaker": "Unknown",
+  "en": "But that's definitely the denominator.",
+  "zh": "但那肯定是分母。"
+ },
+ {
+  "seg": 170,
+  "start": 792.447,
+  "end": 793.788,
+  "speaker": "Unknown",
+  "en": "That's not the numerator.",
+  "zh": "不是分子。"
+ },
+ {
+  "seg": 171,
+  "start": 793.808,
+  "end": 794.168,
+  "speaker": "Unknown",
+  "en": "Correct.",
+  "zh": "正确。"
+ },
+ {
+  "seg": 172,
+  "start": 794.228,
+  "end": 799.832,
+  "speaker": "Unknown",
+  "en": "What you want to see is, like, you can do that with GPT-5, which we're not seeing.",
+  "zh": "你想看到的是，比如，你能用 GPT-5 做到这一点，而我们没有看到。"
+ },
+ {
+  "seg": 173,
+  "start": 799.872,
+  "end": 802.133,
+  "speaker": "Unknown",
+  "en": "The cost to these things is going up dramatically.",
+  "zh": "这些东西的成本正在急剧上升。"
+ },
+ {
+  "seg": 174,
+  "start": 802.173,
+  "end": 806.797,
+  "speaker": "Unknown",
+  "en": "Well, I think one of the most closely guarded secrets in the industry is...",
+  "zh": "嗯，我认为这个行业里被守护得最严密的秘密之一就是……"
+ },
+ {
+  "seg": 175,
+  "start": 807.677,
+  "end": 811.64,
+  "speaker": "Unknown",
+  "en": "Exactly this thing, which is how much compute you can get out of this.",
+  "zh": "正是这件事，也就是你能从中获得多少算力。"
+ },
+ {
+  "seg": 176,
+  "start": 812.341,
+  "end": 821.147,
+  "speaker": "Unknown",
+  "en": "Because in some sense, even if all you were improving was your denominator, you could get faster training because now you can get more rollouts.",
+  "zh": "因为从某种意义上说，即使你改进的只是分母，你也可以获得更快的训练，因为现在你可以获得更多的 rollout。"
+ },
+ {
+  "seg": 177,
+  "start": 821.567,
+  "end": 830.354,
+  "speaker": "Unknown",
+  "en": "And that means now you can sample what you were describing, like the manifold of the space of language more extensively.",
+  "zh": "而这意味着现在你可以更广泛地对语言空间的那个流形进行采样，就像你之前描述的那样。"
+ },
+ {
+  "seg": 178,
+  "start": 830.534,
+  "end": 835.598,
+  "speaker": "Unknown",
+  "en": "And then you can get better trajectories, which means you can get smarter models when you use that to train.",
+  "zh": "然后你可以获得更好的轨迹，这意味着当你用它来训练时，你可以得到更聪明的模型。"
+ },
+ {
+  "seg": 179,
+  "start": 835.738,
+  "end": 837.218,
+  "speaker": "Unknown",
+  "en": "For sure, improving the denominator is good.",
+  "zh": "当然，改进分母是好的。"
+ },
+ {
+  "seg": 180,
+  "start": 838.399,
+  "end": 840.099,
+  "speaker": "Unknown",
+  "en": "For sure, improving the numerator is good.",
+  "zh": "当然，改进分子也是好的。"
+ },
+ {
+  "seg": 181,
+  "start": 840.58,
+  "end": 846.642,
+  "speaker": "Unknown",
+  "en": "I've yet to see, which is great that you have glimmers, where you can improve both the numerator and the denominator.",
+  "zh": "我还没见过——你能看到一些苗头，这很棒——能同时改进分子和分母的情况。"
+ },
+ {
+  "seg": 182,
+  "start": 846.662,
+  "end": 849.202,
+  "speaker": "Unknown",
+  "en": "I mean, that's a pretty meaningful statement, which is awesome.",
+  "zh": "我是说，这是一个相当有分量的表态，非常了不起。"
+ },
+ {
+  "seg": 183,
+  "start": 849.483,
+  "end": 850.463,
+  "speaker": "Unknown",
+  "en": "What we found is that...",
+  "zh": "我们发现的是……"
+ },
+ {
+  "seg": 184,
+  "start": 851.123,
+  "end": 859.788,
+  "speaker": "Unknown",
+  "en": "A lot of the papers that claim to do RSI, when we test it in our internal infra, we find that they don't work.",
+  "zh": "很多声称做到 RSI 的论文，当我们在我们的内部基础设施里测试时，我们发现它们不管用。"
+ },
+ {
+  "seg": 185,
+  "start": 860.169,
+  "end": 866.913,
+  "speaker": "Unknown",
+  "en": "And a lot of it is because they're cool ideas that humans try to introspect and say, oh, you know, this is what I think should happen.",
+  "zh": "而其中很多是因为它们是一些人类试图内省然后说，哦，你知道，这是我认为应该会发生的事情的酷点子。"
+ },
+ {
+  "seg": 186,
+  "start": 866.933,
+  "end": 868.294,
+  "speaker": "Unknown",
+  "en": "They're complicated.",
+  "zh": "它们很复杂。"
+ },
+ {
+  "seg": 187,
+  "start": 868.954,
+  "end": 869.815,
+  "speaker": "Unknown",
+  "en": "They sound cool.",
+  "zh": "它们听起来很酷。"
+ },
+ {
+  "seg": 188,
+  "start": 869.835,
+  "end": 870.896,
+  "speaker": "Unknown",
+  "en": "They get you a good paper.",
+  "zh": "它们能让你发出一篇好论文。"
+ },
+ {
+  "seg": 189,
+  "start": 871.416,
+  "end": 876.381,
+  "speaker": "Unknown",
+  "en": "But then when we test it at scale, you know, on benchmarks, on real economic problems, they don't scale.",
+  "zh": "但当我们大规模测试时，你知道，在基准测试上，在真实的经济问题上，它们无法扩展。"
+ },
+ {
+  "seg": 190,
+  "start": 877.062,
+  "end": 881.726,
+  "speaker": "Unknown",
+  "en": "And what we found is that the simpler thing that closes the loop is the thing that scales.",
+  "zh": "而我们发现，那个能闭合回路的更简单的东西，才是能扩展的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 882.487,
+  "end": 885.93,
+  "speaker": "Unknown",
+  "en": "I would say one thing that we do that's probably unique...",
+  "zh": "我会说我们做的一件事可能是独一无二的……"
+ },
+ {
+  "seg": 192,
+  "start": 886.851,
+  "end": 893.798,
+  "speaker": "Unknown",
+  "en": "is that we always start with a very grounded mathematical framework that basically lays out the map of the whole space.",
+  "zh": "是我们总是从一个非常扎实的数学框架出发，它基本上勾勒出整个空间的地图。"
+ },
+ {
+  "seg": 193,
+  "start": 894.679,
+  "end": 905.17,
+  "speaker": "Unknown",
+  "en": "And the reason is because this space is so large that if you don't do that and you don't have this very principled way of doing it, you get lost very quickly in this complexity.",
+  "zh": "原因是这个空间太大了，如果你不这么做，没有一个非常有原则的方法，你会很快迷失在这种复杂性中。"
+ },
+ {
+  "seg": 194,
+  "start": 906.01,
+  "end": 907.752,
+  "speaker": "Unknown",
+  "en": "And the other reason is that...",
+  "zh": "另一个原因是……"
+ },
+ {
+  "seg": 195,
+  "start": 908.693,
+  "end": 913.675,
+  "speaker": "Unknown",
+  "en": "Often when you have this really complex system, there's two extremes of how you can build it.",
+  "zh": "通常当你有这种非常复杂的系统时，有两种极端的构建方式。"
+ },
+ {
+  "seg": 196,
+  "start": 913.755,
+  "end": 925.681,
+  "speaker": "Unknown",
+  "en": "You can take an approach where you basically build like 200 different systems and you hope that like this, this, this, you know, what is it, the Rube Goldberg machine will kind of work out.",
+  "zh": "你可以采取一种方式，基本上构建 200 个不同的系统，然后指望这个、这个、这个，你知道，那个叫什么来着，鲁布·戈德堡机械式的东西能勉强运转起来。"
+ },
+ {
+  "seg": 197,
+  "start": 925.701,
+  "end": 926.241,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是，是。"
+ },
+ {
+  "seg": 198,
+  "start": 926.821,
+  "end": 934.925,
+  "speaker": "Unknown",
+  "en": "Or you take the other way and you kind of basically spend some time thinking about these 200 things and maybe you realize, you know, they're actually just 12",
+  "zh": "或者你走另一条路，基本上花一些时间思考这 200 个东西，也许你会意识到，你知道，它们其实只是 12 个"
+ },
+ {
+  "seg": 199,
+  "start": 936.426,
+  "end": 938.728,
+  "speaker": "Unknown",
+  "en": "abstractions that generalize to these 200 things.",
+  "zh": "抽象，能推广到这 200 个东西。"
+ },
+ {
+  "seg": 200,
+  "start": 939.409,
+  "end": 945.937,
+  "speaker": "Unknown",
+  "en": "And so what we have tried to create a culture of let's really think from first principles.",
+  "zh": "所以我们努力营造一种文化，让我们真正从第一性原理出发思考。"
+ },
+ {
+  "seg": 201,
+  "start": 946.618,
+  "end": 953.386,
+  "speaker": "Unknown",
+  "en": "Let's look at the math and then we realize what are the assumptions we make to be practical because you have to do both.",
+  "zh": "我们先看数学，然后才意识到为了实际可行我们做了哪些假设，因为两者你都必须做。"
+ },
+ {
+  "seg": 202,
+  "start": 954.146,
+  "end": 956.428,
+  "speaker": "Unknown",
+  "en": "And then we see what works.",
+  "zh": "然后我们看什么有效。"
+ },
+ {
+  "seg": 203,
+  "start": 956.868,
+  "end": 965.893,
+  "speaker": "Unknown",
+  "en": "And when you do that, you then can see that, oh, you know, there's like multiple papers or ideas are actually, you know, subclasses of the same general framework.",
+  "zh": "当你这样做的时候，你就能发现，哦，你知道吗，其实有多篇论文或想法，它们实际上，嗯，是同一个通用框架的子类。"
+ },
+ {
+  "seg": 204,
+  "start": 966.073,
+  "end": 968.074,
+  "speaker": "Unknown",
+  "en": "And if you do that well, you can scale.",
+  "zh": "如果你把这件事做好了，你就能规模化。"
+ },
+ {
+  "seg": 205,
+  "start": 969.175,
+  "end": 973.798,
+  "speaker": "Unknown",
+  "en": "And I think that's one thing that I see that's missing.",
+  "zh": "而我认为这是我所看到的东西中缺失的一点。"
+ },
+ {
+  "seg": 206,
+  "start": 974.598,
+  "end": 981.543,
+  "speaker": "Unknown",
+  "en": "And that's hard to do and takes a very unusual group of people to really like make that work.",
+  "zh": "这很难做到，需要一群非常不寻常的人才能真正把这件事做成。"
+ },
+ {
+  "seg": 207,
+  "start": 982.044,
+  "end": 985.866,
+  "speaker": "Unknown",
+  "en": "I think Richard Feynman said once that there are two kinds of sciences.",
+  "zh": "我想 Richard Feynman 曾经说过，科学有两种。"
+ },
+ {
+  "seg": 208,
+  "start": 986.087,
+  "end": 988.949,
+  "speaker": "Unknown",
+  "en": "There's STEM collections and then there are physics.",
+  "zh": "一种是 STEM 集合，另一种是物理。"
+ },
+ {
+  "seg": 209,
+  "start": 989.469,
+  "end": 994.613,
+  "speaker": "Unknown",
+  "en": "So without a unified math framework, all these research are sort of just STEM collections.",
+  "zh": "所以没有一个统一的数学框架，所有这些研究都只是 STEM 集合。"
+ },
+ {
+  "seg": 210,
+  "start": 995.133,
+  "end": 1003.74,
+  "speaker": "Unknown",
+  "en": "You could, like a lot of this paper we're reading, they're just ideas inspired by some human behavior and then they try to mimic that and say, oh, look, we have RSI.",
+  "zh": "你可以，就像我们读的很多论文，它们只是受某种人类行为启发的想法，然后他们试图模仿它，然后说，哦，看，我们有 RSI。"
+ },
+ {
+  "seg": 211,
+  "start": 1004.26,
+  "end": 1014.106,
+  "speaker": "Unknown",
+  "en": "But then if you don't put into a unified system, you don't know if the overall system is actually improving or you're just locally applying an idea that's getting better.",
+  "zh": "但如果你不把它放进一个统一的系统里，你就不知道整体系统是不是真的在改进，还是你只是在局部应用一个正在变好的想法。"
+ },
+ {
+  "seg": 212,
+  "start": 1014.586,
+  "end": 1029.416,
+  "speaker": "Unknown",
+  "en": "So what we have is that we're putting all these components that you could possibly recursively improve into a unified framework and look at it from a holistic view so that improving one part does not negatively impact the other part.",
+  "zh": "所以我们所做的，就是把所有这些可能被递归改进的组件放进一个统一的框架里，从整体视角来看它，这样改进其中一个部分不会对其他部分产生负面影响。"
+ },
+ {
+  "seg": 213,
+  "start": 1030.656,
+  "end": 1031.457,
+  "speaker": "Unknown",
+  "en": "I see, I see.",
+  "zh": "我明白了，我明白了。"
+ },
+ {
+  "seg": 214,
+  "start": 1031.577,
+  "end": 1037.703,
+  "speaker": "Unknown",
+  "en": "So, for example, there are people who are doing recursive improvements just on harness, and then there are people who are only doing on weights.",
+  "zh": "所以，举个例子，有人在只做 harness 上的递归改进，也有人只在权重上做。"
+ },
+ {
+  "seg": 215,
+  "start": 1038.143,
+  "end": 1040.946,
+  "speaker": "Unknown",
+  "en": "But weights and harnesses are not isolated components.",
+  "zh": "但权重和 harness 并不是相互隔离的组件。"
+ },
+ {
+  "seg": 216,
+  "start": 1041.006,
+  "end": 1042.227,
+  "speaker": "Unknown",
+  "en": "They have impact on each other.",
+  "zh": "它们相互影响。"
+ },
+ {
+  "seg": 217,
+  "start": 1042.507,
+  "end": 1046.531,
+  "speaker": "Unknown",
+  "en": "You can think of RSI at many different levels of the stack, right?",
+  "zh": "你可以在技术栈的很多不同层面思考 RSI,对吧？"
+ },
+ {
+  "seg": 218,
+  "start": 1046.611,
+  "end": 1047.331,
+  "speaker": "Unknown",
+  "en": "You can think of...",
+  "zh": "你可以想……"
+ },
+ {
+  "seg": 219,
+  "start": 1048.432,
+  "end": 1055.018,
+  "speaker": "Unknown",
+  "en": "prompts, harness, weights, and you can go all the way to basically chips, right?",
+  "zh": "prompt、harness、权重，然后你可以一路下到基本上是芯片，对吧？"
+ },
+ {
+  "seg": 220,
+  "start": 1055.538,
+  "end": 1060.202,
+  "speaker": "Unknown",
+  "en": "And our goal here is to optimize all the levels of the stack, right?",
+  "zh": "我们这里的目标就是优化技术栈的所有层面，对吧？"
+ },
+ {
+  "seg": 221,
+  "start": 1064.968,
+  "end": 1067.429,
+  "speaker": "Unknown",
+  "en": "Efficient because we care so much about the denominator.",
+  "zh": "追求效率，因为我们非常在意分母。"
+ },
+ {
+  "seg": 222,
+  "start": 1067.729,
+  "end": 1071.611,
+  "speaker": "Unknown",
+  "en": "And then we started doing weights, weight updates.",
+  "zh": "然后我们开始做权重、权重更新。"
+ },
+ {
+  "seg": 223,
+  "start": 1072.312,
+  "end": 1077.294,
+  "speaker": "Unknown",
+  "en": "And what we found is that you get more gains, but you still have to do harness stuff, right?",
+  "zh": "我们发现你获得了更多收益，但你仍然得做 harness 的事情，对吧？"
+ },
+ {
+  "seg": 224,
+  "start": 1077.354,
+  "end": 1079.495,
+  "speaker": "Unknown",
+  "en": "And you can keep going down the stack.",
+  "zh": "而且你可以继续沿着技术栈往下走。"
+ },
+ {
+  "seg": 225,
+  "start": 1079.695,
+  "end": 1089.04,
+  "speaker": "Unknown",
+  "en": "And my guess is that you probably will need to do a lot of the kind of co-optimization of many different parts of the system to make it work.",
+  "zh": "我猜你很可能需要对系统的很多不同部分做大量的协同优化才能让它奏效。"
+ },
+ {
+  "seg": 226,
+  "start": 1089.28,
+  "end": 1092.922,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about the problem domain that you're going after just to prove that this works?",
+  "zh": "你能不能谈一下你们正在攻的问题领域，就是为了证明这个东西有效？"
+ },
+ {
+  "seg": 227,
+  "start": 1095.758,
+  "end": 1105.045,
+  "speaker": "Unknown",
+  "en": "We are trying very hard to pick areas of the AI space that are as close as possible to AI itself.",
+  "zh": "我们非常努力地挑选 AI 领域中尽可能接近 AI 本身的问题领域。"
+ },
+ {
+  "seg": 228,
+  "start": 1105.706,
+  "end": 1108.107,
+  "speaker": "Unknown",
+  "en": "Again, we try to be recursive.",
+  "zh": "再说一次，我们尽量做到递归。"
+ },
+ {
+  "seg": 229,
+  "start": 1108.408,
+  "end": 1113.491,
+  "speaker": "Unknown",
+  "en": "And if you think about it, there's not that many problems that are super close to AI.",
+  "zh": "而且你想想，真正超级接近 AI 的问题并没有那么多。"
+ },
+ {
+  "seg": 230,
+  "start": 1114.472,
+  "end": 1117.993,
+  "speaker": "Unknown",
+  "en": "And gives you improvement on both the numerator and denominator.",
+  "zh": "能同时给你分子和分母上的改进。"
+ },
+ {
+  "seg": 231,
+  "start": 1118.553,
+  "end": 1121.414,
+  "speaker": "Unknown",
+  "en": "And one of those is the inference problem, right?",
+  "zh": "其中之一就是推理问题，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 1121.875,
+  "end": 1134.759,
+  "speaker": "Unknown",
+  "en": "Because the more you can get improvements and efficiency out of inference, the more everything kind of unlocks, right?",
+  "zh": "因为你能从推理中获得越多的效率和改进，一切就越是解锁，对吧？"
+ },
+ {
+  "seg": 233,
+  "start": 1134.939,
+  "end": 1143.382,
+  "speaker": "Unknown",
+  "en": "And it's not just for technical reasons, but also the most promise of both the numerator and the denominator being improved.",
+  "zh": "而且不仅仅是技术上的原因，还因为它是同时改进分子和分母方面最有前景的。"
+ },
+ {
+  "seg": 234,
+  "start": 1143.962,
+  "end": 1145.483,
+  "speaker": "Unknown",
+  "en": "It kind of breaks the mind, right?",
+  "zh": "这有点让人脑子炸裂，对吧？"
+ },
+ {
+  "seg": 235,
+  "start": 1145.523,
+  "end": 1150.324,
+  "speaker": "Unknown",
+  "en": "So just for everybody that's listening to this, there's two improvements going on here.",
+  "zh": "给所有在听的人解释一下，这里有两个改进在发生。"
+ },
+ {
+  "seg": 236,
+  "start": 1150.424,
+  "end": 1154.606,
+  "speaker": "Unknown",
+  "en": "One of them is the ability of the model to make inference faster.",
+  "zh": "一个是让模型把推理变得更快的能力。"
+ },
+ {
+  "seg": 237,
+  "start": 1154.626,
+  "end": 1159.348,
+  "speaker": "Unknown",
+  "en": "And the second one is now that the inference is faster, it can do that faster, right?",
+  "zh": "第二个是现在推理变快了，它就能更快地做这件事，对吧？"
+ },
+ {
+  "seg": 238,
+  "start": 1159.828,
+  "end": 1162.889,
+  "speaker": "Unknown",
+  "en": "And again, that does not necessarily mean takeoff.",
+  "zh": "再说一次，这并不一定意味着起飞。"
+ },
+ {
+  "seg": 239,
+  "start": 1163.15,
+  "end": 1171.013,
+  "speaker": "Unknown",
+  "en": "That can still, you know, asymptote at some point, but it's just wild to think of this kind of compounding impact.",
+  "zh": "它仍然可能，嗯，在某一点趋于渐近，但想到这种复合影响还是挺疯狂的。"
+ },
+ {
+  "seg": 240,
+  "start": 1171.033,
+  "end": 1171.534,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 241,
+  "start": 1171.674,
+  "end": 1172.214,
+  "speaker": "Unknown",
+  "en": "We're a startup.",
+  "zh": "我们是一家创业公司。"
+ },
+ {
+  "seg": 242,
+  "start": 1172.314,
+  "end": 1173.334,
+  "speaker": "Unknown",
+  "en": "We're not a research lab.",
+  "zh": "我们不是研究实验室。"
+ },
+ {
+  "seg": 243,
+  "start": 1173.975,
+  "end": 1179.978,
+  "speaker": "Unknown",
+  "en": "And one of the reasons we chose it is because everybody in the world right now wants to serve their own model.",
+  "zh": "我们选择它的原因之一是，现在世界上每个人都想自己服务自己的模型。"
+ },
+ {
+  "seg": 244,
+  "start": 1180.238,
+  "end": 1180.478,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 245,
+  "start": 1181.118,
+  "end": 1184.54,
+  "speaker": "Unknown",
+  "en": "And everybody wants to use the latest",
+  "zh": "而且每个人都想用最新的"
+ },
+ {
+  "seg": 246,
+  "start": 1185.46,
+  "end": 1193.604,
+  "speaker": "Unknown",
+  "en": "For example, open-weight model, Kimi K3 or whatever just coming out and they want to be able to serve it as efficiently as possible, right?",
+  "zh": "比如，开放权重模型，Kimi K3 或者随便什么刚发布的，他们想尽可能高效地服务它，对吧？"
+ },
+ {
+  "seg": 247,
+  "start": 1194.004,
+  "end": 1196.986,
+  "speaker": "Unknown",
+  "en": "So it's an economically extremely important problem right now.",
+  "zh": "所以这在经济上是一个极其重要的问题。"
+ },
+ {
+  "seg": 248,
+  "start": 1197.666,
+  "end": 1211.733,
+  "speaker": "Unknown",
+  "en": "Just for the sake of discussion, if I wanted to make the inference for Kimi K3 faster, would I use Kimi K3 in a recursive way or would I use a separate model and system to do that for Kimi K3?",
+  "zh": "纯粹为了讨论起见，如果我想让 Kimi K3 的推理更快，我应该以递归的方式使用 Kimi K3,还是用一个单独的模型和系统来为 Kimi K3 做这件事？"
+ },
+ {
+  "seg": 249,
+  "start": 1212.489,
+  "end": 1222.021,
+  "speaker": "Unknown",
+  "en": "To improve the serving stack of Kimi-K3, I mean, in our, well, our system is not just using one LLM.",
+  "zh": "为了改进 Kimi-K3 的服务技术栈，我的意思是，在我们的，嗯，我们的系统不只是使用一个 LLM。"
+ },
+ {
+  "seg": 250,
+  "start": 1222.582,
+  "end": 1226.527,
+  "speaker": "Unknown",
+  "en": "You have many different LLMs that are doing many different things.",
+  "zh": "你有很多不同的 LLM 在做很多不同的事情。"
+ },
+ {
+  "seg": 251,
+  "start": 1227.007,
+  "end": 1230.171,
+  "speaker": "Unknown",
+  "en": "Oh, so you're doing, are you doing the inference stack for all of them?",
+  "zh": "哦，所以你们在做，你们是在为所有这些 LLM 做推理技术栈吗？"
+ },
+ {
+  "seg": 252,
+  "start": 1231.721,
+  "end": 1237.89,
+  "speaker": "Unknown",
+  "en": "I mean, again, we pick whichever is the most effective because it's being used the most time.",
+  "zh": "我是说，再说一次，我们会选最有效的那个，因为它被使用的时间最多。"
+ },
+ {
+  "seg": 253,
+  "start": 1238.671,
+  "end": 1245.521,
+  "speaker": "Unknown",
+  "en": "But the interesting thing is the choice of which LLM to use for which thing is also not always up to us.",
+  "zh": "但有意思的是，选择哪个 LLM 来做哪件事，也不总是由我们决定的。"
+ },
+ {
+  "seg": 254,
+  "start": 1246.262,
+  "end": 1247.283,
+  "speaker": "Unknown",
+  "en": "We let the model choose.",
+  "zh": "是不是类似「改进你自己」这样的？"
+ },
+ {
+  "seg": 255,
+  "start": 1247.643,
+  "end": 1251.728,
+  "speaker": "Unknown",
+  "en": "To be honest, today it's not really us who are deciding what to optimize.",
+  "zh": "说实话，今天真正决定优化什么的并不是我们。"
+ },
+ {
+  "seg": 256,
+  "start": 1252.128,
+  "end": 1252.749,
+  "speaker": "Unknown",
+  "en": "It's our agent.",
+  "zh": "是我们的智能体。"
+ },
+ {
+  "seg": 257,
+  "start": 1253.029,
+  "end": 1253.349,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 258,
+  "start": 1253.369,
+  "end": 1255.211,
+  "speaker": "Unknown",
+  "en": "Because it's recursively self-improving.",
+  "zh": "因为它在递归地自我改进。"
+ },
+ {
+  "seg": 259,
+  "start": 1255.552,
+  "end": 1259.315,
+  "speaker": "Unknown",
+  "en": "And what we're trying to do is not to limit itself to only one component.",
+  "zh": "而我们想做的就是不把它限制在仅仅一个组件上。"
+ },
+ {
+  "seg": 260,
+  "start": 1259.395,
+  "end": 1260.717,
+  "speaker": "Unknown",
+  "en": "So it chooses whether to.",
+  "zh": "所以它自己选择是否要……"
+ },
+ {
+  "seg": 261,
+  "start": 1260.817,
+  "end": 1261.518,
+  "speaker": "Unknown",
+  "en": "It chooses whether to.",
+  "zh": "它自己选择是否要……"
+ },
+ {
+  "seg": 262,
+  "start": 1261.638,
+  "end": 1265.822,
+  "speaker": "Unknown",
+  "en": "Yeah, we try to be like as hands-off as possible, let it do its thing.",
+  "zh": "是的，我们尽量做到最大程度的放手，让它做它自己的事。"
+ },
+ {
+  "seg": 263,
+  "start": 1266.042,
+  "end": 1267.604,
+  "speaker": "Unknown",
+  "en": "Do you have like a single master prompt?",
+  "zh": "你们有一个类似总主提示词的东西吗？"
+ },
+ {
+  "seg": 264,
+  "start": 1267.644,
+  "end": 1269.246,
+  "speaker": "Unknown",
+  "en": "Is it like, improve yourself?",
+  "zh": "是不是像,提升你自己?"
+ },
+ {
+  "seg": 265,
+  "start": 1271.02,
+  "end": 1273.361,
+  "speaker": "Unknown",
+  "en": "But even the master prompt has been improving.",
+  "zh": "但连那个主提示词也一直在被改进。"
+ },
+ {
+  "seg": 266,
+  "start": 1274.001,
+  "end": 1276.022,
+  "speaker": "Unknown",
+  "en": "Really, it improves the master prompt.",
+  "zh": "真的，它改进主提示词。"
+ },
+ {
+  "seg": 267,
+  "start": 1276.082,
+  "end": 1276.322,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 268,
+  "start": 1276.842,
+  "end": 1289.667,
+  "speaker": "Unknown",
+  "en": "And I mean, and it's not one RSI system because you can think of it as there's the thing that does the improvement, but then you also have to have the thing that knows what to improve.",
+  "zh": "而且我是说，它不是一个 RSI 系统，因为你可以把它想成：有一个负责做改进的东西，但你还得有一个知道该改进什么的东西。"
+ },
+ {
+  "seg": 269,
+  "start": 1290.287,
+  "end": 1295.529,
+  "speaker": "Unknown",
+  "en": "And that's both are dynamic problems and they are very co-linked, right?",
+  "zh": "这两者都是动态问题，而且它们是高度耦合的，对吧？"
+ },
+ {
+  "seg": 270,
+  "start": 1295.589,
+  "end": 1296.79,
+  "speaker": "Unknown",
+  "en": "How general do you think",
+  "zh": "你觉得这有多通用"
+ },
+ {
+  "seg": 271,
+  "start": 1298.661,
+  "end": 1300.322,
+  "speaker": "Unknown",
+  "en": "This ends up being.",
+  "zh": "最终会变成什么样。"
+ },
+ {
+  "seg": 272,
+  "start": 1300.382,
+  "end": 1303.684,
+  "speaker": "Unknown",
+  "en": "Like right now you're focused on speeding up inference in a specific domain.",
+  "zh": "比如现在你们专注于在特定领域加速推理。"
+ },
+ {
+  "seg": 273,
+  "start": 1304.204,
+  "end": 1308.546,
+  "speaker": "Unknown",
+  "en": "Do you think that whatever approaches you're coming up with here generalize?",
+  "zh": "你觉得你们在这里想出来的那些方法能泛化吗？"
+ },
+ {
+  "seg": 274,
+  "start": 1308.566,
+  "end": 1311.548,
+  "speaker": "Unknown",
+  "en": "Or do you think there'll be a different one per...",
+  "zh": "还是说每个……会有一个不同的方法针对每个……"
+ },
+ {
+  "seg": 275,
+  "start": 1313.635,
+  "end": 1314.716,
+  "speaker": "Unknown",
+  "en": "Target solution space.",
+  "zh": "目标解空间。"
+ },
+ {
+  "seg": 276,
+  "start": 1315.216,
+  "end": 1320.141,
+  "speaker": "Unknown",
+  "en": "Mathematically, we have defined it so that it's one system that generalizes to everything.",
+  "zh": "从数学上讲，我们把它定义成了一个能泛化到一切的系统。"
+ },
+ {
+  "seg": 277,
+  "start": 1321.162,
+  "end": 1326.707,
+  "speaker": "Unknown",
+  "en": "I think the one part of the system— And by everything, you mean any problem domain that you can point AI to?",
+  "zh": "我觉得这个系统的一部分——你说的「一切」是指任何你能把 AI 指向上去的问题域吗？"
+ },
+ {
+  "seg": 278,
+  "start": 1327.127,
+  "end": 1327.488,
+  "speaker": "Unknown",
+  "en": "Correct.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 279,
+  "start": 1327.728,
+  "end": 1331.011,
+  "speaker": "Unknown",
+  "en": "But then there are physical limits, for example.",
+  "zh": "但也存在物理极限，比如。"
+ },
+ {
+  "seg": 280,
+  "start": 1331.171,
+  "end": 1334.794,
+  "speaker": "Unknown",
+  "en": "And one big limit of this is the human element.",
+  "zh": "而其中一个很大的极限就是人的因素。"
+ },
+ {
+  "seg": 281,
+  "start": 1335.295,
+  "end": 1338.117,
+  "speaker": "Unknown",
+  "en": "I think the way that a lot of AI companies are thinking—",
+  "zh": "我觉得很多 AI 公司的思路是——"
+ },
+ {
+  "seg": 282,
+  "start": 1338.938,
+  "end": 1342.201,
+  "speaker": "Unknown",
+  "en": "is, you know, let us use AI to replace humans.",
+  "zh": "你知道，让我们用 AI 取代人类。"
+ },
+ {
+  "seg": 283,
+  "start": 1342.702,
+  "end": 1353.732,
+  "speaker": "Unknown",
+  "en": "But what we found is that there's so much that if you have good researchers and good engineers that they can bring to the table, that's going to be very hard to replace.",
+  "zh": "但我们发现，如果你有好的研究员和好的工程师，他们能带来的东西非常多，那是很难被取代的。"
+ },
+ {
+  "seg": 284,
+  "start": 1354.733,
+  "end": 1355.494,
+  "speaker": "Unknown",
+  "en": "By agents.",
+  "zh": "被智能体取代。"
+ },
+ {
+  "seg": 285,
+  "start": 1356.175,
+  "end": 1368.991,
+  "speaker": "Unknown",
+  "en": "And so that's why from the very beginning we've tried to think of our basically entire company as a multi-agent system where humans are the kind of agent that's cohabitating with other AI agents.",
+  "zh": "所以这就是为什么从一开始我们就试图把我们基本上整个公司想成一个多智能体系统，其中人类是与其他 AI 智能体共居的那种智能体。"
+ },
+ {
+  "seg": 286,
+  "start": 1369.252,
+  "end": 1370.253,
+  "speaker": "Unknown",
+  "en": "Can we at least reduce balance?",
+  "zh": "我们至少能降低平衡点吗？"
+ },
+ {
+  "seg": 287,
+  "start": 1370.273,
+  "end": 1372.115,
+  "speaker": "Unknown",
+  "en": "So for example, do you envision",
+  "zh": "比如，你能设想"
+ },
+ {
+  "seg": 288,
+  "start": 1373.389,
+  "end": 1381.416,
+  "speaker": "Unknown",
+  "en": "Do you envision a system where the amount of energy that goes into it somehow decreases over time relative to the improvement?",
+  "zh": "你能设想这样一个系统吗：投入其中的能量相对于改进而言随时间以某种方式减少？"
+ },
+ {
+  "seg": 289,
+  "start": 1381.476,
+  "end": 1389.063,
+  "speaker": "Unknown",
+  "en": "We can't share too much, but one of the very important things that we've tried to do in our company is not just work on the numerator.",
+  "zh": "我们不能透露太多，但我们公司一直尝试做的事情中非常重要的一点，就是不仅仅在分子上下功夫。"
+ },
+ {
+  "seg": 290,
+  "start": 1389.543,
+  "end": 1401.052,
+  "speaker": "Unknown",
+  "en": "Which is what I was describing earlier, which is your performance, but to work on the denominator, which is how much you can get out of the same amount of physics, money, whatever you want to call it.",
+  "zh": "也就是我之前描述的那些，即你的性能，而是在分母上下功夫，即你能从同样多的物理资源、金钱，随你怎么称呼它里面获得多少。"
+ },
+ {
+  "seg": 291,
+  "start": 1401.452,
+  "end": 1410.539,
+  "speaker": "Unknown",
+  "en": "But do you think it's possible to have a system where the numerator continues to increase at the same way with the denominator being fixed or decreasing?",
+  "zh": "但你觉得有可能存在这样一个系统吗：分子继续以同样的方式增长，而分母保持不变甚至在减少？"
+ },
+ {
+  "seg": 292,
+  "start": 1411.559,
+  "end": 1412.72,
+  "speaker": "Unknown",
+  "en": "It's not just possible.",
+  "zh": "这不仅仅是可能。"
+ },
+ {
+  "seg": 293,
+  "start": 1412.8,
+  "end": 1414.762,
+  "speaker": "Unknown",
+  "en": "I think it's happening.",
+  "zh": "我觉得它正在发生。"
+ },
+ {
+  "seg": 294,
+  "start": 1415.062,
+  "end": 1415.482,
+  "speaker": "Unknown",
+  "en": "Really?",
+  "zh": "真的吗？"
+ },
+ {
+  "seg": 295,
+  "start": 1415.602,
+  "end": 1415.842,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 296,
+  "start": 1416.703,
+  "end": 1420.244,
+  "speaker": "Unknown",
+  "en": "So it takes less energy to get better results.",
+  "zh": "所以得到更好的结果所需的能量更少了。"
+ },
+ {
+  "seg": 297,
+  "start": 1420.464,
+  "end": 1421.504,
+  "speaker": "Unknown",
+  "en": "Yeah, overtime.",
+  "zh": "是的，随时间推移。"
+ },
+ {
+  "seg": 298,
+  "start": 1421.605,
+  "end": 1427.766,
+  "speaker": "Unknown",
+  "en": "Do you think there's a universe in which, like, that continues without asymptoting?",
+  "zh": "你觉得有没有一个可能的世界，这个过程能持续下去而不趋于渐近线？"
+ },
+ {
+  "seg": 299,
+  "start": 1428.567,
+  "end": 1431.347,
+  "speaker": "Unknown",
+  "en": "Because if that was the case, then you actually have takeoff.",
+  "zh": "因为如果是那样的话，那你实际上就实现了 takeoff(起飞)。"
+ },
+ {
+  "seg": 300,
+  "start": 1431.568,
+  "end": 1435.489,
+  "speaker": "Unknown",
+  "en": "That just seems to disobey information theory and the laws of physics.",
+  "zh": "这似乎就违背了信息论和物理定律。"
+ },
+ {
+  "seg": 301,
+  "start": 1435.509,
+  "end": 1435.889,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是啊，是啊。"
+ },
+ {
+  "seg": 302,
+  "start": 1435.929,
+  "end": 1442.731,
+  "speaker": "Unknown",
+  "en": "I mean, I think at some point you're going to reach Planck constant, you know, Planck line, Planck energy, Planck time, right?",
+  "zh": "我的意思是，我认为在某个时候你会达到普朗克常数，你知道的，普朗克线、普朗克能量、普朗克时间，对吧？"
+ },
+ {
+  "seg": 303,
+  "start": 1443.251,
+  "end": 1445.432,
+  "speaker": "Unknown",
+  "en": "So it will asymptote at some point.",
+  "zh": "所以它在某个点会趋于渐近。"
+ },
+ {
+  "seg": 304,
+  "start": 1446.912,
+  "end": 1447.693,
+  "speaker": "Unknown",
+  "en": "Oh, I see.",
+  "zh": "哦，我明白了。"
+ },
+ {
+  "seg": 305,
+  "start": 1447.733,
+  "end": 1450.556,
+  "speaker": "Unknown",
+  "en": "And so you think that asymptote is basically like the computation of the universe?",
+  "zh": "所以你认为那个渐近线基本上就是宇宙的计算？"
+ },
+ {
+  "seg": 306,
+  "start": 1450.576,
+  "end": 1451.216,
+  "speaker": "Unknown",
+  "en": "At least, yeah.",
+  "zh": "至少是的，是的。"
+ },
+ {
+  "seg": 307,
+  "start": 1451.236,
+  "end": 1453.438,
+  "speaker": "Unknown",
+  "en": "I mean, you know, how many particles are there?",
+  "zh": "我的意思是，你知道，有多少粒子？"
+ },
+ {
+  "seg": 308,
+  "start": 1453.558,
+  "end": 1454.299,
+  "speaker": "Unknown",
+  "en": "10 to the 80.",
+  "zh": "10 的 80 次方。"
+ },
+ {
+  "seg": 309,
+  "start": 1454.559,
+  "end": 1454.94,
+  "speaker": "Unknown",
+  "en": "We know.",
+  "zh": "我们知道。"
+ },
+ {
+  "seg": 310,
+  "start": 1455.28,
+  "end": 1457.422,
+  "speaker": "Unknown",
+  "en": "Speed of light, you know.",
+  "zh": "光速，你知道的。"
+ },
+ {
+  "seg": 311,
+  "start": 1457.582,
+  "end": 1458.303,
+  "speaker": "Unknown",
+  "en": "We know what it is.",
+  "zh": "我们知道它是多少。"
+ },
+ {
+  "seg": 312,
+  "start": 1458.463,
+  "end": 1461.466,
+  "speaker": "Unknown",
+  "en": "You multiply those two and you basically get an upper bound of computation.",
+  "zh": "你把这两个相乘，基本上就得到计算的上限。"
+ },
+ {
+  "seg": 313,
+  "start": 1462.406,
+  "end": 1465.669,
+  "speaker": "Unknown",
+  "en": "And so given the fixed amount of computation you can do every second,",
+  "zh": "所以在给定每秒能做的固定计算量的情况下，"
+ },
+ {
+  "seg": 314,
+  "start": 1466.663,
+  "end": 1467.604,
+  "speaker": "Unknown",
+  "en": "We know we have a limit.",
+  "zh": "我们知道我们有一个极限。"
+ },
+ {
+  "seg": 315,
+  "start": 1467.984,
+  "end": 1472.648,
+  "speaker": "Unknown",
+  "en": "I'm so impressed by your belief that, like, this idea of a model improving itself.",
+  "zh": "我对你那种信念印象太深了，就是，这种模型自我改进的想法。"
+ },
+ {
+  "seg": 316,
+  "start": 1472.668,
+  "end": 1473.468,
+  "speaker": "Unknown",
+  "en": "But it's not a belief.",
+  "zh": "但这不是信念。"
+ },
+ {
+  "seg": 317,
+  "start": 1474.089,
+  "end": 1474.929,
+  "speaker": "Unknown",
+  "en": "No, you've got to correct that.",
+  "zh": "不，你得纠正这一点。"
+ },
+ {
+  "seg": 318,
+  "start": 1474.949,
+  "end": 1475.45,
+  "speaker": "Unknown",
+  "en": "That's amazing.",
+  "zh": "那太厉害了。"
+ },
+ {
+  "seg": 319,
+  "start": 1475.47,
+  "end": 1479.973,
+  "speaker": "Unknown",
+  "en": "I mean, also, it's a question of what metric you use to view the progress, right?",
+  "zh": "我的意思是，还有，这也是一个用什么指标来看待进展的问题，对吧？"
+ },
+ {
+  "seg": 320,
+  "start": 1479.993,
+  "end": 1485.457,
+  "speaker": "Unknown",
+  "en": "So if you use benchmark accuracy, it's upper-bounded by 100%.",
+  "zh": "所以如果你用基准测试准确率，它的上限是 100%。"
+ },
+ {
+  "seg": 321,
+  "start": 1485.638,
+  "end": 1489.42,
+  "speaker": "Unknown",
+  "en": "You're never going to see exponential improvement on that because eventually it bottlenecks at 100%.",
+  "zh": "你永远不会在那上面看到指数级改进，因为最终它会在 100% 处碰到瓶颈。"
+ },
+ {
+  "seg": 322,
+  "start": 1489.44,
+  "end": 1489.681,
+  "speaker": "Unknown",
+  "en": "Of course.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 323,
+  "start": 1490.341,
+  "end": 1496.726,
+  "speaker": "Unknown",
+  "en": "So for a long time, we had this question, how do we even know if something has ticked off, right, if we don't have the right metric?",
+  "zh": "所以很长一段时间里，我们都有这个问题，如果没有正确的指标，我们怎么知道某件事是否已经实现了呢，对吧？"
+ },
+ {
+  "seg": 324,
+  "start": 1496.867,
+  "end": 1498.848,
+  "speaker": "Unknown",
+  "en": "It's not a belief that this is happening.",
+  "zh": "这不是相信这件事正在发生。"
+ },
+ {
+  "seg": 325,
+  "start": 1499.048,
+  "end": 1501.851,
+  "speaker": "Unknown",
+  "en": "I think we're already seeing glimmers of data happening.",
+  "zh": "我认为我们已经看到这件事发生的一些数据微光了。"
+ },
+ {
+  "seg": 326,
+  "start": 1501.951,
+  "end": 1505.293,
+  "speaker": "Unknown",
+  "en": "But it is a dramatic statement, which is, I think it's the first time I've heard you say it.",
+  "zh": "但这是一个很惊人的说法，我觉得这是我第一次听你这么说。"
+ },
+ {
+  "seg": 327,
+  "start": 1505.914,
+  "end": 1513.08,
+  "speaker": "Unknown",
+  "en": "Wait, is this like, has this been kind of, you know, a continuous result or is it relatively recent that you're starting to see glimmers of this?",
+  "zh": "等等，这像是，一直是这样的吗，就是，你知道吗，是一个持续的结果，还是说最近你才开始看到这种微光？"
+ },
+ {
+  "seg": 328,
+  "start": 1513.45,
+  "end": 1520.034,
+  "speaker": "Unknown",
+  "en": "No, we've been seeing like these results kind of grow and grow and grow over the last few months.",
+  "zh": "不，过去几个月里我们一直看到这些结果在不断地增长、增长、再增长。"
+ },
+ {
+  "seg": 329,
+  "start": 1520.214,
+  "end": 1526.397,
+  "speaker": "Unknown",
+  "en": "How do you have confidence in the results given, you know, like it's not working yet and you don't know?",
+  "zh": "你怎么对这些结果有信心，要知道，它还没跑通，你也不确定？"
+ },
+ {
+  "seg": 330,
+  "start": 1527.138,
+  "end": 1528.158,
+  "speaker": "Unknown",
+  "en": "No, it's not belief.",
+  "zh": "不，这不是信念。"
+ },
+ {
+  "seg": 331,
+  "start": 1528.278,
+  "end": 1529.759,
+  "speaker": "Unknown",
+  "en": "It's empirical measurement.",
+  "zh": "这是实证测量。"
+ },
+ {
+  "seg": 332,
+  "start": 1530.059,
+  "end": 1537.664,
+  "speaker": "Unknown",
+  "en": "But also as a company, there's a very funny thing that is happening, which is because we have been so thorough,",
+  "zh": "但作为一家公司，还有一件很好笑的事情正在发生，就是因为我们一直非常彻底，"
+ },
+ {
+  "seg": 333,
+  "start": 1538.264,
+  "end": 1542.128,
+  "speaker": "Unknown",
+  "en": "We have not released things until we're super sure it's correct, right?",
+  "zh": "我们在超级确定它正确之前不会发布东西，对吧？"
+ },
+ {
+  "seg": 334,
+  "start": 1542.608,
+  "end": 1546.972,
+  "speaker": "Unknown",
+  "en": "And every few months, you know, there's like an announcement of something RSI related.",
+  "zh": "而每隔几个月，你知道的，就会有一个和 RSI 相关的东西的公告。"
+ },
+ {
+  "seg": 335,
+  "start": 1547.873,
+  "end": 1550.575,
+  "speaker": "Unknown",
+  "en": "We look at it, we're like, we should have released our results or something.",
+  "zh": "我们看着它，我们说，我们本应该发布我们的结果还是什么的。"
+ },
+ {
+  "seg": 336,
+  "start": 1551.076,
+  "end": 1555.319,
+  "speaker": "Unknown",
+  "en": "And then we look at it, we try to replicate it, and we realize, oh, it's noise, you know, it's cherry picking.",
+  "zh": "然后我们看它，我们试着复现它，然后我们意识到，哦，那是噪声，你知道的，那是挑数据。"
+ },
+ {
+  "seg": 337,
+  "start": 1556.04,
+  "end": 1570.632,
+  "speaker": "Unknown",
+  "en": "And so it's very, very hard to know in this sea of, you know, AI, I don't know what you want to call it, like everybody's trying to do AI, RSI stuff to know what's legit or not.",
+  "zh": "所以在这一片，你知道的，AI——我不知道你想怎么称呼它——人人都想搞 AI、RSI 之类的海洋里，要知道什么是真的什么不是，是非常非常难的。"
+ },
+ {
+  "seg": 338,
+  "start": 1570.752,
+  "end": 1575.376,
+  "speaker": "Unknown",
+  "en": "The technical answer is you have to be really, really good at measuring things.",
+  "zh": "技术上的答案是，你必须非常非常擅长测量。"
+ },
+ {
+  "seg": 339,
+  "start": 1575.877,
+  "end": 1581.722,
+  "speaker": "Unknown",
+  "en": "So for example, we have one of our engineers that we named him the Viceroy of Variance.",
+  "zh": "比如说，我们有一位工程师，我们给他起名叫“方差总督”。"
+ },
+ {
+  "seg": 340,
+  "start": 1583.495,
+  "end": 1584.455,
+  "speaker": "Unknown",
+  "en": "That's a real thing.",
+  "zh": "这是真实存在的。"
+ },
+ {
+  "seg": 341,
+  "start": 1584.995,
+  "end": 1591.376,
+  "speaker": "Unknown",
+  "en": "Like, his job is to go and, like, destroy the results we have and find what's wrong.",
+  "zh": "就是，他的工作就是去，比如，摧毁我们已有的结果，找出哪里有问题。"
+ },
+ {
+  "seg": 342,
+  "start": 1591.957,
+  "end": 1594.857,
+  "speaker": "Unknown",
+  "en": "And we even have little, like, Slack emojis that we have.",
+  "zh": "我们甚至还有一些小的，比如，Slack 表情。"
+ },
+ {
+  "seg": 343,
+  "start": 1594.997,
+  "end": 1601.218,
+  "speaker": "Unknown",
+  "en": "There's one where, like, there's, like, red laser stuff coming out of his eyes when, like, he finds that there's bad variants and stuff.",
+  "zh": "有一个是，比如，当他发现有坏的变体之类的时候，他的眼睛里会射出红色激光之类的东西。"
+ },
+ {
+  "seg": 344,
+  "start": 1601.438,
+  "end": 1610.3,
+  "speaker": "Unknown",
+  "en": "One of the things that we found is that, you know, when you're dealing with a new benchmark or a new problem of economic value that you want to apply this to,",
+  "zh": "我们发现的事情之一是，你知道的，当你在处理一个新的基准测试，或者一个新的你想要把这套东西应用上去的经济价值问题时，"
+ },
+ {
+  "seg": 345,
+  "start": 1611.22,
+  "end": 1614.062,
+  "speaker": "Unknown",
+  "en": "So far we have not found a replacement for what we call quality time.",
+  "zh": "到目前为止，我们还没有找到能替代我们所说的“质量时间”的东西。"
+ },
+ {
+  "seg": 346,
+  "start": 1614.502,
+  "end": 1622.926,
+  "speaker": "Unknown",
+  "en": "Literally running hundreds of experiments, looking at it, developing an intuition, trying to figure out what is wrong, what is not wrong.",
+  "zh": "字面意义上地跑几百个实验，看着它们，培养直觉，试图搞清楚什么有问题，什么没问题。"
+ },
+ {
+  "seg": 347,
+  "start": 1623.086,
+  "end": 1625.188,
+  "speaker": "Unknown",
+  "en": "What is just variance, what is not?",
+  "zh": "什么只是方差，什么不是？"
+ },
+ {
+  "seg": 348,
+  "start": 1625.748,
+  "end": 1629.21,
+  "speaker": "Unknown",
+  "en": "What is this weird thing that actually shows that there's, you know...",
+  "zh": "什么是很奇怪但其实表明有，你知道的……"
+ },
+ {
+  "seg": 349,
+  "start": 1629.81,
+  "end": 1637.475,
+  "speaker": "Unknown",
+  "en": "Some kind of reward hacking, like two levels down, the agent that built the agent, that built the agent, did hack something, and now you have these weird results.",
+  "zh": "某种奖励作弊的事情，比如往下两层，构建智能体的那个智能体、构建那个智能体的那个智能体，确实作弊了某个东西，然后你就得到了这些奇怪的结果。"
+ },
+ {
+  "seg": 350,
+  "start": 1637.775,
+  "end": 1638.475,
+  "speaker": "Unknown",
+  "en": "It's not easy.",
+  "zh": "这不容易。"
+ },
+ {
+  "seg": 351,
+  "start": 1639.055,
+  "end": 1648.081,
+  "speaker": "Unknown",
+  "en": "So when I have dealt with nonlinear control systems, there's a bunch of, in networking, there's a bunch of degenerate behavior you have to deal with.",
+  "zh": "所以当我处理非线性控制系统时，在网络领域，有很多退化行为你必须处理。"
+ },
+ {
+  "seg": 352,
+  "start": 1648.141,
+  "end": 1651.102,
+  "speaker": "Unknown",
+  "en": "It's not like just convergence and divergence, you have things like oscillations.",
+  "zh": "不只是收敛和发散，还有振荡之类的东西。"
+ },
+ {
+  "seg": 353,
+  "start": 1651.783,
+  "end": 1657.246,
+  "speaker": "Unknown",
+  "en": "And this is a very multidimensional problem, so do you have to deal with all of that stuff, like potential oscillation?",
+  "zh": "这是一个非常多维的问题，所以你必须处理所有这些东西吗，比如潜在的振荡？"
+ },
+ {
+  "seg": 354,
+  "start": 1662.993,
+  "end": 1664.774,
+  "speaker": "Unknown",
+  "en": "And then on top of that, you have noise.",
+  "zh": "而且在此之上，还有噪声。"
+ },
+ {
+  "seg": 355,
+  "start": 1665.494,
+  "end": 1667.695,
+  "speaker": "Unknown",
+  "en": "LLMs are fundamentally super stochastic.",
+  "zh": "LLM 从根本上说是超级随机的。"
+ },
+ {
+  "seg": 356,
+  "start": 1667.895,
+  "end": 1681.9,
+  "speaker": "Unknown",
+  "en": "So what we find is that specific agent on a specific benchmark, you know, there's levels of noise that sometimes are unpredictable, and some of them are extremely, like, weird.",
+  "zh": "所以我们发现，特定的智能体在特定的基准测试上，有时候会出现不可预测的噪声水平，其中一些非常、非常奇怪。"
+ },
+ {
+  "seg": 357,
+  "start": 1681.94,
+  "end": 1687.242,
+  "speaker": "Unknown",
+  "en": "Like, you even have some weird noise that comes from, like, this GPU and this other GPU.",
+  "zh": "比如，甚至有一些奇怪的噪声来自，比如，这块 GPU 和另一块 GPU。"
+ },
+ {
+  "seg": 358,
+  "start": 1687.262,
+  "end": 1690.883,
+  "speaker": "Unknown",
+  "en": "They're both, you know, B200, but they have slightly different behaviors.",
+  "zh": "它们都是，你知道的，B200，但行为略有不同。"
+ },
+ {
+  "seg": 359,
+  "start": 1691.523,
+  "end": 1695.966,
+  "speaker": "Unknown",
+  "en": "Like on the physics, and you can see some of that being replicated at the high level.",
+  "zh": "比如在物理层面，你可以在高层看到其中一些被复制出来。"
+ },
+ {
+  "seg": 360,
+  "start": 1696.626,
+  "end": 1698.327,
+  "speaker": "Unknown",
+  "en": "So that's why it has to be an empirical thing.",
+  "zh": "所以这就是为什么它必须是一件经验性的事情。"
+ },
+ {
+  "seg": 361,
+  "start": 1698.787,
+  "end": 1703.47,
+  "speaker": "Unknown",
+  "en": "So from that you could already see that intelligence is not a single scalar.",
+  "zh": "从这一点你已经可以看出，智能不是一个单一的标量。"
+ },
+ {
+  "seg": 362,
+  "start": 1703.81,
+  "end": 1705.891,
+  "speaker": "Unknown",
+  "en": "It's more like a multi-dimension vector.",
+  "zh": "它更像一个多维向量。"
+ },
+ {
+  "seg": 363,
+  "start": 1706.992,
+  "end": 1717.661,
+  "speaker": "Unknown",
+  "en": "And there will be domains and field where this RSI will give you takeoff and there will be dimensions where you might plateau or you will have relatively slow improvement.",
+  "zh": "会有一些领域和方向上这个 RSI 会给你带来起飞，也会有一些维度上你可能停滞不前，或者改进相对缓慢。"
+ },
+ {
+  "seg": 364,
+  "start": 1718.221,
+  "end": 1723.306,
+  "speaker": "Unknown",
+  "en": "And I think the defining factor is what is the slowest",
+  "zh": "而我认为决定性因素是什么是最慢的"
+ },
+ {
+  "seg": 365,
+  "start": 1723.906,
+  "end": 1724.868,
+  "speaker": "Unknown",
+  "en": "Component in it.",
+  "zh": "组件。"
+ },
+ {
+  "seg": 366,
+  "start": 1725.449,
+  "end": 1727.832,
+  "speaker": "Unknown",
+  "en": "So you're an optimization person.",
+  "zh": "你是搞优化的人。"
+ },
+ {
+  "seg": 367,
+  "start": 1728.273,
+  "end": 1737.868,
+  "speaker": "Unknown",
+  "en": "You know that there's this MDOS law where, you know, like the component, the speedup you can get by optimizing a component is... You just take it to zero.",
+  "zh": "你知道有个 MDOS 定律，你知道，某个组件，通过优化某个组件能获得的加速是……你直接把它归零。"
+ },
+ {
+  "seg": 368,
+  "start": 1737.888,
+  "end": 1738.068,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 369,
+  "start": 1738.149,
+  "end": 1739.05,
+  "speaker": "Unknown",
+  "en": "Everything else dominates.",
+  "zh": "其他一切都占主导。"
+ },
+ {
+  "seg": 370,
+  "start": 1739.19,
+  "end": 1739.79,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是。"
+ },
+ {
+  "seg": 371,
+  "start": 1740.05,
+  "end": 1745.112,
+  "speaker": "Unknown",
+  "en": "So the digital part we could optimize and accelerate, you could get like a thousand times faster or a million times faster.",
+  "zh": "所以数字部分我们可以优化和加速，你可以让它快一千倍或一百万倍。"
+ },
+ {
+  "seg": 372,
+  "start": 1745.432,
+  "end": 1751.555,
+  "speaker": "Unknown",
+  "en": "But if it's only 20% of your overpowered time, you're only going to get 20% speed up, right?",
+  "zh": "但如果它只占你总耗时（overpowered time）的 20%，你也只能得到 20% 的加速，对吧？"
+ },
+ {
+  "seg": 373,
+  "start": 1751.595,
+  "end": 1760.538,
+  "speaker": "Unknown",
+  "en": "So for domains where you still need to move atoms that interact with the physical world that's really slow, you're still going to be bottlenecked by that.",
+  "zh": "所以对于那些仍然需要移动原子、与物理世界交互的领域，那真的很慢，你仍然会被那个瓶颈卡住。"
+ },
+ {
+  "seg": 374,
+  "start": 1761.118,
+  "end": 1770.2,
+  "speaker": "Unknown",
+  "en": "So let's say every evaluation you need to do, let's say drug discovery, you still need to do wet lab experiments and then clinical trials and that take months.",
+  "zh": "比如说你需要做的每一次评估，比如说药物发现，你仍然需要做湿实验室实验，然后是临床试验，那需要几个月。"
+ },
+ {
+  "seg": 375,
+  "start": 1770.84,
+  "end": 1777.082,
+  "speaker": "Unknown",
+  "en": "Then every new idea have to go through a month or multiple months evaluation.",
+  "zh": "那么每一个新想法都必须经过一个月或几个月的评估。"
+ },
+ {
+  "seg": 376,
+  "start": 1777.422,
+  "end": 1784.744,
+  "speaker": "Unknown",
+  "en": "So those fields probably won't be accelerated as fast as coding or mathematics where you have very fast and cheap evaluations.",
+  "zh": "所以那些领域的加速可能不会像编程或数学那么快，因为在那些领域你有非常快速且廉价的评估。"
+ },
+ {
+  "seg": 377,
+  "start": 1784.964,
+  "end": 1787.704,
+  "speaker": "Unknown",
+  "en": "But I've yet to see, has anybody put a balance on that?",
+  "zh": "但我还没见过，有没有人对此给出一个量化界限？"
+ },
+ {
+  "seg": 378,
+  "start": 1788.164,
+  "end": 1790.525,
+  "speaker": "Unknown",
+  "en": "Like to say, in order for me to",
+  "zh": "比如说，为了让我"
+ },
+ {
+  "seg": 379,
+  "start": 1791.966,
+  "end": 1798.93,
+  "speaker": "Unknown",
+  "en": "You know, improve this by x to solve this problem, you know, I need this much net new energy to do it, right?",
+  "zh": "你知道，把这个提升 x 倍来解决这个问题，你知道，我需要多少净新增能量来做这件事，对吧？"
+ },
+ {
+  "seg": 380,
+  "start": 1798.99,
+  "end": 1800.912,
+  "speaker": "Unknown",
+  "en": "And if you had that, you could actually predict...",
+  "zh": "如果你有了那个，你实际上就可以预测……"
+ },
+ {
+  "seg": 381,
+  "start": 1801.74,
+  "end": 1806.201,
+  "speaker": "Unknown",
+  "en": "Like, if I'm, like, listen, like, how big of a warehouse do I need to solve, like, a drug discovery problem?",
+  "zh": "比如，如果我说，听着，我需要多大的一个仓库才能解决，比如，一个药物发现问题？"
+ },
+ {
+  "seg": 382,
+  "start": 1806.481,
+  "end": 1809.822,
+  "speaker": "Unknown",
+  "en": "Or how many different robots I would need to solve?",
+  "zh": "或者需要多少个不同的机器人才能解决？"
+ },
+ {
+  "seg": 383,
+  "start": 1810.142,
+  "end": 1814.183,
+  "speaker": "Unknown",
+  "en": "So do you think that we're getting any closer to actually having bounds?",
+  "zh": "那么你觉得我们离真正拥有这种界限更近了吗？"
+ },
+ {
+  "seg": 384,
+  "start": 1814.203,
+  "end": 1817.704,
+  "speaker": "Unknown",
+  "en": "Because I think this is such a critical question for all of us to answer.",
+  "zh": "因为我认为这是一个对我们所有人都至关重要的、必须回答的问题。"
+ },
+ {
+  "seg": 385,
+  "start": 1818.405,
+  "end": 1826.647,
+  "speaker": "Unknown",
+  "en": "One of the internal jokes we have in the company is that the secret to RSI is somewhere in a garden hose company in Wisconsin.",
+  "zh": "我们公司内部有个笑话，说 RSI 的秘密藏在威斯康星州某家浇花水管公司的某个地方。"
+ },
+ {
+  "seg": 386,
+  "start": 1827.567,
+  "end": 1840.796,
+  "speaker": "Unknown",
+  "en": "And the joke here is that if Einstein hadn't discovered relativity, he would not have these laws that tell you how speed and, you know, contraction of time works.",
+  "zh": "这个笑点在于，如果爱因斯坦没有发现相对论，他就不会有这些告诉你速度和时间收缩如何运作的定律。"
+ },
+ {
+  "seg": 387,
+  "start": 1841.436,
+  "end": 1848.841,
+  "speaker": "Unknown",
+  "en": "And if some unfortunate engineer had to design the GPS system, they would have had to find like a correction of time.",
+  "zh": "而如果某个倒霉的工程师不得不设计 GPS 系统，他们将不得不找到一个时间修正。"
+ },
+ {
+  "seg": 388,
+  "start": 1849.641,
+  "end": 1853.764,
+  "speaker": "Unknown",
+  "en": "And they probably would have said like, no, no, it's clearly not the fabric of space-time that's contracted.",
+  "zh": "而且他们可能会说，不，不，显然不可能是时空的结构在收缩。"
+ },
+ {
+  "seg": 389,
+  "start": 1854.284,
+  "end": 1854.464,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 390,
+  "start": 1855.165,
+  "end": 1861.268,
+  "speaker": "Unknown",
+  "en": "But I don't know why, but this is the formula I've devised empirically.",
+  "zh": "但我不知道为什么，这就是我凭经验 devising 出来的公式。"
+ },
+ {
+  "seg": 391,
+  "start": 1861.308,
+  "end": 1862.228,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 392,
+  "start": 1862.808,
+  "end": 1863.149,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 393,
+  "start": 1863.369,
+  "end": 1869.712,
+  "speaker": "Unknown",
+  "en": "And then people later would have been like, holy shit, this is like space-time contracting, right?",
+  "zh": "然后后来人们会说，我的天，这就像时空在收缩，对吧？"
+ },
+ {
+  "seg": 394,
+  "start": 1870.692,
+  "end": 1879.197,
+  "speaker": "Unknown",
+  "en": "And we have this theory that, you know, like RSI right now is being thought of, let's solve all these like super hard...",
+  "zh": "而我们有这样一个理论，你知道，RSI 现在被认为是要去解决所有这些超级难的……"
+ },
+ {
+  "seg": 395,
+  "start": 1880.604,
+  "end": 1882.366,
+  "speaker": "Unknown",
+  "en": "kind of fashionable problem.",
+  "zh": "时髦的问题。"
+ },
+ {
+  "seg": 396,
+  "start": 1882.866,
+  "end": 1894.476,
+  "speaker": "Unknown",
+  "en": "But what we think is that the complexity of the world is such that the real challenges probably exist in spaces that are not being applied to, right?",
+  "zh": "但我们认为，世界的复杂性在于，真正的挑战很可能存在于那些没有人去应用的领域，对吧？"
+ },
+ {
+  "seg": 397,
+  "start": 1894.857,
+  "end": 1903.064,
+  "speaker": "Unknown",
+  "en": "And so that's the joke, that there is some workflow somewhere in a garden hose company in Wisconsin that if we solve it, we get, you know, food.",
+  "zh": "所以这就是那个笑话，在威斯康星州某家浇花水管公司的某个地方存在某个工作流，如果我们解决它，我们就能，你知道，获得食物。"
+ },
+ {
+  "seg": 398,
+  "start": 1903.424,
+  "end": 1903.804,
+  "speaker": "Unknown",
+  "en": "I love it.",
+  "zh": "我喜欢这个。"
+ },
+ {
+  "seg": 399,
+  "start": 1903.984,
+  "end": 1905.685,
+  "speaker": "Unknown",
+  "en": "I just want to quickly summarize.",
+  "zh": "我只想快速总结一下。"
+ },
+ {
+  "seg": 400,
+  "start": 1905.785,
+  "end": 1907.566,
+  "speaker": "Unknown",
+  "en": "So you're going after RSI.",
+  "zh": "所以你们在追求 RSI。"
+ },
+ {
+  "seg": 401,
+  "start": 1907.666,
+  "end": 1909.887,
+  "speaker": "Unknown",
+  "en": "In your case, this is not autocatalytic effects.",
+  "zh": "在你们的情况下，这不是自催化效应。"
+ },
+ {
+  "seg": 402,
+  "start": 1909.907,
+  "end": 1912.349,
+  "speaker": "Unknown",
+  "en": "This is actual RSI, where the system improves the full system.",
+  "zh": "这是真正的 RSI，也就是系统改进整个系统。"
+ },
+ {
+  "seg": 403,
+  "start": 1912.369,
+  "end": 1916.25,
+  "speaker": "Unknown",
+  "en": "And for you, it's an actual system, which includes the harness and the weights.",
+  "zh": "而对你们来说，它是一个真正的系统，包括 harness 和权重。"
+ },
+ {
+  "seg": 404,
+  "start": 1917.611,
+  "end": 1920.533,
+  "speaker": "Unknown",
+  "en": "If you think about the problem is you've got a numerator and a denominator.",
+  "zh": "如果你这样想这个问题：你有一个分子和一个分母。"
+ },
+ {
+  "seg": 405,
+  "start": 1920.573,
+  "end": 1925.695,
+  "speaker": "Unknown",
+  "en": "The numerator is like how good the system gets, and the denominator is how much energy goes into it.",
+  "zh": "分子是这个系统变得多好，分母是投入了多少能量。"
+ },
+ {
+  "seg": 406,
+  "start": 1925.735,
+  "end": 1929.717,
+  "speaker": "Unknown",
+  "en": "You believe you're seeing glimmers of the sign where both improve at the same time using this type of approach.",
+  "zh": "你相信你已经看到了一些迹象的微光，即用这种方法，两者同时提升。"
+ },
+ {
+  "seg": 407,
+  "start": 1929.757,
+  "end": 1930.598,
+  "speaker": "Unknown",
+  "en": "Is that correct?",
+  "zh": "是这样吗？"
+ },
+ {
+  "seg": 408,
+  "start": 1930.718,
+  "end": 1931.018,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 409,
+  "start": 1931.498,
+  "end": 1934.922,
+  "speaker": "Unknown",
+  "en": "When can we expect to hear more from you?",
+  "zh": "我们什么时候可以期待听到你们更多的消息？"
+ },
+ {
+  "seg": 410,
+  "start": 1935.622,
+  "end": 1936.063,
+  "speaker": "Unknown",
+  "en": "Very soon.",
+  "zh": "很快。"
+ },
+ {
+  "seg": 411,
+  "start": 1936.483,
+  "end": 1936.904,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 412,
+  "start": 1937.004,
+  "end": 1937.204,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 413,
+  "start": 1937.444,
+  "end": 1938.665,
+  "speaker": "Unknown",
+  "en": "Thanks so much both of you for joining.",
+  "zh": "非常感谢你们两位的参与。"
+ },
+ {
+  "seg": 414,
+  "start": 1938.826,
+  "end": 1939.206,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 415,
+  "start": 1941.942,
+  "end": 1944.803,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 416,
+  "start": 1945.443,
+  "end": 1951.844,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢本期节目，请务必点赞、评论、订阅，给我们评分或写评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 417,
+  "start": 1952.604,
+  "end": 1956.145,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 418,
+  "start": 1956.745,
+  "end": 1962.446,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z，并订阅我们的 Substack：a16z.substack.com。"
+ },
+ {
+  "seg": 419,
+  "start": 1962.846,
+  "end": 1965.327,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 420,
+  "start": 1967.466,
+  "end": 1980.536,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，此处内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的投资者或潜在投资者。"
+ },
+ {
+  "seg": 421,
+  "start": 1981.177,
+  "end": 1985.88,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构也可能持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 422,
+  "start": 1986.381,
+  "end": 1993.026,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资的链接，请参见 a16z.com/disclosures。"
+ }
+]

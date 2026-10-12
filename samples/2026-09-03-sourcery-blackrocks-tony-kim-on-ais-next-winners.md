@@ -171,9 +171,9 @@ Tony 给了一组他自己的近似估算：全球股市里，非巨头(Mag7)的
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同概念:数据中心 (data center)、智能体 (agent)、推理 (inference)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同概念:内存 (memory)、智能体 (agent)</span>
 - [[2026-07-25-twentyvc-20vc-mercor-cpo-on-revenue-concentration|Mercor CPO:开源模型蚕食不了数据生意]]<span class="pd-rz">同概念:智能体 (agent)、机器人 (robotics)</span>
-- [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来]]<span class="pd-rz">同概念:内存 (memory)、智能体 (agent)</span>
 
 </div>
 </div>

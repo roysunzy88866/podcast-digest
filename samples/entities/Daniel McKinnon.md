@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
+[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"评估":1,"PRD":8,"智能体":473,"harness":63,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":83}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"评估":1,"PRD":8,"智能体":478,"harness":63,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":85}</script>
 
 <script>
 (function(){

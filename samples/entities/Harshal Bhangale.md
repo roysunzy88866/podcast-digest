@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":473,"X402":3,"微交易":2,"护栏":89,"Nanopayments":1,"Claude Code":104,"Circle Agent Wallet":1,"付费墙":3}</script>
+<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":478,"X402":3,"微交易":2,"护栏":89,"Nanopayments":1,"Claude Code":105,"Circle Agent Wallet":1,"付费墙":3}</script>
 
 <script>
 (function(){

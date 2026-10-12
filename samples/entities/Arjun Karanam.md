@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gabe":2,"轨迹数据":4,"Harvey":21,"持续学习":1,"经验差距":1,"智能体":473,"可追溯性":1,"评估":1,"harness":63,"模型规范":1}</script>
+<script type="application/json" class="pd-epn">{"Gabe":2,"轨迹数据":4,"Harvey":21,"持续学习":1,"经验差距":1,"智能体":478,"可追溯性":1,"评估":1,"harness":63,"模型规范":1}</script>
 
 <script>
 (function(){

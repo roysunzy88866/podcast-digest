@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Angela Strange":2,"Andrew Wang":1,"Valen":1,"抵押贷款服务":1,"智能体":473,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":30,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Angela Strange":2,"Andrew Wang":1,"Valen":1,"抵押贷款服务":1,"智能体":478,"记录系统":7,"代管账户":1,"变革管理":4,"产品市场契合":31,"生成式 AI":2}</script>
 
 <script>
 (function(){

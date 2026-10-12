@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":23,"数据科学智能体":4,"Spark":2,"a16z":19,"Cursor":86,"Palantir":20,"托管服务":1,"开源":40,"按用量定价":4,"企业销售":3}</script>
+<script type="application/json" class="pd-epn">{"Databricks":23,"数据科学智能体":4,"Spark":2,"a16z":20,"Cursor":86,"Palantir":20,"托管服务":1,"开源":40,"按用量定价":4,"企业销售":3}</script>
 
 <script>
 (function(){

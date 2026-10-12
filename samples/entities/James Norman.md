@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"a16z":19,"AI":32,"AI 基础设施":5,"GPU":30,"NVIDIA":68,"OpenAI":195,"Eleven Labs":10,"Claude Code":104,"HubSpot":10}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"a16z":20,"AI":32,"AI 基础设施":5,"GPU":30,"NVIDIA":69,"OpenAI":195,"Eleven Labs":10,"Claude Code":105,"HubSpot":10}</script>
 
 <script>
 (function(){

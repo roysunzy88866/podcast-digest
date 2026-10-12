@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":70,"Airbnb":13,"Y Combinator":7,"智能体":473,"AI":32}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Alex Wilhelm":1,"Justin TV":1,"Twitch":2,"Google":70,"Airbnb":13,"Y Combinator":7,"智能体":478,"AI":32}</script>
 
 <script>
 (function(){

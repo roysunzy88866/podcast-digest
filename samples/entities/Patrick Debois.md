@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":473,"harness":63,"上下文":31,"护栏":89,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":478,"harness":63,"上下文":31,"护栏":89,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RSI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RSI">RS</div><div class="pi"><h1 class="pt">RSI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RSI">RS</div><div class="pi"><h1 class="pt">RSI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,30 +16,38 @@ unlisted: true
 - **[[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]]**(05:34起):本集说实验室里真正发生的不是 RSI 那种可能失控的递归自我改进，而是不真正递归的自催化效应
 - **[[2026-09-17-dwarkesh-noam-brown|《OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题》]]**(22:07起):本集说模型尖峰化的能力恰好对 RSI 特别有用（目标明确、指标可测），会有显著加速但不是一夜之间的智能爆炸，约 3 倍而非 100 倍；但怎么验证 RSI 过程中对齐仍有效目前没有好答案
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(00:23起):本集给了可检验的四硬指标（训练资源超线性减少、时间缩短、智能提升、循环可重复，须同时成立），并指出当前现实相反——每年一两次大训练更贵更慢更脆弱；90% 喊 RSI 的其实是自催化效应（编译器写编译器、蒸汽机）。
+- **[[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]]**(00:15起):本集主线概念:被改进的系统同时是执行改进的系统,形成闭环;区分真 RSI 与靠注入资源的「自催化」。
 
 ## ① 提到它的金句
 
-*1 条*
+*4 条*
 
 ![[2026-10-02-nopriors-frontier-chips-for-frontier-ai-labs-with#^q6]]
 
+![[2026-10-12-a16z-the-race-to-recursive-self-improving-ai#^q5]]
+
+![[2026-10-12-a16z-the-race-to-recursive-self-improving-ai#^q7]]
+
+![[2026-10-12-a16z-the-race-to-recursive-self-improving-ai#^q12]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为概念
 - [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为概念
 - [[2026-09-12-a16z-why-companies-are-becoming-a-series-of-l|《A16Z 消费投资合伙人 Anish Acharya：别怕“永久下层”，公司正在变成一串循环》]] — 作为概念
 - [[2026-09-17-dwarkesh-noam-brown|《OpenAI Noam Brown：一万智能体 88 小时解千禧年难题，以及那之后的对齐难题》]] — 作为概念
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为概念
+- [[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[对齐]] · [[沙箱]] · [[Hugging Face]] · [[后训练]] · [[推理]] · [[Cursor]] · [[持续学习]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[对齐]] · [[沙箱]] · [[推理]] · [[Hugging Face]] · [[后训练]] · [[a16z]] · [[奖励黑客]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"OpenAI":195,"Anthropic":200,"对齐":23,"沙箱":94,"Hugging Face":36,"后训练":1,"推理":95,"Cursor":86,"持续学习":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"OpenAI":195,"Anthropic":200,"对齐":23,"沙箱":95,"推理":98,"Hugging Face":37,"后训练":1,"a16z":20,"奖励黑客":9}</script>
 
 <script>
 (function(){

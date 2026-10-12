@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":5,"Meta":51,"MuseSpark":1,"开源模型":4,"智能体":473,"多智能体设置":1,"训练数据":3,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":5,"Meta":52,"MuseSpark":1,"开源模型":4,"智能体":478,"多智能体设置":1,"训练数据":3,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

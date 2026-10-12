@@ -169,9 +169,9 @@ ZAI 被列入美国实体清单后，公司内部既困惑又有点自豪。
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:Hugging Face · 同概念:NVIDIA、推理 (inference)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:Hugging Face · 同概念:NVIDIA、推理 (inference)</span>
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同公司:Hugging Face · 同概念:推理 (inference)</span>
-- [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同公司:Hugging Face · 同概念:Claude Code</span>
 
 </div>
 </div>

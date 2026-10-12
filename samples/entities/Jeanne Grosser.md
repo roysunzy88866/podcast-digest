@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":48,"Google":70,"GitHub":35,"Slack":34,"Claude":93,"go-to-market":14,"智能体":473,"产品市场契合":30}</script>
+<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":48,"Google":70,"GitHub":35,"Slack":34,"Claude":93,"go-to-market":14,"智能体":478,"产品市场契合":31}</script>
 
 <script>
 (function(){

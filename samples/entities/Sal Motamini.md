@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":2,"Asana":2,"Stripe":48,"Shopify":17,"Snowflake":20,"Twilio":3,"Vercel":20,"Pinecone":3,"Perplexity":9}</script>
+<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":2,"Asana":2,"Stripe":48,"Shopify":17,"Snowflake":20,"Twilio":3,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
 
 <script>
 (function(){

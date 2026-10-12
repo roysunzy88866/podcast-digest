@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]] [[Alyssa Ravasio]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Intel":4,"VMware":2,"Playground Global":1,"NVIDIA":68,"OpenAI":195,"Anthropic":200,"HBM":2,"记忆":27,"推理":95,"智能体":473}</script>
+<script type="application/json" class="pd-epn">{"Intel":4,"VMware":2,"Playground Global":1,"NVIDIA":69,"OpenAI":195,"Anthropic":200,"HBM":2,"记忆":27,"推理":98,"智能体":478}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":30,"垂直整合":1,"反向定位":1,"自举":2}</script>
+<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":31,"垂直整合":1,"反向定位":1,"自举":2}</script>
 
 <script>
 (function(){

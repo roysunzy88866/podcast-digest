@@ -37,17 +37,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Unblocked]] · [[智能体]] · [[上下文]] · [[MCP]] · [[知识图谱]] · [[搜索满足感]] · [[Claude Code]] · [[Notion]] · [[Slack]] · [[GitHub]]
+[[Unblocked]] · [[智能体]] · [[上下文]] · [[MCP]] · [[知识图谱]] · [[搜索满足感]] · [[Claude Code]] · [[Confluence]] · [[Notion]] · [[Slack]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unblocked":3,"智能体":473,"上下文":31,"MCP":85,"知识图谱":7,"搜索满足感":2,"Claude Code":104,"Notion":17,"Slack":34,"GitHub":35}</script>
+<script type="application/json" class="pd-epn">{"Unblocked":3,"智能体":478,"上下文":31,"MCP":86,"知识图谱":7,"搜索满足感":2,"Claude Code":105,"Confluence":2,"Notion":17,"Slack":34}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":473,"控制平面":3,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
+<script type="application/json" class="pd-epn">{"TokenOps":1,"智能体":478,"控制平面":3,"归因":4,"token 最大化":3,"账本":1,"预算":1,"steer 动作":1,"halt 动作":1,"boundary 注解":1}</script>
 
 <script>
 (function(){

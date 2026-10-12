@@ -141,9 +141,9 @@ Alex 接得干脆：你说 AI 现在不会为互动优化——但它最终会�
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test|AI 写代码快，黑客攻击更快：安全测试得改成全天候]]<span class="pd-rz">同概念:LLM、智能体 (agents)</span>
 - [[2026-06-25-practicalai-aiuc-1-building-trust-in-ai-agents|AI 智能体怎么认证：从标准到红队测试的全流程]]<span class="pd-rz">同概念:幻觉 (hallucination)</span>
 - [[2026-09-03-practicalai-less-about-models-more-about-architectur|Rackspace 首席 AI 官 Chetan Gupta:企业该停止纠结模型、开始思考架构]]<span class="pd-rz">同概念:LLM</span>
-- [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:LLM</span>
 
 </div>
 <div class="pd-ex">

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":85,"harness":63,"智能体":473}</script>
+<script type="application/json" class="pd-epn">{"Block":3,"Goose":2,"Zed":3,"JetBrains":2,"ACP（智能体客户端协议）":1,"MCP":86,"harness":63,"智能体":478}</script>
 
 <script>
 (function(){

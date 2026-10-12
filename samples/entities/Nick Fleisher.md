@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Alex Mashrabov]] [[Liam Dunne]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sandstone":1,"Sequoia":7,"McKinsey":6,"产品市场契合":30,"口碑引荐":1,"设计合作伙伴":6,"AE":1,"ACV":4,"合同生命周期管理":1,"内部法务":1}</script>
+<script type="application/json" class="pd-epn">{"Sandstone":1,"Sequoia":7,"McKinsey":6,"产品市场契合":31,"口碑引荐":1,"设计合作伙伴":6,"AE":1,"ACV":4,"合同生命周期管理":1,"内部法务":1}</script>
 
 <script>
 (function(){

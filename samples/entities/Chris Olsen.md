@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":3,"Sequoia":7,"Path Robotics":1,"LLM":60,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":30,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":3,"Sequoia":7,"Path Robotics":1,"LLM":61,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":31,"第一性原理":6}</script>
 
 <script>
 (function(){

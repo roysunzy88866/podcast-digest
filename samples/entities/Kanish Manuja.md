@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":7,"护栏":89,"提示词注入":1,"推理模型":6,"fail open":2,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":89,"提示词注入":1,"推理模型":6,"fail open":2,"负载卸载":1}</script>
 
 <script>
 (function(){

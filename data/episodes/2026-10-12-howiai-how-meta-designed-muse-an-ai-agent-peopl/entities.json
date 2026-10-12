@@ -1,0 +1,818 @@
+{
+  "episode_id": "2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl",
+  "podcast": "How I AI",
+  "date": "2026-10-12",
+  "tags": [
+    "AI 智能体",
+    "产品设计",
+    "生成式 UI",
+    "消费者 AI 产品",
+    "个人数据"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            73.372,
+            78.774
+          ],
+          "quote": "I'm Claire Vo, product leader and AI obsessive here on a mission to help you build better with these new tools.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alex-cornell",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex Cornell",
+      "file": "Alex Cornell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 推出了 AI 智能助手 Muse，Alex Cornell 是其设计总监",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": true,
+      "how_described": "本集主题产品：Meta 面向消费者的智能体应用，被 Claire 称为「很长时间以来最快感到纯粹惊喜」的 AI 产品，以消息气泡、头像角色、状态显示等拟人化界面为特色",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            8.823,
+            15.273
+          ],
+          "quote": "My experience in the Muse app is I do like that progressive disclosure and it's one of the things I called out in our review but also it's just fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 3,
+          "t": [
+            18.214,
+            24.095
+          ],
+          "quote": "If you are a engineer, you may want to know exactly what your agent has done, and you can find that in Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            54.187,
+            61.271
+          ],
+          "quote": "And Muse is able to take it and just like reform it into a way that's like really interesting and useful for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            61.671,
+            66.714
+          ],
+          "quote": "When your Muse is being obstinate, what is your prompting strategy?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            178.328,
+            183.872
+          ],
+          "quote": "I am, I was just saying, I am a big, big fan of Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            189.997,
+            198.723
+          ],
+          "quote": "And Muse, I will tell you, fastest time to pure delight I have had with an AI product in a very, very long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            333.953,
+            342.957
+          ],
+          "quote": "The other thing that strikes me as very different about Muse is the primitives that you've chosen to elevate as core parts of the application.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 72,
+          "t": [
+            371.415,
+            378.702
+          ],
+          "quote": "And then I look at Muse and what really struck me is you have this character, first of all, as a primary entity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            405.47,
+            423.218
+          ],
+          "quote": "She said that she has apologized to her muse for making him work so hard and thanked him for all that he's done for her, which I found really gratifying because I have been working in software for a long time and I don't think my mom has ever used a thing that I've made, not because like I don't make interesting things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            456.945,
+            471.276
+          ],
+          "quote": "I don't know, you don't use it every day, but in this product, I found it to be one of the most helpful things, which is like, if you take something like status, it's like, if you are a engineer, you may wanna know exactly what your agent has done, and you can find that in Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.746,
+            554.606
+          ],
+          "quote": "I'll give you one other compliment, because again, I am a muse girl now, but I also think that a lot of times these chain of thought reasoning user, you know, like elements in the UI are there as a band-aid for latency, which is, it feels very frustrating as a user to sit and wonder, is my agent working on something and is it making progress or is it just stuck?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            568.435,
+            572.918
+          ],
+          "quote": "And what I think is nice about my experience in the Muse app is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            679.649,
+            689.873
+          ],
+          "quote": "And what I saw in looking at the Muse agent is you're using generative UI in a really elegant way, which is like the core primitives stick.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            838.091,
+            845.635
+          ],
+          "quote": "And I often change mine, too, just because sometimes I'll get tired of getting Muse News or something, and I'll switch it to something else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            851.139,
+            860.149
+          ],
+          "quote": "You know, like the feed unit that you're looking at is still like one that we've designed and it's being powered by the intelligence of flight and the personalization that your muse has.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            865.107,
+            875.132
+          ],
+          "quote": "OK, so speaking of ideas or things that your muse can do for you that you hadn't thought of, I'm going to let you get your screen up and share with us some of your ideas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            875.252,
+            880.095
+          ],
+          "quote": "And while you're doing that, I will tell you what my muse's name is, which is Slime.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            894.525,
+            903.737
+          ],
+          "quote": "And I have a bit of a complex relationship with Marlow because my original muse was JollyBot, which is the mascot that you see everywhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1305.434,
+            1310.917
+          ],
+          "quote": "You mentioned golf and we're going to talk about Muse for going hard on your hobbies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1311.618,
+            1321.585
+          ],
+          "quote": "So let's talk about how are you using Muse for your golf game, which I, you know, as a parent of a five year old, I'm presuming is inconsistent at best.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1455.762,
+            1463.565
+          ],
+          "quote": "And this, again, it's like putting out all this stuff that like I kind of understand, but it's really helpful to get Muse to like really go through and like tell me about like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1482.79,
+            1485.733
+          ],
+          "quote": "And, and do you have a Muse goal to get better?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1528.332,
+            1535.655
+          ],
+          "quote": "Quick question about Muse, and this could be maybe personal preference or you could just give our audience a little bit of insider tips on how to use it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1561.059,
+            1569.643
+          ],
+          "quote": "And the way Muse is designed is there's a canonical main chat that is kind of very intentionally the primary main line.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1771.705,
+            1782.314
+          ],
+          "quote": "And Muse is able to take it and just reform it into a way that's really interesting and useful for me, whether it's interesting like this or useful like the golf stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1887.025,
+            1897.57
+          ],
+          "quote": "And then we talked a lot about, you know what, why I think a lot of people are reacting so positively to Muse is because it's well-designed, it's thoughtful, it shows you what you need, it's fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2002.513,
+            2010.559
+          ],
+          "quote": "Usually do like kind of end up the way you think, but like my Muse setup is completely different than yours is completely different to somebody else's.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            2073.602,
+            2090.616
+          ],
+          "quote": "Speaking of, you didn't get the colors quite right, when your muse, when Marlo is being obstinate and not giving you what you want from a quality perspective, you know, just not listening, what is your prompting strategy?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2197.106,
+            2197.967
+          ],
+          "quote": "We love Muse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2205.667,
+            2213.173
+          ],
+          "quote": "The most helpful thing would be to download Muse, try it out, and you can let Muse know when something isn't going right or you want to feature.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心概念：能主动发消息、后台干活、处理个人数据与爱好的 AI 助手，本集整集都在讨论如何为其设计出色的消费者体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.214,
+            24.095
+          ],
+          "quote": "If you are a engineer, you may want to know exactly what your agent has done, and you can find that in Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            184.152,
+            189.076
+          ],
+          "quote": "And I have used probably every AI agent on the planet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            204.667,
+            210.33
+          ],
+          "quote": "This agent, because I think some of the primitives you picked are very different than what we see in other agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            234.12,
+            244.266
+          ],
+          "quote": "The fact that an agent can message you proactively changes the nature of how you think about the product from a design perspective, even in super simple ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            256.933,
+            265.34
+          ],
+          "quote": "And that is there among other reasons to help with the separation that you need when an agent is possibly messaging you at different times of the day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            389.815,
+            399.047
+          ],
+          "quote": "Is that because you knew that this was going to be serving a different type of user with a different kind of like breadth of intention around what this agent could get done for them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            456.945,
+            471.276
+          ],
+          "quote": "I don't know, you don't use it every day, but in this product, I found it to be one of the most helpful things, which is like, if you take something like status, it's like, if you are a engineer, you may wanna know exactly what your agent has done, and you can find that in Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.746,
+            554.606
+          ],
+          "quote": "I'll give you one other compliment, because again, I am a muse girl now, but I also think that a lot of times these chain of thought reasoning user, you know, like elements in the UI are there as a band-aid for latency, which is, it feels very frustrating as a user to sit and wonder, is my agent working on something and is it making progress or is it just stuck?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            584.55,
+            593.119
+          ],
+          "quote": "I do think for especially something that's going to try to catch the eye of consumers, that latency really matters, and it's a zippy little agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            679.649,
+            689.873
+          ],
+          "quote": "And what I saw in looking at the Muse agent is you're using generative UI in a really elegant way, which is like the core primitives stick.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            775.963,
+            785.533
+          ],
+          "quote": "And I think part of an agent's power is that it can handle a lot in a single chat, and you can kind of just treat it like a really capable personal assistant in that way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1913.577,
+            1920.464
+          ],
+          "quote": "Agent experiences and AI experiences are very new to a lot of designers and a lot of PMs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2062.733,
+            2073.102
+          ],
+          "quote": "That is a very gentle approach to the spectrum of slop to high quality agent design stuff that we get out of our agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体体验 (agent experience)",
+      "file": "智能体体验",
+      "primary": true,
+      "how_described": "本集说这是对很多设计师和 PM 都很新的领域——界面、底层基础设施和技术都是新的，Alex 分享了设计出色 agent experience 的方法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "generative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 UI (generative UI)",
+      "file": "生成式 UI",
+      "primary": true,
+      "how_described": "本集说 Muse 以优雅的方式使用生成式 UI：核心骨架（头像、状态、想法、信息流）固定，里面内容由模型实时生成，而非每个人打开界面都完全不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            661.382,
+            669.705
+          ],
+          "quote": "Yeah, one other thing, just thinking about this status message I wanna talk about, which is this concept of generative UI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            669.725,
+            679.509
+          ],
+          "quote": "And I think a lot of people think, when they're thinking about generative UI, they think like every time I log into my dashboard, it's different, or every button I click is unique for every person.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            679.649,
+            689.873
+          ],
+          "quote": "And what I saw in looking at the Muse agent is you're using generative UI in a really elegant way, which is like the core primitives stick.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            713.317,
+            729.123
+          ],
+          "quote": "Like that type of quote unquote generative UI, I think is really delightful and much easier to understand for folks trying to understand how they could bring these concepts into their own app than like every time any one person opens up, the UI is completely different.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": true,
+      "how_described": "本集说这是 Muse 最有帮助的设计之一：顶部只显示「它在工作」，逐层下钻到任务清单乃至底层代码，普通人看状态、工程师可审计",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            8.823,
+            15.273
+          ],
+          "quote": "My experience in the Muse app is I do like that progressive disclosure and it's one of the things I called out in our review but also it's just fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            446.871,
+            455.995
+          ],
+          "quote": "And I think like, I mean, you hear a lot about progressive disclosure in design and it's kind of one of those things that like you hear like on day one and then like you always think about, but like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            556.247,
+            568.415
+          ],
+          "quote": "Designers have struggled with how much do we narrate along the way what is happening so it's quite obvious to the user so that latency doesn't feel so painful versus how much do we kind of like do progressive disclosure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            573.698,
+            579.444
+          ],
+          "quote": "I do like that progressive disclosure, and it's one of the things I called out in our review that I thought was quite nice, but also it's just fast.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "本集说传统应用把思维链全程铺在聊天窗口里又长又吵，Claire 指出它常常只是给延迟打的补丁，而 Muse 因为快而不需要这个补丁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            506.881,
+            514.905
+          ],
+          "quote": "And I think you see a lot of what is traditionally referred to as chain of thought can get pretty loud and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.746,
+            554.606
+          ],
+          "quote": "I'll give you one other compliment, because again, I am a muse girl now, but I also think that a lot of times these chain of thought reasoning user, you know, like elements in the UI are there as a band-aid for latency, which is, it feels very frustrating as a user to sit and wonder, is my agent working on something and is it making progress or is it just stuck?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "type": "concept",
+      "role": "concept",
+      "name": "延迟 (latency)",
+      "file": "延迟",
+      "primary": true,
+      "how_described": "本集反复强调：对想抓住消费者的产品，延迟非常重要，思维链叙述往往是安抚用户等待的补丁，而 Muse 的模型「就是快」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            8.563
+          ],
+          "quote": "Designers have struggled with how much do we narrate along the way what is happening so it's quite obvious to the user so that latency doesn't feel so painful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            531.746,
+            554.606
+          ],
+          "quote": "I'll give you one other compliment, because again, I am a muse girl now, but I also think that a lot of times these chain of thought reasoning user, you know, like elements in the UI are there as a band-aid for latency, which is, it feels very frustrating as a user to sit and wonder, is my agent working on something and is it making progress or is it just stuck?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 103,
+          "t": [
+            556.247,
+            568.415
+          ],
+          "quote": "Designers have struggled with how much do we narrate along the way what is happening so it's quite obvious to the user so that latency doesn't feel so painful versus how much do we kind of like do progressive disclosure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            584.55,
+            593.119
+          ],
+          "quote": "I do think for especially something that's going to try to catch the eye of consumers, that latency really matters, and it's a zippy little agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "non-deterministic-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "非确定性系统 (non-deterministic system)",
+      "file": "非确定性系统",
+      "primary": true,
+      "how_described": "本集说设计师进入这个领域最大的认知转变是理解非确定性系统：每个人的配置和产出都不同，要把精力放在底层架构和脚手架上，而非单个像素",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            1934.908,
+            1952.832
+          ],
+          "quote": "You know, I think one thing that I have found for myself and any designer kind of coming into this project or really just this space is really wrapping your head around what a non-deterministic system is and what that means for when you're designing a screen.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "instagram",
+      "type": "company",
+      "role": "company",
+      "name": "Instagram",
+      "file": "Instagram",
+      "primary": true,
+      "how_described": "本集说 Instagram 收藏是很少被谈论的金矿：藏着大量个人偏好但格式难以利用，Alex 让 Muse 把收藏整理并渲染成九十年代购物目录",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            79.374,
+            99.738
+          ],
+          "quote": "Today, we have Alex Cornell, design director on Meta's Muse, and he's here to talk a little bit about how to design a great agent experience for consumers and a little bit more about some Meta Muse use cases you might not have thought of, especially ones that involve shopping on Instagram and going really hard into some of your personal hobbies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            935.019,
+            946.811
+          ],
+          "quote": "So I think one of my favorite things recently is I had, and I would recommend doing this, by the way, I had, if you use Instagram, I had Marlo look at everything I'd saved on Instagram and just organize them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            975.705,
+            991.754
+          ],
+          "quote": "So with this, what you're looking at here is JollyBot SkyMall, which is that same set of suggestions that have looked at everything I've saved on Instagram, considered some ideas for things that I might be interested in, but then rendered them in the kind of the vernacular of the SkyMall Sharper Image magazine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1148.438,
+            1154.523
+          ],
+          "quote": "Well, and I do think people are really, I haven't heard a lot of folks talk about the Instagram connector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1172.257,
+            1174.258
+          ],
+          "quote": "I use a lot of, I use a lot of Instagram.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1201.524,
+            1215.473
+          ],
+          "quote": "And so I think the ability for these agents to reason with visual data in a way, especially if you can just log into a website or use an Instagram connector, just really unleashes a lot of creativity use cases I feel like have been harder to do before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1229.465,
+            1237.774
+          ],
+          "quote": "And so, like, my Instagram saves, for better, for worse, I've been using that forever, but I very rarely go back and mill about in there and, like, look at them, you know?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1272.452,
+            1275.896
+          ],
+          "quote": "This is another Instagram one, but I do post a lot of stories.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1859.329,
+            1884.543
+          ],
+          "quote": "Okay, so we have seen Marlo do everything from revive old Instagram posts and blogs to give you a custom and kind of nostalgic shopping catalog to taking all, you seem like a data person, taking all your data you collect and especially for some of your hobbies and let you put it in a way that will allow you to achieve either short term or",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

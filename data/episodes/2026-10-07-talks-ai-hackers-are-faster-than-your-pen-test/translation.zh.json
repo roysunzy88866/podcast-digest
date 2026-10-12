@@ -1,0 +1,1898 @@
+[
+ {
+  "seg": 0,
+  "start": 12.4,
+  "end": 12.703,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 1,
+  "start": 12.744,
+  "end": 13.39,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.317,
+  "end": 17.459,
+  "speaker": "Unknown",
+  "en": "We're going to talk today about continuous offensive security.",
+  "zh": "我们今天要谈的是持续性攻击性安全。"
+ },
+ {
+  "seg": 3,
+  "start": 17.559,
+  "end": 19.02,
+  "speaker": "Unknown",
+  "en": "I'm going to speak quite soon.",
+  "zh": "我很快就会讲到。"
+ },
+ {
+  "seg": 4,
+  "start": 19.06,
+  "end": 19.8,
+  "speaker": "Unknown",
+  "en": "What does it mean?",
+  "zh": "这是什么意思？"
+ },
+ {
+  "seg": 5,
+  "start": 20.861,
+  "end": 22.922,
+  "speaker": "Unknown",
+  "en": "But before that, a little bit about me.",
+  "zh": "但在那之前，先简单介绍一下我自己。"
+ },
+ {
+  "seg": 6,
+  "start": 22.962,
+  "end": 24.463,
+  "speaker": "Unknown",
+  "en": "I'm very excited being here today.",
+  "zh": "我今天来到这里非常兴奋。"
+ },
+ {
+  "seg": 7,
+  "start": 24.543,
+  "end": 25.104,
+  "speaker": "Unknown",
+  "en": "I'm Eli.",
+  "zh": "我是 Eli。"
+ },
+ {
+  "seg": 8,
+  "start": 25.944,
+  "end": 29.566,
+  "speaker": "Unknown",
+  "en": "I used to be co-founder and CEO of Helios, a runtime security company.",
+  "zh": "我曾是 Helios 的联合创始人兼 CEO，这是一家运行时安全公司。"
+ },
+ {
+  "seg": 9,
+  "start": 29.586,
+  "end": 30.747,
+  "speaker": "Unknown",
+  "en": "I got acquired by Snyk.",
+  "zh": "公司被 Snyk 收购了。"
+ },
+ {
+  "seg": 10,
+  "start": 31.187,
+  "end": 43.355,
+  "speaker": "Unknown",
+  "en": "And in the last two and a half years, I had the privilege of working in Snyk, primarily on product management for AI products, but more recently, founding field CTO, meaning I'm working with developers and with security folks.",
+  "zh": "在过去两年半里，我有幸在 Snyk 工作，主要负责 AI 产品的产品管理，但最近，我成为了驻外 CTO（founding field CTO），也就是说我在和开发者以及安全人员一起工作。"
+ },
+ {
+  "seg": 11,
+  "start": 43.875,
+  "end": 48.939,
+  "speaker": "Unknown",
+  "en": "to better understand and to help them shape their strategy around AI security.",
+  "zh": "帮助他们更好地理解并塑造他们围绕 AI 安全的战略。"
+ },
+ {
+  "seg": 12,
+  "start": 49.62,
+  "end": 55.345,
+  "speaker": "Unknown",
+  "en": "So how do you take your AI agents and making sure they are secured?",
+  "zh": "那么，你如何确保你的 AI 智能体是安全的？"
+ },
+ {
+  "seg": 13,
+  "start": 55.625,
+  "end": 58.247,
+  "speaker": "Unknown",
+  "en": "How do you work with your agents in production?",
+  "zh": "你如何在生产环境中与你的智能体协作？"
+ },
+ {
+  "seg": 14,
+  "start": 59.488,
+  "end": 61.41,
+  "speaker": "Unknown",
+  "en": "Back there, can you set up the timer for me, please?",
+  "zh": "后面那位，能帮我设置一下计时器吗？"
+ },
+ {
+  "seg": 15,
+  "start": 63.311,
+  "end": 63.792,
+  "speaker": "Unknown",
+  "en": "The timer.",
+  "zh": "计时器。"
+ },
+ {
+  "seg": 16,
+  "start": 64.532,
+  "end": 65.293,
+  "speaker": "Unknown",
+  "en": "So I'll know the time.",
+  "zh": "这样我就能知道时间了。"
+ },
+ {
+  "seg": 17,
+  "start": 66.575,
+  "end": 66.835,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 18,
+  "start": 67.075,
+  "end": 67.436,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 19,
+  "start": 67.456,
+  "end": 68.437,
+  "speaker": "Unknown",
+  "en": "Now we have the time also.",
+  "zh": "现在我们也有时间显示了。"
+ },
+ {
+  "seg": 20,
+  "start": 68.837,
+  "end": 70.098,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 21,
+  "start": 70.438,
+  "end": 73.461,
+  "speaker": "Unknown",
+  "en": "So just so I'll get to know a bit better, please raise your hand.",
+  "zh": "那么，为了让我更了解一下现场情况，请举手。"
+ },
+ {
+  "seg": 22,
+  "start": 73.481,
+  "end": 77.164,
+  "speaker": "Unknown",
+  "en": "Who is here more from the development side of the table?",
+  "zh": "这里有哪些人更多是来自开发这一侧的？"
+ },
+ {
+  "seg": 23,
+  "start": 77.825,
+  "end": 78.405,
+  "speaker": "Unknown",
+  "en": "Developers.",
+  "zh": "开发者们。"
+ },
+ {
+  "seg": 24,
+  "start": 79.545,
+  "end": 80.586,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 25,
+  "start": 81.187,
+  "end": 82.848,
+  "speaker": "Unknown",
+  "en": "From the security side of the table.",
+  "zh": "来自安全这一侧的呢。"
+ },
+ {
+  "seg": 26,
+  "start": 82.988,
+  "end": 84.069,
+  "speaker": "Unknown",
+  "en": "Yeah, I already know you.",
+  "zh": "是的，我已经认识你了。"
+ },
+ {
+  "seg": 27,
+  "start": 84.77,
+  "end": 85.07,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 28,
+  "start": 85.49,
+  "end": 91.676,
+  "speaker": "Unknown",
+  "en": "And other people like sales, marketing, other people running agents in production that are not from development on security.",
+  "zh": "还有其他人，比如销售、市场营销，以及其他在生产环境中运行智能体但不属于开发或安全的人。"
+ },
+ {
+  "seg": 29,
+  "start": 91.716,
+  "end": 92.336,
+  "speaker": "Unknown",
+  "en": "Great, okay.",
+  "zh": "很好，好的。"
+ },
+ {
+  "seg": 30,
+  "start": 92.717,
+  "end": 93.738,
+  "speaker": "Unknown",
+  "en": "So we have everyone here.",
+  "zh": "所以这里各种人都有。"
+ },
+ {
+  "seg": 31,
+  "start": 94.078,
+  "end": 97.201,
+  "speaker": "Unknown",
+  "en": "So I'm going to tailor this session towards everyone.",
+  "zh": "那么我会把这个环节调整为面向所有人。"
+ },
+ {
+  "seg": 32,
+  "start": 97.741,
+  "end": 101.785,
+  "speaker": "Unknown",
+  "en": "So obviously this is an AI engineering conference, right?",
+  "zh": "显然，这是一场 AI 工程大会，对吧？"
+ },
+ {
+  "seg": 33,
+  "start": 101.805,
+  "end": 102.605,
+  "speaker": "Unknown",
+  "en": "So we already know",
+  "zh": "所以我们已经知道"
+ },
+ {
+  "seg": 34,
+  "start": 103.406,
+  "end": 109.692,
+  "speaker": "Unknown",
+  "en": "that the amount of code generated today is incredibly bigger than it used to be before.",
+  "zh": "如今生成的代码量比以前大得惊人。"
+ },
+ {
+  "seg": 35,
+  "start": 109.732,
+  "end": 118.26,
+  "speaker": "Unknown",
+  "en": "According to our data, it's 218% more lines of code per developer than it used to be before.",
+  "zh": "根据我们的数据，现在每个开发者的代码行数比以前多了 218%。"
+ },
+ {
+  "seg": 36,
+  "start": 119.161,
+  "end": 125.526,
+  "speaker": "Unknown",
+  "en": "And more than 85% of the developers are actually using coding agents now probably running here today.",
+  "zh": "而超过 85% 的开发者现在实际上在使用编码智能体，今天现场可能就在运行。"
+ },
+ {
+  "seg": 37,
+  "start": 126.167,
+  "end": 127.628,
+  "speaker": "Unknown",
+  "en": "It's more than 100%, right?",
+  "zh": "这超过了 100%，对吧？"
+ },
+ {
+  "seg": 38,
+  "start": 127.648,
+  "end": 133.414,
+  "speaker": "Unknown",
+  "en": "Because I guess that each one of you probably has five different sessions of Claude Code running simultaneously.",
+  "zh": "因为我猜你们每个人可能都同时开着五个不同的 Claude Code 会话。"
+ },
+ {
+  "seg": 39,
+  "start": 133.854,
+  "end": 135.316,
+  "speaker": "Unknown",
+  "en": "Otherwise, you wouldn't be here today.",
+  "zh": "否则你今天就不会来这里了。"
+ },
+ {
+  "seg": 40,
+  "start": 136.276,
+  "end": 143.043,
+  "speaker": "Unknown",
+  "en": "And the funny thing about those agents running in production and generating fork for us is that it's far less secure.",
+  "zh": "而那些在生产环境中运行、为我们生成代码的智能体，有个有趣的地方是，它的安全性"
+ },
+ {
+  "seg": 41,
+  "start": 143.523,
+  "end": 144.844,
+  "speaker": "Unknown",
+  "en": "than we are used to.",
+  "zh": "远不如我们以前习惯的水平。"
+ },
+ {
+  "seg": 42,
+  "start": 145.264,
+  "end": 152.007,
+  "speaker": "Unknown",
+  "en": "So 62% of the output generated by LLMs is not secure or it's broken.",
+  "zh": "所以 LLM 生成的输出中有 62% 是不安全或损坏的。"
+ },
+ {
+  "seg": 43,
+  "start": 152.288,
+  "end": 154.849,
+  "speaker": "Unknown",
+  "en": "So just imagine this data combined together.",
+  "zh": "想象一下把这些数据放在一起。"
+ },
+ {
+  "seg": 44,
+  "start": 154.909,
+  "end": 162.913,
+  "speaker": "Unknown",
+  "en": "It's meaning that we are generating more code than we ever did, and this insecure code is getting into production.",
+  "zh": "这意味着我们生成的代码比以往任何时候都多，而这些不安全的代码正在进入生产环境。"
+ },
+ {
+  "seg": 45,
+  "start": 163.353,
+  "end": 166.275,
+  "speaker": "Unknown",
+  "en": "So that's a huge challenge for us as a community.",
+  "zh": "所以这对我们整个社区来说是一个巨大的挑战。"
+ },
+ {
+  "seg": 46,
+  "start": 167.339,
+  "end": 177.67,
+  "speaker": "Unknown",
+  "en": "And what it actually means is that our backlog of security issues is becoming longer and bigger and much more challenging to remediate it.",
+  "zh": "而这实际上意味着，我们的安全问题积压清单正变得越来越长、越来越大，修复起来也越来越具挑战性。"
+ },
+ {
+  "seg": 47,
+  "start": 177.81,
+  "end": 184.918,
+  "speaker": "Unknown",
+  "en": "So we are actually creating many more issues at a pace that we simply couldn't remediate or mitigate.",
+  "zh": "所以我们实际上正在以一个我们根本无法修复或缓解的速度制造更多的问题。"
+ },
+ {
+  "seg": 48,
+  "start": 185.358,
+  "end": 186.199,
+  "speaker": "Unknown",
+  "en": "And not only that,",
+  "zh": "不仅如此，"
+ },
+ {
+  "seg": 49,
+  "start": 187.325,
+  "end": 189.826,
+  "speaker": "Unknown",
+  "en": "AI is helping the attackers also.",
+  "zh": "AI 也在帮助攻击者。"
+ },
+ {
+  "seg": 50,
+  "start": 189.946,
+  "end": 201.352,
+  "speaker": "Unknown",
+  "en": "So they are able to chain low vulnerabilities together and to form critical vulnerabilities from those low severity vulnerabilities.",
+  "zh": "所以他们能够把低危漏洞串联起来，从那些低危漏洞组合出严重漏洞。"
+ },
+ {
+  "seg": 51,
+  "start": 202.033,
+  "end": 210.297,
+  "speaker": "Unknown",
+  "en": "And what actually is going on is that our attackers are leveraging those LLMs and they're attacking us, especially where it's very difficult",
+  "zh": "实际上正在发生的事情是，攻击者正在利用那些 LLM 来攻击我们，尤其是在非常困难的地方"
+ },
+ {
+  "seg": 52,
+  "start": 210.977,
+  "end": 213.279,
+  "speaker": "Unknown",
+  "en": "using application context.",
+  "zh": "利用应用上下文。"
+ },
+ {
+  "seg": 53,
+  "start": 213.399,
+  "end": 220.865,
+  "speaker": "Unknown",
+  "en": "This is actually where our LLMs have struggled the most because they are creating many more vulnerabilities around those areas.",
+  "zh": "这实际上正是我们的 LLM 最挣扎的地方，因为它们在这些领域制造了多得多的漏洞。"
+ },
+ {
+  "seg": 54,
+  "start": 221.686,
+  "end": 228.411,
+  "speaker": "Unknown",
+  "en": "So obviously, we are leveraging AI, but our attackers are also leveraging frontier models.",
+  "zh": "所以显然，我们在利用 AI，但攻击者也在利用前沿模型。"
+ },
+ {
+  "seg": 55,
+  "start": 228.451,
+  "end": 230.192,
+  "speaker": "Unknown",
+  "en": "And the numbers are simply incredible.",
+  "zh": "而且这些数字简直令人难以置信。"
+ },
+ {
+  "seg": 56,
+  "start": 230.993,
+  "end": 237.918,
+  "speaker": "Unknown",
+  "en": "We are familiar with an operating model that actually was able to identify more than 600 vulnerabilities",
+  "zh": "我们熟知一个运营模式，它实际上能够识别超过 600 个漏洞"
+ },
+ {
+  "seg": 57,
+  "start": 239.079,
+  "end": 243.243,
+  "speaker": "Unknown",
+  "en": "to bridge 600 firewalls in more than 55 countries.",
+  "zh": "突破 600 道防火墙，遍及超过 55 个国家。"
+ },
+ {
+  "seg": 58,
+  "start": 243.524,
+  "end": 245.966,
+  "speaker": "Unknown",
+  "en": "This is simply unbelievable.",
+  "zh": "这简直难以置信。"
+ },
+ {
+  "seg": 59,
+  "start": 246.546,
+  "end": 254.013,
+  "speaker": "Unknown",
+  "en": "And the time for an AI attack to be effective is constantly getting faster and faster.",
+  "zh": "而且 AI 攻击生效所需的时间在不断变得越来越快。"
+ },
+ {
+  "seg": 60,
+  "start": 254.113,
+  "end": 257.577,
+  "speaker": "Unknown",
+  "en": "So the average time for an AI attack to be successful...",
+  "zh": "所以 AI 攻击成功所需的平均时间是……"
+ },
+ {
+  "seg": 61,
+  "start": 258.357,
+  "end": 261.38,
+  "speaker": "Unknown",
+  "en": "is 34 minutes.",
+  "zh": "34 分钟。"
+ },
+ {
+  "seg": 62,
+  "start": 261.76,
+  "end": 264.663,
+  "speaker": "Unknown",
+  "en": "Well, the fastest time is four minutes.",
+  "zh": "嗯，最快的记录是 4 分钟。"
+ },
+ {
+  "seg": 63,
+  "start": 265.444,
+  "end": 274.331,
+  "speaker": "Unknown",
+  "en": "It means that since the moment I began talking, there is probably an AI tech out there that was able to successfully bridge a production system.",
+  "zh": "这意味着，从我开始讲话的那一刻起，外面很可能就有一个 AI 攻击成功突破了一个生产系统。"
+ },
+ {
+  "seg": 64,
+  "start": 275.252,
+  "end": 280.716,
+  "speaker": "Unknown",
+  "en": "And 43% of all the MCP servers actually has vulnerabilities.",
+  "zh": "而且所有 MCP 服务器中有 43% 实际上存在漏洞。"
+ },
+ {
+  "seg": 65,
+  "start": 280.917,
+  "end": 287.982,
+  "speaker": "Unknown",
+  "en": "So combining all of this data together, what we realize is that we are producing much more code than ever.",
+  "zh": "所以把所有这些数据综合起来，我们意识到，我们正在生产比以往任何时候都多的代码。"
+ },
+ {
+  "seg": 66,
+  "start": 288.262,
+  "end": 292.826,
+  "speaker": "Unknown",
+  "en": "Each one of us has a few sessions simultaneously of Claude Code or of Codex.",
+  "zh": "我们每个人都同时开着几个 Claude Code 或 Codex 会话。"
+ },
+ {
+  "seg": 67,
+  "start": 294.066,
+  "end": 295.587,
+  "speaker": "Unknown",
+  "en": "This code is insecure.",
+  "zh": "这些代码是不安全的。"
+ },
+ {
+  "seg": 68,
+  "start": 296.027,
+  "end": 297.447,
+  "speaker": "Unknown",
+  "en": "It's getting into production.",
+  "zh": "它正在进入生产环境。"
+ },
+ {
+  "seg": 69,
+  "start": 297.947,
+  "end": 302.669,
+  "speaker": "Unknown",
+  "en": "And the people we are facing, the attackers, are actually leveraging the same tools.",
+  "zh": "而我们所面对的人，也就是攻击者，实际上正在利用同样的工具。"
+ },
+ {
+  "seg": 70,
+  "start": 303.149,
+  "end": 308.811,
+  "speaker": "Unknown",
+  "en": "And they are acting faster than ever in trying to actually leverage those vulnerabilities.",
+  "zh": "而且他们行动得比以往更快，试图真正利用那些漏洞。"
+ },
+ {
+  "seg": 71,
+  "start": 309.311,
+  "end": 311.672,
+  "speaker": "Unknown",
+  "en": "And our backlog is simply getting piled up.",
+  "zh": "于是我们的积压清单不断堆积。"
+ },
+ {
+  "seg": 72,
+  "start": 311.892,
+  "end": 313.212,
+  "speaker": "Unknown",
+  "en": "And we are not able to get it.",
+  "zh": "而我们无法处理完它。"
+ },
+ {
+  "seg": 73,
+  "start": 313.672,
+  "end": 315.613,
+  "speaker": "Unknown",
+  "en": "And this is exactly what I want to talk about today.",
+  "zh": "而这正是我今天想谈论的："
+ },
+ {
+  "seg": 74,
+  "start": 316.253,
+  "end": 320.72,
+  "speaker": "Unknown",
+  "en": "what we should be doing to help improve our security posture.",
+  "zh": "我们应该做什么来帮助改善我们的安全态势。"
+ },
+ {
+  "seg": 75,
+  "start": 321.181,
+  "end": 329.573,
+  "speaker": "Unknown",
+  "en": "And this ties heavily to how we can leverage offensive security, not just for the attackers, but for us as defenders.",
+  "zh": "而这与我们如何利用进攻性安全紧密相关，不仅是为了攻击者，也是为了作为防御者的我们。"
+ },
+ {
+  "seg": 76,
+  "start": 333.727,
+  "end": 336.509,
+  "speaker": "Unknown",
+  "en": "So why traditional security can't really keep up?",
+  "zh": "那么，为什么传统安全无法真正跟上？"
+ },
+ {
+  "seg": 77,
+  "start": 336.689,
+  "end": 341.832,
+  "speaker": "Unknown",
+  "en": "So there is a mixed audience today, both people from the development side, also people from the security side.",
+  "zh": "今天现场有混合的听众，既有开发这边的人，也有安全这边的人。"
+ },
+ {
+  "seg": 78,
+  "start": 342.292,
+  "end": 346.555,
+  "speaker": "Unknown",
+  "en": "So I want to cover first a few basic concepts to make sure everyone is familiar with.",
+  "zh": "所以我想先讲几个基本概念，确保每个人都熟悉。"
+ },
+ {
+  "seg": 79,
+  "start": 347.175,
+  "end": 350.157,
+  "speaker": "Unknown",
+  "en": "So what used to be really easy about operating",
+  "zh": "以前在运营方面真正容易的事情"
+ },
+ {
+  "seg": 80,
+  "start": 350.597,
+  "end": 353.218,
+  "speaker": "Unknown",
+  "en": "was static code scanning, SAST.",
+  "zh": "是静态代码扫描，SAST。"
+ },
+ {
+  "seg": 81,
+  "start": 353.278,
+  "end": 362.362,
+  "speaker": "Unknown",
+  "en": "So imagine that you are pushing new code to production, there is a static scanner that is scanning that, and is looking for SQL injection, cross-site scripting.",
+  "zh": "想象一下，你把新代码推送到生产环境，有一个静态扫描器在扫描它，查找 SQL 注入、跨站脚本。"
+ },
+ {
+  "seg": 82,
+  "start": 362.742,
+  "end": 369.004,
+  "speaker": "Unknown",
+  "en": "So it used to be relatively cheap and relatively easy to run this across every code change, and this is great.",
+  "zh": "在每一次代码变更上都运行这个，以前相对便宜也相对容易，这很棒。"
+ },
+ {
+  "seg": 83,
+  "start": 369.385,
+  "end": 370.545,
+  "speaker": "Unknown",
+  "en": "Now what it doesn't catch?",
+  "zh": "那它抓不到什么呢？"
+ },
+ {
+  "seg": 84,
+  "start": 370.885,
+  "end": 374.146,
+  "speaker": "Unknown",
+  "en": "It doesn't catch things that are going into runtime, okay?",
+  "zh": "它抓不到那些进入运行时的东西，对吧？"
+ },
+ {
+  "seg": 85,
+  "start": 374.166,
+  "end": 374.907,
+  "speaker": "Unknown",
+  "en": "So if you have any",
+  "zh": "所以如果你有任何"
+ },
+ {
+  "seg": 86,
+  "start": 375.747,
+  "end": 376.888,
+  "speaker": "Unknown",
+  "en": "Authorization issues.",
+  "zh": "授权问题。"
+ },
+ {
+  "seg": 87,
+  "start": 377.308,
+  "end": 383.571,
+  "speaker": "Unknown",
+  "en": "If you have any configuration issues, for that you will need dynamic application security testing.",
+  "zh": "如果你有任何配置问题，那你就需要动态应用安全测试。"
+ },
+ {
+  "seg": 88,
+  "start": 383.811,
+  "end": 386.352,
+  "speaker": "Unknown",
+  "en": "You'll need something to test the application dynamically.",
+  "zh": "你需要某种东西来动态地测试应用。"
+ },
+ {
+  "seg": 89,
+  "start": 386.892,
+  "end": 397.117,
+  "speaker": "Unknown",
+  "en": "One example is BOLA, Broken Object Level Authorization, which basically it means that user A can access the data of user B.",
+  "zh": "一个例子是 BOLA，对象级别授权失效，基本上它的意思是用户 A 可以访问用户 B 的数据。"
+ },
+ {
+  "seg": 90,
+  "start": 397.557,
+  "end": 401.939,
+  "speaker": "Unknown",
+  "en": "Okay, those kind of vulnerabilities you can never find with static analysis.",
+  "zh": "好的，这类漏洞你用静态分析是永远找不到的。"
+ },
+ {
+  "seg": 91,
+  "start": 402.319,
+  "end": 404.76,
+  "speaker": "Unknown",
+  "en": "For that, you need to probe the application in runtime.",
+  "zh": "为此，你需要在运行时探测应用。"
+ },
+ {
+  "seg": 92,
+  "start": 405.1,
+  "end": 415.765,
+  "speaker": "Unknown",
+  "en": "So what actually a dust scanner is doing, it just takes a predefined set of tons of payloads and it just sends them to the application to the different API endpoints",
+  "zh": "那么 DAST 扫描器实际上在做什么，它只是拿一组预定义的、数以吨计的 payload，然后把它们发送到应用的各个不同 API 端点，"
+ },
+ {
+  "seg": 93,
+  "start": 416.565,
+  "end": 419.706,
+  "speaker": "Unknown",
+  "en": "And by that, it managed to find vulnerabilities.",
+  "zh": "通过这种方式，它设法找到了漏洞。"
+ },
+ {
+  "seg": 94,
+  "start": 420.327,
+  "end": 429.01,
+  "speaker": "Unknown",
+  "en": "So this was also something that could find new things, but it wasn't good with the biggest challenge we have with the code that LLM are producing.",
+  "zh": "所以这也是一种能发现新东西的手段，但对于 LLM 所产出的代码，我们面临的最大挑战，它并不擅长。"
+ },
+ {
+  "seg": 95,
+  "start": 429.371,
+  "end": 430.851,
+  "speaker": "Unknown",
+  "en": "And this is the business logic.",
+  "zh": "而这就是业务逻辑。"
+ },
+ {
+  "seg": 96,
+  "start": 431.411,
+  "end": 434.413,
+  "speaker": "Unknown",
+  "en": "So for that, what we've been using as an industry",
+  "zh": "至于这个，作为行业我们一直在用的是"
+ },
+ {
+  "seg": 97,
+  "start": 435.353,
+  "end": 436.775,
+  "speaker": "Unknown",
+  "en": "It's the pen testing.",
+  "zh": "渗透测试。"
+ },
+ {
+  "seg": 98,
+  "start": 436.955,
+  "end": 438.677,
+  "speaker": "Unknown",
+  "en": "So what's the idea about pen testing?",
+  "zh": "那么渗透测试的概念是什么？"
+ },
+ {
+  "seg": 99,
+  "start": 439.238,
+  "end": 446.247,
+  "speaker": "Unknown",
+  "en": "It's a human pen tester that really understands the concept and the business logic of the application.",
+  "zh": "它是一位真正理解应用的概念和业务逻辑的人类渗透测试员。"
+ },
+ {
+  "seg": 100,
+  "start": 447.302,
+  "end": 450.064,
+  "speaker": "Unknown",
+  "en": "And he's trying to break it and to find all the vulnerabilities.",
+  "zh": "而他在试图攻破它,找出所有漏洞。"
+ },
+ {
+  "seg": 101,
+  "start": 450.525,
+  "end": 457.311,
+  "speaker": "Unknown",
+  "en": "Now, it is the golden standard in application security testing, but it has some challenges, right?",
+  "zh": "如今,它是应用安全测试的黄金标准,但它有一些挑战,对吧?"
+ },
+ {
+  "seg": 102,
+  "start": 457.631,
+  "end": 459.533,
+  "speaker": "Unknown",
+  "en": "First of all, it costs a lot of money, right?",
+  "zh": "首先,它要花很多钱,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 459.553,
+  "end": 469.802,
+  "speaker": "Unknown",
+  "en": "Because you actually needed to have a security researcher, a human, not a human in the loop, a human that is actually doing the testing and trying to break the application.",
+  "zh": "因为你实际上需要一名安全研究员,一个人,不是人在回路,而是真正在做测试、试图攻破应用的人。"
+ },
+ {
+  "seg": 104,
+  "start": 469.882,
+  "end": 471.043,
+  "speaker": "Unknown",
+  "en": "And that costs a lot of money.",
+  "zh": "而这要花很多钱。"
+ },
+ {
+  "seg": 105,
+  "start": 472.034,
+  "end": 484.605,
+  "speaker": "Unknown",
+  "en": "Now the second problem is because it costs a lot of money and because the process was so slow, companies can only do it once a year, two times a year, maybe three times a year, okay?",
+  "zh": "第二个问题是,因为它花很多钱,而且流程如此缓慢,公司一年只能做一次,一年两次,也许一年三次,好吗?"
+ },
+ {
+  "seg": 106,
+  "start": 485.185,
+  "end": 491.35,
+  "speaker": "Unknown",
+  "en": "So combining the fact that nowadays our AI attackers are trying to continuously attack us",
+  "zh": "所以,结合如今我们的 AI 攻击者在持续不断地攻击我们这一事实,"
+ },
+ {
+  "seg": 107,
+  "start": 492.217,
+  "end": 496.859,
+  "speaker": "Unknown",
+  "en": "Like, doing this pen testing two times a year is simply not good enough, okay?",
+  "zh": "比如说,一年做两次渗透测试根本不够,好吗?"
+ },
+ {
+  "seg": 108,
+  "start": 496.879,
+  "end": 502.261,
+  "speaker": "Unknown",
+  "en": "So what are you gonna do with the rest of the 350 days you have a year that no one tested your application?",
+  "zh": "那么一年剩下的 350 天里,没有人测试你的应用,你打算怎么办?"
+ },
+ {
+  "seg": 109,
+  "start": 502.641,
+  "end": 510.064,
+  "speaker": "Unknown",
+  "en": "Now, not only that, the results, you got the result, you got this crazy and glorified report in PDF,",
+  "zh": "不仅如此,你拿到结果,拿到这份夸张而华丽的 PDF 报告,"
+ },
+ {
+  "seg": 110,
+  "start": 510.684,
+  "end": 512.345,
+  "speaker": "Unknown",
+  "en": "That you had to send to your developers.",
+  "zh": "你还得把它发给你的开发者。"
+ },
+ {
+  "seg": 111,
+  "start": 512.885,
+  "end": 515.566,
+  "speaker": "Unknown",
+  "en": "They had to take it back to understand what's real and what's not.",
+  "zh": "他们得拿回去搞清楚什么是真的、什么不是。"
+ },
+ {
+  "seg": 112,
+  "start": 516.126,
+  "end": 517.386,
+  "speaker": "Unknown",
+  "en": "And then to start fixing that.",
+  "zh": "然后开始修复。"
+ },
+ {
+  "seg": 113,
+  "start": 517.847,
+  "end": 519.047,
+  "speaker": "Unknown",
+  "en": "And then you had to retest.",
+  "zh": "然后你还得重新测试。"
+ },
+ {
+  "seg": 114,
+  "start": 519.207,
+  "end": 521.188,
+  "speaker": "Unknown",
+  "en": "It sounds like a movie from the 90s, right?",
+  "zh": "听起来像 90 年代的电影,对吧?"
+ },
+ {
+  "seg": 115,
+  "start": 521.248,
+  "end": 523.549,
+  "speaker": "Unknown",
+  "en": "It doesn't make sense to do this anymore.",
+  "zh": "再这么做已经没有意义了。"
+ },
+ {
+  "seg": 116,
+  "start": 524.009,
+  "end": 525.529,
+  "speaker": "Unknown",
+  "en": "But this was the standard.",
+  "zh": "但这就是标准。"
+ },
+ {
+  "seg": 117,
+  "start": 525.609,
+  "end": 526.77,
+  "speaker": "Unknown",
+  "en": "This is what we were doing.",
+  "zh": "这就是我们一直在做的事。"
+ },
+ {
+  "seg": 118,
+  "start": 527.57,
+  "end": 535.553,
+  "speaker": "Unknown",
+  "en": "Now the thing is, this is the best method out there to actually test your application for its business logic.",
+  "zh": "问题是,这确实是现有的、真正测试应用业务逻辑的最好方法。"
+ },
+ {
+  "seg": 119,
+  "start": 536.293,
+  "end": 538.335,
+  "speaker": "Unknown",
+  "en": "Okay, so what changes today?",
+  "zh": "好,那么今天有什么改变?"
+ },
+ {
+  "seg": 120,
+  "start": 539.016,
+  "end": 540.417,
+  "speaker": "Unknown",
+  "en": "Today we have a new technology.",
+  "zh": "今天我们有一项新技术。"
+ },
+ {
+  "seg": 121,
+  "start": 540.817,
+  "end": 542.218,
+  "speaker": "Unknown",
+  "en": "And this is exactly what I want to talk.",
+  "zh": "而这正是我想谈的。"
+ },
+ {
+  "seg": 122,
+  "start": 542.719,
+  "end": 554.75,
+  "speaker": "Unknown",
+  "en": "How we can leverage this new area of AI tools and LLM and frontier models to actually do pentesting on a continuous manner in a scalable manner.",
+  "zh": "我们如何利用这个新的 AI 工具、LLM 和前沿模型领域,以持续、可扩展的方式真正做渗透测试。"
+ },
+ {
+  "seg": 123,
+  "start": 557.958,
+  "end": 561.56,
+  "speaker": "Unknown",
+  "en": "And this is why we're introducing Ivo continuous offensive security.",
+  "zh": "这就是为什么我们要推出 Ivo 持续进攻性安全。"
+ },
+ {
+  "seg": 124,
+  "start": 561.68,
+  "end": 565.343,
+  "speaker": "Unknown",
+  "en": "So this is obviously very tied up to what we're doing within Snyk.",
+  "zh": "所以这显然与我们在 Snyk 所做的事紧密相关。"
+ },
+ {
+  "seg": 125,
+  "start": 566.003,
+  "end": 569.205,
+  "speaker": "Unknown",
+  "en": "But what I'm going to tell you today is general.",
+  "zh": "但我今天要告诉你的是通用的。"
+ },
+ {
+  "seg": 126,
+  "start": 569.245,
+  "end": 575.47,
+  "speaker": "Unknown",
+  "en": "You can take the principles of what I'm telling you, and you can actually verify that with any vendor out there",
+  "zh": "你可以拿我讲的这些原则,用外面任何一家供应商来验证,"
+ },
+ {
+  "seg": 127,
+  "start": 576.27,
+  "end": 577.971,
+  "speaker": "Unknown",
+  "en": "in the expo.",
+  "zh": "在 expo 上。"
+ },
+ {
+  "seg": 128,
+  "start": 578.071,
+  "end": 581.452,
+  "speaker": "Unknown",
+  "en": "So I want you to think about the following things.",
+  "zh": "所以我希望你思考以下几件事。"
+ },
+ {
+  "seg": 129,
+  "start": 581.892,
+  "end": 588.254,
+  "speaker": "Unknown",
+  "en": "So what you need to do today, you need to prepare your production system from the unknown's unknowns.",
+  "zh": "你今天需要做的,是让你的生产系统防住未知的未知。"
+ },
+ {
+  "seg": 130,
+  "start": 588.314,
+  "end": 590.474,
+  "speaker": "Unknown",
+  "en": "And for that, you need a new paradigm.",
+  "zh": "为此,你需要一个新范式。"
+ },
+ {
+  "seg": 131,
+  "start": 590.714,
+  "end": 596.276,
+  "speaker": "Unknown",
+  "en": "So first of all, obviously, you need the AI pen testing capabilities, which I will double click on soon again.",
+  "zh": "首先,显然,你需要 AI 渗透测试能力,我很快会再深入讲。"
+ },
+ {
+  "seg": 132,
+  "start": 596.736,
+  "end": 600.117,
+  "speaker": "Unknown",
+  "en": "But you also need to start taking the concept of red teaming, okay?",
+  "zh": "但你也需要开始引入红队测试的概念,好吗?"
+ },
+ {
+  "seg": 133,
+  "start": 600.137,
+  "end": 604.998,
+  "speaker": "Unknown",
+  "en": "So agent red teaming, the idea is to take multi-steps attacks, okay?",
+  "zh": "也就是智能体红队,想法是执行多步骤攻击,好吗?"
+ },
+ {
+  "seg": 134,
+  "start": 605.018,
+  "end": 615.46,
+  "speaker": "Unknown",
+  "en": "So to try to simulate prompt ejection or data exfiltration and goal agenting and obviously to combine it with dynamic testing that is good at identifying authorization issues.",
+  "zh": "也就是尝试模拟提示词注入或数据外泄和 goal agenting,显然再结合擅长识别授权问题的动态测试。"
+ },
+ {
+  "seg": 135,
+  "start": 615.881,
+  "end": 618.601,
+  "speaker": "Unknown",
+  "en": "So we are taking all of those capabilities together.",
+  "zh": "所以我们把所有这些能力整合在一起。"
+ },
+ {
+  "seg": 136,
+  "start": 619.001,
+  "end": 623.762,
+  "speaker": "Unknown",
+  "en": "We are building one suite out of that for offensive security as part of our Evo offering.",
+  "zh": "我们正在以此构建一套进攻性安全套件,作为我们 Evo 产品的一部分。"
+ },
+ {
+  "seg": 137,
+  "start": 624.302,
+  "end": 626.463,
+  "speaker": "Unknown",
+  "en": "And the idea is to help you actually",
+  "zh": "想法是真正帮助你"
+ },
+ {
+  "seg": 138,
+  "start": 627.263,
+  "end": 644.692,
+  "speaker": "Unknown",
+  "en": "It may mitigate or help you handle the fact that the attackers are leveraging the same tools that we are using, and they are doing that in a continuous manner, 24-7, finding vulnerabilities faster than before, and your backlog simply can stand up with that.",
+  "zh": "减轻或帮你应对攻击者在使用和我们相同的工具这一事实,而且他们是以 24-7 持续的方式在这么做,比以前更快地发现漏洞,而你的积压清单根本跟不上。"
+ },
+ {
+  "seg": 139,
+  "start": 645.932,
+  "end": 649.434,
+  "speaker": "Unknown",
+  "en": "So what we're doing differently within AI pen testing.",
+  "zh": "那我们在 AI 渗透测试里做的有什么不同。"
+ },
+ {
+  "seg": 140,
+  "start": 649.874,
+  "end": 651.255,
+  "speaker": "Unknown",
+  "en": "Okay, so I told you before,",
+  "zh": "好,我之前说过,"
+ },
+ {
+  "seg": 141,
+  "start": 652.155,
+  "end": 660.506,
+  "speaker": "Unknown",
+  "en": "The great promise of pen testing was always the fact that the human in the end really understand the business context.",
+  "zh": "渗透测试的伟大承诺一直在于,人最终真正理解业务上下文。"
+ },
+ {
+  "seg": 142,
+  "start": 660.566,
+  "end": 662.548,
+  "speaker": "Unknown",
+  "en": "So now we are taking this to the LLM.",
+  "zh": "所以现在我们把这个交给 LLM。"
+ },
+ {
+  "seg": 143,
+  "start": 662.849,
+  "end": 667.455,
+  "speaker": "Unknown",
+  "en": "And if there is something that the LLM are very good at, it's really trying to understand the business context.",
+  "zh": "而如果说 LLM 有什么非常擅长的,那就是真正理解业务上下文。"
+ },
+ {
+  "seg": 144,
+  "start": 667.915,
+  "end": 672.798,
+  "speaker": "Unknown",
+  "en": "So behind the scene, we are leveraging the LLMs, and we are doing that in a continuous manner, right?",
+  "zh": "所以在幕后,我们在利用 LLM,而且是以持续的方式,对吧?"
+ },
+ {
+  "seg": 145,
+  "start": 672.818,
+  "end": 678.682,
+  "speaker": "Unknown",
+  "en": "So no longer you're going to do things like do pentesting twice a year or three times a year.",
+  "zh": "所以你不再会做一年两次或一年三次渗透测试这种事了。"
+ },
+ {
+  "seg": 146,
+  "start": 679.062,
+  "end": 681.864,
+  "speaker": "Unknown",
+  "en": "We're going to do it on every code change, okay?",
+  "zh": "我们会在每次代码变更时都做,好吗?"
+ },
+ {
+  "seg": 147,
+  "start": 681.984,
+  "end": 691.189,
+  "speaker": "Unknown",
+  "en": "Every PR that you send, every delta, we're going to run this pentest for you, and we're going to tell your developers what they need to fix and how do they need to do it differently.",
+  "zh": "你提交的每一个 PR、每一个增量,我们都会为你运行这次渗透测试,并告诉你的开发者需要修什么、该怎么以不同的方式去做。"
+ },
+ {
+  "seg": 148,
+  "start": 691.67,
+  "end": 695.152,
+  "speaker": "Unknown",
+  "en": "Obviously, we leverage our understanding of the application context.",
+  "zh": "显然,我们利用了我们对应用上下文的理解。"
+ },
+ {
+  "seg": 149,
+  "start": 696.249,
+  "end": 698.812,
+  "speaker": "Unknown",
+  "en": "But we also help reduce the false positive.",
+  "zh": "但我们也帮助减少误报。"
+ },
+ {
+  "seg": 150,
+  "start": 698.892,
+  "end": 702.335,
+  "speaker": "Unknown",
+  "en": "For us as an industry, we have a severe problem of false positive.",
+  "zh": "对于我们整个行业来说，我们有一个严重的问题，就是误报。"
+ },
+ {
+  "seg": 151,
+  "start": 702.876,
+  "end": 711.704,
+  "speaker": "Unknown",
+  "en": "So we are actually proving you that the vulnerabilities that we are finding are actually exploitable, and we just flag them as bugs.",
+  "zh": "所以我们实际上是在向你证明，我们发现的漏洞确实是可利用的，然后我们才把它们标记为 bug。"
+ },
+ {
+  "seg": 152,
+  "start": 712.105,
+  "end": 713.706,
+  "speaker": "Unknown",
+  "en": "We actually have to prove that they are",
+  "zh": "我们实际上必须证明它们是"
+ },
+ {
+  "seg": 153,
+  "start": 714.547,
+  "end": 715.207,
+  "speaker": "Unknown",
+  "en": "Exploitable.",
+  "zh": "可利用的。"
+ },
+ {
+  "seg": 154,
+  "start": 715.888,
+  "end": 724.811,
+  "speaker": "Unknown",
+  "en": "And we take context for many different machines and for many different environments, and we combine them together to help guide our LLMs.",
+  "zh": "我们从许多不同的机器、许多不同的环境中获取上下文，并把它们结合起来，用来引导我们的 LLM。"
+ },
+ {
+  "seg": 155,
+  "start": 725.632,
+  "end": 739.858,
+  "speaker": "Unknown",
+  "en": "So this is what we're doing differently, and I think this is really what makes this solution so unique and so well positioned to the fact that each one of us have a few coding gadgets running in production and pushing more code than ever.",
+  "zh": "这就是我们在做的与众不同之处，我认为这正是让这个解决方案如此独特、如此契合现状的原因——现在我们每个人都有一堆编码小工具在生产环境中运行，并且推送的代码比以往任何时候都多。"
+ },
+ {
+  "seg": 156,
+  "start": 740.218,
+  "end": 741.118,
+  "speaker": "Unknown",
+  "en": "Now, how do we do it?",
+  "zh": "那么，我们是怎么做到的呢？"
+ },
+ {
+  "seg": 157,
+  "start": 741.598,
+  "end": 742.959,
+  "speaker": "Unknown",
+  "en": "How does it work behind the scenes?",
+  "zh": "幕后是如何运作的？"
+ },
+ {
+  "seg": 158,
+  "start": 743.924,
+  "end": 753.086,
+  "speaker": "Unknown",
+  "en": "Okay, so what I want you to understand is we are not taking the static scanners or the dust scanners and just combining with LLM, okay?",
+  "zh": "好，我希望你明白的一点是，我们并不是拿静态扫描器或 dust 扫描器，然后简单地跟 LLM 拼在一起，明白吗？"
+ },
+ {
+  "seg": 159,
+  "start": 753.106,
+  "end": 755.907,
+  "speaker": "Unknown",
+  "en": "We build it from the ground up using LLM.",
+  "zh": "我们是用 LLM 从零开始构建的。"
+ },
+ {
+  "seg": 160,
+  "start": 756.347,
+  "end": 759.848,
+  "speaker": "Unknown",
+  "en": "So we have a series of a few agents working together.",
+  "zh": "我们有一系列智能体在协同工作。"
+ },
+ {
+  "seg": 161,
+  "start": 760.328,
+  "end": 762.668,
+  "speaker": "Unknown",
+  "en": "The first one is the LLM orchestrator, okay?",
+  "zh": "第一个是 LLM 编排器，明白吗？"
+ },
+ {
+  "seg": 162,
+  "start": 762.728,
+  "end": 764.409,
+  "speaker": "Unknown",
+  "en": "Imagine it as the brain.",
+  "zh": "你可以把它想象成大脑。"
+ },
+ {
+  "seg": 163,
+  "start": 765.069,
+  "end": 773.351,
+  "speaker": "Unknown",
+  "en": "This agent is working according to a dynamic plan that it follows and he knows how to operate all the different sub-agents.",
+  "zh": "这个智能体按照它所遵循的动态计划工作，并且它知道如何操作所有不同的子智能体。"
+ },
+ {
+  "seg": 164,
+  "start": 774.011,
+  "end": 777.936,
+  "speaker": "Unknown",
+  "en": "The first agent, or actually the second agent, is the recon.",
+  "zh": "第一个智能体，其实是第二个智能体，是 recon。"
+ },
+ {
+  "seg": 165,
+  "start": 777.976,
+  "end": 781.641,
+  "speaker": "Unknown",
+  "en": "You can imagine it as your elite intelligence unit.",
+  "zh": "你可以把它想象成你的精英情报部队。"
+ },
+ {
+  "seg": 166,
+  "start": 781.982,
+  "end": 791.113,
+  "speaker": "Unknown",
+  "en": "The idea is to collect all the data it can about the different network endpoints, the different APIs, the different fingerprints, collect all of this data together.",
+  "zh": "它的理念是收集它能收集到的关于不同网络端点、不同 API、不同指纹的所有数据，把所有这些数据汇总到一起。"
+ },
+ {
+  "seg": 167,
+  "start": 791.774,
+  "end": 797.056,
+  "speaker": "Unknown",
+  "en": "Formalize an architecture out of that and hand it to the next agent.",
+  "zh": "从中形式化出一个架构，并交给下一个智能体。"
+ },
+ {
+  "seg": 168,
+  "start": 797.496,
+  "end": 799.837,
+  "speaker": "Unknown",
+  "en": "And the next agent is the vulnerability testing.",
+  "zh": "下一个智能体是漏洞测试。"
+ },
+ {
+  "seg": 169,
+  "start": 800.257,
+  "end": 804.099,
+  "speaker": "Unknown",
+  "en": "It's actually, again, a series of a few specialized agents.",
+  "zh": "实际上，它又是一系列专门化的智能体。"
+ },
+ {
+  "seg": 170,
+  "start": 804.559,
+  "end": 807.88,
+  "speaker": "Unknown",
+  "en": "Some of them are targeting the well-known classes of vulnerabilities.",
+  "zh": "其中一些针对众所周知类别的漏洞。"
+ },
+ {
+  "seg": 171,
+  "start": 808.36,
+  "end": 811.561,
+  "speaker": "Unknown",
+  "en": "Some of them are actually hunting for vulnerabilities in the wild.",
+  "zh": "另一些则实际在野外搜寻漏洞。"
+ },
+ {
+  "seg": 172,
+  "start": 811.961,
+  "end": 818.344,
+  "speaker": "Unknown",
+  "en": "And they are trying to break your application to understand the business context and to understand where an attacker can get from.",
+  "zh": "它们试图攻破你的应用程序，以理解业务上下文，并理解攻击者能从哪里入手。"
+ },
+ {
+  "seg": 173,
+  "start": 819.064,
+  "end": 824.409,
+  "speaker": "Unknown",
+  "en": "And then they hand it into the judge, as I like to call it, the exploit validation.",
+  "zh": "然后它们把它交给我喜欢称之为法官的东西，也就是漏洞利用验证。"
+ },
+ {
+  "seg": 174,
+  "start": 824.869,
+  "end": 832.535,
+  "speaker": "Unknown",
+  "en": "So actually, every vulnerability that the previous agents find are now being handed over to this judge.",
+  "zh": "所以实际上，前面的智能体找到的每一个漏洞，现在都会被移交给这个法官。"
+ },
+ {
+  "seg": 175,
+  "start": 833.096,
+  "end": 846.067,
+  "speaker": "Unknown",
+  "en": "And the goal of the judge is to tell us whether this is a real vulnerability or not, to tell us whether this can be exploitable or not, exactly because we want to reduce the cognitive load, exactly because we want to reduce",
+  "zh": "法官的目标是告诉我们这到底是不是一个真实的漏洞，告诉我们这是否可被利用，正是因为我们想要降低认知负担，正是因为我们想要减少"
+ },
+ {
+  "seg": 176,
+  "start": 846.747,
+  "end": 849.388,
+  "speaker": "Unknown",
+  "en": "The amount of false positive we have in the system.",
+  "zh": "系统中的误报数量。"
+ },
+ {
+  "seg": 177,
+  "start": 850.228,
+  "end": 855.59,
+  "speaker": "Unknown",
+  "en": "Coming up next is the remediation agent because everything we do we want to make actionable.",
+  "zh": "接下来登场的是修复智能体，因为我们所做的一切，我们都想让它可执行。"
+ },
+ {
+  "seg": 178,
+  "start": 856.091,
+  "end": 861.693,
+  "speaker": "Unknown",
+  "en": "We don't want to report about a vulnerability that eventually the developers, they don't know what they can do with that.",
+  "zh": "我们不想报告一个漏洞，结果开发人员却不知道能用它做什么。"
+ },
+ {
+  "seg": 179,
+  "start": 862.953,
+  "end": 867.895,
+  "speaker": "Unknown",
+  "en": "And coming after that is the reporting agent because everything needs to be reported.",
+  "zh": "在那之后是报告智能体，因为所有东西都需要被报告出来。"
+ },
+ {
+  "seg": 180,
+  "start": 871.162,
+  "end": 872.744,
+  "speaker": "Unknown",
+  "en": "So what makes us different?",
+  "zh": "那么，是什么让我们与众不同？"
+ },
+ {
+  "seg": 181,
+  "start": 873.646,
+  "end": 883.12,
+  "speaker": "Unknown",
+  "en": "And those are the points I urge you to check with every vendor out there trying to provide you with a solution or whether you want to implement a solution in-house for AI pen testing.",
+  "zh": "这些就是我强烈敦促你们去和市面上每一家试图向你提供解决方案的厂商核实的要点，或者说是你们想要在内部自建 AI 渗透测试解决方案时要核实的要点。"
+ },
+ {
+  "seg": 182,
+  "start": 883.14,
+  "end": 884.763,
+  "speaker": "Unknown",
+  "en": "This is a huge industry right now.",
+  "zh": "现在这是一个巨大的行业。"
+ },
+ {
+  "seg": 183,
+  "start": 887.648,
+  "end": 895.932,
+  "speaker": "Unknown",
+  "en": "So I think the most important thing you need to remember is, and you already know that, especially the developers in the room, context is everything.",
+  "zh": "所以我认为你们最需要记住的一点是——而且你们已经知道了，尤其是在座的开发人员——上下文就是一切。"
+ },
+ {
+  "seg": 184,
+  "start": 896.472,
+  "end": 900.514,
+  "speaker": "Unknown",
+  "en": "Your LLM are as good as the context that you feed them with.",
+  "zh": "你的 LLM 的表现取决于你喂给它们的上下文的好坏。"
+ },
+ {
+  "seg": 185,
+  "start": 900.994,
+  "end": 902.095,
+  "speaker": "Unknown",
+  "en": "So what we're trying to do",
+  "zh": "所以我们正在尝试做的是"
+ },
+ {
+  "seg": 186,
+  "start": 902.775,
+  "end": 907.237,
+  "speaker": "Unknown",
+  "en": "We are not just taking our AI pen testing solution as a standalone.",
+  "zh": "我们不只是把我们的 AI 渗透测试解决方案当作一个独立的东西。"
+ },
+ {
+  "seg": 187,
+  "start": 907.797,
+  "end": 911.699,
+  "speaker": "Unknown",
+  "en": "We actually feed it with data from all the previous scanners, okay?",
+  "zh": "我们实际上用之前所有扫描器的数据来喂养它，明白吗？"
+ },
+ {
+  "seg": 188,
+  "start": 912.199,
+  "end": 921.063,
+  "speaker": "Unknown",
+  "en": "So the statics code scanner, the dynamic code scanner, all of the different engines are being combined together and they are being fed.",
+  "zh": "静态代码扫描器、动态代码扫描器，所有这些不同的引擎都被组合在一起，然后它们被喂给"
+ },
+ {
+  "seg": 189,
+  "start": 921.603,
+  "end": 929.913,
+  "speaker": "Unknown",
+  "en": "into our AI pentesting solution because that way we know how to tailor and we know how to guide the LLM where to look for.",
+  "zh": "我们的 AI 渗透测试解决方案，因为这样我们就知道如何定制，也知道如何引导 LLM 去哪里寻找。"
+ },
+ {
+  "seg": 190,
+  "start": 930.374,
+  "end": 939.124,
+  "speaker": "Unknown",
+  "en": "And as you know also from Mythos or from Fabel, when those models know where to look, the results are significantly better.",
+  "zh": "而且正如你也从 Mythos 或 Fabel 中知道的，当这些模型知道去哪里寻找时，结果会显著更好。"
+ },
+ {
+  "seg": 191,
+  "start": 939.785,
+  "end": 944.648,
+  "speaker": "Unknown",
+  "en": "So that's one thing we're doing that is very unique and very differentiated.",
+  "zh": "所以这是我们在做的一件非常独特、非常有差异化的事情。"
+ },
+ {
+  "seg": 192,
+  "start": 946.229,
+  "end": 950.632,
+  "speaker": "Unknown",
+  "en": "And also what I want you to remember is that one solution is not enough.",
+  "zh": "另外我希望你记住的是，一个解决方案是不够的。"
+ },
+ {
+  "seg": 193,
+  "start": 951.492,
+  "end": 965.902,
+  "speaker": "Unknown",
+  "en": "The great thing about it is when you combine those things together and based on the data that we see both from the labs and from real data from customers, combining the data together is really what's important and you can't really",
+  "zh": "它的妙处在于，当你把这些东西结合在一起时——根据我们从实验室以及从客户真实数据中看到的数据——把数据结合在一起才是真正重要的，而你没法真正做到"
+ },
+ {
+  "seg": 194,
+  "start": 966.826,
+  "end": 968.888,
+  "speaker": "Unknown",
+  "en": "You can't really use just one of them.",
+  "zh": "你没法只单独使用其中一种。"
+ },
+ {
+  "seg": 195,
+  "start": 968.908,
+  "end": 971.75,
+  "speaker": "Unknown",
+  "en": "There are certain classes of vulnerabilities.",
+  "zh": "某些类别的漏洞，"
+ },
+ {
+  "seg": 196,
+  "start": 972.491,
+  "end": 984.361,
+  "speaker": "Unknown",
+  "en": "Dust is the best scanner for that because you have a set of really exhaustive payloads that you can send to your application.",
+  "zh": "dust 是最好的扫描器，因为你有一套非常详尽的 payload 可以发送到你的应用程序。"
+ },
+ {
+  "seg": 197,
+  "start": 984.381,
+  "end": 986.723,
+  "speaker": "Unknown",
+  "en": "So it's very good, for example, with cross-site scripting.",
+  "zh": "所以比如说，它非常擅长跨站脚本攻击。"
+ },
+ {
+  "seg": 198,
+  "start": 987.644,
+  "end": 991.327,
+  "speaker": "Unknown",
+  "en": "Dust for cross-site scripting is the best solution.",
+  "zh": "dust 是针对跨站脚本攻击的最佳解决方案。"
+ },
+ {
+  "seg": 199,
+  "start": 991.807,
+  "end": 999.339,
+  "speaker": "Unknown",
+  "en": "But if you want, again, like business logic, then you should combine it with pentesting because it will be the best solution.",
+  "zh": "但是，如果你要对付的又是业务逻辑类的，那么你应该把它与渗透测试结合起来，因为那才会是最佳解决方案。"
+ },
+ {
+  "seg": 200,
+  "start": 999.88,
+  "end": 1003.405,
+  "speaker": "Unknown",
+  "en": "So I think what I really want you to take from this",
+  "zh": "所以我认为我真正想让你带走的是"
+ },
+ {
+  "seg": 201,
+  "start": 1004.693,
+  "end": 1009.877,
+  "speaker": "Unknown",
+  "en": "If there is one thing I want you to take from here is to realize that the world is changing.",
+  "zh": "如果说我希望你们从这里带走一件事，那就是要意识到世界正在改变。"
+ },
+ {
+  "seg": 202,
+  "start": 1009.897,
+  "end": 1010.857,
+  "speaker": "Unknown",
+  "en": "You already know that.",
+  "zh": "你们已经知道这一点了。"
+ },
+ {
+  "seg": 203,
+  "start": 1010.997,
+  "end": 1012.178,
+  "speaker": "Unknown",
+  "en": "That's what made you come here.",
+  "zh": "正是这一点让你们来到这里。"
+ },
+ {
+  "seg": 204,
+  "start": 1012.838,
+  "end": 1022.005,
+  "speaker": "Unknown",
+  "en": "But we used to test our application once every few months because the change and the velocity of the change was so slow.",
+  "zh": "但我们过去每隔几个月才测试一次我们的应用，因为变化以及变化的速度是如此缓慢。"
+ },
+ {
+  "seg": 205,
+  "start": 1022.992,
+  "end": 1028.994,
+  "speaker": "Unknown",
+  "en": "And we had people at the end that were reasoning about the application and about the change.",
+  "zh": "而且我们有专门的人员在最后对应用和变更进行推理。"
+ },
+ {
+  "seg": 206,
+  "start": 1029.054,
+  "end": 1031.975,
+  "speaker": "Unknown",
+  "en": "But that world does not longer exist, right?",
+  "zh": "但那个世界已经不复存在了，对吧？"
+ },
+ {
+  "seg": 207,
+  "start": 1032.656,
+  "end": 1038.558,
+  "speaker": "Unknown",
+  "en": "Right now, we are pushing code to production 24-7, and we have LLMs that are trying to reason.",
+  "zh": "现在我们在全天候不停歇地向生产环境推送代码，而且我们有 LLM 在尝试推理"
+ },
+ {
+  "seg": 208,
+  "start": 1039.158,
+  "end": 1042.661,
+  "speaker": "Unknown",
+  "en": "about the application context and they are trying to break it continuously.",
+  "zh": "应用上下文，并且它们在持续不断地尝试突破它。"
+ },
+ {
+  "seg": 209,
+  "start": 1043.162,
+  "end": 1046.545,
+  "speaker": "Unknown",
+  "en": "Some of them can do it in like as fast as four minutes, okay?",
+  "zh": "其中一些能做到快至四分钟，好吗？"
+ },
+ {
+  "seg": 210,
+  "start": 1046.565,
+  "end": 1049.988,
+  "speaker": "Unknown",
+  "en": "That's almost five times of the lecture of the session that I just did.",
+  "zh": "那几乎是我刚做的这场讲座时长的五倍。"
+ },
+ {
+  "seg": 211,
+  "start": 1050.529,
+  "end": 1057.215,
+  "speaker": "Unknown",
+  "en": "So when you're coming to look for new solutions for this problem, you have to ask yourself four questions, okay?",
+  "zh": "所以当你来为这个问题寻找新的解决方案时，你必须问自己四个问题，好吗？"
+ },
+ {
+  "seg": 212,
+  "start": 1057.515,
+  "end": 1058.056,
+  "speaker": "Unknown",
+  "en": "First of all,",
+  "zh": "首先，"
+ },
+ {
+  "seg": 213,
+  "start": 1059.433,
+  "end": 1065.699,
+  "speaker": "Unknown",
+  "en": "Do we run this solution in a continuous way, or is it just a point solution that we run every once in a while?",
+  "zh": "我们是持续地运行这个解决方案，还是它只是一个我们偶尔运行一次的定点解决方案？"
+ },
+ {
+  "seg": 214,
+  "start": 1066.279,
+  "end": 1067.46,
+  "speaker": "Unknown",
+  "en": "That's a major difference.",
+  "zh": "这是一个重大区别。"
+ },
+ {
+  "seg": 215,
+  "start": 1068.101,
+  "end": 1072.285,
+  "speaker": "Unknown",
+  "en": "Second, do they really reason about the application context?",
+  "zh": "第二，它们是否真正对应用上下文进行推理？"
+ },
+ {
+  "seg": 216,
+  "start": 1072.805,
+  "end": 1079.912,
+  "speaker": "Unknown",
+  "en": "Because given the nature of those LLM, application context is really where the new vulnerabilities are coming from.",
+  "zh": "因为鉴于那些 LLM 的本质，应用上下文正是新的漏洞来源所在。"
+ },
+ {
+  "seg": 217,
+  "start": 1081.242,
+  "end": 1086.688,
+  "speaker": "Unknown",
+  "en": "And third, what more context can they digest?",
+  "zh": "第三，它们还能消化哪些更多的上下文？"
+ },
+ {
+  "seg": 218,
+  "start": 1086.768,
+  "end": 1088.41,
+  "speaker": "Unknown",
+  "en": "How can they enrich the data?",
+  "zh": "它们如何丰富数据？"
+ },
+ {
+  "seg": 219,
+  "start": 1088.79,
+  "end": 1094.717,
+  "speaker": "Unknown",
+  "en": "Because the richer the data is, the better and, by the way, cheaper the LLM operation is going to be.",
+  "zh": "因为数据越丰富，LLM 的运行就会越好，顺便说一句，也会越便宜。"
+ },
+ {
+  "seg": 220,
+  "start": 1095.698,
+  "end": 1099.001,
+  "speaker": "Unknown",
+  "en": "And the fourth part is, do they really help me",
+  "zh": "第四部分是，它们是否真正帮助我"
+ },
+ {
+  "seg": 221,
+  "start": 1100.112,
+  "end": 1106.917,
+  "speaker": "Unknown",
+  "en": "To prove that there is a bug and to make sure that this is exploitable or that they just flag it as a bug.",
+  "zh": "证明存在一个漏洞，并确保它是可被利用的，还是它们只是将其标记为一个漏洞。"
+ },
+ {
+  "seg": 222,
+  "start": 1107.517,
+  "end": 1121.106,
+  "speaker": "Unknown",
+  "en": "Okay, so our goal is not only to help you find the bugs faster, but to actually do it better and cheaper and to help you as a developer or as the security people here focus on what matters most.",
+  "zh": "好的，所以我们的目标不仅是帮助你更快地找到漏洞，而是实际上做得更好、更便宜，并帮助你——作为开发者或作为在座的安全人员——专注于最重要的事情。"
+ },
+ {
+  "seg": 223,
+  "start": 1122.427,
+  "end": 1123.308,
+  "speaker": "Unknown",
+  "en": "So thank you very much.",
+  "zh": "非常感谢大家。"
+ },
+ {
+  "seg": 224,
+  "start": 1123.748,
+  "end": 1125.77,
+  "speaker": "Unknown",
+  "en": "And I used to do it in every lecture.",
+  "zh": "我过去每次讲座都会做这个。"
+ },
+ {
+  "seg": 225,
+  "start": 1125.79,
+  "end": 1130.193,
+  "speaker": "Unknown",
+  "en": "You know, my dream was to be a rock star, but I had to be a cyber entrepreneur.",
+  "zh": "你们知道，我的梦想是成为一名摇滚明星，但我不得不成为一名网络创业家。"
+ },
+ {
+  "seg": 226,
+  "start": 1130.693,
+  "end": 1132.755,
+  "speaker": "Unknown",
+  "en": "So instead of that, I'm going to take pictures.",
+  "zh": "所以作为替代，我要来拍照。"
+ },
+ {
+  "seg": 227,
+  "start": 1132.775,
+  "end": 1133.956,
+  "speaker": "Unknown",
+  "en": "So hands up, everyone.",
+  "zh": "大家举手。"
+ },
+ {
+  "seg": 228,
+  "start": 1136.998,
+  "end": 1137.678,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 229,
+  "start": 1138.299,
+  "end": 1139.079,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 230,
+  "start": 1141.641,
+  "end": 1143.022,
+  "speaker": "Unknown",
+  "en": "And I'm here for questions if you want.",
+  "zh": "如果你们有问题，我在这里。"
+ },
+ {
+  "seg": 231,
+  "start": 1143.402,
+  "end": 1144.183,
+  "speaker": "Unknown",
+  "en": "Go for the boot.",
+  "zh": "去看 boot。"
+ },
+ {
+  "seg": 232,
+  "start": 1144.763,
+  "end": 1145.744,
+  "speaker": "Unknown",
+  "en": "It's very close here.",
+  "zh": "它就在非常近的地方。"
+ },
+ {
+  "seg": 233,
+  "start": 1145.804,
+  "end": 1149.787,
+  "speaker": "Unknown",
+  "en": "Sneak.io, meet Evo, our new AI security offering.",
+  "zh": "Sneak.io,来了解 Evo，我们新的 AI 安全产品。"
+ },
+ {
+  "seg": 234,
+  "start": 1149.887,
+  "end": 1150.648,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 235,
+  "start": 1158.208,
+  "end": 1159.392,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 236,
+  "start": 1159.432,
+  "end": 1160.074,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

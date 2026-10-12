@@ -140,7 +140,7 @@ jsonLd: |
 
 - [[2026-09-16-talks-rebuilding-the-web-for-agents-liad-yosef|智能体网络来了：网站和浏览器正在被“拆成原子”]]<span class="pd-rz">同概念:llms.txt、智能体 (agent)、WebMCP</span>
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|把智能体当普通应用来部署:企业级 AI 落地的老办法新用途]]<span class="pd-rz">同概念:agents.md、智能体 (agent)</span>
-- [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Stripe、Vercel · 同概念:智能体 (agent)</span>
+- [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法]]<span class="pd-rz">同概念:智能体 (agent)、智能体体验 (agent experience)</span>
 
 </div>
 </div>

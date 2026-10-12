@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":51,"NVIDIA":68,"CPU":5,"推理":95,"芯片设计":2,"验证":2}</script>
+<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":52,"NVIDIA":69,"CPU":5,"推理":98,"芯片设计":2,"验证":2}</script>
 
 <script>
 (function(){

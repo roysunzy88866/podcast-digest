@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":195,"Anthropic":200,"Microsoft":32,"Amazon":32,"Google":70,"Meta":51,"Databricks":23}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":195,"Anthropic":200,"Microsoft":32,"Amazon":32,"Google":70,"Meta":52,"Databricks":23}</script>
 
 <script>
 (function(){

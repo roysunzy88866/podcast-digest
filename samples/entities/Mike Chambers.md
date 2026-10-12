@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":473,"harness 工程":4,"Bedrock AgentCore":1,"MCP":85,"记忆":27,"多租户隔离":1,"可观测性":43,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"harness 工程":4,"Bedrock AgentCore":1,"MCP":86,"记忆":27,"多租户隔离":1,"可观测性":43,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
 
 <script>
 (function(){

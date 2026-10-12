@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>68</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>69</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -78,6 +78,7 @@ unlisted: true
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(64:09起):本集说 NVIDIA 吞并了一批苦苦挣扎的 GPU 数据库公司(含 HeavyDB)、全力押注 GPU 数据库,动机显然是多卖 GPU
 - **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(18:47起):本集说 NVIDIA 是会挑选赢家芯片方案的大玩家之一，会像收购 Grok 后那样把异构性藏进自己的架构；还提到 NVL72 是工程奇迹也是制造噩梦。
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(39:31起):本集说它的芯片需求无限但产能不足，并批评现有芯片是「耗电巨大、良率低、为打游戏而造」的，未必适合 AI
+- **[[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]]**(00:45起):本集说 NVIDIA 的使命从来不是 AI，而是做只有超级计算机才能做的事；它与 Perplexity 合作推出完全本地运行的 portable computer，据报道正考虑以超 300 亿美元估值投资 Perplexity
 
 ## ① 提到它的金句
 
@@ -117,7 +118,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*68 集*
+*69 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -187,14 +188,15 @@ unlisted: true
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[Meta]] · [[开源]] · [[数据中心]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[数据中心]] · [[Meta]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":200,"智能体":473,"OpenAI":195,"推理":95,"GPU":30,"Google":70,"Cursor":86,"Meta":51,"开源":40,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":200,"智能体":478,"OpenAI":195,"推理":98,"GPU":30,"Google":70,"Cursor":86,"数据中心":24,"Meta":52,"Hugging Face":37}</script>
 
 <script>
 (function(){

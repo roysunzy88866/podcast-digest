@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":63,"轨迹":4,"智能体":473}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":63,"轨迹":4,"智能体":478}</script>
 
 <script>
 (function(){

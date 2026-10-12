@@ -22,7 +22,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Benedict Evans]] · [[Buck Shlegeris]] · [[TSMC]] · [[Hugging Face]] · [[LLM]] · [[Redwood Research]] · [[基础模型]] · [[Meter]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":195,"Anthropic":200,"Benedict Evans":2,"Buck Shlegeris":1,"TSMC":9,"Hugging Face":36,"LLM":60,"Redwood Research":4,"基础模型":6,"Meter":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":195,"Anthropic":200,"Benedict Evans":2,"Buck Shlegeris":1,"TSMC":9,"Hugging Face":37,"LLM":61,"Redwood Research":4,"基础模型":6,"Meter":4}</script>
 
 <script>
 (function(){

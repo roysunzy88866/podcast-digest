@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"OpenClaw":23,"智能体":473,"红队测试":7,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":89,"harness":63,"供应链":5}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"OpenClaw":23,"智能体":478,"红队测试":8,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":89,"harness":63,"供应链":5}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DoorDash":10,"Dot":2,"Waymo":21,"智能体商务":1,"智能体":473,"自主性":10,"分发":7,"无人机":2,"harness":63,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"DoorDash":10,"Dot":2,"Waymo":21,"智能体商务":1,"智能体":478,"自主性":10,"分发":7,"无人机":2,"harness":63,"开放权重模型":1}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":7,"Zenefits":1,"EchoSign":1,"Salesforce":36,"go-to-market":14,"智能体":473,"记录系统":7,"单点解决方案":2,"创新者的窘境":4}</script>
+<script type="application/json" class="pd-epn">{"Monaco":1,"Brex":7,"Zenefits":1,"EchoSign":1,"Salesforce":36,"go-to-market":14,"智能体":478,"记录系统":7,"单点解决方案":2,"创新者的窘境":4}</script>
 
 <script>
 (function(){

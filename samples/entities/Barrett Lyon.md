@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":473,"推理":95,"广告追踪":1,"LLM":60,"数据中心":23}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":478,"推理":98,"广告追踪":1,"LLM":61,"数据中心":24}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gabe Pereyra</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gabe Pereyra">GA</div><div class="pi"><h1 class="pt">Gabe Pereyra</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>13</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gabe Pereyra">GA</div><div class="pi"><h1 class="pt">Gabe Pereyra</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -49,17 +49,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harvey]] · [[后训练]] · [[基准测试]] · [[合成数据]] · [[开源模型]] · [[智能体]] · [[RL 环境]] · [[模型路由]] · [[DeepMind]]
+[[Harvey]] · [[后训练]] · [[基准测试]] · [[合成数据]] · [[开源模型]] · [[智能体]] · [[RL 环境]] · [[模型路由]] · [[长上下文]] · [[DeepMind]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harvey":21,"后训练":1,"基准测试":2,"合成数据":10,"开源模型":4,"智能体":473,"RL 环境":8,"模型路由":11,"DeepMind":16}</script>
+<script type="application/json" class="pd-epn">{"Harvey":21,"后训练":1,"基准测试":2,"合成数据":10,"开源模型":4,"智能体":478,"RL 环境":8,"模型路由":12,"长上下文":3,"DeepMind":18}</script>
 
 <script>
 (function(){

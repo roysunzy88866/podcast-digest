@@ -1,0 +1,1170 @@
+{
+  "episode_id": "2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next",
+  "podcast": "Sourcery",
+  "date": "2026-10-12",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "AI 产品哲学",
+    "本地推理",
+    "AI 安全"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "arvind-srinivas",
+      "type": "person",
+      "role": "host",
+      "name": "Arvind Srinivas",
+      "file": "Arvind Srinivas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.071,
+            1.612
+          ],
+          "quote": "Joining us is Arvind Srinivas.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "type": "company",
+      "role": "company",
+      "name": "Perplexity",
+      "file": "Perplexity",
+      "primary": true,
+      "how_described": "本集主题公司：从 2022 年的回答引擎演化为多步骤搜索智能体、浏览器智能体，定位为模型中立的智能体编排平台，营收同比增长 5 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.632,
+            3.734
+          ],
+          "quote": "He is his co-founder and CEO of Perplexity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            3.874,
+            5.655
+          ],
+          "quote": "Perplexity's been on quite the terrace.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 3,
+          "t": [
+            5.675,
+            9.618
+          ],
+          "quote": "Perplexity rolling out its AI browser Comet to all users this week.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            67.26,
+            70.742
+          ],
+          "quote": "Arvind, thank you so much for having us here at Perplexity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 29,
+          "t": [
+            96.116,
+            107.963
+          ],
+          "quote": "You know, there's a war between all of them, but the one thing that I've particularly noticed with you and Perplexity is you've withheld an above-board brand the entire time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            575.171,
+            578.372
+          ],
+          "quote": "And so that's exactly why we built Perplexity Computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1378.503,
+            1383.345
+          ],
+          "quote": "So Perplexity has been on quite the tear since you released Perplexity Computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1423.23,
+            1433.858
+          ],
+          "quote": "The thing that I'd like to think, like the easiest thing to understand of why perplexity has been able to benefit a lot from the rise of agents, even though we started as an answer engine, is very simple.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1687.069,
+            1689.97
+          ],
+          "quote": "That's basically what's happening with a product like Perplexity Computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2096.816,
+            2102.32
+          ],
+          "quote": "And with Apple, we build the other way, which is it starts from the cloud, like regular perplexity computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2150.633,
+            2154.514
+          ],
+          "quote": "And Perplexity wants to do whatever the users want us to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2221.363,
+            2228.81
+          ],
+          "quote": "So they want to deploy a version of Perplexity Computer that runs on hardware that's entirely owned by them.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2365.692,
+            2369.414
+          ],
+          "quote": "So you're not going to be opening any perplexity data centers anytime soon?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2706.528,
+            2713.673
+          ],
+          "quote": "And multi-model is as much a trust signal in AI as it is a product feature in Perplexity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2714.534,
+            2716.335
+          ],
+          "quote": "You can trust to build on Perplexity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2716.355,
+            2721.238
+          ],
+          "quote": "You can trust to build your business on Perplexity because we're always going to be neutral to models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2907.747,
+            2919.098
+          ],
+          "quote": "Outside of perplexity in the entire market, the Hugging Face incident was major and it exposed how powerful agents have become and will become.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "perplexity-computer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Perplexity Computer",
+      "file": "Perplexity Computer",
+      "primary": true,
+      "how_described": "本集说它是 Perplexity 的智能体产品：整合搜索、云浏览器、跨模型编排，有完全本地的 portable computer 版本和与 Apple 合作的从云端下沉到本地硬件的混合版本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            575.171,
+            578.372
+          ],
+          "quote": "And so that's exactly why we built Perplexity Computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1378.503,
+            1383.345
+          ],
+          "quote": "So Perplexity has been on quite the tear since you released Perplexity Computer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1687.069,
+            1689.97
+          ],
+          "quote": "That's basically what's happening with a product like Perplexity Computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2096.816,
+            2102.32
+          ],
+          "quote": "And with Apple, we build the other way, which is it starts from the cloud, like regular perplexity computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2221.363,
+            2228.81
+          ],
+          "quote": "So they want to deploy a version of Perplexity Computer that runs on hardware that's entirely owned by them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集说 NVIDIA 的使命从来不是 AI，而是做只有超级计算机才能做的事；它与 Perplexity 合作推出完全本地运行的 portable computer，据报道正考虑以超 300 亿美元估值投资 Perplexity",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            45.526,
+            50.671
+          ],
+          "quote": "We're very glad to partner with amazing chip companies like NVIDIA and Apple, Intel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 18,
+          "t": [
+            52.333,
+            56.638
+          ],
+          "quote": "As NVIDIA reportedly weighs investing in the company at a more than $30 billion valuation,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            245.699,
+            248.42
+          ],
+          "quote": "NVIDIA's mission was just make",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1328.59,
+            1334.255
+          ],
+          "quote": "That's why companies like NVIDIA, Anthropic, Salesforce, and Gemini partner with Turing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2072.709,
+            2077.61
+          ],
+          "quote": "And so you're working with NVIDIA, you're partnered with NVIDIA, and you're also partnered with Apple on this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2471.115,
+            2477.661
+          ],
+          "quote": "We're very glad to partner with amazing chip companies like NVIDIA and Apple, Intel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2808.395,
+            2812.838
+          ],
+          "quote": "And that's what we're trying to do with our project with NVIDIA on portable computer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说 Steve Jobs 为 Apple 打造的奖金字塔是做美的东西回馈人类、让凡人也能用电脑；Perplexity 与 Apple 合作的混合计算从云端出发，敏感本地文件下沉到 Apple Silicon 上跑",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            45.526,
+            50.671
+          ],
+          "quote": "We're very glad to partner with amazing chip companies like NVIDIA and Apple, Intel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            236.098,
+            245.259
+          ],
+          "quote": "Steve Jobs built a brand for Apple about putting beautiful things out there because that's the best way to celebrate and give back to mankind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            716.295,
+            736.087
+          ],
+          "quote": "did that in a financial way, like they maximized returns by being holding companies or lending money, but also the product companies that became worth, you know, Apple, like say 5 trillion, you could argue Apple is the largest SMB and enterprise company too, but they didn't get there by wanting to be that, they just built",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1920.702,
+            1926.511
+          ],
+          "quote": "If you just multiply 50 watts per Apple Silicon and 100 million Apple Silicon, it's already gigawatts of power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2072.709,
+            2077.61
+          ],
+          "quote": "And so you're working with NVIDIA, you're partnered with NVIDIA, and you're also partnered with Apple on this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2096.816,
+            2102.32
+          ],
+          "quote": "And with Apple, we build the other way, which is it starts from the cloud, like regular perplexity computer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2103.041,
+            2111.707
+          ],
+          "quote": "And then when the files are local and sensitive, it allows the user the option to like run it on local hardware on Apple Silicon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2471.115,
+            2477.661
+          ],
+          "quote": "We're very glad to partner with amazing chip companies like NVIDIA and Apple, Intel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2823.847,
+            2826.75
+          ],
+          "quote": "And that's the hybrid compute on Apple Silicon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3275.31,
+            3280.351
+          ],
+          "quote": "And don't forget to subscribe to the podcast on YouTube, Spotify, Apple, or wherever you listen.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "apple-silicon",
+      "type": "concept",
+      "role": "concept",
+      "name": "Apple Silicon",
+      "file": "Apple Silicon",
+      "primary": true,
+      "how_described": "本集把它当作被低估的算力资源：每块 50 瓦乘以 1 亿台就是吉瓦级电力，是本地运行模型、做混合编排的硬件基础",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 383,
+          "t": [
+            1920.702,
+            1926.511
+          ],
+          "quote": "If you just multiply 50 watts per Apple Silicon and 100 million Apple Silicon, it's already gigawatts of power.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2103.041,
+            2111.707
+          ],
+          "quote": "And then when the files are local and sensitive, it allows the user the option to like run it on local hardware on Apple Silicon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2823.847,
+            2826.75
+          ],
+          "quote": "And that's the hybrid compute on Apple Silicon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集说嘉宾在 DeepMind 实习时受 Demis 启发：以科学家命名会议室、哲学家会议室不放电视只面对面用白板讨论，后来照搬到 Perplexity",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            302.551,
+            306.533
+          ],
+          "quote": "So that was inspired by my time at DeepMind.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集以其近期安全事件为引子：暴露了智能体（尤其多智能体协作）的强大与风险，说明模型多在单智能体环境下测试、发现不了这类威胁",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            2263.647,
+            2268.112
+          ],
+          "quote": "I mean, God forbid, like a hugging face situation happens with whoever is using this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2907.747,
+            2919.098
+          ],
+          "quote": "Outside of perplexity in the entire market, the Hugging Face incident was major and it exposed how powerful agents have become and will become.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-hathaway",
+      "type": "company",
+      "role": "company",
+      "name": "Berkshire Hathaway",
+      "file": "Berkshire Hathaway",
+      "primary": false,
+      "how_described": "本集举它价值一万亿、客户基础主要在美国，作为「只服务美国市场就能建成万亿美元公司」的证据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            519.529,
+            521.271
+          ],
+          "quote": "Berkshire Hathaway is worth a trillion.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "jp-morgan",
+      "type": "company",
+      "role": "company",
+      "name": "JP Morgan",
+      "file": "JP Morgan",
+      "primary": false,
+      "how_described": "本集举它价值近一万亿（约 9400 亿），与 Berkshire Hathaway 一起证明美国市场的复利型客户价值",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            522.152,
+            525.875
+          ],
+          "quote": "JP Morgan is worth almost a trillion, like 940 billion.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            709.694,
+            714.795
+          ],
+          "quote": "And Berkshire and JP Morgan, though I gave them as examples, I think they kind of like...",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念：Perplexity 在「智能体」一词叫开之前就在做；智能体要做人在电脑上的工作就离不开搜索、浏览器和多模型编排；未来公司会把更多工作委托给智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            589.259,
+            596.603
+          ],
+          "quote": "And we want to do that by being the most trustworthy model-neutral agent platform, by orchestrating frontier models and open-weight models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            600.306,
+            606.13
+          ],
+          "quote": "And then the more we do that, the more they trust the AI and the agent to do more of their workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1403.821,
+            1418.088
+          ],
+          "quote": "We evolved to a multi-step search agent pretty fast, actually, in 2023, late 2023, and then deep research in 2024, browser agents last year.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1418.228,
+            1421.089
+          ],
+          "quote": "So we've been doing agents before it was called an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1567.821,
+            1573.504
+          ],
+          "quote": "That it made sense to have a sandbox where the agent is using search as code or browser as code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2249.964,
+            2263.135
+          ],
+          "quote": "Think about an ads company rolling out a personal agent and having access to your blood work, your tax returns, and your photos, and of course, every sensitive text message you're sending.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2292.959,
+            2306.668
+          ],
+          "quote": "Like I think people call it on-prem sovereign interchangeably, but basically a version of the whole system that runs with maybe a fine-tuned open weights model and the harness, the model, the agent loops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2871.756,
+            2874.259
+          ],
+          "quote": "Create your own custom agent with a simple prompt.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2886.534,
+            2887.495
+          ],
+          "quote": "Just tell your agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2919.158,
+            2919.878
+          ],
+          "quote": "Multi-agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2919.958,
+            2920.679
+          ],
+          "quote": "Multi-agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2934.198,
+            2937.48
+          ],
+          "quote": "Most of the times you test these models in single agent settings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2939.702,
+            2949.229
+          ],
+          "quote": "So one of the things that really was illuminating for me when I like watched through their technical talk was how, by the way, there's multiple versions to think about multi-agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2949.329,
+            2954.593
+          ],
+          "quote": "One is there's a main agent and there are sub-agents inside it that's already been widely deployed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2965.181,
+            2967.382
+          ],
+          "quote": "There's a lot of compute power applied to each agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3036.074,
+            3038.457
+          ],
+          "quote": "And every company will need to have an agent for that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集说它是下一个安全风险高发区：一个主智能体带子智能体已普遍且风险可控，但多个父智能体各带子智能体协作、每个都挂重算力是新问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 576,
+          "t": [
+            2919.158,
+            2919.878
+          ],
+          "quote": "Multi-agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2919.958,
+            2920.679
+          ],
+          "quote": "Multi-agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2939.702,
+            2949.229
+          ],
+          "quote": "So one of the things that really was illuminating for me when I like watched through their technical talk was how, by the way, there's multiple versions to think about multi-agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说智能体把搜索当代码、浏览器当代码来用需要沙箱；安全上还需要构建安全沙箱并有后台智能体持续守护，防止智能体做不该做的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1567.821,
+            1573.504
+          ],
+          "quote": "That it made sense to have a sandbox where the agent is using search as code or browser as code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2969.564,
+            2977.109
+          ],
+          "quote": "I think we also need to build secure sandboxes for that and background agents that constantly guard the sandbox.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说如今大部分 AI 推理跑在云端数据中心，批量推理带来高吞吐；但长上下文场景下数据中心对本地硬件的成本优势缩到 3 倍甚至接近持平",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 366,
+          "t": [
+            1789.827,
+            1794.03
+          ],
+          "quote": "And most of AI inference runs on the cloud today, the data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1796.651,
+            1798.272
+          ],
+          "quote": "Batch inference gets you high throughput.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1806.238,
+            1808.199
+          ],
+          "quote": "Benefits from batched inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1839.495,
+            1844.597
+          ],
+          "quote": "And so, for example, chat is best suited for data center inference.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "long-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "长上下文 (long context)",
+      "file": "长上下文",
+      "primary": true,
+      "how_described": "本集说随着用户个人上下文增长，上下文窗口比内存中的模型权重更重要，100k 上下文时本地硬件开始变得划算",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 377,
+          "t": [
+            1849.499,
+            1865.923
+          ],
+          "quote": "But as things get more and more into the long context trajectories, especially like 100k context and so on, the data center only buys you like 3x or even like close to 1x over running it on local hardware as far as like cost efficiency is concerned.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集把数据中心比作公交车（拼车便宜但不妨碍人人买车），扩建被许可、电网接入、燃气轮机短缺卡住；Perplexity 明确没有自建数据中心的计划",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.638,
+            11.459
+          ],
+          "quote": "The data center is coming to your laptop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1354.787,
+            1365.114
+          ],
+          "quote": "Zone develops next-generation data center campuses, partnering with AI companies, site developers, and technology leaders to bring compute online faster and at scale.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1789.827,
+            1794.03
+          ],
+          "quote": "And most of AI inference runs on the cloud today, the data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1839.495,
+            1844.597
+          ],
+          "quote": "And so, for example, chat is best suited for data center inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1849.499,
+            1865.923
+          ],
+          "quote": "But as things get more and more into the long context trajectories, especially like 100k context and so on, the data center only buys you like 3x or even like close to 1x over running it on local hardware as far as like cost efficiency is concerned.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1871.104,
+            1897.601
+          ],
+          "quote": "And couple this fact with the fact that the biggest bottleneck to diffusing AI right now to more people who want more agents is the data center build-outs, the long interconnection queues, the permits, people protesting against the build-outs, the gigawatt requirements they have, the need for them to have their own substations and gas turbines to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1942.083,
+            1943.584
+          ],
+          "quote": "Think of the data center like a bus.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2414.266,
+            2417.127
+          ],
+          "quote": "No one's saying like there are not enough data center builders.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "recursive-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归效应 (recursive effect)",
+      "file": "递归效应",
+      "primary": true,
+      "how_described": "本集最尖锐的观点：AI 产品靠递归效应而非网络效应——用户用产品赚到钱所以离不开你，使用深度和用户质量比数量重要得多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1638.203,
+            1645.408
+          ],
+          "quote": "And so that's why I like to think of this product, our product, our company, and in general, Geni products as the recursive effect.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effect)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集说很多人用上一代消费产品的网络效应理论看 AI、认为没有 10 亿用户就是失败，这种心态完全错误",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            1645.448,
+            1646.549
+          ],
+          "quote": "It's not the network effect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1647.41,
+            1658.018
+          ],
+          "quote": "And this is actually the thing that a lot of people get wrong is they think of AI should follow the same network effect theory of previous era of consumer products.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型 (open weight models)",
+      "file": "开源权重模型",
+      "primary": true,
+      "how_described": "本集说 Perplexity 押注开放权重模型会变得紧凑省电、能在本地硬件上运行，编排前沿模型与开放权重模型是其战略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            589.259,
+            596.603
+          ],
+          "quote": "And we want to do that by being the most trustworthy model-neutral agent platform, by orchestrating frontier models and open-weight models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2051.959,
+            2060.243
+          ],
+          "quote": "We are betting on progress and open weight models are going to be effective and, you know, very compact, very power efficient, can be running on local hardware.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集核心定位：Perplexity 要做中立编排器，在模型、芯片、本地设备与云端之间、本地与云之间上下编排，给用户选择权",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1506.524,
+            1514.287
+          ],
+          "quote": "and a multi-model orchestration because different models are good at different things just like how if you have a team you want people with different skills to be able to do the job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2064.444,
+            2067.145
+          ],
+          "quote": "And we think there's an orchestration to be done between the two.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "long-horizon",
+      "type": "concept",
+      "role": "concept",
+      "name": "长时程研究 (long horizon)",
+      "file": "长时程研究",
+      "primary": true,
+      "how_described": "本集说嘉宾最想解决的瓶颈：模型在数学、代码这类可验证领域进步快，但无法验证真相的问题需要真实世界实验和慢反馈循环，模型还应付不了",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 608,
+          "t": [
+            3090.935,
+            3095.436
+          ],
+          "quote": "That level of long horizon capability is where I'm excited about taking our product next.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3117.451,
+            3135.917
+          ],
+          "quote": "The models are not quite there in terms of being truly long horizon and persistent and parallel and so they're getting there but I think we still don't have a model at the frontier level that can actually like go out there and like be doing its own research end-to-end on its own autonomously and",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bumblebee",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bumblebee",
+      "file": "Bumblebee",
+      "primary": false,
+      "how_described": "本集说这是 Perplexity 正在开源的安全工具之一，可运行在用户自己的设备上，持续审计操作轨迹",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 592,
+          "t": [
+            2992.919,
+            2996.14
+          ],
+          "quote": "A version that can run on your own devices is called Bumblebee.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "numbat",
+      "type": "concept",
+      "role": "concept",
+      "name": "Numbat",
+      "file": "Numbat",
+      "primary": false,
+      "how_described": "本集说这是 Perplexity 正在开源的安全工具之一，运行在服务器上，基于审计日志构建威胁检测分类器并报警",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 593,
+          "t": [
+            2996.821,
+            2999.082
+          ],
+          "quote": "And then a version that can run on servers called Numbat.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "detection-classifiers",
+      "type": "concept",
+      "role": "concept",
+      "name": "检测分类器 (detection classifiers)",
+      "file": "检测分类器",
+      "primary": false,
+      "how_described": "本集说要用 AI 防 AI：基于大量审计日志训练威胁检测分类器，发现敏感数据被触碰就报警，再用专门的智能体做修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 590,
+          "t": [
+            2985.595,
+            2988.296
+          ],
+          "quote": "And we need to have great detection classifiers for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3007.525,
+            3015.708
+          ],
+          "quote": "Basically build a lot of threat detection classifiers based on the audit logs and alert you when something happens.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

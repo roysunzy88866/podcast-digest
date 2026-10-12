@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":195,"Hugging Face":36,"Meter":4,"Redwood Research":4,"Modal":7,"智能体":473,"沙箱":94,"RL":14,"Exploit Gym":1,"Artifactory":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":195,"Hugging Face":37,"Meter":4,"Redwood Research":4,"Modal":7,"智能体":478,"沙箱":95,"RL":14,"Exploit Gym":1,"Artifactory":2}</script>
 
 <script>
 (function(){

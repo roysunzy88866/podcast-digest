@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]] [[Kirthana Gopalakrishnan]]
+[[Nick Bostrom]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":195,"Codex":83,"ChatGPT":108,"Dots":4,"Astra":8,"智能体":473,"沙箱":94,"对齐":23,"护栏":89}</script>
+<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":195,"Codex":85,"ChatGPT":108,"Dots":4,"Astra":8,"智能体":478,"沙箱":95,"对齐":23,"护栏":89}</script>
 
 <script>
 (function(){

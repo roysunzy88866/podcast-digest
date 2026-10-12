@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":19,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":32,"智能体 AI":5,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"a16z":20,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":32,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

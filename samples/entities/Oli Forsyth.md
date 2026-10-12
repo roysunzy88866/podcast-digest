@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":108,"智能体":473,"信任建立":7,"微短剧":1,"推理":95,"网络效应":15,"语音":2,"Discord":6}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":1,"Andreessen Horowitz":2,"ChatGPT":108,"智能体":478,"信任建立":7,"微短剧":1,"推理":98,"网络效应":16,"语音":2,"Discord":6}</script>
 
 <script>
 (function(){

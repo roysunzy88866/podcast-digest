@@ -197,7 +197,7 @@ DocsNet 的另一半动机是[[广告追踪|广告追踪]]。Barrett 指出你�
 
 - [[2026-08-18-a16z-how-do-you-defend-against-ai-that-can-ha|当签名已死：AI智能体如何击穿传统网络安全]]<span class="pd-rz">同嘉宾:Joel De La Garza · 同概念:智能体 (agent)、推理 (inference)</span>
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同概念:LLM、智能体 (agent)、推理 (inference)</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM、智能体 (agent)</span>
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同概念:数据中心 (data center)、智能体 (agent)、推理 (inference)</span>
 
 </div>
 </div>

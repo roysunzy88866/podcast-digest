@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Atlassian</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Atlassian">AT</div><div class="pi"><h1 class="pt">Atlassian</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Atlassian">AT</div><div class="pi"><h1 class="pt">Atlassian</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,24 +16,26 @@ unlisted: true
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(20:37起):本集说 Atlassian 上个季度表现出色，自 2015 年以来最大跳跃，但取消大部分免费 Loom 席位是组织压力的迹象
 - **[[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]]**(20:20起):本集在展示 PRD Genie 的竞品分析阶段时，提到它以 Atlassian 作为参照来了解竞争对手是怎么做的。
 - **[[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]]**(78:01起):本集称其和 Linear 一样表现很好，卖的是同样的 Agile 工作流和记录系统
+- **[[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]]**(00:38起):本集是 Atlassian 联合创始人兼 CEO Mike Cannon-Brookes 的访谈,公司被描述为拥有 Jira、Confluence 等产品的企业协作软件公司,核心战略是构建世界上最好的企业上下文图谱并持续升级设计体验。
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
 - [[2026-07-13-twentyvc-20vc-wix-s-founder-on-what-wall-st-gets|《Wix CEO Avishai:SaaS 末日下,我们凭什么值钱》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司(提及)
 - [[2026-08-24-pg-srini-raghavan-podcast|《Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周》]] — 作为被讨论公司(提及)
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|《最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱》]] — 作为被讨论公司(提及)
+- [[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Uber]] · [[Harry Stebbings]] · [[Figma]] · [[Cursor]] · [[Revolut]] · [[Salesforce]] · [[Palantir]] · [[Linear]] · [[LLM]]
+[[智能体]] · [[Harry Stebbings]] · [[Uber]] · [[Salesforce]] · [[Figma]] · [[Cursor]] · [[开源模型]] · [[Revolut]] · [[微调]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"Uber":19,"Harry Stebbings":20,"Figma":22,"Cursor":86,"Revolut":5,"Salesforce":36,"Palantir":20,"Linear":11,"LLM":60}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"Harry Stebbings":21,"Uber":19,"Salesforce":36,"Figma":22,"Cursor":86,"开源模型":4,"Revolut":5,"微调":36,"Palantir":20}</script>
 
 <script>
 (function(){

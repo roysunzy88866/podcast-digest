@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
+[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":200,"OpenAI":195,"Claude":93,"Claude Code":104,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":27,"技能":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":200,"OpenAI":195,"Claude":93,"Claude Code":105,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":27,"技能":30}</script>
 
 <script>
 (function(){

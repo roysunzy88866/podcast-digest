@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":21,"太空数据中心":1,"近地轨道":1,"单位经济":2,"垂直整合":1,"太空太阳能":1,"产品市场契合":30}</script>
+<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":21,"太空数据中心":1,"近地轨道":1,"单位经济":2,"垂直整合":1,"太空太阳能":1,"产品市场契合":31}</script>
 
 <script>
 (function(){

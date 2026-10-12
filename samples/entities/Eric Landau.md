@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":30,"机器学习":5,"数据标注":3,"ChatGPT":108,"Gong":3,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"Anchored":1,"物理 AI":11,"多模态":6,"苦涩的教训":10,"产品市场契合":31,"机器学习":5,"数据标注":3,"ChatGPT":108,"Gong":3,"YC":17}</script>
 
 <script>
 (function(){

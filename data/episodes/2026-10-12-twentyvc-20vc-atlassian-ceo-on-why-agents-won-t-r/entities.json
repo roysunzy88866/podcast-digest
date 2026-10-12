@@ -1,0 +1,775 @@
+{
+  "episode_id": "2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-12",
+  "tags": [
+    "智能体",
+    "企业软件",
+    "开源模型",
+    "推理成本",
+    "设计与体验"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "mike-cannon-brookes",
+      "type": "person",
+      "role": "host",
+      "name": "Mike Cannon-Brookes",
+      "file": "Mike Cannon-Brookes",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            36.815,
+            38.676
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": true,
+      "how_described": "本集是 Atlassian 联合创始人兼 CEO Mike Cannon-Brookes 的访谈,公司被描述为拥有 Jira、Confluence 等产品的企业协作软件公司,核心战略是构建世界上最好的企业上下文图谱并持续升级设计体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            38.716,
+            43.738
+          ],
+          "quote": "So in today's show, we sit down with Mike Cannon-Brooks, founder and CEO at Atlassian, to discuss...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            54.782,
+            60.104
+          ],
+          "quote": "How does Atlassian think about building the context layer that will power enterprise AI agents?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            214.932,
+            225.439
+          ],
+          "quote": "How do you think about a world where value shifts as agents retrieve and do tasks for us and the potential for an Atlassian to be a data provider, not a doer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            296.881,
+            301.784
+          ],
+          "quote": "I think that will change a lot of jobs, but I don't think it's necessarily negative, nor do I think it's bad for Atlassian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            301.804,
+            302.965
+          ],
+          "quote": "I think it's great for Atlassian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            313.071,
+            320.416
+          ],
+          "quote": "If I were to ask you on the flip side of that, what is the core strategic decision that will determine the success of Atlassian in the next 12 months?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            502.254,
+            505.977
+          ],
+          "quote": "That does not mean that's the best interface to do all the jobs on the Atlassian platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            516.284,
+            523.169
+          ],
+          "quote": "In both cases, allowing you to get to Figma functionality and Databricks functionality from within the Atlassian platform is really powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            555.38,
+            558.982
+          ],
+          "quote": "You can interact with the Atlassian platform from inside the Figma interface in a lot of places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1318.622,
+            1321.365
+          ],
+          "quote": "We could say we've trained a bunch of models at Atlassian.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1734.709,
+            1744.355
+          ],
+          "quote": "The more you're using SaaS, you know, you come to the Atlassian platform and you use Rovo or any of our AI features, you will get model routing happening for you automatically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2319.218,
+            2326.205
+          ],
+          "quote": "Knowing that I wrote Java code in 2003 and what code I wrote is totally useless to Atlassian in 2026.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2499.528,
+            2503.273
+          ],
+          "quote": "Both of them are deep Atlassian partners, and we really value our partnership with them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2611.685,
+            2620.535
+          ],
+          "quote": "What has made Atlassian successful for two decades and hopefully will for many decades to come is to continue to invest in up-leveling every part of our software experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2748.068,
+            2757.433
+          ],
+          "quote": "But like, I don't know, we hang out at least monthly and we drink wine or beer and talk about Atlassian and software and AI within the first three minutes of what's going on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "confluence",
+      "type": "company",
+      "role": "company",
+      "name": "Confluence",
+      "file": "Confluence",
+      "primary": true,
+      "how_described": "本集说 Confluence 是 Atlassian 旗下超过 15 亿 ARR、年增长 25% 以上的文档协作业务,证明写内容本身不是决定性优势,关键在设计、体验与工作流整合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            535.815,
+            537.555
+          ],
+          "quote": "That's not saying Confluence is a BI tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2524.254,
+            2529.257
+          ],
+          "quote": "I will say, if it comes to things like docs, we've faced this question with Confluence for a long time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 592,
+          "t": [
+            2529.337,
+            2533.059
+          ],
+          "quote": "Confluence is north of a one and a half billion ARR business.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "type": "company",
+      "role": "company",
+      "name": "Jira",
+      "file": "Jira",
+      "primary": false,
+      "how_described": "本集提到 Jira 和 Teamwork Collection 经历了惊人的一年增长,很大程度上归功于设计体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 621,
+          "t": [
+            2638.102,
+            2645.345
+          ],
+          "quote": "Jira and the Teamwork Collection have had an amazing year of growth and accelerating and growing faster than they ever had at massive scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:Mike 不认为智能体会取代所有界面,看空「魔法按钮」,预测横向智能体、纵向智能体与传统界面三者并存;智能体代表用户行事还带来内容来源溯源的设计难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            550.099,
+            555.1
+          ],
+          "quote": "You can interact with the Figma agent inside of the Alassian platform in lots of places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            568.887,
+            572.368
+          ],
+          "quote": "I don't think there'll be one Uber agent that sort of just does everything magically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            653.221,
+            654.982
+          ],
+          "quote": "Do I want to see everyone's agent traces?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2077.745,
+            2083.489
+          ],
+          "quote": "And in the agentic world, you can kind of get into this, like, push the agent, do the thing, push the agent, do the thing, push the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2235.265,
+            2242.989
+          ],
+          "quote": "The Teamwork Graph's job is to infer ahead of your agent, before your agent is asked the question, to infer the best possible answer to that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 Atlassian 大力投入 MCP,拥有世界前五前三的 MCP 服务器,让智能体读写其 teamwork graph,但 MCP 展示的只是数据质量,界面与体验仍不可放弃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            348.185,
+            349.906
+          ],
+          "quote": "That does not mean we're not big on MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            351.567,
+            355.049
+          ],
+          "quote": "I think we have one of the top five, top three MCP servers in the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            355.089,
+            365.975
+          ],
+          "quote": "Like we're hugely big on MCP and its ability to allow agents and harnesses to contribute data to our platform and to the teamwork graph and to read data from the teamwork graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            366.015,
+            369.517
+          ],
+          "quote": "And it shows off, to be honest, MCP and harnesses show off the results of our graph, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2447.684,
+            2454.789
+          ],
+          "quote": "And then we have a query language that makes sense to agents through MCP and CLI, and we're helping them add their own custom data to that, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "teamwork-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "团队协作图谱 (Teamwork Graph)",
+      "file": "团队协作图谱",
+      "primary": true,
+      "how_described": "本集把 Teamwork Graph 描述为 Atlassian 的企业上下文图谱:整合组织决策、文档、代码与人员社交图谱,像 Google 的网页索引一样提前推断答案,且必须保持新鲜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            355.089,
+            365.975
+          ],
+          "quote": "Like we're hugely big on MCP and its ability to allow agents and harnesses to contribute data to our platform and to the teamwork graph and to read data from the teamwork graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2183.908,
+            2197.835
+          ],
+          "quote": "The corporate decisions and knowledge that underlie the teamwork graph are about us trying to help a company that has made decisions, projects, documents, data often.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2235.265,
+            2242.989
+          ],
+          "quote": "The Teamwork Graph's job is to infer ahead of your agent, before your agent is asked the question, to infer the best possible answer to that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说客户对开源模型没有抵触,Atlassian 用了 Nemotron、Mistral 等开源模型;Mike 认为拒绝更便宜、更清楚内容的开源方案在长期站不住脚。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.926,
+            21.868
+          ],
+          "quote": "There is not customer pushback to open models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1012.694,
+            1020.876
+          ],
+          "quote": "I was chatting to Jason Lampkin the other day and he was like, dude, I tell you, I tell you, none of them want to work with the open models that are Chinese.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1025.318,
+            1026.698
+          ],
+          "quote": "I believe in open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1027.138,
+            1035.201
+          ],
+          "quote": "I think it's a great thing for the ecosystem, but I am fearful that enterprises don't want to work with largely Chinese open models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1058.127,
+            1060.047
+          ],
+          "quote": "There is not customer pushback to open models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1067.031,
+            1069.513
+          ],
+          "quote": "We use a bunch of other open models in different paths.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "specialized-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "专用模型 (specialized models)",
+      "file": "专用模型",
+      "primary": true,
+      "how_described": "本集说构建专用模型的好处还没有定论:只有拥有大量专有数据、非常专门的应用(如机器人和世界模型)才成立,且必须持续证明比通用模型更便宜更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            22.208,
+            26.451
+          ],
+          "quote": "The jury is really out on the benefits of building specialized models at the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1265.641,
+            1269.882
+          ],
+          "quote": "The jury is really out on the benefits of building specialized models at the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1270.022,
+            1273.783
+          ],
+          "quote": "There are definitely cases where specialized models are doing really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1274.103,
+            1277.224
+          ],
+          "quote": "Most of the people building specialized models, I would argue, are not in those cases, though.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1423.562,
+            1429.245
+          ],
+          "quote": "These specialized models have to prove that they can stay ahead of the generified model for a given price performance ratio.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集 Mike 押注推理成本会暴跌,因为投向芯片、数据中心、蒸馏的资本与人才太庞大;杰文斯悖论意味着使用量会爆炸,但成本仍会下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 432,
+          "t": [
+            1811.535,
+            1812.115
+          ],
+          "quote": "Model inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1812.455,
+            1830.266
+          ],
+          "quote": "Maybe slightly spicy take is that the amount of energy, startups, capital, time, smarts, brains, people who would otherwise have gone to work for McKinsey or some NASA or something else, working on some version of the price per watt performance of inference is crazy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1859.185,
+            1863.17
+          ],
+          "quote": "I think they're just arguing that Jevron's paradox means that we will use so much more inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1923.343,
+            1931.366
+          ],
+          "quote": "So what happens to this inference layer of value and talent cohort where you mentioned the verticalization of chips, the different providers?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2228.821,
+            2235.245
+          ],
+          "quote": "And there's a lot of inference we can apply on top on behalf of the company, as well as being a continual self-learning, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2249.936,
+            2255.862
+          ],
+          "quote": "It has a lot of really smart indexing and inference technology to create an index so that it can answer questions very cheaply and at scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2975.765,
+            2978.768
+          ],
+          "quote": "The likely future price of inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说 Atlassian 有整个 AI 网关团队做内部模型路由与混合,按任务用最合适的模型,兼顾质量、速度与价格,是公司对客户的 USP 之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1618.747,
+            1623.248
+          ],
+          "quote": "And that would be routed in an intelligent model routing on a per task basis to optimize cost?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1623.308,
+            1631.15
+          ],
+          "quote": "Model routing, model blending, applying the right model at the right time, using the right harness that, again, picks and adjusts itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1667.711,
+            1669.653
+          ],
+          "quote": "How do you think about the model routing layer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1734.709,
+            1744.355
+          ],
+          "quote": "The more you're using SaaS, you know, you come to the Atlassian platform and you use Rovo or any of our AI features, you will get model routing happening for you automatically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": false,
+      "how_described": "本集提到很多美国模型在用中国模型的蒸馏数据训练自己却不说,并把蒸馏列为推理成本会持续下降的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1091.782,
+            1105.05
+          ],
+          "quote": "I think what people don't understand is the distillation and the back and forth where knowing it's a Chinese model is kind of really interesting, but a lot of the US models are increasingly using Chinese models to train themselves, but they don't say that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "本集说大多数号称「自研模型」的公司,实际上是拿中国开源模型微调后改名为自己的模型,Atlassian 自己也对开放权重模型做微调但不宣称是从零训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1203.759,
+            1210.467
+          ],
+          "quote": "And I suspect people are going to take those open weight models, which they are already doing, and fine tune and train them and call them their own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1322.846,
+            1326.49
+          ],
+          "quote": "We have a bunch of very specialized openweight models that we fine tune",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集举例:如果 Codex 替 Harry 创建了 pull request,这段工作的来源和归属就成了不简单的内容溯源设计问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            486.828,
+            501.974
+          ],
+          "quote": "So as an example, we have lots of agents that run in a lot of platforms from, you know, obviously Claude and Codex and Cursor and places like this and Teams and Slack that access the Alassian platform and contribute data back to the Alassian platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            727.722,
+            738.086
+          ],
+          "quote": "You know, if I'm using Codex and it does something for me, for example, if I'm just writing code and Codex creates a pull request, did Harry do that or did Codex do that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            738.366,
+            740.067
+          ],
+          "quote": "Or was that Codex on behalf of Harry?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "type": "concept",
+      "role": "concept",
+      "name": "Linux",
+      "file": "Linux",
+      "primary": false,
+      "how_described": "本集 Mike 反问抵触中国模型的客户:你们用 Linux 吗?其相当比例贡献来自中国工程师,以此说明拒绝开源技术的矛盾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1112.154,
+            1114.496
+          ],
+          "quote": "I do talk to customers sometimes and say, do you use Linux?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1134.227,
+            1135.247
+          ],
+          "quote": "And they're happy to use Linux.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":8,"智能体":473,"沙箱":94,"运行时":2,"harness":63,"MCP":85,"MicroVM":2,"基于意图的访问":1,"SPX":1,"Codex":83}</script>
+<script type="application/json" class="pd-epn">{"Docker":8,"智能体":478,"沙箱":95,"运行时":2,"harness":63,"MCP":86,"MicroVM":2,"基于意图的访问":1,"SPX":1,"Codex":85}</script>
 
 <script>
 (function(){

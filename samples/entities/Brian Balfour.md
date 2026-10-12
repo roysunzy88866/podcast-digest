@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"ChatGPT":108,"Claude":93,"Facebook":17,"Google":70,"LinkedIn":6,"Apple":25,"HubSpot":10,"Zynga":2,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"ChatGPT":108,"Claude":93,"Facebook":17,"Google":70,"LinkedIn":6,"Apple":26,"HubSpot":10,"Zynga":2,"Cursor":86}</script>
 
 <script>
 (function(){

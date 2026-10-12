@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]] [[Brené Brown]] [[Reid Hoffman]]
+[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":60,"提示词":3,"记忆":27,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":61,"提示词":3,"记忆":27,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":16,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":6,"开放模型":3,"沙箱":94,"推理":95,"GPU":30,"量化":1,"函数调用":3}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":18,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":6,"开放模型":3,"沙箱":95,"推理":98,"GPU":30,"量化":1,"函数调用":3}</script>
 
 <script>
 (function(){

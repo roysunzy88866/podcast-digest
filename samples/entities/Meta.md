@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>52</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -61,6 +61,7 @@ unlisted: true
 - **[[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]]**(07:05起):本集在预测『Meta、OpenAI、Anthropic、Neuralink 都会成为生物技术公司』时被点名,称其对大脑感兴趣、做 AI 的人『多有一个挡位』。
 - **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(03:48起):本集把它说成智能体之争的先跑者之一:分发能力最强、触达地球上几乎每一个人,靠 Muse 给每个用户配电脑;当年它也是靠解决「发现」问题聚合需求而崛起的巨头。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(09:39起):本集针对『Meta 背负无法偿还债务』的批评，说它任何时候都可停止买新东西、现金流足以支付已签约的一切，『想拔插头随时可以拔』。
+- **[[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]]**(01:19起):本集说 Meta 推出了 AI 智能助手 Muse，Alex Cornell 是其设计总监
 
 ## ① 提到它的金句
 
@@ -92,7 +93,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*51 集*
+*52 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -145,6 +146,7 @@ unlisted: true
 - [[2026-10-06-iltb-andrew-huberman-the-frontier-of-neurotec|《斯坦福神经科学家的预言:AI 巨头终将变成脑科学公司》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
+- [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -152,7 +154,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[Microsoft]] · [[Claude]] · [[ChatGPT]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"Anthropic":200,"OpenAI":195,"Google":70,"推理":95,"NVIDIA":68,"Microsoft":32,"Claude":93,"ChatGPT":108,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"Anthropic":200,"OpenAI":195,"Google":70,"推理":98,"NVIDIA":69,"Microsoft":32,"Claude":93,"ChatGPT":108,"Cursor":86}</script>
 
 <script>
 (function(){

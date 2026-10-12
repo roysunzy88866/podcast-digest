@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"Datadog":8,"Cursor":86,"GitHub":35,"Bloomberg":3,"智能体":473,"沙箱":94,"泄露的凭证":5,"权限":1,"数据仓库":3}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"Datadog":8,"Cursor":86,"GitHub":35,"Bloomberg":3,"智能体":478,"沙箱":95,"泄露的凭证":5,"权限":1,"数据仓库":3}</script>
 
 <script>
 (function(){

@@ -174,9 +174,9 @@ Herwig 最火热观点：欧洲被低估了。
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:NVIDIA · 同概念:数据中心 (data center)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
 - [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据]]<span class="pd-rz">同公司:NVIDIA</span>
-- [[2026-09-19-talks-operating-distributed-inference-systems|推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道]]<span class="pd-rz">同概念:GPU</span>
 
 </div>
 </div>

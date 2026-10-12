@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":20,"DZero":1,"智能体":473,"评估":1,"技能":30,"MCP":85,"沙箱":94}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":3,"Eve":3,"Vercel":20,"DZero":1,"智能体":478,"评估":1,"技能":30,"MCP":86,"沙箱":95}</script>
 
 <script>
 (function(){

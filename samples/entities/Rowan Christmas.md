@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Docker":8,"SBX":2,"Claude Code":104,"Claude":93,"沙箱":94,"智能体":473,"MicroVM":2,"提示词注入":1,"提示词":3,"MCP 服务器":2}</script>
+<script type="application/json" class="pd-epn">{"Docker":8,"SBX":2,"Claude Code":105,"Claude":93,"沙箱":95,"智能体":478,"MicroVM":2,"提示词注入":1,"提示词":3,"MCP 服务器":3}</script>
 
 <script>
 (function(){

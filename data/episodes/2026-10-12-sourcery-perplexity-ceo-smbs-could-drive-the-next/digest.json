@@ -1,0 +1,239 @@
+{
+  "title_zh": "AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法",
+  "tldr": "Perplexity 联合创始人 Arvind Srinivas 讲品牌、本地算力、AI 安全，以及为什么小公司会撑起下一轮美国经济增长。",
+  "digest_md": "Arvind Srinivas 是 AI 搜索公司 Perplexity 的联合创始人和 CEO。在这期访谈里，他聊得最起劲的不是模型，而是几件更根本的事：品牌该建在什么上、为什么他要押注你笔记本电脑里的算力、以及 AI 产品到底靠什么留住用户。他的答案和硅谷主流叙事不太一样。\n\n## 品牌不该建在技术上，该建在人性上\n\nPerplexity 的品牌内核是庆祝好奇心。Srinivas 的理由是：当 AI 能回答一切问题时，人类剩下的价值就是提出下一个问题。他说，人本来就被设计成会提问的物种，只是从小到大都被奖励给出答案，直到 AI 出现 [02:55 Arvind Srinivas]。\n\n他举了两个例子：Steve Jobs 给 Apple 建的品牌是做出美的东西来回馈人类；NVIDIA 的使命从来不是 AI，而是做只有超级计算机才能做的事——今天是 AI，明天可以是量子计算。所以**好品牌的共同点是跟具体技术无关，只跟人类进步有关** [04:31 Arvind Srinivas]。\n\n连办公室都是这个理念的延伸：每个会议室都以一位学者命名，灵感来自他在 DeepMind 实习时看到的做法——DeepMind 创始人把会议室命名为科学家，哲学家的会议室甚至不放电视，就是逼大家当面用白板讨论。他最喜欢的名字是 Ramanujan，那位靠直觉写出惊世公式的印度数学家，跟他同乡。\n\n> 【背景】DeepMind 创始人指 Demis Hassabis。\n\n## 未来的经济增量，可能来自小公司\n\nSrinivas 的一个核心判断是：光服务美国市场就足以建起万亿美金的公司——Berkshire Hathaway 和 JP Morgan 就是证明。美国是一个复利型国家：用户一旦喜欢一个产品就会持续花钱，客户终身价值高，而且人人都想创办前所未有的新生意 [08:53 Arvind Srinivas]。\n\n而 Perplexity 想做的，是让这些新公司把尽可能多的工作交给 AI 智能体。他的理由很实际：新公司最难的不是想不想用人，而是不知道该招谁。他自己创业初期完全不会招聘，只能让前 10 到 20 个人先来试用一周——合适的两天就能看出来，不合适的七天后还是拿不准 [11:01 Arvind Srinivas]。\n\n所以未来的公司会更小、更省钱、用人更少，但赚钱不少。他提到一个真实案例：一个单人公司，每年在 Perplexity 的产品上花超过 100 万美元——因为靠自动化帮别人做新闻通讯，一年能赚 300 万美元 [26:52 Arvind Srinivas]。\n\n## 用户永远是对的，哪怕 AI 时代也一样\n\n他的创业偶像是 Larry Page，而不是人人都提的 Elon 和 Jobs。Page 对他影响最大的一条产品哲学是用户永远是对的。工程师的本能是教用户正确操作，但**真正好的产品应该在用户做错时也把他引到对的方向** [17:13 Arvind Srinivas]。\n\n这条原则在 AI 时代尤其重要：模型能力在飞速进步，但你不能指望普通用户的理解同步进步。用户不该被迫搞清楚哪个模型擅长什么任务——那应该是产品自己解决的。他用了一个类比：早期的计算机也是给极客用的，Jobs 的目标是让凡人也能用上电脑，iPhone 就是一台奶奶也能用的计算机。今天的 AI 产品，很多还得靠专职人员帮客户做上手培训，这在他看来就是产品没做好 [18:36 Arvind Srinivas]。\n\n## AI 产品拼的不是用户数，是复利深度\n\n这是他全场最尖锐的一个观点：很多人用社交产品的逻辑看 AI，认为没有 10 亿用户就是失败。他说这个思路完全错了。\n\n**AI 产品靠的是复利效应，不是网络效应**。你需要几百万量级的真实用户，但更重要的是使用深度：用户用你的产品能赚到钱，因此离不开你，你也因此赚到钱 [27:25 Arvind Srinivas]。上面那个花百万美元的单人公司就是活例子。这也是为什么 Perplexity 的营收同比增长了 5 倍——智能体要做人在电脑上做的工作，就离不开搜索、浏览器和多模型调度，而这些正是 Perplexity 从 2022 年做问答引擎开始一路积累的 [25:15 Arvind Srinivas]。\n\n由此他还有一个大胆说法：Perplexity 没有竞争对手，只有贡献者。每出一个新的前沿模型，他就多一项能提供给用户的能力；模型公司之间的竞争还会压低价格，降低他的服务成本，让用户用得更多 [28:31 Arvind Srinivas]。\n\n## 数据中心不够用？每台笔记本电脑都是电厂\n\nAI 推理今天基本都跑在云端数据中心，但 Srinivas 算了另一笔账。简单的聊天任务在数据中心跑比本地硬件便宜 30 倍，可一旦涉及超长上下文——比如 10 万 token 的个人资料——数据中心的优势就缩到 3 倍甚至持平 [30:45 Arvind Srinivas]。\n\n而数据中心扩建正被许可、电网接入、燃气轮机短缺卡着脖子。与此同时，已经有几亿台设备能跑模型：50 瓦一块的 Apple Silicon 芯片乘以 1 亿台，粗算就是吉瓦级的电力 [32:00 Arvind Srinivas]。他的比喻是：数据中心像公交车，拼车当然便宜，但那没阻止人人想买自己的车——两者会并存。\n\n这就是 Perplexity 的两条路线：与 NVIDIA 合作的 portable computer 完全在本地运行，必要时向云端升级；与 Apple 的合作则反过来，从云端出发，遇到敏感本地文件时下沉到 Apple Silicon 上跑。金融、法律、医疗行业对这种模式兴趣很大 [34:34 Arvind Srinivas]。他明确说，Perplexity 没有自建数据中心的计划——「我不想去处理那些问题」。\n\n## AI 安全：让代理自己当保安\n\n谈到近期 Hugging Face 的安全事件，他认为**真正的风险在多代理场景**：一个主代理带子代理已经很普遍、风险可控，但多个父代理各自带着子代理协作，每个都挂着重算力，这是新问题 [49:09 Arvind Srinivas]。目前模型大多在单代理环境下测试，这些威胁根本发现不了，所以新模型的上线节奏会变慢。\n\n他的对策是用 AI 防 AI：Perplexity 正在开源两个工具——跑在本地的 Bumblebee 和跑在服务器上的 Numbat，持续审计所有操作日志，训练威胁检测分类器，一旦发现敏感数据被触碰就报警，再用专门的代理去做事后处置 [49:52 Arvind Srinivas]。\n\n## 下一站：让每个人都成为科学家\n\n他最想解决的技术瓶颈是长周期研究。现在的模型在数学、代码这类能验证对错的领域进步很快，但人们最好奇的很多问题没有标准答案可查，需要真正去现实世界里做实验、验证假设、修正假设——模型还应付不了这种慢反馈循环 [52:17 Arvind Srinivas]。\n\n他和同事的头脑风暴是：想象今天突然给你团队塞了 10 个能力很强、24 小时不停干的研究实习生，==你会怎么用他们==？他想把产品做到这个程度——而且不是只有博士才会用，是让任何人都觉得自己像个博士。\n\n## 本集带走\n\n- AI 产品拼的是复利效应而非网络效应：用户深度和使用价值，比用户数量重要得多。\n- 未来的高价值公司会更小更精，靠 AI 智能体替代难以招聘的早期员工，美国小企业可能撑起下一轮经济增长。\n- 长上下文场景下本地硬件的成本劣势大幅缩小，几亿台设备的闲置算力是被低估的资源；Perplexity 定位为本地与云端之间的中立调度层。\n- 真正的瓶颈不是写代码，而是想清楚该解决什么问题——AI 最该帮人做的是研究和问题定义，而不是吐代码。\n- 多代理协作是下一个安全风险高发区，需要沙箱、审计日志和检测分类器三管齐下。",
+  "quotes": [
+    {
+      "en": "We did it in a way that essentially became the blueprint for every other chatbot out there.",
+      "zh": "我们的 做法 基本上成为了市面上所有其他聊天机器人的蓝图。",
+      "timestamp": "00:13",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "We actually were designed to ask questions, but we grow up in settings where we are rewarded for answers until AI came to exist.",
+      "zh": "我们实际上天生就是被设计来提问的，但我们成长的环境却奖励答案，直到 AI 出现。",
+      "timestamp": "02:55",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "And now it's like, it's not necessarily cool to be a know-it-all anymore because an AI can answer everything.",
+      "zh": "而现在，当个万事通不再那么酷了，因为 AI 可以回答一切。",
+      "timestamp": "03:07",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "And we think that the best companies always have a fundamental brand that has nothing to do with the technology, more to do with humanity and people.",
+      "zh": "而且我们认为，最优秀的公司总是有一个根本性的品牌，与技术无关，更多是与人性和人有关。",
+      "timestamp": "03:45",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "It was never about AI.",
+      "zh": "它从来都不是关于 AI 的。",
+      "timestamp": "04:11",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "I think it's very important that you build a brand around like things that has nothing to do with technology, but fundamentally accelerating something related to human progress and human qualities.",
+      "zh": "我认为围绕那些与技术无关、但根本上与加速人类进步和人类品质相关的事物来打造品牌，是非常重要的。",
+      "timestamp": "04:31",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "Every great invention is about asking one question.",
+      "zh": "每一项伟大的发明都是关于提出一个问题。",
+      "timestamp": "06:26",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "A lot of future companies will be way smaller and will be able to make a lot of money.",
+      "zh": "很多未来的公司会小得多，而且能赚很多钱。",
+      "timestamp": "12:36",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "But I think products should get to a point where they're so intuitive and high quality and easy to onboard and AI should be made so intuitive that it shouldn't be seen as a skill issue if you're not able to get the AI to do something for you.",
+      "zh": "但我认为产品应该达到足够直观、高质量、易于上手的程度，而 AI 也应该被做得足够直观，以至于如果你没能让 AI 为你做某件事，不应该被视为是你的技能问题。",
+      "timestamp": "20:26",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "So we've been doing agents before it was called an agent.",
+      "zh": "所以我们在「智能体」这个词被叫开之前就在做智能体了。",
+      "timestamp": "23:38",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "No, you don't need to have a billion users.",
+      "zh": "不，你不需要有十亿用户。",
+      "timestamp": "27:42",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "And that's why we like to think we don't actually, we don't have competitors.",
+      "zh": "所以这就是为什么我们愿意认为，我们其实没有竞争对手。",
+      "timestamp": "28:27",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "When everybody wants personal agents or every business wants its own personal agents that's always on and working 24-7 and running a lot of automations, the context window matters even more than the model weights in the memory.",
+      "zh": "当每个人都想要个人智能体，或者每个企业都想要自己的、全天候 24-7 持续在线并运行大量自动化的个人智能体时，上下文窗口比内存中的模型权重更重要。",
+      "timestamp": "30:26",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "We actually don't think the bottleneck is in producing more code.",
+      "zh": "我们其实不认为瓶颈在于产出更多代码。",
+      "timestamp": "42:38",
+      "speaker": "Arvind Srinivas"
+    },
+    {
+      "en": "It's meant to have recursive effects, not network effects.",
+      "zh": "它注定要产生递归效应，而不是网络效应。",
+      "timestamp": "54:03",
+      "speaker": "Arvind Srinivas"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:13",
+      "speaker": "Unknown",
+      "en": "We did it in a way that essentially became the blueprint for every other chatbot out there.",
+      "zh": "我们的 做法 基本上成为了市面上所有其他聊天机器人的蓝图。"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Unknown",
+      "en": "We actually were designed to ask questions, but we grow up in settings where we are rewarded for answers until AI came to exist.",
+      "zh": "我们实际上天生就是被设计来提问的，但我们成长的环境却奖励答案，直到 AI 出现。"
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Unknown",
+      "en": "And now it's like, it's not necessarily cool to be a know-it-all anymore because an AI can answer everything.",
+      "zh": "而现在，当个万事通不再那么酷了，因为 AI 可以回答一切。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Unknown",
+      "en": "And we think that the best companies always have a fundamental brand that has nothing to do with the technology, more to do with humanity and people.",
+      "zh": "而且我们认为，最优秀的公司总是有一个根本性的品牌，与技术无关，更多是与人性和人有关。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Unknown",
+      "en": "It was never about AI.",
+      "zh": "它从来都不是关于 AI 的。"
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Unknown",
+      "en": "I think it's very important that you build a brand around like things that has nothing to do with technology, but fundamentally accelerating something related to human progress and human qualities.",
+      "zh": "我认为围绕那些与技术无关、但根本上与加速人类进步和人类品质相关的事物来打造品牌，是非常重要的。"
+    },
+    {
+      "timestamp": "06:26",
+      "speaker": "Unknown",
+      "en": "Every great invention is about asking one question.",
+      "zh": "每一项伟大的发明都是关于提出一个问题。"
+    },
+    {
+      "timestamp": "10:29",
+      "speaker": "Unknown",
+      "en": "It was a survival mechanism.",
+      "zh": "那是一种生存机制。"
+    },
+    {
+      "timestamp": "11:29",
+      "speaker": "Unknown",
+      "en": "You think about how to be useful.",
+      "zh": "你想的是怎么变得有用。"
+    },
+    {
+      "timestamp": "12:36",
+      "speaker": "Unknown",
+      "en": "A lot of future companies will be way smaller and will be able to make a lot of money.",
+      "zh": "很多未来的公司会小得多，而且能赚很多钱。"
+    },
+    {
+      "timestamp": "17:55",
+      "speaker": "Unknown",
+      "en": "You cannot expect people's understanding of those capabilities to advance.",
+      "zh": "你不能指望人们对这些能力的理解也在同步进步。"
+    },
+    {
+      "timestamp": "20:26",
+      "speaker": "Unknown",
+      "en": "But I think products should get to a point where they're so intuitive and high quality and easy to onboard and AI should be made so intuitive that it shouldn't be seen as a skill issue if you're not able to get the AI to do something for you.",
+      "zh": "但我认为产品应该达到足够直观、高质量、易于上手的程度，而 AI 也应该被做得足够直观，以至于如果你没能让 AI 为你做某件事，不应该被视为是你的技能问题。"
+    },
+    {
+      "timestamp": "20:40",
+      "speaker": "Unknown",
+      "en": "It's a product issue.",
+      "zh": "那是产品的问题。"
+    },
+    {
+      "timestamp": "23:38",
+      "speaker": "Unknown",
+      "en": "So we've been doing agents before it was called an agent.",
+      "zh": "所以我们在「智能体」这个词被叫开之前就在做智能体了。"
+    },
+    {
+      "timestamp": "25:15",
+      "speaker": "Unknown",
+      "en": "We were perfectly positioned for that and so that's why our revenue is 5x year over year because if you wanted to do agents properly",
+      "zh": "我们处于完美的位置，所以这就是为什么我们的收入同比增长了 5 倍，因为如果你想正确地做智能体，"
+    },
+    {
+      "timestamp": "27:44",
+      "speaker": "Unknown",
+      "en": "No, you don't need to have a billion users.",
+      "zh": "不，你不需要有十亿用户。"
+    },
+    {
+      "timestamp": "28:10",
+      "speaker": "Unknown",
+      "en": "Search is actually compounding.",
+      "zh": "搜索实际上是在复利式增长的。"
+    },
+    {
+      "timestamp": "28:27",
+      "speaker": "Unknown",
+      "en": "And that's why we like to think we don't actually, we don't have competitors.",
+      "zh": "所以这就是为什么我们愿意认为，我们其实没有竞争对手。"
+    },
+    {
+      "timestamp": "30:26",
+      "speaker": "Unknown",
+      "en": "When everybody wants personal agents or every business wants its own personal agents that's always on and working 24-7 and running a lot of automations, the context window matters even more than the model weights in the memory.",
+      "zh": "当每个人都想要个人智能体，或者每个企业都想要自己的、全天候 24-7 持续在线并运行大量自动化的个人智能体时，上下文窗口比内存中的模型权重更重要。"
+    },
+    {
+      "timestamp": "32:22",
+      "speaker": "Unknown",
+      "en": "Think of the data center like a bus.",
+      "zh": "把数据中心想象成公交车。"
+    },
+    {
+      "timestamp": "42:38",
+      "speaker": "Unknown",
+      "en": "We actually don't think the bottleneck is in producing more code.",
+      "zh": "我们其实不认为瓶颈在于产出更多代码。"
+    },
+    {
+      "timestamp": "43:11",
+      "speaker": "Unknown",
+      "en": "It's almost already a solved problem.",
+      "zh": "这几乎已经是个被解决了的问题。"
+    },
+    {
+      "timestamp": "54:03",
+      "speaker": "Unknown",
+      "en": "It's meant to have recursive effects, not network effects.",
+      "zh": "它注定要产生递归效应，而不是网络效应。"
+    }
+  ],
+  "voice_script": "今天这期节目,主角是 Arvind Srinivas——AI 搜索公司 Perplexity 的联合创始人和 CEO。这一期访谈里,他聊得最起劲的不是模型有多强,而是几件更根本的事:品牌该建在什么上面、为什么要把算力押在你笔记本电脑里、以及 AI 产品到底靠什么留住用户。他的很多答案,和硅谷的主流说法不太一样,所以特别值得听一听。\n\n先从品牌说起。Perplexity 的品牌内核,是庆祝好奇心。为什么是好奇心?理由是这样的:当 AI 能回答一切问题时,人类剩下的价值,就是提出下一个问题。用原话说,我们天生就是被设计来提问的,但成长的环境却一直在奖励答案,直到 AI 出现。为了说明这个思路,Srinivas 举了两个例子:Steve Jobs 给 Apple 建的品牌,是做出美的东西来回馈人类;NVIDIA 的使命从来都不是 AI,而是做只有超级计算机才能做的事——今天是 AI,明天可以是量子计算。所以好品牌的共同点是,跟具体技术无关,只跟人类进步有关。连办公室都贯彻这个理念:每个会议室都以学者命名,他最喜欢的是 Ramanujan,那位靠直觉写出惊世公式的印度数学家——巧了,跟他还是同乡。\n\n品牌说完了,那生意本身怎么做?这里有个核心判断:光服务美国市场,就足以建起万亿美金的公司,Berkshire Hathaway 和 JP Morgan 就是证明。美国是一个复利型国家——用户一旦喜欢一个产品就会持续花钱,而且人人都想创办前所未有的新生意。Perplexity 想做的,就是让这些新公司把尽可能多的工作交给 AI 智能体。理由很实际:新公司最难的不是想不想招人,而是不知道该招谁。Srinivas 自己创业初期完全不会招聘,只能让候选人先来试用一周——合适的两天就能看出来,不合适的,七天后还是拿不准。所以未来的公司会更小、更省钱、用人更少,但赚钱不少。有个真实案例:一个单人公司,每年在 Perplexity 上花超过一百万美元,因为靠自动化帮别人做新闻通讯,一年能赚三百万。\n\n这就引出全场最尖锐的一个观点。很多人用社交产品的逻辑看 AI,觉得没有十亿用户就是失败。Srinivas 说,这个思路完全错了。AI 产品靠的不是网络效应,是复利效应——你需要几百万量级的真实用户,但更重要的是使用深度:用户用你的产品能赚到钱,因此离不开你,你也因此赚到钱。前面那个单人公司就是活例子,这也是 Perplexity 营收同比增长五倍的原因。顺着这个逻辑,还有个更大胆的说法:Perplexity 没有竞争对手,只有贡献者。每出一个新的前沿模型,就多一项能提供给用户的能力,而且模型公司之间的竞争还会压低价格,降低服务成本。\n\n那支撑这一切的算力从哪来?今天 AI 推理基本都跑在云端数据中心,但 Srinivas 算了另一笔账。简单的聊天任务,云端比本地便宜三十倍;可一旦涉及超长上下文,比如十万 token 的个人资料,云端的优势就缩到三倍甚至持平。而数据中心扩建,正被许可、电网接入这些事卡着脖子。与此同时,已经有几亿台设备能跑模型——五十瓦一块的 Apple Silicon 芯片乘以一亿台,粗算就是吉瓦级的电力。打个比方:数据中心像公交车,拼车当然便宜,但这没阻止人人想买自己的车,两者会并存。Perplexity 的两条路线正是如此:与 NVIDIA 合作的设备完全在本地运行,必要时向云端升级;与 Apple 的合作则反过来,从云端出发,遇到敏感的本地文件时,下沉到 Apple Silicon 上跑。金融、法律、医疗行业对这种模式兴趣很大。顺带一句,Perplexity 明确没有自建数据中心的计划,原话是,我不想去做处理那些问题。\n\n算力之外,还有安全。真正的风险在哪?在多代理场景:一个主代理带子代理,已经很普遍、风险可控;但多个父代理各自带着子代理协作,每个都挂着重算力,这是新问题。目前模型大多在单代理环境下测试,这些威胁根本发现不了。对策是用 AI 防 AI——持续审计所有操作日志,训练威胁检测分类器,一旦发现敏感数据被触碰就报警。\n\n聊到最后,被问到最想解决的技术瓶颈,答案是长周期研究。现在的模型在数学、代码这类能验证对错的领域进步很快,但人们最好奇的很多问题没有标准答案,需要真正去现实世界做实验、验证假设、修正假设——这种慢反馈循环,模型还应付不了。想象一下,突然给你团队塞十个能力很强、二十四小时不停干的研究实习生,你会怎么用?Srinivas 想把产品做到这个程度,而且不是只有博士才会用,是让任何人都觉得自己像个博士。\n\n当 AI 能回答一切,当个万事通就不再那么酷了——真正值钱的,是提出下一个问题的能力。这就是这一期最想留给你的话。"
+}

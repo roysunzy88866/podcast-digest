@@ -131,9 +131,9 @@ Philip 说，他们正在造一种低成本、轻量化的可展开式散热器�
 
 **换个口味**
 
+- [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法]]<span class="pd-rz">同公司:NVIDIA · 同概念:数据中心 (data center)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:NVIDIA</span>
 - [[2026-09-15-knowledge-tobi-l-tke-ai-agents-better-decisions-an|Shopify CEO Toby：一半代码来自聊天群里的 AI 同事]]<span class="pd-rz">同公司:SpaceX</span>
-- [[2026-09-16-talks-your-agreements-are-a-database-you-can-t|每天100万份协议：DocuSign 携手 NVIDIA 把合同表格变成可用数据]]<span class="pd-rz">同公司:NVIDIA</span>
 
 </div>
 </div>

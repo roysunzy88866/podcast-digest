@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":13,"市场":4,"网络效应":15,"供需":1,"商业模式":1,"Scale":5,"vibe coding":49}</script>
+<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":13,"市场":4,"网络效应":16,"供需":1,"商业模式":1,"Scale":5,"vibe coding":49}</script>
 
 <script>
 (function(){

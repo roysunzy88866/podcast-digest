@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":68,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
+<script type="application/json" class="pd-epn">{"Niantic Spatial":1,"Google Earth":1,"Google Maps":2,"NVIDIA":69,"四维世界模型":1,"视觉定位":1,"Gaussian Splats":2,"仿真到真实":1,"数字分身":3,"自检机制":1}</script>
 
 <script>
 (function(){

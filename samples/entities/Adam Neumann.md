@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":2,"a16z":19,"基准测试":2,"Salesforce":36,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":2,"a16z":20,"基准测试":2,"Salesforce":36,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":22,"Cursor":86,"NVIDIA":68,"推理":95,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":22,"Cursor":86,"NVIDIA":69,"推理":98,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

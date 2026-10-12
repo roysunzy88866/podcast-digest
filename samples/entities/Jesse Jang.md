@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jubin":2,"Decagon":9,"Sierra":7,"智能体":473,"PMF":2,"销售探索":1,"Bar raiser(抬杆者)":1,"部署模式":1,"点子迷宫":2,"办公室政治":1}</script>
+<script type="application/json" class="pd-epn">{"Jubin":2,"Decagon":9,"Sierra":7,"智能体":478,"PMF":2,"销售探索":1,"Bar raiser(抬杆者)":1,"部署模式":1,"点子迷宫":2,"办公室政治":1}</script>
 
 <script>
 (function(){

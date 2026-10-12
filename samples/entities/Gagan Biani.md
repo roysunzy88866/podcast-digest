@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"Horowitz and Andreessen Academy":1,"a16z":19,"AI 革命":1,"通过构建来学习":1,"教育捆绑包":1,"人际技能":1,"潜移默化":1,"Z 世代":1,"营利性":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"Horowitz and Andreessen Academy":1,"a16z":20,"AI 革命":1,"通过构建来学习":1,"教育捆绑包":1,"人际技能":1,"潜移默化":1,"Z 世代":1,"营利性":1}</script>
 
 <script>
 (function(){

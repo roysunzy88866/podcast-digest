@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Max Freeman]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]] [[Alex Mashrabov]] [[Liam Dunne]]
+[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Max Freeman":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"Inspect":1,"SDR":1,"外呼开发":2,"配额":1,"智能体":473}</script>
+<script type="application/json" class="pd-epn">{"Max Freeman":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"Inspect":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":478}</script>
 
 <script>
 (function(){

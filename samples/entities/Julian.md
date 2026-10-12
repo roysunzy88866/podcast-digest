@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jeffrey Ladish]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":2,"推理":95,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":86,"Decagon":9}</script>
+<script type="application/json" class="pd-epn">{"Base 10":2,"推理":98,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"Cursor":86,"Decagon":9}</script>
 
 <script>
 (function(){

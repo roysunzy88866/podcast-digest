@@ -205,8 +205,8 @@ Salesforce 想给旗舰产品加三位数溢价接入智能体，Thompson 调侃
 **顺着「智能体」挖下去**
 
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|AI 个人助理大战开打，谁会赢？]]<span class="pd-rz">同公司:Meta、Microsoft、Muse · 同概念:智能体 (agent)</span>
+- [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法]]<span class="pd-rz">同公司:Meta、Muse · 同概念:智能体 (agent)、生成式 UI (generative UI)</span>
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|Meta 的 Muse 亲测：我玩过设计最好的个人智能体]]<span class="pd-rz">同公司:Meta、Muse · 同概念:智能体 (agent)、虚拟机 (virtual machine)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:Copilot、Microsoft · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

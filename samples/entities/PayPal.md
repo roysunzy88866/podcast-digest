@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Harry Stebbings]] · [[Google]] · [[Cursor]] · [[智能体商务]] · [[Stripe]] · [[Anthropic]] · [[Meta]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":473,"OpenAI":195,"Harry Stebbings":20,"Google":70,"Cursor":86,"智能体商务":1,"Stripe":48,"Anthropic":200,"Meta":51,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":478,"OpenAI":195,"Harry Stebbings":21,"Google":70,"Cursor":86,"智能体商务":1,"Stripe":48,"Anthropic":200,"Meta":52,"Salesforce":36}</script>
 
 <script>
 (function(){

@@ -1,0 +1,873 @@
+{
+  "episode_id": "2026-10-12-a16z-the-race-to-recursive-self-improving-ai",
+  "podcast": "The a16z Show",
+  "date": "2026-10-12",
+  "tags": [
+    "递归自我改进",
+    "智能体",
+    "推理加速",
+    "AI 创业公司",
+    "实证研究方法"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "martin-casado",
+      "type": "person",
+      "role": "host",
+      "name": "Martin Casado",
+      "file": "Martin Casado",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "owen-he",
+      "type": "person",
+      "role": "cohost",
+      "name": "Owen He",
+      "file": "Owen He",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "daval-ajada",
+      "type": "person",
+      "role": "cohost",
+      "name": "Daval Ajada",
+      "file": "Daval Ajada",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "makermaker",
+      "type": "company",
+      "role": "company",
+      "name": "MakerMaker",
+      "file": "MakerMaker",
+      "primary": true,
+      "how_described": "本集两位嘉宾 Daval 和 Owen 创立的创业公司,目标是构建真正递归自我改进的 AI 系统,做全栈优化,以推理加速为切入点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            145.313,
+            152.437
+          ],
+          "quote": "I really like building things, and I'm very excited to be building a cool startup, MakerMaker, with Owen and Grace.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "本集主线概念:被改进的系统同时是执行改进的系统,形成闭环;区分真 RSI 与靠注入资源的「自催化」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.675,
+            19.136
+          ],
+          "quote": "You can think of RSI at many different levels of the stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            27.798,
+            33.782
+          ],
+          "quote": "Our approach to RSI is that we have a multi-agent system working together that's been recursively improved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            76.937,
+            82.579
+          ],
+          "quote": "Daval and Owen distinguish true RSI from simply using AI to automate pieces of AI development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            125.182,
+            129.545
+          ],
+          "quote": "We're going to be talking about everybody's favorite topic, which is RSI, recursive self-improvement.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 31,
+          "t": [
+            180.732,
+            181.693
+          ],
+          "quote": "Now I'm working on RSI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            182.333,
+            185.516
+          ],
+          "quote": "I see a lot of pitches come in, and a lot of them use the term RSI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 38,
+          "t": [
+            193.724,
+            197.848
+          ],
+          "quote": "Which that doesn't, to me, kind of match the definition of what I would consider to be RSI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 39,
+          "t": [
+            197.868,
+            204.394
+          ],
+          "quote": "So maybe can we start by you defining what you think, or what you would include in RSI, definitionally?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 40,
+          "t": [
+            205.105,
+            208.726
+          ],
+          "quote": "Yeah, I think RSI is definitely an overloaded term today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            209.246,
+            211.387
+          ],
+          "quote": "Many people, when they say RSI, they mean different things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            222.63,
+            228.212
+          ],
+          "quote": "So there are people who are saying, okay, we're doing RSI, we have human using AI to develop better AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            439.435,
+            442.417
+          ],
+          "quote": "That could be one level of RSI, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            451.885,
+            457.79
+          ],
+          "quote": "Can we dig in a little bit more between RSI's having closed the loop and actual convergence properties?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 114,
+          "t": [
+            557.256,
+            566.022
+          ],
+          "quote": "I think one misunderstanding people have about our approach to RSI is that they think the entire system has to be fully automatic and digital.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            651.844,
+            660.066
+          ],
+          "quote": "It's because if you get improvement and they just come at more and more resources being poured in, it's not RSI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            851.123,
+            859.788
+          ],
+          "quote": "A lot of the papers that claim to do RSI, when we test it in our internal infra, we find that they don't work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            995.133,
+            1003.74
+          ],
+          "quote": "You could, like a lot of this paper we're reading, they're just ideas inspired by some human behavior and then they try to mimic that and say, oh, look, we have RSI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1042.507,
+            1046.531
+          ],
+          "quote": "You can think of RSI at many different levels of the stack, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1276.842,
+            1289.667
+          ],
+          "quote": "And I mean, and it's not one RSI system because you can think of it as there's the thing that does the improvement, but then you also have to have the thing that knows what to improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1542.608,
+            1546.972
+          ],
+          "quote": "And every few months, you know, there's like an announcement of something RSI related.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1556.04,
+            1570.632
+          ],
+          "quote": "And so it's very, very hard to know in this sea of, you know, AI, I don't know what you want to call it, like everybody's trying to do AI, RSI stuff to know what's legit or not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1706.992,
+            1717.661
+          ],
+          "quote": "And there will be domains and field where this RSI will give you takeoff and there will be dimensions where you might plateau or you will have relatively slow improvement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1818.405,
+            1826.647
+          ],
+          "quote": "One of the internal jokes we have in the company is that the secret to RSI is somewhere in a garden hose company in Wisconsin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1870.692,
+            1879.197
+          ],
+          "quote": "And we have this theory that, you know, like RSI right now is being thought of, let's solve all these like super hard...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1905.785,
+            1907.566
+          ],
+          "quote": "So you're going after RSI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1909.907,
+            1912.349
+          ],
+          "quote": "This is actual RSI, where the system improves the full system.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "autocatalysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "自催化 (autocatalysis)",
+      "file": "自催化",
+      "primary": true,
+      "how_described": "本集用它指人类带工具改进 AI 的模式——改进思路仍来自人脑、闭环未合上,历史上大多数技术时代都有这种效应,不算真正的 RSI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            229.292,
+            241.179
+          ],
+          "quote": "But that to us is just autocatalysis in a sense that the improver is still human with tools, even though these tools are getting better and better, but the ideas and the improvement come from human brains.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            270.097,
+            276.062
+          ],
+          "quote": "I think for us, in history, right, over civilization, we have this autocatalysis, using computers to build better computers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "closed-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "闭环 (closed loop)",
+      "file": "闭环",
+      "primary": true,
+      "how_described": "本集反复强调:只有闭环合上、被改进者同时是改进者,边际收益才可能恒定或变大;但闭环也不保证起飞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            83.199,
+            92.602
+          ],
+          "quote": "Their goal is a closed loop, where the system being improved is also doing the improving, across components including models, harnesses, and eventually more of the AI stack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            326.67,
+            333.933
+          ],
+          "quote": "Yeah, I think the pragmatic thing would be, just from a control theory perspective, if you have a gap in the system, you can't have a closed loop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            334.814,
+            337.355
+          ],
+          "quote": "And autocatalytic has no closed loop, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            345.238,
+            348.479
+          ],
+          "quote": "But if you have a closed loop, you still have to pour in resources.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "numerator-and-denominator",
+      "type": "concept",
+      "role": "concept",
+      "name": "分子与分母 (numerator and denominator)",
+      "file": "分子与分母",
+      "primary": true,
+      "how_described": "本集衡量真实进步的框架:分子是性能,分母是成本(算力、钱、人力、实验次数);只涨分母(如 NanoGPT)或靠砸钱涨分子都不是 RSI,要两者同时改善。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1114.472,
+            1117.993
+          ],
+          "quote": "And gives you improvement on both the numerator and denominator.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent system)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说 MakerMaker 的 RSI 路线是多智能体的,人类研究员和工程师只是其中一种特例智能体,整个公司被想成一个多智能体系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.798,
+            33.782
+          ],
+          "quote": "Our approach to RSI is that we have a multi-agent system working together that's been recursively improved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            566.342,
+            573.087
+          ],
+          "quote": "But actually, if you look at our mathematical foundation, we have a multi-agent system, not just one digital agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            573.667,
+            579.331
+          ],
+          "quote": "And in this multi-agent system, human researchers and engineers are actually special case of these agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1356.175,
+            1368.991
+          ],
+          "quote": "And so that's why from the very beginning we've tried to think of our basically entire company as a multi-agent system where humans are the kind of agent that's cohabitating with other AI agents.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集中智能体是自我改进系统的执行单元,甚至由智能体自己决定优化什么,连主提示词也在被智能体改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.798,
+            33.782
+          ],
+          "quote": "Our approach to RSI is that we have a multi-agent system working together that's been recursively improved.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            566.342,
+            573.087
+          ],
+          "quote": "But actually, if you look at our mathematical foundation, we have a multi-agent system, not just one digital agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            573.667,
+            579.331
+          ],
+          "quote": "And in this multi-agent system, human researchers and engineers are actually special case of these agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1252.128,
+            1252.749
+          ],
+          "quote": "It's our agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1356.175,
+            1368.991
+          ],
+          "quote": "And so that's why from the very beginning we've tried to think of our basically entire company as a multi-agent system where humans are the kind of agent that's cohabitating with other AI agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1629.81,
+            1637.475
+          ],
+          "quote": "Some kind of reward hacking, like two levels down, the agent that built the agent, that built the agent, did hack something, and now you have these weird results.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1667.895,
+            1681.9
+          ],
+          "quote": "So what we find is that specific agent on a specific benchmark, you know, there's levels of noise that sometimes are unpredictable, and some of them are extremely, like, weird.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 MakerMaker 选推理加速作为切入点:推理越快改进系统本身也越快,形成复利,也是当下最有经济价值的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1118.553,
+            1121.414
+          ],
+          "quote": "And one of those is the inference problem, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1121.875,
+            1134.759
+          ],
+          "quote": "Because the more you can get improvements and efficiency out of inference, the more everything kind of unlocks, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1150.424,
+            1154.606
+          ],
+          "quote": "One of them is the ability of the model to make inference faster.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1154.626,
+            1159.348
+          ],
+          "quote": "And the second one is now that the inference is faster, it can do that faster, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1197.666,
+            1211.733
+          ],
+          "quote": "Just for the sake of discussion, if I wanted to make the inference for Kimi K3 faster, would I use Kimi K3 in a recursive way or would I use a separate model and system to do that for Kimi K3?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1227.007,
+            1230.171
+          ],
+          "quote": "Oh, so you're doing, are you doing the inference stack for all of them?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1300.382,
+            1303.684
+          ],
+          "quote": "Like right now you're focused on speeding up inference in a specific domain.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": true,
+      "how_described": "本集说验证结果时奖励作弊可能藏在两层、三层智能体之下,是证明改进真实性的主要难题之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            111.969,
+            121.254
+          ],
+          "quote": "And they dig into the practical challenges of proving those gains are real, from variance and reward hacking to the enormous difficulty of distinguishing genuine improvement from noise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            511.624,
+            515.448
+          ],
+          "quote": "Like reward hacking is one of many problems that we have to deal with.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1629.81,
+            1637.475
+          ],
+          "quote": "Some kind of reward hacking, like two levels down, the agent that built the agent, that built the agent, did hack something, and now you have these weird results.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nanogpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "NanoGPT 基准 (NanoGPT)",
+      "file": "NanoGPT 基准",
+      "primary": true,
+      "how_described": "本集举的反例:重训 GPT-2 从数周多卡数万美元降到单 GPU 几小时约 100 美元,但纯粹是分母改善,不是真 RSI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            734.1,
+            737.301
+          ],
+          "quote": "I don't know if you know this NanoGPT benchmark you are running.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "variance",
+      "type": "concept",
+      "role": "concept",
+      "name": "方差 (variance)",
+      "file": "方差",
+      "primary": true,
+      "how_described": "本集说 LLM 高度随机,连两块 B200 GPU 行为都略有差异,噪声会传导到顶层;公司设了「方差总督」专门摧毁实验结果找问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            111.969,
+            121.254
+          ],
+          "quote": "And they dig into the practical challenges of proving those gains are real, from variance and reward hacking to the enormous difficulty of distinguishing genuine improvement from noise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1575.877,
+            1581.722
+          ],
+          "quote": "So for example, we have one of our engineers that we named him the Viceroy of Variance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1623.086,
+            1625.188
+          ],
+          "quote": "What is just variance, what is not?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": false,
+      "how_described": "本集提到深度学习没有学习理论,最接近的理论是作为经验定律的 scaling laws。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            552.813,
+            556.876
+          ],
+          "quote": "I think the closest things we have are scaling laws, and these are empirical laws.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": false,
+      "how_described": "本集嘉宾 Owen 介绍背景时提到自己曾在 DeepMind 做了几年研究科学家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            172.648,
+            179.872
+          ],
+          "quote": "And then for my PhD, I worked on continued learning and math learning, then worked for a few years at DeepMind as a research scientist.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "a16z",
+      "file": "a16z",
+      "primary": false,
+      "how_described": "本集播客出品方,主持人 Martin Casado 是其普通合伙人,开场提到看过很多自称做 RSI 的融资路演。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            60.717,
+            75.965
+          ],
+          "quote": "A16Z general partner Martin Casado sits down with MakerMaker.AI co-founders Daval Ajada and Owen He to unpack recursive self-improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1941.942,
+            1944.803
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1956.745,
+            1962.446
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1967.466,
+            1980.536
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1981.177,
+            1985.88
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1986.381,
+            1993.026
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Amdahl",
+      "reason": "专名「Amdahl」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

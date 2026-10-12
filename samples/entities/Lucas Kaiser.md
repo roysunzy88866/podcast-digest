@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":9,"Attention is All You Need":1,"LLM":60,"GPU":30,"OpenAI":195,"开源运动":1,"编码智能体":32,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":4,"Transformer":9,"Attention is All You Need":1,"LLM":61,"GPU":30,"OpenAI":195,"开源运动":1,"编码智能体":32,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

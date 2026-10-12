@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]] [[Thomas Somers]] [[Sean Wang]] [[Jaan Tallinn]] [[Andy Pavlo]]
+[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":23,"SpaceX":21,"NVIDIA":68,"发射成本":1,"H100":1,"基准测试":2,"相变材料":1,"辐射":1,"McKinsey":6}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":24,"SpaceX":21,"NVIDIA":69,"发射成本":1,"H100":1,"基准测试":2,"相变材料":1,"辐射":1,"McKinsey":6}</script>
 
 <script>
 (function(){
