@@ -1,0 +1,586 @@
+{
+  "episode_id": "2026-10-08-talks-your-ai-agent-has-no-nervous-system-matt",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "可观测性",
+    "AI 编程",
+    "人在回路"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "matt-gibiec",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Gibiec",
+      "file": "Matt Gibiec",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "dynatrace",
+      "type": "company",
+      "role": "company",
+      "name": "Dynatrace",
+      "file": "Dynatrace",
+      "primary": true,
+      "how_described": "本集说它是一个 AI 驱动的可观测性（observability）平台，讲者是其 AI Native 解决方案工程的区域总监。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            31.632,
+            36.697
+          ],
+          "quote": "My name is Matt Gibiets, and I'm the Regional Director of Solutions Engineering for AI Native at Dynatrace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            37.298,
+            39.781
+          ],
+          "quote": "With a show of hands, anybody knows what Dynatrace is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            423.689,
+            426.25
+          ],
+          "quote": "What I want to present to you is Blue Box by Dynatrace.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blue-box",
+      "type": "company",
+      "role": "company",
+      "name": "Blue Box",
+      "file": "Blue Box",
+      "primary": true,
+      "how_described": "本集介绍的产品：Dynatrace 推出的一个智能体，可嵌入开发生命周期中间，为 AI 编程智能体提供环境上下文、服务依赖映射，并建议修复方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            423.689,
+            426.25
+          ],
+          "quote": "What I want to present to you is Blue Box by Dynatrace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            426.39,
+            440.556
+          ],
+          "quote": "And what a Blue Box is is essentially an agent that will now be able to be integrated in the middle of any of your development lifecycle to provide context to any of your AI coding agents or other proprietary agents that you're developing in your environment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主题：AI 智能体「跑得快但没有视力」（operate at speed, but without sight），只能基于拿到的数据推理，缺上下文就会幻觉、瞎自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            54.407,
+            61.449
+          ],
+          "quote": "And the topic that I want to address is, as you see the title of the session, that your AI agent has no nervous system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            126.271,
+            134.135
+          ],
+          "quote": "But if you take a look at these questions, has any of you ever asked yourself a question or been asked a question, why am I stuck in the loop with my agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            208.366,
+            212.33
+          ],
+          "quote": "Does our app or does the agent bring value to our users?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            215.936,
+            229.97
+          ],
+          "quote": "I think we jumped in so quickly to the AI world and the AI era that a lot of the times I see customers and spending three days in here talking to folks, everybody has that AI boss, the AI agent boss, but how do you measure value?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            298.89,
+            308.057
+          ],
+          "quote": "If the data that is provided to our agent is missing context, is missing details, is missing the right permissions to pull the data from some of the tools in your environment,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            322.65,
+            337.342
+          ],
+          "quote": "So what if I told you that essentially what we want to do in here is we actually don't need your agent to necessarily have nervous system or site to be efficient and be productive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            350.123,
+            352.264
+          ],
+          "quote": "You can pick any agent that's out there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            379.643,
+            392.369
+          ],
+          "quote": "And advices that might seem right at that point, but they won't be right in the long term because there's not enough context for that agent to understand how your environment really looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            426.39,
+            440.556
+          ],
+          "quote": "And what a Blue Box is is essentially an agent that will now be able to be integrated in the middle of any of your development lifecycle to provide context to any of your AI coding agents or other proprietary agents that you're developing in your environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            452.152,
+            460.076
+          ],
+          "quote": "How many times you as a developer develop a feature, maybe even develop a feature or a skill for an agent, and you test it locally and it works great?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            510.026,
+            526.356
+          ],
+          "quote": "So now you know whether the feature that you develop not only works locally for you and what you're trying to automate, what you're trying to achieve, but also that it won't break and impact negatively anything else that your agent, that your workload is connecting to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            671.389,
+            691.289
+          ],
+          "quote": "So when we detect that there is an issue and we know and we have the knowledge of your repo, we know who pushed it, we know what changed, we are now able to again, once again, provide the context to your developers and let them know that the service that is now having an issue, that the agent that is now having an issue, that the workload that is now having an issue, can be remediating in the following steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            845.051,
+            851.896
+          ],
+          "quote": "Once we have that and then we detect issues, we'll be able to actually suggest fix, and not just fix for the particular issue that's breaking the agent,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集核心论点「context is king」：上下文就是你能提供给智能体的神经系统，模型不是问题，环境感知才是。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            298.89,
+            308.057
+          ],
+          "quote": "If the data that is provided to our agent is missing context, is missing details, is missing the right permissions to pull the data from some of the tools in your environment,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            314.203,
+            321.669
+          ],
+          "quote": "You start doing processes and automating things in your environment that now probably don't bring in value because there's not enough context in your environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            342.006,
+            348.658
+          ],
+          "quote": "But what they need is actual context of your environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            362.049,
+            378.618
+          ],
+          "quote": "And as you do that, if Claude doesn't have access to the context of your environment, if it is not able to understand the dependencies of your services, if it is not able to understand how your applications are being used by your users, it will start coming up with decisions",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            379.643,
+            392.369
+          ],
+          "quote": "And advices that might seem right at that point, but they won't be right in the long term because there's not enough context for that agent to understand how your environment really looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            396.951,
+            398.332
+          ],
+          "quote": "Context is king.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            399.093,
+            405.498
+          ],
+          "quote": "And what context is, it is that nervous system that you can provide to your agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            405.939,
+            415.647
+          ],
+          "quote": "So as they're communicating, as you're automating things, as you're creating new processes, that connective tissue of a context is driving all of the processes that you're automating with your agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            426.39,
+            440.556
+          ],
+          "quote": "And what a Blue Box is is essentially an agent that will now be able to be integrated in the middle of any of your development lifecycle to provide context to any of your AI coding agents or other proprietary agents that you're developing in your environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            503.982,
+            509.245
+          ],
+          "quote": "We'll actually be able to now use Bluebox to bring the production context into your local testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            556.318,
+            562.222
+          ],
+          "quote": "This is now exactly what the context that BlueBugs brings into your agents will be able to do for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            610.955,
+            620.242
+          ],
+          "quote": "So as you do that, we will now also have the context of what was changed in your ecosystem, what was changed in your application, what was changed in your workload.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            642.589,
+            644.13
+          ],
+          "quote": "We started with creating context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            644.15,
+            645.551
+          ],
+          "quote": "So we have the context of your environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            645.571,
+            650.195
+          ],
+          "quote": "We're able to bring, literally, production context data to your local testing, to your developers in their IDE.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            671.389,
+            691.289
+          ],
+          "quote": "So when we detect that there is an issue and we know and we have the knowledge of your repo, we know who pushed it, we know what changed, we are now able to again, once again, provide the context to your developers and let them know that the service that is now having an issue, that the agent that is now having an issue, that the workload that is now having an issue, can be remediating in the following steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            691.749,
+            694.552
+          ],
+          "quote": "So again, why is the context so important in that process?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            710.091,
+            715.112
+          ],
+          "quote": "So again, that context and the dependency of all the other services in your environment is super, super important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            771.387,
+            786.57
+          ],
+          "quote": "So when you're building your agents, when you're building your applications, when you're using your AI coding agents, again, BlueBugs will bring in all that context from your application today, from all the agents that you already have in your environment today, to understand that as you're planning for a new release, or you're planning for a new feature, you'll have enough data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            794.003,
+            803.736
+          ],
+          "quote": "And the last scenario that I want to share with you guys is that at the end of the day, providing context to these agents can further drive automation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            830.342,
+            844.371
+          ],
+          "quote": "We'll first start with observe, observing your environment, building that context, building that dependency mapping, providing that locally to your developers as they're testing, given all the production data, given all the production details that they need to properly test their code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            852.676,
+            862.365
+          ],
+          "quote": "But using the context of your environment, using the context of the application that's monitored, using the context of the agents that are being monitored, making sure that the fix actually addresses what's happening in your environment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说 Dynatrace 是一个 AI 驱动的可观测性平台；讲者做了八年可观测性，目标是「在问题成为真正的问题之前发现它们」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            44.624,
+            47.645
+          ],
+          "quote": "We are an observability platform, AI-powered observability platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            531.711,
+            535.535
+          ],
+          "quote": "This is honestly one of my favorites just in the entire world of observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            535.555,
+            545.304
+          ],
+          "quote": "I've been doing observability now for eight years, and I think if there's one goal that I ask any of my customers, like, what would you like to achieve with your observability strategy with now AI?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinations)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集提到：智能体拿到的数据缺上下文、缺细节、缺权限时，就会开始幻觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            309.359,
+            313.743
+          ],
+          "quote": "You start entering the very buzzy world out there like hallucinations.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dependency-mapping",
+      "type": "concept",
+      "role": "concept",
+      "name": "依赖映射 (dependency mapping)",
+      "file": "依赖映射",
+      "primary": true,
+      "how_described": "本集说 Blue Box 能为每个智能体、每个 AI 工作负载画出服务和依赖映射，把生产上下文带进本地测试，避免「本地好好的、一合并就砸别的服务」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            488.729,
+            496.996
+          ],
+          "quote": "We will be able to bring that, essentially, services and dependency mapping for every single one of your agents, every single one of your AI workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            830.342,
+            844.371
+          ],
+          "quote": "We'll first start with observe, observing your environment, building that context, building that dependency mapping, providing that locally to your developers as they're testing, given all the production data, given all the production details that they need to properly test their code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说任由智能体做所有事会是「相当混乱的世界」，Blue Box 的闭环最后一步由人拍板：是否把修复推上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            805.211,
+            810.874
+          ],
+          "quote": "But when we talk about further driving automation, I'm sure some of you start thinking about the concept of human in the loop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集举例：用 Claude 干活它反复做同一件事、不停消耗 token；以及若 Claude 无法访问环境上下文，给出的建议长期看是错的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            135.178,
+            145.904
+          ],
+          "quote": "How many of you have, for example, Claude, and it just keeps repetitively doing the same thing over and over, consuming tokens, not giving you the result that you want?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            352.284,
+            361.809
+          ],
+          "quote": "You can just pick the easy scenario of Claude and trying to automate things with Claude inside of your SDLC lifecycle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            362.049,
+            378.618
+          ],
+          "quote": "And as you do that, if Claude doesn't have access to the context of your environment, if it is not able to understand the dependencies of your services, if it is not able to understand how your applications are being used by your users, it will start coming up with decisions",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[Joon Sung Park]] · [[Dr. Fei-Fei Li]] · [[Harry Stebbings]] · [[World Labs]] · [[Simile]] · [[Marble]] · [[智能体]] · [[空间智能]] · [[模拟]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Joon Sung Park":1,"Dr. Fei-Fei Li":1,"Harry Stebbings":21,"World Labs":5,"Simile":1,"Marble":5,"智能体":492,"空间智能":3,"模拟":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Joon Sung Park":1,"Dr. Fei-Fei Li":1,"Harry Stebbings":21,"World Labs":5,"Simile":1,"Marble":5,"智能体":495,"空间智能":3,"模拟":1}</script>
 
 <script>
 (function(){

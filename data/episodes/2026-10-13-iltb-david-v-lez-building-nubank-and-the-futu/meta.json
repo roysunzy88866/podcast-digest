@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu",
+  "audio_mp3": "https://traffic.megaphone.fm/CLS2134103794.mp3",
+  "duration_sec": 4400.601,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 846,
+  "asr": true,
+  "title_en": "David Vélez - Building Nubank and the Future of Global Banking - [Invest Like the Best, EP.495]",
+  "podcast": "Invest Like the Best",
+  "date": "2026-10-13",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/4bab0140-c690-11f1-ba93-9ff1cc3f5ef5/image/5fe9496f99ec254b444b242e8d7af8b9.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-14",
+  "added_at": "2026-10-13T19:26:39.233Z",
+  "speaker_map": {
+    "SPEAKER_02": "David Vélez"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "David Vélez",
+  "cohosts": [],
+  "title_zh": "Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌",
+  "guest_name": "David Vélez",
+  "guest_title": "Nubank 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/4bab0140-c690-11f1-ba93-9ff1cc3f5ef5/image/5fe9496f99ec254b444b242e8d7af8b9.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-13T21:29:00.094Z"
+  }
+}

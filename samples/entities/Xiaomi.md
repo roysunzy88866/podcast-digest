@@ -29,7 +29,7 @@ unlisted: true
 
 [[Florian]] · [[Bob Safian]] · [[Harry Stabbings]] · [[DeepSeek]] · [[Jim Farley]] · [[Matteo Franceschetti]] · [[ByteDance]] · [[Ford]] · [[Eight Sleep]] · [[ZAI]]
 
-<script type="application/json" class="pd-epn">{"Florian":1,"Bob Safian":7,"Harry Stabbings":2,"DeepSeek":4,"Jim Farley":1,"Matteo Franceschetti":1,"ByteDance":1,"Ford":1,"Eight Sleep":1,"ZAI":1}</script>
+<script type="application/json" class="pd-epn">{"Florian":1,"Bob Safian":8,"Harry Stabbings":2,"DeepSeek":4,"Jim Farley":1,"Matteo Franceschetti":1,"ByteDance":1,"Ford":1,"Eight Sleep":1,"ZAI":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1226 @@
+[
+ {
+  "seg": 0,
+  "start": 18.259,
+  "end": 21.963,
+  "speaker": "Unknown",
+  "en": "All right, it is 11.10, so officially time for our session.",
+  "zh": "好了，现在是 11 点 10 分，正式到了我们这场分享的时间。"
+ },
+ {
+  "seg": 1,
+  "start": 22.003,
+  "end": 23.464,
+  "speaker": "Unknown",
+  "en": "Thank you so much, everybody, for joining.",
+  "zh": "非常感谢大家前来参加。"
+ },
+ {
+  "seg": 2,
+  "start": 23.484,
+  "end": 31.112,
+  "speaker": "Unknown",
+  "en": "I know this is the last day of the conference, so I really appreciate for all of you that actually wanted to come on Thursday and then listen to our topic.",
+  "zh": "我知道今天是大会的最后一天，所以我真的很感激各位愿意在周四还过来听我们的话题。"
+ },
+ {
+  "seg": 3,
+  "start": 31.632,
+  "end": 36.697,
+  "speaker": "Unknown",
+  "en": "My name is Matt Gibiets, and I'm the Regional Director of Solutions Engineering for AI Native at Dynatrace.",
+  "zh": "我叫 Matt Gibiets，是 Dynatrace AI Native 解决方案工程的区域总监。"
+ },
+ {
+  "seg": 4,
+  "start": 37.298,
+  "end": 39.781,
+  "speaker": "Unknown",
+  "en": "With a show of hands, anybody knows what Dynatrace is?",
+  "zh": "举手示意一下，有谁知道 Dynatrace 是做什么的吗？"
+ },
+ {
+  "seg": 5,
+  "start": 41.623,
+  "end": 43.664,
+  "speaker": "Unknown",
+  "en": "All right, we got a couple hands, OK?",
+  "zh": "好的，有几个人举手了，OK。"
+ },
+ {
+  "seg": 6,
+  "start": 44.624,
+  "end": 47.645,
+  "speaker": "Unknown",
+  "en": "We are an observability platform, AI-powered observability platform.",
+  "zh": "我们是一个可观测性平台，AI 驱动的可观测性平台。"
+ },
+ {
+  "seg": 7,
+  "start": 47.825,
+  "end": 54.047,
+  "speaker": "Unknown",
+  "en": "But we're not going to be talking much about Dynatrees today because what we want to address today is a little bit different topic.",
+  "zh": "不过今天我们不会多讲 Dynatrees，因为我们今天要讨论的是一个稍微不同的主题。"
+ },
+ {
+  "seg": 8,
+  "start": 54.407,
+  "end": 61.449,
+  "speaker": "Unknown",
+  "en": "And the topic that I want to address is, as you see the title of the session, that your AI agent has no nervous system.",
+  "zh": "我想讲的主题，正如你们看到的这场分享的标题，就是你的 AI 智能体没有神经系统。"
+ },
+ {
+  "seg": 9,
+  "start": 63.012,
+  "end": 66.314,
+  "speaker": "Unknown",
+  "en": "Probably an intriguing title, and you're thinking, well, of course it doesn't have a nervous system.",
+  "zh": "这个标题可能引人好奇，你可能在想，嗯，它当然没有神经系统。"
+ },
+ {
+  "seg": 10,
+  "start": 66.394,
+  "end": 68.195,
+  "speaker": "Unknown",
+  "en": "It's not a person.",
+  "zh": "它又不是人。"
+ },
+ {
+  "seg": 11,
+  "start": 68.215,
+  "end": 74.938,
+  "speaker": "Unknown",
+  "en": "But if you really think how AI agents are being used today, we are using these agents to replace things that people used to do.",
+  "zh": "但如果你认真想想今天 AI 智能体是如何被使用的，我们正在用这些智能体去取代人们过去做的事情。"
+ },
+ {
+  "seg": 12,
+  "start": 75.619,
+  "end": 79.341,
+  "speaker": "Unknown",
+  "en": "And a lot of times, in order to do that, we need the reasoning.",
+  "zh": "而很多时候，为了做到这一点，我们需要推理能力。"
+ },
+ {
+  "seg": 13,
+  "start": 80.503,
+  "end": 97.756,
+  "speaker": "Unknown",
+  "en": "And when we really think about it, if we need reasoning, we need these agents to be able to actually not necessarily behave like humans, but have enough input to understand what they need to do to actually help us in our organization and not just automate things that aren't necessarily working very well today.",
+  "zh": "当我们真正思考这个问题时，如果我们需要推理能力，我们就需要这些智能体不一定表现得像人类，但拥有足够的输入来理解它们需要做什么，从而真正帮助我们的组织，而不只是去自动化那些今天本来就运转得不太好的东西。"
+ },
+ {
+  "seg": 14,
+  "start": 98.537,
+  "end": 101.92,
+  "speaker": "Unknown",
+  "en": "So with that said, let's break this down.",
+  "zh": "话虽如此，让我们把它拆解开来。"
+ },
+ {
+  "seg": 15,
+  "start": 102.06,
+  "end": 105.662,
+  "speaker": "Unknown",
+  "en": "With a show of hands again, how many developers do I have in the room in here?",
+  "zh": "再举手示意一下，在座的各位有多少是开发者？"
+ },
+ {
+  "seg": 16,
+  "start": 107.244,
+  "end": 108.385,
+  "speaker": "Unknown",
+  "en": "OK, perfect.",
+  "zh": "好，完美。"
+ },
+ {
+  "seg": 17,
+  "start": 109.125,
+  "end": 109.906,
+  "speaker": "Unknown",
+  "en": "Any team leads?",
+  "zh": "有团队负责人吗？"
+ },
+ {
+  "seg": 18,
+  "start": 111.584,
+  "end": 114.525,
+  "speaker": "Unknown",
+  "en": "OK. And OK, the last one might be a little bit tougher.",
+  "zh": "OK。好，最后一个可能有点难。"
+ },
+ {
+  "seg": 19,
+  "start": 114.746,
+  "end": 116.406,
+  "speaker": "Unknown",
+  "en": "Do I have a head of engineering in here?",
+  "zh": "在座有工程负责人吗？"
+ },
+ {
+  "seg": 20,
+  "start": 116.466,
+  "end": 118.227,
+  "speaker": "Unknown",
+  "en": "Would you call yourself a head of engineering?",
+  "zh": "你会把自己称为工程负责人吗？"
+ },
+ {
+  "seg": 21,
+  "start": 118.827,
+  "end": 119.408,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 22,
+  "start": 119.488,
+  "end": 119.988,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "完美。"
+ },
+ {
+  "seg": 23,
+  "start": 120.028,
+  "end": 120.528,
+  "speaker": "Unknown",
+  "en": "I got one.",
+  "zh": "我找到一位了。"
+ },
+ {
+  "seg": 24,
+  "start": 121.129,
+  "end": 123.87,
+  "speaker": "Unknown",
+  "en": "So if you take a look at these questions, we're not going to go through all of them.",
+  "zh": "那么如果你看看这些问题，我们不会把所有问题都过一遍。"
+ },
+ {
+  "seg": 25,
+  "start": 123.89,
+  "end": 125.451,
+  "speaker": "Unknown",
+  "en": "We only have 18 minutes left in here.",
+  "zh": "我们在这里只剩下 18 分钟了。"
+ },
+ {
+  "seg": 26,
+  "start": 126.271,
+  "end": 134.135,
+  "speaker": "Unknown",
+  "en": "But if you take a look at these questions, has any of you ever asked yourself a question or been asked a question, why am I stuck in the loop with my agent?",
+  "zh": "但如果你看看这些问题，你们有没有人问过自己或被问过这样一个问题：为什么我被我的智能体困在循环里？"
+ },
+ {
+  "seg": 27,
+  "start": 135.178,
+  "end": 145.904,
+  "speaker": "Unknown",
+  "en": "How many of you have, for example, Claude, and it just keeps repetitively doing the same thing over and over, consuming tokens, not giving you the result that you want?",
+  "zh": "你们有多少人，比如说用 Claude，它就一直在反反复复地做同一件事，消耗 token，却不给你想要的结果？"
+ },
+ {
+  "seg": 28,
+  "start": 146.925,
+  "end": 147.745,
+  "speaker": "Unknown",
+  "en": "Anybody experience that?",
+  "zh": "有人经历过吗？"
+ },
+ {
+  "seg": 29,
+  "start": 147.985,
+  "end": 148.946,
+  "speaker": "Unknown",
+  "en": "Everybody has, right?",
+  "zh": "每个人都有，对吧？"
+ },
+ {
+  "seg": 30,
+  "start": 149.286,
+  "end": 158.511,
+  "speaker": "Unknown",
+  "en": "Now, if you think about it from a human perspective now, if you as a human do research and you get results that are not what you want, you will change your approach.",
+  "zh": "现在，从人的角度来想想，如果你作为一个人去做研究，得到的结果不是你想要的，你会改变你的方法。"
+ },
+ {
+  "seg": 31,
+  "start": 159.032,
+  "end": 160.332,
+  "speaker": "Unknown",
+  "en": "You approach it from a different angle.",
+  "zh": "你会从不同的角度去切入。"
+ },
+ {
+  "seg": 32,
+  "start": 161.113,
+  "end": 164.495,
+  "speaker": "Unknown",
+  "en": "But our AI agents today, they're not smart enough to do that.",
+  "zh": "但我们今天的 AI 智能体，它们还不够聪明，做不到这一点。"
+ },
+ {
+  "seg": 33,
+  "start": 166.613,
+  "end": 168.394,
+  "speaker": "Unknown",
+  "en": "All right, let's shift to another question in here.",
+  "zh": "好，我们换到这里的另一个问题。"
+ },
+ {
+  "seg": 34,
+  "start": 169.115,
+  "end": 170.516,
+  "speaker": "Unknown",
+  "en": "I like the one under teammate in the middle.",
+  "zh": "我喜欢「队友」标题下的中间那个。"
+ },
+ {
+  "seg": 35,
+  "start": 171.196,
+  "end": 172.918,
+  "speaker": "Unknown",
+  "en": "How can I handle operational issues?",
+  "zh": "我该如何处理运维问题？"
+ },
+ {
+  "seg": 36,
+  "start": 173.958,
+  "end": 182.325,
+  "speaker": "Unknown",
+  "en": "Are you thinking about that yet today or right now are you still in the boom of let's just get things deployed, let's just get things going, we'll figure out everything else later?",
+  "zh": "你们今天有在思考这个问题吗，还是说你现在仍然处于那种「先把东西部署上线、先让东西跑起来，其他的事以后再说」的热潮中？"
+ },
+ {
+  "seg": 37,
+  "start": 182.965,
+  "end": 185.867,
+  "speaker": "Unknown",
+  "en": "Anybody in here having operational issues with your agents?",
+  "zh": "在座有人的智能体遇到过运维问题吗？"
+ },
+ {
+  "seg": 38,
+  "start": 187.969,
+  "end": 189.07,
+  "speaker": "Unknown",
+  "en": "Here and there, maybe.",
+  "zh": "偶尔会有，也许吧。"
+ },
+ {
+  "seg": 39,
+  "start": 189.85,
+  "end": 191.451,
+  "speaker": "Unknown",
+  "en": "Okay, let me throw a twist in here.",
+  "zh": "好，让我在这里加一个转折。"
+ },
+ {
+  "seg": 40,
+  "start": 191.471,
+  "end": 193.153,
+  "speaker": "Unknown",
+  "en": "How about security concerns?",
+  "zh": "那安全方面的担忧呢？"
+ },
+ {
+  "seg": 41,
+  "start": 195.292,
+  "end": 196.713,
+  "speaker": "Unknown",
+  "en": "That was a layup, right?",
+  "zh": "这是个送分题，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 196.754,
+  "end": 198.776,
+  "speaker": "Unknown",
+  "en": "I think everybody raised their hand in here.",
+  "zh": "我觉得在座所有人都举手了。"
+ },
+ {
+  "seg": 43,
+  "start": 199.496,
+  "end": 202.359,
+  "speaker": "Unknown",
+  "en": "And so again, a very important question that we have to ask ourselves.",
+  "zh": "所以这又是一个我们必须问自己的非常重要的一个问题。"
+ },
+ {
+  "seg": 44,
+  "start": 202.379,
+  "end": 206.203,
+  "speaker": "Unknown",
+  "en": "And the last one that I want to try with you guys, let's look at the head of engineering in here.",
+  "zh": "而我想和你们试的最后一个问题，我们看看这里的工程负责人这个角色。"
+ },
+ {
+  "seg": 45,
+  "start": 207.024,
+  "end": 208.025,
+  "speaker": "Unknown",
+  "en": "I love the middle one again.",
+  "zh": "我又喜欢中间那个了。"
+ },
+ {
+  "seg": 46,
+  "start": 208.366,
+  "end": 212.33,
+  "speaker": "Unknown",
+  "en": "Does our app or does the agent bring value to our users?",
+  "zh": "我们的应用或智能体给我们的用户带来了价值吗？"
+ },
+ {
+  "seg": 47,
+  "start": 215.936,
+  "end": 229.97,
+  "speaker": "Unknown",
+  "en": "I think we jumped in so quickly to the AI world and the AI era that a lot of the times I see customers and spending three days in here talking to folks, everybody has that AI boss, the AI agent boss, but how do you measure value?",
+  "zh": "我觉得我们太快地跳进了 AI 世界和 AI 时代，以至于很多时候我看到客户——我在这边花了三天时间和大家交流——每个人都有那个 AI 老板、AI 智能体老板，但你如何衡量价值？"
+ },
+ {
+  "seg": 48,
+  "start": 231.431,
+  "end": 235.215,
+  "speaker": "Unknown",
+  "en": "Do you have instructions already today to understand how to measure value of your AI agents?",
+  "zh": "你们今天是否已经有办法去理解如何衡量你的 AI 智能体的价值？"
+ },
+ {
+  "seg": 49,
+  "start": 237.61,
+  "end": 238.09,
+  "speaker": "Unknown",
+  "en": "Nah, right?",
+  "zh": "没有吧，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 238.851,
+  "end": 248.496,
+  "speaker": "Unknown",
+  "en": "And I almost think that as much as you want to run fast and get there, we have to take a little pause and understand what are we really trying to accomplish and how can we measure the success of our agents?",
+  "zh": "而我几乎认为,尽管你想快速奔跑、尽快到达终点,我们还是需要稍微停下来,理解我们真正想要完成的是什么,以及我们如何衡量智能体的成功?"
+ },
+ {
+  "seg": 51,
+  "start": 248.856,
+  "end": 261.102,
+  "speaker": "Unknown",
+  "en": "Because if we're spending our engineering resources, time, effort, money on creating these agents and then utilizing them in a way that we believe helps our organization, we need to come up with measures that will help us do it.",
+  "zh": "因为如果我们在投入工程资源、时间、精力和金钱来创建这些智能体,然后以一种我们认为有助于组织的方式利用它们,我们就需要提出能帮助我们做到这一点的衡量标准。"
+ },
+ {
+  "seg": 52,
+  "start": 262.379,
+  "end": 273.222,
+  "speaker": "Unknown",
+  "en": "Now, with all these questions, hopefully I set up a picture a little bit in here to really jump into the next topic that I want to discuss, which is led in here by a quote from my CTO, Bernd.",
+  "zh": "现在,带着所有这些问题,希望我在这里大致描绘了一幅图景,以便真正进入我想讨论的下一个话题,这个话题由我的 CTO Bernd 的一句引言引出。"
+ },
+ {
+  "seg": 53,
+  "start": 274.282,
+  "end": 277.323,
+  "speaker": "Unknown",
+  "en": "And I'm not going to read the whole thing, but just highlight what we see in blue in here.",
+  "zh": "我不会把整段都读出来,只是突出这里蓝色的部分。"
+ },
+ {
+  "seg": 54,
+  "start": 278.083,
+  "end": 279.904,
+  "speaker": "Unknown",
+  "en": "The agents operate at speed.",
+  "zh": "智能体以速度运作。"
+ },
+ {
+  "seg": 55,
+  "start": 280.144,
+  "end": 281.824,
+  "speaker": "Unknown",
+  "en": "Would everybody agree with that, that they're pretty fast?",
+  "zh": "大家会同意这一点吗,它们相当快?"
+ },
+ {
+  "seg": 56,
+  "start": 283.545,
+  "end": 284.605,
+  "speaker": "Unknown",
+  "en": "But without sight.",
+  "zh": "但没有视觉。"
+ },
+ {
+  "seg": 57,
+  "start": 286.46,
+  "end": 297.929,
+  "speaker": "Unknown",
+  "en": "And what we mean by that is these agents today are only as good as the data that is available to them to make the reasoning, to make a decision.",
+  "zh": "我们的意思是,如今这些智能体的好坏,完全取决于可供它们进行推理、做出决策的数据。"
+ },
+ {
+  "seg": 58,
+  "start": 298.89,
+  "end": 308.057,
+  "speaker": "Unknown",
+  "en": "If the data that is provided to our agent is missing context, is missing details, is missing the right permissions to pull the data from some of the tools in your environment,",
+  "zh": "如果提供给智能体的数据缺少上下文、缺少细节、缺少从你环境中的某些工具拉取数据的正确权限,"
+ },
+ {
+  "seg": 59,
+  "start": 309.359,
+  "end": 313.743,
+  "speaker": "Unknown",
+  "en": "You start entering the very buzzy world out there like hallucinations.",
+  "zh": "你就开始进入那个非常嘈杂的世界,比如幻觉。"
+ },
+ {
+  "seg": 60,
+  "start": 314.203,
+  "end": 321.669,
+  "speaker": "Unknown",
+  "en": "You start doing processes and automating things in your environment that now probably don't bring in value because there's not enough context in your environment.",
+  "zh": "你开始在环境中执行流程和自动化事情,而这些事情现在可能不会带来价值,因为你的环境中没有足够的上下文。"
+ },
+ {
+  "seg": 61,
+  "start": 322.65,
+  "end": 337.342,
+  "speaker": "Unknown",
+  "en": "So what if I told you that essentially what we want to do in here is we actually don't need your agent to necessarily have nervous system or site to be efficient and be productive.",
+  "zh": "那么,如果我告诉你,本质上我们在这里想做的事情其实是,我们实际上不需要你的智能体必须拥有神经系统或视觉才能高效、才能有生产力呢?"
+ },
+ {
+  "seg": 62,
+  "start": 338.881,
+  "end": 341.085,
+  "speaker": "Unknown",
+  "en": "There's obviously a little twist on the title of the session in here.",
+  "zh": "这里显然对本次会议的标题做了一点小小的变化。"
+ },
+ {
+  "seg": 63,
+  "start": 342.006,
+  "end": 348.658,
+  "speaker": "Unknown",
+  "en": "But what they need is actual context of your environment.",
+  "zh": "但它们需要的是你的环境的真实上下文。"
+ },
+ {
+  "seg": 64,
+  "start": 350.123,
+  "end": 352.264,
+  "speaker": "Unknown",
+  "en": "You can pick any agent that's out there.",
+  "zh": "你可以挑选市面上任何一个智能体。"
+ },
+ {
+  "seg": 65,
+  "start": 352.284,
+  "end": 361.809,
+  "speaker": "Unknown",
+  "en": "You can just pick the easy scenario of Claude and trying to automate things with Claude inside of your SDLC lifecycle.",
+  "zh": "你可以只挑一个简单的场景,比如 Claude,尝试在你的 SDLC 生命周期内用 Claude 自动化各种事情。"
+ },
+ {
+  "seg": 66,
+  "start": 362.049,
+  "end": 378.618,
+  "speaker": "Unknown",
+  "en": "And as you do that, if Claude doesn't have access to the context of your environment, if it is not able to understand the dependencies of your services, if it is not able to understand how your applications are being used by your users, it will start coming up with decisions",
+  "zh": "当你这么做的时候,如果 Claude 无法访问你环境的上下文,如果它无法理解你的服务的依赖关系,如果它无法理解你的应用是如何被你的用户使用的,它就会开始做出决策"
+ },
+ {
+  "seg": 67,
+  "start": 379.643,
+  "end": 392.369,
+  "speaker": "Unknown",
+  "en": "And advices that might seem right at that point, but they won't be right in the long term because there's not enough context for that agent to understand how your environment really looks like.",
+  "zh": "和建议,这些决策和建议在当时看起来可能是对的,但从长远来看它们不会是对的,因为没有足够的上下文让那个智能体理解你的环境究竟是什么样子。"
+ },
+ {
+  "seg": 68,
+  "start": 393.208,
+  "end": 396.391,
+  "speaker": "Unknown",
+  "en": "So what I want to sum up this slide with is this one sentence in here.",
+  "zh": "所以,我想用这里的一句话来总结这张幻灯片。"
+ },
+ {
+  "seg": 69,
+  "start": 396.951,
+  "end": 398.332,
+  "speaker": "Unknown",
+  "en": "Context is king.",
+  "zh": "上下文为王。"
+ },
+ {
+  "seg": 70,
+  "start": 399.093,
+  "end": 405.498,
+  "speaker": "Unknown",
+  "en": "And what context is, it is that nervous system that you can provide to your agents.",
+  "zh": "而上下文是什么,它就是你可以提供给智能体的那个神经系统。"
+ },
+ {
+  "seg": 71,
+  "start": 405.939,
+  "end": 415.647,
+  "speaker": "Unknown",
+  "en": "So as they're communicating, as you're automating things, as you're creating new processes, that connective tissue of a context is driving all of the processes that you're automating with your agents.",
+  "zh": "这样,当它们在交流时,当你在自动化事情时,当你在创建新流程时,上下文这个连接组织驱动着你用智能体自动化的所有流程。"
+ },
+ {
+  "seg": 72,
+  "start": 417.348,
+  "end": 419.25,
+  "speaker": "Unknown",
+  "en": "So let's take a look at a couple examples.",
+  "zh": "那么让我们来看几个例子。"
+ },
+ {
+  "seg": 73,
+  "start": 420.311,
+  "end": 421.212,
+  "speaker": "Unknown",
+  "en": "So keeping that in mind,",
+  "zh": "所以记住这一点,"
+ },
+ {
+  "seg": 74,
+  "start": 423.689,
+  "end": 426.25,
+  "speaker": "Unknown",
+  "en": "What I want to present to you is Blue Box by Dynatrace.",
+  "zh": "我想向你们展示的是 Dynatrace 的 Blue Box。"
+ },
+ {
+  "seg": 75,
+  "start": 426.39,
+  "end": 440.556,
+  "speaker": "Unknown",
+  "en": "And what a Blue Box is is essentially an agent that will now be able to be integrated in the middle of any of your development lifecycle to provide context to any of your AI coding agents or other proprietary agents that you're developing in your environment.",
+  "zh": "Blue Box 本质上是一个智能体,它现在能够集成到你任何开发生命周期的中间,为你环境中的任何 AI 编程智能体或你正在开发的其他专有智能体提供上下文。"
+ },
+ {
+  "seg": 76,
+  "start": 441.577,
+  "end": 443.118,
+  "speaker": "Unknown",
+  "en": "I have a couple of slides that we're going to go through in here.",
+  "zh": "我有几张幻灯片,我们要在这里过一遍。"
+ },
+ {
+  "seg": 77,
+  "start": 443.138,
+  "end": 448.44,
+  "speaker": "Unknown",
+  "en": "I'm not going to go through every single scenario in here, but I'm going to point out the most important things that I believe are helpful in here.",
+  "zh": "我不会把这里的每一个场景都过一遍,但我会指出我认为在这里最有帮助的要点。"
+ },
+ {
+  "seg": 78,
+  "start": 450.391,
+  "end": 452.112,
+  "speaker": "Unknown",
+  "en": "Let me run a scenario by you.",
+  "zh": "让我给你讲一个场景。"
+ },
+ {
+  "seg": 79,
+  "start": 452.152,
+  "end": 460.076,
+  "speaker": "Unknown",
+  "en": "How many times you as a developer develop a feature, maybe even develop a feature or a skill for an agent, and you test it locally and it works great?",
+  "zh": "作为开发者,你有多少次开发了一个功能,甚至为智能体开发了一个功能或技能,你在本地测试它,它运行得很好?"
+ },
+ {
+  "seg": 80,
+  "start": 462.317,
+  "end": 463.537,
+  "speaker": "Unknown",
+  "en": "Locally everything works great, right?",
+  "zh": "在本地一切运行良好,对吧?"
+ },
+ {
+  "seg": 81,
+  "start": 463.557,
+  "end": 464.578,
+  "speaker": "Unknown",
+  "en": "We're happy, it's awesome.",
+  "zh": "我们很高兴,太棒了。"
+ },
+ {
+  "seg": 82,
+  "start": 465.178,
+  "end": 472.201,
+  "speaker": "Unknown",
+  "en": "And then what we do is we merge to a main branch, we push it out there, and all of a sudden three other services are broken.",
+  "zh": "然后我们做的就是合并到主分支,推送上去,突然间另外三个服务挂了。"
+ },
+ {
+  "seg": 83,
+  "start": 472.661,
+  "end": 473.682,
+  "speaker": "Unknown",
+  "en": "Has that happened to any of you?",
+  "zh": "这种情况发生在你们任何人身上过吗?"
+ },
+ {
+  "seg": 84,
+  "start": 475.858,
+  "end": 483.705,
+  "speaker": "Unknown",
+  "en": "Where your impact, even though locally it worked fine, once it was merged with other agents, with other applications, now it broke a process in your environment.",
+  "zh": "就是你的影响,尽管在本地运行正常,一旦与其他智能体、其他应用合并后,现在它破坏了你环境中的某个流程。"
+ },
+ {
+  "seg": 85,
+  "start": 484.365,
+  "end": 488.669,
+  "speaker": "Unknown",
+  "en": "That is one of the most important things that Blue Bugs by Dynachase can provide in here.",
+  "zh": "这是 Dynachase 的 Blue Bugs 在这里能提供的最重要的事情之一。"
+ },
+ {
+  "seg": 86,
+  "start": 488.729,
+  "end": 496.996,
+  "speaker": "Unknown",
+  "en": "We will be able to bring that, essentially, services and dependency mapping for every single one of your agents, every single one of your AI workloads.",
+  "zh": "我们将能够带来,本质上,为你的每一个智能体、每一个 AI 工作负载提供服务和依赖映射。"
+ },
+ {
+  "seg": 87,
+  "start": 497.476,
+  "end": 500.799,
+  "speaker": "Unknown",
+  "en": "So as you're developing and as you're making changes,",
+  "zh": "这样,当你在开发、当你在做变更时,"
+ },
+ {
+  "seg": 88,
+  "start": 501.76,
+  "end": 503.881,
+  "speaker": "Unknown",
+  "en": "You're not just talking about testing things locally.",
+  "zh": "你不只是在本地的环境里测试这些东西。"
+ },
+ {
+  "seg": 89,
+  "start": 503.982,
+  "end": 509.245,
+  "speaker": "Unknown",
+  "en": "We'll actually be able to now use Bluebox to bring the production context into your local testing.",
+  "zh": "我们现在实际上能够使用 Bluebox 把生产上下文带入你的本地测试。"
+ },
+ {
+  "seg": 90,
+  "start": 510.026,
+  "end": 526.356,
+  "speaker": "Unknown",
+  "en": "So now you know whether the feature that you develop not only works locally for you and what you're trying to automate, what you're trying to achieve, but also that it won't break and impact negatively anything else that your agent, that your workload is connecting to.",
+  "zh": "所以现在你可以知道,你开发的功能不仅在本地对你有效、对你想自动化的事情、想实现的目标有效,而且它不会破坏并负面影响你的智能体、你的工作负载所连接的任何其他东西。"
+ },
+ {
+  "seg": 91,
+  "start": 526.657,
+  "end": 529.939,
+  "speaker": "Unknown",
+  "en": "Let's take a look at another example in here.",
+  "zh": "让我们在这里看另一个例子。"
+ },
+ {
+  "seg": 92,
+  "start": 531.711,
+  "end": 535.535,
+  "speaker": "Unknown",
+  "en": "This is honestly one of my favorites just in the entire world of observability.",
+  "zh": "说实话,这是我在整个可观测性领域最喜欢的例子之一。"
+ },
+ {
+  "seg": 93,
+  "start": 535.555,
+  "end": 545.304,
+  "speaker": "Unknown",
+  "en": "I've been doing observability now for eight years, and I think if there's one goal that I ask any of my customers, like, what would you like to achieve with your observability strategy with now AI?",
+  "zh": "我做可观测性已经八年了,我认为如果有一个目标我会问我任何一位客户,比如,你想通过你现在的 AI 可观测性策略实现什么?"
+ },
+ {
+  "seg": 94,
+  "start": 545.844,
+  "end": 555.033,
+  "speaker": "Unknown",
+  "en": "And when it comes to issues, I think this is, everybody will say that, find issues before they're real issues, before they impact my organization, before they impact my users.",
+  "zh": "当涉及问题时,我认为每个人都会说,在问题成为真正的问题之前发现它们,在它们影响我的组织之前,在它们影响我的用户之前。"
+ },
+ {
+  "seg": 95,
+  "start": 556.318,
+  "end": 562.222,
+  "speaker": "Unknown",
+  "en": "This is now exactly what the context that BlueBugs brings into your agents will be able to do for you.",
+  "zh": "这正是 BlueBugs 带入你智能体的上下文现在能够为你做到的。"
+ },
+ {
+  "seg": 96,
+  "start": 563.122,
+  "end": 564.223,
+  "speaker": "Unknown",
+  "en": "And how do we really get that done?",
+  "zh": "而我们究竟是如何做到这一点的?"
+ },
+ {
+  "seg": 97,
+  "start": 564.804,
+  "end": 572.469,
+  "speaker": "Unknown",
+  "en": "We are able to now, again, understand end-to-end the interactions of your agents within your application, within your ecosystem, within your organization.",
+  "zh": "我们现在能够,再次,端到端地理解你的智能体在你的应用内、在你的生态系统中、在你的组织内的交互。"
+ },
+ {
+  "seg": 98,
+  "start": 573.382,
+  "end": 583.186,
+  "speaker": "Unknown",
+  "en": "And what we are able to do is we are able to use the historical data from your environments, the historical loads to understand what regular, what normal looks like.",
+  "zh": "而我们能够做的是,我们能够使用你环境中的历史数据、历史负载,来理解什么是常规的、什么是正常的。"
+ },
+ {
+  "seg": 99,
+  "start": 584.007,
+  "end": 598.513,
+  "speaker": "Unknown",
+  "en": "So when things start to deviate from what normal looks like, we are able to now get ahead of it and inform your agents, let's say in your IDE for your developers, that one of the services that belongs to them",
+  "zh": "所以当事情开始偏离正常状态时,我们现在能够领先一步,通知你的智能体,比如在你的 IDE 中通知你的开发者,属于他们的某个服务"
+ },
+ {
+  "seg": 100,
+  "start": 599.767,
+  "end": 600.848,
+  "speaker": "Unknown",
+  "en": "Now it's acting slower.",
+  "zh": "现在它运行变慢了。"
+ },
+ {
+  "seg": 101,
+  "start": 601.688,
+  "end": 604.05,
+  "speaker": "Unknown",
+  "en": "Or all of a sudden, it's throwing errors that it didn't throw.",
+  "zh": "或者突然之间，它开始抛出以前不会抛出的错误。"
+ },
+ {
+  "seg": 102,
+  "start": 605.411,
+  "end": 610.055,
+  "speaker": "Unknown",
+  "en": "Now what BlueBugs will also do will be also integrated in the middle of your code repository.",
+  "zh": "现在 BlueBugs 还会做的事情是，它还会集成到你的代码仓库中间。"
+ },
+ {
+  "seg": 103,
+  "start": 610.955,
+  "end": 620.242,
+  "speaker": "Unknown",
+  "en": "So as you do that, we will now also have the context of what was changed in your ecosystem, what was changed in your application, what was changed in your workload.",
+  "zh": "所以当你这样做时，我们现在也会拥有你的生态系统中发生了什么变更、你的应用中发生了什么变更、你的工作负载中发生了什么变更的上下文。"
+ },
+ {
+  "seg": 104,
+  "start": 620.983,
+  "end": 627.748,
+  "speaker": "Unknown",
+  "en": "So now be able to overlay that data and understand that the issue that might be happening in your environment was actually caused",
+  "zh": "所以现在能够叠加这些数据，并理解你的环境中可能发生的问题实际上是由"
+ },
+ {
+  "seg": 105,
+  "start": 628.657,
+  "end": 630.641,
+  "speaker": "Unknown",
+  "en": "by a change that somebody pushed out there.",
+  "zh": "某人推出去的一个变更造成的。"
+ },
+ {
+  "seg": 106,
+  "start": 631.322,
+  "end": 634.629,
+  "speaker": "Unknown",
+  "en": "Maybe by a merge that wasn't successful.",
+  "zh": "也许是一次不成功的合并。"
+ },
+ {
+  "seg": 107,
+  "start": 636.693,
+  "end": 638.857,
+  "speaker": "Unknown",
+  "en": "So as we dive into the next scenario in here,",
+  "zh": "那么当我们深入探讨这里的下一个场景时，"
+ },
+ {
+  "seg": 108,
+  "start": 641.348,
+  "end": 642.449,
+  "speaker": "Unknown",
+  "en": "We discovered an issue.",
+  "zh": "我们发现了一个问题。"
+ },
+ {
+  "seg": 109,
+  "start": 642.589,
+  "end": 644.13,
+  "speaker": "Unknown",
+  "en": "We started with creating context.",
+  "zh": "我们从创建上下文开始。"
+ },
+ {
+  "seg": 110,
+  "start": 644.15,
+  "end": 645.551,
+  "speaker": "Unknown",
+  "en": "So we have the context of your environment.",
+  "zh": "所以我们拥有你的环境的上下文。"
+ },
+ {
+  "seg": 111,
+  "start": 645.571,
+  "end": 650.195,
+  "speaker": "Unknown",
+  "en": "We're able to bring, literally, production context data to your local testing, to your developers in their IDE.",
+  "zh": "我们能够把生产环境的上下文数据直接带到你的本地测试，带到开发者他们的 IDE 中。"
+ },
+ {
+  "seg": 112,
+  "start": 650.576,
+  "end": 653.498,
+  "speaker": "Unknown",
+  "en": "You're baking blue bugs into your AI coding agents.",
+  "zh": "你正在把 blue bugs 烘焙进你的 AI 编码智能体中。"
+ },
+ {
+  "seg": 113,
+  "start": 653.858,
+  "end": 655.64,
+  "speaker": "Unknown",
+  "en": "Now we're able to detect the issues early.",
+  "zh": "现在我们能够更早地检测到问题。"
+ },
+ {
+  "seg": 114,
+  "start": 655.98,
+  "end": 659.263,
+  "speaker": "Unknown",
+  "en": "We're able to start to be productive.",
+  "zh": "我们能够开始变得高效。"
+ },
+ {
+  "seg": 115,
+  "start": 659.763,
+  "end": 660.364,
+  "speaker": "Unknown",
+  "en": "But what's next?",
+  "zh": "但接下来是什么呢？"
+ },
+ {
+  "seg": 116,
+  "start": 660.984,
+  "end": 662.225,
+  "speaker": "Unknown",
+  "en": "We have to talk about fixing things.",
+  "zh": "我们必须谈谈修复问题。"
+ },
+ {
+  "seg": 117,
+  "start": 663.546,
+  "end": 670.112,
+  "speaker": "Unknown",
+  "en": "And here's yet another example where blue bugs will be able to be directly baking into your SDLC.",
+  "zh": "这里还有另一个例子，blue bugs 能够被直接烘焙进你的 SDLC 中。"
+ },
+ {
+  "seg": 118,
+  "start": 671.389,
+  "end": 691.289,
+  "speaker": "Unknown",
+  "en": "So when we detect that there is an issue and we know and we have the knowledge of your repo, we know who pushed it, we know what changed, we are now able to again, once again, provide the context to your developers and let them know that the service that is now having an issue, that the agent that is now having an issue, that the workload that is now having an issue, can be remediating in the following steps.",
+  "zh": "所以当我们检测到有一个问题，并且我们了解、拥有你仓库的知识，我们知道是谁推的代码，我们知道改了什么，我们现在就能再次为你的开发者提供上下文，让他们知道现在出问题的那个服务、现在出问题的那个智能体、现在出问题的那个工作负载，可以通过以下步骤来修复。"
+ },
+ {
+  "seg": 119,
+  "start": 691.749,
+  "end": 694.552,
+  "speaker": "Unknown",
+  "en": "So again, why is the context so important in that process?",
+  "zh": "那么，为什么上下文在这个过程中如此重要呢？"
+ },
+ {
+  "seg": 120,
+  "start": 695.928,
+  "end": 703.35,
+  "speaker": "Unknown",
+  "en": "Because when we need to fix a bug that's causing issues in our environment, it might be changing one line of code to fix that particular issue.",
+  "zh": "因为当我们需要修复一个在环境中导致问题的 bug 时，可能只需要改一行代码就能修复那个特定问题。"
+ },
+ {
+  "seg": 121,
+  "start": 704.87,
+  "end": 707.931,
+  "speaker": "Unknown",
+  "en": "But after you change that one line of code, what happens to the rest of your environment?",
+  "zh": "但在你改了那一行代码之后，你的环境的其他部分会发生什么？"
+ },
+ {
+  "seg": 122,
+  "start": 707.951,
+  "end": 709.391,
+  "speaker": "Unknown",
+  "en": "What happens to the rest of your application?",
+  "zh": "你的应用的其余部分会发生什么？"
+ },
+ {
+  "seg": 123,
+  "start": 710.091,
+  "end": 715.112,
+  "speaker": "Unknown",
+  "en": "So again, that context and the dependency of all the other services in your environment is super, super important.",
+  "zh": "所以，那种上下文以及环境中所有其他服务的依赖关系是超级、超级重要的。"
+ },
+ {
+  "seg": 124,
+  "start": 717.933,
+  "end": 725.655,
+  "speaker": "Unknown",
+  "en": "So as we do that, as we think about fixing things, it's not only about fixing the issue that we have at hand, but also making sure that we don't cause any other issues in our environment.",
+  "zh": "所以当我们这样做时，当我们思考修复问题时，不仅是修复眼前的问题，还要确保我们不会在环境中造成任何其他问题。"
+ },
+ {
+  "seg": 125,
+  "start": 728.957,
+  "end": 737.462,
+  "speaker": "Unknown",
+  "en": "And the last or two more scenarios that I want to run through is actually briefing your agents before building starts.",
+  "zh": "最后一个，或者我还想讲两个场景，其实是在构建开始之前为你的智能体做简报。"
+ },
+ {
+  "seg": 126,
+  "start": 739.663,
+  "end": 744.385,
+  "speaker": "Unknown",
+  "en": "That's actually, I think, one of my favorites when it comes to directly talking to the developers.",
+  "zh": "这实际上,我认为,是直接与开发者交谈时我最喜欢的其中一点。"
+ },
+ {
+  "seg": 127,
+  "start": 745.146,
+  "end": 752.67,
+  "speaker": "Unknown",
+  "en": "I think way too often we see developers going out there, and somebody came up with a feature, and other developers just go and develop it.",
+  "zh": "我认为我们太常见到开发者直接冲出去做，某人想出了一个功能，其他开发者就直接去开发它。"
+ },
+ {
+  "seg": 128,
+  "start": 754.271,
+  "end": 756.272,
+  "speaker": "Unknown",
+  "en": "But have we done any research up front?",
+  "zh": "但我们有没有事先做任何调研？"
+ },
+ {
+  "seg": 129,
+  "start": 757.465,
+  "end": 768.047,
+  "speaker": "Unknown",
+  "en": "To understand what actually that feature needs to deliver to our users, what we're actually trying to accomplish with that specific feature, that's exactly what we'll be able to do in here.",
+  "zh": "去理解那个功能实际上需要为我们的用户交付什么，我们用那个特定功能到底想达成什么，这正是我们在这里能够做到的。"
+ },
+ {
+  "seg": 130,
+  "start": 768.387,
+  "end": 770.447,
+  "speaker": "Unknown",
+  "en": "We'll be able to actually plan before you prompt.",
+  "zh": "我们能够真正做到在你提示之前先规划。"
+ },
+ {
+  "seg": 131,
+  "start": 771.387,
+  "end": 786.57,
+  "speaker": "Unknown",
+  "en": "So when you're building your agents, when you're building your applications, when you're using your AI coding agents, again, BlueBugs will bring in all that context from your application today, from all the agents that you already have in your environment today, to understand that as you're planning for a new release, or you're planning for a new feature, you'll have enough data.",
+  "zh": "所以当你在构建你的智能体时，当你在构建你的应用时，当你在使用你的 AI 编码智能体时，同样，BlueBugs 会从你今天的应用、从你今天环境中已有的所有智能体引入所有那些上下文，以便理解当你计划一个新版本，或计划一个新功能时，你会有足够的数据。"
+ },
+ {
+  "seg": 132,
+  "start": 787.455,
+  "end": 791.06,
+  "speaker": "Unknown",
+  "en": "to understand what that feature that you're not focusing on needs to compensate.",
+  "zh": "去理解那个你没有在关注的功能需要补偿什么。"
+ },
+ {
+  "seg": 133,
+  "start": 794.003,
+  "end": 803.736,
+  "speaker": "Unknown",
+  "en": "And the last scenario that I want to share with you guys is that at the end of the day, providing context to these agents can further drive automation.",
+  "zh": "而我想和大家分享的最后一个场景是，归根结底，为这些智能体提供上下文可以进一步推动自动化。"
+ },
+ {
+  "seg": 134,
+  "start": 805.211,
+  "end": 810.874,
+  "speaker": "Unknown",
+  "en": "But when we talk about further driving automation, I'm sure some of you start thinking about the concept of human in the loop.",
+  "zh": "但当我们谈到进一步推动自动化时，我相信你们中有些人开始想到人在回路的概念。"
+ },
+ {
+  "seg": 135,
+  "start": 811.474,
+  "end": 818.397,
+  "speaker": "Unknown",
+  "en": "At the end of the day, if we just let our agents do everything, I think it would be a pretty messy world.",
+  "zh": "归根结底，如果我们只是让智能体做所有事情，我认为那会是一个相当混乱的世界。"
+ },
+ {
+  "seg": 136,
+  "start": 818.437,
+  "end": 823.74,
+  "speaker": "Unknown",
+  "en": "At some point, we want to be able to have control over what we are doing in our environments.",
+  "zh": "在某个时刻，我们希望能够掌控我们在环境中正在做的事情。"
+ },
+ {
+  "seg": 137,
+  "start": 824.938,
+  "end": 827.059,
+  "speaker": "Unknown",
+  "en": "So obviously with Bluebacks, you will be able to do that as well.",
+  "zh": "所以显然，有了 Bluebacks，你也能够做到这一点。"
+ },
+ {
+  "seg": 138,
+  "start": 827.48,
+  "end": 830.021,
+  "speaker": "Unknown",
+  "en": "And I like this picture that we have in here on the right.",
+  "zh": "而且我喜欢我们右边这里的这张图。"
+ },
+ {
+  "seg": 139,
+  "start": 830.342,
+  "end": 844.371,
+  "speaker": "Unknown",
+  "en": "We'll first start with observe, observing your environment, building that context, building that dependency mapping, providing that locally to your developers as they're testing, given all the production data, given all the production details that they need to properly test their code.",
+  "zh": "我们首先从观察开始，观察你的环境，构建那个上下文，构建那个依赖映射，在开发者测试时把所有生产数据、把他们正确测试代码所需的所有生产细节本地提供给他们。"
+ },
+ {
+  "seg": 140,
+  "start": 845.051,
+  "end": 851.896,
+  "speaker": "Unknown",
+  "en": "Once we have that and then we detect issues, we'll be able to actually suggest fix, and not just fix for the particular issue that's breaking the agent,",
+  "zh": "一旦我们有了这些，然后我们检测到问题，我们就能够实际建议修复方案，而且不仅仅是针对那个破坏智能体的特定问题的修复方案，"
+ },
+ {
+  "seg": 141,
+  "start": 852.676,
+  "end": 862.365,
+  "speaker": "Unknown",
+  "en": "But using the context of your environment, using the context of the application that's monitored, using the context of the agents that are being monitored, making sure that the fix actually addresses what's happening in your environment.",
+  "zh": "而是使用你环境的上下文，使用被监控应用的上下文，使用被监控智能体的上下文，确保修复方案真正解决你的环境中正在发生的问题。"
+ },
+ {
+  "seg": 142,
+  "start": 863.046,
+  "end": 875.418,
+  "speaker": "Unknown",
+  "en": "Lastly, we'll be able to drive the entire SDLC in here by providing the fix and giving you the control at the end of it to make the decision whether you want to push the feature out there, whether you want to push the fix out there or not.",
+  "zh": "最后，我们能够通过提供修复方案，并在最后给你决策控制权——是否要把功能推出去，是否要把修复方案推出去——来驱动整个 SDLC。"
+ },
+ {
+  "seg": 143,
+  "start": 876.96,
+  "end": 882.821,
+  "speaker": "Unknown",
+  "en": "So with that said, that really brings me to the end of our little pitch about Bluebox.",
+  "zh": "说到这里，关于 Bluebox 的小小推介就到此结束了。"
+ },
+ {
+  "seg": 144,
+  "start": 882.881,
+  "end": 888.922,
+  "speaker": "Unknown",
+  "en": "And what I'd like to finish with is we want to help agents ship code you trust to production.",
+  "zh": "而我想以这句话收尾：我们想要帮助智能体把你信任的代码交付到生产环境。"
+ },
+ {
+  "seg": 145,
+  "start": 889.722,
+  "end": 896.284,
+  "speaker": "Unknown",
+  "en": "So if this is interesting to you, you can go ahead and go to bluebox.ai, and you can actually sign up for a preview of it.",
+  "zh": "所以如果这让你感兴趣，你可以前往 bluebox.ai，你实际上可以注册预览。"
+ },
+ {
+  "seg": 146,
+  "start": 897.604,
+  "end": 900.865,
+  "speaker": "Unknown",
+  "en": "As soon as you do that, we'll be reaching out to you to give you access to the platform.",
+  "zh": "你一这样做，我们就会联系你，给你平台的访问权限。"
+ },
+ {
+  "seg": 147,
+  "start": 901.205,
+  "end": 902.525,
+  "speaker": "Unknown",
+  "en": "I also have in my back pocket a little",
+  "zh": "我口袋里还藏着一点"
+ },
+ {
+  "seg": 148,
+  "start": 903.325,
+  "end": 904.286,
+  "speaker": "Unknown",
+  "en": "Things that you can scan.",
+  "zh": "你们可以扫的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 904.306,
+  "end": 906.467,
+  "speaker": "Unknown",
+  "en": "So I'll just walk around the room now and give them to you.",
+  "zh": "所以我现在就在会场里走一圈，把它们发给你们。"
+ },
+ {
+  "seg": 150,
+  "start": 906.547,
+  "end": 908.088,
+  "speaker": "Unknown",
+  "en": "But with that said, we have five minutes.",
+  "zh": "不过话虽如此，我们还有五分钟。"
+ },
+ {
+  "seg": 151,
+  "start": 908.809,
+  "end": 913.392,
+  "speaker": "Unknown",
+  "en": "So if there's any questions that anybody wants to ask, we can absolutely use that time for those as well.",
+  "zh": "所以如果有人想提问，我们完全可以把这段时间用来回答。"
+ },
+ {
+  "seg": 152,
+  "start": 917.455,
+  "end": 917.915,
+  "speaker": "Unknown",
+  "en": "No questions.",
+  "zh": "没有问题。"
+ }
+]

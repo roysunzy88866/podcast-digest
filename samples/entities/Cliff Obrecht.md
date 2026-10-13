@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":6,"免费增值":2,"推理":98,"模板":1,"SEO":8,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"John Collison":3,"Canva":5,"智能体循环":6,"免费增值":2,"推理":98,"模板":1,"SEO":8,"人在回路":22}</script>
 
 <script>
 (function(){

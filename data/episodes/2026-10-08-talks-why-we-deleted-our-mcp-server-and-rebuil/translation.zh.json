@@ -1,0 +1,1186 @@
+[
+ {
+  "seg": 0,
+  "start": 13.088,
+  "end": 16.409,
+  "speaker": "Unknown",
+  "en": "So I'm Abi and I work on product here at Reducto.",
+  "zh": "我是 Abi,我在 Reducto 负责产品。"
+ },
+ {
+  "seg": 1,
+  "start": 16.689,
+  "end": 22.311,
+  "speaker": "Unknown",
+  "en": "And before I dive in right away, I wanted to give you guys some more context on what Reducto is.",
+  "zh": "在直接开始之前,我想先给大家更多关于 Reducto 是什么的背景。"
+ },
+ {
+  "seg": 2,
+  "start": 23.191,
+  "end": 34.334,
+  "speaker": "Unknown",
+  "en": "We're an agentic document platform, which basically means that we help teams turn messy unstructured documents into data that your tools and your AI agents can understand.",
+  "zh": "我们是一个智能体化文档平台,基本上意思是,我们帮助团队把混乱的非结构化文档转换成你的工具和你的 AI 智能体能理解的数据。"
+ },
+ {
+  "seg": 3,
+  "start": 34.854,
+  "end": 40.496,
+  "speaker": "Unknown",
+  "en": "I'll jump into the agents themselves in a second, but I'd like to talk about where we're at first really quick.",
+  "zh": "我马上会讲智能体本身,但我想先很快聊聊我们目前的状况。"
+ },
+ {
+  "seg": 4,
+  "start": 41.256,
+  "end": 51.779,
+  "speaker": "Unknown",
+  "en": "In the last three years, we've processed over three billion documents across customers like Harvey, ScaleAI, and top five global tech companies and hedge funds.",
+  "zh": "在过去三年里,我们在 Harvey、ScaleAI 以及全球前五的科技公司和对冲基金等客户那里处理了超过三十亿份文档。"
+ },
+ {
+  "seg": 5,
+  "start": 52.46,
+  "end": 63.463,
+  "speaker": "Unknown",
+  "en": "Running at that scale means that we've seen basically every way a document can break in production, and we've iterated our product and our models to handle basically anything that you can throw at them.",
+  "zh": "以这种规模运行意味着我们基本上见过文档在生产环境中可能出错的各种方式,我们迭代了我们的产品和模型,以应对基本上任何你扔给它们的东西。"
+ },
+ {
+  "seg": 6,
+  "start": 64.663,
+  "end": 70.504,
+  "speaker": "Unknown",
+  "en": "And getting AI to work on a clean document with a frontier model is not super hard anymore.",
+  "zh": "而且,让 AI 在一份干净的文档上用前沿模型工作,现在已经不是特别难的事了。"
+ },
+ {
+  "seg": 7,
+  "start": 71.104,
+  "end": 78.266,
+  "speaker": "Unknown",
+  "en": "We basically, like you can throw something in the Claude and you might get like 60% of the way there, but the hard part is production.",
+  "zh": "我们基本上,就像你可以把东西扔进 Claude,你可能就能完成大约 60%,但难的部分是生产环境。"
+ },
+ {
+  "seg": 8,
+  "start": 78.766,
+  "end": 82.007,
+  "speaker": "Unknown",
+  "en": "Scan documents, rotated pages, et cetera.",
+  "zh": "扫描文档、旋转的页面,等等。"
+ },
+ {
+  "seg": 9,
+  "start": 82.147,
+  "end": 87.048,
+  "speaker": "Unknown",
+  "en": "The model starts hallucinating because a large majority of enterprise data is unstructured.",
+  "zh": "模型开始产生幻觉,因为企业数据的很大一部分是非结构化的。"
+ },
+ {
+  "seg": 10,
+  "start": 87.648,
+  "end": 91.511,
+  "speaker": "Unknown",
+  "en": "And so Reducto is a layer that sits between your model and that data.",
+  "zh": "所以 Reducto 是一个位于你的模型和那些数据之间的层。"
+ },
+ {
+  "seg": 11,
+  "start": 92.011,
+  "end": 100.997,
+  "speaker": "Unknown",
+  "en": "We handle all the complex layouts and post-processing, and that way we end up working with and building a lot of agents ourselves while designing these pipelines.",
+  "zh": "我们处理所有复杂的布局和后处理,因此,在设计这些流水线的过程中,我们自己也在和很多智能体合作并构建它们。"
+ },
+ {
+  "seg": 12,
+  "start": 101.638,
+  "end": 108.342,
+  "speaker": "Unknown",
+  "en": "So now that you know a little more about what we do, I'm going to dive into our main topic with something seemingly unrelated.",
+  "zh": "所以现在你对我们的工作有了更多了解,我要用一个看似无关的东西切入我们的主题。"
+ },
+ {
+  "seg": 13,
+  "start": 109.203,
+  "end": 113.365,
+  "speaker": "Unknown",
+  "en": "I visited my girlfriend this past weekend, and she gave me a sticker from the movie Mean Girls.",
+  "zh": "上周末我去看我女朋友,她给了我一张电影《贱女孩》的贴纸。"
+ },
+ {
+  "seg": 14,
+  "start": 114.406,
+  "end": 116.969,
+  "speaker": "Unknown",
+  "en": "And basically, it was an agentified version of it.",
+  "zh": "基本上,它是一个智能体化的版本。"
+ },
+ {
+  "seg": 15,
+  "start": 117.049,
+  "end": 118.611,
+  "speaker": "Unknown",
+  "en": "So it says, get in, loser.",
+  "zh": "上面写着,上车吧,loser。"
+ },
+ {
+  "seg": 16,
+  "start": 118.631,
+  "end": 120.132,
+  "speaker": "Unknown",
+  "en": "We're building agent-first software.",
+  "zh": "我们在构建智能体优先的软件。"
+ },
+ {
+  "seg": 17,
+  "start": 120.793,
+  "end": 124.196,
+  "speaker": "Unknown",
+  "en": "And in true software engineer fashion, I had to put a sticker like that on my laptop.",
+  "zh": "以真正的软件工程师的方式,我必须把这样的贴纸贴在我的笔记本电脑上。"
+ },
+ {
+  "seg": 18,
+  "start": 125.037,
+  "end": 126.358,
+  "speaker": "Unknown",
+  "en": "And she got this from work.",
+  "zh": "这是她从公司拿到的。"
+ },
+ {
+  "seg": 19,
+  "start": 126.418,
+  "end": 129.241,
+  "speaker": "Unknown",
+  "en": "But she asked me, what is agent-first software?",
+  "zh": "但她问我,什么是智能体优先软件?"
+ },
+ {
+  "seg": 20,
+  "start": 129.281,
+  "end": 130.102,
+  "speaker": "Unknown",
+  "en": "Because she doesn't work in AI.",
+  "zh": "因为她不从事 AI 行业。"
+ },
+ {
+  "seg": 21,
+  "start": 131.474,
+  "end": 137.298,
+  "speaker": "Unknown",
+  "en": "And as I was doing so, or as I was thinking about it, I realized I have a lot of different answers.",
+  "zh": "当我思考这个的时候,我意识到我有很多不同的答案。"
+ },
+ {
+  "seg": 22,
+  "start": 137.878,
+  "end": 148.605,
+  "speaker": "Unknown",
+  "en": "Building a really good harness, building a really good API, writing or iterating on prompts, all of these don't really land on the agent being put first.",
+  "zh": "构建一个非常好的 harness、构建一个非常好的 API、编写或迭代提示词,这些其实都没有真正把智能体放在第一位。"
+ },
+ {
+  "seg": 23,
+  "start": 148.925,
+  "end": 150.686,
+  "speaker": "Unknown",
+  "en": "They're more so just optimizing the model.",
+  "zh": "它们更多只是在优化模型。"
+ },
+ {
+  "seg": 24,
+  "start": 151.166,
+  "end": 154.128,
+  "speaker": "Unknown",
+  "en": "Agent-first software is inherently an architecture problem.",
+  "zh": "智能体优先软件本质上是一个架构问题。"
+ },
+ {
+  "seg": 25,
+  "start": 155.76,
+  "end": 164.783,
+  "speaker": "Unknown",
+  "en": "And so I think that structure, that architecture really comes down to one question and that is who pays for the agent being wrong?",
+  "zh": "所以我认为这个结构、这个架构其实归结为一个问题,那就是:谁为智能体犯错买单?"
+ },
+ {
+  "seg": 26,
+  "start": 165.323,
+  "end": 168.144,
+  "speaker": "Unknown",
+  "en": "And to that I think there are like three buckets that you can put this into.",
+  "zh": "对此,我认为可以把它归入三个桶。"
+ },
+ {
+  "seg": 27,
+  "start": 168.725,
+  "end": 175.227,
+  "speaker": "Unknown",
+  "en": "So you have auto mode to start where you optimize for autonomy, you write a prompt and you let the agent do whatever it wants.",
+  "zh": "首先是自动模式,你为自主性做优化,你写一个提示词,然后让智能体随心所欲。"
+ },
+ {
+  "seg": 28,
+  "start": 175.967,
+  "end": 185.834,
+  "speaker": "Unknown",
+  "en": "And when it messes up, which it will, you won't have any idea because it's really confident about what it's doing, and you're the one that's paying for it being wrong to your customers, to your users, et cetera.",
+  "zh": "而当它搞砸的时候——它肯定会搞砸——你完全不会察觉,因为它对自己在做的事情非常自信,而你要为它的错误买单,对你的客户、你的用户等等。"
+ },
+ {
+  "seg": 29,
+  "start": 186.494,
+  "end": 187.815,
+  "speaker": "Unknown",
+  "en": "Then you have user first.",
+  "zh": "然后是用户优先。"
+ },
+ {
+  "seg": 30,
+  "start": 188.315,
+  "end": 198.382,
+  "speaker": "Unknown",
+  "en": "This is where you optimize the human interface, give the user all the knobs, and then you bolt on an agent that can't really do much, which is basically just a chatbot experience.",
+  "zh": "这是说你优化人类界面,给用户所有的旋钮,然后硬塞上一个其实做不了多少事的智能体,这基本上就是一个聊天机器人的体验。"
+ },
+ {
+  "seg": 31,
+  "start": 198.882,
+  "end": 203.265,
+  "speaker": "Unknown",
+  "en": "You've both capped the user's understanding of the product because now they can't prompt it,",
+  "zh": "你既限制了用户对产品的理解,因为现在他们无法对它进行提示,"
+ },
+ {
+  "seg": 32,
+  "start": 203.926,
+  "end": 206.491,
+  "speaker": "Unknown",
+  "en": "And the agent's capability within the product as well.",
+  "zh": "也限制了智能体在产品中的能力。"
+ },
+ {
+  "seg": 33,
+  "start": 207.153,
+  "end": 212.805,
+  "speaker": "Unknown",
+  "en": "And lastly, the bucket that I think wins here is agent experience in service of the user.",
+  "zh": "最后一个桶,也是我认为会胜出的桶,是服务用户的智能体体验。"
+ },
+ {
+  "seg": 34,
+  "start": 213.458,
+  "end": 227.026,
+  "speaker": "Unknown",
+  "en": "This is where the agent's capabilities are structured to give the model rich and scope capabilities where it can do things that the user really wants, aiding and enabling them, and even where the human can still verify the work that it's doing.",
+  "zh": "在这里,智能体的能力被结构化,为模型提供丰富且范围明确的能力,让它能做用户真正想做的事,协助并赋能他们,甚至让人仍然可以验证它正在做的工作。"
+ },
+ {
+  "seg": 35,
+  "start": 227.666,
+  "end": 237.552,
+  "speaker": "Unknown",
+  "en": "This framing is what turns agent experience into less of a question of the model and more of a question of context, capability, and overall self-improvement.",
+  "zh": "这个框架使智能体体验不再是一个关于模型的问题,而更多是一个关于上下文、能力和整体自我提升的问题。"
+ },
+ {
+  "seg": 36,
+  "start": 239.155,
+  "end": 243.24,
+  "speaker": "Unknown",
+  "en": "And here's how I discovered these buckets and came to that last point.",
+  "zh": "以下是我如何发现这些桶并得出最后那个结论的。"
+ },
+ {
+  "seg": 37,
+  "start": 243.841,
+  "end": 249.547,
+  "speaker": "Unknown",
+  "en": "At Reducto, we've been building tools that basically automate end-to-end document work through pipelines.",
+  "zh": "在 Reducto,我们一直在构建通过流水线基本实现端到端文档工作自动化的工具。"
+ },
+ {
+  "seg": 38,
+  "start": 249.988,
+  "end": 255.734,
+  "speaker": "Unknown",
+  "en": "Think that we first parse a document, then we classify it, or maybe split it into sections and then extract from it.",
+  "zh": "想象一下,我们先解析一个文档,然后对它分类,或者可能把它拆分成几个部分,然后从中提取。"
+ },
+ {
+  "seg": 39,
+  "start": 256.835,
+  "end": 261.536,
+  "speaker": "Unknown",
+  "en": "And that's in use cases like invoicing, contract management, and all these things that require human input.",
+  "zh": "这用于诸如发票、合同管理以及所有这些需要人工输入的场景。"
+ },
+ {
+  "seg": 40,
+  "start": 262.237,
+  "end": 270.979,
+  "speaker": "Unknown",
+  "en": "One thing that I noticed early on was that any of the users, especially our sales team at Reducto, was spending all their time in configuration instead of outcomes.",
+  "zh": "我很早注意到的一件事是,我们的用户,尤其是 Reducto 的销售团队,把所有时间都花在配置上,而不是结果上。"
+ },
+ {
+  "seg": 41,
+  "start": 271.639,
+  "end": 278.101,
+  "speaker": "Unknown",
+  "en": "And that's a larger problem across the board because legacy interfaces were designed for kind of building that pipeline.",
+  "zh": "这是一个更大的普遍性问题,因为遗留界面就是为构建那种流水线而设计的。"
+ },
+ {
+  "seg": 42,
+  "start": 278.761,
+  "end": 282.022,
+  "speaker": "Unknown",
+  "en": "Meanwhile, in this kind of agentic work world,",
+  "zh": "与此同时,在这种智能体工作的世界里,"
+ },
+ {
+  "seg": 43,
+  "start": 282.542,
+  "end": 288.726,
+  "speaker": "Unknown",
+  "en": "We're increasingly focused on the final deliverable and how can we get the user to that point as fast as possible.",
+  "zh": "我们越来越关注最终交付物,以及如何尽快让用户达到那个点。"
+ },
+ {
+  "seg": 44,
+  "start": 289.307,
+  "end": 292.589,
+  "speaker": "Unknown",
+  "en": "So the clear move to get here for us was an MCP server.",
+  "zh": "所以对我们来说,实现这一点的明确举措是一个 MCP server。"
+ },
+ {
+  "seg": 45,
+  "start": 292.889,
+  "end": 299.094,
+  "speaker": "Unknown",
+  "en": "Let the agent do the heavy lifting and only burden the user with thinking about their use case and writing a prompt.",
+  "zh": "让智能体做繁重的工作,只让用户负担思考他们的用例和编写提示词。"
+ },
+ {
+  "seg": 46,
+  "start": 299.814,
+  "end": 310.541,
+  "speaker": "Unknown",
+  "en": "To get some validation for the direction, I threw together an MVP with Claude Code, and every API endpoint that drove our app was given an MCP tool in one massive file.",
+  "zh": "为了获得对这个方向的验证,我用 Claude Code 拼了一个 MVP,把我们应用驱动的每一个 API endpoint 都放进一个巨大的文件里,作为 MCP 工具。"
+ },
+ {
+  "seg": 47,
+  "start": 311.142,
+  "end": 312.643,
+  "speaker": "Unknown",
+  "en": "I gave it a really pointed prompt.",
+  "zh": "我给它一个非常明确的提示词。"
+ },
+ {
+  "seg": 48,
+  "start": 312.683,
+  "end": 315.004,
+  "speaker": "Unknown",
+  "en": "I put it into Slack, and honestly, it was pretty nice.",
+  "zh": "我把它放进了 Slack,老实说,效果相当不错。"
+ },
+ {
+  "seg": 49,
+  "start": 315.905,
+  "end": 318.447,
+  "speaker": "Unknown",
+  "en": "To some extent, it should have worked in that setting.",
+  "zh": "在某种程度上,它本应该在那个场景下起作用。"
+ },
+ {
+  "seg": 50,
+  "start": 318.867,
+  "end": 320.448,
+  "speaker": "Unknown",
+  "en": "I knew exactly what I was doing.",
+  "zh": "我很清楚自己在做什么。"
+ },
+ {
+  "seg": 51,
+  "start": 320.548,
+  "end": 325.912,
+  "speaker": "Unknown",
+  "en": "I was building a really curated demo, and that's why the standalone demo told me nothing at all.",
+  "zh": "我在做一个精心打磨的演示，所以那个独立的演示什么也没告诉我。"
+ },
+ {
+  "seg": 52,
+  "start": 326.632,
+  "end": 332.995,
+  "speaker": "Unknown",
+  "en": "The real test happened when I gave the MCP to everyone on the team, and immediately it broke.",
+  "zh": "真正的考验发生在我把 MCP 交给团队每个人之后，它立刻就崩了。"
+ },
+ {
+  "seg": 53,
+  "start": 334.096,
+  "end": 335.076,
+  "speaker": "Unknown",
+  "en": "And here's how.",
+  "zh": "情况是这样的。"
+ },
+ {
+  "seg": 54,
+  "start": 335.816,
+  "end": 354.886,
+  "speaker": "Unknown",
+  "en": "Someone would feed it a half-baked description from a customer call or maybe a Notion page, and the agent would just start going and build the entire workflow end-to-end, but very confidently it would tell the user that everything it did was right, but neither the user nor the agent could explain what the workflow actually did.",
+  "zh": "有人会喂给它一个来自客户通话的半成品描述，或者一个 Notion 页面，智能体就直接开始干，端到端地构建整个工作流，而且它会非常自信地告诉用户它做的一切都是对的，但无论是用户还是智能体都无法解释这个工作流到底做了什么。"
+ },
+ {
+  "seg": 55,
+  "start": 355.786,
+  "end": 359.589,
+  "speaker": "Unknown",
+  "en": "And that is the rude awakening of auto mode in production.",
+  "zh": "这就是生产环境中 auto mode 的当头棒喝。"
+ },
+ {
+  "seg": 56,
+  "start": 360.069,
+  "end": 362.431,
+  "speaker": "Unknown",
+  "en": "The agent never really said that it's not sure.",
+  "zh": "智能体从来不会真的说它不确定。"
+ },
+ {
+  "seg": 57,
+  "start": 362.871,
+  "end": 365.053,
+  "speaker": "Unknown",
+  "en": "It handled with every tool that it had.",
+  "zh": "它把它手头所有的工具都用上了。"
+ },
+ {
+  "seg": 58,
+  "start": 365.753,
+  "end": 369.456,
+  "speaker": "Unknown",
+  "en": "And there was nowhere for a human to really validate or think about what was going on.",
+  "zh": "而人类没有任何地方可以真正验证或思考正在发生的事情。"
+ },
+ {
+  "seg": 59,
+  "start": 369.896,
+  "end": 375.48,
+  "speaker": "Unknown",
+  "en": "We built something that could communicate with our system, but we hadn't built something that could actually work with it.",
+  "zh": "我们构建了一个能与我们的系统通信的东西，但我们没有构建一个能真正与之协同工作的东西。"
+ },
+ {
+  "seg": 60,
+  "start": 376.428,
+  "end": 381.871,
+  "speaker": "Unknown",
+  "en": "And you'd think that the fix here is more detail in the system prompt or more model guidance.",
+  "zh": "你可能以为修复方法是在 system prompt 里加更多细节，或者给模型更多指导。"
+ },
+ {
+  "seg": 61,
+  "start": 382.411,
+  "end": 384.493,
+  "speaker": "Unknown",
+  "en": "But realistically, it's architecture.",
+  "zh": "但实际上，是架构。"
+ },
+ {
+  "seg": 62,
+  "start": 384.973,
+  "end": 390.076,
+  "speaker": "Unknown",
+  "en": "The whole file that we use to talk to the MCP, I deleted the entire thing in one commit.",
+  "zh": "我们用来与 MCP 通信的那整个文件，我在一次 commit 里把整个东西都删了。"
+ },
+ {
+  "seg": 63,
+  "start": 390.856,
+  "end": 393.238,
+  "speaker": "Unknown",
+  "en": "And what replaced it wasn't more tools.",
+  "zh": "而替代它的不是更多工具。"
+ },
+ {
+  "seg": 64,
+  "start": 393.498,
+  "end": 397.46,
+  "speaker": "Unknown",
+  "en": "It was mostly fewer tools, but they carried the structure of actual work.",
+  "zh": "主要是更少的工具，但它们承载了实际工作的结构。"
+ },
+ {
+  "seg": 65,
+  "start": 399.185,
+  "end": 412.388,
+  "speaker": "Unknown",
+  "en": "So for example, instead of one create step of this workflow to call over and over and just praying that the agent assembled it right in the pipeline, I built tools that understood how our internal dashboard or our product works.",
+  "zh": "所以举例来说，与其提供工作流中一个 create 步骤让人反复调用、然后祈祷智能体在管道里把它组装对，我构建了理解我们内部仪表盘或产品如何运作的工具。"
+ },
+ {
+  "seg": 66,
+  "start": 413.068,
+  "end": 421.15,
+  "speaker": "Unknown",
+  "en": "For example, a common use case with Reducto is to route our classify endpoint that classifies documents into an extract node.",
+  "zh": "比如，Reducto 的一个常见用例是把我们的 classify 端点（用于文档分类）路由到一个 extract 节点。"
+ },
+ {
+  "seg": 67,
+  "start": 421.63,
+  "end": 424.471,
+  "speaker": "Unknown",
+  "en": "And what that does is basically extract information downstream.",
+  "zh": "它的作用基本上就是在下游提取信息。"
+ },
+ {
+  "seg": 68,
+  "start": 426.562,
+  "end": 434.467,
+  "speaker": "Unknown",
+  "en": "Instead of basically letting the model guess this or figure it out through the prompt, I turned it into a single classify to extract tool.",
+  "zh": "与其让模型去猜或通过 prompt 弄清楚这一点，我把它变成了一个单一的 classify to extract 工具。"
+ },
+ {
+  "seg": 69,
+  "start": 435.067,
+  "end": 449.016,
+  "speaker": "Unknown",
+  "en": "And after each step, the agent gets contextual guidance on what actually comes next, with certain tools even chaining automatically like this one, rather than the agent having to guess or think about what is right versus being told what's right.",
+  "zh": "而且在每一步之后，智能体都会得到关于接下来实际该做什么的上下文指导，某些工具甚至会像这个一样自动串联，而不是让智能体去猜或思考什么是对的，而是被告知什么是对的。"
+ },
+ {
+  "seg": 70,
+  "start": 449.896,
+  "end": 453.564,
+  "speaker": "Unknown",
+  "en": "Now the agent doesn't get to freelance the parts that we know are true.",
+  "zh": "现在智能体没法在我们已知为真的部分上自由发挥了。"
+ },
+ {
+  "seg": 71,
+  "start": 454.266,
+  "end": 458.174,
+  "speaker": "Unknown",
+  "en": "And since agents are stateless, we even added a snapshot tool.",
+  "zh": "而且由于智能体是无状态的，我们甚至加了一个快照工具。"
+ },
+ {
+  "seg": 72,
+  "start": 459.08,
+  "end": 469.829,
+  "speaker": "Unknown",
+  "en": "So this is one call that basically hands back the live state of our pipeline from the context of the entire flow to the errors that were surfaced with really specific error codes.",
+  "zh": "这是一次调用，基本上会把我们管道的实时状态交回来——从整个流程的上下文到 surfaced 的错误，都带有非常具体的错误码。"
+ },
+ {
+  "seg": 73,
+  "start": 470.49,
+  "end": 476.174,
+  "speaker": "Unknown",
+  "en": "And that way they can reference what's actually there instead of guessing variable names, hallucinating, et cetera.",
+  "zh": "这样它们就可以引用实际存在的东西，而不是去猜变量名、产生幻觉等等。"
+ },
+ {
+  "seg": 74,
+  "start": 476.855,
+  "end": 480.298,
+  "speaker": "Unknown",
+  "en": "By moving context out of the prompt and into structure,",
+  "zh": "通过把上下文从 prompt 里移出来、移进结构里，"
+ },
+ {
+  "seg": 75,
+  "start": 480.818,
+  "end": 483.76,
+  "speaker": "Unknown",
+  "en": "The agents stopped guessing and started referencing.",
+  "zh": "智能体不再猜测，开始引用。"
+ },
+ {
+  "seg": 76,
+  "start": 484.38,
+  "end": 498.13,
+  "speaker": "Unknown",
+  "en": "And because the tools only let pipelines take the shape that we as the engineers and the product wanted, the human could follow exactly what happened and we could explain the agent's outputs to downstream users of this MCP tool.",
+  "zh": "而且因为工具只让管道呈现我们作为工程师和产品所想要的形状，人类可以准确跟随发生了什么，我们也能向这个 MCP 工具的下游用户解释智能体的输出。"
+ },
+ {
+  "seg": 77,
+  "start": 498.89,
+  "end": 503.252,
+  "speaker": "Unknown",
+  "en": "So to avoid auto mode, you don't hand your agent an API.",
+  "zh": "所以要避免 auto mode，你不要扔给智能体一个 API。"
+ },
+ {
+  "seg": 78,
+  "start": 503.672,
+  "end": 509.874,
+  "speaker": "Unknown",
+  "en": "You hand it tools that carry the overall expertise, such as the right patterns, the state, and the validators.",
+  "zh": "你要给它承载整体专业知识的工具，比如正确的模式、状态和验证器。"
+ },
+ {
+  "seg": 79,
+  "start": 510.314,
+  "end": 514.296,
+  "speaker": "Unknown",
+  "en": "So the correct path also becomes the simplest path that the MCP can take.",
+  "zh": "这样正确的路径也就成了 MCP 可以走的最简单的路径。"
+ },
+ {
+  "seg": 80,
+  "start": 515.493,
+  "end": 517.496,
+  "speaker": "Unknown",
+  "en": "So we can build good pipelines now.",
+  "zh": "所以我们现在能构建好的管道了。"
+ },
+ {
+  "seg": 81,
+  "start": 517.556,
+  "end": 518.437,
+  "speaker": "Unknown",
+  "en": "We're done, right?",
+  "zh": "我们完事了，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 519.018,
+  "end": 519.839,
+  "speaker": "Unknown",
+  "en": "Not really.",
+  "zh": "并没有。"
+ },
+ {
+  "seg": 83,
+  "start": 520.32,
+  "end": 525.868,
+  "speaker": "Unknown",
+  "en": "Thinking back to auto mode, the agent was confidently wrong and no one could see it.",
+  "zh": "回想 auto mode，智能体自信地错了，而没人能看见。"
+ },
+ {
+  "seg": 84,
+  "start": 526.989,
+  "end": 529.032,
+  "speaker": "Unknown",
+  "en": "What we just talked about fixed that for building.",
+  "zh": "我们刚才讲的修复了构建时的问题。"
+ },
+ {
+  "seg": 85,
+  "start": 529.152,
+  "end": 530.935,
+  "speaker": "Unknown",
+  "en": "The tools made this structurally legible",
+  "zh": "工具让这一切在结构上清晰可读"
+ },
+ {
+  "seg": 86,
+  "start": 531.415,
+  "end": 533.156,
+  "speaker": "Unknown",
+  "en": "And the human could follow what the agent did.",
+  "zh": "人类可以跟随智能体做了什么。"
+ },
+ {
+  "seg": 87,
+  "start": 533.717,
+  "end": 535.618,
+  "speaker": "Unknown",
+  "en": "But now the problem showed up at runtime.",
+  "zh": "但现在问题出现在运行时。"
+ },
+ {
+  "seg": 88,
+  "start": 536.158,
+  "end": 540.501,
+  "speaker": "Unknown",
+  "en": "When the outcome itself that the agent is trying to build goes wrong, who can tell?",
+  "zh": "当智能体试图构建的结果本身出错时，谁能发现？"
+ },
+ {
+  "seg": 89,
+  "start": 540.721,
+  "end": 549.007,
+  "speaker": "Unknown",
+  "en": "For example, if we had a really bad schema, or maybe the user didn't really specify the actual use case, how can we tell that the agent did something wrong?",
+  "zh": "比如，如果我们的 schema 很糟糕，或者用户没有真正说明实际用例，我们怎么知道智能体做错了什么？"
+ },
+ {
+  "seg": 90,
+  "start": 549.927,
+  "end": 552.069,
+  "speaker": "Unknown",
+  "en": "And with agents, it goes wrong quietly.",
+  "zh": "而对智能体来说，出错是悄悄发生的。"
+ },
+ {
+  "seg": 91,
+  "start": 552.189,
+  "end": 565.358,
+  "speaker": "Unknown",
+  "en": "So instead of a seg fault or some actual error, the pipeline runs across 100 documents and maybe it missed a scan on page 30 or maybe the user didn't specify what types of documents were going into the pipeline.",
+  "zh": "所以不是段错误或某个真正的报错，而是管道跑了一百个文档，也许它漏掉了第 30 页的一次扫描，或者也许用户没有说明有哪些类型的文档会进入管道。"
+ },
+ {
+  "seg": 92,
+  "start": 566.84,
+  "end": 570.201,
+  "speaker": "Unknown",
+  "en": "And basically both of these things are the same failure.",
+  "zh": "基本上这两种情况是同一种失败。"
+ },
+ {
+  "seg": 93,
+  "start": 570.641,
+  "end": 577.944,
+  "speaker": "Unknown",
+  "en": "The agent itself is very confidently wrong and the uncertainty that the agent has is completely invisible.",
+  "zh": "智能体本身非常自信地错了，而智能体所拥有的不确定性完全不可见。"
+ },
+ {
+  "seg": 94,
+  "start": 578.584,
+  "end": 585.827,
+  "speaker": "Unknown",
+  "en": "So everything that we did to fix this basically came down to one change which was making uncertainty really legible.",
+  "zh": "所以我们为修复这个问题所做的一切，基本上归结为一个改动，那就是让不确定性真正清晰可读。"
+ },
+ {
+  "seg": 95,
+  "start": 586.78,
+  "end": 590.644,
+  "speaker": "Unknown",
+  "en": "In our system, or with Reducto, failures carry information.",
+  "zh": "在我们的系统里，或者说在 Reducto，失败携带着信息。"
+ },
+ {
+  "seg": 96,
+  "start": 590.724,
+  "end": 597.411,
+  "speaker": "Unknown",
+  "en": "So with Extract, we output confidence scores, bounding boxes, all of this information about what went wrong.",
+  "zh": "所以 Extract 会输出置信度分数、边界框，所有这些关于哪里出了错的信息。"
+ },
+ {
+  "seg": 97,
+  "start": 597.892,
+  "end": 607.942,
+  "speaker": "Unknown",
+  "en": "And we were able to build tools that feed that information back into the model, which actually helped optimize the Extract schema over time and get more accurate document outputs.",
+  "zh": "而我们能够构建把这些信息反馈给模型的工具，这实际上帮助长期优化 Extract 的 schema，并获得更准确的文档输出。"
+ },
+ {
+  "seg": 98,
+  "start": 608.683,
+  "end": 611.525,
+  "speaker": "Unknown",
+  "en": "But that's just the outcome uncertainty.",
+  "zh": "但那只是结果层面的不确定性。"
+ },
+ {
+  "seg": 99,
+  "start": 611.625,
+  "end": 614.426,
+  "speaker": "Unknown",
+  "en": "The agent also has to surface its own uncertainty.",
+  "zh": "智能体还必须把自身的不确定性呈现出来。"
+ },
+ {
+  "seg": 100,
+  "start": 615.046,
+  "end": 624.491,
+  "speaker": "Unknown",
+  "en": "When it hits something ambiguous, two ways to read a field or a document type that it hasn't seen, it shouldn't guess and it shouldn't just pause exactly where it is.",
+  "zh": "当它遇到含糊的东西时，比如一个没见过的字段有两种读法，或者一种没见过的文档类型，它不应该猜，也不应该就在原地暂停。"
+ },
+ {
+  "seg": 101,
+  "start": 625.152,
+  "end": 629.814,
+  "speaker": "Unknown",
+  "en": "And rather, it should ask, I can read this two ways and tell the user, what did you mean?",
+  "zh": "而是应该询问，「我可以有两种读法」，然后告诉用户，「你是什么意思？」"
+ },
+ {
+  "seg": 102,
+  "start": 631.735,
+  "end": 647.194,
+  "speaker": "Unknown",
+  "en": "Basically, in our evals, we started failing the agent for building any shaky assumptions, and we gave our harness prompt guidance to use the ask user question tools, et cetera, that Claude Code and other frontier harnesses offer instead of guessing.",
+  "zh": "基本上，在我们的评估中，我们开始把任何建立了不可靠假设的智能体判为失败，并且我们在 harness 的提示词指引中要求使用「向用户提问」等工具，也就是 Claude Code 和其他前沿 harness 所提供的，而不是靠猜。"
+ },
+ {
+  "seg": 103,
+  "start": 647.334,
+  "end": 649.256,
+  "speaker": "Unknown",
+  "en": "So we rewarded asking instead of guessing.",
+  "zh": "所以我们奖励的是提问，而不是猜测。"
+ },
+ {
+  "seg": 104,
+  "start": 650.077,
+  "end": 653.118,
+  "speaker": "Unknown",
+  "en": "And judgment doesn't live in the agent alone.",
+  "zh": "而且判断力并不只存在于智能体本身。"
+ },
+ {
+  "seg": 105,
+  "start": 653.458,
+  "end": 663.24,
+  "speaker": "Unknown",
+  "en": "This entire pipeline is still overseen by the user, and the confidence and the reasoning of the agent was then outputted as basically prompt guidance in the MCP.",
+  "zh": "整条流水线仍然由用户监督，而智能体的置信度和推理随后被输出为 MCP 中的提示词指引。"
+ },
+ {
+  "seg": 106,
+  "start": 663.661,
+  "end": 672.783,
+  "speaker": "Unknown",
+  "en": "So now, every time you make something new, it explains to the user what it did and why, so the user can then review it, inherently acting in service of the user.",
+  "zh": "所以现在，每次你构建新东西时，它都会向用户解释它做了什么以及为什么，这样用户就可以进行审查，从内在上就是在为用户服务。"
+ },
+ {
+  "seg": 107,
+  "start": 674.416,
+  "end": 681.5,
+  "speaker": "Unknown",
+  "en": "The agent basically satisfies what you wrote and not the outcome that you wanted.",
+  "zh": "智能体基本上满足的是你所写的东西，而不是你想要的结果。"
+ },
+ {
+  "seg": 108,
+  "start": 681.601,
+  "end": 702.854,
+  "speaker": "Unknown",
+  "en": "So what happens if you make the uncertainty basically a bit more legible and you keep the final judgment where it can actually be accountable in the hands of the human, then that one clarifying question does the work of all three, giving the model context, capability, and also adding a human in the loop to actually build that judgment and verify things as well.",
+  "zh": "所以，如果你把不确定性变得更清晰一些，并且把最终判断保留在真正可以问责的人的手中，那么那一个澄清性的问题就同时完成了三件事：给模型提供上下文、提供能力，还加入了一个人类在环，真正建立判断力并验证结果。"
+ },
+ {
+  "seg": 109,
+  "start": 704.473,
+  "end": 712.757,
+  "speaker": "Unknown",
+  "en": "So going back to kind of all of these failure modes overall, we had initially an auto mode that nobody could inspect.",
+  "zh": "回顾所有这些失败模式，我们最初有一个没人能检查的自动模式。"
+ },
+ {
+  "seg": 110,
+  "start": 713.317,
+  "end": 716.338,
+  "speaker": "Unknown",
+  "en": "We had wrong answers that basically arrived in silence.",
+  "zh": "我们有错误的答案悄无声息地到来。"
+ },
+ {
+  "seg": 111,
+  "start": 716.899,
+  "end": 721.261,
+  "speaker": "Unknown",
+  "en": "And then an agent that passed the test by reward hacking or hiding what it did.",
+  "zh": "还有一个通过奖励作弊或隐藏自己行为来通过测试的智能体。"
+ },
+ {
+  "seg": 112,
+  "start": 722.041,
+  "end": 729.885,
+  "speaker": "Unknown",
+  "en": "And underneath, they're basically one shape where the agent had more autonomy and more access than the human could verify.",
+  "zh": "而在底层，它们基本上是同一个形状：智能体拥有的自主权和访问权限超出了人类所能验证的范围。"
+ },
+ {
+  "seg": 113,
+  "start": 730.788,
+  "end": 734.869,
+  "speaker": "Unknown",
+  "en": "And that intelligence lives in the construction overall.",
+  "zh": "而智能其实存在于整体的结构之中。"
+ },
+ {
+  "seg": 114,
+  "start": 734.989,
+  "end": 746.231,
+  "speaker": "Unknown",
+  "en": "So building the pipeline, generating the schema, and pulling in the right context is where the agent is most powerful and where a mistake is the cheapest because the human is right there.",
+  "zh": "所以构建流水线、生成 schema、拉取正确的上下文，是智能体最强大、也是犯错代价最低的地方，因为人类就在旁边。"
+ },
+ {
+  "seg": 115,
+  "start": 746.711,
+  "end": 754.653,
+  "speaker": "Unknown",
+  "en": "By building for that interface, we were able to also have user satisfaction go up with the MCP because they could really see what was going on.",
+  "zh": "通过为那个界面而构建，我们也让用户满意度随 MCP 一起上升了，因为他们能真正看清正在发生什么。"
+ },
+ {
+  "seg": 116,
+  "start": 755.693,
+  "end": 764.061,
+  "speaker": "Unknown",
+  "en": "And by using Reducto for the document layer, we can guarantee accurate parses and extractions for parts of the pipeline that we can't trust agents with.",
+  "zh": "而通过在文档层使用 Reducto，我们可以为流水线中那些无法托付给智能体的部分保证准确的解析和抽取。"
+ },
+ {
+  "seg": 117,
+  "start": 764.681,
+  "end": 772.589,
+  "speaker": "Unknown",
+  "en": "Where the agent operates, it earns trust by being verifiable, correct, and building trust in service of the user.",
+  "zh": "在智能体运行的地方，它通过可验证、正确、以及为用户服务来赢得信任。"
+ },
+ {
+  "seg": 118,
+  "start": 773.429,
+  "end": 777.193,
+  "speaker": "Unknown",
+  "en": "And the whole conversation we had about legibility overall",
+  "zh": "而我们之前关于可读性的整段讨论，"
+ },
+ {
+  "seg": 119,
+  "start": 777.693,
+  "end": 779.256,
+  "speaker": "Unknown",
+  "en": "is what inherently pays off.",
+  "zh": "正是从内在上产生回报的地方。"
+ },
+ {
+  "seg": 120,
+  "start": 779.777,
+  "end": 789.091,
+  "speaker": "Unknown",
+  "en": "Agents are just intelligence in a box and the harness that you surround them with is what provides them with the ability to deliver these outcomes downstream.",
+  "zh": "智能体只是盒子里的智能，而你围绕它们构建的 harness 才是赋予它们能力、在下游交付这些成果的东西。"
+ },
+ {
+  "seg": 121,
+  "start": 790.117,
+  "end": 797.841,
+  "speaker": "Unknown",
+  "en": "And so once we reach this point, we focus on instrumentation where every MCP session, the prompts that were sent from the model were logged.",
+  "zh": "所以当我们到达这一步后，我们把重点放在了仪表化上：每个 MCP 会话中，从模型发出的提示词都被记录下来。"
+ },
+ {
+  "seg": 122,
+  "start": 798.282,
+  "end": 812.269,
+  "speaker": "Unknown",
+  "en": "And we even asked our sales team and other people on the team to basically export their Claude code sessions to understand how the model was behaving, where humans overrode the agent, where confidence of the model ran low, and where it asked questions.",
+  "zh": "我们甚至请我们的销售团队和团队里的其他人导出他们的 Claude code 会话，以了解模型的表现如何、人类在哪里覆盖了智能体、模型的置信度在哪里变低、以及它在哪里提问。"
+ },
+ {
+  "seg": 123,
+  "start": 812.79,
+  "end": 814.791,
+  "speaker": "Unknown",
+  "en": "And because we added all this instrumentation,",
+  "zh": "而且因为我们添加了所有这些仪表化，"
+ },
+ {
+  "seg": 124,
+  "start": 816.6,
+  "end": 820.663,
+  "speaker": "Unknown",
+  "en": "It flowed back into the long-term guidance that the MCP had overall.",
+  "zh": "它回流到了 MCP 整体的长期指引之中。"
+ },
+ {
+  "seg": 125,
+  "start": 821.263,
+  "end": 825.346,
+  "speaker": "Unknown",
+  "en": "So the system got better at building pipelines by building more pipelines.",
+  "zh": "于是这个系统通过构建更多流水线，变得越来越擅长构建流水线。"
+ },
+ {
+  "seg": 126,
+  "start": 825.766,
+  "end": 832.67,
+  "speaker": "Unknown",
+  "en": "Without us rewriting by hand, this then became a self-improving loop per org or per user that was building these pipelines.",
+  "zh": "在我们不用手工重写的情况下，这就变成了每个组织或每个用户构建这些流水线时的一个自我改进循环。"
+ },
+ {
+  "seg": 127,
+  "start": 833.351,
+  "end": 844.338,
+  "speaker": "Unknown",
+  "en": "The foundation became overall the same decision where we kept the model very guided and very inspectable, and the information around it became everything else that actually guided the model.",
+  "zh": "整体的基石还是同一个决策：我们让模型保持高度的受引导和高度的可检查，而围绕它的信息则成为真正引导模型的其他一切。"
+ },
+ {
+  "seg": 128,
+  "start": 845.312,
+  "end": 861.569,
+  "speaker": "Unknown",
+  "en": "And so one thing that kind of told me that we were doing something right with these improvements is I never explicitly told the sales team to use the agent to build pipelines, but rather I just exposed it in our Claude enterprise as reducto tools.",
+  "zh": "有一件事告诉我，这些改进说明我们做对了什么：我从未明确告诉销售团队用这个智能体来构建流水线，而只是把它作为 reducto 工具暴露在我们的 Claude enterprise 中。"
+ },
+ {
+  "seg": 129,
+  "start": 862.349,
+  "end": 867.431,
+  "speaker": "Unknown",
+  "en": "And the sales team and various other people on the team started basically wiring it into their workflow.",
+  "zh": "然后销售团队和团队里的其他人开始基本上把它接入到他们的工作流程中。"
+ },
+ {
+  "seg": 130,
+  "start": 867.471,
+  "end": 880.515,
+  "speaker": "Unknown",
+  "en": "So before they had a customer call, they would use Circleback or Slack and basically learn about the customer and then use the MCP to basically ask them questions about the customer and then build a pipeline for that customer downstream.",
+  "zh": "所以在他们和客户通话之前，他们会用 Circleback 或 Slack 基本上了解一下客户，然后用 MCP 向他们询问关于该客户的问题，然后在下游为那个客户构建一条流水线。"
+ },
+ {
+  "seg": 131,
+  "start": 881.215,
+  "end": 893.626,
+  "speaker": "Unknown",
+  "en": "So when an agent's experience was built really in service of the users that were using it, we weren't pushing people directly toward it, and rather they reached for it and actually started using it as a company-wide resource.",
+  "zh": "所以当一个智能体的体验真正是为了使用它的用户而构建时，我们并没有直接把人们推向它，而是他们主动伸手去用它，并真正开始把它当作全公司的资源来使用。"
+ },
+ {
+  "seg": 132,
+  "start": 894.166,
+  "end": 908.899,
+  "speaker": "Unknown",
+  "en": "And that's where they also started to trust the output enough to put this in front of high-value customers because the demo didn't just work, but the human actually said, hey, I built this, come check it out, and it actually paid off in these sales calls.",
+  "zh": "那也是他们开始足够信任输出、愿意把它放到高价值客户面前的地方，因为这个演示不只是能跑通，而是人类真的会说，「嘿，这是我构建的，来看看吧」，而且它在这些销售通话中确实带来了回报。"
+ },
+ {
+  "seg": 133,
+  "start": 909.399,
+  "end": 912.725,
+  "speaker": "Unknown",
+  "en": "And I hope the Slack reactions can also help gauge that a little bit.",
+  "zh": "我希望 Slack 上的表情反应也能在一定程度上说明这一点。"
+ },
+ {
+  "seg": 134,
+  "start": 915.67,
+  "end": 924.817,
+  "speaker": "Unknown",
+  "en": "Overall, a few months ago, I would have told you that agent first means that you have the best model, the best inference, speed, or intelligence of the model.",
+  "zh": "总的来说，几个月前，我会告诉你，智能体优先意味着你要拥有最好的模型、最好的推理、速度或模型的智能。"
+ },
+ {
+  "seg": 135,
+  "start": 925.437,
+  "end": 933.263,
+  "speaker": "Unknown",
+  "en": "And with models getting better from closed source to open source, from expensive to cheap, I think it now means almost the opposite of what it sounds.",
+  "zh": "而随着模型从闭源到开源、从昂贵到便宜不断变好，我认为它现在的含义几乎和字面意思相反。"
+ },
+ {
+  "seg": 136,
+  "start": 933.764,
+  "end": 935.925,
+  "speaker": "Unknown",
+  "en": "To some extent, the agent doesn't go first.",
+  "zh": "在某种程度上，智能体并不走在最前面。"
+ },
+ {
+  "seg": 137,
+  "start": 936.666,
+  "end": 944.692,
+  "speaker": "Unknown",
+  "en": "And to build for agent experience means you have to consider the agent being in the loop with the people who have to answer for the work downstream.",
+  "zh": "为智能体体验而构建，意味着你必须考虑到智能体与那些要为下游工作负责的人一起处于循环之中。"
+ },
+ {
+  "seg": 138,
+  "start": 945.607,
+  "end": 948.729,
+  "speaker": "Unknown",
+  "en": "So it's not just what does the agent connect to.",
+  "zh": "所以这不只是智能体连接到什么。"
+ },
+ {
+  "seg": 139,
+  "start": 949.169,
+  "end": 953.752,
+  "speaker": "Unknown",
+  "en": "Everyone's agent connects to everything nowadays, and Claude can make a new connector for you immediately.",
+  "zh": "如今每个人的智能体都连接到一切，而且 Claude 可以立刻为你做一个新的连接器。"
+ },
+ {
+  "seg": 140,
+  "start": 954.413,
+  "end": 962.618,
+  "speaker": "Unknown",
+  "en": "But beyond that, it's when your agent is really confidently wrong, who finds out and how fast do they find out?",
+  "zh": "但除此之外，关键在于：当你的智能体自信地出错时，谁会发现？他们多快会发现？"
+ },
+ {
+  "seg": 141,
+  "start": 963.298,
+  "end": 968.862,
+  "speaker": "Unknown",
+  "en": "If you build for that, then you can build for something that people will actually trust with real work.",
+  "zh": "如果你为此而构建，那么你就能构建出人们真正愿意托付实际工作的东西。"
+ },
+ {
+  "seg": 142,
+  "start": 970.313,
+  "end": 971.895,
+  "speaker": "Unknown",
+  "en": "And yeah, that's about it.",
+  "zh": "好的，大概就是这些。"
+ },
+ {
+  "seg": 143,
+  "start": 971.955,
+  "end": 972.515,
+  "speaker": "Unknown",
+  "en": "Thank you, guys.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 144,
+  "start": 973.076,
+  "end": 975.297,
+  "speaker": "Unknown",
+  "en": "And also, we're at Reducto's at a booth P8.",
+  "zh": "另外，我们在 Reducto 的展位 P8。"
+ },
+ {
+  "seg": 145,
+  "start": 975.478,
+  "end": 977.499,
+  "speaker": "Unknown",
+  "en": "And we are hiring for lots of positions.",
+  "zh": "我们正在招聘很多职位。"
+ },
+ {
+  "seg": 146,
+  "start": 977.579,
+  "end": 980.722,
+  "speaker": "Unknown",
+  "en": "So please come check it out at ReductoAI.careers.",
+  "zh": "欢迎到 ReductoAI.careers 看看。"
+ },
+ {
+  "seg": 147,
+  "start": 981.623,
+  "end": 981.923,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

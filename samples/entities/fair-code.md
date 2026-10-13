@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jan Oberhauser]] · [[n8n]] · [[智能体]] · [[工作流]] · [[开源]] · [[LLM]] · [[人在回路]] · [[自托管]] · [[自带密钥]] · [[编排]]
 
-<script type="application/json" class="pd-epn">{"Jan Oberhauser":2,"n8n":4,"智能体":492,"工作流":13,"开源":41,"LLM":64,"人在回路":21,"自托管":2,"自带密钥":1,"编排":8}</script>
+<script type="application/json" class="pd-epn">{"Jan Oberhauser":2,"n8n":4,"智能体":495,"工作流":13,"开源":41,"LLM":64,"人在回路":22,"自托管":2,"自带密钥":1,"编排":8}</script>
 
 <script>
 (function(){

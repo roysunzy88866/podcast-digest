@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权":2,"合伙制领导":1,"社会变迁造品牌":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"ON":1,"light spray":1,"Clean Cloud 泡沫":1,"创新":1,"高端(非奢侈)定位":1,"运动阶层":1,"股权":2,"合伙制领导":1,"社会变迁造品牌":1}</script>
 
 <script>
 (function(){

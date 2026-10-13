@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[AI]] · [[对齐]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Claude]] · [[开源 AI]] · [[Reid Hoffman]] · [[超级智能]]
 
-<script type="application/json" class="pd-epn">{"智能体":492,"AI":33,"对齐":25,"Anthropic":203,"OpenAI":199,"ChatGPT":111,"Claude":96,"开源 AI":2,"Reid Hoffman":2,"超级智能":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":495,"AI":34,"对齐":25,"Anthropic":203,"OpenAI":199,"ChatGPT":111,"Claude":97,"开源 AI":2,"Reid Hoffman":2,"超级智能":12}</script>
 
 <script>
 (function(){

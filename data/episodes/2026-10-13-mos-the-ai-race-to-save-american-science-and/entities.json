@@ -1,0 +1,529 @@
+{
+  "episode_id": "2026-10-13-mos-the-ai-race-to-save-american-science-and",
+  "podcast": "Masters of Scale",
+  "date": "2026-10-13",
+  "tags": [
+    "AI 与科学",
+    "科研经费",
+    "具身知识",
+    "生物科技",
+    "创业公司"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "renee-wigerzen",
+      "type": "person",
+      "role": "host",
+      "name": "Renee Wigerzen",
+      "file": "Renee Wigerzen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            102.229,
+            109.352
+          ],
+          "quote": "That's Renee Wigerzen, founding director of ARPA-H, the federal agency created to speed up health science breakthroughs.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 30,
+          "t": [
+            157.326,
+            161.169
+          ],
+          "quote": "I'm here with Dr. Renee Wigerzen, co-founder of Transfer.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1118.613,
+            1127.498
+          ],
+          "quote": "Before the break, ARPA-H founding director Renee Wigerzen talked about why magic hands inside a lab are so valuable and so hard to pass on.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "bob-safian",
+      "type": "person",
+      "role": "cohost",
+      "name": "Bob Safian",
+      "file": "Bob Safian",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            146.964,
+            150.425
+          ],
+          "quote": "I'm Bob Safian, and this is Rapid Response.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 29,
+          "t": [
+            156.205,
+            157.226
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1814.634,
+            1816.557
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1873.626,
+            1874.727
+          ],
+          "quote": "I'm Bob Safian.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "transfer",
+      "type": "company",
+      "role": "company",
+      "name": "Transfer",
+      "file": "Transfer",
+      "primary": true,
+      "how_described": "本集主线公司：Renee Wigerzen 联合创立的公司，给科学家戴轻量摄像头、用计算机视觉录制实验全程，再用 AI 挖掘哪些细节决定实验成败，打造『物理 AI 基础设施』",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            109.832,
+            115.415
+          ],
+          "quote": "Renee is now chief innovation officer of TRANSFER, which she co-founded after leaving government.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 30,
+          "t": [
+            157.326,
+            161.169
+          ],
+          "quote": "I'm here with Dr. Renee Wigerzen, co-founder of Transfer.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 78,
+          "t": [
+            343.024,
+            351.73
+          ],
+          "quote": "I mean, you worked in the private sector even before your current thing at Ginkgo Bioworks, where transfer co-founder Anne-Marie Wagner was head of AI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 86,
+          "t": [
+            390.524,
+            396.713
+          ],
+          "quote": "So your new business transfer, I saw the New York Times wrote about you and the article kept referring to magic hands.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 88,
+          "t": [
+            399.156,
+            402.721
+          ],
+          "quote": "What problem is transfer trying to solve or address?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 104,
+          "t": [
+            442.006,
+            447.31
+          ],
+          "quote": "And so the pipeline that we're creating at Transfer is, can we create computer vision and",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 127,
+          "t": [
+            569.379,
+            575.923
+          ],
+          "quote": "And so it's rethinking, like, how do you make sure that you can transfer that knowledge off the back end of a program?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 135,
+          "t": [
+            612.45,
+            618.394
+          ],
+          "quote": "And instead of the way we transfer science today, which is looking over each other's shoulders to say, oh, you're doing it wrong a little bit,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 137,
+          "t": [
+            626.927,
+            635.59
+          ],
+          "quote": "The procedural parts of transfer could sound less sexy than claims about how AI can design new drugs, but you're doing some cool stuff.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 160,
+          "t": [
+            746.496,
+            762.808
+          ],
+          "quote": "And that's really this physical AI infrastructure that we're creating is intended to just kind of break open some of those bottlenecks so that we can do one-shot tech transfer of manufacturing to scale up quickly, which is important to get, you know, cures to patients faster, candidly.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "arpa-h",
+      "type": "concept",
+      "role": "concept",
+      "name": "ARPA-H",
+      "file": "ARPA-H",
+      "primary": true,
+      "how_described": "本集说它是为加速健康科学突破而创建的联邦机构，Renee 是其首任主任；擅长冲到最初突破，但后续落地没有保证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            102.229,
+            109.352
+          ],
+          "quote": "That's Renee Wigerzen, founding director of ARPA-H, the federal agency created to speed up health science breakthroughs.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 34,
+          "t": [
+            165.171,
+            173.818
+          ],
+          "quote": "You and I first connected when you were at ARPA-H, the inaugural director of a White House effort to accelerate health research.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 41,
+          "t": [
+            191.894,
+            195.677
+          ],
+          "quote": "I hope ARPA-H will have the same and continues to live on today.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 50,
+          "t": [
+            221.48,
+            226.586
+          ],
+          "quote": "We needed an ARPA-H because the way that we were doing science broadly, there was something missing, which was",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 85,
+          "t": [
+            378.181,
+            390.164
+          ],
+          "quote": "In fact, that was one of the mandates of ARPA-H was to be able to identify failures and to not pursue work streams that were no longer really delivering on the science.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            480.993,
+            488.096
+          ],
+          "quote": "Like, was this an issue you saw at ARPA-H, the sort of breakthroughs that were trapped in a single lab in some ways?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 117,
+          "t": [
+            508.868,
+            516.016
+          ],
+          "quote": "And where that manifested at DARPA and at ARPA-H is just a realization through my career of how fragile breakthroughs are.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 125,
+          "t": [
+            548.129,
+            553.73
+          ],
+          "quote": "And so when I started ARPA-H, we wanted customers who would be the final users of that technology",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            956.833,
+            958.955
+          ],
+          "quote": "Something I tried to teach my team at ARPA-H was",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1118.613,
+            1127.498
+          ],
+          "quote": "Before the break, ARPA-H founding director Renee Wigerzen talked about why magic hands inside a lab are so valuable and so hard to pass on.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1548.846,
+            1565.635
+          ],
+          "quote": "It's, it is, I mean, that is, that is part of the motivation to, to, you know, do ARPA-H in the first place, was like, like, we have to use these incredible resources that are taxpayer dollars in like, in a really purposeful way to solve real problems for Americans.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1698.389,
+            1710.136
+          ],
+          "quote": "And so when you started ARPA-H, the timing-wise was around COVID, but what I realized is that each individual person has a Sputnik moment in their life that is usually health-related, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ginkgo-bioworks",
+      "type": "company",
+      "role": "company",
+      "name": "Ginkgo Bioworks",
+      "file": "Ginkgo Bioworks",
+      "primary": true,
+      "how_described": "本集说 Renee 和联合创始人 Anne-Marie 都曾在此工作（Anne-Marie 任 AI 负责人），疫情期间它支持全国检测工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            343.024,
+            351.73
+          ],
+          "quote": "I mean, you worked in the private sector even before your current thing at Ginkgo Bioworks, where transfer co-founder Anne-Marie Wagner was head of AI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1265.548,
+            1272.914
+          ],
+          "quote": "You and your co-founder, Anne-Marie, you both worked at Ginkgo Bioworks, which focuses on genetics.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "embodied-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "具身知识 (embodied knowledge)",
+      "file": "具身知识",
+      "primary": true,
+      "how_described": "本集说它是科学家做但不写下来的东西——如提前贴好试管标签省10分钟、轻轻倒转试管而非震荡——顶尖科学家的『魔法之手』正源于此",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            490.097,
+            492.078
+          ],
+          "quote": "I would call it more like embodied knowledge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 116,
+          "t": [
+            504.644,
+            508.408
+          ],
+          "quote": "So that embodied knowledge and all of those little decisions is really what we're capturing.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机视觉 (computer vision)",
+      "file": "计算机视觉",
+      "primary": true,
+      "how_described": "本集说 Transfer 正在打造计算机视觉与感知工具，在科学工作进行时将其捕捉下来，理解协议中『混匀细胞』背后各自不同的实际操作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            442.006,
+            447.31
+          ],
+          "quote": "And so the pipeline that we're creating at Transfer is, can we create computer vision and",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI 基础设施 (physical AI infrastructure)",
+      "file": "物理 AI 基础设施",
+      "primary": true,
+      "how_described": "本集说这是 Transfer 正在创造的东西，目的是打破实验室间测定方法转移、制造放大等管线瓶颈，让病人更快获得疗法",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            746.496,
+            762.808
+          ],
+          "quote": "And that's really this physical AI infrastructure that we're creating is intended to just kind of break open some of those bottlenecks so that we can do one-shot tech transfer of manufacturing to scale up quickly, which is important to get, you know, cures to patients faster, candidly.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "frontier-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿 AI 模型 (Frontier AI)",
+      "file": "前沿 AI 模型",
+      "primary": true,
+      "how_described": "本集说前沿 AI 公司每周都发布新模型，Transfer 持续评估测试、哪个在任务上表现最好就用哪个，约每两周可能换底座，并向这些公司反馈模型短板",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1375.828,
+            1379.552
+          ],
+          "quote": "There's a new model published every week from all of the Frontier AI companies.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1390.782,
+            1395.646
+          ],
+          "quote": "It's also how we can work really closely with the Frontier AI companies to say, hey,",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主实验室 (autonomous labs)",
+      "file": "自主实验室",
+      "primary": true,
+      "how_described": "本集说所谓自主实验室里人仍在回路中：疫情间很多实验室操作员把96孔板放反的比例达两位数，机器人没错，出错的是没被观察到的人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1128.099,
+            1136.884
+          ],
+          "quote": "Now she talks about autonomous labs, how to adjust at the speed of AI frontier models, and searching for the next Sputnik moment.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1201.169,
+            1204.03
+          ],
+          "quote": "I mean, you hear about these autonomous labs, but there are...",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "hallucinate",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucinate)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集说生成式模型确实会幻觉、编造东西，比如认出移液器却把100微升认成200微升，所以每步都有人工裁定复核",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1452.162,
+            1460.144
+          ],
+          "quote": "Yeah, because I mean, as we know, these generative models do hallucinate or do make things up and you don't want that happening in the lab.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 智能体 (AI agent)",
+      "file": "AI 智能体",
+      "primary": false,
+      "how_described": "本集举例说如果今天问一个 AI 智能体人类怎么做科学，它只会回答提出假设、发表材料与方法部分——说明现有记录丢失了真实实验过程",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            875.64,
+            877.681
+          ],
+          "quote": "You know, if you asked an AI agent today,",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

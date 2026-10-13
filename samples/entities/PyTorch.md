@@ -29,7 +29,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[Jensen Huang]] · [[Charles Frye]] · [[Amin Vahdat]] · [[Jerry]] · [[Modal]] · [[Google]] · [[Sega]] · [[SGLang]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":70,"智能体":492,"Jensen Huang":4,"Charles Frye":1,"Amin Vahdat":1,"Jerry":1,"Modal":7,"Google":71,"Sega":1,"SGLang":4}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":70,"智能体":495,"Jensen Huang":4,"Charles Frye":1,"Amin Vahdat":1,"Jerry":1,"Modal":7,"Google":71,"Sega":1,"SGLang":4}</script>
 
 <script>
 (function(){

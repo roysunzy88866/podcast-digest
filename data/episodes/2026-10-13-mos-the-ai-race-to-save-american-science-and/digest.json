@@ -1,0 +1,167 @@
+{
+  "title_zh": "科学家的「魔法之手」，能被AI学会吗？",
+  "tldr": "ARPA-H 首任主任 Renee Wigerzen 谈美国科研经费危机，以及她如何用AI捕捉实验室里说不清、写不下的隐性经验。",
+  "digest_md": "美国联邦科研经费正在被大幅削减，科学界一片混乱。Renee Wigerzen 曾是白宫 ARPA-H 研究机构的首任主任，如今和 Ginkgo Bioworks 前AI负责人 Anne-Marie Wagner 联合创办了 Transfer。她和主持人 Bob Safian 聊了两件事：美国科学的处境有多危险，以及为什么实验室里那些说不出口的手艺，才是AI真正该学的东西。\n\n## 为什么美国科学输不起？\n\nRenee 开场就说了一句很重的话：今天在美国做科学的人，从来没有经历过美国不领先的时代。但她认为，这份竞争力、这个领先地位，可能真的会丢掉——而且她没看到美国在用应有的方式去争 [26:58 Wigerzen]。\n\n她的紧迫感很具体。在 ARPA-H 时，她的项目经理任期是3年，她会提醒对方：每过两星期，你的时间就消耗了1%。她用同样的算法看国家：**面对可能的失败，每拖两周，就是1%的时间没了**。\n\n联邦经费削减带来的混乱和损失是真实的，她不否认。但她也从危机里看到了一件被忽视已久的事。\n\n## 科研经费的单一股票问题\n\nRenee 打了个比方：没有人的退休金账户会把90%押在一只股票上，可**美国科研经费的来源却高度集中在联邦拨款这一个篮子里** [04:49 Wigerzen]。\n\n这次危机逼着所有人重新思考：大学能不能把自己产出的知识产权变成收入？私人部门能不能更多地参与基础研究？她说，这种被迫的改变，恰恰让她感到乐观。\n\n## 实验室里的魔法之手是什么？\n\n《纽约时报》报道她的公司时反复提到一个词：魔法之手。她解释说，就像家里总有一道菜只有奶奶做得出来，别人照着菜谱做也不对味——科学界也一样，有些科学家就是能一次又一次做出漂亮的结果。\n\n问题在于，**这些专家自己都说不清是怎么做到的**。协议上写着混匀细胞，但那位高手是轻轻倒转试管，而另一个人可能用力震荡，直接毁掉样品。这种具身知识——比如提前把所有试管贴好标签、省下10分钟——从不会被写进论文 [08:10 Wigerzen]。\n\nTransfer 做的事，就是给科学家戴上轻量摄像头，用计算机视觉把实验全程录下来，再用AI去挖掘：到底哪些细节决定了成败。\n\n## 论文不是终点，是发令枪\n\n一个突破第一次被世界知道，通常是一篇发在 Science 或 Nature 上的论文。但 Renee 说，论文不是产品，不能商业化，也救不了当天的病人——「**那不是句号，那是发令枪**」[08:50 Wigerzen]。\n\nARPA 类机构擅长冲到那个初始突破，但后续能不能落地，没有保证。传统的科学交接方式是：一个实验室的人到另一个实验室，站在人家肩膀后面看，你这步做得不太对。Transfer 想用视频把这个过程加速。\n\n这还能省下大量浪费。一个科学家花6小时准备样品，跑完分析才发现结果不对，却不知道哪步出了错，只能整个重来。有了录像，回看一眼就知道：哦，我漏加了一个孔 [11:08 Wigerzen]。她说，因为这种程序性偏差，人类可能已经丢掉了大量本可拿到的发现。\n\n## AI 设计了亿万种药物，然后呢？\n\n大家都在谈AI革命性地设计新药，Renee 说这只是漏斗顶部：现在可以在计算机里测试几十亿种设计，但我们并没有看到几十亿个新临床试验。\n\n为什么？因为管线的其他部分还是老样子：检测方法在实验室之间的转移没有变快，制造放大也没有变快。Transfer 要建的，正是她所说的物理AI基础设施，去打通这些瓶颈，让疗法更快到达病人 [12:26 Wigerzen]。\n\n机器人也在她的版图里，但方式出乎意料。她举例：疫情期间全国很多实验室，操作员把96孔板放反的比例高达两位数——机器人没做错什么，出错的是那个一直没被观察到的人 [20:04 Wigerzen]。所谓自主实验室里，人类仍是环节的一部分。\n\n## 被摄像头盯着，科学家愿意吗？\n\n这种做法当然会被质疑是实验室监控。Renee 的回应是：一切以科学家为中心。设备更轻、续航更长，都是根据科学家的直接反馈改的；录音可以实时记录实验笔记，不用摘手套；什么时候开始录、停止录，都由科学家自己控制 [13:02 Wigerzen]。\n\n她还发现了一个有趣现象：实验室里的部落行为。同一家实验室的人，遇到混匀试管这一步，全都用手指弹管壁——因为有人这么带过徒弟。换到别处，同一份厂商协议，每个人的做法都不一样 [15:33 Wigerzen]。\n\n## 模型每两周换一次，还得防它编故事\n\nTransfer 不自己造大模型，也不绑定硬件。他们每周测试各家前沿AI公司的新模型，哪个在任务上表现最好就用哪个，大约每两周就可能换底座。为了测试模型，他们会故意让操作员改流程：跳过一步、加错试剂，看模型能不能发现 [23:52 Wigerzen]。\n\n即便如此，模型还是会出错——认出了移液器，却把100微升认成200微升。所以每一步都有人工复核，纠正的数据再回头训练模型。她的逻辑是：硬件会商品化，模型会不断更新，但**捕捉科学真实过程的这套数据，才是长期资产**。\n\n## 每个人都有自己的Sputnik 时刻\n\n谈话最后，Renee 回到她念念不忘的历史类比。苏联发射 Sputnik 卫星，美国毫无防备，艾森豪威尔随即创立了 ARPA（后来的 DARPA），专门防止技术上的措手不及 [28:04 Wigerzen]。\n\n她说，除了国家层面的 Sputnik 时刻，每个普通人也都有——通常是健康相关的。她自己的那一刻，是母亲被诊断出癌症，全家的生活瞬间停摆。\n\n而现在，她感觉又有什么大事正在酝酿，会在未来20到50年显现。如果上一代的目标是把人从疾病带回健康，下一步呢？她说不好具体是什么，但「我能尝到那个味道了。我不知道它是什么，但它就在这里」[29:26 Wigerzen]。\n\n## 本集带走\n\n- 美国科研经费高度依赖联邦拨款这一单一来源，Renee 认为这种模式不可持续，危机也可能倒逼多元化。\n- 顶尖科学家的手艺往往说不清、写不下，这类具身知识随着人员流动不断流失。\n- 用摄像头和AI完整记录实验过程，能定位失败原因、避免整轮重做，还能加速科学在不同实验室间的转移。\n- AI设计药物只是漏斗顶部，检测转移、制造放大等下游环节才是真正的瓶颈。\n- Renee 警告：美国可能正在失去二战以来的科学领先地位，而每拖两周，就消耗掉1%的时间。",
+  "quotes": [
+    {
+      "en": "Nobody who's practicing science today has practiced science in the United States in a time where we weren't, quote unquote, winning.",
+      "zh": "今天从事科学工作的人中，没有人曾在美国一个我们不是——引用一下，“获胜”的时代从事过科学工作。",
+      "timestamp": "01:16",
+      "speaker": "Renee Wigerzen"
+    },
+    {
+      "en": "The way that we fund science is not sustainable, right?",
+      "zh": "我们资助科学的方式是不可持续的，对吧？",
+      "timestamp": "04:49",
+      "speaker": "Renee Wigerzen"
+    },
+    {
+      "en": "And the challenge is a lot of those scientists, they're such an expert, they can hardly describe what they're doing.",
+      "zh": "而挑战在于，很多这样的科学家，他们是如此的专业，以至于几乎无法描述自己在做什么。",
+      "timestamp": "07:10",
+      "speaker": "Renee Wigerzen"
+    },
+    {
+      "en": "It's disappointing the amount of discoveries that we probably just lose to some sort of procedural variation that we haven't picked up on.",
+      "zh": "令人失望的是，我们可能因为某种我们没注意到的流程上的差异而丢失了多少发现。",
+      "timestamp": "11:40",
+      "speaker": "Renee Wigerzen"
+    },
+    {
+      "en": "Nobody who's practicing science today has practiced science in the United States in a time where we weren't, quote unquote, winning.",
+      "zh": "今天从事科学的人，没有一个是在美国不“赢”的时代里做过科学的。",
+      "timestamp": "26:58",
+      "speaker": "Renee Wigerzen"
+    },
+    {
+      "en": "That's why I'm optimistic. Like I can taste it. I don't know what it is yet, but it's here.",
+      "zh": "这就是为什么我乐观。就像我几乎能尝到它的味道。我还不知道它是什么，但它已经在这里了。",
+      "timestamp": "29:25",
+      "speaker": "Renee Wigerzen"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:16",
+      "speaker": "Renee Wigerzen",
+      "en": "Nobody who's practicing science today has practiced science in the United States in a time where we weren't, quote unquote, winning.",
+      "zh": "今天从事科学工作的人中，没有人曾在美国一个我们不是——引用一下，“获胜”的时代从事过科学工作。"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Renee Wigerzen",
+      "en": "And I genuinely believe that we may lose that competitiveness, that edge, that incumbency.",
+      "zh": "而我真心相信，我们可能会失去那种竞争力、那种优势、那种在位地位。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Renee Wigerzen",
+      "en": "The way that we fund science is not sustainable, right?",
+      "zh": "我们资助科学的方式是不可持续的，对吧？"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Renee Wigerzen",
+      "en": "My own retirement account is not 90% based on one stock or fund, right?",
+      "zh": "我自己的退休账户不会 90% 都押在一只股票或一只基金上，对吧？"
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Renee Wigerzen",
+      "en": "The intersection of AI and bio in particular, which is my domain, it's hard to move at that pace of that industry if you're not in the private sector, right?",
+      "zh": "尤其是 AI 与生物的交叉领域，那是我的领域，如果你不在私营部门，就很难跟上那个行业的节奏，对吧？"
+    },
+    {
+      "timestamp": "07:10",
+      "speaker": "Renee Wigerzen",
+      "en": "And the challenge is a lot of those scientists, they're such an expert, they can hardly describe what they're doing.",
+      "zh": "而挑战在于，很多这样的科学家，他们是如此的专业，以至于几乎无法描述自己在做什么。"
+    },
+    {
+      "timestamp": "08:28",
+      "speaker": "Renee Wigerzen",
+      "en": "And where that manifested at DARPA and at ARPA-H is just a realization through my career of how fragile breakthroughs are.",
+      "zh": "而这在 DARPA 和 ARPA-H 的体现，就是我在职业生涯中逐渐认识到突破是多么脆弱。"
+    },
+    {
+      "timestamp": "08:44",
+      "speaker": "Renee Wigerzen",
+      "en": "That paper is not a product.",
+      "zh": "那篇论文不是一个产品。"
+    },
+    {
+      "timestamp": "08:50",
+      "speaker": "Renee Wigerzen",
+      "en": "It's not the period at the end of the sentence.",
+      "zh": "它不是句子末尾的句号。"
+    },
+    {
+      "timestamp": "08:52",
+      "speaker": "Renee Wigerzen",
+      "en": "That's like the starting gun for what is going to happen.",
+      "zh": "它更像是即将发生之事的发令枪。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Renee Wigerzen",
+      "en": "It's disappointing the amount of discoveries that we probably just lose to some sort of procedural variation that we haven't picked up on.",
+      "zh": "令人失望的是，我们可能因为某种我们没注意到的流程上的差异而丢失了多少发现。"
+    },
+    {
+      "timestamp": "12:11",
+      "speaker": "Renee Wigerzen",
+      "en": "It's because the rest of that pipeline is still bottlenecked.",
+      "zh": "这是因为那条流水线的其余部分仍然存在瓶颈。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Renee Wigerzen",
+      "en": "Humanity wins if science is successful.",
+      "zh": "如果科学成功了，人类就赢了。"
+    },
+    {
+      "timestamp": "14:47",
+      "speaker": "Renee Wigerzen",
+      "en": "And, you know, my postdoc was three years long and I had a three page paper summary at the end.",
+      "zh": "你知道，我的博士后做了三年，最后我只有一篇三页的论文总结。"
+    },
+    {
+      "timestamp": "14:54",
+      "speaker": "Renee Wigerzen",
+      "en": "It was the highlights reel.",
+      "zh": "那是精彩集锦。"
+    },
+    {
+      "timestamp": "20:04",
+      "speaker": "Renee Wigerzen",
+      "en": "I'll tell you from during my time, even during the pandemic, supporting testing nationwide through the work we did at Ginkgo, the number of labs across the country where the operator loads the 96-well plate in a flipped direction is like double-digit percentages.",
+      "zh": "我可以告诉你，在我任职期间，甚至在疫情期间，通过我们在 Ginkgo 的工作支持全国检测时，全国范围内操作员把 96 孔板以相反方向装进去的实验室，比例达到了两位数百分比。"
+    },
+    {
+      "timestamp": "20:21",
+      "speaker": "Renee Wigerzen",
+      "en": "It's the human in the loop that is still part of autonomous science that we're not observing.",
+      "zh": "是“人在回路中”这个环节——它仍是自主科学的一部分，而我们并没有观察到它。"
+    },
+    {
+      "timestamp": "26:58",
+      "speaker": "Renee Wigerzen",
+      "en": "Nobody who's practicing science today has practiced science in the United States in a time where we weren't, quote unquote, winning.",
+      "zh": "今天从事科学的人，没有一个是在美国不“赢”的时代里做过科学的。"
+    },
+    {
+      "timestamp": "27:56",
+      "speaker": "Renee Wigerzen",
+      "en": "And we're going to look back at this moment in time, like there's something happening that's going to impact whatever's happening 20 to 50 years from now.",
+      "zh": "我们回望这个时刻，会发现正在发生某件事，它将影响未来 20 到 50 年的一切。"
+    },
+    {
+      "timestamp": "29:25",
+      "speaker": "Renee Wigerzen",
+      "en": "That's why I'm optimistic. Like I can taste it. I don't know what it is yet, but it's here.",
+      "zh": "这就是为什么我乐观。就像我几乎能尝到它的味道。我还不知道它是什么，但它已经在这里了。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Renee Wigerzen。她当过白宫旗下卫生研究机构 ARPA-H 的首任主任，现在跟 Ginkgo Bioworks 的前 AI 负责人 Anne-Marie Wagner 一起创办了一家叫 Transfer 的公司。这一期播客里，她和主持人 Bob Safian 聊了两件事：美国科学现在有多危险，还有一件听起来有点玄的事——实验室里那些说不出口的手艺，能不能被 AI 学会。\n\n先把背景垫一下。美国的联邦科研经费正在被大幅削减，整个科学界一片混乱。Renee 开场就说了一句很重的话：今天在美国做科学的人，从来没有经历过美国不领先的时代——这代科学家，没人体会过“美国不是赢家”是什么滋味。但在她看来，这个领先地位可能真的会丢掉，而且她没看到美国在用应有的方式去争。\n\n她的紧迫感不是空话。在 ARPA-H 的时候，项目经理任期只有三年，她会提醒对方：每过两个星期，你的时间就消耗了百分之一。后来她用同样一套算法看整个国家——面对可能的失败，每拖两周，就是百分之一的时间没了。\n\n那经费削减带来的混乱怎么办？Renee 不否认损失是真实的。但她从这场危机里，看到了一个被忽视很久的问题，她管它叫单一股票问题。打个比方：没有人的退休金账户会把九成钱押在一只股票上，可美国科研经费的来源，却高度集中在联邦拨款这一个篮子里。这次危机等于逼着所有人重新想：大学能不能把自家产出的知识产权变成收入？私人部门能不能更多参与基础研究？她说，正是这种被迫的改变，让她感到乐观。\n\n好，经费的问题说完了。那这家新公司 Transfer 到底在干什么？这就要从一个词说起——《纽约时报》报道她的公司时，反复提到一个说法，叫“魔法之手”。什么意思呢？就像家里总有一道菜，只有奶奶做得出来，别人照着菜谱做也不对味。科学界也一样，有些科学家就是能一次又一次做出漂亮的结果。\n\n问题在于，这些专家自己都说不清是怎么做到的。举个例子：实验协议上写着“混匀细胞”，可那位高手是轻轻倒转试管，另一个人可能用力震荡，直接就把样品毁掉了。还有那些小窍门——提前把所有试管贴好标签，能省下十分钟——这类东西从不会被写进论文，人一走，经验也就带走了。\n\nTransfer 做的事，就是给科学家戴上轻量摄像头，把实验全程录下来，再用计算机视觉和 AI 去挖掘：到底哪些细节决定了成败。\n\n顺着这个思路，就能理解她另一句很有劲的话。一个突破第一次被世界知道，通常是一篇发在 Science 或 Nature 上的论文。但她说，论文不是产品，不能商业化，也救不了当天的病人——那不是句号，那是发令枪。ARPA 这类机构擅长冲到那个初始突破，可后续能不能落地，没有保证。传统的科学交接方式，是一个实验室的人跑到另一个实验室，站在人家肩膀后面看着说：你这步做得不太对。Transfer 想用视频把这个过程加速。\n\n这还能省下大量浪费。一个科学家花六个小时准备样品，跑完分析才发现结果不对，却不知道哪步出了错，只能整个重来。有了录像，回看一眼就知道：哦，我漏加了一个孔。Renee 说，因为这种程序上的偏差，人类可能已经丢掉了大量本可拿到的发现。\n\n那 AI 设计新药不是已经很火了吗？她的判断是，那只是漏斗顶部。现在确实可以在计算机里测试几十亿种设计，但我们并没有看到几十亿个新临床试验。为什么？因为管线的其他部分还是老样子——检测方法在实验室之间的转移没有变快，制造放大也没有变快。Transfer 要建的，正是她所说的物理 AI 基础设施，去打通这些瓶颈，让疗法更快到达病人。\n\n机器人也在她的版图里，但方式可能出乎意料。举个例子：疫情期间，全国很多实验室里，操作员把 96 孔板放反的比例高达两位数。机器人没做错什么，出错的是那个一直没被观察到的人。所以就算是最自主的实验室，人类仍然是环节的一部分。\n\n听到这儿你可能会问：被摄像头一直盯着，科学家愿意吗？这确实会被质疑成实验室监控。Renee 的回应是一切以科学家为中心：设备更轻、续航更长，都是根据科学家的直接反馈改的；录音可以实时记实验笔记，不用摘手套；什么时候开始录、什么时候停，全由科学家自己控制。她还发现一个有趣的现象，叫实验室里的部落行为：同一家实验室的人，遇到混匀试管这一步，全都用手指弹管壁——因为当年有人就是这么带徒弟的。换到别处，同一份厂商协议，每个人的做法都不一样。\n\n技术上怎么落地呢？Transfer 不自己造大模型，也不绑定硬件，每周测试各家前沿 AI 公司的新模型，哪个表现最好就用哪个，大约每两周就可能换一次底座。为了测试，他们还会故意让操作员改流程——跳过一步、加错试剂——看模型能不能发现。即便如此，模型还是会出错，比如认出了移液器，却把 100 微升认成 200 微升。所以每一步都有人工复核，纠正的数据再回头训练模型。Renee 的逻辑是：硬件会商品化，模型会不断更新，但捕捉科学真实过程的这套数据，才是长期资产。\n\n谈话最后，Renee 回到一个她念念不忘的历史类比。当年苏联发射 Sputnik 卫星，美国毫无防备，艾森豪威尔随即创立了 ARPA，也就是后来 DARPA 的前身，专门防止美国在技术上措手不及。她说，除了国家层面的 Sputnik 时刻，每个普通人也都有——通常和健康有关。她自己的那一刻，是母亲被诊断出癌症，全家的生活瞬间停摆。而现在，她感觉又有什么大事正在酝酿，会在未来二十到五十年里显现。上一代的目标是把人从疾病带回健康，下一步是什么，她还说不好，但用她自己的话说：我能尝到那个味道了。我不知道它是什么，但它就在这里。"
+}

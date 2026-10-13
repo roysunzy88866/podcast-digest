@@ -7,17 +7,18 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 智能体 (AI agent)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 智能体">AI</div><div class="pi"><h1 class="pt">AI 智能体 (AI agent)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 智能体">AI</div><div class="pi"><h1 class="pt">AI 智能体 (AI agent)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]]**(01:26起):本集说公司正在设计专门的智能体编程面试环节,评估人如何与智能体互动、引导循环、拆解任务;并说与 AI 智能体协作和带一个初级工程师差不多,而智能体正在接手初级工程师的工作。
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:05起):本集原话中与 agent 交替使用的说法，如『你的 AI 智能体的准确率』『一个 AI 智能体在你的 ERP 系统里做不受控的事情』。
 - **[[2026-10-10-twist-jason-reacts-to-japanese-founder-pitches|《在大阪听日本创业者路演：Jason 的毒舌点评和 7 家公司》]]**(43:55起):本集多家里路演公司都以 AI agent 为核心产品叙事：AssetHub 做 3D AI 智能体、Claudezio 的智能体自动与流失风险玩家对话、Japan Media 只需与 AI 智能体聊天就能产出漫画并分发。
+- **[[2026-10-13-mos-the-ai-race-to-save-american-science-and|《科学家的「魔法之手」，能被AI学会吗？》]]**(14:35起):本集举例说如果今天问一个 AI 智能体人类怎么做科学，它只会回答提出假设、发表材料与方法部分——说明现有记录丢失了真实实验过程
 
 ## ① 提到它的金句
 
-*6 条*
+*7 条*
 
 ![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
 
@@ -31,21 +32,24 @@ unlisted: true
 
 ![[2026-09-11-twist-the-pentagon-wants-equity-in-ai-startups#^q5]]
 
+![[2026-10-08-talks-your-ai-agent-has-no-nervous-system-matt#^q1]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-09-16-beyondcoding-how-top-engineers-still-get-hired-when-m|《大裁员时代，顶尖工程师为什么照样被抢着要》]] — 作为概念
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为概念(提及)
 - [[2026-10-10-twist-jason-reacts-to-japanese-founder-pitches|《在大阪听日本创业者路演：Jason 的毒舌点评和 7 家公司》]] — 作为概念
+- [[2026-10-13-mos-the-ai-race-to-save-american-science-and|《科学家的「魔法之手」，能被AI学会吗？》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[开源]] · [[OpenAI]] · [[就业市场]] · [[Christian Klein]] · [[Techstars Tokyo]] · [[软技能]] · [[SAP]] · [[Founder University]] · [[Hashicorp]] · [[Anthropic]]
+[[开源]] · [[OpenAI]] · [[就业市场]] · [[Christian Klein]] · [[Techstars Tokyo]] · [[Renee Wigerzen]] · [[软技能]] · [[SAP]] · [[Founder University]] · [[Bob Safian]]
 
-<script type="application/json" class="pd-epn">{"开源":41,"OpenAI":199,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"软技能":1,"SAP":4,"Founder University":1,"Hashicorp":2,"Anthropic":203}</script>
+<script type="application/json" class="pd-epn">{"开源":41,"OpenAI":199,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"Renee Wigerzen":1,"软技能":1,"SAP":4,"Founder University":1,"Bob Safian":8}</script>
 
 <script>
 (function(){

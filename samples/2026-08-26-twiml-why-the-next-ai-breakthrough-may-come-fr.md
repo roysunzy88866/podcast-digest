@@ -162,8 +162,8 @@ Max 最近在 ICML 主题演讲里讲了另一个方向：把**波**引入神经
 **换个口味**
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]]<span class="pd-rz">同概念:智能体 (agent)、蒸馏 (distillation)</span>
+- [[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌]]<span class="pd-rz">同概念:基础模型 (foundation model)、智能体 (agent)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:NVIDIA · 同概念:智能体 (agent)</span>
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]]<span class="pd-rz">同公司:NVIDIA · 同概念:蒸馏 (distillation)</span>
 
 </div>
 </div>

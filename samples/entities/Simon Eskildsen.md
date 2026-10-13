@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":492,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":6}</script>
+<script type="application/json" class="pd-epn">{"Jacob Lauritzen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":495,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":6}</script>
 
 <script>
 (function(){

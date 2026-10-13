@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":492,"Claude":96,"组织转型":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Tier One Performance":1,"非技术构建者":1,"L0":1,"智能体":495,"Claude":97,"组织转型":1}</script>
 
 <script>
 (function(){

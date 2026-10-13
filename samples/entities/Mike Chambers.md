@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":492,"harness 工程":4,"Bedrock AgentCore":1,"MCP":92,"记忆":28,"多租户隔离":1,"可观测性":44,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":495,"harness 工程":4,"Bedrock AgentCore":1,"MCP":93,"记忆":28,"多租户隔离":1,"可观测性":45,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
 
 <script>
 (function(){

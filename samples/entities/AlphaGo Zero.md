@@ -25,7 +25,7 @@ unlisted: true
 
 [[David Silver]] · [[Ineffable Intelligence]] · [[DeepMind]] · [[AlphaGo]] · [[AlphaZero]] · [[Google Brain]] · [[超级学习者]] · [[超级智能]] · [[强化学习]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"David Silver":1,"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":492}</script>
+<script type="application/json" class="pd-epn">{"David Silver":1,"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":495}</script>
 
 <script>
 (function(){

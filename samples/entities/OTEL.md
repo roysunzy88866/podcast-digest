@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Fuad]] · [[Sam Newman]] · [[Arise]] · [[微服务]] · [[语音智能体]] · [[ThoughtWorks]] · [[OpenInference]] · [[Uber]] · [[trace]]
 
-<script type="application/json" class="pd-epn">{"智能体":492,"Fuad":1,"Sam Newman":1,"Arise":1,"微服务":1,"语音智能体":2,"ThoughtWorks":1,"OpenInference":1,"Uber":19,"trace":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":495,"Fuad":1,"Sam Newman":1,"Arise":1,"微服务":1,"语音智能体":2,"ThoughtWorks":1,"OpenInference":1,"Uber":19,"trace":7}</script>
 
 <script>
 (function(){

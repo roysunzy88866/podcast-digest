@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Robert Hackett":1,"AI":33,"清晰法案":2,"生产力增长":1,"稳定币":5,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Robert Hackett":1,"AI":34,"清晰法案":2,"生产力增长":1,"稳定币":6,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

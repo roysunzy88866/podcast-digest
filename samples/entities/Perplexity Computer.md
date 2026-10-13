@@ -25,7 +25,7 @@ unlisted: true
 
 [[Arvind Srinivas]] · [[Perplexity]] · [[NVIDIA]] · [[Apple]] · [[Apple Silicon]] · [[DeepMind]] · [[Hugging Face]] · [[Berkshire Hathaway]] · [[JP Morgan]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Arvind Srinivas":1,"Perplexity":10,"NVIDIA":70,"Apple":27,"Apple Silicon":1,"DeepMind":19,"Hugging Face":37,"Berkshire Hathaway":3,"JP Morgan":4,"智能体":492}</script>
+<script type="application/json" class="pd-epn">{"Arvind Srinivas":1,"Perplexity":10,"NVIDIA":70,"Apple":27,"Apple Silicon":1,"DeepMind":19,"Hugging Face":37,"Berkshire Hathaway":3,"JP Morgan":4,"智能体":495}</script>
 
 <script>
 (function(){

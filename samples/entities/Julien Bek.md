@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Sequoia":7,"智能体":492,"Copilot":13,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":21}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Sequoia":7,"智能体":495,"Copilot":13,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":21}</script>
 
 <script>
 (function(){

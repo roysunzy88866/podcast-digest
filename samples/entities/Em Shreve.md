@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP":92,"智能体":492,"技能":33,"Codex":86,"Claude":96,"Claude Code":109}</script>
+<script type="application/json" class="pd-epn">{"MCP":93,"智能体":495,"技能":33,"Codex":86,"Claude":97,"Claude Code":110}</script>
 
 <script>
 (function(){

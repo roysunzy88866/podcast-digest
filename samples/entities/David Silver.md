@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaGo Zero":1,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":492}</script>
+<script type="application/json" class="pd-epn">{"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaGo Zero":1,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":495}</script>
 
 <script>
 (function(){

@@ -1,0 +1,155 @@
+{
+  "title_zh": "你的 AI 智能体没有神经系统——所以它总是瞎忙",
+  "tldr": "Dynatrace 的 Matt Gibiec 讲为什么 AI 智能体会陷入死循环、闯祸、说不清价值，以及补上「上下文」这个神经系统。",
+  "digest_md": "一家做可观测性（observability）监控平台的公司，Matt Gibiec 是他们 AI Native 方向的解决方案工程区域总监。这场演讲的标题很吓人：你的 AI 智能体没有神经系统。他想说的其实是：这些智能体跑得飞快，但是看不见周围的环境——所以经常帮倒忙。\n\n## 智能体为什么总在原地打转？\n\n他用了一个所有人都遇过的场景开场：你让 Claude 干活，它反复做同一件事，不停消耗 token，就是给不出你要的结果。现场所有人都举手了。[02:15 Unknown]\n\n换个角度想：人做研究，发现方法不对，会换条路走。但今天的智能体做不到。它们只能基于拿到的数据做判断，数据缺上下文、缺细节、缺权限，就开始幻觉，开始自动化一些根本不该自动化的流程。[04:58 Unknown]\n\n他的 CTO Bernd 有句话概括得很好：智能体「operate at speed, but without sight」——跑得快，但没有视力。[04:38 Unknown]\n\n## 上下文才是王\n\n他的核心论点一句话：context is king。上下文，就是你能给智能体装上的那套神经系统。[06:36 Unknown]\n\n一个智能体再聪明，如果它不知道你的服务之间有什么依赖、不知道用户实际怎么使用你的应用，它给出的建议当时看着对，长期看就是错的。问题不在模型，在于它对你的环境一无所知。\n\n他还点了一个扎心的问题：大家冲进 AI 时代冲得太快，每个公司都有个AI 老板在推智能体，==但怎么衡量它到底带来了什么价值==？几乎没人有答案。[03:51 Unknown]\n\n## Dynatrace 的答案：Blue Box\n\n接下来是产品演示：Blue Box，一个嵌进开发流程中间层的智能体，专职给你的 AI 编程智能体提供环境上下文。他举了几个场景。\n\n场景一：本地测试一切正常，合并到主分支，三个服务挂了。Blue Box 能为每个智能体、每个 AI 工作负载画出服务依赖图，把生产环境的上下文带进本地测试——让你在写代码时就知道，这个改动会不会砸了别的服务。[08:23 Unknown]\n\n场景二：在问题变成事故之前发现它。系统学习历史数据，知道正常长什么样。一旦某个服务变慢、开始抛出以前没有的报错，就能提前通知开发者。再叠加代码仓库里的变更记录，还能告诉你：这个故障，其实是某个人推的那次合并造成的。[10:28 Unknown]\n\n场景三：修 bug。修一个问题可能只需要改一行代码，但改完这一行，环境里其他部分会怎样？没有依赖图，你就是蒙着眼修。所以他说，**修复不只是解决眼前的问题，还要保证别制造新问题**。[11:57 Unknown]\n\n场景四：写代码之前先做研究。很多开发者拿到需求就直接开干，没人先弄清楚这个功能到底要给用户交付什么。他的说法是「plan before you prompt」——在提示之前先规划。[12:51 Unknown]\n\n最后是自动化失控的问题。如果任由智能体自己干所有事，「那会是个相当混乱的世界」。Blue Box 的闭环是：观察环境、建依赖图、提前发现异常、建议修复方案——但最后一步，推不推送上线，由人来拍板。[13:38 Unknown]\n\n演讲的收尾一句话：我们想帮智能体交付你敢信任的代码，送上生产环境。[14:49 Unknown]\n\n## 本集带走\n\n- 智能体跑得快但没有视力：它只能基于拿到的数据推理，数据缺上下文就会幻觉和瞎自动化。\n- 上下文就是智能体的神经系统——context is king，模型不是问题，环境感知才是。\n- 依赖地图 + 生产数据进本地测试，能避免「本地好好的、一合并就炸」的经典事故。\n- 历史数据定义正常，偏离正常就预警，再对照变更记录，可以直接定位是谁的合并惹的祸。\n- 自动化要有刹车：修复可以交给智能体，但上线不上线，人得保留最终决定权。",
+  "quotes": [
+    {
+      "en": "I think we jumped in so quickly to the AI world and the AI era that a lot of the times I see customers and spending three days in here talking to folks, everybody has that AI boss, the AI agent boss, but how do you measure value?",
+      "zh": "我觉得我们太快地跳进了 AI 世界和 AI 时代，以至于很多时候我看到客户——每个人都有那个 AI 老板、AI 智能体老板，但你如何衡量价值？",
+      "timestamp": "03:35",
+      "speaker": "Matt Gibiec"
+    },
+    {
+      "en": "And I almost think that as much as you want to run fast and get there, we have to take a little pause and understand what are we really trying to accomplish and how can we measure the success of our agents?",
+      "zh": "而我几乎认为，尽管你想快速奔跑、尽快到达终点，我们还是需要稍微停下来，理解我们真正想要完成的是什么，以及我们如何衡量智能体的成功？",
+      "timestamp": "03:58",
+      "speaker": "Matt Gibiec"
+    },
+    {
+      "en": "And what context is, it is that nervous system that you can provide to your agents.",
+      "zh": "而上下文是什么，它就是你可以提供给智能体的那个神经系统。",
+      "timestamp": "06:39",
+      "speaker": "Matt Gibiec"
+    },
+    {
+      "en": "And advices that might seem right at that point, but they won't be right in the long term because there's not enough context for that agent to understand how your environment really looks like.",
+      "zh": "这些决策和建议在当时看起来可能是对的，但从长远来看它们不会是对的，因为没有足够的上下文让那个智能体理解你的环境究竟是什么样子。",
+      "timestamp": "06:19",
+      "speaker": "Matt Gibiec"
+    },
+    {
+      "en": "We'll be able to actually plan before you prompt.",
+      "zh": "我们能够真正做到在你提示之前先规划。",
+      "timestamp": "12:48",
+      "speaker": "Matt Gibiec"
+    },
+    {
+      "en": "At the end of the day, if we just let our agents do everything, I think it would be a pretty messy world.",
+      "zh": "归根结底，如果我们只是让智能体做所有事情，我认为那会是一个相当混乱的世界。",
+      "timestamp": "13:31",
+      "speaker": "Matt Gibiec"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:29",
+      "speaker": "Unknown",
+      "en": "Now, if you think about it from a human perspective now, if you as a human do research and you get results that are not what you want, you will change your approach.",
+      "zh": "现在，从人的角度来想想，如果你作为一个人去做研究，得到的结果不是你想要的，你会改变你的方法。"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Unknown",
+      "en": "But our AI agents today, they're not smart enough to do that.",
+      "zh": "但我们今天的 AI 智能体，它们还不够聪明，做不到这一点。"
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Unknown",
+      "en": "I think we jumped in so quickly to the AI world and the AI era that a lot of the times I see customers and spending three days in here talking to folks, everybody has that AI boss, the AI agent boss, but how do you measure value?",
+      "zh": "我觉得我们太快地跳进了 AI 世界和 AI 时代，以至于很多时候我看到客户——每个人都有那个 AI 老板、AI 智能体老板，但你如何衡量价值？"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Unknown",
+      "en": "And I almost think that as much as you want to run fast and get there, we have to take a little pause and understand what are we really trying to accomplish and how can we measure the success of our agents?",
+      "zh": "而我几乎认为，尽管你想快速奔跑、尽快到达终点，我们还是需要稍微停下来，理解我们真正想要完成的是什么，以及我们如何衡量智能体的成功？"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Unknown",
+      "en": "The agents operate at speed.",
+      "zh": "智能体以速度运作。"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Unknown",
+      "en": "And what we mean by that is these agents today are only as good as the data that is available to them to make the reasoning, to make a decision.",
+      "zh": "我们的意思是，如今这些智能体的好坏，完全取决于可供它们进行推理、做出决策的数据。"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Unknown",
+      "en": "So what if I told you that essentially what we want to do in here is we actually don't need your agent to necessarily have nervous system or site to be efficient and be productive.",
+      "zh": "那么，如果我告诉你，本质上我们实际上不需要你的智能体必须拥有神经系统或视觉才能高效、才能有生产力呢？"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Unknown",
+      "en": "But what they need is actual context of your environment.",
+      "zh": "但它们需要的是你的环境的真实上下文。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Unknown",
+      "en": "Context is king.",
+      "zh": "上下文为王。"
+    },
+    {
+      "timestamp": "06:39",
+      "speaker": "Unknown",
+      "en": "And what context is, it is that nervous system that you can provide to your agents.",
+      "zh": "而上下文是什么，它就是你可以提供给智能体的那个神经系统。"
+    },
+    {
+      "timestamp": "06:19",
+      "speaker": "Unknown",
+      "en": "And advices that might seem right at that point, but they won't be right in the long term because there's not enough context for that agent to understand how your environment really looks like.",
+      "zh": "这些决策和建议在当时看起来可能是对的，但从长远来看它们不会是对的，因为没有足够的上下文让那个智能体理解你的环境究竟是什么样子。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Unknown",
+      "en": "I've been doing observability now for eight years, and I think if there's one goal that I ask any of my customers, like, what would you like to achieve with your observability strategy with now AI?",
+      "zh": "我做可观测性已经八年了，我认为如果有一个目标我会问我任何一位客户，比如，你想通过你现在的 AI 可观测性策略实现什么？"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Unknown",
+      "en": "And when it comes to issues, I think this is, everybody will say that, find issues before they're real issues, before they impact my organization, before they impact my users.",
+      "zh": "当涉及问题时，我认为每个人都会说，在问题成为真正的问题之前发现它们，在它们影响我的组织之前，在它们影响我的用户之前。"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Unknown",
+      "en": "And what we are able to do is we are able to use the historical data from your environments, the historical loads to understand what regular, what normal looks like.",
+      "zh": "而我们能够做的是，我们能够使用你环境中的历史数据、历史负载，来理解什么是常规的、什么是正常的。"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Unknown",
+      "en": "We'll be able to actually plan before you prompt.",
+      "zh": "我们能够真正做到在你提示之前先规划。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Unknown",
+      "en": "At the end of the day, if we just let our agents do everything, I think it would be a pretty messy world.",
+      "zh": "归根结底，如果我们只是让智能体做所有事情，我认为那会是一个相当混乱的世界。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Unknown",
+      "en": "But using the context of your environment, using the context of the application that's monitored, using the context of the agents that are being monitored, making sure that the fix actually addresses what's happening in your environment.",
+      "zh": "而是使用你环境的上下文，使用被监控应用的上下文，使用被监控智能体的上下文，确保修复方案真正解决你的环境中正在发生的问题。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Unknown",
+      "en": "And what I'd like to finish with is we want to help agents ship code you trust to production.",
+      "zh": "而我想以这句话收尾：我们想要帮助智能体把你信任的代码交付到生产环境。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Matt Gibiec，是 Dynatrace 这家公司 AI Native 方向的解决方案工程区域总监。Dynatrace 是一家做可观测性监控平台的公司，说人话，就是专门盯着你的软件系统跑得健不健康的那种工具。Matt 最近有一场演讲，标题挺吓人的，叫：你的 AI 智能体没有神经系统。他想说的其实是这么一件事：这些智能体跑得飞快，但是看不见周围的环境，所以经常帮倒忙。\n\n你肯定遇过这个场景。你让 Claude 干个活，它反复做同一件事，token 不停地烧，就是给不出你要的结果，原地打转。Matt 演讲的时候问现场观众谁遇到过，结果所有人都举手了。\n\n那为什么会这样？咱们换个角度想。人做研究，发现这条路走不通，会换条路走。但今天的智能体做不到。它只能基于拿到的数据做判断，而数据缺上下文、缺细节、缺权限，这时候它就开始幻觉，甚至开始自动化一些根本不该自动化的流程。Matt 的 CTO Bernd 有句话概括得特别好：智能体是跑得快，但没有视力。跑得快，但没有视力，这就是问题的根源。\n\n所以 Matt 的核心论点一句话就能说完：context is king，上下文为王。上下文是什么？用他的原话说，它就是你可以提供给智能体的那套神经系统。一个智能体再聪明，如果它不知道你的服务之间有什么依赖关系，不知道用户实际怎么使用你的应用，那它给出的建议当时看着对，长远看就是错的——因为没有足够的上下文让它理解你的环境究竟长什么样。所以问题不在模型，在于它对你的环境一无所知。\n\n说到这儿，Matt 还抛了一个特别扎心的问题。他说大家冲进 AI 时代冲得太快了，现在每家公司都有个 AI 老板在推智能体，但怎么衡量它到底带来了什么价值？几乎没人有答案。他觉得，哪怕你想快点跑到终点，也得稍微停下来，想清楚我们真正要完成的是什么。\n\n那怎么办？这就引出了 Dynatrace 给出的答案，一个叫 Blue Box 的东西。它是一个嵌进开发流程中间层的智能体，专职干一件事：给你的 AI 编程智能体提供环境上下文。Matt 举了几个场景，咱们一个个说。\n\n第一个场景你肯定熟：本地测试一切正常，代码一合并到主分支，三个服务挂了。为什么会这样？因为本地环境根本不知道生产环境的全貌。Blue Box 能为每个智能体、每个 AI 工作负载画出服务依赖图，把生产环境的上下文带进本地测试——让你在写代码的时候就知道，这个改动会不会砸了别的服务。\n\n第二个场景更进一步：在问题变成事故之前就发现它。系统会学习历史数据，知道你的服务正常的时候长什么样。一旦某个服务变慢了、开始抛出以前从来没见过的报错，就能提前通知开发者。再叠加代码仓库里的变更记录，还能直接告诉你：这次故障，其实是某个人推的那次合并造成的。是不是很解气？\n\n第三个场景是修 bug。修一个问题可能只需要改一行代码，但改完这一行，环境里其他部分会怎么样？没有依赖图，你就是蒙着眼修。所以 Matt 有句话说得很到位：修复不只是解决眼前的问题，还要保证别制造新问题。\n\n第四个场景，是写代码之前先做研究。很多开发者拿到需求就直接开干，没人先弄清楚这个功能到底要给用户交付什么。他的说法是，plan before you prompt——在提示之前，先规划。\n\n不过讲了这么多自动化，Matt 最后专门提了刹车的问题。如果任由智能体自己干所有事，用他自己的话说，那会是一个相当混乱的世界。所以 Blue Box 的闭环是这样的：观察环境、建依赖图、提前发现异常、建议修复方案——但最后一步，推不推送上线，由人来拍板。\n\n这一场听下来，核心其实就一句：智能体的问题不在聪明不聪明，在于有没有环境感知。上下文，就是你能给它装上的那套神经系统。用 Matt 收尾的话说：我们想帮智能体交付你敢信任的代码，送上生产环境。"
+}

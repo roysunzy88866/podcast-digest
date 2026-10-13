@@ -29,7 +29,7 @@ unlisted: true
 
 [[Teledyne]] · [[Bill Ackman]] · [[Arvind Srinivas]] · [[资本配置]] · [[AI]] · [[Perplexity]] · [[去中心化]] · [[颠覆风险]] · [[Perplexity Computer]] · [[股票回购]]
 
-<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"Arvind Srinivas":1,"资本配置":1,"AI":33,"Perplexity":10,"去中心化":2,"颠覆风险":1,"Perplexity Computer":1,"股票回购":1}</script>
+<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"Arvind Srinivas":1,"资本配置":1,"AI":34,"Perplexity":10,"去中心化":2,"颠覆风险":1,"Perplexity Computer":1,"股票回购":1}</script>
 
 <script>
 (function(){

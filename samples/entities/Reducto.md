@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Reducto</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Reducto">RE</div><div class="pi"><h1 class="pt">Reducto</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Reducto">RE</div><div class="pi"><h1 class="pt">Reducto</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]]**(00:21起):本集把它说成:一个智能体文档处理平台(agentic document processing platform),帮助领先 AI 团队与大型金融机构处理 PDF、扫描件、电子表格等非结构化数据,已处理数十亿份文档。
+- **[[2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil|《智能体出错的账，该谁付？Reducto 删掉重做 MCP 的教训》]]**(00:13起):本集介绍 Reducto 是一个智能体化文档平台，位于模型与非结构化企业数据之间的层，三年处理超 30 亿份文档，客户包括 Harvey、ScaleAI。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil#^q8]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-23-talks-from-ingestion-to-agents-how-ai-teams-bu|《智能体时代，你的 PDF 数据管道拖后腿了吗》]] — 作为被讨论公司
+- [[2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil|《智能体出错的账，该谁付？Reducto 删掉重做 MCP 的教训》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Adit Abraham]] · [[智能体]] · [[RAG]] · [[PDF]] · [[VLM]] · [[OCR]] · [[harness]] · [[评估]] · [[嵌入模型]] · [[目标检测]]
+[[智能体]] · [[Adit Abraham]] · [[Abhi Arya]] · [[RAG]] · [[智能体体验]] · [[PDF]] · [[MCP]] · [[VLM]] · [[Claude Code]] · [[OCR]]
 
-<script type="application/json" class="pd-epn">{"Adit Abraham":1,"智能体":492,"RAG":29,"PDF":1,"VLM":4,"OCR":3,"harness":65,"评估":1,"嵌入模型":4,"目标检测":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":495,"Adit Abraham":1,"Abhi Arya":1,"RAG":29,"智能体体验":3,"PDF":1,"MCP":93,"VLM":4,"Claude Code":110,"OCR":3}</script>
 
 <script>
 (function(){

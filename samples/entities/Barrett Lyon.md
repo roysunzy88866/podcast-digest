@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":492,"推理":98,"广告追踪":1,"LLM":64,"数据中心":25}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":495,"推理":98,"广告追踪":1,"LLM":64,"数据中心":25}</script>
 
 <script>
 (function(){

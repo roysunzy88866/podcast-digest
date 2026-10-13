@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI":33,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":8,"Brookfield":1,"Berkshire Hathaway":3}</script>
+<script type="application/json" class="pd-epn">{"AI":34,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":9,"Brookfield":1,"Berkshire Hathaway":3}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":32,"AI":33,"构建者":5,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
+<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":32,"AI":34,"构建者":5,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
 
 <script>
 (function(){

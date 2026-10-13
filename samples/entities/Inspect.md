@@ -33,7 +33,7 @@ unlisted: true
 
 [[Max Freeman]] · [[Harry]] · [[Ramp]] · [[OATS]] · [[Ramp Revenue]] · [[SDR]] · [[外呼开发]] · [[配额]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":492}</script>
+<script type="application/json" class="pd-epn">{"Max Freeman":1,"Harry":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":495}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 [[推理]] · [[vLLM]] · [[智能体]] · [[投机解码]] · [[Modal]] · [[GPU]] · [[Kubernetes]] · [[可观测性]] · [[OpenAI]] · [[Cognition]]
 
-<script type="application/json" class="pd-epn">{"推理":98,"vLLM":8,"智能体":492,"投机解码":1,"Modal":7,"GPU":31,"Kubernetes":20,"可观测性":44,"OpenAI":199,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"推理":98,"vLLM":8,"智能体":495,"投机解码":1,"Modal":7,"GPU":31,"Kubernetes":20,"可观测性":45,"OpenAI":199,"Cognition":27}</script>
 
 <script>
 (function(){

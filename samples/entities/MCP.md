@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>92</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>93</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -100,6 +100,7 @@ unlisted: true
 - **[[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]]**(05:18起):本集把 MCP 说成让 AI 连接外部工具/系统的接口方式：课程教工程师如何创建 MCP，公司还搭了内部 MCP 服务器 Context Automattic，加上自己的治理和可观测层。
 - **[[2026-10-08-talks-turning-agent-memory-into-skills-that-wo|《让智能体的记忆变成真正能用的技能》]]**(14:55起):本集提到 NAMS 向智能体暴露 REST API 和 MCP 工具,用于摄取和检索三类记忆。
 - **[[2026-10-08-talks-why-bigger-context-windows-won-t-save-yo|《无限上下文窗口是个神话：别再往里塞东西了》]]**(12:06起):本集说调用 MCP 工具或外部 API 时对方可能迟迟不响应，同步等待会拖死应用，应改用异步处理器（先启动任务、下次调用再取结果），实测差别很大。
+- **[[2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil|《智能体出错的账，该谁付？Reducto 删掉重做 MCP 的教训》]]**(04:49起):本集讲 Reducto 删掉了第一个 MCP server——把每个 API 都包成工具的大文件——换成更少但承载真实工作结构的工具，让正确路径成为最简单的路径。
 - **[[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]]**(05:48起):本集说 Atlassian 大力投入 MCP,拥有世界前五前三的 MCP 服务器,让智能体读写其 teamwork graph,但 MCP 展示的只是数据质量,界面与体验仍不可放弃。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
 
@@ -147,7 +148,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*92 集*
+*93 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -239,6 +240,7 @@ unlisted: true
 - [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]] — 作为概念
 - [[2026-10-08-talks-turning-agent-memory-into-skills-that-wo|《让智能体的记忆变成真正能用的技能》]] — 作为概念(提及)
 - [[2026-10-08-talks-why-bigger-context-windows-won-t-save-yo|《无限上下文窗口是个神话：别再往里塞东西了》]] — 作为概念
+- [[2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil|《智能体出错的账，该谁付？Reducto 删掉重做 MCP 的教训》]] — 作为概念
 - [[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
@@ -246,9 +248,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[沙箱]] · [[harness]] · [[护栏]] · [[OpenAI]] · [[技能]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[沙箱]] · [[harness]] · [[护栏]] · [[OpenAI]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"智能体":492,"Claude":96,"Anthropic":203,"Codex":86,"Claude Code":109,"沙箱":98,"harness":65,"护栏":89,"OpenAI":199,"技能":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":495,"Claude":97,"Anthropic":203,"Claude Code":110,"Codex":86,"沙箱":98,"harness":65,"护栏":89,"OpenAI":199,"技能":33}</script>
 
 <script>
 (function(){

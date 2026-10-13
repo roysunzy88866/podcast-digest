@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":5,"加密货币":2,"区块链":2,"分词":5,"开源":41,"JP Morgan":4,"Coinbase":8,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":6,"加密货币":2,"区块链":2,"分词":5,"开源":41,"JP Morgan":4,"Coinbase":8,"Stripe":48}</script>
 
 <script>
 (function(){

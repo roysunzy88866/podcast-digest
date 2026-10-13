@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DX":4,"智能体":492,"开发者体验":2,"DORA":3,"PR 大小":1,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":6,"Spotify":8}</script>
+<script type="application/json" class="pd-epn">{"DX":4,"智能体":495,"开发者体验":2,"DORA":3,"PR 大小":1,"METR":1,"代码生成":1,"Morgan Stanley":2,"Zapier":6,"Spotify":8}</script>
 
 <script>
 (function(){

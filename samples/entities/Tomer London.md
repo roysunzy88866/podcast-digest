@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":33,"Claude":96,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
+<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":34,"Claude":97,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
 
 <script>
 (function(){

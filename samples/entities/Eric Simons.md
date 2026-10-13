@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":49,"智能体":492,"开放权重":9,"开源":41,"按用量定价":4,"按席位收费":1,"SaaS":23}</script>
+<script type="application/json" class="pd-epn">{"Bolt":3,"StackBlitz":1,"云 IDE":1,"vibe coding":49,"智能体":495,"开放权重":9,"开源":41,"按用量定价":4,"按席位收费":1,"SaaS":23}</script>
 
 <script>
 (function(){

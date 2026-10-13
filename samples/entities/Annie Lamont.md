@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":33,"大型语言模型":6,"智能体":492,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
+<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":34,"大型语言模型":6,"智能体":495,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
 
 <script>
 (function(){

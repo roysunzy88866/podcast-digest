@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":199,"NVIDIA":70,"Microsoft":32,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":3,"Meta":53,"Apple":27,"智能体":492,"算力":9}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"NVIDIA":70,"Microsoft":32,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":3,"Meta":53,"Apple":27,"智能体":495,"算力":9}</script>
 
 <script>
 (function(){

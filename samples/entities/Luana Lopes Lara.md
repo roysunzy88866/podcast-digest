@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"Kalshi":1,"Polymarket":1,"CFTC":1,"预测市场":2,"交易所":1,"体育博彩庄家":1,"对冲":1,"内幕交易":1,"保证金交易":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Kalshi":1,"Polymarket":1,"CFTC":1,"预测市场":2,"交易所":1,"体育博彩庄家":1,"对冲":1,"内幕交易":1,"保证金交易":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,281 @@
+{
+  "title_zh": "智能体出错的账，该谁付？Reducto 删掉重做 MCP 的教训",
+  "tldr": "Reducto 产品负责人 Abhi Arya 讲了他们如何删掉第一个 MCP 服务器、推翻重来的过程，核心是一个问题：智能体自信地犯错时，谁来发现、谁来买单。",
+  "digest_md": "Reducto 产品负责人 Abhi Arya 讲了他们如何删掉第一个 MCP 服务器、推翻重来的过程，核心是一个问题：==智能体自信地犯错时，谁来发现、谁来买单==。\n\nReducto 是一家处理非结构化文档的公司，3 年处理了超过 30 亿份文档，客户包括 Harvey、ScaleAI。他们做的事，是在模型和企业数据之间加一层，把乱七八糟的扫描件、排版复杂的文件，变成 AI 能用的干净数据。\n\n## 智能体优先到底是什么意思？\n\nAbhi 的女朋友问他什么是智能体优先软件，他发现自己一时答不上来。优化提示词、写好接口，这些其实都是在优化模型，不是把智能体放在第一位。他认为这是个架构问题，而架构问题归结为一句话：**智能体犯错时，谁付代价**？[02:35 Unknown]\n\n他分了三类。第一类是全自动模式：写个提示词，让智能体随便干。它一定会犯错，而且犯错时非常自信，你根本看不出来，最后是你替它向客户买单。第二类是用户优先：给用户一堆按钮和开关，再外挂一个能力很弱的智能体，本质上就是个聊天机器人——用户的能力和智能体的能力都被封了顶。第三类是他认为正确答案：为用户服务的智能体体验——智能体有丰富的能力，能真正帮人干活，同时人还能验证它做了什么。\n\n## 第一个版本：演示很惊艳，一上手就崩\n\n他们做的是自动化文档流水线：解析、分类、切分、提取。销售团队天天泡在配置界面里，而不是琢磨结果。于是 Abhi 用 Claude Code 搭了个最小可用版本，把应用里每个接口都包成一个 MCP 工具，全塞进一个大文件。他精心设计了提示词，发到 Slack，效果很好。\n\n但这什么也说明不了——他知道自己想演示什么，那是被精心安排的表演 [05:20 Unknown]。真正的考验是把工具发给全团队。结果立刻崩了：有人喂进去一段客户通话的半成品记录或一个 Notion 页面，智能体就闷头把整条工作流从头到尾搭完，还信誓旦旦地说一切正常。可无论用户还是智能体，都说不清这条流水线到底干了什么。\n\n这就是全自动模式在生产环境里的当头一棒：智能体从不承认自己不确定，人也没有任何地方可以验证。\n\n## 修复办法：删掉整个文件，少给工具但给对工具\n\n你可能以为解决办法是把提示词写得更细。Abhi 说，真正该改的是架构。他一个提交就把那个大文件整个删了。替换它的不是更多工具，而是更少的、但承载了真实工作结构的工具。[06:30 Unknown]\n\n举个例子：常见需求是把分类接口接到提取节点。以前是让模型靠猜、靠提示词提示去拼装；现在做成一个分类转提取工具，一步到位，后续步骤自动衔接。智能体没机会在已知正确的环节上自由发挥。又因为智能体没有记忆状态，他们加了一个快照工具，一次调用就能拿回整条流水线的实时状态和具体错误代码，智能体去查实际存在的东西，而不是瞎编变量名。\n\n结果是：**把上下文从提示词搬进结构里，智能体从瞎猜变成了查证**。而人能看懂每一步，也能向下游解释智能体的输出。\n\n## 建好了流水线，问题又出现在运行时\n\n构建阶段的问题解决了，运行时的问题冒出来了：如果产出本身就错了——比如数据结构很糟，或者用户没说清用途——==谁能发现==？智能体出错是安静地出错：不是报个崩溃，而是流水线跑完 100 份文档，可能漏掉了第 30 页的一个扫描件，而且没人知道。[09:12 Unknown]\n\n**他们的解法是把不确定性变得可见**。Reducto 的提取本身输出置信度分数和边界框，他们把这类信息喂回模型，让提取结果随时间越来越准。同时要求智能体暴露自己的不确定：遇到一个字段有两种读法，不许猜，也不许卡住，而是要问用户我看到了两种理解，你指的是哪个。在评估中，凡是基于站不住脚的假设完成任务，一律判失败；奖励提问，惩罚硬猜。[10:47 Unknown]\n\n判断权不全在智能体手里。每次生成新东西，它都要向用户解释做了什么、为什么，由用户来审。\n\n## 最强的智能体，放在人就在旁边的地方\n\n回头看这些失败，形状都一样：**智能体的自主权和访问权限，超过了人能验证的范围**。Abhi 的结论是，智能体在搭建流水线、生成数据结构、组织上下文时最强，而这时出错也最便宜——因为人就在旁边。[12:14 Unknown]\n\n他们还做了埋点：记录每个会话里的提示词，让销售团队导出自己的 Claude Code 会话，看人在哪里推翻了智能体、模型哪里信心不足、哪里提了问。这些数据流回长期指导规则，系统靠多搭流水线变得更会搭流水线，不需要人工重写，形成了一个按组织、按用户自我改进的循环。\n\n一个意外的信号：他从没要求销售团队用这个东西，只是在 Claude 企业版里把工具暴露出来。销售自己在客户通话前，先用 Circleback 和 Slack 了解客户，再用这个工具提问、搭流水线，最后敢把它带到高价值客户面前演示——因为演示不光是能跑，人还能说：这是我搭的，你来看。[15:09 Unknown]\n\n## 本集带走\n\n- 智能体优先不是模型问题，是架构问题，核心是：智能体自信地犯错时，谁发现、多快发现。\n- 全自动模式让用户替智能体的错误买单；纯用户优先则把智能体退化成聊天机器人，两头都受限。\n- 修复之道是少而结构化的工具：把上下文从提示词搬进结构，让正确路径成为最简单的路径。\n- 让不确定性可见：模型遇到歧义要提问而不是猜，最终判断权留在能负责的人手里。\n- 智能体最强、出错最便宜的地方，是搭建和生成阶段——因为人就在旁边。",
+  "quotes": [
+    {
+      "en": "And so I think that structure, that architecture really comes down to one question and that is who pays for the agent being wrong?",
+      "zh": "所以我认为这个结构、这个架构其实归结为一个问题，那就是：谁为智能体犯错买单？",
+      "timestamp": "02:35",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "And when it messes up, which it will, you won't have any idea because it's really confident about what it's doing, and you're the one that's paying for it being wrong to your customers, to your users, et cetera.",
+      "zh": "而当它搞砸的时候——它肯定会搞砸——你完全不会察觉，因为它对自己在做的事情非常自信，而你要为它的错误买单，对你的客户、你的用户等等。",
+      "timestamp": "02:55",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "And lastly, the bucket that I think wins here is agent experience in service of the user.",
+      "zh": "最后一个桶，也是我认为会胜出的桶，是服务用户的智能体体验。",
+      "timestamp": "03:27",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "This framing is what turns agent experience into less of a question of the model and more of a question of context, capability, and overall self-improvement.",
+      "zh": "这个框架使智能体体验不再是一个关于模型的问题，而更多是一个关于上下文、能力和整体自我提升的问题。",
+      "timestamp": "03:47",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "Now the agent doesn't get to freelance the parts that we know are true.",
+      "zh": "现在智能体没法在我们已知为真的部分上自由发挥了。",
+      "timestamp": "07:29",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "The agents stopped guessing and started referencing.",
+      "zh": "智能体不再猜测，开始引用。",
+      "timestamp": "08:00",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "The agent itself is very confidently wrong and the uncertainty that the agent has is completely invisible.",
+      "zh": "智能体本身非常自信地错了，而智能体所拥有的不确定性完全不可见。",
+      "timestamp": "09:30",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "In our system, or with Reducto, failures carry information.",
+      "zh": "在我们的系统里，或者说在 Reducto，失败携带着信息。",
+      "timestamp": "09:46",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "So we rewarded asking instead of guessing.",
+      "zh": "所以我们奖励的是提问，而不是猜测。",
+      "timestamp": "10:47",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "The agent basically satisfies what you wrote and not the outcome that you wanted.",
+      "zh": "智能体基本上满足的是你所写的东西，而不是你想要的结果。",
+      "timestamp": "11:14",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "And underneath, they're basically one shape where the agent had more autonomy and more access than the human could verify.",
+      "zh": "而在底层，它们基本上是同一个形状：智能体拥有的自主权和访问权限超出了人类所能验证的范围。",
+      "timestamp": "12:02",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "Agents are just intelligence in a box and the harness that you surround them with is what provides them with the ability to deliver these outcomes downstream.",
+      "zh": "智能体只是盒子里的智能，而你围绕它们构建的 harness 才是赋予它们能力、在下游交付这些成果的东西。",
+      "timestamp": "12:59",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "Without us rewriting by hand, this then became a self-improving loop per org or per user that was building these pipelines.",
+      "zh": "在我们不用手工重写的情况下，这就变成了每个组织或每个用户构建这些流水线时的一个自我改进循环。",
+      "timestamp": "13:45",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "But beyond that, it's when your agent is really confidently wrong, who finds out and how fast do they find out?",
+      "zh": "但除此之外，关键在于：当你的智能体自信地出错时，谁会发现？他们多快会发现？",
+      "timestamp": "15:54",
+      "speaker": "Abhi Arya"
+    },
+    {
+      "en": "If you build for that, then you can build for something that people will actually trust with real work.",
+      "zh": "如果你为此而构建，那么你就能构建出人们真正愿意托付实际工作的东西。",
+      "timestamp": "16:03",
+      "speaker": "Abhi Arya"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:22",
+      "speaker": "Unknown",
+      "en": "The model starts hallucinating because a large majority of enterprise data is unstructured.",
+      "zh": "模型开始产生幻觉，因为企业数据的很大一部分是非结构化的。"
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "Agent-first software is inherently an architecture problem.",
+      "zh": "智能体优先软件本质上是一个架构问题。"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Unknown",
+      "en": "And so I think that structure, that architecture really comes down to one question and that is who pays for the agent being wrong?",
+      "zh": "所以我认为这个结构、这个架构其实归结为一个问题，那就是：谁为智能体犯错买单？"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Unknown",
+      "en": "And when it messes up, which it will, you won't have any idea because it's really confident about what it's doing, and you're the one that's paying for it being wrong to your customers, to your users, et cetera.",
+      "zh": "而当它搞砸的时候——它肯定会搞砸——你完全不会察觉，因为它对自己在做的事情非常自信，而你要为它的错误买单，对你的客户、你的用户等等。"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "And lastly, the bucket that I think wins here is agent experience in service of the user.",
+      "zh": "最后一个桶，也是我认为会胜出的桶，是服务用户的智能体体验。"
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Unknown",
+      "en": "This framing is what turns agent experience into less of a question of the model and more of a question of context, capability, and overall self-improvement.",
+      "zh": "这个框架使智能体体验不再是一个关于模型的问题，而更多是一个关于上下文、能力和整体自我提升的问题。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Unknown",
+      "en": "One thing that I noticed early on was that any of the users, especially our sales team at Reducto, was spending all their time in configuration instead of outcomes.",
+      "zh": "我很早注意到的一件事是，我们的用户，尤其是 Reducto 的销售团队，把所有时间都花在配置上，而不是结果上。"
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Unknown",
+      "en": "I was building a really curated demo, and that's why the standalone demo told me nothing at all.",
+      "zh": "我在做一个精心打磨的演示，所以那个独立的演示什么也没告诉我。"
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Unknown",
+      "en": "And that is the rude awakening of auto mode in production.",
+      "zh": "这就是生产环境中 auto mode 的当头棒喝。"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Unknown",
+      "en": "We built something that could communicate with our system, but we hadn't built something that could actually work with it.",
+      "zh": "我们构建了一个能与我们的系统通信的东西，但我们没有构建一个能真正与之协同工作的东西。"
+    },
+    {
+      "timestamp": "06:16",
+      "speaker": "Unknown",
+      "en": "And you'd think that the fix here is more detail in the system prompt or more model guidance.",
+      "zh": "你可能以为修复方法是在 system prompt 里加更多细节，或者给模型更多指导。"
+    },
+    {
+      "timestamp": "06:22",
+      "speaker": "Unknown",
+      "en": "But realistically, it's architecture.",
+      "zh": "但实际上，是架构。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "It was mostly fewer tools, but they carried the structure of actual work.",
+      "zh": "主要是更少的工具，但它们承载了实际工作的结构。"
+    },
+    {
+      "timestamp": "07:29",
+      "speaker": "Unknown",
+      "en": "Now the agent doesn't get to freelance the parts that we know are true.",
+      "zh": "现在智能体没法在我们已知为真的部分上自由发挥了。"
+    },
+    {
+      "timestamp": "08:00",
+      "speaker": "Unknown",
+      "en": "The agents stopped guessing and started referencing.",
+      "zh": "智能体不再猜测，开始引用。"
+    },
+    {
+      "timestamp": "08:18",
+      "speaker": "Unknown",
+      "en": "So to avoid auto mode, you don't hand your agent an API.",
+      "zh": "所以要避免 auto mode，你不要扔给智能体一个 API。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Unknown",
+      "en": "So the correct path also becomes the simplest path that the MCP can take.",
+      "zh": "这样正确的路径也就成了 MCP 可以走的最简单的路径。"
+    },
+    {
+      "timestamp": "09:30",
+      "speaker": "Unknown",
+      "en": "The agent itself is very confidently wrong and the uncertainty that the agent has is completely invisible.",
+      "zh": "智能体本身非常自信地错了，而智能体所拥有的不确定性完全不可见。"
+    },
+    {
+      "timestamp": "09:46",
+      "speaker": "Unknown",
+      "en": "In our system, or with Reducto, failures carry information.",
+      "zh": "在我们的系统里，或者说在 Reducto，失败携带着信息。"
+    },
+    {
+      "timestamp": "10:47",
+      "speaker": "Unknown",
+      "en": "So we rewarded asking instead of guessing.",
+      "zh": "所以我们奖励的是提问，而不是猜测。"
+    },
+    {
+      "timestamp": "11:14",
+      "speaker": "Unknown",
+      "en": "The agent basically satisfies what you wrote and not the outcome that you wanted.",
+      "zh": "智能体基本上满足的是你所写的东西，而不是你想要的结果。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Unknown",
+      "en": "And underneath, they're basically one shape where the agent had more autonomy and more access than the human could verify.",
+      "zh": "而在底层，它们基本上是同一个形状：智能体拥有的自主权和访问权限超出了人类所能验证的范围。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Unknown",
+      "en": "And that intelligence lives in the construction overall.",
+      "zh": "而智能其实存在于整体的结构之中。"
+    },
+    {
+      "timestamp": "12:59",
+      "speaker": "Unknown",
+      "en": "Agents are just intelligence in a box and the harness that you surround them with is what provides them with the ability to deliver these outcomes downstream.",
+      "zh": "智能体只是盒子里的智能，而你围绕它们构建的 harness 才是赋予它们能力、在下游交付这些成果的东西。"
+    },
+    {
+      "timestamp": "13:45",
+      "speaker": "Unknown",
+      "en": "Without us rewriting by hand, this then became a self-improving loop per org or per user that was building these pipelines.",
+      "zh": "在我们不用手工重写的情况下，这就变成了每个组织或每个用户构建这些流水线时的一个自我改进循环。"
+    },
+    {
+      "timestamp": "14:41",
+      "speaker": "Unknown",
+      "en": "So when an agent's experience was built really in service of the users that were using it, we weren't pushing people directly toward it, and rather they reached for it and actually started using it as a company-wide resource.",
+      "zh": "所以当一个智能体的体验真正是为了使用它的用户而构建时，我们并没有直接把人们推向它，而是他们主动伸手去用它，并真正开始把它当作全公司的资源来使用。"
+    },
+    {
+      "timestamp": "15:25",
+      "speaker": "Unknown",
+      "en": "And with models getting better from closed source to open source, from expensive to cheap, I think it now means almost the opposite of what it sounds.",
+      "zh": "而随着模型从闭源到开源、从昂贵到便宜不断变好，我认为它现在的含义几乎和字面意思相反。"
+    },
+    {
+      "timestamp": "15:33",
+      "speaker": "Unknown",
+      "en": "To some extent, the agent doesn't go first.",
+      "zh": "在某种程度上，智能体并不走在最前面。"
+    },
+    {
+      "timestamp": "15:54",
+      "speaker": "Unknown",
+      "en": "But beyond that, it's when your agent is really confidently wrong, who finds out and how fast do they find out?",
+      "zh": "但除此之外，关键在于：当你的智能体自信地出错时，谁会发现？他们多快会发现？"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Unknown",
+      "en": "If you build for that, then you can build for something that people will actually trust with real work.",
+      "zh": "如果你为此而构建，那么你就能构建出人们真正愿意托付实际工作的东西。"
+    }
+  ],
+  "voice_script": "今天这一集,主角是 Reducto 的产品负责人 Abhi Arya。Reducto 是一家处理非结构化文档的公司,三年处理了超过三十亿份文档,客户里有 Harvey、ScaleAI 这样的大公司。他们做的事,说白了就是在模型和企业数据之间加一层,把那些乱七八糟的扫描件、排版复杂的文件,变成 AI 能用的干净数据。\n\n而 Abhi 这次要讲的,不是他们的成功故事,而是一次推倒重来:他们把第一个 MCP 服务器整个删掉,从头再做了一遍。为什么删?因为撞上了一个很根本的问题——智能体自信地犯错的时候,谁来发现?谁来买单?\n\n这事起因还挺有意思。Abhi 的女朋友问他,什么是智能体优先软件?结果他发现自己一时答不上来。他想,优化提示词、写好接口,这些其实都是在优化模型,不是把智能体放在第一位。在他看来,这是个架构问题,而架构问题归结为一句话:智能体犯错时,谁付代价?\n\n围绕这个问题,他分了三类。第一类是全自动模式:写个提示词,让智能体随便干。这种模式它一定会犯错,而且犯错时非常自信,你根本看不出来,最后是你在替它向客户买单。第二类是用户优先:给用户一堆按钮和开关,再外挂一个能力很弱的智能体,本质上就是个聊天机器人,用户的能力和智能体的能力都被封了顶。第三类,也是他认为会胜出的答案,是为用户服务的智能体体验——智能体有丰富的能力,能真正帮人干活,同时人还能验证它做了什么。\n\n说回 Reducto 那个被删掉的第一个版本。他们的业务是自动化文档流水线,包括解析、分类、切分、提取这些环节,销售团队以前天天泡在配置界面里。于是 Abhi 用 Claude Code 搭了个最小可用版本,把应用里每个接口都包成一个 MCP 工具,全塞进一个大文件,再配上精心设计的提示词,发到 Slack,效果很好。\n\n但效果很好,其实什么也说明不了。因为那是一场被精心安排的表演——演示的人知道自己想演示什么。真正的考验,是把工具发给全团队。结果立刻崩了:有人喂进去一段客户通话的半成品记录,或者一个 Notion 页面,智能体就闷头把整条工作流从头到尾搭完,还信誓旦旦地说一切正常。可无论用户还是智能体,都说不清这条流水线到底干了什么。这就是全自动模式在生产环境里的当头一棒:智能体从不承认自己不确定,人也没有任何地方可以验证。\n\n那怎么修?你可能以为解决办法是把提示词写得更细。Abhi 说,真正该改的是架构。于是一个提交,把那个大文件整个删了。替换它的不是更多工具,而是更少的、但承载了真实工作结构的工具。\n\n举个例子。常见需求是把分类接口接到提取节点,以前是让模型靠猜、靠提示词去拼装;现在直接做成一个分类转提取的工具,一步到位,后续步骤自动衔接。这样一来,智能体没法在已知为真的部分上自由发挥了。又因为智能体没有记忆状态,他们还加了一个快照工具,一次调用就能拿回整条流水线的实时状态和具体错误代码——智能体去查实际存在的东西,而不是瞎编变量名。把上下文从提示词搬进结构里,智能体就从瞎猜变成了查证。而人能看懂每一步,也能向下游解释这些输出。\n\n构建阶段的问题解决了,运行时的问题又冒出来了。如果产出本身就错了——比如数据结构很糟,或者用户没说清用途——谁能发现?智能体出错是安静地出错:不是报个崩溃,而是流水线跑完一百份文档,可能漏掉了第三十页的一个扫描件,而且没人知道。\n\nReducto 的解法,是把不确定性变得可见。他们的提取本身就会输出置信度分数和边界框,把这些信息喂回模型,提取结果会随时间越来越准。同时,要求智能体暴露自己的不确定:遇到一个字段有两种读法,不许猜,也不许卡住,而是要问用户——我看到两种理解,你指的是哪个?在评估里,凡是基于站不住脚的假设完成的任务,一律判失败;奖励提问,惩罚硬猜。而且判断权不全在智能体手里,每次生成新东西,都要向用户解释做了什么、为什么,由用户来审。\n\n回头看,这些失败的形状都一样:智能体的自主权和访问权限,超过了人能验证的范围。所以 Abhi 的结论是,智能体在搭建流水线、生成数据结构、组织上下文的时候最强,而这时出错也最便宜——因为人就在旁边。他们还做了埋点,记录每个会话里的提示词,让销售团队导出自己的 Claude Code 会话,看人在哪里推翻了智能体、模型哪里信心不足。这些数据流回长期指导规则,系统靠多搭流水线变得更会搭流水线,形成了一个按组织、按用户自我改进的循环。\n\n最后还有个意外信号:Abhi 从没要求销售团队用这个东西,只是把工具暴露了出来。结果销售自己在客户通话前先做功课,再用这个工具提问、搭流水线,最后敢把它带到高价值客户面前演示——因为演示不光是能跑,人还能说一句:这是我搭的,你来看。\n\n这一集听完,记住一句话就够了:智能体优先不是一个关于模型的问题,而是一个关于架构的问题,核心就是——谁为智能体的错误买单。"
+}

@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":19,"分布式系统":1,"韧性":2,"可观测性":44,"生产环境即真相":1,"规范驱动开发":2,"幂等性":2,"惊群效应":1}</script>
+<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":19,"分布式系统":1,"韧性":2,"可观测性":45,"生产环境即真相":1,"规范驱动开发":2,"幂等性":2,"惊群效应":1}</script>
 
 <script>
 (function(){

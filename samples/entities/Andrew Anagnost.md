@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":33,"大语言模型":11,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":8}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Autodesk":1,"AI":34,"大语言模型":11,"定制模型":1,"订阅制转型":4,"同理心":1,"初创公司":2,"Netflix":9}</script>
 
 <script>
 (function(){

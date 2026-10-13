@@ -1,0 +1,1124 @@
+{
+  "episode_id": "2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu",
+  "podcast": "Invest Like the Best",
+  "date": "2026-10-13",
+  "tags": [
+    "数字银行",
+    "金融科技",
+    "AI 组织重塑",
+    "稳定币",
+    "创始人心法"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "david-v-lez",
+      "type": "person",
+      "role": "host",
+      "name": "David Vélez",
+      "file": "David Vélez",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nubank",
+      "type": "company",
+      "role": "company",
+      "name": "Nubank",
+      "file": "Nubank",
+      "primary": true,
+      "how_described": "本集主角:从巴西起步的数字原生新银行,现拥有 1.4 亿客户,服务成本约为传统银行的 3%,刚宣布进入美国市场并向 35 国推出稳定币账户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            200.5,
+            203.763
+          ],
+          "quote": "I think Nubank is very unique, specifically in Brazil and Latin America, because",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            237.981,
+            240.723
+          ],
+          "quote": "And that is very unique to Nubank in Brazil.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 65,
+          "t": [
+            375.883,
+            385.587
+          ],
+          "quote": "How early it is in the transformation for us is why don't we go to 100 countries and try to accelerate this transformation by Nubank being one of the leading digital financial services firms in the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3199.505,
+            3201.886
+          ],
+          "quote": "And that's something that we've discussed at Nubank for a very long time to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3331.692,
+            3336.994
+          ],
+          "quote": "I went through a phase, even with Nubank, where I started thinking, is there more stuff that I should be doing beyond Nubank?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3346.197,
+            3359.302
+          ],
+          "quote": "Ultimately, I went through the other side of that analysis for about a year or two years, realizing that there's nothing else that I can imagine myself doing that could have more impact than taking Nubank from where it is today to making it the next larger.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3765.238,
+            3781.346
+          ],
+          "quote": "The moment that I was able to launch Nubank in Colombia, which we did in a big event with the president of the country at the same time, was very emotional as well because there was a bit of coming back home and delivering a product and a service that I thought was going to be very great for the country.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3786.15,
+            3790.514
+          ],
+          "quote": "And it was videocasted and there were 100,000 people connected to the launch of Nubank in Colombia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 782,
+          "t": [
+            4043.924,
+            4056.541
+          ],
+          "quote": "We're able to ride those tailwinds from technology shifts, and we were able to execute through a multi-country platform a global vision of Nubank, taking us to 100 plus countries over the next few decades.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hyperplane",
+      "type": "company",
+      "role": "company",
+      "name": "Hyperplane",
+      "file": "Hyperplane",
+      "primary": false,
+      "how_described": "本集提到 Nubank 收购的帕洛阿尔托公司,原本就做面向金融服务业的基础模型,团队被整合用于构建 Nubank 的自有基础模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1104.14,
+            1110.868
+          ],
+          "quote": "And we acquired a company called Hyperplane in Palo Alto that was already working on doing foundation models for financial services.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把它说成效率之上的再次乘数效应:既重塑金融服务的成本与智能,也触发了 Nubank 全公司 120 个工作流的原生重造和组织压扁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            12.368,
+            21.592
+          ],
+          "quote": "So if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            54.836,
+            58.939
+          ],
+          "quote": "That's why so many of the top AI teams you hear about already run on WorkOS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            68.401,
+            76.463
+          ],
+          "quote": "Rogo is the AI platform purpose-built for financial institutions, serving tens of thousands of bankers and investors at hundreds of leading firms worldwide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            77.024,
+            81.105
+          ],
+          "quote": "Rogo's AI agents autonomously execute large chunk of your firm's workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            280.437,
+            288.983
+          ],
+          "quote": "But then, of course, I'm sure you're thinking carefully about all the wonderful things that AI will allow you to do and technology will allow you to do for customers that you don't yet do today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            347.932,
+            348.792
+          ],
+          "quote": "That's pre-AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            352.914,
+            362.838
+          ],
+          "quote": "AI will be an additional multiplication on that efficiency to that because then you get to choose whether you want to have much more efficiency and you could automatize a lot of areas of the bank.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 118,
+          "t": [
+            613.903,
+            614.964
+          ],
+          "quote": "You can solve it through AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            615.204,
+            623.751
+          ],
+          "quote": "And that's where I think AI is really transformational in financial services because it's almost providing every single person around the world super intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 153,
+          "t": [
+            806.397,
+            817.741
+          ],
+          "quote": "One of the questions that I think lots of investors and founders are wrestling with is what will be the best competitive advantages or moats in this new AI era when the cost to build new stuff digitally is much, much lower?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            838.37,
+            850.014
+          ],
+          "quote": "So I think the early stage startup today that is AI native, their biggest advantage will be the speed, the ability to move extremely quickly and launch a number of different products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            870.125,
+            881.335
+          ],
+          "quote": "And so I think in summary, there's been a lot of conversation about how AI disrupts software and that you can ask ChatGPT or Codex to rebuild an entire software strategy, but you still cannot really get ChatGPT to get you a banking license.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            926.772,
+            936.162
+          ],
+          "quote": "Companies like us, we're sort of in the sweet spot of benefiting the most from AI because in one way we already have the scale and the data and the brand and the trust and the licenses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            936.522,
+            948.884
+          ],
+          "quote": "That will be hard for the early native startup to move, but also we still have the technology angle and the technology infrastructure to allow us to benefit from AI and what AI is creating and move even faster than we were moving before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            980.576,
+            990.824
+          ],
+          "quote": "Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            991.524,
+            1000.231
+          ],
+          "quote": "Firms are moving off legacy technology and onto Ridgeline because of how far ahead Ridgeline's AI features are compared to anything else in investment management software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1000.771,
+            1010.815
+          ],
+          "quote": "I've been hearing from a lot of investment managers about AI, and they fall roughly into two camps, with some unsure where to even start, and others convinced they can build their own border management system over a weekend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1017.598,
+            1020.64
+          ],
+          "quote": "And no amount of AI enthusiasm changes that requirement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1021.44,
+            1029.647
+          ],
+          "quote": "Ridgeline is built on exactly that foundation, which is why I believe that the firms that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1030.207,
+            1036.833
+          ],
+          "quote": "If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation, and you can request a demo at ridgeline.ai.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1038.508,
+            1045.931
+          ],
+          "quote": "Can you build the pretty detailed timeline of when you first had the thought like, wow, AI is a thing that we need to take really seriously?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1239.622,
+            1244.844
+          ],
+          "quote": "And they're still, if you look at a lot of the AI applications, I will use AI to transform COBOL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1332.151,
+            1335.615
+          ],
+          "quote": "Pre-AI, you had to spend six months adding a new feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1363.467,
+            1364.928
+          ],
+          "quote": "That's what AI is also enabling.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1774.961,
+            1778.962
+          ],
+          "quote": "And then with better algorithms and AI plays a role here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1827.631,
+            1839.953
+          ],
+          "quote": "And then you enable an AI co-pilot for that customer that tells them all the different moves and what they need to do in terms of spending and investing and savings to gain points and become more credit-worthy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1965.001,
+            1971.085
+          ],
+          "quote": "Maybe he's the best fintech investor ever, and now he's doing less of that and more things in AI and power and data and things like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1994.085,
+            1999.151
+          ],
+          "quote": "I actually asked this question, Ricky, last week, because I saw him spend a lot of time in AI and investing in AI companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2014.328,
+            2019.833
+          ],
+          "quote": "Through AI, but now have access to these modes of scale and data and brand and licenses.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2030.042,
+            2034.845
+          ],
+          "quote": "It becomes a little bit harder and you probably are applications on top of AI models that you do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2510.307,
+            2522.733
+          ],
+          "quote": "And actually in the entire AI debate, you actually don't hear that much conversation about customers because there is so much energy and focus around how to use AI for efficiency and optimization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2526.555,
+            2528.577
+          ],
+          "quote": "And this is where humans still are building the AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2529.037,
+            2547.234
+          ],
+          "quote": "So the biggest complexity is actually prioritizing this value, even when it's inconvenient to do so, especially from a financial perspective, but also the AI bro, the tech bro is much more enamored today with the technology versus the consumer experience itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2668.962,
+            2682.588
+          ],
+          "quote": "Also in a perhaps counterintuitive way, increases the argument to spend time in person more because increasingly the work that AI can do is more or less the work that people at home individually could do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2701.52,
+            2704.684
+          ],
+          "quote": "I think the second part is how the organization changes through AI specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2753.668,
+            2760.312
+          ],
+          "quote": "It were 60 days where it made a huge amount of difference between us and best-in-class companies that were using AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2774.401,
+            2793.177
+          ],
+          "quote": "Across the entire organization, coding is one of them, but everything from how do you do product design, know your customer flows, internal audit, compliance, regulatory capital management, every part of the organization, 120 workflows were reinvented natively using AI tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2808.329,
+            2813.233
+          ],
+          "quote": "That's what's so exciting about this moment is we get to reinvent the way we do things with AI technology.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2817.056,
+            2818.217
+          ],
+          "quote": "It's not even because of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2823.161,
+            2826.404
+          ],
+          "quote": "And if we were to do it now without AI, we would find a productivity gains.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2826.764,
+            2830.125
+          ],
+          "quote": "But AI just augments the possibility to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2876.347,
+            2880.39
+          ],
+          "quote": "I think this is partly AI related, partly is the way we manage our organization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2914.975,
+            2919.316
+          ],
+          "quote": "Partly what AI creates is it allows you to take a step back and reinvent everything about your business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2923.478,
+            2928.9
+          ],
+          "quote": "Toby Lukey has talked about this, how he can now ask the company stuff because of AI can tell him stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2973.02,
+            2982.45
+          ],
+          "quote": "It's actually sending me information about what we're doing from changing our AI transformation to how we're doing around launching certain products or metrics or features.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3056.141,
+            3064.625
+          ],
+          "quote": "And I think this is an area that I'm surprised so few people have discussed about how AI is going to reinvent HR in the organizations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3100.256,
+            3106.722
+          ],
+          "quote": "That is the opportunity that ultimately AI is going to create for every single person in an organization is you have Olympic athlete type of coaching.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3115.91,
+            3118.011
+          ],
+          "quote": "Daily, you should be able to get feedback from the AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3118.291,
+            3127.353
+          ],
+          "quote": "Your AI co-pilot, if you're coding, is reviewing your pull requests and is telling you not only how you're using these tools, but how could you use them better?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3165.011,
+            3167.952
+          ],
+          "quote": "How do you stay up to speed on AI capabilities?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3265.897,
+            3268.158
+          ],
+          "quote": "Schedule a demo at ridgeline.ai.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3269.379,
+            3274.042
+          ],
+          "quote": "Every investment firm is unique and generic AI chatbots don't understand your process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3285.9,
+            3292.847
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise ready overnight, not in months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3380.517,
+            3392.963
+          ],
+          "quote": "And how I can develop better as a leader to motivate an organization that has big ambitions and with big technology shifts like AI can either decide to stay behind or stay in front.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            4014.878,
+            4020.821
+          ],
+          "quote": "Partly of that would also mean that we could not take advantage of a lot of the AI opportunities that enables also.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 781,
+          "t": [
+            4024.418,
+            4043.364
+          ],
+          "quote": "The bull case is the opposite of that is we truly took advantage of this thesis that we have around how much market share is going to be transferred from incumbent banks to digitally native companies over the next two to three decades and how that is going to be accelerated by technology shifts like real-time payment systems, open finance and AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4066.615,
+            4079.505
+          ],
+          "quote": "If we have this cost structure advantage versus our competitors, versus the industry players that still own 90% of the $10 trillion profit pool, if we have a cost structure that is 50x theirs, and this is pre-AI, then that meant",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4236.891,
+            4241.413
+          ],
+          "quote": "I think AI makes it harder, not easier, just because the bar to start a company is now so much easier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4361.104,
+            4367.83
+          ],
+          "quote": "The best AI and software companies from OpenAI to Cursor to Perplexity use WorkOS to become enterprise ready overnight, not in months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 842,
+          "t": [
+            4387.678,
+            4391.139
+          ],
+          "quote": "Every investment firm is unique, and generic AI doesn't understand your process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            4392.219,
+            4397.88
+          ],
+          "quote": "It's an AI platform built specifically for Wall Street, connected to your data, understanding your process, and producing real outputs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 845,
+          "t": [
+            4398.24,
+            4400.601
+          ],
+          "quote": "Check them out at rogo.ai slash invest.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "foundation-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation model)",
+      "file": "基础模型",
+      "primary": true,
+      "how_described": "本集说 Nubank 用每客户 2 万到 3 万个数据点、跨 13 年的历史,构建了世界首个用于信贷决策的金融服务自有基础模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            902.87,
+            907.192
+          ],
+          "quote": "So this is a huge, massive amount of information that allowed us to build our own foundation model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            907.252,
+            910.254
+          ],
+          "quote": "We build our own foundation model for financial services, for credit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1054.235,
+            1055.595
+          ],
+          "quote": "Like you said, you have your own foundation model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1123.693,
+            1132.716
+          ],
+          "quote": "We think we were the first financial services firm in the world to build their own foundation model with its own proprietary data to do credit decisions specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1138.02,
+            1141.964
+          ],
+          "quote": "We're now using our foundation model for fraud decisions, for Mexico, for Colombia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1142.365,
+            1151.594
+          ],
+          "quote": "As we launched the U.S. and our international markets, we can day one already come in with our own foundation model and understand how to use that data for making basic decisions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1325.805,
+            1331.731
+          ],
+          "quote": "And what our own foundation model has enabled us is the cost of putting a feature into a model has gone down significantly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1342.679,
+            1345.821
+          ],
+          "quote": "With our own foundation model, you can test a number of different approaches much faster.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成一个与人类消费者同等重要的客户群体:要为智能体做产品、做营销、做 SEO,并设想用它给每个人当财务副驾驶。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 494,
+          "t": [
+            2547.872,
+            2556.701
+          ],
+          "quote": "I'm really curious how you think about your own product, like literally the thing I see on my phone versus your own agent versus new agents being introduced in the marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2573.179,
+            2579.766
+          ],
+          "quote": "And you have to provide a product for the agent and you have to market to the agent and you have to do SEO for the agents, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2588.715,
+            2591.416
+          ],
+          "quote": "And understanding the needs of that consumer, which is the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2620.587,
+            2628.35
+          ],
+          "quote": "Specifically for areas like in Brazil, where we have 65% of the entire country as a customer, we have the opportunity to be that agent to the consumer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2628.41,
+            2634.012
+          ],
+          "quote": "And the customer is coming directly to our app and asking our agent for support specifically with financial products.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2634.032,
+            2636.333
+          ],
+          "quote": "And we can do it in a way where it's actually an open agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3181.387,
+            3187.213
+          ],
+          "quote": "I have an agent that collates and summarizes a lot of the developments of what's going on on details.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stablecoin",
+      "type": "concept",
+      "role": "concept",
+      "name": "稳定币 (stablecoin)",
+      "file": "稳定币",
+      "primary": true,
+      "how_described": "本集说美元稳定币会成为美元储备地位的救星之一,因为它让获取美元的途径民主化,并预测全球约 190 种法币 10 到 20 年后只剩 10 种左右。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1624.52,
+            1626.981
+          ],
+          "quote": "At least there is a lot of demand for the US stablecoin.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1627.401,
+            1629.382
+          ],
+          "quote": "There's very little for the Brazilian stablecoin, unfortunately.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1630.222,
+            1639.13
+          ],
+          "quote": "The fact that stablecoin exists for US dollar will ultimately mean that the US dollar maintains its power as a reserve currency for a very long time, but it won't be unique.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2089.537,
+            2099.22
+          ],
+          "quote": "And we also announced launching to upwards of 35 different countries a stablecoin backed account, because this is the beginning of continuing to play in this thesis that is a global thesis in nature.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-banking",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放银行 (open banking)",
+      "file": "开放银行",
+      "primary": true,
+      "how_described": "本集把它说成消费者拥有并可在机构间转移自己全部数据的机制,能打破数据惰性、加剧银行业竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            717.417,
+            725.862
+          ],
+          "quote": "And with the combination, the multiplication of intelligence with open banking, for example, Plaid, Plaid can connect 120 million accounts and you put intelligence on top of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1433.347,
+            1437.288
+          ],
+          "quote": "The second one is open finance and open banking across the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1491.129,
+            1496.853
+          ],
+          "quote": "And the reason why open banking is important is because then it will decrease that inertia globally and will increase significant competition in banking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "neobank",
+      "type": "concept",
+      "role": "concept",
+      "name": "新银行 (neobank)",
+      "file": "新银行",
+      "primary": true,
+      "how_described": "本集说全球所有新银行加起来仍不到消费金融市场 10%,并认为有规模、数据、品牌、牌照的新银行正处于从 AI 中获益最多的甜点位。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2051.595,
+            2057.459
+          ],
+          "quote": "I think most people still identify Neobank as a Brazil neobank or Latin American neobank, which is what we are.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "imposter-syndrome",
+      "type": "concept",
+      "role": "concept",
+      "name": "冒名顶替综合征 (imposter syndrome)",
+      "file": "冒名顶替综合征",
+      "primary": true,
+      "how_described": "本集说这是创始人 CEO 长期最难的部分:要尽快忽略它,因为是你把公司从无到有带到世上,这种近乎痛苦的在乎足以让你长期做对领导者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 682,
+          "t": [
+            3510.625,
+            3511.566
+          ],
+          "quote": "The imposter syndrome.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3706.357,
+            3717.763
+          ],
+          "quote": "For a period of time, is this imposter syndrome that is asking you may question is like, are you the right driver of the car as the car becomes more complex and goes faster and faster and faster and faster?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            4109.555,
+            4133.512
+          ],
+          "quote": "How to quickly ignore the imposter syndrome and how the fact that you are the person that had the vision and the energy to build something out of nothing, to give birth, that already is giving you a level of care for that company so high that it will make you become the right leader for a very long time.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "blockbuster",
+      "type": "company",
+      "role": "company",
+      "name": "Blockbuster",
+      "file": "Blockbuster",
+      "primary": false,
+      "how_described": "本集用作反复出现的比喻:全球 90% 金融业务仍走传统银行,就像 90% 的人还在去 Blockbuster 租录像带;它有海量数据却没有数据文化,输给了 Netflix。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            169.127,
+            178.035
+          ],
+          "quote": "Still in financial services is still almost as if 90% of the world was going to Blockbuster to get VHS and DVDs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            289.003,
+            293.706
+          ],
+          "quote": "Can you talk through each of those levers to achieve this blockbuster to Netflix transition?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1186.119,
+            1190.821
+          ],
+          "quote": "And then going back to the analogy of Blockbuster, my answer was always, well, Blockbuster had a huge amount of data, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1190.841,
+            1196.663
+          ],
+          "quote": "Imagine the amount of people coming in into the Blockbuster and seeing if they were looking at that VHS or that DVD or not or anything.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "company",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集把它当作数字原生公司颠覆在位者的样板:在没有任何数据的情况下进场,靠更好的算法和数据文化击败 Blockbuster。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            178.836,
+            183.64
+          ],
+          "quote": "And Netflix-like services still had something like 10% of that industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            185.402,
+            199.919
+          ],
+          "quote": "That migration that you've seen in other industries, in media, with Netflix, in retail, with Amazon, with the Barnes & Nobles, in transportation, with companies like Uber, that migration from incumbents to digitally native companies is still very, very early in financial services.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            289.003,
+            293.706
+          ],
+          "quote": "Can you talk through each of those levers to achieve this blockbuster to Netflix transition?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1210.274,
+            1215.7
+          ],
+          "quote": "And somebody like Netflix was able to come in with no data and build a better algorithm and ultimately use that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1931.788,
+            1933.95
+          ],
+          "quote": "You look at Netflix, the same product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

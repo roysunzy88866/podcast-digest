@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":492,"零日漏洞":3,"红队测试":8,"渗透测试":2,"自主防御":1,"开源模型":4,"护栏":89}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":495,"零日漏洞":3,"红队测试":8,"渗透测试":2,"自主防御":1,"开源模型":4,"护栏":89}</script>
 
 <script>
 (function(){

@@ -1,0 +1,855 @@
+{
+  "episode_id": "2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "智能体优先",
+    "MCP",
+    "智能体架构",
+    "文档处理",
+    "人机协同"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "abhi-arya",
+      "type": "person",
+      "role": "guest",
+      "name": "Abhi Arya",
+      "file": "Abhi Arya",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "reducto",
+      "type": "company",
+      "role": "company",
+      "name": "Reducto",
+      "file": "Reducto",
+      "primary": true,
+      "how_described": "本集介绍 Reducto 是一个智能体化文档平台，位于模型与非结构化企业数据之间的层，三年处理超 30 亿份文档，客户包括 Harvey、ScaleAI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            13.088,
+            16.409
+          ],
+          "quote": "So I'm Abi and I work on product here at Reducto.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            16.689,
+            22.311
+          ],
+          "quote": "And before I dive in right away, I wanted to give you guys some more context on what Reducto is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            87.648,
+            91.511
+          ],
+          "quote": "And so Reducto is a layer that sits between your model and that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            243.841,
+            249.547
+          ],
+          "quote": "At Reducto, we've been building tools that basically automate end-to-end document work through pipelines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            262.237,
+            270.979
+          ],
+          "quote": "One thing that I noticed early on was that any of the users, especially our sales team at Reducto, was spending all their time in configuration instead of outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            413.068,
+            421.15
+          ],
+          "quote": "For example, a common use case with Reducto is to route our classify endpoint that classifies documents into an extract node.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            586.78,
+            590.644
+          ],
+          "quote": "In our system, or with Reducto, failures carry information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            755.693,
+            764.061
+          ],
+          "quote": "And by using Reducto for the document layer, we can guarantee accurate parses and extractions for parts of the pipeline that we can't trust agents with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            845.312,
+            861.569
+          ],
+          "quote": "And so one thing that kind of told me that we were doing something right with these improvements is I never explicitly told the sales team to use the agent to build pipelines, but rather I just exposed it in our Claude enterprise as reducto tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            973.076,
+            975.297
+          ],
+          "quote": "And also, we're at Reducto's at a booth P8.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线：智能体犯错时非常自信且无人能察觉，架构设计应围绕『谁为智能体的错误买单』来组织，把判断权留在人手里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            118.631,
+            120.132
+          ],
+          "quote": "We're building agent-first software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            126.418,
+            129.241
+          ],
+          "quote": "But she asked me, what is agent-first software?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            137.878,
+            148.605
+          ],
+          "quote": "Building a really good harness, building a really good API, writing or iterating on prompts, all of these don't really land on the agent being put first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            151.166,
+            154.128
+          ],
+          "quote": "Agent-first software is inherently an architecture problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            155.76,
+            164.783
+          ],
+          "quote": "And so I think that structure, that architecture really comes down to one question and that is who pays for the agent being wrong?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            168.725,
+            175.227
+          ],
+          "quote": "So you have auto mode to start where you optimize for autonomy, you write a prompt and you let the agent do whatever it wants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            188.315,
+            198.382
+          ],
+          "quote": "This is where you optimize the human interface, give the user all the knobs, and then you bolt on an agent that can't really do much, which is basically just a chatbot experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            203.926,
+            206.491
+          ],
+          "quote": "And the agent's capability within the product as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            207.153,
+            212.805
+          ],
+          "quote": "And lastly, the bucket that I think wins here is agent experience in service of the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            213.458,
+            227.026
+          ],
+          "quote": "This is where the agent's capabilities are structured to give the model rich and scope capabilities where it can do things that the user really wants, aiding and enabling them, and even where the human can still verify the work that it's doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            227.666,
+            237.552
+          ],
+          "quote": "This framing is what turns agent experience into less of a question of the model and more of a question of context, capability, and overall self-improvement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            292.889,
+            299.094
+          ],
+          "quote": "Let the agent do the heavy lifting and only burden the user with thinking about their use case and writing a prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            335.816,
+            354.886
+          ],
+          "quote": "Someone would feed it a half-baked description from a customer call or maybe a Notion page, and the agent would just start going and build the entire workflow end-to-end, but very confidently it would tell the user that everything it did was right, but neither the user nor the agent could explain what the workflow actually did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            360.069,
+            362.431
+          ],
+          "quote": "The agent never really said that it's not sure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            399.185,
+            412.388
+          ],
+          "quote": "So for example, instead of one create step of this workflow to call over and over and just praying that the agent assembled it right in the pipeline, I built tools that understood how our internal dashboard or our product works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            435.067,
+            449.016
+          ],
+          "quote": "And after each step, the agent gets contextual guidance on what actually comes next, with certain tools even chaining automatically like this one, rather than the agent having to guess or think about what is right versus being told what's right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            449.896,
+            453.564
+          ],
+          "quote": "Now the agent doesn't get to freelance the parts that we know are true.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            484.38,
+            498.13
+          ],
+          "quote": "And because the tools only let pipelines take the shape that we as the engineers and the product wanted, the human could follow exactly what happened and we could explain the agent's outputs to downstream users of this MCP tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            498.89,
+            503.252
+          ],
+          "quote": "So to avoid auto mode, you don't hand your agent an API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            520.32,
+            525.868
+          ],
+          "quote": "Thinking back to auto mode, the agent was confidently wrong and no one could see it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            531.415,
+            533.156
+          ],
+          "quote": "And the human could follow what the agent did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            536.158,
+            540.501
+          ],
+          "quote": "When the outcome itself that the agent is trying to build goes wrong, who can tell?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            540.721,
+            549.007
+          ],
+          "quote": "For example, if we had a really bad schema, or maybe the user didn't really specify the actual use case, how can we tell that the agent did something wrong?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            570.641,
+            577.944
+          ],
+          "quote": "The agent itself is very confidently wrong and the uncertainty that the agent has is completely invisible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            611.625,
+            614.426
+          ],
+          "quote": "The agent also has to surface its own uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            631.735,
+            647.194
+          ],
+          "quote": "Basically, in our evals, we started failing the agent for building any shaky assumptions, and we gave our harness prompt guidance to use the ask user question tools, et cetera, that Claude Code and other frontier harnesses offer instead of guessing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            650.077,
+            653.118
+          ],
+          "quote": "And judgment doesn't live in the agent alone.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            653.458,
+            663.24
+          ],
+          "quote": "This entire pipeline is still overseen by the user, and the confidence and the reasoning of the agent was then outputted as basically prompt guidance in the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            674.416,
+            681.5
+          ],
+          "quote": "The agent basically satisfies what you wrote and not the outcome that you wanted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            716.899,
+            721.261
+          ],
+          "quote": "And then an agent that passed the test by reward hacking or hiding what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            722.041,
+            729.885
+          ],
+          "quote": "And underneath, they're basically one shape where the agent had more autonomy and more access than the human could verify.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            734.989,
+            746.231
+          ],
+          "quote": "So building the pipeline, generating the schema, and pulling in the right context is where the agent is most powerful and where a mistake is the cheapest because the human is right there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            764.681,
+            772.589
+          ],
+          "quote": "Where the agent operates, it earns trust by being verifiable, correct, and building trust in service of the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            798.282,
+            812.269
+          ],
+          "quote": "And we even asked our sales team and other people on the team to basically export their Claude code sessions to understand how the model was behaving, where humans overrode the agent, where confidence of the model ran low, and where it asked questions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            845.312,
+            861.569
+          ],
+          "quote": "And so one thing that kind of told me that we were doing something right with these improvements is I never explicitly told the sales team to use the agent to build pipelines, but rather I just exposed it in our Claude enterprise as reducto tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            881.215,
+            893.626
+          ],
+          "quote": "So when an agent's experience was built really in service of the users that were using it, we weren't pushing people directly toward it, and rather they reached for it and actually started using it as a company-wide resource.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            915.67,
+            924.817
+          ],
+          "quote": "Overall, a few months ago, I would have told you that agent first means that you have the best model, the best inference, speed, or intelligence of the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            933.764,
+            935.925
+          ],
+          "quote": "To some extent, the agent doesn't go first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            936.666,
+            944.692
+          ],
+          "quote": "And to build for agent experience means you have to consider the agent being in the loop with the people who have to answer for the work downstream.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            945.607,
+            948.729
+          ],
+          "quote": "So it's not just what does the agent connect to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            949.169,
+            953.752
+          ],
+          "quote": "Everyone's agent connects to everything nowadays, and Claude can make a new connector for you immediately.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            954.413,
+            962.618
+          ],
+          "quote": "But beyond that, it's when your agent is really confidently wrong, who finds out and how fast do they find out?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体体验 (agent experience)",
+      "file": "智能体体验",
+      "primary": true,
+      "how_described": "本集提出智能体优先软件的三个模式中，正确答案是『服务用户的智能体体验』：给智能体丰富且范围明确的能力，同时让人仍能验证它做的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            207.153,
+            212.805
+          ],
+          "quote": "And lastly, the bucket that I think wins here is agent experience in service of the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            227.666,
+            237.552
+          ],
+          "quote": "This framing is what turns agent experience into less of a question of the model and more of a question of context, capability, and overall self-improvement.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            936.666,
+            944.692
+          ],
+          "quote": "And to build for agent experience means you have to consider the agent being in the loop with the people who have to answer for the work downstream.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集讲 Reducto 删掉了第一个 MCP server——把每个 API 都包成工具的大文件——换成更少但承载真实工作结构的工具，让正确路径成为最简单的路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            289.307,
+            292.589
+          ],
+          "quote": "So the clear move to get here for us was an MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            299.814,
+            310.541
+          ],
+          "quote": "To get some validation for the direction, I threw together an MVP with Claude Code, and every API endpoint that drove our app was given an MCP tool in one massive file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            326.632,
+            332.995
+          ],
+          "quote": "The real test happened when I gave the MCP to everyone on the team, and immediately it broke.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            384.973,
+            390.076
+          ],
+          "quote": "The whole file that we use to talk to the MCP, I deleted the entire thing in one commit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            484.38,
+            498.13
+          ],
+          "quote": "And because the tools only let pipelines take the shape that we as the engineers and the product wanted, the human could follow exactly what happened and we could explain the agent's outputs to downstream users of this MCP tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            510.314,
+            514.296
+          ],
+          "quote": "So the correct path also becomes the simplest path that the MCP can take.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            653.458,
+            663.24
+          ],
+          "quote": "This entire pipeline is still overseen by the user, and the confidence and the reasoning of the agent was then outputted as basically prompt guidance in the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            746.711,
+            754.653
+          ],
+          "quote": "By building for that interface, we were able to also have user satisfaction go up with the MCP because they could really see what was going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            790.117,
+            797.841
+          ],
+          "quote": "And so once we reach this point, we focus on instrumentation where every MCP session, the prompts that were sent from the model were logged.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            816.6,
+            820.663
+          ],
+          "quote": "It flowed back into the long-term guidance that the MCP had overall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            867.471,
+            880.515
+          ],
+          "quote": "So before they had a customer call, they would use Circleback or Slack and basically learn about the customer and then use the MCP to basically ask them questions about the customer and then build a pipeline for that customer downstream.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Abhi 用 Claude Code 搭出 MVP、销售团队导出自己的 Claude Code 会话做埋点分析，它也是提供『向用户提问』工具的前沿 harness。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            299.814,
+            310.541
+          ],
+          "quote": "To get some validation for the direction, I threw together an MVP with Claude Code, and every API endpoint that drove our app was given an MCP tool in one massive file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            631.735,
+            647.194
+          ],
+          "quote": "Basically, in our evals, we started failing the agent for building any shaky assumptions, and we gave our harness prompt guidance to use the ask user question tools, et cetera, that Claude Code and other frontier harnesses offer instead of guessing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            798.282,
+            812.269
+          ],
+          "quote": "And we even asked our sales team and other people on the team to basically export their Claude code sessions to understand how the model was behaving, where humans overrode the agent, where confidence of the model ran low, and where it asked questions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "type": "concept",
+      "role": "concept",
+      "name": "流水线 (pipeline)",
+      "file": "流水线",
+      "primary": true,
+      "how_described": "本集围绕自动化文档流水线（解析、分类、切分、提取）展开：智能体最擅长搭建流水线，且这时人就在旁边、犯错代价最低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            271.639,
+            278.101
+          ],
+          "quote": "And that's a larger problem across the board because legacy interfaces were designed for kind of building that pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            399.185,
+            412.388
+          ],
+          "quote": "So for example, instead of one create step of this workflow to call over and over and just praying that the agent assembled it right in the pipeline, I built tools that understood how our internal dashboard or our product works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            459.08,
+            469.829
+          ],
+          "quote": "So this is one call that basically hands back the live state of our pipeline from the context of the entire flow to the errors that were surfaced with really specific error codes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            552.189,
+            565.358
+          ],
+          "quote": "So instead of a seg fault or some actual error, the pipeline runs across 100 documents and maybe it missed a scan on page 30 or maybe the user didn't specify what types of documents were going into the pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            653.458,
+            663.24
+          ],
+          "quote": "This entire pipeline is still overseen by the user, and the confidence and the reasoning of the agent was then outputted as basically prompt guidance in the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            734.989,
+            746.231
+          ],
+          "quote": "So building the pipeline, generating the schema, and pulling in the right context is where the agent is most powerful and where a mistake is the cheapest because the human is right there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            755.693,
+            764.061
+          ],
+          "quote": "And by using Reducto for the document layer, we can guarantee accurate parses and extractions for parts of the pipeline that we can't trust agents with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            867.471,
+            880.515
+          ],
+          "quote": "So before they had a customer call, they would use Circleback or Slack and basically learn about the customer and then use the MCP to basically ask them questions about the customer and then build a pipeline for that customer downstream.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "type": "concept",
+      "role": "concept",
+      "name": "不确定性 (uncertainty)",
+      "file": "不确定性",
+      "primary": true,
+      "how_described": "本集认为运行时失败的核心是智能体的不确定性完全不可见，解法是让不确定性清晰可读：用置信度分数、边界框反馈给模型，奖励提问、惩罚硬猜。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            570.641,
+            577.944
+          ],
+          "quote": "The agent itself is very confidently wrong and the uncertainty that the agent has is completely invisible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            578.584,
+            585.827
+          ],
+          "quote": "So everything that we did to fix this basically came down to one change which was making uncertainty really legible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            608.683,
+            611.525
+          ],
+          "quote": "But that's just the outcome uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            611.625,
+            614.426
+          ],
+          "quote": "The agent also has to surface its own uncertainty.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            681.601,
+            702.854
+          ],
+          "quote": "So what happens if you make the uncertainty basically a bit more legible and you keep the final judgment where it can actually be accountable in the hands of the human, then that one clarifying question does the work of all three, giving the model context, capability, and also adding a human in the loop to actually build that judgment and verify things as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

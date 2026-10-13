@@ -146,7 +146,7 @@ Pershing 投的是世界上确定性最高的公司，而 Netflix 的结果离�
 
 - [[2026-08-20-a16z-how-global-networks-are-reshaping-startu|无国界创始人：为什么AI时代最好的创业筹码是"不在硅谷长大"]]<span class="pd-rz">同公司:Cognition · 同概念:AI</span>
 - [[2026-09-10-mos-from-high-school-dropout-to-ceo-with-aut|从高中辍学到 Autodesk CEO:Andrew Anagnost 的「杀死自己业务」领导哲学]]<span class="pd-rz">同公司:Netflix · 同概念:AI</span>
-- [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
+- [[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌]]<span class="pd-rz">同公司:Netflix · 同概念:AI</span>
 
 </div>
 <div class="pd-ex">

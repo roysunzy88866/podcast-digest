@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":7,"Codie Sanchez":1,"Contrarian Thinking":1,"BizScout":1,"SBA":1,"收购企业":1,"系统化经营":1,"凭感觉经营（cowboying）":1,"12 个利润杠杆":1,"损益审查":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Codie Sanchez":1,"Contrarian Thinking":1,"BizScout":1,"SBA":1,"收购企业":1,"系统化经营":1,"凭感觉经营（cowboying）":1,"12 个利润杠杆":1,"损益审查":1}</script>
 
 <script>
 (function(){

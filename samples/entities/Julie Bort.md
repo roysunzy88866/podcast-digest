@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":203,"Claude":96,"Claude Code":109,"MCP":92,"harness":65,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":203,"Claude":97,"Claude Code":110,"MCP":93,"harness":65,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
 
 <script>
 (function(){
