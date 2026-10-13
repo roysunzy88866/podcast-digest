@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snowflake</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,6 +32,7 @@ unlisted: true
 - **[[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]]**(11:15起):本集举例:用 Snowflake 插件做自定义数据仪表板,分享后对方用自己的连接器登录、按数据权限决定能否看到报告。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(19:15起):本集在与 Databricks、Palantir 并列时提到，这类公司都会来争夺 AI 的抽象层。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(21:33起):本集说 Snowflake 确立了现代分析数据库的架构,其成功一半在数据库周围的东西——UI、开发者体验、数据摄取;如今也加了 Postgres 服务
+- **[[2026-10-08-talks-let-anyone-at-your-company-ship-internal|《让公司里每个人都能用 AI 做出内部工具》]]**(15:41起):下一步的数据集成方向：只需说一句想添加 Snowflake，应用就自动获得维护好的数据访问权限，不用自己管 API 密钥。
 
 ## ① 提到它的金句
 
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -64,6 +65,7 @@ unlisted: true
 - [[2026-09-30-howiai-openai-dev-day-2026-the-releases-that-ac|《OpenAI Dev Day 全复盘:从智能体 Dot 到 8 倍速 Astra》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
+- [[2026-10-08-talks-let-anyone-at-your-company-ship-internal|《让公司里每个人都能用 AI 做出内部工具》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -71,7 +73,7 @@ unlisted: true
 
 [[智能体]] · [[Databricks]] · [[Anthropic]] · [[护栏]] · [[SaaS]] · [[MCP]] · [[沙箱]] · [[OpenAI]] · [[Codex]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"Databricks":23,"Anthropic":201,"护栏":89,"SaaS":23,"MCP":91,"沙箱":96,"OpenAI":197,"Codex":86,"LLM":62}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"Databricks":23,"Anthropic":201,"护栏":89,"SaaS":23,"MCP":91,"沙箱":96,"OpenAI":197,"Codex":86,"LLM":63}</script>
 
 <script>
 (function(){

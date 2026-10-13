@@ -1,0 +1,780 @@
+{
+  "episode_id": "2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 智能体",
+    "生产环境",
+    "工作流编排",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "viren-baraiya",
+      "type": "person",
+      "role": "guest",
+      "name": "Viren Baraiya",
+      "file": "Viren Baraiya",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体不再只是聊天机器人，而是像应用一样的存在：有定时跑的后台智能体、事件驱动智能体、长时间运行的协调者智能体，以及多智能体系统；非确定性智能体的职责是规划接下来该做什么，而不是真正执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            67.824,
+            88.274
+          ],
+          "quote": "All right, so when we think about agents, right, like if you go back to kind of the Hello World equivalent examples of agents, it always starts with, you know, an agent with a tool call and how LLM kind of decides to call the tool, maybe use some sort of context or a memory and plans things ahead, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            119.433,
+            127.12
+          ],
+          "quote": "I would like to have an agent that runs every hour to check what's happening with my schedule and if there is something new that has popped up that I should think about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            147.135,
+            152.296
+          ],
+          "quote": "I could have long-running coordinators, and what I mean by that is I have an agent running for a longer period of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            153.017,
+            163.14
+          ],
+          "quote": "I would like to have an agent monitoring that agent to see, hey, what's going on there, and should I nudge that agent to kind of move forward, take a different action, and things like that, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            166.184,
+            168.486
+          ],
+          "quote": "One more thing is about multi-agent systems, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            171.429,
+            176.793
+          ],
+          "quote": "The last thing you want is to have an agent be responsible for multiple things and risk hallucinations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            181.517,
+            188.724
+          ],
+          "quote": "The way I would like to think about is the agent starts to feel more like an application, not just a component, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            228.268,
+            233.112
+          ],
+          "quote": "There is kind of a very clear parallel to that when it comes to agent harnesses, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            246.284,
+            261.634
+          ],
+          "quote": "Maybe it's listening on events coming from my logging system, talking to my Kubernetes cluster as an agent to find out what's going on there, my metric systems, my customer service dashboards, and so on and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            269.969,
+            284.622
+          ],
+          "quote": "An agent alone doesn't kind of deliver the whole premise, but rather when you start putting things together and you build a harness that controls the execution of the agent, delivers on the premise, that's where you start thinking about an application, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            301.587,
+            305.128
+          ],
+          "quote": "And as I mentioned, right, Harness runs more than just an agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            334.735,
+            351.465
+          ],
+          "quote": "Or let's say if I have an agent harness that is responsible for monitoring my production deployment, how I manage my Kubernetes clusters, I probably want to have a very well-defined workflow in terms of what are the sequence of steps that I execute when I want to restart my cluster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            434.714,
+            443.662
+          ],
+          "quote": "And as I mentioned, the loop that the harness runs spans across agent and everything else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            488.458,
+            506.156
+          ],
+          "quote": "And what really happens here is that if you think about a clear distinction, and this is the most important thing, if one thing that I would like everyone to take away from here is this line, which is that the responsibility of a non-deterministic agent is to plan, is to plan what should happen next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            535.757,
+            550.684
+          ],
+          "quote": "When the agent says that, hey, this cluster is unhealthy and you should restart, RLH should decide how to restart the cluster, what involves restarting the cluster, and that has to be, at least in my world, has to be very deterministic sort of processes, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            607.726,
+            612.27
+          ],
+          "quote": "So yeah, if the agent writes the plan, Harness executes the plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            654.269,
+            656.61
+          ],
+          "quote": "The agent is proposing and building them at runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            659.971,
+            675.535
+          ],
+          "quote": "But you get all the benefits of a traditional saga and a workflow out of the box in terms of visibility, what's happening, being able to control things, and depending upon how far ahead in the future the agent is able to plan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            725.707,
+            731.331
+          ],
+          "quote": "Here is one of my example agent that essentially is acting like an SRE agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            761.305,
+            765.286
+          ],
+          "quote": "So as an input to my agent, let's see what was the input given right here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            773.189,
+            775.731
+          ],
+          "quote": "So as you can see, it's an SRE agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            815.605,
+            818.388
+          ],
+          "quote": "So this is the plan that agent gave.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness(执行框架) (harness)",
+      "file": "harness(执行框架)",
+      "primary": true,
+      "how_described": "本集把它说成控制和执行智能体的应用程序外壳：是'双手'，负责确定性地执行智能体(大脑)制定的计划，是长时间运行、需要持久性的进程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            233.132,
+            239.677
+          ],
+          "quote": "If you think about a harness that is responsible for achieving a specific goal, so let's say I have a harness for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            264.084,
+            269.589
+          ],
+          "quote": "And what I want to drive there is that if you think about it, right, your harness is the application and vice versa, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            269.969,
+            284.622
+          ],
+          "quote": "An agent alone doesn't kind of deliver the whole premise, but rather when you start putting things together and you build a harness that controls the execution of the agent, delivers on the premise, that's where you start thinking about an application, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            301.587,
+            305.128
+          ],
+          "quote": "And as I mentioned, right, Harness runs more than just an agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            334.735,
+            351.465
+          ],
+          "quote": "Or let's say if I have an agent harness that is responsible for monitoring my production deployment, how I manage my Kubernetes clusters, I probably want to have a very well-defined workflow in terms of what are the sequence of steps that I execute when I want to restart my cluster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            356.667,
+            361.19
+          ],
+          "quote": "So I want a determinism to be delivered by my harness when it matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            364.096,
+            366.757
+          ],
+          "quote": "And, of course, the harness is a long-running process, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            391.727,
+            393.689
+          ],
+          "quote": "Or Harness is just waiting, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            431.431,
+            433.713
+          ],
+          "quote": "That's not the feature that you are looking for in a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            434.714,
+            443.662
+          ],
+          "quote": "And as I mentioned, the loop that the harness runs spans across agent and everything else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            454.99,
+            460.014
+          ],
+          "quote": "If you think about the harness and the loop, essentially what it is doing, it has a state of the world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            509.079,
+            512.122
+          ],
+          "quote": "And then harness is the one who does actually execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            517.146,
+            525.573
+          ],
+          "quote": "One being that harness is a deterministic piece of code that actually understands what is involved in actually executing this piece of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            525.973,
+            534.401
+          ],
+          "quote": "So as I mentioned, right, if I am trying to build a harness that runs my DevOps or SRE agents,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            602.082,
+            604.202
+          ],
+          "quote": "Harness is the hands, the brain is the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            607.726,
+            612.27
+          ],
+          "quote": "So yeah, if the agent writes the plan, Harness executes the plan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent systems)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集说智能体之间互相协作，比让一个智能体负责多件事更好，因为后者会放大幻觉风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            166.184,
+            168.486
+          ],
+          "quote": "One more thing is about multi-agent systems, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (deterministic)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "本集说支付、重启生产集群这类关键操作必须由确定性代码执行、每次运行完全一致，必要时加人工审批关卡，不能依赖 LLM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            311.84,
+            316.944
+          ],
+          "quote": "It's a combination of both deterministic and non-deterministic part of the application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            325.31,
+            332.115
+          ],
+          "quote": "And then there is non-deterministic part, which you do not want non-determinism sipping into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            351.885,
+            356.627
+          ],
+          "quote": "And that's a very deterministic set of processes, which every time it runs, I know exactly what it does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            488.458,
+            506.156
+          ],
+          "quote": "And what really happens here is that if you think about a clear distinction, and this is the most important thing, if one thing that I would like everyone to take away from here is this line, which is that the responsibility of a non-deterministic agent is to plan, is to plan what should happen next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            517.146,
+            525.573
+          ],
+          "quote": "One being that harness is a deterministic piece of code that actually understands what is involved in actually executing this piece of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            535.757,
+            550.684
+          ],
+          "quote": "When the agent says that, hey, this cluster is unhealthy and you should restart, RLH should decide how to restart the cluster, what involves restarting the cluster, and that has to be, at least in my world, has to be very deterministic sort of processes, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            579.194,
+            582.415
+          ],
+          "quote": "So it has to be very deterministic when it comes to those kind of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            629.149,
+            637.477
+          ],
+          "quote": "If you think about workflows as sagas, which we used to write ourselves and define exactly what happens, and it is a very deterministic set of processes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            642.038,
+            653.069
+          ],
+          "quote": "And what I mean by that is that they have a very finite and deterministic set of tools and the tasks that they can operate on instead of putting them together upfront.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            819.188,
+            822.051
+          ],
+          "quote": "This gets compiled into a very deterministic workflow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "saga",
+      "type": "concept",
+      "role": "concept",
+      "name": "Saga(晚绑定的 saga) (saga)",
+      "file": "Saga(晚绑定的 saga)",
+      "primary": true,
+      "how_described": "本集说带智能体的 harness 本质上是'晚绑定的 saga'：工具和任务是有限、确定的，但具体组合由智能体在运行时提出和搭建，兼得传统工作流的可见性可控性与智能体的灵活性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 112,
+          "t": [
+            659.971,
+            675.535
+          ],
+          "quote": "But you get all the benefits of a traditional saga and a workflow out of the box in terms of visibility, what's happening, being able to control things, and depending upon how far ahead in the future the agent is able to plan.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久性 (durability)",
+      "file": "持久性",
+      "primary": true,
+      "how_described": "本集说长时间运行的 harness 需要持久性，出故障能恢复；但持久性只是入场门槛(table stake)，不是你在 harness 里寻找的卖点特性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            401.159,
+            406.201
+          ],
+          "quote": "That brings another important point, that when you think about long running systems, you need durability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            425.087,
+            427.768
+          ],
+          "quote": "And one thing about durability here is it's a table stake thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            428.668,
+            431.411
+          ],
+          "quote": "At the end of the day, durability is the cost of admission.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sre-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "SRE 智能体 (SRE agent)",
+      "file": "SRE 智能体",
+      "primary": true,
+      "how_described": "本集演示了一个自规划的运维智能体：循环观察系统状态、提出收集证据/分析日志/回滚部署/验证恢复等步骤序列，经计划编译成确定性工作流后执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            725.707,
+            731.331
+          ],
+          "quote": "Here is one of my example agent that essentially is acting like an SRE agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            773.189,
+            775.731
+          ],
+          "quote": "So as you can see, it's an SRE agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 说成 harness 里的'大脑'：负责推理、思考过程和非确定性的规划部分，提出要执行的步骤，而危险操作不能交给它的幻觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            67.824,
+            88.274
+          ],
+          "quote": "All right, so when we think about agents, right, like if you go back to kind of the Hello World equivalent examples of agents, it always starts with, you know, an agent with a tool call and how LLM kind of decides to call the tool, maybe use some sort of context or a memory and plans things ahead, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            317.504,
+            323.849
+          ],
+          "quote": "Non-determinism is delivered by an LLM in terms of reasoning, in terms of thinking process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            482.937,
+            485.961
+          ],
+          "quote": "And that's where the reasoning and the LLM comes into the picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            571.533,
+            576.694
+          ],
+          "quote": "And I do not want this to be left to a hallucination by an LLM that it doesn't need to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            602.082,
+            604.202
+          ],
+          "quote": "Harness is the hands, the brain is the LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            772.088,
+            772.949
+          ],
+          "quote": "Makes a call to LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            782.656,
+            784.497
+          ],
+          "quote": "The output of LLM, as you can see,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "conductor",
+      "type": "company",
+      "role": "company",
+      "name": "Conductor",
+      "file": "Conductor",
+      "primary": true,
+      "how_described": "本集说 Conductor 是一个开源的工作流编排平台，支持构建智能体循环与智能体系统，演示即运行在其上；演讲者所属公司提供其企业版，也能运行 LangChain、OpenAI、ADK 等框架的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            822.972,
+            825.654
+          ],
+          "quote": "We are relying on a conductor as a workflow execution engine here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            954.667,
+            956.988
+          ],
+          "quote": "The example that I showed you runs on Conductor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            957.649,
+            965.033
+          ],
+          "quote": "Conductor is an open source workflow orchestration platform that supports building agentic loops as well as agentic systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            984.157,
+            989.299
+          ],
+          "quote": "If you want to run your LangChain agents or OpenAI agents or ADK agents, Conductor can handle all of those things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集在举例时提到 harness 会与 Kubernetes 集群通信、重启生产集群需确定性流程与人工审批。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            246.284,
+            261.634
+          ],
+          "quote": "Maybe it's listening on events coming from my logging system, talking to my Kubernetes cluster as an agent to find out what's going on there, my metric systems, my customer service dashboards, and so on and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            334.735,
+            351.465
+          ],
+          "quote": "Or let's say if I have an agent harness that is responsible for monitoring my production deployment, how I manage my Kubernetes clusters, I probably want to have a very well-defined workflow in terms of what are the sequence of steps that I execute when I want to restart my cluster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": false,
+      "how_described": "本集结尾提到 Conductor 可以运行 LangChain 的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            984.157,
+            989.299
+          ],
+          "quote": "If you want to run your LangChain agents or OpenAI agents or ADK agents, Conductor can handle all of those things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":98,"微调":36,"BitNet":1,"LoRa":1,"数据中心":25,"去中介化":2,"智能体":487,"GPU":30}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":98,"微调":36,"BitNet":1,"LoRa":1,"数据中心":25,"去中介化":2,"智能体":489,"GPU":30}</script>
 
 <script>
 (function(){

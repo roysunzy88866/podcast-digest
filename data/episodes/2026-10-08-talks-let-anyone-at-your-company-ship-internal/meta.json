@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-08-talks-let-anyone-at-your-company-ship-internal",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/HTzgC3FoYsI.m4a",
+  "duration_sec": 1013.785,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 238,
+  "asr": true,
+  "title_en": "Let Anyone at Your Company Ship Internal Apps with AI — Garrett Galow, WorkOS",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "added": "2026-10-13",
+  "added_at": "2026-10-13T04:35:28.036Z",
+  "speaker_map": {
+    "SPEAKER_00": "Garrett Galow"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Garrett Galow"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "让公司里每个人都能用 AI 做出内部工具",
+  "guest_name": "Garrett Galow",
+  "guest_title": "WorkOS 产品团队",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

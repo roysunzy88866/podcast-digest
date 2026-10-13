@@ -29,7 +29,7 @@ unlisted: true
 
 [[Snowflake]] · [[智能体]] · [[Jordan Tigani]] · [[MotherDuck]] · [[BigQuery]] · [[数据仓库]] · [[仪表盘]] · [[DuckDB Labs]] · [[开源]] · [[Andy Pavlo]]
 
-<script type="application/json" class="pd-epn">{"Snowflake":21,"智能体":487,"Jordan Tigani":2,"MotherDuck":2,"BigQuery":2,"数据仓库":4,"仪表盘":3,"DuckDB Labs":1,"开源":41,"Andy Pavlo":1}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":22,"智能体":489,"Jordan Tigani":2,"MotherDuck":2,"BigQuery":2,"数据仓库":4,"仪表盘":3,"DuckDB Labs":1,"开源":41,"Andy Pavlo":1}</script>
 
 <script>
 (function(){

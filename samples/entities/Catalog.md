@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Bob Safian]] · [[Nixon Dinh]] · [[Jess Hertz]] · [[PayPal]] · [[Shopify]] · [[Google]] · [[River]] · [[Meta]] · [[sidekick]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"Bob Safian":7,"Nixon Dinh":1,"Jess Hertz":1,"PayPal":8,"Shopify":17,"Google":71,"River":2,"Meta":53,"sidekick":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"Bob Safian":7,"Nixon Dinh":1,"Jess Hertz":1,"PayPal":8,"Shopify":17,"Google":71,"River":2,"Meta":53,"sidekick":2}</script>
 
 <script>
 (function(){

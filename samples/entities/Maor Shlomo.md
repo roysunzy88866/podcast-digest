@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Base44":4,"Wix":4,"Lovable":19,"Bolt":3,"Replit":22,"Vercel":20,"Cursor":86,"Render.com":1,"MongoDB":5}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Base44":4,"Wix":4,"Lovable":20,"Bolt":3,"Replit":22,"Vercel":20,"Cursor":86,"Render.com":1,"MongoDB":5}</script>
 
 <script>
 (function(){

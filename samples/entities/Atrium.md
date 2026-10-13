@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Lon Harris]] · [[Matt Jones]] · [[Justin Kan]] · [[Adyen]] · [[Alex Wilhelm]] · [[Architect]] · [[Jason Calacanis]] · [[Neo4j]] · [[Justin TV]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"Lon Harris":3,"Matt Jones":1,"Justin Kan":1,"Adyen":2,"Alex Wilhelm":1,"Architect":1,"Jason Calacanis":1,"Neo4j":5,"Justin TV":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"Lon Harris":3,"Matt Jones":1,"Justin Kan":1,"Adyen":2,"Alex Wilhelm":1,"Architect":1,"Jason Calacanis":1,"Neo4j":5,"Justin TV":1}</script>
 
 <script>
 (function(){

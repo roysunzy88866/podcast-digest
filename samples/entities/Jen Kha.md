@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Theo Jaffe":8,"a16z":21,"机器时代基金":1,"AI 基础设施":6,"数据中心":25,"定制硅":1,"液冷":2,"超大规模云服务商":4,"智能体":487}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Theo Jaffe":8,"a16z":21,"机器时代基金":1,"AI 基础设施":6,"数据中心":25,"定制硅":1,"液冷":2,"超大规模云服务商":4,"智能体":489}</script>
 
 <script>
 (function(){

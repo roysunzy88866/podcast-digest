@@ -25,7 +25,7 @@ unlisted: true
 
 [[Florian]] · [[DeepSeek]] · [[ByteDance]] · [[ZAI]] · [[Xiaomi]] · [[Meituan]] · [[Ant Group]] · [[BAAI]] · [[Moonshot]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Florian":1,"DeepSeek":4,"ByteDance":1,"ZAI":1,"Xiaomi":3,"Meituan":1,"Ant Group":1,"BAAI":1,"Moonshot":3,"Claude Code":108}</script>
+<script type="application/json" class="pd-epn">{"Florian":1,"DeepSeek":4,"ByteDance":1,"ZAI":1,"Xiaomi":3,"Meituan":1,"Ant Group":1,"BAAI":1,"Moonshot":3,"Claude Code":109}</script>
 
 <script>
 (function(){

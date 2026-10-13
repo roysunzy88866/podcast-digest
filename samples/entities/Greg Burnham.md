@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":2,"递归自我改进":12,"研究品味":1,"上下文学习":4,"harness":64,"对齐":23}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":2,"递归自我改进":12,"研究品味":1,"上下文学习":4,"harness":65,"对齐":23}</script>
 
 <script>
 (function(){

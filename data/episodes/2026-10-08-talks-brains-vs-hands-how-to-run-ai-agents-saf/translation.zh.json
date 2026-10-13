@@ -1,0 +1,1410 @@
+[
+ {
+  "seg": 0,
+  "start": 12.62,
+  "end": 13.621,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.141,
+  "end": 15.622,
+  "speaker": "Unknown",
+  "en": "Thank you all for joining this morning.",
+  "zh": "感谢大家今天早上参加。"
+ },
+ {
+  "seg": 2,
+  "start": 16.602,
+  "end": 19.024,
+  "speaker": "Unknown",
+  "en": "I know it's been an exciting week.",
+  "zh": "我知道这是激动人心的一周。"
+ },
+ {
+  "seg": 3,
+  "start": 19.965,
+  "end": 24.687,
+  "speaker": "Unknown",
+  "en": "A lot of talk about agents, building agents, coding agents, and everything.",
+  "zh": "关于智能体、构建智能体、编码智能体等等有很多讨论。"
+ },
+ {
+  "seg": 4,
+  "start": 25.788,
+  "end": 41.438,
+  "speaker": "Unknown",
+  "en": "And what I want to talk in the next 15, 20 minutes is about running agents in production and things that is kind of on the top of pretty much everybody's mind when it comes to building agents and running agents is, you know, harnesses.",
+  "zh": "在接下来的 15 到 20 分钟里，我想讲的是在生产环境中运行智能体，以及几乎每个人在构建和运行智能体时都关心的事情，也就是 harness(执行框架)。"
+ },
+ {
+  "seg": 5,
+  "start": 43.493,
+  "end": 51.28,
+  "speaker": "Unknown",
+  "en": "Before I get started, I would like to ask in the audience, how many of you are running agents in production today?",
+  "zh": "在开始之前，我想问一下在座的各位，今天有多少人在生产环境中运行智能体？"
+ },
+ {
+  "seg": 6,
+  "start": 53.162,
+  "end": 53.442,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 7,
+  "start": 53.462,
+  "end": 54.643,
+  "speaker": "Unknown",
+  "en": "So a lot of hands up.",
+  "zh": "很多人举手了。"
+ },
+ {
+  "seg": 8,
+  "start": 55.344,
+  "end": 58.847,
+  "speaker": "Unknown",
+  "en": "I was in another conference a couple of weeks ago, and I asked the same question.",
+  "zh": "几周前我参加了另一个会议，问了同样的问题。"
+ },
+ {
+  "seg": 9,
+  "start": 58.867,
+  "end": 60.549,
+  "speaker": "Unknown",
+  "en": "I think I had like one hand.",
+  "zh": "我记得当时只有大约一个人举手。"
+ },
+ {
+  "seg": 10,
+  "start": 60.629,
+  "end": 62.651,
+  "speaker": "Unknown",
+  "en": "So this is pretty good.",
+  "zh": "所以今天的情况相当不错。"
+ },
+ {
+  "seg": 11,
+  "start": 62.851,
+  "end": 64.733,
+  "speaker": "Unknown",
+  "en": "It seems like things are moving forward.",
+  "zh": "看起来事情正在向前发展。"
+ },
+ {
+  "seg": 12,
+  "start": 67.824,
+  "end": 88.274,
+  "speaker": "Unknown",
+  "en": "All right, so when we think about agents, right, like if you go back to kind of the Hello World equivalent examples of agents, it always starts with, you know, an agent with a tool call and how LLM kind of decides to call the tool, maybe use some sort of context or a memory and plans things ahead, right?",
+  "zh": "好的，当我们思考智能体时，如果你回看那些相当于 Hello World 的智能体示例，它总是从一个带工具调用的智能体开始，LLM 决定如何调用工具，也许使用某种上下文或记忆，并提前做规划，对吧？"
+ },
+ {
+  "seg": 13,
+  "start": 88.774,
+  "end": 90.615,
+  "speaker": "Unknown",
+  "en": "What we start to kind of realize is",
+  "zh": "我们开始逐渐意识到的是"
+ },
+ {
+  "seg": 14,
+  "start": 92.425,
+  "end": 95.148,
+  "speaker": "Unknown",
+  "en": "You know, that's a very small, narrowed picture if you think about it.",
+  "zh": "你知道，如果仔细想想，那是一个非常狭小、局限的画面。"
+ },
+ {
+  "seg": 15,
+  "start": 95.689,
+  "end": 99.473,
+  "speaker": "Unknown",
+  "en": "When you think about agents in production, it's not just always about chatbots.",
+  "zh": "当你考虑生产环境中的智能体时，它并不总是只关乎聊天机器人。"
+ },
+ {
+  "seg": 16,
+  "start": 99.633,
+  "end": 107.663,
+  "speaker": "Unknown",
+  "en": "The early examples that we had seen were all about like, you know, hey, we are going to build a customer service chatbot or some sort of chatbot.",
+  "zh": "我们早期看到的例子都是关于，比如说，我们要构建一个客户服务聊天机器人或某种聊天机器人。"
+ },
+ {
+  "seg": 17,
+  "start": 109.002,
+  "end": 118.251,
+  "speaker": "Unknown",
+  "en": "But when we start thinking about agents in broader terms and picture, think about background agents, background workers, agents that are running on schedule.",
+  "zh": "但当我们开始用更宽泛的视角思考智能体时，想想后台智能体、后台工作进程、按计划运行的智能体。"
+ },
+ {
+  "seg": 18,
+  "start": 119.433,
+  "end": 127.12,
+  "speaker": "Unknown",
+  "en": "I would like to have an agent that runs every hour to check what's happening with my schedule and if there is something new that has popped up that I should think about.",
+  "zh": "我希望有一个每小时运行一次的智能体，检查我的日程安排发生了什么，是否有新出现的事情需要我考虑。"
+ },
+ {
+  "seg": 19,
+  "start": 128.161,
+  "end": 129.302,
+  "speaker": "Unknown",
+  "en": "Event-driven agents, right?",
+  "zh": "还有事件驱动的智能体，对吧？"
+ },
+ {
+  "seg": 20,
+  "start": 129.362,
+  "end": 131.063,
+  "speaker": "Unknown",
+  "en": "Agents that are listening on various events.",
+  "zh": "监听各种事件的智能体。"
+ },
+ {
+  "seg": 21,
+  "start": 132.444,
+  "end": 137.788,
+  "speaker": "Unknown",
+  "en": "To give you an example, I have a production system running where my alerts are firing every now and then.",
+  "zh": "举个例子，我有一个生产系统在运行，我的告警时不时会触发。"
+ },
+ {
+  "seg": 22,
+  "start": 137.808,
+  "end": 140.01,
+  "speaker": "Unknown",
+  "en": "I have logs coming through hotel.",
+  "zh": "我有日志通过 hotel 传进来。"
+ },
+ {
+  "seg": 23,
+  "start": 140.77,
+  "end": 145.374,
+  "speaker": "Unknown",
+  "en": "I would like my agents to listen to those events and react on it and see what's going on there, right?",
+  "zh": "我希望我的智能体监听这些事件并做出反应，看看那里发生了什么，对吧？"
+ },
+ {
+  "seg": 24,
+  "start": 147.135,
+  "end": 152.296,
+  "speaker": "Unknown",
+  "en": "I could have long-running coordinators, and what I mean by that is I have an agent running for a longer period of time.",
+  "zh": "我还可以有长时间运行的协调器，我的意思是有一个智能体运行较长的时间。"
+ },
+ {
+  "seg": 25,
+  "start": 153.017,
+  "end": 163.14,
+  "speaker": "Unknown",
+  "en": "I would like to have an agent monitoring that agent to see, hey, what's going on there, and should I nudge that agent to kind of move forward, take a different action, and things like that, right?",
+  "zh": "我希望有一个智能体监控那个智能体，看看，嘿，那里发生了什么，我是不是应该推动那个智能体向前推进、采取不同的行动，诸如此类，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 164.24,
+  "end": 164.52,
+  "speaker": "Unknown",
+  "en": "Also,",
+  "zh": "另外，"
+ },
+ {
+  "seg": 27,
+  "start": 166.184,
+  "end": 168.486,
+  "speaker": "Unknown",
+  "en": "One more thing is about multi-agent systems, right?",
+  "zh": "还有一件事是关于多智能体系统，对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 168.666,
+  "end": 170.708,
+  "speaker": "Unknown",
+  "en": "Agents talking to other agents.",
+  "zh": "智能体与其他智能体对话。"
+ },
+ {
+  "seg": 29,
+  "start": 171.429,
+  "end": 176.793,
+  "speaker": "Unknown",
+  "en": "The last thing you want is to have an agent be responsible for multiple things and risk hallucinations.",
+  "zh": "你最不希望的就是让一个智能体负责多件事，并冒着幻觉的风险。"
+ },
+ {
+  "seg": 30,
+  "start": 178.795,
+  "end": 180.717,
+  "speaker": "Unknown",
+  "en": "So more we think about agents, right?",
+  "zh": "所以我们对智能体的思考越多，对吧？"
+ },
+ {
+  "seg": 31,
+  "start": 181.517,
+  "end": 188.724,
+  "speaker": "Unknown",
+  "en": "The way I would like to think about is the agent starts to feel more like an application, not just a component, right?",
+  "zh": "我倾向于的思考方式是，智能体开始感觉更像是一个应用程序，而不仅仅是一个组件，对吧？"
+ },
+ {
+  "seg": 32,
+  "start": 190.665,
+  "end": 191.686,
+  "speaker": "Unknown",
+  "en": "If you go back to the old",
+  "zh": "如果你回想起以前"
+ },
+ {
+  "seg": 33,
+  "start": 192.759,
+  "end": 197.984,
+  "speaker": "Unknown",
+  "en": "School thought of microservices when we, and probably we are still building microservices, right?",
+  "zh": "关于微服务的经典思路，我们，也许我们现在仍然在构建微服务，对吧？"
+ },
+ {
+  "seg": 34,
+  "start": 199.385,
+  "end": 203.248,
+  "speaker": "Unknown",
+  "en": "You are not going to ship a microservice in production that does everything, right?",
+  "zh": "你不会把一个什么都做的微服务发布到生产环境，对吧？"
+ },
+ {
+  "seg": 35,
+  "start": 203.708,
+  "end": 206.07,
+  "speaker": "Unknown",
+  "en": "It kind of stops being a microservice at that point in time.",
+  "zh": "到了那个程度它就不再是一个微服务了。"
+ },
+ {
+  "seg": 36,
+  "start": 207.131,
+  "end": 210.234,
+  "speaker": "Unknown",
+  "en": "Typically, we are shipping multiple microservices.",
+  "zh": "通常，我们会发布多个微服务。"
+ },
+ {
+  "seg": 37,
+  "start": 210.814,
+  "end": 214.438,
+  "speaker": "Unknown",
+  "en": "They are talking to each other through choreography or orchestration.",
+  "zh": "它们通过编排式(choreography)或协同式(orchestration)相互通信。"
+ },
+ {
+  "seg": 38,
+  "start": 215.338,
+  "end": 226.587,
+  "speaker": "Unknown",
+  "en": "And you have an application that is relying on that set of microservices, which essentially are single responsibility principles to kind of deliver the business goals.",
+  "zh": "然后你有一个依赖于这组微服务的应用程序，这些微服务本质上遵循单一职责原则，以实现业务目标。"
+ },
+ {
+  "seg": 39,
+  "start": 228.268,
+  "end": 233.112,
+  "speaker": "Unknown",
+  "en": "There is kind of a very clear parallel to that when it comes to agent harnesses, right?",
+  "zh": "当谈到智能体 harness 时，有一个非常清晰的类比，对吧？"
+ },
+ {
+  "seg": 40,
+  "start": 233.132,
+  "end": 239.677,
+  "speaker": "Unknown",
+  "en": "If you think about a harness that is responsible for achieving a specific goal, so let's say I have a harness for",
+  "zh": "如果你想到一个负责达成特定目标的 harness，比如说，我有一个用于"
+ },
+ {
+  "seg": 41,
+  "start": 240.88,
+  "end": 242.501,
+  "speaker": "Unknown",
+  "en": "Doing my SRE work.",
+  "zh": "做我的 SRE 工作的 harness。"
+ },
+ {
+  "seg": 42,
+  "start": 242.841,
+  "end": 246.003,
+  "speaker": "Unknown",
+  "en": "It's operating on multiple agents to see what's going on there, right?",
+  "zh": "它操作多个智能体，看看那里发生了什么，对吧？"
+ },
+ {
+  "seg": 43,
+  "start": 246.284,
+  "end": 261.634,
+  "speaker": "Unknown",
+  "en": "Maybe it's listening on events coming from my logging system, talking to my Kubernetes cluster as an agent to find out what's going on there, my metric systems, my customer service dashboards, and so on and so forth.",
+  "zh": "也许它在监听来自我的日志系统的事件，作为一个智能体与我的 Kubernetes 集群通信以查明那里发生了什么，还有我的指标系统、我的客户服务仪表盘，等等等等。"
+ },
+ {
+  "seg": 44,
+  "start": 264.084,
+  "end": 269.589,
+  "speaker": "Unknown",
+  "en": "And what I want to drive there is that if you think about it, right, your harness is the application and vice versa, right?",
+  "zh": "我想强调的是，如果你仔细想想，对吧，你的 harness 就是应用程序，反之亦然，对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 269.969,
+  "end": 284.622,
+  "speaker": "Unknown",
+  "en": "An agent alone doesn't kind of deliver the whole premise, but rather when you start putting things together and you build a harness that controls the execution of the agent, delivers on the premise, that's where you start thinking about an application, right?",
+  "zh": "单独一个智能体并不能实现整个设想，而是当你开始把东西组合在一起，构建一个控制智能体执行的 harness，实现这个设想时，那时你才开始把它当作一个应用程序来思考，对吧？"
+ },
+ {
+  "seg": 46,
+  "start": 286.263,
+  "end": 291.864,
+  "speaker": "Unknown",
+  "en": "You have systems, which are your databases, your internal systems, enterprise systems.",
+  "zh": "你有系统，也就是你的数据库、你的内部系统、企业系统。"
+ },
+ {
+  "seg": 47,
+  "start": 292.525,
+  "end": 294.725,
+  "speaker": "Unknown",
+  "en": "You have humans, a human in the loop.",
+  "zh": "你有人类，即人在环路中(human in the loop)。"
+ },
+ {
+  "seg": 48,
+  "start": 295.005,
+  "end": 297.606,
+  "speaker": "Unknown",
+  "en": "You have tools through either APIs or MCP.",
+  "zh": "你有工具，通过 API 或 MCP。"
+ },
+ {
+  "seg": 49,
+  "start": 298.226,
+  "end": 299.546,
+  "speaker": "Unknown",
+  "en": "That is all kind of playing together.",
+  "zh": "这一切都在协同运作。"
+ },
+ {
+  "seg": 50,
+  "start": 301.587,
+  "end": 305.128,
+  "speaker": "Unknown",
+  "en": "And as I mentioned, right, Harness runs more than just an agent loop.",
+  "zh": "正如我提到的，Harness 运行的不只是一个智能体循环。"
+ },
+ {
+  "seg": 51,
+  "start": 305.528,
+  "end": 310.609,
+  "speaker": "Unknown",
+  "en": "And this is an important thing that I kind of learned while trying to build harnesses for real-world production use cases.",
+  "zh": "这是我在为真实生产用例构建 harness 时才真正领悟到的一件重要事情。"
+ },
+ {
+  "seg": 52,
+  "start": 311.84,
+  "end": 316.944,
+  "speaker": "Unknown",
+  "en": "It's a combination of both deterministic and non-deterministic part of the application.",
+  "zh": "它是应用程序中确定性部分和非确定性部分的结合。"
+ },
+ {
+  "seg": 53,
+  "start": 317.504,
+  "end": 323.849,
+  "speaker": "Unknown",
+  "en": "Non-determinism is delivered by an LLM in terms of reasoning, in terms of thinking process.",
+  "zh": "非确定性是由 LLM 提供的，体现在推理上，体现在思考过程上。"
+ },
+ {
+  "seg": 54,
+  "start": 325.31,
+  "end": 332.115,
+  "speaker": "Unknown",
+  "en": "And then there is non-deterministic part, which you do not want non-determinism sipping into it.",
+  "zh": "然后还有非确定性部分——等一下，是非——嗯，还有一个你不希望非确定性渗入进去的部分。"
+ },
+ {
+  "seg": 55,
+  "start": 332.315,
+  "end": 333.136,
+  "speaker": "Unknown",
+  "en": "Think about payments.",
+  "zh": "想想支付。"
+ },
+ {
+  "seg": 56,
+  "start": 334.735,
+  "end": 351.465,
+  "speaker": "Unknown",
+  "en": "Or let's say if I have an agent harness that is responsible for monitoring my production deployment, how I manage my Kubernetes clusters, I probably want to have a very well-defined workflow in terms of what are the sequence of steps that I execute when I want to restart my cluster.",
+  "zh": "或者说，如果我有一个智能体 harness 负责监控我的生产部署、管理我的 Kubernetes 集群，我大概希望有一个定义得非常清晰的工作流，明确当我想要重启集群时要执行怎样的步骤序列。"
+ },
+ {
+  "seg": 57,
+  "start": 351.885,
+  "end": 356.627,
+  "speaker": "Unknown",
+  "en": "And that's a very deterministic set of processes, which every time it runs, I know exactly what it does.",
+  "zh": "那是一套非常确定性的流程，每次运行时，我都能确切知道它做了什么。"
+ },
+ {
+  "seg": 58,
+  "start": 356.667,
+  "end": 361.19,
+  "speaker": "Unknown",
+  "en": "So I want a determinism to be delivered by my harness when it matters.",
+  "zh": "所以我希望在重要的地方，确定性由我的 harness 来提供。"
+ },
+ {
+  "seg": 59,
+  "start": 364.096,
+  "end": 366.757,
+  "speaker": "Unknown",
+  "en": "And, of course, the harness is a long-running process, right?",
+  "zh": "当然，harness 是一个长时间运行的进程，对吧？"
+ },
+ {
+  "seg": 60,
+  "start": 366.837,
+  "end": 367.918,
+  "speaker": "Unknown",
+  "en": "It runs across the time.",
+  "zh": "它是跨时间运行的。"
+ },
+ {
+  "seg": 61,
+  "start": 368.018,
+  "end": 371.239,
+  "speaker": "Unknown",
+  "en": "It can run anywhere from a few seconds.",
+  "zh": "它的运行时间可以从几秒钟，"
+ },
+ {
+  "seg": 62,
+  "start": 371.779,
+  "end": 379.902,
+  "speaker": "Unknown",
+  "en": "If it's something very quick, like, hey, check what's going on here, to all the way running for days, months, even longer than that, right?",
+  "zh": "如果是很快的事情，比如“嘿，看看这里发生了什么”，一直到运行数天、数月，甚至更长，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 379.942,
+  "end": 387.745,
+  "speaker": "Unknown",
+  "en": "Think about long-running processes, order management systems where you are waiting on third-party services to deliver your shipment or waiting on humans to",
+  "zh": "想想长时间运行的进程，比如订单管理系统，你在等待第三方服务交付你的货物，或者在等待人"
+ },
+ {
+  "seg": 64,
+  "start": 388.585,
+  "end": 391.407,
+  "speaker": "Unknown",
+  "en": "Take actions and approve things and so on and so forth.",
+  "zh": "采取行动、批准事情等等。"
+ },
+ {
+  "seg": 65,
+  "start": 391.727,
+  "end": 393.689,
+  "speaker": "Unknown",
+  "en": "Or Harness is just waiting, right?",
+  "zh": "或者说 Harness 只是在等待，对吧？"
+ },
+ {
+  "seg": 66,
+  "start": 393.769,
+  "end": 398.492,
+  "speaker": "Unknown",
+  "en": "It's waiting for events to happen so when that event happens, you take an action and do something around it.",
+  "zh": "它在等待事件发生，这样当事件发生时，你就采取行动并对它做点什么。"
+ },
+ {
+  "seg": 67,
+  "start": 401.159,
+  "end": 406.201,
+  "speaker": "Unknown",
+  "en": "That brings another important point, that when you think about long running systems, you need durability.",
+  "zh": "这就引出了另一个重要的点：当你考虑长时间运行的系统时，你需要持久性。 [[58→68]] 你希望能够在事情失败时恢复，因为归根结底，这些 harness 运行在你整个基础设施栈的某处。"
+ },
+ {
+  "seg": 68,
+  "start": 406.241,
+  "end": 413.963,
+  "speaker": "Unknown",
+  "en": "You want to be able to recover when things fail, because at the end of the day, these harnesses are running somewhere in your entire infrastructure stack.",
+  "zh": "你需要能够在事情失败时恢复，因为归根结底，这些 harness 是运行在你整个基础设施栈中的某个地方的。"
+ },
+ {
+  "seg": 69,
+  "start": 414.403,
+  "end": 419.045,
+  "speaker": "Unknown",
+  "en": "Maybe in the cloud, maybe on a sandbox, but those things can go up, go down.",
+  "zh": "可能在云端，可能在一个沙箱里，但这些机器会启动、会宕机。"
+ },
+ {
+  "seg": 70,
+  "start": 419.405,
+  "end": 422.566,
+  "speaker": "Unknown",
+  "en": "There could be network failures, partitioning, anything that could be happening.",
+  "zh": "可能会有网络故障、分区，任何可能发生的事情。"
+ },
+ {
+  "seg": 71,
+  "start": 423.086,
+  "end": 424.947,
+  "speaker": "Unknown",
+  "en": "So you need the harnesses to be durable.",
+  "zh": "所以你需要 harness 具备持久性。"
+ },
+ {
+  "seg": 72,
+  "start": 425.087,
+  "end": 427.768,
+  "speaker": "Unknown",
+  "en": "And one thing about durability here is it's a table stake thing.",
+  "zh": "关于持久性有一点：它是入场门槛。"
+ },
+ {
+  "seg": 73,
+  "start": 428.668,
+  "end": 431.411,
+  "speaker": "Unknown",
+  "en": "At the end of the day, durability is the cost of admission.",
+  "zh": "归根结底，持久性是入场的代价。"
+ },
+ {
+  "seg": 74,
+  "start": 431.431,
+  "end": 433.713,
+  "speaker": "Unknown",
+  "en": "That's not the feature that you are looking for in a harness.",
+  "zh": "那不是你在 harness 中寻找的特性。"
+ },
+ {
+  "seg": 75,
+  "start": 434.714,
+  "end": 443.662,
+  "speaker": "Unknown",
+  "en": "And as I mentioned, the loop that the harness runs spans across agent and everything else.",
+  "zh": "正如我提到的，harness 运行的循环横跨智能体和其他一切。"
+ },
+ {
+  "seg": 76,
+  "start": 447.825,
+  "end": 452.61,
+  "speaker": "Unknown",
+  "en": "So now let's think about how the harnesses operate.",
+  "zh": "那么现在让我们想想 harness 是如何运作的。"
+ },
+ {
+  "seg": 77,
+  "start": 454.99,
+  "end": 460.014,
+  "speaker": "Unknown",
+  "en": "If you think about the harness and the loop, essentially what it is doing, it has a state of the world.",
+  "zh": "如果你思考 harness 和这个循环，本质上它在做的事情是：它拥有一个世界状态。"
+ },
+ {
+  "seg": 78,
+  "start": 460.615,
+  "end": 467.68,
+  "speaker": "Unknown",
+  "en": "It knows what work has been completed, what has been recorded in terms of the side effects.",
+  "zh": "它知道哪些工作已完成，哪些副作用被记录了下来。"
+ },
+ {
+  "seg": 79,
+  "start": 467.7,
+  "end": 471.424,
+  "speaker": "Unknown",
+  "en": "So if I did a cluster restart, I know I have that recorded.",
+  "zh": "所以如果我做了一次集群重启，我知道那个操作已被记录。"
+ },
+ {
+  "seg": 80,
+  "start": 472.284,
+  "end": 474.346,
+  "speaker": "Unknown",
+  "en": "If I sent an email, I know that has happened.",
+  "zh": "如果我发了一封邮件，我知道那件事已经发生了。"
+ },
+ {
+  "seg": 81,
+  "start": 476.388,
+  "end": 482.877,
+  "speaker": "Unknown",
+  "en": "I know what worked, what didn't work, and then based on the current state of the world and the goal, I know what needs to happen next, right?",
+  "zh": "我知道什么成功了、什么没成功，然后基于当前的世界状态和目标，我知道接下来需要发生什么，对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 482.937,
+  "end": 485.961,
+  "speaker": "Unknown",
+  "en": "And that's where the reasoning and the LLM comes into the picture.",
+  "zh": "这就是推理和 LLM 登场的地方。"
+ },
+ {
+  "seg": 83,
+  "start": 488.458,
+  "end": 506.156,
+  "speaker": "Unknown",
+  "en": "And what really happens here is that if you think about a clear distinction, and this is the most important thing, if one thing that I would like everyone to take away from here is this line, which is that the responsibility of a non-deterministic agent is to plan, is to plan what should happen next.",
+  "zh": "而这里真正发生的是：如果你思考一个清晰的区分——这是最重要的事情——如果说我希望每个人从这里带走一句话，那就是这句：非确定性智能体的职责是规划，是规划接下来应该发生什么。"
+ },
+ {
+  "seg": 84,
+  "start": 506.937,
+  "end": 508.779,
+  "speaker": "Unknown",
+  "en": "Not really to do things.",
+  "zh": "而不是真正去做事情。"
+ },
+ {
+  "seg": 85,
+  "start": 509.079,
+  "end": 512.122,
+  "speaker": "Unknown",
+  "en": "And then harness is the one who does actually execution.",
+  "zh": "而 harness 才是真正执行的那一个。"
+ },
+ {
+  "seg": 86,
+  "start": 513.082,
+  "end": 516.545,
+  "speaker": "Unknown",
+  "en": "And this is important for various reasons, right?",
+  "zh": "这一点很重要，原因有很多，对吧？"
+ },
+ {
+  "seg": 87,
+  "start": 517.146,
+  "end": 525.573,
+  "speaker": "Unknown",
+  "en": "One being that harness is a deterministic piece of code that actually understands what is involved in actually executing this piece of work.",
+  "zh": "其中之一是：harness 是一段确定性的代码，它真正理解实际执行这项工作涉及些什么。"
+ },
+ {
+  "seg": 88,
+  "start": 525.973,
+  "end": 534.401,
+  "speaker": "Unknown",
+  "en": "So as I mentioned, right, if I am trying to build a harness that runs my DevOps or SRE agents,",
+  "zh": "所以正如我提到的，如果我试图构建一个运行我的 DevOps 或 SRE 智能体的 harness，"
+ },
+ {
+  "seg": 89,
+  "start": 535.757,
+  "end": 550.684,
+  "speaker": "Unknown",
+  "en": "When the agent says that, hey, this cluster is unhealthy and you should restart, RLH should decide how to restart the cluster, what involves restarting the cluster, and that has to be, at least in my world, has to be very deterministic sort of processes, right?",
+  "zh": "当智能体说“嘿，这个集群不健康，你应该重启”时，RLH 应该决定如何重启集群、重启集群涉及哪些步骤，而这必须——至少在我的世界里——必须是非常确定性的流程，对吧？"
+ },
+ {
+  "seg": 90,
+  "start": 551.024,
+  "end": 552.985,
+  "speaker": "Unknown",
+  "en": "So that every cluster restart is exactly the same.",
+  "zh": "这样每次集群重启都完全相同。"
+ },
+ {
+  "seg": 91,
+  "start": 553.585,
+  "end": 556.126,
+  "speaker": "Unknown",
+  "en": "There is no other category there, right?",
+  "zh": "那里不存在其他类别，对吧？"
+ },
+ {
+  "seg": 92,
+  "start": 557.83,
+  "end": 569.112,
+  "speaker": "Unknown",
+  "en": "Also, if it needs to have an approval, for example, if I am trying to restart a production cluster, I probably want to have a human gate, probably send a Slack message to somebody and say, hey, I'm going to restart this cluster.",
+  "zh": "另外，如果它需要审批，例如，如果我试图重启一个生产集群，我大概希望有一个人工关卡，可能给某人发一条 Slack 消息说：“嘿，我要重启这个集群了。"
+ },
+ {
+  "seg": 93,
+  "start": 569.392,
+  "end": 571.053,
+  "speaker": "Unknown",
+  "en": "Do you think it's OK to do that or not?",
+  "zh": "你觉得这样做可以吗，还是不行？”"
+ },
+ {
+  "seg": 94,
+  "start": 571.533,
+  "end": 576.694,
+  "speaker": "Unknown",
+  "en": "And I do not want this to be left to a hallucination by an LLM that it doesn't need to do it.",
+  "zh": "而我不希望这被交给一个 LLM 的幻觉，让它觉得不需要这么做。"
+ },
+ {
+  "seg": 95,
+  "start": 576.874,
+  "end": 579.154,
+  "speaker": "Unknown",
+  "en": "It needs to be guaranteed in terms of execution.",
+  "zh": "它需要在执行上是有保证的。"
+ },
+ {
+  "seg": 96,
+  "start": 579.194,
+  "end": 582.415,
+  "speaker": "Unknown",
+  "en": "So it has to be very deterministic when it comes to those kind of things.",
+  "zh": "所以在这类事情上，它必须非常确定性。"
+ },
+ {
+  "seg": 97,
+  "start": 583.655,
+  "end": 590.498,
+  "speaker": "Unknown",
+  "en": "Ideally, I want this to be idempotent, and if not, I want it to be recording that it is not idempotent, and this is what has happened.",
+  "zh": "理想情况下，我希望它是幂等的；如果不是，我希望它能记录下它不是幂等的，以及发生了什么。"
+ },
+ {
+  "seg": 98,
+  "start": 590.518,
+  "end": 595.619,
+  "speaker": "Unknown",
+  "en": "So I can take care of the side effects, or I can handle the side effects separately, right?",
+  "zh": "这样我就可以处理这些副作用，或者我可以单独处理这些副作用，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 596.6,
+  "end": 598.5,
+  "speaker": "Unknown",
+  "en": "So this is the most important thing, right?",
+  "zh": "所以这是最重要的一点，对吧？"
+ },
+ {
+  "seg": 100,
+  "start": 598.56,
+  "end": 601.882,
+  "speaker": "Unknown",
+  "en": "The clear separation between, as we would like to call it, the brains and the hands.",
+  "zh": "清晰的分离，正如我们喜欢称呼的，大脑和双手之间的分离。"
+ },
+ {
+  "seg": 101,
+  "start": 602.082,
+  "end": 604.202,
+  "speaker": "Unknown",
+  "en": "Harness is the hands, the brain is the LLM.",
+  "zh": "Harness 是双手，大脑是 LLM。"
+ },
+ {
+  "seg": 102,
+  "start": 607.726,
+  "end": 612.27,
+  "speaker": "Unknown",
+  "en": "So yeah, if the agent writes the plan, Harness executes the plan.",
+  "zh": "所以是的，如果智能体制定计划，Harness 就执行计划。"
+ },
+ {
+  "seg": 103,
+  "start": 614.632,
+  "end": 619.917,
+  "speaker": "Unknown",
+  "en": "And I'll show you in a brief, a short demo in terms of how all of these things kind of matches together.",
+  "zh": "接下来我会简要展示一个简短的演示，说明所有这些东西是如何组合在一起的。"
+ },
+ {
+  "seg": 104,
+  "start": 622.002,
+  "end": 624.284,
+  "speaker": "Unknown",
+  "en": "But is this a new concept?",
+  "zh": "但这是一个新概念吗？"
+ },
+ {
+  "seg": 105,
+  "start": 624.324,
+  "end": 626.987,
+  "speaker": "Unknown",
+  "en": "If you think about it, this is not necessarily a new concept.",
+  "zh": "如果你仔细想想，这不一定是新概念。"
+ },
+ {
+  "seg": 106,
+  "start": 627.007,
+  "end": 628.649,
+  "speaker": "Unknown",
+  "en": "This has been around for a while.",
+  "zh": "这已经存在一段时间了。"
+ },
+ {
+  "seg": 107,
+  "start": 629.149,
+  "end": 637.477,
+  "speaker": "Unknown",
+  "en": "If you think about workflows as sagas, which we used to write ourselves and define exactly what happens, and it is a very deterministic set of processes.",
+  "zh": "如果你把工作流看作 saga,也就是我们过去自己编写并精确定义发生什么的那种，它是一套非常确定性的流程。"
+ },
+ {
+  "seg": 108,
+  "start": 638.455,
+  "end": 641.818,
+  "speaker": "Unknown",
+  "en": "When you think about agentic harnesses, they are essentially late bound sagas.",
+  "zh": "当你想到智能体 harness 时，它们本质上是晚绑定的 saga。"
+ },
+ {
+  "seg": 109,
+  "start": 642.038,
+  "end": 653.069,
+  "speaker": "Unknown",
+  "en": "And what I mean by that is that they have a very finite and deterministic set of tools and the tasks that they can operate on instead of putting them together upfront.",
+  "zh": "我这么说的意思是，它们有一套非常有限且确定性的工具和可以操作的任务，但不是提前把它们组合在一起。"
+ },
+ {
+  "seg": 110,
+  "start": 654.269,
+  "end": 656.61,
+  "speaker": "Unknown",
+  "en": "The agent is proposing and building them at runtime.",
+  "zh": "而是智能体在运行时提出并构建它们。"
+ },
+ {
+  "seg": 111,
+  "start": 657.13,
+  "end": 659.271,
+  "speaker": "Unknown",
+  "en": "And therefore, they are essentially late-bound sagas.",
+  "zh": "因此，它们本质上是晚绑定的 saga。"
+ },
+ {
+  "seg": 112,
+  "start": 659.971,
+  "end": 675.535,
+  "speaker": "Unknown",
+  "en": "But you get all the benefits of a traditional saga and a workflow out of the box in terms of visibility, what's happening, being able to control things, and depending upon how far ahead in the future the agent is able to plan.",
+  "zh": "但你可以开箱即用地获得传统 saga 和工作流的所有好处，比如可观测性、了解正在发生什么、能够控制事物，而且取决于智能体能够提前规划多远的未来。"
+ },
+ {
+  "seg": 113,
+  "start": 675.655,
+  "end": 678.996,
+  "speaker": "Unknown",
+  "en": "You are able to plan one step at a time or multiple steps at a time.",
+  "zh": "你可以一次规划一步，或一次规划多步。"
+ },
+ {
+  "seg": 114,
+  "start": 682.621,
+  "end": 686.322,
+  "speaker": "Unknown",
+  "en": "And yeah, if you think about it, right, it's more like a branching workflow.",
+  "zh": "是的，如果你仔细想想，对吧，它更像一个分支工作流。"
+ },
+ {
+  "seg": 115,
+  "start": 686.382,
+  "end": 693.963,
+  "speaker": "Unknown",
+  "en": "If only you could build a workflow with every possible combination of a branch, then, you know, it kind of builds that thing for you, right?",
+  "zh": "如果你能构建一个包含分支的所有可能组合的工作流，那么，你知道，它基本上就是为你构建了那个东西，对吧？"
+ },
+ {
+  "seg": 116,
+  "start": 694.203,
+  "end": 697.784,
+  "speaker": "Unknown",
+  "en": "Versus with agents, that kind of simplifies the work.",
+  "zh": "相比之下，用智能体则简化了这项工作。"
+ },
+ {
+  "seg": 117,
+  "start": 698.044,
+  "end": 707.326,
+  "speaker": "Unknown",
+  "en": "If you have any number of tools, it can do any different combinations of executions, which otherwise is going to be almost impossible to, you know, think ahead of time and do it.",
+  "zh": "如果你有任意数量的工具，它可以执行任意不同的执行组合，否则这几乎是无法提前设想并做到的。"
+ },
+ {
+  "seg": 118,
+  "start": 710.036,
+  "end": 711.258,
+  "speaker": "Unknown",
+  "en": "So let's take a look at it.",
+  "zh": "那么让我们来看一看。"
+ },
+ {
+  "seg": 119,
+  "start": 711.298,
+  "end": 716.167,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do is I'll quickly show a completed run.",
+  "zh": "我要做的就是我快速展示一次已完成的运行。"
+ },
+ {
+  "seg": 120,
+  "start": 722.985,
+  "end": 725.207,
+  "speaker": "Unknown",
+  "en": "of what I talked about earlier.",
+  "zh": "也就是我之前谈到的那种。"
+ },
+ {
+  "seg": 121,
+  "start": 725.707,
+  "end": 731.331,
+  "speaker": "Unknown",
+  "en": "Here is one of my example agent that essentially is acting like an SRE agent.",
+  "zh": "这是我的一个示例智能体，它基本上扮演 SRE 智能体的角色。"
+ },
+ {
+  "seg": 122,
+  "start": 731.932,
+  "end": 741.559,
+  "speaker": "Unknown",
+  "en": "What its job is to do is understand what's going on in the current system and try to plan what should happen next and execute on those things.",
+  "zh": "它的工作是理解当前系统中正在发生什么，并尝试规划接下来应该发生什么，然后执行那些事情。"
+ },
+ {
+  "seg": 123,
+  "start": 743.14,
+  "end": 745.101,
+  "speaker": "Unknown",
+  "en": "It's essentially a remediation loop that runs twice.",
+  "zh": "它本质上是一个运行两次的修复循环。"
+ },
+ {
+  "seg": 124,
+  "start": 745.801,
+  "end": 760.825,
+  "speaker": "Unknown",
+  "en": "In the first iteration, it tries to understand the root cause of the problem, tries to react to that, observes the output of it, and then runs another loop and plans another set of steps to see what should happen next.",
+  "zh": "在第一次迭代中，它尝试理解问题的根本原因，尝试对其做出反应，观察其输出，然后再运行另一个循环，规划另一组步骤，看看接下来应该发生什么。"
+ },
+ {
+  "seg": 125,
+  "start": 761.305,
+  "end": 765.286,
+  "speaker": "Unknown",
+  "en": "So as an input to my agent, let's see what was the input given right here.",
+  "zh": "那么作为我的智能体的输入，让我们看看这里给出的输入是什么。"
+ },
+ {
+  "seg": 126,
+  "start": 769.367,
+  "end": 770.648,
+  "speaker": "Unknown",
+  "en": "So step number one is",
+  "zh": "所以第一步是"
+ },
+ {
+  "seg": 127,
+  "start": 772.088,
+  "end": 772.949,
+  "speaker": "Unknown",
+  "en": "Makes a call to LLM.",
+  "zh": "调用 LLM。"
+ },
+ {
+  "seg": 128,
+  "start": 773.189,
+  "end": 775.731,
+  "speaker": "Unknown",
+  "en": "So as you can see, it's an SRE agent.",
+  "zh": "如你所见，它是一个 SRE 智能体。"
+ },
+ {
+  "seg": 129,
+  "start": 776.511,
+  "end": 780.735,
+  "speaker": "Unknown",
+  "en": "Of course, it's a demo, so everything is kind of pre-planned and a canned demo.",
+  "zh": "当然，这是一个演示，所以一切都是预先计划好的、预设的演示。"
+ },
+ {
+  "seg": 130,
+  "start": 782.656,
+  "end": 784.497,
+  "speaker": "Unknown",
+  "en": "The output of LLM, as you can see,",
+  "zh": "LLM 的输出，如你所见，"
+ },
+ {
+  "seg": 131,
+  "start": 786.1,
+  "end": 789.141,
+  "speaker": "Unknown",
+  "en": "are the steps, what it should do.",
+  "zh": "是那些步骤，它应该做什么。"
+ },
+ {
+  "seg": 132,
+  "start": 789.421,
+  "end": 798.903,
+  "speaker": "Unknown",
+  "en": "It's talking about, so as you can see, one more thing you write is that instead of just doing one step at a time, essentially it is proposing a sequence of steps to do.",
+  "zh": "它在说，如你所见，还有一点要指出的是，它不是一次只做一步，而是本质上是提出一个要执行的步骤序列。"
+ },
+ {
+  "seg": 133,
+  "start": 799.343,
+  "end": 809.386,
+  "speaker": "Unknown",
+  "en": "You should gather evidences, you should analyze logs, and if required, based on the evidence that you've gathered, you should either roll back a deployment and then verify a recovery.",
+  "zh": "你应该收集证据，你应该分析日志，如果有需要，根据你收集到的证据，你应该回滚一次部署，然后验证恢复情况。"
+ },
+ {
+  "seg": 134,
+  "start": 810.921,
+  "end": 815.045,
+  "speaker": "Unknown",
+  "en": "This is then given to a specialized tool called plan and compile.",
+  "zh": "这随后被交给一个名为 plan and compile 的专用工具。"
+ },
+ {
+  "seg": 135,
+  "start": 815.605,
+  "end": 818.388,
+  "speaker": "Unknown",
+  "en": "So this is the plan that agent gave.",
+  "zh": "所以这是智能体给出的计划。"
+ },
+ {
+  "seg": 136,
+  "start": 819.188,
+  "end": 822.051,
+  "speaker": "Unknown",
+  "en": "This gets compiled into a very deterministic workflow.",
+  "zh": "这被编译成一个非常确定性的工作流。"
+ },
+ {
+  "seg": 137,
+  "start": 822.972,
+  "end": 825.654,
+  "speaker": "Unknown",
+  "en": "We are relying on a conductor as a workflow execution engine here.",
+  "zh": "我们在这里依赖一个 conductor 作为工作流执行引擎。"
+ },
+ {
+  "seg": 138,
+  "start": 825.674,
+  "end": 828.457,
+  "speaker": "Unknown",
+  "en": "So the output is a fully runnable workflow.",
+  "zh": "所以输出是一个完全可运行的工作流。"
+ },
+ {
+  "seg": 139,
+  "start": 829.277,
+  "end": 830.238,
+  "speaker": "Unknown",
+  "en": "This gets executed.",
+  "zh": "这被执行了。"
+ },
+ {
+  "seg": 140,
+  "start": 830.258,
+  "end": 833.981,
+  "speaker": "Unknown",
+  "en": "So what I'm going to show you here very quickly is how that looks like.",
+  "zh": "所以我在这里要很快向你展示的是它的样子。"
+ },
+ {
+  "seg": 141,
+  "start": 841.228,
+  "end": 842.749,
+  "speaker": "Unknown",
+  "en": "So this is the first step of execution.",
+  "zh": "所以这是执行的第一步。"
+ },
+ {
+  "seg": 142,
+  "start": 842.849,
+  "end": 854.894,
+  "speaker": "Unknown",
+  "en": "If you look at it here, as I said, we did analyze the logs, look at the query of the metrics, decided to do a rollback and verify recovery and everything.",
+  "zh": "如果你在这里看，正如我所说，我们确实分析了日志，查看了指标查询，决定执行回滚并验证恢复等等。"
+ },
+ {
+  "seg": 143,
+  "start": 855.474,
+  "end": 856.794,
+  "speaker": "Unknown",
+  "en": "So step number one is completed.",
+  "zh": "所以第一步已完成。"
+ },
+ {
+  "seg": 144,
+  "start": 857.275,
+  "end": 860.036,
+  "speaker": "Unknown",
+  "en": "It runs another loop.",
+  "zh": "它再运行另一个循环。"
+ },
+ {
+  "seg": 145,
+  "start": 861.476,
+  "end": 862.357,
+  "speaker": "Unknown",
+  "en": "Same thing goes here.",
+  "zh": "这里也是同样的情况。"
+ },
+ {
+  "seg": 146,
+  "start": 866.332,
+  "end": 871.777,
+  "speaker": "Unknown",
+  "en": "In the next iteration, it decides that, OK, it looks like these things have been done.",
+  "zh": "在下一次迭代中，它决定，好的，看起来这些事情已经完成了。"
+ },
+ {
+  "seg": 147,
+  "start": 872.317,
+  "end": 873.278,
+  "speaker": "Unknown",
+  "en": "Let's check the downstream.",
+  "zh": "让我们检查下游。"
+ },
+ {
+  "seg": 148,
+  "start": 873.838,
+  "end": 877.261,
+  "speaker": "Unknown",
+  "en": "And if required, verify the recovery and complete it.",
+  "zh": "如果有需要，验证恢复并完成它。"
+ },
+ {
+  "seg": 149,
+  "start": 877.682,
+  "end": 880.324,
+  "speaker": "Unknown",
+  "en": "And then the next one runs and completes the task.",
+  "zh": "然后下一个运行并完成任务。"
+ },
+ {
+  "seg": 150,
+  "start": 880.924,
+  "end": 886.749,
+  "speaker": "Unknown",
+  "en": "But here is an example of a loop that is self-planning.",
+  "zh": "但这里有一个自规划的循环的例子。"
+ },
+ {
+  "seg": 151,
+  "start": 887.33,
+  "end": 890.312,
+  "speaker": "Unknown",
+  "en": "And to show you very clearly what's going on here, it is a loop.",
+  "zh": "为了非常清楚地展示这里发生了什么，它是一个循环。"
+ },
+ {
+  "seg": 152,
+  "start": 892.863,
+  "end": 896.124,
+  "speaker": "Unknown",
+  "en": "At every step of the way, essentially, it is looking at the current state of the world.",
+  "zh": "在每一步，本质上，它都在观察世界的当前状态。"
+ },
+ {
+  "seg": 153,
+  "start": 896.164,
+  "end": 901.066,
+  "speaker": "Unknown",
+  "en": "So this is my agentic loop that is kind of understanding the world, planning and executing.",
+  "zh": "所以这是我的智能体循环，它在理解世界、规划并执行。"
+ },
+ {
+  "seg": 154,
+  "start": 902.406,
+  "end": 909.729,
+  "speaker": "Unknown",
+  "en": "Instead of one step at a time, it is actually planning multiple steps at a time, executing that, verifying and completing the loop.",
+  "zh": "它不是一次只做一步，而是一次规划多个步骤，执行它们，验证并完成这个循环。"
+ },
+ {
+  "seg": 155,
+  "start": 910.769,
+  "end": 912.33,
+  "speaker": "Unknown",
+  "en": "Now this can run in production.",
+  "zh": "现在这可以在生产环境中运行。"
+ },
+ {
+  "seg": 156,
+  "start": 913.51,
+  "end": 914.591,
+  "speaker": "Unknown",
+  "en": "as many times as you want.",
+  "zh": "想运行多少次就运行多少次。"
+ },
+ {
+  "seg": 157,
+  "start": 915.172,
+  "end": 916.693,
+  "speaker": "Unknown",
+  "en": "This can be running on the events.",
+  "zh": "它可以由事件驱动运行。"
+ },
+ {
+  "seg": 158,
+  "start": 916.853,
+  "end": 918.735,
+  "speaker": "Unknown",
+  "en": "It can be running on a schedule.",
+  "zh": "它可以按计划定时运行。"
+ },
+ {
+  "seg": 159,
+  "start": 919.075,
+  "end": 925.722,
+  "speaker": "Unknown",
+  "en": "As I said, the whole thing could be running for a much longer period of time as opposed to just running in a short period of time.",
+  "zh": "正如我所说，整个过程可以运行更长的时间，而不只是在短时间内运行。"
+ },
+ {
+  "seg": 160,
+  "start": 930.4,
+  "end": 933.283,
+  "speaker": "Unknown",
+  "en": "All right, so that's towards the end of it.",
+  "zh": "好的，那就接近尾声了。"
+ },
+ {
+  "seg": 161,
+  "start": 934.284,
+  "end": 937.448,
+  "speaker": "Unknown",
+  "en": "This is kind of overview of what we just did here.",
+  "zh": "这是我们刚才所做内容的大致概览。"
+ },
+ {
+  "seg": 162,
+  "start": 938.73,
+  "end": 944.897,
+  "speaker": "Unknown",
+  "en": "As you can see right in the second iteration, we decided not to do a rollback because it was already done in the first iteration.",
+  "zh": "正如你所看到的，在第二次迭代中，我们决定不做回滚，因为在第一次迭代中已经做过了。"
+ },
+ {
+  "seg": 163,
+  "start": 947.042,
+  "end": 953.946,
+  "speaker": "Unknown",
+  "en": "But yeah, that's about the harnesses and agents and how they bring determinism to your production application.",
+  "zh": "不过是的，这就是关于 harness、智能体，以及它们如何为你的生产应用带来确定性的介绍。"
+ },
+ {
+  "seg": 164,
+  "start": 954.667,
+  "end": 956.988,
+  "speaker": "Unknown",
+  "en": "The example that I showed you runs on Conductor.",
+  "zh": "我给你展示的这个例子运行在 Conductor 上。"
+ },
+ {
+  "seg": 165,
+  "start": 957.649,
+  "end": 965.033,
+  "speaker": "Unknown",
+  "en": "Conductor is an open source workflow orchestration platform that supports building agentic loops as well as agentic systems.",
+  "zh": "Conductor 是一个开源的工作流编排平台，支持构建智能体循环以及智能体系统。"
+ },
+ {
+  "seg": 166,
+  "start": 965.653,
+  "end": 966.914,
+  "speaker": "Unknown",
+  "en": "It's fully open source.",
+  "zh": "它是完全开源的。"
+ },
+ {
+  "seg": 167,
+  "start": 967.074,
+  "end": 968.956,
+  "speaker": "Unknown",
+  "en": "Orcas, we provide enterprise edition.",
+  "zh": "Orcas,我们提供企业版。"
+ },
+ {
+  "seg": 168,
+  "start": 969.756,
+  "end": 971.917,
+  "speaker": "Unknown",
+  "en": "But feel free to try it out.",
+  "zh": "但欢迎随意试用。"
+ },
+ {
+  "seg": 169,
+  "start": 971.957,
+  "end": 972.698,
+  "speaker": "Unknown",
+  "en": "Here's the QR code.",
+  "zh": "这是二维码。"
+ },
+ {
+  "seg": 170,
+  "start": 973.238,
+  "end": 973.839,
+  "speaker": "Unknown",
+  "en": "Give it a try.",
+  "zh": "试试看吧。"
+ },
+ {
+  "seg": 171,
+  "start": 975.654,
+  "end": 977.995,
+  "speaker": "Unknown",
+  "en": "Join our Slack, and if you have questions, happy to help.",
+  "zh": "加入我们的 Slack,如果你有问题，我们很乐意帮忙。"
+ },
+ {
+  "seg": 172,
+  "start": 978.435,
+  "end": 980.636,
+  "speaker": "Unknown",
+  "en": "We have a booth here at Orcas.",
+  "zh": "我们在 Orcas 有一个展位。"
+ },
+ {
+  "seg": 173,
+  "start": 981.176,
+  "end": 982.716,
+  "speaker": "Unknown",
+  "en": "Drop by if you want to see a live demo.",
+  "zh": "如果你想看现场演示，欢迎过来。"
+ },
+ {
+  "seg": 174,
+  "start": 984.157,
+  "end": 989.299,
+  "speaker": "Unknown",
+  "en": "If you want to run your LangChain agents or OpenAI agents or ADK agents, Conductor can handle all of those things.",
+  "zh": "如果你想运行你的 LangChain 智能体、OpenAI 智能体或 ADK 智能体，Conductor 可以处理所有这些。"
+ },
+ {
+  "seg": 175,
+  "start": 990.619,
+  "end": 990.919,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢大家。"
+ }
+]

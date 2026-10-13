@@ -1,0 +1,167 @@
+{
+  "title_zh": "让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”",
+  "tldr": "LangChain Labs 负责人 Jake Broekhuizen 讲解如何给 AI 智能体装上能从经验中学习的长期记忆。",
+  "digest_md": "如果你在用 AI 帮你干活——写代码、做客服、做研究——你大概有过这样的期待：它今天犯的错，明天不该再犯。Jake Broekhuizen 在 LangChain 领导 Labs 团队，这场 15 分钟的演讲就讲一件事：怎么让智能体真正做到“下一次运行比上一次更好”。\n\n## 为什么“记下来”不等于“学会了”？\n\n现在大家已经擅长观察智能体：每次运行都会留下记录，调用了什么工具、怎么推理的、引用了什么文件，全都存在那里。Jake 说，这叫可观测性，是可靠性的基础。\n\n但问题出在记录存下来之后。如果智能体未来参考的上下文从来不更新，那今天犯的错，明天还会原样再犯一次 [03:48 Jake]。记录只是证据，只有当教训被转化成下次运行能参考的持久上下文，它才变成“记忆” [04:36 Jake]。\n\n## 一个真实的翻车案例：理财助手的语气失控\n\nLangChain 团队合作过一家金融公司的智能体，负责消费、预算方面的建议。金融行业监管严格，语气必须是“建议式”的。但有时它会滑向“指令式”，比如不说“类似情况的用户通常会设个消费上限”，而是直接说“你需要取消一些订阅，把钱转进储蓄”[01:55 Jake]。\n\n修正的办法本来靠人工：看记录、找到哪里跑偏、改上下文、再确认没改坏别的地方。这套流程很难规模化——所以需要一套能让智能体自己持续学习的系统。\n\n## 记忆分三种，最值钱的是“该怎么做事”\n\nJake 借用认知科学的分类，把智能体的记忆分成三类 [05:07 Jake]:\n\n- 知道什么(事实、偏好)——语义记忆；\n- 经历过什么(过去的交互、例子)——情景记忆；\n- 该怎么表现(指令、技能、规则)——程序性记忆。\n\n那个理财助手的语气问题，改的就是程序性记忆：不是教它新事实，而是给它一条跟用户打交道时要遵守的规则 [06:00 Jake]。Jake 说，**可见的进步大多来自这一类**。\n\n另外还要分清短期和长期记忆：短期记忆是当前这次运行要用的草稿、工具结果；长期记忆存在别处，服务于未来的运行。他提到一个有用的心智模型，叫“读写循环”——运行前从长期记忆读入相关内容，运行后从证据里筛出有价值的信号，写回长期记忆 [08:16 Jake]。业内也有人称这个更新过程为“睡眠期计算”或“做梦”。\n\n关键在于筛选：大部分记录应该只留作历史，如果全都变成长期记忆，智能体反而会被淹没，更难推理 [09:18 Jake]。\n\n## 落地工具：LangSmith 的 Context Hub\n\n具体实现上，Jake 介绍了 LangSmith 的三步闭环 [10:44 Jake]:捕获(通过可观测性看到智能体的完整轨迹)、分析(后台自动从记录中提取有价值的信号)、更新(把信号写进叫 Context Hub 的存储，下次运行时智能体会拉取这些内容)。在理财助手的例子里，系统发现语气跑偏后，会自动更新相关的技能文件，下次运行语气就改过来了。\n\n## 三条踩坑经验\n\nJake 分享了设计记忆系统时最该注意的三点：\n\n第一，不是所有反馈都该变成记忆更新。大部分记录只该留作历史，一部分可以做离线评估的数据集，只有一小部分才该真正改写记忆 [13:16 Jake]。\n\n第二，小心缓存。他曾经困惑于为什么改了记忆、行为却不变，后来发现是长时间运行的智能体在开头更新了记忆，但运行时根本读不到更新。搞清楚什么能缓存、什么不能，非常重要 [14:26 Jake]。\n\n第三，分清哪些可以自动更新，哪些必须人审核。指令、政策、语气规范这类程序性记忆，**大概决定了智能体 75% 的行为，改动这些应该有人把关**，在真正提交前把变更亮出来，并用评估保护关键行为 [15:04 Jake]。\n\n回到他那句话：“下一次运行应该更好。”记忆不只是存信息的地方，它让经验变成上下文，而上下文让下一次运行有机会变好 [15:51 Jake]。\n\n## 本集带走\n\n- 记录和记忆是两回事：只有能指导未来运行的持久上下文才算记忆。\n- 记忆分三类(语义、情景、程序性)，可见的行为改进大多来自程序性记忆的更新。\n- 核心循环是“读—跑—筛—写”：运行前读入记忆，运行后筛选信号写回，大部分记录只留作历史。\n- 不是所有反馈都值得记忆化；缓存问题可能让记忆更新悄悄失效。\n- 关键行为(指令、政策、语气规范)的修改应保留人工审核，并用评估保护。",
+  "quotes": [
+    {
+      "en": "If the future context that that agent references never changes, then a misguided skill or instruction will mean that the agent, the mistake that the agent makes today will still persist in future runs.",
+      "zh": "如果智能体所参考的未来上下文从未改变，那么一个错误的技能或指令就意味着，智能体今天犯的错误在未来的运行中仍会持续存在。",
+      "timestamp": "03:48",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "The goal or the system that we want to work towards is where a trace stops just being a log and becomes a source of signal.",
+      "zh": "我们想要努力实现的目标或系统，是让追踪记录不再只是一份日志，而成为信号的一个来源。",
+      "timestamp": "04:01",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+      "zh": "只有当那个经验教训被转化为智能体在未来运行中可以参考的持久性上下文时，它才成为记忆。",
+      "timestamp": "04:36",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "Procedural memory is where actually most of the visible gains come from.",
+      "zh": "程序性记忆实际上才是大部分可见收益的来源。",
+      "timestamp": "05:45",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "If we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+      "zh": "如果我们把所有那些证据都变成长期记忆，那会让智能体陷入困境，并且会让它在未来任务上的推理变得更困难。",
+      "timestamp": "09:20",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "Not everything should become a memory update.",
+      "zh": "并非所有东西都应该成为记忆更新。",
+      "timestamp": "13:16",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "With instructions and policies and tone guidelines, those are probably going to drive about 75% of the behavior of my agent.",
+      "zh": "包含指令、策略和语气指南，这些大概会驱动我智能体大约 75% 的行为。",
+      "timestamp": "14:57",
+      "speaker": "Jake Broekhuizen"
+    },
+    {
+      "en": "It's how experience becomes context.",
+      "zh": "它是经验如何变成上下文的方式。",
+      "timestamp": "15:51",
+      "speaker": "Jake Broekhuizen"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:53",
+      "speaker": "Unknown",
+      "en": "But observing them and then turning those observations and those agent experiences into lessons for future runs are obviously very different things.",
+      "zh": "但观察智能体，然后把那些观察结果和智能体经历转化为未来运行的经验教训，显然是非常不同的两件事。"
+    },
+    {
+      "timestamp": "03:48",
+      "speaker": "Unknown",
+      "en": "If the future context that that agent references never changes, then a misguided skill or instruction will mean that the agent, the mistake that the agent makes today will still persist in future runs.",
+      "zh": "如果智能体所参考的未来上下文从未改变，那么一个错误的技能或指令就意味着，智能体今天犯的错误在未来的运行中仍会持续存在。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "The goal or the system that we want to work towards is where a trace stops just being a log and becomes a source of signal.",
+      "zh": "我们想要努力实现的目标或系统，是让追踪记录不再只是一份日志，而成为信号的一个来源。"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Unknown",
+      "en": "Agents that are observable tell you what happened.",
+      "zh": "可观测的智能体会告诉你发生了什么。"
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Unknown",
+      "en": "Agents that are adaptive are able to change and guide themselves on the following runs.",
+      "zh": "自适应的智能体能够在接下来的运行中改变并引导自己。"
+    },
+    {
+      "timestamp": "04:36",
+      "speaker": "Unknown",
+      "en": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+      "zh": "只有当那个经验教训被转化为智能体在未来运行中可以参考的持久性上下文时，它才成为记忆。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "Procedural memory is where actually most of the visible gains come from.",
+      "zh": "程序性记忆实际上才是大部分可见收益的来源。"
+    },
+    {
+      "timestamp": "09:18",
+      "speaker": "Unknown",
+      "en": "If we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+      "zh": "如果我们把所有那些证据都变成长期记忆，那会让智能体陷入困境，并且会让它在未来任务上的推理变得更困难。"
+    },
+    {
+      "timestamp": "09:59",
+      "speaker": "Unknown",
+      "en": "Memory informs the run.",
+      "zh": "记忆为运行提供信息。"
+    },
+    {
+      "timestamp": "10:01",
+      "speaker": "Unknown",
+      "en": "The run makes the evidence.",
+      "zh": "运行产生证据。"
+    },
+    {
+      "timestamp": "10:08",
+      "speaker": "Unknown",
+      "en": "If you can build that flywheel, then we trend towards a place we can build very reliable and very powerful agents that just feel like they get better with time.",
+      "zh": "如果你能构建这个飞轮，那么我们就会趋向于一个能构建非常可靠、非常强大的智能体的境地，它们感觉会随着时间变得越来越好。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Unknown",
+      "en": "Not everything should become a memory update.",
+      "zh": "并非所有东西都应该成为记忆更新。"
+    },
+    {
+      "timestamp": "13:37",
+      "speaker": "Unknown",
+      "en": "A small segment of that or subset should end up becoming what changes your agent's memory.",
+      "zh": "其中的一小部分或子集最终应该成为改变你智能体记忆的东西。"
+    },
+    {
+      "timestamp": "14:57",
+      "speaker": "Unknown",
+      "en": "With instructions and policies and tone guidelines, those are probably going to drive about 75% of the behavior of my agent.",
+      "zh": "包含指令、策略和语气指南，这些大概会驱动我智能体大约 75% 的行为。"
+    },
+    {
+      "timestamp": "15:48",
+      "speaker": "Unknown",
+      "en": "And it's more than just a place to store information.",
+      "zh": "而且它不仅仅是一个存储信息的地方。"
+    },
+    {
+      "timestamp": "15:51",
+      "speaker": "Unknown",
+      "en": "It's how experience becomes context.",
+      "zh": "它是经验如何变成上下文的方式。"
+    },
+    {
+      "timestamp": "15:54",
+      "speaker": "Unknown",
+      "en": "And then that context is how our next runs get the chance to improve.",
+      "zh": "然后那个上下文就是我们下一次运行有机会获得改进的方式。"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Unknown",
+      "en": "Obviously, that doesn't scale or rather is challenging to scale.",
+      "zh": "显然，这样是无法扩展的，或者说扩展起来很具挑战性。"
+    }
+  ],
+  "voice_script": "今天要给你讲的这个人，叫 Jake Broekhuizen,他在 LangChain 领导 Labs 团队。这一期是他一场十五分钟的演讲，讲的事其实特别实在：怎么让 AI 智能体真正做到，下一次运行，比上一次更好。\n\n你可能在用 AI 帮你干活，写代码、做客服、做研究。你大概也期待过一件事：它今天犯的错，明天不该再犯。但现实往往是，你纠正它一次，过两天它又原样犯一遍。为什么？这就是这场演讲要回答的问题。\n\n先把背景垫一下。现在大家已经挺擅长观察智能体了：每次运行都会留下记录，调用了什么工具、怎么推理的、引用了什么文件，全都存在那里。这个叫可观测性，是可靠性的基础。但问题恰恰出在记录存下来之后。如果智能体未来参考的上下文从来不更新，那今天犯的错，明天还会再犯一次。Jake 有句话说得很准：只有当那个经验教训被转化为智能体在未来运行中可以参考的持久性上下文时，它才成为记忆。换句话说，记录只是证据，记忆才是学会。\n\n光说概念有点空，讲一个真实的翻车案例。LangChain 团队合作过一家金融公司，它们的智能体负责给用户提供消费、预算方面的建议。金融行业监管严格，语气必须是建议式的，比如“类似情况的用户通常会设个消费上限”。但这个智能体有时会滑向指令式，直接跟你说：你需要取消一些订阅，把钱转进储蓄。这在金融场景里是不能接受的。\n\n以前怎么修正呢？靠人工：看记录、找到哪里跑偏、改上下文、再确认没改坏别的地方。这套流程太费劲，很难规模化。所以要一套让智能体自己持续学习的系统。那这套系统的核心思路是什么？就引出了记忆的分类。\n\nJake 借用认知科学，把智能体的记忆分成三类。第一类叫语义记忆，是它知道什么，事实和偏好。第二类叫情景记忆，是它经历过什么，过去的交互、例子。第三类叫程序性记忆，是它该怎么表现，指令、技能、规则。刚才那个理财助手的语气问题，要改的就是程序性记忆：不是教它新的事实，而是给它一条跟用户打交道时要遵守的规则。 Jake 说，程序性记忆实际上才是大部分可见收益的来源。这一类，是三类里最值钱的。\n\n那记忆具体怎么运作？还得再分一层：短期和长期。短期记忆是当前这次运行要用的草稿、工具结果；长期记忆存在别处，服务于未来的运行。 Jake 提了一个很有用的心智模型，叫读写循环：运行之前，从长期记忆里读入相关内容；运行之后，从证据里筛出有价值的信号，再写回长期记忆。业内也有人管这个更新过程叫“睡眠期计算”，或者叫“做梦”——智能体运行完，回头消化今天学到了什么。\n\n这个循环里最关键的一步是筛选。不是所有东西都应该成为记忆更新。大部分记录应该只留作历史，如果全都写进长期记忆，智能体反而会被淹没，未来任务上的推理会变得更困难。这就像人一样，不是每件事都值得记住，记住太多杂事，反而想不清正事。\n\n思路讲完了，具体怎么落地？ Jake 介绍了 LangSmith 的三步闭环。第一步捕获，通过可观测性看到智能体的完整轨迹。第二步分析，后台自动从记录里提取有价值的信号。第三步更新，把信号写进一个叫 Context Hub 的存储，下次运行时，智能体会主动拉取这些内容。回到理财助手的例子：系统发现语气跑偏之后，会自动更新相关的技能文件，下次运行，语气就改过来了。这就是把追踪记录从一份日志，变成信号的来源。\n\n听起来很美，但真做起来有三个坑， Jake 都踩过。第一，刚才已经说过一半了：不是所有反馈都值得记忆化。大部分记录留作历史，一部分可以做离线评估的数据集，只有一小部分才真正改写记忆。第二，小心缓存。 Jake 曾经很困惑，明明改了记忆，智能体的行为却不变。后来发现，是长时间运行的智能体在开头更新了记忆，但运行时根本读不到这次更新。什么能缓存、什么不能，必须搞清楚，否则记忆更新会悄悄失效。第三，分清哪些可以自动更新，哪些必须人审核。指令、政策、语气规范这类程序性记忆，大概决定了智能体百分之七十五的行为。改动这些，应该有人把关，在真正提交之前把变更亮出来，并用评估保护关键行为。毕竟自动学习是好事，但 learns 错了没人拦，比不会学习更麻烦。\n\n最后回到 Jake 那句话：下一次运行应该更好。记忆不只是存信息的地方，它让经验变成上下文，而上下文，让下一次运行有机会变得更好。"
+}

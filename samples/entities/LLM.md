@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>62</b> 集 · <b>51</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>63</b> 集 · <b>52</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -73,10 +73,11 @@ unlisted: true
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(35:55起):本集说技术界从根本上误解了 LLM：它没有因果概念、不是世界模型，会删掉你的数据库正因此；应期待适度、用模块边界约束它，能换确定性代码的环节就换。
 - **[[2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test|《AI 写代码快，黑客攻击更快：安全测试得改成全天候》]]**(07:00起):本集说 LLM 生成的输出 62% 不安全或有缺陷，攻击者也在利用同样的前沿模型；而 LLM 擅长理解业务上下文，可被用于持续渗透测试
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(24:24起):本集说 LLM 读遍了网上所有调优博客和文档,能把数据库调优走完约 85% 的路,15 分钟就给出「足够好」的配置;也是智能体推荐 Postgres 的原因——预训练数据集里全是它
+- **[[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]]**(01:07起):本集把 LLM 说成 harness 里的'大脑'：负责推理、思考过程和非确定性的规划部分，提出要执行的步骤，而危险操作不能交给它的幻觉。
 
 ## ① 提到它的金句
 
-*51 条*
+*52 条*
 
 ![[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith#^q1]]
 
@@ -180,9 +181,11 @@ unlisted: true
 
 ![[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr#^q3]]
 
+![[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf#^q5]]
+
 ## ② 出现在这些集
 
-*62 集*
+*63 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -246,6 +249,7 @@ unlisted: true
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念
 - [[2026-10-07-talks-ai-hackers-are-faster-than-your-pen-test|《AI 写代码快，黑客攻击更快：安全测试得改成全天候》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为概念
+- [[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]] — 作为概念
 
 ## ③ 关联
 
@@ -253,7 +257,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[MCP]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[Lenny]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"Anthropic":201,"ChatGPT":111,"OpenAI":197,"MCP":91,"Claude Code":108,"Claude":96,"Google":71,"Lenny":69,"推理":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"Anthropic":201,"ChatGPT":111,"OpenAI":197,"MCP":91,"Claude Code":109,"Claude":96,"Google":71,"Lenny":69,"推理":98}</script>
 
 <script>
 (function(){

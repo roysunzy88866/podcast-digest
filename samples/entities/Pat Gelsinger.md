@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Intel":4,"VMware":3,"Playground Global":1,"NVIDIA":70,"OpenAI":197,"Anthropic":201,"HBM":2,"记忆":27,"推理":98,"智能体":487}</script>
+<script type="application/json" class="pd-epn">{"Intel":4,"VMware":3,"Playground Global":1,"NVIDIA":70,"OpenAI":197,"Anthropic":201,"HBM":2,"记忆":28,"推理":98,"智能体":489}</script>
 
 <script>
 (function(){

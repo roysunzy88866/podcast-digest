@@ -156,9 +156,9 @@ Jay 抛出的判断相当大胆：Frontier 实验室和机器人基础模型公�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|AI 智能体上了生产环境，谁来管住它的手？]]<span class="pd-rz">同概念:harness（框架） (harness)、LLM、智能体 (agent)</span>
 - [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法]]<span class="pd-rz">同概念:延迟 (latency)、思维链 (chain of thought)、智能体 (agent)</span>
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]]<span class="pd-rz">同概念:延迟 (latency)、智能体 (agent)、微调 (fine-tune)</span>
-- [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:延迟 (latency)、智能体 (agent)、LLM</span>
 
 </div>
 <div class="pd-ex">

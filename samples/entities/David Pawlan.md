@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":487,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":489,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
 
 <script>
 (function(){

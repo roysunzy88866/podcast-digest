@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lovable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Lovable">LO</div><div class="pi"><h1 class="pt">Lovable</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,6 +30,7 @@ unlisted: true
 - **[[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]]**(17:54起):本集以它举例说明能力的扩散：打开 Lovable 输入一句话就能得到一个完整应用。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(13:03起):本集把它作为 vibe coding 赛道上与 Bolt 竞争的公司之一提及
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(17:55起):本集与 Replit 并提，说这类公司虽在爆炸半径中心但「好得难以置信」，巨大的用户市场让它们照样成功。
+- **[[2026-10-08-talks-let-anyone-at-your-company-ship-internal|《让公司里每个人都能用 AI 做出内部工具》]]**(01:28起):销售 Perona 用来搭建 Perona GPT 聊天机器人的工具；CEO 因为没有 Lovable 账号而无法使用，暴露了分发的门槛。
 
 ## ① 提到它的金句
 
@@ -49,7 +50,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为被讨论公司(提及)
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为被讨论公司(提及)
@@ -70,6 +71,7 @@ unlisted: true
 - [[2026-09-02-productpodcast-anthropic-member-of-technical-staff-on-l|《拒绝三倍薪酬进 Anthropic：一位 FDE 负责人的坦白局》]] — 作为被讨论公司(提及)
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为被讨论公司(提及)
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
+- [[2026-10-08-talks-let-anyone-at-your-company-ship-internal|《让公司里每个人都能用 AI 做出内部工具》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -77,7 +79,7 @@ unlisted: true
 
 [[Anthropic]] · [[Cursor]] · [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[开源]] · [[vibe coding]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":201,"Cursor":86,"智能体":487,"OpenAI":197,"Lenny":69,"Replit":22,"开源":41,"vibe coding":49,"推理":98,"ChatGPT":111}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":201,"Cursor":86,"智能体":489,"OpenAI":197,"Lenny":69,"Replit":22,"开源":41,"vibe coding":49,"推理":98,"ChatGPT":111}</script>
 
 <script>
 (function(){

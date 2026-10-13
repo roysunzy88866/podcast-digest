@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":487,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":201}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":489,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":201}</script>
 
 <script>
 (function(){

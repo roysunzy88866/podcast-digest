@@ -69,7 +69,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":19,"分布式系统":1,"韧性":2,"可观测性":43,"生产环境即真相":1,"规范驱动开发":2,"幂等性":2,"惊群效应":1}</script>
+<script type="application/json" class="pd-epn">{"微服务":1,"ThoughtWorks":1,"Uber":19,"分布式系统":1,"韧性":2,"可观测性":44,"生产环境即真相":1,"规范驱动开发":2,"幂等性":2,"惊群效应":1}</script>
 
 <script>
 (function(){

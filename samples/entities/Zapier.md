@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[n8n]] · [[MCP]] · [[ChatGPT]] · [[Salesforce]] · [[Jan Oberhauser]] · [[Wade Foster]] · [[Lindy]] · [[工作流]] · [[人在回路]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"n8n":4,"MCP":91,"ChatGPT":111,"Salesforce":36,"Jan Oberhauser":2,"Wade Foster":2,"Lindy":4,"工作流":13,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"n8n":4,"MCP":91,"ChatGPT":111,"Salesforce":36,"Jan Oberhauser":2,"Wade Foster":2,"Lindy":4,"工作流":13,"人在回路":21}</script>
 
 <script>
 (function(){

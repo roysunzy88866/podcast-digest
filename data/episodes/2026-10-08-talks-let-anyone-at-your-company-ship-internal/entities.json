@@ -1,0 +1,557 @@
+{
+  "episode_id": "2026-10-08-talks-let-anyone-at-your-company-ship-internal",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 编程",
+    "内部工具",
+    "非工程师开发",
+    "应用部署",
+    "企业软件"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "garrett-galow",
+      "type": "person",
+      "role": "guest",
+      "name": "Garrett Galow",
+      "file": "Garrett Galow",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": true,
+      "how_described": "嘉宾 Garrett 所在的公司，为企业软件开发者提供登录、权限等基础设施；本集讲它如何让全公司人人都能构建并部署内部应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.631,
+            17.352
+          ],
+          "quote": "I am on the product team at WorkOS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            227.382,
+            230.923
+          ],
+          "quote": "So the thing we needed at WorkOS was kind of two things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            262.674,
+            270.157
+          ],
+          "quote": "We have this applied AI team at WorkOS whose their singular job is, how do we make AI more and more useful across the company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            593.004,
+            598.485
+          ],
+          "quote": "A thing that I built is we have a changelog, changelog, workOS.com slash changelogs where we post all our updates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            747.498,
+            751.6
+          ],
+          "quote": "And we automatically host all of these tools when you push them under workos.tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            751.62,
+            756.523
+          ],
+          "quote": "So we have this shared domain that whatever your app is called, you get that host name underneath workos.tools.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "type": "concept",
+      "role": "concept",
+      "name": "Atlas",
+      "file": "Atlas",
+      "primary": true,
+      "how_described": "WorkOS 的内部平台，负责创建、构建、部署和分享应用，遵循基础设施隐形、默认安全、人人可发现三条原则。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            669.936,
+            675.839
+          ],
+          "quote": "So I want to talk a little bit about Atlas, which is the actual platform underneath this that empowers this tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            676.639,
+            681.042
+          ],
+          "quote": "WoW is just sort of the CLI that people use to interface with it, but Atlas is actually the underlying infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            681.722,
+            684.824
+          ],
+          "quote": "Basically, Atlas allows you to create, build, deploy, and share these applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            686.152,
+            692.096
+          ],
+          "quote": "The sort of three principles when we were building Atlas that we wanted to maintain and ensure that provided a great experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            728.808,
+            731.049
+          ],
+          "quote": "So today Atlas runs on Cloudflare's developer platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            941.876,
+            951.982
+          ],
+          "quote": "So we kind of already have this capability aspect to WoW and to Atlas where if I need access to our Snowflake data, for example, I don't need to go kind of think about API keys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1003.525,
+            1007.347
+          ],
+          "quote": "Atlas provides its capabilities to enable anyone at our company to ship internal apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wow",
+      "type": "concept",
+      "role": "concept",
+      "name": "WOW",
+      "file": "WOW",
+      "primary": true,
+      "how_described": "WorkOS 构建的 CLI 工具，员工敲一条 wow app create 就能自动配置开发环境、建仓库、推送并部署应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            332.336,
+            332.976
+          ],
+          "quote": "We call it WOW.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            333.616,
+            338.977
+          ],
+          "quote": "WOW is the thing that helps you build and generate an app without needing to know any of the underlying details.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            362.033,
+            364.635
+          ],
+          "quote": "The WoW CLI lets you run things like WoW App Create.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            516.709,
+            520.872
+          ],
+          "quote": "So anytime you push an app with WoW, we actually log into this internal registry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            676.639,
+            681.042
+          ],
+          "quote": "WoW is just sort of the CLI that people use to interface with it, but Atlas is actually the underlying infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            732.03,
+            740.234
+          ],
+          "quote": "Every app, when you run that wow create step, provides compute, storage with D1 databases, KV values, all the bits and pieces you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            941.876,
+            951.982
+          ],
+          "quote": "So we kind of already have this capability aspect to WoW and to Atlas where if I need access to our Snowflake data, for example, I don't need to go kind of think about API keys.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说员工建好应用后打开 Claude Code，用一句话描述想要什么，它就开始帮忙填内容；37% 的应用完全由非工程师和 Claude 完成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            158.737,
+            161.538
+          ],
+          "quote": "Now people are using Claude Code, Codex, and stuff in many cases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            340.258,
+            350.76
+          ],
+          "quote": "It basically is a toolkit that helps you set up Git, set up a repo, clone in an example application that you can use to start with for Claude Code or Codex to build the app you want to build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            638.168,
+            646.655
+          ],
+          "quote": "Basically, anyone at our company can now spin up Claude Code, build out that they want, and deploy it live, make it available to the entire company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "销售 Perona 用来搭建 Perona GPT 聊天机器人的工具；CEO 因为没有 Lovable 账号而无法使用，暴露了分发的门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            88.958,
+            90.819
+          ],
+          "quote": "She used Lovable, all this stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            98.435,
+            108.409
+          ],
+          "quote": "First thing, our CEO, Michael, tries to use the tool, and he gets this, you don't have access, he doesn't have a lovable account, because he's not used lovable, and so he can't use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            130.534,
+            139.623
+          ],
+          "quote": "But in order to make that idea actually useful, we have to go get engineers to spend a bunch of time, recode it, move it from lovable, deploy it, manage it, all this kind of stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            153.036,
+            154.016
+          ],
+          "quote": "She was using Lovable.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "Atlas 底层运行在 Cloudflare 的开发者平台上（Cloudflare workers），自动提供计算、D1 数据库、KV 存储等组件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            192.345,
+            195.567
+          ],
+          "quote": "Well, I don't have access to a Vercel account or a Cloudflare account because I'm not an engineer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            468.544,
+            474.288
+          ],
+          "quote": "If it's not obvious, we're running this on Cloudflare because it makes it really easy to quickly deploy a Node app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            697.859,
+            699.68
+          ],
+          "quote": "It happens to be that we're running on Cloudflare workers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            728.808,
+            731.049
+          ],
+          "quote": "So today Atlas runs on Cloudflare's developer platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "okta",
+      "type": "company",
+      "role": "company",
+      "name": "Okta",
+      "file": "Okta",
+      "primary": true,
+      "how_described": "所有内部应用默认自动挂上 Okta 单点登录（SSO），没有公司 Okta 账户的人无法访问。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 125,
+          "t": [
+            571.798,
+            574.86
+          ],
+          "quote": "I have to log in with my Okta account in order to access them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            765.578,
+            769.721
+          ],
+          "quote": "So all of these apps are automatically protected by our Okta SSO account.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            770.161,
+            773.383
+          ],
+          "quote": "So you can't log in if you don't have access to our Okta account.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doppler",
+      "type": "company",
+      "role": "company",
+      "name": "Doppler",
+      "file": "Doppler",
+      "primary": true,
+      "how_described": "WorkOS 用来做密钥管理的服务，所有密钥统一安全存放，避免有人把密钥误提交进 Git 仓库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            373.003,
+            375.024
+          ],
+          "quote": "Do you have Doppler, which is where you do secrets management?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            425.943,
+            427.924
+          ],
+          "quote": "I have Node, GitHub, Doppler.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            806.351,
+            807.471
+          ],
+          "quote": "We use Doppler in this case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "下一步的数据集成方向：只需说一句想添加 Snowflake，应用就自动获得维护好的数据访问权限，不用自己管 API 密钥。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            941.876,
+            951.982
+          ],
+          "quote": "So we kind of already have this capability aspect to WoW and to Atlas where if I need access to our Snowflake data, for example, I don't need to go kind of think about API keys.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            952.002,
+            953.743
+          ],
+          "quote": "I can just say I want to add Snowflake.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            954.063,
+            956.725
+          ],
+          "quote": "And now the app has correctly maintained Snowflake access.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "non-engineers",
+      "type": "concept",
+      "role": "concept",
+      "name": "非工程师开发 (non-engineers)",
+      "file": "非工程师开发",
+      "primary": true,
+      "how_described": "本集主线：目标是让非工程师也能构建和部署应用，60 个持续使用的应用中 37% 的提交记录里完全没有工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            298.487,
+            301.732
+          ],
+          "quote": "And typically, when we do this, we actually pair non-engineers with engineers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            302.248,
+            304.449
+          ],
+          "quote": "And we actually have the non-engineers do the building.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            889.584,
+            896.648
+          ],
+          "quote": "And I think the most important metric is our goal was enable non-engineers to build and deploy apps.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-days",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude 日 (Claude days)",
+      "file": "Claude 日",
+      "primary": true,
+      "how_described": "WorkOS 全公司参加的一天黑客马拉松，刻意让非工程师动手操作键盘构建应用，工程师只在旁边答疑、解卡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            285.728,
+            292.158
+          ],
+          "quote": "Turns out we basically had sort of a forcing function to gather feedback, which is we started doing these company-wide Claude days.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

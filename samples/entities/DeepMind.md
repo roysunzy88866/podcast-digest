@@ -64,7 +64,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[Harvey]] · [[NVIDIA]] · [[后训练]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"OpenAI":197,"Anthropic":201,"Google":71,"ChatGPT":111,"推理":98,"Harvey":21,"NVIDIA":70,"后训练":1,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"OpenAI":197,"Anthropic":201,"Google":71,"ChatGPT":111,"推理":98,"Harvey":21,"NVIDIA":70,"后训练":1,"Amazon":32}</script>
 
 <script>
 (function(){

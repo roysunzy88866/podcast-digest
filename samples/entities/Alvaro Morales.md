@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":2,"Asana":2,"Stripe":48,"Shopify":17,"Snowflake":21,"Twilio":3,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
+<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":2,"Asana":2,"Stripe":48,"Shopify":17,"Snowflake":22,"Twilio":3,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
 
 <script>
 (function(){

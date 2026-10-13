@@ -33,7 +33,7 @@ unlisted: true
 
 [[Google]] · [[Gemini]] · [[NVIDIA]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[SaaS]] · [[GPU]] · [[Meta]] · [[DeepMind]]
 
-<script type="application/json" class="pd-epn">{"Google":71,"Gemini":16,"NVIDIA":70,"智能体":487,"OpenAI":197,"Anthropic":201,"SaaS":23,"GPU":30,"Meta":53,"DeepMind":18}</script>
+<script type="application/json" class="pd-epn">{"Google":71,"Gemini":16,"NVIDIA":70,"智能体":489,"OpenAI":197,"Anthropic":201,"SaaS":23,"GPU":30,"Meta":53,"DeepMind":18}</script>
 
 <script>
 (function(){

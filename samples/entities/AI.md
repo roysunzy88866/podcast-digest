@@ -1247,7 +1247,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Claude]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[a16z]] · [[品味]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"智能体":487,"Claude":96,"Lenny":69,"Anthropic":201,"Google":71,"Stripe":48,"ChatGPT":111,"a16z":21,"品味":15}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":197,"智能体":489,"Claude":96,"Lenny":69,"Anthropic":201,"Google":71,"Stripe":48,"ChatGPT":111,"a16z":21,"品味":15}</script>
 
 <script>
 (function(){

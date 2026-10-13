@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Meta]] · [[OpenClaw]] · [[Instagram]] · [[Harj]] · [[开源模型]] · [[Facebook]] · [[Jeremy Adams]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"OpenAI":197,"Claude":96,"Meta":53,"OpenClaw":24,"Instagram":9,"Harj":1,"开源模型":4,"Facebook":17,"Jeremy Adams":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"OpenAI":197,"Claude":96,"Meta":53,"OpenClaw":24,"Instagram":9,"Harj":1,"开源模型":4,"Facebook":17,"Jeremy Adams":1}</script>
 
 <script>
 (function(){

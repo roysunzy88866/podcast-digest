@@ -1,0 +1,1384 @@
+{
+  "episode_id": "2026-10-08-talks-giving-ai-agents-memory-that-learns-jake",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "智能体记忆",
+    "LangChain",
+    "可观测性",
+    "AI 工程",
+    "上下文工程"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jake-broekhuizen",
+      "type": "person",
+      "role": "guest",
+      "name": "Jake Broekhuizen",
+      "file": "Jake Broekhuizen",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "concept",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集说 Jake 在 LangChain 领导 Labs 团队，该团队在帮金融服务公司构建能从经历中持续学习的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            27.438,
+            30.859
+          ],
+          "quote": "My name's Jake, and I lead our Labs team here at LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            60.046,
+            70.453
+          ],
+          "quote": "Recently, the Labs team at LangChain have been working with a company in the financial services sector who's building a spending, budgeting, and non-investment advice agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            481.039,
+            495.93
+          ],
+          "quote": "And so that's what lends itself to this really helpful mental model that I have, or that I and the team at LangChain and generally I think is a very useful way to sort of think about the relationship between working or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "company",
+      "role": "concept",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": true,
+      "how_described": "本集说它是 LangSmith 的落地实现：通过可观测性捕捉轨迹、后台分析提取信号、写入 Context Hub 供未来运行使用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            644.591,
+            653.778
+          ],
+          "quote": "One implementation of this, and I won't claim it's the only implementation, but just to kind of put some concrete structure to what I'm talking about is the way that we do this with LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            689.92,
+            691.441
+          ],
+          "quote": "And that is LangSmith's context hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            705.836,
+            707.878
+          ],
+          "quote": "That is what LangSmith Context Hub does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体应该一次比一次更好，但需要记忆系统把经验转化为上下文，才能让错误不在未来运行中重复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            43.096,
+            54.683
+          ],
+          "quote": "Whether you're building a coding agent, a support agent, a research agent, most teams arrive at the general same instinct that it should get better from one run to the next.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            60.046,
+            70.453
+          ],
+          "quote": "Recently, the Labs team at LangChain have been working with a company in the financial services sector who's building a spending, budgeting, and non-investment advice agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            147.747,
+            158.115
+          ],
+          "quote": "And so the system should be or the system around the agent should be a place where it can continuously learn and benefit from its interactions and its experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            173.592,
+            181.639
+          ],
+          "quote": "But observing them and then turning those observations and those agent experiences into lessons for future runs are obviously very different things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            204.758,
+            212.543
+          ],
+          "quote": "It means that we can understand the tools that were called, the reasoning that the agent made as it was on its way to making its decision, the artifacts that it referenced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            220.27,
+            226.912
+          ],
+          "quote": "But I think the challenge really is after the trace is stored or after the log or after the transcript of what the agent did is stored.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            228.472,
+            240.195
+          ],
+          "quote": "If the future context that that agent references never changes, then a misguided skill or instruction will mean that the agent, the mistake that the agent makes today will still persist in future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            265.495,
+            270.516
+          ],
+          "quote": "It's the durable context that an agent references that will guide future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            276.821,
+            283.824
+          ],
+          "quote": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            307.378,
+            308.778
+          ],
+          "quote": "First, there's what the agent knows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            320.383,
+            323.344
+          ],
+          "quote": "Then there's what the agent has experienced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            331.886,
+            333.787
+          ],
+          "quote": "And finally, there's how the agent should behave.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            349.229,
+            359.934
+          ],
+          "quote": "So in that financial assistant that I, the example that I gave at the beginning, tone changes that we wanted to promote to the agent and make it follow came in the form of updating its procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            369.099,
+            371.02
+          ],
+          "quote": "That's the procedural memory that guides our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            375.88,
+            386.705
+          ],
+          "quote": "Another distinction that I want to make, and I think this is very important when thinking about the general agent memory paradigm, is the separation between working memory or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            387.906,
+            390.667
+          ],
+          "quote": "Working memory is what the agent is referencing in its current run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            418.91,
+            428.478
+          ],
+          "quote": "Different agent harnesses will leverage and inject long-term memory in different ways, whether you're building your own SDK or using a variety of different popular agent frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            444.616,
+            452.362
+          ],
+          "quote": "Some of the memory or some of the context that an agent references is temporary, while some of it is durable and long term and is useful to guide future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            453.317,
+            461.24
+          ],
+          "quote": "And I think that distinction is really important when we think about traces and logs and artifacts that the agent produces as it runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            501.754,
+            514.104
+          ],
+          "quote": "Those terms refer to the way that memory is updated or pulled from long term into short term whilst the agent is doing work or actually in some cases whilst the agent is also not doing work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            517,
+            524.267
+          ],
+          "quote": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            540.502,
+            542.423
+          ],
+          "quote": "Then when the agent runs, it produces a trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            558.966,
+            566.648
+          ],
+          "quote": "If we turned everything that was, if we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            655.577,
+            662.906
+          ],
+          "quote": "The capture step to be able to understand and see the trajectory and the things that the agent did is where our observability comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            665.85,
+            668.212
+          ],
+          "quote": "You're able to see the way that the agent's called sub-agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            674.171,
+            689.88
+          ],
+          "quote": "But basically, it is that intelligent process that's doing the background analysis and doing the background work to extract signal from traces based on the things that matter to you and then promoting that signal to the memory store or the point of reference that the agent will use for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            700.051,
+            705.696
+          ],
+          "quote": "A remote store where you can now go and update what's in that so that the agent can pull that down the next time it runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            718.825,
+            734.354
+          ],
+          "quote": "To kind of put that in some more detail and also to frame it in the context of the financial assistant that I was speaking about at the beginning and sort of the way that we built this loop, when that agent runs, its context is loaded from the context sub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            742.014,
+            745.336
+          ],
+          "quote": "When it functions or when we invoke that agent, then a trace is produced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            767.948,
+            774.863
+          ],
+          "quote": "And then the next time our agent runs, we're able to actually go and understand and see that its tone changes when it interacts with, engages with users.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            817.589,
+            823.775
+          ],
+          "quote": "A small segment of that or subset should end up becoming what changes your agent's memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            838.771,
+            856.959
+          ],
+          "quote": "And what I found was, particularly for long-running background agents, imagine if you have an agent that's running over long time horizons and you make some memory updates in the beginning of its operation, but because of the runtime state and because of the way that it's accessing memory, you don't actually access that or that's not available to it for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            877.308,
+            894.423
+          ],
+          "quote": "I think that OpenClaw and Hermes Agent and a lot of agents that are becoming widely popular that sort of do this self-update process, I think that it's another really important consideration of what do you make self-updateable as opposed to what do you make something that needs human review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            897.425,
+            904.489
+          ],
+          "quote": "With instructions and policies and tone guidelines, those are probably going to drive about 75% of the behavior of my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            908.571,
+            919.997
+          ],
+          "quote": "You should have some way to surface the changes that you make to the parts of the agent's memory that are procedural before actually committing those and putting those in the agent's sort of like hot reload path.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            939.865,
+            948.027
+          ],
+          "quote": "I think in the context of building agents and working with harnesses and working with providing context to your agent, memory really does give us the ability to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            960.58,
+            968.863
+          ],
+          "quote": "If you're curious about an actual implementation of this, by the way, that QR code has a video of me walking through how I've built an agent that does exactly what I've just described.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆是智能体参考的持久上下文，只有教训被转化为未来运行可参考的持久上下文时才成为记忆，分语义、情景、程序性三类",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            31.099,
+            41.283
+          ],
+          "quote": "And today, I want to talk to you about a topic that I have been speaking a lot about with our team and with a lot of teams that I speak with who are building agents, and that's how to give your agents memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            158.155,
+            161.258
+          ],
+          "quote": "And that's the version of memory that I want to talk about today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            183.881,
+            187.484
+          ],
+          "quote": "And so that's where memory comes into play.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            260.474,
+            261.234
+          ],
+          "quote": "So I've mentioned memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            261.254,
+            263.875
+          ],
+          "quote": "I think it'll really help to sort of define what I mean when I say memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            276.821,
+            283.824
+          ],
+          "quote": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            308.939,
+            310.739
+          ],
+          "quote": "This is often referred to as semantic memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            323.364,
+            325.504
+          ],
+          "quote": "And this is the episodic memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            333.847,
+            335.628
+          ],
+          "quote": "This is also known as procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            345.347,
+            348.509
+          ],
+          "quote": "Procedural memory is where actually most of the visible gains come from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            349.229,
+            359.934
+          ],
+          "quote": "So in that financial assistant that I, the example that I gave at the beginning, tone changes that we wanted to promote to the agent and make it follow came in the form of updating its procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            369.099,
+            371.02
+          ],
+          "quote": "That's the procedural memory that guides our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            375.88,
+            386.705
+          ],
+          "quote": "Another distinction that I want to make, and I think this is very important when thinking about the general agent memory paradigm, is the separation between working memory or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            387.906,
+            390.667
+          ],
+          "quote": "Working memory is what the agent is referencing in its current run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            403.839,
+            417.349
+          ],
+          "quote": "Long-term memory is what exists typically in some data structure or some store somewhere else that has instructions and skills and things that it needs to reference as part of future turns and continuous behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            418.91,
+            428.478
+          ],
+          "quote": "Different agent harnesses will leverage and inject long-term memory in different ways, whether you're building your own SDK or using a variety of different popular agent frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            444.616,
+            452.362
+          ],
+          "quote": "Some of the memory or some of the context that an agent references is temporary, while some of it is durable and long term and is useful to guide future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            465.902,
+            469.944
+          ],
+          "quote": "It's a record of how our working memory changed over the course of the run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            481.039,
+            495.93
+          ],
+          "quote": "And so that's what lends itself to this really helpful mental model that I have, or that I and the team at LangChain and generally I think is a very useful way to sort of think about the relationship between working or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            501.754,
+            514.104
+          ],
+          "quote": "Those terms refer to the way that memory is updated or pulled from long term into short term whilst the agent is doing work or actually in some cases whilst the agent is also not doing work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            517,
+            524.267
+          ],
+          "quote": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            536.138,
+            538.78
+          ],
+          "quote": "That's that phase moving from long-term memory into short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            558.966,
+            566.648
+          ],
+          "quote": "If we turned everything that was, if we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            599.416,
+            600.477
+          ],
+          "quote": "Memory informs the run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            603.318,
+            607.501
+          ],
+          "quote": "We filter that evidence to make signal, and then we use that signal to update memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            674.171,
+            689.88
+          ],
+          "quote": "But basically, it is that intelligent process that's doing the background analysis and doing the background work to extract signal from traces based on the things that matter to you and then promoting that signal to the memory store or the point of reference that the agent will use for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            779.969,
+            796.633
+          ],
+          "quote": "So some things that I and my team have currently or kind of always think about when designing memory, and this should also as well ideally guide the way that you design and build some of these abstractions, is that agents produce so much, we call it exhaust or we call it kind of like feedback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            796.933,
+            798.473
+          ],
+          "quote": "Not everything should become a memory update.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            817.589,
+            823.775
+          ],
+          "quote": "A small segment of that or subset should end up becoming what changes your agent's memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            830.507,
+            838.371
+          ],
+          "quote": "You sort of tread the fine line of trying to build a system that's optimized, but then also one that has a memory store or updates available to it in the hot path.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            838.771,
+            856.959
+          ],
+          "quote": "And what I found was, particularly for long-running background agents, imagine if you have an agent that's running over long time horizons and you make some memory updates in the beginning of its operation, but because of the runtime state and because of the way that it's accessing memory, you don't actually access that or that's not available to it for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            858.4,
+            864.583
+          ],
+          "quote": "Understanding what you can cache, what you can't cache, to be able to make sure that memory updates are available for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            895.043,
+            896.684
+          ],
+          "quote": "And so if we're talking about procedural memory,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            908.571,
+            919.997
+          ],
+          "quote": "You should have some way to surface the changes that you make to the parts of the agent's memory that are procedural before actually committing those and putting those in the agent's sort of like hot reload path.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            935.423,
+            936.604
+          ],
+          "quote": "Memory allows us to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            937.124,
+            938.784
+          ],
+          "quote": "The word memory is thrown around a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            939.865,
+            948.027
+          ],
+          "quote": "I think in the context of building agents and working with harnesses and working with providing context to your agent, memory really does give us the ability to do this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说可观测性是构建可靠智能体的关键基础，让每次运行产生可理解的追踪记录",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            214.424,
+            218.307
+          ],
+          "quote": "Observability is obviously a critical foundation for building very reliable agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            655.577,
+            662.906
+          ],
+          "quote": "The capture step to be able to understand and see the trajectory and the things that the agent did is where our observability comes in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪 (trace)",
+      "file": "追踪",
+      "primary": true,
+      "how_described": "本集说每次运行产生追踪记录，它不只是日志，而应从证据转化为信号来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            198.434,
+            203.237
+          ],
+          "quote": "That's fantastic for us because every run produces a trace, and that trace is stored somewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            220.27,
+            226.912
+          ],
+          "quote": "But I think the challenge really is after the trace is stored or after the log or after the transcript of what the agent did is stored.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            241.736,
+            249.078
+          ],
+          "quote": "The goal or the system that we want to work towards is where a trace stops just being a log and becomes a source of signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            271.696,
+            275.957
+          ],
+          "quote": "A trace, a transcript, or a log is evidence of what happened.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            463.161,
+            465.342
+          ],
+          "quote": "A trace isn't just a record of the final output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            540.502,
+            542.423
+          ],
+          "quote": "Then when the agent runs, it produces a trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            742.014,
+            745.336
+          ],
+          "quote": "When it functions or when we invoke that agent, then a trace is produced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            809.701,
+            813.064
+          ],
+          "quote": "Most trace data actually should stay as history, as referenceable history.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "context",
+      "role": "concept",
+      "name": "context",
+      "file": "context",
+      "primary": true,
+      "how_described": "本集说上下文是经验变成智能体改进的载体——记忆让经验成为上下文，上下文让下一次运行有机会变好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            92.753,
+            100.897
+          ],
+          "quote": "It will derive the way that it generates this tone from the context and from the memories and from the references that it has to its rules and policies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            132.953,
+            140.899
+          ],
+          "quote": "You have to have someone understand the traces and understand where its tone slipped, make those changes to the context that it needs to reference when it's giving its tone,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            228.472,
+            240.195
+          ],
+          "quote": "If the future context that that agent references never changes, then a misguided skill or instruction will mean that the agent, the mistake that the agent makes today will still persist in future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            265.495,
+            270.516
+          ],
+          "quote": "It's the durable context that an agent references that will guide future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            276.821,
+            283.824
+          ],
+          "quote": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            444.616,
+            452.362
+          ],
+          "quote": "Some of the memory or some of the context that an agent references is temporary, while some of it is durable and long term and is useful to guide future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            473.726,
+            476.547
+          ],
+          "quote": "Some part of that should become durable long-term context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            517,
+            524.267
+          ],
+          "quote": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            543.362,
+            554.465
+          ],
+          "quote": "This evidence is really important to us, because now we can understand how it retrieved context, the tool calls that it made, or the decisions, or the sub-agents, or anything that's part of its working job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            571.273,
+            576.117
+          ],
+          "quote": "How do you decide what is useful signal and what should become durable long-term context?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            582.442,
+            587.626
+          ],
+          "quote": "Once you've made that decision, that signal is then written back into durable long-term context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            630.18,
+            632.902
+          ],
+          "quote": "And then updating the context so that future runs can use this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            668.233,
+            670.015
+          ],
+          "quote": "You're able to see the context that was retrieved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            689.92,
+            691.441
+          ],
+          "quote": "And that is LangSmith's context hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            705.836,
+            707.878
+          ],
+          "quote": "That is what LangSmith Context Hub does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            710.941,
+            716.446
+          ],
+          "quote": "You capture the experience, you extract the signal, and then you store that durable context for future runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            718.825,
+            734.354
+          ],
+          "quote": "To kind of put that in some more detail and also to frame it in the context of the financial assistant that I was speaking about at the beginning and sort of the way that we built this loop, when that agent runs, its context is loaded from the context sub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            939.865,
+            948.027
+          ],
+          "quote": "I think in the context of building agents and working with harnesses and working with providing context to your agent, memory really does give us the ability to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            951.717,
+            953.398
+          ],
+          "quote": "It's how experience becomes context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            954.638,
+            959.18
+          ],
+          "quote": "And then that context is how our next runs get the chance to improve.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "procedural-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "程序性记忆 (procedural memory)",
+      "file": "程序性记忆",
+      "primary": true,
+      "how_described": "本集说程序性记忆是指令、技能和规则，智能体大部分可见的行为改进来自更新它，且它驱动约 75% 的智能体行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            333.847,
+            335.628
+          ],
+          "quote": "This is also known as procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            345.347,
+            348.509
+          ],
+          "quote": "Procedural memory is where actually most of the visible gains come from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            349.229,
+            359.934
+          ],
+          "quote": "So in that financial assistant that I, the example that I gave at the beginning, tone changes that we wanted to promote to the agent and make it follow came in the form of updating its procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            369.099,
+            371.02
+          ],
+          "quote": "That's the procedural memory that guides our agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            895.043,
+            896.684
+          ],
+          "quote": "And so if we're talking about procedural memory,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "read-write-cycle",
+      "type": "concept",
+      "role": "concept",
+      "name": "读写循环 (read-write cycle)",
+      "file": "读写循环",
+      "primary": true,
+      "how_described": "本集说是思考短期与长期记忆关系的心智模型：运行前从长期记忆读入相关上下文，运行后筛选信号写回长期记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            496.45,
+            497.491
+          ],
+          "quote": "It's a read-write cycle.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sleep-time-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "睡眠时间计算 (sleep time compute)",
+      "file": "睡眠时间计算",
+      "primary": false,
+      "how_described": "本集说业内也称记忆更新过程为睡眠时间计算或做梦，指智能体在工作或空闲时更新记忆",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            498.171,
+            501.034
+          ],
+          "quote": "And so you might have heard of sleep time compute or dreaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            514.144,
+            515.325
+          ],
+          "quote": "That's the sleep time compute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-hub",
+      "type": "concept",
+      "role": "concept",
+      "name": "Context Hub",
+      "file": "Context Hub",
+      "primary": true,
+      "how_described": "本集说是 LangSmith 里的存储：后台分析从轨迹提取信号并写入，智能体下次运行时拉取这些持久上下文",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            689.92,
+            691.441
+          ],
+          "quote": "And that is LangSmith's context hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            705.836,
+            707.878
+          ],
+          "quote": "That is what LangSmith Context Hub does.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集说应该用 evals 保护关键行为，在程序性记忆更新提交前确保没有回归",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            921.719,
+            931.182
+          ],
+          "quote": "So protecting important behavior with evals is, I guess, another really important third level to this that I find really important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "short-term-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "短期记忆 (short-term memory)",
+      "file": "短期记忆",
+      "primary": true,
+      "how_described": "本集说短期/工作记忆是智能体当前运行引用的内容，如草稿板、工具结果、检索到的文件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            375.88,
+            386.705
+          ],
+          "quote": "Another distinction that I want to make, and I think this is very important when thinking about the general agent memory paradigm, is the separation between working memory or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            481.039,
+            495.93
+          ],
+          "quote": "And so that's what lends itself to this really helpful mental model that I have, or that I and the team at LangChain and generally I think is a very useful way to sort of think about the relationship between working or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            517,
+            524.267
+          ],
+          "quote": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            536.138,
+            538.78
+          ],
+          "quote": "That's that phase moving from long-term memory into short-term memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "long-term-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "长期记忆 (long-term memory)",
+      "file": "长期记忆",
+      "primary": true,
+      "how_described": "本集说长期记忆存在于别处的存储中，包含指令、技能等，服务于未来运行和持续行为",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            375.88,
+            386.705
+          ],
+          "quote": "Another distinction that I want to make, and I think this is very important when thinking about the general agent memory paradigm, is the separation between working memory or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            403.839,
+            417.349
+          ],
+          "quote": "Long-term memory is what exists typically in some data structure or some store somewhere else that has instructions and skills and things that it needs to reference as part of future turns and continuous behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            418.91,
+            428.478
+          ],
+          "quote": "Different agent harnesses will leverage and inject long-term memory in different ways, whether you're building your own SDK or using a variety of different popular agent frameworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            481.039,
+            495.93
+          ],
+          "quote": "And so that's what lends itself to this really helpful mental model that I have, or that I and the team at LangChain and generally I think is a very useful way to sort of think about the relationship between working or short-term memory and long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            517,
+            524.267
+          ],
+          "quote": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            536.138,
+            538.78
+          ],
+          "quote": "That's that phase moving from long-term memory into short-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            558.966,
+            566.648
+          ],
+          "quote": "If we turned everything that was, if we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

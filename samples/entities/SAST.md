@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[误报]] · [[Gregor Vand]] · [[Eli Cohen]] · [[Alon Schindel]] · [[Snyk]] · [[Wiz]] · [[Evo]] · [[Google]] · [[渗透测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"误报":2,"Gregor Vand":2,"Eli Cohen":1,"Alon Schindel":1,"Snyk":1,"Wiz":2,"Evo":1,"Google":71,"渗透测试":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"误报":2,"Gregor Vand":2,"Eli Cohen":1,"Alon Schindel":1,"Snyk":1,"Wiz":2,"Evo":1,"Google":71,"渗透测试":2}</script>
 
 <script>
 (function(){

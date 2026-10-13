@@ -1,0 +1,143 @@
+{
+  "title_zh": "让公司里每个人都能用 AI 做出内部工具",
+  "tldr": "WorkOS 产品团队的 Garrett 分享他们如何让非工程师独立构建并上线内部应用，37% 的应用全程没有工程师参与。",
+  "digest_md": "AI 时代，“把东西做出来”已经变得很便宜，但“让同事能用上”这件事依然卡住了大多数人。WorkOS 的 Garrett 在这场演讲里，讲了一个从销售同事的小工具出发、最终变成公司级平台的故事。\n\n## 一个销售的工具，为什么最后要工程师收尾？\n\n大约半年前，WorkOS 的销售 Perona 快要休产假。她很出色，想在离开前给团队留点东西，于是用 Lovable 做了一个聊天机器人，取名 Perona GPT——用它自己积累的销售通话和产品知识训练，供同事在她休假期间使用。[01:15 Unknown]\n\n结果 CEO Michael 第一个去试用，直接被挡在门外：他没有 Lovable 账号，根本进不去。最后的解决办法是，让应用 AI 团队的两名工程师把工具重写成正式应用，再部署、分发。一个好想法，还是绕回了工程师的工时。\n\nGarrett 的结论是：做出一个能本地跑起来的东西不难，难的是部署、安全、账号权限这些“上线”环节——非工程师搞不定，工程师也不想每次都从头来一遍。[02:48 Unknown]\n\n## 他们的答案：一条命令，从建应用到全公司可用\n\nWorkOS 做了两层东西。底层是平台 Atlas,负责创建、部署、共享应用；上层是一个命令行工具,叫 WOW,员工只需要敲一条命令，比如 wow app create。\n\nWOW 会自动检查你的电脑：装没装 Git、登录 GitHub 没有、密钥管理工具 Doppler 配好没有——不管你是不是工程师，它把开发环境一次性配齐。[06:05 Unknown] 然后它会用模板建好代码仓库、推送、部署，几分钟内你就能拿到一个本地跑起来的应用。之后打开 Claude Code,用一句话描述你想要什么，它就开始帮你填内容。\n\n这个工具通过公司的设备管理推送到每台电脑，员工入职第一天就有。\n\n## 安全和分发，才是真正的门槛\n\nAtlas 的设计遵循三个原则。\n\n第一，基础设施隐形。应用实际跑在 Cloudflare 的开发者平台上，计算、数据库、键值存储都是自动配好的。如果哪天换成别家，使用者完全不用知道，也不用关心。[12:32 Unknown]\n\n第二，默认安全。所有应用自动挂上公司的 Okta 单点登录，外人打不开。API 和 Slack 机器人有专门的令牌认证。所有请求都有日志可审计，密钥统一放在 Doppler,不会有人把 API 密钥误提交进代码仓库——这是很多内部工具最大的隐患。\n\n第三，人人可发现。应用一上线就自动挂在一个共享域名下，同事在 Slack 里点开链接就能用，不需要任何人点“共享”。\n\n## 不是玩具：每周 330 万次请求\n\n这些应用不只是小看板。内部登记表显示，公司累计推送了 278 个应用，一周内有 330 万次请求流经这些应用，其中既有页面工具，也有 API 和 Slack 机器人。[08:41 Unknown]\n\n举两个例子。产品营销的 Connor 每月要做内部通讯，以前要把更新整理一遍，再分别排成 Slack 和邮件两种格式。现在有个应用把所有产品更新聚合在一起，可以直接排版、预览、发送。\n\nGarrett 自己则做了一个更新日志工具：任何同事都能起草产品更新，草稿自动发到 Slack 通知他审核，审核通过一键发布到官网。[10:13 Unknown]\n\n## 最重要的数字：37% 的应用没有工程师参与\n\n在持续维护和使用的约 60 个应用里，37% 的代码提交记录里完全找不到工程师——全程是业务同事自己和 Claude 完成的。[14:56 Unknown]\n\n对 Garrett 来说，这才是真正的成功标志：再也不会有人跑来说“能不能帮我迁移/维护一下市场部的工具”。\n\n另一件事也在推动普及：公司定期举办全公司参加的 Claude 日，一天的黑客马拉松，刻意让非工程师坐在键盘前动手写，工程师只在旁边答疑、解卡。市场和销售的很多点子就是这么冒出来的。[04:52 Unknown]\n\n## 还没做完的事\n\n下一步，他们想做更细的权限控制——现在默认全员可见，但有些敏感数据的应用需要按角色限制访问。还想让应用更方便地接入公司数据，比如一句话就能加上 Snowflake 的访问权限，不用自己管 API 密钥。以及原生集成 Slack,让应用部署的同时自动装成一个 Slack 应用。\n\nGarrett 的总结很直接：**AI 解决了“建造”的问题，但要让它成为人人可用的平台，还差一层像 Atlas 这样的东西**。[16:36 Unknown]\n\n> 【背景】WorkOS 是一家为企业软件开发者提供企业级登录、权限管理等基础设施的公司；演讲中提到的 Okta、Cloudflare、Doppler 分别是身份认证、云部署和密钥管理服务。\n\n## 本集带走\n\n- AI 让“做出来”变便宜了，但部署、安全、分发仍是普通人上线的真正门槛\n- WorkOS 用 Atlas 平台加 WOW 命令行工具，让员工一条命令就能建好并部署内部应用\n- 默认接入公司单点登录、统一密钥管理和请求日志，安全不需要使用者操心\n- 每周 330 万次请求流经这些内部应用，持续维护的约 60 个应用中 37% 完全由非工程师独立完成\n- 让非工程师动手、工程师只做教练的黑客马拉松，是推广这种文化的有效方式",
+  "quotes": [
+    {
+      "en": "And out of our apps, out of these 60 apps, 37% of them have been built without any engineers in any of the commits.",
+      "zh": "在我们的应用中，在这 60 个应用中，37% 的应用在所有 commit 中都没有任何工程师参与构建。",
+      "timestamp": "14:56",
+      "speaker": "Garrett Galow"
+    },
+    {
+      "en": "And that's sort of the marker of a true success here that we've actually eliminated the need for, hey, some engineer, can you migrate this tool?",
+      "zh": "而这差不多就是真正成功的标志——我们确实消除了「嘿，哪位工程师，你能帮我迁移这个工具吗？」的需求。",
+      "timestamp": "15:08",
+      "speaker": "Garrett Galow"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:44",
+      "speaker": "Unknown",
+      "en": "But even with AI, the technology still holds them back.",
+      "zh": "但即便有了 AI，技术仍然在拖他们的后腿。"
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Unknown",
+      "en": "And so building things got cheap.",
+      "zh": "所以构建东西变得便宜了。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "But shipping it, making it available, even internally to your company, hasn't really gotten that much easier, right?",
+      "zh": "但把它交付出去，让它可用，哪怕只是在公司内部可用，并没有变得那么容易，对吧？"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Unknown",
+      "en": "They shouldn't need to go ask infra for provisioning.",
+      "zh": "他们不应该需要去找 infra 申请资源开通。"
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Unknown",
+      "en": "Building is cheap, right?",
+      "zh": "构建很便宜，对吧？"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "And we actually have the non-engineers do the building.",
+      "zh": "而且我们实际上是让非工程师来做构建。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Unknown",
+      "en": "They're the ones that have our hands on keyboard.",
+      "zh": "他们才是真正动手操作键盘的人。"
+    },
+    {
+      "timestamp": "08:48",
+      "speaker": "Unknown",
+      "en": "Over the last week, we've had 3.3 million requests go through these applications.",
+      "zh": "在过去一周里，有 330 万个请求通过了这些应用。"
+    },
+    {
+      "timestamp": "08:52",
+      "speaker": "Unknown",
+      "en": "So these aren't just little dashboard tools.",
+      "zh": "所以这些不只是小小的仪表盘工具。"
+    },
+    {
+      "timestamp": "11:34",
+      "speaker": "Unknown",
+      "en": "No one should need to know where the deployment target is.",
+      "zh": "任何人都不需要知道部署目标在哪里。"
+    },
+    {
+      "timestamp": "11:47",
+      "speaker": "Unknown",
+      "en": "We want to be secured by default.",
+      "zh": "我们希望默认是安全的。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Unknown",
+      "en": "Obviously not every single app is super important and sees the light of day.",
+      "zh": "显然不是每一个应用都超级重要、都能见到天日。"
+    },
+    {
+      "timestamp": "14:07",
+      "speaker": "Unknown",
+      "en": "It's actually becoming a way in which things are being maintained.",
+      "zh": "它实际上正在成为事物被维护的一种方式。"
+    },
+    {
+      "timestamp": "14:22",
+      "speaker": "Unknown",
+      "en": "We're seeing over 3 million requests a week run through all of these apps.",
+      "zh": "我们看到每周有超过 300 万个请求通过所有这些应用运行。"
+    },
+    {
+      "timestamp": "14:37",
+      "speaker": "Unknown",
+      "en": "And so it's not just humans accessing this data, it's machines and agents as well.",
+      "zh": "所以不仅仅是人类在访问这些数据，机器和智能体也在访问。"
+    },
+    {
+      "timestamp": "14:42",
+      "speaker": "Unknown",
+      "en": "We've completely eliminated the need for asking for help in deploying applications because nothing stops anyone anymore.",
+      "zh": "我们已经完全消除了在部署应用时寻求帮助的需求，因为再也没有什么能阻挡任何人了。"
+    },
+    {
+      "timestamp": "14:49",
+      "speaker": "Unknown",
+      "en": "And I think the most important metric is our goal was enable non-engineers to build and deploy apps.",
+      "zh": "而且我认为最重要的指标是，我们的目标是让非工程师能够构建和部署应用。"
+    },
+    {
+      "timestamp": "14:56",
+      "speaker": "Unknown",
+      "en": "And out of our apps, out of these 60 apps, 37% of them have been built without any engineers in any of the commits.",
+      "zh": "在我们的应用中，在这 60 个应用中，37% 的应用在所有 commit 中都没有任何工程师参与构建。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Unknown",
+      "en": "And that's sort of the marker of a true success here that we've actually eliminated the need for, hey, some engineer, can you migrate this tool?",
+      "zh": "而这差不多就是真正成功的标志——我们确实消除了「嘿，哪位工程师，你能帮我迁移这个工具吗？」的需求。"
+    },
+    {
+      "timestamp": "16:36",
+      "speaker": "Unknown",
+      "en": "For us, AI solved the build problem, but we needed more in order to make this a ubiquitous platform for our team.",
+      "zh": "对我们来说，AI 解决了构建问题，但要让这成为我们团队的一个无处不在的平台，我们还需要更多。"
+    }
+  ],
+  "voice_script": "今天这一期,来聊一件挺实际的事:公司里的每个人,能不能不靠工程师,自己做出一个内部工具,还能让同事真正用上?\n\n主角是 WorkOS 的产品团队。WorkOS 这家公司,本身是给企业软件的开发者提供登录、权限这些基础设施的。他们有个产品团队的 Garrett,在一场演讲里分享了他们怎么把\"让非工程师自己做应用\"这件事,从一个小小的销售工具,做成了一整套公司级的平台。这个故事的起点,其实有点好笑。\n\n大约半年前,WorkOS 有个销售叫 Perona,快要休产假了。她想在离开前给团队留点东西,就用一个叫 Lovable 的 AI 工具,做了一个聊天机器人,取名 Perona GPT——用她自己积累的销售通话记录和产品知识训练出来的,专门供同事在她休假期间用。\n\n想法很好,问题是 CEO 第一个去试用,直接被挡在了门外。为什么?因为 CEO 没有 Lovable 的账号,根本进不去。最后怎么办?让应用 AI 团队的两名工程师把这个工具重写成正式应用,再部署、再分发。你看,一个好想法,兜兜转转,还是绕回了工程师的工时上。\n\nGarrett 从这件事里得出的结论很清楚:做出一个能在本地跑起来的东西,现在一点都不难,AI 几分钟就帮你生成;真正难的是后面的部署、安全、账号权限这些\"上线\"环节。非工程师搞不定这些,工程师呢,也不想每次都从头来一遍。\n\n那怎么解决?WorkOS 的答案是做了两层东西。底层是一个叫 Atlas 的平台,负责应用的创建、部署和共享;上层是一个命令行工具,叫 WOW。员工只需要敲一条命令,比如 wow app create。\n\n敲完之后,WOW 会自动检查你的电脑:装没装 Git?登录 GitHub 没有?密钥管理工具配好没有?不管你是不是工程师,它把开发环境一次性给你配齐。然后它用模板建好代码仓库、推送、部署,几分钟之内,你手上就有了一个跑起来的应用。接着你打开 Claude Code,用一句话描述你想要什么,它就开始帮你填内容。这个工具通过公司的设备管理推送到每台电脑,员工入职第一天就有。\n\n说到这儿,你可能会想:让所有人都能随便建应用,安全和权限怎么管?这正是这套东西真正花心思的地方。Atlas 的设计遵循三个原则。\n\n第一,基础设施隐形。应用实际跑在 Cloudflare 的开发者平台上,计算、数据库、存储都是自动配好的。哪怕哪天换成别家,使用者完全不用知道,也不用关心。\n\n第二,默认安全。所有应用自动挂上公司的单点登录,外人打不开。API 和 Slack 机器人有专门的令牌认证,所有请求都有日志可以审计,密钥统一放在专门的管理工具里,不会有人不小心把 API 密钥提交进代码仓库——要知道,这可是很多内部工具最大的隐患。\n\n第三,人人可发现。应用一上线,就自动挂在一个共享域名下,同事在 Slack 里点开链接就能用,不需要任何人专门去点\"共享\"。\n\n好,工具是有了,那效果怎么样?这些应用可不是玩具。内部登记表显示,公司累计推送了 278 个应用,一周之内有 330 万次请求流经这些应用,里面既有页面工具,也有 API 和 Slack 机器人。举两个例子感受一下。产品营销有个同事,每月要做内部通讯,以前得把产品更新整理一遍,再分别排成 Slack 和邮件两种格式;现在有个应用把所有更新聚合在一起,直接排版、预览、发送。Garrett 自己则做了一个更新日志工具:任何同事都能起草产品更新,草稿自动发到 Slack 通知他审核,审核通过就一键发布到官网。\n\n而这整个故事里,最重要的一个数字是这个:在持续维护和使用的约 60 个应用里,37% 的代码提交记录里,完全找不到工程师——从头到尾,是业务同事自己和 Claude 完成的。用 Garrett 的话说,这差不多就是真正成功的标志:再也不会有人跑来说\"嘿,能不能帮我维护一下市场部的那个工具\"。\n\n那这种文化是怎么推广起来的呢?公司定期办一个全公司参加的 Claude 日,就是一整天的黑客马拉松,刻意让非工程师坐到键盘前动手写,工程师只在旁边答疑、解卡。市场和销售的很多点子,就是这么冒出来的。\n\n当然,事情还没做完。下一步,他们想做更细的权限控制——现在默认全员可见,但有些带敏感数据的应用,需要按角色限制访问。还想让应用更方便地接入公司数据,以及和 Slack 做原生集成,应用部署的同时自动变成一个 Slack 应用。\n\nGarrett 最后的总结很直接:AI 解决了\"建造\"的问题,但要让它成为人人可用的平台,还差一层像 Atlas 这样的东西。说白了,现在把东西做出来已经很便宜了,真正卡住普通人的,是\"让同事能用上\"这最后一公里。"
+}

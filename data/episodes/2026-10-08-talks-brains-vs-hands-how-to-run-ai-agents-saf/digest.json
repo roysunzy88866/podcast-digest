@@ -1,0 +1,143 @@
+{
+  "title_zh": "AI 智能体上了生产环境，谁来管住它的手？",
+  "tldr": "Viren Baraiya 演讲，讲怎么用「 harness 」框架把 AI 智能体安全地跑在生产环境里：大脑负责想，手负责做。",
+  "digest_md": "AI 智能体(能自己调用工具、自己规划步骤的 AI 程序)不再只是聊天机器人。现场举手调查显示，很多团队已经把智能体跑在生产环境里了。但真正的问题不是怎么写一个智能体，而是怎么管住它——别让它一时“糊涂”就重启了你的生产集群。\n\n## 智能体不是一个组件，而是一个应用\n\nBaraiya 说，常见的入门示例是“一个智能体加一个工具调用”，但这视角太窄。生产环境里的智能体形态多样：定时跑的后台智能体、监听告警和日志的事件驱动智能体、跑好几天的协调者智能体，还有智能体之间互相协作的多智能体系统。[02:46 Unknown]\n\n这就像微服务的思路：你不会写一个什么都干的微服务，而是多个单一职责的服务互相配合。智能体也一样——不该让一个智能体包揽所有事，那只会放大幻觉风险。于是需要一个“harness”(可以理解为一个外壳程序)，来控制和执行这些智能体。\n\n## 关键一条：大脑负责计划，手负责执行\n\n整场演讲最核心的一句话是：“**非确定性智能体的职责是计划下一步做什么，而不是真的去做**。” [08:08 Unknown]\n\nBaraiya 把它叫作“大脑和手”的分工：大模型是大脑，harness 是手。智能体写出计划，harness 去执行。为什么？因为执行环节往往是支付、重启生产集群这类容不得随机性的操作。大脑可以天马行空，手必须每次做的一模一样。\n\n比如重启生产集群，应该由确定的代码决定具体步骤，而且最好加一道人工审批——发条消息给人确认，而不是指望大模型“记得”要审批。[09:17 Unknown]\n\n## 这个概念其实不新：晚绑定的 saga\n\n写过分布式系统的人对 saga(把一连串步骤写成确定性流程的模式)不陌生。Baraiya 说，带智能体的 harness 本质上是“晚绑定的 saga”:工具和任务是有限、确定的，但具体怎么组合，由智能体在运行时临时提议和搭建。[10:42 Unknown]\n\n好处是两头的都占了：传统工作流的可见性和可控性，加上智能体的灵活性。如果让人提前把所有分支组合都写成工作流，几乎不可能；让智能体按需组合，就简单了。\n\n## 演示：一个自我规划的 SRE 智能体\n\n他演示了一个负责运维的智能体：循环跑两轮。第一轮，大模型提议一组步骤——收集证据、分析日志、必要时回滚部署、验证恢复。这份计划交给一个“计划编译”工具，编译成完全确定的工作流，再由执行引擎跑起来。[13:19 Unknown]\n\n第二轮，智能体看到回滚已完成，就决定检查下游服务、验证恢复、收尾。整个过程是：看当前状态 → 计划多步 → 执行 → 验证 → 再循环。它可以由事件触发、按时间表跑，也可以长时间运行。\n\n> 【背景】演示用的是 Conductor,一个开源的工作流编排平台，Baraiya 所属公司提供其企业版，也支持运行 LangChain、OpenAI、ADK 等框架的智能体。\n\n## 本集带走\n\n- 智能体要当成一个应用来设计，不是一个组件；多智能体各司其职，好过一个全能智能体。\n- 核心原则：大脑(大模型)负责计划，手(harness)负责执行；危险操作必须走确定性代码和人工审批。\n- harness 是长时间运行的进程，能跑几秒也能跑几个月，持久性(出故障能恢复)只是及格线，不是卖点。\n- 带 AI 的 harness 本质是“晚绑定的 saga”——工具确定、组合灵活，兼得可控性与灵活性。",
+  "quotes": [
+    {
+      "en": "The last thing you want is to have an agent be responsible for multiple things and risk hallucinations.",
+      "zh": "你最不希望的就是让一个智能体负责多件事，并冒着幻觉的风险。",
+      "timestamp": "02:51",
+      "speaker": "Viren Baraiya"
+    },
+    {
+      "en": "The way I would like to think about is the agent starts to feel more like an application, not just a component, right?",
+      "zh": "我倾向于的思考方式是，智能体开始感觉更像是一个应用程序，而不仅仅是一个组件。",
+      "timestamp": "03:01",
+      "speaker": "Viren Baraiya"
+    },
+    {
+      "en": "You are not going to ship a microservice in production that does everything, right?",
+      "zh": "你不会把一个什么都做的微服务发布到生产环境，对吧？",
+      "timestamp": "03:19",
+      "speaker": "Viren Baraiya"
+    },
+    {
+      "en": "At the end of the day, durability is the cost of admission.",
+      "zh": "归根结底，持久性是入场的代价。",
+      "timestamp": "07:08",
+      "speaker": "Viren Baraiya"
+    },
+    {
+      "en": "Harness is the hands, the brain is the LLM.",
+      "zh": "Harness 是双手，大脑是 LLM。",
+      "timestamp": "10:02",
+      "speaker": "Viren Baraiya"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:35",
+      "speaker": "Unknown",
+      "en": "When you think about agents in production, it's not just always about chatbots.",
+      "zh": "当你考虑生产环境中的智能体时，它并不总是只关乎聊天机器人。"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Unknown",
+      "en": "The last thing you want is to have an agent be responsible for multiple things and risk hallucinations.",
+      "zh": "你最不希望的就是让一个智能体负责多件事，并冒着幻觉的风险。"
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Unknown",
+      "en": "The way I would like to think about is the agent starts to feel more like an application, not just a component, right?",
+      "zh": "我倾向于的思考方式是，智能体开始感觉更像是一个应用程序，而不仅仅是一个组件。"
+    },
+    {
+      "timestamp": "03:19",
+      "speaker": "Unknown",
+      "en": "You are not going to ship a microservice in production that does everything, right?",
+      "zh": "你不会把一个什么都做的微服务发布到生产环境，对吧？"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Unknown",
+      "en": "It's a combination of both deterministic and non-deterministic part of the application.",
+      "zh": "它是应用程序中确定性部分和非确定性部分的结合。"
+    },
+    {
+      "timestamp": "07:08",
+      "speaker": "Unknown",
+      "en": "At the end of the day, durability is the cost of admission.",
+      "zh": "归根结底，持久性是入场的代价。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "Unknown",
+      "en": "The responsibility of a non-deterministic agent is to plan, is to plan what should happen next.",
+      "zh": "非确定性智能体的职责是规划，是规划接下来应该发生什么。"
+    },
+    {
+      "timestamp": "08:26",
+      "speaker": "Unknown",
+      "en": "Not really to do things. And then harness is the one who does actually execution.",
+      "zh": "而不是真正去做事情。而 harness 才是真正执行的那一个。"
+    },
+    {
+      "timestamp": "09:31",
+      "speaker": "Unknown",
+      "en": "And I do not want this to be left to a hallucination by an LLM that it doesn't need to do it.",
+      "zh": "而我不希望这被交给一个 LLM 的幻觉，让它觉得不需要这么做。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "Ideally, I want this to be idempotent, and if not, I want it to be recording that it is not idempotent, and this is what has happened.",
+      "zh": "理想情况下，我希望它是幂等的；如果不是，我希望它能记录下它不是幂等的，以及发生了什么。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Unknown",
+      "en": "The clear separation between, as we would like to call it, the brains and the hands.",
+      "zh": "清晰的分离，正如我们喜欢称呼的，大脑和双手之间的分离。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Unknown",
+      "en": "Harness is the hands, the brain is the LLM.",
+      "zh": "Harness 是双手，大脑是 LLM。"
+    },
+    {
+      "timestamp": "10:38",
+      "speaker": "Unknown",
+      "en": "When you think about agentic harnesses, they are essentially late bound sagas.",
+      "zh": "当你想到智能体 harness 时，它们本质上是晚绑定的 saga。"
+    },
+    {
+      "timestamp": "10:54",
+      "speaker": "Unknown",
+      "en": "The agent is proposing and building them at runtime.",
+      "zh": "而是智能体在运行时提出并构建它们。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Unknown",
+      "en": "If you have any number of tools, it can do any different combinations of executions, which otherwise is going to be almost impossible to, you know, think ahead of time and do it.",
+      "zh": "如果你有任意数量的工具，它可以执行任意不同的执行组合，否则这几乎是无法提前设想并做到的。"
+    },
+    {
+      "timestamp": "15:47",
+      "speaker": "Unknown",
+      "en": "But yeah, that's about the harnesses and agents and how they bring determinism to your production application.",
+      "zh": "这就是关于 harness、智能体，以及它们如何为你的生产应用带来确定性的介绍。"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Unknown",
+      "en": "So I want a determinism to be delivered by my harness when it matters.",
+      "zh": "所以我希望在重要的地方，确定性由我的 harness 来提供。"
+    }
+  ],
+  "voice_script": "AI 智能体上了生产环境，谁来管住它的手？这期咱们就聊这么一件事。\n\n先交代一下背景。今天的主角叫 Baraiya，一位在智能体编排领域干活的人，他们公司维护一个叫 Conductor 的开源工作流编排平台。演讲现场他做了个举手调查，发现很多团队已经把智能体跑在生产环境里了——就是那种能自己调工具、自己规划步骤的 AI 程序。但真正的问题不是怎么写一个智能体，而是怎么管住它。别让它哪天一时糊涂，把你的生产集群给重启了。\n\n要理解这个问题，得先换个视角看智能体是什么。常见的入门示例，往往就是“一个智能体加一个工具调用”，看起来简单得很。但 Baraiya 说，这个视角太窄了。生产环境里的智能体形态五花八门：有定时跑的后台智能体，有盯着告警和日志的事件驱动智能体，有能跑好几天的协调者，还有智能体之间互相配合的多智能体系统。\n\n这话怎么理解呢？他打了个比方，跟微服务的思路一个道理。你不会把一个什么都做的微服务发布到生产环境，对吧？而是拆成多个单一职责的服务互相配合。智能体也一样。有句话说得直白：你最不希望的就是让一个智能体负责多件事，并冒着幻觉的风险。所以说，智能体开始感觉更像是一个应用程序，而不仅仅是一个组件。\n\n那既然是个应用，谁来管它、谁来执行它的动作呢？这就引出了一个关键词：harness。可以理解为一个外壳程序，负责控制和执行这些智能体。\n\n而整场演讲最核心的，就是这一句话：非确定性智能体的职责，是计划下一步做什么，而不是真的去做。Baraiya 把这叫作“大脑和手”的分工——Harness 是双手，大脑是大模型。智能体写出计划，harness 去执行。为什么非要这么分？因为执行环节干的事，往往是支付、重启生产集群这类容不得半点随机性的操作。大脑可以天马行空，手必须每次做的一模一样。\n\n举个例子。重启生产集群，应该由确定的代码来决定具体步骤，而且最好加一道人工审批——发条消息给人确认一下，而不是指望大模型自己“记得”要走审批。\n\n那这套东西是不是什么全新发明呢？其实不是。写过分布式系统的人，对 saga 这个模式不陌生——就是把一连串步骤写成确定性的流程。Baraiya 说，带智能体的 harness，本质上是一个“晚绑定的 saga”。什么意思呢？工具和任务是有限、确定的，但具体怎么组合，由智能体在运行时临时提议、临时搭建。这样两头的好处都占了：既有传统工作流的可见性和可控性，又有智能体的灵活性。你想想，如果让人提前把所有分支组合都写成工作流，几乎不可能；让智能体按需组合，就简单多了。\n\n讲道理不如看实际演示。他现场演示了一个负责运维的 SRE 智能体，循环跑两轮。第一轮，大模型提议一组步骤：收集证据、分析日志、必要时回滚部署、验证恢复。这份计划交给一个“计划编译”工具，编译成完全确定的工作流，再由执行引擎跑起来。到了第二轮，智能体一看，回滚已经完成，那就决定检查下游服务、验证恢复、然后收尾。整个过程就是：看当前状态、计划多步、执行、验证、再循环。这样的智能体可以由事件触发，可以按时间表跑，也能长时间运行。\n\n这里顺便交代一句背景：演示用的 Conductor 是个开源的工作流编排平台，Baraiya 所在的公司提供企业版，也支持跑 LangChain、OpenAI、ADK 这些框架的智能体。\n\n最后还有个容易被忽视的点。harness 是一个长时间运行的进程，短则几秒，长则几个月。所以它必须能扛住故障、出事了能恢复。用 Baraiya 的话说，归根结底，持久性是入场的代价——这是及格线，不是卖点。\n\n回头看这一期，其实就是一句话：把智能体当成一个应用来设计，多智能体各司其职，好过一个全能智能体；而大脑负责想，手负责做，危险操作必须走确定性代码和人工审批。管住了手，智能体才能真正安全地跑进生产环境。"
+}

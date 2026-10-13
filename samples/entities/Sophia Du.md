@@ -25,7 +25,7 @@ unlisted: true
 
 [[智能体]] · [[Theo Jaffe]] · [[a16z]] · [[OpenAI]] · [[NVIDIA]] · [[GPU]] · [[Ruby Thelot]] · [[Martin Casado]] · [[Jen Kha]] · [[Julie Yoo]]
 
-<script type="application/json" class="pd-epn">{"智能体":487,"Theo Jaffe":8,"a16z":21,"OpenAI":197,"NVIDIA":70,"GPU":30,"Ruby Thelot":1,"Martin Casado":7,"Jen Kha":1,"Julie Yoo":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":489,"Theo Jaffe":8,"a16z":21,"OpenAI":197,"NVIDIA":70,"GPU":30,"Ruby Thelot":1,"Martin Casado":7,"Jen Kha":1,"Julie Yoo":1}</script>
 
 <script>
 (function(){

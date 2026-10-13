@@ -25,7 +25,7 @@ unlisted: true
 
 [[OpenAI]] · [[Dot]] · [[Spaces]] · [[Sites]] · [[智能体]] · [[Codex]] · [[ChatGPT]] · [[Decisions API]] · [[Ultrafast]] · [[Astra]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"Dot":2,"Spaces":1,"Sites":3,"智能体":487,"Codex":86,"ChatGPT":111,"Decisions API":3,"Ultrafast":2,"Astra":8}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":197,"Dot":2,"Spaces":1,"Sites":3,"智能体":489,"Codex":86,"ChatGPT":111,"Decisions API":3,"Ultrafast":2,"Astra":8}</script>
 
 <script>
 (function(){

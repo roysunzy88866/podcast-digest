@@ -142,7 +142,7 @@ Sydney 认为这一步最重要——它是制定路由标准的根基。**不�
 
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)、模型路由 (model routing)</span>
 - [[2026-10-07-talks-building-engine-v2-how-langchain-approac|用一个智能体去修智能体:LangChain 如何打造 Engine v2]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)</span>
+- [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

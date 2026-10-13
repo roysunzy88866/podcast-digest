@@ -1,0 +1,1274 @@
+[
+ {
+  "seg": 0,
+  "start": 12.673,
+  "end": 13.173,
+  "speaker": "Unknown",
+  "en": "Testing.",
+  "zh": "测试。"
+ },
+ {
+  "seg": 1,
+  "start": 15.134,
+  "end": 15.434,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 2,
+  "start": 17.415,
+  "end": 18.155,
+  "speaker": "Unknown",
+  "en": "Good morning, everybody.",
+  "zh": "各位，早上好。"
+ },
+ {
+  "seg": 3,
+  "start": 18.995,
+  "end": 22.076,
+  "speaker": "Unknown",
+  "en": "I know it's the last day of the conference, so super excited to have you here.",
+  "zh": "我知道今天是大会的最后一天，所以非常激动大家能来到这里。"
+ },
+ {
+  "seg": 4,
+  "start": 22.116,
+  "end": 26.958,
+  "speaker": "Unknown",
+  "en": "Hopefully, I can keep you engaged for the next 15 to 18 minutes or so.",
+  "zh": "希望在接下来的 15 到 18 分钟左右里，我能让大家保持专注。"
+ },
+ {
+  "seg": 5,
+  "start": 27.438,
+  "end": 30.859,
+  "speaker": "Unknown",
+  "en": "My name's Jake, and I lead our Labs team here at LangChain.",
+  "zh": "我叫 Jake，是 LangChain 实验室（Labs）团队的负责人。"
+ },
+ {
+  "seg": 6,
+  "start": 31.099,
+  "end": 41.283,
+  "speaker": "Unknown",
+  "en": "And today, I want to talk to you about a topic that I have been speaking a lot about with our team and with a lot of teams that I speak with who are building agents, and that's how to give your agents memory.",
+  "zh": "今天，我想和大家聊一个我和我们团队、以及很多与我交流过的正在构建智能体的团队经常讨论的话题，那就是如何给你的智能体记忆。"
+ },
+ {
+  "seg": 7,
+  "start": 43.096,
+  "end": 54.683,
+  "speaker": "Unknown",
+  "en": "Whether you're building a coding agent, a support agent, a research agent, most teams arrive at the general same instinct that it should get better from one run to the next.",
+  "zh": "无论你是在构建编程智能体、支持智能体还是研究智能体，大多数团队都会得出一个大致相同的直觉：它应该在一次运行到下一次运行之间变得更好。"
+ },
+ {
+  "seg": 8,
+  "start": 56.724,
+  "end": 59.646,
+  "speaker": "Unknown",
+  "en": "So let me give you an example to hold on to for the rest of this talk today.",
+  "zh": "那么让我给大家举一个例子，在今天的整场演讲中可以一直记着它。"
+ },
+ {
+  "seg": 9,
+  "start": 60.046,
+  "end": 70.453,
+  "speaker": "Unknown",
+  "en": "Recently, the Labs team at LangChain have been working with a company in the financial services sector who's building a spending, budgeting, and non-investment advice agent.",
+  "zh": "最近，LangChain 的实验室团队一直在与一家金融服务行业的公司合作，他们正在构建一个消费、预算和不构成投资建议的智能体。"
+ },
+ {
+  "seg": 10,
+  "start": 71.902,
+  "end": 78.746,
+  "speaker": "Unknown",
+  "en": "Given the highly regulated nature of the financial services sector, obviously you would imagine that it would need to follow some strict tone guidelines.",
+  "zh": "鉴于金融服务行业受到高度监管的特性，显然你可以想象它需要遵循一些严格的语气准则。"
+ },
+ {
+  "seg": 11,
+  "start": 78.966,
+  "end": 90.752,
+  "speaker": "Unknown",
+  "en": "And so the way that it speaks and its vocabulary and the way that it interacts with different users is obviously the tell on whether or not it's following and abiding by the correct tone.",
+  "zh": "因此，它的说话方式、它的词汇以及它与不同用户互动的方式，显然就是判断它是否遵循并遵守正确语气的关键。"
+ },
+ {
+  "seg": 12,
+  "start": 92.753,
+  "end": 100.897,
+  "speaker": "Unknown",
+  "en": "It will derive the way that it generates this tone from the context and from the memories and from the references that it has to its rules and policies.",
+  "zh": "它会从它所拥有的上下文、记忆以及对其规则和政策的参考中，推导出它生成这种语气的方式。"
+ },
+ {
+  "seg": 13,
+  "start": 102.293,
+  "end": 108.305,
+  "speaker": "Unknown",
+  "en": "And you can imagine in some contexts, and actually in some contexts that we experienced, its tone would slip.",
+  "zh": "你可以想象，在某些场景下——实际上在我们经历过的某些场景中——它的语气会滑落。"
+ },
+ {
+  "seg": 14,
+  "start": 108.846,
+  "end": 114.096,
+  "speaker": "Unknown",
+  "en": "And so it would move from being advisory and helpful to actually pointed and directed, saying things like,",
+  "zh": "于是它会从建议性和有帮助，变成实际上尖锐和指令性的，会说出这样的话："
+ },
+ {
+  "seg": 15,
+  "start": 115.66,
+  "end": 123.986,
+  "speaker": "Unknown",
+  "en": "Users in your similar situation would generally set a spending cap, and it would actually say, oh, well, actually, it looks like you need to cancel some subscriptions and move some money into savings.",
+  "zh": "「处于与你类似情况的用户通常会设置消费上限」，它甚至会真的说，「哦，其实，看起来你需要取消一些订阅，并把一些钱转入储蓄」。"
+ },
+ {
+  "seg": 16,
+  "start": 124.607,
+  "end": 129.57,
+  "speaker": "Unknown",
+  "en": "The company that we're working with thought that this is a violation of tone, and there were similar instances of this, too.",
+  "zh": "与我们合作的这家公司认为这是对语气的违反，而且也还有类似的实例。"
+ },
+ {
+  "seg": 17,
+  "start": 129.63,
+  "end": 132.713,
+  "speaker": "Unknown",
+  "en": "And so to correct that, the review process is manual.",
+  "zh": "因此，为了纠正这一点，审查流程是手动的。"
+ },
+ {
+  "seg": 18,
+  "start": 132.953,
+  "end": 140.899,
+  "speaker": "Unknown",
+  "en": "You have to have someone understand the traces and understand where its tone slipped, make those changes to the context that it needs to reference when it's giving its tone,",
+  "zh": "你必须有人去理解这些追踪记录，理解它的语气在哪里滑落了，对它在给出语气时所需要参考的上下文做出那些更改，"
+ },
+ {
+  "seg": 19,
+  "start": 141.902,
+  "end": 143.583,
+  "speaker": "Unknown",
+  "en": "And then make sure that there are no regressions as well.",
+  "zh": "然后还要确保没有出现回归。"
+ },
+ {
+  "seg": 20,
+  "start": 144.304,
+  "end": 147.707,
+  "speaker": "Unknown",
+  "en": "Obviously, that doesn't scale or rather is challenging to scale.",
+  "zh": "显然，这样是无法扩展的，或者说扩展起来很具挑战性。"
+ },
+ {
+  "seg": 21,
+  "start": 147.747,
+  "end": 158.115,
+  "speaker": "Unknown",
+  "en": "And so the system should be or the system around the agent should be a place where it can continuously learn and benefit from its interactions and its experiences.",
+  "zh": "因此，系统应该是——或者说智能体周围的系统应该是一个它能从自己的互动和经历中持续学习并受益的地方。"
+ },
+ {
+  "seg": 22,
+  "start": 158.155,
+  "end": 161.258,
+  "speaker": "Unknown",
+  "en": "And that's the version of memory that I want to talk about today.",
+  "zh": "这就是我今天想要谈的那种记忆。"
+ },
+ {
+  "seg": 23,
+  "start": 163.843,
+  "end": 166.726,
+  "speaker": "Unknown",
+  "en": "Together, I want to start with the tension that I think a lot of teams have run into.",
+  "zh": "接下来，我想从我认为很多团队都遇到过的矛盾说起。"
+ },
+ {
+  "seg": 24,
+  "start": 166.746,
+  "end": 170.949,
+  "speaker": "Unknown",
+  "en": "I think all of us here today, the reason why we're at this conference is we're curious, we're building agents.",
+  "zh": "我想今天在座的我们所有人，之所以来到这个大会，是因为我们充满好奇心，我们在构建智能体。"
+ },
+ {
+  "seg": 25,
+  "start": 171.29,
+  "end": 173.071,
+  "speaker": "Unknown",
+  "en": "I think we've gotten very good at observing them.",
+  "zh": "我想我们已经非常擅长观察它们了。"
+ },
+ {
+  "seg": 26,
+  "start": 173.592,
+  "end": 181.639,
+  "speaker": "Unknown",
+  "en": "But observing them and then turning those observations and those agent experiences into lessons for future runs are obviously very different things.",
+  "zh": "但观察它们，然后把那些观察结果和那些智能体经历转化为未来运行的经验教训，显然是非常不同的两件事。"
+ },
+ {
+  "seg": 27,
+  "start": 183.881,
+  "end": 187.484,
+  "speaker": "Unknown",
+  "en": "And so that's where memory comes into play.",
+  "zh": "而这就是记忆发挥作用的地方。"
+ },
+ {
+  "seg": 28,
+  "start": 190.208,
+  "end": 193.951,
+  "speaker": "Unknown",
+  "en": "Agents are producing more signal and more traces than ever before.",
+  "zh": "智能体正在产生比以往更多的信号和更多的追踪记录。"
+ },
+ {
+  "seg": 29,
+  "start": 193.971,
+  "end": 197.753,
+  "speaker": "Unknown",
+  "en": "And this is going to be something that will obviously increase as more agents are built.",
+  "zh": "而且随着更多智能体被构建出来，这显然还会继续增加。"
+ },
+ {
+  "seg": 30,
+  "start": 198.434,
+  "end": 203.237,
+  "speaker": "Unknown",
+  "en": "That's fantastic for us because every run produces a trace, and that trace is stored somewhere.",
+  "zh": "这对我们来说是件好事，因为每一次运行都会产生一个追踪记录，而那个追踪记录会被存储在某个地方。"
+ },
+ {
+  "seg": 31,
+  "start": 203.837,
+  "end": 204.738,
+  "speaker": "Unknown",
+  "en": "That's incredibly useful.",
+  "zh": "这非常有用。"
+ },
+ {
+  "seg": 32,
+  "start": 204.758,
+  "end": 212.543,
+  "speaker": "Unknown",
+  "en": "It means that we can understand the tools that were called, the reasoning that the agent made as it was on its way to making its decision, the artifacts that it referenced.",
+  "zh": "这意味着我们可以理解哪些工具被调用了、智能体在做出决策的过程中进行了怎样的推理、它参考了哪些产物。"
+ },
+ {
+  "seg": 33,
+  "start": 214.424,
+  "end": 218.307,
+  "speaker": "Unknown",
+  "en": "Observability is obviously a critical foundation for building very reliable agents.",
+  "zh": "可观测性显然是构建非常可靠的智能体的关键基础。"
+ },
+ {
+  "seg": 34,
+  "start": 220.27,
+  "end": 226.912,
+  "speaker": "Unknown",
+  "en": "But I think the challenge really is after the trace is stored or after the log or after the transcript of what the agent did is stored.",
+  "zh": "但我认为真正的挑战在于，在追踪记录被存储之后，或者在日志之后，或者在智能体所做操作的转录文本被存储之后。"
+ },
+ {
+  "seg": 35,
+  "start": 228.472,
+  "end": 240.195,
+  "speaker": "Unknown",
+  "en": "If the future context that that agent references never changes, then a misguided skill or instruction will mean that the agent, the mistake that the agent makes today will still persist in future runs.",
+  "zh": "如果该智能体所参考的未来上下文从未改变，那么一个错误的技能或指令就意味着，智能体今天犯的错误在未来的运行中仍会持续存在。"
+ },
+ {
+  "seg": 36,
+  "start": 241.736,
+  "end": 249.078,
+  "speaker": "Unknown",
+  "en": "The goal or the system that we want to work towards is where a trace stops just being a log and becomes a source of signal.",
+  "zh": "我们想要努力实现的目标或系统，是让追踪记录不再只是一份日志，而成为信号的一个来源。"
+ },
+ {
+  "seg": 37,
+  "start": 251.212,
+  "end": 253.033,
+  "speaker": "Unknown",
+  "en": "Agents that are observable tell you what happened.",
+  "zh": "可观测的智能体会告诉你发生了什么。"
+ },
+ {
+  "seg": 38,
+  "start": 253.193,
+  "end": 259.114,
+  "speaker": "Unknown",
+  "en": "Agents that are adaptive are able to change and guide themselves on the following runs.",
+  "zh": "自适应的智能体能够在接下来的运行中改变并引导自己。"
+ },
+ {
+  "seg": 39,
+  "start": 260.474,
+  "end": 261.234,
+  "speaker": "Unknown",
+  "en": "So I've mentioned memory.",
+  "zh": "所以我提到了记忆。"
+ },
+ {
+  "seg": 40,
+  "start": 261.254,
+  "end": 263.875,
+  "speaker": "Unknown",
+  "en": "I think it'll really help to sort of define what I mean when I say memory.",
+  "zh": "我想先定义一下我所说的记忆是什么意思，这会很有帮助。"
+ },
+ {
+  "seg": 41,
+  "start": 265.495,
+  "end": 270.516,
+  "speaker": "Unknown",
+  "en": "It's the durable context that an agent references that will guide future runs.",
+  "zh": "它是智能体所参考的持久性上下文，会引导未来的运行。"
+ },
+ {
+  "seg": 42,
+  "start": 271.696,
+  "end": 275.957,
+  "speaker": "Unknown",
+  "en": "A trace, a transcript, or a log is evidence of what happened.",
+  "zh": "一份追踪记录、一份转录文本或一份日志，是发生了什么的证据。"
+ },
+ {
+  "seg": 43,
+  "start": 276.821,
+  "end": 283.824,
+  "speaker": "Unknown",
+  "en": "It only becomes memory when that lesson is converted into durable context that the agent can reference on future runs.",
+  "zh": "只有当那个经验教训被转化为智能体在未来运行中可以参考的持久性上下文时，它才成为记忆。"
+ },
+ {
+  "seg": 44,
+  "start": 285.824,
+  "end": 293.347,
+  "speaker": "Unknown",
+  "en": "Now you'll see six things on this slide behind me, facts, preferences, patterns, previous examples, skills, and instructions.",
+  "zh": "现在你会在我身后的这张幻灯片上看到六样东西：事实、偏好、模式、先前的例子、技能和指令。"
+ },
+ {
+  "seg": 45,
+  "start": 294.548,
+  "end": 304.992,
+  "speaker": "Unknown",
+  "en": "I think that it's helpful to group them into three distinct buckets, a taxonomy that we borrow from cognitive science, and actually it applies a lot when we're talking about agents that are language-based.",
+  "zh": "我认为是把它们分成三个不同类别会有帮助，这是一个我们借鉴自认知科学的分类法，实际上它在谈论基于语言的智能体时非常适用。"
+ },
+ {
+  "seg": 46,
+  "start": 307.378,
+  "end": 308.778,
+  "speaker": "Unknown",
+  "en": "First, there's what the agent knows.",
+  "zh": "首先，是智能体所知道的东西。"
+ },
+ {
+  "seg": 47,
+  "start": 308.939,
+  "end": 310.739,
+  "speaker": "Unknown",
+  "en": "This is often referred to as semantic memory.",
+  "zh": "这通常被称为语义记忆。"
+ },
+ {
+  "seg": 48,
+  "start": 311.319,
+  "end": 315.661,
+  "speaker": "Unknown",
+  "en": "This includes things like the facts and the preferences that guide the way that it responds.",
+  "zh": "这包括诸如事实和偏好之类的东西，它们引导着它回应的方式。"
+ },
+ {
+  "seg": 49,
+  "start": 320.383,
+  "end": 323.344,
+  "speaker": "Unknown",
+  "en": "Then there's what the agent has experienced.",
+  "zh": "然后，是智能体所经历过的事情。"
+ },
+ {
+  "seg": 50,
+  "start": 323.364,
+  "end": 325.504,
+  "speaker": "Unknown",
+  "en": "And this is the episodic memory.",
+  "zh": "这就是情景记忆。"
+ },
+ {
+  "seg": 51,
+  "start": 325.544,
+  "end": 329.366,
+  "speaker": "Unknown",
+  "en": "This is the learned patterns that it's seen, past interactions and examples.",
+  "zh": "这是它见过的已学习模式,过去的交互和示例。"
+ },
+ {
+  "seg": 52,
+  "start": 331.886,
+  "end": 333.787,
+  "speaker": "Unknown",
+  "en": "And finally, there's how the agent should behave.",
+  "zh": "最后,还有智能体应该如何表现。"
+ },
+ {
+  "seg": 53,
+  "start": 333.847,
+  "end": 335.628,
+  "speaker": "Unknown",
+  "en": "This is also known as procedural memory.",
+  "zh": "这也被称为程序性记忆。"
+ },
+ {
+  "seg": 54,
+  "start": 336.407,
+  "end": 343.491,
+  "speaker": "Unknown",
+  "en": "And that's the instructions, the skills that you're all probably very familiar with, and the rules that guide how it should behave.",
+  "zh": "那就是指令、你们可能都非常熟悉的技能,以及指导它应该如何表现的规则。"
+ },
+ {
+  "seg": 55,
+  "start": 345.347,
+  "end": 348.509,
+  "speaker": "Unknown",
+  "en": "Procedural memory is where actually most of the visible gains come from.",
+  "zh": "程序性记忆实际上才是大部分可见收益的来源。"
+ },
+ {
+  "seg": 56,
+  "start": 349.229,
+  "end": 359.934,
+  "speaker": "Unknown",
+  "en": "So in that financial assistant that I, the example that I gave at the beginning, tone changes that we wanted to promote to the agent and make it follow came in the form of updating its procedural memory.",
+  "zh": "所以在我那个金融助手——我在开头给出的那个例子中——我们想让智能体采纳并遵循的语气调整,是以更新其程序性记忆的形式出现的。"
+ },
+ {
+  "seg": 57,
+  "start": 360.395,
+  "end": 364.517,
+  "speaker": "Unknown",
+  "en": "We weren't giving it a new fact or we weren't telling it not to use a banned word.",
+  "zh": "我们不是在给它一个新的事实,也不是在告诉它不要使用某个禁用词。"
+ },
+ {
+  "seg": 58,
+  "start": 365.057,
+  "end": 368.739,
+  "speaker": "Unknown",
+  "en": "We were giving it a rule to follow as it engages with its users.",
+  "zh": "我们是在给它一条在与用户互动时要遵循的规则。"
+ },
+ {
+  "seg": 59,
+  "start": 369.099,
+  "end": 371.02,
+  "speaker": "Unknown",
+  "en": "That's the procedural memory that guides our agent.",
+  "zh": "那就是指导我们智能体的程序性记忆。"
+ },
+ {
+  "seg": 60,
+  "start": 375.88,
+  "end": 386.705,
+  "speaker": "Unknown",
+  "en": "Another distinction that I want to make, and I think this is very important when thinking about the general agent memory paradigm, is the separation between working memory or short-term memory and long-term memory.",
+  "zh": "我想做的另一个区分,我认为在思考通用智能体记忆范式时这非常重要,是工作记忆或短期记忆与长期记忆之间的分离。"
+ },
+ {
+  "seg": 61,
+  "start": 387.906,
+  "end": 390.667,
+  "speaker": "Unknown",
+  "en": "Working memory is what the agent is referencing in its current run.",
+  "zh": "工作记忆是智能体在当前运行中所引用的内容。"
+ },
+ {
+  "seg": 62,
+  "start": 391.108,
+  "end": 393.589,
+  "speaker": "Unknown",
+  "en": "So these might be things like intermediate scratch pads.",
+  "zh": "所以这些可能是诸如中间草稿板之类的东西。"
+ },
+ {
+  "seg": 63,
+  "start": 393.649,
+  "end": 394.649,
+  "speaker": "Unknown",
+  "en": "It might be tool results.",
+  "zh": "可能是工具结果。"
+ },
+ {
+  "seg": 64,
+  "start": 394.709,
+  "end": 397.631,
+  "speaker": "Unknown",
+  "en": "It might be the files retrieved as part of its operation.",
+  "zh": "可能是作为其操作一部分而检索到的文件。"
+ },
+ {
+  "seg": 65,
+  "start": 399.071,
+  "end": 401.953,
+  "speaker": "Unknown",
+  "en": "Everything that it needs to do to perform its current job,",
+  "zh": "它执行当前工作所需要的一切,"
+ },
+ {
+  "seg": 66,
+  "start": 403.839,
+  "end": 417.349,
+  "speaker": "Unknown",
+  "en": "Long-term memory is what exists typically in some data structure or some store somewhere else that has instructions and skills and things that it needs to reference as part of future turns and continuous behavior.",
+  "zh": "长期记忆是通常存在于某个数据结构或别处某个存储中的东西,它包含指令、技能以及它在未来轮次和持续行为中需要引用的东西。"
+ },
+ {
+  "seg": 67,
+  "start": 418.91,
+  "end": 428.478,
+  "speaker": "Unknown",
+  "en": "Different agent harnesses will leverage and inject long-term memory in different ways, whether you're building your own SDK or using a variety of different popular agent frameworks.",
+  "zh": "不同的智能体框架会以不同的方式利用和注入长期记忆,无论你是构建自己的 SDK 还是使用各种不同的流行智能体框架。"
+ },
+ {
+  "seg": 68,
+  "start": 429.664,
+  "end": 431.425,
+  "speaker": "Unknown",
+  "en": "Some inject it directly into the prompt.",
+  "zh": "有些直接注入到提示词中。"
+ },
+ {
+  "seg": 69,
+  "start": 431.826,
+  "end": 433.527,
+  "speaker": "Unknown",
+  "en": "Some will use tools to retrieve that.",
+  "zh": "有些会使用工具来检索它。"
+ },
+ {
+  "seg": 70,
+  "start": 433.627,
+  "end": 435.769,
+  "speaker": "Unknown",
+  "en": "Some will pull it directly from the store.",
+  "zh": "有些直接从存储中拉取。"
+ },
+ {
+  "seg": 71,
+  "start": 437.33,
+  "end": 441.273,
+  "speaker": "Unknown",
+  "en": "Some load it through files, or some change the runtime state.",
+  "zh": "有些通过文件加载,有些则改变运行时状态。"
+ },
+ {
+  "seg": 72,
+  "start": 441.313,
+  "end": 443.975,
+  "speaker": "Unknown",
+  "en": "The implementation can vary, but the distinction is really important.",
+  "zh": "实现方式可以不同,但这个区分真的非常重要。"
+ },
+ {
+  "seg": 73,
+  "start": 444.616,
+  "end": 452.362,
+  "speaker": "Unknown",
+  "en": "Some of the memory or some of the context that an agent references is temporary, while some of it is durable and long term and is useful to guide future runs.",
+  "zh": "智能体所引用的一部分记忆或上下文是临时的,而另一部分是持久的、长期的,对指导未来的运行很有用。"
+ },
+ {
+  "seg": 74,
+  "start": 453.317,
+  "end": 461.24,
+  "speaker": "Unknown",
+  "en": "And I think that distinction is really important when we think about traces and logs and artifacts that the agent produces as it runs.",
+  "zh": "我认为当我们思考智能体在运行时产生的追踪、日志和工件时,这个区分真的非常重要。"
+ },
+ {
+  "seg": 75,
+  "start": 463.161,
+  "end": 465.342,
+  "speaker": "Unknown",
+  "en": "A trace isn't just a record of the final output.",
+  "zh": "追踪不仅仅是最终输出的记录。"
+ },
+ {
+  "seg": 76,
+  "start": 465.902,
+  "end": 469.944,
+  "speaker": "Unknown",
+  "en": "It's a record of how our working memory changed over the course of the run.",
+  "zh": "它是我们的工作记忆在运行过程中如何变化的记录。"
+ },
+ {
+  "seg": 77,
+  "start": 470.844,
+  "end": 472.705,
+  "speaker": "Unknown",
+  "en": "Some part of that should stay as history.",
+  "zh": "其中一部分应该保留为历史。"
+ },
+ {
+  "seg": 78,
+  "start": 473.726,
+  "end": 476.547,
+  "speaker": "Unknown",
+  "en": "Some part of that should become durable long-term context.",
+  "zh": "一部分应该变成持久的长期上下文。"
+ },
+ {
+  "seg": 79,
+  "start": 481.039,
+  "end": 495.93,
+  "speaker": "Unknown",
+  "en": "And so that's what lends itself to this really helpful mental model that I have, or that I and the team at LangChain and generally I think is a very useful way to sort of think about the relationship between working or short-term memory and long-term memory.",
+  "zh": "所以这就是引出这个非常有用的心智模型的原因,这是我的、也是 LangChain 团队的、而且我认为总体上是一种非常有用的方式,来思考工作记忆或短期记忆与长期记忆之间的关系。"
+ },
+ {
+  "seg": 80,
+  "start": 496.45,
+  "end": 497.491,
+  "speaker": "Unknown",
+  "en": "It's a read-write cycle.",
+  "zh": "它是一个读写循环。"
+ },
+ {
+  "seg": 81,
+  "start": 498.171,
+  "end": 501.034,
+  "speaker": "Unknown",
+  "en": "And so you might have heard of sleep time compute or dreaming.",
+  "zh": "所以你可能听说过睡眠时间计算或做梦。"
+ },
+ {
+  "seg": 82,
+  "start": 501.754,
+  "end": 514.104,
+  "speaker": "Unknown",
+  "en": "Those terms refer to the way that memory is updated or pulled from long term into short term whilst the agent is doing work or actually in some cases whilst the agent is also not doing work.",
+  "zh": "这些术语指的是记忆被更新或从长期记忆拉入短期记忆的方式,是在智能体工作期间,或者在某些情况下,实际上也是智能体不工作的时候。"
+ },
+ {
+  "seg": 83,
+  "start": 514.144,
+  "end": 515.325,
+  "speaker": "Unknown",
+  "en": "That's the sleep time compute.",
+  "zh": "那就是睡眠时间计算。"
+ },
+ {
+  "seg": 84,
+  "start": 517,
+  "end": 524.267,
+  "speaker": "Unknown",
+  "en": "If we start somewhere at the beginning of an agent run, it needs to read relevant context from long-term memory into its short-term memory.",
+  "zh": "如果我们从智能体运行的开头某个地方开始,它需要把相关上下文从长期记忆读入它的短期记忆。"
+ },
+ {
+  "seg": 85,
+  "start": 524.347,
+  "end": 528.25,
+  "speaker": "Unknown",
+  "en": "So this is anything important for the current run that it has.",
+  "zh": "所以这是它拥有的、对当前运行重要的任何东西。"
+ },
+ {
+  "seg": 86,
+  "start": 528.27,
+  "end": 529.431,
+  "speaker": "Unknown",
+  "en": "It might be skills.",
+  "zh": "可能是技能。"
+ },
+ {
+  "seg": 87,
+  "start": 529.452,
+  "end": 530.352,
+  "speaker": "Unknown",
+  "en": "It might be instructions.",
+  "zh": "可能是指令。"
+ },
+ {
+  "seg": 88,
+  "start": 531.073,
+  "end": 535.637,
+  "speaker": "Unknown",
+  "en": "You've probably seen progressive disclosure with agents that actually pull in the relevant skills for a certain task.",
+  "zh": "你可能见过智能体的渐进式披露,即实际为某个任务拉入相关技能。"
+ },
+ {
+  "seg": 89,
+  "start": 536.138,
+  "end": 538.78,
+  "speaker": "Unknown",
+  "en": "That's that phase moving from long-term memory into short-term memory.",
+  "zh": "那就是从长期记忆进入短期记忆的那个阶段。"
+ },
+ {
+  "seg": 90,
+  "start": 540.502,
+  "end": 542.423,
+  "speaker": "Unknown",
+  "en": "Then when the agent runs, it produces a trace.",
+  "zh": "然后当智能体运行时,它会产生一个追踪。"
+ },
+ {
+  "seg": 91,
+  "start": 543.362,
+  "end": 554.465,
+  "speaker": "Unknown",
+  "en": "This evidence is really important to us, because now we can understand how it retrieved context, the tool calls that it made, or the decisions, or the sub-agents, or anything that's part of its working job.",
+  "zh": "这些证据对我们来说非常重要,因为现在我们可以理解它是如何检索上下文的、它做了哪些工具调用、或者决策、或者子智能体,或者任何属于其工作的一部分的东西。"
+ },
+ {
+  "seg": 92,
+  "start": 556.225,
+  "end": 558.466,
+  "speaker": "Unknown",
+  "en": "As I mentioned, most evidence should stay as history.",
+  "zh": "正如我提到的,大部分证据应该保留为历史。"
+ },
+ {
+  "seg": 93,
+  "start": 558.966,
+  "end": 566.648,
+  "speaker": "Unknown",
+  "en": "If we turned everything that was, if we turned all of that evidence into long-term memory, then it would make the agent struggle, and it would make it harder to reason over future tasks.",
+  "zh": "如果我们把所有这些证据——如果我们把所有那些证据都变成长期记忆,那会让智能体陷入困境,并且会让它在未来任务上的推理变得更困难。"
+ },
+ {
+  "seg": 94,
+  "start": 566.728,
+  "end": 570.349,
+  "speaker": "Unknown",
+  "en": "And so what I think is really interesting is the filter step.",
+  "zh": "所以我认为真正有意思的是过滤这一步。"
+ },
+ {
+  "seg": 95,
+  "start": 571.273,
+  "end": 576.117,
+  "speaker": "Unknown",
+  "en": "How do you decide what is useful signal and what should become durable long-term context?",
+  "zh": "你如何决定什么是有用的信号、什么应该变成持久的长期上下文?"
+ },
+ {
+  "seg": 96,
+  "start": 576.137,
+  "end": 578.939,
+  "speaker": "Unknown",
+  "en": "And how do you decide what should stay as history?",
+  "zh": "你又如何决定什么应该保留为历史?"
+ },
+ {
+  "seg": 97,
+  "start": 579.96,
+  "end": 581.902,
+  "speaker": "Unknown",
+  "en": "Once you've made that, and we'll get into that in a moment.",
+  "zh": "一旦你做出了那个,我们稍后会讲到那个。"
+ },
+ {
+  "seg": 98,
+  "start": 582.442,
+  "end": 587.626,
+  "speaker": "Unknown",
+  "en": "Once you've made that decision, that signal is then written back into durable long-term context.",
+  "zh": "一旦你做出了那个决定,那个信号随后就被写回持久的长期上下文。"
+ },
+ {
+  "seg": 99,
+  "start": 588.967,
+  "end": 597.494,
+  "speaker": "Unknown",
+  "en": "So in the case of our financial assistant, that was be measured and not pointed or not directive so that it can update the way that it behaves on future terms.",
+  "zh": "以我们的金融助手为例,那就是\"要有分寸,不要指责或不要指令式\",这样它就能更新它在未来轮次中的表现方式。"
+ },
+ {
+  "seg": 100,
+  "start": 598.315,
+  "end": 599.216,
+  "speaker": "Unknown",
+  "en": "And that's the core loop.",
+  "zh": "这就是核心循环。"
+ },
+ {
+  "seg": 101,
+  "start": 599.416,
+  "end": 600.477,
+  "speaker": "Unknown",
+  "en": "Memory informs the run.",
+  "zh": "记忆为运行提供信息。"
+ },
+ {
+  "seg": 102,
+  "start": 601.496,
+  "end": 602.657,
+  "speaker": "Unknown",
+  "en": "The run makes the evidence.",
+  "zh": "运行产生证据。"
+ },
+ {
+  "seg": 103,
+  "start": 603.318,
+  "end": 607.501,
+  "speaker": "Unknown",
+  "en": "We filter that evidence to make signal, and then we use that signal to update memory.",
+  "zh": "我们过滤这些证据来制造信号，然后用这些信号来更新记忆。"
+ },
+ {
+  "seg": 104,
+  "start": 608.162,
+  "end": 616.308,
+  "speaker": "Unknown",
+  "en": "If you can build that flywheel, then we trend towards a place we can build very reliable and very powerful agents that just feel like they get better with time.",
+  "zh": "如果你能构建这个飞轮，那么我们就会趋向于一个能构建非常可靠、非常强大的智能体的境地，它们感觉会随着时间变得越来越好。"
+ },
+ {
+  "seg": 105,
+  "start": 618.37,
+  "end": 628.739,
+  "speaker": "Unknown",
+  "en": "And so once we have that mental model, I think an even more simple way to break this down or to abstract this away is capturing what happened, analyzing what might matter,",
+  "zh": "所以一旦我们有了这个心智模型，我认为一个更简单的分解或抽象方式是：捕捉发生了什么，分析什么可能重要，"
+ },
+ {
+  "seg": 106,
+  "start": 630.18,
+  "end": 632.902,
+  "speaker": "Unknown",
+  "en": "And then updating the context so that future runs can use this.",
+  "zh": "然后更新上下文，以便未来的运行可以使用它。"
+ },
+ {
+  "seg": 107,
+  "start": 634.083,
+  "end": 641.649,
+  "speaker": "Unknown",
+  "en": "The implementations around how different people building different frameworks are still evolving, but this three-part shape is a really useful starting point.",
+  "zh": "围绕不同的人构建不同框架的具体实现仍在演进，但这种三部分的形态是一个非常有用的起点。"
+ },
+ {
+  "seg": 108,
+  "start": 644.591,
+  "end": 653.778,
+  "speaker": "Unknown",
+  "en": "One implementation of this, and I won't claim it's the only implementation, but just to kind of put some concrete structure to what I'm talking about is the way that we do this with LangSmith.",
+  "zh": "其中一种实现——我不会声称它是唯一的实现，只是想给我所谈论的内容赋予一些具体的结构——就是我们用 LangSmith 做这件事的方式。"
+ },
+ {
+  "seg": 109,
+  "start": 655.577,
+  "end": 662.906,
+  "speaker": "Unknown",
+  "en": "The capture step to be able to understand and see the trajectory and the things that the agent did is where our observability comes in.",
+  "zh": "捕捉步骤，即能够理解和看到智能体的轨迹及其所做的事情，就是我们的可观测性发挥作用的地方。"
+ },
+ {
+  "seg": 110,
+  "start": 664.608,
+  "end": 665.83,
+  "speaker": "Unknown",
+  "en": "You're able to see the tool calls.",
+  "zh": "你能够看到工具调用。"
+ },
+ {
+  "seg": 111,
+  "start": 665.85,
+  "end": 668.212,
+  "speaker": "Unknown",
+  "en": "You're able to see the way that the agent's called sub-agents.",
+  "zh": "你能够看到智能体调用子智能体的方式。"
+ },
+ {
+  "seg": 112,
+  "start": 668.233,
+  "end": 670.015,
+  "speaker": "Unknown",
+  "en": "You're able to see the context that was retrieved.",
+  "zh": "你能够看到被检索的上下文。"
+ },
+ {
+  "seg": 113,
+  "start": 671.71,
+  "end": 674.131,
+  "speaker": "Unknown",
+  "en": "The analyze step in the middle is something new that I'm really excited about.",
+  "zh": "中间的分析步骤是我非常兴奋的新东西。"
+ },
+ {
+  "seg": 114,
+  "start": 674.171,
+  "end": 689.88,
+  "speaker": "Unknown",
+  "en": "But basically, it is that intelligent process that's doing the background analysis and doing the background work to extract signal from traces based on the things that matter to you and then promoting that signal to the memory store or the point of reference that the agent will use for future runs.",
+  "zh": "但基本上，它就是那个智能过程，在做后台分析、做后台工作，根据对你重要的事情从轨迹中提取信号，然后将该信号提升到记忆存储或智能体在未来运行中会使用的参考点。"
+ },
+ {
+  "seg": 115,
+  "start": 689.92,
+  "end": 691.441,
+  "speaker": "Unknown",
+  "en": "And that is LangSmith's context hub.",
+  "zh": "这就是 LangSmith 的 context hub。"
+ },
+ {
+  "seg": 116,
+  "start": 692.261,
+  "end": 698.084,
+  "speaker": "Unknown",
+  "en": "So you can imagine now, if there is a place where this analysis can be done, signal can be extracted,",
+  "zh": "所以你现在可以想象，如果有一个地方可以完成这种分析、提取信号，"
+ },
+ {
+  "seg": 117,
+  "start": 700.051,
+  "end": 705.696,
+  "speaker": "Unknown",
+  "en": "A remote store where you can now go and update what's in that so that the agent can pull that down the next time it runs.",
+  "zh": "有一个远程存储，你可以去更新其中的内容，以便智能体在下次运行时可以拉取这些内容。"
+ },
+ {
+  "seg": 118,
+  "start": 705.836,
+  "end": 707.878,
+  "speaker": "Unknown",
+  "en": "That is what LangSmith Context Hub does.",
+  "zh": "这就是 LangSmith Context Hub 所做的。"
+ },
+ {
+  "seg": 119,
+  "start": 708.719,
+  "end": 710.621,
+  "speaker": "Unknown",
+  "en": "And the abstract loop maps cleanly.",
+  "zh": "而这个抽象循环可以清晰地映射上去。"
+ },
+ {
+  "seg": 120,
+  "start": 710.941,
+  "end": 716.446,
+  "speaker": "Unknown",
+  "en": "You capture the experience, you extract the signal, and then you store that durable context for future runs.",
+  "zh": "你捕捉经验，你提取信号，然后你为未来的运行存储那些持久的上下文。"
+ },
+ {
+  "seg": 121,
+  "start": 718.825,
+  "end": 734.354,
+  "speaker": "Unknown",
+  "en": "To kind of put that in some more detail and also to frame it in the context of the financial assistant that I was speaking about at the beginning and sort of the way that we built this loop, when that agent runs, its context is loaded from the context sub.",
+  "zh": "为了更详细地说明这一点，并结合我开头谈到的财务助手的背景以及我们构建这个循环的方式：当那个智能体运行时，它的上下文是从 context sub 加载的。"
+ },
+ {
+  "seg": 122,
+  "start": 734.394,
+  "end": 740.898,
+  "speaker": "Unknown",
+  "en": "And so that might include its instructions, its skills, relevant markdown files that matter to it, policies and rules.",
+  "zh": "所以这可能包括它的指令、它的技能、对它重要的相关 markdown 文件、策略和规则。"
+ },
+ {
+  "seg": 123,
+  "start": 742.014,
+  "end": 745.336,
+  "speaker": "Unknown",
+  "en": "When it functions or when we invoke that agent, then a trace is produced.",
+  "zh": "当它运作或当我们调用那个智能体时，就会产生一个轨迹。"
+ },
+ {
+  "seg": 124,
+  "start": 745.896,
+  "end": 753.639,
+  "speaker": "Unknown",
+  "en": "That shows us the failed tool calls or user corrections, or in this case, it flagged where our tone strayed from what we wanted it to be.",
+  "zh": "它向我们展示失败的工具调用或用户纠正，或者在这个案例中，它标记出了我们的语气偏离了我们想要的样子。"
+ },
+ {
+  "seg": 125,
+  "start": 754.8,
+  "end": 765.225,
+  "speaker": "Unknown",
+  "en": "Engine then looks for patterns and then identifies where different static skill markdown files that are based in ContextHub need to be changed or promoted, and it'll make that change.",
+  "zh": "引擎随后寻找模式，并识别出 ContextHub 中基于静态技能 markdown 文件的哪些部分需要被更改或提升，然后它会做出那个更改。"
+ },
+ {
+  "seg": 126,
+  "start": 767.948,
+  "end": 774.863,
+  "speaker": "Unknown",
+  "en": "And then the next time our agent runs, we're able to actually go and understand and see that its tone changes when it interacts with, engages with users.",
+  "zh": "然后下一次我们的智能体运行时，我们能够真正去理解和看到它在与用户互动、交流时的语气发生了变化。"
+ },
+ {
+  "seg": 127,
+  "start": 779.969,
+  "end": 796.633,
+  "speaker": "Unknown",
+  "en": "So some things that I and my team have currently or kind of always think about when designing memory, and this should also as well ideally guide the way that you design and build some of these abstractions, is that agents produce so much, we call it exhaust or we call it kind of like feedback.",
+  "zh": "所以我和我的团队在设计记忆时目前或一直在思考的一些事情——理想情况下这也应该指导你设计和构建这些抽象的方式——是智能体会产生非常多的东西，我们称之为 exhaust（废气），或者我们称之为反馈。"
+ },
+ {
+  "seg": 128,
+  "start": 796.933,
+  "end": 798.473,
+  "speaker": "Unknown",
+  "en": "Not everything should become a memory update.",
+  "zh": "并非所有东西都应该成为记忆更新。"
+ },
+ {
+  "seg": 129,
+  "start": 798.933,
+  "end": 805.195,
+  "speaker": "Unknown",
+  "en": "And actually the devil is in the details around what should become one as we've sort of discussed over the course of this presentation.",
+  "zh": "实际上，正如我们在这场演示的过程中所讨论的那样，魔鬼藏在细节中——什么应该成为记忆更新。"
+ },
+ {
+  "seg": 130,
+  "start": 806.938,
+  "end": 809.621,
+  "speaker": "Unknown",
+  "en": "It's understanding and deciding what matters to you.",
+  "zh": "这就是理解并决定什么对你重要。"
+ },
+ {
+  "seg": 131,
+  "start": 809.701,
+  "end": 813.064,
+  "speaker": "Unknown",
+  "en": "Most trace data actually should stay as history, as referenceable history.",
+  "zh": "大多数轨迹数据实际上应该保留为历史，作为可参考的历史。"
+ },
+ {
+  "seg": 132,
+  "start": 813.244,
+  "end": 816.107,
+  "speaker": "Unknown",
+  "en": "Some might become data sets to do offline evaluations and things like that.",
+  "zh": "有些可能会成为用于离线评估之类的数据集。"
+ },
+ {
+  "seg": 133,
+  "start": 817.589,
+  "end": 823.775,
+  "speaker": "Unknown",
+  "en": "A small segment of that or subset should end up becoming what changes your agent's memory.",
+  "zh": "其中的一小部分或子集最终应该成为改变你智能体记忆的东西。"
+ },
+ {
+  "seg": 134,
+  "start": 824.916,
+  "end": 828.76,
+  "speaker": "Unknown",
+  "en": "Now, this second one is sort of like a gotcha that I ran into a lot, and I think that",
+  "zh": "现在，第二条是我在实践中经常遇到的坑，我认为"
+ },
+ {
+  "seg": 135,
+  "start": 830.507,
+  "end": 838.371,
+  "speaker": "Unknown",
+  "en": "You sort of tread the fine line of trying to build a system that's optimized, but then also one that has a memory store or updates available to it in the hot path.",
+  "zh": "你在试图构建一个优化过的系统时，走在一条细线上，同时还要让它在热路径中拥有可用的记忆存储或更新。"
+ },
+ {
+  "seg": 136,
+  "start": 838.771,
+  "end": 856.959,
+  "speaker": "Unknown",
+  "en": "And what I found was, particularly for long-running background agents, imagine if you have an agent that's running over long time horizons and you make some memory updates in the beginning of its operation, but because of the runtime state and because of the way that it's accessing memory, you don't actually access that or that's not available to it for future runs.",
+  "zh": "而我发现，特别是对于长时间运行的后台智能体——想象一下你有一个在长时间跨度上运行的智能体，你在它运行的初期做了一些记忆更新，但由于运行时状态以及它访问记忆的方式，你实际上并没有访问到那些更新，或者说那些更新对未来的运行不可用。"
+ },
+ {
+  "seg": 137,
+  "start": 858.4,
+  "end": 864.583,
+  "speaker": "Unknown",
+  "en": "Understanding what you can cache, what you can't cache, to be able to make sure that memory updates are available for future runs.",
+  "zh": "理解什么可以缓存、什么不能缓存，以便确保记忆更新对未来的运行可用。"
+ },
+ {
+  "seg": 138,
+  "start": 864.863,
+  "end": 866.543,
+  "speaker": "Unknown",
+  "en": "Very important.",
+  "zh": "非常重要。"
+ },
+ {
+  "seg": 139,
+  "start": 866.584,
+  "end": 874.707,
+  "speaker": "Unknown",
+  "en": "I was banging my head on a wall for a while, whilst trying to understand why my behavior wasn't changing, and I needed to recognize and think about that second principle.",
+  "zh": "我曾经对着墙壁撞了一段时间的头，试图理解为什么我的行为没有改变，我需要认识并思考那第二条原则。"
+ },
+ {
+  "seg": 140,
+  "start": 876.387,
+  "end": 877.268,
+  "speaker": "Unknown",
+  "en": "And then the third one as well.",
+  "zh": "还有第三条。"
+ },
+ {
+  "seg": 141,
+  "start": 877.308,
+  "end": 894.423,
+  "speaker": "Unknown",
+  "en": "I think that OpenClaw and Hermes Agent and a lot of agents that are becoming widely popular that sort of do this self-update process, I think that it's another really important consideration of what do you make self-updateable as opposed to what do you make something that needs human review.",
+  "zh": "我认为 OpenClaw 和 Hermes Agent 以及很多正在变得广泛流行、会做这种自我更新过程的智能体，我认为这是另一个非常重要的考量：你把什么做成可自我更新的，而不是做成需要人工审核的。"
+ },
+ {
+  "seg": 142,
+  "start": 895.043,
+  "end": 896.684,
+  "speaker": "Unknown",
+  "en": "And so if we're talking about procedural memory,",
+  "zh": "所以如果我们谈论程序性记忆，"
+ },
+ {
+  "seg": 143,
+  "start": 897.425,
+  "end": 904.489,
+  "speaker": "Unknown",
+  "en": "With instructions and policies and tone guidelines, those are probably going to drive about 75% of the behavior of my agent.",
+  "zh": "包含指令、策略和语气指南，这些大概会驱动我智能体大约 75% 的行为。"
+ },
+ {
+  "seg": 144,
+  "start": 904.549,
+  "end": 908.171,
+  "speaker": "Unknown",
+  "en": "And so that actually probably should have some level of human in the loop and human interaction.",
+  "zh": "所以这实际上可能应该有某种程度的人类在环和人工交互。"
+ },
+ {
+  "seg": 145,
+  "start": 908.571,
+  "end": 919.997,
+  "speaker": "Unknown",
+  "en": "You should have some way to surface the changes that you make to the parts of the agent's memory that are procedural before actually committing those and putting those in the agent's sort of like hot reload path.",
+  "zh": "在真正提交那些更改并把它们放入智能体的类似热重载路径之前，你应该有某种方式来呈现你对智能体记忆中程序性部分所做的更改。"
+ },
+ {
+  "seg": 146,
+  "start": 921.719,
+  "end": 931.182,
+  "speaker": "Unknown",
+  "en": "So protecting important behavior with evals is, I guess, another really important third level to this that I find really important.",
+  "zh": "所以用 evals 保护重要行为，我想，是这之中我认为非常重要的第三个层次。"
+ },
+ {
+  "seg": 147,
+  "start": 931.202,
+  "end": 932.722,
+  "speaker": "Unknown",
+  "en": "So I want to come back to this initial refrain.",
+  "zh": "所以我想回到这个最初反复出现的主题。"
+ },
+ {
+  "seg": 148,
+  "start": 933.363,
+  "end": 934.583,
+  "speaker": "Unknown",
+  "en": "The next run should be better.",
+  "zh": "下一次运行应该更好。"
+ },
+ {
+  "seg": 149,
+  "start": 935.423,
+  "end": 936.604,
+  "speaker": "Unknown",
+  "en": "Memory allows us to do this.",
+  "zh": "记忆让我们做到这一点。"
+ },
+ {
+  "seg": 150,
+  "start": 937.124,
+  "end": 938.784,
+  "speaker": "Unknown",
+  "en": "The word memory is thrown around a lot.",
+  "zh": "“记忆”这个词被频繁提起。"
+ },
+ {
+  "seg": 151,
+  "start": 939.865,
+  "end": 948.027,
+  "speaker": "Unknown",
+  "en": "I think in the context of building agents and working with harnesses and working with providing context to your agent, memory really does give us the ability to do this.",
+  "zh": "我认为，在构建智能体、使用 harness 以及为你的智能体提供上下文的背景下，记忆确实给了我们做到这一点的能力。"
+ },
+ {
+  "seg": 152,
+  "start": 948.527,
+  "end": 950.188,
+  "speaker": "Unknown",
+  "en": "And it's more than just a place to store information.",
+  "zh": "而且它不仅仅是一个存储信息的地方。"
+ },
+ {
+  "seg": 153,
+  "start": 951.717,
+  "end": 953.398,
+  "speaker": "Unknown",
+  "en": "It's how experience becomes context.",
+  "zh": "它是经验如何变成上下文的方式。"
+ },
+ {
+  "seg": 154,
+  "start": 954.638,
+  "end": 959.18,
+  "speaker": "Unknown",
+  "en": "And then that context is how our next runs get the chance to improve.",
+  "zh": "然后那个上下文就是我们下一次运行有机会获得改进的方式。"
+ },
+ {
+  "seg": 155,
+  "start": 960.58,
+  "end": 968.863,
+  "speaker": "Unknown",
+  "en": "If you're curious about an actual implementation of this, by the way, that QR code has a video of me walking through how I've built an agent that does exactly what I've just described.",
+  "zh": "顺便说一下，如果你对这个的实际实现感到好奇，那个二维码有一个视频，是我在讲解我如何构建了一个完全做到我刚才所描述的内容的智能体。"
+ },
+ {
+  "seg": 156,
+  "start": 970.503,
+  "end": 974.625,
+  "speaker": "Unknown",
+  "en": "Hopefully that'll kind of like make it tangible and will sort of connect some of those dots.",
+  "zh": "希望这能让人觉得更具体一些，并且能把其中的一些点连接起来。"
+ },
+ {
+  "seg": 157,
+  "start": 975.745,
+  "end": 978.386,
+  "speaker": "Unknown",
+  "en": "And if you want to have any further discussions about this, please come and see me.",
+  "zh": "如果你想就这个话题做进一步的讨论，请来找我。"
+ },
+ {
+  "seg": 158,
+  "start": 978.426,
+  "end": 980.007,
+  "speaker": "Unknown",
+  "en": "We're at booth, UG19.",
+  "zh": "我们在 UG19 展位。"
+ }
+]
