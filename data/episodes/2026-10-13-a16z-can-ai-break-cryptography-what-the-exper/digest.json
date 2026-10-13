@@ -1,0 +1,179 @@
+{
+  "title_zh": "AI能破解密码学吗？三位专家说：先别慌",
+  "tldr": "Stanford教授Dan Bonnet与a16z两位研究者拆解AI威胁密码学的恐慌：目前什么都没变，缺的是信息。",
+  "digest_md": "OpenAI最近放出的约700篇论文让数学界为之一振，也让加密圈炸了锅。安全研究员Justin Drake发推警告区块链行业进入 bunker mode,担心AI会比量子计算机更早破解椭圆曲线密码。a16z Crypto的Liz请来Stanford密码学教授Dan Bonnet、a16z普通合伙人Eddie Lazarin和研究合伙人Justin Thaler,把事实和猜测分开。Dan的第一句话就是:「大家冷静，别慌。」\n\n## 恐慌从哪来？700篇论文里没有一篇关于密码学\n\nOpenAI这批论文覆盖数百个话题，很多与密码学相邻——用的数学推理技巧是相通的。但Dan逐条看完后发现问题:**700篇里没有一篇涉及密码学**，连理论密码学都没有 [03:48 Dan]。\n\n这有两种解释。要么AI模型试过、破解不了——这本身就是好消息，说明密码学格外结实；要么模型有进展但选择不公开——这就值得警惕。Justin说这种缺席有点显眼[05:23 Justin]。\n\n关键在于：我们并不知道前沿实验室有没有认真试过。Dan呼吁实验室公开说明：用最强的模型攻击过哪些标准密码算法，结果如何。\n\n## 密码学的地基，本来就是假设\n\n现代密码学不是靠证明安全的，而是建立在某些数学问题很难算的假设上。为什么不能证明？因为这牵扯到计算机科学的著名难题P versus NP,人类离解决它还很远 [06:43 Dan]。\n\n而这种失败恰恰是信心的来源——「**人们试图破解它们却失败了，这给了我们更多信心**」[08:24 Dan]。\n\n还有一层：专家们普遍相信这些问题根本没有高效算法，不是算法存在但人类不够聪明。如果算法根本不存在，AI再聪明也找不到不存在的东西 [17:12 Justin]。\n\n## AI和量子威胁不是一回事，但AI威胁面更广\n\n很多人把两件事混在一起。量子计算机威胁的主要是椭圆曲线和RSA这类系统；而**AI理论上可以攻击所有密码方案**，包括本用来应对量子威胁的后量子密码 [22:48 Dan]。\n\n好消息是，迁移已经开始。NIST已在标准化多种后量子公钥系统，iMessage、Signal等已完成或正在混合部署。今天很多网络连接同时用椭圆曲线和格密码加密，破掉一个，另一个还在 [39:25 Dan]。即使最坏情况发生，也有备份可以切换。\n\n## 真正缺的是时间，而AI恰好能补上\n\n过去一个新密码系统要等大约10年，让全世界专家反复攻击、都攻不破，才敢大规模部署 [12:53 Dan]。\n\n现在这个过程可以被压缩。让最强的模型跑一个月猛攻一个新方案，攻不破，信心可能比传统十年的检验还强。Eddie的想象更激进：实验室可以说，我们花了5000万美元、放了最强的模型去攻，攻不破——「我们比以往任何时候都更有信心」[14:26 Eddie]。\n\n## 普通人该做什么？什么都不用做\n\nDan的答案很干脆：世界今天和一周前、一年前完全一样，**没有任何具体的新信息表明某个密码假设被削弱了** [15:22 Dan]。继续正常使用，别恐慌。\n\n而且Justin Drake列的那些bunker mode建议，其实都是大机构本该遵守的基本卫生习惯——Coinbase就出来回应说他们早就在做了。对普通人来说，慌忙迁移资产反而更危险。Vitalik Buterin在后续推文里也提到，他自己因迁移操作失误损失的个人资金，比所有黑客攻击加起来还多 [18:03 Eddie]。\n\n眼下真正的现实风险仍然是软件漏洞，而AI恰恰很擅长找漏洞——中长期看，这对防御更有利。\n\n## 区块链圈的新争论：只用哈希，还是用格？\n\n这场讨论重新点燃了区块链社区的路线之争。比特币和以太坊核心开发者倾向于只依赖哈希函数：如果某个哈希被破，换一个就行，整个框架依然成立；而格密码一旦底层问题被破，整个体系崩塌。而且区块链本来就要依赖哈希(比如Merkle树)，只用哈希就不增加新的安全假设 [27:36 Dan]。\n\n但格密码有哈希给不了的能力：门限签名、密钥派生等高级功能。Dan坦言，作为密码学家他更希望最终用格，因为「能发挥的空间大得多」[31:49 Dan]。\n\nJustin则提醒：纯哈希方案往往要靠很复杂的递归证明，代码复杂度暴增，出漏洞的面也就更大，而这类系统的安全性本身研究得也不够透 [29:31 Justin]。\n\n## 对创业者：AI是安全行业的礼物\n\nEddie指出，**闭源安全模式实际上已死**——AI的反编译能力让靠隐藏代码保安全不再可行。创业公司需要重新审视自己的安全假设，还要为AI智能体设计沙箱和权限边界 [34:42 Eddie]。\n\nDan更进一步：任何要部署新软件的公司，现在都可以先让模型攻击一遍再上线。软件质量会整体上升，「没有模型验证通过的东西就不该发布」[36:21 Dan]。有估算认为，同样一美元能买到的智能，一年内便宜了95%以上，而软件漏洞的数量是有限的——照这个趋势，世界整体安全状况是在变好，不是变坏 [37:04 Eddie]。\n\n## 如果明天真的宣布椭圆曲线被破了呢？\n\n答案是：迁移到格密码，这条路已经在走了。如果连格也破了，就标准化第三种方案。Dan强调，实验室负责任的做法是先私下向行业和政府披露，制定更新计划，而不是直接公开攻击方法——这是安全行业熟悉的老流程 [40:20 Eddie]。\n\n用Liz的话收尾：聊完之后，我平静多了。\n\n## 本集带走\n\n- OpenAI的700篇论文没有任何一篇涉及密码学破解，目前没有具体的新威胁信息，普通人无需行动。\n如果AI全力攻击后也失败，信心反而更强。\n- AI威胁比量子威胁覆盖面更广，但NIST已标准化多种后量子方案，混合加密已在部署，有备份可切换。\n- 前沿实验室应该公开披露：是否用最强模型攻击过标准密码算法，结果如何——这是填补恐慌真空的关键。\n- 长远看，AI找漏洞的能力对防御更有利，可能让软件和密码系统的整体质量大幅提升。",
+  "quotes": [
+    {
+      "en": "And as I finished the list, the thing that kind of stuck in my mind is that, wow, this is incredible progress in mathematics, in computer science, but there are no questions here on cryptography.",
+      "zh": "当我看完这份清单时，留在我脑海里的印象是：哇，这是数学和计算机科学领域令人难以置信的进展，但这里没有任何关于密码学的问题。",
+      "timestamp": "03:37",
+      "speaker": "Dan Bonnet"
+    },
+    {
+      "en": "And so the fear here is that the AI labs could break them if they are breakable.",
+      "zh": "所以这里的恐惧在于，如果这些密码学标准可破解，AI 实验室可能会破解它们。",
+      "timestamp": "06:26",
+      "speaker": "Liz Harkaby"
+    },
+    {
+      "en": "The fact that people try to break them and fail gives us more confidence.",
+      "zh": "人们尝试破解却失败了，这一事实反而给了我们更多的信心。",
+      "timestamp": "08:24",
+      "speaker": "Dan Bonnet"
+    },
+    {
+      "en": "And at the other end, we have more conviction about its confidence than you could probably get from the conventional process in a decade.",
+      "zh": "而在另一端，我们得到的信心，可能比用传统流程十年所能得到的还要多。",
+      "timestamp": "14:11",
+      "speaker": "Justin Baylor"
+    },
+    {
+      "en": "We think there is not one. And so if there is not one, it doesn't matter how smart the AI is, it cannot find the non-existent algorithm, right?",
+      "zh": "我们认为它根本不存在。所以如果不存在，无论 AI 多么聪明，它也无法找到不存在的算法，对吧？",
+      "timestamp": "17:04",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And yeah, it's basically the worst thing you can probably do right now is something. You should do nothing.",
+      "zh": "现在，你能做的最糟糕的事情基本上就是「做点什么」。你应该什么都不做。",
+      "timestamp": "18:55",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And the point there is that we think of hash functions as post-quantum, but they might not be post-AI.",
+      "zh": "这里的要点是，我们认为哈希函数是后量子的，但它们未必是后 AI 的。",
+      "timestamp": "25:28",
+      "speaker": "Liz Harkaby"
+    },
+    {
+      "en": "If that's the case, we are net improving the security status of the world instead of eroding it, right?",
+      "zh": "如果是这样，我们就是在净改善世界的安全状况，而不是在侵蚀它，对吧？",
+      "timestamp": "37:26",
+      "speaker": "Justin Baylor"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:21",
+      "speaker": "Unknown",
+      "en": "So let's see, I guess the first thing I should say is, you know, everybody calm down. Don't panic.",
+      "zh": "我想我首先应该说的是：大家冷静一下，不要恐慌。"
+    },
+    {
+      "timestamp": "03:37",
+      "speaker": "Unknown",
+      "en": "And as I finished the list, the thing that kind of stuck in my mind is that, wow, this is incredible progress in mathematics, in computer science, but there are no questions here on cryptography.",
+      "zh": "当我看完这份清单时，留在我脑海里的印象是：哇，这是数学和计算机科学领域令人难以置信的进展，但这里没有任何关于密码学的问题。"
+    },
+    {
+      "timestamp": "05:28",
+      "speaker": "Unknown",
+      "en": "On the one hand, if the reason for the omission is that AI models are notably bad and couldn't find anything and that cryptography is particularly robust for some reason, that in itself would be very interesting, right?",
+      "zh": "一方面，如果缺席的原因是 AI 模型表现明显很差、什么都没找到，而密码学出于某种原因特别坚固，那这本身就会非常有趣，对吧？"
+    },
+    {
+      "timestamp": "06:26",
+      "speaker": "Unknown",
+      "en": "And so the fear here is that the AI labs could break them if they are breakable.",
+      "zh": "所以这里的恐惧在于，如果这些密码学标准可破解，AI 实验室可能会破解它们。"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Unknown",
+      "en": "all of cryptography is based on complexity assumptions.",
+      "zh": "所有密码学都建立在复杂性假设之上。"
+    },
+    {
+      "timestamp": "08:24",
+      "speaker": "Unknown",
+      "en": "The fact that people try to break them and fail gives us more confidence.",
+      "zh": "人们尝试破解却失败了，这一事实反而给了我们更多的信心。"
+    },
+    {
+      "timestamp": "09:00",
+      "speaker": "Unknown",
+      "en": "is actually already very strong evidence that the assumptions are actually worthwhile using.",
+      "zh": "这实际上已经是非常有力的证据，证明这些假设确实是值得使用的。"
+    },
+    {
+      "timestamp": "10:43",
+      "speaker": "Unknown",
+      "en": "So not only for the blockchain space, this would affect the entire internet. Actually, to be honest, it affects the entire digital world.",
+      "zh": "所以这不仅影响区块链领域，这会影响整个互联网。老实说，它影响的是整个数字世界。"
+    },
+    {
+      "timestamp": "12:14",
+      "speaker": "Unknown",
+      "en": "And because of the pace of progress on AI's mathematical abilities, there is a conspicuous absence of time.",
+      "zh": "而由于 AI 数学能力进步的速度，时间的积累明显缺位了。"
+    },
+    {
+      "timestamp": "13:04",
+      "speaker": "Unknown",
+      "en": "And now, all of a sudden, we can accelerate this process tremendously using these models.",
+      "zh": "而现在，突然之间，我们可以用这些模型极大地加速这个过程。"
+    },
+    {
+      "timestamp": "14:11",
+      "speaker": "Unknown",
+      "en": "And at the other end, we have more conviction about its confidence than you could probably get from the conventional process in a decade.",
+      "zh": "而在另一端，我们得到的信心，可能比用传统流程十年所能得到的还要多。"
+    },
+    {
+      "timestamp": "17:04",
+      "speaker": "Unknown",
+      "en": "We think there is not one. And so if there is not one, it doesn't matter how smart the AI is, it cannot find the non-existent algorithm, right?",
+      "zh": "我们认为它根本不存在。所以如果不存在，无论 AI 多么聪明，它也无法找到不存在的算法，对吧？"
+    },
+    {
+      "timestamp": "18:55",
+      "speaker": "Unknown",
+      "en": "And yeah, it's basically the worst thing you can probably do right now is something. You should do nothing.",
+      "zh": "现在，你能做的最糟糕的事情基本上就是「做点什么」。你应该什么都不做。"
+    },
+    {
+      "timestamp": "20:43",
+      "speaker": "Unknown",
+      "en": "If we're calling for anything here, what we're calling for is more information so we can know how to adapt.",
+      "zh": "如果说我们在这里在呼吁什么，我们呼吁的是更多的信息，这样我们才能知道如何适应。"
+    },
+    {
+      "timestamp": "21:04",
+      "speaker": "Unknown",
+      "en": "and if it comes from AI before it comes from the quantum computer, it doesn't make it new.",
+      "zh": "如果它先来自 AI 而不是来自量子计算机，也不会让它变成新威胁。"
+    },
+    {
+      "timestamp": "23:42",
+      "speaker": "Unknown",
+      "en": "crypto agility is a term that's over a decade old.",
+      "zh": "crypto agility 这个术语已经有十多年的历史了。"
+    },
+    {
+      "timestamp": "25:28",
+      "speaker": "Unknown",
+      "en": "And the point there is that we think of hash functions as post-quantum, but they might not be post-AI.",
+      "zh": "这里的要点是，我们认为哈希函数是后量子的，但它们未必是后 AI 的。"
+    },
+    {
+      "timestamp": "31:41",
+      "speaker": "Unknown",
+      "en": "I would be quite happy if we ended up using lattice-based schemes because that gives us much more room to play in and build interesting structures.",
+      "zh": "如果我们最终使用基于格的方案，我会相当高兴，因为那给了我们大得多的施展空间来构建有趣的结构。"
+    },
+    {
+      "timestamp": "37:04",
+      "speaker": "Unknown",
+      "en": "If that's the case, we are net improving the security status of the world instead of eroding it, right?",
+      "zh": "如果是这样，我们就是在净改善世界的安全状况，而不是在侵蚀它，对吧？"
+    },
+    {
+      "timestamp": "37:34",
+      "speaker": "Unknown",
+      "en": "This is not a battle of wits where you have a system, I have a system, your system is smarter than mine, therefore I am vulnerable to you.",
+      "zh": "这不是一场斗智，不是说你有一个系统、我有一个系统，你的系统比我的聪明，所以我就对你脆弱。"
+    }
+  ],
+  "voice_script": "今天这期，聊一个最近把加密圈吓得不轻的话题：AI到底能不能破解密码学。\n\n先把事情说清楚。主角是三个人：Stanford的密码学教授Dan Bonnet，还有a16z Crypto的两位研究者，普通合伙人Eddie Lazarin和研究合伙人Justin Thaler。事情的起因是OpenAI最近放出的大约700篇论文，数学界看了很振奋，但加密圈炸了锅。安全研究员Justin Drake发推警告说，区块链行业该进入所谓的bunker mode了——就是战备状态，担心AI会比量子计算机更早破解椭圆曲线密码。就是在这种恐慌情绪里，a16z的Liz请来了这三位专家，想把事实和猜测分开。Dan的第一句话就是：大家冷静，别慌。\n\n那这恐慌到底有没有根据？咱们从那700篇论文说起。\n\n这批论文覆盖几百个话题，很多跟密码学是相邻领域，用的数学推理技巧是相通的。所以大家才会担心：既然AI在相邻的数学问题上这么厉害，是不是离破解密码不远了？Dan把700篇逐条看完之后，发现一个关键事实：里面没有一篇涉及密码学，连理论密码学都没有。\n\n那这个\"缺席\"怎么理解？有两种解释。一种是，AI模型试过、破解不了——这本身就是好消息，说明密码学格外结实。另一种是，模型有进展但选择不公开——这就值得警惕了。Justin说，这种缺席其实有点显眼。但问题在于，我们并不知道前沿实验室到底有没有认真试过。所以Dan呼吁，实验室应该公开说明：用最强的模型攻击过哪些标准密码算法，结果如何。把信息摆出来，恐慌才有机会填上。\n\n说到这，得垫一个背景：密码学的安全性到底是怎么来的？\n\n很多人以为密码学是被证明安全的，其实不是。现代密码学建立在一个假设上：某些数学问题非常难算。为什么不能证明？因为一旦要证明，就牵扯到计算机科学那个著名难题，P versus NP，人类离解决它还差得远。听起来好像不太让人放心？恰恰相反。Dan有句话说得很到位：人们试图破解这些密码却失败了，这给了我们更多的信心。一个新算法提出来，全世界专家轮番攻击几十年都攻不破，这就是最硬的信心来源。\n\n还有更深一层。Justin提醒说，专家们普遍相信，那些难题根本就不存在高效的解法——不是说算法存在、只是人类不够聪明，而是压根没有。那么问题来了：如果算法不存在，AI再聪明，它也找不到一个不存在的东西，对吧？\n\n接下来说一个很多人搞混的地方：AI威胁和量子威胁，不是一回事。\n\n量子计算机威胁的，主要是椭圆曲线和RSA这类系统。而AI呢，理论上可以攻击所有密码方案，包括那些本用来应对量子威胁的后量子密码。所以这么看，AI的威胁面其实更广。但好消息是，应对已经开始铺了。NIST已经在标准化多种后量子公钥系统，iMessage、Signal都已完成或者正在做混合部署——今天的很多网络连接，是同时用椭圆曲线和格密码加密的，破掉一个，另一个还在。就算最坏的情况发生，也有备份可以切换。\n\n聊到这，你可能会想：那普通人是不是该赶紧做点什么？Dan的回答特别干脆：什么都不用做。世界今天和一周前、一年前完全一样，没有任何具体的新信息表明某个密码假设被削弱了。继续正常使用，别恐慌。\n\n而且，那个Justin Drake列的bunker mode建议清单，其实都是大机构本来就该遵守的基本卫生习惯。Coinbase就出来回应说，我们早就在做了。对普通人来说，慌忙迁移资产反而更危险——Vitalik Buterin在后续推文里提到，他自己因为迁移操作失误损失的个人资金，比所有黑客攻击加起来还多。眼下真正的现实风险仍然是软件漏洞，而AI恰恰很擅长找漏洞，中长期看，这对防御反而是有利的。\n\n再往深一层，这场讨论还点燃了区块链社区里一个老争论：以后到底只用哈希，还是用格密码？\n\n比特币和以太坊的核心开发者倾向于只用哈希函数。理由是：如果某个哈希被破了，换一个就行，整个框架依然成立；而格密码一旦底层问题被破，整个体系崩塌。而且区块链本来就要依赖哈希，比如Merkle树，只用哈希就不增加新的安全假设。但格密码有哈希给不了的能力，比如门限签名、密钥派生这些高级功能。Dan坦言，作为密码学家，更希望最终用格，因为能发挥的空间大得多。Justin则提醒说，纯哈希方案往往要靠很复杂的递归证明，代码复杂度暴增，出漏洞的面也就更大，而这类系统的安全性本身研究得还不够透。\n\n还有一个真正值得注意的时间维度。\n\n过去，一个新密码系统要等大约十年，让全世界专家反复攻击都攻不破，才敢大规模部署。现在这个过程可以被压缩了。让最强的模型跑上一个月，猛攻一个新方案，攻不破——Dan说，这样得到的信心，可能比传统十年流程能得到的还要多。Eddie的想象更激进：实验室甚至可以说，我们花了5000万美元，放了最强的模型去攻，攻不破，我们比以往任何时候都更有信心。你看，AI如果全力攻击后还是失败，我们的信心反而更强了。以前AI是恐慌的来源，说不定以后会变成信心的来源。\n\n这背后对创业者也有很实际的启示。Eddie指出，闭源安全模式实际上已经死了——AI的反编译能力让靠隐藏代码保安全这条路走不通了。创业公司需要重新审视自己的安全假设，还要为AI智能体设计沙箱和权限边界。Dan更进一步：任何要部署新软件的公司，现在都可以先让模型攻击一遍再上线，软件质量会整体上升。他的原话是，没有模型验证通过的东西，就不该发布。还有个估算：同样一美元能买到的智能，一年内便宜了95%以上，而软件漏洞的数量是有限的。照这个趋势，世界整体的安全状况是在变好，不是变坏。\n\n那如果明天真的宣布椭圆曲线被破了呢？也有预案：迁移到格密码，这条路已经在走了。要是连格也破了，就标准化第三种方案。Dan强调，实验室负责任的做法是先私下向行业和政府披露，制定更新计划，而不是直接把攻击方法公开——这是安全行业熟悉的老流程。\n\n最后用Liz自己的话来收尾，聊完之后，我平静多了。目前没有新威胁，只有信息缺口；而最糟糕的选择，恰恰是恐慌之下急着做点什么。"
+}

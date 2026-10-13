@@ -47,7 +47,7 @@ unlisted: true
 
 [[OpenAI]] · [[ChatGPT]] · [[Codex]] · [[智能体]] · [[AGI]] · [[Anthropic]] · [[护栏]] · [[LLM]] · [[Jev]] · [[Dots]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"ChatGPT":111,"Codex":86,"智能体":489,"AGI":28,"Anthropic":201,"护栏":89,"LLM":63,"Jev":7,"Dots":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"ChatGPT":111,"Codex":86,"智能体":492,"AGI":28,"Anthropic":203,"护栏":89,"LLM":64,"Jev":7,"Dots":4}</script>
 
 <script>
 (function(){

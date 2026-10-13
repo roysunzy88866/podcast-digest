@@ -141,7 +141,7 @@ Jeremy 的态度很明确：他对那些跑在笔记本电脑上的个人[[智�
 
 - [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:Docker、推理 (inference)、智能体 (agent)</span>
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同公司:Neo4j · 同概念:智能体 (agent)、智能体记忆 (agent memory)</span>
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:推理 (inference)、智能体 (agent)</span>
+- [[2026-10-08-talks-turning-agent-memory-into-skills-that-wo|让智能体的记忆变成真正能用的技能]]<span class="pd-rz">同公司:Neo4j · 同概念:智能体 (agent)、智能体记忆 (agent memory)</span>
 
 </div>
 <div class="pd-ex">

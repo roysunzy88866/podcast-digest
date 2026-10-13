@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":18,"Inflection AI":1,"Microsoft":32,"Pi":3,"Copilot":13,"OpenAI":197,"AGI":28,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":19,"Inflection AI":1,"Microsoft":32,"Pi":3,"Copilot":13,"OpenAI":199,"AGI":28,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

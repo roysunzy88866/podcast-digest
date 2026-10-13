@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anish Acharya]] · [[David Pawlan]] · [[智能体]] · [[主动性]] · [[Muse]] · [[Instinct]] · [[OpenClaw]] · [[ChatGPT]] · [[Shopify]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"David Pawlan":1,"智能体":489,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"David Pawlan":1,"智能体":492,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
 
 <script>
 (function(){

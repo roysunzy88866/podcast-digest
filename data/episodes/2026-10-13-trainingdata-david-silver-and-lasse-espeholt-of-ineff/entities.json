@@ -1,0 +1,2060 @@
+{
+  "episode_id": "2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff",
+  "podcast": "Training Data",
+  "date": "2026-10-13",
+  "tags": [
+    "强化学习",
+    "超级智能",
+    "模拟环境",
+    "AI 对齐",
+    "创业公司故事"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "david-silver",
+      "type": "person",
+      "role": "guest",
+      "name": "David Silver",
+      "file": "David Silver",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "ineffable-intelligence",
+      "type": "company",
+      "role": "company",
+      "name": "Ineffable Intelligence",
+      "file": "Ineffable Intelligence",
+      "primary": true,
+      "how_described": "David Silver 与 Lasse Espeholt 联合创办的新实验室，要造一个「超级学习者」、与超级智能第一次接触；名字意为「不可言说」，且半开玩笑地说这条路「不可能搞砸」(in-f-able)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.717,
+            56.74
+          ],
+          "quote": "I'm thrilled to have Dave Silver and Lese Espeholt with us, two of the co-founders of Ineffable Intelligence.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "DeepMind",
+      "file": "DeepMind",
+      "primary": true,
+      "how_described": "两位嘉宾长期工作过的地方，AlphaGo 的诞生地；Silver 说他在那里度过了美好时光，但坚信通往超级智能的路不经过基于 LLM 的产品，所以选择离开创办新实验室。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            223.214,
+            230.905
+          ],
+          "quote": "You could have run this program inside DeepMind where, you know, could have probably had more access to compute than just about anybody.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            239.2,
+            242.322
+          ],
+          "quote": "So, look, first of all, I had a fantastic time at DeepMind.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            432.05,
+            436.753
+          ],
+          "quote": "You were in a different group than Dave in the deep learning group at DeepMind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            440.614,
+            442.996
+          ],
+          "quote": "What made you decide to leave DeepMind?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            448.158,
+            450.479
+          ],
+          "quote": "So I joined DeepMind in January 15.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            466.428,
+            468.389
+          ],
+          "quote": "I actually left DeepMind twice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            468.409,
+            472.951
+          ],
+          "quote": "So I left DeepMind in summer 18 and went to like Google Brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            473.672,
+            476.893
+          ],
+          "quote": "Then eventually Google Brain and DeepMind merged and then I was like back again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            477.514,
+            481.576
+          ],
+          "quote": "But at the end of the day, I left DeepMind again like a year before Dave left.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2286.737,
+            2292.923
+          ],
+          "quote": "So, yeah, we can really test this out in a way that we couldn't do at DeepMind, for instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3496.612,
+            3504.634
+          ],
+          "quote": "So when I joined the deep learning team at DeepMind, most people were running like single machine CPU based reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3554.751,
+            3565.34
+          ],
+          "quote": "So some of my work at Google Brain after I left DeepMind to found the Google Brain Amsterdam office was to scale to like racks of TVUs and that product was called like seed RL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3762.995,
+            3771.017
+          ],
+          "quote": "Are you assembling the Avengers from, especially given the recent changes from DeepMind, are you assembling the Avengers of folks that you've worked with in the past?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3785.934,
+            3791.919
+          ],
+          "quote": "It was sort of intentionally assembled within DeepMind by choosing the kind of best of the best to work on that project.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3802.088,
+            3804.07
+          ],
+          "quote": "That team are indeed from DeepMind.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alphago",
+      "type": "company",
+      "role": "company",
+      "name": "AlphaGo",
+      "file": "AlphaGo",
+      "primary": true,
+      "how_described": "本集作为核心论据：花了约两年、大量使用人类棋谱和人在回路调校才击败李世石，说明依赖人类数据的路径的局限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            729.642,
+            735.445
+          ],
+          "quote": "The Go players who saw AlphaGo playing, they were amazed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            842.309,
+            858.234
+          ],
+          "quote": "And we backed Giannis, who was on your original AlphaGo team, and he told us that one of the things that's distinct about you is you can have these incredibly ambitious visions, but you also ground the team in very practical research milestones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1651.827,
+            1664.051
+          ],
+          "quote": "And I think your experience with AlphaGo and then AlphaGo Zero is maybe the best example that anyone can point to of what happens when you remove human priors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1664.792,
+            1667.713
+          ],
+          "quote": "Maybe if you take us back to AlphaGo and then AlphaZero,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1815.806,
+            1834.157
+          ],
+          "quote": "And so if we come back to the AlphaGo example, what we found there was that the moment we let go of the human data, which we'd spent, by the way, we'd spent about two years like building AlphaGo, somewhat similar to the LLM approach where we kind of, you know, we built every level of this, you know, we kind of hand put together the next level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1847.185,
+            1849.568
+          ],
+          "quote": "It took us two years to get to AlphaGo and beat LisaDol.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alphago-zero",
+      "type": "company",
+      "role": "company",
+      "name": "AlphaGo Zero",
+      "file": "AlphaGo Zero",
+      "primary": true,
+      "how_described": "完全放弃人类数据、纯靠自我对弈的版本；Silver 说算法做对之后几个小时就超过了之前两年的人类在回路成果，是「去除人类先验」的最佳例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1651.827,
+            1664.051
+          ],
+          "quote": "And I think your experience with AlphaGo and then AlphaGo Zero is maybe the best example that anyone can point to of what happens when you remove human priors.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "alphazero",
+      "type": "company",
+      "role": "company",
+      "name": "AlphaZero",
+      "file": "AlphaZero",
+      "primary": true,
+      "how_described": "Silver 提到把 AlphaZero 做对后放弃了人类数据，国际象棋上 4 小时就击败有史以来最强的 AI，围棋也只用了几天。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            1664.792,
+            1667.713
+          ],
+          "quote": "Maybe if you take us back to AlphaGo and then AlphaZero,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1850.409,
+            1857.695
+          ],
+          "quote": "When we got AlphaZero right, we gave up on the human data and finally focused on what would it be like to build an algorithm that could discover for itself.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alphastar",
+      "type": "company",
+      "role": "company",
+      "name": "AlphaStar",
+      "file": "AlphaStar",
+      "primary": false,
+      "how_described": "DeepMind 内部有意挑选最顶尖研究者组建的星际争霸 AI 项目，本集提到有四位 Ineffable 联合创始人来自那支团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 616,
+          "t": [
+            3757.894,
+            3760.955
+          ],
+          "quote": "I think three of the co-founders worked together on AlphaStar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3781.571,
+            3784.813
+          ],
+          "quote": "So, I mean, AlphaStar was an exceptional team.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google-brain",
+      "type": "company",
+      "role": "company",
+      "name": "Google Brain",
+      "file": "Google Brain",
+      "primary": false,
+      "how_described": "Espeholt 离开 DeepMind 后去的团队，在那里做了 MetNet 天气预报模型，后来与 DeepMind 合并。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            468.409,
+            472.951
+          ],
+          "quote": "So I left DeepMind in summer 18 and went to like Google Brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            473.672,
+            476.893
+          ],
+          "quote": "Then eventually Google Brain and DeepMind merged and then I was like back again.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2350.916,
+            2363.802
+          ],
+          "quote": "So there's like a weather forecasting model we did in the Google Brain Amsterdam office, together with Google Research, where we were doing like a machine learning model to predict short term weather forecasts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3554.751,
+            3565.34
+          ],
+          "quote": "So some of my work at Google Brain after I left DeepMind to found the Google Brain Amsterdam office was to scale to like racks of TVUs and that product was called like seed RL.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "super-learner",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级学习者 (super learner)",
+      "file": "超级学习者",
+      "primary": true,
+      "how_described": "本集核心概念：一个从一无所知开始、能不断学习发现知识直到远超人类已知的东西，且可被放进任何一条经验之流（模拟、数字或物理世界）；Silver 认为今天带人在回路的 LLM 不算超级学习者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            582.232,
+            587.435
+          ],
+          "quote": "You're going to build a super learner and make first contact with super intelligence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            589.957,
+            593.239
+          ],
+          "quote": "What is a super learner and what does making first contact look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 107,
+          "t": [
+            594.007,
+            606.18
+          ],
+          "quote": "Yeah, so to me as super learner, it's something which is, it's got incredible capacity both in its depth of what it can learn and in its breadth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            769.54,
+            777.066
+          ],
+          "quote": "Does that count as a super learner or what's the difference between something that can make novel scientific discoveries versus a super learner in your sense of the term?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            783.792,
+            788.035
+          ],
+          "quote": "What I mean by a super learner is something which first of all discovers completely autonomously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            828.152,
+            838.821
+          ],
+          "quote": "So a lot of respect for some of these, the progress that's made, but I don't think we're anywhere close to this like true super learner of something which can be like autonomously just discover everything for itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            892.431,
+            896.694
+          ],
+          "quote": "And then on top of that, so we've spoken about the super learner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            897.275,
+            913.427
+          ],
+          "quote": "The other aspect which we're building is we're building out environments which are capable of super learners like discovering everything, like environments in which simulated environments in which a super learner can discover everything that we mean by intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            930.76,
+            950.193
+          ],
+          "quote": "And so it's a combination of building out the super learner, doing the research to make super learners incredible and beat the state of the art of what's possible with reinforcement learning, both in terms of the engineering and the research that happens, and creating and placing the super learners into these crucibles to kind of see the emergence of incredible behaviors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1748.829,
+            1752.093
+          ],
+          "quote": "And it comes back to this, what does it mean to build a super learner?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1752.113,
+            1758.881
+          ],
+          "quote": "To me, building a super learner again is about building something that has this potential for full depth and breadth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1917.902,
+            1924.767
+          ],
+          "quote": "I don't believe we'll get all the way to something which is truly a super learner and unleashes the potential that we've talked about so far.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            2036.937,
+            2044.982
+          ],
+          "quote": "I'm curious what your confidence levels are for, you know, ineffable, at the broadest level, like, will a super learner emerge?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2601.967,
+            2606.51
+          ],
+          "quote": "But I think what we can do is we can do all of the science to discover the super learner.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2607.55,
+            2616.836
+          ],
+          "quote": "And once we have that super learner, we will have the answers and we'll know how to build something which that same algorithm should be applicable to the real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2650.178,
+            2658.665
+          ],
+          "quote": "Do you think that the super learner you build will naturally be aligned to human interests and have human values?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集的目标终点：能在科学、数学、技术、语言等一切方面做出远超人类发现的系统；Silver 预测三年内可能出现真正的超级智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.26,
+            32.208
+          ],
+          "quote": "And so to me, that is the essence of what it will take to get to superintelligence, like a system that can just keep learning and discovering knowledge forever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            158.145,
+            167.614
+          ],
+          "quote": "Here we are now applying that conviction, ineffable, trying to show that indeed superintelligence can emerge all the way through systems that learn from experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            250.646,
+            261.432
+          ],
+          "quote": "But at the end of the day, I have a really strong belief about how we can go beyond where we are today with AI and all the way to superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            371.587,
+            386.858
+          ],
+          "quote": "So incredible, like the things which superintelligence will one day discover, like this knowledge is going to be so unbelievable, incredible, and it's going to be something which is profoundly amazing and perhaps so profound that we can't even express it in human language.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2416.238,
+            2421.386
+          ],
+          "quote": "So I think the right question to ask is, can a superintelligence be built in simulation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2439.004,
+            2442.146
+          ],
+          "quote": "It's also the safest place for a superintelligence to be built.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2571.694,
+            2578.88
+          ],
+          "quote": "The real point is that if it's possible to get all the way to a superintelligence in simulation, it will happen faster and it will happen safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2732.249,
+            2737.837
+          ],
+          "quote": "is to actually understand the science of superintelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2749.592,
+            2753.796
+          ],
+          "quote": "Like what it takes for a superintelligence to actually interact peacefully.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2817.431,
+            2838.24
+          ],
+          "quote": "So, you know, one of our commitments is that we will gate anything we do in the real world on having sufficient evidence from this kind of science of superintelligence that we are really confident that things are going to go well and we'll only push forward to the next level of what we do in the real world once we are absolutely confident that that can lead to a good outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3089.238,
+            3096.786
+          ],
+          "quote": "A lot of things like the science of superintelligence that will actually help us to find solutions that help things to go well in the real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3131.961,
+            3141.569
+          ],
+          "quote": "I do believe that when we accelerate AI and get to superintelligence, it will lead to a really great future for humanity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "Silver 自博士论文起贯穿职业生涯的信念：解决 AI 的正确方法是从经验中学习；Espeholt 则是最早把它在 GPU 上大规模扩展的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            73.228,
+            80.296
+          ],
+          "quote": "Your 2009 PhD was on reinforcement learning applied to the devilishly difficult game of Go.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            89.925,
+            99.51
+          ],
+          "quote": "And I think you were really the figure that inspired the entire current generation of reinforcement learning and deep learning researchers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 23,
+          "t": [
+            140.892,
+            149.979
+          ],
+          "quote": "Learning through reinforcement learning to get better and better and better and that that would be the thing which would lead to the emergence of intelligence and ultimately super intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            437.173,
+            440.134
+          ],
+          "quote": "And you spent years scaling up reinforcement learning on GPUs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            450.84,
+            458.664
+          ],
+          "quote": "And actually, I started working a bit with Dave around 16, where I was doing this work on scaling up reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            458.824,
+            462.566
+          ],
+          "quote": "So as you said, I was part of the deep learning team, and he was leading a reinforcement learning team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            527.409,
+            536.094
+          ],
+          "quote": "We worked together on some of the early approaches to combining reinforcement learning with deep learning and trying to scale things up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            536.534,
+            554.479
+          ],
+          "quote": "And it should be said that Lasse, who, by the way, is very modest, but he actually worked on some of the original approaches that were the first attempts to actually scale up reinforcement learning and show that it could be done at large scale and like ways to parallelize reinforcement learning and ways to kind of build out architectures that were scalable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            757.936,
+            769.021
+          ],
+          "quote": "So the current paradigm, these large language models with reinforcement learning seem to be at least knocking out millennium problems and making some sorts of scientific discoveries.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            879.268,
+            891.851
+          ],
+          "quote": "That means we've got a state-of-the-art reinforcement learning stack that allows us to run things at massive scale, inhale data at the optimal way, be able to kind of learn and have systems that keep learning and learning and learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            930.76,
+            950.193
+          ],
+          "quote": "And so it's a combination of building out the super learner, doing the research to make super learners incredible and beat the state of the art of what's possible with reinforcement learning, both in terms of the engineering and the research that happens, and creating and placing the super learners into these crucibles to kind of see the emergence of incredible behaviors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            984.372,
+            996.901
+          ],
+          "quote": "Like I think one thing which is different about the way we take to doing reinforcement learning to a lot of the rest of the field is that we are not breadcrum trailing the particular objective to be learned about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2641.791,
+            2649.638
+          ],
+          "quote": "The misalignment that's emerged has arisen from scaling reinforcement learning to the extent that it's been scaled.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            3272.443,
+            3281.43
+          ],
+          "quote": "Which is very important for reinforcement learning where you have like really fast iteration cycles compared to LLMs that are relatively speaking quite slow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3394.377,
+            3400.801
+          ],
+          "quote": "So there's like model-based reinforcement learning, where like the model becomes much more expensive compared to the simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3425.334,
+            3429.337
+          ],
+          "quote": "So for reinforcement learning, like scaling laws are like slightly different, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3437.862,
+            3442.104
+          ],
+          "quote": "Well, reinforcement learning is a little bit different because the problem is like non-stationary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3474.423,
+            3487.367
+          ],
+          "quote": "Lese, at the beginning, when David introduced you, he mentioned that you had done some very foundational work to compute algorithms for reinforcement learning, upon which the field really relies on today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3496.612,
+            3504.634
+          ],
+          "quote": "So when I joined the deep learning team at DeepMind, most people were running like single machine CPU based reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3507.915,
+            3515.376
+          ],
+          "quote": "So what I did together with colleagues was to make an agent reinforcement learning agent that really utilized GPUs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3634.868,
+            3643.232
+          ],
+          "quote": "I think it's actually kind of fun to see the reinforcement learning space now versus like 10 years ago, or like, let's say like eight years ago, maybe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3644.272,
+            3649.854
+          ],
+          "quote": "Like the LLM community is also using reinforcement learning in particular last two years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的对象：被放进熔炉环境、追求简单目标并自主发现知识的智能体；围棋例子说明放进第二个智能体复杂性瞬间涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            800.206,
+            810.035
+          ],
+          "quote": "And it's also something which should be applicable to kind of, you know, real world embodied domains where the agent can learn from its physical experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            997.261,
+            1006.068
+          ],
+          "quote": "A lot of the way things people do RL with LLMs at the moment is to kind of say, oh, you know, the agent should be learning about this problem and then this problem and this problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1006.088,
+            1011.071
+          ],
+          "quote": "And after kind of following that trail, we're kind of pulling the agent by its nose towards a particular desired outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1013.011,
+            1021.377
+          ],
+          "quote": "We're giving the agent some simple objectives and asking it to discover things that will surprise us and amaze us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1021.397,
+            1026.06
+          ],
+          "quote": "So the agent is in principle capable of discovering all kinds of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1038.442,
+            1061.064
+          ],
+          "quote": "So what you're saying is instead of explicitly giving the agent the goal to go rediscover language or build a calculator or build a computer, you're going to give it other more open-ended goals and the agent may discover that the most efficient way to actually or the best way to actually accomplish that goal may be to build some of these tools that we as humans have already built.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1082.343,
+            1092.93
+          ],
+          "quote": "And the alternative is that to give the agent something really straightforward to optimize, but in a really complex environment where there's a lot to learn about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1279.356,
+            1287.581
+          ],
+          "quote": "And, you know, you're contrasting it to today when people say environments, oftentimes it's a set of tasks and, you know, what the agent should have done on the task.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1330.22,
+            1340.688
+          ],
+          "quote": "Millions of interacting agents and the world becomes much more complex because it suddenly now includes the complexity of all of those other agents within the world that the agent's building.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1357.941,
+            1364.023
+          ],
+          "quote": "And if you get that right, you have a world in which there's the possibility for discovery by the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1480.358,
+            1484.981
+          ],
+          "quote": "And if this was a single agent game, it would be like the most boring game you could imagine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1491.685,
+            1503.331
+          ],
+          "quote": "The moment you put a second agent into the environment, you get this emergent complexity, which is suddenly because the agent contains like one agent has to reason about all the possible behaviors of the other agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2539.349,
+            2551.938
+          ],
+          "quote": "But also it's true that the agent will discover its own science, like whatever the simulator is, if it's got this emergent complexity to its environment, the agent will discover its own science about whatever that world is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2738.277,
+            2749.212
+          ],
+          "quote": "So that this means to say that if we actually can in simulation really build a superintelligent agent and start to see these super learners like go all the way, we can start to actually understand",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2867.143,
+            2875.851
+          ],
+          "quote": "And it seems like one of the primary things that current safety researchers rely on is being able to monitor the agent's chains of thought in English.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2975.275,
+            2991.6
+          ],
+          "quote": "For example, you might have the idea of an incredible scientist agent that treads lightly upon the earth, and then you have another superintelligent that's monitoring the magnitude of its actions and regularizing it to make sure it can't do things which are affecting the world too much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3507.915,
+            3515.376
+          ],
+          "quote": "So what I did together with colleagues was to make an agent reinforcement learning agent that really utilized GPUs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3529.98,
+            3536.122
+          ],
+          "quote": "Contributed to it being the most popular reinforcement agent at the company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把它作为对照路径：数十万研究者都在 LLM 上加倍下注（预训练、后训练、编程），但 Silver 认为这条路不经过超级智能，且人类数据可能正在拖累一切。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            168.375,
+            175.602
+          ],
+          "quote": "And in terms of things which are different, although we are not pursuing the human data path that the LLM world has pursued,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            262.072,
+            267.957
+          ],
+          "quote": "And the path that I believe in doesn't actually go through LLM-based products as an intermediate point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            271.981,
+            281.789
+          ],
+          "quote": "I realized that I felt that so passionately that this deserved to be more than just the corner of an organization that's focused on LLM-based products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            297.807,
+            319.307
+          ],
+          "quote": "I suppose another way to look at it is that the world already has tens of thousands, if not hundreds of thousands of really talented researchers all pursuing exactly the same approach, like really just kind of doubling down on LLMs with pre-training, post-training, coding, and that kind of LLM path.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1815.806,
+            1834.157
+          ],
+          "quote": "And so if we come back to the AlphaGo example, what we found there was that the moment we let go of the human data, which we'd spent, by the way, we'd spent about two years like building AlphaGo, somewhat similar to the LLM approach where we kind of, you know, we built every level of this, you know, we kind of hand put together the next level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1895.723,
+            1912.598
+          ],
+          "quote": "And if you don't make that active choice, you know, what I see in a lot of the kind of LLM companies today is they're basically, you know, building semi-autonomous, human in the loop kind of learning algorithms with thousands of people in the loop of the learning progress, which is, you know, it works and a lot of respect for how far it gets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            2151.631,
+            2163.976
+          ],
+          "quote": "Like there's been enormous progress in the level of technology, the ability to accelerate research using kind of LLM coding methods or auto research methods like we've produced in the past.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3370.535,
+            3377.178
+          ],
+          "quote": "But similarly to the LLM companies, we also want to be in the case where scaling laws matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3644.272,
+            3649.854
+          ],
+          "quote": "Like the LLM community is also using reinforcement learning in particular last two years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-priors",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类先验 (human priors)",
+      "file": "人类先验",
+      "primary": true,
+      "how_described": "本集关键论点：依赖人类数据和万亿条数据集会把人类偏见带进来（如两千年前会相信地平说、四体液说）；他们主张只保留弱的环境无关先验，避免强先验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 271,
+          "t": [
+            1648.445,
+            1651.227
+          ],
+          "quote": "I'd love to talk more about this concept of removing human priors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1651.827,
+            1664.051
+          ],
+          "quote": "And I think your experience with AlphaGo and then AlphaGo Zero is maybe the best example that anyone can point to of what happens when you remove human priors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1668.691,
+            1673.814
+          ],
+          "quote": "Was it surprising to you that removing human priors would result in even smarter intelligence?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1713.582,
+            1715.923
+          ],
+          "quote": "I should say that you asked about human priors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1927.188,
+            1939.677
+          ],
+          "quote": "As far as I know it, there are humans that are ineffable and some of you are creating environments or crucibles and what does it look like to actually try and make sure that human priors aren't kind of leaking into what you're doing?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulation)",
+      "file": "模拟",
+      "primary": true,
+      "how_described": "Silver 论证：只要模拟图灵完备，计算、经济、语言、数学都可表达；在模拟里造超级智能会快 10-100 倍且最安全，还能提前研究对齐问题；回应了 Rich Sutton 对模拟的看衰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1387.992,
+            1389.573
+          ],
+          "quote": "The simulation is extremely simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2294.264,
+            2302.532
+          ],
+          "quote": "It seems like one of the maybe determinants of how far this can go is how far you can push simulation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2307.637,
+            2309.839
+          ],
+          "quote": "And I think simulation has probably come quite far.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2318.329,
+            2324.934
+          ],
+          "quote": "We recently had your friend Rich Sutton on the show and I asked him about simulation and he said, he was very dismissive of simulation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2339.547,
+            2347.895
+          ],
+          "quote": "How do you all think about where is the ceiling on simulation and when is the right time to bring an applicable into the real world?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2373.206,
+            2376.948
+          ],
+          "quote": "So there's like a point to that, that the physics simulation is not perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2416.238,
+            2421.386
+          ],
+          "quote": "So I think the right question to ask is, can a superintelligence be built in simulation?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2422.602,
+            2434.171
+          ],
+          "quote": "So if it is possible for it to be built in simulation, I believe it will happen 10 times or 100 times faster just because simulation can be infinitely paralyzed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2448.73,
+            2455.695
+          ],
+          "quote": "And I think for the reasons we discussed earlier, there are very clear approaches that we can add into the simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2463.726,
+            2467.091
+          ],
+          "quote": "So for example, like let's say you wanted to build a computer in simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2467.752,
+            2470.977
+          ],
+          "quote": "Well, all you require is that your simulation is Turing complete.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2471.577,
+            2480.927
+          ],
+          "quote": "If you have a Turing-complete simulation, suddenly, everything that we mean by computation, like everything, like provably, everything we mean by computation can be expressed completely inside simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2499.502,
+            2508.128
+          ],
+          "quote": "And as long as you have one of those, you know, some representation of money, everything that we mean by economics can be expressed inside a simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2509.709,
+            2518.935
+          ],
+          "quote": "If you've got multiple agents and they've got some ability to express a channel of communication between the agents, suddenly everything that we mean by language is expressible in simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2523.018,
+            2530.323
+          ],
+          "quote": "Science in some sense is the study of our world, so will a simulation be sufficient to study what we mean by science?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2571.694,
+            2578.88
+          ],
+          "quote": "The real point is that if it's possible to get all the way to a superintelligence in simulation, it will happen faster and it will happen safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2583.704,
+            2601.407
+          ],
+          "quote": "I actually agree with Rich Sutton that I think his point was something along the lines that you shouldn't expect that the things that you learn in simulation to transfer sim to real into the real world, because the real world is just vastly more complex and in very interesting ways that are hard to simulate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2738.277,
+            2749.212
+          ],
+          "quote": "So that this means to say that if we actually can in simulation really build a superintelligent agent and start to see these super learners like go all the way, we can start to actually understand",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2801.239,
+            2808.024
+          ],
+          "quote": "And I think the faster that we can actually get to these answers in simulation and publicly share that, the better situation we'll be in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2854.351,
+            2865.399
+          ],
+          "quote": "And I think that if we are able to actually understand this and run ahead in simulation, we'll be in a much better place to actually do the things that ensure that this goes really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3080.076,
+            3084.097
+          ],
+          "quote": "At the same time, I think we should move as fast as possible in simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            3084.657,
+            3088.838
+          ],
+          "quote": "Now, the reason is that I think in simulation, we can actually develop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3159.424,
+            3174.492
+          ],
+          "quote": "Emotional responses to adapt to the changes that are coming and also for this work to continue apace, like really figuring out in simulation how to, you know, the real science of doing this right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3175.473,
+            3181.736
+          ],
+          "quote": "So accelerate in simulation so we can understand what's happening and, you know, do science around it and then be careful in the real world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3249.429,
+            3257.894
+          ],
+          "quote": "Like NVIDIA GPUs, which is really fortunate for us because it means that we can easily do a simulation and training and inference, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3338.999,
+            3344.444
+          ],
+          "quote": "Yeah, you could split it up into training inference and simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3345.164,
+            3349.146
+          ],
+          "quote": "Is the same compute equally good at training, inference, and simulation?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3363.332,
+            3368.515
+          ],
+          "quote": "And maybe in the last few years also inference, but less about simulation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3386.821,
+            3391.823
+          ],
+          "quote": "So I guess if GPUs aren't great for scaling simulation, then what's the solution?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 547,
+          "t": [
+            3394.377,
+            3400.801
+          ],
+          "quote": "So there's like model-based reinforcement learning, where like the model becomes much more expensive compared to the simulation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "crucibles",
+      "type": "concept",
+      "role": "concept",
+      "name": "熔炉 (crucibles)",
+      "file": "熔炉",
+      "primary": true,
+      "how_described": "Ineffable 正在构建的环境：靠物理引擎、数百万交互物体和数百万交互智能体产生大量涌现复杂性，而非手工设计谜题，复杂度远超 Atari 57 这类老基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            913.487,
+            914.468
+          ],
+          "quote": "We call those crucibles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            930.76,
+            950.193
+          ],
+          "quote": "And so it's a combination of building out the super learner, doing the research to make super learners incredible and beat the state of the art of what's possible with reinforcement learning, both in terms of the engineering and the research that happens, and creating and placing the super learners into these crucibles to kind of see the emergence of incredible behaviors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1276.234,
+            1278.976
+          ],
+          "quote": "What do these crucibles look like in practice?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1287.681,
+            1291.624
+          ],
+          "quote": "It sounds like your environments are, your crucibles are very, very different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1294.12,
+            1306.143
+          ],
+          "quote": "So we are building crucibles, which are, without giving too many details away, have the capacity for a lot of emergent complexity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1409.827,
+            1420.378
+          ],
+          "quote": "So we want to create this range of crucibles where we have simple ones that can execute quickly and we can iterate on, but where we can still see very complex behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1927.188,
+            1939.677
+          ],
+          "quote": "As far as I know it, there are humans that are ineffable and some of you are creating environments or crucibles and what does it look like to actually try and make sure that human priors aren't kind of leaking into what you're doing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2302.993,
+            2307.117
+          ],
+          "quote": "And ultimately, these crucibles are, you know, they're digital, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 535,
+          "t": [
+            3327.888,
+            3335.295
+          ],
+          "quote": "I imagine you're building crucibles and then you're kind of doing these big rollouts where the agents are actually learning.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "emergence",
+      "type": "concept",
+      "role": "concept",
+      "name": "涌现 (emergence)",
+      "file": "涌现",
+      "primary": true,
+      "how_described": "本集方法论核心：给智能体简单目标、放进足够复杂环境，像进化只优化适者生存却催生生命全部复杂性，复杂知识从简单信号中涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            140.892,
+            149.979
+          ],
+          "quote": "Learning through reinforcement learning to get better and better and better and that that would be the thing which would lead to the emergence of intelligence and ultimately super intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            930.76,
+            950.193
+          ],
+          "quote": "And so it's a combination of building out the super learner, doing the research to make super learners incredible and beat the state of the art of what's possible with reinforcement learning, both in terms of the engineering and the research that happens, and creating and placing the super learners into these crucibles to kind of see the emergence of incredible behaviors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1099.714,
+            1111.541
+          ],
+          "quote": "An optimization of a very simple, easy to describe quantities can often give rise to incredibly hard to describe complexity and emergence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐 (alignment)",
+      "file": "对齐",
+      "primary": true,
+      "how_described": "Silver 认为当前基于语言和人类数据先验的对齐方法正在达到极限，智能体会学会说一套做一套；主张先在模拟中研究「超级智能的科学」，并在模拟中用影子动作、超级智能监控等非语言方式监控。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 429,
+          "t": [
+            2626.321,
+            2628.302
+          ],
+          "quote": "I'd love to talk about alignment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2628.322,
+            2639.93
+          ],
+          "quote": "I know this is a politically charged topic right now, and so I'm zero interested in having the politics or policy discussion around alignment, but I am very interested in the scientific discussion around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2658.826,
+            2663.89
+          ],
+          "quote": "Is it important for it to have alignment with human values?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2670.158,
+            2686.154
+          ],
+          "quote": "So where we are today with alignment, we are essentially relying very heavily on alignment approaches that are based on the language that the agents use and priors that are based on human data.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集说算力是时机的巨大驱动因素：他们拿到了很大的集群，可以跑比 OpenAI 捉迷藏实验多用十万倍算力的实验，团队 20 人人均算力极高。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            223.214,
+            230.905
+          ],
+          "quote": "You could have run this program inside DeepMind where, you know, could have probably had more access to compute than just about anybody.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1504.973,
+            1520.736
+          ],
+          "quote": "Massively increases the complexity in the environment and to the best of our knowledge, you know, certainly all of the compute which we sank into it when we were working on it, there was just like this endless learning curve that where without end you could continue to discover new things in this game.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2107.025,
+            2117.711
+          ],
+          "quote": "And if you're too early, you know, you might be banging on the door, but not have the right kind of, you know, maybe the field isn't advanced enough or there isn't enough compute to be able to succeed yet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2196.665,
+            2201.967
+          ],
+          "quote": "For an affable and also all the previous things that you correctly forecasted, is the biggest driver of timing compute?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2205.813,
+            2213.138
+          ],
+          "quote": "I think, yeah, I mean, we're in a great position with the compute that we've managed to get hold of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2239.115,
+            2243.838
+          ],
+          "quote": "I think, you know, we could probably run experiments that like use a hundred thousand times more compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2244.318,
+            2250.702
+          ],
+          "quote": "And so it's kind of amazing that people haven't come back and really pushed on these types of approaches given the availability of compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2261.929,
+            2265.83
+          ],
+          "quote": "So I think compute is a huge driver, but it's not the only one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            3184.876,
+            3187.257
+          ],
+          "quote": "I'd love to transition to talking a little bit about compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            3188.238,
+            3197.123
+          ],
+          "quote": "This is going to be an incredibly compute-expensive journey, and you are pushing the limits of what compute can do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3204.328,
+            3209.073
+          ],
+          "quote": "You're not simply renting spot compute from NeoClouds like many other NeoLabs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3209.093,
+            3215.519
+          ],
+          "quote": "You're actually doing some really serious work on your cluster and the different other forms of compute that you have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3215.579,
+            3217.021
+          ],
+          "quote": "Can you just talk about your compute setup?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3217.887,
+            3223.631
+          ],
+          "quote": "Right, so, yeah, as I mentioned earlier, like, we are very fortunate with the compute that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            3236.72,
+            3243.285
+          ],
+          "quote": "And I actually feel quite bad about, like, the startups that are, like, getting compute now because it's becoming, like, harder and harder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3323.183,
+            3327.868
+          ],
+          "quote": "All the compute, is it roughly fungible between the different things that you're doing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            3335.335,
+            3338.318
+          ],
+          "quote": "Is that the rough buckets of what compute is being used for?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3345.164,
+            3349.146
+          ],
+          "quote": "Is the same compute equally good at training, inference, and simulation?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3377.478,
+            3386.421
+          ],
+          "quote": "We know that roughly if you add this amount of compute and experiences, then we get a certain amount of quality out of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3429.357,
+            3436.701
+          ],
+          "quote": "So like scaling laws is the component of how much compute you put in, how much data you put in, and like the model size.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3454.713,
+            3460.32
+          ],
+          "quote": "I understand the difference, but are you seeing some sort of scaling law where more compute in gets you closer to achieving the goals?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3474.423,
+            3487.367
+          ],
+          "quote": "Lese, at the beginning, when David introduced you, he mentioned that you had done some very foundational work to compute algorithms for reinforcement learning, upon which the field really relies on today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3515.776,
+            3517.537
+          ],
+          "quote": "I could scale like linear with compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3733.435,
+            3735.576
+          ],
+          "quote": "And so just to tie it to the compute as well, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3735.596,
+            3743.481
+          ],
+          "quote": "Like this relatively small amount of people so far means that we have a lot of compute per person, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3748.083,
+            3752.465
+          ],
+          "quote": "So it's really also to keep the compute to person ratio quite high.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩展定律 (scaling laws)",
+      "file": "扩展定律",
+      "primary": true,
+      "how_described": "Espeholt 说强化学习的扩展定律因问题非平稳而与 LLM 略有不同，但这是他们正在积极推动的研究方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            2165.638,
+            2170.605
+          ],
+          "quote": "The ability and understanding of scaling laws and the sophistication of technology in the stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3370.535,
+            3377.178
+          ],
+          "quote": "But similarly to the LLM companies, we also want to be in the case where scaling laws matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3421.598,
+            3424.668
+          ],
+          "quote": "Are you seeing scaling laws yet or is it too early to say?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            3425.334,
+            3429.337
+          ],
+          "quote": "So for reinforcement learning, like scaling laws are like slightly different, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3429.357,
+            3436.701
+          ],
+          "quote": "So like scaling laws is the component of how much compute you put in, how much data you put in, and like the model size.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-function",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励函数 (reward function)",
+      "file": "奖励函数",
+      "primary": true,
+      "how_described": "本集说不要精心设计一个精确描述「科学」或「有趣数学」的奖励函数，而是给智能体简单直截了当的目标，让复杂性靠环境涌现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            1063.586,
+            1072.955
+          ],
+          "quote": "I think another way to say it is people often think in RL, oh my God, how do I come up with a reward function that kind of perfectly specifies this really complicated thing that I want to discover?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1215.859,
+            1217.66
+          ],
+          "quote": "What does a reward function look like for you all?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "他们基于 NVIDIA GPU 的集群上尽量让模拟、训练、推理都跑在 GPU 上，避免依赖大量 CPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 530,
+          "t": [
+            3302.686,
+            3306.028
+          ],
+          "quote": "So our simulations can run on the GPU inference and training and so on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "metnet",
+      "type": "concept",
+      "role": "concept",
+      "name": "MetNet",
+      "file": "MetNet",
+      "primary": false,
+      "how_described": "Espeholt 在 Google Brain 做的短期天气预报机器学习模型，本集举它说明机器学习可以比累积误差的物理模拟更准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            2329.418,
+            2338.967
+          ],
+          "quote": "I think you obviously did a lot in the digital world, but you also built MetNet, which touches real-world atmospheric data.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "Silver 认为编码智能体加速研究是现在时机成熟的原因之一，并因此把超级智能的时间预测从 3-5 年改口为 3 年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 661,
+          "t": [
+            4024.176,
+            4030.739
+          ],
+          "quote": "So I'm going to say three years because of what can be done with coding agents to accelerate things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"沙箱":96,"智能体":489,"推理":98,"Modal":7,"Cognition":27,"Anthropic":201,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"沙箱":98,"智能体":492,"推理":98,"Modal":7,"Cognition":27,"Anthropic":203,"Louis Knight-Webb":1,"Akshat Bubna":1,"AI Engineers":1,"Vibhu":1}</script>
 
 <script>
 (function(){

@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>UBI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="UBI">UB</div><div class="pi"><h1 class="pt">UBI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="UBI">UB</div><div class="pi"><h1 class="pt">UBI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]]**(51:16起):本集在讨论 AI 与就业时提及，说有人提议用 UBI 作为 AI 抢走工作后的应对，但 Freeberg 认为那本质上就是社会主义
 - **[[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]]**(33:44起):本集把它说成:Hoffman 从来不是 UBI 拥护者,「你一算账就会觉得这账算不过来」;美国人讨厌它的潜台词是「让你失业然后放到福利上」,钱应该流向参与和贡献。
+- **[[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]]**(18:37起):本集把它说成『癌症』和错误做法;替代方案是 Ronald Coase 的思路——把劳动力市场准入权变成可出售的产权,劳动者从 AI 这种『劳动力供应者』身上收取许可收入,而非领救济。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-08-31-doac-top-white-house-advisor-why-big-tech-wan|《David Freeberg：美国正在走向社会主义，但AI能开另一扇门》]] — 作为概念(提及)
 - [[2026-10-02-newcomer-reid-hoffman-on-chatgpt--data-centers--w|《Reid Hoffman：聪明的加速主义——继续开发、放慢部署》]] — 作为概念
+- [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Claude]] · [[开源 AI]] · [[Reid Hoffman]] · [[开放权重模型]] · [[对齐]] · [[表观遗传重编程]] · [[递归自我改进]] · [[AI]]
+[[智能体]] · [[AI]] · [[对齐]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Claude]] · [[开源 AI]] · [[Reid Hoffman]] · [[超级智能]]
 
-<script type="application/json" class="pd-epn">{"智能体":489,"ChatGPT":111,"Claude":96,"开源 AI":2,"Reid Hoffman":2,"开放权重模型":1,"对齐":23,"表观遗传重编程":2,"递归自我改进":12,"AI":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":492,"AI":33,"对齐":25,"Anthropic":203,"OpenAI":199,"ChatGPT":111,"Claude":96,"开源 AI":2,"Reid Hoffman":2,"超级智能":12}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":197,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Josh":1,"Chai Discovery":1,"OpenAI":199,"药物发现":1,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":10,"湿实验室":1}</script>
 
 <script>
 (function(){

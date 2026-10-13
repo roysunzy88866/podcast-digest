@@ -1,0 +1,149 @@
+{
+  "title_zh": "让智能体的记忆变成真正能用的技能",
+  "tldr": "Neo4j 产品经理 Will Lyon 讲解如何把智能体的记忆从「可检索」升级为「可行动」的知识图与技能。",
+  "digest_md": "智能体跑完一个任务，学到的东西常常转头就忘。Neo4j 的产品经理 Will Lyon 在这场演讲里说，今天的记忆系统大多只是把文本存起来、用时捞回来，但这远远不够——智能体需要的是能行动的知识，最好还能把经验自动沉淀成可复用的技能。\n\n## 为什么能想起来不等于会用\n\n现在的记忆系统基本一个套路：把文本切成小块存起来，检索时找最相关的几块塞进上下文，指望智能体自己想明白。问题是，**回忆不等于可行动的知识**。\n\n一个典型麻烦是缺少统一的同一事物表示。比如 Nguyen 医生，在不同对话里可能被叫成 Robert N. Nguyen、心脏科医生、Nguyen 大夫——系统不知道这是同一个人。所以智能体需要的知识必须是连接的、有类型的、可追溯的，而不只是可检索的 [01:39 Unknown]。\n\n## 记忆分三种，推理过程也要存下来\n\nNeo4j 把智能体记忆看成一个连接的图，分短期、长期和推理记忆三类。前两种好理解：对话消息和从中抽出的实体。第三种是他们特别强调的——**把智能体的推理过程当作一等公民存下来**。\n\n具体说，就是记录决策痕迹：每个决策关联着证据、调用了哪些工具、结果如何，甚至烧了多少 token、花了多少时间 [04:41 Unknown]。这样，成百上千个共享同一批工具的智能体，就能互相学习经验，共享一张上下文图。\n\n## 从记忆图里蒸馏出技能\n\n光有记忆还不够，下一步是把经验变成技能。技能是 Anthropic 提出的开放标准：一段描述加上渐进式披露的详细文档，打包后可以在不同智能体间复用。\n\n但技能也有老毛病——都是文本，说不清是不是在谈同一件事。Neo4j 研究团队为此发表了名为 APE 的研究，把技能表示成带严格模式的类型化执行图，每一步是一个节点 [08:38 Unknown]。**在 SkillsBench 基准测试上，这套方法让任务完成率显著提升**。\n\n他们的思路是：从某个工作范围的记忆图出发（一段对话、某个实体周围的子图），蒸馏出一个技能。要求很明确：步骤要有真实数据支撑、流程确定性、可长期治理——底层数据变了，技能要能感知到过期了。\n\n## 光有依据还不够，还得检查跑没跑题\n\n**技能生成前有几道启发式检查**。覆盖度：技能里的步骤和描述是否处处有数据支撑。连贯性更有意思：如果发现喂进去的内容横跨多个主题，系统会建议你拆成多个技能。治理上，用社区发现这类图算法判断主题混杂，配合一个技能注册表，随时给任何智能体发最新版本，并标记过期或漂移的技能 [12:02 Unknown]。\n\n整个生成管线有 7 个阶段，大部分是确定性步骤，大模型只负责合成部分描述文本 [13:16 Unknown]。\n\n## 免费服务已上线，现场演示了一遍\n\n这些想法做成了 Neo4j Agent Memory Service（简称 NAMS），属于 Neo4j Labs 项目，目前免费，任何人都可以注册试用。它提供 REST API 和 MCP 工具，后台自动做实体抽取、技能蒸馏和治理。\n\n现场演示中，Lyon 用一个医疗本体（就诊、医生这类实体）导入了一批对话，然后从一段患者接诊对话蒸馏技能：系统自动抽出了从接诊到病历归档的全部步骤，每一步都关联着真实的工具调用和实体，最后打包成标准的技能文件 [16:51 Unknown]。\n\n一句话总结这场演讲：智能体的记忆不该只是越堆越多的文本，而应该是一张结构化的图——既能追溯每个决策的来龙去脉，也能把成功经验自动提炼成别人能直接用的技能。\n\n## 本集带走\n\n- 只做检索的记忆不够用：智能体需要连接、有类型、可追溯的知识，核心难题是给同一事物建立统一表示。\n- 推理记忆是关键一环：把决策、工具调用、成本等决策痕迹存进图里，多个智能体可以互相学习。\n- 技能可以从记忆图里自动蒸馏：以图的方式表示技能（Neo4j 的 APE 研究），在基准测试中显著提高了任务完成率。\n- 技能需要治理：底层数据变化时能检测到技能过期，用连贯性检查决定是否拆分。\n- Neo4j 的 NAMS 服务目前免费开放，把这些模式做成了可试用的产品。",
+  "quotes": [
+    {
+      "en": "Sometimes I feel like we're in maybe like an amnesiac loop, right? Where our agents go through this reasoning phase, acting, they successfully complete some task, but then kind of forget what they've learned.",
+      "zh": "有时我觉得我们可能处于某种失忆循环中，对吧？我们的智能体经历推理阶段、行动，成功完成了一些任务，但随后就有点忘记了它们学到的东西。",
+      "timestamp": "00:41",
+      "speaker": "Will Lyon"
+    },
+    {
+      "en": "So really, agents need knowledge that is both connected, typed, and traceable, right? Not just retrievable.",
+      "zh": "所以，智能体真正需要的是既相互连接、有类型、又可追溯的知识，而不仅仅是可检索的。",
+      "timestamp": "01:53",
+      "speaker": "Will Lyon"
+    },
+    {
+      "en": "This is important not just so that a single agent can get better the next time you do it to do the exact same thing, but rather think about systems where you have hundreds or thousands of agents that have some shared grouping of tools that they have access to.",
+      "zh": "这不仅能让单个智能体下次做完全相同的事情时变得更好，更要想想那些拥有成百上千个智能体、它们可以访问某种共享工具组的系统。",
+      "timestamp": "05:16",
+      "speaker": "Will Lyon"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:41",
+      "speaker": "Unknown",
+      "en": "Sometimes I feel like we're in maybe like an amnesiac loop, right? Where our agents go through this reasoning phase, acting, they successfully complete some task, but then kind of forget what they've learned.",
+      "zh": "有时我觉得我们可能处于某种失忆循环中，对吧？我们的智能体经历推理阶段、行动，成功完成了一些任务，但随后就有点忘记了它们学到的东西。"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Unknown",
+      "en": "Now, the challenge that we have is recall isn't really actionable knowledge.",
+      "zh": "我们面临的挑战是，检索回来的内容并不是真正可行动的知识。"
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Unknown",
+      "en": "So really, agents need knowledge that is both connected, typed, and traceable, right? Not just retrievable.",
+      "zh": "所以，智能体真正需要的是既相互连接、有类型、又可追溯的知识，而不仅仅是可检索的。"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Unknown",
+      "en": "So retrieval is just a part of the problem when we're talking about agent memory.",
+      "zh": "所以，当我们谈论智能体记忆时，检索只是问题的一部分。"
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Unknown",
+      "en": "One thing though that I think is really important when we're talking about agent memory and actionable knowledge is this idea of the reasoning graph, right?",
+      "zh": "不过，当我们谈论智能体记忆和可行动知识时，我认为真正重要的一个东西是推理图的概念，对吧？"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Unknown",
+      "en": "Reasoning memory is a first-class citizen, right?",
+      "zh": "推理记忆是一等公民，对吧？"
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Unknown",
+      "en": "So we want to make sure that we're storing thinking and the facts, not just the data, right?",
+      "zh": "所以我们要确保存储的是思考过程和事实，而不仅仅是数据，对吧？"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Unknown",
+      "en": "So every decision that our agent makes is linked to the reasoning grounded in evidence, right?",
+      "zh": "我们的智能体做出的每一个决定都链接到有证据支撑的推理，对吧？"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Unknown",
+      "en": "This is important not just so that a single agent can get better the next time you do it to do the exact same thing, but rather think about systems where you have hundreds or thousands of agents that have some shared grouping of tools that they have access to.",
+      "zh": "这不仅能让单个智能体下次做完全相同的事情时变得更好，更要想想那些拥有成百上千个智能体、它们可以访问某种共享工具组的系统。"
+    },
+    {
+      "timestamp": "05:43",
+      "speaker": "Unknown",
+      "en": "So that we have one shared context graph that enables our agents to essentially learn from each other in this shared memory piece.",
+      "zh": "这样我们就拥有一个共享的上下文图，让我们的智能体基本上可以在这个共享记忆部分中相互学习。"
+    },
+    {
+      "timestamp": "07:52",
+      "speaker": "Unknown",
+      "en": "But skills have a similar challenge to some of the issues that we saw previously when we were talking about memory, right, is that we're typically working with pros, and so we're still often",
+      "zh": "但技能面临着一些我们之前谈论记忆时看到的类似挑战，对吧，就是我们通常处理的是散文式文本，所以我们仍然常常"
+    },
+    {
+      "timestamp": "09:33",
+      "speaker": "Unknown",
+      "en": "The Ape Protocol, and this is from the benchmark that was used in the paper, found that yeah, this actually matters.",
+      "zh": "APE 协议——这来自论文中使用的基准测试——发现，是的，这确实有效果。"
+    },
+    {
+      "timestamp": "10:27",
+      "speaker": "Unknown",
+      "en": "We want this to be grounded in actual data that we've observed.",
+      "zh": "我们希望它建立在我们实际观察到的数据之上。"
+    },
+    {
+      "timestamp": "10:32",
+      "speaker": "Unknown",
+      "en": "We want this to be like deterministic, right? We want well understood procedural steps in our graph and we want to be able to govern this over time, right?",
+      "zh": "我们希望它是确定性的，对吧？我们希望图中有被充分理解的程序性步骤，并且希望能够随时间推移对其进行治理，对吧？"
+    },
+    {
+      "timestamp": "10:55",
+      "speaker": "Unknown",
+      "en": "Making sure that the data that makes up our skill is grounded in our memory system, but that's not enough for it to be useful, right?",
+      "zh": "确保构成我们技能的数据是基于我们的记忆系统的，但仅凭这一点还不足以让它变得有用，对吧？"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Unknown",
+      "en": "For any agent, the most recent up-to-date skill, understand if that skill may have been stale or drifted, right?",
+      "zh": "对任何智能体，取到最新的技能，并理解该技能是否可能已经过时或发生了漂移，对吧？"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Unknown",
+      "en": "The one thing that we're trying to point out here is that most of these steps are deterministic.",
+      "zh": "我们在这里想指出的一点是，这些步骤中大部分是确定性的。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Unknown",
+      "en": "We're really only leveraging an LLM here for synthesizing some of the claims, generating some of the text that we use for",
+      "zh": "我们在这里真正使用 LLM 的地方，只是用于综合一些声明、生成一些我们用于构建技能描述的文本。"
+    },
+    {
+      "timestamp": "14:23",
+      "speaker": "Unknown",
+      "en": "We use graph algorithms like community detection, right? So if we're mixing topics from multiple communities, that can be an indication that we need to decompose our skill, and we'll catch that in the skill governance piece.",
+      "zh": "我们使用图算法，比如社区检测，对吧？如果我们混合了来自多个社区的主题，那可能表明我们需要分解我们的技能，我们会在技能治理环节中捕捉到这一点。"
+    },
+    {
+      "timestamp": "14:45",
+      "speaker": "Unknown",
+      "en": "This is free.",
+      "zh": "这是免费的。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Will Lyon，是 Neo4j 的产品经理。Neo4j 你可能听说过，是做图数据库的，简单说就是专门存“东西和东西之间关系”的数据库。在这场演讲里，他聊的是一个特别实际的问题：智能体跑完一个任务，学到的东西常常转头就忘。开场的时候他自己也吐槽，说有时候觉得我们可能处在某种失忆循环里——智能体经历了推理、行动，成功干成了一些事，然后就把学到的东西忘了。那怎么办？他的答案是：把智能体的记忆从“能想起来”升级成“能行动”，最好还能自动沉淀成可复用的技能。\n\n先说说现在主流的记忆系统是怎么做的。套路基本是一个：把文本切成小块存起来，用的时候检索出最相关的几块，塞进上下文，指望智能体自己想明白。听起来挺合理，但问题在于，回忆不等于可行动的知识。\n\n举个例子。假设有个 Nguyen 医生，在不同的对话里，他可能被记成 Robert N. Nguyen，也可能被记成心脏科医生，或者就叫 Nguyen 大夫。系统不知道这些说的是同一个人。你想，智能体拿着这些碎片信息，怎么准确行动？所以 Will Lyon 说，智能体真正需要的，是既相互连接、有类型、又可追溯的知识，而不仅仅是可检索的。这话说得直白，但点到了要害。\n\n那具体怎么做？Neo4j 把智能体的记忆看成一张连接的图，分成三类：短期记忆、长期记忆，还有推理记忆。前两种好理解，短期就是对话消息，长期就是从对话里抽出来的实体，比如刚才说的医生、就诊这些。重点是第三种——推理记忆，就是把智能体的推理过程本身，当作一等公民存下来。\n\n这是什么意思呢？就是记录决策痕迹：每一个决策，关联着当时的证据是什么、调用了哪些工具、结果怎么样，甚至烧了多少 token、花了多少时间，全都记下来。你可能会想，记这么细干嘛？用处大了。想象一个系统，有成百上千个智能体，共享同一批工具——有了这些决策痕迹，它们就能互相学习经验，共享一张上下文图。一个智能体踩过的坑，别的智能体都能看见。这就不只是让单个智能体下次做得更好了。\n\n好，说到这儿，你可能会问：记忆都存下来了，然后呢？这就引出下一步——把经验变成技能。技能这个词，是 Anthropic 提出的一个开放标准，形式上就是一段描述，加上渐进式披露的详细文档，打包之后可以在不同智能体之间复用。但技能也有个老毛病，跟刚才记忆的问题一模一样——都是文本，说不清两段内容是不是在谈同一件事。\n\nNeo4j 的研究团队为这个做了一项研究，叫 APE。思路是把技能表示成带严格模式的类型化执行图，每一步是一个节点，节点之间有明确的关系。效果怎么样？在 SkillsBench 基准测试上，这套方法让任务完成率显著提升。\n\n他们的完整思路是这样的：从某个工作范围的记忆图出发——比如一段对话，或者某个实体周围的子图——从中蒸馏出一个技能。要求很明确：步骤必须有真实数据支撑，流程要确定性，还要能长期治理。最后这条特别重要：底层数据变了，技能要能自己感知到过期了，不能拿着一份老黄历继续干。\n\n那怎么保证蒸馏出来的技能是靠谱的？技能生成之前，有几道启发式检查。第一道是覆盖度：技能里的每一个步骤、每一段描述，是不是处处有数据支撑。第二道更有意思，叫连贯性：如果系统发现喂进去的内容横跨好几个主题，会建议你拆成多个技能，而不是硬捏成一个四不像。治理层面，用社区发现这类图算法来判断主题混不混杂，再配合一个技能注册表，随时给任何智能体推送最新版本，同时把过期或者漂移的技能标记出来。\n\n顺带一提，整个生成管线一共 7 个阶段，大部分是确定性的步骤，大模型只负责合成一部分描述文本。这个设计思路也值得琢磨——能用确定性流程搞定的事，就不劳驾大模型自由发挥。\n\n那这些想法落地了吗？落地了。做成了一个叫 Neo4j Agent Memory Service 的服务，简称 NAMS，属于 Neo4j Labs 项目，目前免费，任何人都可以注册试用。它提供 REST API 和 MCP 工具，后台自动做实体抽取、技能蒸馏和治理。\n\n演讲现场还演示了一遍。Lyon 用一个医疗本体——就是就诊、医生这类实体的结构定义——导入了一批对话，然后从一段患者接诊对话里蒸馏技能。系统自动抽出了从接诊到病历归档的全部步骤，每一步都关联着真实的工具调用和实体，最后打包成一份标准的技能文件。整个流程看得见、追溯得到。\n\n回顾一下这条线：先承认只做检索的记忆不够用，智能体需要连接的、有类型的、可追溯的知识；然后把推理过程本身也存进图里，让多个智能体能互相学习；再从记忆图里蒸馏出结构化的技能，配上覆盖度、连贯性这些检查和治理机制。这个方向的核心洞察，其实一句话就能说清：智能体的记忆，不该只是越堆越多的文本，而应该是一张结构化的图——既能追溯每个决策的来龙去脉，也能把成功经验自动提炼成别人能直接用的技能。"
+}

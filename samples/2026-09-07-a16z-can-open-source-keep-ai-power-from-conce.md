@@ -108,8 +108,8 @@ jsonLd: |
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同公司:OpenAI · 同概念:GPU、LLM</span>
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切]]<span class="pd-rz">同概念:GPU、LLM、编码智能体 (coding agents)</span>
 - [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]]<span class="pd-rz">同公司:OpenAI · 同概念:LLM、编码智能体 (coding agents)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同公司:OpenAI · 同概念:GPU</span>
 
 </div>
 <div class="pd-ex">

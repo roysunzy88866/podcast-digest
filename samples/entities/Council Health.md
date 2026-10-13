@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sophia Du]] · [[Julie Yoo]] · [[a16z]] · [[Kairos]] · [[Devoted Health]] · [[AI]] · [[智能体 AI]] · [[大型语言模型]] · [[电子健康记录]] · [[第三方支付体系]]
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Julie Yoo":1,"a16z":21,"Kairos":1,"Devoted Health":2,"AI":32,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Julie Yoo":1,"a16z":21,"Kairos":1,"Devoted Health":2,"AI":33,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

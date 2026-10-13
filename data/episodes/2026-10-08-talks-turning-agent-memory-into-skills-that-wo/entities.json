@@ -1,0 +1,994 @@
+{
+  "episode_id": "2026-10-08-talks-turning-agent-memory-into-skills-that-wo",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "智能体记忆",
+    "知识图谱",
+    "技能蒸馏",
+    "Neo4j",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "will-lyon",
+      "type": "person",
+      "role": "guest",
+      "name": "Will Lyon",
+      "file": "Will Lyon",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "company",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": true,
+      "how_described": "本集是 Neo4j 产品经理 Will Lyon 的演讲,介绍 Neo4j 把智能体记忆看作连接图的产品方法与研究,以及其 Labs 下的免费 NAMS 服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.525,
+            29.667
+          ],
+          "quote": "I'm a product manager at Neo4j.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            130.65,
+            134.593
+          ],
+          "quote": "At Neo4j, this is how we think of agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            356.721,
+            368.785
+          ],
+          "quote": "This is a system that we've built at Neo4j, a pattern that lots of folks are following for working with agent memory, but what about this idea of actionable knowledge, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            499.9,
+            517.025
+          ],
+          "quote": "And so to address some of these challenges that we're seeing with skills, some folks on the Neo4j research team have done some interesting research and published some work on APE, Graph Representation for Learning and Governing Agent Skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            523.243,
+            526.664
+          ],
+          "quote": "If he's not here, he's at the Neo4j booth today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            735.768,
+            742.091
+          ],
+          "quote": "Cool, so we've implemented this in the Neo4j agent memory service, or we call NAMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            742.451,
+            747.474
+          ],
+          "quote": "This is an agent memory as a service as part of our Neo4j Labs efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            881.815,
+            884.439
+          ],
+          "quote": "So this is NAMS, the Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1063.345,
+            1075.962
+          ],
+          "quote": "Cool, so that was a quick look at kind of how we think about agent memory as part of this context graph with Neo4j, and I'll leave up some resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1082.788,
+            1093.554
+          ],
+          "quote": "The Neo4j agent memory service that I mentioned is listed here as well as lots of documentation and resources for some of our open source tooling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1094.955,
+            1101.719
+          ],
+          "quote": "I'm out of time, but we have a Neo4j booth, so I will be there as well as lots of other folks from the Neo4j team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体经历推理、行动、完成任务后常常「转头就忘」,需要连接的、有类型的、可追溯的知识,而不是只靠检索;多个智能体还能通过共享上下文图互相学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            76.079,
+            80.683
+          ],
+          "quote": "We inject that into the context window and trust that the agent is able to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            122.746,
+            129.93
+          ],
+          "quote": "So retrieval is just a part of the problem when we're talking about agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            130.65,
+            134.593
+          ],
+          "quote": "At Neo4j, this is how we think of agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            142.539,
+            152.266
+          ],
+          "quote": "We'll take a look at this in a bit more detail, but bear with me on this idea of context graphs for agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            160.092,
+            165.237
+          ],
+          "quote": "Going from this process of agent messages, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            237.34,
+            247.447
+          ],
+          "quote": "One thing though that I think is really important when we're talking about agent memory and actionable knowledge is this idea of the reasoning graph, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            254.432,
+            255.212
+          ],
+          "quote": "Agent memory here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            261.634,
+            265.035
+          ],
+          "quote": "But what about the actual actions that the agent takes?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            279.92,
+            280.9
+          ],
+          "quote": "An agent decided.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            285.502,
+            293.064
+          ],
+          "quote": "So every decision that our agent makes is linked to the reasoning grounded in evidence, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            298.745,
+            304.093
+          ],
+          "quote": "for that execution plan, the tools the agent called, the results of those tool calls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            316.569,
+            333.293
+          ],
+          "quote": "This is important not just so that a single agent can get better the next time you do it to do the exact same thing, but rather think about systems where you have hundreds or thousands of agents that have some shared grouping of tools that they have access to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            335.053,
+            343.182
+          ],
+          "quote": "persist these agent runs, these decision traces in the graph, and then share that with other agents in our organization, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            356.721,
+            368.785
+          ],
+          "quote": "This is a system that we've built at Neo4j, a pattern that lots of folks are following for working with agent memory, but what about this idea of actionable knowledge, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            400.34,
+            403.383
+          ],
+          "quote": "How many folks have had an agent write the skill for you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            499.9,
+            517.025
+          ],
+          "quote": "And so to address some of these challenges that we're seeing with skills, some folks on the Neo4j research team have done some interesting research and published some work on APE, Graph Representation for Learning and Governing Agent Skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            531.706,
+            542.471
+          ],
+          "quote": "Ape is essentially an extension of the agent skills protocol with some additional metadata that now treats your skills as typed execution graphs, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            722.841,
+            732.966
+          ],
+          "quote": "For any agent, the most recent up-to-date skill, understand if that skill may have been stale or drifted, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            735.768,
+            742.091
+          ],
+          "quote": "Cool, so we've implemented this in the Neo4j agent memory service, or we call NAMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            742.451,
+            747.474
+          ],
+          "quote": "This is an agent memory as a service as part of our Neo4j Labs efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            753.317,
+            763.684
+          ],
+          "quote": "And essentially the way this works is we have a workspace scoped context graph that has our three types of agent memory, short-term, long-term, reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            881.815,
+            884.439
+          ],
+          "quote": "So this is NAMS, the Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            923.068,
+            926.191
+          ],
+          "quote": "Agent memory here, I can traverse that and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            946.447,
+            957.831
+          ],
+          "quote": "And then I have ingested a bunch of conversations here so we can see the conversations that have been ingested related to a healthcare agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1047.349,
+            1062.077
+          ],
+          "quote": "If we downloaded this, this would be packaged up with other references and so on following that progressive disclosure standard that we use with agent skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1063.345,
+            1075.962
+          ],
+          "quote": "Cool, so that was a quick look at kind of how we think about agent memory as part of this context graph with Neo4j, and I'll leave up some resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1082.788,
+            1093.554
+          ],
+          "quote": "The Neo4j agent memory service that I mentioned is listed here as well as lots of documentation and resources for some of our open source tooling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agent memory)",
+      "file": "智能体记忆",
+      "primary": true,
+      "how_described": "本集的核心主题:Neo4j 把智能体记忆看作由短期、长期和推理记忆组成的连接图,检索只是问题的一部分,回忆不等于可行动知识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            122.746,
+            129.93
+          ],
+          "quote": "So retrieval is just a part of the problem when we're talking about agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            130.65,
+            134.593
+          ],
+          "quote": "At Neo4j, this is how we think of agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            142.539,
+            152.266
+          ],
+          "quote": "We'll take a look at this in a bit more detail, but bear with me on this idea of context graphs for agent memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            237.34,
+            247.447
+          ],
+          "quote": "One thing though that I think is really important when we're talking about agent memory and actionable knowledge is this idea of the reasoning graph, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            254.432,
+            255.212
+          ],
+          "quote": "Agent memory here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            356.721,
+            368.785
+          ],
+          "quote": "This is a system that we've built at Neo4j, a pattern that lots of folks are following for working with agent memory, but what about this idea of actionable knowledge, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            735.768,
+            742.091
+          ],
+          "quote": "Cool, so we've implemented this in the Neo4j agent memory service, or we call NAMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            742.451,
+            747.474
+          ],
+          "quote": "This is an agent memory as a service as part of our Neo4j Labs efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            753.317,
+            763.684
+          ],
+          "quote": "And essentially the way this works is we have a workspace scoped context graph that has our three types of agent memory, short-term, long-term, reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            881.815,
+            884.439
+          ],
+          "quote": "So this is NAMS, the Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            923.068,
+            926.191
+          ],
+          "quote": "Agent memory here, I can traverse that and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1063.345,
+            1075.962
+          ],
+          "quote": "Cool, so that was a quick look at kind of how we think about agent memory as part of this context graph with Neo4j, and I'll leave up some resources.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1082.788,
+            1093.554
+          ],
+          "quote": "The Neo4j agent memory service that I mentioned is listed here as well as lots of documentation and resources for some of our open source tooling.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文图 (context graph)",
+      "file": "上下文图",
+      "primary": true,
+      "how_described": "本集说上下文图是承载智能体记忆的共享图,工作区范围内存储三类记忆,是技能蒸馏的来源,多个智能体共享一张上下文图互相学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            343.222,
+            353.012
+          ],
+          "quote": "So that we have one shared context graph that enables our agents to essentially learn from each other in this shared memory piece.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            404.328,
+            419.86
+          ],
+          "quote": "Yeah, so that's what we're talking about here, is going from this memory graph, this context graph, to how can we use that to create grounded, executable skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            610.071,
+            618.015
+          ],
+          "quote": "So essentially what we want to do is take this memory graph, this context graph that's maybe scoped to a workspace",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            753.317,
+            763.684
+          ],
+          "quote": "And essentially the way this works is we have a workspace scoped context graph that has our three types of agent memory, short-term, long-term, reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1063.345,
+            1075.962
+          ],
+          "quote": "Cool, so that was a quick look at kind of how we think about agent memory as part of this context graph with Neo4j, and I'll leave up some resources.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识图谱 (knowledge graph)",
+      "file": "知识图谱",
+      "primary": true,
+      "how_described": "本集说关键一步是从非结构化数据走向知识图谱:对智能体消息做实体抽取和实体消解,建立对同一事物的规范化表示,配强类型和关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            155.648,
+            160.052
+          ],
+          "quote": "One is going from unstructured data to a knowledge graph, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            188.73,
+            195.632
+          ],
+          "quote": "The entity resolution phase is one of the most important parts of building up this knowledge graph, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            213.398,
+            228.23
+          ],
+          "quote": "So having some description of your data model of the domain that you're working with, this is one of the key pieces of making sure that you are successful in going from that unstructured text data to a knowledge graph.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理记忆 (reasoning memory)",
+      "file": "推理记忆",
+      "primary": true,
+      "how_described": "本集强调推理记忆是一等公民:把智能体的决策轨迹存进图里,每个决策链接到有证据支撑的推理、工具调用、结果、token 消耗和耗时,让智能体间共享经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            134.733,
+            141.978
+          ],
+          "quote": "We think of it as a connected graph composed of short-term, long-term, and reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            255.292,
+            257.313
+          ],
+          "quote": "Reasoning memory is a first-class citizen, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            314.528,
+            316.188
+          ],
+          "quote": "Reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            753.317,
+            763.684
+          ],
+          "quote": "And essentially the way this works is we have a workspace scoped context graph that has our three types of agent memory, short-term, long-term, reasoning memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            895.69,
+            911.22
+          ],
+          "quote": "The basic idea here is that we have REST API and MCP tools that we can expose to our agents that map to ingesting, retrieving, working with long-term, short-term reasoning memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是 Anthropic 提出的开放标准,包含元数据描述加渐进式披露的详细文档,可打包在不同智能体间复用;但技能也是文本,面临规范化表示的同类挑战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            386.147,
+            390.851
+          ],
+          "quote": "The next step is typically creating skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            391.071,
+            393.974
+          ],
+          "quote": "How many people are using skills with their agents today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            395.756,
+            398.559
+          ],
+          "quote": "How many people have written skills yourself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            404.328,
+            419.86
+          ],
+          "quote": "Yeah, so that's what we're talking about here, is going from this memory graph, this context graph, to how can we use that to create grounded, executable skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            472.638,
+            488.236
+          ],
+          "quote": "But skills have a similar challenge to some of the issues that we saw previously when we were talking about memory, right, is that we're typically working with pros, and so we're still often",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            499.9,
+            517.025
+          ],
+          "quote": "And so to address some of these challenges that we're seeing with skills, some folks on the Neo4j research team have done some interesting research and published some work on APE, Graph Representation for Learning and Governing Agent Skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            531.706,
+            542.471
+          ],
+          "quote": "Ape is essentially an extension of the agent skills protocol with some additional metadata that now treats your skills as typed execution graphs, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            581.859,
+            597.373
+          ],
+          "quote": "When they applied this to SkillsBench, saw a significant increase in tasks successfully completed when looking at applying the Ape Protocol to human-curated skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            680.113,
+            697.531
+          ],
+          "quote": "This is a way that we can detect maybe if the information, the piece of the subgraph going into the skill distillation is split across multiple topics and we can suggest, well, you may want to create multiple skills here and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            714.775,
+            721.457
+          ],
+          "quote": "And with dynamic loading, you can think of having sort of like a governed skills registry that allows us to retrieve",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            781.135,
+            787.618
+          ],
+          "quote": "Governance to surface when our skills become stale based on the data that we have in the memory system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            818.216,
+            823.661
+          ],
+          "quote": "Like what is your starting scope for distilling one of these skills?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            856.939,
+            860.321
+          ],
+          "quote": "And then we can also, as I mentioned before, we can also compose skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1047.349,
+            1062.077
+          ],
+          "quote": "If we downloaded this, this would be packaged up with other references and so on following that progressive disclosure standard that we use with agent skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ape",
+      "type": "concept",
+      "role": "concept",
+      "name": "APE",
+      "file": "APE",
+      "primary": true,
+      "how_described": "本集说 APE 是 Neo4j 研究团队发表的「用于学习和治理智能体技能的图表示」研究,把技能表示成带严格模式的类型化执行图,在 SkillsBench 上显著提升了任务完成率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            499.9,
+            517.025
+          ],
+          "quote": "And so to address some of these challenges that we're seeing with skills, some folks on the Neo4j research team have done some interesting research and published some work on APE, Graph Representation for Learning and Governing Agent Skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            531.706,
+            542.471
+          ],
+          "quote": "Ape is essentially an extension of the agent skills protocol with some additional metadata that now treats your skills as typed execution graphs, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            573.591,
+            581.839
+          ],
+          "quote": "The Ape Protocol, and this is from the benchmark that was used in the paper, found that yeah, this actually matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            581.859,
+            597.373
+          ],
+          "quote": "When they applied this to SkillsBench, saw a significant increase in tasks successfully completed when looking at applying the Ape Protocol to human-curated skills.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nams",
+      "type": "concept",
+      "role": "concept",
+      "name": "NAMS",
+      "file": "NAMS",
+      "primary": true,
+      "how_described": "本集说 NAMS(Neo4j Agent Memory Service)是 Neo4j Labs 下的智能体记忆即服务,目前免费,提供 REST API 和 MCP 工具,后台自动做实体抽取、技能蒸馏和治理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            735.768,
+            742.091
+          ],
+          "quote": "Cool, so we've implemented this in the Neo4j agent memory service, or we call NAMs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            881.815,
+            884.439
+          ],
+          "quote": "So this is NAMS, the Neo4j agent memory service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill-distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能蒸馏 (skill distillation)",
+      "file": "技能蒸馏",
+      "primary": true,
+      "how_described": "本集说技能蒸馏是从记忆图中某个范围(一段对话、某实体周围子图)出发,蒸馏出接地于真实数据、确定性、可治理的技能,管线 7 个阶段大多为确定性步骤,LLM 只负责合成部分描述文本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            602.286,
+            608.83
+          ],
+          "quote": "How can we leverage some of those ideas, some of that research for skill distillation?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            680.113,
+            697.531
+          ],
+          "quote": "This is a way that we can detect maybe if the information, the piece of the subgraph going into the skill distillation is split across multiple topics and we can suggest, well, you may want to create multiple skills here and so on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill-governance",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能治理 (skill governance)",
+      "file": "技能治理",
+      "primary": true,
+      "how_described": "本集说技能治理包括:数据变化时检测技能过时或漂移,用覆盖度和连贯性等启发式检查,用社区发现等图算法判断主题混杂并建议拆分,配受治理的技能注册表给智能体发最新版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            702.993,
+            714.075
+          ],
+          "quote": "Skill governance is an important piece that I mentioned, making sure that we can understand as that skill changes, as the data changes, are we able to update the skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            866.523,
+            876.448
+          ],
+          "quote": "So if we're mixing topics from multiple communities, that can be an indication that we need to decompose our skill, and we'll catch that in the skill governance piece.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到 NAMS 向智能体暴露 REST API 和 MCP 工具,用于摄取和检索三类记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 146,
+          "t": [
+            895.69,
+            911.22
+          ],
+          "quote": "The basic idea here is that we have REST API and MCP tools that we can expose to our agents that map to ingesting, retrieving, working with long-term, short-term reasoning memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集说技能(skills)这一开放标准由 Anthropic 发布,托管在 AgentSkills.io。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            420.02,
+            427.826
+          ],
+          "quote": "So if you're not familiar with a skill, this is an open standard, anthropic, put this out,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

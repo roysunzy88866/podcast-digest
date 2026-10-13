@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sourcegraph":1,"Mercari":1,"智能体":489,"智能体批量变更":1,"代码库":1,"上下文窗口":18,"代码图":1,"确定性脚本":1,"OpenAI":197,"Anthropic":201}</script>
+<script type="application/json" class="pd-epn">{"Sourcegraph":1,"Mercari":1,"智能体":492,"智能体批量变更":1,"代码库":1,"上下文窗口":18,"代码图":1,"确定性脚本":1,"OpenAI":199,"Anthropic":203}</script>
 
 <script>
 (function(){

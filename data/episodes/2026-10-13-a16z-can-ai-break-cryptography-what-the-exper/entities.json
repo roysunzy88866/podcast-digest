@@ -1,0 +1,1424 @@
+{
+  "episode_id": "2026-10-13-a16z-can-ai-break-cryptography-what-the-exper",
+  "podcast": "The a16z Show",
+  "date": "2026-10-13",
+  "tags": [
+    "密码学",
+    "AI 安全",
+    "后量子密码",
+    "区块链",
+    "前沿实验室"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "liz-harkaby",
+      "type": "person",
+      "role": "host",
+      "name": "Liz Harkaby",
+      "file": "Liz Harkaby",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.69,
+            61.736
+          ],
+          "quote": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dan-bonnet",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dan Bonnet",
+      "file": "Dan Bonnet",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.69,
+            61.736
+          ],
+          "quote": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "eddie-lazarin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eddie Lazarin",
+      "file": "Eddie Lazarin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.69,
+            61.736
+          ],
+          "quote": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            80.174,
+            87.461
+          ],
+          "quote": "I'm joined here with Dan Bonet, a professor at Stanford, and Eddie Lazarin and Justin Thaler, two members of our team here at A16Z.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "justin-baylor",
+      "type": "person",
+      "role": "cohost",
+      "name": "Justin Baylor",
+      "file": "Justin Baylor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.69,
+            61.736
+          ],
+          "quote": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集讨论的导火索：OpenAI 发布约 700 篇数学与计算机科学论文，引发 AI 可能破解密码学的恐慌，但 Dan 指出其中没有一篇涉及密码学。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            45.147,
+            49.89
+          ],
+          "quote": "Recent results from OpenAI have sparked new concerns about the security of modern cryptography.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            122.511,
+            134.685
+          ],
+          "quote": "And a lot of that has been kicked off by some papers that OpenAI put out and different kind of breakthroughs they had in mathematical problems that were previously unsolved and how that relates back to cryptography.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            294.786,
+            299.991
+          ],
+          "quote": "The OpenAI drop had a variety of papers across hundreds of different topics.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            935.297,
+            949.701
+          ],
+          "quote": "The reaction is maybe an indirect reaction to the dump of mathematical results from OpenAI, a very indirect kind of information about AI's progress, which, again, was amazing, but I don't think is a surprise.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1496.826,
+            1510.918
+          ],
+          "quote": "Again, we didn't learn anything specific about that per se from the OpenAI drop, but I think it's a little bit less clear to me and I'd love to hear from Dan and from Justin about",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "a16z-crypto",
+      "type": "company",
+      "role": "company",
+      "name": "A16z Crypto",
+      "file": "A16z Crypto",
+      "primary": true,
+      "how_described": "本集出品方，Liz 所在的 a16z 加密团队，请来专家厘清事实与猜测，并从创业者视角讨论安全机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.69,
+            61.736
+          ],
+          "quote": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "type": "company",
+      "role": "company",
+      "name": "Coinbase",
+      "file": "Coinbase",
+      "primary": false,
+      "how_described": "本集提到 Coinbase 公开回应称 bunker mode 建议的安全措施他们早就在做了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1157.385,
+            1164.627
+          ],
+          "quote": "To Justin's point regarding institutions following all of these practices, you know, Coinbase already came out and said they already do this, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ethereum",
+      "type": "company",
+      "role": "company",
+      "name": "Ethereum",
+      "file": "Ethereum",
+      "primary": false,
+      "how_described": "本集提到以太坊基金会与社区在纯哈希 vs 格密码路线上的争论，以及 Justin Drake 的冷钱包 bunker mode 建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            1047.255,
+            1052.663
+          ],
+          "quote": "The first tweet was one by Justin Drake of the Ethereum Foundation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1054.245,
+            1068.752
+          ],
+          "quote": "Warning of a possible complete break of elliptic curve cryptography in the coming months and suggesting that at least like large cold wallets on the Ethereum blockchain enter what you call bunker mode or at least not have exposed public keys on chain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1642.312,
+            1655.679
+          ],
+          "quote": "Yeah, the other argument that I hear a lot in the blockchain space is that, specifically in Bitcoin and Ethereum, is that the hash assumptions that we make are necessary for other parts of the blockchain to operate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1704.259,
+            1708.901
+          ],
+          "quote": "And in some sense, the same thing is also playing out in the Ethereum foundation space.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1740.131,
+            1752.562
+          ],
+          "quote": "But also, especially in the Ethereum community, the way they plan to use only hashes, which comes with downsides like just bigger cryptography, is to",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bitcoin",
+      "type": "company",
+      "role": "company",
+      "name": "Bitcoin",
+      "file": "Bitcoin",
+      "primary": false,
+      "how_described": "本集提到比特币核心开发者对摆脱椭圆曲线假设、只依赖哈希函数安全性感到兴奋。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1642.312,
+            1655.679
+          ],
+          "quote": "Yeah, the other argument that I hear a lot in the blockchain space is that, specifically in Bitcoin and Ethereum, is that the hash assumptions that we make are necessary for other parts of the blockchain to operate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1688.614,
+            1690.375
+          ],
+          "quote": "I get a sense that in the Bitcoin space...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1690.755,
+            1703.499
+          ],
+          "quote": "And particularly the core devs that I talked to, they're actually quite excited about getting rid of elliptic curve assumptions in Bitcoin and having Bitcoin only depend on the security of a particular hash function without any additional assumptions.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cryptography",
+      "type": "concept",
+      "role": "concept",
+      "name": "密码学 (cryptography)",
+      "file": "密码学",
+      "primary": true,
+      "how_described": "本集主线：现代密码学建立在「某些数学问题很难算」的假设上，几十年攻击失败正是信心的来源；目前没有具体新威胁，无需恐慌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.945,
+            10.068
+          ],
+          "quote": "All of a sudden, a new threat emerged in the world of cryptography, which is whether our AI friends can actually attack cryptosystems that we thought were secure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            38.785,
+            44.233
+          ],
+          "quote": "Could it eventually break the cryptography protecting our banking systems, private messages, and crypto wallets?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            45.147,
+            49.89
+          ],
+          "quote": "Recent results from OpenAI have sparked new concerns about the security of modern cryptography.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 12,
+          "t": [
+            70.624,
+            74.871
+          ],
+          "quote": "They also explained how AI could ultimately help make cryptography and software more secure.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            102.734,
+            115.545
+          ],
+          "quote": "Advances in AI are going to cause a breakthrough or breaking of cryptography faster even than a quantum computer might, which is normally the basis of the discussion that we have when we think about modern day cryptography and what the state of the art looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            122.511,
+            134.685
+          ],
+          "quote": "And a lot of that has been kicked off by some papers that OpenAI put out and different kind of breakthroughs they had in mathematical problems that were previously unsolved and how that relates back to cryptography.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            163.541,
+            169.222
+          ],
+          "quote": "There is this long-going conversation on the threat of quantum computing to cryptography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            171.403,
+            186.968
+          ],
+          "quote": "Here, there's all of a sudden a new threat that's kind of emerged in the world of cryptography, which is whether our, you know, AI friends can actually attack cryptosystems that we thought were secure using, you know, their superintelligence and so on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            217.378,
+            228.381
+          ],
+          "quote": "And as I finished the list, the thing that kind of stuck in my mind is that, wow, this is incredible progress in mathematics, in computer science, but there are no questions here on cryptography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            228.841,
+            230.842
+          ],
+          "quote": "Yeah, not even on theoretical cryptography, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            230.902,
+            239.784
+          ],
+          "quote": "I mean, in principle, there are lots of really interesting open problems in constructing positive development in cryptography, constructing...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            250.01,
+            253.773
+          ],
+          "quote": "So you might wonder, well, does that mean the models are really bad at cryptography?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            263.579,
+            269.564
+          ],
+          "quote": "What have you done with trying to use these models to answer basic questions in cryptography?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            279.573,
+            294.386
+          ],
+          "quote": "Sorry, so just to clarify what you're saying, this tweet was not kicked off because there was something in the papers specific to cryptography, but rather that just the fact that they had massive breakthroughs in any sort of mathematics means there is likely a breakthrough in cryptography?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            301.431,
+            307.973
+          ],
+          "quote": "And many of those topics, although weren't specifically about cryptography, were adjacent to cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 51,
+          "t": [
+            308.013,
+            318.576
+          ],
+          "quote": "I'd say in the loose sense that they involve progress using similar techniques and mathematical reasoning that one would use to make progress in cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            328.021,
+            342.477
+          ],
+          "quote": "On the one hand, if the reason for the omission is that AI models are notably bad and couldn't find anything and that cryptography is particularly robust for some reason, that in itself would be very interesting, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 57,
+          "t": [
+            346.681,
+            355.866
+          ],
+          "quote": "To make progress in theoretical or applied cryptography and didn't really find anything worth discovering, that would be in itself very interesting.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 62,
+          "t": [
+            393.353,
+            399.295
+          ],
+          "quote": "Yeah, I think this is actually a really important point in that all of cryptography is based on complexity assumptions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            412.16,
+            421.104
+          ],
+          "quote": "In some sense, we first have to resolve that problem before we can actually argue that cryptography, the certain cryptographic problems really are hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            431.088,
+            434.009
+          ],
+          "quote": "We still have to keep making assumptions in cryptography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            492.372,
+            494.333
+          ],
+          "quote": "Cryptography is sort of built on assumptions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            583.711,
+            597.223
+          ],
+          "quote": "Like most of the reason for, you know, today's cryptography that we have confidence, you know, these problems actually are intractable is, you know, people have just tried for decades and decades and haven't come up with any good algorithms.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            688.938,
+            702.784
+          ],
+          "quote": "The process, in the absence of the ability to prove that these problems are hard, the problems on which cryptography is built, in the absence of that ability, we specifically rely in some sense on time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 129,
+          "t": [
+            760.88,
+            771.732
+          ],
+          "quote": "And we're not hearing from them about what they're discovering through their work in the normal way that we would from the academic and, you know, computer science and cryptography research mechanism.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 149,
+          "t": [
+            871.504,
+            875.106
+          ],
+          "quote": "And we can accelerate the deployment of better cryptography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            955.363,
+            959.206
+          ],
+          "quote": "A specific reaction to a specific piece of information about cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 170,
+          "t": [
+            969.827,
+            978.769
+          ],
+          "quote": "Maybe to give people a little bit more confidence also, we have a lot of different types of assumptions that we use to build public key cryptography.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            988.352,
+            992.793
+          ],
+          "quote": "There are many other types of assumptions that we can build public key cryptography from.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1054.245,
+            1068.752
+          ],
+          "quote": "Warning of a possible complete break of elliptic curve cryptography in the coming months and suggesting that at least like large cold wallets on the Ethereum blockchain enter what you call bunker mode or at least not have exposed public keys on chain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1181.479,
+            1188.582
+          ],
+          "quote": "As Dan said, we have already different types of assumptions that we can switch to in cryptography and we've prepared the path a little bit.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1250.687,
+            1264.6
+          ],
+          "quote": "And correct me if I'm wrong, but the types of cryptography that this tweet, the Justin Drake tweet, is referring to possibly being broken by advanced AI are the same types of cryptography that are under threat from a quantum computer as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1284.595,
+            1291.82
+          ],
+          "quote": "And the reason those, part of the reason why those things get conflated is that what Justin Drake was talking about was a lot of his fears about elliptic curve cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1292.72,
+            1302.626
+          ],
+          "quote": "And what's funny is because of fears of the quantum threat, people have already begun to treat elliptic curve cryptography as something that may be vulnerable soon.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1342.799,
+            1347.561
+          ],
+          "quote": "There's no way we're fully moving off of elliptic curve cryptography in the next couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1438.191,
+            1452.518
+          ],
+          "quote": "This debate also surfaced another opportunity to re-litigate something that comes up all the time, which is elliptic curves versus hashes versus lattice cryptography as the fundamental basis for specific constructions and specific applications.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1464.562,
+            1475.209
+          ],
+          "quote": "You know, if cryptography relies on the difficulty of specific problems, it could find flaws in these problems on any of the schemes, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1475.329,
+            1477.09
+          ],
+          "quote": "Not just elliptic curve cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1484.435,
+            1495.685
+          ],
+          "quote": "in lattice cryptography and elliptic curve cryptography that perhaps makes it more vulnerable to the ideations of a very well-resourced AI model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1512.039,
+            1528.413
+          ],
+          "quote": "What is it specifically maybe about hashes or about lattice cryptography in addition to elliptic curve cryptography that maybe gives someone, might give someone reasons to believe some are more secure than others to an AI threat?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1544.014,
+            1554.426
+          ],
+          "quote": "So the migration to post-quantum cryptography, I guess, in the blockchain space, there's actually quite a bit of debate on whether we should be using lattice-based signatures or hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1632.426,
+            1641.537
+          ],
+          "quote": "Whereas in lattice-based cryptography, maybe like elliptic curve cryptography, all those different schemes rely on maybe a specific shared problem or shared set of assumptions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1733.946,
+            1739.21
+          ],
+          "quote": "We only use hash-based cryptography because you just can't do good encryption key exchange from that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1740.131,
+            1752.562
+          ],
+          "quote": "But also, especially in the Ethereum community, the way they plan to use only hashes, which comes with downsides like just bigger cryptography, is to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1779.655,
+            1786.523
+          ],
+          "quote": "And yes, I'm very optimistic that the same AI tools that are scaring people about cryptography will also help us get all the bugs out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1918.275,
+            1934.822
+          ],
+          "quote": "So maybe to give a quick summary of what we've kind of discussed so far, what it sounds like is, you know, and I think Justin led this out very nicely, it is not a given that there is an efficient algorithm that could be found to break this type of cryptography.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2152.987,
+            2168.954
+          ],
+          "quote": "Whereas now, because we control these AI models, any startup or any software shop that's deploying a new crypto capability or actually even deploying any software at all can now have these models analyze its cryptography and analyze its general software for bugs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2334.509,
+            2342.66
+          ],
+          "quote": "Let's say the labs take up your plea, they throw a bunch of compute at it, and they come out and they say, you're right, we did break elliptic curve cryptography, actually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2350.682,
+            2354.685
+          ],
+          "quote": "Yeah, then basically we have to move to post-quantum cryptography, which we're already doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2364.032,
+            2365.894
+          ],
+          "quote": "They are actually using agile cryptography.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-quantum-cryptography",
+      "type": "concept",
+      "role": "concept",
+      "name": "后量子密码学 (post-quantum cryptography)",
+      "file": "后量子密码学",
+      "primary": true,
+      "how_described": "本集说 NIST 已在标准化多种后量子公钥系统，iMessage、Signal 等已完成混合部署，即使椭圆曲线被破也有备份可切换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1544.014,
+            1554.426
+          ],
+          "quote": "So the migration to post-quantum cryptography, I guess, in the blockchain space, there's actually quite a bit of debate on whether we should be using lattice-based signatures or hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2350.682,
+            2354.685
+          ],
+          "quote": "Yeah, then basically we have to move to post-quantum cryptography, which we're already doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lattice",
+      "type": "concept",
+      "role": "concept",
+      "name": "格密码学 (lattice)",
+      "file": "格密码学",
+      "primary": true,
+      "how_described": "本集说基于格的系统是后量子迁移的主要方向，有门限签名、密钥派生等哈希给不了的性质，但一旦底层格问题被破整个体系崩塌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            557.81,
+            567.658
+          ],
+          "quote": "For a lot of these problems, our evidence right now, while we have things like, you know, we know they're just as hard in the worst case as the average case, which, you know, for some of them, these lattice problems, which is helpful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1438.191,
+            1452.518
+          ],
+          "quote": "This debate also surfaced another opportunity to re-litigate something that comes up all the time, which is elliptic curves versus hashes versus lattice cryptography as the fundamental basis for specific constructions and specific applications.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1484.435,
+            1495.685
+          ],
+          "quote": "in lattice cryptography and elliptic curve cryptography that perhaps makes it more vulnerable to the ideations of a very well-resourced AI model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1512.039,
+            1528.413
+          ],
+          "quote": "What is it specifically maybe about hashes or about lattice cryptography in addition to elliptic curve cryptography that maybe gives someone, might give someone reasons to believe some are more secure than others to an AI threat?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1535.9,
+            1540.565
+          ],
+          "quote": "And we think of lattice as post-quantum, but not necessarily post-AI, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1544.014,
+            1554.426
+          ],
+          "quote": "So the migration to post-quantum cryptography, I guess, in the blockchain space, there's actually quite a bit of debate on whether we should be using lattice-based signatures or hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1557.689,
+            1562.935
+          ],
+          "quote": "On the internet at large, everybody's using lattice-based cryptosystems for key exchange, for signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1565.116,
+            1570.798
+          ],
+          "quote": "In the blockchain space, there is still a debate as to whether we're going to use hash-based signatures or lattice-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1598.106,
+            1605.548
+          ],
+          "quote": "If for some reason it turns out that the core lattice problems are not as hard as we thought, the whole mechanism collapses and we have no recovery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1607.749,
+            1612.791
+          ],
+          "quote": "So in some sense, hash-based signatures are far more agile than a lattice-based signature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1632.426,
+            1641.537
+          ],
+          "quote": "Whereas in lattice-based cryptography, maybe like elliptic curve cryptography, all those different schemes rely on maybe a specific shared problem or shared set of assumptions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1826.483,
+            1829.784
+          ],
+          "quote": "I do want to make one more point on the hash-based versus lattice-based.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1830.404,
+            1840.467
+          ],
+          "quote": "It is quite important to understand that lattice-based systems have much better properties than hash-based, which is actually why many in the crypto community are pushing towards lattice-based systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1840.987,
+            1851.429
+          ],
+          "quote": "So things like threshold signatures, things like non-hardened key derivation, there are many properties of lattice-based systems that we simply don't have with hash-based systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1901.828,
+            1909.571
+          ],
+          "quote": "I would be quite happy if we ended up using lattice-based schemes because that gives us much more room to play in and build interesting structures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2355.466,
+            2358.368
+          ],
+          "quote": "We have to move to these lattice-based systems, which are already deployed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2370.137,
+            2374.659
+          ],
+          "quote": "If you break elliptic curves, it doesn't matter because it's also encrypted under a lattice base system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "elliptic-curve-cryptography",
+      "type": "concept",
+      "role": "concept",
+      "name": "椭圆曲线密码学 (elliptic curve cryptography)",
+      "file": "椭圆曲线密码学",
+      "primary": true,
+      "how_described": "本集围绕它展开：Justin Drake 警告椭圆曲线密码可能被 AI 在数月内完全破解；嘉宾指出这会冲击整个数字世界，但迁移路径已备好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            1054.245,
+            1068.752
+          ],
+          "quote": "Warning of a possible complete break of elliptic curve cryptography in the coming months and suggesting that at least like large cold wallets on the Ethereum blockchain enter what you call bunker mode or at least not have exposed public keys on chain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1284.595,
+            1291.82
+          ],
+          "quote": "And the reason those, part of the reason why those things get conflated is that what Justin Drake was talking about was a lot of his fears about elliptic curve cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1292.72,
+            1302.626
+          ],
+          "quote": "And what's funny is because of fears of the quantum threat, people have already begun to treat elliptic curve cryptography as something that may be vulnerable soon.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1342.799,
+            1347.561
+          ],
+          "quote": "There's no way we're fully moving off of elliptic curve cryptography in the next couple of years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1475.329,
+            1477.09
+          ],
+          "quote": "Not just elliptic curve cryptography.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1484.435,
+            1495.685
+          ],
+          "quote": "in lattice cryptography and elliptic curve cryptography that perhaps makes it more vulnerable to the ideations of a very well-resourced AI model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1512.039,
+            1528.413
+          ],
+          "quote": "What is it specifically maybe about hashes or about lattice cryptography in addition to elliptic curve cryptography that maybe gives someone, might give someone reasons to believe some are more secure than others to an AI threat?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1632.426,
+            1641.537
+          ],
+          "quote": "Whereas in lattice-based cryptography, maybe like elliptic curve cryptography, all those different schemes rely on maybe a specific shared problem or shared set of assumptions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2334.509,
+            2342.66
+          ],
+          "quote": "Let's say the labs take up your plea, they throw a bunch of compute at it, and they come out and they say, you're right, we did break elliptic curve cryptography, actually.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hash-based-signatures",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于哈希的签名 (hash-based signatures)",
+      "file": "基于哈希的签名",
+      "primary": true,
+      "how_described": "本集详述区块链社区倾向：某哈希被破换一个即可、框架依然成立，且区块链本就依赖哈希（Merkle 树），不增加新假设，但代价是体积大、难用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            986.151,
+            987.992
+          ],
+          "quote": "There are many hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1544.014,
+            1554.426
+          ],
+          "quote": "So the migration to post-quantum cryptography, I guess, in the blockchain space, there's actually quite a bit of debate on whether we should be using lattice-based signatures or hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1565.116,
+            1570.798
+          ],
+          "quote": "In the blockchain space, there is still a debate as to whether we're going to use hash-based signatures or lattice-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1571.378,
+            1576.32
+          ],
+          "quote": "Generally, the attitude in the community is that hash-based signatures are more secure.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1593.685,
+            1597.606
+          ],
+          "quote": "Yeah, so there's like more agility when we use hash-based signatures.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1607.749,
+            1612.791
+          ],
+          "quote": "So in some sense, hash-based signatures are far more agile than a lattice-based signature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1860.612,
+            1864.334
+          ],
+          "quote": "There are many technical issues with getting hash-based signatures to work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1864.834,
+            1880.28
+          ],
+          "quote": "So many of us cryptographers are actually a little sad that some of the blockchain community will move to hash-based signatures that really have no algebraic properties for us to leverage for more advanced applications.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "quantum-computing",
+      "type": "concept",
+      "role": "concept",
+      "name": "量子计算 (quantum computing)",
+      "file": "量子计算",
+      "primary": true,
+      "how_described": "本集反复澄清：量子威胁只关乎椭圆曲线和 RSA 类系统，AI 威胁面更广（还能攻击后量子方案），两者被公众混为一谈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            62.61,
+            69.983
+          ],
+          "quote": "They discussed what the recent breakthroughs actually tell us, how AI threats differ from quantum computing, and why there's no reason to panic today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            163.541,
+            169.222
+          ],
+          "quote": "There is this long-going conversation on the threat of quantum computing to cryptography.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "p-versus-np",
+      "type": "concept",
+      "role": "concept",
+      "name": "P 与 NP 问题 (P versus NP)",
+      "file": "P 与 NP 问题",
+      "primary": false,
+      "how_described": "本集说正因为它是未解难题，密码学无法证明「问题是难的」，只能依赖假设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            403.437,
+            411.3
+          ],
+          "quote": "The reason we can't prove that those problems are hard is because that's related to a famous open problem in computer science called the P versus NP problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            422.164,
+            430.528
+          ],
+          "quote": "And so since we're very far away from that, none of the problems that were posted this week come even close to resolving the P versus NP problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿实验室 (Frontier Labs)",
+      "file": "前沿实验室",
+      "primary": true,
+      "how_described": "本集核心呼吁：前沿实验室应公开说明用最强模型攻击过哪些标准密码算法、结果如何——这是填补恐慌真空的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            255.854,
+            262.739
+          ],
+          "quote": "And so I think one of the things that I would maybe like to start with is a call to the Frontier Labs to please tell us",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            277.211,
+            279.153
+          ],
+          "quote": "Have the Frontier Labs tried?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            600.125,
+            604.309
+          ],
+          "quote": "And those are like pure math questions that these frontier labs could be turning their models on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandboxes",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandboxes)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说围绕 AI 智能体必须设置沙箱与权限边界，这是安全设计的新维度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            2097.497,
+            2107.185
+          ],
+          "quote": "Because of this, we have to think very carefully about the security boundaries and sandboxes and capabilities-based permissioning schemes we put around AI agents.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "bugs",
+      "type": "concept",
+      "role": "concept",
+      "name": "漏洞 (bugs)",
+      "file": "漏洞",
+      "primary": true,
+      "how_described": "本集强调当下真正的现实风险仍是软件漏洞，而 AI 擅长找漏洞；用模型扫描代码库、先攻后上，可让世界整体安全状况变好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1118.573,
+            1123.535
+          ],
+          "quote": "And so, yeah, I just want to emphasize that, you know, bugs remain everywhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1124.316,
+            1126.316
+          ],
+          "quote": "The AIs are good at finding the bugs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1776.992,
+            1779.415
+          ],
+          "quote": "And so the surface area for bugs just gets very large.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1779.655,
+            1786.523
+          ],
+          "quote": "And yes, I'm very optimistic that the same AI tools that are scaring people about cryptography will also help us get all the bugs out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1788.905,
+            1794.271
+          ],
+          "quote": "So, you know, we have to speculate just as much on, I know the bugs is like a really, really, really hard problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1794.311,
+            1798.876
+          ],
+          "quote": "So the AI is going to have to be really good if we're going to get all of those bugs out from a system that complicated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2152.987,
+            2168.954
+          ],
+          "quote": "Whereas now, because we control these AI models, any startup or any software shop that's deploying a new crypto capability or actually even deploying any software at all can now have these models analyze its cryptography and analyze its general software for bugs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2224.229,
+            2234.711
+          ],
+          "quote": "If that's the case and you pair that with a frame we've said before, we talked about before, which is that the number of bugs in software is finite, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2235.271,
+            2237.932
+          ],
+          "quote": "Then we're asymptotically approaching zero bugs.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "responsibly-disclose",
+      "type": "concept",
+      "role": "concept",
+      "name": "负责任披露 (responsibly disclose)",
+      "file": "负责任披露",
+      "primary": false,
+      "how_described": "本集说若实验室真的破解了密码系统，正确做法是先私下向行业和政府披露、制定更新计划，而非公开攻击方法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 410,
+          "t": [
+            2430.05,
+            2432.231
+          ],
+          "quote": "They should responsibly disclose it to",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "crypto-agility",
+      "type": "concept",
+      "role": "concept",
+      "name": "密码敏捷性 (crypto agility)",
+      "file": "密码敏捷性",
+      "primary": false,
+      "how_described": "本集说这是抵御意外的老办法：部署可快速切换密码设计的系统，AI 若带来意外，敏捷性会接管。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 234,
+          "t": [
+            1403.931,
+            1407.431
+          ],
+          "quote": "And one of the main things that we always preach is what's called crypto agility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1415.933,
+            1420.314
+          ],
+          "quote": "Crypto agility is in some sense our friend for defending against the unexpected.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1422.736,
+            1425.98
+          ],
+          "quote": "We're already, crypto agility is a term that's over a decade old.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1428.443,
+            1437.452
+          ],
+          "quote": "And if our AI friends come up with things that we didn't expect, well, you know, the crypto agility will kick in and we'll move to something that remains secure.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

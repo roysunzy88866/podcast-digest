@@ -92,11 +92,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"Stripe":48,"Anthropic":201,"智能体":489,"Cursor":86,"Amazon":32,"NVIDIA":70,"Databricks":23,"Google":71,"CrowdStrike":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"Stripe":48,"Anthropic":203,"智能体":492,"Cursor":86,"Amazon":32,"NVIDIA":70,"Databricks":23,"Google":71,"CrowdStrike":4}</script>
 
 <script>
 (function(){

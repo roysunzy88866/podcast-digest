@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":71,"Airbnb":14,"Y Combinator":7,"智能体":489,"AI":32}</script>
+<script type="application/json" class="pd-epn">{"Lon Harris":3,"Justin Kan":1,"Jason Calacanis":1,"Justin TV":1,"Twitch":2,"Google":71,"Airbnb":14,"Y Combinator":7,"智能体":492,"AI":33}</script>
 
 <script>
 (function(){

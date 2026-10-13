@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":27,"Google":71,"智能体":489,"沙箱":96,"无服务器":3,"云基础设施":1,"vibe coding":49,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":27,"Google":71,"智能体":492,"沙箱":98,"无服务器":3,"云基础设施":1,"vibe coding":49,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":32}</script>
+<script type="application/json" class="pd-epn">{"Stéphane Bancel":1,"Moderna":1,"Merck":1,"mRNA":1,"癌症疫苗":1,"Keytruda":1,"CAR T 疗法":2,"个性化医疗":1,"FDA":1,"AI":33}</script>
 
 <script>
 (function(){

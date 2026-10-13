@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"意识":2,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":63}</script>
+<script type="application/json" class="pd-epn">{"意识":2,"NCC":1,"物理主义":1,"整合信息理论":1,"唯心论":1,"神秘体验":1,"致幻剂":1,"皮层":1,"量子力学":1,"LLM":64}</script>
 
 <script>
 (function(){

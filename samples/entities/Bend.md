@@ -31,7 +31,7 @@ unlisted: true
 
 [[Vlad Luzin]] · [[智能体]] · [[多智能体系统]] · [[循环工程]] · [[对抗性智能体]] · [[单智能体瓶颈]] · [[MCP]] · [[A2A 协议]] · [[分布式系统]] · [[运行时绑定]]
 
-<script type="application/json" class="pd-epn">{"Vlad Luzin":2,"智能体":489,"多智能体系统":1,"循环工程":6,"对抗性智能体":2,"单智能体瓶颈":1,"MCP":91,"A2A 协议":3,"分布式系统":1,"运行时绑定":1}</script>
+<script type="application/json" class="pd-epn">{"Vlad Luzin":2,"智能体":492,"多智能体系统":1,"循环工程":6,"对抗性智能体":2,"单智能体瓶颈":1,"MCP":92,"A2A 协议":3,"分布式系统":1,"运行时绑定":1}</script>
 
 <script>
 (function(){

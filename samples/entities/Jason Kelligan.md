@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":89,"红队测试":8,"开源模型":4,"前沿模型":27,"智能体":489,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":89,"红队测试":8,"开源模型":4,"前沿模型":27,"智能体":492,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
 
 <script>
 (function(){

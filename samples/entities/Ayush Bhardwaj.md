@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":489,"应用垂直 AI":1,"专有数据":2,"可观测性":44,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":21}</script>
+<script type="application/json" class="pd-epn">{"智能体":492,"应用垂直 AI":1,"专有数据":2,"可观测性":44,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":10,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":21}</script>
 
 <script>
 (function(){

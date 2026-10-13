@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>DeepMind</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="DeepMind">DE</div><div class="pi"><h1 class="pt">DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>18</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="DeepMind">DE</div><div class="pi"><h1 class="pt">DeepMind</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]]**(01:35起):本集说 Jaan 是 DeepMind 极早期投资人（Series A 与 B 之间的过桥贷款），源于在牛津主动接触 Demis，被「解决智能再用它解决一切」的论点打动。
 - **[[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]]**(02:52起):本集嘉宾 Owen 介绍背景时提到自己曾在 DeepMind 做了几年研究科学家。
 - **[[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]]**(05:02起):本集说嘉宾在 DeepMind 实习时受 Demis 启发：以科学家命名会议室、哲学家会议室不放电视只面对面用白板讨论，后来照搬到 Perplexity
+- **[[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]]**(03:43起):两位嘉宾长期工作过的地方，AlphaGo 的诞生地；Silver 说他在那里度过了美好时光，但坚信通往超级智能的路不经过基于 LLM 的产品，所以选择离开创办新实验室。
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*18 集*
+*19 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2025-10-10-lennys-how-google-built-ai-mode-in-under-a-year|《Google搜索没死，AI让它扩张了》]] — 作为被讨论公司(提及)
@@ -57,14 +58,15 @@ unlisted: true
 - [[2026-10-08-generalist-jaan-tallinn-would-like-us-to-survive-e3|《Skype 联创警告：别再扣动这把指向地球的扳机》]] — 作为被讨论公司
 - [[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]] — 作为被讨论公司(提及)
 - [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]] — 作为被讨论公司(提及)
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[Harvey]] · [[NVIDIA]] · [[后训练]] · [[Amazon]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[推理]] · [[Harvey]] · [[NVIDIA]] · [[GPU]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"智能体":489,"OpenAI":197,"Anthropic":201,"Google":71,"ChatGPT":111,"推理":98,"Harvey":21,"NVIDIA":70,"后训练":1,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"智能体":492,"OpenAI":199,"Anthropic":203,"Google":71,"ChatGPT":111,"推理":98,"Harvey":21,"NVIDIA":70,"GPU":31,"后训练":1}</script>
 
 <script>
 (function(){

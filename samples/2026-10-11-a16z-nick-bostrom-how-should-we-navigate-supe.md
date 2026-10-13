@@ -244,9 +244,9 @@ AI 已经是很好的哲学讨论伙伴——帮你挑刺、找文献、当回�
 
 **换个口味**
 
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切]]<span class="pd-rz">同概念:对齐 (alignment)、强化学习 (reinforcement learning)、超级智能 (superintelligence)</span>
 - [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Hugging Face · 同概念:对齐 (alignment)、沙箱 (sandbox)</span>
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:开源模型 (open source)、强化学习 (reinforcement learning)</span>
-- [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face · 同概念:开源模型 (open source)</span>
 
 </div>
 </div>

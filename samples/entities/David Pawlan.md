@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":489,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
+<script type="application/json" class="pd-epn">{"Anish Acharya":4,"AssistantBench":1,"智能体":492,"主动性":2,"Muse":8,"Instinct":5,"OpenClaw":24,"ChatGPT":111,"Shopify":17,"Amazon":32}</script>
 
 <script>
 (function(){

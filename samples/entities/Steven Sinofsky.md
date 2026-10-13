@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":32,"Anthropic":201,"Martin Casado":7,"Apple":27,"regulation":3,"OpenAI":197,"Google":71,"Theo Jaffe":8,"Amazon":32,"对齐":23}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":32,"Anthropic":203,"Martin Casado":7,"Apple":27,"regulation":3,"OpenAI":199,"Google":71,"Theo Jaffe":8,"Amazon":32,"对齐":25}</script>
 
 <script>
 (function(){

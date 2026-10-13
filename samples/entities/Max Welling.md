@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":489,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":6,"cusp.ai":1,"智能体":492,"等变性":1,"扩散模型":2,"自发对称性破缺":1,"波":1,"机器学习力场":1,"分子动力学":1,"金属有机框架":1}</script>
 
 <script>
 (function(){

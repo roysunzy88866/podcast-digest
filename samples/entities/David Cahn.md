@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"AGI":28,"资本支出":7,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":201,"OpenAI":197,"Google":71,"TPU":5}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"AGI":28,"资本支出":7,"AI ROI":1,"垂直整合":1,"认知劳动":1,"Anthropic":203,"OpenAI":199,"Google":71,"TPU":5}</script>
 
 <script>
 (function(){

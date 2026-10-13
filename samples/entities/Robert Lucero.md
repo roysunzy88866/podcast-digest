@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":489,"沙箱":96,"护栏":89,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":492,"沙箱":98,"护栏":89,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

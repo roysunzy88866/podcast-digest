@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason":7,"Temporal":6,"智能体":489,"编码智能体":32,"持久化执行":6,"harness":65,"智能体循环":6,"code mode":3,"护栏":89,"沙箱":96}</script>
+<script type="application/json" class="pd-epn">{"Jason":7,"Temporal":6,"智能体":492,"编码智能体":33,"持久化执行":6,"harness":65,"智能体循环":6,"code mode":3,"护栏":89,"沙箱":98}</script>
 
 <script>
 (function(){

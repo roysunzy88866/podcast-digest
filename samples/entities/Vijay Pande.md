@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":489,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":492,"临床试验":1,"基础模型":6,"精准医疗":1,"go-to-market":14}</script>
 
 <script>
 (function(){

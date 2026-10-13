@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>XAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="XAI">XA</div><div class="pi"><h1 class="pt">XAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="XAI">XA</div><div class="pi"><h1 class="pt">XAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,16 +18,19 @@ unlisted: true
 - **[[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]]**(01:25起):本集仅在开头列举「明白当前道路导致灭绝但仍在推进」的 AI 公司 CEO 时被提到
 - **[[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]]**(00:30起):本集说 XAI 是 VastData 非常重要的客户，是它支持的顶级 AI 玩家之一
 - **[[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]]**(00:23起):本集嘉宾背景：他和联合创始人几个月前从这个「神话般的地方」离开去创业
+- **[[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]]**(45:33起):本集说 Elon 把 SpaceX 与 xAI 合并,并断言他真正的太空计划其实是 Grok/xAI——他只信 AI 不信物理学家。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-07-25-talks-what-actually-makes-a-startup-durable#^q10]]
 
+![[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is#^q16]]
+
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|《没有暗GPU:一位基金经理拆解AI泡沫论与棋局》]] — 作为被讨论公司(提及)
 - [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|《AI 安全排行榜：谁扛住了越狱，谁没有》]] — 作为被讨论公司(提及)
@@ -36,14 +39,15 @@ unlisted: true
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为被讨论公司(提及)
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为被讨论公司
 - [[2026-09-26-talks-the-loop-is-the-product-roland-gavrilesc|《循环就是产品：智能体配方与每瓦特价值》]] — 作为概念(提及)
+- [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[Hugging Face]] · [[GrokBot]] · [[微调]] · [[Matt Turk]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[推理]] · [[NVIDIA]] · [[沙箱]] · [[GrokBot]] · [[微调]] · [[Matt Turk]]
 
-<script type="application/json" class="pd-epn">{"智能体":489,"OpenAI":197,"Anthropic":201,"Cursor":86,"推理":98,"NVIDIA":70,"Hugging Face":37,"GrokBot":8,"微调":36,"Matt Turk":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":492,"OpenAI":199,"Anthropic":203,"Cursor":86,"推理":98,"NVIDIA":70,"沙箱":98,"GrokBot":8,"微调":36,"Matt Turk":5}</script>
 
 <script>
 (function(){

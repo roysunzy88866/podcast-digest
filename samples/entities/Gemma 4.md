@@ -27,7 +27,7 @@ unlisted: true
 
 [[推理]] · [[Carlos Sanchez]] · [[Paige Bailey]] · [[智能体网站]] · [[DeepMind]] · [[超个性化]] · [[Google AI Edge Gallery]] · [[Cerebras]] · [[Managed Agents]] · [[Adobe Experience Manager]]
 
-<script type="application/json" class="pd-epn">{"推理":98,"Carlos Sanchez":1,"Paige Bailey":1,"智能体网站":1,"DeepMind":18,"超个性化":1,"Google AI Edge Gallery":1,"Cerebras":2,"Managed Agents":7,"Adobe Experience Manager":1}</script>
+<script type="application/json" class="pd-epn">{"推理":98,"Carlos Sanchez":1,"Paige Bailey":1,"智能体网站":1,"DeepMind":19,"超个性化":1,"Google AI Edge Gallery":1,"Cerebras":2,"Managed Agents":7,"Adobe Experience Manager":1}</script>
 
 <script>
 (function(){

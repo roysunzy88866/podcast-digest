@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":489,"红队测试":8,"幻觉":12,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"the artificial intelligence underwriting company":1,"AI UC one":1,"智能体":492,"红队测试":8,"幻觉":12,"越狱":2,"提示词注入":1,"标准—审计—保险飞轮":1,"运行时安全":1}</script>
 
 <script>
 (function(){

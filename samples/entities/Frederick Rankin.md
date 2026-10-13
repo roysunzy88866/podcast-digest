@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":489,"人在回路":21,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Alex Rampell":3,"Stein Pella":1,"Lassie":1,"智能体":492,"人在回路":21,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
 
 <script>
 (function(){

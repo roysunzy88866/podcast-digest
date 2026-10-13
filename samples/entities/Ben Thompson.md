@@ -90,11 +90,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":53,"Microsoft":32,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":197,"Mark Zuckerberg":1,"Anthropic":201,"智能体":489,"Google":71}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":53,"Microsoft":32,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":199,"Mark Zuckerberg":1,"Anthropic":203,"智能体":492,"Google":71}</script>
 
 <script>
 (function(){

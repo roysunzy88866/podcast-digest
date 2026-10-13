@@ -1,0 +1,3442 @@
+[
+ {
+  "seg": 0,
+  "start": 0.945,
+  "end": 10.068,
+  "speaker": "Unknown",
+  "en": "All of a sudden, a new threat emerged in the world of cryptography, which is whether our AI friends can actually attack cryptosystems that we thought were secure.",
+  "zh": "突然之间，密码学世界里出现了一个新的威胁，那就是我们的人工智能朋友是否真的能够攻击那些我们曾以为安全的密码系统。"
+ },
+ {
+  "seg": 1,
+  "start": 10.348,
+  "end": 16.389,
+  "speaker": "Unknown",
+  "en": "The fear here is that the AI labs could break them if they are breakable.",
+  "zh": "这里的担忧是，如果这些系统是可破解的，AI 实验室可能就会破解它们。"
+ },
+ {
+  "seg": 2,
+  "start": 16.529,
+  "end": 20.39,
+  "speaker": "Unknown",
+  "en": "The fact that people try to break them and fail gives us more confidence.",
+  "zh": "人们尝试破解却失败了，这一事实反而给了我们更多的信心。"
+ },
+ {
+  "seg": 3,
+  "start": 20.45,
+  "end": 25.712,
+  "speaker": "Unknown",
+  "en": "NIST is already standardizing many other types of public key systems that we can switch to.",
+  "zh": "NIST 已经在标准化许多其他类型的公钥系统，我们可以切换过去。"
+ },
+ {
+  "seg": 4,
+  "start": 25.952,
+  "end": 29.153,
+  "speaker": "Unknown",
+  "en": "So if it turns out one of our assumptions broken, we have backups.",
+  "zh": "所以如果我们其中的某个假设最终被证伪，我们还有备用方案。"
+ },
+ {
+  "seg": 5,
+  "start": 29.273,
+  "end": 29.873,
+  "speaker": "Unknown",
+  "en": "We just need to know.",
+  "zh": "我们只需要知道(真相)。"
+ },
+ {
+  "seg": 6,
+  "start": 30.293,
+  "end": 33.858,
+  "speaker": "Unknown",
+  "en": "Are there startup opportunities here and where a new company might be able to come in and help?",
+  "zh": "这里有创业机会吗？新公司在哪些方面能够切入并提供帮助？"
+ },
+ {
+  "seg": 7,
+  "start": 35.721,
+  "end": 38.345,
+  "speaker": "Unknown",
+  "en": "AI is getting better at solving difficult math problems.",
+  "zh": "AI 在解决复杂数学问题方面正变得越来越好。"
+ },
+ {
+  "seg": 8,
+  "start": 38.785,
+  "end": 44.233,
+  "speaker": "Unknown",
+  "en": "Could it eventually break the cryptography protecting our banking systems, private messages, and crypto wallets?",
+  "zh": "它最终会不会破解保护我们银行系统、私人消息和加密钱包的密码学？"
+ },
+ {
+  "seg": 9,
+  "start": 45.147,
+  "end": 49.89,
+  "speaker": "Unknown",
+  "en": "Recent results from OpenAI have sparked new concerns about the security of modern cryptography.",
+  "zh": "OpenAI 最近的研究成果引发了人们对现代密码学安全性的新担忧。"
+ },
+ {
+  "seg": 10,
+  "start": 50.69,
+  "end": 61.736,
+  "speaker": "Unknown",
+  "en": "In this episode, A16z Crypto's Liz Harkaby is joined by Stanford professor Dan Bonnet, general partner Eddie Lazarin, and research partner Justin Baylor to separate fact from speculation.",
+  "zh": "在本期节目中，A16z Crypto 的 Liz Harkaby 与斯坦福教授 Dan Bonnet、普通合伙人 Eddie Lazarin 以及研究合伙人 Justin Baylor 一起，厘清事实与猜测。"
+ },
+ {
+  "seg": 11,
+  "start": 62.61,
+  "end": 69.983,
+  "speaker": "Unknown",
+  "en": "They discussed what the recent breakthroughs actually tell us, how AI threats differ from quantum computing, and why there's no reason to panic today.",
+  "zh": "他们讨论了最近的突破究竟告诉了我们什么、AI 威胁与量子计算有何不同，以及为什么今天没有理由恐慌。"
+ },
+ {
+  "seg": 12,
+  "start": 70.624,
+  "end": 74.871,
+  "speaker": "Unknown",
+  "en": "They also explained how AI could ultimately help make cryptography and software more secure.",
+  "zh": "他们还解释了 AI 最终如何帮助让密码学和软件更加安全。"
+ },
+ {
+  "seg": 13,
+  "start": 77.612,
+  "end": 79.314,
+  "speaker": "Unknown",
+  "en": "Hey, welcome to our show today.",
+  "zh": "嘿，欢迎收看今天的节目。"
+ },
+ {
+  "seg": 14,
+  "start": 79.414,
+  "end": 79.954,
+  "speaker": "Unknown",
+  "en": "I'm Liz.",
+  "zh": "我是 Liz。"
+ },
+ {
+  "seg": 15,
+  "start": 80.174,
+  "end": 87.461,
+  "speaker": "Unknown",
+  "en": "I'm joined here with Dan Bonet, a professor at Stanford, and Eddie Lazarin and Justin Thaler, two members of our team here at A16Z.",
+  "zh": "和我在一起的是 Dan Bonet,一位斯坦福教授，还有 Eddie Lazarin 和 Justin Thaler,我们 A16Z 团队的两位成员。"
+ },
+ {
+  "seg": 16,
+  "start": 88.381,
+  "end": 102.334,
+  "speaker": "Unknown",
+  "en": "We're here to talk about a pretty big discussion that's going on right now that's been kicked off yesterday by a tweet that a security researcher, Justin Drake, put out warning the crypto industry to start preparing for what he's calling bunker mode, specifically around this worry that the",
+  "zh": "我们今天要谈的是一个正在进行的相当大的讨论，它由昨天一位安全研究员 Justin Drake 发出的一条推文引发，他警告加密行业要开始为他所谓的“bunker mode(地堡模式)”做准备，具体围绕这样一个担忧，即"
+ },
+ {
+  "seg": 17,
+  "start": 102.734,
+  "end": 115.545,
+  "speaker": "Unknown",
+  "en": "Advances in AI are going to cause a breakthrough or breaking of cryptography faster even than a quantum computer might, which is normally the basis of the discussion that we have when we think about modern day cryptography and what the state of the art looks like.",
+  "zh": "AI 的进展会导致密码学被突破或破解，速度甚至比量子计算机还快——而我们平时讨论现代密码学及其最新技术状况时，通常都是基于量子计算机这个前提。"
+ },
+ {
+  "seg": 18,
+  "start": 116.306,
+  "end": 121.591,
+  "speaker": "Unknown",
+  "en": "And so he called on, you know, big institutions to start thinking about moving funds and start thinking about this.",
+  "zh": "于是他呼吁，你知道，大型机构开始考虑转移资金、开始考虑这件事。"
+ },
+ {
+  "seg": 19,
+  "start": 122.511,
+  "end": 134.685,
+  "speaker": "Unknown",
+  "en": "And a lot of that has been kicked off by some papers that OpenAI put out and different kind of breakthroughs they had in mathematical problems that were previously unsolved and how that relates back to cryptography.",
+  "zh": "其中很多讨论是由 OpenAI 发布的一些论文引发的，以及他们在一些此前未解决的数学问题上取得的不同类型的突破，以及这些与密码学之间的关联。"
+ },
+ {
+  "seg": 20,
+  "start": 135.125,
+  "end": 141.452,
+  "speaker": "Unknown",
+  "en": "And so, Dan, I don't know if you want to kind of summarize what those breakthroughs were or what those papers put out and how that kind of kicked this off.",
+  "zh": "那么，Dan,不知道你想不想概括一下这些突破是什么，或者那些论文发布了什么内容，以及这些是如何引发这场讨论的。"
+ },
+ {
+  "seg": 21,
+  "start": 141.821,
+  "end": 145.605,
+  "speaker": "Unknown",
+  "en": "So let's see, I guess the first thing I should say is, you know, everybody calm down.",
+  "zh": "那么，我想我首先应该说的是，你知道，大家冷静一下。"
+ },
+ {
+  "seg": 22,
+  "start": 145.805,
+  "end": 146.265,
+  "speaker": "Unknown",
+  "en": "Don't panic.",
+  "zh": "不要恐慌。"
+ },
+ {
+  "seg": 23,
+  "start": 146.806,
+  "end": 147.246,
+  "speaker": "Unknown",
+  "en": "Calm down.",
+  "zh": "冷静下来。"
+ },
+ {
+  "seg": 24,
+  "start": 147.446,
+  "end": 150.73,
+  "speaker": "Unknown",
+  "en": "The world today is the same as it was a year, a year ago, two years ago.",
+  "zh": "今天的世界和一年前、两年前是一样的。"
+ },
+ {
+  "seg": 25,
+  "start": 151.731,
+  "end": 152.631,
+  "speaker": "Unknown",
+  "en": "That's the first message.",
+  "zh": "这是第一条信息。"
+ },
+ {
+  "seg": 26,
+  "start": 153.192,
+  "end": 161.34,
+  "speaker": "Unknown",
+  "en": "Now, I guess before we get started, I just want to make sure people are on the same page and that there are kind of two stories that are getting entangled and let's, I think we",
+  "zh": "现在，在开始之前，我想确保大家在同一个频道上，目前有大概两个故事被纠缠在一起，我认为我们"
+ },
+ {
+  "seg": 27,
+  "start": 161.82,
+  "end": 163.02,
+  "speaker": "Unknown",
+  "en": "Should first disentangle them.",
+  "zh": "应该先把它们解开。"
+ },
+ {
+  "seg": 28,
+  "start": 163.541,
+  "end": 169.222,
+  "speaker": "Unknown",
+  "en": "There is this long-going conversation on the threat of quantum computing to cryptography.",
+  "zh": "关于量子计算对密码学的威胁，有一个持续已久的讨论。"
+ },
+ {
+  "seg": 29,
+  "start": 169.682,
+  "end": 171.163,
+  "speaker": "Unknown",
+  "en": "This is not what this is about.",
+  "zh": "这不是今天要谈的内容。"
+ },
+ {
+  "seg": 30,
+  "start": 171.403,
+  "end": 186.968,
+  "speaker": "Unknown",
+  "en": "Here, there's all of a sudden a new threat that's kind of emerged in the world of cryptography, which is whether our, you know, AI friends can actually attack cryptosystems that we thought were secure using, you know, their superintelligence and so on.",
+  "zh": "在这里，突然出现了一个新威胁，它出现在密码学世界里，那就是我们的，你知道，AI 朋友是否真的能够攻击那些我们以为安全的密码系统，用它们，你知道，所谓的超级智能等等。"
+ },
+ {
+  "seg": 31,
+  "start": 187.528,
+  "end": 198.152,
+  "speaker": "Unknown",
+  "en": "So I guess the backdrop to all this is that 700, around 700 papers were put up online presenting enormous progress in mathematics and computer science.",
+  "zh": "所以我想这一切的背景是，大约 700 篇论文被发布到网上，展示了数学和计算机科学领域的巨大进展。"
+ },
+ {
+  "seg": 32,
+  "start": 198.632,
+  "end": 202.813,
+  "speaker": "Unknown",
+  "en": "I can't say enough about how impressed I am with the results that have been put on online.",
+  "zh": "对于这些发布到网上的成果，我怎么表达我的印象深刻都不为过。"
+ },
+ {
+  "seg": 33,
+  "start": 202.833,
+  "end": 205.534,
+  "speaker": "Unknown",
+  "en": "It's really quite remarkable to see all the progress.",
+  "zh": "看到所有这些进展真是相当了不起。"
+ },
+ {
+  "seg": 34,
+  "start": 206.054,
+  "end": 210.336,
+  "speaker": "Unknown",
+  "en": "I remember my kind of inbox blew up when this came online.",
+  "zh": "我记得这些东西上线时我的收件箱都爆了。 [[35] 每个人都在征求看法等等。"
+ },
+ {
+  "seg": 35,
+  "start": 210.356,
+  "end": 212.917,
+  "speaker": "Unknown",
+  "en": "Everybody was asking for opinions and so on.",
+  "zh": "当时大家都在征求意见之类的。"
+ },
+ {
+  "seg": 36,
+  "start": 212.937,
+  "end": 216.578,
+  "speaker": "Unknown",
+  "en": "So I started going through the list of problems that progress was made on.",
+  "zh": "所以我开始逐一看那些取得进展的问题清单。"
+ },
+ {
+  "seg": 37,
+  "start": 217.378,
+  "end": 228.381,
+  "speaker": "Unknown",
+  "en": "And as I finished the list, the thing that kind of stuck in my mind is that, wow, this is incredible progress in mathematics, in computer science, but there are no questions here on cryptography.",
+  "zh": "当我看完这份清单时，留在我脑海里的印象是，哇，这是数学和计算机科学领域令人难以置信的进展，但这里没有任何关于密码学的问题。"
+ },
+ {
+  "seg": 38,
+  "start": 228.841,
+  "end": 230.842,
+  "speaker": "Unknown",
+  "en": "Yeah, not even on theoretical cryptography, right?",
+  "zh": "是啊，连理论密码学方面的问题都没有，对吧？"
+ },
+ {
+  "seg": 39,
+  "start": 230.902,
+  "end": 239.784,
+  "speaker": "Unknown",
+  "en": "I mean, in principle, there are lots of really interesting open problems in constructing positive development in cryptography, constructing...",
+  "zh": "我是说，原则上，在密码学的正面构建、建设性发展方面有很多非常有趣的开放问题，构建……"
+ },
+ {
+  "seg": 40,
+  "start": 240.424,
+  "end": 249.41,
+  "speaker": "Unknown",
+  "en": "New cryptosystems, maybe even in a theory, things that wouldn't directly be relevant to the real world, none of those questions were in the list of 700 problems that were posted.",
+  "zh": "新的密码系统，甚至可能在理论层面，那些与现实世界没有直接关联的东西，这些问题没有一个出现在那 700 个已发布问题的清单里。"
+ },
+ {
+  "seg": 41,
+  "start": 250.01,
+  "end": 253.773,
+  "speaker": "Unknown",
+  "en": "So you might wonder, well, does that mean the models are really bad at cryptography?",
+  "zh": "所以你可能会想，那么，这是否意味着这些模型在密码学方面真的很差？"
+ },
+ {
+  "seg": 42,
+  "start": 254.413,
+  "end": 254.793,
+  "speaker": "Unknown",
+  "en": "We don't know.",
+  "zh": "我们不知道。"
+ },
+ {
+  "seg": 43,
+  "start": 255.854,
+  "end": 262.739,
+  "speaker": "Unknown",
+  "en": "And so I think one of the things that I would maybe like to start with is a call to the Frontier Labs to please tell us",
+  "zh": "所以我想我也许想从一件事开始，那就是呼吁前沿实验室，请告诉我们"
+ },
+ {
+  "seg": 44,
+  "start": 263.579,
+  "end": 269.564,
+  "speaker": "Unknown",
+  "en": "What have you done with trying to use these models to answer basic questions in cryptography?",
+  "zh": "在尝试用这些模型回答密码学的基本问题方面，你们做了什么？"
+ },
+ {
+  "seg": 45,
+  "start": 270.225,
+  "end": 277.171,
+  "speaker": "Unknown",
+  "en": "I guess the real question is what is the status, for example, on actually attacking standardized and deployed crypto?",
+  "zh": "我想真正的问题是，比如说，在真正攻击已标准化、已部署的密码学方面，现状如何？"
+ },
+ {
+  "seg": 46,
+  "start": 277.211,
+  "end": 279.153,
+  "speaker": "Unknown",
+  "en": "Have the Frontier Labs tried?",
+  "zh": "前沿实验室尝试过吗？"
+ },
+ {
+  "seg": 47,
+  "start": 279.573,
+  "end": 294.386,
+  "speaker": "Unknown",
+  "en": "Sorry, so just to clarify what you're saying, this tweet was not kicked off because there was something in the papers specific to cryptography, but rather that just the fact that they had massive breakthroughs in any sort of mathematics means there is likely a breakthrough in cryptography?",
+  "zh": "抱歉，我想澄清一下你说的意思，这条推文之所以引发，并不是因为论文里有专门针对密码学的内容，而是仅仅因为它们在任何数学领域都取得了巨大的突破，就意味着密码学很可能也会有突破？"
+ },
+ {
+  "seg": 48,
+  "start": 294.786,
+  "end": 299.991,
+  "speaker": "Unknown",
+  "en": "The OpenAI drop had a variety of papers across hundreds of different topics.",
+  "zh": "OpenAI 的这波发布包含了跨越数百个不同主题的各类论文。"
+ },
+ {
+  "seg": 49,
+  "start": 300.391,
+  "end": 301.371,
+  "speaker": "Unknown",
+  "en": "Hundreds of different topics.",
+  "zh": "数百个不同的主题。"
+ },
+ {
+  "seg": 50,
+  "start": 301.431,
+  "end": 307.973,
+  "speaker": "Unknown",
+  "en": "And many of those topics, although weren't specifically about cryptography, were adjacent to cryptography.",
+  "zh": "而这些话题中的许多，虽然并不是专门关于密码学的，但都与密码学相邻。"
+ },
+ {
+  "seg": 51,
+  "start": 308.013,
+  "end": 318.576,
+  "speaker": "Unknown",
+  "en": "I'd say in the loose sense that they involve progress using similar techniques and mathematical reasoning that one would use to make progress in cryptography.",
+  "zh": "我会说，从宽泛的意义上讲，它们涉及用相似的技术和数学推理来取得进展，而那些正是人们在密码学中取得进展所会用到的东西。"
+ },
+ {
+  "seg": 52,
+  "start": 318.596,
+  "end": 323.297,
+  "speaker": "Unknown",
+  "en": "So their absence is a little bit conspicuous, right, is what Dan is saying.",
+  "zh": "所以它们的缺席有点显眼，对吧，这就是 Dan 在说的。"
+ },
+ {
+  "seg": 53,
+  "start": 323.698,
+  "end": 324.438,
+  "speaker": "Unknown",
+  "en": "And it's something that...",
+  "zh": "而这是一件……"
+ },
+ {
+  "seg": 54,
+  "start": 325.258,
+  "end": 327.38,
+  "speaker": "Unknown",
+  "en": "You know, you have to consider the explanations for.",
+  "zh": "你知道，你必须去考虑对它的各种解释。"
+ },
+ {
+  "seg": 55,
+  "start": 328.021,
+  "end": 342.477,
+  "speaker": "Unknown",
+  "en": "On the one hand, if the reason for the omission is that AI models are notably bad and couldn't find anything and that cryptography is particularly robust for some reason, that in itself would be very interesting, right?",
+  "zh": "一方面，如果缺席的原因是 AI 模型表现明显很差、什么都没找到，而密码学出于某种原因特别坚固，那这本身就会非常有趣，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 342.577,
+  "end": 346.141,
+  "speaker": "Unknown",
+  "en": "In other words, if the labs attempted",
+  "zh": "换句话说，如果各实验室尝试"
+ },
+ {
+  "seg": 57,
+  "start": 346.681,
+  "end": 355.866,
+  "speaker": "Unknown",
+  "en": "To make progress in theoretical or applied cryptography and didn't really find anything worth discovering, that would be in itself very interesting.",
+  "zh": "在理论或应用密码学上取得进展，但并没有真正发现任何值得发现的东西，那这本身就会非常有趣。"
+ },
+ {
+  "seg": 58,
+  "start": 356.527,
+  "end": 369.174,
+  "speaker": "Unknown",
+  "en": "If on the other hand, they did make progress and there could have been a lot to share, but there are reasons that what they wanted to, what they could have shared would be concerning, then that would be very interesting to know as well.",
+  "zh": "另一方面，如果它们确实取得了进展、本来有很多可以分享的东西，但由于某些原因，它们想要的、它们本可以分享的东西会令人担忧，那么了解这一点也会非常有趣。"
+ },
+ {
+  "seg": 59,
+  "start": 369.566,
+  "end": 381.711,
+  "speaker": "Unknown",
+  "en": "And so I just I want to go go back to what you kind of kicked off with here, which is we kind of breezed over this is we are not it is not a given that the current kind of like cryptographic standards we use are human breakable.",
+  "zh": "所以我只是想回到你在这里开场时提出的那个问题，就是我们有点一扫而过的一点是：我们现在使用的这类密码学标准是人类可破解的，这并不是给定的。"
+ },
+ {
+  "seg": 60,
+  "start": 382.031,
+  "end": 385.612,
+  "speaker": "Unknown",
+  "en": "We just don't know if they are or not today.",
+  "zh": "我们今天只是不知道它们是否可破解。"
+ },
+ {
+  "seg": 61,
+  "start": 386.112,
+  "end": 392.495,
+  "speaker": "Unknown",
+  "en": "And so the fear here is that the AI labs could break them if they are breakable.",
+  "zh": "所以这里的恐惧在于，如果它们可破解，AI 实验室可能会破解它们。"
+ },
+ {
+  "seg": 62,
+  "start": 393.353,
+  "end": 399.295,
+  "speaker": "Unknown",
+  "en": "Yeah, I think this is actually a really important point in that all of cryptography is based on complexity assumptions.",
+  "zh": "是的，我认为这实际上是一个非常重要的点，因为所有密码学都建立在复杂性假设之上。"
+ },
+ {
+  "seg": 63,
+  "start": 399.375,
+  "end": 400.556,
+  "speaker": "Unknown",
+  "en": "Yeah, it's based on assumptions.",
+  "zh": "是的，它建立在假设之上。"
+ },
+ {
+  "seg": 64,
+  "start": 401.096,
+  "end": 402.917,
+  "speaker": "Unknown",
+  "en": "We have to assume that certain problems are hard.",
+  "zh": "我们必须假设某些问题是困难的。"
+ },
+ {
+  "seg": 65,
+  "start": 403.437,
+  "end": 411.3,
+  "speaker": "Unknown",
+  "en": "The reason we can't prove that those problems are hard is because that's related to a famous open problem in computer science called the P versus NP problem.",
+  "zh": "我们无法证明这些问题是困难的，原因在于这关系到计算机科学中一个著名的开放问题，叫做 P 与 NP 问题。"
+ },
+ {
+  "seg": 66,
+  "start": 412.16,
+  "end": 421.104,
+  "speaker": "Unknown",
+  "en": "In some sense, we first have to resolve that problem before we can actually argue that cryptography, the certain cryptographic problems really are hard.",
+  "zh": "从某种意义上说，我们必须先解决那个问题，才能真正论证密码学中某些密码学问题确实是困难的。"
+ },
+ {
+  "seg": 67,
+  "start": 422.164,
+  "end": 430.528,
+  "speaker": "Unknown",
+  "en": "And so since we're very far away from that, none of the problems that were posted this week come even close to resolving the P versus NP problem.",
+  "zh": "而由于我们距离那一步还很远，这周发布的问题中没有任何一个接近解决 P 与 NP 问题。"
+ },
+ {
+  "seg": 68,
+  "start": 431.088,
+  "end": 434.009,
+  "speaker": "Unknown",
+  "en": "We still have to keep making assumptions in cryptography.",
+  "zh": "我们仍然必须在密码学中不断做出假设。"
+ },
+ {
+  "seg": 69,
+  "start": 434.089,
+  "end": 435.03,
+  "speaker": "Unknown",
+  "en": "So the assumptions are...",
+  "zh": "所以这些假设是……"
+ },
+ {
+  "seg": 70,
+  "start": 435.55,
+  "end": 436.711,
+  "speaker": "Unknown",
+  "en": "That certain problems are hard.",
+  "zh": "某些问题是困难的。"
+ },
+ {
+  "seg": 71,
+  "start": 436.731,
+  "end": 438.313,
+  "speaker": "Unknown",
+  "en": "Let's say elliptic curve, discrete log.",
+  "zh": "比如说椭圆曲线离散对数。"
+ },
+ {
+  "seg": 72,
+  "start": 438.353,
+  "end": 440.876,
+  "speaker": "Unknown",
+  "en": "Let's say shortest vector and lattices.",
+  "zh": "比如说格中的最短向量。"
+ },
+ {
+  "seg": 73,
+  "start": 440.896,
+  "end": 445.801,
+  "speaker": "Unknown",
+  "en": "We have a whole list of problems that we know and love and we build cryptosystems from.",
+  "zh": "我们有一整份我们熟知且喜爱的、并据以构建密码系统的问题清单。"
+ },
+ {
+  "seg": 74,
+  "start": 445.821,
+  "end": 450.766,
+  "speaker": "Unknown",
+  "en": "A lot of people have worked over the years on trying to break those assumptions.",
+  "zh": "多年来很多人一直在努力尝试破解这些假设。"
+ },
+ {
+  "seg": 75,
+  "start": 450.826,
+  "end": 457.574,
+  "speaker": "Unknown",
+  "en": "And in fact, there's a huge body of literature on failed attempts, on partial attempts, partially successful attempts.",
+  "zh": "事实上，关于失败的尝试、部分的尝试、部分成功的尝试，有大量的文献。"
+ },
+ {
+  "seg": 76,
+  "start": 458.014,
+  "end": 459.495,
+  "speaker": "Unknown",
+  "en": "So this is a very active area.",
+  "zh": "所以这是一个非常活跃的领域。"
+ },
+ {
+  "seg": 77,
+  "start": 460.095,
+  "end": 465.859,
+  "speaker": "Unknown",
+  "en": "And so far, all these problems remain secure and our crypto systems are based on those problems.",
+  "zh": "到目前为止，所有这些问题仍然是安全的，我们的密码系统正是基于这些问题。"
+ },
+ {
+  "seg": 78,
+  "start": 466.319,
+  "end": 468.561,
+  "speaker": "Unknown",
+  "en": "But now there's a new player in town, right?",
+  "zh": "但现在城里来了一个新玩家，对吧？"
+ },
+ {
+  "seg": 79,
+  "start": 468.581,
+  "end": 473.424,
+  "speaker": "Unknown",
+  "en": "Somebody else could try to come up with other ways to solve these problems.",
+  "zh": "可能会有其他人来想出解决这些问题的其他方法。"
+ },
+ {
+  "seg": 80,
+  "start": 473.824,
+  "end": 477.266,
+  "speaker": "Unknown",
+  "en": "And maybe they'll see something that us humans have not seen.",
+  "zh": "也许他们会看到一些我们人类没有看到的东西。"
+ },
+ {
+  "seg": 81,
+  "start": 477.926,
+  "end": 479.047,
+  "speaker": "Unknown",
+  "en": "That's certainly a possibility.",
+  "zh": "这当然是一种可能性。"
+ },
+ {
+  "seg": 82,
+  "start": 479.387,
+  "end": 483.03,
+  "speaker": "Unknown",
+  "en": "But again, I need to stress, this is not a new possibility.",
+  "zh": "但我还是要强调，这并不是一种新的可能性。"
+ },
+ {
+  "seg": 83,
+  "start": 483.63,
+  "end": 492.092,
+  "speaker": "Unknown",
+  "en": "Two years ago, five years ago, 10 years ago, you know, a clever human could have come up with a new attack that nobody has seen before and break some cryptographic assumptions.",
+  "zh": "两年前、五年前、十年前，你知道，一个聪明的人类也可能想出一种没人见过的全新攻击，从而破解某些密码学假设。"
+ },
+ {
+  "seg": 84,
+  "start": 492.372,
+  "end": 494.333,
+  "speaker": "Unknown",
+  "en": "Cryptography is sort of built on assumptions.",
+  "zh": "密码学在某种程度上是建立在假设之上的。"
+ },
+ {
+  "seg": 85,
+  "start": 494.373,
+  "end": 500.154,
+  "speaker": "Unknown",
+  "en": "We realize things are built on assumptions that could end up not being as strong as we expect.",
+  "zh": "我们意识到那些建立在假设之上的东西，最终可能不像我们预期的那样坚固。"
+ },
+ {
+  "seg": 86,
+  "start": 500.494,
+  "end": 501.794,
+  "speaker": "Unknown",
+  "en": "And so it's wonderful that people try.",
+  "zh": "所以人们去尝试是非常好的事。"
+ },
+ {
+  "seg": 87,
+  "start": 501.814,
+  "end": 503.935,
+  "speaker": "Unknown",
+  "en": "This is actually how we gain confidence in our assumptions.",
+  "zh": "这实际上正是我们获得对假设的信心的方式。"
+ },
+ {
+  "seg": 88,
+  "start": 504.255,
+  "end": 508.116,
+  "speaker": "Unknown",
+  "en": "The fact that people try to break them and fail gives us more confidence.",
+  "zh": "人们尝试破解却失败了，这个事实给了我们更多的信心。"
+ },
+ {
+  "seg": 89,
+  "start": 508.576,
+  "end": 511.957,
+  "speaker": "Unknown",
+  "en": "So in fact, I would say this would be an extremely positive development",
+  "zh": "所以事实上，我要说，这将是一个极其积极的发展"
+ },
+ {
+  "seg": 90,
+  "start": 512.637,
+  "end": 525.803,
+  "speaker": "Unknown",
+  "en": "If the labs try their best models at some of our basic cryptographic assumptions, the models fail to break them, the labs say that they fail to break them, that will give us tremendous confidence that our assumptions are valid.",
+  "zh": "如果实验室用他们最好的模型去尝试我们的一些基础密码学假设，模型未能破解它们，实验室说他们未能破解它们，那将给我们极大的信心，证明我们的假设是有效的。"
+ },
+ {
+  "seg": 91,
+  "start": 526.324,
+  "end": 536.248,
+  "speaker": "Unknown",
+  "en": "And even if they shave off a little bit of security, let's say they shave off 10 bits of security from one of the problems that we use in practice, that's great, that's wonderful for us to know.",
+  "zh": "即使他们削减了一点安全性，比如说他们从我们在实践中使用的某个问题上削减了 10 比特的安全性，那也很棒，我们能知道这一点非常可贵。"
+ },
+ {
+  "seg": 92,
+  "start": 536.568,
+  "end": 539.45,
+  "speaker": "Unknown",
+  "en": "The fact that all they could do is shave off 10 bits of security",
+  "zh": "他们所能做的仅仅是削减 10 比特的安全性这个事实"
+ },
+ {
+  "seg": 93,
+  "start": 540.07,
+  "end": 544.155,
+  "speaker": "Unknown",
+  "en": "is actually already very strong evidence that the assumptions are actually worthwhile using.",
+  "zh": "实际上已经是非常有力的证据，证明这些假设确实是值得使用的。"
+ },
+ {
+  "seg": 94,
+  "start": 544.635,
+  "end": 557.17,
+  "speaker": "Unknown",
+  "en": "Another thing that would be nice for the labs to try is I think we can hope to use these models to give much stronger evidence than we currently have that these problems are hard, by which I mean",
+  "zh": "另一件实验室值得尝试的事情是，我认为我们可以指望用这些模型给出比我们目前所拥有的更强的证据，证明这些问题是困难的，我的意思是"
+ },
+ {
+  "seg": 95,
+  "start": 557.81,
+  "end": 567.658,
+  "speaker": "Unknown",
+  "en": "For a lot of these problems, our evidence right now, while we have things like, you know, we know they're just as hard in the worst case as the average case, which, you know, for some of them, these lattice problems, which is helpful.",
+  "zh": "对于很多这样的问题，我们现在的证据，虽然我们有诸如，你知道，我们知道它们在最坏情况下与平均情况下同样困难，这对于其中一些问题，这些格问题，是有帮助的。"
+ },
+ {
+  "seg": 96,
+  "start": 568.839,
+  "end": 580.168,
+  "speaker": "Unknown",
+  "en": "But there are complexity-theoretic results you could hope to show that would give more evidence, more confidence in the interactability of these problems, that they have no efficient algorithms.",
+  "zh": "但还有一些复杂性理论的结果是你可以指望去证明的，它们会给出更多证据、更多信心，证明这些问题的难解性，即它们没有高效算法。"
+ },
+ {
+  "seg": 97,
+  "start": 581.209,
+  "end": 581.91,
+  "speaker": "Unknown",
+  "en": "I'd say that, you know...",
+  "zh": "我想说，你知道……"
+ },
+ {
+  "seg": 98,
+  "start": 582.75,
+  "end": 583.671,
+  "speaker": "Unknown",
+  "en": "Dan is totally right.",
+  "zh": "Dan 说得完全正确。"
+ },
+ {
+  "seg": 99,
+  "start": 583.711,
+  "end": 597.223,
+  "speaker": "Unknown",
+  "en": "Like most of the reason for, you know, today's cryptography that we have confidence, you know, these problems actually are intractable is, you know, people have just tried for decades and decades and haven't come up with any good algorithms.",
+  "zh": "你知道，我们对今天的密码学有信心、知道这些问题实际上难以求解，大部分原因是，你知道，人们已经尝试了几十年又几十年，却没能想出任何好的算法。"
+ },
+ {
+  "seg": 100,
+  "start": 597.563,
+  "end": 599.965,
+  "speaker": "Unknown",
+  "en": "But we can hope for other kinds of evidence.",
+  "zh": "但我们可以期待其他种类的证据。"
+ },
+ {
+  "seg": 101,
+  "start": 600.125,
+  "end": 604.309,
+  "speaker": "Unknown",
+  "en": "And those are like pure math questions that these frontier labs could be turning their models on.",
+  "zh": "而那些就像是纯粹数学问题,这些前沿实验室本可以把它们的模型用在这些问题上。"
+ },
+ {
+  "seg": 102,
+  "start": 604.567,
+  "end": 610.115,
+  "speaker": "Unknown",
+  "en": "The specific tweet that we're referencing was about crypto wallets and how the impact of this on crypto.",
+  "zh": "我们引用的那条推文,具体是关于加密钱包以及这对加密货币的影响。"
+ },
+ {
+  "seg": 103,
+  "start": 610.135,
+  "end": 613.92,
+  "speaker": "Unknown",
+  "en": "But there is a much broader implication of breaking like ECDSA.",
+  "zh": "但破解像 ECDSA 这样的东西,其影响要广泛得多。"
+ },
+ {
+  "seg": 104,
+  "start": 614.221,
+  "end": 620.81,
+  "speaker": "Unknown",
+  "en": "And so I don't know if maybe one of you is willing to kind of elaborate a little bit more on the larger implications of what that would look like and why it exists outside of that bubble.",
+  "zh": "所以我不知道你们中是否有人愿意再多阐述一点,这会产生什么样的更大影响,以及为什么它存在于那个圈子之外。"
+ },
+ {
+  "seg": 105,
+  "start": 622.073,
+  "end": 622.634,
+  "speaker": "Unknown",
+  "en": "Oh yeah, of course.",
+  "zh": "哦,当然可以。"
+ },
+ {
+  "seg": 106,
+  "start": 622.774,
+  "end": 630.786,
+  "speaker": "Unknown",
+  "en": "So the implication of, let's just pick on one of the assumptions that are being used in the real world, let's say what's called elliptic curve discrete log.",
+  "zh": "那我们就挑现实世界正在使用的某个假设来说吧,比如所谓的椭圆曲线离散对数。"
+ },
+ {
+  "seg": 107,
+  "start": 631.447,
+  "end": 636.134,
+  "speaker": "Unknown",
+  "en": "If it turns out this assumption is not as strong as we thought, and there's actually a realistic attack on it,",
+  "zh": "如果这个假设最终被证明不如我们以为的那么牢固,而且实际上存在一种现实可行的攻击,"
+ },
+ {
+  "seg": 108,
+  "start": 636.995,
+  "end": 639.117,
+  "speaker": "Unknown",
+  "en": "That would not be good.",
+  "zh": "那可就不妙了。"
+ },
+ {
+  "seg": 109,
+  "start": 639.137,
+  "end": 643.58,
+  "speaker": "Unknown",
+  "en": "So not only for the blockchain space, this would affect the entire internet.",
+  "zh": "不仅是对区块链领域,这会影响到整个互联网。"
+ },
+ {
+  "seg": 110,
+  "start": 643.76,
+  "end": 646.743,
+  "speaker": "Unknown",
+  "en": "Actually, to be honest, it affects the entire digital world.",
+  "zh": "老实说,它影响的是整个数字世界。"
+ },
+ {
+  "seg": 111,
+  "start": 647.163,
+  "end": 652.327,
+  "speaker": "Unknown",
+  "en": "So home banking, healthcare, government communications, everything is impacted by such a break.",
+  "zh": "所以网上银行、医疗保健、政府通信,一切都会受到这种破解的冲击。"
+ },
+ {
+  "seg": 112,
+  "start": 652.828,
+  "end": 659.233,
+  "speaker": "Unknown",
+  "en": "I should say that we already, NIST is already standardizing many other types of public key systems that we can switch to.",
+  "zh": "我应该说,我们其实已经——NIST 已经在标准化许多其他类型的公钥体系,我们可以切换过去。"
+ },
+ {
+  "seg": 113,
+  "start": 659.673,
+  "end": 663.874,
+  "speaker": "Unknown",
+  "en": "So if it turns out one of our assumptions is broken, we have backups that we can move to.",
+  "zh": "所以如果我们的某个假设被破解了,我们有可以迁移的备选方案。"
+ },
+ {
+  "seg": 114,
+  "start": 664.794,
+  "end": 668.435,
+  "speaker": "Unknown",
+  "en": "In fact, we have several backups that we can move to.",
+  "zh": "事实上,我们有好几个备选方案可以迁移。"
+ },
+ {
+  "seg": 115,
+  "start": 668.915,
+  "end": 671.635,
+  "speaker": "Unknown",
+  "en": "And so we just need to know, is this like a high priority?",
+  "zh": "所以我们只需要知道:这件事是不是高优先级?"
+ },
+ {
+  "seg": 116,
+  "start": 671.675,
+  "end": 673.675,
+  "speaker": "Unknown",
+  "en": "Is this something that we don't need to do right away?",
+  "zh": "还是我们不需要立刻去做?"
+ },
+ {
+  "seg": 117,
+  "start": 674.676,
+  "end": 680.477,
+  "speaker": "Unknown",
+  "en": "And so the lack of knowledge right now is creating a vacuum, I think, in the Tweetosphere.",
+  "zh": "我认为,当前这种知识的缺失正在推特区(Tweetosphere)造成一个真空。"
+ },
+ {
+  "seg": 118,
+  "start": 681.157,
+  "end": 683.917,
+  "speaker": "Unknown",
+  "en": "And that vacuum really needs to be filled.",
+  "zh": "而这个真空真的需要被填补。"
+ },
+ {
+  "seg": 119,
+  "start": 684.057,
+  "end": 688.158,
+  "speaker": "Unknown",
+  "en": "So maybe to simplify just a little bit, it's that",
+  "zh": "所以也许稍微简化一点来说,"
+ },
+ {
+  "seg": 120,
+  "start": 688.938,
+  "end": 702.784,
+  "speaker": "Unknown",
+  "en": "The process, in the absence of the ability to prove that these problems are hard, the problems on which cryptography is built, in the absence of that ability, we specifically rely in some sense on time.",
+  "zh": "在无法证明这些问题是难解问题的情况下——也就是密码学赖以建立的那些问题——在缺乏这种能力的情况下,我们在某种意义上特别依赖于时间。"
+ },
+ {
+  "seg": 121,
+  "start": 703.885,
+  "end": 705.465,
+  "speaker": "Unknown",
+  "en": "That's kind of what we are doing.",
+  "zh": "这大概就是我们现在在做的事。"
+ },
+ {
+  "seg": 122,
+  "start": 705.485,
+  "end": 708.607,
+  "speaker": "Unknown",
+  "en": "I know I'm oversimplifying a little bit, but we put these schemes out.",
+  "zh": "我知道我有点过度简化了,但我们把这些方案发布出去。"
+ },
+ {
+  "seg": 123,
+  "start": 709.227,
+  "end": 709.747,
+  "speaker": "Unknown",
+  "en": "And we wait.",
+  "zh": "然后我们等待。"
+ },
+ {
+  "seg": 124,
+  "start": 710.207,
+  "end": 719.69,
+  "speaker": "Unknown",
+  "en": "And we wait because what we believe is happening is that experts like cryptographers and mathematicians are testing and trying to break these things.",
+  "zh": "我们等待,是因为我们相信正在发生的是:像密码学家和数学家这样的专家正在测试并尝试破解这些东西。"
+ },
+ {
+  "seg": 125,
+  "start": 720.53,
+  "end": 733.533,
+  "speaker": "Unknown",
+  "en": "And if they're around for long enough and many enough people have talked about them and tested and talked with each other about their trying to break these schemes and they don't, we emerge with confidence that they're hard to break.",
+  "zh": "如果它们存在的时间足够长,足够多的人讨论过它们、测试过它们、彼此交流过他们尝试破解这些方案的努力而未能成功,我们就会逐渐建立起“它们很难被破解”的信心。"
+ },
+ {
+  "seg": 126,
+  "start": 734.514,
+  "end": 743.016,
+  "speaker": "Unknown",
+  "en": "And because of the pace of progress on AI's mathematical abilities, there is a conspicuous absence of time.",
+  "zh": "而由于 AI 数学能力进步的速度,时间的积累明显缺位了。"
+ },
+ {
+  "seg": 127,
+  "start": 743.756,
+  "end": 756.499,
+  "speaker": "Unknown",
+  "en": "There is kind of a gap between the rate of progress and the information we're getting from the people who seem to have most of the effort, most of the cognitive ability to even scrutinize these things.",
+  "zh": "在进步的速度与我们从那些投入了最多精力、拥有最多认知能力去审视这些问题的人那里获得的信息之间,存在某种鸿沟。"
+ },
+ {
+  "seg": 128,
+  "start": 756.579,
+  "end": 760.34,
+  "speaker": "Unknown",
+  "en": "A whole new well of cognitive ability to scrutinize has appeared.",
+  "zh": "一个全新的、可用于审视的巨大认知能力源泉出现了。"
+ },
+ {
+  "seg": 129,
+  "start": 760.88,
+  "end": 771.732,
+  "speaker": "Unknown",
+  "en": "And we're not hearing from them about what they're discovering through their work in the normal way that we would from the academic and, you know, computer science and cryptography research mechanism.",
+  "zh": "而我们没有按照通常的方式——也就是从学术界、计算机科学和密码学研究机制那里——听到他们通过工作所发现的东西。"
+ },
+ {
+  "seg": 130,
+  "start": 772.22,
+  "end": 773.081,
+  "speaker": "Unknown",
+  "en": "You're totally right.",
+  "zh": "你说得完全正确。"
+ },
+ {
+  "seg": 131,
+  "start": 773.121,
+  "end": 784.268,
+  "speaker": "Unknown",
+  "en": "In the past, when someone would make an assumption and build a system based on it, we'd have to wait like 10 years before that system could be deployed to gain confidence, to give people enough time to analyze the assumption.",
+  "zh": "在过去,当有人做出一个假设并基于它构建一个系统时,我们必须等待大约 10 年才能部署那个系统,以建立信心,给人们足够的时间去分析这个假设。"
+ },
+ {
+  "seg": 132,
+  "start": 784.808,
+  "end": 788.771,
+  "speaker": "Unknown",
+  "en": "And now, all of a sudden, we can accelerate this process tremendously using these models.",
+  "zh": "而现在,突然之间,我们可以用这些模型极大地加速这个过程。"
+ },
+ {
+  "seg": 133,
+  "start": 788.791,
+  "end": 790.172,
+  "speaker": "Unknown",
+  "en": "This is a remarkable tool.",
+  "zh": "这是一个了不起的工具。"
+ },
+ {
+  "seg": 134,
+  "start": 790.732,
+  "end": 795.115,
+  "speaker": "Unknown",
+  "en": "Let's say I'm making a new assumption and build an amazing crypto system based on it.",
+  "zh": "比方说我提出了一个新假设,并基于它构建了一个了不起的密码系统。"
+ },
+ {
+  "seg": 135,
+  "start": 795.655,
+  "end": 803.401,
+  "speaker": "Unknown",
+  "en": "Now we can just let a model run for a month, try to break it, and if the model can't break it, boy, we have a lot of confidence that the assumption is valid.",
+  "zh": "现在我们可以直接让一个模型运行一个月,尝试破解它,如果模型破解不了,天哪,我们对这个假设有效性的信心就会大增。"
+ },
+ {
+  "seg": 136,
+  "start": 803.721,
+  "end": 807.964,
+  "speaker": "Unknown",
+  "en": "Yeah, it's funny because it's a change in how we normally do it, right?",
+  "zh": "是啊,这很有意思,因为这是对我们通常做法的一种改变,对吧?"
+ },
+ {
+  "seg": 137,
+  "start": 808.024,
+  "end": 810.146,
+  "speaker": "Unknown",
+  "en": "Normally we have this, to the public,",
+  "zh": "通常,对公众而言,"
+ },
+ {
+  "seg": 138,
+  "start": 810.806,
+  "end": 812.467,
+  "speaker": "Unknown",
+  "en": "Or to an informed person in the public.",
+  "zh": "或者对公众中一个知情的人来说,"
+ },
+ {
+  "seg": 139,
+  "start": 812.747,
+  "end": 818.89,
+  "speaker": "Unknown",
+  "en": "We have a background rate of attention that is paid by our cryptographers to these systems.",
+  "zh": "我们的密码学家对这些系统保持着一种基础水平的关注。"
+ },
+ {
+  "seg": 140,
+  "start": 819.47,
+  "end": 827.174,
+  "speaker": "Unknown",
+  "en": "And we just sort of sit back and we wait long enough and we assume, make some assumptions about their prioritization, that they're paying attention to the important things.",
+  "zh": "我们只是往后一坐,等待足够长的时间,并对他们的优先级排序做一些假设,相信他们在关注重要的事情。"
+ },
+ {
+  "seg": 141,
+  "start": 827.814,
+  "end": 829.175,
+  "speaker": "Unknown",
+  "en": "And then after long enough, we say,",
+  "zh": "然后过了足够长的时间,我们就说:"
+ },
+ {
+  "seg": 142,
+  "start": 830.284,
+  "end": 831.064,
+  "speaker": "Unknown",
+  "en": "This has got to be good.",
+  "zh": "这肯定没问题了。"
+ },
+ {
+  "seg": 143,
+  "start": 831.845,
+  "end": 832.705,
+  "speaker": "Unknown",
+  "en": "This is probably good.",
+  "zh": "这大概没问题了。"
+ },
+ {
+  "seg": 144,
+  "start": 833.485,
+  "end": 845.63,
+  "speaker": "Unknown",
+  "en": "But now we have a completely new thing where the labs can say, we took our tip-top, totally unrestricted, most cyber-capable model, and we told it to go absolutely insane.",
+  "zh": "但现在我们有了一种全新的情况:实验室可以说,我们拿了我们最顶尖、完全不受限制、网络能力最强的模型,然后告诉它放开手脚、彻底发疯。"
+ },
+ {
+  "seg": 145,
+  "start": 845.85,
+  "end": 850.832,
+  "speaker": "Unknown",
+  "en": "And we spent $20 million, $50 million trying to break this scheme.",
+  "zh": "我们花了 2000 万美元、5000 万美元去尝试破解这个方案。"
+ },
+ {
+  "seg": 146,
+  "start": 851.513,
+  "end": 859.336,
+  "speaker": "Unknown",
+  "en": "And at the other end, we have more conviction about its confidence than you could probably get from the conventional process in a decade.",
+  "zh": "而在另一端,我们得到的信心,可能比用传统流程十年所能得到的还要多。"
+ },
+ {
+  "seg": 147,
+  "start": 860.696,
+  "end": 866.12,
+  "speaker": "Unknown",
+  "en": "So we actually have the prospect to have more confidence in our security than ever before.",
+  "zh": "所以我们实际上有机会对我们的安全性拥有比以往任何时候都更多的信心。"
+ },
+ {
+  "seg": 148,
+  "start": 866.7,
+  "end": 870.323,
+  "speaker": "Unknown",
+  "en": "It's just there's a little bit of a gap in how that information is being created and shared.",
+  "zh": "只是这些信息的产生和共享方式上还存在一点鸿沟。"
+ },
+ {
+  "seg": 149,
+  "start": 871.504,
+  "end": 875.106,
+  "speaker": "Unknown",
+  "en": "And we can accelerate the deployment of better cryptography.",
+  "zh": "而且我们可以加速部署更好的密码学。"
+ },
+ {
+  "seg": 150,
+  "start": 875.346,
+  "end": 884.493,
+  "speaker": "Unknown",
+  "en": "And the gap, I have to say, is also the fact that obviously some of the models are accessible to the labs, but not to the rest of the public.",
+  "zh": "而且我必须说，这个差距还在于，显然有些模型只有实验室能够访问，而公众中的其他人无法访问。"
+ },
+ {
+  "seg": 151,
+  "start": 885.16,
+  "end": 894.868,
+  "speaker": "Unknown",
+  "en": "In the absence of that information, what would you recommend or how do you kind of think about this as just like an everyday user of technology?",
+  "zh": "在缺乏那些信息的情况下，你会推荐什么，或者作为一个普通的技术使用者，你如何看待这件事？"
+ },
+ {
+  "seg": 152,
+  "start": 894.888,
+  "end": 898.09,
+  "speaker": "Unknown",
+  "en": "Like is this, how does this impact how you interact with technology, if at all?",
+  "zh": "比如说，这是否会影响你与技术互动的方式，如果有影响的话？"
+ },
+ {
+  "seg": 153,
+  "start": 898.471,
+  "end": 899.472,
+  "speaker": "Unknown",
+  "en": "So nothing has changed.",
+  "zh": "所以，什么都没有改变。"
+ },
+ {
+  "seg": 154,
+  "start": 900.41,
+  "end": 904.554,
+  "speaker": "Unknown",
+  "en": "The world today is the same as the world a week ago, the world a year ago.",
+  "zh": "今天的世界和一周前的世界一样，和一年前的世界一样。"
+ },
+ {
+  "seg": 155,
+  "start": 904.694,
+  "end": 905.355,
+  "speaker": "Unknown",
+  "en": "Nothing has changed.",
+  "zh": "什么都没有改变。"
+ },
+ {
+  "seg": 156,
+  "start": 905.435,
+  "end": 911.76,
+  "speaker": "Unknown",
+  "en": "Until we learn something new about our standard cryptographic systems, nothing has changed.",
+  "zh": "在我们对标准密码学系统了解到新东西之前，什么都没有改变。"
+ },
+ {
+  "seg": 157,
+  "start": 911.86,
+  "end": 913.962,
+  "speaker": "Unknown",
+  "en": "Keep using the systems as they are.",
+  "zh": "继续照常使用这些系统。"
+ },
+ {
+  "seg": 158,
+  "start": 914.723,
+  "end": 918.886,
+  "speaker": "Unknown",
+  "en": "When we learn something new, either we'll have more confidence or we'll have to react.",
+  "zh": "当我们了解到新东西时，要么我们会有更多信心，要么我们将不得不做出反应。"
+ },
+ {
+  "seg": 159,
+  "start": 919.387,
+  "end": 922.589,
+  "speaker": "Unknown",
+  "en": "But until we have more information, nothing has changed.",
+  "zh": "但在我们获得更多信息之前，什么都没有改变。"
+ },
+ {
+  "seg": 160,
+  "start": 922.79,
+  "end": 924.031,
+  "speaker": "Unknown",
+  "en": "So please don't panic.",
+  "zh": "所以请不要恐慌。"
+ },
+ {
+  "seg": 161,
+  "start": 924.631,
+  "end": 925.413,
+  "speaker": "Unknown",
+  "en": "You know, keep calm.",
+  "zh": "你知道，保持冷静。"
+ },
+ {
+  "seg": 162,
+  "start": 925.533,
+  "end": 925.733,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 163,
+  "start": 925.994,
+  "end": 933.609,
+  "speaker": "Unknown",
+  "en": "To put it another way, you know, the reaction yesterday and continuing today is not a reaction to new information.",
+  "zh": "换句话说，你知道，昨天以及持续到今天的反应，并不是对新信息的反应。"
+ },
+ {
+  "seg": 164,
+  "start": 935.297,
+  "end": 949.701,
+  "speaker": "Unknown",
+  "en": "The reaction is maybe an indirect reaction to the dump of mathematical results from OpenAI, a very indirect kind of information about AI's progress, which, again, was amazing, but I don't think is a surprise.",
+  "zh": "那个反应也许是针对 OpenAI 发布的数学结果堆料的一种间接反应，一种关于 AI 进展的非常间接的信息，这再次令人惊叹，但我不认为是意外。"
+ },
+ {
+  "seg": 165,
+  "start": 949.801,
+  "end": 952.962,
+  "speaker": "Unknown",
+  "en": "It's like all Silicon Valley's been talking about for years now.",
+  "zh": "就像整个硅谷多年来一直在谈论的那样。"
+ },
+ {
+  "seg": 166,
+  "start": 953.803,
+  "end": 954.703,
+  "speaker": "Unknown",
+  "en": "But it's not...",
+  "zh": "但它不是……"
+ },
+ {
+  "seg": 167,
+  "start": 955.363,
+  "end": 959.206,
+  "speaker": "Unknown",
+  "en": "A specific reaction to a specific piece of information about cryptography.",
+  "zh": "针对某个关于密码学的具体信息的具体反应。"
+ },
+ {
+  "seg": 168,
+  "start": 959.246,
+  "end": 964.349,
+  "speaker": "Unknown",
+  "en": "We didn't learn that elliptic curves are vulnerable in a way that they weren't before.",
+  "zh": "我们并没有了解到椭圆曲线以一种以前没有的方式变得脆弱。"
+ },
+ {
+  "seg": 169,
+  "start": 964.389,
+  "end": 969.132,
+  "speaker": "Unknown",
+  "en": "We didn't learn that any specific cryptographic assumptions have less security than they did before.",
+  "zh": "我们并没有了解到任何具体的密码学假设的安全性比以前降低了。"
+ },
+ {
+  "seg": 170,
+  "start": 969.827,
+  "end": 978.769,
+  "speaker": "Unknown",
+  "en": "Maybe to give people a little bit more confidence also, we have a lot of different types of assumptions that we use to build public key cryptography.",
+  "zh": "也许为了让人们多一点信心，我们有许多不同类型的假设用来构建公钥密码学。"
+ },
+ {
+  "seg": 171,
+  "start": 978.809,
+  "end": 980.85,
+  "speaker": "Unknown",
+  "en": "It's not just elliptic curves or lattices.",
+  "zh": "不仅仅是椭圆曲线或格。"
+ },
+ {
+  "seg": 172,
+  "start": 981.35,
+  "end": 985.791,
+  "speaker": "Unknown",
+  "en": "We have isogenies and code-based systems and multivariate polynomial-based systems.",
+  "zh": "我们有同源、基于编码的系统以及基于多元多项式的系统。"
+ },
+ {
+  "seg": 173,
+  "start": 986.151,
+  "end": 987.992,
+  "speaker": "Unknown",
+  "en": "There are many hash-based signatures.",
+  "zh": "有许多基于哈希的签名。"
+ },
+ {
+  "seg": 174,
+  "start": 988.352,
+  "end": 992.793,
+  "speaker": "Unknown",
+  "en": "There are many other types of assumptions that we can build public key cryptography from.",
+  "zh": "还有许多其他类型的假设可以用来构建公钥密码学。"
+ },
+ {
+  "seg": 175,
+  "start": 993.593,
+  "end": 995.556,
+  "speaker": "Unknown",
+  "en": "So if we need to react, we can react.",
+  "zh": "所以如果我们需要做出反应，我们可以做出反应。"
+ },
+ {
+  "seg": 176,
+  "start": 995.756,
+  "end": 999.522,
+  "speaker": "Unknown",
+  "en": "Of course, everything takes time, but we sort of know where to go.",
+  "zh": "当然，一切都需要时间，但我们大致知道该往哪里走。"
+ },
+ {
+  "seg": 177,
+  "start": 1000.142,
+  "end": 1007.653,
+  "speaker": "Unknown",
+  "en": "And so even if the worst of the worst happens, there are still plenty of ways for us to recover.",
+  "zh": "所以即使最糟糕的情况发生，仍然有 plenty 的方法供我们恢复。"
+ },
+ {
+  "seg": 178,
+  "start": 1008.537,
+  "end": 1018.039,
+  "speaker": "Unknown",
+  "en": "So one thing I guess worth mentioning is like, we generally believe there is no efficient algorithm for these problems.",
+  "zh": "所以我想有一点值得一提，就像，我们通常认为这些问题不存在高效算法。"
+ },
+ {
+  "seg": 179,
+  "start": 1019.439,
+  "end": 1024.58,
+  "speaker": "Unknown",
+  "en": "And if, you know, it's not that we think there might be and humans just aren't smart enough to find it.",
+  "zh": "而且，你知道，并不是我们认为可能存在，只是人类不够聪明找不到它。"
+ },
+ {
+  "seg": 180,
+  "start": 1024.6,
+  "end": 1025.78,
+  "speaker": "Unknown",
+  "en": "We think there is not one.",
+  "zh": "我们认为根本不存在。"
+ },
+ {
+  "seg": 181,
+  "start": 1026.141,
+  "end": 1031.722,
+  "speaker": "Unknown",
+  "en": "And so if there is not one, it doesn't matter how smart the AI is, it cannot find the non-existent algorithm, right?",
+  "zh": "所以如果不存在，无论 AI 多么聪明，它也无法找到不存在的算法，对吧？"
+ },
+ {
+  "seg": 182,
+  "start": 1032.082,
+  "end": 1037.803,
+  "speaker": "Unknown",
+  "en": "And so, you know, the worry is, you know, that just our belief is totally wrong.",
+  "zh": "所以，你知道，担忧是，你知道，我们的信念完全错了。"
+ },
+ {
+  "seg": 183,
+  "start": 1037.823,
+  "end": 1038.343,
+  "speaker": "Unknown",
+  "en": "But to be clear,",
+  "zh": "但要说清楚，"
+ },
+ {
+  "seg": 184,
+  "start": 1038.383,
+  "end": 1039.585,
+  "speaker": "Unknown",
+  "en": "What the belief is, right?",
+  "zh": "这个信念是什么，对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 1039.685,
+  "end": 1042.349,
+  "speaker": "Unknown",
+  "en": "It's not the algorithms there and we're too dumb to find it.",
+  "zh": "不是说算法存在而我们太笨找不到它。"
+ },
+ {
+  "seg": 186,
+  "start": 1043.09,
+  "end": 1044.792,
+  "speaker": "Unknown",
+  "en": "It's just not there at all, right?",
+  "zh": "而是它根本不存在，对吧？"
+ },
+ {
+  "seg": 187,
+  "start": 1044.872,
+  "end": 1047.235,
+  "speaker": "Unknown",
+  "en": "So that's one thing to clarify.",
+  "zh": "所以这是需要澄清的一点。"
+ },
+ {
+  "seg": 188,
+  "start": 1047.255,
+  "end": 1052.663,
+  "speaker": "Unknown",
+  "en": "The first tweet was one by Justin Drake of the Ethereum Foundation.",
+  "zh": "第一条推文来自以太坊基金的 Justin Drake。"
+ },
+ {
+  "seg": 189,
+  "start": 1054.245,
+  "end": 1068.752,
+  "speaker": "Unknown",
+  "en": "Warning of a possible complete break of elliptic curve cryptography in the coming months and suggesting that at least like large cold wallets on the Ethereum blockchain enter what you call bunker mode or at least not have exposed public keys on chain.",
+  "zh": "警告椭圆曲线密码学在未来几个月可能出现完全性破解，并建议至少以太坊区块链上的大型冷钱包进入你所说的“地堡模式”，或者至少不要在链上暴露公钥。"
+ },
+ {
+  "seg": 190,
+  "start": 1070.273,
+  "end": 1082.798,
+  "speaker": "Unknown",
+  "en": "And then Vitalik Buterin followed up with a slightly more toned down tweet, but still speculating about better attacks that AI might find on cryptosystems.",
+  "zh": "然后 Vitalik Buterin 跟进了一条语气稍缓和的推文，但仍在猜测 AI 可能会对密码系统找到更好的攻击。"
+ },
+ {
+  "seg": 191,
+  "start": 1083.238,
+  "end": 1095.123,
+  "speaker": "Unknown",
+  "en": "So yeah, in Vitalik's tweet, even mentioned that he himself has lost more personal funds in botched migrations than in all hacks, right?",
+  "zh": "所以是的，Vitalik 的推文里甚至提到，他本人在搞砸的迁移中损失的个人资金比在所有黑客攻击中损失的还多，对吧？"
+ },
+ {
+  "seg": 192,
+  "start": 1095.203,
+  "end": 1098.525,
+  "speaker": "Unknown",
+  "en": "So I think we as humans tend",
+  "zh": "所以我认为我们人类往往"
+ },
+ {
+  "seg": 193,
+  "start": 1099.065,
+  "end": 1117.653,
+  "speaker": "Unknown",
+  "en": "to, you know, struggle with tail risks that are very scary and sort of psychologically, you know, prone to dominate our thoughts when there are sort of clear and present risks that are actually more dire, even though less scary and less cataclysmic.",
+  "zh": "会，你知道，在非常可怕的尾部风险上挣扎，并且在心理上，你知道，容易让这些风险主导我们的思想，而实际上更危急的、虽然没那么可怕也没那么灾难性的、明确而现下的风险却被忽略了。"
+ },
+ {
+  "seg": 194,
+  "start": 1118.573,
+  "end": 1123.535,
+  "speaker": "Unknown",
+  "en": "And so, yeah, I just want to emphasize that, you know, bugs remain everywhere.",
+  "zh": "所以，是的，我只是想强调，你知道，漏洞仍然无处不在。"
+ },
+ {
+  "seg": 195,
+  "start": 1124.316,
+  "end": 1126.316,
+  "speaker": "Unknown",
+  "en": "The AIs are good at finding the bugs.",
+  "zh": "AI 擅长发现漏洞。"
+ },
+ {
+  "seg": 196,
+  "start": 1126.557,
+  "end": 1134.6,
+  "speaker": "Unknown",
+  "en": "I actually hope that's good for, you know, aids defensive practices more in the medium to long term than offensive ones.",
+  "zh": "我实际上希望，你知道，这对中长期的防御性安全实践比进攻性实践更有利。"
+ },
+ {
+  "seg": 197,
+  "start": 1135.98,
+  "end": 1142.502,
+  "speaker": "Unknown",
+  "en": "And yeah, it's basically the worst thing you can probably do right now is something.",
+  "zh": "而且，是的，现在你能做的最糟糕的事情基本上就是“做点什么”。"
+ },
+ {
+  "seg": 198,
+  "start": 1142.842,
+  "end": 1143.562,
+  "speaker": "Unknown",
+  "en": "You should do nothing.",
+  "zh": "你应该什么都不做。"
+ },
+ {
+  "seg": 199,
+  "start": 1144.642,
+  "end": 1156.705,
+  "speaker": "Unknown",
+  "en": "And actually the recommendations in Justin Drake's post were really just good practice, good hygiene that all of these institutions should already be following independent of AI or quantum or anything.",
+  "zh": "实际上，Justin Drake 帖子中的建议真的只是良好实践、良好卫生习惯，所有这些机构本就应该在独立于 AI 或量子或任何其他因素的情况下遵循。"
+ },
+ {
+  "seg": 200,
+  "start": 1157.385,
+  "end": 1164.627,
+  "speaker": "Unknown",
+  "en": "To Justin's point regarding institutions following all of these practices, you know, Coinbase already came out and said they already do this, right?",
+  "zh": "关于 Justin 提到的机构要遵循所有这些实践的观点，你知道，Coinbase 已经出来表示他们已经在这么做了，对吧？"
+ },
+ {
+  "seg": 201,
+  "start": 1164.648,
+  "end": 1168.989,
+  "speaker": "Unknown",
+  "en": "They already do a lot of the specific measures outlined in bunker mode.",
+  "zh": "他们已经在做 bunker mode 中列出的很多具体措施了。"
+ },
+ {
+  "seg": 202,
+  "start": 1169.169,
+  "end": 1171.23,
+  "speaker": "Unknown",
+  "en": "And I think that they will continue to do that.",
+  "zh": "而且我认为他们会继续这么做。"
+ },
+ {
+  "seg": 203,
+  "start": 1171.29,
+  "end": 1171.75,
+  "speaker": "Unknown",
+  "en": "It's true.",
+  "zh": "这是事实。"
+ },
+ {
+  "seg": 204,
+  "start": 1171.77,
+  "end": 1177.592,
+  "speaker": "Unknown",
+  "en": "A funny thing about it is that the further down this rabbit hole you go, I think we are already preparing.",
+  "zh": "关于这件事有个有趣的地方是，你在这个兔子洞里钻得越深，我认为我们其实已经在准备了。"
+ },
+ {
+  "seg": 205,
+  "start": 1178.958,
+  "end": 1180.659,
+  "speaker": "Unknown",
+  "en": "My understanding is that we are already preparing.",
+  "zh": "据我了解，我们已经在准备了。"
+ },
+ {
+  "seg": 206,
+  "start": 1181.479,
+  "end": 1188.582,
+  "speaker": "Unknown",
+  "en": "As Dan said, we have already different types of assumptions that we can switch to in cryptography and we've prepared the path a little bit.",
+  "zh": "正如 Dan 所说，我们已经准备好了在密码学上可以切换到的不同类型的假设，并且我们已经把路径铺好了一点。"
+ },
+ {
+  "seg": 207,
+  "start": 1189.102,
+  "end": 1199.346,
+  "speaker": "Unknown",
+  "en": "We already require, you know, from the market I mean, institutions to take some of these best practices like making sure, you know, public keys aren't revealed on the blockchains where that's relevant.",
+  "zh": "我们已经要求——我是指从市场上——机构采取其中一些最佳实践，比如确保，你知道的，在相关的区块链上不公开公钥。"
+ },
+ {
+  "seg": 208,
+  "start": 1200.106,
+  "end": 1201.347,
+  "speaker": "Unknown",
+  "en": "We already do a lot of these things.",
+  "zh": "我们已经在做很多这类事情了。"
+ },
+ {
+  "seg": 209,
+  "start": 1202.328,
+  "end": 1211.753,
+  "speaker": "Unknown",
+  "en": "And as we learn more, accelerated by AI research and their skills in math, we will probably add more and more methods of preparation to our kit.",
+  "zh": "随着我们了解到更多——AI 研究及其数学能力加速了这一点——我们可能会在我们的工具包中添加越来越多的准备方法。"
+ },
+ {
+  "seg": 210,
+  "start": 1212.653,
+  "end": 1220.638,
+  "speaker": "Unknown",
+  "en": "So the frustrating thing about the take, we need to go into bunker mode, we need to prepare, is that it...",
+  "zh": "所以关于那个观点——我们需要进入 bunker mode，我们需要做好准备——令人沮丧的地方在于，它……"
+ },
+ {
+  "seg": 211,
+  "start": 1222.033,
+  "end": 1235.684,
+  "speaker": "Unknown",
+  "en": "The specific things that it advises us to do are probably not good and risky for normal people to do and are already things that the hardcore institutions who should take responsibility for these risks are doing.",
+  "zh": "它建议我们做的那些具体事情，对普通人来说可能不好做而且有风险，而且已经是那些应该为这些风险承担责任的硬核机构正在做的事情了。"
+ },
+ {
+  "seg": 212,
+  "start": 1236.325,
+  "end": 1242.13,
+  "speaker": "Unknown",
+  "en": "So there is not a specific set of recommendations that come out of this, specific new practices.",
+  "zh": "所以这里面并没有产出一套具体的建议，具体的新实践。"
+ },
+ {
+  "seg": 213,
+  "start": 1243.13,
+  "end": 1249.255,
+  "speaker": "Unknown",
+  "en": "If we're calling for anything here, what we're calling for is more information so we can know how to adapt.",
+  "zh": "如果说我们在这里在呼吁什么，我们呼吁的是更多的信息，这样我们才能知道如何适应。"
+ },
+ {
+  "seg": 214,
+  "start": 1250.687,
+  "end": 1264.6,
+  "speaker": "Unknown",
+  "en": "And correct me if I'm wrong, but the types of cryptography that this tweet, the Justin Drake tweet, is referring to possibly being broken by advanced AI are the same types of cryptography that are under threat from a quantum computer as well.",
+  "zh": "如果我说错了请纠正我，但这条推文——Justin Drake 的那条推文——所提到的可能被先进 AI 破解的密码学类型，和受到量子计算机威胁的密码学类型是同一批。"
+ },
+ {
+  "seg": 215,
+  "start": 1264.66,
+  "end": 1275.27,
+  "speaker": "Unknown",
+  "en": "So this is like a threat we've already been thinking about for a while, a threat we've already been preparing for for a while, and if it comes from AI before it comes from the quantum computer, it doesn't make it new.",
+  "zh": "所以这就像是一个我们已经思考了一段时间的威胁，一个我们已经为之准备了一段时间的威胁，如果它先来自 AI 而不是来自量子计算机，也不会让它变成新威胁。"
+ },
+ {
+  "seg": 216,
+  "start": 1275.95,
+  "end": 1284.515,
+  "speaker": "Unknown",
+  "en": "Dan opened with a couple of remarks on this about the conflation of the quantum issue from the AI math skills issue, right?",
+  "zh": "Dan 在开头就此发表了几点看法，谈到了量子问题和 AI 数学能力问题之间的混淆，对吧？"
+ },
+ {
+  "seg": 217,
+  "start": 1284.595,
+  "end": 1291.82,
+  "speaker": "Unknown",
+  "en": "And the reason those, part of the reason why those things get conflated is that what Justin Drake was talking about was a lot of his fears about elliptic curve cryptography.",
+  "zh": "而这些东西之所以被混为一谈，部分原因在于 Justin Drake 所谈的很多是他对比椭圆曲线密码学的担忧。"
+ },
+ {
+  "seg": 218,
+  "start": 1292.72,
+  "end": 1302.626,
+  "speaker": "Unknown",
+  "en": "And what's funny is because of fears of the quantum threat, people have already begun to treat elliptic curve cryptography as something that may be vulnerable soon.",
+  "zh": "而有趣的是，由于对量子威胁的恐惧，人们已经开始把椭圆曲线密码学当作可能很快就会变得脆弱的东西来对待。"
+ },
+ {
+  "seg": 219,
+  "start": 1302.886,
+  "end": 1304.187,
+  "speaker": "Unknown",
+  "en": "So we have already actually",
+  "zh": "所以我们实际上已经"
+ },
+ {
+  "seg": 220,
+  "start": 1306.02,
+  "end": 1313.103,
+  "speaker": "Unknown",
+  "en": "Engaged in and prepared and deployed many of the mitigations you'd need for those exact concerns for a different threat.",
+  "zh": "针对一个不同的威胁，参与、准备并部署了许多应对这些确切担忧所需的缓解措施。"
+ },
+ {
+  "seg": 221,
+  "start": 1314.504,
+  "end": 1325.789,
+  "speaker": "Unknown",
+  "en": "So that's why it's a little bit of a funny thing for him to say because it didn't come with specific concrete recommendations about how institutions ought to prepare in a way they are not preparing today.",
+  "zh": "所以这就是为什么他说这些话有点好笑，因为其中并没有附带具体的、切实的建议，告诉机构应该如何以它们今天尚未采取的方式去做准备。"
+ },
+ {
+  "seg": 222,
+  "start": 1325.809,
+  "end": 1329.131,
+  "speaker": "Unknown",
+  "en": "I would also add that",
+  "zh": "我还想补充一点，"
+ },
+ {
+  "seg": 223,
+  "start": 1330.272,
+  "end": 1341.998,
+  "speaker": "Unknown",
+  "en": "If what Justin was warning about happens in the timelines he mentioned, it's a cataclysmic event for all digital infrastructure security throughout the entire world.",
+  "zh": "如果 Justin 所警告的事情在他提到的时间线上发生了，那对全世界所有数字基础设施的安全来说都是一场灾难性事件。"
+ },
+ {
+  "seg": 224,
+  "start": 1342.799,
+  "end": 1347.561,
+  "speaker": "Unknown",
+  "en": "There's no way we're fully moving off of elliptic curve cryptography in the next couple of years.",
+  "zh": "我们不可能在接下来几年里完全迁移离开椭圆曲线密码学。"
+ },
+ {
+  "seg": 225,
+  "start": 1348.642,
+  "end": 1357.727,
+  "speaker": "Unknown",
+  "en": "And so the focus on blockchain hygiene is just very discordant with this cataclysmic event he was discussing.",
+  "zh": "因此，把焦点放在区块链卫生习惯上，与他所讨论的这场灾难性事件是极不协调的。"
+ },
+ {
+  "seg": 226,
+  "start": 1358.418,
+  "end": 1367.631,
+  "speaker": "Unknown",
+  "en": "You know, I will add to that, though, that the quantum threat is really only about these elliptic curve type systems and RSA and such.",
+  "zh": "不过，你知道吗，我要补充一点，量子威胁其实只关乎这些椭圆曲线类型的体系和 RSA 之类的。"
+ },
+ {
+  "seg": 227,
+  "start": 1368.332,
+  "end": 1375.101,
+  "speaker": "Unknown",
+  "en": "The AI threat, in some sense, is broader in that it could actually also look at our post-quantum system.",
+  "zh": "从某种意义上说，AI 威胁的范围更广，因为它实际上还可以审视我们的后量子体系。"
+ },
+ {
+  "seg": 228,
+  "start": 1375.622,
+  "end": 1380.864,
+  "speaker": "Unknown",
+  "en": "And potentially weaken them in some way, maybe break them altogether.",
+  "zh": "并可能以某种方式削弱它们，甚至可能将其彻底破解。"
+ },
+ {
+  "seg": 229,
+  "start": 1380.884,
+  "end": 1390.328,
+  "speaker": "Unknown",
+  "en": "And so it is quite important to know that the latest models could not break our post-quantum candidates because those are the ones we're moving to.",
+  "zh": "所以，知道最新的模型无法破解我们的后量子候选方案是相当重要的，因为那些正是我们要迁移过去的目标。"
+ },
+ {
+  "seg": 230,
+  "start": 1391.208,
+  "end": 1392.908,
+  "speaker": "Unknown",
+  "en": "So that would be quite helpful.",
+  "zh": "所以那会非常有帮助。"
+ },
+ {
+  "seg": 231,
+  "start": 1393.308,
+  "end": 1397.609,
+  "speaker": "Unknown",
+  "en": "Now in terms of what to do, people, I mean, I guess the question is kind of what do we do about this?",
+  "zh": "现在说说该怎么做，人们，我是说，我想问题大概是我们该拿这事怎么办？"
+ },
+ {
+  "seg": 232,
+  "start": 1398.229,
+  "end": 1399.49,
+  "speaker": "Unknown",
+  "en": "I totally agree with Eddie.",
+  "zh": "我完全同意 Eddie。"
+ },
+ {
+  "seg": 233,
+  "start": 1399.61,
+  "end": 1403.471,
+  "speaker": "Unknown",
+  "en": "The answer is we should be doing what we are already preaching to do.",
+  "zh": "答案是，我们应该继续践行我们一直在宣扬的事情。"
+ },
+ {
+  "seg": 234,
+  "start": 1403.931,
+  "end": 1407.431,
+  "speaker": "Unknown",
+  "en": "And one of the main things that we always preach is what's called crypto agility.",
+  "zh": "而我们一直宣扬的主要事情之一，就是所谓的 crypto agility（密码敏捷性）。"
+ },
+ {
+  "seg": 235,
+  "start": 1407.891,
+  "end": 1415.833,
+  "speaker": "Unknown",
+  "en": "Yeah, that we deploy systems that can quickly switch from one type of design to another if the design is being used turns out to be insecure.",
+  "zh": "对，就是我们要部署这样的系统：如果在用的设计被证明不安全时，能够快速从一种设计切换到另一种设计。"
+ },
+ {
+  "seg": 236,
+  "start": 1415.933,
+  "end": 1420.314,
+  "speaker": "Unknown",
+  "en": "Crypto agility is in some sense our friend for defending against the unexpected.",
+  "zh": "从某种意义上说，crypto agility 是我们抵御意外情况的朋友。"
+ },
+ {
+  "seg": 237,
+  "start": 1420.834,
+  "end": 1421.034,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 238,
+  "start": 1421.475,
+  "end": 1422.536,
+  "speaker": "Unknown",
+  "en": "And we should keep on doing that.",
+  "zh": "我们应该继续这么做。"
+ },
+ {
+  "seg": 239,
+  "start": 1422.576,
+  "end": 1422.716,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1422.736,
+  "end": 1425.98,
+  "speaker": "Unknown",
+  "en": "We're already, crypto agility is a term that's over a decade old.",
+  "zh": "我们已经……crypto agility 这个术语已经有十多年的历史了。"
+ },
+ {
+  "seg": 241,
+  "start": 1426.62,
+  "end": 1426.801,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 242,
+  "start": 1426.841,
+  "end": 1427.922,
+  "speaker": "Unknown",
+  "en": "So we should keep on doing that.",
+  "zh": "所以我们应该继续这么做。"
+ },
+ {
+  "seg": 243,
+  "start": 1428.443,
+  "end": 1437.452,
+  "speaker": "Unknown",
+  "en": "And if our AI friends come up with things that we didn't expect, well, you know, the crypto agility will kick in and we'll move to something that remains secure.",
+  "zh": "而且如果我们的 AI 朋友们搞出了我们没预料到的东西，嗯，你知道，crypto agility 就会发挥作用，我们会迁移到仍然安全的东西上。"
+ },
+ {
+  "seg": 244,
+  "start": 1438.191,
+  "end": 1452.518,
+  "speaker": "Unknown",
+  "en": "This debate also surfaced another opportunity to re-litigate something that comes up all the time, which is elliptic curves versus hashes versus lattice cryptography as the fundamental basis for specific constructions and specific applications.",
+  "zh": "这场辩论还浮出了另一个重新争论一个老生常谈话题的机会，那就是椭圆曲线、哈希与格密码学，作为特定构造和特定应用的根本基础。"
+ },
+ {
+  "seg": 245,
+  "start": 1453.199,
+  "end": 1463.464,
+  "speaker": "Unknown",
+  "en": "And, of course, Dan, of course, is totally correct that the AI thread is broader because, just to reiterate it slightly,",
+  "zh": "当然，Dan 当然是完全正确的，AI 威胁的范围更广，因为——稍微重申一下——"
+ },
+ {
+  "seg": 246,
+  "start": 1464.562,
+  "end": 1475.209,
+  "speaker": "Unknown",
+  "en": "You know, if cryptography relies on the difficulty of specific problems, it could find flaws in these problems on any of the schemes, right?",
+  "zh": "你知道，如果密码学依赖于特定问题的困难性，那么它可能在任何方案中发现这些问题的缺陷，对吧？"
+ },
+ {
+  "seg": 247,
+  "start": 1475.329,
+  "end": 1477.09,
+  "speaker": "Unknown",
+  "en": "Not just elliptic curve cryptography.",
+  "zh": "而不只是椭圆曲线密码学。"
+ },
+ {
+  "seg": 248,
+  "start": 1477.771,
+  "end": 1483.555,
+  "speaker": "Unknown",
+  "en": "But to get a little bit into the details, what Drake was saying was that there may be structure",
+  "zh": "但稍微深入一下细节，Drake 所说的是，在格密码学和椭圆曲线密码学中可能存在某种结构，"
+ },
+ {
+  "seg": 249,
+  "start": 1484.435,
+  "end": 1495.685,
+  "speaker": "Unknown",
+  "en": "in lattice cryptography and elliptic curve cryptography that perhaps makes it more vulnerable to the ideations of a very well-resourced AI model.",
+  "zh": "也许使它们更容易受到一个资源极其充足的 AI 模型的构想的影响。"
+ },
+ {
+  "seg": 250,
+  "start": 1496.826,
+  "end": 1510.918,
+  "speaker": "Unknown",
+  "en": "Again, we didn't learn anything specific about that per se from the OpenAI drop, but I think it's a little bit less clear to me and I'd love to hear from Dan and from Justin about",
+  "zh": "再说，我们并没有从 OpenAI 的发布中学到关于这个问题的具体东西，但我认为对我来说这一点不太清楚，我很想听听 Dan 和 Justin 的看法，关于"
+ },
+ {
+  "seg": 251,
+  "start": 1512.039,
+  "end": 1528.413,
+  "speaker": "Unknown",
+  "en": "What is it specifically maybe about hashes or about lattice cryptography in addition to elliptic curve cryptography that maybe gives someone, might give someone reasons to believe some are more secure than others to an AI threat?",
+  "zh": "具体是什么，也许是关于哈希，或者是除了椭圆曲线密码学之外的格密码学，可能给某些人理由去相信其中一些比另一些更能抵御 AI 威胁？"
+ },
+ {
+  "seg": 252,
+  "start": 1528.733,
+  "end": 1533.938,
+  "speaker": "Unknown",
+  "en": "And the point there is that we think of hash functions as post-quantum, but they might not be post-AI.",
+  "zh": "这里的要点是，我们认为哈希函数是后量子的，但它们未必是后 AI 的。"
+ },
+ {
+  "seg": 253,
+  "start": 1533.979,
+  "end": 1535.36,
+  "speaker": "Unknown",
+  "en": "That's the... Yeah, that's right.",
+  "zh": "这就是……对，没错。"
+ },
+ {
+  "seg": 254,
+  "start": 1535.44,
+  "end": 1535.84,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 255,
+  "start": 1535.9,
+  "end": 1540.565,
+  "speaker": "Unknown",
+  "en": "And we think of lattice as post-quantum, but not necessarily post-AI, right?",
+  "zh": "我们认为格是后量子的，但未必是后 AI 的，对吧？"
+ },
+ {
+  "seg": 256,
+  "start": 1540.585,
+  "end": 1542.147,
+  "speaker": "Unknown",
+  "en": "And so how do you think of the... Yeah.",
+  "zh": "那么你怎么看待这个……对。"
+ },
+ {
+  "seg": 257,
+  "start": 1542.167,
+  "end": 1542.828,
+  "speaker": "Unknown",
+  "en": "How do you think of them?",
+  "zh": "你怎么看待它们？"
+ },
+ {
+  "seg": 258,
+  "start": 1543.333,
+  "end": 1543.934,
+  "speaker": "Unknown",
+  "en": "Right, good.",
+  "zh": "好，很好。"
+ },
+ {
+  "seg": 259,
+  "start": 1544.014,
+  "end": 1554.426,
+  "speaker": "Unknown",
+  "en": "So the migration to post-quantum cryptography, I guess, in the blockchain space, there's actually quite a bit of debate on whether we should be using lattice-based signatures or hash-based signatures.",
+  "zh": "至于向后量子密码学的迁移，我想说，在区块链领域，关于我们应该使用基于格的签名还是基于哈希的签名，实际上存在相当多的争论。"
+ },
+ {
+  "seg": 260,
+  "start": 1555.186,
+  "end": 1557.249,
+  "speaker": "Unknown",
+  "en": "On the internet at large, there is no debate.",
+  "zh": "我们只能完全不用格，就这样。"
+ },
+ {
+  "seg": 261,
+  "start": 1557.689,
+  "end": 1562.935,
+  "speaker": "Unknown",
+  "en": "On the internet at large, everybody's using lattice-based cryptosystems for key exchange, for signatures.",
+  "zh": "在整个互联网上，每个人都在使用基于格的密码系统来做密钥交换、签名。"
+ },
+ {
+  "seg": 262,
+  "start": 1563.876,
+  "end": 1564.536,
+  "speaker": "Unknown",
+  "en": "That's a done deal.",
+  "zh": "那已经是定局了。"
+ },
+ {
+  "seg": 263,
+  "start": 1565.116,
+  "end": 1570.798,
+  "speaker": "Unknown",
+  "en": "In the blockchain space, there is still a debate as to whether we're going to use hash-based signatures or lattice-based signatures.",
+  "zh": "而在区块链领域，仍然存在我们将使用基于哈希的签名还是基于格的签名的争论。"
+ },
+ {
+  "seg": 264,
+  "start": 1571.378,
+  "end": 1576.32,
+  "speaker": "Unknown",
+  "en": "Generally, the attitude in the community is that hash-based signatures are more secure.",
+  "zh": "一般来说，社区的态度是认为基于哈希的签名更安全。"
+ },
+ {
+  "seg": 265,
+  "start": 1576.88,
+  "end": 1578.881,
+  "speaker": "Unknown",
+  "en": "And there is multiple reasons to say that.",
+  "zh": "而且有多重理由支持这一点。"
+ },
+ {
+  "seg": 266,
+  "start": 1580.181,
+  "end": 1590.584,
+  "speaker": "Unknown",
+  "en": "One reason is that if it turns out that one hash function turns out to be not as secure as we thought, we simply switch it out for another hash function and everything works as before.",
+  "zh": "一个理由是，如果事实证明某个哈希函数并不像我们想的那样安全，我们只需把它换成另一个哈希函数，一切照旧运转。"
+ },
+ {
+  "seg": 267,
+  "start": 1591.024,
+  "end": 1593.205,
+  "speaker": "Unknown",
+  "en": "The framework is guaranteed to be correct.",
+  "zh": "这个框架被保证是正确的。"
+ },
+ {
+  "seg": 268,
+  "start": 1593.685,
+  "end": 1597.606,
+  "speaker": "Unknown",
+  "en": "Yeah, so there's like more agility when we use hash-based signatures.",
+  "zh": "对，所以使用基于哈希的签名时有更多的灵活性。"
+ },
+ {
+  "seg": 269,
+  "start": 1598.106,
+  "end": 1605.548,
+  "speaker": "Unknown",
+  "en": "If for some reason it turns out that the core lattice problems are not as hard as we thought, the whole mechanism collapses and we have no recovery.",
+  "zh": "如果出于某种原因，事实证明核心的格问题并不像我们想的那样难，整个机制就会崩塌，我们没有任何恢复手段。"
+ },
+ {
+  "seg": 270,
+  "start": 1605.568,
+  "end": 1607.669,
+  "speaker": "Unknown",
+  "en": "We can just not use lattices, period.",
+  "zh": "我们完全可以不用 lattice,就这样。"
+ },
+ {
+  "seg": 271,
+  "start": 1607.749,
+  "end": 1612.791,
+  "speaker": "Unknown",
+  "en": "So in some sense, hash-based signatures are far more agile than a lattice-based signature.",
+  "zh": "所以在某种意义上，基于哈希的签名比基于格的签名灵活得多。"
+ },
+ {
+  "seg": 272,
+  "start": 1612.811,
+  "end": 1620.233,
+  "speaker": "Unknown",
+  "en": "Yeah, because a hash-based scheme, although it may vary in the specific hash function being used, the entire construct of a hash-based scheme",
+  "zh": "对，因为基于哈希的方案，尽管它所使用的具体哈希函数可能不同，但基于哈希的方案这一整个构造"
+ },
+ {
+  "seg": 273,
+  "start": 1621.173,
+  "end": 1621.874,
+  "speaker": "Unknown",
+  "en": "The framework is sound.",
+  "zh": "这个框架是可靠的。"
+ },
+ {
+  "seg": 274,
+  "start": 1621.894,
+  "end": 1622.855,
+  "speaker": "Unknown",
+  "en": "The framework is sound.",
+  "zh": "这个框架是可靠的。"
+ },
+ {
+  "seg": 275,
+  "start": 1622.915,
+  "end": 1632.386,
+  "speaker": "Unknown",
+  "en": "So in other words, the choice of hash function, which would be the thing that would break, is less important, so to speak, in the grand construction.",
+  "zh": "换句话说，哈希函数的选择——也就是可能出问题的那部分——可以说，在整体构造中没有那么重要。"
+ },
+ {
+  "seg": 276,
+  "start": 1632.426,
+  "end": 1641.537,
+  "speaker": "Unknown",
+  "en": "Whereas in lattice-based cryptography, maybe like elliptic curve cryptography, all those different schemes rely on maybe a specific shared problem or shared set of assumptions.",
+  "zh": "而在基于格的密码学中，也许就像椭圆曲线密码学一样，所有这些不同的方案都依赖于某个特定的共享问题或一组共享的假设。"
+ },
+ {
+  "seg": 277,
+  "start": 1642.312,
+  "end": 1655.679,
+  "speaker": "Unknown",
+  "en": "Yeah, the other argument that I hear a lot in the blockchain space is that, specifically in Bitcoin and Ethereum, is that the hash assumptions that we make are necessary for other parts of the blockchain to operate.",
+  "zh": "是的，我在区块链领域经常听到的另一个论点，特别是在 Bitcoin 和 Ethereum 中，是我们做出的哈希假设是区块链其他部分运行所必需的。"
+ },
+ {
+  "seg": 278,
+  "start": 1656.119,
+  "end": 1661.482,
+  "speaker": "Unknown",
+  "en": "Merkle trees and such, we already make hash assumptions for the core functioning of the blockchain.",
+  "zh": "比如 Merkle 树等等，我们已经在为区块链的核心运转做哈希假设了。"
+ },
+ {
+  "seg": 279,
+  "start": 1662.042,
+  "end": 1669.666,
+  "speaker": "Unknown",
+  "en": "So in some sense, if our signatures were also purely hash-based, we are not adding any new assumptions to the security of the blockchain.",
+  "zh": "所以在某种意义上，如果我们的签名也纯粹基于哈希，我们就不会给区块链的安全性增加任何新的假设。"
+ },
+ {
+  "seg": 280,
+  "start": 1670.046,
+  "end": 1670.547,
+  "speaker": "Unknown",
+  "en": "Whereas if",
+  "zh": "而如果"
+ },
+ {
+  "seg": 281,
+  "start": 1671.587,
+  "end": 1681.731,
+  "speaker": "Unknown",
+  "en": "For one part of the blockchain we use hashes, and for signatures we use lattices, all of a sudden now we have two different types of assumptions that if either one of them breaks, we have a problem.",
+  "zh": "区块链的一部分用哈希，而签名用格，那突然之间我们就有了两种不同类型的假设，其中任何一个被攻破，我们就有麻烦了。"
+ },
+ {
+  "seg": 282,
+  "start": 1682.172,
+  "end": 1688.194,
+  "speaker": "Unknown",
+  "en": "And so reducing the number of assumptions in the blockchain is also something that people are kind of excited about.",
+  "zh": "所以减少区块链中的假设数量，也是人们比较兴奋的一件事。"
+ },
+ {
+  "seg": 283,
+  "start": 1688.614,
+  "end": 1690.375,
+  "speaker": "Unknown",
+  "en": "I get a sense that in the Bitcoin space...",
+  "zh": "我感觉在 Bitcoin 领域……"
+ },
+ {
+  "seg": 284,
+  "start": 1690.755,
+  "end": 1703.499,
+  "speaker": "Unknown",
+  "en": "And particularly the core devs that I talked to, they're actually quite excited about getting rid of elliptic curve assumptions in Bitcoin and having Bitcoin only depend on the security of a particular hash function without any additional assumptions.",
+  "zh": "特别是我交谈过的那些核心开发者，他们其实对摆脱 Bitcoin 中的椭圆曲线假设感到相当兴奋，希望 Bitcoin 只依赖某个特定哈希函数的安全性，而不需要任何额外的假设。"
+ },
+ {
+  "seg": 285,
+  "start": 1704.259,
+  "end": 1708.901,
+  "speaker": "Unknown",
+  "en": "And in some sense, the same thing is also playing out in the Ethereum foundation space.",
+  "zh": "而在某种意义上，同样的事情也在 Ethereum 基金会那边上演。"
+ },
+ {
+  "seg": 286,
+  "start": 1709.101,
+  "end": 1712.002,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think I'd say those are kind of the comparisons between the two.",
+  "zh": "对，所以我想说这些就是两者之间的比较。"
+ },
+ {
+  "seg": 287,
+  "start": 1712.478,
+  "end": 1717.92,
+  "speaker": "Unknown",
+  "en": "This is a complicated question, much more so than it appears on the surface.",
+  "zh": "这是一个复杂的问题，远比表面上看起来复杂。"
+ },
+ {
+  "seg": 288,
+  "start": 1718.9,
+  "end": 1725.442,
+  "speaker": "Unknown",
+  "en": "Should blockchains rely exclusively on hashes, or should they use lattices?",
+  "zh": "区块链应该完全依赖哈希，还是应该使用格？"
+ },
+ {
+  "seg": 289,
+  "start": 1726.363,
+  "end": 1732.545,
+  "speaker": "Unknown",
+  "en": "So, I mean, one thing to say is the whole world's digital infrastructure is going to be very challenged if...",
+  "zh": "那么，我想说的是，如果……整个世界的数字基础设施都将面临巨大挑战，"
+ },
+ {
+  "seg": 290,
+  "start": 1733.946,
+  "end": 1739.21,
+  "speaker": "Unknown",
+  "en": "We only use hash-based cryptography because you just can't do good encryption key exchange from that.",
+  "zh": "如果我们只使用基于哈希的密码学，因为你根本无法从中实现好的加密密钥交换。"
+ },
+ {
+  "seg": 291,
+  "start": 1740.131,
+  "end": 1752.562,
+  "speaker": "Unknown",
+  "en": "But also, especially in the Ethereum community, the way they plan to use only hashes, which comes with downsides like just bigger cryptography, is to",
+  "zh": "但另外，特别是在 Ethereum 社区，他们计划只使用哈希的方式——这带有一些缺点，比如密码学体积更大——是"
+ },
+ {
+  "seg": 292,
+  "start": 1755.505,
+  "end": 1757.267,
+  "speaker": "Unknown",
+  "en": "Use what's called snark recursion.",
+  "zh": "使用所谓的 snark 递归。"
+ },
+ {
+  "seg": 293,
+  "start": 1757.348,
+  "end": 1765.558,
+  "speaker": "Unknown",
+  "en": "So basically you have these proofs that, you know, you know a bunch of signatures or something, and then you prove you know those proofs and prove you know those proofs and so on and so forth.",
+  "zh": "基本上就是你有一些证明，证明你知道一堆签名或类似的东西，然后你证明你知道这些证明，再证明你知道这些证明，如此等等。"
+ },
+ {
+  "seg": 294,
+  "start": 1765.979,
+  "end": 1767.4,
+  "speaker": "Unknown",
+  "en": "And so there are two issues there.",
+  "zh": "所以这里有两个问题。"
+ },
+ {
+  "seg": 295,
+  "start": 1768.141,
+  "end": 1770.745,
+  "speaker": "Unknown",
+  "en": "The more prosaic issue is this is just very complicated.",
+  "zh": "比较平常的一个问题是这非常复杂。"
+ },
+ {
+  "seg": 296,
+  "start": 1771.185,
+  "end": 1776.872,
+  "speaker": "Unknown",
+  "en": "Right, to like prove you ran a snark verifier that itself verified a proof that verified a proof.",
+  "zh": "对，就是去证明你运行了一个 snark 验证器，它本身验证了一个证明，而那个证明又验证了另一个证明。"
+ },
+ {
+  "seg": 297,
+  "start": 1776.992,
+  "end": 1779.415,
+  "speaker": "Unknown",
+  "en": "And so the surface area for bugs just gets very large.",
+  "zh": "所以出 bug 的表面积就变得非常大。"
+ },
+ {
+  "seg": 298,
+  "start": 1779.655,
+  "end": 1786.523,
+  "speaker": "Unknown",
+  "en": "And yes, I'm very optimistic that the same AI tools that are scaring people about cryptography will also help us get all the bugs out.",
+  "zh": "而是的，我非常乐观地认为，那些让人们担心密码学的同样的 AI 工具，也会帮助我们把这些 bug 都清除掉。"
+ },
+ {
+  "seg": 299,
+  "start": 1787.524,
+  "end": 1788.805,
+  "speaker": "Unknown",
+  "en": "That's a very hard problem.",
+  "zh": "这是一个非常难的问题。"
+ },
+ {
+  "seg": 300,
+  "start": 1788.905,
+  "end": 1794.271,
+  "speaker": "Unknown",
+  "en": "So, you know, we have to speculate just as much on, I know the bugs is like a really, really, really hard problem.",
+  "zh": "所以，你知道，我们必须同样多地去做推测，我知道 bug 是一个真的、真的、真的很难的问题。"
+ },
+ {
+  "seg": 301,
+  "start": 1794.311,
+  "end": 1798.876,
+  "speaker": "Unknown",
+  "en": "So the AI is going to have to be really good if we're going to get all of those bugs out from a system that complicated.",
+  "zh": "所以 AI 必须变得非常出色，我们才能从一个那么复杂的系统中把所有那些 bug 都清除出去。"
+ },
+ {
+  "seg": 302,
+  "start": 1799.096,
+  "end": 1802.58,
+  "speaker": "Unknown",
+  "en": "And I think relying exclusively on hashes amplifies that.",
+  "zh": "而且我认为完全依赖哈希会放大这个问题。"
+ },
+ {
+  "seg": 303,
+  "start": 1802.82,
+  "end": 1806.022,
+  "speaker": "Unknown",
+  "en": "And the other thing is that we don't understand the security of snark recursion very well.",
+  "zh": "另一件事是，我们对 snark 递归的安全性理解得不是很透彻。"
+ },
+ {
+  "seg": 304,
+  "start": 1806.062,
+  "end": 1809.463,
+  "speaker": "Unknown",
+  "en": "So that's another, you know, you tell me lattices might be attackable.",
+  "zh": "所以这也是另一个，你知道，你告诉我格可能会被攻击。"
+ },
+ {
+  "seg": 305,
+  "start": 1809.884,
+  "end": 1811.625,
+  "speaker": "Unknown",
+  "en": "I say, well, I don't know about snark recursion.",
+  "zh": "我说，嗯，我不清楚 snark 递归。"
+ },
+ {
+  "seg": 306,
+  "start": 1811.645,
+  "end": 1814.966,
+  "speaker": "Unknown",
+  "en": "You know, again, there are a lot of non-quantifiable risks.",
+  "zh": "你知道，再说一次，有很多无法量化的风险。"
+ },
+ {
+  "seg": 307,
+  "start": 1815.086,
+  "end": 1817.508,
+  "speaker": "Unknown",
+  "en": "And, you know, I'll just leave it at that.",
+  "zh": "而且，你知道，我就说到这里。"
+ },
+ {
+  "seg": 308,
+  "start": 1817.528,
+  "end": 1819.909,
+  "speaker": "Unknown",
+  "en": "We have to do our best to weigh these things.",
+  "zh": "我们必须尽力去权衡这些事情。"
+ },
+ {
+  "seg": 309,
+  "start": 1820.009,
+  "end": 1823.311,
+  "speaker": "Unknown",
+  "en": "And the public discussion weighing them can be pretty frustrating sometimes.",
+  "zh": "而对它们进行权衡的公开讨论有时会相当令人沮丧。"
+ },
+ {
+  "seg": 310,
+  "start": 1825.163,
+  "end": 1826.343,
+  "speaker": "Unknown",
+  "en": "Yeah, that's right.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 311,
+  "start": 1826.483,
+  "end": 1829.784,
+  "speaker": "Unknown",
+  "en": "I do want to make one more point on the hash-based versus lattice-based.",
+  "zh": "关于基于哈希还是基于格，我还想再讲一点。"
+ },
+ {
+  "seg": 312,
+  "start": 1830.404,
+  "end": 1840.467,
+  "speaker": "Unknown",
+  "en": "It is quite important to understand that lattice-based systems have much better properties than hash-based, which is actually why many in the crypto community are pushing towards lattice-based systems.",
+  "zh": "理解这一点非常重要：基于格的系统比基于哈希的系统有更好的性质，这实际上也是密码学社区中许多人正在推动转向基于格的系统的原因。"
+ },
+ {
+  "seg": 313,
+  "start": 1840.987,
+  "end": 1851.429,
+  "speaker": "Unknown",
+  "en": "So things like threshold signatures, things like non-hardened key derivation, there are many properties of lattice-based systems that we simply don't have with hash-based systems.",
+  "zh": "比如门限签名，比如非硬化的密钥派生，基于格的系统有很多性质是我们基于哈希的系统根本不具备的。"
+ },
+ {
+  "seg": 314,
+  "start": 1851.969,
+  "end": 1854.79,
+  "speaker": "Unknown",
+  "en": "Also, hash-based systems are harder to use in principle.",
+  "zh": "另外，基于哈希的系统在原理上更难使用。"
+ },
+ {
+  "seg": 315,
+  "start": 1855.35,
+  "end": 1860.592,
+  "speaker": "Unknown",
+  "en": "Like Justin was saying, they're much larger and they're stateful versus stateless.",
+  "zh": "就像 Justin 所说的，它们体积大得多，而且是有状态的而不是无状态的。"
+ },
+ {
+  "seg": 316,
+  "start": 1860.612,
+  "end": 1864.334,
+  "speaker": "Unknown",
+  "en": "There are many technical issues with getting hash-based signatures to work.",
+  "zh": "要让基于哈希的签名正常工作，有很多技术问题。"
+ },
+ {
+  "seg": 317,
+  "start": 1864.834,
+  "end": 1880.28,
+  "speaker": "Unknown",
+  "en": "So many of us cryptographers are actually a little sad that some of the blockchain community will move to hash-based signatures that really have no algebraic properties for us to leverage for more advanced applications.",
+  "zh": "所以我们许多密码学家实际上有点难过，因为区块链社区的一部分将转向基于哈希的签名，那真的没有任何代数性质可以供我们利用来做更高级的应用。"
+ },
+ {
+  "seg": 318,
+  "start": 1881.24,
+  "end": 1899.507,
+  "speaker": "Unknown",
+  "en": "So in some sense, there's a tradeoff that we're making in perhaps we are removing assumptions from the blockchain space, but we're also removing capability in that now we are going to be using signature schemes that have far fewer properties than what we would have if we were using lattices.",
+  "zh": "所以从某种意义上说，我们正在做一个权衡：也许我们正在从区块链领域移除一些假设，但我们也在移除能力，因为我们即将使用的签名方案所具有的性质远远少于我们如果使用格方案所能拥有的性质。"
+ },
+ {
+  "seg": 319,
+  "start": 1899.827,
+  "end": 1901.108,
+  "speaker": "Unknown",
+  "en": "So as a cryptographer, to be honest,",
+  "zh": "所以作为一个密码学家，老实说，"
+ },
+ {
+  "seg": 320,
+  "start": 1901.828,
+  "end": 1909.571,
+  "speaker": "Unknown",
+  "en": "I would be quite happy if we ended up using lattice-based schemes because that gives us much more room to play in and build interesting structures.",
+  "zh": "如果我们最终使用基于格的方案，我会相当高兴，因为那给了我们大得多的施展空间来构建有趣的结构。"
+ },
+ {
+  "seg": 321,
+  "start": 1909.991,
+  "end": 1912.392,
+  "speaker": "Unknown",
+  "en": "But the hash-based schemes are much, much more constrained.",
+  "zh": "但基于哈希的方案受到的约束要多得多。"
+ },
+ {
+  "seg": 322,
+  "start": 1912.992,
+  "end": 1917.294,
+  "speaker": "Unknown",
+  "en": "But perhaps that constraint is also where this extra sense of security comes from.",
+  "zh": "不过，也许这种约束也正是这种额外安全感的来源。"
+ },
+ {
+  "seg": 323,
+  "start": 1918.275,
+  "end": 1934.822,
+  "speaker": "Unknown",
+  "en": "So maybe to give a quick summary of what we've kind of discussed so far, what it sounds like is, you know, and I think Justin led this out very nicely, it is not a given that there is an efficient algorithm that could be found to break this type of cryptography.",
+  "zh": "那么也许快速总结一下我们到目前为止讨论的内容，听起来像是，你知道，我认为 Justin 开了个很好的头：并不存在“一定能找到能破解这类密码学的高效算法”这样一种定论。"
+ },
+ {
+  "seg": 324,
+  "start": 1935.422,
+  "end": 1943.686,
+  "speaker": "Unknown",
+  "en": "If there is an efficient algorithm out there, then the timeframe at which to find it will have, is likely very, very sped up, given our advances in AI.",
+  "zh": "如果外面存在这样一款高效算法，那么考虑到我们在 AI 上的进步，找到它的时间框架很可能被极大地加速了。"
+ },
+ {
+  "seg": 325,
+  "start": 1944.246,
+  "end": 1954.751,
+  "speaker": "Unknown",
+  "en": "And that's where the kind of panic and confusion is coming from is the possibility that that efficient algorithm both exists and now the timeline is much shorter than it would be without these advances in AI.",
+  "zh": "这就是那种恐慌和困惑的来源：这个高效算法可能既存在，而且现在的时间线也比没有这些 AI 进步时要短得多。"
+ },
+ {
+  "seg": 326,
+  "start": 1955.371,
+  "end": 1964.136,
+  "speaker": "Unknown",
+  "en": "And the easiest way to minimize that panic is for more information from the labs to come out on how much work they've done to try to find that algorithm.",
+  "zh": "而把这种恐慌降到最低的最简单方法，就是从实验室那里获得更多信息，了解他们在尝试找到那个算法上做了多少工作。"
+ },
+ {
+  "seg": 327,
+  "start": 1964.456,
+  "end": 1972.62,
+  "speaker": "Unknown",
+  "en": "And if the labs came out and said, you know, we threw a bunch of compute and time and money at this and we couldn't crack it, that would give you confidence at least until the next",
+  "zh": "而如果实验室出来说，你知道，我们为此投入了大量算力、时间和金钱，我们没能破解它，那会给你信心——至少到下一次"
+ },
+ {
+  "seg": 328,
+  "start": 1973.77,
+  "end": 1977.211,
+  "speaker": "Unknown",
+  "en": "A big upgrade in the model that we have a reasonable, safe security assumption.",
+  "zh": "模型的大幅升级之前，我们有一个合理的、安全的安全假设。"
+ },
+ {
+  "seg": 329,
+  "start": 1977.231,
+  "end": 1984.293,
+  "speaker": "Unknown",
+  "en": "I mean, in the extreme case, it should give you more confidence than the history until today, right?",
+  "zh": "我是说，在极端情况下，它应该给你比迄今为止的历史更多的信心，对吧？"
+ },
+ {
+  "seg": 330,
+  "start": 1984.573,
+  "end": 1989.275,
+  "speaker": "Unknown",
+  "en": "If you really do believe, like many do, like many of the people posting yesterday believe, that",
+  "zh": "如果你真的相信，就像许多人相信的那样，就像昨天发帖的许多人相信的那样，"
+ },
+ {
+  "seg": 331,
+  "start": 1991.788,
+  "end": 2014.526,
+  "speaker": "Unknown",
+  "en": "These models are now basically at or better than the vast majority of people who are studying these systems, or they will be soon or whatever, then you should get great confidence from knowing that the equivalent of 100,000 expert mathematicians or cryptographers took a look at a scheme.",
+  "zh": "这些模型现在基本上已经达到或超过了研究这些系统的绝大多数人，或者很快就会达到，或者诸如此类，那么你应该从知道相当于 10 万名专家级数学家或密码学家审视过某个方案这一点中获得极大的信心。"
+ },
+ {
+  "seg": 332,
+  "start": 2014.766,
+  "end": 2019.27,
+  "speaker": "Unknown",
+  "en": "It should actually make you more confident than you could have ever been about one before that.",
+  "zh": "它实际上应该让你比在此之前对任何一个方案可能有的信心都更足。"
+ },
+ {
+  "seg": 333,
+  "start": 2020.094,
+  "end": 2026.37,
+  "speaker": "Unknown",
+  "en": "I can't help but emphasize like we need to reconsider just how we even decide what we feel confident about.",
+  "zh": "我不禁要强调，我们需要重新思考我们究竟该如何决定自己对什么感到有信心。"
+ },
+ {
+  "seg": 334,
+  "start": 2027.599,
+  "end": 2034.761,
+  "speaker": "Unknown",
+  "en": "So we've talked a little bit about, you know, if you're an institution, there's a lot of these security best practices that you probably are already doing or should have been doing already.",
+  "zh": "所以我们已经谈了一点，你知道，如果你是一家机构，有很多这样的安全最佳实践你可能已经在做了，或者早就应该做了。"
+ },
+ {
+  "seg": 335,
+  "start": 2034.781,
+  "end": 2039.883,
+  "speaker": "Unknown",
+  "en": "If you're an everyday user, nothing to do at the moment, don't panic, continue on.",
+  "zh": "如果你是普通用户，目前没有什么要做的，不要恐慌，继续正常生活。"
+ },
+ {
+  "seg": 336,
+  "start": 2040.804,
+  "end": 2053.828,
+  "speaker": "Unknown",
+  "en": "If you're a startup that, you know, wants to take advantage of this really interesting kind of like piece of technology unfolding in this way, are there startup opportunities here and where a new company might be able to come in and help?",
+  "zh": "如果你是一家想要利用这种以这种方式展开的非常有趣的技术片段的初创公司，这里有初创机会吗？一家新公司可能能够在哪些方面介入并提供帮助？"
+ },
+ {
+  "seg": 337,
+  "start": 2054.088,
+  "end": 2068.132,
+  "speaker": "Unknown",
+  "en": "I think the most obvious note that I take out is that, well, startups will have to need to have, you know, seriously consider what types of security assumptions they make in their software today, you know, however they design their systems.",
+  "zh": "我认为我得到的最明显的要点是：初创公司将必须，你知道，认真考虑他们今天在软件中做出的安全假设是什么类型，不管他们如何设计他们的系统。"
+ },
+ {
+  "seg": 338,
+  "start": 2068.393,
+  "end": 2070.773,
+  "speaker": "Unknown",
+  "en": "That's already kind of happening on multiple fronts, right?",
+  "zh": "这在多个方面其实已经在发生了，对吧？"
+ },
+ {
+  "seg": 339,
+  "start": 2071.293,
+  "end": 2073.774,
+  "speaker": "Unknown",
+  "en": "How people think about open source is changing, right?",
+  "zh": "人们对开源的看法正在改变，对吧？"
+ },
+ {
+  "seg": 340,
+  "start": 2075.175,
+  "end": 2079.456,
+  "speaker": "Unknown",
+  "en": "Didn't closed source, basically, everyone recognized closed source died last week, right?",
+  "zh": "难道闭源，基本上，不是每个人都认识到闭源上周已经死了吗，对吧？"
+ },
+ {
+  "seg": 341,
+  "start": 2079.476,
+  "end": 2081.257,
+  "speaker": "Unknown",
+  "en": "Because of our ability to decompile things.",
+  "zh": "因为我们拥有反编译东西的能力。"
+ },
+ {
+  "seg": 342,
+  "start": 2082.905,
+  "end": 2096.636,
+  "speaker": "Unknown",
+  "en": "It's also the case that because of the agentic properties of AI systems, by agentic properties I mean, they can go on unbounded side quests, right, and do all kinds of random things in pursuit of a goal for you.",
+  "zh": "同样成立的是，由于 AI 系统的智能体特性——我说的智能体特性是指，它们可以去做无边界限制的支线任务，对吧，为了追求你的一个目标而做各种各样随机的事情——"
+ },
+ {
+  "seg": 343,
+  "start": 2097.497,
+  "end": 2107.185,
+  "speaker": "Unknown",
+  "en": "Because of this, we have to think very carefully about the security boundaries and sandboxes and capabilities-based permissioning schemes we put around AI agents.",
+  "zh": "正因为如此，我们必须非常仔细地思考我们围绕 AI 智能体设置的安全边界、沙箱和基于能力的权限方案。"
+ },
+ {
+  "seg": 344,
+  "start": 2107.205,
+  "end": 2110.528,
+  "speaker": "Unknown",
+  "en": "So we're already thinking about rethinking security from that lens.",
+  "zh": "所以我们已经在这个视角下重新思考安全问题了。"
+ },
+ {
+  "seg": 345,
+  "start": 2111.148,
+  "end": 2122.463,
+  "speaker": "Unknown",
+  "en": "This is just yet another way we need to reconsider what systems are capable of and how to design software and products that remain secure and that protect users as much as they empower them.",
+  "zh": "这只是我们重新思考系统能力以及如何设计既保持安全、又在赋能用户的同时尽可能保护用户的软件和产品的又一个维度。"
+ },
+ {
+  "seg": 346,
+  "start": 2123.697,
+  "end": 2125.038,
+  "speaker": "Unknown",
+  "en": "I would go even a step further.",
+  "zh": "我要更进一步说。"
+ },
+ {
+  "seg": 347,
+  "start": 2125.298,
+  "end": 2132.842,
+  "speaker": "Unknown",
+  "en": "I think that these new capabilities are a gift to startups and to even more established software shops.",
+  "zh": "我认为这些新能力对初创公司、甚至对更成熟的软件公司来说是一份礼物。"
+ },
+ {
+  "seg": 348,
+  "start": 2133.562,
+  "end": 2144.008,
+  "speaker": "Unknown",
+  "en": "So I can tell you in the past when the time when a crypto system becomes really interesting to attack is once it's announced that it's about to be deployed or is already deployed.",
+  "zh": "所以我可以告诉你，在过去，一个密码系统变得真正值得攻击的时机，是在它宣布即将部署或已经部署的时候。"
+ },
+ {
+  "seg": 349,
+  "start": 2144.108,
+  "end": 2152.272,
+  "speaker": "Unknown",
+  "en": "Like this is when after it's deployed it gets a lot of attention from cryptographers and that's kind of the wrong time to attack a crypto system.",
+  "zh": "因为在它部署之后，它会得到密码学家的大量关注，而那其实是攻击一个密码系统的错误时机。"
+ },
+ {
+  "seg": 350,
+  "start": 2152.987,
+  "end": 2168.954,
+  "speaker": "Unknown",
+  "en": "Whereas now, because we control these AI models, any startup or any software shop that's deploying a new crypto capability or actually even deploying any software at all can now have these models analyze its cryptography and analyze its general software for bugs.",
+  "zh": "而现在,因为我们控制着这些 AI 模型,任何正在部署新加密能力、或者实际上正在部署任何软件的初创公司或软件商店,现在都可以让这些模型分析它的密码学、分析它的通用软件中的 bug。"
+ },
+ {
+  "seg": 351,
+  "start": 2169.474,
+  "end": 2173.276,
+  "speaker": "Unknown",
+  "en": "This is an incredibly powerful tool that didn't exist before.",
+  "zh": "这是一种前所未有的、极其强大的工具。"
+ },
+ {
+  "seg": 352,
+  "start": 2174.016,
+  "end": 2181.22,
+  "speaker": "Unknown",
+  "en": "Over time, as more and more software shops adopt this technology, I believe that software quality is going to go up.",
+  "zh": "随着时间推移,随着越来越多的软件商店采用这项技术,我相信软件质量会上升。"
+ },
+ {
+  "seg": 353,
+  "start": 2181.88,
+  "end": 2188.101,
+  "speaker": "Unknown",
+  "en": "Crypto quality is going to go up because nothing will ship unless the model said that it's valid.",
+  "zh": "加密质量也会上升,因为除非模型说它是有效的,否则什么都不会发布。"
+ },
+ {
+  "seg": 354,
+  "start": 2189.001,
+  "end": 2195.403,
+  "speaker": "Unknown",
+  "en": "I saw someone recently because of the release of like 5.5 Haiku, they were comparing with 4.5, right?",
+  "zh": "我最近看到有人,因为 5.5 Haiku 的发布,他们在拿它和 4.5 比较,对吧?"
+ },
+ {
+  "seg": 355,
+  "start": 2196.063,
+  "end": 2200.444,
+  "speaker": "Unknown",
+  "en": "And making many comparisons between models from a year ago versus today.",
+  "zh": "并且对一年前的模型和今天的模型做了很多对比。"
+ },
+ {
+  "seg": 356,
+  "start": 2201.064,
+  "end": 2207.525,
+  "speaker": "Unknown",
+  "en": "And it's always hard to do an apples to apples comparison when the capabilities per token have increased so much.",
+  "zh": "当每 token 的能力提升这么多的时候,做同类比较总是很难的。"
+ },
+ {
+  "seg": 357,
+  "start": 2207.585,
+  "end": 2210.786,
+  "speaker": "Unknown",
+  "en": "But some people were coming up with estimates like",
+  "zh": "但有些人得出了这样的估计,比如"
+ },
+ {
+  "seg": 358,
+  "start": 2211.586,
+  "end": 2214.947,
+  "speaker": "Unknown",
+  "en": "It's 90 plus 95% cheaper, right?",
+  "zh": "便宜了 90 多到 95%,对吧?"
+ },
+ {
+  "seg": 359,
+  "start": 2214.987,
+  "end": 2222.268,
+  "speaker": "Unknown",
+  "en": "99% cheaper for intellectual capability per dollar, right?",
+  "zh": "每美元的智力能力便宜了 99%,对吧?"
+ },
+ {
+  "seg": 360,
+  "start": 2224.229,
+  "end": 2234.711,
+  "speaker": "Unknown",
+  "en": "If that's the case and you pair that with a frame we've said before, we talked about before, which is that the number of bugs in software is finite, right?",
+  "zh": "如果是这样,再结合我们之前说过、聊过的一个框架——软件中 bug 的数量是有限的,对吧?"
+ },
+ {
+  "seg": 361,
+  "start": 2235.271,
+  "end": 2237.932,
+  "speaker": "Unknown",
+  "en": "Then we're asymptotically approaching zero bugs.",
+  "zh": "那么我们正在渐近地逼近零 bug。"
+ },
+ {
+  "seg": 362,
+  "start": 2239.498,
+  "end": 2241.499,
+  "speaker": "Unknown",
+  "en": "Maybe, and maybe we actually just hit zero at some point.",
+  "zh": "也许,也许我们实际上会在某个时刻真正达到零。"
+ },
+ {
+  "seg": 363,
+  "start": 2241.519,
+  "end": 2244.72,
+  "speaker": "Unknown",
+  "en": "Maybe we have the ability to create zero with some assumptions, right?",
+  "zh": "也许在某些假设下,我们有能力创造零。"
+ },
+ {
+  "seg": 364,
+  "start": 2246.021,
+  "end": 2254.084,
+  "speaker": "Unknown",
+  "en": "If that's the case, we are net improving the security status of the world instead of eroding it, right?",
+  "zh": "如果是这样,我们就是在净改善世界的安全状况,而不是在侵蚀它,对吧?"
+ },
+ {
+  "seg": 365,
+  "start": 2254.304,
+  "end": 2262.067,
+  "speaker": "Unknown",
+  "en": "This is not a battle of wits where you have a system, I have a system, your system is smarter than mine, therefore I am vulnerable to you.",
+  "zh": "这不是一场斗智,不是说你有一个系统、我有一个系统,你的系统比我的聪明,所以我就对你脆弱。"
+ },
+ {
+  "seg": 366,
+  "start": 2262.207,
+  "end": 2268.65,
+  "speaker": "Unknown",
+  "en": "Like no matter what, no matter how I configure myself, you can overpower my computer and destroy my computer, right?",
+  "zh": "不是说不管我怎么配置自己,你都能压倒我的计算机、摧毁我的计算机,对吧?"
+ },
+ {
+  "seg": 367,
+  "start": 2270.063,
+  "end": 2271.905,
+  "speaker": "Unknown",
+  "en": "That relies on there being vulnerabilities.",
+  "zh": "那依赖于存在漏洞。"
+ },
+ {
+  "seg": 368,
+  "start": 2272.066,
+  "end": 2273.868,
+  "speaker": "Unknown",
+  "en": "And vulnerabilities can be removed.",
+  "zh": "而漏洞是可以被移除的。"
+ },
+ {
+  "seg": 369,
+  "start": 2274.088,
+  "end": 2275.149,
+  "speaker": "Unknown",
+  "en": "They can be designed away.",
+  "zh": "它们可以被设计掉。"
+ },
+ {
+  "seg": 370,
+  "start": 2275.189,
+  "end": 2276.09,
+  "speaker": "Unknown",
+  "en": "They can be mitigated.",
+  "zh": "它们可以被缓解。"
+ },
+ {
+  "seg": 371,
+  "start": 2276.891,
+  "end": 2282.758,
+  "speaker": "Unknown",
+  "en": "And the primary resource we dedicate to mitigating it is the thing that's getting",
+  "zh": "而我们投入到缓解漏洞上的首要资源,正是那个正在"
+ },
+ {
+  "seg": 372,
+  "start": 2284.615,
+  "end": 2286.976,
+  "speaker": "Unknown",
+  "en": "Radically cheaper every couple months.",
+  "zh": "每隔几个月就急剧变便宜的东西。"
+ },
+ {
+  "seg": 373,
+  "start": 2287.976,
+  "end": 2294.398,
+  "speaker": "Unknown",
+  "en": "And that's, you know, AI capabilities, intellectual capabilities, you know, intelligence, machine intelligence, whatever you want to call it.",
+  "zh": "那就是,你知道的,AI 能力、智力能力、智能、机器智能,随便你怎么称呼它。"
+ },
+ {
+  "seg": 374,
+  "start": 2294.598,
+  "end": 2296.438,
+  "speaker": "Unknown",
+  "en": "Companies actually are already doing this.",
+  "zh": "公司实际上已经在这么做了。"
+ },
+ {
+  "seg": 375,
+  "start": 2296.478,
+  "end": 2302.44,
+  "speaker": "Unknown",
+  "en": "Companies are actually spending a lot of money on exactly scanning their code base with the latest models.",
+  "zh": "公司实际上正在花大量钱,用最新的模型扫描它们的代码库。"
+ },
+ {
+  "seg": 376,
+  "start": 2303.3,
+  "end": 2305.12,
+  "speaker": "Unknown",
+  "en": "And it's actually really quite interesting.",
+  "zh": "这其实非常有趣。"
+ },
+ {
+  "seg": 377,
+  "start": 2305.18,
+  "end": 2308.461,
+  "speaker": "Unknown",
+  "en": "Every time there's a software update, they scan the model, the software again.",
+  "zh": "每次软件更新,他们都会让模型重新扫描一遍软件。"
+ },
+ {
+  "seg": 378,
+  "start": 2308.821,
+  "end": 2310.942,
+  "speaker": "Unknown",
+  "en": "Every time a new model comes out, they scan the model again.",
+  "zh": "每次有新模型发布,他们都会重新扫描。"
+ },
+ {
+  "seg": 379,
+  "start": 2311.222,
+  "end": 2312.122,
+  "speaker": "Unknown",
+  "en": "They scan the software again.",
+  "zh": "他们重新扫描软件。"
+ },
+ {
+  "seg": 380,
+  "start": 2312.602,
+  "end": 2322.204,
+  "speaker": "Unknown",
+  "en": "And so I have to say, one of the interesting research questions in this space, this is something actually we are quite interested in, is how do we do software scanning more efficiently?",
+  "zh": "所以我得说,这个领域里一个有趣的研究问题——实际上这也是我们非常感兴趣的——是如何更高效地进行软件扫描?"
+ },
+ {
+  "seg": 381,
+  "start": 2322.605,
+  "end": 2322.785,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 382,
+  "start": 2323.125,
+  "end": 2328.486,
+  "speaker": "Unknown",
+  "en": "So we don't have to maybe re-scan everything every time a new model comes out or every time a change is introduced.",
+  "zh": "这样我们也许就不必每次有新模型发布或每次有变更引入时,都重新扫描所有东西。"
+ },
+ {
+  "seg": 383,
+  "start": 2328.706,
+  "end": 2332.807,
+  "speaker": "Unknown",
+  "en": "So there's even lots of interesting areas for thought and research here.",
+  "zh": "所以这里还有很多值得思考和研究的有意思的方向。"
+ },
+ {
+  "seg": 384,
+  "start": 2334.509,
+  "end": 2342.66,
+  "speaker": "Unknown",
+  "en": "Let's say the labs take up your plea, they throw a bunch of compute at it, and they come out and they say, you're right, we did break elliptic curve cryptography, actually.",
+  "zh": "假设实验室们接受了你的恳求,他们往里面砸一堆算力,然后出来说,你说得对,我们确实破解了椭圆曲线密码学。"
+ },
+ {
+  "seg": 385,
+  "start": 2344.137,
+  "end": 2344.818,
+  "speaker": "Unknown",
+  "en": "What happens next?",
+  "zh": "接下来会发生什么?"
+ },
+ {
+  "seg": 386,
+  "start": 2345.278,
+  "end": 2349.802,
+  "speaker": "Unknown",
+  "en": "Like, you know, we record this podcast today and tomorrow, what does the world look like?",
+  "zh": "比如,你知道的,我们今天录这期播客,明天,世界会是什么样?"
+ },
+ {
+  "seg": 387,
+  "start": 2349.842,
+  "end": 2350.542,
+  "speaker": "Unknown",
+  "en": "What is the next step?",
+  "zh": "下一步是什么?"
+ },
+ {
+  "seg": 388,
+  "start": 2350.682,
+  "end": 2354.685,
+  "speaker": "Unknown",
+  "en": "Yeah, then basically we have to move to post-quantum cryptography, which we're already doing.",
+  "zh": "是的,那基本上我们就得迁移到后量子密码学,而我们已经在这么做了。"
+ },
+ {
+  "seg": 389,
+  "start": 2355.466,
+  "end": 2358.368,
+  "speaker": "Unknown",
+  "en": "We have to move to these lattice-based systems, which are already deployed.",
+  "zh": "我们必须迁移到这些基于格的系统,它们已经部署了。"
+ },
+ {
+  "seg": 390,
+  "start": 2359.189,
+  "end": 2363.412,
+  "speaker": "Unknown",
+  "en": "If you look, by the way, you can literally look at many internet connections today.",
+  "zh": "顺便说一句,如果你去看看,你今天真的可以看到很多互联网连接。"
+ },
+ {
+  "seg": 391,
+  "start": 2364.032,
+  "end": 2365.894,
+  "speaker": "Unknown",
+  "en": "They are actually using agile cryptography.",
+  "zh": "它们实际上在用敏捷密码学。"
+ },
+ {
+  "seg": 392,
+  "start": 2365.914,
+  "end": 2369.497,
+  "speaker": "Unknown",
+  "en": "They're encrypted using elliptic curves and lattices at the same time.",
+  "zh": "它们同时用椭圆曲线和格进行加密。"
+ },
+ {
+  "seg": 393,
+  "start": 2370.137,
+  "end": 2374.659,
+  "speaker": "Unknown",
+  "en": "If you break elliptic curves, it doesn't matter because it's also encrypted under a lattice base system.",
+  "zh": "如果椭圆曲线被破解了,也没关系,因为它还在基于格的系统下加密着。"
+ },
+ {
+  "seg": 394,
+  "start": 2374.699,
+  "end": 2377.18,
+  "speaker": "Unknown",
+  "en": "Yeah, didn't iMessage make that migration last year?",
+  "zh": "是的,iMessage 去年不是做了那个迁移吗?"
+ },
+ {
+  "seg": 395,
+  "start": 2377.34,
+  "end": 2380.541,
+  "speaker": "Unknown",
+  "en": "And many other such systems have done that.",
+  "zh": "还有许多其他类似的系统也这么做了。"
+ },
+ {
+  "seg": 396,
+  "start": 2380.802,
+  "end": 2382.002,
+  "speaker": "Unknown",
+  "en": "Exactly, Signal and so on.",
+  "zh": "没错,Signal 等等。"
+ },
+ {
+  "seg": 397,
+  "start": 2382.042,
+  "end": 2386.684,
+  "speaker": "Unknown",
+  "en": "Yes, yes, in fact, but I was actually referring to one of the TLS exchange methods.",
+  "zh": "是的,是的,实际上,我当时指的是 TLS 交换方法中的一种。"
+ },
+ {
+  "seg": 398,
+  "start": 2387.004,
+  "end": 2390.226,
+  "speaker": "Unknown",
+  "en": "I guess it's called x25509 mlchem768.",
+  "zh": "我记得它叫 x25509 mlchem768。"
+ },
+ {
+  "seg": 399,
+  "start": 2390.306,
+  "end": 2395.508,
+  "speaker": "Unknown",
+  "en": "It's a jumble of letters, but what it means is you're protected by both elliptic curves and lattices.",
+  "zh": "它是一堆字母的混杂,但它的意思是你同时受到椭圆曲线和格的保护。"
+ },
+ {
+  "seg": 400,
+  "start": 2396.148,
+  "end": 2399.131,
+  "speaker": "Unknown",
+  "en": "Now, maybe the labs come forward and say, oh, we broke both, right?",
+  "zh": "现在,也许实验室会站出来说,哦,我们把两者都破解了,对吧?"
+ },
+ {
+  "seg": 401,
+  "start": 2399.231,
+  "end": 2399.711,
+  "speaker": "Unknown",
+  "en": "Well, fine.",
+  "zh": "好吧,没问题。"
+ },
+ {
+  "seg": 402,
+  "start": 2399.731,
+  "end": 2400.732,
+  "speaker": "Unknown",
+  "en": "Then we introduce a third one.",
+  "zh": "那我们就引入第三个。"
+ },
+ {
+  "seg": 403,
+  "start": 2401.733,
+  "end": 2402.493,
+  "speaker": "Unknown",
+  "en": "We'd have to standardize.",
+  "zh": "我们必须进行标准化。"
+ },
+ {
+  "seg": 404,
+  "start": 2402.513,
+  "end": 2406.296,
+  "speaker": "Unknown",
+  "en": "That would be a longer process, but that would be what would come next.",
+  "zh": "那会是一个更长的过程,但那就是接下来会发生的事。"
+ },
+ {
+  "seg": 405,
+  "start": 2406.416,
+  "end": 2408.258,
+  "speaker": "Unknown",
+  "en": "So we kind of know where to go.",
+  "zh": "所以我们大致知道该往哪里走。"
+ },
+ {
+  "seg": 406,
+  "start": 2408.438,
+  "end": 2410.56,
+  "speaker": "Unknown",
+  "en": "It's just going to be more work and...",
+  "zh": "只是会需要更多的工作,而且……"
+ },
+ {
+  "seg": 407,
+  "start": 2412.141,
+  "end": 2413.482,
+  "speaker": "Unknown",
+  "en": "Perhaps more of a rush.",
+  "zh": "也许会更仓促。"
+ },
+ {
+  "seg": 408,
+  "start": 2413.562,
+  "end": 2420.165,
+  "speaker": "Unknown",
+  "en": "Yeah, and maybe at the risk of stating the obvious, I have no doubt they would be prudent enough to do this the right way.",
+  "zh": "是的,也许这有点老生常谈,但我毫不怀疑他们会足够审慎地以正确的方式来处理这件事。"
+ },
+ {
+  "seg": 409,
+  "start": 2420.185,
+  "end": 2429.65,
+  "speaker": "Unknown",
+  "en": "It goes without saying, but the labs shouldn't go and share this, just like throw out a scheme to break elliptic curves.",
+  "zh": "不用说,实验室不应该把这个分享出去,就随便抛出一个破解椭圆曲线的方案。"
+ },
+ {
+  "seg": 410,
+  "start": 2430.05,
+  "end": 2432.231,
+  "speaker": "Unknown",
+  "en": "They should responsibly disclose it to",
+  "zh": "他们应该负责任地向……披露"
+ },
+ {
+  "seg": 411,
+  "start": 2433.031,
+  "end": 2443.838,
+  "speaker": "Unknown",
+  "en": "I said, to the industry, to the government, to the industry, develop a plan and everybody needs to update their software as quickly as possible and hopefully we could move quickly and adapt.",
+  "zh": "我说过,向行业、向政府、向行业披露,制定一个计划,然后每个人都需要尽快更新他们的软件,希望我们能够迅速行动并适应。"
+ },
+ {
+  "seg": 412,
+  "start": 2443.898,
+  "end": 2450.942,
+  "speaker": "Unknown",
+  "en": "But again, that is a known process that a lot of people take for granted.",
+  "zh": "但再说一次,这是一个已知的流程,很多人都把它视为理所当然。"
+ },
+ {
+  "seg": 413,
+  "start": 2451.023,
+  "end": 2455.926,
+  "speaker": "Unknown",
+  "en": "Like I'm, it's almost like silly I'm saying it because all security experts know this very, very well.",
+  "zh": "就像我,我这么说几乎有点傻,因为所有安全专家都对此非常、非常了解。"
+ },
+ {
+  "seg": 414,
+  "start": 2456.466,
+  "end": 2459.608,
+  "speaker": "Unknown",
+  "en": "And so there is a way to do such a thing should it happen.",
+  "zh": "所以,如果这种事情发生了,是有应对办法的。"
+ },
+ {
+  "seg": 415,
+  "start": 2460.288,
+  "end": 2460.488,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 416,
+  "start": 2460.628,
+  "end": 2461.689,
+  "speaker": "Unknown",
+  "en": "Well, thank you for that.",
+  "zh": "好的,谢谢你解答这些。"
+ },
+ {
+  "seg": 417,
+  "start": 2462.389,
+  "end": 2463.01,
+  "speaker": "Unknown",
+  "en": "I feel calmer.",
+  "zh": "我感觉安心多了。"
+ },
+ {
+  "seg": 418,
+  "start": 2463.33,
+  "end": 2464.771,
+  "speaker": "Unknown",
+  "en": "So hopefully everyone else does as well.",
+  "zh": "希望大家也一样。"
+ },
+ {
+  "seg": 419,
+  "start": 2465.972,
+  "end": 2466.412,
+  "speaker": "Unknown",
+  "en": "Thanks so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 420,
+  "start": 2467.052,
+  "end": 2467.493,
+  "speaker": "Unknown",
+  "en": "This was fun.",
+  "zh": "这次很愉快。"
+ },
+ {
+  "seg": 421,
+  "start": 2467.513,
+  "end": 2467.793,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 422,
+  "start": 2470.585,
+  "end": 2473.448,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 423,
+  "start": 2474.088,
+  "end": 2480.495,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这期节目,请务必点赞、评论、订阅,给我们打分或写评论,并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 424,
+  "start": 2481.255,
+  "end": 2484.819,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 425,
+  "start": 2485.399,
+  "end": 2491.045,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z,并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 426,
+  "start": 2491.505,
+  "end": 2494.008,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening and I'll see you in the next episode.",
+  "zh": "再次感谢收听,我们下期节目再见。"
+ },
+ {
+  "seg": 427,
+  "start": 2496.112,
+  "end": 2509.042,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下,本内容仅供参考,不应被视为法律、商业、税务或投资建议,也不应用于评估任何投资或证券,且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 428,
+  "start": 2509.843,
+  "end": 2514.526,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意,A16Z 及其关联机构可能也持有本播客中所讨论公司的投资。"
+ },
+ {
+  "seg": 429,
+  "start": 2515.027,
+  "end": 2521.692,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情,包括我们投资的链接,请参见 a16z.com/disclosures。"
+ }
+]

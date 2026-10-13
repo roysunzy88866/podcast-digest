@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jake Broekhuizen]] · [[LangChain]] · [[LangSmith]] · [[智能体]] · [[记忆]] · [[可观测性]] · [[trace]] · [[上下文]] · [[程序性记忆]] · [[读写循环]]
 
-<script type="application/json" class="pd-epn">{"Jake Broekhuizen":1,"LangChain":13,"LangSmith":6,"智能体":489,"记忆":28,"可观测性":44,"trace":7,"上下文":32,"程序性记忆":1,"读写循环":1}</script>
+<script type="application/json" class="pd-epn">{"Jake Broekhuizen":1,"LangChain":13,"LangSmith":6,"智能体":492,"记忆":28,"可观测性":44,"trace":7,"上下文":32,"程序性记忆":1,"读写循环":1}</script>
 
 <script>
 (function(){

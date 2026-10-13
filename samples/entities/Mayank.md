@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":3,"OpenTelemetry":2,"Splunk":3,"智能体":489,"代码生成":1,"vibe coding":49,"vibe debugging":1,"部落知识":4}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Roshan":2,"Resolve AI":3,"OpenTelemetry":2,"Splunk":3,"智能体":492,"代码生成":1,"vibe coding":49,"vibe debugging":1,"部落知识":4}</script>
 
 <script>
 (function(){

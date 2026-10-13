@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":8,"AI 安全":3,"对齐":23,"超级智能":10,"欺骗性对齐":1,"机制可解释性":1,"开源":41,"有效利他主义":2,"网络安全":4,"去中心化":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":8,"AI 安全":3,"对齐":25,"超级智能":12,"欺骗性对齐":1,"机制可解释性":1,"开源":41,"有效利他主义":2,"网络安全":4,"去中心化":2}</script>
 
 <script>
 (function(){

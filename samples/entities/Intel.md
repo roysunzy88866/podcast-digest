@@ -37,7 +37,7 @@ unlisted: true
 
 [[OpenAI]] · [[推理]] · [[Anthropic]] · [[Microsoft]] · [[Google]] · [[NVIDIA]] · [[Amazon]] · [[Sachin Katti]] · [[Ben Thompson]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"推理":98,"Anthropic":201,"Microsoft":32,"Google":71,"NVIDIA":70,"Amazon":32,"Sachin Katti":1,"Ben Thompson":2,"Martin Casado":7}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"推理":98,"Anthropic":203,"Microsoft":32,"Google":71,"NVIDIA":70,"Amazon":32,"Sachin Katti":1,"Ben Thompson":2,"Martin Casado":7}</script>
 
 <script>
 (function(){

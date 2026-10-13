@@ -25,7 +25,7 @@ unlisted: true
 
 [[Andrew Huberman]] · [[Neuralink]] · [[OpenAI]] · [[Meta]] · [[Anthropic]] · [[AI]] · [[睡眠]] · [[记忆]] · [[迷走神经刺激]] · [[Waymo]]
 
-<script type="application/json" class="pd-epn">{"Andrew Huberman":1,"Neuralink":3,"OpenAI":197,"Meta":53,"Anthropic":201,"AI":32,"睡眠":1,"记忆":28,"迷走神经刺激":1,"Waymo":21}</script>
+<script type="application/json" class="pd-epn">{"Andrew Huberman":1,"Neuralink":3,"OpenAI":199,"Meta":53,"Anthropic":203,"AI":33,"睡眠":1,"记忆":28,"迷走神经刺激":1,"Waymo":21}</script>
 
 <script>
 (function(){

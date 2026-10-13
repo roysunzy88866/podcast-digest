@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Mark Zuckerberg":1,"智能体":489,"虚拟机":3,"生成式 UI":6,"聚合理论":2,"待完成任务":3,"Muse":8,"Meta":53,"Microsoft":32}</script>
+<script type="application/json" class="pd-epn">{"Ben Thompson":2,"Mark Zuckerberg":1,"智能体":492,"虚拟机":3,"生成式 UI":6,"聚合理论":2,"待完成任务":3,"Muse":8,"Meta":53,"Microsoft":32}</script>
 
 <script>
 (function(){

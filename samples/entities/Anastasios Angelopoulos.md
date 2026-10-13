@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":1,"基准测试":2,"开源":41,"智能体":489,"Kimi":2,"排行榜":2,"OpenAI":197}</script>
+<script type="application/json" class="pd-epn">{"Mamoun Hamid":1,"Jubin":2,"arena":2,"评估":1,"基准测试":2,"开源":41,"智能体":492,"Kimi":2,"排行榜":2,"OpenAI":199}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Rafal Wilinski]] · [[技能]] · [[智能体]] · [[MCP]] · [[提示词注入]] · [[Voyager]] · [[渐进式披露]] · [[Zapier]] · [[Claude]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Rafal Wilinski":1,"技能":32,"智能体":489,"MCP":91,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":96,"ChatGPT":111}</script>
+<script type="application/json" class="pd-epn">{"Rafal Wilinski":1,"技能":33,"智能体":492,"MCP":92,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":96,"ChatGPT":111}</script>
 
 <script>
 (function(){

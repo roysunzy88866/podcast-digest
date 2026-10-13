@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Waymo":21,"Waymo driver":1,"智能体":489,"物理 AI":11,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":14,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
+<script type="application/json" class="pd-epn">{"Waymo":21,"Waymo driver":1,"智能体":492,"物理 AI":11,"LiDAR":1,"端到端训练":3,"模拟器":3,"世界模型":14,"Waymo 基础模型":1,"结构增强型端到端":1}</script>
 
 <script>
 (function(){

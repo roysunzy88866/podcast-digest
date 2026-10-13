@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"a16z":21,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":32,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"a16z":21,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":33,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

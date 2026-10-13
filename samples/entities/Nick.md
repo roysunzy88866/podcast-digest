@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"智能体":489,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":91,"MCP 网关":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"智能体":492,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":92,"MCP 网关":1}</script>
 
 <script>
 (function(){

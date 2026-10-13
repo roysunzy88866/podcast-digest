@@ -35,7 +35,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":197,"ChatGPT":111,"Codex":86,"Sites":3,"连接器":3,"技能":32,"计算机使用":22,"推理":98,"MCP":91,"Notion":17}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"ChatGPT":111,"Codex":86,"Sites":3,"连接器":3,"技能":33,"计算机使用":22,"推理":98,"MCP":92,"Notion":17}</script>
 
 <script>
 (function(){

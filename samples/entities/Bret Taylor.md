@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":489,"基于结果的定价":4,"应用 AI":1,"前沿模型":27,"工具层":2,"上下文工程":18,"编程系统":1,"MCP":91}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":492,"基于结果的定价":4,"应用 AI":1,"前沿模型":27,"工具层":2,"上下文工程":18,"编程系统":1,"MCP":92}</script>
 
 <script>
 (function(){

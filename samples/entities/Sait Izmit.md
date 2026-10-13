@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":22,"Cowork":6,"智能体":489,"MCP":91,"变革管理":4,"语义视图":1,"技能":32,"反馈回路":3,"护栏":89}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":22,"Cowork":6,"智能体":492,"MCP":92,"变革管理":4,"语义视图":1,"技能":33,"反馈回路":3,"护栏":89}</script>
 
 <script>
 (function(){

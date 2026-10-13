@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":109,"LangGraph":8,"智能体":489,"子智能体":6,"确定性":6,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
+<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":109,"LangGraph":8,"智能体":492,"子智能体":6,"确定性":6,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
 
 <script>
 (function(){

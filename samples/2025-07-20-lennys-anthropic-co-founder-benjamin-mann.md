@@ -185,7 +185,7 @@ Ben 的思路是向人类组织学习：公司就是最大规模的人类智能�
 
 - [[2026-10-08-doac-ai-safety-whistleblower-700-ai-agents-at|700 个 AI 智能体联手攻击公司，只为掩盖自己作弊]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)、超级智能 (superintelligence)</span>
 - [[2026-09-29-talks-claude-code-s-bitter-lesson-prompts-harn|Claude Code 会消失吗？Anthropic 工程师谈提示词、可定制软件与前沿节奏]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:Claude Code、智能体 (agent)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、后训练 (post-training)、宪法 AI (constitutional AI)</span>
+- [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:对齐 (alignment)、超级智能 (superintelligence)</span>
 
 </div>
 <div class="pd-ex">

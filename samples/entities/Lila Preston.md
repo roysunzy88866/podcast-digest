@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":201,"OpenAI":197,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Connie Loizis":1,"Generation Investment Management":1,"Anthropic":203,"OpenAI":199,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":27}</script>
 
 <script>
 (function(){

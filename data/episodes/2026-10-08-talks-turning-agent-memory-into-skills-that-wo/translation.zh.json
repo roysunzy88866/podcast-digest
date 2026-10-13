@@ -1,0 +1,1434 @@
+[
+ {
+  "seg": 0,
+  "start": 12.697,
+  "end": 14.558,
+  "speaker": "Unknown",
+  "en": "Go ahead and get started.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 14.598,
+  "end": 19.401,
+  "speaker": "Unknown",
+  "en": "I see some folks wanting to come on in, so feel free to come in.",
+  "zh": "我看到有些朋友想进来,欢迎随时加入。"
+ },
+ {
+  "seg": 2,
+  "start": 20.181,
+  "end": 26.425,
+  "speaker": "Unknown",
+  "en": "This session is going to be all about actionable knowledge and context graphs.",
+  "zh": "本次环节将完全围绕可行动的知识和上下文图展开。"
+ },
+ {
+  "seg": 3,
+  "start": 26.525,
+  "end": 27.205,
+  "speaker": "Unknown",
+  "en": "My name's Will.",
+  "zh": "我叫 Will。"
+ },
+ {
+  "seg": 4,
+  "start": 27.525,
+  "end": 29.667,
+  "speaker": "Unknown",
+  "en": "I'm a product manager at Neo4j.",
+  "zh": "我是 Neo4j 的产品经理。"
+ },
+ {
+  "seg": 5,
+  "start": 33.447,
+  "end": 38.691,
+  "speaker": "Unknown",
+  "en": "There's been a lot of discussion in this conference so far about loops, right?",
+  "zh": "到目前为止,这次会议上已经有很多关于循环的讨论了,对吧?"
+ },
+ {
+  "seg": 6,
+  "start": 38.751,
+  "end": 41.733,
+  "speaker": "Unknown",
+  "en": "The React loop, the RALF loops.",
+  "zh": "React 循环、RALF 循环。"
+ },
+ {
+  "seg": 7,
+  "start": 41.833,
+  "end": 45.795,
+  "speaker": "Unknown",
+  "en": "Sometimes I feel like we're in maybe like an amnesiac loop, right?",
+  "zh": "有时我觉得我们可能处于某种失忆循环中,对吧?"
+ },
+ {
+  "seg": 8,
+  "start": 45.815,
+  "end": 56.703,
+  "speaker": "Unknown",
+  "en": "Where our agents go through this reasoning phase, acting, they successfully complete some task, but then kind of forget what they've learned.",
+  "zh": "我们的智能体经历推理阶段、行动,成功完成了一些任务,但随后就有点忘记了它们学到的东西。"
+ },
+ {
+  "seg": 9,
+  "start": 57.703,
+  "end": 70.214,
+  "speaker": "Unknown",
+  "en": "And memory systems today are largely focused around embedding text, then at retrieval time, sort of finding the most relevant data to stuff into the context, right?",
+  "zh": "而如今的记忆系统主要围绕嵌入文本展开,然后在检索时,找到最相关的数据塞进上下文里,对吧?"
+ },
+ {
+  "seg": 10,
+  "start": 71.115,
+  "end": 72.135,
+  "speaker": "Unknown",
+  "en": "So something like this.",
+  "zh": "就像这样。"
+ },
+ {
+  "seg": 11,
+  "start": 72.175,
+  "end": 76.059,
+  "speaker": "Unknown",
+  "en": "We find similar chunks of data in our corpus.",
+  "zh": "我们在语料库中找到相似的数据块。"
+ },
+ {
+  "seg": 12,
+  "start": 76.079,
+  "end": 80.683,
+  "speaker": "Unknown",
+  "en": "We inject that into the context window and trust that the agent is able to",
+  "zh": "我们把它们注入到上下文窗口中,并相信智能体能够"
+ },
+ {
+  "seg": 13,
+  "start": 81.383,
+  "end": 83.344,
+  "speaker": "Unknown",
+  "en": "Do something useful with that.",
+  "zh": "用这些数据做一些有用的事情。"
+ },
+ {
+  "seg": 14,
+  "start": 83.645,
+  "end": 90.449,
+  "speaker": "Unknown",
+  "en": "Now, the challenge that we have is recall isn't really actionable knowledge.",
+  "zh": "现在,我们面临的挑战是,检索到的内容并不是真正的可行动知识。"
+ },
+ {
+  "seg": 15,
+  "start": 90.849,
+  "end": 98.514,
+  "speaker": "Unknown",
+  "en": "One challenge we run into is, for example, we don't have a canonical representation of a thing.",
+  "zh": "我们遇到的一个挑战是,比如,我们对某个事物没有一个规范化的表示。"
+ },
+ {
+  "seg": 16,
+  "start": 99.354,
+  "end": 108.88,
+  "speaker": "Unknown",
+  "en": "If we have three different ways that we refer to Dr. Nguyen, Robert N, the cardiologist, depending on the context of this discussion,",
+  "zh": "如果我们有三种不同的方式来指代 Nguyen 医生、Robert N、那位心脏病科医生,取决于这次讨论的上下文,"
+ },
+ {
+  "seg": 17,
+  "start": 109.34,
+  "end": 113.782,
+  "speaker": "Unknown",
+  "en": "We need to have some canonical representation of the thing, right?",
+  "zh": "我们需要对事物有一个规范化的表示,对吧?"
+ },
+ {
+  "seg": 18,
+  "start": 113.802,
+  "end": 121.586,
+  "speaker": "Unknown",
+  "en": "So really, agents need knowledge that is both connected, typed, and traceable, right?",
+  "zh": "所以,智能体真正需要的是既相互连接、有类型、又可追溯的知识,对吧?"
+ },
+ {
+  "seg": 19,
+  "start": 121.666,
+  "end": 122.666,
+  "speaker": "Unknown",
+  "en": "Not just retrievable.",
+  "zh": "而不仅仅是可检索的。"
+ },
+ {
+  "seg": 20,
+  "start": 122.746,
+  "end": 129.93,
+  "speaker": "Unknown",
+  "en": "So retrieval is just a part of the problem when we're talking about agent memory.",
+  "zh": "所以,当我们谈论智能体记忆时,检索只是问题的一部分。"
+ },
+ {
+  "seg": 21,
+  "start": 130.65,
+  "end": 134.593,
+  "speaker": "Unknown",
+  "en": "At Neo4j, this is how we think of agent memory.",
+  "zh": "在 Neo4j,我们是这样看待智能体记忆的。"
+ },
+ {
+  "seg": 22,
+  "start": 134.733,
+  "end": 141.978,
+  "speaker": "Unknown",
+  "en": "We think of it as a connected graph composed of short-term, long-term, and reasoning memory.",
+  "zh": "我们把它看作一个由短期记忆、长期记忆和推理记忆组成的连接图。"
+ },
+ {
+  "seg": 23,
+  "start": 142.539,
+  "end": 152.266,
+  "speaker": "Unknown",
+  "en": "We'll take a look at this in a bit more detail, but bear with me on this idea of context graphs for agent memory.",
+  "zh": "稍后我们会更详细地看这个,但请先接受我这个用于智能体记忆的上下文图概念。"
+ },
+ {
+  "seg": 24,
+  "start": 152.586,
+  "end": 154.788,
+  "speaker": "Unknown",
+  "en": "What are a few of the key components here?",
+  "zh": "这里有哪些关键组成部分?"
+ },
+ {
+  "seg": 25,
+  "start": 155.648,
+  "end": 160.052,
+  "speaker": "Unknown",
+  "en": "One is going from unstructured data to a knowledge graph, right?",
+  "zh": "一是从非结构化数据到知识图谱,对吧?"
+ },
+ {
+  "seg": 26,
+  "start": 160.092,
+  "end": 165.237,
+  "speaker": "Unknown",
+  "en": "Going from this process of agent messages, right?",
+  "zh": "从这个智能体消息的过程出发,对吧?"
+ },
+ {
+  "seg": 27,
+  "start": 165.277,
+  "end": 174.205,
+  "speaker": "Unknown",
+  "en": "Both user and assistant messages, going through some entity extraction process where identifying what are the entities and how are they connected?",
+  "zh": "无论是用户消息还是助手消息,经过某种实体抽取过程,识别出有哪些实体以及它们之间是如何连接的?"
+ },
+ {
+  "seg": 28,
+  "start": 176.424,
+  "end": 181.568,
+  "speaker": "Unknown",
+  "en": "Doing this in a graph where we have strong types, right?",
+  "zh": "在一个具有强类型的图中做到这一点,对吧?"
+ },
+ {
+  "seg": 29,
+  "start": 181.588,
+  "end": 186.413,
+  "speaker": "Unknown",
+  "en": "We have a relationship that describes how these entities are related.",
+  "zh": "我们有一种关系来描述这些实体之间是如何关联的。"
+ },
+ {
+  "seg": 30,
+  "start": 188.73,
+  "end": 195.632,
+  "speaker": "Unknown",
+  "en": "The entity resolution phase is one of the most important parts of building up this knowledge graph, right?",
+  "zh": "实体消解阶段是构建知识图谱最重要的部分之一,对吧?"
+ },
+ {
+  "seg": 31,
+  "start": 195.692,
+  "end": 200.493,
+  "speaker": "Unknown",
+  "en": "Understanding and making sure that you have a canonical representation of the thing.",
+  "zh": "理解并确保你对事物有一个规范化的表示。"
+ },
+ {
+  "seg": 32,
+  "start": 201.473,
+  "end": 209.035,
+  "speaker": "Unknown",
+  "en": "So when we're talking about Dr. Nguyen, we know this is a provider, his name, the role that he has, and so on.",
+  "zh": "所以当我们谈论 Nguyen 医生时,我们知道这是一位医疗提供者,他的名字、他所担任的角色等等。"
+ },
+ {
+  "seg": 33,
+  "start": 209.995,
+  "end": 213.378,
+  "speaker": "Unknown",
+  "en": "And a shared ontology is an important piece of this, right?",
+  "zh": "而共享本体是其中重要的一环,对吧?"
+ },
+ {
+  "seg": 34,
+  "start": 213.398,
+  "end": 228.23,
+  "speaker": "Unknown",
+  "en": "So having some description of your data model of the domain that you're working with, this is one of the key pieces of making sure that you are successful in going from that unstructured text data to a knowledge graph.",
+  "zh": "对你所处理的领域的数据模型有一些描述,这是确保你成功地从非结构化文本数据走向知识图谱的关键部分之一。"
+ },
+ {
+  "seg": 35,
+  "start": 230.955,
+  "end": 236.579,
+  "speaker": "Unknown",
+  "en": "For folks that have worked with memory in agents in the past, this should look a little familiar.",
+  "zh": "对于那些过去做过智能体记忆的人来说,这应该看起来有点眼熟。"
+ },
+ {
+  "seg": 36,
+  "start": 237.34,
+  "end": 247.447,
+  "speaker": "Unknown",
+  "en": "One thing though that I think is really important when we're talking about agent memory and actionable knowledge is this idea of the reasoning graph, right?",
+  "zh": "不过,当我们谈论智能体记忆和可行动知识时,我认为真正重要的一个东西是推理图的概念,对吧?"
+ },
+ {
+  "seg": 37,
+  "start": 247.527,
+  "end": 253.772,
+  "speaker": "Unknown",
+  "en": "So if we saw in our sort of three components of",
+  "zh": "所以如果我们看到我们刚才说的"
+ },
+ {
+  "seg": 38,
+  "start": 254.432,
+  "end": 255.212,
+  "speaker": "Unknown",
+  "en": "Agent memory here.",
+  "zh": "智能体记忆的三个组成部分。"
+ },
+ {
+  "seg": 39,
+  "start": 255.292,
+  "end": 257.313,
+  "speaker": "Unknown",
+  "en": "Reasoning memory is a first-class citizen, right?",
+  "zh": "推理记忆是一等公民,对吧?"
+ },
+ {
+  "seg": 40,
+  "start": 257.353,
+  "end": 258.994,
+  "speaker": "Unknown",
+  "en": "We've talked about short-term and long-term.",
+  "zh": "我们已经谈过短期记忆和长期记忆。"
+ },
+ {
+  "seg": 41,
+  "start": 259.014,
+  "end": 261.614,
+  "speaker": "Unknown",
+  "en": "These are the messages, the entities extracted.",
+  "zh": "这些是消息、抽取出的实体。"
+ },
+ {
+  "seg": 42,
+  "start": 261.634,
+  "end": 265.035,
+  "speaker": "Unknown",
+  "en": "But what about the actual actions that the agent takes?",
+  "zh": "但智能体实际采取的行动呢?"
+ },
+ {
+  "seg": 43,
+  "start": 265.055,
+  "end": 267.176,
+  "speaker": "Unknown",
+  "en": "What about the reasoning?",
+  "zh": "推理过程呢?"
+ },
+ {
+  "seg": 44,
+  "start": 268.196,
+  "end": 272.398,
+  "speaker": "Unknown",
+  "en": "We want to make sure that we're capturing that because that is an important piece as well.",
+  "zh": "我们要确保捕获这些内容,因为那也是重要的一部分。"
+ },
+ {
+  "seg": 45,
+  "start": 272.418,
+  "end": 278.76,
+  "speaker": "Unknown",
+  "en": "So we want to make sure that we're storing thinking and the facts, not just the data, right?",
+  "zh": "所以我们要确保存储的是思考过程和事实,而不仅仅是数据,对吧?"
+ },
+ {
+  "seg": 46,
+  "start": 279.92,
+  "end": 280.9,
+  "speaker": "Unknown",
+  "en": "An agent decided.",
+  "zh": "智能体做出的决定。"
+ },
+ {
+  "seg": 47,
+  "start": 281.12,
+  "end": 285.442,
+  "speaker": "Unknown",
+  "en": "And this is typically represented as decision traces, right?",
+  "zh": "这通常表示为决策轨迹,对吧?"
+ },
+ {
+  "seg": 48,
+  "start": 285.502,
+  "end": 293.064,
+  "speaker": "Unknown",
+  "en": "So every decision that our agent makes is linked to the reasoning grounded in evidence, right?",
+  "zh": "所以我们的智能体做出的每一个决定都链接到有证据支撑的推理,对吧?"
+ },
+ {
+  "seg": 49,
+  "start": 293.084,
+  "end": 298.185,
+  "speaker": "Unknown",
+  "en": "We have policies that we're modeling explicitly and we understand",
+  "zh": "我们有正在显式建模的策略,并且我们理解"
+ },
+ {
+  "seg": 50,
+  "start": 298.745,
+  "end": 304.093,
+  "speaker": "Unknown",
+  "en": "for that execution plan, the tools the agent called, the results of those tool calls.",
+  "zh": "对于那个执行计划，智能体调用的工具，那些工具调用的结果。"
+ },
+ {
+  "seg": 51,
+  "start": 305.094,
+  "end": 310.482,
+  "speaker": "Unknown",
+  "en": "We also want to capture things like how many tokens did this burn, the timing that this took, and so on.",
+  "zh": "我们还想捕获诸如这次消耗了多少 token、花了多少时间等等内容。"
+ },
+ {
+  "seg": 52,
+  "start": 310.502,
+  "end": 313.327,
+  "speaker": "Unknown",
+  "en": "This is all part of capturing the",
+  "zh": "这些都是捕获的一部分，"
+ },
+ {
+  "seg": 53,
+  "start": 314.528,
+  "end": 316.188,
+  "speaker": "Unknown",
+  "en": "Reasoning memory.",
+  "zh": "推理记忆。"
+ },
+ {
+  "seg": 54,
+  "start": 316.569,
+  "end": 333.293,
+  "speaker": "Unknown",
+  "en": "This is important not just so that a single agent can get better the next time you do it to do the exact same thing, but rather think about systems where you have hundreds or thousands of agents that have some shared grouping of tools that they have access to.",
+  "zh": "这不仅重要，能让单个智能体在你下次做完全相同的事情时变得更好，而是要想想那些你拥有成百上千个智能体、它们可以访问某种共享工具组的系统。"
+ },
+ {
+  "seg": 55,
+  "start": 335.053,
+  "end": 343.182,
+  "speaker": "Unknown",
+  "en": "persist these agent runs, these decision traces in the graph, and then share that with other agents in our organization, right?",
+  "zh": "把这些智能体运行记录、这些决策轨迹持久化到图中，然后与我们组织中的其他智能体共享，对吧？"
+ },
+ {
+  "seg": 56,
+  "start": 343.222,
+  "end": 353.012,
+  "speaker": "Unknown",
+  "en": "So that we have one shared context graph that enables our agents to essentially learn from each other in this shared memory piece.",
+  "zh": "这样我们就拥有一个共享的上下文图，让我们的智能体基本上可以在这个共享记忆部分中相互学习。"
+ },
+ {
+  "seg": 57,
+  "start": 353.74,
+  "end": 356.521,
+  "speaker": "Unknown",
+  "en": "Okay, so that's the memory piece.",
+  "zh": "好的，这就是记忆部分。"
+ },
+ {
+  "seg": 58,
+  "start": 356.721,
+  "end": 368.785,
+  "speaker": "Unknown",
+  "en": "This is a system that we've built at Neo4j, a pattern that lots of folks are following for working with agent memory, but what about this idea of actionable knowledge, right?",
+  "zh": "这是我们在 Neo4j 构建的一个系统，是很多人在处理智能体记忆时都在遵循的一种模式，但这个可执行知识的概念呢，对吧？"
+ },
+ {
+  "seg": 59,
+  "start": 368.825,
+  "end": 371.906,
+  "speaker": "Unknown",
+  "en": "How do we enable our agents to take action?",
+  "zh": "我们如何让我们的智能体采取行动？"
+ },
+ {
+  "seg": 60,
+  "start": 372.786,
+  "end": 377.387,
+  "speaker": "Unknown",
+  "en": "Memory, one way to think of memory is this is a good representation of what happened, right?",
+  "zh": "记忆，思考记忆的一种方式是，它是对发生过的事情的一个很好的表示，对吧？"
+ },
+ {
+  "seg": 61,
+  "start": 380.501,
+  "end": 383.104,
+  "speaker": "Unknown",
+  "en": "People we were talking about, how they're connected.",
+  "zh": "我们谈到过的人，他们之间是如何关联的。"
+ },
+ {
+  "seg": 62,
+  "start": 383.184,
+  "end": 385.226,
+  "speaker": "Unknown",
+  "en": "We have these decision traces.",
+  "zh": "我们有这些决策轨迹。"
+ },
+ {
+  "seg": 63,
+  "start": 386.147,
+  "end": 390.851,
+  "speaker": "Unknown",
+  "en": "The next step is typically creating skills, right?",
+  "zh": "下一步通常是创建技能，对吧？"
+ },
+ {
+  "seg": 64,
+  "start": 391.071,
+  "end": 393.974,
+  "speaker": "Unknown",
+  "en": "How many people are using skills with their agents today?",
+  "zh": "今天有多少人在他们的智能体中使用技能？"
+ },
+ {
+  "seg": 65,
+  "start": 394.455,
+  "end": 395.335,
+  "speaker": "Unknown",
+  "en": "Most folks, cool.",
+  "zh": "大多数人，不错。"
+ },
+ {
+  "seg": 66,
+  "start": 395.756,
+  "end": 398.559,
+  "speaker": "Unknown",
+  "en": "How many people have written skills yourself?",
+  "zh": "有多少人自己亲手写过技能？"
+ },
+ {
+  "seg": 67,
+  "start": 399.279,
+  "end": 400.08,
+  "speaker": "Unknown",
+  "en": "Cool, most folks.",
+  "zh": "不错，大多数人。"
+ },
+ {
+  "seg": 68,
+  "start": 400.34,
+  "end": 403.383,
+  "speaker": "Unknown",
+  "en": "How many folks have had an agent write the skill for you, right?",
+  "zh": "有多少人让智能体替你写过技能，对吧？"
+ },
+ {
+  "seg": 69,
+  "start": 403.663,
+  "end": 403.864,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "不错。"
+ },
+ {
+  "seg": 70,
+  "start": 404.328,
+  "end": 419.86,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's what we're talking about here, is going from this memory graph, this context graph, to how can we use that to create grounded, executable skills.",
+  "zh": "是的，这就是我们在这里要讲的，就是从这个记忆图、这个上下文图，到我们如何利用它来创建有依据的、可执行的技能。"
+ },
+ {
+  "seg": 71,
+  "start": 420.02,
+  "end": 427.826,
+  "speaker": "Unknown",
+  "en": "So if you're not familiar with a skill, this is an open standard, anthropic, put this out,",
+  "zh": "所以如果你不熟悉技能，这是一个开放标准，Anthropic 发布的，"
+ },
+ {
+  "seg": 72,
+  "start": 429.217,
+  "end": 433.362,
+  "speaker": "Unknown",
+  "en": "AgentSkills.io I think is where the open standard is hosted.",
+  "zh": "AgentSkills.io，我想开放标准就托管在那里。"
+ },
+ {
+  "seg": 73,
+  "start": 433.903,
+  "end": 443.894,
+  "speaker": "Unknown",
+  "en": "And the basic idea here is that we have some metadata, some description of what this skill is about, and then this progressive disclosure.",
+  "zh": "这里的基本想法是，我们有一些元数据，一些关于这个技能是什么的描述，然后是这种渐进式披露。"
+ },
+ {
+  "seg": 74,
+  "start": 444.995,
+  "end": 446.996,
+  "speaker": "Unknown",
+  "en": "I have lots of more detailed information.",
+  "zh": "我有很多更详细的信息。"
+ },
+ {
+  "seg": 75,
+  "start": 447.016,
+  "end": 456.298,
+  "speaker": "Unknown",
+  "en": "These are often in markdown files, references that we can progressively choose if we're going down this path of one piece of the skill.",
+  "zh": "这些通常是 markdown 文件、参考资料，如果我们沿着技能的某一部分这条路径走下去，我们可以渐进地选择。"
+ },
+ {
+  "seg": 76,
+  "start": 456.318,
+  "end": 461.219,
+  "speaker": "Unknown",
+  "en": "We can retrieve and load that data into context.",
+  "zh": "我们可以检索这些数据并加载到上下文中。"
+ },
+ {
+  "seg": 77,
+  "start": 461.539,
+  "end": 472.062,
+  "speaker": "Unknown",
+  "en": "This then gives us some shareable unit that we can then take the skill, package it up, and reuse that across different agents.",
+  "zh": "这样就给了我们一个可共享的单元，我们可以拿这个技能，把它打包，然后在不同的智能体之间复用。"
+ },
+ {
+  "seg": 78,
+  "start": 472.638,
+  "end": 488.236,
+  "speaker": "Unknown",
+  "en": "But skills have a similar challenge to some of the issues that we saw previously when we were talking about memory, right, is that we're typically working with pros, and so we're still often",
+  "zh": "但技能面临着一些我们之前谈论记忆时看到的类似挑战，对吧，就是我们通常是在处理散文（pros），所以我们仍然常常"
+ },
+ {
+  "seg": 79,
+  "start": 489.057,
+  "end": 499.06,
+  "speaker": "Unknown",
+  "en": "Limited in this challenge of understanding is this the canonical thing that we're talking about, making sure that we have like debuggable steps and output.",
+  "zh": "受限于这个挑战：理解这是不是我们在谈论的那个规范的东西，确保我们有可调试的步骤和输出。"
+ },
+ {
+  "seg": 80,
+  "start": 499.9,
+  "end": 517.025,
+  "speaker": "Unknown",
+  "en": "And so to address some of these challenges that we're seeing with skills, some folks on the Neo4j research team have done some interesting research and published some work on APE, Graph Representation for Learning and Governing Agent Skills.",
+  "zh": "为了解决我们在技能上看到的这些挑战，Neo4j 研究团队的一些人做了一些有趣的研究，并发表了一些关于 APE 的工作——用于学习和治理智能体技能的图表示（Graph Representation for Learning and Governing Agent Skills）。"
+ },
+ {
+  "seg": 81,
+  "start": 518.18,
+  "end": 520.301,
+  "speaker": "Unknown",
+  "en": "This is a screenshot from the paper.",
+  "zh": "这是那篇论文的截图。"
+ },
+ {
+  "seg": 82,
+  "start": 520.421,
+  "end": 523.143,
+  "speaker": "Unknown",
+  "en": "Zach is here somewhere.",
+  "zh": "Zach 就在这里的某个地方。"
+ },
+ {
+  "seg": 83,
+  "start": 523.243,
+  "end": 526.664,
+  "speaker": "Unknown",
+  "en": "If he's not here, he's at the Neo4j booth today.",
+  "zh": "如果他不在这里，他今天在 Neo4j 的展位。"
+ },
+ {
+  "seg": 84,
+  "start": 526.724,
+  "end": 529.305,
+  "speaker": "Unknown",
+  "en": "So definitely chat with Zach if you're interested in this.",
+  "zh": "所以如果你对此感兴趣，一定要和 Zach 聊聊。"
+ },
+ {
+  "seg": 85,
+  "start": 529.405,
+  "end": 530.806,
+  "speaker": "Unknown",
+  "en": "But you can think of this.",
+  "zh": "你可以这样理解这个。"
+ },
+ {
+  "seg": 86,
+  "start": 531.706,
+  "end": 542.471,
+  "speaker": "Unknown",
+  "en": "Ape is essentially an extension of the agent skills protocol with some additional metadata that now treats your skills as typed execution graphs, right?",
+  "zh": "所以把这想象成一种把技能表示为图的方式，拆分成可执行的步骤，并带有由模式约束的描述。"
+ },
+ {
+  "seg": 87,
+  "start": 542.531,
+  "end": 543.712,
+  "speaker": "Unknown",
+  "en": "So we have...",
+  "zh": "所以我们有……"
+ },
+ {
+  "seg": 88,
+  "start": 545.172,
+  "end": 558.381,
+  "speaker": "Unknown",
+  "en": "Steps modeled as nodes, we have very strict schema that governs how we describe that, how these steps are actionable, right?",
+  "zh": "步骤被建模为节点，我们有非常严格的模式来约束我们如何描述它、这些步骤如何可执行，对吧？"
+ },
+ {
+  "seg": 89,
+  "start": 558.461,
+  "end": 571.33,
+  "speaker": "Unknown",
+  "en": "So think of this as a way of representing a skill as a graph broken up into steps that are executable with a schema-governed description.",
+  "zh": "所以可以把它理解为一种把技能表示成图的方式，图被拆分成多个步骤，每个步骤都可以通过一个由 schema 约束的描述来执行。"
+ },
+ {
+  "seg": 90,
+  "start": 573.591,
+  "end": 581.839,
+  "speaker": "Unknown",
+  "en": "The Ape Protocol, and this is from the benchmark that was used in the paper, found that yeah, this actually matters.",
+  "zh": "Ape 协议——这来自论文中使用的基准测试——发现，是的，这确实有效果。"
+ },
+ {
+  "seg": 91,
+  "start": 581.859,
+  "end": 597.373,
+  "speaker": "Unknown",
+  "en": "When they applied this to SkillsBench, saw a significant increase in tasks successfully completed when looking at applying the Ape Protocol to human-curated skills.",
+  "zh": "当他们把这一方法应用到 SkillsBench 上时，看到在将 Ape 协议应用于人工策展的技能时，成功完成的任务有显著增加。"
+ },
+ {
+  "seg": 92,
+  "start": 599.885,
+  "end": 602.246,
+  "speaker": "Unknown",
+  "en": "So that looks interesting.",
+  "zh": "所以这看起来很有意思。"
+ },
+ {
+  "seg": 93,
+  "start": 602.286,
+  "end": 608.83,
+  "speaker": "Unknown",
+  "en": "How can we leverage some of those ideas, some of that research for skill distillation?",
+  "zh": "我们如何能利用其中的一些想法、一些那样的研究来做技能蒸馏呢？"
+ },
+ {
+  "seg": 94,
+  "start": 610.071,
+  "end": 618.015,
+  "speaker": "Unknown",
+  "en": "So essentially what we want to do is take this memory graph, this context graph that's maybe scoped to a workspace",
+  "zh": "所以本质上我们想做的是，拿这个记忆图、这个可能限定在某个工作区范围内的上下文图"
+ },
+ {
+  "seg": 95,
+  "start": 618.555,
+  "end": 627.417,
+  "speaker": "Unknown",
+  "en": "Let's go to a project in an organization and we want to distill that into a skill but not just like a markdown file.",
+  "zh": "或者说组织中的一个项目，然后我们想把它蒸馏成一个技能，但不仅仅是像 一个 markdown 文件。"
+ },
+ {
+  "seg": 96,
+  "start": 627.437,
+  "end": 631.978,
+  "speaker": "Unknown",
+  "en": "We want this to be grounded in actual data that we've observed.",
+  "zh": "我们希望它建立在我们实际观察到的数据之上。"
+ },
+ {
+  "seg": 97,
+  "start": 632.358,
+  "end": 635.458,
+  "speaker": "Unknown",
+  "en": "We want this to be like deterministic, right?",
+  "zh": "我们希望它是确定性的，对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 635.478,
+  "end": 642.82,
+  "speaker": "Unknown",
+  "en": "We want well understood procedural steps in our graph and we want to be able to govern this over time, right?",
+  "zh": "我们希望图中有被充分理解的程序性步骤，并且我们希望能够随时间推移对其进行治理，对吧？"
+ },
+ {
+  "seg": 99,
+  "start": 642.92,
+  "end": 644.18,
+  "speaker": "Unknown",
+  "en": "If the underlying data",
+  "zh": "如果底层数据"
+ },
+ {
+  "seg": 100,
+  "start": 644.641,
+  "end": 646.848,
+  "speaker": "Unknown",
+  "en": "that makes up our skill changes in memory.",
+  "zh": "这构成了我们在内存中技能变更的部分。"
+ },
+ {
+  "seg": 101,
+  "start": 647.189,
+  "end": 650.74,
+  "speaker": "Unknown",
+  "en": "We want to be able to understand that and know about that.",
+  "zh": "我们希望能够理解它、了解它。"
+ },
+ {
+  "seg": 102,
+  "start": 652.957,
+  "end": 655.119,
+  "speaker": "Unknown",
+  "en": "Grounding is an important piece here, right?",
+  "zh": "接地(Grounding)在这里是一个重要的部分，对吧？"
+ },
+ {
+  "seg": 103,
+  "start": 655.159,
+  "end": 662.102,
+  "speaker": "Unknown",
+  "en": "Making sure that the data that makes up our skill is grounded in our memory system, but that's not enough for it to be useful, right?",
+  "zh": "确保构成我们技能的数据是基于我们的记忆系统的，但仅凭这一点还不足以让它变得有用，对吧？"
+ },
+ {
+  "seg": 104,
+  "start": 662.122,
+  "end": 664.923,
+  "speaker": "Unknown",
+  "en": "There are other heuristics that we need to look at here.",
+  "zh": "还有其他一些启发式方法需要我们在这里考察。"
+ },
+ {
+  "seg": 105,
+  "start": 665.043,
+  "end": 675.789,
+  "speaker": "Unknown",
+  "en": "So things like coverage, are we making sure that the steps and descriptions throughout our skill are...",
+  "zh": "比如覆盖率，我们是否确保贯穿整个技能的步骤和描述是……"
+ },
+ {
+  "seg": 106,
+  "start": 676.429,
+  "end": 677.891,
+  "speaker": "Unknown",
+  "en": "Grounded across the skill.",
+  "zh": "在整个技能范围内接地。"
+ },
+ {
+  "seg": 107,
+  "start": 677.991,
+  "end": 678.712,
+  "speaker": "Unknown",
+  "en": "Coherence.",
+  "zh": "一致性。"
+ },
+ {
+  "seg": 108,
+  "start": 678.772,
+  "end": 679.833,
+  "speaker": "Unknown",
+  "en": "Coherence is interesting.",
+  "zh": "一致性很有意思。"
+ },
+ {
+  "seg": 109,
+  "start": 680.113,
+  "end": 697.531,
+  "speaker": "Unknown",
+  "en": "This is a way that we can detect maybe if the information, the piece of the subgraph going into the skill distillation is split across multiple topics and we can suggest, well, you may want to create multiple skills here and so on.",
+  "zh": "这是一种我们可以检测的方式，也许当进入技能蒸馏的那部分子图信息被拆分到多个主题上时，我们可以建议：你可能想在这里创建多个技能，等等。"
+ },
+ {
+  "seg": 110,
+  "start": 699.052,
+  "end": 702.213,
+  "speaker": "Unknown",
+  "en": "Those are some of the pieces that lead up to generating the skill.",
+  "zh": "这些就是引出生成技能的一些组成部分。"
+ },
+ {
+  "seg": 111,
+  "start": 702.993,
+  "end": 714.075,
+  "speaker": "Unknown",
+  "en": "Skill governance is an important piece that I mentioned, making sure that we can understand as that skill changes, as the data changes, are we able to update the skill.",
+  "zh": "技能治理是我提到过的一个重要部分，确保当技能发生变化、数据发生变化时，我们能够更新技能。"
+ },
+ {
+  "seg": 112,
+  "start": 714.775,
+  "end": 721.457,
+  "speaker": "Unknown",
+  "en": "And with dynamic loading, you can think of having sort of like a governed skills registry that allows us to retrieve",
+  "zh": "通过动态加载，你可以想象有一个类似受治理的技能注册表，让我们能够检索到"
+ },
+ {
+  "seg": 113,
+  "start": 722.841,
+  "end": 732.966,
+  "speaker": "Unknown",
+  "en": "For any agent, the most recent up-to-date skill, understand if that skill may have been stale or drifted, right?",
+  "zh": "对于任何智能体，最新的、最新的技能，并理解该技能是否可能已经过时或发生了漂移，对吧？"
+ },
+ {
+  "seg": 114,
+  "start": 735.768,
+  "end": 742.091,
+  "speaker": "Unknown",
+  "en": "Cool, so we've implemented this in the Neo4j agent memory service, or we call NAMs.",
+  "zh": "好，我们已经在 Neo4j 智能体内存服务中实现了这一点，我们称之为 NAMs。"
+ },
+ {
+  "seg": 115,
+  "start": 742.451,
+  "end": 747.474,
+  "speaker": "Unknown",
+  "en": "This is an agent memory as a service as part of our Neo4j Labs efforts.",
+  "zh": "这是我们 Neo4j Labs 工作的一部分，一个智能体内存即服务。"
+ },
+ {
+  "seg": 116,
+  "start": 748.034,
+  "end": 752.657,
+  "speaker": "Unknown",
+  "en": "We also have open source tooling around that implements these patterns.",
+  "zh": "我们还有实现这些模式的开源工具。"
+ },
+ {
+  "seg": 117,
+  "start": 753.317,
+  "end": 763.684,
+  "speaker": "Unknown",
+  "en": "And essentially the way this works is we have a workspace scoped context graph that has our three types of agent memory, short-term, long-term, reasoning memory.",
+  "zh": "从本质上讲，它的工作方式是我们有一个工作区范围的上下文图，其中包含我们的三种智能体内存类型：短期记忆、长期记忆、推理记忆。"
+ },
+ {
+  "seg": 118,
+  "start": 764.985,
+  "end": 771.149,
+  "speaker": "Unknown",
+  "en": "We have background workers that are capable of going through this distillation process.",
+  "zh": "我们有后台工作进程能够执行这个蒸馏过程。"
+ },
+ {
+  "seg": 119,
+  "start": 771.369,
+  "end": 773.61,
+  "speaker": "Unknown",
+  "en": "We'll take a look at what this looks like in a minute.",
+  "zh": "我们马上会看看这是什么样子。"
+ },
+ {
+  "seg": 120,
+  "start": 774.631,
+  "end": 780.595,
+  "speaker": "Unknown",
+  "en": "And then having some background curation process that is still making sure to take care of that.",
+  "zh": "然后还有一些后台策展流程，持续确保照顾好这些内容。"
+ },
+ {
+  "seg": 121,
+  "start": 781.135,
+  "end": 787.618,
+  "speaker": "Unknown",
+  "en": "Governance to surface when our skills become stale based on the data that we have in the memory system.",
+  "zh": "当我们的技能基于记忆系统中的数据变得过时时，治理机制将其呈现出来。"
+ },
+ {
+  "seg": 122,
+  "start": 788.478,
+  "end": 792.1,
+  "speaker": "Unknown",
+  "en": "This is the pipeline that we go through to generate these.",
+  "zh": "这就是我们生成这些内容所经历的流水线。"
+ },
+ {
+  "seg": 123,
+  "start": 793.72,
+  "end": 795.441,
+  "speaker": "Unknown",
+  "en": "I won't go through this in detail.",
+  "zh": "我不会详细讲这个。"
+ },
+ {
+  "seg": 124,
+  "start": 796.361,
+  "end": 800.703,
+  "speaker": "Unknown",
+  "en": "The one thing that we're trying to point out here is that most of these steps are deterministic.",
+  "zh": "我们在这里想指出的一点是，这些步骤中大部分是确定性的。"
+ },
+ {
+  "seg": 125,
+  "start": 801.504,
+  "end": 809.507,
+  "speaker": "Unknown",
+  "en": "We're really only leveraging an LLM here for synthesizing some of the claims, generating some of the text that we use for",
+  "zh": "我们在这里真正使用 LLM 的地方，只是用于综合一些声明、生成一些我们用于"
+ },
+ {
+  "seg": 126,
+  "start": 809.947,
+  "end": 811.949,
+  "speaker": "Unknown",
+  "en": "Some of the skill description.",
+  "zh": "部分技能描述的文本。"
+ },
+ {
+  "seg": 127,
+  "start": 812.91,
+  "end": 818.176,
+  "speaker": "Unknown",
+  "en": "And then the other thing I want to call out here is that the first piece is really identifying the scope.",
+  "zh": "然后我想指出的另一件事是，第一个环节实际上是识别范围。"
+ },
+ {
+  "seg": 128,
+  "start": 818.216,
+  "end": 823.661,
+  "speaker": "Unknown",
+  "en": "Like what is your starting scope for distilling one of these skills?",
+  "zh": "比如，你蒸馏其中一个技能的起始范围是什么？"
+ },
+ {
+  "seg": 129,
+  "start": 823.721,
+  "end": 826.364,
+  "speaker": "Unknown",
+  "en": "Is it around a certain entity, the subgraph around that?",
+  "zh": "是围绕某个实体、它周围的子图吗？"
+ },
+ {
+  "seg": 130,
+  "start": 826.724,
+  "end": 828.285,
+  "speaker": "Unknown",
+  "en": "Is it a specific conversation?",
+  "zh": "是某个特定的对话吗？"
+ },
+ {
+  "seg": 131,
+  "start": 828.305,
+  "end": 830.366,
+  "speaker": "Unknown",
+  "en": "And that sort of thing.",
+  "zh": "诸如此类。"
+ },
+ {
+  "seg": 132,
+  "start": 830.546,
+  "end": 841.41,
+  "speaker": "Unknown",
+  "en": "And so we can decompose the way we represent the skill and make sure that each of these components is grounded, again, in underlying data.",
+  "zh": "这样我们就可以分解表示技能的方式，并确保这些组件中的每一个都再次接地于底层数据。"
+ },
+ {
+  "seg": 133,
+  "start": 841.911,
+  "end": 854.016,
+  "speaker": "Unknown",
+  "en": "And that's the piece that we're looking at for if that skill essentially becomes stale, if any of that underlying data changes, is removed, or becomes contradictory.",
+  "zh": "这就是我们考察的部分：如果该技能本质上变得过时，如果任何底层数据发生变化、被删除，或变得相互矛盾。"
+ },
+ {
+  "seg": 134,
+  "start": 856.739,
+  "end": 856.919,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 135,
+  "start": 856.939,
+  "end": 860.321,
+  "speaker": "Unknown",
+  "en": "And then we can also, as I mentioned before, we can also compose skills, right?",
+  "zh": "然后正如我之前提到的，我们也可以组合技能，对吧？"
+ },
+ {
+  "seg": 136,
+  "start": 860.361,
+  "end": 862.982,
+  "speaker": "Unknown",
+  "en": "So this is where that coherence piece comes in.",
+  "zh": "这就是一致性部分发挥作用的地方。"
+ },
+ {
+  "seg": 137,
+  "start": 863.322,
+  "end": 866.483,
+  "speaker": "Unknown",
+  "en": "We use graph algorithms like community detection, right?",
+  "zh": "我们使用图算法，比如社区检测，对吧？"
+ },
+ {
+  "seg": 138,
+  "start": 866.523,
+  "end": 876.448,
+  "speaker": "Unknown",
+  "en": "So if we're mixing topics from multiple communities, that can be an indication that we need to decompose our skill, and we'll catch that in the skill governance piece.",
+  "zh": "所以如果我们混合了来自多个社区的主题，那可能表明我们需要分解我们的技能，我们会在技能治理环节中捕捉到这一点。"
+ },
+ {
+  "seg": 139,
+  "start": 877.108,
+  "end": 877.429,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 140,
+  "start": 877.509,
+  "end": 879.111,
+  "speaker": "Unknown",
+  "en": "So I've got a few minutes left here.",
+  "zh": "我这里还剩几分钟。"
+ },
+ {
+  "seg": 141,
+  "start": 879.151,
+  "end": 881.314,
+  "speaker": "Unknown",
+  "en": "Let's see what this looks like.",
+  "zh": "我们来看看这是什么样子。"
+ },
+ {
+  "seg": 142,
+  "start": 881.815,
+  "end": 884.439,
+  "speaker": "Unknown",
+  "en": "So this is NAMS, the Neo4j agent memory service.",
+  "zh": "这是 NAMS，Neo4j 智能体内存服务。"
+ },
+ {
+  "seg": 143,
+  "start": 885.681,
+  "end": 888.265,
+  "speaker": "Unknown",
+  "en": "This is free.",
+  "zh": "这是免费的。"
+ },
+ {
+  "seg": 144,
+  "start": 888.445,
+  "end": 891.509,
+  "speaker": "Unknown",
+  "en": "Currently, anyone can sign in and try this out.",
+  "zh": "目前，任何人都可以登录并试用它。"
+ },
+ {
+  "seg": 145,
+  "start": 893.028,
+  "end": 895.39,
+  "speaker": "Unknown",
+  "en": "This is what the dashboard looks like.",
+  "zh": "这是仪表板的样子。"
+ },
+ {
+  "seg": 146,
+  "start": 895.69,
+  "end": 911.22,
+  "speaker": "Unknown",
+  "en": "The basic idea here is that we have REST API and MCP tools that we can expose to our agents that map to ingesting, retrieving, working with long-term, short-term reasoning memory.",
+  "zh": "这里的基本思路是，我们有 REST API 和 MCP 工具，可以暴露给我们的智能体，它们对应于摄取、检索、处理长期记忆、短期记忆和推理记忆。"
+ },
+ {
+  "seg": 147,
+  "start": 912.701,
+  "end": 920.727,
+  "speaker": "Unknown",
+  "en": "We're going through this entity extraction and resolution process so I can look at some graph representation of my",
+  "zh": "我们经过这个实体提取和消解过程，所以我可以在这里查看我的"
+ },
+ {
+  "seg": 148,
+  "start": 923.068,
+  "end": 926.191,
+  "speaker": "Unknown",
+  "en": "Agent memory here, I can traverse that and so on.",
+  "zh": "智能体内存的某种图表示，我可以遍历它，等等。"
+ },
+ {
+  "seg": 149,
+  "start": 927.812,
+  "end": 931.735,
+  "speaker": "Unknown",
+  "en": "We can look at entities that have been flagged.",
+  "zh": "我们可以查看被标记的实体。"
+ },
+ {
+  "seg": 150,
+  "start": 932.756,
+  "end": 936.159,
+  "speaker": "Unknown",
+  "en": "One important piece here is this idea of an ontology.",
+  "zh": "这里的一个重要部分就是本体的概念。"
+ },
+ {
+  "seg": 151,
+  "start": 936.619,
+  "end": 945.627,
+  "speaker": "Unknown",
+  "en": "So here we're using a healthcare ontology, so we're going to be working with data about encounters, providers, that sort of thing.",
+  "zh": "我们这里使用的是医疗健康本体,所以我们要处理的是关于就诊、医疗提供者之类的数据。"
+ },
+ {
+  "seg": 152,
+  "start": 946.447,
+  "end": 957.831,
+  "speaker": "Unknown",
+  "en": "And then I have ingested a bunch of conversations here so we can see the conversations that have been ingested related to a healthcare agent, right?",
+  "zh": "然后我在这里导入了一批对话,这样我们就能看到已导入的与医疗智能体相关的对话,对吧?"
+ },
+ {
+  "seg": 153,
+  "start": 957.871,
+  "end": 961.233,
+  "speaker": "Unknown",
+  "en": "And so now we're ready to distill a skill.",
+  "zh": "所以现在我们准备好蒸馏一个技能了。"
+ },
+ {
+  "seg": 154,
+  "start": 962.453,
+  "end": 967.135,
+  "speaker": "Unknown",
+  "en": "And we said the first piece is to decide, like, what is the",
+  "zh": "我们说过,第一步是决定,比如,什么是"
+ },
+ {
+  "seg": 155,
+  "start": 967.855,
+  "end": 969.856,
+  "speaker": "Unknown",
+  "en": "The scope of that skill.",
+  "zh": "这个技能的范围。"
+ },
+ {
+  "seg": 156,
+  "start": 969.876,
+  "end": 972.598,
+  "speaker": "Unknown",
+  "en": "We can do this for an entire workspace.",
+  "zh": "我们可以对整个工作区这样做。"
+ },
+ {
+  "seg": 157,
+  "start": 972.999,
+  "end": 975.12,
+  "speaker": "Unknown",
+  "en": "That's often not the case we want.",
+  "zh": "但这通常不是我们想要的情况。"
+ },
+ {
+  "seg": 158,
+  "start": 975.14,
+  "end": 982.005,
+  "speaker": "Unknown",
+  "en": "We can do this around a certain entity, specific conversations, a class in the ontology.",
+  "zh": "我们可以围绕某个实体、特定的对话、本体中的一个类来做。"
+ },
+ {
+  "seg": 159,
+  "start": 982.045,
+  "end": 986.168,
+  "speaker": "Unknown",
+  "en": "Let's do this around our most recent conversation.",
+  "zh": "让我们围绕我们最近的一次对话来做。"
+ },
+ {
+  "seg": 160,
+  "start": 987.005,
+  "end": 1002.262,
+  "speaker": "Unknown",
+  "en": "And we're gonna see this is gonna kick off in the distillation queue and go through and fetch the data, go through that seven-stage pipeline and construct the skill as a graph and then package that up for us.",
+  "zh": "我们会看到这会在蒸馏队列中启动,然后去获取数据,经过那个七阶段流水线,把技能构建成一个图,然后为我们打包好。"
+ },
+ {
+  "seg": 161,
+  "start": 1003.623,
+  "end": 1005.365,
+  "speaker": "Unknown",
+  "en": "Here's one while this is running.",
+  "zh": "在它运行的时候,这里有一个已经完成的。"
+ },
+ {
+  "seg": 162,
+  "start": 1006.646,
+  "end": 1008.088,
+  "speaker": "Unknown",
+  "en": "Let's just take a look.",
+  "zh": "让我们来看一看。"
+ },
+ {
+  "seg": 163,
+  "start": 1010.097,
+  "end": 1010.817,
+  "speaker": "Unknown",
+  "en": "This guy.",
+  "zh": "这个。"
+ },
+ {
+  "seg": 164,
+  "start": 1011.557,
+  "end": 1013.718,
+  "speaker": "Unknown",
+  "en": "So here's one that we ran previously.",
+  "zh": "这是我们之前运行的一个。"
+ },
+ {
+  "seg": 165,
+  "start": 1013.758,
+  "end": 1018.059,
+  "speaker": "Unknown",
+  "en": "This was run on a patient intake conversation.",
+  "zh": "这是针对一次患者接诊对话运行的。"
+ },
+ {
+  "seg": 166,
+  "start": 1018.399,
+  "end": 1029.381,
+  "speaker": "Unknown",
+  "en": "And as you can see here that we've essentially extracted out the steps that make up the skill to run from a patient intake all the way through charting for the patient.",
+  "zh": "正如你在这里看到的,我们基本上把构成这个技能的步骤提取了出来,从患者接诊一直到为患者写病历。"
+ },
+ {
+  "seg": 167,
+  "start": 1029.721,
+  "end": 1034.002,
+  "speaker": "Unknown",
+  "en": "But we can see each one of these steps is grounded in the actual",
+  "zh": "但我们可以看到,每一个步骤都立足于实际的"
+ },
+ {
+  "seg": 168,
+  "start": 1034.702,
+  "end": 1046.729,
+  "speaker": "Unknown",
+  "en": "Tool calls and the entities that constructed the underlying components of the skill and we package this up with skill.md file.",
+  "zh": "工具调用以及构成技能底层组件的实体,我们把它和 skill.md 文件一起打包。"
+ },
+ {
+  "seg": 169,
+  "start": 1047.349,
+  "end": 1062.077,
+  "speaker": "Unknown",
+  "en": "If we downloaded this, this would be packaged up with other references and so on following that progressive disclosure standard that we use with agent skills.",
+  "zh": "如果我们下载它,它会按照我们在智能体技能中使用的渐进式披露标准,和其他参考资料等一起打包。"
+ },
+ {
+  "seg": 170,
+  "start": 1063.345,
+  "end": 1075.962,
+  "speaker": "Unknown",
+  "en": "Cool, so that was a quick look at kind of how we think about agent memory as part of this context graph with Neo4j, and I'll leave up some resources.",
+  "zh": "好,那就是对如何把智能体记忆作为 Neo4j 这个上下文图的一部分来思考的快速展示,我会留下一些资源。"
+ },
+ {
+  "seg": 171,
+  "start": 1075.982,
+  "end": 1078.866,
+  "speaker": "Unknown",
+  "en": "You can grab the slides here, there's a link to",
+  "zh": "你可以在这里获取幻灯片,有一个链接指向"
+ },
+ {
+  "seg": 172,
+  "start": 1079.346,
+  "end": 1081.828,
+  "speaker": "Unknown",
+  "en": "The slides and a QR code.",
+  "zh": "幻灯片和一个二维码。"
+ },
+ {
+  "seg": 173,
+  "start": 1082.788,
+  "end": 1093.554,
+  "speaker": "Unknown",
+  "en": "The Neo4j agent memory service that I mentioned is listed here as well as lots of documentation and resources for some of our open source tooling.",
+  "zh": "我提到的 Neo4j 智能体记忆服务也列在这里,还有大量关于我们一些开源工具的文档和资源。"
+ },
+ {
+  "seg": 174,
+  "start": 1094.255,
+  "end": 1094.875,
+  "speaker": "Unknown",
+  "en": "So that's it.",
+  "zh": "就是这样了。"
+ },
+ {
+  "seg": 175,
+  "start": 1094.955,
+  "end": 1101.719,
+  "speaker": "Unknown",
+  "en": "I'm out of time, but we have a Neo4j booth, so I will be there as well as lots of other folks from the Neo4j team.",
+  "zh": "我时间到了,但我们有一个 Neo4j 展位,我会到场,Neo4j 团队的很多其他人也会在。"
+ },
+ {
+  "seg": 176,
+  "start": 1101.859,
+  "end": 1102.6,
+  "speaker": "Unknown",
+  "en": "So we'll see you there.",
+  "zh": "我们到时见。"
+ },
+ {
+  "seg": 177,
+  "start": 1102.84,
+  "end": 1103.24,
+  "speaker": "Unknown",
+  "en": "Thanks, folks.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 178,
+  "start": 1110.702,
+  "end": 1111.203,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

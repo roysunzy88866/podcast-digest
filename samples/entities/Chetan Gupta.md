@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Rackspace":2,"Hitachi":2,"Anthropic":201,"Hugging Face":37,"工业 AI":3,"物理 AI":11,"LLM":63,"生成式 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Rackspace":2,"Hitachi":2,"Anthropic":203,"Hugging Face":37,"工业 AI":3,"物理 AI":11,"LLM":64,"生成式 AI":2}</script>
 
 <script>
 (function(){

@@ -163,9 +163,9 @@ Eddie 收尾给出一个预测：未来一年内，AI 话语圈将被彻底翻�
 
 **换个口味**
 
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切]]<span class="pd-rz">同概念:对齐 (alignment)、超级智能 (superintelligence)、智能体 (agent)</span>
 - [[2026-09-03-twentyvc-20vc-nvidia-crushes-quarter-and-buys-hug|NVIDIA 962亿美元季度背后：智能体时代的资本与生存法则]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:开源 (open source)、智能体 (agent)</span>
-- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Hugging Face、OpenAI · 同概念:对齐 (alignment)、智能体 (agent)</span>
 
 </div>
 </div>

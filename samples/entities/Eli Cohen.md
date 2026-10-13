@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Kevin Mandia]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snyk":1,"Evo":1,"渗透测试":2,"智能体":489,"SAST":2,"业务上下文":1,"误报":2,"红队测试":8,"Claude Code":109,"LLM":63}</script>
+<script type="application/json" class="pd-epn">{"Snyk":1,"Evo":1,"渗透测试":2,"智能体":492,"SAST":2,"业务上下文":1,"误报":2,"红队测试":8,"Claude Code":109,"LLM":64}</script>
 
 <script>
 (function(){

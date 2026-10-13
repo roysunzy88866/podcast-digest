@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":201,"智能体":489,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":203,"智能体":492,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

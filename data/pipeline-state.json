@@ -261,7 +261,8 @@
     "DrfyORO8RqA": "2026-10-08-talks-why-bigger-context-windows-won-t-save-yo",
     "HTzgC3FoYsI": "2026-10-08-talks-let-anyone-at-your-company-ship-internal",
     "KGFyOtl5ktI": "2026-10-08-talks-giving-ai-agents-memory-that-learns-jake",
-    "NaOkR3VSfR4": "2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf"
+    "NaOkR3VSfR4": "2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf",
+    "XPj3mIKEtI4": "2026-10-08-talks-turning-agent-memory-into-skills-that-wo"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -512,15 +513,21 @@
       "status": "找不到播客版 → 交本机 YouTube",
       "title": "#769. OpenAI 产品 Holly Li 畅谈 Dots：不只提效，也帮你拿回生活主动权",
       "day": "2026-10-13"
+    },
+    "6ace1683195d838e2af14b0a": {
+      "status": "没做成:超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "id": "2026-10-12-cheekypint-muse-wonder-zuckerberg-and-wang-s-100b-a",
+      "title": "#770. 扎克伯格：超级智能要交到更多人手里",
+      "day": "2026-10-13"
     }
   },
   "cutoffs": {
     "lennys": "2026-10-11T12:31:59.000Z",
     "pg": "2026-10-08T23:03:02.000Z",
-    "a16z": "2026-10-12T10:00:00.000Z",
+    "a16z": "2026-10-13T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-08T11:30:00.000Z",
-    "trainingdata": "2026-10-06T09:00:00.000Z",
+    "trainingdata": "2026-10-13T09:00:00.000Z",
     "bigtech": "2026-10-09T16:51:00.000Z",
     "aiandi": "2026-10-07T17:11:13.000Z",
     "nopriors": "2026-10-09T10:00:00.000Z",
@@ -528,11 +535,11 @@
     "beyondcoding": "2026-10-07T12:00:00.000Z",
     "founders": "2026-10-05T10:00:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
-    "doac": "2026-10-09T05:00:00.000Z",
+    "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-12T07:07:00.000Z",
     "cogrev": "2026-10-10T10:47:14.000Z",
-    "knowledge": "2026-10-06T10:00:00.000Z",
+    "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-07T17:19:58.000Z",
     "practicalai": "2026-10-08T09:00:00.000Z",
     "changelog": "2026-10-09T19:00:00.000Z",
@@ -547,13 +554,13 @@
     "pmf": "2026-10-12T09:00:00.000Z",
     "cheekypint": "2026-10-12T19:16:55.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
-    "ainativedev": "2026-10-06T12:00:00.000Z",
+    "ainativedev": "2026-10-13T12:00:00.000Z",
     "newcomer": "2026-10-02T18:10:55.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
     "sourcery": "2026-10-12T10:00:00.000Z",
     "iltb": "2026-10-06T08:00:00.000Z",
     "generalist": "2026-10-08T11:00:00.000Z",
-    "sed": "2026-10-08T09:00:00.000Z",
+    "sed": "2026-10-13T09:00:00.000Z",
     "twist": "2026-10-12T23:03:00.000Z",
     "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-10T09:00:00.000Z",
@@ -1468,12 +1475,6 @@
       "pubDate": "2026-10-12T12:03:55.000Z"
     },
     {
-      "id": "2026-10-12-cheekypint-muse-wonder-zuckerberg-and-wang-s-100b-a",
-      "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
-      "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
-      "pubDate": "2026-10-12T19:16:55.000Z"
-    },
-    {
       "id": "2026-09-17-a16z-the-next-frontier-of-ai-video-is-control",
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "The Next Frontier of AI Video Is Control",
@@ -1496,6 +1497,30 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "A rogue OpenAI agent hacked Australia’s government. Does this matter? | E2342",
       "pubDate": "2026-09-25T23:07:00.000Z"
+    },
+    {
+      "id": "2026-10-13-knowledge-how-to-get-people-to-say-yes-ryan-serhan",
+      "reason": "题材不对味:非 AI/科技泛话题:销售谈判技巧/心理说服类,与 AI 和科技创业均不沾边",
+      "title": "How to Get People to Say Yes | Ryan Serhant",
+      "pubDate": "2026-10-13T10:00:00.000Z"
+    },
+    {
+      "id": "2026-10-13-sed-sed-news-jev-meta-8217-s-muse-and-the-ai",
+      "reason": "题材不对味:多话题新闻速览:SED News 三话题拼盘(② 新闻速览类)",
+      "title": "SED News: Jev, Meta&#8217;s Muse, and the AI Slowdown Paradox",
+      "pubDate": "2026-10-13T09:00:00.000Z"
+    },
+    {
+      "id": "2026-10-13-ainativedev-maria-gorinova-feedback-loops-that-fix-y",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Maria Gorinova: Feedback Loops That Fix Your Codebase",
+      "pubDate": "2026-10-13T12:00:00.000Z"
+    },
+    {
+      "id": "2026-10-12-cheekypint-muse-wonder-zuckerberg-and-wang-s-100b-a",
+      "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+      "pubDate": "2026-10-12T19:16:55.000Z"
     }
   ]
 }

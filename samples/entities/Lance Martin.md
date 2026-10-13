@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":201,"OpenAI":197,"任务视界":1,"Managed Agents":7,"harness":65,"沙箱":96,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":203,"OpenAI":199,"任务视界":1,"Managed Agents":7,"harness":65,"沙箱":98,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

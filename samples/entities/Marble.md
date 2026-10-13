@@ -33,7 +33,7 @@ unlisted: true
 
 [[World Labs]] · [[世界模型]] · [[空间智能]] · [[Justin Johnson]] · [[Waymo]] · [[模拟]] · [[智能体]] · [[Atlas]] · [[强化学习]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":14,"空间智能":3,"Justin Johnson":3,"Waymo":21,"模拟":1,"智能体":489,"Atlas":5,"强化学习":1,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":14,"空间智能":3,"Justin Johnson":3,"Waymo":21,"模拟":1,"智能体":492,"Atlas":5,"强化学习":1,"Lenny":69}</script>
 
 <script>
 (function(){

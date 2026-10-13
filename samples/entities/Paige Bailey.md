@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":18,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":96,"推理":98,"GPU":30,"量化":1,"函数调用":4}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":98,"推理":98,"GPU":31,"量化":1,"函数调用":4}</script>
 
 <script>
 (function(){

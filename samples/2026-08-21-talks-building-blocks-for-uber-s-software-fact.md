@@ -123,9 +123,9 @@ Adam 用一个真实场景演示整条流水线：世界杯期间，让离开拥
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-08-talks-turning-agent-memory-into-skills-that-wo|让智能体的记忆变成真正能用的技能]]<span class="pd-rz">同概念:上下文图 (context graph)、技能 (skills)、智能体 (agent)</span>
 - [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:CI/CD、智能体 (agent)、护栏 (guardrails)</span>
 - [[2026-08-28-talks-building-ureview-uber-s-multi-agent-code|Uber 用 AI 给 AI 评审代码:每周 2.5 万条评论是这样炼成的]]<span class="pd-rz">同公司:Uber · 同概念:智能体 (agent)、护栏 (guardrails)</span>
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:技能 (skills)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

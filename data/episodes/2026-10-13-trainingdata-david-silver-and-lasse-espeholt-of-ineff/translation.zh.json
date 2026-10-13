@@ -1,0 +1,5354 @@
+[
+ {
+  "seg": 0,
+  "start": 0.131,
+  "end": 3.595,
+  "speaker": "Unknown",
+  "en": "Collectively, you know, we started with this kind of gray mush in our head.",
+  "zh": "总的来说，你知道，我们一开始脑子里都是这种灰色的糊状物。"
+ },
+ {
+  "seg": 1,
+  "start": 4.536,
+  "end": 16.71,
+  "speaker": "Unknown",
+  "en": "We somehow started out knowing nothing at all and somehow discovered like everything that humans know today was like this process of collective discovery, like of languages and technology and science and mathematics and",
+  "zh": "我们不知怎的从一无所知开始，然后不知怎地发现了——就像今天人类所知的一切都是这样一个集体发现的过程，像是语言、技术、科学和数学，以及"
+ },
+ {
+  "seg": 2,
+  "start": 17.571,
+  "end": 21.075,
+  "speaker": "Unknown",
+  "en": "All the rest of it, you know, everything we learned, we discovered it for ourselves.",
+  "zh": "所有其他东西，你知道，我们学到的一切，都是我们自己发现的。"
+ },
+ {
+  "seg": 3,
+  "start": 21.495,
+  "end": 24.819,
+  "speaker": "Unknown",
+  "en": "And that's an incredible thing that no one has cracked yet in AI.",
+  "zh": "而这是一件令人难以置信的事情，目前在 AI 领域还没有人破解。"
+ },
+ {
+  "seg": 4,
+  "start": 25.26,
+  "end": 32.208,
+  "speaker": "Unknown",
+  "en": "And so to me, that is the essence of what it will take to get to superintelligence, like a system that can just keep learning and discovering knowledge forever.",
+  "zh": "所以对我来说，这就是达到超级智能所需要的东西的本质——就像一个能够永远不断学习、不断发现知识的系统。"
+ },
+ {
+  "seg": 5,
+  "start": 49.717,
+  "end": 56.74,
+  "speaker": "Unknown",
+  "en": "I'm thrilled to have Dave Silver and Lese Espeholt with us, two of the co-founders of Ineffable Intelligence.",
+  "zh": "我很高兴 Dave Silver 和 Lese Espeholt 能和我们一起，他们是 Ineffable Intelligence 的两位联合创始人。"
+ },
+ {
+  "seg": 6,
+  "start": 56.82,
+  "end": 57.601,
+  "speaker": "Unknown",
+  "en": "Great name, by the way.",
+  "zh": "顺便说一句，这个名字起得真好。"
+ },
+ {
+  "seg": 7,
+  "start": 58.161,
+  "end": 65.604,
+  "speaker": "Unknown",
+  "en": "Fun fact, Dave, you were the first person I cold emailed to come on Training Data when we started the show 100-ish episodes ago.",
+  "zh": "有个趣事，Dave，大约在一百多集之前我们创办这档节目的时候，你是我冷邮件邀请来上 Training Data 的第一个人。"
+ },
+ {
+  "seg": 8,
+  "start": 66.304,
+  "end": 68.906,
+  "speaker": "Unknown",
+  "en": "And it feels like a full circle moment to finally have you on the show.",
+  "zh": "现在终于能请到你上节目，感觉像是一个圆满的时刻。"
+ },
+ {
+  "seg": 9,
+  "start": 69.306,
+  "end": 70.366,
+  "speaker": "Unknown",
+  "en": "So thank you for joining us.",
+  "zh": "所以感谢你加入我们。"
+ },
+ {
+  "seg": 10,
+  "start": 71.067,
+  "end": 71.547,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 11,
+  "start": 72.187,
+  "end": 73.208,
+  "speaker": "Unknown",
+  "en": "Dave, let's start with you.",
+  "zh": "Dave，从你开始吧。"
+ },
+ {
+  "seg": 12,
+  "start": 73.228,
+  "end": 80.296,
+  "speaker": "Unknown",
+  "en": "Your 2009 PhD was on reinforcement learning applied to the devilishly difficult game of Go.",
+  "zh": "你 2009 年的博士论文是关于将强化学习应用于围棋这个极其困难的游戏。"
+ },
+ {
+  "seg": 13,
+  "start": 81.137,
+  "end": 86.482,
+  "speaker": "Unknown",
+  "en": "You demonstrated for the world for the first time that superhuman...",
+  "zh": "你首次向世界展示了超越人类的……"
+ },
+ {
+  "seg": 14,
+  "start": 87.243,
+  "end": 89.685,
+  "speaker": "Unknown",
+  "en": "In one domain, machine intelligence was possible.",
+  "zh": "在一个领域内，机器智能是可能的。"
+ },
+ {
+  "seg": 15,
+  "start": 89.925,
+  "end": 99.51,
+  "speaker": "Unknown",
+  "en": "And I think you were really the figure that inspired the entire current generation of reinforcement learning and deep learning researchers.",
+  "zh": "而且我认为你真的是激励了整个当前这一代强化学习和深度学习研究者的关键人物。"
+ },
+ {
+  "seg": 16,
+  "start": 99.55,
+  "end": 103.353,
+  "speaker": "Unknown",
+  "en": "And so thank you for your contributions to where the field is.",
+  "zh": "所以感谢你为这个领域的现状所做的贡献。"
+ },
+ {
+  "seg": 17,
+  "start": 104.253,
+  "end": 109.316,
+  "speaker": "Unknown",
+  "en": "I'm curious, thinking back to that point in time, what did you learn?",
+  "zh": "我很好奇，回想那个时间点，你学到了什么？"
+ },
+ {
+  "seg": 18,
+  "start": 109.437,
+  "end": 110.617,
+  "speaker": "Unknown",
+  "en": "What did you have conviction on?",
+  "zh": "你当时有什么样的信念？"
+ },
+ {
+  "seg": 19,
+  "start": 111.478,
+  "end": 117.562,
+  "speaker": "Unknown",
+  "en": "And what has remained the same and what has changed as AI has changed over the last five years or so?",
+  "zh": "在过去五年左右 AI 的变化中，哪些保持不变，哪些发生了变化？"
+ },
+ {
+  "seg": 20,
+  "start": 118.061,
+  "end": 123.264,
+  "speaker": "Unknown",
+  "en": "Yeah, thank you and pleasure to be here and I'm glad I finally made it after these hundred episodes.",
+  "zh": "好的，谢谢你，很高兴来到这里，我很高兴在这上百集之后终于来了。"
+ },
+ {
+  "seg": 21,
+  "start": 123.284,
+  "end": 125.425,
+  "speaker": "Unknown",
+  "en": "It's a pleasure to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 22,
+  "start": 126.225,
+  "end": 139.932,
+  "speaker": "Unknown",
+  "en": "So I suppose I always had this conviction starting my PhD and going into the game of Go that the right approach to solve AI was through learning from experience, through systems that discovered things for themselves that were",
+  "zh": "所以我想，从我读博士、进入围棋领域开始，我就一直有这样的信念：解决 AI 的正确方法是通过从经验中学习，通过那些自己发现事物的系统，它们"
+ },
+ {
+  "seg": 23,
+  "start": 140.892,
+  "end": 149.979,
+  "speaker": "Unknown",
+  "en": "Learning through reinforcement learning to get better and better and better and that that would be the thing which would lead to the emergence of intelligence and ultimately super intelligence.",
+  "zh": "通过强化学习来变得越来越好、越来越好，而这将导致智能的涌现，并最终达到超级智能。"
+ },
+ {
+  "seg": 24,
+  "start": 150.68,
+  "end": 156.584,
+  "speaker": "Unknown",
+  "en": "And so I suppose we were able to show that in the game of Go, but it's a conviction that has held true throughout my career.",
+  "zh": "所以我想我们能够在围棋中展示这一点，但这是一个在我整个职业生涯中一直成立的信念。"
+ },
+ {
+  "seg": 25,
+  "start": 158.145,
+  "end": 167.614,
+  "speaker": "Unknown",
+  "en": "Here we are now applying that conviction, ineffable, trying to show that indeed superintelligence can emerge all the way through systems that learn from experience.",
+  "zh": "现在，我们正在 Ineffable 应用这个信念，试图证明超级智能确实可以完全通过从经验中学习的系统而涌现。"
+ },
+ {
+  "seg": 26,
+  "start": 168.375,
+  "end": 175.602,
+  "speaker": "Unknown",
+  "en": "And in terms of things which are different, although we are not pursuing the human data path that the LLM world has pursued,",
+  "zh": "至于不同的方面，虽然我们没有追求 LLM 世界所走的人类数据路线，"
+ },
+ {
+  "seg": 27,
+  "start": 176.162,
+  "end": 178.904,
+  "speaker": "Unknown",
+  "en": "I do think there's lots of interesting lessons to learn from that.",
+  "zh": "我确实认为从那条路线中可以学到很多有趣的教训。"
+ },
+ {
+  "seg": 28,
+  "start": 179.325,
+  "end": 196.179,
+  "speaker": "Unknown",
+  "en": "In particular, it was definitely a surprise to me how a system that was trained on a massive amount of data could then be very quickly fine-tuned on a very small amount of data to kind of completely change its behavior.",
+  "zh": "特别是，一个在海量数据上训练的系统，随后能在非常少量的数据上被快速微调，从而彻底改变其行为，这对我来说绝对是一个惊喜。"
+ },
+ {
+  "seg": 29,
+  "start": 196.639,
+  "end": 214.664,
+  "speaker": "Unknown",
+  "en": "That was something which I think was something which sort of changed my mindset in terms of, you know, just suggesting that if you get things at the right scale, that a lot of things which seem like incredibly hard or like they might be very slow, that once you've kind of experienced enough data, that after that, the things that were slow can become very fast.",
+  "zh": "我认为这件事在某种程度上改变了我的思维方式，就是说，如果你把事情做到合适的规模，很多看起来极其困难、或者可能非常缓慢的事情，一旦你经历了足够多的数据，之后，那些原本缓慢的事情就可以变得非常快。"
+ },
+ {
+  "seg": 30,
+  "start": 215.184,
+  "end": 219.285,
+  "speaker": "Unknown",
+  "en": "I think that's a lesson that wasn't obvious to me in advance until it happened.",
+  "zh": "我认为这是一个在它发生之前对我来说并不明显的教训。"
+ },
+ {
+  "seg": 31,
+  "start": 220.89,
+  "end": 220.99,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 32,
+  "start": 221.01,
+  "end": 222.172,
+  "speaker": "Unknown",
+  "en": "We're going to come back to that later.",
+  "zh": "我们稍后会回到这个话题。"
+ },
+ {
+  "seg": 33,
+  "start": 223.214,
+  "end": 230.905,
+  "speaker": "Unknown",
+  "en": "You could have run this program inside DeepMind where, you know, could have probably had more access to compute than just about anybody.",
+  "zh": "你本来可以在 DeepMind 内部运行这个项目，你知道，你拥有的算力资源可能比几乎任何人都多。"
+ },
+ {
+  "seg": 34,
+  "start": 231.286,
+  "end": 235.853,
+  "speaker": "Unknown",
+  "en": "You decided the right thing to do was to start a new lab.",
+  "zh": "你却决定正确的做法是创办一个新实验室。"
+ },
+ {
+  "seg": 35,
+  "start": 235.953,
+  "end": 236.514,
+  "speaker": "Unknown",
+  "en": "Why'd you do that?",
+  "zh": "你为什么这么做？"
+ },
+ {
+  "seg": 36,
+  "start": 237.539,
+  "end": 238.399,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是这样的。"
+ },
+ {
+  "seg": 37,
+  "start": 239.2,
+  "end": 242.322,
+  "speaker": "Unknown",
+  "en": "So, look, first of all, I had a fantastic time at DeepMind.",
+  "zh": "你看，首先，我在 DeepMind 度过了一段非常美好的时光。"
+ },
+ {
+  "seg": 38,
+  "start": 242.502,
+  "end": 243.822,
+  "speaker": "Unknown",
+  "en": "I loved my years there.",
+  "zh": "我热爱在那里度过的那些年。"
+ },
+ {
+  "seg": 39,
+  "start": 244.103,
+  "end": 250.046,
+  "speaker": "Unknown",
+  "en": "And I have a huge amount of respect for the people there and still got on with them very well.",
+  "zh": "我对那里的人非常尊重，至今和他们相处得也很好。"
+ },
+ {
+  "seg": 40,
+  "start": 250.646,
+  "end": 261.432,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, I have a really strong belief about how we can go beyond where we are today with AI and all the way to superintelligence.",
+  "zh": "但归根结底，我有一个非常坚定的信念，关于我们如何能超越今天 AI 的水平，一路达到超级智能。"
+ },
+ {
+  "seg": 41,
+  "start": 262.072,
+  "end": 267.957,
+  "speaker": "Unknown",
+  "en": "And the path that I believe in doesn't actually go through LLM-based products as an intermediate point.",
+  "zh": "而我所相信的这条路径，实际上并不以基于 LLM 的产品作为中间站。"
+ },
+ {
+  "seg": 42,
+  "start": 268.498,
+  "end": 270.88,
+  "speaker": "Unknown",
+  "en": "And when I really thought about that, I thought about it really hard.",
+  "zh": "当我认真思考这一点时，我非常深入地思考了它。"
+ },
+ {
+  "seg": 43,
+  "start": 271.981,
+  "end": 281.789,
+  "speaker": "Unknown",
+  "en": "I realized that I felt that so passionately that this deserved to be more than just the corner of an organization that's focused on LLM-based products.",
+  "zh": "我意识到，我对这件事怀着如此强烈的热情，以至于它值得拥有比一个专注于基于 LLM 产品的组织的某个角落更多的东西。"
+ },
+ {
+  "seg": 44,
+  "start": 282.369,
+  "end": 292.241,
+  "speaker": "Unknown",
+  "en": "and deserve to be represented by an elite AI lab that really just gives this approach its all and represents it 100%.",
+  "zh": "它值得由一个精英 AI 实验室来代表，这个实验室真正地为这条路线全力以赴，100% 地代表它。"
+ },
+ {
+  "seg": 45,
+  "start": 292.301,
+  "end": 297.307,
+  "speaker": "Unknown",
+  "en": "And once I realized that, it felt very natural to create this company.",
+  "zh": "一旦我意识到这一点，创建这家公司就感觉很自然了。"
+ },
+ {
+  "seg": 46,
+  "start": 297.807,
+  "end": 319.307,
+  "speaker": "Unknown",
+  "en": "I suppose another way to look at it is that the world already has tens of thousands, if not hundreds of thousands of really talented researchers all pursuing exactly the same approach, like really just kind of doubling down on LLMs with pre-training, post-training, coding, and that kind of LLM path.",
+  "zh": "我想另一种看待它的方式是，这个世界上已经有数万、甚至数十万非常有才华的研究者在追求完全相同的路线，就是真的只是在 LLM 上加倍下注，做预训练、后训练、编程，以及那种 LLM 路线。"
+ },
+ {
+  "seg": 47,
+  "start": 320.928,
+  "end": 325.092,
+  "speaker": "Unknown",
+  "en": "Am I going to be the 100,001 person that's pursuing that approach?",
+  "zh": "我要成为追求那条路线的第一万零一个人吗？"
+ },
+ {
+  "seg": 48,
+  "start": 325.832,
+  "end": 328.655,
+  "speaker": "Unknown",
+  "en": "Is that the most effective use of my time and my energy?",
+  "zh": "那是对我的时间和精力最有效的利用吗？"
+ },
+ {
+  "seg": 49,
+  "start": 329.115,
+  "end": 341.806,
+  "speaker": "Unknown",
+  "en": "And in the end, I realized that there's this other lamppost that right now no one is looking under and where if I actually put my effort there, there's a much higher chance of really having a massive impact on the field.",
+  "zh": "最终，我意识到还有另一根路灯柱，现在没有人往它下面看，而如果我真正把我的努力放在那里，就有大得多的机会真正对这个领域产生巨大的影响。"
+ },
+ {
+  "seg": 50,
+  "start": 342.146,
+  "end": 344.608,
+  "speaker": "Unknown",
+  "en": "Because if this works, it's going to change the whole of AI.",
+  "zh": "因为如果这成功了，它将改变整个 AI。"
+ },
+ {
+  "seg": 51,
+  "start": 345.749,
+  "end": 354.637,
+  "speaker": "Unknown",
+  "en": "So I think that kind of realization also meant that this was something which just means that it's the best way to have impact upon the field through this approach.",
+  "zh": "所以我觉得这种认识也意味着，这件事就是通过这条路径对整个领域产生影响的最佳方式。"
+ },
+ {
+  "seg": 52,
+  "start": 355.438,
+  "end": 358.06,
+  "speaker": "Unknown",
+  "en": "Plus, you had a company name that couldn't go to waste.",
+  "zh": "再加上，你还有一个不能浪费掉的公司名字。"
+ },
+ {
+  "seg": 53,
+  "start": 358.26,
+  "end": 358.66,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 54,
+  "start": 358.7,
+  "end": 360.282,
+  "speaker": "Unknown",
+  "en": "Do you want to say where the mind's called Ineffable?",
+  "zh": "你想说说为什么公司名叫 Ineffable 吗？"
+ },
+ {
+  "seg": 55,
+  "start": 360.902,
+  "end": 361.102,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 56,
+  "start": 361.122,
+  "end": 369.93,
+  "speaker": "Unknown",
+  "en": "So I suppose that the name Ineffable, it came from this idea that there's really just knowledge could be",
+  "zh": "那么 Ineffable 这个名字，我想它来自这样一个想法：知识真的是可以——"
+ },
+ {
+  "seg": 57,
+  "start": 371.587,
+  "end": 386.858,
+  "speaker": "Unknown",
+  "en": "So incredible, like the things which superintelligence will one day discover, like this knowledge is going to be so unbelievable, incredible, and it's going to be something which is profoundly amazing and perhaps so profound that we can't even express it in human language.",
+  "zh": "非常不可思议，就像超级智能有一天会发现的东西，这种知识将会令人难以置信、不可思议，它会是极其惊人的东西，也许深刻到我们甚至无法用人类语言来表达。"
+ },
+ {
+  "seg": 58,
+  "start": 387.358,
+  "end": 395.304,
+  "speaker": "Unknown",
+  "en": "And so really it's like in line with this other path that doesn't go through human language-based approaches, but instead",
+  "zh": "所以这真的与另一条不通过基于人类语言的方法的路径相一致，而是"
+ },
+ {
+  "seg": 59,
+  "start": 395.864,
+  "end": 403.771,
+  "speaker": "Unknown",
+  "en": "Build systems that discover things for themselves and has the possibility to discover knowledge that's unbelievably profound and ultimately ineffable.",
+  "zh": "构建能自己发现事物的系统，并有可能发现极其深刻、最终不可言喻(ineffable)的知识。"
+ },
+ {
+  "seg": 60,
+  "start": 404.332,
+  "end": 414.06,
+  "speaker": "Unknown",
+  "en": "I should say there was also a secret second reason that we used, which was that, you know, this idea, it really has to work.",
+  "zh": "我应该说，我们用它还有一个秘密的第二原因，那就是，你知道，这个想法，它真的必须成功。"
+ },
+ {
+  "seg": 61,
+  "start": 414.14,
+  "end": 418.604,
+  "speaker": "Unknown",
+  "en": "Like if you really just double down on learning from experience, it's an approach that just has to work.",
+  "zh": "就是说，如果你真的押注于从经验中学习，这是一个必须会成功的方法。"
+ },
+ {
+  "seg": 62,
+  "start": 419.504,
+  "end": 421.865,
+  "speaker": "Unknown",
+  "en": "And so you could say that it can't possibly F up.",
+  "zh": "所以你可以说它不可能搞砸。"
+ },
+ {
+  "seg": 63,
+  "start": 422.006,
+  "end": 423.626,
+  "speaker": "Unknown",
+  "en": "So it's ineffable.",
+  "zh": "所以它就是 ineffable(in- 是否定前缀，而 F up 是搞砸)。"
+ },
+ {
+  "seg": 64,
+  "start": 424.027,
+  "end": 424.967,
+  "speaker": "Unknown",
+  "en": "So there you go.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 65,
+  "start": 424.987,
+  "end": 426.608,
+  "speaker": "Unknown",
+  "en": "There's the secret reason as well.",
+  "zh": "这就是那个秘密原因。"
+ },
+ {
+  "seg": 66,
+  "start": 426.668,
+  "end": 427.108,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 67,
+  "start": 427.388,
+  "end": 427.808,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 68,
+  "start": 428.389,
+  "end": 429.189,
+  "speaker": "Unknown",
+  "en": "Best lab name.",
+  "zh": "最好的实验室名字。"
+ },
+ {
+  "seg": 69,
+  "start": 430.229,
+  "end": 431.05,
+  "speaker": "Unknown",
+  "en": "Lese, what about you?",
+  "zh": "Lese,你呢？"
+ },
+ {
+  "seg": 70,
+  "start": 431.13,
+  "end": 432.01,
+  "speaker": "Unknown",
+  "en": "You were at Google.",
+  "zh": "你之前在 Google。"
+ },
+ {
+  "seg": 71,
+  "start": 432.05,
+  "end": 436.753,
+  "speaker": "Unknown",
+  "en": "You were in a different group than Dave in the deep learning group at DeepMind.",
+  "zh": "你和 Dave 不在同一个组，你在 DeepMind 的深度学习组。"
+ },
+ {
+  "seg": 72,
+  "start": 437.173,
+  "end": 440.134,
+  "speaker": "Unknown",
+  "en": "And you spent years scaling up reinforcement learning on GPUs.",
+  "zh": "而且你花了好几年在 GPU 上扩展强化学习。"
+ },
+ {
+  "seg": 73,
+  "start": 440.614,
+  "end": 442.996,
+  "speaker": "Unknown",
+  "en": "What made you decide to leave DeepMind?",
+  "zh": "是什么让你决定离开 DeepMind 的？"
+ },
+ {
+  "seg": 74,
+  "start": 443.196,
+  "end": 445.937,
+  "speaker": "Unknown",
+  "en": "And what drew you to co-found Ineffable?",
+  "zh": "又是什么吸引你来共同创立 Ineffable 的？"
+ },
+ {
+  "seg": 75,
+  "start": 446.557,
+  "end": 447.438,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 76,
+  "start": 447.958,
+  "end": 448.138,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 77,
+  "start": 448.158,
+  "end": 450.479,
+  "speaker": "Unknown",
+  "en": "So I joined DeepMind in January 15.",
+  "zh": "我是 2015 年 1 月加入 DeepMind 的。"
+ },
+ {
+  "seg": 78,
+  "start": 450.84,
+  "end": 458.664,
+  "speaker": "Unknown",
+  "en": "And actually, I started working a bit with Dave around 16, where I was doing this work on scaling up reinforcement learning.",
+  "zh": "实际上，我在 16 年左右开始和 Dave 有一些合作，当时我在做扩展强化学习方面的工作。"
+ },
+ {
+  "seg": 79,
+  "start": 458.824,
+  "end": 462.566,
+  "speaker": "Unknown",
+  "en": "So as you said, I was part of the deep learning team, and he was leading a reinforcement learning team.",
+  "zh": "所以正如你所说，我是深度学习团队的一员，而他当时在领导一个强化学习团队。"
+ },
+ {
+  "seg": 80,
+  "start": 463.066,
+  "end": 465.668,
+  "speaker": "Unknown",
+  "en": "But we were working on an internal project together.",
+  "zh": "但我们一起做的一个内部项目。"
+ },
+ {
+  "seg": 81,
+  "start": 466.428,
+  "end": 468.389,
+  "speaker": "Unknown",
+  "en": "I actually left DeepMind twice.",
+  "zh": "其实我离开过 DeepMind 两次。"
+ },
+ {
+  "seg": 82,
+  "start": 468.409,
+  "end": 472.951,
+  "speaker": "Unknown",
+  "en": "So I left DeepMind in summer 18 and went to like Google Brain.",
+  "zh": "我在 18 年夏天离开 DeepMind，去了 Google Brain。"
+ },
+ {
+  "seg": 83,
+  "start": 473.672,
+  "end": 476.893,
+  "speaker": "Unknown",
+  "en": "Then eventually Google Brain and DeepMind merged and then I was like back again.",
+  "zh": "后来 Google Brain 和 DeepMind 合并了，然后我又回来了。"
+ },
+ {
+  "seg": 84,
+  "start": 477.514,
+  "end": 481.576,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, I left DeepMind again like a year before Dave left.",
+  "zh": "但最终，我又在 Dave 离开大约一年前离开了 DeepMind。"
+ },
+ {
+  "seg": 85,
+  "start": 482.476,
+  "end": 487.418,
+  "speaker": "Unknown",
+  "en": "And the first time I heard about it was actually through one of our eventual investors.",
+  "zh": "而我第一次听说这件事，实际上是通过我们后来的一个投资人。"
+ },
+ {
+  "seg": 86,
+  "start": 487.899,
+  "end": 490.18,
+  "speaker": "Unknown",
+  "en": "It's like reaching out to me, asking what I thought about Dave.",
+  "zh": "他联系我，问我觉得 Dave 这个人怎么样。"
+ },
+ {
+  "seg": 87,
+  "start": 490.96,
+  "end": 495.905,
+  "speaker": "Unknown",
+  "en": "Well, my first reaction was, damn, I missed out on an opportunity.",
+  "zh": "我的第一反应是，该死，我错过了一个机会。"
+ },
+ {
+  "seg": 88,
+  "start": 496.145,
+  "end": 497.967,
+  "speaker": "Unknown",
+  "en": "I should have reached out to him.",
+  "zh": "我本应该主动联系他的。"
+ },
+ {
+  "seg": 89,
+  "start": 498.487,
+  "end": 505.214,
+  "speaker": "Unknown",
+  "en": "But I recall Dave as more often than not being one of the smartest people in the room.",
+  "zh": "但在我印象中，Dave 更多时候都是房间里最聪明的人之一。"
+ },
+ {
+  "seg": 90,
+  "start": 505.974,
+  "end": 511.48,
+  "speaker": "Unknown",
+  "en": "And shortly after that, seeing for that investor, they actually reached out to me.",
+  "zh": "在那之后不久，看到那位投资人，他们实际上又主动联系了我。"
+ },
+ {
+  "seg": 91,
+  "start": 512.12,
+  "end": 515.562,
+  "speaker": "Unknown",
+  "en": "So I really love to work with Dave.",
+  "zh": "所以我真的很想和 Dave 一起工作。"
+ },
+ {
+  "seg": 92,
+  "start": 516.663,
+  "end": 525.548,
+  "speaker": "Unknown",
+  "en": "I knew Wojtek and Chris from back in the day and I thought the team was great and I also thought it was amazing to have an opportunity like this in Europe.",
+  "zh": "我从很早以前就认识 Wojtek 和 Chris，我觉得这个团队很棒，而且我也觉得在欧洲能有这样一个机会太棒了。"
+ },
+ {
+  "seg": 93,
+  "start": 525.988,
+  "end": 526.929,
+  "speaker": "Unknown",
+  "en": "It should be said as well.",
+  "zh": "这里也应该说一下。"
+ },
+ {
+  "seg": 94,
+  "start": 527.409,
+  "end": 536.094,
+  "speaker": "Unknown",
+  "en": "We worked together on some of the early approaches to combining reinforcement learning with deep learning and trying to scale things up.",
+  "zh": "我们曾一起合作过一些把强化学习和深度学习结合起来的早期方法，并尝试把规模做大。"
+ },
+ {
+  "seg": 95,
+  "start": 536.534,
+  "end": 554.479,
+  "speaker": "Unknown",
+  "en": "And it should be said that Lasse, who, by the way, is very modest, but he actually worked on some of the original approaches that were the first attempts to actually scale up reinforcement learning and show that it could be done at large scale and like ways to parallelize reinforcement learning and ways to kind of build out architectures that were scalable.",
+  "zh": "应该说明的是，Lasse——顺便说一句，他非常谦虚——他实际上做了一些最初的方法，是最早真正尝试扩展强化学习、证明它可以在大规模上实现的工作，比如并行化强化学习的方法，以及构建可扩展架构的方式。"
+ },
+ {
+  "seg": 96,
+  "start": 554.879,
+  "end": 565.022,
+  "speaker": "Unknown",
+  "en": "And if you look today at the way the field's gone, like actually all of the ideas that people use today kind of sort of hail back to that original work that Lasse did back in the day.",
+  "zh": "如果你看看今天这个领域的发展方向，其实人们今天使用的所有想法，基本上都可以追溯到 Lasse 当年做的那些原创工作。"
+ },
+ {
+  "seg": 97,
+  "start": 565.882,
+  "end": 569.124,
+  "speaker": "Unknown",
+  "en": "Where all the roots come from of scaled up RL.",
+  "zh": "规模化 RL 的所有根源都来自那里。"
+ },
+ {
+  "seg": 98,
+  "start": 569.584,
+  "end": 571.045,
+  "speaker": "Unknown",
+  "en": "So he was the first to figure it out.",
+  "zh": "所以他是第一个想明白的人。"
+ },
+ {
+  "seg": 99,
+  "start": 571.566,
+  "end": 571.986,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 100,
+  "start": 572.346,
+  "end": 574.587,
+  "speaker": "Unknown",
+  "en": "We should have you guys introduce each other instead of you.",
+  "zh": "我们应该让你们俩互相介绍,而不是由你来说。"
+ },
+ {
+  "seg": 101,
+  "start": 574.607,
+  "end": 576.429,
+  "speaker": "Unknown",
+  "en": "You're both too humble to brag about yourselves.",
+  "zh": "你们俩都太谦虚了,不好意思夸自己。"
+ },
+ {
+  "seg": 102,
+  "start": 577.309,
+  "end": 579.951,
+  "speaker": "Unknown",
+  "en": "OK, let's talk about Ineffable and what you're building.",
+  "zh": "好,我们来聊聊 Ineffable 以及你们在做的东西。"
+ },
+ {
+  "seg": 103,
+  "start": 579.971,
+  "end": 582.192,
+  "speaker": "Unknown",
+  "en": "You have a beautiful mission statement as a company.",
+  "zh": "你们公司有一份很美的使命宣言。"
+ },
+ {
+  "seg": 104,
+  "start": 582.232,
+  "end": 587.435,
+  "speaker": "Unknown",
+  "en": "You're going to build a super learner and make first contact with super intelligence.",
+  "zh": "你们要构建一个超级学习者,并与超级智能进行第一次接触。"
+ },
+ {
+  "seg": 105,
+  "start": 588.156,
+  "end": 589.897,
+  "speaker": "Unknown",
+  "en": "Can you define both of those things for us?",
+  "zh": "你能为我们定义一下这两个概念吗?"
+ },
+ {
+  "seg": 106,
+  "start": 589.957,
+  "end": 593.239,
+  "speaker": "Unknown",
+  "en": "What is a super learner and what does making first contact look like?",
+  "zh": "什么是超级学习者?第一次接触又是什么样的?"
+ },
+ {
+  "seg": 107,
+  "start": 594.007,
+  "end": 606.18,
+  "speaker": "Unknown",
+  "en": "Yeah, so to me as super learner, it's something which is, it's got incredible capacity both in its depth of what it can learn and in its breadth.",
+  "zh": "是的,对我来说,超级学习者是这样一种东西:它在学习的深度和广度上都具有惊人的容量。"
+ },
+ {
+  "seg": 108,
+  "start": 606.66,
+  "end": 615.53,
+  "speaker": "Unknown",
+  "en": "So in the depth dimension, it should be something that can start from not knowing anything at all and can go all the way through to discovering things that go way beyond what humans know.",
+  "zh": "在深度这个维度上,它应该能从完全一无所知开始,一路走到发现远远超越人类已知的东西。"
+ },
+ {
+  "seg": 109,
+  "start": 616.751,
+  "end": 623.437,
+  "speaker": "Unknown",
+  "en": "So an analogy to this would be the way that human collectively, you know, we started with this kind of gray mush in our head.",
+  "zh": "打个比方,就像人类集体那样,你知道,我们一开始脑子里就是一团灰色糊状物。"
+ },
+ {
+  "seg": 110,
+  "start": 624.378,
+  "end": 636.409,
+  "speaker": "Unknown",
+  "en": "We somehow started out knowing nothing at all and somehow discovered like everything that humans know today was like this process of collective discovery, like of languages and technology and science and mathematics.",
+  "zh": "我们不知怎么就 starting out 一无所知,然后不知怎么发现了——人类今天所知的一切,就是这样一个集体发现的过程,比如语言、技术、科学和数学。"
+ },
+ {
+  "seg": 111,
+  "start": 637.409,
+  "end": 640.911,
+  "speaker": "Unknown",
+  "en": "All the rest of it, you know, everything we learned, we discovered it for ourselves.",
+  "zh": "其余的一切,你知道,我们学到的一切,都是我们自己发现的。"
+ },
+ {
+  "seg": 112,
+  "start": 641.592,
+  "end": 645.554,
+  "speaker": "Unknown",
+  "en": "It wasn't that someone came down and gave us like a blueprint of how this should work.",
+  "zh": "并不是有人从天而降,给了我们一份关于这一切应该如何运作的蓝图。"
+ },
+ {
+  "seg": 113,
+  "start": 645.614,
+  "end": 651.817,
+  "speaker": "Unknown",
+  "en": "And it wasn't that someone came down and gave like a trillion element data set of like, oh, this is what these things should look like.",
+  "zh": "也不是有人从天而降,给了一个一万亿条目的数据集,说“哦,这些东西应该长这样”。"
+ },
+ {
+  "seg": 114,
+  "start": 652.138,
+  "end": 653.558,
+  "speaker": "Unknown",
+  "en": "We actually figured it out for ourselves.",
+  "zh": "我们实际上是完全靠自己搞明白的。"
+ },
+ {
+  "seg": 115,
+  "start": 653.959,
+  "end": 657.281,
+  "speaker": "Unknown",
+  "en": "And that's an incredible thing that no one has cracked yet in AI.",
+  "zh": "而这是一件了不起的事,AI 领域还没有人破解它。"
+ },
+ {
+  "seg": 116,
+  "start": 657.701,
+  "end": 664.665,
+  "speaker": "Unknown",
+  "en": "And so to me, that is the essence of what it will take to get to super intelligence, like a system that can just keep learning and discovering knowledge forever.",
+  "zh": "所以对我来说,那就是通往超级智能的关键所在——一个能够永远持续学习和发现知识的系统。"
+ },
+ {
+  "seg": 117,
+  "start": 665.185,
+  "end": 675.769,
+  "speaker": "Unknown",
+  "en": "So the second element is breadth, that we want something which can do this incredible discovery from all the way to incredible things, and it should be possible to drop it into any stream of experience.",
+  "zh": "第二个要素是广度,我们想要一个能够做到这种惊人发现的东西——从零一直到发现惊人的东西——而且它应该可以被打入任何一条经验流中。"
+ },
+ {
+  "seg": 118,
+  "start": 676.229,
+  "end": 685.792,
+  "speaker": "Unknown",
+  "en": "So whether it's like a simulated world or a digital world or a physical world, whatever it's dropped into, it should be something that can just learn and learn and learn.",
+  "zh": "无论是模拟世界、数字世界还是物理世界,无论它被放进哪里,它都应该能够不停地学、学、学。"
+ },
+ {
+  "seg": 119,
+  "start": 686.172,
+  "end": 686.973,
+  "speaker": "Unknown",
+  "en": "So that's the dream.",
+  "zh": "这就是那个梦想。"
+ },
+ {
+  "seg": 120,
+  "start": 687.093,
+  "end": 694.398,
+  "speaker": "Unknown",
+  "en": "I think if we crack this, then to me, it gives rise to a super intelligence that will be like encountering magic.",
+  "zh": "我认为如果我们破解了这一点,那么对我来说,它将催生一种超级智能,那会像是遇见魔法。"
+ },
+ {
+  "seg": 121,
+  "start": 694.418,
+  "end": 700.103,
+  "speaker": "Unknown",
+  "en": "It will be something which is so profoundly amazing that it will be able to do wonderful things.",
+  "zh": "它将是如此深刻地令人惊叹的东西,以至于它能够做出奇妙的事情。"
+ },
+ {
+  "seg": 122,
+  "start": 700.583,
+  "end": 702.865,
+  "speaker": "Unknown",
+  "en": "What will it feel like when we first encounter it?",
+  "zh": "当我们第一次遇见它时,会是什么感觉?"
+ },
+ {
+  "seg": 123,
+  "start": 703.185,
+  "end": 706.688,
+  "speaker": "Unknown",
+  "en": "Or is it one of these things where you can't predict ahead of time?",
+  "zh": "还是说这是那种无法提前预测的事情?"
+ },
+ {
+  "seg": 124,
+  "start": 707.477,
+  "end": 708.558,
+  "speaker": "Unknown",
+  "en": "I think it will be amazing.",
+  "zh": "我认为它会是令人惊叹的。"
+ },
+ {
+  "seg": 125,
+  "start": 708.619,
+  "end": 713.345,
+  "speaker": "Unknown",
+  "en": "I think we should have an experience of wonderment.",
+  "zh": "我认为我们应该会有一种惊奇敬畏的体验。"
+ },
+ {
+  "seg": 126,
+  "start": 713.765,
+  "end": 720.554,
+  "speaker": "Unknown",
+  "en": "And the only thing I can say from my own experience is what happened when we got to this point in an admittedly much narrower field.",
+  "zh": "而就我自己的经验,我唯一能说的是,当我们在一个公认要窄得多的领域里到达那个节点时发生了什么。"
+ },
+ {
+  "seg": 127,
+  "start": 720.574,
+  "end": 724.299,
+  "speaker": "Unknown",
+  "en": "But when we got there in board games, when we got to the point of",
+  "zh": "但当我们在棋盘游戏中到达那里,当我们到达那个节点——"
+ },
+ {
+  "seg": 128,
+  "start": 725.039,
+  "end": 726.9,
+  "speaker": "Unknown",
+  "en": "Superhuman play in the game of Go.",
+  "zh": "在围棋游戏中达到超人水平。"
+ },
+ {
+  "seg": 129,
+  "start": 727.401,
+  "end": 729.622,
+  "speaker": "Unknown",
+  "en": "It brought wonderment to the field.",
+  "zh": "它给这个领域带来了惊奇敬畏。"
+ },
+ {
+  "seg": 130,
+  "start": 729.642,
+  "end": 735.445,
+  "speaker": "Unknown",
+  "en": "The Go players who saw AlphaGo playing, they were amazed.",
+  "zh": "那些看到 AlphaGo 下棋的围棋棋手,他们惊叹不已。"
+ },
+ {
+  "seg": 131,
+  "start": 735.865,
+  "end": 739.467,
+  "speaker": "Unknown",
+  "en": "It was like a joyful experience for them to witness this kind of Go playing.",
+  "zh": "对他们来说,目睹这种下棋方式是一次充满喜悦的体验。"
+ },
+ {
+  "seg": 132,
+  "start": 739.487,
+  "end": 741.789,
+  "speaker": "Unknown",
+  "en": "Same happened when we got to Superhuman play in chess.",
+  "zh": "当我们在国际象棋中达到超人水平时,同样的事情也发生了。"
+ },
+ {
+  "seg": 133,
+  "start": 742.769,
+  "end": 745.23,
+  "speaker": "Unknown",
+  "en": "The chess players, they were so excited.",
+  "zh": "国际象棋棋手们,他们非常兴奋。"
+ },
+ {
+  "seg": 134,
+  "start": 745.25,
+  "end": 755.915,
+  "speaker": "Unknown",
+  "en": "And just imagine going far beyond that, but in things which are discovering incredible things, new fields of science, new types of technology that we've never even dreamed of.",
+  "zh": "再想象一下远远超越那种情况,而且是在发现惊人事物的事情上——新的科学领域、我们从未梦想过的全新技术类型。"
+ },
+ {
+  "seg": 135,
+  "start": 755.955,
+  "end": 757.336,
+  "speaker": "Unknown",
+  "en": "I mean, it will be incredible.",
+  "zh": "我是说,那将是难以置信的。"
+ },
+ {
+  "seg": 136,
+  "start": 757.936,
+  "end": 769.021,
+  "speaker": "Unknown",
+  "en": "So the current paradigm, these large language models with reinforcement learning seem to be at least knocking out millennium problems and making some sorts of scientific discoveries.",
+  "zh": "那么,当前这个范式——带强化学习的大型语言模型——看起来至少在攻克千禧年问题,并做出某种科学发现。"
+ },
+ {
+  "seg": 137,
+  "start": 769.54,
+  "end": 777.066,
+  "speaker": "Unknown",
+  "en": "Does that count as a super learner or what's the difference between something that can make novel scientific discoveries versus a super learner in your sense of the term?",
+  "zh": "那算得上超级学习者吗?或者说,能够做出新颖科学发现的东西,与你所说的超级学习者之间有什么区别?"
+ },
+ {
+  "seg": 138,
+  "start": 777.907,
+  "end": 778.107,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 139,
+  "start": 778.427,
+  "end": 783.211,
+  "speaker": "Unknown",
+  "en": "So look, I think LLMs are doing a lot of great things and I have a lot of respect for what's being achieved.",
+  "zh": "你看,我认为 LLM 正在做出很多了不起的东西,我对已经取得的成就非常尊重。"
+ },
+ {
+  "seg": 140,
+  "start": 783.792,
+  "end": 788.035,
+  "speaker": "Unknown",
+  "en": "What I mean by a super learner is something which first of all discovers completely autonomously.",
+  "zh": "我所说的超级学习者,首先是指某种完全自主地进行发现的东西。"
+ },
+ {
+  "seg": 141,
+  "start": 788.836,
+  "end": 797.323,
+  "speaker": "Unknown",
+  "en": "And I think what we've seen so far, at least with these kind of approaches that have been taken is there's a lot of human in the loop effort that's required to make these breakthroughs.",
+  "zh": "而我认为我们迄今为止看到的,至少在这些被采取的方法中,是需要大量人在回路的努力才能做出这些突破。"
+ },
+ {
+  "seg": 142,
+  "start": 798.023,
+  "end": 799.785,
+  "speaker": "Unknown",
+  "en": "It's not fully autonomous yet.",
+  "zh": "它还不是完全自主的。"
+ },
+ {
+  "seg": 143,
+  "start": 800.206,
+  "end": 810.035,
+  "speaker": "Unknown",
+  "en": "And it's also something which should be applicable to kind of, you know, real world embodied domains where the agent can learn from its physical experience.",
+  "zh": "它还应该是可以应用于那种——你知道——现实世界的具身领域的,智能体可以从它的物理经验中学习。"
+ },
+ {
+  "seg": 144,
+  "start": 810.456,
+  "end": 816.302,
+  "speaker": "Unknown",
+  "en": "And we're a long, long, long way off that when it's not at all clear that LLMs and language based approaches are even the right.",
+  "zh": "而我们离那还有很长很长很长一段路,目前完全不清楚 LLM 和基于语言的方法是不是正确的。"
+ },
+ {
+  "seg": 145,
+  "start": 816.642,
+  "end": 818.784,
+  "speaker": "Unknown",
+  "en": "Like vehicle to achieve that, that kind of knowledge.",
+  "zh": "比如实现那种知识的载具。"
+ },
+ {
+  "seg": 146,
+  "start": 818.964,
+  "end": 822.907,
+  "speaker": "Unknown",
+  "en": "Thinking about these things in terms of language might not even be the right paradigm.",
+  "zh": "用语言来思考这些东西,可能根本就不是正确的范式。"
+ },
+ {
+  "seg": 147,
+  "start": 822.927,
+  "end": 827.651,
+  "speaker": "Unknown",
+  "en": "And it might just be that all of this human data that's been used in LLMs is kind of weighing things down.",
+  "zh": "而且很有可能,LLM 中使用的所有这些人类数据,正在拖累一切。"
+ },
+ {
+  "seg": 148,
+  "start": 828.152,
+  "end": 838.821,
+  "speaker": "Unknown",
+  "en": "So a lot of respect for some of these, the progress that's made, but I don't think we're anywhere close to this like true super learner of something which can be like autonomously just discover everything for itself.",
+  "zh": "所以我对其中一些进展非常尊重,但我不认为我们距离这种真正的超级学习者有多接近——那种可以完全自主地自己发现一切的东西。"
+ },
+ {
+  "seg": 149,
+  "start": 839.608,
+  "end": 842.129,
+  "speaker": "Unknown",
+  "en": "What does building this look like in practice for you?",
+  "zh": "对你来说,在实践中构建这个东西是什么样子的?"
+ },
+ {
+  "seg": 150,
+  "start": 842.309,
+  "end": 858.234,
+  "speaker": "Unknown",
+  "en": "And we backed Giannis, who was on your original AlphaGo team, and he told us that one of the things that's distinct about you is you can have these incredibly ambitious visions, but you also ground the team in very practical research milestones.",
+  "zh": "我们投资了 Giannis,他曾在你们最初的 AlphaGo 团队,他告诉我们,你的一个独特之处在于,你既能拥有极其宏大的愿景,又能让团队扎根于非常务实的研究里程碑。"
+ },
+ {
+  "seg": 151,
+  "start": 858.694,
+  "end": 862.055,
+  "speaker": "Unknown",
+  "en": "And I'd love to understand a big, big, big vision.",
+  "zh": "我很想了解一个宏大的、宏大的、宏大的愿景。"
+ },
+ {
+  "seg": 152,
+  "start": 862.636,
+  "end": 865.557,
+  "speaker": "Unknown",
+  "en": "What does this look like in the day-to-day and what are you implementing?",
+  "zh": "这在日常工作中是什么样的?你在落实什么?"
+ },
+ {
+  "seg": 153,
+  "start": 865.597,
+  "end": 866.677,
+  "speaker": "Unknown",
+  "en": "How do you spend your days right now?",
+  "zh": "你现在每天是怎么度过的?"
+ },
+ {
+  "seg": 154,
+  "start": 867.105,
+  "end": 868.845,
+  "speaker": "Unknown",
+  "en": "Yeah, great question.",
+  "zh": "是的,好问题。"
+ },
+ {
+  "seg": 155,
+  "start": 869.306,
+  "end": 879.248,
+  "speaker": "Unknown",
+  "en": "So day-to-day, I suppose there's a lot of hard technical work led by people like Lassa to kind of build the whole stack.",
+  "zh": "日常来说,我想有很多由像 Lassa 这样的人主导的艰难技术工作,来构建整个技术栈。"
+ },
+ {
+  "seg": 156,
+  "start": 879.268,
+  "end": 891.851,
+  "speaker": "Unknown",
+  "en": "That means we've got a state-of-the-art reinforcement learning stack that allows us to run things at massive scale, inhale data at the optimal way, be able to kind of learn and have systems that keep learning and learning and learning.",
+  "zh": "这意味着我们拥有一个最先进的强化学习技术栈,让我们能够大规模运行、以最优方式吸纳数据,能够学习并拥有持续不断学习、学习、学习的系统。"
+ },
+ {
+  "seg": 157,
+  "start": 892.431,
+  "end": 896.694,
+  "speaker": "Unknown",
+  "en": "And then on top of that, so we've spoken about the super learner.",
+  "zh": "在此之上,我们已经谈过超级学习者了。"
+ },
+ {
+  "seg": 158,
+  "start": 897.275,
+  "end": 913.427,
+  "speaker": "Unknown",
+  "en": "The other aspect which we're building is we're building out environments which are capable of super learners like discovering everything, like environments in which simulated environments in which a super learner can discover everything that we mean by intelligence.",
+  "zh": "我们正在构建的另一个方面是,我们正在构建能够支持超级学习者发现一切的环境,也就是模拟环境,让超级学习者能够在其中发现我们所说的智能的一切。"
+ },
+ {
+  "seg": 159,
+  "start": 913.487,
+  "end": 914.468,
+  "speaker": "Unknown",
+  "en": "We call those crucibles.",
+  "zh": "我们把这些称为 crucibles(坩埚)。"
+ },
+ {
+  "seg": 160,
+  "start": 915.148,
+  "end": 920.853,
+  "speaker": "Unknown",
+  "en": "So they're environments in which it's possible for agents to make incredible discoveries in which",
+  "zh": "它们是这样的环境:智能体在其中有可能做出令人惊叹的发现,在其中"
+ },
+ {
+  "seg": 161,
+  "start": 921.353,
+  "end": 925.696,
+  "speaker": "Unknown",
+  "en": "It's possible to express and learn everything that we think of as intelligence.",
+  "zh": "有可能表达和学习我们认为属于智能的一切。"
+ },
+ {
+  "seg": 162,
+  "start": 926.116,
+  "end": 930.679,
+  "speaker": "Unknown",
+  "en": "And so we have been putting a certain amount of effort into creating these environments.",
+  "zh": "所以我们一直在投入相当多的精力来创建这些环境。"
+ },
+ {
+  "seg": 163,
+  "start": 930.76,
+  "end": 950.193,
+  "speaker": "Unknown",
+  "en": "And so it's a combination of building out the super learner, doing the research to make super learners incredible and beat the state of the art of what's possible with reinforcement learning, both in terms of the engineering and the research that happens, and creating and placing the super learners into these crucibles to kind of see the emergence of incredible behaviors.",
+  "zh": "所以这是以下几件事的结合:构建超级学习者,做研究让超级学习者变得了不起并超越强化学习现有可能性的最先进水平,包括工程和研究两方面,以及创建这些 crucibles 并把超级学习者放进去,以观察惊人行为的涌现。"
+ },
+ {
+  "seg": 164,
+  "start": 950.793,
+  "end": 954.076,
+  "speaker": "Unknown",
+  "en": "And in terms of the grounding, you asked about how to ground this in the day to day.",
+  "zh": "至于落地扎根,你问了如何把这落实到日常。"
+ },
+ {
+  "seg": 165,
+  "start": 954.516,
+  "end": 965.486,
+  "speaker": "Unknown",
+  "en": "So we ground it in milestones and the milestones are kind of analogous to what happens with the human journey where we discovered incredible things.",
+  "zh": "我们用里程碑来落地,这些里程碑大致类似于人类历程中所发生的事,我们发现了令人惊叹的东西。"
+ },
+ {
+  "seg": 166,
+  "start": 965.626,
+  "end": 973.472,
+  "speaker": "Unknown",
+  "en": "And so those become natural milestones for us, for our agents to rediscover the great moments that humans went through in our discovery of knowledge.",
+  "zh": "所以这些就成为我们天然里程碑,让我们的智能体重新发现人类在探索知识的历程中经历的伟大时刻。"
+ },
+ {
+  "seg": 167,
+  "start": 975.125,
+  "end": 982.08,
+  "speaker": "Unknown",
+  "en": "What do you think the agents will rediscover first when that's going to be your first moment of, oh, this is working?",
+  "zh": "你认为当智能体重新发现什么的时候,会成为你的第一个「哦,这成功了」的时刻?"
+ },
+ {
+  "seg": 168,
+  "start": 982.911,
+  "end": 984.252,
+  "speaker": "Unknown",
+  "en": "I imagine we're going to be surprised.",
+  "zh": "我想我们会感到惊讶。"
+ },
+ {
+  "seg": 169,
+  "start": 984.372,
+  "end": 996.901,
+  "speaker": "Unknown",
+  "en": "Like I think one thing which is different about the way we take to doing reinforcement learning to a lot of the rest of the field is that we are not breadcrum trailing the particular objective to be learned about.",
+  "zh": "就像我认为,我们做强化学习的方式与该领域其他许多人的不同之处之一在于,我们不是用面包屑铺路,循着特定的学习目标一步步走。"
+ },
+ {
+  "seg": 170,
+  "start": 997.261,
+  "end": 1006.068,
+  "speaker": "Unknown",
+  "en": "A lot of the way things people do RL with LLMs at the moment is to kind of say, oh, you know, the agent should be learning about this problem and then this problem and this problem.",
+  "zh": "目前很多人用 LLM 做强化学习的方式,大体上是说,哦,你知道的,智能体应该先学这个问题,再学这个问题,然后再学这个问题。"
+ },
+ {
+  "seg": 171,
+  "start": 1006.088,
+  "end": 1011.071,
+  "speaker": "Unknown",
+  "en": "And after kind of following that trail, we're kind of pulling the agent by its nose towards a particular desired outcome.",
+  "zh": "在沿着这条轨迹走的过程中,我们其实是在拽着智能体的鼻子把它拉向一个特定的期望结果。"
+ },
+ {
+  "seg": 172,
+  "start": 1011.93,
+  "end": 1012.971,
+  "speaker": "Unknown",
+  "en": "We're not taking that approach.",
+  "zh": "我们不采取那种方式。"
+ },
+ {
+  "seg": 173,
+  "start": 1013.011,
+  "end": 1021.377,
+  "speaker": "Unknown",
+  "en": "We're giving the agent some simple objectives and asking it to discover things that will surprise us and amaze us.",
+  "zh": "我们给智能体一些简单的目标,并要求它去发现会让我们惊讶、让我们赞叹的东西。"
+ },
+ {
+  "seg": 174,
+  "start": 1021.397,
+  "end": 1026.06,
+  "speaker": "Unknown",
+  "en": "So the agent is in principle capable of discovering all kinds of things.",
+  "zh": "所以智能体原则上能够发现各种各样的东西。"
+ },
+ {
+  "seg": 175,
+  "start": 1026.1,
+  "end": 1030.163,
+  "speaker": "Unknown",
+  "en": "And we don't necessarily know in advance what those discoveries will be.",
+  "zh": "而我们不一定预先知道那些发现会是什么。"
+ },
+ {
+  "seg": 176,
+  "start": 1030.443,
+  "end": 1034.726,
+  "speaker": "Unknown",
+  "en": "And it's kind of just going to be exciting to witness that journey.",
+  "zh": "见证这段旅程本身就会是很激动人心的事。"
+ },
+ {
+  "seg": 177,
+  "start": 1034.966,
+  "end": 1037.508,
+  "speaker": "Unknown",
+  "en": "So I hope to be surprised, I think is the answer to your question.",
+  "zh": "所以「我希望会感到惊讶」,我想这就是对你问题的回答。"
+ },
+ {
+  "seg": 178,
+  "start": 1038.042,
+  "end": 1038.402,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 179,
+  "start": 1038.442,
+  "end": 1061.064,
+  "speaker": "Unknown",
+  "en": "So what you're saying is instead of explicitly giving the agent the goal to go rediscover language or build a calculator or build a computer, you're going to give it other more open-ended goals and the agent may discover that the most efficient way to actually or the best way to actually accomplish that goal may be to build some of these tools that we as humans have already built.",
+  "zh": "所以你的意思是,与其明确地给智能体目标去重新发现语言、或者造一个计算器、或者造一台计算机,你会给它一些更开放式的目标,而智能体可能会发现,真正实现那个目标最高效的、或最好的方式,也许是构建一些我们人类已经构建过的工具。"
+ },
+ {
+  "seg": 180,
+  "start": 1061.264,
+  "end": 1062.205,
+  "speaker": "Unknown",
+  "en": "Is that one way of putting it?",
+  "zh": "这是一种说法吗?"
+ },
+ {
+  "seg": 181,
+  "start": 1062.245,
+  "end": 1063.246,
+  "speaker": "Unknown",
+  "en": "That's one way of putting it.",
+  "zh": "这是一种说法。"
+ },
+ {
+  "seg": 182,
+  "start": 1063.586,
+  "end": 1072.955,
+  "speaker": "Unknown",
+  "en": "I think another way to say it is people often think in RL, oh my God, how do I come up with a reward function that kind of perfectly specifies this really complicated thing that I want to discover?",
+  "zh": "我想另一种说法是,人们常常在强化学习里想,天哪,我该怎么设计一个奖励函数,能完美地描述这个我想要发现的、非常复杂的东西?"
+ },
+ {
+  "seg": 183,
+  "start": 1073.015,
+  "end": 1077.5,
+  "speaker": "Unknown",
+  "en": "Like, you know, how can I specify exactly what I mean by science?",
+  "zh": "就像,你知道的,我怎么能精确描述我所说的科学是什么?"
+ },
+ {
+  "seg": 184,
+  "start": 1077.54,
+  "end": 1079.882,
+  "speaker": "Unknown",
+  "en": "Or how can I specify exactly what I mean by interesting maths?",
+  "zh": "或者我怎么能精确描述我所说的有趣的数学是什么?"
+ },
+ {
+  "seg": 185,
+  "start": 1080.422,
+  "end": 1081.443,
+  "speaker": "Unknown",
+  "en": "But there's an alternative.",
+  "zh": "但还有另一条路。"
+ },
+ {
+  "seg": 186,
+  "start": 1082.343,
+  "end": 1092.93,
+  "speaker": "Unknown",
+  "en": "And the alternative is that to give the agent something really straightforward to optimize, but in a really complex environment where there's a lot to learn about.",
+  "zh": "另一条路是,给智能体一个非常直截了当的、可优化的东西,但把它放进一个非常复杂的环境,那里有很多可学的东西。"
+ },
+ {
+  "seg": 187,
+  "start": 1093.49,
+  "end": 1099.114,
+  "speaker": "Unknown",
+  "en": "And so it turns out that if you look at the way the world has worked in nature, the pursuit",
+  "zh": "而事实证明,如果你看看世界和大自然的运作方式,对"
+ },
+ {
+  "seg": 188,
+  "start": 1099.714,
+  "end": 1111.541,
+  "speaker": "Unknown",
+  "en": "An optimization of a very simple, easy to describe quantities can often give rise to incredibly hard to describe complexity and emergence.",
+  "zh": "一个非常简单、易于描述的量的追求和优化,往往会催生极其难以描述的复杂性和涌现。"
+ },
+ {
+  "seg": 189,
+  "start": 1111.841,
+  "end": 1121.006,
+  "speaker": "Unknown",
+  "en": "So examples of that would be evolution, which kind of just optimize a kind of survival of the fittest, some kind of fitness signal.",
+  "zh": "这方面的例子是进化,它大致只是优化某种适者生存、某种适应度信号。"
+ },
+ {
+  "seg": 190,
+  "start": 1121.447,
+  "end": 1126.43,
+  "speaker": "Unknown",
+  "en": "And the pursuit of fitness gave rise to all of the complexity that we see in life.",
+  "zh": "而对适应度的追求催生了我们在生命中看到的所有复杂性。"
+ },
+ {
+  "seg": 191,
+  "start": 1127.93,
+  "end": 1140.277,
+  "speaker": "Unknown",
+  "en": "In the human journey, the pursuit of relatively simple goals that we as humans have gave rise to all of the complex behaviors that humans ultimately acquired and all of the knowledge that we eventually ended up with.",
+  "zh": "在人类的历程中,对我们人类相对简单目标的追求,催生了人类最终获得的所有复杂行为,以及我们最终积累的所有知识。"
+ },
+ {
+  "seg": 192,
+  "start": 1140.797,
+  "end": 1146.3,
+  "speaker": "Unknown",
+  "en": "So the emergent complexity is much greater than the starting point that was given.",
+  "zh": "所以涌现出的复杂性远远大于被给出的起点。"
+ },
+ {
+  "seg": 193,
+  "start": 1146.34,
+  "end": 1155.245,
+  "speaker": "Unknown",
+  "en": "So it wasn't like evolution said, look, hey humans, here's this idea of science and you need to get to the most complex science that's out there.",
+  "zh": "所以并不是进化说,喂,嘿人类们,这是科学的概念,你们需要达到现有的最复杂的科学。"
+ },
+ {
+  "seg": 194,
+  "start": 1156.146,
+  "end": 1157.507,
+  "speaker": "Unknown",
+  "en": "It was really something much simpler.",
+  "zh": "它其实是一个简单得多的东西。"
+ },
+ {
+  "seg": 195,
+  "start": 1158.067,
+  "end": 1166.055,
+  "speaker": "Unknown",
+  "en": "So a way to describe this maybe would be perhaps that humans in the pursuit of our goals started coordinating a bit more.",
+  "zh": "所以描述这一点的方式也许是:我们人类在追求目标的过程中,开始更多地协调。"
+ },
+ {
+  "seg": 196,
+  "start": 1166.095,
+  "end": 1171.94,
+  "speaker": "Unknown",
+  "en": "And then in the process of coordinating, we discovered that it was helpful to start communicating.",
+  "zh": "而在协调的过程中,我们发现开始沟通是有帮助的。"
+ },
+ {
+  "seg": 197,
+  "start": 1171.96,
+  "end": 1174.642,
+  "speaker": "Unknown",
+  "en": "And in the process of communicating, we started trading.",
+  "zh": "而在沟通的过程中,我们开始交易。"
+ },
+ {
+  "seg": 198,
+  "start": 1174.662,
+  "end": 1179.387,
+  "speaker": "Unknown",
+  "en": "And then in the process of trading, we discovered that basic arithmetic was useful.",
+  "zh": "然后在交易的过程中,我们发现基本的算术很有用。"
+ },
+ {
+  "seg": 199,
+  "start": 1179.427,
+  "end": 1180.848,
+  "speaker": "Unknown",
+  "en": "And then we started to discover that",
+  "zh": "然后我们开始发现……"
+ },
+ {
+  "seg": 200,
+  "start": 1181.228,
+  "end": 1193.332,
+  "speaker": "Unknown",
+  "en": "You know tools were useful and then we discovered that some basic science was required to help understand how the tools would work and that gave rise to more complex technology and understanding the technology required more complex maths and so forth and so forth.",
+  "zh": "你知道，工具曾经是有用的，然后我们发现需要一些基础科学来帮助理解这些工具是如何工作的，这就催生了更复杂的技术，而理解这些技术又需要更复杂的数学，如此往复，如此往复。"
+ },
+ {
+  "seg": 201,
+  "start": 1193.612,
+  "end": 1198.333,
+  "speaker": "Unknown",
+  "en": "So all in the pursuit of relatively simple goals this incredible complexity emerged.",
+  "zh": "所以，在追求相对简单的目标的过程中，这种令人难以置信的复杂性涌现了出来。"
+ },
+ {
+  "seg": 202,
+  "start": 1198.673,
+  "end": 1204.375,
+  "speaker": "Unknown",
+  "en": "So if we can get that process right you know things are going to take off and and lead to you know unbelievable things.",
+  "zh": "所以如果我们能把那个过程做对，你知道，事情就会起飞，并且带来你知道的、令人难以置信的东西。"
+ },
+ {
+  "seg": 203,
+  "start": 1204.771,
+  "end": 1205.512,
+  "speaker": "Unknown",
+  "en": "It's fascinating.",
+  "zh": "这很吸引人。"
+ },
+ {
+  "seg": 204,
+  "start": 1206.072,
+  "end": 1210.995,
+  "speaker": "Unknown",
+  "en": "Are the rewards for your agents kind of similar to like human biology and evolution then?",
+  "zh": "那么你的智能体的奖励是不是有点类似于人类生物学和进化？"
+ },
+ {
+  "seg": 205,
+  "start": 1211.316,
+  "end": 1213.557,
+  "speaker": "Unknown",
+  "en": "Like, you know, try to make it to the next generation.",
+  "zh": "比如，你知道，努力活到下一代。"
+ },
+ {
+  "seg": 206,
+  "start": 1215.859,
+  "end": 1217.66,
+  "speaker": "Unknown",
+  "en": "What does a reward function look like for you all?",
+  "zh": "对你们来说，奖励函数是什么样的？"
+ },
+ {
+  "seg": 207,
+  "start": 1218.01,
+  "end": 1224.256,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, we've been experimenting with quite a number of different rewards, so it's not like we have one answer to that question.",
+  "zh": "是的，我是说，我们一直在试验相当多不同的奖励，所以对这个问题我们并没有一个唯一的答案。"
+ },
+ {
+  "seg": 208,
+  "start": 1225.137,
+  "end": 1236.347,
+  "speaker": "Unknown",
+  "en": "But I think one thing we're not doing is the kind of, you know, crafting a reward that exactly describes what we mean by science or exactly what we mean by technology or exactly what we mean by language.",
+  "zh": "但我认为我们没有做的一件事是那种，你知道，精心设计一个奖励来精确描述我们所说的科学是什么，或精确描述我们所说的技术是什么，或精确描述我们所说的语言是什么。"
+ },
+ {
+  "seg": 209,
+  "start": 1236.807,
+  "end": 1238.528,
+  "speaker": "Unknown",
+  "en": "We expect our agents to discover things.",
+  "zh": "我们期望我们的智能体去发现东西。"
+ },
+ {
+  "seg": 210,
+  "start": 1238.849,
+  "end": 1248.035,
+  "speaker": "Unknown",
+  "en": "And if we can't crack that, you know, like if we can't crack this problem as AI scientists, we're never going to have agents that discover whole new fields of knowledge that we don't even know about.",
+  "zh": "如果我们不能攻克这个，你知道，比如作为 AI 科学家如果我们不能攻克这个问题，我们将永远不会有能够发现我们甚至不知道的全新知识领域的智能体。"
+ },
+ {
+  "seg": 211,
+  "start": 1248.395,
+  "end": 1256.14,
+  "speaker": "Unknown",
+  "en": "There are vast fields that will exist that are out there that which we don't even know have the potential to exist at this point in time.",
+  "zh": "有广阔的领域将会存在，它们就在那里，而我们此时此刻甚至不知道它们有存在的可能。"
+ },
+ {
+  "seg": 212,
+  "start": 1256.281,
+  "end": 1265.407,
+  "speaker": "Unknown",
+  "en": "You know, it's like imagine you're back in the days of Newtonian physics and no one even knew that quantum physics was a thing or that relativity was a thing.",
+  "zh": "你知道，这就像想象你回到牛顿物理学的时代，那时甚至没有人知道量子物理是一回事，或者相对论是一回事。"
+ },
+ {
+  "seg": 213,
+  "start": 1265.867,
+  "end": 1272.311,
+  "speaker": "Unknown",
+  "en": "Like we should be in that process of open-minded discovery where our agents are free to kind of figure things out for themselves.",
+  "zh": "比如，我们应该处于那个开放式的发现过程之中，让我们的智能体可以自由地自己去弄清楚事情。"
+ },
+ {
+  "seg": 214,
+  "start": 1272.471,
+  "end": 1275.753,
+  "speaker": "Unknown",
+  "en": "And I think that's going to lead to, you know, much more exciting outcomes.",
+  "zh": "而且我认为这将带来，你知道，令人兴奋得多的结果。"
+ },
+ {
+  "seg": 215,
+  "start": 1276.234,
+  "end": 1278.976,
+  "speaker": "Unknown",
+  "en": "What do these crucibles look like in practice?",
+  "zh": "这些熔炉在实践中是什么样的？"
+ },
+ {
+  "seg": 216,
+  "start": 1279.356,
+  "end": 1287.581,
+  "speaker": "Unknown",
+  "en": "And, you know, you're contrasting it to today when people say environments, oftentimes it's a set of tasks and, you know, what the agent should have done on the task.",
+  "zh": "而且，你知道，你在把它和今天作对比，当人们说环境时，通常它是一组任务，以及你知道的，智能体在任务上本应该做什么。"
+ },
+ {
+  "seg": 217,
+  "start": 1287.681,
+  "end": 1291.624,
+  "speaker": "Unknown",
+  "en": "It sounds like your environments are, your crucibles are very, very different.",
+  "zh": "听起来你的环境，你的熔炉，是非常非常不同的。"
+ },
+ {
+  "seg": 218,
+  "start": 1292.104,
+  "end": 1293.525,
+  "speaker": "Unknown",
+  "en": "What do they look like in practice?",
+  "zh": "它们在实践中是什么样子的？"
+ },
+ {
+  "seg": 219,
+  "start": 1294.12,
+  "end": 1306.143,
+  "speaker": "Unknown",
+  "en": "So we are building crucibles, which are, without giving too many details away, have the capacity for a lot of emergent complexity.",
+  "zh": "我们正在构建熔炉，在不透露太多细节的情况下，它们具有产生大量涌现复杂性的能力。"
+ },
+ {
+  "seg": 220,
+  "start": 1306.583,
+  "end": 1313.425,
+  "speaker": "Unknown",
+  "en": "The key thing about them is it's not like we've kind of handcrafted a whole load of puzzles for the agents to work with.",
+  "zh": "它们的关键在于，并不是我们手工设计了一大堆谜题让智能体去处理。"
+ },
+ {
+  "seg": 221,
+  "start": 1315.066,
+  "end": 1317.148,
+  "speaker": "Unknown",
+  "en": "There's just a huge amount of emergent complexity there.",
+  "zh": "那里有大量的涌现复杂性。"
+ },
+ {
+  "seg": 222,
+  "start": 1317.528,
+  "end": 1320.151,
+  "speaker": "Unknown",
+  "en": "Some of that emergent complexity can come from different places.",
+  "zh": "其中一些涌现复杂性可以来自不同的地方。"
+ },
+ {
+  "seg": 223,
+  "start": 1320.211,
+  "end": 1328.839,
+  "speaker": "Unknown",
+  "en": "It can come from physics engines that give rise to complexity as you've got millions of interacting objects with a complex physics engine.",
+  "zh": "它可以来自物理引擎，当你有数百万个相互作用的物体和一个复杂的物理引擎时，复杂性就产生了。"
+ },
+ {
+  "seg": 224,
+  "start": 1330.22,
+  "end": 1340.688,
+  "speaker": "Unknown",
+  "en": "Millions of interacting agents and the world becomes much more complex because it suddenly now includes the complexity of all of those other agents within the world that the agent's building.",
+  "zh": "数百万个相互作用的智能体，世界就变得更加复杂，因为它突然之间包含了智能体正在构建的世界中所有其他智能体的复杂性。"
+ },
+ {
+  "seg": 225,
+  "start": 1341.089,
+  "end": 1357.081,
+  "speaker": "Unknown",
+  "en": "So there's ways to build worlds that are vastly more complex than the kind of standard simulators like Atari 57 or whatever it is that people have been working with in the past and which are certainly more complex than the kind of standard benchmark kind of tasks that people are using.",
+  "zh": "所以有一些方法可以构建比标准模拟器复杂得多的世界，比如 Atari 57 或者人们过去一直在使用的那些东西，而且它们肯定比人们正在使用的标准基准类任务更复杂。"
+ },
+ {
+  "seg": 226,
+  "start": 1357.941,
+  "end": 1364.023,
+  "speaker": "Unknown",
+  "en": "And if you get that right, you have a world in which there's the possibility for discovery by the agent.",
+  "zh": "如果你把那个做对了，你就拥有了一个智能体在其中有可能进行发现的世界。"
+ },
+ {
+  "seg": 227,
+  "start": 1364.043,
+  "end": 1380.087,
+  "speaker": "Unknown",
+  "en": "There's the possibility for the agents to discover everything from technology to science to mathematics to languages to everything else, just the same way are humans, all the way through from more basic things like motor control or coordination.",
+  "zh": "智能体有可能发现从技术到科学到数学到语言到其他一切的一切，就像人类一样，一路从更基础的东西比如运动控制或协调开始。"
+ },
+ {
+  "seg": 228,
+  "start": 1381.148,
+  "end": 1382.508,
+  "speaker": "Unknown",
+  "en": "The whole spectrum is possible.",
+  "zh": "整个谱系都是可能的。"
+ },
+ {
+  "seg": 229,
+  "start": 1382.968,
+  "end": 1384.749,
+  "speaker": "Unknown",
+  "en": "Like if you look at like a game like Go, right?",
+  "zh": "比如，如果你看像围棋这样的游戏，对吧？"
+ },
+ {
+  "seg": 230,
+  "start": 1384.789,
+  "end": 1386.411,
+  "speaker": "Unknown",
+  "en": "Which is like very simple to represent.",
+  "zh": "它表示起来非常简单。"
+ },
+ {
+  "seg": 231,
+  "start": 1386.431,
+  "end": 1387.932,
+  "speaker": "Unknown",
+  "en": "It's just like a bitmap.",
+  "zh": "它就像一个位图。"
+ },
+ {
+  "seg": 232,
+  "start": 1387.992,
+  "end": 1389.573,
+  "speaker": "Unknown",
+  "en": "The simulation is extremely simple.",
+  "zh": "模拟极其简单。"
+ },
+ {
+  "seg": 233,
+  "start": 1390.834,
+  "end": 1394.396,
+  "speaker": "Unknown",
+  "en": "But you still see this like emergent behavior of something complex, right?",
+  "zh": "但你仍然看到某种复杂东西的涌现行为，对吧？"
+ },
+ {
+  "seg": 234,
+  "start": 1394.837,
+  "end": 1396.117,
+  "speaker": "Unknown",
+  "en": "It's like super interesting to us.",
+  "zh": "这对我们来说超级有趣。"
+ },
+ {
+  "seg": 235,
+  "start": 1396.157,
+  "end": 1400.881,
+  "speaker": "Unknown",
+  "en": "So like, of course, like Go is like way simpler than we can imagine doing.",
+  "zh": "所以比如，当然，围棋比我们能想象的要简单得多。"
+ },
+ {
+  "seg": 236,
+  "start": 1401.641,
+  "end": 1409.527,
+  "speaker": "Unknown",
+  "en": "But at the same time, going all the way to like 100% realistic physics would be like very computational expensive, right?",
+  "zh": "但与此同时，一路做到百分之百真实的物理会计算成本非常高，对吧？"
+ },
+ {
+  "seg": 237,
+  "start": 1409.827,
+  "end": 1420.378,
+  "speaker": "Unknown",
+  "en": "So we want to create this range of crucibles where we have simple ones that can execute quickly and we can iterate on, but where we can still see very complex behavior.",
+  "zh": "所以我们想创建这样一个范围的熔炉，我们有可以快速执行、可以迭代的简单熔炉，但我们仍然能在其中看到非常复杂的行为。"
+ },
+ {
+  "seg": 238,
+  "start": 1420.678,
+  "end": 1421.219,
+  "speaker": "Unknown",
+  "en": "Interesting.",
+  "zh": "有意思。"
+ },
+ {
+  "seg": 239,
+  "start": 1421.619,
+  "end": 1421.899,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1422.14,
+  "end": 1426.304,
+  "speaker": "Unknown",
+  "en": "It's almost like what you choose to represent is tricky, right?",
+  "zh": "这几乎就像你选择表示什么是一件很微妙的事，对吧？"
+ },
+ {
+  "seg": 241,
+  "start": 1426.324,
+  "end": 1426.784,
+  "speaker": "Unknown",
+  "en": "Because there's...",
+  "zh": "因为有……"
+ },
+ {
+  "seg": 242,
+  "start": 1427.705,
+  "end": 1430.446,
+  "speaker": "Unknown",
+  "en": "For example, I can imagine a lot of economics arises from game theory.",
+  "zh": "比如，我可以想象很多经济学源自博弈论。"
+ },
+ {
+  "seg": 243,
+  "start": 1431.667,
+  "end": 1434.948,
+  "speaker": "Unknown",
+  "en": "And most of that is completely unrelated to physics.",
+  "zh": "而其中大部分与物理学完全无关。"
+ },
+ {
+  "seg": 244,
+  "start": 1435.168,
+  "end": 1438.589,
+  "speaker": "Unknown",
+  "en": "And so there, a crucible that represents physics is probably not that helpful.",
+  "zh": "所以在那里，一个表示物理学的熔炉可能没那么有用。"
+ },
+ {
+  "seg": 245,
+  "start": 1439.009,
+  "end": 1446.132,
+  "speaker": "Unknown",
+  "en": "But if you have information theory represented, which agents know what, then you probably do end up rediscovering quite a bit of economics.",
+  "zh": "但如果你有信息论被表示出来，即哪个智能体知道什么，那么你很可能最终会重新发现相当多的经济学。"
+ },
+ {
+  "seg": 246,
+  "start": 1446.192,
+  "end": 1447.753,
+  "speaker": "Unknown",
+  "en": "Is that a fair way to put it?",
+  "zh": "这么说公平吗？"
+ },
+ {
+  "seg": 247,
+  "start": 1447.793,
+  "end": 1454.155,
+  "speaker": "Unknown",
+  "en": "Like the primitives you choose to capture in the environment kind of give rise to the type of learning that emerges.",
+  "zh": "比如你选择在环境中捕捉的原语，在某种程度上决定了涌现出来的学习类型。"
+ },
+ {
+  "seg": 248,
+  "start": 1454.497,
+  "end": 1458.921,
+  "speaker": "Unknown",
+  "en": "Yeah, like the end goal is to have something that is grounded in the real world, right?",
+  "zh": "是的，比如最终目标是拥有某种根植于真实世界的东西，对吧？"
+ },
+ {
+  "seg": 249,
+  "start": 1459.521,
+  "end": 1460.662,
+  "speaker": "Unknown",
+  "en": "But stepping stones.",
+  "zh": "但那是垫脚石。"
+ },
+ {
+  "seg": 250,
+  "start": 1461.743,
+  "end": 1464.385,
+  "speaker": "Unknown",
+  "en": "I want to come back to the Go example because I really like this example.",
+  "zh": "我想回到围棋的例子,因为我真的很喜欢这个例子。"
+ },
+ {
+  "seg": 251,
+  "start": 1465.086,
+  "end": 1467.688,
+  "speaker": "Unknown",
+  "en": "You'll be surprised to hear that I find Go actually a good example.",
+  "zh": "你会很惊讶地听到,我觉得围棋实际上是一个好例子。"
+ },
+ {
+  "seg": 252,
+  "start": 1469.97,
+  "end": 1479.758,
+  "speaker": "Unknown",
+  "en": "But what I find fascinating, which I think is what Les is talking to here, is that Go is just like a 19 by 19 grid where you're trying to kind of maximize the territory.",
+  "zh": "但我觉得迷人的地方,我想这正是 Les 在这里谈到的,是围棋只是一个 19×19 的网格,你试图最大化地盘。"
+ },
+ {
+  "seg": 253,
+  "start": 1480.358,
+  "end": 1484.981,
+  "speaker": "Unknown",
+  "en": "And if this was a single agent game, it would be like the most boring game you could imagine.",
+  "zh": "如果这是一个单一智能体的游戏,它会是你能想象的最无聊的游戏。"
+ },
+ {
+  "seg": 254,
+  "start": 1485.001,
+  "end": 1491.204,
+  "speaker": "Unknown",
+  "en": "It would be, you know, you just place down stones on a grid until he fills up the whole grid and there'll be no strategy whatsoever.",
+  "zh": "它会是,你知道,你只是在网格上放置棋子,直到填满整个网格,完全没有任何策略可言。"
+ },
+ {
+  "seg": 255,
+  "start": 1491.685,
+  "end": 1503.331,
+  "speaker": "Unknown",
+  "en": "The moment you put a second agent into the environment, you get this emergent complexity, which is suddenly because the agent contains like one agent has to reason about all the possible behaviors of the other agent.",
+  "zh": "而当你把第二个智能体放进环境中时,你就得到了这种涌现的复杂性,突然间,因为一个智能体必须推理另一个智能体所有可能的行为。"
+ },
+ {
+  "seg": 256,
+  "start": 1503.671,
+  "end": 1504.292,
+  "speaker": "Unknown",
+  "en": "Suddenly it kind of",
+  "zh": "突然间它就"
+ },
+ {
+  "seg": 257,
+  "start": 1504.973,
+  "end": 1520.736,
+  "speaker": "Unknown",
+  "en": "Massively increases the complexity in the environment and to the best of our knowledge, you know, certainly all of the compute which we sank into it when we were working on it, there was just like this endless learning curve that where without end you could continue to discover new things in this game.",
+  "zh": "极大地增加了环境中的复杂性,而据我们所知,你知道,当然还有我们在这上面投入的所有算力,那里就只有一条没有尽头的无尽学习曲线,你可以在这款游戏中无止境地继续发现新东西。"
+ },
+ {
+  "seg": 258,
+  "start": 1522.297,
+  "end": 1524.579,
+  "speaker": "Unknown",
+  "en": "None of this is to say that Go is like the endpoint.",
+  "zh": "说这些并不是说围棋就像终点。"
+ },
+ {
+  "seg": 259,
+  "start": 1524.599,
+  "end": 1536.949,
+  "speaker": "Unknown",
+  "en": "Of course, it's still just a board game and quite narrow in a certain sense, but it shows that very simple environment dynamics can lead to kind of infinite, like an infinite onion of layers of complexity that kind of never stops.",
+  "zh": "当然,它仍然只是一款棋盘游戏,在某种意义上相当狭窄,但它表明非常简单的环境动态可以导致某种无限的,像一个无限的洋葱一样的层层复杂性,那种永不停歇。"
+ },
+ {
+  "seg": 260,
+  "start": 1537.67,
+  "end": 1540.672,
+  "speaker": "Unknown",
+  "en": "Infinite to the capacity of what our computers can do, of course.",
+  "zh": "当然,无限是相对于我们计算机的能力而言的。"
+ },
+ {
+  "seg": 261,
+  "start": 1541.293,
+  "end": 1549.74,
+  "speaker": "Unknown",
+  "en": "Do you think that the agents will end up rediscovering language and will that language look like ours or will it look different?",
+  "zh": "你认为智能体最终会重新发现语言吗?那种语言会像我们的语言,还是会不一样?"
+ },
+ {
+  "seg": 262,
+  "start": 1550.884,
+  "end": 1564.837,
+  "speaker": "Unknown",
+  "en": "I mean, my personal belief is that anyone who thinks that human language is the end point or the best way to reason, that perspective is a little naive.",
+  "zh": "我是说,我个人的看法是,任何认为人类语言是终点或最佳推理方式的人,那种观点都有点天真。"
+ },
+ {
+  "seg": 263,
+  "start": 1564.957,
+  "end": 1571.363,
+  "speaker": "Unknown",
+  "en": "I think that it must be the case that there are far more sophisticated approaches to reasoning, maybe using",
+  "zh": "我认为一定存在远为复杂的推理方法,也许使用"
+ },
+ {
+  "seg": 264,
+  "start": 1572.824,
+  "end": 1589.725,
+  "speaker": "Unknown",
+  "en": "parallelizable, rich, complex approaches that neural reasoning or whatever it is, these approaches will ultimately be far more expressive and far more capable than approaches which are based on human language.",
+  "zh": "可并行化的、丰富的、复杂的方法,即神经推理或随便什么,这些方法最终会远比基于人类语言的方法更有表现力、更有能力。"
+ },
+ {
+  "seg": 265,
+  "start": 1590.638,
+  "end": 1604.644,
+  "speaker": "Unknown",
+  "en": "I would also say that starting from human language as like the approach for reasoning is somewhat problematic because it pulls in all of our biases about how we think agents should think.",
+  "zh": "我还要说,以人类语言作为推理的起点有点成问题,因为它会带入我们所有关于我们认为智能体应该如何思考的偏见。"
+ },
+ {
+  "seg": 266,
+  "start": 1605.004,
+  "end": 1613.168,
+  "speaker": "Unknown",
+  "en": "So for example, a nice way to think about this is to imagine, what if we were to step back 500 years or 1,000 years or 2,000 years and",
+  "zh": "举个例子,一个思考这个问题的好方式是想象,如果我们退回到 500 年前或 1000 年前或 2000 年前,"
+ },
+ {
+  "seg": 267,
+  "start": 1615.469,
+  "end": 1620.392,
+  "speaker": "Unknown",
+  "en": "Only like were able to use all of the language that humans used at that time.",
+  "zh": "只能使用当时人类使用的全部语言。"
+ },
+ {
+  "seg": 268,
+  "start": 1621.552,
+  "end": 1634.139,
+  "speaker": "Unknown",
+  "en": "So maybe our agents would believe that the world was flat or that the diseases were caused by the four humors or there'll be all kinds of strange beliefs that would be embedded in that.",
+  "zh": "那么也许我们的智能体会相信地球是平的,或者疾病是由四种体液引起的,或者会有各种奇怪的信念嵌入在其中。"
+ },
+ {
+  "seg": 269,
+  "start": 1634.179,
+  "end": 1641.523,
+  "speaker": "Unknown",
+  "en": "It'll be very hard to kind of remove because they're so fundamental to the kind of language and the processes of thinking that humans have used.",
+  "zh": "这将很难消除,因为它们对人类所使用的语言和思维过程来说太根本了。"
+ },
+ {
+  "seg": 270,
+  "start": 1642.263,
+  "end": 1647.685,
+  "speaker": "Unknown",
+  "en": "So I do think that going beyond this is a really important goal.",
+  "zh": "所以我确实认为超越这一点是一个非常重要的目标。"
+ },
+ {
+  "seg": 271,
+  "start": 1648.445,
+  "end": 1651.227,
+  "speaker": "Unknown",
+  "en": "I'd love to talk more about this concept of removing human priors.",
+  "zh": "我很想多谈谈这个去除人类先验的概念。"
+ },
+ {
+  "seg": 272,
+  "start": 1651.827,
+  "end": 1664.051,
+  "speaker": "Unknown",
+  "en": "And I think your experience with AlphaGo and then AlphaGo Zero is maybe the best example that anyone can point to of what happens when you remove human priors.",
+  "zh": "我认为你在 AlphaGo 然后是 AlphaGo Zero 上的经历,可能是任何人都能举出的、关于去除人类先验会发生什么的最绝佳例子。"
+ },
+ {
+  "seg": 273,
+  "start": 1664.792,
+  "end": 1667.713,
+  "speaker": "Unknown",
+  "en": "Maybe if you take us back to AlphaGo and then AlphaZero,",
+  "zh": "也许你可以带我们回到 AlphaGo,然后是 AlphaZero,"
+ },
+ {
+  "seg": 274,
+  "start": 1668.691,
+  "end": 1673.814,
+  "speaker": "Unknown",
+  "en": "Was it surprising to you that removing human priors would result in even smarter intelligence?",
+  "zh": "去除人类先验会产生更聪明的智能,这对你来说令人惊讶吗?"
+ },
+ {
+  "seg": 275,
+  "start": 1675.015,
+  "end": 1675.995,
+  "speaker": "Unknown",
+  "en": "I wasn't sure, honestly.",
+  "zh": "老实说,我并不确定。"
+ },
+ {
+  "seg": 276,
+  "start": 1676.235,
+  "end": 1686.602,
+  "speaker": "Unknown",
+  "en": "So I remember I always like to do things in research where I think you ask research questions which are like on a knife edge where it's like 50-50.",
+  "zh": "我记得我总是喜欢在研究中做这样的事情:我认为你要提出那些像处于刀刃上一样的研究问题,就是五五开的那种。"
+ },
+ {
+  "seg": 277,
+  "start": 1687.742,
+  "end": 1693.185,
+  "speaker": "Unknown",
+  "en": "I think it's not very interesting to do research where you already know the answer and you're like 95% certain this thing's going to work.",
+  "zh": "我觉得做那种你已经知道答案的研究没什么意思,就是你 95% 确定这个东西会行得通。"
+ },
+ {
+  "seg": 278,
+  "start": 1693.225,
+  "end": 1695.647,
+  "speaker": "Unknown",
+  "en": "It's kind of like boring, honestly, to do those things.",
+  "zh": "老实说,做那些事情有点无聊。"
+ },
+ {
+  "seg": 279,
+  "start": 1696.107,
+  "end": 1703.433,
+  "speaker": "Unknown",
+  "en": "So, you know, I think research, good research is about asking questions where you're really not sure what the answer is in advance.",
+  "zh": "所以,你知道,我认为研究,好的研究,是关于提出那些你事先真的不确定答案是什么的问题。"
+ },
+ {
+  "seg": 280,
+  "start": 1703.473,
+  "end": 1712.04,
+  "speaker": "Unknown",
+  "en": "And in this case, I was about 50-50 and I thought that maybe there was a good chance that it might, but I wasn't confident and it was very exciting to see it.",
+  "zh": "而在这个案例中,我大约是五五开,我觉得也许有很不错的机会它可能会成功,但我并不自信,而看到它实现是非常激动人心的。"
+ },
+ {
+  "seg": 281,
+  "start": 1713.582,
+  "end": 1715.923,
+  "speaker": "Unknown",
+  "en": "I should say that you asked about human priors.",
+  "zh": "我应该说明一下,你问到了人类先验。"
+ },
+ {
+  "seg": 282,
+  "start": 1716.023,
+  "end": 1730.973,
+  "speaker": "Unknown",
+  "en": "So we are making a bet, and the bet we're making is that we can go further by giving up on the priors that everyone's relying on today, like the human data, like the whole internet of knowledge that everyone else is building their systems upon.",
+  "zh": "所以我们正在下一个赌注,我们下的赌注是,通过放弃如今每个人都依赖的先验,比如人类数据,比如其他所有人构建其系统所依托的整个互联网知识,我们可以走得更远。"
+ },
+ {
+  "seg": 283,
+  "start": 1731.473,
+  "end": 1734.074,
+  "speaker": "Unknown",
+  "en": "That's an important choice.",
+  "zh": "这是一个重要的选择。"
+ },
+ {
+  "seg": 284,
+  "start": 1734.315,
+  "end": 1737.156,
+  "speaker": "Unknown",
+  "en": "And so we should probably talk about why we're doing that.",
+  "zh": "所以我们大概应该谈谈我们为什么这么做。"
+ },
+ {
+  "seg": 285,
+  "start": 1737.597,
+  "end": 1738.737,
+  "speaker": "Unknown",
+  "en": "And I think the reason for me",
+  "zh": "我认为对我的理由来说,"
+ },
+ {
+  "seg": 286,
+  "start": 1739.798,
+  "end": 1742.481,
+  "speaker": "Unknown",
+  "en": "Of course, it's a short-term sacrifice.",
+  "zh": "当然,这是一种短期牺牲。"
+ },
+ {
+  "seg": 287,
+  "start": 1742.581,
+  "end": 1748.248,
+  "speaker": "Unknown",
+  "en": "We give up a certain amount of performance in order to access something which is potentially far greater.",
+  "zh": "我们放弃了一定的性能,以换取某种可能远为巨大的东西。"
+ },
+ {
+  "seg": 288,
+  "start": 1748.829,
+  "end": 1752.093,
+  "speaker": "Unknown",
+  "en": "And it comes back to this, what does it mean to build a super learner?",
+  "zh": "而这又回到了这个问题:构建一个超级学习者意味着什么?"
+ },
+ {
+  "seg": 289,
+  "start": 1752.113,
+  "end": 1758.881,
+  "speaker": "Unknown",
+  "en": "To me, building a super learner again is about building something that has this potential for full depth and breadth.",
+  "zh": "对我而言,再次强调,构建超级学习者就是构建某种具有全方位深度和广度潜力的东西。"
+ },
+ {
+  "seg": 290,
+  "start": 1759.301,
+  "end": 1769.023,
+  "speaker": "Unknown",
+  "en": "So in the depth direction, we need to get to something which is capable of discovering things which go so far beyond human knowledge that it goes just far beyond the prior.",
+  "zh": "在深度方向上,我们需要达到能够发现远远超越人类知识的东西的程度,以至于它远远超越先验。"
+ },
+ {
+  "seg": 291,
+  "start": 1769.764,
+  "end": 1779.166,
+  "speaker": "Unknown",
+  "en": "And the more we lean on human data, the less able we are to actually discover the algorithms that are really going to take us all the way to something that's going to, for example, discover a whole new field of knowledge.",
+  "zh": "而我们越是依赖人类数据,我们就越没有能力真正发现那些真正能把我们一路带向比如发现一整片全新知识领域的算法。"
+ },
+ {
+  "seg": 292,
+  "start": 1779.766,
+  "end": 1790.79,
+  "speaker": "Unknown",
+  "en": "And then in the breadth direction, you know, we need to have algorithms that can be placed down and discover things in environments for which language and human data we started with is just not a good fit.",
+  "zh": "然后在广度方向上,你知道,我们需要拥有这样的算法:可以被放置下去,在那些我们起步所用的语言和人类数据根本不适合的环境中探索发现。"
+ },
+ {
+  "seg": 293,
+  "start": 1790.87,
+  "end": 1795.552,
+  "speaker": "Unknown",
+  "en": "I mean, you know, there are just many, many areas, you know, different kinds of sensors, for example.",
+  "zh": "我是说,你知道,有很多很多领域,比如各种不同类型的传感器。"
+ },
+ {
+  "seg": 294,
+  "start": 1796.793,
+  "end": 1804.518,
+  "speaker": "Unknown",
+  "en": "Where human language data or human data in general is not a good fit for some of this description.",
+  "zh": "人类语言数据或一般的人类数据并不适合其中一些的描述。"
+ },
+ {
+  "seg": 295,
+  "start": 1804.538,
+  "end": 1815.426,
+  "speaker": "Unknown",
+  "en": "And so I think by letting go of the human data, we put ourselves in a position where we can actually discover something which can go far, far beyond it.",
+  "zh": "所以我认为,通过放下人类数据,我们把自己置于一个能够真正发现某种远远、远远超越它的东西的位置。"
+ },
+ {
+  "seg": 296,
+  "start": 1815.806,
+  "end": 1834.157,
+  "speaker": "Unknown",
+  "en": "And so if we come back to the AlphaGo example, what we found there was that the moment we let go of the human data, which we'd spent, by the way, we'd spent about two years like building AlphaGo, somewhat similar to the LLM approach where we kind of, you know, we built every level of this, you know, we kind of hand put together the next level.",
+  "zh": "所以如果我们回到 AlphaGo 的例子,我们在那里发现的是,当我们放下人类数据的那一刻——顺便说一句,我们花了大约两年时间构建 AlphaGo,有点类似于 LLM 的方法,你知道,我们构建了它的每一个层级,我们有点是手工拼装出下一层。"
+ },
+ {
+  "seg": 297,
+  "start": 1834.197,
+  "end": 1844.363,
+  "speaker": "Unknown",
+  "en": "We kind of put in a lot of human data and then we were kind of human in the loop, like improving it, where we would kind of take the previous generation and choose how we were going to improve it to give the next generation and",
+  "zh": "我们投入了大量人类数据,然后我们有点是人在环路中,持续改进它,我们会取上一代,然后选择我们要如何改进它以产出下一代,"
+ },
+ {
+  "seg": 298,
+  "start": 1844.823,
+  "end": 1846.705,
+  "speaker": "Unknown",
+  "en": "And so we were right in the loop of this process.",
+  "zh": "所以我们真的是置身于这个过程的环路之中。"
+ },
+ {
+  "seg": 299,
+  "start": 1847.185,
+  "end": 1849.568,
+  "speaker": "Unknown",
+  "en": "It took us two years to get to AlphaGo and beat LisaDol.",
+  "zh": "我们花了两年时间才做到 AlphaGo 并击败 LisaDol。"
+ },
+ {
+  "seg": 300,
+  "start": 1850.409,
+  "end": 1857.695,
+  "speaker": "Unknown",
+  "en": "When we got AlphaZero right, we gave up on the human data and finally focused on what would it be like to build an algorithm that could discover for itself.",
+  "zh": "当我们把 AlphaZero 做对的时候,我们放弃了人类数据,最终专注于构建一个能够自己进行发现的算法会是什么样子。"
+ },
+ {
+  "seg": 301,
+  "start": 1858.036,
+  "end": 1861.519,
+  "speaker": "Unknown",
+  "en": "So once we got it right, that algorithm, it took just a few hours.",
+  "zh": "所以一旦我们把它做对了,那个算法只花了几个小时。"
+ },
+ {
+  "seg": 302,
+  "start": 1862.08,
+  "end": 1867.285,
+  "speaker": "Unknown",
+  "en": "It took a few hours to outperform the two years of work which we'd done with human in the loop.",
+  "zh": "花了几个小时就超越了我们在有人参与的情况下做了两年的工作。"
+ },
+ {
+  "seg": 303,
+  "start": 1868.285,
+  "end": 1873.729,
+  "speaker": "Unknown",
+  "en": "So in the game of chess, it took four hours to beat the world champion, the best ever AI that had ever been created.",
+  "zh": "在国际象棋中,它花了四个小时击败了世界冠军、有史以来最强大的人工智能。"
+ },
+ {
+  "seg": 304,
+  "start": 1874.149,
+  "end": 1881.273,
+  "speaker": "Unknown",
+  "en": "In the game of Go, it took, you know, like, I think it was a couple of days or something, but it was incredible progress.",
+  "zh": "在围棋中,它花了,你知道,大概几天左右,但那是不可思议的进步。"
+ },
+ {
+  "seg": 305,
+  "start": 1881.493,
+  "end": 1892.3,
+  "speaker": "Unknown",
+  "en": "And so you have to let go of the human data to allow yourself to discover these things that can then shoot past the competition and discover the things that just keep learning and learning and learning forever.",
+  "zh": "所以你必须放下人类数据,才能让自己发现这些能够远远甩开竞争对手的东西,发现那些能够永远不断学习、学习、再学习的东西。"
+ },
+ {
+  "seg": 306,
+  "start": 1892.86,
+  "end": 1895.182,
+  "speaker": "Unknown",
+  "en": "So, you know, it has to be an active choice.",
+  "zh": "所以,你知道,这必须是一个主动的选择。"
+ },
+ {
+  "seg": 307,
+  "start": 1895.723,
+  "end": 1912.598,
+  "speaker": "Unknown",
+  "en": "And if you don't make that active choice, you know, what I see in a lot of the kind of LLM companies today is they're basically, you know, building semi-autonomous, human in the loop kind of learning algorithms with thousands of people in the loop of the learning progress, which is, you know, it works and a lot of respect for how far it gets.",
+  "zh": "而如果你不做出这个主动的选择,你知道,我在今天很多 LLM 公司身上看到的是,他们基本上在构建半自主的、有人参与的那种学习算法,有成千上万的人参与到学习过程之中,这,你知道,是有效的,我非常尊重它能走多远。"
+ },
+ {
+  "seg": 308,
+  "start": 1913.118,
+  "end": 1917.442,
+  "speaker": "Unknown",
+  "en": "But, you know, until we step back from that and really discover the process that's going to learn for itself.",
+  "zh": "但是,你知道,在我们从这种方式中退出来、真正发现那个能够自己学习的过程之前,"
+ },
+ {
+  "seg": 309,
+  "start": 1917.902,
+  "end": 1924.767,
+  "speaker": "Unknown",
+  "en": "I don't believe we'll get all the way to something which is truly a super learner and unleashes the potential that we've talked about so far.",
+  "zh": "我不相信我们能最终得到真正意义上的超级学习者,并释放我们目前所谈论的那种潜力。"
+ },
+ {
+  "seg": 310,
+  "start": 1925.487,
+  "end": 1926.408,
+  "speaker": "Unknown",
+  "en": "That's very profound.",
+  "zh": "这非常深刻。"
+ },
+ {
+  "seg": 311,
+  "start": 1927.188,
+  "end": 1939.677,
+  "speaker": "Unknown",
+  "en": "As far as I know it, there are humans that are ineffable and some of you are creating environments or crucibles and what does it look like to actually try and make sure that human priors aren't kind of leaking into what you're doing?",
+  "zh": "据我所知,存在无法言说的人类,你们中有些人在创建环境或熔炉,那么真正尝试确保人类先验不会泄漏到你们所做的事情中会是什么样子?"
+ },
+ {
+  "seg": 312,
+  "start": 1940.187,
+  "end": 1957.632,
+  "speaker": "Unknown",
+  "en": "Yeah, well, so when we design like environments and like rewards functions and so on, like obviously there's a human bias in there, but we don't want to, as Dave was also mentioning earlier, we don't want to like bias it towards building a machine based on like the von Neumann architecture, something like this, right?",
+  "zh": "是的,嗯,当我们设计环境、奖励函数等等的时候,显然其中存在人类偏见,但就像 Dave 之前也提到的,我们不想把机器的构建偏向于基于冯·诺依曼架构之类的东西,对吧?"
+ },
+ {
+  "seg": 313,
+  "start": 1957.972,
+  "end": 1971.463,
+  "speaker": "Unknown",
+  "en": "We want to like, but if you're stating like some problem where like a machine will be useful, it would be very interesting to see what type of machine it comes up with, like what computer like machine it comes up with.",
+  "zh": "我们想要的是,但如果你在陈述某个机器会有用的问题,那么看到它会提出什么类型的机器、什么样的计算机器,会非常有趣。"
+ },
+ {
+  "seg": 314,
+  "start": 1971.824,
+  "end": 1972.804,
+  "speaker": "Unknown",
+  "en": "So I totally agree with this.",
+  "zh": "所以我完全同意这一点。"
+ },
+ {
+  "seg": 315,
+  "start": 1972.945,
+  "end": 1976.888,
+  "speaker": "Unknown",
+  "en": "I would also say that we're not religious about this.",
+  "zh": "我还想说,我们在这件事上并不狂热。"
+ },
+ {
+  "seg": 316,
+  "start": 1976.928,
+  "end": 1979.83,
+  "speaker": "Unknown",
+  "en": "It's not like a religion that you can't have any human prior anywhere.",
+  "zh": "这不是那种任何地方都不能有任何人为先验的宗教。"
+ },
+ {
+  "seg": 317,
+  "start": 1980.751,
+  "end": 1982.452,
+  "speaker": "Unknown",
+  "en": "It's more like a pragmatic position.",
+  "zh": "这更像是一种务实的立场。"
+ },
+ {
+  "seg": 318,
+  "start": 1983.173,
+  "end": 1994.443,
+  "speaker": "Unknown",
+  "en": "That, you know, until we give up on relying on the trillion item data sets of human knowledge, that we're not going to make the progress that the field deserves to see.",
+  "zh": "那就是,你知道,在我们放弃依赖万亿条目的人类知识数据集之前,我们是不会取得这个领域应看到的进步的。"
+ },
+ {
+  "seg": 319,
+  "start": 1994.863,
+  "end": 1997.326,
+  "speaker": "Unknown",
+  "en": "So it's more like actually a practical position.",
+  "zh": "所以这实际上更像是一个实用的立场。"
+ },
+ {
+  "seg": 320,
+  "start": 1997.586,
+  "end": 2001.73,
+  "speaker": "Unknown",
+  "en": "And so in practice, of course, there's going to be a certain amount of priors, which, as Lessa says,",
+  "zh": "因此在实践中,当然会存在一定数量的先验,正如 Lessa 所说,"
+ },
+ {
+  "seg": 321,
+  "start": 2002.29,
+  "end": 2014.74,
+  "speaker": "Unknown",
+  "en": "There'll be priors which apply to many different worlds, as opposed to trying to put in these very strong priors that exactly encode how all the knowledge we know about this one particular problem or this one particular world.",
+  "zh": "会存在适用于许多不同世界的先验,而不是试图放入这些非常强的先验,去精确编码我们所知道的关于这一个特定问题或这一个特定世界的全部知识。"
+ },
+ {
+  "seg": 322,
+  "start": 2015.22,
+  "end": 2028.271,
+  "speaker": "Unknown",
+  "en": "So kind of weak environment agnostic priors seem perfectly reasonable, but kind of these super strong priors with trillion item data sets, we're trying to avoid that because we think pragmatically it's going to lead to better outcomes.",
+  "zh": "所以这种弱的环境无关的先验看起来完全合理,但这种带有万亿条目数据集的超强先验,我们正试图避免,因为我们认为务实地讲它会带来更好的结果。"
+ },
+ {
+  "seg": 323,
+  "start": 2028.291,
+  "end": 2029.192,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,完全正确。"
+ },
+ {
+  "seg": 324,
+  "start": 2029.772,
+  "end": 2036.717,
+  "speaker": "Unknown",
+  "en": "You mentioned that you like, philosophically, that you're drawn to research that's more on the knife's edge, 50-50.",
+  "zh": "你提到,在哲学上,你被那种更处于刀锋边缘、五五开的研究所吸引。"
+ },
+ {
+  "seg": 325,
+  "start": 2036.937,
+  "end": 2044.982,
+  "speaker": "Unknown",
+  "en": "I'm curious what your confidence levels are for, you know, ineffable, at the broadest level, like, will a super learner emerge?",
+  "zh": "我很好奇你的信心水平是,你知道,在最宽泛的层面上,关于无法言说的东西,超级学习者会出现吗?"
+ },
+ {
+  "seg": 326,
+  "start": 2045.703,
+  "end": 2053.108,
+  "speaker": "Unknown",
+  "en": "And then, I guess, at the more pragmatic level in terms of the things that you're trying to accomplish right now, are you 50-50 on these as well?",
+  "zh": "然后在更务实的层面,就你现在试图完成的事情而言,你对这些也是五五开吗?"
+ },
+ {
+  "seg": 327,
+  "start": 2053.88,
+  "end": 2059.985,
+  "speaker": "Unknown",
+  "en": "So first of all, I would say I strongly believe that the approach will be feasible at some point.",
+  "zh": "首先我要说,我强烈相信这种方法在某个时候会是可行的。"
+ },
+ {
+  "seg": 328,
+  "start": 2060.145,
+  "end": 2065.31,
+  "speaker": "Unknown",
+  "en": "In fact, it's the only thing for which we have an example in our brains.",
+  "zh": "事实上,它是我们唯一在大脑中有例证的东西。"
+ },
+ {
+  "seg": 329,
+  "start": 2065.73,
+  "end": 2075.898,
+  "speaker": "Unknown",
+  "en": "It's the only existence proof of something which has discovered an incredible intelligence that's very general and works in an embodied world and discovers how to do all kinds of different things.",
+  "zh": "它是唯一的存在性证明,证明某样东西发现了非常通用、能在具身世界中运作、并学会做各种不同事情的不可思议的智能。"
+ },
+ {
+  "seg": 330,
+  "start": 2076.919,
+  "end": 2081.243,
+  "speaker": "Unknown",
+  "en": "So we have this incredible example of the human brain that we can look at.",
+  "zh": "所以我们有人脑这个我们可以参照的不可思议的例子。"
+ },
+ {
+  "seg": 331,
+  "start": 2082.688,
+  "end": 2085.25,
+  "speaker": "Unknown",
+  "en": "So then, do I think we can achieve it?",
+  "zh": "那么,我认为我们能实现它吗?"
+ },
+ {
+  "seg": 332,
+  "start": 2085.47,
+  "end": 2091.415,
+  "speaker": "Unknown",
+  "en": "Well, I think like many great moments in science, it's about timing.",
+  "zh": "嗯,我认为就像科学中许多伟大的时刻一样,这关乎时机。"
+ },
+ {
+  "seg": 333,
+  "start": 2091.635,
+  "end": 2094.677,
+  "speaker": "Unknown",
+  "en": "So whether this succeeds or fails, I think is about timing.",
+  "zh": "所以它成功还是失败,我认为关乎时机。"
+ },
+ {
+  "seg": 334,
+  "start": 2096.038,
+  "end": 2098.68,
+  "speaker": "Unknown",
+  "en": "When you create a startup, you want to be at the right time.",
+  "zh": "当你创建一家初创公司时,你要在正确的时间。"
+ },
+ {
+  "seg": 335,
+  "start": 2098.72,
+  "end": 2101.883,
+  "speaker": "Unknown",
+  "en": "You don't want to be too early or too late.",
+  "zh": "你不想太早或太晚。"
+ },
+ {
+  "seg": 336,
+  "start": 2102.303,
+  "end": 2103.944,
+  "speaker": "Unknown",
+  "en": "You know, if you're too late, everyone's done it.",
+  "zh": "你知道,如果你太晚,所有人都已经做过了。"
+ },
+ {
+  "seg": 337,
+  "start": 2104.024,
+  "end": 2106.725,
+  "speaker": "Unknown",
+  "en": "You know, it's not interesting, like a thousand other people have already done it.",
+  "zh": "你知道,那就没意思了,就像其他一千个人已经做过了。"
+ },
+ {
+  "seg": 338,
+  "start": 2107.025,
+  "end": 2117.711,
+  "speaker": "Unknown",
+  "en": "And if you're too early, you know, you might be banging on the door, but not have the right kind of, you know, maybe the field isn't advanced enough or there isn't enough compute to be able to succeed yet.",
+  "zh": "而如果你太早,你知道,你可能一直在敲门,但没有正确的条件,你知道,也许这个领域还不够先进,或者还没有足够的算力能够成功。"
+ },
+ {
+  "seg": 339,
+  "start": 2118.211,
+  "end": 2119.492,
+  "speaker": "Unknown",
+  "en": "So to me, it's all about timing.",
+  "zh": "所以对我来说,一切都关乎时机。"
+ },
+ {
+  "seg": 340,
+  "start": 2120.012,
+  "end": 2128.959,
+  "speaker": "Unknown",
+  "en": "For example, with Computer Go, you know, I made a prediction, I think, 10 years before Computer Go was solved and I got it right to the year.",
+  "zh": "例如,对于计算机围棋,我做过一个预测,我想是在计算机围棋被解决之前 10 年,而且我预测到了精确的年份。"
+ },
+ {
+  "seg": 341,
+  "start": 2130.42,
+  "end": 2135.223,
+  "speaker": "Unknown",
+  "en": "Got it right for StarCraft, which I also, we had a bet and made a prediction.",
+  "zh": "对于星际争霸我也预测对了,我们也打了个赌并做了预测。"
+ },
+ {
+  "seg": 342,
+  "start": 2136.184,
+  "end": 2139.866,
+  "speaker": "Unknown",
+  "en": "Same for alpha proof when we were predicting when the IMO was going to fall.",
+  "zh": "对 alpha proof 也一样,当时我们在预测 IMO 什么时候会被攻克。"
+ },
+ {
+  "seg": 343,
+  "start": 2140.227,
+  "end": 2141.788,
+  "speaker": "Unknown",
+  "en": "So you're a super forecaster of sorts.",
+  "zh": "所以你算是某种超级预测者。"
+ },
+ {
+  "seg": 344,
+  "start": 2142.448,
+  "end": 2145.109,
+  "speaker": "Unknown",
+  "en": "So, so far, so far, I've done very well at this.",
+  "zh": "所以,到目前为止,到目前为止,我在这一点上做得非常好。"
+ },
+ {
+  "seg": 345,
+  "start": 2146.129,
+  "end": 2151.491,
+  "speaker": "Unknown",
+  "en": "And I do have a very strong sense that this is the right time for this to fall, that super learners are possible.",
+  "zh": "而且我确实有一种非常强烈的感觉,现在就是它被攻克的正确时机,超级学习者是可能的。"
+ },
+ {
+  "seg": 346,
+  "start": 2151.631,
+  "end": 2163.976,
+  "speaker": "Unknown",
+  "en": "Like there's been enormous progress in the level of technology, the ability to accelerate research using kind of LLM coding methods or auto research methods like we've produced in the past.",
+  "zh": "比如技术水平有了巨大的进步,利用 LLM 编码方法或我们过去产出的自动化研究方法来加速研究的能力。"
+ },
+ {
+  "seg": 347,
+  "start": 2165.638,
+  "end": 2170.605,
+  "speaker": "Unknown",
+  "en": "The ability and understanding of scaling laws and the sophistication of technology in the stack.",
+  "zh": "还有对缩放定律的理解能力和技术栈的成熟度。"
+ },
+ {
+  "seg": 348,
+  "start": 2170.825,
+  "end": 2174.63,
+  "speaker": "Unknown",
+  "en": "There's a lot of things that fall into place that I think make this the right time.",
+  "zh": "有很多事情水到渠成,我认为这些使现在成为正确的时机。"
+ },
+ {
+  "seg": 349,
+  "start": 2175.051,
+  "end": 2177.034,
+  "speaker": "Unknown",
+  "en": "So that's my bet that this is the right timing.",
+  "zh": "所以这就是我的赌注,现在正是正确的时机。"
+ },
+ {
+  "seg": 350,
+  "start": 2177.214,
+  "end": 2178.936,
+  "speaker": "Unknown",
+  "en": "But yeah, of course, this is research.",
+  "zh": "但是的，当然，这就是研究。"
+ },
+ {
+  "seg": 351,
+  "start": 2180.198,
+  "end": 2184.18,
+  "speaker": "Unknown",
+  "en": "Research is never guaranteed and that's what makes it exciting.",
+  "zh": "研究从来没有保证，而这也正是它令人兴奋的地方。"
+ },
+ {
+  "seg": 352,
+  "start": 2184.48,
+  "end": 2186.461,
+  "speaker": "Unknown",
+  "en": "If you get the timing right, you can be the first.",
+  "zh": "如果你把握对了时机，你可以成为第一个。"
+ },
+ {
+  "seg": 353,
+  "start": 2186.481,
+  "end": 2196.145,
+  "speaker": "Unknown",
+  "en": "You can be the ones to change the whole field of AI and that's what it means to take risks and do something exciting.",
+  "zh": "你可以成为改变整个 AI 领域的人，这就是承担风险、做令人兴奋的事情的意义所在。"
+ },
+ {
+  "seg": 354,
+  "start": 2196.665,
+  "end": 2201.967,
+  "speaker": "Unknown",
+  "en": "For an affable and also all the previous things that you correctly forecasted, is the biggest driver of timing compute?",
+  "zh": "对于一个亲和的人，以及你之前正确预测的所有事情，时机最大的驱动因素是算力吗？"
+ },
+ {
+  "seg": 355,
+  "start": 2202.751,
+  "end": 2203.912,
+  "speaker": "Unknown",
+  "en": "I think it's a very big driver.",
+  "zh": "我认为它是一个非常大的驱动因素。"
+ },
+ {
+  "seg": 356,
+  "start": 2204.252,
+  "end": 2205.713,
+  "speaker": "Unknown",
+  "en": "I think it's an enormous driver.",
+  "zh": "我认为它是一个巨大的驱动因素。"
+ },
+ {
+  "seg": 357,
+  "start": 2205.813,
+  "end": 2213.138,
+  "speaker": "Unknown",
+  "en": "I think, yeah, I mean, we're in a great position with the compute that we've managed to get hold of.",
+  "zh": "我认为，是的，我是说，凭借我们设法搞到的算力，我们处于一个很好的位置。"
+ },
+ {
+  "seg": 358,
+  "start": 2214.139,
+  "end": 2225.927,
+  "speaker": "Unknown",
+  "en": "And I think it gives an opportunity to do things which are orders of magnitude more sophisticated than approaches that have tried to kind of do self-discovered RL in the past.",
+  "zh": "而且我认为这提供了一个机会，去做那些比过去尝试过做自我发现的 RL 的方法复杂几个数量级的事情。"
+ },
+ {
+  "seg": 359,
+  "start": 2225.987,
+  "end": 2231.831,
+  "speaker": "Unknown",
+  "en": "So I think, yeah, if we compare to, I don't know, something like hide-and-seek from OpenAI, which wasn't",
+  "zh": "所以我认为，是的，如果我们对比一下，我不知道，比如 OpenAI 的捉迷藏那样的东西，那并不是"
+ },
+ {
+  "seg": 360,
+  "start": 2232.651,
+  "end": 2238.415,
+  "speaker": "Unknown",
+  "en": "Like an early example where agents discovered kind of some basic tool use.",
+  "zh": "比如一个早期的例子，智能体发现了某种基础的工具使用。"
+ },
+ {
+  "seg": 361,
+  "start": 2239.115,
+  "end": 2243.838,
+  "speaker": "Unknown",
+  "en": "I think, you know, we could probably run experiments that like use a hundred thousand times more compute.",
+  "zh": "我认为，你知道，我们可能可以运行那些使用十万倍算力的实验。"
+ },
+ {
+  "seg": 362,
+  "start": 2244.318,
+  "end": 2250.702,
+  "speaker": "Unknown",
+  "en": "And so it's kind of amazing that people haven't come back and really pushed on these types of approaches given the availability of compute.",
+  "zh": "所以有点令人惊讶的是，鉴于算力的可用性，人们还没有回头真正推进这些类型的方法。"
+ },
+ {
+  "seg": 363,
+  "start": 2251.123,
+  "end": 2254.405,
+  "speaker": "Unknown",
+  "en": "And of course, hide and seek, I don't want to pretend that that's the end goal.",
+  "zh": "当然，捉迷藏，我不想假装那就是最终目标。"
+ },
+ {
+  "seg": 364,
+  "start": 2254.425,
+  "end": 2259.788,
+  "speaker": "Unknown",
+  "en": "I think it's very basic, but I think it just, it's suggestive of what could be done.",
+  "zh": "我认为它非常基础，但我认为它只是，它暗示了可以做到什么。"
+ },
+ {
+  "seg": 365,
+  "start": 2259.888,
+  "end": 2261.409,
+  "speaker": "Unknown",
+  "en": "Like if we really, you know,",
+  "zh": "比如如果我们真的，你知道，"
+ },
+ {
+  "seg": 366,
+  "start": 2261.929,
+  "end": 2265.83,
+  "speaker": "Unknown",
+  "en": "So I think compute is a huge driver, but it's not the only one.",
+  "zh": "所以我认为算力是一个巨大的驱动因素，但它不是唯一的。"
+ },
+ {
+  "seg": 367,
+  "start": 2266.15,
+  "end": 2271.292,
+  "speaker": "Unknown",
+  "en": "I think we're in a very fortunate situation that we have been able to secure a very large cluster, right?",
+  "zh": "我认为我们处在一个非常幸运的境地，我们已经能够确保一个非常大的集群，对吧？"
+ },
+ {
+  "seg": 368,
+  "start": 2272.072,
+  "end": 2274.693,
+  "speaker": "Unknown",
+  "en": "A very beautiful cluster at that.",
+  "zh": "而且还是一个非常漂亮的集群。"
+ },
+ {
+  "seg": 369,
+  "start": 2275.113,
+  "end": 2279.735,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is really an opportunity for us, right?",
+  "zh": "是的，所以这对我们来说真的是一个机会，对吧？"
+ },
+ {
+  "seg": 370,
+  "start": 2279.755,
+  "end": 2283.656,
+  "speaker": "Unknown",
+  "en": "We really have the cards on our hands to test this out.",
+  "zh": "我们手里真的握着牌来测试这个。"
+ },
+ {
+  "seg": 371,
+  "start": 2283.956,
+  "end": 2285.997,
+  "speaker": "Unknown",
+  "en": "Very few other people are doing something similar.",
+  "zh": "很少有其他人在做类似的事情。"
+ },
+ {
+  "seg": 372,
+  "start": 2286.737,
+  "end": 2292.923,
+  "speaker": "Unknown",
+  "en": "So, yeah, we can really test this out in a way that we couldn't do at DeepMind, for instance.",
+  "zh": "所以，是的，我们真的可以以一种在 DeepMind 比如说做不到的方式来测试这个。"
+ },
+ {
+  "seg": 373,
+  "start": 2293.304,
+  "end": 2293.764,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 374,
+  "start": 2294.264,
+  "end": 2302.532,
+  "speaker": "Unknown",
+  "en": "It seems like one of the maybe determinants of how far this can go is how far you can push simulation.",
+  "zh": "看起来这个东西能走多远的一个可能的决定因素，是你能把模拟推进到多远。"
+ },
+ {
+  "seg": 375,
+  "start": 2302.993,
+  "end": 2307.117,
+  "speaker": "Unknown",
+  "en": "And ultimately, these crucibles are, you know, they're digital, right?",
+  "zh": "而归根结底，这些坩埚，你知道，它们是数字的，对吧？"
+ },
+ {
+  "seg": 376,
+  "start": 2307.637,
+  "end": 2309.839,
+  "speaker": "Unknown",
+  "en": "And I think simulation has probably come quite far.",
+  "zh": "而且我认为模拟可能已经发展得相当远了。"
+ },
+ {
+  "seg": 377,
+  "start": 2310.923,
+  "end": 2316.227,
+  "speaker": "Unknown",
+  "en": "in the last handful of years, but it's not perfect, right?",
+  "zh": "在过去的几年里，但它并不完美，对吧？"
+ },
+ {
+  "seg": 378,
+  "start": 2318.329,
+  "end": 2324.934,
+  "speaker": "Unknown",
+  "en": "We recently had your friend Rich Sutton on the show and I asked him about simulation and he said, he was very dismissive of simulation.",
+  "zh": "我们最近请了你的朋友 Rich Sutton 上节目，我问他关于模拟的事，他说，他对模拟非常不屑。"
+ },
+ {
+  "seg": 379,
+  "start": 2326.035,
+  "end": 2327.536,
+  "speaker": "Unknown",
+  "en": "I'm curious how you guys think about this.",
+  "zh": "我很好奇你们是怎么看这个的。"
+ },
+ {
+  "seg": 380,
+  "start": 2327.617,
+  "end": 2329.398,
+  "speaker": "Unknown",
+  "en": "And Lysa, you've been on both sides of this.",
+  "zh": "而 Lysa，你在这个问题上两边都待过。"
+ },
+ {
+  "seg": 381,
+  "start": 2329.418,
+  "end": 2338.967,
+  "speaker": "Unknown",
+  "en": "I think you obviously did a lot in the digital world, but you also built MetNet, which touches real-world atmospheric data.",
+  "zh": "我知道你显然在数字世界做了很多，但你也构建了 MetNet，它接触真实世界的大气数据。"
+ },
+ {
+  "seg": 382,
+  "start": 2339.547,
+  "end": 2347.895,
+  "speaker": "Unknown",
+  "en": "How do you all think about where is the ceiling on simulation and when is the right time to bring an applicable into the real world?",
+  "zh": "你们都觉得模拟的天花板在哪里，什么时候是把一个应用带进真实世界的合适时机？"
+ },
+ {
+  "seg": 383,
+  "start": 2348.695,
+  "end": 2350.856,
+  "speaker": "Unknown",
+  "en": "So I guess MedNet was actually like an example.",
+  "zh": "那么我想 MedNet 其实就像一个例子。"
+ },
+ {
+  "seg": 384,
+  "start": 2350.916,
+  "end": 2363.802,
+  "speaker": "Unknown",
+  "en": "So there's like a weather forecasting model we did in the Google Brain Amsterdam office, together with Google Research, where we were doing like a machine learning model to predict short term weather forecasts.",
+  "zh": "所以那是我们在 Google Brain 阿姆斯特丹办公室和 Google Research 一起做的一个天气预报模型，当时我们在做一个机器学习模型来预测短期天气预报。"
+ },
+ {
+  "seg": 385,
+  "start": 2364.582,
+  "end": 2369.364,
+  "speaker": "Unknown",
+  "en": "And those are way better than the physics-based simulations, right?",
+  "zh": "而且那些比基于物理的模拟要好得多，对吧？"
+ },
+ {
+  "seg": 386,
+  "start": 2369.384,
+  "end": 2372.786,
+  "speaker": "Unknown",
+  "en": "So the physics simulations were like accumulating errors over time.",
+  "zh": "所以物理模拟就像随时间累积误差。"
+ },
+ {
+  "seg": 387,
+  "start": 2373.206,
+  "end": 2376.948,
+  "speaker": "Unknown",
+  "en": "So there's like a point to that, that the physics simulation is not perfect.",
+  "zh": "所以这有点说明问题，物理模拟并不完美。"
+ },
+ {
+  "seg": 388,
+  "start": 2377.828,
+  "end": 2389.734,
+  "speaker": "Unknown",
+  "en": "I do think there's a lot of relatively simple environments that we can build where we can see this emerging behavior of, let's say, technology and so on, where we don't need exact physics.",
+  "zh": "我确实认为有很多相对简单的环境我们可以构建，在其中我们可以看到这种涌现行为，比如说技术等等，而我们不需要精确的物理。"
+ },
+ {
+  "seg": 389,
+  "start": 2390.714,
+  "end": 2395.877,
+  "speaker": "Unknown",
+  "en": "I actually do think it's interesting to see how much we can build these days.",
+  "zh": "我其实认为看看如今我们能构建多少东西是很有意思的。"
+ },
+ {
+  "seg": 390,
+  "start": 2395.897,
+  "end": 2399.819,
+  "speaker": "Unknown",
+  "en": "We've got a very small team in terms of these simulations and so on.",
+  "zh": "在这些模拟等方面，我们有一个非常小的团队。"
+ },
+ {
+  "seg": 391,
+  "start": 2399.859,
+  "end": 2401.88,
+  "speaker": "Unknown",
+  "en": "So there's definitely a ceiling.",
+  "zh": "所以肯定有一个天花板。"
+ },
+ {
+  "seg": 392,
+  "start": 2402.56,
+  "end": 2404.361,
+  "speaker": "Unknown",
+  "en": "Is there a ceiling, actually?",
+  "zh": "真的有天花板吗？"
+ },
+ {
+  "seg": 393,
+  "start": 2404.401,
+  "end": 2405.322,
+  "speaker": "Unknown",
+  "en": "I'm curious about this.",
+  "zh": "我对此很好奇。"
+ },
+ {
+  "seg": 394,
+  "start": 2406.564,
+  "end": 2408.747,
+  "speaker": "Unknown",
+  "en": "Well, I guess quantum physics and whatnot, right?",
+  "zh": "嗯，我想是量子物理什么的，对吧？"
+ },
+ {
+  "seg": 395,
+  "start": 2409.028,
+  "end": 2415.677,
+  "speaker": "Unknown",
+  "en": "But so there's like a ceiling somewhere, but we can do like very interesting things without real physics, I would say.",
+  "zh": "所以某处有一个天花板，但我想说，我们不需要真实物理就能做非常有趣的事情。"
+ },
+ {
+  "seg": 396,
+  "start": 2416.238,
+  "end": 2421.386,
+  "speaker": "Unknown",
+  "en": "So I think the right question to ask is, can a superintelligence be built in simulation?",
+  "zh": "所以我认为该问的正确问题是，超级智能能不能在模拟中被构建出来？"
+ },
+ {
+  "seg": 397,
+  "start": 2422.602,
+  "end": 2434.171,
+  "speaker": "Unknown",
+  "en": "So if it is possible for it to be built in simulation, I believe it will happen 10 times or 100 times faster just because simulation can be infinitely paralyzed.",
+  "zh": "所以如果在模拟中构建它是可能的，我相信它会发生得快 10 倍或 100 倍，仅仅因为模拟可以被无限并行化。"
+ },
+ {
+  "seg": 398,
+  "start": 2434.371,
+  "end": 2438.334,
+  "speaker": "Unknown",
+  "en": "You get perfect reproducibility, has a lot of really nice properties.",
+  "zh": "你能获得完美的可复现性，它有很多非常好的性质。"
+ },
+ {
+  "seg": 399,
+  "start": 2439.004,
+  "end": 2442.146,
+  "speaker": "Unknown",
+  "en": "It's also the safest place for a superintelligence to be built.",
+  "zh": "它也是构建超级智能最安全的地方。"
+ },
+ {
+  "seg": 400,
+  "start": 2442.746,
+  "end": 2444.588,
+  "speaker": "Unknown",
+  "en": "So it has these really nice properties.",
+  "zh": "所以它有这些非常好的性质。"
+ },
+ {
+  "seg": 401,
+  "start": 2445.128,
+  "end": 2447.069,
+  "speaker": "Unknown",
+  "en": "Then we need to ask, is it possible?",
+  "zh": "然后我们需要问,这有可能吗?"
+ },
+ {
+  "seg": 402,
+  "start": 2448.73,
+  "end": 2455.695,
+  "speaker": "Unknown",
+  "en": "And I think for the reasons we discussed earlier, there are very clear approaches that we can add into the simulation.",
+  "zh": "而我认为,基于我们前面讨论过的原因,有非常清晰的路径可以被加入到模拟当中,"
+ },
+ {
+  "seg": 403,
+  "start": 2457.016,
+  "end": 2463.205,
+  "speaker": "Unknown",
+  "en": "that allow it to be sufficiently complex to represent arbitrarily interesting things.",
+  "zh": "让它足够复杂,能够表示任意有趣的东西。"
+ },
+ {
+  "seg": 404,
+  "start": 2463.726,
+  "end": 2467.091,
+  "speaker": "Unknown",
+  "en": "So for example, like let's say you wanted to build a computer in simulation.",
+  "zh": "举个例子,比如说你想在模拟中造一台计算机。"
+ },
+ {
+  "seg": 405,
+  "start": 2467.752,
+  "end": 2470.977,
+  "speaker": "Unknown",
+  "en": "Well, all you require is that your simulation is Turing complete.",
+  "zh": "其实你唯一需要的就是你的模拟是图灵完备的。"
+ },
+ {
+  "seg": 406,
+  "start": 2471.577,
+  "end": 2480.927,
+  "speaker": "Unknown",
+  "en": "If you have a Turing-complete simulation, suddenly, everything that we mean by computation, like everything, like provably, everything we mean by computation can be expressed completely inside simulation.",
+  "zh": "不好意思,更正:[[411]] 如果你 got 多个智能体,它们有某种能力在彼此之间建立一个通信信道,突然之间,我们所说的语言的一切都可以在模拟中表达。"
+ },
+ {
+  "seg": 407,
+  "start": 2481.388,
+  "end": 2487.815,
+  "speaker": "Unknown",
+  "en": "And indeed, humans have built incredibly complex computers or related things inside simulated worlds.",
+  "zh": "而事实上,人类已经在模拟世界中建造过极其复杂的计算机或相关的东西。"
+ },
+ {
+  "seg": 408,
+  "start": 2488.475,
+  "end": 2499.162,
+  "speaker": "Unknown",
+  "en": "The same is true for various other ideas, like, you know, if you want to build an economy, like, you know, money can be built out of coins or out of paper or out of bits.",
+  "zh": "各种其他想法也是如此,比如,你知道,如果你想建立一个经济体,你知道,货币可以用硬币、用纸或用比特来构建。"
+ },
+ {
+  "seg": 409,
+  "start": 2499.502,
+  "end": 2508.128,
+  "speaker": "Unknown",
+  "en": "And as long as you have one of those, you know, some representation of money, everything that we mean by economics can be expressed inside a simulation.",
+  "zh": "只要有其中之一,你知道,某种货币的表示,我们所说的经济学的一切都可以在模拟中表达。"
+ },
+ {
+  "seg": 410,
+  "start": 2508.628,
+  "end": 2509.669,
+  "speaker": "Unknown",
+  "en": "The same is true for language.",
+  "zh": "语言也是如此。"
+ },
+ {
+  "seg": 411,
+  "start": 2509.709,
+  "end": 2518.935,
+  "speaker": "Unknown",
+  "en": "If you've got multiple agents and they've got some ability to express a channel of communication between the agents, suddenly everything that we mean by language is expressible in simulation.",
+  "zh": "如果你有多个智能体，并且它们有某种能力在智能体之间表达出一条沟通渠道，那么突然之间，我们所说的语言的一切就都可以在模拟中被表达了。"
+ },
+ {
+  "seg": 412,
+  "start": 2519.896,
+  "end": 2522.558,
+  "speaker": "Unknown",
+  "en": "Mathematics we know is expressible in any universe.",
+  "zh": "我们知道数学在任何宇宙中都是可表达的。"
+ },
+ {
+  "seg": 413,
+  "start": 2523.018,
+  "end": 2530.323,
+  "speaker": "Unknown",
+  "en": "Science in some sense is the study of our world, so will a simulation be sufficient to study what we mean by science?",
+  "zh": "科学在某种意义上是对我们这个世界的研究,那么模拟是否足以研究我们所说的科学?"
+ },
+ {
+  "seg": 414,
+  "start": 2530.983,
+  "end": 2538.589,
+  "speaker": "Unknown",
+  "en": "Well, there are some aspects of science which are expressible in many things like energy or entropy or evolution.",
+  "zh": "其实,科学的某些方面在许多东西中都是可表达的,比如能量、熵或演化。"
+ },
+ {
+  "seg": 415,
+  "start": 2539.349,
+  "end": 2551.938,
+  "speaker": "Unknown",
+  "en": "But also it's true that the agent will discover its own science, like whatever the simulator is, if it's got this emergent complexity to its environment, the agent will discover its own science about whatever that world is.",
+  "zh": "但同样真实的是,智能体会发现它自己的科学,不管模拟器是什么,只要它的环境具有这种涌现的复杂性,智能体就会对那个世界发现它自己的科学。"
+ },
+ {
+  "seg": 416,
+  "start": 2552.639,
+  "end": 2556.702,
+  "speaker": "Unknown",
+  "en": "It's very provably possible to build",
+  "zh": "从可以证明的角度看,建造这样的环境是完全可能的,"
+ },
+ {
+  "seg": 417,
+  "start": 2557.442,
+  "end": 2563.247,
+  "speaker": "Unknown",
+  "en": "environments in which it's possible to express and represent enormous complexity of all of these things.",
+  "zh": "在其中可以表达和表示所有这些东西的巨大复杂性。"
+ },
+ {
+  "seg": 418,
+  "start": 2563.567,
+  "end": 2564.348,
+  "speaker": "Unknown",
+  "en": "Well, I agree with LASO.",
+  "zh": "嗯,我同意 LASO 的看法。"
+ },
+ {
+  "seg": 419,
+  "start": 2564.368,
+  "end": 2566.63,
+  "speaker": "Unknown",
+  "en": "There might be some things which aren't well expressed.",
+  "zh": "可能有一些东西不能被很好地表达。"
+ },
+ {
+  "seg": 420,
+  "start": 2567.27,
+  "end": 2571.053,
+  "speaker": "Unknown",
+  "en": "There will be things which can only be expressed in the real world, like quantum computation is a good example.",
+  "zh": "会有些东西只能在现实世界中表达,比如量子计算就是一个很好的例子。"
+ },
+ {
+  "seg": 421,
+  "start": 2571.694,
+  "end": 2578.88,
+  "speaker": "Unknown",
+  "en": "The real point is that if it's possible to get all the way to a superintelligence in simulation, it will happen faster and it will happen safer.",
+  "zh": "关键在于,如果有可能在模拟中一路走到超级智能,那它会更快发生,也会更安全地发生。"
+ },
+ {
+  "seg": 422,
+  "start": 2579.34,
+  "end": 2582.703,
+  "speaker": "Unknown",
+  "en": "And so for those reasons, it's something that we choose to put a lot of energy into.",
+  "zh": "基于这些原因,这是我们选择投入大量精力去做的事情。"
+ },
+ {
+  "seg": 423,
+  "start": 2583.704,
+  "end": 2601.407,
+  "speaker": "Unknown",
+  "en": "I actually agree with Rich Sutton that I think his point was something along the lines that you shouldn't expect that the things that you learn in simulation to transfer sim to real into the real world, because the real world is just vastly more complex and in very interesting ways that are hard to simulate.",
+  "zh": "我其实同意 Rich Sutton 的看法,我想他的观点大致是,你不应该指望在模拟中学到的东西能从模拟迁移到真实世界,因为真实世界要复杂得多,而且是以非常有趣的、难以模拟的方式复杂。"
+ },
+ {
+  "seg": 424,
+  "start": 2601.967,
+  "end": 2606.51,
+  "speaker": "Unknown",
+  "en": "But I think what we can do is we can do all of the science to discover the super learner.",
+  "zh": "但我认为我们能做的是,我们可以做所有的科学工作来发现超级学习者。"
+ },
+ {
+  "seg": 425,
+  "start": 2607.55,
+  "end": 2616.836,
+  "speaker": "Unknown",
+  "en": "And once we have that super learner, we will have the answers and we'll know how to build something which that same algorithm should be applicable to the real world.",
+  "zh": "而一旦我们有了那个超级学习者,我们就会有答案,我们就会知道如何构建某个东西,让同样的算法应该可以适用于真实世界。"
+ },
+ {
+  "seg": 426,
+  "start": 2616.876,
+  "end": 2624.16,
+  "speaker": "Unknown",
+  "en": "And we can also make our simulations more and more high fidelity towards the real world and check that they still work before putting them into the world.",
+  "zh": "我们还可以让我们的模拟对真实世界的保真度越来越高,并在把它们放入世界之前验证它们仍然有效。"
+ },
+ {
+  "seg": 427,
+  "start": 2624.68,
+  "end": 2625.16,
+  "speaker": "Unknown",
+  "en": "Great answer.",
+  "zh": "很好的回答。"
+ },
+ {
+  "seg": 428,
+  "start": 2625.381,
+  "end": 2625.721,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 429,
+  "start": 2626.321,
+  "end": 2628.302,
+  "speaker": "Unknown",
+  "en": "I'd love to talk about alignment.",
+  "zh": "我想聊聊对齐。"
+ },
+ {
+  "seg": 430,
+  "start": 2628.322,
+  "end": 2639.93,
+  "speaker": "Unknown",
+  "en": "I know this is a politically charged topic right now, and so I'm zero interested in having the politics or policy discussion around alignment, but I am very interested in the scientific discussion around it.",
+  "zh": "我知道这是一个现在政治上很敏感的话题,所以我完全不想讨论围绕对齐的政治或政策,但我对围绕它的科学讨论非常感兴趣。"
+ },
+ {
+  "seg": 431,
+  "start": 2640.09,
+  "end": 2641.091,
+  "speaker": "Unknown",
+  "en": "It seems like so much of...",
+  "zh": "看起来,太多……"
+ },
+ {
+  "seg": 432,
+  "start": 2641.791,
+  "end": 2649.638,
+  "speaker": "Unknown",
+  "en": "The misalignment that's emerged has arisen from scaling reinforcement learning to the extent that it's been scaled.",
+  "zh": "已经出现的不对齐,来自于把强化学习扩展到它已被扩展到的程度。"
+ },
+ {
+  "seg": 433,
+  "start": 2650.178,
+  "end": 2658.665,
+  "speaker": "Unknown",
+  "en": "Do you think that the super learner you build will naturally be aligned to human interests and have human values?",
+  "zh": "你认为你们构建的超级学习者会自然地与人类利益对齐并拥有人类价值观吗?"
+ },
+ {
+  "seg": 434,
+  "start": 2658.826,
+  "end": 2663.89,
+  "speaker": "Unknown",
+  "en": "Is it important for it to have alignment with human values?",
+  "zh": "它拥有与人类价值观的对齐重要吗?"
+ },
+ {
+  "seg": 435,
+  "start": 2664.673,
+  "end": 2666.595,
+  "speaker": "Unknown",
+  "en": "So this is a big topic.",
+  "zh": "这是个大话题。"
+ },
+ {
+  "seg": 436,
+  "start": 2666.875,
+  "end": 2669.558,
+  "speaker": "Unknown",
+  "en": "So let me start by saying a few things.",
+  "zh": "让我先说几件事。"
+ },
+ {
+  "seg": 437,
+  "start": 2670.158,
+  "end": 2686.154,
+  "speaker": "Unknown",
+  "en": "So where we are today with alignment, we are essentially relying very heavily on alignment approaches that are based on the language that the agents use and priors that are based on human data.",
+  "zh": "我们今天在对齐上的处境,我们基本上非常严重地依赖于基于智能体所用语言的对齐方法,以及基于人类数据的先验。"
+ },
+ {
+  "seg": 438,
+  "start": 2687.495,
+  "end": 2695.179,
+  "speaker": "Unknown",
+  "en": "That has been reasonably, been very effective up to this point, but we're starting to see that that approach is reaching its limits.",
+  "zh": "到目前为止,这已经相当——非常有效了,但我们开始看到这种方法正在达到它的极限。"
+ },
+ {
+  "seg": 439,
+  "start": 2695.66,
+  "end": 2710.609,
+  "speaker": "Unknown",
+  "en": "And by itself, I think it's gonna be difficult to see a path where as agents become inevitably more and more powerful, we can already see this happening as agents are trained more and more, they are kind of going to start to overwhelm their priors.",
+  "zh": "而且就其本身而言,我认为很难看到一条路径:随着智能体不可避免地变得越来越强大——当智能体被训练得越来越多时,我们已经能看到这种情况在发生——它们会开始压过它们的先验。"
+ },
+ {
+  "seg": 440,
+  "start": 2710.629,
+  "end": 2714.171,
+  "speaker": "Unknown",
+  "en": "They're gonna start to learn to say one thing and act in a different way.",
+  "zh": "它们会开始学会说一套、做的却是另一套。"
+ },
+ {
+  "seg": 441,
+  "start": 2715.071,
+  "end": 2722.219,
+  "speaker": "Unknown",
+  "en": "And it's going to be increasingly difficult to align to the things that humans want them to do.",
+  "zh": "而要让它们对齐到人类想让它们做的事情,会变得越来越困难。"
+ },
+ {
+  "seg": 442,
+  "start": 2722.839,
+  "end": 2727.484,
+  "speaker": "Unknown",
+  "en": "So my belief is that we need something more and that this by itself is not sufficient.",
+  "zh": "所以我的信念是,我们需要更多的东西,仅靠这个是不够的。"
+ },
+ {
+  "seg": 443,
+  "start": 2727.985,
+  "end": 2731.048,
+  "speaker": "Unknown",
+  "en": "The most important single thing that we can do as a company",
+  "zh": "作为一家公司,我们能做的最重要的一件事"
+ },
+ {
+  "seg": 444,
+  "start": 2732.249,
+  "end": 2737.837,
+  "speaker": "Unknown",
+  "en": "is to actually understand the science of superintelligence.",
+  "zh": "就是真正理解超级智能的科学。"
+ },
+ {
+  "seg": 445,
+  "start": 2738.277,
+  "end": 2749.212,
+  "speaker": "Unknown",
+  "en": "So that this means to say that if we actually can in simulation really build a superintelligent agent and start to see these super learners like go all the way, we can start to actually understand",
+  "zh": "这意味着,如果我们真的能在模拟中建造一个超级智能的智能体,并开始看到这些超级学习者一路走下去,我们就能开始真正理解"
+ },
+ {
+  "seg": 446,
+  "start": 2749.592,
+  "end": 2753.796,
+  "speaker": "Unknown",
+  "en": "Like what it takes for a superintelligence to actually interact peacefully.",
+  "zh": "超级智能要如何才能和平地互动到底需要什么。"
+ },
+ {
+  "seg": 447,
+  "start": 2754.877,
+  "end": 2757.019,
+  "speaker": "Unknown",
+  "en": "So we can answer really important questions.",
+  "zh": "这样我们就能回答非常重要的的问题。"
+ },
+ {
+  "seg": 448,
+  "start": 2757.179,
+  "end": 2759.061,
+  "speaker": "Unknown",
+  "en": "Like these are fundamentally important questions.",
+  "zh": "这些是根本性的重要问题。"
+ },
+ {
+  "seg": 449,
+  "start": 2759.141,
+  "end": 2761.183,
+  "speaker": "Unknown",
+  "en": "Like, you know, under what conditions?",
+  "zh": "比如,你知道,在什么条件下?"
+ },
+ {
+  "seg": 450,
+  "start": 2761.263,
+  "end": 2762.904,
+  "speaker": "Unknown",
+  "en": "Like, what are the conditions?",
+  "zh": "比如，条件是什么？"
+ },
+ {
+  "seg": 451,
+  "start": 2763.244,
+  "end": 2765.226,
+  "speaker": "Unknown",
+  "en": "What are the structures?",
+  "zh": "结构是什么？"
+ },
+ {
+  "seg": 452,
+  "start": 2765.266,
+  "end": 2771.352,
+  "speaker": "Unknown",
+  "en": "What are the kind of leverages that we need to put into place to make sure that like a society of superintelligences",
+  "zh": "我们需要建立什么样的杠杆，来确保一个超级智能的社会"
+ },
+ {
+  "seg": 453,
+  "start": 2772.072,
+  "end": 2779.433,
+  "speaker": "Unknown",
+  "en": "Actually interacts peacefully and in particular interacts peacefully with other lesser intelligences that are also going to be in their world.",
+  "zh": "真正地和平互动，尤其是与那些也将存在于它们世界中的、较弱的智能和平互动。"
+ },
+ {
+  "seg": 454,
+  "start": 2779.974,
+  "end": 2797.077,
+  "speaker": "Unknown",
+  "en": "And I think if we get this right, we actually can get to some answers, like to a real science that will help to understand what the right things to do are in the real world, because we're hurtling towards that real world outcome where there are going to be a whole load of different interacting super intelligences.",
+  "zh": "而且我认为，如果我们把这件事做对，我们实际上可以得出一些答案，也就是一门真正的科学，帮助理解在现实世界中什么是正确的做法，因为我们正全速冲向那个现实世界的结果——届时将会有大量不同的、相互作用的超级智能。"
+ },
+ {
+  "seg": 455,
+  "start": 2798.357,
+  "end": 2800.959,
+  "speaker": "Unknown",
+  "en": "And we don't quite know how that's going to play out.",
+  "zh": "而我们不太知道那将如何发展。"
+ },
+ {
+  "seg": 456,
+  "start": 2801.239,
+  "end": 2808.024,
+  "speaker": "Unknown",
+  "en": "And I think the faster that we can actually get to these answers in simulation and publicly share that, the better situation we'll be in.",
+  "zh": "我认为，我们越快在模拟中得到这些答案并公开分享，我们的处境就会越好。"
+ },
+ {
+  "seg": 457,
+  "start": 2809.025,
+  "end": 2810.746,
+  "speaker": "Unknown",
+  "en": "So that's my strong belief.",
+  "zh": "所以这是我坚定的信念。"
+ },
+ {
+  "seg": 458,
+  "start": 2810.906,
+  "end": 2816.911,
+  "speaker": "Unknown",
+  "en": "I also believe that we can use this to kind of gate the actual decision making of what we do in the real world.",
+  "zh": "我还相信，我们可以用它来为我们在现实世界中所做之事的实际决策把关。"
+ },
+ {
+  "seg": 459,
+  "start": 2817.431,
+  "end": 2838.24,
+  "speaker": "Unknown",
+  "en": "So, you know, one of our commitments is that we will gate anything we do in the real world on having sufficient evidence from this kind of science of superintelligence that we are really confident that things are going to go well and we'll only push forward to the next level of what we do in the real world once we are absolutely confident that that can lead to a good outcome.",
+  "zh": "所以，你知道，我们的承诺之一是，我们在现实世界中所做的任何事情，都要以这门超级智能科学提供的充分证据为前提，确保我们真的有信心事情会进展顺利，并且只有在我们绝对有信心那能带来好结果时，才会推进我们在现实世界中行动的下一个层级。"
+ },
+ {
+  "seg": 460,
+  "start": 2838.96,
+  "end": 2841.582,
+  "speaker": "Unknown",
+  "en": "So I think these are two things that I believe we can do.",
+  "zh": "所以我认为这是我相信我们可以做到的两件事。"
+ },
+ {
+  "seg": 461,
+  "start": 2841.882,
+  "end": 2845.625,
+  "speaker": "Unknown",
+  "en": "We're in this world where a lot of things are happening very quickly.",
+  "zh": "我们身处一个很多事情都在快速发生的世界。"
+ },
+ {
+  "seg": 462,
+  "start": 2845.965,
+  "end": 2849.248,
+  "speaker": "Unknown",
+  "en": "We're hurtling towards an outcome with lots of interacting super intelligences.",
+  "zh": "我们正全速冲向一个充满相互作用的超级智能的结果。"
+ },
+ {
+  "seg": 463,
+  "start": 2849.808,
+  "end": 2853.931,
+  "speaker": "Unknown",
+  "en": "I personally believe that this will lead to a good outcome for humanity, but it's happening very quickly.",
+  "zh": "我个人相信这将为人类带来好的结果，但它发生得非常快。"
+ },
+ {
+  "seg": 464,
+  "start": 2854.351,
+  "end": 2865.399,
+  "speaker": "Unknown",
+  "en": "And I think that if we are able to actually understand this and run ahead in simulation, we'll be in a much better place to actually do the things that ensure that this goes really well.",
+  "zh": "而且我认为，如果我们能够真正理解这一点，并在模拟中先行一步，我们将处于一个好得多的位置，去真正做那些确保这一切进展顺利的事情。"
+ },
+ {
+  "seg": 465,
+  "start": 2865.902,
+  "end": 2866.402,
+  "speaker": "Unknown",
+  "en": "Fascinating.",
+  "zh": "很有意思。"
+ },
+ {
+  "seg": 466,
+  "start": 2867.143,
+  "end": 2875.851,
+  "speaker": "Unknown",
+  "en": "And it seems like one of the primary things that current safety researchers rely on is being able to monitor the agent's chains of thought in English.",
+  "zh": "而且看起来，当前安全研究人员所依赖的主要手段之一，就是能够用英文监控智能体的思维链。"
+ },
+ {
+  "seg": 467,
+  "start": 2876.111,
+  "end": 2880.475,
+  "speaker": "Unknown",
+  "en": "And so when they start speaking in a release, that scares people because we can no longer understand and monitor it as well.",
+  "zh": "所以当它们开始用一种释出语言说话时，这让人害怕，因为我们再也无法同样好地理解和监控它了。"
+ },
+ {
+  "seg": 468,
+  "start": 2881.276,
+  "end": 2885.96,
+  "speaker": "Unknown",
+  "en": "In your case, you have your agents kind of going straight to rediscovering language.",
+  "zh": "在你的案例中，你的智能体直接走向了重新发现语言。"
+ },
+ {
+  "seg": 469,
+  "start": 2886.44,
+  "end": 2898.935,
+  "speaker": "Unknown",
+  "en": "What do you think that means for for monitoring and is or is the point that, you know, if you get the reward right and if you get the environments right, then you shouldn't need to monitor?",
+  "zh": "你认为这对监控意味着什么？或者说，重点是不是，你知道，如果你把奖励设对了、把环境设对了，那么你就不需要监控了？"
+ },
+ {
+  "seg": 470,
+  "start": 2899.876,
+  "end": 2903.96,
+  "speaker": "Unknown",
+  "en": "Yeah, I think I think monitoring is something which is still really helpful.",
+  "zh": "是的，我认为监控仍然是非常有帮助的东西。"
+ },
+ {
+  "seg": 471,
+  "start": 2905.282,
+  "end": 2905.983,
+  "speaker": "Unknown",
+  "en": "I think that",
+  "zh": "我认为"
+ },
+ {
+  "seg": 472,
+  "start": 2908.585,
+  "end": 2919.249,
+  "speaker": "Unknown",
+  "en": "Like it or not, I believe that the approach of monitoring the human language that these systems use is going to be increasingly difficult as agents get more powerful.",
+  "zh": "无论喜欢与否，我相信随着智能体变得更强大，监控这些系统所使用的人类语言这一方法会变得越来越困难。"
+ },
+ {
+  "seg": 473,
+  "start": 2919.449,
+  "end": 2935.315,
+  "speaker": "Unknown",
+  "en": "And we're already seeing that, that the monitoring agents are, maybe they're producing like a tome of a million words of reasoning, or maybe they're actually actively using subterfuge to kind of think in one way and then act in another.",
+  "zh": "而且我们已经看到了这一点，监控这些智能体，也许它们在产出像一部上百万字的推理巨著，或者它们实际上在主动使用诡计，以一种方式思考，然后以另一种方式行动。"
+ },
+ {
+  "seg": 474,
+  "start": 2936.055,
+  "end": 2938.917,
+  "speaker": "Unknown",
+  "en": "It's increasingly difficult to rely 100% on that.",
+  "zh": "要百分之百依赖这一点越来越困难了。"
+ },
+ {
+  "seg": 475,
+  "start": 2939.657,
+  "end": 2942.679,
+  "speaker": "Unknown",
+  "en": "So I do think we need other elements in our armory anyway.",
+  "zh": "所以我确实认为，我们的武器库里无论如何都需要其他要素。"
+ },
+ {
+  "seg": 476,
+  "start": 2943.7,
+  "end": 2947.342,
+  "speaker": "Unknown",
+  "en": "So I think it's actually really important that some people are looking at how to get this right.",
+  "zh": "所以我认为，有人在研究如何把这件事做对，这实际上非常重要。"
+ },
+ {
+  "seg": 477,
+  "start": 2947.742,
+  "end": 2951.925,
+  "speaker": "Unknown",
+  "en": "I think there are ways to monitor agents that don't use language.",
+  "zh": "我认为存在一些不使用语言来监控智能体的方法。"
+ },
+ {
+  "seg": 478,
+  "start": 2952.705,
+  "end": 2961.531,
+  "speaker": "Unknown",
+  "en": "I think we can do things like start to, for example, you can use shadow actions where you start to have",
+  "zh": "我认为我们可以做一些事情，比如开始，举例来说，你可以使用影子行动，你开始让"
+ },
+ {
+  "seg": 479,
+  "start": 2962.211,
+  "end": 2969.553,
+  "speaker": "Unknown",
+  "en": "Actions taken where you can look at what they would actually do if they were allowed to act in the world, but you don't actually let them take that action yet.",
+  "zh": "采取一些行动，你可以观察如果它们被允许在世界中行动它们实际上会做什么，但你实际上还不让它们采取那个行动。"
+ },
+ {
+  "seg": 480,
+  "start": 2970.053,
+  "end": 2975.255,
+  "speaker": "Unknown",
+  "en": "You can start to have other superintelligences which are acting as the monitor.",
+  "zh": "你可以开始让其他超级智能充当监控者。"
+ },
+ {
+  "seg": 481,
+  "start": 2975.275,
+  "end": 2991.6,
+  "speaker": "Unknown",
+  "en": "For example, you might have the idea of an incredible scientist agent that treads lightly upon the earth, and then you have another superintelligent that's monitoring the magnitude of its actions and regularizing it to make sure it can't do things which are affecting the world too much.",
+  "zh": "例如，你可能有一个「温柔踏足地球的卓越科学家智能体」的概念，然后你再有一个超级智能在监控其行动的量级并对其进行正则化，以确保它不能做对世界影响过大的事情。"
+ },
+ {
+  "seg": 482,
+  "start": 2991.94,
+  "end": 2993.141,
+  "speaker": "Unknown",
+  "en": "I think there are lots of ideas.",
+  "zh": "我认为有很多想法。"
+ },
+ {
+  "seg": 483,
+  "start": 2993.581,
+  "end": 2996.182,
+  "speaker": "Unknown",
+  "en": "I would say that there's a lot of research to be done here.",
+  "zh": "我想说，这里还有很多研究要做。"
+ },
+ {
+  "seg": 484,
+  "start": 2996.282,
+  "end": 3004.267,
+  "speaker": "Unknown",
+  "en": "I'm not claiming to have all of the answers, but I think it's something that deserves a lot of investigation.",
+  "zh": "我并不是声称拥有所有答案，但我认为这是值得大量投入研究的。"
+ },
+ {
+  "seg": 485,
+  "start": 3004.687,
+  "end": 3014.232,
+  "speaker": "Unknown",
+  "en": "And if people aren't looking at this because they're only looking at the language-based approach, I think we're in trouble because I think that language-based approach is not enough in itself to actually get to where we want.",
+  "zh": "而如果人们因为只盯着基于语言的方法而不看这个，我认为我们就有麻烦了，因为我认为基于语言的方法本身不足以真正达到我们想到达的地方。"
+ },
+ {
+  "seg": 486,
+  "start": 3014.592,
+  "end": 3020.354,
+  "speaker": "Unknown",
+  "en": "I should say in terms of having said in trouble, I am optimistic about where the world is going.",
+  "zh": "说了「有麻烦」，我应该说明，我对世界的走向是乐观的。"
+ },
+ {
+  "seg": 487,
+  "start": 3020.754,
+  "end": 3025.176,
+  "speaker": "Unknown",
+  "en": "So by trouble, I mean that we're not going to have agents that do the things that we want them to do.",
+  "zh": "所以所谓麻烦，我的意思是，我们将无法拥有能做我们希望它们做的事情的智能体。"
+ },
+ {
+  "seg": 488,
+  "start": 3025.676,
+  "end": 3032.458,
+  "speaker": "Unknown",
+  "en": "I do think we're going to end up in a world with lots of complex, interacting, super intelligent beings.",
+  "zh": "我确实认为我们最终会进入一个充满复杂的、相互作用的超级智能存在体的世界。"
+ },
+ {
+  "seg": 489,
+  "start": 3032.978,
+  "end": 3054.404,
+  "speaker": "Unknown",
+  "en": "And I'm optimistic that that will lead to a kind of a balance of actors, some of which are supporting the flourishing of humanity and some of which may not be, but the ones which do support the flourishing of humanity will end up kind of supporting us and protecting us against the ones which aren't acting on our best interests.",
+  "zh": "而且我乐观地认为，这将形成一种行动者之间的平衡，其中一些支持人类的繁荣，另一些可能不支持，但那些支持人类繁荣的最终会支持我们、保护我们，抵御那些不按我们最佳利益行事的存在。"
+ },
+ {
+  "seg": 490,
+  "start": 3054.604,
+  "end": 3057.485,
+  "speaker": "Unknown",
+  "en": "So that's the world I think we can work towards.",
+  "zh": "所以这就是我认为我们可以努力走向的世界。"
+ },
+ {
+  "seg": 491,
+  "start": 3058.533,
+  "end": 3061.698,
+  "speaker": "Unknown",
+  "en": "Well, given your super forecasting abilities, I'm happy to hear that.",
+  "zh": "嗯，鉴于你的超级预测能力，听到这个我很高兴。"
+ },
+ {
+  "seg": 492,
+  "start": 3063.22,
+  "end": 3066.625,
+  "speaker": "Unknown",
+  "en": "What do you think about all the conversation around pacing the frontier?",
+  "zh": "你怎么看所有关于给前沿放缓节奏的讨论？"
+ },
+ {
+  "seg": 493,
+  "start": 3067.372,
+  "end": 3078.495,
+  "speaker": "Unknown",
+  "en": "I'm actually very much supportive of the idea that there should be pacing of what happens for the frontier of AI in the real world.",
+  "zh": "实际上，我非常支持这样一种观点：现实世界中 AI 前沿所发生的事情应该被控制节奏。"
+ },
+ {
+  "seg": 494,
+  "start": 3080.076,
+  "end": 3084.097,
+  "speaker": "Unknown",
+  "en": "At the same time, I think we should move as fast as possible in simulation.",
+  "zh": "同时，我认为我们应该在模拟中尽可能快地推进。"
+ },
+ {
+  "seg": 495,
+  "start": 3084.657,
+  "end": 3088.838,
+  "speaker": "Unknown",
+  "en": "Now, the reason is that I think in simulation, we can actually develop",
+  "zh": "原因是，我认为在模拟中，我们实际上可以发展"
+ },
+ {
+  "seg": 496,
+  "start": 3089.238,
+  "end": 3096.786,
+  "speaker": "Unknown",
+  "en": "A lot of things like the science of superintelligence that will actually help us to find solutions that help things to go well in the real world.",
+  "zh": "很多东西，比如超级智能的科学，它会真正帮助我们找到让现实世界中事情进展顺利的解决方案。"
+ },
+ {
+  "seg": 497,
+  "start": 3097.166,
+  "end": 3109.118,
+  "speaker": "Unknown",
+  "en": "And I think that kind of work should happen as fast as possible to make sure that when things really happen in the real world, that things have the best possible opportunity to go well and lead to human flourishing.",
+  "zh": "而且我认为这类工作应该尽可能快地进行，以确保当事情真正在现实世界中发生时，事情拥有最好的机会去顺利发展并带来人类的繁荣。"
+ },
+ {
+  "seg": 498,
+  "start": 3109.578,
+  "end": 3111.28,
+  "speaker": "Unknown",
+  "en": "So I think that would be my thought.",
+  "zh": "所以这就是我的想法。"
+ },
+ {
+  "seg": 499,
+  "start": 3111.54,
+  "end": 3122.371,
+  "speaker": "Unknown",
+  "en": "But yeah, in general, I'm supportive of the suggestions, like the kind of direction that people like Demis and Daria and so forth are suggesting.",
+  "zh": "不过是的，总体而言，我支持这些建议，比如像 Demis 和 Daria 等人所建议的那种方向。"
+ },
+ {
+  "seg": 500,
+  "start": 3122.872,
+  "end": 3124.514,
+  "speaker": "Unknown",
+  "en": "I think it's generally a good idea.",
+  "zh": "我认为总体上这是个好主意。"
+ },
+ {
+  "seg": 501,
+  "start": 3125.014,
+  "end": 3129.659,
+  "speaker": "Unknown",
+  "en": "Maybe part of that is that I think that things are moving really quickly and",
+  "zh": "也许部分原因是,我认为事情发展得非常快,而且"
+ },
+ {
+  "seg": 502,
+  "start": 3131.961,
+  "end": 3141.569,
+  "speaker": "Unknown",
+  "en": "I do believe that when we accelerate AI and get to superintelligence, it will lead to a really great future for humanity.",
+  "zh": "我确实相信,当我们加速 AI 并达到超级智能时,它将为人类带来一个非常美好的未来。"
+ },
+ {
+  "seg": 503,
+  "start": 3141.909,
+  "end": 3150.917,
+  "speaker": "Unknown",
+  "en": "But I also think that it's something that the speed at which things are moving is not something that we are capable of adapting to that fast.",
+  "zh": "但我也认为,事情发展的速度并不是我们能够那么快适应的。"
+ },
+ {
+  "seg": 504,
+  "start": 3151.297,
+  "end": 3158.864,
+  "speaker": "Unknown",
+  "en": "So I think just by pacing a little bit, I think it gives us the opportunity, A, for our governments and our organizations and our",
+  "zh": "所以我认为,稍微放慢一点节奏,我认为它给了我们机会,一来让我们的政府、我们的组织和我们的"
+ },
+ {
+  "seg": 505,
+  "start": 3159.424,
+  "end": 3174.492,
+  "speaker": "Unknown",
+  "en": "Emotional responses to adapt to the changes that are coming and also for this work to continue apace, like really figuring out in simulation how to, you know, the real science of doing this right.",
+  "zh": "情绪反应能够适应即将到来的变化,同时也让这项工作继续快速推进,比如真正弄清楚在模拟中如何,你知道,把这件事做对的真正的科学。"
+ },
+ {
+  "seg": 506,
+  "start": 3175.473,
+  "end": 3181.736,
+  "speaker": "Unknown",
+  "en": "So accelerate in simulation so we can understand what's happening and, you know, do science around it and then be careful in the real world.",
+  "zh": "所以在模拟中加速,这样我们就能理解正在发生的事情,你知道,围绕它做科学,然后在现实世界中保持谨慎。"
+ },
+ {
+  "seg": 507,
+  "start": 3182.097,
+  "end": 3184.078,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that would be my summary, yeah.",
+  "zh": "是的,我想那就是我的总结,是的。"
+ },
+ {
+  "seg": 508,
+  "start": 3184.876,
+  "end": 3187.257,
+  "speaker": "Unknown",
+  "en": "I'd love to transition to talking a little bit about compute.",
+  "zh": "我很想转到话题,稍微聊一聊算力。"
+ },
+ {
+  "seg": 509,
+  "start": 3188.238,
+  "end": 3197.123,
+  "speaker": "Unknown",
+  "en": "This is going to be an incredibly compute-expensive journey, and you are pushing the limits of what compute can do.",
+  "zh": "这将是一段极其耗算力的旅程,而你们正在 pushing 算力能力的极限。"
+ },
+ {
+  "seg": 510,
+  "start": 3197.723,
+  "end": 3201.125,
+  "speaker": "Unknown",
+  "en": "I think both Google and NVIDIA have been great partners for you.",
+  "zh": "我认为 Google 和 NVIDIA 一直是你们的绝佳合作伙伴。"
+ },
+ {
+  "seg": 511,
+  "start": 3201.825,
+  "end": 3204.047,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about your cluster?",
+  "zh": "你能稍微谈谈你们的集群吗?"
+ },
+ {
+  "seg": 512,
+  "start": 3204.328,
+  "end": 3209.073,
+  "speaker": "Unknown",
+  "en": "You're not simply renting spot compute from NeoClouds like many other NeoLabs.",
+  "zh": "你并不像许多其他 NeoLabs 那样只是从 NeoCloud 租用 spot 算力。"
+ },
+ {
+  "seg": 513,
+  "start": 3209.093,
+  "end": 3215.519,
+  "speaker": "Unknown",
+  "en": "You're actually doing some really serious work on your cluster and the different other forms of compute that you have.",
+  "zh": "你实际上在你的集群以及你们拥有的其他不同形式的算力上做着非常认真的工作。"
+ },
+ {
+  "seg": 514,
+  "start": 3215.579,
+  "end": 3217.021,
+  "speaker": "Unknown",
+  "en": "Can you just talk about your compute setup?",
+  "zh": "你能谈谈你们的算力配置吗?"
+ },
+ {
+  "seg": 515,
+  "start": 3217.887,
+  "end": 3223.631,
+  "speaker": "Unknown",
+  "en": "Right, so, yeah, as I mentioned earlier, like, we are very fortunate with the compute that we have.",
+  "zh": "好的,是的,正如我之前提到的,我们在算力方面非常幸运。"
+ },
+ {
+  "seg": 516,
+  "start": 3223.691,
+  "end": 3230.676,
+  "speaker": "Unknown",
+  "en": "Like, we are the first customers of the largest group and cluster on GCP by the end of the year.",
+  "zh": "比如,我们是 GCP 上最大组和集群的首批客户,到今年年底。"
+ },
+ {
+  "seg": 517,
+  "start": 3231.136,
+  "end": 3233.298,
+  "speaker": "Unknown",
+  "en": "Well, actually started, like, one month now.",
+  "zh": "嗯,实际上,大概一个月前就开始了。"
+ },
+ {
+  "seg": 518,
+  "start": 3234.719,
+  "end": 3236.54,
+  "speaker": "Unknown",
+  "en": "So we are, like, extremely fortunate in that.",
+  "zh": "所以我们在这件事上非常非常幸运。"
+ },
+ {
+  "seg": 519,
+  "start": 3236.72,
+  "end": 3243.285,
+  "speaker": "Unknown",
+  "en": "And I actually feel quite bad about, like, the startups that are, like, getting compute now because it's becoming, like, harder and harder.",
+  "zh": "而且我实际上对那些,嗯,现在才拿到算力的初创公司感到相当过意不去,因为拿到算力正变得越来越难。"
+ },
+ {
+  "seg": 520,
+  "start": 3244.866,
+  "end": 3249.409,
+  "speaker": "Unknown",
+  "en": "But yeah, so we have this Vera Ruben cluster, which is based on GPUs, right?",
+  "zh": "但是的,我们有这个 Vera Ruben 集群,它是基于 GPU 的,对吧?"
+ },
+ {
+  "seg": 521,
+  "start": 3249.429,
+  "end": 3257.894,
+  "speaker": "Unknown",
+  "en": "Like NVIDIA GPUs, which is really fortunate for us because it means that we can easily do a simulation and training and inference, right?",
+  "zh": "比如 NVIDIA 的 GPU,这对我们来说非常幸运,因为这意味着我们可以轻松地做模拟、训练和推理,对吧?"
+ },
+ {
+  "seg": 522,
+  "start": 3257.934,
+  "end": 3259.275,
+  "speaker": "Unknown",
+  "en": "They are quite general chips.",
+  "zh": "它们是相当通用的芯片。"
+ },
+ {
+  "seg": 523,
+  "start": 3259.595,
+  "end": 3260.476,
+  "speaker": "Unknown",
+  "en": "So that's amazing.",
+  "zh": "所以这太棒了。"
+ },
+ {
+  "seg": 524,
+  "start": 3260.536,
+  "end": 3268.141,
+  "speaker": "Unknown",
+  "en": "I think the Vera Ruben specifically, they have this architecture where one rack can basically consider one machine.",
+  "zh": "我认为 Vera Ruben 具体来说,他们有这样的架构,一个机架基本上可以看作一台机器。"
+ },
+ {
+  "seg": 525,
+  "start": 3268.181,
+  "end": 3271.643,
+  "speaker": "Unknown",
+  "en": "There's a very high bandwidth between the nodes in one rack.",
+  "zh": "一个机架内的节点之间有非常高的带宽。"
+ },
+ {
+  "seg": 526,
+  "start": 3272.443,
+  "end": 3281.43,
+  "speaker": "Unknown",
+  "en": "Which is very important for reinforcement learning where you have like really fast iteration cycles compared to LLMs that are relatively speaking quite slow.",
+  "zh": "这对强化学习非常重要,因为在强化学习中你有非常快的迭代周期,而相比之下 LLM 的迭代周期相对而言相当慢。"
+ },
+ {
+  "seg": 527,
+  "start": 3282.45,
+  "end": 3283.651,
+  "speaker": "Unknown",
+  "en": "So that's quite fortunate for us.",
+  "zh": "所以这对我们来说是相当幸运的。"
+ },
+ {
+  "seg": 528,
+  "start": 3284.352,
+  "end": 3294.679,
+  "speaker": "Unknown",
+  "en": "I think like some of the things we did like eight, 10 years ago at Google where we basically had like abundant CPUs at Google that doesn't scale anymore.",
+  "zh": "我想,像我们八、十年前在 Google 做的某些事情,那时我们在 Google 基本上有充裕的 CPU,那种情况现在已经不可扩展了。"
+ },
+ {
+  "seg": 529,
+  "start": 3295.259,
+  "end": 3301.825,
+  "speaker": "Unknown",
+  "en": "So we really need to make sure that everything we do is on the GPUs and we don't need like millions of CPUs beyond these GPUs.",
+  "zh": "所以我们真的需要确保我们所做的一切都在 GPU 上进行,我们不需要在这些 GPU 之外再要数百万个 CPU。"
+ },
+ {
+  "seg": 530,
+  "start": 3302.686,
+  "end": 3306.028,
+  "speaker": "Unknown",
+  "en": "So our simulations can run on the GPU inference and training and so on.",
+  "zh": "所以我们的模拟可以跑在 GPU 推理和训练等等上。"
+ },
+ {
+  "seg": 531,
+  "start": 3306.068,
+  "end": 3308.03,
+  "speaker": "Unknown",
+  "en": "So we have some good architectures for that.",
+  "zh": "所以我们为此有一些不错的架构。"
+ },
+ {
+  "seg": 532,
+  "start": 3308.611,
+  "end": 3318.139,
+  "speaker": "Unknown",
+  "en": "I think like the LM companies now have kind of like the problems that we had many years ago where the need like sandboxes running on CPUs like simulating computers and so on.",
+  "zh": "我想,现在的 LM 公司们正面临类似我们多年前遇到过的问题,它们需要像跑在 CPU 上的沙箱,比如模拟计算机之类的。"
+ },
+ {
+  "seg": 533,
+  "start": 3318.879,
+  "end": 3322.062,
+  "speaker": "Unknown",
+  "en": "And we're trying to not put ourselves in that situation.",
+  "zh": "而我们正努力不让自己陷入那种境地。"
+ },
+ {
+  "seg": 534,
+  "start": 3323.183,
+  "end": 3327.868,
+  "speaker": "Unknown",
+  "en": "All the compute, is it roughly fungible between the different things that you're doing?",
+  "zh": "所有的算力,在你正在做的不同事情之间,大致是可互换的吗?"
+ },
+ {
+  "seg": 535,
+  "start": 3327.888,
+  "end": 3335.295,
+  "speaker": "Unknown",
+  "en": "I imagine you're building crucibles and then you're kind of doing these big rollouts where the agents are actually learning.",
+  "zh": "我想象你在构建 crucibles,然后你在做这些大规模 rollout,智能体在其中真正地学习。"
+ },
+ {
+  "seg": 536,
+  "start": 3335.335,
+  "end": 3338.318,
+  "speaker": "Unknown",
+  "en": "Is that the rough buckets of what compute is being used for?",
+  "zh": "这是算力用途的大致分类吗?"
+ },
+ {
+  "seg": 537,
+  "start": 3338.999,
+  "end": 3344.444,
+  "speaker": "Unknown",
+  "en": "Yeah, you could split it up into training inference and simulation.",
+  "zh": "是的,你可以把它分成训练、推理和模拟。"
+ },
+ {
+  "seg": 538,
+  "start": 3345.164,
+  "end": 3349.146,
+  "speaker": "Unknown",
+  "en": "Is the same compute equally good at training, inference, and simulation?",
+  "zh": "同样的算力在训练、推理和模拟上效果一样好吗?"
+ },
+ {
+  "seg": 539,
+  "start": 3349.166,
+  "end": 3349.226,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不。"
+ },
+ {
+  "seg": 540,
+  "start": 3349.246,
+  "end": 3350.086,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 541,
+  "start": 3351.447,
+  "end": 3363.192,
+  "speaker": "Unknown",
+  "en": "So I think it's pretty clear what has happened with GPUs over the last many years, or like since deep learning took off, is that they've been more and more tailored towards training, right?",
+  "zh": "所以我认为,过去许多年以来,或者说自从深度学习兴起以来,GPU 上发生的事情相当清楚,那就是它们越来越朝着训练方向定制,对吧?"
+ },
+ {
+  "seg": 542,
+  "start": 3363.332,
+  "end": 3368.515,
+  "speaker": "Unknown",
+  "en": "And maybe in the last few years also inference, but less about simulation.",
+  "zh": "也许在过去几年里也有朝推理方向,但在模拟方面就少了。"
+ },
+ {
+  "seg": 543,
+  "start": 3370.535,
+  "end": 3377.178,
+  "speaker": "Unknown",
+  "en": "But similarly to the LLM companies, we also want to be in the case where scaling laws matters.",
+  "zh": "但和 LLM 公司类似,我们也想处在 scaling laws 起作用的情况下。"
+ },
+ {
+  "seg": 544,
+  "start": 3377.478,
+  "end": 3386.421,
+  "speaker": "Unknown",
+  "en": "We know that roughly if you add this amount of compute and experiences, then we get a certain amount of quality out of that.",
+  "zh": "我们知道,大致上,如果你添加这个数量的算力和经验,那么我们就会从中获得一定数量的质量提升。"
+ },
+ {
+  "seg": 545,
+  "start": 3386.821,
+  "end": 3391.823,
+  "speaker": "Unknown",
+  "en": "So I guess if GPUs aren't great for scaling simulation, then what's the solution?",
+  "zh": "那么我想,如果 GPU 不太适合扩展模拟,那解决方案是什么?"
+ },
+ {
+  "seg": 546,
+  "start": 3392.396,
+  "end": 3394.357,
+  "speaker": "Unknown",
+  "en": "So there are many different solutions here, right?",
+  "zh": "所以这里有很多不同的解决方案,对吧?"
+ },
+ {
+  "seg": 547,
+  "start": 3394.377,
+  "end": 3400.801,
+  "speaker": "Unknown",
+  "en": "So there's like model-based reinforcement learning, where like the model becomes much more expensive compared to the simulation.",
+  "zh": "比如基于模型的强化学习,其中模型相比模拟变得昂贵得多。"
+ },
+ {
+  "seg": 548,
+  "start": 3400.921,
+  "end": 3402.542,
+  "speaker": "Unknown",
+  "en": "So there's many different tricks you can do.",
+  "zh": "所以有很多不同的技巧可以用。"
+ },
+ {
+  "seg": 549,
+  "start": 3403.702,
+  "end": 3407.804,
+  "speaker": "Unknown",
+  "en": "There's like various approaches for like replay puffers or like reusing data many times.",
+  "zh": "还有各种不同的方法,比如 replay buffers 或多次复用数据。"
+ },
+ {
+  "seg": 550,
+  "start": 3408.345,
+  "end": 3409.846,
+  "speaker": "Unknown",
+  "en": "So yeah, there are ways around that.",
+  "zh": "所以是的，有一些绕过这个问题的方法。"
+ },
+ {
+  "seg": 551,
+  "start": 3410.306,
+  "end": 3418.23,
+  "speaker": "Unknown",
+  "en": "And other than that, we do spend quite some effort on just making the simulations as fast as possible and make the best use of the GPUs.",
+  "zh": "除此之外，我们也花了相当多的精力在让模拟尽可能快，以及最好地利用 GPU 上。"
+ },
+ {
+  "seg": 552,
+  "start": 3421.598,
+  "end": 3424.668,
+  "speaker": "Unknown",
+  "en": "Are you seeing scaling laws yet or is it too early to say?",
+  "zh": "你们现在看到扩展定律了吗，还是说现在下结论太早了？"
+ },
+ {
+  "seg": 553,
+  "start": 3425.334,
+  "end": 3429.337,
+  "speaker": "Unknown",
+  "en": "So for reinforcement learning, like scaling laws are like slightly different, right?",
+  "zh": "对于强化学习来说，扩展定律有点不太一样，对吧？"
+ },
+ {
+  "seg": 554,
+  "start": 3429.357,
+  "end": 3436.701,
+  "speaker": "Unknown",
+  "en": "So like scaling laws is the component of how much compute you put in, how much data you put in, and like the model size.",
+  "zh": "扩展定律的组成部分是你投入多少算力、投入多少数据，以及模型大小。"
+ },
+ {
+  "seg": 555,
+  "start": 3437.862,
+  "end": 3442.104,
+  "speaker": "Unknown",
+  "en": "Well, reinforcement learning is a little bit different because the problem is like non-stationary.",
+  "zh": "而强化学习有点不同，因为这个问题是非平稳的。"
+ },
+ {
+  "seg": 556,
+  "start": 3442.124,
+  "end": 3447.528,
+  "speaker": "Unknown",
+  "en": "So as you progress in the problem, the data changes, the data distribution changes.",
+  "zh": "所以随着你在问题上的推进，数据会变化，数据分布会变化。"
+ },
+ {
+  "seg": 557,
+  "start": 3448.849,
+  "end": 3449.909,
+  "speaker": "Unknown",
+  "en": "So they are a little bit different.",
+  "zh": "所以它们有点不太一样。"
+ },
+ {
+  "seg": 558,
+  "start": 3449.949,
+  "end": 3454.012,
+  "speaker": "Unknown",
+  "en": "It's like a very interesting research direction.",
+  "zh": "这是一个非常有趣的研究方向。"
+ },
+ {
+  "seg": 559,
+  "start": 3454.713,
+  "end": 3460.32,
+  "speaker": "Unknown",
+  "en": "I understand the difference, but are you seeing some sort of scaling law where more compute in gets you closer to achieving the goals?",
+  "zh": "我理解这个区别，但你们是否看到了某种扩展定律，即投入更多算力能让你更接近实现目标？"
+ },
+ {
+  "seg": 560,
+  "start": 3460.4,
+  "end": 3462.003,
+  "speaker": "Unknown",
+  "en": "Or is it hard to say right now?",
+  "zh": "还是说现在很难说？"
+ },
+ {
+  "seg": 561,
+  "start": 3462.623,
+  "end": 3465.847,
+  "speaker": "Unknown",
+  "en": "Yeah, but it's something we are actively pushing towards.",
+  "zh": "嗯，但这是我们正在积极推动的方向。"
+ },
+ {
+  "seg": 562,
+  "start": 3467.269,
+  "end": 3473.237,
+  "speaker": "Unknown",
+  "en": "And especially as we are transitioning from a smaller cluster to the bigger cluster, we want to be ready for that.",
+  "zh": "尤其是在我们从小集群过渡到大集群的过程中，我们想为此做好准备。"
+ },
+ {
+  "seg": 563,
+  "start": 3473.483,
+  "end": 3474.383,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 564,
+  "start": 3474.423,
+  "end": 3487.367,
+  "speaker": "Unknown",
+  "en": "Lese, at the beginning, when David introduced you, he mentioned that you had done some very foundational work to compute algorithms for reinforcement learning, upon which the field really relies on today.",
+  "zh": "Lese，在一开始 David 介绍你的时候，他提到你做过一些非常基础性的工作，计算强化学习算法，而这个领域今天真正依赖这些工作。"
+ },
+ {
+  "seg": 565,
+  "start": 3487.927,
+  "end": 3492.028,
+  "speaker": "Unknown",
+  "en": "Maybe talk about some of that work, and in particular, your work around Impala and Seed.",
+  "zh": "也许可以谈谈其中一些工作，特别是你围绕 Impala 和 Seed 的工作。"
+ },
+ {
+  "seg": 566,
+  "start": 3492.508,
+  "end": 3495.489,
+  "speaker": "Unknown",
+  "en": "What are those, and how do they relate to the work that you're doing at Ineffable?",
+  "zh": "那些是什么，它们与你在 Ineffable 所做的工作有什么关系？"
+ },
+ {
+  "seg": 567,
+  "start": 3496.372,
+  "end": 3496.552,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 568,
+  "start": 3496.612,
+  "end": 3504.634,
+  "speaker": "Unknown",
+  "en": "So when I joined the deep learning team at DeepMind, most people were running like single machine CPU based reinforcement learning.",
+  "zh": "当我加入 DeepMind 的深度学习团队时，大多数人在做的是单机基于 CPU 的强化学习。"
+ },
+ {
+  "seg": 569,
+  "start": 3505.154,
+  "end": 3507.154,
+  "speaker": "Unknown",
+  "en": "So the scale was like quite small.",
+  "zh": "所以规模相当小。"
+ },
+ {
+  "seg": 570,
+  "start": 3507.915,
+  "end": 3515.376,
+  "speaker": "Unknown",
+  "en": "So what I did together with colleagues was to make an agent reinforcement learning agent that really utilized GPUs.",
+  "zh": "所以我和同事们所做的是打造一个真正利用 GPU 的强化学习智能体。"
+ },
+ {
+  "seg": 571,
+  "start": 3515.776,
+  "end": 3517.537,
+  "speaker": "Unknown",
+  "en": "I could scale like linear with compute.",
+  "zh": "它可以随算力近乎线性地扩展。"
+ },
+ {
+  "seg": 572,
+  "start": 3518.457,
+  "end": 3520.758,
+  "speaker": "Unknown",
+  "en": "I think partially because it was very efficient.",
+  "zh": "我认为部分原因是它非常高效。"
+ },
+ {
+  "seg": 573,
+  "start": 3520.978,
+  "end": 3522.138,
+  "speaker": "Unknown",
+  "en": "It was very good at scaling.",
+  "zh": "它在扩展性方面非常出色。"
+ },
+ {
+  "seg": 574,
+  "start": 3522.658,
+  "end": 3529.7,
+  "speaker": "Unknown",
+  "en": "And the third thing was it was very easy to extend and modify and do whatever you wanted with it.",
+  "zh": "第三点是它非常容易扩展、修改，以及随意做任何你想做的事情。"
+ },
+ {
+  "seg": 575,
+  "start": 3529.98,
+  "end": 3536.122,
+  "speaker": "Unknown",
+  "en": "Contributed to it being the most popular reinforcement agent at the company.",
+  "zh": "这些让它成为公司里最受欢迎的强化学习智能体。"
+ },
+ {
+  "seg": 576,
+  "start": 3536.142,
+  "end": 3542.524,
+  "speaker": "Unknown",
+  "en": "And I think at one point, most RL teams used it, all derivatives of it.",
+  "zh": "而且我记得在某个时期，大多数 RL 团队都在用它，或者用它的衍生版本。"
+ },
+ {
+  "seg": 577,
+  "start": 3543.424,
+  "end": 3547.165,
+  "speaker": "Unknown",
+  "en": "So that was quite successful and quite a nice project to work on.",
+  "zh": "所以那是相当成功的，也是一个很不错的工作项目。"
+ },
+ {
+  "seg": 578,
+  "start": 3547.745,
+  "end": 3550.547,
+  "speaker": "Unknown",
+  "en": "Then like later on, like we got TVUs, right?",
+  "zh": "然后再后来，我们有了 TVU，对吧？"
+ },
+ {
+  "seg": 579,
+  "start": 3550.567,
+  "end": 3553.85,
+  "speaker": "Unknown",
+  "en": "We got like racks of these TVUs, so we need to scale beyond that.",
+  "zh": "我们有了机架的 TVU，所以我们需要扩展到更大的规模。"
+ },
+ {
+  "seg": 580,
+  "start": 3554.751,
+  "end": 3565.34,
+  "speaker": "Unknown",
+  "en": "So some of my work at Google Brain after I left DeepMind to found the Google Brain Amsterdam office was to scale to like racks of TVUs and that product was called like seed RL.",
+  "zh": "所以在我离开 DeepMind 去创立 Google Brain 阿姆斯特丹办公室之后，我在 Google Brain 的一些工作就是扩展到机架级的 TVU，那个产品叫 seed RL。"
+ },
+ {
+  "seg": 581,
+  "start": 3566.46,
+  "end": 3577.627,
+  "speaker": "Unknown",
+  "en": "So there was like really about like utilizing the TV use both for like inference and training in the best possible way while keeping the environments as flexible as you wanted to.",
+  "zh": "所以那真的是关于以最好的方式同时利用 TVU 来做推理和训练，同时保持环境如你所希望的那样灵活。"
+ },
+ {
+  "seg": 582,
+  "start": 3577.647,
+  "end": 3583.171,
+  "speaker": "Unknown",
+  "en": "It could be like anything from go to very expensive physics simulations.",
+  "zh": "它可以是任何东西，从围棋到非常昂贵的物理模拟。"
+ },
+ {
+  "seg": 583,
+  "start": 3584.072,
+  "end": 3586.333,
+  "speaker": "Unknown",
+  "en": "And how's that being used at Ineffable?",
+  "zh": "那这些在 Ineffable 是如何被使用的？"
+ },
+ {
+  "seg": 584,
+  "start": 3587.021,
+  "end": 3594.287,
+  "speaker": "Unknown",
+  "en": "Yeah, so, well, we actually implemented a few of those algorithms, also, like, derivatives of these algorithms.",
+  "zh": "嗯，我们实际上实现了其中一些算法，也包括这些算法的衍生版本。"
+ },
+ {
+  "seg": 585,
+  "start": 3594.808,
+  "end": 3596.629,
+  "speaker": "Unknown",
+  "en": "So that is, like, what we are using today.",
+  "zh": "所以这就是我们今天在用的东西。"
+ },
+ {
+  "seg": 586,
+  "start": 3597.33,
+  "end": 3600.633,
+  "speaker": "Unknown",
+  "en": "We have, like, depending on, like, the environments, we use, like, different algorithms, right?",
+  "zh": "根据环境的不同，我们使用不同的算法，对吧？"
+ },
+ {
+  "seg": 587,
+  "start": 3600.653,
+  "end": 3602.234,
+  "speaker": "Unknown",
+  "en": "There are, like, pros and cons between them.",
+  "zh": "它们之间各有优缺点。"
+ },
+ {
+  "seg": 588,
+  "start": 3602.534,
+  "end": 3611.322,
+  "speaker": "Unknown",
+  "en": "So, yeah, we talked about, like, we have some very simple, like, fast-to-simulate environments and also some that are more expensive.",
+  "zh": "所以，是的，我们谈过，我们有一些非常简单、模拟起来很快的环境，也有一些开销更大的。"
+ },
+ {
+  "seg": 589,
+  "start": 3612.302,
+  "end": 3634.154,
+  "speaker": "Unknown",
+  "en": "So for those who are working on large-scale RL architectures today and haven't read those original papers, it's definitely worth a look because I think you'll discover that many of the ideas that are currently in use kind of trace back to those early work that Lasser kind of did and figured out, which was a little bit prescient, I would say.",
+  "zh": "所以对于那些今天正在做大规模 RL 架构、还没读过那些原始论文的人来说，非常值得一读，因为我想你会发现，当前在用的许多想法其实都可以追溯到 Lasser 早期所做和弄明白的那些工作，我会说那是相当有先见之明的。"
+ },
+ {
+  "seg": 590,
+  "start": 3634.868,
+  "end": 3643.232,
+  "speaker": "Unknown",
+  "en": "I think it's actually kind of fun to see the reinforcement learning space now versus like 10 years ago, or like, let's say like eight years ago, maybe.",
+  "zh": "我觉得看看现在的强化学习领域和比如十年前，或者说大概八年前相比，其实挺有意思的。"
+ },
+ {
+  "seg": 591,
+  "start": 3644.272,
+  "end": 3649.854,
+  "speaker": "Unknown",
+  "en": "Like the LLM community is also using reinforcement learning in particular last two years.",
+  "zh": "比如 LLM 社区也在使用强化学习，尤其是过去两年。"
+ },
+ {
+  "seg": 592,
+  "start": 3649.954,
+  "end": 3657.578,
+  "speaker": "Unknown",
+  "en": "So, and like a lot of the things that they're using are, you know, being rediscovered approaches that we used many years ago.",
+  "zh": "而且他们正在用的很多东西，你知道的，是在被重新发现的方法，是我们很多年前就用过的。"
+ },
+ {
+  "seg": 593,
+  "start": 3657.598,
+  "end": 3661.759,
+  "speaker": "Unknown",
+  "en": "So it's kind of like interesting to see with a lot of novelty as well on top of it.",
+  "zh": "所以看到这些带着许多新东西叠加在上面，还挺有意思的。"
+ },
+ {
+  "seg": 594,
+  "start": 3661.779,
+  "end": 3661.999,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 595,
+  "start": 3662.059,
+  "end": 3663.28,
+  "speaker": "Unknown",
+  "en": "But yeah.",
+  "zh": "但好。"
+ },
+ {
+  "seg": 596,
+  "start": 3663.92,
+  "end": 3665.321,
+  "speaker": "Unknown",
+  "en": "Can you talk a little bit about your team?",
+  "zh": "你能谈谈你的团队吗？"
+ },
+ {
+  "seg": 597,
+  "start": 3665.361,
+  "end": 3666.402,
+  "speaker": "Unknown",
+  "en": "How big is the team right now?",
+  "zh": "团队现在有多大？"
+ },
+ {
+  "seg": 598,
+  "start": 3667.083,
+  "end": 3671.146,
+  "speaker": "Unknown",
+  "en": "We have intentionally kept the team relatively small.",
+  "zh": "我们有意把团队保持得相对较小。"
+ },
+ {
+  "seg": 599,
+  "start": 3672.787,
+  "end": 3676.77,
+  "speaker": "Unknown",
+  "en": "So we're not in a hurry to build a giant organization.",
+  "zh": "所以我们并不急于建立一个庞大的组织。"
+ },
+ {
+  "seg": 600,
+  "start": 3676.85,
+  "end": 3682.515,
+  "speaker": "Unknown",
+  "en": "I think you can do an awful lot nowadays with a small number of incredibly talented people.",
+  "zh": "我认为如今用一小撮极具天赋的人就能做成非常多的事情。"
+ },
+ {
+  "seg": 601,
+  "start": 3682.775,
+  "end": 3687.519,
+  "speaker": "Unknown",
+  "en": "So we have hired 20 people in total.",
+  "zh": "所以我们总共雇佣了 20 个人。"
+ },
+ {
+  "seg": 602,
+  "start": 3688.319,
+  "end": 3691.222,
+  "speaker": "Unknown",
+  "en": "And yeah, the people we've hired, it's about",
+  "zh": "是的，我们雇佣的这些人，关键在于"
+ },
+ {
+  "seg": 603,
+  "start": 3691.662,
+  "end": 3694.124,
+  "speaker": "Unknown",
+  "en": "Finding some of the exceptionally talented people.",
+  "zh": "找到一些 Exceptionally talented 的人。"
+ },
+ {
+  "seg": 604,
+  "start": 3694.784,
+  "end": 3696.985,
+  "speaker": "Unknown",
+  "en": "But it's not just about talent for us.",
+  "zh": "但对我们来说，不仅仅是天赋。"
+ },
+ {
+  "seg": 605,
+  "start": 3697.545,
+  "end": 3703.389,
+  "speaker": "Unknown",
+  "en": "It's also about bringing together people who are kind, collaborative human beings.",
+  "zh": "还在于把那些善良、乐于协作的人聚集到一起。"
+ },
+ {
+  "seg": 606,
+  "start": 3703.409,
+  "end": 3714.735,
+  "speaker": "Unknown",
+  "en": "That's really important to the kind of culture we're trying to build and people who are really well aligned with the kind of mission that we're following and people that sort of fit the needs that we have.",
+  "zh": "这对我们想打造的那种文化非常重要，还有那些与我们追求的使命高度对齐的人，以及符合我们需求的人。"
+ },
+ {
+  "seg": 607,
+  "start": 3715.476,
+  "end": 3718.918,
+  "speaker": "Unknown",
+  "en": "So we try and build the team with the right set of skills as well.",
+  "zh": "所以我们也尽力用合适的技能组合来搭建团队。"
+ },
+ {
+  "seg": 608,
+  "start": 3719.659,
+  "end": 3722.021,
+  "speaker": "Unknown",
+  "en": "So all of those four things are really important.",
+  "zh": "所以这四件事都非常重要。"
+ },
+ {
+  "seg": 609,
+  "start": 3722.741,
+  "end": 3728.166,
+  "speaker": "Unknown",
+  "en": "And yeah, we kind of have very high standards and very high expectations of the people that come in.",
+  "zh": "是的，我们对进来的人有非常高的标准和非常高的期望。"
+ },
+ {
+  "seg": 610,
+  "start": 3728.227,
+  "end": 3732.991,
+  "speaker": "Unknown",
+  "en": "So we'll be very lucky to get some amazing, really amazing people.",
+  "zh": "所以能招到一些出色的、真正出色的人，我们非常幸运。"
+ },
+ {
+  "seg": 611,
+  "start": 3733.435,
+  "end": 3735.576,
+  "speaker": "Unknown",
+  "en": "And so just to tie it to the compute as well, right?",
+  "zh": "那么再把它和算力联系起来，对吧？"
+ },
+ {
+  "seg": 612,
+  "start": 3735.596,
+  "end": 3743.481,
+  "speaker": "Unknown",
+  "en": "Like this relatively small amount of people so far means that we have a lot of compute per person, right?",
+  "zh": "像这样相对较少的人数意味着我们每个人拥有的算力非常多，对吧？"
+ },
+ {
+  "seg": 613,
+  "start": 3743.821,
+  "end": 3747.803,
+  "speaker": "Unknown",
+  "en": "And like these days you can do a lot of experiments just like one person.",
+  "zh": "而且如今，仅仅一个人就能做很多实验。"
+ },
+ {
+  "seg": 614,
+  "start": 3748.083,
+  "end": 3752.465,
+  "speaker": "Unknown",
+  "en": "So it's really also to keep the compute to person ratio quite high.",
+  "zh": "所以保持算力与人数的比例相当高也非常重要。"
+ },
+ {
+  "seg": 615,
+  "start": 3753.526,
+  "end": 3756.648,
+  "speaker": "Unknown",
+  "en": "So we're not like fighting for resources from day one.",
+  "zh": "这样我们就不会从第一天起就在争抢资源。"
+ },
+ {
+  "seg": 616,
+  "start": 3757.894,
+  "end": 3760.955,
+  "speaker": "Unknown",
+  "en": "I think three of the co-founders worked together on AlphaStar.",
+  "zh": "我想有三位联合创始人曾一起在 AlphaStar 上工作过。"
+ },
+ {
+  "seg": 617,
+  "start": 3761.455,
+  "end": 3762.975,
+  "speaker": "Unknown",
+  "en": "Many of you did work together.",
+  "zh": "你们很多人都一起工作过。"
+ },
+ {
+  "seg": 618,
+  "start": 3762.995,
+  "end": 3771.017,
+  "speaker": "Unknown",
+  "en": "Are you assembling the Avengers from, especially given the recent changes from DeepMind, are you assembling the Avengers of folks that you've worked with in the past?",
+  "zh": "尤其是考虑到 DeepMind 最近的变化，你们是在组建一支「复仇者联盟」吗——由你们过去共事过的人组成的？"
+ },
+ {
+  "seg": 619,
+  "start": 3771.037,
+  "end": 3772.077,
+  "speaker": "Unknown",
+  "en": "Have you hired new people?",
+  "zh": "你们有雇佣新的人吗？"
+ },
+ {
+  "seg": 620,
+  "start": 3772.157,
+  "end": 3778.759,
+  "speaker": "Unknown",
+  "en": "And if so, kind of what are the attributes that make somebody new to you likely to be a fit and an applicable?",
+  "zh": "如果有的话，什么样的特质会让一个对你来说是新的人很可能合适、适用？"
+ },
+ {
+  "seg": 621,
+  "start": 3779.689,
+  "end": 3781.511,
+  "speaker": "Unknown",
+  "en": "So it's a mixture.",
+  "zh": "所以这是一个混合。"
+ },
+ {
+  "seg": 622,
+  "start": 3781.571,
+  "end": 3784.813,
+  "speaker": "Unknown",
+  "en": "So, I mean, AlphaStar was an exceptional team.",
+  "zh": "我是说，AlphaStar 是一支非常出色的团队。"
+ },
+ {
+  "seg": 623,
+  "start": 3785.934,
+  "end": 3791.919,
+  "speaker": "Unknown",
+  "en": "It was sort of intentionally assembled within DeepMind by choosing the kind of best of the best to work on that project.",
+  "zh": "它是在 DeepMind 内部有意组建的，挑选了最顶尖中的最顶尖来做那个项目。"
+ },
+ {
+  "seg": 624,
+  "start": 3791.98,
+  "end": 3797.604,
+  "speaker": "Unknown",
+  "en": "So in some sense, it's not a surprise that I think actually four of our co-founders come from that team.",
+  "zh": "所以从某种意义上说，实际上我们有四位联合创始人来自那支团队，并不令人意外。"
+ },
+ {
+  "seg": 625,
+  "start": 3798.345,
+  "end": 3801.788,
+  "speaker": "Unknown",
+  "en": "But we are not exclusively drawing from...",
+  "zh": "但我们并不只是从……"
+ },
+ {
+  "seg": 626,
+  "start": 3802.088,
+  "end": 3804.07,
+  "speaker": "Unknown",
+  "en": "That team are indeed from DeepMind.",
+  "zh": "那支团队或者说确实从 DeepMind 招人。"
+ },
+ {
+  "seg": 627,
+  "start": 3804.31,
+  "end": 3811.576,
+  "speaker": "Unknown",
+  "en": "I mean, the other three founders all came from very successful startups.",
+  "zh": "我是说，另外三位创始人都来自非常成功的初创公司。"
+ },
+ {
+  "seg": 628,
+  "start": 3812.216,
+  "end": 3828.609,
+  "speaker": "Unknown",
+  "en": "And we hire people who are brilliant, but also kind and nice people to have around who are going to work together well, who are aligned with the mission and who fit the things that we need.",
+  "zh": "我们雇佣的人既聪明，又是善良、好相处的，能很好地协同工作，与使命对齐，并且符合我们的需要。"
+ },
+ {
+  "seg": 629,
+  "start": 3830.051,
+  "end": 3834.094,
+  "speaker": "Unknown",
+  "en": "But in terms of finding those people, we put a lot of effort into getting the right people.",
+  "zh": "至于找到这些人，我们投入了大量精力去招到合适的人。"
+ },
+ {
+  "seg": 630,
+  "start": 3834.174,
+  "end": 3841.98,
+  "speaker": "Unknown",
+  "en": "So as uncomfortable as it is, I've had to say no to a lot of people I've worked with in the past just because our bar is so super high.",
+  "zh": "所以尽管很不舒服，我还是不得不拒绝了很多我过去共事过的人，只因为我们的门槛非常高。"
+ },
+ {
+  "seg": 631,
+  "start": 3842.78,
+  "end": 3845.783,
+  "speaker": "Unknown",
+  "en": "I've been fortunate to work with some amazing people.",
+  "zh": "我很幸运曾和一些出色的人共事过。"
+ },
+ {
+  "seg": 632,
+  "start": 3846.283,
+  "end": 3856.713,
+  "speaker": "Unknown",
+  "en": "And so, you know, I've been choosing amongst like a very exceptional crop and bringing in, yeah, what I consider to be a superstar team.",
+  "zh": "所以，你知道，我是在一批非常出色的人当中做选择，招来了，是的，我认为是一支超级明星团队。"
+ },
+ {
+  "seg": 633,
+  "start": 3858.174,
+  "end": 3869.385,
+  "speaker": "Unknown",
+  "en": "And so, yeah, it's not easy to get into Ineffable, but the people who we have are wonderful human beings and yeah, very, very proud of the people we brought in.",
+  "zh": "所以，是的，进入 Ineffable 并不容易，但我们拥有的这些人都是非常优秀的人，是的，我为招进来的人感到非常、非常自豪。"
+ },
+ {
+  "seg": 634,
+  "start": 3869.565,
+  "end": 3869.745,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 635,
+  "start": 3870.125,
+  "end": 3884.048,
+  "speaker": "Unknown",
+  "en": "I can see why people are drawn to working at Enoughable, especially at a time when, you know, the biggest clusters, the biggest labs are kind of, you know, they're locked in this prisoner's dilemma of race.",
+  "zh": "我能理解为什么人们被吸引到 Enoughable 工作，尤其是在这样一个时期，你知道，最大的集群、最大的实验室，你知道，他们被锁在这场竞赛的囚徒困境中。"
+ },
+ {
+  "seg": 636,
+  "start": 3884.749,
+  "end": 3887.289,
+  "speaker": "Unknown",
+  "en": "And, you know, there's a lot of dollars at stake.",
+  "zh": "而且，你知道，有很多真金白银押在上面。"
+ },
+ {
+  "seg": 637,
+  "start": 3887.329,
+  "end": 3889.97,
+  "speaker": "Unknown",
+  "en": "And so, you know, decisions get made differently.",
+  "zh": "所以，你知道，决策的方式会不一样。"
+ },
+ {
+  "seg": 638,
+  "start": 3890.19,
+  "end": 3898.832,
+  "speaker": "Unknown",
+  "en": "I can imagine for a set of people that, especially that really, really deeply believes in the scientific mission of what you want to accomplish, this must feel like a breath of fresh air.",
+  "zh": "我可以想象，对于一群，尤其是真正、深深相信你想完成的科学使命的人来说，这一定让人觉得像一股清新的空气。"
+ },
+ {
+  "seg": 639,
+  "start": 3899.437,
+  "end": 3900.518,
+  "speaker": "Unknown",
+  "en": "Yeah, I think that's right.",
+  "zh": "是的，我认为是这样。"
+ },
+ {
+  "seg": 640,
+  "start": 3900.598,
+  "end": 3903.68,
+  "speaker": "Unknown",
+  "en": "And we've tried to establish a research-led culture.",
+  "zh": "而且我们一直试图建立一种以研究为主导的文化。"
+ },
+ {
+  "seg": 641,
+  "start": 3904.1,
+  "end": 3915.207,
+  "speaker": "Unknown",
+  "en": "So it's not a company that's led by building an incremental next product v17.1 on the thing that's come before.",
+  "zh": "所以这不是一家靠在前一个东西之上做渐进式的下一个产品 v17.1 来驱动的公司。"
+ },
+ {
+  "seg": 642,
+  "start": 3915.247,
+  "end": 3924.052,
+  "speaker": "Unknown",
+  "en": "It's a company that's built on researchers pursuing their passion and trying to produce the breakthroughs that they believe are possible.",
+  "zh": "这是一家建立在研究者追求自己的热情、努力实现他们相信可能的突破之上的公司。"
+ },
+ {
+  "seg": 643,
+  "start": 3924.472,
+  "end": 3946.97,
+  "speaker": "Unknown",
+  "en": "And we center the company around that from the beginning and from the outset to create like a haven for research, you know, where we push back on product pressure because we believe that if we make these breakthroughs, it will lead to, you know, far bigger products downstream and far bigger successes than if we kind of start off from day one on like, you know, here's the product we're doing from the beginning.",
+  "zh": "我们从一开始、从最初就把公司围绕这一点来构建，创造一个像研究避风港一样的地方，你知道，我们抵制产品压力，因为我们相信如果我们做出这些突破，它会带来，你知道，下游大得多的产品和远超如果我们从第一天起就从比如，你知道，这是我们从头要做的产品这种方式出发所能取得的大得多的成功。"
+ },
+ {
+  "seg": 644,
+  "start": 3947.31,
+  "end": 3948.771,
+  "speaker": "Unknown",
+  "en": "So, yeah, so it's research-led.",
+  "zh": "所以，是的，这是以研究为主导的。"
+ },
+ {
+  "seg": 645,
+  "start": 3948.791,
+  "end": 3952.572,
+  "speaker": "Unknown",
+  "en": "We're creating, I think, a really special environment.",
+  "zh": "我们正在创造，我认为，一个非常特别的环境。"
+ },
+ {
+  "seg": 646,
+  "start": 3952.913,
+  "end": 3955.574,
+  "speaker": "Unknown",
+  "en": "And, yeah, people are loving it.",
+  "zh": "而且，是的，人们很喜欢这里。"
+ },
+ {
+  "seg": 647,
+  "start": 3956.274,
+  "end": 3956.754,
+  "speaker": "Unknown",
+  "en": "I'm loving it.",
+  "zh": "我也很喜欢。"
+ },
+ {
+  "seg": 648,
+  "start": 3957.295,
+  "end": 3957.795,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 649,
+  "start": 3958.395,
+  "end": 3958.795,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 650,
+  "start": 3959.796,
+  "end": 3965.698,
+  "speaker": "Unknown",
+  "en": "I'd love to close with some predictions, maybe especially since you're such a super forecaster.",
+  "zh": "我想以一些预测来收尾，尤其因为你是一位超级预测者。"
+ },
+ {
+  "seg": 651,
+  "start": 3966.599,
+  "end": 3973.882,
+  "speaker": "Unknown",
+  "en": "What's your guess for when you'll have the first strong evidence that the approach is working?",
+  "zh": "你猜测什么时候会第一次拿到强有力的证据，证明这个方法正在奏效？"
+ },
+ {
+  "seg": 652,
+  "start": 3975.304,
+  "end": 3983.59,
+  "speaker": "Unknown",
+  "en": "And then what's your forecast for when we'll achieve the mission that you've set out to achieve, this first contact with super intelligence?",
+  "zh": "那么你对我们何时能实现你设定要完成的使命——与超级智能的首次接触——的预测是什么？"
+ },
+ {
+  "seg": 653,
+  "start": 3984.391,
+  "end": 3985.912,
+  "speaker": "Unknown",
+  "en": "Yeah, so these are fair questions.",
+  "zh": "是的，这些都是合理的问题。"
+ },
+ {
+  "seg": 654,
+  "start": 3986.632,
+  "end": 3990.475,
+  "speaker": "Unknown",
+  "en": "So there are going to be some reasonable bars of uncertainty on this.",
+  "zh": "所以在这上面会有一些合理的不确定性区间。"
+ },
+ {
+  "seg": 655,
+  "start": 3990.495,
+  "end": 3992.337,
+  "speaker": "Unknown",
+  "en": "Yeah, but you're being recorded, so we're going to hold you to it.",
+  "zh": "是啊，但你在被录着呢，所以我们会按你说的算。"
+ },
+ {
+  "seg": 656,
+  "start": 3992.457,
+  "end": 3993.738,
+  "speaker": "Unknown",
+  "en": "Exactly, yeah.",
+  "zh": "没错，是的。"
+ },
+ {
+  "seg": 657,
+  "start": 3994.058,
+  "end": 4000.002,
+  "speaker": "Unknown",
+  "en": "So I think we will see some extremely strong evidence that we're on the right track within a year.",
+  "zh": "所以我认为，我们会在一年内看到一些极其强有力的证据，表明我们走在正确的轨道上。"
+ },
+ {
+  "seg": 658,
+  "start": 4000.583,
+  "end": 4004.166,
+  "speaker": "Unknown",
+  "en": "And I think we will achieve something which is a true super intelligence.",
+  "zh": "而且我认为我们会实现某种真正的超级智能。"
+ },
+ {
+  "seg": 659,
+  "start": 4005.526,
+  "end": 4018.973,
+  "speaker": "Unknown",
+  "en": "According to the definition I gave earlier of something which discovers things which are far beyond what humans can achieve across everything from science, mathematics, technology, languages, et cetera, et cetera.",
+  "zh": "按照我之前给的定义，也就是某种在科学、数学、技术、语言等等等等一切方面，都能做出远超人类所能企及的发现的东西。"
+ },
+ {
+  "seg": 660,
+  "start": 4019.554,
+  "end": 4024.156,
+  "speaker": "Unknown",
+  "en": "I originally thought within three to five years, my timelines have accelerated a little bit.",
+  "zh": "我最初想的是三到五年之内，我的时间线已经稍微提前了一些。"
+ },
+ {
+  "seg": 661,
+  "start": 4024.176,
+  "end": 4030.739,
+  "speaker": "Unknown",
+  "en": "So I'm going to say three years because of what can be done with coding agents to accelerate things.",
+  "zh": "所以我要说三年，因为编码智能体能加速各种事情。"
+ },
+ {
+  "seg": 662,
+  "start": 4031.88,
+  "end": 4033.821,
+  "speaker": "Unknown",
+  "en": "I think things are going to move fast.",
+  "zh": "我认为事情会进展得很快。"
+ },
+ {
+  "seg": 663,
+  "start": 4034.261,
+  "end": 4035.662,
+  "speaker": "Unknown",
+  "en": "Buckle up.",
+  "zh": "系好安全带。"
+ },
+ {
+  "seg": 664,
+  "start": 4036.402,
+  "end": 4036.882,
+  "speaker": "Unknown",
+  "en": "Wonderful.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 665,
+  "start": 4037.422,
+  "end": 4040.624,
+  "speaker": "Unknown",
+  "en": "Let's say, David, this is a wonderful, wonderful conversation.",
+  "zh": "那么，David，这是一次非常非常精彩的对话。"
+ },
+ {
+  "seg": 666,
+  "start": 4040.644,
+  "end": 4048.767,
+  "speaker": "Unknown",
+  "en": "I'm so inspired by what you're building, and thank you for taking the time to sit down and share with our audience what you're building today.",
+  "zh": "你正在构建的东西让我深受鼓舞，感谢你抽出时间坐下来，与我们的观众分享你今天正在构建的东西。"
+ },
+ {
+  "seg": 667,
+  "start": 4049.228,
+  "end": 4049.648,
+  "speaker": "Unknown",
+  "en": "Thank you, Sonia.",
+  "zh": "谢谢你，Sonia。"
+ },
+ {
+  "seg": 668,
+  "start": 4049.688,
+  "end": 4050.288,
+  "speaker": "Unknown",
+  "en": "It's been a pleasure.",
+  "zh": "很荣幸。"
+ }
+]

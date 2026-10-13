@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":8,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":489}</script>
+<script type="application/json" class="pd-epn">{"Alex Rampell":3,"Affirm":2,"PayPal":8,"TrialPay":1,"Visa":2,"MasterCard":1,"1-800-Flowers":1,"支付":1,"信用卡":1,"智能体":492}</script>
 
 <script>
 (function(){

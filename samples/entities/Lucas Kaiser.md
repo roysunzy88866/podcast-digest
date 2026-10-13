@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":9,"Attention is All You Need":1,"LLM":63,"GPU":30,"OpenAI":197,"开源运动":1,"编码智能体":32,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":9,"Attention is All You Need":1,"LLM":64,"GPU":31,"OpenAI":199,"开源运动":1,"编码智能体":33,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"OLX Classifieds":1,"OpenClaw":24,"Hermes":2,"智能体":489,"知识图谱":7,"向量数据库":8,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"OLX Classifieds":1,"OpenClaw":24,"Hermes":2,"智能体":492,"知识图谱":8,"向量数据库":8,"混合搜索":2,"自动技能生成":1,"指令库":1}</script>
 
 <script>
 (function(){

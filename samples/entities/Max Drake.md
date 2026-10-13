@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":489,"多智能体协调":3,"编码智能体":32,"Claude Code":109,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
+<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":492,"多智能体协调":3,"编码智能体":33,"Claude Code":109,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
 
 <script>
 (function(){

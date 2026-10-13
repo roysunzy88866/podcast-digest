@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]] [[Prakash Narayanan]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Perplexity":10,"Perplexity Computer":1,"NVIDIA":70,"Apple":27,"Apple Silicon":1,"DeepMind":18,"Hugging Face":37,"Berkshire Hathaway":3,"JP Morgan":4,"智能体":489}</script>
+<script type="application/json" class="pd-epn">{"Perplexity":10,"Perplexity Computer":1,"NVIDIA":70,"Apple":27,"Apple Silicon":1,"DeepMind":19,"Hugging Face":37,"Berkshire Hathaway":3,"JP Morgan":4,"智能体":492}</script>
 
 <script>
 (function(){

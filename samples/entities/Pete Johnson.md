@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"MongoDB":5,"Voyage AI":1,"Anthropic":201,"Eleven Labs":10,"Uber":19,"智能体":489,"智能体记忆":3,"RAG":29,"嵌入模型":4}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"MongoDB":5,"Voyage AI":1,"Anthropic":203,"Eleven Labs":10,"Uber":19,"智能体":492,"智能体记忆":4,"RAG":29,"嵌入模型":4}</script>
 
 <script>
 (function(){

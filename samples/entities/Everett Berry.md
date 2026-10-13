@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":8,"GTM 工程":1,"智能体":489,"编排":8,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":1,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"Clay":8,"GTM 工程":1,"智能体":492,"编排":8,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":1,"Salesforce":36}</script>
 
 <script>
 (function(){

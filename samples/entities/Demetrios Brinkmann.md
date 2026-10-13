@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chris Benson":12,"智能体":489,"计算机使用":22,"MCP":91,"Agentic AI Foundation":1,"harness":65,"Claude Code":109,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
+<script type="application/json" class="pd-epn">{"Chris Benson":12,"智能体":492,"计算机使用":22,"MCP":92,"Agentic AI Foundation":1,"harness":65,"Claude Code":109,"MLOps community":1,"智能体蜂群":1,"去中介化":2}</script>
 
 <script>
 (function(){

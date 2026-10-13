@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":22,"Anthropic":201,"Discord":6,"Twitter":7,"智能体":489,"红队测试":8,"提示词注入":1,"越狱":2}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":22,"Anthropic":203,"Discord":6,"Twitter":7,"智能体":492,"红队测试":8,"提示词注入":1,"越狱":2}</script>
 
 <script>
 (function(){

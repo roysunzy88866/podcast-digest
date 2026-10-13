@@ -178,8 +178,8 @@ Ryan 对接下来几年的直觉推演 <button class="pd-ts" data-t="72:51" data
 **换个口味**
 
 - [[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」]]<span class="pd-rz">同概念:RSI、奖励黑客 (reward hacking)、推理 (inference)</span>
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切]]<span class="pd-rz">同概念:对齐 (alignment)、算力 (compute)、超级智能 (superintelligence)</span>
 - [[2026-08-25-dwarkesh-dylan-patel-3|两家公司，买下全世界的算力]]<span class="pd-rz">同公司:Anthropic、Meta、OpenAI · 同概念:推理 (inference)、算力 (compute)、出口管制 (export controls)</span>
-- [[2026-09-23-talks-jensen-huang-thinks-a-i-alarmism-has-gon|黄仁勋：AI 末日论已经喊过头了]]<span class="pd-rz">同公司:Anthropic、Hugging Face、OpenAI · 同概念:对齐 (alignment)、推理 (inference)</span>
 
 </div>
 </div>

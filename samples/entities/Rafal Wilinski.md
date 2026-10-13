@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"RunLayer":1,"技能":32,"智能体":489,"MCP":91,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":96,"ChatGPT":111}</script>
+<script type="application/json" class="pd-epn">{"RunLayer":1,"技能":33,"智能体":492,"MCP":92,"提示词注入":1,"Voyager":2,"渐进式披露":6,"Zapier":6,"Claude":96,"ChatGPT":111}</script>
 
 <script>
 (function(){

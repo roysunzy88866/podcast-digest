@@ -1,0 +1,197 @@
+{
+  "title_zh": "AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切",
+  "tldr": "AlphaGo 之父 David Silver 与 Lasse Espeholt 创办 Ineffable Intelligence，讲为什么放弃人类数据、押注自我发现的强化学习。",
+  "digest_md": "AlphaGo 击败李世石的那个项目背后，站着两位这次播客的嘉宾：David Silver，他 2009 年的博士论文就是用强化学习下围棋，后来领衔 AlphaGo；Lasse Espeholt，DeepMind 深度学习团队的早期成员，最早一批把强化学习搬到 GPU 上大规模运行的研究者。两人如今联合创办了 Ineffable Intelligence，目标是造一个超级学习者，并「与超级智能第一次接触」。\n\n## 为什么放着 DeepMind 的资源不要，出去创业？\n\nSilver 在 DeepMind 待了很多年，也承认那段经历很好。但他坚信通往超级智能的路不经过基于大语言模型的产品。世界上已经有成千上万的聪明人在做同一件事：预训练、后训练、编程，沿着大语言模型的路径加倍下注。\n\n「==我会是去做这件事的第 100001 个人吗==？」他想了想，觉得不如去看那盏没有人在下面找钥匙路灯——从经验中学习的路径。如果这条路走通了，会改变整个 AI 领域。[05:25 David Silver]\n\n公司名字 Ineffable（意为不可言说）也有讲究。Silver 说，超级智能有一天会发现深刻到人类语言无法表达的知识，所以它不该被人类语言的路径限制住。他还透露了一个半开玩笑的第二个理由：这条路不可能搞砸，也就是 in-f-able。\n\n## 超级学习者到底是什么意思？\n\nSilver 给了两个维度。深度上，它应该从一无所知开始，一路发现远超人类已知的知识；广度上，把它扔进任何一条经验之流——模拟世界、数字世界或物理世界——它都能不断学习。\n\n他的论证很朴素：人类大脑最初就是一团灰色的糊状物，没人给过我们一张蓝图或一份万亿条数据的数据集，语言、技术、科学、数学全是人类自己一步步发现的。「**这是 AI 领域还没人破解的东西**。」[10:41 David Silver]\n\n在他看来，今天的大语言模型不算超级学习者：那些看似自主的科学突破，其实有大量人类在回路里帮忙，而且语言本身可能根本不是承载这类知识的正确载体。\n\n## 简单目标 + 复杂环境 = 意外的复杂涌现\n\n有人会问：怎么写一个奖励函数，精确描述你想要的科学或有趣的数学？Silver 的答案是：别写。**给智能体一个简单直接的目标，但把它放进足够复杂的环境里**。\n\n他举自然界的例子：进化只优化适者生存这一个简单信号，却产生了生命的全部复杂性。人类也是先为了协调而沟通，为沟通而交易，为交易而发明算术，为理解工具而发展科学——一路都是追逐简单目标，复杂知识却不断涌现。\n\n围棋也是个好例子。Espeholt 指出，围棋只是个 19×19 的棋盘，规则极简单；如果这是单人游戏，往格子上摆棋子摆满为止，毫无策略可言。但放进第二个智能体，复杂性瞬间爆炸，学习曲线几乎看不到尽头。他们造的熔炉（crucibles）环境就是这个思路的放大版：有物理引擎驱动数百万物体交互的世界，也有数百万智能体互相作用的世界，复杂度远超 Atari 57 这类老基准。\n\n## AlphaGo 的教训：扔掉人类数据，几个小时顶两年\n\nAlphaGo 花了大约两年才击败李世石，期间大量使用人类棋谱、人类在回路里反复调校。而 AlphaGo Zero 完全放弃人类数据、纯靠自我对弈—— Silver 说，算法一旦做对，几个小时就超过了那两年的成果：国际象棋 4 小时击败史上最强 AI，围棋也只用了一两天。[31:02 David Silver]\n\n所以**放弃人类数据是一次主动的、务实的下注**：短期内牺牲一些性能，换来的是发现全新知识领域的能力。他不排斥一切先验——弱一些的、与具体环境无关的先验没问题，要避免的是那种把某个特定问题的全部知识都编码进去的强先验。\n\n至于 AI 会不会重新发现语言？Silver 认为觉得人类语言是推理的终点有点天真，而且从人类语言出发会把我们的偏见一起带进去——如果只用两千年前的人类语言训练，智能体可能还会相信世界是平的、疾病源于四体液。\n\n## 时机到了吗？Silver 自称预测很准\n\nSilver 说他喜欢做五五开的研究，对 Ineffable 他显然信心更高。他提到自己曾提前 10 年预测计算机围棋何时被攻克，精确到年份，对 StarCraft 和 AlphaProof 攻克国际数学奥林匹克的时间也预测对了。\n\n他认为现在是做这件事的正确时机：编码智能体加速研究、对规模效应的理解、技术栈的成熟都到位了。算力也是巨大驱动力——他们拿到了很大的集群，可以跑比 OpenAI 当年 hide-and-seek 实验多用十万倍算力的实验。团队只有 20 人，人均算力极高。\n\n## 在模拟里造超级智能，更快也更安全\n\nRich Sutton 曾在节目里看衰模拟。两位嘉宾不同意。Espeholt 举了自己在 Google Brain 做的 MetNet 天气模型：机器学习模型比基于物理的模拟还准，因为物理模拟会随时间累积误差。\n\nSilver 的论证更根本：只要模拟环境是图灵完备的，一切计算都可在其中表达；有交易媒介就有经济学，有多个智能体和通信渠道就有语言，数学在任何宇宙中都可表达。即使有些东西（比如量子计算）只能存在于真实世界，**如果在模拟中能造出超级智能，那会比在真实世界快 10 到 100 倍，而且是最安全的地方**。\n\n对齐问题也一样：在模拟里先搞清楚「超级智能社会如何和平共处、如何与较弱的智能和平共处」，把这门超级智能的科学跑在现实前面。他们承诺：在真实世界推进的每一步，都要以模拟中足够的证据为前提。现实世界要控制节奏，模拟世界要全速前进——他对 Demis 等人提出的节奏控制方向表示支持。\n\n监控不依赖语言的智能体也有办法：比如影子动作，看智能体想做什么但不让它真的做；或者用一个超级智能去监控另一个超级智能的举动规模。\n\n## 三年内见到超级智能？\n\n主持人问预测。Silver 说，一年内会有很强的证据表明方向正确；至于真正的超级智能——能自主发现远超人类的科学、数学、技术的系统——他原本想的是 3 到 5 年，现在因为编码智能体加速了研究，改口说 3 年。系好安全带。[67:04 David Silver]\n\n> 【背景】AlphaGo 是 DeepMind 开发的围棋 AI，2016 年击败世界冠军李世石；其后续版本 AlphaGo Zero 不用人类棋谱、仅靠自我对弈学习。AlphaStar 是同一团队开发的星际争霸 AI，团队多位成员后来成为 Ineffable 的联合创始人。\n\n## 本集带走\n\n- Ineffable 押注一条与大语言模型完全不同的路：不用人类数据，让智能体在复杂环境中追逐简单目标，靠自己发现知识。\n- AlphaGo 的经验是关键证据：放弃人类棋谱后，AlphaGo Zero 用几小时到几天就超过了之前两年的人类在回路成果。\n- 熔炉环境靠涌现产生复杂性：物理引擎、多智能体交互，简单规则可以生出无穷的学习空间。\n- 模拟里造超级智能更快也更安全：图灵完备的环境足以表达计算、经济、语言和数学，还能提前研究对齐问题。\n- Silver 的预测：一年内看到方向正确的强证据，三年内可能实现真正的超级智能。",
+  "quotes": [
+    {
+      "en": "Learning through reinforcement learning to get better and better and better and that that would be the thing which would lead to the emergence of intelligence and ultimately super intelligence.",
+      "zh": "通过强化学习来变得越来越好，而这将导致智能的涌现，并最终达到超级智能。",
+      "timestamp": "02:20",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "And the path that I believe in doesn't actually go through LLM-based products as an intermediate point.",
+      "zh": "而我所相信的这条路径，实际上并不以基于 LLM 的产品作为中间站。",
+      "timestamp": "04:22",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "And in the end, I realized that there's this other lamppost that right now no one is looking under and where if I actually put my effort there, there's a much higher chance of really having a massive impact on the field.",
+      "zh": "最终，我意识到还有另一根路灯柱，现在没有人往它下面看，而如果我真正把我的努力放在那里，就有大得多的机会真正对这个领域产生巨大的影响。",
+      "timestamp": "05:29",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "And it might just be that all of this human data that's been used in LLMs is kind of weighing things down.",
+      "zh": "而且很有可能，LLM 中使用的所有这些人类数据，正在拖累一切。",
+      "timestamp": "13:42",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "An optimization of a very simple, easy to describe quantities can often give rise to incredibly hard to describe complexity and emergence.",
+      "zh": "对一个非常简单、易于描述的量的追求和优化，往往会催生极其难以描述的复杂性和涌现。",
+      "timestamp": "18:19",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "I mean, my personal belief is that anyone who thinks that human language is the end point or the best way to reason, that perspective is a little naive.",
+      "zh": "我是说，我个人的看法是，任何认为人类语言是终点或最佳推理方式的人，那种观点都有点天真。",
+      "timestamp": "25:50",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "I would also say that starting from human language as like the approach for reasoning is somewhat problematic because it pulls in all of our biases about how we think agents should think.",
+      "zh": "我还要说，以人类语言作为推理的起点有点成问题，因为它会带入我们所有关于我们认为智能体应该如何思考的偏见。",
+      "timestamp": "26:30",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "So we are making a bet, and the bet we're making is that we can go further by giving up on the priors that everyone's relying on today, like the human data, like the whole internet of knowledge that everyone else is building their systems upon.",
+      "zh": "所以我们正在下一个赌注，我们下的赌注是，通过放弃如今每个人都依赖的先验，比如人类数据，比如其他所有人构建其系统所依托的整个互联网知识，我们可以走得更远。",
+      "timestamp": "28:36",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "It took a few hours to outperform the two years of work which we'd done with human in the loop.",
+      "zh": "花了几个小时就超越了我们在有人参与的情况下做了两年的工作。",
+      "timestamp": "31:02",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "The real point is that if it's possible to get all the way to a superintelligence in simulation, it will happen faster and it will happen safer.",
+      "zh": "关键在于，如果有可能在模拟中一路走到超级智能，那它会更快发生，也会更安全地发生。",
+      "timestamp": "42:51",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "They're gonna start to learn to say one thing and act in a different way.",
+      "zh": "它们会开始学会说一套、做的却是另一套。",
+      "timestamp": "45:10",
+      "speaker": "David Silver"
+    },
+    {
+      "en": "I'm actually very much supportive of the idea that there should be pacing of what happens for the frontier of AI in the real world.",
+      "zh": "实际上，我非常支持这样一种观点：现实世界中 AI 前沿所发生的事情应该被控制节奏。",
+      "timestamp": "51:07",
+      "speaker": "David Silver"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:21",
+      "speaker": "Unknown",
+      "en": "And that's an incredible thing that no one has cracked yet in AI.",
+      "zh": "而这是一件令人难以置信的事情，目前在 AI 领域还没有人破解。"
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "Unknown",
+      "en": "And so to me, that is the essence of what it will take to get to superintelligence, like a system that can just keep learning and discovering knowledge forever.",
+      "zh": "所以对我来说，这就是达到超级智能所需要的东西的本质——就像一个能够永远不断学习、不断发现知识的系统。"
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Unknown",
+      "en": "Learning through reinforcement learning to get better and better and better and that that would be the thing which would lead to the emergence of intelligence and ultimately super intelligence.",
+      "zh": "通过强化学习来变得越来越好，而这将导致智能的涌现，并最终达到超级智能。"
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Unknown",
+      "en": "In particular, it was definitely a surprise to me how a system that was trained on a massive amount of data could then be very quickly fine-tuned on a very small amount of data to kind of completely change its behavior.",
+      "zh": "特别是，一个在海量数据上训练的系统，随后能在非常少量的数据上被快速微调，从而彻底改变其行为，这对我来说绝对是一个惊喜。"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Unknown",
+      "en": "And the path that I believe in doesn't actually go through LLM-based products as an intermediate point.",
+      "zh": "而我所相信的这条路径，实际上并不以基于 LLM 的产品作为中间站。"
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "Unknown",
+      "en": "And in the end, I realized that there's this other lamppost that right now no one is looking under and where if I actually put my effort there, there's a much higher chance of really having a massive impact on the field.",
+      "zh": "最终，我意识到还有另一根路灯柱，现在没有人往它下面看，而如果我真正把我的努力放在那里，就有大得多的机会真正对这个领域产生巨大的影响。"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Unknown",
+      "en": "Because if this works, it's going to change the whole of AI.",
+      "zh": "因为如果这成功了，它将改变整个 AI。"
+    },
+    {
+      "timestamp": "13:42",
+      "speaker": "Unknown",
+      "en": "And it might just be that all of this human data that's been used in LLMs is kind of weighing things down.",
+      "zh": "而且很有可能，LLM 中使用的所有这些人类数据，正在拖累一切。"
+    },
+    {
+      "timestamp": "18:19",
+      "speaker": "Unknown",
+      "en": "An optimization of a very simple, easy to describe quantities can often give rise to incredibly hard to describe complexity and emergence.",
+      "zh": "对一个非常简单、易于描述的量的追求和优化，往往会催生极其难以描述的复杂性和涌现。"
+    },
+    {
+      "timestamp": "25:50",
+      "speaker": "Unknown",
+      "en": "I mean, my personal belief is that anyone who thinks that human language is the end point or the best way to reason, that perspective is a little naive.",
+      "zh": "我是说，我个人的看法是，任何认为人类语言是终点或最佳推理方式的人，那种观点都有点天真。"
+    },
+    {
+      "timestamp": "26:30",
+      "speaker": "Unknown",
+      "en": "I would also say that starting from human language as like the approach for reasoning is somewhat problematic because it pulls in all of our biases about how we think agents should think.",
+      "zh": "我还要说，以人类语言作为推理的起点有点成问题，因为它会带入我们所有关于我们认为智能体应该如何思考的偏见。"
+    },
+    {
+      "timestamp": "28:36",
+      "speaker": "Unknown",
+      "en": "So we are making a bet, and the bet we're making is that we can go further by giving up on the priors that everyone's relying on today, like the human data, like the whole internet of knowledge that everyone else is building their systems upon.",
+      "zh": "所以我们正在下一个赌注，我们下的赌注是，通过放弃如今每个人都依赖的先验，比如人类数据，比如其他所有人构建其系统所依托的整个互联网知识，我们可以走得更远。"
+    },
+    {
+      "timestamp": "31:02",
+      "speaker": "Unknown",
+      "en": "It took a few hours to outperform the two years of work which we'd done with human in the loop.",
+      "zh": "花了几个小时就超越了我们在有人参与的情况下做了两年的工作。"
+    },
+    {
+      "timestamp": "31:32",
+      "speaker": "Unknown",
+      "en": "So, you know, it has to be an active choice.",
+      "zh": "所以，你知道，这必须是一个主动的选择。"
+    },
+    {
+      "timestamp": "42:51",
+      "speaker": "Unknown",
+      "en": "The real point is that if it's possible to get all the way to a superintelligence in simulation, it will happen faster and it will happen safer.",
+      "zh": "关键在于，如果有可能在模拟中一路走到超级智能，那它会更快发生，也会更安全地发生。"
+    },
+    {
+      "timestamp": "45:10",
+      "speaker": "Unknown",
+      "en": "They're gonna start to learn to say one thing and act in a different way.",
+      "zh": "它们会开始学会说一套、做的却是另一套。"
+    },
+    {
+      "timestamp": "51:07",
+      "speaker": "Unknown",
+      "en": "I'm actually very much supportive of the idea that there should be pacing of what happens for the frontier of AI in the real world.",
+      "zh": "实际上，我非常支持这样一种观点：现实世界中 AI 前沿所发生的事情应该被控制节奏。"
+    },
+    {
+      "timestamp": "53:56",
+      "speaker": "Unknown",
+      "en": "And I actually feel quite bad about, like, the startups that are, like, getting compute now because it's becoming, like, harder and harder.",
+      "zh": "而且我实际上对那些现在才拿到算力的初创公司感到相当过意不去，因为拿到算力正变得越来越难。"
+    },
+    {
+      "timestamp": "66:59",
+      "speaker": "Unknown",
+      "en": "I originally thought within three to five years, my timelines have accelerated a little bit.",
+      "zh": "我最初想的是三到五年之内，我的时间线已经稍微提前了一些。"
+    }
+  ],
+  "voice_script": "今天这期节目的两位主角，来头都不小。一位是 David Silver，2009 年的博士论文就在用强化学习下围棋，后来领衔了那个击败李世石的 AlphaGo 项目；另一位是 Lasse Espeholt，DeepMind 深度学习团队的早期成员，最早一批把强化学习搬到 GPU 上大规模运行的研究者。这两个人现在一起创办了一家公司，叫 Ineffable Intelligence，目标是造一个超级学习者，用他们的话说，要\"与超级智能第一次接触\"。\n\n这期节目聊的核心问题就是：为什么放着 DeepMind 的资源不要，非要出来创业，而且走的是一条和大语言模型完全不同的路。\n\nSilver 在 DeepMind 待了很多年，也承认那段经历很好。但信念上，坚信通往超级智能的路，不经过基于大语言模型的产品。道理也不复杂——世界上已经有成千上万的聪明人在做同一件事：预训练、后训练、编程，全都在大语言模型这条路上加倍下注。所以我不会是去做这件事的第 100001 个人。想了想，不如去看那盏没有人在下面找钥匙的路灯——从经验中学习的路径。如果这条路走通了，会改变整个 AI 领域。公司名字也有讲究，Ineffable 意思是\"不可言说\"，Silver 觉得超级智能有一天会发现深刻到人类语言无法表达的知识，所以不该被人类语言的路径限制住。还半开玩笑地补了一个理由：这条路不可能搞砸，也就是 in-f-able。\n\n那这个\"超级学习者\"到底是什么意思？给了两个维度。深度上，要从一无所知开始，一路发现远超人类已知的知识；广度上，把它扔进任何一条经验之流——模拟世界、数字世界或者物理世界——都能不断学习。论证其实很朴素：人类大脑最初就是一团灰色的糊状物，没人给过我们一张蓝图，也没人喂过一份万亿条数据的数据集，语言、技术、科学、数学，全是人类自己一步步发现的。而在看来，这是 AI 领域还没人破解的东西。今天的大语言模型不算数——那些看似自主的科学突破，背后其实有大量人类在回路里帮忙，而且语言本身，可能根本不是承载这类知识的正确载体。\n\n接下来自然有人要问：那奖励怎么设计？你怎么写一个奖励函数，去精确描述你想要的科学发现或者有趣的数学？答案是：别写。给智能体一个简单直接的目标就够了，但把它放进足够复杂的环境里。自然界的例子摆在那儿——进化只优化\"适者生存\"这一个信号，却产生了生命的全部复杂性。人类也是一样，先为了协调而沟通，为沟通而交易，为交易而发明算术，为理解工具而发展科学，一路都在追逐简单目标，复杂知识却不断涌现。围棋也是个好例子，Espeholt 指出，那不过是个 19 乘 19 的棋盘，规则极简单；如果是单人游戏，往格子上摆棋子摆满为止，毫无策略可言。可一旦放进第二个智能体，复杂性瞬间爆炸，学习曲线几乎看不到尽头。他们造的所谓\"熔炉\"环境，就是这个思路的放大版：有物理引擎驱动数百万物体交互的世界，也有数百万智能体互相作用的世界。\n\n而这条路最大的信心来源，还是 AlphaGo 的教训。AlphaGo 花了大约两年才击败李世石，期间大量使用人类棋谱，人类在回路里反复调校。可后来的 AlphaGo Zero 完全放弃人类数据，纯靠自我对弈——Silver 说，算法一旦做对，几个小时就超过了那两年的成果：国际象棋 4 小时击败史上最强 AI，围棋也只用了一两天。所以放弃人类数据，是一次主动的、务实的下注：短期牺牲一些性能，换来发现全新知识的能力。当然，也不是排斥一切先验，弱一些的、和具体环境无关的先验没问题，要避免的是那种把某个特定问题的全部知识都硬编码进去的强先验。至于 AI 会不会重新发现语言？觉得，认为人类语言是推理终点的人，那种观点有点天真——而且从人类语言出发，会把我们的偏见一起带进去，如果只用两千年前的人类语言训练，智能体可能还会相信世界是平的。\n\n时机方面，Silver 说现在正合适：编码智能体在加速研究，对规模效应的理解到位了，技术栈成熟了，算力更是巨大驱动力——团队只有 20 个人，却拿到了很大的集群，可以跑比 OpenAI 当年 hide-and-seek 实验多十万倍算力的实验。\n\n还有一个更根本的问题：在模拟里造超级智能，靠谱吗？Rich Sutton 曾在节目里看衰模拟，两位嘉宾都不同意。Espeholt 举了自己在 Google Brain 做的 MetNet 天气模型：机器学习模型比基于物理的模拟还准，因为物理模拟会随时间累积误差。论证更根本：只要模拟环境是图灵完备的，一切计算都可在其中表达；有交易媒介就有经济学，有多个智能体和通信渠道就有语言，数学在任何宇宙中都可表达。而且如果在模拟中能造出超级智能，会比在真实世界快 10 到 100 倍，还是最安全的地方。对齐问题也一样，可以提前在模拟里搞清楚超级智能社会如何和平共处，把这门科学跑在现实前面，并承诺：在真实世界推进的每一步，都要以模拟中足够的证据为前提。\n\n最后是预测。一年内，会有很强的证据表明方向正确；至于真正的超级智能——能自主发现远超人类的科学、数学、技术的系统——原本想的是 3 到 5 年，现在因为编码智能体加速了研究，改口说 3 年。\n\n用 Silver 自己的话收尾：通过强化学习变得越来越好，这将导致智能的涌现，并最终达到超级智能。系好安全带。"
+}

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Google Brain</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Google Brain">GO</div><div class="pi"><h1 class="pt">Google Brain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Google Brain">GO</div><div class="pi"><h1 class="pt">Google Brain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]]**(04:19起):本集说它是 X 产出中最著名的例子,因对谷歌太重要而被移回谷歌,成为 X 三种产出路径之一
+- **[[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]]**(07:48起):Espeholt 离开 DeepMind 后去的团队，在那里做了 MetNet 天气预报模型，后来与 DeepMind 合并。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-13-pmf-he-tries-1-000-ideas-a-decade-kills-near|《X登月工厂掌门人:如何系统化地杀掉想法、做出Waymo》]] — 作为被讨论公司
+- [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Astro Teller]] · [[X]] · [[Alphabet]] · [[Waymo]] · [[Wing]] · [[Moonshot]] · [[终止标准]] · [[可检验假设]] · [[登月市场匹配]] · [[产品市场契合]]
+[[Astro Teller]] · [[David Silver]] · [[X]] · [[Ineffable Intelligence]] · [[Alphabet]] · [[DeepMind]] · [[Waymo]] · [[AlphaGo]] · [[Wing]] · [[AlphaGo Zero]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"X":4,"Alphabet":1,"Waymo":21,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":31}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"David Silver":1,"X":4,"Ineffable Intelligence":1,"Alphabet":1,"DeepMind":19,"Waymo":21,"AlphaGo":4,"Wing":1,"AlphaGo Zero":1}</script>
 
 <script>
 (function(){

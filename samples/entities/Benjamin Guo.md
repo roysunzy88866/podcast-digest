@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":489,"智能封建主义":1,"SaaS":23}</script>
+<script type="application/json" class="pd-epn">{"ZoComputer":1,"Zo":1,"个人云":1,"技术封建主义":1,"智能体":492,"智能封建主义":1,"SaaS":23}</script>
 
 <script>
 (function(){

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":197,"Anthropic":201,"Meta":53,"ChatGPT":111,"LLM":63,"幻觉":12,"诱导性提示":1,"互动率":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"Forum AI":1,"OpenAI":199,"Anthropic":203,"Meta":53,"ChatGPT":111,"LLM":64,"幻觉":12,"诱导性提示":1,"互动率":1}</script>
 
 <script>
 (function(){

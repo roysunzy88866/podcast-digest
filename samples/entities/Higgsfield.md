@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alex Mashrabov]] · [[Snap]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Canva]] · [[基准测试]] · [[开源模型]] · [[vibe coding]] · [[tokenomics]]
 
-<script type="application/json" class="pd-epn">{"Alex Mashrabov":1,"Snap":3,"Cursor":86,"OpenAI":197,"Anthropic":201,"Canva":5,"基准测试":2,"开源模型":4,"vibe coding":49,"tokenomics":2}</script>
+<script type="application/json" class="pd-epn">{"Alex Mashrabov":1,"Snap":3,"Cursor":86,"OpenAI":199,"Anthropic":203,"Canva":5,"基准测试":2,"开源模型":4,"vibe coding":49,"tokenomics":2}</script>
 
 <script>
 (function(){

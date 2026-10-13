@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Harry Stebbings]] · [[Uber]] · [[Salesforce]] · [[Figma]] · [[Cursor]] · [[开源模型]] · [[Revolut]] · [[微调]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"智能体":489,"Harry Stebbings":21,"Uber":19,"Salesforce":36,"Figma":22,"Cursor":86,"开源模型":4,"Revolut":5,"微调":36,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":492,"Harry Stebbings":21,"Uber":19,"Salesforce":36,"Figma":22,"Cursor":86,"开源模型":4,"Revolut":5,"微调":36,"Palantir":20}</script>
 
 <script>
 (function(){

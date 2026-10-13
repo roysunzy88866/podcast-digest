@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":21,"Google":71,"智能体":489,"主观能动性":1,"零日漏洞":3,"护栏":89,"governance":7,"开源":41}</script>
+<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":21,"Google":71,"智能体":492,"主观能动性":1,"零日漏洞":3,"护栏":89,"governance":7,"开源":41}</script>
 
 <script>
 (function(){

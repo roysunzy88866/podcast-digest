@@ -163,8 +163,8 @@ AI 时代并购格局在拓宽：以前医疗领域只有约五家支付方和 M
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|为什么医疗是 AI 受益最大的行业: Julie Yu 的判断]]<span class="pd-rz">同概念:AI、LLMs</span>
+- [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费]]<span class="pd-rz">同概念:AI、智能体 (agents)</span>
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|Figma CEO Dylan Field:想赢,产品就得有品味]]<span class="pd-rz">同概念:AI</span>
-- [[2025-11-02-lennys-the-making-of-canva|Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来]]<span class="pd-rz">同概念:AI</span>
 
 </div>
 <div class="pd-ex">

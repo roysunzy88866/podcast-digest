@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Alon Schindel]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":201,"OpenAI":197,"Hugging Face":37,"NVIDIA":70,"智能体":489,"超级智能":10,"对齐":23,"递归自我改进":12,"沙箱":96}</script>
+<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":203,"OpenAI":199,"Hugging Face":37,"NVIDIA":70,"智能体":492,"超级智能":12,"对齐":25,"递归自我改进":12,"沙箱":98}</script>
 
 <script>
 (function(){

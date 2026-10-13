@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]] [[Jim Clark]] [[Alex Atallah]] [[Amjad Masad]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":71,"智能体":489,"harness":65,"SAST":2,"上下文":32,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
+<script type="application/json" class="pd-epn">{"Gregor Vand":2,"Wiz":2,"Google":71,"智能体":492,"harness":65,"SAST":2,"上下文":32,"零日时钟":1,"CI-CD 流水线":1,"可复现性":1}</script>
 
 <script>
 (function(){

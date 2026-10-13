@@ -49,7 +49,7 @@ unlisted: true
 
 [[Steven Sinofsky]] · [[Theo Jaffe]] · [[Andrew Chen]] · [[Martin Casado]] · [[Sofia Puccini]] · [[Matt Perault]] · [[Aaron Levie]] · [[监管俘获]] · [[a16z]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Steven Sinofsky":4,"Theo Jaffe":8,"Andrew Chen":1,"Martin Casado":7,"Sofia Puccini":4,"Matt Perault":1,"Aaron Levie":3,"监管俘获":3,"a16z":21,"智能体":489}</script>
+<script type="application/json" class="pd-epn">{"Steven Sinofsky":4,"Theo Jaffe":8,"Andrew Chen":1,"Martin Casado":7,"Sofia Puccini":4,"Matt Perault":1,"Aaron Levie":3,"监管俘获":3,"a16z":21,"智能体":492}</script>
 
 <script>
 (function(){

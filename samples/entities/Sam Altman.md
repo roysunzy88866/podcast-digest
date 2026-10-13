@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":28,"智能体":489,"沙箱":96,"对齐失败":1,"推理":98,"权力集中":1,"主观能动性":1,"OpenAI":197,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":28,"智能体":492,"沙箱":98,"对齐失败":1,"推理":98,"权力集中":1,"主观能动性":1,"OpenAI":199,"YC":17}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":489,"LLM":63,"细节层级":1,"视觉模型":1,"世界模型":14}</script>
+<script type="application/json" class="pd-epn">{"Nereu":1,"Unity":2,"MongoDB":5,"资产标签系统":1,"实体组件系统":1,"智能体":492,"LLM":64,"细节层级":1,"视觉模型":1,"世界模型":14}</script>
 
 <script>
 (function(){

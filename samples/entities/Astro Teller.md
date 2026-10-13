@@ -75,11 +75,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"X":4,"Alphabet":1,"Waymo":21,"Google Brain":1,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":31}</script>
+<script type="application/json" class="pd-epn">{"X":4,"Alphabet":1,"Waymo":21,"Google Brain":2,"Wing":1,"Moonshot":3,"终止标准":1,"可检验假设":1,"登月市场匹配":1,"产品市场契合":31}</script>
 
 <script>
 (function(){

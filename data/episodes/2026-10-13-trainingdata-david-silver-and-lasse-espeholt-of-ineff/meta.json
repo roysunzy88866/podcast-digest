@@ -1,0 +1,35 @@
+{
+  "id": "2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff",
+  "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI9233856839.mp3",
+  "duration_sec": 4050.288,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 669,
+  "asr": true,
+  "title_en": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+  "podcast": "Training Data",
+  "date": "2026-10-13",
+  "cover_official_url": "https://megaphone.imgix.net/podcasts/d7ae4536-c437-11f1-9011-633961538ee5/image/766805916706cc19567c3742fd5a80b3.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+  "added": "2026-10-13",
+  "added_at": "2026-10-13T14:31:48.765Z",
+  "speaker_map": {
+    "SPEAKER_01": "David Silver"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "David Silver"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切",
+  "guest_name": "David Silver",
+  "guest_title": "Ineffable 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://megaphone.imgix.net/podcasts/d7ae4536-c437-11f1-9011-633961538ee5/image/766805916706cc19567c3742fd5a80b3.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "origin_px": "2995x2995",
+    "aspect": 1,
+    "fetched_at": "2026-10-13T15:30:34.522Z"
+  }
+}

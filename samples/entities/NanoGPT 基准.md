@@ -25,7 +25,7 @@ unlisted: true
 
 [[Martin Casado]] · [[Owen He]] · [[Daval Ajada]] · [[MakerMaker]] · [[RSI]] · [[自催化]] · [[闭环]] · [[分子与分母]] · [[多智能体系统]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"Daval Ajada":1,"MakerMaker":1,"RSI":6,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":489}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"Daval Ajada":1,"MakerMaker":1,"RSI":6,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":492}</script>
 
 <script>
 (function(){

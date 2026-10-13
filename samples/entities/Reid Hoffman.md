@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":23,"Brené Brown":1,"递归自我改进":12,"勇敢领导力":1,"智能体":489,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":25}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":4,"对齐":25,"Brené Brown":1,"递归自我改进":12,"勇敢领导力":1,"智能体":492,"勇气":1,"AI 原生公司":1,"盔甲":1,"数据中心":25}</script>
 
 <script>
 (function(){

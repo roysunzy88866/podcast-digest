@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Simile":1,"智能体":489,"模拟":1,"人类行为基础模型":1,"反思":1,"记忆":28,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Simile":1,"智能体":492,"模拟":1,"人类行为基础模型":1,"反思":1,"记忆":28,"因果机制":1,"反事实":1,"随机对照试验":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ben]] · [[Cursor]] · [[Postgres]] · [[智能体]] · [[分片]] · [[背压]] · [[隔离]] · [[冗余]] · [[解耦]] · [[开发者体验]]
 
-<script type="application/json" class="pd-epn">{"Ben":3,"Cursor":86,"Postgres":6,"智能体":489,"分片":1,"背压":1,"隔离":1,"冗余":1,"解耦":1,"开发者体验":2}</script>
+<script type="application/json" class="pd-epn">{"Ben":3,"Cursor":86,"Postgres":6,"智能体":492,"分片":1,"背压":1,"隔离":1,"冗余":1,"解耦":1,"开发者体验":2}</script>
 
 <script>
 (function(){

@@ -38,11 +38,11 @@ aliases: ["Akshat"]
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":7,"智能体":489,"AX":1,"DX":4,"沙箱":96,"推理":98,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Vibhu":1,"Modal":7,"智能体":492,"AX":1,"DX":4,"沙箱":98,"推理":98,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

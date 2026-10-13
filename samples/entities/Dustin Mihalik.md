@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":91,"Indeed":1,"CareerScout":1,"Claude":96,"ChatGPT":111,"结构化内容":1,"update model context":1}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":92,"Indeed":1,"CareerScout":1,"Claude":96,"ChatGPT":111,"结构化内容":1,"update model context":1}</script>
 
 <script>
 (function(){

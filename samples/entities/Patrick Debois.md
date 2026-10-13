@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":489,"harness":65,"上下文":32,"护栏":89,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
+<script type="application/json" class="pd-epn">{"暗工厂":4,"智能体":492,"harness":65,"上下文":32,"护栏":89,"持续学习":1,"Guy Pajani":3,"持续交付":2,"Simon Maple":10,"铺装路":1}</script>
 
 <script>
 (function(){
