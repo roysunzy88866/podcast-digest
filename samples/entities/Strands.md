@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Strands</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Strands">ST</div><div class="pi"><h1 class="pt">Strands</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Strands">ST</div><div class="pi"><h1 class="pt">Strands</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]]**(03:54起):本集说 Strands 是 AWS 的开源智能体框架（构建智能体的开源 SDK），适用于任何模型和云服务商，目标是让构建生产级智能体尽可能简单。
+- **[[2026-10-08-talks-why-bigger-context-windows-won-t-save-yo|《无限上下文窗口是个神话：别再往里塞东西了》]]**(04:24起):本集说 strands 是 AWS 维护的完全开源免费的智能体框架，模型无关（一行代码换 OpenAI/Gemini/Anthropic），内置对话管理器（滑动窗口/摘要/组合）、swarm 多智能体模式和 agent state。
 
 ## ① 提到它的金句
 
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-16-ainativedev-aws-39-s-marc-brooker-specs-not-code-are|《AWS 杰出工程师：智能体时代，难的不是写代码，是写规格》]] — 作为被讨论公司
+- [[2026-10-08-talks-why-bigger-context-windows-won-t-save-yo|《无限上下文窗口是个神话：别再往里塞东西了》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Maple]] · [[Marc Brooker]] · [[AWS]] · [[智能体]] · [[Agent Core]] · [[on call]] · [[事后分析]] · [[智能体政策]] · [[Dogwood]] · [[规范]]
+[[AWS]] · [[智能体]] · [[Simon Maple]] · [[Elizabeth Fuentes Leone]] · [[Marc Brooker]] · [[Neo4j]] · [[Agent Core]] · [[上下文工程]] · [[on call]] · [[上下文窗口]]
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Marc Brooker":1,"AWS":22,"智能体":483,"Agent Core":1,"on call":2,"事后分析":2,"智能体政策":1,"Dogwood":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"AWS":23,"智能体":487,"Simon Maple":10,"Elizabeth Fuentes Leone":1,"Marc Brooker":1,"Neo4j":5,"Agent Core":1,"上下文工程":18,"on call":2,"上下文窗口":18}</script>
 
 <script>
 (function(){

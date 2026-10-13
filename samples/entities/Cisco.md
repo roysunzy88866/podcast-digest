@@ -37,7 +37,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Cursor]] · [[ChatGPT]] · [[Decagon]] · [[Jeetu Patel]] · [[Gavin Baker]] · [[Elena Berger]] · [[Lenny]] · [[David George]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":70,"Cursor":86,"ChatGPT":110,"Decagon":9,"Jeetu Patel":1,"Gavin Baker":1,"Elena Berger":5,"Lenny":69,"David George":6,"Joe Schmidt":2}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":70,"Cursor":86,"ChatGPT":111,"Decagon":9,"Jeetu Patel":1,"Gavin Baker":1,"Elena Berger":5,"Lenny":69,"David George":6,"Joe Schmidt":2}</script>
 
 <script>
 (function(){

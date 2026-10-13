@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SaaS</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>22</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SaaS">SA</div><div class="pi"><h1 class="pt">SaaS</h1><div class="byl">概念</div><div class="nums">本站收录 <b>23</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -29,6 +29,7 @@ unlisted: true
 - **[[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]]**(42:40起):本集说很多 SaaS 公司只是在给猪涂口红撒点 AI 粉尘加个副驾驶，协同工作时代的自主智能体对没有记录系统和 AI 战略的 SaaS 公司是真正的威胁
 - **[[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]]**(05:27起):本集说 Mural 的定价模式反映了传统 SaaS 按座位收费的方式
 - **[[2026-09-03-talks-everyone-gets-a-software-company-benjami|《Zo 的 Ben：把互联网的家从「技术封建主义」手里夺回来》]]**(03:38起):本集把 SaaS 提供商描绘成技术封建主义的收租层：服务锁定用户、越变越糟、把数据锁死再卖回给你；Anthea 取消了 Squarespace、Calendly 等订阅全部换成 Zo。
+- **[[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]]**(02:02起):Tigani 说他做过两个数据库 SaaS 服务，并认为很多开源公司只把 SaaS 当简单变现手段，真正的创新机会在于把托管服务本身做好。
 - **[[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]]**(00:44起):本集说 Bolt 用「Sorry, SaaS」广告牌为 SaaS 末日道歉，但同时认为这是健康的利润率挤水分，像 Shopify 这样的公司能穿针而过
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(14:06起):本集说 SaaS 没死但已转型:老式 SaaS 只是点状解决方案、需要人操作,现在软件自己跑完整工作流;SaaS 股票虽曾下跌但已复苏,记录系统的护城河目前仍然完好。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(37:29起):本集说年初流行「SaaS 末日论」,如今软件指数回到年初水平但剧烈分化;CIO 们投 AI 的钱最容易来自不批新 SaaS 项目,SaaS 自救靠现有分发叠加新 AI 产品、增速加速 10 个百分点以上
@@ -73,7 +74,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-07-31-lennys-he-saved-openai-bret-taylor|《Bret Taylor：智能体是新应用，软件要按结果定价》]] — 作为概念(提及)
@@ -93,6 +94,7 @@ unlisted: true
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|《Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉》]] — 作为概念(提及)
 - [[2026-08-26-productpodcast-mural-cpo-on-how-to-put-ai-in-multi-play|《视觉协作在 AI 时代为什么消失了》]] — 作为概念(提及)
 - [[2026-09-03-talks-everyone-gets-a-software-company-benjami|《Zo 的 Ben：把互联网的家从「技术封建主义」手里夺回来》]] — 作为概念(提及)
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]] — 作为概念
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|《解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR》]] — 作为概念
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为概念
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为概念
@@ -104,7 +106,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[NVIDIA]] · [[微调]] · [[Google]] · [[推理]] · [[Stripe]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"OpenAI":197,"Cursor":86,"NVIDIA":70,"微调":36,"Google":71,"推理":98,"Stripe":48,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":487,"Anthropic":201,"OpenAI":197,"Cursor":86,"NVIDIA":70,"微调":36,"Google":71,"推理":98,"Stripe":48,"Salesforce":36}</script>
 
 <script>
 (function(){

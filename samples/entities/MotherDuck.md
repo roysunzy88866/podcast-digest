@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MotherDuck</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MotherDuck">MO</div><div class="pi"><h1 class="pt">MotherDuck</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MotherDuck">MO</div><div class="pi"><h1 class="pt">MotherDuck</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]]**(22:11起):本集主角 Jordan Tigani 创办的数据库公司,构建 DuckDB 的托管云版本,并围绕数据仓库拼装可视化(dives)、数据摄取(flights)和智能体接口等 AI 数据栈组件
+- **[[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]]**(22:03起):本集主线公司：Tigani 被解雇后创办的商业公司，做托管版 DuckDB 云服务——不是卖 DuckDB，而是替你运行它，并给 DuckDB 创始人联合创始人股份绑定利益。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]] — 作为被讨论公司
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jordan Tigani]] · [[DuckDB]] · [[DuckDB Labs]] · [[BigQuery]] · [[Snowflake]] · [[open core]] · [[数据仓库]] · [[智能体]] · [[仪表盘]]
+[[Jordan Tigani]] · [[DuckDB]] · [[BigQuery]] · [[Snowflake]] · [[数据仓库]] · [[智能体]] · [[仪表盘]] · [[DuckDB Labs]] · [[开源]] · [[open core]]
 
-<script type="application/json" class="pd-epn">{"Jordan Tigani":1,"DuckDB":2,"DuckDB Labs":1,"BigQuery":1,"Snowflake":20,"open core":1,"数据仓库":3,"智能体":483,"仪表盘":2}</script>
+<script type="application/json" class="pd-epn">{"Jordan Tigani":2,"DuckDB":3,"BigQuery":2,"Snowflake":21,"数据仓库":4,"智能体":487,"仪表盘":3,"DuckDB Labs":1,"开源":41,"open core":1}</script>
 
 <script>
 (function(){

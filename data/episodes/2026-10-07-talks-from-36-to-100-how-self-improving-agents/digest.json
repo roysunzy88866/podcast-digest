@@ -1,0 +1,191 @@
+{
+  "title_zh": "从 36% 到 100%:让 AI 智能体自己写经验手册",
+  "tldr": "RunLayer 创始工程师 Rafal Wilinski 讲解如何让 AI 智能体自动沉淀「技能」,把一次成功变成全公司的 playbook。",
+  "digest_md": "想象你公司里最强的工程师,每次攻克一个难题,都把解法写成手册交给团队,以后谁遇到同样的问题都不用从头摸索。Rafal Wilinski 说,这件事现在可以让 AI 自动完成——他在 RunLayer 做的,就是让智能体一边干活,一边把自己的经验写成可复用的技能,而且整个公司共享。\n\n## 什么是技能?为什么它这么重要?\n\n技能(skill)本质上是一份 playbook:智能体平时只看到它的简短摘要,一旦判断某个任务用得上,就把全文读进上下文,改变自己的行动路线。技术上这叫渐进式披露(progressive disclosure)。\n\n为什么重要?因为模型现在能连续推理很久,但方向错了就会越挖越深——可能花几百次工具调用去捍卫一个错误结论。初始方向决定一切,而**技能正是给智能体指路的**。Rafal 说,有价值的技能往往是那些「没人愿意重新发现的流程」[04:35 Unknown]:比如回滚上线要按什么顺序执行脚本和功能开关,比如对付一个快流失的大客户该用什么措辞。这些知识藏在公司内部,让智能体从零摸索,大概率失败——他认为很多 AI 试点项目失败,就是因为没给智能体这些上下文。\n\n## 技能现在的三个坑\n\n第一个坑:整个生态是给开发者设计的。技能大多是 markdown 文件、命令行命令、Git 仓库。可市场、法务、财务的人也在用 AI,他们怎么创建和分享技能?他还调侃了流行的安装命令,说那是他唯一见过的「一条命令同时装下技能、免费的提示注入、需要 root 权限的脚本和别人的 API 密钥」[06:14 Unknown]——RunLayer 每天扫描数千个技能,里面什么奇怪的东西都有。\n\n第二个坑：没人愿意写。难题解决后，复盘和沉淀要花时间和精力，**大多数时候知识就这么流失了**。\n\n第三个坑：不是所有客户端都支持技能。用 Claude 生态没问题，但很多部门还在用 ChatGPT 之类的工具。\n\n## MCP 可以当分发层，一次解决两个坑\n\n很多人以为技能出现后 MCP 就死了，不用再碰 OAuth,把命令和密钥硬编码进 markdown 文件就算进步。Rafal 认为大家搞反了：**技能提供知道怎么做的知识，MCP 工具提供能去做的能力，两者不冲突**。而且 MCP 本身就能当技能的分发协议：建一个远程 MCP 服务器当全公司的知识源头，任何客户端都能连上来搜索技能，服务器还能按角色和查询执行权限策略。MCP 生态里已经有一个叫 skills over MCP 的工作组在推这件事。这样一来，开发者优先和客户端不支持这两个坑就都填上了，管理者也有了统一治理知识的入口。[08:08 Unknown]\n\n## 智能体怎么自己写技能？向 Minecraft 学习\n\n2023 年的 Voyager 论文给了他启发：研究者把智能体丢进 Minecraft,不给任何指令，它自己设目标、自己进步，靠的就是一个技能库——每次发现新东西，就把达成发现的工具调用序列存成代码。以后要造钻石镐，直接去库里取配方，不用重新发明。核心思想是：把探索变成可复用的流程知识。[11:25 Unknown]\n\nRunLayer 做法类似：让智能体正常干活，任务成功且过程有价值时，就把执行记录交给一个模型,蒸馏出一条技能。更关键的是失败——跑偏的任务才是最丰富的信号，因为它暴露了缺失的护栏、没考虑到边界情况。**成功让技能更可信，失败让技能更健壮**，整个过程无人在环。\n\n## 36% 到 100% 是怎么发生的\n\n他们有个任务:在 AWS Lambda 里跑一个 Chromium 分支,用 Sonnet 4.6,成功率只有 36%。打开自改进开关后,某一次运行里智能体破解了难题,蒸馏出的技能被注入之后所有运行,**成功率直接到 100%**。[13:29 Unknown] 除了准确率,技能还收窄了搜索空间,智能体少走弯路,省 token 也省钱。\n\n## 前沿智能是租来的，知识要趁早存下来\n\n更深的理由：**前沿智能是租的、借来的，随时可能消失**。模型会被下线,也会变笨——他提到大家天天在 Twitter 和 Slack 上抱怨某天的 Opus 特别蠢。所以趁现在能用上最好的模型,就该用它来发现并固化有用的流程,把「公司里活儿是怎么干的」做成一份集体潜意识。[14:33 Unknown]\n\n## 单个智能体变聪明，不如整个公司一起变聪明\n\n把前面几块拼起来——技能沉淀知识、MCP 统一分发、中央技能库持续更新——再乘以公司里每一个智能体和客户端，就得到 RunLayer 所谓的自改进组织飞轮:相似的运行被聚类、蒸馏成技能,通过防提示注入、防隐私泄露等检查后进入技能库,再通过 MCP 网关分发给全公司。一个智能体解出难题,全公司未来都不用重新摸索。[15:45 Unknown]\n\n他最后回答了很多人焦虑的问题:模型在变成大众商品,软件成本趋零,大家都好像在做一样的东西,护城河在哪?他的答案是:这个飞轮本身就是护城河——它是你公司独有的、被治理过的教训沉淀,竞争对手抄不走你的内部文化和身份。[17:53 Unknown]\n\n## 本集带走\n\n- 技能就是智能体按需读取的 playbook,能决定智能体的初始方向,避免在错误路线上浪费时间和钱。\n- MCP 不只提供工具,还能当技能的分发层，让不懂技术的人和非开发客户端也能用上技能。\n- 失败的运行比成功的更有价值：它暴露缺失的护栏和边界情况，能自动喂回去把技能变得更健壮。\n- 一个真实案例:开自改进开关后，任务成功率从 36% 升到 100%,还省了 token。\n- 模型是租来的、会退化的，趁现在把公司怎么做事的知识固化下来，这份飞轮就是抄不走的护城河。",
+  "quotes": [
+    {
+      "en": "Valuable skills are the rituals that nobody wants rediscovered.",
+      "zh": "有价值的技能是那些没人想要被重新发现的仪式。",
+      "timestamp": "04:32",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "That's why I believe so many AIPs or POCs are failing, because you're not giving agents the relevant context and the playbooks how to act within your company.",
+      "zh": "这就是为什么我认为如此多的 AI 试点或 POC 在失败,因为你没有给智能体相关的上下文以及在你的公司内如何行动的实战手册。",
+      "timestamp": "05:06",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "That's the only command I know that installs not just a skill, but also free prompt injections,",
+      "zh": "这是我所知道的唯一一个命令,不仅安装一个技能,还免费附赠提示词注入。",
+      "timestamp": "06:14",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "I can now hard-code a bunch of CLI commands, hard-code my API key inside markdown file, and call it a progress, right?",
+      "zh": "我现在可以把一堆 CLI 命令硬编码,把我的 API key 硬编码进 markdown 文件,然后称之为进步,对吧?",
+      "timestamp": "07:38",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "Skills can be delivering the knowledge how to do something, and tools gives us capabilities.",
+      "zh": "技能可以传递如何做某事的知识,而工具给我们能力。",
+      "timestamp": "07:48",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "You can create a remote MCP server, which can become the source of truth across your whole company.",
+      "zh": "你可以创建一个远程 MCP 服务器,它可以成为你整个公司的事实来源。",
+      "timestamp": "08:10",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "This is the core idea that I want to carry forward is that exploration should be turned into reusable procedural knowledge.",
+      "zh": "这就是我想延续下去的核心理念:探索应该被转化为可复用的程序性知识。",
+      "timestamp": "11:25",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "So a run that goes sideways is actually the richest signal that you can get because it exposes the missing guardrail, the missing library, some kind of edge case that you haven't thought about upfront.",
+      "zh": "所以一次跑偏的运行实际上是你能得到的最丰富的信号,因为它暴露了缺失的护栏、缺失的库,或者某个你没有提前想到的边界情况。",
+      "timestamp": "12:10",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "The success rate is the easiest number to show, but Google's skill is narrowing the search space.",
+      "zh": "成功率是最容易展示的数字,但 Google 的技能其实是在缩小搜索空间。",
+      "timestamp": "13:36",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "The problem is that frontier intelligence is rented or borrowed.",
+      "zh": "问题在于,前沿智能是租来的或者借来的。",
+      "timestamp": "14:08",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "So while we have the access to the best version of that intelligence, we should be using that to discover and persist those useful procedures.",
+      "zh": "所以,趁我们还能用上最好的那个版本的智能,我们应该利用它去发现并持久化那些有用的流程。",
+      "timestamp": "14:24",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "We should be building a catalog of how the works gets done inside our company as a collective subconscious.",
+      "zh": "我们应该建立一个公司内部工作如何完成的目录,作为一种集体潜意识。",
+      "timestamp": "14:33",
+      "speaker": "Rafal Wilinski"
+    },
+    {
+      "en": "And I believe the moat can be in building this flywheel and distilling the knowledge to this flywheel because it's like your own hardwood lessons distilled, governed of how your company does things, you know?",
+      "zh": "而我相信,护城河可以在于构建这个飞轮、把知识提炼到这个飞轮里,因为它就像你自己辛苦得来的教训被提炼出来、治理起来的公司做事方式,你知道吗?",
+      "timestamp": "17:08",
+      "speaker": "Rafal Wilinski"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:32",
+      "speaker": "Unknown",
+      "en": "Valuable skills are the rituals that nobody wants rediscovered.",
+      "zh": "有价值的技能是那些没人想要被重新发现的仪式。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Unknown",
+      "en": "That's why I believe so many AIPs or POCs are failing, because you're not giving agents the relevant context and the playbooks how to act within your company.",
+      "zh": "这就是为什么我认为如此多的 AI 试点或 POC 在失败,因为你没有给智能体相关的上下文以及在你的公司内如何行动的实战手册。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Unknown",
+      "en": "That's the only command I know that installs not just a skill, but also free prompt injections,",
+      "zh": "这是我所知道的唯一一个命令,不仅安装一个技能,还免费附赠提示词注入。"
+    },
+    {
+      "timestamp": "06:27",
+      "speaker": "Unknown",
+      "en": "Trust me, at RunLayer, we are scanning thousands of skills every day, and there is really weird stuff inside.",
+      "zh": "相信我,在 RunLayer,我们每天扫描数千个技能,里面确实有非常诡异的东西。"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Unknown",
+      "en": "I can now hard-code a bunch of CLI commands, hard-code my API key inside markdown file, and call it a progress, right?",
+      "zh": "我现在可以把一堆 CLI 命令硬编码,把我的 API key 硬编码进 markdown 文件,然后称之为进步,对吧?"
+    },
+    {
+      "timestamp": "07:48",
+      "speaker": "Unknown",
+      "en": "Skills can be delivering the knowledge how to do something, and tools gives us capabilities.",
+      "zh": "技能可以传递如何做某事的知识,而工具给我们能力。"
+    },
+    {
+      "timestamp": "08:10",
+      "speaker": "Unknown",
+      "en": "You can create a remote MCP server, which can become the source of truth across your whole company.",
+      "zh": "你可以创建一个远程 MCP 服务器,它可以成为你整个公司的事实来源。"
+    },
+    {
+      "timestamp": "11:25",
+      "speaker": "Unknown",
+      "en": "This is the core idea that I want to carry forward is that exploration should be turned into reusable procedural knowledge.",
+      "zh": "这就是我想延续下去的核心理念:探索应该被转化为可复用的程序性知识。"
+    },
+    {
+      "timestamp": "12:10",
+      "speaker": "Unknown",
+      "en": "So a run that goes sideways is actually the richest signal that you can get because it exposes the missing guardrail, the missing library, some kind of edge case that you haven't thought about upfront.",
+      "zh": "所以一次跑偏的运行实际上是你能得到的最丰富的信号,因为它暴露了缺失的护栏、缺失的库,或者某个你没有提前想到的边界情况。"
+    },
+    {
+      "timestamp": "13:06",
+      "speaker": "Unknown",
+      "en": "It was just, you know, it's not production ready to have 36% success rate.",
+      "zh": "你知道的,36% 的成功率是不能拿去上生产的。"
+    },
+    {
+      "timestamp": "13:27",
+      "speaker": "Unknown",
+      "en": "And the success ratio went to 100%.",
+      "zh": "成功率就到了 100%。"
+    },
+    {
+      "timestamp": "13:36",
+      "speaker": "Unknown",
+      "en": "The success rate is the easiest number to show, but Google's skill is narrowing the search space.",
+      "zh": "成功率是最容易展示的数字,但 Google 的技能其实是在缩小搜索空间。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "The problem is that frontier intelligence is rented or borrowed.",
+      "zh": "问题在于,前沿智能是租来的或者借来的。"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "Unknown",
+      "en": "So while we have the access to the best version of that intelligence, we should be using that to discover and persist those useful procedures.",
+      "zh": "所以,趁我们还能用上最好的那个版本的智能,我们应该利用它去发现并持久化那些有用的流程。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Unknown",
+      "en": "We should be building a catalog of how the works gets done inside our company as a collective subconscious.",
+      "zh": "我们应该建立一个公司内部工作如何完成的目录,作为一种集体潜意识。"
+    },
+    {
+      "timestamp": "17:08",
+      "speaker": "Unknown",
+      "en": "And I believe the moat can be in building this flywheel and distilling the knowledge to this flywheel because it's like your own hardwood lessons distilled, governed of how your company does things, you know?",
+      "zh": "而我相信,护城河可以在于构建这个飞轮、把知识提炼到这个飞轮里,因为它就像你自己辛苦得来的教训被提炼出来、治理起来的公司做事方式,你知道吗?"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "Unknown",
+      "en": "So, yeah, that's probably one thing that competitor can't copy, your internal culture and your identity.",
+      "zh": "所以,是的,这可能是竞争对手无法复制的东西之一:你的内部文化和你的身份认同。"
+    }
+  ],
+  "voice_script": "今天这期,咱们来聊一件挺有意思的事:怎么让 AI 智能体自己写经验手册。\n\n先说说嘉宾是谁。Rafal Wilinski,RunLayer 的创始工程师。RunLayer 在做的东西,一句话说,就是让智能体一边干活,一边把自己摸索出来的经验,沉淀成公司里人人都能复用的技能。\n\n为什么这事值得聊?你想象一下,你公司里最强的工程师,每次攻克一个难题,都把解法写成手册交给团队,以后谁碰上同样的问题,都不用从头摸索。这件事以前靠人自觉,基本做不到;现在,AI 可以自动完成。而且更现实的是,现在很多公司的 AI 试点项目,花了钱,没效果,问题可能恰恰就出在这——智能体干活的时候,缺了那份\"公司里这事到底怎么干\"的手册。\n\n那技能到底是什么?说白了,它就是一份 playbook,一份操作手册。智能体平时只看到它的简短摘要,一旦判断手头这个任务用得上,就把全文读进上下文,然后改变自己的行动路线。技术上这叫渐进式披露——意思是先给你看目录,需要的时候再翻全文。\n\n为什么这个东西这么关键?因为现在的模型,能连续推理很久很久。但这有个副作用:方向错了,它就会越挖越深,可能花几百次工具调用,就为了捍卫一个错误的结论。初始方向决定一切,而技能,正是给智能体指路的。有价值的技能,往往是那些\"没人愿意重新发现的流程\"——比如回滚上线的时候,要按什么顺序执行脚本和功能开关;比如对付一个快流失的大客户,该用什么措辞。这些知识藏在公司内部,你让智能体从零去摸索,大概率是失败的。用 Rafal 的话说,很多 AI 试点就是这么失败的:你没给智能体相关的上下文,没给它那份在公司里怎么行动的实战手册。\n\n好,道理讲清楚了,但这个思路真要落地,现在有三个坑。\n\n第一个坑,整个生态是给开发者设计的。技能大多是 markdown 文件、命令行命令、Git 仓库。可市场、法务、财务的人也在用 AI,他们怎么创建、怎么分享技能?这里还有个好玩的调侃:现在流行的那个技能安装命令,用他的话说,是他唯一见过的\"一条命令同时装下技能、免费的提示注入、需要 root 权限的脚本,和别人的 API 密钥\"。提示注入是什么?就是有人把恶意指令藏进文件里,骗 AI 去干坏事。RunLayer 每天扫描数千个技能,里面什么奇怪的东西都有。\n\n第二个坑,没人愿意写。难题解决完了,人都累了,复盘和沉淀要花时间花精力,大多数时候,知识就这么流失了。\n\n第三个坑,不是所有客户端都支持技能。用 Claude 生态没问题,但很多部门还在用 ChatGPT 这类工具。\n\n那有没有办法把这几个坑填上?这就引出一个很多人没想过的角度:MCP。MCP 是一套让 AI 连接外部工具的协议。现在不少人觉得,技能一出现,MCP 就死了——把命令和密钥直接写进 markdown 文件,不用再碰什么 OAuth 认证,多省事。Rafal 认为大家搞反了。他的说法很干脆:技能传递的是\"怎么做某事\"的知识,工具给的是\"能去做\"的能力,两者根本不冲突。而且,MCP 本身就能当技能的分发层:建一个远程 MCP 服务器,让它成为整个公司的事实来源,任何客户端都能连上来搜索技能,服务器还能按角色和查询去执行权限策略。生态里已经有了一个叫 skills over MCP 的工作组在推这件事。这样一来你看,开发者优先、客户端不支持这两个坑,一次全填上了,管理者也有了统一治理知识的入口。\n\n分发的问题解决了,那内容从哪来?总不能指望人去写吧——这就是第二个坑。有意思的是,答案是向一个游戏学的。2023 年有一篇叫 Voyager 的论文,研究者把智能体丢进 Minecraft,不给任何指令,它自己设目标、自己进步。靠的是什么?一个技能库。每次发现新东西,就把达成发现的那串工具调用存成代码,以后要造钻石镐,直接去库里取配方,不用重新发明。核心思想就一条:把探索变成可复用的流程知识。\n\nRunLayer 的做法类似。让智能体正常干活,任务成功、而且过程有价值的时候,就把执行记录交给一个模型,蒸馏出一条技能。但更关键的,你猜是什么?是失败。跑偏的任务才是最丰富的信号,因为它暴露了缺失的护栏、没考虑到的边界情况。成功让技能更可信,失败让技能更健壮——而且整个过程,无人在环,全自动。\n\n这套东西实际效果怎么样?有个真实案例。他们的任务是在 AWS Lambda 里跑一个 Chromium 分支,用 Sonnet 4.6,成功率只有 36%。打开自改进开关之后,某一次运行里智能体破解了难题,蒸馏出的技能被注入到之后所有运行——成功率直接到 100%。而且除了准确率,技能还收窄了搜索空间,智能体少走弯路,省 token,也省钱。\n\n讲到这,可能你会想:模型换一代,这些技能不就过时了?这里有个更深的理由。前沿智能,是租的、借来的,随时可能消失。模型会被下线,也会变笨——大家天天在 Twitter 和 Slack 上抱怨,某天的 Opus 特别蠢,这种事不少见。所以趁现在能用上最好的模型,就该用它去发现并固化有用的流程,把\"公司里活儿是怎么干的\"做成一份集体潜意识。\n\n现在把前面几块拼起来:技能沉淀知识,MCP 统一分发,中央技能库持续更新——再乘以公司里每一个智能体和每一个客户端,就得到 RunLayer 说的自改进组织飞轮。相似的运行被聚类、蒸馏成技能,经过防提示注入、防隐私泄露这些检查后进入技能库,再通过 MCP 网关分发给全公司。一个智能体解出难题,全公司未来都不用重新摸索。\n\n最后,很多人都在焦虑一个问题:模型在变成大众商品,软件成本趋零,大家都好像在做一样的东西,那护城河到底在哪?Rafal 的答案是,这个飞轮本身就是护城河。它是你公司独有的、被治理过的教训沉淀,竞争对手可以抄你的产品,但抄不走你的内部文化和身份。所以,趁模型还是最聪明的时候,把公司怎么做事的知识,一条一条存下来——智能是租来的,知识才是你自己的。"
+}

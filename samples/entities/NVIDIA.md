@@ -200,7 +200,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[数据中心]] · [[Cursor]] · [[Meta]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"OpenAI":197,"推理":98,"GPU":30,"Google":71,"数据中心":25,"Cursor":86,"Meta":53,"Hugging Face":37}</script>
+<script type="application/json" class="pd-epn">{"智能体":487,"Anthropic":201,"OpenAI":197,"推理":98,"GPU":30,"Google":71,"数据中心":25,"Cursor":86,"Meta":53,"Hugging Face":37}</script>
 
 <script>
 (function(){

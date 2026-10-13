@@ -153,7 +153,7 @@ Claude 的做法很聪明：查到用户 ID 后**直接保存结果，不把完�
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:Claude、MCP、智能体 (agent)</span>
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]]<span class="pd-rz">同概念:Claude、MCP、智能体 (agent)</span>
-- [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同概念:Claude、MCP、智能体 (agent)</span>
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|被解雇的周五之后，他押上一切做了一家鸭子数据库公司]]<span class="pd-rz">同概念:Claude、仪表盘 (dashboard)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

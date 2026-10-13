@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jordan Tigani</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jordan Tigani">JO</div><div class="pi"><h1 class="pt">Jordan Tigani</h1><div class="byl">Beyond Coding 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>8</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jordan Tigani">JO</div><div class="pi"><h1 class="pt">Jordan Tigani</h1><div class="byl">Beyond Coding 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*8 条*
+*16 条*
 
 ![[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded#^q1]]
 
@@ -29,27 +29,36 @@ unlisted: true
 
 ![[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded#^q8]]
 
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q1]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q2]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q3]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q4]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q5]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q6]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q7]]
+
+![[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o#^q8]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-09-beyondcoding-how-this-ex-googler-accidentally-founded|《从被解雇到押注 DuckDB:MotherDuck 的创业与 AI 数据新玩法》]] — 作为主持
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[MotherDuck]] · [[DuckDB]] · [[DuckDB Labs]] · [[BigQuery]] · [[Snowflake]] · [[open core]] · [[数据仓库]] · [[智能体]] · [[仪表盘]]
+[[MotherDuck]] · [[DuckDB]] · [[BigQuery]] · [[Snowflake]] · [[数据仓库]] · [[智能体]] · [[仪表盘]] · [[DuckDB Labs]] · [[开源]] · [[open core]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]] [[Mike Cannon-Brookes]] [[Nick Bostrom]] [[James Norman]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"MotherDuck":1,"DuckDB":2,"DuckDB Labs":1,"BigQuery":1,"Snowflake":20,"open core":1,"数据仓库":3,"智能体":483,"仪表盘":2}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":2,"DuckDB":3,"BigQuery":2,"Snowflake":21,"数据仓库":4,"智能体":487,"仪表盘":3,"DuckDB Labs":1,"开源":41,"open core":1}</script>
 
 <script>
 (function(){

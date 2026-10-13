@@ -158,7 +158,7 @@ Guy 最后强调立场：每家公司应该**拥有**自己的工厂，甚至会
 
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同公司:TESL · 同概念:上下文 (context)、可观测性 (observability)</span>
 - [[2026-09-29-ainativedev-liz-fong-jones-2x-the-prs-1-5x-the-incid|AI 写代码翻倍之后：Honeycomb 的审查、信任与主人翁意识]]<span class="pd-rz">同概念:代码审查 (code review)、可观测性 (observability)</span>
-- [[2026-09-30-talks-the-death-of-the-code-review-what-the-da|代码评审未死：人类从引擎变飞行员]]<span class="pd-rz">同公司:GitHub · 同概念:代码审查 (code review)</span>
+- [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI]]<span class="pd-rz">同概念:技能 (skills)、智能体 (agents)</span>
 
 </div>
 </div>

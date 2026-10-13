@@ -1,0 +1,1570 @@
+[
+ {
+  "seg": 0,
+  "start": 12.741,
+  "end": 13.141,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.461,
+  "end": 13.882,
+  "speaker": "Unknown",
+  "en": "I'm Rafal.",
+  "zh": "我是 Rafal。"
+ },
+ {
+  "seg": 2,
+  "start": 14.522,
+  "end": 21.166,
+  "speaker": "Unknown",
+  "en": "Today, I want to talk about self-improving agents, but not in a single player mode where just one agent gets smarter.",
+  "zh": "今天，我想谈谈自我改进的智能体，但不是单人模式里只有一个智能体变得更聪明的那种。"
+ },
+ {
+  "seg": 3,
+  "start": 21.626,
+  "end": 33.453,
+  "speaker": "Unknown",
+  "en": "I want to talk about how we can apply that concept and mix it with network effects to get a self-improving company or maybe even an enterprise that self-improves while you sleep.",
+  "zh": "我想谈谈我们如何应用这个概念，并把它与网络效应结合起来，得到一个自我改进的公司，甚至是一个在你睡觉时也能自我改进的企业。"
+ },
+ {
+  "seg": 4,
+  "start": 36.148,
+  "end": 40.73,
+  "speaker": "Unknown",
+  "en": "Imagine the best engineer you ever worked with or a salesperson or a lawyer.",
+  "zh": "想象一下你共事过的最优秀的工程师、销售员或律师。"
+ },
+ {
+  "seg": 5,
+  "start": 41.49,
+  "end": 49.753,
+  "speaker": "Unknown",
+  "en": "The one that every time they cracked a genuinely hard problem, they wrote down exactly how they did that and handed over the playbook to the team.",
+  "zh": "就是那种每当解决了真正困难的问题，他们就会精确记录下解决方法，并把这套打法手册交给团队的人。"
+ },
+ {
+  "seg": 6,
+  "start": 50.053,
+  "end": 54.735,
+  "speaker": "Unknown",
+  "en": "So whenever they face a similar problem, they don't have to figure it out from the scratch, right?",
+  "zh": "这样，每当他们遇到类似的问题时，就不必从零开始摸索了，对吧？"
+ },
+ {
+  "seg": 7,
+  "start": 55.055,
+  "end": 63.378,
+  "speaker": "Unknown",
+  "en": "And imagine that happening for every hard problem across your whole company and that happening automatically each time.",
+  "zh": "再想象一下，这种事发生在你整个公司的每一个难题上，而且每次都自动发生。"
+ },
+ {
+  "seg": 8,
+  "start": 63.939,
+  "end": 64.959,
+  "speaker": "Unknown",
+  "en": "That's a dream, right?",
+  "zh": "那是一个梦想，对吧？"
+ },
+ {
+  "seg": 9,
+  "start": 66.268,
+  "end": 68.67,
+  "speaker": "Unknown",
+  "en": "But it almost never works that way.",
+  "zh": "但它几乎从不会以那种方式实现。"
+ },
+ {
+  "seg": 10,
+  "start": 69.45,
+  "end": 80.717,
+  "speaker": "Unknown",
+  "en": "Even when you crack a really hard problem, oftentimes the knowledge, all the debugging, all the reasoning behind that is just gone.",
+  "zh": "即使你解决了一个真正困难的问题，通常那些知识、所有的调试、背后的所有推理，就这样消失了。"
+ },
+ {
+  "seg": 11,
+  "start": 80.797,
+  "end": 82.118,
+  "speaker": "Unknown",
+  "en": "Oh, sorry.",
+  "zh": "哦，抱歉。"
+ },
+ {
+  "seg": 12,
+  "start": 82.338,
+  "end": 89.023,
+  "speaker": "Unknown",
+  "en": "All that reasoning is just gone when you move on to the next task or close the session.",
+  "zh": "当你转向下一个任务或关闭会话时，所有那些推理就消失了。"
+ },
+ {
+  "seg": 13,
+  "start": 89.323,
+  "end": 92.325,
+  "speaker": "Unknown",
+  "en": "But I wanted to convince you that this is actually possible.",
+  "zh": "但我想让你们相信，这实际上是可能的。"
+ },
+ {
+  "seg": 14,
+  "start": 92.425,
+  "end": 95.607,
+  "speaker": "Unknown",
+  "en": "And we already have all the primitives in place to make it happen.",
+  "zh": "而且我们已经具备了实现它所需的全部基本要素。"
+ },
+ {
+  "seg": 15,
+  "start": 97.358,
+  "end": 100.219,
+  "speaker": "Unknown",
+  "en": "If it sounds interesting, let me introduce myself once again.",
+  "zh": "如果这听起来有趣的话，让我再次介绍一下自己。"
+ },
+ {
+  "seg": 16,
+  "start": 100.499,
+  "end": 101.28,
+  "speaker": "Unknown",
+  "en": "Hi, I'm Rafal.",
+  "zh": "大家好，我是 Rafal。"
+ },
+ {
+  "seg": 17,
+  "start": 101.66,
+  "end": 103.42,
+  "speaker": "Unknown",
+  "en": "I'm a founding engineer at RunLayer.",
+  "zh": "我是 RunLayer 的创始工程师。"
+ },
+ {
+  "seg": 18,
+  "start": 103.78,
+  "end": 107.802,
+  "speaker": "Unknown",
+  "en": "We are making the golden path for AI at your company.",
+  "zh": "我们在为你的公司打造 AI 的黄金路径。"
+ },
+ {
+  "seg": 19,
+  "start": 107.822,
+  "end": 110.523,
+  "speaker": "Unknown",
+  "en": "Before that, I was leading Zapier agents and different AI teams.",
+  "zh": "在此之前，我领导过 Zapier 智能体和各种 AI 团队。"
+ },
+ {
+  "seg": 20,
+  "start": 110.703,
+  "end": 118.126,
+  "speaker": "Unknown",
+  "en": "But generally speaking, my previous work was about making agents not just flashy demos, but reliable things in production.",
+  "zh": "但总的来说，我以前的工作是让智能体不只是炫酷的演示，而是生产环境中可靠的东西。"
+ },
+ {
+  "seg": 21,
+  "start": 120.685,
+  "end": 127.652,
+  "speaker": "Unknown",
+  "en": "Before we go into interesting parts, I want to break down my topic into three separate pieces and start by just improving agents.",
+  "zh": "在进入有趣的部分之前，我想把我的主题拆成三个独立的部分，先从单纯改进智能体开始。"
+ },
+ {
+  "seg": 22,
+  "start": 128.292,
+  "end": 129.273,
+  "speaker": "Unknown",
+  "en": "There are many ways to do that.",
+  "zh": "有很多方法可以做到这一点。"
+ },
+ {
+  "seg": 23,
+  "start": 129.313,
+  "end": 131.075,
+  "speaker": "Unknown",
+  "en": "We can use better models.",
+  "zh": "我们可以用更好的模型。"
+ },
+ {
+  "seg": 24,
+  "start": 131.115,
+  "end": 134.037,
+  "speaker": "Unknown",
+  "en": "We can use better prompting tools, harnesses, and whatnot.",
+  "zh": "我们可以用更好的提示工具、harness 之类的。"
+ },
+ {
+  "seg": 25,
+  "start": 134.058,
+  "end": 139.442,
+  "speaker": "Unknown",
+  "en": "But I want to focus today only just on skills because they are super accessible, right?",
+  "zh": "但我今天只想聚焦于技能，因为它们非常容易上手，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 139.963,
+  "end": 140.784,
+  "speaker": "Unknown",
+  "en": "At least in theory.",
+  "zh": "至少在理论上是。"
+ },
+ {
+  "seg": 27,
+  "start": 142.283,
+  "end": 150.807,
+  "speaker": "Unknown",
+  "en": "To make sure that we are all on the same page, a skill to me is a playbook that essentially agent can read when it thinks that the knowledge is relevant.",
+  "zh": "为了确保我们理解一致，对我来说，技能是一本打法手册，智能体在认为这些知识相关时基本上可以读取它。"
+ },
+ {
+  "seg": 28,
+  "start": 151.147,
+  "end": 155.229,
+  "speaker": "Unknown",
+  "en": "From the technical perspective, the term is called progressive disclosure.",
+  "zh": "从技术角度来说，这个术语叫做渐进式披露。"
+ },
+ {
+  "seg": 29,
+  "start": 155.629,
+  "end": 162.613,
+  "speaker": "Unknown",
+  "en": "And it means that at the very beginning, the harness or a client sees just a summary of the skill or a short description of the skill.",
+  "zh": "它意味着在最开始，harness 或客户端只看到技能的摘要或技能的简短描述。"
+ },
+ {
+  "seg": 30,
+  "start": 162.853,
+  "end": 165.534,
+  "speaker": "Unknown",
+  "en": "But when it thinks that the knowledge inside the skill can be useful,",
+  "zh": "但当它认为技能内部的知识可能有用时，"
+ },
+ {
+  "seg": 31,
+  "start": 165.894,
+  "end": 174.592,
+  "speaker": "Unknown",
+  "en": "It can read the whole little skill, inject it to the main context, and based on that knowledge, it can change the trajectory of the agent.",
+  "zh": "它可以读取整个小技能，注入到主上下文中，并基于这些知识改变智能体的轨迹。"
+ },
+ {
+  "seg": 32,
+  "start": 175.824,
+  "end": 176.785,
+  "speaker": "Unknown",
+  "en": "Why is this so important?",
+  "zh": "为什么这如此重要？"
+ },
+ {
+  "seg": 33,
+  "start": 177.265,
+  "end": 184.651,
+  "speaker": "Unknown",
+  "en": "Well, if you haven't been living under a rock for the past six or 12 months, your workload probably has changed a lot.",
+  "zh": "嗯，如果你在过去六或十二个月里不是一直活在石头底下，你的工作量很可能已经发生了很大变化。"
+ },
+ {
+  "seg": 34,
+  "start": 185.151,
+  "end": 187.693,
+  "speaker": "Unknown",
+  "en": "And that's because the agents got so much better.",
+  "zh": "那是因为智能体变得好太多了。"
+ },
+ {
+  "seg": 35,
+  "start": 187.733,
+  "end": 189.154,
+  "speaker": "Unknown",
+  "en": "Actually, the models got so much better.",
+  "zh": "其实是模型变得好太多了。"
+ },
+ {
+  "seg": 36,
+  "start": 189.674,
+  "end": 191.175,
+  "speaker": "Unknown",
+  "en": "And it's not just vibes.",
+  "zh": "而且这不只是感觉。"
+ },
+ {
+  "seg": 37,
+  "start": 191.436,
+  "end": 192.236,
+  "speaker": "Unknown",
+  "en": "It's measurable.",
+  "zh": "它是可衡量的。"
+ },
+ {
+  "seg": 38,
+  "start": 192.917,
+  "end": 196.699,
+  "speaker": "Unknown",
+  "en": "Here you can see a chart that probably you have seen too many times already.",
+  "zh": "在这里你可以看到一张你们可能已经看过太多次的图表。"
+ },
+ {
+  "seg": 39,
+  "start": 197.14,
+  "end": 199.742,
+  "speaker": "Unknown",
+  "en": "For those who don't know, it's meter benchmark.",
+  "zh": "对于不了解的人，这是 meter 基准测试。"
+ },
+ {
+  "seg": 40,
+  "start": 200.362,
+  "end": 206.946,
+  "speaker": "Unknown",
+  "en": "It measures for how long agents can work independently while still having a decent chance of completing a task.",
+  "zh": "它衡量智能体能够独立工作多久，同时仍有不错的概率完成任务。"
+ },
+ {
+  "seg": 41,
+  "start": 207.446,
+  "end": 209.307,
+  "speaker": "Unknown",
+  "en": "And the word chance is essential here.",
+  "zh": "而“概率”这个词在这里是关键。"
+ },
+ {
+  "seg": 42,
+  "start": 210.427,
+  "end": 212.388,
+  "speaker": "Unknown",
+  "en": "We are going to go back to that in a moment.",
+  "zh": "我们稍后会回到这一点。"
+ },
+ {
+  "seg": 43,
+  "start": 212.588,
+  "end": 214.029,
+  "speaker": "Unknown",
+  "en": "But the trend is clear.",
+  "zh": "但趋势是明确的。"
+ },
+ {
+  "seg": 44,
+  "start": 214.489,
+  "end": 218.311,
+  "speaker": "Unknown",
+  "en": "The frontier capabilities, the frontier intelligence is getting better and better.",
+  "zh": "前沿能力、前沿智能正变得越来越好。"
+ },
+ {
+  "seg": 45,
+  "start": 218.371,
+  "end": 220.913,
+  "speaker": "Unknown",
+  "en": "They are better at multi-step, deep work.",
+  "zh": "它们更擅长多步骤的深度工作。"
+ },
+ {
+  "seg": 46,
+  "start": 221.413,
+  "end": 226.156,
+  "speaker": "Unknown",
+  "en": "There's only one caveat if that frontier intelligence is not being taken from you.",
+  "zh": "只有一个注意事项，如果那个前沿智能没有被从你手中夺走的话。"
+ },
+ {
+  "seg": 47,
+  "start": 226.556,
+  "end": 228.657,
+  "speaker": "Unknown",
+  "en": "And I miss Fable probably just like you.",
+  "zh": "我和你们一样怀念 Fable。"
+ },
+ {
+  "seg": 48,
+  "start": 230.732,
+  "end": 231.652,
+  "speaker": "Unknown",
+  "en": "But there is a catch.",
+  "zh": "但有一个问题。"
+ },
+ {
+  "seg": 49,
+  "start": 232.052,
+  "end": 236.333,
+  "speaker": "Unknown",
+  "en": "With great power or long task horizon comes great responsibility.",
+  "zh": "能力越大，或者说任务时域越长，责任越大。"
+ },
+ {
+  "seg": 50,
+  "start": 236.773,
+  "end": 244.435,
+  "speaker": "Unknown",
+  "en": "If an agent can reason for much longer, it also means that it can dig a really, really deep rabbit hole.",
+  "zh": "如果一个智能体能够推理更长时间,这也意味着它可以挖出一个非常非常深的兔子洞。"
+ },
+ {
+  "seg": 51,
+  "start": 244.635,
+  "end": 254.297,
+  "speaker": "Unknown",
+  "en": "It can spend hundreds of tool calls trying to defend a wrong thesis, reason for hours, and the next agent can do exactly the same thing or maybe even do something worse.",
+  "zh": "它可以花费数百次工具调用来为错误的论点辩护,推理好几个小时,而下一个智能体可以做完全相同的事情,甚至可能做得更糟。"
+ },
+ {
+  "seg": 52,
+  "start": 256.497,
+  "end": 264.461,
+  "speaker": "Unknown",
+  "en": "So the initial trajectory matters a lot, and that's why skills are so important, because they guide the agent towards the right target.",
+  "zh": "所以初始轨迹非常重要,这就是为什么技能如此重要,因为它们引导智能体走向正确的目标。"
+ },
+ {
+  "seg": 53,
+  "start": 264.842,
+  "end": 269.444,
+  "speaker": "Unknown",
+  "en": "Otherwise, you'll waste time, you'll waste tokens, and most importantly, you'll also waste money.",
+  "zh": "否则,你会浪费时间,浪费 token,最重要的是,你还会浪费钱。"
+ },
+ {
+  "seg": 54,
+  "start": 272.156,
+  "end": 275.698,
+  "speaker": "Unknown",
+  "en": "Valuable skills are the rituals that nobody wants rediscovered.",
+  "zh": "有价值的技能是那些没人想被重新发现的仪式。"
+ },
+ {
+  "seg": 55,
+  "start": 275.838,
+  "end": 278.54,
+  "speaker": "Unknown",
+  "en": "That knowledge is often not glamorous.",
+  "zh": "这些知识通常不光鲜亮丽。"
+ },
+ {
+  "seg": 56,
+  "start": 278.7,
+  "end": 280.742,
+  "speaker": "Unknown",
+  "en": "It's probably deeply embedded within your company.",
+  "zh": "它很可能深深嵌入在你的公司内部。"
+ },
+ {
+  "seg": 57,
+  "start": 281.162,
+  "end": 297.453,
+  "speaker": "Unknown",
+  "en": "And if agents would try to rediscover that knowledge from scratch, like, for instance, the sequence of scripts and feature flags in order to make a nice rollback, or what's the exact wording and language to use when dealing with that pesky enterprise customer that's about the churn,",
+  "zh": "如果智能体试图从零开始重新发现这些知识,比如,为了实现一次漂亮的回滚而需要的脚本序列和功能开关,或者在与那个快要流失的难缠企业客户打交道时该用的确切措辞和语言,"
+ },
+ {
+  "seg": 58,
+  "start": 299.217,
+  "end": 303.622,
+  "speaker": "Unknown",
+  "en": "Yeah, if agents would try to figure out that from scratch, they are likely going to fail.",
+  "zh": "是的,如果智能体试图从零开始搞清楚这些,它们很可能会失败。"
+ },
+ {
+  "seg": 59,
+  "start": 304.042,
+  "end": 306.365,
+  "speaker": "Unknown",
+  "en": "And oftentimes, that failure can be really costly.",
+  "zh": "而且很多时候,这种失败可能代价非常高昂。"
+ },
+ {
+  "seg": 60,
+  "start": 306.965,
+  "end": 315.955,
+  "speaker": "Unknown",
+  "en": "That's why I believe so many AIPs or POCs are failing, because you're not giving agents the relevant context and the playbooks how to act within your company.",
+  "zh": "这就是为什么我认为如此多的 AIP 或 POC 在失败,因为你没有给智能体相关的上下文以及在你的公司内如何行动的实战手册。"
+ },
+ {
+  "seg": 61,
+  "start": 317.574,
+  "end": 322.339,
+  "speaker": "Unknown",
+  "en": "So skills are great, but I feel like they are not problem-free.",
+  "zh": "所以技能很棒,但我感觉它们并非没有问题。"
+ },
+ {
+  "seg": 62,
+  "start": 322.64,
+  "end": 328.767,
+  "speaker": "Unknown",
+  "en": "There are three most important problems, and the first one is that they are local first and dev-centric.",
+  "zh": "有三个最重要的问题,第一个是它们是本地优先且以开发者为中心的。"
+ },
+ {
+  "seg": 63,
+  "start": 329.347,
+  "end": 333.012,
+  "speaker": "Unknown",
+  "en": "What I mean by that is that when you look at the skills ecosystem,",
+  "zh": "我的意思是,当你审视技能生态时,"
+ },
+ {
+  "seg": 64,
+  "start": 333.372,
+  "end": 338.753,
+  "speaker": "Unknown",
+  "en": "You're going to find markdown files, JSON files, CLI commands, Git repositories.",
+  "zh": "你会发现 markdown 文件、JSON 文件、CLI 命令、Git 仓库。"
+ },
+ {
+  "seg": 65,
+  "start": 339.233,
+  "end": 340.994,
+  "speaker": "Unknown",
+  "en": "And if you're a developer, that's great.",
+  "zh": "如果你是开发者,那很棒。"
+ },
+ {
+  "seg": 66,
+  "start": 341.594,
+  "end": 355.457,
+  "speaker": "Unknown",
+  "en": "But if you're a VP of AI or AI adoption lead, you need to think more empathetically about how you can roll out the AI strategy across your whole company, which includes non-technical people.",
+  "zh": "但如果你是 AI 副总裁或 AI 落地负责人,你需要更换位思考地考虑如何在整个公司范围内推行 AI 战略,这包括非技术人员。"
+ },
+ {
+  "seg": 67,
+  "start": 356.057,
+  "end": 361.558,
+  "speaker": "Unknown",
+  "en": "And the challenge here is how non-technical people can actually create and share the skills.",
+  "zh": "而这里的挑战是非技术人员如何才能真正创建和分享技能。"
+ },
+ {
+  "seg": 68,
+  "start": 363.812,
+  "end": 364.872,
+  "speaker": "Unknown",
+  "en": "I love this meme.",
+  "zh": "我喜欢这个梗图。"
+ },
+ {
+  "seg": 69,
+  "start": 365.213,
+  "end": 374.396,
+  "speaker": "Unknown",
+  "en": "This is the junior developer or non-technical person discovering command NPX skills, which is the most important, the most popular command to install them.",
+  "zh": "这是初级开发者或非技术人员在发现 NPX skills 命令,这是安装技能最重要、最流行的命令。"
+ },
+ {
+  "seg": 70,
+  "start": 374.936,
+  "end": 382.459,
+  "speaker": "Unknown",
+  "en": "That's the only command I know that installs not just a skill, but also free prompt injections, while",
+  "zh": "这是我所知道的唯一一个命令,不仅安装一个技能,还免费附赠提示词注入,同时"
+ },
+ {
+  "seg": 71,
+  "start": 382.879,
+  "end": 387.041,
+  "speaker": "Unknown",
+  "en": "Script that requires root permissions and someone else's API key all in one run.",
+  "zh": "安装需要 root 权限的脚本和别人的 API key,全部一次运行搞定。"
+ },
+ {
+  "seg": 72,
+  "start": 387.642,
+  "end": 393.605,
+  "speaker": "Unknown",
+  "en": "Trust me, at RunLayer, we are scanning thousands of skills every day, and there is really weird stuff inside.",
+  "zh": "相信我,在 RunLayer,我们每天扫描数千个技能,里面确实有非常诡异的东西。"
+ },
+ {
+  "seg": 73,
+  "start": 395.523,
+  "end": 405.185,
+  "speaker": "Unknown",
+  "en": "Okay, second problem is that I think we all love the situation where we are facing a hard problem and there's already playbook on how to deal with that situation, right?",
+  "zh": "好的,第二个问题是,我想我们都喜欢这样一种情境:我们面临一个难题,而已经有关于如何应对这种情境的实战手册,对吧?"
+ },
+ {
+  "seg": 74,
+  "start": 405.485,
+  "end": 408.366,
+  "speaker": "Unknown",
+  "en": "But oftentimes there's no playbook, right?",
+  "zh": "但很多时候并没有实战手册,对吧?"
+ },
+ {
+  "seg": 75,
+  "start": 408.446,
+  "end": 416.968,
+  "speaker": "Unknown",
+  "en": "Because it takes time and effort and intention and energy to reflect on a problem and leave something useful for posterity behind.",
+  "zh": "因为反思一个问题并为后人留下有用的东西,需要时间、精力、用心和能量。"
+ },
+ {
+  "seg": 76,
+  "start": 419.057,
+  "end": 424.338,
+  "speaker": "Unknown",
+  "en": "And the third problem is that not every LLM client supports skills, right?",
+  "zh": "第三个问题是,并非每个 LLM 客户端都支持技能,对吧?"
+ },
+ {
+  "seg": 77,
+  "start": 424.618,
+  "end": 426.939,
+  "speaker": "Unknown",
+  "en": "If you're in Claude ecosystem, it's probably great.",
+  "zh": "如果你在 Claude 生态里,那可能很棒。"
+ },
+ {
+  "seg": 78,
+  "start": 427.339,
+  "end": 433.62,
+  "speaker": "Unknown",
+  "en": "If you're a developer, you're probably going to manage even if the skills support is weird depending on which client you're using.",
+  "zh": "如果你是开发者,即使技能支持因客户端不同而有些奇怪,你可能也能应付过去。"
+ },
+ {
+  "seg": 79,
+  "start": 434.761,
+  "end": 445.383,
+  "speaker": "Unknown",
+  "en": "And once again, if you think about marketing, HR, legal, finance, those departments are probably still using ChatGPT or some other weird LLM client, and skills might be not supported there.",
+  "zh": "再说一次,如果你想想市场、HR、法务、财务,这些部门可能仍在使用 ChatGPT 或其他奇怪的 LLM 客户端,而技能在那里可能不受支持。"
+ },
+ {
+  "seg": 80,
+  "start": 447.714,
+  "end": 452.296,
+  "speaker": "Unknown",
+  "en": "And some time ago, there was this big heated debate when the skills were introduced.",
+  "zh": "前段时间,技能刚推出时曾有一场激烈的大辩论。"
+ },
+ {
+  "seg": 81,
+  "start": 452.417,
+  "end": 458.1,
+  "speaker": "Unknown",
+  "en": "Some people proclaimed that, thank god, MCP is finally dead because I'm not interested in dealing with OAuth.",
+  "zh": "有些人宣称,感谢上帝,MCP 终于死了,因为我对处理 OAuth 毫无兴趣。"
+ },
+ {
+  "seg": 82,
+  "start": 458.56,
+  "end": 465.784,
+  "speaker": "Unknown",
+  "en": "I can now hard-code a bunch of CLI commands, hard-code my API key inside markdown file, and call it a progress, right?",
+  "zh": "我现在可以把一堆 CLI 命令硬编码,把我的 API key 硬编码进 markdown 文件,然后称之为进步,对吧?"
+ },
+ {
+  "seg": 83,
+  "start": 466.704,
+  "end": 468.105,
+  "speaker": "Unknown",
+  "en": "But I think everyone missed the point.",
+  "zh": "但我认为所有人都搞错了重点。"
+ },
+ {
+  "seg": 84,
+  "start": 468.565,
+  "end": 473.808,
+  "speaker": "Unknown",
+  "en": "Skills can be delivering the knowledge how to do something, and tools gives us capabilities.",
+  "zh": "技能可以传递如何做某事的知识,而工具给我们能力。"
+ },
+ {
+  "seg": 85,
+  "start": 473.868,
+  "end": 477.13,
+  "speaker": "Unknown",
+  "en": "Tools from MCPs give us capability to do those things.",
+  "zh": "来自 MCP 的工具给我们做那些事情的能力。"
+ },
+ {
+  "seg": 86,
+  "start": 477.55,
+  "end": 484.197,
+  "speaker": "Unknown",
+  "en": "But MCP can be also used as a protocol to deliver the knowledge, to deliver the skills.",
+  "zh": "但 MCP 也可以被用作传递知识、传递技能的协议。"
+ },
+ {
+  "seg": 87,
+  "start": 484.517,
+  "end": 486.819,
+  "speaker": "Unknown",
+  "en": "We can use MCP as the distribution layer.",
+  "zh": "我们可以把 MCP 用作分发层。"
+ },
+ {
+  "seg": 88,
+  "start": 488.281,
+  "end": 490.423,
+  "speaker": "Unknown",
+  "en": "So instead of installing skills locally,",
+  "zh": "所以不用在本地安装技能,"
+ },
+ {
+  "seg": 89,
+  "start": 490.897,
+  "end": 496.019,
+  "speaker": "Unknown",
+  "en": "You can create a remote MCP server, which can become the source of truth across your whole company.",
+  "zh": "你可以创建一个远程 MCP 服务器,它可以成为你整个公司的事实来源。"
+ },
+ {
+  "seg": 90,
+  "start": 496.46,
+  "end": 498.28,
+  "speaker": "Unknown",
+  "en": "Clients can connect to that.",
+  "zh": "客户端可以连接到它。"
+ },
+ {
+  "seg": 91,
+  "start": 498.341,
+  "end": 500.301,
+  "speaker": "Unknown",
+  "en": "They can search for the right skills.",
+  "zh": "它们可以搜索正确的技能。"
+ },
+ {
+  "seg": 92,
+  "start": 500.401,
+  "end": 509.386,
+  "speaker": "Unknown",
+  "en": "Server can enforce the policy and make sure that everyone gets the best version of the skill possible, depending on a query and, for instance, the role that they have assigned.",
+  "zh": "服务器可以执行策略,确保每个人尽可能获得最佳版本的技能,取决于查询,比如,以及他们被分配的角色。"
+ },
+ {
+  "seg": 93,
+  "start": 509.806,
+  "end": 514.828,
+  "speaker": "Unknown",
+  "en": "We've been doing that internally at RunLayer for the past six months, and it's been working quite well.",
+  "zh": "过去六个月我们在 RunLayer 内部一直在这样做,而且效果相当不错。"
+ },
+ {
+  "seg": 94,
+  "start": 516.509,
+  "end": 517.99,
+  "speaker": "Unknown",
+  "en": "It's no longer just an internal thing.",
+  "zh": "这已经不再只是内部的事情了。"
+ },
+ {
+  "seg": 95,
+  "start": 518.13,
+  "end": 521.892,
+  "speaker": "Unknown",
+  "en": "We see that the broader MCP ecosystem is also going that direction.",
+  "zh": "我们看到更广泛的 MCP 生态也在朝这个方向发展。"
+ },
+ {
+  "seg": 96,
+  "start": 522.953,
+  "end": 525.794,
+  "speaker": "Unknown",
+  "en": "There is already a working group called skills over MCP.",
+  "zh": "已经有一个名为 skills over MCP 的工作组。"
+ },
+ {
+  "seg": 97,
+  "start": 526.255,
+  "end": 530.337,
+  "speaker": "Unknown",
+  "en": "And while the exact API is not final, direction is clear.",
+  "zh": "虽然确切的 API 还没定稿,但方向是明确的。"
+ },
+ {
+  "seg": 98,
+  "start": 530.857,
+  "end": 535.38,
+  "speaker": "Unknown",
+  "en": "MCP can be used to deliver the skills, to deliver the knowledge across your whole company.",
+  "zh": "MCP 可以用来传递技能,在整个公司范围内传递知识。"
+ },
+ {
+  "seg": 99,
+  "start": 538.176,
+  "end": 547.24,
+  "speaker": "Unknown",
+  "en": "Yeah, and while the official spec is leaning towards MCP resources, the support for resources is also mixed, so we are going with tools.",
+  "zh": "是的,虽然官方规范倾向于 MCP resources,但对 resources 的支持也参差不齐,所以我们采用工具的方式。"
+ },
+ {
+  "seg": 100,
+  "start": 549.161,
+  "end": 560.305,
+  "speaker": "Unknown",
+  "en": "And yeah, if you remember the problem, the first problem I mentioned and the third problem I mentioned, which is the problem that they are dev-centric and the lack of support for clients,",
+  "zh": "是的,如果你还记得我提到的第一个问题和第三个问题,也就是它们以开发者为中心以及缺乏客户端支持的问题,"
+ },
+ {
+  "seg": 101,
+  "start": 560.749,
+  "end": 568.174,
+  "speaker": "Unknown",
+  "en": "MCP as a distribution layer fixes that because it's unified and works in almost every single client, not just developer clients.",
+  "zh": "MCP 作为分发层解决了这个问题,因为它是统一的,而且几乎能在每一个客户端中工作,不仅仅是开发者客户端。"
+ },
+ {
+  "seg": 102,
+  "start": 568.614,
+  "end": 573.437,
+  "speaker": "Unknown",
+  "en": "So the problem of distributing skills to non-technical people is essentially solved, right?",
+  "zh": "所以,把技能分发给非技术人员的这个问题基本上被解决了,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 573.677,
+  "end": 584.965,
+  "speaker": "Unknown",
+  "en": "Plus, you have now a centralized API, so as a VP of AI or like AI adoption leader, you have one place to govern and manage what's the knowledge that's getting shared and distributed across your company.",
+  "zh": "另外,你现在有了一个中心化的 API,所以作为一个 AI 副总裁或者类似的 AI 落地负责人,你有一个统一的地方来治理和管理整个公司内共享和分发的知识。"
+ },
+ {
+  "seg": 104,
+  "start": 587.29,
+  "end": 592.432,
+  "speaker": "Unknown",
+  "en": "OK, so now we know how we can improve agents because we have skills.",
+  "zh": "好,现在我们知道了如何借助技能来改进智能体。"
+ },
+ {
+  "seg": 105,
+  "start": 592.892,
+  "end": 597.513,
+  "speaker": "Unknown",
+  "en": "We know that we can use MCP to distribute those skills across all the clients and agents.",
+  "zh": "我们知道可以用 MCP 把这些技能分发到所有客户端和智能体上。"
+ },
+ {
+  "seg": 106,
+  "start": 597.813,
+  "end": 602.175,
+  "speaker": "Unknown",
+  "en": "But let's talk about something more interesting, which is how agents can improve themselves.",
+  "zh": "但让我们聊点更有意思的,那就是智能体如何改进它们自己。"
+ },
+ {
+  "seg": 107,
+  "start": 602.875,
+  "end": 611.137,
+  "speaker": "Unknown",
+  "en": "And whenever I see a new paper or a framework speaking about this topic, I always go back to Voyager paper.",
+  "zh": "每当我看到一篇关于这个话题的新论文或新框架时,我总是会回想到 Voyager 论文。"
+ },
+ {
+  "seg": 108,
+  "start": 611.478,
+  "end": 615.619,
+  "speaker": "Unknown",
+  "en": "Unfortunately, you cannot see the video, but it's Minecraft gameplay in background.",
+  "zh": "遗憾的是,你们看不到视频,但背景里是 Minecraft 的游戏画面。"
+ },
+ {
+  "seg": 109,
+  "start": 616.119,
+  "end": 628.246,
+  "speaker": "Unknown",
+  "en": "So in 2023, right after GPT-4 was released, so ages ago, the question was, for how long multiple agents or harnesses can explore Minecraft space, right?",
+  "zh": "在 2023 年,就在 GPT-4 发布之后,那是很久以前了,问题是,多个智能体或 harness 能在 Minecraft 空间里探索多长时间,对吧?"
+ },
+ {
+  "seg": 110,
+  "start": 629.086,
+  "end": 631.928,
+  "speaker": "Unknown",
+  "en": "They dropped the agent into Minecraft with no instructions.",
+  "zh": "他们把智能体丢进了 Minecraft,没有任何指令。"
+ },
+ {
+  "seg": 111,
+  "start": 632.048,
+  "end": 633.149,
+  "speaker": "Unknown",
+  "en": "They set its own goals.",
+  "zh": "它自己设定目标。"
+ },
+ {
+  "seg": 112,
+  "start": 633.789,
+  "end": 638.812,
+  "speaker": "Unknown",
+  "en": "It just kept getting better without even touching the weights or model and the prompts.",
+  "zh": "它就是不断变得更好,甚至完全没有碰权重、模型和提示词。"
+ },
+ {
+  "seg": 113,
+  "start": 639.232,
+  "end": 642.474,
+  "speaker": "Unknown",
+  "en": "And in 2023, I think it was pretty groundbreaking.",
+  "zh": "而在 2023 年,我觉得这相当有突破性。"
+ },
+ {
+  "seg": 114,
+  "start": 642.874,
+  "end": 644.155,
+  "speaker": "Unknown",
+  "en": "How did they pull it off?",
+  "zh": "他们是怎么做到的?"
+ },
+ {
+  "seg": 115,
+  "start": 646.083,
+  "end": 649.166,
+  "speaker": "Unknown",
+  "en": "The key thing to notice here is the skill library.",
+  "zh": "这里的关键点就是技能库。"
+ },
+ {
+  "seg": 116,
+  "start": 649.567,
+  "end": 655.753,
+  "speaker": "Unknown",
+  "en": "So Voyager did not just explore the Minecraft space carefully and throw the trace away.",
+  "zh": "所以 Voyager 并不只是仔细地探索 Minecraft 空间然后把这些轨迹扔掉。"
+ },
+ {
+  "seg": 117,
+  "start": 656.074,
+  "end": 663.402,
+  "speaker": "Unknown",
+  "en": "When the agent figured out something, it saved the recipe as a code that consisted of the tool calls",
+  "zh": "当智能体弄明白某件事时,它会把配方保存为由工具调用组成的代码,"
+ },
+ {
+  "seg": 118,
+  "start": 664.282,
+  "end": 666.203,
+  "speaker": "Unknown",
+  "en": "That lead the agent to the discovery.",
+  "zh": "而正是这些工具调用把智能体引向了那个发现。"
+ },
+ {
+  "seg": 119,
+  "start": 666.583,
+  "end": 676.348,
+  "speaker": "Unknown",
+  "en": "So later on, when the agent decided that, hey, I need to create a crafting table or a diamond pickaxe, I didn't have to figure it out, this whole knowledge from scratch.",
+  "zh": "所以后来,当智能体决定,嘿,我需要制作一个工作台或一把钻石镐时,我就不必从头重新弄明白这整个知识了。"
+ },
+ {
+  "seg": 120,
+  "start": 676.628,
+  "end": 683.451,
+  "speaker": "Unknown",
+  "en": "It could simply go to the skill library and retrieve it as a code, as a recipe that can be reused.",
+  "zh": "它可以简单地去技能库里检索,以代码的形式,以一个可复用的配方的形式取出来。"
+ },
+ {
+  "seg": 121,
+  "start": 684.484,
+  "end": 685.424,
+  "speaker": "Unknown",
+  "en": "And this is really important.",
+  "zh": "而这一点非常重要。"
+ },
+ {
+  "seg": 122,
+  "start": 685.444,
+  "end": 694.087,
+  "speaker": "Unknown",
+  "en": "This is the core idea that I want to carry forward is that exploration should be turned into reusable procedural knowledge.",
+  "zh": "这就是我想延续下去的核心理念:探索应该被转化为可复用的程序性知识。"
+ },
+ {
+  "seg": 123,
+  "start": 696.388,
+  "end": 699.048,
+  "speaker": "Unknown",
+  "en": "And we started doing something very similar at RunLayer.",
+  "zh": "而我们在 RunLayer 开始做了非常类似的事情。"
+ },
+ {
+  "seg": 124,
+  "start": 700.289,
+  "end": 701.749,
+  "speaker": "Unknown",
+  "en": "We let the agents do their real work.",
+  "zh": "我们让智能体去做它们真正的工作。"
+ },
+ {
+  "seg": 125,
+  "start": 702.109,
+  "end": 713.593,
+  "speaker": "Unknown",
+  "en": "And when the run succeeds and when there is something interesting in this run, there's multiple tool calls, we just take the trace and we ask from tier LLM to simply distill a skill.",
+  "zh": "当运行成功、并且这次运行中有些有意思的东西时,也就是有多次工具调用,我们就取出这条轨迹,然后让 tier LLM 简单地蒸馏出一个技能。"
+ },
+ {
+  "seg": 126,
+  "start": 715.956,
+  "end": 725.96,
+  "speaker": "Unknown",
+  "en": "And while it's super simple to distill a skill from a single run, I think we humans and agents learn the most from mistakes, right?",
+  "zh": "虽然从单次运行中蒸馏一个技能非常简单,但我认为我们人类和智能体从错误中学到的东西最多,对吧?"
+ },
+ {
+  "seg": 127,
+  "start": 726,
+  "end": 729.082,
+  "speaker": "Unknown",
+  "en": "The real sharpening happens when the agent fails.",
+  "zh": "真正的打磨发生在智能体失败的时候。"
+ },
+ {
+  "seg": 128,
+  "start": 730.702,
+  "end": 741.447,
+  "speaker": "Unknown",
+  "en": "So a run that goes sideways is actually the richest signal that you can get because it exposes the missing guardrail, the missing library, some kind of edge case that you haven't thought about upfront.",
+  "zh": "所以一次跑偏的运行实际上是你能得到的最丰富的信号,因为它暴露了缺失的护栏、缺失的库,或者某个你没有提前想到的边界情况。"
+ },
+ {
+  "seg": 129,
+  "start": 742.668,
+  "end": 750.252,
+  "speaker": "Unknown",
+  "en": "And every run or pass or fail just feeds our distiller mechanism, constantly making our skill better.",
+  "zh": "而每一次运行,无论成功还是失败,都会喂给我们的蒸馏机制,不断地让我们的技能变得更好。"
+ },
+ {
+  "seg": 130,
+  "start": 751.953,
+  "end": 757.816,
+  "speaker": "Unknown",
+  "en": "The successes are making the skill more trustworthy, because if the agent achieved the goal, it means that, hey, this skill works.",
+  "zh": "成功让技能更值得信赖,因为如果智能体达成了目标,那就意味着,嘿,这个技能管用。"
+ },
+ {
+  "seg": 131,
+  "start": 758.316,
+  "end": 764.119,
+  "speaker": "Unknown",
+  "en": "And if it doesn't, it actually makes skill more robust, because now we know what's missing in here.",
+  "zh": "而如果它没达成,它实际上会让技能更健壮,因为现在我们知道这里面缺了什么。"
+ },
+ {
+  "seg": 132,
+  "start": 764.54,
+  "end": 768.662,
+  "speaker": "Unknown",
+  "en": "And it all happens completely autonomously, asynchronously, without human in loop.",
+  "zh": "而这一切完全自主地、异步地发生,没有人在环。"
+ },
+ {
+  "seg": 133,
+  "start": 770.428,
+  "end": 772.331,
+  "speaker": "Unknown",
+  "en": "And the initial results were great.",
+  "zh": "而且最初的结果非常好。"
+ },
+ {
+  "seg": 134,
+  "start": 772.411,
+  "end": 784.969,
+  "speaker": "Unknown",
+  "en": "We had this task of trying to run some Chromium fork inside AWS Lambda, and we were trying to do that using Sonnet 4.6, so not the most intelligent model, but sometimes it succeeded.",
+  "zh": "我们有一个任务是尝试在 AWS Lambda 里运行某个 Chromium fork,我们尝试用 Sonnet 4.6 来做这件事,所以它不是最聪明的模型,但有时它能成功。"
+ },
+ {
+  "seg": 135,
+  "start": 786.77,
+  "end": 791.072,
+  "speaker": "Unknown",
+  "en": "It was just, you know, it's not production ready to have 36% success rate.",
+  "zh": "你知道的,36% 的成功率是不能拿去上生产的。"
+ },
+ {
+  "seg": 136,
+  "start": 791.252,
+  "end": 795.474,
+  "speaker": "Unknown",
+  "en": "So what we did is we flipped the flag for self-improving agents.",
+  "zh": "所以我们做的是,我们给自改进智能体的开关翻了牌。"
+ },
+ {
+  "seg": 137,
+  "start": 795.994,
+  "end": 804.058,
+  "speaker": "Unknown",
+  "en": "And once in one run, one of the agent invocations cracked the code, our skill distiller created a reusable skill.",
+  "zh": "一旦在有一次运行中,某次智能体调用破解了难题,我们的技能蒸馏器就创建了一个可复用的技能。"
+ },
+ {
+  "seg": 138,
+  "start": 804.658,
+  "end": 807.119,
+  "speaker": "Unknown",
+  "en": "It was then included in all the future runs.",
+  "zh": "然后它被包含进了之后所有的运行中。"
+ },
+ {
+  "seg": 139,
+  "start": 807.86,
+  "end": 809.521,
+  "speaker": "Unknown",
+  "en": "And the success ratio went to 100%.",
+  "zh": "成功率就到了 100%。"
+ },
+ {
+  "seg": 140,
+  "start": 809.541,
+  "end": 811.481,
+  "speaker": "Unknown",
+  "en": "So yeah, that's great.",
+  "zh": "所以,是的,这很棒。"
+ },
+ {
+  "seg": 141,
+  "start": 811.702,
+  "end": 814.523,
+  "speaker": "Unknown",
+  "en": "It's like a developer with better attitude towards documentation.",
+  "zh": "它就像一个对文档态度更好的开发者。"
+ },
+ {
+  "seg": 142,
+  "start": 816.908,
+  "end": 823.973,
+  "speaker": "Unknown",
+  "en": "The success rate is the easiest number to show, but Google's skill is narrowing the search space.",
+  "zh": "成功率是最容易展示的数字,但 Google 的技能其实是在缩小搜索空间。"
+ },
+ {
+  "seg": 143,
+  "start": 826.455,
+  "end": 834.202,
+  "speaker": "Unknown",
+  "en": "It narrows the search space and the agent stops doing tool calls and it's exploring less branches.",
+  "zh": "它缩小了搜索空间,智能体不再做那么多工具调用,探索的分支更少了。"
+ },
+ {
+  "seg": 144,
+  "start": 834.542,
+  "end": 837.124,
+  "speaker": "Unknown",
+  "en": "It's wasting less tokens and less money.",
+  "zh": "它浪费的 token 和钱都更少了。"
+ },
+ {
+  "seg": 145,
+  "start": 839.633,
+  "end": 847.498,
+  "speaker": "Unknown",
+  "en": "But putting savings and accuracy aside, I think there's also a deeper reason why you should be distilling skills.",
+  "zh": "但把节省和准确性放在一边,我认为还有一个更深层的原因,说明你应该蒸馏技能。"
+ },
+ {
+  "seg": 146,
+  "start": 848.038,
+  "end": 852.281,
+  "speaker": "Unknown",
+  "en": "The problem is that frontier intelligence is rented or borrowed.",
+  "zh": "问题在于,前沿智能是租来的或者借来的。"
+ },
+ {
+  "seg": 147,
+  "start": 852.341,
+  "end": 853.321,
+  "speaker": "Unknown",
+  "en": "It can disappear.",
+  "zh": "它可能会消失。"
+ },
+ {
+  "seg": 148,
+  "start": 853.682,
+  "end": 855.183,
+  "speaker": "Unknown",
+  "en": "I think, yeah, we all miss Fable.",
+  "zh": "我觉得,是的,我们都很怀念 Fable。"
+ },
+ {
+  "seg": 149,
+  "start": 855.343,
+  "end": 856.623,
+  "speaker": "Unknown",
+  "en": "It was a great model, right?",
+  "zh": "那是一个很棒的模型,对吧?"
+ },
+ {
+  "seg": 150,
+  "start": 856.984,
+  "end": 858.985,
+  "speaker": "Unknown",
+  "en": "It can deprecate it, or it can get dumber.",
+  "zh": "它可能会被弃用，或者可能会变笨。"
+ },
+ {
+  "seg": 151,
+  "start": 859.685,
+  "end": 864.547,
+  "speaker": "Unknown",
+  "en": "We complain every single day on Twitter, on Slack, that Opus is really dumb today, right?",
+  "zh": "我们每天都在 Twitter 上、在 Slack 上抱怨，说 Opus 今天真的很笨，对吧？"
+ },
+ {
+  "seg": 152,
+  "start": 864.927,
+  "end": 873.131,
+  "speaker": "Unknown",
+  "en": "So while we have the access to the best version of that intelligence, we should be using that to discover and persist those useful procedures.",
+  "zh": "所以，趁我们还能用上最好的那个版本的智能，我们应该利用它去发现并持久化那些有用的流程。"
+ },
+ {
+  "seg": 153,
+  "start": 873.411,
+  "end": 879.934,
+  "speaker": "Unknown",
+  "en": "We should be building a catalog of how the works gets done inside our company as a collective subconscious.",
+  "zh": "我们应该建立一个公司内部工作如何完成的目录，作为一种集体潜意识。"
+ },
+ {
+  "seg": 154,
+  "start": 882.34,
+  "end": 882.98,
+  "speaker": "Unknown",
+  "en": "And how we do it?",
+  "zh": "那我们怎么做呢？"
+ },
+ {
+  "seg": 155,
+  "start": 883.8,
+  "end": 888.461,
+  "speaker": "Unknown",
+  "en": "Well, I believe we already have all the pieces of the puzzle here.",
+  "zh": "嗯，我相信拼图的每一块我们这里都已经有了。"
+ },
+ {
+  "seg": 156,
+  "start": 889.681,
+  "end": 895.042,
+  "speaker": "Unknown",
+  "en": "We have skills as a way to retain procedures and improve agents and guide models.",
+  "zh": "我们有 skills 作为一种保留流程、改进智能体、引导模型的方式。"
+ },
+ {
+  "seg": 157,
+  "start": 895.663,
+  "end": 899.403,
+  "speaker": "Unknown",
+  "en": "We have MCP as a unified distribution layer for those skills.",
+  "zh": "我们有 MCP 作为这些技能的统一分发层。"
+ },
+ {
+  "seg": 158,
+  "start": 899.843,
+  "end": 906.685,
+  "speaker": "Unknown",
+  "en": "And you also have a central repository, the knowledge base for all of those skills, which is constantly being updated and fed with new data.",
+  "zh": "而且你还有一个中央仓库，所有这些技能的知识库，它不断地被更新、被喂入新数据。"
+ },
+ {
+  "seg": 159,
+  "start": 909.063,
+  "end": 912.566,
+  "speaker": "Unknown",
+  "en": "Yeah, we also have the continuous learning flywheel for one agent.",
+  "zh": "是的，我们还有针对单个智能体的持续学习飞轮。"
+ },
+ {
+  "seg": 160,
+  "start": 912.927,
+  "end": 917.711,
+  "speaker": "Unknown",
+  "en": "But what's interesting is what I promised you at the very beginning, the network effect.",
+  "zh": "但有趣的是我在最开始向你们承诺的那个东西：网络效应。"
+ },
+ {
+  "seg": 161,
+  "start": 918.111,
+  "end": 923.837,
+  "speaker": "Unknown",
+  "en": "So what happens when you multiply that by every agent and every single client in the entire company?",
+  "zh": "那么，当你把它乘以整个公司的每一个智能体、每一个客户时，会发生什么？"
+ },
+ {
+  "seg": 162,
+  "start": 925.428,
+  "end": 928.829,
+  "speaker": "Unknown",
+  "en": "At RunLayer, we call it self-improving organizational flywheel.",
+  "zh": "在 RunLayer，我们称之为自我改进的组织飞轮。"
+ },
+ {
+  "seg": 163,
+  "start": 929.81,
+  "end": 933.551,
+  "speaker": "Unknown",
+  "en": "We group a bunch of similar runs and try to distill a skill.",
+  "zh": "我们把一堆相似的运行记录分组，尝试提炼出一个 skill。"
+ },
+ {
+  "seg": 164,
+  "start": 933.991,
+  "end": 942.514,
+  "speaker": "Unknown",
+  "en": "It passes through our various series of checks, like whether it's not containing some kind of prompt injection or maybe PII and a bunch of other stuff.",
+  "zh": "它要通过我们的一系列检查，比如是否不包含某种提示词注入，或者可能包含 PII，以及一堆其他的东西。"
+ },
+ {
+  "seg": 165,
+  "start": 942.855,
+  "end": 945.496,
+  "speaker": "Unknown",
+  "en": "Once it's good, it's landing in our skill library.",
+  "zh": "一旦它合格了，它就会落入我们的 skill 库。"
+ },
+ {
+  "seg": 166,
+  "start": 945.696,
+  "end": 951.358,
+  "speaker": "Unknown",
+  "en": "And thanks to our MCP gateway, it's being served to each and every client and agent within the company.",
+  "zh": "而且得益于我们的 MCP 网关，它会被提供给公司内的每一个客户端和智能体。"
+ },
+ {
+  "seg": 167,
+  "start": 951.878,
+  "end": 961.243,
+  "speaker": "Unknown",
+  "en": "What we end up having is a constantly evolving knowledge base, which is always up-to-date, continuously updated with new alpha, fed with new edge cases.",
+  "zh": "我们最终得到的是一个不断演进的知识库，它始终是最新的，持续用新的 alpha 更新，被喂入新的边缘案例。"
+ },
+ {
+  "seg": 168,
+  "start": 961.644,
+  "end": 972.17,
+  "speaker": "Unknown",
+  "en": "So once one agent figures out a really hard problem, it's being distilled into a skill, persistent in organization and library.",
+  "zh": "所以一旦某个智能体解决了一个非常难的问题，它就会被提炼成一个 skill，持久化在组织和库中。"
+ },
+ {
+  "seg": 169,
+  "start": 972.81,
+  "end": 974.471,
+  "speaker": "Unknown",
+  "en": "So whenever someone else",
+  "zh": "这样以后无论何时，其他人"
+ },
+ {
+  "seg": 170,
+  "start": 976.052,
+  "end": 977.454,
+  "speaker": "Unknown",
+  "en": "Has the same problem in the future.",
+  "zh": "遇到同样的问题时。"
+ },
+ {
+  "seg": 171,
+  "start": 977.674,
+  "end": 979.796,
+  "speaker": "Unknown",
+  "en": "They don't have to figure out the solution from scratch.",
+  "zh": "他们不必从零开始想出解决方案。"
+ },
+ {
+  "seg": 172,
+  "start": 980.216,
+  "end": 987.804,
+  "speaker": "Unknown",
+  "en": "They don't have to know what's the exact sequence of this magical commands that are going to restart the database or roll back the production.",
+  "zh": "他们不必知道重启数据库或回滚生产的那些神奇命令的确切顺序是什么。"
+ },
+ {
+  "seg": 173,
+  "start": 988.024,
+  "end": 991.727,
+  "speaker": "Unknown",
+  "en": "They can simply reach out to the playbook they have.",
+  "zh": "他们只需去查他们手头的 playbook 就行了。"
+ },
+ {
+  "seg": 174,
+  "start": 993.309,
+  "end": 995.731,
+  "speaker": "Unknown",
+  "en": "And why is this so important?",
+  "zh": "那为什么这如此重要？"
+ },
+ {
+  "seg": 175,
+  "start": 996.557,
+  "end": 1002.161,
+  "speaker": "Unknown",
+  "en": "Because I believe 50% of us probably already had an existential crisis thanks to the models.",
+  "zh": "因为我相信我们中有 50% 的人可能已经因为模型而经历过一场存在危机。"
+ },
+ {
+  "seg": 176,
+  "start": 1002.662,
+  "end": 1008.646,
+  "speaker": "Unknown",
+  "en": "And the thinking goes along the lines of, OK, so models are becoming commodity.",
+  "zh": "思路大概是：好吧，模型正在变成大宗商品。"
+ },
+ {
+  "seg": 177,
+  "start": 1008.866,
+  "end": 1010.467,
+  "speaker": "Unknown",
+  "en": "Everyone here has access to them.",
+  "zh": "这里每个人都有访问权限。"
+ },
+ {
+  "seg": 178,
+  "start": 1011.068,
+  "end": 1014.31,
+  "speaker": "Unknown",
+  "en": "And cost of software is going to zero.",
+  "zh": "软件的成本正在趋近于零。"
+ },
+ {
+  "seg": 179,
+  "start": 1015.071,
+  "end": 1018.954,
+  "speaker": "Unknown",
+  "en": "Everyone can be rebuilding my product, at least on the surface.",
+  "zh": "每个人都可以重建我的产品，至少在表面上。"
+ },
+ {
+  "seg": 180,
+  "start": 1019.254,
+  "end": 1023.457,
+  "speaker": "Unknown",
+  "en": "In fact, so many people are working today across the expo, and they are thinking, hey,",
+  "zh": "事实上，今天有这么多人在整个 expo 里工作，他们在想：嘿，"
+ },
+ {
+  "seg": 181,
+  "start": 1023.817,
+  "end": 1025.817,
+  "speaker": "Unknown",
+  "en": "Everyone's building the same thing, right?",
+  "zh": "大家都在做同样的东西，对吧？"
+ },
+ {
+  "seg": 182,
+  "start": 1026.137,
+  "end": 1027.638,
+  "speaker": "Unknown",
+  "en": "So what is my moat?",
+  "zh": "那我的护城河是什么？"
+ },
+ {
+  "seg": 183,
+  "start": 1028.818,
+  "end": 1044.061,
+  "speaker": "Unknown",
+  "en": "And I believe the moat can be in building this flywheel and distilling the knowledge to this flywheel because it's like your own hardwood lessons distilled, governed of how your company does things, you know?",
+  "zh": "而我相信，护城河可以在于构建这个飞轮、把知识提炼到这个飞轮里，因为它就像你自己辛苦得来的教训被提炼出来、治理起来的公司做事方式，你知道吗？"
+ },
+ {
+  "seg": 184,
+  "start": 1044.341,
+  "end": 1052.282,
+  "speaker": "Unknown",
+  "en": "And it's captured, compounding, raising the floor for everyone across the company, giving them access to the best knowledge available.",
+  "zh": "而且它是被捕获的、复利增长的，为公司里每个人抬高下限，让他们能获得可用的最好知识。"
+ },
+ {
+  "seg": 185,
+  "start": 1054.13,
+  "end": 1063.561,
+  "speaker": "Unknown",
+  "en": "It is also a way to be resistant against model intelligence deprecation, and it's a great way to lower your costs without either changing a model.",
+  "zh": "它也是一种抵御模型智能被弃用的方式，也是在不更换模型的情况下降低成本的好方法。"
+ },
+ {
+  "seg": 186,
+  "start": 1064.162,
+  "end": 1070.77,
+  "speaker": "Unknown",
+  "en": "So, yeah, that's probably one thing that competitor can't copy, your internal culture and your identity.",
+  "zh": "所以，是的，这可能是竞争对手无法复制的东西之一：你的内部文化和你的身份认同。"
+ },
+ {
+  "seg": 187,
+  "start": 1074.075,
+  "end": 1077.239,
+  "speaker": "Unknown",
+  "en": "And yeah, that's pretty much it.",
+  "zh": "是的，基本就是这样了。"
+ },
+ {
+  "seg": 188,
+  "start": 1077.619,
+  "end": 1078.6,
+  "speaker": "Unknown",
+  "en": "Thank you for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 189,
+  "start": 1079.02,
+  "end": 1081.163,
+  "speaker": "Unknown",
+  "en": "If it resonated with you, I'm Rafael.",
+  "zh": "如果这让你有共鸣，我是 Rafael。"
+ },
+ {
+  "seg": 190,
+  "start": 1081.303,
+  "end": 1082.364,
+  "speaker": "Unknown",
+  "en": "I'm working at RunLayer.",
+  "zh": "我在 RunLayer 工作。"
+ },
+ {
+  "seg": 191,
+  "start": 1082.724,
+  "end": 1086.188,
+  "speaker": "Unknown",
+  "en": "We're figuring out the AI golden path for you.",
+  "zh": "我们在为你找出 AI 的黄金路径。"
+ },
+ {
+  "seg": 192,
+  "start": 1086.548,
+  "end": 1089.531,
+  "speaker": "Unknown",
+  "en": "I'm open to talk about skills, MCP agents, whatnot.",
+  "zh": "我很乐意聊 skills、MCP 智能体，诸如此类。"
+ },
+ {
+  "seg": 193,
+  "start": 1089.872,
+  "end": 1091.814,
+  "speaker": "Unknown",
+  "en": "And this is exactly what we are building at RunLayer.",
+  "zh": "而这正是我们在 RunLayer 所构建的东西。"
+ },
+ {
+  "seg": 194,
+  "start": 1092.514,
+  "end": 1092.855,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 195,
+  "start": 1100.371,
+  "end": 1102.219,
+  "speaker": "Unknown",
+  "en": "We'll be right back.",
+  "zh": "我们马上回来。"
+ }
+]

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>93</b> 集 · <b>59</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>96</b> 集 · <b>59</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -76,6 +76,7 @@ unlisted: true
 - **[[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]]**(03:45起):本集反复使用的 AI 工具：通过 .claude 目录加载技能、用 hooks 在会话收尾时强制触发改进循环、用 slash loop 做定时循环；Tyler 还吐槽 Opus 5 特别啰嗦。
 - **[[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]]**(34:36起):本集说团队在 Codex 和 Claude 之间的使用大概五五开(五个月前还以 Claude 为主),同时 Anthropic 的 Claude 被用作界面层输出的例子。
 - **[[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]]**(41:27起):本集提及 OpenClaw 用 Claude Pro/Max 套餐当大脑被封禁一事，牵出对订阅模式的批评。
+- **[[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]]**(17:40起):本集说 Claude 很擅长做数据可视化，能整合工单、使用量、新闻回答业务问题，也是 MotherDuck Dives/Flights 等产品背后的 AI 引擎。
 - **[[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]]**(00:59起):本集讨论的主要宿主模型之一：让它在带 UI 的场景下保持多轮搜索很难，需要靠工具描述引导和搜索/渲染分离来纠正行为
 - **[[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]]**(15:09起):本集演示中作为被请求「流式输出你能想到的最有趣的 UI」的智能体出现。
 - **[[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]]**(06:29起):本集顺带提到「Claude 或任何其他 LLM 都喜欢乱扔一些随机的字号」。
@@ -102,7 +103,9 @@ unlisted: true
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(01:34起):本集说 Claude 在美国付费订阅者数量上已超过 Gemini，是本报告最大意外之一；Anthropic 名言不做广告，订阅打得更激进，约 7.5% 订阅用户在每月 100 美元以上最高档。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(41:19起):本集吐槽:销售把 Granola 会议记录用 Claude 总结一下就发出来,「你的工作是综合出真正重要的东西,Claude 做不好这件事」。
 - **[[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]]**(02:44起):本集说 Claude 可以把 MCP 应用作为 connector 渲染出来,第三条路径的外部结账演示就是在 Claude 里做的。
+- **[[2026-10-07-talks-from-36-to-100-how-self-improving-agents|《从 36% 到 100%:让 AI 智能体自己写经验手册》]]**(07:04起):本集说在 Claude 生态里技能支持很好，但很多部门还在用不支持技能的客户端。
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(03:33起):本集把 Claude 当作贯穿全程的工作工具:用它爬取分析招聘数据、生成用户画像实现「规模化的同理心」、写邮件系统规格,以及面试模拟
+- **[[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]]**(03:49起):本集说课程同样涉及 Claude 的 hook 系统，技能目录设计成对 Codex、Claude、OpenCode 等工具都通用。
 
 ## ① 提到它的金句
 
@@ -228,7 +231,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*93 集*
+*96 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -296,6 +299,7 @@ unlisted: true
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|《循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM》]] — 作为被讨论公司
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|《邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢》]] — 作为被讨论公司
 - [[2026-09-08-ainativedev-you-don-39-t-need-juniors-to-code-hire-t|《初级开发者该失业了吗？Architect、律所模式与「智能体工作流」的悖论》]] — 作为概念(提及)
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]] — 作为概念
 - [[2026-09-09-talks-mcp-apps-give-the-model-data-give-the-us|《把网站装进 ChatGPT：Indeed 的 MCP Apps 实战三条铁律》]] — 作为概念
 - [[2026-09-10-talks-generative-ui-in-python-jeremiah-lowin-p|《把互联网装进智能体：FastMCP 作者用 Python 造 UI 的古怪实验》]] — 作为被讨论公司(提及)
 - [[2026-09-10-talks-one-designer-ai-hundreds-of-deliverables|《一个设计师 + AI：如何撑起 7000 人大会的全部设计》]] — 作为概念(提及)
@@ -322,15 +326,17 @@ unlisted: true
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|《当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成》]] — 作为被讨论公司(提及)
+- [[2026-10-07-talks-from-36-to-100-how-self-improving-agents|《从 36% 到 100%:让 AI 智能体自己写经验手册》]] — 作为概念(提及)
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
+- [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Lenny]] · [[沙箱]] · [[Claude Code]]
+[[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[Codex]] · [[OpenAI]] · [[MCP]] · [[Google]] · [[Lenny]] · [[沙箱]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":483,"Anthropic":201,"ChatGPT":110,"Codex":85,"OpenAI":197,"MCP":88,"Google":71,"Lenny":69,"沙箱":96,"Claude Code":107}</script>
+<script type="application/json" class="pd-epn">{"智能体":487,"ChatGPT":111,"Anthropic":201,"Codex":86,"OpenAI":197,"MCP":91,"Google":71,"Lenny":69,"沙箱":96,"Claude Code":108}</script>
 
 <script>
 (function(){

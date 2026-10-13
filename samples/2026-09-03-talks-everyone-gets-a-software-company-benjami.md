@@ -111,7 +111,7 @@ Zo 想要的未来正好相反：任何人、公司或个人，都应该能**发
 
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]]<span class="pd-rz">同概念:智能体 (agent)、SaaS</span>
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法]]<span class="pd-rz">同概念:智能体 (agent)、SaaS</span>
-- [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|硬科技复兴、智能体营收与单人创始人：YC 最前沿观察]]<span class="pd-rz">同概念:智能体 (agent)、SaaS</span>
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|被解雇的周五之后，他押上一切做了一家鸭子数据库公司]]<span class="pd-rz">同概念:智能体 (agent)、SaaS</span>
 
 </div>
 <div class="pd-ex">

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":23,"Snowflake":20,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":32,"AGI":28,"本体":5,"数据科学智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Databricks":23,"Snowflake":21,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":32,"AGI":28,"本体":5,"数据科学智能体":4}</script>
 
 <script>
 (function(){

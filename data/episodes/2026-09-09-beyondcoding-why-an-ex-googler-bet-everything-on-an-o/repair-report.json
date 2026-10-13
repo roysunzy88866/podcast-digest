@@ -1,0 +1,90 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:57",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "00:57",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 2,
+      "timestamp": "01:11",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "01:11",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 5,
+      "timestamp": "10:56",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "10:56",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 7,
+      "timestamp": "22:30",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "22:28",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 8,
+      "timestamp": "24:31",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "24:31",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 9,
+      "timestamp": "31:58",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "31:56",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 10,
+      "timestamp": "32:25",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "32:24",
+      "spkWas": "Jordan Tigani"
+    },
+    {
+      "i": 12,
+      "timestamp": "38:05",
+      "speaker": "Jordan Tigani",
+      "trimmed": false,
+      "tsWas": "38:05",
+      "spkWas": "Jordan Tigani"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Of the options that I have in front of me, this is the one where it's a bet on myself."
+    },
+    {
+      "i": 4,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "If you create it yourself, then at least you only have yourself to blame if it doesn't work out."
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "If somebody is going to build something like this, DuckDB is the right thing to build it on."
+    },
+    {
+      "i": 11,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "Understanding product, which means understanding users, how the thing's going to be used, and understanding the business context in which something lives, is a superpower for an engineer."
+    }
+  ]
+}

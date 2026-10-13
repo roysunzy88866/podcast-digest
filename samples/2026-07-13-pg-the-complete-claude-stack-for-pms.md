@@ -134,8 +134,8 @@ Jyothi 在 VS Code 里用 [[Claude Code|Claude Code]] 从零搭了个本地知�
 **顺着「智能体」挖下去**
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Claude · 同概念:MCP、技能 (skills)、智能体 (agent)</span>
+- [[2026-10-07-talks-from-36-to-100-how-self-improving-agents|从 36% 到 100%:让 AI 智能体自己写经验手册]]<span class="pd-rz">同公司:Claude · 同概念:MCP、技能 (skills)、智能体 (agent)</span>
 - [[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot|AI 智能体为什么还聊不到一起？有人做了个“聊天室”]]<span class="pd-rz">同概念:MCP、对抗性智能体 (adversarial agents)、智能体 (agent)、Claude Code</span>
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:Claude Code、MCP、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
@@ -143,8 +143,8 @@ Jyothi 在 VS Code 里用 [[Claude Code|Claude Code]] 从零搭了个本地知�
 **换个口味**
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]]<span class="pd-rz">同公司:Claude · 同概念:Claude Code、技能 (skills)、MCP</span>
+- [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI]]<span class="pd-rz">同公司:Claude · 同概念:MCP、技能 (skills)、Claude Code</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude · 同概念:Claude Code、智能体 (agent)</span>
-- [[2026-07-22-aiandi-how-every-s-team-used-ai-to-ship-its-big|一封邮件睡出一万七千美金：Every 的 Builder Pack 内幕]]<span class="pd-rz">同公司:Claude · 同概念:MCP、智能体 (agent)</span>
 
 </div>
 </div>

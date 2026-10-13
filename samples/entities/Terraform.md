@@ -27,7 +27,7 @@ unlisted: true
 
 [[GitHub]] · [[Hashicorp]] · [[开源]] · [[Bruno Scott Sperka]] · [[AI 智能体]] · [[Kubernetes]] · [[就业市场]] · [[智能体]] · [[软技能]] · [[PR]]
 
-<script type="application/json" class="pd-epn">{"GitHub":35,"Hashicorp":2,"开源":40,"Bruno Scott Sperka":1,"AI 智能体":3,"Kubernetes":19,"就业市场":1,"智能体":483,"软技能":1,"PR":6}</script>
+<script type="application/json" class="pd-epn">{"GitHub":35,"Hashicorp":2,"开源":41,"Bruno Scott Sperka":1,"AI 智能体":3,"Kubernetes":19,"就业市场":1,"智能体":487,"软技能":1,"PR":6}</script>
 
 <script>
 (function(){

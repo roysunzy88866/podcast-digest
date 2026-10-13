@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/3XI90A3ENSg.m4a",
+  "duration_sec": 913.763,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 92,
+  "asr": true,
+  "title_en": "How a Remote Company Builds AI Fluency — Em Shreve, Automattic",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "added": "2026-10-13",
+  "added_at": "2026-10-13T02:14:06.013Z",
+  "speaker_map": {
+    "SPEAKER_00": "Em Shreve"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Em Shreve"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI",
+  "guest_name": "Em Shreve",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

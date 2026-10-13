@@ -33,7 +33,7 @@ unlisted: true
 
 [[Google DeepMind]] · [[Interactions API]] · [[Managed Agents]] · [[智能体]] · [[函数调用]] · [[沙箱]] · [[Gemini API]] · [[AI Studio]] · [[Ivan Leo]] · [[Philipp Schmid]]
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":10,"Interactions API":2,"Managed Agents":7,"智能体":483,"函数调用":4,"沙箱":96,"Gemini API":2,"AI Studio":3,"Ivan Leo":1,"Philipp Schmid":2}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":10,"Interactions API":2,"Managed Agents":7,"智能体":487,"函数调用":4,"沙箱":96,"Gemini API":2,"AI Studio":3,"Ivan Leo":1,"Philipp Schmid":2}</script>
 
 <script>
 (function(){

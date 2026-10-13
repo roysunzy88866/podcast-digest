@@ -1,0 +1,897 @@
+{
+  "episode_id": "2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o",
+  "podcast": "Beyond Coding",
+  "date": "2026-09-09",
+  "tags": [
+    "数据分析",
+    "开源商业模式",
+    "AI 与数据",
+    "创业故事",
+    "品牌"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jordan-tigani",
+      "type": "person",
+      "role": "host",
+      "name": "Jordan Tigani",
+      "file": "Jordan Tigani",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            61.627,
+            62.828
+          ],
+          "quote": "This is Jordan Tigani.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "motherduck",
+      "type": "company",
+      "role": "company",
+      "name": "MotherDuck",
+      "file": "MotherDuck",
+      "primary": true,
+      "how_described": "本集主线公司：Tigani 被解雇后创办的商业公司，做托管版 DuckDB 云服务——不是卖 DuckDB，而是替你运行它，并给 DuckDB 创始人联合创始人股份绑定利益。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1323.13,
+            1327.071
+          ],
+          "quote": "A lot of our salespeople are probably some of the biggest users of MotherDuck internally.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2379.065,
+            2393.472
+          ],
+          "quote": "We worked on stuff on DuckDB that we will hire them at MotherDuck and we have a handful of interns from CWI in the Netherlands, which is this research institution that spun out DuckDB Labs and also created Python.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "duckdb",
+      "type": "company",
+      "role": "company",
+      "name": "DuckDB",
+      "file": "DuckDB",
+      "primary": true,
+      "how_described": "本集说它是一个增长很快、有群众基础的开源分析数据库；其背后的 DuckDB Labs 专注把数据库本身做好，与 MotherDuck 形成少见的合作关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            116.467,
+            121.591
+          ],
+          "quote": "And I had seen this great open source database called DuckDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            146.905,
+            153.848
+          ],
+          "quote": "And then I asked a friend to introduce me to the creators of DuckDB, Anas and Mark, who were in the Netherlands.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            353.646,
+            359.471
+          ],
+          "quote": "The relationship of DuckDB and now the company Mother Duck, can you go a little bit deeper into that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            726.597,
+            735.02
+          ],
+          "quote": "I think, you know, DuckDB was an open source project that had a lot of traction, and so it was growing really quickly, and so there was a bet on that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            789.05,
+            798.465
+          ],
+          "quote": "And then people who were just DuckDB enthusiasts that were like, hey, I wanna be part of this DuckDB thing, and this is sort of the way to do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            860.53,
+            871.48
+          ],
+          "quote": "So we had like our first alpha, you know, kind of showed, you know, this is a hosted DuckDB that, you know, serverless, so you could, we could, you know, assign instances in, you know, in milliseconds.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            972.665,
+            975.748
+          ],
+          "quote": "You know, and I think we were also growing up with DuckDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            975.788,
+            985.497
+          ],
+          "quote": "So like, you know, I think DuckDB, when we started, it could do a lot of things really well, but it was not fully fleshed out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            989.06,
+            993.223
+          ],
+          "quote": "And, you know, this was, I think, DuckDB one point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            996.011,
+            1005.657
+          ],
+          "quote": "0.6, so it was still quite early, and so just hardening DuckDB was also an important part of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2338.212,
+            2342.294
+          ],
+          "quote": "Have people that contributed to DuckDB in the end also joined Mother Duck?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2344.875,
+            2349.977
+          ],
+          "quote": "We had a couple of people who were, you know, in the early days who were contributors to DuckDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2356.9,
+            2363.822
+          ],
+          "quote": "We really don't want to poach people from DuckDB Labs because of the relationship we have with that company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2364.462,
+            2371.423
+          ],
+          "quote": "And so a lot of the DuckDB contributors go to DuckDB Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2371.663,
+            2378.025
+          ],
+          "quote": "We actually have a decent number of students, so students who have built DuckDB extensions and sort of worked on...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2379.065,
+            2393.472
+          ],
+          "quote": "We worked on stuff on DuckDB that we will hire them at MotherDuck and we have a handful of interns from CWI in the Netherlands, which is this research institution that spun out DuckDB Labs and also created Python.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "bigquery",
+      "type": "company",
+      "role": "company",
+      "name": "BigQuery",
+      "file": "BigQuery",
+      "primary": true,
+      "how_described": "Tigani 参与创建的 Google 数据仓库，是他获得投资人信任的履历来源；他还合著过一本 BigQuery 的书，写作过程直接带来了产品改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            63.208,
+            71.352
+          ],
+          "quote": "With over a decade of experience at Google and specifically BigQuery, he shares why he started a new company and how he's building Mother Duck.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            130.197,
+            136.98
+          ],
+          "quote": "Built two database SaaS services, you know, first BigQuery and then the SaaS service for a single store.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            735.7,
+            744.423
+          ],
+          "quote": "You know, I also helped create Google BigQuery, and I led engineering and product for a while, and so I had a decent amount of credibility in that, and so it was like, okay,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2171.458,
+            2183.441
+          ],
+          "quote": "I think for me, one of the best ways of doing that was I wrote the first book, I co-authored a book about BigQuery when I was working on BigQuery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2195.284,
+            2199.465
+          ],
+          "quote": "So like there were a lot of changes in BigQuery that were the result of",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集说它当时刚上市、是当时规模最大的 IPO，错过它的投资人都在找下一个 Snowflake，这是 MotherDuck 融资顺利的原因之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            701.278,
+            707.545
+          ],
+          "quote": "One was Snowflake had just gone public, and I think it was the largest IPO at the time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            719.435,
+            726.577
+          ],
+          "quote": "But at the time, like, you know, everybody's like, hey, if they miss out on Snowflake, then they wanted to find the next thing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 AI 正在改变人与数据交互的方式，MotherDuck 正在建自己的智能体接口；销售用智能体（经 MCP server）问出「我今天该找哪些客户聊」这类分析师不会问的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 240,
+          "t": [
+            1217.437,
+            1227.1
+          ],
+          "quote": "That we're working on is sort of just the agent harness, which is, you know, right now you interact with it through, you know, Claude, ChatGPT, Gemini, or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1227.48,
+            1231.542
+          ],
+          "quote": "And, you know, we're sort of building our own agent interface on it, which will",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1232.982,
+            1249.217
+          ],
+          "quote": "Just make it easy to like when somebody shows up and you just instead of like saying okay well I'm gonna you know run these jobs or these queries or you know to build these things and just you have a discussion with the you know with the with our agent interface that you know you describe what you want to do and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1412.629,
+            1425.833
+          ],
+          "quote": "Having this agent operator kind of in between the tools and capabilities that you offer and the user that actually wants to get these insights, I feel like allows the flexibility to kind of focus on different types of users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1753.433,
+            1758.816
+          ],
+          "quote": "And at some point, there'll be an agent running and the agent will tell you there's something weird in the first place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1836.806,
+            1851.133
+          ],
+          "quote": "of engineering jobs from, you know, storage, database, you know, infrastructure, SaaS, you know, or like the, you know, API level and then UI and then AI and agent stuff as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "type": "concept",
+      "role": "concept",
+      "name": "仪表盘 (dashboard)",
+      "file": "仪表盘",
+      "primary": true,
+      "how_described": "团队内部辩论过「仪表盘已死」；Tigani 的结论是仪表盘不会死但角色会变——它是团队对业务的共同心智模型，异常深挖交给 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.368,
+            3.97
+          ],
+          "quote": "Are your ad campaigns lighting up the dashboard, but not the pipeline?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1,
+          "t": [
+            4.31,
+            9.193
+          ],
+          "quote": "That's bullspend, and marketers are calling it out in Dashboard Confessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 2,
+          "t": [
+            9.713,
+            15.056
+          ],
+          "quote": "My boss asked for results, so I opened my dashboard for the only positive-sounding metric I had.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 120,
+          "t": [
+            517.591,
+            521.172
+          ],
+          "quote": "Are your ad campaigns lighting up the dashboard, but not the pipeline?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            521.513,
+            526.375
+          ],
+          "quote": "That's bullspend, and marketers are calling it out in Dashboard Confessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            526.912,
+            532.236
+          ],
+          "quote": "My boss asked for results, so I opened my dashboard for the only positive-sounding metric I had.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1358.403,
+            1364.272
+          ],
+          "quote": "Actually, you know, separate, separate team and you say, you know, somebody files a ticket and says, hey, can you build this dashboard for me?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1636.079,
+            1648.022
+          ],
+          "quote": "Yeah, we've had this internal debate a bit about, you know, the future of the dashboard and like, you know, I think there's, you know, I wrote an article a couple years ago called Big Data is Dead.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1709.453,
+            1715.219
+          ],
+          "quote": "Interactive BI movement where you build a dashboard and you can drill down and click on things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1736.781,
+            1741.026
+          ],
+          "quote": "I think the interesting thing with AI is that like you can have that dashboard and you can be like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2035.837,
+            2039.438
+          ],
+          "quote": "Are your ad campaigns lighting up the dashboard, but not the pipeline?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2040.858,
+            2044.619
+          ],
+          "quote": "And marketers are calling it out in Dashboard Confessions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2045.16,
+            2050.521
+          ],
+          "quote": "My boss asked for results, so I opened my dashboard for the only positive-sounding metric I had.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "data-warehouse",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据仓库 (data warehouse)",
+      "file": "数据仓库",
+      "primary": true,
+      "how_described": "本集说如今数据仓库的技术水准已相当高，可靠、不丢数据、结果正确是没人真正使用前必须达到的基本门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            1051.429,
+            1057.714
+          ],
+          "quote": "And we're sort of assembling the adjacent pieces to the data warehouse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1153.457,
+            1160.979
+          ],
+          "quote": "You have like the ingest, analyze with our core data warehouse offering, and then visualize with our dives.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集讨论了开源商业化的常见路径（先建公司再开源、维护者锁功能收费），并把 MotherDuck 与 DuckDB Labs 的利益绑定模式称为可成为其他开源项目样板（或警世故事）的第三条路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            116.467,
+            121.591
+          ],
+          "quote": "And I had seen this great open source database called DuckDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            381.265,
+            385.287
+          ],
+          "quote": "And then we have the open source company DuckTB Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 99,
+          "t": [
+            388.228,
+            394.571
+          ],
+          "quote": "And so the Duck Labs, they focus on building a great database, building a great open source database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 100,
+          "t": [
+            394.611,
+            402.754
+          ],
+          "quote": "They have no pressure to do anything like change the license or do anything, you know, remove things from the open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            427.946,
+            431.889
+          ],
+          "quote": "You know, say, hey, thanks for building this great open source tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            489.335,
+            497.156
+          ],
+          "quote": "And kind of the hope is that if this works out, then this can be a model for other open source to use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            577.46,
+            589.851
+          ],
+          "quote": "All open core companies that I've seen is either people build a company and then they open source part of that kind of to get a community around that or they have the inverse where there are the people that maintain the open source component.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            604.562,
+            616.407
+          ],
+          "quote": "Because you also get these cases where, you know, people who are building, they build open source and, you know, you're trying to build a community and you're really kind of incentive to just sort of grow users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            625.01,
+            627.53
+          ],
+          "quote": "Their focus is on building this great open source project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            651.556,
+            653.819
+          ],
+          "quote": "Primary focus is building the open source project.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            726.597,
+            735.02
+          ],
+          "quote": "I think, you know, DuckDB was an open source project that had a lot of traction, and so it was growing really quickly, and so there was a bet on that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2150.293,
+            2152.274
+          ],
+          "quote": "You know, just work on open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2327.545,
+            2335.95
+          ],
+          "quote": "From what I know from my friends in both open source and open core companies, what people contribute towards that open source is for them kind of a hiring funnel.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "Tigani 说他做过两个数据库 SaaS 服务，并认为很多开源公司只把 SaaS 当简单变现手段，真正的创新机会在于把托管服务本身做好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            122.051,
+            127.295
+          ],
+          "quote": "And I've been thinking, you know, somebody should take that and build a SaaS service out of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            130.197,
+            136.98
+          ],
+          "quote": "Built two database SaaS services, you know, first BigQuery and then the SaaS service for a single store.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            180.187,
+            183.831
+          ],
+          "quote": "I was like, hey, do you want, would you hire me to build a SaaS, to help you build a SaaS service?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 101,
+          "t": [
+            404.415,
+            408.056
+          ],
+          "quote": "And we're the commercial company and we're trying to build a SaaS service out of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            447.238,
+            452.702
+          ],
+          "quote": "And I think that's been great because like you really, it's very hard to build a SaaS service without the ability to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            617.928,
+            619.428
+          ],
+          "quote": "Okay, we're monetized with the SaaS service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            621.229,
+            624.99
+          ],
+          "quote": "They build a like simplest possible SaaS service because it's not what they're focused on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            628.031,
+            635.332
+          ],
+          "quote": "So the SaaS service is like, okay, we just run whatever in Kubernetes and that's, you know, and they call it, you know, call it, call it monetized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1822.286,
+            1835.031
+          ],
+          "quote": "You know, I think one of the just interesting things about a database company like ours and a database SaaS company or database infrastructure company is that there's a whole gamut of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1836.806,
+            1851.133
+          ],
+          "quote": "of engineering jobs from, you know, storage, database, you know, infrastructure, SaaS, you know, or like the, you know, API level and then UI and then AI and agent stuff as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说 Claude 很擅长做数据可视化，能整合工单、使用量、新闻回答业务问题，也是 MotherDuck Dives/Flights 等产品背后的 AI 引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1060.636,
+            1070.505
+          ],
+          "quote": "And adding this functionality to our product, like the first one was, you know, after we realized that, hey, you can, you know, Claude is really good at building data visualizations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1109.689,
+            1116.134
+          ],
+          "quote": "Like, if you point Claude at Salesforce and say, hey, you know, pull my data in, it's gonna be able to figure that out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1147.356,
+            1151.997
+          ],
+          "quote": "But really, you know, you combine that with Claude and you can kind of, you can do some really, really cool things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1217.437,
+            1227.1
+          ],
+          "quote": "That we're working on is sort of just the agent harness, which is, you know, right now you interact with it through, you know, Claude, ChatGPT, Gemini, or whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1273.641,
+            1289.071
+          ],
+          "quote": "You might be, it might just be like, you know, it's, you know, just like a software engineer, you know, it's really nice to have Claude write the code for you and like, yeah, there's, you could write that, you know, you know, command line, you know, interface code or...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1291.433,
+            1297.858
+          ],
+          "quote": "Or UI code, but it's just, you know, you can do it a lot faster if you have Claude to do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1512.333,
+            1515.355
+          ],
+          "quote": "But it's something that Claude actually did a pretty good job.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1526.642,
+            1532.468
+          ],
+          "quote": "There's all sorts of, you know, interesting things that Claude can pull together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1542.037,
+            1554.921
+          ],
+          "quote": "I mean, those are things that Claude actually can give a good answer to, but also not the kind of thing that's sort of like a data team is likely going to, you know, they're not going to come up with this report and then tell the, you know, tell the CROs like, hey, here's the risks of your business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1604.572,
+            1624.871
+          ],
+          "quote": "And I feel like this interaction of debugging is one of the phrases but kind of finding gold in your data together with agents because in that way you can also have capabilities that you couldn't even imagine where Claude goes off on the web and pulls that data in or looks at some artifacts that it already has next to your data and then makes a decision based on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1745.629,
+            1753.413
+          ],
+          "quote": "And then you can ask Claude and Claude will poke at it and figure it out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2296.11,
+            2303.753
+          ],
+          "quote": "You know, send the, you know, four bullet points to Claude and then Claude will come up with this, you know, entirely plausible 30 page document.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "SingleStore",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

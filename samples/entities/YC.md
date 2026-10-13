@@ -66,7 +66,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[产品市场契合]] · [[主观能动性]] · [[ChatGPT]] · [[OpenAI]] · [[SaaS]] · [[Garry Tan]] · [[Salesforce]] · [[Reddit]]
 
-<script type="application/json" class="pd-epn">{"智能体":483,"Stripe":48,"产品市场契合":31,"主观能动性":1,"ChatGPT":110,"OpenAI":197,"SaaS":22,"Garry Tan":2,"Salesforce":36,"Reddit":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":487,"Stripe":48,"产品市场契合":31,"主观能动性":1,"ChatGPT":111,"OpenAI":197,"SaaS":23,"Garry Tan":2,"Salesforce":36,"Reddit":8}</script>
 
 <script>
 (function(){

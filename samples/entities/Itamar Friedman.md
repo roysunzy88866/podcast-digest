@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]] [[Hossein]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":24,"上下文":31,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":483,"代码治理":1,"语义规则":1,"Claude Code":107}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":24,"上下文":31,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":487,"代码治理":1,"语义规则":1,"Claude Code":108}</script>
 
 <script>
 (function(){

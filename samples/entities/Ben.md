@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]] [[Katie Kirsch]]
+[[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":483,"Will":1,"PlanetScale":1,"LangChain":11,"Walleye":1,"Cursor":86,"LangSmith":5,"Current":1,"Postgres":6,"Engine":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":487,"Will":1,"PlanetScale":1,"LangChain":11,"Walleye":1,"Cursor":86,"LangSmith":5,"Current":1,"Postgres":6,"Engine":1}</script>
 
 <script>
 (function(){

@@ -160,9 +160,9 @@ AI 改变的是这一点：仪表盘上看到怪数字，可以直接问 Claude,
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|被解雇的周五之后，他押上一切做了一家鸭子数据库公司]]<span class="pd-rz">同公司:BigQuery、DuckDB、MotherDuck、Snowflake · 同概念:仪表盘 (dashboard)、数据仓库 (data warehouse)、智能体 (agent)</span>
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|当几十亿个AI智能体冲向你的数据库]]<span class="pd-rz">同公司:DuckDB、Snowflake · 同概念:智能体 (agent)</span>
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代]]<span class="pd-rz">同公司:Snowflake · 同概念:智能体 (agent)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

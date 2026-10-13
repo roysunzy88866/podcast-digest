@@ -1,0 +1,125 @@
+{
+  "title_zh": "无限上下文窗口是个神话：别再往里塞东西了",
+  "tldr": "AWS 的 Elizabeth Fuentes Leone 讲清了一件事——为什么把什么都塞进大模型的上下文窗口救不了你的智能体，以及该怎么做。",
+  "digest_md": "来自 AWS 的 Elizabeth Fuentes Leone（开场时她还纠正了议程上的名字错误）做了一场快节奏的演讲，主题是：智能体应用（agent）为什么经常越跑越糊涂？答案不是更大的上下文窗口，而是更好地管理窗口里的内容。她把这叫作上下文工程（context engineering）。\n\n## 为什么窗口越大，智能体反而越笨？\n\n一个典型的场景：你有一个智能体，负责监控某个应用，每次都去拉取日志。每次拉取，数据都堆进上下文窗口，窗口越滚越大，因为智能体就是靠窗口来记住事情的 [01:48 Unknown]。\n\n一年前流行答案是：加 token，换更大的窗口。但现在我们知道这不管用——因为存在注意力 U 型曲线：数据太多时，模型会忘掉中间的部分，只记得开头和结尾 [02:30 Unknown]。\n\n更糟的是，窗口里的信息还可能毒害智能体——比如混进提示注入攻击 [02:54 Unknown]。所以上下文工程的定义很简单：**在模型需要的时候，给它需要的信息，而不是一股脑全给它**。\n\n## 四个策略：外置、筛选、压缩、隔离\n\nElizabeth 把应对手段归为四类。\n\n外置（externalize）：把大数据挪到持久化存储里，窗口里只留一个记忆指针。筛选（select）：只取相关的内容。压缩（compress）：做摘要、压缩信息。隔离（isolate）：不同智能体各用各的上下文，不互相污染 [03:23 Unknown]。\n\n具体怎么落地？她用了 strands——AWS 维护的开源框架，完全免费，而且不绑定任何模型，想换 OpenAI、Anthropic 的模型，加一行代码就行 [04:41 Unknown]。\n\n## 对话越聊越长怎么办？\n\n最简单的办法是框架内置的对话管理器，3 种策略：滑动窗口只保留最近的消息；摘要式管理器把旧消息总结掉、保留近几条；也可以两者结合 [04:47 Unknown]。\n\n比如摘要策略只需一行配置：保留最近 4 条消息，其余 50% 做摘要。每次会话都自动这样管理窗口 [06:07 Unknown]。\n\n## 记忆分三种，别全塞进一个窗口\n\n短期记忆就是最近的对话历史。但新会话开始时怎么办？可以建长期记忆，用向量数据库存过去的对话，用不同的提示词决定存什么 [07:07 Unknown]。还有关系型记忆，用实体图（她推荐去 Neo4j 的展台了解）来表达事物之间的关联。三种可以组合使用。\n\n## 海量日志的正确处理方式\n\n回到那个日志爆炸的例子。正确做法是：工具拉回日志后，另一个工具把日志存到存储里，只返回一个存储 ID 留在窗口里。再由一个工具去理解日志，直接告诉智能体「日志没问题，你不用看原文」。真需要原文时，再凭 ID 去取 [08:19 Unknown]。\n\n## 多智能体协作，更要少共享\n\n应用复杂到一个智能体不够时，就要上多智能体（她展示了 strands 的 swarm 模式）。她的警告很直白：在智能体之间共享整个上下文窗口，等于「往别的智能体里倒垃圾」，因为不是每个智能体都需要全部信息 [10:11 Unknown]。做法还是记忆指针——通过共享的调用状态传 ID，而不是传数据本身。\n\n## 智能体死循环怎么办？\n\n有的智能体会陷入死循环，反复调用同一个工具，永不停止。解决办法是给工具设调用上限，比如某个搜索工具最多调 3 次，循环自然终止 [11:28 Unknown]。另外，工具的返回要有清晰明确的响应，模糊的返回也是循环的诱因。\n\n## 外部接口太慢，就用异步\n\n调用外部 API 或 MCP 工具时，如果对方迟迟不响应，同步等待会把整个应用拖死。改用异步：先发起任务（比如用 FastAPI 写两个工具，一个启动任务、一个查询状态），下一次调用时再取回结果。她实测后说效果差别很大 [13:22 Unknown]。\n\n## 最后的四条反模式\n\n不要上下文塞满（context stuffing）——不需要把整个厨房都搬进窗口。慎用摘要，因为摘要过程可能丢掉智能体真正需要的信息。不要把所有东西都传给引擎。工具返回大数据时，外置、筛选、用记忆指针；多个智能体需要同一大数据时，共享指针不共享数据。\n\n## 本集带走\n\n- 上下文窗口越大不等于效果越好：数据太多时模型会忘掉中间，只记得头尾。\n- 上下文工程的核心：在需要的时刻，给模型需要的信息。\n- 四大策略：外置到存储、筛选相关内容、压缩摘要、按智能体隔离上下文。\n- 大文件（日志、数据库结果）用记忆指针代替原文，多智能体间也只共享指针。\n- 给工具设调用上限防止死循环，慢接口改异步处理。",
+  "quotes": [
+    {
+      "en": "The infinite content window is a myth.",
+      "zh": "无限的上下文窗口是一个神话。",
+      "timestamp": "00:34",
+      "speaker": "Elizabeth Fuentes Leone"
+    },
+    {
+      "en": "We have a lot of data, but if the data is super, super big, the agent is going to forget the middle in the curve.",
+      "zh": "我们有大量数据，但如果数据超级超级大，智能体会忘记曲线中间的部分。",
+      "timestamp": "02:19",
+      "speaker": "Elizabeth Fuentes Leone"
+    },
+    {
+      "en": "But content engineering is giving the model information it needs when it needs it.",
+      "zh": "上下文工程就是在模型需要的时候，给它所需要的信息。",
+      "timestamp": "02:43",
+      "speaker": "Elizabeth Fuentes Leone"
+    },
+    {
+      "en": "Sometimes the content window is poisoning the agent because you can have a prominent injection inside your content window.",
+      "zh": "有时候内容窗口在毒害智能体，因为你的内容窗口里可能有提示词注入。",
+      "timestamp": "02:54",
+      "speaker": "Elizabeth Fuentes Leone"
+    },
+    {
+      "en": "You share the context window between agents is like add garbage to the other agents because no all the agents need the information between them.",
+      "zh": "在智能体之间共享上下文窗口，就像是给其他智能体添加垃圾，因为并不是所有智能体都需要彼此之间的信息。",
+      "timestamp": "09:59",
+      "speaker": "Elizabeth Fuentes Leone"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:34",
+      "speaker": "Unknown",
+      "en": "The infinite content window is a myth.",
+      "zh": "无限的上下文窗口是一个神话。"
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Unknown",
+      "en": "It's because right now, a system breaks when tools returns a large amount of data.",
+      "zh": "这是因为现在，当工具返回大量数据时，系统就会崩溃。"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Unknown",
+      "en": "Context window overflow and the agent start to hallucinate and start the regionaries degrading.",
+      "zh": "上下文窗口溢出，智能体开始产生幻觉，并且开始出现推理能力退化。"
+    },
+    {
+      "timestamp": "01:54",
+      "speaker": "Unknown",
+      "en": "In the past, about probably one year ago, before this agentic era, we saw that just add more tokens that will fix it.",
+      "zh": "在过去，大概一年前，在这个智能体时代之前，大家认为只要增加更多 token 就能解决。"
+    },
+    {
+      "timestamp": "02:08",
+      "speaker": "Unknown",
+      "en": "And today, we know that it's not true because we have the Attention U Curve.",
+      "zh": "而今天，我们知道这不是真的，因为我们有 Attention U 形曲线。"
+    },
+    {
+      "timestamp": "02:19",
+      "speaker": "Unknown",
+      "en": "We have a lot of data, but if the data is super, super big, the agent is going to forget the middle in the curve.",
+      "zh": "我们有大量数据，但如果数据超级超级大，智能体会忘记曲线中间的部分。"
+    },
+    {
+      "timestamp": "02:43",
+      "speaker": "Unknown",
+      "en": "But content engineering is giving the model information it needs when it needs it.",
+      "zh": "上下文工程就是在模型需要的时候，给它所需要的信息。"
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Unknown",
+      "en": "Sometimes the content window is poisoning the agent because you can have a prominent injection inside your content window.",
+      "zh": "有时候内容窗口在毒害智能体，因为你的内容窗口里可能有提示词注入。"
+    },
+    {
+      "timestamp": "09:59",
+      "speaker": "Unknown",
+      "en": "You share the context window between agents is like add garbage to the other agents because no all the agents need the information between them.",
+      "zh": "在智能体之间共享上下文窗口，就像是给其他智能体添加垃圾，因为并不是所有智能体都需要彼此之间的信息。"
+    },
+    {
+      "timestamp": "10:49",
+      "speaker": "Unknown",
+      "en": "And sometimes we have this agent that stays in the loop forever, invoking the same tool, the same tool again, and it's never ending.",
+      "zh": "有时我们会遇到这种永远停留在循环里的智能体，一次又一次地调用同一个工具，永无止境。"
+    },
+    {
+      "timestamp": "13:54",
+      "speaker": "Unknown",
+      "en": "So you don't need to include everything in the kitchen.",
+      "zh": "所以你不需要把所有东西都放进厨房。"
+    },
+    {
+      "timestamp": "13:57",
+      "speaker": "Unknown",
+      "en": "You don't have to include everything in the content window because the agent doesn't need all the information there.",
+      "zh": "你不必把所有东西都放进内容窗口，因为智能体不需要那里的所有信息。"
+    },
+    {
+      "timestamp": "14:15",
+      "speaker": "Unknown",
+      "en": "When you do native summarization, the agent can forget what you need.",
+      "zh": "当你做原生摘要时，智能体可能会忘记你需要的东西。"
+    },
+    {
+      "timestamp": "14:34",
+      "speaker": "Unknown",
+      "en": "Again, don't pass everything to the engine.",
+      "zh": "再说一次，不要把所有东西都传给引擎。"
+    }
+  ],
+  "voice_script": "今天要讲的人，是来自 AWS 的 Elizabeth Fuentes Leone。她在一场技术演讲里聊了一个很多做智能体的人都被坑过的问题：为什么智能体应用经常越跑越糊涂，明明一开始好好的，聊着聊着就开始犯迷糊、忘事情、甚至原地打转？\n\n很多人第一反应是，模型上下文窗口不够大。所谓上下文窗口，说白了就是模型的\"工作记忆\"，模型能记住的东西全靠它。一年前流行的答案是：加 token，换更大的窗口，把所有数据都塞进去。但 Elizabeth 说，现在我们已经知道这条路走不通了。原因是模型里有个东西叫注意力 U 型曲线——数据太多的时候，模型会忘掉中间的部分，只记得开头和结尾。你塞进去一大堆日志、文档、对话记录，中间那一大段，模型其实根本没看进去。更糟的是，窗口里的信息还可能反过来毒害智能体，因为里面可能混进提示注入攻击——也就是别人往你的数据里藏了恶意指令，模型一不小心就照做了。\n\n所以她给出的答案是，问题不在窗口大小，而在你怎么管理窗口里的内容。这件事有个专门的名字，叫上下文工程。用她自己的话说：上下文工程就是在模型需要的时候，给它需要的信息，而不是一股脑全给它。\n\n那具体怎么做？她把手段归成四类。第一类是外置，就是把大数据挪到持久化的存储里，窗口里只留一个记忆指针，就好比书桌上不放整本书，只放一张写着书架编号的纸条。第二类是筛选，只取相关的内容。第三类是压缩，把信息做摘要。第四类是隔离，让不同的智能体各用各的上下文，互相不污染。\n\n落到工程上，她用的是 strands，这是 AWS 维护的开源框架，完全免费，而且不绑定任何模型，你想换成 OpenAI 或者 Anthropic 的模型，加一行代码就行。\n\n先说最常见的问题：对话越聊越长怎么办？框架里内置了对话管理器，有三种策略。滑动窗口只保留最近的消息；摘要式管理器把旧消息总结掉，保留近几条；也可以两者结合。比如摘要策略只需要一行配置：保留最近四条消息，其余的百分之五十做摘要，每次会话自动这样管理窗口。\n\n再进一步，记忆其实分三种。短期记忆就是最近的对话历史。但新会话开始时怎么办？这时候可以建长期记忆，用向量数据库把过去的对话存起来，再用不同的提示词决定存什么。还有一种是关系型记忆，用实体图来表达事物之间的关联，把人和事的关系画出来。这三种可以组合使用。\n\n回头说开头那个日志爆炸的例子，看看正确做法长什么样。工具把日志拉回来之后，不是直接堆进窗口，而是由另一个工具把日志存到存储里，只返回一个存储 ID 留在窗口里。然后由一个专门的工具去理解这些日志，直接告诉智能体：日志没问题，你不用看原文。真需要原文的时候，再凭 ID 去取。这样窗口里永远是干净的，数据却一个都没丢。\n\n那应用复杂到一个智能体不够用，要上多智能体协作的时候呢？这里 Elizabeth 的警告非常直白：在智能体之间共享整个上下文窗口，等于往别的智能体里倒垃圾，因为并不是所有智能体都需要彼此的全部信息。做法还是老一套——记忆指针。多个智能体之间通过共享的调用状态传 ID，而不是传数据本身。\n\n还有两个实操层面的坑。一个是死循环：有的智能体会反复调用同一个工具，永远停不下来。解决办法是给工具设调用上限，比如某个搜索工具最多调三次，循环自然就终止了。另外，工具的返回一定要清晰明确，模糊的返回也是诱发循环的原因之一。另一个坑是外部接口太慢：调用外部 API 的时候，如果对方迟迟不响应，同步等待会把整个应用拖死。办法是改成异步——先发起任务，下一次调用时再取回结果。实测下来效果差别很大。\n\n演讲最后，她还总结了四条反模式。不要上下文塞满，用她的比喻说，不需要把整个厨房都搬进窗口。慎用摘要，因为摘要的过程可能丢掉智能体真正需要的信息。不要把所有东西都传给引擎。工具返回大数据时，外置、筛选、用记忆指针；多个智能体需要同一份数据时，共享指针，不共享数据。\n\n这期演讲听下来，一句话可以带走：无限的上下文窗口是一个神话。别再往里塞东西了，学会在模型需要的时刻，给它需要的信息，智能体才能一直清醒。"
+}

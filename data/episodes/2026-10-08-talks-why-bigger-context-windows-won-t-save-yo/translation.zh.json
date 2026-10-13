@@ -1,0 +1,1490 @@
+[
+ {
+  "seg": 0,
+  "start": 12.643,
+  "end": 12.883,
+  "speaker": "Unknown",
+  "en": "Hi.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.804,
+  "end": 16.666,
+  "speaker": "Unknown",
+  "en": "Well, first, I have to say I am Elizabeth.",
+  "zh": "首先，我必须说我是 Elizabeth。"
+ },
+ {
+  "seg": 2,
+  "start": 16.886,
+  "end": 17.807,
+  "speaker": "Unknown",
+  "en": "I am not Morgan.",
+  "zh": "我不是 Morgan。"
+ },
+ {
+  "seg": 3,
+  "start": 18.567,
+  "end": 22.07,
+  "speaker": "Unknown",
+  "en": "But the guy for the agenda, they never change the agenda.",
+  "zh": "但议程上的人，他们从不改议程。"
+ },
+ {
+  "seg": 4,
+  "start": 22.17,
+  "end": 27.494,
+  "speaker": "Unknown",
+  "en": "So we are almost the same, but with different color hair, OK?",
+  "zh": "所以我们俩几乎一样，只是头发颜色不同，好吗？"
+ },
+ {
+  "seg": 5,
+  "start": 28.154,
+  "end": 30.015,
+  "speaker": "Unknown",
+  "en": "So it's going to be similar.",
+  "zh": "所以接下来会差不多。"
+ },
+ {
+  "seg": 6,
+  "start": 30.676,
+  "end": 32.958,
+  "speaker": "Unknown",
+  "en": "So today, I'm going to talk about",
+  "zh": "那么今天，我要讲的是"
+ },
+ {
+  "seg": 7,
+  "start": 34.134,
+  "end": 36.535,
+  "speaker": "Unknown",
+  "en": "The infinite content window is a myth.",
+  "zh": "无限的上下文窗口是一个神话。"
+ },
+ {
+  "seg": 8,
+  "start": 37.235,
+  "end": 37.555,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 9,
+  "start": 38.616,
+  "end": 46.859,
+  "speaker": "Unknown",
+  "en": "It's because right now, a system breaks when tools returns a large amount of data.",
+  "zh": "这是因为现在，当工具返回大量数据时，系统就会崩溃。"
+ },
+ {
+  "seg": 10,
+  "start": 47.599,
+  "end": 55.702,
+  "speaker": "Unknown",
+  "en": "Context window overflow and the agent start to hallucinate and start the regionaries degrading.",
+  "zh": "上下文窗口溢出，智能体开始产生幻觉，并且开始出现推理能力退化。"
+ },
+ {
+  "seg": 11,
+  "start": 56.362,
+  "end": 65.21,
+  "speaker": "Unknown",
+  "en": "So right now Context Engineering help us to give us a better architecture for this Agentex application.",
+  "zh": "所以现在，上下文工程帮助我们为这种 Agentex 应用提供了更好的架构。"
+ },
+ {
+  "seg": 12,
+  "start": 65.63,
+  "end": 73.437,
+  "speaker": "Unknown",
+  "en": "So we have some techniques that allows us to improve the context window for this Agentex application.",
+  "zh": "我们有一些技术可以改善这种 Agentex 应用的上下文窗口。"
+ },
+ {
+  "seg": 13,
+  "start": 74.29,
+  "end": 82.235,
+  "speaker": "Unknown",
+  "en": "So imagine that you have an engine that is responsible to supervise some application.",
+  "zh": "想象一下，你有一个智能体，它负责监督某个应用。"
+ },
+ {
+  "seg": 14,
+  "start": 82.716,
+  "end": 87.799,
+  "speaker": "Unknown",
+  "en": "So this engine has to retrieve logs for that application.",
+  "zh": "这个智能体必须检索那个应用的日志。"
+ },
+ {
+  "seg": 15,
+  "start": 88.039,
+  "end": 92.983,
+  "speaker": "Unknown",
+  "en": "So every time this engine is doing the retrieve for the logs, he's putting data",
+  "zh": "所以每当这个智能体去检索日志时，它就会把数据"
+ },
+ {
+  "seg": 16,
+  "start": 93.683,
+  "end": 95.064,
+  "speaker": "Unknown",
+  "en": "For the content window.",
+  "zh": "放进内容窗口。"
+ },
+ {
+  "seg": 17,
+  "start": 95.465,
+  "end": 98.408,
+  "speaker": "Unknown",
+  "en": "And every time this content window is going to grow.",
+  "zh": "而且这个内容窗口每次都会增长。"
+ },
+ {
+  "seg": 18,
+  "start": 98.868,
+  "end": 107.937,
+  "speaker": "Unknown",
+  "en": "It's going to grow every time because when we have one session and each session is going to retrieve the last session because it's going to remember everything.",
+  "zh": "它每次都会增长，因为当我们有一个会话时，每个会话都会检索上一个会话，因为它要记住所有东西。"
+ },
+ {
+  "seg": 19,
+  "start": 108.418,
+  "end": 113.262,
+  "speaker": "Unknown",
+  "en": "That's the way that the agents remember and they use the content window for that.",
+  "zh": "这就是智能体记忆的方式，它们为此使用内容窗口。"
+ },
+ {
+  "seg": 20,
+  "start": 114.103,
+  "end": 124.287,
+  "speaker": "Unknown",
+  "en": "In the past, about probably one year ago, before this agentic era, we saw that just add more tokens that will fix it.",
+  "zh": "在过去，大概一年前，在这个智能体时代之前，我们看到大家认为只要增加更多 token 就能解决。"
+ },
+ {
+  "seg": 21,
+  "start": 124.327,
+  "end": 128.189,
+  "speaker": "Unknown",
+  "en": "Yeah, this is more bigger content window that is going to fix it.",
+  "zh": "是的，更大的内容窗口就能解决这个问题。"
+ },
+ {
+  "seg": 22,
+  "start": 128.749,
+  "end": 132.911,
+  "speaker": "Unknown",
+  "en": "And today, we know that it's not true because we have",
+  "zh": "而今天，我们知道这不是真的，因为我们有"
+ },
+ {
+  "seg": 23,
+  "start": 134.114,
+  "end": 137.196,
+  "speaker": "Unknown",
+  "en": "The Attention U Curve.",
+  "zh": "Attention U 形曲线。"
+ },
+ {
+  "seg": 24,
+  "start": 137.676,
+  "end": 138.216,
+  "speaker": "Unknown",
+  "en": "What is this?",
+  "zh": "这是什么？"
+ },
+ {
+  "seg": 25,
+  "start": 139.176,
+  "end": 149.701,
+  "speaker": "Unknown",
+  "en": "We have a lot of data, but if the data is super, super big, the agent is going to forget the middle in the curve.",
+  "zh": "我们有大量数据，但如果数据超级超级大，智能体会忘记曲线中间的部分。"
+ },
+ {
+  "seg": 26,
+  "start": 150.001,
+  "end": 156.504,
+  "speaker": "Unknown",
+  "en": "It's only going to remember the first part and the last part that we sent to that content window.",
+  "zh": "它只会记住我们发送到那个内容窗口的第一部分和最后一部分。"
+ },
+ {
+  "seg": 27,
+  "start": 158.274,
+  "end": 162.276,
+  "speaker": "Unknown",
+  "en": "I'm talking here about context engineering, but I can move.",
+  "zh": "我在这里说的是上下文工程，但我可以换个说法。"
+ },
+ {
+  "seg": 28,
+  "start": 163.016,
+  "end": 168.218,
+  "speaker": "Unknown",
+  "en": "But content engineering is giving the model information it needs when it needs it.",
+  "zh": "上下文工程就是在模型需要的时候，给它所需要的信息。"
+ },
+ {
+  "seg": 29,
+  "start": 168.739,
+  "end": 173.601,
+  "speaker": "Unknown",
+  "en": "Sometimes the agent doesn't need all the information inside that content window.",
+  "zh": "有时候智能体并不需要那个内容窗口里的所有信息。"
+ },
+ {
+  "seg": 30,
+  "start": 174.021,
+  "end": 182.105,
+  "speaker": "Unknown",
+  "en": "Sometimes the content window is poisoning the agent because you can have a prominent injection inside your content window.",
+  "zh": "有时候内容窗口在毒害智能体，因为你的内容窗口里可能有提示词注入。"
+ },
+ {
+  "seg": 31,
+  "start": 183.795,
+  "end": 190.924,
+  "speaker": "Unknown",
+  "en": "The content engineering helped us to create the content window for optimal outcomes and token consumption.",
+  "zh": "上下文工程帮助我们为最优结果和 token 消耗来构建内容窗口。"
+ },
+ {
+  "seg": 32,
+  "start": 191.485,
+  "end": 197.512,
+  "speaker": "Unknown",
+  "en": "So today, I'm going to show you some techniques that can help you to improve the content window.",
+  "zh": "那么今天，我要给你们展示一些可以改善内容窗口的技术。"
+ },
+ {
+  "seg": 33,
+  "start": 199.343,
+  "end": 203.085,
+  "speaker": "Unknown",
+  "en": "These techniques I manage for a strategy.",
+  "zh": "我把这些技术整理成了一个策略体系。"
+ },
+ {
+  "seg": 34,
+  "start": 203.306,
+  "end": 210.43,
+  "speaker": "Unknown",
+  "en": "We have the externalize, because move this big data to a persistent storage.",
+  "zh": "我们有 externalize(外置化)，也就是把这些大数据移到持久化存储。"
+ },
+ {
+  "seg": 35,
+  "start": 210.911,
+  "end": 215.834,
+  "speaker": "Unknown",
+  "en": "You can create a memory pointer to storage that data.",
+  "zh": "你可以创建一个指向该数据的记忆指针。"
+ },
+ {
+  "seg": 36,
+  "start": 216.294,
+  "end": 219.656,
+  "speaker": "Unknown",
+  "en": "I'm going to share the deck at the end, so you don't need to have to.",
+  "zh": "我最后会分享幻灯片，所以你们不需要……"
+ },
+ {
+  "seg": 37,
+  "start": 220.056,
+  "end": 225.28,
+  "speaker": "Unknown",
+  "en": "Please pay me attention, because I'm going to share you all the information that I'm going to talk to you.",
+  "zh": "请注意听，因为我会分享我要讲的所有信息。"
+ },
+ {
+  "seg": 38,
+  "start": 226.256,
+  "end": 228.597,
+  "speaker": "Unknown",
+  "en": "And the second one is select.",
+  "zh": "第二个是 select(选择)。"
+ },
+ {
+  "seg": 39,
+  "start": 229.117,
+  "end": 232.218,
+  "speaker": "Unknown",
+  "en": "You can retrieve only what is relevant.",
+  "zh": "你可以只检索相关的内容。"
+ },
+ {
+  "seg": 40,
+  "start": 232.678,
+  "end": 240.061,
+  "speaker": "Unknown",
+  "en": "We have compress that reduce token because you can summarize and you can compact that information.",
+  "zh": "我们有 compress(压缩)，它能减少 token，因为你可以对信息做摘要和紧凑化。"
+ },
+ {
+  "seg": 41,
+  "start": 240.561,
+  "end": 246.343,
+  "speaker": "Unknown",
+  "en": "And the last one is isolate because you can separate context across agents.",
+  "zh": "最后一个是 isolate(隔离)，因为你可以把上下文分散到不同智能体之间。"
+ },
+ {
+  "seg": 42,
+  "start": 247.063,
+  "end": 248.663,
+  "speaker": "Unknown",
+  "en": "And let's start.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 43,
+  "start": 249.804,
+  "end": 253.425,
+  "speaker": "Unknown",
+  "en": "So, the starting point conversation manager.",
+  "zh": "那么，起点是对话管理器。"
+ },
+ {
+  "seg": 44,
+  "start": 254.701,
+  "end": 263.725,
+  "speaker": "Unknown",
+  "en": "This strategy, yeah, we have some strategies that are a little complicated, but we are going to start for the easy one that we can use inside the framework.",
+  "zh": "这个策略，是的，我们有一些策略有点复杂，但我们要从框架里就能用的最简单的那个开始。"
+ },
+ {
+  "seg": 45,
+  "start": 264.106,
+  "end": 267.827,
+  "speaker": "Unknown",
+  "en": "So here, in this strategy, we are going to use a strands engine.",
+  "zh": "在这个策略里，我们要用 strands 智能体。"
+ },
+ {
+  "seg": 46,
+  "start": 268.207,
+  "end": 271.589,
+  "speaker": "Unknown",
+  "en": "It's a framework that we at AWS we maintain.",
+  "zh": "它是我们 AWS 维护的一个框架。"
+ },
+ {
+  "seg": 47,
+  "start": 272.009,
+  "end": 273.67,
+  "speaker": "Unknown",
+  "en": "It's completely open source.",
+  "zh": "它是完全开源的。"
+ },
+ {
+  "seg": 48,
+  "start": 274.27,
+  "end": 276.351,
+  "speaker": "Unknown",
+  "en": "Yes, it's free and it's AWS.",
+  "zh": "是的，它是免费的，而且是 AWS 的。"
+ },
+ {
+  "seg": 49,
+  "start": 277.772,
+  "end": 281.494,
+  "speaker": "Unknown",
+  "en": "Yeah, it's open-source-free, hence it's completely model-agnostic.",
+  "zh": "是的，它开源免费，因此它完全是模型无关的。"
+ },
+ {
+  "seg": 50,
+  "start": 281.995,
+  "end": 287.398,
+  "speaker": "Unknown",
+  "en": "So here, with the strands, you can use three different strategies inside the framework.",
+  "zh": "所以在这里，使用 strands，你可以在框架内使用三种不同的策略。"
+ },
+ {
+  "seg": 51,
+  "start": 287.478,
+  "end": 292.842,
+  "speaker": "Unknown",
+  "en": "So we have a sliding window that allows you to keep only the most recent messages.",
+  "zh": "我们有一个滑动窗口，允许你只保留最近的消息。"
+ },
+ {
+  "seg": 52,
+  "start": 293.382,
+  "end": 300.907,
+  "speaker": "Unknown",
+  "en": "We have summarization inside the framework that allows you to summarize all their messages and keep recent ones.",
+  "zh": "我们在框架内有摘要功能，允许你总结所有消息并保留最近的消息。"
+ },
+ {
+  "seg": 53,
+  "start": 301.587,
+  "end": 304.049,
+  "speaker": "Unknown",
+  "en": "And the last one is a combination of two of them.",
+  "zh": "最后一种是前两者的组合。"
+ },
+ {
+  "seg": 54,
+  "start": 305.75,
+  "end": 309.718,
+  "speaker": "Unknown",
+  "en": "that you can combine summarize of all their messages with lesson one.",
+  "zh": "你可以把总结所有消息和 lesson one 结合起来。"
+ },
+ {
+  "seg": 55,
+  "start": 310.259,
+  "end": 313.045,
+  "speaker": "Unknown",
+  "en": "So first, let's see what is the strength.",
+  "zh": "那么首先，让我们看看什么是 strength。"
+ },
+ {
+  "seg": 56,
+  "start": 313.586,
+  "end": 314.388,
+  "speaker": "Unknown",
+  "en": "The strength is",
+  "zh": "strength 是"
+ },
+ {
+  "seg": 57,
+  "start": 316.215,
+  "end": 321.018,
+  "speaker": "Unknown",
+  "en": "So you only need one line of code to create the agentic loop.",
+  "zh": "你只需要一行代码就能创建智能体循环。"
+ },
+ {
+  "seg": 58,
+  "start": 321.458,
+  "end": 325.741,
+  "speaker": "Unknown",
+  "en": "So this line here creates all the agentic loops behind the scene.",
+  "zh": "这一行代码在幕后创建了所有的智能体循环。"
+ },
+ {
+  "seg": 59,
+  "start": 326.181,
+  "end": 331.605,
+  "speaker": "Unknown",
+  "en": "You don't need to create the nodes, the graph, nothing, because the strands can do that for you.",
+  "zh": "你不需要创建节点、图，什么都不需要，因为 strands 可以为你做这些。"
+ },
+ {
+  "seg": 60,
+  "start": 332.185,
+  "end": 335.208,
+  "speaker": "Unknown",
+  "en": "And you have the system prompt and the tools.",
+  "zh": "而且你有系统提示词和工具。"
+ },
+ {
+  "seg": 61,
+  "start": 336.168,
+  "end": 339.809,
+  "speaker": "Unknown",
+  "en": "And yes, this is simple because it's using Amazon better behind the scenes.",
+  "zh": "是的，这很简单，因为它在幕后使用了 Amazon better。"
+ },
+ {
+  "seg": 62,
+  "start": 340.589,
+  "end": 348.212,
+  "speaker": "Unknown",
+  "en": "But if you want to use Olamba, Gemini, Anthropic, you only need to add one line because you can do that.",
+  "zh": "但如果你想用 Olamba、Gemini、Anthropic，你只需要加一行代码，因为你可以做到。"
+ },
+ {
+  "seg": 63,
+  "start": 348.432,
+  "end": 354.193,
+  "speaker": "Unknown",
+  "en": "You import the library for OpenAI, for example, and then you add the model line.",
+  "zh": "你导入 OpenAI 的库，比如，然后添加模型那一行。"
+ },
+ {
+  "seg": 64,
+  "start": 354.714,
+  "end": 355.194,
+  "speaker": "Unknown",
+  "en": "And that's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 65,
+  "start": 355.754,
+  "end": 358.175,
+  "speaker": "Unknown",
+  "en": "So let's return to our strategy.",
+  "zh": "那么让我们回到我们的策略。"
+ },
+ {
+  "seg": 66,
+  "start": 359.135,
+  "end": 362.336,
+  "speaker": "Unknown",
+  "en": "If you want to use Summarization Conversation Manager,",
+  "zh": "如果你想使用 Summarization Conversation Manager，"
+ },
+ {
+  "seg": 67,
+  "start": 363.447,
+  "end": 367.148,
+  "speaker": "Unknown",
+  "en": "That's the only line that you can add for this agent loop.",
+  "zh": "这就是为这个智能体循环需要添加的唯一一行。"
+ },
+ {
+  "seg": 68,
+  "start": 367.868,
+  "end": 376.77,
+  "speaker": "Unknown",
+  "en": "So you have the summary radio that is, in this case, is 50%, and you want to preserve the last four messages.",
+  "zh": "所以你有 summary radio，在这个例子中是 50%，并且你想保留最后四条消息。"
+ },
+ {
+  "seg": 69,
+  "start": 377.09,
+  "end": 385.411,
+  "speaker": "Unknown",
+  "en": "So every time that you invoke this agent in this session, this session is going to manage your content window in this way.",
+  "zh": "所以每次你在会话中调用这个智能体时，这个会话会以这种方式管理你的内容窗口。"
+ },
+ {
+  "seg": 70,
+  "start": 385.812,
+  "end": 391.673,
+  "speaker": "Unknown",
+  "en": "So it's going to keep the four last messages, and it's going to summarize the other 50%.",
+  "zh": "它会保留最后四条消息，并把另外的 50% 进行总结。"
+ },
+ {
+  "seg": 71,
+  "start": 393.453,
+  "end": 402.318,
+  "speaker": "Unknown",
+  "en": "And yes, this is amazing, but what happens when you have a lot of memory and you don't want to lose all the memory inside that content window.",
+  "zh": "是的，这很棒，但当你有大量记忆、又不想丢失那个内容窗口里的所有记忆时，会发生什么呢。"
+ },
+ {
+  "seg": 72,
+  "start": 402.678,
+  "end": 411.804,
+  "speaker": "Unknown",
+  "en": "So you can use what always we have short-term memory because short-term memory is when you have the recent conversation history.",
+  "zh": "所以你可以用我们一直有的短期记忆，因为短期记忆就是你拥有的最近对话历史。"
+ },
+ {
+  "seg": 73,
+  "start": 411.824,
+  "end": 418.388,
+  "speaker": "Unknown",
+  "en": "So you can use this function that I just mentioned in the short-term memory.",
+  "zh": "所以你可以用我刚才提到的那个函数，用于短期记忆。"
+ },
+ {
+  "seg": 74,
+  "start": 419.068,
+  "end": 426.911,
+  "speaker": "Unknown",
+  "en": "But what happens when you want to return and you have a new session for this engine and you don't have short-term memory?",
+  "zh": "但当你想回来、而这个引擎有一个新会话、你没有短期记忆时，会发生什么呢？"
+ },
+ {
+  "seg": 75,
+  "start": 427.372,
+  "end": 433.314,
+  "speaker": "Unknown",
+  "en": "You can have long-term memory and you can create a vector database for that long-term memory.",
+  "zh": "你可以有长期记忆，并且可以为那个长期记忆创建一个向量数据库。"
+ },
+ {
+  "seg": 76,
+  "start": 433.374,
+  "end": 442.638,
+  "speaker": "Unknown",
+  "en": "You can have different types of memory inside that vector database with different prompts that can understand your conversation and save whatever you want.",
+  "zh": "你可以在那个向量数据库里有不同类型的记忆，配合不同的提示词，它们能理解你的对话并保存任何你想要的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 443.098,
+  "end": 445.861,
+  "speaker": "Unknown",
+  "en": "And the third one is relational memory.",
+  "zh": "第三种是关系记忆。"
+ },
+ {
+  "seg": 78,
+  "start": 445.981,
+  "end": 447.703,
+  "speaker": "Unknown",
+  "en": "You can use entity graph.",
+  "zh": "你可以使用实体图。"
+ },
+ {
+  "seg": 79,
+  "start": 447.863,
+  "end": 450.686,
+  "speaker": "Unknown",
+  "en": "You can go to the guy for Neo4j.",
+  "zh": "你可以去找 Neo4j 的那位朋友。"
+ },
+ {
+  "seg": 80,
+  "start": 450.746,
+  "end": 452.187,
+  "speaker": "Unknown",
+  "en": "They can explain you more about that.",
+  "zh": "他们可以给你更详细地解释。"
+ },
+ {
+  "seg": 81,
+  "start": 452.627,
+  "end": 456.131,
+  "speaker": "Unknown",
+  "en": "You can use traversal base set or how things connect.",
+  "zh": "你可以使用基于遍历的集合，或者事物之间如何连接。"
+ },
+ {
+  "seg": 82,
+  "start": 456.411,
+  "end": 457.612,
+  "speaker": "Unknown",
+  "en": "So you can understand.",
+  "zh": "这样你就能理解。"
+ },
+ {
+  "seg": 83,
+  "start": 457.672,
+  "end": 459.915,
+  "speaker": "Unknown",
+  "en": "You can use a combination of three of those.",
+  "zh": "你可以把这三种组合起来使用。"
+ },
+ {
+  "seg": 84,
+  "start": 460.475,
+  "end": 464.58,
+  "speaker": "Unknown",
+  "en": "You can have long-term memory for the session that you have.",
+  "zh": "你可以为你拥有的会话使用长期记忆。"
+ },
+ {
+  "seg": 85,
+  "start": 465.12,
+  "end": 470.106,
+  "speaker": "Unknown",
+  "en": "Then you can retrieve the memory that is in the past, the long-term memory.",
+  "zh": "然后你可以检索过去存在于长期记忆中的记忆。"
+ },
+ {
+  "seg": 86,
+  "start": 470.546,
+  "end": 478.976,
+  "speaker": "Unknown",
+  "en": "And if you have some relation theme that you want to keep in a different way, you can add for that graph memory as well.",
+  "zh": "而且如果你有一些想以不同方式保存的关系主题，你也可以为它添加图记忆。"
+ },
+ {
+  "seg": 87,
+  "start": 479.616,
+  "end": 480.938,
+  "speaker": "Unknown",
+  "en": "Let's continue with the other one.",
+  "zh": "让我们继续讲另一个。"
+ },
+ {
+  "seg": 88,
+  "start": 482.078,
+  "end": 486.222,
+  "speaker": "Unknown",
+  "en": "So what happened with this application with a lot of logs, as I told you?",
+  "zh": "那么这个有大量日志的应用程序怎么办，就像我告诉过你的？"
+ },
+ {
+  "seg": 89,
+  "start": 486.822,
+  "end": 493.108,
+  "speaker": "Unknown",
+  "en": "You don't want to put that logs inside your content window every time that you invoke that authentic application, that agent.",
+  "zh": "你不会想把那些日志在每次调用那个 authentic 应用程序、那个智能体时都放进你的内容窗口。"
+ },
+ {
+  "seg": 90,
+  "start": 493.608,
+  "end": 496.551,
+  "speaker": "Unknown",
+  "en": "You can save that inside a memory pointer.",
+  "zh": "你可以把它们保存到一个 memory pointer 里。"
+ },
+ {
+  "seg": 91,
+  "start": 497.051,
+  "end": 498.893,
+  "speaker": "Unknown",
+  "en": "So how does this work?",
+  "zh": "那么这是怎么工作的呢？"
+ },
+ {
+  "seg": 92,
+  "start": 499.473,
+  "end": 505.297,
+  "speaker": "Unknown",
+  "en": "You have the tools, the tools that returns you a bunch of logs.",
+  "zh": "你有工具，那些工具会返回给你一堆日志。"
+ },
+ {
+  "seg": 93,
+  "start": 505.818,
+  "end": 513.763,
+  "speaker": "Unknown",
+  "en": "You can use another tool that is going to be capable to take that logs and save that logs in storage.",
+  "zh": "你可以使用另一个工具，它能够接收那些日志并把它们保存到存储中。"
+ },
+ {
+  "seg": 94,
+  "start": 514.264,
+  "end": 517.226,
+  "speaker": "Unknown",
+  "en": "And you are going to retrieve an ID for that storage.",
+  "zh": "而且你会为那个存储检索到一个 ID。"
+ },
+ {
+  "seg": 95,
+  "start": 517.646,
+  "end": 521.949,
+  "speaker": "Unknown",
+  "en": "And for that, using the strands, you can have that using the agent state.",
+  "zh": "为此，使用 strands，你可以通过 agent state 来实现。"
+ },
+ {
+  "seg": 96,
+  "start": 522.429,
+  "end": 525.532,
+  "speaker": "Unknown",
+  "en": "In the agent state, you are going to have all the information for the tools.",
+  "zh": "在 agent state 里，你将拥有工具的所有信息。"
+ },
+ {
+  "seg": 97,
+  "start": 526.372,
+  "end": 537.195,
+  "speaker": "Unknown",
+  "en": "Then you can use another tool that is going to be capable to understand that logs and it's going to send to the agent, hey, the logs are okay.",
+  "zh": "然后你可以使用另一个工具，它能够理解那些日志，并且它会告诉智能体，嘿，日志没问题。"
+ },
+ {
+  "seg": 98,
+  "start": 537.235,
+  "end": 538.755,
+  "speaker": "Unknown",
+  "en": "You don't need the logs to understand that.",
+  "zh": "你不需要那些日志来理解这一点。"
+ },
+ {
+  "seg": 99,
+  "start": 539.255,
+  "end": 547.157,
+  "speaker": "Unknown",
+  "en": "But what happens is you need the logs, you can go and say, hey, this is my ID, come on, retrieve the logs because I needed to know.",
+  "zh": "但如果你需要那些日志呢，你可以去说，嘿，这是我的 ID，快去检索那些日志，因为我需要知道。"
+ },
+ {
+  "seg": 100,
+  "start": 547.617,
+  "end": 550.658,
+  "speaker": "Unknown",
+  "en": "So this is something that you can build in your architecture.",
+  "zh": "所以这是你可以在你的架构中构建的东西。"
+ },
+ {
+  "seg": 101,
+  "start": 551.718,
+  "end": 552.598,
+  "speaker": "Unknown",
+  "en": "And it's something like this.",
+  "zh": "它大概是这样的。"
+ },
+ {
+  "seg": 102,
+  "start": 553.318,
+  "end": 555.199,
+  "speaker": "Unknown",
+  "en": "You can have two different tools.",
+  "zh": "你可以有两个不同的工具。"
+ },
+ {
+  "seg": 103,
+  "start": 555.619,
+  "end": 560.24,
+  "speaker": "Unknown",
+  "en": "That's the way that we create tools inside the StrangSafe, only with the tool decorator.",
+  "zh": "这就是我们在 StrangSafe 内部创建工具的方式，只用工具装饰器。"
+ },
+ {
+  "seg": 104,
+  "start": 560.74,
+  "end": 562.88,
+  "speaker": "Unknown",
+  "en": "So we have fetch application logs.",
+  "zh": "所以我们有 fetch application logs。"
+ },
+ {
+  "seg": 105,
+  "start": 563.42,
+  "end": 568.461,
+  "speaker": "Unknown",
+  "en": "And if you can see there, you have the tool context agent state.",
+  "zh": "如果你能在那里看到，你有 tool context agent state。"
+ },
+ {
+  "seg": 106,
+  "start": 568.941,
+  "end": 573.582,
+  "speaker": "Unknown",
+  "en": "So we retrieve that information, and we save that in a memory pointer.",
+  "zh": "所以我们检索那个信息，并把它保存在一个内存指针里。"
+ },
+ {
+  "seg": 107,
+  "start": 573.602,
+  "end": 578.503,
+  "speaker": "Unknown",
+  "en": "We create a memory pointer ID that is going to preserve inside our content window.",
+  "zh": "我们创建一个内存指针 ID，它会保留在我们的内容窗口里。"
+ },
+ {
+  "seg": 108,
+  "start": 579.487,
+  "end": 586.011,
+  "speaker": "Unknown",
+  "en": "But what happened is your application is super complicated and the tools is not enough.",
+  "zh": "但如果你的应用程序超级复杂，工具不够用了怎么办。"
+ },
+ {
+  "seg": 109,
+  "start": 587.092,
+  "end": 593.096,
+  "speaker": "Unknown",
+  "en": "You can use a multi-agent application.",
+  "zh": "你可以使用多智能体应用。"
+ },
+ {
+  "seg": 110,
+  "start": 593.256,
+  "end": 597.919,
+  "speaker": "Unknown",
+  "en": "So you can create a strong swarm with multi-agents.",
+  "zh": "所以你可以用多智能体创建一个强大的 swarm。"
+ },
+ {
+  "seg": 111,
+  "start": 599.828,
+  "end": 610.939,
+  "speaker": "Unknown",
+  "en": "You share the context window between agents is like add garbage to the other agents because no all the agents need the information between them.",
+  "zh": "你在智能体之间共享上下文窗口，就像是给其他智能体添加垃圾，因为并不是所有智能体都需要彼此之间的信息。"
+ },
+ {
+  "seg": 112,
+  "start": 611.419,
+  "end": 614.863,
+  "speaker": "Unknown",
+  "en": "So you can share the information between the",
+  "zh": "所以你可以在两者之间共享信息——"
+ },
+ {
+  "seg": 113,
+  "start": 616.693,
+  "end": 617.914,
+  "speaker": "Unknown",
+  "en": "Invocation state pointer.",
+  "zh": "调用状态指针。"
+ },
+ {
+  "seg": 114,
+  "start": 618.454,
+  "end": 629.983,
+  "speaker": "Unknown",
+  "en": "So you can create an ID between that swamp, agent swamp, and you can share the memory pointer between the invocation state between the agents.",
+  "zh": "所以你可以在那个 swamp、智能体 swamp 之间创建一个 ID，并且你可以在智能体之间的调用状态中共享内存指针。"
+ },
+ {
+  "seg": 115,
+  "start": 630.403,
+  "end": 634.386,
+  "speaker": "Unknown",
+  "en": "And that's the way that we create the swamp in a strands agent.",
+  "zh": "这就是我们在 strands agent 中创建 swamp 的方式。"
+ },
+ {
+  "seg": 116,
+  "start": 636.047,
+  "end": 637.348,
+  "speaker": "Unknown",
+  "en": "And, oh my god, nine minutes.",
+  "zh": "而且，哦天哪，九分钟了。"
+ },
+ {
+  "seg": 117,
+  "start": 637.968,
+  "end": 638.729,
+  "speaker": "Unknown",
+  "en": "I want to be fast.",
+  "zh": "我想快一点。"
+ },
+ {
+  "seg": 118,
+  "start": 639.59,
+  "end": 641.291,
+  "speaker": "Unknown",
+  "en": "And the next one is, what?",
+  "zh": "下一个是，什么？"
+ },
+ {
+  "seg": 119,
+  "start": 644.108,
+  "end": 649.531,
+  "speaker": "Unknown",
+  "en": "The next one is what happens when the agent is going to stop never.",
+  "zh": "下一个是，当智能体要停止时会发生什么——永远不停止。"
+ },
+ {
+  "seg": 120,
+  "start": 649.911,
+  "end": 658.775,
+  "speaker": "Unknown",
+  "en": "And sometimes we have this agent that stays in the loop forever, invoking the same tool, the same tool again, and it's never ending.",
+  "zh": "有时我们会遇到这种永远停留在循环里的智能体，一次又一次地调用同一个工具，永无止境。"
+ },
+ {
+  "seg": 121,
+  "start": 659.135,
+  "end": 664.718,
+  "speaker": "Unknown",
+  "en": "So you can stop that with a minimum amount of invocation inside the loop.",
+  "zh": "所以你可以通过在循环内设置最小调用次数来阻止它。"
+ },
+ {
+  "seg": 122,
+  "start": 665.578,
+  "end": 666.378,
+  "speaker": "Unknown",
+  "en": "So what is the problem?",
+  "zh": "那么问题是什么？"
+ },
+ {
+  "seg": 123,
+  "start": 666.398,
+  "end": 667.279,
+  "speaker": "Unknown",
+  "en": "Like you said, the problem.",
+  "zh": "就像你说的，问题。"
+ },
+ {
+  "seg": 124,
+  "start": 667.639,
+  "end": 670.12,
+  "speaker": "Unknown",
+  "en": "To sell more tools may be available.",
+  "zh": "为了卖出更多，可能有很多工具可用。"
+ },
+ {
+  "seg": 125,
+  "start": 670.44,
+  "end": 677.844,
+  "speaker": "Unknown",
+  "en": "So what does happen when you don't have a clear response when you evolve the tool?",
+  "zh": "那么当你演进工具时却没有清晰的响应，会发生什么？"
+ },
+ {
+  "seg": 126,
+  "start": 678.424,
+  "end": 684.787,
+  "speaker": "Unknown",
+  "en": "So you can avoid that with the tool way, with the clear response and with amounts of evocation for the tool.",
+  "zh": "所以你可以通过工具方式来避免它，通过清晰的响应和工具的调用次数来避免。"
+ },
+ {
+  "seg": 127,
+  "start": 685.167,
+  "end": 686.107,
+  "speaker": "Unknown",
+  "en": "And you do it like this.",
+  "zh": "你这样做。"
+ },
+ {
+  "seg": 128,
+  "start": 686.747,
+  "end": 687.268,
+  "speaker": "Unknown",
+  "en": "So you have",
+  "zh": "所以你有"
+ },
+ {
+  "seg": 129,
+  "start": 688.188,
+  "end": 689.289,
+  "speaker": "Unknown",
+  "en": "A limited tool counts.",
+  "zh": "一个受限的工具调用次数。"
+ },
+ {
+  "seg": 130,
+  "start": 689.789,
+  "end": 695.413,
+  "speaker": "Unknown",
+  "en": "So you set max tool counts for this example is my tools search fly.",
+  "zh": "你设置 max tool counts，在这个例子里是我的工具 search fly。"
+ },
+ {
+  "seg": 131,
+  "start": 695.793,
+  "end": 699.515,
+  "speaker": "Unknown",
+  "en": "You only can invoke that tool three times.",
+  "zh": "你只能调用那个工具三次。"
+ },
+ {
+  "seg": 132,
+  "start": 700.095,
+  "end": 702.197,
+  "speaker": "Unknown",
+  "en": "And the other tool, yeah, three times as well.",
+  "zh": "而另一个工具，是的，也是三次。"
+ },
+ {
+  "seg": 133,
+  "start": 702.757,
+  "end": 707.96,
+  "speaker": "Unknown",
+  "en": "So the agent never is going to do this eternal loop.",
+  "zh": "这样智能体就永远不会进入这种永恒的循环。"
+ },
+ {
+  "seg": 134,
+  "start": 708.661,
+  "end": 711.883,
+  "speaker": "Unknown",
+  "en": "It's only going to invoke that tool three times.",
+  "zh": "它只会调用那个工具三次。"
+ },
+ {
+  "seg": 135,
+  "start": 713.373,
+  "end": 716.615,
+  "speaker": "Unknown",
+  "en": "And the last one, yes, I'm almost there.",
+  "zh": "最后一个，是的，我快讲完了。"
+ },
+ {
+  "seg": 136,
+  "start": 717.055,
+  "end": 721.999,
+  "speaker": "Unknown",
+  "en": "The last one is, it's not something that helps you to the content window.",
+  "zh": "最后一个，它不是那种直接帮助你内容窗口的东西。"
+ },
+ {
+  "seg": 137,
+  "start": 722.459,
+  "end": 725.901,
+  "speaker": "Unknown",
+  "en": "It's something that you can use to help your content window.",
+  "zh": "它是你可以用来帮助你的内容窗口的东西。"
+ },
+ {
+  "seg": 138,
+  "start": 726.281,
+  "end": 737.269,
+  "speaker": "Unknown",
+  "en": "Because sometimes we are invoking our MCP tools or our MCP, or we have external API that never answer you at the time that you need it.",
+  "zh": "因为有时我们调用我们的 MCP 工具或我们的 MCP，或者我们有外部 API，它们永远不会在你需要的时候回答你。"
+ },
+ {
+  "seg": 139,
+  "start": 737.909,
+  "end": 741.811,
+  "speaker": "Unknown",
+  "en": "Sometimes, for example, we have AWS API Gateway.",
+  "zh": "有时，比如，我们有 AWS API Gateway。"
+ },
+ {
+  "seg": 140,
+  "start": 742.291,
+  "end": 747.713,
+  "speaker": "Unknown",
+  "en": "It has a maximum time that it's going to receive the answer.",
+  "zh": "它有一个接收答案的最大时间限制。"
+ },
+ {
+  "seg": 141,
+  "start": 748.033,
+  "end": 753.095,
+  "speaker": "Unknown",
+  "en": "So if you don't have that time, it's going to stop your application because of the delay.",
+  "zh": "所以如果你没有在那个时间内完成，它会因为延迟而停止你的应用程序。"
+ },
+ {
+  "seg": 142,
+  "start": 753.695,
+  "end": 758.017,
+  "speaker": "Unknown",
+  "en": "So you can avoid that using a synchronous handle.",
+  "zh": "所以你可以通过同步处理来避免这个问题。"
+ },
+ {
+  "seg": 143,
+  "start": 758.517,
+  "end": 764.681,
+  "speaker": "Unknown",
+  "en": "So when you use synchronous, your agent is going to wait forever for the answer for your MCP.",
+  "zh": "但当你使用同步方式时，你的智能体会永远等待你的 MCP 的答案。"
+ },
+ {
+  "seg": 144,
+  "start": 765.161,
+  "end": 771.164,
+  "speaker": "Unknown",
+  "en": "But if you have an asynchronous handle, you can invoke your MCP, your external API.",
+  "zh": "但如果你有一个异步处理器，你就可以调用你的 MCP、你的外部 API。"
+ },
+ {
+  "seg": 145,
+  "start": 771.564,
+  "end": 776.987,
+  "speaker": "Unknown",
+  "en": "So then you can save that, and you can retrieve the answer in the next invocation when you need it.",
+  "zh": "然后你可以保存它，并在下一次调用需要时检索答案。"
+ },
+ {
+  "seg": 146,
+  "start": 777.647,
+  "end": 781.349,
+  "speaker": "Unknown",
+  "en": "Yes, this is going to depend on the case that you are building.",
+  "zh": "是的，这将取决于你正在构建的具体场景。"
+ },
+ {
+  "seg": 147,
+  "start": 782.269,
+  "end": 783.13,
+  "speaker": "Unknown",
+  "en": "And you can do that.",
+  "zh": "你可以做到这一点。"
+ },
+ {
+  "seg": 148,
+  "start": 784.973,
+  "end": 785.353,
+  "speaker": "Unknown",
+  "en": "Like this.",
+  "zh": "像这样。"
+ },
+ {
+  "seg": 149,
+  "start": 786.034,
+  "end": 786.854,
+  "speaker": "Unknown",
+  "en": "Create MCP.",
+  "zh": "创建 MCP。"
+ },
+ {
+  "seg": 150,
+  "start": 786.894,
+  "end": 789.456,
+  "speaker": "Unknown",
+  "en": "This is a function that uses FastAPI.",
+  "zh": "这是一个使用 FastAPI 的函数。"
+ },
+ {
+  "seg": 151,
+  "start": 790.136,
+  "end": 793.558,
+  "speaker": "Unknown",
+  "en": "And with FastMPI, you only need to create the tools.",
+  "zh": "而用 FastMPI,你只需要创建工具。"
+ },
+ {
+  "seg": 152,
+  "start": 793.739,
+  "end": 795.48,
+  "speaker": "Unknown",
+  "en": "So I'm going to have two different tools.",
+  "zh": "所以我要创建两个不同的工具。"
+ },
+ {
+  "seg": 153,
+  "start": 796.04,
+  "end": 800.403,
+  "speaker": "Unknown",
+  "en": "One is StartLockJob, and another one is CheckJobStatus.",
+  "zh": "一个是 StartLockJob,另一个是 CheckJobStatus。"
+ },
+ {
+  "seg": 154,
+  "start": 802.118,
+  "end": 808.385,
+  "speaker": "Unknown",
+  "en": "I did a lot of tests using this async handle, and the difference is a lot.",
+  "zh": "我用这个 async handle 做了很多测试，差别非常大。"
+ },
+ {
+  "seg": 155,
+  "start": 808.905,
+  "end": 816.994,
+  "speaker": "Unknown",
+  "en": "For example, if you have the different, well, the agent never stopped to answer me.",
+  "zh": "比如说，如果你有不同的，嗯，智能体从来不会停下来回答我。"
+ },
+ {
+  "seg": 156,
+  "start": 817.374,
+  "end": 820.758,
+  "speaker": "Unknown",
+  "en": "So because I wait, then he can retrieve the information.",
+  "zh": "因为我在等待，所以它能取回信息。"
+ },
+ {
+  "seg": 157,
+  "start": 821.679,
+  "end": 824.501,
+  "speaker": "Unknown",
+  "en": "And to close this session, six minutes,",
+  "zh": "结束这个会话，六分钟，"
+ },
+ {
+  "seg": 158,
+  "start": 825.585,
+  "end": 827.406,
+  "speaker": "Unknown",
+  "en": "We have the anti-paras.",
+  "zh": "我们有 anti-paras。"
+ },
+ {
+  "seg": 159,
+  "start": 827.987,
+  "end": 830.648,
+  "speaker": "Unknown",
+  "en": "So why do you have to avoid?",
+  "zh": "那么你为什么要避免？"
+ },
+ {
+  "seg": 160,
+  "start": 831.329,
+  "end": 833.65,
+  "speaker": "Unknown",
+  "en": "You have to avoid content stuffing.",
+  "zh": "你要避免内容塞填。"
+ },
+ {
+  "seg": 161,
+  "start": 834.051,
+  "end": 837.673,
+  "speaker": "Unknown",
+  "en": "So you don't need to include everything in the kitchen.",
+  "zh": "所以你不需要把所有东西都放进厨房。"
+ },
+ {
+  "seg": 162,
+  "start": 837.733,
+  "end": 843.997,
+  "speaker": "Unknown",
+  "en": "You don't have to include everything in the content window because the agent doesn't need all the information there.",
+  "zh": "你不必把所有东西都放进内容窗口，因为智能体不需要那里的所有信息。"
+ },
+ {
+  "seg": 163,
+  "start": 844.577,
+  "end": 851.042,
+  "speaker": "Unknown",
+  "en": "You can only share what the agent needs to create the answer that you're using or you're asking for.",
+  "zh": "你只需要分享智能体创建你所使用或所询问的答案所需要的内容。"
+ },
+ {
+  "seg": 164,
+  "start": 851.742,
+  "end": 855.445,
+  "speaker": "Unknown",
+  "en": "You can have native summarization sometimes.",
+  "zh": "你有时可以做原生摘要。"
+ },
+ {
+  "seg": 165,
+  "start": 855.906,
+  "end": 862.811,
+  "speaker": "Unknown",
+  "en": "When you do native summarization, the agent can forget what you need.",
+  "zh": "当你做原生摘要时，智能体可能会忘记你需要的东西。"
+ },
+ {
+  "seg": 166,
+  "start": 863.292,
+  "end": 871.359,
+  "speaker": "Unknown",
+  "en": "If you're doing whatever summarization, what you might infer, probably in that summarization, you are not going to have everything that the agent is needed to answer you.",
+  "zh": "如果你在做某种摘要，按你的推测，在那份摘要里，很可能不会包含智能体回答你所需要的全部内容。"
+ },
+ {
+  "seg": 167,
+  "start": 872.019,
+  "end": 873.36,
+  "speaker": "Unknown",
+  "en": "And context population.",
+  "zh": "还有上下文填充。"
+ },
+ {
+  "seg": 168,
+  "start": 874.281,
+  "end": 877.224,
+  "speaker": "Unknown",
+  "en": "Again, don't pass everything to the engine.",
+  "zh": "再说一次，不要把所有东西都传给引擎。"
+ },
+ {
+  "seg": 169,
+  "start": 877.284,
+  "end": 879.325,
+  "speaker": "Unknown",
+  "en": "The engine doesn't need all that information.",
+  "zh": "引擎不需要所有那些信息。"
+ },
+ {
+  "seg": 170,
+  "start": 880.026,
+  "end": 881.547,
+  "speaker": "Unknown",
+  "en": "And what is a good thing here?",
+  "zh": "那么这里有什么好的做法呢？"
+ },
+ {
+  "seg": 171,
+  "start": 882.448,
+  "end": 892.817,
+  "speaker": "Unknown",
+  "en": "So, tool returns large data, logs, database, a lot of information, externalize, select, and use a memory pointer.",
+  "zh": "所以，工具返回大量数据、日志、数据库、大量信息时，外部化、筛选，并使用一个内存指针。"
+ },
+ {
+  "seg": 172,
+  "start": 894.192,
+  "end": 896.134,
+  "speaker": "Unknown",
+  "en": "Many engines need the same large data.",
+  "zh": "许多引擎需要同样的大量数据。"
+ },
+ {
+  "seg": 173,
+  "start": 896.955,
+  "end": 898.918,
+  "speaker": "Unknown",
+  "en": "You can share invocation between steps.",
+  "zh": "你可以在步骤之间共享调用。"
+ },
+ {
+  "seg": 174,
+  "start": 899.779,
+  "end": 908.169,
+  "speaker": "Unknown",
+  "en": "And agent loops or tool hunts, you can have clear steps, you know, give a clear answer for the tool.",
+  "zh": "还有智能体循环或工具空转，你可以有清晰的步骤，你知道的，给工具一个清晰的回答。"
+ },
+ {
+  "seg": 175,
+  "start": 908.79,
+  "end": 910.432,
+  "speaker": "Unknown",
+  "en": "And limited tools counts.",
+  "zh": "以及限制工具数量。"
+ },
+ {
+  "seg": 176,
+  "start": 910.892,
+  "end": 912.214,
+  "speaker": "Unknown",
+  "en": "And a same handle.",
+  "zh": "还有一个相同的 handle。"
+ },
+ {
+  "seg": 177,
+  "start": 913.615,
+  "end": 914.036,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 178,
+  "start": 916.457,
+  "end": 921.623,
+  "speaker": "Unknown",
+  "en": "And of course, if you want to learn more about TransAIM, we have a huge booth there.",
+  "zh": "当然，如果你想了解更多关于 TransAIM 的信息，我们在那边有一个很大的展位。"
+ },
+ {
+  "seg": 179,
+  "start": 921.703,
+  "end": 922.905,
+  "speaker": "Unknown",
+  "en": "We have a lot of swag.",
+  "zh": "我们有很多 swag。"
+ },
+ {
+  "seg": 180,
+  "start": 923.225,
+  "end": 927.73,
+  "speaker": "Unknown",
+  "en": "We have a little Legos for Amazon that you can have.",
+  "zh": "我们还有一些亚马逊的小乐高可以送给你。"
+ },
+ {
+  "seg": 181,
+  "start": 928.371,
+  "end": 929.452,
+  "speaker": "Unknown",
+  "en": "And see you there.",
+  "zh": "到时候见。"
+ },
+ {
+  "seg": 182,
+  "start": 929.693,
+  "end": 930.654,
+  "speaker": "Unknown",
+  "en": "We have the specialists.",
+  "zh": "我们有专家在那里。"
+ },
+ {
+  "seg": 183,
+  "start": 931.154,
+  "end": 933.537,
+  "speaker": "Unknown",
+  "en": "And I am Elizabeth, no more can remember.",
+  "zh": "我是 Elizabeth,没别的能记得的了。"
+ },
+ {
+  "seg": 184,
+  "start": 935.159,
+  "end": 935.78,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 185,
+  "start": 943.791,
+  "end": 944.937,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -1,0 +1,649 @@
+{
+  "episode_id": "2026-10-08-talks-why-bigger-context-windows-won-t-save-yo",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "上下文工程",
+    "多智能体",
+    "提示词注入"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "elizabeth-fuentes-leone",
+      "type": "person",
+      "role": "guest",
+      "name": "Elizabeth Fuentes Leone",
+      "file": "Elizabeth Fuentes Leone",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集说 AWS 维护着开源免费的 strands 框架，演讲者来自 AWS，结尾还推荐去 AWS 的展位了解 TransAIM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            268.207,
+            271.589
+          ],
+          "quote": "It's a framework that we at AWS we maintain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            274.27,
+            276.351
+          ],
+          "quote": "Yes, it's free and it's AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            737.909,
+            741.811
+          ],
+          "quote": "Sometimes, for example, we have AWS API Gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "strands",
+      "type": "company",
+      "role": "company",
+      "name": "strands",
+      "file": "strands",
+      "primary": true,
+      "how_described": "本集说 strands 是 AWS 维护的完全开源免费的智能体框架，模型无关（一行代码换 OpenAI/Gemini/Anthropic），内置对话管理器（滑动窗口/摘要/组合）、swarm 多智能体模式和 agent state。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            264.106,
+            267.827
+          ],
+          "quote": "So here, in this strategy, we are going to use a strands engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            281.995,
+            287.398
+          ],
+          "quote": "So here, with the strands, you can use three different strategies inside the framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            326.181,
+            331.605
+          ],
+          "quote": "You don't need to create the nodes, the graph, nothing, because the strands can do that for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            517.646,
+            521.949
+          ],
+          "quote": "And for that, using the strands, you can have that using the agent state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            630.403,
+            634.386
+          ],
+          "quote": "And that's the way that we create the swamp in a strands agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neo4j",
+      "type": "company",
+      "role": "company",
+      "name": "Neo4j",
+      "file": "Neo4j",
+      "primary": false,
+      "how_described": "本集在讲关系型记忆/实体图时顺带推荐去 Neo4j 的展位了解更多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            447.863,
+            450.686
+          ],
+          "quote": "You can go to the guy for Neo4j.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体靠上下文窗口来记忆，窗口溢出会导致幻觉和推理退化；讨论了智能体死循环、多智能体共享上下文等于互相倒垃圾等问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.599,
+            55.702
+          ],
+          "quote": "Context window overflow and the agent start to hallucinate and start the regionaries degrading.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            139.176,
+            149.701
+          ],
+          "quote": "We have a lot of data, but if the data is super, super big, the agent is going to forget the middle in the curve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            168.739,
+            173.601
+          ],
+          "quote": "Sometimes the agent doesn't need all the information inside that content window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            174.021,
+            182.105
+          ],
+          "quote": "Sometimes the content window is poisoning the agent because you can have a prominent injection inside your content window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            363.447,
+            367.148
+          ],
+          "quote": "That's the only line that you can add for this agent loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            377.09,
+            385.411
+          ],
+          "quote": "So every time that you invoke this agent in this session, this session is going to manage your content window in this way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            486.822,
+            493.108
+          ],
+          "quote": "You don't want to put that logs inside your content window every time that you invoke that authentic application, that agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            517.646,
+            521.949
+          ],
+          "quote": "And for that, using the strands, you can have that using the agent state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            522.429,
+            525.532
+          ],
+          "quote": "In the agent state, you are going to have all the information for the tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            526.372,
+            537.195
+          ],
+          "quote": "Then you can use another tool that is going to be capable to understand that logs and it's going to send to the agent, hey, the logs are okay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            563.42,
+            568.461
+          ],
+          "quote": "And if you can see there, you have the tool context agent state.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            587.092,
+            593.096
+          ],
+          "quote": "You can use a multi-agent application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            618.454,
+            629.983
+          ],
+          "quote": "So you can create an ID between that swamp, agent swamp, and you can share the memory pointer between the invocation state between the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            630.403,
+            634.386
+          ],
+          "quote": "And that's the way that we create the swamp in a strands agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            644.108,
+            649.531
+          ],
+          "quote": "The next one is what happens when the agent is going to stop never.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            649.911,
+            658.775
+          ],
+          "quote": "And sometimes we have this agent that stays in the loop forever, invoking the same tool, the same tool again, and it's never ending.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            702.757,
+            707.96
+          ],
+          "quote": "So the agent never is going to do this eternal loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            758.517,
+            764.681
+          ],
+          "quote": "So when you use synchronous, your agent is going to wait forever for the answer for your MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            808.905,
+            816.994
+          ],
+          "quote": "For example, if you have the different, well, the agent never stopped to answer me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            837.733,
+            843.997
+          ],
+          "quote": "You don't have to include everything in the content window because the agent doesn't need all the information there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            844.577,
+            851.042
+          ],
+          "quote": "You can only share what the agent needs to create the answer that you're using or you're asking for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            855.906,
+            862.811
+          ],
+          "quote": "When you do native summarization, the agent can forget what you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            863.292,
+            871.359
+          ],
+          "quote": "If you're doing whatever summarization, what you might infer, probably in that summarization, you are not going to have everything that the agent is needed to answer you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            899.779,
+            908.169
+          ],
+          "quote": "And agent loops or tool hunts, you can have clear steps, you know, give a clear answer for the tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集将其定义为「在模型需要的时候给它需要的信息」，并给出四大策略：外置（externalize）、筛选（select）、压缩（compress）、隔离（isolate）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            56.362,
+            65.21
+          ],
+          "quote": "So right now Context Engineering help us to give us a better architecture for this Agentex application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            158.274,
+            162.276
+          ],
+          "quote": "I'm talking here about context engineering, but I can move.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集说「无限上下文窗口是神话」：窗口越大不等于越好，数据太多时模型因注意力 U 型曲线忘掉中间部分，且窗口可能被提示词注入毒害智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            47.599,
+            55.702
+          ],
+          "quote": "Context window overflow and the agent start to hallucinate and start the regionaries degrading.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            65.63,
+            73.437
+          ],
+          "quote": "So we have some techniques that allows us to improve the context window for this Agentex application.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            599.828,
+            610.939
+          ],
+          "quote": "You share the context window between agents is like add garbage to the other agents because no all the agents need the information between them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-pointer",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆指针 (memory pointer)",
+      "file": "记忆指针",
+      "primary": true,
+      "how_described": "本集说把大数据外置到持久化存储后，在窗口里只保留指向该数据的记忆指针（存储 ID），多智能体之间也只共享指针不共享数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            210.911,
+            215.834
+          ],
+          "quote": "You can create a memory pointer to storage that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            493.608,
+            496.551
+          ],
+          "quote": "You can save that inside a memory pointer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            568.941,
+            573.582
+          ],
+          "quote": "So we retrieve that information, and we save that in a memory pointer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            573.602,
+            578.503
+          ],
+          "quote": "We create a memory pointer ID that is going to preserve inside our content window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            618.454,
+            629.983
+          ],
+          "quote": "So you can create an ID between that swamp, agent swamp, and you can share the memory pointer between the invocation state between the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            882.448,
+            892.817
+          ],
+          "quote": "So, tool returns large data, logs, database, a lot of information, externalize, select, and use a memory pointer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体 (multi-agent)",
+      "file": "多智能体",
+      "primary": true,
+      "how_described": "本集说应用复杂到一个智能体不够时可上多智能体（strands 的 swarm 模式），但警告在智能体间共享整个上下文窗口等于「往别的智能体里倒垃圾」，应通过调用状态共享指针。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            587.092,
+            593.096
+          ],
+          "quote": "You can use a multi-agent application.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "attention-u-curve",
+      "type": "concept",
+      "role": "concept",
+      "name": "注意力 U 型曲线 (Attention U Curve)",
+      "file": "注意力 U 型曲线",
+      "primary": true,
+      "how_described": "本集用它解释为什么加 token、换更大窗口不管用：数据超级大时模型会忘记曲线中间的部分，只记得发送给窗口的第一部分和最后一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            134.114,
+            137.196
+          ],
+          "quote": "The Attention U Curve.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prominent-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prominent injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集作为窗口「毒害」智能体的例子顺带提到：内容窗口里可能混进提示词注入攻击（原文转写作 prominent injection）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            174.021,
+            182.105
+          ],
+          "quote": "Sometimes the content window is poisoning the agent because you can have a prominent injection inside your content window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集说长期记忆可以用向量数据库实现，配合不同提示词理解对话并按需保存不同类型的记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            427.372,
+            433.314
+          ],
+          "quote": "You can have long-term memory and you can create a vector database for that long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            433.374,
+            442.638
+          ],
+          "quote": "You can have different types of memory inside that vector database with different prompts that can understand your conversation and save whatever you want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说调用 MCP 工具或外部 API 时对方可能迟迟不响应，同步等待会拖死应用，应改用异步处理器（先启动任务、下次调用再取结果），实测差别很大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            726.281,
+            737.269
+          ],
+          "quote": "Because sometimes we are invoking our MCP tools or our MCP, or we have external API that never answer you at the time that you need it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            758.517,
+            764.681
+          ],
+          "quote": "So when you use synchronous, your agent is going to wait forever for the answer for your MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            765.161,
+            771.164
+          ],
+          "quote": "But if you have an asynchronous handle, you can invoke your MCP, your external API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            786.034,
+            786.854
+          ],
+          "quote": "Create MCP.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

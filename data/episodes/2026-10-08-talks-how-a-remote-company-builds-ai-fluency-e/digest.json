@@ -1,0 +1,119 @@
+{
+  "title_zh": "1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI",
+  "tldr": "Automattic 的 Em Shreve 讲了他们如何用两周沉浸式培训，把员工从聊天机器人用户变成 AI 能手的实践。",
+  "digest_md": "一家全员远程、没有总部的公司，要怎么教会所有人用 AI？Em Shreve 在 Automattic（WordPress.com 和 Tumblr 背后的公司）负责这件事，她分享的核心经验很简单：**只发工具没有用，必须给员工真正的学习时间**。\n\n## 为什么发了工具不等于会用\n\nAutomattic 是一家完全分布式的公司，1400 多名员工分散在 82 个国家。面对 AI 工具的涌现，他们的判断是：**把工具发下去，并不会自动带来高质量的学习和工作方式改变** [01:01 Unknown]。\n\n员工需要的是真正的时间去学习和实验。为此他们办起了为期两周的线下沉浸式培训营，把大家聚到一起，一半时间上 workshop，由公司内部的学习发展团队和 AI 团队组织；另一半时间做真实项目——学员带着自己日常工作里想解决的问题来，比如做一个对自己有用的工具或仪表盘。\n\nMCP 可以理解为让 AI 模型连接外部系统的一套接口方式，课程会教工程师怎么创建它。\n\n## 课程教什么？从基础一路到自主智能体\n\n工程师版的课程从基础开始：怎么创建技能（skills）、怎么用 MCP，以及负责任地用 AI的思维方式 [02:53 Unknown]。之后进入更深的主题，比如给 Codex 和 Claude 写扩展、跑后台自动化的自主智能体，最后落到应用场景，比如结合 WordPress 的 AI 功能、打造个人助手。\n\n一个现实问题是：==AI 变化太快，今天最强的模型下周可能就换了==。所以课程不能写一次就完，必须不断更新，「不能教半年前过时的东西」[04:53 Unknown]。\n\n公司还搭了自己的内部 MCP 服务器，叫 Context Automattic，可以快速接入还没有现成支持的工具，并加上自己的治理和可观测层。学员的项目又反过来扩展这套系统，能力像滚雪球一样复利增长。\n\n## 45 人一批，年底覆盖 600 名员工\n\n到今年为止，他们已经办了 7 期，每期约 45 人。目标是年底前让大约 600 人完成培训——约占工程师的三分之二，加上财务、高管团队等非技术部门 [06:36 Unknown]。\n\n但培训的意义不止于人数。他们希望每个受训的人都成为公司里的乘数，把知识传播给还没轮到的人。具体做法包括：\n\n- 一个向导计划，识别公司里的顶尖实践者，让他们帮忙继续传播；\n- 本地化的 AI 聚会，由结业学员在自己的地区组织，目前世界各地已经办了大约 10 场；\n- AI ride-along工作坊——直接演示自己怎么用某个工具干活。因为看到同岗位的人怎么用，比听人讲概念好懂得多 [08:23 Unknown]；\n- 一个永远在线的 Slack 求助频道，老学员随时帮新人答疑。\n\n## 培训结束后，人还在继续成长\n\n他们用调查追踪效果：结业后 72 小时、30 天、90 天各做一次。有意思的发现是，**很多人在结业后的 90 天里仍在继续进步**，随着实验时间变多，信心和能力还在增长 [11:11 Unknown]。\n\n追踪的指标包括意图性——是不是有意识地、讲究时机地用 AI，而不是把它当聊天机器人；心流——AI 是否真正融入了自己的工作方式；以及分享——是否把所学传给了别人。\n\n## 两周里，学员都做出了什么\n\n培训期间诞生的真实项目包括：\n\n- 一个智能体分析系统，用于 WordPress 的电商插件 WooCommerce，可以直接用自然语言问店铺数据并得到答案；\n- 一个 Zendesk 连接器，某期学员为客服场景做的，现在已被公司多个团队采用；\n- 一个跨工具的技能目录——公司不规定统一用某一款工具，Codex、Claude 都可以用，所以技能目录设计成对所有工具通用，而这个目录本身就出自某期学员之手；\n- 一个客服指导工具，用 Claude Code 做的，能在远程协助时高亮屏幕上具体位置，帮客户找到设置项。**这个工具的作者不是工程师，而是一位客服人员**，培训后觉得自己有能力动手做了 [13:40 Unknown]。\n\n## 本集带走\n\n- 只发工具不会改变工作方式，给员工留出真正的学习和实验时间才是关键。\n- 两周沉浸式培训：一半 workshop，一半真实项目，学完就能用。\n- AI 课程必须持续更新，否则教的很快就是过时内容。\n- 让每个受训者成为乘数：向导计划、本地聚会、同行演示、常开的答疑频道。\n- 结业不是终点——调查显示学员在之后 90 天里仍在持续进步。",
+  "quotes": [
+    {
+      "en": "Good quality learning or work out of just handing people the tools. You need to give them real time to learn and experiment.",
+      "zh": "只把工具交到人们手里，是得不到高质量的学习或工作成果的。你需要给他们真正的学习和实验时间。",
+      "timestamp": "01:01",
+      "speaker": "Em Shreve"
+    },
+    {
+      "en": "That is the end of my presentation, but the one takeaway that I wanted people to take from this is give people real time to actually experiment and learn.",
+      "zh": "我的演讲到此结束，但我希望大家从中带走的一个要点是：给人们真正的时间去实际实验和学习。",
+      "timestamp": "14:04",
+      "speaker": "Em Shreve"
+    },
+    {
+      "en": "You can't just throw a bunch of tools at them and expect their way of working to change.",
+      "zh": "你不能只是朝他们扔一堆工具，然后指望他们的工作方式发生改变。",
+      "timestamp": "14:18",
+      "speaker": "Em Shreve"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:57",
+      "speaker": "Unknown",
+      "en": "Good quality learning or work out of just handing people the tools. You need to give them real time to learn and experiment.",
+      "zh": "只把工具交到人们手里，是得不到高质量的学习或工作成果的。你需要给他们真正的学习和实验时间。"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Unknown",
+      "en": "you cannot just write this curriculum once. As we're all aware, AI is constantly changing from day to day, week to week.",
+      "zh": "你不能只写一次这套课程。正如大家都意识到的，AI 每天每周都在不断变化。"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Unknown",
+      "en": "we're teaching the right thing and we're not teaching six months out of date.",
+      "zh": "我们教的是正确的东西，而不是教六个月前就过时的内容。"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Unknown",
+      "en": "we have our own internal MCP server called Context Automatic, and this allows us to rapidly add new tooling sets for MCPs that might not exist or that we want to build our own governance and observability layers on.",
+      "zh": "我们有自己内部的 MCP 服务器，叫做 Context Automatic，这让我们能够快速添加新的工具集供 MCP 使用——这些工具可能不存在，或者我们想在上面构建自己的治理层和可观测性层。"
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Unknown",
+      "en": "as people go through, the capabilities compound and we're able to do more as a company because of that.",
+      "zh": "随着人们参与进来，这些能力会复合增长，我们作为一家公司也因此能够做更多的事情。"
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Unknown",
+      "en": "We're also wanting each person we send through to be a multiplier within the company and extend our reach to the folks that we can't get to yet.",
+      "zh": "我们还希望送出去培训的每个人都能成为公司内部的倍增器，把我们的影响力扩展到那些我们还无法触及的人。"
+    },
+    {
+      "timestamp": "08:23",
+      "speaker": "Unknown",
+      "en": "Because what we found is seeing someone in your similar role or in a similar job to you, being able to see how they use it is a lot more easy to grasp than just talking about the concepts.",
+      "zh": "因为我们发现，看到一个和你角色或工作相似的人如何使用它，比单纯谈论概念要容易理解得多。"
+    },
+    {
+      "timestamp": "10:15",
+      "speaker": "Unknown",
+      "en": "If people feel as if they're able to use it in a way that makes sense for them and not just using it for AI's sake.",
+      "zh": "就是人们是否觉得能以对自己有意义的方式使用它，而不是为了用 AI 而用 AI。"
+    },
+    {
+      "timestamp": "11:03",
+      "speaker": "Unknown",
+      "en": "we'll do one 72 hours after, 30 days after, and 90 days after, people will continue growing within those 90 days.",
+      "zh": "我们会在 72 小时后、30 天后和 90 天后各做一次调查，人们会在这 90 天里持续成长。"
+    },
+    {
+      "timestamp": "13:50",
+      "speaker": "Unknown",
+      "en": "And this actually came not from an engineer, but one of our support folks that felt a bit more comfortable after going through one of our programs.",
+      "zh": "而这个实际上不是来自一名工程师，而是来自我们的一个支持人员，他在经历了我们的一个项目之后感觉更有底气了。"
+    },
+    {
+      "timestamp": "14:04",
+      "speaker": "Unknown",
+      "en": "That is the end of my presentation, but the one takeaway that I wanted people to take from this is give people real time to actually experiment and learn.",
+      "zh": "我的演讲到此结束，但我希望大家从中带走的一个要点是：给人们真正的时间去实际实验和学习。"
+    },
+    {
+      "timestamp": "14:18",
+      "speaker": "Unknown",
+      "en": "You can't just throw a bunch of tools at them and expect their way of working to change.",
+      "zh": "你不能只是朝他们扔一堆工具，然后指望他们的工作方式发生改变。"
+    },
+    {
+      "timestamp": "14:23",
+      "speaker": "Unknown",
+      "en": "You need to make space and give an environment for learning and make that like the star of whatever your education program is.",
+      "zh": "你需要腾出空间、提供一个学习的环境，并让它成为你的教育项目中最核心的主角。"
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Unknown",
+      "en": "we're aiming to get around 600 people through these programs by the end of the year, which is about two-thirds of our engineers, as well as some of those other focus areas that I highlighted at the beginning.",
+      "zh": "我们的目标是在年底前让大约 600 人通过这些项目，这大约是我们三分之二的工程师，加上我开头提到的一些其他重点领域的人员。"
+    },
+    {
+      "timestamp": "13:14",
+      "speaker": "Unknown",
+      "en": "And the whole skills directory actually came out as a project from one of these cohorts as well.",
+      "zh": "而整个技能目录实际上也是从其中一期学员的一个项目中诞生的。"
+    }
+  ],
+  "voice_script": "你每天上班,公司突然给所有人发了一个 AI 工具,说\"大家都用起来\"。结果呢?大部分人可能就拿来问几句闲话,用两天就放下了。为什么会这样?今天这期节目,讲的就是这个问题的一种解法。\n\n讲故事的主角是 Em Shreve,她在 Automattic 负责 AI 相关的学习发展。Automattic 这家公司你可能没直接听过,但它的产品你肯定用过——WordPress.com 和 Tumblr,都是他们家的。这家公司有个很特别的地方:全员远程,没有总部,1400 多名员工分散在全球 82 个国家。可以想象,让这样一群人学会用 AI,发个邮件通知是远远不够的。\n\n他们的判断很直接:把工具发下去,并不会自动带来高质量的学习,也不会真正改变大家的工作方式。有句话说得很直白——你不能只是朝大家扔一堆工具,然后指望工作方式自己发生改变。那怎么办?答案是给员工真正的时间。于是他们办起了为期两周的线下沉浸式培训营,把分散在世界各地的同事聚到一起。这两周怎么安排?一半时间上课,由公司内部的学习发展团队和 AI 团队来组织;另一半时间做真实项目——学员要带着自己日常工作里真正想解决的问题来,做一个对自己有用的工具或者仪表盘。这一点很关键,学的不是抽象概念,是自己马上能用的东西。\n\n那课程具体教什么?拿工程师版来说,是从最基础开始的:怎么给 AI 创建技能,也就是把一套固定做法教给模型;怎么用 MCP——这个词听起来唬人,说白了就是让 AI 模型连接外部系统的一套接口方式,AI 有了它就能去操作你别的软件和数据;还有很重要的一块,叫负责任地用 AI,先建立正确的思维方式。打好基础之后,再往深处走,比如给 Codex 和 Claude 这些工具写扩展,跑后台自动化的自主智能体,最后落到实际场景,像结合 WordPress 的 AI 功能,打造自己的个人助手。\n\n这里有个很现实的问题:AI 变化太快了,今天最强的模型,下周可能就换了。所以这套课程不能写一次就完事,必须不断更新。用他们的话说,不能教半年前过时的东西。\n\n还有一个很聪明的做法。公司自己搭了一个内部 MCP 服务器,叫 Context Automattic,可以快速接入那些还没有现成支持的工具,并在上面加上自己的治理和可观测层。更有意思的是,学员做的项目又会反过来扩展这套系统——用的人越多,能力越强,像滚雪球一样复利增长。\n\n那这个培训铺到多大了?到今年为止,已经办了 7 期,每期大约 45 个人。他们的目标是年底前让大约 600 人完成培训——差不多是工程师的三分之二,还包括财务、高管团队这些非技术部门。\n\n但培训的意义不止于人数。他们真正想要的,是让每一个受训的人都成为公司里的乘数,把知识继续传播给还没轮到的人。具体怎么传播?有这么几个做法。一个是向导计划,把公司里的顶尖实践者识别出来,让他们继续帮忙带人。再一个是本地化的 AI 聚会,由结业的学员在自己的地区组织,目前世界各地已经办了大约 10 场。还有一种叫 ride-along 工作坊,翻译过来有点像\"跟车学习\"——直接演示给大家看,自己是怎么用某个工具干活的。为什么这招管用?因为看到同一个岗位上的人怎么用,比听别人讲概念好懂得多。最后还有一个永远在线的 Slack 求助频道,老学员随时帮新人答疑。你看,这四件事合在一起,就把一次性的培训,变成了持续运转的学习网络。\n\n效果怎么验证?他们用调查来追踪,分别在结业后 72 小时、30 天、90 天各做一次。有一个很有意思的发现:很多人在结业后的 90 天里,还在继续进步。随着实验时间变多,信心和能力都还在增长。这说明结业不是终点,反而是起点。他们追踪的指标也很讲究,包括意图性——是不是有意识地、讲究时机地用 AI,而不是把它当聊天机器人使;还有心流——AI 是不是真正融入了自己的工作方式;以及分享——有没有把学到的东西传给别人。\n\n那两周里,学员到底做出了什么东西?说几个真实的。有人给 WordPress 的电商插件 WooCommerce 做了一个智能体分析系统,可以直接用自然语言问店铺数据,然后得到答案。有学员为客服场景做了一个 Zendesk 连接器,现在已经被公司多个团队采用了。还有个跨工具的技能目录——因为公司不规定统一用哪款工具,Codex 和 Claude 都可以用,所以这个目录被设计成对所有工具通用,而目录本身就出自某期学员之手。\n\n不过最让我印象深刻的是最后一个例子。一个客服指导工具,用 Claude Code 做的,能在远程协助的时候高亮屏幕上的具体位置,帮客户找到那个设置项。这个工具的作者,不是工程师,而是一位客服人员——培训之后,这位客服觉得,自己有能力动手做了。\n\n回头看这一整件事,核心经验其实就一句话:只把工具交到人们手里,是得不到高质量的学习或工作成果的;你需要给他们的,是真正的时间去学习和实验。"
+}

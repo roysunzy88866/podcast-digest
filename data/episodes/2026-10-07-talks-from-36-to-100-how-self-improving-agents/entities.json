@@ -1,0 +1,787 @@
+{
+  "episode_id": "2026-10-07-talks-from-36-to-100-how-self-improving-agents",
+  "podcast": "精选演讲",
+  "date": "2026-10-07",
+  "tags": [
+    "智能体",
+    "技能(Skills)",
+    "MCP",
+    "企业 AI",
+    "知识管理"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "rafal-wilinski",
+      "type": "person",
+      "role": "guest",
+      "name": "Rafal Wilinski",
+      "file": "Rafal Wilinski",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "runlayer",
+      "type": "company",
+      "role": "company",
+      "name": "RunLayer",
+      "file": "RunLayer",
+      "primary": true,
+      "how_described": "本集说 RunLayer 是 Rafal 担任创始工程师的公司，为你的公司打造 AI 的黄金路径：自动蒸馏技能、用 MCP 分发，构建自改进的组织飞轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            101.66,
+            103.42
+          ],
+          "quote": "I'm a founding engineer at RunLayer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            387.642,
+            393.605
+          ],
+          "quote": "Trust me, at RunLayer, we are scanning thousands of skills every day, and there is really weird stuff inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            509.806,
+            514.828
+          ],
+          "quote": "We've been doing that internally at RunLayer for the past six months, and it's been working quite well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            696.388,
+            699.048
+          ],
+          "quote": "And we started doing something very similar at RunLayer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            925.428,
+            928.829
+          ],
+          "quote": "At RunLayer, we call it self-improving organizational flywheel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1081.303,
+            1082.364
+          ],
+          "quote": "I'm working at RunLayer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1089.872,
+            1091.814
+          ],
+          "quote": "And this is exactly what we are building at RunLayer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是智能体认为知识相关时才读取的 playbook，通过渐进式披露引导智能体初始方向，避免在错误路线上浪费时间和 token。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            134.058,
+            139.442
+          ],
+          "quote": "But I want to focus today only just on skills because they are super accessible, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            256.497,
+            264.461
+          ],
+          "quote": "So the initial trajectory matters a lot, and that's why skills are so important, because they guide the agent towards the right target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            272.156,
+            275.698
+          ],
+          "quote": "Valuable skills are the rituals that nobody wants rediscovered.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            317.574,
+            322.339
+          ],
+          "quote": "So skills are great, but I feel like they are not problem-free.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            329.347,
+            333.012
+          ],
+          "quote": "What I mean by that is that when you look at the skills ecosystem,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            356.057,
+            361.558
+          ],
+          "quote": "And the challenge here is how non-technical people can actually create and share the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            365.213,
+            374.396
+          ],
+          "quote": "This is the junior developer or non-technical person discovering command NPX skills, which is the most important, the most popular command to install them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            387.642,
+            393.605
+          ],
+          "quote": "Trust me, at RunLayer, we are scanning thousands of skills every day, and there is really weird stuff inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            419.057,
+            424.338
+          ],
+          "quote": "And the third problem is that not every LLM client supports skills, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            427.339,
+            433.62
+          ],
+          "quote": "If you're a developer, you're probably going to manage even if the skills support is weird depending on which client you're using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            434.761,
+            445.383
+          ],
+          "quote": "And once again, if you think about marketing, HR, legal, finance, those departments are probably still using ChatGPT or some other weird LLM client, and skills might be not supported there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            447.714,
+            452.296
+          ],
+          "quote": "And some time ago, there was this big heated debate when the skills were introduced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            468.565,
+            473.808
+          ],
+          "quote": "Skills can be delivering the knowledge how to do something, and tools gives us capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            477.55,
+            484.197
+          ],
+          "quote": "But MCP can be also used as a protocol to deliver the knowledge, to deliver the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            488.281,
+            490.423
+          ],
+          "quote": "So instead of installing skills locally,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            498.341,
+            500.301
+          ],
+          "quote": "They can search for the right skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            522.953,
+            525.794
+          ],
+          "quote": "There is already a working group called skills over MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            530.857,
+            535.38
+          ],
+          "quote": "MCP can be used to deliver the skills, to deliver the knowledge across your whole company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            568.614,
+            573.437
+          ],
+          "quote": "So the problem of distributing skills to non-technical people is essentially solved, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            587.29,
+            592.432
+          ],
+          "quote": "OK, so now we know how we can improve agents because we have skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            592.892,
+            597.513
+          ],
+          "quote": "We know that we can use MCP to distribute those skills across all the clients and agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            839.633,
+            847.498
+          ],
+          "quote": "But putting savings and accuracy aside, I think there's also a deeper reason why you should be distilling skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            889.681,
+            895.042
+          ],
+          "quote": "We have skills as a way to retain procedures and improve agents and guide models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            895.663,
+            899.403
+          ],
+          "quote": "We have MCP as a unified distribution layer for those skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            899.843,
+            906.685
+          ],
+          "quote": "And you also have a central repository, the knowledge base for all of those skills, which is constantly being updated and fed with new data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1086.548,
+            1089.531
+          ],
+          "quote": "I'm open to talk about skills, MCP agents, whatnot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说现在的智能体能独立推理很久，方向错了会挖很深的兔子洞；让智能体自我改进并把经验共享给全公司是本集主线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.522,
+            21.166
+          ],
+          "quote": "Today, I want to talk about self-improving agents, but not in a single player mode where just one agent gets smarter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            142.283,
+            150.807
+          ],
+          "quote": "To make sure that we are all on the same page, a skill to me is a playbook that essentially agent can read when it thinks that the knowledge is relevant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            165.894,
+            174.592
+          ],
+          "quote": "It can read the whole little skill, inject it to the main context, and based on that knowledge, it can change the trajectory of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            236.773,
+            244.435
+          ],
+          "quote": "If an agent can reason for much longer, it also means that it can dig a really, really deep rabbit hole.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            244.635,
+            254.297
+          ],
+          "quote": "It can spend hundreds of tool calls trying to defend a wrong thesis, reason for hours, and the next agent can do exactly the same thing or maybe even do something worse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            256.497,
+            264.461
+          ],
+          "quote": "So the initial trajectory matters a lot, and that's why skills are so important, because they guide the agent towards the right target.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            629.086,
+            631.928
+          ],
+          "quote": "They dropped the agent into Minecraft with no instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            656.074,
+            663.402
+          ],
+          "quote": "When the agent figured out something, it saved the recipe as a code that consisted of the tool calls",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            664.282,
+            666.203
+          ],
+          "quote": "That lead the agent to the discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            666.583,
+            676.348
+          ],
+          "quote": "So later on, when the agent decided that, hey, I need to create a crafting table or a diamond pickaxe, I didn't have to figure it out, this whole knowledge from scratch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            726,
+            729.082
+          ],
+          "quote": "The real sharpening happens when the agent fails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            751.953,
+            757.816
+          ],
+          "quote": "The successes are making the skill more trustworthy, because if the agent achieved the goal, it means that, hey, this skill works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            795.994,
+            804.058
+          ],
+          "quote": "And once in one run, one of the agent invocations cracked the code, our skill distiller created a reusable skill.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            826.455,
+            834.202
+          ],
+          "quote": "It narrows the search space and the agent stops doing tool calls and it's exploring less branches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            909.063,
+            912.566
+          ],
+          "quote": "Yeah, we also have the continuous learning flywheel for one agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 161,
+          "t": [
+            918.111,
+            923.837
+          ],
+          "quote": "So what happens when you multiply that by every agent and every single client in the entire company?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            945.696,
+            951.358
+          ],
+          "quote": "And thanks to our MCP gateway, it's being served to each and every client and agent within the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            961.644,
+            972.17
+          ],
+          "quote": "So once one agent figures out a really hard problem, it's being distilled into a skill, persistent in organization and library.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说 MCP 不只是提供工具能力，还能当技能的分发协议：远程 MCP 服务器当全公司知识源头，按角色和查询执行权限策略，统一分发技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            452.417,
+            458.1
+          ],
+          "quote": "Some people proclaimed that, thank god, MCP is finally dead because I'm not interested in dealing with OAuth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            477.55,
+            484.197
+          ],
+          "quote": "But MCP can be also used as a protocol to deliver the knowledge, to deliver the skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            484.517,
+            486.819
+          ],
+          "quote": "We can use MCP as the distribution layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            490.897,
+            496.019
+          ],
+          "quote": "You can create a remote MCP server, which can become the source of truth across your whole company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            518.13,
+            521.892
+          ],
+          "quote": "We see that the broader MCP ecosystem is also going that direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            522.953,
+            525.794
+          ],
+          "quote": "There is already a working group called skills over MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            530.857,
+            535.38
+          ],
+          "quote": "MCP can be used to deliver the skills, to deliver the knowledge across your whole company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            538.176,
+            547.24
+          ],
+          "quote": "Yeah, and while the official spec is leaning towards MCP resources, the support for resources is also mixed, so we are going with tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            560.749,
+            568.174
+          ],
+          "quote": "MCP as a distribution layer fixes that because it's unified and works in almost every single client, not just developer clients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            592.892,
+            597.513
+          ],
+          "quote": "We know that we can use MCP to distribute those skills across all the clients and agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            895.663,
+            899.403
+          ],
+          "quote": "We have MCP as a unified distribution layer for those skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            945.696,
+            951.358
+          ],
+          "quote": "And thanks to our MCP gateway, it's being served to each and every client and agent within the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1086.548,
+            1089.531
+          ],
+          "quote": "I'm open to talk about skills, MCP agents, whatnot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集调侃安装技能的命令会附带免费的提示词注入，并说技能入库前要经过防提示词注入和防 PII 泄露等检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            933.991,
+            942.514
+          ],
+          "quote": "It passes through our various series of checks, like whether it's not containing some kind of prompt injection or maybe PII and a bunch of other stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "voyager",
+      "type": "concept",
+      "role": "concept",
+      "name": "Voyager",
+      "file": "Voyager",
+      "primary": true,
+      "how_described": "本集说 2023 年的 Voyager 论文把智能体丢进 Minecraft，靠技能库把每次探索发现保存成可复用的代码配方，是自改进智能体的核心理念来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            602.875,
+            611.137
+          ],
+          "quote": "And whenever I see a new paper or a framework speaking about this topic, I always go back to Voyager paper.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            649.567,
+            655.753
+          ],
+          "quote": "So Voyager did not just explore the Minecraft space carefully and throw the trace away.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式披露 (progressive disclosure)",
+      "file": "渐进式披露",
+      "primary": false,
+      "how_described": "本集说这是技能的技术实现方式：客户端先只看摘要，判断有用时才读全文注入主上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            151.147,
+            155.229
+          ],
+          "quote": "From the technical perspective, the term is called progressive disclosure.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "type": "company",
+      "role": "company",
+      "name": "Zapier",
+      "file": "Zapier",
+      "primary": false,
+      "how_described": "本集说 Rafal 在创立 RunLayer 之前曾领导 Zapier 智能体和各种 AI 团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            107.822,
+            110.523
+          ],
+          "quote": "Before that, I was leading Zapier agents and different AI teams.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说在 Claude 生态里技能支持很好，但很多部门还在用不支持技能的客户端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            424.618,
+            426.939
+          ],
+          "quote": "If you're in Claude ecosystem, it's probably great.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说市场、HR、法务、财务等部门可能仍在使用 ChatGPT 等不支持技能的 LLM 客户端。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            434.761,
+            445.383
+          ],
+          "quote": "And once again, if you think about marketing, HR, legal, finance, those departments are probably still using ChatGPT or some other weird LLM client, and skills might be not supported there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

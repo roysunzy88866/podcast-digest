@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PromptQL":1,"公司大脑":3,"编码智能体":32,"智能体":483,"沙箱":96,"知识图谱":7,"wiki":1,"Claude":93,"Slack":34}</script>
+<script type="application/json" class="pd-epn">{"PromptQL":1,"公司大脑":3,"编码智能体":32,"智能体":487,"沙箱":96,"知识图谱":7,"wiki":1,"Claude":96,"Slack":34}</script>
 
 <script>
 (function(){

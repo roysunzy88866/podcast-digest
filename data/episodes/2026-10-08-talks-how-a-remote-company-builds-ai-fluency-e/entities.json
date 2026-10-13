@@ -1,0 +1,370 @@
+{
+  "episode_id": "2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 赋能",
+    "企业内部培训",
+    "智能体",
+    "MCP",
+    "分布式组织"
+  ],
+  "categories": [
+    "组织与领导力",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "em-shreve",
+      "type": "person",
+      "role": "guest",
+      "name": "Em Shreve",
+      "file": "Em Shreve",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把 MCP 说成让 AI 连接外部工具/系统的接口方式：课程教工程师如何创建 MCP，公司还搭了内部 MCP 服务器 Context Automattic，加上自己的治理和可观测层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            318.633,
+            341.243
+          ],
+          "quote": "Another interesting part I wanted to highlight here is we have our own internal MCP server called Context Automatic, and this allows us to rapidly add new tooling sets for MCPs that might not exist or that we want to build our own governance and observability layers on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            521.658,
+            527.741
+          ],
+          "quote": "And then we're also attempting to build a shared skill and MCP infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            760.378,
+            770.108
+          ],
+          "quote": "We built other providers in there that might not have a native MCP or, again, because we wanted to add additional observability there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讲课程一路教到自主智能体——在后台运行例程；学员还做出智能体分析系统，可以直接用自然语言问 WooCommerce 店铺数据并得到答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            246.758,
+            253.062
+          ],
+          "quote": "up to autonomous agents and running routines and such in the background.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说 skills 是课程的基础内容之一：教员工怎么创建技能，公司还建了跨工具通用的智能体技能目录，且这个目录本身就是学员项目催生的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            128.546,
+            136.331
+          ],
+          "quote": "Or these can also be creating new skills or MCPs to enable them to work faster outside of the program.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            206.098,
+            228.943
+          ],
+          "quote": "So our engineering curriculum starts the first few days, covering the basics, skills, and how to create them, learning how to use MCPs and spectrum and development, as well as kind of the foundations of how to use AI responsibly and how to apply it in a way that's mindful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            528.321,
+            547.81
+          ],
+          "quote": "So again, that context aid C system that I mentioned, but also encouraging people to create and share skills and build on top of each other's work so that we're all kind of building towards the same kind of platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            643.518,
+            660.019
+          ],
+          "quote": "We also track individual lift on various metrics such as skills and custom commands, how comfortable they feel using and applying MCPs, and other topics like context management,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            772.091,
+            775.194
+          ],
+          "quote": "We've been building out our own agent skills directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            787.545,
+            792.709
+          ],
+          "quote": "So we wanted to build our skills directory in a way that can be used across all of those.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            794.33,
+            799.254
+          ],
+          "quote": "And the whole skills directory actually came out as a project from one of these cohorts as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说课程深入到 Codex 的 hook 系统来扩展 harness；公司不规定统一工具，Codex 和 Claude 等都可以用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            229.863,
+            244.976
+          ],
+          "quote": "And then we start getting into deeper topics, creating MCPs for new functionality, getting into the hook system of Codex and Claude, and being able to extend the harness that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            776.035,
+            786.884
+          ],
+          "quote": "We don't prescribe a single tool, so folks are able to use Codex or Claude or any other number of tools, OpenCode, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集说课程同样涉及 Claude 的 hook 系统，技能目录设计成对 Codex、Claude、OpenCode 等工具都通用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            229.863,
+            244.976
+          ],
+          "quote": "And then we start getting into deeper topics, creating MCPs for new functionality, getting into the hook system of Codex and Claude, and being able to extend the harness that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            776.035,
+            786.884
+          ],
+          "quote": "We don't prescribe a single tool, so folks are able to use Codex or Claude or any other number of tools, OpenCode, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            821.87,
+            830.198
+          ],
+          "quote": "Claude Code that allowed them to be able to guide and lead a session, highlight different parts of the screen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到一位客服学员用 Claude Code 做了引导式客服支持工具，能在远程协助时高亮屏幕具体位置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            821.87,
+            830.198
+          ],
+          "quote": "Claude Code that allowed them to be able to guide and lead a session, highlight different parts of the screen.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wordpress-com",
+      "type": "concept",
+      "role": "concept",
+      "name": "WordPress.com",
+      "file": "WordPress.com",
+      "primary": false,
+      "how_described": "本集说 Automattic 是 WordPress.com 背后的公司，课程里有应用型 WordPress AI 工作坊，介绍 WordPress 核心中的 AI 功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            23.031,
+            31.917
+          ],
+          "quote": "And if you're not aware of what Automatic is, we are the company behind WordPress.com and Tumblr and a number of other properties.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            257.865,
+            261.727
+          ],
+          "quote": "So again, Automatic is behind WordPress.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            899.618,
+            908.521
+          ],
+          "quote": "How WordPress.com and WooCommerce are embracing AI with our official connections and MCPs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "woocommerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "WooCommerce",
+      "file": "WooCommerce",
+      "primary": false,
+      "how_described": "本集说 WooCommerce 是 WordPress 的电商插件，学员为它做了智能体分析系统，可用自然语言查询店铺数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            718.506,
+            726.589
+          ],
+          "quote": "So WordPress has a e-commerce platform plugin called WooCommerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            899.618,
+            908.521
+          ],
+          "quote": "How WordPress.com and WooCommerce are embracing AI with our official connections and MCPs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-automatic",
+      "type": "concept",
+      "role": "concept",
+      "name": "Context Automatic",
+      "file": "Context Automatic",
+      "primary": false,
+      "how_described": "本集说这是公司自建的内部 MCP 服务器，可快速接入尚无现成支持的工具，并加上自己的治理和可观测层，学员项目在其上持续扩展能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            318.633,
+            341.243
+          ],
+          "quote": "Another interesting part I wanted to highlight here is we have our own internal MCP server called Context Automatic, and this allows us to rapidly add new tooling sets for MCPs that might not exist or that we want to build our own governance and observability layers on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zendesk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Zendesk",
+      "file": "Zendesk",
+      "primary": false,
+      "how_described": "本集说较早一期学员为客服场景做了 Zendesk 连接器，现已被公司多个团队采用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            744.234,
+            759.238
+          ],
+          "quote": "So one of our earlier cohorts, they wanted to be able to use some of these tools for support and build a Zendesk connector, which now we've had adopted through various teams throughout the company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Automattic",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

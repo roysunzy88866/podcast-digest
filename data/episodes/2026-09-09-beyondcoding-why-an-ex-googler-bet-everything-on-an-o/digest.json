@@ -1,0 +1,179 @@
+{
+  "title_zh": "被解雇的周五之后，他押上一切做了一家鸭子数据库公司",
+  "tldr": "BigQuery 联合创始人 Jordan Tigani 讲述他如何从被解雇到创立 MotherDuck，以及 AI 正在怎样改变普通人使用数据的方式。",
+  "digest_md": "在数据库行业待了十几年、参与创建了 Google BigQuery 的 Jordan Tigani，做客 Beyond Coding 播客，聊了 MotherDuck 的由来、和开源数据库 DuckDB 之间少见的合作模式，以及他眼中 AI 时代数据分析的样子。故事从一个周五早上被解雇开始。\n\n## 被解雇之后，一个想法三天拿到投资\n\nTigani 原本是 SingleStore 数据库公司的首席产品官，一个周五早上被解雇了。他说这打击来得像一吨砖头砸下来。他一直觉得有人应该把开源数据库 DuckDB 做成云服务，转念一想：我做过两次数据库云服务了，也许这个人就是我自己。\n\n他先联系上 DuckDB 的创始人 Hannes 和 Mark，对方说不想做云服务，只想专注做数据库本身。随后他跟一位投资人聊了 15 分钟，对方直接说：好主意，我要投。第二天，Redpoint 之外的其他投资人也都问他要多少钱。他随口说了 500 万美元——「我完全不知道，我甚至不知道这些人是谁」——对方说行。[03:52 Unknown]\n\n一周后他坐下来认真想：这是对自己的一个赌注，「我不确定我这辈子还会不会有这么好的想法，所以不如就去干。」另一个理由很朴素：他待过文化极好的公司，也待过有毒的公司，与其赌别人，不如自己建一个——失败了至少只能怪自己。[04:45 Unknown]\n\n## MotherDuck 和 DuckDB 是什么关系？\n\n市面上开源公司的常见做法有两种：一种是公司先存在，把一部分开源出去聚人气；另一种是开源维护者自己建公司，把某些功能锁起来收费。MotherDuck 走了第三条路。\n\nDuckDB Labs 是独立的非营利性开源公司，专注把数据库本身做好，没有任何压力去改许可证或从开源里抽东西。MotherDuck 是商业公司，做的是托管版 DuckDB 云服务——**他们不是卖 DuckDB，而是替你运行它**。为了让两边真正绑在一起，MotherDuck 创立时给了 DuckDB 创始人联合创始人股份，让他们也从中受益。[07:05 Unknown]\n\n这个结构很关键：做云服务往往需要改动底层项目，MotherDuck 在 DuckDB 里留了不少只给自己用的接口，也贡献了大量代码——大约 1000 次提交。[07:53 Unknown] Tigani 说，如果这个模式成了，可以成为其他开源项目的样板；失败了，就是一个警示故事。\n\n## Snowflake 上市帮了他一个大忙\n\n为什么投资人这么痛快？Tigani 归结为三件事凑到了一起。当时 Snowflake 刚刚上市，是当时规模最大的 IPO，所有错过它的人都在找下一个 Snowflake。DuckDB 本身增长很快，是有群众基础的开源项目。再加上他本人参与创建了 BigQuery、管过工程和产品，有实打实的信誉。如果有人要在 DuckDB 上建东西，为什么不是我呢。[11:41 Unknown]\n\n创始团队有 11 个人：老同事、老客户，还有纯粹喜欢 DuckDB 的人。他说团队够资深的好处，是能直接跳过那些显而易见但错误的设计方案。[13:23 Unknown]\n\n产品节奏是这样的：3 到 4 个月做出第一个能演示的版本，一年到测试版，再一年做到人们愿意付钱的程度。中间一个难点是，如今数据仓库的基本功门槛已经很高——要可靠、不能丢数据、结果必须正确，这些做不到，没人会真的拿来用。[15:19 Unknown]\n\n## AI 怎么改变数据分析？让销售直接问数据\n\n过去 6 个月里，Tigani 看清了一件事：AI 正在改变人和数据打交道的方式。他们发现 Claude 很擅长做数据可视化，于是做了 Dives——AI 生成的、可分享的实时图表，相当于打了兴奋剂的 BI。又做了 Flights，让用户用一句话就让 AI 写好数据管道，本质上就是定时运行的 Python 代码。再加一个贯穿全局的上下文层 Guides，和一个正在做的智能体界面。\n\n他的愿景是：不懂 SQL、不懂管道的业务人员，直接跟系统对话就能把数据问题解决。MotherDuck 内部最有意思的用户是销售。放一个销售去用智能体，他的第一个问题是「==我今天该找哪些客户聊==？」——这不是分析师会问的问题，但 Claude 能把工单、使用量、新闻拼在一起给出不错的答案。销售负责人的第一个问题是「我业务的三大风险是什么」。[25:07 Unknown] 数据团队不会主动做这种报告。\n\n那 AI 出错、胡编怎么办？Tigani 的回答是：恰恰因为提问的是贴近业务的销售，他们最容易发现结果哪里不对——「我知道这个客户根本没用这个功能，为什么这里显示有？」**业务人员的直觉是最快的纠错机制**。[22:34 Unknown] 就像自动驾驶：不完美，但可以比人强。\n\n## 仪表盘死了吗？\n\n团队内部辩论过仪表盘已死这个话题——Tigani 几年前写过一篇流传很广的文章《Big Data is Dead》，标题就是借用别人喊了十年的仪表盘已死。[27:28 Unknown]\n\n他的结论是：**仪表盘不会死，但角色会变**。传统交互式 BI 能回答的问题范围很窄，你只能下钻、拆分聚合，没法继续追问为什么。有了 AI，你可以盯着仪表盘说「==这个数字不对劲，今天发生了什么==？」然后让 Claude 去挖。他自己的做法就是两者结合：每天看八遍那几个固定仪表盘，因为那是团队对业务的共同心智模型，而异常的深挖交给 AI。[28:17 Unknown]\n\n## 想进数据库行业的工程师，最该学什么？\n\nTigani 的建议可能出乎意料：写作。他坦承自己当年写作又慢又痛苦，至今每次写东西都要拖延、吃软糖、绕着房子转圈——写代码能进入心流，写作从来没有。但他与人合著过一本讲 BigQuery 的书，写作过程中不断发现产品里这个命令太怪了、那个接口不对劲，很多 BigQuery 的改进就是这么来的。他说，工程师最重要的技能之一就是能写清楚东西；如今把四个要点丢给 Claude 生成 30 页文档很省事，但真正的信息量还是那四个要点，那是骗自己。[37:07 Unknown]\n\n另一个建议是别只盯着技术内核。数据库公司需要存储、基础设施、界面、AI 等各种工程师，而且公司最终靠核心技术活命。但他职业生涯里做过让自己自豪、倾注心血却没人用的项目——「**如果做出来的东西没人用，那就等于没做过**。」理解用户、理解产品、理解商业，才是工程师的超能力。[35:10 Unknown]\n\n## 最后，为什么满公司都是鸭子？\n\n公司名叫 MotherDuck，产品叫 Flights、Dives、Guides，员工穿鸭子背带裤、戴奇怪的鸭子帽。Tigani 说，产品名里带动物，你有两个选择：要么假装没这回事、装酷，要么彻底拥抱。他们选了后者。[41:04 Unknown]\n\n理由很实际：创业公司面临的是一场注意力之战，有趣的品牌能带来关注。愿意显得有点傻，本身就是一种筛选——加入的人都是能自嘲、有底气的人。数据库行业普遍很严肃，对手们都很严肃，而他们相信，一边赢一边笑，本身就可以是成功的方式。\n\n> 【背景】DuckDB 是一款轻量的开源分析型数据库，常被拿来与 SQLite 相比，适合在笔记本电脑上直接跑数据分析；BigQuery 是 Google 的云端数据仓库。\n\n## 本集带走\n\n- MotherDuck 和 DuckDB Labs 是两个独立组织：前者做商业云服务并给了对方联合创始人股份，这种利益绑定的开源合作模式在业内很少见。\n- Tigani 从被解雇到拿到两笔投资只用了几天，踩中的时机包括 Snowflake 上市后投资人寻找下一个目标、DuckDB 快速增长、以及他本人的 BigQuery 履历。\n- AI 正在让销售、市场等业务人员绕过数据团队直接提问——我该找哪些客户聊这类问题只有一线业务者才会问，也只有他们能最快发现 AI 回答里的错误。\n- 给工程师的建议：学会写作，理解用户和商业；只钻研技术内核而忽视外圈，做出来的东西可能等于没做。\n- 品牌敢自嘲也是一种竞争策略：在注意力稀缺的时代，愿意显得傻一点，反而能赢。",
+  "quotes": [
+    {
+      "en": "If you build something that nobody uses, it might as well have not been built.",
+      "zh": "如果你造出来的东西没人用，那它就等于没有被造出来过。",
+      "timestamp": "00:57",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "I'm not sure I'll ever have another idea that's this good, so I might as well go for it.",
+      "zh": "我不确定我这辈子还会不会有这么好的另一个点子，所以不妨放手一搏。",
+      "timestamp": "01:11",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "All your innovation tokens are being spent on that versus on the delivery.",
+      "zh": "你所有的创新代币都花在构建开源项目上，而不是花在交付上。",
+      "timestamp": "10:56",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "By having the business users do it, they're the ones that can actually spot when it's subtly wrong.",
+      "zh": "让业务用户来做这件事，他们才是真正能发现结果哪里微妙出错的人。",
+      "timestamp": "22:30",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "Questions that other people have in the business don't have to go through gatekeepers who can figure things out.",
+      "zh": "业务中其他人提出的问题，不必经过能把事情搞清楚的守门人。",
+      "timestamp": "24:31",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "If you're a database company or an infrastructure company, you kind of live or die based on the strength of the core technology.",
+      "zh": "归根结底，如果你是一家数据库公司或基础设施公司，你的生死基本上取决于核心技术的强弱。",
+      "timestamp": "31:58",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "It's also a recipe as an engineer to have blinders about what do users actually want and how do you build something that's actually compelling?",
+      "zh": "作为一个工程师，对「用户真正想要什么」以及「如何构建真正有吸引力的东西」视而不见，也是一种失败的配方。",
+      "timestamp": "32:25",
+      "speaker": "Jordan Tigani"
+    },
+    {
+      "en": "But I do think if there's one skill to learn, I think it would be writing.",
+      "zh": "但我确实认为，如果只能学一项技能，那就是写作。",
+      "timestamp": "38:05",
+      "speaker": "Jordan Tigani"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:57",
+      "speaker": "Jordan Tigani",
+      "en": "If you build something that nobody uses, it might as well have not been built.",
+      "zh": "如果你造出来的东西没人用，那它就等于没有被造出来过。"
+    },
+    {
+      "timestamp": "01:11",
+      "speaker": "Jordan Tigani",
+      "en": "I'm not sure I'll ever have another idea that's this good, so I might as well go for it.",
+      "zh": "我不确定我这辈子还会不会有这么好的另一个点子，所以不妨放手一搏。"
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Jordan Tigani",
+      "en": "Of the options that I have in front of me, this is the one where it's a bet on myself.",
+      "zh": "在我面前的这些选项里，这是那个对自己下的注。"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Jordan Tigani",
+      "en": "If you create it yourself, then at least you only have yourself to blame if it doesn't work out.",
+      "zh": "如果工作环境由你自己创造，那么至少如果事情不成，你只能怪你自己。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Jordan Tigani",
+      "en": "We also realized that the only way to really make it work was if they were bought into it.",
+      "zh": "我们也意识到，真正把这件事做成的唯一途径是他们投入其中。"
+    },
+    {
+      "timestamp": "08:17",
+      "speaker": "Jordan Tigani",
+      "en": "If it doesn't work out, then it's a cautionary tale.",
+      "zh": "如果这件事不成，那就是一个警世故事。"
+    },
+    {
+      "timestamp": "10:56",
+      "speaker": "Jordan Tigani",
+      "en": "All your innovation tokens are being spent on that versus on the delivery.",
+      "zh": "你所有的创新代币都花在构建开源项目上，而不是花在交付上。"
+    },
+    {
+      "timestamp": "12:25",
+      "speaker": "Jordan Tigani",
+      "en": "If somebody is going to build something like this, DuckDB is the right thing to build it on.",
+      "zh": "如果有人要构建这样的东西，DuckDB 是构建它的正确基础。"
+    },
+    {
+      "timestamp": "18:07",
+      "speaker": "Jordan Tigani",
+      "en": "It's BI, but it's BI on steroids because there's some things you can do that you can't do.",
+      "zh": "它是 BI,但它是打了兴奋剂的 BI,因为有些事情你能做而别的地方做不了。"
+    },
+    {
+      "timestamp": "22:28",
+      "speaker": "Jordan Tigani",
+      "en": "By having the business users do it, they're the ones that can actually spot when it's subtly wrong.",
+      "zh": "让业务用户来做这件事，他们才是真正能发现结果哪里微妙出错的人。"
+    },
+    {
+      "timestamp": "23:27",
+      "speaker": "Jordan Tigani",
+      "en": "They're not going to be perfect, but they can certainly be better than a human.",
+      "zh": "它们不会完美，但它们肯定能比人类做得更好。"
+    },
+    {
+      "timestamp": "24:31",
+      "speaker": "Jordan Tigani",
+      "en": "Questions that other people have in the business don't have to go through gatekeepers who can figure things out.",
+      "zh": "业务中其他人提出的问题，不必经过能把事情搞清楚的守门人。"
+    },
+    {
+      "timestamp": "25:07",
+      "speaker": "Jordan Tigani",
+      "en": "That's not the kind of question that an analyst would ask.",
+      "zh": "那不是分析师会问的那种问题。"
+    },
+    {
+      "timestamp": "25:58",
+      "speaker": "Jordan Tigani",
+      "en": "There's different kinds of questions that you can start to ask when different types of people are doing the asking.",
+      "zh": "当不同类型的人来提问时，你能开始问的问题种类是不同的。"
+    },
+    {
+      "timestamp": "31:01",
+      "speaker": "Jordan Tigani",
+      "en": "I think everybody wants to work on the optimizer.",
+      "zh": "我觉得每个人都想做优化器。"
+    },
+    {
+      "timestamp": "31:56",
+      "speaker": "Jordan Tigani",
+      "en": "If you're a database company or an infrastructure company, you kind of live or die based on the strength of the core technology.",
+      "zh": "归根结底，如果你是一家数据库公司或基础设施公司，你的生死基本上取决于核心技术的强弱。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Jordan Tigani",
+      "en": "It's also a recipe as an engineer to have blinders about what do users actually want and how do you build something that's actually compelling?",
+      "zh": "作为一个工程师，对「用户真正想要什么」以及「如何构建真正有吸引力的东西」视而不见，也是一种失败的配方。"
+    },
+    {
+      "timestamp": "35:10",
+      "speaker": "Jordan Tigani",
+      "en": "Understanding product, which means understanding users, how the thing's going to be used, and understanding the business context in which something lives, is a superpower for an engineer.",
+      "zh": "理解产品——也就是理解用户、理解这个东西将如何被使用、并理解它所处的业务背景——是工程师的一种超能力。"
+    },
+    {
+      "timestamp": "38:05",
+      "speaker": "Jordan Tigani",
+      "en": "But I do think if there's one skill to learn, I think it would be writing.",
+      "zh": "但我确实认为，如果只能学一项技能，那就是写作。"
+    },
+    {
+      "timestamp": "38:25",
+      "speaker": "Jordan Tigani",
+      "en": "But I think that if you do that, then you're doing yourself a disservice.",
+      "zh": "但我觉得，如果你那样做(让 Claude 替你写文档)，那你就是在害自己。"
+    }
+  ],
+  "voice_script": "今天这期,来听一个数据库老兵的故事。主角叫 Jordan Tigani,在数据库行业干了十几年,参与创建了 Google 的 BigQuery,那是个很有名的云端数据仓库。后来去了一家叫 SingleStore 的数据库公司当首席产品官。这一期聊的,就是被解雇之后,怎么把一个念头变成一家公司,以及 AI 正在怎样改变普通人用数据的方式。\n\n故事的开头很扎心。一个周五早上,Tigani 被解雇了。用他自己的话说,这打击像一吨砖头砸下来。但转机也来得快。他一直觉得,应该有人把 DuckDB 做成云服务——这里得交代一下,DuckDB 是个轻量的开源分析数据库,适合在你自己的笔记本上直接跑数据分析,项目增长很快,群众基础很好。被解雇之后 Tigani 一想:我做过两次数据库云服务了,也许该干这件事的人,就是我自己。\n\n于是先联系 DuckDB 的创始人 Hannes 和 Mark。对方说,不想做云服务,只想专心把数据库本身做好。接着 Tigani 跟一位投资人聊了十五分钟,对方直接说,好主意,我要投。第二天,其他投资人也纷纷来问要多少钱。随口报了个五百万美元,对方说行。事后回想,自己当时完全不知道这些人是谁。一周后冷静下来认真想,这其实是对自己的一个赌注——原话是:不确定这辈子还会不会有这么好的另一个点子,所以不妨放手一搏。还有一个更朴素的理由:待过文化很好的公司,也待过有毒的公司,与其赌别人,不如自己建一个,失败了至少只能怪自己。\n\n这家公司就叫 MotherDuck。那它和 DuckDB 到底什么关系?市面上开源公司的常见做法有两种:要么公司先存在,把一部分代码开源出去聚人气;要么开源维护者自己建公司,把某些功能锁起来收费。MotherDuck 走了第三条路。DuckDB Labs 是独立的非营利开源组织,专心把数据库做好,没有任何压力去改许可证、去开源里抽东西。MotherDuck 则是商业公司,做托管版的云服务——注意,不是卖 DuckDB,而是替你运行它。为了让两边真正绑在一起,MotherDuck 创立时还给了 DuckDB 的创始人联合创始人股份,让做开源的人也能从商业成功里受益。这个结构在业内很少见,做云服务往往需要改底层,MotherDuck 在 DuckDB 里留了不少只给自己用的接口,也贡献了大约一千次代码提交。Tigani 自己也说,如果这个模式成了,可以成为其他开源项目的样板;失败了,就是一个警示故事。\n\n投资人为什么这么痛快?归结起来是三件事凑到了一起。当时 Snowflake 刚刚上市,是当时规模最大的 IPO,所有错过它的人都在找下一个 Snowflake;DuckDB 本身增长飞快;再加上 Tigani 有 BigQuery 的履历。如果有人要在 DuckDB 上建东西,为什么不能是我呢。创始团队十一个人,有老同事、老客户,还有纯粹喜欢 DuckDB 的人。团队够资深的好处,是能直接跳过那些显而易见但错误的设计方案。节奏也很快:三到四个月做出第一个能演示的版本,一年到测试版,再一年做到有人愿意付钱。\n\n那 AI 在这里扮演什么角色?过去半年,Tigani 看清了一件事:AI 正在改变人和数据打交道的方式。他们发现 Claude 很擅长做数据可视化,于是做了 Dives,就是 AI 生成的、可以分享的实时图表,相当于打了兴奋剂的 BI;又做了 Flights,一句话就能让 AI 写好数据管道,本质上是定时运行的 Python 代码。愿景是:不懂 SQL、不懂管道的业务人员,直接跟系统对话,就能把数据问题解决。内部最有意思的用户是销售。让一个销售去用智能体,第一个问题是——我今天该找哪些客户聊?这不是分析师会问的问题,但 Claude 能把工单、使用量、新闻拼在一起,给出不错的答案。\n\n那 AI 出错、胡编怎么办?恰恰因为提问的是贴近业务的销售,他们最容易发现结果哪里不对——我知道这个客户根本没用这个功能,为什么这里显示有?业务人员的直觉,是最快的纠错机制。就像自动驾驶:不完美,但可以比人强。顺带说一句仪表盘的事,团队内部辩论过仪表盘已死这个话题。结论是:仪表盘不会死,但角色会变。以前你只能盯着图表下钻、拆分,没法继续追问为什么;现在可以盯着仪表盘说,这个数字不对劲,今天发生了什么,让 AI 去挖。Tigani 自己每天还是看八遍那几个固定仪表盘,因为那是团队对业务的共同心智模型,深挖交给 AI。\n\n最后给工程师的建议,可能出乎意料:第一是写作。写作又慢又痛苦,写代码能进入心流,写作从来没有。但当年合著一本讲 BigQuery 的书时,写作过程中不断发现产品里这个命令太怪、那个接口不对劲,很多改进就是这么来的。用四个要点丢给 AI 生成三十页文档很省事,但真正的信息量还是那四个要点,那是骗自己。第二是别只盯着技术内核,要理解用户、理解产品和商业。职业生涯里做过让自己自豪却没人用的项目,而有句话值得记住:如果你造出来的东西没人用,那它就等于没有被造出来过。\n\n对了,为什么满公司都是鸭子?公司叫 MotherDuck,产品叫 Flights、Dives、Guides,员工穿鸭子背带裤。产品名里带动物,要么假装没这回事,要么彻底拥抱,他们选了后者。创业是一场注意力之战,愿意显得有点傻,本身就是一种筛选,加入的人都是能自嘲、有底气的人。对手们都很严肃,而他们相信,一边赢一边笑,本身就可以是成功的方式。"
+}
