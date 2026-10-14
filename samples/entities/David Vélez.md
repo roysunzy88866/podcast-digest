@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nubank":1,"AI":34,"基础模型":7,"智能体":501,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
+<script type="application/json" class="pd-epn">{"Nubank":1,"AI":34,"基础模型":7,"智能体":1,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
 
 <script>
 (function(){

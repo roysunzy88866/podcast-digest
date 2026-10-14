@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":15,"Marble":5,"智能体":501,"Atlas":5,"Sam Charrington":6,"Martin Casado":7,"模拟":1,"高斯溅射":1,"空间智能":3}</script>
+<script type="application/json" class="pd-epn">{"World Labs":5,"世界模型":15,"Marble":5,"智能体":1,"Atlas":5,"Sam Charrington":6,"Martin Casado":7,"模拟":1,"高斯溅射":1,"空间智能":3}</script>
 
 <script>
 (function(){

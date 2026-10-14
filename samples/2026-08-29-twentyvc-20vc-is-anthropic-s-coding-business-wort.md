@@ -279,7 +279,7 @@ Hino 学到的最大企业销售经验：别把销售当说服（试图让客户
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI、Meta、Palantir · 同概念:后训练 (post-training)、套索 (harness)、token、推理 (inference)</span>
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]]<span class="pd-rz">同公司:Anthropic、OpenAI、Microsoft、NVIDIA · 同概念:开放模型 (open models)、智能体 (agent)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)、智能体 (agent)</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Anthropic、OpenAI、Cursor、Meta · 同概念:前沿模型 (frontier models)、后训练 (post-training)</span>
 
 </div>
 </div>

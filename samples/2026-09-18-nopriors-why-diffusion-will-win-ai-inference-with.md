@@ -199,9 +199,9 @@ Ermon的底气来自一串从学界长出来的成果：扩散模型本身、Fla
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|投资Hugging Face的人怎么看AI创业]]<span class="pd-rz">同概念:Transformer、推理 (inference)</span>
 - [[2026-08-07-thepeel-the-18x-midas-lister-betting-3b-on-ai-an|Mayfield 管理合伙人 Navin:AI 投资的泡沫数学与蓝海打法]]<span class="pd-rz">同公司:Inception · 同概念:推理 (inference)</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:推理 (inference)、Transformer</span>
-- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|走进中国 AI 实验室：他们比你想的更普通，也更专注]]<span class="pd-rz">同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

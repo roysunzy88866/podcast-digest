@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM 当裁判 (LLM as a judge)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM 当裁判">LL</div><div class="pi"><h1 class="pt">LLM 当裁判 (LLM as a judge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM 当裁判">LL</div><div class="pi"><h1 class="pt">LLM 当裁判 (LLM as a judge)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-09-10-talks-training-taste-thais-castello-branco-tas|《终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop》]]**(08:29起):本集说让一个大模型直接判断内容是优质人类作品还是 AI 垃圾的方法，其表现不如他们组合多个探针的做法。
 - **[[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]]**(20:45起):本集说他们用中等智能水平、不太贵的模型做裁判，按采样率检查所有运行记录（如冗余测试问题），打分太贵会烧掉省下的钱
 - **[[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]]**(24:29起):本集说她把代码正确性和长任务交给 LLM 裁判评,结果它(一个 GPT 模型)与她完全 disagree——她喜欢 Astra,它喜欢 Fable
+- **[[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]]**(06:28起):本集说她的评测方法:先由一个 LLM 当裁判给各模型打分排名,她再用语音笔记亲自补充评判,最后汇总成报告。
 
 ## ① 提到它的金句
 
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2025-09-16-talks-evaluating-agents-with-braintrust|《Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变》]] — 作为概念
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|《做 evals 不是写单元测试，是从看数据开始的错误分析》]] — 作为概念
@@ -46,6 +47,7 @@ unlisted: true
 - [[2026-09-10-talks-training-taste-thais-castello-branco-tas|《终结 AI 垃圾内容：Taste Labs 如何度量并对抗 slop》]] — 作为概念
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为概念
 - [[2026-09-22-lennys-opus-55-vs-gpt-6-sol-which-model|《三大新模型同日发布，现场盲测见真章》]] — 作为概念
+- [[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]] — 作为概念(提及)
 
 ## ③ 关联
 
@@ -53,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Claude]] · [[Codex]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[错误分析]] · [[harness]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"评估":1,"Claude":97,"Codex":88,"Anthropic":203,"OpenAI":201,"护栏":90,"错误分析":2,"harness":65,"GitHub":35}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"评估":1,"Claude":97,"Codex":89,"Anthropic":204,"OpenAI":203,"护栏":90,"错误分析":2,"harness":65,"GitHub":35}</script>
 
 <script>
 (function(){

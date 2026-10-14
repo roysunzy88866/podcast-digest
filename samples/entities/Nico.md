@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":23,"GitHub":35,"Notion":17,"Slack":34,"智能体":501,"提示词":3,"代码":1,"代码层":1,"Make":2}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":2,"Figma":23,"GitHub":35,"Notion":17,"Slack":34,"智能体":1,"提示词":3,"代码":1,"代码层":1,"Make":2}</script>
 
 <script>
 (function(){

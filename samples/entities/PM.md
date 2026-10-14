@@ -59,7 +59,7 @@ unlisted: true
 
 [[Lenny]] · [[Ramp]] · [[智能体]] · [[Codex]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Tom Verrilli]] · [[Holly Li]] · [[PayPal]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Ramp":12,"智能体":501,"Codex":88,"Keith Rabois":2,"Dan Shipper":2,"Tom Verrilli":1,"Holly Li":1,"PayPal":8,"Claude Code":111}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Ramp":12,"智能体":1,"Codex":89,"Keith Rabois":2,"Dan Shipper":2,"Tom Verrilli":1,"Holly Li":1,"PayPal":8,"Claude Code":113}</script>
 
 <script>
 (function(){

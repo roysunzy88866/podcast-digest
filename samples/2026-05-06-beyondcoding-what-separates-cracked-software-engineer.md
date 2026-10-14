@@ -127,7 +127,7 @@ jsonLd: |
 
 - [[2026-09-09-productpodcast-bolt-ceo-on-turning-ai-prototypes-into-p|解散会议前一个月上线 Bolt:一夜从 50 万到 550 万美元 ARR]]<span class="pd-rz">同公司:Cursor · 同概念:vibe coding、开源 (open source)</span>
 - [[2026-10-01-sed-the-state-of-browser-testing|浏览器自动化标准背后的故事：Selenium、WebDriver 与测试哲学]]<span class="pd-rz">同概念:vibe coding、开源 (open source)</span>
-- [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同公司:Lovable · 同概念:vibe coding</span>
+- [[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|投资Hugging Face的人怎么看AI创业]]<span class="pd-rz">同概念:vibe coding、开源 (open source)</span>
 
 </div>
 <div class="pd-ex">

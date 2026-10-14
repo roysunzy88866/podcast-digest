@@ -134,9 +134,9 @@ Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)、强化学习环境 (RL environment)</span>
 - [[2026-08-04-strictlyvc-equity-replay-menlo-ventures-matt-murphy|领投人拆解 Anthropic：三年登顶的增长秘方]]<span class="pd-rz">同公司:Anthropic、ChatGPT、Claude</span>
 - [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:后训练 (post training)、基准测试 (benchmark)、合成数据 (synthetic data)</span>
-- [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic · 同概念:后训练 (post training)、AGI</span>
 
 </div>
 <div class="pd-ex">

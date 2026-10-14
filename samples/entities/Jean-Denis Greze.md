@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":501,"多智能体系统":1,"上下文窗口":18,"智能体搜索":4,"信任边界":1,"信息孤岛":1,"清扫 AI":1,"黑箱方法":1,"人在回路":22,"隐私":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"多智能体系统":1,"上下文窗口":18,"智能体搜索":4,"信任边界":1,"信息孤岛":1,"清扫 AI":1,"黑箱方法":1,"人在回路":22,"隐私":3}</script>
 
 <script>
 (function(){

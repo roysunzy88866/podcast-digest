@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体网站":1,"超个性化":1,"推理":99,"Cerebras":2,"Gemma 4":2,"Adobe Experience Manager":1,"Adobe":5,"PromptFoo":1,"OneLabs":1,"LLM":64}</script>
+<script type="application/json" class="pd-epn">{"智能体网站":1,"超个性化":1,"推理":100,"Cerebras":2,"Gemma 4":2,"Adobe Experience Manager":1,"Adobe":5,"PromptFoo":1,"OneLabs":1,"LLM":64}</script>
 
 <script>
 (function(){

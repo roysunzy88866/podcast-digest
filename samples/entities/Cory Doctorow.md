@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":50,"垃圾话":10,"团结":1}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":2,"自动化盲视":1,"vibe coding":51,"垃圾话":10,"团结":1}</script>
 
 <script>
 (function(){

@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"通才":2,"Gem 1.5":1,"缩放定律":17,"少样本学习":2,"跨载体":2,"手（末端执行器）":1,"VLA":4,"世界模型":15,"物理泛化":1,"精通":1}</script>
+<script type="application/json" class="pd-epn">{"通才":2,"Gem 1.5":1,"缩放定律":18,"少样本学习":2,"跨载体":2,"手（末端执行器）":1,"VLA":4,"世界模型":15,"物理泛化":1,"精通":1}</script>
 
 <script>
 (function(){

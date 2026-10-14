@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Jesse":1,"Varun":1,"Decagon":9,"Windsurf":7,"Resolve":2,"Splunk":4,"智能体":501,"Copilot":13,"多智能体协作":3}</script>
+<script type="application/json" class="pd-epn">{"Corinne Riley":4,"Jesse":1,"Varun":1,"Decagon":9,"Windsurf":7,"Resolve":2,"Splunk":4,"智能体":1,"Copilot":13,"多智能体协作":3}</script>
 
 <script>
 (function(){

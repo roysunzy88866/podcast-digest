@@ -33,7 +33,7 @@ unlisted: true
 
 [[AWS]] · [[智能体]] · [[Simon Maple]] · [[Elizabeth Fuentes Leone]] · [[Marc Brooker]] · [[Neo4j]] · [[Agent Core]] · [[上下文工程]] · [[on call]] · [[上下文窗口]]
 
-<script type="application/json" class="pd-epn">{"AWS":23,"智能体":501,"Simon Maple":10,"Elizabeth Fuentes Leone":1,"Marc Brooker":1,"Neo4j":6,"Agent Core":1,"上下文工程":18,"on call":2,"上下文窗口":18}</script>
+<script type="application/json" class="pd-epn">{"AWS":23,"智能体":1,"Simon Maple":10,"Elizabeth Fuentes Leone":1,"Marc Brooker":1,"Neo4j":6,"Agent Core":1,"上下文工程":18,"on call":2,"上下文窗口":18}</script>
 
 <script>
 (function(){

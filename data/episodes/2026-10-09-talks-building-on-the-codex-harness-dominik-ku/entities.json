@@ -1,0 +1,1126 @@
+{
+  "episode_id": "2026-10-09-talks-building-on-the-codex-harness-dominik-ku",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "开源",
+    "开发者体验",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dominik-kundel",
+      "type": "person",
+      "role": "guest",
+      "name": "Dominik Kundel",
+      "file": "Dominik Kundel",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集把 Codex 说成 OpenAI 的编程智能体,harness 与 app server 协议都已开源(Apache 2),可复刻、可接任何兼容 responses API 的模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.07,
+            44.323
+          ],
+          "quote": "So over the next 18 minutes or so, I want to talk to you all about how you can actually build on top of the Codex harness and hopefully make it a bit easier and less daunting for you to actually build your own interfaces on an agent harness and hopefully also a little bit fun.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            45.905,
+            50.268
+          ],
+          "quote": "I work at OpenAI on developer experience specifically for Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            55.372,
+            57.634
+          ],
+          "quote": "But how many of you have heard of the Codex app server?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            74.367,
+            78.031
+          ],
+          "quote": "The app server is actually the protocol that wraps the Codex harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            97.69,
+            103.054
+          ],
+          "quote": "The big thing here to keep in mind is both the Codex harness as well as the app server itself are open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            113.102,
+            117.485
+          ],
+          "quote": "But you can also always just ask Codex to read the repo and dive really deep into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            138.256,
+            152.86
+          ],
+          "quote": "In terms of how it works, the App Server protocol is a JSON RPC-style protocol that we actually use to power the Codex app, the IDE extension, our VS Code extension, so all of our first-party interfaces, but also third-party ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            152.96,
+            166.243
+          ],
+          "quote": "So if you've ever used Codex through Xcode, JetBrains, IDEs, or even some open-source projects like Theo's T3 code or RemoteX, all of these are powered by the same harness, the same App Server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            168.078,
+            173.481
+          ],
+          "quote": "We even used it earlier this year to put Codex into Claude Code using that same app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            173.561,
+            185.347
+          ],
+          "quote": "So if you're still on Claude Code and you want to use Codex from there, either to have it review your code or pass off tasks to Codex to handle it, you can actually use that plugin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            195.445,
+            207.298
+          ],
+          "quote": "At a high level, basically, the app server, the way it works is we're going to send messages between the client, which is the application you're building, and the server, which is the Codex app server, to perform different actions and receive events.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            212.464,
+            222.332
+          ],
+          "quote": "I went a bit overboard and actually built a little inspector that intercepts all of the events between the real Codex app and the Codex app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            225.154,
+            228.837
+          ],
+          "quote": "Let me actually switch over here to the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            228.857,
+            234.741
+          ],
+          "quote": "So I loaded up that same inspector in the in-app browser here of the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            270.165,
+            272.187
+          ],
+          "quote": "Also, don't mind my Codex pad up here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            388.449,
+            404.686
+          ],
+          "quote": "The other thing that's exciting for a lot of people is you can actually, if you're using this protocol, you can have sign in with ChatGPT as part of that, meaning that if someone is using your app, they can still bring their own ChatGPT subscription, and it goes off their Codex usage limits.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            427.727,
+            432.729
+          ],
+          "quote": "So with developer instructions, we're actually appending on top of the system prompt of Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            433.029,
+            435.449
+          ],
+          "quote": "You can look at the actual system prompt of Codex as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            451.693,
+            462.879
+          ],
+          "quote": "This is, for example, what we do when you load up the Codex app, since there's some functionality that is more specific for the app over the IDE extension or CLI, for example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            486.4,
+            498.993
+          ],
+          "quote": "It allows Codex to use a tool search tool, which we'll cover more tomorrow in the other session, but it allows it to find these tools through tool search rather than polluting the overall context window.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            521.725,
+            530.255
+          ],
+          "quote": "In terms of how you can actually use the app server, the first thing to know is that the app server actually comes as part of the Codex CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            531.657,
+            537.944
+          ],
+          "quote": "So if you have the Codex CLI already on your system, you can just use that to spin up the app server right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            539.17,
+            542.773
+          ],
+          "quote": "But you can also look at how we're, for example, shipping it with the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            543.133,
+            547.296
+          ],
+          "quote": "So the Codex app has the binary as part of the actual bundle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            547.856,
+            552.179
+          ],
+          "quote": "So if you're looking into your installed Codex app, you should find it in the contents of that bundle.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            581.337,
+            594.448
+          ],
+          "quote": "One, you can have Codex generate you for that particular version of the App Server, the TypeScript bindings, or the JSON schema, which is incredibly helpful since this protocol regularly changes between versions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            594.968,
+            607.033
+          ],
+          "quote": "Which is also why you actually want to bundle it with your application, which is what we're doing with the Codex app, so that you have full control over what are the actual capabilities of the version that you're expecting to build against.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            618.718,
+            622.979
+          ],
+          "quote": "And honestly, the easiest way to figure out what works better for you is probably to just ask Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            646.947,
+            654.392
+          ],
+          "quote": "That being said, we are at an AI engineer conference, so probably most of you are going to choose option two, which is you just ask Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            654.852,
+            662.697
+          ],
+          "quote": "So unsurprisingly, Codex is incredibly good at implementing this protocol, and you largely just have to point it at the documentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            724.617,
+            734.501
+          ],
+          "quote": "And recently, I think like a month ago or so, I thought about how can I actually run Codex inside of Doom rather than running Doom inside of Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            740.643,
+            747.165
+          ],
+          "quote": "So I have this Codex app, Doom version, and I booted up in the wrong window, so let me pull that over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            781.369,
+            793.356
+          ],
+          "quote": "And so most of the game engine itself is implemented in C. And then it loads the free Doom game, except that I actually had Codex change the game files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            799.559,
+            802.62
+          ],
+          "quote": "And if we actually interact with it here, we're booting up Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            814.343,
+            819.164
+          ],
+          "quote": "So if we say hello here, we can see Codex actually responding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            874.347,
+            876.969
+          ],
+          "quote": "I think the Codex app is slightly better for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            888.442,
+            893.506
+          ],
+          "quote": "And one question that came up a lot of times is, what's the difference with Codex Exec?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            893.646,
+            897.469
+          ],
+          "quote": "So if you've used the Codex CLI before, you might be familiar with this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            897.509,
+            905.815
+          ],
+          "quote": "There's another command called Codex Exec, which spins up a non-interactive interface for you to kick off tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            906.295,
+            908.356
+          ],
+          "quote": "To Codex, this is great for scripting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            918.043,
+            933.193
+          ],
+          "quote": "But if you're trying to build a more comprehensive client where you're showing the agent or, more importantly, if you're trying to do something where you're spinning up a bunch of different Codex threads at the same time, for example, you're running",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            939.458,
+            953.816
+          ],
+          "quote": "That's where the app server really shines because you have that full control over the harness and you don't have to figure out your own way of parallelizing all of the Codex exec calls rather than just sending off a bunch of like new threat events and spinning off tasks that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1003.175,
+            1013.06
+          ],
+          "quote": "We do this with the Codex app, for example, for it to be able to control itself as part of the Codex thread, like spinning up automations, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说嘉宾在 OpenAI 负责 Codex 的开发者体验,并开源了 Codex harness 和 app server",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            45.905,
+            50.268
+          ],
+          "quote": "I work at OpenAI on developer experience specifically for Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1060.607,
+            1069.014
+          ],
+          "quote": "Feel free to scan that QR code if you want to have the slides, and I'll be around for the next 15 minutes at the OpenAI booth if you want to ask me any questions there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "app-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "app server",
+      "file": "app server",
+      "primary": true,
+      "how_described": "本集说 app server 是包裹 Codex harness 的 JSON RPC 风格协议,客户端与服务端之间收发消息和事件,超过 120 种客户端消息,驱动一方和第三方界面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            55.372,
+            57.634
+          ],
+          "quote": "But how many of you have heard of the Codex app server?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            68.202,
+            72.446
+          ],
+          "quote": "But we talked briefly about it yesterday, but we didn't really explain what the app server is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            74.367,
+            78.031
+          ],
+          "quote": "The app server is actually the protocol that wraps the Codex harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            90.503,
+            96.289
+          ],
+          "quote": "And we'll talk a bit in a talk about what the differences are between app server and ACP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            97.69,
+            103.054
+          ],
+          "quote": "The big thing here to keep in mind is both the Codex harness as well as the app server itself are open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            138.256,
+            152.86
+          ],
+          "quote": "In terms of how it works, the App Server protocol is a JSON RPC-style protocol that we actually use to power the Codex app, the IDE extension, our VS Code extension, so all of our first-party interfaces, but also third-party ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            152.96,
+            166.243
+          ],
+          "quote": "So if you've ever used Codex through Xcode, JetBrains, IDEs, or even some open-source projects like Theo's T3 code or RemoteX, all of these are powered by the same harness, the same App Server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            168.078,
+            173.481
+          ],
+          "quote": "We even used it earlier this year to put Codex into Claude Code using that same app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            185.367,
+            189.769
+          ],
+          "quote": "And it uses that same app server, that same harness behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            195.445,
+            207.298
+          ],
+          "quote": "At a high level, basically, the app server, the way it works is we're going to send messages between the client, which is the application you're building, and the server, which is the Codex app server, to perform different actions and receive events.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            212.464,
+            222.332
+          ],
+          "quote": "I went a bit overboard and actually built a little inspector that intercepts all of the events between the real Codex app and the Codex app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            305.165,
+            319.637
+          ],
+          "quote": "Flexible is that we're really exposing anything that is really in the app at key functionality, meaning if we're streaming and things, we're doing file search, all of that information is actually handed back and forth between the app server and the app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            410.437,
+            423.686
+          ],
+          "quote": "In terms of customizing the agent, the biggest two things that you might want to look at if you're building on top of this app server is developer instructions as a way for you to augment the system instructions of the actual app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            521.725,
+            530.255
+          ],
+          "quote": "In terms of how you can actually use the app server, the first thing to know is that the app server actually comes as part of the Codex CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            531.657,
+            537.944
+          ],
+          "quote": "So if you have the Codex CLI already on your system, you can just use that to spin up the app server right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            560.005,
+            573.595
+          ],
+          "quote": "On Windows, we actually ship with two versions of the binary, both the Linux compiled one and the Windows one, so that if you're loading the app in WSL mode, it uses the Linux one, and otherwise it starts up the app server in Windows native.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            581.337,
+            594.448
+          ],
+          "quote": "One, you can have Codex generate you for that particular version of the App Server, the TypeScript bindings, or the JSON schema, which is incredibly helpful since this protocol regularly changes between versions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            608.754,
+            616.397
+          ],
+          "quote": "In terms of protocols, you can spin up the app server both using standard input-output, so STDIO, or you can use WebSockets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            696.722,
+            704.647
+          ],
+          "quote": "The most interesting thing for me with this app server, though, is that you're not limited to sort of the classic agent chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            802.76,
+            814.303
+          ],
+          "quote": "And again, this is rendered natively inside the actual video game and then passes it to the app server using Electron's IPC protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            850.519,
+            854.302
+          ],
+          "quote": "But again, remember, this is still an app server actually running on my machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            884.139,
+            887.922
+          ],
+          "quote": "I talked with a couple of you already during the show about the app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            939.458,
+            953.816
+          ],
+          "quote": "That's where the app server really shines because you have that full control over the harness and you don't have to figure out your own way of parallelizing all of the Codex exec calls rather than just sending off a bunch of like new threat events and spinning off tasks that way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            956.155,
+            964.652
+          ],
+          "quote": "Before I let you all go to the keynote, I have three more tips just to recap what we talked about, things that you should keep in mind if you're using the app server.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "agent harness",
+      "file": "agent harness",
+      "primary": true,
+      "how_described": "本集把 harness 说成智能体的底层工具链,通常构建起来很吓人,但 Codex 的 harness 开源后可以直接在其上构建自己的智能体界面",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.752,
+            18.933
+          ],
+          "quote": "How many of you have built your own agent harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            21.014,
+            25.677
+          ],
+          "quote": "How many of you feel like it's way too intimidating to build an agent harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.07,
+            44.323
+          ],
+          "quote": "So over the next 18 minutes or so, I want to talk to you all about how you can actually build on top of the Codex harness and hopefully make it a bit easier and less daunting for you to actually build your own interfaces on an agent harness and hopefully also a little bit fun.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-client-protocol",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体客户端协议 (agent client protocol)",
+      "file": "智能体客户端协议",
+      "primary": true,
+      "how_described": "本集说 app server 思路类似 ACP 这种更通用的协议,但 app server 能通过协议细粒度配置底层智能体本身,比 ACP 更深入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            78.872,
+            90.463
+          ],
+          "quote": "If you've ever looked into something like agent client protocol, this is a very similar concept where basically we have a protocol that allows you to directly build on top of the harness and deeply integrate into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            472.515,
+            476.857
+          ],
+          "quote": "You could use MCP or other things similar to what you would do in the agent client protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-tools",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态工具 (dynamic tools)",
+      "file": "动态工具",
+      "primary": true,
+      "how_described": "本集说动态工具让你直接定义新函数给智能体用,可标记为延迟加载,通过工具搜索找到而不是污染上下文窗口",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            464.012,
+            472.115
+          ],
+          "quote": "And then the other part of this is dynamic tools, where you can expose additional functions that you want the agent to be able to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            821.244,
+            825.585
+          ],
+          "quote": "The fun part, though, is you can actually use dynamic tools to expose additional functionality.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "developer-instructions",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者指令 (developer instructions)",
+      "file": "开发者指令",
+      "primary": true,
+      "how_described": "本集说开发者指令是在 Codex 系统提示词之上追加而非重写,官方推荐这样做以保留针对各模型的提示词调优积累",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            410.437,
+            423.686
+          ],
+          "quote": "In terms of customizing the agent, the biggest two things that you might want to look at if you're building on top of this app server is developer instructions as a way for you to augment the system instructions of the actual app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            427.727,
+            432.729
+          ],
+          "quote": "So with developer instructions, we're actually appending on top of the system prompt of Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            436.93,
+            440.87
+          ],
+          "quote": "But we generally recommend that you actually append to that using the developer instructions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1026.551,
+            1034.798
+          ],
+          "quote": "And if you are changing the instructions, try to start with adding developer instructions rather than changing the base instructions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex-cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex CLI",
+      "file": "Codex CLI",
+      "primary": true,
+      "how_described": "本集说 app server 打包在 Codex CLI 里,同一个二进制文件,装了 CLI 就能直接启动 app server",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            521.725,
+            530.255
+          ],
+          "quote": "In terms of how you can actually use the app server, the first thing to know is that the app server actually comes as part of the Codex CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            531.657,
+            537.944
+          ],
+          "quote": "So if you have the Codex CLI already on your system, you can just use that to spin up the app server right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            893.646,
+            897.469
+          ],
+          "quote": "So if you've used the Codex CLI before, you might be familiar with this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex-exec",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex Exec",
+      "file": "Codex Exec",
+      "primary": true,
+      "how_described": "本集说 Codex Exec 是 CLI 里起非交互式界面跑任务的命令,适合脚本化场景如 CI 里自动修复 PR;要完整客户端或多线程并行则该用 app server",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            888.442,
+            893.506
+          ],
+          "quote": "And one question that came up a lot of times is, what's the difference with Codex Exec?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            897.509,
+            905.815
+          ],
+          "quote": "There's another command called Codex Exec, which spins up a non-interactive interface for you to kick off tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            939.458,
+            953.816
+          ],
+          "quote": "That's where the app server really shines because you have that full control over the harness and you don't have to figure out your own way of parallelizing all of the Codex exec calls rather than just sending off a bunch of like new threat events and spinning off tasks that way.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说通过 app server 可以按线程对沙箱做细粒度控制,比如它能访问哪些网络连接、能修改哪些文件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            507.139,
+            519.883
+          ],
+          "quote": "So think about setting a different model provider, choosing a different model, or even doing fine-grained control on the sandbox, like what network connections it should have access to or what files it can modify.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复谈智能体本身:如何通过协议配置底层智能体、用开发者指令和工具定制它、以及智能体界面不必是聊天框,可以塞进游戏或后台任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.752,
+            18.933
+          ],
+          "quote": "How many of you have built your own agent harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            21.014,
+            25.677
+          ],
+          "quote": "How many of you feel like it's way too intimidating to build an agent harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.07,
+            44.323
+          ],
+          "quote": "So over the next 18 minutes or so, I want to talk to you all about how you can actually build on top of the Codex harness and hopefully make it a bit easier and less daunting for you to actually build your own interfaces on an agent harness and hopefully also a little bit fun.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            78.872,
+            90.463
+          ],
+          "quote": "If you've ever looked into something like agent client protocol, this is a very similar concept where basically we have a protocol that allows you to directly build on top of the harness and deeply integrate into it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            372.255,
+            376.399
+          ],
+          "quote": "We also try to make it easy so that you can configure the underlying agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            410.437,
+            423.686
+          ],
+          "quote": "In terms of customizing the agent, the biggest two things that you might want to look at if you're building on top of this app server is developer instructions as a way for you to augment the system instructions of the actual app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            464.012,
+            472.115
+          ],
+          "quote": "And then the other part of this is dynamic tools, where you can expose additional functions that you want the agent to be able to use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            472.515,
+            476.857
+          ],
+          "quote": "You could use MCP or other things similar to what you would do in the agent client protocol.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            499.737,
+            506.739
+          ],
+          "quote": "And then on top of that, you can even on a per-thread basis modify any other configuration that you might have for your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            685.628,
+            694.592
+          ],
+          "quote": "So you can build really impressive applications with this in a fairly short amount of time without you having to learn all the nitty-gritty parts of building an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            696.722,
+            704.647
+          ],
+          "quote": "The most interesting thing for me with this app server, though, is that you're not limited to sort of the classic agent chat interface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            918.043,
+            933.193
+          ],
+          "quote": "But if you're trying to build a more comprehensive client where you're showing the agent or, more importantly, if you're trying to do something where you're spinning up a bunch of different Codex threads at the same time, for example, you're running",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1014.801,
+            1025.59
+          ],
+          "quote": "That way you're not polluting the context window unnecessarily with all of the different additional functions that you're adding, and instead still have them available for the agent without necessarily confusing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1039.659,
+            1049.062
+          ],
+          "quote": "But there's a lot of different things that we constantly have to think about when we're building a harness to make sure that the actual prompt is in distribution and make sure that the agent performs well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 用同一个 app server 把 Codex 接入了 Claude Code,有插件可在其中调用 Codex",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            168.078,
+            173.481
+          ],
+          "quote": "We even used it earlier this year to put Codex into Claude Code using that same app server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            173.561,
+            185.347
+          ],
+          "quote": "So if you're still on Claude Code and you want to use Codex from there, either to have it review your code or pass off tasks to Codex to handle it, you can actually use that plugin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提了一句暴露工具时可以用 MCP 或其他类似智能体客户端协议的方式",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            472.515,
+            476.857
+          ],
+          "quote": "You could use MCP or other things similar to what you would do in the agent client protocol.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

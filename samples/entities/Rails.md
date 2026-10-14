@@ -35,7 +35,7 @@ unlisted: true
 
 [[Gabriel Martinez]] · [[垃圾话]] · [[智能体]] · [[评估]] · [[vibe coding]] · [[约定]] · [[认知开销]] · [[ORC]] · [[代码行数]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Martinez":1,"垃圾话":10,"智能体":501,"评估":1,"vibe coding":50,"约定":1,"认知开销":1,"ORC":1,"代码行数":3}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Martinez":1,"垃圾话":10,"智能体":1,"评估":1,"vibe coding":51,"约定":1,"认知开销":1,"ORC":1,"代码行数":3}</script>
 
 <script>
 (function(){

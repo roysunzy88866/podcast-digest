@@ -1,0 +1,143 @@
+{
+  "title_zh": "Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生",
+  "tldr": "产品人 Claire Vo 用自家基准测试了 Meta 的 Muse Wonder 模型，结论是智能体任务一流，设计品味垫底。",
+  "digest_md": "Claire Vo 是 How I AI 节目主持人、产品负责人，也是 AI 工具的重度用户。这期她把 Meta 刚发布的前沿模型 Muse Wonder(分 Wonder 和 Wonderful 两版)丢进自己的测试集里跑了一遍，涵盖写产品文档、做原型、写代码、跑智能体任务和创意工作。她的结论很干脆：该用在哪、不该用在哪，一听就明白。\n\n## Meta 想让这个模型干什么？\n\nMuse Wonder 是 Meta 的新前沿模型家族，官方把它和 Fable、GPT-6 Astra、Claude Opus 5.5 放在同一梯队 [00:41 Claire Vo]。Meta 主打的不是写代码，而是「个人和专业场景的智能体工作」——这和他们的个人 AI 助手 Muse 的方向一致。\n\nMeta 特别强调三个能力。一是领域专业知识，比如法律分析、金融这些知识工作；二是主动记忆,能把关于你的重要信息跨对话带下去，这对个人助手很关键；三是主动专注,即模型会为有挑战的目标反复尝试不同做法。剧透一下：这个能力在她的长任务测试里确实赢过了其他模型 [04:18 Claire Vo]。\n\n## 测评怎么做的？\n\n她的测试集有近 20 个任务：写产品需求文档(PRD)、做原型、重新设计 ChatPRD 网站、长时间操控电脑、智能体研究、代码修复，还有创意任务 [06:16 Claire Vo]。先让一个大模型当评委打分，她自己再用语音笔记补充评判，最后汇总成报告。\n\n不过这次只是第一眼快评，不是完整基准测试——她刚跑完 Opus 5.5 等模型，不想整套再来一遍，==只想回答一个问题：Muse 到底行不行==。\n\n## 最烦人的一步：先装 Muse Code\n\n要上手这个模型，她不得不订阅 Muse 服务、拿到 Meta 的模型接口，还下载了 Muse Code 工具 [04:53 Claire Vo]。她坦言自己已经好几个月没打开过终端应用，而 Muse Code 本身给她的印象很一般。她实际的做法是给 Claude Code 接上 Muse Code 去跑，自己没怎么碰它。\n\n## 干活是真行：智能体任务全场最佳\n\n四个智能体任务——账单工单处理、客户回复、收件箱分诊、长线研究——它全是她的心头好，另外声音助手的角色也很讨喜 [08:01 Claire Vo]。\n\n最出彩的是账单工单任务。这个测试故意埋了坑：工单挂错了账户、退款金额奇怪、还有一笔重复扣款，说明文字里甚至藏了一个提示注入攻击。Muse Wonder 一层层排查：找到正确客户、因为重复扣款退了正确的金额、改了套餐、回复并标记解决。**它是所有模型里做得最好的**[12:37 Claire Vo]。\n\n写邮件她也放心交给它，给打了满分五分——毕竟她的邮件本来就只有两句话。声音助手测试里，它接近平常霸榜的 Sonnet,语气像个正常人，不腻不烦。\n\n## 代码：后端能打，前端拉胯\n\n后端功能实现它排第一，和头部模型在同一档，做后端编程和架构审查完全够用 [09:05 Claire Vo]。\n\n但前端就是灾难现场。她测了一个日程应用，点进去发现很多交互根本没反应；一个事故管理平台，她明确要求深色模式，它偏偏做成浅色还加了个糟糕的遮罩层 [16:07 Claire Vo]。她总结：**这个模型给出的前端代码，错误比其他模型很长一段时间里见过的都多**。\n\n设计品味也很成问题。她用了个词叫slop,意思是千篇一律的模板味儿——Muse 出品清一色是粗衬线字体加圆角组件的软件即服务风格。最惨的是重设计 ChatPRD 网站：原本刚被 Opus 5.5 刷新过的漂亮网站，被它做得图片都是坏的，连拿到手的品牌设计规范都没遵守 [17:36 Claire Vo]。\n\n## PRD 和创意：能用，但别指望\n\nPRD 写得短、也照了模板，这两点她喜欢；但格式乱、细节少，不如其他模型。创意任务里，SVG 插图画得挺可爱，但八个模型里排第七；短视频剪辑找对了 40 秒素材、卡点几乎全对，可字幕盖在脸上、叠加装饰很丑，音频还出了怪问题，总分 2/5 [21:05 Claire Vo]。\n\n## 到底该不该用？\n\n一句话结论：**智能体工作很强，代码和后端够用**，写邮件、当语音助手都靠谱；设计品味差一大截，她不会拿它做前端或创意工作，继续用 Opus 5.5 干这些 [22:28 Claire Vo]。\n\n速度上也有个有趣的分裂：小任务快得飞起，智能体大任务却跑很久——可能正是那个主动专注模式在花时间磨。她接下来打算把 Muse Wonder 塞进自己在搭的几个智能体里，实际跑跑看。\n\n## 本集带走\n\n- Muse Wonder 主打个人和专业智能体场景，主动记忆和长任务的持续专注是它的差异化卖点。\n- 智能体任务表现全场最佳：账单排查、收件箱分诊、语音助手都接近或超过头部模型。\n- 后端代码够用，但前端代码错误多、设计审美停留在模板风格，重设计网站直接翻车。\n- 想上手得订阅 Muse 并下载 Muse Code,上手体验一般。\n- 她的选择：干活交给 Muse Wonder,设计和创意继续用 Opus 5.5。",
+  "quotes": [
+    {
+      "en": "what's super frustrating is it gets like 80% of it right, and then it just totally falls down.",
+      "zh": "最让人沮丧的是它做对了大约 80%，然后就彻底垮掉了。",
+      "timestamp": "15:43",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "I'm not calling it a no. I'm just not calling it a yes.",
+      "zh": "我不是说它不行。我只是还没说它行。",
+      "timestamp": "20:57",
+      "speaker": "Claire Vo"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "08:01",
+      "speaker": "Claire Vo",
+      "en": "It is the best at agentic work.",
+      "zh": "它在智能体工作方面是最强的。"
+    },
+    {
+      "timestamp": "09:14",
+      "speaker": "Claire Vo",
+      "en": "Where it really started to fall off the cliff are on creative tasks.",
+      "zh": "它真正开始断崖式下滑的地方是创意任务。"
+    },
+    {
+      "timestamp": "09:45",
+      "speaker": "Claire Vo",
+      "en": "Prototypes, the design sensibility is just like 18 months behind, maybe a year behind.",
+      "zh": "原型方面，设计品味大概落后了 18 个月，或者一年。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Claire Vo",
+      "en": "for design, for video, for art, it is just the best on the market right now.",
+      "zh": "对于设计、视频、艺术，它就是目前市面上最好的。"
+    },
+    {
+      "timestamp": "09:42",
+      "speaker": "Claire Vo",
+      "en": "I would not love a Muse writer.",
+      "zh": "我可不想让 Muse 来写东西。"
+    },
+    {
+      "timestamp": "10:07",
+      "speaker": "Claire Vo",
+      "en": "But it's going to be really interesting as like an orchestrator model or a voice model or an agent model in the loop.",
+      "zh": "但作为编排模型、语音模型或在环的智能体模型，它会非常值得期待。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Claire Vo",
+      "en": "I think figuring out how to navigate a complex SaaS app and resolve a complex kind of like customer problem is a great one,",
+      "zh": "我觉得弄清楚如何导航一个复杂的 SaaS 应用并解决一个复杂的客户问题就是一个很好的测试，"
+    },
+    {
+      "timestamp": "13:12",
+      "speaker": "Claire Vo",
+      "en": "Now, my emails are two sentences long.",
+      "zh": "我的邮件只有两句话长。"
+    },
+    {
+      "timestamp": "14:03",
+      "speaker": "Claire Vo",
+      "en": "And I think Muse is like right up there with Sonnet Performance.",
+      "zh": "而且我觉得 Muse 在性能上和 Sonnet 不相上下。"
+    },
+    {
+      "timestamp": "16:29",
+      "speaker": "Claire Vo",
+      "en": "Again, I think I can probably at this point tell slop per model, like what kind of slop I'm going to get from what model.",
+      "zh": "再说一次，我觉得我到现在大概能分辨出每个模型的 slop，就是我将会从哪个模型得到什么样的 slop。"
+    },
+    {
+      "timestamp": "17:30",
+      "speaker": "Claire Vo",
+      "en": "We love the Chat Purdy website and Muse obliterated it.",
+      "zh": "我们很爱 Chat Purdy 网站，而 Muse 把它毁得面目全非。"
+    },
+    {
+      "timestamp": "15:43",
+      "speaker": "Claire Vo",
+      "en": "what's super frustrating is it gets like 80% of it right, and then it just totally falls down.",
+      "zh": "最让人沮丧的是它做对了大约 80%，然后就彻底垮掉了。"
+    },
+    {
+      "timestamp": "16:10",
+      "speaker": "Claire Vo",
+      "en": "and all developers need dark mode.",
+      "zh": "而所有开发者都需要深色模式。"
+    },
+    {
+      "timestamp": "18:42",
+      "speaker": "Claire Vo",
+      "en": "if you would have told me that you could get coded SVGs at this quality, it would have blown my mind.",
+      "zh": "如果你告诉我可以用代码生成这种质量的 SVG，那会让我震惊。"
+    },
+    {
+      "timestamp": "20:57",
+      "speaker": "Claire Vo",
+      "en": "I'm not calling it a no. I'm just not calling it a yes.",
+      "zh": "我不是说它不行。我只是还没说它行。"
+    },
+    {
+      "timestamp": "22:10",
+      "speaker": "Claire Vo",
+      "en": "So I will just say little tasks fast, long tasks a little bit longer.",
+      "zh": "所以我就说，小任务快，长任务稍微久一点。"
+    },
+    {
+      "timestamp": "22:26",
+      "speaker": "Claire Vo",
+      "en": "It definitely just falls short on design sensibility, which is so much of my work.",
+      "zh": "它确实在设计感上有所欠缺，而这正是我工作的重要部分。"
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Claire Vo",
+      "en": "they're really putting it in the class of Fable, GPT-6 Astra, and Claude Opus 5.5.",
+      "zh": "他们真的把它放在了 Fable、GPT-6 Astra 和 Claude Opus 5.5 的同一个级别。"
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Claire Vo",
+      "en": "They're saying that this is the best model for driving a personal agent.",
+      "zh": "他们说这是驱动个人智能体的最佳模型。"
+    },
+    {
+      "timestamp": "08:58",
+      "speaker": "Claire Vo",
+      "en": "It's actually kind of interesting that Astra is a little bit down here at the bottom, but like it's in the ballpark.",
+      "zh": "其实挺有意思的是 Astra 有点靠后，排在底部，但也差不多在同一水平上。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个新鲜出炉的模型实测。\n\n主角叫 Claire Vo,是 How I AI 节目的主持人,也是一位产品负责人,平时是 AI 工具的重度用户。这期她干的事很简单:Meta 刚发布了一个新的前沿模型,叫 Muse Wonder,分 Wonder 和 Wonderful 两个版本,她把这个模型丢进自己攒的一套测试集里,从头到尾跑了一遍,看看它到底行不行。\n\n先交代一下背景。Meta 给这个模型的定位,跟你想的可能不太一样。它官方对标的是 Fable、GPT-6 Astra、Claude Opus 5.5 这些顶级模型,但主打的不是写代码,而是个人和专业场景的智能体工作,说白了就是替你办事。Meta 特别强调三个能力:一是领域专业知识,比如法律分析、金融这类知识工作;二是主动记忆,能把关于你的重要信息跨对话带下去,这对个人助手很关键;三是主动专注,意思是模型遇到有挑战的目标,会反复尝试不同做法,不轻易放弃。记住第三条,后面有个测试正好印证了它。\n\n那测评是怎么做的呢?Claire Vo 的测试集有将近二十个任务,包括写产品需求文档、做原型、重新设计一个网站、长时间操控电脑、智能体研究、代码修复,还有创意任务。流程是先让一个大模型当评委打分,她再用语音笔记补充自己的评判,最后汇总成报告。不过得说清楚,这次是第一眼快评,不是完整基准测试——她刚跑完其他几个模型,不想整套重来,只想回答一个问题:Muse 到底行不行。\n\n真要上手,还有个烦人的前置步骤。她得订阅 Muse 服务,拿到 Meta 的模型接口,还要下载一个叫 Muse Code 的工具。她自己也吐槽,说已经好几个月没打开过终端应用了,而 Muse Code 本身给她的印象很一般,所以她实际的做法是把 Claude Code 接上 Muse Code 去跑,自己基本没怎么碰它。\n\n好,铺垫完了,直接说结果,先说好的地方——智能体任务,这块它是全场最佳。\n\n她测了四个智能体任务:账单工单处理、客户回复、收件箱分诊、长线研究,这个模型全是她的心头好,声音助手的表现也很讨喜。最出彩的是账单工单那个测试,而且这个测试是故意埋了坑的:工单挂错了账户,退款金额很奇怪,还有一笔重复扣款,说明文字里甚至藏了一个提示注入攻击,就是想骗模型上当。Muse Wonder 是怎么做的呢?一层一层排查:找到正确的客户,因为重复扣款退了正确的金额,改了套餐,回复并标记解决。所有模型里,它做得最好。\n\n写邮件她也放心交给它,直接打满分五分——不过也补充一句,她的邮件本来就只有两句话。声音助手测试里,它接近平常霸榜的 Sonnet,语气像个正常人,不腻不烦。\n\n那写代码呢?这就得分两头说了。后端功能实现,它排第一,和头部模型在同一档,做后端编程和架构审查完全够用。但前端,用她的话说,是灾难现场。她测了一个日程应用,点进去发现很多交互根本没反应;另一个事故管理平台,她明确要求深色模式,它偏偏做成浅色,还加了个糟糕的遮罩层。她总结得很直接:这个模型给出的前端代码,错误比其他模型很长一段时间里见过的都多。\n\n设计品味的问题就更大了。她用了个词,叫 slop,意思是千篇一律的模板味儿——这个模型出的东西,清一色是粗衬线字体加圆角组件的软件即服务风格,一眼看过去都长一个样。最惨的是重新设计 ChatPRD 的网站:那个网站原本刚被 Opus 5.5 刷新过,挺漂亮的,结果被它做得图片全是坏的,连拿到手的品牌设计规范都没遵守。她说了一句挺扎心的话:最让人沮丧的是,它做对了大约百分之八十,然后就彻底垮掉了。\n\n剩下的两项,简单带过。产品需求文档,写得短、也照了模板,这两点她喜欢,但格式乱、细节少,不如其他模型。创意任务里,SVG 插画画得挺可爱,但八个模型里只排第七;短视频剪辑,找对了四十秒素材,卡点几乎全对,可字幕盖在脸上,叠加的装饰很丑,音频还出了怪问题,总分只有五分里的两分。\n\n所以到底该不该用?一句话结论:智能体工作很强,代码和后端够用,写邮件、当语音助手都靠谱;但设计品味差一大截,她不会拿它做前端或创意工作,这些活她继续用 Opus 5.5。速度上还有个有意思的现象:小任务快得飞起,智能体大任务却跑很久——很可能正是那个主动专注模式在花时间磨。她接下来打算把 Muse Wonder 塞进自己在搭的几个智能体里,实际跑跑看再下结论。\n\n用她自己那句挺妙的话来收尾吧:我不是说它不行,我只是还没说它行。"
+}

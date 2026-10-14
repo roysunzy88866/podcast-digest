@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"Claude Code":111,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":2,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":35,"Notion":17}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"Claude Code":113,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":2,"builder PM":1,"Product Mind":1,"Typeform":2,"GitHub":35,"Notion":17}</script>
 
 <script>
 (function(){

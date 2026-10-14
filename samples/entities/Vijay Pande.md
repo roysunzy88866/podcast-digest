@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":501,"临床试验":1,"基础模型":7,"精准医疗":1,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"VZVC":1,"Function Health":1,"Insitro":1,"Genesis Therapeutics":1,"Devoted Health":2,"智能体":1,"临床试验":1,"基础模型":7,"精准医疗":1,"go-to-market":14}</script>
 
 <script>
 (function(){

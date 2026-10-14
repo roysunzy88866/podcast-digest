@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":501,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":7}</script>
+<script type="application/json" class="pd-epn">{"Simon Eskildsen":1,"Legora":3,"Turbo Puffer":1,"对象存储":3,"向量搜索":6,"智能体":1,"命名空间":1,"内存层级":1,"Elasticsearch":1,"Postgres":7}</script>
 
 <script>
 (function(){

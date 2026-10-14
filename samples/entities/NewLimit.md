@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Zavain Dar]] · [[Elad Gil]] · [[Eric Newcomer]] · [[Brian Armstrong]] · [[NVIDIA]] · [[Coinbase]] · [[Hugging Face]] · [[智能体金融]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"Zavain Dar":1,"Elad Gil":1,"Eric Newcomer":2,"Brian Armstrong":1,"NVIDIA":70,"Coinbase":8,"Hugging Face":37,"智能体金融":1,"开源":41}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Zavain Dar":1,"Elad Gil":1,"Eric Newcomer":2,"Brian Armstrong":1,"NVIDIA":71,"Coinbase":8,"Hugging Face":38,"智能体金融":1,"开源":42}</script>
 
 <script>
 (function(){

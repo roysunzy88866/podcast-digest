@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[OpenAI]] · [[Meta]] · [[YouTube]] · [[Airbnb]] · [[Instagram]] · [[微调]] · [[LLM]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"ChatGPT":112,"OpenAI":201,"Meta":53,"YouTube":9,"Airbnb":14,"Instagram":9,"微调":37,"LLM":64,"推理":99}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":112,"OpenAI":203,"Meta":55,"YouTube":9,"Airbnb":14,"Instagram":9,"微调":38,"LLM":64,"推理":100}</script>
 
 <script>
 (function(){

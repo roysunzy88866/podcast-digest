@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":203,"风险投资":1,"IRR":1,"DPI":1,"股权占比":4,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
+<script type="application/json" class="pd-epn">{"Menlo":2,"Anthropic":204,"风险投资":1,"IRR":1,"DPI":1,"股权占比":4,"仓位管理（position sizing）":1,"反身性":1,"估值上调（markup）":1,"稀释":1}</script>
 
 <script>
 (function(){

@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":32,"推理":99,"光子学":2,"记忆":28,"摩尔定律":1,"大语言模型":11,"扩展假设":1,"训练":5}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"iMac":1,"GPU":32,"推理":100,"光子学":2,"记忆":28,"摩尔定律":1,"大语言模型":11,"扩展假设":1,"训练":5}</script>
 
 <script>
 (function(){

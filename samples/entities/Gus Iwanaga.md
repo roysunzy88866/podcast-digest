@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":6,"编排器":4,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":94,"沙箱":98}</script>
+<script type="application/json" class="pd-epn">{"Commerce Tools":1,"生成式 UI":6,"编排器":4,"UX 智能体":1,"UI 协议":1,"A2UI":1,"组件目录":1,"原子设计":1,"MCP":95,"沙箱":99}</script>
 
 <script>
 (function(){

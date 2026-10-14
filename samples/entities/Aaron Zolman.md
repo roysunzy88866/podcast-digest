@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"OpenClaw":24,"智能体":501,"红队测试":9,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":90,"harness":65,"供应链":6}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"OpenClaw":24,"智能体":1,"红队测试":9,"容器化":1,"物理隔离":1,"威胁模型":1,"护栏":90,"harness":65,"供应链":6}</script>
 
 <script>
 (function(){

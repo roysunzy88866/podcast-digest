@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Eli Cohen]] [[Kevin Mandia]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":4,"AI 安全":4,"Anthropic":203,"OpenAI":201,"Hugging Face":37,"DeepMind":19,"对齐":25,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"AI 安全":4,"Anthropic":204,"OpenAI":203,"Hugging Face":38,"DeepMind":19,"对齐":25,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1354 @@
+[
+ {
+  "seg": 0,
+  "start": 12.589,
+  "end": 12.909,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 12.929,
+  "end": 14.13,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 15.291,
+  "end": 16.711,
+  "speaker": "Unknown",
+  "en": "I want to start with a quick raise of hands.",
+  "zh": "我想先来一个快速举手。"
+ },
+ {
+  "seg": 3,
+  "start": 16.752,
+  "end": 18.933,
+  "speaker": "Unknown",
+  "en": "How many of you have built your own agent harness?",
+  "zh": "你们当中有多少人构建过自己的智能体工具链(agent harness)?"
+ },
+ {
+  "seg": 4,
+  "start": 20.394,
+  "end": 20.634,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 5,
+  "start": 21.014,
+  "end": 25.677,
+  "speaker": "Unknown",
+  "en": "How many of you feel like it's way too intimidating to build an agent harness?",
+  "zh": "你们当中有多少人觉得构建一个 agent harness 实在太吓人了?"
+ },
+ {
+  "seg": 6,
+  "start": 27.209,
+  "end": 27.649,
+  "speaker": "Unknown",
+  "en": "OK, cool.",
+  "zh": "好,很棒。"
+ },
+ {
+  "seg": 7,
+  "start": 28.07,
+  "end": 44.323,
+  "speaker": "Unknown",
+  "en": "So over the next 18 minutes or so, I want to talk to you all about how you can actually build on top of the Codex harness and hopefully make it a bit easier and less daunting for you to actually build your own interfaces on an agent harness and hopefully also a little bit fun.",
+  "zh": "所以在接下来的 18 分钟左右里,我想和大家聊聊你们如何真正在 Codex harness 之上进行构建,希望能让你们构建自己的 agent harness 接口这件事变得更轻松一些、不那么令人生畏,同时也希望有点乐趣。"
+ },
+ {
+  "seg": 8,
+  "start": 45.044,
+  "end": 45.745,
+  "speaker": "Unknown",
+  "en": "My name is Dom.",
+  "zh": "我叫 Dom。"
+ },
+ {
+  "seg": 9,
+  "start": 45.905,
+  "end": 50.268,
+  "speaker": "Unknown",
+  "en": "I work at OpenAI on developer experience specifically for Codex.",
+  "zh": "我在 OpenAI 工作,负责 Codex 的开发者体验。"
+ },
+ {
+  "seg": 10,
+  "start": 51.509,
+  "end": 53.211,
+  "speaker": "Unknown",
+  "en": "And I have one more raise of hands.",
+  "zh": "我还有一次举手环节。"
+ },
+ {
+  "seg": 11,
+  "start": 53.231,
+  "end": 54.672,
+  "speaker": "Unknown",
+  "en": "I promise I'm going to give you all a break.",
+  "zh": "我保证之后会让大家休息一下。"
+ },
+ {
+  "seg": 12,
+  "start": 55.372,
+  "end": 57.634,
+  "speaker": "Unknown",
+  "en": "But how many of you have heard of the Codex app server?",
+  "zh": "但是你们当中有多少人听说过 Codex app server?"
+ },
+ {
+  "seg": 13,
+  "start": 57.654,
+  "end": 59.175,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 14,
+  "start": 59.195,
+  "end": 64.7,
+  "speaker": "Unknown",
+  "en": "This was a bit of a trick question because if you attended the keynote yesterday, all of you should have raised your hand.",
+  "zh": "这有点像是个陷阱问题,因为如果你参加了昨天的主题演讲,你们所有人都应该举手了。"
+ },
+ {
+  "seg": 15,
+  "start": 65.52,
+  "end": 68.022,
+  "speaker": "Unknown",
+  "en": "Otherwise, you probably didn't listen to Ramon.",
+  "zh": "否则的话,你大概没听 Ramon 讲。"
+ },
+ {
+  "seg": 16,
+  "start": 68.202,
+  "end": 72.446,
+  "speaker": "Unknown",
+  "en": "But we talked briefly about it yesterday, but we didn't really explain what the app server is.",
+  "zh": "我们昨天简单提到了它,但我们并没有真正解释 app server 是什么。"
+ },
+ {
+  "seg": 17,
+  "start": 74.367,
+  "end": 78.031,
+  "speaker": "Unknown",
+  "en": "The app server is actually the protocol that wraps the Codex harness.",
+  "zh": "App server 实际上是包裹 Codex harness 的协议。"
+ },
+ {
+  "seg": 18,
+  "start": 78.872,
+  "end": 90.463,
+  "speaker": "Unknown",
+  "en": "If you've ever looked into something like agent client protocol, this is a very similar concept where basically we have a protocol that allows you to directly build on top of the harness and deeply integrate into it.",
+  "zh": "如果你曾经研究过类似 agent client protocol 的东西,这是一个非常相似的概念,基本上我们有一个协议,让你能够直接在 harness 之上构建并深度集成进去。"
+ },
+ {
+  "seg": 19,
+  "start": 90.503,
+  "end": 96.289,
+  "speaker": "Unknown",
+  "en": "And we'll talk a bit in a talk about what the differences are between app server and ACP.",
+  "zh": "我们会在本次演讲中谈一下 app server 和 ACP 之间的区别是什么。"
+ },
+ {
+  "seg": 20,
+  "start": 97.69,
+  "end": 103.054,
+  "speaker": "Unknown",
+  "en": "The big thing here to keep in mind is both the Codex harness as well as the app server itself are open source.",
+  "zh": "这里要记住的重点是,Codex harness 和 app server 本身都是开源的。"
+ },
+ {
+  "seg": 21,
+  "start": 103.215,
+  "end": 106.097,
+  "speaker": "Unknown",
+  "en": "So we're going to cover a couple of different things on how you can engage with it.",
+  "zh": "所以我们会讲几个不同的参与方式。"
+ },
+ {
+  "seg": 22,
+  "start": 106.777,
+  "end": 113.062,
+  "speaker": "Unknown",
+  "en": "But more importantly, we're going to both dive tomorrow in the afternoon into how a couple of these things work behind the scenes.",
+  "zh": "但更重要的是,我们明天下午会深入探讨其中一些东西在幕后是如何运作的。"
+ },
+ {
+  "seg": 23,
+  "start": 113.102,
+  "end": 117.485,
+  "speaker": "Unknown",
+  "en": "But you can also always just ask Codex to read the repo and dive really deep into it.",
+  "zh": "但你也可以随时让 Codex 去阅读这个仓库并深入钻研。"
+ },
+ {
+  "seg": 24,
+  "start": 117.886,
+  "end": 123.61,
+  "speaker": "Unknown",
+  "en": "It's Apache 2 licensed, so feel free to fork it, make it your own, and have fun with it.",
+  "zh": "它是 Apache 2 许可的,所以尽管 fork 它、把它变成你自己的、尽情玩吧。"
+ },
+ {
+  "seg": 25,
+  "start": 123.97,
+  "end": 130.338,
+  "speaker": "Unknown",
+  "en": "You can even connect it to any other model provider as long as they have a responses API compatible API.",
+  "zh": "你甚至可以把它连接到任何其他模型提供商,只要他们有与 responses API 兼容的 API。"
+ },
+ {
+  "seg": 26,
+  "start": 131.059,
+  "end": 136.026,
+  "speaker": "Unknown",
+  "en": "We even have convenience settings to connect it easily to LM Studio or Olama.",
+  "zh": "我们甚至有便捷的设置,可以轻松连接到 LM Studio 或 Olama。"
+ },
+ {
+  "seg": 27,
+  "start": 138.256,
+  "end": 152.86,
+  "speaker": "Unknown",
+  "en": "In terms of how it works, the App Server protocol is a JSON RPC-style protocol that we actually use to power the Codex app, the IDE extension, our VS Code extension, so all of our first-party interfaces, but also third-party ones.",
+  "zh": "关于它如何工作,App Server 协议是一个 JSON RPC 风格的协议,我们实际上用它来驱动 Codex app、IDE 扩展、我们的 VS Code 扩展,也就是所有我们的一方接口,同时也驱动第三方接口。"
+ },
+ {
+  "seg": 28,
+  "start": 152.96,
+  "end": 166.243,
+  "speaker": "Unknown",
+  "en": "So if you've ever used Codex through Xcode, JetBrains, IDEs, or even some open-source projects like Theo's T3 code or RemoteX, all of these are powered by the same harness, the same App Server.",
+  "zh": "所以如果你曾经通过 Xcode、JetBrains IDE,甚至一些开源项目比如 Theo 的 T3 code 或 RemoteX 使用过 Codex,所有这些都由同一个 harness、同一个 App Server 驱动。"
+ },
+ {
+  "seg": 29,
+  "start": 168.078,
+  "end": 173.481,
+  "speaker": "Unknown",
+  "en": "We even used it earlier this year to put Codex into Claude Code using that same app server.",
+  "zh": "我们甚至在今年早些时候用同一个 app server 把 Codex 接入了 Claude Code。"
+ },
+ {
+  "seg": 30,
+  "start": 173.561,
+  "end": 185.347,
+  "speaker": "Unknown",
+  "en": "So if you're still on Claude Code and you want to use Codex from there, either to have it review your code or pass off tasks to Codex to handle it, you can actually use that plugin.",
+  "zh": "所以如果你还在用 Claude Code,并且想从那里使用 Codex——无论是让它审查你的代码,还是把任务交给 Codex 处理——你实际上可以使用那个插件。"
+ },
+ {
+  "seg": 31,
+  "start": 185.367,
+  "end": 189.769,
+  "speaker": "Unknown",
+  "en": "And it uses that same app server, that same harness behind the scenes.",
+  "zh": "而它在幕后使用的就是同一个 app server、同一个 harness。"
+ },
+ {
+  "seg": 32,
+  "start": 189.889,
+  "end": 192.291,
+  "speaker": "Unknown",
+  "en": "If you've looked into things like ACP,",
+  "zh": "如果你研究过类似 ACP 的东西,"
+ },
+ {
+  "seg": 33,
+  "start": 193.242,
+  "end": 195.364,
+  "speaker": "Unknown",
+  "en": "This should seem pretty familiar.",
+  "zh": "这应该看起来相当熟悉。"
+ },
+ {
+  "seg": 34,
+  "start": 195.445,
+  "end": 207.298,
+  "speaker": "Unknown",
+  "en": "At a high level, basically, the app server, the way it works is we're going to send messages between the client, which is the application you're building, and the server, which is the Codex app server, to perform different actions and receive events.",
+  "zh": "高层次上说,基本上,app server 的工作方式是:我们在客户端(也就是你正在构建的应用)和服务器(也就是 Codex app server)之间发送消息,以执行不同的操作并接收事件。"
+ },
+ {
+  "seg": 35,
+  "start": 208.159,
+  "end": 211.042,
+  "speaker": "Unknown",
+  "en": "But rather than showing you a bunch of hypothetical messages,",
+  "zh": "但与其给你们展示一堆假设性的消息,"
+ },
+ {
+  "seg": 36,
+  "start": 212.464,
+  "end": 222.332,
+  "speaker": "Unknown",
+  "en": "I went a bit overboard and actually built a little inspector that intercepts all of the events between the real Codex app and the Codex app server.",
+  "zh": "我做得有点过头了,实际构建了一个小型的检查器(inspector),它拦截真实的 Codex app 和 Codex app server 之间的所有事件。"
+ },
+ {
+  "seg": 37,
+  "start": 222.652,
+  "end": 225.074,
+  "speaker": "Unknown",
+  "en": "So we can look at some real events.",
+  "zh": "这样我们就可以看一些真实的事件了。"
+ },
+ {
+  "seg": 38,
+  "start": 225.154,
+  "end": 228.837,
+  "speaker": "Unknown",
+  "en": "Let me actually switch over here to the Codex app.",
+  "zh": "让我实际切换到这里的 Codex app。"
+ },
+ {
+  "seg": 39,
+  "start": 228.857,
+  "end": 234.741,
+  "speaker": "Unknown",
+  "en": "So I loaded up that same inspector in the in-app browser here of the Codex app.",
+  "zh": "我在 Codex app 这里的应用内浏览器中加载了同一个检查器。"
+ },
+ {
+  "seg": 40,
+  "start": 235.222,
+  "end": 236.343,
+  "speaker": "Unknown",
+  "en": "And so if we send a message,",
+  "zh": "所以如果我们发送一条消息,"
+ },
+ {
+  "seg": 41,
+  "start": 237.58,
+  "end": 239.981,
+  "speaker": "Unknown",
+  "en": "We're going to see here a bunch of different events coming in.",
+  "zh": "我们会在这里看到一堆不同的事件涌进来。"
+ },
+ {
+  "seg": 42,
+  "start": 240.981,
+  "end": 248.604,
+  "speaker": "Unknown",
+  "en": "This might seem daunting at first, but as you're sort of going through some of these messages, a lot of this should feel relatively familiar.",
+  "zh": "这乍一看可能令人生畏,但当你浏览这些消息时,其中很多应该会让你感到相对熟悉。"
+ },
+ {
+  "seg": 43,
+  "start": 249.184,
+  "end": 251.544,
+  "speaker": "Unknown",
+  "en": "So we can look through here.",
+  "zh": "所以我们可以在这里看看。"
+ },
+ {
+  "seg": 44,
+  "start": 252.385,
+  "end": 256.966,
+  "speaker": "Unknown",
+  "en": "Let me do this once more.",
+  "zh": "让我再做一次。"
+ },
+ {
+  "seg": 45,
+  "start": 258.187,
+  "end": 264.028,
+  "speaker": "Unknown",
+  "en": "I think I had some old ones buffered, so just going to start a new one.",
+  "zh": "我想我有一些旧的缓冲内容,所以我准备开始一个新的。"
+ },
+ {
+  "seg": 46,
+  "start": 268.124,
+  "end": 268.564,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 47,
+  "start": 270.165,
+  "end": 272.187,
+  "speaker": "Unknown",
+  "en": "Also, don't mind my Codex pad up here.",
+  "zh": "另外,别在意我上面的 Codex 记事本。"
+ },
+ {
+  "seg": 48,
+  "start": 274.048,
+  "end": 287.277,
+  "speaker": "Unknown",
+  "en": "But you're going to see different messages from threads being started with your different configurations of what is actually happening, what project are we working on, over to configuration reads.",
+  "zh": "但你会看到来自线程启动的不同消息,包含你的不同配置、实际正在发生什么、我们在做哪个项目,再到配置读取。"
+ },
+ {
+  "seg": 49,
+  "start": 289.278,
+  "end": 292.179,
+  "speaker": "Unknown",
+  "en": "Where is new threads being started?",
+  "zh": "新的线程是在哪里启动的?"
+ },
+ {
+  "seg": 50,
+  "start": 292.44,
+  "end": 297.502,
+  "speaker": "Unknown",
+  "en": "And then here's some of your delta messages of data actually being streamed in.",
+  "zh": "然后这里是一些数据实际被流入的 delta 消息。"
+ },
+ {
+  "seg": 51,
+  "start": 298.422,
+  "end": 301.844,
+  "speaker": "Unknown",
+  "en": "And so there's a lot of additional information that you can find here.",
+  "zh": "所以你可以在这里找到很多额外的信息。"
+ },
+ {
+  "seg": 52,
+  "start": 301.884,
+  "end": 304.645,
+  "speaker": "Unknown",
+  "en": "And one of the big things that makes this protocol so",
+  "zh": "让这个协议如此"
+ },
+ {
+  "seg": 53,
+  "start": 305.165,
+  "end": 319.637,
+  "speaker": "Unknown",
+  "en": "Flexible is that we're really exposing anything that is really in the app at key functionality, meaning if we're streaming and things, we're doing file search, all of that information is actually handed back and forth between the app server and the app.",
+  "zh": "灵活的一大要点是，我们实际上是在暴露应用中任何关键的功能，也就是说，如果我们在做流式传输、文件搜索等，所有这些信息实际上都会在应用服务器和应用之间来回传递。"
+ },
+ {
+  "seg": 54,
+  "start": 319.737,
+  "end": 327.224,
+  "speaker": "Unknown",
+  "en": "And so if you're building your own harness integration, your own client, you can actually leverage the same capabilities.",
+  "zh": "因此，如果你在构建自己的 harness 集成、自己的客户端，你实际上可以利用同样的能力。"
+ },
+ {
+  "seg": 55,
+  "start": 329.828,
+  "end": 338.899,
+  "speaker": "Unknown",
+  "en": "In fact, we have right now over 120 different client messages that we continuously add more to.",
+  "zh": "事实上，我们现在有超过 120 种不同的客户端消息，并且我们会持续添加更多。"
+ },
+ {
+  "seg": 56,
+  "start": 340.249,
+  "end": 368.973,
+  "speaker": "Unknown",
+  "en": "And this goes from everything from initialization, where you're able to configure some of the more specific things to your client over thread modifications and turns, which are sort of the things that you would assume are the most classic things, but also stuff like setting a goal if you want to implement your own version of goal mode, and listing plugins, doing all of the different other aspects that you might see in the app, all the way to things like file search and modifying the file system.",
+  "zh": "这涵盖了从初始化（你可以为你的客户端配置一些更具体的东西），到线程修改和回合（这些可以算是最经典的内容），还包括比如设置目标（如果你想实现自己版本的目标模式）、列出插件、执行你在应用中可能看到的各种其他操作，一直到文件搜索和修改文件系统。"
+ },
+ {
+  "seg": 57,
+  "start": 369.693,
+  "end": 371.815,
+  "speaker": "Unknown",
+  "en": "So you can really have that full access.",
+  "zh": "所以你可以真正获得完全的访问权限。"
+ },
+ {
+  "seg": 58,
+  "start": 372.255,
+  "end": 376.399,
+  "speaker": "Unknown",
+  "en": "We also try to make it easy so that you can configure the underlying agent.",
+  "zh": "我们也尽量让它变得简单，让你可以配置底层的智能体。"
+ },
+ {
+  "seg": 59,
+  "start": 376.499,
+  "end": 381.563,
+  "speaker": "Unknown",
+  "en": "And that's a bit different to ACP where it's a more generic protocol.",
+  "zh": "这和 ACP 有点不同，后者是一个更通用的协议。"
+ },
+ {
+  "seg": 60,
+  "start": 381.984,
+  "end": 386.467,
+  "speaker": "Unknown",
+  "en": "We can actually give you more control over the individual parts of the harness as well through the protocol.",
+  "zh": "我们实际上可以通过协议让你对 harness 的各个部分拥有更多控制权。"
+ },
+ {
+  "seg": 61,
+  "start": 386.828,
+  "end": 388.049,
+  "speaker": "Unknown",
+  "en": "And we'll look into that in a second.",
+  "zh": "我们稍后会看这一点。"
+ },
+ {
+  "seg": 62,
+  "start": 388.449,
+  "end": 404.686,
+  "speaker": "Unknown",
+  "en": "The other thing that's exciting for a lot of people is you can actually, if you're using this protocol, you can have sign in with ChatGPT as part of that, meaning that if someone is using your app, they can still bring their own ChatGPT subscription, and it goes off their Codex usage limits.",
+  "zh": "对很多人来说另一件令人兴奋的事情是，如果你使用这个协议，你实际上可以把“使用 ChatGPT 登录”作为其中的一部分，这意味着如果有人在用你的应用，他们仍然可以使用自己的 ChatGPT 订阅，并且会从他们的 Codex 使用额度中扣除。"
+ },
+ {
+  "seg": 63,
+  "start": 404.746,
+  "end": 408.47,
+  "speaker": "Unknown",
+  "en": "So if you've used something like T3 code or similar, you're actually using that.",
+  "zh": "所以如果你用过类似 T3 code 或类似的东西，你实际上已经在使用它了。"
+ },
+ {
+  "seg": 64,
+  "start": 410.437,
+  "end": 423.686,
+  "speaker": "Unknown",
+  "en": "In terms of customizing the agent, the biggest two things that you might want to look at if you're building on top of this app server is developer instructions as a way for you to augment the system instructions of the actual app.",
+  "zh": "在定制智能体方面，如果你在这个应用服务器之上构建，你可能最想看的两件事是开发者指令（作为增强实际应用的系统指令的一种方式），"
+ },
+ {
+  "seg": 65,
+  "start": 425.927,
+  "end": 427.447,
+  "speaker": "Unknown",
+  "en": "as well as bringing tools.",
+  "zh": "以及引入工具。"
+ },
+ {
+  "seg": 66,
+  "start": 427.727,
+  "end": 432.729,
+  "speaker": "Unknown",
+  "en": "So with developer instructions, we're actually appending on top of the system prompt of Codex.",
+  "zh": "对于开发者指令，我们实际上是在 Codex 的系统提示词之上追加内容。"
+ },
+ {
+  "seg": 67,
+  "start": 433.029,
+  "end": 435.449,
+  "speaker": "Unknown",
+  "en": "You can look at the actual system prompt of Codex as well.",
+  "zh": "你也可以查看 Codex 的实际系统提示词。"
+ },
+ {
+  "seg": 68,
+  "start": 435.469,
+  "end": 436.329,
+  "speaker": "Unknown",
+  "en": "It's in the repo.",
+  "zh": "它在代码仓库里。"
+ },
+ {
+  "seg": 69,
+  "start": 436.93,
+  "end": 440.87,
+  "speaker": "Unknown",
+  "en": "But we generally recommend that you actually append to that using the developer instructions.",
+  "zh": "但我们通常建议你使用开发者指令来追加内容。"
+ },
+ {
+  "seg": 70,
+  "start": 441.411,
+  "end": 451.353,
+  "speaker": "Unknown",
+  "en": "That way, you're still leveraging all of the work that we put into tweaking the prompts for the individual models while still customizing it for your specific use case of the harness.",
+  "zh": "这样，你仍然可以利用我们为各个模型调整提示词所做的工作，同时还能针对你的 harness 的具体用例进行定制。"
+ },
+ {
+  "seg": 71,
+  "start": 451.693,
+  "end": 462.879,
+  "speaker": "Unknown",
+  "en": "This is, for example, what we do when you load up the Codex app, since there's some functionality that is more specific for the app over the IDE extension or CLI, for example.",
+  "zh": "举个例子，这就是你加载 Codex 应用时我们所做的事情，因为相比 IDE 扩展或 CLI，有一些功能是应用更专属的。"
+ },
+ {
+  "seg": 72,
+  "start": 464.012,
+  "end": 472.115,
+  "speaker": "Unknown",
+  "en": "And then the other part of this is dynamic tools, where you can expose additional functions that you want the agent to be able to use.",
+  "zh": "然后另一部分是动态工具，你可以暴露你希望智能体能够使用的额外函数。"
+ },
+ {
+  "seg": 73,
+  "start": 472.515,
+  "end": 476.857,
+  "speaker": "Unknown",
+  "en": "You could use MCP or other things similar to what you would do in the agent client protocol.",
+  "zh": "你可以使用 MCP 或其他类似的东西，就像你在智能体客户端协议中所做的那样。"
+ },
+ {
+  "seg": 74,
+  "start": 477.457,
+  "end": 479.798,
+  "speaker": "Unknown",
+  "en": "But you can also just straight up define tools.",
+  "zh": "但你也可以直接定义工具。"
+ },
+ {
+  "seg": 75,
+  "start": 479.858,
+  "end": 485.66,
+  "speaker": "Unknown",
+  "en": "And you can actually mark them as deferred loading, which means that rather than injecting them into the system prompt,",
+  "zh": "而且你实际上可以把它们标记为延迟加载，这意味着不是把它们注入到系统提示词中，"
+ },
+ {
+  "seg": 76,
+  "start": 486.4,
+  "end": 498.993,
+  "speaker": "Unknown",
+  "en": "It allows Codex to use a tool search tool, which we'll cover more tomorrow in the other session, but it allows it to find these tools through tool search rather than polluting the overall context window.",
+  "zh": "而是让 Codex 使用一个工具搜索工具，我们明天会在另一个场次中讲更多，这让它可以通过工具搜索来找到这些工具，而不是污染整个上下文窗口。"
+ },
+ {
+  "seg": 77,
+  "start": 499.737,
+  "end": 506.739,
+  "speaker": "Unknown",
+  "en": "And then on top of that, you can even on a per-thread basis modify any other configuration that you might have for your agent.",
+  "zh": "除此之外，你甚至可以在每个线程的基础上修改你为智能体配置的任何其他内容。"
+ },
+ {
+  "seg": 78,
+  "start": 507.139,
+  "end": 519.883,
+  "speaker": "Unknown",
+  "en": "So think about setting a different model provider, choosing a different model, or even doing fine-grained control on the sandbox, like what network connections it should have access to or what files it can modify.",
+  "zh": "比如设置不同的模型提供商、选择不同的模型，甚至对沙箱进行细粒度控制，比如它应该能访问哪些网络连接、可以修改哪些文件。"
+ },
+ {
+  "seg": 79,
+  "start": 521.725,
+  "end": 530.255,
+  "speaker": "Unknown",
+  "en": "In terms of how you can actually use the app server, the first thing to know is that the app server actually comes as part of the Codex CLI.",
+  "zh": "关于你实际如何使用应用服务器，首先要知道的是应用服务器实际上是 Codex CLI 的一部分。"
+ },
+ {
+  "seg": 80,
+  "start": 530.315,
+  "end": 531.316,
+  "speaker": "Unknown",
+  "en": "It's the same binary.",
+  "zh": "它是同一个二进制文件。"
+ },
+ {
+  "seg": 81,
+  "start": 531.657,
+  "end": 537.944,
+  "speaker": "Unknown",
+  "en": "So if you have the Codex CLI already on your system, you can just use that to spin up the app server right now.",
+  "zh": "所以如果你的系统上已经有 Codex CLI，你现在就可以直接用它来启动应用服务器。"
+ },
+ {
+  "seg": 82,
+  "start": 539.17,
+  "end": 542.773,
+  "speaker": "Unknown",
+  "en": "But you can also look at how we're, for example, shipping it with the Codex app.",
+  "zh": "但你也可以看看我们是如何（比如）把它随 Codex 应用一起发布的。"
+ },
+ {
+  "seg": 83,
+  "start": 543.133,
+  "end": 547.296,
+  "speaker": "Unknown",
+  "en": "So the Codex app has the binary as part of the actual bundle.",
+  "zh": "Codex 应用把该二进制文件作为实际安装包的一部分。"
+ },
+ {
+  "seg": 84,
+  "start": 547.856,
+  "end": 552.179,
+  "speaker": "Unknown",
+  "en": "So if you're looking into your installed Codex app, you should find it in the contents of that bundle.",
+  "zh": "所以如果你查看你安装的 Codex 应用，你应该能在该安装包的内容中找到它。"
+ },
+ {
+  "seg": 85,
+  "start": 552.8,
+  "end": 556.443,
+  "speaker": "Unknown",
+  "en": "And it changes with every version of the app that you're updating.",
+  "zh": "而且它会随着你更新的每个应用版本而变化。"
+ },
+ {
+  "seg": 86,
+  "start": 556.483,
+  "end": 559.345,
+  "speaker": "Unknown",
+  "en": "We're shipping a new version of the CLI behind the scenes.",
+  "zh": "我们在后台发布了新版本的 CLI。"
+ },
+ {
+  "seg": 87,
+  "start": 560.005,
+  "end": 573.595,
+  "speaker": "Unknown",
+  "en": "On Windows, we actually ship with two versions of the binary, both the Linux compiled one and the Windows one, so that if you're loading the app in WSL mode, it uses the Linux one, and otherwise it starts up the app server in Windows native.",
+  "zh": "在 Windows 上，我们实际上附带两个版本的二进制文件，Linux 编译版和 Windows 版，这样如果你以 WSL 模式加载应用，它就使用 Linux 版，否则它以 Windows 原生方式启动应用服务器。"
+ },
+ {
+  "seg": 88,
+  "start": 576.214,
+  "end": 580.717,
+  "speaker": "Unknown",
+  "en": "From here, you actually have a lot of different additional convenience functionality.",
+  "zh": "从这里开始，你实际上有很多不同的额外便利功能。"
+ },
+ {
+  "seg": 89,
+  "start": 581.337,
+  "end": 594.448,
+  "speaker": "Unknown",
+  "en": "One, you can have Codex generate you for that particular version of the App Server, the TypeScript bindings, or the JSON schema, which is incredibly helpful since this protocol regularly changes between versions.",
+  "zh": "第一，你可以让 Codex 为那个特定版本的应用服务器生成 TypeScript 绑定或 JSON schema，这非常有用，因为这个协议在不同版本之间经常变化。"
+ },
+ {
+  "seg": 90,
+  "start": 594.968,
+  "end": 607.033,
+  "speaker": "Unknown",
+  "en": "Which is also why you actually want to bundle it with your application, which is what we're doing with the Codex app, so that you have full control over what are the actual capabilities of the version that you're expecting to build against.",
+  "zh": "这也是为什么你实际上会想把它与你的应用打包在一起，这就是我们对 Codex 应用所做的，这样你就可以完全控制你所期望构建的那个版本的实际能力。"
+ },
+ {
+  "seg": 91,
+  "start": 608.754,
+  "end": 616.397,
+  "speaker": "Unknown",
+  "en": "In terms of protocols, you can spin up the app server both using standard input-output, so STDIO, or you can use WebSockets.",
+  "zh": "在协议方面，你既可以使用标准输入输出来启动应用服务器，也就是 STDIO，也可以使用 WebSockets。"
+ },
+ {
+  "seg": 92,
+  "start": 616.877,
+  "end": 618.558,
+  "speaker": "Unknown",
+  "en": "It's going to depend on your use case.",
+  "zh": "这取决于你的用例。"
+ },
+ {
+  "seg": 93,
+  "start": 618.718,
+  "end": 622.979,
+  "speaker": "Unknown",
+  "en": "And honestly, the easiest way to figure out what works better for you is probably to just ask Codex.",
+  "zh": "说实话，弄清楚什么更适合你的最简单方法可能就是直接问 Codex。"
+ },
+ {
+  "seg": 94,
+  "start": 625.597,
+  "end": 630.519,
+  "speaker": "Unknown",
+  "en": "From here, there's two ways that you can integrate it most easily.",
+  "zh": "从这里开始，有两种最容易的集成方式。"
+ },
+ {
+  "seg": 95,
+  "start": 630.599,
+  "end": 633.721,
+  "speaker": "Unknown",
+  "en": "The first one is the Python SDK that we recently released.",
+  "zh": "第一种是我们最近发布的 Python SDK。"
+ },
+ {
+  "seg": 96,
+  "start": 634.361,
+  "end": 639.023,
+  "speaker": "Unknown",
+  "en": "It handles a lot of the lifecycle management for you, so you don't have to deal with any of that.",
+  "zh": "它为你处理了很多生命周期管理，所以你不用操心那些。"
+ },
+ {
+  "seg": 97,
+  "start": 639.404,
+  "end": 646.467,
+  "speaker": "Unknown",
+  "en": "And then on top of that, it makes it a bit easier for you to integrate things like sign in with ChatGPT and gives you a familiar interface.",
+  "zh": "除此之外，它让你更容易集成诸如使用 ChatGPT 登录之类的功能，并给你一个熟悉的接口。"
+ },
+ {
+  "seg": 98,
+  "start": 646.947,
+  "end": 654.392,
+  "speaker": "Unknown",
+  "en": "That being said, we are at an AI engineer conference, so probably most of you are going to choose option two, which is you just ask Codex.",
+  "zh": "话虽如此，我们在一个 AI 工程师大会上，所以你们中的大多数人可能会选择第二种方式，也就是直接问 Codex。"
+ },
+ {
+  "seg": 99,
+  "start": 654.852,
+  "end": 662.697,
+  "speaker": "Unknown",
+  "en": "So unsurprisingly, Codex is incredibly good at implementing this protocol, and you largely just have to point it at the documentation.",
+  "zh": "毫不意外，Codex 在实现这个协议方面非常擅长，你基本上只需要把它指向文档就行。"
+ },
+ {
+  "seg": 100,
+  "start": 662.997,
+  "end": 667.14,
+  "speaker": "Unknown",
+  "en": "In most cases, you don't even have to do that, but it sometimes helps it to nudge it.",
+  "zh": "在大多数情况下，你甚至不必那么做，但有时候这样做有助于推动它。"
+ },
+ {
+  "seg": 101,
+  "start": 668,
+  "end": 676.024,
+  "speaker": "Unknown",
+  "en": "And from here, you can combine it with any of our plugins like build macOS apps if you want to quickly spin up something or completely go wild.",
+  "zh": "从这里开始，你可以把它与我们任何插件结合使用，比如如果你想快速搭起点什么，可以用来构建 macOS 应用，或者完全放飞自我。"
+ },
+ {
+  "seg": 102,
+  "start": 676.104,
+  "end": 683.807,
+  "speaker": "Unknown",
+  "en": "I used it, for example, to build a client using Visual Basic to have a truly Windows native app.",
+  "zh": "举个例子，我用它构建了一个使用 Visual Basic 的客户端，做一个真正 Windows 原生的应用。"
+ },
+ {
+  "seg": 103,
+  "start": 684.027,
+  "end": 685.508,
+  "speaker": "Unknown",
+  "en": "And it did it largely in one shot.",
+  "zh": "而它基本上一次性就完成了。"
+ },
+ {
+  "seg": 104,
+  "start": 685.628,
+  "end": 694.592,
+  "speaker": "Unknown",
+  "en": "So you can build really impressive applications with this in a fairly short amount of time without you having to learn all the nitty-gritty parts of building an agent.",
+  "zh": "所以你可以在相当短的时间内用它构建出非常令人印象深刻的应用程序，而不用去学习构建智能体的所有琐碎细节。"
+ },
+ {
+  "seg": 105,
+  "start": 696.722,
+  "end": 704.647,
+  "speaker": "Unknown",
+  "en": "The most interesting thing for me with this app server, though, is that you're not limited to sort of the classic agent chat interface.",
+  "zh": "不过对我来说，这个 app server 最有趣的地方在于，你并不局限于那种经典的智能体聊天界面。"
+ },
+ {
+  "seg": 106,
+  "start": 704.687,
+  "end": 717.775,
+  "speaker": "Unknown",
+  "en": "You can really be creative, whether it's how you actually trigger it inside of your UI and your existing app, whether you're running it in the background, whether you put it on weird hardware like Maddie does all the time.",
+  "zh": "你可以真正发挥创造力，无论是你如何在 UI 和现有应用中实际触发它，是否在后台运行它，还是把它放到奇怪的硬件上，就像 Maddie 一直做的那样。"
+ },
+ {
+  "seg": 107,
+  "start": 719.015,
+  "end": 724.257,
+  "speaker": "Unknown",
+  "en": "Or if you're like me, you think about how can I shove this into video games.",
+  "zh": "或者如果你像我一样，你会想怎么把这东西塞进电子游戏里。"
+ },
+ {
+  "seg": 108,
+  "start": 724.617,
+  "end": 734.501,
+  "speaker": "Unknown",
+  "en": "And recently, I think like a month ago or so, I thought about how can I actually run Codex inside of Doom rather than running Doom inside of Codex.",
+  "zh": "最近，我想大概一个月前，我在想怎么能在 Doom 里面运行 Codex，而不是在 Codex 里面运行 Doom。"
+ },
+ {
+  "seg": 109,
+  "start": 734.941,
+  "end": 739.622,
+  "speaker": "Unknown",
+  "en": "And I figured let's actually do that live, and I'm going to dismiss a couple of messages here.",
+  "zh": "于是我想着干脆现场做一次吧，这里我要关掉几条消息。"
+ },
+ {
+  "seg": 110,
+  "start": 740.643,
+  "end": 747.165,
+  "speaker": "Unknown",
+  "en": "So I have this Codex app, Doom version, and I booted up in the wrong window, so let me pull that over.",
+  "zh": "我有这个 Codex 应用，Doom 版本，我在错误的窗口里启动了它，让我把它调过来。"
+ },
+ {
+  "seg": 111,
+  "start": 749.568,
+  "end": 749.988,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 112,
+  "start": 756.552,
+  "end": 759.294,
+  "speaker": "Unknown",
+  "en": "So this is, ah, it messed up the controls, my bad.",
+  "zh": "这个……啊，它把控制搞乱了，我的错。"
+ },
+ {
+  "seg": 113,
+  "start": 759.614,
+  "end": 760.035,
+  "speaker": "Unknown",
+  "en": "One sec.",
+  "zh": "稍等一下。"
+ },
+ {
+  "seg": 114,
+  "start": 760.755,
+  "end": 766.759,
+  "speaker": "Unknown",
+  "en": "Something with this dual monitor setup sometimes messes with the control capture.",
+  "zh": "这个双显示器设置有时候会干扰控制捕获。"
+ },
+ {
+  "seg": 115,
+  "start": 766.859,
+  "end": 771.822,
+  "speaker": "Unknown",
+  "en": "So let's hope that this works better now.",
+  "zh": "那我们希望现在能好一些。"
+ },
+ {
+  "seg": 116,
+  "start": 773.705,
+  "end": 773.845,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 117,
+  "start": 774.405,
+  "end": 780.309,
+  "speaker": "Unknown",
+  "en": "OK, so this is an Electron app that uses Cloudflare's Doom WASM renderer.",
+  "zh": "好，这是一个 Electron 应用，使用的是 Cloudflare 的 Doom WASM 渲染器。"
+ },
+ {
+  "seg": 118,
+  "start": 781.369,
+  "end": 793.356,
+  "speaker": "Unknown",
+  "en": "And so most of the game engine itself is implemented in C. And then it loads the free Doom game, except that I actually had Codex change the game files.",
+  "zh": "游戏引擎本身大部分是用 C 实现的，然后它加载免费的 Doom 游戏，只不过我实际让 Codex 修改了游戏文件。"
+ },
+ {
+  "seg": 119,
+  "start": 793.416,
+  "end": 798.559,
+  "speaker": "Unknown",
+  "en": "So you can see here, this is rendered natively in the video game using all of that game engine.",
+  "zh": "所以你可以看到，这是在电子游戏里用那个游戏引擎原生渲染出来的。"
+ },
+ {
+  "seg": 120,
+  "start": 799.559,
+  "end": 802.62,
+  "speaker": "Unknown",
+  "en": "And if we actually interact with it here, we're booting up Codex.",
+  "zh": "而如果我们在这里实际与它交互，我们正在启动 Codex。"
+ },
+ {
+  "seg": 121,
+  "start": 802.76,
+  "end": 814.303,
+  "speaker": "Unknown",
+  "en": "And again, this is rendered natively inside the actual video game and then passes it to the app server using Electron's IPC protocol.",
+  "zh": "再说一次，这是在实际电子游戏内部原生渲染的，然后通过 Electron 的 IPC 协议把它传给 app server。"
+ },
+ {
+  "seg": 122,
+  "start": 814.343,
+  "end": 819.164,
+  "speaker": "Unknown",
+  "en": "So if we say hello here, we can see Codex actually responding.",
+  "zh": "所以如果我们在这里说 hello，我们可以看到 Codex 实际在响应。"
+ },
+ {
+  "seg": 123,
+  "start": 819.224,
+  "end": 820.584,
+  "speaker": "Unknown",
+  "en": "So this is using 5.5.",
+  "zh": "这里用的是 5.5。"
+ },
+ {
+  "seg": 124,
+  "start": 821.244,
+  "end": 825.585,
+  "speaker": "Unknown",
+  "en": "The fun part, though, is you can actually use dynamic tools to expose additional functionality.",
+  "zh": "不过有趣的地方在于，你实际上可以用动态工具来暴露额外的功能。"
+ },
+ {
+  "seg": 125,
+  "start": 825.625,
+  "end": 827.706,
+  "speaker": "Unknown",
+  "en": "So naturally, we can get",
+  "zh": "所以很自然地，我们可以获取"
+ },
+ {
+  "seg": 126,
+  "start": 833.507,
+  "end": 845.616,
+  "speaker": "Unknown",
+  "en": "We can get all of the armor and health, and it's culling the tools, gives me all that, or even, say, like, all the weapons with all ammo.",
+  "zh": "我们可以获取所有的护甲和生命值，它在筛选工具，把这些都给我，甚至比如，所有武器带全部弹药。"
+ },
+ {
+  "seg": 127,
+  "start": 846.656,
+  "end": 848.217,
+  "speaker": "Unknown",
+  "en": "And it's culling all of the different tools.",
+  "zh": "而它在筛选所有这些不同的工具。"
+ },
+ {
+  "seg": 128,
+  "start": 849.218,
+  "end": 850.359,
+  "speaker": "Unknown",
+  "en": "And so it's interacting with that.",
+  "zh": "于是它在与那些东西交互。"
+ },
+ {
+  "seg": 129,
+  "start": 850.519,
+  "end": 854.302,
+  "speaker": "Unknown",
+  "en": "But again, remember, this is still an app server actually running on my machine.",
+  "zh": "但再次记住，这仍然是一个实际运行在我机器上的 app server。"
+ },
+ {
+  "seg": 130,
+  "start": 854.362,
+  "end": 855.342,
+  "speaker": "Unknown",
+  "en": "So if I say, like,",
+  "zh": "所以如果我说，比如，"
+ },
+ {
+  "seg": 131,
+  "start": 859.953,
+  "end": 860.754,
+  "speaker": "Unknown",
+  "en": "What's the directory?",
+  "zh": "当前目录是什么？"
+ },
+ {
+  "seg": 132,
+  "start": 860.814,
+  "end": 864.457,
+  "speaker": "Unknown",
+  "en": "It's actually calling ZShell, getting the current working directory.",
+  "zh": "它实际上在调用 ZShell，获取当前工作目录。"
+ },
+ {
+  "seg": 133,
+  "start": 864.477,
+  "end": 866.199,
+  "speaker": "Unknown",
+  "en": "And you can see here it's rendering.",
+  "zh": "你可以看到它正在渲染。"
+ },
+ {
+  "seg": 134,
+  "start": 866.579,
+  "end": 867.961,
+  "speaker": "Unknown",
+  "en": "It has its own workspace.",
+  "zh": "它有自己的工作区。"
+ },
+ {
+  "seg": 135,
+  "start": 867.981,
+  "end": 872.605,
+  "speaker": "Unknown",
+  "en": "So if you want, you can vibe code directly inside Doom.",
+  "zh": "所以如果你愿意，你可以直接在 Doom 里面进行 vibe coding。"
+ },
+ {
+  "seg": 136,
+  "start": 872.725,
+  "end": 874.046,
+  "speaker": "Unknown",
+  "en": "Not sure if I would recommend it.",
+  "zh": "不确定我是否会推荐这么做。"
+ },
+ {
+  "seg": 137,
+  "start": 874.347,
+  "end": 876.969,
+  "speaker": "Unknown",
+  "en": "I think the Codex app is slightly better for this.",
+  "zh": "我觉得做这件事 Codex 应用稍微好一点。"
+ },
+ {
+  "seg": 138,
+  "start": 877.53,
+  "end": 880.953,
+  "speaker": "Unknown",
+  "en": "But you can really have fun here and implement your own interface.",
+  "zh": "但你在这里真的可以玩得很开心，实现你自己的界面。"
+ },
+ {
+  "seg": 139,
+  "start": 883.058,
+  "end": 883.318,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 140,
+  "start": 884.139,
+  "end": 887.922,
+  "speaker": "Unknown",
+  "en": "I talked with a couple of you already during the show about the app server.",
+  "zh": "我在节目期间已经和你们中的一些人聊过 app server 了。"
+ },
+ {
+  "seg": 141,
+  "start": 888.442,
+  "end": 893.506,
+  "speaker": "Unknown",
+  "en": "And one question that came up a lot of times is, what's the difference with Codex Exec?",
+  "zh": "有一个问题被问了很多次，就是它和 Codex Exec 有什么区别？"
+ },
+ {
+  "seg": 142,
+  "start": 893.646,
+  "end": 897.469,
+  "speaker": "Unknown",
+  "en": "So if you've used the Codex CLI before, you might be familiar with this.",
+  "zh": "如果你以前用过 Codex CLI，你可能对它比较熟悉。"
+ },
+ {
+  "seg": 143,
+  "start": 897.509,
+  "end": 905.815,
+  "speaker": "Unknown",
+  "en": "There's another command called Codex Exec, which spins up a non-interactive interface for you to kick off tasks.",
+  "zh": "还有一个命令叫 Codex Exec，它会为你启动一个非交互式界面来启动任务。"
+ },
+ {
+  "seg": 144,
+  "start": 906.295,
+  "end": 908.356,
+  "speaker": "Unknown",
+  "en": "To Codex, this is great for scripting.",
+  "zh": "对 Codex 来说，这非常适合脚本化。"
+ },
+ {
+  "seg": 145,
+  "start": 908.496,
+  "end": 917.042,
+  "speaker": "Unknown",
+  "en": "If you're building a CI-CD implementation and you want to script certain acts like autofixing a PR, this is a great opportunity.",
+  "zh": "如果你在构建一个 CI-CD 实现，想把某些操作脚本化，比如自动修复 PR，这是一个很好的机会。"
+ },
+ {
+  "seg": 146,
+  "start": 918.043,
+  "end": 933.193,
+  "speaker": "Unknown",
+  "en": "But if you're trying to build a more comprehensive client where you're showing the agent or, more importantly, if you're trying to do something where you're spinning up a bunch of different Codex threads at the same time, for example, you're running",
+  "zh": "但如果你在尝试构建一个更完整的客户端来展示智能体，或者更重要的是，如果你在尝试做需要同时启动一堆不同 Codex 线程的事情，比如，你在运行"
+ },
+ {
+  "seg": 147,
+  "start": 935.173,
+  "end": 939.118,
+  "speaker": "Unknown",
+  "en": "You're running your own like eval harness or you want to use like slash goal.",
+  "zh": "你在运行自己的评估框架，或者你想使用 slash goal 之类的东西。"
+ },
+ {
+  "seg": 148,
+  "start": 939.458,
+  "end": 953.816,
+  "speaker": "Unknown",
+  "en": "That's where the app server really shines because you have that full control over the harness and you don't have to figure out your own way of parallelizing all of the Codex exec calls rather than just sending off a bunch of like new threat events and spinning off tasks that way.",
+  "zh": "那正是 app server 真正大放异彩的地方，因为你可以完全掌控那个框架，而不必自己想办法并行化所有的 Codex exec 调用，而只需发送一批类似新线程事件并以那种方式启动任务。"
+ },
+ {
+  "seg": 149,
+  "start": 956.155,
+  "end": 964.652,
+  "speaker": "Unknown",
+  "en": "Before I let you all go to the keynote, I have three more tips just to recap what we talked about, things that you should keep in mind if you're using the app server.",
+  "zh": "在让你们去 keynote 之前，我还有三个小技巧，来回顾一下我们聊过的内容，这些是你在使用 app server 时应该记住的。"
+ },
+ {
+  "seg": 150,
+  "start": 965.827,
+  "end": 968.789,
+  "speaker": "Unknown",
+  "en": "The first one is you should actually ship your own version of the harness.",
+  "zh": "第一个是,你应该真正发布你自己版本的 harness。"
+ },
+ {
+  "seg": 151,
+  "start": 969.65,
+  "end": 972.492,
+  "speaker": "Unknown",
+  "en": "This will eliminate so many headaches for you.",
+  "zh": "这会为你消除很多头疼的问题。"
+ },
+ {
+  "seg": 152,
+  "start": 972.653,
+  "end": 982.28,
+  "speaker": "Unknown",
+  "en": "If you're relying on the user's installed CLI, you're going to constantly run into things from breaking changes, even though we are trying to minimize them.",
+  "zh": "如果你依赖用户安装的 CLI,你会不断遇到各种破坏性变更带来的问题,即使我们正在努力尽量减少它们。"
+ },
+ {
+  "seg": 153,
+  "start": 982.3,
+  "end": 985.063,
+  "speaker": "Unknown",
+  "en": "But if you're relying on experimental features, that might happen.",
+  "zh": "但如果你依赖的是实验性功能,那这种情况就可能发生。"
+ },
+ {
+  "seg": 154,
+  "start": 985.883,
+  "end": 994.651,
+  "speaker": "Unknown",
+  "en": "But you also don't have to worry about whether a user has actually updated their version and has the latest feature that you want to use or have them nudge them updating it.",
+  "zh": "而且你也不必担心用户是否真的更新了他们的版本、是否拥有你想使用的最新功能,也不用去催促他们更新。"
+ },
+ {
+  "seg": 155,
+  "start": 995.371,
+  "end": 996.852,
+  "speaker": "Unknown",
+  "en": "So ship your own version of the harness.",
+  "zh": "所以,发布你自己版本的 harness。"
+ },
+ {
+  "seg": 156,
+  "start": 997.372,
+  "end": 1003.155,
+  "speaker": "Unknown",
+  "en": "The other part is you should absolutely expose new functions as part of your interface.",
+  "zh": "另一点是,你绝对应该把新函数作为你接口的一部分暴露出来。"
+ },
+ {
+  "seg": 157,
+  "start": 1003.175,
+  "end": 1013.06,
+  "speaker": "Unknown",
+  "en": "We do this with the Codex app, for example, for it to be able to control itself as part of the Codex thread, like spinning up automations, et cetera.",
+  "zh": "例如,我们在 Codex 应用中就这么做,让它能够在 Codex 线程中作为一部分控制自身,比如启动自动化任务等等。"
+ },
+ {
+  "seg": 158,
+  "start": 1013.6,
+  "end": 1014.741,
+  "speaker": "Unknown",
+  "en": "But mark them as deferred.",
+  "zh": "但要把它们标记为延迟(deferred)。"
+ },
+ {
+  "seg": 159,
+  "start": 1014.801,
+  "end": 1025.59,
+  "speaker": "Unknown",
+  "en": "That way you're not polluting the context window unnecessarily with all of the different additional functions that you're adding, and instead still have them available for the agent without necessarily confusing it.",
+  "zh": "这样你就不会用你添加的所有各种额外函数不必要地污染上下文窗口,同时智能体仍然可以使用它们,而不会让它感到困惑。"
+ },
+ {
+  "seg": 160,
+  "start": 1026.551,
+  "end": 1034.798,
+  "speaker": "Unknown",
+  "en": "And if you are changing the instructions, try to start with adding developer instructions rather than changing the base instructions.",
+  "zh": "而且如果你要修改指令,尽量先从添加开发者指令开始,而不是修改基础指令。"
+ },
+ {
+  "seg": 161,
+  "start": 1035.218,
+  "end": 1039.259,
+  "speaker": "Unknown",
+  "en": "It might feel like you want to immediately rush to, I'm going to write my own system prompt.",
+  "zh": "你可能感觉想立刻冲去做「我要写自己的系统提示词」。"
+ },
+ {
+  "seg": 162,
+  "start": 1039.659,
+  "end": 1049.062,
+  "speaker": "Unknown",
+  "en": "But there's a lot of different things that we constantly have to think about when we're building a harness to make sure that the actual prompt is in distribution and make sure that the agent performs well.",
+  "zh": "但我们在构建 harness 时,实际上要不断考虑很多不同的事情,以确保实际的提示词保持在分布之内,并确保智能体表现良好。"
+ },
+ {
+  "seg": 163,
+  "start": 1049.783,
+  "end": 1054.344,
+  "speaker": "Unknown",
+  "en": "And you're losing out on all of that if you're actually jumping in and writing your own system prompt.",
+  "zh": "而如果你真的跳进去写自己的系统提示词,你就会失去所有这些。"
+ },
+ {
+  "seg": 164,
+  "start": 1054.364,
+  "end": 1056.685,
+  "speaker": "Unknown",
+  "en": "So be careful there if you're doing that.",
+  "zh": "所以如果你要那么做,请务必小心。"
+ },
+ {
+  "seg": 165,
+  "start": 1057.545,
+  "end": 1058.886,
+  "speaker": "Unknown",
+  "en": "With that, thank you so much.",
+  "zh": "就说到这里,非常感谢大家。"
+ },
+ {
+  "seg": 166,
+  "start": 1059.266,
+  "end": 1060.147,
+  "speaker": "Unknown",
+  "en": "Thanks for taking your time.",
+  "zh": "感谢你们抽出时间。"
+ },
+ {
+  "seg": 167,
+  "start": 1060.607,
+  "end": 1069.014,
+  "speaker": "Unknown",
+  "en": "Feel free to scan that QR code if you want to have the slides, and I'll be around for the next 15 minutes at the OpenAI booth if you want to ask me any questions there.",
+  "zh": "如果你想要幻灯片,欢迎扫描那个二维码,接下来的 15 分钟我会在 OpenAI 展位,如果你想向我提问,可以来那边找我。"
+ },
+ {
+  "seg": 168,
+  "start": 1069.414,
+  "end": 1069.954,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ }
+]

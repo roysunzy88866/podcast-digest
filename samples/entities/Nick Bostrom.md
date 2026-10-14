@@ -70,11 +70,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]] [[Kevin Mandia]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":37,"对齐":25,"超级智能":12,"暂停":2,"Alex":6,"生存风险":5,"OpenAI":201,"工具性趋同":1,"Anthropic":203,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":38,"对齐":25,"超级智能":12,"暂停":2,"Alex":6,"生存风险":5,"OpenAI":203,"工具性趋同":1,"Anthropic":204,"强化学习":1}</script>
 
 <script>
 (function(){

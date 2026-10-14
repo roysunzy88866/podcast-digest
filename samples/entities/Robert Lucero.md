@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":501,"沙箱":98,"护栏":90,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":1,"沙箱":99,"护栏":90,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

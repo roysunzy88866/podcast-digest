@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Uber":19,"Uber One":1,"自主性":10,"智能体":501,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Uber":19,"Uber One":1,"自主性":10,"智能体":1,"IGB":1,"可变成本模式":1,"分发":7,"Growth Bets":1,"managed transaction":1}</script>
 
 <script>
 (function(){

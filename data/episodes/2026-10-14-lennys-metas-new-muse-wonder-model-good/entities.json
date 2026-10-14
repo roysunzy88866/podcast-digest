@@ -1,0 +1,566 @@
+{
+  "episode_id": "2026-10-14-lennys-metas-new-muse-wonder-model-good",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-10-14",
+  "tags": [
+    "模型评测",
+    "智能体",
+    "AI 编程",
+    "前端与设计",
+    "Meta"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.213,
+            2.8640000000000003
+          ],
+          "quote": "I'm Claire Vo,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集评测对象所属公司:Meta 发布了新的前沿智能模型家族 Muse Wonder,主打个人和专业场景的智能体工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            7.618,
+            11.221
+          ],
+          "quote": "Today, I'm reviewing Meta's new frontier intelligence model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            293.024,
+            297.426
+          ],
+          "quote": "get access to the meta model APIs and download Muse code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            311.165,
+            314.991
+          ],
+          "quote": " Which you can sign up for at developer.meta.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            976.693,
+            982.315
+          ],
+          "quote": "I just got a lot more errors in front-end coding with Meta Muse Wonder than I have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1378.9,
+            1383.383
+          ],
+          "quote": "So that is my first look at the Meta Muse Wonderful model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "muse-wonder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Muse Wonder",
+      "file": "Muse Wonder",
+      "primary": true,
+      "how_described": "本集主角:Meta 新发布的前沿模型家族(分 Wonder 和 Wonderful 两版),官方与 Fable、GPT-6 Astra、Claude Opus 5.5 同级;Claire 实测后结论是智能体任务全场最佳、后端代码够用,但前端代码错误多、设计品味差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            11.662,
+            16.026
+          ],
+          "quote": "Muse Wonder, which comes in two versions, Wonder and Wonderful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            89.643,
+            92.23400000000001
+          ],
+          "quote": "Muse Wonder is their new family of frontier models",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            176.954,
+            178.196
+          ],
+          "quote": " On to Muse Wonder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            181.942,
+            185.297
+          ],
+          "quote": "what they're calling frontier capabilities that make Muse Wonder",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            864.677,
+            866.8436666666666
+          ],
+          "quote": "Muse Wonder might be the thing for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            976.693,
+            982.315
+          ],
+          "quote": "I just got a lot more errors in front-end coding with Meta Muse Wonder than I have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1077.138,
+            1083.146
+          ],
+          "quote": "And so I don't I would not reach for Muse Wonder on front end web design.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1368.292,
+            1371.534
+          ],
+          "quote": "But I am going to take Muse Wonder and see if I can put it in the loop of",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "muse-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Muse Code",
+      "file": "Muse Code",
+      "primary": true,
+      "how_described": "本集说它是使用 Muse Wonder 时必须下载的编程工具,需订阅 Muse 才能获取模型 API;Claire 称其体验『非常令人无感』,实际是让 Claude Code 接上它无头运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            281.177,
+            284.639
+          ],
+          "quote": " It is that you have to download Muse code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            284.659,
+            287.991
+          ],
+          "quote": "I mean, I guess you don't technically have to download Muse code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            293.024,
+            297.426
+          ],
+          "quote": "get access to the meta model APIs and download Muse code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            304.93,
+            309.533
+          ],
+          "quote": "So if you want to know how I actually tested this, I did sign up for Muse code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-5-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Opus 5.5",
+      "file": "Claude Opus 5.5",
+      "primary": true,
+      "how_described": "本集反复作为参照模型:Claire 的日常主力之一,创意、设计和视频任务上『目前市面上最好的』;Muse Wonder 的前端和创意就是拿它来对比并落败的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            101.014,
+            107.601
+          ],
+          "quote": "they're really putting it in the class of Fable, GPT-6 Astra, and Claude Opus 5.5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-work",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic work)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:Muse Wonder 在账单工单、客户回复、收件箱分诊、长期研究四个智能体任务上全是她的心头好,『它在智能体工作方面是最强的』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            95.763,
+            97.176
+          ],
+          "quote": "and professional agentic work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            423.713,
+            428.636
+          ],
+          "quote": "I group things by prototype, agentic work, coding work, writing work, and creative work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            481.324,
+            484.828
+          ],
+          "quote": "It is the best at agentic work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1335.287,
+            1339.05
+          ],
+          "quote": "In conclusion, it was really strong at agentic work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "active-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "主动记忆 (active memory)",
+      "file": "主动记忆",
+      "primary": true,
+      "how_described": "本集说这是 Meta 宣称的前沿能力之一:在对话之间携带关于你的重要上下文,在记忆的使用和创建上超越其他模型,对个人智能体很关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            211.792,
+            215.274
+          ],
+          "quote": "The other two are these ideas of what they call active memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "active-focus",
+      "type": "concept",
+      "role": "concept",
+      "name": "主动专注 (active focus)",
+      "file": "主动专注",
+      "primary": true,
+      "how_described": "本集说这是 Meta 宣称的另一种前沿能力:模型朝有挑战性的目标反复尝试不同做法;Claire 的基准测试显示它在长时间运行的任务上确实胜过了其他模型,也可能解释了长任务耗时偏长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            241.866,
+            243.64377777777779
+          ],
+          "quote": "and they call this active focus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            244.126,
+            247.107
+          ],
+          "quote": "And so when Newswonder goes into active focus,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            255.449,
+            257.63
+          ],
+          "quote": "We did see active focus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            263.13,
+            267.352
+          ],
+          "quote": "So our bench is showing that this active focus investment",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": false,
+      "how_described": "本集在账单工单测试里故意在指令中埋了一个提示词注入任务,Muse Wonder 顶住了并拿到全场最佳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 217,
+          "t": [
+            740.53,
+            744.152
+          ],
+          "quote": "And there's a prompt injection task in the instructions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-as-a-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 作为裁判 (LLM as a judge)",
+      "file": "LLM 作为裁判",
+      "primary": false,
+      "how_described": "本集说她的评测方法:先由一个 LLM 当裁判给各模型打分排名,她再用语音笔记亲自补充评判,最后汇总成报告。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            388.469,
+            393.815
+          ],
+          "quote": "And then a judge, a LLM as a judge, judge them, and then I judge them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            429.17,
+            431.992
+          ],
+          "quote": " And then we have an LLM as a judge, judge them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            440.696,
+            445.699
+          ],
+          "quote": "The LLM as a judge ranks them and then puts them together in a presentation,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            702.386,
+            706.749
+          ],
+          "quote": "I judged those designs much more harshly than our LLM as a judge did,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": false,
+      "how_described": "本集说 PRD 写作是基准测试任务之一:Muse 写得短、照了模板,但格式乱、细节少,不如其他模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            376.423,
+            378.47855555555554
+          ],
+          "quote": "That's everything from writing a PRD,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            379.924,
+            381.585
+          ],
+          "quote": "to redesigning the chat PRD site,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            620.607,
+            626.431
+          ],
+          "quote": " With AI, a single PM can summarize research, draft a PRD, and build a working prototype.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            880.931,
+            882.653
+          ],
+          "quote": "It was a short PRD, which I love.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1140.861,
+            1141.861
+          ],
+          "quote": "It's a little PRD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1289.993,
+            1296.236
+          ],
+          "quote": "And so notes to PRD, very fast, drawing characters, doing prototypes, very fast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sonnet",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sonnet",
+      "file": "Sonnet",
+      "primary": false,
+      "how_described": "本集说 Sonnet 在语音助手测试上一直霸榜,而 Muse 的语音表现几乎和它不相上下。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            689.937,
+            694.961
+          ],
+          "quote": "So I actually liked it almost as much as I liked Sonnet for voice.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            844.36,
+            846.5266666666666
+          ],
+          "quote": "So this one is the one that Sonnet has.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            848.763,
+            852.316
+          ],
+          "quote": "And I think Muse is like right up there with Sonnet Performance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": false,
+      "how_described": "本集说 Claire 的 ChatPRD 网站刚被 Opus 5.5 漂亮改版,而 Muse 的重设计把图片做坏、不遵守品牌设计规范,是它最糟糕的表现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1030.049,
+            1034.211
+          ],
+          "quote": "And the worst thing it did was the ChatPRD website,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Claude Code",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

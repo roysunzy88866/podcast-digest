@@ -97,11 +97,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Box":5,"智能体":501,"开放权重":9,"推理":99,"Sofia Puccini":4,"应用层":4,"Martin Casado":7,"Theo Jaffe":8,"LLM 套壳":1,"Steven Sinofsky":4}</script>
+<script type="application/json" class="pd-epn">{"Box":5,"智能体":1,"开放权重":9,"推理":100,"Sofia Puccini":4,"应用层":4,"Martin Casado":7,"Theo Jaffe":8,"LLM 套壳":1,"Steven Sinofsky":4}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Al Gore]] · [[Lila Preston]] · [[Connie Loizis]] · [[Anthropic]] · [[OpenAI]] · [[Pivot Bio]] · [[Gridware]] · [[IFS]] · [[数据中心]] · [[前沿模型]]
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Connie Loizis":1,"Anthropic":203,"OpenAI":201,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":27}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Connie Loizis":1,"Anthropic":204,"OpenAI":203,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":28}</script>
 
 <script>
 (function(){

@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Arise":1,"语音智能体":2,"OpenInference":1,"OTEL":2,"trace":7,"评估":1,"延迟":8,"智能体":501}</script>
+<script type="application/json" class="pd-epn">{"Arise":1,"语音智能体":2,"OpenInference":1,"OTEL":2,"trace":7,"评估":1,"延迟":8,"智能体":1}</script>
 
 <script>
 (function(){

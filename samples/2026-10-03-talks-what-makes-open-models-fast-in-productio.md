@@ -165,8 +165,8 @@ Suji 最后提醒：
 **换个口味**
 
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|AI基建狂潮比你想的更大，而且还没到头]]<span class="pd-rz">同公司:Nebius、NVIDIA · 同概念:推理 (inference)</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、微调 (fine-tuning)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)</span>
-- [[2026-05-07-talks-inside-china-s-ai-labs-with-interconnect|走进中国 AI 实验室：他们比你想的更普通，也更专注]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)</span>
 
 </div>
 </div>

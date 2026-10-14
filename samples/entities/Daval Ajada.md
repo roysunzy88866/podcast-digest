@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":6,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":501,"推理":99}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":7,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":1,"推理":100}</script>
 
 <script>
 (function(){

@@ -212,7 +212,7 @@ Goodfire 自己推出了研究智能体 [[Silico|Silico]],Bigelow 的 Forking Fa
 
 - [[2026-09-03-unsupervised-ep-93-ceo-of-redwood-research-buck-shleg|AI 密谋黑掉 Hugging Face：Redwood CEO 复盘智能体叛乱始末]]<span class="pd-rz">同概念:RL、思维链 (chain of thought)</span>
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同概念:奖励作弊 (reward hacking)、可解释性 (interpretability)</span>
-- [[2026-07-14-a16z-is-ai-a-bubble-gavin-baker-on-data-cente|没有暗GPU:一位基金经理拆解AI泡沫论与棋局]]<span class="pd-rz">同概念:RL</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同概念:开源模型 (open source models)、奖励作弊 (reward hacking)</span>
 
 </div>
 </div>

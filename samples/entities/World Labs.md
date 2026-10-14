@@ -33,7 +33,7 @@ unlisted: true
 
 [[Marble]] · [[世界模型]] · [[空间智能]] · [[Justin Johnson]] · [[Waymo]] · [[模拟]] · [[智能体]] · [[Atlas]] · [[强化学习]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Marble":5,"世界模型":15,"空间智能":3,"Justin Johnson":3,"Waymo":21,"模拟":1,"智能体":501,"Atlas":5,"强化学习":1,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"Marble":5,"世界模型":15,"空间智能":3,"Justin Johnson":3,"Waymo":21,"模拟":1,"智能体":1,"Atlas":5,"强化学习":1,"Lenny":69}</script>
 
 <script>
 (function(){

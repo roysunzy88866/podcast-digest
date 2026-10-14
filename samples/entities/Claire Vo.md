@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire Vo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire Vo">CL</div><div class="pi"><h1 class="pt">Claire Vo</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>14</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire Vo">CL</div><div class="pi"><h1 class="pt">Claire Vo</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>7</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*14 条*
+*16 条*
 
 ![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q1]]
 
@@ -41,9 +41,13 @@ unlisted: true
 
 ![[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl#^q4]]
 
+![[2026-10-14-lennys-metas-new-muse-wonder-model-good#^q1]]
+
+![[2026-10-14-lennys-metas-new-muse-wonder-model-good#^q2]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为联合主持
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为主持
@@ -51,14 +55,15 @@ unlisted: true
 - [[2026-09-14-howiai-how-grok-bot-designers-use-ai-agents-to|《GrokBot 设计团队演示:让 AI 替你离开电脑》]] — 作为主持
 - [[2026-09-21-howiai-how-warp-ships-2-000-prs-a-month-with-ai|《Warp CEO 的软件工厂：2000 个 PR 一个月，人成了瓶颈》]] — 作为联合主持
 - [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]] — 作为主持
+- [[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[Slack]] · [[OpenClaw]] · [[Codex]] · [[Figma]] · [[ChatGPT]] · [[Lenny]] · [[Eddie Kim]] · [[Daniel Blum]]
+[[智能体]] · [[Claude Code]] · [[Slack]] · [[OpenClaw]] · [[Codex]] · [[Figma]] · [[LLM 当裁判]] · [[Meta]] · [[提示词注入]] · [[ChatPRD]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"Claude Code":111,"Slack":34,"OpenClaw":24,"Codex":88,"Figma":23,"ChatGPT":112,"Lenny":69,"Eddie Kim":1,"Daniel Blum":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":113,"Slack":34,"OpenClaw":24,"Codex":89,"Figma":23,"LLM 当裁判":11,"Meta":55,"提示词注入":1,"ChatPRD":7}</script>
 
 <script>
 (function(){

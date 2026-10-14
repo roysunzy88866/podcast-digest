@@ -26,7 +26,7 @@ unlisted: true
 
 [[Claude]] · [[Tom Verrilli]] · [[Lon Harris]] · [[Lenny]] · [[Justin Kan]] · [[Whatnot]] · [[Alex Wilhelm]] · [[Twitter]] · [[Jason Calacanis]] · [[Anthropic]]
 
-<script type="application/json" class="pd-epn">{"Claude":97,"Tom Verrilli":1,"Lon Harris":3,"Lenny":69,"Justin Kan":1,"Whatnot":4,"Alex Wilhelm":1,"Twitter":7,"Jason Calacanis":1,"Anthropic":203}</script>
+<script type="application/json" class="pd-epn">{"Claude":97,"Tom Verrilli":1,"Lon Harris":3,"Lenny":69,"Justin Kan":1,"Whatnot":4,"Alex Wilhelm":1,"Twitter":7,"Jason Calacanis":1,"Anthropic":204}</script>
 
 <script>
 (function(){

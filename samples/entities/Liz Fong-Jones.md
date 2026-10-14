@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":17,"Autobot":1,"Anthropic":203,"Claude":97,"代码审查":24,"股权占比":4,"可观测性":46}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":17,"Autobot":1,"Anthropic":204,"Claude":97,"代码审查":24,"股权占比":4,"可观测性":46}</script>
 
 <script>
 (function(){

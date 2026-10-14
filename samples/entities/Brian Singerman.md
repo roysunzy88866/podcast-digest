@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":2,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":14,"Oculus":2,"OpenAI":201,"Anthropic":203,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":2,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":14,"Oculus":2,"OpenAI":203,"Anthropic":204,"Cognition":27}</script>
 
 <script>
 (function(){

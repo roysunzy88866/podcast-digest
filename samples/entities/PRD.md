@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(01:48起):本集把它说成:过去产品经理用来传达产品诉求的文档,详细规定产品各种情况下的运作方式和用户价值,但在 Gen AI 时代因为产品能做的事太多、难以用文字描述,其核心职能被评估取代。
 - **[[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]]**(00:48起):本集重新定义 AI 时代的 PRD:不再是 Amazon 式的把关长文档,而是一到两页、用来触发构思和解决问题的工具,定义客户问题、列方案选项、给一段示例用户旅程
 - **[[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]]**(14:06起):本集通过给三份 PRD 现场打分，示范 2026 年 PRD 不再是终点：要有原型、有客户证据、认可环节大大推后
+- **[[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]]**(06:16起):本集说 PRD 写作是基准测试任务之一:Muse 写得短、照了模板,但格式乱、细节少,不如其他模型。
 
 ## ① 提到它的金句
 
@@ -28,7 +29,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|《PM的生存法则：AI时代别当瓶颈，去抢活干》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
@@ -38,14 +39,15 @@ unlisted: true
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为概念
 - [[2026-09-14-pg-together-ai-product-team|《Together AI 产品团队全公开：一套仓库让 PM 下指令就出生产级 PR》]] — 作为概念
 - [[2026-09-24-pg-zapier-ai-fluency-rubric-for-pms|《AI 熟练度怎么打分:Zapier CEO Wade Foster 的评分标尺》]] — 作为概念
+- [[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[原型]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[主观能动性]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[原型]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"Lenny":69,"Anthropic":203,"原型":8,"评估":1,"OpenAI":201,"Codex":88,"Claude Code":111,"MCP":94,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":69,"Anthropic":204,"原型":8,"评估":1,"OpenAI":203,"Codex":89,"Claude Code":113,"MCP":95,"Meta":55}</script>
 
 <script>
 (function(){

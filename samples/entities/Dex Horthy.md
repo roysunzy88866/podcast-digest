@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":501,"上下文工程":18,"代码审查":24,"Claude":97,"Simon Mayfor":2,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"上下文工程":18,"代码审查":24,"Claude":97,"Simon Mayfor":2,"HumanLayer":1,"软件工厂":1,"Slop Code Bench":1,"规范":2,"暗工厂":4}</script>
 
 <script>
 (function(){

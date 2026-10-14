@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Astra]] · [[Tibo Sottiaux]] · [[Google]] · [[护栏]] · [[Amazon]] · [[Ultrafast]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":201,"智能体":501,"ChatGPT":112,"Codex":88,"Astra":8,"Tibo Sottiaux":3,"Google":72,"护栏":90,"Amazon":33,"Ultrafast":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":203,"智能体":1,"ChatGPT":112,"Codex":89,"Astra":8,"Tibo Sottiaux":3,"Google":72,"护栏":90,"Amazon":33,"Ultrafast":2}</script>
 
 <script>
 (function(){

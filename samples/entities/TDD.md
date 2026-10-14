@@ -36,7 +36,7 @@ unlisted: true
 
 [[智能体]] · [[护栏]] · [[Lada Kesseler]] · [[Eyal Blum]] · [[Robert Lucero]] · [[Brian Hook]] · [[智能体编码]] · [[Figma]] · [[Brian Houck]] · [[Moritz Beller]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"护栏":90,"Lada Kesseler":1,"Eyal Blum":1,"Robert Lucero":1,"Brian Hook":1,"智能体编码":4,"Figma":23,"Brian Houck":1,"Moritz Beller":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"护栏":90,"Lada Kesseler":1,"Eyal Blum":1,"Robert Lucero":1,"Brian Hook":1,"智能体编码":4,"Figma":23,"Brian Houck":1,"Moritz Beller":1}</script>
 
 <script>
 (function(){

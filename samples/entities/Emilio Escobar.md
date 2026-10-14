@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"Datadog":8,"Cursor":86,"GitHub":35,"Bloomberg":3,"智能体":501,"沙箱":98,"泄露的凭证":5,"权限":1,"数据仓库":4}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"Datadog":8,"Cursor":87,"GitHub":35,"Bloomberg":3,"智能体":1,"沙箱":99,"泄露的凭证":5,"权限":1,"数据仓库":4}</script>
 
 <script>
 (function(){

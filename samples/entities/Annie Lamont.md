@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":34,"大型语言模型":6,"智能体":501,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
+<script type="application/json" class="pd-epn">{"Oaks HCFT":1,"AI":34,"大型语言模型":6,"智能体":1,"强化学习环境":1,"Devoted":1,"CHI":2,"Halluminate":1,"Augur":1,"CareBridge":1}</script>
 
 <script>
 (function(){

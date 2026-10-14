@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chapter One":1,"Tinder":2,"Zarly":1,"Sequoia":7,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":3,"命中率":1,"投资组合构建":2}</script>
+<script type="application/json" class="pd-epn">{"Chapter One":1,"Tinder":2,"Zarly":1,"Sequoia":7,"Erebor":1,"Paradigm":1,"种子轮":1,"转型":4,"命中率":1,"投资组合构建":2}</script>
 
 <script>
 (function(){

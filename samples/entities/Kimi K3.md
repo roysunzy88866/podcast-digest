@@ -30,7 +30,7 @@ unlisted: true
 
 [[蒸馏]] · [[Anthropic]] · [[OpenAI]] · [[Theo Jaffe]] · [[Sofia Puccini]] · [[智能体]] · [[Sriram Krishnan]] · [[Lon Harris]] · [[Aaron Levie]] · [[Goodfire]]
 
-<script type="application/json" class="pd-epn">{"蒸馏":1,"Anthropic":203,"OpenAI":201,"Theo Jaffe":8,"Sofia Puccini":4,"智能体":501,"Sriram Krishnan":1,"Lon Harris":3,"Aaron Levie":3,"Goodfire":1}</script>
+<script type="application/json" class="pd-epn">{"蒸馏":1,"Anthropic":204,"OpenAI":203,"Theo Jaffe":8,"Sofia Puccini":4,"智能体":1,"Sriram Krishnan":1,"Lon Harris":3,"Aaron Levie":3,"Goodfire":1}</script>
 
 <script>
 (function(){

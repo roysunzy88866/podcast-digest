@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Google DeepMind":10,"不确定性":2,"贝叶斯规则":1,"大语言模型":11,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":9}</script>
+<script type="application/json" class="pd-epn">{"Google DeepMind":10,"不确定性":2,"贝叶斯规则":1,"大语言模型":11,"语义熵":1,"GenCast":1,"AlphaFold":2,"持续学习":1,"灾难性遗忘":3,"Transformer":10}</script>
 
 <script>
 (function(){

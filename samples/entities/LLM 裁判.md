@@ -35,7 +35,7 @@ unlisted: true
 
 [[评估]] · [[智能体]] · [[Meta]] · [[Daniel McKinnon]] · [[Alex]] · [[Doug Guthrie]] · [[Akash]] · [[Campbell Brown]] · [[Braintrust]] · [[PRD]]
 
-<script type="application/json" class="pd-epn">{"评估":1,"智能体":501,"Meta":53,"Daniel McKinnon":1,"Alex":6,"Doug Guthrie":1,"Akash":4,"Campbell Brown":1,"Braintrust":5,"PRD":8}</script>
+<script type="application/json" class="pd-epn">{"评估":1,"智能体":1,"Meta":55,"Daniel McKinnon":1,"Alex":6,"Doug Guthrie":1,"Akash":4,"Campbell Brown":1,"Braintrust":5,"PRD":9}</script>
 
 <script>
 (function(){

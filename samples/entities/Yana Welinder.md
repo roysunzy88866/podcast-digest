@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yanabana":1,"Codex":88,"ChatGPT":112,"Stripe":48,"GitHub":35,"Vercel":20,"Superhuman":5,"智能体":501,"计算机使用":22}</script>
+<script type="application/json" class="pd-epn">{"Claire Veva":1,"Yanabana":1,"Codex":89,"ChatGPT":112,"Stripe":48,"GitHub":35,"Vercel":20,"Superhuman":5,"智能体":1,"计算机使用":22}</script>
 
 <script>
 (function(){

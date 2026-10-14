@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":48,"Google":72,"GitHub":35,"Slack":34,"Claude":97,"go-to-market":14,"智能体":501,"产品市场契合":31}</script>
+<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":48,"Google":72,"GitHub":35,"Slack":34,"Claude":97,"go-to-market":14,"智能体":1,"产品市场契合":31}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":501,"Claude Code":111,"Codex":88,"Cursor":86,"vibe coding":50}</script>
+<script type="application/json" class="pd-epn">{"compound engineering":2,"Compound Engineering Plugin":1,"Cora":2,"Every":4,"智能体":1,"Claude Code":113,"Codex":89,"Cursor":87,"vibe coding":51}</script>
 
 <script>
 (function(){

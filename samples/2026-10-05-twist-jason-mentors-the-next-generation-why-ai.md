@@ -250,7 +250,7 @@ Sean 自己毕业于拉斯维加斯一所经费严重不足的公立学校，对
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:OpenAI · 同概念:后训练 (post-training)</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)</span>
 
 </div>
 <div class="pd-ex">

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Max Freeman":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"Inspect":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":501}</script>
+<script type="application/json" class="pd-epn">{"Max Freeman":1,"Ramp":12,"OATS":1,"Ramp Revenue":1,"Inspect":1,"SDR":2,"外呼开发":3,"配额":1,"智能体":1}</script>
 
 <script>
 (function(){

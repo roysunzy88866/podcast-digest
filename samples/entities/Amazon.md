@@ -100,7 +100,7 @@ unlisted: true
 
 [[OpenAI]] · [[Google]] · [[Anthropic]] · [[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[NVIDIA]] · [[Meta]] · [[Shopify]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":201,"Google":72,"Anthropic":203,"智能体":501,"Microsoft":32,"ChatGPT":112,"NVIDIA":70,"Meta":53,"Shopify":17,"Apple":27}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":203,"Google":72,"Anthropic":204,"智能体":1,"Microsoft":32,"ChatGPT":112,"NVIDIA":71,"Meta":55,"Shopify":17,"Apple":27}</script>
 
 <script>
 (function(){

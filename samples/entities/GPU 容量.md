@@ -65,9 +65,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Julian]] · [[Base 10]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[分布式推理]] · [[Cursor]] · [[Decagon]]
+[[Julian]] · [[Base 10]] · [[推理]] · [[专用推理]] · [[开源模型]] · [[后训练]] · [[持续学习]] · [[分布式推理]] · [[推理模型]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":2,"推理":99,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"分布式推理":1,"Cursor":86,"Decagon":9}</script>
+<script type="application/json" class="pd-epn">{"Julian":1,"Base 10":2,"推理":100,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"分布式推理":1,"推理模型":2,"Cursor":87}</script>
 
 <script>
 (function(){

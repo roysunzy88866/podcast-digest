@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":70,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":99,"内存带宽":2,"ASIC":2}</script>
+<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":71,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":100,"内存带宽":2,"ASIC":2}</script>
 
 <script>
 (function(){

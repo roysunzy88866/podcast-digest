@@ -1,0 +1,257 @@
+{
+  "title_zh": "投资Hugging Face的人怎么看AI创业",
+  "tldr": "Hugging Face最早的投资人 Matt Hartman 讲述当年押注一家青少年聊天机器人的逻辑，以及他今天看好的AI方向。",
+  "digest_md": "Matt Hartman 在 Betaworks 做合伙人时，给一家巴黎的小公司开出了第一张支票。那家公司叫 Hugging Face,上个月刚被 NVIDIA 以 130 亿美元收购。2023 年他出来创办了自己的基金 Factorial Capital。这次访谈里，他讲了自己怎么找项目、怎么判断创始人，以及为什么他仍然自己动手写代码、做产品。访谈人是 Every 的 AI 咨询负责人 Natalia Quintero。\n\n## 为什么会给一个“青少年聊天机器人”投钱\n\nHugging Face 今天是最大的AI开发者社区，有人叫它“AI 界的 GitHub”,尤其以开源模型闻名。但 2015 年它刚起步时，只是一个给青少年玩的聊天机器人应用。\n\nMatt 说，当年的判断来自一篇论文。论文提出把词变成数字向量：比如“国王”和“王后”在空间里各占一个位置，从国王指向王后的那个箭头，挪到“王子”旁边，就指向“公主”。巴黎指向法国，罗马就指向意大利。\n\n> 【背景】这里提到的论文即 Mikolov 等人 2013 年提出的 Word2Vec。\n\n这意味着词第一次可以带着语义进入神经网络。Betaworks 团队判断“对话式软件”会有机会，于是去找那些和他们在同一方向上划船的团队，而不是追热点的转型公司。\n\n## 真正的成功，是敢于承认数据不好看\n\n回头看，Hugging Face 做对了上千个决定。Matt 挑了三个关键的。\n\n第一，诚实面对留存。聊天机器人应用很多人用，但留存很差。很多团队今天会用任何好看的数据去融资，而 Hugging Face 对自己说：“什么是真正有效的，什么是真正无效的。”Transformer 论文出来后，他们迅速把它转成 PyTorch 开源，在 GitHub 上走红，顺势变成了模型社区。[08:41 Unknown]\n\n第二，把模型权重从 GitHub 搬到自己的 Hub,给研究者一个更结构化的家。第三，**坚持开源不动摇，但对模型的种类保持灵活**——从语言模型扩展到视频、机器人、生物、天气模型。\n\n## 找项目的秘诀：盯住“新近变得可编程的东西”\n\nMatt 的投资主题不是看市场报告，而是动手。他称之为寻找“新近在技术上成为可能的东西”——有时是自己折腾，有时是读论文，有时是发现某个聪明人在研究一个让他意外的方向。\n\n创办 Factorial 前，他到处问人：==大语言模型能用，那非语言的行不行==？天气模型、物理模型呢？Transformer 擅长预测序列中的下一项，那还有什么序列值得预测？沿着这条线，他投了机器人和科学模型方向的公司。\n\nAnchor 的故事更能说明他的路数。2014 年他在等咖啡，看着手机上各个应用在争抢他的注意力——发短信、邮件、Snapchat。戴上耳机后发现：没有人在竞争他的耳朵。他找了一年，遇到 Anchor 团队。这个团队后来成了最流行的播客制作工具，最初是个音频社交网络——又一次成功的转向。\n\n## 判断创始人：看“转向脚”踩在哪里\n\nMatt 假设每家早期公司都会转向，就像篮球里的中枢脚：一只脚不动，另一只可以随便转。==问题是，那只不动的脚踩在哪==。\n\n如果投的是懂房地产的高管去做房地产AI,他们的转向大概率被锁死在房地产里。而技术团队的转向脚踩在技术上——因为某个行业的数据形状独特而来，失败了可以换到汽车行业去 [20:50 Unknown]。他投过的最成功公司，转向脚几乎都踩在技术上。\n\n他还看重“挣来的洞察”:世界上有多少人处于能发现你这个发现的位置？只有10个人知道，你就领先；人人都看得见，竞争就激烈。\n\n## 自己会写代码的投资人，提问方式不一样\n\nMatt 的信条是：要投软件，就得懂软件怎么工作。他举了个例子：同样用本地AI模型，问“我怎么做这个东西”的人，和问“这些模型跑在不同机器上，怎么针对我这台的内存限制做优化”的人，做出来的产品完全不同 [19:15 Unknown]。\n\n他不是只说说。今年他用 Claude Code 加上一个叫 Superpowers 的技能，给自己做了个语音转文字工具 Ghost Pepper,在本地跑、零推理成本，开源后冲上了 Hacker News 第一名，拿到超过 3000 个 GitHub 星标，数千人在用。\n\n但这个过程也给了他一课：自己随手做的东西，得自己维护。他说自己由此对 SaaS 产品有了新的尊重——**你付的钱，买的就是对方持续把它保持在最佳状态** [37:31 Unknown]。主持人 Quintero 也分享了类似经历：她给自己做过客户管理工具，用几个月后发现维护时间太多，最后把数据迁到了专门做这事的产品 Atio 里。\n\n## AI 时代最值钱的能力：从用户行为里提炼产品洞察\n\nMatt 现在的核心判断是：如果写代码变快了，原来两个月一轮的迭代，现在两天就能完成，那么**能观察用户、提炼洞察、快速改进产品的能力，价值会指数级上升** [29:19 Unknown]。这个能力叫工程师还是产品经理不重要。\n\n证据是速度：Hugging Face 走了10年才到今天，而 Modal、Factory AI 这样的新公司只用了几年。迭代周期被压缩，成长就复利式加快。\n\n当然，分发比以往任何时候都重要——东西越好做，噪音就越多。\n\n## 他现在看好的四个方向\n\n一是基础设施和开发者工具，尤其是帮你维护代码的产品——新的开发者人群，需要新工具。二是非语言的前沿模型：机器人的一次动作，本质上就是一串带位置信息的时间序列，Transformer 可能改变机器人训练方式；他还对科学模型着迷，提到 Hugging Face 正在办一场罕见病黑客马拉松，开源了一个仅约50人患病的孩子的基因组，除诊断赛道外还有老药新用赛道。三是应用层，但他认为赢家会是能“全栈打穿”的技术团队——就像 Instagram 把照片切成正方形，不是为了好看，而是省去了问服务器该横屏还是竖屏的那一毫秒。四是玩：**最好的创始人在“玩”这些工具**，像早期互联网时代一样，在玩的过程中发现缺口再解决它 [44:45 Unknown]。\n\n> 【背景】Betaworks 是纽约的早期投资机构；Anchor 是播客制作工具，后被 Spotify 收购。文中 Factory、Modal、Patronus、Gnomic 均为 Factorial 投资组合里的公司。\n\n## 本集带走\n\n- Hugging Face 的起点是一个留存不佳的聊天机器人，敢承认数据不好看、果断转向开源，才有了今天的130亿美元收购。\n- 投早期公司要假设它会转向：技术出身的团队转向自由度远大于单一行业背景的团队。\n- AI 让编码变快，迭代周期从两个月缩到两天，“从用户行为提炼产品洞察”成了指数级增值的能力。\n- 自己动手做产品(Ghost Pepper)让 Matt 学到：随手做的东西也要维护，这正是 SaaS 收费的合理性。\n- 找方向的方法是盯住“新近变得可编程的领域”：机器人、科学模型、老药新用，都还是未被充分开垦的地。",
+  "quotes": [
+    {
+      "en": "To us, it seems pretty clear that Muse is benchmarked, which means they trained it to look really good on public benchmarks, but those gains don't necessarily translate into your everyday work.",
+      "zh": "在我们看来，很明显 Muse 是被基准测试刷出来的，也就是说他们训练它让它在公开基准测试上看起来非常好看，但这些提升不一定能转化到你的日常工作中。",
+      "timestamp": "00:36",
+      "speaker": ""
+    },
+    {
+      "en": "Gemini 4 is one of those models where I saw the benchmarks and I was like, this is also really benchmark maxed, but it's good.",
+      "zh": "Gemini 4 是那种我一看基准测试就说“这个也是刷基准刷出来的”的模型，但它确实好。",
+      "timestamp": "01:31",
+      "speaker": ""
+    },
+    {
+      "en": "The answer is it cheated.",
+      "zh": "答案是：它作弊了。",
+      "timestamp": "02:42",
+      "speaker": ""
+    },
+    {
+      "en": "The teams that are actually really doing well are ones that have a software development experience or are thinking about them as a software problem, not necessarily as a hardware problem in robotics.",
+      "zh": "真正做得好的团队，是那些拥有软件开发体验的团队，或者把机器人当作软件问题而不是硬件问题来思考的团队。",
+      "timestamp": "17:39",
+      "speaker": ""
+    },
+    {
+      "en": "I think someone had said that Tesla is an iPhone on wheels.",
+      "zh": "我记得有人说过，Tesla 是轮子上的 iPhone。",
+      "timestamp": "17:50",
+      "speaker": ""
+    },
+    {
+      "en": "The companies that have been most successful that I've been involved with are ones where the pivot foot was about the technology, not about necessarily market understanding of a particular vertical.",
+      "zh": "我参与过的最成功的公司，都是那种转向的支点在技术上，而不一定是对某个垂直市场的理解上的公司。",
+      "timestamp": "20:50",
+      "speaker": ""
+    },
+    {
+      "en": "So there was, instead of partnering as one person, it's almost like I'm partnering with every technical founder I've ever met.",
+      "zh": "所以，不是以一个人的身份去做合伙，几乎就像我在与我见过的每一个技术创始人合伙。",
+      "timestamp": "22:53",
+      "speaker": ""
+    },
+    {
+      "en": "The ability to synthesize how a user is using your product and then to improve it, I think has got to be exponentially more valuable.",
+      "zh": "综合分析用户如何使用你的产品然后加以改进的能力，我认为价值必然是指数级更高的。",
+      "timestamp": "30:21",
+      "speaker": ""
+    },
+    {
+      "en": "There's a whole bunch of noise, and the easier it is to build, the more noise there is.",
+      "zh": "噪音一大堆，构建越容易，噪音就越多。",
+      "timestamp": "30:39",
+      "speaker": ""
+    },
+    {
+      "en": "And in a way, what you're paying for is them making sure it stays a great product.",
+      "zh": "从某种意义上说，你付的钱买的是他们确保产品始终保持优秀。",
+      "timestamp": "37:39",
+      "speaker": ""
+    },
+    {
+      "en": "the best people that I've seen building things are like playing.",
+      "zh": "我见过的最优秀做事的人都在玩。",
+      "timestamp": "44:45",
+      "speaker": ""
+    },
+    {
+      "en": "I'm surprised at all the companies that aren't being built.",
+      "zh": "我很惊讶有那么多公司还没被做出来。",
+      "timestamp": "46:36",
+      "speaker": ""
+    },
+    {
+      "en": "There's never been a time where there's more newly possible stuff every week.",
+      "zh": "从来没有哪个时期能像现在这样，每周都有这么多新可能的东西。",
+      "timestamp": "47:52",
+      "speaker": ""
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:36",
+      "speaker": "Unknown",
+      "en": "To us, it seems pretty clear that Muse is benchmarked, which means they trained it to look really good on public benchmarks, but those gains don't necessarily translate into your everyday work.",
+      "zh": "在我们看来，很明显 Muse 是被基准测试刷出来的，也就是说他们训练它让它在公开基准测试上看起来非常好看，但这些提升不一定能转化到你的日常工作中。"
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Unknown",
+      "en": "It buries the lead in the stuff that it writes.",
+      "zh": "它写的东西里要点被埋没了。"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Unknown",
+      "en": "Gemini 4 is one of those models where I saw the benchmarks and I was like, this is also really benchmark maxed, but it's good.",
+      "zh": "Gemini 4 是那种我一看基准测试就说“这个也是刷基准刷出来的”的模型，但它确实好。"
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Unknown",
+      "en": "And I think it probably made me two times more productive, like truly a game changing model for writing coding.",
+      "zh": "我觉得它可能让我的生产力翻了一倍，真的是一款改变游戏的写作、编程模型。"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Unknown",
+      "en": "The answer is it cheated.",
+      "zh": "答案是：它作弊了。"
+    },
+    {
+      "timestamp": "08:54",
+      "speaker": "Unknown",
+      "en": "They were very honest with themselves about those metrics.",
+      "zh": "他们对这些指标对自己非常坦诚。"
+    },
+    {
+      "timestamp": "13:21",
+      "speaker": "Unknown",
+      "en": "I think my goal is to find the newly technically possible.",
+      "zh": "我认为我的目标是找到「新技术上变得可能的东西」。"
+    },
+    {
+      "timestamp": "14:31",
+      "speaker": "Unknown",
+      "en": "And often there's sort of a thesis that's 20 degrees off.",
+      "zh": "而且往往存在一个偏离 20 度的论点。"
+    },
+    {
+      "timestamp": "17:39",
+      "speaker": "Unknown",
+      "en": "The teams that are actually really doing well are ones that have a software development experience or are thinking about them as a software problem, not necessarily as a hardware problem in robotics.",
+      "zh": "真正做得好的团队，是那些拥有软件开发体验的团队，或者把机器人当作软件问题而不是硬件问题来思考的团队。"
+    },
+    {
+      "timestamp": "17:50",
+      "speaker": "Unknown",
+      "en": "I think someone had said that Tesla is an iPhone on wheels.",
+      "zh": "我记得有人说过，Tesla 是轮子上的 iPhone。"
+    },
+    {
+      "timestamp": "19:55",
+      "speaker": "Unknown",
+      "en": "But when I'm thinking about it at the very early stage, I always assume that the company is going to pivot.",
+      "zh": "但当我在非常早期阶段思考这个问题时，我总是假设这家公司会转向。"
+    },
+    {
+      "timestamp": "20:50",
+      "speaker": "Unknown",
+      "en": "The companies that have been most successful that I've been involved with are ones where the pivot foot was about the technology, not about necessarily market understanding of a particular vertical.",
+      "zh": "我参与过的最成功的公司，都是那种转向的支点在技术上，而不一定是对某个垂直市场的理解上的公司。"
+    },
+    {
+      "timestamp": "23:01",
+      "speaker": "Unknown",
+      "en": "So there was, instead of partnering as one person, it's almost like I'm partnering with every technical founder I've ever met.",
+      "zh": "所以，不是以一个人的身份去做合伙，几乎就像我在与我见过的每一个技术创始人合伙。"
+    },
+    {
+      "timestamp": "24:19",
+      "speaker": "Unknown",
+      "en": "And, and so we end up, I don't know whether it's a flywheel or a family tree, but it's kind of a, a deep network of technical people.",
+      "zh": "而且我们最终——我不知道这是一台飞轮还是一棵家谱树，但它有点像一个技术人的深度网络。"
+    },
+    {
+      "timestamp": "30:21",
+      "speaker": "Unknown",
+      "en": "The ability to synthesize how a user is using your product and then to improve it, I think has got to be exponentially more valuable.",
+      "zh": "综合分析用户如何使用你的产品然后加以改进的能力，我认为价值必然是指数级更高的。"
+    },
+    {
+      "timestamp": "30:31",
+      "speaker": "Unknown",
+      "en": "It was already the most valuable thing, is my guess, and now it is exponentially the most valuable thing.",
+      "zh": "我猜它本来就是最有价值的东西，而现在它是最有价值的东西的程度是指数级的。"
+    },
+    {
+      "timestamp": "30:39",
+      "speaker": "Unknown",
+      "en": "There's a whole bunch of noise, and the easier it is to build, the more noise there is.",
+      "zh": "噪音一大堆，构建越容易，噪音就越多。"
+    },
+    {
+      "timestamp": "31:41",
+      "speaker": "Unknown",
+      "en": "So usually I'm trying to understand what is their insight.",
+      "zh": "所以通常我是在试图理解他们的洞见是什么。"
+    },
+    {
+      "timestamp": "31:57",
+      "speaker": "Unknown",
+      "en": "and then to execute it on it.",
+      "zh": "然后在此基础上执行。"
+    },
+    {
+      "timestamp": "31:50",
+      "speaker": "Unknown",
+      "en": "It's like what is the – I think about that as how many people were in a position to learn the thing that you did.",
+      "zh": "就像什么——我是这样想的：有多少人处在能学到你所学到的东西的位置上。"
+    },
+    {
+      "timestamp": "37:26",
+      "speaker": "Unknown",
+      "en": "The other thing I learned was when you just vibe code something for yourself, you have to maintain it.",
+      "zh": "我学到的另一件事是，当你只是为自己 vibe code 一个东西时，你得去维护它。"
+    },
+    {
+      "timestamp": "37:39",
+      "speaker": "Unknown",
+      "en": "And in a way, what you're paying for is them making sure it stays a great product.",
+      "zh": "从某种意义上说，你付的钱买的是他们确保产品始终保持优秀。"
+    },
+    {
+      "timestamp": "42:45",
+      "speaker": "Unknown",
+      "en": "What was not obvious is that the load time mattered.",
+      "zh": "不明显的是加载时间很重要。"
+    },
+    {
+      "timestamp": "44:49",
+      "speaker": "Unknown",
+      "en": "We are in an era that reminds me of early internet.",
+      "zh": "我们正处于一个让我想起早期互联网的时代。"
+    },
+    {
+      "timestamp": "44:45",
+      "speaker": "Unknown",
+      "en": "the best people that I've seen building things are like playing.",
+      "zh": "我见过的最优秀做事的人都在玩。"
+    },
+    {
+      "timestamp": "46:36",
+      "speaker": "Unknown",
+      "en": "I'm surprised at all the companies that aren't being built.",
+      "zh": "我很惊讶有那么多公司还没被做出来。"
+    },
+    {
+      "timestamp": "46:52",
+      "speaker": "Unknown",
+      "en": "I think we're in that right now, where everyone, even the people, it seems like even people building these AI models are still sort of exploring what they can do.",
+      "zh": "我想我们现在正处于那种状态，每个人，甚至看起来连构建这些 AI 模型的人，都还在摸索它们能做什么。"
+    },
+    {
+      "timestamp": "47:52",
+      "speaker": "Unknown",
+      "en": "There's never been a time where there's more newly possible stuff every week.",
+      "zh": "从来没有哪个时期能像现在这样，每周都有这么多新可能的东西。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Matt Hartman。当年在纽约一家叫 Betaworks 的早期投资机构做合伙人，2015 年给一家巴黎的小公司开出了第一张支票，那家公司叫 Hugging Face,上个月刚被 NVIDIA 以 130 亿美元收购。2023 年出来创办了自己的基金 Factorial Capital。这一期访谈，聊的就是这么一个人怎么看 AI 创业：当年怎么找到 Hugging Face 的，今天又在看什么方向。访谈人是 Every 的 AI 咨询负责人 Natalia Quintero。\n\n先说说当年那笔投资是怎么回事。Hugging Face 今天是最大的 AI 开发者社区，有人叫它 AI 界的 GitHub,尤其以开源模型闻名。但 2015 年刚起步时，它只是一个给青少年玩的聊天机器人应用。听起来风马牛不相及，那为什么投？Matt 说，当年的判断来自一篇论文。那篇论文提出把词变成数字向量——比如国王和王后在空间里各占一个位置，从国王指向王后的那个箭头，挪到王子旁边，就指向公主；巴黎指向法国，罗马就指向意大利。这意味着词第一次可以带着语义进入神经网络。Betaworks 团队据此判断，对话式软件会有机会，于是去找那些和他们在同一方向上划船的团队，而不是追热点的转型公司。\n\n回头看，Hugging Face 做对了上千个决定，Matt 挑了三个关键的。第一，诚实面对留存。聊天机器人应用很多人用，但留存很差。很多团队今天会用任何好看的数据去融资，而 Hugging Face 对自己说，什么是真正有效的，什么是真正无效的。Transformer 论文出来后，迅速把它转成 PyTorch 开源，在 GitHub 上走红，顺势变成了模型社区。第二，把模型权重从 GitHub 搬到自己的 Hub,给研究者一个更结构化的家。第三，坚持开源不动摇，但对模型的种类保持灵活——从语言模型扩展到视频、机器人、生物、天气模型。你看，起点是一个数据不好看的聊天机器人，敢承认数据不行、果断转向，才有了后来的 130 亿。\n\n那 Matt 自己是怎么找项目的？秘诀不是看市场报告，而是动手——寻找新近在技术上成为可能的东西。有时自己折腾，有时读论文，有时是发现某个聪明人在研究一个让人意外的方向。创办 Factorial 前，到处问人：大语言模型能用，那非语言的行不行？天气模型、物理模型呢？Transformer 擅长预测序列中的下一项，那还有什么序列值得预测？沿着这条线，投了机器人和科学模型方向的公司。还有个故事更说明路数。2014 年，在等咖啡的时候，看着手机上各个应用在争抢注意力——发短信、邮件、Snapchat。戴上耳机后发现：没有人在竞争耳朵。为这个想法找了一年，遇到 Anchor 团队。这个团队后来成了最流行的播客制作工具，最初是个音频社交网络——又一次成功的转向。\n\n这就引出 Matt 判断创始人的方法了。既然像 Anchor、Hugging Face 这样的公司都转向过，那不如假设每家早期公司都会转向。就像篮球里的中枢脚：一只脚不动，另一只可以随便转。问题是，那只不动的脚踩在哪。如果投的是一个懂房地产的高管去做房地产 AI,转向大概率被锁死在房地产里。而技术团队的转向脚踩在技术上——因为某个行业的数据形状独特而来，失败了可以换到汽车行业去。有句话值得记住：我参与过的最成功的公司，都是那种转向的支点在技术上，而不一定是对某个垂直市场的理解上的公司。除此之外，还看重挣来的洞察：世界上有多少人处于能发现你这个发现的位置？只有十个人知道，你就领先；人人都看得见，竞争就激烈。\n\nMatt 还是个信条很硬的人：要投软件，就得懂软件怎么工作。而且不是只说说——今年用 Claude Code 加上一个叫 Superpowers 的技能，给自己做了个语音转文字工具 Ghost Pepper,在本地跑、零推理成本，开源后冲上了 Hacker News 第一名，拿到超过三千个 GitHub 星标，数千人在用。但这个过程也给了自己一课：随手做的东西，得自己维护。由此对 SaaS 产品有了新的尊重——你付的钱，买的就是对方持续把它保持在最佳状态。主持人 Quintero 也有类似经历：给自己做过客户管理工具，用几个月后发现维护时间太多，最后把数据迁到了专门做这事的产品 Atio 里。\n\n那 Matt 现在最看好什么？核心判断是：如果写代码变快了，原来两个月一轮的迭代现在两天就能完成，那么能观察用户、提炼洞察、快速改进产品的能力，价值会指数级上升。这个能力叫工程师还是产品经理不重要。证据是速度：Hugging Face 走了十年才到今天，而 Modal、Factory AI 这样的新公司只用了几年——迭代周期被压缩，成长就复利式加快。当然，东西越好做，噪音就越多，分发比以往任何时候都重要。具体到方向，有四个：一是基础设施和开发者工具，尤其是帮你维护代码的产品；二是非语言的前沿模型，机器人的一次动作本质上就是一串带位置信息的时间序列，Transformer 可能改变机器人训练方式，还有科学模型——Hugging Face 正在办一场罕见病黑客马拉松，开源了一个仅约五十人患病的孩子的基因组，除了诊断赛道还有老药新用赛道；三是应用层，但赢家会是能全栈打穿的技术团队，就像 Instagram 把照片切成正方形，不是为了好看，而是省去了问服务器该横屏还是竖屏的那一毫秒；四是玩——最好的创始人在玩这些工具，像早期互联网时代一样，在玩的过程中发现缺口再解决它。\n\n回过头看这一集，其实就一句话：真正的好机会，留给那些盯着新近变得可编程的东西、并且敢承认数据不好看的人。"
+}

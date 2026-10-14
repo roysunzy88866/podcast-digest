@@ -1,0 +1,131 @@
+{
+  "title_zh": "把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」",
+  "tldr": "OpenAI 开发者体验工程师 Dominik Kundel 讲解如何基于开源的 Codex harness 和 app server 协议，快速搭建自己的智能体客户端。",
+  "digest_md": "Dominik Kundel 在 OpenAI 负责 Codex 的开发者体验。这场 18 分钟的演讲讲了一件事：Codex 的底层 harness 和包装它的 app server 协议都已开源，任何人都可以在它之上构建自己的智能体界面——哪怕是在电子游戏里。\n\n## 什么是 Codex 的 app server？\n\napp server 是一个包装 Codex harness 的协议，思路类似 agent client protocol（ACP）：**你写的应用作为客户端，通过消息和 Codex 服务端交互，发送指令、接收事件**。OpenAI 自己的 Codex 应用、VS Code 扩展等第一方界面都跑在它上面，第三方的 Xcode、JetBrains 集成，以及 Theo 的 T3 Code、RemoteX 等开源项目也一样 [02:32 Unknown]。甚至有人用它做了个插件，让你在 Claude Code 里调用 Codex。\n\n关键信息：harness 和 app server 都是开源的，Apache 2 许可，可以随意复刻修改，还能接到任何兼容 responses API 的模型上，包括 LM Studio 或 Olama 这类本地方案。\n\n## 事件一大堆，但都很实在\n\nKundel 现场演示了一个自制的事件查看器，截获真实 Codex 应用和 app server 之间的全部通信。你会看到线程启动、配置读取、流式返回的数据增量等一连串事件，乍看吓人，其实大部分含义直白。\n\n目前协议有超过 120 种客户端消息，还在持续增加：初始化、线程管理、设置目标、列插件、文件搜索、修改文件系统，全都可以调用 [05:40 Unknown]。而且它比 ACP 更深入——不只是通用协议，还能通过协议细粒度配置底层智能体本身。用户还能用自己的 ChatGPT 订阅登录，消耗自己的 Codex 额度。\n\n## 想定制智能体？两件武器\n\n一是开发者指令（developer instructions）：在 Codex 的系统提示词后面追加内容，而不是重写。官方推荐这么做，因为原本的提示词针对各个模型做过大量调优，自己另起炉灶会丢掉这些积累 [07:21 Unknown]。\n\n二是动态工具：你可以直接定义新函数给智能体用，还能标记为延迟加载——不塞进系统提示词占上下文，而是让 Codex 需要时通过工具搜索去找到它们 [08:06 Unknown]。每个线程还能单独改配置，换模型、换服务商，甚至精细控制沙箱能访问哪些网络连接和文件。\n\n## 真没必要自己从头学\n\n用起来出乎意料地简单。app server 就打包在 Codex CLI 里，同一个二进制文件，装了 CLI 就能直接启动。可以让 Codex 帮你生成特定版本的 TypeScript 绑定或 JSON schema。官方还新出了 Python SDK，替你处理生命周期管理。\n\n不过 Kundel 打趣说，在场都是 AI 工程师，多数人大概会选第二条路：直接让 Codex 自己写。它实现这个协议非常拿手，指个文档方向就行。他自己就用这个方法让 Codex 用 Visual Basic 写了个 Windows 原生客户端，基本一次成型 [11:25 Unknown]。\n\n## 在《毁灭战士》里写代码\n\n最放飞的部分：Kundel 没有把《毁灭战士》塞进 Codex，而是反过来，**把 Codex 塞进了《毁灭战士》**。他用 Electron 和 Cloudflare 的 Doom WASM 渲染器搭了个应用，Codex 的界面直接渲染在游戏画面里，通过 Electron 的进程间通信连到 app server [13:22 Unknown]。\n\n在游戏里跟 Codex 打招呼，它会回话；用动态工具给它开挂——满血满甲、全武器无限弹药，一喊就调；问它当前目录，它真的去调 ZShell 查工作目录。「可以直接在《毁灭战士》里凭感觉写代码了。不过我不太推荐，还是 Codex 应用更好用。」[14:27 Unknown]\n\n## 和 Codex Exec 有什么区别？\n\nCodex Exec 是 CLI 里另一个命令，起一个非交互式界面跑任务，适合脚本化场景，比如在持续集成里自动修复 PR [15:06 Unknown]。但如果你要做一个完整的客户端、展示智能体状态，或者同时开很多 Codex 线程（比如跑自己的评测），**app server 才是正解**——你完全掌控 harness，不用自己琢磨怎么并行一堆 exec 调用。\n\n## 本集带走\n\n- Codex harness 和 app server 协议都开源（Apache 2），可复刻、可接其他模型。\n- 超过 120 种客户端消息，从线程管理到沙箱控制都能调，支持用户自带 ChatGPT 订阅。\n- 定制用开发者指令追加系统提示词，别急着重写；自定义工具标记延迟加载，别污染上下文窗口。\n- 应用要自带一份 harness 二进制，别依赖用户装的 CLI 版本，省去大量兼容麻烦。\n- 界面不必是聊天框：智能体可以塞进游戏、后台任务或任何奇怪的地方。",
+  "quotes": [
+    {
+      "en": "I thought about how can I actually run Codex inside of Doom rather than running Doom inside of Codex.",
+      "zh": "我在想怎么能在 Doom 里面运行 Codex，而不是在 Codex 里面运行 Doom。",
+      "timestamp": "12:08",
+      "speaker": "Dominik Kundel"
+    },
+    {
+      "en": "The first one is you should actually ship your own version of the harness.",
+      "zh": "第一个是，你应该真正发布你自己版本的 harness。",
+      "timestamp": "16:05",
+      "speaker": "Dominik Kundel"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:14",
+      "speaker": "Unknown",
+      "en": "The app server is actually the protocol that wraps the Codex harness.",
+      "zh": "App server 实际上是包裹 Codex harness 的协议。"
+    },
+    {
+      "timestamp": "01:57",
+      "speaker": "Unknown",
+      "en": "It's Apache 2 licensed, so feel free to fork it, make it your own, and have fun with it.",
+      "zh": "它是 Apache 2 许可的，所以尽管 fork 它、把它变成你自己的、尽情玩吧。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "We even used it earlier this year to put Codex into Claude Code using that same app server.",
+      "zh": "我们甚至在今年早些时候用同一个 app server 把 Codex 接入了 Claude Code。"
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "Unknown",
+      "en": "In fact, we have right now over 120 different client messages that we continuously add more to.",
+      "zh": "事实上，我们现在有超过 120 种不同的客户端消息，并且我们会持续添加更多。"
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Unknown",
+      "en": "you can have sign in with ChatGPT as part of that, meaning that if someone is using your app, they can still bring their own ChatGPT subscription, and it goes off their Codex usage limits.",
+      "zh": "你可以把「使用 ChatGPT 登录」作为其中的一部分，这意味着如果有人在用你的应用，他们仍然可以使用自己的 ChatGPT 订阅，并且会从他们的 Codex 使用额度中扣除。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Unknown",
+      "en": "That way, you're still leveraging all of the work that we put into tweaking the prompts for the individual models while still customizing it for your specific use case of the harness.",
+      "zh": "这样，你仍然可以利用我们为各个模型调整提示词所做的工作，同时还能针对你的 harness 的具体用例进行定制。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Unknown",
+      "en": "it allows Codex to use a tool search tool, which we'll cover more tomorrow in the other session, but it allows it to find these tools through tool search rather than polluting the overall context window.",
+      "zh": "这让 Codex 可以使用一个工具搜索工具，明天另一个场次会讲更多，这让它通过工具搜索来找到这些工具，而不是污染整个上下文窗口。"
+    },
+    {
+      "timestamp": "10:54",
+      "speaker": "Unknown",
+      "en": "So unsurprisingly, Codex is incredibly good at implementing this protocol, and you largely just have to point it at the documentation.",
+      "zh": "毫不意外，Codex 在实现这个协议方面非常擅长，你基本上只需要把它指向文档就行。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Unknown",
+      "en": "And it did it largely in one shot.",
+      "zh": "而它基本上一次性就完成了。"
+    },
+    {
+      "timestamp": "11:25",
+      "speaker": "Unknown",
+      "en": "So you can build really impressive applications with this in a fairly short amount of time without you having to learn all the nitty-gritty parts of building an agent.",
+      "zh": "所以你可以在相当短的时间内用它构建出非常令人印象深刻的应用程序，而不用去学习构建智能体的所有琐碎细节。"
+    },
+    {
+      "timestamp": "11:36",
+      "speaker": "Unknown",
+      "en": "The most interesting thing for me with this app server, though, is that you're not limited to sort of the classic agent chat interface.",
+      "zh": "不过对我来说，这个 app server 最有趣的地方在于，你并不局限于那种经典的智能体聊天界面。"
+    },
+    {
+      "timestamp": "12:04",
+      "speaker": "Unknown",
+      "en": "I thought about how can I actually run Codex inside of Doom rather than running Doom inside of Codex.",
+      "zh": "我在想怎么能在 Doom 里面运行 Codex，而不是在 Codex 里面运行 Doom。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "So if you want, you can vibe code directly inside Doom.",
+      "zh": "所以如果你愿意，你可以直接在 Doom 里面进行 vibe coding。"
+    },
+    {
+      "timestamp": "15:39",
+      "speaker": "Unknown",
+      "en": "That's where the app server really shines because you have that full control over the harness and you don't have to figure out your own way of parallelizing all of the Codex exec calls rather than just sending off a bunch of like new threat events and spinning off tasks that way.",
+      "zh": "那正是 app server 真正大放异彩的地方，因为你可以完全掌控那个 harness，而不必自己想办法并行化所有的 Codex exec 调用，而只需发送一批类似新线程事件并以那种方式启动任务。"
+    },
+    {
+      "timestamp": "16:05",
+      "speaker": "Unknown",
+      "en": "The first one is you should actually ship your own version of the harness.",
+      "zh": "第一个是，你应该真正发布你自己版本的 harness。"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Unknown",
+      "en": "We do this with the Codex app, for example, for it to be able to control itself as part of the Codex thread, like spinning up automations, et cetera.",
+      "zh": "例如，我们在 Codex 应用中就这么做，让它能够在 Codex 线程中作为一部分控制自身，比如启动自动化任务等等。"
+    },
+    {
+      "timestamp": "17:19",
+      "speaker": "Unknown",
+      "en": "But there's a lot of different things that we constantly have to think about when we're building a harness to make sure that the actual prompt is in distribution and make sure that the agent performs well.",
+      "zh": "但我们在构建 harness 时，实际上要不断考虑很多不同的事情，以确保实际的提示词保持在分布之内，并确保智能体表现良好。"
+    },
+    {
+      "timestamp": "17:29",
+      "speaker": "Unknown",
+      "en": "And you're losing out on all of that if you're actually jumping in and writing your own system prompt.",
+      "zh": "而如果你真的跳进去写自己的系统提示词，你就会失去所有这些。"
+    }
+  ],
+  "voice_script": "今天这一集，咱们聊一个挺有意思的开源消息，主角是 OpenAI 的 Codex。讲这个的人叫 Dominik Kundel，是 OpenAI 负责 Codex 开发者体验的工程师。他在一场十八分钟的演讲里讲了一件事：Codex 底层的 harness，还有包装它的 app server 协议，都已经开源了。什么意思呢？就是说，任何人都可以在这套东西上面，搭一个自己的智能体客户端——甚至，搭在电子游戏里。\n\n先解释一下背景。你可能听说过 Codex，OpenAI 的编程智能体。但你每次用它的时候，界面——不管是命令行、编辑器插件还是网页——底下真正干活的那套东西，也就是 harness，其实是独立的一层。现在 OpenAI 把这层，连同 app server 这个协议一起开源了。app server 的思路跟 agent client protocol 差不多：你写的应用当客户端，通过消息和 Codex 的服务端来回交互，发指令、收事件。OpenAI 自己的应用、VS Code 扩展这些第一方界面，全都跑在它上面。第三方的也一样，比如 Xcode 和 JetBrains 的集成，还有社区做的开源项目。甚至有人做了个插件，让你在 Claude Code 里调用 Codex。\n\n开源归开源，能商用吗？能。许可证是 Apache 2，可以随便复刻、随便改。而且它不光能接 OpenAI 自己的模型，任何兼容 responses API 的模型都能接，包括 LM Studio 或者 Olama 这种跑在本地的方案。\n\n那这个协议具体长什么样？Kundel 现场演示了一个自己写的事件查看器，把真实 Codex 应用和 app server 之间的通信全截下来了。你会看到线程启动、读取配置、流式返回的数据增量，一大串事件扑面而来，乍看挺吓人，其实大部分含义都很直白。目前协议里客户端消息有一百二十多种，还在往上涨。初始化、线程管理、设置目标、列插件、文件搜索、改文件系统，全都能调。而且它比 ACP 更深入一步——不只是个通用协议，还能通过它去细粒度地配置底层的智能体本身。用户还能拿自己的 ChatGPT 订阅来登录，消耗自己的额度。\n\n好，协议讲清楚了，那你真想定制这个智能体，该从哪儿下手？主要有两件武器。第一件叫开发者指令。注意，它是在 Codex 原本的系统提示词后面追加内容，而不是推倒重写。为什么官方推荐追加？因为原提示词针对各个模型做过大量调优，你自己另起炉灶，就把这些积累全丢了。第二件武器是动态工具。你可以直接定义新函数给智能体用，还能标记成延迟加载——也就是说，不塞进系统提示词去占上下文窗口，而是让 Codex 在需要的时候，通过工具搜索自己去找。另外，每个线程还能单独改配置，换模型、换服务商，甚至精细控制沙箱能访问哪些网络连接和文件。\n\n听到这儿你可能觉得：这一套学下来成本不低吧？恰恰相反，用起来出乎意料地简单。app server 就打包在 Codex CLI 里，同一个二进制文件，装了 CLI 就能直接启动。想要特定版本的 TypeScript 绑定或者 JSON schema？让 Codex 自己生成就行。官方还新出了 Python SDK，把生命周期管理都替你处理好了。不过 Kundel 打了个趣：在场的都是 AI 工程师，多数人大概会选第二条路——直接让 Codex 自己写。这个协议它实现起来非常拿手，指个文档方向就行。Kundel 自己就用这招，让 Codex 用 Visual Basic 写了个 Windows 原生客户端，基本一次成型。\n\n然后就是整场演讲最放飞的部分了。不是把《毁灭战士》塞进 Codex，而是反过来——把 Codex 塞进了《毁灭战士》。Kundel 用 Electron，加上 Cloudflare 的 Doom WASM 渲染器，搭了个应用，Codex 的界面直接渲染在游戏画面里，通过 Electron 的进程间通信连到 app server。在游戏里跟 Codex 打招呼，它会回话；用动态工具给它开挂——满血满甲、全武器无限弹药，一喊就调；问它当前目录，它真的去调 ZShell 查工作目录。Kundel 的原话是：「可以直接在《毁灭战士》里凭感觉写代码了。不过我不太推荐，还是 Codex 应用更好用。」\n\n那有人要问了：OpenAI 不是还有个 Codex Exec 吗，跟这个有什么区别？Codex Exec 是 CLI 里的另一个命令，起一个非交互式界面跑任务，适合脚本化场景，比如在持续集成里自动修复 PR。但如果你要做的是完整的客户端，要展示智能体状态，或者要同时开很多 Codex 线程——比如跑自己的评测——那 app server 才是正解。你完全掌控 harness，不用自己去琢磨怎么并行一堆 exec 调用。\n\n最后，发布的时候还有个容易踩的坑：应用要自带一份 harness 的二进制，别依赖用户自己装的那个 CLI 版本，不然光版本兼容就够你头疼的。这条路最打动人的地方，其实是它把界面这个概念打开了——智能体不必非得是个聊天框，可以塞进游戏，塞进后台任务，塞进任何你想得到的地方。就像 Kundel 说的：我琢磨的是怎么在 Doom 里运行 Codex，而不是在 Codex 里运行 Doom。"
+}

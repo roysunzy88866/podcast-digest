@@ -27,7 +27,7 @@ unlisted: true
 
 [[Brian McClendon]] · [[Justin Johnson]] · [[Niantic Spatial]] · [[Martin Casado]] · [[Google Earth]] · [[World Labs]] · [[Google Maps]] · [[Atlas]] · [[NVIDIA]] · [[空间智能]]
 
-<script type="application/json" class="pd-epn">{"Brian McClendon":1,"Justin Johnson":3,"Niantic Spatial":1,"Martin Casado":7,"Google Earth":1,"World Labs":5,"Google Maps":2,"Atlas":5,"NVIDIA":70,"空间智能":3}</script>
+<script type="application/json" class="pd-epn">{"Brian McClendon":1,"Justin Johnson":3,"Niantic Spatial":1,"Martin Casado":7,"Google Earth":1,"World Labs":5,"Google Maps":2,"Atlas":5,"NVIDIA":71,"空间智能":3}</script>
 
 <script>
 (function(){

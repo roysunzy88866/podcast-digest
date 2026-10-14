@@ -49,7 +49,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Anthropic]] · [[沙箱]] · [[Google]] · [[持续学习]] · [[对齐]] · [[护栏]] · [[Interactions API]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":201,"智能体":501,"ChatGPT":112,"Anthropic":203,"沙箱":98,"Google":72,"持续学习":1,"对齐":25,"护栏":90,"Interactions API":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":203,"智能体":1,"ChatGPT":112,"Anthropic":204,"沙箱":99,"Google":72,"持续学习":1,"对齐":25,"护栏":90,"Interactions API":2}</script>
 
 <script>
 (function(){

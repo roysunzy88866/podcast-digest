@@ -1,0 +1,834 @@
+{
+  "episode_id": "2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner",
+  "podcast": "AI & I",
+  "date": "2026-10-14",
+  "tags": [
+    "风险投资",
+    "Hugging Face",
+    "开源模型",
+    "AI 编程",
+    "创始人判断"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集说它是 AI 开发者最大的社区、有人称它为 AI 界的 GitHub,尤其以开源模型闻名;Matt 在 Betaworks 时写下第一张支票,当时它只是一个留存不佳的青少年聊天机器人,后靠开源 Transformers 走红,NVIDIA 上个月以 130 亿美元收购了它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            163.965,
+            171.491
+          ],
+          "quote": "It wasn't quite hugging face up in here, but it went online to find tips and tricks and used them improperly in its gameplay.",
+          "speaker": ""
+        },
+        {
+          "seg": 44,
+          "t": [
+            212.38,
+            214.081
+          ],
+          "quote": "He was involved in their hugging face investment.",
+          "speaker": ""
+        },
+        {
+          "seg": 54,
+          "t": [
+            250.667,
+            260.68
+          ],
+          "quote": "And while he was there, he wrote the first check into a tiny chatbot company called Hugging Face, which NVIDIA bought last month for $13 billion.",
+          "speaker": ""
+        },
+        {
+          "seg": 67,
+          "t": [
+            306.96,
+            313.511
+          ],
+          "quote": "So maybe just to back up, can you tell us what Hugging Face is for anyone who's not familiar with the company?",
+          "speaker": ""
+        },
+        {
+          "seg": 108,
+          "t": [
+            481.259,
+            485.882
+          ],
+          "quote": "They had had these observations, and the Hugging Face team had this observation that there's something interesting to build here.",
+          "speaker": ""
+        },
+        {
+          "seg": 120,
+          "t": [
+            551.148,
+            576.885
+          ],
+          "quote": "and that went via the open source and went viral on on github and then other my my recollection is other people started reaching out to them to hey can you convert our paper where they put converted their own papers and they then moved that over to the hugging face hub and it was really kind of they felt the demand of ai researchers who were like who were trying to figure this stuff out but they themselves were developers and had done this uh and done and implemented so much this that",
+          "speaker": ""
+        },
+        {
+          "seg": 125,
+          "t": [
+            599.637,
+            604.899
+          ],
+          "quote": "You mentioned that Hugging Face and the team made a thousand great decisions.",
+          "speaker": ""
+        },
+        {
+          "seg": 151,
+          "t": [
+            769.35,
+            780.724
+          ],
+          "quote": "One of the things that's really interesting to me about how you ended up as the first investor in Hugging Face is that it really kind of stemmed from a thesis that you had or like a theme that you were exploring.",
+          "speaker": ""
+        },
+        {
+          "seg": 154,
+          "t": [
+            792.977,
+            799.821
+          ],
+          "quote": "And, you know, you mentioned the one that you were exploring when you, you know, with what led you to hugging face, but, you know, how is that evolving over time?",
+          "speaker": ""
+        },
+        {
+          "seg": 173,
+          "t": [
+            875.637,
+            882.68
+          ],
+          "quote": "Like I certainly at least all think that I predicted this exact thing, what the hugging face was from what they started with.",
+          "speaker": ""
+        },
+        {
+          "seg": 270,
+          "t": [
+            1340.631,
+            1345.593
+          ],
+          "quote": "So Clem, the CEO of Hugging Face, is he's thinking about what's going on in the open source world.",
+          "speaker": ""
+        },
+        {
+          "seg": 283,
+          "t": [
+            1432.447,
+            1434.968
+          ],
+          "quote": "Clem from Hugging Face introduced me to the Gnomic team.",
+          "speaker": ""
+        },
+        {
+          "seg": 299,
+          "t": [
+            1482.731,
+            1492.037
+          ],
+          "quote": "You find sort of like a once in a lifetime founder in someone like Clem, the founder of Hugging Face.",
+          "speaker": ""
+        },
+        {
+          "seg": 311,
+          "t": [
+            1569.072,
+            1572.134
+          ],
+          "quote": "Hugging Face started out of Betawork's office when I was there.",
+          "speaker": ""
+        },
+        {
+          "seg": 312,
+          "t": [
+            1572.434,
+            1574.875
+          ],
+          "quote": "And then when I started Factorial Capital, I started out of the Hugging Face office.",
+          "speaker": ""
+        },
+        {
+          "seg": 313,
+          "t": [
+            1575.215,
+            1582.659
+          ],
+          "quote": "And so sitting across from the person who had built one of the large language models at the large model at Hugging Face, was a super early employee.",
+          "speaker": ""
+        },
+        {
+          "seg": 316,
+          "t": [
+            1590.142,
+            1593.484
+          ],
+          "quote": "The CTO at factory was at Hugging Face.",
+          "speaker": ""
+        },
+        {
+          "seg": 324,
+          "t": [
+            1641.277,
+            1650.862
+          ],
+          "quote": "And I'm curious, you know, based on what you've learned as the first investor in Hugging Face and many other really incredible companies, what your thesis is today.",
+          "speaker": ""
+        },
+        {
+          "seg": 331,
+          "t": [
+            1681.148,
+            1686.954
+          ],
+          "quote": "And I want to add, I guess, that the Hugging Face team has built something amazing.",
+          "speaker": ""
+        },
+        {
+          "seg": 430,
+          "t": [
+            2151.761,
+            2158.283
+          ],
+          "quote": "So I went to Claude Code, I think, and said, look at the hugging face repos.",
+          "speaker": ""
+        },
+        {
+          "seg": 477,
+          "t": [
+            2391.707,
+            2398.23
+          ],
+          "quote": "So you had a thesis and some themes that you were exploring in 2015 that led to investing in Hugging Face.",
+          "speaker": ""
+        },
+        {
+          "seg": 499,
+          "t": [
+            2495.907,
+            2511.573
+          ],
+          "quote": "There's Hugging Face has got a hackathon they're doing called Rare Disease Real Kid, where they've open source of genome, and I think doctors sort of notes the parents of a kid did have a very rare disease, I think only 50 people have it, and they have a track for diagnosing it, but they also have a track for drug repurposing.",
+          "speaker": ""
+        },
+        {
+          "seg": 574,
+          "t": [
+            2908.844,
+            2910.426
+          ],
+          "quote": "I look at what's trending on Hugging Face.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "factorial-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Factorial Capital",
+      "file": "Factorial Capital",
+      "primary": true,
+      "how_described": "本集说 Matt 2023 年创办的 solo GP 风投基金,结构独特:设几乎无限数量的风险合伙人(如 Hugging Face 的 Clem、Venmo 创始人),靠技术创始人网络形成转介绍飞轮,寻找「新技术上变得可能的东西」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            203.394,
+            207.277
+          ],
+          "quote": "And she interviewed Matt Hartman, who is the managing partner of Factorial Capital.",
+          "speaker": ""
+        },
+        {
+          "seg": 52,
+          "t": [
+            243.118,
+            246.823
+          ],
+          "quote": "Today, we're joined by Matt Hartman, founder and managing partner at Factorial Capital.",
+          "speaker": ""
+        },
+        {
+          "seg": 160,
+          "t": [
+            821.259,
+            826.684
+          ],
+          "quote": "In the case of, like, when I started Factorial Capital, one of the things that I was,",
+          "speaker": ""
+        },
+        {
+          "seg": 262,
+          "t": [
+            1292.179,
+            1307.094
+          ],
+          "quote": "So what I do, I set it up, I had this idea in like 2023-ish that I probably, leading up to that point of starting factorial capital that the",
+          "speaker": ""
+        },
+        {
+          "seg": 280,
+          "t": [
+            1410.927,
+            1417.653
+          ],
+          "quote": "Over time, what I found was the portfolio of factorial capital itself became the referrals.",
+          "speaker": ""
+        },
+        {
+          "seg": 312,
+          "t": [
+            1572.434,
+            1574.875
+          ],
+          "quote": "And then when I started Factorial Capital, I started out of the Hugging Face office.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "betaworks",
+      "type": "company",
+      "role": "company",
+      "name": "Betaworks",
+      "file": "Betaworks",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            207.397,
+            212.18
+          ],
+          "quote": "Matt is a really interesting investor who's he came out of Betaworks in New York City.",
+          "speaker": ""
+        },
+        {
+          "seg": 53,
+          "t": [
+            247.323,
+            249.987
+          ],
+          "quote": "Matt spent nearly a decade at Betaworks, where he was a partner.",
+          "speaker": ""
+        },
+        {
+          "seg": 63,
+          "t": [
+            285.369,
+            290.671
+          ],
+          "quote": "And while I was at Betaworks, we all made all of our investments together.",
+          "speaker": ""
+        },
+        {
+          "seg": 82,
+          "t": [
+            365.625,
+            375.574
+          ],
+          "quote": "So what happened was my partners and I at Betaworks were really interested in what we were calling conversational software at the time.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "anchor",
+      "type": "company",
+      "role": "company",
+      "name": "Anchor",
+      "file": "Anchor",
+      "primary": true,
+      "how_described": "本集说 Anchor 最初是音频社交网络,后来砍掉需求侧、专注供给侧,成为最流行的播客制作工具——Matt 用它说明「转向脚踩在技术上」和诚实面对留存数据的创始人特质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            624.947,
+            637.537
+          ],
+          "quote": "And I think that the best founders that I back, this is true of Anchor also, looked at their retention or really asked themselves, what is genuinely working here and what is genuinely not over the long-term for you and trying to create value?",
+          "speaker": ""
+        },
+        {
+          "seg": 174,
+          "t": [
+            883.14,
+            887.802
+          ],
+          "quote": "Or even, you know, Anchor became the most popular tool to create podcasts.",
+          "speaker": ""
+        },
+        {
+          "seg": 193,
+          "t": [
+            951.255,
+            954.877
+          ],
+          "quote": "And then when I met the team at Anchor, I'd met a bunch of other teams that were doing this.",
+          "speaker": ""
+        },
+        {
+          "seg": 197,
+          "t": [
+            960.841,
+            966.005
+          ],
+          "quote": "I remember with the anchor team, they said, I don't know if they remember this, but I do.",
+          "speaker": ""
+        },
+        {
+          "seg": 391,
+          "t": [
+            2005.728,
+            2008.95
+          ],
+          "quote": "Yeah, that's, that's, and maybe the anchor example, the good one.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Transformer",
+      "file": "Transformer",
+      "primary": true,
+      "how_described": "本集说 Transformer 擅长下一 token 预测;Hugging Face 在它问世后迅速转成 PyTorch 开源而走红,Matt 还沿「还有什么序列值得预测」这条线看好奇器人和科学模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            847.193,
+            855.382
+          ],
+          "quote": "And if what the underlying technology of Transformers, there's lots of different technologies we use now, but Transformer is really good at next token prediction.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 始终把开源当作保持恒定的东西,是开源 AI 最大的平台;Matt 自己也把 Ghost Pepper 开源、并持续关注开源趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            355.936,
+            361.761
+          ],
+          "quote": "Yeah, so the, and I should say, it's the largest, probably the largest place for open source AI in particular.",
+          "speaker": ""
+        },
+        {
+          "seg": 81,
+          "t": [
+            361.781,
+            363.703
+          ],
+          "quote": "So it's very open source focused.",
+          "speaker": ""
+        },
+        {
+          "seg": 120,
+          "t": [
+            551.148,
+            576.885
+          ],
+          "quote": "and that went via the open source and went viral on on github and then other my my recollection is other people started reaching out to them to hey can you convert our paper where they put converted their own papers and they then moved that over to the hugging face hub and it was really kind of they felt the demand of ai researchers who were like who were trying to figure this stuff out but they themselves were developers and had done this uh and done and implemented so much this that",
+          "speaker": ""
+        },
+        {
+          "seg": 122,
+          "t": [
+            579.266,
+            587.27
+          ],
+          "quote": "And rather than just build a consumer app, maybe they could make it easier for anybody to use all these open source models that they were working with and build their own products.",
+          "speaker": ""
+        },
+        {
+          "seg": 130,
+          "t": [
+            638.217,
+            642.079
+          ],
+          "quote": "And so I think one thing they did was open, obviously open source and transformers.",
+          "speaker": ""
+        },
+        {
+          "seg": 135,
+          "t": [
+            682.708,
+            685.071
+          ],
+          "quote": "Everyone will end up using this for everything, all open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 137,
+          "t": [
+            686.393,
+            688.115
+          ],
+          "quote": "I think open source is always the thing they held constant.",
+          "speaker": ""
+        },
+        {
+          "seg": 270,
+          "t": [
+            1340.631,
+            1345.593
+          ],
+          "quote": "So Clem, the CEO of Hugging Face, is he's thinking about what's going on in the open source world.",
+          "speaker": ""
+        },
+        {
+          "seg": 499,
+          "t": [
+            2495.907,
+            2511.573
+          ],
+          "quote": "There's Hugging Face has got a hackathon they're doing called Rare Disease Real Kid, where they've open source of genome, and I think doctors sort of notes the parents of a kid did have a very rare disease, I think only 50 people have it, and they have a track for diagnosing it, but they also have a track for drug repurposing.",
+          "speaker": ""
+        },
+        {
+          "seg": 575,
+          "t": [
+            2910.826,
+            2912.187
+          ],
+          "quote": "I am fascinated by open source.",
+          "speaker": ""
+        },
+        {
+          "seg": 576,
+          "t": [
+            2912.227,
+            2915.25
+          ],
+          "quote": "I try to find any resources or open source.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "pivot",
+      "type": "concept",
+      "role": "concept",
+      "name": "转型 (pivot)",
+      "file": "转型",
+      "primary": true,
+      "how_described": "本集用篮球中枢脚比喻:Matt 假设每家早期公司都会转型,关键看那只不动的脚踩在哪——他投过的最成功公司转型支点都在技术上,而不是对某个垂直行业的理解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 246,
+          "t": [
+            1185.935,
+            1190.058
+          ],
+          "quote": "I think a lot about your, what, in basketball, you have like a pivot foot, right?",
+          "speaker": ""
+        },
+        {
+          "seg": 250,
+          "t": [
+            1199.526,
+            1203.73
+          ],
+          "quote": "But when I'm thinking about it at the very early stage, I always assume that the company is going to pivot.",
+          "speaker": ""
+        },
+        {
+          "seg": 251,
+          "t": [
+            1204.11,
+            1209.077
+          ],
+          "quote": "And the question is, are they going to pivot towards something that I am a sort of fellow traveler and also believe in?",
+          "speaker": ""
+        },
+        {
+          "seg": 252,
+          "t": [
+            1209.498,
+            1212.342
+          ],
+          "quote": "Or are they going to have limitations on what the pivot could be?",
+          "speaker": ""
+        },
+        {
+          "seg": 254,
+          "t": [
+            1220.238,
+            1240.105
+          ],
+          "quote": "So they're going to have a fairly constrained, you know, it is more likely they're going to find, they're going to pivot to something that is still in that same market, like real estate, than a technical team who might say, the reason we're going after this is because there's a particular shape of the data that is in this industry, and maybe it didn't work, but it turns out that that shape is right in the car industry or wherever it is.",
+          "speaker": ""
+        },
+        {
+          "seg": 255,
+          "t": [
+            1250.328,
+            1261.778
+          ],
+          "quote": "The companies that have been most successful that I've been involved with are ones where the pivot foot was about the technology, not about necessarily market understanding of a particular vertical.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "type": "concept",
+      "role": "concept",
+      "name": "留存 (retention)",
+      "file": "留存",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 和 Anchor 等优秀创始人都会诚实面对留存数据,真正问自己什么长期有效、什么无效,而不是拿最好看的表面指标去融资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            521.302,
+            533.905
+          ],
+          "quote": "In my view, and I'm sure there's, I haven't heard Ben talking about this much, so I'm curious, sort of, from my perspective, they had this app, it was a consumer app that a lot of people were using, but the retention really wasn't good.",
+          "speaker": ""
+        },
+        {
+          "seg": 129,
+          "t": [
+            624.947,
+            637.537
+          ],
+          "quote": "And I think that the best founders that I back, this is true of Anchor also, looked at their retention or really asked themselves, what is genuinely working here and what is genuinely not over the long-term for you and trying to create value?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "iteration",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代 (iteration)",
+      "file": "迭代",
+      "primary": true,
+      "how_described": "本集说迭代是找到产品市场契合和增长最重要的部分;AI 让周期从两个月缩到两天,能观察用户、提炼洞察、快速改进产品的能力因此指数级增值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 338,
+          "t": [
+            1736.528,
+            1738.669
+          ],
+          "quote": "If like iteration is the most important part of...",
+          "speaker": ""
+        },
+        {
+          "seg": 342,
+          "t": [
+            1779.285,
+            1783.068
+          ],
+          "quote": "The iteration cycles almost are necessarily so much faster.",
+          "speaker": ""
+        },
+        {
+          "seg": 358,
+          "t": [
+            1853.317,
+            1865.42
+          ],
+          "quote": "Iteration as the core sort of variable to deliver speed and make sure that you can- Your cycle looks like this and you compress it, so your cycle time is like this, and so you just grow much faster.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说在 vibe coding 时代理论上人人都能构建任何东西,所以提问变得更重要;Matt 自己 vibe code 出 Ghost Pepper,也由此体会到自建工具仍需维护。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 235,
+          "t": [
+            1135.366,
+            1142.188
+          ],
+          "quote": "what the stacks look like, understanding the technology itself, even in the era of vibe coding, where like I can, anybody can build anything theoretically.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Matt 用 Claude Code 加上 superpowers 技能做了语音转文字工具 Ghost Pepper,让它研究 Hugging Face 上的语音模型仓库,本地运行、零推理成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 430,
+          "t": [
+            2151.761,
+            2158.283
+          ],
+          "quote": "So I went to Claude Code, I think, and said, look at the hugging face repos.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 Hugging Face 靠付费训练和运行推理赚钱;Matt 做本地语音工具的出发点就是「为什么还要为这个东西的推理付费」,零推理成本是它的卖点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            341.997,
+            345.14
+          ],
+          "quote": "You can pay to do training and run inference.",
+          "speaker": ""
+        },
+        {
+          "seg": 428,
+          "t": [
+            2148.24,
+            2150.12
+          ],
+          "quote": "Why do you even need to pay for inference for this thing?",
+          "speaker": ""
+        },
+        {
+          "seg": 445,
+          "t": [
+            2218.448,
+            2224.153
+          ],
+          "quote": "So anybody, because you don't have any inference costs, so why not let anybody just try this and run it, and I can run these things for free?",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": false,
+      "how_described": "本集把 Modal 列为增长极快的技术创始人公司例子,用来对比 Hugging Face 花了十年才走到今天的速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1687.274,
+            1701.468
+          ],
+          "quote": "There's so many other companies that are built by technical founders like Factory and Modo that are fascinating to me because the speed at which they're growing is so fast.",
+          "speaker": ""
+        },
+        {
+          "seg": 344,
+          "t": [
+            1790.293,
+            1796.078
+          ],
+          "quote": "Then you have a company like Modal, which didn't, they exist a little bit before I started Factorial, but not much.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "factory-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Factory AI",
+      "file": "Factory AI",
+      "primary": false,
+      "how_described": "本集说 Factory AI 与 Factorial 大约同时起步,几年就长到很大,其 CTO 曾在 Hugging Face,作为迭代周期压缩带来复利式增长的证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1796.739,
+            1804.745
+          ],
+          "quote": "The Factory AI, I think that we started probably at the same time, it was only a few years.",
+          "speaker": ""
+        }
+      ]
+    },
+    {
+      "id": "earned-insights",
+      "type": "concept",
+      "role": "concept",
+      "name": "挣来的洞见 (earned insights)",
+      "file": "挣来的洞见",
+      "primary": true,
+      "how_described": "本集说 Matt 很喜欢这个框架:衡量标准是世界上有多少人处在能学到你所学到的东西的位置——只有 10 个人知道你就领先,人人都看得见竞争就激烈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1906.777,
+            1908.578
+          ],
+          "quote": "And people have talked about earned insights.",
+          "speaker": ""
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Word2Vec",
+      "reason": "专名「Word2Vec」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

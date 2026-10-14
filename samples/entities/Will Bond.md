@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":19,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":501,"可观测性":46,"护栏":90,"内环与外环":3}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":19,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":1,"可观测性":46,"护栏":90,"内环与外环":3}</script>
 
 <script>
 (function(){

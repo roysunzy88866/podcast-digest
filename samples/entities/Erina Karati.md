@@ -55,7 +55,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":501,"多智能体":6,"记忆":28,"RAG":29,"自动研究":1,"智能体协议":1,"场景":1,"护栏":90}</script>
+<script type="application/json" class="pd-epn">{"Supercell":1,"Project Paradox":1,"智能体":1,"多智能体":6,"记忆":28,"RAG":29,"自动研究":1,"智能体协议":1,"场景":1,"护栏":90}</script>
 
 <script>
 (function(){

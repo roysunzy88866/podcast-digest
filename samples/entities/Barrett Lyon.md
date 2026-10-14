@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":501,"推理":99,"广告追踪":1,"LLM":64,"数据中心":25}</script>
+<script type="application/json" class="pd-epn">{"Joel de la Garza":5,"DocsNet":1,"VPN":1,"点对点通信":1,"运营商级 NAT":1,"智能体":1,"推理":100,"广告追踪":1,"LLM":64,"数据中心":25}</script>
 
 <script>
 (function(){

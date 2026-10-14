@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":3,"Anthropic":203,"Claude Code":111,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":6,"Gemini":16}</script>
+<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":3,"Anthropic":204,"Claude Code":113,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":6,"Gemini":16}</script>
 
 <script>
 (function(){

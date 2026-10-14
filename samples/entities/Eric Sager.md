@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Plaid":2,"Square":5,"Visa":2,"OpenAI":201,"Perplexity":10,"Replit":22,"公司文化":3,"创始人":1,"组织设计":1,"go-to-market":14}</script>
+<script type="application/json" class="pd-epn">{"Plaid":2,"Square":5,"Visa":2,"OpenAI":203,"Perplexity":10,"Replit":22,"公司文化":3,"创始人":1,"组织设计":1,"go-to-market":14}</script>
 
 <script>
 (function(){

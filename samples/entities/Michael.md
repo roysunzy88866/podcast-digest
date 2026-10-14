@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":2,"光纤":1,"数据中心":25,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":9,"NVIDIA":70}</script>
+<script type="application/json" class="pd-epn">{"Molly":2,"Lumentum":2,"光纤":1,"数据中心":25,"纵向扩展":1,"磷化铟":1,"激光":1,"超大规模云厂商":1,"TSMC":9,"NVIDIA":71}</script>
 
 <script>
 (function(){

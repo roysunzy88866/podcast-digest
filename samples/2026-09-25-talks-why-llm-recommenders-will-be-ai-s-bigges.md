@@ -155,8 +155,8 @@ LLM 这波浪潮的起点是 2020 年那篇里程碑式的扩展曲线论文(当
 **换个口味**
 
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同公司:Meta · 同概念:后训练 (post-training)、推理 (inference)、预训练 (pre-training)</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Meta · 同概念:后训练 (post-training)、微调 (fine-tuning)</span>
 - [[2026-07-16-unsupervised-ep-91-top-ai-analyst-unpacks-todays-ai-h|Benedict Evans:AI 价值会落在哪一层?]]<span class="pd-rz">同概念:LLM、扩展定律 (scaling)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同概念:后训练 (post-training)、思维链 (chain of thought)</span>
 
 </div>
 </div>

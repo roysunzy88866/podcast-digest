@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":14,"智能体":501,"MCP":94,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"go-to-market":14,"智能体":1,"MCP":95,"API 优先":2,"嵌入":4,"ICP 仪表盘":1,"RequestLens":1,"JeffBot":1,"Salesforce":36}</script>
 
 <script>
 (function(){

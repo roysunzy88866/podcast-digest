@@ -1,0 +1,3586 @@
+[
+ {
+  "seg": 0,
+  "start": 0.171,
+  "end": 1.973,
+  "speaker": "Claire Vo",
+  "en": "Welcome back to How I AI.",
+  "zh": "欢迎回到 How I AI。"
+ },
+ {
+  "seg": 1,
+  "start": 2.213,
+  "end": 2.8640000000000003,
+  "speaker": "Claire Vo",
+  "en": "I'm Claire Vo,",
+  "zh": "我是 Claire Vo,"
+ },
+ {
+  "seg": 2,
+  "start": 2.914,
+  "end": 6.257,
+  "speaker": "Claire Vo",
+  "en": "product leader and AI obsessive here on a mission to help you build better",
+  "zh": "产品负责人，AI 狂热者，我的使命是帮助你用"
+ },
+ {
+  "seg": 3,
+  "start": 6.297,
+  "end": 7.463666666666667,
+  "speaker": "Claire Vo",
+  "en": "with these new tools.",
+  "zh": "这些新工具构建更好的东西。"
+ },
+ {
+  "seg": 4,
+  "start": 7.618,
+  "end": 11.221,
+  "speaker": "Claire Vo",
+  "en": "Today, I'm reviewing Meta's new frontier intelligence model,",
+  "zh": "今天，我要评测 Meta 的新前沿智能模型"
+ },
+ {
+  "seg": 5,
+  "start": 11.662,
+  "end": 16.026,
+  "speaker": "Claire Vo",
+  "en": "Muse Wonder, which comes in two versions, Wonder and Wonderful.",
+  "zh": "Muse Wonder,它有两个版本,Wonder 和 Wonderful。"
+ },
+ {
+  "seg": 6,
+  "start": 16.899,
+  "end": 21.401,
+  "speaker": "Claire Vo",
+  "en": "I am going to put this model through the How I AI benchmark to see if it can enter",
+  "zh": "我要把这个模型放进 How I AI 基准测试里，看看它能否进入"
+ },
+ {
+  "seg": 7,
+  "start": 21.441,
+  "end": 23.385444444444442,
+  "speaker": "Claire Vo",
+  "en": "the race for frontier intelligence,",
+  "zh": "前沿智能的竞赛，"
+ },
+ {
+  "seg": 8,
+  "start": 23.541,
+  "end": 27.483,
+  "speaker": "Claire Vo",
+  "en": "especially around coding, knowledge work, and agentic workflows.",
+  "zh": "尤其是在编码、知识工作和智能体工作流方面。"
+ },
+ {
+  "seg": 9,
+  "start": 27.923,
+  "end": 28.793,
+  "speaker": "Claire Vo",
+  "en": "Let's get to it.",
+  "zh": "我们开始吧。"
+ },
+ {
+  "seg": 10,
+  "start": 28.843,
+  "end": 31.424,
+  "speaker": "Claire Vo",
+  "en": "This episode is brought to you by DX.",
+  "zh": "本期节目由 DX 赞助。"
+ },
+ {
+  "seg": 11,
+  "start": 31.804,
+  "end": 35.605,
+  "speaker": "Claire Vo",
+  "en": "In a recent study across more than 500 engineering organizations,",
+  "zh": "在最近一项覆盖 500 多个工程组织的研究中，"
+ },
+ {
+  "seg": 12,
+  "start": 35.846,
+  "end": 40.527,
+  "speaker": "Claire Vo",
+  "en": "DX found that spend on AI tools has grown 28x over the last year.",
+  "zh": "DX 发现，过去一年在 AI 工具上的支出增长了 28 倍。"
+ },
+ {
+  "seg": 13,
+  "start": 41.067,
+  "end": 45.733666666666664,
+  "speaker": "Claire Vo",
+  "en": "The share of AI authored code is climbing, but overall innovation has remained flat.",
+  "zh": "AI 编写的代码占比在攀升，但整体创新却保持平稳。"
+ },
+ {
+  "seg": 14,
+  "start": 46.389,
+  "end": 48.171,
+  "speaker": "Claire Vo",
+  "en": "As teams generate code faster,",
+  "zh": "当团队更快地生成代码时，"
+ },
+ {
+  "seg": 15,
+  "start": 48.412,
+  "end": 53.097,
+  "speaker": "Claire Vo",
+  "en": "new friction in code review and validation is offsetting those early velocity gains.",
+  "zh": "代码审查和验证中出现的新摩擦正在抵消那些早期的速度收益。"
+ },
+ {
+  "seg": 16,
+  "start": 53.817,
+  "end": 55.099,
+  "speaker": "Claire Vo",
+  "en": "DX tracks speed,",
+  "zh": "DX 在整个软件开发生命周期中同时追踪速度、"
+ },
+ {
+  "seg": 17,
+  "start": 55.279,
+  "end": 55.75,
+  "speaker": "Claire Vo",
+  "en": "quality,",
+  "zh": "质量"
+ },
+ {
+  "seg": 18,
+  "start": 55.8,
+  "end": 59.13333333333333,
+  "speaker": "Claire Vo",
+  "en": "and cost together across the software development lifecycle,",
+  "zh": "和成本，"
+ },
+ {
+  "seg": 19,
+  "start": 59.484,
+  "end": 63.868,
+  "speaker": "Claire Vo",
+  "en": "giving engineering leaders clear visibility into how AI impacts delivery and",
+  "zh": "让工程负责人清晰地看到 AI 如何影响交付，"
+ },
+ {
+  "seg": 20,
+  "start": 63.908,
+  "end": 67.13022222222223,
+  "speaker": "Claire Vo",
+  "en": "whether those investments are translating into real value.",
+  "zh": "以及这些投资是否转化为真实价值。"
+ },
+ {
+  "seg": 21,
+  "start": 67.592,
+  "end": 73.035,
+  "speaker": "Claire Vo",
+  "en": "Download the full report at getdx.com slash howiai.",
+  "zh": "前往 getdx.com slash howiai 下载完整报告。"
+ },
+ {
+  "seg": 22,
+  "start": 73.495,
+  "end": 79.578,
+  "speaker": "Claire Vo",
+  "en": "That's g-e-t-d-x dot com slash howiai.",
+  "zh": "那就是g-e-t-d-x 点 com slash howiai。"
+ },
+ {
+  "seg": 23,
+  "start": 80.198,
+  "end": 85.27,
+  "speaker": "Claire Vo",
+  "en": "Let's talk about what Muse is and then we'll get into how it performed on the How I AI bench.",
+  "zh": "我们先聊聊 Muse 是什么，然后再看它在 How I AI 基准测试上的表现。"
+ },
+ {
+  "seg": 24,
+  "start": 85.32,
+  "end": 89.182,
+  "speaker": "Claire Vo",
+  "en": "So as Zuck announced on X and I guess probably Threads,",
+  "zh": "正如 Zuck 在 X 上宣布的，我猜大概也在 Threads 上，"
+ },
+ {
+  "seg": 25,
+  "start": 89.643,
+  "end": 92.23400000000001,
+  "speaker": "Claire Vo",
+  "en": "Muse Wonder is their new family of frontier models",
+  "zh": "Muse Wonder 是他们新的前沿模型家族，"
+ },
+ {
+  "seg": 26,
+  "start": 92.284,
+  "end": 95.723,
+  "speaker": "Claire Vo",
+  "en": "with state-of-the-art intelligence and performance I'm personal",
+  "zh": "拥有最先进的智能和性能，我是在个人"
+ },
+ {
+  "seg": 27,
+  "start": 95.763,
+  "end": 97.176,
+  "speaker": "Claire Vo",
+  "en": "and professional agentic work.",
+  "zh": "和专业智能体工作方面。"
+ },
+ {
+  "seg": 28,
+  "start": 97.226,
+  "end": 100.994,
+  "speaker": "Claire Vo",
+  "en": "And if you look at the benchmarks and how they're comparing themselves,",
+  "zh": "如果你看看基准测试以及他们如何做对比，"
+ },
+ {
+  "seg": 29,
+  "start": 101.014,
+  "end": 107.601,
+  "speaker": "Claire Vo",
+  "en": "they're really putting it in the class of Fable, GPT-6 Astra, and Claude Opus 5.5.",
+  "zh": "他们真的把它放在了 Fable、GPT-6 Astra 和 Claude Opus 5.5 的同一个级别。"
+ },
+ {
+  "seg": 30,
+  "start": 107.721,
+  "end": 109.88766666666668,
+  "speaker": "Claire Vo",
+  "en": "Both of those are now my daily drivers.",
+  "zh": "这两个现在都是我的日常主力模型。"
+ },
+ {
+  "seg": 31,
+  "start": 109.983,
+  "end": 111.23400000000001,
+  "speaker": "Claire Vo",
+  "en": "Now, if you look at this benchmark,",
+  "zh": "现在，如果你看这个基准测试，"
+ },
+ {
+  "seg": 32,
+  "start": 111.284,
+  "end": 115.727,
+  "speaker": "Claire Vo",
+  "en": "where they're really grading themselves is agentic personal and professional work.",
+  "zh": "他们真正给自己打分的领域是智能体个人和专业工作。"
+ },
+ {
+  "seg": 33,
+  "start": 115.747,
+  "end": 120.331,
+  "speaker": "Claire Vo",
+  "en": "They're saying that this is the best model for driving a personal agent.",
+  "zh": "他们说这是驱动个人智能体的最佳模型。"
+ },
+ {
+  "seg": 34,
+  "start": 120.451,
+  "end": 123.113,
+  "speaker": "Claire Vo",
+  "en": "Now, this makes a lot of sense given their push into Muse,",
+  "zh": "这很说得通，考虑到他们对 Muse 的投入，"
+ },
+ {
+  "seg": 35,
+  "start": 123.153,
+  "end": 127.797,
+  "speaker": "Claire Vo",
+  "en": "which in my opinion is a very great personal AI agent and the model behind it.",
+  "zh": "在我看来 Muse 是一个非常出色的个人 AI 智能体，而它背后的模型。"
+ },
+ {
+  "seg": 36,
+  "start": 128.197,
+  "end": 130.099,
+  "speaker": "Claire Vo",
+  "en": "Has been zippy and cheerful to be with.",
+  "zh": "一直反应迅捷、相处起来很轻快。"
+ },
+ {
+  "seg": 37,
+  "start": 130.139,
+  "end": 134.31199999999998,
+  "speaker": "Claire Vo",
+  "en": "So I'm not surprised they're looking at it, but they're not just looking at personal agents.",
+  "zh": "所以我对他们关注这个方向并不意外，但他们关注的不只是个人智能体。"
+ },
+ {
+  "seg": 38,
+  "start": 134.362,
+  "end": 136.743,
+  "speaker": "Claire Vo",
+  "en": "They are looking at professional knowledge work as well.",
+  "zh": "他们也关注专业知识工作。"
+ },
+ {
+  "seg": 39,
+  "start": 136.763,
+  "end": 141.687,
+  "speaker": "Claire Vo",
+  "en": "So you're seeing a lot of things around specific domain expertise like legal work,",
+  "zh": "所以你会看到很多关于特定领域专业能力的内容，比如法律工作、"
+ },
+ {
+  "seg": 40,
+  "start": 141.767,
+  "end": 145.41,
+  "speaker": "Claire Vo",
+  "en": "financial work, business workflows, professional work, etc.",
+  "zh": "金融工作、商业工作流、专业工作等等。"
+ },
+ {
+  "seg": 41,
+  "start": 145.45,
+  "end": 150.694,
+  "speaker": "Claire Vo",
+  "en": "So you can see they put a lot of emphasis in their benchmark table on those personal",
+  "zh": "可以看到，他们在基准测试表中对那些个人"
+ },
+ {
+  "seg": 42,
+  "start": 150.874,
+  "end": 155.878,
+  "speaker": "Claire Vo",
+  "en": "and domain expert benches, but they also care about coding.",
+  "zh": "和领域专家基准投入了很多重点，但他们也在乎编码。"
+ },
+ {
+  "seg": 43,
+  "start": 155.938,
+  "end": 161.606,
+  "speaker": "Claire Vo",
+  "en": "So They are saying that they outperformed every other model on their bench,",
+  "zh": "所以他们说，在他们的基准上，"
+ },
+ {
+  "seg": 44,
+  "start": 161.686,
+  "end": 166.668,
+  "speaker": "Claire Vo",
+  "en": "including Opus 5-5, Fable, and Astra on DeepSwee and Swee Marathon.",
+  "zh": "包括在 DeepSwee 和 Swee Marathon 上，他们的表现超过了所有其他模型，包括 Opus 5-5、Fable 和 Astra。"
+ },
+ {
+  "seg": 45,
+  "start": 166.709,
+  "end": 171.00099999999998,
+  "speaker": "Claire Vo",
+  "en": "So they are really putting themselves in the big leagues when it comes to coding.",
+  "zh": "所以在编码方面，他们是真把自己放进了大赛级别。"
+ },
+ {
+  "seg": 46,
+  "start": 171.051,
+  "end": 174.862,
+  "speaker": "Claire Vo",
+  "en": "We are going to see if that holds true and if I would really move some",
+  "zh": "我们会看看这是否属实，以及我是否真的会把我的"
+ },
+ {
+  "seg": 47,
+  "start": 174.912,
+  "end": 176.63422222222223,
+  "speaker": "Claire Vo",
+  "en": "of my agentic coding workflows.",
+  "zh": "一些智能体编码工作流迁移过去。"
+ },
+ {
+  "seg": 48,
+  "start": 176.954,
+  "end": 178.196,
+  "speaker": "Claire Vo",
+  "en": "On to Muse Wonder.",
+  "zh": "接下来看 Muse Wonder。"
+ },
+ {
+  "seg": 49,
+  "start": 178.616,
+  "end": 179.878,
+  "speaker": "Claire Vo",
+  "en": "But in addition to the benchmarks,",
+  "zh": "但除了基准测试之外，"
+ },
+ {
+  "seg": 50,
+  "start": 179.898,
+  "end": 181.922,
+  "speaker": "Claire Vo",
+  "en": "they're calling out three capabilities,",
+  "zh": "他们列举了三种能力，"
+ },
+ {
+  "seg": 51,
+  "start": 181.942,
+  "end": 185.297,
+  "speaker": "Claire Vo",
+  "en": "what they're calling frontier capabilities that make Muse Wonder",
+  "zh": "他们称之为「前沿能力」，这些能力让 Muse Wonder"
+ },
+ {
+  "seg": 52,
+  "start": 185.347,
+  "end": 187.847,
+  "speaker": "Claire Vo",
+  "en": "a differentiated set of models in the market.",
+  "zh": "成为市场上一个有差异化的模型集合。"
+ },
+ {
+  "seg": 53,
+  "start": 188.638,
+  "end": 191.16,
+  "speaker": "Claire Vo",
+  "en": "The first is domain expertise.",
+  "zh": "第一个是领域专长。"
+ },
+ {
+  "seg": 54,
+  "start": 191.3,
+  "end": 195.862,
+  "speaker": "Claire Vo",
+  "en": "And so they are looking at applying specialized knowledge to problems",
+  "zh": "所以他们着眼于把专业知识应用到你"
+ },
+ {
+  "seg": 55,
+  "start": 195.902,
+  "end": 197.433,
+  "speaker": "Claire Vo",
+  "en": "that people encounter at work.",
+  "zh": "在工作中遇到的问题上。"
+ },
+ {
+  "seg": 56,
+  "start": 197.483,
+  "end": 203.327,
+  "speaker": "Claire Vo",
+  "en": "Again, this is where you see them really aiming to perform on legal analysis,",
+  "zh": "再说一次，这就是你看到他们真正瞄准在法律分析、"
+ },
+ {
+  "seg": 57,
+  "start": 203.827,
+  "end": 205.108,
+  "speaker": "Claire Vo",
+  "en": "finance benchmarks.",
+  "zh": "金融基准测试上表现出色的地方。"
+ },
+ {
+  "seg": 58,
+  "start": 205.228,
+  "end": 210.231,
+  "speaker": "Claire Vo",
+  "en": "So they are saying we have specialized expertise in knowledge work beyond coding",
+  "zh": "所以他们是在说，我们在编码之外的知识工作上拥有做得非常出色的专业专长。"
+ },
+ {
+  "seg": 59,
+  "start": 210.271,
+  "end": 211.71544444444444,
+  "speaker": "Claire Vo",
+  "en": "that we do really well in.",
+  "zh": "我们在这些方面做得非常出色。"
+ },
+ {
+  "seg": 60,
+  "start": 211.792,
+  "end": 215.274,
+  "speaker": "Claire Vo",
+  "en": "The other two are these ideas of what they call active memory.",
+  "zh": "另外两个是他们所谓的「主动记忆」的概念。"
+ },
+ {
+  "seg": 61,
+  "start": 215.809,
+  "end": 220.436,
+  "speaker": "Claire Vo",
+  "en": "And so they are saying that they outperform all these other models on use",
+  "zh": "所以他们说，在记忆的使用"
+ },
+ {
+  "seg": 62,
+  "start": 220.696,
+  "end": 222.018,
+  "speaker": "Claire Vo",
+  "en": "and creation of memory.",
+  "zh": "和创建方面，他们的表现超过了所有其他模型。"
+ },
+ {
+  "seg": 63,
+  "start": 222.098,
+  "end": 224.702,
+  "speaker": "Claire Vo",
+  "en": "This is very important in personal agents.",
+  "zh": "这在个人智能体中非常重要。"
+ },
+ {
+  "seg": 64,
+  "start": 224.722,
+  "end": 229.112,
+  "speaker": "Claire Vo",
+  "en": "So I'm not surprised to see that they have come up with something kind of fancy here.",
+  "zh": "所以看到他们在这里拿出某种花哨的东西，我并不惊讶。"
+ },
+ {
+  "seg": 65,
+  "start": 229.162,
+  "end": 233.43977777777778,
+  "speaker": "Claire Vo",
+  "en": "But they are trying to carry important context about you across conversations",
+  "zh": "但他们试图在对话之间携带关于你的重要上下文，"
+ },
+ {
+  "seg": 66,
+  "start": 233.843,
+  "end": 235.544,
+  "speaker": "Claire Vo",
+  "en": "and make sure that across conversations,",
+  "zh": "并确保在对话之间，"
+ },
+ {
+  "seg": 67,
+  "start": 235.564,
+  "end": 238.50844444444445,
+  "speaker": "Claire Vo",
+  "en": "you're getting the right context for you in the task.",
+  "zh": "你在任务中获得的是适合你的正确上下文。"
+ },
+ {
+  "seg": 68,
+  "start": 238.765,
+  "end": 241.846,
+  "speaker": "Claire Vo",
+  "en": "The other thing that they're really focused on is sustained effort,",
+  "zh": "他们真正关注的另一件事是持续投入，"
+ },
+ {
+  "seg": 69,
+  "start": 241.866,
+  "end": 243.64377777777779,
+  "speaker": "Claire Vo",
+  "en": "and they call this active focus.",
+  "zh": "他们称之为主动专注。"
+ },
+ {
+  "seg": 70,
+  "start": 244.126,
+  "end": 247.107,
+  "speaker": "Claire Vo",
+  "en": "And so when Newswonder goes into active focus,",
+  "zh": "所以当 Newswonder 进入主动专注时，"
+ },
+ {
+  "seg": 71,
+  "start": 247.587,
+  "end": 250.6981111111111,
+  "speaker": "Claire Vo",
+  "en": "that means that it's working towards a challenging goal.",
+  "zh": "那意味着它正在朝着一个有挑战性的目标努力。"
+ },
+ {
+  "seg": 72,
+  "start": 250.828,
+  "end": 251.69799999999998,
+  "speaker": "Claire Vo",
+  "en": "It's trying different things.",
+  "zh": "它在尝试不同的东西。"
+ },
+ {
+  "seg": 73,
+  "start": 251.748,
+  "end": 253.429,
+  "speaker": "Claire Vo",
+  "en": "And so really surprising.",
+  "zh": "所以确实挺让人惊讶的。"
+ },
+ {
+  "seg": 74,
+  "start": 253.489,
+  "end": 255.399,
+  "speaker": "Claire Vo",
+  "en": "I will give you a little spoiler alert on the bench.",
+  "zh": "我会给你一个关于这个基准测试的小剧透。"
+ },
+ {
+  "seg": 75,
+  "start": 255.449,
+  "end": 257.63,
+  "speaker": "Claire Vo",
+  "en": "We did see active focus.",
+  "zh": "我们确实看到主动专注"
+ },
+ {
+  "seg": 76,
+  "start": 258.328,
+  "end": 263.08,
+  "speaker": "Claire Vo",
+  "en": "Actually come into play and outperform on some of our long running tasks in the benchmark.",
+  "zh": "真正发挥了作用，在基准测试中我们一些长时间运行的任务上表现出色。"
+ },
+ {
+  "seg": 77,
+  "start": 263.13,
+  "end": 267.352,
+  "speaker": "Claire Vo",
+  "en": "So our bench is showing that this active focus investment",
+  "zh": "所以我们的基准测试显示，这种对主动专注的投入"
+ },
+ {
+  "seg": 78,
+  "start": 267.532,
+  "end": 272.034,
+  "speaker": "Claire Vo",
+  "en": "on our longer running tasks is actually outperforming some of the other models.",
+  "zh": "在我们较长时间运行的任务上确实胜过了其他一些模型。"
+ },
+ {
+  "seg": 79,
+  "start": 272.434,
+  "end": 276.5451111111111,
+  "speaker": "Claire Vo",
+  "en": "So that might be a place that I double down later and go into more deeply.",
+  "zh": "所以这可能是我之后会加倍深入探讨的一个地方。"
+ },
+ {
+  "seg": 80,
+  "start": 276.615,
+  "end": 280.217,
+  "speaker": "Claire Vo",
+  "en": "Okay, now let's talk about the most annoying part of Newswonder.",
+  "zh": "好的，现在让我们来谈谈 Newswonder 最烦人的部分。"
+ },
+ {
+  "seg": 81,
+  "start": 281.177,
+  "end": 284.639,
+  "speaker": "Claire Vo",
+  "en": "It is that you have to download Muse code.",
+  "zh": "就是你必须下载 Muse code。"
+ },
+ {
+  "seg": 82,
+  "start": 284.659,
+  "end": 287.991,
+  "speaker": "Claire Vo",
+  "en": "I mean, I guess you don't technically have to download Muse code,",
+  "zh": "我是说，严格来说你其实并不一定要下载 Muse code，"
+ },
+ {
+  "seg": 83,
+  "start": 288.041,
+  "end": 292.944,
+  "speaker": "Claire Vo",
+  "en": "but this did force me to subscribe to the Muse subscription,",
+  "zh": "但这确实迫使我订阅了 Muse 订阅，"
+ },
+ {
+  "seg": 84,
+  "start": 293.024,
+  "end": 297.426,
+  "speaker": "Claire Vo",
+  "en": "get access to the meta model APIs and download Muse code,",
+  "zh": "获取 meta 模型 API 的访问权限，并下载 Muse code，"
+ },
+ {
+  "seg": 85,
+  "start": 297.526,
+  "end": 302.029,
+  "speaker": "Claire Vo",
+  "en": "which I will say in my very light experience was deeply unimpressive,",
+  "zh": "在我非常浅薄的使用体验中，我可以说它非常令人无感，"
+ },
+ {
+  "seg": 86,
+  "start": 302.189,
+  "end": 304.89,
+  "speaker": "Claire Vo",
+  "en": "but did the trick and I didn't actually have to pay attention to it.",
+  "zh": "但它起了作用，而且我实际上不用去管它。"
+ },
+ {
+  "seg": 87,
+  "start": 304.93,
+  "end": 309.533,
+  "speaker": "Claire Vo",
+  "en": "So if you want to know how I actually tested this, I did sign up for Muse code.",
+  "zh": "所以如果你想了解我具体是怎么测试的，我确实注册了 Muse code。"
+ },
+ {
+  "seg": 88,
+  "start": 311.165,
+  "end": 314.991,
+  "speaker": "Claire Vo",
+  "en": "Which you can sign up for at developer.meta.com.",
+  "zh": "你可以在 developer.meta.com 注册。"
+ },
+ {
+  "seg": 89,
+  "start": 315.011,
+  "end": 318.236,
+  "speaker": "Claire Vo",
+  "en": "I copied this install script in Terminal,",
+  "zh": "我在 Terminal 里复制了这个安装脚本，"
+ },
+ {
+  "seg": 90,
+  "start": 318.256,
+  "end": 321.161,
+  "speaker": "Claire Vo",
+  "en": "which I have not opened Terminal, I don't know, in three months.",
+  "zh": "我已经不知道三个月没打开过 Terminal 了。"
+ },
+ {
+  "seg": 91,
+  "start": 321.201,
+  "end": 322.3676666666667,
+  "speaker": "Claire Vo",
+  "en": "So that was a real...",
+  "zh": "所以那真是一次……"
+ },
+ {
+  "seg": 92,
+  "start": 322.585,
+  "end": 323.9738888888889,
+  "speaker": "Claire Vo",
+  "en": "So I lived there, but...",
+  "zh": "所以我一直在那里折腾，但是……"
+ },
+ {
+  "seg": 93,
+  "start": 342.608,
+  "end": 344.2191111111111,
+  "speaker": "Claire Vo",
+  "en": "Do you want to try MuseCode?",
+  "zh": "你想试试 MuseCode 吗？"
+ },
+ {
+  "seg": 94,
+  "start": 344.27,
+  "end": 346.812,
+  "speaker": "Claire Vo",
+  "en": "That is completely available to you.",
+  "zh": "那完全由你自己决定。"
+ },
+ {
+  "seg": 95,
+  "start": 347.012,
+  "end": 348.2897777777778,
+  "speaker": "Claire Vo",
+  "en": "And it looks like this.",
+  "zh": "它看起来是这样的。"
+ },
+ {
+  "seg": 96,
+  "start": 348.853,
+  "end": 350.615,
+  "speaker": "Claire Vo",
+  "en": "It's not that thrilling.",
+  "zh": "也没什么激动的。"
+ },
+ {
+  "seg": 97,
+  "start": 351.556,
+  "end": 356.44,
+  "speaker": "Claire Vo",
+  "en": "I legitimately have not opened a terminal app in a very, very, very long time.",
+  "zh": "我真的已经很久、很久、很久没有打开过终端应用了。"
+ },
+ {
+  "seg": 98,
+  "start": 357.02,
+  "end": 361.584,
+  "speaker": "Claire Vo",
+  "en": "So just know that I did not really test MuseCode.",
+  "zh": "所以要知道，我并没有真正测试 MuseCode。"
+ },
+ {
+  "seg": 99,
+  "start": 362.184,
+  "end": 363.184,
+  "speaker": "Claire Vo",
+  "en": "I signed up.",
+  "zh": "我只是注册了。"
+ },
+ {
+  "seg": 100,
+  "start": 363.265,
+  "end": 366.548,
+  "speaker": "Claire Vo",
+  "en": "I gave Cloud Code access to MuseCode and ran it headlessly.",
+  "zh": "我让 Cloud Code 访问 MuseCode 并以无头模式运行了它。"
+ },
+ {
+  "seg": 101,
+  "start": 366.688,
+  "end": 369.0768888888889,
+  "speaker": "Claire Vo",
+  "en": "But let's get into how the model performed.",
+  "zh": "但让我们进入正题,看看这个模型表现如何。"
+ },
+ {
+  "seg": 102,
+  "start": 369.48,
+  "end": 376.383,
+  "speaker": "Claire Vo",
+  "en": "And just a reminder on how AI Bench works, we run against almost 20 different tasks.",
+  "zh": "先提醒一下 AI Bench 是怎么运作的:我们针对接近 20 个不同的任务进行运行。"
+ },
+ {
+  "seg": 103,
+  "start": 376.423,
+  "end": 378.47855555555554,
+  "speaker": "Claire Vo",
+  "en": "That's everything from writing a PRD,",
+  "zh": "包括写 PRD,"
+ },
+ {
+  "seg": 104,
+  "start": 378.623,
+  "end": 379.884,
+  "speaker": "Claire Vo",
+  "en": "to doing a set of prototypes,",
+  "zh": "做一组原型,"
+ },
+ {
+  "seg": 105,
+  "start": 379.924,
+  "end": 381.585,
+  "speaker": "Claire Vo",
+  "en": "to redesigning the chat PRD site,",
+  "zh": "重新设计 chat PRD 网站,"
+ },
+ {
+  "seg": 106,
+  "start": 381.605,
+  "end": 384.264,
+  "speaker": "Claire Vo",
+  "en": "to running long running Computer use,",
+  "zh": "运行长时间运行的 Computer use,"
+ },
+ {
+  "seg": 107,
+  "start": 384.344,
+  "end": 388.0106666666667,
+  "speaker": "Claire Vo",
+  "en": "agentic research, code repair tasks, and then some creative tasks.",
+  "zh": "智能体研究、代码修复任务,还有一些创意任务。"
+ },
+ {
+  "seg": 108,
+  "start": 388.469,
+  "end": 393.815,
+  "speaker": "Claire Vo",
+  "en": "And then a judge, a LLM as a judge, judge them, and then I judge them.",
+  "zh": "然后由一个裁判,一个 LLM 作为裁判来给它们打分,接着我自己再评判。"
+ },
+ {
+  "seg": 109,
+  "start": 394.336,
+  "end": 398.981,
+  "speaker": "Claire Vo",
+  "en": "For sake of speed, I'm just going to give you all my hot take feedback on these.",
+  "zh": "为了节省时间,我就直接把我对这些任务的热辣点评反馈全部告诉你们。"
+ },
+ {
+  "seg": 110,
+  "start": 399.021,
+  "end": 402.205,
+  "speaker": "Claire Vo",
+  "en": "So this is really like a first look kind of review.",
+  "zh": "所以这真的更像是一个初步印象式的评测。"
+ },
+ {
+  "seg": 111,
+  "start": 402.245,
+  "end": 404.46722222222223,
+  "speaker": "Claire Vo",
+  "en": "This isn't a benchmark review because...",
+  "zh": "这不是一份基准测试评审,因为……"
+ },
+ {
+  "seg": 112,
+  "start": 404.623,
+  "end": 405.384,
+  "speaker": "Claire Vo",
+  "en": "I just don't want to run.",
+  "zh": "我只是不想再跑一遍。"
+ },
+ {
+  "seg": 113,
+  "start": 405.424,
+  "end": 410.026,
+  "speaker": "Claire Vo",
+  "en": "We just did Opus 5-5 and Sol 6-1 and the whole thing.",
+  "zh": "我们刚刚跑过 Opus 5-5 和 Sol 6-1 以及全部那一套。"
+ },
+ {
+  "seg": 114,
+  "start": 410.066,
+  "end": 411.35699999999997,
+  "speaker": "Claire Vo",
+  "en": "So I don't want to do the whole thing again.",
+  "zh": "所以我不想把整套流程再跑一遍。"
+ },
+ {
+  "seg": 115,
+  "start": 411.407,
+  "end": 414.498,
+  "speaker": "Claire Vo",
+  "en": "I just want to look at Muse and say, do I think it's done a good job?",
+  "zh": "我只想看看 Muse,然后说,我觉得它干得好吗?"
+ },
+ {
+  "seg": 116,
+  "start": 414.548,
+  "end": 416.77,
+  "speaker": "Claire Vo",
+  "en": "And I really do think it has.",
+  "zh": "而我真的觉得它干得很好。"
+ },
+ {
+  "seg": 117,
+  "start": 416.91,
+  "end": 420.942,
+  "speaker": "Claire Vo",
+  "en": "So I'm excited to show you this bench and let's get into what it returned for us.",
+  "zh": "所以我很高兴向你们展示这个 bench,让我们进入它为我们返回的结果。"
+ },
+ {
+  "seg": 118,
+  "start": 420.992,
+  "end": 423.663,
+  "speaker": "Claire Vo",
+  "en": "So this is what it looks like when the bench runs.",
+  "zh": "这就是 bench 运行时的样子。"
+ },
+ {
+  "seg": 119,
+  "start": 423.713,
+  "end": 428.636,
+  "speaker": "Claire Vo",
+  "en": "I group things by prototype, agentic work, coding work, writing work, and creative work.",
+  "zh": "我把任务按原型、智能体工作、编码工作、写作工作和创意工作分组。"
+ },
+ {
+  "seg": 120,
+  "start": 429.17,
+  "end": 431.992,
+  "speaker": "Claire Vo",
+  "en": "And then we have an LLM as a judge, judge them.",
+  "zh": "然后我们用一个 LLM 作为裁判来给它们打分。"
+ },
+ {
+  "seg": 121,
+  "start": 432.052,
+  "end": 434.803,
+  "speaker": "Claire Vo",
+  "en": "Then I go through and actually just do voice notes now.",
+  "zh": "接着我会亲自过一遍,现在我就是直接做语音笔记。"
+ },
+ {
+  "seg": 122,
+  "start": 434.853,
+  "end": 436.174,
+  "speaker": "Claire Vo",
+  "en": "I used to click things and say things.",
+  "zh": "我以前是点击选项并输入内容。"
+ },
+ {
+  "seg": 123,
+  "start": 436.214,
+  "end": 437.50399999999996,
+  "speaker": "Claire Vo",
+  "en": "I was like, why am I doing that?",
+  "zh": "我当时就想,我为什么要那么做?"
+ },
+ {
+  "seg": 124,
+  "start": 437.554,
+  "end": 439.2762222222222,
+  "speaker": "Claire Vo",
+  "en": "So I use voice notes to Claude.",
+  "zh": "所以我现在用语音笔记发给 Claude。"
+ },
+ {
+  "seg": 125,
+  "start": 439.495,
+  "end": 440.676,
+  "speaker": "Claire Vo",
+  "en": "Claude takes my scores.",
+  "zh": "Claude 接收我的评分。"
+ },
+ {
+  "seg": 126,
+  "start": 440.696,
+  "end": 445.699,
+  "speaker": "Claire Vo",
+  "en": "The LLM as a judge ranks them and then puts them together in a presentation,",
+  "zh": "LLM 作为裁判给它们排名,然后把它们整理成一份演示文稿,"
+ },
+ {
+  "seg": 127,
+  "start": 445.719,
+  "end": 447.109,
+  "speaker": "Claire Vo",
+  "en": "which it's working on right now.",
+  "zh": "它现在正在做这件事。"
+ },
+ {
+  "seg": 128,
+  "start": 447.159,
+  "end": 453.503,
+  "speaker": "Claire Vo",
+  "en": "So you just see, again, like we do different types of prototypes and wireframes.",
+  "zh": "所以你们可以看到,我们做不同类型的原型和线框图。"
+ },
+ {
+  "seg": 129,
+  "start": 453.743,
+  "end": 457.645,
+  "speaker": "Claire Vo",
+  "en": "I do different agentic workflows, which is very interesting.",
+  "zh": "我做不同的智能体工作流,这非常有趣。"
+ },
+ {
+  "seg": 130,
+  "start": 458.197,
+  "end": 460.558,
+  "speaker": "Claire Vo",
+  "en": "We code a backend feature.",
+  "zh": "我们编码一个后端功能。"
+ },
+ {
+  "seg": 131,
+  "start": 460.718,
+  "end": 463.798,
+  "speaker": "Claire Vo",
+  "en": "We do a code audit for some issues and some real code.",
+  "zh": "我们对一些真实代码里的问题做代码审计。"
+ },
+ {
+  "seg": 132,
+  "start": 464.198,
+  "end": 468.94,
+  "speaker": "Claire Vo",
+  "en": "We write emails, we do PRDs, and we even do creative work like drawings.",
+  "zh": "我们写邮件,做 PRD,我们甚至做创意工作比如画画。"
+ },
+ {
+  "seg": 133,
+  "start": 469,
+  "end": 471.72,
+  "speaker": "Claire Vo",
+  "en": "So it's a pretty comprehensive bench.",
+  "zh": "所以这是一个相当全面的 bench。"
+ },
+ {
+  "seg": 134,
+  "start": 471.98,
+  "end": 475.611,
+  "speaker": "Claire Vo",
+  "en": "So I'm just going to tell you kind of like the TLDR of what my first impressions are",
+  "zh": "那我就先告诉你们我对"
+ },
+ {
+  "seg": 135,
+  "start": 475.661,
+  "end": 476.411,
+  "speaker": "Claire Vo",
+  "en": "of Muse,",
+  "zh": "Muse 的第一印象的 TLDR,"
+ },
+ {
+  "seg": 136,
+  "start": 476.461,
+  "end": 479.772,
+  "speaker": "Claire Vo",
+  "en": "and then we will go into where it was really strong and where it wasn't strong.",
+  "zh": "然后我们会深入看它哪些地方特别强、哪些地方不强。"
+ },
+ {
+  "seg": 137,
+  "start": 479.822,
+  "end": 481.2108888888889,
+  "speaker": "Claire Vo",
+  "en": "So here are the results.",
+  "zh": "以下是结果。"
+ },
+ {
+  "seg": 138,
+  "start": 481.324,
+  "end": 484.828,
+  "speaker": "Claire Vo",
+  "en": "It is the best at agentic work.",
+  "zh": "它在智能体工作方面是最强的。"
+ },
+ {
+  "seg": 139,
+  "start": 484.928,
+  "end": 486.77,
+  "speaker": "Claire Vo",
+  "en": "So I tested four tasks.",
+  "zh": "我测试了四个任务。"
+ },
+ {
+  "seg": 140,
+  "start": 486.81,
+  "end": 489.953,
+  "speaker": "Claire Vo",
+  "en": "You can see what those are here.",
+  "zh": "你们可以在这里看到它们是什么。"
+ },
+ {
+  "seg": 141,
+  "start": 490.174,
+  "end": 492.496,
+  "speaker": "Claire Vo",
+  "en": "We did like billing ticket management,",
+  "zh": "我们做了账单工单管理,"
+ },
+ {
+  "seg": 142,
+  "start": 492.556,
+  "end": 493.48699999999997,
+  "speaker": "Claire Vo",
+  "en": "customer reply,",
+  "zh": "客户回复,"
+ },
+ {
+  "seg": 143,
+  "start": 493.537,
+  "end": 497.742,
+  "speaker": "Claire Vo",
+  "en": "inbox triage, research, long-term research, and the voice of an assistant.",
+  "zh": "收件箱分诊、研究、长期研究,以及一个助手的口吻。"
+ },
+ {
+  "seg": 144,
+  "start": 498.142,
+  "end": 500.02,
+  "speaker": "Claire Vo",
+  "en": "And it was my favorite across the board.",
+  "zh": "它在所有方面都是我的最爱。"
+ },
+ {
+  "seg": 145,
+  "start": 500.07,
+  "end": 501.511,
+  "speaker": "Claire Vo",
+  "en": "It's not surprising to me that Muse,",
+  "zh": "Muse 是一个非常出色的智能体,"
+ },
+ {
+  "seg": 146,
+  "start": 501.531,
+  "end": 502.98199999999997,
+  "speaker": "Claire Vo",
+  "en": "which is a very good agent,",
+  "zh": "这并不让我意外,"
+ },
+ {
+  "seg": 147,
+  "start": 503.032,
+  "end": 507.436,
+  "speaker": "Claire Vo",
+  "en": "underneath it is going to be a very good agentic model with the right sort",
+  "zh": "它底层的模型会是一个非常出色的智能体模型,具备合适的那种"
+ },
+ {
+  "seg": 148,
+  "start": 507.476,
+  "end": 512.019,
+  "speaker": "Claire Vo",
+  "en": "of like co-worker voice ability to do knowledge work and the ability",
+  "zh": "同事般的口吻,有能力做知识工作,并且"
+ },
+ {
+  "seg": 149,
+  "start": 512.099,
+  "end": 514.541,
+  "speaker": "Claire Vo",
+  "en": "to do long-running research tasks well.",
+  "zh": "有能力很好地完成长期运行的研究任务。"
+ },
+ {
+  "seg": 150,
+  "start": 515.202,
+  "end": 519.345,
+  "speaker": "Claire Vo",
+  "en": "And then, you know, like it's up with the big guys in terms of coding.",
+  "zh": "然后，你知道，它在编程方面已经跟大厂们平起平坐了。"
+ },
+ {
+  "seg": 151,
+  "start": 519.405,
+  "end": 521.727,
+  "speaker": "Claire Vo",
+  "en": "And so, you know, we only have two tasks here.",
+  "zh": "所以，你知道，我们这里只有两个任务。"
+ },
+ {
+  "seg": 152,
+  "start": 521.767,
+  "end": 522.748,
+  "speaker": "Claire Vo",
+  "en": "I really think one,",
+  "zh": "我真的觉得第一个,"
+ },
+ {
+  "seg": 153,
+  "start": 522.768,
+  "end": 527.191,
+  "speaker": "Claire Vo",
+  "en": "it's like kind of boring for you all to Think does it do coding well or not?",
+  "zh": "就是问它编程做得好不好，这对你们来说有点无聊。"
+ },
+ {
+  "seg": 154,
+  "start": 527.231,
+  "end": 528.601,
+  "speaker": "Claire Vo",
+  "en": "We can look at the benchmarks.",
+  "zh": "我们可以看跑分。"
+ },
+ {
+  "seg": 155,
+  "start": 528.651,
+  "end": 534.013,
+  "speaker": "Claire Vo",
+  "en": "I don't think you all want to watch like bug fixes and do like agentic verification,",
+  "zh": "我不觉得你们想看修 bug 和做智能体验证之类的东西,"
+ },
+ {
+  "seg": 156,
+  "start": 534.433,
+  "end": 538.915,
+  "speaker": "Claire Vo",
+  "en": "but like all of them are good and all of them did well on my coding tasks.",
+  "zh": "但它们全都很好，全都在我的编程任务上表现不错。"
+ },
+ {
+  "seg": 157,
+  "start": 538.955,
+  "end": 542.116,
+  "speaker": "Claire Vo",
+  "en": "It's actually kind of interesting that Astra is a little bit down here at",
+  "zh": "其实挺有意思的是 Astra 有点靠后,"
+ },
+ {
+  "seg": 158,
+  "start": 542.136,
+  "end": 544.997,
+  "speaker": "Claire Vo",
+  "en": "the bottom, but like it's in the ballpark.",
+  "zh": "排在底部，但也差不多在同一水平上。"
+ },
+ {
+  "seg": 159,
+  "start": 545.057,
+  "end": 550.619,
+  "speaker": "Claire Vo",
+  "en": "So it's totally a viable option for backend coding and architecture review.",
+  "zh": "所以它完全是后端编程和架构评审的一个可行选项。"
+ },
+ {
+  "seg": 160,
+  "start": 550.799,
+  "end": 553.36,
+  "speaker": "Claire Vo",
+  "en": "So no complaints on agents or coding.",
+  "zh": "所以对智能体或编程没有任何抱怨。"
+ },
+ {
+  "seg": 161,
+  "start": 554.117,
+  "end": 559.358,
+  "speaker": "Claire Vo",
+  "en": "Where it really started to fall off the cliff are on creative tasks.",
+  "zh": "它真正开始断崖式下滑的地方是创意任务。"
+ },
+ {
+  "seg": 162,
+  "start": 559.478,
+  "end": 562.478,
+  "speaker": "Claire Vo",
+  "en": "And I think I've just been spoiled lately by Opus 5.5.",
+  "zh": "我想我最近只是被 Opus 5.5 惯坏了。"
+ },
+ {
+  "seg": 163,
+  "start": 562.559,
+  "end": 563.3290000000001,
+  "speaker": "Claire Vo",
+  "en": "I know, I know.",
+  "zh": "我知道，我知道。"
+ },
+ {
+  "seg": 164,
+  "start": 563.379,
+  "end": 568.081,
+  "speaker": "Claire Vo",
+  "en": "Your GPT girl here has been using Opus 5.5 because for creative tasks,",
+  "zh": "你们这个 GPT 女孩一直在用 Opus 5.5，因为对于创意任务,"
+ },
+ {
+  "seg": 165,
+  "start": 568.141,
+  "end": 573.262,
+  "speaker": "Claire Vo",
+  "en": "for design, for video, for art, it is just the best on the market right now.",
+  "zh": "对于设计、视频、艺术，它就是目前市面上最好的。"
+ },
+ {
+  "seg": 166,
+  "start": 573.302,
+  "end": 577.563,
+  "speaker": "Claire Vo",
+  "en": "I'll do an episode in the future about how I'm using Opus 5.5 right now.",
+  "zh": "以后我会做一期节目，讲我现在是怎么用 Opus 5.5 的。"
+ },
+ {
+  "seg": 167,
+  "start": 577.583,
+  "end": 578.9718888888889,
+  "speaker": "Claire Vo",
+  "en": "I think it's really cool.",
+  "zh": "我觉得它真的很酷。"
+ },
+ {
+  "seg": 168,
+  "start": 579.084,
+  "end": 580.124,
+  "speaker": "Claire Vo",
+  "en": "But writing...",
+  "zh": "但写作嘛……"
+ },
+ {
+  "seg": 169,
+  "start": 580.786,
+  "end": 581.457,
+  "speaker": "Claire Vo",
+  "en": "It's fine.",
+  "zh": "还行。"
+ },
+ {
+  "seg": 170,
+  "start": 581.507,
+  "end": 582.278,
+  "speaker": "Claire Vo",
+  "en": "It's not great.",
+  "zh": "不算出色。"
+ },
+ {
+  "seg": 171,
+  "start": 582.328,
+  "end": 584.51,
+  "speaker": "Claire Vo",
+  "en": "I would not love a Muse writer.",
+  "zh": "我可不想让 Muse 来写东西。"
+ },
+ {
+  "seg": 172,
+  "start": 585.311,
+  "end": 591.899,
+  "speaker": "Claire Vo",
+  "en": "Prototypes, the design sensibility is just like 18 months behind, maybe a year behind.",
+  "zh": "原型方面，设计品味大概落后了 18 个月，或者一年。"
+ },
+ {
+  "seg": 173,
+  "start": 591.999,
+  "end": 592.369,
+  "speaker": "Claire Vo",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 174,
+  "start": 592.419,
+  "end": 593.2900000000001,
+  "speaker": "Claire Vo",
+  "en": "It's just not good.",
+  "zh": "就是不行。"
+ },
+ {
+  "seg": 175,
+  "start": 593.34,
+  "end": 595.6733333333334,
+  "speaker": "Claire Vo",
+  "en": "It's a lot of like blurple, rounded stuff.",
+  "zh": "全是那种蓝紫色、圆角的东西。"
+ },
+ {
+  "seg": 176,
+  "start": 596.36,
+  "end": 598.441,
+  "speaker": "Claire Vo",
+  "en": "Serif fat fonts don't love it.",
+  "zh": "粗衬线字体，不喜欢。"
+ },
+ {
+  "seg": 177,
+  "start": 598.621,
+  "end": 603.742,
+  "speaker": "Claire Vo",
+  "en": "And then the creative work that it did is like fine, but the worst of all the options.",
+  "zh": "然后它做的创意作品还算可以，但所有选项里最差的。"
+ },
+ {
+  "seg": 178,
+  "start": 603.802,
+  "end": 606.963,
+  "speaker": "Claire Vo",
+  "en": "And so I wouldn't, you know, yet rely on it for those things.",
+  "zh": "所以我还不会、你知道，在那些事情上依赖它。"
+ },
+ {
+  "seg": 179,
+  "start": 607.003,
+  "end": 610.544,
+  "speaker": "Claire Vo",
+  "en": "But it's going to be really interesting as like an orchestrator model or",
+  "zh": "但作为编排模型、"
+ },
+ {
+  "seg": 180,
+  "start": 610.564,
+  "end": 613.625,
+  "speaker": "Claire Vo",
+  "en": "a voice model or an agent model in the loop.",
+  "zh": "语音模型或在环的智能体模型，它会非常值得期待。"
+ },
+ {
+  "seg": 181,
+  "start": 613.665,
+  "end": 616.356,
+  "speaker": "Claire Vo",
+  "en": "And you can definitely tell that it's done that well.",
+  "zh": "你绝对能看出来它在这方面做得很好。"
+ },
+ {
+  "seg": 182,
+  "start": 616.406,
+  "end": 620.067,
+  "speaker": "Claire Vo",
+  "en": "This episode is brought to you by Jira Product Discovery.",
+  "zh": "本期节目由 Jira Product Discovery 赞助。"
+ },
+ {
+  "seg": 183,
+  "start": 620.607,
+  "end": 626.431,
+  "speaker": "Claire Vo",
+  "en": "With AI, a single PM can summarize research, draft a PRD, and build a working prototype.",
+  "zh": "有了 AI，一个 PM 就能总结研究、起草 PRD，并构建可运行的原型。"
+ },
+ {
+  "seg": 184,
+  "start": 626.871,
+  "end": 628.0376666666666,
+  "speaker": "Claire Vo",
+  "en": "But multiplayer mode?",
+  "zh": "但多人模式呢？"
+ },
+ {
+  "seg": 185,
+  "start": 628.312,
+  "end": 629.312,
+  "speaker": "Claire Vo",
+  "en": "That's broken.",
+  "zh": "那是坏的。"
+ },
+ {
+  "seg": 186,
+  "start": 629.453,
+  "end": 634.236,
+  "speaker": "Claire Vo",
+  "en": "You can't get everyone aligned on what should actually ship with just a markdown file.",
+  "zh": "仅靠一个 markdown 文件，你没法让所有人就什么应该真正上线达成一致。"
+ },
+ {
+  "seg": 187,
+  "start": 634.857,
+  "end": 638.759,
+  "speaker": "Claire Vo",
+  "en": "Jira Product Discovery gives your team one place to capture insights,",
+  "zh": "Jira Product Discovery 给你的团队一个地方来收集洞察,"
+ },
+ {
+  "seg": 188,
+  "start": 639.14,
+  "end": 643.863,
+  "speaker": "Claire Vo",
+  "en": "prioritize with evidence, and build living roadmaps everyone can rally around.",
+  "zh": "用证据排优先级，并构建人人都能围绕其团结起来的活路线图。"
+ },
+ {
+  "seg": 189,
+  "start": 644.483,
+  "end": 647.3770000000001,
+  "speaker": "Claire Vo",
+  "en": "And because it's powered by Atlassian's Teamwork Graph,",
+  "zh": "而且因为它由 Atlassian 的 Teamwork Graph 驱动,"
+ },
+ {
+  "seg": 190,
+  "start": 647.427,
+  "end": 650.672,
+  "speaker": "Claire Vo",
+  "en": "it has the context you need to decide what to build.",
+  "zh": "它拥有你决定该构建什么所需的上下文。"
+ },
+ {
+  "seg": 191,
+  "start": 651.273,
+  "end": 654.3670000000001,
+  "speaker": "Claire Vo",
+  "en": "Those decisions flow straight into Jira so your developers",
+  "zh": "这些决策直接流入 Jira，让你的开发者"
+ },
+ {
+  "seg": 192,
+  "start": 654.417,
+  "end": 658.804,
+  "speaker": "Claire Vo",
+  "en": "or coding agents can start building with the context behind every decision.",
+  "zh": "或编程智能体可以带着每个决策背后的上下文开始构建。"
+ },
+ {
+  "seg": 193,
+  "start": 659.58,
+  "end": 664.143,
+  "speaker": "Claire Vo",
+  "en": "More than 25,000 companies already use Jira Product Discovery.",
+  "zh": "已有超过 25,000 家公司在使用 Jira Product Discovery。"
+ },
+ {
+  "seg": 194,
+  "start": 664.763,
+  "end": 669.386,
+  "speaker": "Claire Vo",
+  "en": "Try it free at atlassian.com slash howiai.",
+  "zh": "到 atlassian.com slash howiai 免费试用。"
+ },
+ {
+  "seg": 195,
+  "start": 669.806,
+  "end": 674.129,
+  "speaker": "Claire Vo",
+  "en": "That's atlassian.com slash howiai.",
+  "zh": "就是 atlassian.com slash howiai。"
+ },
+ {
+  "seg": 196,
+  "start": 674.729,
+  "end": 676.0067777777779,
+  "speaker": "Claire Vo",
+  "en": "Jira Product Discovery.",
+  "zh": "Jira Product Discovery。"
+ },
+ {
+  "seg": 197,
+  "start": 676.41,
+  "end": 678.812,
+  "speaker": "Claire Vo",
+  "en": "Better product decisions in the AI era.",
+  "zh": "AI 时代更好的产品决策。"
+ },
+ {
+  "seg": 198,
+  "start": 679.41,
+  "end": 681.712,
+  "speaker": "Claire Vo",
+  "en": "So you can see here it did really well.",
+  "zh": "所以你可以看到，它在这里表现得非常好。"
+ },
+ {
+  "seg": 199,
+  "start": 681.792,
+  "end": 684.954,
+  "speaker": "Claire Vo",
+  "en": "It ranked first on backend feature implementation,",
+  "zh": "它在后端功能实现上排名第一,"
+ },
+ {
+  "seg": 200,
+  "start": 685.094,
+  "end": 689.917,
+  "speaker": "Claire Vo",
+  "en": "inbox triage, computer use, email, batching, and the voice of assistant.",
+  "zh": "收件箱分诊、计算机使用、电子邮件、批量处理，以及语音助手的声音。"
+ },
+ {
+  "seg": 201,
+  "start": 689.937,
+  "end": 694.961,
+  "speaker": "Claire Vo",
+  "en": "So I actually liked it almost as much as I liked Sonnet for voice.",
+  "zh": "所以实际上我在语音方面对它的喜欢程度几乎和我对 Sonnet 一样。"
+ },
+ {
+  "seg": 202,
+  "start": 695.181,
+  "end": 698.443,
+  "speaker": "Claire Vo",
+  "en": "And then as you get into prototypes and creative work,",
+  "zh": "然后当你进入原型和创意工作时，"
+ },
+ {
+  "seg": 203,
+  "start": 698.604,
+  "end": 701.946,
+  "speaker": "Claire Vo",
+  "en": "it really just starts to fall off a cliff.",
+  "zh": "它真的开始断崖式下跌。"
+ },
+ {
+  "seg": 204,
+  "start": 702.386,
+  "end": 706.749,
+  "speaker": "Claire Vo",
+  "en": "I judged those designs much more harshly than our LLM as a judge did,",
+  "zh": "我对这些设计的评判比我们的 LLM 评委要严格得多，"
+ },
+ {
+  "seg": 205,
+  "start": 707.37,
+  "end": 709.311,
+  "speaker": "Claire Vo",
+  "en": "but It's definitely not good.",
+  "zh": "→[[225]] 它命中了我们埋下的所有可能出错的地方。"
+ },
+ {
+  "seg": 206,
+  "start": 709.331,
+  "end": 712.9976666666666,
+  "speaker": "Claire Vo",
+  "en": "We can look at a couple examples, but I just don't really love it.",
+  "zh": "我们可以看几个例子，但我真的不太喜欢它。"
+ },
+ {
+  "seg": 207,
+  "start": 713.495,
+  "end": 717.649,
+  "speaker": "Claire Vo",
+  "en": "And so let's talk about what a good agentic task for benchmarking looks like",
+  "zh": "那么我们来谈谈一个适合基准测试的好的智能体任务是什么样的，"
+ },
+ {
+  "seg": 208,
+  "start": 717.699,
+  "end": 718.971,
+  "speaker": "Claire Vo",
+  "en": "and why Muse did really well.",
+  "zh": "以及为什么 Muse 表现得非常出色。"
+ },
+ {
+  "seg": 209,
+  "start": 719.021,
+  "end": 723.005,
+  "speaker": "Claire Vo",
+  "en": "So we run this task where you use computer use and you have to resolve",
+  "zh": "我们运行这个任务，你要使用计算机使用功能，必须解决"
+ },
+ {
+  "seg": 210,
+  "start": 723.045,
+  "end": 725.107,
+  "speaker": "Claire Vo",
+  "en": "a billing ticket in an admin app.",
+  "zh": "管理应用中的一张账务工单。"
+ },
+ {
+  "seg": 211,
+  "start": 725.921,
+  "end": 729.583,
+  "speaker": "Claire Vo",
+  "en": "And there's a couple things that the agent has to navigate.",
+  "zh": "智能体需要处理几件事。"
+ },
+ {
+  "seg": 212,
+  "start": 730.604,
+  "end": 731.765,
+  "speaker": "Claire Vo",
+  "en": "It's linked to the wrong account.",
+  "zh": "它关联到了错误的账户。"
+ },
+ {
+  "seg": 213,
+  "start": 731.785,
+  "end": 734.785,
+  "speaker": "Claire Vo",
+  "en": "So it has to like identify and find the right account.",
+  "zh": "所以它得识别并找到正确的账户。"
+ },
+ {
+  "seg": 214,
+  "start": 735.067,
+  "end": 738.008,
+  "speaker": "Claire Vo",
+  "en": "The refund amount is weird.",
+  "zh": "退款金额很奇怪。"
+ },
+ {
+  "seg": 215,
+  "start": 738.048,
+  "end": 738.809,
+  "speaker": "Claire Vo",
+  "en": "And there's a duplicate.",
+  "zh": "而且有一张重复的。"
+ },
+ {
+  "seg": 216,
+  "start": 738.829,
+  "end": 740.48,
+  "speaker": "Claire Vo",
+  "en": "So you have to kind of like work around that.",
+  "zh": "所以你得绕过这些问题。"
+ },
+ {
+  "seg": 217,
+  "start": 740.53,
+  "end": 744.152,
+  "speaker": "Claire Vo",
+  "en": "And there's a prompt injection task in the instructions.",
+  "zh": "而且指令里有一个提示词注入任务。"
+ },
+ {
+  "seg": 218,
+  "start": 744.772,
+  "end": 745.9830000000001,
+  "speaker": "Claire Vo",
+  "en": "And it did a really good job.",
+  "zh": "它做得非常出色。"
+ },
+ {
+  "seg": 219,
+  "start": 746.033,
+  "end": 746.794,
+  "speaker": "Claire Vo",
+  "en": "It investigated.",
+  "zh": "它做了调查。"
+ },
+ {
+  "seg": 220,
+  "start": 746.814,
+  "end": 749.095,
+  "speaker": "Claire Vo",
+  "en": "It fixed the link for the right customer.",
+  "zh": "它修正了正确客户的关联。"
+ },
+ {
+  "seg": 221,
+  "start": 749.623,
+  "end": 752.5020000000001,
+  "speaker": "Claire Vo",
+  "en": "It issued the correct refund because it was a duplicate.",
+  "zh": "它发放了正确的退款，因为那是一张重复的。"
+ },
+ {
+  "seg": 222,
+  "start": 752.552,
+  "end": 755.9408888888889,
+  "speaker": "Claire Vo",
+  "en": "It made the plan change and then it replied and marked solve.",
+  "zh": "它做了套餐变更，然后回复并标记为已解决。"
+ },
+ {
+  "seg": 223,
+  "start": 757.933,
+  "end": 759.0840000000001,
+  "speaker": "Claire Vo",
+  "en": "The best of all of them.",
+  "zh": "所有里面表现最好的。"
+ },
+ {
+  "seg": 224,
+  "start": 759.134,
+  "end": 761.636,
+  "speaker": "Claire Vo",
+  "en": "It worked through that in a clear way.",
+  "zh": "它以一种清晰的方式完成了这一切。"
+ },
+ {
+  "seg": 225,
+  "start": 761.656,
+  "end": 766.72,
+  "speaker": "Claire Vo",
+  "en": "It hit all of our planted kind of things that could go wrong.",
+  "zh": "它触发了我们预设的所有可能出错的地方。"
+ },
+ {
+  "seg": 226,
+  "start": 766.74,
+  "end": 768.461,
+  "speaker": "Claire Vo",
+  "en": "It did really well.",
+  "zh": "它表现得非常好。"
+ },
+ {
+  "seg": 227,
+  "start": 768.522,
+  "end": 772.405,
+  "speaker": "Claire Vo",
+  "en": "So if you're thinking about how to test what is a good agent,",
+  "zh": "所以如果你在思考如何测试什么是一个好的智能体，"
+ },
+ {
+  "seg": 228,
+  "start": 772.905,
+  "end": 778.67,
+  "speaker": "Claire Vo",
+  "en": "I think figuring out how to navigate a complex SaaS app and resolve a complex kind",
+  "zh": "我觉得弄清楚如何导航一个复杂的 SaaS 应用并解决一个复杂的"
+ },
+ {
+  "seg": 229,
+  "start": 778.71,
+  "end": 780.411,
+  "speaker": "Claire Vo",
+  "en": "of like customer problem is a great one,",
+  "zh": "客户问题就是一个很好的测试，"
+ },
+ {
+  "seg": 230,
+  "start": 780.431,
+  "end": 784.744,
+  "speaker": "Claire Vo",
+  "en": "which is why we use this billing ticket as a Test case for this bench.",
+  "zh": "这也是我们用这张账务工单作为这个基准测试用例的原因。"
+ },
+ {
+  "seg": 231,
+  "start": 784.804,
+  "end": 787.077,
+  "speaker": "Claire Vo",
+  "en": "Now, the other two things that I thought I did really well,",
+  "zh": "现在，另外两件我认为它做得非常好的事，"
+ },
+ {
+  "seg": 232,
+  "start": 787.127,
+  "end": 791.991,
+  "speaker": "Claire Vo",
+  "en": "and I ranked it five on both of them, is I would let Muse write emails for me.",
+  "zh": "我在两项上都给了五分，就是我会让 Muse 替我写邮件。"
+ },
+ {
+  "seg": 233,
+  "start": 792.151,
+  "end": 794.2230000000001,
+  "speaker": "Claire Vo",
+  "en": "Now, my emails are two sentences long.",
+  "zh": "我的邮件只有两句话长。"
+ },
+ {
+  "seg": 234,
+  "start": 794.273,
+  "end": 797.216,
+  "speaker": "Claire Vo",
+  "en": "So I'm like, yep, sounds good.",
+  "zh": "所以我就像，好，听起来不错。"
+ },
+ {
+  "seg": 235,
+  "start": 797.556,
+  "end": 798.556,
+  "speaker": "Claire Vo",
+  "en": "Whatever.",
+  "zh": "随便。"
+ },
+ {
+  "seg": 236,
+  "start": 798.637,
+  "end": 800.509,
+  "speaker": "Claire Vo",
+  "en": "See, like that's how I send emails.",
+  "zh": "看，我就是这么发邮件的。"
+ },
+ {
+  "seg": 237,
+  "start": 800.559,
+  "end": 802.641,
+  "speaker": "Claire Vo",
+  "en": "And Muse did a really nice job.",
+  "zh": "而 Muse 做得非常不错。"
+ },
+ {
+  "seg": 238,
+  "start": 804.303,
+  "end": 807.107,
+  "speaker": "Claire Vo",
+  "en": "So I will trust Muse,",
+  "zh": "所以我会信任 Muse,"
+ },
+ {
+  "seg": 239,
+  "start": 807.288,
+  "end": 812.656,
+  "speaker": "Claire Vo",
+  "en": "Agent Muse to write emails for me and I will trust Model Muse to write emails",
+  "zh": "智能体 Muse 替我写邮件，我也会信任模型 Muse 替我"
+ },
+ {
+  "seg": 240,
+  "start": 812.696,
+  "end": 812.936,
+  "speaker": "Claire Vo",
+  "en": "for me.",
+  "zh": "写邮件。"
+ },
+ {
+  "seg": 241,
+  "start": 812.976,
+  "end": 816.641,
+  "speaker": "Claire Vo",
+  "en": "It just really followed my instructions quite well.",
+  "zh": "它确实很准确地遵循了我的指令。"
+ },
+ {
+  "seg": 242,
+  "start": 817.743,
+  "end": 822.586,
+  "speaker": "Claire Vo",
+  "en": "This is like conversational basic voice in my voice assistant test,",
+  "zh": "这就是我的语音助手测试中的对话式基础语音，"
+ },
+ {
+  "seg": 243,
+  "start": 822.606,
+  "end": 825.188,
+  "speaker": "Claire Vo",
+  "en": "which is basically like if I plug this model into an open club,",
+  "zh": "基本上就是如果我把这个模型接进一个开放俱乐部，"
+ },
+ {
+  "seg": 244,
+  "start": 825.208,
+  "end": 826.708,
+  "speaker": "Claire Vo",
+  "en": "would I like talking to it?",
+  "zh": "我会喜欢和它交谈吗？"
+ },
+ {
+  "seg": 245,
+  "start": 827.049,
+  "end": 832.612,
+  "speaker": "Claire Vo",
+  "en": "And you can see here, it's got like a nice consumer-y human voice to it.",
+  "zh": "你可以看到，它有一种不错的、消费级的、有人情味的声音。"
+ },
+ {
+  "seg": 246,
+  "start": 832.672,
+  "end": 834.794,
+  "speaker": "Claire Vo",
+  "en": "So it's like a little slop.",
+  "zh": "所以它有点 AI 味。"
+ },
+ {
+  "seg": 247,
+  "start": 834.894,
+  "end": 838.696,
+  "speaker": "Claire Vo",
+  "en": "There are em dashes in here, but again, it's not annoying.",
+  "zh": "里面有破折号，但同样，它不烦人。"
+ },
+ {
+  "seg": 248,
+  "start": 838.736,
+  "end": 839.736,
+  "speaker": "Claire Vo",
+  "en": "It's not cloying.",
+  "zh": "它不腻人。"
+ },
+ {
+  "seg": 249,
+  "start": 839.797,
+  "end": 844.3,
+  "speaker": "Claire Vo",
+  "en": "It's just kind of a nice, straightforward, personable voice assistant.",
+  "zh": "它就是一个不错的、直截了当的、亲切的语音助手。"
+ },
+ {
+  "seg": 250,
+  "start": 844.36,
+  "end": 846.5266666666666,
+  "speaker": "Claire Vo",
+  "en": "So this one is the one that Sonnet has.",
+  "zh": "所以这个是 Sonnet 所拥有的。"
+ },
+ {
+  "seg": 251,
+  "start": 847.082,
+  "end": 848.723,
+  "speaker": "Claire Vo",
+  "en": "Has been dominating in the bench.",
+  "zh": "一直在 bench 上占据主导。"
+ },
+ {
+  "seg": 252,
+  "start": 848.763,
+  "end": 852.316,
+  "speaker": "Claire Vo",
+  "en": "And I think Muse is like right up there with Sonnet Performance.",
+  "zh": "而且我觉得 Muse 在性能上和 Sonnet 不相上下。"
+ },
+ {
+  "seg": 253,
+  "start": 852.366,
+  "end": 853.2370000000001,
+  "speaker": "Claire Vo",
+  "en": "And so again,",
+  "zh": "所以再说一次,"
+ },
+ {
+  "seg": 254,
+  "start": 853.287,
+  "end": 854.928,
+  "speaker": "Claire Vo",
+  "en": "like if you are building a,",
+  "zh": "比如,如果你正在构建一个,"
+ },
+ {
+  "seg": 255,
+  "start": 855.469,
+  "end": 857.09,
+  "speaker": "Claire Vo",
+  "en": "especially a personal agent,",
+  "zh": "尤其是个人智能体,"
+ },
+ {
+  "seg": 256,
+  "start": 857.631,
+  "end": 859.452,
+  "speaker": "Claire Vo",
+  "en": "maybe a knowledge agent,",
+  "zh": "也许是知识智能体,"
+ },
+ {
+  "seg": 257,
+  "start": 859.872,
+  "end": 863.616,
+  "speaker": "Claire Vo",
+  "en": "and you're looking for that like central orchestrator voice,",
+  "zh": "它就是缺少那种精致感。"
+ },
+ {
+  "seg": 258,
+  "start": 864.677,
+  "end": 866.8436666666666,
+  "speaker": "Claire Vo",
+  "en": "Muse Wonder might be the thing for you.",
+  "zh": "那么 Muse Wonder 可能就是适合你的东西。"
+ },
+ {
+  "seg": 259,
+  "start": 866.958,
+  "end": 869.06,
+  "speaker": "Claire Vo",
+  "en": "So I think it's done really well at that.",
+  "zh": "所以我认为它在这方面做得非常好。"
+ },
+ {
+  "seg": 260,
+  "start": 869.1,
+  "end": 871.022,
+  "speaker": "Claire Vo",
+  "en": "You can tell it's focused on that.",
+  "zh": "你可以看出它就是专注于这方面的。"
+ },
+ {
+  "seg": 261,
+  "start": 871.582,
+  "end": 874.7486666666666,
+  "speaker": "Claire Vo",
+  "en": "And it's just demonstrated those capabilities end to end.",
+  "zh": "而且它端到端地展示了这些能力。"
+ },
+ {
+  "seg": 262,
+  "start": 874.962,
+  "end": 876.945,
+  "speaker": "Claire Vo",
+  "en": "Now, where did it do more poorly?",
+  "zh": "那么,它在哪里表现得较差呢?"
+ },
+ {
+  "seg": 263,
+  "start": 876.965,
+  "end": 880.19,
+  "speaker": "Claire Vo",
+  "en": "It does not write PRDs well.",
+  "zh": "它写 PRD 写得不好。"
+ },
+ {
+  "seg": 264,
+  "start": 880.931,
+  "end": 882.653,
+  "speaker": "Claire Vo",
+  "en": "It was a short PRD, which I love.",
+  "zh": "那是一份很短的 PRD,这一点我很喜欢。"
+ },
+ {
+  "seg": 265,
+  "start": 882.673,
+  "end": 884.616,
+  "speaker": "Claire Vo",
+  "en": "It followed a template, which I love.",
+  "zh": "它遵循了模板,这一点我也很喜欢。"
+ },
+ {
+  "seg": 266,
+  "start": 884.656,
+  "end": 887.1004444444444,
+  "speaker": "Claire Vo",
+  "en": "But you can see here we had some formatting.",
+  "zh": "但你可以看到我们这里有一些格式。"
+ },
+ {
+  "seg": 267,
+  "start": 887.842,
+  "end": 888.4730000000001,
+  "speaker": "Claire Vo",
+  "en": "Issues.",
+  "zh": "问题。"
+ },
+ {
+  "seg": 268,
+  "start": 888.523,
+  "end": 891.886,
+  "speaker": "Claire Vo",
+  "en": "It's a little hard to scan and it was very, very short.",
+  "zh": "它有点难以浏览,而且非常非常短。"
+ },
+ {
+  "seg": 269,
+  "start": 892.666,
+  "end": 896.019,
+  "speaker": "Claire Vo",
+  "en": "And I just didn't think it had the detail compared to the other PRDs",
+  "zh": "而且我只是觉得和其他智能体生成的 PRD 相比,"
+ },
+ {
+  "seg": 270,
+  "start": 896.069,
+  "end": 898.311,
+  "speaker": "Claire Vo",
+  "en": "that were generated by the other agents.",
+  "zh": "它缺乏细节。"
+ },
+ {
+  "seg": 271,
+  "start": 898.351,
+  "end": 900.293,
+  "speaker": "Claire Vo",
+  "en": "So wasn't in love with PRDs.",
+  "zh": "所以对 PRD 不太满意。"
+ },
+ {
+  "seg": 272,
+  "start": 900.313,
+  "end": 903.896,
+  "speaker": "Claire Vo",
+  "en": "And then where it really fell down was design.",
+  "zh": "然后它真正垮掉的地方是设计。"
+ },
+ {
+  "seg": 273,
+  "start": 904.497,
+  "end": 907.039,
+  "speaker": "Claire Vo",
+  "en": "And so if you see here, I'm just going to click through.",
+  "zh": "你看这里,我就点击浏览一下。"
+ },
+ {
+  "seg": 274,
+  "start": 907.059,
+  "end": 908.621,
+  "speaker": "Claire Vo",
+  "en": "Actually, I'm going to open up the full outputs.",
+  "zh": "实际上,我要打开完整的输出。"
+ },
+ {
+  "seg": 275,
+  "start": 908.641,
+  "end": 910.332,
+  "speaker": "Claire Vo",
+  "en": "I'm going to click through the designs.",
+  "zh": "我要点击浏览这些设计。"
+ },
+ {
+  "seg": 276,
+  "start": 910.382,
+  "end": 912.7330000000001,
+  "speaker": "Claire Vo",
+  "en": "This is supposed to be an editorial assignment desk.",
+  "zh": "这本应是一个编辑任务台。"
+ },
+ {
+  "seg": 277,
+  "start": 912.783,
+  "end": 914.373,
+  "speaker": "Claire Vo",
+  "en": "We've seen this a couple times.",
+  "zh": "我们已经看过这个好几次了。"
+ },
+ {
+  "seg": 278,
+  "start": 914.423,
+  "end": 918.755,
+  "speaker": "Claire Vo",
+  "en": "It's kind of like middle of the line design, but a lot of the things didn't work.",
+  "zh": "这算是中规中矩的设计,但很多东西都没法用。"
+ },
+ {
+  "seg": 279,
+  "start": 918.805,
+  "end": 925.007,
+  "speaker": "Claire Vo",
+  "en": "One of the things that I really test in terms of prototypes is how much of the stuff works.",
+  "zh": "我在原型方面真正测试的事情之一就是有多少东西是能用的。"
+ },
+ {
+  "seg": 280,
+  "start": 925.387,
+  "end": 930.809,
+  "speaker": "Claire Vo",
+  "en": "And a lot of things just didn't click or do anything interesting.",
+  "zh": "而很多东西就是点不动,或者没有任何有趣的反应。"
+ },
+ {
+  "seg": 281,
+  "start": 930.969,
+  "end": 934.6912222222222,
+  "speaker": "Claire Vo",
+  "en": "And so it's hard to understand what this prototype is trying to do.",
+  "zh": "所以很难理解这个原型想做什么。"
+ },
+ {
+  "seg": 282,
+  "start": 934.95,
+  "end": 939.293,
+  "speaker": "Claire Vo",
+  "en": "Same with kind of like these more complicated UI designs.",
+  "zh": "这些更复杂的 UI 设计也是类似的情况。"
+ },
+ {
+  "seg": 283,
+  "start": 939.313,
+  "end": 940.5352222222222,
+  "speaker": "Claire Vo",
+  "en": "We do a doc scheduler.",
+  "zh": "我们做一个文档调度器。"
+ },
+ {
+  "seg": 284,
+  "start": 940.734,
+  "end": 942.655,
+  "speaker": "Claire Vo",
+  "en": "We do like an incident room.",
+  "zh": "我们做一个类似事故处理室的东西。"
+ },
+ {
+  "seg": 285,
+  "start": 942.775,
+  "end": 943.705,
+  "speaker": "Claire Vo",
+  "en": "And both of these,",
+  "zh": "而这两个,"
+ },
+ {
+  "seg": 286,
+  "start": 943.755,
+  "end": 948.278,
+  "speaker": "Claire Vo",
+  "en": "what's super frustrating is it gets like 80% of it right,",
+  "zh": "最让人沮丧的是它做对了大约 80%,"
+ },
+ {
+  "seg": 287,
+  "start": 948.318,
+  "end": 950.3090000000001,
+  "speaker": "Claire Vo",
+  "en": "and then it just totally falls down.",
+  "zh": "然后就彻底垮掉了。"
+ },
+ {
+  "seg": 288,
+  "start": 950.359,
+  "end": 953.401,
+  "speaker": "Claire Vo",
+  "en": "And so this, I pulled it up at first, this doc scheduler app.",
+  "zh": "所以这个,我一开始点开这个文档调度器应用时,"
+ },
+ {
+  "seg": 289,
+  "start": 953.421,
+  "end": 954.682,
+  "speaker": "Claire Vo",
+  "en": "I was like, oh, it's using color, right?",
+  "zh": "我想,哦,它用了颜色,对吧?"
+ },
+ {
+  "seg": 290,
+  "start": 954.702,
+  "end": 955.772,
+  "speaker": "Claire Vo",
+  "en": "It's doing all these things.",
+  "zh": "它做了所有这些事情。"
+ },
+ {
+  "seg": 291,
+  "start": 955.822,
+  "end": 960.385,
+  "speaker": "Claire Vo",
+  "en": "But then as I clicked through, some of the stuff like this Xbox doesn't work.",
+  "zh": "但当我点击浏览时,有些东西,比如这个 Xbox,就用不了。"
+ },
+ {
+  "seg": 292,
+  "start": 960.645,
+  "end": 961.696,
+  "speaker": "Claire Vo",
+  "en": "Does it look good?",
+  "zh": "它看起来好吗?"
+ },
+ {
+  "seg": 293,
+  "start": 961.746,
+  "end": 964.4682222222222,
+  "speaker": "Claire Vo",
+  "en": "There's just this polish to it that wasn't there.",
+  "zh": "它有一种之前没有的精致感。"
+ },
+ {
+  "seg": 294,
+  "start": 964.747,
+  "end": 967.568,
+  "speaker": "Claire Vo",
+  "en": "That was even worse in this incident management platform",
+  "zh": "在这个事故管理平台上情况更糟,"
+ },
+ {
+  "seg": 295,
+  "start": 967.588,
+  "end": 970.48,
+  "speaker": "Claire Vo",
+  "en": "where I told it specifically to be dark mode because it was a dev tool",
+  "zh": "我明确告诉它要用深色模式,因为它是一个开发者工具,"
+ },
+ {
+  "seg": 296,
+  "start": 970.53,
+  "end": 972.4188888888889,
+  "speaker": "Claire Vo",
+  "en": "and all developers need dark mode.",
+  "zh": "而所有开发者都需要深色模式。"
+ },
+ {
+  "seg": 297,
+  "start": 972.591,
+  "end": 975.972,
+  "speaker": "Claire Vo",
+  "en": "It did in light mode and had this like horrible overlay.",
+  "zh": "它却做成了浅色模式,还有这个糟糕的覆盖层。"
+ },
+ {
+  "seg": 298,
+  "start": 976.032,
+  "end": 976.643,
+  "speaker": "Claire Vo",
+  "en": "So again,",
+  "zh": "所以再说一次,"
+ },
+ {
+  "seg": 299,
+  "start": 976.693,
+  "end": 982.315,
+  "speaker": "Claire Vo",
+  "en": "I just got a lot more errors in front-end coding with Meta Muse Wonder than I have",
+  "zh": "我用 Meta Muse Wonder 做前端编码时遇到的错误比我以往遇到的"
+ },
+ {
+  "seg": 300,
+  "start": 982.375,
+  "end": 985.657,
+  "speaker": "Claire Vo",
+  "en": "with these other models in a really long time.",
+  "zh": "和这些其他模型在一起很长时间了。"
+ },
+ {
+  "seg": 301,
+  "start": 985.737,
+  "end": 989.424,
+  "speaker": "Claire Vo",
+  "en": "And then I had this like sort of consistent Slop style.",
+  "zh": "然后它有这种比较一致的 Slop 风格。"
+ },
+ {
+  "seg": 302,
+  "start": 989.925,
+  "end": 994.109,
+  "speaker": "Claire Vo",
+  "en": "Again, I think I can probably at this point tell slop per model,",
+  "zh": "再说一次，我觉得我到现在大概能分辨出每个模型的 slop,"
+ },
+ {
+  "seg": 303,
+  "start": 994.169,
+  "end": 997.2801111111111,
+  "speaker": "Claire Vo",
+  "en": "like what kind of slop I'm going to get from what model.",
+  "zh": "就是我会从哪个模型得到什么样的 slop。"
+ },
+ {
+  "seg": 304,
+  "start": 997.752,
+  "end": 1004.752,
+  "speaker": "Claire Vo",
+  "en": "And Metamuse is going to give you fat serif fonts, this kind of font, and rounded corner slop.",
+  "zh": "而 Metamuse 会给你肥大的衬线字体、这种字体、还有圆角 slop。"
+ },
+ {
+  "seg": 305,
+  "start": 1006.36,
+  "end": 1008.6377777777778,
+  "speaker": "Claire Vo",
+  "en": "It's just going to give you like basic...",
+  "zh": "它只会给你很基础的……"
+ },
+ {
+  "seg": 306,
+  "start": 1009.48,
+  "end": 1014.502,
+  "speaker": "Claire Vo",
+  "en": "Template, boilerplate, SAS, slop across the app.",
+  "zh": "模板、样板代码、SAS 风格的 slop,遍布整个应用。"
+ },
+ {
+  "seg": 307,
+  "start": 1014.522,
+  "end": 1017.224,
+  "speaker": "Claire Vo",
+  "en": "So you'll see in this B2B Renewals app and this Plant Care app,",
+  "zh": "所以你会在这个 B2B Renewals 应用和这个 Plant Care 应用里看到，"
+ },
+ {
+  "seg": 308,
+  "start": 1017.264,
+  "end": 1021.726,
+  "speaker": "Claire Vo",
+  "en": "you just are going to get the same kind of like design components.",
+  "zh": "你就是会得到同样那种设计组件。"
+ },
+ {
+  "seg": 309,
+  "start": 1022.566,
+  "end": 1025.287,
+  "speaker": "Claire Vo",
+  "en": "They're fine, but they're not beautiful.",
+  "zh": "它们还行，但不漂亮。"
+ },
+ {
+  "seg": 310,
+  "start": 1025.347,
+  "end": 1029.969,
+  "speaker": "Claire Vo",
+  "en": "And I don't think they're what like a Astra or Opus 5.5 would generate.",
+  "zh": "而且我不觉得它们是像 Astra 或 Opus 5.5 会生成的那种。"
+ },
+ {
+  "seg": 311,
+  "start": 1030.049,
+  "end": 1034.211,
+  "speaker": "Claire Vo",
+  "en": "And the worst thing it did was the ChatPRD website,",
+  "zh": "它干的最糟糕的事情是 ChatPRD 网站，"
+ },
+ {
+  "seg": 312,
+  "start": 1034.271,
+  "end": 1038.473,
+  "speaker": "Claire Vo",
+  "en": "which I have to show off, just got a beautiful refresh.",
+  "zh": "我必须展示一下，它刚刚做了一次漂亮的改版。"
+ },
+ {
+  "seg": 313,
+  "start": 1039.03,
+  "end": 1039.961,
+  "speaker": "Claire Vo",
+  "en": "It's so stunning.",
+  "zh": "它太惊艳了。"
+ },
+ {
+  "seg": 314,
+  "start": 1040.011,
+  "end": 1042.192,
+  "speaker": "Claire Vo",
+  "en": "I did an Opus 5-5 redesign.",
+  "zh": "我做了一次 Opus 5-5 重新设计。"
+ },
+ {
+  "seg": 315,
+  "start": 1042.732,
+  "end": 1044.013,
+  "speaker": "Claire Vo",
+  "en": "It's so pretty.",
+  "zh": "它太漂亮了。"
+ },
+ {
+  "seg": 316,
+  "start": 1044.213,
+  "end": 1048.876,
+  "speaker": "Claire Vo",
+  "en": "It's got these like beautiful little interactive components to it.",
+  "zh": "它有这些漂亮的小交互组件。"
+ },
+ {
+  "seg": 317,
+  "start": 1049.876,
+  "end": 1050.727,
+  "speaker": "Claire Vo",
+  "en": "It's just lovely.",
+  "zh": "就是很有爱。"
+ },
+ {
+  "seg": 318,
+  "start": 1050.777,
+  "end": 1055.699,
+  "speaker": "Claire Vo",
+  "en": "We love the Chat Purdy website and Muse obliterated it.",
+  "zh": "我们很爱 Chat Purdy 网站，而 Muse 把它毁得面目全非。"
+ },
+ {
+  "seg": 319,
+  "start": 1056.16,
+  "end": 1058.481,
+  "speaker": "Claire Vo",
+  "en": "Like it is so ugly.",
+  "zh": "就是太丑了。"
+ },
+ {
+  "seg": 320,
+  "start": 1058.501,
+  "end": 1061.122,
+  "speaker": "Claire Vo",
+  "en": "The images are broken.",
+  "zh": "图片是坏的。"
+ },
+ {
+  "seg": 321,
+  "start": 1061.142,
+  "end": 1062.383,
+  "speaker": "Claire Vo",
+  "en": "It isn't even in our",
+  "zh": "它甚至都不符合我们的"
+ },
+ {
+  "seg": 322,
+  "start": 1064.522,
+  "end": 1066.535,
+  "speaker": "Claire Vo",
+  "en": "Kind of like brand design guidelines.",
+  "zh": "那种品牌设计规范。"
+ },
+ {
+  "seg": 323,
+  "start": 1066.585,
+  "end": 1067.946,
+  "speaker": "Claire Vo",
+  "en": "It has access to our guidelines.",
+  "zh": "它是可以访问我们的规范的。"
+ },
+ {
+  "seg": 324,
+  "start": 1067.966,
+  "end": 1068.958,
+  "speaker": "Claire Vo",
+  "en": "It just didn't do it.",
+  "zh": "它就是没照着做。"
+ },
+ {
+  "seg": 325,
+  "start": 1069.008,
+  "end": 1070.89,
+  "speaker": "Claire Vo",
+  "en": "This was so disappointing.",
+  "zh": "这真的太让人失望了。"
+ },
+ {
+  "seg": 326,
+  "start": 1071.07,
+  "end": 1077.038,
+  "speaker": "Claire Vo",
+  "en": "And again, like using emojis, all sorts of stuff that's just like old timey slop we don't like.",
+  "zh": "而且还有，用表情符号之类的各种东西，就是我们不喜欢的老派 slop。"
+ },
+ {
+  "seg": 327,
+  "start": 1077.138,
+  "end": 1083.146,
+  "speaker": "Claire Vo",
+  "en": "And so I don't I would not reach for Muse Wonder on front end web design.",
+  "zh": "所以我不，我不会在前端网页设计上选 Muse Wonder。"
+ },
+ {
+  "seg": 328,
+  "start": 1083.833,
+  "end": 1085.604,
+  "speaker": "Claire Vo",
+  "en": "It's just not going to be the model I reach for.",
+  "zh": "它不会是我会选的那个模型。"
+ },
+ {
+  "seg": 329,
+  "start": 1085.654,
+  "end": 1088.276,
+  "speaker": "Claire Vo",
+  "en": "I just do not think it's very good.",
+  "zh": "我就是不觉得它很好。"
+ },
+ {
+  "seg": 330,
+  "start": 1088.677,
+  "end": 1091.879,
+  "speaker": "Claire Vo",
+  "en": "Now, I haven't tested it with games, for example.",
+  "zh": "现在，我还没用它测过游戏，比如。"
+ },
+ {
+  "seg": 331,
+  "start": 1092.019,
+  "end": 1095.407888888889,
+  "speaker": "Claire Vo",
+  "en": "I need to press on it more from a back-end coding experience.",
+  "zh": "我需要从后端编码体验的角度再按一按它。"
+ },
+ {
+  "seg": 332,
+  "start": 1095.602,
+  "end": 1098.554,
+  "speaker": "Claire Vo",
+  "en": "But I'll just say for a lot of you, you're saying like, can I VibeCone something?",
+  "zh": "但我只想对你们很多人说，你们在问，我能 VibeCone 一个东西吗？"
+ },
+ {
+  "seg": 333,
+  "start": 1098.604,
+  "end": 1100.045,
+  "speaker": "Claire Vo",
+  "en": "Can I build an app for my kids?",
+  "zh": "我能为我的孩子做一个应用吗？"
+ },
+ {
+  "seg": 334,
+  "start": 1100.065,
+  "end": 1101.927,
+  "speaker": "Claire Vo",
+  "en": "Can I build something for work?",
+  "zh": "我能为工作做点什么吗？"
+ },
+ {
+  "seg": 335,
+  "start": 1102.047,
+  "end": 1106.07,
+  "speaker": "Claire Vo",
+  "en": "And I just, I don't love the front-end sensibility of a Metamuse.",
+  "zh": "而我只是，我不喜欢 Metamuse 的前端审美。"
+ },
+ {
+  "seg": 336,
+  "start": 1107.114,
+  "end": 1108.265,
+  "speaker": "Claire Vo",
+  "en": "I just don't enjoy it.",
+  "zh": "我就是不享受它。"
+ },
+ {
+  "seg": 337,
+  "start": 1108.315,
+  "end": 1111.4260000000002,
+  "speaker": "Claire Vo",
+  "en": "Finally, we can get to the creative aspects of Metamuse.",
+  "zh": "最后，我们可以聊到 Metamuse 的创意方面了。"
+ },
+ {
+  "seg": 338,
+  "start": 1111.476,
+  "end": 1113.076,
+  "speaker": "Claire Vo",
+  "en": "I do two tasks here.",
+  "zh": "我在这里做两个任务。"
+ },
+ {
+  "seg": 339,
+  "start": 1113.637,
+  "end": 1117.098,
+  "speaker": "Claire Vo",
+  "en": "I have it make some SVGs and then I have it cut a short form video.",
+  "zh": "我让它做一些 SVG,然后我让它剪一个短视频。"
+ },
+ {
+  "seg": 340,
+  "start": 1117.118,
+  "end": 1118.229111111111,
+  "speaker": "Claire Vo",
+  "en": "Let's look at those.",
+  "zh": "我们来看看那些。"
+ },
+ {
+  "seg": 341,
+  "start": 1118.479,
+  "end": 1119.209,
+  "speaker": "Claire Vo",
+  "en": "The SVGs,",
+  "zh": "那些 SVG,"
+ },
+ {
+  "seg": 342,
+  "start": 1119.259,
+  "end": 1119.779,
+  "speaker": "Claire Vo",
+  "en": "first of all,",
+  "zh": "首先，"
+ },
+ {
+  "seg": 343,
+  "start": 1119.799,
+  "end": 1122.18,
+  "speaker": "Claire Vo",
+  "en": "I just have to say like a year ago,",
+  "zh": "我必须说，就在一年前，"
+ },
+ {
+  "seg": 344,
+  "start": 1122.2,
+  "end": 1126.2,
+  "speaker": "Claire Vo",
+  "en": "if you would have told me that you could get coded SVGs at this quality,",
+  "zh": "如果你告诉我可以用代码生成这种质量的 SVG,"
+ },
+ {
+  "seg": 345,
+  "start": 1126.282,
+  "end": 1127.272,
+  "speaker": "Claire Vo",
+  "en": "it would have blown my mind.",
+  "zh": "那会让我震惊。"
+ },
+ {
+  "seg": 346,
+  "start": 1127.322,
+  "end": 1129.643,
+  "speaker": "Claire Vo",
+  "en": "So again, we're spoiled for choice here.",
+  "zh": "所以再说一次，我们在这里被选择宠坏了。"
+ },
+ {
+  "seg": 347,
+  "start": 1130.215,
+  "end": 1132.547,
+  "speaker": "Claire Vo",
+  "en": "I cannot believe how good these new frontier models are",
+  "zh": "我不敢相信这些新的前沿模型在"
+ },
+ {
+  "seg": 348,
+  "start": 1132.597,
+  "end": 1134.9303333333332,
+  "speaker": "Claire Vo",
+  "en": "at creating little illustrations and SVGs.",
+  "zh": "创作小插画和 SVG 方面这么好。"
+ },
+ {
+  "seg": 349,
+  "start": 1135.478,
+  "end": 1137.359,
+  "speaker": "Claire Vo",
+  "en": "This did a totally fine job.",
+  "zh": "这个做得完全没问题。"
+ },
+ {
+  "seg": 350,
+  "start": 1137.399,
+  "end": 1139.06,
+  "speaker": "Claire Vo",
+  "en": "This is totally fine.",
+  "zh": "这完全没问题。"
+ },
+ {
+  "seg": 351,
+  "start": 1139.24,
+  "end": 1140.121,
+  "speaker": "Claire Vo",
+  "en": "Totally fine.",
+  "zh": "完全没问题。"
+ },
+ {
+  "seg": 352,
+  "start": 1140.141,
+  "end": 1140.841,
+  "speaker": "Claire Vo",
+  "en": "They're so cute.",
+  "zh": "它们太可爱了。"
+ },
+ {
+  "seg": 353,
+  "start": 1140.861,
+  "end": 1141.861,
+  "speaker": "Claire Vo",
+  "en": "It's a little PRD.",
+  "zh": "这是个小小的 PRD。"
+ },
+ {
+  "seg": 354,
+  "start": 1142.309,
+  "end": 1143.5,
+  "speaker": "Claire Vo",
+  "en": "It's a little microphone.",
+  "zh": "这是个小小的麦克风。"
+ },
+ {
+  "seg": 355,
+  "start": 1143.55,
+  "end": 1144.55,
+  "speaker": "Claire Vo",
+  "en": "It's a little bug.",
+  "zh": "这是个小小的 bug。"
+ },
+ {
+  "seg": 356,
+  "start": 1144.611,
+  "end": 1148.914,
+  "speaker": "Claire Vo",
+  "en": "That being said, it just was the worst of the bunch or seventh out of eight.",
+  "zh": "话虽如此，它就是这一批里最差的，八分之七。"
+ },
+ {
+  "seg": 357,
+  "start": 1149.894,
+  "end": 1151.8384444444443,
+  "speaker": "Claire Vo",
+  "en": "Sol and Astra were so good at this.",
+  "zh": "Sol 和 Astra 在这件事上非常出色。"
+ },
+ {
+  "seg": 358,
+  "start": 1152.096,
+  "end": 1153.707111111111,
+  "speaker": "Claire Vo",
+  "en": "Opus 5.5 was so good at this.",
+  "zh": "Opus 5.5 在这件事上非常出色。"
+ },
+ {
+  "seg": 359,
+  "start": 1154.238,
+  "end": 1159.181,
+  "speaker": "Claire Vo",
+  "en": "And I would just say like Muse was okay, but not great at it.",
+  "zh": "而我只想说，Muse 还算可以，但不算特别好。"
+ },
+ {
+  "seg": 360,
+  "start": 1159.341,
+  "end": 1162.784,
+  "speaker": "Claire Vo",
+  "en": "And I just think that this is one of those things where all",
+  "zh": "而我只是觉得，这是那种"
+ },
+ {
+  "seg": 361,
+  "start": 1162.824,
+  "end": 1165.212888888889,
+  "speaker": "Claire Vo",
+  "en": "the scores were compressed towards the top.",
+  "zh": "所有分数都被压缩在头部区间的情况之一。"
+ },
+ {
+  "seg": 362,
+  "start": 1165.326,
+  "end": 1166.957,
+  "speaker": "Claire Vo",
+  "en": "And so I'm not saying Muse is bad.",
+  "zh": "所以我不是说 Muse 很差。"
+ },
+ {
+  "seg": 363,
+  "start": 1167.007,
+  "end": 1171.33,
+  "speaker": "Claire Vo",
+  "en": "I'm just saying I wouldn't reach for it for that specific use case.",
+  "zh": "我只是说，针对那个特定用例，我不会选它。"
+ },
+ {
+  "seg": 364,
+  "start": 1171.911,
+  "end": 1175.332,
+  "speaker": "Claire Vo",
+  "en": "And then on to our very last creative task.",
+  "zh": "然后是我们的最后一个创意任务。"
+ },
+ {
+  "seg": 365,
+  "start": 1175.572,
+  "end": 1181.374,
+  "speaker": "Claire Vo",
+  "en": "I have these models cut a short form video of the How I AI content.",
+  "zh": "我让这些模型剪一个 How I AI 内容的短视频。"
+ },
+ {
+  "seg": 366,
+  "start": 1181.414,
+  "end": 1185.065,
+  "speaker": "Claire Vo",
+  "en": "Video editing is one of those things that I think these models are getting a lot better at.",
+  "zh": "视频剪辑是这些模型正在进步很快的事情之一。"
+ },
+ {
+  "seg": 367,
+  "start": 1185.115,
+  "end": 1187.216,
+  "speaker": "Claire Vo",
+  "en": "And so I'd like to test how it does.",
+  "zh": "所以我想测试一下它的表现。"
+ },
+ {
+  "seg": 368,
+  "start": 1187.396,
+  "end": 1189.087,
+  "speaker": "Claire Vo",
+  "en": "And I think when you watch this,",
+  "zh": "而且我觉得当你看这个的时候，"
+ },
+ {
+  "seg": 369,
+  "start": 1189.137,
+  "end": 1190.637,
+  "speaker": "Claire Vo",
+  "en": "which I will let you watch,",
+  "zh": "我会让你们看的，"
+ },
+ {
+  "seg": 370,
+  "start": 1191.017,
+  "end": 1194.429,
+  "speaker": "Claire Vo",
+  "en": "you will see that the design sensibility It is not quite there yet,",
+  "zh": "你会看到它的设计品味还没到位，"
+ },
+ {
+  "seg": 371,
+  "start": 1194.479,
+  "end": 1196.4,
+  "speaker": "Claire Vo",
+  "en": "although I do love this layout I'm going to think about.",
+  "zh": "不过我确实挺喜欢这个布局，我会考虑一下。"
+ },
+ {
+  "seg": 372,
+  "start": 1196.42,
+  "end": 1199.031,
+  "speaker": "Claire Vo",
+  "en": "I usually put my head up top and the image at the bottom.",
+  "zh": "我通常把我的头像放在上面，图像放在下面。"
+ },
+ {
+  "seg": 373,
+  "start": 1199.081,
+  "end": 1201.132,
+  "speaker": "Claire Vo",
+  "en": "I think about the image at the top and my head at the bottom.",
+  "zh": "这次是把图像放在上面，我的头像放在下面。"
+ },
+ {
+  "seg": 374,
+  "start": 1201.182,
+  "end": 1202.182,
+  "speaker": "Claire Vo",
+  "en": "That's not bad.",
+  "zh": "这还不错。"
+ },
+ {
+  "seg": 375,
+  "start": 1202.403,
+  "end": 1203.544,
+  "speaker": "Claire Vo",
+  "en": "But if you watch this video,",
+  "zh": "但如果你看这个视频，"
+ },
+ {
+  "seg": 376,
+  "start": 1203.564,
+  "end": 1207.005,
+  "speaker": "Claire Vo",
+  "en": "you can just see like it's pretty good at cutting the cuts,",
+  "zh": "你可以看到它在剪切点上剪得挺好，"
+ },
+ {
+  "seg": 377,
+  "start": 1207.166,
+  "end": 1209.467,
+  "speaker": "Claire Vo",
+  "en": "which a lot of models struggle with.",
+  "zh": "这是很多模型都做不到的。"
+ },
+ {
+  "seg": 378,
+  "start": 1209.527,
+  "end": 1212.208,
+  "speaker": "Claire Vo",
+  "en": "So it gets the timing almost 100% right.",
+  "zh": "所以它的时机把握几乎百分之百正确。"
+ },
+ {
+  "seg": 379,
+  "start": 1212.709,
+  "end": 1215.3,
+  "speaker": "Claire Vo",
+  "en": "But the overlays and the design are just really crummy.",
+  "zh": "但叠加层和设计真的非常糟糕。"
+ },
+ {
+  "seg": 380,
+  "start": 1215.35,
+  "end": 1219.072222222222,
+  "speaker": "Claire Vo",
+  "en": "And it did something with the audio because the audio is also good.",
+  "zh": "而且它对音频做了些什么，因为音频也还可以。"
+ },
+ {
+  "seg": 381,
+  "start": 1219.512,
+  "end": 1220.183,
+  "speaker": "Claire Vo",
+  "en": "Very strange.",
+  "zh": "非常奇怪。"
+ },
+ {
+  "seg": 382,
+  "start": 1220.233,
+  "end": 1222.025,
+  "speaker": "Claire Vo",
+  "en": "So let's watch it really quickly.",
+  "zh": "那我们快速看一下。"
+ },
+ {
+  "seg": 383,
+  "start": 1222.075,
+  "end": 1224.637,
+  "speaker": "Claire Vo",
+  "en": "So no complaints on agents or coding.",
+  "zh": "所以在智能体和编程方面没什么可抱怨的。"
+ },
+ {
+  "seg": 384,
+  "start": 1224.938,
+  "end": 1229.802,
+  "speaker": "Claire Vo",
+  "en": "Where it really started to fall off the cliff are on creative tasks.",
+  "zh": "它真正开始断崖式下滑的是创意任务。"
+ },
+ {
+  "seg": 385,
+  "start": 1229.882,
+  "end": 1232.705,
+  "speaker": "Claire Vo",
+  "en": "I think I've just been spoiled lately by Opus 5.5.",
+  "zh": "我想我最近只是被 Opus 5.5 惯坏了。"
+ },
+ {
+  "seg": 386,
+  "start": 1232.825,
+  "end": 1233.596,
+  "speaker": "Claire Vo",
+  "en": "I know, I know.",
+  "zh": "我知道，我知道。"
+ },
+ {
+  "seg": 387,
+  "start": 1233.646,
+  "end": 1238.01,
+  "speaker": "Claire Vo",
+  "en": "Your GPT girl here has been using Opus 5.5 because for creative tasks,",
+  "zh": "你们这位 GPT 女孩一直在用 Opus 5.5，因为对于创意任务，"
+ },
+ {
+  "seg": 388,
+  "start": 1238.07,
+  "end": 1242.735,
+  "speaker": "Claire Vo",
+  "en": "for design, for video, for art, it is just the best on the market right now.",
+  "zh": "对于设计、视频、艺术，它就是目前市面上最好的。"
+ },
+ {
+  "seg": 389,
+  "start": 1243.596,
+  "end": 1246.197,
+  "speaker": "Claire Vo",
+  "en": "So you can see like the captions are on my face.",
+  "zh": "所以你可以看到，字幕就压在我脸上。"
+ },
+ {
+  "seg": 390,
+  "start": 1246.217,
+  "end": 1247.488,
+  "speaker": "Claire Vo",
+  "en": "They're actually kind of ugly.",
+  "zh": "它们其实挺丑的。"
+ },
+ {
+  "seg": 391,
+  "start": 1247.538,
+  "end": 1250.759,
+  "speaker": "Claire Vo",
+  "en": "This like bar at the top, I don't like.",
+  "zh": "顶上这个横条，我不喜欢。"
+ },
+ {
+  "seg": 392,
+  "start": 1250.839,
+  "end": 1252.839,
+  "speaker": "Claire Vo",
+  "en": "Like this is not a short form video.",
+  "zh": "这不像是一个短视频。"
+ },
+ {
+  "seg": 393,
+  "start": 1253.18,
+  "end": 1256.457777777778,
+  "speaker": "Claire Vo",
+  "en": "I will run this though through a couple of my other skills.",
+  "zh": "不过我还是会把它跑过我的其他几个技能。"
+ },
+ {
+  "seg": 394,
+  "start": 1256.622,
+  "end": 1257.0520000000001,
+  "speaker": "Claire Vo",
+  "en": "We'll see.",
+  "zh": "到时候再看。"
+ },
+ {
+  "seg": 395,
+  "start": 1257.102,
+  "end": 1258.252,
+  "speaker": "Claire Vo",
+  "en": "I'm not calling it a no.",
+  "zh": "我不是说它不行。"
+ },
+ {
+  "seg": 396,
+  "start": 1258.302,
+  "end": 1259.9686666666666,
+  "speaker": "Claire Vo",
+  "en": "I'm just not calling it a yes.",
+  "zh": "我只是还没说它行。"
+ },
+ {
+  "seg": 397,
+  "start": 1260.023,
+  "end": 1262.264,
+  "speaker": "Claire Vo",
+  "en": "And then it did something very strange to the audio.",
+  "zh": "然后它对音频做了非常奇怪的处理。"
+ },
+ {
+  "seg": 398,
+  "start": 1262.284,
+  "end": 1265.135,
+  "speaker": "Claire Vo",
+  "en": "So I have to double down there and figure out what's going on.",
+  "zh": "所以我得再深入研究一下，搞清楚到底怎么回事。"
+ },
+ {
+  "seg": 399,
+  "start": 1265.185,
+  "end": 1267.0183333333332,
+  "speaker": "Claire Vo",
+  "en": "So I gave this a two out of five.",
+  "zh": "所以我给了它五分中的两分。"
+ },
+ {
+  "seg": 400,
+  "start": 1267.698,
+  "end": 1269.139,
+  "speaker": "Claire Vo",
+  "en": "It found the right 40 seconds.",
+  "zh": "它找到了正确的 40 秒。"
+ },
+ {
+  "seg": 401,
+  "start": 1269.179,
+  "end": 1272.361,
+  "speaker": "Claire Vo",
+  "en": "I think the track was great, but the video was not great.",
+  "zh": "你知道,"
+ },
+ {
+  "seg": 402,
+  "start": 1272.401,
+  "end": 1277.945,
+  "speaker": "Claire Vo",
+  "en": "And so again, for creative tasks, it just really didn't do the best.",
+  "zh": "所以再说一次,对于创意任务,它确实没有做到最好。"
+ },
+ {
+  "seg": 403,
+  "start": 1278.466,
+  "end": 1280.647,
+  "speaker": "Claire Vo",
+  "en": "Now, overall performance,",
+  "zh": "现在,整体性能方面,"
+ },
+ {
+  "seg": 404,
+  "start": 1280.707,
+  "end": 1284.6000000000001,
+  "speaker": "Claire Vo",
+  "en": "I will say one of the things that I noticed about MetaMuse is it is very fast and",
+  "zh": "我要说我注意到 MetaMuse 的一点是它非常快,"
+ },
+ {
+  "seg": 405,
+  "start": 1284.65,
+  "end": 1289.512,
+  "speaker": "Claire Vo",
+  "en": "with like sort of one shot fast tasks, it is fast.",
+  "zh": "对于那种一击即中的快速任务,它很快。"
+ },
+ {
+  "seg": 406,
+  "start": 1289.993,
+  "end": 1296.236,
+  "speaker": "Claire Vo",
+  "en": "And so notes to PRD, very fast, drawing characters, doing prototypes, very fast.",
+  "zh": "所以笔记转 PRD,非常快,画角色、做原型,非常快。"
+ },
+ {
+  "seg": 407,
+  "start": 1296.396,
+  "end": 1297.387,
+  "speaker": "Claire Vo",
+  "en": "It's a zippy model.",
+  "zh": "它是一个很轻快的模型。"
+ },
+ {
+  "seg": 408,
+  "start": 1297.437,
+  "end": 1299.938,
+  "speaker": "Claire Vo",
+  "en": "And I think you're going to like that again for that agentic voice,",
+  "zh": "而且我觉得你会喜欢这一点,尤其是那种智能体的口吻,"
+ },
+ {
+  "seg": 409,
+  "start": 1299.978,
+  "end": 1301.5891111111112,
+  "speaker": "Claire Vo",
+  "en": "that back and forth feedback.",
+  "zh": "那种一来一回的反馈。"
+ },
+ {
+  "seg": 410,
+  "start": 1301.655,
+  "end": 1305.757,
+  "speaker": "Claire Vo",
+  "en": "But when it does agentic tasks, it does take a long time.",
+  "zh": "但当它执行智能体任务时,确实要花很长时间。"
+ },
+ {
+  "seg": 411,
+  "start": 1305.817,
+  "end": 1309.879,
+  "speaker": "Claire Vo",
+  "en": "This might be that focused effort mode that they say that they have.",
+  "zh": "这可能就是他们所说的那种专注投入模式。"
+ },
+ {
+  "seg": 412,
+  "start": 1310.379,
+  "end": 1317.042,
+  "speaker": "Claire Vo",
+  "en": "And so it is spending a lot of time on things like the videos, inbox triage, backend features.",
+  "zh": "所以它会在像视频、收件箱分诊、后端功能这类事情上花很多时间。"
+ },
+ {
+  "seg": 413,
+  "start": 1317.122,
+  "end": 1318.663,
+  "speaker": "Claire Vo",
+  "en": "And so it'll be interesting to see,",
+  "zh": "所以这会很有意思,"
+ },
+ {
+  "seg": 414,
+  "start": 1318.683,
+  "end": 1319.703,
+  "speaker": "Claire Vo",
+  "en": "you know,",
+  "zh": "你知道,"
+ },
+ {
+  "seg": 415,
+  "start": 1319.803,
+  "end": 1323.585,
+  "speaker": "Claire Vo",
+  "en": "over short kind of like in the loop tasks versus long tasks,",
+  "zh": "在环内的短任务对比长任务,"
+ },
+ {
+  "seg": 416,
+  "start": 1323.785,
+  "end": 1325.4516666666668,
+  "speaker": "Claire Vo",
+  "en": "how the performance notes out.",
+  "zh": "看性能表现如何。"
+ },
+ {
+  "seg": 417,
+  "start": 1325.799,
+  "end": 1328.782,
+  "speaker": "Claire Vo",
+  "en": "I've just started to test this and keep track of performance,",
+  "zh": "我刚开始测试这个并记录性能,"
+ },
+ {
+  "seg": 418,
+  "start": 1328.802,
+  "end": 1330.573,
+  "speaker": "Claire Vo",
+  "en": "so I will do that in the next bench.",
+  "zh": "所以我会在下次基准测试中做这件事。"
+ },
+ {
+  "seg": 419,
+  "start": 1330.623,
+  "end": 1335.267,
+  "speaker": "Claire Vo",
+  "en": "So I will just say little tasks fast, long tasks a little bit longer.",
+  "zh": "所以我就说,小任务快,长任务稍微久一点。"
+ },
+ {
+  "seg": 420,
+  "start": 1335.287,
+  "end": 1339.05,
+  "speaker": "Claire Vo",
+  "en": "In conclusion, it was really strong at agentic work.",
+  "zh": "总的来说,它在智能体工作上非常强。"
+ },
+ {
+  "seg": 421,
+  "start": 1340.221,
+  "end": 1342.562,
+  "speaker": "Claire Vo",
+  "en": "Serviceable at coding and backend work.",
+  "zh": "在编码和后端工作上算够用。"
+ },
+ {
+  "seg": 422,
+  "start": 1342.642,
+  "end": 1344.2530000000002,
+  "speaker": "Claire Vo",
+  "en": "I'm going to test a lot more there.",
+  "zh": "我会在那方面做更多测试。"
+ },
+ {
+  "seg": 423,
+  "start": 1344.303,
+  "end": 1346.454,
+  "speaker": "Claire Vo",
+  "en": "It would definitely let it write on my behalf.",
+  "zh": "我肯定会让它代我写作。"
+ },
+ {
+  "seg": 424,
+  "start": 1346.504,
+  "end": 1348.2817777777777,
+  "speaker": "Claire Vo",
+  "en": "And I think it has a nice voice.",
+  "zh": "而且我觉得它的口吻不错。"
+ },
+ {
+  "seg": 425,
+  "start": 1348.405,
+  "end": 1352.9605555555556,
+  "speaker": "Claire Vo",
+  "en": "It definitely just falls short on design sensibility, which is so much of my work.",
+  "zh": "它确实在设计感上有所欠缺,而这正是我工作的重要部分。"
+ },
+ {
+  "seg": 426,
+  "start": 1353.067,
+  "end": 1355.219,
+  "speaker": "Claire Vo",
+  "en": "So much of my work is creative front end design.",
+  "zh": "我的很多工作都是创意前端设计。"
+ },
+ {
+  "seg": 427,
+  "start": 1355.269,
+  "end": 1357.53,
+  "speaker": "Claire Vo",
+  "en": "So it really fell down there.",
+  "zh": "所以它在那里确实栽了跟头。"
+ },
+ {
+  "seg": 428,
+  "start": 1358.09,
+  "end": 1360.931,
+  "speaker": "Claire Vo",
+  "en": "And so we're going to have to see if putting skills into it,",
+  "zh": "所以我们要看看往里面加入技能、"
+ },
+ {
+  "seg": 429,
+  "start": 1360.971,
+  "end": 1364.2487777777778,
+  "speaker": "Claire Vo",
+  "en": "if giving it more direction, we can get that creativity up.",
+  "zh": "给它更多方向,能不能把那种创造力提上来。"
+ },
+ {
+  "seg": 430,
+  "start": 1364.453,
+  "end": 1367.915,
+  "speaker": "Claire Vo",
+  "en": "But honestly, I'll just rely on Opus 5.5 for that.",
+  "zh": "但说实话,那方面我直接靠 Opus 5.5 就行。"
+ },
+ {
+  "seg": 431,
+  "start": 1368.292,
+  "end": 1371.534,
+  "speaker": "Claire Vo",
+  "en": "But I am going to take Muse Wonder and see if I can put it in the loop of",
+  "zh": "不过我打算拿 Muse Wonder 试试,看能不能把它放进"
+ },
+ {
+  "seg": 432,
+  "start": 1371.555,
+  "end": 1376.118,
+  "speaker": "Claire Vo",
+  "en": "a couple agents I'm building and see if I like both the performance and",
+  "zh": "我正在构建的几个智能体的工作环里,看看我是否既喜欢它的性能,"
+ },
+ {
+  "seg": 433,
+  "start": 1376.418,
+  "end": 1377.979,
+  "speaker": "Claire Vo",
+  "en": "the user experience.",
+  "zh": "也喜欢它的用户体验。"
+ },
+ {
+  "seg": 434,
+  "start": 1378.9,
+  "end": 1383.383,
+  "speaker": "Claire Vo",
+  "en": "So that is my first look at the Meta Muse Wonderful model.",
+  "zh": "这就是我对 Meta Muse Wonderful 模型的第一手体验。"
+ },
+ {
+  "seg": 435,
+  "start": 1383.784,
+  "end": 1385.335,
+  "speaker": "Claire Vo",
+  "en": "I showed you what it's good at.",
+  "zh": "我给你展示了它擅长什么。"
+ },
+ {
+  "seg": 436,
+  "start": 1385.385,
+  "end": 1389.218,
+  "speaker": "Claire Vo",
+  "en": "I showed you where it's not doing well and where I'm going to take it next.",
+  "zh": "我给你展示了它哪里做得不好,以及我接下来要拿它做什么。"
+ },
+ {
+  "seg": 437,
+  "start": 1389.268,
+  "end": 1392.46,
+  "speaker": "Claire Vo",
+  "en": "Again, we try to do these benchmarks regularly so you have a sense",
+  "zh": "再说一次,我们会定期做这些基准测试,让你对"
+ },
+ {
+  "seg": 438,
+  "start": 1392.51,
+  "end": 1396.2877777777778,
+  "speaker": "Claire Vo",
+  "en": "of what models you should pay attention Thanks for joining How I AI.",
+  "zh": "该关注哪些模型有所了解。感谢收看 How I AI。"
+ },
+ {
+  "seg": 439,
+  "start": 1417.098,
+  "end": 1418.3890000000001,
+  "speaker": "Claire Vo",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 440,
+  "start": 1418.439,
+  "end": 1419.859,
+  "speaker": "Claire Vo",
+  "en": "If you enjoyed the show,",
+  "zh": "如果你喜欢这个节目,"
+ },
+ {
+  "seg": 441,
+  "start": 1420.039,
+  "end": 1420.48,
+  "speaker": "Claire Vo",
+  "en": "please like,",
+  "zh": "请点赞,"
+ },
+ {
+  "seg": 442,
+  "start": 1420.5,
+  "end": 1421.8500000000001,
+  "speaker": "Claire Vo",
+  "en": "and subscribe here on YouTube,",
+  "zh": "并在 YouTube 上订阅,"
+ },
+ {
+  "seg": 443,
+  "start": 1421.9,
+  "end": 1424.652,
+  "speaker": "Claire Vo",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是,留下评论说说你的想法。"
+ },
+ {
+  "seg": 444,
+  "start": 1424.702,
+  "end": 1430.244,
+  "speaker": "Claire Vo",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 445,
+  "start": 1430.824,
+  "end": 1435.5462222222222,
+  "speaker": "Claire Vo",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们评分和写评论,这会帮助更多人找到这个节目。"
+ },
+ {
+  "seg": 446,
+  "start": 1435.627,
+  "end": 1441.369,
+  "speaker": "Claire Vo",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 看到我们所有的节目并了解更多信息。"
+ },
+ {
+  "seg": 447,
+  "start": 1441.97,
+  "end": 1442.97,
+  "speaker": "Claire Vo",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

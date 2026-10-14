@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":5,"Hugging Face":37,"NEO":1,"Cotool":1,"智能体":501,"护栏":90,"签名":1,"行为检测":1,"推理":99}</script>
+<script type="application/json" class="pd-epn">{"Nick Warner":1,"Joel de la Garza":5,"Hugging Face":38,"NEO":1,"Cotool":1,"智能体":1,"护栏":90,"签名":1,"行为检测":1,"推理":100}</script>
 
 <script>
 (function(){

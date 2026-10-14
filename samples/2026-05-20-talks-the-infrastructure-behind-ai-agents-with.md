@@ -126,9 +126,9 @@ Base 10 的应对是一开始就押注分布式：他们今天跑在多家云、
 
 **换个口味**
 
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Cursor · 同概念:后训练 (post-training)、开源模型 (open source models)、推理模型 (reasoning model)</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)</span>
 - [[2026-08-20-twentyvc-20vc-spacex-buys-cursor-for-60bn-stripe|SpaceX 600亿买Cursor：AI并购的疯狂逻辑]]<span class="pd-rz">同公司:Cursor · 同概念:推理 (inference)</span>
-- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同概念:推理 (inference)、持续学习 (continual learning)</span>
 
 </div>
 </div>

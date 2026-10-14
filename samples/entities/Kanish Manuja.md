@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":90,"提示词注入":1,"推理模型":6,"fail open":2,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":90,"提示词注入":1,"推理模型":2,"fail open":2,"负载卸载":1}</script>
 
 <script>
 (function(){

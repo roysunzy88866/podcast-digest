@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[OpenAI]] · [[Bob Safian]] · [[Anna Spysz]] · [[Sam Parsons]] · [[Jess Hertz]] · [[智能体商务]] · [[PayPal]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"Google":72,"OpenAI":201,"Bob Safian":8,"Anna Spysz":1,"Sam Parsons":1,"Jess Hertz":1,"智能体商务":1,"PayPal":8,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"OpenAI":203,"Bob Safian":8,"Anna Spysz":1,"Sam Parsons":1,"Jess Hertz":1,"智能体商务":1,"PayPal":8,"Shopify":17}</script>
 
 <script>
 (function(){

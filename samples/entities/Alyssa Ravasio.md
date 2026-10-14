@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":14,"市场":4,"网络效应":16,"供需":1,"商业模式":1,"Scale":5,"vibe coding":50}</script>
+<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":14,"市场":4,"网络效应":16,"供需":1,"商业模式":1,"Scale":5,"vibe coding":51}</script>
 
 <script>
 (function(){

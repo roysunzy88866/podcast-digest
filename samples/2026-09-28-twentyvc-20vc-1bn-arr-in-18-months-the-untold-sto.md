@@ -176,7 +176,7 @@ Higgsfield 内部每月模型开销超过 400 万美元，近 400 人平摊，�
 
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]]<span class="pd-rz">同公司:Snap · 同概念:分发 (distribution)、网络效应 (network effects)</span>
 - [[2026-08-11-talks-how-harvey-built-a-research-lab-on-a-bud|应用公司如何低成本建自己的AI研究实验室：Harvey 的实战手册]]<span class="pd-rz">同概念:基准测试 (benchmark)、开源模型 (open source models)</span>
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]]<span class="pd-rz">同公司:Anthropic · 同概念:基准测试 (benchmark)、vibe coding</span>
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|开源模型追得上前沿吗？一位AI研究者拆解谣言与真相]]<span class="pd-rz">同公司:Anthropic、Cursor、OpenAI · 同概念:开源模型 (open source models)</span>
 
 </div>
 <div class="pd-ex">

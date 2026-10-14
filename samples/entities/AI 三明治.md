@@ -25,7 +25,7 @@ unlisted: true
 
 [[Yash]] · [[Builder Pack]] · [[All Access]] · [[智能体]] · [[compound engineering]] · [[MCP]] · [[Codex]] · [[Claude]] · [[Anthropic]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Yash":2,"Builder Pack":1,"All Access":1,"智能体":501,"compound engineering":2,"MCP":94,"Codex":88,"Claude":97,"Anthropic":203,"OpenAI":201}</script>
+<script type="application/json" class="pd-epn">{"Yash":2,"Builder Pack":1,"All Access":1,"智能体":1,"compound engineering":2,"MCP":95,"Codex":89,"Claude":97,"Anthropic":204,"OpenAI":203}</script>
 
 <script>
 (function(){

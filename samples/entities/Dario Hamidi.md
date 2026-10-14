@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AMP":2,"智能体":501,"pull request":6,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":98,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"AMP":2,"智能体":1,"pull request":6,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":99,"Cursor":87}</script>
 
 <script>
 (function(){

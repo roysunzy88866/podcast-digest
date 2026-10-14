@@ -270,7 +270,8 @@
     "ofxAtQhV-xA": "2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl",
     "3wj6sgbi1YA": "2026-10-09-talks-designing-clis-for-agents-not-humans-ped",
     "lnLWRJ2p_Mg": "2026-10-08-talks-the-hottest-product-manager-in-tech-righ",
-    "6qkzlT962es": "2026-10-09-talks-generation-is-cheap-review-is-expensive"
+    "6qkzlT962es": "2026-10-09-talks-generation-is-cheap-review-is-expensive",
+    "9WiBJRO84yY": "2026-10-09-talks-building-on-the-codex-harness-dominik-ku"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -287,8 +288,7 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
-    "2026-10-09-talks-building-on-the-codex-harness-dominik-ku": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -544,14 +544,14 @@
     }
   },
   "cutoffs": {
-    "lennys": "2026-10-11T12:31:59.000Z",
+    "lennys": "2026-10-14T12:04:05.000Z",
     "pg": "2026-10-08T23:03:02.000Z",
-    "a16z": "2026-10-13T10:00:00.000Z",
+    "a16z": "2026-10-14T10:00:00.000Z",
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-08T11:30:00.000Z",
     "trainingdata": "2026-10-13T09:00:00.000Z",
-    "bigtech": "2026-10-09T16:51:00.000Z",
-    "aiandi": "2026-10-07T17:11:13.000Z",
+    "bigtech": "2026-10-14T15:07:00.000Z",
+    "aiandi": "2026-10-14T16:22:14.000Z",
     "nopriors": "2026-10-09T10:00:00.000Z",
     "thepeel": "2026-10-08T16:14:09.000Z",
     "beyondcoding": "2026-10-07T12:00:00.000Z",
@@ -1567,6 +1567,18 @@
       "reason": "题材不对味:传统航天(造火箭)属非 AI/科技的泛话题",
       "title": "Inside Rocket Lab: How Sir Peter Beck Is Building Neutron’s Engines | Tour 02",
       "pubDate": "2026-08-28T10:00:01.000Z"
+    },
+    {
+      "id": "2026-10-14-bigtech-ai-leaders-can-t-get-along-so-how-will-t",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "AI Leaders Can't Get Along. So How Will They Keep Us Safe? — With Kevin Roose",
+      "pubDate": "2026-10-14T15:07:00.000Z"
+    },
+    {
+      "id": "2026-10-14-howiai-metas-new-muse-wonder-model-good-for-ai",
+      "reason": "跨源重复:与库内《Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design》同题,不重做(先到者留;误杀可删账本条目重放)",
+      "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+      "pubDate": "2026-10-14T11:00:00.000Z"
     }
   ]
 }

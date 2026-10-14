@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]] [[Eli Cohen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":3,"智能体":501,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":1,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
+<script type="application/json" class="pd-epn">{"Euphonia":1,"DORA":3,"智能体":1,"Matrix":1,"Patbot":1,"BevJudge":1,"模拟":1,"评审器":3,"提示词优化器":1,"成本矩阵":1}</script>
 
 <script>
 (function(){

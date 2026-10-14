@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kimi</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kimi">KI</div><div class="pi"><h1 class="pt">Kimi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kimi">KI</div><div class="pi"><h1 class="pt">Kimi</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo|《Arena CEO:现实是唯一可信的裁判，开源正在改写规则》]]**(06:02起):本集说 Kimi 在他们的网页开发 Arena 上排第一,是「第一次看到对蒸馏叙事的违背」,证明中国科学家的智慧与创造力被美国低估
+- **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(12:42起):本集提到 Kimi 被发现在自己的产品里直接向用户提供 Claude 的输出,这让蒸馏与后训练的关系留下问号;其开源模型被创业公司用于微调。
 
 ## ① 提到它的金句
 
@@ -21,18 +22,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-09-07-grit-the-ai-race-has-a-leaderboard-arena-ceo|《Arena CEO:现实是唯一可信的裁判，开源正在改写规则》]] — 作为被讨论公司
 - [[2026-10-02-talks-stop-rationing-tokens-let-the-harness-pi|《token 无限量供应：用自动选模型省下 2.5 倍成本的编码智能体》]] — 作为概念(提及)
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[开源]] · [[Anthropic]] · [[Anastasios Angelopoulos]] · [[Zilvinas]] · [[Mamoun Hamid]] · [[Laurent]] · [[Jubin]] · [[Kimchi]] · [[arena]] · [[Cast.AI]]
+[[Anthropic]] · [[开源]] · [[OpenAI]] · [[Anastasios Angelopoulos]] · [[Zilvinas]] · [[Leisha Lee]] · [[Mamoun Hamid]] · [[Laurent]] · [[Nathan Lambert]] · [[Jubin]]
 
-<script type="application/json" class="pd-epn">{"开源":41,"Anthropic":203,"Anastasios Angelopoulos":1,"Zilvinas":1,"Mamoun Hamid":1,"Laurent":2,"Jubin":2,"Kimchi":1,"arena":2,"Cast.AI":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":204,"开源":42,"OpenAI":203,"Anastasios Angelopoulos":1,"Zilvinas":1,"Leisha Lee":1,"Mamoun Hamid":1,"Laurent":2,"Nathan Lambert":1,"Jubin":2}</script>
 
 <script>
 (function(){

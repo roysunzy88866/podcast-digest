@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>86</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>87</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -96,6 +96,7 @@ unlisted: true
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(18:35起):本集提到 Cursor 是编码智能体之一,其 AI 流量也应路由到统一网关以做治理和成本控制。
 - **[[2026-10-06-talks-move-fast-and-don-t-break-things-scaling|《快速迭代，但别把数据库搞挂》]]**(03:06起):本集提到 PlanetScale 为 Cursor 这类正在疯狂扩张的 AI 公司提供数据库支持
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(40:54起):本集提到它作为编程领域模型被供应商切断的真实案例。
+- **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(24:25起):本集引用 Cursor 今年夏天发布的实验:重写 SQLite 的长时程任务里,开源微调方案与两个前沿模型组合效果相当但成本远低,证明开源微调已足够好。
 
 ## ① 提到它的金句
 
@@ -133,7 +134,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*86 集*
+*87 集*
 
 - [[2025-04-30-talks-lessons-for-builders-in-fintech-ai-seth|《AI 撞上金融：三位创始人聊产品、定价与智能体》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司(提及)
@@ -221,14 +222,15 @@ unlisted: true
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-move-fast-and-don-t-break-things-scaling|《快速迭代，但别把数据库搞挂》]] — 作为概念(提及)
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)
+- [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[推理]] · [[vibe coding]] · [[Lenny]] · [[ChatGPT]] · [[后训练]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[推理]] · [[vibe coding]] · [[Lenny]] · [[后训练]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":501,"Anthropic":203,"OpenAI":201,"Codex":88,"Claude Code":111,"推理":99,"vibe coding":50,"Lenny":69,"ChatGPT":112,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":204,"OpenAI":203,"Codex":89,"Claude Code":113,"推理":100,"vibe coding":51,"Lenny":69,"后训练":1,"ChatGPT":112}</script>
 
 <script>
 (function(){

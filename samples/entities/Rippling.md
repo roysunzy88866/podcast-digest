@@ -37,7 +37,7 @@ unlisted: true
 
 [[单点解决方案]] · [[Brex]] · [[Anthropic]] · [[Salesforce]] · [[OpenAI]] · [[智能体]] · [[记录系统]] · [[Matt MacInnis]] · [[Sam Blond]] · [[Rory O'Driscoll]]
 
-<script type="application/json" class="pd-epn">{"单点解决方案":2,"Brex":7,"Anthropic":203,"Salesforce":36,"OpenAI":201,"智能体":501,"记录系统":7,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1}</script>
+<script type="application/json" class="pd-epn">{"单点解决方案":2,"Brex":7,"Anthropic":204,"Salesforce":36,"OpenAI":203,"智能体":1,"记录系统":7,"Matt MacInnis":1,"Sam Blond":1,"Rory O'Driscoll":1}</script>
 
 <script>
 (function(){

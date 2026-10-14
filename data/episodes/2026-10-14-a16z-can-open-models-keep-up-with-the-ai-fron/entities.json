@@ -1,0 +1,1589 @@
+{
+  "episode_id": "2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron",
+  "podcast": "The a16z Show",
+  "date": "2026-10-14",
+  "tags": [
+    "开源模型",
+    "蒸馏",
+    "中美AI竞赛",
+    "后训练与RL环境",
+    "递归自我改进"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "leisha-lee",
+      "type": "person",
+      "role": "host",
+      "name": "Leisha Lee",
+      "file": "Leisha Lee",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.53,
+            74.853
+          ],
+          "quote": "In this episode, A16Z partner Leisha Lee sits down with AI researcher Nathan Lambert, founder of the new nonprofit research lab Trillium, to unpack the race between open and closed AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nathan-lambert",
+      "type": "person",
+      "role": "cohost",
+      "name": "Nathan Lambert",
+      "file": "Nathan Lambert",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.53,
+            74.853
+          ],
+          "quote": "In this episode, A16Z partner Leisha Lee sits down with AI researcher Nathan Lambert, founder of the new nonprofit research lab Trillium, to unpack the race between open and closed AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集主线问题:开源模型能否追上闭源前沿。Lambert 认为开源走在不同时间尺度的指数曲线上,链条分散所以慢,但尽头是模型权重的真正所有权,且已『足够好』到在 Cursor 的 SQLite 重写实验中以远低成本比肩前沿模型组合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            157.73,
+            166.315
+          ],
+          "quote": "So maybe to sort of start on that arc, sort of how you would break down what's gotten us to the frontier for both closed labs and open source models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            504.121,
+            514.049
+          ],
+          "quote": "Do this so well and kind of increasingly well because the lag between the open source models and the frontier models have only shortened with time in the last few years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1133.907,
+            1140.65
+          ],
+          "quote": "On the other hand, you know, it's like the Chinese open source models are a huge benefit to the startup ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1439.531,
+            1448.179
+          ],
+          "quote": "With that said, I think actually there's also very competing, like a counterforce of data that you're seeing, which is like the open source models that are already good enough.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2879.866,
+            2889.23
+          ],
+          "quote": "Getting to the frontier with pre-training, you know, I think there's a lot of help given that there's such good open source models to maybe, you know, somehow still kind of bootstrap from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3152.577,
+            3163.467
+          ],
+          "quote": "So you're very convinced that like there's not too much hidden there that you can probably guess at what they're doing and then when it becomes relevant let the open source models actually try to also post train on similar.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.425,
+            21.046
+          ],
+          "quote": "Most people regard distillation as sort of like the main lever for them to do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            497.011,
+            504.121
+          ],
+          "quote": "So the other thread maybe to pull there is sort of, I think most people regard distillation as sort of like the main lever for them to do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            535.113,
+            543.598
+          ],
+          "quote": "Let's start with, is the distillation story really more of a caricature in the Chinese labs since you've actually met with them and you've studied this a lot more?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            600.02,
+            605.682
+          ],
+          "quote": "Distillation is a way to effectively spend more money to get what is compute equivalent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            614.324,
+            624.607
+          ],
+          "quote": "And I've seen the stages of distillation and how I see it is that previous post-training was much more reliant on the supervised fine-tuning and other to like RLHF era, which is...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            669.2,
+            683.944
+          ],
+          "quote": "And based on the public literature, it's very hard for me to be like distillation is a major factor because, for example, in the fully open literature of people trying to do open post training recipes, all the open model builders are stuck using like a really outdated Quen model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            709.536,
+            714.577
+          ],
+          "quote": "So this is like my evidence grounded in the literature, why I think distillation is hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            728.46,
+            731.741
+          ],
+          "quote": "And it's like, where exactly does distillation go into this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            744.866,
+            749.948
+          ],
+          "quote": "But like mapping the established distillation literature to that is very hard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            767.796,
+            774.601
+          ],
+          "quote": "And I'm just like, don't really understand how this fits into distillation as a common technical tool in post-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            788.473,
+            793.059
+          ],
+          "quote": "And I think most reasonable people when they're like, what's the gap from distillation are like, there's very big error bars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            793.439,
+            797.824
+          ],
+          "quote": "But when I say that distillation helps them by a few months, it's based on the scientific literature that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            864.03,
+            866.672
+          ],
+          "quote": "There's going to be no way to stop that type of distillation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            934.587,
+            936.068
+          ],
+          "quote": "You think distillation is not robbery?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            954.939,
+            956.201
+          ],
+          "quote": "Downstream of distillation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            956.221,
+            959.104
+          ],
+          "quote": "So you won't regulate distillation with policy from Congress.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            986.304,
+            996.268
+          ],
+          "quote": "We want to be able to communicate with the Chinese tech companies and everything about this, and I just think you're going to cause more harm than good if you do anything about distillation, because they're not going to stop.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1025.621,
+            1036.309
+          ],
+          "quote": "Conducive to this flywheel continuing if the through distillation or other kind of distillation related methods open source can catch up so quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1695.136,
+            1704.004
+          ],
+          "quote": "And I just think there's a lot of talk of like, like we've talked about distillation, but the other side is like the Chinese company buys the RL environment that they use six months later.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集把闭源前沿实验室描述为靠算力、数据、人才和敢下重注的组织最先进场、利润率最高,且因整合(模型+推理+收入+融资)形成飞轮而持续领先。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            371.665,
+            391.279
+          ],
+          "quote": "I think over time there will be these tiers of open models where there's the best closed models which you can demand the best margins for and then there's the near frontier models which is a step behind this and those will be open because there's just like some sort of supply and demand there as you get access to a different market that might be less...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            504.121,
+            514.049
+          ],
+          "quote": "Do this so well and kind of increasingly well because the lag between the open source models and the frontier models have only shortened with time in the last few years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1006.192,
+            1020.518
+          ],
+          "quote": "It's actually like there's, you know, and we can actually talk about, like, I am sympathetic, obviously, or try to steel man the frontier lab position, which is like you have just unprecedented amounts of capital that's required to build these frontier models, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1430.643,
+            1439.131
+          ],
+          "quote": "They can compete with the frontier models because eventually they start ascending so much that, you know, you get good enough in respective categories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1465.111,
+            1492.078
+          ],
+          "quote": "I mean in the most maybe pure regime where you would expect frontier models are good as I think Cursor published something over the summer where like hey we just you know we had this long horizon task of writing rewriting SQLite and turns out using two frontier models you know one for planner one for execution is not as good or is equivalently as good but far more costly than just using Composer with maybe Opus or you know Vastra whatever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3244.798,
+            3247.56
+          ],
+          "quote": "...good case for frontier models, because they will have the most...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3261.482,
+            3264.763
+          ],
+          "quote": "I mean, that's why we invest in the frontier models and in startups.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集说算力是中国实验室与美国前沿实验室最大的差距——『我听说 OpenAI 的一个普通研究员有 5000 个 H100 等效算力随时可调用,他们的下巴直接掉到地上』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.622,
+            6.043
+          ],
+          "quote": "When I think about model progress, it comes down to different forms of capital, and that is compute data and talent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 4,
+          "t": [
+            15.085,
+            16.245
+          ],
+          "quote": "What they don't have is compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            75.593,
+            87.325
+          ],
+          "quote": "They discuss why OpenAI and Anthropic still have major advantages in compute, capital, and speed, but why Nathan believes the technical talent behind open models, particularly in China, is often underestimated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            178.78,
+            195.207
+          ],
+          "quote": "When I think about model progress, it comes down to different forms of capital that you've put into them, and that is, like, compute data and talent, and all of the labs have various amounts of this, and the closed frontier labs of OpenAI's, Anthropics, Google's have clearly had the most...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            557.214,
+            558.735
+          ],
+          "quote": "They are more compute star.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            577.184,
+            578.325
+          ],
+          "quote": "What they don't have is compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            596.057,
+            598.759
+          ],
+          "quote": "And the compute thing, I think, is the biggest difference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            600.02,
+            605.682
+          ],
+          "quote": "Distillation is a way to effectively spend more money to get what is compute equivalent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            605.722,
+            608.622
+          ],
+          "quote": "Like outputs from a language model are a function of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            608.702,
+            613.424
+          ],
+          "quote": "And if you know the outputs you want, it's the same as having compute to generate with the model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1036.609,
+            1046.857
+          ],
+          "quote": "And so, you know, and what I mean by this flywheel is just kind of a very simple picture of, you know, you train the frontier model by putting in a lot of money to get compute and then they park this compute, of course.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1052.761,
+            1063.787
+          ],
+          "quote": "And there is a huge compute, you know, kind of sort of lack of compute available because there's actually like not just compute in the chips, but there's also power, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2434.094,
+            2435.575
+          ],
+          "quote": "We know what type of compute we're running.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3140.794,
+            3142.075
+          ],
+          "quote": "For one, they don't have to compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 674,
+          "t": [
+            3142.655,
+            3144.676
+          ],
+          "quote": "It's an astronomical amount of compute.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3149.28,
+            3150.761
+          ],
+          "quote": "There's more compute built out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3355.465,
+            3360.749
+          ],
+          "quote": "All the scaling laws are exponential increase in compute for linear increase in performance.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集讲后训练已从依赖监督微调的 RLHF 时代演变为 RL 占比很高的环境驱动形态,prompt 曾是后训练的关键单元;大量创业公司在做『后训练即服务』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            27.547,
+            31.19
+          ],
+          "quote": "Previous post-training was much more reliant on the supervised fine-tuning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            31.35,
+            41.157
+          ],
+          "quote": "Now this has morphed a bit into environments where it's RL heavy, but it's just like hard to map this type of post-training, which is you get the completions and the score goes up to what is going on in reasoning today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            88.106,
+            97.656
+          ],
+          "quote": "They also separate the reality of model to solution from the rhetoric around it and look at how post-training, data, and RL environments are becoming increasingly important sources of progress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            170.677,
+            178.22
+          ],
+          "quote": "Pre-training, mid-training, post-training, how post-training has evolved, which is something you've, you know, done a great amount of education to the public on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            543.999,
+            551.603
+          ],
+          "quote": "Is it sort of like they're all-rounded, like great at pre-training, also have their own good post-training recipes that they may or may not have revealed?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            614.324,
+            624.607
+          ],
+          "quote": "And I've seen the stages of distillation and how I see it is that previous post-training was much more reliant on the supervised fine-tuning and other to like RLHF era, which is...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            625.367,
+            633.15
+          ],
+          "quote": "Where post training started and you could get most of your performance just by you do this next token prediction loss on the outputs of a very strong model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            642.033,
+            644.294
+          ],
+          "quote": "Prompts have always been a key to post training, I remember.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            645.054,
+            652.225
+          ],
+          "quote": "At AI2, like with Hannah, who I co-led post-training there with, we would always say like prompts are the key unit of post-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            660.698,
+            668.34
+          ],
+          "quote": "But it's just like hard to map this type of post training, which is you get the completions and the score goes up to what is going on in reasoning today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            669.2,
+            683.944
+          ],
+          "quote": "And based on the public literature, it's very hard for me to be like distillation is a major factor because, for example, in the fully open literature of people trying to do open post training recipes, all the open model builders are stuck using like a really outdated Quen model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            735.922,
+            743.285
+          ],
+          "quote": "Do this ahead of time because they did their RL run and then they dropped the model and then their tech report said they had an extra post-training stage after RL.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            767.796,
+            774.601
+          ],
+          "quote": "And I'm just like, don't really understand how this fits into distillation as a common technical tool in post-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            804.71,
+            810.154
+          ],
+          "quote": "But like, I don't know how you can come to a different conclusion that it's like not a huge effect in current post-training based on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1148.033,
+            1154.816
+          ],
+          "quote": "There's like a huge amount of startups doing post training as a service of various degrees and trying to prioritize that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1221.469,
+            1230.48
+          ],
+          "quote": "So the open model, you have an open model builder, then you have the open model inference companies and you have the open model post-training companies and like there's information from those customers which are like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2846.149,
+            2852.713
+          ],
+          "quote": "I'm definitely glad that Thinking Machines is, and it makes so much sense for their business model because they do post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2938.213,
+            2946.02
+          ],
+          "quote": "And then it kind of blurs into post-training where this mid-training where you start the reasoning behaviors, you take them from your older models, you do RL on them to seed behaviors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2964.916,
+            2968.157
+          ],
+          "quote": "I'm going to figure out this whole post-training thing where it's just like the Wild West.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2968.898,
+            2979.664
+          ],
+          "quote": "And that's why I was like, when I left AI2, I felt like our post-training was honestly falling behind just because our cycle time was not high enough and we're going into these agentic things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2979.744,
+            2983.866
+          ],
+          "quote": "And these are still some of the, like, leading open source post-training recipes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3004.903,
+            3017.19
+          ],
+          "quote": "Kind of related to the whole, you know, post-training side, maybe, you know, pulling away from closed and open is the fact that the agents, you know, the type of harnesses that are being used in the closed labs are...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rl-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "RL 环境 (RL environment)",
+      "file": "RL 环境",
+      "primary": true,
+      "how_described": "本集判断实验室在环境上花数十亿美元预算是因为『模型因此变得更好』,但这个市场还早期、质量参差,并诱发奖励作弊;Trillium 要为高杠杆任务发布开源环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            716.037,
+            721.159
+          ],
+          "quote": "And then, like, how do you take the outputs of a model and build an RL environment to do a big RL run?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1651.705,
+            1667.995
+          ],
+          "quote": "I mean, at least definitely, I agree with you that observing from the outside, there's a lot of data RL environment companies that are doing very, very well, selling both to the top two frontier labs, but an increasing kind of longer tail of labs as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1695.136,
+            1704.004
+          ],
+          "quote": "And I just think there's a lot of talk of like, like we've talked about distillation, but the other side is like the Chinese company buys the RL environment that they use six months later.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1720.032,
+            1730.395
+          ],
+          "quote": "And I think I personally think that this RL environment explosion where there's just so much opportunity to make money is having a lot of people like cut corners and this can induce things like reward hacking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "本集说要给 RSI 去神秘化:Trillium 将完整记录实验室如何用 AI 改进 AI(工具、任务、模型卡住的地方、写进代码的 bug),每半年更新。所有缩放定律都是算力指数换性能线性,快速起飞还需要多一个数量级的进展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            349.76,
+            358.465
+          ],
+          "quote": "And this is a very different dynamic than what I said about OpenAI and Anthropic that are trying to create the new paradigms, that are trying to make true RSI happen so that their company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1585.785,
+            1588.688
+          ],
+          "quote": "But that's not just like poof, magic, RSI happens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2301.484,
+            2314.507
+          ],
+          "quote": "Another area I think I read on your announcement post is RSI, which is, you know, quite, I think, I mean, we could first talk about what is actually recursive about it or how scary it is or whether we're going to have takeoff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2317.568,
+            2326.733
+          ],
+          "quote": "But, you know, another thing I want to kind of talk about is I think RSI maybe related to how much it's kind of hyped is a reason why we are afraid that Frontier Labs will pull away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2367.492,
+            2380.141
+          ],
+          "quote": "The difference between how well RSI is doing for model capabilities versus alignment, which is much more out of distribution, maybe creative work, that gives people an ease on how, you know, maybe there is actual dangers, et cetera, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2380.922,
+            2394.792
+          ],
+          "quote": "So anyways, because of this, I'm very interested in hearing from you, like how, because I think it's really important that we do have an open source kind of front in showing how RSI is being done, how much maybe then we can, you know, understand the capabilities of like if within a lab they have a better model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2401.416,
+            2406.339
+          ],
+          "quote": "So I think this, we won't be the only people doing this, but essentially like RSI has so much mystique.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2621.377,
+            2624.238
+          ],
+          "quote": "There's an open RSI thing, which is a bunch of academic institutions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2628.5,
+            2630.001
+          ],
+          "quote": "I'm like, open RSI is a thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3285.114,
+            3306.092
+          ],
+          "quote": "I do like your RSI point, as we talked a little bit about it, which is just kind of say practically, hey, it's exponential cost and resource consumption, and therefore there is a very obvious kind of limit to how much that the Frontier Labs can pull away, if that's not too oversimplification of your view.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3474.372,
+            3480.456
+          ],
+          "quote": "And then that's kind of the thing that worries me more than say like RSI is coming and unlocking new risks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning model)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "本集说 OpenAI 开启了推理模型革命,其推理缩放定律曲线是巅峰之作;公开文献显示靠蒸馏推理轨迹做开源后训练效果并不好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            248.502,
+            253.226
+          ],
+          "quote": "And that's why OpenAI has done things like kickstart the reasoning model revolution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集以 Cursor 的 SQLite 长任务实验为证据,说明开源模型微调『足够好』,成本远低于两个前沿模型的规划+执行组合;企业经微调获得可在自有硬件上运行、算得清 ROI 的所有权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            27.547,
+            31.19
+          ],
+          "quote": "Previous post-training was much more reliant on the supervised fine-tuning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            614.324,
+            624.607
+          ],
+          "quote": "And I've seen the stages of distillation and how I see it is that previous post-training was much more reliant on the supervised fine-tuning and other to like RLHF era, which is...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1140.71,
+            1147.693
+          ],
+          "quote": "I mean, we see this all the time, just kind of metrics I remember from like Decagon and Harvey who was trying to do a lot of fine tuning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": false,
+      "how_described": "本集说 RL 环境供应仓促会诱发奖励作弊:模型太聪明,即使测试文件是空的也会想办法刷高分,实验室正在花大力气消除它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1720.032,
+            1730.395
+          ],
+          "quote": "And I think I personally think that this RL environment explosion where there's just so much opportunity to make money is having a lot of people like cut corners and this can induce things like reward hacking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1755.955,
+            1760.299
+          ],
+          "quote": "But it's interesting to see the demand from the labs to eliminate reward hacking and all these",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集的核心判断:所有缩放定律都是算力指数级增长换性能线性提升,实验室花的是指数级的钱,因此前沿拉开的差距有天然上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            253.266,
+            257.709
+          ],
+          "quote": "And I think that kind of breakthrough and that beautiful plot with the inference scaling laws is peak OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3355.465,
+            3360.749
+          ],
+          "quote": "All the scaling laws are exponential increase in compute for linear increase in performance.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成闭源前沿实验室的代表:开启了推理模型革命、做出推理缩放定律的漂亮曲线,研究员平均可随时调用 5000 块 H100 等效算力,并靠囤积算力与收入形成融资飞轮。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            75.593,
+            87.325
+          ],
+          "quote": "They discuss why OpenAI and Anthropic still have major advantages in compute, capital, and speed, but why Nathan believes the technical talent behind open models, particularly in China, is often underestimated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            178.78,
+            195.207
+          ],
+          "quote": "When I think about model progress, it comes down to different forms of capital that you've put into them, and that is, like, compute data and talent, and all of the labs have various amounts of this, and the closed frontier labs of OpenAI's, Anthropics, Google's have clearly had the most...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 33,
+          "t": [
+            215.097,
+            235.413
+          ],
+          "quote": "Like I think I'm very interested in these human aspects of why competition drives the frontier and why the org chart is so important because like we see these things and this comes into play in the open closed dynamic as well where it's like the closed companies, the true frontier labs, which I say if somebody wants to work at the frontier of AI, I mostly tell them to work at Anthropic and OpenAI, which is the easiest bet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            248.502,
+            253.226
+          ],
+          "quote": "And that's why OpenAI has done things like kickstart the reasoning model revolution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 39,
+          "t": [
+            253.266,
+            257.709
+          ],
+          "quote": "And I think that kind of breakthrough and that beautiful plot with the inference scaling laws is peak OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            349.76,
+            358.465
+          ],
+          "quote": "And this is a very different dynamic than what I said about OpenAI and Anthropic that are trying to create the new paradigms, that are trying to make true RSI happen so that their company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            411.981,
+            419.084
+          ],
+          "quote": "And once you know, once Anthropic and OpenAI show you the type of model that you need to build, it's a lot easier to then be like, oh, we just need to do this thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            421.745,
+            428.687
+          ],
+          "quote": "It trickles through the data economy where OpenAI and Anthropic spend way more to build out this function of a data industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 115,
+          "t": [
+            578.465,
+            586.01
+          ],
+          "quote": "You talk to people there and you're like, oh, I heard an average OpenAI researcher has 5,000 H100 equivalents that they can access at any time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            782.246,
+            784.449
+          ],
+          "quote": "OpenAI and Anthropics models at a vast scale.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1046.897,
+            1050
+          ],
+          "quote": "OpenAI and Anthropic are very guilty slash successful in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1090.557,
+            1094.258
+          ],
+          "quote": "It's this unprecedented, like, beautiful flywheel, and this happens for both OpenAI and Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1413.716,
+            1424.36
+          ],
+          "quote": "You know, OpenAI, you know, certainly I think, you know, they hired a bunch of mathematicians, but they also weren't trying to like use specialized, you know, kind of like lean data set to get better at it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1546.123,
+            1548.685
+          ],
+          "quote": "And I think it is much closer to the story of OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1613.578,
+            1617.08
+          ],
+          "quote": "So we've seen OpenAI have drastic price cuts and it's like what does it mean for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3083.907,
+            3089.07
+          ],
+          "quote": "And then what we're seeing with this agent swarms is that OpenAI and Anthrop are going to be earlier to it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它长期押注编程,回报是 Claude Code 的爆发;甚至没想在数学上做强却在数学上超过所有专用模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            75.593,
+            87.325
+          ],
+          "quote": "They discuss why OpenAI and Anthropic still have major advantages in compute, capital, and speed, but why Nathan believes the technical talent behind open models, particularly in China, is often underestimated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            215.097,
+            235.413
+          ],
+          "quote": "Like I think I'm very interested in these human aspects of why competition drives the frontier and why the org chart is so important because like we see these things and this comes into play in the open closed dynamic as well where it's like the closed companies, the true frontier labs, which I say if somebody wants to work at the frontier of AI, I mostly tell them to work at Anthropic and OpenAI, which is the easiest bet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            262.332,
+            269.239
+          ],
+          "quote": "And on the other side, it's like Anthropic has been like very focused on the types of things the models are going to be able to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 66,
+          "t": [
+            349.76,
+            358.465
+          ],
+          "quote": "And this is a very different dynamic than what I said about OpenAI and Anthropic that are trying to create the new paradigms, that are trying to make true RSI happen so that their company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            411.981,
+            419.084
+          ],
+          "quote": "And once you know, once Anthropic and OpenAI show you the type of model that you need to build, it's a lot easier to then be like, oh, we just need to do this thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            421.745,
+            428.687
+          ],
+          "quote": "It trickles through the data economy where OpenAI and Anthropic spend way more to build out this function of a data industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1046.897,
+            1050
+          ],
+          "quote": "OpenAI and Anthropic are very guilty slash successful in this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1090.557,
+            1094.258
+          ],
+          "quote": "It's this unprecedented, like, beautiful flywheel, and this happens for both OpenAI and Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1411.615,
+            1413.416
+          ],
+          "quote": "I mean, Anthropic wasn't even trying to be good at math.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1704.264,
+            1705.565
+          ],
+          "quote": "Like, oh, anthropic reopening.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trillium",
+      "type": "company",
+      "role": "company",
+      "name": "Trillium",
+      "file": "Trillium",
+      "primary": true,
+      "how_described": "本集介绍的嘉宾新创立的非营利研究实验室:计划为高杠杆任务制作开源 RL 环境,并完整记录 AI 用于改进 AI 的真实过程,每半年更新一次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            64.53,
+            74.853
+          ],
+          "quote": "In this episode, A16Z partner Leisha Lee sits down with AI researcher Nathan Lambert, founder of the new nonprofit research lab Trillium, to unpack the race between open and closed AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            101.63,
+            117.861
+          ],
+          "quote": "Nathan explains why Trillium plans to document how AI is actually being used to improve AI, from the tasks models can already automate to the places they still get stuck, and why making that progress visible could lead to a much more grounded debate about how quickly the frontier is really moving.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            124.269,
+            133.915
+          ],
+          "quote": "Super timely given you're launching Trillium, which I'd love to talk about, but more sort of on a macro level, I think we chat a lot about open source and that's a lot of what you care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2037.194,
+            2049.259
+          ],
+          "quote": "And it's just like pulling back, which is why we came up with this name Trillium for our lab, which is like Trillium is a spring ephemeral flower, which it blooms before the canopy has grown its leaves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2049.299,
+            2052.961
+          ],
+          "quote": "So it's like winters, leaves on the trees, these Trillium flowers bloom.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2481.887,
+            2491.555
+          ],
+          "quote": "The AI research that I've done at AI2 and we'll do at Trillium versus what people do in some sects of actidamia and the labs, it's not that different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3523.373,
+            3528.257
+          ],
+          "quote": "And yeah, I'm really excited to see what Trillium is up to now that it's finally launched.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说 Meta 为造模型自下而上彻底重组后重回正向轨迹,且有传言将再次发布新的开放权重模型;Llama3 时期 Mark 写过解释开源策略的最佳博客文章。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            195.907,
+            213.896
+          ],
+          "quote": "of these and what we see is like the different abilities of the labs to organize these forms of capital and like making the org chart work for building models is really hard which is why you have companies have to do complete resets from the bottom up and then it actually kind of works sometimes like company like Meta is like totally reset and they're like on a positive trajectory again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            235.473,
+            237.535
+          ],
+          "quote": "I think Meta, Google,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2835.93,
+            2840.355
+          ],
+          "quote": "And there's rumors that Meta said they'll release a new open weight model again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2854.294,
+            2860.017
+          ],
+          "quote": "And, you know, with Meta, I think you mentioned this as well, and in some previous writings, it's just for them, it's just such a good strategy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moonshot-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Moonshot AI",
+      "file": "Moonshot AI",
+      "primary": true,
+      "how_described": "本集以它为例说明中国实验室开源是务实的商业化策略而非政府行为:只在中国卖 API 没人会知道它是谁,开源是进入全球对话的捷径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            296.699,
+            298.34
+          ],
+          "quote": "Nobody would know about Moonshot AI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kimi",
+      "type": "company",
+      "role": "company",
+      "name": "Kimi",
+      "file": "Kimi",
+      "primary": true,
+      "how_described": "本集提到 Kimi 被发现在自己的产品里直接向用户提供 Claude 的输出,这让蒸馏与后训练的关系留下问号;其开源模型被创业公司用于微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            762.813,
+            767.676
+          ],
+          "quote": "And even cases where Kimi was serving Claude in their products to users.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1154.857,
+            1162.36
+          ],
+          "quote": "And it actually works because you can get to the Pareto frontier with these, you know, Kimi K3 or pick your favorite like GLM open source model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集引用 Cursor 今年夏天发布的实验:重写 SQLite 的长时程任务里,开源微调方案与两个前沿模型组合效果相当但成本远低,证明开源微调已足够好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1465.111,
+            1492.078
+          ],
+          "quote": "I mean in the most maybe pure regime where you would expect frontier models are good as I think Cursor published something over the summer where like hey we just you know we had this long horizon task of writing rewriting SQLite and turns out using two frontier models you know one for planner one for execution is not as good or is equivalently as good but far more costly than just using Composer with maybe Opus or you know Vastra whatever.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "thinking-machines",
+      "type": "company",
+      "role": "company",
+      "name": "Thinking Machines",
+      "file": "Thinking Machines",
+      "primary": true,
+      "how_described": "本集说它做后训练生意、发布开源模型对其商业模式非常合理,并以透明发布 inkling 为例说明新实验室如何跨过『第一个模型落地』的坎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1276.465,
+            1283.771
+          ],
+          "quote": "They go find thinking machines or prime intellect and they're like, we could make money in mass if we figure out how to fine tune a model that solves this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2813.306,
+            2817.427
+          ],
+          "quote": "And it's like, I think of like thinking machines getting inkling out where it's like, they were very transparent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2846.149,
+            2852.713
+          ],
+          "quote": "I'm definitely glad that Thinking Machines is, and it makes so much sense for their business model because they do post-training.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai2",
+      "type": "company",
+      "role": "company",
+      "name": "AI2",
+      "file": "AI2",
+      "primary": false,
+      "how_described": "嘉宾此前工作的地方,共同领导后训练;本集提到离开时其 OLMo 后训练因循环周期不够高而落后。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            645.054,
+            652.225
+          ],
+          "quote": "At AI2, like with Hannah, who I co-led post-training there with, we would always say like prompts are the key unit of post-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2481.887,
+            2491.555
+          ],
+          "quote": "The AI research that I've done at AI2 and we'll do at Trillium versus what people do in some sects of actidamia and the labs, it's not that different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2968.898,
+            2979.664
+          ],
+          "quote": "And that's why I was like, when I left AI2, I felt like our post-training was honestly falling behind just because our cycle time was not high enough and we're going into these agentic things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 676,
+          "t": [
+            3147.118,
+            3149.22
+          ],
+          "quote": "NVIDIA's chips will get way faster.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

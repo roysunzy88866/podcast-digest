@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Craig":2,"Front":1,"TalkIQ":1,"Dialpad":1,"Anthropic":203,"OpenAI":201,"智能体":501,"协调税":1,"NRR":4,"客户流失率":3}</script>
+<script type="application/json" class="pd-epn">{"Craig":2,"Front":1,"TalkIQ":1,"Dialpad":1,"Anthropic":204,"OpenAI":203,"智能体":1,"协调税":1,"NRR":4,"客户流失率":3}</script>
 
 <script>
 (function(){

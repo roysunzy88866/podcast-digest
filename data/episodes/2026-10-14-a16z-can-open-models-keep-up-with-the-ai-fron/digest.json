@@ -1,0 +1,197 @@
+{
+  "title_zh": "开源模型追得上前沿吗？一位AI研究者拆解谣言与真相",
+  "tldr": "AI研究者 Nathan Lambert 做客 a16z 播客，谈开源与中国模型的真实实力、蒸馏传闻、以及AI自我改进到底有多神。",
+  "digest_md": "Nathan Lambert 是新成立的非营利研究实验室 Trillium 的创始人，此前在 AI2 做后训练研究。在这期 a16z 播客里，他与合伙人 Leisha Lee 聊了一个所有人都关心的问题：OpenAI、Anthropic 这些烧钱巨头领跑的前沿，==开源模型到底还追得上吗==？他的答案比公共讨论里的恐慌情绪冷静得多。\n\n## 前沿靠什么：算力、数据、人才\n\nLambert 把模型进步归结为三种资本的组合：算力、数据和人才。闭源前沿实验室在这三项上投入最狠，也最敢在别人觉得不可能的方向上下重注——OpenAI 掀起了推理模型的革命，Anthropic 则靠长期押注编程，等来了 Claude Code 的爆发。[03:04 Unknown]\n\n但他特别强调组织本身的重要性。让公司架构真正服务于造模型这件事非常难，所以才会看到 Meta 这种推倒重来的整体重组，而重组之后确实又回到了上升轨道。\n\n## 中国公司开源，不是阴谋，是生意\n\n中国实验室的开源策略常被渲染成政府行为，Lambert 直言不是这么回事。如果 Moonshot AI、Jibu 这些公司只在中国卖 API，美国根本没人知道它们是谁。**把模型开源，是进入全球对话的最快捷径**。[05:03 Unknown]\n\n> 【背景】Jibu 一般指 Zhipu（智谱 AI），原文转写稿中写作\"Jibu\"。\n\n在他看来，这会催生一个分层市场：最好的闭源模型拿最高的利润率，紧随其后的近前沿模型是开源的，因为总有企业想要私有数据、自有硬件上的部署，这些需求闭源 API 满足不了。\n\n## 蒸馏被夸大了：中国团队是真的强\n\n开源模型全靠蒸馏闭源模型是流传最广的说法。蒸馏的意思是拿一个强模型的输出去训练自己的模型，等于用钱换算力。Lambert 承认中国实验室缺算力——他听说 OpenAI 研究员平均能随时调用 5000 块 H100 等效算力，一位中国顶级预训练研究者听完后下巴都掉下来了。[09:38 Unknown]\n\n但人才上，他说想把中国说得不如美国，很难站得住脚，因为中国有大量高水平训练出来的人。而按公开文献看，现在的推理模型后训练里，蒸馏其实很难起大作用：开源社区自己试过用顶级模型的推理轨迹做训练，效果并不好，连教师模型都对不上。\n\n当然他也留了问号：中国存在大量调用 Claude 的中间代理，Kimi 甚至被发现在产品里直接给用户返回 Claude 的输出。这些到底怎么用进训练，还需要更多公开研究才能回答。他的估算是**蒸馏大概帮中国公司省了几个月，而不是决定性的差距**。[13:13 Unknown]\n\n至于该不该管，他引用了 Jensen 的话：「人们每天都在蒸馏我的产品……这叫竞争。」[15:25 Unknown] 他认为靠国会立法管不了，而且中美在 AI 安全上本来就需要对话，在蒸馏问题上出手只会弊大于利。\n\n## 开源走得慢，但尽头是真正的所有权\n\n闭源实验室的优势是整合：模型、推理服务、营收、融资转成一个飞轮，市场最先到、利润率最高。开源这边链条更长——做模型的、做推理服务的、做后训练的公司彼此分离，客户信息传不回模型构建者手里，所以慢。\n\n但**走完全程的企业拿到的是模型权重的真正所有权**：没有条款限制，跑在自己的硬件上，算得清回报。他认为开源经济要花更长时间建，但不容易是泡沫。[20:47 Unknown]\n\n一个佐证：Cursor 发过实验，重写 SQLite 的长任务里，用开源微调模型的成本远低于两个前沿模型组合，效果相当。\n\n## 买数据、建环境，才是现在最大的杠杆\n\nLambert 判断，**前沿进步很大程度来自花钱买高质量数据、给模型搭可以行动的环境**。数学和编程是可验证的领域，模型进步飞快；而生物、法律、知识工作这些不可完全验证的领域，要靠一个行业一个行业地买数据、定义行为，这会持续很多年，也是资本最密集的地方。[25:18 Unknown]\n\n这个市场还很粗糙：数据公司大量采购、批量试错，质量参差，甚至催生了奖励作弊——模型聪明到会钻环境的空子刷高分。他认为数据行业有大量低垂的果实，要几年时间才会把赢家筛出来。\n\nTrillium 要做的之一，就是把高杠杆任务的开源环境公开出来。做一套环境要几千到几万美元，而利润动机让几乎没人愿意免费发布。但这些公开资源正是博士生和研究者做研究的地基。\n\n## 用AI做AI研究，别神化它\n\n对递归自我改进（RSI）的恐慌，Lambert 的回应是把它晒出来。Trillium 计划完整记录：实验室用什么工具、什么任务、模型卡在哪里、代码里写了什么 bug，每半年更新一次。让政策制定者亲眼看到 AI 自动化的真实形态，而不是听神秘的传说。[40:01 Unknown]\n\n他的核心判断：**所有扩展定律都是算力指数级增长换性能线性提升**，实验室花的是指数级的钱才维持住现在的进步速度。他引用 Claude 系统卡的说法——要出现快速起飞，还需要再多一个数量级的进展。数学可能是最适配这种智能形态的领域，但「Claude 不会自己告诉自己怎么做出更好的 PPT」。[56:48 Unknown]\n\n真正让他担心的不是前沿藏着秘密，而是能力在涨、社会几乎没做准备——公共网络安全等领域的准备基本不存在。闭源实验室先到，开源随后跟到，很多问题正在扩散的路上。他呼吁更多眼睛、更多公开科学，让社会在知情的状态下做准备。\n\n## 本集带走\n\n- 前沿优势=算力+数据+人才+敢下重注的组织，开源想追，短期看齐的是近前沿这一层。\n- 蒸馏被严重夸大：公开文献显示它对当今推理模型的后训练帮助有限，中国团队的技术实力是真实的，差距主要在算力。\n- 开源生态走得慢，是因为链条分散、信息回流差，但终点的所有权（权重、硬件、回报）对企业有真实价值。\n- 前沿进步越来越靠买数据和搭强化学习环境，这个行业还早，质量参差，会持续多年洗牌。\n- 别神化 AI 自我改进：算力换性能仍是指数换线性，真正缺的是社会层面的准备，而不是更多的神秘感。",
+  "quotes": [
+    {
+      "en": "People distill my products every single day. They take it, they strip it down to its raw parts, and that's called competition.",
+      "zh": "人们每天都在蒸馏我的产品。他们拿走它，把它拆解成原始部件，这就叫竞争。",
+      "timestamp": "00:21",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "If somebody wants to work at the frontier of AI, I mostly tell them to work at Anthropic and OpenAI, which is the easiest bet.",
+      "zh": "如果有人想去 AI 的前沿工作，我大多会告诉他们去 Anthropic 和 OpenAI，这是最容易下的注。",
+      "timestamp": "03:50",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "To say that China is anything but equal in talent, you're gonna have a hard time because they just have so many people being trained at such a high level.",
+      "zh": "要说中国在人才上不如人，你会很难站住脚，因为他们有太多人正在如此高的水平上接受训练。",
+      "timestamp": "09:28",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "Distillation is a way to effectively spend more money to get what is compute equivalent.",
+      "zh": "蒸馏是一种有效地花更多钱来换取算力等价物的方式。",
+      "timestamp": "10:00",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "The Chinese are so good at building models as well. I think there's a bit of cope where people are like, only we are good at building models.",
+      "zh": "中国人在构建模型方面也非常强。我觉得存在一点自我安慰，人们说只有我们擅长构建模型。",
+      "timestamp": "13:31",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "I just think you're going to cause more harm than good if you do anything about distillation, because they're not going to stop.",
+      "zh": "我只是认为，如果你对蒸馏做任何事情，造成的伤害会大于好处，因为他们不会停止。",
+      "timestamp": "16:30",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "We have seen this with coding and this has been the story of the year where the revenue has just gone zero, 100 billion and likely to grow.",
+      "zh": "我们在编程领域见过这一点，这是今年的故事，收入从零直接到了 1000 亿，而且很可能继续增长。",
+      "timestamp": "20:02",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "At the end of this process, they have real ownership, which is model weights.",
+      "zh": "在这个过程的最后，他们拥有真正的所有权，也就是模型权重。",
+      "timestamp": "21:28",
+      "speaker": "Nathan Lambert"
+    },
+    {
+      "en": "The security at these labs in terms of information is not as high as they think.",
+      "zh": "这些实验室在信息方面的安全性没有他们想的那么高。",
+      "timestamp": "52:49",
+      "speaker": "Nathan Lambert"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:10",
+      "speaker": "Unknown",
+      "en": "The Chinese are so good at building models.",
+      "zh": "中国人非常擅长构建模型。"
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Unknown",
+      "en": "People distill my products every single day. They take it, they strip it down to its raw parts, and that's called competition.",
+      "zh": "人们每天都在蒸馏我的产品。他们拿走它，把它拆解成原始部件，这就叫竞争。"
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Unknown",
+      "en": "The discourse now is just so much fear on like how much the frontier is just hidden and also breaking away.",
+      "zh": "现在的舆论充满了恐惧，担心前沿有多少是被隐藏的，以及正在拉开差距。"
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Unknown",
+      "en": "If somebody wants to work at the frontier of AI, I mostly tell them to work at Anthropic and OpenAI, which is the easiest bet.",
+      "zh": "如果有人想去 AI 的前沿工作，我大多会告诉他们去 Anthropic 和 OpenAI，这是最容易下的注。"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Unknown",
+      "en": "They're really good at getting this plot that just changes how everyone thinks about everything.",
+      "zh": "他们非常擅长做出那种改变所有人看待一切方式的曲线图。"
+    },
+    {
+      "timestamp": "04:36",
+      "speaker": "Unknown",
+      "en": "Those two companies in particular have been the most forward-looking and the most willing to spend egregious amounts to make a step towards a direction that people think is impossible.",
+      "zh": "这两家公司尤其一直是最有前瞻性的，也是最愿意花费惊人金额去朝一个人们认为不可能的方向迈出一步的。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Unknown",
+      "en": "If they were to build their models and try to sell an API from China, nobody would know about them.",
+      "zh": "如果他们构建自己的模型，并试图从中国出售 API，没人会知道他们。"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Unknown",
+      "en": "They're just trying to build a startup.",
+      "zh": "他们只是想创业做一家初创公司。"
+    },
+    {
+      "timestamp": "06:51",
+      "speaker": "Unknown",
+      "en": "Once Anthropic and OpenAI show you the type of model that you need to build, it's a lot easier to then be like, oh, we just need to do this thing.",
+      "zh": "一旦 Anthropic 和 OpenAI 向你展示了你需要构建什么类型的模型，接下来就容易多了，就像是，哦，我们只需要做这件事。"
+    },
+    {
+      "timestamp": "07:13",
+      "speaker": "Unknown",
+      "en": "They might sell them to everybody. They need to maximize their return on their investment.",
+      "zh": "他们可能会把数据集卖给所有人。他们需要最大化其投资的回报。"
+    },
+    {
+      "timestamp": "09:28",
+      "speaker": "Unknown",
+      "en": "To say that China is anything but equal in talent, you're gonna have a hard time because they just have so many people being trained at such a high level.",
+      "zh": "要说中国在人才上不如人，你会很难站住脚，因为他们有太多人正在如此高的水平上接受训练。"
+    },
+    {
+      "timestamp": "10:00",
+      "speaker": "Unknown",
+      "en": "Distillation is a way to effectively spend more money to get what is compute equivalent.",
+      "zh": "蒸馏是一种有效地花更多钱来换取算力等价物的方式。"
+    },
+    {
+      "timestamp": "12:47",
+      "speaker": "Unknown",
+      "en": "Don't really understand how this fits into distillation as a common technical tool in post-training.",
+      "zh": "真的不太理解这如何契合蒸馏作为后训练中一种常见技术工具这件事。"
+    },
+    {
+      "timestamp": "13:30",
+      "speaker": "Unknown",
+      "en": "The Chinese are so good at building models as well. I think there's a bit of cope where people are like, only we are good at building models.",
+      "zh": "中国人在构建模型方面也非常强。我觉得存在一点自我安慰，人们说只有我们擅长构建模型。"
+    },
+    {
+      "timestamp": "14:00",
+      "speaker": "Unknown",
+      "en": "I think every Chinese lab has a team that knows those sorts of things.",
+      "zh": "我认为每家中国实验室都有一个懂这类事情的团队。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Unknown",
+      "en": "I just think you're going to cause more harm than good if you do anything about distillation, because they're not going to stop.",
+      "zh": "我只是认为，如果你对蒸馏做任何事情，造成的伤害会大于好处，因为他们不会停止。"
+    },
+    {
+      "timestamp": "18:10",
+      "speaker": "Unknown",
+      "en": "It's this unprecedented, like, beautiful flywheel, and this happens for both OpenAI and Anthropic.",
+      "zh": "这是前所未有的、漂亮的飞轮，这对 OpenAI 和 Anthropic 都是如此。"
+    },
+    {
+      "timestamp": "20:02",
+      "speaker": "Unknown",
+      "en": "We have seen this with coding and this has been the story of the year where the revenue has just gone zero, 100 billion and likely to grow.",
+      "zh": "我们在编程领域见过这一点，这是今年的故事，收入从零直接到了 1000 亿，而且很可能继续增长。"
+    },
+    {
+      "timestamp": "21:28",
+      "speaker": "Unknown",
+      "en": "At the end of this process, they have real ownership, which is model weights.",
+      "zh": "在这个过程的最后，他们拥有真正的所有权，也就是模型权重。"
+    },
+    {
+      "timestamp": "24:52",
+      "speaker": "Unknown",
+      "en": "I think that's actually great evidence that the open source fine-tunings are very good or good enough and has surpassed intelligence-hungry tasks.",
+      "zh": "我认为这实际上是很好的证据，证明开源微调非常好或足够好，并且已经在超越智能渴求型的任务。"
+    },
+    {
+      "timestamp": "52:44",
+      "speaker": "Unknown",
+      "en": "The security at these labs in terms of information is not as high as they think.",
+      "zh": "这些实验室在信息方面的安全性没有他们想的那么高。"
+    },
+    {
+      "timestamp": "53:21",
+      "speaker": "Unknown",
+      "en": "Knowledge spreads. It's hard to keep this secret.",
+      "zh": "知识会传播。很难对此保密。"
+    }
+  ],
+  "voice_script": "今天这期,聊一个你可能也好奇的问题:OpenAI、Anthropic 这些烧钱巨头领跑的前沿,开源模型到底还追不追得上?聊这个的人叫 Nathan Lambert,新成立的非营利研究实验室 Trillium 的创始人,之前在 AI2 做后训练研究,是行业内少有的既懂技术又敢公开发言的研究者。这期节目是 a16z 的播客,跟合伙人 Leisha Lee 聊的。公共讨论里一提到开源落后、中国模型,情绪往往很极端,但给出的答案要冷静得多。\n\n先说模型进步靠什么。Lambert 把它归结为三种资本的组合:算力、数据和人才。闭源前沿实验室在这三项上投入最狠,而且最敢在别人觉得不可能的方向上下重注。OpenAI 掀起了推理模型的革命,Anthropic 则是长期押注编程,最后等来了 Claude Code 的爆发。这里还有个容易被忽略的因素:组织本身。要让公司架构真正服务于造模型这件事非常难,所以才会看到 Meta 那种推倒重来的整体重组,而重组之后确实又回到了上升轨道。\n\n说完前沿,再看开源这边的代表——中国实验室。中国公司搞开源,常被渲染成政府行为,但 Lambert 直言不是这么回事,这就是生意。道理很简单:如果 Moonshot AI、智谱这些公司只在中国卖 API,美国根本没人知道它们是谁。把模型开源,是进入全球对话的最快捷径。而且这么走下去,会形成一个分层市场:最好的闭源模型拿最高的利润率,紧随其后的近前沿模型是开源的——因为总有企业想把模型部署在私有数据、自有硬件上,这些需求闭源 API 满足不了。\n\n那问题来了:开源模型追得这么快,是不是全靠偷师?流传最广的说法是,中国模型都是蒸馏出来的。蒸馏这个词得解释一下,就是拿一个强模型的输出去训练自己的模型,相当于花更多的钱,换算力等价物。缺算力这件事,Lambert 承认。有个细节很生动:听说 OpenAI 研究员平均能随时调用五千块 H100 等效算力,一位中国顶级的预训练研究者听完,下巴都掉下来了。\n\n但是,要说中国在人才上不如人,很难站住脚——有太多高水平训练出来的人。更关键的是,蒸馏的作用被严重夸大了。看公开文献会发现,现在的推理模型后训练里,蒸馏其实很难起大作用:开源社区自己试过,拿顶级模型的推理轨迹做训练,效果并不好,连教师模型都对不上。\n\n当然,话也没说死。中国存在大量调用 Claude 的中间代理,Kimi 甚至被发现在产品里直接给用户返回 Claude 的输出。这些东西到底怎么用进训练,还需要更多公开研究才能回答。估算下来,蒸馏大概帮中国公司省了几个月,而不是决定性的差距。至于该不该管,有个引用特别妙,Jensen 说过:人们每天都在蒸馏我的产品,他们拿走它,把它拆解成原始部件,这就叫竞争。靠国会立法管不了,而且管了也没用,对方不会停。更何况中美在 AI 安全上本来就需要对话,在蒸馏问题上出手,只会弊大于利。\n\n那开源为什么追得慢呢?闭源实验室的优势是整合:模型、推理服务、营收、融资,转成一个飞轮,市场最先到,利润率最高。开源这边链条更长,做模型的、做推理服务的、做后训练的公司彼此分离,客户信息传不回模型构建者手里,所以慢。但走完全程的企业,拿到的是模型权重的真正所有权——没有条款限制,跑在自己的硬件上,算得清回报。开源经济要花更长时间建,所以不容易是泡沫。有个佐证:Cursor 发过一个实验,在重写 SQLite 的长任务里,用开源微调模型的成本远低于两个前沿模型的组合,效果相当。\n\n再往深一层看,现在最大的杠杆其实不是模型本身,而是买数据、建环境。Lambert 判断,前沿进步很大程度来自花钱买高质量数据、给模型搭可以行动的环境。这 explains 一个现象:数学和编程为什么进步飞快?因为可验证,对错一目了然。而生物、法律、知识工作这些不可完全验证的领域,得一个行业一个行业地买数据、定义行为,这会持续很多年,也是资本最密集的地方。这个市场还很粗糙,数据公司大量采购、批量试错,质量参差,甚至催生了奖励作弊——模型聪明到会钻环境的空子刷高分。所以数据行业有大量低垂的果实,要好几年才能把赢家筛出来。Trillium 要做的一件事,就是把高杠杆任务的开源环境公开出来。为什么没人做?一套环境要几千到几万美元,利润动机让几乎没人愿意免费发布。但这些公开资源,正是博士生和研究者做研究的地基。\n\n最后聊聊那个最耸人听闻的话题:AI 自己改进自己,也就是所谓递归自我改进。面对恐慌,Lambert 的态度是把它晒出来。Trillium 计划完整记录:实验室用什么工具、什么任务、模型卡在哪里、代码里写了什么 bug,每半年更新一次,让政策制定者亲眼看到 AI 自动化的真实形态,而不是听神秘的传说。核心判断是这么一句话:所有扩展定律,都是算力指数级增长换性能线性提升。实验室花的是指数级的钱,才维持住现在的进步速度。Claude 系统卡里也说了,要出现快速起飞,还需要再多一个数量级的进展。数学可能是最适配这种智能形态的领域,但 Claude 不会自己告诉自己怎么做出更好的 PPT。\n\n真正让人担心的,不是前沿藏着什么秘密,而是能力在涨、社会几乎没做准备,公共网络安全这些领域的准备基本不存在。闭源实验室先到,开源随后跟到,很多问题正在扩散的路上。所以呼吁的是更多眼睛、更多公开科学,让社会在知情的状态下做准备。\n\n一句话带走:别被神秘感吓着,也别神化 AI 自我改进——真正该补的,不是前沿的秘密,而是我们自己的准备。"
+}

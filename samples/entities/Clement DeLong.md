@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":37,"开源":41,"前沿模型":27,"本地模型":3,"模型路由":12,"蒸馏":1,"推理":99,"护栏":90,"Anthropic":203,"OpenAI":201}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":38,"开源":42,"前沿模型":28,"本地模型":3,"模型路由":12,"蒸馏":1,"推理":100,"护栏":90,"Anthropic":204,"OpenAI":203}</script>
 
 <script>
 (function(){
