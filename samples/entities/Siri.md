@@ -35,7 +35,7 @@ unlisted: true
 
 [[Josh Elman]] · [[Andreessen Horowitz]] · [[ChatGPT]] · [[智能体]] · [[TikTok]] · [[Musical.ly]] · [[Apple]] · [[Google]] · [[Oli Forsyth]] · [[Eric Newcomer]]
 
-<script type="application/json" class="pd-epn">{"Josh Elman":2,"Andreessen Horowitz":3,"ChatGPT":111,"智能体":496,"TikTok":7,"Musical.ly":2,"Apple":27,"Google":71,"Oli Forsyth":1,"Eric Newcomer":2}</script>
+<script type="application/json" class="pd-epn">{"Josh Elman":2,"Andreessen Horowitz":3,"ChatGPT":111,"智能体":499,"TikTok":7,"Musical.ly":2,"Apple":27,"Google":71,"Oli Forsyth":1,"Eric Newcomer":2}</script>
 
 <script>
 (function(){

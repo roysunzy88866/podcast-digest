@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":98,"推理":98,"GPU":31,"量化":1,"函数调用":4}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":98,"推理":99,"GPU":32,"量化":1,"函数调用":4}</script>
 
 <script>
 (function(){

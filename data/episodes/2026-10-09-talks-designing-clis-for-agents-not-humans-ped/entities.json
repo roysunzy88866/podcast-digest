@@ -1,0 +1,824 @@
+{
+  "episode_id": "2026-10-09-talks-designing-clis-for-agents-not-humans-ped",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "智能体",
+    "MCP",
+    "命令行工具",
+    "API 设计",
+    "数据基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "pedro-lopez",
+      "type": "person",
+      "role": "guest",
+      "name": "Pedro Lopez",
+      "file": "Pedro Lopez",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "airbyte",
+      "type": "company",
+      "role": "company",
+      "name": "Airbyte",
+      "file": "Airbyte",
+      "primary": true,
+      "how_described": "本集说它起家于数据搬运的开源标准（连接 Zendesk、Stripe、GitHub 等 SaaS 工具到分析管道），现已演进为 AI 智能体的数据和行动层，通过 context store 提供搜索优化的数据索引。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.218,
+            17.378
+          ],
+          "quote": "I am a software engineer at Airbyte.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            24.501,
+            35.944
+          ],
+          "quote": "And before we go into the nitty gritty of all of that, I wanted to give a bit of context on what we do at Airbyte and how all of this kind of fits into our product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            36.004,
+            37.745
+          ],
+          "quote": "So Airbyte's been around for a while.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            426.792,
+            434.138
+          ],
+          "quote": "So you can sign into Airbyte, accept the privileges, and then you are all set up with all the connectors that you've linked up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1075.366,
+            1080.15
+          ],
+          "quote": "We have a booth over there at Airbyte that you should check out and come work with us.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说它是让 ChatGPT、Claude 这类智能体调用外部工具的标准方式，对非技术用户友好、易安装，但各客户端对规范的支持参差不齐（如 elicitation），且有限制（如 2KB 描述上限、运行时长限制）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.079,
+            23.12
+          ],
+          "quote": "And today we're going to be talking about how we built our agent MCP and our CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            120.746,
+            133.518
+          ],
+          "quote": "And then what we're going to be focusing on in this talk, which is our MCP and our CLI, which is a way to easily make that available within existing agents like ChatGPT and Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            184.243,
+            195.128
+          ],
+          "quote": "So the MCP and the CLI, the way that we've structured things is that they are thin, unified interfaces into our platform, not re-implementations of the platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            239.024,
+            241.307
+          ],
+          "quote": "Let's start with the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            286.542,
+            292.011
+          ],
+          "quote": "You just give it the hosted MCP URL, and you're able to connect pretty quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.508,
+            298.15
+          ],
+          "quote": "This is our MCP in action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            340.227,
+            348.979
+          ],
+          "quote": "So let's go into kind of some lessons learned while building this MCP and things that you might want to keep in mind if you're doing something similar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            374.878,
+            389.365
+          ],
+          "quote": "The opposite end of the spectrum here would be since we connect to so many different connectors and each of these has different entities, different actions you can take, we could have exposed an MCP tool for each one of these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            404.232,
+            410.156
+          ],
+          "quote": "Those tool descriptions really helps with the performance of the MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            414.984,
+            419.527
+          ],
+          "quote": "So this refers to how you authenticate the MCP server itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            435.901,
+            457.818
+          ],
+          "quote": "And technically, you can use other authentication mechanisms through MCP, but you're really going to have a hard time if you do like bearer auth or anything like that, because the spec is really heavy on OAuth, and all of the clients, the main ones at least, are really leaning towards the OAuth as a better UX for installing that connector.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            515.855,
+            526.344
+          ],
+          "quote": "So I'll get into what elicitation is, but a big part of the MCP server that I mentioned is you need to be able to connect your tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            551.093,
+            562.586
+          ],
+          "quote": "Now, technically, MCP has something in the spec that allows you to surface those kinds of URLs and process those inputs called elicitation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            584.123,
+            587.665
+          ],
+          "quote": "But the problem is support across the MCP clients.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            587.945,
+            598.012
+          ],
+          "quote": "So that's a big theme when working with MCP is that even though there is a spec, the features that are supported across the clients kind of vary quite a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            627.801,
+            631.325
+          ],
+          "quote": "And this is the same example we saw earlier, but this time with the MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            904.175,
+            905.797
+          ],
+          "quote": "Auth was interesting on the MCP side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            967.147,
+            972.029
+          ],
+          "quote": "With MCP, the spec is not uniformly implemented across the board.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            988.312,
+            991.494
+          ],
+          "quote": "More long-running processes through MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            996.836,
+            1003.82
+          ],
+          "quote": "And then on the CLI, the cool things about MCP, like you could have a hosted MCP server that just is always updated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1012.124,
+            1016.707
+          ],
+          "quote": "And there's no, while the limits can be, well, limiting on the MCP side,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1033.788,
+            1047.098
+          ],
+          "quote": "I think MCPs are great for those non-technical users, be able to quickly prototype things, build one-off reports, and even leverage that MCP ecosystem to have things talk to each other.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "本集说要为智能体设计 CLI：JSON 进出、命名严格一致、skills 随工具发布、绝无交互式提问；擅长长任务和 Unix 管道，但需考虑版本管理且无限制时智能体可能空转。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.079,
+            23.12
+          ],
+          "quote": "And today we're going to be talking about how we built our agent MCP and our CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            120.746,
+            133.518
+          ],
+          "quote": "And then what we're going to be focusing on in this talk, which is our MCP and our CLI, which is a way to easily make that available within existing agents like ChatGPT and Claude.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            184.243,
+            195.128
+          ],
+          "quote": "So the MCP and the CLI, the way that we've structured things is that they are thin, unified interfaces into our platform, not re-implementations of the platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            612.704,
+            615.287
+          ],
+          "quote": "OK, let's talk about the CLI a bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            632.226,
+            633.147
+          ],
+          "quote": "Or sorry, with the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            636.908,
+            640.57
+          ],
+          "quote": "It's this time loading a skill that tells it about the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            641.551,
+            644.192
+          ],
+          "quote": "And then, you know, using the CLI itself to query things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            652.075,
+            661.04
+          ],
+          "quote": "It's able to, this time, use the CLI to query that, create a context store, aggregate that data, and then eventually it should come back with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            678.68,
+            686.386
+          ],
+          "quote": "Some of the things that might be helpful for users when you're making a CLI are going to be like blockers for agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            769.075,
+            787.868
+          ],
+          "quote": "If you have structured your CLI in a way that it's structured where there is a noun and then a verb, for example, connectors list, connectors create, make sure that when you're implementing a workspace CLI commands, they also follow that same format.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            819.242,
+            828.884
+          ],
+          "quote": "Because that usually means that something is not quite as obvious as it should be in your CLI contract if agents keep making the same kind of mistakes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            830.098,
+            833.479
+          ],
+          "quote": "Three, our skills ship with the CLI tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            834.299,
+            844.543
+          ],
+          "quote": "So skills are a must when you're doing CLIs because how else, if you have a CLI installed, is an agent going to know that that CLI even exists in the first place?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            862.51,
+            864.971
+          ],
+          "quote": "It knows to bring up that CLI and evoke it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            919.45,
+            924.113
+          ],
+          "quote": "It can't sit there and wait for you to type a prompt into the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            924.493,
+            937.422
+          ],
+          "quote": "You have to expose things either through flags or, in the case of credentials, environment variables and config files so that things can be set up out of band and you don't have to wait for that whenever you're invoking the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            996.836,
+            1003.82
+          ],
+          "quote": "And then on the CLI, the cool things about MCP, like you could have a hosted MCP server that just is always updated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1004.3,
+            1005.961
+          ],
+          "quote": "That's not quite the case with the CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1017.867,
+            1027.666
+          ],
+          "quote": "Not having any of those on the CLI across the tools, across the calls of the CLI, can make things go wrong and continually go through loops that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1047.758,
+            1065.854
+          ],
+          "quote": "And then the CLI is better for those more technical users, more longer running tasks, maybe outputs that are super long and you need to leverage those features that Unix and the pipes give you, where you can redirect output to a file, you can do a tail, do a head on that output.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1066.074,
+            1069.838
+          ],
+          "quote": "That's where really the CLI starts to shine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它当作 CLI 和 MCP 的真正使用者：智能体擅长构造 JSON、依赖 skills 发现工具、遇交互式提示会卡死、反复犯同一错误说明接口设计有问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            18.079,
+            23.12
+          ],
+          "quote": "And today we're going to be talking about how we built our agent MCP and our CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            60.684,
+            82.364
+          ],
+          "quote": "And we do that by offering our AI by agent product that has what we call the context store, which connects to all of those tools that I mentioned before and sits in between your agents to provide a search-optimized index of all of your data that is able to be more efficiently queried by your agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            834.299,
+            844.543
+          ],
+          "quote": "So skills are a must when you're doing CLIs because how else, if you have a CLI installed, is an agent going to know that that CLI even exists in the first place?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1029.305,
+            1030.506
+          ],
+          "quote": "You know, make the agent spin.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-store",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文存储 (context store)",
+      "file": "上下文存储",
+      "primary": true,
+      "how_described": "本集说它是 Airbyte AI 产品的核心：连接所有 SaaS 工具，为智能体提供针对搜索优化的全量数据索引，支持跨 Zendesk、Stripe 等数据源的交叉查询。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            60.684,
+            82.364
+          ],
+          "quote": "And we do that by offering our AI by agent product that has what we call the context store, which connects to all of those tools that I mentioned before and sits in between your agents to provide a search-optimized index of all of your data that is able to be more efficiently queried by your agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            102.516,
+            107.338
+          ],
+          "quote": "And so we have a couple of different interfaces by which you can access this context store.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            168.244,
+            175.95
+          ],
+          "quote": "We want to expose the ability to search across the context store, be able to read and write, take action on all those systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            314.263,
+            329.596
+          ],
+          "quote": "And so this right now is looking through all the connectors that we have, searching the context store for that information that I asked it about, and then combining that information across Zendesk and Stripe so that it can come up with an answer for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            652.075,
+            661.04
+          ],
+          "quote": "It's able to, this time, use the CLI to query that, create a context store, aggregate that data, and then eventually it should come back with",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oauth",
+      "type": "concept",
+      "role": "concept",
+      "name": "OAuth",
+      "file": "OAuth",
+      "primary": true,
+      "how_described": "本集说 OAuth 才是正道：MCP 规范和主流客户端都押注其上，用 bearer auth 等其他方式会处处碰壁；且用户期望像移动应用一样的长时会话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            412.462,
+            414.143
+          ],
+          "quote": "Two, OAuth is the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            422.589,
+            426.712
+          ],
+          "quote": "You click a button to connect, and that spins up our OAuth flow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            435.901,
+            457.818
+          ],
+          "quote": "And technically, you can use other authentication mechanisms through MCP, but you're really going to have a hard time if you do like bearer auth or anything like that, because the spec is really heavy on OAuth, and all of the clients, the main ones at least, are really leaning towards the OAuth as a better UX for installing that connector.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            470.998,
+            472.699
+          ],
+          "quote": "It's just all defaulting to OAuth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            497.301,
+            511.694
+          ],
+          "quote": "And so that has its own little things to keep in mind as you're implementing OAuth is keeping offline long sessions that are stored separately from the web app and have its own set of life cycles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            538.252,
+            549.219
+          ],
+          "quote": "Which pops up this widget, and you're able to select which entities you want to connect and redirect to HubSpot to go through that OAuth flow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "elicitation",
+      "type": "concept",
+      "role": "concept",
+      "name": "elicitation 机制 (elicitation)",
+      "file": "elicitation 机制",
+      "primary": false,
+      "how_described": "本集说它是 MCP 规范里服务器向用户请求信息的机制，但各客户端支持参差不齐（Claude Desktop 不支持 URL 模式），他们最终自己实现授权链接绕开协议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            513.853,
+            515.675
+          ],
+          "quote": "Elicitation, though, is not the way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            515.855,
+            526.344
+          ],
+          "quote": "So I'll get into what elicitation is, but a big part of the MCP server that I mentioned is you need to be able to connect your tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            551.093,
+            562.586
+          ],
+          "quote": "Now, technically, MCP has something in the spec that allows you to surface those kinds of URLs and process those inputs called elicitation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            565.789,
+            569.053
+          ],
+          "quote": "For the longest time, it was only form mode elicitation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            577.398,
+            583.522
+          ],
+          "quote": "But more recently, this URL mode elicitation became a thing that's very similar to what we're doing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            598.853,
+            604.862
+          ],
+          "quote": "So this is an example from Claude Desktop where it just is telling me, hey, I don't support URL mode elicitation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "skills",
+      "file": "skills",
+      "primary": true,
+      "how_described": "本集说 skills 是让智能体发现 CLI 存在并有效使用它的必需品，应随 CLI 一起发布，且要拆成多个 references 按需加载，避免塞爆上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            830.098,
+            833.479
+          ],
+          "quote": "Three, our skills ship with the CLI tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            834.299,
+            844.543
+          ],
+          "quote": "So skills are a must when you're doing CLIs because how else, if you have a CLI installed, is an agent going to know that that CLI even exists in the first place?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            875.897,
+            876.477
+          ],
+          "quote": "Skills have this",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openapi",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenAPI 规范 (OpenAPI)",
+      "file": "OpenAPI 规范",
+      "primary": false,
+      "how_described": "本集说它作为连接 API 的事实来源，很多薄接口构建在这些规范之上，以跟上每天 10 次以上的平台部署节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            220.5,
+            229.165
+          ],
+          "quote": "And so a big part of this as well is OpenAPI specs as a source of truth for how to connect to our APIs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "progressive-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式发现 (progressive discovery)",
+      "file": "渐进式发现",
+      "primary": false,
+      "how_described": "本集说它用于限制暴露的工具数量和上下文体量：只暴露 describe 和 execute 两个工具、把 skill 说明拆成 references，逐步展开能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            390.646,
+            403.272
+          ],
+          "quote": "But instead what we found is really keeping it narrow, using progressive discovery of all of the capabilities that the connector has available and really limiting the amount of context that you shove into the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            889.746,
+            899.313
+          ],
+          "quote": "And that really helps cut down the amount of context that you're loading in and leverages the progressive discovery ability of these agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

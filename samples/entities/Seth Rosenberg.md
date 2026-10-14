@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":19,"Inflection AI":1,"Microsoft":32,"Pi":3,"Copilot":13,"OpenAI":199,"AGI":28,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
+<script type="application/json" class="pd-epn">{"Mustafa Suleyman":1,"DeepMind":19,"Inflection AI":1,"Microsoft":32,"Pi":3,"Copilot":13,"OpenAI":200,"AGI":28,"图灵测试":2,"基于人类反馈的强化学习":2}</script>
 
 <script>
 (function(){

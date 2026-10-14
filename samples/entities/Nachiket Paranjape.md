@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"DoorDash":10,"评估":1,"智能体":496,"LLM 网关":3,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":10,"黄金数据集":1,"数据标注":3}</script>
+<script type="application/json" class="pd-epn">{"Swaroop Chitlur Haridas":1,"DoorDash":10,"评估":1,"智能体":499,"LLM 网关":3,"智能体网关":1,"开源权重模型托管":1,"LLM 当裁判":10,"黄金数据集":1,"数据标注":3}</script>
 
 <script>
 (function(){

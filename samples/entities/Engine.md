@@ -77,7 +77,7 @@ unlisted: true
 
 [[Ben]] · [[LangChain]] · [[LangSmith]] · [[智能体]] · [[trace]] · [[评估]] · [[基准测试]] · [[红队测试]]
 
-<script type="application/json" class="pd-epn">{"Ben":3,"LangChain":13,"LangSmith":6,"智能体":496,"trace":7,"评估":1,"基准测试":2,"红队测试":8}</script>
+<script type="application/json" class="pd-epn">{"Ben":3,"LangChain":13,"LangSmith":6,"智能体":499,"trace":7,"评估":1,"基准测试":2,"红队测试":9}</script>
 
 <script>
 (function(){

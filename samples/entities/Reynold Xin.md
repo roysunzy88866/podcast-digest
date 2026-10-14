@@ -38,11 +38,11 @@ aliases: ["Reynold", "Reynolds"]
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":24,"Snowflake":23,"MosaicML":2,"Neon":4,"Omnigen":1,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":496}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Databricks":24,"Snowflake":23,"MosaicML":2,"Neon":4,"Omnigen":1,"LTAP":1,"HTAP":2,"Dream Engine":1,"智能体":499}</script>
 
 <script>
 (function(){

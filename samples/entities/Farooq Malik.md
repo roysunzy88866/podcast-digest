@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":4,"RAIN":1,"稳定币":6,"代币化货币":1,"智能体":496,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"RAIN":1,"稳定币":6,"代币化货币":1,"智能体":499,"Stripe":48,"Bridge":3,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

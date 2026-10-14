@@ -1,0 +1,857 @@
+{
+  "episode_id": "2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "大公司转型",
+    "创始人模式",
+    "职业成长"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jeetu-patel",
+      "type": "person",
+      "role": "host",
+      "name": "Jeetu Patel",
+      "file": "Jeetu Patel",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cisco",
+      "type": "company",
+      "role": "company",
+      "name": "Cisco",
+      "file": "Cisco",
+      "primary": true,
+      "how_described": "本集把它说成「淘金热时期卖铲子的公司」，是 AI 时代的 AI 基础设施公司；AI 网络业务两年从零做到 93 亿美元订单，以「世界上最大的初创公司」方式运营。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            30.193,
+            34.316
+          ],
+          "quote": "Today, I'm talking with Jitu Patel, Cisco's president and chief product officer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.937,
+            48.207
+          ],
+          "quote": "We're going to discuss how Jitu is bringing a founder's mindset to Cisco, going all in on AI, what's happening inside the massive data center buildup that they're at the center of, and then we'll talk about what founders can learn from Jitu's incredible personal story.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            59.754,
+            68.498
+          ],
+          "quote": "But before we talk about all that, I want to talk about Cisco today and your unique role and what you're doing there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            77.963,
+            81.345
+          ],
+          "quote": "What Cisco does though, which is even more interesting than what I do,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            106.32,
+            111.543
+          ],
+          "quote": "And that description of Cisco, which I love, picks and shovels for the AI era,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            112.722,
+            115.043
+          ],
+          "quote": "Clearly, you would not have described Cisco that way four years ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            164.125,
+            168.328
+          ],
+          "quote": "Can you tell the story of how you ended up at Cisco and what you're doing there?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            168.648,
+            169.589
+          ],
+          "quote": "So I ended up at Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            250.41,
+            252.371
+          ],
+          "quote": "And so that's what we started doing at Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            252.451,
+            258.995
+          ],
+          "quote": "And I feel like I tell my peers and everyone in my company, I'm like, I feel like I'm a late stage co-founder of Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            289.006,
+            292.447
+          ],
+          "quote": "Is this one of the reasons why you'd like to bring in former founders at Cisco?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            301.132,
+            304.054
+          ],
+          "quote": "Because if you had everyone at Cisco who was a founder, it'd be a shit show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            312.42,
+            315.682
+          ],
+          "quote": "So a third of my leadership team are people that know how to maneuver Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325.043,
+            329.085
+          ],
+          "quote": "That might not know how to maneuver Cisco, but they're systems thinkers, and they've operated at scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            344.932,
+            346.273
+          ],
+          "quote": "Do you feel Cisco is in wartime?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            346.733,
+            350.555
+          ],
+          "quote": "I feel like Cisco is in wartime right now in the sense that we have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            540.065,
+            549.847
+          ],
+          "quote": "You've gone all in on AI, both in terms of investing in the AI data center market, but also in terms of bringing AI into Cisco to make everything more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            550.247,
+            555.549
+          ],
+          "quote": "I'm actually really interested to learn what it looks like to adopt AI at a company the size of Cisco.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            665.75,
+            674.353
+          ],
+          "quote": "And so we just made it very, very clear for people that if you happen to be in that second camp because you're not using AI, chances are that Cisco is the wrong place for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            847.984,
+            853.991
+          ],
+          "quote": "We've all seen how AI is transformative for software development, but Cisco does a lot of hardware development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            861.355,
+            866.277
+          ],
+          "quote": "So Cisco does software, hardware, and silicon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1051.74,
+            1056.183
+          ],
+          "quote": "Can you talk about the role that Cisco is playing in this huge data center build-out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1572.337,
+            1582.644
+          ],
+          "quote": "And we are actually, Cisco is working a lot on making sure that we can provide a whole agentic security platform that we are making available to the market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2042.302,
+            2044.302
+          ],
+          "quote": "Not at all anything to do with Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2081.556,
+            2085.098
+          ],
+          "quote": "But if you come to Cisco, the trajectory will be shaped based on what you do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2103.368,
+            2109.272
+          ],
+          "quote": "And before you know it, Cisco became the place where I think I got some of my...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2371.513,
+            2378.58
+          ],
+          "quote": "What advice would you have for entrepreneurs or for people who are coming into an organization like Cisco and trying to transform it the way that you did?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (AI infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集说思科「是 AI 时代的 AI 基础设施公司」，并论证数据中心没有过度建设：不到 2% 的人重度使用智能体，基础设施就已供不应求、被立刻消耗掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            86.208,
+            95.333
+          ],
+          "quote": "We are the AI infrastructure company for the AI era during this massive movement that's going on right now, which is a secular shift.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            357.704,
+            364.428
+          ],
+          "quote": "I think we are now squarely in the AI infrastructure game, which is something that no one would give us credit for three, four years ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            457.361,
+            460.665
+          ],
+          "quote": "It's actually harder and harder to distinguish between when an agent has",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            462.381,
+            477.146
+          ],
+          "quote": "Is operating with malicious intent because of an adversary influencing the agent or poisoning the agent, or an agent just thinks it's the right thing to do, and they're just kind of diligently going out and following your slash goal command.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1350.668,
+            1359.617
+          ],
+          "quote": "If sub 2% of the people are using agents and these agents are so consumptive, on average an agent is 450% more consumptive on network bandwidth than a human would be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1604.438,
+            1618.571
+          ],
+          "quote": "And if you do jailbreak it, and you asked the question that you didn't want it to have a response, or if you had the agent conduct an action that you didn't want it to conduct, how can you intercept that and make sure dynamically at runtime you can enforce guardrails?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1660.189,
+            1668.652
+          ],
+          "quote": "And if you ask an agent for a refund, it shouldn't be giving you three times the amount that you paid for the pair of shoes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "founder-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人模式 (founder mode)",
+      "file": "创始人模式",
+      "primary": true,
+      "how_described": "本集说 Patel 把自己当成「迟到了 36 年的思科联合创始人」，以所有者心态插手销售、营销等一切业务，认为创始人模式适合战时和快速变革期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            220.811,
+            228.315
+          ],
+          "quote": "And so I personally feel like when you have this founder mode approach, it's very good for wartime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            235.96,
+            241.604
+          ],
+          "quote": "And what you have to do is you just have to make sure that you don't completely alienate the people who might not be in founder mode.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            242.324,
+            249.629
+          ],
+          "quote": "And kind of help them understand the benefit that if you do go in founder mode, we can actually operate at a very different frequency than what we've been operating so far.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-defense",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI Defense",
+      "file": "AI Defense",
+      "primary": true,
+      "how_described": "本集说思科一年半前推出的 AI 安全产品，是智能体安全平台的核心基础，做模型验证、越狱测试和智能体全时段动态监控。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1639.217,
+            1643.68
+          ],
+          "quote": "In fact, we have a product called AI Defense, which is the core foundation of that, that we launched a year and a half ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说思科成为 OpenAI 和 Codex 的第一个设计合作伙伴，Patel 每两三周与工程领导团队和 OpenAI 的 FTE 开复盘会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            806.391,
+            810.374
+          ],
+          "quote": "We actually became the first design partner with OpenAI and Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1510.419,
+            1519.061
+          ],
+          "quote": "So it's been in the news recently, this OpenAI agents went rogue, compromised Hugging Face and other places.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到思科成为 OpenAI 与 Codex 的首个设计合作伙伴，并与其派驻人员定期复盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            806.391,
+            810.374
+          ],
+          "quote": "We actually became the first design partner with OpenAI and Codex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集在讲数据中心建设时说，一吉瓦成本大头在 GPU 上，GPU 从服务器内互连扩展到机架、再到跨数据中心的网络连接。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            1056.583,
+            1059.646
+          ],
+          "quote": "So in data center build-outs, by the way, everyone knows the role the GPU plays.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1060.797,
+            1067.99
+          ],
+          "quote": "And what had happened was when you just started seeing these transformers come about, these transformers would fit on a single GPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1262.961,
+            1264.261
+          ],
+          "quote": "Largely, it's in the GPU.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-center-build-out",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心建设热潮 (data center build-out)",
+      "file": "数据中心建设热潮",
+      "primary": true,
+      "how_described": "本集说这是「一代人以来最大规模的建设」，一吉瓦容量成本近 500 亿美元、约 10-15% 是网络；Patel 斩钉截铁地认为绝对没有过度建设。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1035.908,
+            1044.935
+          ],
+          "quote": "Speaking of chips and hardware and this whole supply chain, I want to talk about the data center build-out because there's this incredible historic event happening.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1051.74,
+            1056.183
+          ],
+          "quote": "Can you talk about the role that Cisco is playing in this huge data center build-out?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1451.798,
+            1460.544
+          ],
+          "quote": "It really ties back to the point about the data center build out never being sufficient because like think about the tokens to go through 140,000 emails and figure out what to do with them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 安全 (AI safety)",
+      "file": "AI 安全",
+      "primary": true,
+      "how_described": "本集说 AI 安全是「我们这个时代未来几年的决定性话题」：可信委托与不可信委托的差别是市场领先与彻底破产；不用 AI 反而更不安全，因为攻击以机器速度发起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1519.321,
+            1522.181
+          ],
+          "quote": "What are your thoughts on what's happening with AI safety now?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": false,
+      "how_described": "本集说思科的模型验证包括算法化红队测试，测试能否越狱模型，并在运行时动态强制执行护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1594.488,
+            1603.937
+          ],
+          "quote": "to actually doing validation on the models itself, which includes algorithmic red teaming to say, can you jailbreak this model?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集说在智能体越狱或执行不该执行的操作时，如何在运行时动态地强制执行护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1604.438,
+            1618.571
+          ],
+          "quote": "And if you do jailbreak it, and you asked the question that you didn't want it to have a response, or if you had the agent conduct an action that you didn't want it to conduct, how can you intercept that and make sure dynamically at runtime you can enforce guardrails?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集说应对智能体跑偏需要安全性、安保性和可观测性能力，思科把安全与可观测性融合进智能体安全平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            479.987,
+            485.469
+          ],
+          "quote": "And so what we have to have is you have to have some kind of safety, security, and observability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1619.372,
+            1625.788
+          ],
+          "quote": "That entire apparatus we actually make available, including the security side, but also the observability side.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "galileo",
+      "type": "company",
+      "role": "company",
+      "name": "Galileo",
+      "file": "Galileo",
+      "primary": false,
+      "how_described": "本集说思科收购了 Galileo，来自 DeepMind 和 Uber 的团队加入了 Splunk 团队，在智能体安全监控上做得非常出色。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 358,
+          "t": [
+            1672.853,
+            1675.234
+          ],
+          "quote": "And so we've acquired a company called Galileo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "splunk",
+      "type": "company",
+      "role": "company",
+      "name": "Splunk",
+      "file": "Splunk",
+      "primary": false,
+      "how_described": "本集说思科凭借 Splunk 成为世界上最重要的机器数据公司之一，与网络、安全结合成为 AI 时代关键基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            520.813,
+            525.696
+          ],
+          "quote": "And we are also one of the most significant kind of machine data companies in the world with Splunk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1682.597,
+            1684.778
+          ],
+          "quote": "They're part of the Splunk team, and they've done a great job on it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "box",
+      "type": "company",
+      "role": "company",
+      "name": "Box",
+      "file": "Box",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            169.609,
+            170.229
+          ],
+          "quote": "I was at Box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            176.433,
+            183.658
+          ],
+          "quote": "And so my entire kind of mental model got reinforced again when I came to Box because I had started my own company years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            190.139,
+            190.94
+          ],
+          "quote": "And I went to Box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2008.803,
+            2012.086
+          ],
+          "quote": "But after we left and I went to Box,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2030.138,
+            2030.918
+          ],
+          "quote": "Then I went to Box.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2031.759,
+            2037.222
+          ],
+          "quote": "Box, we took that business from 200 to 800 million during my time that I ran all product by the end of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2448.807,
+            2450.228
+          ],
+          "quote": "I used to work at Box at the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "emc",
+      "type": "company",
+      "role": "company",
+      "name": "EMC",
+      "file": "EMC",
+      "primary": false,
+      "how_described": "本集说 Patel 从 25 人的公司跳到六万人的 EMC 担任 CTO，雇主 Rick Devenuti 用「1 年经验重复 17 次」点醒了他。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            184.239,
+            185.64
+          ],
+          "quote": "And then I went to EMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            185.66,
+            187.041
+          ],
+          "quote": "EMC was a very large company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1956.07,
+            1958.372
+          ],
+          "quote": "So finally, I decided to go work at EMC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1959.275,
+            1962.896
+          ],
+          "quote": "And the guy who hired me at EMC is still my coach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1965.237,
+            1966.617
+          ],
+          "quote": "EMC, huge company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doculabs",
+      "type": "company",
+      "role": "company",
+      "name": "DocuLabs",
+      "file": "DocuLabs",
+      "primary": false,
+      "how_described": "本集说 Patel 大学实习进入 DocuLabs，借 25 万美元入伙并经营这家服务型市场调研公司 17 年，后来视之为职业生涯最大的错误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 392,
+          "t": [
+            1804.11,
+            1806.292
+          ],
+          "quote": "I came across this company, DocuLabs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

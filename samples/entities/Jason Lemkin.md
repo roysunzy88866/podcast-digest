@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
+[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":22,"Salesforce":36,"智能体":496,"Lenny":69,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":21,"Vercel":20,"Cursor":86,"Artisan":1}</script>
+<script type="application/json" class="pd-epn">{"Replit":22,"Salesforce":36,"智能体":499,"Lenny":69,"Rory O'Driscoll":1,"SaaStr":1,"Harry Stebbings":21,"Vercel":20,"Cursor":86,"Artisan":1}</script>
 
 <script>
 (function(){

@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Jason Ma]] [[Dyna Robotics]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaGo Zero":1,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":496}</script>
+<script type="application/json" class="pd-epn">{"Ineffable Intelligence":1,"DeepMind":19,"AlphaGo":4,"AlphaGo Zero":1,"AlphaZero":1,"Google Brain":2,"超级学习者":1,"超级智能":12,"强化学习":1,"智能体":499}</script>
 
 <script>
 (function(){

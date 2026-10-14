@@ -33,7 +33,7 @@ unlisted: true
 
 [[NVIDIA]] · [[推理]] · [[Walter Goodwin]] · [[Pat Gelsinger]] · [[Fractile]] · [[Intel]] · [[Broadcom]] · [[VMware]] · [[TSMC]] · [[Playground Global]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":70,"推理":98,"Walter Goodwin":1,"Pat Gelsinger":1,"Fractile":1,"Intel":4,"Broadcom":5,"VMware":3,"TSMC":9,"Playground Global":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":70,"推理":99,"Walter Goodwin":1,"Pat Gelsinger":1,"Fractile":1,"Intel":4,"Broadcom":5,"VMware":3,"TSMC":9,"Playground Global":1}</script>
 
 <script>
 (function(){

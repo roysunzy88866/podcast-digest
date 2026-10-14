@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jeetu Patel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jeetu Patel">JE</div><div class="pi"><h1 class="pt">Jeetu Patel</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jeetu Patel">JE</div><div class="pi"><h1 class="pt">Jeetu Patel</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>32</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*7 条*
+*32 条*
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
 
@@ -27,27 +27,78 @@ unlisted: true
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q7]]
 
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q1]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q2]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q3]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q4]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q5]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q6]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q7]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q8]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q9]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q10]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q11]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q12]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q13]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q14]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q15]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q16]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q17]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q18]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q19]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q20]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q21]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q22]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q23]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q24]]
+
+![[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl#^q25]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为主持
+- [[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Cisco]] · [[NVIDIA]] · [[Box]] · [[ChatGPT]] · [[主观能动性]] · [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]]
+[[Cisco]] · [[Box]] · [[护栏]] · [[Lenny]] · [[AI 基础设施]] · [[NVIDIA]] · [[智能体]] · [[ChatGPT]] · [[创始人模式]] · [[主观能动性]]
 
-## ④ 也在聊「组织与领导力」的人
+## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Cisco":3,"NVIDIA":70,"Box":4,"ChatGPT":111,"主观能动性":1,"AI 优先":2,"能力过剩":3,"超级趋势":1,"炒作周期":1}</script>
+<script type="application/json" class="pd-epn">{"Cisco":4,"Box":5,"护栏":90,"Lenny":69,"AI 基础设施":6,"NVIDIA":70,"智能体":499,"ChatGPT":111,"创始人模式":4,"主观能动性":1}</script>
 
 <script>
 (function(){

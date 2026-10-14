@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Atlassian":6,"Confluence":2,"智能体":496,"MCP":93,"团队协作图谱":1,"开源模型":4,"专用模型":1,"推理":98,"模型路由":12}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Atlassian":6,"Confluence":2,"智能体":499,"MCP":94,"团队协作图谱":1,"开源模型":4,"专用模型":1,"推理":99,"模型路由":12}</script>
 
 <script>
 (function(){

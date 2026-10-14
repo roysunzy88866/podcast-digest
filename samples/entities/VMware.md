@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[NVIDIA]] · [[Justin Smith]] · [[Jen Kha]] · [[Pat Gelsinger]] · [[Resolve AI]] · [[Sophia Du]] · [[Intel]] · [[Splunk]] · [[Theo Jaffe]]
 
-<script type="application/json" class="pd-epn">{"智能体":496,"NVIDIA":70,"Justin Smith":1,"Jen Kha":1,"Pat Gelsinger":1,"Resolve AI":3,"Sophia Du":5,"Intel":4,"Splunk":3,"Theo Jaffe":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"NVIDIA":70,"Justin Smith":1,"Jen Kha":1,"Pat Gelsinger":1,"Resolve AI":3,"Sophia Du":5,"Intel":4,"Splunk":4,"Theo Jaffe":8}</script>
 
 <script>
 (function(){

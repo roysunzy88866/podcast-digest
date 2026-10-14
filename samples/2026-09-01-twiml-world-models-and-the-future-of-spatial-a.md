@@ -117,7 +117,7 @@ Transformer 本身很强，Justin 不认为需要推翻它。他看到两个更�
 
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、transformers、模拟器 (simulator)</span>
 - [[2026-09-24-talks-one-operator-many-drones-inside-skydio-s|当无人机变成基础设施：给机队下指令的人]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、强化学习 (reinforcement learning)</span>
-- [[2026-08-18-talks-the-next-game-engine-won-t-have-a-manual|下一代游戏引擎不会有使用手册]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)</span>
+- [[2026-10-13-latent-dyna|让机器人自己「想象」未来:Dyna Robotics 的世界动作模型]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、强化学习 (reinforcement learning)</span>
 
 </div>
 <div class="pd-ex">

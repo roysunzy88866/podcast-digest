@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[harness]] · [[Seth Rosenberg]] · [[Simon Maple]] · [[Armin Ronacher]] · [[Mustafa Suleyman]] · [[Guy for Germany]] · [[Mario Zechner]] · [[DeepMind]] · [[Simon Boudrien]]
 
-<script type="application/json" class="pd-epn">{"智能体":496,"harness":65,"Seth Rosenberg":1,"Simon Maple":10,"Armin Ronacher":1,"Mustafa Suleyman":1,"Guy for Germany":1,"Mario Zechner":1,"DeepMind":19,"Simon Boudrien":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"harness":65,"Seth Rosenberg":1,"Simon Maple":10,"Armin Ronacher":1,"Mustafa Suleyman":1,"Guy for Germany":1,"Mario Zechner":1,"DeepMind":19,"Simon Boudrien":1}</script>
 
 <script>
 (function(){

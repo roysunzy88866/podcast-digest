@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":203,"智能体":496,"harness":65,"沙箱":98,"智能体循环":6,"上下文工程":18,"会话日志追踪":2,"泄露的凭证":5,"可观测性":45}</script>
+<script type="application/json" class="pd-epn">{"Gagan Bhat":1,"Anthropic":203,"智能体":499,"harness":65,"沙箱":98,"智能体循环":6,"上下文工程":18,"会话日志追踪":2,"泄露的凭证":5,"可观测性":46}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PayPal":8,"OpenAI":199,"Google":71,"ChatGPT":111,"Claude":97,"智能体":496,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3,"MCP 应用":1}</script>
+<script type="application/json" class="pd-epn">{"PayPal":8,"OpenAI":200,"Google":71,"ChatGPT":111,"Claude":97,"智能体":499,"智能体商务":1,"智能体商务协议":1,"Universal Commerce Protocol":3,"MCP 应用":1}</script>
 
 <script>
 (function(){

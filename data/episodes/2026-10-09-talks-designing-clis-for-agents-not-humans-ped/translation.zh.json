@@ -1,0 +1,1354 @@
+[
+ {
+  "seg": 0,
+  "start": 12.657,
+  "end": 13.337,
+  "speaker": "Unknown",
+  "en": "Hello, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.037,
+  "end": 14.858,
+  "speaker": "Unknown",
+  "en": "My name is Pedro.",
+  "zh": "我叫 Pedro。"
+ },
+ {
+  "seg": 2,
+  "start": 15.218,
+  "end": 17.378,
+  "speaker": "Unknown",
+  "en": "I am a software engineer at Airbyte.",
+  "zh": "我是 Airbyte 的一名软件工程师。"
+ },
+ {
+  "seg": 3,
+  "start": 18.079,
+  "end": 23.12,
+  "speaker": "Unknown",
+  "en": "And today we're going to be talking about how we built our agent MCP and our CLI.",
+  "zh": "今天我们要聊的是我们如何构建我们的智能体 MCP 和我们的 CLI。"
+ },
+ {
+  "seg": 4,
+  "start": 24.501,
+  "end": 35.944,
+  "speaker": "Unknown",
+  "en": "And before we go into the nitty gritty of all of that, I wanted to give a bit of context on what we do at Airbyte and how all of this kind of fits into our product.",
+  "zh": "在深入这些细节之前，我想先介绍一下我们在 Airbyte 做的事情的背景，以及这一切是如何融入我们产品的。"
+ },
+ {
+  "seg": 5,
+  "start": 36.004,
+  "end": 37.745,
+  "speaker": "Unknown",
+  "en": "So Airbyte's been around for a while.",
+  "zh": "Airbyte 已经存在一段时间了。"
+ },
+ {
+  "seg": 6,
+  "start": 38.725,
+  "end": 41.966,
+  "speaker": "Unknown",
+  "en": "We started as the open source standard for data movement.",
+  "zh": "我们最初是数据搬运的开源标准。"
+ },
+ {
+  "seg": 7,
+  "start": 42.847,
+  "end": 51.457,
+  "speaker": "Unknown",
+  "en": "Connecting all of your SaaS tools that you might be using, like Zendesk, Stripe, GitHub, et cetera, to your data analytics pipelines.",
+  "zh": "把你可能正在使用的各种 SaaS 工具，比如 Zendesk、Stripe、GitHub 等，连接到你的数据分析管道。"
+ },
+ {
+  "seg": 8,
+  "start": 51.958,
+  "end": 59.126,
+  "speaker": "Unknown",
+  "en": "And now we're using that same expertise and have evolved to being the data and action layer for your AI agents.",
+  "zh": "而现在我们正在运用同样的专业能力，演进为你的 AI 智能体的数据和行动层。"
+ },
+ {
+  "seg": 9,
+  "start": 60.684,
+  "end": 82.364,
+  "speaker": "Unknown",
+  "en": "And we do that by offering our AI by agent product that has what we call the context store, which connects to all of those tools that I mentioned before and sits in between your agents to provide a search-optimized index of all of your data that is able to be more efficiently queried by your agents.",
+  "zh": "我们通过提供 AI by agent 产品来实现这一点，它拥有我们所说的 context store，连接到我之前提到的所有那些工具，并坐在你的智能体之间，提供一个针对搜索优化的所有数据的索引，使你的智能体能够更高效地查询。"
+ },
+ {
+  "seg": 10,
+  "start": 83.605,
+  "end": 95.417,
+  "speaker": "Unknown",
+  "en": "You're able to gather information about all of these records and contacts and stuff that you might have in all these tools and join them together in an easy way through our contact store.",
+  "zh": "你能够收集关于所有这些工具中你可能拥有的记录、联系人等信息，并通过我们的 contact store 以简单的方式把它们连接在一起。"
+ },
+ {
+  "seg": 11,
+  "start": 96.834,
+  "end": 102.196,
+  "speaker": "Unknown",
+  "en": "And so our goal is that we want to make data available and actionable everywhere.",
+  "zh": "我们的目标是让数据在任何地方都可用、可操作。"
+ },
+ {
+  "seg": 12,
+  "start": 102.516,
+  "end": 107.338,
+  "speaker": "Unknown",
+  "en": "And so we have a couple of different interfaces by which you can access this context store.",
+  "zh": "因此我们有几个不同的接口可以访问这个 context store。"
+ },
+ {
+  "seg": 13,
+  "start": 108.358,
+  "end": 114.12,
+  "speaker": "Unknown",
+  "en": "One is our SDK, which is more usable if you are building your own agents and your tools.",
+  "zh": "一个是我们的 SDK，如果你在构建自己的智能体和工具，它会更适用。"
+ },
+ {
+  "seg": 14,
+  "start": 114.98,
+  "end": 119.985,
+  "speaker": "Unknown",
+  "en": "Our UI, which is just a quick way that you can use it through our web app.",
+  "zh": "我们的 UI，这只是通过我们的网页应用使用它的一种快捷方式。"
+ },
+ {
+  "seg": 15,
+  "start": 120.746,
+  "end": 133.518,
+  "speaker": "Unknown",
+  "en": "And then what we're going to be focusing on in this talk, which is our MCP and our CLI, which is a way to easily make that available within existing agents like ChatGPT and Claude.",
+  "zh": "然后是我们在本次演讲中要重点讲的，也就是我们的 MCP 和 CLI，这是一种让它在现有智能体（如 ChatGPT 和 Claude）中轻松可用的方式。"
+ },
+ {
+  "seg": 16,
+  "start": 134.198,
+  "end": 138.36,
+  "speaker": "Unknown",
+  "en": "So what exactly are we exposing through these interfaces?",
+  "zh": "那么我们通过这些接口到底暴露了什么？"
+ },
+ {
+  "seg": 17,
+  "start": 139.061,
+  "end": 139.741,
+  "speaker": "Unknown",
+  "en": "Three main things.",
+  "zh": "三个主要的东西。"
+ },
+ {
+  "seg": 18,
+  "start": 140.261,
+  "end": 147.565,
+  "speaker": "Unknown",
+  "en": "One is the ability to manage all of the core resources of our product to our organizations, workspaces, and connectors.",
+  "zh": "一是管理我们产品所有核心资源的能力，包括组织、工作区和连接器。"
+ },
+ {
+  "seg": 19,
+  "start": 148.166,
+  "end": 151.568,
+  "speaker": "Unknown",
+  "en": "And so all these interfaces should let you interact with that.",
+  "zh": "所有这些接口都应该让你能够与这些进行交互。"
+ },
+ {
+  "seg": 20,
+  "start": 152.248,
+  "end": 164.701,
+  "speaker": "Unknown",
+  "en": "Second, super important, is being able to authenticate those third-party services that I mentioned about earlier and do so in a way that's secure and doesn't expose your credentials to the AI agents.",
+  "zh": "第二，也是超级重要的，是能够对我之前提到的那些第三方服务进行身份验证，并且以一种安全的方式进行，不会把你的凭证暴露给 AI 智能体。"
+ },
+ {
+  "seg": 21,
+  "start": 165.561,
+  "end": 167.303,
+  "speaker": "Unknown",
+  "en": "And third, ask and act.",
+  "zh": "第三，询问与行动。"
+ },
+ {
+  "seg": 22,
+  "start": 168.244,
+  "end": 175.95,
+  "speaker": "Unknown",
+  "en": "We want to expose the ability to search across the context store, be able to read and write, take action on all those systems.",
+  "zh": "我们希望暴露跨 context store 搜索的能力，能够读取和写入，在所有那些系统上采取行动。"
+ },
+ {
+  "seg": 23,
+  "start": 177.071,
+  "end": 182.075,
+  "speaker": "Unknown",
+  "en": "And so we want all of our interfaces to be able to span across these three capabilities.",
+  "zh": "我们希望我们所有的接口都能覆盖这三种能力。"
+ },
+ {
+  "seg": 24,
+  "start": 184.243,
+  "end": 195.128,
+  "speaker": "Unknown",
+  "en": "So the MCP and the CLI, the way that we've structured things is that they are thin, unified interfaces into our platform, not re-implementations of the platform.",
+  "zh": "所以 MCP 和 CLI，我们构建它们的方式是，它们是接入我们平台的薄而统一的接口，而不是平台的重实现。"
+ },
+ {
+  "seg": 25,
+  "start": 195.308,
+  "end": 204.793,
+  "speaker": "Unknown",
+  "en": "So most of the surface layer of these interfaces are presentational, where you take a command and you call the platform and format the results in some way.",
+  "zh": "所以这些接口的大部分表层都是呈现性的，即接收一个命令，调用平台，然后以某种方式格式化结果。"
+ },
+ {
+  "seg": 26,
+  "start": 205.793,
+  "end": 210.475,
+  "speaker": "Unknown",
+  "en": "And everything kind of sits on top of our shared platform and APIs.",
+  "zh": "一切都构建在我们共享的平台和 API 之上。"
+ },
+ {
+  "seg": 27,
+  "start": 210.936,
+  "end": 220,
+  "speaker": "Unknown",
+  "en": "And because we deploy a lot, our platform changes like over 10 times a day, we want to keep these things up to date as we go.",
+  "zh": "而且因为我们部署得很频繁，我们的平台每天变更超过 10 次，我们希望让这些东西随时保持最新。"
+ },
+ {
+  "seg": 28,
+  "start": 220.5,
+  "end": 229.165,
+  "speaker": "Unknown",
+  "en": "And so a big part of this as well is OpenAPI specs as a source of truth for how to connect to our APIs.",
+  "zh": "所以其中一个很重要部分是把 OpenAPI 规范作为如何连接我们 API 的事实来源。"
+ },
+ {
+  "seg": 29,
+  "start": 229.525,
+  "end": 233.827,
+  "speaker": "Unknown",
+  "en": "And a lot of those interfaces are built on top of those specs.",
+  "zh": "很多接口都是构建在这些规范之上的。"
+ },
+ {
+  "seg": 30,
+  "start": 236.422,
+  "end": 239.004,
+  "speaker": "Unknown",
+  "en": "OK, so let's go into these interfaces.",
+  "zh": "好，那我们进入这些接口。"
+ },
+ {
+  "seg": 31,
+  "start": 239.024,
+  "end": 241.307,
+  "speaker": "Unknown",
+  "en": "Let's start with the MCP.",
+  "zh": "先从 MCP 开始。"
+ },
+ {
+  "seg": 32,
+  "start": 241.807,
+  "end": 245.971,
+  "speaker": "Unknown",
+  "en": "And so MCPs are really great for users that might not be technical.",
+  "zh": "MCP 对可能不是技术型的用户来说非常棒。"
+ },
+ {
+  "seg": 33,
+  "start": 246.692,
+  "end": 253.478,
+  "speaker": "Unknown",
+  "en": "And in our case, it's great for those users that just want to plug their data straight into ChatDBT or Claude in an easy way.",
+  "zh": "而在我们的场景中，它对那些只想以简单的方式把他们的数据直接接入 ChatDBT 或 Claude 的用户非常有用。"
+ },
+ {
+  "seg": 34,
+  "start": 255.284,
+  "end": 257.865,
+  "speaker": "Unknown",
+  "en": "And the cool thing is they're very nicely packaged.",
+  "zh": "而且很酷的一点是它们打包得非常好。"
+ },
+ {
+  "seg": 35,
+  "start": 257.885,
+  "end": 259.705,
+  "speaker": "Unknown",
+  "en": "They're very easy to install.",
+  "zh": "它们非常容易安装。"
+ },
+ {
+  "seg": 36,
+  "start": 260.125,
+  "end": 267.408,
+  "speaker": "Unknown",
+  "en": "For example, here's our listing on the ChatGPT app listing, the official store that they have.",
+  "zh": "例如，这是我们在 ChatGPT 应用列表上的条目，也就是他们的官方商店。"
+ },
+ {
+  "seg": 37,
+  "start": 268.688,
+  "end": 277.591,
+  "speaker": "Unknown",
+  "en": "And we also have an application for the Anthropic one, which we're still pending on, if there's anybody from Anthropic out there that wants to approve us.",
+  "zh": "我们也有针对 Anthropic 那边的应用，目前还在等待审批，如果现场有 Anthropic 的人愿意批准我们的话。"
+ },
+ {
+  "seg": 38,
+  "start": 279.351,
+  "end": 286.182,
+  "speaker": "Unknown",
+  "en": "But even if you're not on these marketplaces, they are pretty trivial to install for an end user.",
+  "zh": "但即使你不在这些市场上架，对一个最终用户来说安装它们也非常简单。"
+ },
+ {
+  "seg": 39,
+  "start": 286.542,
+  "end": 292.011,
+  "speaker": "Unknown",
+  "en": "You just give it the hosted MCP URL, and you're able to connect pretty quickly.",
+  "zh": "你只要给它托管的 MCP URL，就能很快完成连接。"
+ },
+ {
+  "seg": 40,
+  "start": 293.966,
+  "end": 296.448,
+  "speaker": "Unknown",
+  "en": "OK, so let's look at an example.",
+  "zh": "好，那我们来看一个例子。"
+ },
+ {
+  "seg": 41,
+  "start": 296.508,
+  "end": 298.15,
+  "speaker": "Unknown",
+  "en": "This is our MCP in action.",
+  "zh": "这是我们的 MCP 实际运行的样子。"
+ },
+ {
+  "seg": 42,
+  "start": 298.77,
+  "end": 301.673,
+  "speaker": "Unknown",
+  "en": "Here I'm asking, you know, which connectors do I have available?",
+  "zh": "这里我在问，你知道的，我有哪些可用的连接器？"
+ },
+ {
+  "seg": 43,
+  "start": 302.633,
+  "end": 306.977,
+  "speaker": "Unknown",
+  "en": "And it goes through, hey, I have four connectors set up in this workspace.",
+  "zh": "它会过一遍说，嘿，我在这个工作区里设置了四个连接器。"
+ },
+ {
+  "seg": 44,
+  "start": 307.418,
+  "end": 313.223,
+  "speaker": "Unknown",
+  "en": "And then I can ask it some questions about my data, like show five paying customers with Zendesk support tickets.",
+  "zh": "然后我可以问它一些关于我数据的问题，比如展示五个有 Zendesk 支持工单的付费客户。"
+ },
+ {
+  "seg": 45,
+  "start": 314.263,
+  "end": 329.596,
+  "speaker": "Unknown",
+  "en": "And so this right now is looking through all the connectors that we have, searching the context store for that information that I asked it about, and then combining that information across Zendesk and Stripe so that it can come up with an answer for me.",
+  "zh": "此时它会查看我们所有的连接器，在 context store 中搜索我所询问的信息，然后把 Zendesk 和 Stripe 的信息结合起来，以便给我得出一个答案。"
+ },
+ {
+  "seg": 46,
+  "start": 330.997,
+  "end": 331.797,
+  "speaker": "Unknown",
+  "en": "Okay, and there we go.",
+  "zh": "好，结果出来了。"
+ },
+ {
+  "seg": 47,
+  "start": 331.898,
+  "end": 338.543,
+  "speaker": "Unknown",
+  "en": "So it cross-referenced Zendesk and Stripe, and then came back with five of those people that have open support tickets.",
+  "zh": "它交叉引用了 Zendesk 和 Stripe，然后返回了五个有未关闭支持工单的人。"
+ },
+ {
+  "seg": 48,
+  "start": 339.947,
+  "end": 340.127,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很酷。"
+ },
+ {
+  "seg": 49,
+  "start": 340.227,
+  "end": 348.979,
+  "speaker": "Unknown",
+  "en": "So let's go into kind of some lessons learned while building this MCP and things that you might want to keep in mind if you're doing something similar.",
+  "zh": "那么我们来聊聊构建这个 MCP 期间学到的一些经验教训，以及如果你在做类似的事情，有哪些值得牢记的地方。"
+ },
+ {
+  "seg": 50,
+  "start": 349.54,
+  "end": 354.426,
+  "speaker": "Unknown",
+  "en": "So one thing that we decided to do after a trial and error is to keep the tool count small.",
+  "zh": "所以经过反复试错后，我们决定做的一件事是保持工具数量少。"
+ },
+ {
+  "seg": 51,
+  "start": 357.45,
+  "end": 364.894,
+  "speaker": "Unknown",
+  "en": "We, for the execution part of the connector where you're pulling that data, we only expose or really deal with two main tools.",
+  "zh": "对于连接器的执行部分，也就是你拉取数据的那部分，我们只暴露或者说只处理两个主要工具。"
+ },
+ {
+  "seg": 52,
+  "start": 365.374,
+  "end": 369.896,
+  "speaker": "Unknown",
+  "en": "One is to describe the connector to get the schema of how do you query that information.",
+  "zh": "一个是 describe 连接器，用来获取如何查询该信息的 schema。"
+ },
+ {
+  "seg": 53,
+  "start": 370.336,
+  "end": 373.778,
+  "speaker": "Unknown",
+  "en": "And two is execute that's able to read, write, and delete records.",
+  "zh": "另一个是 execute，它能够读取、写入和删除记录。"
+ },
+ {
+  "seg": 54,
+  "start": 374.878,
+  "end": 389.365,
+  "speaker": "Unknown",
+  "en": "The opposite end of the spectrum here would be since we connect to so many different connectors and each of these has different entities, different actions you can take, we could have exposed an MCP tool for each one of these.",
+  "zh": "光谱的另一端是，由于我们连接了这么多不同的连接器，每个连接器有不同的实体、不同的可执行操作，我们本可以为其中每一个都暴露一个 MCP 工具。"
+ },
+ {
+  "seg": 55,
+  "start": 390.646,
+  "end": 403.272,
+  "speaker": "Unknown",
+  "en": "But instead what we found is really keeping it narrow, using progressive discovery of all of the capabilities that the connector has available and really limiting the amount of context that you shove into the",
+  "zh": "但我们发现，真正把它保持得很窄，使用渐进式发现来了解连接器可用的所有能力，并真正限制你塞进去的上下文数量，"
+ },
+ {
+  "seg": 56,
+  "start": 404.232,
+  "end": 410.156,
+  "speaker": "Unknown",
+  "en": "Those tool descriptions really helps with the performance of the MCP server.",
+  "zh": "那些工具描述，才真正有助于 MCP 服务器的性能。"
+ },
+ {
+  "seg": 57,
+  "start": 412.462,
+  "end": 414.143,
+  "speaker": "Unknown",
+  "en": "Two, OAuth is the way.",
+  "zh": "第二，OAuth 才是正道。"
+ },
+ {
+  "seg": 58,
+  "start": 414.984,
+  "end": 419.527,
+  "speaker": "Unknown",
+  "en": "So this refers to how you authenticate the MCP server itself.",
+  "zh": "这指的是你如何认证 MCP 服务器本身。"
+ },
+ {
+  "seg": 59,
+  "start": 419.667,
+  "end": 422.149,
+  "speaker": "Unknown",
+  "en": "So this is an example for Anthropic.",
+  "zh": "这是 Anthropic 的一个例子。"
+ },
+ {
+  "seg": 60,
+  "start": 422.589,
+  "end": 426.712,
+  "speaker": "Unknown",
+  "en": "You click a button to connect, and that spins up our OAuth flow.",
+  "zh": "你点击一个按钮来连接，这会启动我们的 OAuth 流程。"
+ },
+ {
+  "seg": 61,
+  "start": 426.792,
+  "end": 434.138,
+  "speaker": "Unknown",
+  "en": "So you can sign into Airbyte, accept the privileges, and then you are all set up with all the connectors that you've linked up.",
+  "zh": "这样你就可以登录 Airbyte，接受权限，然后你就设置好了所有你已关联的连接器。"
+ },
+ {
+  "seg": 62,
+  "start": 435.901,
+  "end": 457.818,
+  "speaker": "Unknown",
+  "en": "And technically, you can use other authentication mechanisms through MCP, but you're really going to have a hard time if you do like bearer auth or anything like that, because the spec is really heavy on OAuth, and all of the clients, the main ones at least, are really leaning towards the OAuth as a better UX for installing that connector.",
+  "zh": "技术上讲，你可以通过 MCP 使用其他认证机制，但如果你用 bearer auth 或类似的东西，你会非常难受，因为规范非常偏重 OAuth，而且所有的客户端，至少是主流的那些，都非常倾向于把 OAuth 作为安装该连接器的更好用户体验。"
+ },
+ {
+  "seg": 63,
+  "start": 457.938,
+  "end": 462.802,
+  "speaker": "Unknown",
+  "en": "So that's an example for the Anthropic custom connector",
+  "zh": "这是 Anthropic 自定义连接器的一个例子"
+ },
+ {
+  "seg": 64,
+  "start": 464.612,
+  "end": 470.557,
+  "speaker": "Unknown",
+  "en": "Registration, where they have no way of you to put a bearer token or anything.",
+  "zh": "注册，他们根本没有让你填 bearer token 或类似东西的途径。"
+ },
+ {
+  "seg": 65,
+  "start": 470.998,
+  "end": 472.699,
+  "speaker": "Unknown",
+  "en": "It's just all defaulting to OAuth.",
+  "zh": "一切都默认为 OAuth。"
+ },
+ {
+  "seg": 66,
+  "start": 472.919,
+  "end": 475.221,
+  "speaker": "Unknown",
+  "en": "So that is very important.",
+  "zh": "所以这非常重要。"
+ },
+ {
+  "seg": 67,
+  "start": 475.601,
+  "end": 487.412,
+  "speaker": "Unknown",
+  "en": "And two, users actually expect to have long-lived sessions through these MTP servers, unlike a web app where you might be OK with having to sign in again a couple of times.",
+  "zh": "第二，用户实际上期望通过这些 MTP 服务器拥有长时会话，这不像 Web 应用，你可能可以接受不得不重新登录几次。"
+ },
+ {
+  "seg": 68,
+  "start": 488.172,
+  "end": 494.598,
+  "speaker": "Unknown",
+  "en": "So users expect to use MCPs more like a mobile app, where they don't really have to think about authenticating.",
+  "zh": "所以用户期望更像是使用移动应用那样使用 MCP，他们不需要考虑认证。"
+ },
+ {
+  "seg": 69,
+  "start": 494.938,
+  "end": 496.94,
+  "speaker": "Unknown",
+  "en": "It's just available whenever they want to use it.",
+  "zh": "只要他们想用，它就在那里可用。"
+ },
+ {
+  "seg": 70,
+  "start": 497.301,
+  "end": 511.694,
+  "speaker": "Unknown",
+  "en": "And so that has its own little things to keep in mind as you're implementing OAuth is keeping offline long sessions that are stored separately from the web app and have its own set of life cycles.",
+  "zh": "所以在你实现 OAuth 时，有一些自己的小细节需要记住，就是保持离线的长会话，把它们与 Web 应用分开存储，并且有自己的生命周期。"
+ },
+ {
+  "seg": 71,
+  "start": 513.453,
+  "end": 513.633,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 72,
+  "start": 513.853,
+  "end": 515.675,
+  "speaker": "Unknown",
+  "en": "Elicitation, though, is not the way.",
+  "zh": "不过，elicitation（引导输入）不是正道。"
+ },
+ {
+  "seg": 73,
+  "start": 515.855,
+  "end": 526.344,
+  "speaker": "Unknown",
+  "en": "So I'll get into what elicitation is, but a big part of the MCP server that I mentioned is you need to be able to connect your tools.",
+  "zh": "我会讲一下 elicitation 是什么，但我提到的 MCP 服务器很重要的一部分是，你需要能够连接你的工具。"
+ },
+ {
+  "seg": 74,
+  "start": 526.444,
+  "end": 529.486,
+  "speaker": "Unknown",
+  "en": "You need to be able to give credentials in a way that's safe.",
+  "zh": "你需要能够以安全的方式提供凭证。"
+ },
+ {
+  "seg": 75,
+  "start": 529.626,
+  "end": 537.213,
+  "speaker": "Unknown",
+  "en": "And to do that, basically, when you ask, how do I connect to HubSpot, we generate a link that you go to.",
+  "zh": "为了做到这一点，基本上，当你问“我如何连接到 HubSpot”时，我们会生成一个链接让你访问。"
+ },
+ {
+  "seg": 76,
+  "start": 538.252,
+  "end": 549.219,
+  "speaker": "Unknown",
+  "en": "Which pops up this widget, and you're able to select which entities you want to connect and redirect to HubSpot to go through that OAuth flow.",
+  "zh": "它会弹出这个小组件，你可以选择想要连接哪些实体，并重定向到 HubSpot 去走那个 OAuth 流程。"
+ },
+ {
+  "seg": 77,
+  "start": 551.093,
+  "end": 562.586,
+  "speaker": "Unknown",
+  "en": "Now, technically, MCP has something in the spec that allows you to surface those kinds of URLs and process those inputs called elicitation.",
+  "zh": "现在，技术上讲，MCP 规范里有某种东西允许你展示那些 URL 并处理那些输入，叫做 elicitation。"
+ },
+ {
+  "seg": 78,
+  "start": 562.906,
+  "end": 565.349,
+  "speaker": "Unknown",
+  "en": "It's a way that you can request information from the user.",
+  "zh": "这是一种你可以向用户请求信息的方式。"
+ },
+ {
+  "seg": 79,
+  "start": 565.789,
+  "end": 569.053,
+  "speaker": "Unknown",
+  "en": "For the longest time, it was only form mode elicitation.",
+  "zh": "在很长一段时间里，只有表单模式的 elicitation。"
+ },
+ {
+  "seg": 80,
+  "start": 569.513,
+  "end": 576.918,
+  "speaker": "Unknown",
+  "en": "Which is not applicable for sensitive data like credentials for an API.",
+  "zh": "这不适用于像 API 凭证这样的敏感数据。"
+ },
+ {
+  "seg": 81,
+  "start": 577.398,
+  "end": 583.522,
+  "speaker": "Unknown",
+  "en": "But more recently, this URL mode elicitation became a thing that's very similar to what we're doing.",
+  "zh": "但最近，这种 URL 模式的 elicitation 出现了，和我们在做的非常相似。"
+ },
+ {
+  "seg": 82,
+  "start": 584.123,
+  "end": 587.665,
+  "speaker": "Unknown",
+  "en": "But the problem is support across the MCP clients.",
+  "zh": "但问题在于各个 MCP 客户端的支持情况。"
+ },
+ {
+  "seg": 83,
+  "start": 587.945,
+  "end": 598.012,
+  "speaker": "Unknown",
+  "en": "So that's a big theme when working with MCP is that even though there is a spec, the features that are supported across the clients kind of vary quite a bit.",
+  "zh": "所以在使用 MCP 时这是一个很大的主题：即使有规范，各客户端支持的功能差异也相当大。"
+ },
+ {
+  "seg": 84,
+  "start": 598.853,
+  "end": 604.862,
+  "speaker": "Unknown",
+  "en": "So this is an example from Claude Desktop where it just is telling me, hey, I don't support URL mode elicitation.",
+  "zh": "这是来自 Claude Desktop 的一个例子，它就是在告诉我，嘿，我不支持 URL 模式的 elicitation。"
+ },
+ {
+  "seg": 85,
+  "start": 604.882,
+  "end": 605.383,
+  "speaker": "Unknown",
+  "en": "I can't do that.",
+  "zh": "我做不到。"
+ },
+ {
+  "seg": 86,
+  "start": 605.864,
+  "end": 611.273,
+  "speaker": "Unknown",
+  "en": "And so we have to go back to doing our own thing and not using the spec for that kind of thing.",
+  "zh": "所以我们不得不回到自己做自己事情的老路，而不是把规范用于这类事情。"
+ },
+ {
+  "seg": 87,
+  "start": 612.704,
+  "end": 615.287,
+  "speaker": "Unknown",
+  "en": "OK, let's talk about the CLI a bit.",
+  "zh": "好，我们来谈谈 CLI。"
+ },
+ {
+  "seg": 88,
+  "start": 615.467,
+  "end": 619.692,
+  "speaker": "Unknown",
+  "en": "So MCPs are easy for these non-technical users.",
+  "zh": "MCP 对这些非技术用户来说是容易的。"
+ },
+ {
+  "seg": 89,
+  "start": 620.593,
+  "end": 627.181,
+  "speaker": "Unknown",
+  "en": "CLIs are kind of the more technical counterpart, might call it the kind of more powerful in some ways that we'll get into.",
+  "zh": "CLI 是偏技术的那一面，可以说它在某些方面更强大，我们稍后会讲到。"
+ },
+ {
+  "seg": 90,
+  "start": 627.801,
+  "end": 631.325,
+  "speaker": "Unknown",
+  "en": "And this is the same example we saw earlier, but this time with the MCP.",
+  "zh": "这是我们之前看到的同一个例子，但这次是用 MCP。"
+ },
+ {
+  "seg": 91,
+  "start": 632.226,
+  "end": 633.147,
+  "speaker": "Unknown",
+  "en": "Or sorry, with the CLI.",
+  "zh": "或者说，抱歉，是用 CLI。"
+ },
+ {
+  "seg": 92,
+  "start": 633.487,
+  "end": 636.308,
+  "speaker": "Unknown",
+  "en": "Or we're asking, you know, which connectors do I have available?",
+  "zh": "我们在问，你知道的，我有哪些可用的连接器？"
+ },
+ {
+  "seg": 93,
+  "start": 636.908,
+  "end": 640.57,
+  "speaker": "Unknown",
+  "en": "It's this time loading a skill that tells it about the CLI.",
+  "zh": "这次是加载一个 skill，告诉它关于 CLI 的信息。"
+ },
+ {
+  "seg": 94,
+  "start": 641.551,
+  "end": 644.192,
+  "speaker": "Unknown",
+  "en": "And then, you know, using the CLI itself to query things.",
+  "zh": "然后，你知道的，用 CLI 本身去查询东西。"
+ },
+ {
+  "seg": 95,
+  "start": 644.792,
+  "end": 651.075,
+  "speaker": "Unknown",
+  "en": "We got back the connectors, then we asked, you know, show five paying customers that have Zendesk support tickets, same as last time.",
+  "zh": "我们拿回了连接器，然后我们问，你知道的，展示五个有 Zendesk 支持工单的付费客户，和上次一样。"
+ },
+ {
+  "seg": 96,
+  "start": 652.075,
+  "end": 661.04,
+  "speaker": "Unknown",
+  "en": "It's able to, this time, use the CLI to query that, create a context store, aggregate that data, and then eventually it should come back with",
+  "zh": "这次它能够用 CLI 去查询，创建一个上下文存储，聚合那些数据，然后最终它应该会返回"
+ },
+ {
+  "seg": 97,
+  "start": 662.187,
+  "end": 664.649,
+  "speaker": "Unknown",
+  "en": "A result now.",
+  "zh": "一个结果了。"
+ },
+ {
+  "seg": 98,
+  "start": 665.129,
+  "end": 665.85,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 99,
+  "start": 665.91,
+  "end": 668.552,
+  "speaker": "Unknown",
+  "en": "So there's those same five users.",
+  "zh": "所以就是同样的那五个用户。"
+ },
+ {
+  "seg": 100,
+  "start": 669.893,
+  "end": 677.479,
+  "speaker": "Unknown",
+  "en": "So on the design side for CLIs, I think one important thing to keep in mind is to design those CLIs with agents in mind.",
+  "zh": "所以在 CLI 的设计方面，我认为要记住的一件重要事情是，设计这些 CLI 时要考虑到智能体。"
+ },
+ {
+  "seg": 101,
+  "start": 678.68,
+  "end": 686.386,
+  "speaker": "Unknown",
+  "en": "Some of the things that might be helpful for users when you're making a CLI are going to be like blockers for agents.",
+  "zh": "当你制作一个 CLI 时，一些可能对用户有帮助的东西，反而会成为智能体的阻碍。"
+ },
+ {
+  "seg": 102,
+  "start": 686.626,
+  "end": 688.187,
+  "speaker": "Unknown",
+  "en": "And we'll get into that a little bit more.",
+  "zh": "我们会再深入讲一点这个。"
+ },
+ {
+  "seg": 103,
+  "start": 689.768,
+  "end": 696.571,
+  "speaker": "Unknown",
+  "en": "The first design decision here that we made was take JSON in and return JSON out.",
+  "zh": "我们在这里做的第一个设计决策是：输入 JSON,返回 JSON。"
+ },
+ {
+  "seg": 104,
+  "start": 698.391,
+  "end": 708.895,
+  "speaker": "Unknown",
+  "en": "For humans, it's very nice to specify a bunch of flags to work with CLIs, but when it comes to these more complicated",
+  "zh": "对人类来说，指定一堆 flags 来使用 CLI 是非常舒服的，但当涉及到这些更复杂的"
+ },
+ {
+  "seg": 105,
+  "start": 710.395,
+  "end": 713.738,
+  "speaker": "Unknown",
+  "en": "Inputs that you have to build to make these queries.",
+  "zh": "你必须构建的用于进行这些查询的输入时。"
+ },
+ {
+  "seg": 106,
+  "start": 714.418,
+  "end": 718.642,
+  "speaker": "Unknown",
+  "en": "And agents are really good at working with JSON.",
+  "zh": "而智能体非常擅长处理 JSON。"
+ },
+ {
+  "seg": 107,
+  "start": 718.742,
+  "end": 728.03,
+  "speaker": "Unknown",
+  "en": "They're able to construct this in a much more direct and less of a guessy way than using those flags.",
+  "zh": "它们能够以更直接、更少猜测的方式来构建它，而不是使用那些 flags。"
+ },
+ {
+  "seg": 108,
+  "start": 728.39,
+  "end": 730.512,
+  "speaker": "Unknown",
+  "en": "And so on the output,",
+  "zh": "那么在输出方面，"
+ },
+ {
+  "seg": 109,
+  "start": 731.538,
+  "end": 746.686,
+  "speaker": "Unknown",
+  "en": "JSON also makes it easy to deal with longer responses, be able to leverage one of the key capabilities of CLIs, which is, hey, you have this Unix system with pipes that you can redirect the output to different programs.",
+  "zh": "JSON 也让处理更长的响应变得容易，能够利用 CLI 的一个关键能力，那就是，嘿，你有这个 Unix 系统，有管道，可以把输出重定向到不同的程序。"
+ },
+ {
+  "seg": 110,
+  "start": 746.726,
+  "end": 752.53,
+  "speaker": "Unknown",
+  "en": "So you can use JQ, for example, to select certain things from the output and trim that.",
+  "zh": "所以你可以使用 JQ 之类的工具，从输出中选取特定的内容并进行裁剪。"
+ },
+ {
+  "seg": 111,
+  "start": 753.33,
+  "end": 758.093,
+  "speaker": "Unknown",
+  "en": "And so JSON really unlocks a lot of that capability.",
+  "zh": "所以 JSON 真正解锁了很多这种能力。"
+ },
+ {
+  "seg": 112,
+  "start": 759.409,
+  "end": 762.091,
+  "speaker": "Unknown",
+  "en": "Two, consistency is very much key here.",
+  "zh": "第二，一致性在这里非常关键。"
+ },
+ {
+  "seg": 113,
+  "start": 762.211,
+  "end": 768.555,
+  "speaker": "Unknown",
+  "en": "So it should be dead obvious for agents to know how to do something across all of the resources that you're exposing.",
+  "zh": "所以对于智能体来说，如何操作你暴露的所有资源，应该是显而易见的。"
+ },
+ {
+  "seg": 114,
+  "start": 769.075,
+  "end": 787.868,
+  "speaker": "Unknown",
+  "en": "If you have structured your CLI in a way that it's structured where there is a noun and then a verb, for example, connectors list, connectors create, make sure that when you're implementing a workspace CLI commands, they also follow that same format.",
+  "zh": "如果你已经把 CLI 构造成这样一种结构：有一个名词然后一个动词，比如 connectors list、connectors create,那么请确保当你实现 workspace 的 CLI 命令时，它们也遵循同样的格式。"
+ },
+ {
+  "seg": 115,
+  "start": 788.308,
+  "end": 791.05,
+  "speaker": "Unknown",
+  "en": "So Workspace List is another one that we have.",
+  "zh": "所以 Workspace List 是我们有的另一个命令。"
+ },
+ {
+  "seg": 116,
+  "start": 791.63,
+  "end": 797.814,
+  "speaker": "Unknown",
+  "en": "And so it's very critical that agents know the right way to do things.",
+  "zh": "所以让智能体知道正确的做事方式是非常关键的。"
+ },
+ {
+  "seg": 117,
+  "start": 797.874,
+  "end": 803.118,
+  "speaker": "Unknown",
+  "en": "And it's easy for them to know the right way to do things without having to read a bunch of documentation.",
+  "zh": "而且让它们不用阅读一大堆文档就能知道正确的做事方式，这也很容易做到。"
+ },
+ {
+  "seg": 118,
+  "start": 803.738,
+  "end": 813.62,
+  "speaker": "Unknown",
+  "en": "And another interesting fact here is if you see agents making the same mistake over and over, calling the wrong command a bunch of times, consider making that your contract.",
+  "zh": "这里另一个有趣的事实是，如果你看到智能体一遍又一遍地犯同样的错误，多次调用错误的命令，考虑把那个(错误的)用法变成你的契约。"
+ },
+ {
+  "seg": 119,
+  "start": 813.84,
+  "end": 818.682,
+  "speaker": "Unknown",
+  "en": "Make it dead simple for agents to stumble across the right way to use things.",
+  "zh": "让智能体能够极其简单地撞见正确的使用方式。"
+ },
+ {
+  "seg": 120,
+  "start": 819.242,
+  "end": 828.884,
+  "speaker": "Unknown",
+  "en": "Because that usually means that something is not quite as obvious as it should be in your CLI contract if agents keep making the same kind of mistakes.",
+  "zh": "因为如果智能体不断犯同样类型的错误，那通常意味着在你的 CLI 契约中，有某些东西没有它应该有的那么显而易见。"
+ },
+ {
+  "seg": 121,
+  "start": 830.098,
+  "end": 833.479,
+  "speaker": "Unknown",
+  "en": "Three, our skills ship with the CLI tool.",
+  "zh": "第三，我们的 skills 随 CLI 工具一起发布。"
+ },
+ {
+  "seg": 122,
+  "start": 834.299,
+  "end": 844.543,
+  "speaker": "Unknown",
+  "en": "So skills are a must when you're doing CLIs because how else, if you have a CLI installed, is an agent going to know that that CLI even exists in the first place?",
+  "zh": "所以当你做 CLI 时，skills 是必需的，因为不然的话，如果你安装了一个 CLI,智能体一开始怎么会知道这个 CLI 甚至存在呢？"
+ },
+ {
+  "seg": 123,
+  "start": 844.983,
+  "end": 849.884,
+  "speaker": "Unknown",
+  "en": "So it helps a lot with discovery of your tools that are available.",
+  "zh": "所以它对可用工具的发现有很大帮助。"
+ },
+ {
+  "seg": 124,
+  "start": 850.244,
+  "end": 853.425,
+  "speaker": "Unknown",
+  "en": "And they also help with using that tool effectively.",
+  "zh": "它们也有助于有效地使用那个工具。"
+ },
+ {
+  "seg": 125,
+  "start": 855.426,
+  "end": 857.487,
+  "speaker": "Unknown",
+  "en": "We have a skill that gets surfaced.",
+  "zh": "我们有一个会被呈现出来的 skill。"
+ },
+ {
+  "seg": 126,
+  "start": 857.507,
+  "end": 862.45,
+  "speaker": "Unknown",
+  "en": "It has a description that is able to come up whenever you ask anything about connectors.",
+  "zh": "它有一个描述，每当你问任何关于 connectors 的问题时，它都能够出现。"
+ },
+ {
+  "seg": 127,
+  "start": 862.51,
+  "end": 864.971,
+  "speaker": "Unknown",
+  "en": "It knows to bring up that CLI and evoke it.",
+  "zh": "它知道要调出那个 CLI 并调用它。"
+ },
+ {
+  "seg": 128,
+  "start": 866.272,
+  "end": 870.454,
+  "speaker": "Unknown",
+  "en": "And then the way that you structure the skill is also something to think through.",
+  "zh": "然后你构建 skill 的方式也是需要仔细考虑的事情。"
+ },
+ {
+  "seg": 129,
+  "start": 870.754,
+  "end": 875.817,
+  "speaker": "Unknown",
+  "en": "You don't want to put too much into the skill that you're going to bog down the context.",
+  "zh": "你不想往 skill 里放太多东西，导致把上下文拖垮。"
+ },
+ {
+  "seg": 130,
+  "start": 875.897,
+  "end": 876.477,
+  "speaker": "Unknown",
+  "en": "Skills have this",
+  "zh": "Skills 有这样的"
+ },
+ {
+  "seg": 131,
+  "start": 877.718,
+  "end": 889.246,
+  "speaker": "Unknown",
+  "en": "Ability to be separated out into references where you can have a main skill that points to other files in a skill directory that can expand information about the different commands.",
+  "zh": "能力，可以被拆分成多个 references,你可以有一个主 skill,它指向 skill 目录中的其他文件，这些文件可以展开关于不同命令的更多信息。"
+ },
+ {
+  "seg": 132,
+  "start": 889.746,
+  "end": 899.313,
+  "speaker": "Unknown",
+  "en": "And that really helps cut down the amount of context that you're loading in and leverages the progressive discovery ability of these agents.",
+  "zh": "这真的有助于减少你加载的上下文量，并利用这些智能体的渐进式发现能力。"
+ },
+ {
+  "seg": 133,
+  "start": 900.532,
+  "end": 900.792,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 134,
+  "start": 901.193,
+  "end": 903.975,
+  "speaker": "Unknown",
+  "en": "And then another interesting fact for Auth side.",
+  "zh": "然后另一个关于 Auth 方面的有趣事实。"
+ },
+ {
+  "seg": 135,
+  "start": 904.175,
+  "end": 905.797,
+  "speaker": "Unknown",
+  "en": "Auth was interesting on the MCP side.",
+  "zh": "在 MCP 这边，Auth 很有意思。"
+ },
+ {
+  "seg": 136,
+  "start": 905.817,
+  "end": 908.039,
+  "speaker": "Unknown",
+  "en": "It is interesting in other ways for CLIs.",
+  "zh": "对 CLI 来说，它在其他方面也很有意思。"
+ },
+ {
+  "seg": 137,
+  "start": 908.84,
+  "end": 915.106,
+  "speaker": "Unknown",
+  "en": "Because we can't assume that a human is going to be present to able to interact with those prompts.",
+  "zh": "因为我们不能假设会有一个人在场，能够与那些提示进行交互。"
+ },
+ {
+  "seg": 138,
+  "start": 916.547,
+  "end": 918.81,
+  "speaker": "Unknown",
+  "en": "When CLIs are being invoked by agents,",
+  "zh": "当 CLI 被智能体调用时，"
+ },
+ {
+  "seg": 139,
+  "start": 919.45,
+  "end": 924.113,
+  "speaker": "Unknown",
+  "en": "It can't sit there and wait for you to type a prompt into the CLI.",
+  "zh": "它不能坐在那里等你往 CLI 里输入提示。"
+ },
+ {
+  "seg": 140,
+  "start": 924.493,
+  "end": 937.422,
+  "speaker": "Unknown",
+  "en": "You have to expose things either through flags or, in the case of credentials, environment variables and config files so that things can be set up out of band and you don't have to wait for that whenever you're invoking the CLI.",
+  "zh": "你必须通过 flags,或者就凭证而言通过环境变量和配置文件，把这些东西暴露出来，这样它们就可以在带外预先设置好，而你在调用 CLI 时就不必等待那些了。"
+ },
+ {
+  "seg": 141,
+  "start": 939.363,
+  "end": 943.665,
+  "speaker": "Unknown",
+  "en": "And I would say, aside from auth, that's a general thing.",
+  "zh": "我想说，除了 auth 之外，这是一个普遍的道理。"
+ },
+ {
+  "seg": 142,
+  "start": 943.685,
+  "end": 949.968,
+  "speaker": "Unknown",
+  "en": "A lot of CLIs that are built for humans, you type a command and it'll wait there, ask you for prompts.",
+  "zh": "很多为人类构建的 CLI,你输入一个命令，它就会停在那里，问你要提示。"
+ },
+ {
+  "seg": 143,
+  "start": 950.048,
+  "end": 955.87,
+  "speaker": "Unknown",
+  "en": "And that is not able to be used properly by these agents.",
+  "zh": "而这是无法被这些智能体正确使用的。"
+ },
+ {
+  "seg": 144,
+  "start": 955.97,
+  "end": 958.251,
+  "speaker": "Unknown",
+  "en": "They'll just kind of get stuck there.",
+  "zh": "它们只会卡在那里。"
+ },
+ {
+  "seg": 145,
+  "start": 959.472,
+  "end": 959.672,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 146,
+  "start": 959.812,
+  "end": 963.854,
+  "speaker": "Unknown",
+  "en": "So CLIs and MCPs, which one is better?",
+  "zh": "那么 CLI 和 MCP,哪个更好？"
+ },
+ {
+  "seg": 147,
+  "start": 964.947,
+  "end": 967.127,
+  "speaker": "Unknown",
+  "en": "Well, they both have kind of their own trade-offs.",
+  "zh": "嗯，它们各自都有某种自己的权衡。"
+ },
+ {
+  "seg": 148,
+  "start": 967.147,
+  "end": 972.029,
+  "speaker": "Unknown",
+  "en": "With MCP, the spec is not uniformly implemented across the board.",
+  "zh": "在 MCP 这边，这个规范并没有被全面一致地实现。"
+ },
+ {
+  "seg": 149,
+  "start": 973.149,
+  "end": 977.55,
+  "speaker": "Unknown",
+  "en": "There's a bunch of limits that these providers decide to implement aside from the spec as well.",
+  "zh": "除了规范之外，这些提供商还决定实现一堆额外的限制。"
+ },
+ {
+  "seg": 150,
+  "start": 977.89,
+  "end": 984.071,
+  "speaker": "Unknown",
+  "en": "For example, Claude has a two kilobyte limit on server and tool call descriptions.",
+  "zh": "举例来说，Claude 对服务器和工具调用的描述有 2 KB 的限制。"
+ },
+ {
+  "seg": 151,
+  "start": 984.591,
+  "end": 987.712,
+  "speaker": "Unknown",
+  "en": "There's a limit of how long the tools can run, so it's harder to do",
+  "zh": "工具能运行多长时间是有限制的，所以很难做到"
+ },
+ {
+  "seg": 152,
+  "start": 988.312,
+  "end": 991.494,
+  "speaker": "Unknown",
+  "en": "More long-running processes through MCP.",
+  "zh": "通过 MCP 运行更长时间运行的进程。"
+ },
+ {
+  "seg": 153,
+  "start": 992.374,
+  "end": 996.316,
+  "speaker": "Unknown",
+  "en": "And there's other kind of limits that they've introduced there.",
+  "zh": "而且他们还引入了其他一些限制。"
+ },
+ {
+  "seg": 154,
+  "start": 996.836,
+  "end": 1003.82,
+  "speaker": "Unknown",
+  "en": "And then on the CLI, the cool things about MCP, like you could have a hosted MCP server that just is always updated.",
+  "zh": "然后在 CLI 这边，MCP 的很酷的地方在于，你可以有一个托管式的 MCP 服务器，它始终保持更新。"
+ },
+ {
+  "seg": 155,
+  "start": 1004.3,
+  "end": 1005.961,
+  "speaker": "Unknown",
+  "en": "That's not quite the case with the CLI.",
+  "zh": "而 CLI 就不太是这样了。"
+ },
+ {
+  "seg": 156,
+  "start": 1005.981,
+  "end": 1007.562,
+  "speaker": "Unknown",
+  "en": "You have to think more about versioning.",
+  "zh": "你得更多地考虑版本管理的问题。"
+ },
+ {
+  "seg": 157,
+  "start": 1007.882,
+  "end": 1010.884,
+  "speaker": "Unknown",
+  "en": "It's harder to keep packages up to date with all those new features.",
+  "zh": "要让软件包跟上所有这些新特性、保持更新，是比较困难的。"
+ },
+ {
+  "seg": 158,
+  "start": 1012.124,
+  "end": 1016.707,
+  "speaker": "Unknown",
+  "en": "And there's no, while the limits can be, well, limiting on the MCP side,",
+  "zh": "而且也没有，虽然 MCP 那边的限制可能，嗯，很“限制人”，"
+ },
+ {
+  "seg": 159,
+  "start": 1017.867,
+  "end": 1027.666,
+  "speaker": "Unknown",
+  "en": "Not having any of those on the CLI across the tools, across the calls of the CLI, can make things go wrong and continually go through loops that",
+  "zh": "但在 CLI 上没有任何这些限制，跨越各个工具、跨越 CLI 的各种调用，可能让事情出错，并不断陷入循环，"
+ },
+ {
+  "seg": 160,
+  "start": 1029.305,
+  "end": 1030.506,
+  "speaker": "Unknown",
+  "en": "You know, make the agent spin.",
+  "zh": "你知道的，让智能体空转。"
+ },
+ {
+  "seg": 161,
+  "start": 1031.266,
+  "end": 1033.728,
+  "speaker": "Unknown",
+  "en": "And so really, I think both have their place.",
+  "zh": "所以说，我觉得两者都有各自的位置。"
+ },
+ {
+  "seg": 162,
+  "start": 1033.788,
+  "end": 1047.098,
+  "speaker": "Unknown",
+  "en": "I think MCPs are great for those non-technical users, be able to quickly prototype things, build one-off reports, and even leverage that MCP ecosystem to have things talk to each other.",
+  "zh": "我认为 MCP 对那些非技术用户很棒，能够快速做原型、构建一次性的报告，甚至利用那个 MCP 生态让各种东西互相通信。"
+ },
+ {
+  "seg": 163,
+  "start": 1047.758,
+  "end": 1065.854,
+  "speaker": "Unknown",
+  "en": "And then the CLI is better for those more technical users, more longer running tasks, maybe outputs that are super long and you need to leverage those features that Unix and the pipes give you, where you can redirect output to a file, you can do a tail, do a head on that output.",
+  "zh": "而 CLI 更适合那些更技术型的用户、运行时间更长的任务，也许输出特别长、你需要利用 Unix 和管道给你的那些特性——你可以把输出重定向到文件，可以对那个输出做 tail、做 head。"
+ },
+ {
+  "seg": 164,
+  "start": 1066.074,
+  "end": 1069.838,
+  "speaker": "Unknown",
+  "en": "That's where really the CLI starts to shine.",
+  "zh": "这才是 CLI 真正开始大放异彩的地方。"
+ },
+ {
+  "seg": 165,
+  "start": 1071.222,
+  "end": 1071.522,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 166,
+  "start": 1072.203,
+  "end": 1074.045,
+  "speaker": "Unknown",
+  "en": "That is basically all that I had.",
+  "zh": "这基本上就是我要讲的所有内容了。"
+ },
+ {
+  "seg": 167,
+  "start": 1075.366,
+  "end": 1080.15,
+  "speaker": "Unknown",
+  "en": "We have a booth over there at Airbyte that you should check out and come work with us.",
+  "zh": "我们在 Airbyte 那边有个展位，欢迎去看看，来和我们一起工作。"
+ },
+ {
+  "seg": 168,
+  "start": 1080.61,
+  "end": 1080.871,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ }
+]

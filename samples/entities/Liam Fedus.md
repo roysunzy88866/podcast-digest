@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Doj Chubuk":1,"Mario":4,"Periodic Labs":1,"OpenAI":199,"Google DeepMind":10,"ChatGPT":111,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
+<script type="application/json" class="pd-epn">{"Doj Chubuk":1,"Mario":4,"Periodic Labs":1,"OpenAI":200,"Google DeepMind":10,"ChatGPT":111,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
 
 <script>
 (function(){

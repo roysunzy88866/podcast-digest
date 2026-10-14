@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Meta]] · [[Instinct]] · [[OpenClaw]] · [[Amazon]] · [[OpenAI]] · [[Codex]] · [[主动性]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":496,"ChatGPT":111,"Meta":53,"Instinct":5,"OpenClaw":24,"Amazon":32,"OpenAI":199,"Codex":86,"主动性":2,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"ChatGPT":111,"Meta":53,"Instinct":5,"OpenClaw":24,"Amazon":32,"OpenAI":200,"Codex":87,"主动性":2,"Shopify":17}</script>
 
 <script>
 (function(){

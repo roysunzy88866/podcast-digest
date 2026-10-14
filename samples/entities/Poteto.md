@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
+[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cursor":86,"Meta":53,"Netflix":9,"pstack":1,"智能体":496,"技能":33,"验证":2,"信任阶梯":1,"内环与外环":3,"确定性":6}</script>
+<script type="application/json" class="pd-epn">{"Cursor":86,"Meta":53,"Netflix":9,"pstack":1,"智能体":499,"技能":34,"验证":2,"信任阶梯":1,"内环与外环":3,"确定性":6}</script>
 
 <script>
 (function(){

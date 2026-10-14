@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Shreya Shankar":1,"评估":1,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":10,"智能体":496,"trace":7,"Anthropic":203}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Shreya Shankar":1,"评估":1,"错误分析":2,"开放式编码":1,"轴向编码":1,"LLM 当裁判":10,"智能体":499,"trace":7,"Anthropic":203}</script>
 
 <script>
 (function(){

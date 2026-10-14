@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
+[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":496,"harness 工程":4,"自动驾驶代码库":1,"技能":33,"工作日志":1,"人设":1,"验证":2,"闸门":2,"护栏":89,"心智社会":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"harness 工程":4,"自动驾驶代码库":1,"技能":34,"工作日志":1,"人设":1,"验证":2,"闸门":2,"护栏":90,"心智社会":1}</script>
 
 <script>
 (function(){

@@ -266,7 +266,9 @@
     "YNT7Plf9KIg": "2026-10-08-talks-your-ai-agent-has-no-nervous-system-matt",
     "jJQoVkd5yLg": "2026-10-08-talks-why-we-deleted-our-mcp-server-and-rebuil",
     "hZxmbhsbvyw": "2026-10-08-talks-luca-ferrari-the-operating-system-behind",
-    "k2ClBT4aqAg": "2026-10-08-talks-we-mapped-115-microservices-for-our-codi"
+    "k2ClBT4aqAg": "2026-10-08-talks-we-mapped-115-microservices-for-our-codi",
+    "ofxAtQhV-xA": "2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl",
+    "3wj6sgbi1YA": "2026-10-09-talks-designing-clis-for-agents-not-humans-ped"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -548,7 +550,7 @@
     "nopriors": "2026-10-09T10:00:00.000Z",
     "thepeel": "2026-10-08T16:14:09.000Z",
     "beyondcoding": "2026-10-07T12:00:00.000Z",
-    "founders": "2026-10-05T10:00:00.000Z",
+    "founders": "2026-10-13T23:30:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
@@ -570,7 +572,7 @@
     "cheekypint": "2026-10-12T19:16:55.000Z",
     "productpodcast": "2026-09-30T19:00:00.000Z",
     "ainativedev": "2026-10-13T12:00:00.000Z",
-    "newcomer": "2026-10-02T18:10:55.000Z",
+    "newcomer": "2026-10-13T22:06:35.000Z",
     "engenable": "2026-10-02T12:30:00.000Z",
     "sourcery": "2026-10-12T10:00:00.000Z",
     "iltb": "2026-10-13T08:00:00.000Z",
@@ -580,7 +582,7 @@
     "grit": "2026-10-05T09:02:15.000Z",
     "mos": "2026-10-13T09:00:00.000Z",
     "strictlyvc": "2026-09-24T18:17:00.000Z",
-    "latent": "2026-10-10T00:31:26.000Z"
+    "latent": "2026-10-13T22:25:55.000Z"
   },
   "skipped": [
     {
@@ -1536,6 +1538,18 @@
       "reason": "超长集:估 267 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
       "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
       "pubDate": "2026-10-12T19:16:55.000Z"
+    },
+    {
+      "id": "2026-10-13-founders-437-the-tycoons-carnegie-rockefeller-go",
+      "reason": "题材不对味:非 AI/科技泛话题:讲工业时代大亨(卡内基、洛克菲勒等)的历史传记,与 AI 和科技创业均不沾边",
+      "title": "#437 The Tycoons: Carnegie, Rockefeller, Gould & Morgan",
+      "pubDate": "2026-10-13T23:30:00.000Z"
+    },
+    {
+      "id": "2026-10-13-newcomer-alex-kantrowitz-on-openai--nvidia--what",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Alex Kantrowitz on OpenAI, Nvidia & What Could Derail the AI Boom",
+      "pubDate": "2026-10-13T22:06:35.000Z"
     }
   ]
 }

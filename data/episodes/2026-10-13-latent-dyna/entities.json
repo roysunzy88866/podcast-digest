@@ -1,0 +1,1032 @@
+{
+  "episode_id": "2026-10-13-latent-dyna",
+  "podcast": "Latent Space",
+  "date": "2026-10-13",
+  "tags": [
+    "机器人",
+    "世界动作模型",
+    "物理智能体",
+    "具身智能",
+    "硬件与供应链"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jason-ma",
+      "type": "person",
+      "role": "guest",
+      "name": "Jason Ma",
+      "file": "Jason Ma",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            4.922000000000001
+          ],
+          "quote": " All right, we're here on site with Jason Ma, co-founder and chief scientist of Dyna Robotics.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dyna-robotics",
+      "type": "person",
+      "role": "guest",
+      "name": "Dyna Robotics",
+      "file": "Dyna Robotics",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            4.922000000000001
+          ],
+          "quote": " All right, we're here on site with Jason Ma, co-founder and chief scientist of Dyna Robotics.",
+          "speaker": "SPEAKER_01"
+        }
+      ],
+      "how_described": "本集介绍的嘉宾公司：2024 年底成立的全栈机器人公司，自研模型和硬件，机器人已在美国多家餐厅和酒店规模化部署，明年目标是部署数百台。"
+    },
+    {
+      "id": "dyna2",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dyna2",
+      "file": "Dyna2",
+      "primary": true,
+      "how_described": "本集核心产品：Dyna Robotics 上个月发布的世界动作模型，用超过 100 万小时数据训练，预测未来视频并生成机器人可执行的动作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            22.677,
+            26.51033333333333
+          ],
+          "quote": " Yeah, so last month we released our world action model called Dyna2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            246.668,
+            250.572
+          ],
+          "quote": "So the blog post we released is our Dyna2 word action model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            718.498,
+            720.199
+          ],
+          "quote": "so in our Dyna2 blog at the end,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-action-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界动作模型 (world action model)",
+      "file": "世界动作模型",
+      "primary": true,
+      "how_described": "本集把它说成：一个既能预测未来视频、又能生成机器人可执行动作的模型，类比语言模型的思维链——先在视觉和物理空间里「想」世界如何演变，再决定动作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            17.996,
+            21.384888888888888
+          ],
+          "quote": "So under the hood of all this, you have a world action model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            22.677,
+            26.51033333333333
+          ],
+          "quote": " Yeah, so last month we released our world action model called Dyna2.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            26.963,
+            30.839
+          ],
+          "quote": "So it's the first world action model trained on more than 1 million hours of data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            32.471,
+            37.298
+          ],
+          "quote": "world action model is a model that's able to predict the future video,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            980.882,
+            983.493111111111
+          ],
+          "quote": "the world action model I was telling you about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1011,
+          "t": [
+            2885.969,
+            2890.335
+          ],
+          "quote": "like an agentic system around our world action model is what allows The model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            3247.383,
+            3250.5496666666663
+          ],
+          "quote": " On the technical side, you have your world action model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            3257.55,
+            3260.402
+          ],
+          "quote": "So we're building world action model on top of world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1149,
+          "t": [
+            3339.016,
+            3342.056
+          ],
+          "quote": "And today, the instantiation is world action model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说它得名于能够预测未来视频；Jason 认为机器人最第一性原理的做法就是尽可能多地预测世界，也提到纯视觉世界模型可能缺少声音、触觉等关键维度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            37.819,
+            40.283
+          ],
+          "quote": "So, hence the name world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            79.209,
+            83.61
+          ],
+          "quote": "I think a lot of people hear world model and they think you're outputting video",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            122.704,
+            125.486
+          ],
+          "quote": "So those can also be inputs to this world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            846.766,
+            853.089
+          ],
+          "quote": " Are you using any world model companies to generate these and train on them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            978.842,
+            980.842
+          ],
+          "quote": "we have also used our own world model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            3257.55,
+            3260.402
+          ],
+          "quote": "So we're building world action model on top of world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1123,
+          "t": [
+            3260.452,
+            3262.864
+          ],
+          "quote": "So there's many companies building world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            3409.638,
+            3413.38
+          ],
+          "quote": "Like if you're trying a world model that's purely based on videos,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            3414.1,
+            3416.551
+          ],
+          "quote": "I think you'll be a very powerful world model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            3416.601,
+            3419.7121111111114
+          ],
+          "quote": "but it may not be a sufficiently rich enough world model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            3429.206,
+            3433.469
+          ],
+          "quote": "okay, I have the best world model on vision, vision-based world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            3436.391,
+            3442.195
+          ],
+          "quote": "a vision plus tactile world model that's just like 100x more data efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            3476.743,
+            3482.908
+          ],
+          "quote": "So the reason why I bring this up is because I think If vision tactile world model",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1193,
+          "t": [
+            3483.949,
+            3488.214
+          ],
+          "quote": "whatever world model, it's the final thing that solves robotics.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            4166.639,
+            4170.305666666667
+          ],
+          "quote": "It's about basically an agent that self-improves in a world model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1420,
+          "t": [
+            4173.949,
+            4178.123
+          ],
+          "quote": " We weren't doing world model yet, but I felt that's how robotics will get solved.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diffusion-transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散 Transformer (diffusion transformer)",
+      "file": "扩散 Transformer",
+      "primary": true,
+      "how_described": "本集说 Dyna2 的底层架构：Transformer 负责吞下最多数据，扩散负责把输出打磨成平滑、精确、细粒度的机器人动作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            251.033,
+            254.156
+          ],
+          "quote": "So under the hood, it's a diffusion transformer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            312.96,
+            316.46
+          ],
+          "quote": "have been using this kind of diffusion transformer architecture",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flow-matching",
+      "type": "concept",
+      "role": "concept",
+      "name": "流匹配 (flow matching)",
+      "file": "流匹配",
+      "primary": true,
+      "how_described": "本集把它说成：扩散模型的一个更简单、更易调的特例，实践中不用费力调 scheduler、效果一样好，图像视频生成大多已转向这条路线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            198.677,
+            203.51033333333334
+          ],
+          "quote": "There's like diffusion, flow matching, you're predicting next world state plus average.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            337.92,
+            340.572
+          ],
+          "quote": "And we've covered flow matching before on the podcast.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            361.878,
+            363.08
+          ],
+          "quote": "So flow matching is kind of,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            378.516,
+            379.567
+          ],
+          "quote": "a flow matching model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            379.617,
+            383.151
+          ],
+          "quote": "But the concept is the same and flow matching is just a special,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            388.065,
+            390.85699999999997
+          ],
+          "quote": "so flow matching obviously has trade-offs in quality,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "Jason 用它来类比世界动作模型：像语言模型先推理再回答，机器人的模型先在视觉/物理空间推理再输出动作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            170.329,
+            174.972
+          ],
+          "quote": "So the way I think about it is like this is kind of analogous to chain of thought.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "egocentric-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一人称数据 (egocentric data)",
+      "file": "第一人称数据",
+      "primary": true,
+      "how_described": "本集说它是机器人预训练最好的数据来源——人类数据极其多样、覆盖所有物理活动，给模型强先验，但与机器人动作之间仍有差距，需配少量机器人数据微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            511.831,
+            518.615
+          ],
+          "quote": "Obviously, I think the top important thing is egocentric data of humans doing tasks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            600.534,
+            601.754
+          ],
+          "quote": "In the case of egocentric data,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            654.86,
+            656.0266666666666
+          ],
+          "quote": "like egocentric data,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            727.183,
+            728.6274444444444
+          ],
+          "quote": "let it be egocentric data,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            739.6949999999999,
+            743.253
+          ],
+          "quote": "you're probably not buying any more egocentric data off the shelf, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            862.603,
+            865.327
+          ],
+          "quote": "Because today people have looked at egocentric data,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集的配方：海量人类数据打底训练通用基础模型，再用极少量演示微调就能让机器人掌握新任务——切菜任务只用了 45 分钟数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            485.218,
+            488.82
+          ],
+          "quote": "many different tasks with a very minimal amount of fine tuning to just tell",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            1708.366,
+            1713.469
+          ],
+          "quote": "Is this the last post-training fine-tuning side of actually the hour of using",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 864,
+          "t": [
+            2474.847,
+            2478.399
+          ],
+          "quote": "you build a generalized platform that can do a last mile fine tuning",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集说机器人模型必须能本地快速推理，但初始模型可以大：先训练最大的模型再蒸馏成小模型，是语言模型成熟打法，机器人行业正收敛到同一条路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 389,
+          "t": [
+            1136.443,
+            1140.465
+          ],
+          "quote": "Like in language model, people do distillation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1140.485,
+            1145.487
+          ],
+          "quote": "The best way to make a small model very smart is by doing distillation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集强调机器人推理延迟必须极短——拿着刀发呆三秒会吓坏人、重力不等人，所以模型要本地部署，Dyna 为此自建了整个推理栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 368,
+          "t": [
+            1076.461,
+            1081.146
+          ],
+          "quote": "But for robots, the inference latency has to be very short.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1108.352,
+            1112.2640000000001
+          ],
+          "quote": "So for that reason, robotics model needs to be able to inference very fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1154.51,
+            1155.991
+          ],
+          "quote": " How about like inference?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1156.051,
+            1160.212
+          ],
+          "quote": "You have your own inference stack or a lot of this is architecture.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1166.574,
+            1169.905
+          ],
+          "quote": "So we build our own inference stack for whatever model we deploy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1176.897,
+            1181.819
+          ],
+          "quote": "You want to optimize like the inference speed for the kind of model you're running.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "Jason 博士期间的研究方向；本集还把「模型到七八成就观察哪里不行、补数据迭代」称为机器人版的基于人类反馈的强化学习，并提到公司名 Dyna 致敬 Sutton 的 Dyna 论文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            911.011,
+            914.326
+          ],
+          "quote": "generate reward functions or reinforcement learning and just like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            1891.657,
+            1896.579
+          ],
+          "quote": "I think of this as the robotics version of reinforcement learning from human feedback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            3631.806,
+            3636.111
+          ],
+          "quote": "Then like, you know, RL reinforcement learning just like cracked it, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            3645.38,
+            3650.657777777778
+          ],
+          "quote": "So when I got to Penn as a PhD student, I just really wanted to work on reinforcement learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            3674.262,
+            3678.5953333333337
+          ],
+          "quote": "I did a bunch of research thinking about how to connect reinforcement learning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1254,
+          "t": [
+            3679.064,
+            3683.767
+          ],
+          "quote": "with human data, how to do reinforcement learning theory in a very rigorous way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1275,
+          "t": [
+            3740.016,
+            3743.287
+          ],
+          "quote": "the reward function for reinforcement learning to solve pen spinning,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1423,
+          "t": [
+            4185.279,
+            4188.9929999999995
+          ],
+          "quote": "Also because I worked in reinforcement learning, I have a lot of respect for Richard.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semi-humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "半人形机器人 (semi-humanoid)",
+      "file": "半人形机器人",
+      "primary": true,
+      "how_described": "本集介绍他们的机器人形态：上半身如人形、腰部 4 个自由度，下半身用轮子——腿式机器人能耗高、不稳定、安全性无法保证，且躯干自由度利于人类数据迁移。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 523,
+          "t": [
+            1516.879,
+            1520.261
+          ],
+          "quote": "Yeah, so we think of this as generally like a semi-humanoid.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 528,
+          "t": [
+            1532.691,
+            1535.9132222222222
+          ],
+          "quote": "but it's a semi-humanoid because the lower body is wheels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2650.801,
+            2654.482
+          ],
+          "quote": "And I think by iterating with a semi-humanoid form factor",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "actuator",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行器 (actuator)",
+      "file": "执行器",
+      "primary": true,
+      "how_described": "本集说它对整个系统性能极其关键、影响机器人建模质量，所以 Dyna 决定自研而非外购。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            114.116,
+            117.299
+          ],
+          "quote": "what's really interesting is that robot also has a lot of actuator,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1257.139,
+            1259.3056666666666
+          ],
+          "quote": "So one thing is you mentioned actuator.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1263.671,
+            1269.119
+          ],
+          "quote": "The reason is that The quality and how you design the actuator really matters",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1272.161,
+            1273.933
+          ],
+          "quote": "Actuator is what drives the robot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": true,
+      "how_described": "主持人用它总结 Dyna 的路线；Jason 认同并给出机器人版：算法保持简单、堆对的数据让泛化涌现，别塞人类先验（如画框），且去掉对世界抽象表征的偏见。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 861,
+          "t": [
+            2467.641,
+            2470.854
+          ],
+          "quote": " The term that comes to mind is bitter lesson for robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            2480.031,
+            2484.374
+          ],
+          "quote": "Give the expert add-on outside of your, what is more bitter lesson robotics?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1153,
+          "t": [
+            3357.64,
+            3361.6
+          ],
+          "quote": "And the bitter lesson tells you, let's remove human biases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集多处谈到：机器人是完成洗衣等整个工作流的「物理智能体」，需要在其世界动作模型外再加 harness/智能体系统做高层决策；内部也大量用编程智能体（coding agents）加速开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 733,
+          "t": [
+            2143.651,
+            2149.035
+          ],
+          "quote": "you know, we have a physical agent that can do the entire laundry workflow, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1026,
+          "t": [
+            2938.827,
+            2942.8999999999996
+          ],
+          "quote": "you need good agent, good harness engineer, good model, good hardware, everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1029,
+          "t": [
+            2952.149,
+            2959.117
+          ],
+          "quote": "So new Opus 5.5, new Astra, do you have language models in your agent harness?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1283,
+          "t": [
+            3759.068,
+            3762.9013333333337
+          ],
+          "quote": "we had the first recursive self-improving robotic agent in simulation",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            4166.639,
+            4170.305666666667
+          ],
+          "quote": "It's about basically an agent that self-improves in a world model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vision-language-action-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉语言动作模型 (vision language action model)",
+      "file": "视觉语言动作模型",
+      "primary": false,
+      "how_described": "本集作为与 world action model 并行的另一条路线提到：把视觉语言模型适配到机器人上，只预测动作或抽象表征。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1126,
+          "t": [
+            3268.098,
+            3271.451
+          ],
+          "quote": "There are also companies building vision language action model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dintai-phong",
+      "type": "company",
+      "role": "company",
+      "name": "Dintai Phong",
+      "file": "Dintai Phong",
+      "primary": true,
+      "how_described": "本集说的最大规模客户（鼎泰丰）：机器人在美国多家门店每天折数千张餐巾，因认可价值签了更大合同、还要机器人切菜——「试点容易，铺开难」的例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 759,
+          "t": [
+            2217.954,
+            2221.5651111111115
+          ],
+          "quote": "I actually recommend going to our other deployment, Dintai Phong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 773,
+          "t": [
+            2231.458,
+            2232.699
+          ],
+          "quote": "But in Dintai Phong,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2232.719,
+            2234.43
+          ],
+          "quote": "like if you go to Dintai Phong or other,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            2421.337,
+            2423.328
+          ],
+          "quote": "Like one issue with Dintai Phong is like,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eureka",
+      "type": "concept",
+      "role": "concept",
+      "name": "Eureka",
+      "file": "Eureka",
+      "primary": false,
+      "how_described": "Jason 在 NVIDIA 时的项目：第一篇用 GPT-4 自生成仿真环境和强化学习奖励函数的论文，实现了机器人转笔的演示。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            900.177,
+            902.0300000000001
+          ],
+          "quote": "but we had this paper called Eureka,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1280,
+          "t": [
+            3754.841,
+            3756.702
+          ],
+          "quote": "That's what became the Eureka project, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

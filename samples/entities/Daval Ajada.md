@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]] [[Matt Garman]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":6,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":496,"推理":98}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":6,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":499,"推理":99}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":53,"推理":98,"智能体":496,"微服务":1,"GPU":31,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":45}</script>
+<script type="application/json" class="pd-epn">{"Nishant Gupta":1,"Meta":53,"推理":99,"智能体":499,"微服务":1,"GPU":32,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":46}</script>
 
 <script>
 (function(){

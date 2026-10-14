@@ -137,9 +137,9 @@ Ian 的预测是：
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-09-talks-designing-clis-for-agents-not-humans-ped|当命令行的使用者变成人工智能助手]]<span class="pd-rz">同概念:CLI、MCP、OAuth、智能体 (agent)</span>
 - [[2026-09-11-engenable-how-okta-sets-guardrails-and-context-for|当 AI 智能体成为「新员工」:Okta 首席架构师谈智能体身份与安全]]<span class="pd-rz">同概念:智能体 (agent)、身份 (identity)、非确定性 (non-deterministic)、沙箱 (sandbox)</span>
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]]<span class="pd-rz">同概念:CLI、MCP、智能体 (agent)</span>
-- [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同概念:MCP、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

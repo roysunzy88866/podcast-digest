@@ -21,7 +21,7 @@ unlisted: true
 
 [[Jaan Tallinn]] · [[Mario]] · [[AI 安全]] · [[Anthropic]] · [[OpenAI]] · [[Hugging Face]] · [[DeepMind]] · [[对齐]] · [[零知识证明]] · [[Skype]]
 
-<script type="application/json" class="pd-epn">{"Jaan Tallinn":1,"Mario":4,"AI 安全":3,"Anthropic":203,"OpenAI":199,"Hugging Face":37,"DeepMind":19,"对齐":25,"零知识证明":1,"Skype":1}</script>
+<script type="application/json" class="pd-epn">{"Jaan Tallinn":1,"Mario":4,"AI 安全":4,"Anthropic":203,"OpenAI":200,"Hugging Face":37,"DeepMind":19,"对齐":25,"零知识证明":1,"Skype":1}</script>
 
 <script>
 (function(){

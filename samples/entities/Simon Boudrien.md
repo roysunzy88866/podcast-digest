@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
+[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":8,"智能体":496,"评估":1,"上下文":33,"Cursor":86,"开源权重模型":3,"代码审查":24,"上下文腐烂":4}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Guy for Germany":1,"Datadog":8,"智能体":499,"评估":1,"上下文":33,"Cursor":86,"开源权重模型":3,"代码审查":24,"上下文腐烂":4}</script>
 
 <script>
 (function(){

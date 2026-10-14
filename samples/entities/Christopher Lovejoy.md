@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":203,"智能体":496,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
+<script type="application/json" class="pd-epn">{"Saul Howard":1,"Anthropic":203,"智能体":499,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

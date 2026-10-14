@@ -25,7 +25,7 @@ unlisted: true
 
 [[Goodfire]] · [[可解释性]] · [[思维链]] · [[上下文学习]] · [[sampling]] · [[随机性]] · [[RL]] · [[奖励黑客]] · [[Kimi K3]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"Goodfire":1,"可解释性":4,"思维链":11,"上下文学习":4,"sampling":2,"随机性":1,"RL":14,"奖励黑客":9,"Kimi K3":4,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Goodfire":1,"可解释性":4,"思维链":12,"上下文学习":4,"sampling":2,"随机性":1,"RL":14,"奖励黑客":9,"Kimi K3":4,"开源模型":4}</script>
 
 <script>
 (function(){

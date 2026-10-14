@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":496,"vibe coding":49,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":3}</script>
+<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":499,"vibe coding":49,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":3}</script>
 
 <script>
 (function(){

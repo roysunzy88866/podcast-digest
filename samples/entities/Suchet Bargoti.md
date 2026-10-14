@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":496,"自主性":10,"强化学习":1,"世界模型":14,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
+<script type="application/json" class="pd-epn">{"Skydea":1,"无人机基础设施":1,"智能体":499,"自主性":10,"强化学习":1,"世界模型":15,"VLM":4,"端到端训练":3,"机坞":1,"学习飞轮":1}</script>
 
 <script>
 (function(){

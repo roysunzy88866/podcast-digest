@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":65,"轨迹":4,"智能体":496}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":65,"轨迹":4,"智能体":499}</script>
 
 <script>
 (function(){

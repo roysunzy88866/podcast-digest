@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[ChatGPT]] · [[go-to-market]] · [[Databricks]] · [[Claude]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":496,"Cursor":86,"OpenAI":199,"Anthropic":203,"Google":71,"ChatGPT":111,"go-to-market":14,"Databricks":24,"Claude":97,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"Cursor":86,"OpenAI":200,"Anthropic":203,"Google":71,"ChatGPT":111,"go-to-market":14,"Databricks":24,"Claude":97,"Lenny":69}</script>
 
 <script>
 (function(){

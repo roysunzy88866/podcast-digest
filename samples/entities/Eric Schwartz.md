@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":45,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":46,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
 
 <script>
 (function(){

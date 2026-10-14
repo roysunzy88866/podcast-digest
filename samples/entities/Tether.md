@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Paolo Ardoino]] · [[Elad Gil]] · [[QVAC]] · [[Brian Armstrong]] · [[推理]] · [[Coinbase]] · [[微调]] · [[NewLimit]] · [[BitNet]]
 
-<script type="application/json" class="pd-epn">{"智能体":496,"Paolo Ardoino":1,"Elad Gil":1,"QVAC":1,"Brian Armstrong":1,"推理":98,"Coinbase":8,"微调":36,"NewLimit":2,"BitNet":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"Paolo Ardoino":1,"Elad Gil":1,"QVAC":1,"Brian Armstrong":1,"推理":99,"Coinbase":8,"微调":37,"NewLimit":2,"BitNet":1}</script>
 
 <script>
 (function(){

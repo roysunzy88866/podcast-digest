@@ -56,11 +56,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Pat Gelsinger]] [[Raguraguram]]
+[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":496,"分布式系统":1,"循环工程":6,"MCP":93,"A2A 协议":3,"BENT":1,"Bend":1,"gem":2,"多智能体系统":1,"多智能体协调":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":499,"分布式系统":1,"循环工程":6,"MCP":94,"A2A 协议":3,"BENT":1,"Bend":1,"gem":2,"多智能体系统":1,"多智能体协调":3}</script>
 
 <script>
 (function(){

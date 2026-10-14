@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":203,"Lovable":20,"OpenRouter":14,"ChatGPT":111,"Harry Stebbings":21,"Julie Bort":1,"Menlo":2,"Claude":97,"OpenAI":199,"Claude Code":111}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":203,"Lovable":20,"OpenRouter":14,"ChatGPT":111,"Harry Stebbings":21,"Julie Bort":1,"Menlo":2,"Claude":97,"OpenAI":200,"Claude Code":111}</script>
 
 <script>
 (function(){

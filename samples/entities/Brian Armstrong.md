@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":8,"NewLimit":2,"智能体":496,"智能体金融":1,"X402":3,"稳定币":6,"分词":5,"预测市场":2,"递归自我改进":12}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":8,"NewLimit":2,"智能体":499,"智能体金融":1,"X402":3,"稳定币":6,"分词":5,"预测市场":2,"递归自我改进":12}</script>
 
 <script>
 (function(){

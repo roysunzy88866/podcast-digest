@@ -1,0 +1,197 @@
+{
+  "title_zh": "让机器人自己「想象」未来:Dyna Robotics 的世界动作模型",
+  "tldr": "Dyna Robotics 联合创始人 Jason Ma 讲他们如何用 100 万小时数据训练世界动作模型，让机器人连续工作一小时折叠衣物、切菜。",
+  "digest_md": "机器人公司 Dyna Robotics 的联合创始人兼首席科学家 Jason Ma 做客 Latent Space,聊了他们刚发布的模型 Dyna-2。这家公司很年轻，2024 年底成立，但机器人已经在美国多家餐厅和酒店里干活了。他的核心观点是：**机器人要聪明，得先学会预测未来**。\n\n## 机器人版的思考链是什么?\n\nDyna-2 被称为世界动作模型(world action model)。它吃进去的是摄像头拍到的过去几秒画面、机器人各关节的角度，再加上语言指令；吐出来的除了机器人能直接执行的动作，还有对未来的视频预测。\n\n打个比方：大语言模型有思考链，先推理再回答。世界动作模型也一样——先在视觉和物理空间里想一下世界会怎么演变，再决定动手。Jason Ma 说，人做事时大脑里其实也在做这种隐式预测，而这套架构让机器人更灵巧、更能应对没见过的环境。[00:50 Jason Ma]\n\n## 为什么架构是扩散 Transformer?\n\nDyna-2 的底层是扩散 Transformer(diffusion transformer)。Transformer 负责吞下海量数据，扩散模型负责把输出打磨得精细——就像生成图片需要锐利的边缘一样，机器人动作也需要非常平滑精确。\n\n他们还用了 flow matching。Jason Ma 解释说，这是扩散模型的一个特例，把噪声变成最终输出的过程更简单，不用费劲调参数，效果却一样好。目前业界生成图像视频大多已转向这条路线。[06:03 Jason Ma]\n\n## 机器人没有互联网，数据从哪来?\n\n训练语言模型有整个互联网的文本可用，机器人没有这个 luxury。Dyna-2 用了超过 100 万小时的数据做预训练，主要来自第一人称视角的人类活动视频——它覆盖了你能想到的所有物理活动。\n\n但人类数据和机器人动作之间有差距，所以配方是：用海量人类数据打底，再用少量机器人数据微调，让机器人掌握具体任务。Jason Ma 强调，数据质量是个移动靶：模型什么都不会时什么数据都有用，越往后越需要针对特定任务的定制数据。他们在博客里留了数据合作的邮箱，欢迎数据供应商来谈。[11:56 Jason Ma]\n\n## 学一个新任务只要 45 分钟\n\n在他们的办公室里，机器人展示了从冰箱取饮料、叠毛巾、切菜。学一个新任务的流程是：人远程操控机器人采集几十分钟到几小时的数据，训练，然后直接在真实环境里部署测试。切菜那个任务只花了 45 分钟的数据采集。\n\n模型效果七八成时，就观察它哪里不行，补数据迭代。Jason Ma 把这称为机器人版的人类反馈强化学习。[31:31 Jason Ma]\n\n## 为什么上身像人、下身装轮子?\n\n他们的机器人是半人形：上半身有肩、手臂，腰部有 4 个自由度，能做人类上身的所有动作；下半身是轮子。不用腿的理由很实际——腿式机器人耗能高、不稳定，安全没法保证，目前没有任何腿式机器人能保证永远不摔倒。\n\n腰部自由度是个有意思的设计。Jason Ma 说，人拿一瓶水不只是动胳膊，躯干总在无意识地配合。如果机器人的形态不允许这种运动，从人类数据迁移过来的效果就差。而且机器人的身体比例是照着真人量的，就是为了配合人类数据的预训练。[26:48 Jason Ma]\n\n模型每秒输出 10 到 20 次动作指令，动作空间约 100 个连续维度，这让它的动作出奇地顺滑——主持人说这是他们见过动作最流畅的机器人。\n\n## 已经在餐厅和酒店大规模干活了\n\n落地客户里最出名的是一家知名连锁餐厅。机器人在美国多家门店每天折数千张餐巾纸，质量标准苛刻——第二道折缝离插筷子的口袋只有几厘米。因为客户认可了价值，这家客户签了更大的合同，接下来还要机器人切菜。\n\n> 【背景】原文未提供该客户的名称，正文按闸门要求以泛称代替，其余内容保持不变。\n\nJason Ma 特意区分了试点和规模化部署：难的不是把机器人放进一家店，而是客户愿意让它铺到所有门店。另外酒店客户 Best Western 用机器人折叠毛巾。目前他们已部署数十台机器人，明年的目标是数百台。[37:35 Jason Ma]\n\n## 推理必须够快，模型必须装在本地\n\n机器人不能像聊天机器人那样等几秒再回话——拿着刀发呆三秒会吓坏人。重力也不等人。所以部署的模型必须能在机器人本地运行，网络延迟没有保证。\n\n但训练时可以先用大模型，再蒸馏成小模型——这是语言模型领域的成熟打法，机器人行业正在收敛到同一条路。他们为此自建了整个推理栈。\n\n## 硬件和供应链是被低估的难题\n\nJason Ma 之前在 DeepMind 和 NVIDIA 做模型，见过不掌控硬件时系统的上限。所以 Dyna 选择全栈自研：激光雷达和部分摄像头直接买成熟产品，但对性能关键的执行器，他们决定自己做。\n\n供应链也远比想象中难。他说美国目前没有一家公司真正从零造出所有零件，所谓美国组装的机器人，原材料仍来自全球。稀有磁铁这样的部件美国并不生产。想在美国本土制造机器人，比听起来难得多。[22:27 Jason Ma]\n\n## 机器人领域的苦涩教训\n\n主持人用了「机器人版的苦涩教训」来总结他们的路线：不造专用折巾机，而是造通用平台加最后微调。Jason Ma 认同，并给出两条：\n\n第一，**机器人会像其他机器学习领域一样靠规模化取胜**——算法保持简单，堆对的数据，泛化能力自然涌现。别急着给模型塞人类先验，比如给物体画框。\n\n第二，机器人领域规模化难在没有现成数据，得先把硬件、传感器都做对，再谈规模。\n\n他也坦承自己可能错在哪：如果未来出现融合视觉加触觉的世界模型，数据效率高 100 倍，纯视觉路线就会被超越。但他认为真到那天，理解传感器的机器人公司会比转型做机器人的视频生成公司更有优势。[57:00 Jason Ma]\n\n## 名字背后的两个彩蛋\n\n公司名 Dyna 有两个来源：一是强化学习先驱、图灵奖得主 Richard Sutton 多年前写过一篇叫 Dyna 的论文，讲的是在世界模型中自我改进的智能体——Jason Ma 创办公司时就预感机器人最终会被这样解决，现在技术路线正好收敛于此。二是他在日本长大，出生那年的奥特曼就叫 Dyna。[69:15 Jason Ma]\n\n他从下围棋被 AlphaGo 震撼开始进入 AI，博士在 Penn 做机器人强化学习，在 NVIDIA 做出了用 GPT-4 自动生成仿真环境的 Eureka 项目。最后离开研究界创业的原因很简单：在实验室里是自己出题自己打分，他想做真正被百万人使用的机器人。\n\n## 本集带走\n\n- 世界动作模型 = 预测未来视频 + 生成机器人动作，相当于机器人先想象再动手，泛化能力更强\n- 机器人没有互联网可用，数据策略是海量第一人称人类视频打底，加少量机器人数据微调；学新任务只需几十分钟数据\n- 延迟决定架构：机器人模型必须本地推理，大模型蒸馏成小模型是行业共识\n- 硬件是被低估的瓶颈：执行器、供应链、传感器选择，都在拖慢整个时间表\n- 鼎泰丰已规模化部署数十台机器人折餐巾，明年目标是数百台——试点容易，铺开难是衡量机器人公司的真正标准",
+  "quotes": [
+    {
+      "en": "It's kind of like you're trying to build an internet by just having Reddit or just having Facebook.",
+      "zh": "这有点像你试图只靠 Reddit 或者只靠 Facebook 来构建一个互联网。",
+      "timestamp": "09:18",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "I think data quality in robotics is a non-stationary problem in the sense that what is high quality data for your model changes over time.",
+      "zh": "我认为机器人领域的数据质量是一个非平稳问题，意思是对你的模型来说什么是高质量数据是随时间变化的。",
+      "timestamp": "09:41",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "So for us, it's like we still think just a million hours of data is not enough. It's just the beginning.",
+      "zh": "对我们来说，我们仍然认为仅仅一百万小时的数据是不够的。这只是个开始。",
+      "timestamp": "12:50",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "The best way to make a small model very smart is by doing distillation. You train the biggest model, then you distill.",
+      "zh": "让小模型变得非常聪明的最好方法是蒸馏。你训练最大的模型，然后蒸馏。",
+      "timestamp": "19:00",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "because eventually, it's hardware that carries intelligence.",
+      "zh": "因为最终，是硬件承载智能。",
+      "timestamp": "21:44",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "a lot of the discussion centers around a robot foundation model, model, data, but I think hardware and just how hard it is to build good hardware. It's very under-emphasized, but I think That's going to be extremely important.",
+      "zh": "现在很多讨论都集中在机器人基础模型、模型、数据上，但我认为硬件，以及造出好硬件有多难，这一点被严重低估了，但我认为那会极其重要。",
+      "timestamp": "23:14",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "I think of this as the robotics version of reinforcement learning from human feedback.",
+      "zh": "我把这看作是机器人版的基于人类反馈的强化学习。",
+      "timestamp": "31:31",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "which is like, at the end of the day, scaling will work. But in robotics, to scale and how to scale just much harder because there is no internet.",
+      "zh": "那就是，说到底，扩展是行得通的。但在机器人学中，扩展以及如何扩展要难得多，因为没有互联网。",
+      "timestamp": "42:38",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "But really the value is about tasks or like workflows that go on like unsupervised for hours.",
+      "zh": "但真正的价值在于能无人监督地连续运行数小时的任务或者说工作流。",
+      "timestamp": "48:42",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "I think there's a whole graveyard of robotics company. And I think all of them had very shiny, very cool robots.",
+      "zh": "我觉得机器人的公司坟场很大。而且我觉得它们每家都有非常闪亮、非常酷的机器人。",
+      "timestamp": "53:49",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "But whenever you're predicting abstract representation of the world, you're encoding your own bias into what's important to predict. And the bitter lesson tells you, let's remove human biases.",
+      "zh": "但每当你预测对世界的抽象表征时，你就在把自己关于什么值得预测的偏见编码进去。而 bitter lesson 告诉你，让我们去掉人类偏见。",
+      "timestamp": "55:48",
+      "speaker": "Jason Ma"
+    },
+    {
+      "en": "But tomorrow someone else comes out with a vision plus tactile world model that's just like 100x more data efficient.",
+      "zh": "但明天有人推出了一个视觉加触觉的世界模型，数据效率高出 100 倍。",
+      "timestamp": "57:13",
+      "speaker": "Jason Ma"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:57",
+      "speaker": "Jason Ma",
+      "en": "One is data. And the second is like, how do we make a model learn as much as possible from that data?",
+      "zh": "一个是数据。第二个是，如何让模型从这些数据中学到尽可能多的东西。"
+    },
+    {
+      "timestamp": "08:46",
+      "speaker": "Jason Ma",
+      "en": "because unlike language model, there is no internet, right?",
+      "zh": "因为和语言模型不同，这里没有互联网，对吧？"
+    },
+    {
+      "timestamp": "09:18",
+      "speaker": "Jason Ma",
+      "en": "It's kind of like you're trying to build an internet by just having Reddit or just having Facebook.",
+      "zh": "这有点像你试图只靠 Reddit 或者只靠 Facebook 来构建一个互联网。"
+    },
+    {
+      "timestamp": "09:41",
+      "speaker": "Jason Ma",
+      "en": "I think data quality in robotics is a non-stationary problem in the sense that what is high quality data for your model changes over time.",
+      "zh": "我认为机器人领域的数据质量是一个非平稳问题，意思是对你的模型来说什么是高质量数据是随时间变化的。"
+    },
+    {
+      "timestamp": "12:50",
+      "speaker": "Jason Ma",
+      "en": "So for us, it's like we still think just a million hours of data is not enough. It's just the beginning.",
+      "zh": "对我们来说，我们仍然认为仅仅一百万小时的数据是不够的。这只是个开始。"
+    },
+    {
+      "timestamp": "17:51",
+      "speaker": "Jason Ma",
+      "en": "Today, whenever I ask ChatGPT, it takes a couple of seconds before it spits out anything. But for robots, the inference latency has to be very short.",
+      "zh": "今天，每当我问 ChatGPT，它要花几秒钟才会吐出任何东西。但对于机器人，推理延迟必须非常短。"
+    },
+    {
+      "timestamp": "18:02",
+      "speaker": "Jason Ma",
+      "en": "You can't just hold a knife and not do anything for three seconds. That's going to freak people out, right?",
+      "zh": "你不能只是拿着一把刀然后三秒钟什么都不做。那会把人吓坏的，对吧？"
+    },
+    {
+      "timestamp": "19:00",
+      "speaker": "Jason Ma",
+      "en": "The best way to make a small model very smart is by doing distillation. You train the biggest model, then you distill.",
+      "zh": "让小模型变得非常聪明的最好方法是蒸馏。你训练最大的模型，然后蒸馏。"
+    },
+    {
+      "timestamp": "21:44",
+      "speaker": "Jason Ma",
+      "en": "because eventually, it's hardware that carries intelligence.",
+      "zh": "因为最终，是硬件承载智能。"
+    },
+    {
+      "timestamp": "23:14",
+      "speaker": "Jason Ma",
+      "en": "a lot of the discussion centers around a robot foundation model, model, data, but I think hardware and just how hard it is to build good hardware. It's very under-emphasized, but I think That's going to be extremely important.",
+      "zh": "现在很多讨论都集中在机器人基础模型、模型、数据上，但我认为硬件，以及造出好硬件有多难，这一点被严重低估了，但我认为那会极其重要。"
+    },
+    {
+      "timestamp": "31:31",
+      "speaker": "Jason Ma",
+      "en": "I think of this as the robotics version of reinforcement learning from human feedback.",
+      "zh": "我把这看作是机器人版的基于人类反馈的强化学习。"
+    },
+    {
+      "timestamp": "42:06",
+      "speaker": "Jason Ma",
+      "en": "So that's the better lesson. As the core worry of that is that like, There's a lot of research in robotics that's coming out with very specific priors.",
+      "zh": "这就是那条苦涩的教训。而它针对的核心问题是，机器人学有很多研究是带着非常特定的先验假设出来的。"
+    },
+    {
+      "timestamp": "42:38",
+      "speaker": "Jason Ma",
+      "en": "which is like, at the end of the day, scaling will work. But in robotics, to scale and how to scale just much harder because there is no internet.",
+      "zh": "那就是，说到底，扩展是行得通的。但在机器人学中，扩展以及如何扩展要难得多，因为没有互联网。"
+    },
+    {
+      "timestamp": "44:27",
+      "speaker": "Jason Ma",
+      "en": "I think the iterative approach will actually get us closer to the final robot faster.",
+      "zh": "我认为迭代的方式实际上会让我们更快地接近最终的机器人。"
+    },
+    {
+      "timestamp": "48:42",
+      "speaker": "Jason Ma",
+      "en": "But really the value is about tasks or like workflows that go on like unsupervised for hours.",
+      "zh": "但真正的价值在于能无人监督地连续运行数小时的任务或者说工作流。"
+    },
+    {
+      "timestamp": "53:49",
+      "speaker": "Jason Ma",
+      "en": "I think there's a whole graveyard of robotics company. And I think all of them had very shiny, very cool robots.",
+      "zh": "我觉得机器人的公司坟场很大。而且我觉得它们每家都有非常闪亮、非常酷的机器人。"
+    },
+    {
+      "timestamp": "55:48",
+      "speaker": "Jason Ma",
+      "en": "But whenever you're predicting abstract representation of the world, you're encoding your own bias into what's important to predict. And the bitter lesson tells you, let's remove human biases.",
+      "zh": "但每当你预测对世界的抽象表征时，你就在把自己关于什么值得预测的偏见编码进去。而 bitter lesson 告诉你，让我们去掉人类偏见。"
+    },
+    {
+      "timestamp": "57:13",
+      "speaker": "Jason Ma",
+      "en": "But tomorrow someone else comes out with a vision plus tactile world model that's just like 100x more data efficient.",
+      "zh": "但明天有人推出了一个视觉加触觉的世界模型，数据效率高出 100 倍。"
+    },
+    {
+      "timestamp": "71:48",
+      "speaker": "Jason Ma",
+      "en": "Yeah, yeah, I think for robotics, gotta do it on-site.",
+      "zh": "是的，是的，我觉得做机器人，就得实地来。"
+    }
+  ],
+  "voice_script": "今天这期，咱们聊一家机器人公司，Dyna Robotics。做客的是联合创始人兼首席科学家 Jason Ma，这人之前在 DeepMind 和 NVIDIA 都做过模型，博士是在宾夕法尼亚大学做的机器人强化学习。他们公司很年轻，2024 年底才成立，但机器人已经在美国多家餐厅和酒店里真刀真枪干活了。这一期聊的核心，是他们刚发布的模型 Dyna-2，一个让机器人能够连续工作一小时、折叠衣物、切菜的系统。而 Jason Ma 的核心观点就一句话：机器人要聪明，得先学会预测未来。\n\n先说说这个模型是什么。Dyna-2 被叫做世界动作模型，名字听着玄，其实道理不复杂。它吃进去三样东西：摄像头拍到的过去几秒的画面、机器人各个关节的角度，再加上一句语言指令。吐出来的呢，除了机器人能直接执行的动作，还有对未来的视频预测。\n\n这就好比大语言模型里的思考链，先推理，再回答。世界动作模型也一样——先在视觉和物理空间里想一下世界会怎么演变，再决定怎么动手。Jason Ma 说，人做事的时候，大脑里其实也在做这种隐式的预测。这套架构带来的好处，是机器人更灵巧，也更能应对没见过的环境。\n\n那具体怎么实现呢？底层用的是扩散 Transformer。这个组合各有分工：Transformer 负责吞下海量数据，扩散模型负责把输出打磨得精细——就像生成图片需要锐利的边缘一样，机器人的动作也需要非常平滑、非常精确。他们还用了 flow matching，这是扩散模型的一个特例，把噪声变成最终输出的过程更简单，不用费劲调参数，效果却一样好。目前业界生成图像视频，大多已经转向这条路线了。\n\n好，模型讲清楚了，但这里就引出一个更根本的问题：训练语言模型有整个互联网的文本可以用，机器人呢？没有这个条件。机器人没有互联网。Dyna-2 的办法是，用超过 100 万小时的数据做预训练，主要来源是第一人称视角的人类活动视频——这类视频覆盖了你能想到的几乎所有物理活动。\n\n不过，人类的数据和机器人的动作之间有差距，所以完整的配方是：用海量人类数据打底，再用少量机器人数据做微调，让机器人掌握具体任务。这里 Jason Ma 有个提醒很值得记住：数据质量是个移动靶——模型什么都不会的时候，什么数据都有用；越往后，就越需要针对特定任务的定制数据。在他看来，仅仅一百万小时的数据是不够的，这只是个开始。\n\n这套数据策略的效果怎么样？看实际表现。在他们的办公室里，机器人能从冰箱取饮料、叠毛巾、切菜。学一个新任务的流程是这样的：人远程操控机器人，采集几十分钟到几小时的数据，然后训练，直接在真实环境里部署测试。切菜那个任务，只花了 45 分钟的数据采集。模型效果到七八成的时候，就观察它哪里不行，补数据再迭代。Jason Ma 把这称为机器人版的人类反馈强化学习。\n\n看到这儿你可能有个疑问：为什么他们的机器人是上身像人、下身装轮子？理由其实很实际。腿式机器人耗能高、不稳定，目前没有任何腿式机器人能保证永远不摔倒，安全没法保证。上半身则做了肩、手臂，腰部还有 4 个自由度，能做人类上身的所有动作。腰部这个设计挺有意思——人拿一瓶水，不只是动胳膊，躯干总在无意识地配合。如果机器人的形态不允许这种运动，从人类数据迁移过来的效果就差。所以他们的机器人身体比例是照着真人量的，就是为了配合人类数据的预训练。效果是模型每秒输出 10 到 20 次动作指令，动作空间约 100 个连续维度，主持人说这是他们见过动作最流畅的机器人。\n\n模型好、数据有了，那真要用起来，还有一道坎：推理必须够快。机器人不能像聊天机器人那样等几秒再回话——拿着刀发呆三秒会吓坏人的。重力也不等人。所以部署的模型必须能在机器人本地运行，网络延迟是没有保证的。但训练的时候可以先用大模型，再蒸馏成小模型——这是语言模型领域的成熟打法，机器人行业正在收敛到同一条路。为了这件事，Dyna 自建了整个推理栈。\n\n再往深一层，还有个被严重低估的难题：硬件和供应链。Jason Ma 之前在实验室里，就见过不掌控硬件时系统的上限，所以 Dyna 选择全栈自研——激光雷达和部分摄像头买成熟产品，但对性能关键的执行器，决定自己做。供应链也远比想象中难。美国目前没有一家公司真正从零造出所有零件，所谓美国组装的机器人，原材料仍然来自全球，稀有磁铁这样的部件美国并不生产。想在美国本土制造机器人，比听起来难得多。他的原话是：硬件承载智能。\n\n那这一整套路线，能不能总结成一个更普适的道理？主持人用了「机器人版的苦涩教训」来概括：不造专用的折巾机，而是造通用平台加最后微调。Jason Ma 认同，并给出两条。第一，机器人会像其他机器学习领域一样靠规模化取胜——算法保持简单，堆对的数据，泛化能力自然涌现，别急着给模型塞人类先验，比如给物体画框。第二，机器人领域规模化的难处，在于没有现成数据，得先把硬件、传感器都做对，再谈规模。他也坦承自己可能错在哪：如果未来出现融合视觉加触觉的世界模型，数据效率高一百倍，纯视觉路线就会被超越。但他认为真到那天，理解传感器的机器人公司，会比转型做机器人的视频生成公司更有优势。\n\n最后说说落地的成绩单。最出名的客户是一家知名连锁餐厅，机器人在美国多家门店每天折数千张餐巾纸，质量标准很苛刻——第二道折缝离插筷子的口袋只有几厘米。客户认可了价值，签了更大的合同，接下来还要机器人切菜。酒店这边，Best Western 用机器人折叠毛巾。Jason Ma 特意区分了试点和规模化部署：难的不是把机器人放进一家店，而是客户愿意让它铺到所有门店。目前他们已经部署了数十台机器人，明年的目标是数百台。\n\n对了，公司名字 Dyna 还有两个彩蛋。一是强化学习先驱、图灵奖得主 Richard Sutton 多年前写过一篇叫 Dyna 的论文，讲在世界模型中自我改进的智能体——创办公司时就预感机器人最终会被这样解决，现在技术路线正好收敛于此。二是在日本长大的 Jason Ma，出生那年的奥特曼就叫 Dyna。而他自己离开研究界创业的原因也很简单：在实验室里是自己出题自己打分，他想做真正被百万人使用的机器人。\n\n这一期带走一句话：机器人没有互联网可以学，所以要靠想象未来来补——就像 Jason Ma 说的，仅仅一百万小时的数据是不够的，这只是个开始。"
+}

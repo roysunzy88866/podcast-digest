@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Daniel Saks]] [[Previous Guests]]
+[[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]] [[Owen He]] [[Daval Ajada]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nubank":1,"AI":34,"基础模型":7,"智能体":496,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
+<script type="application/json" class="pd-epn">{"Nubank":1,"AI":34,"基础模型":7,"智能体":499,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
 
 <script>
 (function(){

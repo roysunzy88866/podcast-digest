@@ -124,8 +124,8 @@ Skydio 的行业优势在于同时掌控硬件、软件、云和用户界面。�
 **顺着「智能体」挖下去**
 
 - [[2026-08-04-yc-waymo-co-ceo-dmitri-dolgov-move-fast-and|Waymo 谈物理 AI 的七条实战教训]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、端到端 (end-to-end)</span>
+- [[2026-10-13-latent-dyna|让机器人自己「想象」未来:Dyna Robotics 的世界动作模型]]<span class="pd-rz">同概念:世界模型 (world model)、强化学习 (reinforcement learning)、智能体 (agent)</span>
 - [[2026-09-01-twiml-world-models-and-the-future-of-spatial-a|Justin Johnson：世界模型不只有一种，而语言模型做不到这些]]<span class="pd-rz">同概念:世界模型 (world model)、智能体 (agent)、强化学习 (reinforcement learning)</span>
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]]<span class="pd-rz">同概念:智能体 (agent)、自主性 (autonomy)</span>
 
 </div>
 <div class="pd-ex">

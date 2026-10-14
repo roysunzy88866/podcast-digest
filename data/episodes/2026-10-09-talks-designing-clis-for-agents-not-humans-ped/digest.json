@@ -1,0 +1,167 @@
+{
+  "title_zh": "当命令行的使用者变成人工智能助手",
+  "tldr": "Airbyte 工程师 Pedro 讲解如何为智能体设计 MCP 服务器和命令行工具，而不是为人。",
+  "digest_md": "Airbyte 是一家做数据搬运起家的公司：把 Zendesk、Stripe、GitHub 这些工具里的数据，接到你的分析流程里。现在他们往前走了一步，把这些数据做成一个上下文存储，供人工智能智能体查询和调用。工程师 Pedro 在这场演讲里分享的，是他们为智能体提供两套入口——MCP 和命令行工具——时踩过的坑。\n\n## 智能体需要哪三种能力？\n\nPedro 说，不管什么接口，都要覆盖三件事 [01:48 Unknown]。\n\n第一，管理产品里的核心资源，比如组织、工作区、连接器。第二，也是最要紧的：安全地授权第三方服务，但不能把你的账号密码暴露给智能体。第三，能查、能写、能动手——既要搜索数据，也要能对那些系统执行操作。\n\n他们的原则是：这两套接口都做薄，只是平台的统一入口，不在外面重新实现一遍平台。平台每天部署 10 次以上，接口必须跟着随时更新，靠 OpenAPI 规格说明作为唯一事实来源 [03:30 Unknown]。\n\n## MCP：给不想碰代码的人用\n\nMCP（模型上下文协议）是让 ChatGPT、Claude 这类智能体直接调用外部工具的标准方式。对普通用户来说它足够友好：在应用商店点一下安装，或者贴一个网址就能连上。\n\n演示里，Pedro 问了两个问题：「我有哪些连接器？」以及「==找出 5 个有 Zendesk 工单的付费客户==」。智能体自动去上下文存储里查，把 Zendesk 的工单数据和 Stripe 的付费数据交叉比对，给出了答案。\n\n经验教训有 3 条。一是工具数量要少：连接器再多，也只暴露描述和执行两个工具，靠逐步发现来展开能力，别把上下文塞爆 [05:49 Unknown]。二是认证要走 OAuth：协议和主流客户端都押注在 OAuth 上，想用其他令牌方式会处处碰壁。而且用户期待 MCP 像手机应用一样，登录一次长期可用，而不是像网页那样反复登录 [07:55 Unknown]。\n\n三是一条反面经验：协议里的 elicitation 机制（服务器主动向用户要信息）看上去正合适，但各家客户端支持程度参差不齐。Claude Desktop 就直接告诉他不支持 URL 模式。最后他们只好自己实现授权链接，绕开协议 [10:04 Unknown]。Pedro 的总结是：MCP 有规范是一回事，客户端实际支持什么，是另一回事。\n\n## 命令行工具：换一套设计思路\n\n命令行工具面向技术用户，但真正的使用者往往是智能体本身。Pedro 的核心观点是：要为智能体设计命令行，**很多对人类友好的设计，恰恰是智能体的障碍** [11:18 Unknown]。\n\n第一，输入输出都用 JSON。人类喜欢一堆旗标参数，但智能体更擅长直接构造 JSON，出错更少。输出也是 JSON 的好处在于，可以用管道把结果交给 JQ 这类工具去筛选、裁剪——这正是命令行的传统强项 [11:29 Unknown]。\n\n第二，命名要前后一致。命令用名词加动词的结构，比如 connectors list、connectors create，那 workspace 也必须是 workspace list。这样智能体不用翻文档就知道该怎么做。还有个反直觉的建议：如果发现智能体反复调错同一个命令，别怪它笨，把它的错误用法变成正式命令——这说明你的设计不够直白 [13:23 Unknown]。\n\n第三，技能（skills）要随命令行一起发布。智能体怎么知道这台机器上装了你的工具？靠技能描述来发现。但也别把说明全塞进技能里，拆成多个参考文件，让智能体按需加载。\n\n第四，绝对不能有交互式提问。传统命令行经常停下来等你输入确认，智能体会直接卡死在那里。所有配置都得走环境变量、配置文件，提前准备好 [15:39 Unknown]。\n\n## 那到底选哪个？\n\nPedro 的答案：**各有各的位置** [17:13 Unknown]。\n\nMCP 适合非技术用户，快速做原型、跑一次性报表，生态里各个工具还能互相打通。但限制也实在：Claude 对服务器和工具描述有 2KB 的大小限制，工具运行时长也有限，长时间任务不好做。\n\n命令行没有这些限制，反而危险——没有上限时，智能体可能陷入循环一直空转。另外命令行需要考虑版本管理，不像托管的 MCP 服务器永远是最新的。\n\n一句话：临时的事交给 MCP，长任务、超长输出、要用管道和文件的地方，交给命令行。\n\n## 本集带走\n\n- 接口要做薄，都压在共享平台和 OpenAPI 规格之上，才能跟得上每天 10 次以上的部署节奏。\n- MCP 的规范和客户端的实际支持是两回事， elicitation 这类新特性落地前别指望它。\n- 为智能体设计命令行：JSON 进出、命名严格一致、绝不交互提问。\n- 智能体反复犯同一个错，说明的是你的接口设计有问题，改接口比改智能体容易。\n- MCP 与命令行各有定位：前者快速易装，后者擅长长任务和 Unix 管道。",
+  "quotes": [
+    {
+      "en": "So the MCP and the CLI, the way that we've structured things is that they are thin, unified interfaces into our platform, not re-implementations of the platform.",
+      "zh": "所以 MCP 和 CLI，我们构建它们的方式是，它们是接入我们平台的薄而统一的接口，而不是平台的重实现。",
+      "timestamp": "03:04",
+      "speaker": "Pedro Lopez"
+    },
+    {
+      "en": "But instead what we found is really keeping it narrow, using progressive discovery of all of the capabilities that the connector has available and really limiting the amount of context that you shove into",
+      "zh": "但我们发现，真正有效的是把它保持得很窄，用渐进式发现来了解连接器可用的所有能力，并真正限制你塞进去的上下文数量。",
+      "timestamp": "06:30",
+      "speaker": "Pedro Lopez"
+    },
+    {
+      "en": "And technically, you can use other authentication mechanisms through MCP, but you're really going to have a hard time if you do like bearer auth or anything like that, because the spec is really heavy on OAuth, and all of the clients, the main ones at least, are really leaning towards the OAuth as a better UX for installing that connector.",
+      "zh": "技术上讲，你可以通过 MCP 使用其他认证机制，但如果你用 bearer auth 或类似的东西，你会非常难受，因为规范非常偏重 OAuth，而且所有的客户端，至少是主流的那些，都非常倾向于把 OAuth 作为安装该连接器的更好用户体验。",
+      "timestamp": "07:15",
+      "speaker": "Pedro Lopez"
+    },
+    {
+      "en": "Some of the things that might be helpful for users when you're making a CLI are going to be like blockers for agents.",
+      "zh": "当你制作一个 CLI 时，一些可能对用户有帮助的东西，反而会成为智能体的阻碍。",
+      "timestamp": "11:18",
+      "speaker": "Pedro Lopez"
+    },
+    {
+      "en": "And another interesting fact here is if you see agents making the same mistake over and over, calling the wrong command a bunch of times, consider making that your contract.",
+      "zh": "这里另一个有趣的事实是，如果你看到智能体一遍又一遍地犯同样的错误，多次调用错误的命令，考虑把那个（错误的）用法变成你的契约。",
+      "timestamp": "13:23",
+      "speaker": "Pedro Lopez"
+    },
+    {
+      "en": "Make it dead simple for agents to stumble across the right way to use things.",
+      "zh": "让智能体能够极其简单地撞见正确的使用方式。",
+      "timestamp": "13:33",
+      "speaker": "Pedro Lopez"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:04",
+      "speaker": "说话人",
+      "en": "So the MCP and the CLI, the way that we've structured things is that they are thin, unified interfaces into our platform, not re-implementations of the platform.",
+      "zh": "所以 MCP 和 CLI，我们构建它们的方式是，它们是接入我们平台的薄而统一的接口，而不是平台的重实现。"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "说话人",
+      "en": "And because we deploy a lot, our platform changes like over 10 times a day, we want to keep these things up to date as we go.",
+      "zh": "而且因为我们部署得很频繁，我们的平台每天变更超过 10 次，我们希望让这些东西随时保持最新。"
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "说话人",
+      "en": "So one thing that we decided to do after a trial and error is to keep the tool count small.",
+      "zh": "经过反复试错后，我们决定做的一件事是保持工具数量少。"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "说话人",
+      "en": "But instead what we found is really keeping it narrow, using progressive discovery of all of the capabilities that the connector has available and really limiting the amount of context that you shove into",
+      "zh": "但我们发现，真正有效的是把它保持得很窄，用渐进式发现来了解连接器可用的所有能力，并真正限制你塞进去的上下文数量。"
+    },
+    {
+      "timestamp": "06:52",
+      "speaker": "说话人",
+      "en": "Two, OAuth is the way.",
+      "zh": "第二，OAuth 才是正道。"
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "说话人",
+      "en": "And technically, you can use other authentication mechanisms through MCP, but you're really going to have a hard time if you do like bearer auth or anything like that, because the spec is really heavy on OAuth, and all of the clients, the main ones at least, are really leaning towards the OAuth as a better UX for installing that connector.",
+      "zh": "技术上讲，你可以通过 MCP 使用其他认证机制，但如果你用 bearer auth 或类似的东西，你会非常难受，因为规范非常偏重 OAuth，而且所有的客户端，至少是主流的那些，都非常倾向于把 OAuth 作为安装该连接器的更好用户体验。"
+    },
+    {
+      "timestamp": "08:08",
+      "speaker": "说话人",
+      "en": "So users expect to use MCPs more like a mobile app, where they don't really have to think about authenticating.",
+      "zh": "所以用户期望更像是使用移动应用那样使用 MCP，他们不需要考虑认证。"
+    },
+    {
+      "timestamp": "08:33",
+      "speaker": "说话人",
+      "en": "Elicitation, though, is not the way.",
+      "zh": "不过，elicitation（引导输入）不是正道。"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "说话人",
+      "en": "So that's a big theme when working with MCP is that even though there is a spec, the features that are supported across the clients kind of vary quite a bit.",
+      "zh": "所以在使用 MCP 时这是一个很大的主题：即使有规范，各客户端支持的功能差异也相当大。"
+    },
+    {
+      "timestamp": "10:05",
+      "speaker": "说话人",
+      "en": "And so we have to go back to doing our own thing and not using the spec for that kind of thing.",
+      "zh": "所以我们不得不回到自己做自己事情的老路，而不是把规范用于这类事情。"
+    },
+    {
+      "timestamp": "11:09",
+      "speaker": "说话人",
+      "en": "So on the design side for CLIs, I think one important thing to keep in mind is to design those CLIs with agents in mind.",
+      "zh": "所以在 CLI 的设计方面，我认为要记住的一件重要事情是，设计这些 CLI 时要考虑到智能体。"
+    },
+    {
+      "timestamp": "11:18",
+      "speaker": "说话人",
+      "en": "Some of the things that might be helpful for users when you're making a CLI are going to be like blockers for agents.",
+      "zh": "当你制作一个 CLI 时，一些可能对用户有帮助的东西，反而会成为智能体的阻碍。"
+    },
+    {
+      "timestamp": "11:29",
+      "speaker": "说话人",
+      "en": "The first design decision here that we made was take JSON in and return JSON out.",
+      "zh": "我们在这里做的第一个设计决策是：输入 JSON，返回 JSON。"
+    },
+    {
+      "timestamp": "11:54",
+      "speaker": "说话人",
+      "en": "And agents are really good at working with JSON.",
+      "zh": "而智能体非常擅长处理 JSON。"
+    },
+    {
+      "timestamp": "12:39",
+      "speaker": "说话人",
+      "en": "Two, consistency is very much key here.",
+      "zh": "第二，一致性在这里非常关键。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "说话人",
+      "en": "And another interesting fact here is if you see agents making the same mistake over and over, calling the wrong command a bunch of times, consider making that your contract.",
+      "zh": "这里另一个有趣的事实是，如果你看到智能体一遍又一遍地犯同样的错误，多次调用错误的命令，考虑把那个（错误的）用法变成你的契约。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "说话人",
+      "en": "Make it dead simple for agents to stumble across the right way to use things.",
+      "zh": "让智能体能够极其简单地撞见正确的使用方式。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "说话人",
+      "en": "Because we can't assume that a human is going to be present to able to interact with those prompts.",
+      "zh": "因为我们不能假设会有一个人在场，能够与那些提示进行交互。"
+    },
+    {
+      "timestamp": "16:07",
+      "speaker": "说话人",
+      "en": "With MCP, the spec is not uniformly implemented across the board.",
+      "zh": "在 MCP 这边，这个规范并没有被全面一致地实现。"
+    },
+    {
+      "timestamp": "16:17",
+      "speaker": "说话人",
+      "en": "For example, Claude has a two kilobyte limit on server and tool call descriptions.",
+      "zh": "举例来说，Claude 对服务器和工具调用的描述有 2 KB 的限制。"
+    }
+  ],
+  "voice_script": "今天要讲的是Airbyte这家公司踩过的坑，讲的人是他们的一位工程师，叫Pedro。先交代一下背景：Airbyte是做数据搬运起家的，就是把你日常用的那些工具——Zendesk、Stripe、GitHub——里面的数据，接到你的分析流程里去。最近他们往前走了一步，把这些数据做成一个上下文存储，专门供人工智能智能体来查询和调用。而这场演讲讲的核心问题就是：当你想给智能体提供入口的时候，该怎么设计？他们做了两套入口，一套叫MCP，一套是命令行工具，两套都踩过坑。\n\n先说说这两套接口要覆盖什么。Pedro说，不管什么样的接口，都得做到三件事。第一，能管理产品里的核心资源，比如组织、工作区、连接器这些。第二，也是最要紧的：要能安全地授权第三方服务，但绝对不能把用户的账号密码暴露给智能体。第三，既能查也能动手——既要能搜索数据，也要能对那些系统执行操作。\n\n那怎么做到呢？他们的原则很清楚：这两套接口都做得很薄，只是平台的统一入口，不在外面重新实现一遍平台。为什么必须这样？因为平台每天要部署十次以上，接口必须跟着随时更新，不能接口一套、平台一套地各自演化。所以靠OpenAPI规格说明来当唯一的事实来源，接口和平台永远对得上。\n\n好，那先讲第一套入口，MCP。MCP全名叫模型上下文协议，说白了就是让ChatGPT、Claude这类智能体直接调用外部工具的标准方式。对普通用户来说，它已经足够友好了：在应用商店点一下安装，或者贴一个网址，就能连上。\n\nPedro在演讲里做了个演示。问了智能体两个问题：我有哪些连接器？还有，找出五个有Zendesk工单的付费客户。智能体自动去上下文存储里查，把Zendesk的工单数据和Stripe的付费数据交叉比对，给出了答案。这就是MCP在真实场景里的样子。\n\n但真做起来，坑就来了。他们总结出三条经验。第一条，工具数量要少。连接器再多，也只对外暴露描述和执行这两个工具，其他能力靠逐步发现来展开，别把智能体的上下文塞爆。\n\n第二条，认证要走OAuth。虽然协议上你可以用别的认证方式，但实际去做你会发现处处碰壁，因为规范本身就非常偏重OAuth，而且各家客户端也都倾向于用OAuth来提供更好的安装体验。还有一个用户期待的问题：用户希望MCP像手机应用一样，登录一次长期可用，而不是像网页那样反复登录。\n\n第三条是个反面教训。MCP协议里有个机制叫elicitation，就是服务器主动向用户要信息。这看上去正合适他们的场景，但问题是，各家客户端对它的支持程度参差不齐。Claude Desktop就直接告诉Pedro说不支持URL模式。最后他们只好自己实现了一个授权链接，绕开了协议本身。所以总结就一句话：MCP有规范是一回事，客户端实际支持什么，是另一回事。\n\n那MCP不适合的场景怎么办呢？这就轮到第二套入口了——命令行工具。命令行面向的是技术用户，但这里有个关键的认知转变：真正的使用者，往往是智能体本身。Pedro的核心观点是，要为智能体设计命令行。因为很多对人类友好的设计，恰恰是智能体的障碍。\n\n具体怎么做，有四点。第一，输入输出都用JSON。人类喜欢一堆旗标参数，但智能体更擅长直接构造JSON，出错更少。输出也用JSON的好处是，可以用管道把结果交给JQ这类工具去筛选、裁剪——这本来就是命令行的传统强项。\n\n第二，命名要前后一致。命令用名词加动词的结构，比如connectors list、connectors create，那workspace就必须是workspace list，不能另起一套。这样智能体不用翻文档，就能极其简单地撞见正确的使用方式。这里还有个反直觉的建议：如果你发现智能体反复调错同一个命令，别怪它笨，把它的错误用法变成正式命令。因为这说明你的设计不够直白，改接口比改智能体容易。\n\n第三，技能要随命令行一起发布。智能体怎么知道这台机器上装了你的工具？靠技能描述来发现。但注意，别把说明全塞进技能里，拆成多个参考文件，让智能体按需加载。\n\n第四，也是最容易被忽视的一条：绝对不能有交互式提问。传统命令行经常停下来等用户输入确认，智能体会直接卡死在那里。所以所有配置都得走环境变量、配置文件，提前准备好。\n\n听到这儿你可能要问，那两套到底该选哪个？Pedro的答案是：各有各的位置。MCP适合非技术用户，快速做原型、跑一次性报表都很方便，生态里各个工具还能互相打通。但限制也实在：Claude对服务器和工具描述有2KB的大小限制，工具运行时长也有限，长时间任务不好做。命令行没有这些限制，但反而更危险——因为没有上限的时候，智能体可能陷入循环一直空转。另外命令行还得考虑版本管理，不像托管的MCP服务器永远是最新的。\n\n所以一句话：临时的事交给MCP，长任务、超长输出、要用管道和文件的地方，交给命令行。它们是接入平台的薄而统一的接口，而不是平台的重实现——这句话，就是这一集最想让你带走的。"
+}

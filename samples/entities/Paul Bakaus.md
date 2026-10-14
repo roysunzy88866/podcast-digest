@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
+[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":65,"品味":15,"智能体":496,"技能":33,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":111,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":65,"品味":15,"智能体":499,"技能":34,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":111,"形容词引导设计":1}</script>
 
 <script>
 (function(){
