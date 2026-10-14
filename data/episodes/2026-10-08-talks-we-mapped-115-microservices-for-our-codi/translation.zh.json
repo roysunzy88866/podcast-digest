@@ -1,0 +1,1330 @@
+[
+ {
+  "seg": 0,
+  "start": 12.569,
+  "end": 19.895,
+  "speaker": "Unknown",
+  "en": "Today I'm going to talk about how you can take your coding agents beyond code generation and how API context might be the answer for that.",
+  "zh": "今天我要讲的是如何让你的编码智能体超越代码生成，以及 API 上下文如何可能成为这个问题的答案。"
+ },
+ {
+  "seg": 1,
+  "start": 20.376,
+  "end": 20.956,
+  "speaker": "Unknown",
+  "en": "I'm Kamal.",
+  "zh": "我是 Kamal。"
+ },
+ {
+  "seg": 2,
+  "start": 21.216,
+  "end": 22.738,
+  "speaker": "Unknown",
+  "en": "I'm a staff engineer at Postman.",
+  "zh": "我是 Postman 的资深工程师。"
+ },
+ {
+  "seg": 3,
+  "start": 24.124,
+  "end": 27.625,
+  "speaker": "Unknown",
+  "en": "And Postman, as you might know, is the end-to-end API platform.",
+  "zh": "正如你们所知，Postman 是一个端到端的 API 平台。"
+ },
+ {
+  "seg": 4,
+  "start": 27.946,
+  "end": 37.069,
+  "speaker": "Unknown",
+  "en": "But beyond the desktop app that allows you to test your REST APIs and build your APIs, Postman also has a lot of cloud features.",
+  "zh": "但除了让你测试 REST API 和构建 API 的桌面应用之外，Postman 还有大量的云功能。"
+ },
+ {
+  "seg": 5,
+  "start": 37.309,
+  "end": 41.591,
+  "speaker": "Unknown",
+  "en": "And powering all of those cloud features is an extensive microservices architecture.",
+  "zh": "为所有这些云功能提供支撑的是一套庞大的微服务架构。"
+ },
+ {
+  "seg": 6,
+  "start": 41.631,
+  "end": 46.633,
+  "speaker": "Unknown",
+  "en": "We have more than 115 microservices and thousands of REST API endpoints.",
+  "zh": "我们有超过 115 个微服务和数千个 REST API 端点。"
+ },
+ {
+  "seg": 7,
+  "start": 47.253,
+  "end": 61.353,
+  "speaker": "Unknown",
+  "en": "So I'm going to be using our real engineering use cases and workflows on top of our coding agent experiences and what we learned from it and how we have been improving the experience and the effectiveness of our coding agents with API context graph.",
+  "zh": "所以我将基于我们的编码智能体体验，使用我们真实的工程用例和工作流，分享我们从中学到了什么，以及我们如何通过 API 上下文图来提升编码智能体的体验和有效性。"
+ },
+ {
+  "seg": 8,
+  "start": 62.61,
+  "end": 71.218,
+  "speaker": "Unknown",
+  "en": "So our journey with the coding agents started similar to how many of you might have gone through the same journey as well, starting with line and function level auto-completion.",
+  "zh": "我们与编码智能体的旅程，和你们中许多人可能经历过的旅程类似，从行级和函数级的自动补全开始。"
+ },
+ {
+  "seg": 9,
+  "start": 71.258,
+  "end": 73.821,
+  "speaker": "Unknown",
+  "en": "This is the Copilot days eras.",
+  "zh": "那是 Copilot 时代。"
+ },
+ {
+  "seg": 10,
+  "start": 73.941,
+  "end": 82.589,
+  "speaker": "Unknown",
+  "en": "Moving on to full code-based refactors and one-shot implementations and one-shot fixes, this is your Composer eras and Claude Code eras.",
+  "zh": "接着发展到完整的代码库级重构、一次性实现和一次性修复，这是你们的 Composer 时代和 Claude Code 时代。"
+ },
+ {
+  "seg": 11,
+  "start": 82.889,
+  "end": 86.091,
+  "speaker": "Unknown",
+  "en": "Now moving on to fully autonomous coding agent workflows.",
+  "zh": "现在则进入了完全自主的编码智能体工作流。"
+ },
+ {
+  "seg": 12,
+  "start": 86.131,
+  "end": 94.377,
+  "speaker": "Unknown",
+  "en": "We have agents that end-to-end start the workflow and then make the changes, verify the changes, send pull requests and even verify pull requests as well.",
+  "zh": "我们有智能体可以端到端地启动工作流，然后进行更改、验证更改、发送拉取请求，甚至验证拉取请求。"
+ },
+ {
+  "seg": 13,
+  "start": 95.237,
+  "end": 103.983,
+  "speaker": "Unknown",
+  "en": "What we see as the coding agents excelling really well at are greenfield projects or fixes and improvements within the context of a single project.",
+  "zh": "我们认为编码智能体真正擅长的是全新项目（greenfield project），或者单个项目范围内的修复和改进。"
+ },
+ {
+  "seg": 14,
+  "start": 105.303,
+  "end": 107.825,
+  "speaker": "Unknown",
+  "en": "But production systems tend to be slightly more complex.",
+  "zh": "但生产系统往往要稍微复杂一些。"
+ },
+ {
+  "seg": 15,
+  "start": 108.245,
+  "end": 111.648,
+  "speaker": "Unknown",
+  "en": "They tend to be distributed systems split across multiple microservices.",
+  "zh": "它们往往是分布在多个微服务上的分布式系统。"
+ },
+ {
+  "seg": 16,
+  "start": 111.968,
+  "end": 116.672,
+  "speaker": "Unknown",
+  "en": "They're often deployed across multiple environments, even multiple different versions in each of these environments.",
+  "zh": "它们通常部署在多个环境中，甚至在每个环境中还有多个不同的版本。"
+ },
+ {
+  "seg": 17,
+  "start": 117.132,
+  "end": 122.596,
+  "speaker": "Unknown",
+  "en": "We have several applications, front-end, CLI, API, all of them talking to our back-end infrastructure.",
+  "zh": "我们有多个应用程序——前端、CLI、API——它们都在与我们的后端基础设施通信。"
+ },
+ {
+  "seg": 18,
+  "start": 122.956,
+  "end": 127.64,
+  "speaker": "Unknown",
+  "en": "And all of this is spread across hundreds of repos where the code is distributed across all of them.",
+  "zh": "而所有这些分布在数百个仓库中，代码分散在所有这些仓库里。"
+ },
+ {
+  "seg": 19,
+  "start": 128.622,
+  "end": 134.689,
+  "speaker": "Unknown",
+  "en": "When we think about improving coding agent performance, the first area that we start looking into is documentation.",
+  "zh": "当我们考虑提升编码智能体的性能时，我们首先着手研究的领域是文档。"
+ },
+ {
+  "seg": 20,
+  "start": 135.17,
+  "end": 137.313,
+  "speaker": "Unknown",
+  "en": "Documentation is a great place to start.",
+  "zh": "文档是一个很好的起点。"
+ },
+ {
+  "seg": 21,
+  "start": 138.013,
+  "end": 141.838,
+  "speaker": "Unknown",
+  "en": "But as we all know, developers, we hate writing and maintaining documentation.",
+  "zh": "但众所周知，我们开发者讨厌编写和维护文档。"
+ },
+ {
+  "seg": 22,
+  "start": 141.978,
+  "end": 143.02,
+  "speaker": "Unknown",
+  "en": "It's an added overhead.",
+  "zh": "这是一项额外的负担。"
+ },
+ {
+  "seg": 23,
+  "start": 143.36,
+  "end": 146.244,
+  "speaker": "Unknown",
+  "en": "It costs time, and it becomes tricky to go and maintain over time.",
+  "zh": "它耗费时间，而且随着时间推移，维护起来会变得很棘手。"
+ },
+ {
+  "seg": 24,
+  "start": 146.704,
+  "end": 156.914,
+  "speaker": "Unknown",
+  "en": "But if you offload documentation purely to LLMs to author and maintain, research points out that purely LLM-maintained and written documentation tends to degrade exponentially over time.",
+  "zh": "但如果你把文档完全交给 LLM 来编写和维护，研究指出，纯由 LLM 维护和编写的文档往往会随时间呈指数级退化。"
+ },
+ {
+  "seg": 25,
+  "start": 157.014,
+  "end": 160.657,
+  "speaker": "Unknown",
+  "en": "Some sort of human curation is definitely needed to make it more effective.",
+  "zh": "某种程度上的人工整理绝对是必要的，才能让它更有效。"
+ },
+ {
+  "seg": 26,
+  "start": 161.077,
+  "end": 167.844,
+  "speaker": "Unknown",
+  "en": "Skills and MCPs are a really good alternative to look at, but we all know skills and MCPs are only as good as the context that they're provided to.",
+  "zh": "Skills 和 MCP 是值得考虑的很好的替代方案，但我们都知道，skills 和 MCP 的效果只取决于提供给它们的上下文。"
+ },
+ {
+  "seg": 27,
+  "start": 168.344,
+  "end": 171.785,
+  "speaker": "Unknown",
+  "en": "Agent memory is actually a really good solution for this scenario.",
+  "zh": "智能体记忆（agent memory）实际上是针对这种场景的一个非常好的解决方案。"
+ },
+ {
+  "seg": 28,
+  "start": 172.725,
+  "end": 182.489,
+  "speaker": "Unknown",
+  "en": "In terms of real-world experiences, most of this knowledge is probably already tribal knowledge in people's heads, and now it's getting translated into agent memory within the coding agent or the harness.",
+  "zh": "从现实世界的经验来看，这些知识中的大部分可能本来就是人们头脑中的隐性知识（tribal knowledge），现在它正在被转化为编码智能体或 harness 中的智能体记忆。"
+ },
+ {
+  "seg": 29,
+  "start": 182.849,
+  "end": 195.953,
+  "speaker": "Unknown",
+  "en": "The biggest limitation factor that we see with this is agent memory is still very limited to an individual user, and no standard patterns have now emerged yet in terms of sharing agent memories across your broader teams or across your entire engineering organization.",
+  "zh": "我们看到这种做法最大的限制因素是，智能体记忆目前仍然非常局限于个人用户，而且在跨更广泛的团队或整个工程组织共享智能体记忆方面，目前还没有出现标准化的模式。"
+ },
+ {
+  "seg": 30,
+  "start": 197.528,
+  "end": 207.893,
+  "speaker": "Unknown",
+  "en": "While we were trying to solve this problem for the coding agents on the engineering side, our go-to-market teams were also building business agents for go-to-market agents for their end-to-end executive use cases.",
+  "zh": "当我们正在为工程侧的编码智能体解决这个问题的同时，我们的市场推广（go-to-market）团队也在为他们的端到端高管用例构建面向市场的业务智能体。"
+ },
+ {
+  "seg": 31,
+  "start": 208.413,
+  "end": 214.616,
+  "speaker": "Unknown",
+  "en": "So they've been building custom agents that are purpose-built with customer data that is brought in from multiple data sources.",
+  "zh": "所以他们一直在构建定制的智能体，这些智能体是专门用来自多个数据源引入的客户数据而构建的。"
+ },
+ {
+  "seg": 32,
+  "start": 214.956,
+  "end": 223.003,
+  "speaker": "Unknown",
+  "en": "And they have done several iterations to streamline all of this unstructured data coming in from all of these data sources into a structured data on top of which these agents operate.",
+  "zh": "而且他们已经进行了多次迭代，把从所有这些数据源涌入的非结构化数据整理成结构化数据，这些智能体就运行在这些结构化数据之上。"
+ },
+ {
+  "seg": 33,
+  "start": 223.363,
+  "end": 234.853,
+  "speaker": "Unknown",
+  "en": "What they have ended up with is a really optimized like RAG plus GraphRAG pipeline that serves as a centralized context layer that makes all of these individual business agents work really well and solve the problem for all of them.",
+  "zh": "他们最终得到的是一个非常优化的 RAG 加 GraphRAG 管道，它作为一个集中式上下文层，让所有这些独立的业务智能体都能运行得非常好，并为它们所有人解决了这个问题。"
+ },
+ {
+  "seg": 34,
+  "start": 235.254,
+  "end": 240.418,
+  "speaker": "Unknown",
+  "en": "So we started looking at how can we learn from this and what can we do to make the coding agent performance really better.",
+  "zh": "于是我们开始研究如何从中学习，以及我们能做些什么来真正提升编码智能体的性能。"
+ },
+ {
+  "seg": 35,
+  "start": 241.519,
+  "end": 248.64,
+  "speaker": "Unknown",
+  "en": "And when we looked at this, what we realized is in a distributed systems and microservices architecture, APIs are the context layer for you.",
+  "zh": "当我们审视这个问题时，我们意识到，在分布式系统和微服务架构中，API 就是你的上下文层。"
+ },
+ {
+  "seg": 36,
+  "start": 249.02,
+  "end": 253.001,
+  "speaker": "Unknown",
+  "en": "Complex engineering architecture is often broken down into domains and models.",
+  "zh": "复杂的工程架构通常被拆分为不同的领域（domain）和模型（model）。"
+ },
+ {
+  "seg": 37,
+  "start": 253.381,
+  "end": 259.442,
+  "speaker": "Unknown",
+  "en": "And each microservice is responsible for owning one single responsibility as per a model or a domain.",
+  "zh": "而每个微服务负责承担单一职责，对应一个模型或一个领域。"
+ },
+ {
+  "seg": 38,
+  "start": 259.822,
+  "end": 262.723,
+  "speaker": "Unknown",
+  "en": "And APIs are what defines what that responsibility is.",
+  "zh": "而 API 正是定义这个职责是什么的东西。"
+ },
+ {
+  "seg": 39,
+  "start": 263.223,
+  "end": 269.364,
+  "speaker": "Unknown",
+  "en": "And API calls between systems is usually how you identify workflows and user journeys that span across multiple systems.",
+  "zh": "而系统之间的 API 调用，通常就是你识别跨越多个系统的工作流和用户旅程的方式。"
+ },
+ {
+  "seg": 40,
+  "start": 270.735,
+  "end": 273.577,
+  "speaker": "Unknown",
+  "en": "So agents are only as good as the context that they're given.",
+  "zh": "所以智能体的能力只取决于给它们的上下文。"
+ },
+ {
+  "seg": 41,
+  "start": 274.117,
+  "end": 277.699,
+  "speaker": "Unknown",
+  "en": "So we set out on a journey to build the best context layer for the agents.",
+  "zh": "于是我们踏上了一段旅程，去为智能体构建最好的上下文层。"
+ },
+ {
+  "seg": 42,
+  "start": 278.219,
+  "end": 283.762,
+  "speaker": "Unknown",
+  "en": "So we went out to start building an API context graph for what Postman's engineering architecture looks like.",
+  "zh": "所以我们开始为 Postman 的工程架构构建一个 API 上下文图。"
+ },
+ {
+  "seg": 43,
+  "start": 284.222,
+  "end": 289.305,
+  "speaker": "Unknown",
+  "en": "The journey started by identifying and cataloging every single microservice that was on production.",
+  "zh": "这段旅程始于识别并编目生产环境上的每一个微服务。"
+ },
+ {
+  "seg": 44,
+  "start": 289.765,
+  "end": 294.227,
+  "speaker": "Unknown",
+  "en": "And then we identified every endpoint that is exposed by each of these REST API services.",
+  "zh": "然后我们识别出这些 REST API 服务中每一个所暴露的所有端点。"
+ },
+ {
+  "seg": 45,
+  "start": 294.687,
+  "end": 299.49,
+  "speaker": "Unknown",
+  "en": "And then we captured how each and every one of them is implemented right down to the exact line of code.",
+  "zh": "然后我们捕获了它们中每一个是如何实现的，一直精确到具体的代码行，即它在哪个位置实现的。"
+ },
+ {
+  "seg": 46,
+  "start": 299.77,
+  "end": 300.69,
+  "speaker": "Unknown",
+  "en": "where it was implemented.",
+  "zh": "即它的实现位置。"
+ },
+ {
+  "seg": 47,
+  "start": 301.051,
+  "end": 308.093,
+  "speaker": "Unknown",
+  "en": "And we also mapped how each and every service talks to each other and how each endpoint connects to each and every other endpoint.",
+  "zh": "我们还绘制了每个服务之间如何相互通信，以及每个端点如何连接到每一个其他端点。"
+ },
+ {
+  "seg": 48,
+  "start": 308.914,
+  "end": 317.117,
+  "speaker": "Unknown",
+  "en": "We also tracked how the data goes all the way down across the stack, including databases and caches and all the way down in the entire stack.",
+  "zh": "我们还追踪了数据如何沿着整个技术栈一路向下传递，包括数据库和缓存，以及整个技术栈中更底层的部分。"
+ },
+ {
+  "seg": 49,
+  "start": 317.617,
+  "end": 326.241,
+  "speaker": "Unknown",
+  "en": "We also identified how applications like front-end, CLIs, APIs, how they interact with the whole backend architecture and backend infrastructure.",
+  "zh": "我们还识别了诸如前端、CLI、API 之类的应用程序如何与整个后端架构和后端基础设施进行交互。"
+ },
+ {
+  "seg": 50,
+  "start": 327.52,
+  "end": 333.864,
+  "speaker": "Unknown",
+  "en": "We gave all of this data and we indexed all of this data using LLM to produce a centralized and effective context graph layer.",
+  "zh": "我们把所有这些数据喂进去,并用 LLM 对这些数据建立了索引,从而生成一个集中且有效的上下文图谱层。"
+ },
+ {
+  "seg": 51,
+  "start": 334.364,
+  "end": 342.948,
+  "speaker": "Unknown",
+  "en": "But one key principle that we had in mind always was every single data point that landed on the context graph always had to be grounded down in a hard truth.",
+  "zh": "但我们心中始终坚守的一个关键原则是:每一条落到上下文图谱上的数据点,都必须扎根于一个硬事实。"
+ },
+ {
+  "seg": 52,
+  "start": 343.049,
+  "end": 350.973,
+  "speaker": "Unknown",
+  "en": "And that hard truth is either a line of code that is implemented in your code base or it could be an exact trace that is coming from a production telemetry.",
+  "zh": "而这个硬事实,要么是你代码库中已实现的一行代码,要么是来自生产环境遥测(telemetry)的一条确切的追踪记录(trace)。"
+ },
+ {
+  "seg": 53,
+  "start": 352.269,
+  "end": 360.338,
+  "speaker": "Unknown",
+  "en": "With this in place, we set out on a journey to populate our context graph, and this is a snapshot of what our engineering architecture kind of looks like.",
+  "zh": "有了这个基础,我们开始着手填充我们的上下文图谱,这就是我们的工程架构大致样子的一个快照。"
+ },
+ {
+  "seg": 54,
+  "start": 360.758,
+  "end": 364.903,
+  "speaker": "Unknown",
+  "en": "So it is some of the very common patterns that you would expect start to emerge.",
+  "zh": "于是,你会看到一些非常常见的模式开始浮现出来。"
+ },
+ {
+  "seg": 55,
+  "start": 365.183,
+  "end": 369.628,
+  "speaker": "Unknown",
+  "en": "You start to see a central cluster of core services, of very tightly intertwined",
+  "zh": "你会看到一个由核心服务组成的中央集群,彼此紧密交织,"
+ },
+ {
+  "seg": 56,
+  "start": 370.248,
+  "end": 378.05,
+  "speaker": "Unknown",
+  "en": "In intertwined APIs and services that are tightly dependent on each other, you find one or two heavily bloated services that are on the outer edges of these systems.",
+  "zh": "在这些交织的 API 和相互紧密依赖的服务之中,你会在这些系统的外围发现一两个严重臃肿的服务。"
+ },
+ {
+  "seg": 57,
+  "start": 378.45,
+  "end": 382.351,
+  "speaker": "Unknown",
+  "en": "The ones at the center is typically what you would classify as tier 0 or tier 1 services.",
+  "zh": "位于中央的那些,通常就是你会归类为 tier 0 或 tier 1 的服务。"
+ },
+ {
+  "seg": 58,
+  "start": 384.711,
+  "end": 392.653,
+  "speaker": "Unknown",
+  "en": "So now that we have the context graph, when we start looking at how do we measure what does it add in terms of improvements to the coding agents?",
+  "zh": "现在,既然我们有了上下文图谱,我们开始研究如何衡量它到底能为编码智能体带来多少改进。"
+ },
+ {
+  "seg": 59,
+  "start": 393.334,
+  "end": 399.575,
+  "speaker": "Unknown",
+  "en": "So we took real examples from the Postman git organize from our organization's git repos.",
+  "zh": "于是我们从 Postman 的 git 组织、也就是我们组织的 git 仓库中取了真实的例子。"
+ },
+ {
+  "seg": 60,
+  "start": 399.935,
+  "end": 402.336,
+  "speaker": "Unknown",
+  "en": "We took real PRs that were raised to the GitHub repos.",
+  "zh": "我们取了提交到 GitHub 仓库的真实 PR。"
+ },
+ {
+  "seg": 61,
+  "start": 402.636,
+  "end": 409.858,
+  "speaker": "Unknown",
+  "en": "And for each and every one of them, we identified what the developer was trying to do and what the actual outcome was at the end of the PR.",
+  "zh": "对于其中每一个 PR,我们都识别出开发者想要做什么,以及该 PR 最终的实际结果是什么。"
+ },
+ {
+  "seg": 62,
+  "start": 410.218,
+  "end": 416.94,
+  "speaker": "Unknown",
+  "en": "We also took important projects and what were the key design decisions and takeaways that were being discussed in those design discussions.",
+  "zh": "我们还取了重要的项目,以及那些设计讨论中讨论的关键设计决策和要点。"
+ },
+ {
+  "seg": 63,
+  "start": 417.38,
+  "end": 425.883,
+  "speaker": "Unknown",
+  "en": "We mapped each and every one of them into an eval, and we mapped what the actual decision that was taken in retrospect as the ground truth that we wanted the evals to conform into.",
+  "zh": "我们把其中每一个都映射成一个 eval(评测),并把事后回顾中所做的实际决策映射为我们希望这些 eval 所符合的基准真值(ground truth)。"
+ },
+ {
+  "seg": 64,
+  "start": 427.379,
+  "end": 437.131,
+  "speaker": "Unknown",
+  "en": "To run the validations, we were able to get the Postman's AI agent connected to the API context graph, and we were able to validate all of these against the Postman AI agent as well.",
+  "zh": "为了运行这些验证,我们让 Postman 的 AI 智能体连接到了 API 上下文图谱,从而能够针对 Postman AI 智能体验证所有这些内容。"
+ },
+ {
+  "seg": 65,
+  "start": 437.451,
+  "end": 446.923,
+  "speaker": "Unknown",
+  "en": "But to keep the comparison fair, we also validated this against a generic coding agent, in this case, Claude Code, and we tried to verify these use cases simply by, like,",
+  "zh": "但为了让对比公平,我们还用一个通用的编码智能体验证了这一点,这里是 Claude Code,我们尝试通过简单的方式来验证这些用例,比如,"
+ },
+ {
+  "seg": 66,
+  "start": 447.423,
+  "end": 449.106,
+  "speaker": "Unknown",
+  "en": "A straightforward GitHub code search.",
+  "zh": "直接的 GitHub 代码搜索。"
+ },
+ {
+  "seg": 67,
+  "start": 449.547,
+  "end": 457.863,
+  "speaker": "Unknown",
+  "en": "We also took the same context graph and we made it available as a skill and also compared that against the generic coding agent, in this case, Claude Code.",
+  "zh": "我们还把同一个上下文图谱做成了一个 skill(技能)并提供出来,同样与通用编码智能体进行对比,这里是 Claude Code。"
+ },
+ {
+  "seg": 68,
+  "start": 459.068,
+  "end": 461.59,
+  "speaker": "Unknown",
+  "en": "So you're going to see the results of this in a graph plotted like this.",
+  "zh": "大家会看到结果绘制成这样一张图。"
+ },
+ {
+  "seg": 69,
+  "start": 462.231,
+  "end": 468.057,
+  "speaker": "Unknown",
+  "en": "So we scored every eval on 0 to 5 scale, and we also measured the exact amount of tokens it took for each of these runs.",
+  "zh": "我们对每个 eval 按 0 到 5 分打分,并且我们还测量了每次运行所消耗的精确 token 数量。"
+ },
+ {
+  "seg": 70,
+  "start": 468.517,
+  "end": 474.282,
+  "speaker": "Unknown",
+  "en": "So what you will see, if something shows up on the top right, it means that the agent did a good job.",
+  "zh": "大家会看到,如果某个结果出现在右上角,就意味着该智能体表现不错。"
+ },
+ {
+  "seg": 71,
+  "start": 474.463,
+  "end": 477.966,
+  "speaker": "Unknown",
+  "en": "It was able to score high on the evaluation, but it spent a lot of tokens doing so.",
+  "zh": "它在评测中得了高分,但为此消耗了大量 token。"
+ },
+ {
+  "seg": 72,
+  "start": 478.347,
+  "end": 482.915,
+  "speaker": "Unknown",
+  "en": "If it's on the top left, it did a great job not only scoring high, but it also did it much more efficiently.",
+  "zh": "如果在左上角,那它做得非常好,不仅得了高分,而且效率高得多。"
+ },
+ {
+  "seg": 73,
+  "start": 483.336,
+  "end": 490.108,
+  "speaker": "Unknown",
+  "en": "If something goes beyond the dashed line, it just did not meet the bar of what a good score should be on that evaluation.",
+  "zh": "如果某个结果超出了虚线,那就意味着它没有达到该评测中好成绩所应有的标准。"
+ },
+ {
+  "seg": 74,
+  "start": 491.268,
+  "end": 497.731,
+  "speaker": "Unknown",
+  "en": "So then we bucketed some of the common use cases and scenarios that we see in day-to-day development and where do they fall under.",
+  "zh": "于是我们把日常开发中一些常见的用例和场景进行了分桶归类,看它们分别落在什么位置。"
+ },
+ {
+  "seg": 75,
+  "start": 498.152,
+  "end": 502.934,
+  "speaker": "Unknown",
+  "en": "One key scenario that we always notice is API discovery.",
+  "zh": "我们始终注意到的一个关键场景是 API 发现。"
+ },
+ {
+  "seg": 76,
+  "start": 503.414,
+  "end": 510.378,
+  "speaker": "Unknown",
+  "en": "Any developer who is making a change either to the front end or back end, integrating with other systems, what is the right API to call?",
+  "zh": "任何一个开发者,无论是改前端还是后端,还是与其他系统集成,该调用哪个正确的 API?"
+ },
+ {
+  "seg": 77,
+  "start": 510.758,
+  "end": 515.404,
+  "speaker": "Unknown",
+  "en": "And in real-world systems, you probably have hundreds of different APIs.",
+  "zh": "在现实世界的系统中,你可能有上百个不同的 API。"
+ },
+ {
+  "seg": 78,
+  "start": 515.765,
+  "end": 518.729,
+  "speaker": "Unknown",
+  "en": "And most likely, you have multiple APIs that probably do the same thing.",
+  "zh": "而且很可能,你有多个可能做着同样事情的 API。"
+ },
+ {
+  "seg": 79,
+  "start": 519.069,
+  "end": 525.357,
+  "speaker": "Unknown",
+  "en": "So in this case, a simplified example that I've taken is what is the right API to call to get the profile name for a particular user.",
+  "zh": "在这个例子中,我取的一个简化示例是:要获取某个特定用户的个人资料名称,该调用哪个正确的 API。"
+ },
+ {
+  "seg": 80,
+  "start": 526.419,
+  "end": 530.742,
+  "speaker": "Unknown",
+  "en": "So in this evaluation, this is a pure search use case, and the results are what you would expect.",
+  "zh": "在这个评测中,这是一个纯搜索的用例,结果和你预期的一样。"
+ },
+ {
+  "seg": 81,
+  "start": 530.862,
+  "end": 536.466,
+  "speaker": "Unknown",
+  "en": "With the context graph, the agents go really well as compared to pure code search, where the agents don't do really well.",
+  "zh": "有上下文图谱时,智能体的表现非常好,相比之下纯代码搜索时智能体表现不佳。"
+ },
+ {
+  "seg": 82,
+  "start": 536.907,
+  "end": 543.311,
+  "speaker": "Unknown",
+  "en": "And there's a slight deviation between Postman and Claude, but the deviation is not that big enough for us to be diving deeper into.",
+  "zh": "Postman 和 Claude 之间有轻微偏差,但偏差并没有大到值得我们深入探究的程度。"
+ },
+ {
+  "seg": 83,
+  "start": 543.672,
+  "end": 547.014,
+  "speaker": "Unknown",
+  "en": "The second use case is where it gets really interesting.",
+  "zh": "第二个用例就非常有意思了。"
+ },
+ {
+  "seg": 84,
+  "start": 547.294,
+  "end": 550.236,
+  "speaker": "Unknown",
+  "en": "So this is what we call API design and redesign scenarios.",
+  "zh": "这就是我们所说的 API 设计与重设计场景。"
+ },
+ {
+  "seg": 85,
+  "start": 551.257,
+  "end": 554.559,
+  "speaker": "Unknown",
+  "en": "So in this scenario, let's take a developer who's building a new feature.",
+  "zh": "在这个场景中,假设有一个正在开发新功能的开发者。"
+ },
+ {
+  "seg": 86,
+  "start": 555.019,
+  "end": 557.64,
+  "speaker": "Unknown",
+  "en": "And to build that feature out, they've designed a new API.",
+  "zh": "为了实现这个功能,他们设计了一个新的 API。"
+ },
+ {
+  "seg": 87,
+  "start": 557.7,
+  "end": 559.521,
+  "speaker": "Unknown",
+  "en": "And they've designed the schema for the request input.",
+  "zh": "并且他们设计了请求输入的 schema。"
+ },
+ {
+  "seg": 88,
+  "start": 559.801,
+  "end": 561.762,
+  "speaker": "Unknown",
+  "en": "They have defined the implementation of it.",
+  "zh": "他们定义了它的实现。"
+ },
+ {
+  "seg": 89,
+  "start": 562.102,
+  "end": 563.603,
+  "speaker": "Unknown",
+  "en": "They have tested it out from their side.",
+  "zh": "他们在自己那边测试过了。"
+ },
+ {
+  "seg": 90,
+  "start": 563.683,
+  "end": 565.364,
+  "speaker": "Unknown",
+  "en": "And then they go integrate it with the product.",
+  "zh": "然后他们去把它与产品集成。"
+ },
+ {
+  "seg": 91,
+  "start": 565.624,
+  "end": 566.664,
+  "speaker": "Unknown",
+  "en": "And they are happy with the product.",
+  "zh": "他们对产品很满意。"
+ },
+ {
+  "seg": 92,
+  "start": 566.704,
+  "end": 567.465,
+  "speaker": "Unknown",
+  "en": "And they are ready to ship.",
+  "zh": "他们准备发布了。"
+ },
+ {
+  "seg": 93,
+  "start": 568.025,
+  "end": 577.988,
+  "speaker": "Unknown",
+  "en": "At the last minute, one of the dependencies comes to them and then say, hey, would it be nice if I just had this one additional property that I would like to pass to this API that I would like to use at a later point in time?",
+  "zh": "在最后一刻,其中一个依赖方找到他们说,嘿,如果我能多加这一个额外的属性就太好了,我想把它传给这个 API,以便在以后的某个时间点使用?"
+ },
+ {
+  "seg": 94,
+  "start": 578.428,
+  "end": 585.99,
+  "speaker": "Unknown",
+  "en": "So the developer is like, maybe we don't have enough time to evaluate all the different ways in which it can be done, what is the right schema to do this?",
+  "zh": "于是开发者心想,也许我们没有足够的时间去评估所有不同的实现方式、什么是正确的 schema 来做这件事?"
+ },
+ {
+  "seg": 95,
+  "start": 586.451,
+  "end": 594.253,
+  "speaker": "Unknown",
+  "en": "So they just add this one additional context, which is a freeform JSON object, and they add a todo in the code saying, revisit this and add a schema two weeks later.",
+  "zh": "所以他们就加了这个额外的上下文,它是一个自由格式的 JSON 对象,并在代码里加了一个 todo,写着:两周后回来重新审视这个并补上 schema。"
+ },
+ {
+  "seg": 96,
+  "start": 595.357,
+  "end": 596.438,
+  "speaker": "Unknown",
+  "en": "The feature ships to production.",
+  "zh": "这个功能发布到了生产环境。"
+ },
+ {
+  "seg": 97,
+  "start": 596.618,
+  "end": 597.359,
+  "speaker": "Unknown",
+  "en": "Everybody's happy.",
+  "zh": "大家都很开心。"
+ },
+ {
+  "seg": 98,
+  "start": 597.759,
+  "end": 604.904,
+  "speaker": "Unknown",
+  "en": "Two weeks later, the developer comes back and finds out that that one particular property, which is supposed to send one attribute, now has 15 attributes.",
+  "zh": "两周后,开发者回来发现,那个本应发送一个属性的特定属性,现在已经有 15 个属性了。"
+ },
+ {
+  "seg": 99,
+  "start": 605.204,
+  "end": 607.366,
+  "speaker": "Unknown",
+  "en": "And it's being passed by one service.",
+  "zh": "而且它正被某一个服务传递。"
+ },
+ {
+  "seg": 100,
+  "start": 607.426,
+  "end": 608.487,
+  "speaker": "Unknown",
+  "en": "It might be five services.",
+  "zh": "可能是五个服务。"
+ },
+ {
+  "seg": 101,
+  "start": 608.527,
+  "end": 609.387,
+  "speaker": "Unknown",
+  "en": "It might be 10 services.",
+  "zh": "可能是十个服务。"
+ },
+ {
+  "seg": 102,
+  "start": 609.808,
+  "end": 620.536,
+  "speaker": "Unknown",
+  "en": "Now the developer has no idea what exactly is the shape in which the request is being passed down to the API, and what are all the different ways in which every single consumer has been passing data down to.",
+  "zh": "现在开发者完全不知道请求被传递给 API 时的确切形状是什么样的，也不知道每一个消费者都是通过哪些不同的方式把数据传下来的。"
+ },
+ {
+  "seg": 103,
+  "start": 623.083,
+  "end": 629.145,
+  "speaker": "Unknown",
+  "en": "So this is what I call like analysis of a shape of input for each and every API and why they are used like that.",
+  "zh": "所以这就是我所说的对每一个 API 的输入形状的分析，以及它们为什么被那样使用。"
+ },
+ {
+  "seg": 104,
+  "start": 629.705,
+  "end": 631.546,
+  "speaker": "Unknown",
+  "en": "So this can be hard for a bunch of reasons.",
+  "zh": "这件事可能很困难，原因有很多。"
+ },
+ {
+  "seg": 105,
+  "start": 631.906,
+  "end": 636.588,
+  "speaker": "Unknown",
+  "en": "First, tracking down every single consumer of your API can be impractical in real-world scenarios.",
+  "zh": "首先，在现实场景中，追踪出你的 API 的每一个消费者可能是不切实际的。"
+ },
+ {
+  "seg": 106,
+  "start": 637.028,
+  "end": 644.01,
+  "speaker": "Unknown",
+  "en": "Even if you had service dependencies and service maps, finding out the exact shape of input used by each and every consumer can get really tricky.",
+  "zh": "即使你有服务依赖关系和服务地图，要找出每一个消费者所使用的确切输入形状也会变得非常棘手。"
+ },
+ {
+  "seg": 107,
+  "start": 644.35,
+  "end": 652.554,
+  "speaker": "Unknown",
+  "en": "Engineers often lack the detail or depth of information in production logs and for privacy reasons it may not even be available at a lot of times.",
+  "zh": "工程师往往在生产日志中缺乏细节或深度信息，而且出于隐私原因，很多时候甚至根本无法获得这些信息。"
+ },
+ {
+  "seg": 108,
+  "start": 653.055,
+  "end": 659.478,
+  "speaker": "Unknown",
+  "en": "Even if the shapes are identified, finding out exactly why the consumer decided to pass it down like this is a very, very tricky problem.",
+  "zh": "即使识别出了这些形状，要弄清楚消费者究竟为什么决定以这种方式传递数据，也是一个非常非常棘手的问题。"
+ },
+ {
+  "seg": 109,
+  "start": 661.04,
+  "end": 667.762,
+  "speaker": "Unknown",
+  "en": "But in this scenario, when we took this evaluation and then ran it with the Postman agent, what was surprising was the Postman agent almost got it really well.",
+  "zh": "但在这个场景中，当我们拿这个评估用 Postman 智能体去运行时，令人惊讶的是 Postman 智能体几乎完成得非常好。"
+ },
+ {
+  "seg": 110,
+  "start": 668.222,
+  "end": 674.904,
+  "speaker": "Unknown",
+  "en": "And the thing that helped in this case is, first of all, the context graph having an awareness of every single consumer of an API.",
+  "zh": "在这个案例中起到帮助的，首先是上下文图谱对每一个 API 消费者都有感知。"
+ },
+ {
+  "seg": 111,
+  "start": 675.184,
+  "end": 678.485,
+  "speaker": "Unknown",
+  "en": "But not just that, but having the drill down or the ground truth",
+  "zh": "但不仅仅是这样，它还能下钻或者说掌握真实情况，"
+ },
+ {
+  "seg": 112,
+  "start": 678.865,
+  "end": 686.548,
+  "speaker": "Unknown",
+  "en": "of where exactly each of these APIs were implemented in code, and the context surrounding that code helped the agent understand why the change was done.",
+  "zh": "也就是这些 API 究竟分别在代码中的哪个位置实现，而围绕那段代码的上下文帮助智能体理解为什么做了这个变更。"
+ },
+ {
+  "seg": 113,
+  "start": 686.908,
+  "end": 695.772,
+  "speaker": "Unknown",
+  "en": "And very quickly it was able to figure out exact unique shapes for every consumer that was calling this API, and you could be able to make the changes quite reliably and confidently.",
+  "zh": "它很快就能找出每一个调用这个 API 的消费者的确切独特形状，这样你就能非常可靠且自信地做出变更。"
+ },
+ {
+  "seg": 114,
+  "start": 696.532,
+  "end": 699.774,
+  "speaker": "Unknown",
+  "en": "And you can see that the pure code search does not do really well.",
+  "zh": "而你可以看到，纯代码搜索做得并不好。"
+ },
+ {
+  "seg": 115,
+  "start": 700.094,
+  "end": 709.579,
+  "speaker": "Unknown",
+  "en": "But with Claude and the skill, it does slightly better, but it tends to give up after it's done enough number of turns and waiting for the user to kind of confirm what to do next.",
+  "zh": "但配合 Claude 和这个技能，它做得稍好一些，不过它在完成足够多的轮次后往往会放弃，等待用户来确认接下来该做什么。"
+ },
+ {
+  "seg": 116,
+  "start": 710.559,
+  "end": 715.562,
+  "speaker": "Unknown",
+  "en": "So the other very common use cases that we start to see is impact assessment.",
+  "zh": "所以我们开始看到的另一个非常常见的使用场景是影响评估。"
+ },
+ {
+  "seg": 117,
+  "start": 715.875,
+  "end": 718.859,
+  "speaker": "Unknown",
+  "en": "How do you figure out what is the impact of one particular change?",
+  "zh": "你如何弄清楚某个特定变更的影响是什么？"
+ },
+ {
+  "seg": 118,
+  "start": 719.219,
+  "end": 722.403,
+  "speaker": "Unknown",
+  "en": "So if I change this API, what are the potential use cases?",
+  "zh": "如果我改了这个 API，会有哪些潜在的使用场景？"
+ },
+ {
+  "seg": 119,
+  "start": 722.744,
+  "end": 724.325,
+  "speaker": "Unknown",
+  "en": "Or maybe there is an existing API.",
+  "zh": "又或者，假设有一个已有的 API。"
+ },
+ {
+  "seg": 120,
+  "start": 724.506,
+  "end": 727.95,
+  "speaker": "Unknown",
+  "en": "There's a V2 API, and I'm interested in introducing a V3 API.",
+  "zh": "有一个 V2 API，而我想引入一个 V3 API。"
+ },
+ {
+  "seg": 121,
+  "start": 728.35,
+  "end": 734.057,
+  "speaker": "Unknown",
+  "en": "How do I understand how the V2 API is used first so that I can design a better V3 API?",
+  "zh": "我如何先了解 V2 API 是如何被使用的，以便我能设计一个更好的 V3 API？"
+ },
+ {
+  "seg": 122,
+  "start": 735.146,
+  "end": 747.627,
+  "speaker": "Unknown",
+  "en": "So this is one scenario where we see the context graph really shine well, and you can see that Postman Agent not only does really well in terms of the quality of the output, but also it's able to do it with almost like half or even one third when compared to your code search.",
+  "zh": "这是我们看到上下文图谱真正大放异彩的一个场景，你可以看到 Postman 智能体不仅输出质量做得非常好，而且与你的代码搜索相比，它只用了几乎一半甚至三分之一的轮次就完成了。"
+ },
+ {
+  "seg": 123,
+  "start": 748.997,
+  "end": 750.758,
+  "speaker": "Unknown",
+  "en": "But this is not smooth sailing all the time.",
+  "zh": "但这并不总是一帆风顺的。"
+ },
+ {
+  "seg": 124,
+  "start": 750.998,
+  "end": 752.359,
+  "speaker": "Unknown",
+  "en": "Sometimes we see failures.",
+  "zh": "有时我们会看到失败。"
+ },
+ {
+  "seg": 125,
+  "start": 752.759,
+  "end": 764.466,
+  "speaker": "Unknown",
+  "en": "And in this case, one of the use cases that we threw at it was find out the impact of a change in one particular PR, where it introduced a change to an endpoint, and figure out all the downstream services that are affected by that endpoint.",
+  "zh": "在这个案例中，我们抛给它的用例之一是：找出某个特定 PR 中一个变更的影响，这个 PR 对一个端点做了更改，然后找出所有受该端点影响的下游服务。"
+ },
+ {
+  "seg": 126,
+  "start": 764.847,
+  "end": 766.027,
+  "speaker": "Unknown",
+  "en": "And we started seeing a failure.",
+  "zh": "然后我们开始看到失败。"
+ },
+ {
+  "seg": 127,
+  "start": 766.087,
+  "end": 768.209,
+  "speaker": "Unknown",
+  "en": "And you can see the graph almost inverted.",
+  "zh": "你可以看到图表几乎反转了。"
+ },
+ {
+  "seg": 128,
+  "start": 768.789,
+  "end": 772.892,
+  "speaker": "Unknown",
+  "en": "We see Postman not only scrolling down, but also consuming a lot of tokens while it did that.",
+  "zh": "我们看到 Postman 不仅反复滚动查看，而且在这个过程中消耗了大量 token。"
+ },
+ {
+  "seg": 129,
+  "start": 773.952,
+  "end": 785.454,
+  "speaker": "Unknown",
+  "en": "And when we investigated into it and then tried to understand why it was failing, what we realized was that there were new consumers between the time where the eval was written and the time the evaluation was run.",
+  "zh": "当我们深入调查并试图理解它为什么会失败时，我们发现是在评估用例编写的时间和评估运行的时间之间出现了新的消费者。"
+ },
+ {
+  "seg": 130,
+  "start": 785.854,
+  "end": 796.777,
+  "speaker": "Unknown",
+  "en": "So the context graph is not only important to populate, but it's equally important that you keep it up to date, and any delays in syncing your context graph with the ground truth creates gap in the result.",
+  "zh": "所以，上下文图谱不仅填充很重要，保持它的更新同样重要，任何上下文图谱与真实情况同步的延迟都会造成结果上的差距。"
+ },
+ {
+  "seg": 131,
+  "start": 797.097,
+  "end": 803.438,
+  "speaker": "Unknown",
+  "en": "And if there's a gap in the result, it immediately leads to a loss of trust by the developer, and that translates into lack of usage.",
+  "zh": "而如果结果有差距，它就会立即导致开发者失去信任，而这又转化为使用量的下降。"
+ },
+ {
+  "seg": 132,
+  "start": 804.878,
+  "end": 813.782,
+  "speaker": "Unknown",
+  "en": "Not only detecting new APIs and new dependencies, detecting removals of APIs and removal of dependencies is equally important and that can also lead to confusions and problems.",
+  "zh": "不仅检测新 API 和新依赖很重要，检测 API 的移除和依赖的移除也同样重要，这同样可能导致困惑和问题。"
+ },
+ {
+  "seg": 133,
+  "start": 814.322,
+  "end": 826.406,
+  "speaker": "Unknown",
+  "en": "So you might think that these use cases may or may not be common to you, but when we went back and retrospected on all the PRs that were raised in the top 10 repos, we noticed that almost 75% of the PRs had some effect on the APIs.",
+  "zh": "你可能会觉得这些用例对你来说可能常见也可能不常见，但当我们回顾并复盘排名前 10 的仓库中提出的所有 PR 时，我们注意到几乎 75% 的 PR 都对 API 有某种影响。"
+ },
+ {
+  "seg": 134,
+  "start": 826.746,
+  "end": 831.428,
+  "speaker": "Unknown",
+  "en": "So either these changes are introducing a change to the external surface area of an API,",
+  "zh": "也就是说，这些变更要么是对一个 API 的外部表面积引入了更改，"
+ },
+ {
+  "seg": 135,
+  "start": 831.908,
+  "end": 834.989,
+  "speaker": "Unknown",
+  "en": "Or they are introducing an integration of a new API.",
+  "zh": "要么是引入了一个新 API 的集成。"
+ },
+ {
+  "seg": 136,
+  "start": 835.269,
+  "end": 839.211,
+  "speaker": "Unknown",
+  "en": "And both of them can have really cascading impact downstream.",
+  "zh": "而这两者都可能对下游产生真正的级联影响。"
+ },
+ {
+  "seg": 137,
+  "start": 841.532,
+  "end": 847.294,
+  "speaker": "Unknown",
+  "en": "So these use cases were clear for us to do a before and after comparison with the context graph and without the context graph.",
+  "zh": "所以这些用例让我们清楚地做出了有上下文图谱和无上下文图谱的前后对比。"
+ },
+ {
+  "seg": 138,
+  "start": 847.534,
+  "end": 853.196,
+  "speaker": "Unknown",
+  "en": "But as soon as we had this information, we were able to ask questions that we were previously not able to ask.",
+  "zh": "而一旦我们有了这些信息，我们就能提出以前无法提出的问题。"
+ },
+ {
+  "seg": 139,
+  "start": 853.656,
+  "end": 858.318,
+  "speaker": "Unknown",
+  "en": "And these questions allowed us to be able to take the Postman agent and say, hey,",
+  "zh": "而这些问题让我们能够拿 Postman 智能体来说，嘿，"
+ },
+ {
+  "seg": 140,
+  "start": 858.598,
+  "end": 864.122,
+  "speaker": "Unknown",
+  "en": "Do a complete engineering analysis and an end-to-end architecture review of our entire ecosystem.",
+  "zh": "对我们整个生态系统做一次完整的工程分析和端到端的架构评审。"
+ },
+ {
+  "seg": 141,
+  "start": 864.602,
+  "end": 867.324,
+  "speaker": "Unknown",
+  "en": "So this is where the light bulb moment happened for us.",
+  "zh": "这就是我们灵光一现的时刻。"
+ },
+ {
+  "seg": 142,
+  "start": 867.945,
+  "end": 875.53,
+  "speaker": "Unknown",
+  "en": "When we asked the Postman agent to do this, it produced a 21-page engineering report going through every single weakness and points of vulnerability.",
+  "zh": "当我们让 Postman 智能体做这件事时，它生成了一份 21 页的工程报告，逐一列出了每一个弱点和脆弱点。"
+ },
+ {
+  "seg": 143,
+  "start": 876.379,
+  "end": 903.185,
+  "speaker": "Unknown",
+  "en": "It found out interesting insights for us, including cycles of dependencies, which can be really problematic in terms of an incident, risky long-running migrations, which are signals of technical debt, and then single points of failure, which can be really problematic or issues that are waiting to happen, blind spots in telemetry, where stuff that is in the implementation does not reflect in telemetry, and then it came out with clear action items for, hey, this is what your CEO, this is what your CTO, and this is what your staff engineers might need to do.",
+  "zh": "它为我们发现了一些有趣的洞察，包括依赖循环——这在事故发生时会非常成问题；有风险的长期迁移——这是技术债的信号；还有单点故障——它们可能是非常成问题的或随时等待爆发的问题；以及遥测中的盲区——即实现中的东西没有反映在遥测中；最后它还给出了明确的行动项：嘿，这是你的 CEO 需要做的，这是你的 CTO 需要做的，这是你的资深工程师可能需要做的。"
+ },
+ {
+  "seg": 144,
+  "start": 903.965,
+  "end": 918.705,
+  "speaker": "Unknown",
+  "en": "On top of all of these things, when we look at what we can do for further improvements, one of the areas that stands out is bringing in the semantic layer of what does your business do and connecting it into the context layer of what your coding agents take as input for their workflows.",
+  "zh": "在所有这些之上，当我们审视还能做哪些进一步改进时，一个突出的领域是把语义层——也就是你的业务是做什么的——引入进来，并把它连接到你的编码智能体作为其工作流输入的上下文层。"
+ },
+ {
+  "seg": 145,
+  "start": 919.366,
+  "end": 926.173,
+  "speaker": "Unknown",
+  "en": "Another layer of improvement that we are looking into is how can we improve and add additional reasoning of why does a data model exist?",
+  "zh": "我们正在研究的另一层改进是，我们如何能改进并增加额外的推理，比如为什么存在这个数据模型？"
+ },
+ {
+  "seg": 146,
+  "start": 926.253,
+  "end": 927.674,
+  "speaker": "Unknown",
+  "en": "Why does a domain map like this?",
+  "zh": "为什么一个领域是这样划分的？"
+ },
+ {
+  "seg": 147,
+  "start": 928.014,
+  "end": 931.358,
+  "speaker": "Unknown",
+  "en": "Why does this API exist versus other APIs?",
+  "zh": "为什么存在这个 API 而不是其他 API？"
+ },
+ {
+  "seg": 148,
+  "start": 931.518,
+  "end": 933.52,
+  "speaker": "Unknown",
+  "en": "Why should you use one API over the other API?",
+  "zh": "为什么你应该使用一个 API 而不是另一个 API？"
+ },
+ {
+  "seg": 149,
+  "start": 933.78,
+  "end": 941.667,
+  "speaker": "Unknown",
+  "en": "And all of these helps in subsequent coding decisions, and all of that translates into really effective output when you're using them in your day-to-day development workflows.",
+  "zh": "而所有这些都有助于后续的编码决策，而这一切都会在你把它们用于日常开发工作流时转化为非常有效的输出。"
+ },
+ {
+  "seg": 150,
+  "start": 942.718,
+  "end": 943.819,
+  "speaker": "Unknown",
+  "en": "So takeaways and learnings.",
+  "zh": "那么是收获和经验教训。"
+ },
+ {
+  "seg": 151,
+  "start": 944.399,
+  "end": 958.689,
+  "speaker": "Unknown",
+  "en": "We've realized that API Context Graph serves as the context layer for coding agents in real-world distributed systems, gives a high-level view that helps you answer questions about your engineering architecture that you were not able to answer in the context of a single repo or a single microservice.",
+  "zh": "我们意识到 API Context Graph 作为真实世界分布式系统中编码智能体的上下文层，提供了一个高层视角，帮助你回答那些在单个仓库或单个微服务的范围内无法回答的、关于你工程架构的问题。"
+ },
+ {
+  "seg": 152,
+  "start": 959.109,
+  "end": 962.752,
+  "speaker": "Unknown",
+  "en": "It shortens the time to find the right way to do a particular problem.",
+  "zh": "它缩短了找到解决某个特定问题的正确方法所需的时间。"
+ },
+ {
+  "seg": 153,
+  "start": 963.845,
+  "end": 970.87,
+  "speaker": "Unknown",
+  "en": "And all of this means that doing this either with the right amount of quality or being much more efficient in being able to do this.",
+  "zh": "而这一切意味着，要么以合适的质量水平来做这件事，要么在能够做这件事这件事上高效得多。"
+ },
+ {
+  "seg": 154,
+  "start": 971.171,
+  "end": 974.593,
+  "speaker": "Unknown",
+  "en": "So efficiency translates either into your cost savings.",
+  "zh": "因此效率转化为你的成本节约。"
+ },
+ {
+  "seg": 155,
+  "start": 974.833,
+  "end": 980.778,
+  "speaker": "Unknown",
+  "en": "But the way that we see it is if we can do one particular task a lot more efficiently, it means that we can do it more often.",
+  "zh": "但我们看待它的方式是，如果我们能更高效地完成某个特定任务，那就意味着我们可以更频繁地去做它。"
+ },
+ {
+  "seg": 156,
+  "start": 981.118,
+  "end": 994.262,
+  "speaker": "Unknown",
+  "en": "And this allows us to do the same evaluations at a lot more frequency, including bringing it down at the PR level or even bringing it right down to the development machine or in the development environment where the engineer is working on.",
+  "zh": "这让我们能够以更高的频率进行同样的评估，包括把它下放到 PR 层面，甚至一直下放到工程师正在工作的开发机器或开发环境中。"
+ },
+ {
+  "seg": 157,
+  "start": 994.542,
+  "end": 1008.567,
+  "speaker": "Unknown",
+  "en": "So the sooner we can move the decisions and catch problems earlier in the lifecycle, we believe that the agents who are generating code can translate into peace of mind for the developer and help them ship changes to production with a lot more confidence going forward.",
+  "zh": "所以，越早地在生命周期中移动决策、越早地捕获问题，我们相信，对于正在生成代码的智能体来说，这能转化为开发者的安心，并帮助他们以更多的信心将变更发布到生产环境。"
+ },
+ {
+  "seg": 158,
+  "start": 1009.427,
+  "end": 1010.668,
+  "speaker": "Unknown",
+  "en": "So that's everything from my side.",
+  "zh": "我这边的内容就是这些。"
+ },
+ {
+  "seg": 159,
+  "start": 1011.429,
+  "end": 1014.372,
+  "speaker": "Unknown",
+  "en": "All of these capabilities are available within the Postman as a platform.",
+  "zh": "所有这些能力都在 Postman 平台内可用。"
+ },
+ {
+  "seg": 160,
+  "start": 1014.512,
+  "end": 1018.276,
+  "speaker": "Unknown",
+  "en": "These are also available to use as early access.",
+  "zh": "这些也可以作为早期访问来使用。"
+ },
+ {
+  "seg": 161,
+  "start": 1018.617,
+  "end": 1022.501,
+  "speaker": "Unknown",
+  "en": "I'll be around outside right after the talk if you have any questions or follow-ups.",
+  "zh": "演讲结束后我就在外面，如果你有任何问题或后续想聊的。"
+ },
+ {
+  "seg": 162,
+  "start": 1022.801,
+  "end": 1025.924,
+  "speaker": "Unknown",
+  "en": "We also have a booth S32 right across the hall from here.",
+  "zh": "我们还有一个展位 S32，就在大厅对面。"
+ },
+ {
+  "seg": 163,
+  "start": 1026.184,
+  "end": 1027.125,
+  "speaker": "Unknown",
+  "en": "That's everything from my side.",
+  "zh": "我这边的内容就是这些。"
+ },
+ {
+  "seg": 164,
+  "start": 1027.366,
+  "end": 1027.846,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 165,
+  "start": 1036.024,
+  "end": 1036.445,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

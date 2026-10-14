@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Siminoff]] [[Rania Khalaf]] [[Liz Fong-Jones]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Siminoff]] [[Rania Khalaf]]
 
 </div>
 

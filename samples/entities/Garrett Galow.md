@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":110,"Lovable":20,"Cloudflare":17,"Okta":3,"Doppler":1,"Snowflake":22,"非工程师开发":1}</script>
+<script type="application/json" class="pd-epn">{"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":111,"Lovable":20,"Cloudflare":17,"Okta":3,"Doppler":1,"Snowflake":23,"非工程师开发":1}</script>
 
 <script>
 (function(){

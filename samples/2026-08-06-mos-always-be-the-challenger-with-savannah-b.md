@@ -208,6 +208,7 @@ Jesse 说这些疯狂尝试能发生的核心原因是「我们没有什么可�
 **换个口味**
 
 - [[2026-09-11-doac-most-replayed-moment-brain-rot-experts-h|AI 正在替你思考，而你的大脑可能正在走下坡路]]<span class="pd-rz">同概念:社交媒体 (social media)</span>
+- [[2026-10-08-talks-luca-ferrari-the-operating-system-behind|收购公司却从不卖出：Bending Spoons 掌门人的人才与运营哲学]]<span class="pd-rz">同概念:粉丝体验 (experience)</span>
 
 </div>
 </div>

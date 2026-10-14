@@ -94,11 +94,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":3,"Anthropic":203,"Helix":2,"AI 基础设施":6,"迭代":3,"BCI":2,"归因":4,"招人":4,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":3,"Anthropic":203,"Helix":2,"AI 基础设施":6,"迭代":3,"BCI":2,"归因":4,"招人":5,"eigenreviews":1}</script>
 
 <script>
 (function(){

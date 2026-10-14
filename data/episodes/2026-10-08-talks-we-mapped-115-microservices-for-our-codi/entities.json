@@ -1,0 +1,818 @@
+{
+  "episode_id": "2026-10-08-talks-we-mapped-115-microservices-for-our-codi",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "API",
+    "微服务",
+    "知识图谱"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "kamalakannan-nandagopal",
+      "type": "person",
+      "role": "guest",
+      "name": "Kamalakannan Nandagopal",
+      "file": "Kamalakannan Nandagopal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "postman",
+      "type": "company",
+      "role": "company",
+      "name": "Postman",
+      "file": "Postman",
+      "primary": true,
+      "how_described": "本集介绍 Postman 是一个端到端 API 平台，除测试 REST API 的桌面应用外还有大量云功能，背后是 115 个以上微服务、数千个 REST API 端点；演讲者以 Postman 工程团队的真实用例讲解如何用 API 上下文图谱提升编码智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            21.216,
+            22.738
+          ],
+          "quote": "I'm a staff engineer at Postman.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            24.124,
+            27.625
+          ],
+          "quote": "And Postman, as you might know, is the end-to-end API platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            27.946,
+            37.069
+          ],
+          "quote": "But beyond the desktop app that allows you to test your REST APIs and build your APIs, Postman also has a lot of cloud features.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            278.219,
+            283.762
+          ],
+          "quote": "So we went out to start building an API context graph for what Postman's engineering architecture looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            393.334,
+            399.575
+          ],
+          "quote": "So we took real examples from the Postman git organize from our organization's git repos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            427.379,
+            437.131
+          ],
+          "quote": "To run the validations, we were able to get the Postman's AI agent connected to the API context graph, and we were able to validate all of these against the Postman AI agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            536.907,
+            543.311
+          ],
+          "quote": "And there's a slight deviation between Postman and Claude, but the deviation is not that big enough for us to be diving deeper into.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            661.04,
+            667.762
+          ],
+          "quote": "But in this scenario, when we took this evaluation and then ran it with the Postman agent, what was surprising was the Postman agent almost got it really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            735.146,
+            747.627
+          ],
+          "quote": "So this is one scenario where we see the context graph really shine well, and you can see that Postman Agent not only does really well in terms of the quality of the output, but also it's able to do it with almost like half or even one third when compared to your code search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            768.789,
+            772.892
+          ],
+          "quote": "We see Postman not only scrolling down, but also consuming a lot of tokens while it did that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            853.656,
+            858.318
+          ],
+          "quote": "And these questions allowed us to be able to take the Postman agent and say, hey,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            867.945,
+            875.53
+          ],
+          "quote": "When we asked the Postman agent to do this, it produced a 21-page engineering report going through every single weakness and points of vulnerability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1011.429,
+            1014.372
+          ],
+          "quote": "All of these capabilities are available within the Postman as a platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集把编码智能体描述为从行级自动补全进化到完全自主工作流（改代码、验证、发合并请求）的工具，擅长全新项目和单仓库，但在跨数百仓库的生产分布式系统里缺的是整个系统的上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            47.253,
+            61.353
+          ],
+          "quote": "So I'm going to be using our real engineering use cases and workflows on top of our coding agent experiences and what we learned from it and how we have been improving the experience and the effectiveness of our coding agents with API context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            82.889,
+            86.091
+          ],
+          "quote": "Now moving on to fully autonomous coding agent workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            128.622,
+            134.689
+          ],
+          "quote": "When we think about improving coding agent performance, the first area that we start looking into is documentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            172.725,
+            182.489
+          ],
+          "quote": "In terms of real-world experiences, most of this knowledge is probably already tribal knowledge in people's heads, and now it's getting translated into agent memory within the coding agent or the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            235.254,
+            240.418
+          ],
+          "quote": "So we started looking at how can we learn from this and what can we do to make the coding agent performance really better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            437.451,
+            446.923
+          ],
+          "quote": "But to keep the comparison fair, we also validated this against a generic coding agent, in this case, Claude Code, and we tried to verify these use cases simply by, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            449.547,
+            457.863
+          ],
+          "quote": "We also took the same context graph and we made it available as a skill and also compared that against the generic coding agent, in this case, Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "API 上下文图谱 (context graph)",
+      "file": "API 上下文图谱",
+      "primary": true,
+      "how_described": "本集的核心产物：Postman 为其工程架构构建的集中上下文图层，盘点每个微服务、每个端点直至具体代码行，每个数据点都必须锚定在代码或生产遥测这条硬事实上，并且必须持续同步，否则结果出错、开发者信任崩塌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            47.253,
+            61.353
+          ],
+          "quote": "So I'm going to be using our real engineering use cases and workflows on top of our coding agent experiences and what we learned from it and how we have been improving the experience and the effectiveness of our coding agents with API context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            278.219,
+            283.762
+          ],
+          "quote": "So we went out to start building an API context graph for what Postman's engineering architecture looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            327.52,
+            333.864
+          ],
+          "quote": "We gave all of this data and we indexed all of this data using LLM to produce a centralized and effective context graph layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            334.364,
+            342.948
+          ],
+          "quote": "But one key principle that we had in mind always was every single data point that landed on the context graph always had to be grounded down in a hard truth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            352.269,
+            360.338
+          ],
+          "quote": "With this in place, we set out on a journey to populate our context graph, and this is a snapshot of what our engineering architecture kind of looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            384.711,
+            392.653
+          ],
+          "quote": "So now that we have the context graph, when we start looking at how do we measure what does it add in terms of improvements to the coding agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            427.379,
+            437.131
+          ],
+          "quote": "To run the validations, we were able to get the Postman's AI agent connected to the API context graph, and we were able to validate all of these against the Postman AI agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            449.547,
+            457.863
+          ],
+          "quote": "We also took the same context graph and we made it available as a skill and also compared that against the generic coding agent, in this case, Claude Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            530.862,
+            536.466
+          ],
+          "quote": "With the context graph, the agents go really well as compared to pure code search, where the agents don't do really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            668.222,
+            674.904
+          ],
+          "quote": "And the thing that helped in this case is, first of all, the context graph having an awareness of every single consumer of an API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            735.146,
+            747.627
+          ],
+          "quote": "So this is one scenario where we see the context graph really shine well, and you can see that Postman Agent not only does really well in terms of the quality of the output, but also it's able to do it with almost like half or even one third when compared to your code search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            785.854,
+            796.777
+          ],
+          "quote": "So the context graph is not only important to populate, but it's equally important that you keep it up to date, and any delays in syncing your context graph with the ground truth creates gap in the result.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            841.532,
+            847.294
+          ],
+          "quote": "So these use cases were clear for us to do a before and after comparison with the context graph and without the context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            944.399,
+            958.689
+          ],
+          "quote": "We've realized that API Context Graph serves as the context layer for coding agents in real-world distributed systems, gives a high-level view that helps you answer questions about your engineering architecture that you were not able to answer in the context of a single repo or a single microservice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microservices",
+      "type": "concept",
+      "role": "concept",
+      "name": "微服务 (microservices)",
+      "file": "微服务",
+      "primary": true,
+      "how_described": "本集说 Postman 的云功能由超过 115 个微服务的架构支撑，生产系统被拆分到多个微服务、多环境部署，微服务架构中 API 正是天然的上下文层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            37.309,
+            41.591
+          ],
+          "quote": "And powering all of those cloud features is an extensive microservices architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            41.631,
+            46.633
+          ],
+          "quote": "We have more than 115 microservices and thousands of REST API endpoints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            108.245,
+            111.648
+          ],
+          "quote": "They tend to be distributed systems split across multiple microservices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            241.519,
+            248.64
+          ],
+          "quote": "And when we looked at this, what we realized is in a distributed systems and microservices architecture, APIs are the context layer for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": true,
+      "how_described": "本集主张在分布式系统和微服务架构中，API 就是智能体的上下文层：它定义每个服务的职责，服务间的 API 调用标识了跨系统的工作流；且回顾显示约 75% 的合并请求都会对 API 产生影响。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            12.569,
+            19.895
+          ],
+          "quote": "Today I'm going to talk about how you can take your coding agents beyond code generation and how API context might be the answer for that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            24.124,
+            27.625
+          ],
+          "quote": "And Postman, as you might know, is the end-to-end API platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            41.631,
+            46.633
+          ],
+          "quote": "We have more than 115 microservices and thousands of REST API endpoints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            47.253,
+            61.353
+          ],
+          "quote": "So I'm going to be using our real engineering use cases and workflows on top of our coding agent experiences and what we learned from it and how we have been improving the experience and the effectiveness of our coding agents with API context graph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            117.132,
+            122.596
+          ],
+          "quote": "We have several applications, front-end, CLI, API, all of them talking to our back-end infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            263.223,
+            269.364
+          ],
+          "quote": "And API calls between systems is usually how you identify workflows and user journeys that span across multiple systems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            278.219,
+            283.762
+          ],
+          "quote": "So we went out to start building an API context graph for what Postman's engineering architecture looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            289.765,
+            294.227
+          ],
+          "quote": "And then we identified every endpoint that is exposed by each of these REST API services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            427.379,
+            437.131
+          ],
+          "quote": "To run the validations, we were able to get the Postman's AI agent connected to the API context graph, and we were able to validate all of these against the Postman AI agent as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            498.152,
+            502.934
+          ],
+          "quote": "One key scenario that we always notice is API discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            503.414,
+            510.378
+          ],
+          "quote": "Any developer who is making a change either to the front end or back end, integrating with other systems, what is the right API to call?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            519.069,
+            525.357
+          ],
+          "quote": "So in this case, a simplified example that I've taken is what is the right API to call to get the profile name for a particular user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            547.294,
+            550.236
+          ],
+          "quote": "So this is what we call API design and redesign scenarios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            555.019,
+            557.64
+          ],
+          "quote": "And to build that feature out, they've designed a new API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            568.025,
+            577.988
+          ],
+          "quote": "At the last minute, one of the dependencies comes to them and then say, hey, would it be nice if I just had this one additional property that I would like to pass to this API that I would like to use at a later point in time?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            609.808,
+            620.536
+          ],
+          "quote": "Now the developer has no idea what exactly is the shape in which the request is being passed down to the API, and what are all the different ways in which every single consumer has been passing data down to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            623.083,
+            629.145
+          ],
+          "quote": "So this is what I call like analysis of a shape of input for each and every API and why they are used like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            631.906,
+            636.588
+          ],
+          "quote": "First, tracking down every single consumer of your API can be impractical in real-world scenarios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            668.222,
+            674.904
+          ],
+          "quote": "And the thing that helped in this case is, first of all, the context graph having an awareness of every single consumer of an API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            686.908,
+            695.772
+          ],
+          "quote": "And very quickly it was able to figure out exact unique shapes for every consumer that was calling this API, and you could be able to make the changes quite reliably and confidently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            719.219,
+            722.403
+          ],
+          "quote": "So if I change this API, what are the potential use cases?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            722.744,
+            724.325
+          ],
+          "quote": "Or maybe there is an existing API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            724.506,
+            727.95
+          ],
+          "quote": "There's a V2 API, and I'm interested in introducing a V3 API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            728.35,
+            734.057
+          ],
+          "quote": "How do I understand how the V2 API is used first so that I can design a better V3 API?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            826.746,
+            831.428
+          ],
+          "quote": "So either these changes are introducing a change to the external surface area of an API,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            831.908,
+            834.989
+          ],
+          "quote": "Or they are introducing an integration of a new API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            928.014,
+            931.358
+          ],
+          "quote": "Why does this API exist versus other APIs?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            931.518,
+            933.52
+          ],
+          "quote": "Why should you use one API over the other API?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            944.399,
+            958.689
+          ],
+          "quote": "We've realized that API Context Graph serves as the context layer for coding agents in real-world distributed systems, gives a high-level view that helps you answer questions about your engineering architecture that you were not able to answer in the context of a single repo or a single microservice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-search",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码搜索 (code search)",
+      "file": "代码搜索",
+      "primary": true,
+      "how_described": "本集把 GitHub 代码搜索作为评测对比的基线：在 API 发现、设计重构和影响评估场景中，纯代码搜索表现明显逊于图谱方案，且 token 消耗是其两到三倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            447.423,
+            449.106
+          ],
+          "quote": "A straightforward GitHub code search.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            530.862,
+            536.466
+          ],
+          "quote": "With the context graph, the agents go really well as compared to pure code search, where the agents don't do really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            696.532,
+            699.774
+          ],
+          "quote": "And you can see that the pure code search does not do really well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            735.146,
+            747.627
+          ],
+          "quote": "So this is one scenario where we see the context graph really shine well, and you can see that Postman Agent not only does really well in terms of the quality of the output, but also it's able to do it with almost like half or even one third when compared to your code search.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体记忆 (agent memory)",
+      "file": "智能体记忆",
+      "primary": false,
+      "how_described": "本集把智能体记忆称为给智能体补上下文的好方案——把员工头脑中的隐性经验转化为智能体记忆——但目前仍局限于个人用户，跨团队共享还没有标准模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            168.344,
+            171.785
+          ],
+          "quote": "Agent memory is actually a really good solution for this scenario.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            172.725,
+            182.489
+          ],
+          "quote": "In terms of real-world experiences, most of this knowledge is probably already tribal knowledge in people's heads, and now it's getting translated into agent memory within the coding agent or the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            182.849,
+            195.953
+          ],
+          "quote": "The biggest limitation factor that we see with this is agent memory is still very limited to an individual user, and no standard patterns have now emerged yet in terms of sharing agent memories across your broader teams or across your entire engineering organization.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把 Claude Code 作为通用编码智能体的对比对象：直接使用时表现不佳，配合把上下文图谱做成技能后稍好，但在多轮之后往往放弃等待用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            73.941,
+            82.589
+          ],
+          "quote": "Moving on to full code-based refactors and one-shot implementations and one-shot fixes, this is your Composer eras and Claude Code eras.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            437.451,
+            446.923
+          ],
+          "quote": "But to keep the comparison fair, we also validated this against a generic coding agent, in this case, Claude Code, and we tried to verify these use cases simply by, like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            449.547,
+            457.863
+          ],
+          "quote": "We also took the same context graph and we made it available as a skill and also compared that against the generic coding agent, in this case, Claude Code.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

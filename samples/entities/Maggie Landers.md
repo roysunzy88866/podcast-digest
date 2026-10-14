@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":21,"公司文化":3,"招人":4,"信任建立":7,"判断力":6,"自我筛选":1,"自主性":10,"透明":3,"Anthropic":203}</script>
+<script type="application/json" class="pd-epn">{"Katie Kirsch":1,"Harvey":21,"公司文化":3,"招人":5,"信任建立":7,"判断力":6,"自我筛选":1,"自主性":10,"透明":3,"Anthropic":203}</script>
 
 <script>
 (function(){

@@ -1,0 +1,4154 @@
+[
+ {
+  "seg": 0,
+  "start": 0.311,
+  "end": 6.558,
+  "speaker": "Unknown",
+  "en": "Many real-world processes produce data as a continuous stream rather than as isolated records.",
+  "zh": "许多现实世界中的过程产生的数据是连续流，而不是孤立的记录。"
+ },
+ {
+  "seg": 1,
+  "start": 7.119,
+  "end": 12.505,
+  "speaker": "Unknown",
+  "en": "Sensor readings, financial markets, and application telemetry all generate data this way.",
+  "zh": "传感器读数、金融市场和应用遥测都是这样生成数据的。"
+ },
+ {
+  "seg": 2,
+  "start": 13.006,
+  "end": 16.25,
+  "speaker": "Unknown",
+  "en": "This kind of time series data has a distinctive shape.",
+  "zh": "这类时间序列数据有一种独特的形态。"
+ },
+ {
+  "seg": 3,
+  "start": 16.83,
+  "end": 24.356,
+  "speaker": "Unknown",
+  "en": "It's written far more often than it is updated, it accumulates continuously, and it is usually queried across ranges of time.",
+  "zh": "它被写入的频率远高于被更新的频率，它持续累积，而且通常按时间范围进行查询。"
+ },
+ {
+  "seg": 4,
+  "start": 24.896,
+  "end": 29.18,
+  "speaker": "Unknown",
+  "en": "Time Series databases are built specifically for this kind of workload.",
+  "zh": "时序数据库正是专门为这种工作负载而构建的。"
+ },
+ {
+  "seg": 5,
+  "start": 29.76,
+  "end": 36.465,
+  "speaker": "Unknown",
+  "en": "TimescaleDB is an open source database from Tiger Data that adds Time Series capabilities to PostgreSQL.",
+  "zh": "TimescaleDB 是来自 Tiger Data 的开源数据库，它为 PostgreSQL 增加了时序能力。"
+ },
+ {
+  "seg": 6,
+  "start": 37.606,
+  "end": 46.128,
+  "speaker": "Unknown",
+  "en": "It's implemented as a Postgres extension, so it introduces new functionality while preserving standard Postgres behavior and SQL.",
+  "zh": "它是作为一个 Postgres 扩展实现的，所以在保留标准 Postgres 行为和 SQL 的同时引入了新功能。"
+ },
+ {
+  "seg": 7,
+  "start": 46.828,
+  "end": 55.19,
+  "speaker": "Unknown",
+  "en": "This lets a single Postgres-based system handle both transactional and analytical workloads without splitting data across multiple tools.",
+  "zh": "这让一个基于 Postgres 的单一系统能够同时处理事务性和分析性工作负载，而不需要把数据分散到多个工具中。"
+ },
+ {
+  "seg": 8,
+  "start": 55.79,
+  "end": 59.831,
+  "speaker": "Unknown",
+  "en": "Brandon Purcell is the Director of Product Management at Tiger Data.",
+  "zh": "Brandon Purcell 是 Tiger Data 的产品管理总监。"
+ },
+ {
+  "seg": 9,
+  "start": 60.471,
+  "end": 67.073,
+  "speaker": "Unknown",
+  "en": "In this episode, Brandon joins Kevin Ball to discuss why time series data breaks conventional databases.",
+  "zh": "在这一期节目中，Brandon 与 Kevin Ball 一起讨论为什么时序数据会让传统数据库不堪重负，"
+ },
+ {
+  "seg": 10,
+  "start": 67.613,
+  "end": 75.956,
+  "speaker": "Unknown",
+  "en": "How HyperTables and HyperCore scale Postgres, zero-copy database forking for agent-based workflows, and much more.",
+  "zh": "HyperTable 和 HyperCore 如何扩展 Postgres、面向基于智能体的工作流的零拷贝数据库分叉，以及更多内容。"
+ },
+ {
+  "seg": 11,
+  "start": 76.476,
+  "end": 83.518,
+  "speaker": "Unknown",
+  "en": "Kevin Ball, or Kate Ball, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+  "zh": "Kevin Ball,或 Kate Ball,是 Mento 的工程副总裁，也是工程师和工程领导者的独立教练。"
+ },
+ {
+  "seg": 12,
+  "start": 84.038,
+  "end": 92.681,
+  "speaker": "Unknown",
+  "en": "He co-founded and served as CTO for two companies, founded the San Diego JavaScript Meetup, and organizes the AI in Action Discussion Group through Latent Space.",
+  "zh": "他曾联合创办两家公司并担任 CTO,创办了圣地亚哥 JavaScript Meetup,并通过 Latent Space 组织 AI in Action 讨论组。"
+ },
+ {
+  "seg": 13,
+  "start": 93.261,
+  "end": 97.79,
+  "speaker": "Unknown",
+  "en": "Check out the show notes to follow KBall on Twitter or LinkedIn, or visit his website, kball.llc.",
+  "zh": "请查看节目备注，在 Twitter 或 LinkedIn 上关注 KBall,或访问他的网站 kball.llc。"
+ },
+ {
+  "seg": 14,
+  "start": 111.322,
+  "end": 112.624,
+  "speaker": "Unknown",
+  "en": "Brandon, welcome to the show.",
+  "zh": "Brandon,欢迎来到节目。"
+ },
+ {
+  "seg": 15,
+  "start": 113.085,
+  "end": 114.206,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks for having me, Kevin.",
+  "zh": "是的，谢谢你邀请我，Kevin。"
+ },
+ {
+  "seg": 16,
+  "start": 114.607,
+  "end": 118.353,
+  "speaker": "Unknown",
+  "en": "Yeah, I'm excited to learn a little bit more about what you're up to.",
+  "zh": "是的，我很期待多了解一点你正在做的事情。"
+ },
+ {
+  "seg": 17,
+  "start": 118.453,
+  "end": 119.454,
+  "speaker": "Unknown",
+  "en": "So let's start with you.",
+  "zh": "那么先从你开始吧。"
+ },
+ {
+  "seg": 18,
+  "start": 119.635,
+  "end": 124.362,
+  "speaker": "Unknown",
+  "en": "Can you give us a quick overview of your background and then how you ended up at Tiger and what you're doing there?",
+  "zh": "你能快速介绍一下你的背景，然后讲讲你是怎么来到 Tiger 的，以及你在那里做什么吗？"
+ },
+ {
+  "seg": 19,
+  "start": 124.71,
+  "end": 125.891,
+  "speaker": "Unknown",
+  "en": "Yeah, no, absolutely.",
+  "zh": "是的，当然可以。"
+ },
+ {
+  "seg": 20,
+  "start": 125.991,
+  "end": 141.721,
+  "speaker": "Unknown",
+  "en": "I've been working in the tech industry for a very long time, spent my early years in the military, even writing code, and then started working at Adobe soon after that, working in a number of different roles there, and met a couple of guys where we built a startup.",
+  "zh": "我在科技行业工作很长时间了，早年在军队服役，甚至写过代码，之后不久开始到 Adobe 工作，在那里担任过多个不同的岗位，然后认识了几个伙伴，我们一起创办了一家初创公司。"
+ },
+ {
+  "seg": 21,
+  "start": 141.961,
+  "end": 147.684,
+  "speaker": "Unknown",
+  "en": "The startup was called Spatial Key, so the background in my area and experience in Postgres goes back almost 20 years.",
+  "zh": "那家初创公司叫 Spatial Key,所以在我这个领域，我与 Postgres 的渊源和经验差不多可以追溯到 20 年前。"
+ },
+ {
+  "seg": 22,
+  "start": 148.985,
+  "end": 164.93,
+  "speaker": "Unknown",
+  "en": "We built a geospatial analytics platform that was built on top of Postgres, primarily initially focusing across a broad range, horizontal, but then switching that into insurance and everything from underwriting to event response and portfolio management type use cases.",
+  "zh": "我们构建了一个构建在 Postgres 之上的地理空间分析平台，最初主要覆盖广泛的横向领域，但后来转向保险行业，涵盖从承保到事件响应以及投资组合管理类的各种用例。"
+ },
+ {
+  "seg": 23,
+  "start": 165.251,
+  "end": 171.893,
+  "speaker": "Unknown",
+  "en": "And probably after about 13 years, we sold the company and I spent some time, took some time off afterwards and...",
+  "zh": "大约 13 年后，我们卖掉了公司，我花了一些时间，之后休息了一段时间，然后……"
+ },
+ {
+  "seg": 24,
+  "start": 172.573,
+  "end": 174.896,
+  "speaker": "Unknown",
+  "en": "Decided to come back and actually take a very different role.",
+  "zh": "决定回归，并且实际上选择了一个非常不同的角色。"
+ },
+ {
+  "seg": 25,
+  "start": 174.956,
+  "end": 176.038,
+  "speaker": "Unknown",
+  "en": "I was doing most of the leadership.",
+  "zh": "我之前主要做的是领导工作。"
+ },
+ {
+  "seg": 26,
+  "start": 176.078,
+  "end": 179.642,
+  "speaker": "Unknown",
+  "en": "I was the CTO of the company and really wanted to get back into the tech side of it and product.",
+  "zh": "我曾是公司的 CTO,当时真的想回到技术和产品这一侧。"
+ },
+ {
+  "seg": 27,
+  "start": 180.123,
+  "end": 187.413,
+  "speaker": "Unknown",
+  "en": "And I love Postgres and so ended up coming over to Tiger Data because I believe they have a great product and it really takes Postgres to the next level.",
+  "zh": "而且我热爱 Postgres,所以最终来到了 Tiger Data,因为我相信他们有一个很棒的产品，它真正把 Postgres 带到了下一个层次。"
+ },
+ {
+  "seg": 28,
+  "start": 187.92,
+  "end": 188.7,
+  "speaker": "Unknown",
+  "en": "That's a good intro.",
+  "zh": "这是个不错的介绍。"
+ },
+ {
+  "seg": 29,
+  "start": 188.72,
+  "end": 195.163,
+  "speaker": "Unknown",
+  "en": "So can you tell us a little bit about the product at Tiger and what is it that it handles that vanilla Postgres doesn't?",
+  "zh": "那么你能稍微讲讲 Tiger 的产品吗，它能处理哪些原生 Postgres 处理不了的东西？"
+ },
+ {
+  "seg": 30,
+  "start": 195.564,
+  "end": 196.424,
+  "speaker": "Unknown",
+  "en": "No, absolutely.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 31,
+  "start": 196.484,
+  "end": 201.567,
+  "speaker": "Unknown",
+  "en": "And so just kind of taking a step back, you have Tiger Data as the company and the organization.",
+  "zh": "先退一步说，你有 Tiger Data 这个公司和组织。"
+ },
+ {
+  "seg": 32,
+  "start": 201.827,
+  "end": 210.231,
+  "speaker": "Unknown",
+  "en": "And for most that are familiar with Timescale, which is the product TimescaleDB that Tiger Data has built, it's an extension of Postgres.",
+  "zh": "对于大多数熟悉 Timescale 的人来说，也就是 Tiger Data 构建的产品 TimescaleDB,它是一个 Postgres 扩展。"
+ },
+ {
+  "seg": 33,
+  "start": 210.611,
+  "end": 212.492,
+  "speaker": "Unknown",
+  "en": "And so by an extension, it's not a fork.",
+  "zh": "所谓扩展，它不是一个分叉(fork)。"
+ },
+ {
+  "seg": 34,
+  "start": 212.972,
+  "end": 214.172,
+  "speaker": "Unknown",
+  "en": "It's an actually extension.",
+  "zh": "它确实是一个扩展。"
+ },
+ {
+  "seg": 35,
+  "start": 214.232,
+  "end": 216.413,
+  "speaker": "Unknown",
+  "en": "And so it's offered as an open source product.",
+  "zh": "它是以开源产品的形式提供的。"
+ },
+ {
+  "seg": 36,
+  "start": 217.013,
+  "end": 226.116,
+  "speaker": "Unknown",
+  "en": "And the challenge is a lot of times when you have repeated time series type data readings, you end up growing that data pretty extensively.",
+  "zh": "问题在于，很多时候当你有重复的时序类型的数据读数时，这些数据最终会增长得非常庞大。"
+ },
+ {
+  "seg": 37,
+  "start": 226.736,
+  "end": 231.677,
+  "speaker": "Unknown",
+  "en": "And oftentimes as that grows in vanilla Postgres, you start to run into challenges.",
+  "zh": "而在原生 Postgres 中，随着数据增长，你常常开始遇到各种挑战。"
+ },
+ {
+  "seg": 38,
+  "start": 231.737,
+  "end": 233.398,
+  "speaker": "Unknown",
+  "en": "And those challenges yield themselves as",
+  "zh": "这些挑战表现为"
+ },
+ {
+  "seg": 39,
+  "start": 233.998,
+  "end": 236.02,
+  "speaker": "Unknown",
+  "en": "Read ingest bottlenecks.",
+  "zh": "写入摄取瓶颈。"
+ },
+ {
+  "seg": 40,
+  "start": 236.32,
+  "end": 238.481,
+  "speaker": "Unknown",
+  "en": "Read start to slow down as your data starts to bloat.",
+  "zh": "随着数据开始膨胀，读取开始变慢。"
+ },
+ {
+  "seg": 41,
+  "start": 238.561,
+  "end": 241.483,
+  "speaker": "Unknown",
+  "en": "You run into challenges with an index that's growing with a single table.",
+  "zh": "你会遇到单表索引不断增长带来的挑战。"
+ },
+ {
+  "seg": 42,
+  "start": 241.904,
+  "end": 243.345,
+  "speaker": "Unknown",
+  "en": "Time range queries get challenged.",
+  "zh": "时间范围查询也会变得吃力。"
+ },
+ {
+  "seg": 43,
+  "start": 243.385,
+  "end": 247.328,
+  "speaker": "Unknown",
+  "en": "And so TimescaleDB addresses that by building this extension.",
+  "zh": "所以 TimescaleDB 通过构建这个扩展来解决这些问题。"
+ },
+ {
+  "seg": 44,
+  "start": 247.348,
+  "end": 251.491,
+  "speaker": "Unknown",
+  "en": "And we'll talk about it in a number of the technologies that sit below the surface that address that.",
+  "zh": "我们会聊到表面之下的许多解决这些问题的技术。"
+ },
+ {
+  "seg": 45,
+  "start": 251.911,
+  "end": 259.997,
+  "speaker": "Unknown",
+  "en": "But from a developer perspective, it's the same SQL, no differences at all, but there's some intricate workings of the database that makes it easier to use.",
+  "zh": "但从开发者的角度来看，SQL 是一样的，没有任何差别，只是数据库内部有一些精巧的机制让它更易用，"
+ },
+ {
+  "seg": 46,
+  "start": 260.417,
+  "end": 261.717,
+  "speaker": "Unknown",
+  "en": "And actually scale a lot better.",
+  "zh": "而且实际上扩展性好得多。"
+ },
+ {
+  "seg": 47,
+  "start": 261.897,
+  "end": 265.118,
+  "speaker": "Unknown",
+  "en": "And so from an offering perspective, we have a couple of different offerings within that.",
+  "zh": "从产品提供的角度来说，我们有几种不同的提供方式。"
+ },
+ {
+  "seg": 48,
+  "start": 265.158,
+  "end": 266.899,
+  "speaker": "Unknown",
+  "en": "But most people start with the open source product.",
+  "zh": "但大多数人从开源产品开始。"
+ },
+ {
+  "seg": 49,
+  "start": 266.919,
+  "end": 269.5,
+  "speaker": "Unknown",
+  "en": "And we also have our Tiger Cloud solution as well.",
+  "zh": "我们还有 Tiger Cloud 解决方案。"
+ },
+ {
+  "seg": 50,
+  "start": 270,
+  "end": 270.2,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 51,
+  "start": 270.24,
+  "end": 272.48,
+  "speaker": "Unknown",
+  "en": "So let's talk a little bit about time series.",
+  "zh": "那我们来聊聊时序数据吧。"
+ },
+ {
+  "seg": 52,
+  "start": 273.201,
+  "end": 276.441,
+  "speaker": "Unknown",
+  "en": "And what are the problem domains and use cases?",
+  "zh": "有哪些问题领域和使用场景呢？"
+ },
+ {
+  "seg": 53,
+  "start": 276.602,
+  "end": 282.783,
+  "speaker": "Unknown",
+  "en": "If you're someone who's coming from a web background, maybe you've only ever dealt with relational classic REST objects and things like that.",
+  "zh": "如果你是有 Web 背景的人，也许你只接触过关系型的经典 REST 对象之类的东西。"
+ },
+ {
+  "seg": 54,
+  "start": 282.923,
+  "end": 287.284,
+  "speaker": "Unknown",
+  "en": "What are the types of problems that get you into saying, hey, actually, I need a different data structure here.",
+  "zh": "什么样的问题会让你说出，嘿，实际上，我这里需要一个不同的数据结构。"
+ },
+ {
+  "seg": 55,
+  "start": 287.324,
+  "end": 288.945,
+  "speaker": "Unknown",
+  "en": "I need something that looks like a time series?",
+  "zh": "我需要某种看起来像时序数据的东西？"
+ },
+ {
+  "seg": 56,
+  "start": 289.425,
+  "end": 291.926,
+  "speaker": "Unknown",
+  "en": "People typically do start with Postgres.",
+  "zh": "人们通常从 Postgres 开始。"
+ },
+ {
+  "seg": 57,
+  "start": 292.167,
+  "end": 298.85,
+  "speaker": "Unknown",
+  "en": "So I think 60% of the world, you start with a relational database, Postgres being the one that's probably used the most by developers.",
+  "zh": "所以我想世界上 60% 的人，都是从关系型数据库起步的，Postgres 应该是开发者用得最多的那个。"
+ },
+ {
+  "seg": 58,
+  "start": 299.41,
+  "end": 304.033,
+  "speaker": "Unknown",
+  "en": "But you end up having a particular device or set of devices that are emitting readings.",
+  "zh": "但你最终会遇到某个设备或一组设备在持续发出读数。"
+ },
+ {
+  "seg": 59,
+  "start": 304.093,
+  "end": 308.015,
+  "speaker": "Unknown",
+  "en": "And that can be across a number of different areas as well, manufacturing or robotics.",
+  "zh": "这可能跨越很多不同的领域，比如制造业或机器人。"
+ },
+ {
+  "seg": 60,
+  "start": 308.555,
+  "end": 316.997,
+  "speaker": "Unknown",
+  "en": "Medical devices, finance and crypto are also used there where you have a number of different transactions, smart buildings and industrial systems.",
+  "zh": "医疗设备、金融和加密货币也在其中使用，那里有大量不同的交易，还有智能建筑和工业系统。"
+ },
+ {
+  "seg": 61,
+  "start": 317.557,
+  "end": 318.557,
+  "speaker": "Unknown",
+  "en": "So there's a number of different areas.",
+  "zh": "所以有很多不同的领域。"
+ },
+ {
+  "seg": 62,
+  "start": 318.577,
+  "end": 328.2,
+  "speaker": "Unknown",
+  "en": "And I think it's a growing area as well as we look at what we call the physical world where you have solar, energy, any number of things that are all emitting readings on a periodic basis.",
+  "zh": "而且我认为这也是一个不断增长的领域，当我们看所谓的物理世界时，你有太阳能、能源，各种各样的事物都在周期性地发出读数。"
+ },
+ {
+  "seg": 63,
+  "start": 328.38,
+  "end": 330.86,
+  "speaker": "Unknown",
+  "en": "And the number of devices within that is growing as well.",
+  "zh": "而且其中的设备数量也在增长。"
+ },
+ {
+  "seg": 64,
+  "start": 330.96,
+  "end": 334.261,
+  "speaker": "Unknown",
+  "en": "So you end up with hundreds of thousands or even millions of devices.",
+  "zh": "所以你最终会面对数十万甚至数百万台设备。"
+ },
+ {
+  "seg": 65,
+  "start": 334.301,
+  "end": 338.022,
+  "speaker": "Unknown",
+  "en": "We have one customer that has 22 million devices and they're all emitting readings",
+  "zh": "我们有一个客户拥有 2200 万台设备，它们全都在发出读数"
+ },
+ {
+  "seg": 66,
+  "start": 338.702,
+  "end": 342.666,
+  "speaker": "Unknown",
+  "en": "Every few seconds, every second, in some even sub-second as well.",
+  "zh": "每几秒一次，每秒一次，有些甚至是亚秒级的。"
+ },
+ {
+  "seg": 67,
+  "start": 342.766,
+  "end": 349.673,
+  "speaker": "Unknown",
+  "en": "So the volume of data that you're ingesting and the volume that's growing over time gets larger and larger, right?",
+  "zh": "所以你摄入的数据量以及随时间增长的数据量会越来越大，对吧？"
+ },
+ {
+  "seg": 68,
+  "start": 349.713,
+  "end": 353.557,
+  "speaker": "Unknown",
+  "en": "And so that challenges the databases in new and unique ways.",
+  "zh": "这就以新的、独特的方式挑战了数据库。"
+ },
+ {
+  "seg": 69,
+  "start": 354.137,
+  "end": 359.282,
+  "speaker": "Unknown",
+  "en": "The other piece of that is that you still need the transactional relational part of the database as well.",
+  "zh": "另一方面是，你仍然需要数据库的事务性关系部分。"
+ },
+ {
+  "seg": 70,
+  "start": 359.923,
+  "end": 367.327,
+  "speaker": "Unknown",
+  "en": "And so as you start to grow, and oftentimes people start with Postgres and as you start to outgrow it, your queries slow down, your ingest slows down.",
+  "zh": "所以随着你开始增长，通常人们从 Postgres 起步，而当你开始超出它的能力时，你的查询变慢了，你的摄入也变慢了。"
+ },
+ {
+  "seg": 71,
+  "start": 367.667,
+  "end": 369.108,
+  "speaker": "Unknown",
+  "en": "You have two options really, right?",
+  "zh": "你实际上有两个选择，对吧？"
+ },
+ {
+  "seg": 72,
+  "start": 369.148,
+  "end": 372.41,
+  "speaker": "Unknown",
+  "en": "You can separate it off into another solution.",
+  "zh": "你可以把它分离到另一个解决方案中。"
+ },
+ {
+  "seg": 73,
+  "start": 372.55,
+  "end": 375.152,
+  "speaker": "Unknown",
+  "en": "So you bifurcate with some type of analytical database.",
+  "zh": "也就是说你用某种分析型数据库把它一分为二。"
+ },
+ {
+  "seg": 74,
+  "start": 375.732,
+  "end": 379.173,
+  "speaker": "Unknown",
+  "en": "And then you retain your transactional database.",
+  "zh": "然后你保留你的事务型数据库。"
+ },
+ {
+  "seg": 75,
+  "start": 379.193,
+  "end": 386.595,
+  "speaker": "Unknown",
+  "en": "Or you can adopt a system like TimeskillDB that gives you the best of both where you have co-located into the same system, we can extend it.",
+  "zh": "或者你可以采用像 TimeskillDB 这样的系统，它给你两者的优点，共存于同一个系统中，我们可以扩展它。"
+ },
+ {
+  "seg": 76,
+  "start": 387.235,
+  "end": 389.756,
+  "speaker": "Unknown",
+  "en": "And this is with zero application changes at all.",
+  "zh": "而且这完全不需要任何应用改动。"
+ },
+ {
+  "seg": 77,
+  "start": 389.836,
+  "end": 398.838,
+  "speaker": "Unknown",
+  "en": "And we can talk about what that migration path looks like, but you're not having to make application changes where if you bifurcate it, you have to manage multiple data pipelines between this other system.",
+  "zh": "我们可以聊聊那条迁移路径是什么样的，但你不需要做应用改动；而如果你把它一分为二，你就得在这个另外的系统之间管理多条数据管道。"
+ },
+ {
+  "seg": 78,
+  "start": 399.378,
+  "end": 407.727,
+  "speaker": "Unknown",
+  "en": "And typically, most of these systems have some evolution of SQL that is a little bit different, so you end up having to rewrite portions of your application.",
+  "zh": "而且通常，这些系统中的大多数都有某种演化的 SQL，会有一点不一样，所以你最终不得不重写应用的部分内容。"
+ },
+ {
+  "seg": 79,
+  "start": 408.21,
+  "end": 409.29,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的，这说得通。"
+ },
+ {
+  "seg": 80,
+  "start": 409.37,
+  "end": 417.772,
+  "speaker": "Unknown",
+  "en": "So, I mean, I guess looking at that piece, as an application developer, presumably the underlying data model looks a little bit different when you start to go to timescale.",
+  "zh": "那么，我是说，看这一点，作为应用开发者，当你开始转向 timescale 时，底层数据模型大概会看起来有点不一样。"
+ },
+ {
+  "seg": 81,
+  "start": 417.812,
+  "end": 420.193,
+  "speaker": "Unknown",
+  "en": "Is there any difference at all I need to know in terms of?",
+  "zh": "有没有什么差异是我需要了解的，比如？"
+ },
+ {
+  "seg": 82,
+  "start": 420.233,
+  "end": 420.713,
+  "speaker": "Unknown",
+  "en": "Zero.",
+  "zh": "零。"
+ },
+ {
+  "seg": 83,
+  "start": 421.033,
+  "end": 422.113,
+  "speaker": "Unknown",
+  "en": "Zero difference at all.",
+  "zh": "完全没有差异。"
+ },
+ {
+  "seg": 84,
+  "start": 422.233,
+  "end": 430.715,
+  "speaker": "Unknown",
+  "en": "And so you think about, you're starting with the table, you have a reading, you have a timestamp, and then you have any number of attributes that are associated with that device.",
+  "zh": "所以你想一下，你从一张表开始，你有一个读数，你有一个时间戳，然后你有任意多个与该设备关联的属性。"
+ },
+ {
+  "seg": 85,
+  "start": 431.275,
+  "end": 434.396,
+  "speaker": "Unknown",
+  "en": "So that stays exactly the same as you move into timescale.",
+  "zh": "所以当你迁移到 timescale 时，这部分完全保持不变。"
+ },
+ {
+  "seg": 86,
+  "start": 434.716,
+  "end": 436.116,
+  "speaker": "Unknown",
+  "en": "What happens under the covers",
+  "zh": "底层发生的事情"
+ },
+ {
+  "seg": 87,
+  "start": 436.956,
+  "end": 441.401,
+  "speaker": "Unknown",
+  "en": "is you have a concept of everyone understands tables in existing databases.",
+  "zh": "是，每个人都理解现有数据库中的表这个概念。"
+ },
+ {
+  "seg": 88,
+  "start": 441.821,
+  "end": 449.789,
+  "speaker": "Unknown",
+  "en": "We have something called a hyper table, which takes that same concept and it starts with the partitioning, the automatic partitioning of that data.",
+  "zh": "我们有一个叫超表（hyper table）的东西，它采用同样的概念，并从分区开始，也就是对数据的自动分区。"
+ },
+ {
+  "seg": 89,
+  "start": 449.829,
+  "end": 456.315,
+  "speaker": "Unknown",
+  "en": "So breaking based upon those time steps and partitioning it in chunks that separate it over time.",
+  "zh": "即基于那些时间步长进行切分，并把数据分成随时间分离的数据块。"
+ },
+ {
+  "seg": 90,
+  "start": 456.355,
+  "end": 460.64,
+  "speaker": "Unknown",
+  "en": "So you're not reading all of the data at once and there's a number of pieces that are around that.",
+  "zh": "这样你就不用一次性读取全部数据，围绕这个还有很多其他的机制。"
+ },
+ {
+  "seg": 91,
+  "start": 461.24,
+  "end": 468.762,
+  "speaker": "Unknown",
+  "en": "And so within those chunks as well, we have something called HyperCore, which allows us to have a hybrid row and column store.",
+  "zh": "而且在这些数据块之内，我们有一个叫 HyperCore 的东西，它让我们拥有行存和列存的混合存储。"
+ },
+ {
+  "seg": 92,
+  "start": 469.042,
+  "end": 476.144,
+  "speaker": "Unknown",
+  "en": "So typical database in Postgres, you have a row store and your data is organized in rows, just like traditional databases.",
+  "zh": "所以在 Postgres 这类典型数据库中，你有一个行存储，你的数据按行组织，就像传统数据库一样。"
+ },
+ {
+  "seg": 93,
+  "start": 476.224,
+  "end": 485.686,
+  "speaker": "Unknown",
+  "en": "But below that as well, and this happens through policies and automatically, and developers have control over this as well, data is migrated into a column store as well.",
+  "zh": "但在这之下，这通过策略自动发生，开发者也可以控制它，数据也会被迁移到列存储中。"
+ },
+ {
+  "seg": 94,
+  "start": 485.846,
+  "end": 487.846,
+  "speaker": "Unknown",
+  "en": "And this is getting the value of compression.",
+  "zh": "而这带来的是压缩的价值。"
+ },
+ {
+  "seg": 95,
+  "start": 487.866,
+  "end": 490.427,
+  "speaker": "Unknown",
+  "en": "You know, we've seen customers in 98% compression.",
+  "zh": "你知道，我们见过客户达到 98% 的压缩率。"
+ },
+ {
+  "seg": 96,
+  "start": 491.207,
+  "end": 491.427,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 97,
+  "start": 491.968,
+  "end": 496.552,
+  "speaker": "Unknown",
+  "en": "And that column store is, as we've evolved it over time, it used to be very immutable.",
+  "zh": "而且那个列存储，随着我们随时间的演进，它过去是非常不可变的。"
+ },
+ {
+  "seg": 98,
+  "start": 496.753,
+  "end": 499.675,
+  "speaker": "Unknown",
+  "en": "And as we've moved and we improved that, it's very immutable as well.",
+  "zh": "而随着我们的迁移和改进，它也是非常不可变的。"
+ },
+ {
+  "seg": 99,
+  "start": 499.716,
+  "end": 501.778,
+  "speaker": "Unknown",
+  "en": "So the data can change within there as well.",
+  "zh": "所以数据在其中也是可以变更的。"
+ },
+ {
+  "seg": 100,
+  "start": 501.818,
+  "end": 504.58,
+  "speaker": "Unknown",
+  "en": "And so you get the benefit of the space savings.",
+  "zh": "这样你就能获得节省空间的好处。"
+ },
+ {
+  "seg": 101,
+  "start": 504.76,
+  "end": 506.642,
+  "speaker": "Unknown",
+  "en": "Typically, we see users with 90%.",
+  "zh": "通常，我们看到用户能节省 90%。"
+ },
+ {
+  "seg": 102,
+  "start": 506.762,
+  "end": 510.686,
+  "speaker": "Unknown",
+  "en": "We've seen as high as 98% where you have really duplicate readings oftentimes.",
+  "zh": "我们见过高达 98% 的情况，那时候往往存在大量重复的读数。"
+ },
+ {
+  "seg": 103,
+  "start": 511.467,
+  "end": 516.251,
+  "speaker": "Unknown",
+  "en": "And then you also get the value of vectorized query acceleration as well.",
+  "zh": "而且你还能获得向量化查询加速的价值。"
+ },
+ {
+  "seg": 104,
+  "start": 516.532,
+  "end": 526.08,
+  "speaker": "Unknown",
+  "en": "So that allows the underlying processor through a feature called SIMD to execute multiple batches against the column store at a time.",
+  "zh": "这使得底层处理器通过一个叫 SIMD 的特性，一次可以对列存储执行多个批次。"
+ },
+ {
+  "seg": 105,
+  "start": 526.26,
+  "end": 530.024,
+  "speaker": "Unknown",
+  "en": "And the result is you think compression is slower, right?",
+  "zh": "结果是，你会以为压缩会更慢，对吧？"
+ },
+ {
+  "seg": 106,
+  "start": 530.604,
+  "end": 538.331,
+  "speaker": "Unknown",
+  "en": "But when you're compressing the data combined with the vectorization, we've seen acceleration in queries 10 to 100 to 1,000 times.",
+  "zh": "但当压缩数据与向量化结合时，我们看到查询加速了 10 倍到 100 倍再到 1000 倍。"
+ },
+ {
+  "seg": 107,
+  "start": 538.711,
+  "end": 544.496,
+  "speaker": "Unknown",
+  "en": "And then beyond that a bit, we also, you think of normal B3 indexes that you have in a row or store.",
+  "zh": "除此之外一点，我们还有，你会想到行存储里常见的 B3 索引。"
+ },
+ {
+  "seg": 108,
+  "start": 544.837,
+  "end": 550.382,
+  "speaker": "Unknown",
+  "en": "We have something called sparse indexes as well, which are like min, max and bloom filter indexes.",
+  "zh": "我们还有一种叫稀疏索引的东西，比如 min、max 和布隆过滤器索引。"
+ },
+ {
+  "seg": 109,
+  "start": 550.962,
+  "end": 557.086,
+  "speaker": "Unknown",
+  "en": "That allows for execution of queries to pull from the metadata that is in these batches or in these chunks.",
+  "zh": "这使得查询执行可以从这些批次或这些块中的元数据里提取数据。"
+ },
+ {
+  "seg": 110,
+  "start": 557.506,
+  "end": 561.288,
+  "speaker": "Unknown",
+  "en": "So you're not reading all the way down to the row level and pulling data.",
+  "zh": "这样你就不用一直下探到行级别去拉取数据。"
+ },
+ {
+  "seg": 111,
+  "start": 561.368,
+  "end": 572.694,
+  "speaker": "Unknown",
+  "en": "So common, sum, query, first, last, things that you would have in this world would be much, much faster because of reading from metadata versus from the underlying rows and having to decompress it.",
+  "zh": "所以 common、sum、query、first、last 这类在这个世界里会有的操作，会因为读取元数据而不是底层行数据、还得解压缩，而变得快得多得多。"
+ },
+ {
+  "seg": 112,
+  "start": 573.595,
+  "end": 583.629,
+  "speaker": "Unknown",
+  "en": "The combination of those things from a developer perspective is, you know, you migrate data over, there's a couple of commands you run to turn a normal table into hypertable or create a hypertable from scratch.",
+  "zh": "从开发者角度看，这些东西组合起来就是：你把数据迁移过来，跑几条命令就能把普通表变成 hypertable，或者从头创建一个 hypertable。"
+ },
+ {
+  "seg": 113,
+  "start": 584.15,
+  "end": 589.317,
+  "speaker": "Unknown",
+  "en": "But when you insert data or when data is migrated, it automatically, based upon those timestamps,",
+  "zh": "但当你插入数据或数据被迁移时，它会基于那些时间戳，"
+ },
+ {
+  "seg": 114,
+  "start": 589.838,
+  "end": 592.26,
+  "speaker": "Unknown",
+  "en": "Partitions it in the appropriate chunk.",
+  "zh": "自动把数据分区到合适的块里。"
+ },
+ {
+  "seg": 115,
+  "start": 592.76,
+  "end": 595.702,
+  "speaker": "Unknown",
+  "en": "And that partitioning extends beyond just time series.",
+  "zh": "而且这种分区不仅限于时间序列。"
+ },
+ {
+  "seg": 116,
+  "start": 595.782,
+  "end": 597.443,
+  "speaker": "Unknown",
+  "en": "We have numeric partitioning as well.",
+  "zh": "我们也有数值分区。"
+ },
+ {
+  "seg": 117,
+  "start": 597.923,
+  "end": 601.806,
+  "speaker": "Unknown",
+  "en": "And also like UID v7, which has a time-based component as well.",
+  "zh": "还有 UID v7 之类，它本身也带一个基于时间的成分。"
+ },
+ {
+  "seg": 118,
+  "start": 602.226,
+  "end": 604.168,
+  "speaker": "Unknown",
+  "en": "We also have support for that as well.",
+  "zh": "我们也支持那个。"
+ },
+ {
+  "seg": 119,
+  "start": 604.908,
+  "end": 607.55,
+  "speaker": "Unknown",
+  "en": "Your data ends up being broken up into these chunks.",
+  "zh": "你的数据最终会被切分成这些块。"
+ },
+ {
+  "seg": 120,
+  "start": 607.69,
+  "end": 611.312,
+  "speaker": "Unknown",
+  "en": "When you're querying it from a top level, it appears as one.",
+  "zh": "当你从顶层查询时，它看起来就像一个整体。"
+ },
+ {
+  "seg": 121,
+  "start": 611.612,
+  "end": 626.641,
+  "speaker": "Unknown",
+  "en": "And oftentimes one of the biggest values of that is when you have billions and billions of rows that maybe go over 10 plus years, if you're querying more near-term data, the query planner is only going to hit the chunks that are necessary for that.",
+  "zh": "而且这最大的价值之一往往是，当你有几十亿几十亿行、可能跨越 10 年以上的数据时，如果你查询的是较近期的数据，查询规划器只会命中满足需要的那几个块。"
+ },
+ {
+  "seg": 122,
+  "start": 626.921,
+  "end": 629.583,
+  "speaker": "Unknown",
+  "en": "And so it's reducing that footprint that you're querying from.",
+  "zh": "这样就减少了你查询时涉及的范围。"
+ },
+ {
+  "seg": 123,
+  "start": 630.048,
+  "end": 630.989,
+  "speaker": "Unknown",
+  "en": "Yeah, no, it's interesting.",
+  "zh": "是啊，嗯，挺有意思的。"
+ },
+ {
+  "seg": 124,
+  "start": 631.009,
+  "end": 644.129,
+  "speaker": "Unknown",
+  "en": "This is bringing me back, in more recent years have dealt with smaller scale data, but yeah, a decade ago was dealing with trying to, at that point it was hundreds of millions of rows before we started to have to think about all these different things and we're planning out partitioned tables and stuff.",
+  "zh": "这让我回想起，近几年我处理的数据规模比较小，但是啊，十年前我在处理的时候，那时候到几亿行我们就开始需要考虑这些不同的东西了，我们在规划分区表之类的事情。"
+ },
+ {
+  "seg": 125,
+  "start": 645.01,
+  "end": 648.731,
+  "speaker": "Unknown",
+  "en": "Going back on that, asking some of the questions I ran into then to see how you handle it.",
+  "zh": "回到那段经历，问一些我当时碰到的问题，看看你们是怎么处理的。"
+ },
+ {
+  "seg": 126,
+  "start": 648.951,
+  "end": 656.154,
+  "speaker": "Unknown",
+  "en": "One of the big questions there is around, is this all time partitioned versus do you have other partitions?",
+  "zh": "那里的一个大问题是，这是全部按时间分区吗，还是你们有其他分区？"
+ },
+ {
+  "seg": 127,
+  "start": 656.234,
+  "end": 657.195,
+  "speaker": "Unknown",
+  "en": "Is this non-time?",
+  "zh": "是不是非时间的？"
+ },
+ {
+  "seg": 128,
+  "start": 657.215,
+  "end": 668.719,
+  "speaker": "Unknown",
+  "en": "So I'm guessing from the name of this, this is all focused on time bucket based on day, month, year, or something along that, or are there ways to utilize this underlying infrastructure for non-time based partitioning?",
+  "zh": "我从名字猜测，这应该全是聚焦于按天、月、年之类的时间桶，或者说有没有办法把这套底层基础设施用于非基于时间的分区？"
+ },
+ {
+  "seg": 129,
+  "start": 669.039,
+  "end": 675.825,
+  "speaker": "Unknown",
+  "en": "You can use additional particular schemes that come with Postgres, but for the most part, I find they're not necessary.",
+  "zh": "你可以使用 Postgres 自带的其他分区方案，但在大多数情况下，我发现它们并不必要。"
+ },
+ {
+  "seg": 130,
+  "start": 675.845,
+  "end": 682.771,
+  "speaker": "Unknown",
+  "en": "And in the specific problem domain, people are typically querying by time as one attribute.",
+  "zh": "而且在这个特定的问题领域里，人们通常会把时间作为一个属性来查询。"
+ },
+ {
+  "seg": 131,
+  "start": 683.371,
+  "end": 696.763,
+  "speaker": "Unknown",
+  "en": "And then if you're looking at in device world, by device or other data as well, and there's a concept that we use internally called segment by for how you segment the data into these batches, usually by a device ID, some type of tenant ID, user ID.",
+  "zh": "然后如果你是在设备的世界里看，还会按设备或其他数据来查，我们内部有一个叫 segment by 的概念，用于把数据切分进这些批次，通常是按设备 ID、某种租户 ID、用户 ID。"
+ },
+ {
+  "seg": 132,
+  "start": 697.403,
+  "end": 707.357,
+  "speaker": "Unknown",
+  "en": "And that allows the engine to group the data intelligently so that those batches compress better and also are more queryable and faster when you're querying the data.",
+  "zh": "这使得引擎能智能地对数据分组，这样那些批次压缩得更好，而且查询数据时可查询性更强、速度更快。"
+ },
+ {
+  "seg": 133,
+  "start": 707.457,
+  "end": 713.766,
+  "speaker": "Unknown",
+  "en": "And that's a big part of that row store, column store hybrid approach where we're grouping those and creating those logical batches.",
+  "zh": "那是我们行存储加列存储混合方案的重要组成部分，我们在其中对数据进行分组并创建那些逻辑批次。"
+ },
+ {
+  "seg": 134,
+  "start": 714.308,
+  "end": 715.729,
+  "speaker": "Unknown",
+  "en": "Yeah, super interesting.",
+  "zh": "是啊，非常有意思。"
+ },
+ {
+  "seg": 135,
+  "start": 716.249,
+  "end": 727.416,
+  "speaker": "Unknown",
+  "en": "Now, another thing that at that time was challenging was, yeah, anytime you, if you wanted to join from this over into something else, because at that point I was dealing with partition logic at the app layer, you're down in Postgres.",
+  "zh": "那么，另一件在当时很有挑战的事情是，呃，任何时候，如果你想从这里 join 到别的东西，因为那时候我是在应用层处理分区逻辑的，你在 Postgres 里。"
+ },
+ {
+  "seg": 136,
+  "start": 727.636,
+  "end": 731.598,
+  "speaker": "Unknown",
+  "en": "Can I just interact with other tables and joins and things like that, how I might expect?",
+  "zh": "我能直接和其他表以及 join 之类的东西交互吗，就像我预期的那样？"
+ },
+ {
+  "seg": 137,
+  "start": 731.898,
+  "end": 733.179,
+  "speaker": "Unknown",
+  "en": "Yeah, it works exactly.",
+  "zh": "是的，完全可行。"
+ },
+ {
+  "seg": 138,
+  "start": 733.239,
+  "end": 740.384,
+  "speaker": "Unknown",
+  "en": "So think of it as from a developer perspective, really no different than what your traditional experience would be in Postgres or any other relational database.",
+  "zh": "所以从开发者的角度来想，它和你传统的 Postgres 或任何其他关系型数据库的体验真的没有区别。"
+ },
+ {
+  "seg": 139,
+  "start": 741.025,
+  "end": 752.754,
+  "speaker": "Unknown",
+  "en": "And users typically have metadata that's associated with these devices, let's say, for example, or users that are stored in traditional normal tables that aren't partitioned by time.",
+  "zh": "而且用户通常有与这些设备相关联的元数据，比如说，或者与用户相关联的、存在传统普通表里、不按时间分区的数据。"
+ },
+ {
+  "seg": 140,
+  "start": 752.914,
+  "end": 756.276,
+  "speaker": "Unknown",
+  "en": "And you can join directly against those tables as well.",
+  "zh": "你可以直接对这些表做 join。"
+ },
+ {
+  "seg": 141,
+  "start": 756.336,
+  "end": 758.318,
+  "speaker": "Unknown",
+  "en": "And that's a pretty common need and use case.",
+  "zh": "这是一个相当常见的需求和用例。"
+ },
+ {
+  "seg": 142,
+  "start": 758.838,
+  "end": 766.444,
+  "speaker": "Unknown",
+  "en": "Where if you're going to bifurcate that and have it across multiple systems, you have to do that at the application layer versus the database layer.",
+  "zh": "因为如果你要把那部分拆分到多个系统里，你就必须在应用层而不是数据库层去做。"
+ },
+ {
+  "seg": 143,
+  "start": 766.664,
+  "end": 777.313,
+  "speaker": "Unknown",
+  "en": "And so you have to query it and then unify that back at the application layer where you can just write a query, join it across the two, aggregate the values you want, and then display that back to a user.",
+  "zh": "于是你必须先查询它，然后在应用层再把数据统一起来，而在这里你只需写一个查询，跨两张表 join，聚合出你想要的值，然后展示给用户。"
+ },
+ {
+  "seg": 144,
+  "start": 777.674,
+  "end": 778.414,
+  "speaker": "Unknown",
+  "en": "That's fascinating.",
+  "zh": "太吸引人了。"
+ },
+ {
+  "seg": 145,
+  "start": 778.434,
+  "end": 787.382,
+  "speaker": "Unknown",
+  "en": "Because yeah, I remember that being a huge pain point once we got to the place we were having to partition is suddenly all these things that we used to be able to do at the SQL layer, we had to pull into the application.",
+  "zh": "因为是啊，我记得一旦到了必须分区的地步，这就是一个巨大的痛点：突然之间，这些我们以前能在 SQL 层做的事情，全都得拉到应用里来做。"
+ },
+ {
+  "seg": 146,
+  "start": 788.122,
+  "end": 791.043,
+  "speaker": "Unknown",
+  "en": "Is there any secret sauce to how you do that and keep it performant?",
+  "zh": "你们在做这件事并保持高性能方面，有什么秘诀吗？"
+ },
+ {
+  "seg": 147,
+  "start": 791.063,
+  "end": 794.865,
+  "speaker": "Unknown",
+  "en": "Because under the hood, you've got all these different partitioned things.",
+  "zh": "因为在底层，你们有这么多不同的分区的东西。"
+ },
+ {
+  "seg": 148,
+  "start": 794.905,
+  "end": 796.946,
+  "speaker": "Unknown",
+  "en": "Like, do you plug in directly into the query engine?",
+  "zh": "比如，你们是不是直接插入了查询引擎？"
+ },
+ {
+  "seg": 149,
+  "start": 796.966,
+  "end": 798.906,
+  "speaker": "Unknown",
+  "en": "Like, what does that look like to make that work?",
+  "zh": "就是说，让它能工作是什么样子的？"
+ },
+ {
+  "seg": 150,
+  "start": 799.146,
+  "end": 803.688,
+  "speaker": "Unknown",
+  "en": "It's intercepting those queries, and the query planner is actually executing.",
+  "zh": "它会拦截那些查询，而查询计划器实际上在执行。"
+ },
+ {
+  "seg": 151,
+  "start": 803.828,
+  "end": 805.069,
+  "speaker": "Unknown",
+  "en": "And this is part of the extension.",
+  "zh": "这是这个扩展的一部分。"
+ },
+ {
+  "seg": 152,
+  "start": 805.109,
+  "end": 809.571,
+  "speaker": "Unknown",
+  "en": "And I think really the difference in the value of Postgres with its extensibility.",
+  "zh": "我认为这正是 Postgres 凭借其可扩展性所带来的价值差异所在。"
+ },
+ {
+  "seg": 153,
+  "start": 809.751,
+  "end": 815.393,
+  "speaker": "Unknown",
+  "en": "I used PostGIS for years, and I've been amazed at what you could do, accomplish from a GIS perspective.",
+  "zh": "我用 PostGIS 用了很多年，我一直惊叹于从 GIS 角度你能完成的事情。"
+ },
+ {
+  "seg": 154,
+  "start": 815.953,
+  "end": 826.785,
+  "speaker": "Unknown",
+  "en": "And on timescale, DB is using those same concepts with the extensibility of Postgres and the ability to interact from a query planner, automatically route to the appropriate request against the right chunks.",
+  "zh": "而 TimescaleDB 正是在使用同样的概念，利用 Postgres 的可扩展性以及与查询计划器交互的能力，自动路由到针对正确 chunk 的合适请求。"
+ },
+ {
+  "seg": 155,
+  "start": 827.226,
+  "end": 830.65,
+  "speaker": "Unknown",
+  "en": "And we've spent a lot of time optimizing that path as well.",
+  "zh": "我们也花了大量时间优化那条路径。"
+ },
+ {
+  "seg": 156,
+  "start": 830.71,
+  "end": 833.253,
+  "speaker": "Unknown",
+  "en": "So you touch as few chunks as possible.",
+  "zh": "这样你的查询会尽可能少地触及 chunk。"
+ },
+ {
+  "seg": 157,
+  "start": 833.793,
+  "end": 834.573,
+  "speaker": "Unknown",
+  "en": "For your queries.",
+  "zh": "对于你的查询来说。"
+ },
+ {
+  "seg": 158,
+  "start": 834.633,
+  "end": 837.254,
+  "speaker": "Unknown",
+  "en": "And so you can have a lot of historical data.",
+  "zh": "这样你就可以拥有大量历史数据。"
+ },
+ {
+  "seg": 159,
+  "start": 837.794,
+  "end": 841.255,
+  "speaker": "Unknown",
+  "en": "And under the covers, these chunks are really just tables.",
+  "zh": "而在底层，这些 chunk 其实就是普通的表。"
+ },
+ {
+  "seg": 160,
+  "start": 841.775,
+  "end": 846.816,
+  "speaker": "Unknown",
+  "en": "And then there's a layer of metadata that Timescale is being able to use to organize that.",
+  "zh": "然后有一层元数据，Timescale 能够用它来组织这些东西。"
+ },
+ {
+  "seg": 161,
+  "start": 847.416,
+  "end": 860.119,
+  "speaker": "Unknown",
+  "en": "And because of that too, your indexes, if you're talking about in the row store within those chunks, are broken up across those as well, which is one of the big challenges when you have a huge table, that index grows very substantially.",
+  "zh": "也正因为如此，你的索引——如果你说的是这些 chunk 内的行存储——也会被打散分布在这些 chunk 之间，这是当你有一张巨大的表时面临的最大挑战之一，索引会增长得非常庞大。"
+ },
+ {
+  "seg": 162,
+  "start": 860.219,
+  "end": 862.62,
+  "speaker": "Unknown",
+  "en": "And then you have an insert and has to update that index.",
+  "zh": "然后当你执行一次插入，就必须去更新那个索引。"
+ },
+ {
+  "seg": 163,
+  "start": 862.66,
+  "end": 863.5,
+  "speaker": "Unknown",
+  "en": "And so in this case,",
+  "zh": "所以在这种情况下，"
+ },
+ {
+  "seg": 164,
+  "start": 864.16,
+  "end": 872.067,
+  "speaker": "Unknown",
+  "en": "And one of the tunable parameters that users have to figure out oftentimes, and we're making this easier and easier, is what is the appropriate chunk size, right?",
+  "zh": "用户常常需要弄清楚的可调参数之一——而我们正在让这件事变得越来越容易——就是合适的 chunk 大小是多少，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 872.107,
+  "end": 878.312,
+  "speaker": "Unknown",
+  "en": "Like we come out of the box with seven days, but if you have a really high volume data, you can maybe go down to even an hour, right?",
+  "zh": "比如我们开箱即用的默认值是七天，但如果你有非常高的数据量，你可能可以降到哪怕一个小时，对吧？"
+ },
+ {
+  "seg": 166,
+  "start": 878.352,
+  "end": 881.255,
+  "speaker": "Unknown",
+  "en": "And so there's some different optimizations techniques around that.",
+  "zh": "所以围绕这个有一些不同的优化技巧。"
+ },
+ {
+  "seg": 167,
+  "start": 881.575,
+  "end": 888.421,
+  "speaker": "Unknown",
+  "en": "But for the most part, it's pretty, from a developer perspective, it's pretty automatic and simple to get started and configured and get it right out of the box.",
+  "zh": "但在大多数情况下，从开发者的角度来看，它是相当自动化且简单的，开箱即用就能配置好并正确运行。"
+ },
+ {
+  "seg": 168,
+  "start": 888.978,
+  "end": 889.718,
+  "speaker": "Unknown",
+  "en": "That's interesting.",
+  "zh": "这很有意思。"
+ },
+ {
+  "seg": 169,
+  "start": 889.778,
+  "end": 893.879,
+  "speaker": "Unknown",
+  "en": "So I'd love to kind of understand the underpinnings that you're giving those handles to.",
+  "zh": "所以我很想理解一下你把那些控制把手交出来的底层机制。"
+ },
+ {
+  "seg": 170,
+  "start": 894.38,
+  "end": 900.161,
+  "speaker": "Unknown",
+  "en": "In particular, so one angle into this, you mentioned people often start looking at this when they run into challenges at the ingest time.",
+  "zh": "具体来说，有一个角度，你提到人们通常是在写入（ingest）时遇到挑战才开始关注这个的。"
+ },
+ {
+  "seg": 171,
+  "start": 900.661,
+  "end": 904.883,
+  "speaker": "Unknown",
+  "en": "And then when we were talking about performance optimizations, you talked about query speed, which is read time.",
+  "zh": "然后当我们谈论性能优化时，你谈到了查询速度，也就是读取时。"
+ },
+ {
+  "seg": 172,
+  "start": 904.923,
+  "end": 907.043,
+  "speaker": "Unknown",
+  "en": "So like, how does this help on the ingest time?",
+  "zh": "那么，这对写入时有什么帮助呢？"
+ },
+ {
+  "seg": 173,
+  "start": 907.103,
+  "end": 909.624,
+  "speaker": "Unknown",
+  "en": "And like, if I'm running into ingestion problems?",
+  "zh": "比如，如果我遇到了写入方面的问题？"
+ },
+ {
+  "seg": 174,
+  "start": 910.244,
+  "end": 912.285,
+  "speaker": "Unknown",
+  "en": "Like, does changing that bucket size help?",
+  "zh": "因为我知道，是的，在原生 Postgres 里，某些索引确实更适合写密集型应用，有些则不是。"
+ },
+ {
+  "seg": 175,
+  "start": 912.446,
+  "end": 914.967,
+  "speaker": "Unknown",
+  "en": "Are there things I can tinker with what type of index I'm doing?",
+  "zh": "有没有我可以摆弄的东西，比如我用的索引类型？"
+ },
+ {
+  "seg": 176,
+  "start": 914.987,
+  "end": 921.171,
+  "speaker": "Unknown",
+  "en": "Because I know, yeah, definitely in vanilla Postgres, some indexes are better for write-heavy applications versus not.",
+  "zh": "因为我知道,是的,在原生的 Postgres 里,某些索引确实更适合写密集型应用,有些则不是。"
+ },
+ {
+  "seg": 177,
+  "start": 921.251,
+  "end": 922.572,
+  "speaker": "Unknown",
+  "en": "What are the knobs and levers here?",
+  "zh": "这里有哪些旋钮和杠杆？"
+ },
+ {
+  "seg": 178,
+  "start": 923.073,
+  "end": 926.015,
+  "speaker": "Unknown",
+  "en": "The same things really apply to Postgres.",
+  "zh": "其实同样适用于 Postgres 的那些东西。"
+ },
+ {
+  "seg": 179,
+  "start": 926.595,
+  "end": 929.877,
+  "speaker": "Unknown",
+  "en": "The difference really comes down to, I think, the chunk size as well.",
+  "zh": "我认为区别其实归结为 chunk 大小。"
+ },
+ {
+  "seg": 180,
+  "start": 929.917,
+  "end": 930.578,
+  "speaker": "Unknown",
+  "en": "So you end up...",
+  "zh": "所以你最终会……"
+ },
+ {
+  "seg": 181,
+  "start": 931.118,
+  "end": 944.172,
+  "speaker": "Unknown",
+  "en": "With the active, let's say, chunk that you're inserting, if you're just append-only type workload, you want to think about the size that that chunk is going to be as a row store before it's converted into the column store and compressed.",
+  "zh": "对于你正在写入的活动 chunk，比方说，如果你的工作负载只是纯追加类型，你需要考虑在它被转换成列存储并压缩之前，这个 chunk 作为行存储的大小。"
+ },
+ {
+  "seg": 182,
+  "start": 944.653,
+  "end": 948.978,
+  "speaker": "Unknown",
+  "en": "And so the same kind of rules apply, but it allows you, because you have many chunks,",
+  "zh": "所以同样的规则适用，但它允许你，因为你有很多 chunk，"
+ },
+ {
+  "seg": 183,
+  "start": 949.478,
+  "end": 953.119,
+  "speaker": "Unknown",
+  "en": "You only have to worry about that one in terms of the indexes and that.",
+  "zh": "你只需要担心那一个，就索引而言。"
+ },
+ {
+  "seg": 184,
+  "start": 953.199,
+  "end": 967.603,
+  "speaker": "Unknown",
+  "en": "And so what we've seen from that is as you have a normal Postgres table and you ingest over time, you see this linear degradation of actually the amount of rows per second that you can ingest.",
+  "zh": "因此我们从中观察到的是，当你有一张普通的 Postgres 表并随时间写入数据时，你会看到每秒可写入的行数出现线性退化。"
+ },
+ {
+  "seg": 185,
+  "start": 968.243,
+  "end": 976.186,
+  "speaker": "Unknown",
+  "en": "But with TimescaleDB, if you're tuning things appropriately and you have the right chunk size as you work through that, you're not going to see a drop-off in that at all.",
+  "zh": "但用 TimescaleDB，如果你调校得当并且有合适的 chunk 大小，随着数据的推移，你完全不会看到这方面的下降。"
+ },
+ {
+  "seg": 186,
+  "start": 976.686,
+  "end": 984.689,
+  "speaker": "Unknown",
+  "en": "And oningest, the routing algorithm for how it goes to the appropriate chunk, so it allows you to backfill old historic data as well.",
+  "zh": "而且在写入时，路由到合适 chunk 的算法，也让你能够回填旧的历史数据。"
+ },
+ {
+  "seg": 187,
+  "start": 985.089,
+  "end": 987.189,
+  "speaker": "Unknown",
+  "en": "And that's going to be routed to old chunks as well.",
+  "zh": "而那些数据也会被路由到旧的 chunk。"
+ },
+ {
+  "seg": 188,
+  "start": 987.33,
+  "end": 988.19,
+  "speaker": "Unknown",
+  "en": "And by default...",
+  "zh": "默认情况下……"
+ },
+ {
+  "seg": 189,
+  "start": 988.79,
+  "end": 993.351,
+  "speaker": "Unknown",
+  "en": "It goes into the row store and then is converted for a policy into the column store.",
+  "zh": "数据先进入行存储，然后按策略转换为列存储。"
+ },
+ {
+  "seg": 190,
+  "start": 993.732,
+  "end": 997.013,
+  "speaker": "Unknown",
+  "en": "We do have the ability to even to write directly to the column store.",
+  "zh": "我们甚至有能力直接写入列存储。"
+ },
+ {
+  "seg": 191,
+  "start": 997.033,
+  "end": 998.873,
+  "speaker": "Unknown",
+  "en": "And that's something we're evolving over time.",
+  "zh": "这是我们在随时间不断演进的东西。"
+ },
+ {
+  "seg": 192,
+  "start": 999.353,
+  "end": 1010.817,
+  "speaker": "Unknown",
+  "en": "And what we found is you can, on nominal hardware, get to a million rows per second plus from an ingestion standpoint, which is very difficult to do in vanilla Postgres.",
+  "zh": "我们发现，在普通硬件上，从写入的角度可以达到每秒一百万行以上，这在原生 Postgres 里是很难做到的。"
+ },
+ {
+  "seg": 193,
+  "start": 1010.877,
+  "end": 1013.658,
+  "speaker": "Unknown",
+  "en": "And that's going to drop off pretty quickly as your data starts to grow.",
+  "zh": "而且随着你的数据开始增长，这个数字会很快下降。"
+ },
+ {
+  "seg": 194,
+  "start": 1014.211,
+  "end": 1014.952,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure.",
+  "zh": "是的，肯定的。"
+ },
+ {
+  "seg": 195,
+  "start": 1015.032,
+  "end": 1020.596,
+  "speaker": "Unknown",
+  "en": "So would it be fair to say, like, in vanilla Postgres, you see this linear degradation with the size of the table.",
+  "zh": "那么这么说是否公平：在原生 Postgres 里，你会看到随表大小而来的线性退化。"
+ },
+ {
+  "seg": 196,
+  "start": 1021.076,
+  "end": 1024.039,
+  "speaker": "Unknown",
+  "en": "In timescale DB, is that essentially the size of the chunk?",
+  "zh": "在 TimescaleDB 里，那本质上是不是就等于 chunk 的大小？"
+ },
+ {
+  "seg": 197,
+  "start": 1024.379,
+  "end": 1026.901,
+  "speaker": "Unknown",
+  "en": "It's pretty much flat, I've found, is what you can see.",
+  "zh": "我发现它基本是平的，这是你能看到的。"
+ },
+ {
+  "seg": 198,
+  "start": 1026.921,
+  "end": 1034.787,
+  "speaker": "Unknown",
+  "en": "And I think, I forget if it was a Microsoft study or another one that did an actual independent test and benchmark of it, and we see that line is fairly flat.",
+  "zh": "而且，我忘了是微软的研究还是另一个做的真正独立测试和基准，我们看到那条线相当平。"
+ },
+ {
+  "seg": 199,
+  "start": 1035.087,
+  "end": 1041.593,
+  "speaker": "Unknown",
+  "en": "And the chunk size does matter more for probably query performance than it does for ingest performance.",
+  "zh": "而 chunk 大小对查询性能的影响可能大于它对写入性能的影响。"
+ },
+ {
+  "seg": 200,
+  "start": 1042.173,
+  "end": 1052.859,
+  "speaker": "Unknown",
+  "en": "Because most of your chunks, unless you set like 30 days or two months for one and you have a ton of data, it's not going to grow substantial like you would see tens of millions or hundreds of millions in a single one.",
+  "zh": "因为你大部分的分块，除非你给一个分块设置 30 天或两个月并且有海量数据，否则不会增长得很大，你不会在单个分块里看到几千万或几亿的量级。"
+ },
+ {
+  "seg": 201,
+  "start": 1052.88,
+  "end": 1054.24,
+  "speaker": "Unknown",
+  "en": "You're going to start to spread those out.",
+  "zh": "你会开始把它们分散开。"
+ },
+ {
+  "seg": 202,
+  "start": 1054.38,
+  "end": 1058.243,
+  "speaker": "Unknown",
+  "en": "And so you don't run into those same problems that you would see in normal Postgres.",
+  "zh": "这样你就不会遇到在普通 Postgres 里会看到的那些问题。"
+ },
+ {
+  "seg": 203,
+  "start": 1059.203,
+  "end": 1059.724,
+  "speaker": "Unknown",
+  "en": "Makes sense.",
+  "zh": "有道理。"
+ },
+ {
+  "seg": 204,
+  "start": 1060.833,
+  "end": 1066.977,
+  "speaker": "Unknown",
+  "en": "So another thing that I start thinking about when I think about time series style data is aggregates, right?",
+  "zh": "那么另一件我在想到时间序列风格的数据时会开始考虑的事情是聚合，对吧？"
+ },
+ {
+  "seg": 205,
+  "start": 1067.037,
+  "end": 1072,
+  "speaker": "Unknown",
+  "en": "I want to look at things aggregated by day or by week or maybe many different versions of that.",
+  "zh": "我想看按天或按周聚合的东西，或者可能有很多不同的版本。"
+ },
+ {
+  "seg": 206,
+  "start": 1072.08,
+  "end": 1082.546,
+  "speaker": "Unknown",
+  "en": "And if I'm coming from a vanilla Postgres world, maybe I have some materialized views that are computing that for me, or I have a stored procedure that's happening or some application logic that's running this and dumping it into a table.",
+  "zh": "如果我是从原生的 Postgres 世界过来的，也许我有一些物化视图在帮我计算，或者我有一个存储过程在运行，或者一些应用逻辑在运行这个并把它转储进一张表。"
+ },
+ {
+  "seg": 207,
+  "start": 1082.906,
+  "end": 1085.808,
+  "speaker": "Unknown",
+  "en": "How does that work in the timescale DB world?",
+  "zh": "在 TimescaleDB 的世界里这是怎么运作的？"
+ },
+ {
+  "seg": 208,
+  "start": 1086.308,
+  "end": 1099.675,
+  "speaker": "Unknown",
+  "en": "So taking the same concept of materialized views, which are a commonly used concept in relational databases, we've built an extension of that called continuous aggregates, which behind the scenes really are a materialized view.",
+  "zh": "所以采用物化视图这个在关系型数据库中常用的概念，我们构建了它的一个扩展，叫做 continuous aggregates(连续聚合)，它在幕后其实就是物化视图。"
+ },
+ {
+  "seg": 209,
+  "start": 1100.015,
+  "end": 1107.339,
+  "speaker": "Unknown",
+  "en": "It's creating an additional hypertable, but it's aggregating data based upon, we have a function called time bucket.",
+  "zh": "它会创建一个额外的 hypertable,但它会基于——我们有一个叫 time bucket 的函数——来聚合数据。"
+ },
+ {
+  "seg": 210,
+  "start": 1107.359,
+  "end": 1109.6,
+  "speaker": "Unknown",
+  "en": "And I always forget the equivalent in Postgres.",
+  "zh": "而我总是忘记 Postgres 里对应的函数是什么。"
+ },
+ {
+  "seg": 211,
+  "start": 1109.68,
+  "end": 1111.942,
+  "speaker": "Unknown",
+  "en": "It's basically bucketing based upon a time range.",
+  "zh": "它基本上是基于一个时间范围来分桶。"
+ },
+ {
+  "seg": 212,
+  "start": 1112.582,
+  "end": 1121.787,
+  "speaker": "Unknown",
+  "en": "And those are self-updating as well based upon policies as users you set for how often they're updated, how far back you want to update that.",
+  "zh": "而且这些也是基于你为用户设置的策略来自动更新的，比如更新频率、你想往回更新多久。"
+ },
+ {
+  "seg": 213,
+  "start": 1122.007,
+  "end": 1130.452,
+  "speaker": "Unknown",
+  "en": "That allows you to have an aggregate level view of your data that is automatically self-updating when any changes to the hyper table occur.",
+  "zh": "这让你可以对数据拥有一个聚合级别的视图，当 hypertable 发生任何变更时它会自动自我更新。"
+ },
+ {
+  "seg": 214,
+  "start": 1131.153,
+  "end": 1135.115,
+  "speaker": "Unknown",
+  "en": "And users will even often take those and build those hierarchical.",
+  "zh": "用户甚至经常会拿这些去构建层级结构。"
+ },
+ {
+  "seg": 215,
+  "start": 1135.455,
+  "end": 1137.036,
+  "speaker": "Unknown",
+  "en": "So they build off of one another.",
+  "zh": "也就是它们相互叠加构建。"
+ },
+ {
+  "seg": 216,
+  "start": 1137.076,
+  "end": 1139.678,
+  "speaker": "Unknown",
+  "en": "So let's say you had a device that was emitting",
+  "zh": "比如说你有一个设备在持续发送数据，"
+ },
+ {
+  "seg": 217,
+  "start": 1140.378,
+  "end": 1141.079,
+  "speaker": "Unknown",
+  "en": "Every minute.",
+  "zh": "每分钟一次。"
+ },
+ {
+  "seg": 218,
+  "start": 1141.299,
+  "end": 1145.103,
+  "speaker": "Unknown",
+  "en": "And you wanted to roll up that was five minute, one hour, one day, one week.",
+  "zh": "而你想把它汇总成五分钟、一小时、一天、一周。"
+ },
+ {
+  "seg": 219,
+  "start": 1145.704,
+  "end": 1151.831,
+  "speaker": "Unknown",
+  "en": "And you could have four different aggregates that build on each other that are scheduled automatically, that update.",
+  "zh": "你可以有四个不同的聚合相互叠加，它们被自动调度、自动更新。"
+ },
+ {
+  "seg": 220,
+  "start": 1152.351,
+  "end": 1156.776,
+  "speaker": "Unknown",
+  "en": "And that allows you to have, will take what could be hundreds of billions of rows.",
+  "zh": "而这让你可以——它会把可能高达数千亿行"
+ },
+ {
+  "seg": 221,
+  "start": 1157.557,
+  "end": 1165.72,
+  "speaker": "Unknown",
+  "en": "And then breaking that down into individual time buckets and get sub-low millisecond query times to be able to query against them.",
+  "zh": "的数据拆解成单个的时间桶，并获得亚低毫秒级的查询时间来对它们进行查询。"
+ },
+ {
+  "seg": 222,
+  "start": 1166.02,
+  "end": 1179.565,
+  "speaker": "Unknown",
+  "en": "And we have customers that are in our Tiger Cloud environment that have 20,000, 30,000 queries a second that are hitting billions of queries a day against what I would consider nominal hardware, not crazy specialized hardware.",
+  "zh": "我们有客户在 Tiger Cloud 环境里，每秒有两万、三万个查询，每天对——在我认为是普通硬件、并非疯狂专用硬件——打出数十亿次查询。"
+ },
+ {
+  "seg": 223,
+  "start": 1180.085,
+  "end": 1180.265,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 224,
+  "start": 1180.485,
+  "end": 1183.967,
+  "speaker": "Unknown",
+  "en": "Well, that maybe is a good opportunity to start talking about Tiger Cloud, right?",
+  "zh": "那，这也许是个很好的机会来聊聊 Tiger Cloud,对吧？"
+ },
+ {
+  "seg": 225,
+  "start": 1183.987,
+  "end": 1192.351,
+  "speaker": "Unknown",
+  "en": "Because everything we've talked about to date, I could get open source, I put a plug-in in my running Postgres, and as you highlight, like, I don't need very fancy hardware to run this.",
+  "zh": "因为到目前为止我们谈的所有东西，我都可以用开源版本，在我运行中的 Postgres 里装个插件，而且正如你强调的，我不需要非常高级的硬件来运行它。"
+ },
+ {
+  "seg": 226,
+  "start": 1192.991,
+  "end": 1194.211,
+  "speaker": "Unknown",
+  "en": "Why would I go to Tiger Cloud?",
+  "zh": "我为什么要去 Tiger Cloud?"
+ },
+ {
+  "seg": 227,
+  "start": 1194.251,
+  "end": 1195.292,
+  "speaker": "Unknown",
+  "en": "What do you all add there?",
+  "zh": "你们在那里加了什么？"
+ },
+ {
+  "seg": 228,
+  "start": 1195.8,
+  "end": 1199.203,
+  "speaker": "Unknown",
+  "en": "Yeah, so Tiger Cloud has a couple of different features around it.",
+  "zh": "好的，Tiger Cloud 有几个不同的特性。"
+ },
+ {
+  "seg": 229,
+  "start": 1199.323,
+  "end": 1213.033,
+  "speaker": "Unknown",
+  "en": "One is just the overall managed service, the ability to take the pain off the team to run a managed service, much like you would have with RDS on AWS, which I used pretty extensively before coming to Tiger Data for our geospatial product.",
+  "zh": "一个就是整体的托管服务，让团队免去运维托管服务的痛苦，很像你在 AWS 上的 RDS——在来 Tiger Data 之前，我为我们的地理空间产品曾非常广泛地使用过它。"
+ },
+ {
+  "seg": 230,
+  "start": 1213.473,
+  "end": 1216.576,
+  "speaker": "Unknown",
+  "en": "But within that as well, there's a couple of other features beyond that.",
+  "zh": "但除此之外，还有其他几个特性。"
+ },
+ {
+  "seg": 231,
+  "start": 1216.696,
+  "end": 1217.837,
+  "speaker": "Unknown",
+  "en": "So the ability to have",
+  "zh": "比如能够拥有"
+ },
+ {
+  "seg": 232,
+  "start": 1218.557,
+  "end": 1225.101,
+  "speaker": "Unknown",
+  "en": "Read replicas, HA replicas, all self-managed by their team, having a connection load balancer that sits on the outside.",
+  "zh": "只读副本、高可用副本，全部由他们的团队自行管理，外面还挂着一个连接负载均衡器。"
+ },
+ {
+  "seg": 233,
+  "start": 1225.601,
+  "end": 1234.886,
+  "speaker": "Unknown",
+  "en": "So if you need to scale up, if a single instance isn't going to suffice across many different instances, the ability to scale across those many different read replicas as well.",
+  "zh": "所以如果你需要扩容，如果单个实例不足以支撑，能够在多个不同实例之间扩展，也能够在多个只读副本之间扩展。"
+ },
+ {
+  "seg": 234,
+  "start": 1235.587,
+  "end": 1242.431,
+  "speaker": "Unknown",
+  "en": "One of the other features I think that's worth calling out that makes a big difference for users that want to retain a long history of data",
+  "zh": "我认为值得指出的另一个特性，对那些想长期保留数据历史"
+ },
+ {
+  "seg": 235,
+  "start": 1243.231,
+  "end": 1246.192,
+  "speaker": "Unknown",
+  "en": "without keeping all of that data hot is tiered data.",
+  "zh": "而又不想让所有数据都保持热存储的用户来说意义重大，那就是分层数据。"
+ },
+ {
+  "seg": 236,
+  "start": 1246.552,
+  "end": 1259.958,
+  "speaker": "Unknown",
+  "en": "And what it does behind the scenes is it takes a table and let's say you have 10 years of history and you want the first two years to be in hot queryable and then you want the other eight years to be tiered.",
+  "zh": "它在幕后做的事情是：拿一张表，比如说你有 10 年的历史，你想要头两年保持热存储可查询，然后你想要其余八年进行分层。"
+ },
+ {
+  "seg": 237,
+  "start": 1260.618,
+  "end": 1267.782,
+  "speaker": "Unknown",
+  "en": "And now that tiers that off to S3 in the AWS case and then it ensures that in iceberg format behind the scenes.",
+  "zh": "而现在，在 AWS 的情况下它会把数据分层到 S3,并在幕后以 Iceberg 格式确保存储。"
+ },
+ {
+  "seg": 238,
+  "start": 1268.362,
+  "end": 1272.285,
+  "speaker": "Unknown",
+  "en": "But the entire time range is still queryable as one table.",
+  "zh": "但整个时间范围仍然可以作为一张表来查询。"
+ },
+ {
+  "seg": 239,
+  "start": 1272.465,
+  "end": 1282.27,
+  "speaker": "Unknown",
+  "en": "So when you query the table, if you do the first two, if you're expanding outside of that first two years, it's actually hitting and combining those results together to allow you to query that full 10 years.",
+  "zh": "所以当你查询这张表时，如果你——如果你超出了头两年的范围，它实际上会去命中那些数据并把结果合并起来，让你能够查询完整的 10 年。"
+ },
+ {
+  "seg": 240,
+  "start": 1282.55,
+  "end": 1285.052,
+  "speaker": "Unknown",
+  "en": "Now, if you think about, if you had to do that manually,",
+  "zh": "现在，你想想，如果你必须手动做这件事，"
+ },
+ {
+  "seg": 241,
+  "start": 1285.612,
+  "end": 1291.197,
+  "speaker": "Unknown",
+  "en": "You'd have to have some archiving scheme and data pipeline that would go and move that data around.",
+  "zh": "你就得有一套归档方案和数据管道去移动那些数据。"
+ },
+ {
+  "seg": 242,
+  "start": 1291.517,
+  "end": 1292.418,
+  "speaker": "Unknown",
+  "en": "And there's a lot of that.",
+  "zh": "而且这类东西还有很多。"
+ },
+ {
+  "seg": 243,
+  "start": 1292.618,
+  "end": 1298.364,
+  "speaker": "Unknown",
+  "en": "Here you set a tiering policy and it automatically starts tiering that data based upon that date.",
+  "zh": "在这里你设置一个分层策略，它就会根据那个日期自动开始对数据进行分层。"
+ },
+ {
+  "seg": 244,
+  "start": 1298.584,
+  "end": 1302.688,
+  "speaker": "Unknown",
+  "en": "So you can have a much longer history of retention for longer query periods.",
+  "zh": "这样你就可以拥有长得多的保留历史，支持更长的查询周期。"
+ },
+ {
+  "seg": 245,
+  "start": 1303.505,
+  "end": 1305.146,
+  "speaker": "Unknown",
+  "en": "That's fascinating.",
+  "zh": "太有意思了。"
+ },
+ {
+  "seg": 246,
+  "start": 1305.246,
+  "end": 1316.495,
+  "speaker": "Unknown",
+  "en": "Well, and that gets into, I mean, there's all sorts of different things that people do right now in terms of piping data into warehousing or analytics stores or lake houses or all these different things.",
+  "zh": "那，这就引出了——我是说，现在人们在把数据接入数仓或分析存储或湖仓或所有这些东西方面有各种不同的做法。"
+ },
+ {
+  "seg": 247,
+  "start": 1316.535,
+  "end": 1318.377,
+  "speaker": "Unknown",
+  "en": "Like, are you moving in that space as well?",
+  "zh": "你们是否也在进入那个领域？"
+ },
+ {
+  "seg": 248,
+  "start": 1318.397,
+  "end": 1321.139,
+  "speaker": "Unknown",
+  "en": "Or is this staying constrained to these like timescale bucket?",
+  "zh": "还是说这仍然局限于这些类似时间序列桶的东西？"
+ },
+ {
+  "seg": 249,
+  "start": 1321.379,
+  "end": 1326.782,
+  "speaker": "Unknown",
+  "en": "Now, we're also moving in that space with a product that is due for full release later this year.",
+  "zh": "是的，我们也在进入那个领域，有一个产品预计将于今年晚些时候全面发布。"
+ },
+ {
+  "seg": 250,
+  "start": 1326.882,
+  "end": 1328.703,
+  "speaker": "Unknown",
+  "en": "It's still in beta right now, which is Tiger Lake.",
+  "zh": "它现在仍处于 beta 阶段，也就是 Tiger Lake。"
+ },
+ {
+  "seg": 251,
+  "start": 1329.263,
+  "end": 1339.369,
+  "speaker": "Unknown",
+  "en": "And that's to allow that bi-directional connectivity with other teams often where you would have that data in an iceberg format, pushing data to Snowflake, pushing data to Databricks.",
+  "zh": "这是为了实现与其他团队的双向连接，通常你的数据是以 iceberg 格式存放的，把数据推送到 Snowflake，推送到 Databricks。"
+ },
+ {
+  "seg": 252,
+  "start": 1339.989,
+  "end": 1342.352,
+  "speaker": "Unknown",
+  "en": "And ability to use those other processes.",
+  "zh": "以及使用那些其他流程的能力。"
+ },
+ {
+  "seg": 253,
+  "start": 1342.452,
+  "end": 1343.773,
+  "speaker": "Unknown",
+  "en": "And like I said, that's bi-directional.",
+  "zh": "就像我说的，这是双向的。"
+ },
+ {
+  "seg": 254,
+  "start": 1343.793,
+  "end": 1352.222,
+  "speaker": "Unknown",
+  "en": "Maybe we are bringing data in where Tiger data or timescale becomes your operational database for your dashboards where you need really fast responsiveness.",
+  "zh": "也许我们在把数据引入进来，让 Tiger data 或 timescale 成为你的操作型数据库，用于需要极快响应速度的仪表盘。"
+ },
+ {
+  "seg": 255,
+  "start": 1352.662,
+  "end": 1362.793,
+  "speaker": "Unknown",
+  "en": "Maybe you have a data science team or another analytical team that's consuming that using Snowflake, Dataprix or Athena in AWS and the ability to have that live in both locations.",
+  "zh": "也许你有一个数据科学团队或其他分析团队，他们在用 Snowflake、Dataprix 或 AWS 里的 Athena 来消费这些数据，而数据可以同时存在于两个地方。"
+ },
+ {
+  "seg": 256,
+  "start": 1363.353,
+  "end": 1365.794,
+  "speaker": "Unknown",
+  "en": "And I've even seen it too for compliance reasons.",
+  "zh": "我甚至见过出于合规原因的用法。"
+ },
+ {
+  "seg": 257,
+  "start": 1366.295,
+  "end": 1369.917,
+  "speaker": "Unknown",
+  "en": "Organizations need multiple copies of that data in multiple places.",
+  "zh": "组织需要在多个地方保留多份数据副本。"
+ },
+ {
+  "seg": 258,
+  "start": 1369.977,
+  "end": 1384.845,
+  "speaker": "Unknown",
+  "en": "And so instead of having to build that data pipeline themselves, they kind of make that automatic where you just enable this feature and it automatically where based on the data that you've selected, it automatically starts writing using Tiger Lake out to S3.",
+  "zh": "这样他们就不必自己构建那条数据管道，而是让这变得自动化——你只需启用这个功能，根据你选择的数据，它会自动开始通过 Tiger Lake 写出到 S3。"
+ },
+ {
+  "seg": 259,
+  "start": 1385.045,
+  "end": 1387.467,
+  "speaker": "Unknown",
+  "en": "And we also have the equivalent on Azure as well.",
+  "zh": "我们在 Azure 上也有对应的功能。"
+ },
+ {
+  "seg": 260,
+  "start": 1388.124,
+  "end": 1389.265,
+  "speaker": "Unknown",
+  "en": "Yeah, super interesting.",
+  "zh": "是的，非常有意思。"
+ },
+ {
+  "seg": 261,
+  "start": 1389.886,
+  "end": 1396.872,
+  "speaker": "Unknown",
+  "en": "So I'm going to go a little bit more hypothetical now because we're talking about these different things and I'm like starting to see the picture that this looks like, right?",
+  "zh": "所以我现在要更假设性地聊一下，因为我们正在谈这些不同的东西，我开始看出这看起来的样子了，对吧？"
+ },
+ {
+  "seg": 262,
+  "start": 1396.892,
+  "end": 1399.834,
+  "speaker": "Unknown",
+  "en": "It's a lot easier to manage than, I mean, my current situation, right?",
+  "zh": "它比我现在的处境要容易管理得多，对吧？"
+ },
+ {
+  "seg": 263,
+  "start": 1399.854,
+  "end": 1405.98,
+  "speaker": "Unknown",
+  "en": "I've got stuff in Postgres and a few different places and then we're shifting things into AWS and have this whole processing pipeline.",
+  "zh": "我有东西在 Postgres 里和另外几个不同的地方，然后我们把东西转移到 AWS，并有一整套处理管道。"
+ },
+ {
+  "seg": 264,
+  "start": 1406.64,
+  "end": 1410.324,
+  "speaker": "Unknown",
+  "en": "How do you see this changing the way that people manage their data?",
+  "zh": "你如何看待这会改变人们管理数据的方式？"
+ },
+ {
+  "seg": 265,
+  "start": 1410.864,
+  "end": 1425.566,
+  "speaker": "Unknown",
+  "en": "Yeah, no, I think the goal is to make it easier so people aren't focusing on the plumbing and all the work around it and are focusing on the business problems and solving them and enabling really multiple teams to be effective using some of the same data.",
+  "zh": "是的，我认为目标是让它变得更容易，让人们不必专注于管道工程和围绕它的所有工作，而是专注于业务问题并解决它们，并真正让多个团队能够高效地使用同一份数据。"
+ },
+ {
+  "seg": 266,
+  "start": 1425.826,
+  "end": 1436.913,
+  "speaker": "Unknown",
+  "en": "And the intent is that you can get that right depending on where your source of record is or where you're ingesting, if you're bringing it directly into Postgres, into Tiger data, and then being able to use that downstream and other processes.",
+  "zh": "意图是你可以做到这一点，取决于你的记录源在哪里，或者你在哪里摄取数据，如果你把数据直接引入 Postgres，引入 Tiger data，然后能够在下游和其他流程中使用它。"
+ },
+ {
+  "seg": 267,
+  "start": 1437.373,
+  "end": 1443.637,
+  "speaker": "Unknown",
+  "en": "Maybe a team writes their data directly to S3 and then that to hold in and operationally enabled through Tiger data.",
+  "zh": "也许一个团队把他们的数据直接写到 S3，然后那个再被操作性地通过 Tiger data 启用。"
+ },
+ {
+  "seg": 268,
+  "start": 1444.057,
+  "end": 1453.243,
+  "speaker": "Unknown",
+  "en": "So it allows for flexibility for how you want to work, ingest your data and bring it in, but then making it exposed and sort of democratizing that for the team.",
+  "zh": "所以它为你想如何工作、如何摄取数据并把数据引入提供了灵活性，然后让它暴露出来，并在某种程度上为团队实现民主化。"
+ },
+ {
+  "seg": 269,
+  "start": 1453.923,
+  "end": 1469.148,
+  "speaker": "Unknown",
+  "en": "Broadly, but not having to worry about all the plumbing and all the work that needs to be done, which AI makes it easier from a development perspective, but if you don't have to manage to do that yourself, you're focusing on using the data and leveraging it both in your applications and your other downstream analytical processes.",
+  "zh": "从大的方面讲，但又不必担心所有的管道工程和所有需要做的工作，AI 从开发角度让它更容易，但如果你不需要自己去管理做那些，你就能专注于使用数据，并在你的应用和其他下游分析流程中利用它。"
+ },
+ {
+  "seg": 270,
+  "start": 1469.664,
+  "end": 1469.884,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 271,
+  "start": 1470.544,
+  "end": 1473.446,
+  "speaker": "Unknown",
+  "en": "So we talked about some of the plumbing that makes this possible, right?",
+  "zh": "那么我们谈到了一些让这一切成为可能的管道工程，对吧？"
+ },
+ {
+  "seg": 272,
+  "start": 1473.466,
+  "end": 1477.208,
+  "speaker": "Unknown",
+  "en": "You have these hyper tables and the hybrid row column stuff.",
+  "zh": "你有这些 hyper tables 和混合行列的东西。"
+ },
+ {
+  "seg": 273,
+  "start": 1477.268,
+  "end": 1478.749,
+  "speaker": "Unknown",
+  "en": "Are there any missing primitives?",
+  "zh": "还有缺失的基元吗？"
+ },
+ {
+  "seg": 274,
+  "start": 1478.789,
+  "end": 1483.371,
+  "speaker": "Unknown",
+  "en": "Are there primitives that you all are still working on that you feel like are needed to realize that vision?",
+  "zh": "有没有你们仍在开发的、你觉得为实现那个愿景所必需的基元？"
+ },
+ {
+  "seg": 275,
+  "start": 1483.711,
+  "end": 1489.615,
+  "speaker": "Unknown",
+  "en": "And by primitives, I mean, I mean, we really support everything that's in Postgres today, right?",
+  "zh": "说到基元，我是说，我们今天已经支持 Postgres 里的一切了，对吧？"
+ },
+ {
+  "seg": 276,
+  "start": 1489.635,
+  "end": 1489.775,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 277,
+  "start": 1490.655,
+  "end": 1495.64,
+  "speaker": "Unknown",
+  "en": "It is vanilla Postgres with these extension to be able to then partition the data.",
+  "zh": "它就是原生的 Postgres，加上这些扩展，以便能够对数据进行分区。"
+ },
+ {
+  "seg": 278,
+  "start": 1495.72,
+  "end": 1499.864,
+  "speaker": "Unknown",
+  "en": "So if there are other, you mean from a data sync perspective or other areas?",
+  "zh": "所以如果有其他的，你是从数据同步的角度说，还是其他领域？"
+ },
+ {
+  "seg": 279,
+  "start": 1499.884,
+  "end": 1505.891,
+  "speaker": "Unknown",
+  "en": "I'm just thinking like we're talking about a future that, I mean, as someone who increasingly is like, I just want to see the answers, right?",
+  "zh": "我只是在想，我们在谈一个未来，我是说，作为一个越来越觉得“我只想看到答案”的人，对吧？"
+ },
+ {
+  "seg": 280,
+  "start": 1505.911,
+  "end": 1507.252,
+  "speaker": "Unknown",
+  "en": "I don't want to think about the details.",
+  "zh": "我不想思考细节。"
+ },
+ {
+  "seg": 281,
+  "start": 1507.432,
+  "end": 1511.116,
+  "speaker": "Unknown",
+  "en": "Like I really resonate with your vision for like, we'll focus on the business problem.",
+  "zh": "就像我非常认同你们的愿景，比如，我们会专注于业务问题。"
+ },
+ {
+  "seg": 282,
+  "start": 1511.216,
+  "end": 1511.897,
+  "speaker": "Unknown",
+  "en": "Let's focus there.",
+  "zh": "让我们专注于那里。"
+ },
+ {
+  "seg": 283,
+  "start": 1512.408,
+  "end": 1515.95,
+  "speaker": "Unknown",
+  "en": "HyperTables, TimescaleDB was arising out of a thing that was a gap, right?",
+  "zh": "HyperTables、TimescaleDB 是从一个缺口中产生的，对吧？"
+ },
+ {
+  "seg": 284,
+  "start": 1515.99,
+  "end": 1516.85,
+  "speaker": "Unknown",
+  "en": "There's a gap already.",
+  "zh": "这里已经有一个缺口。"
+ },
+ {
+  "seg": 285,
+  "start": 1517.17,
+  "end": 1520.772,
+  "speaker": "Unknown",
+  "en": "Do you feel like with this, like all the pieces are there and it's about execution?",
+  "zh": "你觉得有了这个，是不是所有的拼图都齐了，剩下的就是执行？"
+ },
+ {
+  "seg": 286,
+  "start": 1520.852,
+  "end": 1534.379,
+  "speaker": "Unknown",
+  "en": "Or are there like core underlying things that you all are working on that are like, oh, actually we also need, I don't know, maybe it's like, I keep going back to non-time related partitions because that's what I was dealing with back when I was dealing with the scope of data.",
+  "zh": "还是说有一些你们正在研究的底层核心的东西，让你觉得“哦，其实我们还需要……”，我不知道，也许就像，我一直回到非时间相关的分区，因为那是我以前处理数据范围时面对的东西。"
+ },
+ {
+  "seg": 287,
+  "start": 1534.439,
+  "end": 1538.862,
+  "speaker": "Unknown",
+  "en": "But like, are there things on the roadmap where you're like, oh, this is really going to open another door?",
+  "zh": "但是比如，路线图上有没有让你觉得“哦，这真的会打开另一扇门”的东西？"
+ },
+ {
+  "seg": 288,
+  "start": 1539.562,
+  "end": 1546.927,
+  "speaker": "Unknown",
+  "en": "So I think it's more around enabling others to use these different things and some of the tooling around this to make it easier to consume and get set up.",
+  "zh": "我认为更多是关于让其他人能够使用这些不同的东西，以及围绕它的一些工具，让消费和设置变得更容易。"
+ },
+ {
+  "seg": 289,
+  "start": 1547.007,
+  "end": 1562.558,
+  "speaker": "Unknown",
+  "en": "There are some pieces of the learning curve, and we've spent a lot of time building out our CLI and MCP, as well as something we call PGII Guide, which is a guide that will guide coding agents to leverage all of the capabilities and tools very easily.",
+  "zh": "学习曲线上有一些环节，我们花了很多时间构建我们的 CLI 和 MCP，还有一个我们叫做 PGII Guide 的东西，它是一个指南，会引导编码智能体非常轻松地利用所有的能力和工具。"
+ },
+ {
+  "seg": 290,
+  "start": 1562.798,
+  "end": 1563.358,
+  "speaker": "Unknown",
+  "en": "And so I've",
+  "zh": "所以我——"
+ },
+ {
+  "seg": 291,
+  "start": 1564.379,
+  "end": 1575.385,
+  "speaker": "Unknown",
+  "en": "Even personally, just building some side projects, building a home project for all my data telemetry for my entire smart home, and then using MQTE protocol to push that in.",
+  "zh": "甚至就我个人而言，只是构建一些副项目，为我的整个智能家居构建一个家庭项目，用于我所有的数据遥测，然后使用 MQTE 协议把数据推进来。"
+ },
+ {
+  "seg": 292,
+  "start": 1575.605,
+  "end": 1582.369,
+  "speaker": "Unknown",
+  "en": "I built a majority of that just giving it a description of what I wanted in the coding agent using the CLI and MCP.",
+  "zh": "我构建了其中的大部分，只是在编码智能体里给了它一份我想要的东西的描述，使用 CLI 和 MCP。"
+ },
+ {
+  "seg": 293,
+  "start": 1583.049,
+  "end": 1585.95,
+  "speaker": "Unknown",
+  "en": "And didn't even have to touch anything on the database side.",
+  "zh": "甚至都不用碰数据库那一侧的任何东西。"
+ },
+ {
+  "seg": 294,
+  "start": 1586.11,
+  "end": 1597.515,
+  "speaker": "Unknown",
+  "en": "And it built everything from the schema to designs, the hyper table design, the continuous aggregate design, all of those things very well guided to get you set up in just a few hours, right?",
+  "zh": "它构建了从 schema 到设计、hyper table 设计、连续聚合设计的所有东西，所有这些都被很好地引导，让你在短短几个小时内就设置好，对吧？"
+ },
+ {
+  "seg": 295,
+  "start": 1597.595,
+  "end": 1604.798,
+  "speaker": "Unknown",
+  "en": "And so up and running and then tying that back into my home assistant and then a couple other things on top of that.",
+  "zh": "然后就运行起来了，再把它接回我的 home assistant，以及在此之上的一些其他东西。"
+ },
+ {
+  "seg": 296,
+  "start": 1604.879,
+  "end": 1609.761,
+  "speaker": "Unknown",
+  "en": "But being able to do that very quickly and enabling someone without having to",
+  "zh": "但是能够非常快速地做到这一点，并让某个人不必——"
+ },
+ {
+  "seg": 297,
+  "start": 1610.702,
+  "end": 1614.067,
+  "speaker": "Unknown",
+  "en": "You know, you understand Postgres and it's good to understand the concepts.",
+  "zh": "你知道的，你理解 Postgres，理解这些概念是好事。"
+ },
+ {
+  "seg": 298,
+  "start": 1614.287,
+  "end": 1621.157,
+  "speaker": "Unknown",
+  "en": "But I think as we get, you know, more and more down this road, you want to focus on building and not necessarily understanding every technical concept.",
+  "zh": "但是我认为随着我们在这条路上越走越远，你会想要专注于构建，而不必理解每一个技术概念。"
+ },
+ {
+  "seg": 299,
+  "start": 1621.478,
+  "end": 1625.504,
+  "speaker": "Unknown",
+  "en": "But from a roadmap perspective, it's making these things easier and more turnkey.",
+  "zh": "但从路线图的角度来说，就是让这些东西更容易、更开箱即用。"
+ },
+ {
+  "seg": 300,
+  "start": 1626.004,
+  "end": 1639.697,
+  "speaker": "Unknown",
+  "en": "And ability to scale higher and higher because the needs of what we're seeing as we focus as a business in the physical world, all of these industrial applications, it's a growing from data centers to solar, any number of things.",
+  "zh": "还有越扩越大的能力,因为随着我们作为一个业务聚焦在物理世界,所有这些工业应用,从数据中心到太阳能等等各种领域都在增长。"
+ },
+ {
+  "seg": 301,
+  "start": 1640.077,
+  "end": 1645.563,
+  "speaker": "Unknown",
+  "en": "The number of devices and the amount of data being emitted is just exploding and the volume of it.",
+  "zh": "设备的数量和被发射出的数据量正在爆炸式增长,数据体量非常大。"
+ },
+ {
+  "seg": 302,
+  "start": 1645.603,
+  "end": 1649.286,
+  "speaker": "Unknown",
+  "en": "And so one, making that easier and two, making that easier to scale.",
+  "zh": "所以第一,让它变得更容易,第二,让它更容易扩展。"
+ },
+ {
+  "seg": 303,
+  "start": 1649.326,
+  "end": 1650.928,
+  "speaker": "Unknown",
+  "en": "So you have that long history of data.",
+  "zh": "这样你就拥有长期的历史数据。"
+ },
+ {
+  "seg": 304,
+  "start": 1651.408,
+  "end": 1656.711,
+  "speaker": "Unknown",
+  "en": "Without having to sacrifice the value of something like Postgres and the developer kind of productivity around it.",
+  "zh": "而不必牺牲像 Postgres 这样的价值以及围绕它的开发者生产力。"
+ },
+ {
+  "seg": 305,
+  "start": 1657.292,
+  "end": 1658.633,
+  "speaker": "Unknown",
+  "en": "Yeah, that's really interesting.",
+  "zh": "是的,这真的很有意思。"
+ },
+ {
+  "seg": 306,
+  "start": 1658.993,
+  "end": 1664.196,
+  "speaker": "Unknown",
+  "en": "It reminds me of, yeah, conversations I've had with people doing like test infrastructure for physical world stuff.",
+  "zh": "这让我想起,是的,我和一些做物理世界测试基础设施的人聊过。"
+ },
+ {
+  "seg": 307,
+  "start": 1664.696,
+  "end": 1668.619,
+  "speaker": "Unknown",
+  "en": "Like the volume of data is unreal to somebody coming from a web background.",
+  "zh": "比如对于来自网页背景的人来说,数据量是不真实的。"
+ },
+ {
+  "seg": 308,
+  "start": 1669.677,
+  "end": 1687.108,
+  "speaker": "Unknown",
+  "en": "Yeah, it's very different, because I built a lot of web applications in my time, and you basically have CRUD operations with reading and writing, and it's a different problem space when you have something that's emitting a lot of time series data, and it's an entirely set of different challenges.",
+  "zh": "是的,非常不同,因为我当年构建过很多网页应用,你基本上就是读写之类的 CRUD 操作,而当你有一个发射大量时间序列数据的东西时,这是一个不同的问题空间,是一整套完全不同的挑战。"
+ },
+ {
+  "seg": 309,
+  "start": 1688.269,
+  "end": 1699.553,
+  "speaker": "Unknown",
+  "en": "People will look at an LLM or Google it and their specific problem, whether it's write and jest, challenges, read problems or queries, and stumble upon something like TimescaleDB.",
+  "zh": "人们会去查 LLM 或者谷歌搜索他们的具体问题,无论是写入和 jest 的挑战、读取问题还是查询,然后偶然发现像 TimescaleDB 这样的东西。"
+ },
+ {
+  "seg": 310,
+  "start": 1699.953,
+  "end": 1703.454,
+  "speaker": "Unknown",
+  "en": "And I'll be honest, before I joined, I didn't know it existed as a product.",
+  "zh": "老实说,在我加入之前,我不知道它作为一个产品存在。"
+ },
+ {
+  "seg": 311,
+  "start": 1703.734,
+  "end": 1705.375,
+  "speaker": "Unknown",
+  "en": "So to me, it was a new product.",
+  "zh": "所以对我来说,它是一个新产品。"
+ },
+ {
+  "seg": 312,
+  "start": 1705.415,
+  "end": 1716.259,
+  "speaker": "Unknown",
+  "en": "And so it was cool to see how they took the extensibility of it and built this specialized timeshare database without sacrificing all of the other capabilities.",
+  "zh": "所以看到他们如何利用它的可扩展性并构建这个专门的时间序列数据库,同时不牺牲所有其他能力,这是很酷的。"
+ },
+ {
+  "seg": 313,
+  "start": 1716.748,
+  "end": 1718.169,
+  "speaker": "Unknown",
+  "en": "Yeah, so that's kind of interesting.",
+  "zh": "是的,这挺有意思。"
+ },
+ {
+  "seg": 314,
+  "start": 1718.209,
+  "end": 1730.216,
+  "speaker": "Unknown",
+  "en": "So from that educational standpoint, we talked about some use cases earlier, but if I'm a developer, what are the things that are gonna cause me to, where I should be like, oh, I should check out TimescaleDB?",
+  "zh": "那么从教育的角度来说,我们之前聊过一些用例,但如果我是一个开发者,有什么东西会让我觉得,哦,我应该去看看 TimescaleDB?"
+ },
+ {
+  "seg": 315,
+  "start": 1730.276,
+  "end": 1733.177,
+  "speaker": "Unknown",
+  "en": "What are the problem spaces that maybe I would ask my agent about?",
+  "zh": "有哪些问题空间是我也许会问我的智能体的?"
+ },
+ {
+  "seg": 316,
+  "start": 1733.237,
+  "end": 1736.999,
+  "speaker": "Unknown",
+  "en": "And I should just have my head in the space of, oh, this is probably a time series problem.",
+  "zh": "而且我应该心里想着,哦,这大概是一个时间序列问题。"
+ },
+ {
+  "seg": 317,
+  "start": 1738.38,
+  "end": 1745.205,
+  "speaker": "Unknown",
+  "en": "We see a lot of Greenfield applications as the sort of the visibility and kind of people are more familiar with it.",
+  "zh": "随着可见度的提高和人们对它越来越熟悉,我们看到很多全新开发的应用。"
+ },
+ {
+  "seg": 318,
+  "start": 1745.765,
+  "end": 1749.968,
+  "speaker": "Unknown",
+  "en": "You know, I think any time because you're starting with Postgres, so you have all your relational stuff.",
+  "zh": "你知道,我觉得任何时候,因为你从 Postgres 开始,所以你拥有所有关系型的东西。"
+ },
+ {
+  "seg": 319,
+  "start": 1750.068,
+  "end": 1758.754,
+  "speaker": "Unknown",
+  "en": "But if you're building an application where you have any time series data and you know over time it's going to grow, I don't think you can go wrong in starting with it.",
+  "zh": "但如果你在构建一个拥有任何时间序列数据、而且你知道它会随时间增长的应用,我认为从它开始不会有错。"
+ },
+ {
+  "seg": 320,
+  "start": 1758.854,
+  "end": 1761.976,
+  "speaker": "Unknown",
+  "en": "And whether that's even local and building, you know, locally.",
+  "zh": "甚至哪怕是在本地、在本地进行构建。"
+ },
+ {
+  "seg": 321,
+  "start": 1762.576,
+  "end": 1766.22,
+  "speaker": "Unknown",
+  "en": "Take you five minutes to stand up a Docker image and run it local and test it out.",
+  "zh": "花 5 分钟启动一个 Docker 镜像,在本地运行并测试一下。"
+ },
+ {
+  "seg": 322,
+  "start": 1766.26,
+  "end": 1769.244,
+  "speaker": "Unknown",
+  "en": "So it's very straightforward with a single line curl install.",
+  "zh": "所以它非常简单,一行 curl 安装。"
+ },
+ {
+  "seg": 323,
+  "start": 1769.785,
+  "end": 1777.534,
+  "speaker": "Unknown",
+  "en": "But if you know you're going to have data that's going to emit a number of time series values, it makes sense just to start with that.",
+  "zh": "但如果你知道你将拥有会发射大量时间序列值的数据,那么直接从它开始是有意义的。"
+ },
+ {
+  "seg": 324,
+  "start": 1777.854,
+  "end": 1792.425,
+  "speaker": "Unknown",
+  "en": "On the flip side, if you're talking about Brownfield applications and customers are starting to run into this issue, you know, typically you're going to just have a significant volume of data and maybe you don't even have any, you know, query challenges or ingest issues yet.",
+  "zh": "反过来说,如果你说的是存量改造的应用,客户开始遇到这个问题,你知道,通常你会只是拥有大量的数据,也许你甚至还没有任何,你知道,查询挑战或摄入问题。"
+ },
+ {
+  "seg": 325,
+  "start": 1792.585,
+  "end": 1797.709,
+  "speaker": "Unknown",
+  "en": "But just the footprint, and we've seen this, I did a webinar with CERN a couple of weeks ago.",
+  "zh": "但仅仅是占用的空间,我们见过这种情况,我几周前和 CERN 做了一场网络研讨会。"
+ },
+ {
+  "seg": 326,
+  "start": 1798.509,
+  "end": 1803.533,
+  "speaker": "Unknown",
+  "en": "And they were using a previous database before and had migrated over to TimescaleDB.",
+  "zh": "他们之前使用另一个数据库,后来迁移到了 TimescaleDB。"
+ },
+ {
+  "seg": 327,
+  "start": 1803.553,
+  "end": 1808.096,
+  "speaker": "Unknown",
+  "en": "And one of the things they called out, they had like 70 terabytes of data for time series across.",
+  "zh": "他们指出的其中一点是,他们有大约 70TB 的时间序列数据。"
+ },
+ {
+  "seg": 328,
+  "start": 1808.116,
+  "end": 1811.358,
+  "speaker": "Unknown",
+  "en": "This is like the Hadron Collider and all the other devices in CERN.",
+  "zh": "这是像强子对撞机以及 CERN 的所有其他设备。"
+ },
+ {
+  "seg": 329,
+  "start": 1811.799,
+  "end": 1818.504,
+  "speaker": "Unknown",
+  "en": "And by moving over and getting the value of compression, they reduced that footprint from 70 terabytes down to five terabytes.",
+  "zh": "通过迁移过来并获得压缩的价值,他们把占用的空间从 70TB 降到了 5TB。"
+ },
+ {
+  "seg": 330,
+  "start": 1819.064,
+  "end": 1824.927,
+  "speaker": "Unknown",
+  "en": "They were able to then actually run that on higher speed SSDs, NVMe SSDs.",
+  "zh": "然后他们实际上能够在更高速度的 SSD、NVMe SSD 上运行它。"
+ },
+ {
+  "seg": 331,
+  "start": 1825.547,
+  "end": 1835.793,
+  "speaker": "Unknown",
+  "en": "So they just got better performance by default on all of their data because that 70 terabyte footprint that was spread out over maybe more disk, they were able to get on faster disk as well.",
+  "zh": "所以他们所有数据的默认性能都变得更好了,因为那原本分散在更多磁盘上的 70TB 空间,他们也能放到更快的磁盘上了。"
+ },
+ {
+  "seg": 332,
+  "start": 1835.873,
+  "end": 1845.858,
+  "speaker": "Unknown",
+  "en": "So the compression and reduction in footprint allows you to have, you know, using more commoditized hardware and get better performance both in terms of throughput with multiple",
+  "zh": "所以压缩和占用空间的缩减让你能够,你知道,使用更普通的硬件,同时在吞吐量等多个方面获得更好的性能"
+ },
+ {
+  "seg": 333,
+  "start": 1846.098,
+  "end": 1853.608,
+  "speaker": "Unknown",
+  "en": "So, I think it's a good thing to do with users hitting it as well as sort of, you know, as you have any ingest challenges if you have high volume of data as well.",
+  "zh": "所以,我认为对于遇到这个问题的用户来说,这是一件好事,而且,你知道,如果你有大量数据、有任何摄入挑战的话,也是如此。"
+ },
+ {
+  "seg": 334,
+  "start": 1854.552,
+  "end": 1858.615,
+  "speaker": "Unknown",
+  "en": "It's interesting, again, to think of like, oh, the data problems that CERN has, right?",
+  "zh": "再次想想 CERN 那样的数据问题,这很有意思,对吧?"
+ },
+ {
+  "seg": 335,
+  "start": 1858.635,
+  "end": 1865.139,
+  "speaker": "Unknown",
+  "en": "Like they're like doing ridiculous amounts of just stuff coming off of every one of those runs and they've got to deal with that.",
+  "zh": "他们每一次运行都会产生荒谬数量的东西,他们必须处理这些。"
+ },
+ {
+  "seg": 336,
+  "start": 1865.799,
+  "end": 1868.281,
+  "speaker": "Unknown",
+  "en": "It's pretty different than those of us building web apps.",
+  "zh": "和我们这些构建网页应用的人相比,这非常不同。"
+ },
+ {
+  "seg": 337,
+  "start": 1868.641,
+  "end": 1879.589,
+  "speaker": "Unknown",
+  "en": "I guess a lot of work now moving into the AI space as well, like it feels like there's so many more data points that we're trying to integrate tracing and observability and things like that.",
+  "zh": "我猜现在很多工作也在转向 AI 领域,感觉有更多的数据点我们试图整合,比如追踪和可观测性之类的。"
+ },
+ {
+  "seg": 338,
+  "start": 1879.669,
+  "end": 1881.33,
+  "speaker": "Unknown",
+  "en": "Are there any features aimed at",
+  "zh": "有没有针对"
+ },
+ {
+  "seg": 339,
+  "start": 1881.87,
+  "end": 1883.551,
+  "speaker": "Unknown",
+  "en": "You know, agentic use of these tools.",
+  "zh": "你知道的,这些工具的智能体使用的功能。"
+ },
+ {
+  "seg": 340,
+  "start": 1883.591,
+  "end": 1888.995,
+  "speaker": "Unknown",
+  "en": "You mentioned like kind of exposing it for as in like the developer ecosystem, but what about other uses?",
+  "zh": "你提到了像是为开发者生态做曝光之类的事情,但其他用途呢?"
+ },
+ {
+  "seg": 341,
+  "start": 1889.435,
+  "end": 1890.936,
+  "speaker": "Unknown",
+  "en": "This is one of the nice things as well.",
+  "zh": "这也是好处之一。"
+ },
+ {
+  "seg": 342,
+  "start": 1890.996,
+  "end": 1893.278,
+  "speaker": "Unknown",
+  "en": "You don't have to have a separate vector database.",
+  "zh": "你不需要单独的向量数据库。"
+ },
+ {
+  "seg": 343,
+  "start": 1893.338,
+  "end": 1907.107,
+  "speaker": "Unknown",
+  "en": "You have, you know, PG vector and we also have an extension PG vector scale that scales out to, as you get to larger data sets, but you have your vector embeddings right alongside all of your other data that could be a part of this hyper table and time series data.",
+  "zh": "你有 PG vector,我们还有一个扩展 PG vector scale,随着数据集变大可以向外扩展,而且你的向量嵌入就和其他所有数据放在一起,可以是这个超表和时间序列数据的一部分。"
+ },
+ {
+  "seg": 344,
+  "start": 1907.188,
+  "end": 1907.328,
+  "speaker": "Unknown",
+  "en": "So",
+  "zh": "所以"
+ },
+ {
+  "seg": 345,
+  "start": 1908.008,
+  "end": 1916.231,
+  "speaker": "Unknown",
+  "en": "You have the value of a time series database with a transactional relational and the ability to have vector embeddings stored right alongside of that.",
+  "zh": "你既拥有时间序列数据库的价值,又有事务型关系型能力,还能把向量嵌入直接存储在其中。"
+ },
+ {
+  "seg": 346,
+  "start": 1916.351,
+  "end": 1920.812,
+  "speaker": "Unknown",
+  "en": "And maybe that's what you were getting to in terms of the other primitives as well.",
+  "zh": "也许这就是你在其他原语方面想要问的。"
+ },
+ {
+  "seg": 347,
+  "start": 1921.192,
+  "end": 1923.433,
+  "speaker": "Unknown",
+  "en": "That's a common use case where you need that.",
+  "zh": "这是一个需要它的常见用例。"
+ },
+ {
+  "seg": 348,
+  "start": 1923.553,
+  "end": 1925.574,
+  "speaker": "Unknown",
+  "en": "And we also have authored something",
+  "zh": "我们还编写了一个"
+ },
+ {
+  "seg": 349,
+  "start": 1926.254,
+  "end": 1930.497,
+  "speaker": "Unknown",
+  "en": "called PG Text Search, which is an open source extension for Text Search.",
+  "zh": "叫做 PG Text Search 的东西,这是一个用于文本搜索的开源扩展。"
+ },
+ {
+  "seg": 350,
+  "start": 1930.957,
+  "end": 1935.9,
+  "speaker": "Unknown",
+  "en": "And we've seen it, you know, scale alongside what you would see, you know, comparable to Elastic Search.",
+  "zh": "而且我们已经看到它随之扩展，你知道的，可以与 Elastic Search 相媲美。"
+ },
+ {
+  "seg": 351,
+  "start": 1935.96,
+  "end": 1944.166,
+  "speaker": "Unknown",
+  "en": "So you have, and you can build a true hybrid search using a combination of Text Search and vector embeddings, and then combining those two together.",
+  "zh": "所以你有，你可以用文本搜索和向量嵌入的组合来构建真正的混合搜索，然后把这两者结合起来。"
+ },
+ {
+  "seg": 352,
+  "start": 1944.786,
+  "end": 1956.375,
+  "speaker": "Unknown",
+  "en": "So we've seen it in like the telemetry space where oftentimes you have other metadata or other textual descriptions that you would want to search against to then get back to the underlying readings and the values of that.",
+  "zh": "所以我们在遥测领域见过这种场景，那里通常你有其他元数据或其他文本描述，你想要对它们进行搜索，然后再取回底层的读数和数值。"
+ },
+ {
+  "seg": 353,
+  "start": 1956.576,
+  "end": 1970.527,
+  "speaker": "Unknown",
+  "en": "And so you have all of those technologies combined into one database where you often have to maybe split that over a vector database, a time series database, and then your relational and then have to join that application later across.",
+  "zh": "所以你把所有这些技术合并在一个数据库里，而通常你可能不得不把它拆分到一个向量数据库、一个时序数据库，然后是你的关系型数据库，之后还得在应用层把那些做连接。"
+ },
+ {
+  "seg": 354,
+  "start": 1970.827,
+  "end": 1972.667,
+  "speaker": "Unknown",
+  "en": "All of them, you get that in one place.",
+  "zh": "所有这些，你在同一个地方就能得到。"
+ },
+ {
+  "seg": 355,
+  "start": 1972.907,
+  "end": 1974.868,
+  "speaker": "Unknown",
+  "en": "And then on top of that, the value of compression.",
+  "zh": "然后在这之上，还有压缩的价值。"
+ },
+ {
+  "seg": 356,
+  "start": 1974.988,
+  "end": 1978.028,
+  "speaker": "Unknown",
+  "en": "So you get the reduction in footprint from a data standpoint.",
+  "zh": "所以从数据的角度你得到了占用空间的缩减。"
+ },
+ {
+  "seg": 357,
+  "start": 1978.588,
+  "end": 1979.649,
+  "speaker": "Unknown",
+  "en": "Yeah, it's interesting.",
+  "zh": "是的，这很有意思。"
+ },
+ {
+  "seg": 358,
+  "start": 1979.669,
+  "end": 1985.43,
+  "speaker": "Unknown",
+  "en": "I feel like every time I interview someone from a database company, one of my questions is, all right, why you and not Postgres?",
+  "zh": "我感觉每次我采访数据库公司的人，我的问题之一就是，好吧，为什么是你而不是 Postgres？"
+ },
+ {
+  "seg": 359,
+  "start": 1985.49,
+  "end": 1987.31,
+  "speaker": "Unknown",
+  "en": "And your answer is yes, why not?",
+  "zh": "而你的回答是，是的，为什么不呢？"
+ },
+ {
+  "seg": 360,
+  "start": 1987.75,
+  "end": 1988.91,
+  "speaker": "Unknown",
+  "en": "Let's do it with Postgres.",
+  "zh": "用 Postgres 来做吧。"
+ },
+ {
+  "seg": 361,
+  "start": 1989.35,
+  "end": 1995.691,
+  "speaker": "Unknown",
+  "en": "Yeah, no, it's one of the reasons I joined too, because I just have loved Postgres just because of the extensibility of it.",
+  "zh": "是啊，不，这也是我加入的原因之一，因为我一直很喜欢 Postgres，就是因为它的可扩展性。"
+ },
+ {
+  "seg": 362,
+  "start": 1995.791,
+  "end": 1997.432,
+  "speaker": "Unknown",
+  "en": "And one is an open source product.",
+  "zh": "而且它是一个开源产品。"
+ },
+ {
+  "seg": 363,
+  "start": 1997.472,
+  "end": 1998.792,
+  "speaker": "Unknown",
+  "en": "And then the community is amazing.",
+  "zh": "然后社区也很棒。"
+ },
+ {
+  "seg": 364,
+  "start": 1998.952,
+  "end": 2012.082,
+  "speaker": "Unknown",
+  "en": "In terms of how many other extensions, you know, because you can install and have those other extensions right alongside, so you're not limited, you know, and we talk about extending privatives and other areas, you can just, you know, add those other extensions in.",
+  "zh": "就是有多少其他扩展，你知道的，因为你可以安装并把那些其他扩展放在旁边一起用，所以你不受限制，你知道的，我们谈论扩展原语和其他领域，你就可以，你知道的，把那些其他扩展加进去。"
+ },
+ {
+  "seg": 365,
+  "start": 2012.823,
+  "end": 2014.044,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的，有道理。"
+ },
+ {
+  "seg": 366,
+  "start": 2014.965,
+  "end": 2017.947,
+  "speaker": "Unknown",
+  "en": "Well, let's talk a little bit about what's coming down the pipe.",
+  "zh": "好的，我们来聊聊接下来有什么。"
+ },
+ {
+  "seg": 367,
+  "start": 2018.027,
+  "end": 2019.248,
+  "speaker": "Unknown",
+  "en": "What do you have on the roadmap?",
+  "zh": "你们的路线图上有什么？"
+ },
+ {
+  "seg": 368,
+  "start": 2019.328,
+  "end": 2025.393,
+  "speaker": "Unknown",
+  "en": "What should we be watching out for as we look at, you know, Tiger data and TimescaleDB and all these things?",
+  "zh": "当我们看向 Tiger data 和 TimescaleDB 以及所有这些东西时，我们应该关注什么？"
+ },
+ {
+  "seg": 369,
+  "start": 2026.09,
+  "end": 2034.538,
+  "speaker": "Unknown",
+  "en": "I think it's continuing to build on the Tiger Lake story with connectors into Snowflake, connectors into Databricks longer term as well.",
+  "zh": "我认为是在 Tiger Lake 的故事上继续构建，包括连接到 Snowflake 的连接器，长期来看还有连接到 Databricks 的连接器。"
+ },
+ {
+  "seg": 370,
+  "start": 2034.558,
+  "end": 2037.18,
+  "speaker": "Unknown",
+  "en": "Those are areas we'd like to continue to expand on.",
+  "zh": "这些是我们想要继续扩展的领域。"
+ },
+ {
+  "seg": 371,
+  "start": 2037.921,
+  "end": 2051.112,
+  "speaker": "Unknown",
+  "en": "And from a developer perspective, our goal is to make this sort of out of the box, not having to do the tuning exercises, making continuous aggregates easier, making the developer experience really",
+  "zh": "从开发者的角度来看，我们的目标是让这一切开箱即用，不需要做调优练习，让连续聚合更容易，让开发者体验真正"
+ },
+ {
+  "seg": 372,
+  "start": 2051.733,
+  "end": 2059.4,
+  "speaker": "Unknown",
+  "en": "World-class, and that's from both the database and getting set up, but also our tooling, the CLI and MCP, those other tools around it.",
+  "zh": "世界级，这既包括数据库和初始设置，也包括我们的工具，CLI 和 MCP，以及围绕它的那些其他工具。"
+ },
+ {
+  "seg": 373,
+  "start": 2060.221,
+  "end": 2066.366,
+  "speaker": "Unknown",
+  "en": "Not only for setup and configuration, but one of the questions we often get from developers is how do I know I'm set up correctly?",
+  "zh": "不仅是为了设置和配置，我们经常从开发者那里得到的问题之一是，我怎么知道我的设置是正确的？"
+ },
+ {
+  "seg": 374,
+  "start": 2066.587,
+  "end": 2076.436,
+  "speaker": "Unknown",
+  "en": "Validation, being able to validate that it's configured properly and with guidance based upon our SA team that's helping guide customers to be able to scale that as well.",
+  "zh": "验证，能够验证它配置正确，并且基于我们 SA 团队的指导，他们帮助指导客户也能够扩展它。"
+ },
+ {
+  "seg": 375,
+  "start": 2076.856,
+  "end": 2083.821,
+  "speaker": "Unknown",
+  "en": "So one of the other areas is the, you know, the common agentic workflows as well, where you have agents working against databases.",
+  "zh": "所以另一个领域是，你知道的，常见的智能体工作流，也就是让智能体针对数据库进行操作。"
+ },
+ {
+  "seg": 376,
+  "start": 2084.521,
+  "end": 2098.13,
+  "speaker": "Unknown",
+  "en": "We're internally working on an evolution to our storage engine called Fluid Storage, which is sort of a zero copy type storage that allows you to create forks without having to copy the underlying data.",
+  "zh": "我们内部正在开发存储引擎的一个演进版本，叫做 Fluid Storage，它是一种零拷贝类型的存储，允许你在不必复制底层数据的情况下创建分叉。"
+ },
+ {
+  "seg": 377,
+  "start": 2098.71,
+  "end": 2102.113,
+  "speaker": "Unknown",
+  "en": "And then it will be for any changes, it will diff from there as well.",
+  "zh": "然后对于任何变更，它也会从那里做差异对比。"
+ },
+ {
+  "seg": 378,
+  "start": 2102.813,
+  "end": 2114.096,
+  "speaker": "Unknown",
+  "en": "And combined with our CLI and MCP, the ability to, in your CICD process or your Gentic process, quickly fork those databases off until versions of it.",
+  "zh": "再结合我们的 CLI 和 MCP，在你的 CICD 流程或你的 Gentic 流程中，快速分叉这些数据库直至其各个版本的能力。"
+ },
+ {
+  "seg": 379,
+  "start": 2114.376,
+  "end": 2125.278,
+  "speaker": "Unknown",
+  "en": "So you can take your production database in seconds or minutes, be able to fork that and then have an agent that can work against that data and then stand that up and tear it back down very easily.",
+  "zh": "所以你可以用几秒或几分钟的时间，把你的生产数据库分叉出来，然后让一个智能体可以针对那份数据工作，然后把它拉起来再非常容易地拆掉。"
+ },
+ {
+  "seg": 380,
+  "start": 2125.358,
+  "end": 2128.499,
+  "speaker": "Unknown",
+  "en": "And so you may have different flows from an agentic standpoint.",
+  "zh": "所以从智能体的角度，你可以有不同的流程，"
+ },
+ {
+  "seg": 381,
+  "start": 2129.179,
+  "end": 2140.925,
+  "speaker": "Unknown",
+  "en": "that just allow you to work against the original data without having to worry about degradating performance in your production system, still using production data, and then not have to worry about destructive operations as well.",
+  "zh": "让你能够针对原始数据进行操作，而不必担心生产系统的性能退化，同时仍然使用生产数据，而且也不必担心破坏性操作。"
+ },
+ {
+  "seg": 382,
+  "start": 2141.41,
+  "end": 2144.433,
+  "speaker": "Unknown",
+  "en": "I mean, honestly, I'd love that just from a QA standpoint, right?",
+  "zh": "我是说，说实话，单从 QA 的角度我就很想要这个，对吧？"
+ },
+ {
+  "seg": 383,
+  "start": 2144.493,
+  "end": 2150.42,
+  "speaker": "Unknown",
+  "en": "Like we have tooling to easily spin up application forks to test branches or things like that.",
+  "zh": "比如我们有工具可以轻松地拉起应用分叉来测试分支或类似的东西。"
+ },
+ {
+  "seg": 384,
+  "start": 2150.44,
+  "end": 2158.208,
+  "speaker": "Unknown",
+  "en": "But anything data intensive is still a pain because you got to get a copy of your production data and you may mutate it, whatever.",
+  "zh": "但任何数据密集型的东西仍然很痛苦，因为你得拿到一份生产数据的副本，而且你可能会改动它，诸如此类。"
+ },
+ {
+  "seg": 385,
+  "start": 2158.228,
+  "end": 2160.651,
+  "speaker": "Unknown",
+  "en": "And that takes a lot of time in most environments today.",
+  "zh": "而这在今天的大多数环境中都要花很多时间。"
+ },
+ {
+  "seg": 386,
+  "start": 2161.527,
+  "end": 2167.868,
+  "speaker": "Unknown",
+  "en": "And so it's all the tooling around that, which we already have the ability from the command line today to fork your database.",
+  "zh": "所以就是围绕这些的工具，今天从命令行我们已经有分叉数据库的能力了。"
+ },
+ {
+  "seg": 387,
+  "start": 2168.449,
+  "end": 2173.59,
+  "speaker": "Unknown",
+  "en": "But the challenge there, if you have a fairly large database, you have to copy that, and it's going to take some time to copy that.",
+  "zh": "但那里的挑战是，如果你有一个相当大的数据库，你必须复制它，而复制它会花一些时间。"
+ },
+ {
+  "seg": 388,
+  "start": 2173.73,
+  "end": 2180.851,
+  "speaker": "Unknown",
+  "en": "And if you're looking at EC2 with EBS spec data, it can take a while to move that stuff around and set it up.",
+  "zh": "而且如果你用的是带 EBS 规格数据的 EC2，移动这些东西并把它设置好可能会花不少时间。"
+ },
+ {
+  "seg": 389,
+  "start": 2180.951,
+  "end": 2187.813,
+  "speaker": "Unknown",
+  "en": "So this new fluid storage system we've been building is going to be a game changer in terms of the ability to fork much, much faster.",
+  "zh": "所以我们一直在构建的这个新的 fluid storage 系统在分叉速度大幅提升方面将是一个改变游戏规则的东西。"
+ },
+ {
+  "seg": 390,
+  "start": 2188.093,
+  "end": 2198.381,
+  "speaker": "Unknown",
+  "en": "Or even spin up read replicas if you needed to scale your system, for example, for peak loads where you can scale to have multiple read replicas that are load balance behind.",
+  "zh": "或者甚至拉起只读副本，如果你需要扩展系统的话，比如在峰值负载时，你可以扩展出多个负载均衡在后面的只读副本。"
+ },
+ {
+  "seg": 391,
+  "start": 2198.762,
+  "end": 2203.606,
+  "speaker": "Unknown",
+  "en": "And you can scale to peak traffic and then reduce those back down if you chose to.",
+  "zh": "你可以扩展到峰值流量，然后如果你选择的话再把这些缩减回去。"
+ },
+ {
+  "seg": 392,
+  "start": 2204.084,
+  "end": 2205.464,
+  "speaker": "Unknown",
+  "en": "Yeah, super interesting.",
+  "zh": "是的，非常有意思。"
+ },
+ {
+  "seg": 393,
+  "start": 2205.924,
+  "end": 2209.865,
+  "speaker": "Unknown",
+  "en": "I think this developer experience direction is actually an interesting one to talk about.",
+  "zh": "我觉得这个开发者体验的方向其实是一个值得聊聊的话题。"
+ },
+ {
+  "seg": 394,
+  "start": 2210.005,
+  "end": 2211.466,
+  "speaker": "Unknown",
+  "en": "Where are the rough edges today?",
+  "zh": "今天有哪些粗糙的地方？"
+ },
+ {
+  "seg": 395,
+  "start": 2211.886,
+  "end": 2214.266,
+  "speaker": "Unknown",
+  "en": "You talked about a lot of things you want to improve there.",
+  "zh": "你谈到了很多你想改进的东西。"
+ },
+ {
+  "seg": 396,
+  "start": 2214.406,
+  "end": 2217.687,
+  "speaker": "Unknown",
+  "en": "If I was coming in and using this, where am I going to get stuck as a developer right now?",
+  "zh": "如果我现在进来使用这个，作为开发者我现在会在哪里卡住？"
+ },
+ {
+  "seg": 397,
+  "start": 2218.147,
+  "end": 2223.128,
+  "speaker": "Unknown",
+  "en": "It starts with getting your chunk tuning right, first and foremost.",
+  "zh": "首先也是最重要的，是从把你的 chunk 调优做对开始。"
+ },
+ {
+  "seg": 398,
+  "start": 2223.168,
+  "end": 2226.769,
+  "speaker": "Unknown",
+  "en": "And you need to get a good amount of data in before you can, you know.",
+  "zh": "而且你需要先灌入相当数量的数据才能，你知道的。"
+ },
+ {
+  "seg": 399,
+  "start": 2227.209,
+  "end": 2228.51,
+  "speaker": "Unknown",
+  "en": "Probably get that exactly right.",
+  "zh": "可能把它调得完全正确。"
+ },
+ {
+  "seg": 400,
+  "start": 2228.551,
+  "end": 2229.812,
+  "speaker": "Unknown",
+  "en": "I think we have some smart defaults.",
+  "zh": "我认为我们有一些智能默认值。"
+ },
+ {
+  "seg": 401,
+  "start": 2229.952,
+  "end": 2237.2,
+  "speaker": "Unknown",
+  "en": "And we actually, in our cloud environment, we actually have an engine or solution that will help recommend chunk tuning.",
+  "zh": "而且实际上，在我们的云环境中，我们确实有一个引擎或解决方案，可以帮助推荐 chunk 调优。"
+ },
+ {
+  "seg": 402,
+  "start": 2237.46,
+  "end": 2240.043,
+  "speaker": "Unknown",
+  "en": "And we want to move that back to the CLI and MCP.",
+  "zh": "而我们想把这个能力移回到 CLI 和 MCP。"
+ },
+ {
+  "seg": 403,
+  "start": 2240.663,
+  "end": 2243.967,
+  "speaker": "Unknown",
+  "en": "The other challenge oftentimes is getting continuous aggregates right.",
+  "zh": "另一个常见的挑战是把 continuous aggregates 做对。"
+ },
+ {
+  "seg": 404,
+  "start": 2244.247,
+  "end": 2245.188,
+  "speaker": "Unknown",
+  "en": "And in particular,",
+  "zh": "尤其是，"
+ },
+ {
+  "seg": 405,
+  "start": 2246.527,
+  "end": 2253.449,
+  "speaker": "Unknown",
+  "en": "In the physical world, you have these data patterns that are a bit different than you see in append-only type workloads.",
+  "zh": "而我们更精细地解决这个问题的能力将是一个重要的部分。"
+ },
+ {
+  "seg": 406,
+  "start": 2254.009,
+  "end": 2262.971,
+  "speaker": "Unknown",
+  "en": "You have devices that go offline that may, in some cases, we have a ship carrier, their devices could go offline for two weeks to a month.",
+  "zh": "你有会离线的设备，在某些情况下，我们有一个船舶承运商客户，他们的设备可能离线两周到一个月。"
+ },
+ {
+  "seg": 407,
+  "start": 2263.171,
+  "end": 2264.952,
+  "speaker": "Unknown",
+  "en": "And then all of a sudden you have all of this",
+  "zh": "然后突然之间你就有了一大堆"
+ },
+ {
+  "seg": 408,
+  "start": 2265.712,
+  "end": 2268.274,
+  "speaker": "Unknown",
+  "en": "Batch of data that can go back two weeks or a month.",
+  "zh": "可以回溯两周或一个月的批量数据。"
+ },
+ {
+  "seg": 409,
+  "start": 2268.755,
+  "end": 2276.682,
+  "speaker": "Unknown",
+  "en": "And so you think about these materialized views, they now have to update an entire range of data over a long period of time.",
+  "zh": "所以你想想这些物化视图，它们现在必须在很长时间范围内更新整段数据。"
+ },
+ {
+  "seg": 410,
+  "start": 2276.702,
+  "end": 2280.905,
+  "speaker": "Unknown",
+  "en": "And that can be CPU intensive as well as disk IO intensive.",
+  "zh": "而这可能既是 CPU 密集型的，也是磁盘 IO 密集型的。"
+ },
+ {
+  "seg": 411,
+  "start": 2281.066,
+  "end": 2285.87,
+  "speaker": "Unknown",
+  "en": "And so getting those refresh policies right, getting all those configured correctly.",
+  "zh": "所以要把那些刷新策略配置正确，把所有这些都配置对。"
+ },
+ {
+  "seg": 412,
+  "start": 2286.13,
+  "end": 2295.994,
+  "speaker": "Unknown",
+  "en": "And one of the other features we're adding in the future is to solve this exact problem is granular refresh, which you can think about a tenant, could be a device, could be a user, whatever.",
+  "zh": "而我们未来要添加的另一个功能正是为了解决这个问题，叫做细粒度刷新(granular refresh)，你可以把它想成一个租户，可以是一台设备，可以是一个用户， whatever。"
+ },
+ {
+  "seg": 413,
+  "start": 2296.094,
+  "end": 2303.677,
+  "speaker": "Unknown",
+  "en": "When you have that backfill, you have one device is only updating that device that changed and not the entire time range.",
+  "zh": "当你有那种回填时，只有一台设备变化，你就只更新那台变化了的设备的数据，而不是整个时间范围。"
+ },
+ {
+  "seg": 414,
+  "start": 2303.957,
+  "end": 2310.479,
+  "speaker": "Unknown",
+  "en": "The way that continuous aggregates work today is that you update that entire time range within the aggregates that you have.",
+  "zh": "目前 continuous aggregates 的工作方式是，在你拥有的聚合范围内更新整个时间范围。"
+ },
+ {
+  "seg": 415,
+  "start": 2310.519,
+  "end": 2314.961,
+  "speaker": "Unknown",
+  "en": "And our ability to more finally granular address that is gonna be an important piece.",
+  "zh": "而我们更精细地按粒度处理它的能力，将会是重要的一环。"
+ },
+ {
+  "seg": 416,
+  "start": 2315.678,
+  "end": 2316.739,
+  "speaker": "Unknown",
+  "en": "Yeah, that's interesting.",
+  "zh": "是的，这很有意思。"
+ },
+ {
+  "seg": 417,
+  "start": 2317.019,
+  "end": 2323.846,
+  "speaker": "Unknown",
+  "en": "So when you're doing these changes and config changes, how hard is it to, for example, say I want to change chunk size.",
+  "zh": "那么当你在做这些更改和配置更改时，比如说我想更改 chunk 大小，有多难？"
+ },
+ {
+  "seg": 418,
+  "start": 2323.866,
+  "end": 2325.207,
+  "speaker": "Unknown",
+  "en": "We talked about that.",
+  "zh": "我们谈过这个。"
+ },
+ {
+  "seg": 419,
+  "start": 2326.249,
+  "end": 2332.315,
+  "speaker": "Unknown",
+  "en": "Imagining back to my old manual partitioning days, doing it for new data, not a problem.",
+  "zh": "回想起我以前手动分区的日子，对新数据做这个不是问题。"
+ },
+ {
+  "seg": 420,
+  "start": 2332.915,
+  "end": 2336.338,
+  "speaker": "Unknown",
+  "en": "Migrating all the old data, extremely intensive and challenging.",
+  "zh": "但迁移所有旧数据，极其耗时且充满挑战。"
+ },
+ {
+  "seg": 421,
+  "start": 2336.539,
+  "end": 2338.16,
+  "speaker": "Unknown",
+  "en": "Do you take care of that for us?",
+  "zh": "你们会帮我们处理这个吗？"
+ },
+ {
+  "seg": 422,
+  "start": 2338.2,
+  "end": 2339.762,
+  "speaker": "Unknown",
+  "en": "What does that migration path look like?",
+  "zh": "那个迁移路径是什么样的？"
+ },
+ {
+  "seg": 423,
+  "start": 2339.982,
+  "end": 2344.124,
+  "speaker": "Unknown",
+  "en": "So when you change the chunk size, it is changing it only for new ones.",
+  "zh": "所以当你更改 chunk 大小时，它只对新的 chunk 生效。"
+ },
+ {
+  "seg": 424,
+  "start": 2344.584,
+  "end": 2350.287,
+  "speaker": "Unknown",
+  "en": "But we have functions as well for splitting and combining chunks that you can call manually to do that.",
+  "zh": "但我们也有用于拆分和合并 chunk 的函数，你可以手动调用来做这件事。"
+ },
+ {
+  "seg": 425,
+  "start": 2350.467,
+  "end": 2364.373,
+  "speaker": "Unknown",
+  "en": "Now, the challenge there is that, and we're working on reducing the locking operations around this, is that you have challenges with the locking if you have DDL or reads or other things going on during that time, there can be some challenges there.",
+  "zh": "现在，那里的挑战是——我们正在努力减少这方面的锁操作——如果你在那段时间有 DDL 或读取或其他操作在进行，锁方面可能会有一些挑战。"
+ },
+ {
+  "seg": 426,
+  "start": 2364.433,
+  "end": 2369.195,
+  "speaker": "Unknown",
+  "en": "But from a developer standpoint, you just call these functions to split and combine these chunks.",
+  "zh": "但从开发者的角度来说，你只需调用这些函数来拆分和合并这些 chunk。"
+ },
+ {
+  "seg": 427,
+  "start": 2369.928,
+  "end": 2370.228,
+  "speaker": "Unknown",
+  "en": "Got it.",
+  "zh": "明白了。"
+ },
+ {
+  "seg": 428,
+  "start": 2370.869,
+  "end": 2373.21,
+  "speaker": "Unknown",
+  "en": "I mean, the locking raises an interesting thing.",
+  "zh": "我是说，锁引出了一个有意思的问题。"
+ },
+ {
+  "seg": 429,
+  "start": 2373.87,
+  "end": 2381.274,
+  "speaker": "Unknown",
+  "en": "If I'm doing this manipulation of the underlying structure or configuration or things like that, what tools do I have for managing that?",
+  "zh": "如果我在对底层结构或配置之类的东西做这种操作，我有什么工具来管理它？"
+ },
+ {
+  "seg": 430,
+  "start": 2381.334,
+  "end": 2395.361,
+  "speaker": "Unknown",
+  "en": "So I think about that and I'm like, oh, okay, maybe I want to maintain this as a duplicate for a while and then wait till I'm ready and then swap over so that I don't have to deal with I'm locking it so I can't do anything while I'm dumping this out.",
+  "zh": "我想到这个的时候就会想，哦，好吧，也许我想把它作为一个副本维护一段时间，然后等准备好了再切换过去，这样我就不用处理——我把它锁住了，所以在导出这些数据的时候我什么都做不了。"
+ },
+ {
+  "seg": 431,
+  "start": 2395.621,
+  "end": 2398.623,
+  "speaker": "Unknown",
+  "en": "You mean at the hyper table level or individual chunks?",
+  "zh": "你说的是 hyper table 层级还是单个 chunk？"
+ },
+ {
+  "seg": 432,
+  "start": 2398.963,
+  "end": 2400.204,
+  "speaker": "Unknown",
+  "en": "Well, it could be either, honestly.",
+  "zh": "嗯，老实说，两者都有可能。"
+ },
+ {
+  "seg": 433,
+  "start": 2400.224,
+  "end": 2404.386,
+  "speaker": "Unknown",
+  "en": "I'm just thinking about, once again, you're automating all of these things that I used to do by hand.",
+  "zh": "我只是在想，再说一次，你们在自动化所有这些我以前手动做的事情。"
+ },
+ {
+  "seg": 434,
+  "start": 2405.106,
+  "end": 2410.049,
+  "speaker": "Unknown",
+  "en": "When I run into something that's not working the way I like it yet, how do I dig into that?",
+  "zh": "当我遇到某些东西还没有按照我喜欢的方式工作时，我该怎么深入调查？"
+ },
+ {
+  "seg": 435,
+  "start": 2410.449,
+  "end": 2417.633,
+  "speaker": "Unknown",
+  "en": "What are the next level debug for, okay, my chunk size isn't right, and now I'm migrating it, and I want to be able to migrate it without any downtime.",
+  "zh": "下一层的调试手段是什么，比如，我的 chunk 大小不对，现在我在迁移，而且我希望能在零停机的情况下迁移。"
+ },
+ {
+  "seg": 436,
+  "start": 2417.893,
+  "end": 2420.475,
+  "speaker": "Unknown",
+  "en": "What can I do as an external developer?",
+  "zh": "作为一个外部开发者，我能做什么？"
+ },
+ {
+  "seg": 437,
+  "start": 2421.035,
+  "end": 2427.438,
+  "speaker": "Unknown",
+  "en": "There's a number of observability features built in, starting with our console to be able to see that.",
+  "zh": "我们内置了许多可观测性功能，首先从我们的 console 开始，可以看到这些情况。"
+ },
+ {
+  "seg": 438,
+  "start": 2427.758,
+  "end": 2442.425,
+  "speaker": "Unknown",
+  "en": "We also have on Tiger Cloud exporters for a number of different third-party tools, Datadog, Prometheus, solutions like that, that provide deeper insight into exactly what's happening in the system as well.",
+  "zh": "在 Tiger Cloud 上，我们还有针对许多不同第三方工具的 exporter，比如 Datadog、Prometheus 之类的解决方案，它们也能对系统中到底发生了什么提供更深入的洞察。"
+ },
+ {
+  "seg": 439,
+  "start": 2442.586,
+  "end": 2445.407,
+  "speaker": "Unknown",
+  "en": "And we're continuing to expand those if we talk about the roadmap.",
+  "zh": "如果我们谈谈路线图，我们会继续扩展这些功能。"
+ },
+ {
+  "seg": 440,
+  "start": 2445.767,
+  "end": 2459.494,
+  "speaker": "Unknown",
+  "en": "We have all the Postgres metrics, but even getting into fine-grained metrics around what's happening in compression policies, CAG or continuous aggregate refresh policies, being able to see what's happening really behind the scenes as well.",
+  "zh": "我们有所有的 Postgres 指标，甚至还会深入到细粒度的指标，比如压缩策略中发生了什么、CAG 或 continuous aggregate 刷新策略中发生了什么，能够真正看到幕后发生的事情。"
+ },
+ {
+  "seg": 441,
+  "start": 2459.654,
+  "end": 2468.378,
+  "speaker": "Unknown",
+  "en": "And Postgres has a large number of metrics that you have that are exposed to you to really dig in to see what's happening in the system itself, as well as...",
+  "zh": "而且 Postgres 有大量的指标暴露给你，让你能真正深入查看系统本身发生了什么，还有……"
+ },
+ {
+  "seg": 442,
+  "start": 2469.058,
+  "end": 2471.899,
+  "speaker": "Unknown",
+  "en": "All of the SQL, you know, the SQL is no different.",
+  "zh": "所有的 SQL，你知道，SQL 没有什么不同。"
+ },
+ {
+  "seg": 443,
+  "start": 2472.279,
+  "end": 2480.223,
+  "speaker": "Unknown",
+  "en": "So if you're familiar with Postgres, this is not a learning curve other than the specific areas around hyper tables and continuous aggregates.",
+  "zh": "所以如果你熟悉 Postgres，除了围绕 hyper table 和 continuous aggregates 的特定领域之外，这没有什么学习曲线。"
+ },
+ {
+  "seg": 444,
+  "start": 2480.803,
+  "end": 2481.043,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 445,
+  "start": 2481.123,
+  "end": 2487.166,
+  "speaker": "Unknown",
+  "en": "Well, can I like use Postgres to query down a level below your sort of high level of abstraction?",
+  "zh": "那么，我能不能用 Postgres 查询到你们那种高层抽象之下的层级？"
+ },
+ {
+  "seg": 446,
+  "start": 2487.206,
+  "end": 2490.467,
+  "speaker": "Unknown",
+  "en": "So like query a particular chunk or something along those lines?",
+  "zh": "比如查询某个特定的 chunk 之类的？"
+ },
+ {
+  "seg": 447,
+  "start": 2490.996,
+  "end": 2501.802,
+  "speaker": "Unknown",
+  "en": "There are functions that you can find in our API docs to access specific chunks for certain operations to see what's happening below the scenes.",
+  "zh": "在我们的 API 文档中有一些函数，可以访问特定的 chunk 来执行某些操作，看看幕后发生了什么。"
+ },
+ {
+  "seg": 448,
+  "start": 2501.922,
+  "end": 2504.524,
+  "speaker": "Unknown",
+  "en": "Those APIs are provided in our API docs.",
+  "zh": "这些 API 都在我们的 API 文档中提供。"
+ },
+ {
+  "seg": 449,
+  "start": 2504.564,
+  "end": 2510.027,
+  "speaker": "Unknown",
+  "en": "So if you really want to get into the weeds and dig into exactly how some of the sausage is made, it's there.",
+  "zh": "所以如果你真的想深入细节，弄清楚这些「香肠」到底是怎么做出来的，都在那里。"
+ },
+ {
+  "seg": 450,
+  "start": 2510.387,
+  "end": 2513.209,
+  "speaker": "Unknown",
+  "en": "And additionally, too, it's an open source product.",
+  "zh": "另外，它也是一个开源产品。"
+ },
+ {
+  "seg": 451,
+  "start": 2513.269,
+  "end": 2520.093,
+  "speaker": "Unknown",
+  "en": "So you can go download the source code and take a look at it and see exactly all the APIs and how it's actually constructed.",
+  "zh": "所以你可以去下载源代码看一看，确切地了解所有的 API 以及它到底是如何构建的。"
+ },
+ {
+  "seg": 452,
+  "start": 2520.513,
+  "end": 2521.674,
+  "speaker": "Unknown",
+  "en": "Yeah, no, that's awesome.",
+  "zh": "是的，不，这太棒了。"
+ },
+ {
+  "seg": 453,
+  "start": 2521.694,
+  "end": 2524.215,
+  "speaker": "Unknown",
+  "en": "That's a really nice kind of continuous story.",
+  "zh": "这真是一个很不错的持续性的故事。"
+ },
+ {
+  "seg": 454,
+  "start": 2524.275,
+  "end": 2534.262,
+  "speaker": "Unknown",
+  "en": "For those of us who, you know, get nervous trusting all of the different data providers out there, and I'm like, well, you work great by default, but what happens when something goes wrong?",
+  "zh": "对于我们这些对外面各种不同的数据提供商感到紧张、不太敢信任的人来说，你知道，就像“你默认情况下运行得很好，但出了问题怎么办？”"
+ },
+ {
+  "seg": 455,
+  "start": 2534.782,
+  "end": 2536.663,
+  "speaker": "Unknown",
+  "en": "It's a nice extension of the Postgres story, right?",
+  "zh": "实际上，刚刚发布的那个版本——今天在 GitHub 上发布——我记得是 2.29,弃用了 PG15。"
+ },
+ {
+  "seg": 456,
+  "start": 2536.703,
+  "end": 2540.565,
+  "speaker": "Unknown",
+  "en": "Postgres is great for debuggability because it has all these internal tools and metrics.",
+  "zh": "Postgres 在可调试性方面很出色，因为它有所有这些内部工具和指标。"
+ },
+ {
+  "seg": 457,
+  "start": 2540.665,
+  "end": 2542.787,
+  "speaker": "Unknown",
+  "en": "And so just having that there, that's great.",
+  "zh": "所以能有这些在那里，太好了。"
+ },
+ {
+  "seg": 458,
+  "start": 2543.287,
+  "end": 2547.589,
+  "speaker": "Unknown",
+  "en": "Well, is there anything we haven't talked about yet that you think would be important to leave folks with?",
+  "zh": "那么，还有什么我们还没谈到、但你认为值得留给听众的重要内容吗？"
+ },
+ {
+  "seg": 459,
+  "start": 2547.949,
+  "end": 2551.73,
+  "speaker": "Unknown",
+  "en": "The other area we have, and I mentioned so far two offerings.",
+  "zh": "我们的另一个领域，到目前为止我提到了两个产品。"
+ },
+ {
+  "seg": 460,
+  "start": 2551.87,
+  "end": 2555.832,
+  "speaker": "Unknown",
+  "en": "I mentioned the open source offering with TimescaleDB, and I mentioned TigerCloud.",
+  "zh": "我提到了 TimescaleDB 的开源产品，还提到了 TigerCloud。"
+ },
+ {
+  "seg": 461,
+  "start": 2556.472,
+  "end": 2568.137,
+  "speaker": "Unknown",
+  "en": "And as we grow in the physical world, in industrial operations, we're also building a product called TimescaleDB Enterprise, which is an on-prem version of the open source.",
+  "zh": "随着我们在物理世界、工业运营领域的增长，我们还在构建一个叫 TimescaleDB Enterprise 的产品，它是开源版本的本地部署版本。"
+ },
+ {
+  "seg": 462,
+  "start": 2568.737,
+  "end": 2584.902,
+  "speaker": "Unknown",
+  "en": "Solution that uses a number of technologies to allow with its own console and platform to be able to stand up an HA environment with read replicas, with connection, load balancing, backups, automating a lot of the things that",
+  "zh": "这个解决方案使用了一系列技术，带有自己的控制台和平台，能够搭建一个带只读副本的 HA(高可用)环境，具备连接、负载均衡、备份，把很多本来"
+ },
+ {
+  "seg": 463,
+  "start": 2585.542,
+  "end": 2594.907,
+  "speaker": "Unknown",
+  "en": "If you were going to build yourself, you'd have to start with the open source product, add SCD, Petroni, other technologies on top of that to build a true HA configuration.",
+  "zh": "如果你自己要搭建的话，就得从开源产品开始，在其上添加 SCD、Petroni 等其他技术，才能构建一个真正的高可用配置。"
+ },
+ {
+  "seg": 464,
+  "start": 2595.407,
+  "end": 2598.069,
+  "speaker": "Unknown",
+  "en": "We're providing that out of the box as well.",
+  "zh": "而我们是开箱即用地提供这些。"
+ },
+ {
+  "seg": 465,
+  "start": 2598.309,
+  "end": 2602.712,
+  "speaker": "Unknown",
+  "en": "And we also, as part of that, have something called our Postgres connector.",
+  "zh": "此外，作为其中的一部分，我们还有一个叫 Postgres 连接器的东西。"
+ },
+ {
+  "seg": 466,
+  "start": 2603.292,
+  "end": 2612.037,
+  "speaker": "Unknown",
+  "en": "For developers that are interested in trying out, let's say, TimescaleDB or TigerCloud, you can use our Postgres connector to",
+  "zh": "对于有兴趣试用 TimescaleDB 或 TigerCloud 的开发者来说，你可以使用我们的 Postgres 连接器"
+ },
+ {
+  "seg": 467,
+  "start": 2612.757,
+  "end": 2624.281,
+  "speaker": "Unknown",
+  "en": "Point it at your database, replicate the tables you want live and it keeps it and it will sort of go through and play back the wall and then actually write the data and then keep those in sync.",
+  "zh": "把它指向你的数据库，实时复制你想要的表，它会保留数据，会去回放 WAL 日志，然后真正写入数据，并保持两边同步。"
+ },
+ {
+  "seg": 468,
+  "start": 2624.781,
+  "end": 2629.223,
+  "speaker": "Unknown",
+  "en": "You can actually test it in parallel to your existing production database.",
+  "zh": "你实际上可以与现有的生产数据库并行进行测试。"
+ },
+ {
+  "seg": 469,
+  "start": 2629.883,
+  "end": 2633.444,
+  "speaker": "Unknown",
+  "en": "And so that provides a really easy evaluation path.",
+  "zh": "所以这提供了一条非常容易的评估路径。"
+ },
+ {
+  "seg": 470,
+  "start": 2633.524,
+  "end": 2639.086,
+  "speaker": "Unknown",
+  "en": "Let's say you don't want to actually download and do a PG dump and PG restore and take all the time to do that.",
+  "zh": "比如说你不想真的去下载、做 PG dump 和 PG restore、花所有时间去做那件事。"
+ },
+ {
+  "seg": 471,
+  "start": 2639.146,
+  "end": 2640.667,
+  "speaker": "Unknown",
+  "en": "You can just set up the PG connector.",
+  "zh": "你只需要设置好 PG 连接器就行。"
+ },
+ {
+  "seg": 472,
+  "start": 2641.327,
+  "end": 2645.589,
+  "speaker": "Unknown",
+  "en": "That's also leveraged in this Timescale Enterprise DB story where",
+  "zh": "这也被用在 Timescale Enterprise DB 这个故事里，"
+ },
+ {
+  "seg": 473,
+  "start": 2646.229,
+  "end": 2647.81,
+  "speaker": "Unknown",
+  "en": "You have multiple levels.",
+  "zh": "你可以有多个层级。"
+ },
+ {
+  "seg": 474,
+  "start": 2648.291,
+  "end": 2649.151,
+  "speaker": "Unknown",
+  "en": "I'll give one example.",
+  "zh": "我举一个例子。"
+ },
+ {
+  "seg": 475,
+  "start": 2649.191,
+  "end": 2657.018,
+  "speaker": "Unknown",
+  "en": "We're working with data center operators where they have, within a building, they have these different pods and there could be a bunch of different GPUs in the area.",
+  "zh": "我们在和数据中心运营商合作，在一栋建筑里，他们有这些不同的 pod,一个区域内可能有一堆不同的 GPU。"
+ },
+ {
+  "seg": 476,
+  "start": 2657.198,
+  "end": 2660,
+  "speaker": "Unknown",
+  "en": "A pod rolls up to a building, rolls up to an enterprise.",
+  "zh": "一个 pod 汇总到一栋建筑，一栋建筑汇总到一个企业。"
+ },
+ {
+  "seg": 477,
+  "start": 2660.821,
+  "end": 2665.144,
+  "speaker": "Unknown",
+  "en": "You can replicate data across multiple tiers using this connector as well.",
+  "zh": "你也可以使用这个连接器跨多个层级复制数据。"
+ },
+ {
+  "seg": 478,
+  "start": 2665.324,
+  "end": 2665.925,
+  "speaker": "Unknown",
+  "en": "So you have...",
+  "zh": "所以你拥有……"
+ },
+ {
+  "seg": 479,
+  "start": 2666.405,
+  "end": 2675.532,
+  "speaker": "Unknown",
+  "en": "Your operational layer all the way down to that pod where you're monitoring, and maybe you have a group that's monitoring the entire industrial operation or the entire data center.",
+  "zh": "从最底层那个你正在监控的 pod 的运营层，一直到……也许你有一个团队在监控整个工业运营或整个数据中心。"
+ },
+ {
+  "seg": 480,
+  "start": 2675.672,
+  "end": 2677.434,
+  "speaker": "Unknown",
+  "en": "We can replicate that data up.",
+  "zh": "我们可以把这些数据向上复制。"
+ },
+ {
+  "seg": 481,
+  "start": 2677.514,
+  "end": 2694.647,
+  "speaker": "Unknown",
+  "en": "So it's a number of, you know, different technologies that sit on top of TimescaleDB extensibility to run it on premise with an HA configuration, as well as, you know, this tooling to make it easier to replicate data from vanilla Postgres or TimescaleDB to a TimescaleDB instance.",
+  "zh": "所以这是一系列建立在 TimescaleDB 可扩展性之上的不同技术，用于以高可用配置在本地运行它，以及这些工具让从原生 Postgres 或 TimescaleDB 向 TimescaleDB 实例复制数据变得更容易。"
+ },
+ {
+  "seg": 482,
+  "start": 2694.985,
+  "end": 2710.27,
+  "speaker": "Unknown",
+  "en": "I mean, that feels very, very nicely consistent with what you were talking about in terms of just wanting to kind of make the plumbing problem go away for folks where, you know, this is a problem we all have if we're managing lots of data or we're looking at putting data in different places.",
+  "zh": "我的意思是，这感觉和你之前谈到的内容非常、非常一致，就是想为大家消除管道问题，你知道，如果我们管理大量数据或者要把数据放到不同地方，这都是我们都会遇到的问题。"
+ },
+ {
+  "seg": 483,
+  "start": 2710.33,
+  "end": 2711.931,
+  "speaker": "Unknown",
+  "en": "It's like, how do I get it from here to there?",
+  "zh": "就是，我该怎么把它从这里弄到那里？"
+ },
+ {
+  "seg": 484,
+  "start": 2712.031,
+  "end": 2715.272,
+  "speaker": "Unknown",
+  "en": "How do I do that in a way that's not disrupting my operations?",
+  "zh": "怎样才能以一种不干扰我运营的方式做到这一点？"
+ },
+ {
+  "seg": 485,
+  "start": 2715.432,
+  "end": 2716.953,
+  "speaker": "Unknown",
+  "en": "So yeah, that makes a lot of sense.",
+  "zh": "所以是的，这非常说得通。"
+ },
+ {
+  "seg": 486,
+  "start": 2717.673,
+  "end": 2725.543,
+  "speaker": "Unknown",
+  "en": "So if we were to circle back, you know, people getting started, probably just like, if I want to install this locally, what version of Postgres do I need?",
+  "zh": "那么，如果我们绕回来说，你知道，人们入门的话，可能就像，如果我想在本地安装这个，我需要什么版本的 Postgres?"
+ },
+ {
+  "seg": 487,
+  "start": 2725.584,
+  "end": 2729.288,
+  "speaker": "Unknown",
+  "en": "You know, do I need to be on one of the most modern versions of Postgres to put TimescaleDB in or?",
+  "zh": "你知道，我需要用最新版的 Postgres 才能装 TimescaleDB 吗？还是……"
+ },
+ {
+  "seg": 488,
+  "start": 2729.629,
+  "end": 2730.91,
+  "speaker": "Unknown",
+  "en": "We've been 15 through 18 recently.",
+  "zh": "我们最近支持的是 15 到 18。"
+ },
+ {
+  "seg": 489,
+  "start": 2733.053,
+  "end": 2741.216,
+  "speaker": "Unknown",
+  "en": "The release, actually, that just came out, and it's coming out on GitHub today, which is, I think it's 2.29, deprecates PG15.",
+  "zh": "实际上，刚发布的那个版本，今天会在 GitHub 上发布，我想是 2.29,弃用了 PG15。"
+ },
+ {
+  "seg": 490,
+  "start": 2741.316,
+  "end": 2745.557,
+  "speaker": "Unknown",
+  "en": "So you've got 16, 17, and 18, and we'll be adding 19 soon when it's coming out.",
+  "zh": "所以你有 16、17 和 18,等 19 出来我们很快也会加上。"
+ },
+ {
+  "seg": 491,
+  "start": 2745.617,
+  "end": 2747.537,
+  "speaker": "Unknown",
+  "en": "We try to keep up to date on that.",
+  "zh": "我们尽量保持跟进最新版本。"
+ },
+ {
+  "seg": 492,
+  "start": 2747.617,
+  "end": 2751.719,
+  "speaker": "Unknown",
+  "en": "So you can just Google Timescale DB GitHub.",
+  "zh": "所以你只要谷歌搜索 Timescale DB GitHub。"
+ },
+ {
+  "seg": 493,
+  "start": 2752.119,
+  "end": 2755.88,
+  "speaker": "Unknown",
+  "en": "There's a one-line command, curl command you can do to get it running locally.",
+  "zh": "有一行 curl 命令可以让它在本地跑起来。"
+ },
+ {
+  "seg": 494,
+  "start": 2756.38,
+  "end": 2760.802,
+  "speaker": "Unknown",
+  "en": "You can also go to tigerdata.com, sign up for an evaluation.",
+  "zh": "你也可以去 tigerdata.com 注册评估。"
+ },
+ {
+  "seg": 495,
+  "start": 2760.862,
+  "end": 2766.744,
+  "speaker": "Unknown",
+  "en": "We have a free 30-day evaluation with a number of credits, so you can go ahead and get started and try that out.",
+  "zh": "我们有 30 天免费评估，附带一定数量的额度，所以你可以直接开始试用。"
+ },
+ {
+  "seg": 496,
+  "start": 2767.425,
+  "end": 2773.607,
+  "speaker": "Unknown",
+  "en": "I recommend, too, using the tool, the CLI and MCP as well, to get started.",
+  "zh": "我也推荐使用那个工具、CLI 以及 MCP 来入门。"
+ },
+ {
+  "seg": 497,
+  "start": 2773.887,
+  "end": 2779.35,
+  "speaker": "Unknown",
+  "en": "It's going to guide you through, and you can, you know, it's going to be through migration process, guide you through getting set up.",
+  "zh": "它会引导你完成，你知道，会通过迁移流程，引导你完成设置"
+ },
+ {
+  "seg": 498,
+  "start": 2779.95,
+  "end": 2780.811,
+  "speaker": "Unknown",
+  "en": "And configuring it.",
+  "zh": "和配置。"
+ },
+ {
+  "seg": 499,
+  "start": 2781.132,
+  "end": 2783.995,
+  "speaker": "Unknown",
+  "en": "And what I've done is I've really just documented my use case.",
+  "zh": "而我所做的，其实就是把我的用例完整地记录了下来。"
+ },
+ {
+  "seg": 500,
+  "start": 2784.035,
+  "end": 2785.857,
+  "speaker": "Unknown",
+  "en": "What do I want to build in a coding agent?",
+  "zh": "我想在一个 coding agent 里构建什么？"
+ },
+ {
+  "seg": 501,
+  "start": 2786.458,
+  "end": 2788.06,
+  "speaker": "Unknown",
+  "en": "And then use these tools.",
+  "zh": "然后使用这些工具。"
+ },
+ {
+  "seg": 502,
+  "start": 2788.36,
+  "end": 2795.929,
+  "speaker": "Unknown",
+  "en": "And it's going to use the best practices that we've put together in our documentation to build out the schema, to implement the features and get you up and running.",
+  "zh": "它会使用我们在文档中整理好的最佳实践来构建 schema,实现各种功能，让你快速跑起来。"
+ },
+ {
+  "seg": 503,
+  "start": 2796.41,
+  "end": 2799.513,
+  "speaker": "Unknown",
+  "en": "And it can be a pretty quick turnaround to be able to do that.",
+  "zh": "而且做到这一点可以是一个相当快的周期。"
+ },
+ {
+  "seg": 504,
+  "start": 2800.074,
+  "end": 2805.439,
+  "speaker": "Unknown",
+  "en": "And then load a lot of data and really put it through its paces because I think you'd be pleasantly surprised.",
+  "zh": "然后加载大量数据，真正把它彻底测试一遍，因为我想你会惊喜的。"
+ },
+ {
+  "seg": 505,
+  "start": 2805.679,
+  "end": 2811.104,
+  "speaker": "Unknown",
+  "en": "And then leverage the value of our column store to compress data to reduce the data footprint.",
+  "zh": "然后利用我们列存储的价值来压缩数据，减少数据足迹。"
+ },
+ {
+  "seg": 506,
+  "start": 2811.665,
+  "end": 2816.069,
+  "speaker": "Unknown",
+  "en": "All of those things are pretty well sort of guided through our tooling.",
+  "zh": "所有这些事情在我们的工具中都有相当好的引导。"
+ },
+ {
+  "seg": 507,
+  "start": 2816.369,
+  "end": 2819.851,
+  "speaker": "Unknown",
+  "en": "As well as on our console as well, we have different wizards and things to walk through it.",
+  "zh": "在我们的控制台上也是如此，我们有不同的向导之类的东西来引导你走完流程。"
+ },
+ {
+  "seg": 508,
+  "start": 2819.931,
+  "end": 2824.234,
+  "speaker": "Unknown",
+  "en": "So depending on if you're your developer that lives in the command line, stay there.",
+  "zh": "所以，如果你是生活在命令行里的开发者，就留在那里。"
+ },
+ {
+  "seg": 509,
+  "start": 2824.694,
+  "end": 2825.935,
+  "speaker": "Unknown",
+  "en": "And we have those tools to get you there.",
+  "zh": "我们有那些工具帮你达成。"
+ },
+ {
+  "seg": 510,
+  "start": 2826.175,
+  "end": 2834.44,
+  "speaker": "Unknown",
+  "en": "If you're less technical and you want to use our console and go through the Tiger Cloud and use that with our, you know, SAS console, that's another path as well.",
+  "zh": "如果你技术不那么强，想使用我们的控制台，通过 Tiger Cloud,配合我们的 SAS 控制台来使用，那是另一条路径。"
+ },
+ {
+  "seg": 511,
+  "start": 2834.54,
+  "end": 2837.022,
+  "speaker": "Unknown",
+  "en": "So easy path to get started, but try it out.",
+  "zh": "所以入门路径很简单，去试试吧。"
+ },
+ {
+  "seg": 512,
+  "start": 2837.262,
+  "end": 2845.947,
+  "speaker": "Unknown",
+  "en": "And I think people will find a lot of value in it, especially those that have the need for that time series data that's growing, which is a common, I think common path for people.",
+  "zh": "我认为人们会在其中发现很多价值，尤其是那些有不断增长的时间序列数据需求的人，我想这是人们的常见路径。"
+ },
+ {
+  "seg": 513,
+  "start": 2846.187,
+  "end": 2849.909,
+  "speaker": "Unknown",
+  "en": "I love the CLI and MCP is like the first way in, right?",
+  "zh": "我很喜欢 CLI,MCP 就像是第一个入口，对吧？"
+ },
+ {
+  "seg": 514,
+  "start": 2849.929,
+  "end": 2859.155,
+  "speaker": "Unknown",
+  "en": "Because increasingly we're all using coding agents to explore all of these tools and treating that as a kind of first class expected approach and saying, okay, how do we cater to that?",
+  "zh": "因为越来越多的人都在使用 coding agent 来探索所有这些工具，并把那当作一种一等公民的、理所当然的方式，然后说，好，我们怎么迎合这一点？"
+ },
+ {
+  "seg": 515,
+  "start": 2859.535,
+  "end": 2863.117,
+  "speaker": "Unknown",
+  "en": "How do we make that go on the rails rather than making assumptions it shouldn't?",
+  "zh": "我们怎么让它走上正轨，而不是让它做出不该做的假设？"
+ },
+ {
+  "seg": 516,
+  "start": 2863.525,
+  "end": 2865.827,
+  "speaker": "Unknown",
+  "en": "And it's beyond even getting started.",
+  "zh": "而且这甚至不止于入门。"
+ },
+ {
+  "seg": 517,
+  "start": 2865.867,
+  "end": 2874.233,
+  "speaker": "Unknown",
+  "en": "We're building further tooling to really debug and validate and show slow queries, things that you could optimize within a system as well.",
+  "zh": "我们正在构建更多的工具，用于真正地调试和验证、展示慢查询，以及系统内可以优化的东西。"
+ },
+ {
+  "seg": 518,
+  "start": 2874.393,
+  "end": 2889.145,
+  "speaker": "Unknown",
+  "en": "And I think I see even the ability to build independent agents that are monitoring your database, monitoring the system, making recommendations in real time, above and beyond just the initial development out of the box, all using the same tools behind the scenes.",
+  "zh": "我想我甚至看到了构建独立智能体的可能性，它们监控你的数据库、监控系统、实时给出建议，远超开箱即用的初始开发，而这一切在幕后使用的都是同一套工具。"
+ }
+]

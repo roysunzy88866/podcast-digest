@@ -1,0 +1,1523 @@
+{
+  "episode_id": "2026-09-22-sed-scaling-time-series-workloads-on-postgre",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-09-22",
+  "tags": [
+    "时序数据库",
+    "PostgreSQL",
+    "数据基础设施",
+    "AI 智能体",
+    "开源模型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "kevin-ball",
+      "type": "person",
+      "role": "host",
+      "name": "Kevin Ball",
+      "file": "Kevin Ball",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            60.471,
+            67.073
+          ],
+          "quote": "In this episode, Brandon joins Kevin Ball to discuss why time series data breaks conventional databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            76.476,
+            83.518
+          ],
+          "quote": "Kevin Ball, or Kate Ball, is the Vice President of Engineering at Mento and an independent coach for engineers and engineering leaders.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "brandon-purcell",
+      "type": "person",
+      "role": "cohost",
+      "name": "Brandon Purcell",
+      "file": "Brandon Purcell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            55.79,
+            59.831
+          ],
+          "quote": "Brandon Purcell is the Director of Product Management at Tiger Data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "timescaledb",
+      "type": "company",
+      "role": "concept",
+      "name": "TimescaleDB",
+      "file": "TimescaleDB",
+      "primary": true,
+      "how_described": "本集说它是 Tiger Data 开发的 Postgres 扩展(而非分叉),为 PostgreSQL 增加时序能力:SQL 零变化、应用零改动,底层自动按时间分块、行存转列存压缩,查询加速 10 到 1000 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            29.76,
+            36.465
+          ],
+          "quote": "TimescaleDB is an open source database from Tiger Data that adds Time Series capabilities to PostgreSQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            201.827,
+            210.231
+          ],
+          "quote": "And for most that are familiar with Timescale, which is the product TimescaleDB that Tiger Data has built, it's an extension of Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            243.385,
+            247.328
+          ],
+          "quote": "And so TimescaleDB addresses that by building this extension.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            968.243,
+            976.186
+          ],
+          "quote": "But with TimescaleDB, if you're tuning things appropriately and you have the right chunk size as you work through that, you're not going to see a drop-off in that at all.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1512.408,
+            1515.95
+          ],
+          "quote": "HyperTables, TimescaleDB was arising out of a thing that was a gap, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1688.269,
+            1699.553
+          ],
+          "quote": "People will look at an LLM or Google it and their specific problem, whether it's write and jest, challenges, read problems or queries, and stumble upon something like TimescaleDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1718.209,
+            1730.216
+          ],
+          "quote": "So from that educational standpoint, we talked about some use cases earlier, but if I'm a developer, what are the things that are gonna cause me to, where I should be like, oh, I should check out TimescaleDB?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1798.509,
+            1803.533
+          ],
+          "quote": "And they were using a previous database before and had migrated over to TimescaleDB.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2019.328,
+            2025.393
+          ],
+          "quote": "What should we be watching out for as we look at, you know, Tiger data and TimescaleDB and all these things?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2551.87,
+            2555.832
+          ],
+          "quote": "I mentioned the open source offering with TimescaleDB, and I mentioned TigerCloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2556.472,
+            2568.137
+          ],
+          "quote": "And as we grow in the physical world, in industrial operations, we're also building a product called TimescaleDB Enterprise, which is an on-prem version of the open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2603.292,
+            2612.037
+          ],
+          "quote": "For developers that are interested in trying out, let's say, TimescaleDB or TigerCloud, you can use our Postgres connector to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2677.514,
+            2694.647
+          ],
+          "quote": "So it's a number of, you know, different technologies that sit on top of TimescaleDB extensibility to run it on premise with an HA configuration, as well as, you know, this tooling to make it easier to replicate data from vanilla Postgres or TimescaleDB to a TimescaleDB instance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2725.584,
+            2729.288
+          ],
+          "quote": "You know, do I need to be on one of the most modern versions of Postgres to put TimescaleDB in or?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tiger-data",
+      "type": "company",
+      "role": "company",
+      "name": "Tiger Data",
+      "file": "Tiger Data",
+      "primary": true,
+      "how_described": "本集说它是 TimescaleDB 背后的公司,嘉宾 Brandon Purcell 在此任产品管理总监,产品包括开源的 TimescaleDB 和托管的 Tiger Cloud。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            29.76,
+            36.465
+          ],
+          "quote": "TimescaleDB is an open source database from Tiger Data that adds Time Series capabilities to PostgreSQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            55.79,
+            59.831
+          ],
+          "quote": "Brandon Purcell is the Director of Product Management at Tiger Data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            180.123,
+            187.413
+          ],
+          "quote": "And I love Postgres and so ended up coming over to Tiger Data because I believe they have a great product and it really takes Postgres to the next level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 31,
+          "t": [
+            196.484,
+            201.567
+          ],
+          "quote": "And so just kind of taking a step back, you have Tiger Data as the company and the organization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 32,
+          "t": [
+            201.827,
+            210.231
+          ],
+          "quote": "And for most that are familiar with Timescale, which is the product TimescaleDB that Tiger Data has built, it's an extension of Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1199.323,
+            1213.033
+          ],
+          "quote": "One is just the overall managed service, the ability to take the pain off the team to run a managed service, much like you would have with RDS on AWS, which I used pretty extensively before coming to Tiger Data for our geospatial product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1343.793,
+            1352.222
+          ],
+          "quote": "Maybe we are bringing data in where Tiger data or timescale becomes your operational database for your dashboards where you need really fast responsiveness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1425.826,
+            1436.913
+          ],
+          "quote": "And the intent is that you can get that right depending on where your source of record is or where you're ingesting, if you're bringing it directly into Postgres, into Tiger data, and then being able to use that downstream and other processes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1437.373,
+            1443.637
+          ],
+          "quote": "Maybe a team writes their data directly to S3 and then that to hold in and operationally enabled through Tiger data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2019.328,
+            2025.393
+          ],
+          "quote": "What should we be watching out for as we look at, you know, Tiger data and TimescaleDB and all these things?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "company",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": true,
+      "how_described": "本集说它是开发者用得最多的关系型数据库,多数人处理时序数据的起点;其可扩展性(extension 机制)正是 TimescaleDB 的实现基础,但原生 Postgres 随数据增长会出现写入和查询的线性退化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            37.606,
+            46.128
+          ],
+          "quote": "It's implemented as a Postgres extension, so it introduces new functionality while preserving standard Postgres behavior and SQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            46.828,
+            55.19
+          ],
+          "quote": "This lets a single Postgres-based system handle both transactional and analytical workloads without splitting data across multiple tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            67.613,
+            75.956
+          ],
+          "quote": "How HyperTables and HyperCore scale Postgres, zero-copy database forking for agent-based workflows, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            141.961,
+            147.684
+          ],
+          "quote": "The startup was called Spatial Key, so the background in my area and experience in Postgres goes back almost 20 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 22,
+          "t": [
+            148.985,
+            164.93
+          ],
+          "quote": "We built a geospatial analytics platform that was built on top of Postgres, primarily initially focusing across a broad range, horizontal, but then switching that into insurance and everything from underwriting to event response and portfolio management type use cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 27,
+          "t": [
+            180.123,
+            187.413
+          ],
+          "quote": "And I love Postgres and so ended up coming over to Tiger Data because I believe they have a great product and it really takes Postgres to the next level.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            188.72,
+            195.163
+          ],
+          "quote": "So can you tell us a little bit about the product at Tiger and what is it that it handles that vanilla Postgres doesn't?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            201.827,
+            210.231
+          ],
+          "quote": "And for most that are familiar with Timescale, which is the product TimescaleDB that Tiger Data has built, it's an extension of Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 37,
+          "t": [
+            226.736,
+            231.677
+          ],
+          "quote": "And oftentimes as that grows in vanilla Postgres, you start to run into challenges.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            289.425,
+            291.926
+          ],
+          "quote": "People typically do start with Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            292.167,
+            298.85
+          ],
+          "quote": "So I think 60% of the world, you start with a relational database, Postgres being the one that's probably used the most by developers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            359.923,
+            367.327
+          ],
+          "quote": "And so as you start to grow, and oftentimes people start with Postgres and as you start to outgrow it, your queries slow down, your ingest slows down.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            469.042,
+            476.144
+          ],
+          "quote": "So typical database in Postgres, you have a row store and your data is organized in rows, just like traditional databases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            669.039,
+            675.825
+          ],
+          "quote": "You can use additional particular schemes that come with Postgres, but for the most part, I find they're not necessary.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            716.249,
+            727.416
+          ],
+          "quote": "Now, another thing that at that time was challenging was, yeah, anytime you, if you wanted to join from this over into something else, because at that point I was dealing with partition logic at the app layer, you're down in Postgres.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            733.239,
+            740.384
+          ],
+          "quote": "So think of it as from a developer perspective, really no different than what your traditional experience would be in Postgres or any other relational database.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            805.109,
+            809.571
+          ],
+          "quote": "And I think really the difference in the value of Postgres with its extensibility.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            815.953,
+            826.785
+          ],
+          "quote": "And on timescale, DB is using those same concepts with the extensibility of Postgres and the ability to interact from a query planner, automatically route to the appropriate request against the right chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            914.987,
+            921.171
+          ],
+          "quote": "Because I know, yeah, definitely in vanilla Postgres, some indexes are better for write-heavy applications versus not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            923.073,
+            926.015
+          ],
+          "quote": "The same things really apply to Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            953.199,
+            967.603
+          ],
+          "quote": "And so what we've seen from that is as you have a normal Postgres table and you ingest over time, you see this linear degradation of actually the amount of rows per second that you can ingest.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            999.353,
+            1010.817
+          ],
+          "quote": "And what we found is you can, on nominal hardware, get to a million rows per second plus from an ingestion standpoint, which is very difficult to do in vanilla Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1015.032,
+            1020.596
+          ],
+          "quote": "So would it be fair to say, like, in vanilla Postgres, you see this linear degradation with the size of the table.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1054.38,
+            1058.243
+          ],
+          "quote": "And so you don't run into those same problems that you would see in normal Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1072.08,
+            1082.546
+          ],
+          "quote": "And if I'm coming from a vanilla Postgres world, maybe I have some materialized views that are computing that for me, or I have a stored procedure that's happening or some application logic that's running this and dumping it into a table.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1107.359,
+            1109.6
+          ],
+          "quote": "And I always forget the equivalent in Postgres.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1183.987,
+            1192.351
+          ],
+          "quote": "Because everything we've talked about to date, I could get open source, I put a plug-in in my running Postgres, and as you highlight, like, I don't need very fancy hardware to run this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1399.854,
+            1405.98
+          ],
+          "quote": "I've got stuff in Postgres and a few different places and then we're shifting things into AWS and have this whole processing pipeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1425.826,
+            1436.913
+          ],
+          "quote": "And the intent is that you can get that right depending on where your source of record is or where you're ingesting, if you're bringing it directly into Postgres, into Tiger data, and then being able to use that downstream and other processes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1483.711,
+            1489.615
+          ],
+          "quote": "And by primitives, I mean, I mean, we really support everything that's in Postgres today, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1490.655,
+            1495.64
+          ],
+          "quote": "It is vanilla Postgres with these extension to be able to then partition the data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1610.702,
+            1614.067
+          ],
+          "quote": "You know, you understand Postgres and it's good to understand the concepts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1651.408,
+            1656.711
+          ],
+          "quote": "Without having to sacrifice the value of something like Postgres and the developer kind of productivity around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1745.765,
+            1749.968
+          ],
+          "quote": "You know, I think any time because you're starting with Postgres, so you have all your relational stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1979.669,
+            1985.43
+          ],
+          "quote": "I feel like every time I interview someone from a database company, one of my questions is, all right, why you and not Postgres?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1987.75,
+            1988.91
+          ],
+          "quote": "Let's do it with Postgres.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1989.35,
+            1995.691
+          ],
+          "quote": "Yeah, no, it's one of the reasons I joined too, because I just have loved Postgres just because of the extensibility of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2445.767,
+            2459.494
+          ],
+          "quote": "We have all the Postgres metrics, but even getting into fine-grained metrics around what's happening in compression policies, CAG or continuous aggregate refresh policies, being able to see what's happening really behind the scenes as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2459.654,
+            2468.378
+          ],
+          "quote": "And Postgres has a large number of metrics that you have that are exposed to you to really dig in to see what's happening in the system itself, as well as...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2472.279,
+            2480.223
+          ],
+          "quote": "So if you're familiar with Postgres, this is not a learning curve other than the specific areas around hyper tables and continuous aggregates.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2481.123,
+            2487.166
+          ],
+          "quote": "Well, can I like use Postgres to query down a level below your sort of high level of abstraction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2534.782,
+            2536.663
+          ],
+          "quote": "It's a nice extension of the Postgres story, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2536.703,
+            2540.565
+          ],
+          "quote": "Postgres is great for debuggability because it has all these internal tools and metrics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2598.309,
+            2602.712
+          ],
+          "quote": "And we also, as part of that, have something called our Postgres connector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2603.292,
+            2612.037
+          ],
+          "quote": "For developers that are interested in trying out, let's say, TimescaleDB or TigerCloud, you can use our Postgres connector to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2677.514,
+            2694.647
+          ],
+          "quote": "So it's a number of, you know, different technologies that sit on top of TimescaleDB extensibility to run it on premise with an HA configuration, as well as, you know, this tooling to make it easier to replicate data from vanilla Postgres or TimescaleDB to a TimescaleDB instance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2717.673,
+            2725.543
+          ],
+          "quote": "So if we were to circle back, you know, people getting started, probably just like, if I want to install this locally, what version of Postgres do I need?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2725.584,
+            2729.288
+          ],
+          "quote": "You know, do I need to be on one of the most modern versions of Postgres to put TimescaleDB in or?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hyper-table",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级表 (hyper table)",
+      "file": "超级表",
+      "primary": true,
+      "how_described": "本集说它是 TimescaleDB 的核心概念:自动按时间戳把数据切分成 chunk,查询时规划器只命中相关块,即使有十几年、几十亿行数据,顶层看起来仍是一张表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            441.821,
+            449.789
+          ],
+          "quote": "We have something called a hyper table, which takes that same concept and it starts with the partitioning, the automatic partitioning of that data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1122.007,
+            1130.452
+          ],
+          "quote": "That allows you to have an aggregate level view of your data that is automatically self-updating when any changes to the hyper table occur.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1586.11,
+            1597.515
+          ],
+          "quote": "And it built everything from the schema to designs, the hyper table design, the continuous aggregate design, all of those things very well guided to get you set up in just a few hours, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1893.338,
+            1907.107
+          ],
+          "quote": "You have, you know, PG vector and we also have an extension PG vector scale that scales out to, as you get to larger data sets, but you have your vector embeddings right alongside all of your other data that could be a part of this hyper table and time series data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2395.621,
+            2398.623
+          ],
+          "quote": "You mean at the hyper table level or individual chunks?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chunks",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据块 (chunks)",
+      "file": "数据块",
+      "primary": true,
+      "how_described": "本集说超表把数据按时间切成的单位,底层其实就是普通表;块大小是主要调优参数,默认 7 天,高吞吐场景可缩到 1 小时,云端有自动推荐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            449.829,
+            456.315
+          ],
+          "quote": "So breaking based upon those time steps and partitioning it in chunks that separate it over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 91,
+          "t": [
+            461.24,
+            468.762
+          ],
+          "quote": "And so within those chunks as well, we have something called HyperCore, which allows us to have a hybrid row and column store.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            550.962,
+            557.086
+          ],
+          "quote": "That allows for execution of queries to pull from the metadata that is in these batches or in these chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            604.908,
+            607.55
+          ],
+          "quote": "Your data ends up being broken up into these chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            611.612,
+            626.641
+          ],
+          "quote": "And oftentimes one of the biggest values of that is when you have billions and billions of rows that maybe go over 10 plus years, if you're querying more near-term data, the query planner is only going to hit the chunks that are necessary for that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            815.953,
+            826.785
+          ],
+          "quote": "And on timescale, DB is using those same concepts with the extensibility of Postgres and the ability to interact from a query planner, automatically route to the appropriate request against the right chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 156,
+          "t": [
+            830.71,
+            833.253
+          ],
+          "quote": "So you touch as few chunks as possible.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            837.794,
+            841.255
+          ],
+          "quote": "And under the covers, these chunks are really just tables.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            847.416,
+            860.119
+          ],
+          "quote": "And because of that too, your indexes, if you're talking about in the row store within those chunks, are broken up across those as well, which is one of the big challenges when you have a huge table, that index grows very substantially.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            944.653,
+            948.978
+          ],
+          "quote": "And so the same kind of rules apply, but it allows you, because you have many chunks,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            985.089,
+            987.189
+          ],
+          "quote": "And that's going to be routed to old chunks as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1042.173,
+            1052.859
+          ],
+          "quote": "Because most of your chunks, unless you set like 30 days or two months for one and you have a ton of data, it's not going to grow substantial like you would see tens of millions or hundreds of millions in a single one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2344.584,
+            2350.287
+          ],
+          "quote": "But we have functions as well for splitting and combining chunks that you can call manually to do that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2364.433,
+            2369.195
+          ],
+          "quote": "But from a developer standpoint, you just call these functions to split and combine these chunks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2395.621,
+            2398.623
+          ],
+          "quote": "You mean at the hyper table level or individual chunks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2490.996,
+            2501.802
+          ],
+          "quote": "There are functions that you can find in our API docs to access specific chunks for certain operations to see what's happening below the scenes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hypercore",
+      "type": "company",
+      "role": "concept",
+      "name": "HyperCore",
+      "file": "HyperCore",
+      "primary": true,
+      "how_described": "本集说它是块内部的混合存储引擎:新数据先行存储,按策略自动迁移到列存储并压缩,配合向量化执行带来 10 到 1000 倍查询加速。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.613,
+            75.956
+          ],
+          "quote": "How HyperTables and HyperCore scale Postgres, zero-copy database forking for agent-based workflows, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            461.24,
+            468.762
+          ],
+          "quote": "And so within those chunks as well, we have something called HyperCore, which allows us to have a hybrid row and column store.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tiger-cloud",
+      "type": "company",
+      "role": "company",
+      "name": "Tiger Cloud",
+      "file": "Tiger Cloud",
+      "primary": true,
+      "how_described": "本集说它是 Tiger Data 的托管云服务:提供只读副本、高可用副本、连接负载均衡,以及分层数据功能(如 10 年数据只热存 2 年,其余自动分层到 S3、Iceberg 格式,查询仍是一张表)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            266.919,
+            269.5
+          ],
+          "quote": "And we also have our Tiger Cloud solution as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1166.02,
+            1179.565
+          ],
+          "quote": "And we have customers that are in our Tiger Cloud environment that have 20,000, 30,000 queries a second that are hitting billions of queries a day against what I would consider nominal hardware, not crazy specialized hardware.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1180.485,
+            1183.967
+          ],
+          "quote": "Well, that maybe is a good opportunity to start talking about Tiger Cloud, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1192.991,
+            1194.211
+          ],
+          "quote": "Why would I go to Tiger Cloud?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1195.8,
+            1199.203
+          ],
+          "quote": "Yeah, so Tiger Cloud has a couple of different features around it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2427.758,
+            2442.425
+          ],
+          "quote": "We also have on Tiger Cloud exporters for a number of different third-party tools, Datadog, Prometheus, solutions like that, that provide deeper insight into exactly what's happening in the system as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2826.175,
+            2834.44
+          ],
+          "quote": "If you're less technical and you want to use our console and go through the Tiger Cloud and use that with our, you know, SAS console, that's another path as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tiger-lake",
+      "type": "company",
+      "role": "concept",
+      "name": "Tiger Lake",
+      "file": "Tiger Lake",
+      "primary": true,
+      "how_described": "本集说它是 beta 中的产品,提供与 Snowflake、Databricks 等系统的双向连接,数据以 Iceberg 格式自动写出到 S3,免去自建数据管道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1326.882,
+            1328.703
+          ],
+          "quote": "It's still in beta right now, which is Tiger Lake.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1369.977,
+            1384.845
+          ],
+          "quote": "And so instead of having to build that data pipeline themselves, they kind of make that automatic where you just enable this feature and it automatically where based on the data that you've selected, it automatically starts writing using Tiger Lake out to S3.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2026.09,
+            2034.538
+          ],
+          "quote": "I think it's continuing to build on the Tiger Lake story with connectors into Snowflake, connectors into Databricks longer term as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "fluid-storage",
+      "type": "company",
+      "role": "concept",
+      "name": "Fluid Storage",
+      "file": "Fluid Storage",
+      "primary": true,
+      "how_described": "本集说它是开发中的存储引擎演进:零拷贝分叉数据库,几秒或几分钟 fork 出生产库副本,改动以差异记录,供智能体或 CI/CD 流程安全折腾而不影响生产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            2084.521,
+            2098.13
+          ],
+          "quote": "We're internally working on an evolution to our storage engine called Fluid Storage, which is sort of a zero copy type storage that allows you to create forks without having to copy the underlying data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2180.951,
+            2187.813
+          ],
+          "quote": "So this new fluid storage system we've been building is going to be a game changer in terms of the ability to fork much, much faster.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "continuous-aggregates",
+      "type": "concept",
+      "role": "concept",
+      "name": "连续聚合 (continuous aggregates)",
+      "file": "连续聚合",
+      "primary": true,
+      "how_described": "本集说它是物化视图的扩展,基于 time bucket 函数自动按策略自我更新,可层级叠加构建,将数千亿行聚合后实现亚毫秒级查询;难点是设备离线回传大批数据时的大范围重算,正在做细粒度刷新解决。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 208,
+          "t": [
+            1086.308,
+            1099.675
+          ],
+          "quote": "So taking the same concept of materialized views, which are a commonly used concept in relational databases, we've built an extension of that called continuous aggregates, which behind the scenes really are a materialized view.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2037.921,
+            2051.112
+          ],
+          "quote": "And from a developer perspective, our goal is to make this sort of out of the box, not having to do the tuning exercises, making continuous aggregates easier, making the developer experience really",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2240.663,
+            2243.967
+          ],
+          "quote": "The other challenge oftentimes is getting continuous aggregates right.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2303.957,
+            2310.479
+          ],
+          "quote": "The way that continuous aggregates work today is that you update that entire time range within the aggregates that you have.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2472.279,
+            2480.223
+          ],
+          "quote": "So if you're familiar with Postgres, this is not a learning curve other than the specific areas around hyper tables and continuous aggregates.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pg-vector",
+      "type": "company",
+      "role": "concept",
+      "name": "PG vector",
+      "file": "PG vector",
+      "primary": true,
+      "how_described": "本集说用它(及其扩展 PG vector scale)可以在同一个库里把向量嵌入与时序数据、关系数据放在一起,无需单独的向量数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 343,
+          "t": [
+            1893.338,
+            1907.107
+          ],
+          "quote": "You have, you know, PG vector and we also have an extension PG vector scale that scales out to, as you get to larger data sets, but you have your vector embeddings right alongside all of your other data that could be a part of this hyper table and time series data.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体作为数据库的新用户反复讨论:用 CLI 和 MCP 引导编码智能体建库,Fluid Storage 零拷贝分叉让智能体安全操作生产数据副本,甚至设想独立智能体实时监控数据库并给建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.613,
+            75.956
+          ],
+          "quote": "How HyperTables and HyperCore scale Postgres, zero-copy database forking for agent-based workflows, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1575.605,
+            1582.369
+          ],
+          "quote": "I built a majority of that just giving it a description of what I wanted in the coding agent using the CLI and MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1730.276,
+            1733.177
+          ],
+          "quote": "What are the problem spaces that maybe I would ask my agent about?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2114.376,
+            2125.278
+          ],
+          "quote": "So you can take your production database in seconds or minutes, be able to fork that and then have an agent that can work against that data and then stand that up and tear it back down very easily.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2784.035,
+            2785.857
+          ],
+          "quote": "What do I want to build in a coding agent?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集说越来越多人用 coding agent 探索和配置数据库工具,嘉宾本人用编码智能体加 CLI 和 MCP 几小时搭完了智能家居遥测项目,数据库侧一行代码没写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 292,
+          "t": [
+            1575.605,
+            1582.369
+          ],
+          "quote": "I built a majority of that just giving it a description of what I wanted in the coding agent using the CLI and MCP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2784.035,
+            2785.857
+          ],
+          "quote": "What do I want to build in a coding agent?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zero-copy",
+      "type": "concept",
+      "role": "concept",
+      "name": "零拷贝 (zero copy)",
+      "file": "零拷贝",
+      "primary": true,
+      "how_described": "本集说 Fluid Storage 的零拷贝存储让数据库分叉不必复制底层数据,变更以差异记录,解决测试环境获取生产数据副本又慢又麻烦的痛点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            67.613,
+            75.956
+          ],
+          "quote": "How HyperTables and HyperCore scale Postgres, zero-copy database forking for agent-based workflows, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2084.521,
+            2098.13
+          ],
+          "quote": "We're internally working on an evolution to our storage engine called Fluid Storage, which is sort of a zero copy type storage that allows you to create forks without having to copy the underlying data.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cern",
+      "type": "company",
+      "role": "company",
+      "name": "CERN",
+      "file": "CERN",
+      "primary": true,
+      "how_described": "本集说欧洲核子研究中心原先存约 70TB 时序数据(强子对撞机等设备),迁移到 TimescaleDB 后压缩到 5TB,还能整体搬到更快的 NVMe SSD 上提升性能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1792.585,
+            1797.709
+          ],
+          "quote": "But just the footprint, and we've seen this, I did a webinar with CERN a couple of weeks ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1808.116,
+            1811.358
+          ],
+          "quote": "This is like the Hadron Collider and all the other devices in CERN.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1854.552,
+            1858.615
+          ],
+          "quote": "It's interesting, again, to think of like, oh, the data problems that CERN has, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "postgres-connector",
+      "type": "company",
+      "role": "concept",
+      "name": "Postgres Connector",
+      "file": "Postgres Connector",
+      "primary": true,
+      "how_described": "本集说它指向现有生产库、实时复制想要的表并回放 WAL 保持同步,让开发者可与生产库并行测试,免去 PG dump/restore 的停机评估路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 465,
+          "t": [
+            2598.309,
+            2602.712
+          ],
+          "quote": "And we also, as part of that, have something called our Postgres connector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2603.292,
+            2612.037
+          ],
+          "quote": "For developers that are interested in trying out, let's say, TimescaleDB or TigerCloud, you can use our Postgres connector to",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集提到 Tiger Lake 将把数据双向推送到 Snowflake,供数据科学/分析团队消费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1329.263,
+            1339.369
+          ],
+          "quote": "And that's to allow that bi-directional connectivity with other teams often where you would have that data in an iceberg format, pushing data to Snowflake, pushing data to Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1352.662,
+            1362.793
+          ],
+          "quote": "Maybe you have a data science team or another analytical team that's consuming that using Snowflake, Dataprix or Athena in AWS and the ability to have that live in both locations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2026.09,
+            2034.538
+          ],
+          "quote": "I think it's continuing to build on the Tiger Lake story with connectors into Snowflake, connectors into Databricks longer term as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到 Tiger Lake 路线图包含连接到 Databricks 的连接器,实现双向数据同步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1329.263,
+            1339.369
+          ],
+          "quote": "And that's to allow that bi-directional connectivity with other teams often where you would have that data in an iceberg format, pushing data to Snowflake, pushing data to Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2026.09,
+            2034.538
+          ],
+          "quote": "I think it's continuing to build on the Tiger Lake story with connectors into Snowflake, connectors into Databricks longer term as well.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spatial-key",
+      "type": "company",
+      "role": "company",
+      "name": "Spatial Key",
+      "file": "Spatial Key",
+      "primary": false,
+      "how_described": "本集说嘉宾早年联合创办的地理空间分析公司,构建在 Postgres 之上,约 13 年后卖出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            141.961,
+            147.684
+          ],
+          "quote": "The startup was called Spatial Key, so the background in my area and experience in Postgres goes back almost 20 years.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "iceberg",
+      "type": "company",
+      "role": "concept",
+      "name": "Iceberg",
+      "file": "Iceberg",
+      "primary": false,
+      "how_described": "本集提到分层数据在幕后以 Iceberg 格式存到 S3。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1260.618,
+            1267.782
+          ],
+          "quote": "And now that tiers that off to S3 in the AWS case and then it ensures that in iceberg format behind the scenes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1329.263,
+            1339.369
+          ],
+          "quote": "And that's to allow that bi-directional connectivity with other teams often where you would have that data in an iceberg format, pushing data to Snowflake, pushing data to Databricks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

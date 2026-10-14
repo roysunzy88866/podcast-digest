@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]] [[Dru Knox]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Factory":6,"软件工厂":1,"智能体":495,"智能体就绪度":1,"模型无关":1,"古德哈特定律":2,"护栏":89,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Factory":6,"软件工厂":1,"智能体":496,"智能体就绪度":1,"模型无关":1,"古德哈特定律":2,"护栏":89,"开源模型":4}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Viren Baraiya]] · [[智能体]] · [[harness]] · [[多智能体系统]] · [[确定性]] · [[Saga(晚绑定的 saga)]] · [[持久性]] · [[LLM]] · [[Conductor]] · [[Kubernetes]]
 
-<script type="application/json" class="pd-epn">{"Viren Baraiya":1,"智能体":495,"harness":65,"多智能体系统":1,"确定性":6,"Saga(晚绑定的 saga)":1,"持久性":2,"LLM":64,"Conductor":3,"Kubernetes":20}</script>
+<script type="application/json" class="pd-epn">{"Viren Baraiya":1,"智能体":496,"harness":65,"多智能体系统":1,"确定性":6,"Saga(晚绑定的 saga)":1,"持久性":2,"LLM":64,"Conductor":3,"Kubernetes":20}</script>
 
 <script>
 (function(){

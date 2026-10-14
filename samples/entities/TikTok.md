@@ -37,7 +37,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[智能体]] · [[Facebook]] · [[Anthropic]] · [[LLM]] · [[ChatGPT]] · [[Google]] · [[CAC]] · [[Instagram]] · [[Netflix]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":495,"Facebook":17,"Anthropic":203,"LLM":64,"ChatGPT":111,"Google":71,"CAC":3,"Instagram":9,"Netflix":9,"OpenAI":199}</script>
+<script type="application/json" class="pd-epn">{"智能体":496,"Facebook":17,"Anthropic":203,"LLM":64,"ChatGPT":111,"Google":71,"CAC":3,"Instagram":9,"Netflix":9,"OpenAI":199}</script>
 
 <script>
 (function(){

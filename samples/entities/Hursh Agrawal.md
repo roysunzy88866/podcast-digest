@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":495,"编码智能体":33,"前沿模型":27,"Claude Code":110,"管理者日程":1,"评估":1,"爬坡":2,"沙箱":98}</script>
+<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":496,"编码智能体":35,"前沿模型":27,"Claude Code":111,"管理者日程":1,"评估":1,"爬坡":2,"沙箱":98}</script>
 
 <script>
 (function(){

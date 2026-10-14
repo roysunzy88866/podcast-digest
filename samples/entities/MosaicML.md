@@ -28,7 +28,7 @@ aliases: ["Mosaic"]
 
 [[Matei Zaharia]] · [[Vali]] · [[Reynold Xin]] · [[Luca Ferrari]] · [[Databricks]] · [[Bending Spoons]] · [[Snowflake]] · [[AOL]] · [[Neon]] · [[Grindr]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Vali":1,"Reynold Xin":1,"Luca Ferrari":2,"Databricks":23,"Bending Spoons":2,"Snowflake":22,"AOL":3,"Neon":4,"Grindr":1}</script>
+<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Vali":1,"Reynold Xin":1,"Luca Ferrari":3,"Databricks":24,"Bending Spoons":3,"Snowflake":23,"AOL":3,"Neon":4,"Grindr":1}</script>
 
 <script>
 (function(){

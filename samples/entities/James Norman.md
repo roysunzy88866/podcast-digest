@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"a16z":21,"AI":34,"AI 基础设施":6,"GPU":31,"NVIDIA":70,"OpenAI":199,"Eleven Labs":10,"Claude Code":110,"HubSpot":10}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"a16z":21,"AI":34,"AI 基础设施":6,"GPU":31,"NVIDIA":70,"OpenAI":199,"Eleven Labs":10,"Claude Code":111,"HubSpot":11}</script>
 
 <script>
 (function(){

@@ -94,7 +94,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":53,"Microsoft":32,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":199,"Mark Zuckerberg":1,"Anthropic":203,"智能体":495,"Google":71}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":53,"Microsoft":32,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":199,"Mark Zuckerberg":1,"Anthropic":203,"智能体":496,"Google":71}</script>
 
 <script>
 (function(){

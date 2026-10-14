@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":199,"Codex":86,"ChatGPT":111,"Dots":4,"Astra":8,"智能体":495,"沙箱":98,"对齐":25,"护栏":89}</script>
+<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":199,"Codex":86,"ChatGPT":111,"Dots":4,"Astra":8,"智能体":496,"沙箱":98,"对齐":25,"护栏":89}</script>
 
 <script>
 (function(){

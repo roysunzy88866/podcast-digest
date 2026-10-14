@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[品味]] · [[Alex Lieberman]] · [[Nicky Pike]] · [[Paul Bakaus]] · [[Lenny]] · [[Claire Veau]] · [[Cal.com]] · [[Impeccable]]
 
-<script type="application/json" class="pd-epn">{"智能体":495,"OpenAI":199,"品味":15,"Alex Lieberman":1,"Nicky Pike":1,"Paul Bakaus":2,"Lenny":69,"Claire Veau":1,"Cal.com":1,"Impeccable":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":496,"OpenAI":199,"品味":15,"Alex Lieberman":1,"Nicky Pike":1,"Paul Bakaus":2,"Lenny":69,"Claire Veau":1,"Cal.com":1,"Impeccable":2}</script>
 
 <script>
 (function(){

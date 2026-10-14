@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(00:48起):本集主线公司:Ali 讲述 2015 年开源成功但 GAAP 营收仅约 150 万美元时被推上 CEO,靠换高管团队、重建销售、打 Snowflake、立 Lakehouse 品类,把公司做到 70 亿 ARR、自由现金流盈亏平衡,并解释为何暂不上市。
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(00:57起):本集嘉宾 Ali 执掌的大数据与 AI 平台公司，全篇以它为例讲内部用 AI 改造公司：构建百万节点的本体、用 Genie 问答、管 token 成本、做网络安全检测产品。
 - **[[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th|《Ben Horowitz 创办 AI 时代新学院：18 岁可能是历史上最好的年纪》]]**(11:01起):本集作为学生将有机会工作的互联网公司之一被列举（与 NVIDIA、Stripe 并列），也是「在好公司能学到东西」的例子。
+- **[[2026-09-22-sed-scaling-time-series-workloads-on-postgre|《传感器数据撑爆了数据库怎么办？让 Postgres 自己变强》]]**(22:09起):本集提到 Tiger Lake 路线图包含连接到 Databricks 的连接器,实现双向数据同步。
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(06:01起):本集把它列为智能体获取组织上下文的连接器之一:通过 Snowflake 或 Databricks 数据仓库的连接器。
 - **[[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]]**(20:00起):本集说 Databricks 用智能路由(为每个任务选合适的模型)做到比最强单一模型多解决问题、成本低 35%;也是私募市场前六大巨头之一,靠大额新产品押注带来营收加速
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:51起):被一句话提及：SAP 数据平台的以数据为导向的合作伙伴之一，做零拷贝数据共享。
@@ -46,7 +47,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*23 集*
+*24 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-10-26-lennys-how-block-is-becoming-the-most-ai-native|《Block CTO：代码质量与产品成功毫无关系，打造 AI 原生公司靠的是组织重组》]] — 作为被讨论公司(提及)
@@ -64,6 +65,7 @@ unlisted: true
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为被讨论公司
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为被讨论公司
 - [[2026-09-22-a16z-why-a16z-is-building-a-new-school-for-th|《Ben Horowitz 创办 AI 时代新学院：18 岁可能是历史上最好的年纪》]] — 作为被讨论公司(提及)
+- [[2026-09-22-sed-scaling-time-series-workloads-on-postgre|《传感器数据撑爆了数据库怎么办？让 Postgres 自己变强》]] — 作为被讨论公司(提及)
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为被讨论公司(提及)
 - [[2026-09-30-a16z-the-1-trillion-ai-buildout-state-of-mark|《25张图表看懂AI是不是泡沫：a16z年度市场全景》]] — 作为被讨论公司
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
@@ -78,7 +80,7 @@ unlisted: true
 
 [[智能体]] · [[Snowflake]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[LLM]] · [[推理]] · [[开源]] · [[SaaS]]
 
-<script type="application/json" class="pd-epn">{"智能体":495,"Snowflake":22,"Anthropic":203,"OpenAI":199,"Cursor":86,"Stripe":48,"LLM":64,"推理":98,"开源":41,"SaaS":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":496,"Snowflake":23,"Anthropic":203,"OpenAI":199,"Cursor":86,"Stripe":48,"LLM":64,"推理":98,"开源":41,"SaaS":23}</script>
 
 <script>
 (function(){

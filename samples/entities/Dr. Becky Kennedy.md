@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":2,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1,"彻底坦诚":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Good Inside":1,"修复":1,"连接":1,"界限":1,"韧性":2,"最宽容解读":1,"稳健的领导者":1,"安全依恋":1,"彻底坦诚":3}</script>
 
 <script>
 (function(){

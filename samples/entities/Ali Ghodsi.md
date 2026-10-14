@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Databricks":23,"Snowflake":22,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":34,"AGI":28,"本体":5,"数据科学智能体":4}</script>
+<script type="application/json" class="pd-epn">{"Databricks":24,"Snowflake":23,"Lakehouse":1,"Apache Spark":1,"瓶颈":2,"PLG":12,"AI":34,"AGI":28,"本体":5,"数据科学智能体":4}</script>
 
 <script>
 (function(){

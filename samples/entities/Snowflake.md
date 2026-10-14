@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snowflake</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Snowflake">SN</div><div class="pi"><h1 class="pt">Snowflake</h1><div class="byl">公司</div><div class="nums">本站收录 <b>23</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]]**(11:41起):本集说它当时刚上市、是当时规模最大的 IPO，错过它的投资人都在找下一个 Snowflake，这是 MotherDuck 融资顺利的原因之一。
 - **[[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]]**(03:52起):本集说第一版是把 Snowflake 的 schema 导出贴进 system prompt 让模型写 SQL；后续智能体直接对 Snowflake 跑查询，数据团队也终于有时间优化 Snowflake 性能。
 - **[[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]]**(27:05起):本集把它说成 Databricks 当年的头号对手:营收曾是对手两倍,但有三个弱点——专有格式与数据锁定、AI 支持弱、贵;Databricks 用共存策略逐个客户打它。
+- **[[2026-09-22-sed-scaling-time-series-workloads-on-postgre|《传感器数据撑爆了数据库怎么办？让 Postgres 自己变强》]]**(22:09起):本集提到 Tiger Lake 将把数据双向推送到 Snowflake,供数据科学/分析团队消费。
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(06:01起):本集把它列为智能体获取组织上下文的连接器之一:通过 Snowflake 或 Databricks 数据仓库的连接器。
 - **[[2026-09-28-twist-jason-s-put-a-5k-bounty-on-his-dream-chr|《5000 美元悬赏做网页标注：三个 vibe coding 作品的现场评审》]]**(25:56起):本集一笔带过:举例说 Snowflake 当年就是一家在风险投资公司内部孵化的公司
 - **[[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]]**(09:51起):被一句话提及：SAP 数据平台的合作伙伴之一。
@@ -42,7 +43,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*22 集*
+*23 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-09-28-lennys-a-4-step-framework-for-building-delightf|《Nesrine：产品愉悦感不是彩纸，是增长策略》]] — 作为被讨论公司(提及)
@@ -59,6 +60,7 @@ unlisted: true
 - [[2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o|《被解雇的周五之后，他押上一切做了一家鸭子数据库公司》]] — 作为被讨论公司
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|《Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体》]] — 作为概念
 - [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|《Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识》]] — 作为被讨论公司
+- [[2026-09-22-sed-scaling-time-series-workloads-on-postgre|《传感器数据撑爆了数据库怎么办？让 Postgres 自己变强》]] — 作为被讨论公司(提及)
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为被讨论公司(提及)
 - [[2026-09-28-twist-jason-s-put-a-5k-bounty-on-his-dream-chr|《5000 美元悬赏做网页标注：三个 vibe coding 作品的现场评审》]] — 作为被讨论公司(提及)
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|《SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月》]] — 作为被讨论公司(提及)
@@ -73,7 +75,7 @@ unlisted: true
 
 [[智能体]] · [[Databricks]] · [[Anthropic]] · [[护栏]] · [[SaaS]] · [[MCP]] · [[沙箱]] · [[OpenAI]] · [[Codex]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"智能体":495,"Databricks":23,"Anthropic":203,"护栏":89,"SaaS":23,"MCP":93,"沙箱":98,"OpenAI":199,"Codex":86,"LLM":64}</script>
+<script type="application/json" class="pd-epn">{"智能体":496,"Databricks":24,"Anthropic":203,"护栏":89,"SaaS":23,"MCP":93,"沙箱":98,"OpenAI":199,"Codex":86,"LLM":64}</script>
 
 <script>
 (function(){

@@ -60,7 +60,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":5,"软件工厂":1,"智能体":495,"代码审查":24,"计算机使用":22,"Claire Vo":6,"开源":41,"编码智能体":33,"规范":2,"LLM 当裁判":10}</script>
+<script type="application/json" class="pd-epn">{"Warp":5,"软件工厂":1,"智能体":496,"代码审查":24,"计算机使用":22,"Claire Vo":6,"开源":41,"编码智能体":35,"规范":2,"LLM 当裁判":10}</script>
 
 <script>
 (function(){

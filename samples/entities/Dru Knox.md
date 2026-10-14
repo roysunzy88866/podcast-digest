@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":33,"沙箱":98,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
+<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":35,"沙箱":98,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
 
 <script>
 (function(){

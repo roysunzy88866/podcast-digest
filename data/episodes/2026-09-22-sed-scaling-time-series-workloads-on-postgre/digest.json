@@ -1,0 +1,143 @@
+{
+  "title_zh": "传感器数据撑爆了数据库怎么办？让 Postgres 自己变强",
+  "tldr": "Tiger Data 产品负责人 Brandon Purcell 讲解 TimescaleDB 如何让 PostgreSQL 轻松应对海量时序数据。",
+  "digest_md": "做物联网、金融、监控这类业务的人，几乎都会遇到同一个坑：设备每秒都在上报数据，表越涨越大，PostgreSQL 越跑越慢。换一套专门的时序数据库，又意味着拆系统、改应用、维护多条数据管道。Brandon Purcell 在 Software Engineering Daily 上聊了第三条路：不换数据库，给它装一个扩展。他在科技行业干了很久，早年写代码，后来联合创办了地理空间分析公司 Spatial Key(在 Postgres 上跑了约 13 年后卖出)，如今是 Tiger Data 的产品管理总监。\n\n## 时序数据为什么会难倒普通数据库？\n\n传感器读数、金融行情、应用监控，这类数据有共同特点：只写入、几乎不更新，持续累积，查询时总是按时间段来查。普通数据库为此苦不堪言：写入出现瓶颈，查询越来越慢，单表的索引越撑越大。\n\n数据量有多大？Brandon 说他们有个客户接了 2200 万台设备，每台每几秒甚至每秒都在上报 [05:34 Unknown]。而多数人的起点恰恰是 Postgres——等到撑不住了，传统做法是拆家：交易数据留在 Postgres,分析数据搬去另一个分析型数据库。代价是多套数据管道，还得改写应用。**TimescaleDB 的思路是让两者共存于同一个系统，应用一行代码都不用改**。\n\n## 一张表还是那张表，底层却大变样\n\n对开发者来说，迁移过去零差异：还是那张带时间戳的表，还是同样的 SQL [07:00 Unknown]。变化全在引擎内部。\n\n核心概念叫 hypertable(超级表)。它自动按时间把数据切成一个个 chunk(数据块)。查询近三个月的数据，规划器只碰相关的块，不会扫全表——即使你有十几年的历史、几十亿行。\n\n每个块内部还有一套混合存储：新数据用传统的行存储，按策略自动转成列存储并压缩。列存储配合向量化执行(一次批量处理多批数据)，查询可以快 10 到 1000 倍 [08:50 Unknown]。压缩率通常在 90%,最高见过 98%——因为传感器读数往往大量重复。\n\n## 压缩反而更快？还有 CERN 的 70TB 变 5TB\n\n==直觉上压缩过的数据查询应该更慢，但配合向量化执行，结果恰恰相反==。真实的例子：CERN(欧洲核子研究中心)原先存了约 70TB 时序数据，迁移到 TimescaleDB 后压到 5TB,还因此能把数据整体搬到更快的固态硬盘上，性能跟着提升 [30:03 Unknown]。\n\n写入端的收益同样明显。普通 Postgres 表的写入速度会随数据增长线性下滑，TimescaleDB 基本保持平稳。在普通硬件上能做到每秒百万行以上的写入 [16:39 Unknown]。\n\n## 通用数据库、时序数据库、向量库，能不能只要一个？\n\n**Brandon 的另一个论点是：别拆**。设备元数据放在普通表里，和超级表直接 join;向量嵌入用 pgvector(或其扩展 pgvector scale)存在同一个库里；全文检索用他们开源的 PG Text Search,据称规模可对标 Elasticsearch [32:06 Unknown]。三者组合起来能做混合搜索。而在很多公司，这意味着至少三套系统，再靠应用层拼数据。\n\n## 云端的热冷分层：10 年数据，只热 2 年\n\nTiger Cloud 是托管服务，但更有意思的是分层存储(tiered data):设一个策略，比如 10 年数据只保留最近 2 年在本地热存储，其余 8 年自动搬到 S3,底层是 Iceberg 格式——但查起来仍是一张表，跨冷热区间查询时自动合并结果 [21:00 Unknown]。还有个测试中的产品 Tiger Lake,打算和 Snowflake、Databricks 做双向同步。\n\n## 给 AI 代理准备的新玩具：秒级分叉数据库\n\n roadmap 上最超前的是 Fluid Storage:零拷贝分叉。几秒或几分钟就能把生产数据库 fork 出一个副本，让 AI 代理或 CI/CD 流程在副本上随便折腾，改动的部分以差异形式记录，不碰生产系统 [34:58 Unknown]。主持人立刻想到质量测试：如今测一个数据密集的功能，弄一份生产数据副本又慢又麻烦，这个能力正好补上缺口。\n\n## 上手门槛和坑在哪？\n\n支持 Postgres 16、17、18(刚发布的版本弃用了 15)。一条 curl 命令或 Docker 镜像就能本地跑起来。真正需要花心思的主要是两件事：一是数据块大小调优(默认 7 天，高吞吐场景可能要缩到 1 小时，云端已有自动推荐)；二是连续聚合的刷新策略——比如船上的设备离线一个月，回传一批数据，物化视图就得大范围重算，很耗 CPU 和磁盘 [37:43 Unknown]。他们正在做的细粒度刷新只更新变化的设备，专门解决这个问题。\n\n值得一提的还有 Postgres Connector:指向你现有的生产库，实时同步过来，让你并行测试，不用停机做备份恢复。\n\n## 本集带走\n\n- 时序数据的特点是只写不改、持续累积、按时间查询，普通 Postgres 会随数据增长出现写入和查询的线性退化。\n- TimescaleDB 是 Postgres 扩展而非分叉：SQL 零变化，应用零改动，底层自动按时间分块、行存转列存压缩。\n- 压缩配合向量化执行反而提速 10–1000 倍；CERN 把 70TB 压到 5TB。\n- 冷数据自动分层到 S3,查询时冷热合并，仍是同一张表；Tiger Lake 将打通 Snowflake、Databricks。\n- 正在开发的 Fluid Storage 支持零拷贝分叉数据库，让 AI 代理和测试环境秒级获得生产数据副本。",
+  "quotes": [
+    {
+      "en": "We have one customer that has 22 million devices and they're all emitting readings every few seconds, every second, in some even sub-second as well.",
+      "zh": "我们有一个客户拥有 2200 万台设备，它们全都在发出读数，每几秒一次、每秒一次，有些甚至是亚秒级的。",
+      "timestamp": "05:34",
+      "speaker": "Brandon Purcell"
+    },
+    {
+      "en": "But when you're compressing the data combined with the vectorization, we've seen acceleration in queries 10 to 100 to 1,000 times.",
+      "zh": "但当压缩数据与向量化结合时，我们看到查询加速了 10 倍到 100 倍再到 1000 倍。",
+      "timestamp": "08:50",
+      "speaker": "Brandon Purcell"
+    },
+    {
+      "en": "And we have customers that are in our Tiger Cloud environment that have 20,000, 30,000 queries a second that are hitting billions of queries a day against what I would consider nominal hardware, not crazy specialized hardware.",
+      "zh": "我们有客户在 Tiger Cloud 环境里，每秒有两万、三万个查询，每天打出数十亿次查询，而用的在我看来只是普通硬件，并非疯狂专用硬件。",
+      "timestamp": "19:26",
+      "speaker": "Brandon Purcell"
+    },
+    {
+      "en": "And I think I see even the ability to build independent agents that are monitoring your database, monitoring the system, making recommendations in real time, above and beyond just the initial development out of the box, all using the same tools behind the scenes.",
+      "zh": "我想我甚至看到了构建独立智能体的可能性，它们监控你的数据库、监控系统、实时给出建议，远超开箱即用的初始开发，而这一切在幕后使用的都是同一套工具。",
+      "timestamp": "47:54",
+      "speaker": "Brandon Purcell"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:34",
+      "speaker": "Brandon Purcell",
+      "en": "We have one customer that has 22 million devices and they're all emitting readings every few seconds, every second, in some even sub-second as well.",
+      "zh": "我们有一个客户拥有 2200 万台设备，它们全都在发出读数，每几秒一次、每秒一次，有些甚至是亚秒级的。"
+    },
+    {
+      "timestamp": "06:19",
+      "speaker": "Brandon Purcell",
+      "en": "Or you can adopt a system like TimeskillDB that gives you the best of both where you have co-located into the same system, we can extend it. And this is with zero application changes at all.",
+      "zh": "或者你可以采用像 TimescaleDB 这样的系统，它给你两者的优点，共存于同一个系统中，而且完全不需要任何应用改动。"
+    },
+    {
+      "timestamp": "06:39",
+      "speaker": "Brandon Purcell",
+      "en": "And typically, most of these systems have some evolution of SQL that is a little bit different, so you end up having to rewrite portions of your application.",
+      "zh": "而且通常，这些系统中的大多数都有某种演化出来的、稍微不一样的 SQL，所以你最终不得不重写应用的部分内容。"
+    },
+    {
+      "timestamp": "08:07",
+      "speaker": "Brandon Purcell",
+      "en": "You know, we've seen customers in 98% compression.",
+      "zh": "我们见过客户达到 98% 的压缩率。"
+    },
+    {
+      "timestamp": "08:58",
+      "speaker": "Brandon Purcell",
+      "en": "But when you're compressing the data combined with the vectorization, we've seen acceleration in queries 10 to 100 to 1,000 times.",
+      "zh": "但当压缩数据与向量化结合时，我们看到查询加速了 10 倍到 100 倍再到 1000 倍。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Brandon Purcell",
+      "en": "And so what we've seen from that is as you have a normal Postgres table and you ingest over time, you see this linear degradation of actually the amount of rows per second that you can ingest.",
+      "zh": "我们从中观察到的是，当你有一张普通的 Postgres 表并随时间写入数据时，你会看到每秒可写入的行数出现线性退化。"
+    },
+    {
+      "timestamp": "16:39",
+      "speaker": "Brandon Purcell",
+      "en": "And what we found is you can, on nominal hardware, get to a million rows per second plus from an ingestion standpoint, which is very difficult to do in vanilla Postgres.",
+      "zh": "我们发现，在普通硬件上，从写入的角度可以达到每秒一百万行以上，这在原生 Postgres 里是很难做到的。"
+    },
+    {
+      "timestamp": "19:17",
+      "speaker": "Brandon Purcell",
+      "en": "And then breaking that down into individual time buckets and get sub-low millisecond query times to be able to query against them.",
+      "zh": "把可能高达数千亿行的数据拆解成单个的时间桶，并获得亚低毫秒级的查询时间来对它们进行查询。"
+    },
+    {
+      "timestamp": "19:26",
+      "speaker": "Brandon Purcell",
+      "en": "And we have customers that are in our Tiger Cloud environment that have 20,000, 30,000 queries a second that are hitting billions of queries a day against what I would consider nominal hardware, not crazy specialized hardware.",
+      "zh": "我们有客户在 Tiger Cloud 环境里，每秒有两万、三万个查询，每天打出数十亿次查询，而用的在我看来只是普通硬件，并非疯狂专用硬件。"
+    },
+    {
+      "timestamp": "23:30",
+      "speaker": "Brandon Purcell",
+      "en": "I think the goal is to make it easier so people aren't focusing on the plumbing and all the work around it and are focusing on the business problems and solving them and enabling really multiple teams to be effective using some of the same data.",
+      "zh": "我认为目标是让它变得更容易，让人们不必专注于管道工程和围绕它的所有工作，而是专注于业务问题并解决它们，并真正让多个团队能够高效地使用同一份数据。"
+    },
+    {
+      "timestamp": "26:54",
+      "speaker": "Brandon Purcell",
+      "en": "But I think as we get, you know, more and more down this road, you want to focus on building and not necessarily understanding every technical concept.",
+      "zh": "但是我认为随着我们在这条路上越走越远，你会想要专注于构建，而不必理解每一个技术概念。"
+    },
+    {
+      "timestamp": "30:11",
+      "speaker": "Brandon Purcell",
+      "en": "And by moving over and getting the value of compression, they reduced that footprint from 70 terabytes down to five terabytes.",
+      "zh": "通过迁移过来并获得压缩的价值，他们把占用的空间从 70TB 降到了 5TB。"
+    },
+    {
+      "timestamp": "31:30",
+      "speaker": "Brandon Purcell",
+      "en": "You don't have to have a separate vector database.",
+      "zh": "你不需要单独的向量数据库。"
+    },
+    {
+      "timestamp": "34:44",
+      "speaker": "Brandon Purcell",
+      "en": "We're internally working on an evolution to our storage engine called Fluid Storage, which is sort of a zero copy type storage that allows you to create forks without having to copy the underlying data.",
+      "zh": "我们内部正在开发存储引擎的一个演进版本，叫做 Fluid Storage，它是一种零拷贝类型的存储，允许你在不必复制底层数据的情况下创建分叉。"
+    },
+    {
+      "timestamp": "35:14",
+      "speaker": "Brandon Purcell",
+      "en": "So you can take your production database in seconds or minutes, be able to fork that and then have an agent that can work against that data and then stand that up and tear it back down very easily.",
+      "zh": "所以你可以用几秒或几分钟的时间把生产数据库分叉出来，然后让一个智能体针对那份数据工作，再把它拉起来、非常容易地拆掉。"
+    },
+    {
+      "timestamp": "36:20",
+      "speaker": "Brandon Purcell",
+      "en": "So this new fluid storage system we've been building is going to be a game changer in terms of the ability to fork much, much faster.",
+      "zh": "我们一直在构建的这个新的 Fluid Storage 系统，在大幅提升分叉速度方面将是一个改变游戏规则的东西。"
+    },
+    {
+      "timestamp": "47:39",
+      "speaker": "Brandon Purcell",
+      "en": "How do we make that go on the rails rather than making assumptions it shouldn't?",
+      "zh": "我们怎么让它走上正轨，而不是让它做出不该做的假设？"
+    },
+    {
+      "timestamp": "47:54",
+      "speaker": "Brandon Purcell",
+      "en": "And I think I see even the ability to build independent agents that are monitoring your database, monitoring the system, making recommendations in real time, above and beyond just the initial development out of the box, all using the same tools behind the scenes.",
+      "zh": "我想我甚至看到了构建独立智能体的可能性，它们监控你的数据库、监控系统、实时给出建议，远超开箱即用的初始开发，而这一切在幕后使用的都是同一套工具。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个特别实际的问题：数据库撑不住了怎么办。具体说，就是做物联网、金融、监控这类业务的人，几乎都踩过的那个坑——设备每秒都在往数据库里写数据，表越涨越大，PostgreSQL 越跑越慢。\n\n这期节目请到的是 Brandon Purcell，Tiger Data 的产品管理总监。这位的背景挺扎实：早年在科技行业写代码，后来联合创办了一家叫 Spatial Key 的地理空间分析公司，那家公司建在 Postgres 上，跑了大约十三年之后卖掉了，现在在 Tiger Data 做产品。这期他在 Software Engineering Daily 上讲的，是一条很多人没想过的路：数据库撑不住，不换，给它装个扩展就行。这个扩展叫 TimescaleDB。\n\n先交代一下背景，为什么时序数据会把普通数据库压垮。传感器读数、金融行情、应用监控，这类数据有几个共同点：只写入、几乎不更新，持续不断地累积，查询的时候总是按时间段来查。普通数据库应付这种模式就很吃力——写入出现瓶颈，查询越来越慢，单表的索引越撑越大。\n\n量有多大？他们有个客户接了 2200 万台设备，全都在上报读数，每几秒一次、每秒一次，有些甚至是亚秒级的。而多数人的起点恰恰就是 Postgres，等撑不住了，传统做法是拆家：交易数据留在 Postgres，分析数据搬去另一个分析型数据库。代价是多套数据管道要维护，应用还得改写。\n\nTimescaleDB 的思路是：让交易和分析共存于同一个系统，应用一行代码都不用改。这一点是怎么做到的？关键在于，对开发者来说，迁移过去是零差异——还是那张带时间戳的表，还是同样的 SQL，变化全藏在引擎内部。\n\n引擎里最核心的概念叫 hypertable，超级表。它会自动按时间把数据切成一个个 chunk，也就是数据块。这么做的好处是，你查询近三个月的数据时，规划器只碰相关的块，不会去扫全表——哪怕你有十几年的历史、几十亿行。\n\n那每个块内部呢？还有一套混合存储：新数据用传统的行存储，然后按策略自动转成列存储并压缩。这里有个反直觉的地方——直觉上，压缩过的数据查询应该更慢才对，但配合向量化执行，也就是一次批量处理多批数据的技术，结果恰恰相反。压缩数据加向量化，查询反而加速了 10 倍到 100 倍，最高到过 1000 倍。压缩率通常在 90%，最高见过 98%，因为传感器读数往往大量重复。\n\n有个特别典型的真实案例。CERN，欧洲核子研究中心，原先存了约 70TB 的时序数据，迁移到 TimescaleDB 之后压到了 5TB。更妙的是，正因为体积缩了这么多，他们还能把数据整体搬到更快的固态硬盘上，性能跟着又提了一截。写入端的收益同样明显：普通 Postgres 表的写入速度会随数据增长线性下滑，TimescaleDB 基本保持平稳，在普通硬件上能做到每秒百万行以上的写入。\n\n讲到这儿，你可能会问：既然都是同一个库，那设备元数据、向量检索这些东西，是不是也能塞进来？Brandon 的论点恰恰是：别拆。设备元数据放普通表里，和超级表直接 join；向量嵌入用 pgvector 存在同一个库里；全文检索用他们开源的 PG Text Search，规模据称可以对标 Elasticsearch。三者组合起来还能做混合搜索。要知道在很多公司，这意味着至少三套系统，再靠应用层去拼数据。\n\n再往上一层是云端的热冷分层。Tiger Cloud 是他们的托管服务，里面有个挺有意思的功能叫分层存储：你设一个策略，比如 10 年数据只保留最近 2 年在本地热存储，其余 8 年自动搬到 S3，底层用的是 Iceberg 格式。关键是，查起来仍然是一张表，跨冷热区间查询时自动合并结果，你完全感知不到数据存在哪。他们还有个测试中的产品叫 Tiger Lake，打算和 Snowflake、Databricks 做双向同步。\n\n路线图上最超前的，是一个叫 Fluid Storage 的东西：零拷贝分叉。简单说，几秒或几分钟就能把生产数据库 fork 出一个副本，让 AI 代理或者 CI/CD 流程在副本上随便折腾，改动的部分以差异形式记录，完全不碰生产系统。主持人一听立刻想到一个场景：如今测一个数据密集的功能，弄一份生产数据副本又慢又麻烦，这个能力正好补上缺口。Brandon 甚至设想，将来可以有独立的智能体，监控你的数据库和系统，实时给出建议，而这一切幕后用的都是同一套工具。\n\n那上手门槛高不高？其实不高。支持 Postgres 16、17、18，最新版本弃用了 15，一条 curl 命令或者 Docker 镜像就能在本地跑起来。真正需要花心思的主要是两件事。一是数据块大小调优，默认是 7 天，高吞吐场景可能要缩到 1 小时，云端已经有自动推荐。二是连续聚合的刷新策略——举个例子，船上的设备离线一个月，回传一批数据，物化视图就得大范围重算，很耗 CPU 和磁盘。他们正在做的细粒度刷新，只更新变化的设备，专门解决这个问题。另外还有个 Postgres Connector，指向你现有的生产库，实时同步过来让你并行测试，不用停机做备份恢复。\n\n所以这一期听下来，核心就一句话：数据量把数据库压垮的时候，未必非要推倒重来。让 Postgres 自己变强，应用零改动，底层自动分块、自动压缩、自动分层——压缩之后不但没变慢，反而快了十倍到一千倍。有时候最好的升级，是让手里这套系统，长出新的本事。"
+}

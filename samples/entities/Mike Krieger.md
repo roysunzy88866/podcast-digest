@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":203,"Claude":97,"Claude Code":110,"tag":1,"Instagram":9,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":495,"代码审查":24}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":203,"Claude":97,"Claude Code":111,"tag":1,"Instagram":9,"Claude Design":1,"Fable":11,"Cowork":6,"智能体":496,"代码审查":24}</script>
 
 <script>
 (function(){

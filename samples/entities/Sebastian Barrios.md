@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":495,"Verdi":1,"微服务":1,"彻底坦诚":2,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"MercadoLibre":1,"智能体":496,"Verdi":1,"微服务":1,"彻底坦诚":3,"OKRs":1,"Roblox":4,"主观能动性":1}</script>
 
 <script>
 (function(){

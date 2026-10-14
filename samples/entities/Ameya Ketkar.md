@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Gabriel Chua]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":19,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":495,"可观测性":45,"护栏":89,"内环与外环":3}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":19,"uReview":1,"自动化代码评审":1,"代码审查":24,"智能体化的 SDLC":1,"智能体":496,"可观测性":45,"护栏":89,"内环与外环":3}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":48,"Stripe Projects":2,"OpenAI":199,"Anthropic":203,"Lovable":20,"HubSpot":10,"智能体":495,"编码智能体":33,"vibe coding":49}</script>
+<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":48,"Stripe Projects":2,"OpenAI":199,"Anthropic":203,"Lovable":20,"HubSpot":11,"智能体":496,"编码智能体":35,"vibe coding":49}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]] [[Dru Knox]]
+[[James Norman]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]] [[Charlie Guo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Charlie Guo":2,"OpenAI":199,"Codex":86,"智能体":495,"子智能体":6,"线程交接":1,"上下文":33,"计算机使用":22,"压缩":4,"插件":3}</script>
+<script type="application/json" class="pd-epn">{"Charlie Guo":2,"OpenAI":199,"Codex":86,"智能体":496,"子智能体":6,"线程交接":1,"上下文":33,"计算机使用":22,"压缩":4,"插件":3}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[David Vélez]] · [[AI]] · [[基础模型]] · [[智能体]] · [[稳定币]] · [[开放银行]] · [[新银行]] · [[冒名顶替综合症]] · [[Netflix]]
 
-<script type="application/json" class="pd-epn">{"David Vélez":1,"AI":34,"基础模型":7,"智能体":495,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
+<script type="application/json" class="pd-epn">{"David Vélez":1,"AI":34,"基础模型":7,"智能体":496,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
 
 <script>
 (function(){

@@ -1,0 +1,155 @@
+{
+  "title_zh": "115 个微服务画成一张图，让 AI 编程助手不再瞎猜",
+  "tldr": "Postman 工程师 Kamalakannan Nandagopal 讲他们如何构建 API 上下文图谱，大幅提升编程智能体的实战表现。",
+  "digest_md": "Kamalakannan Nandagopal 是 Postman 的资深工程师。Postman 不只有那个测试接口的桌面应用，它的云端功能背后跑着 115 个以上的微服务、数千个 REST 接口。他这场演讲讲的是一件事：AI 编程助手在真实的大系统里经常抓瞎，而把整个系统的 API 关系画成一张上下文图谱，可能就是解药。\n\n## 编程智能体很强，但真实系统不是单仓库\n\n编程助手的进化路径大家都不陌生：先是 Copilot 时代的行级自动补全，然后是 Composer、Claude Code 时代的整库重构和一次性修 bug，现在是能端到端干活的全自动智能体——自己改代码、验证、发合并请求，甚至审核别人的合并请求。\n\n但 Nandagopal 指出，智能体擅长的是全新项目或单个项目内的小修小补。生产系统复杂得多：微服务拆得到处都是、部署在多个环境、代码散落在几百个仓库里。**智能体缺的不是写代码的能力，而是对整个系统的理解**。\n\n## 文档、技能、记忆，都不够用\n\n想给智能体补上下文，通常有几条路，但各有短板。\n\n文档是第一选择，但开发者讨厌写文档，全靠大模型自己生成和维护的文档，研究显示质量会随时间快速退化，还是需要人来把关。技能和 MCP(一种给智能体接外部工具的协议)好不好用，完全取决于喂给它的上下文。智能体记忆听起来不错——把老员工脑子里的隐性经验存进智能体——但目前它基本绑在单个用户身上，团队之间怎么共享这些记忆，业界还没有成熟做法。\n\n有意思的是，转机来自公司另一头。Postman 的市场团队在搭建面向客户的商业智能体时，已经把多来源的杂乱数据整理成结构化的中央上下文层，用检索加知识图谱的管线喂给各个智能体。工程团队看了之后意识到：在微服务架构里，API 就是天然的上下文层。\n\n## 把整个系统画成一张图，每条数据都落到代码行\n\n于是他们开始构建 Postman 的 API 上下文图谱：盘点生产环境里的每一个微服务，找出每个服务暴露的每个接口，一路追到实现它的具体代码行；再画出服务之间怎么互相调用、前端和命令行工具怎么连后端、数据怎么一路流向数据库和缓存。最后用大模型把这些全部索引成一个集中的上下文图层。\n\n有一条铁律：**图谱里的每个数据点必须锚定在硬事实上**——要么是代码库里实实在在的一行代码，要么是生产环境遥测里的真实调用链。[05:34 Unknown]\n\n图谱建好之后，熟悉的架构模式自动浮现出来：中心是一团紧耦合的核心服务，属于最关键的层级；边缘则挂着几个臃肿不堪的大服务。\n\n## 效果如何？拿真实的合并请求来测\n\n测法很实在：从 Postman 自己的代码仓库里挑真实的合并请求和设计讨论，还原开发者的意图和最终决定，做成评测题，再拿事后真实采纳的决策当标准答案。对比对象包括接了图谱的 Postman 智能体、只靠 GitHub 代码搜索的通用智能体，以及把图谱当作技能提供的 Claude Code。\n\n第一类场景是 API 发现：想知道某个功能该调哪个接口。现实系统里几百个接口，好几个可能干的是同一件事。这是纯搜索任务，图谱方案明显胜过代码搜索。\n\n## 那个加一个字段的经典事故，智能体能兜住\n\n真正精彩的是 API 设计与重构场景。Nandagopal 讲了个每个开发者都眼熟的故事：功能上线前，依赖方突然说，能不能在接口里加个自由格式的 JSON 字段，以后用。开发者没时间细想，加上，再留个待办说两周后来定结构。功能顺利上线，两周后回来一看——那个本该只传一个属性的字段，现在传着 15 个属性，可能有 5 个、10 个服务都在往里塞东西，没人说得清每个调用方传的数据长什么样。\n\n这类分析对人类极难：找到每个调用方就不现实，生产日志常常因隐私拿不到细节，就算看清了数据形状，也不知道对方为什么这么传。但**接了图谱的 Postman 智能体几乎完美解决**——因为它不仅知道每个调用方是谁，还能下钻到每处实现的具体代码，理解上下文，很快梳理出每个调用方传的独特数据形状 [11:11 Unknown]。纯代码搜索的表现很差；Claude Code 配合技能稍好，但折腾几轮之后就放弃，等着用户来救。\n\n第三类是影响评估：改一个接口会波及谁？要出 V3 接口，先得弄清 V2 被怎么用。这里图谱不仅质量高，token 消耗还只有代码搜索的一半甚至三分之一。\n\n## 图谱会过期，过期就没信任\n\n但不是每次都赢。有一个评测让智能体分析某个合并请求影响的下游服务，结果惨败，分数低、token 还烧得猛。调查后发现原因很简单：写评测和跑评测之间隔了一段时间，期间出现了新的调用方。结论很直白——**图谱不仅要建，还得持续同步**，任何延迟都会造成结果偏差；结果一有偏差，开发者立刻失去信任，然后就不用了。[13:05 Unknown] 检测新增的接口和依赖很重要，检测被删掉的同样重要。\n\n==这事儿有多普遍==？他们回头看流量最高的 10 个仓库的合并请求，约 75% 都会影响到 API——要么改接口的外部行为，要么接入新接口，都可能引发下游连锁反应。[13:34 Unknown]\n\n## 意外收获：让智能体做全公司架构体检\n\n图谱在手，就能问以前问不了的问题。他们让 Postman 智能体对整个工程生态做端到端的架构评审，它产出了一份 21 页的报告，列出了所有薄弱环节：可能导致事故的循环依赖、标志着技术债的高风险长期迁移、等着出事的单点故障、实现和遥测对不上的盲区，还给 CEO、CTO 和资深工程师分别列了行动清单。[14:27 Unknown] Nandagopal 称这是他们的灵光一现时刻。\n\n下一步，他们想把业务语义层接进来，并让图谱能回答更深的为什么：这个数据模型为什么存在、为什么用这个接口而不用那个——这些答案会直接改善后续的编程决策。\n\n## 本集带走\n\n- 编程智能体在单仓库里很强，在跨几百个仓库的分布式系统里缺的是上下文，而 API 是微服务架构天然的上下文层。\n- Postman 为 115 个以上微服务建了 API 上下文图谱，每个数据点都锚定在具体代码行或生产调用链上，不靠猜。\n- 用真实合并请求做评测：在 API 发现、设计重构和影响评估场景，图谱方案在质量和 token 效率上都大幅胜过纯代码搜索。\n- 图谱必须持续更新，一旦与事实脱节，结果出错，开发者信任随之崩塌。\n- 约 75% 的合并请求会影响 API;图谱还能让智能体产出 21 页的全公司架构体检报告，找出循环依赖、单点故障等问题。",
+  "quotes": [
+    {
+      "en": "And when we looked at this, what we realized is in a distributed systems and microservices architecture, APIs are the context layer for you.",
+      "zh": "当我们审视这个问题时，我们意识到，在分布式系统和微服务架构中，API 就是你的上下文层。",
+      "timestamp": "04:01",
+      "speaker": "Kamalakannan Nandagopal"
+    },
+    {
+      "en": "So agents are only as good as the context that they're given.",
+      "zh": "所以智能体的能力只取决于给它们的上下文。",
+      "timestamp": "04:30",
+      "speaker": "Kamalakannan Nandagopal"
+    },
+    {
+      "en": "But if you offload documentation purely to LLMs to author and maintain, research points out that purely LLM-maintained and written documentation tends to degrade exponentially over time.",
+      "zh": "但如果你把文档完全交给 LLM 来编写和维护，研究指出，纯由 LLM 维护和编写的文档往往会随时间呈指数级退化。",
+      "timestamp": "02:26",
+      "speaker": "Kamalakannan Nandagopal"
+    },
+    {
+      "en": "But we all know skills and MCPs are only as good as the context that they're provided to.",
+      "zh": "但我们都知道，skills 和 MCP 的效果只取决于提供给它们的上下文。",
+      "timestamp": "02:44",
+      "speaker": "Kamalakannan Nandagopal"
+    },
+    {
+      "en": "But one key principle that we had in mind always was every single data point that landed on the context graph always had to be grounded down in a hard truth.",
+      "zh": "但我们心中始终坚守的一个关键原则是：每一条落到上下文图谱上的数据点，都必须扎根于一个硬事实。",
+      "timestamp": "05:34",
+      "speaker": "Kamalakannan Nandagopal"
+    },
+    {
+      "en": "Two weeks later, the developer comes back and finds out that that one particular property, which is supposed to send one attribute, now has 15 attributes.",
+      "zh": "两周后，开发者回来发现，那个本应发送一个属性的特定属性，现在已经有 15 个属性了。",
+      "timestamp": "09:57",
+      "speaker": "Kamalakannan Nandagopal"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "And when we looked at this, what we realized is in a distributed systems and microservices architecture, APIs are the context layer for you.",
+      "zh": "当我们审视这个问题时，我们意识到，在分布式系统和微服务架构中，API 就是你的上下文层。"
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Unknown",
+      "en": "So agents are only as good as the context that they're given.",
+      "zh": "所以智能体的能力只取决于给它们的上下文。"
+    },
+    {
+      "timestamp": "02:18",
+      "speaker": "Unknown",
+      "en": "But as we all know, developers, we hate writing and maintaining documentation. It's an added overhead.",
+      "zh": "但众所周知，我们开发者讨厌编写和维护文档。这是一项额外的负担。"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Unknown",
+      "en": "But if you offload documentation purely to LLMs to author and maintain, research points out that purely LLM-maintained and written documentation tends to degrade exponentially over time.",
+      "zh": "但如果你把文档完全交给 LLM 来编写和维护，研究指出，纯由 LLM 维护和编写的文档往往会随时间呈指数级退化。"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Unknown",
+      "en": "But we all know skills and MCPs are only as good as the context that they're provided to.",
+      "zh": "但我们都知道，skills 和 MCP 的效果只取决于提供给它们的上下文。"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Unknown",
+      "en": "The biggest limitation factor that we see with this is agent memory is still very limited to an individual user, and no standard patterns have now emerged yet in terms of sharing agent memories across your broader teams or across your entire engineering organization.",
+      "zh": "我们看到这种做法最大的限制因素是，智能体记忆目前仍然非常局限于个人用户，而且在跨更广泛的团队或整个工程组织共享智能体记忆方面，目前还没有出现标准化的模式。"
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Unknown",
+      "en": "But one key principle that we had in mind always was every single data point that landed on the context graph always had to be grounded down in a hard truth.",
+      "zh": "但我们心中始终坚守的一个关键原则是：每一条落到上下文图谱上的数据点，都必须扎根于一个硬事实。"
+    },
+    {
+      "timestamp": "09:57",
+      "speaker": "Unknown",
+      "en": "Two weeks later, the developer comes back and finds out that that one particular property, which is supposed to send one attribute, now has 15 attributes.",
+      "zh": "两周后，开发者回来发现，那个本应发送一个属性的特定属性，现在已经有 15 个属性了。"
+    },
+    {
+      "timestamp": "10:29",
+      "speaker": "Unknown",
+      "en": "So this can be hard for a bunch of reasons. First, tracking down every single consumer of your API can be impractical in real-world scenarios.",
+      "zh": "这件事可能很困难，原因有很多。首先，在现实场景中，追踪出你的 API 的每一个消费者可能是不切实际的。"
+    },
+    {
+      "timestamp": "13:05",
+      "speaker": "Unknown",
+      "en": "So the context graph is not only important to populate, but it's equally important that you keep it up to date, and any delays in syncing your context graph with the ground truth creates gap in the result.",
+      "zh": "所以，上下文图谱不仅填充很重要，保持它的更新同样重要，任何上下文图谱与真实情况同步的延迟都会造成结果上的差距。"
+    },
+    {
+      "timestamp": "13:17",
+      "speaker": "Unknown",
+      "en": "And if there's a gap in the result, it immediately leads to a loss of trust by the developer, and that translates into lack of usage.",
+      "zh": "而如果结果有差距，它就会立即导致开发者失去信任，而这又转化为使用量的下降。"
+    },
+    {
+      "timestamp": "13:34",
+      "speaker": "Unknown",
+      "en": "But when we went back and retrospected on all the PRs that were raised in the top 10 repos, we noticed that almost 75% of the PRs had some effect on the APIs.",
+      "zh": "但当我们回顾并复盘排名前 10 的仓库中提出的所有 PR 时，我们注意到几乎 75% 的 PR 都对 API 有某种影响。"
+    },
+    {
+      "timestamp": "14:24",
+      "speaker": "Unknown",
+      "en": "So this is where the light bulb moment happened for us.",
+      "zh": "这就是我们灵光一现的时刻。"
+    },
+    {
+      "timestamp": "14:27",
+      "speaker": "Unknown",
+      "en": "When we asked the Postman agent to do this, it produced a 21-page engineering report going through every single weakness and points of vulnerability.",
+      "zh": "当我们让 Postman 智能体做这件事时，它生成了一份 21 页的工程报告，逐一列出了每一个弱点和脆弱点。"
+    },
+    {
+      "timestamp": "16:14",
+      "speaker": "Unknown",
+      "en": "But the way that we see it is if we can do one particular task a lot more efficiently, it means that we can do it more often.",
+      "zh": "但我们看待它的方式是，如果我们能更高效地完成某个特定任务，那就意味着我们可以更频繁地去做它。"
+    },
+    {
+      "timestamp": "16:34",
+      "speaker": "Unknown",
+      "en": "So the sooner we can move the decisions and catch problems earlier in the lifecycle, we believe that the agents who are generating code can translate into peace of mind for the developer and help them ship changes to production with a lot more confidence going forward.",
+      "zh": "所以，越早地在生命周期中移动决策、越早地捕获问题，我们相信，对于正在生成代码的智能体来说，这能转化为开发者的安心，并帮助他们以更多的信心将变更发布到生产环境。"
+    },
+    {
+      "timestamp": "15:03",
+      "speaker": "Unknown",
+      "en": "One of the areas that stands out is bringing in the semantic layer of what does your business do and connecting it into the context layer of what your coding agents take as input for their workflows.",
+      "zh": "一个突出的领域是把语义层——也就是你的业务是做什么的——引入进来，并把它连接到你的编码智能体作为其工作流输入的上下文层。"
+    },
+    {
+      "timestamp": "13:55",
+      "speaker": "Unknown",
+      "en": "And both of them can have really cascading impact downstream.",
+      "zh": "而这两者都可能对下游产生真正的级联影响。"
+    }
+  ],
+  "voice_script": "今天咱们聊的是Postman的一位资深工程师，叫Kamalakannan Nandagopal,讲的是他们团队怎么让AI编程助手在真实的复杂系统里干好活。\n\n先交代一下背景。Postman大家可能都知道，就是那个测试接口的桌面应用，但它的云端功能背后，跑着115个以上的微服务，有几千个REST接口。这么大的一个系统，正是检验AI编程助手的试金石。为什么这么说？因为编程助手这几年进化得很快：从最早Copilot那种一行一行地补代码，到后来能整库重构、一次性修bug,再到现在端到端全自动的智能体——自己改代码、自己验证、发合并请求，甚至还能审核别人的合并请求。\n\n但问题来了。Nandagopal指出，智能体擅长的是全新项目，或者单个项目里的小修小补。真实的生产系统完全是另一回事：微服务拆得到处都是，部署在多个环境，代码散落在几百个仓库里。所以智能体缺的不是写代码的能力，而是对整个系统的理解。\n\n那怎么给智能体补上这个理解呢？通常有几条路，但各有各的短板。文档是第一选择，可开发者讨厌写文档；要是全靠大模型自己生成和维护，有研究显示，这种纯靠AI维护的文档，质量会随时间指数级退化，还是得人来把关。再一个是用技能和MCP——MCP是一种给智能体接外部工具的协议——但好不好用，完全取决于你喂给它的上下文是什么。还有一种思路是智能体记忆，把老员工脑子里的隐性经验存进去，听着不错，但目前基本绑在单个用户身上，团队之间怎么共享这些记忆，业界还没有成熟做法。\n\n有意思的是，转机来自公司另一头。Postman的市场团队在搭面向客户的商业智能体时，已经把各种杂乱的数据整理成结构化的中央上下文层，用检索加知识图谱的管线喂给各个智能体。工程团队一看，恍然大悟：在微服务架构里，API就是天然的上下文层。有句话值得记住：在分布式系统和微服务架构里，API就是你的上下文层。\n\n于是他们开始动手，给整个Postman建一张API上下文图谱。具体做法是：盘点生产环境里的每一个微服务，找出每个服务暴露的每个接口，一路追到实现它的具体代码行；再画出服务之间怎么互相调用、前端和命令行工具怎么连后端、数据怎么一路流到数据库和缓存。最后用大模型把这些全部索引成一个集中的上下文图层。\n\n这里面有一条铁律：图谱里的每个数据点，都必须锚定在硬事实上——要么是代码库里实实在在的一行代码，要么是生产环境遥测里的真实调用链。不靠猜。图谱建好之后，熟悉的架构模式自动浮现出来了：中心是一团紧耦合的核心服务，属于最关键的层级；边缘则挂着几个臃肿不堪的大服务。\n\n那这张图到底有没有用？他们的测法很实在：从自家代码仓库里挑真实的合并请求和设计讨论，还原开发者的意图和最终决定，做成评测题，再拿事后真实采纳的决策当标准答案。对比对象有三个：接了图谱的Postman智能体、只靠GitHub代码搜索的通用智能体，还有把图谱当作技能提供的Claude Code。\n\n第一类场景是API发现：想知道某个功能该调哪个接口。现实系统里几百个接口，好几个可能干的是同一件事。结果图谱方案明显胜过代码搜索。\n\n但真正精彩的是第二类，API设计和重构。这里有个每个开发者都眼熟的故事：功能上线前，依赖方突然说，能不能在接口里加个自由格式的JSON字段，以后用。开发者没时间细想，加上，再留个待办说两周后来定结构。功能顺利上线，两周后回来一看——那个本该只传一个属性的字段，现在传着15个属性，可能有5个、10个服务都在往里塞东西，没人说得清每个调用方传的数据长什么样。\n\n这种分析对人类来说极难：找到每个调用方就不现实，生产日志常常因为隐私拿不到细节，就算看清了数据形状，也不知道对方为什么这么传。而接了图谱的Postman智能体几乎完美解决了——因为它不仅知道每个调用方是谁，还能下钻到每处实现的具体代码，理解上下文，很快梳理出每个调用方传的独特数据形状。相比之下，纯代码搜索表现很差；Claude Code配合技能稍好一点，但折腾几轮之后就放弃了，等着用户来救。\n\n第三类是影响评估：改一个接口会波及谁？要出V3接口，先得弄清V2被怎么用。这里图谱不仅质量高，token消耗还只有代码搜索的一半甚至三分之一。\n\n不过也不是每次都赢。有一个评测让智能体分析某个合并请求影响的下游服务，结果惨败，分数低，token还烧得猛。调查后发现原因很简单：写评测和跑评测之间隔了一段时间，期间出现了新的调用方。结论很直白——图谱不仅要建，还得持续同步，任何延迟都会造成结果偏差；结果一有偏差，开发者立刻失去信任，然后就不用了。检测新增的接口和依赖重要，检测被删掉的同样重要。\n\n这事儿有多普遍？他们回头看流量最高的10个仓库的合并请求，约75%都会影响到API——要么改接口的外部行为，要么接入新接口，都可能引发下游连锁反应。\n\n图谱在手，还能问以前问不了的问题。他们让智能体对整个工程生态做了一次端到端的架构评审，结果产出一份21页的报告，列出所有薄弱环节：可能导致事故的循环依赖、标志着技术债的高风险长期迁移、等着出事的单点故障、实现和遥测对不上的盲区，还给CEO、CTO和资深工程师分别列了行动清单。Nandagopal管这个叫他们的灵光一现时刻。下一步，他们想把业务语义层接进来，让图谱能回答更深的为什么——这个数据模型为什么存在，为什么用这个接口而不用那个——这些答案会直接改善后续的编程决策。\n\n最后留一句给你记住：智能体的能力，只取决于你给它的上下文。"
+}

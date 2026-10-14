@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]] [[Rania Khalaf]]
+[[David Vélez]] [[Josh Woodward]] [[Max Freeman]] [[Harry]] [[Em Shreve]] [[Luca Ferrari]] [[Venky Ganesan]] [[Jennifer Ferro]] [[Jamie Batmer]] [[Jamie Siminoff]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"HubSpot":10,"Sequoia":7,"MongoDB":5,"Salesforce":36,"Google":71,"Microsoft":32,"McKinsey":6,"Clay":8,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"HubSpot":11,"Sequoia":7,"MongoDB":5,"Salesforce":36,"Google":71,"Microsoft":32,"McKinsey":6,"Clay":8,"Delphi":3}</script>
 
 <script>
 (function(){

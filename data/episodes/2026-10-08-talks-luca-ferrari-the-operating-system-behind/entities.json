@@ -1,0 +1,608 @@
+{
+  "episode_id": "2026-10-08-talks-luca-ferrari-the-operating-system-behind",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "并购整合",
+    "招聘与人才",
+    "组织设计",
+    "公司战略",
+    "创始人故事"
+  ],
+  "categories": [
+    "组织与领导力",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "luca-ferrari",
+      "type": "person",
+      "role": "host",
+      "name": "Luca Ferrari",
+      "file": "Luca Ferrari",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            44.986,
+            47.027
+          ],
+          "quote": "Okay, today we have Luca Ferrari on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bending-spoons",
+      "type": "company",
+      "role": "company",
+      "name": "Bending Spoons",
+      "file": "Bending Spoons",
+      "primary": true,
+      "how_described": "本集说它是像私募股权式并购整合公司、但其实是科技平台公司的独特企业：买下数字公司、深度整合进统一平台、从不卖出、永久持有并运营，几个月前 IPO 时股权价值 180 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            47.147,
+            53.528
+          ],
+          "quote": "I wanted him to have him on for a long time because he runs Bending Spoons, which is this fascinating company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            75.376,
+            85.438
+          ],
+          "quote": "I think by this point, most of the listeners have heard of Bending Spoons, but I doubt they understand the model in what the magic is.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "talent-density",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才密度 (talent density)",
+      "file": "人才密度",
+      "primary": true,
+      "how_described": "本集说 Bending Spoons 从一开始就系统化、不妥协地追求极高人才密度（去年 80 万份申请只招不到 300 人），这是它用 20 人做成别人 200 人业务的成本与创新优势的核心来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            483.236,
+            492.147
+          ],
+          "quote": "So I spend most of my time with CEOs these days and everyone talks about being, have high talent density, being a talent magnet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            500.048,
+            504.312
+          ],
+          "quote": "You seem to have almost industrialized this talent density idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            713.294,
+            727.063
+          ],
+          "quote": "And the other one is because we've been so systematic and uncompromising on having extremely high levels of talent density, pretty much from the beginning, of course, compatibly with our appeal to candidates at each point in time,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            765.789,
+            772.138
+          ],
+          "quote": "So it makes your life easier, but it's very difficult to get to a very high level of talent density late in a company's history.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1464.546,
+            1478.835
+          ],
+          "quote": "So if the 200% organization chaotic, super high, I don't know them, but assuming, super high talent density, a culture of business orientation, rationality, hard work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hiring",
+      "type": "concept",
+      "role": "concept",
+      "name": "招聘 (hiring)",
+      "file": "招聘",
+      "primary": true,
+      "how_described": "本集把 Bending Spoons 的招聘讲成一套科学系统：像量化交易员选股那样在每份申请里评估几百个信号并用未来表现验证预测力；面试是预测力最差的环节，推荐人访谈要逼对方做硬性排名。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            480.733,
+            483.196
+          ],
+          "quote": "And Luca, let's just, I want to click on the hiring.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            779.146,
+            783.968
+          ],
+          "quote": "Hiring way fewer people than you'd like to for prolonged periods of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 719,
+          "t": [
+            3435.767,
+            3438.988
+          ],
+          "quote": "We're hiring way more people outside of Italy than in Italy at this point.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3803.33,
+            3809.454
+          ],
+          "quote": "Other things I really thought were unique was like the way he does hiring is really unique along a lot of different levels.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3839.601,
+            3843.323
+          ],
+          "quote": "But I think that's really important for scaling companies, create a hiring brand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3843.823,
+            3846.064
+          ],
+          "quote": "Getting very good at hiring, I think is important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "relentless-simplification",
+      "type": "concept",
+      "role": "concept",
+      "name": "不懈简化 (relentless simplification)",
+      "file": "不懈简化",
+      "primary": true,
+      "how_described": "本集说这是 Bending Spoons 的一条公司价值观：任何想增加复杂度的人（流程、功能、人头）自带举证责任，反对者无需证明；推了就必须可逆或证据明确，质疑旧有复杂度的人应被鼓掌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 673,
+          "t": [
+            3245.836,
+            3252.218
+          ],
+          "quote": "You know, we're big on, we have a value actually or a quality that we call relentless simplification.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "天赋与经验的权衡 (experience)",
+      "file": "天赋与经验的权衡",
+      "primary": true,
+      "how_described": "本集说 Ferrari 对经验很怀疑：世界变化快、老方法易失灵、资深者难适应其文化、动力随经验衰减；在竞争激烈的劳动力市场里经验可以由公司提供（只需耐心），天赋给不了，所以持续押注应届生和年轻人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            311.496,
+            318.558
+          ],
+          "quote": "Most companies that acquire other companies serially, in my experience, try to run them somewhat separately for the most part.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1027.714,
+            1035.822
+          ],
+          "quote": "Of all the typical elements in a selection process, at least in our experience, are the worst predictors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1831.979,
+            1836.864
+          ],
+          "quote": "Should they bet on that person or find someone who's seen the movie before and has a little bit of experience?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1909.98,
+            1917.011
+          ],
+          "quote": "I've never been a big fan of, I mean, we do value experience, but I think we value experience a lot less than most people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1991.952,
+            1998.038
+          ],
+          "quote": "And last but not least, I find that generally people lose motivation as they gain experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1998.859,
+            2007.948
+          ],
+          "quote": "And so you need to consider whether it's better to have someone with 20 years of experience but, I don't know, 6 out of 10 motivation or someone with 2 years of experience but 10 out of 10 motivation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2013.398,
+            2016.002
+          ],
+          "quote": "So we're generally, we're not big on experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2037.265,
+            2050.57
+          ],
+          "quote": "No, we keep investing in students or new graduates or people with a couple of years of experience where we think that we can really help them mold their skill set and professional culture in the way that we believe will best",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2056.05,
+            2060.353
+          ],
+          "quote": "And also there is a trade-off between talent and experience in a competitive labor market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2060.513,
+            2062.854
+          ],
+          "quote": "And experience, we can provide it to you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2066.757,
+            2069.458
+          ],
+          "quote": "And so we focus more on talent than experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2089.52,
+            2093.481
+          ],
+          "quote": "And people with 20 years of experience thinking, does this guy even know what he's doing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2093.581,
+            2108.764
+          ],
+          "quote": "And I think our track record consistently shows, yeah, it does, or she does, but I can see how it's a more difficult sale than if we had a 50-year-old person with 30 years of experience come in and say the same things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2158.617,
+            2164.339
+          ],
+          "quote": "But yes, it could be someone with just three, four years of experience, a very, very junior.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 836,
+          "t": [
+            3899.958,
+            3901.539
+          ],
+          "quote": "Should I hire for experience or slope?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 837,
+          "t": [
+            3902.539,
+            3906.922
+          ],
+          "quote": "And he's at a pretty big scale and he's still like full on slope over experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3916.943,
+            3918.483
+          ],
+          "quote": "I think for some people experience matters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 842,
+          "t": [
+            3918.503,
+            3930.209
+          ],
+          "quote": "He also buys a lot of companies in like the PLG type sales motion where, you know, it's not necessarily enterprise sales or maybe some experience might be useful, but that's where he comes in on that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "extreme-ownership",
+      "type": "concept",
+      "role": "concept",
+      "name": "极度主人翁意识 (extreme ownership)",
+      "file": "极度主人翁意识",
+      "primary": false,
+      "how_described": "本集说这是 Bending Spoons 派人接管被收购业务时的两大标准之一（另一个是聪明）：近乎狂热地想成为世界上做自己这份工作最好的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 440,
+          "t": [
+            2164.96,
+            2171.182
+          ],
+          "quote": "Well, on a high level, we look for smart and what we call extreme ownership.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2201.615,
+            2207.277
+          ],
+          "quote": "Two, we want you to have extreme ownership, which means you are absolutely",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "matrix-organization",
+      "type": "concept",
+      "role": "concept",
+      "name": "矩阵式组织 (matrix organization)",
+      "file": "矩阵式组织",
+      "primary": false,
+      "how_described": "本集说 Bending Spoons 的组织架构图是一个矩阵：职能线管「怎么做」，团队线管「做什么」，每人有一个职能领导和团队领导，最终汇到 CEO 一个节点；但架构只在有用的范围内有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            2888.143,
+            2893.33
+          ],
+          "quote": "It's basically a matrix organization with functions and teams, functions being in charge of...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "radical-candor",
+      "type": "concept",
+      "role": "concept",
+      "name": "绝对坦率 (radical candor)",
+      "file": "绝对坦率",
+      "primary": false,
+      "how_described": "本集说这是 Bending Spoons 的内部实践：看到好坏都要立刻直说，不为发泄而是为了改进，诚实优先于友善，是重要的学习来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 511,
+          "t": [
+            2537.454,
+            2539.695
+          ],
+          "quote": "We have something called radical candor internally.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "integrity",
+      "type": "concept",
+      "role": "concept",
+      "name": "诚信 (integrity)",
+      "file": "诚信",
+      "primary": true,
+      "how_described": "本集说三位被收购公司的创始人都称 Ferrari 诚信极高；他讲述源头是二十岁出头出轨后的羞愧，自此承诺永远不说谎、也永远不隐瞒别人应知的重要信息，即便对自己不利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 753,
+          "t": [
+            3600.137,
+            3603.119
+          ],
+          "quote": "They said, you are exceptionally high integrity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3760.008,
+            3763.811
+          ],
+          "quote": "I mean, for CEOs, integrity is really an underrated thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "主持人 Brian 的公司，本集多次以其经历作对照：如销售团队用角色扮演式面试从 10 人扩到 1000 人、以及「no 帽」的简化故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            1076.624,
+            1080.846
+          ],
+          "quote": "Can I tell you about HubSpot unlocked on the sales side?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1082.052,
+            1095.465
+          ],
+          "quote": "A good process for doing this, where we scaled our, you know, inside sales org from 10 to 1,000, where lots of, we were kind of like you, we had a better, it was harder to get into HubSpot than Harvard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1128.673,
+            1130.234
+          ],
+          "quote": "So I would be the HubSpot employee.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2449.123,
+            2455.345
+          ],
+          "quote": "First question is, on a scale of one to 10, I'd like you to recommend Brian as the CEO of HubSpot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3123.714,
+            3126.536
+          ],
+          "quote": "Stuff that took HubSpot eight years, people are doing in the first couple of years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3127.176,
+            3129.698
+          ],
+          "quote": "And then HubSpot, I was a big simplification guy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3136.321,
+            3138.282
+          ],
+          "quote": "And good thing about HubSpot, everyone's got great ideas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 814,
+          "t": [
+            3818.18,
+            3819.821
+          ],
+          "quote": "This does rhyme with HubSpot.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "berkshire-hathaway",
+      "type": "company",
+      "role": "company",
+      "name": "Berkshire Hathaway",
+      "file": "Berkshire Hathaway",
+      "primary": false,
+      "how_described": "本集用它作对比：Bending Spoons 与这类连续收购公司的区别在于深度改造并整合被收购业务，而非让其大体维持原样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            202.325,
+            211.916
+          ],
+          "quote": "So the, you know, there is a serial acquire component that you will find in private equity, you'll find in companies like Berkshire Hathaway or Transdyne.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            262.921,
+            265.282
+          ],
+          "quote": "I was comparing in my head to Berkshire Hathaway, but...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "serial acquirer",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

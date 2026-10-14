@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[模拟]] · [[强化学习]] · [[缩放定律]] · [[OpenAI]] · [[Anthropic]] · [[算力]] · [[Joon Sung Park]] · [[Rich Sutton]] · [[Martin Casado]]
 
-<script type="application/json" class="pd-epn">{"智能体":495,"模拟":1,"强化学习":1,"缩放定律":17,"OpenAI":199,"Anthropic":203,"算力":9,"Joon Sung Park":1,"Rich Sutton":1,"Martin Casado":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":496,"模拟":1,"强化学习":1,"缩放定律":17,"OpenAI":199,"Anthropic":203,"算力":9,"Joon Sung Park":1,"Rich Sutton":1,"Martin Casado":7}</script>
 
 <script>
 (function(){

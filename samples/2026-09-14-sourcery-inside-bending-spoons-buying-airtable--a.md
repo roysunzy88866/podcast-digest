@@ -160,8 +160,8 @@ AOL 的特殊之处在于要从 Yahoo 手中剥离（carve-out），把所有东
 **顺着「创业与行业」挖下去**
 
 - [[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的]]<span class="pd-rz">同嘉宾:Luca Ferrari · 同公司:AOL、Bending Spoons · 同概念:极致所有权 (extreme ownership)</span>
+- [[2026-10-08-talks-luca-ferrari-the-operating-system-behind|收购公司却从不卖出：Bending Spoons 掌门人的人才与运营哲学]]<span class="pd-rz">同嘉宾:Luca Ferrari · 同公司:Bending Spoons · 同概念:人才密度 (talent density)、极致所有权 (extreme ownership)</span>
 - [[2026-08-21-bigtech-big-tech-s-insane-hidden-ai-spending-ran|大科技3万亿表外赌注与Anthropic反超OpenAI]]<span class="pd-rz">同概念:IPO</span>
-- [[2026-08-31-founders-431-how-henry-singleton-worked|Henry Singleton：被巴菲特和芒格封神的CEO怎么配置资本]]<span class="pd-rz">同概念:并购 (acquisition)</span>
 
 </div>
 <div class="pd-ex">

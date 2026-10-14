@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[Amazon]] · [[Google]] · [[Microsoft]] · [[GPU]] · [[Meta]] · [[推理]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":199,"NVIDIA":70,"Anthropic":203,"Amazon":32,"Google":71,"Microsoft":32,"GPU":31,"Meta":53,"推理":98,"智能体":495}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":199,"NVIDIA":70,"Anthropic":203,"Amazon":32,"Google":71,"Microsoft":32,"GPU":31,"Meta":53,"推理":98,"智能体":496}</script>
 
 <script>
 (function(){
