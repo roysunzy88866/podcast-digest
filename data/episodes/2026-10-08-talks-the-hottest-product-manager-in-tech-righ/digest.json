@@ -1,0 +1,161 @@
+{
+  "title_zh": "OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推",
+  "tldr": "OpenAI 产品经理 Holly Lee 做客 Office Drama，聊 Dots、直播翻车、跳槽史和 AI 隐私。",
+  "digest_md": "Holly Lee 是当下硅谷被讨论最多的产品经理。她在 Figma Config 的演讲让她意外走红，随后加入 OpenAI，在 Dev Day 上紧接 Sam Altman 登台，介绍新发布的 AI 助手 Dots——直播演示当场翻车，反而让她更火了。这期 Office Drama 里，她和主播 Chloe Shee 聊了整场翻车始末、她一路从 Google 到 Figma 再到 OpenAI 的跳槽路径，以及普通人最关心的隐私问题。\n\n## 现场翻车：她一边讲一边知道后半场没了\n\nDev Day 上，Holly 的语音演示出师不利：她打电话给演示用的 Dot（她叫它 Dottie），对方毫无反应。她坦白说，自己其实为语音失灵准备了预案，可以改打字继续 [37:19 Holly Lee]。\n\n更糟的是后半段。因为一个技术故障，Codex 的任务线程根本没启动，意味着准备好的 3 分钟演示内容全部作废。**她是站在台上、讲着词的同时，意识到这一切并当场现编收尾的** [38:10 Holly Lee]。她到现在也没敢回看那段视频。\n\n事后她做了一件聪明事：发出人生第一条推文，自嘲是 Wi-Fi 的问题，致敬 2007 年 iPhone 发布会上乔布斯那句经典救场。这条推获得了超过 100 万次浏览。\n\n还有个小插曲：有人发推嘲讽她那件亮橙色背心，问她以为自己是 Scooby-Doo 里的谁。结果这条推被网友围攻到删帖道歉——那是她上 Twitter 的头 24 小时。\n\n## Dots 到底是什么：一个你可以打电话的助手\n\n用她自己的话说，Dots 是「一个永远在线的持久助手」，在手机和笔记本电脑上是同一个它，全天候工作，还会主动学习你的习惯 [27:11 Holly Lee]。\n\n最大的特点是你可以直接打电话给它。她在来录节目的车上就打给 Dot，让它订去洛杉矶的机票。她自己的最大用法更简单：每天和 Dot 聊几个小时，把它当第二大脑，一起捋产品路线图和难题。\n\n和其他 AI 助手相比，她的说法是 Dots 几乎零设置——ChatGPT、Codex 里已有的连接器直接复用，而且一个 Dot 可以调度你的 Codex 去干活。配套发布的 Spaces 则像一块共享画布，Dot 可以把待办清单、图表直接写在页面上，你打个绿色对勾 emoji、说一句看清单，它就开始执行。\n\n## 隐私焦虑？她给了一套分层的答案\n\n主播 Chloe 直说，自己没办法接受把收件箱、短信、财务、健康数据全交给 AI。Holly 的回应分几层：数据上，你可以在设置里关掉「用我的数据改进模型」这个开关；行为上，**Dots 被刻意做得非常保守**——原本它会主动帮你起草邮件回复，团队觉得这也过头了，改成连起草都要先问你 [46:53 Holly Lee]。\n\n权限上，一切默认只读，写入需要你明确授权，还可以用自然语言定规则，比如没问我绝不发邮件或「卫生纸直接买不用问」。此外还有一个 AI 审查员盯着所有交互，发现可疑操作会拦截。\n\n她也坦承了局限：撤回 Gmail 授权后，之前看过的邮件内容仍在它的记忆里，就像人和人不再来往了、旧对话也忘不掉一样。而已经发出的邮件，有时确实撤不回来。\n\n## 从俄亥俄小镇到 OpenAI：她是自己造出来的岗位\n\nHolly 在俄亥俄一个大学城长大，父母是大学教授，本科学经济。毕业先进了 McKinsey，一年后受不了——不是因为别的，是因为合伙人批评她穿黄袜子，她想「能让我穿黄袜子的大概是 Google」[11:20 Holly Lee]。\n\n26 岁那年，家里出事加上觉得工作到头了，她来了场教科书式的危机操作：剪短发、跑马拉松、申请研究生，然后辞了职。买了一张去旧金山的单程机票，睡朋友家沙发，放话不在旧金山找到产品经理的工作就不走。3 个星期狂约咖啡聊天之后，**她说服 AI 公司 Adept 为她专门设了一个产品经理岗位** [16:07 Holly Lee]。\n\n之后 Adept 的研究团队被 Amazon 收编，她跳到 Figma。入职仅 5 周，创始人 Dylan Field 就把后来爆红的 Figma Make 交给了她——用她的话说，一部分是因为当时没别人可用。一年后，她又一次凭直觉裸辞：「昨天还不知道，今天我就知道了」，然后去了 OpenAI [19:26 Holly Lee]。\n\n## 想做 AI 产品经理？先真用产品\n\n她的建议简单到不像建议：**把市面上的产品真的用一遍**。她说自己聊过不少来 OpenAI 面试的人，居然连 Codex 都没碰过，也没有对任何工作流的真实看法 [23:30 Holly Lee]。既然没人知道 AI 的未来长什么样，认真玩过、有观点的人，和任何人一样有资格。\n\n面试官方面，她觉得现在的候选人最大的问题是不够相信自己——回答显得排练过度，笑容都像假的。她能分辨出哪些话是从 Substack 或 Twitter 上背来的。面试当然要表演，但演到失真就是减分。\n\n对了，她还有一个可爱的偏见：带着冰咖啡进面试她会扣分，热咖啡反而显得更认真。\n\n## 她真正想做的：不是让人变成超人\n\n聊到 AI 营销，Holly 有个不太硅谷的观点：**效率几乎从来不是重点，重点是帮人夺回对生活的掌控感** [56:38 Holly Lee]。\n\n她引用了自己的例子——不止是帮自己干活，而是把心事倒给 Dot 之后，感觉当天更有秩序。她说自己来自俄亥俄乡下、业余做艺术，完全理解那些想自己逛超市、自己挑飞机座位的人。她担心 Dots 被看成又一个硅谷圈内的现象，真正希望触达的是教师、学生、母亲这些人。她的姐姐是两个 3 岁以下孩子的妈妈、还是医生，她想让 Dot 帮姐姐处理账单和行政琐事，好让她多点时间看剧。\n\n台上那份松弛感，她的秘诀有两条：一是在自己的幻想里别当输家——想象登台时就想象自己大获全胜；二是把演讲重新定义为「我有一个故事要讲给你听」，而不是「我必须完成一场演示」[41:33 Holly Lee]。\n\n## 本集带走\n\n- Dev Day 直播翻车时，Holly 是一边讲一边发现后半场演示作废的，当场编完了收尾，事后用一条自嘲推文化危机为圈粉。\n- Dots 是可以打电话的常驻 AI 助手，能调度 Codex 干活；隐私设计上默认只读、可用自然语言定规则、有 AI 审查员拦截可疑操作。\n- 她的职业路径靠的是主动出击：单程机票去旧金山，3 周 networking 说服 Adept 为她设岗位。\n- 面试 AI 产品经理的核心建议：把产品真的用一遍，有自己的看法；别背诵网上看来的观点。\n- 她对 AI 助手的定位不是效率工具，而是帮人夺回生活的掌控感——尤其是教师、母亲这些真正需要减负的人。",
+  "quotes": [
+    {
+      "en": "Like actually use all of the products that are out there. That seems really obvious, but I've talked to a lot of people who are like interviewing at OpenAI and like haven't used Codex before.",
+      "zh": "真正把市面上的产品都用一遍。这看起来非常显而易见，但我聊过很多在 OpenAI 面试的人，之前却从没用过 Codex。",
+      "timestamp": "23:27",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "But you'd be shocked at I feel like how many people just haven't tried the basic workflows and like had an opinion about what's working for them.",
+      "zh": "但你会震惊于有多少人连基本的工作流都没试过，就对什么东西好用形成了自己的看法。",
+      "timestamp": "23:47",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "You made your own job at someone else's company.",
+      "zh": "你在别人的公司给自己造了一份工作。",
+      "timestamp": "16:17",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "Like it's actually so crazy how much humans just like need to see a to-do list.",
+      "zh": "真的很疯狂，人类就是那么需要看到一张待办清单。",
+      "timestamp": "33:22",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "I think the saying is like, do not be a loser in your own fantasies.",
+      "zh": "我觉得那句格言就是，不要在自己的幻想里当一个失败者。",
+      "timestamp": "41:33",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "That's why I wanted to go a little bigger with the outfit, almost like to make a point to be like, I'm not your average AI tech bro.",
+      "zh": "这就是为什么我想把穿搭搞得再夸张一点，几乎是想表明一个态度：我不是你们常见的那种 AI 技术男。",
+      "timestamp": "43:51",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "I think that like efficiency is almost never the point. It is just like helping you regain control.",
+      "zh": "我觉得效率几乎从来都不是重点。它就是在帮你重新获得掌控感。",
+      "timestamp": "56:38",
+      "speaker": "Holly Li"
+    },
+    {
+      "en": "My honest thoughts are that, like, we ought to be doing, like, way more to talk to the rest of the world and, like, focus less on, like, the 1% of Twitter that's going to care about, like, what's going on.",
+      "zh": "我的真实想法是，我们应该做多得多的工作去和世界上其他人对话，少一些把注意力放在那 1% 会关心这些事的 Twitter 用户身上。",
+      "timestamp": "61:30",
+      "speaker": "Holly Li"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "23:27",
+      "speaker": "Holly Lee",
+      "en": "Like actually use all of the products that are out there. That seems really obvious, but I've talked to a lot of people who are like interviewing at OpenAI and like haven't used Codex before.",
+      "zh": "真正把市面上的产品都用一遍。这看起来非常显而易见，但我聊过很多在 OpenAI 面试的人，之前却从没用过 Codex。"
+    },
+    {
+      "timestamp": "23:47",
+      "speaker": "Holly Lee",
+      "en": "But you'd be shocked at I feel like how many people just haven't tried the basic workflows and like had an opinion about what's working for them.",
+      "zh": "但你会震惊于有多少人连基本的工作流都没试过，就对什么东西好用形成了自己的看法。"
+    },
+    {
+      "timestamp": "23:54",
+      "speaker": "Holly Lee",
+      "en": "None of us know what the future of AI looks like. We're all just like playing around and like seeing what sticks to.",
+      "zh": "我们没人知道 AI 的未来是什么样子。我们都只是在玩、在看什么能留下来。"
+    },
+    {
+      "timestamp": "23:59",
+      "speaker": "Holly Lee",
+      "en": "So like in that way, every single one of you is just as qualified to do the job, you know?",
+      "zh": "所以从这个角度说，你们每一个人都同样有资格做这份工作，你知道吗？"
+    },
+    {
+      "timestamp": "25:08",
+      "speaker": "Holly Lee",
+      "en": "I think people are too unsure of themselves.",
+      "zh": "我觉得人们对自己太没有把握了。"
+    },
+    {
+      "timestamp": "16:00",
+      "speaker": "Holly Lee",
+      "en": "And then I stayed on friends' couches and I was like, I'm not leaving SF without a job.",
+      "zh": "然后我借住在朋友的沙发上，心想找不到工作我就不离开旧金山。"
+    },
+    {
+      "timestamp": "16:17",
+      "speaker": "Chloe（主持人）",
+      "en": "You made your own job at someone else's company.",
+      "zh": "你在别人的公司给自己造了一份工作。"
+    },
+    {
+      "timestamp": "22:55",
+      "speaker": "Holly Lee",
+      "en": "I do think most people say that about themselves at most companies, but most places will just be like, oh, we'll figure it out tomorrow. I think OpenAI is really a place where you figure it out.",
+      "zh": "我确实觉得大多数人在大多数公司都会这么说自己，但大多数地方只会说，哦，我们明天再说。我觉得 OpenAI 真的是一个你真的把事情弄清楚的地方。"
+    },
+    {
+      "timestamp": "33:22",
+      "speaker": "Holly Lee",
+      "en": "Like it's actually so crazy how much humans just like need to see a to-do list.",
+      "zh": "真的很疯狂，人类就是那么需要看到一张待办清单。"
+    },
+    {
+      "timestamp": "39:02",
+      "speaker": "Holly Lee",
+      "en": "It was a bummer and I felt like we had to own the moment.",
+      "zh": "挺让人郁闷的，但我觉得我们得坦然面对那一刻。"
+    },
+    {
+      "timestamp": "41:33",
+      "speaker": "Holly Lee",
+      "en": "I think the saying is like, do not be a loser in your own fantasies.",
+      "zh": "我觉得那句格言就是，不要在自己的幻想里当一个失败者。"
+    },
+    {
+      "timestamp": "42:01",
+      "speaker": "Holly Lee",
+      "en": "And, like, it's not actually you saying the words or whatever. It's, like, remember that the whole point of this is to convince them, is to tell them the story and, like, bring them in.",
+      "zh": "而这其实并不是你在说什么词之类的。记住，这一切的重点是说服他们，是给他们讲这个故事，把他们带入进来。"
+    },
+    {
+      "timestamp": "43:51",
+      "speaker": "Holly Lee",
+      "en": "That's why I wanted to go a little bigger with the outfit, almost like to make a point to be like, I'm not your average AI tech bro.",
+      "zh": "这就是为什么我想把穿搭搞得再夸张一点，几乎是想表明一个态度：我不是你们常见的那种 AI 技术男。"
+    },
+    {
+      "timestamp": "56:38",
+      "speaker": "Holly Lee",
+      "en": "I think that like efficiency is almost never the point. It is just like helping you regain control.",
+      "zh": "我觉得效率几乎从来都不是重点。它就是在帮你重新获得掌控感。"
+    },
+    {
+      "timestamp": "62:16",
+      "speaker": "Holly Lee",
+      "en": "And one thing is like, I really don't want it to be seen as just like another Silicon Valley phenomenon. And I would love to actually have it reach the people who need it.",
+      "zh": "有一点是，我真的不希望它被看作只是又一个硅谷现象。我真心希望它能触达那些需要它的人。"
+    },
+    {
+      "timestamp": "61:30",
+      "speaker": "Holly Lee",
+      "en": "My honest thoughts are that, like, we ought to be doing, like, way more to talk to the rest of the world and, like, focus less on, like, the 1% of Twitter that's going to care about, like, what's going on.",
+      "zh": "我的真实想法是，我们应该做多得多的工作去和世界上其他人对话，少一些把注意力放在那 1% 会关心这些事的 Twitter 用户身上。"
+    },
+    {
+      "timestamp": "70:19",
+      "speaker": "Holly Lee",
+      "en": "I think managers have the potential to change, like, meaningfully change people's, like, lives.",
+      "zh": "我觉得管理者有潜力去改变，有意义地改变人们的生活。"
+    }
+  ],
+  "voice_script": "今天这期嘉宾，是眼下硅谷被讨论最多的产品经理之一——Holly Lee。她是 OpenAI 的产品经理，之前在 Figma 一场演讲意外走红，后来加入 OpenAI。在今年的 Dev Day 上，她紧接 Sam Altman 登台，介绍新发布的 AI 助手 Dots，结果直播演示当场翻车。翻车之后她反而更火了。这期节目里，她和主播 Chloe 聊了整场翻车的来龙去脉、一路从 Google 到 Figma 再到 OpenAI 的跳槽史，还有大家最关心的 AI 隐私问题。咱们一条一条说。\n\n先说翻车这件事。Dev Day 上，Holly 的语音演示出师不利：她打电话给演示用的 Dot——她给它起了个名字叫 Dottie——对方毫无反应。其实她准备了预案，语音不行就改打字。但更糟的是后半段：因为一个技术故障，Codex 的任务线程根本没启动，也就是说，准备好的三分钟演示内容全部作废。最夸张的是，她是站在台上、一边讲着词，一边意识到这一切的，然后当场现编了个收尾。到今天她都没敢回看那段视频。\n\n但事后她做了件很聪明的事。发了人生第一条推文，自嘲说是 Wi-Fi 的问题，还致敬了 2007 年 iPhone 发布会上乔布斯那句经典救场。这条推拿了超过一百万次浏览。还有个小插曲：有人发推嘲讽她那件亮橙色背心，问她以为自己是 Scooby-Doo 里的谁，结果被网友围攻到删帖道歉——那还是她上 Twitter 的头二十四小时。\n\n那这个 Dots 到底是什么？用她自己的话说，是\"一个永远在线的持久助手\"，手机和笔记本电脑上是同一个它，全天候工作，还会主动学习你的习惯。最大的特点是你可以直接打电话给它。来录节目的路上，她就打给 Dot，让它订去洛杉矶的机票。她自己的最大用法反而更简单：每天和 Dot 聊几个小时，把它当第二大脑，一起捋产品路线图和难题。相比其他助手，Dots 几乎零设置，ChatGPT 和 Codex 里已有的连接器直接复用，而且一个 Dot 可以调度你的 Codex 去干活。配套发布的 Spaces 则像一块共享画布，Dot 能把待办清单、图表直接写在页面上，你打个绿色对勾、说一句看清单，它就开始执行。\n\n聊到这儿，主播 Chloe 说了句大实话：把收件箱、短信、财务、健康数据全交给 AI，自己接受不了。Holly 的回应分好几层。数据上，设置里可以关掉\"用我的数据改进模型\"这个开关。行为上，Dots 被刻意做得非常保守——原本它会主动帮你起草邮件回复，团队觉得这也过头了，改成连起草都要先问你。权限上，一切默认只读，写入需要你明确授权，还能用自然语言定规则，比如\"没问我绝不发邮件\"，或者反过来，\"卫生纸直接买不用问\"。另外还有个 AI 审查员盯着所有交互，发现可疑操作就拦截。不过她也坦承了局限：撤回 Gmail 授权之后，之前看过的邮件内容还留在它的记忆里，就像人和人不再来往了，旧对话也忘不掉；已经发出的邮件，有时确实撤不回来。\n\n你可能会好奇，这样的人是怎么一路走过来的。Holly 在俄亥俄一个大学城长大，父母都是大学教授，本科学经济。毕业后先进了 McKinsey，一年就受不了了——不是因为别的，是因为合伙人批评她穿黄袜子。她当时想，能让我穿黄袜子的，大概是 Google。二十六岁那年，家里出事，加上觉得工作到头了，来了一场教科书式的危机操作：剪短发、跑马拉松、申请研究生，然后辞职，买了张去旧金山的单程机票，睡朋友家沙发，放话不找到产品经理的工作就不走。三个星期狂约咖啡聊天之后，她说服 AI 公司 Adept，为专门设了一个产品经理岗位——你在别人的公司给自己造了一份工作，说的就是这种事。后来 Adept 的研究团队被 Amazon 收编，跳到 Figma。入职才五个星期，创始人 Dylan Field 就把后来爆红的 Figma Make 交给了她——按她自己的说法，一部分是因为当时没别人可用。一年之后，又一次凭直觉裸辞，原话是\"昨天还不知道，今天我就知道了\"，然后去了 OpenAI。\n\n对想做 AI 产品经理的人，建议简单到不像建议：把市面上的产品真的用一遍。聊过不少来 OpenAI 面试的人，居然连 Codex 都没碰过，也没有对任何工作流的真实看法。既然没人知道 AI 的未来长什么样，认真玩过、有观点的人，和任何人一样有资格。反过来，站在面试官的角度，最大的问题是候选人不相信自己——回答排练过度，笑容都像假的，哪些话是从 Substack 或 Twitter 上背来的，一听就知道。面试当然要表演，但演到失真就是减分。对了，还有个可爱的偏见：带着冰咖啡进面试会扣分，热咖啡反而显得更认真。\n\n最后说说她真正想做的事。聊到 AI 营销，Holly 有个不太硅谷的观点：效率几乎从来不是重点，重点是帮人夺回对生活的掌控感。拿自己举例，把心事倒给 Dot 之后，感觉当天更有秩序。她说自己来自俄亥俄乡下、业余做艺术，完全理解那些想自己逛超市、自己挑飞机座位的人。她担心 Dots 被看成又一个硅谷圈内的现象，真正想触达的是教师、学生、母亲这些人——她姐姐是两个三岁以下孩子的妈妈，还是医生，她想让 Dot 帮姐姐处理账单和行政琐事，好让她多点时间看剧。\n\n至于台上那份松弛感，秘诀有两条：一是在自己的幻想里别当输家，想象登台就想象自己大获全胜；二是把演讲重新定义为\"我有一个故事要讲给你听\"，而不是\"我必须完成一场演示\"。一场直播翻车，被她讲成了自己的故事——这就是 Holly Lee。"
+}

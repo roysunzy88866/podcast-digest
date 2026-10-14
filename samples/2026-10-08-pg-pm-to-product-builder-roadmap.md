@@ -219,7 +219,7 @@ Ankit 的建议是反过来的：**先懂产品，先做前面 POW 那部分问�
 
 - [[2026-09-02-aiandi-how-a-professional-writer-writes-with-ai|被裁员后用 ChatGPT 当职业教练：一位撰稿人的两年 AI 进化史]]<span class="pd-rz">同公司:ChatGPT、Claude · 同概念:Codex</span>
 - [[2026-09-15-mos-let-s-kill-sh-t-axios-ceo-on-simplifying|Axios CEO Jim VandeHei：直面、删除、放大——AI 时代的简化生存法]]<span class="pd-rz">同公司:ChatGPT、Claude</span>
-- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]]<span class="pd-rz">同概念:Codex、MCP</span>
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推]]<span class="pd-rz">同公司:ChatGPT · 同概念:Codex</span>
 
 </div>
 <div class="pd-ex">

@@ -26,7 +26,7 @@ unlisted: true
 
 [[Aaron Schumm]] · [[Justin Reock]] · [[Vestwell]] · [[DX]] · [[JP Morgan]] · [[智能体]] · [[401(k)]] · [[开发者体验]] · [[贴牌纯软件]] · [[DORA]]
 
-<script type="application/json" class="pd-epn">{"Aaron Schumm":1,"Justin Reock":1,"Vestwell":1,"DX":4,"JP Morgan":4,"智能体":499,"401(k)":1,"开发者体验":2,"贴牌纯软件":1,"DORA":3}</script>
+<script type="application/json" class="pd-epn">{"Aaron Schumm":1,"Justin Reock":1,"Vestwell":1,"DX":4,"JP Morgan":4,"智能体":501,"401(k)":1,"开发者体验":2,"贴牌纯软件":1,"DORA":3}</script>
 
 <script>
 (function(){

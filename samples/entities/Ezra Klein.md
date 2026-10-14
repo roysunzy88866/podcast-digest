@@ -37,7 +37,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":70,"OpenAI":200,"Anthropic":203,"Hugging Face":37,"智能体":499,"沙箱":98,"对齐":25,"开源模型":4,"推理":99}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":4,"NVIDIA":70,"OpenAI":201,"Anthropic":203,"Hugging Face":37,"智能体":501,"沙箱":98,"对齐":25,"开源模型":4,"推理":99}</script>
 
 <script>
 (function(){

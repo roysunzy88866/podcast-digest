@@ -25,7 +25,7 @@ unlisted: true
 
 [[智能体]] · [[推理]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[NVIDIA]] · [[Oracle]] · [[Meta]] · [[XAI]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"推理":99,"OpenAI":200,"护栏":90,"Anthropic":203,"NVIDIA":70,"Oracle":12,"Meta":53,"XAI":8,"RAG":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"推理":99,"OpenAI":201,"护栏":90,"Anthropic":203,"NVIDIA":70,"Oracle":12,"Meta":53,"XAI":8,"RAG":29}</script>
 
 <script>
 (function(){

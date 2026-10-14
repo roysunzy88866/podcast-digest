@@ -98,7 +98,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cisco":4,"Box":5,"护栏":90,"Lenny":69,"AI 基础设施":6,"NVIDIA":70,"智能体":499,"ChatGPT":111,"创始人模式":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"Cisco":4,"Box":5,"护栏":90,"Lenny":69,"AI 基础设施":6,"NVIDIA":70,"智能体":501,"ChatGPT":112,"创始人模式":4,"主观能动性":1}</script>
 
 <script>
 (function(){

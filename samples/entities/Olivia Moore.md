@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Josh Ellman]] · [[Frederick Rankin]] · [[David Booth]] · [[Elena Berger]] · [[Alex Rampell]] · [[Cosign]] · [[ChatGPT]] · [[Stein Pella]] · [[背书]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"Josh Ellman":2,"Frederick Rankin":1,"David Booth":1,"Elena Berger":5,"Alex Rampell":3,"Cosign":1,"ChatGPT":111,"Stein Pella":1,"背书":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"Josh Ellman":2,"Frederick Rankin":1,"David Booth":1,"Elena Berger":5,"Alex Rampell":3,"Cosign":1,"ChatGPT":112,"Stein Pella":1,"背书":1}</script>
 
 <script>
 (function(){

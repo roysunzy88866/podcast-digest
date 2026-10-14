@@ -47,7 +47,7 @@ unlisted: true
 
 [[LLM]] · [[ChatGPT]] · [[智能体]] · [[Meta]] · [[Google]] · [[Spotify]] · [[OpenAI]] · [[Lenny]] · [[开源模型]] · [[Instagram]]
 
-<script type="application/json" class="pd-epn">{"LLM":64,"ChatGPT":111,"智能体":499,"Meta":53,"Google":71,"Spotify":8,"OpenAI":200,"Lenny":69,"开源模型":4,"Instagram":9}</script>
+<script type="application/json" class="pd-epn">{"LLM":64,"ChatGPT":112,"智能体":501,"Meta":53,"Google":72,"Spotify":8,"OpenAI":201,"Lenny":69,"开源模型":4,"Instagram":9}</script>
 
 <script>
 (function(){

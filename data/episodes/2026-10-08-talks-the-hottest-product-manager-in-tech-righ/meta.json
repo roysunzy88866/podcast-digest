@@ -1,0 +1,27 @@
+{
+  "id": "2026-10-08-talks-the-hottest-product-manager-in-tech-righ",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/lnLWRJ2p_Mg.m4a",
+  "duration_sec": 4753.692,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 1851,
+  "asr": true,
+  "title_en": "The Hottest Product Manager in Tech Right Now 🔥 @OpenAI’s Holly Li Talks About Dots | Office Drama",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "added": "2026-10-14",
+  "added_at": "2026-10-14T11:30:24.793Z",
+  "speaker_map": {
+    "SPEAKER_00": "Holly Li",
+    "SPEAKER_01": "Claude Shee"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Holly Li",
+  "cohosts": [
+    "Claude Shee"
+  ],
+  "title_zh": "OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推",
+  "guest_name": "Holly Li",
+  "guest_title": "OpenAI 产品经理",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

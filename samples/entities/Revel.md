@@ -25,7 +25,7 @@ unlisted: true
 
 [[Mario]] · [[Scott Morton]] · [[SpaceX]] · [[LLVM]] · [[Python]] · [[vibe coding]] · [[CI-CD]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Mario":4,"Scott Morton":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":49,"CI-CD":16,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"Scott Morton":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":50,"CI-CD":16,"Palantir":20}</script>
 
 <script>
 (function(){

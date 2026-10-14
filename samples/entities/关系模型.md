@@ -25,7 +25,7 @@ unlisted: true
 
 [[Andy Pavlo]] · [[Matt Turk]] · [[智能体]] · [[护栏]] · [[沙箱]] · [[分支]] · [[向量数据库]] · [[向量搜索]] · [[RAG]] · [[text to SQL]]
 
-<script type="application/json" class="pd-epn">{"Andy Pavlo":1,"Matt Turk":5,"智能体":499,"护栏":90,"沙箱":98,"分支":1,"向量数据库":8,"向量搜索":6,"RAG":29,"text to SQL":2}</script>
+<script type="application/json" class="pd-epn">{"Andy Pavlo":1,"Matt Turk":5,"智能体":501,"护栏":90,"沙箱":98,"分支":1,"向量数据库":8,"向量搜索":6,"RAG":29,"text to SQL":2}</script>
 
 <script>
 (function(){

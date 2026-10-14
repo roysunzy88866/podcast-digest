@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":499,"vibe coding":49,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":3}</script>
+<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":501,"vibe coding":50,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":3}</script>
 
 <script>
 (function(){

@@ -156,7 +156,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[Microsoft]] · [[Claude]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"Anthropic":203,"OpenAI":200,"Google":71,"推理":99,"NVIDIA":70,"ChatGPT":111,"Microsoft":32,"Claude":97,"Cursor":86}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"Anthropic":203,"OpenAI":201,"Google":72,"推理":99,"NVIDIA":70,"ChatGPT":112,"Microsoft":32,"Claude":97,"Cursor":86}</script>
 
 <script>
 (function(){

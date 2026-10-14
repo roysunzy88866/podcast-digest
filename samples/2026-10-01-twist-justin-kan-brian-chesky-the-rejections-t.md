@@ -191,7 +191,7 @@ Alex 用这个节目自己举例：以前他手工写节目 docket,要花三小�
 
 - [[2026-09-27-lennys-the-grief-loneliness-and-burnout|送出你的乐高？——Molly Graham 谈 AI 时代哪些职责该交出、哪些必须攥紧]]<span class="pd-rz">同公司:Airbnb、Google、OpenAI · 同概念:AI、智能体 (agent)</span>
 - [[2026-10-06-talks-how-ai-agents-pay-checkout-in-chatgpt-an|当AI替你下单：PayPal 讲解智能体购物里的支付怎么完成]]<span class="pd-rz">同公司:Google、ChatGPT、OpenAI · 同概念:智能体 (agent)</span>
-- [[2026-09-17-practicalai-how-to-get-discovered-in-ai-search|让品牌被 AI 看见：AEO 实战与研究]]<span class="pd-rz">同公司:Google、ChatGPT · 同概念:智能体 (agent)</span>
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推]]<span class="pd-rz">同公司:Google、ChatGPT、OpenAI · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

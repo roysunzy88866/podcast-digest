@@ -1,0 +1,468 @@
+{
+  "episode_id": "2026-10-09-talks-generation-is-cheap-review-is-expensive",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 编程",
+    "代码审查",
+    "软件工程",
+    "智能体",
+    "工程文化"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "gabriel-martinez",
+      "type": "person",
+      "role": "guest",
+      "name": "Gabriel Martinez",
+      "file": "Gabriel Martinez",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.55,
+            14.831
+          ],
+          "quote": "My name is Gabriel Martinez.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "slop",
+      "file": "slop",
+      "primary": true,
+      "how_described": "本集主题:slop 是思考还没完成、产出看起来已经完工的结果——歧义靠猜测消除、权衡随缘、责任无人承担,本质是生成速度超过判断速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.452,
+            21.635
+          ],
+          "quote": "I'm an engineering manager and resident slop warden at G2i, and I'm here to talk about slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            22.936,
+            25.917
+          ],
+          "quote": "I'm here to talk about slop because I'm rather passionate about the topic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            29.419,
+            34.282
+          ],
+          "quote": "The term slop has been beaten to a pulp, but the thing it points at has long been around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            41.272,
+            45.214
+          ],
+          "quote": "Slop is what happens when generation outruns judgment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            45.854,
+            47.755
+          ],
+          "quote": "Slop is not AI-generated code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            55.419,
+            58.64
+          ],
+          "quote": "Slop is output that looks finished before the thinking is finished.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            166.974,
+            168.834
+          ],
+          "quote": "Slop is not about AI as a tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            847.944,
+            850.925
+          ],
+          "quote": "The more obvious the path, the less room there is for slop to hide.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            969.948,
+            982.895
+          ],
+          "quote": "Over time, we found ourselves repeating the same human processes to fight slop, break down the work, manage context, weigh out your options, and make sure the output enters the code base in the way the team can still reason about.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体能写代码、搭建界面、构建完整功能,但不能取代人类决定什么重要、解读歧义、长期负责系统;在有清晰约定和结构的环境里智能体运行得更有效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            234.144,
+            240.407
+          ],
+          "quote": "An agent can operate with much more effectively inside a code base that has structure, patterns, clear boundaries, and rationale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            241.067,
+            245.269
+          ],
+          "quote": "But if the system is already a big ball of mud, the agent does not rescue you from the mud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            715.893,
+            718.955
+          ],
+          "quote": "If the agent writes the code, why should we care about what the code looks like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            823.614,
+            827.256
+          ],
+          "quote": "An agent can generate five plausible patterns in five different styles.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evaluation)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集核心论断:「Generation is cheap, but evaluation is expensive」——AI 产出超出人类可评估范围时,不是加速团队而是制造瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            516.521,
+            524.631
+          ],
+          "quote": "Rewards should be centered around producing value, elegant, well-factored, pragmatic system design, and around clarity of test and evaluation harnesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            619.169,
+            622.733
+          ],
+          "quote": "Generation is cheap, but evaluation is expensive.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集说现在任何人都能一小时 vibecode 出可点击原型,骗局外人以为难的部分已结束;并断言未来不是更快地 vibe coding,而是带判断力的编排。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            1007.498,
+            1010.499
+          ],
+          "quote": "Because the future is not vibe coding better, faster.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rails",
+      "type": "company",
+      "role": "concept",
+      "name": "Rails",
+      "file": "Rails",
+      "primary": true,
+      "how_described": "本集把 Rails 当作标杆:框架用约定激进削减决策面,一件事只有一种正确做法;这种「只有一条路」的环境特别适合智能体开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            855.146,
+            858.208
+          ],
+          "quote": "I want to give special recognition here to Rails and its place in my heart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            859.288,
+            863.89
+          ],
+          "quote": "Rails matters here because it shows what happens when a framework aggressively reduces decision surface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            879.669,
+            884.05
+          ],
+          "quote": "In my career between my first and second forays with Rails, I had a gap of four years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            923.603,
+            925.985
+          ],
+          "quote": "This is well supported by the official Rails doctrine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "conventions",
+      "type": "concept",
+      "role": "concept",
+      "name": "约定 (conventions)",
+      "file": "约定",
+      "primary": true,
+      "how_described": "本集主张约定、标准、有文档的流程、小而可审查的改动面是对抗 slop 的答案——路径越明确,slop 可藏身的空间越小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            700.261,
+            711.169
+          ],
+          "quote": "A friend recently challenged me on why I spend so much time thinking about guardrails for agents, coding conventions, architectural styles, and constraints around how the system should be shaped.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            833.821,
+            836.423
+          ],
+          "quote": "With proper conventions, intent is more easily rocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            838.3,
+            846.983
+          ],
+          "quote": "The answer to this is conventions, standards, documented flows, small reviewable surfaces, and clear ownership boundaries and definitions of done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            864.763,
+            871.966
+          ],
+          "quote": "When conventions reduce your overhead, rather than ending up with 10 different ways to structure the same concept, you end up with one.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-overhead",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知开销 (cognitive overhead)",
+      "file": "认知开销",
+      "primary": true,
+      "how_described": "本集把认知开销比作工程师做有意义改动前必须交的税,AI 不免税、不加约束反而加剧它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            803.936,
+            808.299
+          ],
+          "quote": "Cognitive overhead is a tax every engineer has to pay before they can make a meaningful change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            939.718,
+            942.1
+          ],
+          "quote": "It is the reduction of cognitive overhead.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orc",
+      "type": "concept",
+      "role": "concept",
+      "name": "ORC",
+      "file": "ORC",
+      "primary": true,
+      "how_described": "本集介绍他们团队构建的 ORC:不是更多智能体、也不是把工程判断自动化,而是把拆任务、管上下文、对比方案这些人肉流程固化进工作流,目标是带判断力的编排。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            944.497,
+            956.582
+          ],
+          "quote": "Everything I've talked about today is what led us to build ORC, not only because we think the answer is more agents, and definitely not because we think engineering judgment can be automated away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            957.443,
+            960.024
+          ],
+          "quote": "We built ORC because we kept seeing the same failure pattern.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            984.176,
+            986.997
+          ],
+          "quote": "ORC is taking those lessons and baking them into the workflow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lines-of-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码行数 (lines of code)",
+      "file": "代码行数",
+      "primary": false,
+      "how_described": "本集引用 Dykstra 说代码行数应看作花费而非产出,并重申行数是垃圾指标、烧 token 多寡同样不代表产出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            255.578,
+            259.703
+          ],
+          "quote": "If we could count lines of code, we would not think of them as lines produced but as lines spent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            653.359,
+            663.761
+          ],
+          "quote": "Somehow, we've completely forgotten that lines of code is a garbage metric for productivity, but then we decided that it's different than deciding the engineer who burns the most tokens must be producing the most.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diagrams",
+      "type": "concept",
+      "role": "concept",
+      "name": "图示 (diagrams)",
+      "file": "图示",
+      "primary": false,
+      "how_described": "本集主张图示不是事后装饰性文档,而是让系统可读的压缩评审表面——服务边界、数据流、状态转换、故障模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            755.556,
+            762.525
+          ],
+          "quote": "This is why diagrams matter so much, not as decorative documentation after the fact, but as a way of making systems legible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "g2i",
+      "type": "company",
+      "role": "company",
+      "name": "G2i",
+      "file": "G2i",
+      "primary": false,
+      "how_described": "本集开头自报身份:演讲者是 G2i 的工程经理兼常驻 slop 看门人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.452,
+            21.635
+          ],
+          "quote": "I'm an engineering manager and resident slop warden at G2i, and I'm here to talk about slop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,1378 @@
+{
+  "episode_id": "2026-10-08-talks-the-hottest-product-manager-in-tech-righ",
+  "podcast": "精选演讲",
+  "date": "2026-10-08",
+  "tags": [
+    "AI 智能体",
+    "隐私与安全",
+    "产品经理",
+    "职业发展",
+    "现场演示翻车"
+  ],
+  "categories": [
+    "智能体",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "holly-li",
+      "type": "person",
+      "role": "host",
+      "name": "Holly Li",
+      "file": "Holly Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "claude-shee",
+      "type": "person",
+      "role": "cohost",
+      "name": "Claude Shee",
+      "file": "Claude Shee",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            99.052,
+            106.297
+          ],
+          "quote": "I'm your host, Claude Shee, and today in the office, we have perhaps the most talked about product manager in Silicon Valley right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "Holly 现在任职的公司,在 Dev Day 发布了 Dots 和 Spaces,她形容这里的人有超强执行力,是『真的把事情弄清楚的地方』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            106.597,
+            114.682
+          ],
+          "quote": "She just presented at OpenAI's Dev Day, and she helped launch DOTS, which is the AI assistant that is all over my social media right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            1121.147,
+            1123.069
+          ],
+          "quote": "So then what happened with the OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1239.173,
+            1240.194
+          ],
+          "quote": "And you applied to OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            1242.495,
+            1243.536
+          ],
+          "quote": "I applied to OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            1243.636,
+            1246.178
+          ],
+          "quote": "I knew, like, I had a mentor who worked at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            1281.669,
+            1285.672
+          ],
+          "quote": "Without revealing anything confidential, what was it like interviewing for OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            1334.484,
+            1336.505
+          ],
+          "quote": "Like, what kind of people make it to the culture of OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 645,
+          "t": [
+            1382.164,
+            1385.045
+          ],
+          "quote": "I think OpenAI is really a place where you figure it out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            1410.622,
+            1419.026
+          ],
+          "quote": "That seems really obvious, but I've talked to a lot of people who are like interviewing at OpenAI and like haven't used Codex before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 710,
+          "t": [
+            1584.363,
+            1587.246
+          ],
+          "quote": "But let's talk about what you're building right now at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 723,
+          "t": [
+            1611.363,
+            1624.808
+          ],
+          "quote": "I mean, it's the craziest launch I've ever worked on just in terms of like the sheer amount of stuff that we built, that we thought through, that we designed, the sheer amount of like collaboration and just crazy talent from all across OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 738,
+          "t": [
+            1672.607,
+            1674.629
+          ],
+          "quote": "Wait, so you joined OpenAI seven months ago?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1543,
+          "t": [
+            3951.447,
+            3961.552
+          ],
+          "quote": "I'm very lucky to be here to finally meet someone on the product team at OpenAI so that we have this connection and this bridge so we can build together and I can share feedback.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1561,
+          "t": [
+            4041.825,
+            4043.147
+          ],
+          "quote": "Have you had it yet at OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1760,
+          "t": [
+            4437.282,
+            4441.985
+          ],
+          "quote": "This interview came together so last minute, like literally Tuesday was OpenAI Dub Day.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "concept",
+      "role": "concept",
+      "name": "DOTS",
+      "file": "DOTS",
+      "primary": true,
+      "how_described": "本集介绍的 OpenAI 新产品:一个始终在线的持久 AI 助手,可以打电话给它,能编排你的 Codex 干活,本集主线产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            56.904,
+            60.067
+          ],
+          "quote": "What would you say about DOTS to more privacy conscious users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            106.597,
+            114.682
+          ],
+          "quote": "She just presented at OpenAI's Dev Day, and she helped launch DOTS, which is the AI assistant that is all over my social media right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 711,
+          "t": [
+            1587.466,
+            1591.929
+          ],
+          "quote": "So, I mean, I'm pregnant right now, but you're already a mother of dots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            1597.773,
+            1598.474
+          ],
+          "quote": "Dots, I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            1630.111,
+            1631.352
+          ],
+          "quote": "To the people, what is DOTS?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            1631.692,
+            1635.695
+          ],
+          "quote": "DOTS are an always on persistent assistant for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            1707.514,
+            1709.875
+          ],
+          "quote": "I'm curious about the name of Dots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 747,
+          "t": [
+            1711.175,
+            1717.137
+          ],
+          "quote": "Dots are just like a really familiar, sweet name for something that like you want to be able to talk to every single day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 752,
+          "t": [
+            1732.323,
+            1736.226
+          ],
+          "quote": "What is the difference between DOTS and all the other AI assistants that got launched?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 754,
+          "t": [
+            1741.43,
+            1742.951
+          ],
+          "quote": "What is the DOTS positioning?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 755,
+          "t": [
+            1743.271,
+            1751.136
+          ],
+          "quote": "The way I think about DOTS is you already have all of the kind of connectors, the plugins that like you know and love inside of ChatGPT or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 791,
+          "t": [
+            1897.095,
+            1900.879
+          ],
+          "quote": "What is the thought process behind putting DOTS behind the paid tier, not the free tier?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 792,
+          "t": [
+            1901.179,
+            1905.043
+          ],
+          "quote": "Right now, we are still in very much like a learning phase for DOTS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            1939.197,
+            1948.543
+          ],
+          "quote": "I'm a little confused how I use ChatGPT right now because there's ChatGPT, ChatGPT, Work, Codex, Dots, and Spaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1044,
+          "t": [
+            2448.435,
+            2449.615
+          ],
+          "quote": "How many PMs are on DOTS?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            2455.26,
+            2458.123
+          ],
+          "quote": "So how did you become the person to present on DOTS?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1086,
+          "t": [
+            2541.383,
+            2546.806
+          ],
+          "quote": "I was like, oh, I genuinely want to tell people this story of blossom music and how dots help you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1168,
+          "t": [
+            2741.953,
+            2745.955
+          ],
+          "quote": "And so what would you say about DOTS to more privacy conscious users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            2771.983,
+            2780.664
+          ],
+          "quote": "And then in terms of what DOT can do with all of that, it's absolutely true that the more you kind of connect to it, the more it can connect DOTs and be helpful to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            2789.826,
+            2793.487
+          ],
+          "quote": "The model that we've used for DOTs is like our most aligned model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            2796.407,
+            2799.168
+          ],
+          "quote": "We've intentionally made DOTs really conservative.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1184,
+          "t": [
+            2799.348,
+            2803.349
+          ],
+          "quote": "So like, for example, we actually had DOTS proactively draft things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1259,
+          "t": [
+            3143.544,
+            3147.105
+          ],
+          "quote": "So your dots only respond to the original owner for now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1338,
+          "t": [
+            3342.418,
+            3353.748
+          ],
+          "quote": "The reason why I think dots can still resonate with people is because I actually feel like my biggest use case for dots, and I know I'm like, you know, I've said this a few times, is like I literally just talk to it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1343,
+          "t": [
+            3385.705,
+            3395.387
+          ],
+          "quote": "And anyway, I've done a lot of reflection on this, but I guess my point is that I think dots and just this whole era of like AI assistants and whatever noun we end up on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1476,
+          "t": [
+            3716.665,
+            3723.913
+          ],
+          "quote": "Dots can actually help a lot of people save money, start businesses, scale their ideas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1622,
+          "t": [
+            4181.662,
+            4184.225
+          ],
+          "quote": "Okay, so Figma Make and Dots are hanging off of a cliff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1624,
+          "t": [
+            4185.446,
+            4185.907
+          ],
+          "quote": "Dots.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1626,
+          "t": [
+            4186.867,
+            4190.808
+          ],
+          "quote": "Because I'm working on them now and I think Dots are gonna have like major potential.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1627,
+          "t": [
+            4190.988,
+            4194.349
+          ],
+          "quote": "Okay, so Figma make Dots and Zhang Linghe are hanging on a cliff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1631,
+          "t": [
+            4197.13,
+            4198.41
+          ],
+          "quote": "Alright, Dots, you're dead in the water.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1813,
+          "t": [
+            4621.313,
+            4622.913
+          ],
+          "quote": "So all the dots were connecting.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "贯穿本集的核心概念:Dots 是可打电话的个人智能体,Holly 曾做面向团队的多用户智能体(Workspace Agents),还谈到妈妈离使用个人智能体还很远、用中文就能和智能体对话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            1011.443,
+            1021.265
+          ],
+          "quote": "And we were trying to sell companies an agent that could use the computer to do a bunch of things that, like, otherwise would have taken someone a really long time to click through.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1529,
+          "t": [
+            3902.205,
+            3913.882
+          ],
+          "quote": "And I actually think this is one of those areas where like the conversational aspect of this, like she can just speak to the agent in Chinese and like it can just like talk back to her and like do a bunch of stuff so she doesn't have to like learn how to use ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "OpenAI 的编程产品,本集说 Dot 可以编排(orchestrate)你的 Codex;演示翻车也是因为 Codex 线程没启动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 656,
+          "t": [
+            1410.622,
+            1419.026
+          ],
+          "quote": "That seems really obvious, but I've talked to a lot of people who are like interviewing at OpenAI and like haven't used Codex before.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            1743.271,
+            1751.136
+          ],
+          "quote": "The way I think about DOTS is you already have all of the kind of connectors, the plugins that like you know and love inside of ChatGPT or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            1939.197,
+            1948.543
+          ],
+          "quote": "I'm a little confused how I use ChatGPT right now because there's ChatGPT, ChatGPT, Work, Codex, Dots, and Spaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            1957.588,
+            1960.831
+          ],
+          "quote": "So your dot can just orchestrate your codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 811,
+          "t": [
+            1960.872,
+            1968.359
+          ],
+          "quote": "So whatever you were using codex before, if you were building things, if you were doing like harder technical tasks, you can just tell your dot to do and your dot will oversee that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 973,
+          "t": [
+            2277.155,
+            2284.619
+          ],
+          "quote": "And I knew in the first half that it wasn't going to happen because I saw that the Codex thread didn't start because of a technical issue.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集反复对比的产品:Dots 复用 ChatGPT 里已有的连接器几乎零设置,Holly 认为以前去 ChatGPT 做的问答对话现在可以直接问 Dot。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 755,
+          "t": [
+            1743.271,
+            1751.136
+          ],
+          "quote": "The way I think about DOTS is you already have all of the kind of connectors, the plugins that like you know and love inside of ChatGPT or Codex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            1939.197,
+            1948.543
+          ],
+          "quote": "I'm a little confused how I use ChatGPT right now because there's ChatGPT, ChatGPT, Work, Codex, Dots, and Spaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 812,
+          "t": [
+            1968.58,
+            1973.285
+          ],
+          "quote": "If you were going to ChatGPT for like questions and answers and that kind of conversationality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1526,
+          "t": [
+            3876.829,
+            3888.296
+          ],
+          "quote": "Yeah, I mean, my mom just sent me a photo the other day where she used ChatGPT for the first time to generate an image of herself in the 80s with like a wig and like a giant neon pink suit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1529,
+          "t": [
+            3902.205,
+            3913.882
+          ],
+          "quote": "And I actually think this is one of those areas where like the conversational aspect of this, like she can just speak to the agent in Chinese and like it can just like talk back to her and like do a bunch of stuff so she doesn't have to like learn how to use ChatGPT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spaces",
+      "type": "concept",
+      "role": "concept",
+      "name": "Spaces",
+      "file": "Spaces",
+      "primary": true,
+      "how_described": "Dev Day 同场发布的新产品:一块你和 Dot 共同工作的画布,Dot 可以把待办清单、图表写到页面上,你用绿色对勾 emoji 指挥它执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            1939.197,
+            1948.543
+          ],
+          "quote": "I'm a little confused how I use ChatGPT right now because there's ChatGPT, ChatGPT, Work, Codex, Dots, and Spaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 815,
+          "t": [
+            1976.706,
+            1985.309
+          ],
+          "quote": "Spaces are a new product that we launched, also at DevDay, which is just meant to be almost like a canvas and a space where you and your Dot can work together.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐私与数据控制 (privacy)",
+      "file": "隐私与数据控制",
+      "primary": true,
+      "how_described": "本集专设一段:主播直言无法接受交出收件箱和健康数据,Holly 给出分层答案——可关闭数据改进开关、默认只读、用户规则、AI 自动审查者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            56.904,
+            60.067
+          ],
+          "quote": "What would you say about DOTS to more privacy conscious users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1168,
+          "t": [
+            2741.953,
+            2745.955
+          ],
+          "quote": "And so what would you say about DOTS to more privacy conscious users?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            2748.316,
+            2753.817
+          ],
+          "quote": "There's privacy, and then there's, I guess, controls around what your dot is able to do with all of those things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "user-rules",
+      "type": "concept",
+      "role": "concept",
+      "name": "用户规则 (user rules)",
+      "file": "用户规则",
+      "primary": true,
+      "how_described": "Dots 的权限机制:用自然语言定规则,比如『没问我绝不发邮件』或『买厕纸不用问』,把行为边界交到用户手里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1199,
+          "t": [
+            2853.284,
+            2860.149
+          ],
+          "quote": "And then because we're taking such a kind of conservative stance, but we've also added this thing called like user rules.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1278,
+          "t": [
+            3184.39,
+            3193.372
+          ],
+          "quote": "And I think this is why like the user rules I mentioned earlier I think will really make sense because everyone has different thresholds for what they're nervous about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1279,
+          "t": [
+            3193.492,
+            3206.895
+          ],
+          "quote": "And like for you, you could set really, really explicit user rules that like every email draft needs to go through you or every email draft to these specific people or people of this type always need to go through you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "主播提出的最大 AI 恐惧之一:别人发一封邮件给出指令就能操纵你的 Dot;Holly 说自动审查者会用 AI 模型整体审视交互、判断是否可疑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1223,
+          "t": [
+            2959.943,
+            2964.726
+          ],
+          "quote": "You know, the prompt injection risk of someone else sending an email and giving instructions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "devday",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevDay",
+      "file": "DevDay",
+      "primary": true,
+      "how_described": "OpenAI 的开发者大会,Holly 紧接 Sam Altman 登台介绍 Dots,语音演示翻车、Codex 线程未启动导致后半段作废,是本集最大戏剧线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 815,
+          "t": [
+            1976.706,
+            1985.309
+          ],
+          "quote": "Spaces are a new product that we launched, also at DevDay, which is just meant to be almost like a canvas and a space where you and your Dot can work together.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "Holly 职业路径的重要一站:她称其为自己工作过最好的公司,入职五周被 Dylan Field 交予 Figma Make,一年后经历了发布与 IPO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            523.349,
+            524.99
+          ],
+          "quote": "Okay, do you remember your Figma outfit?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1054.257,
+            1056.218
+          ],
+          "quote": "And I was like, actually, Figma is my dream company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            1056.238,
+            1057.699
+          ],
+          "quote": "Figma is a dream company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1062.841,
+            1064.642
+          ],
+          "quote": "You were the founding PM of Figma Make.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            1107.735,
+            1109.096
+          ],
+          "quote": "But Figma would have been beautiful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1109.837,
+            1111.138
+          ],
+          "quote": "I love the Figma team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            1115.442,
+            1118.945
+          ],
+          "quote": "I actually, I truly think Figma is the nicest company I've ever worked at.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1131.036,
+            1133.138
+          ],
+          "quote": "Figma always has a very, very special place in my heart.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1135.379,
+            1137
+          ],
+          "quote": "We like launched Figma Make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            1199.044,
+            1201.445
+          ],
+          "quote": "And you're like, wait, this would be cold and doo-doo and Figma or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            1213.388,
+            1216.649
+          ],
+          "quote": "I mean, to be completely raw and transparent, I had just joined Figma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1622,
+          "t": [
+            4181.662,
+            4184.225
+          ],
+          "quote": "Okay, so Figma Make and Dots are hanging off of a cliff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1627,
+          "t": [
+            4190.988,
+            4194.349
+          ],
+          "quote": "Okay, so Figma make Dots and Zhang Linghe are hanging on a cliff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma-make",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma Make",
+      "file": "Figma Make",
+      "primary": true,
+      "how_described": "后来爆红的用代码生成设计的工具,Holly 是其创始 PM,她坦承拿到项目只因当时没别人可用,几个月冲刺做出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1062.841,
+            1064.642
+          ],
+          "quote": "You were the founding PM of Figma Make.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1135.379,
+            1137
+          ],
+          "quote": "We like launched Figma Make.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1622,
+          "t": [
+            4181.662,
+            4184.225
+          ],
+          "quote": "Okay, so Figma Make and Dots are hanging off of a cliff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1627,
+          "t": [
+            4190.988,
+            4194.349
+          ],
+          "quote": "Okay, so Figma make Dots and Zhang Linghe are hanging on a cliff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adept",
+      "type": "company",
+      "role": "company",
+      "name": "Adept",
+      "file": "Adept",
+      "primary": true,
+      "how_described": "Holly 第一个 PM 东家:一个做计算机使用模型的研究实验室,她想卖企业级智能体但难把模型打包成产品,后研究团队被 Amazon 收编。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 418,
+          "t": [
+            925.479,
+            927.421
+          ],
+          "quote": "Okay, so you went back to SF for adept.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            967.067,
+            975.193
+          ],
+          "quote": "And by the end of it, I had met an amazing team at Adept and convinced them to create like a PM role for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            997.68,
+            998.901
+          ],
+          "quote": "So you were at Adept.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 463,
+          "t": [
+            1034.869,
+            1042.172
+          ],
+          "quote": "The research team at Adept went over to Amazon and we tried to figure out what to do with Adept afterwards.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "Holly 毕业后的第一站,因『能让我穿黄袜子』而加入 APMM 项目,后在纽约 Creative Lab 参与 Magic Editor 等早期生成式 AI 项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            680.592,
+            683.914
+          ],
+          "quote": "And I was like, you know who will let me wear yellow socks is probably Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 324,
+          "t": [
+            693.441,
+            699.645
+          ],
+          "quote": "So I applied for the APMM program, so marketing at Google, because I didn't have a CS background.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 328,
+          "t": [
+            711.176,
+            714.699
+          ],
+          "quote": "Makes sense because like there's no bikes in New York for the Google bikes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 331,
+          "t": [
+            716.02,
+            718.503
+          ],
+          "quote": "I did Google in SF for a little bit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            735.942,
+            738.504
+          ],
+          "quote": "And then I wanted to switch jobs within Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            756.032,
+            759.553
+          ],
+          "quote": "Like we were writing scripts for like how to talk about Google Chrome.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            795.703,
+            804.21
+          ],
+          "quote": "Like very much like how can we convince the world that like Google is very like creative and innovative and so we'll just have this team create little experiments to put online.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            843.997,
+            854.131
+          ],
+          "quote": "Creative Lab was like this secret squad that like has the 16th floor of the Chelsea building and like Google and they just like do cool stuff and it's like a giant creative loft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 403,
+          "t": [
+            889.88,
+            896.025
+          ],
+          "quote": "We worked with the Pixel team to create a special version of Google Photos that had generative AI in it for the first time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 408,
+          "t": [
+            909.83,
+            911.791
+          ],
+          "quote": "So Google New York or Google Mountain View?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            911.951,
+            913.172
+          ],
+          "quote": "Google New York.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            1309.212,
+            1314.815
+          ],
+          "quote": "It was very, like, if you go and Google right now, like, product manager interview questions, it was like those.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到 Adept 的研究团队被 Amazon 收编,间接促成了 Holly 跳槽 Figma。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 463,
+          "t": [
+            1034.869,
+            1042.172
+          ],
+          "quote": "The research team at Adept went over to Amazon and we tried to figure out what to do with Adept afterwards.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mckinsey",
+      "type": "company",
+      "role": "company",
+      "name": "McKinsey",
+      "file": "McKinsey",
+      "primary": true,
+      "how_described": "Holly 的第一份工作,一年后离开——不是受不了别的,是因合伙人批评她穿黄袜子,决定『能让我穿黄袜子的大概是 Google』。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 262,
+          "t": [
+            602.419,
+            605.581
+          ],
+          "quote": "I interned at McKinsey and then... Oh my God, you're a McKinsey girl?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            658.909,
+            660.01
+          ],
+          "quote": "Okay, so after McKinsey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            660.191,
+            663.655
+          ],
+          "quote": "After McKinsey, I was like, cannot go back to consulting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1787,
+          "t": [
+            4545.865,
+            4556.13
+          ],
+          "quote": "But we have our mutual friend, Alaric, who is my childhood friend and they know each other because of Penn and McKinsey and they do a lot of music together because she's into musicals and she's a theater girl and she likes",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "PM",
+      "file": "PM",
+      "primary": true,
+      "how_described": "本集职业主线:从说服 Adept 为她专设 PM 岗,到面试建议『把市面上产品真用一遍』,再到她认为晋升 60% 靠能见度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.131,
+            2.633
+          ],
+          "quote": "How does it feel to be the baddest PM out there right now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            19.423,
+            24.407
+          ],
+          "quote": "I had met an amazing team and convinced them to create a PM role for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            139.023,
+            143.107
+          ],
+          "quote": "Well, my first question to you is, how does it feel to be the baddest PM out there right now?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            216.612,
+            219.334
+          ],
+          "quote": "And then the title was like, who is this PM baddie?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            235.969,
+            239.111
+          ],
+          "quote": "Are you aware of how much aura you have to the PM and design girls?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            956.678,
+            959.2
+          ],
+          "quote": "And it has to be a PM job, no longer PMM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            967.067,
+            975.193
+          ],
+          "quote": "And by the end of it, I had met an amazing team at Adept and convinced them to create like a PM role for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1062.841,
+            1064.642
+          ],
+          "quote": "You were the founding PM of Figma Make.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            1217.229,
+            1218.93
+          ],
+          "quote": "I was a nobody PM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1272.24,
+            1277.385
+          ],
+          "quote": "I've seen a lot of people, a member of technical staff, member of product, and I'm like, isn't that a PM or is that not a PM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 607,
+          "t": [
+            1277.565,
+            1278.586
+          ],
+          "quote": "Yeah, it is just a PM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            1463.279,
+            1465.68
+          ],
+          "quote": "But okay, I think largely— For a PM interview.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 880,
+          "t": [
+            2134.168,
+            2134.328
+          ],
+          "quote": "PM?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            2134.628,
+            2134.948
+          ],
+          "quote": "PM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            2624.656,
+            2629.9
+          ],
+          "quote": "Yo, when I see a fashionista girl diva up there, PM thatty, it inspires me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1765,
+          "t": [
+            4452.93,
+            4454.731
+          ],
+          "quote": "We started shooting at 5.30 PM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1770,
+          "t": [
+            4464.095,
+            4471.298
+          ],
+          "quote": "Also, I'm just so grateful and excited that I got this chance to interview perhaps the most talked about PM in AI and tech right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

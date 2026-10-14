@@ -175,7 +175,7 @@ Amazon 的 Annapurna 团队是超大规模厂商里最有才华的硅芯片团�
 
 - [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:Anthropic、ChatGPT、OpenAI · 同概念:RL、推理 (reasoning)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、Gemini、OpenAI、Google</span>
-- [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:缩放定律 (scaling laws)</span>
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI、Figma</span>
 
 </div>
 </div>

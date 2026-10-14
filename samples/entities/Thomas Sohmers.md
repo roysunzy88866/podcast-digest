@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Positron":2,"Anthropic":203,"OpenAI":200,"NVIDIA":70,"DeepSeq":2,"推理":99,"内存墙":1,"KV 缓存":6,"token":33}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Positron":2,"Anthropic":203,"OpenAI":201,"NVIDIA":70,"DeepSeq":2,"推理":99,"内存墙":1,"KV 缓存":6,"token":33}</script>
 
 <script>
 (function(){

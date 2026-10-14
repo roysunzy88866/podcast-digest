@@ -105,8 +105,8 @@ Parsons 还提到，MCP 应用有个叫 elicitation 的新特性即将普及，�
 **顺着「智能体」挖下去**
 
 - [[2026-09-07-twentyvc-20vc-the-100-billion-ai-assistant-race-t|邮箱里的 AI 助手：Plaid 前 CTO 谈如何在巨头围剿下赢]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI、Claude · 同概念:智能体 (agent)</span>
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推]]<span class="pd-rz">同公司:ChatGPT、Google、OpenAI · 同概念:智能体 (agent)</span>
 - [[2026-09-14-eyeonai-the-hidden-algorithm-that-decides-which|当 AI 决定买什么软件：G2 的「信任层」生意]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Claude、Google · 同概念:智能体 (agent)</span>
-- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:ChatGPT、OpenAI、Claude、Google · 同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

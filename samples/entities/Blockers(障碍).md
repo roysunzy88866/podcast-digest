@@ -31,7 +31,7 @@ unlisted: true
 
 [[Dylan Field]] · [[Lenny]] · [[Figma]] · [[Figma Make]] · [[FigJam]] · [[Dev Mode]] · [[工作流]] · [[品味]] · [[价值实现时间]] · [[Detach 计划]]
 
-<script type="application/json" class="pd-epn">{"Dylan Field":2,"Lenny":69,"Figma":22,"Figma Make":3,"FigJam":1,"Dev Mode":1,"工作流":13,"品味":15,"价值实现时间":1,"Detach 计划":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan Field":2,"Lenny":69,"Figma":23,"Figma Make":4,"FigJam":1,"Dev Mode":1,"工作流":13,"品味":15,"价值实现时间":1,"Detach 计划":1}</script>
 
 <script>
 (function(){

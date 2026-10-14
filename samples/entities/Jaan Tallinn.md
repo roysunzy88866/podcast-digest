@@ -67,7 +67,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":4,"AI 安全":4,"Anthropic":203,"OpenAI":200,"Hugging Face":37,"DeepMind":19,"对齐":25,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"AI 安全":4,"Anthropic":203,"OpenAI":201,"Hugging Face":37,"DeepMind":19,"对齐":25,"科学家 AI":1,"零知识证明":1,"Skype":1}</script>
 
 <script>
 (function(){

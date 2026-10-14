@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>111</b> 集 · <b>25</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>112</b> 集 · <b>25</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -118,6 +118,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-10-07-talks-from-36-to-100-how-self-improving-agents|《从 36% 到 100%:让 AI 智能体自己写经验手册》]]**(07:14起):本集说市场、HR、法务、财务等部门可能仍在使用 ChatGPT 等不支持技能的 LLM 客户端。
 - **[[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]]**(02:07起):本集在回顾大模型演进时提到:ChatGPT 出现后交互变成用户-模型交替的对话形式,大多数人从那时开始接触
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(27:00起):本集说可用 ChatGPT/Claude 快速完成竞品与用户调研,并让 GPT 把外行话的功能清单扩写成正式规格文档
+- **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(29:03起):本集反复对比的产品:Dots 复用 ChatGPT 里已有的连接器几乎零设置,Holly 认为以前去 ChatGPT 做的问答对话现在可以直接问 Dot。
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(02:00起):本集说 ChatGPT 是 OpenAI 最主要的产品，嘉宾统管它；桌面应用与 ChatGPT.com 网页版代码库用 30 天合并，大部分代码由 Astra 写。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
@@ -177,7 +178,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ② 出现在这些集
 
-*111 集*
+*112 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
@@ -288,6 +289,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-10-07-talks-from-36-to-100-how-self-improving-agents|《从 36% 到 100%:让 AI 智能体自己写经验手册》]] — 作为概念(提及)
 - [[2026-10-07-talks-why-ai-agents-should-have-their-own-sand|《给AI智能体一间自己的屋子：Google DeepMind谈沙盒环境》]] — 作为概念(提及)
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为概念
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
@@ -297,7 +299,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Google]] · [[Codex]] · [[Lenny]] · [[LLM]] · [[Cursor]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"OpenAI":200,"Claude":97,"Anthropic":203,"Google":71,"Codex":87,"Lenny":69,"LLM":64,"Cursor":86,"护栏":90}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"OpenAI":201,"Claude":97,"Anthropic":203,"Google":72,"Codex":88,"Lenny":69,"LLM":64,"Cursor":86,"护栏":90}</script>
 
 <script>
 (function(){

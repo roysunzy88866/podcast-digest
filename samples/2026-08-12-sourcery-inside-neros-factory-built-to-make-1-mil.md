@@ -108,9 +108,9 @@ jsonLd: |
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck|从废品场零件到月球任务：Sir Peter Beck 带你逛 Rocket Lab]]<span class="pd-rz">同概念:供应链 (supply chain)</span>
 - [[2026-09-03-nopriors-redefining-chip-architecture-with-arm-ce|Arm CEO 谈芯片、AI 与下一个十年的算力格局]]<span class="pd-rz">同概念:供应链 (supply chain)</span>
 - [[2026-09-15-uncapped-uncapped-57--andrew-feldman-from-cerebra|一颗餐盘大的芯片：Cerebras 创始人讲晶圆级豪赌]]<span class="pd-rz">同概念:供应链 (supply chain)</span>
-- [[2026-09-17-talks-databricks-ali-ghodsi-never-wanted-to-be|Databricks CEO Ali:聚焦瓶颈、极度挑剔地招人、押注非共识]]<span class="pd-rz">同概念:瓶颈 (bottleneck)</span>
 
 </div>
 <div class="pd-ex">

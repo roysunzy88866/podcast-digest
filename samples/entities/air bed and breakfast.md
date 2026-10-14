@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ben Horowitz]] · [[Google]] · [[Apple]] · [[a16z]] · [[图灵机]] · [[独立思考]] · [[追随你的激情]] · [[追随你的贡献]] · [[互联网]]
 
-<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"Google":71,"Apple":27,"a16z":21,"图灵机":1,"独立思考":1,"追随你的激情":1,"追随你的贡献":1,"互联网":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Horowitz":7,"Google":72,"Apple":27,"a16z":21,"图灵机":1,"独立思考":1,"追随你的激情":1,"追随你的贡献":1,"互联网":1}</script>
 
 <script>
 (function(){

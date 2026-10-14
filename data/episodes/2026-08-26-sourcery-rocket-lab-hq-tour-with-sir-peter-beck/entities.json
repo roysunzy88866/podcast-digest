@@ -1,0 +1,388 @@
+{
+  "episode_id": "2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck",
+  "podcast": "Sourcery",
+  "date": "2026-08-26",
+  "tags": [
+    "太空创业",
+    "公司史",
+    "航天制造",
+    "融资与资本纪律",
+    "行星探测"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sir-peter-beck",
+      "type": "person",
+      "role": "host",
+      "name": "Sir Peter Beck",
+      "file": "Sir Peter Beck",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            41.924,
+            47.249
+          ],
+          "quote": "We are here today at Rocket Lab in Long Beach with Sir Peter Beck.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rocket-lab",
+      "type": "company",
+      "role": "company",
+      "name": "Rocket Lab",
+      "file": "Rocket Lab",
+      "primary": true,
+      "how_described": "本集主线:2006 年 Peter Beck 在新西兰创办的端到端太空公司,靠「没钱所以必须思考」的哲学,用不到 1 亿美元和 80 人把第一枚火箭送入轨道,如今做发射、卫星制造和航天器部件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            41.924,
+            47.249
+          ],
+          "quote": "We are here today at Rocket Lab in Long Beach with Sir Peter Beck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            51.653,
+            53.655
+          ],
+          "quote": "Well, we'll try and show you a little bit of Rocket Lab.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            166.594,
+            177.02
+          ],
+          "quote": "I mean, I think one of the success stories of Rocket Lab has been, we have this saying, well, it's actually, we stole it from Ernest Rutherford, and that's why the engine is called Rutherford.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            664.197,
+            670.643
+          ],
+          "quote": "So how do you see the evolution of Rocket Lab as we look through this entire timeline and what goes forward?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1261.251,
+            1263.152
+          ],
+          "quote": "So this is a pretty small piece of rocket lab.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "electron",
+      "type": "company",
+      "role": "company",
+      "name": "Electron",
+      "file": "Electron",
+      "primary": true,
+      "how_described": "本集说它是 Rocket Lab 的小型运载火箭,以不到 1 亿美元、80 人团队完成首次入轨,对比 Virgin Orbit 烧掉 12 亿美元破产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            8.716,
+            13.178
+          ],
+          "quote": "The Electron rocket was under $100 million and 80 people put the first rocket into orbit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            390.759,
+            398.346
+          ],
+          "quote": "For example, the Electron rocket, I think it was under $100 million and 80 people put the first rocket into orbit.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neutron",
+      "type": "company",
+      "role": "company",
+      "name": "Neutron",
+      "file": "Neutron",
+      "primary": false,
+      "how_described": "本集提到正在 Middle River 建造的更大火箭。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1268.2,
+            1295.085
+          ],
+          "quote": "Yeah, we have Albuquerque, Tucson, Arizona, and a whole bunch of stuff in Middle River, you know, that's where the Neutron rocket is being built, and then Toronto in Canada, and then Germany, Menarik in Germany, and I'm blanking on a whole bunch, Stennis in Mississippi, so yeah, a whole bunch of places.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nasa",
+      "type": "company",
+      "role": "company",
+      "name": "NASA",
+      "file": "NASA",
+      "primary": true,
+      "how_described": "Beck 说自己因没上过大学、是外国公民进不了 NASA,但后来替它发射载荷、做了登月 Capstone 任务和液氧存储项目 LOCKSAT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.973,
+            7.655
+          ],
+          "quote": "It's a capstone mission to the moon we did for NASA a few years ago that was done out of here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            309.311,
+            313.614
+          ],
+          "quote": "Prior to this, I was a kid sitting in New Zealand dreaming working for NASA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            326.403,
+            331.788
+          ],
+          "quote": "And I never really got to be employed by NASA, but I got to launch their payloads.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            332.108,
+            334.73
+          ],
+          "quote": "And you couldn't be employed by NASA because you didn't go to college, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            938.148,
+            941.811
+          ],
+          "quote": "The Capstone mission to the moon we did for NASA a few years ago, that was done out of here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1313.59,
+            1316.892
+          ],
+          "quote": "Yeah, so this is a project we're doing for NASA called LOCKSAT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1323.615,
+            1334.921
+          ],
+          "quote": "So we're helping NASA figure out how to store liquid oxygen on orbit for very long periods of time, which is super important if you're going, you know, interplanetary and doing long-duration missions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "virgin-orbit",
+      "type": "company",
+      "role": "company",
+      "name": "Virgin Orbit",
+      "file": "Virgin Orbit",
+      "primary": true,
+      "how_described": "本集说它是 Electron 当年最近的竞争对手,由 Richard Branson 资助,最终投入 12 亿美元后仅完成寥寥几次发射便破产——用来论证钱太多反而害死创业公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            398.646,
+            404.731
+          ],
+          "quote": "At the time, our nearest competitor was Virgin Orbit, and that was funded by Sir Richard Branson.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "type": "concept",
+      "role": "concept",
+      "name": "Capstone",
+      "file": "Capstone",
+      "primary": true,
+      "how_described": "本集说它是 Rocket Lab 为 NASA 控制的登月任务、Artemis 计划的第一步,用来验证 Gateway 空间站将使用的一条奇怪轨道是否稳定,如今航天器在约五百万英里外的日心轨道上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.973,
+            7.655
+          ],
+          "quote": "It's a capstone mission to the moon we did for NASA a few years ago that was done out of here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            938.148,
+            941.811
+          ],
+          "quote": "The Capstone mission to the moon we did for NASA a few years ago, that was done out of here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            980.393,
+            983.536
+          ],
+          "quote": "In fact, that's the capstone spacecraft behind us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "artemis",
+      "type": "concept",
+      "role": "concept",
+      "name": "Artemis 计划 (Artemis)",
+      "file": "Artemis 计划",
+      "primary": false,
+      "how_described": "本集提到 Capstone 是 Artemis 计划的第一个部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            968.204,
+            977.051
+          ],
+          "quote": "That mission was actually the very first part of the Artemis program, so we went into a really weird orbit that the Gateway mission was going to go into to prove that that orbit was stable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "venus",
+      "type": "concept",
+      "role": "concept",
+      "name": "金星任务 (Venus)",
+      "file": "金星任务",
+      "primary": true,
+      "how_described": "Beck 的梦想任务:去金星约 50 公里高的独特云层探测生命,因为那里理论上可支撑某种生命,且发现过只来自有机共生关系的磷化氢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 236,
+          "t": [
+            1035.318,
+            1038.201
+          ],
+          "quote": "You have a super special dream mission of Venus, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1055.877,
+            1063.041
+          ],
+          "quote": "And Venus has this really unique cloud layer about 50 kilometers in that in theory can at least support some kind of life.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacecraft-components",
+      "type": "concept",
+      "role": "concept",
+      "name": "航天器部件 (spacecraft components)",
+      "file": "航天器部件",
+      "primary": true,
+      "how_described": "本集说人们只关注火箭,但发射之外的这些小部件同样是巨大护城河——供应链太小太碎,再有钱也没法明天就造 1000 颗卫星,Rocket Lab 靠自产全部关键部件做端到端太空公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            763.202,
+            773.284
+          ],
+          "quote": "But the reality is that launch is a huge moat, but all of these spacecraft components are huge moats as well because it doesn't matter how much capital you've got.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "供应链 (supply chain)",
+      "file": "供应链",
+      "primary": true,
+      "how_described": "本集说航天供应链太小、太零散(fractured),这正是航天业真正的壁垒所在,也是 Rocket Lab 自造零件策略的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            778.305,
+            782.846
+          ],
+          "quote": "It's just not happening because the supply chain is so small and fractured.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            845.38,
+            854.827
+          ],
+          "quote": "You type in an idea like AI-powered supply chain companies with positive free cash flow or defense tech companies growing revenue over 25% year over year.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "reliability",
+      "reason": "专名「reliability」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

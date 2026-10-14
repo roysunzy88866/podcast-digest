@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>87</b> 集 · <b>16</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>88</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -94,13 +94,14 @@ unlisted: true
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(26:36起):本集说他们测过 Codex、Claude Code、Cursor 在电商、社交网络等常见用例上表现几乎一样,90% 场景下不必纠结选哪个
 - **[[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]]**(03:49起):本集说课程深入到 Codex 的 hook 系统来扩展 harness；公司不规定统一工具，Codex 和 Claude 等都可以用。
 - **[[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]]**(13:26起):本集提到思科成为 OpenAI 与 Codex 的首个设计合作伙伴，并与其派驻人员定期复盘。
+- **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(23:30起):OpenAI 的编程产品,本集说 Dot 可以编排(orchestrate)你的 Codex;演示翻车也是因为 Codex 线程没启动。
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(02:00起):本集说 Codex 是 OpenAI 面向程序员和技术人员的编程智能体，由嘉宾两年前加入时带队构建。
 - **[[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]]**(08:06起):本集举例:如果 Codex 替 Harry 创建了 pull request,这段工作的来源和归属就成了不简单的内容溯源设计问题。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
 
-*16 条*
+*17 条*
 
 ![[2026-02-12-lennys-engineers-are-becoming-sorcerers#^q2]]
 
@@ -132,11 +133,13 @@ unlisted: true
 
 ![[2026-10-08-pg-pm-to-product-builder-roadmap#^q7]]
 
+![[2026-10-08-talks-the-hottest-product-manager-in-tech-righ#^q1]]
+
 ![[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu#^q10]]
 
 ## ② 出现在这些集
 
-*87 集*
+*88 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -222,6 +225,7 @@ unlisted: true
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
 - [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]] — 作为概念
 - [[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]] — 作为概念(提及)
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为概念
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
 - [[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
@@ -232,7 +236,7 @@ unlisted: true
 
 [[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[Anthropic]] · [[护栏]] · [[MCP]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"Claude Code":111,"OpenAI":200,"Claude":97,"ChatGPT":111,"Cursor":86,"Anthropic":203,"护栏":90,"MCP":94,"沙箱":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"Claude Code":111,"OpenAI":201,"Claude":97,"ChatGPT":112,"Cursor":86,"Anthropic":203,"护栏":90,"MCP":94,"沙箱":98}</script>
 
 <script>
 (function(){

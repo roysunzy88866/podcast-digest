@@ -58,7 +58,7 @@ unlisted: true
 
 [[MotherDuck]] · [[DuckDB]] · [[BigQuery]] · [[Snowflake]] · [[数据仓库]] · [[智能体]] · [[仪表盘]] · [[DuckDB Labs]] · [[开源]] · [[open core]]
 
-<script type="application/json" class="pd-epn">{"MotherDuck":2,"DuckDB":3,"BigQuery":2,"Snowflake":23,"数据仓库":4,"智能体":499,"仪表盘":3,"DuckDB Labs":1,"开源":41,"open core":1}</script>
+<script type="application/json" class="pd-epn">{"MotherDuck":2,"DuckDB":3,"BigQuery":2,"Snowflake":23,"数据仓库":4,"智能体":501,"仪表盘":3,"DuckDB Labs":1,"开源":41,"open core":1}</script>
 
 <script>
 (function(){

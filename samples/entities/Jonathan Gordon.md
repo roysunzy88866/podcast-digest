@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
+[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":49,"无障碍性":4,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":64}</script>
+<script type="application/json" class="pd-epn">{"ReWeaver AI":1,"设计-代码往返":1,"引导漂移":3,"确定性护栏":1,"vibe coding":50,"无障碍性":4,"技术债务":1,"溯源信息":1,"设计系统":7,"LLM":64}</script>
 
 <script>
 (function(){

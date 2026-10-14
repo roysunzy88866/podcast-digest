@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PM">PM</div><div class="pi"><h1 class="pt">PM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PM">PM</div><div class="pi"><h1 class="pt">PM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(00:00起):本集认为这个传统角色在 AI 时代将毫无意义，因为它做的制定年度路线图的工作被飞速的技术迭代淘汰；其核心技能必须向「懂商业、知道该做什么」的 CEO 角色演变。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(69:01起):Dan 极度看好的未来赢家之一，依靠编码模型，他们能将敏锐的产品直觉直接转化为产品并快速发布，不再需要等工程团队排期来实现自己的想法。
 - **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(00:05起):本集把它说成:一门需要特定手艺的专职岗位,只在真正有特定需求的地方才招,而不是跟工程团队固定配比的「保姆」。Tom 认为如今行业里太多的 PM 沉迷于「推动对齐(推动一致性)」和办公室政治的产品剧场,真正能活下来的是能兼顾宏观思考与微观执行的人。
+- **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(00:00起):本集职业主线:从说服 Adept 为她专设 PM 岗,到面试建议『把市面上产品真用一遍』,再到她认为晋升 60% 靠能见度。
 
 ## ① 提到它的金句
 
@@ -45,19 +46,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
 - [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
+- [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Ramp]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Tom Verrilli]] · [[PayPal]] · [[智能体]] · [[Whatnot]] · [[Square]] · [[Codex]]
+[[Lenny]] · [[Ramp]] · [[智能体]] · [[Codex]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Tom Verrilli]] · [[Holly Li]] · [[PayPal]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Ramp":12,"Keith Rabois":2,"Dan Shipper":2,"Tom Verrilli":1,"PayPal":8,"智能体":499,"Whatnot":4,"Square":5,"Codex":87}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Ramp":12,"智能体":501,"Codex":88,"Keith Rabois":2,"Dan Shipper":2,"Tom Verrilli":1,"Holly Li":1,"PayPal":8,"Claude Code":111}</script>
 
 <script>
 (function(){

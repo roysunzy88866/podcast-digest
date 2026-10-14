@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Liam Dunne":1,"Discover Labs":1,"Reddit":8,"ChatGPT":111,"Google":71,"YouTube":9,"SEO":8,"AEO":5}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"Liam Dunne":1,"Discover Labs":1,"Reddit":8,"ChatGPT":112,"Google":72,"YouTube":9,"SEO":8,"AEO":5}</script>
 
 <script>
 (function(){

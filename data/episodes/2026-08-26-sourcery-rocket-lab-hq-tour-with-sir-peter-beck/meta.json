@@ -1,0 +1,33 @@
+{
+  "id": "2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck",
+  "audio_mp3": "https://anchor.fm/s/f192713c/podcast/play/124751867/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-26%2F430565152-44100-2-f80869e8cdfa8.mp3",
+  "duration_sec": 1485.951,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 350,
+  "asr": true,
+  "title_en": "Rocket Lab HQ Tour with Sir Peter Beck | Factory Tour: Part I",
+  "podcast": "Sourcery",
+  "date": "2026-08-26",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1787736518199-f465e34fac1eb.jpg",
+  "added": "2026-10-14",
+  "added_at": "2026-10-14T13:11:29.841Z",
+  "speaker_map": {
+    "SPEAKER_01": "Sir Peter Beck"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sir Peter Beck",
+  "cohosts": [],
+  "title_zh": "从废品场零件到月球任务：Sir Peter Beck 带你逛 Rocket Lab",
+  "guest_name": "Sir Peter Beck",
+  "guest_title": "Rocket Lab 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/40429063/40429063-1787736518199-f465e34fac1eb.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-14T13:17:24.164Z"
+  }
+}

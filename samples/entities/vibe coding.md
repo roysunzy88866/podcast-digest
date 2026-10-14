@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vibe coding</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>49</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vibe coding">VI</div><div class="pi"><h1 class="pt">vibe coding</h1><div class="byl">概念</div><div class="nums">本站收录 <b>50</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -59,6 +59,7 @@ unlisted: true
 - **[[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|《Vercel CEO：AI 时代，写代码的人要变成什么》]]**(03:08起):本集由 Karpathy 提出的 vibe coding 展开，讨论极端 vibe coding 的安全风险、以及要理解自己背负多少 slop 债。
 - **[[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]]**(54:53起):本集引用 Karpathy 的原始定义（忘记代码存在），并强调嘉宾的方法恰恰相反——代码和环境是一切的核心
 - **[[2026-10-08-mos-building-a-marketplace-from-scratch-with|《从订不到营地，到做出露营界的 Airbnb》]]**(06:32起):本集顺带一提：Alyssa 2013 年去 Dev Bootcamp 学写代码是在 vibe coding 出现之前，如果有 Codex 一切会快得多。
+- **[[2026-10-09-talks-generation-is-cheap-review-is-expensive|《生成很便宜，审阅很贵：别再让 AI 垃圾代码上线了》]]**(16:47起):本集说现在任何人都能一小时 vibecode 出可点击原型,骗局外人以为难的部分已结束;并断言未来不是更快地 vibe coding,而是带判断力的编排。
 
 ## ① 提到它的金句
 
@@ -84,7 +85,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*49 集*
+*50 集*
 
 - [[2025-07-03-lennys-ive-run-75-businesses-andrew-wilkinson|《Andrew Wilkinson：别追咖啡馆，去找没人要的钓鱼洞》]] — 作为概念
 - [[2025-07-06-lennys-the-base44-bootstrapped-startup-success|《一个人六个月做出八千万美元公司》]] — 作为概念
@@ -135,6 +136,7 @@ unlisted: true
 - [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|《Vercel CEO：AI 时代，写代码的人要变成什么》]] — 作为概念
 - [[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]] — 作为概念(提及)
 - [[2026-10-08-mos-building-a-marketplace-from-scratch-with|《从订不到营地，到做出露营界的 Airbnb》]] — 作为概念(提及)
+- [[2026-10-09-talks-generation-is-cheap-review-is-expensive|《生成很便宜，审阅很贵：别再让 AI 垃圾代码上线了》]] — 作为概念
 
 ## ③ 关联
 
@@ -142,7 +144,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[Anthropic]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[ChatGPT]] · [[护栏]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"智能体":499,"Cursor":86,"Anthropic":203,"OpenAI":200,"Lenny":69,"Claude":97,"Claude Code":111,"ChatGPT":111,"护栏":90,"Codex":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":501,"Cursor":86,"Anthropic":203,"OpenAI":201,"Lenny":69,"Claude":97,"Claude Code":111,"ChatGPT":112,"护栏":90,"Codex":88}</script>
 
 <script>
 (function(){

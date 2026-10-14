@@ -1,0 +1,233 @@
+{
+  "title_zh": "生成很便宜，审阅很贵：别再让 AI 垃圾代码上线了",
+  "tldr": "G2i 工程经理 Gabriel Martinez 讲 AI 时代的「代码垃圾」：为什么生成代码越快，人的判断越不能省。",
+  "digest_md": "在一场演讲里，自称垃圾管理员的工程经理 Gabriel Martinez(Gabo)花了十几分钟讲一个让他愤怒的话题：slop——AI 大量生成、但没人真正理解就合并上线的代码。他不是反对 AI,而是反对判断力的缺席。\n\n## slop 到底是什么？\n\nslop 不是AI 写的代码。Gabo 的定义是：思考还没结束，产出看起来就已经完成了。歧义靠猜来解决，取舍靠碰运气，没人真正负责。**产出有了，理解没发生**。\n\n真正的危险不在于机器做了坏选择，而在于工程师根本没意识到有选择要做——没碰到歧义，没感到约束，没发现那个本会改变设计的边界情况。软件是选择的记录，看不到选择就没法拥有它，不拥有它就不是在做工程，只是按合并按钮 [00:51 Gabo]。\n\n## 写代码的成本在降，理解代码的成本没降\n\n他提醒：每一行代码都是负债，最好的代码是不写代码。**AI 让写代码更便宜，但理解一个软件程序的成本没有降**。系统里的主要流程、边界、数据模型、产品行为，还是得有人懂。\n\n一个已经很乱的系统，AI 不会救你，只会把这团泥球滚得更大更快。\n\n## 一小时做出来的原型，骗了所有局外人\n\n现在任何人都能一小时凭感觉编程出一个可点击的原型。问题在于，不住在代码库里的人——老板、产品、客户——会把它当成「难的部分已经做完了」的证据。**他们看不到的是最后一公里**：读代码、测行为、承担取舍、发现遗漏的需求、判断这东西配不配进系统 [06:32 Gabo]。SQLite 的创造者说过，别人提交的代码不是免费的，那是要求你替他测试、文档、维护 25 年。\n\n## 生成便宜，评估昂贵\n\n这是全场最核心的一句：「Generation is cheap, but evaluation is expensive」——生成很便宜，评估很贵 [10:19 Gabo]。如果 AI 产出的东西多到人评不过来，它就不是在加速团队，而是在制造瓶颈。\n\n他见过最平庸的例子：给 10 条要点，拿回来 20 页文档，文辞漂亮，但你得花几小时判断里面有没有真正的思考。模糊的任务变成巨大的代码变更，真正的工作只是被转移给了审阅者。\n\n## 慢的人看起来在输，其实在赢\n\n坏工程师不抠细节、不细化规格，产出反而更快；认真的人显得慢。这种焦虑会传染——Gabo 坦言自己也曾因为周围人合并得太快，放弃了平时的审查细致度。激励机制只奖励把代码合进去，就会出事。奖励应该围绕产出价值、优雅务实的设计、清晰的测试。\n\n## 60 年的软件智慧并没有被 AI 作废\n\n可组合的代码、好的模式、扎实的实践依然重要。AI 能把机器码到 Ruby 一路的抽象再推一层，但不能取消「理解系统如何组装在一起」的需要。\n\n他的解法是压缩审阅面：画图不是装饰性文档，而是让人能看懂系统的形状——服务边界、数据流、状态转换、失败模式；主流程做成可审阅的表面，实现细节推到叶子。认知开销是每个工程师改代码前都要交的税，AI 不免税，还会加重它——除非有约定管着。\n\n## 约定越死，AI 越好用\n\nRails 是他心中的标杆：框架用约定激进地砍掉决策面，一件事只有一种正确做法。他离开 Rails 4 年后回来，发现事实标准还是那些模式，立刻就能上手。这种只有一条路的环境特别适合 AI 开发，因为 agent 不会被几十种竞争方案搞糊涂。答案就是：约定、标准、写清楚的流程、小的可审阅单元、清晰的完成定义。**路越明显，slop 越无处藏身** [14:07 Gabo]。\n\n他们团队把这些经验做成了 ORC:不是用更多 agent 解决问题，更不是把工程判断自动化掉，而是把拆任务、管上下文、对比方案这些反复出现的人肉流程固化进工作流。目标不是更快地凭感觉编程，而是带着判断的编排。\n\n## 本集带走\n\n- slop 的本质是思考没做完、产出看起来已完成；危险在于工程师没意识到有选择要做。\n- 生成便宜、评估昂贵：AI 产出超过人的评估能力时，就变成瓶颈而非加速。\n- 代码行数永远是垃圾指标，烧 token 多少同样不代表产出——60 年的软件智慧没被 AI 作废。\n- 原型速成会骗住局外人，让他们以为难的部分已经结束；真正的工作在最后一公里。\n- 死板约定 + 小审阅面 + 清晰图示，是对抗 slop、也更适合 agent 的工程方式。",
+  "quotes": [
+    {
+      "en": "Slop is what happens when generation outruns judgment.",
+      "zh": "Slop 就是生成速度超过判断速度时产生的结果。",
+      "timestamp": "00:41",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "Slop is output that looks finished before the thinking is finished.",
+      "zh": "Slop 是那种在思考还没完成之前就看起来已经完工的产出。",
+      "timestamp": "00:55",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "The danger is that the engineer never noticed that there was a choice to make.",
+      "zh": "危险在于工程师从未意识到那里原本存在一个需要做的选择。",
+      "timestamp": "01:16",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "But software is a record of choices, technical choices, product choices, operational choices, user-facing choices.",
+      "zh": "但软件就是一份选择记录——技术选择、产品选择、运维选择、面向用户的选择。",
+      "timestamp": "01:35",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "And if we do not own them, we are not really engineering.",
+      "zh": "而如果我们不为它们负责，我们就不是在真正地做工程。",
+      "timestamp": "01:46",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "In a world where anything is possible, deciding what to build is more important than ever.",
+      "zh": "在一个一切皆有可能的世界里，决定构建什么比以往任何时候都更重要。",
+      "timestamp": "02:56",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "The cost of creating code is falling, but the cost of understanding a software program is not.",
+      "zh": "创建代码的成本在下降，但理解一个软件程序的成本并没有。",
+      "timestamp": "03:13",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "AI can generate code, but it cannot magically give a messy system coherence.",
+      "zh": "AI 可以生成代码，但它无法神奇地给一个混乱的系统带来连贯性。",
+      "timestamp": "03:49",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "But if the system is already a big ball of mud, the agent does not rescue you from the mud.",
+      "zh": "但如果系统已经是一团泥球，智能体并不能把你从泥潭中拯救出来。",
+      "timestamp": "04:01",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "But the problem is that stakeholders that do not live in the codebase often experience that prototype as evidence that the hard part is over.",
+      "zh": "但问题在于，不生活在代码库里的利益相关者常常把那个原型体验为「难的部分已经结束了」的证据。",
+      "timestamp": "05:59",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "They're not at all thinking about the most time-consuming bits, the human parts, the last mile, where the judgment lives.",
+      "zh": "他们完全没想到最耗时的部分，也就是人的部分、最后一公里，判断力所在的地方。",
+      "timestamp": "06:32",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "And if incentives are driving people to get PRs in, then we're going to be in for a rude awakening.",
+      "zh": "如果激励驱使人们尽快提交 PR,那我们迟早会遭到残酷的清醒。",
+      "timestamp": "08:29",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "There's no way in hell that a human can fully understand all the important bits of a change that big.",
+      "zh": "人类根本不可能完全理解这么大的改动中所有重要的部分。",
+      "timestamp": "08:51",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "Generation is cheap, but evaluation is expensive.",
+      "zh": "生成是便宜的，但评估是昂贵的。",
+      "timestamp": "10:19",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "60 years of software wisdom hasn't been invalidated by AI.",
+      "zh": "60 年的软件智慧并没有被 AI 作废。",
+      "timestamp": "11:28",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "Cognitive overhead is a tax every engineer has to pay before they can make a meaningful change.",
+      "zh": "认知开销是每个工程师在做出有意义的改动之前都必须支付的一笔税。",
+      "timestamp": "13:23",
+      "speaker": "Gabriel Martinez"
+    },
+    {
+      "en": "The future is orchestration with judgment.",
+      "zh": "未来是带有判断力的编排。",
+      "timestamp": "16:51",
+      "speaker": "Gabriel Martinez"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:41",
+      "speaker": "Unknown",
+      "en": "Slop is what happens when generation outruns judgment.",
+      "zh": "Slop 就是生成速度超过判断速度时产生的结果。"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Unknown",
+      "en": "Slop is output that looks finished before the thinking is finished.",
+      "zh": "Slop 是那种在思考还没完成之前就看起来已经完工的产出。"
+    },
+    {
+      "timestamp": "01:16",
+      "speaker": "Unknown",
+      "en": "The danger is that the engineer never noticed that there was a choice to make.",
+      "zh": "危险在于工程师从未意识到那里原本存在一个需要做的选择。"
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Unknown",
+      "en": "But software is a record of choices, technical choices, product choices, operational choices, user-facing choices.",
+      "zh": "但软件就是一份选择记录——技术选择、产品选择、运维选择、面向用户的选择。"
+    },
+    {
+      "timestamp": "01:46",
+      "speaker": "Unknown",
+      "en": "And if we do not own them, we are not really engineering.",
+      "zh": "而如果我们不为它们负责，我们就不是在真正地做工程。"
+    },
+    {
+      "timestamp": "02:56",
+      "speaker": "Unknown",
+      "en": "In a world where anything is possible, deciding what to build is more important than ever.",
+      "zh": "在一个一切皆有可能的世界里，决定构建什么比以往任何时候都更重要。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Unknown",
+      "en": "The cost of creating code is falling, but the cost of understanding a software program is not.",
+      "zh": "创建代码的成本在下降，但理解一个软件程序的成本并没有。"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Unknown",
+      "en": "AI can generate code, but it cannot magically give a messy system coherence.",
+      "zh": "AI 可以生成代码，但它无法神奇地给一个混乱的系统带来连贯性。"
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Unknown",
+      "en": "But if the system is already a big ball of mud, the agent does not rescue you from the mud.",
+      "zh": "但如果系统已经是一团泥球，智能体并不能把你从泥潭中拯救出来。"
+    },
+    {
+      "timestamp": "04:20",
+      "speaker": "Unknown",
+      "en": "It is the cost of building.",
+      "zh": "这是构建的成本。"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Unknown",
+      "en": "But the problem is that stakeholders that do not live in the codebase often experience that prototype as evidence that the hard part is over.",
+      "zh": "但问题在于，不生活在代码库里的利益相关者常常把那个原型体验为「难的部分已经结束了」的证据。"
+    },
+    {
+      "timestamp": "06:32",
+      "speaker": "Unknown",
+      "en": "They're not at all thinking about the most time-consuming bits, the human parts, the last mile, where the judgment lives.",
+      "zh": "他们完全没想到最耗时的部分，也就是人的部分、最后一公里，判断力所在的地方。"
+    },
+    {
+      "timestamp": "07:28",
+      "speaker": "Unknown",
+      "en": "So external pressures from stakeholders coupled with pressures of competing with slopmeisters begets mucho slopo.",
+      "zh": "于是，来自利益相关者的外部压力，再加上与 slop 高手竞争的压力，催生出海量的 slop。"
+    },
+    {
+      "timestamp": "08:29",
+      "speaker": "Unknown",
+      "en": "And if incentives are driving people to get PRs in, then we're going to be in for a rude awakening.",
+      "zh": "如果激励驱使人们尽快提交 PR,那我们迟早会遭到残酷的清醒。"
+    },
+    {
+      "timestamp": "08:51",
+      "speaker": "Unknown",
+      "en": "There's no way in hell that a human can fully understand all the important bits of a change that big.",
+      "zh": "人类根本不可能完全理解这么大的改动中所有重要的部分。"
+    },
+    {
+      "timestamp": "10:19",
+      "speaker": "Unknown",
+      "en": "Generation is cheap, but evaluation is expensive.",
+      "zh": "生成是便宜的，但评估是昂贵的。"
+    },
+    {
+      "timestamp": "10:28",
+      "speaker": "Unknown",
+      "en": "It has created a bottleneck.",
+      "zh": "它制造了一个瓶颈。"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Unknown",
+      "en": "60 years of software wisdom hasn't been invalidated by AI.",
+      "zh": "60 年的软件智慧并没有被 AI 作废。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Unknown",
+      "en": "Cognitive overhead is a tax every engineer has to pay before they can make a meaningful change.",
+      "zh": "认知开销是每个工程师在做出有意义的改动之前都必须支付的一笔税。"
+    },
+    {
+      "timestamp": "16:51",
+      "speaker": "Unknown",
+      "en": "The future is orchestration with judgment.",
+      "zh": "未来是带有判断力的编排。"
+    }
+  ],
+  "voice_script": "今天的主角是一位工程经理,Gabriel Martinez,朋友们都叫他 Gabo。他在一场演讲里自称垃圾管理员,花了十几分钟讲一个让他很愤怒的话题。注意,垃圾管理员不是白叫的——要管的,就是现在越来越多出现在代码库里的那种东西,行话叫 slop。\n\n那 slop 到底是什么?先把话说明白:slop 不是 AI 写的代码。Gabo 的定义是,思考还没结束,产出看起来就已经完成了。歧义靠猜来解决,取舍靠碰运气,没人真正负责。一句话,产出有了,理解没发生。\n\n你可能会想,这有什么大不了,AI 写的代码看着不都挺像样吗?危险恰恰在这儿。真正的问题不是机器做了坏选择,而是工程师根本没意识到有选择要做——没碰到歧义,没感到约束,没发现那个本会改变设计的边界情况。软件说白了就是一份选择的记录,技术选择、产品选择、运维选择。看不到选择,就没法拥有它;不拥有它,那就不是在做工程,只是在按合并按钮。\n\n这就引出一个更基本的事实:写代码的成本在降,但理解代码的成本没降。每一行代码都是负债,最好的代码是不写代码。AI 让写代码更便宜了,可一个系统里的主要流程、边界、数据模型、产品行为,还是得有人真懂。一个已经很乱的系统,AI 不会救你,只会把这团泥球滚得更大、更快。\n\n那为什么这种事还在不断发生?因为有一种错觉在帮忙打掩护。现在任何人都能一个小时凭感觉编程,弄出一个可点击的原型。问题在于,不住在代码库里的人——老板、产品、客户——会把这当成\"难的部分已经做完了\"的证据。看不到的是最后一公里:读代码、测行为、承担取舍、发现遗漏的需求、判断这东西配不配进系统。SQLite 的创造者说过一句话,别人提交的代码不是免费的,那是要求你替他测试、写文档、维护二十五年。\n\n于是就有了全场最核心的一句:生成很便宜,评估很贵。如果 AI 产出的东西多到人评不过来,它就不是在加速团队,而是在制造瓶颈。Gabo 见过最平庸的例子:给十条要点,拿回来二十页文档,文辞漂亮,但你得花几个小时判断里面到底有没有真正的思考。模糊的任务变成巨大的代码变更,真正的工作只是被转移给了审阅者。\n\n更麻烦的是,这件事会扭曲激励。坏工程师不抠细节、不细化规格,产出反而更快;认真的人显得慢。这种焦虑会传染——Gabo 坦言,自己也曾因为周围人合并得太快,放弃了平时的审查细致度。只奖励把代码合进去,就会出事。奖励应该围绕产出价值、优雅务实的设计、清晰的测试。\n\n说到这儿你可能要问:那老一套还有用吗?Gabo 的答案是,六十年的软件智慧并没有被 AI 作废。可组合的代码、好的模式、扎实的实践依然重要。AI 能把机器码到 Ruby 一路的抽象再推一层,但不能取消\"理解系统如何组装在一起\"的需要。\n\n具体的解法是压缩审阅面。画图不是装饰性文档,而是让人能看懂系统的形状——服务边界、数据流、状态转换、失败模式;把主流程做成可审阅的表面,实现细节推到叶子上去。认知开销是每个工程师改代码前都要交的税,AI 不免税,还会加重它,除非有约定管着。\n\n而约定,恰恰是 slop 的天敌。Rails 是 Gabo 心中的标杆:框架用约定激进地砍掉决策面,一件事只有一种正确做法。离开 Rails 四年后回来,发现事实标准还是那些模式,立刻就能上手。这种只有一条路的环境特别适合 AI 开发,因为 agent 不会被几十种竞争方案搞糊涂。答案就是:约定、标准、写清楚的流程、小的可审阅单元、清晰的完成定义。路越明显,slop 越无处藏身。\n\nGabo 的团队把这些经验做成了 ORC。不是用更多 agent 解决问题,更不是把工程判断自动化掉,而是把拆任务、管上下文、对比方案这些反复出现的人肉流程,固化进工作流。目标不是更快地凭感觉编程,而是带着判断的编排。\n\n最后留一句话带走:slop 就是生成速度超过判断速度时产生的结果。在一个一切皆有可能的世界里,决定构建什么,比以往任何时候都更重要。"
+}

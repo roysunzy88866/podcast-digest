@@ -39,7 +39,7 @@ unlisted: true
 
 [[OpenAI]] · [[Codex]] · [[ChatGPT]] · [[智能体]] · [[Tara Seshan]] · [[Dot]] · [[Kath Korevec]] · [[Lenny]] · [[Spaces]] · [[连接器]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":200,"Codex":87,"ChatGPT":111,"智能体":499,"Tara Seshan":1,"Dot":2,"Kath Korevec":1,"Lenny":69,"Spaces":1,"连接器":3}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":201,"Codex":88,"ChatGPT":112,"智能体":501,"Tara Seshan":1,"Dot":2,"Kath Korevec":1,"Lenny":69,"Spaces":2,"连接器":3}</script>
 
 <script>
 (function(){

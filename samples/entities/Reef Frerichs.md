@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]]
+[[Ankit Shukla]] [[Holly Li]] [[Claude Shee]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]]
 
 </div>
 

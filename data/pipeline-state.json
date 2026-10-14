@@ -268,7 +268,9 @@
     "hZxmbhsbvyw": "2026-10-08-talks-luca-ferrari-the-operating-system-behind",
     "k2ClBT4aqAg": "2026-10-08-talks-we-mapped-115-microservices-for-our-codi",
     "ofxAtQhV-xA": "2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl",
-    "3wj6sgbi1YA": "2026-10-09-talks-designing-clis-for-agents-not-humans-ped"
+    "3wj6sgbi1YA": "2026-10-09-talks-designing-clis-for-agents-not-humans-ped",
+    "lnLWRJ2p_Mg": "2026-10-08-talks-the-hottest-product-manager-in-tech-righ",
+    "6qkzlT962es": "2026-10-09-talks-generation-is-cheap-review-is-expensive"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -285,7 +287,8 @@
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
+    "2026-10-09-talks-building-on-the-codex-harness-dominik-ku": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -381,7 +384,9 @@
     "2026-08-30-a16z-why-a16z-launched-the-machine-age-fund-j": "2026-10-13",
     "2026-09-09-beyondcoding-why-an-ex-googler-bet-everything-on-an-o": "2026-10-13",
     "2026-09-25-twist-a-rogue-openai-agent-hacked-australia-s": "2026-10-13",
-    "2026-09-22-sed-scaling-time-series-workloads-on-postgre": "2026-10-14"
+    "2026-09-22-sed-scaling-time-series-workloads-on-postgre": "2026-10-14",
+    "2026-08-28-sourcery-inside-rocket-lab-how-sir-peter-beck-is": "2026-10-14",
+    "2026-08-26-sourcery-rocket-lab-hq-tour-with-sir-peter-beck": "2026-10-14"
   },
   "cgcAlign": {
     "6ac8b044e742e36efcc059c2": {
@@ -555,7 +560,7 @@
     "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
     "twentyvc": "2026-10-12T07:07:00.000Z",
-    "cogrev": "2026-10-10T10:47:14.000Z",
+    "cogrev": "2026-10-14T07:50:16.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-07T17:19:58.000Z",
     "practicalai": "2026-10-08T09:00:00.000Z",
@@ -1550,6 +1555,18 @@
       "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
       "title": "Alex Kantrowitz on OpenAI, Nvidia & What Could Derail the AI Boom",
       "pubDate": "2026-10-13T22:06:35.000Z"
+    },
+    {
+      "id": "2026-10-14-cogrev-governing-ai-agents-alan-chan-of-govai-o",
+      "reason": "超长集:估 274 分 > 单班预算 280 分(永远放不进一班;等官方稿/人工点名,删账本条目可重放)",
+      "title": "Governing AI Agents: Alan Chan of GovAI on Monitoring, Agent IDs, Rogue Agents & Preparing for RSI",
+      "pubDate": "2026-10-14T07:50:16.000Z"
+    },
+    {
+      "id": "2026-08-28-sourcery-inside-rocket-lab-how-sir-peter-beck-is",
+      "reason": "题材不对味:传统航天(造火箭)属非 AI/科技的泛话题",
+      "title": "Inside Rocket Lab: How Sir Peter Beck Is Building Neutron’s Engines | Tour 02",
+      "pubDate": "2026-08-28T10:00:01.000Z"
     }
   ]
 }

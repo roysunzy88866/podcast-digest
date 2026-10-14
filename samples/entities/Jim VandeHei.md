@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":8,"Axios":1,"OpenAI":200,"ChatGPT":111,"Claude":97,"Google":71,"Anthropic":203,"智能体":499,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Axios":1,"OpenAI":201,"ChatGPT":112,"Claude":97,"Google":72,"Anthropic":203,"智能体":501,"认知疲劳":1}</script>
 
 <script>
 (function(){

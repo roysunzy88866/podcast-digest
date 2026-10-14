@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Reef Frerichs]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]]
+[[Ankit Shukla]] [[Reef Frerichs]] [[Holly Li]] [[Claude Shee]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Molly Graham]] [[Codie Sanchez]] [[Eli Wallen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Webflow":2,"Slack":34,"Box":5,"智能体":499,"护栏":90,"产品市场契合":31}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Webflow":2,"Slack":34,"Box":5,"智能体":501,"护栏":90,"产品市场契合":31}</script>
 
 <script>
 (function(){

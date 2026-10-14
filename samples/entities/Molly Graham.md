@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ankit Shukla]] [[Reef Frerichs]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]] [[Jim VandeHei]] [[Adam Ward]]
+[[Ankit Shukla]] [[Reef Frerichs]] [[Holly Li]] [[Claude Shee]] [[Andrew Huberman]] [[Cory Doctorow]] [[Adam Neumann]] [[Codie Sanchez]] [[Eli Wallen]] [[Goggin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"送出你的乐高":1,"AI":34,"智能体":499,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"送出你的乐高":1,"AI":34,"智能体":501,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
 
 <script>
 (function(){

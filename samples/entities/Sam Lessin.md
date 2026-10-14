@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Airbnb":14,"Facebook":17,"YC":17,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":49}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Airbnb":14,"Facebook":17,"YC":17,"礼仪":1,"富足心态":1,"低心率":1,"EA":1,"vibe coding":50}</script>
 
 <script>
 (function(){

@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-talks-generation-is-cheap-review-is-expensive",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/6qkzlT962es.m4a",
+  "duration_sec": 1028.835,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 190,
+  "asr": true,
+  "title_en": "Generation Is Cheap, Review Is Expensive: How to Stop Shipping AI Slop — Gabriel Martinez, G2i",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "added": "2026-10-14",
+  "added_at": "2026-10-14T12:03:17.141Z",
+  "speaker_map": {
+    "SPEAKER_00": "Gabriel Martinez"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Gabriel Martinez"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "生成很便宜，审阅很贵：别再让 AI 垃圾代码上线了",
+  "guest_name": "Gabriel Martinez",
+  "guest_title": "G2i 工程经理",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

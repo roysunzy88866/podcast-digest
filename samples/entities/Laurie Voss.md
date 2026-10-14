@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]] [[Doug Guthrie]]
+[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"代码审查":24,"智能体":499,"提示词注入":1,"基准测试":2,"误报":2,"GitHub":35,"Cursor":86,"OpenAI":200,"Anthropic":203,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"代码审查":24,"智能体":501,"提示词注入":1,"基准测试":2,"误报":2,"GitHub":35,"Cursor":86,"OpenAI":201,"Anthropic":203,"Cognition":27}</script>
 
 <script>
 (function(){
