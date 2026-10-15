@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 

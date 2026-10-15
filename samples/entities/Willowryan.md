@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":21,"SpaceX":21,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"a16z":21,"SpaceX":22,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
 
 <script>
 (function(){

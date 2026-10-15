@@ -167,9 +167,9 @@ JPMorgan Chase 则在内部围绕模型定制框架，服务于他们的 Jarvis 
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同公司:LangChain、LangGraph、LangSmith · 同概念:harness(执行框架) (harness)、智能体 (agent)、评估 (evals)、沙箱 (sandbox)、记忆 (memory)</span>
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:DeepAgents、LangChain · 同概念:harness(执行框架) (harness)、可观测性 (observability)、智能体 (agent)、评估 (evals)、微调 (fine-tuning)</span>
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:可观测性 (observability)、智能体 (agent)、追踪记录 (trace)、记忆 (memory)、评估 (evals)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:harness(执行框架) (harness)、后训练 (post-training)、护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

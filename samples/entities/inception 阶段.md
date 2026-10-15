@@ -37,7 +37,7 @@ unlisted: true
 
 [[推理]] · [[Navin Chaddha]] · [[Stefano Ermon]] · [[Lumilens]] · [[Mercury]] · [[Mayfield]] · [[扩散]] · [[Anthropic]] · [[自回归模型]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"推理":101,"Navin Chaddha":1,"Stefano Ermon":1,"Lumilens":1,"Mercury":5,"Mayfield":1,"扩散":2,"Anthropic":204,"自回归模型":1,"OpenAI":203}</script>
+<script type="application/json" class="pd-epn">{"推理":101,"Navin Chaddha":1,"Stefano Ermon":1,"Lumilens":1,"Mercury":5,"Mayfield":1,"扩散":2,"Anthropic":205,"自回归模型":1,"OpenAI":204}</script>
 
 <script>
 (function(){

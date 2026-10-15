@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SpaceX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>21</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -32,10 +32,11 @@ unlisted: true
 - **[[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]]**(05:21起):本集提到 SpaceX IPO 的巨大成功催生了一代想在太空创业的创始人。
 - **[[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]]**(62:14起):本集称 SpaceX 是当今最伟大的公司：宣布让 Falcon 9 退役、全力转向 Starship，是科尔蒂斯级「烧掉船只」、彻底打破创新者窘境的文化，并公开十年计划且说到做到。
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(01:56起):本集说投 SpaceX 时 Starlink 连 GA 都没发布，如今成为最好的业务板块之一，佐证「创始人会搞出下一件事」。
+- **[[2026-10-14-sourcery-thrive-capitals-bet-on-neuralink--openai|《投了 OpenAI 和 Neuralink 的人，怎么看医疗的未来》]]**(01:07起):本集用来对比 Neuralink——嘉宾认为 Neuralink 比它更有意思,同时说 Neuralink 硬件团队是 SpaceX、Tesla 水准
 
 ## ① 提到它的金句
 
-*3 条*
+*4 条*
 
 ![[2026-09-08-generalist-an-ex-spacex-engineer-on-elon-musk--star#^q2]]
 
@@ -43,9 +44,11 @@ unlisted: true
 
 ![[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is#^q16]]
 
+![[2026-10-14-sourcery-thrive-capitals-bet-on-neuralink--openai#^q3]]
+
 ## ② 出现在这些集
 
-*21 集*
+*22 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
@@ -68,6 +71,7 @@ unlisted: true
 - [[2026-09-18-yc-the-state-of-startups-in-2026-e3p1rf0|《硬科技复兴、智能体营收与单人创始人：YC 最前沿观察》]] — 作为被讨论公司(提及)
 - [[2026-09-20-lennys-90-minutes-of-unfiltered-product|《把团队设计成「恐怖组织」：Snap 首位产品经理的反直觉产品课》]] — 作为被讨论公司
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司
+- [[2026-10-14-sourcery-thrive-capitals-bet-on-neuralink--openai|《投了 OpenAI 和 Neuralink 的人，怎么看医疗的未来》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -75,7 +79,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[NVIDIA]] · [[Cursor]] · [[Stripe]] · [[智能体]] · [[Microsoft]] · [[Meta]] · [[推理]] · [[Harry Stebbings]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":203,"Anthropic":204,"NVIDIA":71,"Cursor":87,"Stripe":48,"智能体":1,"Microsoft":32,"Meta":55,"推理":101,"Harry Stebbings":21}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":204,"Anthropic":205,"NVIDIA":71,"Cursor":87,"Stripe":49,"智能体":1,"Microsoft":32,"Meta":55,"推理":101,"Harry Stebbings":21}</script>
 
 <script>
 (function(){

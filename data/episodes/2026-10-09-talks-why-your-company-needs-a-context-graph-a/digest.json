@@ -1,0 +1,143 @@
+{
+  "title_zh": "给公司装一个“大脑”：为什么你需要上下文图谱",
+  "tldr": "Merge 联合创始人兼首席技术官 Gil Feig 讲解什么是上下文图谱、为什么光接几个工具接口不够，以及怎么搭建公司级人工智能的数据底座。",
+  "digest_md": "Gil Feig 是 Merge 的联合创始人和首席技术官。Merge 服务超过 400 家企业客户，包括 OpenAI、Netflix、Ramp 和 Perplexity。在这次演讲里，他讲了一个很多公司在做人工智能时会踩的坑：以为给智能体接上几个系统接口就万事大吉了。真正需要的是一层完整的“上下文图谱”——相当于公司的共享大脑。\n\n## 光靠实时查接口，为什么答不了简单问题？\n\n他举了个例子。员工问智能体：客户 A 上周为什么不高兴？这好办，智能体查一下 Zendesk 的工单就有答案了。\n\n但问题换成“哪些客户上周不高兴”，难度陡增。智能体得把上周所有工单翻一遍。如果换成“过去一年哪些客户不高兴”，实时查询根本做不到——每次只能拉一小批数据，翻到超时也翻不完 [04:15 Unknown]。\n\nFeig 解释说，这不是技术不行，而是底层激励不对。没有哪家平台愿意提供一个能用自然语言直接查询的接口，因为把数据向量化要花钱，而且方便了你就意味着你更少去用他们的产品 [04:38 Unknown]。\n\n所以结论是：**凡是需要语义查询、跨大量数据做分析的场景，必须在本地同步一份数据副本**。只有简单的单点查询和操作——比如在 Stripe 里查某个客户、做一笔操作——才适合实时接口。\n\n## 上下文分四层，各有各的用处\n\nFeig 把上下文图谱里的东西分成几类。\n\n最上面是提示词、技能和记忆。技能是关键：每个公司对“客户不高兴”的定义不一样。有的看工单数量，有的公司习惯先看 Qualtrics 的问卷数据。“怎么判断客户满不满意”这件事本身，就是一个应该沉淀下来的技能 [07:25 Unknown]。\n\n然后是实时接口调用。搭建容易、运行便宜，适合简单查询。\n\n第三类是同步缓存的数据，存在本地向量数据库里。这是回答复杂问题的必需品，但搭建更复杂、运行更贵，数据保鲜也难。\n\n第四类是衍生上下文：拉数据的同时顺手做总结存下来，下次再遇到同样的问题就不用重新查、重新总结了。\n\n## 一次查询进来，大脑是怎么运转的？\n\n整个流程像一条流水线。提示词进来，先由路由器判断该交给谁处理。接着查有没有匹配的技能或记忆，有就先执行。\n\n技能需要外部数据的话，先看本地缓存——数据够不够新鲜、有没有超过约定时限？新鲜就用缓存，不新鲜就退回实时接口。凑够上下文后，把新发现存进记忆，总结好，发回去 [10:09 Unknown]。\n\nFeig 强调这里面没有魔法，全是取舍的算术。一个实际例子：给客户 Acme 写一段状态汇报，包含续约风险和最近一次客服互动。流程是查缓存的客户摘要，缺失就实时调 CRM，再查工单系统——但只拉 5 条工单，不拉全量历史，因为实时查询会超时 [13:17 Unknown]。\n\n## 数据从哪来的，永远别弄丢\n\n最后一块是可追溯性。Feig 说这 upfront 看着不重要，但千万别丢掉数据的来源信息：从哪取的、什么时候取的、用什么权限、谁访问过、有没有被转换过、原始样子是什么 [12:15 Unknown]。\n\nChatGPT 回答完附上来源链接，大家习惯了。但企业场景更严格：当业务决策建立在这份数据上，当数据会过时、会被基于一年前的同步内容做决定，你必须知道它的来历。他还提醒：数据过期多久应该作废，也要定好规则，比如超过一个月就不再采信。\n\n## 三个要点值得记住\n\n第一，**工具不等于上下文**。上下文图谱是数据、同步的副本、公司的流程和技能加在一起的东西，不只是接了哪些工具 [13:33 Unknown]。\n\n第二，数据多不等于好。要的是新鲜、高质量、按需拉取，同步进来的数据要结构化得当。\n\n第三，每个答案都要能追溯。否则哪天人工智能做了个糟糕的决定，你连原因都查不出来。\n\n## 本集带走\n\n- 实时接口只够简单查询，语义分析和跨数据集的问题必须在本地同步数据副本\n- 上下文分四层：技能与记忆、实时调用、同步缓存、衍生总结，混合使用\n- “怎么判断客户满不满意”这类公司特有的流程，应该沉淀成智能体的技能\n- 每条数据都要保留来源、时间、权限等元信息，过期数据要定作废规则\n- 工具不等于上下文，公司的数据、流程和技能共同构成大脑",
+  "quotes": [
+    {
+      "en": "The reason is that getting context is actually a set of company principles and processes in and of itself.",
+      "zh": "原因在于，获取上下文本身就是一套公司原则和流程。",
+      "timestamp": "06:52",
+      "speaker": "Gil Feig"
+    },
+    {
+      "en": "More data, not always better.",
+      "zh": "数据越多，不一定越好。",
+      "timestamp": "13:58",
+      "speaker": "Gil Feig"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:20",
+      "speaker": "Gil Feig",
+      "en": "We're going to use this example to guide why it's not enough to just connect a single MCP server or a couple MCP servers and call it a day.",
+      "zh": "我们将用这个例子来说明，为什么仅仅连接一个 MCP 服务器或几个 MCP 服务器就完事是不够的。"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Gil Feig",
+      "en": "So MCP is not fully solving a lot of these problems because the underlying access patterns of the APIs of these other platforms don't support a live lookup methodology.",
+      "zh": "所以 MCP 并没有完全解决这些问题，因为这些其他平台的 API 底层访问模式并不支持实时查询的方法论。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Gil Feig",
+      "en": "If you could ask your ticketing system something semantically, if Jira exposed an endpoint that said, you know, that you could query in English which customers were upset last week and it returned that data, that would be great, but no platform's incentivized to do that because it costs them money to vectorize it and",
+      "zh": "如果你可以用语义化的方式问你的工单系统，如果 Jira 暴露了一个接口，可以用英文查询上周哪些客户不高兴并返回这些数据，那就太好了，但没有任何平台有动力这么做，因为向量化要花钱，而且"
+    },
+    {
+      "timestamp": "04:54",
+      "speaker": "Gil Feig",
+      "en": "It makes it so you don't have to visit their platform as often.",
+      "zh": "这会让你不那么频繁地访问他们的平台。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Gil Feig",
+      "en": "You can't just use MCP to live lookup for things that you want to go deeper into, that you want to semantically question.",
+      "zh": "对于那些你想深入、想进行语义化提问的东西，你不能只用 MCP 做实时查询。"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Gil Feig",
+      "en": "This doesn't apply to everything.",
+      "zh": "这并不适用于所有东西。"
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Gil Feig",
+      "en": "But if you need any form of semantic lookups, any form of analysis that is beyond a simple lookup, simple question, but requires looking across a vast data set, you have to sync a copy.",
+      "zh": "但如果你需要任何形式的语义查询，任何超越简单查询、简单提问的分析，需要跨越庞大数据集的分析，你就必须同步一份副本。"
+    },
+    {
+      "timestamp": "06:52",
+      "speaker": "Gil Feig",
+      "en": "The reason is that getting context is actually a set of company principles and processes in and of itself.",
+      "zh": "原因在于，获取上下文本身就是一套公司原则和流程。"
+    },
+    {
+      "timestamp": "07:00",
+      "speaker": "Gil Feig",
+      "en": "For example, which customer was upset last week can mean something very different to one company versus another.",
+      "zh": "比如，“上周哪个客户不满意了”这个问题，对不同公司来说含义可能截然不同。"
+    },
+    {
+      "timestamp": "07:20",
+      "speaker": "Gil Feig",
+      "en": "That's why skills are important because you need skills like how do we determine if a customer is happy?",
+      "zh": "这就是 skills 重要的原因，因为你需要诸如“我们如何判断一个客户是否满意？”这样的 skills。"
+    },
+    {
+      "timestamp": "07:57",
+      "speaker": "Gil Feig",
+      "en": "There's no magic here.",
+      "zh": "这里没有什么魔法。"
+    },
+    {
+      "timestamp": "07:59",
+      "speaker": "Gil Feig",
+      "en": "It's all physics.",
+      "zh": "全是物理规律。"
+    },
+    {
+      "timestamp": "08:55",
+      "speaker": "Gil Feig",
+      "en": "They're cheaper to run than synced context.",
+      "zh": "它们比同步上下文的运行成本更低。"
+    },
+    {
+      "timestamp": "09:03",
+      "speaker": "Gil Feig",
+      "en": "Cached data is absolutely essential if you want that sort of semantic data, the complex lookups, deep, deep questions about any data.",
+      "zh": "如果你想要那种语义数据、复杂查询、针对任何数据的深层次问题，缓存数据是绝对必不可少的。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Gil Feig",
+      "en": "Do not drop where the data is coming from.",
+      "zh": "不要丢弃数据来自哪里。"
+    },
+    {
+      "timestamp": "12:02",
+      "speaker": "Gil Feig",
+      "en": "That is even more important when you're making business critical decisions off of that data, when that data is versioned, when that data can become outdated, when you're letting it make a decision on data that it synced a year ago.",
+      "zh": "当你要基于这些数据做出业务关键决策时，当这些数据是有版本管理的，当这些数据可能会过时，当你让它基于一年前同步的数据做决策时，这就更加重要了。"
+    },
+    {
+      "timestamp": "12:35",
+      "speaker": "Gil Feig",
+      "en": "Really important for showing in your platform, and if not, for showing in your internal platform or whatever you're building, even for being able to investigate when something does go wrong, because it will.",
+      "zh": "这对于在你的平台中展示非常重要，如果不展示，至少要在你的内部平台或你构建的任何东西中展示，甚至是为了在出问题时能够调查，因为问题一定会发生。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Gil Feig",
+      "en": "So key takeaways, tools are not context.",
+      "zh": "那么关键要点：工具不等于上下文。"
+    },
+    {
+      "timestamp": "13:58",
+      "speaker": "Gil Feig",
+      "en": "More data, not always better.",
+      "zh": "数据越多，不一定越好。"
+    },
+    {
+      "timestamp": "14:11",
+      "speaker": "Gil Feig",
+      "en": "You do not want to be left in a position where your AI made a bad decision and you have no idea why it did that.",
+      "zh": "你不会想处于这样的境地：你的 AI 做了一个糟糕的决定，而你完全不知道它为什么那么做。"
+    }
+  ],
+  "voice_script": "今天要讲的这件事，跟很多公司都在做的人工智能有关。讲的人叫 Gil Feig，是 Merge 这家公司的联合创始人和首席技术官。Merge 做的是什么生意呢？帮企业把各种软件系统打通，客户超过四百家，里面有大名鼎鼎的 OpenAI、Netflix、Ramp 和 Perplexity。所以由他来讲“公司怎么给智能体接数据”这件事，分量是够的。\n\n他这次演讲讲的是一个很多公司都会踩的坑：以为给人工智能接上几个系统的接口，就万事大吉了。接口一接，智能体好像就能查工单、查客户、查财务了，听起来挺圆满。但 Feig 说，这远远不够。真正需要的，是一层完整的“上下文图谱”——说白了，相当于给公司装一个共享的大脑。\n\n那为什么光接接口不够呢？举个例子你就明白了。员工问智能体：客户 A 上周为什么不高兴？这个问题好办，智能体去 Zendesk 里查一下工单，答案就出来了。但问题换成“哪些客户上周不高兴”，难度一下就上来了，智能体得把上周所有工单翻一遍。要是再狠一点，问“过去一年哪些客户不高兴”，实时查询根本做不到——因为每次只能拉一小批数据，翻到超时也翻不完。\n\n这里得先交代个背景：这不是技术不行，而是底层激励不对。没有哪家平台愿意提供一个能用自然语言直接查询的接口。为什么？两个原因。第一，把数据向量化是要花钱的；第二，方便了你的智能体，就意味着你更少去用平台自己的产品。人家没动力帮你干这事。\n\n所以结论就出来了：凡是需要语义查询、需要跨大量数据做分析的场景，必须在本地同步一份数据副本。只有简单的单点查询和操作——比如在 Stripe 里查某个客户、做一笔操作——才适合走实时接口。\n\n那这个“大脑”里面到底装了什么呢？Feig 把上下文分成了四层，各有各的用处。\n\n最上面一层是提示词、技能和记忆。这里头技能是关键。为什么这么说？你看，每个公司对“客户不高兴”的定义是不一样的。有的公司看工单数量，有的公司习惯先看 Qualtrics 的问卷数据。“怎么判断客户满不满意”这件事本身，就是一个应该沉淀下来的技能——这是你们公司特有的东西。\n\n第二层是实时接口调用。搭建容易、运行便宜，适合前面说的那种简单查询。\n\n第三层是同步缓存的数据，存在本地的向量数据库里。这是回答复杂问题的必需品。但代价也摆在那：搭建更复杂、运行更贵，而且数据怎么保持新鲜，是个难题。\n\n第四层叫衍生上下文。什么意思呢？就是在拉数据的同时，顺手做个总结存下来。下次再遇到同样的问题，就不用重新查、重新总结了。\n\n好，四层讲完了，那一次查询进来，这个大脑是怎么运转的？整个流程像一条流水线。提示词进来，先由路由器判断该交给谁处理。接着查有没有匹配的技能或者记忆，有就先执行。技能需要外部数据的话，先看本地缓存——数据够不够新鲜、有没有超过约定时限？新鲜就用缓存，不新鲜就退回实时接口去拉。凑够上下文之后，把新发现存进记忆，总结好，再发回去。\n\nFeig 强调，这里面没有魔法，全是取舍的算术。举个实际的例子：给客户 Acme 写一段状态汇报，要包含续约风险和最近一次客服互动。流程是这样的：先查缓存里的客户摘要，缺什么就实时调 CRM 补上，再查工单系统。注意，这时候只拉五条工单，不拉全量历史——因为实时查询会超时，刚才已经说过了。\n\n讲到这里，还有最后一块拼图，而且是最容易被忽视的一块：可追溯性。说实话，这事 upfront 看着不重要，但千万别丢掉数据的来源信息。从哪取的、什么时候取的、用什么权限、谁访问过、有没有被转换过、原始样子是什么，这些都得留着。\n\n你可能会说，ChatGPT 回答完不也附上来源链接吗，大家都习惯了。但企业场景比这严格得多。当业务决策建立在这份数据上，当数据会过时——甚至可能是基于一年前的同步内容在做决定——你必须知道它的来历。另外还有一条提醒：数据过期多久应该作废，也要提前定好规则，比如超过一个月就不再采信。\n\n那这一期听下来，有三个要点值得你记住。\n\n第一，工具不等于上下文。上下文图谱是数据、同步的副本、公司的流程和技能加在一起的东西，不只是接了哪些工具。原因在于，获取上下文本身就是一套公司原则和流程。\n\n第二，数据多不等于好。要的是新鲜、高质量、按需拉取，同步进来的数据要结构化得当。\n\n第三，每个答案都要能追溯。否则哪天人工智能做了个糟糕的决定，你连原因都查不出来。\n\n所以下次如果你的公司要给智能体接系统，别只盯着接几个接口。把数据同步好、把公司特有的判断沉淀成技能、把每条数据的来历留住——这三件事做完，才算真的给公司装上了大脑。"
+}

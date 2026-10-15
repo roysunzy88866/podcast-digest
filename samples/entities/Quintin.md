@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":65,"提示词":3,"记忆":28,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
+<script type="application/json" class="pd-epn">{"Elliot":1,"Portola":2,"Tolan":3,"LLM":65,"提示词":3,"记忆":30,"响应时间":2,"hook":2,"即兴演员":1,"lore seeds":1}</script>
 
 <script>
 (function(){

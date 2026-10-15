@@ -49,7 +49,7 @@ unlisted: true
 
 [[开源]] · [[OpenAI]] · [[就业市场]] · [[Christian Klein]] · [[Techstars Tokyo]] · [[Renee Wigerzen]] · [[软技能]] · [[SAP]] · [[Founder University]] · [[Bob Safian]]
 
-<script type="application/json" class="pd-epn">{"开源":43,"OpenAI":203,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"Renee Wigerzen":1,"软技能":1,"SAP":4,"Founder University":1,"Bob Safian":8}</script>
+<script type="application/json" class="pd-epn">{"开源":43,"OpenAI":204,"就业市场":1,"Christian Klein":1,"Techstars Tokyo":1,"Renee Wigerzen":1,"软技能":1,"SAP":4,"Founder University":1,"Bob Safian":8}</script>
 
 <script>
 (function(){

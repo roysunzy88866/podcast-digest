@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Stripe":48,"Stripe Minions":1,"智能体":1,"智能体商务":1,"稳定币":6,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Stripe":49,"Stripe Minions":1,"智能体":1,"智能体商务":1,"稳定币":6,"微交易":2,"Tempo":1,"link agent wallet":1,"主观能动性":1}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":204,"智能体":1,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":205,"智能体":1,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

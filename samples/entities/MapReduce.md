@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeff Dean]] · [[智能体]] · [[多智能体系统]] · [[专用推理硬件]] · [[推理]] · [[上下文工程]] · [[TPU]] · [[蒸馏]] · [[AlphaFold]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Jeff Dean":1,"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":101,"上下文工程":18,"TPU":5,"蒸馏":1,"AlphaFold":2,"Gemini":16}</script>
+<script type="application/json" class="pd-epn">{"Jeff Dean":1,"智能体":1,"多智能体系统":1,"专用推理硬件":1,"推理":101,"上下文工程":18,"TPU":5,"蒸馏":1,"AlphaFold":3,"Gemini":16}</script>
 
 <script>
 (function(){

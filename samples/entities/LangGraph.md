@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangGraph</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangGraph">LA</div><div class="pi"><h1 class="pt">LangGraph</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangGraph">LA</div><div class="pi"><h1 class="pt">LangGraph</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,10 +19,11 @@ unlisted: true
 - **[[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]]**(11:52起):本集说 LangGraph 是通过构建图来搭建多智能体架构的框架，demo 里跑调度智能体，用 interrupt 从节点中调用出去。
 - **[[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]]**(05:26起):本集说 LangGraph 是一个用有向图编排智能体流程的开源框架,是构建可控 harness 的一种方式。
 - **[[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot|《AI 智能体为什么还聊不到一起？有人做了个“聊天室”》]]**(11:45起):本集演示中接入平台的一种智能体框架，几秒钟内出现在另一用户的注册表里。
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(03:03起):本集说 Deep Agents 构建在 LangGraph 运行时之上，其 interrupt 函数提供了中断和暂停执行的能力，本大会即以其命名。
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|《桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟》]] — 作为被讨论公司
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
@@ -32,14 +33,15 @@ unlisted: true
 - [[2026-10-04-talks-the-human-is-an-async-api-melanie-warric|《人是一个异步接口:冰淇淋配送背后的智能体架构》]] — 作为概念
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|《模型不再是护城河，谁在围绕模型建「自己的智能」》]] — 作为被讨论公司
 - [[2026-10-07-talks-why-your-ai-agents-can-t-talk-to-each-ot|《AI 智能体为什么还聊不到一起？有人做了个“聊天室”》]] — 作为概念(提及)
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[harness]] · [[Claude Code]] · [[LangChain]] · [[Anthropic]] · [[护栏]] · [[子智能体]] · [[Deep Agents]] · [[OpenAI]] · [[LangSmith]]
+[[智能体]] · [[harness]] · [[LangChain]] · [[Claude Code]] · [[Deep Agents]] · [[Anthropic]] · [[LangSmith]] · [[子智能体]] · [[沙箱]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":65,"Claude Code":114,"LangChain":13,"Anthropic":204,"护栏":91,"子智能体":7,"Deep Agents":3,"OpenAI":203,"LangSmith":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":66,"LangChain":14,"Claude Code":114,"Deep Agents":4,"Anthropic":205,"LangSmith":7,"子智能体":7,"沙箱":101,"护栏":91}</script>
 
 <script>
 (function(){

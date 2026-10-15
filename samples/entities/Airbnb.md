@@ -57,7 +57,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Uber]] · [[Ramp]] · [[ChatGPT]] · [[Google]] · [[Revolut]] · [[创始人模式]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"OpenAI":203,"Anthropic":204,"Uber":19,"Ramp":12,"ChatGPT":112,"Google":72,"Revolut":5,"创始人模式":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"OpenAI":204,"Anthropic":205,"Uber":19,"Ramp":12,"ChatGPT":113,"Google":72,"Revolut":5,"创始人模式":4}</script>
 
 <script>
 (function(){

@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":114,"LangGraph":8,"智能体":1,"子智能体":7,"确定性":6,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
+<script type="application/json" class="pd-epn">{"Bridgewater Associates":1,"PAT":1,"Claude Code":114,"LangGraph":9,"智能体":1,"子智能体":7,"确定性":6,"编译器理论":1,"静态分析":1,"数据帧":1}</script>
 
 <script>
 (function(){

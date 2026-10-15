@@ -40,7 +40,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[智能体]] · [[推理]] · [[Cognition]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[Hugging Face]] · [[Swyx]] · [[投机解码]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":101,"Cognition":27,"Anthropic":204,"沙箱":100,"OpenAI":203,"Hugging Face":38,"Swyx":2,"投机解码":1,"Claude Code":114}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"推理":101,"Cognition":27,"Anthropic":205,"沙箱":101,"OpenAI":204,"Hugging Face":38,"Swyx":2,"投机解码":1,"Claude Code":114}</script>
 
 <script>
 (function(){

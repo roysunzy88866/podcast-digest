@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":1,"基于结果的定价":4,"应用 AI":1,"前沿模型":28,"工具层":2,"上下文工程":18,"编程系统":1,"MCP":95}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Sierra":7,"智能体":1,"基于结果的定价":4,"应用 AI":1,"前沿模型":29,"工具层":2,"上下文工程":18,"编程系统":1,"MCP":96}</script>
 
 <script>
 (function(){

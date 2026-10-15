@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"Charles":1,"Together AI":1,"智能体":1,"技能":34,"上下文":34,"PRD":9,"沙箱":100,"harness":65,"MCP 服务器":3}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Charles":1,"Together AI":1,"智能体":1,"技能":35,"上下文":34,"PRD":9,"沙箱":101,"harness":66,"MCP 服务器":3}</script>
 
 <script>
 (function(){

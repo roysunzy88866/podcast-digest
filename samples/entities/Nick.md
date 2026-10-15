@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"智能体":1,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":95,"MCP 网关":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":11,"Chris Benson":12,"智能体":1,"平台即服务":1,"Tanzu":1,"Cloud Foundry":1,"buildpack":1,"agents.md":3,"MCP":96,"MCP 网关":1}</script>
 
 <script>
 (function(){

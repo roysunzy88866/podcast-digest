@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]] [[David Silver]]
+[[Leisha Lee]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Leisha Lee":1,"开源模型":4,"蒸馏":1,"前沿模型":28,"算力":10,"后训练":1,"强化学习环境":1,"RSI":7,"推理模型":2,"微调":38}</script>
+<script type="application/json" class="pd-epn">{"Leisha Lee":1,"开源模型":4,"蒸馏":1,"前沿模型":29,"算力":10,"后训练":1,"强化学习环境":1,"RSI":7,"推理模型":2,"微调":38}</script>
 
 <script>
 (function(){

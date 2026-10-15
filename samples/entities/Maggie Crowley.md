@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Tomer London]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":1,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":3,"Anthropic":204,"OpenAI":203}</script>
+<script type="application/json" class="pd-epn">{"Toast":3,"Toast IQ":1,"Toast IQ Grow":1,"智能体":1,"设计合作伙伴":6,"重新上手":1,"销售点系统":1,"提示词":3,"Anthropic":205,"OpenAI":204}</script>
 
 <script>
 (function(){

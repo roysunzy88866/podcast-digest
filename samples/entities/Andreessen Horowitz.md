@@ -34,7 +34,7 @@ unlisted: true
 
 [[Anthropic]] · [[Josh Elman]] · [[OpenAI]] · [[ChatGPT]] · [[智能体]] · [[TikTok]] · [[Musical.ly]] · [[Apple]] · [[Siri]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":204,"Josh Elman":2,"OpenAI":203,"ChatGPT":112,"智能体":1,"TikTok":7,"Musical.ly":2,"Apple":27,"Siri":2,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":205,"Josh Elman":2,"OpenAI":204,"ChatGPT":113,"智能体":1,"TikTok":7,"Musical.ly":2,"Apple":27,"Siri":2,"Google":72}</script>
 
 <script>
 (function(){

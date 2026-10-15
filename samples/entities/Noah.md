@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":8,"SpaceX AI":1,"智能体":1,"多智能体团队":1,"云端智能体":2,"例程":1,"记忆":28,"MCP":95}</script>
+<script type="application/json" class="pd-epn">{"Kevin DeFarco":1,"Roshan":2,"GrokBot":8,"SpaceX AI":1,"智能体":1,"多智能体团队":1,"云端智能体":2,"例程":1,"记忆":30,"MCP":96}</script>
 
 <script>
 (function(){

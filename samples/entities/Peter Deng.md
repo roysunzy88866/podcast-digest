@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Brandon Foo":1,"ChatGPT":112,"Facebook":18,"Uber":19,"Instagram":9,"OpenAI":203,"Copilot":13,"Cursor":87,"Windsurf":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Brandon Foo":1,"ChatGPT":113,"Facebook":18,"Uber":19,"Instagram":9,"OpenAI":204,"Copilot":13,"Cursor":87,"Windsurf":7}</script>
 
 <script>
 (function(){

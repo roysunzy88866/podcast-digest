@@ -155,8 +155,8 @@ Jake 分享了设计记忆系统时最该注意的三点：
 **顺着「智能体」挖下去**
 
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:可观测性 (observability)、智能体 (agent)、追踪 (trace)、记忆 (memory)、评估 (evals)</span>
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:Context Hub、智能体 (agent)、记忆 (memory)、评估 (evals)</span>
 - [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain · 同概念:context、可观测性 (observability)、智能体 (agent)、评估 (evals)</span>
-- [[2026-10-07-talks-building-engine-v2-how-langchain-approac|用一个智能体去修智能体:LangChain 如何打造 Engine v2]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)、追踪 (trace)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Thomas Somers":1,"Positron":2,"Anthropic":204,"NVIDIA":71,"Latent Space":3,"智能体":1,"预训练":9,"蒸馏":1,"推理":101}</script>
+<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Thomas Somers":1,"Positron":2,"Anthropic":205,"NVIDIA":71,"Latent Space":3,"智能体":1,"预训练":9,"蒸馏":1,"推理":101}</script>
 
 <script>
 (function(){

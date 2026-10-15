@@ -54,7 +54,7 @@ aliases: ["bot"]
 
 [[智能体]] · [[Stripe]] · [[Anthropic]] · [[Salesforce]] · [[Ruby Thelot]] · [[Anil Nadiminti]] · [[Tyler Bryson]] · [[Roman Ugarte]] · [[Diana]] · [[Sophia Puccini]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":48,"Anthropic":204,"Salesforce":36,"Ruby Thelot":1,"Anil Nadiminti":1,"Tyler Bryson":1,"Roman Ugarte":1,"Diana":1,"Sophia Puccini":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":49,"Anthropic":205,"Salesforce":36,"Ruby Thelot":1,"Anil Nadiminti":1,"Tyler Bryson":1,"Roman Ugarte":1,"Diana":1,"Sophia Puccini":1}</script>
 
 <script>
 (function(){

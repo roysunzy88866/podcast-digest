@@ -114,7 +114,7 @@ Deep Agents 的核心优势就是管理上下文：当消息列表变长时它�
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE]]<span class="pd-rz">同概念:上下文 (context)、文件系统 (file system)、智能体 (agent)、机具 (harness)、deep agents</span>
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同公司:LangChain · 同概念:deep agents、文件系统 (file system)、机具 (harness)、LangGraph、中间件 (middleware)</span>
-- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain · 同概念:上下文 (context)、智能体 (agent)、机具 (harness)、中间件 (middleware)</span>
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同公司:LangChain · 同概念:deep agents、智能体 (agent)、机具 (harness)、LangGraph、LangSmith</span>
 
 </div>
 <div class="pd-ex">

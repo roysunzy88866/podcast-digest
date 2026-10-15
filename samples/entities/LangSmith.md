@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangSmith</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangSmith">LA</div><div class="pi"><h1 class="pt">LangSmith</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangSmith">LA</div><div class="pi"><h1 class="pt">LangSmith</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,17 @@ unlisted: true
 - **[[2026-10-06-talks-how-to-build-a-model-router-in-the-harne|《一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”》]]**(02:49起):本集说它收集智能体每次运行的完整 trace，用于聚合分析任务分布和 LLM 成本，是构建路由标准的基础。
 - **[[2026-10-07-talks-building-engine-v2-how-langchain-approac|《用一个智能体去修智能体:LangChain 如何打造 Engine v2》]]**(07:35起):本集说 LangSmith 是他们完全依赖的平台:团队在上面看 trace、跑实验、对比成本与基准分数随时间的变化,还提供 deployments(部署)平台和数据集。
 - **[[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]]**(10:44起):本集说它是 LangSmith 的落地实现：通过可观测性捕捉轨迹、后台分析提取信号、写入 Context Hub 供未来运行使用
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(03:43起):本集说它是经过验证的部署平台，提供流式传输、检查点、身份验证处理，Managed Deep Agents 部署在其托管基础设施上，评测结果也显示在其实验页。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-09-talks-managed-deep-agents-deploying-mission-cr#^q2]]
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念(提及)
 - [[2026-08-13-talks-how-unify-cut-its-ai-agent-costs-95-in-t|《9亿美元管道背后:Unify CTO 谈怎么把销售智能体的成本打下来》]] — 作为被讨论公司(提及)
@@ -28,14 +35,15 @@ unlisted: true
 - [[2026-10-06-talks-how-to-build-a-model-router-in-the-harne|《一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”》]] — 作为被讨论公司
 - [[2026-10-07-talks-building-engine-v2-how-langchain-approac|《用一个智能体去修智能体:LangChain 如何打造 Engine v2》]] — 作为被讨论公司
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]] — 作为概念
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[LangChain]] · [[评估]] · [[harness]] · [[记忆]] · [[trace]] · [[上下文]] · [[沙箱]] · [[模型路由]] · [[LangGraph]]
+[[智能体]] · [[LangChain]] · [[评估]] · [[harness]] · [[记忆]] · [[LangGraph]] · [[沙箱]] · [[trace]] · [[Deep Agents]] · [[子智能体]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"LangChain":13,"评估":1,"harness":65,"记忆":28,"trace":7,"上下文":34,"沙箱":100,"模型路由":12,"LangGraph":8}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"LangChain":14,"评估":1,"harness":66,"记忆":30,"LangGraph":9,"沙箱":101,"trace":7,"Deep Agents":4,"子智能体":7}</script>
 
 <script>
 (function(){

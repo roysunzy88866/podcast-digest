@@ -74,7 +74,7 @@ unlisted: true
 
 [[护栏]] · [[智能体]] · [[Jeetu Patel]] · [[Aaron Levie]] · [[Lenny]] · [[OpenAI]] · [[Cisco]] · [[开放权重]] · [[推理]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"护栏":91,"智能体":1,"Jeetu Patel":2,"Aaron Levie":3,"Lenny":69,"OpenAI":203,"Cisco":4,"开放权重":9,"推理":101,"NVIDIA":71}</script>
+<script type="application/json" class="pd-epn">{"护栏":91,"智能体":1,"Jeetu Patel":2,"Aaron Levie":3,"Lenny":69,"OpenAI":204,"Cisco":4,"开放权重":9,"推理":101,"NVIDIA":71}</script>
 
 <script>
 (function(){

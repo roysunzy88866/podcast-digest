@@ -25,7 +25,7 @@ unlisted: true
 
 [[Andrew Garvin]] · [[Metronome]] · [[Stripe]] · [[Stripe Projects]] · [[OpenAI]] · [[Anthropic]] · [[Lovable]] · [[HubSpot]] · [[智能体]] · [[编码智能体]]
 
-<script type="application/json" class="pd-epn">{"Andrew Garvin":1,"Metronome":3,"Stripe":48,"Stripe Projects":2,"OpenAI":203,"Anthropic":204,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":35}</script>
+<script type="application/json" class="pd-epn">{"Andrew Garvin":1,"Metronome":3,"Stripe":49,"Stripe Projects":2,"OpenAI":204,"Anthropic":205,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":35}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":27,"Google":72,"智能体":1,"沙箱":100,"无服务器":3,"云基础设施":1,"vibe coding":51,"蓝图":1,"小玩意":1}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare Workers":1,"Apple":27,"Google":72,"智能体":1,"沙箱":101,"无服务器":3,"云基础设施":1,"vibe coding":51,"蓝图":1,"小玩意":1}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":21,"太空数据中心":1,"近地轨道":1,"单位经济":3,"垂直整合":1,"太空太阳能":1,"产品市场契合":32}</script>
+<script type="application/json" class="pd-epn">{"Robinhood":4,"Cowboy Space":1,"SpaceX":22,"太空数据中心":1,"近地轨道":1,"单位经济":3,"垂直整合":1,"太空太阳能":1,"产品市场契合":32}</script>
 
 <script>
 (function(){

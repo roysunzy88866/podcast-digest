@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":48,"GMAP":1}</script>
+<script type="application/json" class="pd-epn">{"Forrest Li":1,"Sea":1,"Garena":1,"Shopee":1,"Money":1,"Free Fire":1,"Shopee Pay":1,"S Pay Later":1,"Stripe":49,"GMAP":1}</script>
 
 <script>
 (function(){

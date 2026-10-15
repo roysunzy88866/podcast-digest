@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"Bedrock AgentCore":1,"MCP":95,"记忆":28,"多租户隔离":2,"可观测性":46,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"Bedrock AgentCore":1,"MCP":96,"记忆":30,"多租户隔离":2,"可观测性":46,"基础设施即代码":2,"系统提示词":9,"Kiro":4}</script>
 
 <script>
 (function(){

@@ -58,11 +58,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zapier":6,"MCP":95,"智能体":1,"Salesforce":36,"Nathan":5,"AI 熟练度":2,"确定性代码":2,"编码智能体":35,"Automation Bench":1,"确定性":6}</script>
+<script type="application/json" class="pd-epn">{"Zapier":6,"MCP":96,"智能体":1,"Salesforce":36,"Nathan":5,"AI 熟练度":2,"确定性代码":2,"编码智能体":35,"Automation Bench":1,"确定性":6}</script>
 
 <script>
 (function(){

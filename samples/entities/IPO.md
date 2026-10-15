@@ -43,7 +43,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Ranjan Roy]] · [[Meta]] · [[Google]] · [[数据中心]] · [[Ranjan]] · [[Vali]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"智能体":1,"Ranjan Roy":3,"Meta":55,"Google":72,"数据中心":25,"Ranjan":1,"Vali":1,"Hugging Face":38}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":205,"OpenAI":204,"智能体":1,"Ranjan Roy":3,"Meta":55,"Google":72,"数据中心":25,"Ranjan":1,"Vali":1,"Hugging Face":38}</script>
 
 <script>
 (function(){

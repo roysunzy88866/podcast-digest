@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OKRs</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OKRs">OK</div><div class="pi"><h1 class="pt">OKRs</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OKRs">OK</div><div class="pi"><h1 class="pt">OKRs</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|《MercadoLibre 的 18000 人工程团队怎么管》]]**(20:25起):本集说他们不使用OKR——不让所有事情层层分解到每个团队，因为市场变化太快、竞争太激烈，很难有10年计划。
+- **[[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]]**(53:28起):本集主张别先写 OKR,先用大白话回答「下季度做什么不一样的事」和「怎么知道它起效了」,再翻译成任何框架;指标必须与策略选择专门绑定,不能用「收入增长」这类噪音大、延迟长的通用指标。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2025-06-08-lennys-inside-mercado-libre-sebastian-barrios|《MercadoLibre 的 18000 人工程团队怎么管》]] — 作为概念
+- [[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sebastian Barrios]] · [[MercadoLibre]] · [[智能体]] · [[Verdi]] · [[微服务]] · [[彻底坦诚]] · [[Roblox]] · [[主观能动性]]
+[[Sebastian Barrios]] · [[Tim Herbig]] · [[MercadoLibre]] · [[产品策略]] · [[智能体]] · [[价值主张]] · [[Verdi]] · [[差异化]] · [[微服务]] · [[愚蠢反转]]
 
-<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"MercadoLibre":1,"智能体":1,"Verdi":1,"微服务":1,"彻底坦诚":3,"Roblox":4,"主观能动性":1}</script>
+<script type="application/json" class="pd-epn">{"Sebastian Barrios":1,"Tim Herbig":1,"MercadoLibre":1,"产品策略":1,"智能体":1,"价值主张":1,"Verdi":1,"差异化":1,"微服务":1,"愚蠢反转":1}</script>
 
 <script>
 (function(){

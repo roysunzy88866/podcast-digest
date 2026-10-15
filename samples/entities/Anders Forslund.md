@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hart Aerospace":1,"电动马达":1,"喷气发动机":1,"混动":2,"SpaceX":21,"电池":1}</script>
+<script type="application/json" class="pd-epn">{"Hart Aerospace":1,"电动马达":1,"喷气发动机":1,"混动":2,"SpaceX":22,"电池":1}</script>
 
 <script>
 (function(){

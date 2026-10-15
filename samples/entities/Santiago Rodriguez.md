@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":203,"Anthropic":204,"Microsoft":32,"Amazon":34,"Google":72,"Meta":55,"Databricks":24}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Sarah Wang":4,"Alex Imerman":1,"OpenAI":204,"Anthropic":205,"Microsoft":32,"Amazon":34,"Google":72,"Meta":55,"Databricks":24}</script>
 
 <script>
 (function(){

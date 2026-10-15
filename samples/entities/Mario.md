@@ -24,7 +24,7 @@ unlisted: true
 
 [[OpenAI]] · [[Farooq Malik]] · [[Scott Morton]] · [[Liam Fedus]] · [[Jaan Tallinn]] · [[RAIN]] · [[Revel]] · [[Doj Chubuk]] · [[AI 安全]] · [[稳定币]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":203,"Farooq Malik":1,"Scott Morton":1,"Liam Fedus":1,"Jaan Tallinn":1,"RAIN":1,"Revel":1,"Doj Chubuk":1,"AI 安全":4,"稳定币":6}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":204,"Farooq Malik":1,"Scott Morton":1,"Liam Fedus":1,"Jaan Tallinn":1,"RAIN":1,"Revel":1,"Doj Chubuk":1,"AI 安全":4,"稳定币":6}</script>
 
 <script>
 (function(){

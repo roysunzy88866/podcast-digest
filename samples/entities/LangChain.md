@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangChain</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-10-07-talks-building-engine-v2-how-langchain-approac|《用一个智能体去修智能体:LangChain 如何打造 Engine v2》]]**(00:16起):本集是 LangChain 团队的分享:他们构建了许多不同的智能体(市推智能体、编程智能体),并把整条智能体调试流程做成产品 Engine。
 - **[[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]]**(16:24起):本集结尾提到 Conductor 可以运行 LangChain 的智能体。
 - **[[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]]**(00:27起):本集说 Jake 在 LangChain 领导 Labs 团队，该团队在帮金融服务公司构建能从经历中持续学习的智能体
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(00:07起):本集是 LangChain 产品经理的演讲，介绍其 Deep Agents 框架与随 0.8 版本发布的 Managed Deep Agents。
 
 ## ① 提到它的金句
 
@@ -33,7 +34,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为被讨论公司
@@ -48,14 +49,15 @@ unlisted: true
 - [[2026-10-07-talks-building-engine-v2-how-langchain-approac|《用一个智能体去修智能体:LangChain 如何打造 Engine v2》]] — 作为被讨论公司
 - [[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]] — 作为概念(提及)
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]] — 作为概念
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[harness]] · [[评估]] · [[沙箱]] · [[LangSmith]] · [[trace]] · [[护栏]] · [[LangGraph]] · [[上下文]] · [[可观测性]]
+[[智能体]] · [[harness]] · [[评估]] · [[沙箱]] · [[LangSmith]] · [[LangGraph]] · [[trace]] · [[护栏]] · [[Deep Agents]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":65,"评估":1,"沙箱":100,"LangSmith":6,"trace":7,"护栏":91,"LangGraph":8,"上下文":34,"可观测性":46}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":66,"评估":1,"沙箱":101,"LangSmith":7,"LangGraph":9,"trace":7,"护栏":91,"Deep Agents":4,"上下文":34}</script>
 
 <script>
 (function(){

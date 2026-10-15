@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[AJ Loiacono]] · [[Capital RX]] · [[CVS]] · [[Cigna]] · [[United Healthcare]] · [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]] · [[自举]]
+[[AJ Loiacono]] · [[Capital RX]] · [[CVS]] · [[Cigna]] · [[United Healthcare]] · [[Oscar Health]] · [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]]
 
-<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":32,"垂直整合":1,"反向定位":1,"自举":2}</script>
+<script type="application/json" class="pd-epn">{"AJ Loiacono":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"Oscar Health":2,"药品福利管理":1,"产品市场契合":32,"垂直整合":1,"反向定位":1}</script>
 
 <script>
 (function(){

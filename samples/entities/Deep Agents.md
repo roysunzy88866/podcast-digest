@@ -7,35 +7,39 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Deep Agents</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Deep Agents">DE</div><div class="pi"><h1 class="pt">Deep Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Deep Agents">DE</div><div class="pi"><h1 class="pt">Deep Agents</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(11:38起):Harrison 提到 LangChain 开源的这个智能体框架内置了类似文件系统的功能,用于上下文管理。
 - **[[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]]**(00:09起):本集主题。开源的 harness 框架,封装了构建智能体的最佳实践;它引入了钩子和中间件概念,支持拦截对模型的调用以注入自定义逻辑,被视为最高级别的抽象,构建在 LangChain 之上。
 - **[[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]]**(00:31起):本集把它当作管理和调度模型、工具与上下文的「机具」框架，指出其核心优势是管理上下文，能自动运行压缩，并将工具调用的海量结果转存到文件系统里。
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(00:16起):本集把它说成：一个可定制的智能体 harness，从编码智能体经验提炼而成，适用于几乎任何领域，包含执行环境、委派、人在回路、上下文摘要四块核心设计。
 
 ## ① 提到它的金句
 
-*1 条*
+*2 条*
 
 ![[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil#^q1]]
 
+![[2026-10-09-talks-managed-deep-agents-deploying-mission-cr#^q2]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为概念(提及)
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为概念
 - [[2026-08-07-talks-how-harmonic-4x-d-user-retention-by-buil|《产品里的智能体为什么总“瞎”：Harmonic 的上下文可见性法则》]] — 作为概念
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[文件系统]] · [[harness]] · [[智能体]] · [[LangChain]] · [[上下文]] · [[LangGraph]] · [[中间件]] · [[Anish]] · [[LangSmith 部署]] · [[Harmonic]]
+[[harness]] · [[智能体]] · [[LangChain]] · [[文件系统]] · [[LangGraph]] · [[上下文]] · [[沙箱]] · [[LangSmith]] · [[评估]] · [[中间件]]
 
-<script type="application/json" class="pd-epn">{"文件系统":3,"harness":65,"智能体":1,"LangChain":13,"上下文":34,"LangGraph":8,"中间件":3,"Anish":1,"LangSmith 部署":1,"Harmonic":1}</script>
+<script type="application/json" class="pd-epn">{"harness":66,"智能体":1,"LangChain":14,"文件系统":3,"LangGraph":9,"上下文":34,"沙箱":101,"LangSmith":7,"评估":1,"中间件":3}</script>
 
 <script>
 (function(){

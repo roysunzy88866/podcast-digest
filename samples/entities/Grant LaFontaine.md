@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Whatnot":4,"直播购物":2,"市场":4,"信任与安全":2,"规则引擎":1,"大型语言模型":6,"发现":2,"网络效应":16,"虚拟形象":2}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Whatnot":4,"直播购物":2,"市场":4,"信任与安全":2,"规则引擎":1,"大型语言模型":6,"发现":2,"网络效应":17,"虚拟形象":2}</script>
 
 <script>
 (function(){

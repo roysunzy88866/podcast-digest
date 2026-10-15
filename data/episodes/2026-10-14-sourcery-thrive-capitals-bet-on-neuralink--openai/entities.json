@@ -1,0 +1,927 @@
+{
+  "episode_id": "2026-10-14-sourcery-thrive-capitals-bet-on-neuralink--openai",
+  "podcast": "Sourcery",
+  "date": "2026-10-14",
+  "tags": [
+    "AI 医疗",
+    "AI 制药",
+    "医疗基础设施",
+    "脑机接口",
+    "消费硬件"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "dr-wara",
+      "type": "person",
+      "role": "host",
+      "name": "Dr. Wara",
+      "file": "Dr. Wara",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            84.817,
+            86.858
+          ],
+          "quote": "Dr. Wara, welcome to Sorcery.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1822.791,
+            1825.296
+          ],
+          "quote": "Dr. Wara, please tell me your life story.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 950,
+          "t": [
+            4186.472,
+            4188.374
+          ],
+          "quote": "Dr. Wara, thank you so much.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "thrive-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Thrive Capital",
+      "file": "Thrive Capital",
+      "primary": true,
+      "how_described": "本集说它是过去十年最多产的风投公司之一,嘉宾是其中负责所有医疗投资的合伙人,医疗从第一笔投资 Oscar 起就是它的 DNA",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            5.119
+          ],
+          "quote": "Thrive Capital has emerged as one of the most prolific venture capital firms of the past decade.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说 OpenAI 事实上已成为美国乃至世界最大的医疗提供方之一:每周 3 亿人在 ChatGPT 上问健康问题,还与波士顿儿童医院等哈佛系医院合作为约 300 个未确诊儿科病例找到约 20 个新诊断",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            42.818,
+            46.441
+          ],
+          "quote": "Two-thirds of physicians in America are using OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            52.964,
+            57.167
+          ],
+          "quote": "OpenAI is now one of the largest healthcare providers in America.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            235.813,
+            241.037
+          ],
+          "quote": "Companies like Open Evidence, OpenAI, Cadence, Norrish, and a handful of others.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            741.928,
+            745.39
+          ],
+          "quote": "DeepMind, and ISO, and Anthropic, and OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1286.836,
+            1294.661
+          ],
+          "quote": "The companies building what's next from Vercel, OpenAI, Anthropic, Granola, and Deepgram all made the same call.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2404.931,
+            2409.993
+          ],
+          "quote": "And you helped OpenAI start up their healthcare platform?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2411.294,
+            2417.438
+          ],
+          "quote": "So, yeah, so our time with OpenAI was, gosh, I guess it was two and change years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2443.619,
+            2454.573
+          ],
+          "quote": "As separate kind of events with the OpenAI leadership to actually just sort of talk through and say, here's the state of the art in AI, here are these folks' problems, and let's talk through.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2502.298,
+            2506.92
+          ],
+          "quote": "And they were, you know, OpenAI and the 01 was batting a 10 out of 10, which was amazing to me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            3987.501,
+            3996.564
+          ],
+          "quote": "I want to double back down on OpenAI because I think it is a bit underrated, their foyer into healthcare and what's going on there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 919,
+          "t": [
+            4000.367,
+            4007.557
+          ],
+          "quote": "You could argue in a lot of ways that OpenAI is now one of the largest healthcare providers in America, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成每个人口袋里随时在线的世界级医生,凌晨两点也能问,医疗是对大多数美国人的核心用例",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            50.963,
+            52.924
+          ],
+          "quote": "It's like a ChatGPT for doctors.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 15,
+          "t": [
+            57.267,
+            63.711
+          ],
+          "quote": "They have 300 million people asking ChatGPT questions every week about healthcare specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4007.577,
+            4015.107
+          ],
+          "quote": "They have 300 million people asking ChatGPT questions every week about healthcare specifically.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 930,
+          "t": [
+            4063.255,
+            4074.945
+          ],
+          "quote": "Find me someone who does not have a story of themselves or for their loved ones where they have put all of the information of some complex medical journey into ChatGPT to get an answer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 953,
+          "t": [
+            4190.195,
+            4197.181
+          ],
+          "quote": "I'm sure we'll have to do this again soon because now the inflection point has happened and we're like hitting the ChatGPT moment of biotech.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "neuralink",
+      "type": "company",
+      "role": "company",
+      "name": "Neuralink",
+      "file": "Neuralink",
+      "primary": true,
+      "how_described": "本集说它是比 SpaceX 更有意思的公司——大脑比太空更浩瀚;做脑植入物让渐冻症和瘫痪患者用意念控制电脑和机械臂,关键环节(手术机器人、病理实验室)全部自建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            67.574,
+            69.916
+          ],
+          "quote": "Neuralink is a more interesting company than SpaceX.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            210.385,
+            213.326
+          ],
+          "quote": "I think of two of our companies, Neuralink and Fortel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 184,
+          "t": [
+            864.564,
+            867.705
+          ],
+          "quote": "So a really great example of this is Neuralink.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 185,
+          "t": [
+            868.445,
+            872.106
+          ],
+          "quote": "Can you explain the different types of talent within Neuralink?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            895.916,
+            903.74
+          ],
+          "quote": "And for Neuralink, they actually now focus on a lot of populations, but one of the first populations they focused on were folks who have ALS or paralysis.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            928.289,
+            934.25
+          ],
+          "quote": "And, you know, what Neuralink does is they say, okay, well, what can we do to kind of give these people",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            976.35,
+            977.671
+          ],
+          "quote": "So that is, that's what Neuralink does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            977.972,
+            981.654
+          ],
+          "quote": "Now, when you meet the folks at Neuralink, again, to your point on why they're bilingual,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 202,
+          "t": [
+            982.535,
+            987.739
+          ],
+          "quote": "Neuralink has these amazing hardware builders, which makes sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1142.252,
+            1153.835
+          ],
+          "quote": "Okay, so Neuralink is exceptionally great at hiring the world's best talent from pathologists, robotics, neurosurgeons, radiology, because they're scanning the brain.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1221.829,
+            1225.552
+          ],
+          "quote": "I think when Neuralink was first doing this, no one else was doing it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1239.864,
+            1246.255
+          ],
+          "quote": "I think the other thing, and I think maybe this is one of my hot takes, I actually think of, I think Neuralink is a more interesting company than SpaceX.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "isomorphic-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Isomorphic Labs",
+      "file": "Isomorphic Labs",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            122.44,
+            125.022
+          ],
+          "quote": "Isomorphic Labs was actually there on the stage too.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 152,
+          "t": [
+            693.775,
+            700.639
+          ],
+          "quote": "To focus on isomorphic labs a little bit more, this is a really interesting story of how you guys even got into it.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "fortel",
+      "type": "company",
+      "role": "company",
+      "name": "Fortel",
+      "file": "Fortel",
+      "primary": true,
+      "how_described": "本集说它是 Thrive 投的助听器公司,自己设计芯片去 TSMC 流片(第一次就成功),用语义降噪模拟大脑筛选声音;第三方评分打破五分制量表拿了 6 分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            210.385,
+            213.326
+          ],
+          "quote": "I think of two of our companies, Neuralink and Fortel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1402.058,
+            1405.399
+          ],
+          "quote": "So on the topic of hardware and robotics, let's talk about Fortel.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1405.639,
+            1412.821
+          ],
+          "quote": "So explain Fortel and why hearing aids are just another extension that we need to continue to innovate on.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "openevidence",
+      "type": "company",
+      "role": "company",
+      "name": "OpenEvidence",
+      "file": "OpenEvidence",
+      "primary": true,
+      "how_described": "本集说它是给医生的临床证据检索工具,三年内拿下全美三分之二的医生用户,而行业霸主 Epic 花了 40 年还不到 50%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 577,
+          "t": [
+            2653.197,
+            2656.241
+          ],
+          "quote": "I think the other is OpenEvidence, one of our companies, which",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cadence",
+      "type": "company",
+      "role": "company",
+      "name": "Cadence",
+      "file": "Cadence",
+      "primary": true,
+      "how_described": "本集说它是远程病人监测公司:寄血压计、体重秤到病人家,AI 全天候盯数据、人类护士随时介入;住院率降 25%,每周为 Medicare 省 250 万美元",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            235.813,
+            241.037
+          ],
+          "quote": "Companies like Open Evidence, OpenAI, Cadence, Norrish, and a handful of others.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3365.85,
+            3368.272
+          ],
+          "quote": "So one of our companies, Cadence.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3368.612,
+            3371.013
+          ],
+          "quote": "So what Cadence does is they're a remote patient monitoring company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3405.332,
+            3406.533
+          ],
+          "quote": "Cadence is built with the system.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3406.553,
+            3409.134
+          ],
+          "quote": "So Cadence works and partners with health systems.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3430.348,
+            3431.789
+          ],
+          "quote": "So that is Cadence's model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3460.187,
+            3464.61
+          ],
+          "quote": "And that's Cadence's special sauce, is being able to actually monitor you at all of those times outside.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3664.24,
+            3666.361
+          ],
+          "quote": "I feel like cadence is what they would draw out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "oscar-health",
+      "type": "company",
+      "role": "company",
+      "name": "Oscar Health",
+      "file": "Oscar Health",
+      "primary": true,
+      "how_described": "本集说它是 Thrive 投的第一家公司、在 Thrive 创立时同时孵化,一度从峰值下跌 95%,现已回到 IPO 价之上,靠十年前自建的技术优先基础设施今天用 AI 跑得飞快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            97.524,
+            104.008
+          ],
+          "quote": "You're up to 14 healthcare incubation and Oscar Health was incubated at the time of Thrive launching.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3862.097,
+            3863.218
+          ],
+          "quote": "And that was Oscar Health.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "alphafold",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaFold",
+      "file": "AlphaFold",
+      "primary": true,
+      "how_described": "本集说它是 ISO 团队发明的蛋白质折叠模型(2018 年问世),也是 Demis 获诺贝尔奖的原因,让分子设计这一步越做越好",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            251.104,
+            264.311
+          ],
+          "quote": "Really grasping the proliferation of using and utilizing data and how much data can be shared between one another and whether it's with AlphaFold or drug discovery, all these sorts of things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 123,
+          "t": [
+            555.097,
+            558.498
+          ],
+          "quote": "ISO and team invented protein folding with AlphaFold, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            571.725,
+            575.987
+          ],
+          "quote": "But AlphaFold came out in 2018, so they've been doing this for a while.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "drug-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "药物发现 (drug discovery)",
+      "file": "药物发现",
+      "primary": true,
+      "how_described": "本集说 AI 与药物发现正经历爆炸式增长,会像 AI 供应链那样贯穿整个价值链——设计、试验、生产、商业化全被改变",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            33.933,
+            42.778
+          ],
+          "quote": "We're seeing this explosion of AI and drug discovery, and I think that is changing the way in which they're going to deliver and make drugs, and it's also going to change the entire value chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 30,
+          "t": [
+            125.382,
+            134.028
+          ],
+          "quote": "And so it seems like we're in this complete inflection point of biology and drug discovery and AI and healthcare, and there's just a lot going on there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 33,
+          "t": [
+            148.617,
+            157.943
+          ],
+          "quote": "We're seeing this explosion of AI and drug discovery, and I think that is changing the way in which we are going to deliver and make drugs, and it's also going to change the entire value chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            171.537,
+            175.962
+          ],
+          "quote": "We're going to see the same thing with biotech, where it's not just drug discovery, it's going to be",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            251.104,
+            264.311
+          ],
+          "quote": "Really grasping the proliferation of using and utilizing data and how much data can be shared between one another and whether it's with AlphaFold or drug discovery, all these sorts of things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 55,
+          "t": [
+            269.174,
+            282.739
+          ],
+          "quote": "So yeah, so if we think of AI for drug discovery and where people often think of companies like isomorphic, companies like chai, the magic of it is saying, look, a lot of times you have a target.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 75,
+          "t": [
+            332.52,
+            340.722
+          ],
+          "quote": "And when you talk of all these models that are protein folding models, molecular design, kind of AI for drug discovery, people often think of that problem of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            372.471,
+            380.695
+          ],
+          "quote": "So with these drug discovery models, the idea is, okay, can we first create a model that will let us understand what is the best thing to make to bind this?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2544.683,
+            2548.125
+          ],
+          "quote": "I don't really think, though, these tools will ever be useful in drug discovery.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "clinical-trials",
+      "type": "concept",
+      "role": "concept",
+      "name": "临床试验 (clinical trials)",
+      "file": "临床试验",
+      "primary": true,
+      "how_described": "本集说临床前变快之后临床试验就会成为瓶颈,必须整条链一起优化,否则瓶颈只会不断后移",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            176.362,
+            180.125
+          ],
+          "quote": "Manufacturing is going to be sort of development and how you do your clinical trials is going to be commercialization.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            609.347,
+            617.597
+          ],
+          "quote": "And we have to get better our sort of predictions of what works so that we may not be able to one-shot everything all the way through all the phases of clinical trials.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "本集说嘉宾在 O1 发布前用它测《新英格兰医学杂志》疑难病例,每周都能诊断对,而最好的医生十次只对两次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 535,
+          "t": [
+            2462.163,
+            2464.904
+          ],
+          "quote": "Because we were close to them, I'd be able to play with the reasoning models myself.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "remote-patient-monitoring",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程病人监测 (remote patient monitoring)",
+      "file": "远程病人监测",
+      "primary": true,
+      "how_described": "本集说 Cadence 的模式就是把监测带进一年 8000 多个小时的院外时间,AI 与人类协作干预",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 766,
+          "t": [
+            3368.612,
+            3371.013
+          ],
+          "quote": "So what Cadence does is they're a remote patient monitoring company.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hearing-loss",
+      "type": "concept",
+      "role": "concept",
+      "name": "听力损失 (hearing loss)",
+      "file": "听力损失",
+      "primary": true,
+      "how_described": "本集说它影响全球 15 亿人,是失智症最大的可改变风险因素,患者患失智的概率高出三分之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1413.561,
+            1416.021
+          ],
+          "quote": "So let's talk about hearing aids and hearing loss.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1416.501,
+            1420.322
+          ],
+          "quote": "So hearing loss affects 1.5 billion people worldwide.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1428.784,
+            1431.645
+          ],
+          "quote": "Unfortunately, you and I are probably both going to have hearing loss when we get older.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1438.79,
+            1445.234
+          ],
+          "quote": "So, you know, folks who have hearing loss also have a one-third increase in their likelihood to have dementia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1517.618,
+            1523.942
+          ],
+          "quote": "He'd had grandparents who had unfortunately suffered from hearing loss for a long time and he'd seen the devastating effect it had for him.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1755.415,
+            1756.596
+          ],
+          "quote": "My mom has hearing loss.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "epic",
+      "type": "company",
+      "role": "company",
+      "name": "Epic",
+      "file": "Epic",
+      "primary": false,
+      "how_described": "本集把它当作医疗 IT 的巨无霸对比对象:花 40 年规模仍不到一半医生采用,反衬 OpenEvidence 的三年三分之二",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 604,
+          "t": [
+            2748.078,
+            2751.48
+          ],
+          "quote": "And to put it into context, Epic, which everyone always thinks of, it is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2754.381,
+            2757.843
+          ],
+          "quote": "Epic took 40 years to get to the scale it's at today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2758.203,
+            2761.485
+          ],
+          "quote": "And Epic has less than 50% of physicians using their product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集用来对比 Neuralink——嘉宾认为 Neuralink 比它更有意思,同时说 Neuralink 硬件团队是 SpaceX、Tesla 水准",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            67.574,
+            69.916
+          ],
+          "quote": "Neuralink is a more interesting company than SpaceX.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            987.779,
+            992.023
+          ],
+          "quote": "Their hardware folks are at the same level of SpaceX and Tesla.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1035.811,
+            1045.482
+          ],
+          "quote": "Now it's not surprising that when you have access to folks who are SpaceX, Tesla, Optimist level, you can also create a sort of surgical robot to do this elite kind of neurosurgery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1239.864,
+            1246.255
+          ],
+          "quote": "I think the other thing, and I think maybe this is one of my hot takes, I actually think of, I think Neuralink is a more interesting company than SpaceX.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

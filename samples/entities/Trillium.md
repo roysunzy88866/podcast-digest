@@ -25,7 +25,7 @@ unlisted: true
 
 [[Leisha Lee]] · [[Nathan Lambert]] · [[开源模型]] · [[蒸馏]] · [[前沿模型]] · [[算力]] · [[后训练]] · [[强化学习环境]] · [[RSI]] · [[推理模型]]
 
-<script type="application/json" class="pd-epn">{"Leisha Lee":1,"Nathan Lambert":1,"开源模型":4,"蒸馏":1,"前沿模型":28,"算力":10,"后训练":1,"强化学习环境":1,"RSI":7,"推理模型":2}</script>
+<script type="application/json" class="pd-epn">{"Leisha Lee":1,"Nathan Lambert":1,"开源模型":4,"蒸馏":1,"前沿模型":29,"算力":10,"后训练":1,"强化学习环境":1,"RSI":7,"推理模型":2}</script>
 
 <script>
 (function(){

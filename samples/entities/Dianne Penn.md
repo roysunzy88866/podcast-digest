@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":204,"OpenAI":203,"Claude":97,"Claude Code":114,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":28,"技能":34}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":205,"OpenAI":204,"Claude":97,"Claude Code":114,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":29,"技能":35}</script>
 
 <script>
 (function(){

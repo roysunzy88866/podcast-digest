@@ -135,7 +135,7 @@ Temporal 负责记录和管理整个系统的状态,并提供一个界面,让你
 
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|把智能体推向生产环境:为什么标准基础设施不够用]]<span class="pd-rz">同概念:LangGraph、人类在环 (human in the loop)、持久化执行 (durable execution)、harness</span>
 - [[2026-09-15-twist-90-of-ai-prototypes-never-reach-producti|为什么 90% 的 AI 原型死在了演示阶段？]]<span class="pd-rz">同公司:Temporal · 同概念:持久化执行 (durable execution)、智能体 (agent)、harness</span>
-- [[2026-07-29-productpodcast-how-to-know-your-ai-feature-actually-wor|n8n 创始人 Jan:把代码送出去,反而做到 1 亿欧元 ARR]]<span class="pd-rz">同概念:workflow、人类在环 (human in the loop)、智能体 (agent)</span>
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同概念:LangGraph、人类在环 (human in the loop)、智能体 (agent)、harness</span>
 
 </div>
 <div class="pd-ex">

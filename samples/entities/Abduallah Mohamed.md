@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":25,"智能体":1,"人在回路":23,"部落知识":4,"单一真相来源":1}</script>
+<script type="application/json" class="pd-epn">{"AidaChimp":1,"对齐":25,"智能体":1,"人在回路":24,"部落知识":4,"单一真相来源":1}</script>
 
 <script>
 (function(){

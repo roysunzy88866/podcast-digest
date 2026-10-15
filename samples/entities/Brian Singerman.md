@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Founders Fund":2,"GPX":1,"Anduril":5,"SpaceX":21,"Palantir":20,"Airbnb":14,"Oculus":2,"OpenAI":203,"Anthropic":204,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"Founders Fund":2,"GPX":1,"Anduril":5,"SpaceX":22,"Palantir":20,"Airbnb":14,"Oculus":2,"OpenAI":204,"Anthropic":205,"Cognition":27}</script>
 
 <script>
 (function(){

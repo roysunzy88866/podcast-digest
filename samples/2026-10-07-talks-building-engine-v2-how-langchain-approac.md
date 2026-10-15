@@ -154,7 +154,7 @@ Engine 根据智能体的系统提示词和运行框架，自己猜测什么样�
 
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)、评测 (evals)、轨迹 (trace)</span>
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)、轨迹 (trace)、评测 (evals)</span>
-- [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:智能体 (agent)、评测 (evals)、轨迹 (trace)</span>
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同公司:LangChain、LangSmith · 同概念:智能体 (agent)、评测 (evals)</span>
 
 </div>
 <div class="pd-ex">

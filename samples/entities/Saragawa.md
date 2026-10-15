@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":65,"轨迹":4,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":32,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":66,"轨迹":4,"智能体":1}</script>
 
 <script>
 (function(){

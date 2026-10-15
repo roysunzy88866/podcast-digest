@@ -1,0 +1,1137 @@
+{
+  "episode_id": "2026-10-14-pg-how-the-best-pms-think-about-product-str",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-10-14",
+  "tags": [
+    "产品策略",
+    "AI 时代的产品方法",
+    "差异化与护城河",
+    "指标与衡量",
+    "愚蠢反转"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "tim-herbig",
+      "type": "person",
+      "role": "host",
+      "name": "Tim Herbig",
+      "file": "Tim Herbig",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.595,
+            22.736
+          ],
+          "quote": "Meet Tim Herbig,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            139.23,
+            142.881
+          ],
+          "quote": " That's why I've brought in my friend for over five years, Tim Herbig.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1417,
+          "t": [
+            4205.406,
+            4207.547
+          ],
+          "quote": "You will find me there as Tim Herbig.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-strategy",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品策略 (product strategy)",
+      "file": "产品策略",
+      "primary": true,
+      "how_described": "本集核心主张:产品策略的本质是帮团队和利益相关者有意识地说「是」或「不」;检验标准只有一条——它帮你拒绝了什么。AI 时代功能生产变便宜,选错方向的代价反而更高,策略因此更重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.786,
+            17.401
+          ],
+          "quote": "The fundamental questions you answer in product strategy do not change.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            22.896,
+            24.229333333333333
+          ],
+          "quote": "product strategy expert,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            28.44,
+            33.123
+          ],
+          "quote": " He's worked with hundreds of PMs to make sure their product strategy actually makes",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            150.694,
+            154.855
+          ],
+          "quote": "on how you actually do product strategy in the age of AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            283.607,
+            285.537
+          ],
+          "quote": "when we talk about product strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            344.421,
+            349.113
+          ],
+          "quote": "I believe that we have to think about product strategy like we think about the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            362.072,
+            367.055
+          ],
+          "quote": "your product strategy has to help teams and stakeholders to intentionally say yes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            553.754,
+            556.788
+          ],
+          "quote": "I would call, the core key questions of your product strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            596.787,
+            600.528
+          ],
+          "quote": "which is a product strategy fancy term for basically the market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            745.88,
+            748.9350000000001
+          ],
+          "quote": "So make sure that when you are asked about product strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            994.765,
+            999.4316666666666
+          ],
+          "quote": "you can use AI to create your product strategy as a tool for resource for operation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            999.646,
+            1003.667
+          ],
+          "quote": "But of course, the other part is where does AI appear in your product strategy?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1008.442,
+            1011.4770000000001
+          ],
+          "quote": "when we talk about using AI to create a product strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1062.19,
+            1064.641
+          ],
+          "quote": "when we look at AI as part of your product strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1093.933,
+            1097.285
+          ],
+          "quote": "a product strategy and to use it because it's so widely available,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1097.335,
+            1102.031
+          ],
+          "quote": "the only sustainable Differentiators and product strategy are the ones that take",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1119.303,
+            1125.924
+          ],
+          "quote": "We can continue to work from here and dive deeper into how do we work through product strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1269.025,
+            1275.469
+          ],
+          "quote": "Don't get frustrated about your product strategy being stupid on its face fully.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            1649.892,
+            1651.134
+          ],
+          "quote": "AI product strategy,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2148.627,
+            2152.2381111111113
+          ],
+          "quote": "of your product strategy of what you can do to break things down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            3837.139,
+            3841.527888888889
+          ],
+          "quote": "Can I create, can I provoke focus through the audiences of my product strategy?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1331,
+          "t": [
+            3935.437,
+            3936.138
+          ],
+          "quote": "of product strategy,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1332,
+          "t": [
+            3936.158,
+            3941.061
+          ],
+          "quote": "of course, is also from Ravi Mehta, is the product strategy stack, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1336,
+          "t": [
+            3944.023,
+            3945.304
+          ],
+          "quote": "you have your product strategy in between,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1343,
+          "t": [
+            3965.03,
+            3967.904
+          ],
+          "quote": "you might have a product strategy, maybe you have a level below.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1363,
+          "t": [
+            4023.571,
+            4029.274
+          ],
+          "quote": "about product strategy to think about something that they call evergreen benefits.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "value-proposition",
+      "type": "concept",
+      "role": "concept",
+      "name": "价值主张 (value proposition)",
+      "file": "价值主张",
+      "primary": true,
+      "how_described": "Tim 反复强调:AI 本身不是价值主张,历史上几乎没有哪项技术能单独成为价值主张;AI 只是你用来放大核心价值的一种资源,用户不会为第 15 个 ChatGPT 套壳窗口而来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            34.104,
+            36.736000000000004
+          ],
+          "quote": "AI by itself, in your strategy, is not a value proposition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            41.069,
+            45.051
+          ],
+          "quote": "Would there be some companies where AI could be the value proposition?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            777.421,
+            779.622
+          ],
+          "quote": " What I love here is that AI by itself, in your strategy, is not a value proposition.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            779.642,
+            783.642
+          ],
+          "quote": "Almost no technology in history has been a value proposition on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            827.658,
+            831.762
+          ],
+          "quote": "would there be some companies where AI could be the value proposition?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            845.055,
+            850.759
+          ],
+          "quote": "or maybe like chat PRD Clairvaux has Would you say AI is the value proposition",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            3820.954,
+            3825.476
+          ],
+          "quote": "value proposition, differentiation, and are the opposites obviously stupid?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1306,
+          "t": [
+            3841.96,
+            3847.981
+          ],
+          "quote": "And how does that influence the parts of value proposition and differentiation?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "differentiation",
+      "type": "concept",
+      "role": "concept",
+      "name": "差异化 (differentiation)",
+      "file": "差异化",
+      "primary": true,
+      "how_described": "本集说 AI 时代差异化是最受冲击的策略组件:人人可用同样的前沿/开源模型,技术本身无法差异化;唯一可持续的差异化是品牌和数据这类花最长时间才能建立的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 867,
+          "t": [
+            2541.379,
+            2546.48
+          ],
+          "quote": "that I believe that winning moves and differentiation is the trickiest one,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 872,
+          "t": [
+            2559.963,
+            2565.475
+          ],
+          "quote": "And one of the most Timeless concepts and differentiation of strategy is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 987,
+          "t": [
+            2900.23,
+            2904.975
+          ],
+          "quote": "you might start on this wild differentiation guess and you can link it back up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            2911.284,
+            2915.246
+          ],
+          "quote": "I dived a bit deeper into the audience and the differentiation because, again,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 996,
+          "t": [
+            2926.392,
+            2930.834
+          ],
+          "quote": "Differentiation is the one that is the most affected by can you actually use AI",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 998,
+          "t": [
+            2933.355,
+            2937.9661111111113
+          ],
+          "quote": "for those other differentiation possibilities that you have as a fundamental layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1300,
+          "t": [
+            3820.954,
+            3825.476
+          ],
+          "quote": "value proposition, differentiation, and are the opposites obviously stupid?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1306,
+          "t": [
+            3841.96,
+            3847.981
+          ],
+          "quote": "And how does that influence the parts of value proposition and differentiation?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stupidity-flip",
+      "type": "concept",
+      "role": "concept",
+      "name": "愚蠢反转 (stupidity flip)",
+      "file": "愚蠢反转",
+      "primary": true,
+      "how_described": "源自 Roger Martin 的压力测试(客户称之为 stupidity flip):把策略的每个组成部分翻转过来,如果反面一看就蠢,说明你根本没做真正的选择。本集用净菜产品和二手车案例反复演示。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 439,
+          "t": [
+            1284.696,
+            1288.1404444444443
+          ],
+          "quote": "I showed this to, she started calling this the stupidity flip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1428.546,
+            1432.107
+          ],
+          "quote": "which is like, there needs to be a stupidity flip example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            1859.939,
+            1861.3300000000002
+          ],
+          "quote": "Yeah, that's the stupidity flip.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            1968.255,
+            1971.367
+          ],
+          "quote": "And this would be another example of the stupidity flip working.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1286,
+          "t": [
+            3774.14,
+            3778.003
+          ],
+          "quote": "to flip them and do the stupidity flip to make sure they allow you to say no",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            3812.291,
+            3815.182
+          ],
+          "quote": "The first thing I would encourage them to do is to do the stupidity flip",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1376,
+          "t": [
+            4072.613,
+            4076.156
+          ],
+          "quote": "And then you apply the stupidity flip and you apply that.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "audience-trees",
+      "type": "concept",
+      "role": "concept",
+      "name": "受众树 (audience trees)",
+      "file": "受众树",
+      "primary": true,
+      "how_described": "本集介绍的切分受众的练习:借鉴 Andy Jones「目标受众要窄到近乎可笑」的说法,按地区、收入、车价、购车经验等维度层层切分,在太宽与太窄之间找到可用区间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 736,
+          "t": [
+            2159.43,
+            2164.311
+          ],
+          "quote": "And an important part that I love is an exercise called audience trees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2165.151,
+            2167.542
+          ],
+          "quote": "And so audience trees borrows from this idea.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "seven-powers",
+      "type": "concept",
+      "role": "concept",
+      "name": "七种力量 (Seven Powers)",
+      "file": "七种力量",
+      "primary": true,
+      "how_described": "Hamilton Helmer 的经典差异化框架:转换成本、流程优势、反向定位、品牌、网络效应、规模经济、独占资源。Tim 用它逐一检验 Fair Mile,认为可行的只有品牌、网络效应和与经销商合作做大规模。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 873,
+          "t": [
+            2565.495,
+            2567.4394444444442
+          ],
+          "quote": "from Hamilton Helmer, Seven Powers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 945,
+          "t": [
+            2772.1,
+            2772.951
+          ],
+          "quote": "the seven powers,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 951,
+          "t": [
+            2792.262,
+            2795.224
+          ],
+          "quote": " Does seven powers come after audience?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1315,
+          "t": [
+            3880.078,
+            3885.983
+          ],
+          "quote": "There's the CEO probably defining a lot of these seven powers and core user group.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "north-star-metric",
+      "type": "concept",
+      "role": "concept",
+      "name": "北极星指标 (North Star metric)",
+      "file": "北极星指标",
+      "primary": true,
+      "how_described": "Tim 引 Sean Ellis 的原始定义:北极星指标是代表客户从产品中体验到的价值的那一个指标,它不是业务结果本身(ARR 之类被误挂在墙上不算);策略叙事不必把愿景、使命、北极星全用上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1037,
+          "t": [
+            3059.861,
+            3062.603
+          ],
+          "quote": "mission, business model, North Star metric company strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1045,
+          "t": [
+            3075.792,
+            3077.5829999999996
+          ],
+          "quote": "They're like just a North Star metric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1048,
+          "t": [
+            3079.154,
+            3083.817
+          ],
+          "quote": "like people put it on the wall and they just say ABTA is a North Star metric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3118.867,
+            3122.0809999999997
+          ],
+          "quote": "But the business metric itself is not the North Star metric.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            3133.489,
+            3135.5445555555557
+          ],
+          "quote": "And, oh, this North Star metric, etc.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1077,
+          "t": [
+            3146.04,
+            3148.9919999999997
+          ],
+          "quote": "Whatever you use up here, you can only use the North Star metric, only the vision.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "okrs",
+      "type": "concept",
+      "role": "concept",
+      "name": "OKRs",
+      "file": "OKRs",
+      "primary": true,
+      "how_described": "本集主张别先写 OKR,先用大白话回答「下季度做什么不一样的事」和「怎么知道它起效了」,再翻译成任何框架;指标必须与策略选择专门绑定,不能用「收入增长」这类噪音大、延迟长的通用指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1098,
+          "t": [
+            3208.045,
+            3213.129
+          ],
+          "quote": "yeah, let's write more OKRs or let's get lost in the metrics, frameworks, whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            3228.115,
+            3231.5099999999998
+          ],
+          "quote": "I don't tell people, let's write OKRs, let's write Northstar metrics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1132,
+          "t": [
+            3306.146,
+            3311.181
+          ],
+          "quote": " Whether it's a dashboard, whether it's OKRs, whether it's balanced scorecard, I don't care.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3318.478,
+            3319.92
+          ],
+          "quote": "And for metrics and OKRs,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1256,
+          "t": [
+            3681.203,
+            3684.8696666666665
+          ],
+          "quote": "but these are not great OKRs you would use to execute the strategy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1274,
+          "t": [
+            3738.702,
+            3743.590888888889
+          ],
+          "quote": " And that's the difference between something like OKRs and something as generic as KPIs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokens-used",
+      "type": "concept",
+      "role": "concept",
+      "name": "token 用量 (tokens used)",
+      "file": "token 用量",
+      "primary": true,
+      "how_described": "Tim 点名的「机器中心指标」典型:token 用量对客户没有任何价值交换,那是对 Anthropic 的价值交换——你用得越多他们赚得越多,用它衡量策略是自欺。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            48.174,
+            51.836
+          ],
+          "quote": " They tell me about, you know, tokens used, Language, model efficiency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            51.856,
+            55.048
+          ],
+          "quote": "Point is, tokens used is not a value exchange for your customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1140,
+          "t": [
+            3337.551,
+            3341.645
+          ],
+          "quote": "you know, tokens used, language, model efficiency, blah, blah, blah, blah, blah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            3344.498,
+            3347.45
+          ],
+          "quote": "Like, tokens used is not a value exchange for your customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            3452.621,
+            3453.8729999999996
+          ],
+          "quote": "of tokens used per day.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-strategy-stack",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品策略栈 (product strategy stack)",
+      "file": "产品策略栈",
+      "primary": true,
+      "how_described": "Ravi Mehta 的概念:使命、公司策略、产品策略、路线图、目标层层向下,每一层都是漏斗;基层 PM 的做法是看上一层的选择能否帮自己说不,能就继承,不能就再切细一层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1332,
+          "t": [
+            3936.158,
+            3941.061
+          ],
+          "quote": "of course, is also from Ravi Mehta, is the product strategy stack, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "作为 Seven Powers 之一被讨论:网络效应没法复制粘贴,对二手车市场 Fair Mile 而言是把买卖双方真正锁定。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 901,
+          "t": [
+            2644.592,
+            2647.504
+          ],
+          "quote": "And of course, we have brand, we have network effects.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 907,
+          "t": [
+            2665.143,
+            2668.515
+          ],
+          "quote": "You have network effects because you can't copy and paste network effects,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 929,
+          "t": [
+            2725.869,
+            2729.031
+          ],
+          "quote": "I think the network effects are getting the buyer and seller side really in place,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 947,
+          "t": [
+            2774.441,
+            2778.823
+          ],
+          "quote": "it's about network effects, maybe getting the dealership in place.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evergreen-benefits",
+      "type": "concept",
+      "role": "concept",
+      "name": "常青优势 (evergreen benefits)",
+      "file": "常青优势",
+      "primary": false,
+      "how_described": "Tim 在 Personio 的朋友提到的概念:公司已经极其擅长什么(某渠道、某技术),产品层面直接借力,不必重新造轮子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1363,
+          "t": [
+            4023.571,
+            4029.274
+          ],
+          "quote": "about product strategy to think about something that they call evergreen benefits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1364,
+          "t": [
+            4030.235,
+            4031.906
+          ],
+          "quote": "And evergreen benefits is essentially,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": false,
+      "how_described": "本集用来论证技术无法差异化:每个人都能访问同样的前沿模型或开源模型,你无法单靠它竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            36.786,
+            39.007
+          ],
+          "quote": "Everyone has access to the same frontier models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            813.371,
+            816.9240000000001
+          ],
+          "quote": "Everyone has access to the same frontier models or open source models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
+      "type": "company",
+      "role": "company",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": false,
+      "how_described": "本集举的成功案例:人们选择它是因为创始人 Claire 把自己做首席产品官的经验通过 AI 注入产品,放大了 AI 这个技术资源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            900.502,
+            901.543
+          ],
+          "quote": "He said, ChatPRD.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            902.564,
+            906.457
+          ],
+          "quote": "My bet is, I think that would be the part, like, why do people choose ChatPRD?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "photo-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Photo AI",
+      "file": "Photo AI",
+      "primary": false,
+      "how_described": "Levels.io 的产品,月入 83K;Tim 认为它成功靠的是创始人极其鲜明的个人品牌,而不是 AI 技术本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 287,
+          "t": [
+            831.962,
+            835.566
+          ],
+          "quote": " Like Levels.io has this company called Photo AI",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fair-mile",
+      "type": "company",
+      "role": "company",
+      "name": "Fair Mile",
+      "file": "Fair Mile",
+      "primary": false,
+      "how_described": "本集虚构的欧洲二手车交易平台案例,贯穿全篇用来演示愚蠢反转、受众树和 Seven Powers 的落地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            1872.688,
+            1876.78
+          ],
+          "quote": " So I'm calling it Fair Mile, and it's essentially, it's a used car marketplace.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1879.991,
+            1885.102111111111
+          ],
+          "quote": "You have sellers and dealers, you have Fair Mile as the company in between, you have buyers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1896.844,
+            1900.2160000000001
+          ],
+          "quote": " We, as Fair Mile, we have to facilitate all this inspection.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2006.372,
+            2010.276
+          ],
+          "quote": "So if you take some of the choices that Fair Mile has already done,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 928,
+          "t": [
+            2720.267,
+            2725.849
+          ],
+          "quote": "So some of these things, again, if you look at Fair Mile, our product, again, it's the brand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            3875.035,
+            3878.898
+          ],
+          "quote": "So let's say we're at Fair Mile and there's three people working on strategy",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "被引作反例:token 用量是对 Anthropic 的价值交换;且它与 Google、Microsoft、OpenAI 一样能靠别的业务补贴打价格战,别人玩不起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 559,
+          "t": [
+            1655.057,
+            1662.057
+          ],
+          "quote": "all from frontier leaders at OpenAI, Anthropic, and Google for less than $10 a day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 980,
+          "t": [
+            2877.411,
+            2878.532
+          ],
+          "quote": "Anthropic OpenAI,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1143,
+          "t": [
+            3347.5,
+            3349.5
+          ],
+          "quote": "It's a value exchange for Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personio",
+      "type": "company",
+      "role": "company",
+      "name": "Personio",
+      "file": "Personio",
+      "primary": false,
+      "how_described": "欧洲最大的 HR 软件操作系统,Tim 的朋友在此工作,「常青优势」概念来自这家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1359,
+          "t": [
+            4010.884,
+            4012.985
+          ],
+          "quote": "a friend of mine works at Personio,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            4018.528,
+            4023.511
+          ],
+          "quote": "he talked about an idea at Personio where people are encouraged when they think",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "moat",
+      "reason": "专名「moat」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "vibe coding",
+      "reason": "专名「vibe coding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

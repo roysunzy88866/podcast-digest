@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
+[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":97,"Herder":1,"循环":10,"智能体":1,"技能":34,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
+<script type="application/json" class="pd-epn">{"JobNimbus":1,"Claude":97,"Herder":1,"循环":10,"智能体":1,"技能":35,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
 
 <script>
 (function(){

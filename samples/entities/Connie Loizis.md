@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":204,"OpenAI":203,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":28}</script>
+<script type="application/json" class="pd-epn">{"Al Gore":1,"Lila Preston":1,"Generation Investment Management":1,"Anthropic":205,"OpenAI":204,"Pivot Bio":1,"Gridware":1,"IFS":2,"数据中心":25,"前沿模型":29}</script>
 
 <script>
 (function(){

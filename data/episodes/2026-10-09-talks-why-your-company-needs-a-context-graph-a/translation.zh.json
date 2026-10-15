@@ -1,0 +1,1866 @@
+[
+ {
+  "seg": 0,
+  "start": 12.585,
+  "end": 13.205,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.445,
+  "end": 14.866,
+  "speaker": "Unknown",
+  "en": "Thank you all for coming.",
+  "zh": "感谢大家前来。"
+ },
+ {
+  "seg": 2,
+  "start": 16.066,
+  "end": 16.986,
+  "speaker": "Unknown",
+  "en": "My name is Gil Feig.",
+  "zh": "我叫 Gil Feig。"
+ },
+ {
+  "seg": 3,
+  "start": 17.147,
+  "end": 19.887,
+  "speaker": "Unknown",
+  "en": "I am the co-founder and CTO of Merge.",
+  "zh": "我是 Merge 的联合创始人兼 CTO。"
+ },
+ {
+  "seg": 4,
+  "start": 20.468,
+  "end": 24.169,
+  "speaker": "Unknown",
+  "en": "Merge helps companies build production AI very easily.",
+  "zh": "Merge 帮助公司非常轻松地构建生产级 AI。"
+ },
+ {
+  "seg": 5,
+  "start": 24.229,
+  "end": 27.47,
+  "speaker": "Unknown",
+  "en": "We are the connective infrastructure to make everything come together.",
+  "zh": "我们是让一切整合在一起的连接性基础设施。"
+ },
+ {
+  "seg": 6,
+  "start": 28.39,
+  "end": 31.993,
+  "speaker": "Unknown",
+  "en": "Today I'm going to be talking about why you need a context graph and how to build it.",
+  "zh": "今天我要讲的是为什么你需要一个上下文图,以及如何构建它。"
+ },
+ {
+  "seg": 7,
+  "start": 32.354,
+  "end": 35.817,
+  "speaker": "Unknown",
+  "en": "What I'm not going to do is talk about specific technology you should be using.",
+  "zh": "我不打算讲的是你应该使用的具体技术。"
+ },
+ {
+  "seg": 8,
+  "start": 36.377,
+  "end": 37.838,
+  "speaker": "Unknown",
+  "en": "You can talk to your agent about that.",
+  "zh": "你可以和你的智能体讨论那个。"
+ },
+ {
+  "seg": 9,
+  "start": 37.959,
+  "end": 38.679,
+  "speaker": "Unknown",
+  "en": "It will help you.",
+  "zh": "它会帮你的。"
+ },
+ {
+  "seg": 10,
+  "start": 38.939,
+  "end": 40.961,
+  "speaker": "Unknown",
+  "en": "There's a lot of good technologies that can back this.",
+  "zh": "有很多好技术可以支撑这个。"
+ },
+ {
+  "seg": 11,
+  "start": 41.542,
+  "end": 54.613,
+  "speaker": "Unknown",
+  "en": "The focus of this is why you need a context graph and then sort of in a higher level, how you should structure it, what the components should be, and how things come together to build the best possible brain for your company.",
+  "zh": "这场演讲的重点是为什么你需要一个上下文图,然后在更高的层面讲讲你应该如何组织它、组件应该是什么,以及这些东西如何组合起来,为公司构建最好 possible 的大脑。"
+ },
+ {
+  "seg": 12,
+  "start": 56.426,
+  "end": 60.411,
+  "speaker": "Unknown",
+  "en": "If you haven't gotten a hat yet, by the way, my team is walking around passing out hats.",
+  "zh": "顺便说一下,如果你还没拿到帽子,我的团队正在四处发帽子。"
+ },
+ {
+  "seg": 13,
+  "start": 60.491,
+  "end": 61.472,
+  "speaker": "Unknown",
+  "en": "They say well-connected.",
+  "zh": "帽子上写着 well-connected。"
+ },
+ {
+  "seg": 14,
+  "start": 62.573,
+  "end": 64.636,
+  "speaker": "Unknown",
+  "en": "So let's dive in here.",
+  "zh": "那么我们开始吧。"
+ },
+ {
+  "seg": 15,
+  "start": 65.016,
+  "end": 68.38,
+  "speaker": "Unknown",
+  "en": "So I'm not going to spend much talking about Merge, but just a quick overview of us.",
+  "zh": "我不会花太多时间讲 Merge,只是简单介绍一下我们。"
+ },
+ {
+  "seg": 16,
+  "start": 69.041,
+  "end": 74.808,
+  "speaker": "Unknown",
+  "en": "We have over 400 enterprise customers, OpenAI, Ramp, Netflix, Perplexity, a lot of companies across the board.",
+  "zh": "我们有超过 400 家企业客户,OpenAI、Ramp、Netflix、Perplexity,还有很多各类公司。"
+ },
+ {
+  "seg": 17,
+  "start": 75.282,
+  "end": 79.704,
+  "speaker": "Unknown",
+  "en": "Using us for both internal and customer-facing AI use cases.",
+  "zh": "他们用我们做内部和面向客户的 AI 用例。"
+ },
+ {
+  "seg": 18,
+  "start": 80.385,
+  "end": 84.927,
+  "speaker": "Unknown",
+  "en": "We have three different products, Unified, Agent Handler, and Gateway, that cover a lot of the components of it.",
+  "zh": "我们有三个不同的产品,Unified、Agent Handler 和 Gateway,涵盖了很多相关组件。"
+ },
+ {
+  "seg": 19,
+  "start": 85.427,
+  "end": 87.908,
+  "speaker": "Unknown",
+  "en": "We were founded six years ago by me and my co-founder Shentsy.",
+  "zh": "我们是六年前由我和我的联合创始人 Shentsy 创立的。"
+ },
+ {
+  "seg": 20,
+  "start": 88.188,
+  "end": 89.669,
+  "speaker": "Unknown",
+  "en": "We've raised three rounds.",
+  "zh": "我们融了三轮。"
+ },
+ {
+  "seg": 21,
+  "start": 89.689,
+  "end": 93.291,
+  "speaker": "Unknown",
+  "en": "We're 130 employees in the three most beautiful cities in the world.",
+  "zh": "我们有 130 名员工,分布在世界上三个最美丽的城市。"
+ },
+ {
+  "seg": 22,
+  "start": 95.691,
+  "end": 97.792,
+  "speaker": "Unknown",
+  "en": "All right, so quick agenda here.",
+  "zh": "好,快速过一下议程。"
+ },
+ {
+  "seg": 23,
+  "start": 98.192,
+  "end": 104.555,
+  "speaker": "Unknown",
+  "en": "Step one, or number one, we will talk about what a context graph even is and why it's so important that every company has one.",
+  "zh": "第一步,或者说第一点,我们会讲上下文图到底是什么,以及为什么每家公司都有一个上下文图如此重要。"
+ },
+ {
+  "seg": 24,
+  "start": 105.115,
+  "end": 112.739,
+  "speaker": "Unknown",
+  "en": "We'll go into the different tiers of context, what types of data, what types of sort of logic from your company should be making it into your graph.",
+  "zh": "我们会深入讲上下文的不同层级,什么类型的数据、你公司的什么类型的逻辑应该进入你的图。"
+ },
+ {
+  "seg": 25,
+  "start": 113.454,
+  "end": 115.615,
+  "speaker": "Unknown",
+  "en": "We'll talk about context selection strategy.",
+  "zh": "我们会讲上下文选择策略。"
+ },
+ {
+  "seg": 26,
+  "start": 115.935,
+  "end": 120.857,
+  "speaker": "Unknown",
+  "en": "How are we picking the most relevant content for our agents or context for our agents at any moment in time?",
+  "zh": "在任何时刻,我们如何为我们的智能体挑选最相关的内容或上下文?"
+ },
+ {
+  "seg": 27,
+  "start": 121.557,
+  "end": 122.737,
+  "speaker": "Unknown",
+  "en": "Traceability and provenance.",
+  "zh": "可追溯性和来源溯源。"
+ },
+ {
+  "seg": 28,
+  "start": 123.137,
+  "end": 124.538,
+  "speaker": "Unknown",
+  "en": "How do we know where that data came from?",
+  "zh": "我们如何知道那些数据是从哪来的?"
+ },
+ {
+  "seg": 29,
+  "start": 124.598,
+  "end": 125.398,
+  "speaker": "Unknown",
+  "en": "Who requested it?",
+  "zh": "谁请求的?"
+ },
+ {
+  "seg": 30,
+  "start": 125.798,
+  "end": 126.779,
+  "speaker": "Unknown",
+  "en": "When it's from?",
+  "zh": "什么时候的数据?"
+ },
+ {
+  "seg": 31,
+  "start": 126.879,
+  "end": 127.499,
+  "speaker": "Unknown",
+  "en": "Is it fresh?",
+  "zh": "是否是新鲜的?"
+ },
+ {
+  "seg": 32,
+  "start": 127.779,
+  "end": 128.159,
+  "speaker": "Unknown",
+  "en": "All of that.",
+  "zh": "所有这些。"
+ },
+ {
+  "seg": 33,
+  "start": 128.579,
+  "end": 130.44,
+  "speaker": "Unknown",
+  "en": "And then lastly, some final key takeaways.",
+  "zh": "最后,一些关键的要点总结。"
+ },
+ {
+  "seg": 34,
+  "start": 131.7,
+  "end": 133.961,
+  "speaker": "Unknown",
+  "en": "At the end, I'll stick around if you do have any questions.",
+  "zh": "结束后,如果你们有任何问题,我会留下来。"
+ },
+ {
+  "seg": 35,
+  "start": 134.281,
+  "end": 136.362,
+  "speaker": "Unknown",
+  "en": "So feel free to come up to me afterwards.",
+  "zh": "所以欢迎之后来找我。"
+ },
+ {
+  "seg": 36,
+  "start": 138.8,
+  "end": 139.12,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好。"
+ },
+ {
+  "seg": 37,
+  "start": 139.2,
+  "end": 141.583,
+  "speaker": "Unknown",
+  "en": "So what is a context graph in this talk?",
+  "zh": "那么在这场演讲中,上下文图是什么?"
+ },
+ {
+  "seg": 38,
+  "start": 141.903,
+  "end": 148.109,
+  "speaker": "Unknown",
+  "en": "We're not going to go into the nodes and the edges that connect each node in a true graph infrastructure.",
+  "zh": "我们不会深入讲真正的图基础设施中的节点和连接每个节点的边。"
+ },
+ {
+  "seg": 39,
+  "start": 148.43,
+  "end": 150.432,
+  "speaker": "Unknown",
+  "en": "We're going to talk about the company brain.",
+  "zh": "我们要讲的是公司大脑。"
+ },
+ {
+  "seg": 40,
+  "start": 151.403,
+  "end": 155.264,
+  "speaker": "Unknown",
+  "en": "Your company context graph consists of a lot of different components.",
+  "zh": "你的公司上下文图由很多不同的组件构成。"
+ },
+ {
+  "seg": 41,
+  "start": 155.764,
+  "end": 156.985,
+  "speaker": "Unknown",
+  "en": "It has third-party data.",
+  "zh": "它有第三方数据。"
+ },
+ {
+  "seg": 42,
+  "start": 157.225,
+  "end": 161.366,
+  "speaker": "Unknown",
+  "en": "What are the other systems you use, like NetSuite, like Jira?",
+  "zh": "你使用的其他系统是什么,比如 NetSuite、比如 Jira?"
+ },
+ {
+  "seg": 43,
+  "start": 162.146,
+  "end": 163.826,
+  "speaker": "Unknown",
+  "en": "It has structured context.",
+  "zh": "它有结构化上下文。"
+ },
+ {
+  "seg": 44,
+  "start": 164.507,
+  "end": 167.647,
+  "speaker": "Unknown",
+  "en": "So that could be data coming in from other third parties.",
+  "zh": "这可能是从其他第三方传入的数据。"
+ },
+ {
+  "seg": 45,
+  "start": 167.687,
+  "end": 176.73,
+  "speaker": "Unknown",
+  "en": "That could be data that you all have put into your context layer, things like static documents that you want to always be passed to your agents.",
+  "zh": "也可能是你们放入自己上下文层的数据,比如你希望总是传给智能体的静态文档。"
+ },
+ {
+  "seg": 46,
+  "start": 177.49,
+  "end": 178.33,
+  "speaker": "Unknown",
+  "en": "We have memories.",
+  "zh": "我们有记忆。"
+ },
+ {
+  "seg": 47,
+  "start": 178.39,
+  "end": 179.451,
+  "speaker": "Unknown",
+  "en": "These are things that are formed.",
+  "zh": "这些是被形成的东西。"
+ },
+ {
+  "seg": 48,
+  "start": 179.471,
+  "end": 186.033,
+  "speaker": "Unknown",
+  "en": "We all know memory, things that are formed as you're using the agent, telling it to remember things, things that your agent thinks it should remember on its own.",
+  "zh": "我们都知道记忆,就是在你使用智能体时被形成的东西,让它记住某些事情,以及你的智能体自己认为应该记住的东西。"
+ },
+ {
+  "seg": 49,
+  "start": 186.574,
+  "end": 187.934,
+  "speaker": "Unknown",
+  "en": "And then we also have skills.",
+  "zh": "然后我们还有技能。"
+ },
+ {
+  "seg": 50,
+  "start": 188.654,
+  "end": 192.536,
+  "speaker": "Unknown",
+  "en": "And skills are a very, very important part of your context graph, which we'll get to.",
+  "zh": "而技能是你的上下文图谱中非常、非常重要的组成部分，我们稍后会讲到。"
+ },
+ {
+  "seg": 51,
+  "start": 195.833,
+  "end": 196.713,
+  "speaker": "Unknown",
+  "en": "All right, I see some pictures.",
+  "zh": "好了，我看到一些图片了。"
+ },
+ {
+  "seg": 52,
+  "start": 196.753,
+  "end": 197.194,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好，很酷。"
+ },
+ {
+  "seg": 53,
+  "start": 197.794,
+  "end": 200.175,
+  "speaker": "Unknown",
+  "en": "So moving on, let's go through an example here.",
+  "zh": "那么继续，我们来看一个例子。"
+ },
+ {
+  "seg": 54,
+  "start": 200.195,
+  "end": 208.959,
+  "speaker": "Unknown",
+  "en": "We're going to use this example to guide why it's not enough to just connect a single MCP server or a couple MCP servers and call it a day.",
+  "zh": "我们将用这个例子来说明，为什么仅仅连接一个 MCP 服务器或几个 MCP 服务器就完事是不够的。"
+ },
+ {
+  "seg": 55,
+  "start": 209.757,
+  "end": 212.039,
+  "speaker": "Unknown",
+  "en": "So let's ask this simple question.",
+  "zh": "那么我们来问这个简单的问题。"
+ },
+ {
+  "seg": 56,
+  "start": 212.28,
+  "end": 217.766,
+  "speaker": "Unknown",
+  "en": "One of your employees or customers asks your agent, why was customer A upset last week?",
+  "zh": "你的员工或客户问你的智能体：客户 A 上周为什么不高兴？"
+ },
+ {
+  "seg": 57,
+  "start": 218.566,
+  "end": 220.088,
+  "speaker": "Unknown",
+  "en": "Pretty simple question to answer.",
+  "zh": "这是一个相当简单、容易回答的问题。"
+ },
+ {
+  "seg": 58,
+  "start": 220.448,
+  "end": 228.077,
+  "speaker": "Unknown",
+  "en": "The agent goes, it sees it has access to your Zendesk ticketing, and it can check and say, hey, what tickets were filed by this customer last week?",
+  "zh": "智能体一看，发现自己有权限访问你的 Zendesk 工单系统，它可以查一下说：嘿，这位客户上周提交了哪些工单？"
+ },
+ {
+  "seg": 59,
+  "start": 228.477,
+  "end": 228.697,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 60,
+  "start": 228.757,
+  "end": 234.422,
+  "speaker": "Unknown",
+  "en": "We saw that they saw that the API sync was broken and specific details about what went wrong.",
+  "zh": "我们看到他们发现 API 同步坏了，还有具体哪里出了问题的细节。"
+ },
+ {
+  "seg": 61,
+  "start": 234.722,
+  "end": 237.784,
+  "speaker": "Unknown",
+  "en": "We also see the customer filed three tickets total, all of that.",
+  "zh": "我们还看到该客户总共提交了三张工单，诸如此类。"
+ },
+ {
+  "seg": 62,
+  "start": 238.185,
+  "end": 238.465,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 63,
+  "start": 238.545,
+  "end": 239.546,
+  "speaker": "Unknown",
+  "en": "That answers that question.",
+  "zh": "这就回答了那个问题。"
+ },
+ {
+  "seg": 64,
+  "start": 240.126,
+  "end": 241.427,
+  "speaker": "Unknown",
+  "en": "But what if we want to extend that?",
+  "zh": "但如果我们想扩展这个问题呢？"
+ },
+ {
+  "seg": 65,
+  "start": 241.507,
+  "end": 244.55,
+  "speaker": "Unknown",
+  "en": "And what if we want to say which customers were upset last week?",
+  "zh": "如果我们想问：上周有哪些客户不高兴？"
+ },
+ {
+  "seg": 66,
+  "start": 245.21,
+  "end": 252.132,
+  "speaker": "Unknown",
+  "en": "That becomes a lot harder because you now have to have your agent load in every single ticket from Zendesk that happened in the last week.",
+  "zh": "这就变得困难多了，因为你的智能体现在必须把 Zendesk 里过去一周的每一张工单都加载进来。"
+ },
+ {
+  "seg": 67,
+  "start": 252.592,
+  "end": 255.293,
+  "speaker": "Unknown",
+  "en": "What if we're saying which customers were upset in the last year?",
+  "zh": "如果我们问：过去一年有哪些客户不高兴？"
+ },
+ {
+  "seg": 68,
+  "start": 255.913,
+  "end": 257.033,
+  "speaker": "Unknown",
+  "en": "We should be able to answer that.",
+  "zh": "我们应该能够回答这个问题。"
+ },
+ {
+  "seg": 69,
+  "start": 257.073,
+  "end": 266.116,
+  "speaker": "Unknown",
+  "en": "Our agent should be able to answer that, but it can't if it has to live look up and pull tickets 100 at a time, thousands and thousands of those until it times out and it just can't answer the question.",
+  "zh": "我们的智能体应该能够回答这个问题，但如果它必须实时查询、每次拉取 100 张工单，成千上万张地拉，直到超时，那它就答不了这个问题。"
+ },
+ {
+  "seg": 70,
+  "start": 266.935,
+  "end": 277.318,
+  "speaker": "Unknown",
+  "en": "So MCP is not fully solving a lot of these problems because the underlying access patterns of the APIs of these other platforms don't support a live lookup methodology.",
+  "zh": "所以 MCP 并没有完全解决这些问题，因为这些其他平台的 API 底层访问模式并不支持实时查询的方法论。"
+ },
+ {
+  "seg": 71,
+  "start": 278.498,
+  "end": 294.323,
+  "speaker": "Unknown",
+  "en": "If you could ask your ticketing system something semantically, if Jira exposed an endpoint that said, you know, that you could query in English which customers were upset last week and it returned that data, that would be great, but no platform's incentivized to do that because it costs them money to vectorize it and",
+  "zh": "如果你可以用语义化的方式问你的工单系统，如果 Jira 暴露了一个接口，可以用英文查询上周哪些客户不高兴并返回这些数据，那就太好了，但没有任何平台有动力这么做，因为向量化要花钱，而且"
+ },
+ {
+  "seg": 72,
+  "start": 294.968,
+  "end": 296.911,
+  "speaker": "Unknown",
+  "en": "It makes it so you don't have to visit their platform as often.",
+  "zh": "这会让你不那么频繁地访问他们的平台。"
+ },
+ {
+  "seg": 73,
+  "start": 299.394,
+  "end": 301.136,
+  "speaker": "Unknown",
+  "en": "So you need a syncing layer on top of this.",
+  "zh": "所以你需要在这之上加一层同步层。"
+ },
+ {
+  "seg": 74,
+  "start": 301.477,
+  "end": 307.885,
+  "speaker": "Unknown",
+  "en": "You can't just use MCP to live lookup for things that you want to go deeper into, that you want to semantically question.",
+  "zh": "对于那些你想深入、想进行语义化提问的东西，你不能只用 MCP 做实时查询。"
+ },
+ {
+  "seg": 75,
+  "start": 308.286,
+  "end": 310.729,
+  "speaker": "Unknown",
+  "en": "You need to actually sync a copy of the data locally.",
+  "zh": "你需要实际在本地同步一份数据副本。"
+ },
+ {
+  "seg": 76,
+  "start": 311.902,
+  "end": 313.783,
+  "speaker": "Unknown",
+  "en": "This doesn't apply to everything.",
+  "zh": "这并不适用于所有东西。"
+ },
+ {
+  "seg": 77,
+  "start": 313.943,
+  "end": 317.425,
+  "speaker": "Unknown",
+  "en": "So you might have, let's say, static lookups to Stripe.",
+  "zh": "比如说，你可能对 Stripe 做静态查询。"
+ },
+ {
+  "seg": 78,
+  "start": 317.445,
+  "end": 320.307,
+  "speaker": "Unknown",
+  "en": "We're always going to be asking Stripe a question about a specific customer.",
+  "zh": "我们问 Stripe 的永远是关于某个特定客户的问题。"
+ },
+ {
+  "seg": 79,
+  "start": 320.567,
+  "end": 322.588,
+  "speaker": "Unknown",
+  "en": "We're always going to be taking a single action in Stripe.",
+  "zh": "我们在 Stripe 里做的永远是一个单一操作。"
+ },
+ {
+  "seg": 80,
+  "start": 322.929,
+  "end": 323.729,
+  "speaker": "Unknown",
+  "en": "That can be MCP.",
+  "zh": "那可以用 MCP。"
+ },
+ {
+  "seg": 81,
+  "start": 323.749,
+  "end": 324.429,
+  "speaker": "Unknown",
+  "en": "That can be live.",
+  "zh": "那可以是实时的。"
+ },
+ {
+  "seg": 82,
+  "start": 324.71,
+  "end": 334.956,
+  "speaker": "Unknown",
+  "en": "But if you need any form of semantic lookups, any form of analysis that is beyond a simple lookup, simple question, but requires looking across a vast data set, you have to sync a copy.",
+  "zh": "但如果你需要任何形式的语义查询，任何超越简单查询、简单提问的分析，需要跨越庞大数据集的分析，你就必须同步一份副本。"
+ },
+ {
+  "seg": 83,
+  "start": 335.996,
+  "end": 340.258,
+  "speaker": "Unknown",
+  "en": "So that becomes the next part of your syncing layer, of your context layer.",
+  "zh": "这就变成了你同步层的下一部分，也就是你上下文层的下一部分。"
+ },
+ {
+  "seg": 84,
+  "start": 340.578,
+  "end": 345.579,
+  "speaker": "Unknown",
+  "en": "So you have your MCPs, your live lookups, you have your synced or your cached lookups as well.",
+  "zh": "于是你有了你的 MCP、你的实时查询，你还有你的同步查询或缓存查询。"
+ },
+ {
+  "seg": 85,
+  "start": 346.34,
+  "end": 350.201,
+  "speaker": "Unknown",
+  "en": "And that, you're pulling in from a third party, you're putting in a vector database locally.",
+  "zh": "这就是，你从第三方拉取数据，放进本地的一个向量数据库。"
+ },
+ {
+  "seg": 86,
+  "start": 350.701,
+  "end": 353.622,
+  "speaker": "Unknown",
+  "en": "Again, AI can build that VectorDB for you relatively easily.",
+  "zh": "再说一次，AI 可以帮你相对轻松地构建那个 VectorDB。"
+ },
+ {
+  "seg": 87,
+  "start": 354.263,
+  "end": 361.385,
+  "speaker": "Unknown",
+  "en": "You gotta work on your strategy of how you store data in the context layer and how you retrieve from it for that synced cache layer.",
+  "zh": "你得研究好你的策略：在上下文层里如何存储数据，以及针对那个同步缓存层如何从中检索。"
+ },
+ {
+  "seg": 88,
+  "start": 361.965,
+  "end": 363.646,
+  "speaker": "Unknown",
+  "en": "But that's sort of the next component here.",
+  "zh": "但这大致就是这里的下一个组件。"
+ },
+ {
+  "seg": 89,
+  "start": 364.838,
+  "end": 368.122,
+  "speaker": "Unknown",
+  "en": "But the next problem is, all right, now we have all this relevant data.",
+  "zh": "而下一个问题是：好了，现在我们有了所有这些相关数据。"
+ },
+ {
+  "seg": 90,
+  "start": 368.162,
+  "end": 374.53,
+  "speaker": "Unknown",
+  "en": "We're pulling from our vector database to get semantic data, and we're doing live lookups for other data we might want on top.",
+  "zh": "我们从向量数据库拉取语义数据，同时对其他可能需要的数据做实时查询。"
+ },
+ {
+  "seg": 91,
+  "start": 374.91,
+  "end": 380.617,
+  "speaker": "Unknown",
+  "en": "Now we need to bring all that data together, because we can't just dump a massive amount of retrieved context back to our agent.",
+  "zh": "现在我们需要把这些数据整合到一起，因为我们不能把海量检索到的上下文一股脑倒回给我们的智能体。"
+ },
+ {
+  "seg": 92,
+  "start": 381.478,
+  "end": 383.58,
+  "speaker": "Unknown",
+  "en": "So that's where we introduce the router and the summarizer.",
+  "zh": "所以这就是我们引入路由器和摘要器的地方。"
+ },
+ {
+  "seg": 93,
+  "start": 383.881,
+  "end": 386.483,
+  "speaker": "Unknown",
+  "en": "The router is sending things to the right place at the beginning.",
+  "zh": "路由器在最初把东西发送到正确的地方。"
+ },
+ {
+  "seg": 94,
+  "start": 386.583,
+  "end": 387.404,
+  "speaker": "Unknown",
+  "en": "The prompt comes in.",
+  "zh": "提示词进来。"
+ },
+ {
+  "seg": 95,
+  "start": 387.684,
+  "end": 390.667,
+  "speaker": "Unknown",
+  "en": "It decides who should be handling this, where it should be sent.",
+  "zh": "它决定该由谁来处理、该发送到哪里。"
+ },
+ {
+  "seg": 96,
+  "start": 391.308,
+  "end": 403.12,
+  "speaker": "Unknown",
+  "en": "Once that data is all aggregated in there, our summarizer then takes that data from the synced context and from the live context, summarizes it, and sends it back to the agent that sent the prompt over.",
+  "zh": "一旦数据在那里全部聚合完毕，我们的摘要器就从同步上下文和实时上下文中取出数据，进行摘要，然后把它发回给发送那个提示词的智能体。"
+ },
+ {
+  "seg": 97,
+  "start": 404.983,
+  "end": 409.007,
+  "speaker": "Unknown",
+  "en": "But you all notice we have one thing here that we haven't talked about, and that's memory and skills.",
+  "zh": "但你们都注意到了，这里还有一样东西我们还没讲到，那就是记忆和技能。"
+ },
+ {
+  "seg": 98,
+  "start": 409.568,
+  "end": 410.569,
+  "speaker": "Unknown",
+  "en": "That could live separately.",
+  "zh": "它们可以单独存在。"
+ },
+ {
+  "seg": 99,
+  "start": 410.609,
+  "end": 412.371,
+  "speaker": "Unknown",
+  "en": "Why is it important for your context layer?",
+  "zh": "那为什么它们对你的上下文层很重要？"
+ },
+ {
+  "seg": 100,
+  "start": 412.911,
+  "end": 420.119,
+  "speaker": "Unknown",
+  "en": "The reason is that getting context is actually a set of company principles and processes in and of itself.",
+  "zh": "原因在于,获取上下文本身就是一套公司原则和流程。"
+ },
+ {
+  "seg": 101,
+  "start": 420.519,
+  "end": 425.945,
+  "speaker": "Unknown",
+  "en": "For example, which customer was upset last week can mean something very different to one company versus another.",
+  "zh": "比如,\"上周哪个客户不满意了\"这个问题,对不同公司来说含义可能截然不同。"
+ },
+ {
+  "seg": 102,
+  "start": 426.265,
+  "end": 430.209,
+  "speaker": "Unknown",
+  "en": "It could be number of tickets that are opened, but actually what if those tickets were positive?",
+  "zh": "它可以是已开的工单数量,但如果那些工单其实是正面的呢?"
+ },
+ {
+  "seg": 103,
+  "start": 430.489,
+  "end": 439.779,
+  "speaker": "Unknown",
+  "en": "What if actually we don't use a ticketing system and that we know that for customer happiness we need to actually always go look at Qualtrics first and see survey data because that's just how our company works.",
+  "zh": "又或者,如果我们根本不用工单系统,而且我们知道,要衡量客户满意度就必须先去查 Qualtrics、看调查数据,因为我们的公司就是这么运作的呢?"
+ },
+ {
+  "seg": 104,
+  "start": 439.819,
+  "end": 440.36,
+  "speaker": "Unknown",
+  "en": "We're different.",
+  "zh": "我们就是不一样。"
+ },
+ {
+  "seg": 105,
+  "start": 440.92,
+  "end": 445.225,
+  "speaker": "Unknown",
+  "en": "That's why skills are important because you need skills like how do we determine if a customer is happy?",
+  "zh": "这就是 skills 重要的原因,因为你需要诸如\"我们如何判断一个客户是否满意?\"这样的 skills。"
+ },
+ {
+  "seg": 106,
+  "start": 445.685,
+  "end": 455.93,
+  "speaker": "Unknown",
+  "en": "So now your agent should first check the skills before it then goes and starts checking your synced layer, your live layer for what data to get and then summarizing and returning it.",
+  "zh": "这样一来,你的智能体应该先检查 skills,然后再去检查你的同步层、你的实时层,确定要获取哪些数据,然后进行总结并返回。"
+ },
+ {
+  "seg": 107,
+  "start": 456.69,
+  "end": 460.532,
+  "speaker": "Unknown",
+  "en": "So the flow here is prompt comes in, gets routed to the right agent.",
+  "zh": "所以这里的流程是:提示词进来,被路由到正确的智能体。"
+ },
+ {
+  "seg": 108,
+  "start": 460.832,
+  "end": 466.535,
+  "speaker": "Unknown",
+  "en": "The agent looks to see if it has any memory or skills associated with the question or the task at hand.",
+  "zh": "智能体会查看自己是否有与当前问题或任务相关的记忆或 skills。"
+ },
+ {
+  "seg": 109,
+  "start": 467.235,
+  "end": 474.399,
+  "speaker": "Unknown",
+  "en": "Based on that, it then knows where to look in the synced cache DB and from the live MCP lookups, summarize, send back.",
+  "zh": "基于这些,它就知道该在同步的缓存数据库中的哪里查找,以及通过实时 MCP 查询获取什么,然后总结、返回。"
+ },
+ {
+  "seg": 110,
+  "start": 477.29,
+  "end": 478.25,
+  "speaker": "Unknown",
+  "en": "There's no magic here.",
+  "zh": "这里没有什么魔法。"
+ },
+ {
+  "seg": 111,
+  "start": 478.29,
+  "end": 479.211,
+  "speaker": "Unknown",
+  "en": "There really is none.",
+  "zh": "真的没有。"
+ },
+ {
+  "seg": 112,
+  "start": 479.371,
+  "end": 480.111,
+  "speaker": "Unknown",
+  "en": "It's all physics.",
+  "zh": "全是物理规律。"
+ },
+ {
+  "seg": 113,
+  "start": 480.211,
+  "end": 485.493,
+  "speaker": "Unknown",
+  "en": "As long as you know how to calculate within your own sort of use case, you're great.",
+  "zh": "只要你知道如何在自己的用例范围内进行计算,你就没问题。"
+ },
+ {
+  "seg": 114,
+  "start": 486.033,
+  "end": 490.755,
+  "speaker": "Unknown",
+  "en": "This flow here, where we looked at the number of open tickets, again, would not have been possible with live lookups.",
+  "zh": "我们刚才看已开工单数量的这个流程,如果只用实时查询是不可能做到的。"
+ },
+ {
+  "seg": 115,
+  "start": 491.075,
+  "end": 492.956,
+  "speaker": "Unknown",
+  "en": "But with a local lookup, it was really simple.",
+  "zh": "但用本地查询,就非常简单。"
+ },
+ {
+  "seg": 116,
+  "start": 493.276,
+  "end": 499.859,
+  "speaker": "Unknown",
+  "en": "And we were able to basically gather all customers, number of tickets they have, summarize their tickets, and then give a status on each one.",
+  "zh": "我们基本上能够汇总所有客户各自拥有的工单数量,总结他们的工单,然后对每个客户给出一个状态。"
+ },
+ {
+  "seg": 117,
+  "start": 500.679,
+  "end": 503.183,
+  "speaker": "Unknown",
+  "en": "So it's a mix of some live lookups, some cache lookups.",
+  "zh": "所以这是实时查询和缓存查询的混合。"
+ },
+ {
+  "seg": 118,
+  "start": 503.683,
+  "end": 508.31,
+  "speaker": "Unknown",
+  "en": "That's all coming together here to build really, really rich data for any question that gets asked.",
+  "zh": "这些全部结合在一起,为任何被提出的问题构建非常非常丰富的数据。"
+ },
+ {
+  "seg": 119,
+  "start": 511.89,
+  "end": 512.21,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 120,
+  "start": 512.771,
+  "end": 514.754,
+  "speaker": "Unknown",
+  "en": "And so there are different tiers of context.",
+  "zh": "上下文有不同的层级。"
+ },
+ {
+  "seg": 121,
+  "start": 515.114,
+  "end": 518.118,
+  "speaker": "Unknown",
+  "en": "And some might debate whether prompt skills and memory are context.",
+  "zh": "可能会有人争论提示词、skills 和记忆算不算上下文。"
+ },
+ {
+  "seg": 122,
+  "start": 518.799,
+  "end": 520.901,
+  "speaker": "Unknown",
+  "en": "Context is anything that's being passed into the agent.",
+  "zh": "上下文就是任何被传入智能体的东西。"
+ },
+ {
+  "seg": 123,
+  "start": 521.142,
+  "end": 524.446,
+  "speaker": "Unknown",
+  "en": "We're going to put this all here because they all belong in your context layer.",
+  "zh": "我们把它们都放在这里,因为它们都属于你的上下文层。"
+ },
+ {
+  "seg": 124,
+  "start": 525.187,
+  "end": 526.489,
+  "speaker": "Unknown",
+  "en": "So you have your prompt skills and memory.",
+  "zh": "所以你有提示词、skills 和记忆。"
+ },
+ {
+  "seg": 125,
+  "start": 526.609,
+  "end": 530.213,
+  "speaker": "Unknown",
+  "en": "We talked about how those are going to really drive the where do we get data from.",
+  "zh": "我们讲过,这些将真正决定\"我们从哪里获取数据\"。"
+ },
+ {
+  "seg": 126,
+  "start": 530.975,
+  "end": 532.435,
+  "speaker": "Unknown",
+  "en": "You have your live API calls.",
+  "zh": "你有实时 API 调用。"
+ },
+ {
+  "seg": 127,
+  "start": 532.775,
+  "end": 535.576,
+  "speaker": "Unknown",
+  "en": "These are easier to build, easier to add on.",
+  "zh": "这些更容易构建,更容易附加。"
+ },
+ {
+  "seg": 128,
+  "start": 535.596,
+  "end": 537.497,
+  "speaker": "Unknown",
+  "en": "They're cheaper to run than synced context.",
+  "zh": "它们比同步上下文的运行成本更低。"
+ },
+ {
+  "seg": 129,
+  "start": 537.757,
+  "end": 542.298,
+  "speaker": "Unknown",
+  "en": "So you should prefer these when you know you're going to have simple lookups, simple retrievals.",
+  "zh": "所以当你知道只会做简单查询、简单检索时,应该优先使用这些。"
+ },
+ {
+  "seg": 130,
+  "start": 543.058,
+  "end": 552.921,
+  "speaker": "Unknown",
+  "en": "Cached data is absolutely essential if you want that sort of semantic data, the complex lookups, deep, deep questions about any data.",
+  "zh": "如果你想要那种语义数据、复杂查询、针对任何数据的深层次问题,缓存数据是绝对必不可少的。"
+ },
+ {
+  "seg": 131,
+  "start": 552.981,
+  "end": 553.701,
+  "speaker": "Unknown",
+  "en": "But keep in mind,",
+  "zh": "但要记住,"
+ },
+ {
+  "seg": 132,
+  "start": 554.141,
+  "end": 556.422,
+  "speaker": "Unknown",
+  "en": "It's a little bit more complicated to set up and build.",
+  "zh": "它的搭建和构建要稍微复杂一些。"
+ },
+ {
+  "seg": 133,
+  "start": 556.942,
+  "end": 561.624,
+  "speaker": "Unknown",
+  "en": "It's more expensive to run because you have to have a vector database and you're constantly having to sync that data.",
+  "zh": "运行成本也更高,因为你必须有一个向量数据库,而且还要不断地同步数据。"
+ },
+ {
+  "seg": 134,
+  "start": 561.664,
+  "end": 563.325,
+  "speaker": "Unknown",
+  "en": "So it is tougher to keep up to date.",
+  "zh": "所以让它保持最新更难。"
+ },
+ {
+  "seg": 135,
+  "start": 564.285,
+  "end": 573.748,
+  "speaker": "Unknown",
+  "en": "And then lastly, something we didn't quite discuss yet is derived context, which is basically any additional context you create when you're pulling in data from the third party.",
+  "zh": "最后,我们还没怎么讨论过的是派生上下文,它基本上就是你在从第三方拉取数据时创建的任何额外上下文。"
+ },
+ {
+  "seg": 136,
+  "start": 574.069,
+  "end": 580.411,
+  "speaker": "Unknown",
+  "en": "So this could be, you know, as we're live pulling in all tickets, we're also, every time a customer's full set of tickets comes in,",
+  "zh": "比如说,你知道,当我们在实时拉取所有工单时,每当一个客户的全部工单进来,"
+ },
+ {
+  "seg": 137,
+  "start": 580.811,
+  "end": 596.142,
+  "speaker": "Unknown",
+  "en": "We're summarizing those and we're actually storing in our stored context, our structured stored context, we're storing a summary of the data that we pulled in so that in the future, if we have a common question, we don't have to then also go relook up and re-summarize everything.",
+  "zh": "我们就会总结这些工单,并且实际上存入我们的已存储上下文,即结构化的已存储上下文中——我们把拉取到的数据总结后存起来,这样以后如果再遇到常见问题,就不必重新查询、重新总结所有内容了。"
+ },
+ {
+  "seg": 138,
+  "start": 598.617,
+  "end": 598.877,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 139,
+  "start": 599.077,
+  "end": 600.319,
+  "speaker": "Unknown",
+  "en": "So all four of those come together.",
+  "zh": "所以这四种结合在一起。"
+ },
+ {
+  "seg": 140,
+  "start": 600.599,
+  "end": 602.32,
+  "speaker": "Unknown",
+  "en": "You saw the chart for how they do that.",
+  "zh": "你们已经看过它们如何结合的图表了。"
+ },
+ {
+  "seg": 141,
+  "start": 603.501,
+  "end": 604.522,
+  "speaker": "Unknown",
+  "en": "And yeah, those are the tiers.",
+  "zh": "对,这些就是各个层级。"
+ },
+ {
+  "seg": 142,
+  "start": 604.983,
+  "end": 609.426,
+  "speaker": "Unknown",
+  "en": "So quick flowchart of how this works when a query comes in or a prompt comes in.",
+  "zh": "这是一个快速流程图,展示当查询或提示词进来时这一切是如何运作的。"
+ },
+ {
+  "seg": 143,
+  "start": 609.947,
+  "end": 612.889,
+  "speaker": "Unknown",
+  "en": "So first thing here is, do we have a skill or memory match?",
+  "zh": "这里第一步是:我们是否有匹配的 skill 或记忆?"
+ },
+ {
+  "seg": 144,
+  "start": 613.29,
+  "end": 614.251,
+  "speaker": "Unknown",
+  "en": "If so, yes.",
+  "zh": "如果有,是。"
+ },
+ {
+  "seg": 145,
+  "start": 614.551,
+  "end": 615.792,
+  "speaker": "Unknown",
+  "en": "We want to execute that skill.",
+  "zh": "我们要执行那个 skill。"
+ },
+ {
+  "seg": 146,
+  "start": 616.332,
+  "end": 617.934,
+  "speaker": "Unknown",
+  "en": "Does the skill need external data?",
+  "zh": "这个 skill 需要外部数据吗?"
+ },
+ {
+  "seg": 147,
+  "start": 618.214,
+  "end": 618.414,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不需要。"
+ },
+ {
+  "seg": 148,
+  "start": 618.754,
+  "end": 621.577,
+  "speaker": "Unknown",
+  "en": "Then we're just generating a response, and we're sending that right back.",
+  "zh": "那我们就直接生成回复,然后立刻返回。"
+ },
+ {
+  "seg": 149,
+  "start": 622.765,
+  "end": 624.426,
+  "speaker": "Unknown",
+  "en": "Unfortunately, it's not always this easy.",
+  "zh": "可惜,事情并不总是这么简单。"
+ },
+ {
+  "seg": 150,
+  "start": 624.826,
+  "end": 627.448,
+  "speaker": "Unknown",
+  "en": "So what happens if we don't have a skill or memory match?",
+  "zh": "那么如果我们没有匹配的技能或记忆会怎样？"
+ },
+ {
+  "seg": 151,
+  "start": 628.068,
+  "end": 628.248,
+  "speaker": "Unknown",
+  "en": "Nope.",
+  "zh": "不行。"
+ },
+ {
+  "seg": 152,
+  "start": 628.509,
+  "end": 630.95,
+  "speaker": "Unknown",
+  "en": "Well, then let's go right to data selection here.",
+  "zh": "好的，那我们就直接进入数据选择这里。"
+ },
+ {
+  "seg": 153,
+  "start": 631.51,
+  "end": 633.852,
+  "speaker": "Unknown",
+  "en": "And same thing for if that skill needs external data.",
+  "zh": "如果那个技能需要外部数据，也是同样的流程。"
+ },
+ {
+  "seg": 154,
+  "start": 633.912,
+  "end": 634.652,
+  "speaker": "Unknown",
+  "en": "So we say yes.",
+  "zh": "所以我们说“是”。"
+ },
+ {
+  "seg": 155,
+  "start": 635.033,
+  "end": 638.075,
+  "speaker": "Unknown",
+  "en": "The first thing we're doing is checking our cache or our synced data store.",
+  "zh": "我们做的第一件事是检查我们的缓存或同步的数据存储。"
+ },
+ {
+  "seg": 156,
+  "start": 638.395,
+  "end": 639.896,
+  "speaker": "Unknown",
+  "en": "And we're saying, is the data here fresh?",
+  "zh": "然后我们问，这里的数据是新鲜的吗？"
+ },
+ {
+  "seg": 157,
+  "start": 640.296,
+  "end": 641.437,
+  "speaker": "Unknown",
+  "en": "Is it within our SLAs?",
+  "zh": "它在我们的 SLA 范围内吗？"
+ },
+ {
+  "seg": 158,
+  "start": 641.457,
+  "end": 643.638,
+  "speaker": "Unknown",
+  "en": "Can we use this data because it's viewed as fresh enough?",
+  "zh": "我们能使用这些数据吗，因为它被认为足够新鲜？"
+ },
+ {
+  "seg": 159,
+  "start": 644.418,
+  "end": 644.659,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是。"
+ },
+ {
+  "seg": 160,
+  "start": 644.959,
+  "end": 646.6,
+  "speaker": "Unknown",
+  "en": "Then let's use that cache context.",
+  "zh": "那我们就使用那个缓存的上下文。"
+ },
+ {
+  "seg": 161,
+  "start": 647.56,
+  "end": 647.821,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "否。"
+ },
+ {
+  "seg": 162,
+  "start": 648.341,
+  "end": 651.663,
+  "speaker": "Unknown",
+  "en": "Then, unfortunately, we have to go down and we have to call the live API.",
+  "zh": "那么，很遗憾，我们不得不往下走，我们必须调用实时 API。"
+ },
+ {
+  "seg": 163,
+  "start": 653.032,
+  "end": 658.256,
+  "speaker": "Unknown",
+  "en": "Now, once we do have enough context, we're going to loop through these a few times till we build up the context we need.",
+  "zh": "现在，一旦我们有了足够的上下文，我们会循环执行这些几次，直到建立起我们需要的上下文。"
+ },
+ {
+  "seg": 164,
+  "start": 658.677,
+  "end": 668.384,
+  "speaker": "Unknown",
+  "en": "Once we do have enough context, we might want to store a memory of whatever we just discovered or figured out, store that to memory, and then generate the response and send it back.",
+  "zh": "一旦我们有了足够的上下文，我们可能想要把刚刚发现或弄清楚的东西存为一条记忆，把它存到记忆里，然后生成响应并发送回去。"
+ },
+ {
+  "seg": 165,
+  "start": 669.745,
+  "end": 677.972,
+  "speaker": "Unknown",
+  "en": "And then same thing here, if we didn't have enough context, I just showed that, but we have to call the live API, and then we will generate that response back to the client.",
+  "zh": "然后这里也是一样，如果我们没有足够的上下文，我刚才展示了，我们就必须调用实时 API，然后我们会生成响应返回给客户端。"
+ },
+ {
+  "seg": 166,
+  "start": 681.605,
+  "end": 682.766,
+  "speaker": "Unknown",
+  "en": "I'll leave it here for a second.",
+  "zh": "我在这里停留一会儿。"
+ },
+ {
+  "seg": 167,
+  "start": 682.886,
+  "end": 684.466,
+  "speaker": "Unknown",
+  "en": "I see some people looking and taking pictures.",
+  "zh": "我看到一些人在看并拍照。"
+ },
+ {
+  "seg": 168,
+  "start": 690.369,
+  "end": 690.629,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 169,
+  "start": 691.33,
+  "end": 695.672,
+  "speaker": "Unknown",
+  "en": "So last piece here, pretty much at the end, traceability and provenance.",
+  "zh": "那么最后一部分，几乎在最后，可追溯性和来源溯源。"
+ },
+ {
+  "seg": 170,
+  "start": 696.052,
+  "end": 698.213,
+  "speaker": "Unknown",
+  "en": "Doesn't seem important up front.",
+  "zh": "一开始似乎不重要。"
+ },
+ {
+  "seg": 171,
+  "start": 698.573,
+  "end": 700.834,
+  "speaker": "Unknown",
+  "en": "Do not drop where the data is coming from.",
+  "zh": "不要丢弃数据来自哪里。"
+ },
+ {
+  "seg": 172,
+  "start": 701.314,
+  "end": 702.034,
+  "speaker": "Unknown",
+  "en": "Always store it.",
+  "zh": "始终存储它。"
+ },
+ {
+  "seg": 173,
+  "start": 702.955,
+  "end": 704.055,
+  "speaker": "Unknown",
+  "en": "You have that from MCP.",
+  "zh": "你从 MCP 那里就有这个信息。"
+ },
+ {
+  "seg": 174,
+  "start": 704.315,
+  "end": 707.357,
+  "speaker": "Unknown",
+  "en": "You also have that for anything you're syncing in vector DBs.",
+  "zh": "对于你同步进向量数据库的任何东西，你也有这个信息。"
+ },
+ {
+  "seg": 175,
+  "start": 707.657,
+  "end": 708.818,
+  "speaker": "Unknown",
+  "en": "There's something called metadata.",
+  "zh": "有个东西叫元数据。"
+ },
+ {
+  "seg": 176,
+  "start": 708.858,
+  "end": 709.678,
+  "speaker": "Unknown",
+  "en": "You want to store it in there.",
+  "zh": "你要把它存在那里。"
+ },
+ {
+  "seg": 177,
+  "start": 710.078,
+  "end": 711.319,
+  "speaker": "Unknown",
+  "en": "It's associated with the data.",
+  "zh": "它是与数据关联的。"
+ },
+ {
+  "seg": 178,
+  "start": 711.739,
+  "end": 712.34,
+  "speaker": "Unknown",
+  "en": "It is critical.",
+  "zh": "这是至关重要的。"
+ },
+ {
+  "seg": 179,
+  "start": 712.44,
+  "end": 719.064,
+  "speaker": "Unknown",
+  "en": "It's similar to the way that this surfaces in ChatGPT or any surface that you're using is when it tells you a fact or it says something.",
+  "zh": "它类似于在 ChatGPT 或你使用的任何界面上呈现的方式：当它告诉你一个事实或说了什么的时候。"
+ },
+ {
+  "seg": 180,
+  "start": 719.364,
+  "end": 721.825,
+  "speaker": "Unknown",
+  "en": "At the end, it says three sources and it links to where it came from.",
+  "zh": "在最后，它会说三个来源，并链接到它来自哪里。"
+ },
+ {
+  "seg": 181,
+  "start": 722.205,
+  "end": 732.311,
+  "speaker": "Unknown",
+  "en": "That is even more important when you're making business critical decisions off of that data, when that data is versioned, when that data can become outdated, when you're letting it make a decision on data that it synced a year ago.",
+  "zh": "当你要基于这些数据做出业务关键决策时，当这些数据是有版本管理的，当这些数据可能会过时，当你让它基于一年前同步的数据做决策时，这就更加重要了。"
+ },
+ {
+  "seg": 182,
+  "start": 732.571,
+  "end": 733.192,
+  "speaker": "Unknown",
+  "en": "You don't want that.",
+  "zh": "你不想要那样。"
+ },
+ {
+  "seg": 183,
+  "start": 733.812,
+  "end": 734.974,
+  "speaker": "Unknown",
+  "en": "So you need to know where it came from.",
+  "zh": "所以你需要知道它来自哪里。"
+ },
+ {
+  "seg": 184,
+  "start": 735.394,
+  "end": 736.215,
+  "speaker": "Unknown",
+  "en": "Where did we fetch it?",
+  "zh": "我们在哪里获取的它？"
+ },
+ {
+  "seg": 185,
+  "start": 736.315,
+  "end": 737.116,
+  "speaker": "Unknown",
+  "en": "When did we fetch it?",
+  "zh": "我们什么时候获取的它？"
+ },
+ {
+  "seg": 186,
+  "start": 737.136,
+  "end": 738.317,
+  "speaker": "Unknown",
+  "en": "Which is not here.",
+  "zh": "这里没有这个。"
+ },
+ {
+  "seg": 187,
+  "start": 738.998,
+  "end": 741.12,
+  "speaker": "Unknown",
+  "en": "Under what ID and what scopes?",
+  "zh": "在什么 ID 和什么权限范围下？"
+ },
+ {
+  "seg": 188,
+  "start": 741.24,
+  "end": 742.342,
+  "speaker": "Unknown",
+  "en": "Who accessed the data?",
+  "zh": "谁访问了这些数据？"
+ },
+ {
+  "seg": 189,
+  "start": 742.542,
+  "end": 744.144,
+  "speaker": "Unknown",
+  "en": "What permissions were used to access it?",
+  "zh": "用什么权限访问的它？"
+ },
+ {
+  "seg": 190,
+  "start": 744.584,
+  "end": 745.485,
+  "speaker": "Unknown",
+  "en": "Was it transformed?",
+  "zh": "它被转换过吗？"
+ },
+ {
+  "seg": 191,
+  "start": 745.505,
+  "end": 746.806,
+  "speaker": "Unknown",
+  "en": "What did it originally look like?",
+  "zh": "它最初是什么样的？"
+ },
+ {
+  "seg": 192,
+  "start": 747.367,
+  "end": 748.829,
+  "speaker": "Unknown",
+  "en": "And then lastly, what should invalidate it?",
+  "zh": "最后，什么应该使它失效？"
+ },
+ {
+  "seg": 193,
+  "start": 749.009,
+  "end": 750.47,
+  "speaker": "Unknown",
+  "en": "That could be age, for example.",
+  "zh": "比如可以是数据年龄。"
+ },
+ {
+  "seg": 194,
+  "start": 750.811,
+  "end": 752.633,
+  "speaker": "Unknown",
+  "en": "The data is more than a month old.",
+  "zh": "数据超过一个月了。"
+ },
+ {
+  "seg": 195,
+  "start": 752.993,
+  "end": 754.375,
+  "speaker": "Unknown",
+  "en": "We don't want to consider this ever.",
+  "zh": "我们不想再考虑这个了。"
+ },
+ {
+  "seg": 196,
+  "start": 755.804,
+  "end": 765.1,
+  "speaker": "Unknown",
+  "en": "Really important for showing in your platform, and if not, for showing in your internal platform or whatever you're building, even for being able to investigate when something does go wrong, because it will.",
+  "zh": "这对于在你的平台中展示非常重要，如果不展示，至少要在你的内部平台或你构建的任何东西中展示，甚至是为了在出问题时能够调查，因为问题一定会发生。"
+ },
+ {
+  "seg": 197,
+  "start": 767.785,
+  "end": 771.249,
+  "speaker": "Unknown",
+  "en": "So putting it all together, here's another example of one that we might use.",
+  "zh": "把所有这些放在一起，这里是我们可能会用的另一个例子。"
+ },
+ {
+  "seg": 198,
+  "start": 771.829,
+  "end": 774.753,
+  "speaker": "Unknown",
+  "en": "So give me a one paragraph status update on our customer Acme.",
+  "zh": "给我一段关于我们客户 Acme 的状态更新。"
+ },
+ {
+  "seg": 199,
+  "start": 775.213,
+  "end": 777.736,
+  "speaker": "Unknown",
+  "en": "Include renewal risk and last support interaction.",
+  "zh": "包括续约风险和最近一次支持互动。"
+ },
+ {
+  "seg": 200,
+  "start": 778.397,
+  "end": 780.559,
+  "speaker": "Unknown",
+  "en": "First, we're going to check the cache for the account summary.",
+  "zh": "首先，我们要检查缓存里有没有账户摘要。"
+ },
+ {
+  "seg": 201,
+  "start": 780.939,
+  "end": 782.241,
+  "speaker": "Unknown",
+  "en": "We're going to assume there's no skills here.",
+  "zh": "我们假设这里没有技能。"
+ },
+ {
+  "seg": 202,
+  "start": 782.821,
+  "end": 783.502,
+  "speaker": "Unknown",
+  "en": "So we'll check that.",
+  "zh": "所以我们会检查这一点。"
+ },
+ {
+  "seg": 203,
+  "start": 784.283,
+  "end": 787.987,
+  "speaker": "Unknown",
+  "en": "If it's still or missing, we're going to call the CRM using a live API lookup.",
+  "zh": "如果它过时或缺失，我们会通过实时 API 查询调用 CRM。"
+ },
+ {
+  "seg": 204,
+  "start": 789.652,
+  "end": 792.594,
+  "speaker": "Unknown",
+  "en": "Then we'll query the ticketing system for the last support interaction.",
+  "zh": "然后我们会查询工单系统，获取最后一次支持交互。"
+ },
+ {
+  "seg": 205,
+  "start": 792.934,
+  "end": 794.755,
+  "speaker": "Unknown",
+  "en": "Again, that's cached within the SLA.",
+  "zh": "同样，那在 SLA 之内是有缓存的。"
+ },
+ {
+  "seg": 206,
+  "start": 794.875,
+  "end": 797.236,
+  "speaker": "Unknown",
+  "en": "Otherwise, it might have to do a live lookup.",
+  "zh": "否则，它可能必须做一次实时查询。"
+ },
+ {
+  "seg": 207,
+  "start": 797.276,
+  "end": 798.497,
+  "speaker": "Unknown",
+  "en": "We only want to pull five tickets.",
+  "zh": "我们只想拉取五张工单。"
+ },
+ {
+  "seg": 208,
+  "start": 798.557,
+  "end": 803.099,
+  "speaker": "Unknown",
+  "en": "We can't pull the full history because, again, when we have live lookups, we run into timeout risk.",
+  "zh": "我们不能拉取完整历史，因为同样，当我们做实时查询时，会遇到超时风险。"
+ },
+ {
+  "seg": 209,
+  "start": 803.859,
+  "end": 805.86,
+  "speaker": "Unknown",
+  "en": "And then lastly, we'll generate a derived summary.",
+  "zh": "最后，我们会生成一个派生摘要。"
+ },
+ {
+  "seg": 210,
+  "start": 806.161,
+  "end": 808.702,
+  "speaker": "Unknown",
+  "en": "We might store that derived summary, and we'll pass that back.",
+  "zh": "我们可能会存储那个派生摘要，然后把它传回去。"
+ },
+ {
+  "seg": 211,
+  "start": 813.28,
+  "end": 815.881,
+  "speaker": "Unknown",
+  "en": "So key takeaways, tools are not context.",
+  "zh": "那么关键要点：工具不等于上下文。"
+ },
+ {
+  "seg": 212,
+  "start": 816.402,
+  "end": 819.203,
+  "speaker": "Unknown",
+  "en": "A context graph is gonna help you reason across the whole company.",
+  "zh": "上下文图会帮助你在整个公司范围内进行推理。"
+ },
+ {
+  "seg": 213,
+  "start": 819.423,
+  "end": 824.266,
+  "speaker": "Unknown",
+  "en": "It's not just tools, it's data, it's synced data, it's processes that you have as a business.",
+  "zh": "它不只是工具，它是数据，是同步的数据，是你的业务所拥有的流程。"
+ },
+ {
+  "seg": 214,
+  "start": 824.666,
+  "end": 828.128,
+  "speaker": "Unknown",
+  "en": "Who is documenting, you know, when a customer complains, what do we do?",
+  "zh": "谁在记录，你知道，当客户投诉时，我们该怎么做？"
+ },
+ {
+  "seg": 215,
+  "start": 828.409,
+  "end": 830.69,
+  "speaker": "Unknown",
+  "en": "How does it know to always route to the right place?",
+  "zh": "它怎么知道总是路由到正确的地方？"
+ },
+ {
+  "seg": 216,
+  "start": 831.11,
+  "end": 832.351,
+  "speaker": "Unknown",
+  "en": "That is a skill.",
+  "zh": "那是一种技能。"
+ },
+ {
+  "seg": 217,
+  "start": 832.431,
+  "end": 837.394,
+  "speaker": "Unknown",
+  "en": "It's your company's skills, it's your processes, it's your data, and it's your tools and actions you need to take.",
+  "zh": "它是你公司的技能，是你的流程，是你的数据，也是你需要采取的工具和行动。"
+ },
+ {
+  "seg": 218,
+  "start": 838.214,
+  "end": 839.856,
+  "speaker": "Unknown",
+  "en": "More data, not always better.",
+  "zh": "数据越多，不一定越好。"
+ },
+ {
+  "seg": 219,
+  "start": 839.976,
+  "end": 841.939,
+  "speaker": "Unknown",
+  "en": "You want fresh, high quality data.",
+  "zh": "你要的是新鲜、高质量的数据。"
+ },
+ {
+  "seg": 220,
+  "start": 841.979,
+  "end": 843.28,
+  "speaker": "Unknown",
+  "en": "You want to pull only what you need.",
+  "zh": "你只想拉取你所需要的东西。"
+ },
+ {
+  "seg": 221,
+  "start": 843.681,
+  "end": 847.826,
+  "speaker": "Unknown",
+  "en": "When you do have to sync data, you want to structure it properly so it's accessed in the right way.",
+  "zh": "当你确实需要同步数据时，你要把它恰当地结构化，这样才能以正确的方式被访问。"
+ },
+ {
+  "seg": 222,
+  "start": 848.447,
+  "end": 851.29,
+  "speaker": "Unknown",
+  "en": "And then lastly, every answer has to be traceable.",
+  "zh": "最后，每一个答案都必须可追溯。"
+ },
+ {
+  "seg": 223,
+  "start": 851.591,
+  "end": 856.557,
+  "speaker": "Unknown",
+  "en": "You do not want to be left in a position where your AI made a bad decision and you have no idea why it did that.",
+  "zh": "你不会想处于这样的境地：你的 AI 做了一个糟糕的决定，而你完全不知道它为什么那么做。"
+ },
+ {
+  "seg": 224,
+  "start": 859.38,
+  "end": 861.661,
+  "speaker": "Unknown",
+  "en": "So last piece, plugging merge here.",
+  "zh": "最后一点，在这里插个广告，介绍一下 Merge。"
+ },
+ {
+  "seg": 225,
+  "start": 862.222,
+  "end": 863.363,
+  "speaker": "Unknown",
+  "en": "Enterprise AI runs on us.",
+  "zh": "企业级 AI 运行在我们之上。"
+ },
+ {
+  "seg": 226,
+  "start": 863.543,
+  "end": 865.424,
+  "speaker": "Unknown",
+  "en": "We power these features for a lot of companies.",
+  "zh": "我们为很多公司提供这些功能的支持。"
+ },
+ {
+  "seg": 227,
+  "start": 865.844,
+  "end": 867.605,
+  "speaker": "Unknown",
+  "en": "We have Gateway, which is an LLM router.",
+  "zh": "我们有 Gateway，它是一个 LLM 路由器。"
+ },
+ {
+  "seg": 228,
+  "start": 867.925,
+  "end": 872.768,
+  "speaker": "Unknown",
+  "en": "We have Unified, which helps you sync data from third parties out of your customers' platforms.",
+  "zh": "我们有 Unified，它帮助你从客户的平台之外同步第三方数据。"
+ },
+ {
+  "seg": 229,
+  "start": 873.089,
+  "end": 881.614,
+  "speaker": "Unknown",
+  "en": "And then we have Agent Handler, which is live MCP connections, pre-built across hundreds of tools, governed, identity all built in, including provenance.",
+  "zh": "然后我们有 Agent Handler，它是实时 MCP 连接，跨数百个工具预构建，有治理，身份体系全部内建，包括溯源。"
+ },
+ {
+  "seg": 230,
+  "start": 882.474,
+  "end": 885.917,
+  "speaker": "Unknown",
+  "en": "And yeah, it's plug and play for both internal and customer-facing use cases.",
+  "zh": "是的，无论是内部用例还是面向客户的用例，它都是即插即用的。"
+ },
+ {
+  "seg": 231,
+  "start": 886.857,
+  "end": 889.899,
+  "speaker": "Unknown",
+  "en": "So if you want to build an easy context layer, hit us up.",
+  "zh": "所以如果你想构建一个简单的上下文层，联系我们。"
+ },
+ {
+  "seg": 232,
+  "start": 891.38,
+  "end": 892.421,
+  "speaker": "Unknown",
+  "en": "Thank you everyone for listening.",
+  "zh": "感谢大家的聆听。"
+ }
+]

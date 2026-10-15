@@ -1,0 +1,683 @@
+{
+  "episode_id": "2026-10-09-talks-why-your-company-needs-a-context-graph-a",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "上下文图谱",
+    "数据同步",
+    "企业级 AI"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "gil-feig",
+      "type": "person",
+      "role": "guest",
+      "name": "Gil Feig",
+      "file": "Gil Feig",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.066,
+            16.986
+          ],
+          "quote": "My name is Gil Feig.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "merge",
+      "type": "company",
+      "role": "company",
+      "name": "Merge",
+      "file": "Merge",
+      "primary": true,
+      "how_described": "本集说 Merge 是帮公司轻松构建生产级 AI 的连接性基础设施，有 400 多家企业客户（OpenAI、Ramp、Netflix、Perplexity），产品包括 Unified、Agent Handler 和 Gateway。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            17.147,
+            19.887
+          ],
+          "quote": "I am the co-founder and CTO of Merge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20.468,
+            24.169
+          ],
+          "quote": "Merge helps companies build production AI very easily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            65.016,
+            68.38
+          ],
+          "quote": "So I'm not going to spend much talking about Merge, but just a quick overview of us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 224,
+          "t": [
+            859.38,
+            861.661
+          ],
+          "quote": "So last piece, plugging merge here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文图谱 (context graph)",
+      "file": "上下文图谱",
+      "primary": true,
+      "how_described": "本集说它是公司的共享大脑，由第三方数据、结构化上下文、记忆、技能、同步副本和工具共同构成，能帮你在整个公司范围内推理，不只是连接几个工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            28.39,
+            31.993
+          ],
+          "quote": "Today I'm going to be talking about why you need a context graph and how to build it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            41.542,
+            54.613
+          ],
+          "quote": "The focus of this is why you need a context graph and then sort of in a higher level, how you should structure it, what the components should be, and how things come together to build the best possible brain for your company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            98.192,
+            104.555
+          ],
+          "quote": "Step one, or number one, we will talk about what a context graph even is and why it's so important that every company has one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            139.2,
+            141.583
+          ],
+          "quote": "So what is a context graph in this talk?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            151.403,
+            155.264
+          ],
+          "quote": "Your company context graph consists of a lot of different components.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            188.654,
+            192.536
+          ],
+          "quote": "And skills are a very, very important part of your context graph, which we'll get to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            816.402,
+            819.203
+          ],
+          "quote": "A context graph is gonna help you reason across the whole company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说只接一个或几个 MCP 服务器就完事是不够的——平台的 API 底层访问模式不支持语义化的实时查询，MCP 没有完全解决这些问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            200.195,
+            208.959
+          ],
+          "quote": "We're going to use this example to guide why it's not enough to just connect a single MCP server or a couple MCP servers and call it a day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            266.935,
+            277.318
+          ],
+          "quote": "So MCP is not fully solving a lot of these problems because the underlying access patterns of the APIs of these other platforms don't support a live lookup methodology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            301.477,
+            307.885
+          ],
+          "quote": "You can't just use MCP to live lookup for things that you want to go deeper into, that you want to semantically question.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            322.929,
+            323.729
+          ],
+          "quote": "That can be MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            467.235,
+            474.399
+          ],
+          "quote": "Based on that, it then knows where to look in the synced cache DB and from the live MCP lookups, summarize, send back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            702.955,
+            704.055
+          ],
+          "quote": "You have that from MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            873.089,
+            881.614
+          ],
+          "quote": "And then we have Agent Handler, which is live MCP connections, pre-built across hundreds of tools, governed, identity all built in, including provenance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "live-api-calls",
+      "type": "concept",
+      "role": "concept",
+      "name": "实时 API 调用 (live API calls)",
+      "file": "实时 API 调用",
+      "primary": true,
+      "how_described": "本集说它搭建容易、运行便宜，适合简单查询和单一操作（如查 Stripe 某个客户），但跨大数据集的语义分析会拉到超时也做不完。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            530.975,
+            532.435
+          ],
+          "quote": "You have your live API calls.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cached-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "同步缓存数据 (cached data)",
+      "file": "同步缓存数据",
+      "primary": true,
+      "how_described": "本集说把第三方数据同步到本地向量数据库，是回答复杂语义问题和跨数据集分析的必需品，但搭建更复杂、运行更贵、保鲜更难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            543.058,
+            552.921
+          ],
+          "quote": "Cached data is absolutely essential if you want that sort of semantic data, the complex lookups, deep, deep questions about any data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集说技能是公司特有的流程沉淀，比如『如何判断客户是否满意』每家公司定义不同，智能体应先查技能再决定去哪取数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            186.574,
+            187.934
+          ],
+          "quote": "And then we also have skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            188.654,
+            192.536
+          ],
+          "quote": "And skills are a very, very important part of your context graph, which we'll get to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            404.983,
+            409.007
+          ],
+          "quote": "But you all notice we have one thing here that we haven't talked about, and that's memory and skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            440.92,
+            445.225
+          ],
+          "quote": "That's why skills are important because you need skills like how do we determine if a customer is happy?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            445.685,
+            455.93
+          ],
+          "quote": "So now your agent should first check the skills before it then goes and starts checking your synced layer, your live layer for what data to get and then summarizing and returning it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            460.832,
+            466.535
+          ],
+          "quote": "The agent looks to see if it has any memory or skills associated with the question or the task at hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            515.114,
+            518.118
+          ],
+          "quote": "And some might debate whether prompt skills and memory are context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            525.187,
+            526.489
+          ],
+          "quote": "So you have your prompt skills and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            780.939,
+            782.241
+          ],
+          "quote": "We're going to assume there's no skills here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            832.431,
+            837.394
+          ],
+          "quote": "It's your company's skills, it's your processes, it's your data, and it's your tools and actions you need to take.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆是使用智能体过程中被形成的——用户让它记住的、以及智能体自己认为该记住的东西，与技能一起构成上下文图谱的顶层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            179.471,
+            186.033
+          ],
+          "quote": "We all know memory, things that are formed as you're using the agent, telling it to remember things, things that your agent thinks it should remember on its own.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            404.983,
+            409.007
+          ],
+          "quote": "But you all notice we have one thing here that we haven't talked about, and that's memory and skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            460.832,
+            466.535
+          ],
+          "quote": "The agent looks to see if it has any memory or skills associated with the question or the task at hand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            515.114,
+            518.118
+          ],
+          "quote": "And some might debate whether prompt skills and memory are context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            525.187,
+            526.489
+          ],
+          "quote": "So you have your prompt skills and memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            609.947,
+            612.889
+          ],
+          "quote": "So first thing here is, do we have a skill or memory match?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            624.826,
+            627.448
+          ],
+          "quote": "So what happens if we don't have a skill or memory match?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            658.677,
+            668.384
+          ],
+          "quote": "Once we do have enough context, we might want to store a memory of whatever we just discovered or figured out, store that to memory, and then generate the response and send it back.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "derived-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "派生上下文 (derived context)",
+      "file": "派生上下文",
+      "primary": true,
+      "how_described": "本集说它是拉取第三方数据时顺手创建的额外上下文——比如总结存下来，下次遇到常见问题就不用重新查询和重新总结。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            564.285,
+            573.748
+          ],
+          "quote": "And then lastly, something we didn't quite discuss yet is derived context, which is basically any additional context you create when you're pulling in data from the third party.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量数据库 (vector database)",
+      "file": "向量数据库",
+      "primary": true,
+      "how_described": "本集说从第三方拉取的数据放进本地向量数据库做语义检索，同步缓存层需要它、且要不断同步数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            346.34,
+            350.201
+          ],
+          "quote": "And that, you're pulling in from a third party, you're putting in a vector database locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            368.162,
+            374.53
+          ],
+          "quote": "We're pulling from our vector database to get semantic data, and we're doing live lookups for other data we might want on top.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            556.942,
+            561.624
+          ],
+          "quote": "It's more expensive to run because you have to have a vector database and you're constantly having to sync that data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "traceability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可追溯性与来源溯源 (traceability)",
+      "file": "可追溯性与来源溯源",
+      "primary": true,
+      "how_described": "本集说千万别丢数据的来源信息：从哪取的、何时取的、用什么权限、谁访问过、是否被转换、原始样子，还要定好过期作废规则，否则 AI 做了糟糕决定连原因都查不出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            121.557,
+            122.737
+          ],
+          "quote": "Traceability and provenance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            691.33,
+            695.672
+          ],
+          "quote": "So last piece here, pretty much at the end, traceability and provenance.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "router",
+      "type": "concept",
+      "role": "concept",
+      "name": "路由器和摘要器 (router)",
+      "file": "路由器和摘要器",
+      "primary": false,
+      "how_described": "本集说路由器在提示词进来时决定交给谁处理，摘要器把同步和实时上下文整合摘要后发回给智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            381.478,
+            383.58
+          ],
+          "quote": "So that's where we introduce the router and the summarizer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            383.881,
+            386.483
+          ],
+          "quote": "The router is sending things to the right place at the beginning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            865.844,
+            867.605
+          ],
+          "quote": "We have Gateway, which is an LLM router.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "zendesk",
+      "type": "company",
+      "role": "company",
+      "name": "Zendesk",
+      "file": "Zendesk",
+      "primary": false,
+      "how_described": "本集用它做例子：简单问题可实时查 Zendesk 工单，但『过去一年哪些客户不高兴』就得翻成千上万张工单直到超时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            220.448,
+            228.077
+          ],
+          "quote": "The agent goes, it sees it has access to your Zendesk ticketing, and it can check and say, hey, what tickets were filed by this customer last week?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            245.21,
+            252.132
+          ],
+          "quote": "That becomes a lot harder because you now have to have your agent load in every single ticket from Zendesk that happened in the last week.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集说对 Stripe 的查询永远是关于特定客户的静态查询或单一操作，适合用 MCP 实时接口，不必同步副本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            313.943,
+            317.425
+          ],
+          "quote": "So you might have, let's say, static lookups to Stripe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            317.445,
+            320.307
+          ],
+          "quote": "We're always going to be asking Stripe a question about a specific customer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            320.567,
+            322.588
+          ],
+          "quote": "We're always going to be taking a single action in Stripe.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "qualtrics",
+      "type": "company",
+      "role": "company",
+      "name": "Qualtrics",
+      "file": "Qualtrics",
+      "primary": false,
+      "how_described": "本集举例说有的公司衡量客户满意度不用工单系统，而是习惯先查 Qualtrics 的问卷数据——这正是该沉淀成技能的公司流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            430.489,
+            439.779
+          ],
+          "quote": "What if actually we don't use a ticketing system and that we know that for customer happiness we need to actually always go look at Qualtrics first and see survey data because that's just how our company works.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

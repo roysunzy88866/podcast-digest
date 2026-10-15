@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Figma]] · [[Google]] · [[Cloudflare]] · [[MCP]] · [[Dylan Field]] · [[Chris Benson]] · [[Reid Alberghati]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":204,"OpenAI":203,"Figma":23,"Google":72,"Cloudflare":17,"MCP":95,"Dylan Field":2,"Chris Benson":12,"Reid Alberghati":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":205,"OpenAI":204,"Figma":23,"Google":72,"Cloudflare":17,"MCP":96,"Dylan Field":2,"Chris Benson":12,"Reid Alberghati":1}</script>
 
 <script>
 (function(){

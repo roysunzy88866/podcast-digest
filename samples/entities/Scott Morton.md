@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":4,"Revel":1,"SpaceX":21,"LLVM":1,"Python":5,"vibe coding":51,"CI-CD":16,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"Revel":1,"SpaceX":22,"LLVM":1,"Python":5,"vibe coding":51,"CI-CD":16,"Palantir":20}</script>
 
 <script>
 (function(){

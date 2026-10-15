@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Sequoia":7,"智能体":1,"Copilot":13,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":21}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Sequoia":7,"智能体":1,"Copilot":13,"全自动模式":1,"服务伪装成软件":1,"IC":7,"AEO":5,"Sierra":7,"SpaceX":22}</script>
 
 <script>
 (function(){

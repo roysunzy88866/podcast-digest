@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Melisa Tokmak]] · [[Kevin Ball]] · [[Meta]] · [[NETIC]] · [[Emily Hsu]] · [[Facebook]] · [[基础服务]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"Melisa Tokmak":1,"Kevin Ball":4,"Meta":55,"NETIC":1,"Emily Hsu":1,"Facebook":18,"基础服务":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"Melisa Tokmak":1,"Kevin Ball":4,"Meta":55,"NETIC":1,"Emily Hsu":1,"Facebook":18,"基础服务":1}</script>
 
 <script>
 (function(){

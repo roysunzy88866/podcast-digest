@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>harness</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>65</b> 集 · <b>35</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="harness">HA</div><div class="pi"><h1 class="pt">harness</h1><div class="byl">概念</div><div class="nums">本站收录 <b>66</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -75,10 +75,11 @@ unlisted: true
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(00:58起):本集建议先榨干 harness(围绕模型搭的工具链和调用环境)再做模型优化,八成找上门的问题靠一个好 harness 就能解决。
 - **[[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]]**(26:08起):本集反复讨论：Py、AMP、OpenCode、Claude Code 等都是不同的 harness；两人比较各 harness 的插件架构、持久化方案，PyDurable 的架构就是让 harness 中发生的一切都变成可恢复的任务。
 - **[[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]]**(03:53起):本集把它说成控制和执行智能体的应用程序外壳：是'双手'，负责确定性地执行智能体(大脑)制定的计划，是长时间运行、需要持久性的进程。
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(00:47起):本集把它说成：构建智能体时融入的模型之外的一切——技能、工具、上下文、子智能体，目的是在正确的时机把正确的上下文交给模型。
 
 ## ① 提到它的金句
 
-*35 条*
+*36 条*
 
 ![[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n#^q1]]
 
@@ -150,9 +151,11 @@ unlisted: true
 
 ![[2026-10-09-talks-building-on-the-codex-harness-dominik-ku#^q2]]
 
+![[2026-10-09-talks-managed-deep-agents-deploying-mission-cr#^q2]]
+
 ## ② 出现在这些集
 
-*65 集*
+*66 集*
 
 - [[2026-05-28-beyondcoding-addy-osmani-top-tier-software-engineers|《从看护智能体到认知投降：工程师该守住什么》]] — 作为概念
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为概念
@@ -219,6 +222,7 @@ unlisted: true
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为概念
 - [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]] — 作为概念
 - [[2026-10-08-talks-brains-vs-hands-how-to-run-ai-agents-saf|《AI 智能体上了生产环境，谁来管住它的手？》]] — 作为概念
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为概念
 
 ## ③ 关联
 
@@ -226,7 +230,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[Claude Code]] · [[评估]] · [[OpenAI]] · [[Codex]] · [[MCP]] · [[护栏]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":204,"沙箱":100,"Claude Code":114,"评估":1,"OpenAI":203,"Codex":90,"MCP":95,"护栏":91,"推理":101}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":205,"沙箱":101,"Claude Code":114,"评估":1,"OpenAI":204,"Codex":90,"MCP":96,"护栏":91,"推理":101}</script>
 
 <script>
 (function(){

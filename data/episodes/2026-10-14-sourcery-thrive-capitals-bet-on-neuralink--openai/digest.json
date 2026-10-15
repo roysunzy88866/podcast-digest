@@ -1,0 +1,269 @@
+{
+  "title_zh": "投了 OpenAI 和 Neuralink 的人，怎么看医疗的未来",
+  "tldr": "Thrive Capital 医疗负责人 Dr. Wara 讲 AI 如何改变制药、脑机接口和全科医疗。",
+  "digest_md": "Dr. Wara 是风投公司 Thrive Capital 负责医疗投资的合伙人。他受过内科医生训练，有创业公司创始团队的背景，后来在 Amazon 负责药房相关业务，还当过那里的第一任首席医疗官。两年多前加入 Thrive，管所有医疗方向的押注——从 OpenAI、Neuralink 到助听器公司。\n\n> 【背景】此人姓名音译为 Vin Gupta，「Dr. Wara」为其常被称呼的名字（原文转写缺失，无法完全核实）。\n> 【背景】据正文原稿，其经历包括：Cityblock Health 创始团队成员；Amazon 收购 PillPack 后将其整合为 Amazon Pharmacy。\n\n这期访谈里，他用医生加投资人的双重视角，把 AI 时代的医疗讲了一遍。有几个数字相当扎眼。\n\n## 为什么说医疗是 AI 最大的应用场景？\n\n美国医疗一年花 5 万亿美元，预计这个十年结束时涨到 9 万亿。它是全美第一大雇主，20% 的工作岗位在医疗；预计未来新增岗位的 30% 也在医疗。联邦预算里最大的一项是医疗，是国防的 6 倍。\n\n但钱花得多，结果很差。过去 10 年美国在医疗上花了约 40 万亿美元，人均寿命却一步没动，目前在 80 岁上下 [50:23 Unknown]。Wara 说，如果这不叫医疗系统的失败，还有什么算 [50:30 Unknown]。\n\n他的态度是：**花钱不是问题，问题是买没买到命**。如果多花 1 万亿能让所有人都活到 100 岁，他随时愿意做这个交换。\n\n## AI 制药到底在解决什么问题？\n\n新药研发目前失败率超过 90%，要花 10 到 15 年、几十亿美元。AI 制药要攻的关卡有几层：第一层是设计出能结合目标的分子——这层已经被 AlphaFold 这类模型越做越好。第二层是预测分子起什么作用，第三层是预测副作用。\n\n麻烦在于验证。代码编没编过一跑就知道，但药物有效没效，得放进细胞、放进小鼠、最后放进人体。业内有句老话：「我们在小鼠身上治愈癌症已经 50 次了」[07:38 Unknown]。\n\nIsomorphic Labs（Demis 的公司）在 Biohub 活动上说，目标是在 5 年内把成功率做到 88% 到 90%。要做到这一点，光分子设计变快没用——**临床前快了，临床试验就会变成瓶颈，生产也会变成瓶颈**。所以要整条链一起改。\n\n> 【背景】Demis 指 DeepMind 创始人 Demis Hassabis，Isomorphic Labs 由其创立。\n\n## Neuralink：为什么他说比 SpaceX 更有意思？\n\nNeuralink 最早的受众是渐冻症和瘫痪患者，比如因爆炸物失去四肢功能的年轻退伍军人。他们的植入设备让人可以用意念控制电脑、操控机械臂；还有一个试验把设备植入大脑语言中枢，让不能说话的人重新开口。\n\nWara 的一个暴论：「**Neuralink 是比 SpaceX 更有意思的公司**」，因为大脑比太空更浩瀚——没有大脑，人类既上不了太空也造不出芯片，大脑至今是比 NVIDIA 所有芯片都更高效的计算引擎 [20:39 Unknown]。\n\n这家公司的做法是把关键环节全部自己做：硬件团队是 SpaceX、Tesla 级别的；植入物里有上千根显微线，细到人手做不了手术，于是他们顺手造了一台神经外科手术机器人——对别的公司来说这能撑起一整门生意，对他们只是一个部门。他们甚至自建了病理实验室，因为安全性数据太关键，不能外包。\n\n## 助听器也能是硬科技？\n\nThrive 投的 Fortel 做助听器，切入点很反直觉。全球有 15 亿人受听力损失影响，而**听力损失是痴呆最大的可干预风险因素**——有听力损失的人患痴呆的概率高出三分之一。想保住脑子，先别丢了耳朵。\n\n传统助听器只是把所有声音一起放大，但真正的听觉是大脑会筛选——这就是你能在嘈杂咖啡馆里只听对面那个人说话的原因。所以传统助听器用户一到饭馆、街头就没法待，只能待在安静家里。\n\nFortel 的创始人 Matt DeJong（此前做手持超声公司 Butterfly）想明白了这一点：团队自己设计芯片、找 TSMC 流片（第一次流片就成功，业内几乎没有先例），再用语义降噪——分辨这是人说话还是一辆车经过——来动态调节音量。这个思路来自疫情期间 Zoom 的降噪。\n\n结果：第三方评级机构给助听器打分的史上最高纪录是五分制的 4.5 分，Fortel 拿到了 6 分，直接把量表打破了 [28:40 Unknown]。有个测试用户被要求退还设备时说，想都别想。\n\n## OpenAI 已经是美国最大的医疗提供方？\n\nWara 两年多前帮 OpenAI 牵线，组织了几场与药企、保险公司、医院系统高管的闭门会。当时他拿还没有发布的推理模型测试《新英格兰医学杂志》的疑难病例——豪斯医生那种难度——把病例前半段喂进去，模型每周都能诊断对，而他和最好的医生同事们十次可能对两次。他当众说模型能诊断，被在场的人当成异端；两年后，当时说 AI 只配做客服的某药企 CEO，已经宣布砸几十亿美元进这个方向 [42:28 Unknown]。\n\n现在每周有 3 亿人在 ChatGPT 上问健康问题 [00:52 Unknown]。Wara 说 **OpenAI 在某种意义上已经是美国甚至世界最大的医疗提供方**——每个人口袋里都装着一位世界级医生，凌晨两点也在线。OpenAI 还和波士顿儿童医院等哈佛系医院合作，接手约 300 个未确诊的儿科病例，新诊断出了其中约 20 个 [67:54 Unknown]。\n\n另一个数字：Thrive 投的 OpenEvidence（给医生的临床证据检索工具）三年内拿下全美三分之二的医生用户；对比之下，行业霸主 Epic 花了 40 年还不到 50% [45:43 Unknown]。医生不是讨厌技术，只是讨厌被迫用的烂技术。\n\n## 慢病管理：AI 加人的组合拳\n\nThrive 投的 Cadence 做居家监测：给病人寄血压计、体重秤，AI 全天候盯着数据，人类护士随时介入。逻辑很简单——你一年见医生 4 次，就算每次 1 小时，剩下的 8000 多个小时没人管。血压一高，AI 一小时内就打电话来问晕不晕（晚一小时你可能正在超市或陪孙子玩，就不接电话了）。\n\n成绩单发表在《新英格兰医学杂志》等期刊：住院率降 25%，血压达标率提升超 80%，糖化血红蛋白降近 1 个点，每周给 Medicare 省 250 万美元。AI 调药建议与医生本人决策的一致率达到 98%。用 AI 打电话联系患者的接通率提高了 70%。\n\n访谈结尾，Wara 把话说得很直：科技圈整天谈 10 倍工程师，但**这个国家更需要的，是 10 倍护士** [69:38 Unknown]。\n\n## 本集带走\n\n- 过去 10 年美国花了约 40 万亿美元在医疗上，人均寿命没动；AI 带来的机会是让下一个 10 年从 80 岁走向 100 岁\n- AI 制药的关键不只是设计分子，而是让临床试验、生产制造整条链一起提速，瓶颈会不断后移\n- Neuralink、Fortel 这类公司的共性是双语：世界级的硬件加世界级的医学，关键环节全部自建\n- OpenAI 每周有 3 亿人问健康问题，已成事实上的最大医疗入口；OpenEvidence 三年拿下全美三分之二医生\n- 生物医药会出现更多万亿美元公司，因为工具变大了，公司的野心也随之变大",
+  "quotes": [
+    {
+      "en": "The last 10 years, we've spent about 40 trillion on healthcare. We have not moved our life expectancy in age.",
+      "zh": "过去 10 年，我们在医疗保健上花费了大约 40 万亿。我们的预期寿命却没有得到任何改善。",
+      "timestamp": "00:08",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "And if that is not an indictment of the failure of the healthcare system, I don't know what is.",
+      "zh": "如果这还不能算是对医疗保健体系失败的控诉，那我不知道什么才是。",
+      "timestamp": "00:19",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "Neuralink is a more interesting company than SpaceX.",
+      "zh": "Neuralink 是一家比 SpaceX 更有意思的公司。",
+      "timestamp": "01:07",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "As a nation, I think we need a 10X nurse a lot more than we need a 10X engineer.",
+      "zh": "作为一个国家，我认为我们更需要一名 10X 护士，而不是一名 10X 工程师。",
+      "timestamp": "01:10",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "There's a saying we always have in research where it's, you know, we've cured cancer in mice 50 times.",
+      "zh": "我们在研究中总有一句话，就是，我们已经治好了老鼠的癌症 50 次。",
+      "timestamp": "07:38",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "For a process right now that has 90 plus percent failure rates, takes 10 to 15 years and costs billions of dollars.",
+      "zh": "而这是针对一个目前失败率高达 90% 以上、需要 10 到 15 年、耗资数十亿美元的过程而言的。",
+      "timestamp": "08:53",
+      "speaker": "SPEAKER_04"
+    },
+    {
+      "en": "The brain is vaster than space.",
+      "zh": "大脑比太空更浩瀚。",
+      "timestamp": "20:46",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "The brain is still a more efficient engine of compute than every chip that NVIDIA has ever made.",
+      "zh": "大脑仍然是一台比 NVIDIA 有史以来制造的每一块芯片都更高效的算力引擎。",
+      "timestamp": "21:03",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "And it's also an issue that it's the greatest modifiable risk factor we have for dementia.",
+      "zh": "而且还有一个问题是，它是我们对失智症最大的可改变风险因素。",
+      "timestamp": "23:52",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "4.5 was their highest rating that a hearing aid had ever gotten on their five-point scale. Fortell recently did it and got a six.",
+      "zh": "4.5 分是他们五分制下助听器曾经得到过的最高分。Fortell 最近去评了，拿了个六分。",
+      "timestamp": "28:36",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "Keytruda's 2025 revenue of just that one drug was larger than the revenue of all the major labs combined.",
+      "zh": "Keytruda 仅这一款药 2025 年的收入就超过了所有大型实验室的收入总和。",
+      "timestamp": "35:28",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "And now I'm seeing two years later, one of those same CEOs has announced billions of dollars of spend in this.",
+      "zh": "而现在两年过去，我看到同一位 CEO 宣布在这一领域投入数十亿美元。",
+      "timestamp": "42:28",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "Epic took 40 years to get to the scale it's at today. And Epic has less than 50% of physicians using their product.",
+      "zh": "Epic 花了 40 年才达到今天这样的规模。而且使用 Epic 产品的医生不到 50%。",
+      "timestamp": "45:54",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "It's the largest line item in the federal budget, six times the size of defense.",
+      "zh": "它是联邦预算中最大的一项，是国防规模的六倍。",
+      "timestamp": "47:27",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "If someone told me, hey, we're going to spend a trillion more on health care this year, but everyone gets to live to 100, I'll take that trade any day of the week.",
+      "zh": "如果有人告诉我，嘿，我们今年要在医疗上多花一万亿美元，但每个人都能活到 100 岁，我随时都愿意做这笔交易。",
+      "timestamp": "48:29",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "They save Medicare two and a half million dollars every week.",
+      "zh": "他们每周为 Medicare 节省 250 万美元。",
+      "timestamp": "58:36",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "You could argue in a lot of ways that OpenAI is now one of the largest healthcare providers in America, right? They have 300 million people asking ChatGPT questions every week about healthcare specifically.",
+      "zh": "你在很多方面都可以说 OpenAI 现在是美国最大的医疗服务提供者之一，对吧？他们每周有 3 亿人在就医疗健康问题向 ChatGPT 提问。",
+      "timestamp": "66:40",
+      "speaker": "Dr. Wara"
+    },
+    {
+      "en": "For Silicon Valley, it's coding. For the rest of America, it is healthcare.",
+      "zh": "对硅谷来说是编程。对美国其他人来说是医疗健康。",
+      "timestamp": "67:39",
+      "speaker": "Dr. Wara"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:08",
+      "speaker": "Unknown",
+      "en": "The last 10 years, we've spent about 40 trillion on healthcare. We have not moved our life expectancy in age.",
+      "zh": "过去 10 年，我们在医疗保健上花费了大约 40 万亿。我们的预期寿命却没有得到任何改善。"
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Unknown",
+      "en": "And if that is not an indictment of the failure of the healthcare system, I don't know what is.",
+      "zh": "如果这还不能算是对医疗保健体系失败的控诉，那我不知道什么才是。"
+    },
+    {
+      "timestamp": "01:07",
+      "speaker": "Unknown",
+      "en": "Neuralink is a more interesting company than SpaceX.",
+      "zh": "Neuralink 是一家比 SpaceX 更有意思的公司。"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Unknown",
+      "en": "As a nation, I think we need a 10X nurse a lot more than we need a 10X engineer.",
+      "zh": "作为一个国家，我认为我们更需要一名 10X 护士，而不是一名 10X 工程师。"
+    },
+    {
+      "timestamp": "02:18",
+      "speaker": "Unknown",
+      "en": "I would say more so than maybe any other time in history, the frontier of science and the frontier of what we've accomplished is moving faster than ever.",
+      "zh": "我想说，比历史上任何时期可能都更甚，科学的边界以及我们所取得成就的边界，正以前所未有的速度推进。"
+    },
+    {
+      "timestamp": "07:38",
+      "speaker": "Unknown",
+      "en": "There's a saying we always have in research where it's, you know, we've cured cancer in mice 50 times.",
+      "zh": "我们在研究中总有一句话，就是，我们已经治好了老鼠的癌症 50 次。"
+    },
+    {
+      "timestamp": "08:53",
+      "speaker": "Unknown",
+      "en": "For a process right now that has 90 plus percent failure rates, takes 10 to 15 years and costs billions of dollars.",
+      "zh": "而这是针对一个目前失败率高达 90% 以上、需要 10 到 15 年、耗资数十亿美元的过程而言的。"
+    },
+    {
+      "timestamp": "11:59",
+      "speaker": "Unknown",
+      "en": "truly the best at both of what they do. They speak two languages fluently.",
+      "zh": "在自己所做的两件事上都真正做到最顶尖。他们能流利地讲两种语言。"
+    },
+    {
+      "timestamp": "13:44",
+      "speaker": "Unknown",
+      "en": "That's also something that we believe and sort of I believe deeply to my core.",
+      "zh": "这也是我们所相信的，也是我从骨子里深信的。"
+    },
+    {
+      "timestamp": "20:46",
+      "speaker": "Unknown",
+      "en": "The brain is vaster than space.",
+      "zh": "大脑比太空更浩瀚。"
+    },
+    {
+      "timestamp": "21:03",
+      "speaker": "Unknown",
+      "en": "The brain is still a more efficient engine of compute than every chip that NVIDIA has ever made.",
+      "zh": "大脑仍然是一台比 NVIDIA 有史以来制造的每一块芯片都更高效的算力引擎。"
+    },
+    {
+      "timestamp": "23:52",
+      "speaker": "Unknown",
+      "en": "And it's also an issue that it's the greatest modifiable risk factor we have for dementia.",
+      "zh": "而且还有一个问题是，它是我们对失智症最大的可改变风险因素。"
+    },
+    {
+      "timestamp": "28:36",
+      "speaker": "Unknown",
+      "en": "4.5 was their highest rating that a hearing aid had ever gotten on their five-point scale. Fortell recently did it and got a six.",
+      "zh": "4.5 分是他们五分制下助听器曾经得到过的最高分。Fortell 最近去评了，拿了个六分。"
+    },
+    {
+      "timestamp": "33:49",
+      "speaker": "Unknown",
+      "en": "Yeah, so I think a lot of ways, one, if you're truly AGI-pilled, as they say, you should be actually long healthcare.",
+      "zh": "是的，我认为在很多方面，第一，如果你真的像人们说的那样被 AGI 彻底说服了，那你实际上应该做多医疗保健。"
+    },
+    {
+      "timestamp": "35:28",
+      "speaker": "Unknown",
+      "en": "Keytruda's 2025 revenue of just that one drug was larger than the revenue of all the major labs combined.",
+      "zh": "Keytruda 仅这一款药 2025 年的收入就超过了所有大型实验室的收入总和。"
+    },
+    {
+      "timestamp": "40:11",
+      "speaker": "Unknown",
+      "en": "So, yeah, so our time with OpenAI was, gosh, I guess it was two and change years ago.",
+      "zh": "是这样的，我们和 OpenAI 的合作，天哪，我猜大概是两年多一点以前。"
+    },
+    {
+      "timestamp": "42:28",
+      "speaker": "Unknown",
+      "en": "And now I'm seeing two years later, one of those same CEOs has announced billions of dollars of spend in this.",
+      "zh": "而现在两年过去，我看到同一位 CEO 宣布在这一领域投入数十亿美元。"
+    },
+    {
+      "timestamp": "44:53",
+      "speaker": "Unknown",
+      "en": "They just don't like the bad technology that they're forced to use all the time.",
+      "zh": "他们只是不喜欢那些被强迫一直使用的烂技术。"
+    },
+    {
+      "timestamp": "45:54",
+      "speaker": "Unknown",
+      "en": "Epic took 40 years to get to the scale it's at today. And Epic has less than 50% of physicians using their product.",
+      "zh": "Epic 花了 40 年才达到今天这样的规模。而且使用 Epic 产品的医生不到 50%。"
+    },
+    {
+      "timestamp": "47:27",
+      "speaker": "Unknown",
+      "en": "It's the largest line item in the federal budget, six times the size of defense.",
+      "zh": "它是联邦预算中最大的一项，是国防规模的六倍。"
+    },
+    {
+      "timestamp": "48:29",
+      "speaker": "Unknown",
+      "en": "If someone told me, hey, we're going to spend a trillion more on health care this year, but everyone gets to live to 100, I'll take that trade any day of the week.",
+      "zh": "如果有人告诉我，嘿，我们今年要在医疗上多花一万亿美元，但每个人都能活到 100 岁，我随时都愿意做这笔交易。"
+    },
+    {
+      "timestamp": "50:35",
+      "speaker": "Unknown",
+      "en": "$40 trillion for no change.",
+      "zh": "40 万亿美元，毫无改变。"
+    },
+    {
+      "timestamp": "58:36",
+      "speaker": "Unknown",
+      "en": "They save Medicare two and a half million dollars every week.",
+      "zh": "他们每周为 Medicare 节省 250 万美元。"
+    },
+    {
+      "timestamp": "66:40",
+      "speaker": "Unknown",
+      "en": "You could argue in a lot of ways that OpenAI is now one of the largest healthcare providers in America, right? They have 300 million people asking ChatGPT questions every week about healthcare specifically.",
+      "zh": "你在很多方面都可以说 OpenAI 现在是美国最大的医疗服务提供者之一，对吧？他们每周有 3 亿人在就医疗健康问题向 ChatGPT 提问。"
+    },
+    {
+      "timestamp": "67:43",
+      "speaker": "Unknown",
+      "en": "For Silicon Valley, it's coding. For the rest of America, it is healthcare.",
+      "zh": "对硅谷来说是编程。对美国其他人来说是医疗健康。"
+    }
+  ],
+  "voice_script": "今天的主角叫 Vin Gupta，大家一般叫他 Dr. Wara。这个人的背景有点少见：先受过完整的内科医生训练，做过创业公司 Cityblock Health 的创始团队成员，后来在 Amazon 管药房业务，还当了那里第一任首席医疗官。两年多前，他加入了风投公司 Thrive Capital，负责所有医疗方向的押注——从 OpenAI、Neuralink，一路到做助听器的公司。这一期访谈，他用医生加投资人的双重视角，把 AI 时代的医疗讲了一遍。为什么这个话题值得听？先看几个数字。\n\n美国医疗一年花 5 万亿美元，预计这个十年结束时涨到 9 万亿。医疗是全美第一大雇主，20% 的工作岗位在这里，未来新增岗位里预计 30% 也在医疗。联邦预算里最大的一项就是医疗，是国防的 6 倍。但钱花成这样，结果呢？过去 10 年，美国在医疗上花了大约 40 万亿，人均寿命一步没动，现在在 80 岁上下。Wara 有句话说得很狠：如果这还不算是对医疗体系失败的控诉，那我不知道什么才是。所以他的态度是，花钱不是问题，问题是买没买到命——如果多花 1 万亿能让所有人都活到 100 岁，这个交换他随时愿意做。而 AI 带来的机会，恰恰是让下一个 10 年真的从 80 岁走向 100 岁。\n\n那 AI 具体能改变什么？先看制药。今天研发一款新药，失败率超过 90%，要花 10 到 15 年、几十亿美元。AI 制药要攻的关卡分几层：第一层是设计出能结合目标的分子，这一层已经被 AlphaFold 这类模型越做越好；第二层是预测分子起什么作用，第三层是预测副作用。但真正的麻烦在验证。代码编没编对，一跑就知道；药物有效没效，得放进细胞、放进小鼠、最后放进人体。业内有句老话：我们在小鼠身上治愈癌症，已经 50 次了。Isomorphic Labs，也就是 DeepMind 创始人 Demis 开的那家公司，在 Biohub 活动上说，目标是在 5 年内把成功率做到 88% 到 90%。要做到这一点，光分子设计变快没用——临床前快了，临床试验就会变成瓶颈，生产也会变成瓶颈，所以要整条链一起提速。\n\n说完成药，再来说一个更科幻的方向：脑机接口。Wara 有个暴论——Neuralink 是一家比 SpaceX 更有意思的公司，理由是大脑比太空更浩瀚：没有大脑，人类既上不了太空也造不出芯片，大脑至今是比 NVIDIA 所有芯片都更高效的计算引擎。Neuralink 最早的受众是渐冻症和瘫痪患者，比如因爆炸物失去四肢的年轻退伍军人。植入设备让人用意念控制电脑、操控机械臂，还有一个试验把设备放进大脑语言中枢，让不能说话的人重新开口。这家公司的打法是把关键环节全部自己做：植入物里有上千根显微线，细到人手没法做手术，于是顺手造了一台神经外科手术机器人——对别的公司来说这能撑起一整门生意，对他们只是一个部门；连病理实验室都自建，因为安全性数据太关键，不能外包。\n\n顺着\"关键环节全部自建\"这个思路，就引出一个看似不搭界的领域：助听器。Thrive 投了一家叫 Fortel 的公司，切入点很反直觉。全球有 15 亿人受听力损失影响，而听力损失是痴呆最大的可干预风险因素——有听力损失的人，患痴呆的概率高出三分之一。想保住脑子，先别丢了耳朵。传统助听器只是把所有声音一起放大，但真正的听觉是大脑会筛选，这就是你能在嘈杂咖啡馆里只听对面那个人说话的原因。所以传统助听器的用户一到饭馆、街头就没法待。Fortel 的创始人 Matt DeJong 想明白了这一点，团队自己设计芯片、找 TSMC 流片，第一次流片就成功，业内几乎没有先例，再用语义降噪来动态调节音量——分辨这是人说话还是一辆车经过。结果，第三方评级机构给助听器打分的史上最高纪录是五分制的 4.5 分，Fortel 拿到了 6 分，直接把量表打破了。有个测试用户被要求退还设备时说，想都别想。\n\n你看，Neuralink 和 Fortel 的共性其实是一样的：世界级的硬件，加世界级的医学，关键环节全部自己建。那 AI 在医疗服务本身呢？这可能是最惊人的一个事实。两年多前，Wara 帮 OpenAI 牵线，组织了几场与药企、保险公司、医院系统高管的闭门会。当时拿还没发布的推理模型测试《新英格兰医学杂志》的疑难病例——豪斯医生那种难度——把病例前半段喂进去，模型每周都能诊断对，而他和最好的医生同事们，十次可能对两次。当众说模型能诊断，被在场的人当成异端；两年后，当初说 AI 只配做客服的某药企 CEO，已经宣布砸几十亿美元进这个方向。现在每周有 3 亿人在 ChatGPT 上问健康问题——Wara 说，OpenAI 在某种意义上已经是美国甚至世界最大的医疗提供方，每个人口袋里都装着一位世界级医生，凌晨两点也在线。OpenAI 还和波士顿儿童医院等哈佛系医院合作，接手约 300 个未确诊的儿科病例，新诊断出了其中约 20 个。\n\n再看医生这一端。Thrive 投的 OpenEvidence，是一个给医生用的临床证据检索工具，三年内拿下全美三分之二的医生用户；对比一下，行业霸主 Epic 花了 40 年还不到 50%。所以你看，医生不是讨厌技术，只是讨厌被迫用的烂技术。还有慢病管理。Thrive 投的 Cadence 做居家监测：给病人寄血压计、体重秤，AI 全天候盯着数据，人类护士随时介入。逻辑很简单——你一年见医生 4 次，就算每次 1 小时，剩下 8000 多个小时没人管。血压一高，AI 一小时内就打电话来问晕不晕，因为晚一小时你可能正在超市陪孙子玩，就不接了。成绩单发表在《新英格兰医学杂志》等期刊：住院率降 25%，血压达标率提升超 80%，每周给 Medicare 省 250 万美元；AI 调药建议和医生本人决策的一致率达到 98%。\n\n访谈结尾，Wara 把话说得很直：科技圈整天谈 10 倍工程师，但作为一个国家，我们更需要的是 10 倍护士。这句话，就是这一期最想留给你的东西。"
+}

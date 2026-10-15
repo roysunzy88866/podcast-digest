@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Context Hub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Context Hub">CO</div><div class="pi"><h1 class="pt">Context Hub</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Context Hub">CO</div><div class="pi"><h1 class="pt">Context Hub</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]]**(11:29起):本集说是 LangSmith 里的存储：后台分析从轨迹提取信号并写入，智能体下次运行时拉取这些持久上下文
+- **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(06:15起):本集把它说成：存储指令、技能和记忆的仓库，带版本控制，让开发者能在 LangSmith 界面内与业务用户协作迭代并推广到生产。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]] — 作为概念
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jake Broekhuizen]] · [[LangChain]] · [[LangSmith]] · [[智能体]] · [[记忆]] · [[可观测性]] · [[trace]] · [[上下文]] · [[程序性记忆]] · [[读写循环]]
+[[LangChain]] · [[LangSmith]] · [[智能体]] · [[记忆]] · [[评估]] · [[Jake Broekhuizen]] · [[Victor]] · [[可观测性]] · [[Deep Agents]] · [[trace]]
 
-<script type="application/json" class="pd-epn">{"Jake Broekhuizen":1,"LangChain":13,"LangSmith":6,"智能体":1,"记忆":28,"可观测性":46,"trace":7,"上下文":34,"程序性记忆":1,"读写循环":1}</script>
+<script type="application/json" class="pd-epn">{"LangChain":14,"LangSmith":7,"智能体":1,"记忆":30,"评估":1,"Jake Broekhuizen":1,"Victor":3,"可观测性":46,"Deep Agents":4,"trace":7}</script>
 
 <script>
 (function(){

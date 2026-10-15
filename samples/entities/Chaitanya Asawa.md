@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":1,"临床决策支持":1,"评估":1,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":28,"临床记录":1}</script>
+<script type="application/json" class="pd-epn">{"Abridge":1,"Glean":2,"智能体":1,"临床决策支持":1,"评估":1,"LLM 评委":1,"评分细则":1,"后训练":1,"前沿模型":29,"临床记录":1}</script>
 
 <script>
 (function(){

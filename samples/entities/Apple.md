@@ -98,7 +98,7 @@ unlisted: true
 
 [[Google]] · [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[Meta]] · [[NVIDIA]] · [[ChatGPT]] · [[Amazon]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Google":72,"智能体":1,"OpenAI":203,"Anthropic":204,"Microsoft":32,"Meta":55,"NVIDIA":71,"ChatGPT":112,"Amazon":34,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"Google":72,"智能体":1,"OpenAI":204,"Anthropic":205,"Microsoft":32,"Meta":55,"NVIDIA":71,"ChatGPT":113,"Amazon":34,"Lenny":69}</script>
 
 <script>
 (function(){

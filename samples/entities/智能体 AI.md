@@ -45,7 +45,7 @@ unlisted: true
 
 [[Google]] · [[TAM]] · [[ChatGPT]] · [[Ranjan Roy]] · [[Willem Avé]] · [[Sophia Du]] · [[Herwig]] · [[Aakash]] · [[Daniel Saks]] · [[Alex]]
 
-<script type="application/json" class="pd-epn">{"Google":72,"TAM":4,"ChatGPT":112,"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":5,"Herwig":1,"Aakash":4,"Daniel Saks":1,"Alex":6}</script>
+<script type="application/json" class="pd-epn">{"Google":72,"TAM":4,"ChatGPT":113,"Ranjan Roy":3,"Willem Avé":1,"Sophia Du":5,"Herwig":1,"Aakash":4,"Daniel Saks":1,"Alex":6}</script>
 
 <script>
 (function(){

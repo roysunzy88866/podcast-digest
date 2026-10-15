@@ -1,0 +1,119 @@
+{
+  "title_zh": "从本机跑通到正式上线：LangChain 发布 Managed Deep Agents",
+  "tldr": "LangChain 产品经理 Victor 讲解 Deep Agents 框架与新发布的 Managed Deep Agents,如何让关键任务智能体快速部署上线。",
+  "digest_md": "智能体(Agent)这个词被说得太多，但真正把它从笔记本电脑上的演示推到生产环境，中间隔着一大堆麻烦事。LangChain 的产品经理 Victor 在这场演讲里，先拆解了他们的 Deep Agents 框架，再介绍了随 0.8 版本发布的 Managed Deep Agents——把基础设施打包好，让团队专心写业务逻辑。\n\n## 什么是智能体，什么是马甲？\n\n智能体的核心很朴素：一个模型，调用工具，完成任务。它基于流行已久的 React 风格——先推理，再行动。那什么是 harness(可以理解为给模型穿上的马甲)？Victor 说，就是模型之外的一切：技能、工具、上下文、子智能体，统统打包进去。目的只有一个——在对的时间给模型对的上下文。[00:47 Unknown]\n\nDeep Agents 就是这样一个可定制的马甲。LangChain 把编码智能体的经验提炼出来，做成几乎任何领域都能用的基础框架。\n\n## 四块核心设计，文件系统是灵魂\n\nDeep Agents 的结构有四块。第一是执行环境：给智能体一个虚拟文件系统，文件可以放在 S3,也可以放在能写代码、跑代码的沙箱里。它还顺便解决了上下文管理——把超长的工具返回结果存进文件，而不是硬塞进模型的上下文窗口。 [01:42 Unknown]\n\n另外三块：委派(智能体自己做计划，再派子智能体执行)、人在回路(随时暂停等人确认，Deep Agents 建在 LangGraph 运行时之上，天生支持中断)、以及上下文摘要压缩。\n\n客户 Madrigal 是个现成的例子：他们的药物研究员过去要花几周才能为一个研究员搭好新智能体，用 Deep Agents 部署到 LangSmith 之后，只要几小时。[03:03 Unknown]\n\n## 为什么本机跑通到上线这么难？\n\nVictor 把搭智能体分成三块：业务逻辑、马甲、基础设施。业务逻辑是团队最该花心思的部分；基础设施最无聊，却最关键——用户从哪些入口用这个智能体？怎么排队？怎么流式输出？这些全要自己搭。[04:41 Unknown]\n\n**Managed Deep Agents 的思路，就是把马甲和基础设施打包，你只管改提示词、跑评测、迭代逻辑**。\n\n上手也确实简单：一条 mda init 命令建好项目目录，指令、技能、工具、身份各放一个文件;mda dev 在本地起一个和生产环境完全相同的服务器;mda deploy 一条命令部署到 LangSmith 的托管基础设施上。[07:06 Unknown]\n\n## 四个吓人的问题，一套方案应对\n\n把智能体推给全公司用，客户总会问四个问题：谁在让它干活？用谁的数据？引用谁的记忆？权限不够怎么办？[08:34 Unknown]\n\nManaged Deep Agents 的回答：认证处理器能在 Slack、网页等不同入口之间识别同一个用户，不用反复登录。连接(connections)机制让开发者定义每个工具用谁的凭证——比如查 CRM 一律用发起人的 Salesforce 账号。中途缺令牌？智能体会自动暂停，发个链接让用户点一下授权，然后继续，因为中断是有检查点的，可以无限期等待。[10:18 Unknown]\n\n记忆也分层：程序性记忆(智能体对用户的操作经验)和个人偏好记忆分开，而且可以按渠道控制权限——私聊里能用你的个人记忆，共享频道里就不该暴露你的信息。[11:13 Unknown]\n\n## 评测和版本控制也一并解决\n\n指令、技能、记忆统一存在 Context Hub 仓库里，带版本控制，方便和业务同事协作迭代，确认没问题再推广到生产。推广前的评测接入了 Harbor 框架，跑 mda evals init 就能初始化环境，结果全部进 LangSmith 的实验页，可以反复跑同一批任务，不断爬山式地优化智能体。[12:28 Unknown]\n\n会上还宣布了与 Parallel 的集成，公开测试期免费，不用配 API 密钥，加个工具就能用内置搜索。[12:50 Unknown]\n\n## 谁在用？效果如何？\n\nLangChain 内部自己先用：除了前面提到的销售(goto-market)智能体，还有一个叫 OpenSwitch 的软件工厂类智能体。客户方面，Kith 的 Zahid 帮他们打磨了与无代码用户协作的原语，ConsenSys 的 Derek 带着开发团队在公司各部门落地各种智能体——因为基础设施不用操心，他们上线智能体的速度快了很多。[13:47 Unknown]\n\n0.8 版本同日带来的新功能还包括：自定义 HTTP 通道、更好的沙箱文件系统接口、用户级记忆、连接机制、Slack 文件传输(比如让智能体做 PowerPoint,直接在 Slack 里反复改)。\n\n## 本集带走\n\n- 智能体=模型+工具+马甲；马甲的全部意义是在对的时间给模型对的上下文\n- Deep Agents 用虚拟文件系统统一解决了执行环境和上下文管理，还支持任务委派和人工中断\n- 从本机到生产的真正瓶颈是基础设施：多入口认证、排队、流式、权限，Managed Deep Agents 把这些全托管了\n- 身份、凭证、记忆、缺权限中途授权这四个生产环境最头疼的问题，都有了开箱即用的原语\n- 客户 Madrigal 把搭建一个领域智能体的时间从几周压缩到几小时",
+  "quotes": [
+    {
+      "en": "And that's to get the model the right context at the right time.",
+      "zh": "这一切的目的，就是在正确的时机把正确的上下文交给模型。",
+      "timestamp": "01:12",
+      "speaker": "Victor"
+    },
+    {
+      "en": "a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith",
+      "zh": "过去为一个研究人员启动一个新智能体需要几周时间，而现在把这些全部放进 Deep Agents harness 并部署到 LangSmith 上，只需要几个小时。",
+      "timestamp": "03:46",
+      "speaker": "Victor"
+    },
+    {
+      "en": "So infrastructure is probably the more boring area, but the most important area when you talk about actually taking the agent and putting it into production in a way that others can use it.",
+      "zh": "基础设施可能是比较无趣的领域，但当你真正要把智能体投入生产、让别人可以使用它时，它却是最重要的领域。",
+      "timestamp": "04:31",
+      "speaker": "Victor"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:12",
+      "speaker": "Unknown",
+      "en": "And that's to get the model the right context at the right time.",
+      "zh": "这一切的目的，就是在正确的时机把正确的上下文交给模型。"
+    },
+    {
+      "timestamp": "01:15",
+      "speaker": "Unknown",
+      "en": "we know that the model is only as powerful as the context that we give it",
+      "zh": "我们知道，模型的能力取决于我们给它的上下文。"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Unknown",
+      "en": "What's really cool about this too is this helps with context management. So things like progressive disclosure of skills, doing things like cross-thread memory.",
+      "zh": "这个东西真正酷的地方在于，它有助于上下文管理，比如技能的渐进式披露、跨线程记忆这类事情。"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Unknown",
+      "en": "We can actually offload that into the file system rather than directly loading that into our model's context window.",
+      "zh": "我们实际上可以把它卸载到文件系统中，而不是直接加载到模型的上下文窗口里。"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Unknown",
+      "en": "a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith",
+      "zh": "过去为一个研究人员启动一个新智能体需要几周时间，而现在把这些全部放进 Deep Agents harness 并部署到 LangSmith 上，只需要几个小时。"
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Unknown",
+      "en": "So infrastructure is probably the more boring area, but the most important area when you talk about actually taking the agent and putting it into production in a way that others can use it.",
+      "zh": "基础设施可能是比较无趣的领域，但当你真正要把智能体投入生产、让别人可以使用它时，它却是最重要的领域。"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Unknown",
+      "en": "This is actually a very, very valuable stage. This is where we can kind of prove the magic of the agent, that the agent can actually do what we're designing it for.",
+      "zh": "这其实是一个非常有价值的阶段。正是在这里，我们能够证明智能体的魔力——它真的能做到我们为它设计的事情。"
+    },
+    {
+      "timestamp": "08:34",
+      "speaker": "Unknown",
+      "en": "there's kind of four scary things that then get brought up when you bring it into production is how do we identify who's asking this agent to do what",
+      "zh": "把智能体带入生产环境时会引出四个可怕的问题，其中一个是我们如何识别是谁在让这个智能体做什么。"
+    },
+    {
+      "timestamp": "09:22",
+      "speaker": "Unknown",
+      "en": "So what we did is built a very nice auth handler that will help you reconcile those users, and you can have them reconcile across these different surface areas.",
+      "zh": "所以我们做的是构建了一个很好的身份验证处理器，帮助你协调用户身份，让它们在这些不同表面之间完成统一。"
+    },
+    {
+      "timestamp": "10:37",
+      "speaker": "Unknown",
+      "en": "And this will happen indefinitely since we have the interrupts checkpointed.",
+      "zh": "而且这可以无限次发生，因为我们的中断都有检查点。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Unknown",
+      "en": "And it's really important that your agent is able to take these different types of memory.",
+      "zh": "让你的智能体能够处理这些不同类型的记忆，是非常重要的。"
+    },
+    {
+      "timestamp": "11:27",
+      "speaker": "Unknown",
+      "en": "But if I'm talking in a shared channel with my other coworkers, I probably don't want it to be able to unveil certain information about me.",
+      "zh": "但如果我在一个和其他同事共享的频道里交谈，我可能不希望它透露关于我的某些信息。"
+    },
+    {
+      "timestamp": "11:40",
+      "speaker": "Unknown",
+      "en": "Another really nice part of Manage Deep Agents is we get version control for our agent context with Context Hub.",
+      "zh": "Manage Deep Agents 另一个非常好的部分是，我们通过 Context Hub 为智能体上下文获得了版本控制。"
+    },
+    {
+      "timestamp": "12:43",
+      "speaker": "Unknown",
+      "en": "You can rerun the same tasks, and you can actually hill climb your agent right in your own machine.",
+      "zh": "你可以重新运行相同的任务，实际上可以在你自己的机器上对智能体进行爬山式优化。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Unknown",
+      "en": "They're able to really easily go and deploy these agents, and they've been able to really rapidly increase the amount of agents that are being used across consensus, which is really exciting.",
+      "zh": "他们能够非常轻松地部署这些智能体，并且得以快速增加了整个组织内部正在使用的智能体数量，这真的很令人兴奋。"
+    }
+  ],
+  "voice_script": "智能体这个词，这两年被说得太多了。但真正把一个智能体从笔记本电脑上的演示，推到生产环境让真人用起来，中间隔着一大堆麻烦事。今天要讲的，就是 LangChain 的产品经理 Victor 怎么看这个问题。这场演讲里，先拆解了他们的 Deep Agents 框架，又介绍了随 0.8 版本新发布的 Managed Deep Agents——一句话说，就是把基础设施打包好，让团队专心写业务逻辑。\n\n先从头说起。智能体的核心其实很朴素：一个模型，调用工具，完成任务。它基于流行已久的 React 风格——先推理，再行动。那在这个基础上，还有个词叫 harness，可以理解成给模型穿上的马甲。Victor 说得很直白：马甲就是模型之外的一切，技能、工具、上下文、子智能体，统统打包进去。目的只有一个——在对的时间，给模型对的上下文。Deep Agents 就是这样一个可定制的马甲。LangChain 把做编码智能体的经验提炼出来，做成一个几乎任何领域都能用的基础框架。\n\n这个框架的结构有四块。最关键的一块是执行环境：给智能体一个虚拟文件系统，文件可以放在 S3,也可以放在能写代码、跑代码的沙箱里。这个文件系统还有个妙用，顺便解决了上下文管理——超长的工具返回结果，不用硬塞进模型的上下文窗口，直接存进文件就行，模型需要的时候再去读。剩下三块也各有用处。委派，是让智能体自己做计划，再派子智能体去执行。人在回路，是随时可以暂停下来等人确认，因为 Deep Agents 建在 LangGraph 运行时之上，天生支持中断。还有一块是上下文摘要压缩，把太长的历史压一压，省着点用。\n\n这套东西真有人用吗？客户 Madrigal 是个现成的例子。做药物研究的，过去要花几周才能为一个研究员搭好一个新智能体；用 Deep Agents 部署到 LangSmith 之后，只要几小时。几周到几小时，这个差距能说明问题。\n\n不过你可能会问，为什么从本机跑通到正式上线，中间会这么难？Victor 把搭智能体拆成三块：业务逻辑、马甲、基础设施。业务逻辑是团队最该花心思的部分；马甲刚讲过了；而基础设施是最无聊的，却最关键——用户从哪些入口用这个智能体？任务怎么排队？输出怎么流式传给前端？这些全要自己搭。Managed Deep Agents 的思路，就是把马甲和基础设施打包托管，你只管改提示词、跑评测、迭代业务逻辑。\n\n上手也确实简单，就三条命令。mda init 建好项目目录，指令、技能、工具、身份各放一个文件；mda dev 在本地起一个和生产环境完全相同的服务器，先跑通；最后 mda deploy,一条命令部署到 LangSmith 的托管基础设施上。\n\n但推给全公司用之前，客户总会问四个吓人的问题：谁在让它干活？用谁的数据？引用谁的记忆？权限不够了怎么办？这四个问题，对应的就是身份、凭证、记忆、授权。Managed Deep Agents 给了一整套方案。认证处理器能在 Slack、网页这些不同入口之间识别出同一个用户，不用反复登录。连接机制让开发者定义每个工具用谁的凭证——比如查 CRM,一律用发起人自己的 Salesforce 账号。那中途缺令牌怎么办？智能体会自动暂停，发个链接让用户点一下授权，然后接着干活。因为中断是有检查点的，可以无限期等待，不怕耗在那儿。\n\n记忆也做了分层。程序性记忆，就是智能体对用户的操作经验；还有个人偏好记忆。这两种是分开的，而且可以按渠道控制权限——私聊里能用你的个人记忆，共享频道里就不该把你的信息暴露出去。\n\n再往生产走一步，还有评测和版本控制的问题。指令、技能、记忆统一存在一个叫 Context Hub 的仓库里，带版本控制，方便和业务同事协作迭代，确认没问题再推广到生产。评测接入了 Harbor 框架，跑一条 mda evals init 就能初始化环境，结果全部进 LangSmith 的实验页，可以反复跑同一批任务，不断爬山式地优化智能体。发布会上还宣布了和 Parallel 的集成，公开测试期免费，不用配 API 密钥，加个工具就能用上内置搜索。\n\n用的人也不少。LangChain 内部自己先用，除了销售类智能体，还有一个叫 OpenSwitch 的软件工厂类智能体。客户那边，Kith 的 Zahid 帮着打磨了与无代码用户协作的原语；ConsenSys 的 Derek 带着开发团队在公司各部门落地各种智能体——因为基础设施不用操心了，上线速度快了很多。0.8 版本同日带来的新功能还包括自定义 HTTP 通道、更好的沙箱文件系统接口、用户级记忆、连接机制，还有 Slack 文件传输，比如让智能体做一份 PowerPoint,直接在 Slack 里反复改。\n\n回头看这一集，最值得记住的一句话是：基础设施可能是比较无趣的领域，但当你真正要把智能体投入生产、让别人可以使用它时，它却是最重要的领域。"
+}

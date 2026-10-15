@@ -80,7 +80,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[护栏]] · [[OpenAI]] · [[NVIDIA]] · [[推理]] · [[Databricks]] · [[Microsoft]] · [[ChatGPT]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":204,"护栏":91,"OpenAI":203,"NVIDIA":71,"推理":101,"Databricks":24,"Microsoft":32,"ChatGPT":112,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":205,"护栏":91,"OpenAI":204,"NVIDIA":71,"推理":101,"Databricks":24,"Microsoft":32,"ChatGPT":113,"Stripe":49}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatPRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,10 +18,11 @@ unlisted: true
 - **[[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]]**(15:41起):本集说 Claire 为 ChatPRD 做的「产品智能」功能(从 Intercom、Linear、GitHub 等摄取数据、去重、提炼洞察、生成自动维基),六个月攻不下,Astra one shot 搞定。
 - **[[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]]**(09:24起):本集说它是主播开发的 AI 产品经理助手应用,被用作 PR 分类分析(1,700 个 PR 花 9 美分)和「产品洞察图谱」的实战对象。
 - **[[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]]**(17:10起):本集说 Claire 的 ChatPRD 网站刚被 Opus 5.5 漂亮改版,而 Muse 的重设计把图片做坏、不遵守品牌设计规范,是它最糟糕的表现。
+- **[[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]]**(15:00起):本集举的成功案例:人们选择它是因为创始人 Claire 把自己做首席产品官的经验通过 AI 注入产品,放大了 AI 这个技术资源。
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为被讨论公司
 - [[2026-07-22-howiai-computer--browser-use-in-codex-5-real-ex|《让AI替你操作电脑和浏览器的三个实战用法》]] — 作为被讨论公司(提及)
@@ -30,6 +31,7 @@ unlisted: true
 - [[2026-09-03-howiai-gpt-6-astra-is-a-banger---heres-everythi|《GPT-6 Astra 上手实测:它会用你的电脑了》]] — 作为概念
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|《Jev 决策模型:9 美分分析 2000 个 PR 的用法全解》]] — 作为被讨论公司
 - [[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]] — 作为概念(提及)
+- [[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -37,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[浏览器使用]] · [[Claire Vo]] · [[计算机使用]] · [[SOC 2]] · [[OpenClaw]] · [[MCP]] · [[提示词注入]] · [[QA]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Codex":90,"浏览器使用":9,"Claire Vo":7,"计算机使用":22,"SOC 2":3,"OpenClaw":24,"MCP":95,"提示词注入":1,"QA":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Codex":90,"浏览器使用":9,"Claire Vo":7,"计算机使用":22,"SOC 2":3,"OpenClaw":24,"MCP":96,"提示词注入":1,"QA":2}</script>
 
 <script>
 (function(){

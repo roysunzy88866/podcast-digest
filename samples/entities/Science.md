@@ -81,7 +81,7 @@ unlisted: true
 
 [[Max Hodak]] · [[Neuralink]] · [[Anthropic]] · [[Helix]] · [[AI 基础设施]] · [[迭代]] · [[BCI]] · [[归因]] · [[招人]] · [[eigenreviews]]
 
-<script type="application/json" class="pd-epn">{"Max Hodak":2,"Neuralink":3,"Anthropic":204,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4,"招人":5,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Max Hodak":2,"Neuralink":4,"Anthropic":205,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4,"招人":5,"eigenreviews":1}</script>
 
 <script>
 (function(){

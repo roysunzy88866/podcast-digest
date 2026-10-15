@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":1,"智能体视频剪辑":1,"沙箱":100,"Remotion":1,"技能":34}</script>
+<script type="application/json" class="pd-epn">{"Reelful":1,"智能体":1,"智能体视频剪辑":1,"沙箱":101,"Remotion":1,"技能":35}</script>
 
 <script>
 (function(){

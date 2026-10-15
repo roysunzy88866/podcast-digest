@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alyssa Ravasio]] · [[Airbnb]] · [[市场]] · [[网络效应]] · [[供需]] · [[商业模式]] · [[Scale]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Alyssa Ravasio":1,"Airbnb":14,"市场":4,"网络效应":16,"供需":1,"商业模式":1,"Scale":5,"vibe coding":51}</script>
+<script type="application/json" class="pd-epn">{"Alyssa Ravasio":1,"Airbnb":14,"市场":4,"网络效应":17,"供需":1,"商业模式":1,"Scale":5,"vibe coding":51}</script>
 
 <script>
 (function(){

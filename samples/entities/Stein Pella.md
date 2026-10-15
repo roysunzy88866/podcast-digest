@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":1,"人在回路":23,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":48}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":3,"Lassie":1,"智能体":1,"人在回路":24,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":49}</script>
 
 <script>
 (function(){

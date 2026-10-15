@@ -1,0 +1,1511 @@
+{
+  "episode_id": "2026-10-09-talks-managed-deep-agents-deploying-mission-cr",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "智能体",
+    "AI 基础设施",
+    "生产部署",
+    "LangChain",
+    "开发者工具"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "victor",
+      "type": "person",
+      "role": "host",
+      "name": "Victor",
+      "file": "Victor",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.377,
+            6.838
+          ],
+          "quote": "I'm Victor.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集是 LangChain 产品经理的演讲，介绍其 Deep Agents 框架与随 0.8 版本发布的 Managed Deep Agents。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            7.218,
+            9.281
+          ],
+          "quote": "I'm a product manager here at LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            180.194,
+            182.836
+          ],
+          "quote": "Human in the loop is very core to everything that we do here at LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            470.862,
+            475.043
+          ],
+          "quote": "This is sort of an example that we use a lot internally here at LangChain, which is our go-to-market agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deep-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Deep Agents",
+      "file": "Deep Agents",
+      "primary": true,
+      "how_described": "本集把它说成：一个可定制的智能体 harness，从编码智能体经验提炼而成，适用于几乎任何领域，包含执行环境、委派、人在回路、上下文摘要四块核心设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.449,
+            22.877
+          ],
+          "quote": "We're going to start first with a little refresher on what deep agents are, and then we'll talk about managed deep agents and why we're so excited about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            86.086,
+            90.793
+          ],
+          "quote": "Deep Agents is a customizable harness that we can build for any domain-specific task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            109.052,
+            114.453
+          ],
+          "quote": "And this is really core to the philosophy of deep agents is we sort of abstract away the file system for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            223.775,
+            234.751
+          ],
+          "quote": "They were able to build all of this with Deep Agents, and a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            260.937,
+            268.466
+          ],
+          "quote": "The second is the harness itself, which we talked about as deep agents, gives our agent the ability to use files and do context management and all these wonderful things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            333.153,
+            336.255
+          ],
+          "quote": "With Manage Deep Agents, we wanted to make this process very, very easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            359.738,
+            361.62
+          ],
+          "quote": "Now it becomes very easy with Manage Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            537.469,
+            544.197
+          ],
+          "quote": "So jumping into the first one, this is something that we thought about a lot with Managed Deep Agents is being able to reconcile the colors between different surface areas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            544.257,
+            548.662
+          ],
+          "quote": "So we have first class support for different channels in Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            604.931,
+            608.013
+          ],
+          "quote": "We make this really easy and manage deep agents with this connections primitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            618.584,
+            637.354
+          ],
+          "quote": "So since we have built-in Hume in the loop in deep agents and in the LangGraph runtime, what happens is when you make a request and the agent doesn't have a particular token for a particular user, and it's an on behalf of token, it's actually able to really easily pause, ask the user to go ahead and authenticate, they'll click the link, everything proceeds as normal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            654.789,
+            659.97
+          ],
+          "quote": "We have a really great way for your agent to be able to take and remember certain procedural things about users and manage deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            673.59,
+            679.856
+          ],
+          "quote": "So one thing that we built into manage deep agents is allowing you to define the access control based on the channel that it's calling from.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            700.339,
+            705.944
+          ],
+          "quote": "Another really nice part of Manage Deep Agents is we get version control for our agent context with Context Hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            727.86,
+            736.025
+          ],
+          "quote": "So one thing that we built into Managed Deep Agents that we've really spent a lot of time on was its integration with Harbor as an eval framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            745.83,
+            748.071
+          ],
+          "quote": "So we wanted to make it really easy for Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            789.414,
+            792.956
+          ],
+          "quote": "So we're really excited about partnering with Parallel on this for managed deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            827.284,
+            836.869
+          ],
+          "quote": "Additionally, Derek from ConsenSys has been really, really great to see how he's actually used managed deep agents in a way that we really intended it to be used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            845.074,
+            847.956
+          ],
+          "quote": "And because managed deep agents handles all of the infrastructure,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            859.037,
+            860.998
+          ],
+          "quote": "So what's new as of today in Manage Deep Agents?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            904.431,
+            906.332
+          ],
+          "quote": "And that's now available in Manage Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            920.918,
+            926.04
+          ],
+          "quote": "You're going to be able to iterate on it right within Slack, and that is now first class in Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            933.323,
+            940.867
+          ],
+          "quote": "We're really excited to announce Managed Deep Agents in our 0.8 release, and we can't wait to see what you build with it and build your domain-specific agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-deep-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Managed Deep Agents",
+      "file": "Managed Deep Agents",
+      "primary": true,
+      "how_described": "本集把它说成：随 0.8 版本发布的产品，把 harness 和基础设施打包托管在 LangSmith 部署上，让团队专注业务逻辑，一条 mda deploy 即可上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.449,
+            22.877
+          ],
+          "quote": "We're going to start first with a little refresher on what deep agents are, and then we'll talk about managed deep agents and why we're so excited about them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            537.469,
+            544.197
+          ],
+          "quote": "So jumping into the first one, this is something that we thought about a lot with Managed Deep Agents is being able to reconcile the colors between different surface areas.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            544.257,
+            548.662
+          ],
+          "quote": "So we have first class support for different channels in Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            727.86,
+            736.025
+          ],
+          "quote": "So one thing that we built into Managed Deep Agents that we've really spent a lot of time on was its integration with Harbor as an eval framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            745.83,
+            748.071
+          ],
+          "quote": "So we wanted to make it really easy for Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            789.414,
+            792.956
+          ],
+          "quote": "So we're really excited about partnering with Parallel on this for managed deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            827.284,
+            836.869
+          ],
+          "quote": "Additionally, Derek from ConsenSys has been really, really great to see how he's actually used managed deep agents in a way that we really intended it to be used.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            845.074,
+            847.956
+          ],
+          "quote": "And because managed deep agents handles all of the infrastructure,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            920.918,
+            926.04
+          ],
+          "quote": "You're going to be able to iterate on it right within Slack, and that is now first class in Managed Deep Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            933.323,
+            940.867
+          ],
+          "quote": "We're really excited to announce Managed Deep Agents in our 0.8 release, and we can't wait to see what you build with it and build your domain-specific agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体的核心是：一个模型使用工具来完成任务，基于推理和行动的 React 风格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            23.986,
+            27.669
+          ],
+          "quote": "So the first place we always love to start with this is what is an agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            29.25,
+            34.934
+          ],
+          "quote": "And the core idea of an agent is it's a model using tools in order to complete a task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            50.685,
+            54.469
+          ],
+          "quote": "So a harness is basically everything else that we bake in to create the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            54.549,
+            63.959
+          ],
+          "quote": "So that can be skills, it can be tools, context, sub-agents, really all of these different things that we put into an agent in order for it to accomplish a task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            66.971,
+            71.774
+          ],
+          "quote": "Why do we go through all the effort of building a harness, building an agent, and going through all this development?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            75.836,
+            84.482
+          ],
+          "quote": "So a lot of times when we're building an agent, we know that the model is only as powerful as the context that we give it, and we need to always be able to get it the right context at the right time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            102.03,
+            108.932
+          ],
+          "quote": "The anatomy of a deep agent is really comprised of four core areas, the first being the execution environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            109.052,
+            114.453
+          ],
+          "quote": "And this is really core to the philosophy of deep agents is we sort of abstract away the file system for the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            125.616,
+            128.596
+          ],
+          "quote": "It could even be a sandbox where your agent can write and execute code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            195.068,
+            199.269
+          ],
+          "quote": "So a good example of taking a deep agent into production is a customer of ours, which is Madrigal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            199.629,
+            206.231
+          ],
+          "quote": "Madrigal has a ton of different use cases, but primarily focuses on a pharmaceutical research agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            223.775,
+            234.751
+          ],
+          "quote": "They were able to build all of this with Deep Agents, and a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            239.668,
+            245.611
+          ],
+          "quote": "So let's talk about what it takes to take an agent from something that works locally and actually put it into production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            245.951,
+            248.192
+          ],
+          "quote": "So there's kind of like three core areas of building an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            249.892,
+            260.017
+          ],
+          "quote": "And this is what we think is the most important thing for developers and for teams to bring, is this core idea of their expertise and the different instructions and skills that your agent might use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            260.937,
+            268.466
+          ],
+          "quote": "The second is the harness itself, which we talked about as deep agents, gives our agent the ability to use files and do context management and all these wonderful things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            271.79,
+            279.58
+          ],
+          "quote": "So infrastructure is probably the more boring area, but the most important area when you talk about actually taking the agent and putting it into production in a way that others can use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            281.884,
+            286.269
+          ],
+          "quote": "So one of the first things that we do when we're building an agent is we're prototyping it locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            294.777,
+            299.762
+          ],
+          "quote": "This is where we can kind of prove the magic of the agent, that the agent can actually do what we're designing it for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            305.37,
+            315.565
+          ],
+          "quote": "We need to think about where people are going to use this agent, the different surfaces you might want your agent to be used from, how you're going to reconcile where those different surfaces are entering into your actual runtime,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            316.106,
+            320.128
+          ],
+          "quote": "You need to be able to queue up the runs so that your agent can kind of serve them reasonably.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            322.289,
+            326.191
+          ],
+          "quote": "You need to do all these different things in order to have this agent run reliably in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            336.375,
+            353.627
+          ],
+          "quote": "So what we've done is we've sort of bundled together the harness and the infrastructure to make it really, really easy for your teams to work on primarily the business logic and actually improving your agents with evals, with traces, with engine, and iterating on your actual agent logic rather than focusing on the infrastructure and the harness level stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            387.415,
+            396.178
+          ],
+          "quote": "And what's really nice is on the left side you'll see this agent interface is we do a really good job of allowing you to use your agent from different interfaces and reconcile those.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            397.753,
+            403.236
+          ],
+          "quote": "So since we're handling all this infrastructure, we now can make it really easy for you as a developer to define the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            409.559,
+            415.122
+          ],
+          "quote": "So your agent will live in like the agent.ts or agent.py, so this works for Python or TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            415.502,
+            423.847
+          ],
+          "quote": "Your instructions, skills, tools, identity, all of these different primitives that you need to add to the agent itself will live in different folders or different files in your directory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            426.129,
+            428.894
+          ],
+          "quote": "So all we're going to do is run mda init and give our agent a name.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            436.699,
+            441.522
+          ],
+          "quote": "And that's going to start up a local agent server for us, which is the same server that powers LangSmith deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            463.979,
+            470.301
+          ],
+          "quote": "So let's take a look at an actual example of an agent that you might want to build and something that people in your organization might use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            470.862,
+            475.043
+          ],
+          "quote": "This is sort of an example that we use a lot internally here at LangChain, which is our go-to-market agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            485.447,
+            487.788
+          ],
+          "quote": "And that kind of gets sent into this GTM agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            489.018,
+            492.24
+          ],
+          "quote": "The way that this looks and the way that we can design this agent is really quite easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            494.121,
+            507.669
+          ],
+          "quote": "So again, our agent definitions at the beginning, the sort of playbook for how we wanted to do different things can live in both the instructions and the skills, and then all of the connections to different business systems like Salesforce, Gong, all these other sort of platforms lives in tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            514.238,
+            527.267
+          ],
+          "quote": "So one of the core things that when we talk about building agents with customers, there's kind of four scary things that then get brought up when you bring it into production is how do we identify who's asking this agent to do what, you know, prep for the email or prep for the meeting?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            548.702,
+            552.447
+          ],
+          "quote": "You can really easily just create a Slack application, go ahead and use this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            552.928,
+            556.972
+          ],
+          "quote": "But you also might want to expose this agent in your web UI or your web application or your own platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            569.141,
+            572.363
+          ],
+          "quote": "And that all gets passed into the runtime for the managed deep agent quite easily.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            575.966,
+            583.053
+          ],
+          "quote": "So as a developer, we might want to define certain connections, certain tools that your agent can use and connect them in a certain way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            592.162,
+            598.368
+          ],
+          "quote": "So if I'm in a DM with this agent and I say, prep me for this meeting, it's then going to be able to use my Salesforce credentials and go and access that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            599.788,
+            604.651
+          ],
+          "quote": "There's other scenarios where you might want your agent to have its own agent scope credentials or be able to have service account credentials.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            618.584,
+            637.354
+          ],
+          "quote": "So since we have built-in Hume in the loop in deep agents and in the LangGraph runtime, what happens is when you make a request and the agent doesn't have a particular token for a particular user, and it's an on behalf of token, it's actually able to really easily pause, ask the user to go ahead and authenticate, they'll click the link, everything proceeds as normal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            650.507,
+            654.408
+          ],
+          "quote": "So the first convention is agent-level memory or procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            654.789,
+            659.97
+          ],
+          "quote": "We have a really great way for your agent to be able to take and remember certain procedural things about users and manage deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            660.57,
+            665.492
+          ],
+          "quote": "The second is user-level memory, so personal preferences that I tell the agent about myself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            665.552,
+            669.493
+          ],
+          "quote": "And it's really important that your agent is able to take these different types of memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            700.339,
+            705.944
+          ],
+          "quote": "Another really nice part of Manage Deep Agents is we get version control for our agent context with Context Hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            756.475,
+            763.337
+          ],
+          "quote": "All of that will get traced into LangSmith and show up in your LangSmith experiments tab, and you're able to kind of improve your agent over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            763.717,
+            768.159
+          ],
+          "quote": "You can rerun the same tasks, and you can actually hill climb your agent right in your own machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            780.35,
+            784.452
+          ],
+          "quote": "But the way that it works is essentially you can just go ahead and add this tool to your managed deep agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            795.21,
+            809.276
+          ],
+          "quote": "So something that we've really, really enjoyed was working not only internally with our own agent use cases, like our go-to-market agent, OpenSwitch is like a software factory type agent, and iterating on that for managed EAP agents, but also working with a lot of our customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            836.929,
+            844.714
+          ],
+          "quote": "So him and his team of developers kind of go around the org there at ConsenSys, and they build out different deep agent use cases for different parts of the org.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            876.201,
+            882.323
+          ],
+          "quote": "So we make it very easy for you now to define how your agent responds to certain events, where it then responds to those events for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            891.626,
+            896.748
+          ],
+          "quote": "So not only can the agent access the file system, but you as a user can now access it from your front ends in different places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            918.537,
+            920.898
+          ],
+          "quote": "You maybe want an agent to create a PowerPoint for you, create a PDF.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成：构建智能体时融入的模型之外的一切——技能、工具、上下文、子智能体，目的是在正确的时机把正确的上下文交给模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            47.962,
+            50.425
+          ],
+          "quote": "The next question we often get is what is a harness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            50.685,
+            54.469
+          ],
+          "quote": "So a harness is basically everything else that we bake in to create the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            66.971,
+            71.774
+          ],
+          "quote": "Why do we go through all the effort of building a harness, building an agent, and going through all this development?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            86.086,
+            90.793
+          ],
+          "quote": "Deep Agents is a customizable harness that we can build for any domain-specific task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            91.013,
+            100.147
+          ],
+          "quote": "So we took a lot of the learnings of coding agents and different harnesses that are out there in the wild, and we've really put it into this very customizable base harness that you can use for virtually any use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            206.291,
+            223.235
+          ],
+          "quote": "And this is for their pharmaceutical researchers to be able to load in a domain-specific harness that is able to reason over a certain knowledge base for that particular researcher's domain, synthesize all of those results, and respond back with a cohesive report with cited sources and all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            223.775,
+            234.751
+          ],
+          "quote": "They were able to build all of this with Deep Agents, and a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            260.937,
+            268.466
+          ],
+          "quote": "The second is the harness itself, which we talked about as deep agents, gives our agent the ability to use files and do context management and all these wonderful things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            336.375,
+            353.627
+          ],
+          "quote": "So what we've done is we've sort of bundled together the harness and the infrastructure to make it really, really easy for your teams to work on primarily the business logic and actually improving your agents with evals, with traces, with engine, and iterating on your actual agent logic rather than focusing on the infrastructure and the harness level stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "virtual-file-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "虚拟文件系统 (virtual file system)",
+      "file": "虚拟文件系统",
+      "primary": true,
+      "how_described": "本集说它是 deep agent 执行环境的灵魂：在模型与文件之间定义边界，同时解决上下文管理——把超长工具返回结果卸载到文件系统而非塞进上下文窗口。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            114.933,
+            121.755
+          ],
+          "quote": "So us as developers, we can define sort of this wall between your model and the files it interacts with through a virtual file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human in the loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说它是 LangChain 一切工作的核心：Deep Agents 建在 LangGraph 运行时上，支持中断和暂停执行，中断带检查点可无限期等待用户授权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            178.153,
+            180.154
+          ],
+          "quote": "And then lastly is human in the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            180.194,
+            182.836
+          ],
+          "quote": "Human in the loop is very core to everything that we do here at LangChain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sub-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agents)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说委派（delegation）就是模型规划、推理，然后启动子智能体去执行事情的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            54.549,
+            63.959
+          ],
+          "quote": "So that can be skills, it can be tools, context, sub-agents, really all of these different things that we put into an agent in order for it to accomplish a task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            171.346,
+            177.552
+          ],
+          "quote": "So delegation is the ability for the model to plan, reason over that plan, and then kick off sub-agents to execute things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": true,
+      "how_described": "本集说 Deep Agents 构建在 LangGraph 运行时之上，其 interrupt 函数提供了中断和暂停执行的能力，本大会即以其命名。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            183.636,
+            187.979
+          ],
+          "quote": "This conference is actually named after the interrupt function, which is a function in LangGraph.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            188.019,
+            193.102
+          ],
+          "quote": "DeepAgent is built on top of that LangGraph runtime, so you have that ability to interrupt and pause for execution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            618.584,
+            637.354
+          ],
+          "quote": "So since we have built-in Hume in the loop in deep agents and in the LangGraph runtime, what happens is when you make a request and the agent doesn't have a particular token for a particular user, and it's an on behalf of token, it's actually able to really easily pause, ask the user to go ahead and authenticate, they'll click the link, everything proceeds as normal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "langsmith",
+      "type": "concept",
+      "role": "concept",
+      "name": "LangSmith",
+      "file": "LangSmith",
+      "primary": true,
+      "how_described": "本集说它是经过验证的部署平台，提供流式传输、检查点、身份验证处理，Managed Deep Agents 部署在其托管基础设施上，评测结果也显示在其实验页。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            223.775,
+            234.751
+          ],
+          "quote": "They were able to build all of this with Deep Agents, and a task that used to take them weeks to spin up a new agent for a researcher now just takes a few hours by putting this all into the Deep Agents harness and deploying it onto LangSmith.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            362.1,
+            368.645
+          ],
+          "quote": "It runs on our proven LangSmith deployment for things like streaming, checkpointing, auth handlers, things of that nature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            369.125,
+            375.15
+          ],
+          "quote": "It integrates directly with LangSmith sandboxes for all of that sandbox control when you need agents to run and execute code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            436.699,
+            441.522
+          ],
+          "quote": "And that's going to start up a local agent server for us, which is the same server that powers LangSmith deployment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            450.226,
+            453.328
+          ],
+          "quote": "And that's going to go ahead and deploy it onto LangSmith's managed infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            706.485,
+            724.042
+          ],
+          "quote": "So we're able to store all of our instructions, skills, and memory inside of a Context Hub repo, and that will allow us to collaborate in the surface within LangSmith, which is really great for kind of iterating on different things like instructions, having version control over it, promoting it to production, things of that nature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            756.475,
+            763.337
+          ],
+          "quote": "All of that will get traced into LangSmith and show up in your LangSmith experiments tab, and you're able to kind of improve your agent over time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说虚拟文件系统可以是一个沙箱，让智能体在里面编写和执行代码，0.8 版本还增加了更好的沙箱文件系统访问 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            125.616,
+            128.596
+          ],
+          "quote": "It could even be a sandbox where your agent can write and execute code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            369.125,
+            375.15
+          ],
+          "quote": "It integrates directly with LangSmith sandboxes for all of that sandbox control when you need agents to run and execute code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            886.464,
+            891.186
+          ],
+          "quote": "We also added much better APIs for accessing your sandbox's file system.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文管理 (context management)",
+      "file": "上下文管理",
+      "primary": true,
+      "how_described": "本集说模型的能力取决于给它的上下文，harness 的全部意义在于上下文管理：渐进式披露、跨线程记忆、总结压缩、卸载超大工具返回。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            132.617,
+            135.139
+          ],
+          "quote": "What's really cool about this too is this helps with context management.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            260.937,
+            268.466
+          ],
+          "quote": "The second is the harness itself, which we talked about as deep agents, gives our agent the ability to use files and do context management and all these wonderful things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集说 Managed Deep Agents 集成了 Harbor 评估框架，运行 mda evals init 即可初始化环境，可反复运行同一批任务，爬山式地优化智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            336.375,
+            353.627
+          ],
+          "quote": "So what we've done is we've sort of bundled together the harness and the infrastructure to make it really, really easy for your teams to work on primarily the business logic and actually improving your agents with evals, with traces, with engine, and iterating on your actual agent logic rather than focusing on the infrastructure and the harness level stuff.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            736.505,
+            741.088
+          ],
+          "quote": "So I know we've talked about Harbor today, but we really think it's a great, great way for running evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            748.512,
+            750.213
+          ],
+          "quote": "If you run this mda evals init,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-hub",
+      "type": "concept",
+      "role": "concept",
+      "name": "Context Hub",
+      "file": "Context Hub",
+      "primary": true,
+      "how_described": "本集把它说成：存储指令、技能和记忆的仓库，带版本控制，让开发者能在 LangSmith 界面内与业务用户协作迭代并推广到生产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            375.89,
+            383.973
+          ],
+          "quote": "It also uses Context Hub, which we'll talk about a little bit later, but allows us to kind of coordinate on instructions and skills with business users and iterate on things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            700.339,
+            705.944
+          ],
+          "quote": "Another really nice part of Manage Deep Agents is we get version control for our agent context with Context Hub.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            706.485,
+            724.042
+          ],
+          "quote": "So we're able to store all of our instructions, skills, and memory inside of a Context Hub repo, and that will allow us to collaborate in the surface within LangSmith, which is really great for kind of iterating on different things like instructions, having version control over it, promoting it to production, things of that nature.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "company",
+      "role": "company",
+      "name": "Parallel",
+      "file": "Parallel",
+      "primary": true,
+      "how_described": "本集宣布与 Parallel 集成：公开测试期免费，无需配置 API 密钥，给智能体加个工具就能用内置搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            770.806,
+            773.347
+          ],
+          "quote": "One of the things that we're announcing today is our integration with Parallel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            784.792,
+            787.213
+          ],
+          "quote": "You don't have to add any parallel API keys, anything like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            789.414,
+            792.956
+          ],
+          "quote": "So we're really excited about partnering with Parallel on this for managed deep agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            926.54,
+            929.402
+          ],
+          "quote": "And lastly, the built-in search with Parallel that I just mentioned.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "madrigal",
+      "type": "company",
+      "role": "company",
+      "name": "Madrigal",
+      "file": "Madrigal",
+      "primary": true,
+      "how_described": "本集说这家药企客户用 Deep Agents 做药物研究智能体，把为一个研究员搭新智能体的时间从几周压缩到几小时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            195.068,
+            199.269
+          ],
+          "quote": "So a good example of taking a deep agent into production is a customer of ours, which is Madrigal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            199.629,
+            206.231
+          ],
+          "quote": "Madrigal has a ton of different use cases, but primarily focuses on a pharmaceutical research agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆 (memory)",
+      "file": "记忆",
+      "primary": true,
+      "how_described": "本集说记忆分智能体级（程序性记忆）和用户级（个人偏好），并可按渠道控制访问权限——私聊可用个人记忆，共享频道不应暴露个人信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            135.319,
+            139.821
+          ],
+          "quote": "So things like progressive disclosure of skills, doing things like cross-thread memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            529.348,
+            531.53
+          ],
+          "quote": "Which memory is it going to be able to reference or edit?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            642.485,
+            645.866
+          ],
+          "quote": "The third core area that becomes interesting is memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            646.186,
+            650.247
+          ],
+          "quote": "There's a lot of different approaches to memory, and we wanted to have really good defaults for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            650.507,
+            654.408
+          ],
+          "quote": "So the first convention is agent-level memory or procedural memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            660.57,
+            665.492
+          ],
+          "quote": "The second is user-level memory, so personal preferences that I tell the agent about myself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            665.552,
+            669.493
+          ],
+          "quote": "And it's really important that your agent is able to take these different types of memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            706.485,
+            724.042
+          ],
+          "quote": "So we're able to store all of our instructions, skills, and memory inside of a Context Hub repo, and that will allow us to collaborate in the surface within LangSmith, which is really great for kind of iterating on different things like instructions, having version control over it, promoting it to production, things of that nature.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            813.217,
+            823.702
+          ],
+          "quote": "Zahid from Kith was instrumental in really helping us getting started with some of the primitives of collaborating with no-code users, with business users, also setting up how connections and memory will work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

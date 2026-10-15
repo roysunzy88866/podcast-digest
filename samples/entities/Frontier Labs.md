@@ -55,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[Garrett Lord]] · [[Theo Jaffe]] · [[Harry Stebbings]] · [[Kevin Ball]] · [[Liz Harkaby]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"ChatGPT":112,"Garrett Lord":1,"Theo Jaffe":8,"Harry Stebbings":21,"Kevin Ball":4,"Liz Harkaby":1,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"ChatGPT":113,"Garrett Lord":1,"Theo Jaffe":8,"Harry Stebbings":21,"Kevin Ball":4,"Liz Harkaby":1,"Lenny":69}</script>
 
 <script>
 (function(){

@@ -160,9 +160,9 @@ Unify 做的是给 go-to-market(把产品推向市场的那套销售与营销动
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同公司:LangSmith · 同概念:Harness(智能体运行框架) (harness)、人在回路 (human in the loop)、智能体 (agent)、智能体记忆 (memory)、沙箱 (sandbox)、评估 (evals)</span>
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Anthropic · 同概念:Harness(智能体运行框架) (harness)、提示词缓存 (prompt caching)、智能体 (agent)、智能体记忆 (memory)、评估 (evals)</span>
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出]]<span class="pd-rz">同公司:Anthropic · 同概念:Harness(智能体运行框架) (harness)、智能体 (agent)、智能体记忆 (memory)、沙箱 (sandbox)</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:Harness(智能体运行框架) (harness)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

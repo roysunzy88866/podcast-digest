@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"应用垂直 AI":1,"专有数据":2,"可观测性":46,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":11,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":23}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"应用垂直 AI":1,"专有数据":2,"可观测性":46,"错误分析":2,"基于人类反馈的强化学习":2,"LLM 当裁判":11,"监督微调":2,"基于可验证奖励的强化学习":1,"人在回路":24}</script>
 
 <script>
 (function(){

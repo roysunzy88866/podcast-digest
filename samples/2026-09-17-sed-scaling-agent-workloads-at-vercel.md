@@ -148,8 +148,8 @@ Char 的说法更激进：「创建公司就是在构建智能体」。EVE 比�
 **顺着「智能体」挖下去**
 
 - [[2026-07-14-trainingdata-anthropic-s-katelyn-lesse-angela-jiang-b|Anthropic 平台负责人：Claude 平台的「三层蛋糕」与给 token 分工的「策略」]]<span class="pd-rz">同公司:Vercel · 同概念:MCP、技能 (skills)、智能体 (agent)、记忆 (memory)、评测 (evals)</span>
+- [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|从本机跑通到正式上线：LangChain 发布 Managed Deep Agents]]<span class="pd-rz">同概念:子智能体 (sub-agents)、智能体 (agent)、沙箱 (sandbox)、记忆 (memory)、评测 (evals)</span>
 - [[2026-09-14-talks-how-we-solved-agent-building-andrew-qu-v|Vercel 构建「每桌一个智能体」：从失败的多智能体到文件系统智能体]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)、Next.js</span>
-- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]]<span class="pd-rz">同公司:Vercel · 同概念:Eve、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

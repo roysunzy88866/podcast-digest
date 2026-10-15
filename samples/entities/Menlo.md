@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[基准测试]] · [[股权占比]] · [[Harry Stebbings]] · [[Venky Ganesan]] · [[Matt Murphy]] · [[风险投资]] · [[Lovable]] · [[IRR]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"基准测试":2,"股权占比":4,"Harry Stebbings":21,"Venky Ganesan":1,"Matt Murphy":2,"风险投资":1,"Lovable":20,"IRR":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":205,"OpenAI":204,"基准测试":2,"股权占比":4,"Harry Stebbings":21,"Venky Ganesan":1,"Matt Murphy":2,"风险投资":1,"Lovable":20,"IRR":1}</script>
 
 <script>
 (function(){

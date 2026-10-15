@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>204</b> 集 · <b>36</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>205</b> 集 · <b>37</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -210,10 +210,11 @@ unlisted: true
 - **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(18:47起):本集把 Anthropic 与 OpenAI、NVIDIA 并列为会挑选芯片赢家的大玩家。
 - **[[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]]**(30:33起):本集说 Anthropic 负责人 Dario 写了《We Must Pace the Frontier》呼吁给前沿踩刹车;Weinstein 认为这被学界既得利益者当借口,但承认 Dario 某种意义上是个真诚讲道德的人,也必须赢下竞赛。
 - **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(01:15起):本集说它长期押注编程,回报是 Claude Code 的爆发;甚至没想在数学上做强却在数学上超过所有专用模型。
+- **[[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]]**(27:35起):被引作反例:token 用量是对 Anthropic 的价值交换;且它与 Google、Microsoft、OpenAI 一样能靠别的业务补贴打价格战,别人玩不起。
 
 ## ① 提到它的金句
 
-*36 条*
+*37 条*
 
 ![[2025-05-22-talks-mastering-claude-code-in-30-minutes#^q1]]
 
@@ -287,9 +288,11 @@ unlisted: true
 
 ![[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron#^q2]]
 
+![[2026-10-14-pg-how-the-best-pms-think-about-product-str#^q23]]
+
 ## ② 出现在这些集
 
-*204 集*
+*205 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念(提及)
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
@@ -495,6 +498,7 @@ unlisted: true
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
 - [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]] — 作为被讨论公司
 - [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司
+- [[2026-10-14-pg-how-the-best-pms-think-about-product-str|《AI 时代做产品策略：先学会说“不”》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -502,7 +506,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[推理]] · [[NVIDIA]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[Google]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Claude Code":114,"推理":101,"NVIDIA":71,"Cursor":87,"Claude":97,"沙箱":100,"Google":72,"Meta":55}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Claude Code":114,"推理":101,"NVIDIA":71,"Cursor":87,"Claude":97,"沙箱":101,"Google":72,"Meta":55}</script>
 
 <script>
 (function(){

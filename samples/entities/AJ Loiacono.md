@@ -29,17 +29,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Judy Health]] · [[Capital RX]] · [[CVS]] · [[Cigna]] · [[United Healthcare]] · [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]] · [[自举]]
+[[Judy Health]] · [[Capital RX]] · [[CVS]] · [[Cigna]] · [[United Healthcare]] · [[Oscar Health]] · [[药品福利管理]] · [[产品市场契合]] · [[垂直整合]] · [[反向定位]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":32,"垂直整合":1,"反向定位":1,"自举":2}</script>
+<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"Oscar Health":2,"药品福利管理":1,"产品市场契合":32,"垂直整合":1,"反向定位":1}</script>
 
 <script>
 (function(){

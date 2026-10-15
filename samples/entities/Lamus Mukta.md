@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":204,"Claude Tag":3,"Claude Code":114,"智能体":1,"沙箱":100,"记忆":28,"dreaming":3,"智能体身份":1}</script>
+<script type="application/json" class="pd-epn">{"Guy Pajani":3,"Simon Maple":10,"Anthropic":205,"Claude Tag":3,"Claude Code":114,"智能体":1,"沙箱":101,"记忆":30,"dreaming":3,"智能体身份":1}</script>
 
 <script>
 (function(){

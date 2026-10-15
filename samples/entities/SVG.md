@@ -27,7 +27,7 @@ unlisted: true
 
 [[Opus 5.5]] · [[Anthropic]] · [[Claude]] · [[Codex]] · [[护栏]] · [[智能体]] · [[OpenAI]] · [[提示词注入]] · [[GPT-6 Sol]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"Opus 5.5":2,"Anthropic":204,"Claude":97,"Codex":90,"护栏":91,"智能体":1,"OpenAI":203,"提示词注入":1,"GPT-6 Sol":1,"计算机使用":22}</script>
+<script type="application/json" class="pd-epn">{"Opus 5.5":2,"Anthropic":205,"Claude":97,"Codex":90,"护栏":91,"智能体":1,"OpenAI":204,"提示词注入":1,"GPT-6 Sol":1,"计算机使用":22}</script>
 
 <script>
 (function(){

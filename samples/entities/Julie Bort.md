@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]] [[Renee Wigerzen]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":204,"Claude":97,"Claude Code":114,"MCP":95,"harness":65,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Matt Murphy":2,"Anthropic":205,"Claude":97,"Claude Code":114,"MCP":96,"harness":66,"开源模型":4,"多模型世界":1,"token":33,"OpenRouter":14}</script>
 
 <script>
 (function(){
