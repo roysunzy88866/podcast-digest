@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":7,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":1,"推理":101}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":7,"Owen He":1,"MakerMaker":1,"RSI":8,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":1,"推理":101}</script>
 
 <script>
 (function(){

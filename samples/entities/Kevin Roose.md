@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":206,"Anthropic":206,"Google DeepMind":11,"Microsoft":33,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2,"递归自我改进":13}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"Anthropic":206,"Google DeepMind":11,"Microsoft":34,"Meta":56,"AGI":29,"超级智能":13,"信念":1,"推理模型":2,"递归自我改进":13}</script>
 
 <script>
 (function(){

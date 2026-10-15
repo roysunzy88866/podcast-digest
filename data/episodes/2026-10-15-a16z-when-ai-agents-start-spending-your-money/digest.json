@@ -1,0 +1,203 @@
+{
+  "title_zh": "AI 会替你付钱了，但你的信用卡世界要变天了",
+  "tldr": "a16z 合伙人 Alex Rampell 与 VGS 首席战略官 Terry Angelos 聊智能体支付的底层变革：钱包大战、代币新标准、退款难题。",
+  "digest_md": "AI 智能体正在从推荐你买什么变成替你买下来。这件事听起来简单，背后却牵动整个支付行业的权力格局。Alex Rampell 是风险投资公司 Andreessen 的合伙人，Terry Angelos 是支付基础设施公司 VGS 的首席战略官——两人 20 年前还一起创过业。这场对话把智能体商务的门道讲得既清楚又有趣。\n\n> 【背景】Andreessen 即 Andreessen Horowitz(常简称 a16z),是知名风险投资公司。\n\n> 【背景】VGS（Very Good Security）是一家支付安全公司，为商户保管信用卡等支付凭证，处理了约三分之一的电商交易额。\n\n## 支付凭证到底是什么？\n\nTerry 说，凭证说白了就是信用卡，但往深了讲很复杂。VGS 做的事，是帮大商户安全地保管这些卡号：你在网上点餐平台存了卡，平台自己根本碰不到卡号——卡进了 VGS 的保险库，需要扣款时再由保险库安全地交给支付处理商。\n\n为什么要这么绕？因为银行对存卡有极其严格的合规要求（PCI 标准），一份一百多页的规则。交给 VGS，商户就能「像正常公司一样做生意」，不用自己背这堆规矩 [11:55 Terry]。\n\n更大的价值在于：年交易额超过 10 亿美元的商户，平均会接 3 到 5 家支付处理商，比价、比成功率、分地区用。卡存在独立的保险库里，随时可以换处理商，而且换卡、过期、丢卡时由保险库统一更新——Alex 就吃过苦头，Capital One 收购 Discover 后他的卡换了网络，每周都收到商户发来的扣款失败通知。\n\n## 智能体为什么突然长出了手和脚？\n\n过去 3 个月发生了质变。Terry 说，智能体从观众变成了演员——一旦以安全的方式拿到支付凭证，**它们就能从推荐转为实际购买** [00:27 Terry]。\n\n他举了自己的例子：想给 7 岁的儿子找钢琴老师，要匹配双方时间、要上门授课，以前问 ChatGPT 只能得到一串推荐名单。前几天他问了智能体，对方问了几个问题、查了日程，直接把第一节课订好了。「这比再往我桌上堆一个任务有用无穷倍。」\n\n## 钱包大战开打了\n\nTerry 把眼下局面称为钱包大战：每个数字钱包都在抢着接入智能体 [13:37 Terry]。钱包想赢，得有两样东西——最多的存量用户和最广的商户覆盖。\n\n现在的选手阵容：Stripe Link 约 3 亿消费者、100 万商户；Shopify 的 ShopPay 约 170 万商户；PayPal 超过 4 亿账户、约 3000 万商户。\n\n钱包为什么这么值钱？因为**成为消费者的默认支付方式就是印钞机**。Alex 回忆在 Visa 时，发卡银行曾花数千万美元，就为了让自己家的卡排在 Uber、Airbnb 钱包里的第一位。\n\n## Stripe 像智能体时代的 AOL\n\n现在的智能体支付大多是围墙花园。Terry 讲了个亲身经历：让 Instinct 帮他买户外灯，灯在 Walmart 找到了，但 Link 钱包和 Walmart 没有合作。Stripe 的解法是自己先买下来——用一张一次性的 Visa 虚拟卡完成采购，再向 Terry 收款 [21:28 Terry]。\n\n交易成功了，东西也送到了，但有两个坑。第一，出了问题找谁？他认识的人在测试时因为这种交易打电话给 Amex，Amex 只看得到 Stripe，给的客服电话打过去——直接响到了一个 Stripe 工程师的手机上。\n\n第二，后续关系断了。Walmart 事后发邮件邀请他订阅 Walmart Plus，把 6.99 美元运费抵扣进去。他点了按钮，交易失败——因为商户手里那张一次性卡已经作废了。商户花钱获客，本来有权继续经营这段关系，围墙花园把这条路堵死了。\n\n信用卡体系里 Visa 和 MasterCard 位置牢不可破，正是因为它们居中裁决退款纠纷——你付了钱、灯没到，有人给你做主。这种信任机制不能丢。\n\n## 破局的是智能体代币这个新标准\n\n卡组织推出了新标准，叫智能体代币。流程是：钱包把你的真实卡片换成一个新的 16 位号码交给智能体；智能体验明正身——我是注册过的智能体，这笔是酒店预订，上限 500 美元——再交给商户扣款 [25:46 Terry]。这样扣的是你本人的卡，退款规则、后续订阅全都保留。\n\nTerry 透露，**这个标准 3 个月前还是零，VGS 现在每周发放几百万个这样的代币**，是最大的发放方。\n\n## 商户会欢迎 AI 来买东西吗？\n\nAmazon 最近封杀了 Muse。Alex 分析：**Amazon 本质上是广告公司，要的是你的眼球，而智能体没有眼球可卖** [36:00 Alex]。\n\nTerry 的判断更细：Amazon 有理由敌视，Walmart 有理由贪婪——全球最好的末端配送配上智能体带来的订单是好事，Shopify 上的小商户则是没得选，这可能反而是新渠道 [38:02 Terry]。\n\nAlex 提醒别把敌视者一律当老古董：Amazon 有真金白银的广告收入要保护。他还拿 Plaid 与 Chase 的历史类比，最终可能是长期谈判后的妥协——你可以接入，但只能走我的接口，我还要收费。他最期待的一幕是：有朝一日打给 Comcast，对方说「我知道这不是你，让 Alex 本人接电话」。\n\n## 谁为智能体的错误买单？\n\nAlex 把交易验证拆成三步：卡是真的吗？持卡人是你吗？你神志清醒吗？——最后一步的典故来自拉斯维加斯赌场：喝到说不出话的人，赌场不会让他继续刷 [31:31 Alex]。\n\n智能体时代，前两步新标准能解决：卡经过验证，智能体在卡组织注册过。但第三步是灰色地带——智能体喝醉了（产生幻觉）、订错了酒店日期，责任归谁？Terry 坦言这还没有答案，也许智能体之间会拿我替你担责当卖点互相竞争。\n\n## 被低估和被高估的各是什么？\n\nTerry 认为被高估的是：智能体会搬着储蓄存款到处追高收益、引发银行挤兑式波动。不会——世界上的摩擦够多，他自己明明知道 Mercury 的存款利率更高，还是把钱留在 Chase，因为账单系统好用 [41:12 Terry]。\n\n被低估的是没被变现的需求。他的骑行群里有人每半年推荐一次更安全的车胎，他嘴上说该买，实际两年才换一次。「如果智能体在那个群聊里，Seth 每推荐一次我就会买一次。」**人类的欲望是无限的，而智能体是全天候在线的**。\n\nAlex 补了一个更冷的前景：信用卡积分体系可能崩塌。积分的商业模式靠的是亮点诱惑加遗忘——你为了餐饮高返现办卡，结果加油也在用。当智能体替你在每笔交易上精确选最划算的卡时，这套靠疏漏运转的生意会散架 [46:30 Terry]。\n\n## 本集带走\n\n- 支付凭证一旦安全地交到智能体手里，它就从推荐工具变成了行动者，钱包大战因此开打。\n- 围墙花园式的智能体支付（如 Stripe 代买）能用但断裂多：退款找不到人，商户留不住客户关系。\n- 卡组织新推的智能体代币让智能体用你本人的卡交易，保住退款保护和后续订阅，3 个月内从零涨到每周几百万个。\n- 商户会分化：Amazon 这类广告公司敌视，Walmart 这类配送巨头欢迎，小商户没得选。\n- 悬而未决的大问题是责任：智能体买错了东西，钱该谁赔？信用卡积分体系也可能被永远在线的比价瓦解。",
+  "quotes": [
+    {
+      "en": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs, which are payment credentials.",
+      "zh": "在过去三个月里，我们经历了智能体从我所称的\"旁观者\"到\"行动者\"的巨大飞跃，因为它们实际上拥有了手和脚，也就是支付凭证。",
+      "timestamp": "00:01",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "So we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents.",
+      "zh": "所以我们算是开启了所谓的\"钱包战争\"，现在每个钱包都在争相连接到智能体。",
+      "timestamp": "00:30",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "Because giving agents the ability to spend doesn't just make them more useful, it could reshape who controls the customer relationship itself.",
+      "zh": "因为赋予智能体消费的能力不仅仅是让它们更有用，它还可能重塑谁来掌控客户关系本身。",
+      "timestamp": "01:50",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So agents have all of a sudden become significantly more helpful and useful because they effectively have arms and legs, which are payment credentials.",
+      "zh": "所以智能体突然变得显著更有帮助、更有用，因为它们实际上有了手和脚，也就是支付凭证。",
+      "timestamp": "13:30",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "Because it turns out that being the default stored credential for a consumer, like if I can get trained in a Pavlovian way where it's like, oh, I see flowers, I use PayPal.",
+      "zh": "因为事实证明，成为消费者的默认存储凭证——比如说我能像巴甫洛夫条件反射那样被训练成：哦，我看到花，我就用 PayPal。",
+      "timestamp": "15:07",
+      "speaker": "Alex Rampell"
+    },
+    {
+      "en": "And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce.",
+      "zh": "对于那些经历过 AOL 时代的人来说，Stripe 在很多方面就像是智能体商务领域的 AOL。",
+      "timestamp": "20:14",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "The token is nothing more than a new 16-digit number. We give that safely to the agent. Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged.",
+      "zh": "这个令牌不过是一个新的 16 位数字。我们把它安全地交给智能体，智能体把它交给 Walmart，然后 Walmart 执行交易，但被扣款的是我的卡。",
+      "timestamp": "26:00",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "So, you know, three months ago, this was at zero. It did not exist. VGS is by far the largest provisioner of these agentic tokens.",
+      "zh": "所以，你知道，三个月前，这个数字还是零。它根本不存在。而 VGS 是目前最大的这类智能体令牌的供应方。",
+      "timestamp": "26:19",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "You know, any business that is going from single player to multiplayer inherently becomes more interesting.",
+      "zh": "你知道，任何从单人模式走向多人模式的业务，本质上都会变得更有意思。",
+      "timestamp": "29:33",
+      "speaker": "Terry Angelos"
+    },
+    {
+      "en": "And I don't actually think, I think it's an oversimplification to say anybody who's antagonistic is a Luddite and they're gone.",
+      "zh": "而我其实并不认为，说任何持敌对态度的人都是勒德分子、注定出局，这是一种过度简化。",
+      "timestamp": "36:21",
+      "speaker": "Alex Rampell"
+    },
+    {
+      "en": "I mean, in general, my rule of thumb is that Silicon Valley overhypes things, but then the rest of the world underhypes things.",
+      "zh": "我是说，总体而言，我的经验法则是：硅谷会高估事物，但世界其他地方会低估事物。",
+      "timestamp": "40:09",
+      "speaker": "Alex Rampell"
+    },
+    {
+      "en": "And if agents are intermediating all of our transactions, and I'm only getting points on the card that gets me, I'm only using the card where I get points, the whole points reward ecosystem falls apart.",
+      "zh": "而如果智能体在中介我们所有的交易，而我只在能给我积分的卡上消费，那么整个积分奖励生态系统就会崩塌。",
+      "timestamp": "46:44",
+      "speaker": "Terry Angelos"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:01",
+      "speaker": "Terry Angelos",
+      "en": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs, which are payment credentials.",
+      "zh": "在过去三个月里，我们经历了智能体从我所称的\"旁观者\"到\"行动者\"的巨大飞跃，因为它们实际上拥有了手和脚，也就是支付凭证。"
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Terry Angelos",
+      "en": "So we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents.",
+      "zh": "所以我们算是开启了所谓的\"钱包战争\"，现在每个钱包都在争相连接到智能体。"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Terry Angelos",
+      "en": "The largest online merchants, the largest neobanks, and the largest frontier labs all use VGS to secure payment credentials.",
+      "zh": "最大的在线商家、最大的新银行，以及最大的前沿实验室，都用 VGS 来保护支付凭证。"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Alex Rampell",
+      "en": "How do you safely give an AI access to your money?",
+      "zh": "如何安全地让 AI 访问你的资金？"
+    },
+    {
+      "timestamp": "01:50",
+      "speaker": "Alex Rampell",
+      "en": "Because giving agents the ability to spend doesn't just make them more useful, it could reshape who controls the customer relationship itself.",
+      "zh": "因为赋予智能体消费的能力不仅仅是让它们更有用，它还可能重塑谁来掌控客户关系本身。"
+    },
+    {
+      "timestamp": "08:09",
+      "speaker": "Terry Angelos",
+      "en": "So about a third of all cards get turned over every single year.",
+      "zh": "所以每年大约有三分之一的卡会被轮换更新。"
+    },
+    {
+      "timestamp": "08:36",
+      "speaker": "Alex Rampell",
+      "en": "But there's a reason for them to do that because different costs, different approval rates, different regions, like you want to shard in kind of computer science terms.",
+      "zh": "但他们这样做是有原因的，因为不同的成本、不同的批准率、不同的地区，用计算机科学的术语说，你想要做分片。"
+    },
+    {
+      "timestamp": "12:48",
+      "speaker": "Terry Angelos",
+      "en": "So agents have all of a sudden become significantly more helpful and useful because they effectively have arms and legs, which are payment credentials.",
+      "zh": "所以智能体突然变得显著更有帮助、更有用，因为它们实际上有了手和脚，也就是支付凭证。"
+    },
+    {
+      "timestamp": "15:07",
+      "speaker": "Alex Rampell",
+      "en": "Because it turns out that being the default stored credential for a consumer, like if I can get trained in a Pavlovian way where it's like, oh, I see flowers, I use PayPal.",
+      "zh": "因为事实证明，成为消费者的默认存储凭证——比如说我能像巴甫洛夫条件反射那样被训练成：哦，我看到花，我就用 PayPal。"
+    },
+    {
+      "timestamp": "20:14",
+      "speaker": "Terry Angelos",
+      "en": "And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce.",
+      "zh": "对于那些经历过 AOL 时代的人来说，Stripe 在很多方面就像是智能体商务领域的 AOL。"
+    },
+    {
+      "timestamp": "22:47",
+      "speaker": "Terry Angelos",
+      "en": "Because Stripe's not set up to run a chargeback call. One of the reasons why Visa and MasterCard have such impregnable positions is because they intermediate everything and they set the rules and chargebacks are very important.",
+      "zh": "因为 Stripe 没有设置过处理拒付电话的部门。Visa 和 MasterCard 之所以有如此牢不可破的地位，原因之一就是它们居间协调一切，它们制定规则，而拒付机制非常重要。"
+    },
+    {
+      "timestamp": "23:27",
+      "speaker": "Alex Rampell",
+      "en": "Like, this is why crypto, cool, but like, it's a bearer instrument. I pay you with crypto. I'm never getting that back.",
+      "zh": "比如，这就是为什么加密货币——很酷，但是，它是一种不记名工具。我用加密货币付钱给你，我永远拿不回那笔钱了。"
+    },
+    {
+      "timestamp": "26:03",
+      "speaker": "Terry Angelos",
+      "en": "The token is nothing more than a new 16-digit number. We give that safely to the agent. Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged.",
+      "zh": "这个令牌不过是一个新的 16 位数字。我们把它安全地交给智能体，智能体把它交给 Walmart，然后 Walmart 执行交易，但被扣款的是我的卡。"
+    },
+    {
+      "timestamp": "26:19",
+      "speaker": "Terry Angelos",
+      "en": "So, you know, three months ago, this was at zero. It did not exist. VGS is by far the largest provisioner of these agentic tokens.",
+      "zh": "所以，你知道，三个月前，这个数字还是零。它根本不存在。而 VGS 是目前最大的这类智能体令牌的供应方。"
+    },
+    {
+      "timestamp": "28:20",
+      "speaker": "Terry Angelos",
+      "en": "I think you're touching on something really interesting, which is vaults are going from single player to multiplayer, and that makes them a lot more valuable.",
+      "zh": "我觉得你触及了一个非常有意思的点，那就是金库正在从单人模式走向多人模式，而这让它们的价值大幅提升。"
+    },
+    {
+      "timestamp": "29:33",
+      "speaker": "Terry Angelos",
+      "en": "You know, any business that is going from single player to multiplayer inherently becomes more interesting.",
+      "zh": "你知道，任何从单人模式走向多人模式的业务，本质上都会变得更有意思。"
+    },
+    {
+      "timestamp": "33:35",
+      "speaker": "Terry Angelos",
+      "en": "Is the agent of sound mind? Like, did it get it right? Was it drunk? You know, exactly. Did it hallucinate?",
+      "zh": "智能体心智是否健全？就是说，它做对了吗？它喝醉了吗？没错。它产生幻觉了吗？"
+    },
+    {
+      "timestamp": "36:21",
+      "speaker": "Terry Angelos",
+      "en": "And I don't actually think, I think it's an oversimplification to say anybody who's antagonistic is a Luddite and they're gone.",
+      "zh": "而我其实并不认为，说任何持敌对态度的人都是勒德分子、注定出局，这是一种过度简化。"
+    },
+    {
+      "timestamp": "40:09",
+      "speaker": "Alex Rampell",
+      "en": "I mean, in general, my rule of thumb is that Silicon Valley overhypes things, but then the rest of the world underhypes things.",
+      "zh": "我是说，总体而言，我的经验法则是：硅谷会高估事物，但世界其他地方会低估事物。"
+    },
+    {
+      "timestamp": "46:44",
+      "speaker": "Terry Angelos",
+      "en": "And if agents are intermediating all of our transactions, and I'm only getting points on the card that gets me, I'm only using the card where I get points, the whole points reward ecosystem falls apart.",
+      "zh": "而如果智能体在中介我们所有的交易，而我只在能给我积分的卡上消费，那么整个积分奖励生态系统就会崩塌。"
+    }
+  ],
+  "voice_script": "今天聊聊一件正在悄悄发生、但很可能改变你整个支付生活的事：AI 智能体，就是那种能替你干活的 AI,正在从推荐你买什么，变成直接替你把东西买下来。听起来是好事对吧？但背后牵动的，是整个支付行业的权力格局。聊这件事的两个人都很有分量：一位是知名风投 Andreessen 的合伙人 Alex Rampell,另一位是支付安全公司 VGS 的首席战略官 Terry Angelos——这两个人二十年前还一起创过业。VGS 这家公司你可能没听过，但它处理的电商交易额大约占全世界的三分之一。\n\n先从最基础的东西说起：支付凭证。说白了就是你的信用卡号，但往深里讲很复杂。VGS 干的事，是帮大商户安全地保管这些卡号。你在网上点餐平台存了卡，平台自己其实根本碰不到卡号——卡进了 VGS 的保险库，需要扣款时，再由保险库安全地交给支付处理商。为什么要这么绕？因为银行对存卡有极其严格的合规要求，一份一百多页的规则。交给 VGS,商户就能像正常公司一样做生意，不用自己背这堆规矩。\n\n而且这里还有个更大的价值。年交易额超过十亿美元的商户，平均会同时接三到五家支付处理商，比价格、比成功率、分地区用。卡存在独立保险库里，随时可以换处理商，换卡、过期、丢卡这些事也由保险库统一更新。Alex 就吃过苦头：Capital One 收购 Discover 之后，他的卡换了网络，结果每周都收到商户发来的扣款失败通知。\n\n那这些跟 AI 有什么关系？关键在过去三个月发生了质变。Terry 打了个比方：智能体从观众变成了演员。一旦能安全地拿到支付凭证，它们就等于有了手和脚，能从推荐转为实际购买。Terry 举了个自己的例子：想给七岁的儿子找钢琴老师，要匹配双方时间、要上门授课，以前问 ChatGPT,只能得到一串推荐名单。前几天问了智能体，对方问了几个问题、查了日程，直接把第一节课订好了。用 Terry 自己的话说，这比再往我桌上堆一个任务有用无穷倍。\n\n消费的能力一到手，新的战场立刻就开打了，Terry 把眼下这个局面称为钱包大战——每个数字钱包都在抢着接入智能体。钱包想赢，得有两样东西：最多的存量用户，和最广的商户覆盖。现在的选手阵容是这样的：Stripe Link 大约三亿消费者、一百万商户；Shopify 的 ShopPay 大约一百七十万商户；PayPal 超过四亿账户、约三千万商户。钱包为什么这么值钱？因为成为消费者的默认支付方式，就是一台印钞机。Alex 回忆自己在 Visa 的时候，发卡银行曾经花数千万美元，就为了让自己家的卡排在 Uber、Airbnb 钱包里的第一位。\n\n不过，现在的智能体支付大多是围墙花园。Terry 讲了个亲身经历：让 AI 帮忙买户外灯，灯在 Walmart 找到了，但 Link 钱包和 Walmart 没有合作。Stripe 的解法是自己先买下来——用一张一次性的 Visa 虚拟卡完成采购，再向 Terry 收款。东西确实送到了，但有两个坑。第一，出了问题找谁？Terry 认识的人在测试这类交易时打电话给 Amex,Amex 只看得到 Stripe,给的客服电话打过去，直接响到了一个 Stripe 工程师的手机上。第二个坑更麻烦：Walmart 事后发邮件邀请订阅 Walmart Plus,把六块九毛九的运费抵扣进去，点了按钮，交易失败——因为商户手里那张一次性卡已经作废了。商户花钱获客，本来有权继续经营这段关系，围墙花园把这条路堵死了。别忘了，信用卡体系里 Visa 和 MasterCard 的位置之所以牢不可破，正是因为它们居中裁决退款纠纷——你付了钱、灯没到，有人给你做主。这种信任机制不能丢。\n\n那怎么破局？卡组织推出了一个新标准，叫智能体代币。流程是这样：钱包把你的真实卡片换成一个新的十六位号码交给智能体；智能体验明正身——我是注册过的智能体，这笔是酒店预订，上限五百美元——再交给商户扣款。这样扣的是你本人的卡，退款规则、后续订阅全都保留。这个标准有多快？三个月前还是零，VGS 现在每周发放几百万个这样的代币，是最大的发放方。\n\n新标准有了，接下来要看商户的脸色。Amazon 最近封杀了智能体 Muse。Alex 的分析很扎心：Amazon 本质上是广告公司，要的是你的眼球，而智能体没有眼球可卖。Terry 的判断更细：Amazon 有理由敌视，Walmart 有理由贪婪——全球最好的末端配送配上智能体带来的订单是好事；Shopify 上的小商户则是没得选，这可能反而是新渠道。不过 Alex 提醒，别把敌视者一律当老古董，Amazon 有真金白银的广告收入要保护。他还拿 Plaid 与 Chase 的历史类比：最终可能是长期谈判后的妥协——你可以接入，但只能走我的接口，我还要收费。\n\n还有一个绕不开的问题：智能体买错了东西，谁买单？Alex 把交易验证拆成三步：卡是真的吗？持卡人是你吗？你神志清醒吗？最后一步的典故来自拉斯维加斯赌场——喝到说不出话的人，赌场不会让继续刷。智能体时代，前两步新标准能解决，但第三步是灰色地带：智能体产生了幻觉、订错了酒店日期，责任归谁？Terry 坦言还没有答案，也许智能体之间会拿我替你担责当卖点，互相竞争。\n\n最后说两个有意思的判断。一个被高估的担忧是：智能体会搬着你的存款到处追高收益、引发银行挤兑。Terry 认为不会——世界上的摩擦够多，自己明明知道别家存款利率更高，钱还是留在 Chase,因为账单系统好用。而被低估的，是没被变现的需求。Terry 的骑行群里有人每半年推荐一次更安全的车胎，嘴上说该买，实际两年才换一次。如果智能体在那个群聊里，每推荐一次就会买一次。人类的欲望是无限的，而智能体是全天候在线的。顺带一个更冷的前景：信用卡积分体系可能崩塌——积分这门生意靠的是亮点诱惑加遗忘，当智能体替你在每笔交易上精确选最划算的卡，这套靠疏漏运转的生意就散架了。\n\n所以，赋予智能体消费的能力，不只是让它更有用，它可能在重塑谁来掌控客户关系本身。说到底，钱包大战打的不是支付，是你和商户之间那条线，归谁管。"
+}

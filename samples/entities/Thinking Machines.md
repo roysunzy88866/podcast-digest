@@ -27,7 +27,7 @@ unlisted: true
 
 [[NVIDIA]] · [[Anthropic]] · [[蒸馏]] · [[OpenAI]] · [[Theo Jaffe]] · [[Leisha Lee]] · [[Ben Horowitz]] · [[Nathan Lambert]] · [[Sofia Puccini]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":71,"Anthropic":206,"蒸馏":1,"OpenAI":206,"Theo Jaffe":8,"Leisha Lee":1,"Ben Horowitz":7,"Nathan Lambert":1,"Sofia Puccini":4,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":71,"Anthropic":206,"蒸馏":1,"OpenAI":207,"Theo Jaffe":8,"Leisha Lee":1,"Ben Horowitz":7,"Nathan Lambert":1,"Sofia Puccini":4,"开源模型":4}</script>
 
 <script>
 (function(){

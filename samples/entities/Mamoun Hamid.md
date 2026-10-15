@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Jubin":2,"arena":2,"评估":1,"基准测试":2,"开源":43,"智能体":1,"Kimi":3,"排行榜":2,"OpenAI":206}</script>
+<script type="application/json" class="pd-epn">{"Anastasios Angelopoulos":1,"Jubin":2,"arena":2,"评估":1,"基准测试":3,"开源":43,"智能体":1,"Kimi":3,"排行榜":2,"OpenAI":207}</script>
 
 <script>
 (function(){

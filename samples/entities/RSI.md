@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RSI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RSI">RS</div><div class="pi"><h1 class="pt">RSI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RSI">RS</div><div class="pi"><h1 class="pt">RSI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]]**(00:23起):本集给了可检验的四硬指标（训练资源超线性减少、时间缩短、智能提升、循环可重复，须同时成立），并指出当前现实相反——每年一两次大训练更贵更慢更脆弱；90% 喊 RSI 的其实是自催化效应（编译器写编译器、蒸汽机）。
 - **[[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]]**(00:15起):本集主线概念:被改进的系统同时是执行改进的系统,形成闭环;区分真 RSI 与靠注入资源的「自催化」。
 - **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(05:49起):本集说要给 RSI 去神秘化:Trillium 将完整记录实验室如何用 AI 改进 AI(工具、任务、模型卡住的地方、写进代码的 bug),每半年更新。所有缩放定律都是算力指数换性能线性,快速起飞还需要多一个数量级的进展。
+- **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(62:58起):Diogo 的非主流判断之一：他不相信递归自我改进正在发生，并引用神经架构搜索时代同样的狂热与退场，以及现实世界的收益递减。
 
 ## ① 提到它的金句
 
@@ -33,7 +34,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为概念
 - [[2026-09-11-dwarkesh-john-beren-charlie|《RL 为什么灵、蒸馏为什么凶:三位研究员的前沿圆桌》]] — 作为概念
@@ -42,14 +43,15 @@ unlisted: true
 - [[2026-09-18-a16z-databricks-ceo-on-ai-pacing-cyber-risk-a|《Databricks CEO Ali:企业用不好 AI,缺的不是更聪明的模型，而是上下文》]] — 作为概念
 - [[2026-10-12-a16z-the-race-to-recursive-self-improving-ai|《AI 自己改自己：他们说要分清「真进步」和「砸钱堆出来的进步」》]] — 作为概念
 - [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为概念
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[对齐]] · [[后训练]] · [[奖励黑客]] · [[缩放定律]] · [[推理]] · [[沙箱]] · [[Cursor]]
+[[OpenAI]] · [[智能体]] · [[Anthropic]] · [[对齐]] · [[后训练]] · [[奖励黑客]] · [[缩放定律]] · [[推理]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":206,"Anthropic":206,"对齐":25,"后训练":1,"奖励黑客":11,"缩放定律":18,"推理":101,"沙箱":101,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"智能体":1,"Anthropic":206,"对齐":25,"后训练":1,"奖励黑客":11,"缩放定律":18,"推理":101,"沙箱":101,"Cursor":87}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Muse</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Muse">MU</div><div class="pi"><h1 class="pt">Muse</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,6 +19,7 @@ unlisted: true
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(00:03起):本集说 Muse 是 Meta 的个人助手产品，MG 自称意外地发现它从一开局就做得非常好，被 Amazon 封锁但获得 Shopify 合作。
 - **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(06:10起):本集说 Meta 发布的智能体产品 Muse,真正给了普通人拥有自己智能体所需的基础设施——给每个美国用户配一台虚拟机;作者用它五分钟造出了自己的菜谱盒应用,并称 Meta 的设备(眼镜等)都是 Muse 的投递机制。
 - **[[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]]**(00:08起):本集主题产品：Meta 面向消费者的智能体应用，被 Claire 称为「很长时间以来最快感到纯粹惊喜」的 AI 产品，以消息气泡、头像角色、状态显示等拟人化界面为特色
+- **[[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]]**(00:11起):本集多次提到的购物智能体，被 Amazon 封杀，成为商户敌视智能体商务的标志性案例。
 
 ## ① 提到它的金句
 
@@ -30,7 +31,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-09-16-howiai-muse-review-the-personal-ai-agent-that-g|《Meta 的 Muse 亲测：我玩过设计最好的个人智能体》]] — 作为被讨论公司
 - [[2026-09-28-iltb-noah-shinn-building-instinct-the-persona|《个人助理 Instinct:零界面、十亿美元交易与每天10%的增长》]] — 作为被讨论公司(提及)
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司
 - [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]] — 作为被讨论公司
+- [[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Meta]] · [[Instinct]] · [[OpenClaw]] · [[Amazon]] · [[OpenAI]] · [[Codex]] · [[主动性]] · [[Shopify]]
+[[智能体]] · [[ChatGPT]] · [[Meta]] · [[Instinct]] · [[Amazon]] · [[OpenClaw]] · [[Shopify]] · [[OpenAI]] · [[Codex]] · [[主动性]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":114,"Meta":56,"Instinct":5,"OpenClaw":24,"Amazon":34,"OpenAI":206,"Codex":90,"主动性":2,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":115,"Meta":56,"Instinct":6,"Amazon":35,"OpenClaw":24,"Shopify":18,"OpenAI":207,"Codex":90,"主动性":2}</script>
 
 <script>
 (function(){

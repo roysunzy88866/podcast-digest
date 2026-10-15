@@ -39,7 +39,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[OpenAI]] · [[NVIDIA]] · [[GPU]] · [[Box]] · [[Cursor]] · [[ChatGPT]] · [[Decagon]] · [[护栏]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"OpenAI":206,"NVIDIA":71,"GPU":33,"Box":5,"Cursor":87,"ChatGPT":114,"Decagon":9,"护栏":92,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"OpenAI":207,"NVIDIA":71,"GPU":33,"Box":5,"Cursor":87,"ChatGPT":115,"Decagon":9,"护栏":92,"Lenny":69}</script>
 
 <script>
 (function(){

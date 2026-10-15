@@ -106,7 +106,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[NVIDIA]] · [[微调]] · [[Google]] · [[推理]] · [[Stripe]] · [[Salesforce]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":206,"Cursor":87,"NVIDIA":71,"微调":39,"Google":72,"推理":101,"Stripe":49,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":207,"Cursor":87,"NVIDIA":71,"微调":39,"Google":72,"推理":101,"Stripe":50,"Salesforce":36}</script>
 
 <script>
 (function(){

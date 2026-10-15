@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>System 1 模型 (System 1)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="System 1 模型">SY</div><div class="pi"><h1 class="pt">System 1 模型 (System 1)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="System 1 模型">SY</div><div class="pi"><h1 class="pt">System 1 模型 (System 1)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(03:30起):嘉宾提出的一类新模型:机器原生、大型可编程,产出直接被代码消费,与预训练 LLM 的「互联网自动补全」、RLHF 模型的「回复文本」相对
+- **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(10:00起):源自《思考，快与慢》的直觉式快速决策，本集说 AI 天生擅长系统 1，JEV 就是 System 1 模型，而系统 2 任务应由可靠的系统 1 构建块组合而成。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on#^q5]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[RLVR]] · [[模式坍缩]] · [[校准]] · [[鲁棒性]] · [[基准测试]]
+[[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[RLVR]] · [[OpenAI]] · [[模式坍缩]] · [[Matt Turk]] · [[校准]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"Jev":7,"TypeSafe":4,"RLCD":2,"RLHF":7,"RLVR":3,"模式坍缩":1,"校准":4,"鲁棒性":1,"基准测试":2}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLCD":3,"RLHF":8,"RLVR":4,"OpenAI":207,"模式坍缩":1,"Matt Turk":6,"校准":4}</script>
 
 <script>
 (function(){

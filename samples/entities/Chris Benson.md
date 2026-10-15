@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Chris Benson</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Chris Benson">CH</div><div class="pi"><h1 class="pt">Chris Benson</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>12</b> 集 · <b>15</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Chris Benson">CH</div><div class="pi"><h1 class="pt">Chris Benson</h1><div class="byl">Practical AI 联合主持</div><div class="nums">本站收录 <b>13</b> 集 · <b>20</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*15 条*
+*20 条*
 
 ![[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index#^q2]]
 
@@ -43,9 +43,19 @@ unlisted: true
 
 ![[2026-09-10-practicalai-computer-use-agents-and-the-future-of-th#^q9]]
 
+![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q3]]
+
+![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q4]]
+
+![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q5]]
+
+![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q9]]
+
+![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q10]]
+
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-06-04-practicalai-breaking-down-the-2026-stanford-ai-index|《Stanford AI Index 报告十大要点速览》]] — 作为联合主持
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|《Anthropic 零信任框架：智能体安全的六层防御》]] — 作为联合主持
@@ -59,14 +69,15 @@ unlisted: true
 - [[2026-09-24-practicalai-from-agents-md-to-enterprise-deployment|《把智能体当普通应用来部署:企业级 AI 落地的老办法新用途》]] — 作为联合主持
 - [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|《NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图》]] — 作为联合主持
 - [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|《AI时代，你最值钱的资产是你自己的故事》]] — 作为联合主持
+- [[2026-10-15-practicalai-education-is-failing-our-students-in-thi|《AI冲进课堂，教育还没准备好》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Daniel Whitenack]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[MCP]] · [[Hugging Face]] · [[LLM]] · [[Claude Code]] · [[世界模型]]
+[[Daniel Whitenack]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[护栏]] · [[MCP]] · [[Hugging Face]] · [[LLM]] · [[Claude Code]] · [[世界模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Daniel Whitenack":11,"Anthropic":206,"OpenAI":206,"护栏":92,"MCP":96,"Hugging Face":39,"LLM":65,"Claude Code":114,"世界模型":15}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":12,"智能体":1,"Anthropic":206,"OpenAI":207,"护栏":92,"MCP":97,"Hugging Face":39,"LLM":65,"Claude Code":114,"世界模型":15}</script>
 
 <script>
 (function(){

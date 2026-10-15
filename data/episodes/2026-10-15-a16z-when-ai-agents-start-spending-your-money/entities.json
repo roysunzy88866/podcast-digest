@@ -1,0 +1,2108 @@
+{
+  "episode_id": "2026-10-15-a16z-when-ai-agents-start-spending-your-money",
+  "podcast": "The a16z Show",
+  "date": "2026-10-15",
+  "tags": [
+    "支付",
+    "智能体商务",
+    "AI 基础设施",
+    "金融科技",
+    "创业与行业"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "alex-rampell",
+      "type": "person",
+      "role": "host",
+      "name": "Alex Rampell",
+      "file": "Alex Rampell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            70.254,
+            80.918
+          ],
+          "quote": "In this episode, A16Z general partner Alex Rampell sits down with VGS chief strategy officer Terry Angelos to unpack the emergency payment infrastructure behind agentic commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            121.658,
+            126.404
+          ],
+          "quote": "I'm Alex Rampell, partner at Andreessen Horwitz, and I'm here joined by Terry Angelos.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "terry-angelos",
+      "type": "person",
+      "role": "guest",
+      "name": "Terry Angelos",
+      "file": "Terry Angelos",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            70.254,
+            80.918
+          ],
+          "quote": "In this episode, A16Z general partner Alex Rampell sits down with VGS chief strategy officer Terry Angelos to unpack the emergency payment infrastructure behind agentic commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            121.658,
+            126.404
+          ],
+          "quote": "I'm Alex Rampell, partner at Andreessen Horwitz, and I'm here joined by Terry Angelos.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：智能体因获得支付凭证而从「旁观者」变成「行动者」，从推荐商品变为实际替你完成购买，并讨论了智能体出错时谁担责的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            95.84,
+            110.023
+          ],
+          "quote": "They also get into what happens when an agent buys the wrong thing, why some merchants may actively resist agent-encomers, and how the economics of everything from credit card rewards to subscriptions could change when an AI is constantly optimizing on the consumer's behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            789.29,
+            791.432
+          ],
+          "quote": "But just last night, I asked an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            841.468,
+            844.289
+          ],
+          "quote": "And of course, as an agent, I want a wallet that has sort of two things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1125.529,
+            1127.912
+          ],
+          "quote": "So you want to go buy, and your agent...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1131.134,
+            1134.677
+          ],
+          "quote": "It's like the agent could say, hey, Terry, where is your credit card number?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1270.883,
+            1273.525
+          ],
+          "quote": "And the agent went, loaded the cart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1280.33,
+            1285.012
+          ],
+          "quote": "Link has my card, but it can't just give my card over to the agent and over to Walmart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1458.322,
+            1469.057
+          ],
+          "quote": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1469.738,
+            1476.139
+          ],
+          "quote": "And then have the agent hand it to the merchant in such a way that when that Walmart transaction occurred, it's my card.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1546.89,
+            1550.552
+          ],
+          "quote": "That should be tokenized with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1550.572,
+            1554.235
+          ],
+          "quote": "There's a whole process by which the agent says, I'm about to make a transaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1554.395,
+            1555.535
+          ],
+          "quote": "I'm a verified agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1563.48,
+            1565.482
+          ],
+          "quote": "We give that safely to the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1566.242,
+            1572.826
+          ],
+          "quote": "Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1750.525,
+            1756.686
+          ],
+          "quote": "But now the agent wants to use that same credential to make a payment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1763.928,
+            1770.449
+          ],
+          "quote": "But now you can effectively give that credential according to these open standards to the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1922.141,
+            1923.942
+          ],
+          "quote": "Does the person... Or the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1947.071,
+            1951.932
+          ],
+          "quote": "You're an IP address and maybe I've seen you before and I've checked your login, but now I have an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1974.026,
+            1975.147
+          ],
+          "quote": "I instruct my agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1991.159,
+            1996.543
+          ],
+          "quote": "So the first question when that agent is provisioned is to your question is like, is this a real card?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1999.285,
+            2002.489
+          ],
+          "quote": "Is the request for the agent a valid request?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2002.549,
+            2010.678
+          ],
+          "quote": "And the way that this works with the networks is that agent actually has to be registered with Visa or MasterCard or Amex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2015.583,
+            2016.864
+          ],
+          "quote": "Is the agent of sound mind?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2022.408,
+            2031.114
+          ],
+          "quote": "And so that part, I don't think we fully understand yet because if there's a mistake that the agent makes and...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2034.256,
+            2036.557
+          ],
+          "quote": "They validated that this is your agent and your instruction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2092.327,
+            2096.55
+          ],
+          "quote": "to either an AI agent or your human assistant or your wife or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2167.531,
+            2169.112
+          ],
+          "quote": "They don't want your agent is the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2169.132,
+            2172.914
+          ],
+          "quote": "You can't monetize an agent's eyeballs because the agent doesn't have eyeballs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2220.638,
+            2223.199
+          ],
+          "quote": "Filter out the agent of commerce is also highly valuable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2249.63,
+            2257.758
+          ],
+          "quote": "I mean, I think this is one of the most fun fronts to watch in agent and commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2318.128,
+            2319.388
+          ],
+          "quote": "Can I log in to an agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2388.86,
+            2391.862
+          ],
+          "quote": "And then my agent may have an opinion about what I want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2562.389,
+            2567.753
+          ],
+          "quote": "If my agent was in that group chat, I would be buying tires every time Seth makes a new recommendation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2572.516,
+            2581.482
+          ],
+          "quote": "If the agent could find things that could help you with cycling and just bought them for you, there's more GDP coming out of Alex on cycling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2687.514,
+            2694.825
+          ],
+          "quote": "You know how, like, as a consumer, I've been trained to say, no, no, I want to talk to an agent, or press zero, or it's like you can look up, how do you get out of the stupid phone tree?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 627,
+          "t": [
+            2726.966,
+            2730.712
+          ],
+          "quote": "Like put Alex on the line because I'm not giving something to his agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2780.253,
+            2781.474
+          ],
+          "quote": "My agent did that perfectly.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-commerce",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体商务 (agentic commerce)",
+      "file": "智能体商务",
+      "primary": true,
+      "how_described": "本集称其为 AI 智能体替消费者实际下单购买的新兴商业模式，正引发钱包大战、重塑支付基础设施与商户关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            15.815,
+            21.04
+          ],
+          "quote": "You can either be antagonistic to agentic commerce or you can be highly receptive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            70.254,
+            80.918
+          ],
+          "quote": "In this episode, A16Z general partner Alex Rampell sits down with VGS chief strategy officer Terry Angelos to unpack the emergency payment infrastructure behind agentic commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            209.233,
+            223.097
+          ],
+          "quote": "And I think today, part of the reason why we want to talk about agentic commerce is because VGS is involved in helping agents get those credentials, helping wallets hand those credentials to agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            612.123,
+            615.105
+          ],
+          "quote": "And then this whole thing called agentic commerce showed up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1105.612,
+            1109.035
+          ],
+          "quote": "But what I find interesting with all of agentic commerce is it's kind of the same thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1214.524,
+            1223.508
+          ],
+          "quote": "And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1224.308,
+            1231.832
+          ],
+          "quote": "And I mean that as a compliment in the sense that they figured out how to make agentic commerce just work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1600.463,
+            1609.509
+          ],
+          "quote": "So I expect that as we make this transition from the walled garden to the sort of open standards, this will be the way that agentic commerce evolves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2173.294,
+            2179.417
+          ],
+          "quote": "But I kind of think of it as you can either be antagonistic to agentic commerce or you can be highly receptive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2179.877,
+            2180.858
+          ],
+          "quote": "to agentic commerce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2953.754,
+            2957.135
+          ],
+          "quote": "And we're sort of starting to do that now with Agentic Commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2994.569,
+            2997.87
+          ],
+          "quote": "Agentic commerce is just fuel into that ecosystem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "payment-credential",
+      "type": "concept",
+      "role": "concept",
+      "name": "支付凭证 (payment credential)",
+      "file": "支付凭证",
+      "primary": true,
+      "how_described": "本集称之为智能体的「手和脚」——安全地在消费者、钱包、智能体与商户之间流转的信用卡信息，是智能体从推荐转为行动的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            758.041,
+            768.369
+          ],
+          "quote": "Well, if you give them a payment credential in a safe way, I can go from recommending the flowers for your wife to buying the flowers for your wife.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1152.89,
+            1160.236
+          ],
+          "quote": "One is the digital version of your dead cow wallet, which is that it just stores the payment credential.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体代币 (agentic tokens)",
+      "file": "智能体代币",
+      "primary": true,
+      "how_described": "本集说卡组织推出的新标准：钱包把真实卡号换成新的 16 位号码安全交给注册过的智能体，让交易保留拒付保护与后续订阅能力，VGS 三个月内从零做到每周发放几百万个。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            81.718,
+            94.901
+          ],
+          "quote": "They discuss the new wallet wars, how payment credentials could move safely between consumers, agents, and merchants, and why new agentic tokens could allow AI to transact without breaking the protections consumers already expect from credit cards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1458.322,
+            1469.057
+          ],
+          "quote": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1583.833,
+            1588.736
+          ],
+          "quote": "VGS is by far the largest provisioner of these agentic tokens.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wallet-wars",
+      "type": "concept",
+      "role": "concept",
+      "name": "钱包大战 (wallet wars)",
+      "file": "钱包大战",
+      "primary": true,
+      "how_described": "本集用来概括眼下各数字钱包（Stripe Link、ShopPay、PayPal）争相接入智能体的竞争，赢家靠最多的存量用户和最广的商户覆盖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            30.108,
+            38.436
+          ],
+          "quote": "So we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            81.718,
+            94.901
+          ],
+          "quote": "They discuss the new wallet wars, how payment credentials could move safely between consumers, agents, and merchants, and why new agentic tokens could allow AI to transact without breaking the protections consumers already expect from credit cards.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            832.239,
+            840.607
+          ],
+          "quote": "And so we sort of have kicked off what I kind of call the wallet wars where every wallet is now rushing to connect to the agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            890.06,
+            893.304
+          ],
+          "quote": "So it's interesting though because wallet wars have been around for a while.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 201,
+          "t": [
+            904.796,
+            907.438
+          ],
+          "quote": "Like, why were there wallet wars 10 or 15 years ago?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vault",
+      "type": "concept",
+      "role": "concept",
+      "name": "金库/保险库 (vault)",
+      "file": "金库/保险库",
+      "primary": true,
+      "how_described": "本集把 VGS 的核心业务描述为安全存储支付凭证的金库，并指出它正从单人模式走向多人模式（服务多个处理商和智能体），价值因此大增。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            288.195,
+            303.687
+          ],
+          "quote": "And every time that the online ordering service wants to transact with one of its processors, it goes to the vault and retrieves the information in such a way that the online ordering company never actually has to touch the payment information.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            304.808,
+            326.554
+          ],
+          "quote": "One of the things that I think has made VGS a lot more interesting since the days that you first invested, it's been a decade of becoming sort of the most trusted vault online, is that the card networks have also introduced a form of tokenization so that in our days back in trial pay, we would actually store a 16-digit PAN and we would encrypt it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            332.817,
+            334.759
+          ],
+          "quote": "We would encrypt it and vault it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            471.078,
+            472.979
+          ],
+          "quote": "But a large vault",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            564.541,
+            570.243
+          ],
+          "quote": "And so what VGS does is serve as an independent vault, neutral infrastructure on behalf of the merchants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1619.578,
+            1624.161
+          ],
+          "quote": "Because we have a vault, and anybody who is in a vaulting business is kind of—it's not an exciting business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1624.201,
+            1631.405
+          ],
+          "quote": "Like, your job is to be not exciting and be safe and be secure, and it's like things go in the vault, and then every now and then things go out of the vault, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1713.95,
+            1723.154
+          ],
+          "quote": "The fact that merchants have multiple processors means that the vaulted VGS is effectively the vault for each of those processors, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1723.174,
+            1731.377
+          ],
+          "quote": "Because the network tokens stored in that vault now have to be sent to Chase, Stripe, Adyen, Braintree, Razorpay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1734.425,
+            1740.989
+          ],
+          "quote": "With agents, if you have a vault, let's assume you're like a large frontier model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1757.627,
+            1759.687
+          ],
+          "quote": "And so the Vault used to be single player.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1779.238,
+            1781.782
+          ],
+          "quote": "Like, it used to be a single player vault.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2838.62,
+            2858.806
+          ],
+          "quote": "Because again, I find it so interesting because it's the world's most boring business around, it's this giant vault that stores all of the payment credentials for the most, like everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS because you interact with the merchant that uses VGS for storage of credentials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2883.463,
+            2885.424
+          ],
+          "quote": "And you talked about the first area, which is the vault.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2900.515,
+            2906.277
+          ],
+          "quote": "The second area has been what you talked about sort of, you know, information going into and out of that vault.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2919.12,
+            2923.662
+          ],
+          "quote": "And each network has created multiple network tokens that represent the vault.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2980.823,
+            2982.003
+          ],
+          "quote": "We'll continue to be a vault.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tokenization",
+      "type": "concept",
+      "role": "concept",
+      "name": "令牌化 (tokenization)",
+      "file": "令牌化",
+      "primary": true,
+      "how_described": "本集讲卡组织引入令牌化，把 16 位卡号换成绑定商家域名的网络令牌传给处理商，比直接存储和传输卡号更安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            304.808,
+            326.554
+          ],
+          "quote": "One of the things that I think has made VGS a lot more interesting since the days that you first invested, it's been a decade of becoming sort of the most trusted vault online, is that the card networks have also introduced a form of tokenization so that in our days back in trial pay, we would actually store a 16-digit PAN and we would encrypt it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2958.295,
+            2962.996
+          ],
+          "quote": "There are other cases where VGS is actually working with the banks on the tokenization front.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "walled-garden",
+      "type": "concept",
+      "role": "concept",
+      "name": "围墙花园 (walled garden)",
+      "file": "围墙花园",
+      "primary": true,
+      "how_described": "本集批评当前 Stripe 式智能体支付像围墙花园：能用但断裂多，退款找不到人、商户留不住后续客户关系，需要走向开放标准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1232.928,
+            1237.489
+          ],
+          "quote": "In a way, that's a very kind of, you know, sort of, you know, walled garden approach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1600.463,
+            1609.509
+          ],
+          "quote": "So I expect that as we make this transition from the walled garden to the sort of open standards, this will be the way that agentic commerce evolves.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vgs",
+      "type": "company",
+      "role": "company",
+      "name": "VGS",
+      "file": "VGS",
+      "primary": true,
+      "how_described": "本集嘉宾所在公司：支付安全与基础设施公司，替大商户安全保管支付凭证、处理网络令牌，覆盖约三分之一电商 GMV，也是最大的智能体代币发放方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            38.736,
+            43.561
+          ],
+          "quote": "Everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            44.101,
+            51.548
+          ],
+          "quote": "The largest online merchants, the largest neobanks, and the largest frontier labs all use VGS to secure payment credentials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            54.129,
+            56.67
+          ],
+          "quote": "Where do you think VGS is going to go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            70.254,
+            80.918
+          ],
+          "quote": "In this episode, A16Z general partner Alex Rampell sits down with VGS chief strategy officer Terry Angelos to unpack the emergency payment infrastructure behind agentic commerce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            145.141,
+            149.523
+          ],
+          "quote": "One of my first investments here was a company called VGS, which stands for Very Good Security.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            176.97,
+            182.234
+          ],
+          "quote": "Visa, under your leadership, invested in VGS, and now you're back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            182.835,
+            186.998
+          ],
+          "quote": "And you're the chief strategy officer and board member alongside me at VGS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            190.801,
+            194.363
+          ],
+          "quote": "And I think if you look at VGS today, it's a payment infrastructure business.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            204.331,
+            209.012
+          ],
+          "quote": "And the largest frontier labs all use VGS to secure payment credentials.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            209.233,
+            223.097
+          ],
+          "quote": "And I think today, part of the reason why we want to talk about agentic commerce is because VGS is involved in helping agents get those credentials, helping wallets hand those credentials to agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 53,
+          "t": [
+            254.181,
+            255.521
+          ],
+          "quote": "Like, why do they use VGS?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            280.208,
+            288.094
+          ],
+          "quote": "And so VGS is involved in capturing that card, securely vaulting it, and storing it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 62,
+          "t": [
+            304.808,
+            326.554
+          ],
+          "quote": "One of the things that I think has made VGS a lot more interesting since the days that you first invested, it's been a decade of becoming sort of the most trusted vault online, is that the card networks have also introduced a form of tokenization so that in our days back in trial pay, we would actually store a 16-digit PAN and we would encrypt it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            373.598,
+            375.6
+          ],
+          "quote": "So VGS, as a company,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 82,
+          "t": [
+            410.517,
+            424.272
+          ],
+          "quote": "I mean, but this goes to the use case of VGS, which is rather than being locked into one payment processor, you'd rather unbundle that and you'd rather be able to pick and choose which payment processor you use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            564.541,
+            570.243
+          ],
+          "quote": "And so what VGS does is serve as an independent vault, neutral infrastructure on behalf of the merchants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            581.527,
+            586.31
+          ],
+          "quote": "Back to your kind of annoying Capital One issue, if you're a VGS merchant, that should not happen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            586.87,
+            599.258
+          ],
+          "quote": "So there are mechanisms when Capital One is switching from Visa to Discover to get those updates, and certainly that's the case if there's fraud or something else, and that's the role that VGS is playing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            600.358,
+            605.841
+          ],
+          "quote": "So hopefully everybody has a good understanding now of what very good security does, VGS does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            620.207,
+            628.911
+          ],
+          "quote": "Again, I don't know what companies that work with you I'm allowed to say or not, but let's just say like a lot of AI companies have decided to work with VGS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            715.105,
+            718.928
+          ],
+          "quote": "One of the nice things that VGS takes PCI compliance out of scope.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            725.51,
+            735.974
+          ],
+          "quote": "VGS just focuses on that, which kind of goes back to, like, I want to buy flowers for my beloved wife, and I want to have my chat application do that for me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            736.635,
+            744.117
+          ],
+          "quote": "Turns out VGS is pretty well positioned here just by being the backend infrastructure, but now can take a pretty vital role in this whole process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1038.701,
+            1043.243
+          ],
+          "quote": "Because the interesting thing is that I kind of think of VGS as a merchant wallet to an extent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1583.833,
+            1588.736
+          ],
+          "quote": "VGS is by far the largest provisioner of these agentic tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1610.112,
+            1619.538
+          ],
+          "quote": "Yeah, I mean, it's one of the reasons why this, like, kind of long—I mean this as a positive, but, like, VGS has a very boring business of why is it boring?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1632.426,
+            1634.908
+          ],
+          "quote": "Because this is—the way that I always thought about VGS is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1669.906,
+            1679.629
+          ],
+          "quote": "I know that whenever that user says, I want to buy a hamburger, like VGS plays a key role, it's a very boring role, but I retrieve and charge, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1713.95,
+            1723.154
+          ],
+          "quote": "The fact that merchants have multiple processors means that the vaulted VGS is effectively the vault for each of those processors, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2832.418,
+            2838.36
+          ],
+          "quote": "And maybe what are you, kind of with all of these themes, like where do you think VGS is going to go?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            2838.62,
+            2858.806
+          ],
+          "quote": "Because again, I find it so interesting because it's the world's most boring business around, it's this giant vault that stores all of the payment credentials for the most, like everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS because you interact with the merchant that uses VGS for storage of credentials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2870.436,
+            2876.242
+          ],
+          "quote": "But where do you think is the most exciting of everything that we've talked about for VGS's future?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2877.622,
+            2883.443
+          ],
+          "quote": "So I think there's sort of three eras of VGS that are kind of overlapping and compounding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2958.295,
+            2962.996
+          ],
+          "quote": "There are other cases where VGS is actually working with the banks on the tokenization front.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 像「智能体时代的 AOL」：其 Link 钱包有约 3 亿消费者，在商户无连接时用一次性 Visa 虚拟卡代买，是典型的围墙花园做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            553.116,
+            561.359
+          ],
+          "quote": "So maybe I have 100 million cards as a merchant, but I have to store 100 million with Chase and 100 million with Stripe and 100 million with Braintree.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            571.101,
+            580.687
+          ],
+          "quote": "For the vaulting and the updates such that the merchant can then send a Visa token to the merchant via Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 185,
+          "t": [
+            853.132,
+            857.633
+          ],
+          "quote": "And so, you know, right now, this is sort of companies like Stripe Link.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1178.45,
+            1186.216
+          ],
+          "quote": "The merchant receives this credential and it decides whether it processes it through Chase or Adyen or Stripe or Braintree.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1214.524,
+            1223.508
+          ],
+          "quote": "And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1237.529,
+            1244.412
+          ],
+          "quote": "So, you know, a few examples here would be, if I use Stripe Link, Link's only available at a million merchants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1249.893,
+            1255.435
+          ],
+          "quote": "But very often, it's available at some place where there isn't a Stripe Link connection.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1285.132,
+            1287.633
+          ],
+          "quote": "So Stripe did something pretty interesting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1338.405,
+            1339.566
+          ],
+          "quote": "We just see a Stripe transaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1350.053,
+            1356.559
+          ],
+          "quote": "Called up Amex and said, hey, you know, this transaction with the merchant didn't go through, but Amex only saw Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1363.665,
+            1367.289
+          ],
+          "quote": "The person called them, it went straight to the cell phone of a Stripe engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1367.649,
+            1370.552
+          ],
+          "quote": "Because Stripe's not set up to run a chargeback call.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1458.322,
+            1469.057
+          ],
+          "quote": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1502.172,
+            1507.257
+          ],
+          "quote": "And of course, the transaction failed because the card that they had was the Stripe one-time use card.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1723.174,
+            1731.377
+          ],
+          "quote": "Because the network tokens stored in that vault now have to be sent to Chase, Stripe, Adyen, Braintree, Razorpay.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "visa-and-mastercard",
+      "type": "company",
+      "role": "company",
+      "name": "Visa and MasterCard",
+      "file": "Visa and MasterCard",
+      "primary": true,
+      "how_described": "本集称卡组织地位牢不可破，因为它们居中裁决退款纠纷、提供信任机制，如今又牵头推出智能体代币新标准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            474.379,
+            481.822
+          ],
+          "quote": "And then as the actual networks themselves, like Visa and MasterCard, and actually Discover too, they have these account updating tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            708.341,
+            712.483
+          ],
+          "quote": "It's all of the, you know, Visa and MasterCard might be enemies, but on this they agree.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1371.092,
+            1382.427
+          ],
+          "quote": "One of the reasons why Visa and MasterCard have such impregnable positions is because they intermediate everything and they set the rules and chargebacks are very important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1418.742,
+            1421.383
+          ],
+          "quote": "You want to have Visa and MasterCard in the middle.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1789.552,
+            1801.357
+          ],
+          "quote": "Well, this is a really complicated thing going back to like the rules and procedures of what Visa and MasterCard have done, which is normally I just have to, there are almost like three steps to a transaction I kind of think of.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集分析 Amazon 最近封杀 Muse 的原因：它本质是广告公司，靠你的眼球赚钱，而智能体没有眼球可变现，故有真实的财务理由敌视智能体商务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            11.211,
+            13.613
+          ],
+          "quote": "Amazon recently blocked Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2152.061,
+            2160.088
+          ],
+          "quote": "I mean, maybe if I can ask a different question, because this is probably the more important one, you saw that Amazon recently blocked Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2162.269,
+            2167.511
+          ],
+          "quote": "It's mainly that Amazon is an advertising company and they want you and your eyeballs going to their website.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2186.842,
+            2196.768
+          ],
+          "quote": "It's like, well, Amazon has a reason, like a real financial reason to be antagonistic because advertising is so much more lucrative for them than just selling things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2260.961,
+            2264.984
+          ],
+          "quote": "We have Amazon, which I think has many reasons to block agents, as you said.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2290.251,
+            2295.352
+          ],
+          "quote": "So maybe there's fear on the Amazon side, maybe there's greed on the Walmart side, and maybe there's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 535,
+          "t": [
+            2306.94,
+            2317.468
+          ],
+          "quote": "I think this reminds me a little bit, I know we sort of have a different view on this, of how open banking was rolled out, which is, do I have the right as an Amazon customer to delegate",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2319.748,
+            2322.009
+          ],
+          "quote": "And does Amazon have the right to say no?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2377.938,
+            2381.618
+          ],
+          "quote": "In the case of Amazon, it might be, I am an opinionated API.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "walmart",
+      "type": "company",
+      "role": "company",
+      "name": "Walmart",
+      "file": "Walmart",
+      "primary": true,
+      "how_described": "本集通过买吊灯的真实案例讲 Walmart：智能体订单能成功，但一次性卡导致订阅 Walmart Plus 失败；并判断 Walmart 有理由贪婪地拥抱智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1265.94,
+            1268.462
+          ],
+          "quote": "And it found the lights at Walmart, which makes a ton of sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1268.482,
+            1269.863
+          ],
+          "quote": "Walmart has lots of inventory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1274.065,
+            1278.968
+          ],
+          "quote": "And when it came time to pay, Link didn't have a connection to Walmart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1280.33,
+            1285.012
+          ],
+          "quote": "Link has my card, but it can't just give my card over to the agent and over to Walmart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1312.769,
+            1318.477
+          ],
+          "quote": "But in the case of this Walmart transaction, this is the point about it sort of being the AOL, it worked just great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1324.995,
+            1332.881
+          ],
+          "quote": "But if there's a problem with the chandelier, typically I call up my bank, Capital One, and I say, hey, I had this transaction with Walmart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1335.142,
+            1338.385
+          ],
+          "quote": "And they say, well, we don't see a Walmart transaction here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1469.738,
+            1476.139
+          ],
+          "quote": "And then have the agent hand it to the merchant in such a way that when that Walmart transaction occurred, it's my card.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1476.479,
+            1488.162
+          ],
+          "quote": "In fact, like one sort of, you know, addendum to the Walmart transaction, after I bought the chandelier, everything was fine, I got an email from Walmart to say, hey, Terry, you paid for delivery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1490.302,
+            1492.243
+          ],
+          "quote": "Why don't you sign up to Walmart Plus?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1494.344,
+            1499.829
+          ],
+          "quote": "If you sign up today, we will credit the delivery toward your Walmart Plus subscription.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1508.638,
+            1523.051
+          ],
+          "quote": "And part of the, you know, you mentioned like rules and norms, part of the norms of e-commerce is that Walmart spends a lot of money to get me as a customer, and then they have the right to try to have a relationship with me, upsell me, cross-sell me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1566.242,
+            1572.826
+          ],
+          "quote": "Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2268.027,
+            2270.527
+          ],
+          "quote": "You have Walmart, which is very similar.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2290.251,
+            2295.352
+          ],
+          "quote": "So maybe there's fear on the Amazon side, maybe there's greed on the Walmart side, and maybe there's",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe-link",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe Link",
+      "file": "Stripe Link",
+      "primary": false,
+      "how_described": "本集说其约 3 亿消费者、100 万商户的钱包，是钱包大战主要选手，但商户覆盖有限导致围墙花园问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            853.132,
+            857.633
+          ],
+          "quote": "And so, you know, right now, this is sort of companies like Stripe Link.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1237.529,
+            1244.412
+          ],
+          "quote": "So, you know, a few examples here would be, if I use Stripe Link, Link's only available at a million merchants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1249.893,
+            1255.435
+          ],
+          "quote": "But very often, it's available at some place where there isn't a Stripe Link connection.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1458.322,
+            1469.057
+          ],
+          "quote": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": false,
+      "how_described": "本集提到 PayPal 有超 4 亿账户、约 3000 万商户，是钱包大战的重要参与者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            871.681,
+            878.947
+          ],
+          "quote": "Then you have PayPal, which has got, you know, over 400 million accounts, depends on how you kind of, you know, sort of, you know.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            912.822,
+            918.107
+          ],
+          "quote": "Like if I can get trained in a Pavlovian way where it's like, oh, I see flowers, I use PayPal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 204,
+          "t": [
+            918.668,
+            920.329
+          ],
+          "quote": "Well, PayPal is better off for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            967.727,
+            976.314
+          ],
+          "quote": "And that was the, whereas for when digital wallets emerged, it's like, I'm ShopPay, I'm PayPal, I want to be your default.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1030.418,
+            1033.839
+          ],
+          "quote": "Pay with PayPal, pay with Google, remember Google Checkout came out along?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1095.247,
+            1101.308
+          ],
+          "quote": "And if I just enter my PayPal credentials, they were a wrapper and linked to all of my kind of",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1134.717,
+            1146.946
+          ],
+          "quote": "And that's more work and more friction versus it has access to it in the same way that you just gave access to all of your cards, all of your bank accounts to PayPal to reduce the friction when you were doing things manually 15 years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1190.918,
+            1201.5
+          ],
+          "quote": "So think about ShopPay or Link or PayPal, where the wallet is in fact transacting with me, collecting the money from me and remitting that back to the merchant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1458.322,
+            1469.057
+          ],
+          "quote": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提到 Shopify 的 ShopPay 有约 170 万商户，其体系下的小商户对智能体商务「没得选」，可能是新渠道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            863.875,
+            870.841
+          ],
+          "quote": "You have Shopify with ShopPay, similar is, you know, consumer size, probably more like 1.7 million merchants.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2282.09,
+            2290.011
+          ],
+          "quote": "And then you have this series of merchants that are under the Shopify umbrella, which are a lot of small businesses, that really, this is probably a new vital channel.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "type": "company",
+      "role": "company",
+      "name": "Muse",
+      "file": "Muse",
+      "primary": false,
+      "how_described": "本集多次提到的购物智能体，被 Amazon 封杀，成为商户敌视智能体商务的标志性案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            11.211,
+            13.613
+          ],
+          "quote": "Amazon recently blocked Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 4,
+          "t": [
+            21.4,
+            25.985
+          ],
+          "quote": "What's happened with the rise of Muse and Instinct is once they have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            820.948,
+            831.578
+          ],
+          "quote": "With the rise of, you know, Muse and Instinct and Town and other AI agents is once they have access to payment credentials, their utility increases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2070.393,
+            2076.037
+          ],
+          "quote": "If two agents are competing for your business, like, hey, Terry, please use me, I'm Muse, or please use me, I'm Instinct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2152.061,
+            2160.088
+          ],
+          "quote": "I mean, maybe if I can ask a different question, because this is probably the more important one, you saw that Amazon recently blocked Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2225.66,
+            2245.328
+          ],
+          "quote": "But if I can make it so that, you know, ChatGPT services like, yeah, you should buy here, and I make that as simple as possible, it just, it goes without saying, like, I'm probably going to get a lot more transactions than somebody that inserts 15 CAPTCHAs and says, in order to proceed with this, and then Muse is going to say, hey, interrupt your NAP, you got to go do these 15 things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2699.372,
+            2700.313
+          ],
+          "quote": "I ain't talking to Muse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2707.616,
+            2712.919
+          ],
+          "quote": "And then, but I, of course, have, I actually did this with Codex because it turned out Comcast is blocking Muse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "instinct",
+      "type": "company",
+      "role": "company",
+      "name": "Instinct",
+      "file": "Instinct",
+      "primary": false,
+      "how_described": "本集嘉宾用来找户外灯的购物智能体，通过 Stripe 代买完成了 Walmart 交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.4,
+            25.985
+          ],
+          "quote": "What's happened with the rise of Muse and Instinct is once they have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            820.948,
+            831.578
+          ],
+          "quote": "With the rise of, you know, Muse and Instinct and Town and other AI agents is once they have access to payment credentials, their utility increases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1261.818,
+            1264.94
+          ],
+          "quote": "And I asked Instinct to go and help me find these lights.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1952.552,
+            1960.757
+          ],
+          "quote": "And then that part three is pretty important as well from a liability perspective, because you do see these anecdotes on X and whatnot of people that are on instinct.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2070.393,
+            2076.037
+          ],
+          "quote": "If two agents are competing for your business, like, hey, Terry, please use me, I'm Muse, or please use me, I'm Instinct.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capital-one",
+      "type": "company",
+      "role": "company",
+      "name": "Capital One",
+      "file": "Capital One",
+      "primary": false,
+      "how_described": "本集用 Alex 的亲身经历讲：Capital One 收购 Discover 后他的卡换了网络，每周收到扣款失败通知，说明保险库统一更新凭证的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            432.919,
+            434.861
+          ],
+          "quote": "What if my, I just had a Capital One card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            435.922,
+            438.544
+          ],
+          "quote": "Capital One bought Discover Card or Discover Network.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            439.084,
+            444.108
+          ],
+          "quote": "And then my fancy Capital One cashback rewards 1.5% Visa card, it became a Discover Card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            457.273,
+            461.055
+          ],
+          "quote": "Even though I still have a relationship with Capital One, I just got a new card number from them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            498.348,
+            503.713
+          ],
+          "quote": "And another 5% due to, in this case, Capital One buying Discover or Fraud or something else.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 123,
+          "t": [
+            581.527,
+            586.31
+          ],
+          "quote": "Back to your kind of annoying Capital One issue, if you're a VGS merchant, that should not happen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            586.87,
+            599.258
+          ],
+          "quote": "So there are mechanisms when Capital One is switching from Visa to Discover to get those updates, and certainly that's the case if there's fraud or something else, and that's the role that VGS is playing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            955.161,
+            961.304
+          ],
+          "quote": "But before Capital One would pay Samuel L. Jackson to say what's in your wallet, why would they do that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            961.444,
+            967.047
+          ],
+          "quote": "Because when you go to Chipotle, they want you to pull out your dead cow wallet and say, like, I'm going to pay with my Capital One card.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1171.184,
+            1177.829
+          ],
+          "quote": "Apple is effectively giving My Capital One Visa card, effectively tokenized in the wallet, to the merchant.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1324.995,
+            1332.881
+          ],
+          "quote": "But if there's a problem with the chandelier, typically I call up my bank, Capital One, and I say, hey, I had this transaction with Walmart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1534.48,
+            1546.028
+          ],
+          "quote": "With the new agentic standards, what should happen is if any of the wallets don't have a relationship with the merchant, but they have my card on file, my Capital One Visa card,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "plaid",
+      "type": "company",
+      "role": "company",
+      "name": "Plaid",
+      "file": "Plaid",
+      "primary": false,
+      "how_described": "本集拿 Plaid 与 Chase 在开放银行上的历史类比商户对智能体的态度：最终可能是长期谈判后的妥协——可接入但只能走对方的接口并付费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            2322.029,
+            2325.589
+          ],
+          "quote": "This is what happened with Plaid and Chase and the banks.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

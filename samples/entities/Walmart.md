@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Walmart</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Walmart">WA</div><div class="pi"><h1 class="pt">Walmart</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Walmart">WA</div><div class="pi"><h1 class="pt">Walmart</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-founders-434-sam-walton|《山姆·沃尔顿：沃尔玛之前的50年与几个用了一辈子的简单点子》]]**(01:59起):本集主线：山姆·沃尔顿用五十年打造的折扣零售帝国，靠买得便宜、卖得低廉、行政成本只占收入2%的低成本信仰建成有史以来最大的零售帝国
+- **[[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]]**(21:05起):本集通过买吊灯的真实案例讲 Walmart：智能体订单能成功，但一次性卡导致订阅 Walmart Plus 失败；并判断 Walmart 有理由贪婪地拥抱智能体。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-15-a16z-when-ai-agents-start-spending-your-money#^q7]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-09-21-founders-434-sam-walton|《山姆·沃尔顿：沃尔玛之前的50年与几个用了一辈子的简单点子》]] — 作为被讨论公司
+- [[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[JCPenney]] · [[Ben Franklin]] · [[Kmart]] · [[Sam's Club]] · [[激励对齐]] · [[走动式管理]] · [[低成本]] · [[折扣零售]] · [[对变化的抗拒（RC 因素）]]
+[[JCPenney]] · [[Alex Rampell]] · [[Ben Franklin]] · [[Terry Angelos]] · [[Kmart]] · [[智能体]] · [[Sam's Club]] · [[智能体商务]] · [[激励对齐]] · [[支付凭证]]
 
-<script type="application/json" class="pd-epn">{"JCPenney":1,"Ben Franklin":1,"Kmart":1,"Sam's Club":1,"激励对齐":1,"走动式管理":1,"低成本":1,"折扣零售":1,"对变化的抗拒（RC 因素）":1}</script>
+<script type="application/json" class="pd-epn">{"JCPenney":1,"Alex Rampell":4,"Ben Franklin":1,"Terry Angelos":1,"Kmart":1,"智能体":1,"Sam's Club":1,"智能体商务":1,"激励对齐":1,"支付凭证":1}</script>
 
 <script>
 (function(){

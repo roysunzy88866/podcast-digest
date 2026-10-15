@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":34,"Boeing":2,"FAA":2,"Uber":19,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":4,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":35,"Boeing":2,"FAA":2,"Uber":19,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":4,"马赫切断":1}</script>
 
 <script>
 (function(){

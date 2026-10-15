@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":98,"Claude Code":114,"智能体":1,"对抗性智能体":2,"MCP":96,"知识库":3,"技能":35,"vibe coding":51,"红队测试":9}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":98,"Claude Code":114,"智能体":1,"对抗性智能体":2,"MCP":97,"知识库":3,"技能":35,"vibe coding":51,"红队测试":9}</script>
 
 <script>
 (function(){

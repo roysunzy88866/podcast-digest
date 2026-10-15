@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":8,"Axios":1,"OpenAI":206,"ChatGPT":114,"Claude":98,"Google":72,"Anthropic":206,"智能体":1,"认知疲劳":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Axios":1,"OpenAI":207,"ChatGPT":115,"Claude":98,"Google":72,"Anthropic":206,"智能体":1,"认知疲劳":1}</script>
 
 <script>
 (function(){

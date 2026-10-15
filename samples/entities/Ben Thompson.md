@@ -90,11 +90,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":33,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":206,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"聚合理论":2,"Meta":56,"Microsoft":34,"Patrick O'Shaughnessy":3,"Steve Jobs":1,"OpenAI":207,"Mark Zuckerberg":1,"Anthropic":206,"智能体":1,"Google":72}</script>
 
 <script>
 (function(){

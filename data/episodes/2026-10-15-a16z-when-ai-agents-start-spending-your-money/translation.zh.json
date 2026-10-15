@@ -1,0 +1,5538 @@
+[
+ {
+  "seg": 0,
+  "start": 1.182,
+  "end": 10.891,
+  "speaker": "Unknown",
+  "en": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs, which are payment credentials.",
+  "zh": "在过去三个月里，我们经历了智能体从我所称的“旁观者”到“行动者”的巨大飞跃，因为它们实际上拥有了手和脚，也就是支付凭证。"
+ },
+ {
+  "seg": 1,
+  "start": 11.211,
+  "end": 13.613,
+  "speaker": "Unknown",
+  "en": "Amazon recently blocked Muse.",
+  "zh": "亚马逊最近封禁了 Muse。"
+ },
+ {
+  "seg": 2,
+  "start": 14.314,
+  "end": 15.755,
+  "speaker": "Unknown",
+  "en": "And there are many reasons for this.",
+  "zh": "这其中有很多原因。"
+ },
+ {
+  "seg": 3,
+  "start": 15.815,
+  "end": 21.04,
+  "speaker": "Unknown",
+  "en": "You can either be antagonistic to agentic commerce or you can be highly receptive.",
+  "zh": "你可以敌视智能体商务，也可以高度接纳它。"
+ },
+ {
+  "seg": 4,
+  "start": 21.4,
+  "end": 25.985,
+  "speaker": "Unknown",
+  "en": "What's happened with the rise of Muse and Instinct is once they have",
+  "zh": "随着 Muse 和 Instinct 的崛起，发生的事情是，一旦它们"
+ },
+ {
+  "seg": 5,
+  "start": 26.645,
+  "end": 29.568,
+  "speaker": "Unknown",
+  "en": "Access to payment credentials, their utility increases.",
+  "zh": "获得了支付凭证，它们的实用性就会提升。"
+ },
+ {
+  "seg": 6,
+  "start": 30.108,
+  "end": 38.436,
+  "speaker": "Unknown",
+  "en": "So we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents.",
+  "zh": "所以我们算是开启了所谓的“钱包战争”，现在每个钱包都在争相连接到智能体。"
+ },
+ {
+  "seg": 7,
+  "start": 38.736,
+  "end": 43.561,
+  "speaker": "Unknown",
+  "en": "Everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS.",
+  "zh": "每一个正在收听这期播客的人，我几乎可以保证，你都有一个存储在 VGS 的凭证。"
+ },
+ {
+  "seg": 8,
+  "start": 44.101,
+  "end": 51.548,
+  "speaker": "Unknown",
+  "en": "The largest online merchants, the largest neobanks, and the largest frontier labs all use VGS to secure payment credentials.",
+  "zh": "最大的在线商家、最大的新银行，以及最大的前沿实验室，都用 VGS 来保护支付凭证。"
+ },
+ {
+  "seg": 9,
+  "start": 51.708,
+  "end": 53.989,
+  "speaker": "Unknown",
+  "en": "It's a really formidable position to be in.",
+  "zh": "这是一个非常强势的地位。"
+ },
+ {
+  "seg": 10,
+  "start": 54.129,
+  "end": 56.67,
+  "speaker": "Unknown",
+  "en": "Where do you think VGS is going to go?",
+  "zh": "你认为 VGS 未来会走向哪里？"
+ },
+ {
+  "seg": 11,
+  "start": 56.97,
+  "end": 63.472,
+  "speaker": "Unknown",
+  "en": "I think we are... AI agents are moving from recommending what you should buy to actually buying it for you.",
+  "zh": "我认为我们……AI 智能体正在从推荐你该买什么，转变为真正替你购买。"
+ },
+ {
+  "seg": 12,
+  "start": 64.252,
+  "end": 66.233,
+  "speaker": "Unknown",
+  "en": "That creates a deceptively hard question.",
+  "zh": "这就引出了一个看似简单实则极难的问题。"
+ },
+ {
+  "seg": 13,
+  "start": 66.873,
+  "end": 69.394,
+  "speaker": "Unknown",
+  "en": "How do you safely give an AI access to your money?",
+  "zh": "如何安全地让 AI 访问你的资金？"
+ },
+ {
+  "seg": 14,
+  "start": 70.254,
+  "end": 80.918,
+  "speaker": "Unknown",
+  "en": "In this episode, A16Z general partner Alex Rampell sits down with VGS chief strategy officer Terry Angelos to unpack the emergency payment infrastructure behind agentic commerce.",
+  "zh": "在这一集中，A16Z 普通合伙人 Alex Rampell 与 VGS 首席战略官 Terry Angelos 坐下来，剖析智能体商务背后的紧急支付基础设施。"
+ },
+ {
+  "seg": 15,
+  "start": 81.718,
+  "end": 94.901,
+  "speaker": "Unknown",
+  "en": "They discuss the new wallet wars, how payment credentials could move safely between consumers, agents, and merchants, and why new agentic tokens could allow AI to transact without breaking the protections consumers already expect from credit cards.",
+  "zh": "他们讨论了新的钱包战争，支付凭证如何能在消费者、智能体和商家之间安全流转，以及为什么新的智能体代币可以让 AI 进行交易而不破坏消费者已经从信用卡中期待的那些保护。"
+ },
+ {
+  "seg": 16,
+  "start": 95.84,
+  "end": 110.023,
+  "speaker": "Unknown",
+  "en": "They also get into what happens when an agent buys the wrong thing, why some merchants may actively resist agent-encomers, and how the economics of everything from credit card rewards to subscriptions could change when an AI is constantly optimizing on the consumer's behalf.",
+  "zh": "他们还谈到了当智能体买错东西时会发生什么，为什么一些商家可能会主动抗拒智能体带来的变化，以及当 AI 不断代表消费者进行优化时，从信用卡奖励到订阅等一切事物的经济模式可能会如何改变。"
+ },
+ {
+  "seg": 17,
+  "start": 110.863,
+  "end": 118.025,
+  "speaker": "Unknown",
+  "en": "Because giving agents the ability to spend doesn't just make them more useful, it could reshape who controls the customer relationship itself.",
+  "zh": "因为赋予智能体消费的能力不仅仅是让它们更有用，它还可能重塑谁来掌控客户关系本身。"
+ },
+ {
+  "seg": 18,
+  "start": 121.237,
+  "end": 121.638,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 19,
+  "start": 121.658,
+  "end": 126.404,
+  "speaker": "Unknown",
+  "en": "I'm Alex Rampell, partner at Andreessen Horwitz, and I'm here joined by Terry Angelos.",
+  "zh": "我是 Alex Rampell，Andreessen Horwitz 的合伙人，今天和我一起的是 Terry Angelos。"
+ },
+ {
+  "seg": 20,
+  "start": 126.805,
+  "end": 135.217,
+  "speaker": "Unknown",
+  "en": "And I'm very excited about being joined by Terry because Terry and I started a company called TrialPay in 2006, a long, long time ago, 20 years ago.",
+  "zh": "我对 Terry 的到来感到非常兴奋，因为 Terry 和我在 2006 年创办了一家名为 TrialPay 的公司，那是很久很久以前，20 年前了。"
+ },
+ {
+  "seg": 21,
+  "start": 135.397,
+  "end": 135.918,
+  "speaker": "Unknown",
+  "en": "20 years ago.",
+  "zh": "20 年前。"
+ },
+ {
+  "seg": 22,
+  "start": 136.258,
+  "end": 137.238,
+  "speaker": "Unknown",
+  "en": "Alex looked very different.",
+  "zh": "Alex 那时候看起来很不一样。"
+ },
+ {
+  "seg": 23,
+  "start": 137.358,
+  "end": 138.519,
+  "speaker": "Unknown",
+  "en": "Yes, you look the same.",
+  "zh": "是的，你看起来一模一样。"
+ },
+ {
+  "seg": 24,
+  "start": 138.719,
+  "end": 142.48,
+  "speaker": "Unknown",
+  "en": "So I think you're insulting me and I'm complimenting you and hopefully not the other way around.",
+  "zh": "所以我觉得你在侮辱我而我在恭维你，希望不是反过来。"
+ },
+ {
+  "seg": 25,
+  "start": 142.94,
+  "end": 144.861,
+  "speaker": "Unknown",
+  "en": "But today, this is the really cool part.",
+  "zh": "但今天，这才是真正酷的部分。"
+ },
+ {
+  "seg": 26,
+  "start": 145.141,
+  "end": 149.523,
+  "speaker": "Unknown",
+  "en": "One of my first investments here was a company called VGS, which stands for Very Good Security.",
+  "zh": "我在这里最早的一笔投资之一是一家名为 VGS 的公司，全称是 Very Good Security。"
+ },
+ {
+  "seg": 27,
+  "start": 149.943,
+  "end": 158.806,
+  "speaker": "Unknown",
+  "en": "And some people might not get that's actually a pun or a joke because one of the most famous cryptography companies was called PGP, which is Pretty Good Privacy.",
+  "zh": "有些人可能没意识到这其实是一个双关语或玩笑，因为最著名的密码学公司之一叫 PGP，即 Pretty Good Privacy(相当好的隐私)。"
+ },
+ {
+  "seg": 28,
+  "start": 159.726,
+  "end": 161.489,
+  "speaker": "Unknown",
+  "en": "And obviously, it's very good privacy.",
+  "zh": "显然，它是“非常好的隐私”。"
+ },
+ {
+  "seg": 29,
+  "start": 161.509,
+  "end": 162.57,
+  "speaker": "Unknown",
+  "en": "It's not just pretty good privacy.",
+  "zh": "它不只是“相当好的隐私”。"
+ },
+ {
+  "seg": 30,
+  "start": 162.59,
+  "end": 163.772,
+  "speaker": "Unknown",
+  "en": "It's incredible privacy.",
+  "zh": "它是难以置信的隐私。"
+ },
+ {
+  "seg": 31,
+  "start": 163.812,
+  "end": 170.361,
+  "speaker": "Unknown",
+  "en": "It's unbreakable privacy because it's very hard to factor very large composite numbers into their primes, and pretty good privacy is actually very good.",
+  "zh": "它是无法破解的隐私，因为把非常大的合数分解成质因数是非常困难的，而“相当好的隐私”实际上是非常好。"
+ },
+ {
+  "seg": 32,
+  "start": 170.381,
+  "end": 172.404,
+  "speaker": "Unknown",
+  "en": "So that was kind of the original name for very good security.",
+  "zh": "所以这就是 Very Good Security 这个名字的由来。"
+ },
+ {
+  "seg": 33,
+  "start": 172.424,
+  "end": 174.126,
+  "speaker": "Unknown",
+  "en": "So I led this investment a long time ago.",
+  "zh": "所以很久以前是我领投了这笔投资。"
+ },
+ {
+  "seg": 34,
+  "start": 174.807,
+  "end": 176.149,
+  "speaker": "Unknown",
+  "en": "Trial pay got bought by Visa.",
+  "zh": "TrialPay 被 Visa 收购了。"
+ },
+ {
+  "seg": 35,
+  "start": 176.97,
+  "end": 182.234,
+  "speaker": "Unknown",
+  "en": "Visa, under your leadership, invested in VGS, and now you're back.",
+  "zh": "Visa 在你的领导下投资了 VGS，现在你回来了。"
+ },
+ {
+  "seg": 36,
+  "start": 182.835,
+  "end": 186.998,
+  "speaker": "Unknown",
+  "en": "And you're the chief strategy officer and board member alongside me at VGS.",
+  "zh": "你现在是 VGS 的首席战略官和董事会成员，和我一起。"
+ },
+ {
+  "seg": 37,
+  "start": 187.178,
+  "end": 187.358,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 38,
+  "start": 187.758,
+  "end": 190.681,
+  "speaker": "Unknown",
+  "en": "It's been a very fun and incredible journey.",
+  "zh": "这是一段非常有趣且不可思议的旅程。"
+ },
+ {
+  "seg": 39,
+  "start": 190.801,
+  "end": 194.363,
+  "speaker": "Unknown",
+  "en": "And I think if you look at VGS today, it's a payment infrastructure business.",
+  "zh": "我认为，如果你看看今天的 VGS，它是一家支付基础设施公司。"
+ },
+ {
+  "seg": 40,
+  "start": 194.704,
+  "end": 199.427,
+  "speaker": "Unknown",
+  "en": "We secure credentials for about a third of all e-commerce by GMV.",
+  "zh": "我们按 GMV 计，为大约三分之一的电子商务保护凭证。"
+ },
+ {
+  "seg": 41,
+  "start": 200.088,
+  "end": 202.169,
+  "speaker": "Unknown",
+  "en": "And we have the largest online merchants.",
+  "zh": "我们拥有最大的在线商家。"
+ },
+ {
+  "seg": 42,
+  "start": 202.189,
+  "end": 203.511,
+  "speaker": "Unknown",
+  "en": "We have the largest neobanks.",
+  "zh": "我们拥有最大的新银行。"
+ },
+ {
+  "seg": 43,
+  "start": 204.331,
+  "end": 209.012,
+  "speaker": "Unknown",
+  "en": "And the largest frontier labs all use VGS to secure payment credentials.",
+  "zh": "而最大的前沿实验室都用 VGS 来保护支付凭证。"
+ },
+ {
+  "seg": 44,
+  "start": 209.233,
+  "end": 223.097,
+  "speaker": "Unknown",
+  "en": "And I think today, part of the reason why we want to talk about agentic commerce is because VGS is involved in helping agents get those credentials, helping wallets hand those credentials to agents.",
+  "zh": "我认为今天，我们想谈智能体商务的部分原因在于，VGS 参与了帮助智能体获取这些凭证，帮助钱包把这些凭证交给智能体。"
+ },
+ {
+  "seg": 45,
+  "start": 223.937,
+  "end": 226.76,
+  "speaker": "Unknown",
+  "en": "And also to merchants who have to receive these credentials.",
+  "zh": "同时也交给必须接收这些凭证的商家。"
+ },
+ {
+  "seg": 46,
+  "start": 226.8,
+  "end": 233.345,
+  "speaker": "Unknown",
+  "en": "And so we're sort of in the middle of these really interesting conversations and handovers between credentials.",
+  "zh": "所以我们算是处在这类非常有趣的关于凭证的对话和交接的正中间。"
+ },
+ {
+  "seg": 47,
+  "start": 233.966,
+  "end": 236.348,
+  "speaker": "Unknown",
+  "en": "But maybe we should dig into what a credential is.",
+  "zh": "不过也许我们应该先深入了解一下什么是凭证。"
+ },
+ {
+  "seg": 48,
+  "start": 236.368,
+  "end": 239.431,
+  "speaker": "Unknown",
+  "en": "I mean, credential is a fancy way of saying a credit card for laypeople.",
+  "zh": "我是说，对普通人来说，凭证就是信用卡的一种华丽说法。"
+ },
+ {
+  "seg": 49,
+  "start": 239.591,
+  "end": 242.033,
+  "speaker": "Unknown",
+  "en": "It gets a little more complicated than that when you really dig into it.",
+  "zh": "真正深入探究的话，事情会比这更复杂一点。"
+ },
+ {
+  "seg": 50,
+  "start": 242.573,
+  "end": 247.358,
+  "speaker": "Unknown",
+  "en": "But you work with, I don't know which merchants I'm allowed to say that you work with, you work with all the big ones.",
+  "zh": "但你们合作的——我不知道我被允许说出你们和哪些商家合作——你们和所有大商家都合作。"
+ },
+ {
+  "seg": 51,
+  "start": 247.378,
+  "end": 249.8,
+  "speaker": "Unknown",
+  "en": "But like, why don't we take an example merchant?",
+  "zh": "但我们不如举一个具体的商家例子?"
+ },
+ {
+  "seg": 52,
+  "start": 250.26,
+  "end": 254.121,
+  "speaker": "Unknown",
+  "en": "That you work with kind of pre-AI, pre-adjected commerce, and just explain what you do.",
+  "zh": "一个在 AI 之前、在 pre-adjected commerce 之前就和你们合作的商家,然后解释一下你们做什么。"
+ },
+ {
+  "seg": 53,
+  "start": 254.181,
+  "end": 255.521,
+  "speaker": "Unknown",
+  "en": "Like, why do they use VGS?",
+  "zh": "比如,他们为什么要用 VGS?"
+ },
+ {
+  "seg": 54,
+  "start": 255.981,
+  "end": 257.162,
+  "speaker": "Unknown",
+  "en": "What do they use you for?",
+  "zh": "他们用你们做什么?"
+ },
+ {
+  "seg": 55,
+  "start": 257.602,
+  "end": 258.742,
+  "speaker": "Unknown",
+  "en": "And how pervasive is it?",
+  "zh": "而且这个用得有多普遍?"
+ },
+ {
+  "seg": 56,
+  "start": 258.882,
+  "end": 259.102,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 57,
+  "start": 259.502,
+  "end": 262.823,
+  "speaker": "Unknown",
+  "en": "Let's assume we're working with a very large online ordering platform.",
+  "zh": "假设我们和一个非常大的在线订购平台合作。"
+ },
+ {
+  "seg": 58,
+  "start": 263.103,
+  "end": 276.886,
+  "speaker": "Unknown",
+  "en": "And so that company effectively has to store your credit card every time that you, every time that a new customer comes into that site and hands over a credit card, that company doesn't necessarily want to",
+  "zh": "那家公司实际上必须存储你的信用卡,每次——每当一个新客户来到那个网站并交出一张信用卡时——那家公司不一定想要"
+ },
+ {
+  "seg": 59,
+  "start": 277.866,
+  "end": 279.487,
+  "speaker": "Unknown",
+  "en": "Be exposed to that card number.",
+  "zh": "接触那张卡号。"
+ },
+ {
+  "seg": 60,
+  "start": 280.208,
+  "end": 288.094,
+  "speaker": "Unknown",
+  "en": "And so VGS is involved in capturing that card, securely vaulting it, and storing it.",
+  "zh": "所以 VGS 参与了捕获那张卡、安全地放入保险库并存储它。"
+ },
+ {
+  "seg": 61,
+  "start": 288.195,
+  "end": 303.687,
+  "speaker": "Unknown",
+  "en": "And every time that the online ordering service wants to transact with one of its processors, it goes to the vault and retrieves the information in such a way that the online ordering company never actually has to touch the payment information.",
+  "zh": "然后每当那个在线订购服务想和它的某个处理商交易时,它会去保险库取出信息,方式是让那个在线订购公司实际上永远不必接触支付信息。"
+ },
+ {
+  "seg": 62,
+  "start": 304.808,
+  "end": 326.554,
+  "speaker": "Unknown",
+  "en": "One of the things that I think has made VGS a lot more interesting since the days that you first invested, it's been a decade of becoming sort of the most trusted vault online, is that the card networks have also introduced a form of tokenization so that in our days back in trial pay, we would actually store a 16-digit PAN and we would encrypt it.",
+  "zh": "我认为自你们最初投资以来,VGS 变得有趣得多的原因之一——它用了十年时间成为某种程度上线上最受信任的保险库——是卡组织也引入了一种令牌化形式,所以在我们在 trial pay 的那些日子里,我们实际上会存储一个 16 位的 PAN,并且我们会把它加密。"
+ },
+ {
+  "seg": 63,
+  "start": 326.574,
+  "end": 328.114,
+  "speaker": "Unknown",
+  "en": "A PAN is a primary account number.",
+  "zh": "PAN 是主账号。"
+ },
+ {
+  "seg": 64,
+  "start": 328.315,
+  "end": 329.475,
+  "speaker": "Unknown",
+  "en": "A PAN is a primary account number.",
+  "zh": "PAN 是主账号。"
+ },
+ {
+  "seg": 65,
+  "start": 329.495,
+  "end": 329.975,
+  "speaker": "Unknown",
+  "en": "Credit card number.",
+  "zh": "信用卡号。"
+ },
+ {
+  "seg": 66,
+  "start": 330.135,
+  "end": 332.297,
+  "speaker": "Unknown",
+  "en": "It's the 16-digit number that you have on your card.",
+  "zh": "就是你卡上的那个 16 位数字。"
+ },
+ {
+  "seg": 67,
+  "start": 332.817,
+  "end": 334.759,
+  "speaker": "Unknown",
+  "en": "We would encrypt it and vault it.",
+  "zh": "我们会把它加密并放入保险库。"
+ },
+ {
+  "seg": 68,
+  "start": 335.619,
+  "end": 342.425,
+  "speaker": "Unknown",
+  "en": "And then when it came time to charge someone, we might unencrypt it and give it to, I think, Chase Payment Tech back in those days.",
+  "zh": "然后到了要向某人收费的时候,我们可能会解密它并交给,我记得那时候是 Chase Payment Tech。"
+ },
+ {
+  "seg": 69,
+  "start": 343.305,
+  "end": 344.286,
+  "speaker": "Unknown",
+  "en": "Today, that doesn't happen.",
+  "zh": "今天,这种情况不再发生。"
+ },
+ {
+  "seg": 70,
+  "start": 344.306,
+  "end": 348.79,
+  "speaker": "Unknown",
+  "en": "Today, instead, what happens is, rather than store that 16-digit card number,",
+  "zh": "今天,发生的事情反而是,不再存储那个 16 位卡号,"
+ },
+ {
+  "seg": 71,
+  "start": 350.045,
+  "end": 368.956,
+  "speaker": "Unknown",
+  "en": "And use that, you actually go to the network that issued it, so Visa, MasterCard, Amex, Discover, and you say, I would like another version of this card that's actually domain bound just to my merchant domain, which is safer, because if there's ever a problem, the only number that I have only works on my merchant domain.",
+  "zh": "然后使用它,你实际上是去发行它的那个网络,也就是 Visa、MasterCard、Amex、Discover,然后说,我想要这张卡的另一个版本,它实际上只绑定到我的商家域名,这更安全,因为如果出了问题,我拥有的那个号码只在我的商家域名上有效。"
+ },
+ {
+  "seg": 72,
+  "start": 370.016,
+  "end": 373.558,
+  "speaker": "Unknown",
+  "en": "And I am going to use this when I send it to Chase Payment Tech.",
+  "zh": "而且我打算在把它发送给 Chase Payment Tech 时使用这个。"
+ },
+ {
+  "seg": 73,
+  "start": 373.598,
+  "end": 375.6,
+  "speaker": "Unknown",
+  "en": "So VGS, as a company,",
+  "zh": "所以 VGS 作为一家公司,"
+ },
+ {
+  "seg": 74,
+  "start": 376.672,
+  "end": 379.334,
+  "speaker": "Unknown",
+  "en": "Volts all these credentials on behalf of the merchant.",
+  "zh": "代表商家把所有这些凭据放入保险库。"
+ },
+ {
+  "seg": 75,
+  "start": 380.255,
+  "end": 388.581,
+  "speaker": "Unknown",
+  "en": "Also gets all of the network tokens, which is the primary way that these credentials are passed to the payment processor and to the network.",
+  "zh": "同时也获取所有的网络令牌,这是把这些凭据传给支付处理商和传给网络的主要方式。"
+ },
+ {
+  "seg": 76,
+  "start": 389.421,
+  "end": 390.202,
+  "speaker": "Unknown",
+  "en": "And that's what we do today.",
+  "zh": "这就是我们今天做的事。"
+ },
+ {
+  "seg": 77,
+  "start": 390.222,
+  "end": 397.667,
+  "speaker": "Unknown",
+  "en": "And so because of that complexity of interacting with the card networks and doing this across multiple processors.",
+  "zh": "正因为与卡组织交互并在多个处理商之间做这件事的复杂性。"
+ },
+ {
+  "seg": 78,
+  "start": 397.867,
+  "end": 399.508,
+  "speaker": "Unknown",
+  "en": "So actually, here's a question for you, Alex.",
+  "zh": "那么实际上,问你一个问题,Alex。"
+ },
+ {
+  "seg": 79,
+  "start": 400.209,
+  "end": 405.773,
+  "speaker": "Unknown",
+  "en": "If you're a merchant with over a billion dollars in GMV, how many payment processors do you have on the backend?",
+  "zh": "如果你是 GMV 超过十亿美元的商家,你在后端有多少个支付处理商?"
+ },
+ {
+  "seg": 80,
+  "start": 407.093,
+  "end": 407.774,
+  "speaker": "Unknown",
+  "en": "Well, it depends.",
+  "zh": "嗯,这要看情况。"
+ },
+ {
+  "seg": 81,
+  "start": 408.495,
+  "end": 410.497,
+  "speaker": "Unknown",
+  "en": "There are plenty that just have one, but you are better.",
+  "zh": "有很多只使用一个,但你更——"
+ },
+ {
+  "seg": 82,
+  "start": 410.517,
+  "end": 424.272,
+  "speaker": "Unknown",
+  "en": "I mean, but this goes to the use case of VGS, which is rather than being locked into one payment processor, you'd rather unbundle that and you'd rather be able to pick and choose which payment processor you use.",
+  "zh": "我的意思是,但这正是 VGS 的用例所在,与其被锁定在一个支付处理商上,你宁愿把那部分解绑,你宁愿能够挑选使用哪个支付处理商。"
+ },
+ {
+  "seg": 83,
+  "start": 424.953,
+  "end": 432.739,
+  "speaker": "Unknown",
+  "en": "But also, if you have kind of a shared infrastructure that is storing credentials, what if one credential goes bad?",
+  "zh": "但另外,如果你有一种共享的基础设施来存储凭据,那如果某个凭据失效了呢?"
+ },
+ {
+  "seg": 84,
+  "start": 432.919,
+  "end": 434.861,
+  "speaker": "Unknown",
+  "en": "What if my, I just had a Capital One card.",
+  "zh": "比如,如果我的——我刚办了一张 Capital One 卡。"
+ },
+ {
+  "seg": 85,
+  "start": 434.901,
+  "end": 435.441,
+  "speaker": "Unknown",
+  "en": "Great example.",
+  "zh": "好例子。"
+ },
+ {
+  "seg": 86,
+  "start": 435.922,
+  "end": 438.544,
+  "speaker": "Unknown",
+  "en": "Capital One bought Discover Card or Discover Network.",
+  "zh": "Capital One 收购了 Discover Card,也就是 Discover Network。"
+ },
+ {
+  "seg": 87,
+  "start": 439.084,
+  "end": 444.108,
+  "speaker": "Unknown",
+  "en": "And then my fancy Capital One cashback rewards 1.5% Visa card, it became a Discover Card.",
+  "zh": "然后我那张很高级的 Capital One 1.5% 返现 Visa 卡,变成了一张 Discover 卡。"
+ },
+ {
+  "seg": 88,
+  "start": 447.15,
+  "end": 452.592,
+  "speaker": "Unknown",
+  "en": "And every week I get notifications from very sad merchants, we are unable to process your card.",
+  "zh": "然后每周我都会收到来自非常沮丧的商家的通知:我们无法处理你的卡。"
+ },
+ {
+  "seg": 89,
+  "start": 453.272,
+  "end": 454.593,
+  "speaker": "Unknown",
+  "en": "Why are they unable to process my card?",
+  "zh": "他们为什么无法处理我的卡?"
+ },
+ {
+  "seg": 90,
+  "start": 454.613,
+  "end": 456.833,
+  "speaker": "Unknown",
+  "en": "Because that old card number doesn't exist anymore.",
+  "zh": "因为那个旧卡号已经不存在了。"
+ },
+ {
+  "seg": 91,
+  "start": 457.273,
+  "end": 461.055,
+  "speaker": "Unknown",
+  "en": "Even though I still have a relationship with Capital One, I just got a new card number from them.",
+  "zh": "尽管我和 Capital One 仍然有合作关系,我只是从他们那里拿到了一个新的卡号。"
+ },
+ {
+  "seg": 92,
+  "start": 461.515,
+  "end": 462.655,
+  "speaker": "Unknown",
+  "en": "Granted, it's a little bit complicated.",
+  "zh": "当然,这有点复杂。"
+ },
+ {
+  "seg": 93,
+  "start": 462.675,
+  "end": 463.676,
+  "speaker": "Unknown",
+  "en": "It's on a new network.",
+  "zh": "它在一个新的网络上。"
+ },
+ {
+  "seg": 94,
+  "start": 464.116,
+  "end": 468.997,
+  "speaker": "Unknown",
+  "en": "There's also the possibility, like merchants can't just say, oh, we know that this card became that card.",
+  "zh": "还有一种可能性是——商家不能直接说,哦,我们知道这张卡变成了那张卡。"
+ },
+ {
+  "seg": 95,
+  "start": 469.278,
+  "end": 470.418,
+  "speaker": "Unknown",
+  "en": "One merchant cannot do that.",
+  "zh": "一个商家做不到那样。"
+ },
+ {
+  "seg": 96,
+  "start": 471.078,
+  "end": 472.979,
+  "speaker": "Unknown",
+  "en": "But a large vault",
+  "zh": "但一个大型保险库"
+ },
+ {
+  "seg": 97,
+  "start": 473.539,
+  "end": 474.199,
+  "speaker": "Unknown",
+  "en": "Can do that.",
+  "zh": "可以做到。"
+ },
+ {
+  "seg": 98,
+  "start": 474.379,
+  "end": 481.822,
+  "speaker": "Unknown",
+  "en": "And then as the actual networks themselves, like Visa and MasterCard, and actually Discover too, they have these account updating tools.",
+  "zh": "然后作为网络本身,比如 Visa 和 MasterCard,实际上 Discover 也是,它们有这些账户更新工具。"
+ },
+ {
+  "seg": 99,
+  "start": 482.302,
+  "end": 482.462,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 100,
+  "start": 482.542,
+  "end": 484.283,
+  "speaker": "Unknown",
+  "en": "So you could say, hey, I'm a merchant.",
+  "zh": "所以你可以说，嘿，我是一个商户。"
+ },
+ {
+  "seg": 101,
+  "start": 484.343,
+  "end": 485.743,
+  "speaker": "Unknown",
+  "en": "I have all of these card numbers.",
+  "zh": "我有所有这些卡号。"
+ },
+ {
+  "seg": 102,
+  "start": 485.843,
+  "end": 488.404,
+  "speaker": "Unknown",
+  "en": "And I think, what is it, every year like 10% of cards expire?",
+  "zh": "然后我想，是什么来着，每年大概有 10% 的卡会过期？"
+ },
+ {
+  "seg": 103,
+  "start": 489.065,
+  "end": 489.305,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 104,
+  "start": 489.325,
+  "end": 493.746,
+  "speaker": "Unknown",
+  "en": "So about a third of all cards get turned over every single year.",
+  "zh": "所以每年大约有三分之一的卡会被轮换更新。"
+ },
+ {
+  "seg": 105,
+  "start": 493.906,
+  "end": 494.367,
+  "speaker": "Unknown",
+  "en": "No, even more.",
+  "zh": "不，甚至更多。"
+ },
+ {
+  "seg": 106,
+  "start": 494.487,
+  "end": 497.628,
+  "speaker": "Unknown",
+  "en": "Like 25% mathematically because it's a four year expiration.",
+  "zh": "从数学上讲大概是 25%,因为有效期是四年。"
+ },
+ {
+  "seg": 107,
+  "start": 498.348,
+  "end": 503.713,
+  "speaker": "Unknown",
+  "en": "And another 5% due to, in this case, Capital One buying Discover or Fraud or something else.",
+  "zh": "另外还有 5% 是因为,在这个例子里,Capital One 收购 Discover,或者欺诈或其他原因。"
+ },
+ {
+  "seg": 108,
+  "start": 503.753,
+  "end": 511.341,
+  "speaker": "Unknown",
+  "en": "So back to that question, by the way, for a merchant of a billion dollars, it's about three to five processors that merchant will have.",
+  "zh": "所以回到那个问题,顺便说一下,对于一家十亿美元规模的商户来说,这家商户大约会有三到五个支付处理器。"
+ },
+ {
+  "seg": 109,
+  "start": 511.381,
+  "end": 513.002,
+  "speaker": "Unknown",
+  "en": "So now— They don't have to.",
+  "zh": "所以现在—— 他们不是必须这样。"
+ },
+ {
+  "seg": 110,
+  "start": 513.122,
+  "end": 515.004,
+  "speaker": "Unknown",
+  "en": "They don't have to, but they should, is the point.",
+  "zh": "他们不是必须,但他们应该这样做,这是重点。"
+ },
+ {
+  "seg": 111,
+  "start": 515.024,
+  "end": 516.566,
+  "speaker": "Unknown",
+  "en": "No, no, that is the average that we see.",
+  "zh": "不,不,这就是我们看到的平均水平。"
+ },
+ {
+  "seg": 112,
+  "start": 516.586,
+  "end": 516.926,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是,是。"
+ },
+ {
+  "seg": 113,
+  "start": 516.946,
+  "end": 526.828,
+  "speaker": "Unknown",
+  "en": "But there's a reason for them to do that because different costs, different approval rates, different regions, like you want to shard in kind of computer science terms.",
+  "zh": "但他们这样做是有原因的,因为不同的成本、不同的批准率、不同的地区,用计算机科学的术语说,你想要做分片。"
+ },
+ {
+  "seg": 114,
+  "start": 527.289,
+  "end": 537.671,
+  "speaker": "Unknown",
+  "en": "You have all of your cards and if you just say I use the same processor every single time, that's just not a good idea or it's not as good of an idea as I can have multiple processors.",
+  "zh": "你有所有的卡,如果你每次都说我用同一个处理器,那不是一个好主意,或者说不如我可以使用多个处理器那么好。"
+ },
+ {
+  "seg": 115,
+  "start": 537.931,
+  "end": 543.333,
+  "speaker": "Unknown",
+  "en": "But in order to do that, I have to be able to securely send the card number to the processor that I've chosen.",
+  "zh": "但为了做到这一点,我必须能够安全地把卡号发送给我选择的处理器。"
+ },
+ {
+  "seg": 116,
+  "start": 543.673,
+  "end": 544.173,
+  "speaker": "Unknown",
+  "en": "Yeah, that's right.",
+  "zh": "是的,没错。"
+ },
+ {
+  "seg": 117,
+  "start": 544.193,
+  "end": 544.533,
+  "speaker": "Unknown",
+  "en": "And in fact,",
+  "zh": "而且实际上,"
+ },
+ {
+  "seg": 118,
+  "start": 545.353,
+  "end": 553.076,
+  "speaker": "Unknown",
+  "en": "Once you have multiple processors, then the job of vaulting and getting updates is multiplied by the number of processors.",
+  "zh": "一旦你有多个处理器,那么保管库和获取更新的工作量就会乘以处理器的数量。"
+ },
+ {
+  "seg": 119,
+  "start": 553.116,
+  "end": 561.359,
+  "speaker": "Unknown",
+  "en": "So maybe I have 100 million cards as a merchant, but I have to store 100 million with Chase and 100 million with Stripe and 100 million with Braintree.",
+  "zh": "所以也许作为一个商户,我有一亿张卡,但我得把一亿张存在 Chase、一亿张存在 Stripe、一亿张存在 Braintree。"
+ },
+ {
+  "seg": 120,
+  "start": 561.379,
+  "end": 564.501,
+  "speaker": "Unknown",
+  "en": "And each of those vaults have to be updated at their networks.",
+  "zh": "而且每个保管库都必须在它们的网络上进行更新。"
+ },
+ {
+  "seg": 121,
+  "start": 564.541,
+  "end": 570.243,
+  "speaker": "Unknown",
+  "en": "And so what VGS does is serve as an independent vault, neutral infrastructure on behalf of the merchants.",
+  "zh": "所以 VGS 做的事情就是作为一个独立的保管库,代表商户的中立基础设施。"
+ },
+ {
+  "seg": 122,
+  "start": 571.101,
+  "end": 580.687,
+  "speaker": "Unknown",
+  "en": "For the vaulting and the updates such that the merchant can then send a Visa token to the merchant via Stripe.",
+  "zh": "负责保管和更新,这样商户就可以通过 Stripe 把 Visa 令牌发送给商户。"
+ },
+ {
+  "seg": 123,
+  "start": 581.527,
+  "end": 586.31,
+  "speaker": "Unknown",
+  "en": "Back to your kind of annoying Capital One issue, if you're a VGS merchant, that should not happen.",
+  "zh": "回到你那种烦人的 Capital One 问题,如果你是 VGS 的商户,那不应该发生。"
+ },
+ {
+  "seg": 124,
+  "start": 586.87,
+  "end": 599.258,
+  "speaker": "Unknown",
+  "en": "So there are mechanisms when Capital One is switching from Visa to Discover to get those updates, and certainly that's the case if there's fraud or something else, and that's the role that VGS is playing.",
+  "zh": "所以当 Capital One 从 Visa 切换到 Discover 时,有机制可以获取那些更新,当然如果出现欺诈或其他情况也是如此,而这就是 VGS 扮演的角色。"
+ },
+ {
+  "seg": 125,
+  "start": 599.578,
+  "end": 600.278,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的,没错。"
+ },
+ {
+  "seg": 126,
+  "start": 600.358,
+  "end": 605.841,
+  "speaker": "Unknown",
+  "en": "So hopefully everybody has a good understanding now of what very good security does, VGS does.",
+  "zh": "所以希望现在每个人都很好地理解了 very good security,VGS 是做什么的了。"
+ },
+ {
+  "seg": 127,
+  "start": 606.341,
+  "end": 609.562,
+  "speaker": "Unknown",
+  "en": "So out of nowhere, and this was a good business years ago.",
+  "zh": "于是出乎意料地,这在前几年就已经是一门好生意了。"
+ },
+ {
+  "seg": 128,
+  "start": 609.883,
+  "end": 612.023,
+  "speaker": "Unknown",
+  "en": "I mean, I've been a believer for a long time.",
+  "zh": "我是说,长期以来我一直是个信奉者。"
+ },
+ {
+  "seg": 129,
+  "start": 612.123,
+  "end": 615.105,
+  "speaker": "Unknown",
+  "en": "And then this whole thing called agentic commerce showed up.",
+  "zh": "然后这个叫做 agentic commerce 的东西出现了。"
+ },
+ {
+  "seg": 130,
+  "start": 615.725,
+  "end": 617.646,
+  "speaker": "Unknown",
+  "en": "I guess, how does the world change?",
+  "zh": "我猜,世界会怎么改变?"
+ },
+ {
+  "seg": 131,
+  "start": 617.706,
+  "end": 619.487,
+  "speaker": "Unknown",
+  "en": "And you guys are at the center of this because",
+  "zh": "而你们正处在这件事的中心,因为"
+ },
+ {
+  "seg": 132,
+  "start": 620.207,
+  "end": 628.911,
+  "speaker": "Unknown",
+  "en": "Again, I don't know what companies that work with you I'm allowed to say or not, but let's just say like a lot of AI companies have decided to work with VGS.",
+  "zh": "再说一次,我不知道哪些和你们合作的公司我可以说或不能说,但我们就这么说吧,很多 AI 公司已经决定和 VGS 合作。"
+ },
+ {
+  "seg": 133,
+  "start": 629.491,
+  "end": 630.532,
+  "speaker": "Unknown",
+  "en": "And for what reason?",
+  "zh": "出于什么原因?"
+ },
+ {
+  "seg": 134,
+  "start": 630.632,
+  "end": 638.675,
+  "speaker": "Unknown",
+  "en": "Well, the reason is you don't, if I say, hey, buy me flowers, if I go into my little chat tool and say, hey, I'd like to buy flowers for my wife.",
+  "zh": "嗯,原因是,如果我说,嘿,给我买花,如果我进入我的小聊天工具,说,嘿,我想给我妻子买花。"
+ },
+ {
+  "seg": 135,
+  "start": 638.895,
+  "end": 639.676,
+  "speaker": "Unknown",
+  "en": "It's Mother's Day.",
+  "zh": "是母亲节。 [[106→]]"
+ },
+ {
+  "seg": 136,
+  "start": 639.716,
+  "end": 642.837,
+  "speaker": "Unknown",
+  "en": "She'll get mad at me if I don't buy them and she'll be happy if I do buy them.",
+  "zh": "如果我不买她会生我的气,如果我买了她会开心。"
+ },
+ {
+  "seg": 137,
+  "start": 643.257,
+  "end": 643.978,
+  "speaker": "Unknown",
+  "en": "Please buy them.",
+  "zh": "请买吧。"
+ },
+ {
+  "seg": 138,
+  "start": 644.618,
+  "end": 646.24,
+  "speaker": "Unknown",
+  "en": "I don't want to give my credit card.",
+  "zh": "我不想给我的信用卡。"
+ },
+ {
+  "seg": 139,
+  "start": 646.26,
+  "end": 650.644,
+  "speaker": "Unknown",
+  "en": "Maybe I do want to give my credit card number to, we'll call it chat app.",
+  "zh": "也许我确实想把我的信用卡号给,我们叫它聊天应用吧。"
+ },
+ {
+  "seg": 140,
+  "start": 651.705,
+  "end": 653.447,
+  "speaker": "Unknown",
+  "en": "But they don't want to store it.",
+  "zh": "但他们不想存储它。"
+ },
+ {
+  "seg": 141,
+  "start": 653.687,
+  "end": 657.55,
+  "speaker": "Unknown",
+  "en": "And then even if they do store it, they have to communicate it to the merchant.",
+  "zh": "然后即使他们存储了,他们还必须把它传送给商户。"
+ },
+ {
+  "seg": 142,
+  "start": 658.031,
+  "end": 659.292,
+  "speaker": "Unknown",
+  "en": "And how do they do that?",
+  "zh": "而他们怎么做到呢?"
+ },
+ {
+  "seg": 143,
+  "start": 659.813,
+  "end": 664.117,
+  "speaker": "Unknown",
+  "en": "And like the better option is you have a third party that already knows how to do this.",
+  "zh": "就像,更好的选择是你有一个已经知道怎么做的第三方。"
+ },
+ {
+  "seg": 144,
+  "start": 664.757,
+  "end": 666.278,
+  "speaker": "Unknown",
+  "en": "So you take out of scope.",
+  "zh": "所以你把它划到范围之外。"
+ },
+ {
+  "seg": 145,
+  "start": 666.398,
+  "end": 667.299,
+  "speaker": "Unknown",
+  "en": "I mean, it's interesting.",
+  "zh": "我是说,这很有意思。"
+ },
+ {
+  "seg": 146,
+  "start": 667.879,
+  "end": 677.887,
+  "speaker": "Unknown",
+  "en": "I don't know if most of our audience knows what the PCI DSS rules are, but that's the Payment Card Initiative Digital Security System, if I remember correctly.",
+  "zh": "我不知道我们的听众中大多数是否知道 PCI DSS 规则是什么,但如果我没记错,那是 Payment Card Initiative Digital Security System。"
+ },
+ {
+  "seg": 147,
+  "start": 677.907,
+  "end": 678.367,
+  "speaker": "Unknown",
+  "en": "Very good, Alex.",
+  "zh": "很好,Alex。"
+ },
+ {
+  "seg": 148,
+  "start": 678.387,
+  "end": 678.907,
+  "speaker": "Unknown",
+  "en": "Did I get that right?",
+  "zh": "我说得对吗?"
+ },
+ {
+  "seg": 149,
+  "start": 678.947,
+  "end": 679.068,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 150,
+  "start": 679.968,
+  "end": 681.89,
+  "speaker": "Unknown",
+  "en": "So if you've heard of PCI compliance...",
+  "zh": "所以如果你听说过 PCI 合规……"
+ },
+ {
+  "seg": 151,
+  "start": 682.59,
+  "end": 687.272,
+  "speaker": "Unknown",
+  "en": "That says, well, if you're going to be a merchant and you accept credit cards, there is a document.",
+  "zh": "那上面说的是,好吧,如果你要成为一名商户并且接受信用卡,有一份文件。"
+ },
+ {
+  "seg": 152,
+  "start": 687.292,
+  "end": 695.675,
+  "speaker": "Unknown",
+  "en": "I think last time I read it, it was over 100 pages of all of the rules that you have to do and maintain in order to be PCI compliant.",
+  "zh": "我记得上次读的时候,它超过 100 页,全是你要做并维持才能符合 PCI 合规的规则。"
+ },
+ {
+  "seg": 153,
+  "start": 695.695,
+  "end": 698.136,
+  "speaker": "Unknown",
+  "en": "And why is being PCI compliant very important?",
+  "zh": "那为什么符合 PCI 合规非常重要?"
+ },
+ {
+  "seg": 154,
+  "start": 698.156,
+  "end": 699.157,
+  "speaker": "Unknown",
+  "en": "Because every bank",
+  "zh": "因为每一家银行"
+ },
+ {
+  "seg": 155,
+  "start": 700.055,
+  "end": 700.515,
+  "speaker": "Unknown",
+  "en": "Demands it.",
+  "zh": "都要求它。"
+ },
+ {
+  "seg": 156,
+  "start": 700.936,
+  "end": 703.798,
+  "speaker": "Unknown",
+  "en": "You cannot process credit cards unless you are PCI compliant.",
+  "zh": "你不能处理信用卡,除非你符合 PCI 合规。"
+ },
+ {
+  "seg": 157,
+  "start": 703.818,
+  "end": 706.219,
+  "speaker": "Unknown",
+  "en": "You cannot issue credit cards unless you are PCI compliant.",
+  "zh": "你不能发行信用卡,除非你符合 PCI 合规。"
+ },
+ {
+  "seg": 158,
+  "start": 706.559,
+  "end": 708.301,
+  "speaker": "Unknown",
+  "en": "That's why it's this payment card initiative.",
+  "zh": "这就是为什么它是这个支付卡倡议。"
+ },
+ {
+  "seg": 159,
+  "start": 708.341,
+  "end": 712.483,
+  "speaker": "Unknown",
+  "en": "It's all of the, you know, Visa and MasterCard might be enemies, but on this they agree.",
+  "zh": "你知道的,Visa 和 MasterCard 可能是敌人,但在这件事上他们意见一致。"
+ },
+ {
+  "seg": 160,
+  "start": 712.964,
+  "end": 714.925,
+  "speaker": "Unknown",
+  "en": "You have to be PCI compliant.",
+  "zh": "你必须符合 PCI 合规。"
+ },
+ {
+  "seg": 161,
+  "start": 715.105,
+  "end": 718.928,
+  "speaker": "Unknown",
+  "en": "One of the nice things that VGS takes PCI compliance out of scope.",
+  "zh": "VGS 的好处之一是把 PCI 合规排除出范围。"
+ },
+ {
+  "seg": 162,
+  "start": 719.388,
+  "end": 722.669,
+  "speaker": "Unknown",
+  "en": "So you basically say, I can just run my business like a normal business.",
+  "zh": "所以你基本上可以说,我可以像正常业务一样经营我的业务。"
+ },
+ {
+  "seg": 163,
+  "start": 723.009,
+  "end": 724.97,
+  "speaker": "Unknown",
+  "en": "I don't have to follow these 100 pages of rules.",
+  "zh": "我不必遵循这 100 页的规则。"
+ },
+ {
+  "seg": 164,
+  "start": 725.51,
+  "end": 735.974,
+  "speaker": "Unknown",
+  "en": "VGS just focuses on that, which kind of goes back to, like, I want to buy flowers for my beloved wife, and I want to have my chat application do that for me.",
+  "zh": "VGS 只专注于那个,这有点回到,比如,我想为我挚爱的妻子买花,我想让我的聊天应用替我做这件事。"
+ },
+ {
+  "seg": 165,
+  "start": 736.635,
+  "end": 744.117,
+  "speaker": "Unknown",
+  "en": "Turns out VGS is pretty well positioned here just by being the backend infrastructure, but now can take a pretty vital role in this whole process.",
+  "zh": "结果证明 VGS 在这里处于相当有利的位置,仅仅作为后端基础设施,但现在可以在这整个过程中扮演相当重要的角色。"
+ },
+ {
+  "seg": 166,
+  "start": 744.598,
+  "end": 745.578,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think...",
+  "zh": "是啊,我是说,我觉得……"
+ },
+ {
+  "seg": 167,
+  "start": 747.232,
+  "end": 755.299,
+  "speaker": "Unknown",
+  "en": "In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors.",
+  "zh": "在过去三个月里,我们经历了智能体从我所称的旁观者到智能体成为参与者的巨大飞跃。"
+ },
+ {
+  "seg": 168,
+  "start": 756.36,
+  "end": 757.981,
+  "speaker": "Unknown",
+  "en": "And how do they act on my behalf?",
+  "zh": "而它们如何代表我行动?"
+ },
+ {
+  "seg": 169,
+  "start": 758.041,
+  "end": 768.369,
+  "speaker": "Unknown",
+  "en": "Well, if you give them a payment credential in a safe way, I can go from recommending the flowers for your wife to buying the flowers for your wife.",
+  "zh": "好吧,如果你以安全的方式给它们一个支付凭证,我可以从为你妻子推荐鲜花变成为你妻子购买鲜花。"
+ },
+ {
+  "seg": 170,
+  "start": 768.569,
+  "end": 770.051,
+  "speaker": "Unknown",
+  "en": "So I'll give you an example.",
+  "zh": "所以我给你举个例子。"
+ },
+ {
+  "seg": 171,
+  "start": 770.151,
+  "end": 774.975,
+  "speaker": "Unknown",
+  "en": "Just last night, my wife and I have been talking about getting a piano teacher for our seven-year-old son.",
+  "zh": "就在昨晚,我和我妻子一直在谈论为我们七岁的儿子找一位钢琴老师。"
+ },
+ {
+  "seg": 172,
+  "start": 776.297,
+  "end": 782.343,
+  "speaker": "Unknown",
+  "en": "And it's complicated because you have to know our schedule, and he has soccer three days a week, and we want someone who can come to the house.",
+  "zh": "这很复杂,因为你必须知道我们的日程,他每周有三天踢足球,而且我们想要能上门来的人。"
+ },
+ {
+  "seg": 173,
+  "start": 782.443,
+  "end": 784.225,
+  "speaker": "Unknown",
+  "en": "We have to know the schedule of the piano teacher.",
+  "zh": "我们必须知道钢琴老师的日程。"
+ },
+ {
+  "seg": 174,
+  "start": 785.206,
+  "end": 789.25,
+  "speaker": "Unknown",
+  "en": "And, you know, I asked ChatGPT about this a while ago, and I got some recommendations.",
+  "zh": "你知道的,我之前问过 ChatGPT 这件事,我得到了一些推荐。"
+ },
+ {
+  "seg": 175,
+  "start": 789.29,
+  "end": 791.432,
+  "speaker": "Unknown",
+  "en": "But just last night, I asked an agent.",
+  "zh": "但就在昨晚,我问了一个智能体。"
+ },
+ {
+  "seg": 176,
+  "start": 792.413,
+  "end": 795.915,
+  "speaker": "Unknown",
+  "en": "And it did the entire transaction task for me.",
+  "zh": "它为我完成了整个交易任务。"
+ },
+ {
+  "seg": 177,
+  "start": 796.135,
+  "end": 804.259,
+  "speaker": "Unknown",
+  "en": "It found a bunch of people, asked me a few questions, checked the schedule, and booked someone for the very first lesson.",
+  "zh": "它找到了一群人,问了我几个问题,查对了日程,并为第一节课预约了一个人。"
+ },
+ {
+  "seg": 178,
+  "start": 804.379,
+  "end": 809.422,
+  "speaker": "Unknown",
+  "en": "So that is infinitely more useful than dumping yet another task on my doorstep.",
+  "zh": "所以这比再往我家门口扔一个任务有用得多得多。"
+ },
+ {
+  "seg": 179,
+  "start": 810.022,
+  "end": 818.827,
+  "speaker": "Unknown",
+  "en": "So agents have all of a sudden become significantly more helpful and useful because they effectively have arms and legs, which are payment credentials.",
+  "zh": "所以智能体突然变得显著更有帮助、更有用,因为它们实际上有了手和脚,也就是支付凭证。"
+ },
+ {
+  "seg": 180,
+  "start": 819.067,
+  "end": 820.148,
+  "speaker": "Unknown",
+  "en": "And so what's happened",
+  "zh": "于是发生了什么"
+ },
+ {
+  "seg": 181,
+  "start": 820.948,
+  "end": 831.578,
+  "speaker": "Unknown",
+  "en": "With the rise of, you know, Muse and Instinct and Town and other AI agents is once they have access to payment credentials, their utility increases.",
+  "zh": "随着,你知道,Muse 和 Instinct 和 Town 以及其他 AI 智能体的崛起,一旦它们获得支付凭证的访问权,它们的有用性就增加了。"
+ },
+ {
+  "seg": 182,
+  "start": 832.239,
+  "end": 840.607,
+  "speaker": "Unknown",
+  "en": "And so we sort of have kicked off what I kind of call the wallet wars where every wallet is now rushing to connect to the agents.",
+  "zh": "于是我们有点启动了我称之为钱包大战的东西,现在每个钱包都在竞相连接到智能体。"
+ },
+ {
+  "seg": 183,
+  "start": 841.468,
+  "end": 844.289,
+  "speaker": "Unknown",
+  "en": "And of course, as an agent, I want a wallet that has sort of two things.",
+  "zh": "当然,作为一个智能体,我想要一个大概有两样东西的钱包。"
+ },
+ {
+  "seg": 184,
+  "start": 844.429,
+  "end": 852.932,
+  "speaker": "Unknown",
+  "en": "One, the most number of consumers that already have a credential at that wallet, and a wallet that has a very broad merchant reach.",
+  "zh": "一是已经有该钱包凭证的消费者数量最多,二是拥有非常广泛商户覆盖面的钱包。"
+ },
+ {
+  "seg": 185,
+  "start": 853.132,
+  "end": 857.633,
+  "speaker": "Unknown",
+  "en": "And so, you know, right now, this is sort of companies like Stripe Link.",
+  "zh": "所以,你知道,现在这大概是像 Stripe Link 这样的公司。"
+ },
+ {
+  "seg": 186,
+  "start": 857.833,
+  "end": 863.275,
+  "speaker": "Unknown",
+  "en": "They have about 300 million consumers who have an account at Link, about a million merchants use Link.",
+  "zh": "他们有大约 3 亿在 Link 拥有账户的消费者,大约 100 万商户使用 Link。"
+ },
+ {
+  "seg": 187,
+  "start": 863.875,
+  "end": 870.841,
+  "speaker": "Unknown",
+  "en": "You have Shopify with ShopPay, similar is, you know, consumer size, probably more like 1.7 million merchants.",
+  "zh": "你有带 ShopPay 的 Shopify,类似的,你知道,消费者规模差不多,商户大概更多,可能有 170 万。"
+ },
+ {
+  "seg": 188,
+  "start": 870.981,
+  "end": 871.141,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 189,
+  "start": 871.681,
+  "end": 878.947,
+  "speaker": "Unknown",
+  "en": "Then you have PayPal, which has got, you know, over 400 million accounts, depends on how you kind of, you know, sort of, you know.",
+  "zh": "然后你有 PayPal,它有,你知道,超过 4 亿账户,取决于你如何,你知道,某种程度,你知道……"
+ },
+ {
+  "seg": 190,
+  "start": 880.489,
+  "end": 881.53,
+  "speaker": "Unknown",
+  "en": "How that's actually measured.",
+  "zh": "实际上如何衡量。"
+ },
+ {
+  "seg": 191,
+  "start": 882.131,
+  "end": 884.394,
+  "speaker": "Unknown",
+  "en": "But they have on the order of 30 million merchants.",
+  "zh": "但他们有大约 3000 万商户。"
+ },
+ {
+  "seg": 192,
+  "start": 884.614,
+  "end": 889.92,
+  "speaker": "Unknown",
+  "en": "So these wallets are connecting to the agents and I think are providing a lot more utility.",
+  "zh": "所以这些钱包正在连接到智能体,我认为它们正在提供多得多的有用性。"
+ },
+ {
+  "seg": 193,
+  "start": 890.06,
+  "end": 893.304,
+  "speaker": "Unknown",
+  "en": "So it's interesting though because wallet wars have been around for a while.",
+  "zh": "不过有意思的是,因为钱包大战已经存在一段时间了。"
+ },
+ {
+  "seg": 194,
+  "start": 893.765,
+  "end": 897.99,
+  "speaker": "Unknown",
+  "en": "So remember, not to speak ill of our old employer, remember Vimy?",
+  "zh": "所以记住,不说我们老雇主的坏话,记得 Vimy 吗?"
+ },
+ {
+  "seg": 195,
+  "start": 898.31,
+  "end": 899.571,
+  "speaker": "Unknown",
+  "en": "Yes, v.me.",
+  "zh": "记得,v.me。"
+ },
+ {
+  "seg": 196,
+  "start": 899.791,
+  "end": 900.332,
+  "speaker": "Unknown",
+  "en": "V.me.",
+  "zh": "v.me。"
+ },
+ {
+  "seg": 197,
+  "start": 900.392,
+  "end": 901.333,
+  "speaker": "Unknown",
+  "en": "But it was something before that.",
+  "zh": "但在那之前它叫别的什么。"
+ },
+ {
+  "seg": 198,
+  "start": 901.353,
+  "end": 901.653,
+  "speaker": "Unknown",
+  "en": "I forgot.",
+  "zh": "我忘了。"
+ },
+ {
+  "seg": 199,
+  "start": 901.693,
+  "end": 902.994,
+  "speaker": "Unknown",
+  "en": "They changed the name to v.me.",
+  "zh": "他们把名字改成了 v.me。"
+ },
+ {
+  "seg": 200,
+  "start": 903.014,
+  "end": 904.735,
+  "speaker": "Unknown",
+  "en": "But there have been many attempts.",
+  "zh": "但是已经有过很多次尝试了。"
+ },
+ {
+  "seg": 201,
+  "start": 904.796,
+  "end": 907.438,
+  "speaker": "Unknown",
+  "en": "Like, why were there wallet wars 10 or 15 years ago?",
+  "zh": "比如，为什么 10 到 15 年前会有钱包大战？"
+ },
+ {
+  "seg": 202,
+  "start": 907.478,
+  "end": 911.882,
+  "speaker": "Unknown",
+  "en": "Because it turns out that being the default stored credential for a consumer",
+  "zh": "因为事实证明，成为消费者的默认存储凭证"
+ },
+ {
+  "seg": 203,
+  "start": 912.822,
+  "end": 918.107,
+  "speaker": "Unknown",
+  "en": "Like if I can get trained in a Pavlovian way where it's like, oh, I see flowers, I use PayPal.",
+  "zh": "比如说我能像巴甫洛夫条件反射那样被训练成：哦，我看到花，我就用 PayPal。"
+ },
+ {
+  "seg": 204,
+  "start": 918.668,
+  "end": 920.329,
+  "speaker": "Unknown",
+  "en": "Well, PayPal is better off for that.",
+  "zh": "那么 PayPal 就因此受益了。"
+ },
+ {
+  "seg": 205,
+  "start": 920.39,
+  "end": 921.27,
+  "speaker": "Unknown",
+  "en": "That's correct.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 206,
+  "start": 921.491,
+  "end": 932.902,
+  "speaker": "Unknown",
+  "en": "Or one of the things that we worked on at TrialPay was how does a Visa, it's very good for Visa, it's very good for Visa's issuing banks, if the default card in your Uber wallet, because Uber is a wallet too.",
+  "zh": "或者说，我们在 TrialPay 做过的事情之一就是，Visa 会怎样，这对 Visa 非常有利，对 Visa 的发卡银行也非常有利，如果你 Uber 钱包里的默认卡是它的，因为 Uber 也是一个钱包。"
+ },
+ {
+  "seg": 207,
+  "start": 933.062,
+  "end": 933.202,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 208,
+  "start": 933.442,
+  "end": 936.686,
+  "speaker": "Unknown",
+  "en": "You can store eight different cards or credentials within Uber.",
+  "zh": "你可以在 Uber 里存储八张不同的卡或凭证。"
+ },
+ {
+  "seg": 209,
+  "start": 937.086,
+  "end": 948.298,
+  "speaker": "Unknown",
+  "en": "Being the top of wallet is very, very important because when digital wallets came out, like I kind of like to think before digital wallets, you had what I like to call dead cow wallets, you know, an actual, I think I have one here.",
+  "zh": "成为钱包置顶（top of wallet）是非常非常关键的，因为当数字钱包出现时——我有点喜欢这样想：在数字钱包之前，你有我喜欢称之为“死牛皮钱包”的东西，你知道吗，一个实物，我想我这里就有一个。"
+ },
+ {
+  "seg": 210,
+  "start": 948.678,
+  "end": 950.059,
+  "speaker": "Unknown",
+  "en": "I'll give a demo to our audience.",
+  "zh": "我给我们的观众演示一下。"
+ },
+ {
+  "seg": 211,
+  "start": 950.099,
+  "end": 951.439,
+  "speaker": "Unknown",
+  "en": "This is called a dead cow wallet.",
+  "zh": "这个就叫“死牛皮钱包”。"
+ },
+ {
+  "seg": 212,
+  "start": 952.06,
+  "end": 954.121,
+  "speaker": "Unknown",
+  "en": "It has lots of credentials in there.",
+  "zh": "里面装着好多凭证。"
+ },
+ {
+  "seg": 213,
+  "start": 955.161,
+  "end": 961.304,
+  "speaker": "Unknown",
+  "en": "But before Capital One would pay Samuel L. Jackson to say what's in your wallet, why would they do that?",
+  "zh": "但在 Capital One 花钱请 Samuel L. Jackson 说“你钱包里装的是什么”之前，他们为什么要那么做？"
+ },
+ {
+  "seg": 214,
+  "start": 961.444,
+  "end": 967.047,
+  "speaker": "Unknown",
+  "en": "Because when you go to Chipotle, they want you to pull out your dead cow wallet and say, like, I'm going to pay with my Capital One card.",
+  "zh": "因为当你去 Chipotle 时，他们希望你掏出你的死牛皮钱包说，比如，我要用我的 Capital One 卡付款。"
+ },
+ {
+  "seg": 215,
+  "start": 967.107,
+  "end": 967.267,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 216,
+  "start": 967.547,
+  "end": 967.707,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 217,
+  "start": 967.727,
+  "end": 976.314,
+  "speaker": "Unknown",
+  "en": "And that was the, whereas for when digital wallets emerged, it's like, I'm ShopPay, I'm PayPal, I want to be your default.",
+  "zh": "而当数字钱包出现时，就变成了：我是 ShopPay，我是 PayPal，我想成为你的默认选项。"
+ },
+ {
+  "seg": 218,
+  "start": 976.454,
+  "end": 982.619,
+  "speaker": "Unknown",
+  "en": "And then actually what the interesting thing is like within that wallet, there were other credentials and those guys were competing to be the number one.",
+  "zh": "而且实际上有趣的是，在那个钱包内部，还有其他凭证，而那些人也在竞争成为第一名。"
+ },
+ {
+  "seg": 219,
+  "start": 982.679,
+  "end": 982.859,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 220,
+  "start": 982.879,
+  "end": 992.986,
+  "speaker": "Unknown",
+  "en": "If you recall at Visa, when we were dealing with Uber and Airbnb, there was tens of millions of dollars paid by the issuers.",
+  "zh": "如果你还记得，在 Visa 处理 Uber 和 Airbnb 的时候，发卡机构付了数千万美元。"
+ },
+ {
+  "seg": 221,
+  "start": 993.006,
+  "end": 994.628,
+  "speaker": "Unknown",
+  "en": "So like Chase and Amex.",
+  "zh": "比如大通（Chase）和美国运通（Amex）。"
+ },
+ {
+  "seg": 222,
+  "start": 995.466,
+  "end": 998.227,
+  "speaker": "Unknown",
+  "en": "to prefer their cards on those platforms.",
+  "zh": "就为了让它们的卡在这些平台上被优先选择。"
+ },
+ {
+  "seg": 223,
+  "start": 998.407,
+  "end": 1001.508,
+  "speaker": "Unknown",
+  "en": "So that's one war, which is like, this is my card.",
+  "zh": "所以这是一场战争，就是：这是我的卡。"
+ },
+ {
+  "seg": 224,
+  "start": 1001.688,
+  "end": 1006.429,
+  "speaker": "Unknown",
+  "en": "I want to sort of promote this to the top of wallet.",
+  "zh": "我想把它推广到钱包置顶的位置。"
+ },
+ {
+  "seg": 225,
+  "start": 1006.63,
+  "end": 1013.232,
+  "speaker": "Unknown",
+  "en": "You're talking about the actual network war where Visa and we helped Visa become a default card at Uber.",
+  "zh": "你说的是真正的网络之战，当时我们帮 Visa 成为了 Uber 的默认卡。"
+ },
+ {
+  "seg": 226,
+  "start": 1013.872,
+  "end": 1023.355,
+  "speaker": "Unknown",
+  "en": "And now you have this other layer, this abstraction layer of IMA wallet that actually processes the transaction, the ShopPays, the Links, and the PayPals.",
+  "zh": "而现在你又有了另一层，这个抽象层，即 IMA 钱包，它实际处理交易——那些 ShopPay、Link 和 PayPal。"
+ },
+ {
+  "seg": 227,
+  "start": 1024.115,
+  "end": 1030.298,
+  "speaker": "Unknown",
+  "en": "And so we talked about how a checkout looks like a bit like NASCAR because you have multiple different buttons.",
+  "zh": "所以我们说过，结账页面看起来有点像 NASCAR（赛车），因为你有好几个不同的按钮。"
+ },
+ {
+  "seg": 228,
+  "start": 1030.418,
+  "end": 1033.839,
+  "speaker": "Unknown",
+  "en": "Pay with PayPal, pay with Google, remember Google Checkout came out along?",
+  "zh": "用 PayPal 支付、用 Google 支付，还记得 Google Checkout 当年也出来了吗？"
+ },
+ {
+  "seg": 229,
+  "start": 1034.559,
+  "end": 1038.661,
+  "speaker": "Unknown",
+  "en": "They were yet another, but they're like, they're consumer wallets and then they're merchant.",
+  "zh": "它们又是另一个，不过它们是消费者钱包，然后还有商户的。"
+ },
+ {
+  "seg": 230,
+  "start": 1038.701,
+  "end": 1043.243,
+  "speaker": "Unknown",
+  "en": "Because the interesting thing is that I kind of think of VGS as a merchant wallet to an extent.",
+  "zh": "因为有趣的是，我在某种程度上把 VGS 也看作一种商户钱包。"
+ },
+ {
+  "seg": 231,
+  "start": 1043.863,
+  "end": 1049.426,
+  "speaker": "Unknown",
+  "en": "I mean, like, it's a strange metaphor to use because a merchant isn't paying for things, a merchant is receiving payments.",
+  "zh": "我是说，这个比喻有点奇怪，因为商户不是付款的一方，商户是收款的一方。"
+ },
+ {
+  "seg": 232,
+  "start": 1049.986,
+  "end": 1056.05,
+  "speaker": "Unknown",
+  "en": "But once I receive the payment, where do I put it, especially if I'm billing this customer again and again and again?",
+  "zh": "但一旦我收到付款，我把它放在哪里呢？尤其是当我要一次又一次地向这个客户收费的时候？"
+ },
+ {
+  "seg": 233,
+  "start": 1056.591,
+  "end": 1068.398,
+  "speaker": "Unknown",
+  "en": "And again, for PCI reasons and whatnot, I don't want to store scraps of paper with that secret three-digit code that, of course, is not secret because it's on the back of your card, but I need it to process it.",
+  "zh": "而且同样，出于 PCI 等各种原因，我不想存那些写着那个秘密三位数代码的碎纸片——当然，它并不秘密，因为它就印在你卡的背面，但我处理付款需要它。"
+ },
+ {
+  "seg": 234,
+  "start": 1068.499,
+  "end": 1073.242,
+  "speaker": "Unknown",
+  "en": "I don't want to store your 16-digit credential and just keep it in scraps of paper in my...",
+  "zh": "我不想存储你的 16 位凭证，然后把它当作碎纸片放在我的……"
+ },
+ {
+  "seg": 235,
+  "start": 1075.223,
+  "end": 1076.923,
+  "speaker": "Unknown",
+  "en": "Original cash register.",
+  "zh": "原始收银机里。"
+ },
+ {
+  "seg": 236,
+  "start": 1076.983,
+  "end": 1079.364,
+  "speaker": "Unknown",
+  "en": "Like, I need something to go receive that for me.",
+  "zh": "就是说，我需要有个东西替我去接收它。"
+ },
+ {
+  "seg": 237,
+  "start": 1079.404,
+  "end": 1082.404,
+  "speaker": "Unknown",
+  "en": "On the consumer side, it's like, I don't want to remember.",
+  "zh": "在消费者这一边，则是：我不想记住。"
+ },
+ {
+  "seg": 238,
+  "start": 1082.424,
+  "end": 1084.825,
+  "speaker": "Unknown",
+  "en": "Like, what was the original purpose of a consumer wallet?",
+  "zh": "比如，消费者钱包最初的用途是什么？"
+ },
+ {
+  "seg": 239,
+  "start": 1085.225,
+  "end": 1087.045,
+  "speaker": "Unknown",
+  "en": "It's that it's 2 o'clock in the morning.",
+  "zh": "就是现在是凌晨两点。"
+ },
+ {
+  "seg": 240,
+  "start": 1087.345,
+  "end": 1088.746,
+  "speaker": "Unknown",
+  "en": "I want to buy flowers for my wife.",
+  "zh": "我想给我妻子买花。"
+ },
+ {
+  "seg": 241,
+  "start": 1089.186,
+  "end": 1090.446,
+  "speaker": "Unknown",
+  "en": "My wallet's downstairs.",
+  "zh": "我的钱包在楼下。"
+ },
+ {
+  "seg": 242,
+  "start": 1090.806,
+  "end": 1092.166,
+  "speaker": "Unknown",
+  "en": "Like, I don't know where my wallet is.",
+  "zh": "就是说，我不知道我钱包在哪。"
+ },
+ {
+  "seg": 243,
+  "start": 1092.306,
+  "end": 1094.867,
+  "speaker": "Unknown",
+  "en": "I want to go pay on 1-800-Flowers right now.",
+  "zh": "我现在就想在 1-800-Flowers 上付款。"
+ },
+ {
+  "seg": 244,
+  "start": 1095.247,
+  "end": 1101.308,
+  "speaker": "Unknown",
+  "en": "And if I just enter my PayPal credentials, they were a wrapper and linked to all of my kind of",
+  "zh": "而如果我只要输入我的 PayPal 凭证，它们就是一个包装层，链接到我所有的那些……"
+ },
+ {
+  "seg": 245,
+  "start": 1101.748,
+  "end": 1103.67,
+  "speaker": "Unknown",
+  "en": "All the credentials in my dead cow wallet.",
+  "zh": "我死牛皮钱包里的所有凭证。"
+ },
+ {
+  "seg": 246,
+  "start": 1103.69,
+  "end": 1105.211,
+  "speaker": "Unknown",
+  "en": "That was the purpose back then.",
+  "zh": "那就是当年的用途。"
+ },
+ {
+  "seg": 247,
+  "start": 1105.612,
+  "end": 1109.035,
+  "speaker": "Unknown",
+  "en": "But what I find interesting with all of agentic commerce is it's kind of the same thing.",
+  "zh": "但我觉得有趣的是，整个智能体商务（agentic commerce）其实也是同一回事。"
+ },
+ {
+  "seg": 248,
+  "start": 1109.635,
+  "end": 1111.857,
+  "speaker": "Unknown",
+  "en": "It's like, you know, it's still 2 o'clock in the morning.",
+  "zh": "就是说，你看，还是凌晨两点。"
+ },
+ {
+  "seg": 249,
+  "start": 1111.877,
+  "end": 1118.163,
+  "speaker": "Unknown",
+  "en": "You know, you still want to buy flowers for your wife or something bad that you did or, you know, Mother's Day or whatever.",
+  "zh": "你还是想给你妻子买花，或者是为你做过的什么坏事、又或者是母亲节之类的。"
+ },
+ {
+  "seg": 250,
+  "start": 1118.243,
+  "end": 1118.903,
+  "speaker": "Unknown",
+  "en": "Something good, Alex.",
+  "zh": "好事,Alex。"
+ },
+ {
+  "seg": 251,
+  "start": 1119.164,
+  "end": 1120.125,
+  "speaker": "Unknown",
+  "en": "Something good, right?",
+  "zh": "好事,对吧?"
+ },
+ {
+  "seg": 252,
+  "start": 1120.225,
+  "end": 1121.746,
+  "speaker": "Unknown",
+  "en": "You know, always time to buy flowers.",
+  "zh": "你知道,买花永远有时间。"
+ },
+ {
+  "seg": 253,
+  "start": 1121.766,
+  "end": 1124.609,
+  "speaker": "Unknown",
+  "en": "I mean, make sure we're sponsored by 1-800-Flowers, so make sure to buy there.",
+  "zh": "我的意思是,确保我们有 1-800-Flowers 赞助,所以记得在那里买。"
+ },
+ {
+  "seg": 254,
+  "start": 1125.529,
+  "end": 1127.912,
+  "speaker": "Unknown",
+  "en": "So you want to go buy, and your agent...",
+  "zh": "所以你想去买东西,而你的智能体……"
+ },
+ {
+  "seg": 255,
+  "start": 1128.512,
+  "end": 1129.673,
+  "speaker": "Unknown",
+  "en": "doesn't have access.",
+  "zh": "没有访问权限。"
+ },
+ {
+  "seg": 256,
+  "start": 1129.713,
+  "end": 1131.114,
+  "speaker": "Unknown",
+  "en": "Like, it's the same problem, right?",
+  "zh": "就像,这是同一个问题,对吧?"
+ },
+ {
+  "seg": 257,
+  "start": 1131.134,
+  "end": 1134.677,
+  "speaker": "Unknown",
+  "en": "It's like the agent could say, hey, Terry, where is your credit card number?",
+  "zh": "就像智能体可能会说,嘿,Terry,你的信用卡号是多少?"
+ },
+ {
+  "seg": 258,
+  "start": 1134.717,
+  "end": 1146.946,
+  "speaker": "Unknown",
+  "en": "And that's more work and more friction versus it has access to it in the same way that you just gave access to all of your cards, all of your bank accounts to PayPal to reduce the friction when you were doing things manually 15 years ago.",
+  "zh": "那是更多的工作和更多的摩擦,而不是让它拥有访问权限,就像你 15 年前为了减少手动操作时的摩擦,把你所有的卡、所有的银行账户都授权给了 PayPal 一样。"
+ },
+ {
+  "seg": 259,
+  "start": 1147.186,
+  "end": 1147.366,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 260,
+  "start": 1148.207,
+  "end": 1150.929,
+  "speaker": "Unknown",
+  "en": "And look, I think the word wallet is a bit overused.",
+  "zh": "你看,我觉得“钱包”这个词有点被过度使用了。"
+ },
+ {
+  "seg": 261,
+  "start": 1150.949,
+  "end": 1152.71,
+  "speaker": "Unknown",
+  "en": "There's sort of different versions of it.",
+  "zh": "它有几种不同的版本。"
+ },
+ {
+  "seg": 262,
+  "start": 1152.89,
+  "end": 1160.236,
+  "speaker": "Unknown",
+  "en": "One is the digital version of your dead cow wallet, which is that it just stores the payment credential.",
+  "zh": "一种是你的“死牛钱包”的数字版本,就是它只存储支付凭证。"
+ },
+ {
+  "seg": 263,
+  "start": 1161.277,
+  "end": 1165.34,
+  "speaker": "Unknown",
+  "en": "And when you go to a merchant, you hand that credential to the merchant, all right?",
+  "zh": "当你去商家那里时,你把那个凭证交给商家,明白吗?"
+ },
+ {
+  "seg": 264,
+  "start": 1165.36,
+  "end": 1166.721,
+  "speaker": "Unknown",
+  "en": "That's kind of what Apple Pay does, right?",
+  "zh": "这大概就是 Apple Pay 做的事,对吧?"
+ },
+ {
+  "seg": 265,
+  "start": 1167.281,
+  "end": 1168.642,
+  "speaker": "Unknown",
+  "en": "When I shop at a store with Apple Pay,",
+  "zh": "当我在商店用 Apple Pay 购物时,"
+ },
+ {
+  "seg": 266,
+  "start": 1171.184,
+  "end": 1177.829,
+  "speaker": "Unknown",
+  "en": "Apple is effectively giving My Capital One Visa card, effectively tokenized in the wallet, to the merchant.",
+  "zh": "Apple 实际上是在把我的 Capital One Visa 卡——实际上是在钱包里被令牌化了的——交给商家。"
+ },
+ {
+  "seg": 267,
+  "start": 1178.45,
+  "end": 1186.216,
+  "speaker": "Unknown",
+  "en": "The merchant receives this credential and it decides whether it processes it through Chase or Adyen or Stripe or Braintree.",
+  "zh": "商家收到这个凭证,然后决定是通过 Chase 还是 Adyen 还是 Stripe 还是 Braintree 来处理。"
+ },
+ {
+  "seg": 268,
+  "start": 1187.477,
+  "end": 1190.838,
+  "speaker": "Unknown",
+  "en": "Then you have wallets that actually take care of the transaction for you.",
+  "zh": "然后还有那种真正替你完成交易的钱包。"
+ },
+ {
+  "seg": 269,
+  "start": 1190.918,
+  "end": 1201.5,
+  "speaker": "Unknown",
+  "en": "So think about ShopPay or Link or PayPal, where the wallet is in fact transacting with me, collecting the money from me and remitting that back to the merchant.",
+  "zh": "比如想想 ShopPay 或者 Link 或者 PayPal,钱包实际上是在和我交易,从我这里收款,然后把款项汇给商家。"
+ },
+ {
+  "seg": 270,
+  "start": 1201.58,
+  "end": 1207.561,
+  "speaker": "Unknown",
+  "en": "And what's happening with Agentech Commerce is we're sort of getting this sort of blend of the two.",
+  "zh": "而智能体商务（Agentech Commerce）正在发生的事情是,我们大致得到了两者的某种混合体。"
+ },
+ {
+  "seg": 271,
+  "start": 1207.841,
+  "end": 1209.802,
+  "speaker": "Unknown",
+  "en": "And it's such a new ecosystem.",
+  "zh": "而且这是一个非常新的生态系统。"
+ },
+ {
+  "seg": 272,
+  "start": 1210.662,
+  "end": 1214.104,
+  "speaker": "Unknown",
+  "en": "That it actually has parallels for me back to the early days of the internet.",
+  "zh": "以至于对我来说,它实际上可以类比到互联网早期。"
+ },
+ {
+  "seg": 273,
+  "start": 1214.524,
+  "end": 1223.508,
+  "speaker": "Unknown",
+  "en": "And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce.",
+  "zh": "对于那些经历过 AOL 时代的人来说,Stripe 在很多方面就像是智能体商务领域的 AOL。"
+ },
+ {
+  "seg": 274,
+  "start": 1224.308,
+  "end": 1231.832,
+  "speaker": "Unknown",
+  "en": "And I mean that as a compliment in the sense that they figured out how to make agentic commerce just work.",
+  "zh": "我说这是夸奖,意思是他们想明白了如何让智能体商务直接就能运作。"
+ },
+ {
+  "seg": 275,
+  "start": 1232.928,
+  "end": 1237.489,
+  "speaker": "Unknown",
+  "en": "In a way, that's a very kind of, you know, sort of, you know, walled garden approach.",
+  "zh": "以一种非常,你知道,那种,你知道,“围墙花园”的方式。"
+ },
+ {
+  "seg": 276,
+  "start": 1237.529,
+  "end": 1244.412,
+  "speaker": "Unknown",
+  "en": "So, you know, a few examples here would be, if I use Stripe Link, Link's only available at a million merchants.",
+  "zh": "所以,你知道,这里有几个例子,如果我用 Stripe Link,Link 只在一百万家商家可用。"
+ },
+ {
+  "seg": 277,
+  "start": 1244.612,
+  "end": 1249.773,
+  "speaker": "Unknown",
+  "en": "So it's great if, in fact, the item that I want is available at one of those million merchants.",
+  "zh": "所以,如果我想要的商品恰好在那100万家商家之一有售,那就很棒。"
+ },
+ {
+  "seg": 278,
+  "start": 1249.893,
+  "end": 1255.435,
+  "speaker": "Unknown",
+  "en": "But very often, it's available at some place where there isn't a Stripe Link connection.",
+  "zh": "但很多时候,它是在某个没有 Stripe Link 连接的地方有售。"
+ },
+ {
+  "seg": 279,
+  "start": 1255.455,
+  "end": 1257.556,
+  "speaker": "Unknown",
+  "en": "So a good example was, I think two weeks ago,",
+  "zh": "一个很好的例子是,我想是两周前,"
+ },
+ {
+  "seg": 280,
+  "start": 1258.236,
+  "end": 1259.377,
+  "speaker": "Unknown",
+  "en": "I had this event at my house.",
+  "zh": "我家里有个活动。"
+ },
+ {
+  "seg": 281,
+  "start": 1259.657,
+  "end": 1261.238,
+  "speaker": "Unknown",
+  "en": "I wanted to buy some outdoor lights.",
+  "zh": "我想买一些户外灯。"
+ },
+ {
+  "seg": 282,
+  "start": 1261.818,
+  "end": 1264.94,
+  "speaker": "Unknown",
+  "en": "And I asked Instinct to go and help me find these lights.",
+  "zh": "我让 Instinct 去帮我找这些灯。"
+ },
+ {
+  "seg": 283,
+  "start": 1265.94,
+  "end": 1268.462,
+  "speaker": "Unknown",
+  "en": "And it found the lights at Walmart, which makes a ton of sense.",
+  "zh": "它在 Walmart 找到了这些灯,这非常合理。"
+ },
+ {
+  "seg": 284,
+  "start": 1268.482,
+  "end": 1269.863,
+  "speaker": "Unknown",
+  "en": "Walmart has lots of inventory.",
+  "zh": "Walmart 有很多库存。"
+ },
+ {
+  "seg": 285,
+  "start": 1270.883,
+  "end": 1273.525,
+  "speaker": "Unknown",
+  "en": "And the agent went, loaded the cart.",
+  "zh": "智能体就去把购物车装好了。"
+ },
+ {
+  "seg": 286,
+  "start": 1274.065,
+  "end": 1278.968,
+  "speaker": "Unknown",
+  "en": "And when it came time to pay, Link didn't have a connection to Walmart.",
+  "zh": "到了付款的时候,Link 没有与 Walmart 的连接。"
+ },
+ {
+  "seg": 287,
+  "start": 1280.33,
+  "end": 1285.012,
+  "speaker": "Unknown",
+  "en": "Link has my card, but it can't just give my card over to the agent and over to Walmart.",
+  "zh": "Link 有我的卡,但它不能直接把我的卡交给智能体再交给 Walmart。"
+ },
+ {
+  "seg": 288,
+  "start": 1285.132,
+  "end": 1287.633,
+  "speaker": "Unknown",
+  "en": "So Stripe did something pretty interesting.",
+  "zh": "所以 Stripe 做了一件相当有意思的事。"
+ },
+ {
+  "seg": 289,
+  "start": 1288.334,
+  "end": 1291.475,
+  "speaker": "Unknown",
+  "en": "They purchased the chandeliers on my behalf.",
+  "zh": "他们代我购买了那些吊灯。"
+ },
+ {
+  "seg": 290,
+  "start": 1292.396,
+  "end": 1303.02,
+  "speaker": "Unknown",
+  "en": "They issued their own, actually, this is like a Visa virtual card, one-time-use card, made the purchase, and then they charged me, Terry, at a second transaction.",
+  "zh": "他们发行了自己的——实际上,这是一张 Visa 虚拟卡,一次性使用的卡,完成了购买,然后在第二笔交易中向我 Terry 收费。"
+ },
+ {
+  "seg": 291,
+  "start": 1303.04,
+  "end": 1305.081,
+  "speaker": "Unknown",
+  "en": "This is a little bit how, like, DoorDash works today.",
+  "zh": "这有点像今天 DoorDash 的运作方式。"
+ },
+ {
+  "seg": 292,
+  "start": 1305.101,
+  "end": 1308.043,
+  "speaker": "Unknown",
+  "en": "You know, you, like, spend a hundred bucks at DoorDash, and then the Dasher",
+  "zh": "你知道,你在 DoorDash 上花了一百块,然后那个 Dasher"
+ },
+ {
+  "seg": 293,
+  "start": 1308.603,
+  "end": 1311.567,
+  "speaker": "Unknown",
+  "en": "It goes in and pays the restaurant.",
+  "zh": "进去把钱付给餐厅。"
+ },
+ {
+  "seg": 294,
+  "start": 1312.769,
+  "end": 1318.477,
+  "speaker": "Unknown",
+  "en": "But in the case of this Walmart transaction, this is the point about it sort of being the AOL, it worked just great.",
+  "zh": "但就这次 Walmart 交易而言,这就是它有点像 AOL 的关键之处——它运作得非常好。"
+ },
+ {
+  "seg": 295,
+  "start": 1318.557,
+  "end": 1323.784,
+  "speaker": "Unknown",
+  "en": "Like actually, the item showed up, the transaction went through, I was charged the right amount.",
+  "zh": "实际上,商品送到了,交易完成了,我被收了正确的金额。"
+ },
+ {
+  "seg": 296,
+  "start": 1324.995,
+  "end": 1332.881,
+  "speaker": "Unknown",
+  "en": "But if there's a problem with the chandelier, typically I call up my bank, Capital One, and I say, hey, I had this transaction with Walmart.",
+  "zh": "但如果吊灯有问题,通常我会打电话给我的银行 Capital One,说,嘿,我有一笔和 Walmart 的交易。"
+ },
+ {
+  "seg": 297,
+  "start": 1333.481,
+  "end": 1335.122,
+  "speaker": "Unknown",
+  "en": "Something went wrong.",
+  "zh": "出了点问题。"
+ },
+ {
+  "seg": 298,
+  "start": 1335.142,
+  "end": 1338.385,
+  "speaker": "Unknown",
+  "en": "And they say, well, we don't see a Walmart transaction here.",
+  "zh": "然后他们说,呃,我们这里看不到 Walmart 的交易。"
+ },
+ {
+  "seg": 299,
+  "start": 1338.405,
+  "end": 1339.566,
+  "speaker": "Unknown",
+  "en": "We just see a Stripe transaction.",
+  "zh": "我们只看到一笔 Stripe 的交易。"
+ },
+ {
+  "seg": 300,
+  "start": 1339.586,
+  "end": 1341.687,
+  "speaker": "Unknown",
+  "en": "In fact, you will find this pretty funny.",
+  "zh": "事实上,你会觉得这件事挺好笑的。"
+ },
+ {
+  "seg": 301,
+  "start": 1341.707,
+  "end": 1349.132,
+  "speaker": "Unknown",
+  "en": "I know someone who, in the sort of testing phase, did this exact flow on their Amex card.",
+  "zh": "我认识一个人,在某种测试阶段,用他的 Amex 卡走了完全一样的流程。"
+ },
+ {
+  "seg": 302,
+  "start": 1350.053,
+  "end": 1356.559,
+  "speaker": "Unknown",
+  "en": "Called up Amex and said, hey, you know, this transaction with the merchant didn't go through, but Amex only saw Stripe.",
+  "zh": "他打电话给 Amex 说,嘿,你知道,和那个商户的这笔交易没成功,但 Amex 只看到了 Stripe。"
+ },
+ {
+  "seg": 303,
+  "start": 1357.52,
+  "end": 1362.845,
+  "speaker": "Unknown",
+  "en": "So they gave them a phone number to call whoever this link merchant is.",
+  "zh": "于是他们给了他一个电话号码,让他打给这个关联商户。"
+ },
+ {
+  "seg": 304,
+  "start": 1363.665,
+  "end": 1367.289,
+  "speaker": "Unknown",
+  "en": "The person called them, it went straight to the cell phone of a Stripe engineer.",
+  "zh": "这个人打过去,直接接到了一位 Stripe 工程师的手机上。"
+ },
+ {
+  "seg": 305,
+  "start": 1367.649,
+  "end": 1370.552,
+  "speaker": "Unknown",
+  "en": "Because Stripe's not set up to run a chargeback call.",
+  "zh": "因为 Stripe 没有设置过处理拒付电话的部门。"
+ },
+ {
+  "seg": 306,
+  "start": 1371.092,
+  "end": 1382.427,
+  "speaker": "Unknown",
+  "en": "One of the reasons why Visa and MasterCard have such impregnable positions is because they intermediate everything and they set the rules and chargebacks are very important.",
+  "zh": "Visa 和 MasterCard 之所以有如此牢不可破的地位,原因之一就是它们居间协调一切,它们制定规则,而拒付机制非常重要。"
+ },
+ {
+  "seg": 307,
+  "start": 1382.447,
+  "end": 1384.149,
+  "speaker": "Unknown",
+  "en": "What if I paid for something?",
+  "zh": "如果我买了东西呢?"
+ },
+ {
+  "seg": 308,
+  "start": 1384.229,
+  "end": 1385.25,
+  "speaker": "Unknown",
+  "en": "It's a trust mechanism.",
+  "zh": "这是一个信任机制。"
+ },
+ {
+  "seg": 309,
+  "start": 1385.991,
+  "end": 1387.072,
+  "speaker": "Unknown",
+  "en": "I pay you for something.",
+  "zh": "我付钱给你买东西。"
+ },
+ {
+  "seg": 310,
+  "start": 1387.093,
+  "end": 1387.994,
+  "speaker": "Unknown",
+  "en": "I pay you for lights.",
+  "zh": "我付钱买灯。"
+ },
+ {
+  "seg": 311,
+  "start": 1388.114,
+  "end": 1389.255,
+  "speaker": "Unknown",
+  "en": "You don't deliver the lights.",
+  "zh": "你没有把灯送来。"
+ },
+ {
+  "seg": 312,
+  "start": 1389.996,
+  "end": 1391.778,
+  "speaker": "Unknown",
+  "en": "Like, oh, shoot, I don't have money anymore.",
+  "zh": "比如,哦,糟了,我的钱已经没了。"
+ },
+ {
+  "seg": 313,
+  "start": 1391.838,
+  "end": 1392.258,
+  "speaker": "Unknown",
+  "en": "What do I do?",
+  "zh": "我该怎么办?"
+ },
+ {
+  "seg": 314,
+  "start": 1392.318,
+  "end": 1392.799,
+  "speaker": "Unknown",
+  "en": "No, no, no.",
+  "zh": "不,不,不。"
+ },
+ {
+  "seg": 315,
+  "start": 1392.899,
+  "end": 1397.163,
+  "speaker": "Unknown",
+  "en": "You actually have rules by which I can kind of lodge a complaint.",
+  "zh": "实际上有一套规则,我大致可以据此提出申诉。"
+ },
+ {
+  "seg": 316,
+  "start": 1397.764,
+  "end": 1406.392,
+  "speaker": "Unknown",
+  "en": "And then there is a central intermediary that helps adjudicate those complaints in a way that is more or less fair, that both parties agree.",
+  "zh": "然后有一个中心化的中介帮助裁决这些申诉,以一种或多或少公平的、双方都认可的方式。"
+ },
+ {
+  "seg": 317,
+  "start": 1406.433,
+  "end": 1407.454,
+  "speaker": "Unknown",
+  "en": "I mean, it's part of the problem.",
+  "zh": "我的意思是,这是问题的一部分。"
+ },
+ {
+  "seg": 318,
+  "start": 1407.474,
+  "end": 1411.898,
+  "speaker": "Unknown",
+  "en": "Like, this is why crypto, cool, but like, it's a bearer instrument.",
+  "zh": "比如,这就是为什么加密货币,很酷,但是,它是一种不记名工具。"
+ },
+ {
+  "seg": 319,
+  "start": 1411.958,
+  "end": 1412.659,
+  "speaker": "Unknown",
+  "en": "I pay you with crypto.",
+  "zh": "我用加密货币付钱给你。"
+ },
+ {
+  "seg": 320,
+  "start": 1412.699,
+  "end": 1413.9,
+  "speaker": "Unknown",
+  "en": "I'm never getting that back.",
+  "zh": "我永远拿不回那笔钱了。"
+ },
+ {
+  "seg": 321,
+  "start": 1413.92,
+  "end": 1418.402,
+  "speaker": "Unknown",
+  "en": "Which, again, can be a bug or a feature, but for your lights example, like what if the lights don't work?",
+  "zh": "这可以是缺陷也可以是特性,但拿你买灯的例子来说,如果灯不好用怎么办?"
+ },
+ {
+  "seg": 322,
+  "start": 1418.742,
+  "end": 1421.383,
+  "speaker": "Unknown",
+  "en": "You want to have Visa and MasterCard in the middle.",
+  "zh": "你会希望 Visa 和 MasterCard 在中间。"
+ },
+ {
+  "seg": 323,
+  "start": 1421.583,
+  "end": 1432.288,
+  "speaker": "Unknown",
+  "en": "That's high, high utility, actually even for the merchant, because now I'm much more willing to buy with a merchant knowing that if they don't actually deliver a product that works, I can get my money back.",
+  "zh": "这有很高的、很高的效用,实际上对商户也是如此,因为当我确信如果商家没有真正交付可用的产品我就能拿回钱时,我会更愿意在他们那里购物。"
+ },
+ {
+  "seg": 324,
+  "start": 1432.368,
+  "end": 1432.548,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 325,
+  "start": 1432.868,
+  "end": 1434.889,
+  "speaker": "Unknown",
+  "en": "So that trust mechanism is very important.",
+  "zh": "所以这种信任机制非常重要。"
+ },
+ {
+  "seg": 326,
+  "start": 1435.109,
+  "end": 1443.732,
+  "speaker": "Unknown",
+  "en": "But again, if you add all these kind of interesting and very clever engineering steps, it just, the purpose, it doesn't work as well.",
+  "zh": "但话说回来,如果你加上所有这些有趣且非常聪明的工程步骤,它就,它的目的,效果就没那么好了。"
+ },
+ {
+  "seg": 327,
+  "start": 1443.832,
+  "end": 1444.032,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 328,
+  "start": 1444.072,
+  "end": 1452.355,
+  "speaker": "Unknown",
+  "en": "So in fact, this is like, I think the right sort of direction of travel from the AOL ecosystem to the open standards ecosystem.",
+  "zh": "所以实际上,我认为这是从 AOL 生态系统走向开放标准生态系统的正确方向。"
+ },
+ {
+  "seg": 329,
+  "start": 1453.455,
+  "end": 1458.302,
+  "speaker": "Unknown",
+  "en": "The card networks have actually come out with a new type of standard.",
+  "zh": "卡组织实际上已经推出了一种新型标准。"
+ },
+ {
+  "seg": 330,
+  "start": 1458.322,
+  "end": 1469.057,
+  "speaker": "Unknown",
+  "en": "They're called agentic tokens that will allow a wallet like a Stripe Link or a ShopPay or a PayPal to hand over a credential to the agent in a safe way.",
+  "zh": "它们叫 agentic tokens(智能体令牌),可以让像 Stripe Link、ShopPay 或 PayPal 这样的钱包以一种安全的方式把凭证交给智能体。"
+ },
+ {
+  "seg": 331,
+  "start": 1469.738,
+  "end": 1476.139,
+  "speaker": "Unknown",
+  "en": "And then have the agent hand it to the merchant in such a way that when that Walmart transaction occurred, it's my card.",
+  "zh": "然后让智能体把它交给商户,方式是当那笔 Walmart 交易发生时,那是我的卡。"
+ },
+ {
+  "seg": 332,
+  "start": 1476.479,
+  "end": 1488.162,
+  "speaker": "Unknown",
+  "en": "In fact, like one sort of, you know, addendum to the Walmart transaction, after I bought the chandelier, everything was fine, I got an email from Walmart to say, hey, Terry, you paid for delivery.",
+  "zh": "事实上,关于那笔 Walmart 交易再补充一点,我买完吊灯之后,一切都没问题,我收到一封 Walmart 的邮件说,嘿,Terry,你已经付了配送费。"
+ },
+ {
+  "seg": 333,
+  "start": 1488.442,
+  "end": 1489.502,
+  "speaker": "Unknown",
+  "en": "It was like $6.99.",
+  "zh": "大概是 6.99 美元。"
+ },
+ {
+  "seg": 334,
+  "start": 1490.302,
+  "end": 1492.243,
+  "speaker": "Unknown",
+  "en": "Why don't you sign up to Walmart Plus?",
+  "zh": "你要不要注册 Walmart Plus?"
+ },
+ {
+  "seg": 335,
+  "start": 1493.343,
+  "end": 1494.284,
+  "speaker": "Unknown",
+  "en": "And here's an offer.",
+  "zh": "这儿有个优惠。"
+ },
+ {
+  "seg": 336,
+  "start": 1494.344,
+  "end": 1499.829,
+  "speaker": "Unknown",
+  "en": "If you sign up today, we will credit the delivery toward your Walmart Plus subscription.",
+  "zh": "如果你今天注册,我们会把那笔配送费抵扣到你的 Walmart Plus 订阅里。"
+ },
+ {
+  "seg": 337,
+  "start": 1499.849,
+  "end": 1501.371,
+  "speaker": "Unknown",
+  "en": "So I said, great, hit the button.",
+  "zh": "于是我说,太好了,点下按钮。"
+ },
+ {
+  "seg": 338,
+  "start": 1502.172,
+  "end": 1507.257,
+  "speaker": "Unknown",
+  "en": "And of course, the transaction failed because the card that they had was the Stripe one-time use card.",
+  "zh": "当然,交易失败了,因为他们持有的卡是 Stripe 的一次性卡。"
+ },
+ {
+  "seg": 339,
+  "start": 1508.638,
+  "end": 1523.051,
+  "speaker": "Unknown",
+  "en": "And part of the, you know, you mentioned like rules and norms, part of the norms of e-commerce is that Walmart spends a lot of money to get me as a customer, and then they have the right to try to have a relationship with me, upsell me, cross-sell me.",
+  "zh": "你提到规则和规范,而电子商务规范的一部分就是:Walmart 花了很多钱把我变成客户,然后他们有权尝试与我建立关系,向我追加销售、交叉销售。"
+ },
+ {
+  "seg": 340,
+  "start": 1523.832,
+  "end": 1534.26,
+  "speaker": "Unknown",
+  "en": "And in this case, because we were using the sort of AOL version, they weren't able to easily allow me to subscribe to this new service.",
+  "zh": "而在这个例子里,因为我们用的是 AOL 版本的东西,他们没法轻松让我订阅这个新服务。"
+ },
+ {
+  "seg": 341,
+  "start": 1534.48,
+  "end": 1546.028,
+  "speaker": "Unknown",
+  "en": "With the new agentic standards, what should happen is if any of the wallets don't have a relationship with the merchant, but they have my card on file, my Capital One Visa card,",
+  "zh": "在新的智能体标准下,应该发生的是:即使任何钱包与商户没有关系,但只要他们保存了我的卡,我的 Capital One Visa 卡,"
+ },
+ {
+  "seg": 342,
+  "start": 1546.89,
+  "end": 1550.552,
+  "speaker": "Unknown",
+  "en": "That should be tokenized with the agent.",
+  "zh": "那张卡就应该被令牌化给智能体。"
+ },
+ {
+  "seg": 343,
+  "start": 1550.572,
+  "end": 1554.235,
+  "speaker": "Unknown",
+  "en": "There's a whole process by which the agent says, I'm about to make a transaction.",
+  "zh": "有一整套流程,智能体说,我即将进行一笔交易。"
+ },
+ {
+  "seg": 344,
+  "start": 1554.395,
+  "end": 1555.535,
+  "speaker": "Unknown",
+  "en": "I'm a verified agent.",
+  "zh": "我是一个经过验证的智能体。"
+ },
+ {
+  "seg": 345,
+  "start": 1556.136,
+  "end": 1558.177,
+  "speaker": "Unknown",
+  "en": "I'm going to spend no more than $100.",
+  "zh": "我花费不会超过 100 美元。"
+ },
+ {
+  "seg": 346,
+  "start": 1560.038,
+  "end": 1563.1,
+  "speaker": "Unknown",
+  "en": "The token is nothing more than a new 16-digit number.",
+  "zh": "这个令牌不过是一个新的 16 位数字。"
+ },
+ {
+  "seg": 347,
+  "start": 1563.48,
+  "end": 1565.482,
+  "speaker": "Unknown",
+  "en": "We give that safely to the agent.",
+  "zh": "我们把它安全地交给智能体。"
+ },
+ {
+  "seg": 348,
+  "start": 1566.242,
+  "end": 1572.826,
+  "speaker": "Unknown",
+  "en": "Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged.",
+  "zh": "智能体把它交给 Walmart,然后 Walmart 执行交易,但被扣款的是我的卡。"
+ },
+ {
+  "seg": 349,
+  "start": 1572.846,
+  "end": 1576.648,
+  "speaker": "Unknown",
+  "en": "And that preserves this ability to have a follow-on transaction.",
+  "zh": "这就保留了进行后续交易的能力。"
+ },
+ {
+  "seg": 350,
+  "start": 1576.688,
+  "end": 1579.45,
+  "speaker": "Unknown",
+  "en": "It preserves all of the rules around chargebacks.",
+  "zh": "它保留了围绕退单(chageback)的所有规则。"
+ },
+ {
+  "seg": 351,
+  "start": 1579.61,
+  "end": 1582.472,
+  "speaker": "Unknown",
+  "en": "And so, you know, three months ago, this was at zero.",
+  "zh": "所以，你知道，三个月前，这个数字还是零。"
+ },
+ {
+  "seg": 352,
+  "start": 1582.552,
+  "end": 1583.352,
+  "speaker": "Unknown",
+  "en": "It did not exist.",
+  "zh": "它根本不存在。"
+ },
+ {
+  "seg": 353,
+  "start": 1583.833,
+  "end": 1588.736,
+  "speaker": "Unknown",
+  "en": "VGS is by far the largest provisioner of these agentic tokens.",
+  "zh": "VGS 是目前最大的这类智能体令牌的供应方。"
+ },
+ {
+  "seg": 354,
+  "start": 1588.776,
+  "end": 1590.797,
+  "speaker": "Unknown",
+  "en": "We do it for the agents.",
+  "zh": "我们为智能体做这件事。"
+ },
+ {
+  "seg": 355,
+  "start": 1590.837,
+  "end": 1591.878,
+  "speaker": "Unknown",
+  "en": "We do it for the wallets.",
+  "zh": "我们为钱包做这件事。"
+ },
+ {
+  "seg": 356,
+  "start": 1592.638,
+  "end": 1593.899,
+  "speaker": "Unknown",
+  "en": "We do it for some of the merchants.",
+  "zh": "我们为一些商户做这件事。"
+ },
+ {
+  "seg": 357,
+  "start": 1594.659,
+  "end": 1596.961,
+  "speaker": "Unknown",
+  "en": "And this was, you know, zero three months ago.",
+  "zh": "而这在三个月前还是零。"
+ },
+ {
+  "seg": 358,
+  "start": 1597.301,
+  "end": 1600.203,
+  "speaker": "Unknown",
+  "en": "Now we're doing a few million of these tokens per week.",
+  "zh": "现在我们每周要处理几百万个这样的令牌。"
+ },
+ {
+  "seg": 359,
+  "start": 1600.463,
+  "end": 1609.509,
+  "speaker": "Unknown",
+  "en": "So I expect that as we make this transition from the walled garden to the sort of open standards, this will be the way that agentic commerce evolves.",
+  "zh": "所以我预计，随着我们从围墙花园过渡到某种开放标准，这将是智能体商务演进的方式。"
+ },
+ {
+  "seg": 360,
+  "start": 1610.112,
+  "end": 1619.538,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, it's one of the reasons why this, like, kind of long—I mean this as a positive, but, like, VGS has a very boring business of why is it boring?",
+  "zh": "是啊，我是说，这也是为什么这个……有点长——我这是正面评价，但 VGS 有一个非常无聊的业务，为什么说无聊？"
+ },
+ {
+  "seg": 361,
+  "start": 1619.578,
+  "end": 1624.161,
+  "speaker": "Unknown",
+  "en": "Because we have a vault, and anybody who is in a vaulting business is kind of—it's not an exciting business.",
+  "zh": "因为我们有一个金库，而任何做金库业务的人，这都不是一个令人兴奋的业务。"
+ },
+ {
+  "seg": 362,
+  "start": 1624.201,
+  "end": 1631.405,
+  "speaker": "Unknown",
+  "en": "Like, your job is to be not exciting and be safe and be secure, and it's like things go in the vault, and then every now and then things go out of the vault, right?",
+  "zh": "就是说，你的职责就是保持不引人注目、安全、稳妥，东西放进金库，然后时不时从金库里取出来，对吧？"
+ },
+ {
+  "seg": 363,
+  "start": 1631.425,
+  "end": 1632.406,
+  "speaker": "Unknown",
+  "en": "It's not like a one-way door.",
+  "zh": "它不是一扇单向门。"
+ },
+ {
+  "seg": 364,
+  "start": 1632.426,
+  "end": 1634.908,
+  "speaker": "Unknown",
+  "en": "Because this is—the way that I always thought about VGS is",
+  "zh": "因为我对 VGS 的一贯理解是"
+ },
+ {
+  "seg": 365,
+  "start": 1636.088,
+  "end": 1637.669,
+  "speaker": "Unknown",
+  "en": "There are these credentials that you store.",
+  "zh": "你存储这些凭证。"
+ },
+ {
+  "seg": 366,
+  "start": 1637.729,
+  "end": 1642.812,
+  "speaker": "Unknown",
+  "en": "So it's like you get these 15-digit Amex numbers or 16-digit Visa, MasterCard, Discover numbers.",
+  "zh": "就像你拿到这些 15 位的 Amex 卡号，或者 16 位的 Visa、MasterCard、Discover 卡号。"
+ },
+ {
+  "seg": 367,
+  "start": 1643.212,
+  "end": 1643.993,
+  "speaker": "Unknown",
+  "en": "You store them.",
+  "zh": "只是像这样：这里有个东西你可以用。"
+ },
+ {
+  "seg": 368,
+  "start": 1644.373,
+  "end": 1646.634,
+  "speaker": "Unknown",
+  "en": "You give back a token.",
+  "zh": "你返回一个令牌。"
+ },
+ {
+  "seg": 369,
+  "start": 1646.754,
+  "end": 1647.835,
+  "speaker": "Unknown",
+  "en": "This is not a crypto token.",
+  "zh": "这不是加密代币。"
+ },
+ {
+  "seg": 370,
+  "start": 1647.855,
+  "end": 1649.996,
+  "speaker": "Unknown",
+  "en": "This is just like, here's something that you can use.",
+  "zh": "这就像是,给你一个你可以用的东西。"
+ },
+ {
+  "seg": 371,
+  "start": 1650.457,
+  "end": 1653.798,
+  "speaker": "Unknown",
+  "en": "And then there are verbs that can be performed on those credentials.",
+  "zh": "然后有一些可以对那些凭证执行的操作。"
+ },
+ {
+  "seg": 372,
+  "start": 1654.599,
+  "end": 1662.663,
+  "speaker": "Unknown",
+  "en": "So if I am a big burger chain or something, hypothetically, we don't know which one, but you work with a big burger chain, right?",
+  "zh": "所以如果我是一家大型汉堡连锁店之类的，假设，我们不知道是哪一家，但你们和一家大型汉堡连锁店合作，对吧？"
+ },
+ {
+  "seg": 373,
+  "start": 1665.685,
+  "end": 1669.106,
+  "speaker": "Unknown",
+  "en": "I have a consumer app that has tens of millions of users.",
+  "zh": "我有一个拥有几千万用户的消费端应用。"
+ },
+ {
+  "seg": 374,
+  "start": 1669.906,
+  "end": 1679.629,
+  "speaker": "Unknown",
+  "en": "I know that whenever that user says, I want to buy a hamburger, like VGS plays a key role, it's a very boring role, but I retrieve and charge, right?",
+  "zh": "我知道每当那个用户说，我想买一个汉堡，VGS 就扮演一个关键角色，一个非常无聊的角色，但我执行取回和扣款，对吧？"
+ },
+ {
+  "seg": 375,
+  "start": 1679.649,
+  "end": 1688.092,
+  "speaker": "Unknown",
+  "en": "So I retrieve it with the purpose of sending that to a payment processor and saying, charge Terry $9 right now, but I never have to touch that credential again.",
+  "zh": "所以我取回它的目的是把它发给支付处理商，说，现在扣 Terry 9 美元，而我再也不用碰那个凭证了。"
+ },
+ {
+  "seg": 376,
+  "start": 1688.172,
+  "end": 1695.277,
+  "speaker": "Unknown",
+  "en": "You know, very, very boring business, but you've gotten to, I mean, what percentage of cards do you think you've seen or touch or store?",
+  "zh": "你知道，非常非常无聊的业务，但你们已经做到了，我是说，你们见过或接触过或存储的卡的比例大概是多少？"
+ },
+ {
+  "seg": 377,
+  "start": 1695.297,
+  "end": 1697.718,
+  "speaker": "Unknown",
+  "en": "It's probably, what is it, 80% of cards in America?",
+  "zh": "大概是，是多少来着，美国 80% 的卡？"
+ },
+ {
+  "seg": 378,
+  "start": 1697.738,
+  "end": 1699.94,
+  "speaker": "Unknown",
+  "en": "I mean, we have like 10 billion credentials.",
+  "zh": "我是说，我们有大约 100 亿个凭证。"
+ },
+ {
+  "seg": 379,
+  "start": 1700.66,
+  "end": 1710.467,
+  "speaker": "Unknown",
+  "en": "I think you're touching on something really interesting, which is vaults are going from single player to multiplayer, and that makes them a lot more valuable.",
+  "zh": "我觉得你触及了一个非常有意思的点，那就是金库正在从单人模式走向多人模式，而这让它们的价值大幅提升。"
+ },
+ {
+  "seg": 380,
+  "start": 1710.487,
+  "end": 1712.929,
+  "speaker": "Unknown",
+  "en": "So, for example, put aside agents.",
+  "zh": "举个例子，先不谈智能体。"
+ },
+ {
+  "seg": 381,
+  "start": 1713.95,
+  "end": 1723.154,
+  "speaker": "Unknown",
+  "en": "The fact that merchants have multiple processors means that the vaulted VGS is effectively the vault for each of those processors, right?",
+  "zh": "商户有多个处理商这一事实，意味着拥有金库的 VGS 实际上是这些处理商中每一个的金库，对吧？"
+ },
+ {
+  "seg": 382,
+  "start": 1723.174,
+  "end": 1731.377,
+  "speaker": "Unknown",
+  "en": "Because the network tokens stored in that vault now have to be sent to Chase, Stripe, Adyen, Braintree, Razorpay.",
+  "zh": "因为存储在那个金库里的网络令牌，现在必须被发送给 Chase、Stripe、Adyen、Braintree、Razorpay。"
+ },
+ {
+  "seg": 383,
+  "start": 1731.597,
+  "end": 1732.577,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 384,
+  "start": 1732.657,
+  "end": 1733.538,
+  "speaker": "Unknown",
+  "en": "That's multiplayer.",
+  "zh": "这就是多人模式。"
+ },
+ {
+  "seg": 385,
+  "start": 1734.425,
+  "end": 1740.989,
+  "speaker": "Unknown",
+  "en": "With agents, if you have a vault, let's assume you're like a large frontier model.",
+  "zh": "有了智能体，如果你有一个金库，假设你是一个大型前沿模型。"
+ },
+ {
+  "seg": 386,
+  "start": 1741.689,
+  "end": 1743.31,
+  "speaker": "Unknown",
+  "en": "Here's a good example.",
+  "zh": "这里有个很好的例子。"
+ },
+ {
+  "seg": 387,
+  "start": 1743.45,
+  "end": 1744.55,
+  "speaker": "Unknown",
+  "en": "You're a large frontier model.",
+  "zh": "你是一个大型前沿模型。"
+ },
+ {
+  "seg": 388,
+  "start": 1744.791,
+  "end": 1749.193,
+  "speaker": "Unknown",
+  "en": "You're vaulting cards in order to charge for your subscription.",
+  "zh": "你存储卡片是为了对订阅收费。"
+ },
+ {
+  "seg": 389,
+  "start": 1750.525,
+  "end": 1756.686,
+  "speaker": "Unknown",
+  "en": "But now the agent wants to use that same credential to make a payment.",
+  "zh": "但现在这个智能体想用同一个凭证来支付。"
+ },
+ {
+  "seg": 390,
+  "start": 1757.627,
+  "end": 1759.687,
+  "speaker": "Unknown",
+  "en": "And so the Vault used to be single player.",
+  "zh": "所以这个金库过去是单人模式的。"
+ },
+ {
+  "seg": 391,
+  "start": 1759.707,
+  "end": 1763.088,
+  "speaker": "Unknown",
+  "en": "It used to be just to make sure that you could pay for the subscription.",
+  "zh": "过去只是为了确保你能为订阅付款。"
+ },
+ {
+  "seg": 392,
+  "start": 1763.928,
+  "end": 1770.449,
+  "speaker": "Unknown",
+  "en": "But now you can effectively give that credential according to these open standards to the agent.",
+  "zh": "但现在你可以按照这些开放标准，有效地把那个凭证交给智能体。"
+ },
+ {
+  "seg": 393,
+  "start": 1770.589,
+  "end": 1771.63,
+  "speaker": "Unknown",
+  "en": "It's now multiplayer.",
+  "zh": "现在是多人模式了。"
+ },
+ {
+  "seg": 394,
+  "start": 1772.33,
+  "end": 1772.87,
+  "speaker": "Unknown",
+  "en": "And so I think...",
+  "zh": "所以我认为……"
+ },
+ {
+  "seg": 395,
+  "start": 1773.33,
+  "end": 1777.796,
+  "speaker": "Unknown",
+  "en": "You know, any business that is going from single player to multiplayer inherently becomes more interesting.",
+  "zh": "你知道，任何从单人模式走向多人模式的业务，本质上都会变得更有意思。"
+ },
+ {
+  "seg": 396,
+  "start": 1777.816,
+  "end": 1779.178,
+  "speaker": "Unknown",
+  "en": "I mean, even 1Password, right?",
+  "zh": "我是说，就连 1Password，对吧？"
+ },
+ {
+  "seg": 397,
+  "start": 1779.238,
+  "end": 1781.782,
+  "speaker": "Unknown",
+  "en": "Like, it used to be a single player vault.",
+  "zh": "它过去是一个单人模式的金库。"
+ },
+ {
+  "seg": 398,
+  "start": 1782.769,
+  "end": 1789.532,
+  "speaker": "Unknown",
+  "en": "And maybe I share my credentials with my wife on a few things, but now it's multiplayer because I'm trying to give it access to multiple different parties.",
+  "zh": "也许我会在几件事上和我的妻子共享凭证，但现在它是多人模式了，因为我试图把它授权给多个不同的参与方。"
+ },
+ {
+  "seg": 399,
+  "start": 1789.552,
+  "end": 1801.357,
+  "speaker": "Unknown",
+  "en": "Well, this is a really complicated thing going back to like the rules and procedures of what Visa and MasterCard have done, which is normally I just have to, there are almost like three steps to a transaction I kind of think of.",
+  "zh": "嗯，这真的非常复杂，回到 Visa 和 MasterCard 所制定的规则和流程，通常我只需要，我差不多认为一笔交易有三个步骤。"
+ },
+ {
+  "seg": 400,
+  "start": 1801.777,
+  "end": 1804.258,
+  "speaker": "Unknown",
+  "en": "Number one is, is this identity real?",
+  "zh": "第一是,这个身份是真的吗?"
+ },
+ {
+  "seg": 401,
+  "start": 1805.198,
+  "end": 1807.939,
+  "speaker": "Unknown",
+  "en": "Like in general, like, is this a real card number, right?",
+  "zh": "一般来说,比如,这是一个真实的卡号吗,对吧?"
+ },
+ {
+  "seg": 402,
+  "start": 1808.319,
+  "end": 1808.94,
+  "speaker": "Unknown",
+  "en": "That's important.",
+  "zh": "这很重要。"
+ },
+ {
+  "seg": 403,
+  "start": 1809.4,
+  "end": 1811.961,
+  "speaker": "Unknown",
+  "en": "But wait a minute, I can have a real card number and you're a thief.",
+  "zh": "但等一下,我可能有一个真实的卡号,而你是个小偷。"
+ },
+ {
+  "seg": 404,
+  "start": 1812.621,
+  "end": 1813.661,
+  "speaker": "Unknown",
+  "en": "It's still a real card number.",
+  "zh": "它仍然是一个真实的卡号。"
+ },
+ {
+  "seg": 405,
+  "start": 1814.062,
+  "end": 1818.583,
+  "speaker": "Unknown",
+  "en": "So kind of step two is once I validate, because there are actually, there are two ways of validating a card number.",
+  "zh": "所以第二步是,一旦我验证之后,因为实际上,验证卡号有两种方式。"
+ },
+ {
+  "seg": 406,
+  "start": 1818.603,
+  "end": 1823.945,
+  "speaker": "Unknown",
+  "en": "There's one, there is a, there's like a cyclicality check, right?",
+  "zh": "一种是,有一种,有一种类似循环校验的东西,对吧?"
+ },
+ {
+  "seg": 407,
+  "start": 1823.965,
+  "end": 1825.026,
+  "speaker": "Unknown",
+  "en": "You kind of add up the, yeah.",
+  "zh": "你把那些加起来,对。"
+ },
+ {
+  "seg": 408,
+  "start": 1825.426,
+  "end": 1826.187,
+  "speaker": "Unknown",
+  "en": "Check some, right?",
+  "zh": "但我可以去和银行核实,这是不是一张真实的卡?"
+ },
+ {
+  "seg": 409,
+  "start": 1826.467,
+  "end": 1828.729,
+  "speaker": "Unknown",
+  "en": "But it's this Mod 10 check of the credit card number.",
+  "zh": "就是信用卡号的 Mod 10 校验。"
+ },
+ {
+  "seg": 410,
+  "start": 1828.749,
+  "end": 1829.129,
+  "speaker": "Unknown",
+  "en": "Is it valid?",
+  "zh": "它有效吗?"
+ },
+ {
+  "seg": 411,
+  "start": 1829.149,
+  "end": 1830.63,
+  "speaker": "Unknown",
+  "en": "But that doesn't mean it's a real card.",
+  "zh": "但这不意味着它是一张真实的卡。"
+ },
+ {
+  "seg": 412,
+  "start": 1831.07,
+  "end": 1834.533,
+  "speaker": "Unknown",
+  "en": "But it means that it's like a valid, it's in the valid universe of cards.",
+  "zh": "只是意味着它是一个有效的,它在有效卡的范围内。"
+ },
+ {
+  "seg": 413,
+  "start": 1834.553,
+  "end": 1836.694,
+  "speaker": "Unknown",
+  "en": "But I can go check with the bank, is this an actual card?",
+  "zh": "那是第一步。"
+ },
+ {
+  "seg": 414,
+  "start": 1836.714,
+  "end": 1837.315,
+  "speaker": "Unknown",
+  "en": "That's step one.",
+  "zh": "这是第一步。"
+ },
+ {
+  "seg": 415,
+  "start": 1837.895,
+  "end": 1843.68,
+  "speaker": "Unknown",
+  "en": "Step two is, is the person that I'm interacting with the valid owner of this card?",
+  "zh": "第二步是,和我交互的这个人是不是这张卡的合法持有者?"
+ },
+ {
+  "seg": 416,
+  "start": 1844.16,
+  "end": 1854.325,
+  "speaker": "Unknown",
+  "en": "So, like, if you went to a jewelry store 25 years ago and you wanted to buy something for $15,000, they'll take the credit card number, they'll take your credit card, your piece of plastic, but they'll do two things as well.",
+  "zh": "比如,如果你 25 年前去一家珠宝店,想买一件价值 15000 美元的东西,他们会抄下卡号,拿走你的信用卡,你那张塑料卡,但他们还会做两件事。"
+ },
+ {
+  "seg": 417,
+  "start": 1854.685,
+  "end": 1858.067,
+  "speaker": "Unknown",
+  "en": "Remember, you used to have to sign the signature of the back of the card?",
+  "zh": "还记得你以前必须在卡的背面签名吗?"
+ },
+ {
+  "seg": 418,
+  "start": 1858.467,
+  "end": 1862.189,
+  "speaker": "Unknown",
+  "en": "Like, I thought the first card that I ever saw that just got rid of that altogether was Apple.",
+  "zh": "我记得我见过的第一张完全取消了这个的卡,我觉得是 Apple 的。"
+ },
+ {
+  "seg": 419,
+  "start": 1862.809,
+  "end": 1869.973,
+  "speaker": "Unknown",
+  "en": "So the Apple card, I mean, even though they want you to use Apple Pay, if you get the physical Apple metal card, there's no place to sign on the back.",
+  "zh": "就是 Apple 卡,我是说,尽管他们希望你使用 Apple Pay,如果你拿到实体的 Apple 金属卡,背面没有地方可以签名。"
+ },
+ {
+  "seg": 420,
+  "start": 1870.685,
+  "end": 1870.905,
+  "speaker": "Unknown",
+  "en": "None.",
+  "zh": "完全没有。"
+ },
+ {
+  "seg": 421,
+  "start": 1871.485,
+  "end": 1873.326,
+  "speaker": "Unknown",
+  "en": "But they would also say, can I see your ID?",
+  "zh": "但他们还会说,我能看一下你的身份证件吗?"
+ },
+ {
+  "seg": 422,
+  "start": 1874.106,
+  "end": 1876.147,
+  "speaker": "Unknown",
+  "en": "I bought something very expensive one time.",
+  "zh": "我有一次买了非常贵的东西。"
+ },
+ {
+  "seg": 423,
+  "start": 1876.527,
+  "end": 1879.408,
+  "speaker": "Unknown",
+  "en": "It might have been jewelry for my wife that I sometimes buy flowers for as well.",
+  "zh": "可能是给我妻子买的首饰,我有时也会给她买花。"
+ },
+ {
+  "seg": 424,
+  "start": 1879.428,
+  "end": 1880.828,
+  "speaker": "Unknown",
+  "en": "This was probably 25 years ago.",
+  "zh": "那大概是 25 年前了。"
+ },
+ {
+  "seg": 425,
+  "start": 1881.668,
+  "end": 1883.129,
+  "speaker": "Unknown",
+  "en": "And they wanted to see my ID.",
+  "zh": "他们想查看我的身份证。"
+ },
+ {
+  "seg": 426,
+  "start": 1883.169,
+  "end": 1884.169,
+  "speaker": "Unknown",
+  "en": "They checked the signature.",
+  "zh": "他们核对了签名。"
+ },
+ {
+  "seg": 427,
+  "start": 1884.189,
+  "end": 1884.389,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 428,
+  "start": 1884.409,
+  "end": 1889.091,
+  "speaker": "Unknown",
+  "en": "Because they knew that the card was valid, but they want to make sure that I am the actual owner of the card.",
+  "zh": "因为他们知道卡是有效的，但他们想确认我是这张卡的实际持有人。"
+ },
+ {
+  "seg": 429,
+  "start": 1889.651,
+  "end": 1892.332,
+  "speaker": "Unknown",
+  "en": "And then number three, and you probably only see this in Vegas.",
+  "zh": "然后第三条，你可能只在拉斯维加斯才会见到这个。"
+ },
+ {
+  "seg": 430,
+  "start": 1893.772,
+  "end": 1896.954,
+  "speaker": "Unknown",
+  "en": "But it's like, are you of sound mind to make this transaction?",
+  "zh": "但就是，你是否有清醒的心智来做这笔交易？"
+ },
+ {
+  "seg": 431,
+  "start": 1896.974,
+  "end": 1901.876,
+  "speaker": "Unknown",
+  "en": "So like if you went to a casino in Vegas and you pass, you know, number one, card's valid.",
+  "zh": "所以比如你去了拉斯维加斯的赌场，你通过了，你知道，第一条，卡是有效的。"
+ },
+ {
+  "seg": 432,
+  "start": 1901.896,
+  "end": 1905.777,
+  "speaker": "Unknown",
+  "en": "Number two, it's like, yep, here's your ID, here's your signature, it matches entirely.",
+  "zh": "第二条，就是，好，这是我的身份证，这是我的签名，完全吻合。"
+ },
+ {
+  "seg": 433,
+  "start": 1906.178,
+  "end": 1913.501,
+  "speaker": "Unknown",
+  "en": "But there's step three, it's like if you've had 15 drinks and you can't even speak properly, they're probably gonna not let you pay.",
+  "zh": "但还有第三步，就是如果你已经喝了 15 杯酒，连话都说不清楚，他们很可能不会让你付款。"
+ },
+ {
+  "seg": 434,
+  "start": 1914.256,
+  "end": 1914.396,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 435,
+  "start": 1914.416,
+  "end": 1916.017,
+  "speaker": "Unknown",
+  "en": "So this was kind of like the old world.",
+  "zh": "所以这有点像是旧世界。"
+ },
+ {
+  "seg": 436,
+  "start": 1916.718,
+  "end": 1921.401,
+  "speaker": "Unknown",
+  "en": "And if you bring that metaphor to the new world, well, it's like, well, is the card valid?",
+  "zh": "如果你把这个比喻带到新世界，嗯，就是，那，卡是有效的吗？"
+ },
+ {
+  "seg": 437,
+  "start": 1921.421,
+  "end": 1921.741,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 438,
+  "start": 1922.141,
+  "end": 1923.942,
+  "speaker": "Unknown",
+  "en": "Does the person... Or the agent.",
+  "zh": "这个人……还是智能体。"
+ },
+ {
+  "seg": 439,
+  "start": 1924.283,
+  "end": 1925.423,
+  "speaker": "Unknown",
+  "en": "Well, but this is tricky, right?",
+  "zh": "嗯，但这很棘手，对吧？"
+ },
+ {
+  "seg": 440,
+  "start": 1925.443,
+  "end": 1926.644,
+  "speaker": "Unknown",
+  "en": "It's like the card is going to be valid.",
+  "zh": "就是说卡肯定是有效的。"
+ },
+ {
+  "seg": 441,
+  "start": 1926.704,
+  "end": 1928.165,
+  "speaker": "Unknown",
+  "en": "Like that part solved problem.",
+  "zh": "那部分是已解决的问题。"
+ },
+ {
+  "seg": 442,
+  "start": 1928.605,
+  "end": 1930.507,
+  "speaker": "Unknown",
+  "en": "But the second part, it's like, what does that mean?",
+  "zh": "但第二部分就是，那是什么意思？"
+ },
+ {
+  "seg": 443,
+  "start": 1931.047,
+  "end": 1931.207,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 444,
+  "start": 1931.247,
+  "end": 1941.329,
+  "speaker": "Unknown",
+  "en": "Like, is the person that I'm interacting with, is my interlocutor, I love that word, is the person that I'm interacting with, are they the valid owner of this card?",
+  "zh": "比如，和我互动的那个人，我的对话者，我很喜欢这个词，和我互动的那个人，他们是这张卡的有效持有人吗？"
+ },
+ {
+  "seg": 445,
+  "start": 1941.689,
+  "end": 1946.631,
+  "speaker": "Unknown",
+  "en": "It was always a hard problem to figure out on the internet because I can't, like, signature, picture, like, what does that mean?",
+  "zh": "在互联网上这一直是个难题，因为我没法，比如，签名、照片，那意味着什么？"
+ },
+ {
+  "seg": 446,
+  "start": 1947.071,
+  "end": 1951.932,
+  "speaker": "Unknown",
+  "en": "You're an IP address and maybe I've seen you before and I've checked your login, but now I have an agent.",
+  "zh": "你就是一个 IP 地址，也许我以前见过你，我核验过你的登录，但现在我有了一个智能体。"
+ },
+ {
+  "seg": 447,
+  "start": 1952.552,
+  "end": 1960.757,
+  "speaker": "Unknown",
+  "en": "And then that part three is pretty important as well from a liability perspective, because you do see these anecdotes on X and whatnot of people that are on instinct.",
+  "zh": "然后第三部分从责任角度来看也很重要，因为你确实能在 X 之类的平台上看到这些轶事，那些处于本能状态的人。"
+ },
+ {
+  "seg": 448,
+  "start": 1960.777,
+  "end": 1963.479,
+  "speaker": "Unknown",
+  "en": "They're like, what do you mean you spent $900, you idiot?",
+  "zh": "他们会说，你什么意思你花了 900 美元，你这笨蛋？"
+ },
+ {
+  "seg": 449,
+  "start": 1963.879,
+  "end": 1966.921,
+  "speaker": "Unknown",
+  "en": "And like, who, where does the chargeback come from?",
+  "zh": "还有，谁，这笔退单从哪里来？"
+ },
+ {
+  "seg": 450,
+  "start": 1967.262,
+  "end": 1971.665,
+  "speaker": "Unknown",
+  "en": "So, I mean, this is exactly what these open standards are solving for.",
+  "zh": "所以，我是说，这正是这些开放标准要解决的问题。"
+ },
+ {
+  "seg": 451,
+  "start": 1971.685,
+  "end": 1973.246,
+  "speaker": "Unknown",
+  "en": "So let's take an example where...",
+  "zh": "那么我们举一个例子……"
+ },
+ {
+  "seg": 452,
+  "start": 1974.026,
+  "end": 1975.147,
+  "speaker": "Unknown",
+  "en": "I instruct my agent.",
+  "zh": "我指示我的智能体。"
+ },
+ {
+  "seg": 453,
+  "start": 1975.307,
+  "end": 1976.748,
+  "speaker": "Unknown",
+  "en": "In fact, this is a real example.",
+  "zh": "事实上，这是一个真实的例子。"
+ },
+ {
+  "seg": 454,
+  "start": 1976.868,
+  "end": 1982.492,
+  "speaker": "Unknown",
+  "en": "I was looking for a hotel for a trip we're making for my daughter's gymnastics tournament.",
+  "zh": "我在为女儿体操比赛的一次行程找酒店。"
+ },
+ {
+  "seg": 455,
+  "start": 1982.573,
+  "end": 1990.979,
+  "speaker": "Unknown",
+  "en": "And I said, go and find a hotel in San Diego and don't spend more than, you know, $500.",
+  "zh": "我说，去圣地亚哥找一家酒店，花费不要超过，你知道的，500 美元。"
+ },
+ {
+  "seg": 456,
+  "start": 1991.159,
+  "end": 1996.543,
+  "speaker": "Unknown",
+  "en": "So the first question when that agent is provisioned is to your question is like, is this a real card?",
+  "zh": "所以当那个智能体被配置时，第一个问题，回应你的问题，就是：这是一张真实的卡吗？"
+ },
+ {
+  "seg": 457,
+  "start": 1996.683,
+  "end": 1997.524,
+  "speaker": "Unknown",
+  "en": "That's a sole problem.",
+  "zh": "那是一个单一的问题。"
+ },
+ {
+  "seg": 458,
+  "start": 1997.664,
+  "end": 1998.424,
+  "speaker": "Unknown",
+  "en": "The second one is...",
+  "zh": "第二个问题是……"
+ },
+ {
+  "seg": 459,
+  "start": 1999.285,
+  "end": 2002.489,
+  "speaker": "Unknown",
+  "en": "Is the request for the agent a valid request?",
+  "zh": "对智能体的请求是一个有效的请求吗？"
+ },
+ {
+  "seg": 460,
+  "start": 2002.549,
+  "end": 2010.678,
+  "speaker": "Unknown",
+  "en": "And the way that this works with the networks is that agent actually has to be registered with Visa or MasterCard or Amex.",
+  "zh": "而这与卡组织运作的方式是，该智能体实际上必须在 Visa、MasterCard 或 Amex 注册。"
+ },
+ {
+  "seg": 461,
+  "start": 2010.798,
+  "end": 2012.76,
+  "speaker": "Unknown",
+  "en": "And so there's a whole sort of mechanism there.",
+  "zh": "所以那里有一整套机制。"
+ },
+ {
+  "seg": 462,
+  "start": 2013.741,
+  "end": 2014.882,
+  "speaker": "Unknown",
+  "en": "The third question is like...",
+  "zh": "第三个问题是……"
+ },
+ {
+  "seg": 463,
+  "start": 2015.583,
+  "end": 2016.864,
+  "speaker": "Unknown",
+  "en": "Is the agent of sound mind?",
+  "zh": "智能体心智是否健全？"
+ },
+ {
+  "seg": 464,
+  "start": 2017.084,
+  "end": 2018.165,
+  "speaker": "Unknown",
+  "en": "Like, did it get it right?",
+  "zh": "就是说，它做对了吗？"
+ },
+ {
+  "seg": 465,
+  "start": 2018.345,
+  "end": 2019.426,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 466,
+  "start": 2019.466,
+  "end": 2020.086,
+  "speaker": "Unknown",
+  "en": "Was it drunk?",
+  "zh": "它喝醉了吗？"
+ },
+ {
+  "seg": 467,
+  "start": 2020.146,
+  "end": 2021.027,
+  "speaker": "Unknown",
+  "en": "You know, exactly.",
+  "zh": "你知道的，没错。"
+ },
+ {
+  "seg": 468,
+  "start": 2021.047,
+  "end": 2022.308,
+  "speaker": "Unknown",
+  "en": "Did it hallucinate?",
+  "zh": "它产生幻觉了吗？"
+ },
+ {
+  "seg": 469,
+  "start": 2022.408,
+  "end": 2031.114,
+  "speaker": "Unknown",
+  "en": "And so that part, I don't think we fully understand yet because if there's a mistake that the agent makes and...",
+  "zh": "所以那部分，我认为我们还没有完全理解，因为如果智能体犯了一个错误，而……"
+ },
+ {
+  "seg": 470,
+  "start": 2032.015,
+  "end": 2034.236,
+  "speaker": "Unknown",
+  "en": "The CART network did everything right.",
+  "zh": "卡组织把一切都做对了。"
+ },
+ {
+  "seg": 471,
+  "start": 2034.256,
+  "end": 2036.557,
+  "speaker": "Unknown",
+  "en": "They validated that this is your agent and your instruction.",
+  "zh": "他们验证了这是你的智能体和你的指令。"
+ },
+ {
+  "seg": 472,
+  "start": 2036.577,
+  "end": 2041.619,
+  "speaker": "Unknown",
+  "en": "In fact, part of the way these new standards work is you give it context.",
+  "zh": "事实上，这些新标准运作方式的一部分是你要给它上下文。"
+ },
+ {
+  "seg": 473,
+  "start": 2041.639,
+  "end": 2045.241,
+  "speaker": "Unknown",
+  "en": "You say, I'm buying a hotel, this is a hotel reservation at this amount.",
+  "zh": "你说，我在买酒店，这是一笔这个金额的酒店预订。"
+ },
+ {
+  "seg": 474,
+  "start": 2045.961,
+  "end": 2049.663,
+  "speaker": "Unknown",
+  "en": "It's hard for me to know if you got the actual dates right.",
+  "zh": "我很难知道你是否把实际日期搞对了。"
+ },
+ {
+  "seg": 475,
+  "start": 2050.503,
+  "end": 2055.406,
+  "speaker": "Unknown",
+  "en": "If there's an error there, then that dispute mechanism is sort of unresolved.",
+  "zh": "如果那里有错误，那么那个争议解决机制就有点悬而未决。"
+ },
+ {
+  "seg": 476,
+  "start": 2055.426,
+  "end": 2061.168,
+  "speaker": "Unknown",
+  "en": "But I think we will get to that point, and probably the agents will have to take on some responsibility.",
+  "zh": "但我认为我们会走到那一步，而且智能体可能将不得不承担一些责任。"
+ },
+ {
+  "seg": 477,
+  "start": 2061.188,
+  "end": 2063.009,
+  "speaker": "Unknown",
+  "en": "Well, it's this idea of delegated authority.",
+  "zh": "嗯，这就是授权的概念。"
+ },
+ {
+  "seg": 478,
+  "start": 2063.149,
+  "end": 2064.09,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 479,
+  "start": 2064.23,
+  "end": 2067.171,
+  "speaker": "Unknown",
+  "en": "But it's how do you, like, who is liable?",
+  "zh": "但问题是怎么做，比如，谁承担责任？"
+ },
+ {
+  "seg": 480,
+  "start": 2067.251,
+  "end": 2068.412,
+  "speaker": "Unknown",
+  "en": "How does this change?",
+  "zh": "这会如何改变？"
+ },
+ {
+  "seg": 481,
+  "start": 2068.472,
+  "end": 2069.693,
+  "speaker": "Unknown",
+  "en": "I mean, it might be something where...",
+  "zh": "我是说，可能是这样的……"
+ },
+ {
+  "seg": 482,
+  "start": 2070.393,
+  "end": 2076.037,
+  "speaker": "Unknown",
+  "en": "If two agents are competing for your business, like, hey, Terry, please use me, I'm Muse, or please use me, I'm Instinct.",
+  "zh": "如果两个智能体在竞争你的业务，比如，嘿，Terry，请用我，我是 Muse，或者请用我，我是 Instinct。"
+ },
+ {
+  "seg": 483,
+  "start": 2076.577,
+  "end": 2078.778,
+  "speaker": "Unknown",
+  "en": "What is one of the value adds that I'm going to give you?",
+  "zh": "我将给你的增值点之一是什么？"
+ },
+ {
+  "seg": 484,
+  "start": 2079.479,
+  "end": 2087.764,
+  "speaker": "Unknown",
+  "en": "I will take on, because if the merchants are smart, they're not going to be like, I don't give a crap that like you got the wrong hotel room or you did this.",
+  "zh": "我会承担，因为如果商家聪明的话，他们不会说，我才不在乎你订错了酒店房间或者你干了什么。"
+ },
+ {
+  "seg": 485,
+  "start": 2087.824,
+  "end": 2091.807,
+  "speaker": "Unknown",
+  "en": "It's like you told, you gave your card, you delegated authority.",
+  "zh": "就像是，你告诉我，你给了你的卡，你进行了授权。"
+ },
+ {
+  "seg": 486,
+  "start": 2092.327,
+  "end": 2096.55,
+  "speaker": "Unknown",
+  "en": "to either an AI agent or your human assistant or your wife or whatever.",
+  "zh": "给了一个 AI 智能体，或者你的人类助理，或者你的妻子，或者随便谁。"
+ },
+ {
+  "seg": 487,
+  "start": 2096.57,
+  "end": 2097.691,
+  "speaker": "Unknown",
+  "en": "Like, I don't care.",
+  "zh": "就是说，我不在乎。"
+ },
+ {
+  "seg": 488,
+  "start": 2098.051,
+  "end": 2102.774,
+  "speaker": "Unknown",
+  "en": "I need to know if I'm accepting payments for something that there's no excuse at the end.",
+  "zh": "我需要知道，当我为一笔交易接受付款时，最终是没有任何借口的。"
+ },
+ {
+  "seg": 489,
+  "start": 2102.794,
+  "end": 2107.998,
+  "speaker": "Unknown",
+  "en": "I mean, this was called, for those that know this term, friendly fraud once upon a time.",
+  "zh": "我是说，对于那些知道这个术语的人来说，这曾经被称为「友好欺诈」。"
+ },
+ {
+  "seg": 490,
+  "start": 2108.398,
+  "end": 2110.34,
+  "speaker": "Unknown",
+  "en": "There's this concept of I can buy something.",
+  "zh": "有这么一个概念：我可以买点东西。"
+ },
+ {
+  "seg": 491,
+  "start": 2110.36,
+  "end": 2111.48,
+  "speaker": "Unknown",
+  "en": "We used to see this at Trial Pit.",
+  "zh": "我们以前在 Trial Pit 见过这种情况。"
+ },
+ {
+  "seg": 492,
+  "start": 2112.121,
+  "end": 2113.122,
+  "speaker": "Unknown",
+  "en": "I spent $10,000 on virtual gems.",
+  "zh": "我在虚拟宝石上花了 10000 美元。"
+ },
+ {
+  "seg": 493,
+  "start": 2115.403,
+  "end": 2118.864,
+  "speaker": "Unknown",
+  "en": "My wife and I share the—I didn't actually do this, just for disclosure.",
+  "zh": "我和我妻子共用那个——为了声明一下，我实际上没这么做过。"
+ },
+ {
+  "seg": 494,
+  "start": 2118.884,
+  "end": 2119.845,
+  "speaker": "Unknown",
+  "en": "Well, let's just say I did.",
+  "zh": "好吧，就当我做过。"
+ },
+ {
+  "seg": 495,
+  "start": 2119.865,
+  "end": 2122.846,
+  "speaker": "Unknown",
+  "en": "I spent $10,000 on virtual gems for some stupid game.",
+  "zh": "我在某个愚蠢的游戏的虚拟宝石上花了 10000 美元。"
+ },
+ {
+  "seg": 496,
+  "start": 2123.266,
+  "end": 2125.087,
+  "speaker": "Unknown",
+  "en": "The credit card bill comes due at the end of the month.",
+  "zh": "月底信用卡账单到期了。"
+ },
+ {
+  "seg": 497,
+  "start": 2125.107,
+  "end": 2127.147,
+  "speaker": "Unknown",
+  "en": "I'm like, honey, I never spent $10,000.",
+  "zh": "我说，亲爱的，我从来没花过 10000 美元。"
+ },
+ {
+  "seg": 498,
+  "start": 2127.668,
+  "end": 2128.288,
+  "speaker": "Unknown",
+  "en": "That wasn't me.",
+  "zh": "那不是我。"
+ },
+ {
+  "seg": 499,
+  "start": 2128.448,
+  "end": 2129.008,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 500,
+  "start": 2129.048,
+  "end": 2135.93,
+  "speaker": "Unknown",
+  "en": "Like, and you refuse the transaction not because you didn't get the service that was offered, but because it's so embarrassingly terrible.",
+  "zh": "就是说，你拒绝这笔交易，不是因为你没有得到所承诺的服务，而是因为它糟糕得让人尴尬。"
+ },
+ {
+  "seg": 501,
+  "start": 2136.691,
+  "end": 2139.572,
+  "speaker": "Unknown",
+  "en": "And merchants had to deal with this all the time.",
+  "zh": "商家们不得不一直应对这种事。"
+ },
+ {
+  "seg": 502,
+  "start": 2139.592,
+  "end": 2140.012,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 503,
+  "start": 2140.352,
+  "end": 2146.877,
+  "speaker": "Unknown",
+  "en": "And in many cases, like, the banks would say, well, if it's a $10 transaction, it's not even worth fighting it.",
+  "zh": "而且在很多情况下，银行会说，好吧，如果只是一笔 10 美元的交易，甚至不值得去争。"
+ },
+ {
+  "seg": 504,
+  "start": 2146.917,
+  "end": 2149.459,
+  "speaker": "Unknown",
+  "en": "We'll just give it to the consumer every time, which created a moral hazard.",
+  "zh": "我们每次都会直接判给消费者，这就造成了一种道德风险。"
+ },
+ {
+  "seg": 505,
+  "start": 2149.479,
+  "end": 2152.041,
+  "speaker": "Unknown",
+  "en": "But delegated authority gets really tricky here.",
+  "zh": "但委托授权在这里就变得非常棘手。"
+ },
+ {
+  "seg": 506,
+  "start": 2152.061,
+  "end": 2160.088,
+  "speaker": "Unknown",
+  "en": "I mean, maybe if I can ask a different question, because this is probably the more important one, you saw that Amazon recently blocked Muse.",
+  "zh": "我是说，也许我可以问一个不同的问题，因为这可能是更重要的问题，你看到 Amazon 最近屏蔽了 Muse。"
+ },
+ {
+  "seg": 507,
+  "start": 2160.768,
+  "end": 2162.189,
+  "speaker": "Unknown",
+  "en": "And there are many reasons for this.",
+  "zh": "这里面有很多原因。"
+ },
+ {
+  "seg": 508,
+  "start": 2162.269,
+  "end": 2167.511,
+  "speaker": "Unknown",
+  "en": "It's mainly that Amazon is an advertising company and they want you and your eyeballs going to their website.",
+  "zh": "主要是因为 Amazon 是一家广告公司，他们想要你和你的眼球去他们的网站。"
+ },
+ {
+  "seg": 509,
+  "start": 2167.531,
+  "end": 2169.112,
+  "speaker": "Unknown",
+  "en": "They don't want your agent is the agent.",
+  "zh": "他们不想要你的智能体作为智能体。"
+ },
+ {
+  "seg": 510,
+  "start": 2169.132,
+  "end": 2172.914,
+  "speaker": "Unknown",
+  "en": "You can't monetize an agent's eyeballs because the agent doesn't have eyeballs.",
+  "zh": "你无法把智能体的眼球变现，因为智能体没有眼球。"
+ },
+ {
+  "seg": 511,
+  "start": 2173.294,
+  "end": 2179.417,
+  "speaker": "Unknown",
+  "en": "But I kind of think of it as you can either be antagonistic to agentic commerce or you can be highly receptive.",
+  "zh": "但我有点把它看作是：你要么对智能体商业持敌对态度，"
+ },
+ {
+  "seg": 512,
+  "start": 2179.877,
+  "end": 2180.858,
+  "speaker": "Unknown",
+  "en": "to agentic commerce.",
+  "zh": "要么对智能体商业高度接纳。"
+ },
+ {
+  "seg": 513,
+  "start": 2181.318,
+  "end": 2186.822,
+  "speaker": "Unknown",
+  "en": "And I don't actually think, I think it's an oversimplification to say anybody who's antagonistic is a Luddite and they're gone.",
+  "zh": "而我其实并不认为，说任何持敌对态度的人都是勒德分子、注定出局，这是一种过度简化。"
+ },
+ {
+  "seg": 514,
+  "start": 2186.842,
+  "end": 2196.768,
+  "speaker": "Unknown",
+  "en": "It's like, well, Amazon has a reason, like a real financial reason to be antagonistic because advertising is so much more lucrative for them than just selling things.",
+  "zh": "就像，Amazon 有理由，一个非常真实的财务理由去持敌对态度，因为广告对他们来说比单纯卖东西要赚钱得多。"
+ },
+ {
+  "seg": 515,
+  "start": 2196.808,
+  "end": 2200.81,
+  "speaker": "Unknown",
+  "en": "Like the highest value skew is when they get your eyeballs and they sell the eyeballs.",
+  "zh": "比如说，价值最高的 SKU 是当他们获得你的眼球并把这些眼球卖掉的时候。"
+ },
+ {
+  "seg": 516,
+  "start": 2201.251,
+  "end": 2204.813,
+  "speaker": "Unknown",
+  "en": "But I guess, how do you think about this kind of playing out",
+  "zh": "但我想问，你觉得这件事会怎么演变"
+ },
+ {
+  "seg": 517,
+  "start": 2205.593,
+  "end": 2214.616,
+  "speaker": "Unknown",
+  "en": "Because it feels like enabling technology for merchants to be receptive to AI commerce is highly, highly, highly valuable.",
+  "zh": "因为感觉上，让商家能够接纳 AI 商业的赋能技术是极其、极其、极其有价值的。"
+ },
+ {
+  "seg": 518,
+  "start": 2215.096,
+  "end": 2219.998,
+  "speaker": "Unknown",
+  "en": "And by the way, at the same time, helping the antagonistic ones...",
+  "zh": "而且顺便说一句，与此同时，帮助那些持敌对态度的……"
+ },
+ {
+  "seg": 519,
+  "start": 2220.638,
+  "end": 2223.199,
+  "speaker": "Unknown",
+  "en": "Filter out the agent of commerce is also highly valuable.",
+  "zh": "过滤掉智能体商业也是极有价值的。"
+ },
+ {
+  "seg": 520,
+  "start": 2223.439,
+  "end": 2225.58,
+  "speaker": "Unknown",
+  "en": "Because again, sometimes they have a reason to do that.",
+  "zh": "因为再说了，有时候他们有理由这么做。"
+ },
+ {
+  "seg": 521,
+  "start": 2225.66,
+  "end": 2245.328,
+  "speaker": "Unknown",
+  "en": "But if I can make it so that, you know, ChatGPT services like, yeah, you should buy here, and I make that as simple as possible, it just, it goes without saying, like, I'm probably going to get a lot more transactions than somebody that inserts 15 CAPTCHAs and says, in order to proceed with this, and then Muse is going to say, hey, interrupt your NAP, you got to go do these 15 things.",
+  "zh": "但如果我能做到让 ChatGPT 这类服务说，对，你应该在这里买，并且我把这件事做得尽可能简单，那不言而喻，我很可能会比那个插入 15 道 CAPTCHA 并说\"为了继续操作\"的商家达成多得多的交易，然后 Muse 会说，嘿，打断你的 NAP，你得去做这 15 件事。"
+ },
+ {
+  "seg": 522,
+  "start": 2245.388,
+  "end": 2248.59,
+  "speaker": "Unknown",
+  "en": "No, no, no, you're going to go with the one that is receptive to AI commerce.",
+  "zh": "不，不，不，你会选择那个对 AI 商业持接纳态度的。"
+ },
+ {
+  "seg": 523,
+  "start": 2248.69,
+  "end": 2248.91,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 524,
+  "start": 2249.63,
+  "end": 2257.758,
+  "speaker": "Unknown",
+  "en": "I mean, I think this is one of the most fun fronts to watch in agent and commerce.",
+  "zh": "我是说，我觉得这是智能体与商业领域最值得关注的有趣战线之一。"
+ },
+ {
+  "seg": 525,
+  "start": 2257.798,
+  "end": 2260.941,
+  "speaker": "Unknown",
+  "en": "And I think we're going to get multiple different versions of this.",
+  "zh": "而且我认为我们会看到这一点的多个不同版本。"
+ },
+ {
+  "seg": 526,
+  "start": 2260.961,
+  "end": 2264.984,
+  "speaker": "Unknown",
+  "en": "We have Amazon, which I think has many reasons to block agents, as you said.",
+  "zh": "我们有 Amazon，我认为它有很多屏蔽智能体的理由，正如你所说。"
+ },
+ {
+  "seg": 527,
+  "start": 2265.004,
+  "end": 2267.206,
+  "speaker": "Unknown",
+  "en": "They're effectively in the advertising business.",
+  "zh": "他们实际上身处广告行业。"
+ },
+ {
+  "seg": 528,
+  "start": 2268.027,
+  "end": 2270.527,
+  "speaker": "Unknown",
+  "en": "You have Walmart, which is very similar.",
+  "zh": "你有 Walmart，情况非常类似。"
+ },
+ {
+  "seg": 529,
+  "start": 2270.868,
+  "end": 2273.368,
+  "speaker": "Unknown",
+  "en": "Right now, it hasn't taken that step.",
+  "zh": "目前，它还没有走出那一步。"
+ },
+ {
+  "seg": 530,
+  "start": 2273.388,
+  "end": 2281.029,
+  "speaker": "Unknown",
+  "en": "And in fact, you might argue that if you are one of the largest retailers on Earth with the best last-mile delivery, that this is all good for you.",
+  "zh": "而且事实上，你可能会争辩说，如果你是地球上最大的零售商之一、拥有最好的最后一公里配送，那这一切对你都是好事。"
+ },
+ {
+  "seg": 531,
+  "start": 2282.09,
+  "end": 2290.011,
+  "speaker": "Unknown",
+  "en": "And then you have this series of merchants that are under the Shopify umbrella, which are a lot of small businesses, that really, this is probably a new vital channel.",
+  "zh": "然后你还有 Shopify 体系下的这一系列商家，它们很多是小企业，这对此类企业来说很可能是一条全新的重要渠道。"
+ },
+ {
+  "seg": 532,
+  "start": 2290.251,
+  "end": 2295.352,
+  "speaker": "Unknown",
+  "en": "So maybe there's fear on the Amazon side, maybe there's greed on the Walmart side, and maybe there's",
+  "zh": "所以也许 Amazon 那边有恐惧，也许 Walmart 那边有贪婪，也许"
+ },
+ {
+  "seg": 533,
+  "start": 2296.272,
+  "end": 2299.174,
+  "speaker": "Unknown",
+  "en": "You know, no choice on the SMB side.",
+  "zh": "你知道，SMB 那边别无选择。"
+ },
+ {
+  "seg": 534,
+  "start": 2299.715,
+  "end": 2306.019,
+  "speaker": "Unknown",
+  "en": "And each of these actors or each of these merchants are going to experiment with how they deal with agents.",
+  "zh": "而这些参与者中的每一个，或者说这些商家中的每一个，都会试验他们如何应对智能体。"
+ },
+ {
+  "seg": 535,
+  "start": 2306.94,
+  "end": 2317.468,
+  "speaker": "Unknown",
+  "en": "I think this reminds me a little bit, I know we sort of have a different view on this, of how open banking was rolled out, which is, do I have the right as an Amazon customer to delegate",
+  "zh": "我觉得这让我有点想起，我知道我们对此看法有些不同，开放银行是如何推行的，也就是，作为一个 Amazon 客户，我是否有权委托"
+ },
+ {
+  "seg": 536,
+  "start": 2318.128,
+  "end": 2319.388,
+  "speaker": "Unknown",
+  "en": "Can I log in to an agent?",
+  "zh": "我可以登录到一个智能体吗？"
+ },
+ {
+  "seg": 537,
+  "start": 2319.748,
+  "end": 2322.009,
+  "speaker": "Unknown",
+  "en": "And does Amazon have the right to say no?",
+  "zh": "而 Amazon 有权说不行吗？"
+ },
+ {
+  "seg": 538,
+  "start": 2322.029,
+  "end": 2325.589,
+  "speaker": "Unknown",
+  "en": "This is what happened with Plaid and Chase and the banks.",
+  "zh": "这就是 Plaid 和 Chase 以及各银行之间发生过的事。"
+ },
+ {
+  "seg": 539,
+  "start": 2326.13,
+  "end": 2337.792,
+  "speaker": "Unknown",
+  "en": "And in the end, what tended to happen was there was this long negotiated settlement where the likes of Chase said, hey, you can access, you do have the right to this information, but only on my APIs.",
+  "zh": "而最终，通常发生的情况是有一场漫长的谈判和解，Chase 这类机构说，嘿，你可以访问，你确实有权获得这些信息，但只能通过我的 API。"
+ },
+ {
+  "seg": 540,
+  "start": 2337.832,
+  "end": 2342.793,
+  "speaker": "Unknown",
+  "en": "And my APIs limit what information I give you, they tokenize the bank accounts, and I might charge you some money for it.",
+  "zh": "而且我的 API 限制我给你的信息，它们对银行账户做令牌化处理，而且我可能还要为此向你收点钱。"
+ },
+ {
+  "seg": 541,
+  "start": 2344.693,
+  "end": 2351.885,
+  "speaker": "Unknown",
+  "en": "Actually, I think the interesting question is, I think we may have plenty of opportunities or plenty of merchants who just welcome agents.",
+  "zh": "实际上，我认为有趣的问题在于，我想我们可能会有很多机会，或者说很多商家直接欢迎智能体。"
+ },
+ {
+  "seg": 542,
+  "start": 2352.846,
+  "end": 2354.869,
+  "speaker": "Unknown",
+  "en": "We may also have merchants who have their own agents.",
+  "zh": "我们也可能会有拥有自己智能体的商家。"
+ },
+ {
+  "seg": 543,
+  "start": 2355.47,
+  "end": 2357.814,
+  "speaker": "Unknown",
+  "en": "In fact, this is what happens if I go to a Best Buy",
+  "zh": "事实上，如果我去 Best Buy"
+ },
+ {
+  "seg": 544,
+  "start": 2358.673,
+  "end": 2360.233,
+  "speaker": "Unknown",
+  "en": "And I want to buy a flat screen TV.",
+  "zh": "我想买一台平板电视。"
+ },
+ {
+  "seg": 545,
+  "start": 2360.874,
+  "end": 2367.155,
+  "speaker": "Unknown",
+  "en": "I assume there'll be a salesperson there with an agenda and he or she will say, well, let me show you some flat screen TVs.",
+  "zh": "我猜那里会有一个带着自己打算的销售人员，他或她会说，好，让我给你介绍几款平板电视。"
+ },
+ {
+  "seg": 546,
+  "start": 2367.195,
+  "end": 2371.056,
+  "speaker": "Unknown",
+  "en": "Now their job is to help me, but their job is also to get a commission.",
+  "zh": "现在他们的工作是帮助我，但他们的工作也是拿提成。"
+ },
+ {
+  "seg": 547,
+  "start": 2371.116,
+  "end": 2377.357,
+  "speaker": "Unknown",
+  "en": "So we might have, in the case of Chase and open banking, it was much more a case of like security and control.",
+  "zh": "所以我们可能会有，在 Chase 和开放银行的案例中，更多是安全和控制的问题。"
+ },
+ {
+  "seg": 548,
+  "start": 2377.938,
+  "end": 2381.618,
+  "speaker": "Unknown",
+  "en": "In the case of Amazon, it might be, I am an opinionated API.",
+  "zh": "而在 Amazon 的案例中，可能是，我是一个有自己主张的 API。"
+ },
+ {
+  "seg": 549,
+  "start": 2382.379,
+  "end": 2388.1,
+  "speaker": "Unknown",
+  "en": "I have an opinion on what you should buy, Alex, based on many, many different sort of data points about you.",
+  "zh": "我对于你该买什么有自己的看法，Alex，基于关于你的非常非常多的不同数据点。"
+ },
+ {
+  "seg": 550,
+  "start": 2388.86,
+  "end": 2391.862,
+  "speaker": "Unknown",
+  "en": "And then my agent may have an opinion about what I want.",
+  "zh": "然后我的智能体可能对「我想要什么」有它自己的看法。"
+ },
+ {
+  "seg": 551,
+  "start": 2391.942,
+  "end": 2396.045,
+  "speaker": "Unknown",
+  "en": "And so that's going to be a fascinating battle or communication.",
+  "zh": "所以那将会是一场引人入胜的对抗或交流。"
+ },
+ {
+  "seg": 552,
+  "start": 2396.065,
+  "end": 2399.247,
+  "speaker": "Unknown",
+  "en": "And in the end, I think consumers probably win.",
+  "zh": "但最终，我认为消费者可能会赢。"
+ },
+ {
+  "seg": 553,
+  "start": 2400.236,
+  "end": 2403.159,
+  "speaker": "Unknown",
+  "en": "But we don't know what that's gonna look like going forward.",
+  "zh": "不过我们不知道未来会是什么样子。"
+ },
+ {
+  "seg": 554,
+  "start": 2403.42,
+  "end": 2403.62,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 555,
+  "start": 2404.261,
+  "end": 2409.467,
+  "speaker": "Unknown",
+  "en": "Well, maybe on that, like, what do you think is overhyped versus underhyped in terms of everything that's happening?",
+  "zh": "那，也许就从这个说开吧，就目前发生的这一切，你觉得什么被高估了、什么被低估了？"
+ },
+ {
+  "seg": 556,
+  "start": 2409.487,
+  "end": 2415.434,
+  "speaker": "Unknown",
+  "en": "I mean, in general, my rule of thumb is that Silicon Valley overhypes things, but then the rest of the world underhypes things.",
+  "zh": "我是说，总体而言，我的经验法则是：硅谷会高估事物，但世界其他地方会低估事物。"
+ },
+ {
+  "seg": 557,
+  "start": 2415.554,
+  "end": 2418.317,
+  "speaker": "Unknown",
+  "en": "So, you know, everything here, every conversation is AI.",
+  "zh": "所以，你看，这里每一场对话都是关于 AI 的。"
+ },
+ {
+  "seg": 558,
+  "start": 2419.618,
+  "end": 2424.96,
+  "speaker": "Unknown",
+  "en": "And it feels like you go to Iowa, nobody's talking about AI, but then you show it to them like, holy shit, how is this real?",
+  "zh": "而感觉上，你去了爱荷华州，没人在谈 AI，但你演示给他们看，他们会说：我的天，这怎么会是真的？"
+ },
+ {
+  "seg": 559,
+  "start": 2425.34,
+  "end": 2429.582,
+  "speaker": "Unknown",
+  "en": "Because they tried it three years ago and I just bought a new Tesla.",
+  "zh": "因为他们三年前试过，而我刚买了辆新特斯拉。"
+ },
+ {
+  "seg": 560,
+  "start": 2429.982,
+  "end": 2432.163,
+  "speaker": "Unknown",
+  "en": "And I remember I had an old Model 3.",
+  "zh": "我记得我有一辆旧 Model 3。"
+ },
+ {
+  "seg": 561,
+  "start": 2432.343,
+  "end": 2433.863,
+  "speaker": "Unknown",
+  "en": "I think this is a good metaphor for what we're talking about.",
+  "zh": "我觉得这是对我们所谈内容的一个很好的比喻。"
+ },
+ {
+  "seg": 562,
+  "start": 2433.883,
+  "end": 2437.564,
+  "speaker": "Unknown",
+  "en": "Like I had an old Model 3 in 2017 with self-driving.",
+  "zh": "就是我在 2017 年有一辆带自动驾驶的旧 Model 3。"
+ },
+ {
+  "seg": 563,
+  "start": 2437.905,
+  "end": 2439.165,
+  "speaker": "Unknown",
+  "en": "Didn't work at all, it was a joke.",
+  "zh": "完全不好使，就是个笑话。"
+ },
+ {
+  "seg": 564,
+  "start": 2439.705,
+  "end": 2441.446,
+  "speaker": "Unknown",
+  "en": "Eventually got a different car.",
+  "zh": "后来我换了别的车。"
+ },
+ {
+  "seg": 565,
+  "start": 2441.866,
+  "end": 2443.567,
+  "speaker": "Unknown",
+  "en": "And now it's like, it actually works.",
+  "zh": "而现在，它真的能用了。"
+ },
+ {
+  "seg": 566,
+  "start": 2444.047,
+  "end": 2446.548,
+  "speaker": "Unknown",
+  "en": "But I was skeptical because I was used to the 2017 thing.",
+  "zh": "但我曾经是持怀疑态度的，因为我习惯了 2017 年那个样子。"
+ },
+ {
+  "seg": 567,
+  "start": 2446.568,
+  "end": 2446.768,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是啊。"
+ },
+ {
+  "seg": 568,
+  "start": 2447.908,
+  "end": 2460.32,
+  "speaker": "Unknown",
+  "en": "And I feel like a lot of that is playing out with AI right now, where if you had tried ChatGPT with all the hallucinations and everything in 2022, you're like, oh, it's a cute toy for writing poems or doing my homework in English class or something.",
+  "zh": "我觉得现在 AI 上也正在上演很多类似的事情：如果你在 2022 年试过 ChatGPT，带着那些幻觉之类的问题，你会觉得，哦，这玩具挺可爱，可以写写诗、帮我完成英语课的作业之类的。"
+ },
+ {
+  "seg": 569,
+  "start": 2460.7,
+  "end": 2462.602,
+  "speaker": "Unknown",
+  "en": "This is not going to actually buy things for me.",
+  "zh": "它不会真的帮我买东西。"
+ },
+ {
+  "seg": 570,
+  "start": 2462.622,
+  "end": 2463.483,
+  "speaker": "Unknown",
+  "en": "This is not going to write.",
+  "zh": "它不会真的写东西。"
+ },
+ {
+  "seg": 571,
+  "start": 2463.683,
+  "end": 2464.884,
+  "speaker": "Unknown",
+  "en": "It does all these things right now.",
+  "zh": "而现在它把这些事都做到了。"
+ },
+ {
+  "seg": 572,
+  "start": 2464.944,
+  "end": 2469.188,
+  "speaker": "Unknown",
+  "en": "So I guess what do you think is underhyped versus overhyped in terms of everything that's going on?",
+  "zh": "所以我想问，就目前发生的一切，你觉得什么被低估了、什么被高估了？"
+ },
+ {
+  "seg": 573,
+  "start": 2469.859,
+  "end": 2472.46,
+  "speaker": "Unknown",
+  "en": "Yeah, so maybe I'll start with overhyped.",
+  "zh": "好，也许我先说被高估的。"
+ },
+ {
+  "seg": 574,
+  "start": 2472.501,
+  "end": 2484.407,
+  "speaker": "Unknown",
+  "en": "Like, I don't think we're going to get a bank run on savings deposits where agents are going to sort of maximize yield and move my money around between different accounts.",
+  "zh": "比如，我不认为我们会看到储蓄存款的银行挤兑，即智能体去最大化收益、把我的钱在不同账户之间挪来挪去。"
+ },
+ {
+  "seg": 575,
+  "start": 2484.427,
+  "end": 2485.308,
+  "speaker": "Unknown",
+  "en": "I'm a perfect example.",
+  "zh": "我就是个完美的例子。"
+ },
+ {
+  "seg": 576,
+  "start": 2485.488,
+  "end": 2490.771,
+  "speaker": "Unknown",
+  "en": "I am a very happy, you know, Mercury personal account customer.",
+  "zh": "我是一个非常满意的 Mercury 个人账户客户。"
+ },
+ {
+  "seg": 577,
+  "start": 2490.791,
+  "end": 2492.092,
+  "speaker": "Unknown",
+  "en": "I'm also a Chase customer.",
+  "zh": "我同时也是 Chase 的客户。"
+ },
+ {
+  "seg": 578,
+  "start": 2493.152,
+  "end": 2498.597,
+  "speaker": "Unknown",
+  "en": "And, you know, ideally I should put all my savings in Mercury where I get a very good savings rate.",
+  "zh": "而且，你知道，理想情况下，我应该把所有存款都放进 Mercury，因为那里的储蓄利率非常好。"
+ },
+ {
+  "seg": 579,
+  "start": 2499.037,
+  "end": 2508.124,
+  "speaker": "Unknown",
+  "en": "And then at the last moment when I have to make bills, sort of pay bills, I'll move over the cash to, you know, over to my existing bank Chase.",
+  "zh": "然后在最后一刻，当我必须付账单时，再把现金转到，你知道，转到我现在用的银行 Chase。"
+ },
+ {
+  "seg": 580,
+  "start": 2508.825,
+  "end": 2513.588,
+  "speaker": "Unknown",
+  "en": "But their bill pay just works better and it has more integrations and I have more kind of setup.",
+  "zh": "但他们的账单支付功能就是更好用，集成更多，而且我已经做了更多设置。"
+ },
+ {
+  "seg": 581,
+  "start": 2513.628,
+  "end": 2517.411,
+  "speaker": "Unknown",
+  "en": "So I think there's enough friction in the world where",
+  "zh": "所以我觉得现实世界里有足够的摩擦，"
+ },
+ {
+  "seg": 582,
+  "start": 2518.292,
+  "end": 2522.735,
+  "speaker": "Unknown",
+  "en": "We won't see some of the crazy volatility in financial services.",
+  "zh": "我们不会在金融服务领域看到某种疯狂的波动性。"
+ },
+ {
+  "seg": 583,
+  "start": 2524.636,
+  "end": 2531.84,
+  "speaker": "Unknown",
+  "en": "I think maybe what's underhyped, there is a lot of demand that is unmonetized.",
+  "zh": "我觉得也许被低估的是：有大量需求尚未被货币化。"
+ },
+ {
+  "seg": 584,
+  "start": 2532.86,
+  "end": 2538.383,
+  "speaker": "Unknown",
+  "en": "And this is both at the sort of part of the world where you could expect more GDP.",
+  "zh": "这既发生在那个你本可以期待更多 GDP 的世界的一部分。"
+ },
+ {
+  "seg": 585,
+  "start": 2538.503,
+  "end": 2544.087,
+  "speaker": "Unknown",
+  "en": "An example of this is we actually have a group cycling WhatsApp group and we have a person on that group",
+  "zh": "一个例子是，我们其实有一个骑行 WhatsApp 群，群里有一位成员"
+ },
+ {
+  "seg": 586,
+  "start": 2544.827,
+  "end": 2553.837,
+  "speaker": "Unknown",
+  "en": "Who every, I don't know, it seems like every six months when, you know, our friend Seth comes up with a new recommendation for what tires to get because he looks at rolling resistance.",
+  "zh": "每隔——我不确定——似乎每六个月，我们的朋友 Seth 就会提出一次关于该买什么轮胎的新推荐，因为他研究滚动阻力。"
+ },
+ {
+  "seg": 587,
+  "start": 2553.877,
+  "end": 2557.781,
+  "speaker": "Unknown",
+  "en": "And every time he does this, I'm like, oh, I should remember to buy those tires because they're safer.",
+  "zh": "而每次他这么做，我都会想：哦，我应该记得买那些轮胎，因为它们更安全。"
+ },
+ {
+  "seg": 588,
+  "start": 2558.887,
+  "end": 2561.849,
+  "speaker": "Unknown",
+  "en": "But I only buy it every sort of two years.",
+  "zh": "但我大概每两年才买一次。"
+ },
+ {
+  "seg": 589,
+  "start": 2562.389,
+  "end": 2567.753,
+  "speaker": "Unknown",
+  "en": "If my agent was in that group chat, I would be buying tires every time Seth makes a new recommendation.",
+  "zh": "如果我的智能体在那个群聊里，每次 Seth 提出新的推荐，我都会买轮胎。"
+ },
+ {
+  "seg": 590,
+  "start": 2568.614,
+  "end": 2572.436,
+  "speaker": "Unknown",
+  "en": "You're dramatically under-monetized on your bike equipment, Alex.",
+  "zh": "Alex，你在自行车装备上的消费被严重货币化不足了。"
+ },
+ {
+  "seg": 591,
+  "start": 2572.516,
+  "end": 2581.482,
+  "speaker": "Unknown",
+  "en": "If the agent could find things that could help you with cycling and just bought them for you, there's more GDP coming out of Alex on cycling.",
+  "zh": "如果智能体能找到能帮你骑行的东西并直接帮你买下来，Alex 在骑行上会贡献更多的 GDP。"
+ },
+ {
+  "seg": 592,
+  "start": 2582.263,
+  "end": 2583.043,
+  "speaker": "Unknown",
+  "en": "That is under-hyped.",
+  "zh": "这就是被低估的。"
+ },
+ {
+  "seg": 593,
+  "start": 2584.264,
+  "end": 2586.565,
+  "speaker": "Unknown",
+  "en": "At the same time, agents are gonna save us money.",
+  "zh": "与此同时，智能体会帮我们省钱。"
+ },
+ {
+  "seg": 594,
+  "start": 2586.705,
+  "end": 2597.807,
+  "speaker": "Unknown",
+  "en": "So like, you know, there's probably many places where I'm either, I have some subscription and it's just been a hassle to cancel or I did some trial and I forgot about it.",
+  "zh": "比如，你知道，可能有很多地方，我要么有一个订阅，而取消它一直很麻烦，要么我做过某次试用然后忘了它。"
+ },
+ {
+  "seg": 595,
+  "start": 2598.347,
+  "end": 2607.649,
+  "speaker": "Unknown",
+  "en": "So I think agents will simultaneously save us money, maybe use that savings to help us buy, you know, buy sort of, you know, new items.",
+  "zh": "所以我觉得智能体会同时帮我们省钱，也许会用那些省下的钱帮我们购买，你知道，购买新的物品。"
+ },
+ {
+  "seg": 596,
+  "start": 2607.709,
+  "end": 2613.891,
+  "speaker": "Unknown",
+  "en": "So I think we have yet to experience the always on nature of these agents",
+  "zh": "所以我觉得我们尚未体验到这些智能体全天候在线的特性。"
+ },
+ {
+  "seg": 597,
+  "start": 2614.932,
+  "end": 2618.955,
+  "speaker": "Unknown",
+  "en": "And as far as I can tell, human desires and needs are infinite.",
+  "zh": "而据我所知，人类的欲望和需求是无限的。"
+ },
+ {
+  "seg": 598,
+  "start": 2619.155,
+  "end": 2622.198,
+  "speaker": "Unknown",
+  "en": "So there's always something else that I will want.",
+  "zh": "所以永远会有我想要的其他东西。"
+ },
+ {
+  "seg": 599,
+  "start": 2622.258,
+  "end": 2631.246,
+  "speaker": "Unknown",
+  "en": "And so I think that is, that's... Maybe on this kind of antagonistic versus conciliatory or whatever the opposite of antagonistic would be here.",
+  "zh": "所以我觉得那就是，那是……也许就这个「对抗性」对「和解性」——或者说对抗性在这里的反义词是什么——这个话题。"
+ },
+ {
+  "seg": 600,
+  "start": 2631.266,
+  "end": 2637.652,
+  "speaker": "Unknown",
+  "en": "I mean, a lot of what people are very excited about with the agents is it gets something for you that is intentionally hard.",
+  "zh": "我是说，人们对智能体感到非常兴奋的很多原因在于，它能为你做成一件刻意很难的事。"
+ },
+ {
+  "seg": 601,
+  "start": 2638.212,
+  "end": 2640.534,
+  "speaker": "Unknown",
+  "en": "And it's not really subject to the laws of economics.",
+  "zh": "而且它其实并不受经济学规律的约束。"
+ },
+ {
+  "seg": 602,
+  "start": 2640.594,
+  "end": 2644.056,
+  "speaker": "Unknown",
+  "en": "The laws of economics are like, you know, the cure for high prices is high prices.",
+  "zh": "经济学规律是，你知道的，高价的解药就是高价。"
+ },
+ {
+  "seg": 603,
+  "start": 2644.656,
+  "end": 2657.966,
+  "speaker": "Unknown",
+  "en": "If it's really hard to get a restaurant reservation because you have to call at 7 a.m., well, now everybody has a tool that calls at 7 a.m., and therefore, the first five people that have the tool, now they have an amazing tool.",
+  "zh": "如果订餐厅很难，因为你必须早上 7 点打电话，那么，现在每个人都有一个早上 7 点打电话的工具了，因此，最早拥有这个工具的前五个人，现在他们有了一个很棒的工具。"
+ },
+ {
+  "seg": 604,
+  "start": 2658.666,
+  "end": 2663.89,
+  "speaker": "Unknown",
+  "en": "The last five people, like, no, no, no, like, it's, you know, it's so crowded, nobody goes here anymore kind of thing.",
+  "zh": "最后的五个人呢，不、不、不，就像那个笑话说的，这地方太挤了，没人再来这里了，诸如此类。"
+ },
+ {
+  "seg": 605,
+  "start": 2664.45,
+  "end": 2665.291,
+  "speaker": "Unknown",
+  "en": "So, um...",
+  "zh": "所以，嗯……"
+ },
+ {
+  "seg": 606,
+  "start": 2666.191,
+  "end": 2668.193,
+  "speaker": "Unknown",
+  "en": "How do you think the world changes?",
+  "zh": "你认为世界会如何改变？"
+ },
+ {
+  "seg": 607,
+  "start": 2668.293,
+  "end": 2678.223,
+  "speaker": "Unknown",
+  "en": "Because it feels like right now, this is the weird position that we're in, is that a lot of the early wins, if you will, the consumer successes are around like, oh, it saved me money, it did this.",
+  "zh": "因为感觉现在，我们正处于一个奇怪的位置，就是很多早期红利，可以这么说，消费者层面的成功都是围绕诸如「哦，它帮我省了钱，它做了这个」。"
+ },
+ {
+  "seg": 608,
+  "start": 2678.643,
+  "end": 2680.745,
+  "speaker": "Unknown",
+  "en": "It's because of the asymmetry, right?",
+  "zh": "这是因为不对称性，对吧？"
+ },
+ {
+  "seg": 609,
+  "start": 2680.766,
+  "end": 2682.747,
+  "speaker": "Unknown",
+  "en": "Like a very small number of people have the tool.",
+  "zh": "只有极少数人拥有这个工具。"
+ },
+ {
+  "seg": 610,
+  "start": 2683.388,
+  "end": 2686.653,
+  "speaker": "Unknown",
+  "en": "The merchant or the counterparty has no idea what's going on.",
+  "zh": "商家或对手方完全不知道发生了什么。"
+ },
+ {
+  "seg": 611,
+  "start": 2686.974,
+  "end": 2687.494,
+  "speaker": "Unknown",
+  "en": "I can't wait.",
+  "zh": "我等不及了。"
+ },
+ {
+  "seg": 612,
+  "start": 2687.514,
+  "end": 2694.825,
+  "speaker": "Unknown",
+  "en": "You know how, like, as a consumer, I've been trained to say, no, no, I want to talk to an agent, or press zero, or it's like you can look up, how do you get out of the stupid phone tree?",
+  "zh": "你知道的，作为消费者，我被训练成会说，不、不，我要和坐席谈，或者按零，或者你可以去查，怎么逃出那个愚蠢的电话语音树？"
+ },
+ {
+  "seg": 613,
+  "start": 2695.466,
+  "end": 2698.972,
+  "speaker": "Unknown",
+  "en": "I can't wait for the other side to say, no, I have to talk to Terry.",
+  "zh": "我等不及对面说，不，我必须和 Terry 谈。"
+ },
+ {
+  "seg": 614,
+  "start": 2699.372,
+  "end": 2700.313,
+  "speaker": "Unknown",
+  "en": "I ain't talking to Muse.",
+  "zh": "我才不跟 Muse 谈呢。"
+ },
+ {
+  "seg": 615,
+  "start": 2700.813,
+  "end": 2701.713,
+  "speaker": "Unknown",
+  "en": "Wouldn't that be funny?",
+  "zh": "那不是很好笑吗？"
+ },
+ {
+  "seg": 616,
+  "start": 2701.733,
+  "end": 2702.614,
+  "speaker": "Unknown",
+  "en": "You call Comcast.",
+  "zh": "你打给 Comcast。"
+ },
+ {
+  "seg": 617,
+  "start": 2702.634,
+  "end": 2703.434,
+  "speaker": "Unknown",
+  "en": "You're like, I hate you.",
+  "zh": "你说，我恨你们。"
+ },
+ {
+  "seg": 618,
+  "start": 2703.494,
+  "end": 2703.994,
+  "speaker": "Unknown",
+  "en": "You suck.",
+  "zh": "你们烂透了。"
+ },
+ {
+  "seg": 619,
+  "start": 2704.034,
+  "end": 2704.895,
+  "speaker": "Unknown",
+  "en": "Your service is terrible.",
+  "zh": "你们的服务糟透了。"
+ },
+ {
+  "seg": 620,
+  "start": 2704.915,
+  "end": 2706.055,
+  "speaker": "Unknown",
+  "en": "You went down 10 times.",
+  "zh": "你们宕机了十次。"
+ },
+ {
+  "seg": 621,
+  "start": 2706.116,
+  "end": 2707.056,
+  "speaker": "Unknown",
+  "en": "I do this all the time.",
+  "zh": "我一直这么干。"
+ },
+ {
+  "seg": 622,
+  "start": 2707.616,
+  "end": 2712.919,
+  "speaker": "Unknown",
+  "en": "And then, but I, of course, have, I actually did this with Codex because it turned out Comcast is blocking Muse.",
+  "zh": "然后，我，当然，我实际上用 Codex 这么干过，因为结果发现 Comcast 屏蔽了 Muse。"
+ },
+ {
+  "seg": 623,
+  "start": 2713.759,
+  "end": 2717.121,
+  "speaker": "Unknown",
+  "en": "They know the IP addresses or something, so it won't let you log in.",
+  "zh": "他们知道那些 IP 地址什么的，所以不让你登录。"
+ },
+ {
+  "seg": 624,
+  "start": 2717.581,
+  "end": 2722.484,
+  "speaker": "Unknown",
+  "en": "So I just have ChatGPT, Codex, Astra, like log in on my computer, does everything.",
+  "zh": "所以我就让 ChatGPT、Codex、Astra 之类的在我电脑上登录，把所有事都办了。"
+ },
+ {
+  "seg": 625,
+  "start": 2722.824,
+  "end": 2726.166,
+  "speaker": "Unknown",
+  "en": "But I'm waiting for the day when Comcast says, we know this ain't you.",
+  "zh": "但我在等那么一天，Comcast 说，我们知道这不是你本人。"
+ },
+ {
+  "seg": 626,
+  "start": 2726.766,
+  "end": 2726.946,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 627,
+  "start": 2726.966,
+  "end": 2730.712,
+  "speaker": "Unknown",
+  "en": "Like put Alex on the line because I'm not giving something to his agent.",
+  "zh": "比如把 Alex 接上电话，因为我不会把东西给他的智能体。"
+ },
+ {
+  "seg": 628,
+  "start": 2731.092,
+  "end": 2733.476,
+  "speaker": "Unknown",
+  "en": "And that's going to, because right now, again, that's what I mean by the asymmetry.",
+  "zh": "而这将会，因为现在，再说一次，这就是我说的不对称性。"
+ },
+ {
+  "seg": 629,
+  "start": 2733.496,
+  "end": 2737.842,
+  "speaker": "Unknown",
+  "en": "It's like the small number of insiders have this tool, but you know what?",
+  "zh": "就像只有少数内部人拥有这个工具，但是你知道吗？"
+ },
+ {
+  "seg": 630,
+  "start": 2738.023,
+  "end": 2742.81,
+  "speaker": "Unknown",
+  "en": "It's not gonna, you can't scale that infinitely because the world is going to adapt.",
+  "zh": "这不会，你没法无限放大它，因为世界会适应的。"
+ },
+ {
+  "seg": 631,
+  "start": 2743.44,
+  "end": 2752.543,
+  "speaker": "Unknown",
+  "en": "Although I do have news for Comcast, the GBT Astra and Alex are about the same sort of foe, so be careful if you get them on the phone.",
+  "zh": "不过我得告诉 Comcast 一个消息，GBT、Astra 和 Alex 差不多是同一类对手，所以如果你把他们接到电话上要小心。"
+ },
+ {
+  "seg": 632,
+  "start": 2753.023,
+  "end": 2757.265,
+  "speaker": "Unknown",
+  "en": "Yeah, I think you're pointing out something that we have yet to appreciate, which is",
+  "zh": "是的，我觉得你指出了某种我们还没有真正领会的东西，那就是"
+ },
+ {
+  "seg": 633,
+  "start": 2758.673,
+  "end": 2765.52,
+  "speaker": "Unknown",
+  "en": "What happens when you actually read the terms and conditions and go to the edge of what is allowed and disallowed?",
+  "zh": "当你真的去读那些条款和条件，并且走到允许与不允许的边界时，会发生什么？"
+ },
+ {
+  "seg": 634,
+  "start": 2765.86,
+  "end": 2769.563,
+  "speaker": "Unknown",
+  "en": "So an example, the other day I was looking at flights.",
+  "zh": "举个例子，前几天我在看航班。"
+ },
+ {
+  "seg": 635,
+  "start": 2769.804,
+  "end": 2777.13,
+  "speaker": "Unknown",
+  "en": "I wanted to buy a flight that was on the edge of the price that I could pay that would get me an upgrade.",
+  "zh": "我想买一张机票，价格正好处于能让我获得升舱的临界点上。"
+ },
+ {
+  "seg": 636,
+  "start": 2777.831,
+  "end": 2779.172,
+  "speaker": "Unknown",
+  "en": "And that's a kind of hard thing to do.",
+  "zh": "这是一件挺难做到的事。"
+ },
+ {
+  "seg": 637,
+  "start": 2779.252,
+  "end": 2780.173,
+  "speaker": "Unknown",
+  "en": "Sometimes I overshoot it.",
+  "zh": "有时我会买过头。"
+ },
+ {
+  "seg": 638,
+  "start": 2780.253,
+  "end": 2781.474,
+  "speaker": "Unknown",
+  "en": "My agent did that perfectly.",
+  "zh": "我的智能体做得完美无缺。"
+ },
+ {
+  "seg": 639,
+  "start": 2783.596,
+  "end": 2789.221,
+  "speaker": "Unknown",
+  "en": "Or, you know, sort of any case where it's very difficult to uncover the terms and conditions.",
+  "zh": "或者，你知道的，任何那种很难弄清条款和条件的情况。"
+ },
+ {
+  "seg": 640,
+  "start": 2790.322,
+  "end": 2793.644,
+  "speaker": "Unknown",
+  "en": "A good example might be, what happens to rewards?",
+  "zh": "一个很好的例子可能是，奖励会发生什么？"
+ },
+ {
+  "seg": 641,
+  "start": 2793.684,
+  "end": 2803.172,
+  "speaker": "Unknown",
+  "en": "Like, rewards on cards are only there because I get you this very sort of big headline reward on dining, but then you also spend it on fuel.",
+  "zh": "比如，信用卡的奖励之所以存在，是因为我给你一个在餐饮方面非常大的头版奖励，但然后你也在燃油上消费。"
+ },
+ {
+  "seg": 642,
+  "start": 2804.053,
+  "end": 2815.779,
+  "speaker": "Unknown",
+  "en": "And if agents are intermediating all of our transactions, and I'm only getting points on the card that gets me, I'm only using the card where I get points, the whole points reward ecosystem falls apart.",
+  "zh": "而如果智能体在中介我们所有的交易，而我只在能给我积分的卡上消费，我只用那张有积分的卡，那么整个积分奖励生态系统就会崩塌。"
+ },
+ {
+  "seg": 643,
+  "start": 2815.799,
+  "end": 2822.703,
+  "speaker": "Unknown",
+  "en": "So many, many of these things could start, anything with a sort of breakage model in it is going to start to fall apart.",
+  "zh": "所以很多、很多东西都可能开始，任何带有某种「损耗」模型的东西都会开始崩塌。"
+ },
+ {
+  "seg": 644,
+  "start": 2823.663,
+  "end": 2825.704,
+  "speaker": "Unknown",
+  "en": "And then we'll have to have new terms and conditions.",
+  "zh": "然后我们将不得不有新的条款和条件。"
+ },
+ {
+  "seg": 645,
+  "start": 2825.764,
+  "end": 2828.746,
+  "speaker": "Unknown",
+  "en": "So maybe that's better, maybe that's worse.",
+  "zh": "所以也许那更好，也许那更糟。"
+ },
+ {
+  "seg": 646,
+  "start": 2829.166,
+  "end": 2831.307,
+  "speaker": "Unknown",
+  "en": "I don't know, but it'll certainly be different.",
+  "zh": "我不知道，但它肯定会不同。"
+ },
+ {
+  "seg": 647,
+  "start": 2832.418,
+  "end": 2838.36,
+  "speaker": "Unknown",
+  "en": "And maybe what are you, kind of with all of these themes, like where do you think VGS is going to go?",
+  "zh": "那么也许，带着所有这些主题，你认为 VGS 会走向哪里？"
+ },
+ {
+  "seg": 648,
+  "start": 2838.62,
+  "end": 2858.806,
+  "speaker": "Unknown",
+  "en": "Because again, I find it so interesting because it's the world's most boring business around, it's this giant vault that stores all of the payment credentials for the most, like everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS because you interact with the merchant that uses VGS for storage of credentials.",
+  "zh": "因为再说一次，我觉得这非常有趣，因为它是世界上最无聊的生意，它是这个巨大的金库，为最……比如每一个正在听这期播客的人，我几乎保证你有一份凭证存储在 VGS，因为你在和使用 VGS 存储凭证的商家打交道。"
+ },
+ {
+  "seg": 649,
+  "start": 2859.526,
+  "end": 2862.309,
+  "speaker": "Unknown",
+  "en": "So it's a really formidable position to be in.",
+  "zh": "所以这是一个非常强大的位置。"
+ },
+ {
+  "seg": 650,
+  "start": 2862.529,
+  "end": 2870.056,
+  "speaker": "Unknown",
+  "en": "And it's been growing remarkably just because, yeah, every merchant needs to store the credentials of the consumers that they work with.",
+  "zh": "而且它一直在显著增长，因为，是的，每个商家都需要存储与他们合作的消费者的凭证。"
+ },
+ {
+  "seg": 651,
+  "start": 2870.436,
+  "end": 2876.242,
+  "speaker": "Unknown",
+  "en": "But where do you think is the most exciting of everything that we've talked about for VGS's future?",
+  "zh": "那么，在我们今天谈到的所有内容中，你认为哪个是 VGS 未来最令人兴奋的方向？"
+ },
+ {
+  "seg": 652,
+  "start": 2876.522,
+  "end": 2876.702,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 653,
+  "start": 2877.622,
+  "end": 2883.443,
+  "speaker": "Unknown",
+  "en": "So I think there's sort of three eras of VGS that are kind of overlapping and compounding.",
+  "zh": "所以我认为 VGS 大致有三个时代，它们是相互重叠且相互叠加的。"
+ },
+ {
+  "seg": 654,
+  "start": 2883.463,
+  "end": 2885.424,
+  "speaker": "Unknown",
+  "en": "And you talked about the first area, which is the vault.",
+  "zh": "你刚才谈到了第一个时代，也就是金库（vault）。"
+ },
+ {
+  "seg": 655,
+  "start": 2885.544,
+  "end": 2893.105,
+  "speaker": "Unknown",
+  "en": "This is 10 years as sort of becoming the most trusted store for credentials across the internet.",
+  "zh": "这十年间，它逐渐成为整个互联网上最受信任的凭证存储库。"
+ },
+ {
+  "seg": 656,
+  "start": 2893.466,
+  "end": 2899.507,
+  "speaker": "Unknown",
+  "en": "Very hard business to execute on, but that's the sort of privileged position that the company's in.",
+  "zh": "这是一门非常难执行的业务，但这就是公司目前所处的特权地位。"
+ },
+ {
+  "seg": 657,
+  "start": 2900.515,
+  "end": 2906.277,
+  "speaker": "Unknown",
+  "en": "The second area has been what you talked about sort of, you know, information going into and out of that vault.",
+  "zh": "第二个时代就是你刚才谈到的那种，信息进出这个金库。"
+ },
+ {
+  "seg": 658,
+  "start": 2906.337,
+  "end": 2908.677,
+  "speaker": "Unknown",
+  "en": "So that's a third of those credentials have to be updated.",
+  "zh": "所以这些凭证中有三分之一需要更新。"
+ },
+ {
+  "seg": 659,
+  "start": 2909.318,
+  "end": 2918.96,
+  "speaker": "Unknown",
+  "en": "That's become very interesting and complicated because each network has their own standard for how you update their credentials.",
+  "zh": "这变得非常有趣也非常复杂，因为每个网络都有自己更新凭证的标准。"
+ },
+ {
+  "seg": 660,
+  "start": 2919.12,
+  "end": 2923.662,
+  "speaker": "Unknown",
+  "en": "And each network has created multiple network tokens that represent the vault.",
+  "zh": "而且每个网络都创建了多个代表这个金库的网络令牌（network token）。"
+ },
+ {
+  "seg": 661,
+  "start": 2923.682,
+  "end": 2927.523,
+  "speaker": "Unknown",
+  "en": "If you were just storing the information, it'd be one thing, but you have to store it",
+  "zh": "如果你只是存储这些信息，那是一回事，但你必须存储它"
+ },
+ {
+  "seg": 662,
+  "start": 2928.343,
+  "end": 2937.869,
+  "speaker": "Unknown",
+  "en": "And get a series of tokens from the networks so that the data is effectively refreshed.",
+  "zh": "并且从各个网络获取一系列令牌，这样数据才能被有效地刷新。"
+ },
+ {
+  "seg": 663,
+  "start": 2938.529,
+  "end": 2942.632,
+  "speaker": "Unknown",
+  "en": "The third era is what we call the network era, which is this role of...",
+  "zh": "第三个时代就是我们所说的网络时代，也就是这种角色……"
+ },
+ {
+  "seg": 664,
+  "start": 2943.812,
+  "end": 2953.734,
+  "speaker": "Unknown",
+  "en": "Brokering their credentials among multiple parties in a way that makes sense according to the rules and that adds value to all of the ecosystem players.",
+  "zh": "在多方之间撮合他们的凭证，以一种符合规则的方式，并为生态系统中所有参与者增加价值。"
+ },
+ {
+  "seg": 665,
+  "start": 2953.754,
+  "end": 2957.135,
+  "speaker": "Unknown",
+  "en": "And we're sort of starting to do that now with Agentic Commerce.",
+  "zh": "而我们现在正开始在智能体商务（Agentic Commerce）领域做这件事。"
+ },
+ {
+  "seg": 666,
+  "start": 2958.295,
+  "end": 2962.996,
+  "speaker": "Unknown",
+  "en": "There are other cases where VGS is actually working with the banks on the tokenization front.",
+  "zh": "还有其他一些场景，VGS 实际上正在与银行在令牌化方面合作。"
+ },
+ {
+  "seg": 667,
+  "start": 2963.016,
+  "end": 2969.998,
+  "speaker": "Unknown",
+  "en": "So if you're tokenizing the cards and you're storing the cards, you're on both sides of this ecosystem.",
+  "zh": "所以如果你在对卡片进行令牌化，同时又在存储这些卡片，那你就处于这个生态系统的两端。"
+ },
+ {
+  "seg": 668,
+  "start": 2970.698,
+  "end": 2976.961,
+  "speaker": "Unknown",
+  "en": "Which allows you to do some of the information swaps that you sort of talked about earlier.",
+  "zh": "这使你能够做一些你之前谈到的那种信息交换。"
+ },
+ {
+  "seg": 669,
+  "start": 2978.502,
+  "end": 2980.803,
+  "speaker": "Unknown",
+  "en": "And all of these combine.",
+  "zh": "而所有这些都在结合。"
+ },
+ {
+  "seg": 670,
+  "start": 2980.823,
+  "end": 2982.003,
+  "speaker": "Unknown",
+  "en": "We'll continue to be a vault.",
+  "zh": "我们会继续做一个金库。"
+ },
+ {
+  "seg": 671,
+  "start": 2982.644,
+  "end": 2984.064,
+  "speaker": "Unknown",
+  "en": "We'll continue to add services.",
+  "zh": "我们会继续增加服务。"
+ },
+ {
+  "seg": 672,
+  "start": 2984.785,
+  "end": 2993.429,
+  "speaker": "Unknown",
+  "en": "And as we add more services on more merchants and on more issuers, we continue to get this network effect where you can broker credentials among the parties.",
+  "zh": "但我觉得第一期播客和这一期之间的共同点是，你应该给你妻子买更多的花。"
+ },
+ {
+  "seg": 673,
+  "start": 2994.569,
+  "end": 2997.87,
+  "speaker": "Unknown",
+  "en": "Agentic commerce is just fuel into that ecosystem.",
+  "zh": "智能体商务只是给这个生态系统添的燃料。"
+ },
+ {
+  "seg": 674,
+  "start": 2998.29,
+  "end": 3002.491,
+  "speaker": "Unknown",
+  "en": "Well, Terry, this has been fun down memory lane.",
+  "zh": "好了，Terry，这次回顾往事很愉快。"
+ },
+ {
+  "seg": 675,
+  "start": 3003.612,
+  "end": 3004.932,
+  "speaker": "Unknown",
+  "en": "One of these days we should do.",
+  "zh": "有一天我们应该做一个……"
+ },
+ {
+  "seg": 676,
+  "start": 3004.972,
+  "end": 3008.013,
+  "speaker": "Unknown",
+  "en": "I think we actually did a history of trial pay one a long time ago.",
+  "zh": "我记得我们很久以前确实做过一期 TrialPay 的历史。"
+ },
+ {
+  "seg": 677,
+  "start": 3008.273,
+  "end": 3009.814,
+  "speaker": "Unknown",
+  "en": "Yeah, I think we should redo it.",
+  "zh": "是的，我觉得我们应该重做一期。"
+ },
+ {
+  "seg": 678,
+  "start": 3009.834,
+  "end": 3011.734,
+  "speaker": "Unknown",
+  "en": "It was one of the first podcasts that we did.",
+  "zh": "那是我们做的最早的几期播客之一。"
+ },
+ {
+  "seg": 679,
+  "start": 3011.974,
+  "end": 3013.855,
+  "speaker": "Unknown",
+  "en": "The studio wasn't as nice.",
+  "zh": "那时候演播室还没这么好。"
+ },
+ {
+  "seg": 680,
+  "start": 3014.515,
+  "end": 3021.277,
+  "speaker": "Unknown",
+  "en": "But I think what's consistent between that first podcast and this one is you should be buying more flowers for your wife.",
+  "zh": "但我觉得第一期播客和这一期之间的共同点是，你应该给你妻子买更多的花。"
+ },
+ {
+  "seg": 681,
+  "start": 3021.297,
+  "end": 3022.398,
+  "speaker": "Unknown",
+  "en": "Yes, I think that's a great idea.",
+  "zh": "是的，我觉得这是个好主意。"
+ },
+ {
+  "seg": 682,
+  "start": 3022.418,
+  "end": 3023.558,
+  "speaker": "Unknown",
+  "en": "All right, well, thank you very much.",
+  "zh": "好的，非常感谢。"
+ },
+ {
+  "seg": 683,
+  "start": 3023.838,
+  "end": 3024.498,
+  "speaker": "Unknown",
+  "en": "Thank you for having me.",
+  "zh": "谢谢你们的邀请。"
+ },
+ {
+  "seg": 684,
+  "start": 3027.2,
+  "end": 3030.082,
+  "speaker": "Unknown",
+  "en": "Thanks for listening to this episode of the A16Z Podcast.",
+  "zh": "感谢收听本期 A16Z 播客。"
+ },
+ {
+  "seg": 685,
+  "start": 3030.702,
+  "end": 3037.086,
+  "speaker": "Unknown",
+  "en": "If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.",
+  "zh": "如果你喜欢这一期，请务必点赞、评论、订阅，给我们评分或留下评论，并分享给你的朋友和家人。"
+ },
+ {
+  "seg": 686,
+  "start": 3037.866,
+  "end": 3041.408,
+  "speaker": "Unknown",
+  "en": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+  "zh": "更多节目请前往 YouTube、Apple Podcasts 和 Spotify。"
+ },
+ {
+  "seg": 687,
+  "start": 3042.009,
+  "end": 3047.732,
+  "speaker": "Unknown",
+  "en": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+  "zh": "在 X 上关注我们 @A16Z，并在 a16z.substack.com 订阅我们的 Substack。"
+ },
+ {
+  "seg": 688,
+  "start": 3048.092,
+  "end": 3050.594,
+  "speaker": "Unknown",
+  "en": "Thanks again for listening, and I'll see you in the next episode.",
+  "zh": "再次感谢收听，我们下期节目见。"
+ },
+ {
+  "seg": 689,
+  "start": 3052.697,
+  "end": 3065.62,
+  "speaker": "Unknown",
+  "en": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+  "zh": "提醒一下，本内容仅供参考，不应被视为法律、商业、税务或投资建议，也不应用于评估任何投资或证券，且不面向任何 A16Z 基金的任何投资者或潜在投资者。"
+ },
+ {
+  "seg": 690,
+  "start": 3066.42,
+  "end": 3071.121,
+  "speaker": "Unknown",
+  "en": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+  "zh": "请注意，A16Z 及其关联机构可能也在本播客中讨论的公司中持有投资。"
+ },
+ {
+  "seg": 691,
+  "start": 3071.621,
+  "end": 3078.262,
+  "speaker": "Unknown",
+  "en": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+  "zh": "更多详情，包括我们投资的链接，请参见 a16z.com forward slash disclosures。"
+ }
+]

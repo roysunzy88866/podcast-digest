@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":2,"Asana":2,"Stripe":49,"Shopify":17,"Snowflake":23,"Twilio":4,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
+<script type="application/json" class="pd-epn">{"Sal Motamini":1,"Orb":2,"Asana":2,"Stripe":50,"Shopify":18,"Snowflake":23,"Twilio":4,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
 
 <script>
 (function(){

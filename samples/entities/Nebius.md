@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[推理]] · [[NVIDIA]] · [[AI 智能体]] · [[Token Factory]] · [[Dylan Patel]] · [[开源]] · [[开源模型]] · [[SemiAnalysis]] · [[就业市场]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":206,"推理":101,"NVIDIA":71,"AI 智能体":4,"Token Factory":1,"Dylan Patel":2,"开源":43,"开源模型":4,"SemiAnalysis":1,"就业市场":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"推理":101,"NVIDIA":71,"AI 智能体":4,"Token Factory":1,"Dylan Patel":2,"开源":43,"开源模型":4,"SemiAnalysis":1,"就业市场":1}</script>
 
 <script>
 (function(){

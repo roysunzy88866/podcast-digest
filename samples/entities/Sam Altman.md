@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":29,"智能体":1,"沙箱":101,"对齐失败":1,"推理":101,"权力集中":1,"主观能动性":1,"OpenAI":206,"YC":17}</script>
+<script type="application/json" class="pd-epn">{"初创公司":2,"AGI":29,"智能体":1,"沙箱":101,"对齐失败":1,"推理":101,"权力集中":1,"主观能动性":1,"OpenAI":207,"YC":17}</script>
 
 <script>
 (function(){

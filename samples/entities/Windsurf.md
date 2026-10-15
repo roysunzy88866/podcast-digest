@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Copilot]] · [[ChatGPT]] · [[OpenAI]] · [[Cursor]] · [[后训练]] · [[Harvey]] · [[Anthropic]] · [[Corinne Riley]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Copilot":13,"ChatGPT":114,"OpenAI":206,"Cursor":87,"后训练":1,"Harvey":21,"Anthropic":206,"Corinne Riley":4,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Copilot":13,"ChatGPT":115,"OpenAI":207,"Cursor":87,"后训练":1,"Harvey":21,"Anthropic":206,"Corinne Riley":4,"Lenny":69}</script>
 
 <script>
 (function(){

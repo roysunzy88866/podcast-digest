@@ -1,0 +1,810 @@
+[
+ {
+  "seg": 0,
+  "start": 1.76,
+  "end": 35.73,
+  "speaker": "Narrator",
+  "en": "Welcome to the Practical AI Podcast, where we break down the real world applications of artificial intelligence and how it's shaping the way we live, work, and create. Our goal is to help make AI technology practical, productive, and accessible to everyone. Whether you're a developer, business leader, or just curious about the tech behind the buzz, you're in the right place. Be sure to connect with us on LinkedIn, X, or Blue Sky to stay up to date with episode drops, behind the scenes content, and AI insights. You can learn more at practicalai.fm.",
+  "zh": "欢迎收听 Practical AI 播客，在这里我们剖析人工智能的真实世界应用，以及它如何塑造我们的生活、工作和创造方式。我们的目标是帮助让人工智能技术变得实用、高效，并且人人可用。无论你是开发者、企业领导者，还是只是对热点背后技术感到好奇的人，你来到这里就对了。请务必在 LinkedIn、X 或 Blue Sky 上关注我们，以获取最新剧集发布、幕后内容和 AI 见解。你可以在 practicalai.fm 了解更多。"
+ },
+ {
+  "seg": 1,
+  "start": 35.81,
+  "end": 37.41,
+  "speaker": "Narrator",
+  "en": "Now onto the show.",
+  "zh": "现在进入正题。"
+ },
+ {
+  "seg": 2,
+  "start": 41.489998,
+  "end": 75.615,
+  "speaker": "Daniel Whitenack",
+  "en": "Welcome to another episode of the Practical AI podcast. In this episode, it's just Chris and I, my cohost. In these episodes where we don't have a guest, it's a lot of fun to just dive into some of the topics that are of interest to us and that are in the news or at the top of our minds or guests or, listeners' minds as they've expressed them to us. So excited to dig in with my cohost, Benson, today, is a principal AI and autonomy research engineer. I'm Daniel Whitenack.",
+  "zh": "欢迎收听又一集 Practical AI 播客。在这一集中，只有我和我的联合主持人 Chris。在这些没有嘉宾的节目中，深入探讨一些我们感兴趣的话题非常有趣，这些话题可能出现在新闻里、在我们心头，或者是嘉宾或听众向我们表达过的心中所想。今天很高兴和我的联合主持人 Benson 一起深入探讨，Benson 是一名首席 AI 与自主性研究工程师。我是 Daniel Whitenack。"
+ },
+ {
+  "seg": 3,
+  "start": 75.615,
+  "end": 78.735,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm CEO at Prediction Guard. How are doing, Chris?",
+  "zh": "我是 Prediction Guard 的 CEO。Chris，你最近怎么样？"
+ },
+ {
+  "seg": 4,
+  "start": 78.735,
+  "end": 80.815,
+  "speaker": "Chris Benson",
+  "en": "Hey. I'm doing great today. How is it going?",
+  "zh": "嘿，我今天很好。你怎么样？"
+ },
+ {
+  "seg": 5,
+  "start": 80.815,
+  "end": 113.385,
+  "speaker": "Daniel Whitenack",
+  "en": "It's it's going it's going wonderful. It's a very exciting time in in my life, both, business wise, lots of cool stuff going on, but I know you and I talking before and even about some of the things that we'll maybe talk about today, thinking a lot about kids recently. So for our listeners that don't know, I am expecting my first child in in a couple months here, and... Or less than a couple months. Yes.",
+  "zh": "我……我过得很棒。这是我人生中非常激动的一段时期，生意上有很多很酷的事情在发生，而且我知道你和我之前聊过，甚至聊过一些我们今天可能会谈的话题，最近我也在思考很多关于孩子的事情。所以对于不知道的听众来说，我几个月后就要迎来我的第一个孩子了……或者不用几个月了。是的。"
+ },
+ {
+  "seg": 6,
+  "start": 113.385,
+  "end": 121.82,
+  "speaker": "Daniel Whitenack",
+  "en": "About a month now. Coming up rapidly. And I've been saying a couple months, but it's past that that time. Yeah. Yeah.",
+  "zh": "大概还剩一个月了。很快就到了。我一直说还有几个月，但其实已经过了那个时间了。是啊。是啊。"
+ },
+ {
+  "seg": 7,
+  "start": 121.82,
+  "end": 139.625,
+  "speaker": "Daniel Whitenack",
+  "en": "So so, yeah, very very rapidly. And so I've... I... I'm, for for listeners that don't know, I'm I'm about 40 years old, so it's been, my wife and I, it's been a little while. We, you know, been married quite a while, and so I'm gonna be an older dad.",
+  "zh": "所以，是的，非常非常快。所以我……我……对于不知道的听众来说，我大概 40 岁了，所以，我和我妻子，已经过了一段时间了。我们结婚挺久了，所以我将要成为一个年纪较大的爸爸。"
+ },
+ {
+  "seg": 8,
+  "start": 139.625,
+  "end": 168.73499,
+  "speaker": "Daniel Whitenack",
+  "en": "And I've been thinking about things like, oh, man, I'm gonna be an older dad going into these, like, parent teacher meetings or school meetings. All of these teachers are gonna be, you know, twenty twenty four years old or 25 years old. And I I wonder what my perspectives will be as I as I come into these situations. And not only that, but there's a lot of things changing technology wise, which I know has been at the top of top of your mind, Chris.",
+  "zh": "我一直在想一些事情，比如，天哪，我要以一个高龄爸爸的身份去参加这些家长会或学校会议。所有这些老师都会是，你知道，二十四岁或 25 岁。我很想知道当我走进这些场合时，我的视角会是什么样的。不仅如此，技术方面还有很多变化，我知道这些一直是你最关心的事情，Chris。"
+ },
+ {
+  "seg": 9,
+  "start": 168.73499,
+  "end": 216.94,
+  "speaker": "Chris Benson",
+  "en": "Yeah, and you're not too high. So to talk about my background after coming through school myself, and then I had a previous marriage where I contributed to raising two step kids that I love and I'm still very close to, as we were talking about a little while ago, who are now grown and out in the world doing their stuff, and kind of went through the educational process with them as a stepdad and showing up at those meetings. And then in a second marriage, I have my current daughter. I know I mentioned her periodically on the show. She's now a freshman in high school, 14, and so I'm doing all that over again, and so have kind of went through two series of public school all the way up through.",
+  "zh": "是的，你也没大多少。说说我的背景吧，我自己读完学校之后，我有过一段婚姻，期间我参与抚养了两个我深爱的继子，我们至今仍然非常亲近，就像我们刚才聊的那样，他们现在长大了，走入社会做自己的事情，我作为继父陪他们走过了整个教育过程，参加那些家长会。然后在第二段婚姻中，我有了现在的女儿。我知道我在节目中时不时提到过她。她现在是高中一年级，14 岁，所以我又在把这一切重来一遍，可以说我已经经历了两轮完整的公立学校教育，一路走上来。"
+ },
+ {
+  "seg": 10,
+  "start": 217.58,
+  "end": 255.295,
+  "speaker": "Chris Benson",
+  "en": "In addition, just as I know you do, I work with a couple of universities in an advisory role and the different roles with different universities, but I get to see up close and personal the education at that level well and get to contribute a little bit to the thinking around what should be done and stuff. And since we always tend to start the show with a pun, we have all this beautiful fall weather. I took a walk with my dogs a little while ago, and I was thinking about how education is falling short right now in terms of all the changes.",
+  "zh": "此外，我知道你也一样，我以顾问的角色和几所大学合作，在不同大学担任不同角色，所以我能在近距离亲身观察那个层次的教育，并为该做些什么这类思考贡献一点力量。既然我们总是以一个双关语开场，我们有这么美好的秋日天气，不久前我遛狗散步时在想，就所有这些变化而言，现在的教育正在「 fall short」（掉队/辜负期望）。"
+ },
+ {
+  "seg": 11,
+  "start": 255.53499,
+  "end": 256.415,
+  "speaker": "Daniel Whitenack",
+  "en": "It is the season",
+  "zh": "现在正是季节"
+ },
+ {
+  "seg": 12,
+  "start": 256.415,
+  "end": 258.495,
+  "speaker": "Chris Benson",
+  "en": "of... It's a dad pun Yeah, right",
+  "zh": "of……这是个爸爸式双关。是的，对。"
+ },
+ {
+  "seg": 13,
+  "start": 259.455,
+  "end": 260.255,
+  "speaker": "Daniel Whitenack",
+  "en": "there you go.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 14,
+  "start": 260.735,
+  "end": 279.315,
+  "speaker": "Chris Benson",
+  "en": "Got to get the dad joke in. So it's been on my mind a lot. I've been in parent teacher conferences. We're looking at college once again, and I'm thinking of all the things that we talk about on this show all the time, how fast things are changing. People are worried about jobs.",
+  "zh": "得把老爸笑话安排上。所以我一直在想这件事。我参加过家长会。我们又在看大学的事了，我想着我们在这个节目里一直在聊的所有事情，事情变化得多快。人们在担心工作。"
+ },
+ {
+  "seg": 15,
+  "start": 279.315,
+  "end": 314.685,
+  "speaker": "Chris Benson",
+  "en": "They're worried about the future. What are they gonna do? And as I have mentioned, I spend a lot of time thinking about this partly because I'm actively working on a book about what life for humans will be like going forward as agenetics are pervasive in all parts of life. For a general audience. It's a very future forward book, but that gets me thinking about when my 14 year old is now 40 and she's trying to deal with life at that point, what does that look like?",
+  "zh": "他们担心未来。他们能做什么？就像我说过的，我花很多时间思考这个问题，部分原因是我正在积极写一本书，关于当智能体技术渗透到生活的方方面面时，人类未来的生活会是什么样子。这是面向大众读者的。这是一本非常面向未来的书，但这让我思考，当我 14 岁的女儿到了 40 岁，她在那时努力应对生活时，那会是什么样子？"
+ },
+ {
+  "seg": 16,
+  "start": 314.925,
+  "end": 355.52,
+  "speaker": "Chris Benson",
+  "en": "What can we predict, or what can we only speculate a little bit less? And so I'm going through that thinking process, and as I do that and show up at today's school events and all that, I'm just constantly going, Oh my God, this is a disaster. So I'm not trying to pick on our school system, which I'll leave unnamed, or the universities, but I'm recognizing that education, just as the job market needs to kind of level up with AI, as we talk about quite lot, education does too. And I was proposing that we have a conversation about that, and I know you were willing to jump in as a new dad here. Yeah.",
+  "zh": "我们能预测什么，或者我们只能做稍微少一点点的推测？所以我在经历这个思考过程，当我这样做并出现在今天的学校活动等场合时，我不断地在想，天哪，这真是一场灾难。我不是想挑我们学校系统的毛病，我就不点名了，也不是挑大学的毛病，但我认识到，正如就业市场需要与 AI 一起升级一样——我们谈过很多次——教育也需要。于是我提议我们进行一次这方面的对话，我知道你作为一个新手爸爸愿意加入进来。是的。"
+ },
+ {
+  "seg": 17,
+  "start": 355.52,
+  "end": 369.415,
+  "speaker": "Chris Benson",
+  "en": "Wanted to just kind of talk about where things are at and what those gaps are and maybe bring some insights as to people who think a lot about these topics on where the future of education might be able to navigate to.",
+  "zh": "我想聊聊现在的情况是什么，这些差距在哪里，或许还能作为深入思考这些话题的人，就教育的未来可能走向何方带来一些见解。"
+ },
+ {
+  "seg": 18,
+  "start": 369.415,
+  "end": 389.015,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I was trying to think of some other transitions that, you know, where I could draw parallels, and it's it's a little bit hard to... Like, maybe you could say, you know, computing in general or personal computers or that sort of thing, and maybe those... You could draw parallels there. I was thinking even with social media.",
+  "zh": "是的。我试着想一些其他的转型，你知道，我可以从中找到类似之处，但这有点难……比如，你可以说，整个计算领域或者个人电脑之类的，也许那些……你可以在那里找到类似之处。我甚至想到了社交媒体。"
+ },
+ {
+  "seg": 19,
+  "start": 389.015,
+  "end": 435.82,
+  "speaker": "Daniel Whitenack",
+  "en": "I think a lot of what we've learned about social media is that maybe those of us that were in that first generation to adopt social media, we really had no idea what we were getting into. And in some sense, it's like the introduction of opioids or something where everybody is like, you know, or or some some substance where it's like, oh, we're gonna put this in everything. And and now we realize looking back, maybe that was not the the best way to to handle things. But even with social media, obviously, social media affects all of our lives, but it it... It's not as connected maybe to the way each of us individually work and our roles in our work as AI is.",
+  "zh": "我觉得关于社交媒体我们学到的一点是，也许我们这些第一批采用社交媒体的一代人，真的完全不知道自己会陷入什么。在某种意义上，这就像阿片类药物的引入之类的，每个人都觉得，你知道的，或者某种物质，人们觉得，哦，我们要把它加进一切东西里。现在我们回头看，意识到也许那不是处理事情的最佳方式。但即使是社交媒体，显然社交媒体影响着我们所有人的生活，但它……它可能不像 AI 那样与我们每个人的工作方式以及我们在工作中的角色紧密相连。"
+ },
+ {
+  "seg": 20,
+  "start": 435.82,
+  "end": 469.15,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? Unless you're doing digital marketing or something like that, or maybe if you're an... In HR trying to look up people's social media to see if if there's problematic things, coming your your direction. But, yeah, I think generally, like, if you were a mechanical engineer before before or after social media. Like, maybe you have a LinkedIn now and there's some level of professional side of that, but it didn't really it didn't really necessarily change the the way that you did your day to day work.",
+  "zh": "对吧？除非你在做数字营销之类的，或者也许你在人力资源部门，试图查看人们的社交媒体，看是否有问题会朝你而来。但是，是的，我觉得总体来说，如果你是社交媒体出现之前或之后的机械工程师。也许你现在有了 LinkedIn，那上面有一定的职业属性，但它并不真正……并不必然改变你日常工作的方式。"
+ },
+ {
+  "seg": 21,
+  "start": 469.15,
+  "end": 489.4,
+  "speaker": "Daniel Whitenack",
+  "en": "But AI has come on both more rapidly than social media, and it actually is affecting the way we all do our jobs, the way we all do our work, and the way that we learn, right, in our educational system. So in a sense, it's both more impactful and happening faster than other",
+  "zh": "但 AI 的到来比社交媒体更迅速，而且它实际上正在影响我们所有人做事的方式、我们所有人工作的方式，以及我们学习的方式，对吧，在我们的教育系统中。所以在某种意义上，它既比其他"
+ },
+ {
+  "seg": 22,
+  "start": 489.4,
+  "end": 537.525,
+  "speaker": "Chris Benson",
+  "en": "things It is. We've And I think we hear a lot about educational institutions at all levels struggling with that. And the initial guidance was you're not allowed to use AI, and you gotta do the work yourself. That was largely, I think, because there was no concept of how to integrate AI, the reality of that, into that work stream that students are producing for their education. I think that's starting to change a little bit, at least in some places, because at this point it's very clear this is not going away, so I think some forward leaning people are starting to try to identify how do we integrate for the rest of these kids' lives as they grow up and they're in the workplace all the way?",
+  "zh": "事情更有冲击力，发生得也更快。确实是。我想我们经常听到各个层次的教育机构都在为此挣扎。最初的指导方针是：你不许使用 AI，你必须自己做功课。我想这在很大程度上是因为，当时没有任何概念知道如何把 AI、把这一现实，整合进学生为接受教育而产出的工作流中。我想这种情况正在开始有一些改变，至少在某些地方，因为到了这个地步，很显然这不会消失，所以我想一些有前瞻性的人开始尝试确定，在剩下的这些孩子的一生中我们如何整合——他们长大后进入职场，一直到"
+ },
+ {
+  "seg": 23,
+  "start": 537.525,
+  "end": 570.955,
+  "speaker": "Chris Benson",
+  "en": "They're gonna have these tools, and the tools are gonna progress and get better and better, And so I think that's a big part of it, how do we... You have that happening with individuals, but how do we start getting that institutionalized so that school districts approve curriculums and states that have requirements that all schools have to meet, get on board with that, and that way the teachers have the flexibility moving forward to actually kind of move the ball to where the reality is, because right now it's lagging. Yeah.",
+  "zh": "他们都会拥有这些工具，而这些工具会不断进步、越来越好。所以我认为这是很重要的一部分，我们如何……个体层面上有这种情况在发生，但我们如何开始把它制度化，让学区批准课程，让那些有要求、所有学校都必须达到要求的州参与进来，这样教师们在前进过程中才有了灵活性，能够真正把球推进到现实所在的地方，因为现在它是滞后的。是的。"
+ },
+ {
+  "seg": 24,
+  "start": 572.93005,
+  "end": 593.175,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe... I'm curious if you see this distinction or if it... It's a distinction that even matters, but there's... In my mind, there's one piece of it, which is AI is gonna be a part of the way we all do our work. We need to educate people on how to use AI and how AI is integrated into our work.",
+  "zh": "也许……我很好奇你是否看到这个区别，或者它……它是不是一个重要的区别，但在我脑海里，其中有一块是，AI 将成为我们所有人工作方式的一部分。我们需要教育人们如何使用 AI，以及 AI 如何整合进我们的工作。"
+ },
+ {
+  "seg": 25,
+  "start": 593.255,
+  "end": 611.7,
+  "speaker": "Daniel Whitenack",
+  "en": "So that's one side of things. The other side of things is potentially, and I think different people have different opinions about this. Right? There are certain things that we need to ideally learn as humans to function well in the world, like, as part of our educational system. Absolutely.",
+  "zh": "这是事情的一面。另一面是，我认为不同的人对此有不同看法。对吧？作为人类，为了在世界上良好运转，有些东西我们理想上需要学习，比如作为我们教育系统的一部分。绝对的。"
+ },
+ {
+  "seg": 26,
+  "start": 611.7,
+  "end": 639.53,
+  "speaker": "Daniel Whitenack",
+  "en": "And if and if AI is interfering with the way that we learn those topics, then that could be problematic, or there's also a need to maybe adjust our educational system so we ensure, the learning of those topics. So I... I'm thinking of, you know, whatever it is, let's say basic math skills. Right? I think it's reasonable that a a younger person...",
+  "zh": "如果 AI 干扰了我们学习这些主题的方式，那可能就是有问题的，或者也有必要调整我们的教育系统，以确保这些主题的学习。所以我在想，比如，随便什么，就说基础数学技能吧。对吧？我认为一个年轻的人……"
+ },
+ {
+  "seg": 27,
+  "start": 639.61,
+  "end": 669.94,
+  "speaker": "Daniel Whitenack",
+  "en": "I I don't know. This shows how ignorant I am and how, I I don't know I don't know anything about anything, about a lot of what I'll be experiencing over the coming years, but I don't know typically at what level, you know, certain certain levels of math are introduced currently in curriculum, but I imagine that, a child could interact with an AI chat interface and get math answers",
+  "zh": "我……我不知道。这说明了我有多无知，以及，我……我对未来几年我将经历的很多事情一无所知，但我不知道目前课程中通常在什么级别、什么阶段引入某些级别的数学，但我想象，一个孩子可以与一个 AI 聊天界面交互，得到数学答案"
+ },
+ {
+  "seg": 28,
+  "start": 670.685,
+  "end": 671.165,
+  "speaker": "Chris Benson",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 29,
+  "start": 671.165,
+  "end": 699.83496,
+  "speaker": "Daniel Whitenack",
+  "en": "Way before they're even introduced to the subjects where they're expected to know and learn that intuition. And so if I'm only getting those answers from the chat engine and not, you know, learning actually how to do, at least a basic level of math, many would see that as problematic. I could also see just for a a hot take on the other side. Right? If you take the example of, spelling or, you know, cursive or...",
+  "zh": "远在他们接触到那些科目之前，而那些科目期望他们知道并学会那种直觉。所以如果我只是从聊天引擎得到那些答案，而没有，你知道，真正学会怎么做，至少是基础水平的数学，很多人会认为那是有问题的。我也可以从另一面来个热辣观点。对吧？如果你拿拼写或者，你知道，手写体之类的例子……"
+ },
+ {
+  "seg": 30,
+  "start": 699.83496,
+  "end": 732.73505,
+  "speaker": "Daniel Whitenack",
+  "en": "You know, there's probably a lot of examples where you could say, well, spelling now, if all I'm doing is putting text into Word documents and spell check is integrated or maybe even AI is just generating those for me while spelling is no longer a relevant skill for anyone to learn. So why... So so I think there's... But I guess what I'm saying is there's one side of this, which is we need to educate on how to use AI. There's another side of this, which is what are those fundamental things that we need to learn as humans outside of AI that are fundamentally...",
+  "zh": "你知道，可能有很多例子你可以说，嗯，拼写现在，如果我做的只是把文字输入 Word 文档，拼写检查已经整合进去了，或者甚至 AI 只是直接帮我生成，那拼写就不再是任何人需要学习的相关技能了。所以为什么……所以我觉得……不过我想说的是，这件事的一面是，我们需要教育如何使用 AI。另一面是，作为人类，在 AI 之外，有哪些根本性的东西我们需要学习，它们是根本性的……"
+ },
+ {
+  "seg": 31,
+  "start": 732.73505,
+  "end": 741.63,
+  "speaker": "Daniel Whitenack",
+  "en": "Or or could be interfered with if we don't apply AI correctly in the educational system. Does that distinction make sense to you, Chris?",
+  "zh": "或者说，如果我们在教育系统中不正确地应用 AI，它们可能被干扰。这个区别对你来说说得通吗，Chris？"
+ },
+ {
+  "seg": 32,
+  "start": 741.63,
+  "end": 789.495,
+  "speaker": "Chris Benson",
+  "en": "I think it does. I agree with everything you said. I think to draw that out a little bit more, there are some skills such as the ability to do critical thinking across a number of domains, the ability to be creative across a number of domains, and then to have the content... Whatever discrete discrete skills that you might be taught in school, as you pointed out, and those may change, and some things that we think of as foundational may be changing. But having enough context in your learning around your ability to do critical thinking and to be creative together so that you can collaborate with the technologies going forward and arrive.",
+  "zh": "我觉得说得通。我同意你所说的一切。我想再展开一点，有一些技能，比如跨多个领域进行批判性思考的能力，跨多个领域进行创造的能力，然后还要有内容……你在学校可能学到的任何离散的、独立的技能，正如你指出的，那些可能会变化，一些我们认为是基础的东西可能正在变化。但在你的学习中拥有足够的背景知识，围绕你进行批判性思考和创造的能力，这样你才能在前进中与技术协作并有所成就。"
+ },
+ {
+  "seg": 33,
+  "start": 789.495,
+  "end": 819.055,
+  "speaker": "Chris Benson",
+  "en": "So without the context, and that's kind of what you're getting at there, having math skills that you need to be able to follow along, maybe with harder math that you might be working with in AI, but there's a certain level you gotta get to. And so I think being able to find that mix of educational context mixed with those creative and critical thinking abilities to solve problems collaboratively going forward with AI because that's gonna be the reality we're all facing.",
+  "zh": "如果没有那些背景，这正是你在说的那点，拥有你需要的数学技能才能跟上，也许跟上你可能在 AI 中接触到的更难的数学，但你得达到某个水平。所以我认为，能够找到这种教育背景与那些创造性和批判性思维能力的结合，以便在前进中与 AI 协作解决问题，因为这将是我们所有人都要面对的现实。"
+ },
+ {
+  "seg": 34,
+  "start": 819.055,
+  "end": 859.26,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Maybe another way to put it is, I I... Well, again, people have different opinions probably, but at least from my point of view or worldview or however you would frame it, I don't think you really advance in your character and development as a human without discomfort and struggle. Right? I agree with And so and so a part of whether that's, you know, advancing in your marriage, advancing in your ability as a worker, in your, you know, character as a as a human being and the values that that you wanna hold to.",
+  "zh": "是的。也许换一种说法是，我……嗯，再说一次，人们可能有不同看法，但至少从我的角度或世界观，或者无论你怎么框定来说，我不认为一个人在没有不适和挣扎的情况下能真正在性格和作为人类的发展上取得进步。对吧？我同意，所以，无论是，你知道，在婚姻中进步，作为劳动者提升能力，还是你作为一个人的性格以及你想要坚守的价值观。"
+ },
+ {
+  "seg": 35,
+  "start": 859.98,
+  "end": 888.07,
+  "speaker": "Daniel Whitenack",
+  "en": "You... The the the struggle of life is actually how how that is stressed and how those things are are built up. Right? And so I would view a part of the educational system as... Or maybe the counterexample I'm trying to draw out is, well, maybe it doesn't really matter if basic math or spelling is a part, is like a fundamental skill now.",
+  "zh": "你……生活的挣扎实际上就是这些东西经受锤炼的方式，也是这些东西被建立起来的方式。对吧？所以我会把教育系统的一部分视为……或者也许我想引出的反例是，嗯，也许基础数学或拼写是否是现在的根本技能并不真正重要。"
+ },
+ {
+  "seg": 36,
+  "start": 888.07,
+  "end": 905.68506,
+  "speaker": "Daniel Whitenack",
+  "en": "If it's stressing the right sort of thinking and allowing you to experience discomfort that advances your mindset, advances your problem solving, advances your decision making, advances your resilience, etcetera, etcetera, etcetera, like like you were saying, Chris. Yeah.",
+  "zh": "如果它在锤炼正确类型的思考，让你经历能推进你思维的不适，推进你解决问题的能力，推进你的决策，推进你的韧性等等等等，就像你说的那样，Chris。是的。"
+ },
+ {
+  "seg": 37,
+  "start": 906.965,
+  "end": 933.665,
+  "speaker": "Sponsor",
+  "en": "We've talked a lot on the show about how an AI agent needs an underlying harness that has connections into the real world, into MCP servers and real systems and data sources. That's the only way that it can work towards a a useful goal. And that's why I'm so happy that we're partnering with SERP API, which is a web search API that gives developers real time structured access to search engine results.",
+  "zh": "我们在节目中聊过很多，AI 智能体需要一个底层框架，它与真实世界相连，接入 MCP 服务器、真实系统和数据源。这是它能够朝着有用目标工作的唯一方式。这就是为什么我们与 SERP API 合作让我如此高兴，这是一个网页搜索 API，为开发者提供对搜索引擎结果的实时结构化访问。"
+ },
+ {
+  "seg": 38,
+  "start": 933.665,
+  "end": 981.65497,
+  "speaker": "Sponsor",
+  "en": "This is an amazing tool that you can plug directly into AI agents to power their actions and get them to the proper outcomes. This very simple integration and this includes access to over a 100 APIs within SERP API to to access things like Google, Bing, Amazon, YouTube, and many other sources. So I would really encourage you to check out SERP API, integrate it into your AI agents. Visit serpapi.compracticalai to get started with surf a pi for free and get 250 searches every month. Visit surfapi.compracticalai to get started with surf API for free and get two fifty searches every month.",
+  "zh": "这是一个了不起的工具，你可以直接接入 AI 智能体来驱动它们的行动，让它们达成正确的成果。这个集成非常简单，其中包括访问 SERP API 内 100 多个 API，以访问 Google、Bing、Amazon、YouTube 以及许多其他来源。所以我真心鼓励你去看看 SERP API，把它集成到你的 AI 智能体中。访问 serpapi.com/practicalai 免费开始使用 SERP API，每月获得 250 次搜索。访问 serpapi.com/practicalai 免费开始使用 SERP API，每月获得 250 次搜索。"
+ },
+ {
+  "seg": 39,
+  "start": 983.015,
+  "end": 1037.855,
+  "speaker": "Chris Benson",
+  "en": "The points you were making there in that last segment, I think, were spot on. I think right now we're at a moment where we need to start looking at things that have been foundational for generations in terms of what you need and figure out how does this apply. You mentioned spell checking and how that does, and spelling is still important at some level, even though we have spell check, because it contributes to accurate communication that we have. But the question of whether or not... There's a certain amount of, I think, analysis that needs to occur on if we take our foundational skills and look at what the world's going to be like a few years down the road, that something that we're already...",
+  "zh": "你在上一段中提出的那些观点，我认为非常到位。我想现在我们正处于这样一个时刻：我们需要开始审视那些几代以来一直是基础性的东西，即你所需要的东西，并弄清楚这如何适用。你提到了拼写检查，以及它是如何，拼写在一定程度上仍然重要，即使我们有拼写检查，因为它有助于我们进行准确的沟通。但问题在于是否……我认为需要一定量的分析，如果我们审视我们的基础技能，看看几年后世界会是什么样子，这是我们已经……"
+ },
+ {
+  "seg": 40,
+  "start": 1037.855,
+  "end": 1085.005,
+  "speaker": "Chris Benson",
+  "en": "Are we already offloading some of those skills to AI, and how are we collaborating to solve really tough problems? To your point about the struggle, I know that in my own life, as I'm working with AI every day, I know both you and I are collaborating with AI models all the time, and that has changed the workflows on how I engage a lot of problems, and in a lot of ways it supercharged what I can do, the productivity. Know I've mentioned that before in terms of what I can generate, so my output is way above what was possible a year ago. And so I'm starting to really look at how am I doing that, but I am noticing that that struggle still exists. It's just being placed in different places.",
+  "zh": "我们是否已经在把这些技能中的一部分转移给 AI，我们如何协作解决真正艰难的问题？关于你说的挣扎那点，我知道在我自己的生活中，因为我每天都在与 AI 一起工作，我知道你和我都在不断地与 AI 模型协作，这已经改变了我处理很多问题的工作流，在很多方面它增强了我能做的事情，提升了生产力。我知道我之前提过我能够产出的东西，所以我的产出远超一年前可能的水平。所以我开始真正审视我是如何做到的，但我注意到那种挣扎仍然存在。只是它被放在了不同的地方。"
+ },
+ {
+  "seg": 41,
+  "start": 1087.405,
+  "end": 1150.455,
+  "speaker": "Chris Benson",
+  "en": "Can turn out, for instance, I'm working... I'm just making up an example. If I'm working on a website that I need for some function, I can turn out a bunch of code pretty quickly, and depending on what it's necessary for, there's a certain amount of rigor that goes around that, but in a lot of cases I'm able to offload a certain amount of that and focus on the creative process that's driving it, and I think that's one example of how good I am at Rust, which is what I usually use these days, is mattering less now than it was a year ago right now, and that's just one of many, many examples. I'm doing a lot of authoring, like I said, and in that authoring, a lot of the research uses tools to go out and qualify things that I'm about to suggest or put forward and stuff. So I think the thing that we need to do is to establish kind of what does this look like now?",
+  "zh": "举例来说，比如我在做……我只是随便编个例子。如果我在做一个因某种功能需要而要做的网站，我可以相当快地写出一堆代码，取决于它的用途，会有一定程度的严谨性要求，但在很多情况下我能够转移其中一部分，专注于驱动它的创造过程，我想那是其中一个例子，说明我 Rust 写得多好——这是我最近常用的语言——现在不如一年前那么重要了，而这只是许许多多例子中的一个。就像我说的，我在做大量写作，在那些写作中，很多研究工作使用工具去核实我准备提出或主张的东西。所以我觉得我们需要做的是，确立现在这是什么样子？"
+ },
+ {
+  "seg": 42,
+  "start": 1150.455,
+  "end": 1186.8099,
+  "speaker": "Chris Benson",
+  "en": "What does this look like over the next few years? And how do we want to start making adjustments? Because if we lag too far in education, the kids of today are gonna have a really hard time, and I'll finish by saying in the workplace, I end up mentoring quite a few younger people that come in out of university, and they'll be in their early or mid-20s or even late 20s, and the ones who are at a university are struggling a little bit to adjust to the new realities of workforce to some degree, and so I think we need to speed up the self reflection process, is what I'm getting at.",
+  "zh": "接下来几年是什么样子？以及我们想开始做怎样的调整？因为如果教育滞后太多，今天的孩子们会很难受，我以这个收尾：在职场中，我最终会指导相当多从大学出来的年轻人，他们会在二十出头或二十多岁中期，甚至二十多岁后期，其中上过大学的人在某种程度上挣扎着适应职场的新现实，所以我认为我们需要加快自我反思的过程，这是我想说的。"
+ },
+ {
+  "seg": 43,
+  "start": 1186.8099,
+  "end": 1213.365,
+  "speaker": "Daniel Whitenack",
+  "en": "So I think that that... So I agree with that, but you think you're saying maybe I'll be a little bit divisive here something like that, and basically say, okay, well in light of all of that, if I'm a high school teacher, should I let students use AI on their assignments? In what... And in what ways is that question, I guess, useful or maybe not useful? Maybe that's a good way to frame it.",
+  "zh": "所以我觉得那个……所以我同意这一点，但你要说的，也许我要稍微制造一点分歧之类的，基本上是说，好吧，鉴于所有这些，如果我是一名高中老师，我应该允许学生在作业中使用 AI 吗？这个问题在哪些……在哪些方面是有用的，或者也许没有用？也许这是一个很好的框定方式。"
+ },
+ {
+  "seg": 44,
+  "start": 1213.365,
+  "end": 1235.0049,
+  "speaker": "Chris Benson",
+  "en": "I I think, I'm gonna pivot you a little bit because I got smacked down a while back. About, I don't know, a year or two ago, we were actually having an episode, and I was talking about teaching and stuff like that, and I had multiple teachers reach out to me after that episode and say, You just put something in our lap that we don't have the authority to do.",
+  "zh": "我想，我要稍微把你引开一点，因为我不久前被批评过。大概一两年前，我们实际上在做一集节目，我当时在谈论教学之类的事情，那期节目之后有多个老师联系我说，你刚把一个我们无权"
+ },
+ {
+  "seg": 45,
+  "start": 1235.245,
+  "end": 1236.205,
+  "speaker": "Daniel Whitenack",
+  "en": "Control of, yeah.",
+  "zh": "掌控的东西放到了我们手里，是的。"
+ },
+ {
+  "seg": 46,
+  "start": 1236.205,
+  "end": 1244.72,
+  "speaker": "Chris Benson",
+  "en": "We don't have control of. That comes down from on high, and we're within those boundaries And they implement. Yeah. That's correct. So for all of",
+  "zh": "我们没有掌控权。那是上面定下来传达下来的，我们在那些边界之内，而边界会执行。是的。没错。所以对于"
+ },
+ {
+  "seg": 47,
+  "start": 1244.72,
+  "end": 1247.12,
+  "speaker": "Daniel Whitenack",
+  "en": "you teachers out Understood. There Yeah.",
+  "zh": "你们所有的老师们，明白了。是的。"
+ },
+ {
+  "seg": 48,
+  "start": 1247.12,
+  "end": 1247.76,
+  "speaker": "Chris Benson",
+  "en": "Yeah. I'm",
+  "zh": "是的。我……"
+ },
+ {
+  "seg": 49,
+  "start": 1247.76,
+  "end": 1257.385,
+  "speaker": "Daniel Whitenack",
+  "en": "not I'm Good recommendation for when I go into parent teacher conferences. Yeah. I might be grumpy about other things, but I should keep that in mind.",
+  "zh": "我不……等我去参加家长会时的一条好建议。是的。我可能会为其他事情发脾气，但我应该记住这一点。"
+ },
+ {
+  "seg": 50,
+  "start": 1257.545,
+  "end": 1303.93,
+  "speaker": "Chris Benson",
+  "en": "You probably will at times. You'll be frustrated because you'll walk from your world, which is very modern, It'll feel like you're going into your child's world, which is a little bit archaic, and that's frustrating as a parent to say, Why is it still this way? And yes, the academic handcuffs are on to some degree, so I try to keep that in mind as I'm having parent teacher discussions. But I do think that school systems, would say the one that I'm in, you folks know who you are, a few of you listen to the show, you might be thinking about that. It might be if you are finding that you're using tools to learn yourself in life, bring that down for the kids.",
+  "zh": "你可能时不时也会这样。你会感到沮丧，因为你从自己那个非常现代的世界走出来，感觉像是进入了你孩子的世界，那个世界有点过时，作为父母这很令人沮丧，你会想问：为什么还是这样？是的，学术上的手铐在某种程度上确实存在，所以我在进行家长与老师的讨论时会尽量记住这一点。但我确实认为，学校系统——我会说我所在的那个系统，你们知道我说的是谁，你们中有几个人在听这个节目——你们可能正在考虑这个问题。如果你发现你在生活中使用工具来自学，那就把这些工具带给孩子们。"
+ },
+ {
+  "seg": 51,
+  "start": 1304.01,
+  "end": 1336.2201,
+  "speaker": "Chris Benson",
+  "en": "Figure out how can I do that? I know for me, these tools, and I suspect it's the same for you, I rarely go and just get an answer unless it's a completely trivial thing. I usually go and explore the nature of a problem so that by the time I get to an answer, I've used these tools to ensure that I've done a certain amount of that struggle myself, and it's a self imposed struggle so that I've learned. I found that by doing that, these tools are catering to me. I've helped them.",
+  "zh": "想想怎么做？就我而言，我猜你们也一样，我很少直接去要一个答案，除非是完全微不足道的事情。我通常会去探索问题的本质，这样等我最终得到答案时，我已经用这些工具确保自己经历了相当程度的挣扎，这是一种自我强加的挣扎，这样我才能学到东西。我发现通过这样做，这些工具在适应我。我在帮助它们。"
+ },
+ {
+  "seg": 52,
+  "start": 1336.2201,
+  "end": 1386.0099,
+  "speaker": "Chris Benson",
+  "en": "I've kind of given their profiles about me, and they're able to present information that's really optimal for me. So even at 56, my current age, I am learning rapidly, certainly as fast as I have done over the last few decades or faster, because I have these tools to do that. What I'm suggesting is we need to push that down into more of a systematic approach in the school system and let these tools help kids at an individual level learn. I'll give you one example before I shut up. I'm gonna be radical here, but I did suggest this to a set of teachers recently, and I think their face just dropped, and that is I think school systems, most of the curriculum is well set long before, and the teachers know what they're teaching far before they actually get to a given day when they're teaching it.",
+  "zh": "我某种程度上已经给了它们关于我的画像，它们能够呈现出对我来说真正最优的信息。所以即使在我现在 56 岁的年纪，我仍在快速学习，肯定和我过去几十年一样快，甚至更快，因为我有这些工具来做到这一点。我的建议是，我们需要把这种方法更系统性地推广到学校系统中，让这些工具在个体层面帮助孩子们学习。在我闭嘴之前，我给你们举一个例子。我要在这里激进一点，但我最近向一群老师提过这个建议，我想他们的表情直接垮掉了，那就是：我认为学校系统，大部分课程大纲早就定好了，老师们在实际到达某一天的教学日之前很久就知道自己要教什么。"
+ },
+ {
+  "seg": 53,
+  "start": 1386.01,
+  "end": 1411.24,
+  "speaker": "Chris Benson",
+  "en": "Put that curriculum out there. I'm not talking about the tests. I'm not talking about quizzes, but on the first day of school, have the whole year's curriculum out there so that you have the ability... The kids are going use these tools anyway to some degree. Rather than call that cheating, let them learn the material and find ways of determining how deep they're getting.",
+  "zh": "把课程大纲公开。我不是说考试。我不是说测验，而是在开学第一天，把全年的课程大纲公开，这样你就有能力……孩子们在某种程度上反正会使用这些工具。与其称之为作弊，不如让他们学习这些材料，并找到方法来确定他们学得有多深。"
+ },
+ {
+  "seg": 54,
+  "start": 1411.24,
+  "end": 1437.89,
+  "speaker": "Chris Benson",
+  "en": "Are they just getting shallow answers? Are they diving into it? But you can actually... And as a parent, I can smooth out in certain areas where I know my daughter might struggle in certain areas, and I can smooth that out, introduce things earlier, expand the period of time she's exposed to it, and get her learning because I already do that as a parent. And so when I suggested, Let everybody do their faces kind of fell.",
+  "zh": "他们是只得到浅层的答案，还是深入钻研了？但你实际上可以……作为父母，在我知道我女儿在某些领域可能会遇到困难的地方，我可以把这些地方抚平，更早地引入一些东西，延长她接触这些内容的时间，让她学会，因为我作为父母已经在这样做了。所以当我提议“让所有人都这样做”时，他们的表情都垮了。"
+ },
+ {
+  "seg": 55,
+  "start": 1437.89,
+  "end": 1475.15,
+  "speaker": "Chris Benson",
+  "en": "But I think that you could be a lot more efficient about getting individual students learning in specific ways that are specific to their learning styles and let the teachers become, through school policy, through district policy, become kind of facilitators of that customization process. And I think teachers as humans would become much more useful in years ahead if they adjust their role to do that. I think we'll find that the need for human teachers stays very high rather than just saying, well, they're gonna get replaced by AI. So there's there's my radical suggestion.",
+  "zh": "但我认为，你可以更高效地让每个学生以适合他们学习风格的特定方式学习，并通过学校政策、学区政策，让老师们成为这种定制化过程的促进者。我认为，作为人类的老师，如果调整他们的角色来做到这一点，在未来几年里会变得有用得多。我认为我们会发现对人类教师的需求仍然很高，而不是简单地说：他们会被 AI 取代。所以这就是我激进的建议。"
+ },
+ {
+  "seg": 56,
+  "start": 1475.23,
+  "end": 1481.085,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Coming soon to a newly established Benson Academy",
+  "zh": "是的。即将来到一所新成立的 Benson Academy"
+ },
+ {
+  "seg": 57,
+  "start": 1481.085,
+  "end": 1482.0449,
+  "speaker": "Chris Benson",
+  "en": "for There we go.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 58,
+  "start": 1482.605,
+  "end": 1488.445,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. See if you get funding for that one. I think I have a challenge",
+  "zh": "是的。看看你能不能为那个拿到资金。我觉得我面前有一个挑战"
+ },
+ {
+  "seg": 59,
+  "start": 1488.445,
+  "end": 1490.5249,
+  "speaker": "Chris Benson",
+  "en": "in front of me there. There's a struggle there.",
+  "zh": "摆在那里。那里有一场斗争。"
+ },
+ {
+  "seg": 60,
+  "start": 1492.6849,
+  "end": 1546.7749,
+  "speaker": "Daniel Whitenack",
+  "en": "A way to extrapolate a principle out of what you're saying there, Chris, is I do think that... Or a piece of this is some sort of way in which both the, elementary, high school, and universities systems can allow for experimentation with this technology in ways that they aren't now. Because to your point, teachers are very much, their their hands are tied in a lot of cases in terms of what they can or can't allow, or even in some cases like, hey. You are going to use this tool to determine if this essay is written by AI or or something like that, or it's integrated into those those things. And so they they may or may not have a choice to do that, but somehow there needs to be the chance for experimentation.",
+  "zh": "从你刚才所说的中提炼出一个原则，Chris，我确实认为……或者说其中一部分是，某种方式让小学、高中和大学系统都能以他们现在做不到的方式，对这项技术进行实验。因为正如你所说，老师们在很多情况下束手束脚，关于他们能允许什么或不能允许什么，甚至在某些情况下，比如“嘿，你要用这个工具来判断这篇论文是不是 AI 写的”之类，或者把它整合进那些事情中。所以他们可能有也可能没有选择的余地，但不知怎么的，需要有实验的机会。"
+ },
+ {
+  "seg": 61,
+  "start": 1546.855,
+  "end": 1568.8551,
+  "speaker": "Daniel Whitenack",
+  "en": "I know some of the things that I've heard is a bit of reprioritization and tie in of AI. So less of focus on memorization and repeating facts. Right? And maybe a way for you to look at the output of AI and find what is maybe not not accurate. Right?",
+  "zh": "我知道我听到的一些事情是某种程度的重新排序和 AI 的结合。也就是更少地专注于记忆和重复事实。对吧？也许是让你去看 AI 的输出，找出其中可能不准确的地方。对吧？"
+ },
+ {
+  "seg": 62,
+  "start": 1568.8551,
+  "end": 1599.655,
+  "speaker": "Daniel Whitenack",
+  "en": "So one one, thing that I've heard certain teachers doing is saying, alright. Here's here's our topic that we're all gonna write an essay around. You are going to put this and ask for this essay into AI. And then what I want is your critical analysis of how that essay could be improved in the output or maybe where... What is not accurate in that essay or what is framed incorrectly.",
+  "zh": "我听说有些老师在做的一件事是说：好吧，这是我们的主题，我们都要围绕它写一篇文章。你要把这个问题和这篇作文的要求放进 AI。然后我想要的是你的批判性分析：那篇文章的输出可以怎样改进，或者那篇文章里哪里不准确，或者哪里框架有误。"
+ },
+ {
+  "seg": 63,
+  "start": 1599.8151,
+  "end": 1614.4899,
+  "speaker": "Daniel Whitenack",
+  "en": "And just assume that there are things framed incorrectly or there there is something to be improved. Right? And I guess you could argue, well, that could be done with AI too, but it is teaching a different sort of mechanism with with AI. Right? Which is this...",
+  "zh": "并且就假设有框架错误的地方，或者说有需要改进的地方。对吧？我猜你可以争论说，这也可以用 AI 来做，但它是在用 AI 教一种不同的机制。对吧？也就是这个……"
+ },
+ {
+  "seg": 64,
+  "start": 1614.57,
+  "end": 1635.09,
+  "speaker": "Daniel Whitenack",
+  "en": "Well, it is really a... You're looking at the output of this and not treating it as a gold standard. Right? But you're building intuition that this needs to be checked, you're working back and forth on improving. And there's still critical thinking where you have to determine what what is what is best, what is not, what is better, what is worse, etcetera.",
+  "zh": "嗯，这真的是……你在看它的输出，而不是把它当作金标准。对吧？但你在建立一种直觉：这需要被检查，你在来回迭代改进。这里仍然有批判性思维，你必须判断什么是最好的，什么不是，什么更好，什么更糟，等等。"
+ },
+ {
+  "seg": 65,
+  "start": 1635.41,
+  "end": 1661.07,
+  "speaker": "Daniel Whitenack",
+  "en": "So, I'm not saying that's the perfect way to do it. I think I more mean t... Teachers and professors likely need the freedom to be able to try some of these things, and I don't know. I'm not familiar enough, obviously familiar enough with the educational system to know the mechanism through which that could happen. And, you know, maybe our listeners, if they're aware of some of...",
+  "zh": "所以，我不是说那就是完美的做法。我更多是想说，老师和教授们可能需要自由去尝试其中的一些做法，我不知道。我对教育系统显然不够熟悉，不知道通过什么机制才能实现这一点。而且，你知道，也许我们的听众，如果他们了解一些……"
+ },
+ {
+  "seg": 66,
+  "start": 1661.07,
+  "end": 1683.125,
+  "speaker": "Daniel Whitenack",
+  "en": "I'm sure that there's innovative programs going on, you know, in our country and other countries. If if our listeners are aware of some of those things and maybe want to point us to some of those things, we would love maybe to have have some of those experts on the show to highlight highlight some of the more positive side of what's going on there, which I'm sure there are people experimenting.",
+  "zh": "我确信在我们的国家和其他国家都有创新项目在进行。如果我们的听众了解其中一些，并且想给我们指出来，我们会很乐意请一些这样的专家上节目，来突出那里正在发生的更积极的一面，我相信一定有人在实验。"
+ },
+ {
+  "seg": 67,
+  "start": 1683.125,
+  "end": 1715.54,
+  "speaker": "Chris Benson",
+  "en": "Oh, I'm sure. I I would actually like to follow-up and kind of put a challenge out there to viewers and listeners on this. If we're looking at a future, going into the classroom a few years down the road, and we still have our human teacher facilitating this process. Not a new idea right here. I'm sure everyone's heard of it, but the notion of every student has a personal AI in the classroom with them that's designed to help educate them along these things that we're talking about.",
+  "zh": "哦，我确信。我其实想跟进一下，就这一点向观众和听众提出一个挑战。如果我们展望未来，几年后走进教室，我们仍然有人类教师来促进这个过程。这不是一个新想法。我相信每个人都听说过，但就是每个学生在教室里都有一个陪伴他们的个人 AI，旨在就我们讨论的这些内容帮助他们学习。"
+ },
+ {
+  "seg": 68,
+  "start": 1716.3401,
+  "end": 1764.355,
+  "speaker": "Chris Benson",
+  "en": "And maybe the AI, I'm just gonna throw, maybe there's an earpiece in that the kid has. He can hear or she can hear the teacher clearly, but there's also an AI talking and saying, Well, how would you think about this? And as the teacher is working on that and the AI is observing the kid's struggle through the process, and they can cue them in ways that are customized for that particular student. So the AI that the next student over may be cuing them a little bit differently, but it keeps them on track, keeps them focused on the work, and keeps them on a learning curve. I love to hear, that's not a new idea, we've heard about those things in the past, I'd love to hear how people are thinking about that, whether that's on track, whether there needs to be something different, and how you would use that kind of capability.",
+  "zh": "也许是 AI……我只是随便抛一下，也许孩子戴着一个耳机。他能或她能清楚地听到老师的声音，但同时也有一个 AI 在说话，说：嗯，你会怎么思考这个问题？当老师在讲课、AI 在观察孩子在这个过程中遇到的困难时，它可以用为那个特定学生定制的方式给他们提示。所以旁边下一个学生的 AI 提示他们的方式可能会略有不同，但它能让他们保持在正轨上，保持专注于功课，保持在一条学习曲线上。我很想听听——这不是个新想法，我们过去听说过这类东西——我很想听听人们对此的想法，这是否在正确的轨道上，是否需要一些不同的东西，以及你会如何使用这种能力。"
+ },
+ {
+  "seg": 69,
+  "start": 1764.355,
+  "end": 1828.25,
+  "speaker": "Daniel Whitenack",
+  "en": "So Chris, just to highlight a couple things, which you you had sent me prior to this conversation, which I think are interesting, just a a couple of data points here. There was a 2025, study field experiment with nearly a thousand high school mathematics students in Turkey, that found that a general chatbot improved assisted practice but reduced subsequent unassisted exam performance by 17% relative to a control. The... Study, that was from Harvard undergraduate physics program, this was with around 200 students, found stronger immediate learning gains with a carefully structured AI tutor across two lessons than with its active learning classroom comparison. I know actually even when I was a teaching assistant at Purdue, this sort of active learning, stuff was very much the thing that everyone was experimenting with.",
+  "zh": "那么 Chris，我想强调几件事，是你在这场对话之前发给我的，我觉得很有意思，就是这里的几个数据点。有一项 2025 年在土耳其针对近千名高中数学学生进行的实地实验研究，发现一个通用聊天机器人改善了有辅助的练习，但使随后的无辅助考试表现相对对照组下降了 17%。还有……那项研究，来自哈佛本科物理项目，涉及大约 200 名学生，发现在两节课中，精心构建的 AI 辅导员比其主动学习课堂对照组带来了更强的即时学习收益。我知道实际上当我在 Purdue 做助教时，这种主动学习的东西正是当时所有人都在实验的东西。"
+ },
+ {
+  "seg": 70,
+  "start": 1828.25,
+  "end": 1855.63,
+  "speaker": "Daniel Whitenack",
+  "en": "I I don't know that that field in its entirety, but I I know that was a big thing back then. So it is encouraging that people are doing some of these experiments. I know that Purdue, which is in the town where I live for those that that don't that don't know, local here to me, I... You know, there's all sorts of mixed things. Different departments are handling things differently, but I know the sis...",
+  "zh": "我不完全了解那个领域的全貌，但我知道那是当时的一件大事。所以人们在做一些这样的实验是令人鼓舞的。我知道 Purdue——对于不知道的人来说，它就在我居住的镇上，是我的本地——你知道，有各种各样混杂的情况。不同的系处理方式不同，但我知道那个系……"
+ },
+ {
+  "seg": 71,
+  "start": 1855.63,
+  "end": 1889.01,
+  "speaker": "Daniel Whitenack",
+  "en": "To your point, Chris, the system is doing certain things. So Purdue... And I know this... They're not the only ones doing this, but they have now an actual requirement in the undergraduate, like across all undergraduate degrees that there's an AI competency requirement, and they say, it's AI focused coursework designed to build critical thinking, responsible AI use, and workforce ready skills. So, yeah, I think to your point, Chris, you were mentioning mentoring people coming in out of university.",
+  "zh": "正如你所说，Chris，系统在做一些事情。比如 Purdue……我知道这个……他们不是唯一在这样做的，但他们现在在本科阶段有一个实际的要求，涵盖所有本科学位，即有一项 AI 能力要求，他们说，这是以 AI 为重点的课程，旨在培养批判性思维、负责任的 AI 使用，以及面向职场的技能。所以，是的，我想正如你所说，Chris，你之前提到指导从大学毕业出来的人。"
+ },
+ {
+  "seg": 72,
+  "start": 1889.545,
+  "end": 1925.765,
+  "speaker": "Daniel Whitenack",
+  "en": "I, you know, I I struggle to believe that... Well, or maybe the way to put it is a lot of those students coming out of university, at least if they're working in my company, so maybe I just speak to my own experience. If they're not comfortable with wanting and digging into AI assistance in their day to day work, then that's going to be a problem for for for them at at our company. That is an expectation. However, that's not necessarily what they're learning in their in their university program where maybe they're...",
+  "zh": "我……你知道，我很难相信……嗯，或者说换个说法是，很多从大学毕业出来的学生，至少如果他们在我的公司工作的话——所以也许我只能谈谈我自己的经验——如果他们不愿意在日常工作里想要并深入使用 AI 辅助，那么这对他们在我们公司来说将会是个问题。这是一种期望。然而，这未必是他们在大学项目中所学到的东西，也许他们……"
+ },
+ {
+  "seg": 73,
+  "start": 1926.165,
+  "end": 1956.915,
+  "speaker": "Daniel Whitenack",
+  "en": "They have very much this... Even if they like using it personally, they might have a negative association with AI in their day to day work because their day to day work has been university work, and their university professors are up in arms about, oh, I... I'm guessing that you're using AI on this, or I'm trying to prevent you from using AI on this, or I'm using AI detection to prevent you from, gaming this this thing. Right? Which, again, I I feel for the professors because a lot of times their hands are tied there.",
+  "zh": "他们有很多这种……即使他们个人喜欢使用它，他们也可能对 AI 在日常工作中的使用有负面的联想，因为他们的日常工作一直是大学作业，而他们的大学教授们强烈反对，说：哦，我猜你在用 AI 做这个，或者我试图阻止你用 AI 做这个，或者我在用 AI 检测来防止你钻这个空子。对吧？再说一次，我很同情那些教授，因为很多时候他们也是束手束脚的。"
+ },
+ {
+  "seg": 74,
+  "start": 1956.915,
+  "end": 1972.61,
+  "speaker": "Daniel Whitenack",
+  "en": "Maybe they don't know what to do. So I definitely see that side of things. But certainly, those students, if they form that association, that's not what is present a lot of... At least... And and I know certain companies are not as far along in their AI adoption.",
+  "zh": "也许他们不知道该怎么办。所以我确实看到事情的那一面。但可以肯定的是，那些学生，如果形成了那种联想，那与很多……至少……而且我知道某些公司在 AI 采用方面没有那么先进。"
+ },
+ {
+  "seg": 75,
+  "start": 1972.77,
+  "end": 1985.87,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? But the reality is we're going that direction whether anyone likes it or not. For you to have a job and a role, you're gonna use AI in that role. So Yeah. That is gonna expectation.",
+  "zh": "对吧？但现实是，无论任何人喜欢与否，我们都在往那个方向走。你要有一份工作和一个角色，你就要在那个角色中使用 AI。所以是的，这将会是一种期望。"
+ },
+ {
+  "seg": 76,
+  "start": 1985.9501,
+  "end": 2022.5199,
+  "speaker": "Chris Benson",
+  "en": "Yeah, I think when you talk about the professor trying to say, Don't do this, and trying to detect it, I don't have the answer to that. But what I do have is my reaction to that is maybe we're measuring the wrong thing. Maybe we need to find... How do we get the student where the student needs to go without telling them that the tools that are going to be embedded in their lives for the rest of their lives are not fair, that that is cheating, that kind of perspective. I think that needs to change.",
+  "zh": "是的，我想当你谈到教授试图说“不要这样做”并试图检测它时，我没有那个问题的答案。但我的反应是：也许我们在衡量错误的东西。也许我们需要找到……如何让学生到达学生需要到达的地方，而不是告诉他们：那些将嵌入你们余生生活的工具是不公平的，那是作弊——那种观点。我认为这需要改变。"
+ },
+ {
+  "seg": 77,
+  "start": 2023.3201,
+  "end": 2070.84,
+  "speaker": "Chris Benson",
+  "en": "We need to find a way of getting those critical skills to those students, acknowledging that we all go and drive cars and do things that are just completely part of our life. This is also now part of that life, and so we need to acknowledge that education is never going to be without this again, and so that's the kind little parental mission that I'm on right here is trying to do. Don't claim to have all the answers, but it's a process, I think, that we need to engage in in the large. It's a societal problem that's only going to get worse as we go forward unless we actively do that. I love hearing about Purdue's efforts and trying to start moving things incrementally forward on that.",
+  "zh": "我们需要找到一种方法，让那些关键技能传递给那些学生，同时承认我们所有人都会开车、做那些完全已成为生活一部分的事情。这个现在也成为了那种生活的一部分，所以我们需要承认，教育从此再也不会脱离这个了，所以这就是我此刻正在进行的那个小小的父母使命。我并不声称拥有所有的答案，但我认为这是一个我们需要大规模参与的过程。这是一个社会问题，除非我们主动去做，否则它只会随着时间推移变得更糟。我很高兴听到 Purdue 的努力，以及在这个方向上尝试逐步推进。"
+ },
+ {
+  "seg": 78,
+  "start": 2071.08,
+  "end": 2098.3052,
+  "speaker": "Chris Benson",
+  "en": "I'd like to ask you a question. What are your I'm talking to my daughter a lot about college. I'm talking to her about higher education. What does it look like to go through graduate school? What does a PhD what kinds of passions that she has, given the fact that the world is changing rapidly and none of us really know what kinds of changes in our career will be required because the world is changing.",
+  "zh": "我想问你一个问题。你的……我经常和我女儿谈论大学。我和她谈论高等教育。读研究生是什么样的？读博士……考虑到世界正在快速变化，我们没有人真正知道我们的职业将需要哪些什么样的改变，因为世界在变化，她会需要什么样的激情？"
+ },
+ {
+  "seg": 79,
+  "start": 2098.52,
+  "end": 2109.24,
+  "speaker": "Chris Benson",
+  "en": "What are your thoughts on higher education and the utility of the PhD or how that utility may need to evolve to keep it relevant? What are your thoughts there?",
+  "zh": "你对高等教育以及博士学位的效用有什么看法？或者说这种效用可能需要如何演变才能保持相关性？你对此有什么想法？"
+ },
+ {
+  "seg": 80,
+  "start": 2109.24,
+  "end": 2145.3452,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. I would say maybe just in reflecting on my own journey, which is is mostly what I can do, I guess. Sure. What's interesting is I would say that in... I grew more as an individual and my abilities as an individual in terms of, confidence, critical thinking, problem solving, creativity in my PhD program, like, by many, many orders of magnitude than undergraduate or or high school sort of environment.",
+  "zh": "是的。也许就是回顾我自己的旅程吧，我猜这大概是我能做的。当然。有意思的是，我会说，在……我在博士项目中作为个体的成长——就自信、批判性思维、问题解决、创造力这些作为个体的能力而言——比本科或高中的环境成长了多个数量级。"
+ },
+ {
+  "seg": 81,
+  "start": 2145.5051,
+  "end": 2180.8152,
+  "speaker": "Daniel Whitenack",
+  "en": "And I think that one, that's because obviously it was a lot harder. And so, again, that fits maybe my my leaning towards, that side of the the utility of of struggle, in terms of your your growth. But I think also the PhD, if you're thinking about PhD specifically, it is different from other educational endeavors in that it is necessarily... Like, you can't get a PhD without publishing novel research. Right?",
+  "zh": "我认为，第一，那显然是因为它难得多。所以，这又契合了我倾向于的那一面，即挣扎对成长的价值。但我也认为，如果你具体考虑博士的话，它与其他教育努力的不同之处在于，它必然是……你不可能不发表新颖的研究就拿到博士学位。对吧？"
+ },
+ {
+  "seg": 82,
+  "start": 2180.8152,
+  "end": 2211.575,
+  "speaker": "Daniel Whitenack",
+  "en": "And so regardless of how well AI systems can help you parse through the state of the art, they, at the end of the day, know the state of the art. And I know that people are working on AI systems that can kind of autonomously make maybe discoveries of their own. Right? And so I do think that AI systems could assist in that exploration of what is novel. But to some degree, the PhD does force you to say, well, here are the fundamentals.",
+  "zh": "因此，无论 AI 系统能多么好地帮助你解析最先进的技术水平，归根结底，它们知道的是最先进的技术水平。我知道人们正在研究可以自主做出自己发现的 AI 系统。对吧？所以我确实认为 AI 系统可以协助那种对新颖性的探索。但在某种程度上，博士确实迫使你说：好吧，这些是基本原理。"
+ },
+ {
+  "seg": 83,
+  "start": 2211.575,
+  "end": 2227.31,
+  "speaker": "Daniel Whitenack",
+  "en": "I have a mental model of the fundamentals. Now where can I draw outside of the lines? Knowing also that others who deeply know the fundamentals are going to be skeptical of me and question me around this... Where I'm drawing outside of the lines. Right?",
+  "zh": "我对基本原理有一个心智模型。现在我在哪里可以画出框线之外的东西？同时也要知道，那些深刻掌握基本原理的人会对我持怀疑态度，并在我画出框线之外的地方质问我。对吧？"
+ },
+ {
+  "seg": 84,
+  "start": 2227.31,
+  "end": 2242.68,
+  "speaker": "Daniel Whitenack",
+  "en": "So I I very much appreciate and love, you know, looking back, and I still love this to the... This day, the idea of the poster session. Right? I I drew outside of the lines. I was creative, and I'm saying that this is new territory.",
+  "zh": "所以我非常感激并且热爱……回首往事，直到今天我仍然热爱……海报展示会的概念。对吧？我画出了框线之外，我很有创造性，我说这是新的领域。"
+ },
+ {
+  "seg": 85,
+  "start": 2242.68,
+  "end": 2272.8098,
+  "speaker": "Daniel Whitenack",
+  "en": "And I think I'm making this progress in this area, and I'm putting it on a poster in a room with 50, you know, very experienced experts and physicists and professors and researchers in this room, and they're all gonna come up and ask me on the fly, you know, to... They're all skeptical about, you know, my my work. Right? And and I love that, and I think that that, it's not for everybody. I...",
+  "zh": "我认为我在这个领域取得了进展，我把它放在一张海报上，放在一个有 50 位非常有经验的专家、物理学家、教授和研究人员在场的房间里，他们都会走上前来，当场问我……他们都对我的工作持怀疑态度。对吧？而我热爱这个，我认为……它不适合所有人。我……"
+ },
+ {
+  "seg": 86,
+  "start": 2272.8098,
+  "end": 2323.0999,
+  "speaker": "Daniel Whitenack",
+  "en": "And I'm not saying that everyone should do a PhD, but I think it is unique within that, you know, educational paradigm, and it produces some of that unique outcome where I think a lot of a lot of my confidence in operating in ambiguity came out of that process. So it maybe it's less so the individual discoveries that I think are still valuable in that graduate school PhD program because I think you could argue, AI systems, if they're good enough, they could help us explore these topics and make new discoveries. And it's more more that comfort level in working with ambiguity through the struggle towards a defensible position that you're confident in. That... That's actually a very creative process, and I think that that's a value.",
+  "zh": "我不是说每个人都应该读博士，但我认为它在那个教育范式中是独特的，它产生了一些独特的成果——我认为我在模糊性中运作的很多自信都来自那个过程。所以，也许并不那么是我个人的那些发现让我认为研究生院博士项目仍然有价值，因为我认为你可以争论说，如果 AI 系统足够好，它们可以帮助我们探索这些课题并做出新发现。而更多是在通过挣扎走向一个你有自信的、可辩护的立场的过程中，培养出的那种在模糊性中工作的舒适度。这……这实际上是一个非常富有创造性的过程，我认为这是一种价值。"
+ },
+ {
+  "seg": 87,
+  "start": 2323.0999,
+  "end": 2338.765,
+  "speaker": "Daniel Whitenack",
+  "en": "I think it's not the only way you can do that. Right? Entrepreneurs that create ventures, right, have a very similar type of process. Right? And you could have an AI generate your business idea, but at the end of the day, that doesn't mean it has product market fit.",
+  "zh": "我认为这不是唯一能做到这一点的方式。对吧？创建企业的创业者对吧，也有非常相似的过程。对吧？你可以让一个 AI 生成你的商业创意，但归根结底，那并不意味着它有产品市场契合度。"
+ },
+ {
+  "seg": 88,
+  "start": 2338.765,
+  "end": 2358.1,
+  "speaker": "Daniel Whitenack",
+  "en": "And even if it does have product market fit, you can still sabotage your own business to make it not succeed. It... It's a very creative and difficult and, you know, struggle filled endeavor. And so that produces that level of working in ambiguity, creativity, etcetera. And, you know, you could probably come up with other examples.",
+  "zh": "而且即使它有产品市场契合度，你仍然可能亲手搞砸自己的生意使它不成功。这是一个非常富有创造性、非常困难、充满挣扎的事业。所以就产生了那种在模糊性中工作的水平、创造力等等。而且，你大概还能想出其他例子。"
+ },
+ {
+  "seg": 89,
+  "start": 2358.1,
+  "end": 2391.4949,
+  "speaker": "Daniel Whitenack",
+  "en": "So there's the PhD, there's entrepreneurship and venture building, there's creative pursuits. Right, whether it's... You mentioned writing writing a new piece, you know, writing a book or, or art or whatever those things are that are pushing those boundaries, where human creativity is still what's needed. I think I strayed quite a bit from your initial question, but those are some of what it makes me think of. Maybe it's a definition of where is...",
+  "zh": "所以有博士、有创业和创建企业、有创造性的追求。对吧，无论是……你提到写作，写一个新作品，写一本书，或者艺术，或者任何那些在推动边界的东西——那里仍然需要的是人类的创造力。我想我偏离你最初的问题挺多了，但这些就是它让我想到的一些东西。也许这是一个定义，关于……"
+ },
+ {
+  "seg": 90,
+  "start": 2391.4949,
+  "end": 2409.94,
+  "speaker": "Daniel Whitenack",
+  "en": "Where are we finding value in our creative endeavors as humans, and how do we promote more of that, which could be through a PhD program. I I think they're still relevant. It could be through these other pursuits, but yeah, there's a real creative element at its core.",
+  "zh": "我们作为人类在哪里能从创造性努力中找到价值，以及我们如何推广更多这种价值——可以通过博士项目。我认为它们仍然相关。它也可以通过这些其他的追求来实现，但是的，它的核心有一种真实的创造性元素。"
+ },
+ {
+  "seg": 91,
+  "start": 2410.5,
+  "end": 2482.575,
+  "speaker": "Chris Benson",
+  "en": "I know that you were saying that you had deviated a bit from the question, but you definitely inspired some thinking as we're winding up here on our discussion. One of the things I think I'll take away and that maybe others might want to consider as well is with you talking about the value of ambiguity, creativity, and the struggle itself and how that really enabled you to grow as a person. You said orders of magnitude. As I'm looking at what if you were to take that process a little bit earlier in the educational process down to where you are addressing fundamentals, how might introducing ambiguity, creativity, and struggle, and then allowing for some tooling to be part of that process introduce fundamentals in a way that creates that critical thinking, enhances that creativity, allows kids to do it, though it may be a different path on how they're achieving that from what we're doing today. A little bit less memorization and that kind of stuff and a little bit more driving them forward and relying on the rote stuff to the tool.",
+  "zh": "我知道你说你偏离了问题一点，但在我们这场讨论接近尾声时，你绝对激发了一些思考。我认为我带走的、也许其他人也可能想考虑的一点是：你谈到了模糊性、创造力和挣扎本身的价值，以及这如何真正使你作为一个人成长。你说了“数量级”。当我设想，如果你把那个过程在教育过程中稍微提前一点，下移到你处理基本原理的阶段，引入模糊性、创造力和挣扎，然后允许一些工具成为这个过程的一部分，会如何以一种培养批判性思维、增强创造力的方式引入基本原理，让孩子们能够做到这一点——尽管他们实现目标的方式可能与今天的我们不同。少一点死记硬背那种东西，多一点推动他们前进，把死记硬背的东西交给工具。"
+ },
+ {
+  "seg": 92,
+  "start": 2483.2148,
+  "end": 2495.55,
+  "speaker": "Chris Benson",
+  "en": "So that's where you've taken me, Daniel, and I appreciate that. It's giving me something to think about. Any final thoughts from you in terms of new data that's about to hit the world with this?",
+  "zh": "所以这就是你把我带到的方向，Daniel，我很感激。这给了我一些可以思考的东西。关于即将冲击世界的新数据，你有什么最后想说的吗？"
+ },
+ {
+  "seg": 93,
+  "start": 2496.11,
+  "end": 2524.85,
+  "speaker": "Daniel Whitenack",
+  "en": "All is with the caveat of I have no idea what I'm talking about, think that's... Maybe it ties back PhD to thing. Yeah. It's like, I'm perfectly fine operating in this space where I don't I don't know everything and still having opinions and creativity. And I think, you know, I recognize that caveat that I am no educational expert.",
+  "zh": "好的，带上“我不知道自己在说什么”这个保留意见，我觉得这……也许这能把博士那件事串回来。是的。就像，我完全可以接受在我不了解一切的领域里运作，同时仍然持有观点和创造力。而且我认为，你知道，我认识到那个保留意见，即我不是教育专家。"
+ },
+ {
+  "seg": 94,
+  "start": 2525.4102,
+  "end": 2564.265,
+  "speaker": "Daniel Whitenack",
+  "en": "But I think it is an evidence of the fact that you can... We can, I hope, into this future, still develop people that have confidence and problem solving skills and creativity? But I definitely think it's gonna be gonna be different moving forward. And I guess maybe there's a follow-up show here in the future to maybe dive in with some educators specifically around around how that's developing. I certainly know from even my experience with other technologies that the educational systems are often behind, you know, even before AI that was true and that's problematic.",
+  "zh": "但我认为这证明了这样一个事实：我们可以……我希望，在这个未来里，仍然能培养出有自信、有问题解决能力和创造力的人。但我确实认为，往前走它会有所不同。而且我想也许这里可以有一个未来的后续节目，也许专门和一些教育工作者深入探讨这一切是如何发展的。从我自己与其他技术的经验来看，我当然知道教育系统往往滞后，你知道，甚至在 AI 之前就是这样，而这是有问题的。"
+ },
+ {
+  "seg": 95,
+  "start": 2564.265,
+  "end": 2577.385,
+  "speaker": "Daniel Whitenack",
+  "en": "Right? The same with legislation. Right? Legislation is always behind what we're doing with technology, that creates its own problems as well. But it doesn't mean that we can't catch up and make changes.",
+  "zh": "对吧？立法也一样。对吧？立法总是落后于我们用技术在做的事情，这本身也会产生问题。但这并不意味着我们不能赶上并做出改变。"
+ },
+ {
+  "seg": 96,
+  "start": 2577.7048,
+  "end": 2584.6401,
+  "speaker": "Daniel Whitenack",
+  "en": "So would would love to get any connections to educational experts out there from our audience. If you have them, please send them our way.",
+  "zh": "所以非常希望从我们的观众那里得到任何与教育专家的联系。如果你有，请发给我们。"
+ },
+ {
+  "seg": 97,
+  "start": 2584.6401,
+  "end": 2587.92,
+  "speaker": "Chris Benson",
+  "en": "Good way to wind up. Thanks for thanks for the conversation today.",
+  "zh": "收尾的好方式。谢谢今天的对话。"
+ },
+ {
+  "seg": 98,
+  "start": 2587.92,
+  "end": 2590,
+  "speaker": "Daniel Whitenack",
+  "en": "Yeah. Same here. Talk to you soon, Chris.",
+  "zh": "是的，我也是。回头聊，Chris。"
+ },
+ {
+  "seg": 99,
+  "start": 2595.225,
+  "end": 2618,
+  "speaker": "Narrator",
+  "en": "That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show. Check them out at predictionguard.com.",
+  "zh": "这就是我们本周的节目。如果你还没看过我们的网站，请前往 practicalai.fm，并务必在 LinkedIn、X 或 Blue Sky 上与我们联系。你会看到我们发布与最新 AI 发展相关的洞见，我们很乐意你加入对话。感谢我们的合作伙伴 Prediction Guard 为节目提供运营支持。请访问 predictionguard.com 了解他们。"
+ },
+ {
+  "seg": 100,
+  "start": 2618.16,
+  "end": 2625.005,
+  "speaker": "Narrator",
+  "en": "Also, thanks to Breakmaster Cylinder for the beats and to you for listening. That's all for now, but you'll hear from us again next week.",
+  "zh": "同时,感谢 Breakmaster Cylinder 提供的节拍,也感谢你的收听。今天就到这里,但我们下周会再次与你见面。"
+ }
+]

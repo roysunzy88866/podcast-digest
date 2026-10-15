@@ -7,37 +7,41 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>RLVR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="RLVR">RL</div><div class="pi"><h1 class="pt">RLVR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="RLVR">RL</div><div class="pi"><h1 class="pt">RLVR</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]]**(04:22起):本集说它本质是「优化基准」——一切可编程验证的输出按定义就是基准;嘉宾认为 LLM 领域它顶多算 0.2 次新任务,且是「踩刹车」讨论的狭隘前提
 - **[[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies|《从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换》]]**(17:15起):本集说这是今天的训练范式:智能体在模拟环境中执行复杂任务、测试通过即获得奖励,研究者相信这个方法能泛化
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(56:42起):本集说它本质是在为基准优化、极大破坏模型校准，也是 LLM 很多脆弱性和参差性的来源。
+- **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(34:27起):基于可验证奖励的强化学习，让模型在数学和编程上碾压基准测试，但 Diogo 说它只奖励最终解，并未真正改变自动化的现状。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2026-08-12-talks-rl-environments-explained-how-ai-agents#^q5]]
 
 ![[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai#^q34]]
 
+![[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on#^q10]]
+
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为概念
 - [[2026-10-02-sourcery-frontier-ai-is-a-ferrari--most-companies|《从「考测试」到「干真活」：TuringJonathan 谈 AI 训练的范式切换》]] — 作为概念
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Diogo Almeida]] · [[智能体]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[校准]] · [[OpenAI]] · [[Anthropic]] · [[System 1 模型]]
+[[Diogo Almeida]] · [[Jev]] · [[TypeSafe]] · [[RLCD]] · [[RLHF]] · [[OpenAI]] · [[System 1 模型]] · [[智能体]] · [[分类器]] · [[校准]]
 
-<script type="application/json" class="pd-epn">{"Diogo Almeida":3,"智能体":1,"Jev":7,"TypeSafe":4,"RLCD":2,"RLHF":7,"校准":4,"OpenAI":206,"Anthropic":206,"System 1 模型":1}</script>
+<script type="application/json" class="pd-epn">{"Diogo Almeida":4,"Jev":8,"TypeSafe":5,"RLCD":3,"RLHF":8,"OpenAI":207,"System 1 模型":2,"智能体":1,"分类器":1,"校准":4}</script>
 
 <script>
 (function(){

@@ -109,7 +109,7 @@ PayPal 据此做了个新产品：**[[审批令牌|审批令牌]]（approval tok
 
 - [[2026-07-21-trainingdata-factory-s-matan-grinberg-the-coming-dark|Factory CEO Matan:早两年等于错，退款、路由器与软件工厂]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、令牌 (token)</span>
 - [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|斯坦福语言学家的代币经济学：你的 token 贬值了]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)、令牌 (token)</span>
-- [[2026-02-19-lennys-head-of-claude-code-what-happens|Claude Code 负责人：写代码已被解决，下一步是什么]]<span class="pd-rz">同概念:Claude Code、智能体 (agent)</span>
+- [[2026-10-15-a16z-when-ai-agents-start-spending-your-money|AI 会替你付钱了，但你的信用卡世界要变天了]]<span class="pd-rz">同公司:PayPal · 同概念:保险库 (vault)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

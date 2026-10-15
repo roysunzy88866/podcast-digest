@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":5,"追踪":2,"可观测性":46,"评估":1,"LLM 裁判":3,"Topics":2,"飞轮":6,"编码智能体":35,"Brainstore":3}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"追踪":2,"可观测性":47,"评估":1,"LLM 裁判":3,"Topics":2,"飞轮":6,"编码智能体":35,"Brainstore":3}</script>
 
 <script>
 (function(){

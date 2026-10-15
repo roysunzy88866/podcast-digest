@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bob Safian":8,"Shopify":17,"River":2,"智能体":1,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":3,"X 型人":1,"T 型人":1,"关税":1}</script>
+<script type="application/json" class="pd-epn">{"Bob Safian":8,"Shopify":18,"River":2,"智能体":1,"sidekick":2,"Catalog":2,"Universal Commerce Protocol":3,"X 型人":1,"T 型人":1,"关税":1}</script>
 
 <script>
 (function(){

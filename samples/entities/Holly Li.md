@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claude Shee":1,"OpenAI":206,"Dots":6,"智能体":1,"Codex":90,"ChatGPT":114,"Spaces":2,"隐私":3,"用户规则":1,"提示词注入":1}</script>
+<script type="application/json" class="pd-epn">{"Claude Shee":1,"OpenAI":207,"Dots":6,"智能体":1,"Codex":90,"ChatGPT":115,"Spaces":2,"隐私":3,"用户规则":1,"提示词注入":1}</script>
 
 <script>
 (function(){

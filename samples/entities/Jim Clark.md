@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":101,"MCP":96,"MCP 网关":1,"harness":67,"泄露的凭证":5,"渐进式披露":6,"XAA":1,"Docker":8,"SBX":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":101,"MCP":97,"MCP 网关":2,"harness":67,"泄露的凭证":5,"渐进式披露":6,"XAA":1,"Docker":8,"SBX":2}</script>
 
 <script>
 (function(){

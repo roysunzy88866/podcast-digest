@@ -177,8 +177,8 @@ Martin 还指出了更远的地平线:这可能开启一个完整的[[概率化�
 **顺着「智能体」挖下去**
 
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、Claude Code、OpenAI · 同概念:RLHF、分类器 (classifier)、可靠性 (reliability)</span>
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、ChatGPT、OpenAI · 同概念:RLHF、分类器 (classifier)</span>
 - [[2026-09-28-howiai-jev-for-beginners-how-to-use-it-and-what|Jev 决策模型:9 美分分析 2000 个 PR 的用法全解]]<span class="pd-rz">同公司:Jev、TypeSafe、Claude Code、Codex</span>
-- [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|当AI agent满网跑，安全怎么办？三位老将吵了一期]]<span class="pd-rz">同嘉宾:Martin Casado · 同概念:概率编程 (probabilistic programming)</span>
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -44,6 +44,7 @@ unlisted: true
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:39起):本集说 Microsoft 把 Copilot 统一成超级应用，主打企业赛道这一看家本领，守住这条线、掐灭来自 OpenAI 的竞争就满意了。
 - **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(12:15起):本集说微软发布重新设计的 Copilot 超级应用,把聊天、编程、智能体塞进一个界面,纳德拉明言要做「工作的操作系统」;它触达几乎每一位员工,是另一家先跑出线的分发者。
 - **[[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]]**(40:21起):本集说它从 AI 竞赛的关键行动者沦为尴尬的边缘角色：把未完成微调的 GPT-4 早期版本塞进 Bing 酿成 Sydney 事件，与 OpenAI 关系从此出现裂痕。
+- **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(53:16起):本集提到 Satya 昨晚宣布了 Decision 1 类别，是最新的模仿者。
 
 ## ① 提到它的金句
 
@@ -61,7 +62,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
@@ -96,14 +97,15 @@ unlisted: true
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司
 - [[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]] — 作为被讨论公司
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[推理]] · [[AGI]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":206,"智能体":1,"Google":72,"Meta":56,"Amazon":34,"Apple":27,"NVIDIA":71,"推理":101,"AGI":29}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"Anthropic":206,"智能体":1,"Google":72,"Meta":56,"Amazon":35,"Apple":27,"NVIDIA":71,"推理":101,"ChatGPT":115}</script>
 
 <script>
 (function(){

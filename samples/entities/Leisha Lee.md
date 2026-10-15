@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan Lambert":1,"开源模型":4,"蒸馏":1,"前沿模型":29,"算力":10,"后训练":1,"强化学习环境":1,"RSI":7,"推理模型":2,"微调":39}</script>
+<script type="application/json" class="pd-epn">{"Nathan Lambert":1,"开源模型":4,"蒸馏":1,"前沿模型":29,"算力":10,"后训练":1,"强化学习环境":1,"RSI":8,"推理模型":2,"微调":39}</script>
 
 <script>
 (function(){

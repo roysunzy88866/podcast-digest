@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Mario":4,"RAIN":1,"稳定币":6,"代币化货币":1,"智能体":1,"Stripe":49,"Bridge":3,"Revolut":5,"AOL":3}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"RAIN":1,"稳定币":6,"代币化货币":1,"智能体":1,"Stripe":50,"Bridge":3,"Revolut":5,"AOL":3}</script>
 
 <script>
 (function(){

@@ -135,8 +135,8 @@ Jev 的三个原语是有意的新概念,不对应已有类型:「choice 映射�
 **顺着「创业与行业」挖下去**
 
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|AI 为什么这么聪明，却干不了保险核保？]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、OpenAI、TypeSafe · 同概念:RLCD、RLHF、RLVR、校准 (calibration)</span>
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、OpenAI、TypeSafe · 同概念:RLCD、RLHF、RLVR、System 1 模型 (System 1)</span>
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:Jev、TypeSafe、OpenAI · 同概念:RLHF、编码智能体 (coding agent)</span>
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:编码智能体 (coding agent)</span>
 
 </div>
 <div class="pd-ex">

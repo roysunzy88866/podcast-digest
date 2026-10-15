@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP 网关 (gateway)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP 网关">MC</div><div class="pi"><h1 class="pt">MCP 网关 (gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP 网关">MC</div><div class="pi"><h1 class="pt">MCP 网关 (gateway)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]]**(10:07起):本集说 Docker Sandbox 在每个沙箱里放一个网关端点(如 mcpgateway.docker.internal),汇聚所有 MCP 流量,成为控制点并让各 harness MCP 无关。
+- **[[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|《AI 智能体不读你的政策文档，它们只会调用你的接口》]]**(01:26起):本集的核心主张：把治理、安全和审计从提示词/markdown 政策文档上移到网关这一基础设施层，让智能体『从一开始就做不到』，用 403 硬性拦截替代劝阻。
 
 ## ① 提到它的金句
 
@@ -25,17 +26,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-06-talks-how-many-credentials-should-your-ai-agen|《AI 智能体不该握着钥匙干活:Docker 工程师的沙箱安全课》]] — 作为概念
+- [[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|《AI 智能体不读你的政策文档，它们只会调用你的接口》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jim Clark]] · [[智能体]] · [[沙箱]] · [[MCP]] · [[harness]] · [[泄露的凭证]] · [[渐进式披露]] · [[XAA]] · [[Docker]] · [[SBX]]
+[[智能体]] · [[MCP]] · [[Jim Clark]] · [[Sam]] · [[沙箱]] · [[Gravity]] · [[harness]] · [[提示词注入]] · [[泄露的凭证]] · [[数据外泄]]
 
-<script type="application/json" class="pd-epn">{"Jim Clark":1,"智能体":1,"沙箱":101,"MCP":96,"harness":67,"泄露的凭证":5,"渐进式披露":6,"XAA":1,"Docker":8,"SBX":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":97,"Jim Clark":1,"Sam":1,"沙箱":101,"Gravity":1,"harness":67,"提示词注入":1,"泄露的凭证":5,"数据外泄":1}</script>
 
 <script>
 (function(){

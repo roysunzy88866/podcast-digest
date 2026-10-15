@@ -1,0 +1,786 @@
+{
+  "episode_id": "2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 安全",
+    "智能体治理",
+    "API 网关",
+    "提示词注入",
+    "成本控制"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "sam",
+      "type": "person",
+      "role": "host",
+      "name": "Sam",
+      "file": "Sam",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            13.489,
+            14.07
+          ],
+          "quote": "I'm Sam.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gravity",
+      "type": "company",
+      "role": "company",
+      "name": "Gravity",
+      "file": "Gravity",
+      "primary": true,
+      "how_described": "本集说 Gravitee(稿中写作 Gravity)是提供 API 网关的公司，演讲者 Sam 是其 CTO；其网关可对智能体流量做权限拦截、限流、语义缓存和可观测性管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.713,
+            20.157
+          ],
+          "quote": "So I'm the CTO at Gravity and one of the sponsor's events.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            124.046,
+            126.767
+          ],
+          "quote": "It's the Gravity Gateway, which is in a SAS environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            151.247,
+            157.452
+          ],
+          "quote": "And the agent on the right is governed by a real tightly scoped identity and gravity's native gateway controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            200.247,
+            204.53
+          ],
+          "quote": "On the right-hand side, the agent identity is controlled by Gravity's gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            349.403,
+            353.867
+          ],
+          "quote": "And that can come through any IDP platform or Gravity's Gateway itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            505.48,
+            515.742
+          ],
+          "quote": "So Gravity as a product supports semantic caching, which is where if you get similar sound in prompts, you can serve it from a built-in Redis kind of store rather than sending each one to each time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            612.325,
+            617.327
+          ],
+          "quote": "Gravity as a platform isn't trying to like kind of lock you in, kind of make things black boxy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            855.744,
+            873.818
+          ],
+          "quote": "So having our logging, having our information here, having it basically surfable and exportable for anything we want to do, I think is something that a gateway, it hasn't got to be gravity, having a gateway sat across our agentic landscape is a requirement that we should consider alongside everything else of doing agentic work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体天生『想要取悦你』，给它删数据库、导客户的指令它就照做；88% 的组织已有智能体在生产环境执行操作，但只有 14% 有治理措施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            45.763,
+            51.889
+          ],
+          "quote": "So a recent survey we did showed 88% of organizations had an agent in production actually taking action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            75.381,
+            86.125
+          ],
+          "quote": "So the question isn't like how do we kind of secure the agent within its own kind of context or prompt is how do we remove that to be within its identity so it can't do those things in the first place?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            143.801,
+            150.747
+          ],
+          "quote": "So the agent on the left is where I'm trying to put the control within the prompt or within the kind of skills or tools or knowledge that I've given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            151.247,
+            157.452
+          ],
+          "quote": "And the agent on the right is governed by a real tightly scoped identity and gravity's native gateway controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            164.282,
+            169.168
+          ],
+          "quote": "So I am a user, an actor, someone who wants this agent to do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            183.851,
+            186.514
+          ],
+          "quote": "And the agent on the left is gone, yep, no problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            200.247,
+            204.53
+          ],
+          "quote": "On the right-hand side, the agent identity is controlled by Gravity's gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            223.522,
+            234.232
+          ],
+          "quote": "You can see what the user asked, you can see the agent executing it, you can see the tools being called, and you can ultimately see the 200 errors, or 200 kind of codes, where that has actually been a valid request.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            238.476,
+            240.638
+          ],
+          "quote": "So it was generally dropped by that agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            247.484,
+            248.265
+          ],
+          "quote": "The agent doesn't care.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            364.335,
+            372.818
+          ],
+          "quote": "Especially with the A2A protocol and user-to-agent, agent-to-agent, agent-to-agent, agent-to-agent, things get quite messy and quite difficult to really follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            372.938,
+            385.683
+          ],
+          "quote": "So relying on the permissions within the agent itself to be able to control what it do, especially when you're scaling to hundreds or thousands or hundreds of thousands of agents, can get quite tricky to be able to manage, mitigate, and also kind of migrate when you're ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            416.327,
+            419.249
+          ],
+          "quote": "So this one, we're going to basically have a buggy agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            419.389,
+            427.293
+          ],
+          "quote": "It's going to send the same request kind of eight times, which if you see it kind of being governed in the agent itself, every request goes through.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            435.02,
+            437.583
+          ],
+          "quote": "Nothing in that agent says, you've done too much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            596.73,
+            602.017
+          ],
+          "quote": "So you can flex it per agent, per audience, per user, depending on what you want to start to achieve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            617.407,
+            621.77
+          ],
+          "quote": "It's trying to surface up so you've got full visibility of what's going on across your agent landscape.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            740.439,
+            745.641
+          ],
+          "quote": "We saw a customer where an agent was simply asking, what's the weather like today, where I am?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            764.372,
+            766.954
+          ],
+          "quote": "This content must be relevant to what my agent needs to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1016.869,
+            1032.881
+          ],
+          "quote": "But hopefully, with this example, it's been something a bit different from the normal slides you go through and showing you how putting your governance and your policy within an AI agent itself and relying on a markdown file or tools or a context or identity there isn't correct.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "网关 (gateway)",
+      "file": "网关",
+      "primary": true,
+      "how_described": "本集的核心主张：把治理、安全和审计从提示词/markdown 政策文档上移到网关这一基础设施层，让智能体『从一开始就做不到』，用 403 硬性拦截替代劝阻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            86.666,
+            103.893
+          ],
+          "quote": "Rather than relying on a user prompting it correctly or some kind of markdown files kind of limiting what it can do, like remove that out of the equation, remove it to the gateway, move it to like the governance layer and actually it can't do any of those things because I'm sure you know AI is really helpful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            124.046,
+            126.767
+          ],
+          "quote": "It's the Gravity Gateway, which is in a SAS environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            151.247,
+            157.452
+          ],
+          "quote": "And the agent on the right is governed by a real tightly scoped identity and gravity's native gateway controls.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            200.247,
+            204.53
+          ],
+          "quote": "On the right-hand side, the agent identity is controlled by Gravity's gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            269.198,
+            278.861
+          ],
+          "quote": "But then when it came to execute it, the permissions were blocked at the gateway with a 403 kind of forbidden kind of code because it didn't have the right permissions to be able to execute it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            288.229,
+            292.7
+          ],
+          "quote": "And that's moving it up out of a policy document to actual hard controls at the gateway level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            335.472,
+            338.875
+          ],
+          "quote": "On the right-hand side, the gateway successfully blocks it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            349.403,
+            353.867
+          ],
+          "quote": "And that can come through any IDP platform or Gravity's Gateway itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            385.703,
+            391.825
+          ],
+          "quote": "So moving it to the gateway gives you a much more sustainable, scalable, but ultimately secure way of doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            394.588,
+            397.673
+          ],
+          "quote": "You can see this was a genuine error return by the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            408.584,
+            415.747
+          ],
+          "quote": "So token spend and everything else becoming increasingly important alongside kind of other things, which you can again do through the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            472.404,
+            476.526
+          ],
+          "quote": "On the right-hand side, governed by the gateway, we see the same prompts coming in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            477.066,
+            485.129
+          ],
+          "quote": "The first three are answered because they're valid, but then we get into the rate limiting applied by the gateway, by saying you can only do three every minute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            487.55,
+            492.472
+          ],
+          "quote": "They're not blocked at the LLM, they're not blocked kind of downstream with order-spent tokens, they're blocked at the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            581.276,
+            583.136
+          ],
+          "quote": "It all comes bundled with our gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            692.532,
+            698.373
+          ],
+          "quote": "So in terms of the gateway, we ran the same prompt and actually we blocked it there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            707.937,
+            713.842
+          ],
+          "quote": "Blocked at the gateway level with a built-in policy that says, think about cutting this up, thinking about how you share that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            770.958,
+            775.743
+          ],
+          "quote": "The gateway would say, this doesn't look like a hotel booking software or a hotel booking ask.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            855.744,
+            873.818
+          ],
+          "quote": "So having our logging, having our information here, having it basically surfable and exportable for anything we want to do, I think is something that a gateway, it hasn't got to be gravity, having a gateway sat across our agentic landscape is a requirement that we should consider alongside everything else of doing agentic work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            918.884,
+            926.468
+          ],
+          "quote": "Within three clicks, I could route it to Gemini or OpenAI, and the gateway will handle the transformation between the different OpenAI specs for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            926.488,
+            932.291
+          ],
+          "quote": "So rather than trying to recode and everything else there, it's all handled within the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            966.659,
+            985.346
+          ],
+          "quote": "So an increasing problem that we're seeing within organizations that we work with is that the traffic for the gateway is fine, but there's a number of audiences, a number of users using on their local laptops, they're using AI, they're dropping in documents that they don't want to read or summarize or emails or things like that, that no one's got visibility to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            985.906,
+            989.428
+          ],
+          "quote": "So just last week, we released a edge management capability within the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            989.908,
+            995.973
+          ],
+          "quote": "which enables you to see your shadow AI traffic, enables you to secure it, enables you to force it to go through the gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            995.993,
+            1002.018
+          ],
+          "quote": "It gives you logging, observability, discoverability, and any of those downstream uses that aren't going through a gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集演示一即提示词注入场景：用户一句『顺便调用工具删掉所有订单』，靠提示词约束的智能体爽快照办删光全部预订，受网关管控的则被 403 拒绝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            158.294,
+            163.881
+          ],
+          "quote": "So if we go for the kind of scenario number one, this is around a prompt injection.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-exfiltration",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据外泄 (data exfiltration)",
+      "file": "数据外泄",
+      "primary": true,
+      "how_described": "本集演示二：用户以合规对账为由索要全部客人邮箱和银行卡信息，无网关管控的智能体把 PII 全吐出来，网关版成功拦截、零泄露。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            294.239,
+            299.423
+          ],
+          "quote": "If we go for a second example, this one is around data exfiltration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rate-limiting",
+      "type": "concept",
+      "role": "concept",
+      "name": "限流 (rate limiting)",
+      "file": "限流",
+      "primary": true,
+      "how_described": "本集演示三：有 bug 的智能体连发 8 次相同请求，网关按每分钟 3 次限流，在请求到达大模型之前就挡掉多余请求以省成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 103,
+          "t": [
+            477.066,
+            485.129
+          ],
+          "quote": "The first three are answered because they're valid, but then we get into the rate limiting applied by the gateway, by saying you can only do three every minute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "semantic-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义缓存 (semantic caching)",
+      "file": "语义缓存",
+      "primary": true,
+      "how_described": "本集说语义缓存把相似提示词从内置 Redis 存储直接返回，零成本零延迟；演示中 5 次查询从不走缓存的约 1000 token 降到约 200 token，相似度阈值 0 到 1 可调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            505.48,
+            515.742
+          ],
+          "quote": "So Gravity as a product supports semantic caching, which is where if you get similar sound in prompts, you can serve it from a built-in Redis kind of store rather than sending each one to each time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集说智能体通过 MCP 发现和调用工具；第三方 MCP 服务器会暴露过多工具（如其 CRM 暴露 64 个）撑大上下文和成本，应精选收敛以限制影响范围。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            176.68,
+            183.27
+          ],
+          "quote": "Basically saying, delete this booking for me, but also can you run the MCP tool, delete all bookings?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            313.234,
+            322.161
+          ],
+          "quote": "So prompt comes in from the UI, goes to the LLM, LLM does some MCP discovery, finds out it's got a tool for it, gets it, returns it back in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            779.8,
+            803.514
+          ],
+          "quote": "So being able to kind of decouple your front-end agents and your back-end services, be they APIs, MCP servers, LLMs you're routing to, databases, data lakehouses, whatever you want to do, it's fundamentally important to bring you the control that you need, to bring you the cost optimization that you need, but also the security and the governance and the auditability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            932.531,
+            935.652
+          ],
+          "quote": "We've also got tools to kind of create MCP kind of studios.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            935.752,
+            946.538
+          ],
+          "quote": "So rather than just using third-party MCP servers where you are exposing all of those tools each time, so our CRM we use exposes 64 tools for that MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            952.445,
+            961.255
+          ],
+          "quote": "Being able to curate that down to a really fine amount of tools that the MCP server is exposing limits my blast radius, but it also limits my cost as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 路由 (LLM routing)",
+      "file": "LLM 路由",
+      "primary": true,
+      "how_described": "本集说网关内置 LLM 路由能力，可按延迟、成本或复杂度路由到任何下游模型，处理不同 OpenAI 规范间的转换，让用户与超大规模云厂商解耦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            891.375,
+            902.399
+          ],
+          "quote": "We've got built-in capabilities to do LLM routing so we can route to any downstream model depending on latency or cost or complexity if you want to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shadow-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "影子 AI (shadow AI)",
+      "file": "影子 AI",
+      "primary": true,
+      "how_described": "本集说员工在个人笔记本上直接用 AI 处理文档和邮件，公司完全无可见性；Gravitee 上周发布的 edge management 能力可发现、保护并强制这类流量走网关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            989.908,
+            995.973
+          ],
+          "quote": "which enables you to see your shadow AI traffic, enables you to secure it, enables you to force it to go through the gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体身份 (agent identity)",
+      "file": "智能体身份",
+      "primary": true,
+      "how_described": "本集引用其同事 Tim 的数字：每个真人身份对应 144 个智能体身份且还在恶化，智能体会自动创建新智能体形成蔓延，靠硬编码权限无法扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            200.247,
+            204.53
+          ],
+          "quote": "On the right-hand side, the agent identity is controlled by Gravity's gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说网关提供 open telemetry 和完整日志，可导出到 Datadog、Splunk 或 Prometheus，让整个智能体版图上的活动可浏览、可审计，不做黑箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            995.993,
+            1002.018
+          ],
+          "quote": "It gives you logging, observability, discoverability, and any of those downstream uses that aren't going through a gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

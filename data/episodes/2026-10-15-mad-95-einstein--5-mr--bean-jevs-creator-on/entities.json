@@ -1,0 +1,1270 @@
+{
+  "episode_id": "2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on",
+  "podcast": "The MAD Podcast",
+  "date": "2026-10-15",
+  "tags": [
+    "AI 基础设施",
+    "后训练",
+    "智能体",
+    "创业公司故事",
+    "模型评测"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "host",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            61.786,
+            64.209
+          ],
+          "quote": "I'm Matt Turk and this is The Matt Podcast.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "diogo-almeida",
+      "type": "person",
+      "role": "cohost",
+      "name": "Diogo Almeida",
+      "file": "Diogo Almeida",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jev",
+      "type": "concept",
+      "role": "concept",
+      "name": "JEV",
+      "file": "JEV",
+      "primary": true,
+      "how_described": "本集主线：TypeSafe 推出的新型模型，不输出文本而输出概率（如 0.85），砍掉慢而贵的文本生成，快且便宜，可由开发者精确设定阈值，能作为『聪明的 if 语句』嵌入软件内部。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            31.942,
+            35.885
+          ],
+          "quote": "That is Jogo Almeida, CEO of TypeSafe, the company behind JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            36.165,
+            37.766
+          ],
+          "quote": "A month ago, nobody had heard of JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            43.07,
+            45.171
+          ],
+          "quote": "JEV is both fascinating and perplexing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            53.699,
+            57.743
+          ],
+          "quote": "So, we went to the source and asked Diogo to walk us through JEV in plain English.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1084.424,
+            1090.928
+          ],
+          "quote": "I don't know if anyone has solved this with a JEV-like system yet, but I can compare and contrast the differences of it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1423.872,
+            1433.894
+          ],
+          "quote": "And the reason why JEV is much faster and much cheaper, and I know that's only part of the claim and the bigger claim is intelligence everywhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3623.804,
+            3639.937
+          ],
+          "quote": "I read somewhere that the claim is that you're not going to capture all of the LLM market, but you're going to capture a fraction of it in that this is very much based on the Jevons paradox, which, by the way, is the origin of Jev, the name.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 795,
+          "t": [
+            4025.18,
+            4030.203
+          ],
+          "quote": "And I think that still most of the people who've heard of Jev don't get it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "typesafe",
+      "type": "company",
+      "role": "company",
+      "name": "TypeSafe",
+      "file": "TypeSafe",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            31.942,
+            35.885
+          ],
+          "quote": "That is Jogo Almeida, CEO of TypeSafe, the company behind JEV.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4051.115,
+            4053.537
+          ],
+          "quote": "And we at TypeSafe are eternally grateful to y'all.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "machine-native-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器原生 AI (machine-native AI)",
+      "file": "机器原生 AI",
+      "primary": true,
+      "how_described": "Diogo 更愿意用来称呼 JEV 的概念：不是聊天框旁的主角式助手，而是能嵌进软件内部、可组合、可信赖的智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            600.812,
+            603.373
+          ],
+          "quote": "Machine-native AI rather than System 1.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            603.533,
+            609.215
+          ],
+          "quote": "I actually think that System 1 is more of an implementation detail to machine-native AI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "classifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "分类器 (classifier)",
+      "file": "分类器",
+      "primary": true,
+      "how_described": "本集花大篇幅讨论：Diogo 认为被叫『只是个分类器』是夸奖，分类器不是老式机器学习而是一种接口——把智能注入软件分支的形状，Facebook、TikTok、Google 的核心都是分类器，通用分类器是 AI 完全问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            47.833,
+            53.358
+          ],
+          "quote": "Yet, even some AI insiders struggle to explain what it is, while others dismiss it as just a classifier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            641.294,
+            643.776
+          ],
+          "quote": "I think being called a classifier is a compliment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1582.088,
+            1596.342
+          ],
+          "quote": "A general purpose universal verifier or classifier is absolutely AI complete because it's easy to turn this thing into, even if you want the text out, which I think is somewhat rare for a system, you could turn it into that if it was perfect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2756.902,
+            2764.61
+          ],
+          "quote": "So the existence of that pre-trained model is an interesting segue into the whole classifier conversation that you alluded to earlier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2764.69,
+            2768.574
+          ],
+          "quote": "There's a number of people when Jeff came out that said, well, it's just a classifier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2768.594,
+            2779.545
+          ],
+          "quote": "And for context, a classifier being effectively an older form of machine learning, you know, pre-generative AI, things like XGBoost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2786.332,
+            2797.264
+          ],
+          "quote": "In what way, and I know you've embraced the fact that you're in some ways a classifier, so in what way are you a classifier and in what way do people that say that you're a classifier miss the entire point?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2807.707,
+            2818.51
+          ],
+          "quote": "And it's just a classifier is among the dumbest criticisms, in my opinion, because classifiers, again, classifiers are not a form of old school machine learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2866.492,
+            2870.052
+          ],
+          "quote": "You know, it's an incredible compliment to say it's a classifier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2933.697,
+            2940.103
+          ],
+          "quote": "So your typical classifier from 2019 was also focused on a very narrow task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2968.381,
+            2977.046
+          ],
+          "quote": "But you don't need to train an email spam classifier because the pre-trained model has all the knowledge in the world about emails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2981.268,
+            2985.11
+          ],
+          "quote": "You might not even want a spam classifier because that will be the same for everyone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3650.345,
+            3660.71
+          ],
+          "quote": "I think in the short term, maybe there is like some overlap in market because there wasn't really a shape of general classifier for workflow automation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "system-1",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统 1 (System 1)",
+      "file": "系统 1",
+      "primary": true,
+      "how_described": "源自《思考，快与慢》的直觉式快速决策，本集说 AI 天生擅长系统 1，JEV 就是 System 1 模型，而系统 2 任务应由可靠的系统 1 构建块组合而成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 139,
+          "t": [
+            600.812,
+            603.373
+          ],
+          "quote": "Machine-native AI rather than System 1.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            603.533,
+            609.215
+          ],
+          "quote": "I actually think that System 1 is more of an implementation detail to machine-native AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            702.474,
+            711.323
+          ],
+          "quote": "Models not trained with the latent reasoning, like the reasoning that they keep hidden, tend to be System 1 models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            711.823,
+            717.129
+          ],
+          "quote": "And AI is very strong at System 1 in general, System 1 in the Kahneman sense.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            726.756,
+            732.561
+          ],
+          "quote": "And my claim is that AI is just good at System 1, and that is extremely valuable on its own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            747.207,
+            766.42
+          ],
+          "quote": "If there is a need for an AI that can do System 1 particularly well, which is a dev world, it means that there's a number of decisions in the world of enterprise or otherwise that are actually pretty simple decisions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1173.452,
+            1179.615
+          ],
+          "quote": "And that is what combining, like, you know, System 1 models with code will enable you to do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2961.917,
+            2968.021
+          ],
+          "quote": "And that's why we call them System 1 models because they are good at System 1 tasks, you know, or they're adjacent to that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rlhf",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLHF",
+      "file": "RLHF",
+      "primary": true,
+      "how_described": "Diogo 是其共同发明人，本集说它本质是『让模型擅长聊天、讨人喜欢』，代价是谄媚、风格重复、决策变笨，并极大抬高了世人对自动化的预期——被视为当前自动化困境的根源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1651.528,
+            1661.635
+          ],
+          "quote": "And so my understanding is that part of the root of the problem is RLHF, which you're one of the co-inventors of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1681.467,
+            1684.889
+          ],
+          "quote": "What is RLHF at the simplest level?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1685.29,
+            1687.811
+          ],
+          "quote": "Ooh, I would describe RLHF as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1712.804,
+            1725.597
+          ],
+          "quote": "Actually, I think a lot of the optimization for RLHF in hindsight looks extremely stylistic rather than is it about, you know, like being better at like tapping into its facts deep into its network.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1726.281,
+            1730.123
+          ],
+          "quote": "RLHF stands for Enforcement Learning from Human Feedback.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1735.585,
+            1739.027
+          ],
+          "quote": "So actually there's many different parts of RLHF.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1750.372,
+            1755.618
+          ],
+          "quote": "Built on top of the shoulders of giants, and many of those predecessor works could be called RLHF as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1763.207,
+            1767.272
+          ],
+          "quote": "The thing that made RLHF RLHF, in my opinion, is about the task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1779.063,
+            1781.605
+          ],
+          "quote": "That to me is the root of what originally RLHF was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1914.919,
+            1921.023
+          ],
+          "quote": "Like the models, the RLHF models are very stylistically repetitive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1921.624,
+            1939.858
+          ],
+          "quote": "You know, they're all repetitive in different ways, but you can like kind of get a sense if you use a model a lot, like, wow, it keeps saying this thing, you know, and that is a side effect of RLHF because RLHF heavily encourages the models to stay on their stylistic lane because that's the safe path to not get punished.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            1963.543,
+            1989
+          ],
+          "quote": "So again, RLHF, great for all of us to discover the power of generative AI through a chat experience, but bad for the problem of classification because you have over refusal, you have sycophancy, then you also have the latency and overhead problem that we alluded to that because the model was trained to do text to text, then it needs to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2001.329,
+            2012.497
+          ],
+          "quote": "I agree with all of that, though I will emphasize that I do believe RLHF makes the models slightly dumber at decisions than the pre-trained models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2014.726,
+            2019.93
+          ],
+          "quote": "The root of the problem to me is that RLHF actually greatly increased expectations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2020.35,
+            2030.978
+          ],
+          "quote": "So if you imagine like how good the models are from human perception versus like reality, RLHF really warped that because all of a sudden people were like holy smokes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2043.845,
+            2060.41
+          ],
+          "quote": "So like, you know, no one, you know, like the expectations for pre-trained models were very different, but because RLHF models are so pleasing to humans and they seem so smart, it makes people think like, holy smokes, a lot of stuff can be automated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2063.011,
+            2067.074
+          ],
+          "quote": "So that's RLHF, which is a key part of post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2155.813,
+            2173.568
+          ],
+          "quote": "So RLVR is a lot about passing simply evaluatable checks and RLVR, you know, RLHF caused a massive over promise under deliver based on like human feel of AI, but RLHF actually started plateauing on benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2202.502,
+            2205.144
+          ],
+          "quote": "I think, actually I think RLHF is very cool too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2272.483,
+            2275.445
+          ],
+          "quote": "So RLHF kind of creates the problem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2293.517,
+            2302.043
+          ],
+          "quote": "I don't know if I would call it a post-training method, because when we made RLHF, the concept of post-training did not exist.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2302.583,
+            2309.488
+          ],
+          "quote": "And you could call RLHF a fine-tuning method, but that undersells how much change you did to the whole process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2330.879,
+            2335.56
+          ],
+          "quote": "You know, for RLHF, the task was not just doing RL and PPO and whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2618.201,
+            2621.942
+          ],
+          "quote": "So for RLHF is, to me, a task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            3297.368,
+            3301.854
+          ],
+          "quote": "Similar to what Google did with Flan back in the days of like RLHF.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3449.496,
+            3457.68
+          ],
+          "quote": "You know, this whole discussion we had around RLHF and why that created a problem and how you removed it and replaced it with something and your RLCD and you need specific data for that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rlvr",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLVR",
+      "file": "RLVR",
+      "primary": true,
+      "how_described": "基于可验证奖励的强化学习，让模型在数学和编程上碾压基准测试，但 Diogo 说它只奖励最终解，并未真正改变自动化的现状。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            2067.374,
+            2076.84
+          ],
+          "quote": "People may have heard of other parts of post-training, RLVR in particular, which is how models have gotten very good at math or coding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2084.345,
+            2089.508
+          ],
+          "quote": "So RLVR is short for reinforcement learning from verifiable rewards or for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2112.961,
+            2124.598
+          ],
+          "quote": "And a really key part of RLVR is not just the verifiable rewards, because people have been trying to do RL on verifiable rewards for many years before RLVR was created.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2145.365,
+            2155.293
+          ],
+          "quote": "So RLVR also means like the training for reasoning, you know, with this like stuff in between in the middle where you can do arbitrarily complicated stuff sometimes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2155.813,
+            2173.568
+          ],
+          "quote": "So RLVR is a lot about passing simply evaluatable checks and RLVR, you know, RLHF caused a massive over promise under deliver based on like human feel of AI, but RLHF actually started plateauing on benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2174.648,
+            2177.85
+          ],
+          "quote": "But RLVR does not plateau on benchmarks at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2178.13,
+            2186.574
+          ],
+          "quote": "Like RLVR crushes every benchmark because by construction RLVR is kind of the shape of the task if you wanted to crush benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2198.98,
+            2202.022
+          ],
+          "quote": "There, RLVR is obviously very, very cool though.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2205.364,
+            2211.509
+          ],
+          "quote": "But I just worry about the lack of automation and empirically RLVR hasn't really changed automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2212.489,
+            2220.635
+          ],
+          "quote": "So RLVR doesn't help us in the problem we're discussing because it focuses on rewarding the final solution.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2276.006,
+            2278.187
+          ],
+          "quote": "RLVR doesn't help us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2346.683,
+            2348.364
+          ],
+          "quote": "And for RLVR, you have similar stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2348.824,
+            2353.166
+          ],
+          "quote": "RLVR is nothing without, it's like latent reasoning, you know, it's reasoning chains.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2440.415,
+            2449.903
+          ],
+          "quote": "Similarly for RLVR, the data in RLVR tends to be environments, like these RL environments to try stuff with sandboxes and tools and whatever else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2450.443,
+            2455.287
+          ],
+          "quote": "And those environments kind of existed before RLVR was created, but they were not useful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2645.28,
+            2647.001
+          ],
+          "quote": "RLVR, too.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rlcd",
+      "type": "concept",
+      "role": "concept",
+      "name": "RLCD",
+      "file": "RLCD",
+      "primary": true,
+      "how_described": "TypeSafe 自创的训练方法，为机器原生智能而优化，需配合自建的新形态数据；Diogo 强调突破在于定义对任务，而非找到某个 RL 算法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 452,
+          "t": [
+            2278.748,
+            2286.813
+          ],
+          "quote": "So therefore you guys had to invent a new post-training method that you call RLCD.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2373.275,
+            2383.506
+          ],
+          "quote": "And, you know, we did have to make a new type of training, you know, that we do call RLCD because no one has done anything to optimize for machine native intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3449.496,
+            3457.68
+          ],
+          "quote": "You know, this whole discussion we had around RLHF and why that created a problem and how you removed it and replaced it with something and your RLCD and you need specific data for that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmarks",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmarks)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "Diogo 批评基准测试『毫无用处』，最伤害的是没时间亲自试用的用户，其他人都在为基准测试优化，而唯一获他网开一面的是没附基准分数的 OpenAI Decision API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 428,
+          "t": [
+            2155.813,
+            2173.568
+          ],
+          "quote": "So RLVR is a lot about passing simply evaluatable checks and RLVR, you know, RLHF caused a massive over promise under deliver based on like human feel of AI, but RLHF actually started plateauing on benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2174.648,
+            2177.85
+          ],
+          "quote": "But RLVR does not plateau on benchmarks at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2178.13,
+            2186.574
+          ],
+          "quote": "Like RLVR crushes every benchmark because by construction RLVR is kind of the shape of the task if you wanted to crush benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2187.114,
+            2198.56
+          ],
+          "quote": "You know, like benchmarks are by construction the simply evaluatable things that it just perfectly matches the shape of that and it causes a different type of over-promise under-deliver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2651.263,
+            2659.608
+          ],
+          "quote": "They weren't really used for anything useful in the world, but they were truly in a league of their own in terms of benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3333.548,
+            3337.774
+          ],
+          "quote": "And you're not a, you're not a fan of benchmarks either in terms of like... Benchmarks are useless.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3339.456,
+            3340.057
+          ],
+          "quote": "Benchmarks?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3340.157,
+            3343.04
+          ],
+          "quote": "Lies, damn lies and benchmarks or something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3344.313,
+            3348.737
+          ],
+          "quote": "So benchmarks are like, like, they really, really hurt users.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3360.767,
+            3364.631
+          ],
+          "quote": "So I get the sense that everyone else is really optimizing for benchmarks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3483.956,
+            3489.36
+          ],
+          "quote": "For better or for worse, they did not include benchmarks, so they are a lot better than everyone else in my books.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "嘉宾曾在此做 RLHF 研究；本集也提到其几天前发布了竞品 Decisions / Decision API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.44,
+            10.402
+          ],
+          "quote": "I wrote a document at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            345.433,
+            350.799
+          ],
+          "quote": "Even when I first had this idea long before I started the company, I wrote a document at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            353.241,
+            361.27
+          ],
+          "quote": "And I still believe that to be true because how OpenAI defines AGI is a very low bar and the models are super fucking smart.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1354.861,
+            1359.642
+          ],
+          "quote": "When we shipped the OpenAI models, they don't have fine-grained controls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1789.172,
+            1791.134
+          ],
+          "quote": "We were kind of like the black sheep of OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2127.883,
+            2145.045
+          ],
+          "quote": "Gen Team at OpenAI was trying for quite a while and it just never really worked because you actually needed like this reasoning chain in the middle to do all sorts of creative stuff in between so that you could get answers that like pass the unit tests and the math and all of that stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 669,
+          "t": [
+            3435.748,
+            3441.951
+          ],
+          "quote": "You know, I mentioned certain companies, obviously OpenAI released their own product called Decisions just a few days ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3480.934,
+            3483.596
+          ],
+          "quote": "And actually, I do want to shout out OpenAI's Decision API.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集用来说明 RLHF 成就的聊天产品，以及『定义对任务带来最大跃升』的例子——指令遵循聊天这一任务的确立造就了 ChatGPT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            258.305,
+            261.708
+          ],
+          "quote": "In AI that has been under promise over deliver since ChatGPT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            627.442,
+            629.224
+          ],
+          "quote": "You know, ChatGPT++.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            678.35,
+            694.526
+          ],
+          "quote": "Is an accurate categorization of where Jeff falls in the world that Jeff would be in the system in one kind of world, whereas your classic LLM, let's call it ChatGPT for just as a shorthand would fall in system two.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2636.493,
+            2644.8
+          ],
+          "quote": "ChatGPT to pre-ChatGPT was the largest jump in chatbot intelligence ever because it was kind of like an adult battling toddlers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3928.76,
+            3932.342
+          ],
+          "quote": "Love ChatGPT, love Claude Code and Codex.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": false,
+      "how_described": "本集提到它在 JEV 发布三周内推出了开源的类似产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            3196.539,
+            3208.685
+          ],
+          "quote": "And then in the three weeks, you've had basically everybody and their brother come up with something from Cloudflare to Databricks to, I think, Microsoft just last night.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3517.903,
+            3519.747
+          ],
+          "quote": "Cloudflare's version is open source.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到它是几周内推出类似产品的模仿者之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            3196.539,
+            3208.685
+          ],
+          "quote": "And then in the three weeks, you've had basically everybody and their brother come up with something from Cloudflare to Databricks to, I think, Microsoft just last night.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集提到 Satya 昨晚宣布了 Decision 1 类别，是最新的模仿者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            3196.539,
+            3208.685
+          ],
+          "quote": "And then in the three weeks, you've had basically everybody and their brother come up with something from Cloudflare to Databricks to, I think, Microsoft just last night.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "character-ai",
+      "type": "company",
+      "role": "company",
+      "name": "Character AI",
+      "file": "Character AI",
+      "primary": false,
+      "how_described": "本集用它对比 Disney 说明不同应用对错误/拒答阈值的容忍度不同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1384.94,
+            1391.664
+          ],
+          "quote": "If you are Disney, you probably have an extremely different threshold for refusals than if you are character AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1391.684,
+            1394.526
+          ],
+          "quote": "Character AI likes to do role play and stuff.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "rsi",
+      "type": "concept",
+      "role": "concept",
+      "name": "RSI",
+      "file": "RSI",
+      "primary": true,
+      "how_described": "Diogo 的非主流判断之一：他不相信递归自我改进正在发生，并引用神经架构搜索时代同样的狂热与退场，以及现实世界的收益递减。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 745,
+          "t": [
+            3778.341,
+            3782.284
+          ],
+          "quote": "One is that we are not on the path to RSI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3804.227,
+            3813.193
+          ],
+          "quote": "On the RSI comment, I think I've just been in the field long enough to see this dance happen many, many times.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3822.479,
+            3827.723
+          ],
+          "quote": "People used to give the exact same story of RSI during the neural architecture search days.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai-winter",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 寒冬 (AI winter)",
+      "file": "AI 寒冬",
+      "primary": true,
+      "how_described": "Diogo 说他担心的寒冬不是股价崩盘，而是 AI 在自动化上继续毫无用处——但他相信 JEV 这类模型会改变这一点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 761,
+          "t": [
+            3892.245,
+            3900.468
+          ],
+          "quote": "AI winter may still happen in the sense that the stock prices of the giant companies and the hyperscalers, whatever, might crash down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3913.173,
+            3919.275
+          ],
+          "quote": "But the AI winter I'm worried about is AI continuing to be so unbelievably useless in automation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

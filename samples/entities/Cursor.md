@@ -230,7 +230,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Codex]] · [[Claude Code]] · [[推理]] · [[vibe coding]] · [[Lenny]] · [[后训练]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":206,"Codex":90,"Claude Code":114,"推理":101,"vibe coding":51,"Lenny":69,"后训练":1,"ChatGPT":114}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":207,"Codex":90,"Claude Code":114,"推理":101,"vibe coding":51,"Lenny":69,"后训练":1,"ChatGPT":115}</script>
 
 <script>
 (function(){

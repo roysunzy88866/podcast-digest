@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Barba":1,"Kevin Ball":4,"Eve":3,"Vercel":20,"DZero":1,"智能体":1,"评估":1,"技能":35,"MCP":96,"沙箱":101}</script>
+<script type="application/json" class="pd-epn">{"Andrew Barba":1,"Kevin Ball":4,"Eve":3,"Vercel":20,"DZero":1,"智能体":1,"评估":1,"技能":35,"MCP":97,"沙箱":101}</script>
 
 <script>
 (function(){

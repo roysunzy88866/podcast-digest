@@ -79,7 +79,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Amazon]] · [[Cursor]] · [[Google]] · [[Apple]] · [[TikTok]] · [[Instagram]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"OpenAI":206,"ChatGPT":114,"Amazon":34,"Cursor":87,"Google":72,"Apple":27,"TikTok":7,"Instagram":9}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"OpenAI":207,"ChatGPT":115,"Amazon":35,"Cursor":87,"Google":72,"Apple":27,"TikTok":7,"Instagram":9}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Jacob Efron]] · [[Benedict Evans]] · [[OpenAI]] · [[Anthropic]] · [[TSMC]] · [[LLM]] · [[基础模型]] · [[AI 编程]] · [[算力扩展]] · [[网络效应]]
 
-<script type="application/json" class="pd-epn">{"Jacob Efron":2,"Benedict Evans":2,"OpenAI":206,"Anthropic":206,"TSMC":9,"LLM":65,"基础模型":7,"AI 编程":7,"算力扩展":2,"网络效应":17}</script>
+<script type="application/json" class="pd-epn">{"Jacob Efron":2,"Benedict Evans":2,"OpenAI":207,"Anthropic":206,"TSMC":9,"LLM":65,"基础模型":7,"AI 编程":7,"算力扩展":2,"网络效应":17}</script>
 
 <script>
 (function(){

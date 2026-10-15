@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":17,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":96,"可观测性":46,"LLM":65}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":18,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":97,"可观测性":47,"LLM":65}</script>
 
 <script>
 (function(){

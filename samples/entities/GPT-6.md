@@ -37,7 +37,7 @@ unlisted: true
 
 [[OpenAI]] · [[计算机使用]] · [[Greg Brockman]] · [[浏览器使用]] · [[Dots]] · [[Codex]] · [[Daybreak 计划]] · [[ChatPRD]] · [[智能体]] · [[MCP]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":206,"计算机使用":22,"Greg Brockman":2,"浏览器使用":9,"Dots":6,"Codex":90,"Daybreak 计划":1,"ChatPRD":8,"智能体":1,"MCP":96}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"计算机使用":22,"Greg Brockman":2,"浏览器使用":9,"Dots":6,"Codex":90,"Daybreak 计划":1,"ChatPRD":8,"智能体":1,"MCP":97}</script>
 
 <script>
 (function(){

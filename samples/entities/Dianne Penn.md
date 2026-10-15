@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":206,"OpenAI":206,"Claude":98,"Claude Code":114,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":29,"技能":35}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Anthropic":206,"OpenAI":207,"Claude":98,"Claude Code":114,"评估":1,"涌现能力":1,"金门大桥版 Claude":1,"前沿模型":29,"技能":35}</script>
 
 <script>
 (function(){

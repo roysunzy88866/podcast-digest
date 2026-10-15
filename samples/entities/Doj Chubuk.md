@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Liam Fedus":1,"Mario":4,"Periodic Labs":1,"OpenAI":206,"Google DeepMind":11,"ChatGPT":114,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
+<script type="application/json" class="pd-epn">{"Liam Fedus":1,"Mario":4,"Periodic Labs":1,"OpenAI":207,"Google DeepMind":11,"ChatGPT":115,"大型语言模型":6,"超导体":1,"合成超级智能":1,"空想主义不够":1}</script>
 
 <script>
 (function(){

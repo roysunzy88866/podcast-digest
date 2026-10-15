@@ -307,9 +307,9 @@ Jev 对开发者的形态是：给它一组可能的决策和输入，它告诉�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:OpenAI、TypeSafe · 同概念:Jev、RLCD、RLHF、RLVR、分类器 (classifier)、ChatGPT</span>
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身]]<span class="pd-rz">同嘉宾:Diogo Almeida · 同公司:TypeSafe、OpenAI · 同概念:Jev、RLHF、分类器 (classifier)、可靠性 (reliability)、Claude Code</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:harness、后训练 (post-training)、智能体 (agent)</span>
-- [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪]]<span class="pd-rz">同公司:OpenAI、Anthropic · 同概念:OpenClaw、智能体 (agent)、ChatGPT</span>
 
 </div>
 <div class="pd-ex">

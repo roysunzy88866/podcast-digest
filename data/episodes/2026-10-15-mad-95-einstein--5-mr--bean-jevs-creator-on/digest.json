@@ -1,0 +1,215 @@
+{
+  "title_zh": "95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化",
+  "tldr": "TypeSafe 创始人 Diogo Almeida 讲解他创造的模型 JEV、RLHF 的历史与缺陷，以及为什么可靠性才是 AI 落地的关键。",
+  "digest_md": "一个月前，几乎没人听说过 JEV。发布三周后，它的宣传片播放量已达数千万，公司随即完成了一轮大规模融资，估值飙升。JEV 是一种全新的模型，连不少业内人士也说不清它到底是什么。这次采访里，创始人 Diogo Almeida——RLHF 技术的共同发明人之一、OpenAI 前研究员——用大白话讲清了它。\n\n## AI 看起来很聪明，为什么自动化还是做不成？\n\nDiogo 对现状的判断很尖刻：AI「不可思议，同时又不可思议地令人失望」。他形容今天的模型是 95% 的爱因斯坦加 5% 的憨豆先生——问题是它不会告诉你现在处于哪 5%，那你敢把什么事交给它全自动处理？[00:22 Unknown]\n\n他的证据很日常：邮件日程助理这件看起来 LLM 理应解决的小事，至今没有真正被解决。用大模型的方案，是把你的偏好写成一大段自然语言指令。模型写出来的邮件永远像模像样，但会犯细微的判断错误。你只能不停往指令里加补丁：投资人这样处理、销售邮件那样处理……复杂度一高，错误率也跟着高。最后出一次错——比如漏掉一位重要投资人的会面——你就只能把整个系统拆掉，换回人类助理。[18:04 Unknown]\n\n## JEV 到底是什么：把智能变成“聪明的 if 语句”\n\n**JEV 不输出文字，而是输出概率**。你问“这封邮件紧急吗？”它返回一个分数，比如 0.85。你的程序设定：高于 0.9 就触发某个动作。文字生成这一最慢、最贵的环节被整个砍掉了，所以它又快又便宜。\n\nDiogo 更愿意叫它“机器原生 AI”：不是聊天框旁边那个主角光环的助手，而是能嵌进软件内部的智能。软件的强大，来自把可靠的小组件层层组合起来。JEV 输出概率、可以被精确测量和调阈值，就像代码里的轨道，保证系统不会跑偏。[19:39 Unknown]\n\n概率输出还有个实际好处：不同公司对错误的容忍度不同。迪士尼对内容审核的容忍度，和做角色扮演的 Character AI 完全不同。把分数交给开发者，让他们自己定阈值，比模型替你做非黑即白的决定强得多。[23:20 Unknown]\n\n## “只是个分类器”？他认为这是夸奖\n\n有人贬低 JEV“不过是个分类器”。Diogo 的回应是：**分类器不是过时的老技术，而是一种接口**——把智能装进软件分支里的形状。Facebook、TikTok、Google 的核心都是分类器。而且通用分类器是“AI 完全”问题：如果一个分类器做到完美，它几乎能推出任何能力。[46:37 Unknown]\n\n> 【背景】“AI 完全”指难度等同于实现通用人工智能的问题。\n\n## 他发明了 RLHF，现在却指它是问题根源\n\nDiogo 2020 年底在 OpenAI 参与 RLHF（基于人类反馈的强化学习）的研发。他承认 RLHF 成就了 ChatGPT，但指出它的本质是“让模型擅长聊天、讨人喜欢”。代价是：模型变得谄媚、风格重复、不敢说“不知道”，而且在判断上比预训练模型更笨。更糟的是，它大幅抬高了世人对 AI 的预期——大家觉得什么都能自动化了，实际上并没有。[34:00 Unknown]\n\n后来的 RLVR（基于可验证奖励的强化学习）让模型在数学和编程上突飞猛进，刷爆各种测试榜单。但 Diogo 说，这也没改变自动化的现状，因为现实中的决策不是能简单打分的数学题。[36:51 Unknown]\n\n所以 TypeSafe 自己发明了新的一整套训练方法和数据——这些数据在世界上原本不存在，必须自建。他强调，**最大的突破从来不是某个算法，而是找到正确的任务本身**：ChatGPT 之所以是飞跃，是因为定义了“指令遵循的聊天”这个任务。[43:42 Unknown]\n\n## 三周内被全行业模仿，他在乎吗？\n\nCloudflare、Databricks、微软、OpenAI 都在几周内推出了类似产品。Diogo 说，他当初启动这个项目时也以为一周就能做完，第一周确实做出了界面很像的东西——但蠢得令人尴尬，根本不健壮。他猜测这些模仿者“在可靠性上落后我们好几年”，但想先实际测一测再下结论。[54:00 Unknown]\n\n他还批评基准测试“毫无用处”，最伤害的恰恰是那些没时间亲自试用的用户。唯一让他网开一面的是 OpenAI 的 Decision API，因为它没附基准分数。[58:03 Unknown]\n\n## 不是造上帝，是造产品\n\n关于未来，Diogo 持有两个不太主流的判断。第一，他不相信递归自我改进（AI 自己改进 AI）正在发生——他见过神经网络架构搜索时代一模一样的狂热和一模一样的退场，现实世界有收益递减规律。[63:33 Unknown]\n\n第二，他不再担心 AI 寒冬会因“AI 在自动化上毫无用处”而发生——因为他相信 JEV 这类模型会改变这一点。聊天机器人让人觉得神奇，可奇怪的是它们对世界的改变如此之小：每年都有知名公司尝试用聊天机器人自动化得来速点餐然后失败。这才是他要解决的真问题。[65:48 Unknown]\n\n公司 T 恤上印着他们的口号：造产品，不造上帝。[48:45 Unknown]\n\n## 本集带走\n\n- AI 强在直觉式判断（系统 1），但不可靠的 5% 使它难以自动化任何事\n- JEV 砍掉文字生成，直接输出概率，快而便宜，可精确控制阈值，能嵌进软件\n- RLHF 让模型讨人喜欢，但也带来谄媚和不可靠，抬高了世人对自动化的预期\n- 最大突破来自定义对任务，而非算法；模仿者拿到了接口，没拿到可靠性\n- Diogo 不信递归自我改进，但相信“可靠的智能无处不在”会让未来非常科幻",
+  "quotes": [
+    {
+      "en": "We could have had AGI last year.",
+      "zh": "我们去年就可能已经实现 AGI 了。",
+      "timestamp": "05:51",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "AI is incredible and also incredibly underwhelming.",
+      "zh": "AI 令人惊叹，同时也令人极其失望。",
+      "timestamp": "04:44",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "Number one, I don't think we know shit about marketing.",
+      "zh": "第一，我不觉得我们懂什么营销。",
+      "timestamp": "07:19",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "The product is the thing. The fundraising is tends to be like an ego game.",
+      "zh": "产品才是关键。融资往往就像一场自我游戏。",
+      "timestamp": "08:10",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And my claim is that AI is just good at System 1, and that is extremely valuable on its own.",
+      "zh": "而我的论点是，AI 就是擅长系统 1，而这本身就极其有价值。",
+      "timestamp": "12:06",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And as far as I can tell, we have not come even close to solving the jaggedness of System 2.",
+      "zh": "据我所知，我们离解决系统 2 的参差不齐还差得很远。",
+      "timestamp": "12:12",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And as the complexity rises, the error rates get higher and higher and higher because you're just praying, model, please don't make those mistakes.",
+      "zh": "随着复杂度上升，错误率会变得越来越高越来越高，因为你只是在祈祷，模型，请别犯那些错误。",
+      "timestamp": "17:32",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "It's just a different shape of intelligence.",
+      "zh": "它只是智能的另一种形状。",
+      "timestamp": "26:39",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "So because the models were trained to please humans and sound confident as part of that process of our LHF, then that's why you end up with issues like sycophancy over refusal that you alluded to.",
+      "zh": "因为模型被训练成取悦人类并在这一过程中听起来自信，作为 RLHF 流程的一部分，这就是为什么你会遇到你提到过的那些问题，比如谄媚、过度拒绝。",
+      "timestamp": "31:35",
+      "speaker": "Matt Turk"
+    },
+    {
+      "en": "Like RLVR crushes every benchmark because by construction RLVR is kind of the shape of the task if you wanted to crush benchmarks.",
+      "zh": "RLVR 碾压每一个基准测试，因为从构造上说，RLVR 差不多就是你想碾压基准测试时任务本身的形状。",
+      "timestamp": "36:18",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "The way I like to describe it is 95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you going to automate anything?",
+      "zh": "我喜欢的描述方式是 95% 的爱因斯坦，5% 的憨豆先生。而如果它不告诉你在什么时候是憨豆先生，那你怎么去自动化任何东西？",
+      "timestamp": "37:22",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "But in order to even know what the data should look like, you need the task.",
+      "zh": "但为了知道数据应该长什么样，你首先需要任务。",
+      "timestamp": "43:09",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And honestly, I think pre-training is a giant dumpster fire of wasting resources.",
+      "zh": "而且说实话，我认为预训练就是一个浪费资源的巨大垃圾堆火灾。",
+      "timestamp": "45:48",
+      "speaker": "Diogo Almeida"
+    },
+    {
+      "en": "And they keep trying to build their god in a data center rather than solving real problems and see the real world and see how little automation truly is getting done.",
+      "zh": "他们一直试图在数据中心里建造他们的神，而不是解决真实的问题、观察真实的世界，看看真实的自动化到底完成了多少。",
+      "timestamp": "48:27",
+      "speaker": "Diogo Almeida"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "05:51",
+      "speaker": "Diogo Almeida",
+      "en": "We could have had AGI last year.",
+      "zh": "我们去年就可能已经实现 AGI 了。"
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Diogo Almeida",
+      "en": "AI is incredible and also incredibly underwhelming.",
+      "zh": "AI 令人惊叹，同时也令人极其失望。"
+    },
+    {
+      "timestamp": "07:19",
+      "speaker": "Diogo Almeida",
+      "en": "Number one, I don't think we know shit about marketing.",
+      "zh": "第一，我不觉得我们懂什么营销。"
+    },
+    {
+      "timestamp": "07:31",
+      "speaker": "Diogo Almeida",
+      "en": "My argument is that it works because our product is awesome.",
+      "zh": "我的论点是，它之所以有效，是因为我们的产品很棒。"
+    },
+    {
+      "timestamp": "08:10",
+      "speaker": "Diogo Almeida",
+      "en": "The product is the thing. The fundraising is tends to be like an ego game.",
+      "zh": "产品才是关键。融资往往就像一场自我游戏。"
+    },
+    {
+      "timestamp": "09:05",
+      "speaker": "Diogo Almeida",
+      "en": "Absolutely world topping product market fit.",
+      "zh": "绝对世界顶尖的产品市场契合。"
+    },
+    {
+      "timestamp": "12:06",
+      "speaker": "Diogo Almeida",
+      "en": "And my claim is that AI is just good at System 1, and that is extremely valuable on its own.",
+      "zh": "而我的论点是，AI 就是擅长系统 1，而这本身就极其有价值。"
+    },
+    {
+      "timestamp": "12:12",
+      "speaker": "Diogo Almeida",
+      "en": "And as far as I can tell, we have not come even close to solving the jaggedness of System 2.",
+      "zh": "据我所知，我们离解决系统 2 的参差不齐还差得很远。"
+    },
+    {
+      "timestamp": "17:32",
+      "speaker": "Diogo Almeida",
+      "en": "And as the complexity rises, the error rates get higher and higher and higher because you're just praying, model, please don't make those mistakes.",
+      "zh": "随着复杂度上升，错误率会变得越来越高越来越高，因为你只是在祈祷，模型，请别犯那些错误。"
+    },
+    {
+      "timestamp": "22:57",
+      "speaker": "Diogo Almeida",
+      "en": "Like, that's insane behavior.",
+      "zh": "比如，那是疯狂的行为。"
+    },
+    {
+      "timestamp": "25:16",
+      "speaker": "Diogo Almeida",
+      "en": "You know, the tragedy before our launch was that AI is so clearly unbelievable, but so useless for most things.",
+      "zh": "在我们发布之前的悲剧是，AI 如此明显地令人难以置信，但对大多数事情来说又如此无用。"
+    },
+    {
+      "timestamp": "26:39",
+      "speaker": "Diogo Almeida",
+      "en": "It's just a different shape of intelligence.",
+      "zh": "它只是智能的另一种形状。"
+    },
+    {
+      "timestamp": "31:33",
+      "speaker": "Diogo Almeida",
+      "en": "So because the models were trained to please humans and sound confident as part of that process of our LHF, then that's why you end up with issues like sycophancy over refusal that you alluded to.",
+      "zh": "因为模型被训练成取悦人类并在这一过程中听起来自信，作为 RLHF 流程的一部分，这就是为什么你会遇到你提到过的那些问题，比如谄媚、过度拒绝。"
+    },
+    {
+      "timestamp": "33:34",
+      "speaker": "Diogo Almeida",
+      "en": "The root of the problem to me is that RLHF actually greatly increased expectations.",
+      "zh": "对我来说问题的根源在于，RLHF 实际上极大地提高了预期。"
+    },
+    {
+      "timestamp": "36:18",
+      "speaker": "Diogo Almeida",
+      "en": "Like RLVR crushes every benchmark because by construction RLVR is kind of the shape of the task if you wanted to crush benchmarks.",
+      "zh": "RLVR 碾压每一个基准测试，因为从构造上说，RLVR 差不多就是你想碾压基准测试时任务本身的形状。"
+    },
+    {
+      "timestamp": "37:22",
+      "speaker": "Diogo Almeida",
+      "en": "The way I like to describe it is 95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you going to automate anything?",
+      "zh": "我喜欢的描述方式是 95% 的爱因斯坦，5% 的憨豆先生。而如果它不告诉你在什么时候是憨豆先生，那你怎么去自动化任何东西？"
+    },
+    {
+      "timestamp": "43:09",
+      "speaker": "Diogo Almeida",
+      "en": "But in order to even know what the data should look like, you need the task.",
+      "zh": "但为了知道数据应该长什么样，你首先需要任务。"
+    },
+    {
+      "timestamp": "45:48",
+      "speaker": "Diogo Almeida",
+      "en": "And honestly, I think pre-training is a giant dumpster fire of wasting resources.",
+      "zh": "而且说实话，我认为预训练就是一个浪费资源的巨大垃圾堆火灾。"
+    },
+    {
+      "timestamp": "48:27",
+      "speaker": "Diogo Almeida",
+      "en": "And they keep trying to build their god in a data center rather than solving real problems and see the real world and see how little automation truly is getting done.",
+      "zh": "他们一直试图在数据中心里建造他们的神，而不是解决真实的问题、观察真实的世界，看看真实的自动化到底完成了多少。"
+    },
+    {
+      "timestamp": "56:34",
+      "speaker": "Diogo Almeida",
+      "en": "It might convince people that this entire category of models doesn't work because they use one of the dumb models instead of our model.",
+      "zh": "它可能会让人们相信这一整个类别的模型都不行，因为他们用的是某个笨模型，而不是我们的模型。"
+    }
+  ],
+  "voice_script": "今天要讲的人叫 Diogo Almeida,是 TypeSafe 的创始人,也是 RLHF 这项技术的共同发明人之一,以前在 OpenAI 做研究。RLHF 简单说,就是用人类的反馈去训练模型,ChatGPT 能这么好用,靠的就是它。这期要聊的问题听上去有点拧巴:AI 现在看起来那么聪明,为什么一放到真实的自动化场景里就不行?而且聊这个问题的,恰恰是当年把 AI 变得好用的人之一。\n\n先交代下背景。一个月前,几乎没人听说过 JEV,这是 Diogo 造出来的一个新模型。发布三周,宣传片播放量几千万,公司随即完成一轮大规模融资,估值飙升——连不少业内人士都说不清 JEV 到底是个什么东西。这次采访,Diogo 就用大白话把这事讲清楚了。\n\n先说他怎么看待今天的 AI。判断很尖刻:AI 不可思议,同时又不可思议地令人失望。打个比方,今天的模型是 95% 的爱因斯坦加 5% 的憨豆先生。问题在于,它不会告诉你现在正处在哪 5% 里。那你还敢把什么事交给它全自动处理?\n\n证据特别日常。邮件日程助理,这么一件大模型看起来理应解决的小事,至今没真正被解决。用大模型的方案,是把你的偏好写成一大段自然语言指令。模型写出来的邮件永远像模像样,但会犯细微的判断错误。你只能不停往指令里打补丁:投资人这样处理,销售邮件那样处理。复杂度一高,错误率跟着涨。最后出一次错——比如漏掉一位重要投资人的会面——你就只能把整个系统拆掉,换回人类助理。\n\n那怎么办?这就引出 JEV 的核心思路了。JEV 不输出文字,输出的是概率。你问\"这封邮件紧急吗\",它返回一个分数,比如 0.85。你的程序事先设定好:高于 0.9 就触发某个动作。文字生成这一最慢、最贵的环节被整个砍掉,所以又快又便宜。\n\nDiogo 更愿意管这叫\"机器原生 AI\"——不是聊天框旁边那个自带主角光环的助手,而是能嵌进软件内部的智能。软件的强大,靠的是把可靠的小组件层层组合起来。JEV 输出概率,可以被精确测量、可以调阈值,就像代码里的轨道,保证系统不跑偏。这还有个实际好处:不同公司对错误的容忍度不一样。迪士尼做内容审核的容忍度,和做角色扮演的 Character AI 完全不同。把分数交给开发者,自己定阈值,比模型替你做非黑即白的决定强得多。\n\n有人贬低 JEV,说\"不过是个分类器\"。分类器就是给输入打标签、输出分数的老技术。但 Diogo 说这是夸奖,不是批评。分类器不是过时的东西,而是一种接口——把智能装进软件分支里的形状。Facebook、TikTok、Google 的核心都是分类器。而且通用分类器是个\"AI 完全\"问题——意思是,如果一个分类器做到完美,那几乎等于实现了通用人工智能。\n\n说到这,有个更有意思的转折:发明 RLHF 的人,现在反过来指认 RLHF 是问题的根源。2020 年底 Diogo 在 OpenAI 参与了 RLHF 的研发。承认 RLHF 成就了 ChatGPT,但也指出,它的本质是让模型擅长聊天、讨人喜欢。代价是什么?模型变得谄媚、风格重复、不敢说\"不知道\",而且在判断上比预训练模型更笨。更糟的是,RLHF 大幅抬高了世人对 AI 的预期——大家觉得什么都能自动化了,实际上并没有。\n\n后来又有了 RLVR,基于可验证奖励的强化学习,让模型在数学和编程上突飞猛进,刷爆各种榜单。但这也没改变自动化的现状,因为现实中的决策不是能简单打分的数学题。\n\n所以 TypeSafe 自己发明了一整套新的训练方法和数据,而且这些数据在世界上原本不存在,必须自建。Diogo 强调,最大的突破从来不是某个算法,而是找到正确的任务本身。ChatGPT 之所以是飞跃,是因为定义了\"指令遵循的聊天\"这个任务。\n\n那被全行业模仿,在乎吗?Cloudflare、Databricks、微软、OpenAI 都在几周内推出了类似产品。Diogo 说,当初启动这个项目时,自己也以为一周就能做完。第一周确实做出了界面很像的东西——但蠢得令人尴尬,根本不健壮。所以猜测这些模仿者\"在可靠性上落后我们好几年\",不过想先实际测一测再下结论。顺带一提,批评起基准测试来,说法是\"毫无用处\",最伤害的恰恰是那些没时间亲自试用的用户。唯一网开一面的是 OpenAI 的 Decision API,理由是它没附基准分数。\n\n最后是对未来的两个判断,都不太主流。第一,不相信递归自我改进——AI 自己改进 AI——正在发生,因为神经网络架构搜索时代见过一模一样的狂热和一模一样的退场,现实世界有收益递减规律。第二,不再担心 AI 寒冬会因\"AI 在自动化上毫无用处\"而发生,因为相信 JEV 这类模型会改变这一点。聊天机器人让人觉得神奇,可奇怪的是,对世界的改变如此之小——每年都有知名公司尝试用聊天机器人自动化得来速点餐,然后失败。这才是 Diogo 要解决的真问题。\n\nTypeSafe 的 T 恤上印着他们的口号:造产品,不造上帝。 reliability 这件事听着朴素,但能不能放心把事交给 AI,卡的就是这 5%。"
+}

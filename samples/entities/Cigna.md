@@ -27,7 +27,7 @@ unlisted: true
 
 [[Olivia Moore]] · [[AJ Loiacono]] · [[Frederick Rankin]] · [[Judy Health]] · [[Alex Rampell]] · [[Capital RX]] · [[Stein Pella]] · [[CVS]] · [[Lassie]] · [[United Healthcare]]
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"AJ Loiacono":1,"Frederick Rankin":1,"Judy Health":1,"Alex Rampell":3,"Capital RX":1,"Stein Pella":1,"CVS":2,"Lassie":1,"United Healthcare":1}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"AJ Loiacono":1,"Frederick Rankin":1,"Judy Health":1,"Alex Rampell":4,"Capital RX":1,"Stein Pella":1,"CVS":2,"Lassie":1,"United Healthcare":1}</script>
 
 <script>
 (function(){

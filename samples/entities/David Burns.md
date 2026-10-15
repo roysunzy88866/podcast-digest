@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"BrowserStack":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":43,"无障碍性":4,"vibe coding":51,"可观测性":46}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"BrowserStack":1,"Selenium":1,"WebDriver":1,"WebDriver BiDi":1,"W3C":1,"开源":43,"无障碍性":4,"vibe coding":51,"可观测性":47}</script>
 
 <script>
 (function(){

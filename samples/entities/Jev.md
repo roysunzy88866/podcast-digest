@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jev</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jev">JE</div><div class="pi"><h1 class="pt">Jev</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jev">JE</div><div class="pi"><h1 class="pt">Jev</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]]**(00:16起):本集主线：TypeSafe AI 推出的决策模型，不输出文本，输出决策、评分和是/否概率——非结构化输入、结构化类型安全的输出；又快又便宜（几百个 demo 只花 73 美分），被 Clara 概括为『一个非常非常快的路由器』。
 - **[[2026-10-06-talks-how-to-build-a-model-router-in-the-harne|《一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”》]]**(07:01起):本集说它是一个流行的决策模型，声称比 LLM 更快更便宜、决策能力更受限，现被用来驱动 OpenSWE 路由器。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(00:49起):本集说它是 TypeSafe 出隐三周即爆红的新模型，核心内含一个 LLM（互联网的压缩版），经 RLCD 训练做出校准过的可靠决策，被嘲讽为「不过是分类器」。
+- **[[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]]**(00:31起):本集主线：TypeSafe 推出的新型模型，不输出文本而输出概率（如 0.85），砍掉慢而贵的文本生成，快且便宜，可由开发者精确设定阈值，能作为『聪明的 if 语句』嵌入软件内部。
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-09-21-latent-jev|《Jev 背后的人:Diogo 谈为什么 AI 应该像数据库而不是同事》]] — 作为被讨论公司
 - [[2026-09-28-a16z-ai-can-write-code-why-isnt-software-bett|《AI 这么聪明,自动化去哪儿了?Jev 把智能装进软件本身》]] — 作为被讨论公司
@@ -46,14 +47,15 @@ unlisted: true
 - [[2026-09-30-lennys-jev-8-real-use-cases-for-the-fastest|《又快又免费的 Jev：让 AI 变成「最聪明的函数」》]] — 作为概念
 - [[2026-10-06-talks-how-to-build-a-model-router-in-the-harne|《一次实验省下 64% 成本：给 AI 智能体配一个“分诊台”》]] — 作为概念(提及)
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[TypeSafe]] · [[智能体]] · [[OpenAI]] · [[Diogo Almeida]] · [[ChatGPT]] · [[RLHF]] · [[Claude Code]] · [[Codex]] · [[RLCD]] · [[可靠性]]
+[[TypeSafe]] · [[OpenAI]] · [[Diogo Almeida]] · [[ChatGPT]] · [[智能体]] · [[RLHF]] · [[RLCD]] · [[分类器]] · [[RLVR]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"TypeSafe":4,"智能体":1,"OpenAI":206,"Diogo Almeida":3,"ChatGPT":114,"RLHF":7,"Claude Code":114,"Codex":90,"RLCD":2,"可靠性":4}</script>
+<script type="application/json" class="pd-epn">{"TypeSafe":5,"OpenAI":207,"Diogo Almeida":4,"ChatGPT":115,"智能体":1,"RLHF":8,"RLCD":3,"分类器":1,"RLVR":4,"Claude Code":114}</script>
 
 <script>
 (function(){

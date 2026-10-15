@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":25,"SpaceX":22,"NVIDIA":71,"发射成本":1,"H100":1,"基准测试":2,"相变材料":1,"辐射":1,"McKinsey":7}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":25,"SpaceX":22,"NVIDIA":71,"发射成本":1,"H100":1,"基准测试":3,"相变材料":1,"辐射":1,"McKinsey":7}</script>
 
 <script>
 (function(){

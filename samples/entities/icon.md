@@ -25,7 +25,7 @@ unlisted: true
 
 [[Susan Kare]] · [[Apple]] · [[Macintosh]] · [[font]] · [[Chicago]] · [[bitmap]] · [[Happy Mac]] · [[Microsoft]] · [[Facebook]] · [[General Magic]]
 
-<script type="application/json" class="pd-epn">{"Susan Kare":1,"Apple":27,"Macintosh":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":33,"Facebook":18,"General Magic":2}</script>
+<script type="application/json" class="pd-epn">{"Susan Kare":1,"Apple":27,"Macintosh":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":34,"Facebook":18,"General Magic":2}</script>
 
 <script>
 (function(){

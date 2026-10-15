@@ -7,25 +7,32 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Matt Turk</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Matt Turk">MA</div><div class="pi"><h1 class="pt">Matt Turk</h1><div class="byl">The MAD Podcast 联合主持</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Matt Turk">MA</div><div class="pi"><h1 class="pt">Matt Turk</h1><div class="byl">The MAD Podcast 联合主持</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## ① 他说过的话
+
+*1 条*
+
+![[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on#^q9]]
 
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]] — 作为联合主持
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为主持
 - [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|《超级智能为什么危险：Ryan Greenblatt 的推演与解法》]] — 作为联合主持
 - [[2026-09-24-mad-who-feeds-the-gpus--inside-ais-hidden-30|《300亿美元的隐形公司：VastData 要做 AI 时代的操作系统》]] — 作为联合主持
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为联合主持
+- [[2026-10-15-mad-95-einstein--5-mr--bean-jevs-creator-on|《95%爱因斯坦，5%憨豆先生：AI为什么还不能放心自动化》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[推理]] · [[OpenAI]] · [[护栏]] · [[Anthropic]] · [[NVIDIA]] · [[Oracle]] · [[Meta]] · [[XAI]] · [[RAG]]
+[[智能体]] · [[OpenAI]] · [[推理]] · [[Oracle]] · [[护栏]] · [[Anthropic]] · [[NVIDIA]] · [[Databricks]] · [[Microsoft]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":101,"OpenAI":206,"护栏":92,"Anthropic":206,"NVIDIA":71,"Oracle":13,"Meta":56,"XAI":8,"RAG":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"推理":101,"Oracle":13,"护栏":92,"Anthropic":206,"NVIDIA":71,"Databricks":25,"Microsoft":34,"Meta":56}</script>
 
 <script>
 (function(){

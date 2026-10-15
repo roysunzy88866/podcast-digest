@@ -112,8 +112,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:可观测性 (observability)、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
+- [[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|AI 智能体不读你的政策文档，它们只会调用你的接口]]<span class="pd-rz">同概念:可观测性 (observability)、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)</span>
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

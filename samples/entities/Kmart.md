@@ -25,7 +25,7 @@ unlisted: true
 
 [[Walmart]] · [[JCPenney]] · [[Ben Franklin]] · [[Sam's Club]] · [[激励对齐]] · [[走动式管理]] · [[低成本]] · [[折扣零售]] · [[对变化的抗拒（RC 因素）]]
 
-<script type="application/json" class="pd-epn">{"Walmart":1,"JCPenney":1,"Ben Franklin":1,"Sam's Club":1,"激励对齐":1,"走动式管理":1,"低成本":1,"折扣零售":1,"对变化的抗拒（RC 因素）":1}</script>
+<script type="application/json" class="pd-epn">{"Walmart":2,"JCPenney":1,"Ben Franklin":1,"Sam's Club":1,"激励对齐":1,"走动式管理":1,"低成本":1,"折扣零售":1,"对变化的抗拒（RC 因素）":1}</script>
 
 <script>
 (function(){

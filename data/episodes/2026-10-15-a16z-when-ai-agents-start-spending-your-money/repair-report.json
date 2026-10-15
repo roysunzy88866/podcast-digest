@@ -1,0 +1,107 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:01",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "00:01",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 2,
+      "timestamp": "00:30",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "00:30",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 3,
+      "timestamp": "01:50",
+      "speaker": "SPEAKER_00",
+      "trimmed": false,
+      "tsWas": "01:50",
+      "spkWas": "Alex Rampell"
+    },
+    {
+      "i": 4,
+      "timestamp": "13:30",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "12:48",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 5,
+      "timestamp": "15:07",
+      "speaker": "Alex Rampell",
+      "trimmed": false,
+      "tsWas": "15:07",
+      "spkWas": "Alex Rampell"
+    },
+    {
+      "i": 6,
+      "timestamp": "20:14",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "20:14",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 8,
+      "timestamp": "26:00",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "26:03",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 9,
+      "timestamp": "26:19",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "26:19",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 10,
+      "timestamp": "29:33",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "29:33",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 11,
+      "timestamp": "36:21",
+      "speaker": "Alex Rampell",
+      "trimmed": false,
+      "tsWas": "36:21",
+      "spkWas": "Terry Angelos"
+    },
+    {
+      "i": 12,
+      "timestamp": "40:09",
+      "speaker": "Alex Rampell",
+      "trimmed": false,
+      "tsWas": "40:09",
+      "spkWas": "Alex Rampell"
+    },
+    {
+      "i": 13,
+      "timestamp": "46:44",
+      "speaker": "Terry Angelos",
+      "trimmed": false,
+      "tsWas": "46:44",
+      "spkWas": "Terry Angelos"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 7,
+      "reason": "命中片段跨说话人(占比0.71/连续他人11词,疑拼接)",
+      "en": "Because Stripe's not set up to run a chargeback call. One of the reasons why Visa and MasterCard have such impregnable positions is because they intermediate everything and they set the rules and chargebacks are very important."
+    }
+  ]
+}

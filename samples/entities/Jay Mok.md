@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":8,"智能体":1,"智能体授权":1,"Claude Code":114,"token":33,"保险库":1,"OAuth":4,"可验证意图":1,"AP2 授权指令":1}</script>
+<script type="application/json" class="pd-epn">{"Ben Coumes":1,"PayPal":9,"智能体":1,"智能体授权":1,"Claude Code":114,"token":33,"保险库":2,"OAuth":4,"可验证意图":1,"AP2 授权指令":1}</script>
 
 <script>
 (function(){

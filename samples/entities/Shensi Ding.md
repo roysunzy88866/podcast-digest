@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":96,"沙箱":101,"连接器":3,"智能 LLM 路由器":1,"可观测性":46,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Merge":3,"智能体":1,"MCP":97,"沙箱":101,"连接器":3,"智能 LLM 路由器":1,"可观测性":47,"后训练":1}</script>
 
 <script>
 (function(){

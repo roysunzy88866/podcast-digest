@@ -27,7 +27,7 @@ unlisted: true
 
 [[ChatGPT]] · [[OpenAI]] · [[Olivia Moore]] · [[Dr. Wara]] · [[Elena Berger]] · [[Thrive Capital]] · [[Josh Ellman]] · [[Neuralink]] · [[智能体]] · [[Isomorphic Labs]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":114,"OpenAI":206,"Olivia Moore":3,"Dr. Wara":1,"Elena Berger":5,"Thrive Capital":1,"Josh Ellman":2,"Neuralink":4,"智能体":1,"Isomorphic Labs":1}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":115,"OpenAI":207,"Olivia Moore":3,"Dr. Wara":1,"Elena Berger":5,"Thrive Capital":1,"Josh Ellman":2,"Neuralink":4,"智能体":1,"Isomorphic Labs":1}</script>
 
 <script>
 (function(){

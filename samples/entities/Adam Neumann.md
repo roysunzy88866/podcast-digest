@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":2,"a16z":21,"基准测试":2,"Salesforce":36,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
+<script type="application/json" class="pd-epn">{"WeWork":1,"SoftBank":5,"Flow":2,"a16z":21,"基准测试":3,"Salesforce":36,"IPO":5,"自我":1,"高增长业务":1,"Co-work":4}</script>
 
 <script>
 (function(){

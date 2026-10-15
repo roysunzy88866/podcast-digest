@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":34,"机器人":14,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
+<script type="application/json" class="pd-epn">{"Stored":1,"Amazon":35,"机器人":14,"智能体机器人":1,"人形机器人":1,"垂直整合":1,"运营数据点":1,"飞轮":6,"滚动式收购":1,"应用层":4}</script>
 
 <script>
 (function(){

@@ -144,6 +144,18 @@ jsonLd: |
 > <span class="qz">记者问 Sam 对华尔街这场灾难的反应是什么。他根本没听说过这件事。</span>  
 > *Reporters asked Sam what his reaction to the disaster on Wall Street was. He hadn't heard about it.*  
 > <span class="qm">—— 嘉宾 · [48:26]</span> ^q13
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-10-15-a16z-when-ai-agents-start-spending-your-money|AI 会替你付钱了，但你的信用卡世界要变天了]]<span class="pd-rz">同公司:Walmart</span>
+
+</div>
+</div>
 <script>
 (function(){
   function move(){

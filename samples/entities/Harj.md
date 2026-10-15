@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":49,"Atlas":5,"精益创业":2,"智能体":1,"YC":17,"Google":72,"Claude":98,"WhatsApp":5,"OpenAI":206}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":3,"Stripe":50,"Atlas":5,"精益创业":2,"智能体":1,"YC":17,"Google":72,"Claude":98,"WhatsApp":5,"OpenAI":207}</script>
 
 <script>
 (function(){

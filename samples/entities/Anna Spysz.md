@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":92,"商家能力清单":1,"大语言模型":11,"Stripe":49,"Google":72}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"智能体商务":1,"Universal Commerce Protocol":3,"系统提示词":9,"共享支付令牌":1,"护栏":92,"商家能力清单":1,"大语言模型":11,"Stripe":50,"Google":72}</script>
 
 <script>
 (function(){
