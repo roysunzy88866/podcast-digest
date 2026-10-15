@@ -152,8 +152,8 @@ jsonLd: |
 **顺着「智能体」挖下去**
 
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同概念:智能体 (agent)、红队测试 (red teaming)、评估 (evals)</span>
+- [[2026-10-09-talks-why-80-reliability-isn-t-good-enough-fel|80%的可靠度为什么还不够？亚马逊实验室的答案：别再堆分数了]]<span class="pd-rz">同概念:可靠性 (reliability)、智能体 (agent)、评估 (evals)</span>
 - [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)</span>
-- [[2025-09-16-talks-evaluating-agents-with-braintrust|Braintrust CEO Ankur Goyal:做 AI 评估的纪律八年不变，但玩法正在剧变]]<span class="pd-rz">同概念:智能体 (agent)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]] [[Davis Palmie]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":89,"OpenAI":203,"应用服务器":2,"智能体控制框架":3,"ACP（智能体客户端协议）":2,"动态工具":1,"开发者指令":1,"Codex CLI":1,"Codex Exec":1,"沙箱":99}</script>
+<script type="application/json" class="pd-epn">{"Codex":90,"OpenAI":203,"应用服务器":2,"智能体控制框架":3,"ACP（智能体客户端协议）":2,"动态工具":1,"开发者指令":1,"Codex CLI":1,"Codex Exec":1,"沙箱":100}</script>
 
 <script>
 (function(){

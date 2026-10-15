@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amazon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amazon">AM</div><div class="pi"><h1 class="pt">Amazon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -41,10 +41,11 @@ unlisted: true
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(20:20起):本集说 Amazon 封锁了 Muse、不让它替你购物，核心动机据 MG 分析是广告：智能体不受信息流广告影响，而这正是 Amazon 广告业务的增长引擎。
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(13:34起):本集顺带提到它是最大的 AI 基础设施建设者，其全部 AI 基建投资今天都在盈利，AI 还推高了毛利率。
 - **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(17:14起):本集提到 Adept 的研究团队被 Amazon 收编,间接促成了 Holly 跳槽 Figma。
+- **[[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|《Deel产品负责人：AI干了600个人的活，多赚1.4亿美元》]]**(00:51起):本集提到 Goldsmid 曾任职 Amazon，并以之为以客户为中心的高水位线参照。
 
 ## ① 提到它的金句
 
-*5 条*
+*6 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q2]]
 
@@ -56,9 +57,11 @@ unlisted: true
 
 ![[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl#^q2]]
 
+![[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do#^q3]]
+
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2026-01-11-lennys-what-openai-and-google-engineers-learned|《AI 产品不能照搬软件老办法：从高控制低自主开始》]] — 作为被讨论公司(提及)
@@ -93,14 +96,15 @@ unlisted: true
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司(提及)
 - [[2026-10-08-a16z-building-the-cloud-for-an-agentic-world|《当AI智能体成为云的大客户：AWS CEO Matt Garman 谈2200亿美元的豪赌》]] — 作为被讨论公司
 - [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为被讨论公司(提及)
+- [[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|《Deel产品负责人：AI干了600个人的活，多赚1.4亿美元》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Google]] · [[Anthropic]] · [[智能体]] · [[Microsoft]] · [[ChatGPT]] · [[NVIDIA]] · [[Meta]] · [[Shopify]] · [[Apple]]
+[[OpenAI]] · [[智能体]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[ChatGPT]] · [[NVIDIA]] · [[Meta]] · [[Shopify]] · [[Apple]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":203,"Google":72,"Anthropic":204,"智能体":1,"Microsoft":32,"ChatGPT":112,"NVIDIA":71,"Meta":55,"Shopify":17,"Apple":27}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":203,"智能体":1,"Anthropic":204,"Google":72,"Microsoft":32,"ChatGPT":112,"NVIDIA":71,"Meta":55,"Shopify":17,"Apple":27}</script>
 
 <script>
 (function(){

@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":31,"垂直整合":1,"反向定位":1,"自举":2}</script>
+<script type="application/json" class="pd-epn">{"Judy Health":1,"Capital RX":1,"CVS":2,"Cigna":2,"United Healthcare":1,"药品福利管理":1,"产品市场契合":32,"垂直整合":1,"反向定位":1,"自举":2}</script>
 
 <script>
 (function(){

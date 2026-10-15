@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
+[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":31,"留存":3,"分发":7,"智能体":1,"社交网络":2,"微管理":1,"Facebook":17}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Zynga":2,"已验证、更好、全新":1,"产品市场契合":32,"留存":3,"分发":7,"智能体":1,"社交网络":2,"微管理":1,"Facebook":18}</script>
 
 <script>
 (function(){

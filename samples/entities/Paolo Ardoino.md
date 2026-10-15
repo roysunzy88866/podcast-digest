@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":100,"微调":38,"BitNet":1,"LoRa":1,"数据中心":25,"去中介化":2,"智能体":1,"GPU":32}</script>
+<script type="application/json" class="pd-epn">{"Tether":2,"QVAC":1,"推理":101,"微调":38,"BitNet":1,"LoRa":1,"数据中心":25,"去中介化":2,"智能体":1,"GPU":33}</script>
 
 <script>
 (function(){

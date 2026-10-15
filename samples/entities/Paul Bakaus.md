@@ -60,11 +60,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":65,"品味":15,"智能体":1,"技能":34,"一次性设计":1,"子智能体":6,"AI 垃圾内容":4,"Claude Code":113,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Impeccable":2,"harness":65,"品味":15,"智能体":1,"技能":34,"一次性设计":1,"子智能体":7,"AI 垃圾内容":4,"Claude Code":114,"形容词引导设计":1}</script>
 
 <script>
 (function(){

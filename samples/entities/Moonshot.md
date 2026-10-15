@@ -35,7 +35,7 @@ unlisted: true
 
 [[Hugging Face]] · [[NVIDIA]] · [[推理]] · [[Florian]] · [[Astro Teller]] · [[Zavain Dar]] · [[DeepSeek]] · [[X]] · [[Eric Newcomer]] · [[ByteDance]]
 
-<script type="application/json" class="pd-epn">{"Hugging Face":38,"NVIDIA":71,"推理":100,"Florian":1,"Astro Teller":1,"Zavain Dar":1,"DeepSeek":4,"X":4,"Eric Newcomer":2,"ByteDance":1}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":38,"NVIDIA":71,"推理":101,"Florian":1,"Astro Teller":1,"Zavain Dar":1,"DeepSeek":4,"X":4,"Eric Newcomer":2,"ByteDance":1}</script>
 
 <script>
 (function(){

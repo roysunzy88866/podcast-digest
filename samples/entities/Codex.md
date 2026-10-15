@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>89</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">公司</div><div class="nums">本站收录 <b>90</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -96,6 +96,7 @@ unlisted: true
 - **[[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]]**(13:26起):本集提到思科成为 OpenAI 与 Codex 的首个设计合作伙伴，并与其派驻人员定期复盘。
 - **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(23:30起):OpenAI 的编程产品,本集说 Dot 可以编排(orchestrate)你的 Codex;演示翻车也是因为 Codex 线程没启动。
 - **[[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]]**(00:28起):本集把 Codex 说成 OpenAI 的编程智能体,harness 与 app server 协议都已开源(Apache 2),可复刻、可接任何兼容 responses API 的模型
+- **[[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]]**(00:41起):本集开头把 Codex 与 Claude Code 并列为例子，说明智能体因没有过去的知识而重复劳动。
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(02:00起):本集说 Codex 是 OpenAI 面向程序员和技术人员的编程智能体，由嘉宾两年前加入时带队构建。
 - **[[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]]**(08:06起):本集举例:如果 Codex 替 Harry 创建了 pull request,这段工作的来源和归属就成了不简单的内容溯源设计问题。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
@@ -142,7 +143,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*89 集*
+*90 集*
 
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
@@ -230,6 +231,7 @@ unlisted: true
 - [[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]] — 作为概念(提及)
 - [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为概念
 - [[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]] — 作为概念
+- [[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]] — 作为概念(提及)
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
 - [[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
@@ -238,9 +240,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[MCP]] · [[Anthropic]] · [[护栏]] · [[沙箱]]
+[[智能体]] · [[Claude Code]] · [[OpenAI]] · [[Claude]] · [[ChatGPT]] · [[Cursor]] · [[护栏]] · [[MCP]] · [[Anthropic]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":113,"OpenAI":203,"Claude":97,"ChatGPT":112,"Cursor":87,"MCP":95,"Anthropic":204,"护栏":90,"沙箱":99}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":114,"OpenAI":203,"Claude":97,"ChatGPT":112,"Cursor":87,"护栏":91,"MCP":95,"Anthropic":204,"沙箱":100}</script>
 
 <script>
 (function(){

@@ -72,7 +72,7 @@ unlisted: true
 
 [[智能体]] · [[Tesla]] · [[ChatGPT]] · [[OpenAI]] · [[Anthropic]] · [[物理 AI]] · [[Lenny]] · [[NVIDIA]] · [[后训练]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Tesla":12,"ChatGPT":112,"OpenAI":203,"Anthropic":204,"物理 AI":11,"Lenny":69,"NVIDIA":71,"后训练":1,"推理":100}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Tesla":12,"ChatGPT":112,"OpenAI":203,"Anthropic":204,"物理 AI":11,"Lenny":69,"NVIDIA":71,"后训练":1,"推理":101}</script>
 
 <script>
 (function(){

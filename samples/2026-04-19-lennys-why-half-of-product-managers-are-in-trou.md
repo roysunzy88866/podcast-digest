@@ -165,8 +165,8 @@ Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最�
 **换个口味**
 
 - [[2026-09-04-pg-how-to-build-product-loops-in-claude-cod|循环是新的提示词:JobNimbus 首席 AI 官教你 vibe PM]]<span class="pd-rz">同公司:Claude · 同概念:构建者 (builder)、智能体 (agent)</span>
+- [[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|Deel产品负责人：AI干了600个人的活，多赚1.4亿美元]]<span class="pd-rz">同概念:判断力 (judgment)、LLM、智能体 (agent)</span>
 - [[2025-09-21-lennys-from-managing-people-to-managing-ai-juli|Julie Zhuo：管理者的核心技能，就是驾驭AI的技能]]<span class="pd-rz">同概念:构建者 (builder)、智能体 (agent)</span>
-- [[2026-08-26-beyondcoding-how-new-staff-engineers-build-judgment-w|AI 时代，工程师的判断力与品味如何修炼]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
 
 </div>
 </div>

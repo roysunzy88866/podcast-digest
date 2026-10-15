@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Cisco]] · [[AI 基础设施]] · [[智能体]] · [[创始人模式]] · [[OpenAI]] · [[Codex]] · [[GPU]] · [[数据中心建设热潮]] · [[AI 安全]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"Cisco":4,"AI 基础设施":6,"智能体":1,"创始人模式":4,"OpenAI":203,"Codex":89,"GPU":32,"数据中心建设热潮":1,"AI 安全":4}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"Cisco":4,"AI 基础设施":6,"智能体":1,"创始人模式":4,"OpenAI":203,"Codex":90,"GPU":33,"数据中心建设热潮":1,"AI 安全":4}</script>
 
 <script>
 (function(){

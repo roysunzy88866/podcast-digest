@@ -124,7 +124,7 @@ Cody 评估了几条路:
 
 - [[2026-09-03-sed-moving-beyond-rag-with-precomputed-conte|把上下文当资产预编译：Pinecone Nexus 如何重做智能体检索]]<span class="pd-rz">同概念:LLM、上下文 (context)</span>
 - [[2026-09-15-talks-tolan-voice-first-ai-companion-paula-doz|Tolan 如何做语音优先的 AI 陪伴体]]<span class="pd-rz">同概念:上下文 (context)、LLM</span>
-- [[2025-09-07-lennys-how-ai-is-reshaping-the-product-role|PM的生存法则：AI时代别当瓶颈，去抢活干]]<span class="pd-rz">同概念:LLM</span>
+- [[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|Deel产品负责人：AI干了600个人的活，多赚1.4亿美元]]<span class="pd-rz">同概念:LLM、知识库 (knowledge base)</span>
 
 </div>
 <div class="pd-ex">

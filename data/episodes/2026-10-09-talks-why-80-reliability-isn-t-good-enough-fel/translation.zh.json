@@ -1,0 +1,1658 @@
+[
+ {
+  "seg": 0,
+  "start": 12.575,
+  "end": 13.435,
+  "speaker": "Unknown",
+  "en": "Can everybody hear me?",
+  "zh": "大家都能听到我说话吗？"
+ },
+ {
+  "seg": 1,
+  "start": 13.835,
+  "end": 14.195,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 2,
+  "start": 14.556,
+  "end": 15.176,
+  "speaker": "Unknown",
+  "en": "Perfect.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 3,
+  "start": 16.096,
+  "end": 18.877,
+  "speaker": "Unknown",
+  "en": "So first, thanks for joining, everyone.",
+  "zh": "首先，感谢大家参加。"
+ },
+ {
+  "seg": 4,
+  "start": 19.497,
+  "end": 25.378,
+  "speaker": "Unknown",
+  "en": "My name is Felipe, and I am a member of technical staff at the Amazon AGI Lab.",
+  "zh": "我叫 Felipe，我是 Amazon AGI Lab 的技术团队成员。"
+ },
+ {
+  "seg": 5,
+  "start": 26.779,
+  "end": 31.14,
+  "speaker": "Unknown",
+  "en": "As part of my role, I help us to build the next generation.",
+  "zh": "作为我职责的一部分，我帮助我们构建下一代。"
+ },
+ {
+  "seg": 6,
+  "start": 31.28,
+  "end": 35.261,
+  "speaker": "Unknown",
+  "en": "I manage the programs to build the next generation of products our lab is building.",
+  "zh": "我管理着我们实验室构建下一代产品的各个项目。"
+ },
+ {
+  "seg": 7,
+  "start": 35.861,
+  "end": 39.802,
+  "speaker": "Unknown",
+  "en": "And today, I will talk to you about designing evals that earn customer trust.",
+  "zh": "今天，我要和大家谈谈如何设计能赢得客户信任的评测。"
+ },
+ {
+  "seg": 8,
+  "start": 41.63,
+  "end": 46.691,
+  "speaker": "Unknown",
+  "en": "Before talking about devals, I just need to give you some context about what our lab was doing the past year.",
+  "zh": "在谈 devals 之前，我需要先给大家介绍一下我们实验室过去一年在做的事情。"
+ },
+ {
+  "seg": 9,
+  "start": 47.571,
+  "end": 53.693,
+  "speaker": "Unknown",
+  "en": "So everything started in March last year, where we launched our Nova Act research preview.",
+  "zh": "一切开始于去年三月，我们发布了 Nova Act 研究预览版。"
+ },
+ {
+  "seg": 10,
+  "start": 54.233,
+  "end": 62.775,
+  "speaker": "Unknown",
+  "en": "For context, Nova Act is a tool that we build as part of our lab, and it's a tool that helps you to build browser agents.",
+  "zh": "背景介绍一下，Nova Act 是我们实验室构建的一个工具，它是一个帮助你构建浏览器智能体的工具。"
+ },
+ {
+  "seg": 11,
+  "start": 63.135,
+  "end": 68.916,
+  "speaker": "Unknown",
+  "en": "So basically, everything that you do in a web browser, you can use Nova Act to automate those tasks.",
+  "zh": "基本上，你在网页浏览器里做的所有事情，都可以用 Nova Act 来自动化那些任务。"
+ },
+ {
+  "seg": 12,
+  "start": 70.437,
+  "end": 79.263,
+  "speaker": "Unknown",
+  "en": "And as part of the research preview, our main goal was we wanted to ship a product to get as much feedback as we could from our customers.",
+  "zh": "作为研究预览版的一部分，我们的主要目标是发布一个产品，尽可能多地从客户那里获得反馈。"
+ },
+ {
+  "seg": 13,
+  "start": 81.378,
+  "end": 82.519,
+  "speaker": "Unknown",
+  "en": "In March, we launched that.",
+  "zh": "三月，我们发布了它。"
+ },
+ {
+  "seg": 14,
+  "start": 82.779,
+  "end": 90.682,
+  "speaker": "Unknown",
+  "en": "Then in July, we made one additional improvement in our product, which was basically develop a whole new developer experience.",
+  "zh": "然后在七月，我们对产品做了一个额外的改进，基本上就是开发了一套全新的开发者体验。"
+ },
+ {
+  "seg": 15,
+  "start": 91.202,
+  "end": 102.247,
+  "speaker": "Unknown",
+  "en": "And this was because, basically, during the first couple months, we noticed some gaps in the developer experience, and we wanted to make sure customers had the best experience building agents.",
+  "zh": "这是因为，基本上，在最初几个月里，我们注意到开发者体验上存在一些缺口，我们想确保客户在构建智能体时拥有最好的体验。"
+ },
+ {
+  "seg": 16,
+  "start": 103.027,
+  "end": 108.151,
+  "speaker": "Unknown",
+  "en": "Then in December, we finally launched our service on AWS.",
+  "zh": "然后在十二月，我们终于在 AWS 上正式发布了我们的服务。"
+ },
+ {
+  "seg": 17,
+  "start": 108.411,
+  "end": 115.016,
+  "speaker": "Unknown",
+  "en": "So today, NovaX is a top-tier service on AWS that anyone can use to build production-level agents.",
+  "zh": "所以今天，NovaX 是 AWS 上的一个顶级服务，任何人都可以用它来构建生产级别的智能体。"
+ },
+ {
+  "seg": 18,
+  "start": 115.696,
+  "end": 121.04,
+  "speaker": "Unknown",
+  "en": "And during this period, I was basically responsible for the customer enablement piece of that.",
+  "zh": "在这段时间里，我基本上负责其中客户赋能的部分。"
+ },
+ {
+  "seg": 19,
+  "start": 121.28,
+  "end": 123.321,
+  "speaker": "Unknown",
+  "en": "What's customer enablement just for context?",
+  "zh": "背景介绍一下，什么是客户赋能？"
+ },
+ {
+  "seg": 20,
+  "start": 123.761,
+  "end": 132.923,
+  "speaker": "Unknown",
+  "en": "It's basically I was working day to day with all of our customers to understand what was their problem and how we were helping them to solve that.",
+  "zh": "基本上就是我每天和我们所有的客户一起工作，了解他们的问题是什么，以及我们如何帮助他们解决这些问题。"
+ },
+ {
+  "seg": 21,
+  "start": 133.363,
+  "end": 136.344,
+  "speaker": "Unknown",
+  "en": "So that was my main role during last year.",
+  "zh": "那就是我去年主要的工作。"
+ },
+ {
+  "seg": 22,
+  "start": 138.225,
+  "end": 142.546,
+  "speaker": "Unknown",
+  "en": "And then let's go to the problem that we will be discussing today.",
+  "zh": "接下来，让我们进入今天要讨论的问题。"
+ },
+ {
+  "seg": 23,
+  "start": 143.106,
+  "end": 146.427,
+  "speaker": "Unknown",
+  "en": "So I like to call this is the benchmark illusion.",
+  "zh": "我喜欢把这个称为基准测试幻觉。"
+ },
+ {
+  "seg": 24,
+  "start": 146.727,
+  "end": 148.788,
+  "speaker": "Unknown",
+  "en": "So you all working on AI.",
+  "zh": "你们都在做 AI。"
+ },
+ {
+  "seg": 25,
+  "start": 150.021,
+  "end": 155.923,
+  "speaker": "Unknown",
+  "en": "You are probably working on and building things based on benchmarks, right?",
+  "zh": "你们很可能在基于基准测试来工作和构建东西，对吧？"
+ },
+ {
+  "seg": 26,
+  "start": 156.043,
+  "end": 170.028,
+  "speaker": "Unknown",
+  "en": "It could be public benchmarks that everybody's using and everybody's trying to optimize the products on that, and also benchmarks that you are creating, your own synthetic data that you are creating and you are evaluating your product.",
+  "zh": "可能是大家都在用的公开基准测试，所有人都在努力据此优化产品；也有你们自己创建的基准测试，你自己创建的合成数据，你在据此评估你的产品。"
+ },
+ {
+  "seg": 27,
+  "start": 170.468,
+  "end": 173.589,
+  "speaker": "Unknown",
+  "en": "And the main goal here is you want to optimize, right?",
+  "zh": "这里的主要目标就是你想优化，对吧？"
+ },
+ {
+  "seg": 28,
+  "start": 173.609,
+  "end": 176.25,
+  "speaker": "Unknown",
+  "en": "You want to be the best as you can there in those benchmarks.",
+  "zh": "你想在这些基准测试上做到最好。"
+ },
+ {
+  "seg": 29,
+  "start": 177.545,
+  "end": 183.654,
+  "speaker": "Unknown",
+  "en": "But then when you ship that to production and your customers start using that, what happens is it's this, right?",
+  "zh": "但当你把它发布到生产环境、你的客户开始使用它时，发生的情况就是这个，对吧？"
+ },
+ {
+  "seg": 30,
+  "start": 184.235,
+  "end": 185.377,
+  "speaker": "Unknown",
+  "en": "They start seeing problems.",
+  "zh": "他们开始看到问题。"
+ },
+ {
+  "seg": 31,
+  "start": 185.597,
+  "end": 191.546,
+  "speaker": "Unknown",
+  "en": "And it's basically everything that you were not expecting them to do, they try to do that and they break their product.",
+  "zh": "基本上，所有你没有预料到他们会做的事情，他们都会去做，然后把你的产品搞坏。"
+ },
+ {
+  "seg": 32,
+  "start": 193.543,
+  "end": 201.707,
+  "speaker": "Unknown",
+  "en": "And this is happening because most of us, we are working on evals that are static.",
+  "zh": "而这种情况发生，是因为我们大多数人都在做静态的评测。"
+ },
+ {
+  "seg": 33,
+  "start": 202.087,
+  "end": 203.848,
+  "speaker": "Unknown",
+  "en": "So what are static evals?",
+  "zh": "那么什么是静态评测？"
+ },
+ {
+  "seg": 34,
+  "start": 204.608,
+  "end": 210.151,
+  "speaker": "Unknown",
+  "en": "Basically, let's talk a little bit about what's the standard development process of a product, right?",
+  "zh": "基本上，我们先稍微谈谈一个产品的标准开发流程，对吧？"
+ },
+ {
+  "seg": 35,
+  "start": 210.651,
+  "end": 217.614,
+  "speaker": "Unknown",
+  "en": "First thing that you do, you receive the requirements from your product team, and you start building, right?",
+  "zh": "你做的第一件事，是从产品团队那里收到需求，然后开始构建，对吧？"
+ },
+ {
+  "seg": 36,
+  "start": 218.214,
+  "end": 219.475,
+  "speaker": "Unknown",
+  "en": "Everybody does that, I hope.",
+  "zh": "我希望每个人都这么做。"
+ },
+ {
+  "seg": 37,
+  "start": 220.295,
+  "end": 226.818,
+  "speaker": "Unknown",
+  "en": "Then, when you have a product in a good shape, the next thing that you will do is running your evals.",
+  "zh": "然后，当你的产品具备了一个不错的形态，你接下来要做的事就是运行你的评测。"
+ },
+ {
+  "seg": 38,
+  "start": 227.238,
+  "end": 232.06,
+  "speaker": "Unknown",
+  "en": "Again, public benchmarks, synthetic data that you generated, and you will optimize for that.",
+  "zh": "同样，公开基准测试、你生成的合成数据，你会据此进行优化。"
+ },
+ {
+  "seg": 39,
+  "start": 232.761,
+  "end": 236.782,
+  "speaker": "Unknown",
+  "en": "When you start feeling comfortable, you're like, OK, now I will ship that.",
+  "zh": "当你开始感到安心时，你会想，好，现在我要发布了。"
+ },
+ {
+  "seg": 40,
+  "start": 237.323,
+  "end": 238.743,
+  "speaker": "Unknown",
+  "en": "And you ship that to the customers.",
+  "zh": "然后你把它发布给客户。"
+ },
+ {
+  "seg": 41,
+  "start": 239.324,
+  "end": 243.966,
+  "speaker": "Unknown",
+  "en": "But if you have static evals, what's the only thing that you can do after that?",
+  "zh": "但如果你用的是静态评测，在那之后你唯一能做的事情是什么？"
+ },
+ {
+  "seg": 42,
+  "start": 245.126,
+  "end": 245.846,
+  "speaker": "Unknown",
+  "en": "It's basically this.",
+  "zh": "基本上就是这个。"
+ },
+ {
+  "seg": 43,
+  "start": 245.906,
+  "end": 246.427,
+  "speaker": "Unknown",
+  "en": "It's hope.",
+  "zh": "祈祷。"
+ },
+ {
+  "seg": 44,
+  "start": 247.29,
+  "end": 247.49,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 45,
+  "start": 247.61,
+  "end": 253.455,
+  "speaker": "Unknown",
+  "en": "You just hope your evals were reflecting exactly what your customers will do with your product.",
+  "zh": "你只能希望你的评测恰好反映了你的客户会用你的产品做什么。"
+ },
+ {
+  "seg": 46,
+  "start": 253.975,
+  "end": 256.017,
+  "speaker": "Unknown",
+  "en": "And if not, it will start failing.",
+  "zh": "如果不是这样，它就会开始失败。"
+ },
+ {
+  "seg": 47,
+  "start": 256.357,
+  "end": 256.577,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 256.958,
+  "end": 257.838,
+  "speaker": "Unknown",
+  "en": "And this is the gap.",
+  "zh": "而这就是差距所在。"
+ },
+ {
+  "seg": 49,
+  "start": 258.239,
+  "end": 263.863,
+  "speaker": "Unknown",
+  "en": "This is exactly what we will be discussing today and what we were doing in our lab to solve this problem.",
+  "zh": "这正是我们今天要讨论的，也是我们实验室为解决这个问题所做的事情。"
+ },
+ {
+  "seg": 50,
+  "start": 264.904,
+  "end": 265.965,
+  "speaker": "Unknown",
+  "en": "And just a spoiler.",
+  "zh": "只是剧透一下。"
+ },
+ {
+  "seg": 51,
+  "start": 266.405,
+  "end": 269.647,
+  "speaker": "Unknown",
+  "en": "So this is not about better benchmarks.",
+  "zh": "所以这不是关于更好的基准测试。"
+ },
+ {
+  "seg": 52,
+  "start": 270.068,
+  "end": 272.129,
+  "speaker": "Unknown",
+  "en": "It's about closing the customer loop.",
+  "zh": "而是关于闭环客户反馈。"
+ },
+ {
+  "seg": 53,
+  "start": 272.51,
+  "end": 276.733,
+  "speaker": "Unknown",
+  "en": "So what we want you to do here is get the feedback from your customer and close the loop.",
+  "zh": "所以我们想让你在这里做的是从客户那里获得反馈并闭环。"
+ },
+ {
+  "seg": 54,
+  "start": 279.567,
+  "end": 286.091,
+  "speaker": "Unknown",
+  "en": "So with that in mind, what we did in our lab was basically propose an eval flywheel.",
+  "zh": "记住这一点，我们在实验室里做的基本上是提出一个评估飞轮。"
+ },
+ {
+  "seg": 55,
+  "start": 286.551,
+  "end": 292.935,
+  "speaker": "Unknown",
+  "en": "So if you are not aware about the terminology, but flywheel is basically a loop that you keep repeating all the time.",
+  "zh": "如果你不了解这个术语，飞轮基本上就是你不断重复的循环。"
+ },
+ {
+  "seg": 56,
+  "start": 293.956,
+  "end": 298.438,
+  "speaker": "Unknown",
+  "en": "And the first step of this eval is defined success.",
+  "zh": "这个评估的第一步是定义成功。"
+ },
+ {
+  "seg": 57,
+  "start": 299.219,
+  "end": 300.499,
+  "speaker": "Unknown",
+  "en": "And very important here.",
+  "zh": "这一点非常重要。"
+ },
+ {
+  "seg": 58,
+  "start": 301.02,
+  "end": 304.422,
+  "speaker": "Unknown",
+  "en": "So defined success here, it's not what you think is success.",
+  "zh": "所以这里定义的成功，不是你认为的成功。"
+ },
+ {
+  "seg": 59,
+  "start": 304.902,
+  "end": 307.143,
+  "speaker": "Unknown",
+  "en": "It's what your customers think is success.",
+  "zh": "而是你的客户认为的成功。"
+ },
+ {
+  "seg": 60,
+  "start": 309.257,
+  "end": 317.16,
+  "speaker": "Unknown",
+  "en": "So next step, as soon as you understand what your customer really needs and the problem you are trying to solve, you go to capture signals.",
+  "zh": "所以下一步，一旦你理解了你的客户真正需要什么以及你试图解决的问题，你就去捕获信号。"
+ },
+ {
+  "seg": 61,
+  "start": 318.041,
+  "end": 322.102,
+  "speaker": "Unknown",
+  "en": "And we as engineers, what's the first thing that comes to your mind?",
+  "zh": "而我们作为工程师，脑子里第一反应是什么？"
+ },
+ {
+  "seg": 62,
+  "start": 322.242,
+  "end": 324.523,
+  "speaker": "Unknown",
+  "en": "It's like instrumentation, right?",
+  "zh": "就是埋点监控，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 324.683,
+  "end": 329.805,
+  "speaker": "Unknown",
+  "en": "Let's get metrics, let's get data as much as you can about what your customer is doing.",
+  "zh": "让我们获取指标，让我们尽可能多地获取关于你的客户正在做什么的数据。"
+ },
+ {
+  "seg": 64,
+  "start": 330.485,
+  "end": 336.188,
+  "speaker": "Unknown",
+  "en": "But one very important piece of that that we are missing is you should talk to your customer.",
+  "zh": "但其中我们遗漏了一个非常重要的部分：你应该和你的客户交谈。"
+ },
+ {
+  "seg": 65,
+  "start": 336.868,
+  "end": 344.099,
+  "speaker": "Unknown",
+  "en": "Talk to your customer, go, schedule meetings, visit them, and understand exactly what they are trying to do.",
+  "zh": "和你的客户交谈，去安排会议、拜访他们，确切地理解他们想要做什么。"
+ },
+ {
+  "seg": 66,
+  "start": 344.599,
+  "end": 346.883,
+  "speaker": "Unknown",
+  "en": "Your data might be a little bit misleading.",
+  "zh": "你的数据可能有点误导性。"
+ },
+ {
+  "seg": 67,
+  "start": 347.083,
+  "end": 350.929,
+  "speaker": "Unknown",
+  "en": "You might be missing exactly what's the problem that your customer is trying to solve.",
+  "zh": "你可能恰恰漏掉了你的客户试图解决的问题是什么。"
+ },
+ {
+  "seg": 68,
+  "start": 352.364,
+  "end": 355.087,
+  "speaker": "Unknown",
+  "en": "Third step, you go to Diagnose Gaps.",
+  "zh": "第三步，你去诊断差距。"
+ },
+ {
+  "seg": 69,
+  "start": 355.467,
+  "end": 355.948,
+  "speaker": "Unknown",
+  "en": "That's easy.",
+  "zh": "这很简单。"
+ },
+ {
+  "seg": 70,
+  "start": 356.148,
+  "end": 358.931,
+  "speaker": "Unknown",
+  "en": "That's basically you get all the signals from customers.",
+  "zh": "基本上就是你从客户那里收集所有信号。"
+ },
+ {
+  "seg": 71,
+  "start": 358.971,
+  "end": 364.377,
+  "speaker": "Unknown",
+  "en": "Could be instrumentation, but also your inputs, your insights from the meetings that you had with them.",
+  "zh": "可能来自埋点监控，但也来自你的输入、你从与他们会议中获得的洞察。"
+ },
+ {
+  "seg": 72,
+  "start": 365.038,
+  "end": 366.98,
+  "speaker": "Unknown",
+  "en": "And you just start categorizing those.",
+  "zh": "然后你开始给这些分类。"
+ },
+ {
+  "seg": 73,
+  "start": 367.501,
+  "end": 369.663,
+  "speaker": "Unknown",
+  "en": "And when I say categorizing, there are basically",
+  "zh": "当我说分类时，基本上"
+ },
+ {
+  "seg": 74,
+  "start": 370.284,
+  "end": 374.146,
+  "speaker": "Unknown",
+  "en": "Very high level, but there are three things that you could find from those discussions.",
+  "zh": "非常高层次地说，从这些讨论中你能发现三类东西。"
+ },
+ {
+  "seg": 75,
+  "start": 374.766,
+  "end": 380.248,
+  "speaker": "Unknown",
+  "en": "First, it's basically inputs about your model, so where your model is failing there.",
+  "zh": "第一，基本上是关于你模型的输入，也就是你的模型在哪里失败了。"
+ },
+ {
+  "seg": 76,
+  "start": 380.629,
+  "end": 383.43,
+  "speaker": "Unknown",
+  "en": "And this feeds into evals, right, to your model.",
+  "zh": "而这会进入评估，对吧，进入你的模型。"
+ },
+ {
+  "seg": 77,
+  "start": 383.85,
+  "end": 387.952,
+  "speaker": "Unknown",
+  "en": "The second point is inputs to your engineering team.",
+  "zh": "第二点是给你工程团队的输入。"
+ },
+ {
+  "seg": 78,
+  "start": 388.392,
+  "end": 392.934,
+  "speaker": "Unknown",
+  "en": "So basically, what is the gap in your hardness that you should fix?",
+  "zh": "基本上，就是你的工程实现中的差距是什么，你应该修复什么？"
+ },
+ {
+  "seg": 79,
+  "start": 393.154,
+  "end": 394.895,
+  "speaker": "Unknown",
+  "en": "This is more traditional bug fixing.",
+  "zh": "这是更传统的缺陷修复。"
+ },
+ {
+  "seg": 80,
+  "start": 395.355,
+  "end": 398.496,
+  "speaker": "Unknown",
+  "en": "And the third one is also on the product side.",
+  "zh": "第三个也是在产品方面。"
+ },
+ {
+  "seg": 81,
+  "start": 398.756,
+  "end": 401.597,
+  "speaker": "Unknown",
+  "en": "So what are you missing in terms of product?",
+  "zh": "那么你在产品方面缺了什么？"
+ },
+ {
+  "seg": 82,
+  "start": 401.677,
+  "end": 406.018,
+  "speaker": "Unknown",
+  "en": "Like, do your customer understand exactly what your product is trying to solve?",
+  "zh": "比如，你的客户是否确切理解你的产品试图解决什么？"
+ },
+ {
+  "seg": 83,
+  "start": 406.499,
+  "end": 408.859,
+  "speaker": "Unknown",
+  "en": "Is your product properly positioned?",
+  "zh": "你的产品定位是否正确？"
+ },
+ {
+  "seg": 84,
+  "start": 409.339,
+  "end": 410.56,
+  "speaker": "Unknown",
+  "en": "So that's very important.",
+  "zh": "所以这非常重要。"
+ },
+ {
+  "seg": 85,
+  "start": 411.3,
+  "end": 418.289,
+  "speaker": "Unknown",
+  "en": "So as soon as you have the gaps categorized, you just feed that into decisions.",
+  "zh": "所以一旦你把差距分类好，你就把这些输入到决策中。"
+ },
+ {
+  "seg": 86,
+  "start": 418.589,
+  "end": 426.018,
+  "speaker": "Unknown",
+  "en": "So feed that into decisions is basically you prioritize that, and you ask your science, your engineering, your product team to address those.",
+  "zh": "输入到决策基本上就是你确定优先级，然后让你的科学团队、工程团队、产品团队去解决这些问题。"
+ },
+ {
+  "seg": 87,
+  "start": 426.218,
+  "end": 427.279,
+  "speaker": "Unknown",
+  "en": "That's basic, right?",
+  "zh": "这很基础，对吧？"
+ },
+ {
+  "seg": 88,
+  "start": 427.68,
+  "end": 430.864,
+  "speaker": "Unknown",
+  "en": "And then you just continue repeating this loop over and over.",
+  "zh": "然后你就不断一遍又一遍地重复这个循环。"
+ },
+ {
+  "seg": 89,
+  "start": 433.596,
+  "end": 440.581,
+  "speaker": "Unknown",
+  "en": "So with that in mind, in our lab, we repeated this flywheel several, several times since March last year.",
+  "zh": "记住这一点，在实验室里，自去年三月以来我们把飞轮重复了很多很多次。"
+ },
+ {
+  "seg": 90,
+  "start": 441.261,
+  "end": 453.569,
+  "speaker": "Unknown",
+  "en": "And what I also noticed is basically as part of my journey as a product, each customer will have their own journey using my product.",
+  "zh": "而我还注意到的是，作为我产品旅程的一部分，每个客户使用我的产品都会有他们自己的旅程。"
+ },
+ {
+  "seg": 91,
+  "start": 453.989,
+  "end": 459.573,
+  "speaker": "Unknown",
+  "en": "What that means, so my customer evolves as they use my product, right?",
+  "zh": "这意味着，我的客户随着使用我的产品而演进，对吧？"
+ },
+ {
+  "seg": 92,
+  "start": 460.133,
+  "end": 465.135,
+  "speaker": "Unknown",
+  "en": "So there are basically four things that you can learn while your customers use your product.",
+  "zh": "所以基本上有四件事你可以在客户使用你的产品的过程中学到。"
+ },
+ {
+  "seg": 93,
+  "start": 466.175,
+  "end": 471.338,
+  "speaker": "Unknown",
+  "en": "The first one is that's the first thing that you will do, the first time that you'll meet your customer.",
+  "zh": "第一个是你会做的第一件事，也就是你第一次见到客户的时候。"
+ },
+ {
+  "seg": 94,
+  "start": 471.778,
+  "end": 473.558,
+  "speaker": "Unknown",
+  "en": "It's basically use case discovery.",
+  "zh": "基本上是用例发现。"
+ },
+ {
+  "seg": 95,
+  "start": 473.919,
+  "end": 480.181,
+  "speaker": "Unknown",
+  "en": "So what you want you to do here at this first step, it's basically understand what's their problem.",
+  "zh": "所以你在这第一步想做的，基本上是理解他们的问题是什么。"
+ },
+ {
+  "seg": 96,
+  "start": 480.521,
+  "end": 486.624,
+  "speaker": "Unknown",
+  "en": "So what's the problem of your customer and make sure what you are building solves that, right?",
+  "zh": "也就是你的客户的问题是什么，并确保你正在构建的东西能解决这个问题，对吧？"
+ },
+ {
+  "seg": 97,
+  "start": 487.524,
+  "end": 492.108,
+  "speaker": "Unknown",
+  "en": "Then after that, you will have a couple early adopters, right?",
+  "zh": "然后在那之后，你会有几个早期采用者，对吧？"
+ },
+ {
+  "seg": 98,
+  "start": 492.508,
+  "end": 498.773,
+  "speaker": "Unknown",
+  "en": "From these early adopters, the main signal that you want to get, it's basically what's possible.",
+  "zh": "从这些早期采用者那里，你想获得的主要信号，基本上是什么是可能的。"
+ },
+ {
+  "seg": 99,
+  "start": 499.233,
+  "end": 502.636,
+  "speaker": "Unknown",
+  "en": "So that's the time where customers will try crazy things.",
+  "zh": "那正是客户会尝试疯狂东西的阶段。"
+ },
+ {
+  "seg": 100,
+  "start": 503.156,
+  "end": 506.999,
+  "speaker": "Unknown",
+  "en": "You will find things that you cannot help them at all, right?",
+  "zh": "你会发现一些你完全帮不上忙的事情，对吧？"
+ },
+ {
+  "seg": 101,
+  "start": 507.039,
+  "end": 510.902,
+  "speaker": "Unknown",
+  "en": "But you will also find things that your customers are using your product to solve.",
+  "zh": "但你也会发现一些你的客户正在用你的产品去解决的问题。"
+ },
+ {
+  "seg": 102,
+  "start": 510.942,
+  "end": 515.005,
+  "speaker": "Unknown",
+  "en": "And many times you will be surprised because it's something that you would never imagine.",
+  "zh": "很多时候你会感到惊讶，因为那是你从来都想象不到的东西。"
+ },
+ {
+  "seg": 103,
+  "start": 517.165,
+  "end": 520.188,
+  "speaker": "Unknown",
+  "en": "Third point, this is when you start scaling, right?",
+  "zh": "第三点，这是你开始扩展规模的时候，对吧？"
+ },
+ {
+  "seg": 104,
+  "start": 520.308,
+  "end": 528.577,
+  "speaker": "Unknown",
+  "en": "You get your early adopters, but now you start scaling, you are getting more customers, and you are able to identify some patterns, right?",
+  "zh": "你已经有了早期采用者，但现在你开始扩展，你获得了更多客户，而你能够识别出一些模式，对吧？"
+ },
+ {
+  "seg": 105,
+  "start": 529.058,
+  "end": 530.239,
+  "speaker": "Unknown",
+  "en": "What are the patterns?",
+  "zh": "什么模式呢？"
+ },
+ {
+  "seg": 106,
+  "start": 530.479,
+  "end": 533.562,
+  "speaker": "Unknown",
+  "en": "The pattern is basically your hero use case, right?",
+  "zh": "这个模式基本上就是你的核心使用场景（hero use case），对吧？"
+ },
+ {
+  "seg": 107,
+  "start": 534.003,
+  "end": 538.728,
+  "speaker": "Unknown",
+  "en": "That's the case, that's the problem that everybody is using your product to solve.",
+  "zh": "就是那种场景，那种所有人都在用你的产品去解决的问题。"
+ },
+ {
+  "seg": 108,
+  "start": 540.037,
+  "end": 544.879,
+  "speaker": "Unknown",
+  "en": "And last one, this is more future-looking, but these are your product gaps.",
+  "zh": "最后一点，这个更具未来视角，但这些是你的产品缺口。"
+ },
+ {
+  "seg": 109,
+  "start": 545.42,
+  "end": 554.144,
+  "speaker": "Unknown",
+  "en": "So when you were working with early adopters and also after you start scaling, you will also be finding some gaps on your product.",
+  "zh": "所以当你在与早期采用者合作时，以及在你开始扩展之后，你也会发现自己的产品上存在一些缺口。"
+ },
+ {
+  "seg": 110,
+  "start": 554.785,
+  "end": 560.227,
+  "speaker": "Unknown",
+  "en": "Your product team can help you to prioritize those, and these are the bets for your future, right?",
+  "zh": "你的产品团队可以帮你确定这些缺口的优先级，而这些是你对未来的押注，对吧？"
+ },
+ {
+  "seg": 111,
+  "start": 560.287,
+  "end": 561.388,
+  "speaker": "Unknown",
+  "en": "What you should build next.",
+  "zh": "你接下来应该构建什么。"
+ },
+ {
+  "seg": 112,
+  "start": 564.048,
+  "end": 574.1,
+  "speaker": "Unknown",
+  "en": "As I said, I worked with several, several customers during this journey, and there are a couple learnings that I want to share that some might be obvious, but others it's very, very insightful.",
+  "zh": "正如我所说，在这段旅程中我与很多、很多客户合作过，有几条我想分享的心得，有些可能是显而易见的，但另一些则非常有、非常有洞察力。"
+ },
+ {
+  "seg": 113,
+  "start": 575.001,
+  "end": 581.108,
+  "speaker": "Unknown",
+  "en": "So the first one is the trust cliff that I like to call.",
+  "zh": "第一个是我喜欢称之为「信任悬崖（trust cliff）」的东西。"
+ },
+ {
+  "seg": 114,
+  "start": 582.139,
+  "end": 584.321,
+  "speaker": "Unknown",
+  "en": "So what's the trust cliff?",
+  "zh": "那么什么是信任悬崖？"
+ },
+ {
+  "seg": 115,
+  "start": 584.921,
+  "end": 595.45,
+  "speaker": "Unknown",
+  "en": "So imagine you build a product, you are ready to ship, and you measure the reliability of this product, and you found 80% reliability.",
+  "zh": "想象一下你构建了一个产品，你准备上线它，你测量了这个产品的可靠性，你发现它的可靠性是 80%。"
+ },
+ {
+  "seg": 116,
+  "start": 596.331,
+  "end": 597.812,
+  "speaker": "Unknown",
+  "en": "That seems fine, right?",
+  "zh": "这看起来还不错，对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 598.352,
+  "end": 603.256,
+  "speaker": "Unknown",
+  "en": "Like, OK, I can give that to my customer, and they can start using it, right?",
+  "zh": "就是，好，我可以把它交给我的客户，他们可以开始使用它，对吧？"
+ },
+ {
+  "seg": 118,
+  "start": 603.797,
+  "end": 610.783,
+  "speaker": "Unknown",
+  "en": "But what your customer thinks when you say you are 80% of reliability is, I cannot trust this product.",
+  "zh": "但当你说你的可靠性是 80% 时，你的客户会想：我无法信任这个产品。"
+ },
+ {
+  "seg": 119,
+  "start": 612.15,
+  "end": 612.911,
+  "speaker": "Unknown",
+  "en": "I cannot trust.",
+  "zh": "我无法信任。"
+ },
+ {
+  "seg": 120,
+  "start": 614.792,
+  "end": 615.612,
+  "speaker": "Unknown",
+  "en": "And why?",
+  "zh": "为什么呢？"
+ },
+ {
+  "seg": 121,
+  "start": 616.233,
+  "end": 627.18,
+  "speaker": "Unknown",
+  "en": "Because when you show 80% reliability, what they will think is, oh, OK, so if it's 80%, I still have to monitor this agent.",
+  "zh": "因为当你展示 80% 的可靠性时，他们会想：哦，好，所以如果是 80%，我还是得监控这个智能体。"
+ },
+ {
+  "seg": 122,
+  "start": 627.84,
+  "end": 630.862,
+  "speaker": "Unknown",
+  "en": "If they fail, I will need to do some manual work.",
+  "zh": "如果它失败了，我就需要做一些手动工作。"
+ },
+ {
+  "seg": 123,
+  "start": 631.343,
+  "end": 635.205,
+  "speaker": "Unknown",
+  "en": "So in fact, it's actually more work for me, not less work.",
+  "zh": "所以实际上，对我来说这反而是更多的工作，而不是更少的工作。"
+ },
+ {
+  "seg": 124,
+  "start": 635.525,
+  "end": 640.308,
+  "speaker": "Unknown",
+  "en": "I need to build this agent, plus monitor that, and also do some manual work after.",
+  "zh": "我需要构建这个智能体，再加上监控它，之后还要做一些手动工作。"
+ },
+ {
+  "seg": 125,
+  "start": 641.389,
+  "end": 654.521,
+  "speaker": "Unknown",
+  "en": "But when you get to a point around 92% reliability, the message changes to your customer and what they think is, okay, 92% I can actually trust this, right, to handle my tasks.",
+  "zh": "但当你达到大约 92% 的可靠性时，传递给客户的信息就变了，他们会想：好，92% 的话我实际上可以信任它来处理我的任务了，对吧。"
+ },
+ {
+  "seg": 126,
+  "start": 655.001,
+  "end": 658.684,
+  "speaker": "Unknown",
+  "en": "And I completely hand over like a workflow to my customer.",
+  "zh": "然后我就完全把一个工作流交给它。"
+ },
+ {
+  "seg": 127,
+  "start": 659.365,
+  "end": 663.909,
+  "speaker": "Unknown",
+  "en": "So it's basically reliability is a zero to one, right?",
+  "zh": "所以基本上，可靠性是从零到一的，对吧？"
+ },
+ {
+  "seg": 128,
+  "start": 664.349,
+  "end": 666.271,
+  "speaker": "Unknown",
+  "en": "Or you trust or you don't.",
+  "zh": "要么你信任，要么你不信任。"
+ },
+ {
+  "seg": 129,
+  "start": 666.691,
+  "end": 668.473,
+  "speaker": "Unknown",
+  "en": "There is nothing like in the middle there.",
+  "zh": "没有什么中间地带。"
+ },
+ {
+  "seg": 130,
+  "start": 670.305,
+  "end": 673.23,
+  "speaker": "Unknown",
+  "en": "Second learning, it's the eval transparency.",
+  "zh": "第二条心得，是评估（eval）的透明度。"
+ },
+ {
+  "seg": 131,
+  "start": 673.891,
+  "end": 681.484,
+  "speaker": "Unknown",
+  "en": "So every time that you start working with a customer, you basically need to be transparent about three things that your product does.",
+  "zh": "所以每当你开始与一个客户合作时，你基本上需要在三件事上保持透明，关于你的产品所做的三件事。"
+ },
+ {
+  "seg": 132,
+  "start": 682.83,
+  "end": 685.032,
+  "speaker": "Unknown",
+  "en": "First thing is that's easy.",
+  "zh": "第一件事很简单。"
+ },
+ {
+  "seg": 133,
+  "start": 685.312,
+  "end": 686.473,
+  "speaker": "Unknown",
+  "en": "Everybody likes to do that.",
+  "zh": "人人都喜欢做这个。"
+ },
+ {
+  "seg": 134,
+  "start": 687.014,
+  "end": 688.475,
+  "speaker": "Unknown",
+  "en": "So what works?",
+  "zh": "那就是什么行之有效？"
+ },
+ {
+  "seg": 135,
+  "start": 689.116,
+  "end": 693.34,
+  "speaker": "Unknown",
+  "en": "So you basically show to your customer, I am really good doing this.",
+  "zh": "你基本上向你的客户展示：我做这件事非常出色。"
+ },
+ {
+  "seg": 136,
+  "start": 693.6,
+  "end": 695.482,
+  "speaker": "Unknown",
+  "en": "That's the level of reliability.",
+  "zh": "这就是可靠性的水平。"
+ },
+ {
+  "seg": 137,
+  "start": 695.502,
+  "end": 700.787,
+  "speaker": "Unknown",
+  "en": "You can trust my product to just use my agent, and it will give you the reliability that you need.",
+  "zh": "你可以信任我的产品，直接使用我的智能体，它会给你所需要的可靠性。"
+ },
+ {
+  "seg": 138,
+  "start": 701.982,
+  "end": 707.244,
+  "speaker": "Unknown",
+  "en": "Second point is these are the things that I'm doing to improve my product.",
+  "zh": "第二点是这些是我正在做的事情，用来改进我的产品。"
+ },
+ {
+  "seg": 139,
+  "start": 707.264,
+  "end": 713.086,
+  "speaker": "Unknown",
+  "en": "So there are some things that I know it's a gap, but I am investing time right now to make this better.",
+  "zh": "也就是说有一些东西我知道是缺口，但我现在正在投入时间把它变得更好。"
+ },
+ {
+  "seg": 140,
+  "start": 714.026,
+  "end": 716.147,
+  "speaker": "Unknown",
+  "en": "And the third thing, that's the tough one.",
+  "zh": "第三件事，这是最艰难的一件。"
+ },
+ {
+  "seg": 141,
+  "start": 716.367,
+  "end": 717.867,
+  "speaker": "Unknown",
+  "en": "Nobody wants to do that.",
+  "zh": "没有人想做这件事。"
+ },
+ {
+  "seg": 142,
+  "start": 718.427,
+  "end": 719.708,
+  "speaker": "Unknown",
+  "en": "It's what is out of scope.",
+  "zh": "那就是什么超出了范围（out of scope）。"
+ },
+ {
+  "seg": 143,
+  "start": 720.308,
+  "end": 722.469,
+  "speaker": "Unknown",
+  "en": "So you really need to be transparent.",
+  "zh": "所以你真的需要保持透明。"
+ },
+ {
+  "seg": 144,
+  "start": 722.669,
+  "end": 727.05,
+  "speaker": "Unknown",
+  "en": "If something doesn't work for your product, just go ahead and tell your customer.",
+  "zh": "如果某件事你的产品做不到，就直接告诉你的客户。"
+ },
+ {
+  "seg": 145,
+  "start": 727.59,
+  "end": 728.91,
+  "speaker": "Unknown",
+  "en": "Don't let them try.",
+  "zh": "不要让他们去尝试。"
+ },
+ {
+  "seg": 146,
+  "start": 729.35,
+  "end": 739.273,
+  "speaker": "Unknown",
+  "en": "Otherwise, there are so many tools in the market right now that if you show something for them that doesn't work, they will just forget about their product and they will move to the next.",
+  "zh": "否则，现在市场上有太多的工具，如果你向他们展示了某个行不通的东西，他们就会直接忘记你的产品，然后转向下一个。"
+ },
+ {
+  "seg": 147,
+  "start": 739.753,
+  "end": 740.833,
+  "speaker": "Unknown",
+  "en": "So be transparent.",
+  "zh": "所以要透明。"
+ },
+ {
+  "seg": 148,
+  "start": 742.135,
+  "end": 750.081,
+  "speaker": "Unknown",
+  "en": "And the main learning here is transparency on product limitation increase trust more than higher benchmarks.",
+  "zh": "这里的主要心得是：对产品局限性的透明，比更高的基准测试分数更能增加信任。"
+ },
+ {
+  "seg": 149,
+  "start": 750.922,
+  "end": 752.864,
+  "speaker": "Unknown",
+  "en": "That's a very interesting finding, right?",
+  "zh": "这是一个非常有趣的发现，对吧？"
+ },
+ {
+  "seg": 150,
+  "start": 753.024,
+  "end": 758.708,
+  "speaker": "Unknown",
+  "en": "Be transparent about what your product is capable of doing, and more important, what's not capable of.",
+  "zh": "对你的产品能做什么保持透明，更重要的是，它不能做什么。"
+ },
+ {
+  "seg": 151,
+  "start": 759.309,
+  "end": 760.87,
+  "speaker": "Unknown",
+  "en": "That's how you earn customer trust.",
+  "zh": "这就是你赢得客户信任的方式。"
+ },
+ {
+  "seg": 152,
+  "start": 763.22,
+  "end": 771.144,
+  "speaker": "Unknown",
+  "en": "Third learning is if you work very close with customers, you might find a lot of use cases that you would never expected.",
+  "zh": "第三个经验是，如果你与客户非常紧密地合作，你可能会发现很多你从未预料到的用例。"
+ },
+ {
+  "seg": 153,
+  "start": 771.885,
+  "end": 774.706,
+  "speaker": "Unknown",
+  "en": "So some examples here is Amazon Leo.",
+  "zh": "这里的一些例子是 Amazon Leo。"
+ },
+ {
+  "seg": 154,
+  "start": 774.966,
+  "end": 777.888,
+  "speaker": "Unknown",
+  "en": "It's the internet satellite company from Amazon.",
+  "zh": "它是亚马逊旗下的互联网卫星公司。"
+ },
+ {
+  "seg": 155,
+  "start": 778.308,
+  "end": 785.091,
+  "speaker": "Unknown",
+  "en": "Working with them, we actually learned some inputs about creating features to do caching of trajectories.",
+  "zh": "与他们合作时，我们实际上获得了一些关于创建轨迹缓存功能的输入。"
+ },
+ {
+  "seg": 156,
+  "start": 785.272,
+  "end": 791.475,
+  "speaker": "Unknown",
+  "en": "So instead of doing inference all the time that they use our product, we cache trajectories if it fail.",
+  "zh": "因此，当他们使用我们的产品时，不用一直做推理，如果失败我们就缓存轨迹。"
+ },
+ {
+  "seg": 157,
+  "start": 791.875,
+  "end": 795.057,
+  "speaker": "Unknown",
+  "en": "We just fall back to the models, so we optimize the cost for them.",
+  "zh": "我们就回退到模型，这样我们为他们优化了成本。"
+ },
+ {
+  "seg": 158,
+  "start": 795.998,
+  "end": 800.381,
+  "speaker": "Unknown",
+  "en": "Second learning is with Hertz, the car rental company.",
+  "zh": "第二个经验是来自 Hertz，那家租车公司。"
+ },
+ {
+  "seg": 159,
+  "start": 800.961,
+  "end": 804.543,
+  "speaker": "Unknown",
+  "en": "So they were also using our product for QA automation.",
+  "zh": "他们也在使用我们的产品做 QA 自动化。"
+ },
+ {
+  "seg": 160,
+  "start": 805.104,
+  "end": 813.89,
+  "speaker": "Unknown",
+  "en": "And we learned that as part of their company, they had some QA engineers that were very technical and were capable of building like",
+  "zh": "我们了解到，作为他们公司的一部分，他们有一些非常技术化的 QA 工程师，能够用"
+ },
+ {
+  "seg": 161,
+  "start": 814.73,
+  "end": 817.412,
+  "speaker": "Unknown",
+  "en": "Scripts with Python and other coding languages.",
+  "zh": "Python 和其他编程语言编写脚本。"
+ },
+ {
+  "seg": 162,
+  "start": 817.733,
+  "end": 822.176,
+  "speaker": "Unknown",
+  "en": "However, some people from QA, they are not that technical.",
+  "zh": "然而，QA 中的一些人没有那么技术化。"
+ },
+ {
+  "seg": 163,
+  "start": 822.737,
+  "end": 832.525,
+  "speaker": "Unknown",
+  "en": "So that was the input that we needed to actually build a whole non-technical experience for our products that would enable more customers to use it.",
+  "zh": "这正是我们需要的输入，让我们为产品构建了一整套非技术化的体验，使更多客户能够使用它。"
+ },
+ {
+  "seg": 164,
+  "start": 833.823,
+  "end": 836.885,
+  "speaker": "Unknown",
+  "en": "Last one, this is a startup called Sola.",
+  "zh": "最后一个，这是一家叫做 Sola 的初创公司。"
+ },
+ {
+  "seg": 165,
+  "start": 837.645,
+  "end": 840.467,
+  "speaker": "Unknown",
+  "en": "Sola is basically a RPA company.",
+  "zh": "Sola 基本上是一家 RPA 公司。"
+ },
+ {
+  "seg": 166,
+  "start": 840.827,
+  "end": 845.49,
+  "speaker": "Unknown",
+  "en": "If you are not familiar with the term, RPA is Repetitive Process Automation.",
+  "zh": "如果你不熟悉这个术语，RPA 是重复流程自动化。"
+ },
+ {
+  "seg": 167,
+  "start": 846.211,
+  "end": 849.933,
+  "speaker": "Unknown",
+  "en": "And they offer tools to automate process for other companies.",
+  "zh": "他们为其他公司提供自动化流程的工具。"
+ },
+ {
+  "seg": 168,
+  "start": 850.373,
+  "end": 853.736,
+  "speaker": "Unknown",
+  "en": "So imagine the variety of use cases that they might have.",
+  "zh": "想象一下他们可能拥有的各种各样的用例。"
+ },
+ {
+  "seg": 169,
+  "start": 853.796,
+  "end": 855.717,
+  "speaker": "Unknown",
+  "en": "It's a lot of different use cases.",
+  "zh": "有很多不同的用例。"
+ },
+ {
+  "seg": 170,
+  "start": 856.317,
+  "end": 866.582,
+  "speaker": "Unknown",
+  "en": "And what we learned from them is we could give some additional flexibility in our product for them to customize, especially the actuation stack of our tool.",
+  "zh": "我们从他们身上学到的是，我们可以在产品中提供一些额外的灵活性供他们定制，尤其是我们工具的执行层。"
+ },
+ {
+  "seg": 171,
+  "start": 867.902,
+  "end": 876.826,
+  "speaker": "Unknown",
+  "en": "The learnings here are less important than keeping in mind that you will learn a lot about what your customers are trying to do here, right?",
+  "zh": "这里的经验本身没那么重要，重要的是记住，你会从中学到很多关于你的客户想要做什么的东西，对吧？"
+ },
+ {
+  "seg": 172,
+  "start": 877.306,
+  "end": 880.608,
+  "speaker": "Unknown",
+  "en": "And what should be the next features you should build for your product.",
+  "zh": "以及你应该为产品构建的下一个功能是什么。"
+ },
+ {
+  "seg": 173,
+  "start": 882.451,
+  "end": 889.755,
+  "speaker": "Unknown",
+  "en": "And then, running this flywheel several times, we came up with four principles for this flywheel.",
+  "zh": "然后，把这个飞轮运转了几次之后，我们为这个飞轮总结出了四个原则。"
+ },
+ {
+  "seg": 174,
+  "start": 891.016,
+  "end": 896.899,
+  "speaker": "Unknown",
+  "en": "First one is derive eval scenarios from production, not imagination.",
+  "zh": "第一个是从生产环境中推导评测场景，而不是凭想象。"
+ },
+ {
+  "seg": 175,
+  "start": 897.379,
+  "end": 907.305,
+  "speaker": "Unknown",
+  "en": "So again, creating synthetic data might be very important at the beginning of the process, but as soon as you start getting customer signals, make sure that feeds your eval.",
+  "zh": "再说一次，创建合成数据在流程初期可能非常重要，但一旦你开始获得客户信号，一定要让这些信号反馈到你的评测中。"
+ },
+ {
+  "seg": 176,
+  "start": 908.867,
+  "end": 912.689,
+  "speaker": "Unknown",
+  "en": "Second, categorize into actionable areas.",
+  "zh": "第二，归类到可行动的领域。"
+ },
+ {
+  "seg": 177,
+  "start": 912.969,
+  "end": 917.272,
+  "speaker": "Unknown",
+  "en": "Again, product issues, engineering issues, research issues.",
+  "zh": "再说一次，产品问题、工程问题、研究问题。"
+ },
+ {
+  "seg": 178,
+  "start": 917.672,
+  "end": 920.113,
+  "speaker": "Unknown",
+  "en": "Make sure you prioritize that well to your team.",
+  "zh": "确保你为团队排好优先级。"
+ },
+ {
+  "seg": 179,
+  "start": 921.014,
+  "end": 924.075,
+  "speaker": "Unknown",
+  "en": "Third one, shared capabilities honestly.",
+  "zh": "第三个，诚实地分享能力。"
+ },
+ {
+  "seg": 180,
+  "start": 924.316,
+  "end": 926.697,
+  "speaker": "Unknown",
+  "en": "Again, transparency builds trust.",
+  "zh": "再说一次，透明建立信任。"
+ },
+ {
+  "seg": 181,
+  "start": 927.197,
+  "end": 932.12,
+  "speaker": "Unknown",
+  "en": "Make sure you share to your customer, especially what your product is not good at.",
+  "zh": "确保你向客户分享，尤其是你的产品不擅长什么。"
+ },
+ {
+  "seg": 182,
+  "start": 933.761,
+  "end": 937.283,
+  "speaker": "Unknown",
+  "en": "Third one is run the flywheel as fast as you can.",
+  "zh": "第三个是尽可能快地运转这个飞轮。"
+ },
+ {
+  "seg": 183,
+  "start": 938.35,
+  "end": 946.098,
+  "speaker": "Unknown",
+  "en": "So here, it's basically the faster you run that flywheel, faster your product will improve, right?",
+  "zh": "这里基本上就是，你运转那个飞轮越快，你的产品改进就越快，对吧？"
+ },
+ {
+  "seg": 184,
+  "start": 946.138,
+  "end": 947.92,
+  "speaker": "Unknown",
+  "en": "That's almost obvious, right?",
+  "zh": "这几乎是显而易见的，对吧？"
+ },
+ {
+  "seg": 185,
+  "start": 947.96,
+  "end": 948.961,
+  "speaker": "Unknown",
+  "en": "But keep that in mind.",
+  "zh": "但要记住这一点。"
+ },
+ {
+  "seg": 186,
+  "start": 949.041,
+  "end": 951.043,
+  "speaker": "Unknown",
+  "en": "Like, run your flywheel as fast as you can.",
+  "zh": "就是，尽可能快地运转你的飞轮。"
+ },
+ {
+  "seg": 187,
+  "start": 952.264,
+  "end": 956.148,
+  "speaker": "Unknown",
+  "en": "And then, like, with those four principles, what you will see is",
+  "zh": "然后，有了这四个原则，你将会看到的是"
+ },
+ {
+  "seg": 188,
+  "start": 959.05,
+  "end": 962.952,
+  "speaker": "Unknown",
+  "en": "Your evals should get smarter every week.",
+  "zh": "你的评测应该每周都变得更聪明。"
+ },
+ {
+  "seg": 189,
+  "start": 963.812,
+  "end": 971.355,
+  "speaker": "Unknown",
+  "en": "But very important, if you are not seeing your evals getting smarter every week, that means your evals are getting stale.",
+  "zh": "但非常重要的是，如果你没有看到你的评测每周变得更聪明，那就意味着你的评测正在变得陈旧。"
+ },
+ {
+  "seg": 190,
+  "start": 973.816,
+  "end": 978.318,
+  "speaker": "Unknown",
+  "en": "And just to finalize the talk here, there are two ideas that I want you guys to take home.",
+  "zh": "在这次演讲的最后，有两个想法我希望大家带回家。"
+ },
+ {
+  "seg": 191,
+  "start": 978.458,
+  "end": 978.738,
+  "speaker": "Unknown",
+  "en": "Just two.",
+  "zh": "就两个。"
+ },
+ {
+  "seg": 192,
+  "start": 980.225,
+  "end": 987.968,
+  "speaker": "Unknown",
+  "en": "So first idea is eval must reflect what customer cares about, not what you think they care about.",
+  "zh": "第一个想法是，评测必须反映客户关心的东西，而不是你认为他们关心的东西。"
+ },
+ {
+  "seg": 193,
+  "start": 989.349,
+  "end": 995.712,
+  "speaker": "Unknown",
+  "en": "All about getting customer input here and make sure your eval reflects what's their problem.",
+  "zh": "一切都是为了获取客户的输入，并确保你的评测反映了他们的问题。"
+ },
+ {
+  "seg": 194,
+  "start": 997.013,
+  "end": 1000.614,
+  "speaker": "Unknown",
+  "en": "Second is evals are not built once.",
+  "zh": "第二个是，评测不是一次建成的。"
+ },
+ {
+  "seg": 195,
+  "start": 1000.954,
+  "end": 1004.476,
+  "speaker": "Unknown",
+  "en": "It's a flywheel that evolves as your customer evolves.",
+  "zh": "它是一个随着你的客户演进而演进的飞轮。"
+ },
+ {
+  "seg": 196,
+  "start": 1005.981,
+  "end": 1006.721,
+  "speaker": "Unknown",
+  "en": "One note here.",
+  "zh": "这里补充一点。"
+ },
+ {
+  "seg": 197,
+  "start": 1007.362,
+  "end": 1009.002,
+  "speaker": "Unknown",
+  "en": "Remember that customer journey?",
+  "zh": "还记得那个客户旅程吗？"
+ },
+ {
+  "seg": 198,
+  "start": 1010.042,
+  "end": 1017.645,
+  "speaker": "Unknown",
+  "en": "As your customer moves through that customer journey, what they are trying to do with your product will also change.",
+  "zh": "随着你的客户在客户旅程中前进，他们想用你的产品做的事情也会改变。"
+ },
+ {
+  "seg": 199,
+  "start": 1017.865,
+  "end": 1019.766,
+  "speaker": "Unknown",
+  "en": "It will get more complex, right?",
+  "zh": "它会变得更复杂，对吧？"
+ },
+ {
+  "seg": 200,
+  "start": 1019.866,
+  "end": 1026.188,
+  "speaker": "Unknown",
+  "en": "So your evals needs to be up to date and reflecting exactly what your customer is trying to do right now.",
+  "zh": "所以你的 evals 需要保持最新，并且准确反映你的客户现在正在尝试做的事情。"
+ },
+ {
+  "seg": 201,
+  "start": 1027.944,
+  "end": 1035.549,
+  "speaker": "Unknown",
+  "en": "And with that, what you have to do is simply build the loop, ship evals that matter, and then you earn your customer trust.",
+  "zh": "有了这个，你要做的就是简单地构建这个闭环，发布重要的 evals，然后你就能赢得客户的信任。"
+ },
+ {
+  "seg": 202,
+  "start": 1036.75,
+  "end": 1038.892,
+  "speaker": "Unknown",
+  "en": "And that's all that I have for today.",
+  "zh": "这就是我今天要讲的全部内容。"
+ },
+ {
+  "seg": 203,
+  "start": 1038.992,
+  "end": 1040.513,
+  "speaker": "Unknown",
+  "en": "Thanks very much for joining.",
+  "zh": "非常感谢大家的参与。"
+ },
+ {
+  "seg": 204,
+  "start": 1041.133,
+  "end": 1044.296,
+  "speaker": "Unknown",
+  "en": "I will stay in our booth after for more discussions.",
+  "zh": "之后我会留在我们的展位，欢迎来进一步交流。"
+ },
+ {
+  "seg": 205,
+  "start": 1044.416,
+  "end": 1045.997,
+  "speaker": "Unknown",
+  "en": "But again, enjoy the conference.",
+  "zh": "再次祝大家享受这次大会。"
+ },
+ {
+  "seg": 206,
+  "start": 1054.171,
+  "end": 1054.933,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

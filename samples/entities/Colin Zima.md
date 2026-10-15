@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
+[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":23,"Databricks":24,"Google":72,"BI":1,"数据模型":1,"语义层":5,"创新者的窘境":4,"产品市场契合":31}</script>
+<script type="application/json" class="pd-epn">{"Omni":1,"Looker":1,"Snowflake":23,"Databricks":24,"Google":72,"BI":1,"数据模型":1,"语义层":6,"创新者的窘境":4,"产品市场契合":32}</script>
 
 <script>
 (function(){

@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cloudflare":17,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":95,"可观测性":46,"LLM":64}</script>
+<script type="application/json" class="pd-epn">{"Cloudflare":17,"Salesforce":36,"Cloudflare OS":1,"技能文件":4,"智能体":1,"多智能体工作流":2,"go-to-market":14,"MCP":95,"可观测性":46,"LLM":65}</script>
 
 <script>
 (function(){

@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":87,"智能体":1,"云端智能体":2,"重构":1,"计划模式":5,"MCP":95,"PR":6,"测试覆盖率":1,"自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Regan":1,"Cursor":87,"智能体":1,"云端智能体":2,"重构":1,"计划模式":5,"MCP":95,"PR":6,"测试覆盖率":2,"自动化":1}</script>
 
 <script>
 (function(){

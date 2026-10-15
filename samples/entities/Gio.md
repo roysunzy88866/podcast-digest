@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Adam":2,"AppLovin":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":32,"AI":34,"品味":15,"ChatGPT":112}</script>
+<script type="application/json" class="pd-epn">{"Adam":2,"AppLovin":1,"Axon 2":1,"推荐系统":1,"语义嵌入":1,"深度神经网络":1,"GPU":33,"AI":34,"品味":15,"ChatGPT":112}</script>
 
 <script>
 (function(){

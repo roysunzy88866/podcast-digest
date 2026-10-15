@@ -195,8 +195,8 @@ Dario 提醒，智能体时代[[认知负荷|认知负荷]]没有上限了——
 **顺着「AI 编程」挖下去**
 
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同概念:拉取请求 (pull request)、智能体 (agent)、沙箱 (sandbox)</span>
+- [[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法]]<span class="pd-rz">同概念:拉取请求 (pull request)、智能体 (agent)</span>
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同公司:GitHub · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
-- [[2026-08-09-talks-multiplayer-agentic-engineering-arjun-si|让非工程师也能下指令：Superconductor 的多人智能体协作法]]<span class="pd-rz">同公司:Cursor · 同概念:智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

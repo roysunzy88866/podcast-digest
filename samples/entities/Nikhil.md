@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Young":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":20,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":100}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Connor":1,"Crusoe":2,"Slurm":1,"Kubernetes":20,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":101}</script>
 
 <script>
 (function(){

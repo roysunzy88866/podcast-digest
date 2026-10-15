@@ -26,7 +26,7 @@ aliases: ["dflash", "DFlash"]
 
 [[Swyx]] · [[Akshat Bubna]] · [[Vibhu]] · [[Modal]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]]
 
-<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Vibhu":1,"Modal":8,"智能体":1,"AX":1,"DX":4,"沙箱":99,"推理":100,"弹性推理":1}</script>
+<script type="application/json" class="pd-epn">{"Swyx":2,"Akshat Bubna":1,"Vibhu":1,"Modal":8,"智能体":1,"AX":1,"DX":4,"沙箱":100,"推理":101,"弹性推理":1}</script>
 
 <script>
 (function(){

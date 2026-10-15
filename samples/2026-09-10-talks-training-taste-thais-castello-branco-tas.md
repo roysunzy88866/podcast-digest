@@ -135,8 +135,8 @@ Brand API 的做法是：输入一个品牌 URL，把它提取成非常具体的
 **顺着「产品方法」挖下去**
 
 - [[2025-09-25-lennys-why-ai-evals-are-the-hottest-new-skill|做 evals 不是写单元测试，是从看数据开始的错误分析]]<span class="pd-rz">同概念:LLM-as-a-judge、智能体 (agent)</span>
+- [[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|Deel产品负责人：AI干了600个人的活，多赚1.4亿美元]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
 - [[2026-02-08-lennys-getting-paid-to-vibe-code|不会写代码的人如何成为全职 vibe coder]]<span class="pd-rz">同概念:智能体 (agent)、判断力 (judgment)</span>
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]]<span class="pd-rz">同概念:判断力 (judgment)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

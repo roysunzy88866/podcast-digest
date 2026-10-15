@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Oracle</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Oracle">OR</div><div class="pi"><h1 class="pt">Oracle</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -23,6 +23,7 @@ unlisted: true
 - **[[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]]**(47:30起):本集称它是 ClusterMax 第二梯队里服务质量顶尖的新云，但因与 OpenAI 的固定利润率长期合同、大量债务和新墨西哥数据中心管道延误执行问题，出现『好云、坏股票』的割裂。
 - **[[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]]**(13:31起):本集的总结性判据：只要有一个能告诉 LLM 它做的事是对是错的 oracle（如海量测试、模拟器、fuzz），模型最终都能搞定；逆向工程、代码移植都是这类任务。
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(22:43起):本集说 Oracle 支持 SQL 2023 的属性图查询、是该扩展的大力推动者;其商业库行存列存各存一份,称为 Fractured Mirror 方法
+- **[[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]]**(00:14起):本集嘉宾 Anders Swanson 是 Oracle AI Database 的开发者布道师，代表这家数据库厂商分享做智能体记忆的经验，并提供了基于数据库原语的 Python SDK 与 GitHub 示例。
 
 ## ① 提到它的金句
 
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*12 集*
+*13 集*
 
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-16-mad-openais-compute-chief-we-cant-build-fast|《OpenAI 工业算力负责人：把电子变成 token 的巨兽工厂》]] — 作为被讨论公司
@@ -48,14 +49,15 @@ unlisted: true
 - [[2026-10-07-bigtech-can-ai-keep-growing-exponentially-let-s|《AI基建狂潮比你想的更大，而且还没到头》]] — 作为被讨论公司
 - [[2026-10-07-talks-pi-durable-agents-that-survive-crashes-m|《智能体崩溃后还能原地复活？聊聊 Pi Durable》]] — 作为概念
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
+- [[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[MCP]] · [[Google]] · [[Codex]] · [[资本支出]] · [[Claude]] · [[NVIDIA]] · [[RAG]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Codex]] · [[Google]] · [[护栏]] · [[MCP]] · [[Meta]] · [[资本支出]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"MCP":95,"Google":72,"Codex":89,"资本支出":7,"Claude":97,"NVIDIA":71,"RAG":29}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"Codex":90,"Google":72,"护栏":91,"MCP":95,"Meta":55,"资本支出":7,"Claude":97}</script>
 
 <script>
 (function(){

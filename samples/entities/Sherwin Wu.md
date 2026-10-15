@@ -41,17 +41,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[智能体]] · [[vibe coding]] · [[脚手架]] · [[业务流程自动化]] · [[多模态]]
+[[Lenny]] · [[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[Sentry]] · [[智能体]] · [[vibe coding]] · [[脚手架]] · [[业务流程自动化]]
 
 ## ④ 也在聊「AI 编程」的人
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Codex":89,"OpenAI":203,"ChatGPT":112,"Cursor":87,"智能体":1,"vibe coding":51,"脚手架":2,"业务流程自动化":1,"多模态":6}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Codex":90,"OpenAI":203,"ChatGPT":112,"Cursor":87,"Sentry":6,"智能体":1,"vibe coding":51,"脚手架":1,"业务流程自动化":1}</script>
 
 <script>
 (function(){

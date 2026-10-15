@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"任务视界":1,"Managed Agents":7,"harness":65,"沙箱":99,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"任务视界":1,"Managed Agents":7,"harness":65,"沙箱":100,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

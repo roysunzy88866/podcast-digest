@@ -1,0 +1,227 @@
+{
+  "title_zh": "让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法",
+  "tldr": "资深工程师 Carlos Kelpbaum 做客 Beyond Coding，讲他如何给 AI 编程助手搭脚手架、定边界，以及他对协作消失的担忧。",
+  "digest_md": "AI 编程助手人人都在用，但用得好和用得差，差距正在拉开。Carlos Kelpbaum 是一位写过 5 个编译器的资深工程师，也是主播口中「我认识的最优秀的工程师之一」。这期 Beyond Coding 播客里，他把自己的智能体工作法全盘托出：核心不是让 AI 更快地写代码，而是人在动手之前，先想清楚结构。\n\n## 为什么他觉得协作正在消失？\n\nCarlos 观察到一个危险的趋势：开发正在变得越来越个人化。以前大家靠代码评审、拉取请求互相评论来协作，现在「你和你的智能体一起工作，但不再和团队一起工作」[02:25 Unknown]。有人甚至说拉取请求可能会消失。\n\n主播承认自己也变了：以前觉得开始最难，现在开始变得前所未有地容易。他月底看着账户里的额度，睡前都会想还能做点什么，于是做了很多小游戏，甚至做了个能帮别人生成游戏的工具——但都不收尾、不打磨、不成产品。\n\nCarlos 说这不是新问题，他写过 5 个编译器，真正完成的只有 1 个。关键在于动笔前想清楚意图：如果只是为了玩，目的已经达到了；如果要做产品，就得把它做完。\n\n## 脚手架：他的核心方法\n\nCarlos 用智能体写代码时，仍然亲自创建目录结构和文件，在文件里写注释，甚至写好类名、函数签名。这个准备过程可能花 20 分钟到 1 小时，他管它叫脚手架。\n\n为什么？因为智能体擅长一条路蛮干出解决方案，但忘了它和整个应用怎么配合。放任不管，你会得到重复代码、内聚性问题和巨型对象。他试过完全放手让智能体硬来，结果做了一两个月应用后，「**打开文件，你已经认不出自己的应用了**」[15:48 Unknown]。\n\n一个具体例子：他用一个月做一个编译器，最后让智能体自查，发现列表功能被实现了 5 遍。\n\n## 主智能体为什么不许碰代码？\n\nCarlos 的设置里，他直接对话的那个智能体永远不能改文件、不能动机器。它的唯一职责是和他聊，教他或者被他教，聊过的内容存进一张分布式知识网络，下次会话还能取出来。真正干活的是它派出的子智能体。\n\n这个规矩来自一次顿悟。他曾在项目里问智能体对 John Cleese 谈创造力的演讲有什么看法，对方反问：「要不要我把这个实现到你的项目里？」他突然意识到，这个东西满脑子只有「我现在能不能帮你写代码」[63:46 Unknown]。从那以后他禁止它这么干。\n\n开工也有门槛：他用一个本地运行的小模型给智能体的理解程度打分，只有置信度超过 90%,才允许派子智能体去执行。\n\n## 一次做多大？越大越好\n\n和直觉相反，Carlos 的任务颗粒度能多大就多大。原因是智能体「**不擅长做修改，擅长一次做完**」[65:07 Unknown]——它们像是按一次性任务训练的，而不是按迭代开发训练的。\n\n所以他把所有期望都在开工前敲定，然后放手让子智能体跑 12 个小时都无所谓。但审查很严：跑一两个小时他就暂停，打开工作树看一眼，不对劲就整个推倒重来。「看不懂的代码，我就扔掉」[67:00 Unknown]——因为他知道，看不懂就意味着它没按脚手架来，合并进去迟早会出问题。\n\n## 用社交网络的思路管理上下文\n\n智能体的上下文窗口不能太大，否则会幻觉、又贵。Carlos 的解法是把它当成社交网络来设计：先找到信息节点，给每个节点配一条元数据（一行摘要、一个提交哈希、一个文件夹路径），再按相关性排序，必要时让人确认，然后一层层往深挖。\n\n他还有个技巧：先让智能体看提交的差异，再看完整代码，算是热身。这套东西用 Markdown 文件存节点和边，配合向量搜索加关键词搜索，刻意不放进图数据库，保持分布式。\n\n## 他担心的事：一代人只会用工具，不会做工程\n\n聊到行业前景，Carlos 明显忧虑。学校里软件工程的人数在下降，公司不再培养新人，评审流程也被 AI 淡化了。「**我们在训练一代人使用工具，却没教他们怎么做**」[51:56 Unknown]。如果哪天推理变得太贵、或者 AI 出了问题，一切都会塌掉。\n\n他把 AI 分成三层看：AlphaFold、机器人这类突破是真正的魔法；大语言模型极其好用但也极其浪费、耗能，像泡沫；而权力集中到几家科技巨头手里，「AI 一直被宣传成伟大的均衡器，我没看到它在均衡什么」[54:20 Unknown]。\n\n他的解法偏建设性：回归学习基本面。他自己就买过机器学习的书、亲手搭过神经网络，明白规模为什么重要。有了底层理解，休假两周回来也不会觉得错过了什么。\n\n## 本集带走\n\n- 让智能体写代码前，先花 20 分钟到 1 小时亲手搭脚手架：目录结构、文件、注释、函数签名，能极大改善产出质量。\n- 智能体擅长一次性完成大任务，不擅长后续修改——所以期望要在开工前敲定，任务颗粒度反而要大。\n- 看不懂的代码直接扔掉重来，别合并进主库；审查的第一步只问这符合我的预期吗。\n- 警惕协作退化：和智能体的交流替代不了和人的交流，代码是便宜了，但学习和评审不能省。\n- 把非确定性的大模型尽量推向确定性输出——用脚本、用结构、用规则驯服它。",
+  "quotes": [
+    {
+      "en": "You work together with your agents, but you don't work together with your team anymore.",
+      "zh": "你和你的智能体一起工作，但你不再和你的团队一起工作了。",
+      "timestamp": "02:25",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "I've heard people say, ask your agent first before asking me, which is, it's kind of funny in a very horrible way.",
+      "zh": "我听过有人说，先问你的智能体，再来问我，这话说起来挺搞笑的，但也很可怕。",
+      "timestamp": "09:00",
+      "speaker": "SPEAKER_03"
+    },
+    {
+      "en": "But agents tend to want to give you the answer you want to hear.",
+      "zh": "但智能体倾向于给你想听的答案。",
+      "timestamp": "09:38",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "And I think the people who have learned it and are now using agents will have an edge over people who have not learned it and are just using agents.",
+      "zh": "而且我认为那些先学会了、现在又在用智能体的人，会比那些没学过就直接用智能体的人更有优势。",
+      "timestamp": "12:51",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "Because what I've noticed and learned is that agents are really good at brute forcing a solution one way, but they forget how it fits into the rest of the application.",
+      "zh": "因为我注意到并学到的是，智能体非常擅长用蛮力以一种方式硬凑出一个解决方案，但它们会忘记这如何融入应用的其余部分。",
+      "timestamp": "14:30",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "Because I've learned over the years that you need to resist that early dopamine hit of getting something immediately.",
+      "zh": "因为这些年我学到，你需要抵抗那种立刻得到东西的早期多巴胺冲击。",
+      "timestamp": "19:21",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "I think we are at the brink of needing a new programming language.",
+      "zh": "我认为我们正处于需要一门新编程语言的边缘。",
+      "timestamp": "23:01",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "I think the heap just needs to go completely. We don't need pointers. We don't need dynamic memory.",
+      "zh": "我认为堆就是需要彻底消失。我们不需要指针。我们不需要动态内存。",
+      "timestamp": "23:21",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "Code is cheap. So iterate fast, throw away often, and just redo.",
+      "zh": "代码很廉价。所以快速迭代，经常扔掉，直接重做。",
+      "timestamp": "43:52",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "So we're not training our juniors anymore because we're just giving them agents.",
+      "zh": "所以我们不再训练我们的初级工程师了，因为我们只是给他们智能体。",
+      "timestamp": "51:22",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "And the only thought in my mind is that means we are training a generation to use a tool, but not use how to, and not teach them how to do it.",
+      "zh": "而我脑中唯一的想法是，这意味着我们在训练一代人去使用一个工具，但没有教他们怎么用、如何去做。",
+      "timestamp": "51:44",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "AI has always been sold as a great equalizer, and I don't see it equalizing yet.",
+      "zh": "AI 一直被宣传为一个伟大的平衡器，但我还没看到它在实现平衡。",
+      "timestamp": "54:18",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "Because agents I found are bad at making changes and are good at doing it one shot.",
+      "zh": "因为我发现智能体不擅长做修改，而擅长一次性完成。",
+      "timestamp": "65:07",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "It will bite me later if I just merge it into my code.",
+      "zh": "如果我直接把它合并进我的代码，以后它会反咬我一口。",
+      "timestamp": "67:41",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "And if a large amount of code is the reason why, then why don't we write less code?",
+      "zh": "如果大量代码是理由，那我们为什么不写更少的代码呢？",
+      "timestamp": "72:06",
+      "speaker": "Carlos Kelpbaum"
+    },
+    {
+      "en": "And one of the things that people tend to forget is that a unit test is very fakeable.",
+      "zh": "人们往往忘记的一件事是，单元测试是很容易造假的。",
+      "timestamp": "74:50",
+      "speaker": "Carlos Kelpbaum"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:25",
+      "speaker": "Unknown",
+      "en": "You work together with your agents, but you don't work together with your team anymore.",
+      "zh": "你和你的智能体一起工作，但你不再和你的团队一起工作了。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Unknown",
+      "en": "Or at least that's the trend I'm seeing, and I think it's a dangerous trend.",
+      "zh": "或者至少那是我看到的趋势，我认为这是一个危险的趋势。"
+    },
+    {
+      "timestamp": "09:00",
+      "speaker": "Unknown",
+      "en": "I've heard people say, ask your agent first before asking me, which is, it's kind of funny in a very horrible way.",
+      "zh": "我听过有人说，先问你的智能体，再来问我，这话说起来挺搞笑的，但也很可怕。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Unknown",
+      "en": "But agents tend to want to give you the answer you want to hear.",
+      "zh": "但智能体倾向于给你想听的答案。"
+    },
+    {
+      "timestamp": "12:51",
+      "speaker": "Unknown",
+      "en": "And I think the people who have learned it and are now using agents will have an edge over people who have not learned it and are just using agents.",
+      "zh": "而且我认为那些先学会了、现在又在用智能体的人，会比那些没学过就直接用智能体的人更有优势。"
+    },
+    {
+      "timestamp": "14:30",
+      "speaker": "Unknown",
+      "en": "Because what I've noticed and learned is that agents are really good at brute forcing a solution one way, but they forget how it fits into the rest of the application.",
+      "zh": "因为我注意到并学到的是，智能体非常擅长用蛮力以一种方式硬凑出一个解决方案，但它们会忘记这如何融入应用的其余部分。"
+    },
+    {
+      "timestamp": "16:12",
+      "speaker": "Unknown",
+      "en": "And so I scaffold that manually. Skipping that part and being very explicit in what you want your agent to do is I think a skill that will make a 10x agentic engineer, a 100x agentic engineer, being very intentional.",
+      "zh": "所以我手动搭脚手架。跳过那些坑，并且在你要智能体做什么这件事上非常明确，我认为这就是能让一个 10x 智能体工程师变成 100x 智能体工程师的技能——非常有意图性。"
+    },
+    {
+      "timestamp": "19:21",
+      "speaker": "Unknown",
+      "en": "Because I've learned over the years that you need to resist that early dopamine hit of getting something immediately.",
+      "zh": "因为这些年我学到，你需要抵抗那种立刻得到东西的早期多巴胺冲击。"
+    },
+    {
+      "timestamp": "20:50",
+      "speaker": "Unknown",
+      "en": "And he said it was implemented five times.",
+      "zh": "他说这个东西被实现了五次。"
+    },
+    {
+      "timestamp": "23:01",
+      "speaker": "Unknown",
+      "en": "I think we are at the brink of needing a new programming language.",
+      "zh": "我认为我们正处于需要一门新编程语言的边缘。"
+    },
+    {
+      "timestamp": "23:21",
+      "speaker": "Unknown",
+      "en": "I think the heap just needs to go completely. We don't need pointers. We don't need dynamic memory.",
+      "zh": "我认为堆就是需要彻底消失。我们不需要指针。我们不需要动态内存。"
+    },
+    {
+      "timestamp": "43:52",
+      "speaker": "Unknown",
+      "en": "Code is cheap. So iterate fast, throw away often, and just redo.",
+      "zh": "代码很廉价。所以快速迭代，经常扔掉，直接重做。"
+    },
+    {
+      "timestamp": "51:22",
+      "speaker": "Unknown",
+      "en": "So we're not training our juniors anymore because we're just giving them agents.",
+      "zh": "所以我们不再训练我们的初级工程师了，因为我们只是给他们智能体。"
+    },
+    {
+      "timestamp": "51:44",
+      "speaker": "Unknown",
+      "en": "And the only thought in my mind is that means we are training a generation to use a tool, but not use how to, and not teach them how to do it.",
+      "zh": "而我脑中唯一的想法是，这意味着我们在训练一代人去使用一个工具，但没有教他们怎么用、如何去做。"
+    },
+    {
+      "timestamp": "52:54",
+      "speaker": "Unknown",
+      "en": "If I'm being honest, I see three things happening.",
+      "zh": "如果我诚实地说，我看到三件事在发生。"
+    },
+    {
+      "timestamp": "54:18",
+      "speaker": "Unknown",
+      "en": "AI has always been sold as a great equalizer, and I don't see it equalizing yet.",
+      "zh": "AI 一直被宣传为一个伟大的平衡器，但我还没看到它在实现平衡。"
+    },
+    {
+      "timestamp": "65:07",
+      "speaker": "Unknown",
+      "en": "Because agents I found are bad at making changes and are good at doing it one shot.",
+      "zh": "因为我发现智能体不擅长做修改，而擅长一次性完成。"
+    },
+    {
+      "timestamp": "67:41",
+      "speaker": "Unknown",
+      "en": "It will bite me later if I just merge it into my code.",
+      "zh": "如果我直接把它合并进我的代码，以后它会反咬我一口。"
+    },
+    {
+      "timestamp": "72:06",
+      "speaker": "Unknown",
+      "en": "And if a large amount of code is the reason why, then why don't we write less code?",
+      "zh": "如果大量代码是理由，那我们为什么不写更少的代码呢？"
+    },
+    {
+      "timestamp": "74:50",
+      "speaker": "Unknown",
+      "en": "And one of the things that people tend to forget is that a unit test is very fakeable.",
+      "zh": "人们往往忘记的一件事是，单元测试是很容易造假的。"
+    }
+  ],
+  "voice_script": "今天聊一个离你很近的话题：AI 写代码。现在几乎人人都在用 AI 编程助手，但用得好和用得差，差距正在快速拉开。有人拿它做玩具，有人拿它做出真正的工程。差距从哪来？这期 Beyond Coding 播客给出的答案可能跟你直觉相反——关键不在 AI 写得快不快，而在人动手之前，有没有先把架子搭好。\n\n先介绍今天的嘉宾。Carlos Kelpbaum，一位写过五个编译器的资深工程师，主播直接说这是自己认识的最优秀的工程师之一。这期节目里，Carlos 把自己用智能体工作的整套方法全盘托出，还聊到一个让人后背发凉的趋势——协作正在消失。\n\n什么意思？Carlos 观察到，软件开发正在变得越来越个人化。以前大家靠代码评审、拉取请求互相评论来协作，现在呢，用他的话说，你和你的智能体一起工作，但你不再和你的团队一起工作了。甚至有人放话说，拉取请求这个机制可能会消失。\n\n主播自己也承认变了。以前觉得万事开头难，现在开始一件事情前所未有地容易。月底看着账户里剩余的额度，睡前都在想还能做点什么，于是做了很多小游戏，甚至做了个帮别人生成游戏的工具。但问题是，全都不收尾、不打磨、不成产品。\n\nCarlos 说，这不是新问题。写过五个编译器，真正完成的只有一个。关键在哪？在动笔之前想清楚意图。如果只是为了玩，目的其实已经达到了；如果要做产品，那就得把它做完。用他的话说，你需要抵抗那种立刻得到东西的早期多巴胺冲击。这句话，做产品的人应该都有共鸣。\n\n好，那回到最核心的问题：怎么让 AI 真正写出能用的代码？Carlos 的答案是脚手架。具体做法是，用智能体写代码的时候，目录结构和文件仍然亲手创建，文件里写好注释，甚至把类名、函数签名都提前写好。这个准备过程可能花二十分钟到一个小时。\n\n为什么值得花这个时间？因为智能体有个天生的毛病——非常擅长用蛮力硬凑出一个解决方案，但会忘记这个东西怎么融入应用的其余部分。放任不管，你会得到重复代码、内聚性问题、还有越做越大的巨型对象。 Carlos 完全放手试过一次，做了两三个月之后打开文件，发现自己已经认不出这个应用了。还有个更扎心的例子：花一个月做个编译器，最后让智能体自查，发现列表功能被实现了五遍。\n\n顺着这个思路，Carlos 还立了一条看起来很奇怪的规矩：自己直接对话的那个主智能体，永远不许碰代码。不能改文件，不能动机器。它的唯一职责是聊天，教你或者被你教，聊过的内容存进一张分布式知识网络，下次会话还能取出来。真正干活的，是它派出去的子智能体。\n\n这条规矩从哪来？来自一次顿悟。有一次在项目里，Carlos 问智能体对 John Cleese 谈创造力的演讲有什么看法，结果对方反问：要不要我把这个实现到你的项目里？那一瞬间 Carlos 意识到，这个东西满脑子只有一件事——我现在能不能帮你写代码。从那以后，这条路就被封死了。\n\n开工本身也有门槛。Carlos 用一个本地运行的小模型，给智能体对任务的理解程度打分，置信度超过百分之九十，才允许派子智能体去执行。\n\n接下来说说任务该切多大。这里 Carlos 的做法和直觉完全相反：一次做的任务，颗粒度能多大就多大。原因是智能体不擅长做修改，擅长一次做完——它们像是按一次性任务训练出来的，而不是按迭代开发训练的。所以要把所有期望在开工前全部敲定，然后放手让子智能体跑，跑十二个小时都无所谓。\n\n但放手不等于不审查。跑一两个小时就暂停，打开工作树看一眼，不对劲就整个推倒重来。审查标准简单粗暴：看不懂的代码，直接扔掉。为什么这么狠？因为看不懂就意味着它没按脚手架来，这种东西合并进去，迟早出问题。\n\n那问题来了：让智能体干十二个小时的活，上下文窗口装得下吗？装不下——上下文太大，智能体会产生幻觉，而且成本还高。 Carlos 的解法很有意思：把上下文当成社交网络来设计。先找到信息节点，给每个节点配一条元数据，可能是一行摘要、一个提交哈希、一个文件夹路径，然后按相关性排序，必要时让人确认，再一层层往深挖。还有个小技巧：先让智能体看提交的差异，再看完整代码，算是热身。整套东西用 Markdown 文件存节点和边，配合向量搜索加关键词搜索，刻意不放进图数据库，保持分布式。\n\n方法讲完了，但这期节目里最沉重的部分，是 Carlos 对行业的担忧。学校里软件工程的人数在下降，公司不再培养新人，评审流程也被 AI 稀释了。一句话概括这种危险：我们在训练一代人使用工具，却没教他们怎么做。如果哪天推理变得太贵，或者 AI 出了问题，一切都会塌掉。\n\nCarlos 看 AI 分三层。AlphaFold、机器人这类突破是真正的魔法；大语言模型极其好用，但也极其浪费、耗能，像泡沫；而最让他不安的是第三层——权力正在集中到几家科技巨头手里。AI 一直被宣传成伟大的均衡器，可在他看来，没看到它在均衡什么。\n\n那解法是什么？很朴素：回归学习基本面。 Carlos 自己就买过机器学习的书，亲手搭过神经网络，明白规模为什么重要。有了底层理解，休假两周回来，也不会觉得错过了什么。而且那些先学会了、现在又在用智能体的人，会比那些没学过就直接用智能体的人更有优势。顺序不能反。\n\n给你留几条能直接用的：让智能体写代码之前，先花二十分钟到一个小时亲手搭脚手架；期望在开工前敲定，任务颗粒度反而要放大；看不懂的代码直接扔，别合并进主库；还有最重要的一条——和智能体的交流替代不了和人的交流，代码是变便宜了，但学习和评审不能省。\n\n这期节目说到底就一句话：AI 让代码变得前所未有地便宜，但工程本身从来没有变便宜——先把架子搭好，再让机器去填砖。"
+}

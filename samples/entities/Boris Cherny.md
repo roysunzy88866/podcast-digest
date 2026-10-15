@@ -95,11 +95,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":99,"Claude Code":113,"Opus 5":4,"Anthropic":204,"系统提示词":9,"评估":1,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":100,"Claude Code":114,"Opus 5":4,"Anthropic":204,"系统提示词":9,"评估":1,"消融实验":2,"产品悬置":2,"动态工作流":3}</script>
 
 <script>
 (function(){

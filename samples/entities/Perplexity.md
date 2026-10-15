@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[推理]] · [[Shopify]] · [[Amazon]] · [[Stripe]] · [[Lenny]] · [[Instagram]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"ChatGPT":112,"推理":100,"Shopify":17,"Amazon":33,"Stripe":48,"Lenny":69,"Instagram":9,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"ChatGPT":112,"推理":101,"Shopify":17,"Amazon":34,"Stripe":48,"Lenny":69,"Instagram":9,"开源模型":4}</script>
 
 <script>
 (function(){

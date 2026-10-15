@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":64,"上下文":33,"轮牧":1,"vibe coder":2,"知识库":2}</script>
+<script type="application/json" class="pd-epn">{"Firecrawl":1,"OpenPasture":1,"Holter":1,"NoFence":1,"Pasture Bird":1,"LLM":65,"上下文":34,"轮牧":1,"vibe coder":2,"知识库":3}</script>
 
 <script>
 (function(){

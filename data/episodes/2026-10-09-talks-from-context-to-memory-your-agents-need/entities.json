@@ -1,0 +1,591 @@
+{
+  "episode_id": "2026-10-09-talks-from-context-to-memory-your-agents-need",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "智能体",
+    "智能体记忆",
+    "数据库",
+    "AI 安全",
+    "检索"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "anders-swanson",
+      "type": "person",
+      "role": "guest",
+      "name": "Anders Swanson",
+      "file": "Anders Swanson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            1069.743,
+            1070.663
+          ],
+          "quote": "I'm Anders Swanson.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": true,
+      "how_described": "本集嘉宾 Anders Swanson 是 Oracle AI Database 的开发者布道师，代表这家数据库厂商分享做智能体记忆的经验，并提供了基于数据库原语的 Python SDK 与 GitHub 示例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            14.734,
+            17.836
+          ],
+          "quote": "I'm a developer advocate for Oracle AI Database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1070.763,
+            1074.306
+          ],
+          "quote": "If you want to chat or connect with me, I'll be over at the Oracle booth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说没有记忆的智能体会重启同样任务、重读同样文件、浪费 token 并重复错误；有了受治理的记忆，它能从上次停下的地方继续。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.557,
+            29.983
+          ],
+          "quote": "And I'm talking about how we can approach agent memory as a systems problem, how we can take context and turn it into a real memory layer that is going to help your agents work better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            31.484,
+            40.49
+          ],
+          "quote": "When we're talking about agent memory, we're talking about composing memory retrieval, memory formation, and the persistent storage that's backing these memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            64.773,
+            81.901
+          ],
+          "quote": "If I have some agent session, let's say he's working on customer support tickets, he reads a bunch of documents, he runs a bunch of queries, he reproduces a failure, finds root cause, and does all this great valuable work that synthesizes a useful procedure, what happens at the end of the session?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            89.094,
+            94.417
+          ],
+          "quote": "Long later, another agent comes on, he works on a similar task, and he has to repeat all of this same work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            173.167,
+            185.835
+          ],
+          "quote": "In this presentation, this is unpacking the lessons that we've learned as a database vendor working with customers who are developing agent memory, customers who are solving real problems with agents and needing recall.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            187.841,
+            197.029
+          ],
+          "quote": "And where we're seeing modern agent memory systems converge is there's a pattern that's implementing memory formation, memory recall, evolution, and evaluation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            266.391,
+            270.234
+          ],
+          "quote": "Writes need to be scoped, scoped to the agent, scoped to the workflow, the team, the user.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            281.371,
+            284.993
+          ],
+          "quote": "When we walk through the memory loop, we have an agent session.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            313.007,
+            314.869
+          ],
+          "quote": "That's less work for the next agent to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            315.849,
+            321.233
+          ],
+          "quote": "And if that agent uses the facts successfully, we can add feedback scores to that memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            330.88,
+            334.803
+          ],
+          "quote": "Now, memory, it's invoked as a function by the agent runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            338.445,
+            344.069
+          ],
+          "quote": "Your agent runtime can invoke the memory layer through things like hooks, MCP, skills, or other methods.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            511.535,
+            515.677
+          ],
+          "quote": "When an agent runtime decides to create a memory, we should first start with redaction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            539.074,
+            540.914
+          ],
+          "quote": "What is the agent that worked on this memory?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            585.223,
+            592.465
+          ],
+          "quote": "So we take the agent transcripts, we filter them, find candidates for these episodes, save the memory record and link it back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            766.029,
+            771.151
+          ],
+          "quote": "If an agent recalls those, it's going to be a little tricky and it may try to do the wrong thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            837.898,
+            839.74
+          ],
+          "quote": "And when the agent consumed that, it's like, well,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            946.643,
+            949.786
+          ],
+          "quote": "So if an agent retrieves a candidate memory, it'll use it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1027.891,
+            1033.357
+          ],
+          "quote": "If you are hands-on, I recommend checking out our Python SDK for agent memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆层 (memory layer)",
+      "file": "记忆层",
+      "primary": true,
+      "how_described": "本集核心主题：把智能体的上下文变成一个真正的记忆层——形成、检索、演化、评估闭环，外加脱敏、范围界定等治理控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.557,
+            29.983
+          ],
+          "quote": "And I'm talking about how we can approach agent memory as a systems problem, how we can take context and turn it into a real memory layer that is going to help your agents work better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            159.027,
+            167.112
+          ],
+          "quote": "And I feel like if we continue to the logical conclusion of trying to build a memory layer on top of files, we're gonna be building our own database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            249.284,
+            256.908
+          ],
+          "quote": "If I'm not measuring use, I'm not sending feedback into the memory layer, it's all gonna fall over.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            261.187,
+            265.931
+          ],
+          "quote": "So secrets, personal information, that needs to be redacted before it hits the memory layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            338.445,
+            344.069
+          ],
+          "quote": "Your agent runtime can invoke the memory layer through things like hooks, MCP, skills, or other methods.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            344.809,
+            354.456
+          ],
+          "quote": "And the memory layer API is exposing the read-write, the feedback, administrative APIs, and then talking to the storage platform or databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            522.329,
+            528.871
+          ],
+          "quote": "I don't want secrets or irrelevant weird information slipping into the memory layer that's a recipe for disaster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            796.443,
+            801.387
+          ],
+          "quote": "Poison memory is when a untrusted source plants a durable instruction in your memory layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            965.74,
+            971.625
+          ],
+          "quote": "It needs to store, your memory layer needs to store whether memories were helpful, stale, irrelevant, harmful, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集断言「上下文窗口不是记忆」，只是当前运行的输入而非持久经验；更大的窗口会触发压缩、淹没有用信号，同样不是解法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 182,
+          "t": [
+            872.646,
+            877.569
+          ],
+          "quote": "This is the same problem with the very large context window where we try and smoosh in as much data as possible.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-retrieval",
+      "type": "concept",
+      "role": "concept",
+      "name": "混合检索 (hybrid retrieval)",
+      "file": "混合检索",
+      "primary": true,
+      "how_described": "本集称混合检索正成为记忆召回的主导方法：融合向量相似度、全文关键词、关系实体、图遍历和时间信号，再加权重、阈值与重排。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            150.342,
+            157.826
+          ],
+          "quote": "Tools like grep are extremely useful for finding data but they also don't scale well and it is not complex hybrid retrieval.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            205.561,
+            209.984
+          ],
+          "quote": "When we're recalling memories, hybrid retrieval is emerging as a dominant method.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vector-embedding",
+      "type": "concept",
+      "role": "concept",
+      "name": "向量嵌入 (vector embedding)",
+      "file": "向量嵌入",
+      "primary": true,
+      "how_described": "本集说每条记忆对象带有向量嵌入和向量索引以支持相似度搜索，且写入流程中脱敏要在 embedding 之前做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            452.829,
+            453.97
+          ],
+          "quote": "It'll have a vector embedding.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把「毒记忆」描述为最坏情形：一次提示词注入得手，缺少护栏、审查与脱敏，持久指令被植入记忆层，数据全被泄露。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            801.447,
+            815.117
+          ],
+          "quote": "This is kind of the worst-case scenario, like a prompt injection happened, you didn't have appropriate guardrails, you didn't have the appropriate review, redaction, controls on memory, and some really nasty stuff got in there and all your data got exfiltrated.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集提醒要用适当的护栏和管理操作来避免毒记忆与数据泄露。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            801.447,
+            815.117
+          ],
+          "quote": "This is kind of the worst-case scenario, like a prompt injection happened, you didn't have appropriate guardrails, you didn't have the appropriate review, redaction, controls on memory, and some really nasty stuff got in there and all your data got exfiltrated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            815.177,
+            820.941
+          ],
+          "quote": "So be very sure to avoid these kind of things through the proper guardrails and administrative actions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-tenant",
+      "type": "concept",
+      "role": "concept",
+      "name": "多租户 (multi-tenant)",
+      "file": "多租户",
+      "primary": false,
+      "how_described": "本集说文件式草稿板在大型多租户环境中撑不住，记忆写入必须按智能体、团队、用户划定范围以防数据泄露。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            144.979,
+            149.242
+          ],
+          "quote": "Files do not scale in large multi-tenant environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            270.254,
+            273.157
+          ],
+          "quote": "This is especially important in multi-tenant environments.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-model-database",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模型数据库 (multi-model database)",
+      "file": "多模型数据库",
+      "primary": true,
+      "how_described": "本集认为多模型数据库特别适合做记忆层：行、列、向量、全文、实体、图都能在一处搞定，一个连接就能做混合搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            721.798,
+            730.743
+          ],
+          "quote": "And that's loosely how you could implement hybrid search in a multi-model database, a database that is capable of providing all of these different search methods from one pane of glass here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1052.174,
+            1057.815
+          ],
+          "quote": "If you're an AI engineer, you're a builder, you're curious, like, how does a modern multi-model database fit into AI development?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集开头举例说人们都用过 Claude Code 这类智能体，见过它们一遍遍重读同样的文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            41.962,
+            47.205
+          ],
+          "quote": "And we've probably all used different agents at this point, agents like Claude Code or Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集开头把 Codex 与 Claude Code 并列为例子，说明智能体因没有过去的知识而重复劳动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            41.962,
+            47.205
+          ],
+          "quote": "And we've probably all used different agents at this point, agents like Claude Code or Codex.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "python-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python SDK",
+      "file": "Python SDK",
+      "primary": false,
+      "how_described": "本集结尾推荐查看 Oracle 用于智能体记忆的 Python SDK，它构建在数据库原语之上，配套 GitHub notebook 示例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 223,
+          "t": [
+            1027.891,
+            1033.357
+          ],
+          "quote": "If you are hands-on, I recommend checking out our Python SDK for agent memory.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

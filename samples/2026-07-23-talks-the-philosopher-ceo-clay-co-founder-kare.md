@@ -200,7 +200,7 @@ Kareem 对自己的内省很直白：童年父母大离婚、跨国辗转，让�
 
 - [[2026-08-26-talks-gtm-engineering-the-technical-bits-evere|GTM 工程：让销售像工程团队一样两周发布一次]]<span class="pd-rz">同公司:Clay</span>
 - [[2026-08-28-talks-inside-clay-s-eval-stack-300m-agent-runs|Clay 的智能体矩阵：如何为数十亿次运行建评估]]<span class="pd-rz">同公司:Clay</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同概念:PLG</span>
+- [[2026-10-09-talks-why-80-reliability-isn-t-good-enough-fel|80%的可靠度为什么还不够？亚马逊实验室的答案：别再堆分数了]]<span class="pd-rz">同概念:透明 (transparency)</span>
 
 </div>
 </div>

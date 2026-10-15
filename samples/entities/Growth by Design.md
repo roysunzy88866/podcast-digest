@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Adam Ward]] · [[Cursor]] · [[Anthropic]] · [[Facebook]] · [[厄运漏斗]] · [[前向部署工程师]] · [[人才密度]] · [[工作样本]] · [[人才工程师]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Adam Ward":1,"Cursor":87,"Anthropic":204,"Facebook":17,"厄运漏斗":1,"前向部署工程师":2,"人才密度":5,"工作样本":1,"人才工程师":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Adam Ward":1,"Cursor":87,"Anthropic":204,"Facebook":18,"厄运漏斗":1,"前向部署工程师":2,"人才密度":5,"工作样本":1,"人才工程师":1}</script>
 
 <script>
 (function(){

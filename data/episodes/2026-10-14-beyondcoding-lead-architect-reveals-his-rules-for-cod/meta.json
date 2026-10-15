@@ -1,0 +1,33 @@
+{
+  "id": "2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod",
+  "audio_mp3": "https://traffic.megaphone.fm/APO3944617288.mp3",
+  "duration_sec": 4862.966,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 980,
+  "asr": true,
+  "title_en": "Lead Architect Reveals His Rules for Coding Agents",
+  "podcast": "Beyond Coding",
+  "date": "2026-10-14",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/15286211/15286211-1791926556178-c3b82aa4e1dba.jpg",
+  "added": "2026-10-15",
+  "added_at": "2026-10-14T22:24:19.747Z",
+  "speaker_map": {
+    "SPEAKER_02": "Carlos Kelpbaum"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Carlos Kelpbaum",
+  "cohosts": [],
+  "title_zh": "让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法",
+  "guest_name": "Carlos Kelpbaum",
+  "guest_title": "资深工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/15286211/15286211-1791926556178-c3b82aa4e1dba.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-15T00:08:56.178Z"
+  }
+}

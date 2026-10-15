@@ -1,0 +1,629 @@
+{
+  "episode_id": "2026-10-09-talks-why-80-reliability-isn-t-good-enough-fel",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 评测",
+    "客户信任",
+    "智能体",
+    "产品方法",
+    "客户赋能"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "felipe-blanes",
+      "type": "person",
+      "role": "guest",
+      "name": "Felipe Blanes",
+      "file": "Felipe Blanes",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "amazon-agi-lab",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon AGI Lab",
+      "file": "Amazon AGI Lab",
+      "primary": true,
+      "how_described": "本集说这是 Felipe 所在的实验室，负责构建下一代产品，去年发布了 Nova Act 并上线 AWS",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.497,
+            25.378
+          ],
+          "quote": "My name is Felipe, and I am a member of technical staff at the Amazon AGI Lab.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nova-act",
+      "type": "company",
+      "role": "company",
+      "name": "Nova Act",
+      "file": "Nova Act",
+      "primary": true,
+      "how_described": "本集说它是实验室构建的工具，帮你构建浏览器智能体，把你在网页浏览器里做的事自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            47.571,
+            53.693
+          ],
+          "quote": "So everything started in March last year, where we launched our Nova Act research preview.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            54.233,
+            62.775
+          ],
+          "quote": "For context, Nova Act is a tool that we build as part of our lab, and it's a tool that helps you to build browser agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            63.135,
+            68.916
+          ],
+          "quote": "So basically, everything that you do in a web browser, you can use Nova Act to automate those tasks.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集说 Nova Act 十二月正式登陆 AWS，成为其上的顶级服务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            103.027,
+            108.151
+          ],
+          "quote": "Then in December, we finally launched our service on AWS.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            108.411,
+            115.016
+          ],
+          "quote": "So today, NovaX is a top-tier service on AWS that anyone can use to build production-level agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon-leo",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon Leo",
+      "file": "Amazon Leo",
+      "primary": false,
+      "how_described": "本集说是亚马逊旗下的互联网卫星公司，与它合作催生了轨迹缓存功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            771.885,
+            774.706
+          ],
+          "quote": "So some examples here is Amazon Leo.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hertz",
+      "type": "company",
+      "role": "company",
+      "name": "Hertz",
+      "file": "Hertz",
+      "primary": false,
+      "how_described": "本集说是用 Nova Act 做 QA 自动化的租车公司，技术参差的 QA 团队促成了无代码体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 158,
+          "t": [
+            795.998,
+            800.381
+          ],
+          "quote": "Second learning is with Hertz, the car rental company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sola",
+      "type": "company",
+      "role": "company",
+      "name": "Sola",
+      "file": "Sola",
+      "primary": false,
+      "how_described": "本集说是一家 RPA 初创公司，用例五花八门，促使产品在执行环节开放更多自定义",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            833.823,
+            836.885
+          ],
+          "quote": "Last one, this is a startup called Sola.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            837.645,
+            840.467
+          ],
+          "quote": "Sola is basically a RPA company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "browser-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "浏览器智能体 (browser agents)",
+      "file": "浏览器智能体",
+      "primary": true,
+      "how_described": "本集说是 Nova Act 帮你构建的东西——把你在网页浏览器里做的所有事自动化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            54.233,
+            62.775
+          ],
+          "quote": "For context, Nova Act is a tool that we build as part of our lab, and it's a tool that helps you to build browser agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集通篇围绕智能体产品：客户构建生产级智能体，可靠性 80% 时还得人工盯着监控",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            616.233,
+            627.18
+          ],
+          "quote": "Because when you show 80% reliability, what they will think is, oh, OK, so if it's 80%, I still have to monitor this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            635.525,
+            640.308
+          ],
+          "quote": "I need to build this agent, plus monitor that, and also do some manual work after.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            695.502,
+            700.787
+          ],
+          "quote": "You can trust my product to just use my agent, and it will give you the reliability that you need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测 (evals)",
+      "file": "评测",
+      "primary": true,
+      "how_described": "本集主线：静态评测导致上线后翻车，评测应做成随客户演进、每周变聪明的飞轮",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            35.861,
+            39.802
+          ],
+          "quote": "And today, I will talk to you about designing evals that earn customer trust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            193.543,
+            201.707
+          ],
+          "quote": "And this is happening because most of us, we are working on evals that are static.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            202.087,
+            203.848
+          ],
+          "quote": "So what are static evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            220.295,
+            226.818
+          ],
+          "quote": "Then, when you have a product in a good shape, the next thing that you will do is running your evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            239.324,
+            243.966
+          ],
+          "quote": "But if you have static evals, what's the only thing that you can do after that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            247.61,
+            253.455
+          ],
+          "quote": "You just hope your evals were reflecting exactly what your customers will do with your product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            380.629,
+            383.43
+          ],
+          "quote": "And this feeds into evals, right, to your model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            959.05,
+            962.952
+          ],
+          "quote": "Your evals should get smarter every week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            963.812,
+            971.355
+          ],
+          "quote": "But very important, if you are not seeing your evals getting smarter every week, that means your evals are getting stale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            997.013,
+            1000.614
+          ],
+          "quote": "Second is evals are not built once.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1019.866,
+            1026.188
+          ],
+          "quote": "So your evals needs to be up to date and reflecting exactly what your customer is trying to do right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1027.944,
+            1035.549
+          ],
+          "quote": "And with that, what you have to do is simply build the loop, ship evals that matter, and then you earn your customer trust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark-illusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试幻觉 (benchmark illusion)",
+      "file": "基准测试幻觉",
+      "primary": true,
+      "how_described": "本集说这是在公开榜或自建数据上分数好看、一到客户手里就崩溃的现象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            143.106,
+            146.427
+          ],
+          "quote": "So I like to call this is the benchmark illusion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trust-cliff",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任悬崖 (trust cliff)",
+      "file": "信任悬崖",
+      "primary": true,
+      "how_described": "本集说 80% 可靠性客户不敢用、92% 才敢交出整个工作流，信任是零或一没有中间态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            575.001,
+            581.108
+          ],
+          "quote": "So the first one is the trust cliff that I like to call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            582.139,
+            584.321
+          ],
+          "quote": "So what's the trust cliff?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reliability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可靠性 (reliability)",
+      "file": "可靠性",
+      "primary": true,
+      "how_described": "本集把可靠性作为信任的关键度量：要么客户信任、要么不信任，没有中间地带",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            584.921,
+            595.45
+          ],
+          "quote": "So imagine you build a product, you are ready to ship, and you measure the reliability of this product, and you found 80% reliability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            603.797,
+            610.783
+          ],
+          "quote": "But what your customer thinks when you say you are 80% of reliability is, I cannot trust this product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            616.233,
+            627.18
+          ],
+          "quote": "Because when you show 80% reliability, what they will think is, oh, OK, so if it's 80%, I still have to monitor this agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            641.389,
+            654.521
+          ],
+          "quote": "But when you get to a point around 92% reliability, the message changes to your customer and what they think is, okay, 92% I can actually trust this, right, to handle my tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            659.365,
+            663.909
+          ],
+          "quote": "So it's basically reliability is a zero to one, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            693.6,
+            695.482
+          ],
+          "quote": "That's the level of reliability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            695.502,
+            700.787
+          ],
+          "quote": "You can trust my product to just use my agent, and it will give you the reliability that you need.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eval-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "评测飞轮 (eval flywheel)",
+      "file": "评测飞轮",
+      "primary": true,
+      "how_described": "本集提出的解法：定义成功→捕获信号→诊断差距→输入决策，循环往复、越转越快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            279.567,
+            286.091
+          ],
+          "quote": "So with that in mind, what we did in our lab was basically propose an eval flywheel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "透明度 (transparency)",
+      "file": "透明度",
+      "primary": true,
+      "how_described": "本集说对产品能做什么、正在改进什么、做不到什么保持透明，比刷高基准分数更能赢得信任",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            670.305,
+            673.23
+          ],
+          "quote": "Second learning, it's the eval transparency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            742.135,
+            750.081
+          ],
+          "quote": "And the main learning here is transparency on product limitation increase trust more than higher benchmarks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            924.316,
+            926.697
+          ],
+          "quote": "Again, transparency builds trust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": false,
+      "how_described": "本集提到通过缓存失败轨迹、回退到模型，省去每次都做推理的成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            785.272,
+            791.475
+          ],
+          "quote": "So instead of doing inference all the time that they use our product, we cache trajectories if it fail.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "qa-automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "QA 自动化 (QA automation)",
+      "file": "QA 自动化",
+      "primary": false,
+      "how_described": "本集说 Hertz 用 Nova Act 做 QA 自动化，由此催生了非技术化的产品体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            800.961,
+            804.543
+          ],
+          "quote": "So they were also using our product for QA automation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rpa",
+      "type": "concept",
+      "role": "concept",
+      "name": "RPA",
+      "file": "RPA",
+      "primary": false,
+      "how_described": "本集解释 RPA 是重复流程自动化，Sola 就是靠它为其他公司提供流程自动化工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            837.645,
+            840.467
+          ],
+          "quote": "Sola is basically a RPA company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            840.827,
+            845.49
+          ],
+          "quote": "If you are not familiar with the term, RPA is Repetitive Process Automation.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

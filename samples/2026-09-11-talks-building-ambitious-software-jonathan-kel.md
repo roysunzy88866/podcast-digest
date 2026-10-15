@@ -143,7 +143,7 @@ Kelly 的收尾：「代码现在很廉价，但质量不是。」软件工程�
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]]<span class="pd-rz">同概念:Rust、智能体 (agent)、Claude Code</span>
 - [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同概念:Rust、智能体 (agent)、开源 (open source)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)、Claude Code</span>
+- [[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法]]<span class="pd-rz">同概念:Rust、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

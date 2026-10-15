@@ -1,0 +1,191 @@
+{
+  "title_zh": "80%的可靠度为什么还不够？亚马逊实验室的答案：别再堆分数了",
+  "tldr": "Amazon AGI Lab 的 Felipe Blanes 讲了如何靠客户反馈闭环设计评测，赢得信任。",
+  "digest_md": "去年三月，Amazon AGI Lab 发布了 Nova Act——一个帮你搭建浏览器智能体的工具，能把你在网页上做的事自动化。十二月，它正式登陆 AWS。Felipe Blanes 在实验室负责客户赋能，也就是天天和客户打交道，弄清他们的真实问题。这场演讲讲的是他从中学到的东西：==为什么Benchmark 分数高，客户却照样不满意==。\n\n## 为什么Benchmark好，产品却翻车？\n\nFelipe 把这叫Benchmark 幻觉。团队在公开榜或自建数据上拼命优化，分数很好看，一上线，客户就开始做出你从没预料的事，产品随之崩溃。\n\n原因在于大家用的是静态评测：拿到需求、开发、跑评测、感觉不错就发布。发布之后能做什么？只剩祈祷——祈祷评测恰好反映了客户真实的使用方式。[04:05 Unknown]\n\n他给出的答案不是更好的Benchmark，而是闭环：把客户反馈拿回来，持续喂进评测。\n\n## 评测飞轮：四步不停转\n\n他提出一个评测飞轮，也就是不断重复的循环。\n\n第一步，定义成功。注意，**成功不是你以为的成功，是客户眼中的成功**。[05:01 Unknown]\n\n第二步，捕捉信号。工程师第一反应是埋点、收数据，但他提醒：光看数据可能被误导，要真的去约客户、去拜访，弄清他们在解决什么问题。\n\n第三步，诊断缺口。把信号分类，通常归成三块：模型哪里不行、工程上有什么漏洞要修、产品定位是否讲清楚了。\n\n第四步，把分类结果交给科学、工程、产品团队去排优先级解决。然后转回第一步，循环往复。\n\n## 80%和92%之间，隔着一道信任悬崖\n\n最有意思的一条经验是他所谓的信任悬崖。\n\n假设你的产品可靠度是 80%，看起来能交付了吧？但客户听到 80%，想的是：我还得盯着这个智能体，它失败了我要手工收拾残局。结果活儿更多而不是更少。[10:03 Unknown]\n\n到了 92% 左右，信息才变了：客户觉得可以真的把整个流程交出去。他的结论是，**信任是零或一的事，没有中间态**。\n\n## 透明比高分更能赢得信任\n\n每接触一个新客户，要讲清三件事：产品擅长什么；正在改进什么；以及最难开口的——什么做不到。\n\n他建议直接告诉客户哪些不在能力范围内，别让他们去试。市面上工具太多，客户试一次失败，转头就走。[12:00 Unknown]\n\n他反复强调的结论是：**坦诚说明产品局限，比刷高Benchmark更能建立信任**。\n\n## 客户会教你怎么做产品\n\n和客户贴身合作，你会撞见完全想不到的用法。他举了三个例子。\n\n亚马逊的卫星互联网公司 Amazon Leo 教他们做了轨迹缓存：失败的轨迹缓存下来，直接回退，不用每次都跑模型，帮客户省钱。[13:05 Unknown]\n\n租车公司 Hertz 用产品做测试自动化。他们发现 Hertz 的测试工程师里，有人能写 Python 脚本，有人完全不懂技术——这促使他们做了一个无代码的使用体验，让更多客户能用上。\n\nRPA 公司 Sola 的场景五花八门，逼着产品在执行环节上开放更多自定义空间。\n\n## 四条原则，和每周该问的一个问题\n\n跑了几轮飞轮后，他总结出四条原则：评测场景来自生产环境，而不是想象；反馈要分类成可执行的领域；诚实分享能力边界；飞轮转得越快越好。\n\n检验标准很简单：你的评测应该每周都在变聪明。**如果没变，说明它已经在过期了**。[16:03 Unknown]\n\n因为客户自己也在进化——他们用得越深，玩法越复杂，评测必须跟上他们当下的真实需求。\n\n## 本集带走\n\n- 发布之后只剩祈祷的静态评测，是产品上线翻车的根源\n- 信任是零或一：80% 可靠度意味着客户还得盯着，92% 才敢真正交出去\n- 坦诚说清产品做不到什么，比刷高Benchmark更能赢得客户\n- 测评要每周变聪明，否则就是在过期\n- 客户会用你意想不到的方式使用产品，这些意外是最好的功能路线图",
+  "quotes": [
+    {
+      "en": "And it's basically everything that you were not expecting them to do, they try to do that and they break their product.",
+      "zh": "基本上，所有你没有预料到他们会做的事情，他们都会去做，然后把你的产品搞坏。",
+      "timestamp": "03:05",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "So this is not about better benchmarks. It's about closing the customer loop.",
+      "zh": "所以这不是关于更好的基准测试，而是关于闭环客户反馈。",
+      "timestamp": "04:26",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "So defined success here, it's not what you think is success. It's what your customers think is success.",
+      "zh": "所以这里定义的成功，不是你认为的成功，而是你的客户认为的成功。",
+      "timestamp": "05:01",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "But what your customer thinks when you say you are 80% of reliability is, I cannot trust this product.",
+      "zh": "但当你说你的可靠性是 80% 时，你的客户会想：我无法信任这个产品。",
+      "timestamp": "10:03",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "And the main learning here is transparency on product limitation increase trust more than higher benchmarks.",
+      "zh": "这里的主要心得是：对产品局限性的透明，比更高的基准测试分数更能增加信任。",
+      "timestamp": "12:22",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "First one is derive eval scenarios from production, not imagination.",
+      "zh": "第一个是从生产环境中推导评测场景，而不是凭想象。",
+      "timestamp": "14:51",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "Your evals should get smarter every week.",
+      "zh": "你的评测应该每周都变得更聪明。",
+      "timestamp": "15:59",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "But very important, if you are not seeing your evals getting smarter every week, that means your evals are getting stale.",
+      "zh": "但非常重要的是，如果你没有看到你的评测每周变得更聪明，那就意味着你的评测正在变得陈旧。",
+      "timestamp": "16:03",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "So first idea is eval must reflect what customer cares about, not what you think they care about.",
+      "zh": "第一个想法是，评测必须反映客户关心的东西，而不是你认为他们关心的东西。",
+      "timestamp": "16:20",
+      "speaker": "Felipe Blanes"
+    },
+    {
+      "en": "Second is evals are not built once. It's a flywheel that evolves as your customer evolves.",
+      "zh": "第二个是，评测不是一次建成的，它是一个随着你的客户演进而演进的飞轮。",
+      "timestamp": "16:37",
+      "speaker": "Felipe Blanes"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:05",
+      "speaker": "Unknown",
+      "en": "And it's basically everything that you were not expecting them to do, they try to do that and they break their product.",
+      "zh": "基本上，所有你没有预料到他们会做的事情，他们都会去做，然后把你的产品搞坏。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Unknown",
+      "en": "And this is happening because most of us, we are working on evals that are static.",
+      "zh": "而这种情况发生，是因为我们大多数人都在做静态的评测。"
+    },
+    {
+      "timestamp": "04:05",
+      "speaker": "Unknown",
+      "en": "It's hope.",
+      "zh": "祈祷。"
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Unknown",
+      "en": "So this is not about better benchmarks. It's about closing the customer loop.",
+      "zh": "所以这不是关于更好的基准测试，而是关于闭环客户反馈。"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Unknown",
+      "en": "So defined success here, it's not what you think is success. It's what your customers think is success.",
+      "zh": "所以这里定义的成功，不是你认为的成功，而是你的客户认为的成功。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Unknown",
+      "en": "But one very important piece of that that we are missing is you should talk to your customer.",
+      "zh": "但其中我们遗漏了一个非常重要的部分：你应该和你的客户交谈。"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Unknown",
+      "en": "Your data might be a little bit misleading.",
+      "zh": "你的数据可能有点误导性。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Unknown",
+      "en": "And many times you will be surprised because it's something that you would never imagine.",
+      "zh": "很多时候你会感到惊讶，因为那是你从来都想象不到的东西。"
+    },
+    {
+      "timestamp": "09:35",
+      "speaker": "Unknown",
+      "en": "So the first one is the trust cliff that I like to call.",
+      "zh": "第一个是我喜欢称之为「信任悬崖」的东西。"
+    },
+    {
+      "timestamp": "10:03",
+      "speaker": "Unknown",
+      "en": "But what your customer thinks when you say you are 80% of reliability is, I cannot trust this product.",
+      "zh": "但当你说你的可靠性是 80% 时，你的客户会想：我无法信任这个产品。"
+    },
+    {
+      "timestamp": "10:31",
+      "speaker": "Unknown",
+      "en": "So in fact, it's actually more work for me, not less work.",
+      "zh": "所以实际上，对我来说这反而是更多的工作，而不是更少的工作。"
+    },
+    {
+      "timestamp": "10:59",
+      "speaker": "Unknown",
+      "en": "So it's basically reliability is a zero to one, right?",
+      "zh": "所以基本上，可靠性是从零到一的，对吧？"
+    },
+    {
+      "timestamp": "11:06",
+      "speaker": "Unknown",
+      "en": "There is nothing like in the middle there.",
+      "zh": "没有什么中间地带。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Unknown",
+      "en": "Otherwise, there are so many tools in the market right now that if you show something for them that doesn't work, they will just forget about their product and they will move to the next.",
+      "zh": "否则，现在市场上有太多的工具，如果你向他们展示了某个行不通的东西，他们就会直接忘记你的产品，然后转向下一个。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Unknown",
+      "en": "And the main learning here is transparency on product limitation increase trust more than higher benchmarks.",
+      "zh": "这里的主要心得是：对产品局限性的透明，比更高的基准测试分数更能增加信任。"
+    },
+    {
+      "timestamp": "14:51",
+      "speaker": "Unknown",
+      "en": "First one is derive eval scenarios from production, not imagination.",
+      "zh": "第一个是从生产环境中推导评测场景，而不是凭想象。"
+    },
+    {
+      "timestamp": "15:59",
+      "speaker": "Unknown",
+      "en": "Your evals should get smarter every week.",
+      "zh": "你的评测应该每周都变得更聪明。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Unknown",
+      "en": "But very important, if you are not seeing your evals getting smarter every week, that means your evals are getting stale.",
+      "zh": "但非常重要的是，如果你没有看到你的评测每周变得更聪明，那就意味着你的评测正在变得陈旧。"
+    },
+    {
+      "timestamp": "16:20",
+      "speaker": "Unknown",
+      "en": "So first idea is eval must reflect what customer cares about, not what you think they care about.",
+      "zh": "第一个想法是，评测必须反映客户关心的东西，而不是你认为他们关心的东西。"
+    },
+    {
+      "timestamp": "16:37",
+      "speaker": "Unknown",
+      "en": "Second is evals are not built once. It's a flywheel that evolves as your customer evolves.",
+      "zh": "第二个是，评测不是一次建成的，它是一个随着你的客户演进而演进的飞轮。"
+    }
+  ],
+  "voice_script": "今天要讲的这位，是 Amazon AGI Lab 的 Felipe Blanes。去年三月，这个实验室发布了 Nova Act,一个帮你把浏览器里做的事自动化的工具。到了十二月，正式登陆 AWS。Felipe 在实验室里负责客户赋能，说白了就是天天跟客户泡在一起，弄清他们的真实问题。今天这场分享，讲的就是从这些客户身上学到的一件事：为什么 Benchmark 分数很高，客户却照样不满意。\n\n先把问题说清楚。团队开发产品，通常靠公开榜单或者自建数据集来评测，分数越刷越高，觉得差不多了就发布。可一上线，客户开始做出你从没预料到的操作，产品随之崩溃。Felipe 给这个现象起了个名字，叫 Benchmark 幻觉。有句话是这么说的：基本上，所有你没有预料到客户会做的事情，他们都会去做，然后把你的产品搞坏。\n\n那问题出在哪？出在大家用的评测是静态的。流程是这样的：拿到需求，开发，跑一遍评测，感觉不错，发布。发布之后能做什么呢？只剩祈祷——祈祷评测恰好反映了客户真实的使用方式。所以答案不是去刷一个更好的 Benchmark,而是把客户反馈拿回来，持续喂进评测，形成一个闭环。\n\n具体怎么闭环？Felipe 提出一个评测飞轮，四步，不停地转。\n\n第一步，定义成功。注意，这里定义的成功，不是你认为的成功，而是客户认为的成功。第二步，捕捉信号。工程师的第一反应往往是埋点、收数据，但光看数据可能被误导，所以要真的去约客户、去拜访，弄清他们到底在解决什么问题。第三步，诊断缺口，把收集来的信号分类，通常归成三块：模型哪里不行，工程上有什么漏洞要修，产品定位是不是没讲清楚。第四步，把分类结果交给科学、工程、产品团队去排优先级、去解决。然后转回第一步，循环往复。\n\n这套飞轮跑下来，最有意思的一条经验，叫信任悬崖。\n\n假设你的产品可靠度是 80%,听起来能交付了吧？但客户听到 80%,心里想的是：我还得盯着这个智能体，它一失败我就得手工收拾残局。结果活儿更多了，不是更少了。一直到了 92% 左右，信息才变了——客户觉得可以真的把整个流程交出去。所以结论是：信任是零或一的事，没有中间态。80% 和 92% 之间，隔着一道悬崖。\n\n那怎么跨过这道悬崖？不是把分数再刷高一点，而是透明。每接触一个新客户，要讲清三件事：产品擅长什么，正在改进什么，还有最难开口的——什么做不到。建议直接告诉客户哪些不在能力范围内，别让他们自己去试。市面上工具太多，客户试一次失败，转头就走。主要心得就一句：对产品局限性的透明，比更高的 Benchmark 分数更能增加信任。\n\n而且跟客户贴身合作，还会撞见完全想不到的用法。举三个例子。亚马逊的卫星互联网公司 Amazon Leo,教会了团队做轨迹缓存——把失败的轨迹缓存下来，直接回退，不用每次都跑模型，帮客户省钱。租车公司 Hertz 拿产品做测试自动化，测试工程师里有人会写 Python 脚本，有人完全不懂技术，这就催生了一个无代码的使用体验，让更多客户能用上。还有一家 RPA 公司叫 Sola,场景五花八门，逼着产品在执行环节上开放了更多自定义空间。你看，客户的意外用法，就是最好的功能路线图。\n\n飞轮跑了几轮之后，Felipe 总结出四条原则：评测场景要从生产环境里来，而不是凭想象；反馈要分类成可执行的领域；诚实分享能力边界；飞轮转得越快越好。检验标准也很简单：你的评测应该每周都在变聪明。如果没变，说明它已经在过期了。因为客户自己也在进化，用得越深，玩法越复杂，评测必须跟上他们当下的真实需求。\n\n最后带走一句话：发布之后只剩祈祷的静态评测，是产品翻车的根源；而真正赢得客户的，不是更高的分数，是坦诚说清你做不到什么，再让评测每周都变聪明。"
+}

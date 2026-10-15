@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
+[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"OpenAI":203,"Codex":89,"Work":1,"ChatGPT":112,"智能体":1,"知识工作":2,"Sites":3,"Stripe":48,"写作即思考":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"OpenAI":203,"Codex":90,"Work":1,"ChatGPT":112,"智能体":1,"知识工作":2,"Sites":3,"Stripe":48,"写作即思考":1}</script>
 
 <script>
 (function(){

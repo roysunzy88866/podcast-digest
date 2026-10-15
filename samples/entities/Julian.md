@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":2,"推理":100,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"推理模型":2,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"Base 10":2,"推理":101,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"推理模型":2,"Cursor":87}</script>
 
 <script>
 (function(){

@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":23,"Cursor":87,"NVIDIA":71,"推理":100,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":24,"Cursor":87,"NVIDIA":71,"推理":101,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":3,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":90,"提示词注入":1,"推理模型":2,"fail open":2,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":4,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":91,"提示词注入":1,"推理模型":2,"fail open":2,"负载卸载":1}</script>
 
 <script>
 (function(){

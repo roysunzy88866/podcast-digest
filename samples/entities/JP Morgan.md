@@ -39,7 +39,7 @@ unlisted: true
 
 [[开源]] · [[Theo Jaffe]] · [[Robert Hackett]] · [[Aaron Schumm]] · [[Arvind Srinivas]] · [[Sofia Puccini]] · [[Marc Andreessen]] · [[Vestwell]] · [[Perplexity]] · [[Steven Sinofsky]]
 
-<script type="application/json" class="pd-epn">{"开源":42,"Theo Jaffe":8,"Robert Hackett":1,"Aaron Schumm":1,"Arvind Srinivas":1,"Sofia Puccini":4,"Marc Andreessen":2,"Vestwell":1,"Perplexity":10,"Steven Sinofsky":4}</script>
+<script type="application/json" class="pd-epn">{"开源":43,"Theo Jaffe":8,"Robert Hackett":1,"Aaron Schumm":1,"Arvind Srinivas":1,"Sofia Puccini":4,"Marc Andreessen":2,"Vestwell":1,"Perplexity":10,"Steven Sinofsky":4}</script>
 
 <script>
 (function(){

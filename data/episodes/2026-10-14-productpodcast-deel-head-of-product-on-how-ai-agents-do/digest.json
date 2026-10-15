@@ -1,0 +1,425 @@
+{
+  "title_zh": "Deel产品负责人：AI干了600个人的活，多赚1.4亿美元",
+  "tldr": "Deel产品高级副总裁Aaron Goldsmid讲AI代理如何省下600人的工作量，并新增1.4亿美元收入。",
+  "digest_md": "全球最大的全远程公司Deel做跨境雇佣和发薪，四年间年经常性收入从约2.5亿美元涨到15亿美元，还持续盈利近三年。负责产品的高级副总裁Aaron Goldsmid曾任职Amazon、Facebook和Twilio。这期访谈里，他讲了一个很多公司还没想明白的问题：当人手不再是产出的衡量标准，公司该怎么管理、怎么挣钱。\n\n## 人数为什么不再是好指标了？\n\nDeel的研发团队约1700人，每天还在新招一两个工程师，产品团队约120人。但Goldsmid说，他已经不太看这些数字了。\n\n过去，团队人数是复杂度、产出和范围的很好参照。**过去18个月，这个参照失效了**。他现在只关心一件事：这些人是不是被充分用到，有没有资源把事情做完。他也不再谈产品经理和工程师的比例 [06:15 Aaron Goldsmid]。\n\n他的管理方式是双周业务评审：工程、产品、设计坐在一起，只谈实际工作，不许做漂亮演示。团队可以意见不合，但必须信息对齐，分歧不能超过两周。\n\n有意思的是，他连夜做了一个小机器人，读完全部评审记录后预测他会问什么问题——结果发现自己极其可预测。他有点失望，但这个工具能让一线产品经理提前想好答案，省掉事后懊悔的循环 [08:00 Aaron Goldsmid]。\n\n## 数据要重写成大模型能读的样子\n\nDeel还建了一个语义层，让人可以直接用自然语言问数据问题。这对一家全球分布的公司尤其重要：任何时刻都有同事在睡觉，以前要等对方醒来才能拿到数据，现在不用了。\n\n他有个观察：这是搜索优化的新版本。当年互联网几乎为搜索引擎重写了一遍，**现在所有内容、数据、知识都要为大模型重新组织**。他们的做法是把几千名合规专家的知识放进一个标准化知识库——基于维基百科的结构，成为唯一可信来源，再让模型只从这个知识库里取内容 [12:21 Aaron Goldsmid]。\n\n好处是幻觉风险大幅下降：内容本来就用模型容易消化方式写的，输出就稳定得多。\n\n## 小模型怎么打赢顶级大模型？\n\n在这个自建知识库上，Deel用小语言模型做训练，效果至少和Sonnet一样好，质量正在逼近Opus——但响应快得多，成本只有零头 [16:30 Aaron Goldsmid]。\n\n> 【背景】Sonnet和Opus是Anthropic公司的大语言模型。\n\n关键在于可靠：模型是在已知正确的数据上训练的，而不是「训练了整个互联网，然后恳求它别看别处」。\n\n他还要求团队说清楚大模型不擅长什么。表现最好的团队都了解工具的边界，知道哪类问题适合用模型解决、哪类不适合——就像扳手也能当锤子使，但你有时候就是需要一把锤子 [18:08 Aaron Goldsmid]。\n\n## 1.4亿美元是怎么捡回来的？\n\nDeel发布过一个数字：靠AI优化找到超过1.4亿美元的年经常性收入，相当于600人的工作量。主持人问具体怎么算出来的。\n\nGoldsmid的回答是：**这是弯腰捡地上的零钱**[21:17 Aaron Goldsmid]。他的比喻是，过去写软件是最后的手工艺——看一段代码就知道是谁写的。因为软件太贵，公司里堆积了大量没人知道的手工活：有人每月手动重排一张表格，有人因为某系统没接口而定期登录去点一个按钮。这些事太小，不值得立项，甚至从来没进过待办清单。\n\nAI改变了两件事：一是能处理的问题清单一下子深了好多层；二是把这些自动化从工程师手里解放出来。他们的产品叫AKI，让非技术人员像带实习生一样手把手教系统：你做一遍，它看着学，然后做给你检查。\n\n单个看都是小事，但复利累积，零钱变成了大数字。而且复杂度的增长曲线从几何级变回了线性。\n\n## 坏主意变多了，但失败便宜了\n\n这些自动化想法里确实有很多烂主意——Goldsmid直言，坏主意是真实存在的。但快速失败的成本已经低到不用心疼。更妙的是，一批原本不好意思举手的人，现在能直接动手做那些我以为不值一提的事，里面藏着真正的钻石 [25:01 Aaron Goldsmid]。\n\n谈到自建还是外购，他引了一句拳王Mike Tyson的话：「每个人都有计划，直到脸上挨了一拳。」一个周末就能搭出任何企业软件的顺路版本，**但维护才是真正难的部分**。工程史的老教训——建容易、养难——会由新一代平民开发者重新学一遍。\n\n## 快速增长和盈利，为什么能同时做到？\n\nDeel盈利近三年，同时还在高速增长。Goldsmid解释：别的公司把增长还是盈利当二选一，**Deel问的是怎么盈利地增长**[30:05 Aaron Goldsmid]。\n\n即使眼下某项业务效率低，也要算清楚单位经济模型，确信规模化后会变好。更重要的是，他们不做 anticipating客户的产品——先找到客户，和客户一起建。这样一来，产品还没开建就已经有买家，收入从来不是问题。\n\n## 没有公司像过去那么难替换了\n\n即便是发薪这种转换成本极高的业务，Goldsmid也直言：**没有任何公司像以前那么黏了，所有软件的切换成本都在下降**，一年后会更低 [32:24 Aaron Goldsmid]。\n\n他的应对思路是回到本质：LLM本质上是在模仿人类行为，而底层业务流程——怎么发工资、怎么算税、怎么办签证——一百年没变过。变的是每个微观步骤由谁来做：人、专家、软件，现在是代理。那些过去需要一点点判断力的环节，正是代理解锁的新空间。\n\n他坚持关键环节要有人类在环：合规、工资发放、复杂的解约，不能拿来试错。但人应该只做真正需要专业判断的部分——这样每个人都变成高杠杆的人才。\n\n## AI取代的不是工作，是工作里最烂的部分\n\nGoldsmid最广为流传的一句话是：AI不会取代你的工作，它取代的是你工作里最差的那部分 [35:34 Aaron Goldsmid]。哪些事你既不从中获得价值、也不给它增加价值、但又必须完成？把这些交给代理。\n\n比如审批报销：谁能从「确认酒店金额对不对」中获得价值？超出十美分就放行吧。这种过去只能靠人做的小判断，现在计算机反而很擅长。至于让AI替你写三年战略并奉为真理——那是个彻头彻尾的坏主意。\n\n## 本集带走\n\n- 人数不再是产出的可靠指标，要看每个人是否被充分使用、有没有资源执行。\n- 数据和知识要为大模型重写：结构化、可消化的输入，能把幻觉风险降下来。\n- 在自有知识库上训练小模型，效果可逼近顶级大模型，成本和速度占优。\n- 1.4亿美元来自自动化大量没人好意思提的小事——零钱会复利成大数字。\n- AI取代的是工作中最无价值的部分；真正的判断力留给高杠杆的人。",
+  "quotes": [
+    {
+      "en": "It's picking up the change on the floor. Software was the last artisanal craft, and that has changed.",
+      "zh": "这就像捡起地上的零钱。软件曾是最后一种手工艺，而这一切已经改变了。",
+      "timestamp": "00:13",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "I think it was around 250 million, which is an inconceivable amount of growth for such a short period of time. There's one other aspect I believe is true: we're also the largest remote company, full stop.",
+      "zh": "我记得当时大约是2.5亿，对于这么短的时间来说，这是难以置信的增长。我相信还有另一个事实：我们也是最大的远程办公公司，就这么简单。",
+      "timestamp": "00:29",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "It's very hard to change. So it's all centered around speed and customer centricity. I was at Amazon, and this is a new high-water mark for being customer-focused. You could be an average mid-market customer and be on a shared Slack channel with us within half an hour, talking to myself and most of the C-suite, and we'll probably be pushing code within 12 hours if it was an issue.",
+      "zh": "这很难改变。所以一切都围绕着速度和以客户为中心。我曾任职于Amazon，那是以客户为中心的新高水位线。你可以是一个普通的中端市场客户，在半小时内与我们在一个共享的Slack频道上，和我以及大部分高管层对话，如果是个问题，我们可能会在12小时内推送代码。",
+      "timestamp": "04:08",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Every strategic vision or insight I've ever had, even the ones that look like macroeconomic disruption, came from being in the weeds, working on something and just catching it, like, \"wait a second, what did that person just say? That was really interesting.\"",
+      "zh": "我曾有过的每一个战略愿景或洞察，即使是那些看起来像宏观经济颠覆的东西，都来自深入细节，在做某件事的时候恰好捕捉到它，比如\"等一下，那个人刚才说了什么？那真的很有意思。\"",
+      "timestamp": "05:45",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "It used to be that those were incredibly good proxies for complexity, for output, for scope. But in the last 18 months, those proxies are just not valid anymore. So I end up focusing on how leveraged these people are.",
+      "zh": "过去这些是衡量复杂度、产出、范围非常好的代理指标。但在过去18个月里，这些代理指标已经不再有效了。所以我最终关注的是这些人有多高的杠杆。",
+      "timestamp": "06:37",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "It's not a time for pretty presentations. It's a time for the real work, and the only time that meeting goes well is when the team is aligned. They don't have to agree, but they have to be aligned.",
+      "zh": "这不是做漂亮演示的时间。这是做真正工作的时间，而那个会议顺利进行的唯一条件是团队是对齐的。他们不必同意，但他们必须对齐。",
+      "timestamp": "07:54",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Ideally, if you're doing your job well, the decisions are better when you're not there. The litmus test I hold for myself is: are my leaders asking all the questions in those reviews that I would, or better?",
+      "zh": "理想情况下，如果你把工作做好了，当你不在那里时决策反而更好。我为自己设置的试金石是：我的领导者在那些评审中问的问题，是否是我会问的，或者更好？",
+      "timestamp": "09:01",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Sadly, I'm wildly predictable, which I was kind of disappointed by, that I could be reduced to a soundboard, but apparently it's true.",
+      "zh": "可悲的是，我非常可预测，这让我有点失望，我居然可以被简化成一个共鸣板，但显然这是真的。",
+      "timestamp": "09:37",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "But now I don't even need them to be awake to have that information flowing very freely.",
+      "zh": "但现在我甚至不需要他们醒着，就能让信息非常自由地流动。",
+      "timestamp": "12:06",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs.",
+      "zh": "我谈论这件事已经有几年了：有一个新版本的SEO。我们几乎不得不重写整个互联网以适配搜索引擎。我们现在需要考虑我们所有的内容、所有的数据、所有的知识被这些LLM消费。",
+      "timestamp": "14:48",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects.",
+      "zh": "它非常强大，因为如果你知道你在为LLM写作，幻觉的风险会大幅下降，因为它以模型期望的方式可被消费。",
+      "timestamp": "15:17",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost.",
+      "zh": "一个专注于全球工作和合规语料库的小语言模型，在质量上我们至少与Sonnet一样好，并且正在快速接近Opus。好处是秒级响应，而不是等待五、十、十五、二十秒，以及一小部分的成本。",
+      "timestamp": "17:04",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "One of the things I've really focused on asking my teams is: tell me the thing that didn't work. Tell me the thing the LLM sucks at. Because I find the teams that are performing really well understand where the edges are of the current model or approach.",
+      "zh": "我真正专注于问我的团队的一件事是：告诉我那些不起作用的东西。告诉我LLM不擅长的事情。因为我发现表现非常好的团队理解当前模型或方法的边界在哪里。",
+      "timestamp": "18:20",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Yes, you can technically use a wrench as a hammer, or a screwdriver as a hammer, but sometimes you just want the hammer.",
+      "zh": "是的，从技术上讲你可以把扳手当锤子用，或者把螺丝刀当锤子用，但有时候你就是想要那把锤子。",
+      "timestamp": "19:36",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "I joke about founders being like, \"I can now do 300% of our code using an LLM.\" That's more code than you. The math doesn't work, that's not how percentages work.",
+      "zh": "我开玩笑说创始人们就像\"我现在可以用LLM完成我们300%的代码\"。那比你的人还多。数学不成立，百分比不是那样算的。",
+      "timestamp": "20:02",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "In the before time, writing software, writing automation, was an incredibly expensive thing. Software was the last artisanal craft. Everything was handcrafted. You could look at a piece of code and know who wrote it.",
+      "zh": "在过去，写软件、写自动化是一件极其昂贵的事情。软件曾是最后一种手工艺。一切都是手工制作的。你可以看一段代码就知道是谁写的。",
+      "timestamp": "21:20",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "While any one of those things may not feel like a big deal, and if it was a big deal we probably already would have automated it, they compound. The pennies add up, and all of a sudden they become big numbers.",
+      "zh": "虽然其中任何一件事可能都不觉得是什么大事，而且如果是什么大事我们可能早就把它自动化了，但它们会复合。一分钱一分钱地累积，突然之间它们变成了大数字。",
+      "timestamp": "23:49",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "The old scaling function was that complexity would go geometrically against a linear scale, or exponentially in terms of complexity. Now that looks to be more linear, because you have so much compute resource keeping the complexity down.",
+      "zh": "旧的扩展函数是复杂度相对于线性规模呈几何级增长，或者说复杂度呈指数级增长。现在看起来更线性了，因为你拥有如此多的计算资源来压低复杂度。",
+      "timestamp": "24:09",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "People say there are no bad ideas; there actually are bad ideas. But what's great is the cost of failing fast has gotten so low.",
+      "zh": "人们说没有糟糕的想法；实际上是有糟糕的想法的。但很棒的是快速失败的代价已经变得如此之低。",
+      "timestamp": "25:17",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Because you can just do this now, it allows a class of people who wouldn't otherwise have raised their hand to advocate for this thing and make some really cool stuff, because everything is now safe enough to try.",
+      "zh": "因为现在你可以直接做这件事，这让一类原本不会举手的人能够为这个东西发声并做出一些非常酷的东西，因为现在一切都足够安全可以尝试。",
+      "timestamp": "25:42",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now.",
+      "zh": "我们今天面对的工程问题，与制造印刷机的人在琢磨的工程问题是一样的。维护成本这一直是真理。它现在看起来不同了。",
+      "timestamp": "26:25",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face.",
+      "zh": "在一个周末我可以构建任何曾经存在过的企业软件的快乐路径。我最喜欢的商业大师，Mike Tyson，也就是那个拳击手，说过每个傻瓜都有一个计划，直到你被打脸。",
+      "timestamp": "26:51",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard.",
+      "zh": "会有一批人，公民开发者或你想怎么称呼都行，他们将要学习我们在几十年、甚至几个世纪的工程中学到的所有教训：构建容易，维护困难。",
+      "timestamp": "28:15",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\"",
+      "zh": "解决技术债的唯一方法就是重写。关于重写的问题是它过去极其昂贵，所以那是人类所能想到的最糟糕的主意。现在是：\"等一下，也许那已经没有那么难做到了。\"",
+      "timestamp": "28:53",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "When companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably?",
+      "zh": "当公司面临那种截然对立的选择时，更快增长或盈利，他们会走向钟摆的一端或另一端。我们问的是，我们如何盈利地增长？",
+      "timestamp": "30:20",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them.",
+      "zh": "第二部分是，如果你从一个客户开始，你很难不盈利，因为我们不是在预期客户的情况下构建东西。我们是先找到客户，然后和他们一起构建。",
+      "timestamp": "30:54",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "No company is as sticky as it used to be. The switching cost has gone down across 100% of things.",
+      "zh": "没有公司还像以前那样有粘性了。切换成本在100%的事情上都下降了。",
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years.",
+      "zh": "几乎没有任何业务流程改变了。弄清楚某人需要如何获得报酬、某人获得多少报酬、你需要处理多少税、你如何申请这个签证的流程，这些在很大程度上是静态的，而且它们可能已经静态了一百年。",
+      "timestamp": "33:04",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "Each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed.",
+      "zh": "那些微观步骤中的每一步过去都必须由人类完成，然后由专家人类完成，然后由有良好指令的人类完成，然后由软件完成，现在由智能体完成。端到端的流程几乎没有改变。",
+      "timestamp": "33:35",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line.",
+      "zh": "但我们想要的是，人类只在那真正必要、需要他们专业知识的部分上工作。这很棒，因为所有那些人类现在都是高杠杆的。他们因为他们的专业知识而被重视，而不是因为他们沿着流水线搬东西的能力。",
+      "timestamp": "34:59",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "It's not going to replace your job, it's going to replace the worst part of your job. What's the detritus of your day that you don't derive any value from, don't add any value to, but it still needs to get done? That's what you give the agents.",
+      "zh": "它不会取代你的工作，它会取代你工作中最糟糕的部分。你一天中那些你从中得不到任何价值、也不添加任何价值、但它仍然需要被完成的无用杂务是什么？那就是你交给智能体的。",
+      "timestamp": "35:36",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "That judgment stuff, which relied on humans because computers were bad at it, computers are now actually really good at. So the set of detritus we couldn't do historically is now wildly achievable.",
+      "zh": "那些判断类的事情，过去依赖人类是因为计算机不擅长，现在计算机实际上真的非常擅长了。所以那些我们历史上无法处理的无用杂务，现在变得极度可实现。",
+      "timestamp": "36:31",
+      "speaker": "Aaron Goldsmid"
+    },
+    {
+      "en": "And the answer is that there's a lot of stuff that requires a little judgment, that probably occupies 80% of our day, that can go away.",
+      "zh": "而答案是，有很多事情需要一点点判断，它们大概占据了我们80%的时间，这些是可以消失的。",
+      "timestamp": "36:57",
+      "speaker": "Aaron Goldsmid"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:13",
+      "speaker": "Aaron Goldsmid",
+      "en": "It's picking up the change on the floor. Software was the last artisanal craft, and that has changed.",
+      "zh": "这就像捡起地上的零钱。软件曾是最后一种手工艺，而这一切已经改变了。"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Aaron Goldsmid",
+      "en": "I think it was around 250 million, which is an inconceivable amount of growth for such a short period of time. There's one other aspect I believe is true: we're also the largest remote company, full stop.",
+      "zh": "我记得当时大约是2.5亿，对于这么短的时间来说，这是难以置信的增长。我相信还有另一个事实：我们也是最大的远程办公公司，就这么简单。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Aaron Goldsmid",
+      "en": "It's very hard to change. So it's all centered around speed and customer centricity. I was at Amazon, and this is a new high-water mark for being customer-focused. You could be an average mid-market customer and be on a shared Slack channel with us within half an hour, talking to myself and most of the C-suite, and we'll probably be pushing code within 12 hours if it was an issue.",
+      "zh": "这很难改变。所以一切都围绕着速度和以客户为中心。我曾任职于Amazon，那是以客户为中心的新高水位线。你可以是一个普通的中端市场客户，在半小时内与我们在一个共享的Slack频道上，和我以及大部分高管层对话，如果是个问题，我们可能会在12小时内推送代码。"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Aaron Goldsmid",
+      "en": "Every strategic vision or insight I've ever had, even the ones that look like macroeconomic disruption, came from being in the weeds, working on something and just catching it, like, \"wait a second, what did that person just say? That was really interesting.\"",
+      "zh": "我曾有过的每一个战略愿景或洞察，即使是那些看起来像宏观经济颠覆的东西，都来自深入细节，在做某件事的时候恰好捕捉到它，比如\"等一下，那个人刚才说了什么？那真的很有意思。\""
+    },
+    {
+      "timestamp": "06:15",
+      "speaker": "Aaron Goldsmid",
+      "en": "It used to be that those were incredibly good proxies for complexity, for output, for scope. But in the last 18 months, those proxies are just not valid anymore. So I end up focusing on how leveraged these people are.",
+      "zh": "过去这些是衡量复杂度、产出、范围非常好的代理指标。但在过去18个月里，这些代理指标已经不再有效了。所以我最终关注的是这些人有多高的杠杆。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "It's not a time for pretty presentations. It's a time for the real work, and the only time that meeting goes well is when the team is aligned. They don't have to agree, but they have to be aligned.",
+      "zh": "这不是做漂亮演示的时间。这是做真正工作的时间，而那个会议顺利进行的唯一条件是团队是对齐的。他们不必同意，但他们必须对齐。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "Ideally, if you're doing your job well, the decisions are better when you're not there. The litmus test I hold for myself is: are my leaders asking all the questions in those reviews that I would, or better?",
+      "zh": "理想情况下，如果你把工作做好了，当你不在那里时决策反而更好。我为自己设置的试金石是：我的领导者在那些评审中问的问题，是否是我会问的，或者更好？"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "Sadly, I'm wildly predictable, which I was kind of disappointed by, that I could be reduced to a soundboard, but apparently it's true.",
+      "zh": "可悲的是，我非常可预测，这让我有点失望，我居然可以被简化成一个共鸣板，但显然这是真的。"
+    },
+    {
+      "timestamp": "11:05",
+      "speaker": "Aaron Goldsmid",
+      "en": "But now I don't even need them to be awake to have that information flowing very freely.",
+      "zh": "但现在我甚至不需要他们醒着，就能让信息非常自由地流动。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Aaron Goldsmid",
+      "en": "I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs.",
+      "zh": "我谈论这件事已经有几年了：有一个新版本的SEO。我们几乎不得不重写整个互联网以适配搜索引擎。我们现在需要考虑我们所有的内容、所有的数据、所有的知识被这些LLM消费。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Aaron Goldsmid",
+      "en": "It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects.",
+      "zh": "它非常强大，因为如果你知道你在为LLM写作，幻觉的风险会大幅下降，因为它以模型期望的方式可被消费。"
+    },
+    {
+      "timestamp": "15:58",
+      "speaker": "Aaron Goldsmid",
+      "en": "At the end of the day, the LLM is non-deterministic: you ask it a question a thousand times, it's not going to give you the same answer a thousand times.",
+      "zh": "归根结底，LLM是非确定性的：你问它一个问题一千次，它不会给你一千次相同的答案。"
+    },
+    {
+      "timestamp": "16:38",
+      "speaker": "Aaron Goldsmid",
+      "en": "We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost.",
+      "zh": "一个专注于全球工作和合规语料库的小语言模型，在质量上我们至少与Sonnet一样好，并且正在快速接近Opus。好处是秒级响应，而不是等待五、十、十五、二十秒，以及一小部分的成本。"
+    },
+    {
+      "timestamp": "16:38",
+      "speaker": "Aaron Goldsmid",
+      "en": "What we're really seeing is that the investment in that foundational work is allowing us to build a moat in an AI world, because we now have our own model and it's performing really well.",
+      "zh": "我们真正看到的是，对那些基础工作的投入正在让我们在一个AI世界里建立护城河，因为我们现在有了自己的模型，而且它表现得非常好。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Aaron Goldsmid",
+      "en": "One of the things I've really focused on asking my teams is: tell me the thing that didn't work. Tell me the thing the LLM sucks at. Because I find the teams that are performing really well understand where the edges are of the current model or approach.",
+      "zh": "我真正专注于问我的团队的一件事是：告诉我那些不起作用的东西。告诉我LLM不擅长的事情。因为我发现表现非常好的团队理解当前模型或方法的边界在哪里。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Aaron Goldsmid",
+      "en": "Yes, you can technically use a wrench as a hammer, or a screwdriver as a hammer, but sometimes you just want the hammer.",
+      "zh": "是的，从技术上讲你可以把扳手当锤子用，或者把螺丝刀当锤子用，但有时候你就是想要那把锤子。"
+    },
+    {
+      "timestamp": "18:08",
+      "speaker": "Aaron Goldsmid",
+      "en": "I joke about founders being like, \"I can now do 300% of our code using an LLM.\" That's more code than you. The math doesn't work, that's not how percentages work.",
+      "zh": "我开玩笑说创始人们就像\"我现在可以用LLM完成我们300%的代码\"。那比你的人还多。数学不成立，百分比不是那样算的。"
+    },
+    {
+      "timestamp": "21:17",
+      "speaker": "Aaron Goldsmid",
+      "en": "In the before time, writing software, writing automation, was an incredibly expensive thing. Software was the last artisanal craft. Everything was handcrafted. You could look at a piece of code and know who wrote it.",
+      "zh": "在过去，写软件、写自动化是一件极其昂贵的事情。软件曾是最后一种手工艺。一切都是手工制作的。你可以看一段代码就知道是谁写的。"
+    },
+    {
+      "timestamp": "21:17",
+      "speaker": "Aaron Goldsmid",
+      "en": "While any one of those things may not feel like a big deal, and if it was a big deal we probably already would have automated it, they compound. The pennies add up, and all of a sudden they become big numbers.",
+      "zh": "虽然其中任何一件事可能都不觉得是什么大事，而且如果是什么大事我们可能早就把它自动化了，但它们会复合。一分钱一分钱地累积，突然之间它们变成了大数字。"
+    },
+    {
+      "timestamp": "21:17",
+      "speaker": "Aaron Goldsmid",
+      "en": "The old scaling function was that complexity would go geometrically against a linear scale, or exponentially in terms of complexity. Now that looks to be more linear, because you have so much compute resource keeping the complexity down.",
+      "zh": "旧的扩展函数是复杂度相对于线性规模呈几何级增长，或者说复杂度呈指数级增长。现在看起来更线性了，因为你拥有如此多的计算资源来压低复杂度。"
+    },
+    {
+      "timestamp": "25:01",
+      "speaker": "Aaron Goldsmid",
+      "en": "People say there are no bad ideas; there actually are bad ideas. But what's great is the cost of failing fast has gotten so low.",
+      "zh": "人们说没有糟糕的想法；实际上是有糟糕的想法的。但很棒的是快速失败的代价已经变得如此之低。"
+    },
+    {
+      "timestamp": "25:01",
+      "speaker": "Aaron Goldsmid",
+      "en": "Because you can just do this now, it allows a class of people who wouldn't otherwise have raised their hand to advocate for this thing and make some really cool stuff, because everything is now safe enough to try.",
+      "zh": "因为现在你可以直接做这件事，这让一类原本不会举手的人能够为这个东西发声并做出一些非常酷的东西，因为现在一切都足够安全可以尝试。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Aaron Goldsmid",
+      "en": "The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now.",
+      "zh": "我们今天面对的工程问题，与制造印刷机的人在琢磨的工程问题是一样的。维护成本这一直是真理。它现在看起来不同了。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Aaron Goldsmid",
+      "en": "In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face.",
+      "zh": "在一个周末我可以构建任何曾经存在过的企业软件的快乐路径。我最喜欢的商业大师，Mike Tyson，也就是那个拳击手，说过每个傻瓜都有一个计划，直到你被打脸。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Aaron Goldsmid",
+      "en": "There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard.",
+      "zh": "会有一批人，公民开发者或你想怎么称呼都行，他们将要学习我们在几十年、甚至几个世纪的工程中学到的所有教训：构建容易，维护困难。"
+    },
+    {
+      "timestamp": "26:20",
+      "speaker": "Aaron Goldsmid",
+      "en": "The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\"",
+      "zh": "解决技术债的唯一方法就是重写。关于重写的问题是它过去极其昂贵，所以那是人类所能想到的最糟糕的主意。现在是：\"等一下，也许那已经没有那么难做到了。\""
+    },
+    {
+      "timestamp": "30:05",
+      "speaker": "Aaron Goldsmid",
+      "en": "When companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably?",
+      "zh": "当公司面临那种截然对立的选择时，更快增长或盈利，他们会走向钟摆的一端或另一端。我们问的是，我们如何盈利地增长？"
+    },
+    {
+      "timestamp": "30:05",
+      "speaker": "Aaron Goldsmid",
+      "en": "The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them.",
+      "zh": "第二部分是，如果你从一个客户开始，你很难不盈利，因为我们不是在预期客户的情况下构建东西。我们是先找到客户，然后和他们一起构建。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "No company is as sticky as it used to be. The switching cost has gone down across 100% of things.",
+      "zh": "没有公司还像以前那样有粘性了。切换成本在100%的事情上都下降了。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years.",
+      "zh": "几乎没有任何业务流程改变了。弄清楚某人需要如何获得报酬、某人获得多少报酬、你需要处理多少税、你如何申请这个签证的流程，这些在很大程度上是静态的，而且它们可能已经静态了一百年。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "Each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed.",
+      "zh": "那些微观步骤中的每一步过去都必须由人类完成，然后由专家人类完成，然后由有良好指令的人类完成，然后由软件完成，现在由智能体完成。端到端的流程几乎没有改变。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. That's where agents have been able to unlock that next set of macro processes.",
+      "zh": "有一类问题曾经很容易自动化，把这个文件从这里移到那里，把这个广告匹配给这个人。但我们卡住的地方是下一类问题，它需要一点点判断。这就是智能体能够解锁下一组宏观流程的地方。"
+    },
+    {
+      "timestamp": "32:24",
+      "speaker": "Aaron Goldsmid",
+      "en": "But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line.",
+      "zh": "但我们想要的是，人类只在那真正必要、需要他们专业知识的部分上工作。这很棒，因为所有那些人类现在都是高杠杆的。他们因为他们的专业知识而被重视，而不是因为他们沿着流水线搬东西的能力。"
+    },
+    {
+      "timestamp": "35:34",
+      "speaker": "Aaron Goldsmid",
+      "en": "It's not going to replace your job, it's going to replace the worst part of your job. What's the detritus of your day that you don't derive any value from, don't add any value to, but it still needs to get done? That's what you give the agents.",
+      "zh": "它不会取代你的工作，它会取代你工作中最糟糕的部分。你一天中那些你从中得不到任何价值、也不添加任何价值、但它仍然需要被完成的无用杂务是什么？那就是你交给智能体的。"
+    },
+    {
+      "timestamp": "35:34",
+      "speaker": "Aaron Goldsmid",
+      "en": "That judgment stuff, which relied on humans because computers were bad at it, computers are now actually really good at. So the set of detritus we couldn't do historically is now wildly achievable.",
+      "zh": "那些判断类的事情，过去依赖人类是因为计算机不擅长，现在计算机实际上真的非常擅长了。所以那些我们历史上无法处理的无用杂务，现在变得极度可实现。"
+    },
+    {
+      "timestamp": "36:57",
+      "speaker": "Aaron Goldsmid",
+      "en": "And the answer is that there's a lot of stuff that requires a little judgment, that probably occupies 80% of our day, that can go away.",
+      "zh": "而答案是，有很多事情需要一点点判断，它们大概占据了我们80%的时间，这些是可以消失的。"
+    }
+  ],
+  "voice_script": "今天这一期，来聊一家挺特别的公司的内部变化。公司叫Deel，做的是跨境雇佣和发薪，全球最大的全远程公司。四年里，年经常性收入从大约两亿五千万美元，涨到了十五亿美元，而且已经连续盈利将近三年。今天的主角，是负责产品的高级副总裁Aaron Goldsmid，之前在Amazon、Facebook和Twilio都干过。这一期要讲的，其实是一个很多公司还没想明白的问题：当人手不再是产出的衡量标准，公司该怎么管理、怎么挣钱。他们靠AI省下了相当于六百个人的工作量，还多赚了一亿四千万美元。这中间发生了什么，咱们一步步说。\n\n先从人数说起。Deel的研发团队大约一千七百人，产品团队一百二十人，每天还在新招一两个工程师。但Goldsmid说，这些数字他已经不太看了。为什么？因为过去，团队人数是衡量复杂度、产出和范围的好参照，可过去十八个月，这个参照失效了。AI让人能干的事变多了，人数和产出对不上号了。所以现在他只关心一件事：这些人是不是被充分用到，有没有资源把事情做完。具体怎么管理？双周业务评审，工程、产品、设计坐在一起，只谈实际工作，不许做漂亮演示。团队可以意见不合，但必须信息对齐，分歧不能超过两周。有意思的是，他还连夜做了个小机器人，读完全部评审记录，预测自己会问什么问题。结果发现自己极其可预测，有点失望。不过这工具有个好处：一线产品经理可以提前把答案想好，省掉事后懊悔的循环。\n\n那要让人被充分用到，首先得让信息流通起来，这就引出了下一个话题：数据。Deel建了一个语义层，说白了就是让人可以直接用自然语言问数据问题。对一家全球分布的公司，这太重要了：任何时刻都有同事在睡觉，以前要等对方醒来才能拿到数据，现在不用了。Goldsmid有个观察：这是搜索优化的新版本。当年互联网几乎为搜索引擎重写了一遍，现在所有内容、数据和知识，都要为大模型重新组织。他们把几千名合规专家的知识，放进一个标准化的知识库，让模型只从这里取内容。好处是，内容本来就是模型容易消化的形式，幻觉风险大幅下降，输出也稳定得多。\n\n有了可靠的知识库，接下来就可以谈模型本身了。Deel没有用最贵的顶级大模型，而是在这个自建知识库上训练小语言模型，效果至少和Anthropic的Sonnet一样好，正在逼近Opus，但响应快得多，成本只有零头。关键在哪？在于可靠：模型是在已知正确的数据上训练的，而不是训练了整个互联网，然后恳求它别看别处。另外，Goldsmid还要求团队说清楚大模型不擅长什么。表现最好的团队都了解工具的边界，就像扳手也能当锤子使，但有时候你就是需要一把锤子。\n\n好，铺垫到这里，那一亿四千万美元到底是怎么来的？Goldsmid的回答很妙：这是弯腰捡地上的零钱。过去写软件是最后一种手工艺，看一段代码就知道是谁写的。正因为软件太贵，公司里堆积了大量没人知道的手工活：有人每个月手动重排一张表格，有人因为系统没接口，定期登录去点一个按钮。这些事太小，不值得立项，甚至从来没进过待办清单。AI改变了两件事：一是能处理的问题清单一下子深了好多层；二是把自动化从工程师手里解放出来。他们的产品叫AKI，让非技术人员像带实习生一样教系统：你做一遍，它看着学，然后做给你检查。单个看都是小事，但复利累积，零钱就变成了大数字。而且复杂度的增长曲线，从几何级变回了线性。\n\n当然，这些自动化想法里，肯定有不少烂主意。Goldsmid也不回避，坏主意是真实存在的。但快速失败的成本已经低到不用心疼。更妙的是，一批原本不好意思举手的人，现在能直接动手做那些自己觉得不值一提的事，里面藏着真正的钻石。那有人要问了，这些软件是自己建还是外购？这里引了一句拳王Mike Tyson的话：每个人都有计划，直到脸上挨了一拳。一个周末就能搭出任何企业软件的顺路版本，但维护才是真正难的部分。建容易、养难，这个老教训，新一代平民开发者还得重新学一遍。\n\n再往深处问一层：Deel凭什么能一边高速增长一边盈利近三年？答案是，别的公司把增长还是盈利当二选一，而Deel问的是，怎么盈利地增长。即使某项业务眼下效率低，也要算清楚单位经济模型，确信规模化后会变好。更重要的是，他们不做凭想象预判客户要什么的产品，而是先找到客户，和客户一起建。产品还没开建就已经有买家，收入从来不是问题。\n\n最后一个值得认真想的问题：发薪这种转换成本极高的业务，也不怕被替代吗？Goldsmid说得很直白：没有任何公司像以前那么黏了，所有软件的切换成本都在下降，一年后会更低。他的应对是回到本质：大模型本质上是在模仿人类行为，而底层业务流程——怎么发工资、怎么算税、怎么办签证——一百年没变过。变的是每个微观步骤由谁来做：过去是人，后来是专家和软件，现在是代理。那些过去需要一点点判断力的环节，正是代理解锁的新空间。当然，合规、工资发放、复杂的解约，这些关键环节必须有人类在环，不能拿来试错。但人应该只做真正需要专业判断的部分，这样每个人都是高杠杆的人才。\n\n这一期里有句话流传最广，就拿它收尾：AI不会取代你的工作，它取代的是你工作里最差的那部分。"
+}

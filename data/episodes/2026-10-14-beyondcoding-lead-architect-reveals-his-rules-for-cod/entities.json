@@ -1,0 +1,1256 @@
+{
+  "episode_id": "2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod",
+  "podcast": "Beyond Coding",
+  "date": "2026-10-14",
+  "tags": [
+    "AI 编程",
+    "智能体工程",
+    "脚手架",
+    "软件协作",
+    "编程语言"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "carlos-kelpbaum",
+      "type": "person",
+      "role": "host",
+      "name": "Carlos Kelpbaum",
+      "file": "Carlos Kelpbaum",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            69.953,
+            73.117
+          ],
+          "quote": "This is Carlos Kelpbaum, one of the best engineers I know.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线:Carlos 的智能体工作法——智能体擅长一次性蛮干大任务、不擅长迭代修改和构建整个应用,所以要用脚手架引导、审查看不懂就扔掉;他还观察到「你和你的智能体一起工作,但不再和团队一起工作」的协作退化趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            73.858,
+            75.48
+          ],
+          "quote": "His main agent doesn't even touch files.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            246.224,
+            251.226
+          ],
+          "quote": "And that is still something you can iterate with your agent, but you need to communicate to the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            401.553,
+            405.537
+          ],
+          "quote": "And then for people that are experiencing this, me and my agent, we're kind of in a bubble.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 99,
+          "t": [
+            405.597,
+            410.461
+          ],
+          "quote": "And if I have a question, instead of going and reaching out to you, I would ask my agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 118,
+          "t": [
+            529.508,
+            531.889
+          ],
+          "quote": "If the trend I see is that you would ask your agent, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 120,
+          "t": [
+            540.331,
+            546.352
+          ],
+          "quote": "I've heard people say, ask your agent first before asking me, which is, it's kind of funny in a very horrible way.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 159,
+          "t": [
+            767.302,
+            771.045
+          ],
+          "quote": "And by just having an agent spit out the code for you, you're not learning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            816.367,
+            826.649
+          ],
+          "quote": "Does learning how to operate my agents and sub-agents and all the agent artifacts with as new as new harness features come out, does that count as well from your perspective?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            917.577,
+            922.922
+          ],
+          "quote": "And then the agent is just a master at spitting out a compiler exactly for the language that I need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            954.107,
+            968.154
+          ],
+          "quote": "I've had a lot of times where, uh, for example, um, I had a deploy script and for some reason, the agent decided that we were not using the deploy script anymore, but they scaffolded a few different scripts and nobody knew what they did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            972.053,
+            987.041
+          ],
+          "quote": "Skipping that part and being very explicit in what you want your agent to do is I think a skill that will make a 10x agentic engineer, a 100x agentic engineer, being very intentional.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1057.097,
+            1060.238
+          ],
+          "quote": "If I were to do that now, I would likely ask my agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1075.955,
+            1089.949
+          ],
+          "quote": "And I would download this project and if you want to work within, I call it an agent bubble, then you would ask the agent, okay, distill the great patterns from this project, distill the great patterns from that project, and then I would have some sort of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1137.289,
+            1148.918
+          ],
+          "quote": "And only when I had a good feeling of what I wanted to do, I would start with very small POCs, like a certain scaffold, and then ask the agent, is this a scaffold that would work?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1153.902,
+            1158.986
+          ],
+          "quote": "And once I would feel comfortable with the solution, I would ask the agent to build it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1171.192,
+            1180.416
+          ],
+          "quote": "And just from my understanding, if I don't have the scaffolding, the consequence of that is that the agent kind of interprets what is good scaffolding and just goes ahead and builds the thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1238.075,
+            1241.217
+          ],
+          "quote": "And I was working on that compiler for a month, I think, with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1245.679,
+            1249.821
+          ],
+          "quote": "And so at the end, I asked the agent, okay, please review the list feature.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1254.94,
+            1258.202
+          ],
+          "quote": "And that is the thing that happens if you just brute force it with an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1267.988,
+            1278.414
+          ],
+          "quote": "I like your approach of looking at what is out there in open source and then asking what are good patterns and really helping the agent to help you explain things or understand things better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1279.414,
+            1283.997
+          ],
+          "quote": "You help the agent and it needs to explain things so you can understand it better, so you can internalize.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1307.434,
+            1312.659
+          ],
+          "quote": "If I haven't learned the language, because I don't know many languages, I know you do, do I do that with my agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1317.964,
+            1319.085
+          ],
+          "quote": "Just start with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1320.343,
+            1325.728
+          ],
+          "quote": "But also ask the agent, okay, what are some critical ideas behind this language?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1332.454,
+            1339.299
+          ],
+          "quote": "So for example, if you know C-sharp and you want to learn Go, just ask the agent, okay, I know C-sharp.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1354.964,
+            1355.984
+          ],
+          "quote": "The agent will correct it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1356.544,
+            1366.687
+          ],
+          "quote": "But if you scaffold that code, even if it's just a quick sketch with some comments in there, and then ask the agent to review your scaffolding,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1367.5,
+            1376.184
+          ],
+          "quote": "And then the agent will do a review and will tell you honestly, usually, this is wrong, that is wrong, this is wrong, and then you start challenging.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1444.712,
+            1458.54
+          ],
+          "quote": "And then have sort of an intermediate phase where we generate things like a diagram or a video or just something very visual or audio where the agent tries to explain what you're trying to achieve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1814.889,
+            1826.119
+          ],
+          "quote": "I think it will go so far that everybody, just by having a conversation with their agent, will define their own language on top of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1841.871,
+            1844.113
+          ],
+          "quote": "When I'm talking about an agent, is that a custom agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1844.213,
+            1845.294
+          ],
+          "quote": "Is that a local agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1845.474,
+            1847.996
+          ],
+          "quote": "Is that sub-agent, main agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2074.429,
+            2077.33
+          ],
+          "quote": "The way I am effective is I let my agent handle everything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2081.431,
+            2083.974
+          ],
+          "quote": "Or other people review my code that the agent has created.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2114.419,
+            2125.643
+          ],
+          "quote": "But if it is purely for yourself, I don't understand the fun in asking the agent to do something and then",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2127.705,
+            2133.189
+          ],
+          "quote": "Go out and do some shopping or go to the cinema and then coming back and then being satisfied with what the agent gave.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2181.433,
+            2186.577
+          ],
+          "quote": "With that, I have the behavior of, let me just throw an agent at this problem and see what comes out of it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2370.186,
+            2374.531
+          ],
+          "quote": "So are the choices that I've made just me and my agent trying to get the outcome as soon as possible?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2395.4,
+            2397.4
+          ],
+          "quote": "I don't know if I would be able to do that with my agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2436.434,
+            2440.795
+          ],
+          "quote": "And with that scaffolding, you give your agent a priority on the things that you need.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2568.378,
+            2569.98
+          ],
+          "quote": "And then let the agent try it again.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2651.493,
+            2653.474
+          ],
+          "quote": "And then I ask a fourth agent compare what they did.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2740.847,
+            2752.955
+          ],
+          "quote": "If I don't specify what I want a token to be, the agent is just gonna come up with an enumeration of all of my token types and then maybe a sort of position in the source code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2768.065,
+            2771.528
+          ],
+          "quote": "And the agent is very happy to then just work with what I gave it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 689,
+          "t": [
+            3458.56,
+            3468.805
+          ],
+          "quote": "So do you have any deterministic paths or tools that help the agent stay within the boundaries that you've set or stay within the scaffolding that you've set?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3622.446,
+            3634.11
+          ],
+          "quote": "So for example, I call it a research agent, but it's a little less than that, but it does that with URLs and websites and all of that kind of stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3694.613,
+            3703.805
+          ],
+          "quote": "But currently it's holding up and it's actually quite valuable because I've also structured my agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3703.985,
+            3708.51
+          ],
+          "quote": "So the first agent I talk to always has this idea of an open mode.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3714.585,
+            3722.809
+          ],
+          "quote": "Change my machine, but it's only there for me to have a conversation with the agent and for it to either teach me or for me to teach it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3750.701,
+            3756.085
+          ],
+          "quote": "Does that also mean you don't parallelize across multiple main agent loops?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3759.268,
+            3765.392
+          ],
+          "quote": "So you still have the way of working that the agent you talk to doesn't change any code, doesn't change anything on your file system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3769.635,
+            3774.079
+          ],
+          "quote": "But you still parallelize that, and you have another main agent loop with that same behavior.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3776.112,
+            3778.718
+          ],
+          "quote": "Why don't you let the main agent change any files?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3855.876,
+            3865.259
+          ],
+          "quote": "And only if the agent is confident above 90% that it knows what I want, I want it to ask me to spin up sub-agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3883.934,
+            3889.642
+          ],
+          "quote": "Have you then also started shifting kind of the amount of work you do upfront together with that agent loop?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 826,
+          "t": [
+            4037.464,
+            4041.125
+          ],
+          "quote": "How do you get that feedback back into the agent loop if it's not what you expected?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 842,
+          "t": [
+            4116.221,
+            4117.501
+          ],
+          "quote": "I close the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 846,
+          "t": [
+            4131.189,
+            4134.991
+          ],
+          "quote": "That's why it's an open agent and not one immediately focusing on the code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4224.632,
+            4236.241
+          ],
+          "quote": "So again, we have this big feature set, we have the interaction with the main agent, you're happy, you think expectations are met, some agents do work, and the end of a 12-hour loop is there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 880,
+          "t": [
+            4331.685,
+            4337.831
+          ],
+          "quote": "So just ask the agent to write less code and then the review will become a lot easier.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4342.456,
+            4345.899
+          ],
+          "quote": "You try to force the agent to keep your features small.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            4551.248,
+            4562.31
+          ],
+          "quote": "I've seen a lot of mistakes by the agent where a few iterations later it just told me, yeah, but I did it like that back there, so I don't know what you're asking.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4667.209,
+            4674.472
+          ],
+          "quote": "And then all of that is, I think, something that you do not want to let the agent decide by itself.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sub-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (sub-agent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集说 Carlos 的主智能体绝不碰代码,只在置信度超过 90% 后才派子智能体去实际执行,子智能体可以连续跑 12 小时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 367,
+          "t": [
+            1845.474,
+            1847.996
+          ],
+          "quote": "Is that sub-agent, main agent?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "main-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "主智能体 (main agent)",
+      "file": "主智能体",
+      "primary": true,
+      "how_described": "本集说他对话的主智能体永远不改文件、不动机器,唯一职责是和他聊、教他或被他教,聊过的内容存进分布式知识网络;规矩来自一次顿悟——它满脑子只有「我现在能不能帮你写代码」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            73.858,
+            75.48
+          ],
+          "quote": "His main agent doesn't even touch files.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1845.474,
+            1847.996
+          ],
+          "quote": "Is that sub-agent, main agent?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 740,
+          "t": [
+            3750.701,
+            3756.085
+          ],
+          "quote": "Does that also mean you don't parallelize across multiple main agent loops?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3769.635,
+            3774.079
+          ],
+          "quote": "But you still parallelize that, and you have another main agent loop with that same behavior.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3776.112,
+            3778.718
+          ],
+          "quote": "Why don't you let the main agent change any files?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 863,
+          "t": [
+            4224.632,
+            4236.241
+          ],
+          "quote": "So again, we have this big feature set, we have the interaction with the main agent, you're happy, you think expectations are met, some agents do work, and the end of a 12-hour loop is there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "scaffold",
+      "type": "concept",
+      "role": "concept",
+      "name": "脚手架 (scaffold)",
+      "file": "脚手架",
+      "primary": true,
+      "how_described": "本集反复强调的核心方法:写代码前亲手创建目录结构、文件、注释、函数签名,花 20 分钟到 1 小时,引导智能体按想要的方式实现,避免重复代码、内聚性问题和巨型对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 173,
+          "t": [
+            844.744,
+            846.124
+          ],
+          "quote": "I now scaffold the code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            890.432,
+            892.592
+          ],
+          "quote": "And so I scaffold that manually.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            893.033,
+            897.613
+          ],
+          "quote": "And that takes me 20 minutes, 30 minutes, sometimes an hour to scaffold it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1137.289,
+            1148.918
+          ],
+          "quote": "And only when I had a good feeling of what I wanted to do, I would start with very small POCs, like a certain scaffold, and then ask the agent, is this a scaffold that would work?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1304.471,
+            1306.252
+          ],
+          "quote": "When I then think of, okay, how would I scaffold?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1347.842,
+            1349.462
+          ],
+          "quote": "And then scaffold a little bit of code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1356.544,
+            1366.687
+          ],
+          "quote": "But if you scaffold that code, even if it's just a quick sketch with some comments in there, and then ask the agent to review your scaffolding,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2534.293,
+            2541.095
+          ],
+          "quote": "Maybe it's a fun experiment to do the same thing again, but this time, try to put a scaffold in.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2666.302,
+            2667.643
+          ],
+          "quote": "And then when you have a scaffold,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2674.58,
+            2683.129
+          ],
+          "quote": "Oh, the scaffold works so incredibly well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2683.369,
+            2688.074
+          ],
+          "quote": "I have to admit, I scaffold deeper and further than I would advise people to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2753.515,
+            2757.378
+          ],
+          "quote": "But if I scaffold the token to have exactly what I want it to be, like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2839.471,
+            2851.059
+          ],
+          "quote": "Again, thinking about speaking the same language, when you say scaffold, I have an idea of indeed what a scaffold means, but then I heard you kind of lay out the depth of what scaffolding means for you, or at least your approach towards scaffolding.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3522.57,
+            3528.315
+          ],
+          "quote": "So I design my scaffold, my harness in the same style as I build a social network.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 828,
+          "t": [
+            4047.226,
+            4056.935
+          ],
+          "quote": "I don't even try to go much deeper than that because I know that if I don't understand it, it has not continued in the scaffold that I gave it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4193.04,
+            4201.427
+          ],
+          "quote": "So whether or not it has to build a script that does exactly what I want, or I need to put the scaffold in place a little bit more, a little bit harder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 912,
+          "t": [
+            4518.471,
+            4527.079
+          ],
+          "quote": "We need to have static code analyzers that start from the scaffold that you did and try to see how much percentage of that scaffold is still standing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 922,
+          "t": [
+            4607.11,
+            4616.201
+          ],
+          "quote": "I scaffold, and that is what a senior engineer would do on a team.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取请求 (pull request)",
+      "file": "拉取请求",
+      "primary": true,
+      "how_described": "本集以它代表正在消失的协作:以前人们在自己和别人的拉取请求上评论,现在有人说拉取请求可能会消失;Carlos 担心 PR 里不再有评论、只剩「Looks good to me」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            136.946,
+            139.529
+          ],
+          "quote": "Some people are even saying a pull request might disappear.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3088.168,
+            3098.774
+          ],
+          "quote": "Um, we're not even doing full, uh, PR cycles anymore, pull request cycles where we do comments and that kind of stuff where you have an honest conversation about what is the quality of software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 873,
+          "t": [
+            4275.951,
+            4282.856
+          ],
+          "quote": "So one of the things that I see happening more and more and more is there are no comments in a pull request anymore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 897,
+          "t": [
+            4422.789,
+            4434.136
+          ],
+          "quote": "I've seen different visualizations or even interfaces, which is not Git, for example, but if you have an interaction with your harness like you do, then that interaction would also be there in the pull request.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集说上下文会不断重置、不能太大否则会幻觉且昂贵,Carlos 把积累上下文设计成社交网络式的渐进式披露:信息节点加元数据,按相关性排序,层层深挖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 694,
+          "t": [
+            3493.995,
+            3504.579
+          ],
+          "quote": "Building up knowledge for the context for your AI to make decisions or to have a communication with means that you need to feed it with some information because your context keeps resetting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3572.587,
+            3587.077
+          ],
+          "quote": "Before I let it look at the full code, I found that looking at the change first is a really good way of preparing the context or I almost feel like it's warming up for the real code files.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3926.773,
+            3929.213
+          ],
+          "quote": "He's the guy that coined the term context engineering.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3958.208,
+            3964.81
+          ],
+          "quote": "So at some point it just got stuck and it just broke the changes and all of a sudden started hallucinating based on, or it couldn't really manage the context.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 843,
+          "t": [
+            4118.362,
+            4125.486
+          ],
+          "quote": "I start up a new context and I tell it, okay, previously this and this and this went wrong.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-language",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性语言 (deterministic language)",
+      "file": "确定性语言",
+      "primary": true,
+      "how_described": "本集说 Carlos 正在用智能体构建一门新编程语言:摆脱堆、指针和动态内存,分三层(人类写码、可视化中间层、机器表示),像卫星场景一样要求内存绝不溢出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 290,
+          "t": [
+            1411.56,
+            1417.89
+          ],
+          "quote": "So I think we need to have a very deterministic language and we need to have that language in three phases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1614.035,
+            1617.159
+          ],
+          "quote": "I think I forgot to say why a deterministic language is important.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": true,
+      "how_described": "本集说人们在用 Rust 构建卫星等场景,它上面有精简特性集合的标准来让语言确定,但写起来非常痛苦;Carlos 觉得 Rust 后期难改,能工作就不再碰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 328,
+          "t": [
+            1656.253,
+            1660.418
+          ],
+          "quote": "I feel like that's why, at least when we're talking about satellites, people are building a lot of things in rust.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1671.749,
+            1685.896
+          ],
+          "quote": "Rust has a standard on top of it with a very reduced set of language features you can use to make the language deterministic, but it is a true pain to write, or at least has been my experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1687.276,
+            1689.697
+          ],
+          "quote": "Have you experimented with letting agents write Rust?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1707.044,
+            1711.705
+          ],
+          "quote": "And I've always found Rust very hard to change later.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1712.405,
+            1719.966
+          ],
+          "quote": "So if you have a piece of Rust code that works, I prefer not to touch it anymore.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1727.823,
+            1730.085
+          ],
+          "quote": "But that's my personal experience of Rust.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2688.955,
+            2695.097
+          ],
+          "quote": "So if I'm scaffolding a Rust application, for example, I generate the crates.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mutation-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "变异测试 (mutation testing)",
+      "file": "变异测试",
+      "primary": false,
+      "how_described": "本集说单元测试很容易造假,其上还有一层变异测试,但对机器负担很重,Carlos 做变异测试时搞坏过 CPU 的几个 P 核。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 908,
+          "t": [
+            4496.409,
+            4500.432
+          ],
+          "quote": "And so there's a different layer on top of unit testing and it's called mutation testing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 909,
+          "t": [
+            4501.773,
+            4505.736
+          ],
+          "quote": "And mutation testing, on the other hand, is very heavy for your machine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 910,
+          "t": [
+            4506.136,
+            4511.42
+          ],
+          "quote": "I broke a few P cores in my CPU by doing mutation testing on the code that I was writing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源项目 (open source)",
+      "file": "开源项目",
+      "primary": false,
+      "how_described": "本集建议学新东西时先找已有的开源项目下载下来,让智能体提炼其中的好模式、讲解好坏部分;还提到开源运动作为协作的范例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            433.799,
+            436.8
+          ],
+          "quote": "So you've had this open source movement for a very long time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1066.866,
+            1074.714
+          ],
+          "quote": "How I would do it these days if I had to learn something completely new, I would first search for open source projects that are already there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1267.988,
+            1278.414
+          ],
+          "quote": "I like your approach of looking at what is out there in open source and then asking what are good patterns and really helping the agent to help you explain things or understand things better.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2212.035,
+            2214.297
+          ],
+          "quote": "I was at a conference and I was like, are you guys going to open source this?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2227.832,
+            2228.853
+          ],
+          "quote": "But they didn't open source it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2772.829,
+            2778.693
+          ],
+          "quote": "Do you have any open source projects that I can share in the show notes where people can look at kind of the scaffolding or how you've approached things?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": false,
+      "how_described": "本集说 GPU 非常确定性——分配内存、填满、跑函数,没有堆和分配的复杂性;Carlos 主张把 CPU 以确定性的方式拉回到 GPU 的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 308,
+          "t": [
+            1533.623,
+            1542.666
+          ],
+          "quote": "So if you want to build for a GPU, you need to write in a completely different style than if you write for a CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1556.351,
+            1561.636
+          ],
+          "quote": "And so your GPU is very deterministic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1572.145,
+            1576.629
+          ],
+          "quote": "Now, it's really hard to bring the GPU up to the CPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1580.532,
+            1588.035
+          ],
+          "quote": "I think we need to bring the CPU in a deterministic way back to what a GPU does but with different computational sets on top of it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

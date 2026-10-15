@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":1,"pull request":6,"代码审查":24,"沙箱":99,"Codex":89,"Devin":4,"Claude":97,"Cursor":87,"vibe coding":51}</script>
+<script type="application/json" class="pd-epn">{"Greptile":1,"智能体":1,"pull request":7,"代码审查":24,"沙箱":100,"Codex":90,"Devin":4,"Claude":97,"Cursor":87,"vibe coding":51}</script>
 
 <script>
 (function(){

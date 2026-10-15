@@ -1,0 +1,627 @@
+{
+  "episode_id": "2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do",
+  "podcast": "The Product Podcast",
+  "date": "2026-10-14",
+  "tags": [
+    "AI 智能体",
+    "产品管理",
+    "远程办公",
+    "小语言模型",
+    "自动化"
+  ],
+  "categories": [
+    "智能体",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "aaron-goldsmid",
+      "type": "person",
+      "role": "host",
+      "name": "Aaron Goldsmid",
+      "file": "Aaron Goldsmid",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21,
+            29
+          ],
+          "quote": "Aaron Goldsmid, SVP of Product at Deel. You've been at Deel for almost four years at this point. I know you guys recently announced $1.5 billion in ARR, but where was the company when you joined?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            51,
+            158
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "deel",
+      "type": "company",
+      "role": "company",
+      "name": "Deel",
+      "file": "Deel",
+      "primary": true,
+      "how_described": "本集说 Deel 是全球最大的全远程公司，做跨境雇佣与发薪的一体化平台，四年间 ARR 从约 2.5 亿美元涨到 15 亿美元，且盈利近三年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21,
+            29
+          ],
+          "quote": "Aaron Goldsmid, SVP of Product at Deel. You've been at Deel for almost four years at this point. I know you guys recently announced $1.5 billion in ARR, but where was the company when you joined?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 6,
+          "t": [
+            51,
+            158
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 9,
+          "t": [
+            167,
+            176
+          ],
+          "quote": "So you've been at Deel for almost four years at this point. I know you guys recently announced $1.5 billion in ARR, but where was the company when you joined?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            225,
+            374
+          ],
+          "quote": "One other aspect that I believe is true is we're also the largest remote company, full stop, which is another aspect in part of what Deel is: really enabling global work, so you can work anywhere, being that global platform. There are certain things in the DNA of a company. I think about this a lot in terms of competing with other companies: what's their genetic makeup? It's very hard to change. So it's all centered around speed and customer centricity. I was at Amazon, and this is a new high-water mark for being customer-focused. You could be an average mid-market customer and be on a shared Slack channel with us within half an hour, talking to myself and most of the C-suite, and we'll probably be pushing code within 12 hours if it was an issue. That level of access into the organization is incredibly high. One of the things we've had to really learn, and there have been some bumps along the way, is that as we've scaled, the culture comes down from Alex, and he's very visible at every level of the organization. But because those interactions are not as frequent, that culture imprinting takes a little bit longer. So it's about making sure that the next set of leaders, the leaders below, are the culture carriers, making sure there's speed, customer centricity, a level of ownership. Everyone is a player-coach, before that became the rage. I'm espousing work every day, and I think it's great, because your hands are on the craft and you're not missing anything. Because of some law that says the number of people you have in that graph, the number of lines between them increases every time. So if you're not still hands-on, especially as a company scales, process bloat is very easy to happen, or things that didn't work at your SMB or mid-market suddenly become something you need for enterprise, or vice versa. By staying close to it, every strategic vision or insight I've ever had, even the ones that look like macroeconomic disruption, came from being in the weeds, working on something and just catching it, like, \"wait a second, what did that person just say? That was really interesting.\" They probably didn't know they said it, but it was the impetus for something that could put hundreds of engineers on the next thing in a short period of time. Why Headcount Is No Longer a Useful Proxy",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 34,
+          "t": [
+            1805,
+            1922
+          ],
+          "quote": "We have the benefit of truly incredible product-market fit, which is not just us, it's the work we're doing and the tailwind of a generational moment in terms of people thinking about global work, between Covid, between expansion, all of these things. But the answer is: when companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably? Even if not in this moment, what are the unit economics of this? Always keeping that in mind. Even if this thing is wildly inefficient right now, will it be efficient? Because we have a big services component and operational component in addition to software, you could say, \"it's good, once we get to scale it'll be profitable,\" just belief. And because it was largely true. But we also always did the math. The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them. So you have your first buyer, and that is incredible market validation. This is a lot harder to do at the enterprise level; at SMB and mid-market it works great, because those are people willing to go on the journey with you. If you build along with your customers, what you end up getting is something people are going to buy, so it can be profitable. Then it's about cycle speed. Deel speed is one of our core tenets. When you put those things together, you grow profitably: one, because you've done enough of the math that even if it's inefficient at this moment, it'll be efficient, and you can get conviction around that; and two, you're growing with your customers, so this is never in search of revenue, there's always revenue attached to it. Then you just say, \"how fast can we turn that cycle?\" But we often have customers for things before we start building them. Why No Company Is as Sticky as It Used to Be",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到 Goldsmid 曾任职 Amazon，并以之为以客户为中心的高水位线参照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            51,
+            158
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 12,
+          "t": [
+            225,
+            374
+          ],
+          "quote": "One other aspect that I believe is true is we're also the largest remote company, full stop, which is another aspect in part of what Deel is: really enabling global work, so you can work anywhere, being that global platform. There are certain things in the DNA of a company. I think about this a lot in terms of competing with other companies: what's their genetic makeup? It's very hard to change. So it's all centered around speed and customer centricity. I was at Amazon, and this is a new high-water mark for being customer-focused. You could be an average mid-market customer and be on a shared Slack channel with us within half an hour, talking to myself and most of the C-suite, and we'll probably be pushing code within 12 hours if it was an issue. That level of access into the organization is incredibly high. One of the things we've had to really learn, and there have been some bumps along the way, is that as we've scaled, the culture comes down from Alex, and he's very visible at every level of the organization. But because those interactions are not as frequent, that culture imprinting takes a little bit longer. So it's about making sure that the next set of leaders, the leaders below, are the culture carriers, making sure there's speed, customer centricity, a level of ownership. Everyone is a player-coach, before that became the rage. I'm espousing work every day, and I think it's great, because your hands are on the craft and you're not missing anything. Because of some law that says the number of people you have in that graph, the number of lines between them increases every time. So if you're not still hands-on, especially as a company scales, process bloat is very easy to happen, or things that didn't work at your SMB or mid-market suddenly become something you need for enterprise, or vice versa. By staying close to it, every strategic vision or insight I've ever had, even the ones that look like macroeconomic disruption, came from being in the weeds, working on something and just catching it, like, \"wait a second, what did that person just say? That was really interesting.\" They probably didn't know they said it, but it was the impetus for something that could put hundreds of engineers on the next thing in a short period of time. Why Headcount Is No Longer a Useful Proxy",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": false,
+      "how_described": "本集仅提到 Goldsmid 曾任职 Facebook。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            51,
+            158
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "type": "company",
+      "role": "company",
+      "name": "Twilio",
+      "file": "Twilio",
+      "primary": false,
+      "how_described": "本集仅提到 Goldsmid 曾任职 Twilio。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            51,
+            158
+          ],
+          "quote": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "aki",
+      "type": "company",
+      "role": "company",
+      "name": "AKI",
+      "file": "AKI",
+      "primary": true,
+      "how_described": "本集说 AKI 是 Deel 的产品，让非技术人员像带实习生一样「手把手」教系统做自动化：你做一遍，它看着学，再做给你检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            1277,
+            1464
+          ],
+          "quote": "It's picking up the change on the floor. In the before time, writing software, writing automation, was an incredibly expensive thing. Software was the last artisanal craft. Everything was handcrafted. You could look at a piece of code and know who wrote it. It was like people who built wagon wheels. And that has changed. So what happened is, when it was still that artisanal craft and a very precious commodity, there were so many aspects of the business that were still manual and didn't need to be. It wasn't because there wasn't a desire to automate, it was because there was no awareness that someone was manually moving this data from one system to another, or reformatting this spreadsheet every month, or \"I have to go log in to this one place and click this one button because it doesn't have an API.\" It just fell below the line. We hadn't gotten to it yet. What this enabled us to do, first, is that the list of things we were able to hit just got way, way deeper. The second unlock is we took it out of the hands of the engineers. How can people build these automations and workflows for themselves, not necessarily inherently technical resources, in a way that they feel really confident that their intention was captured and they could rely on the output, that it was as good as them? How would you do this if it was just humans? If you had an intern, you'd say, \"I have this thing I have to do every week, come shadow me, watch me do it, then show me how you do it, and I'll check the results.\" We built off exactly how humans interact. The product is called AKI, and that's how we built it. So how far down that list of wildly inefficient little things can you get? That includes the go-to-market function, the partnership function. It goes back to the marginal-user theory: who is the person who should be able to complete this task but is the least likely to be able to complete it? What's that one thing you need to fix, the button where you change the name, and all of a sudden they're successful? We were able to do that for a ton of operational things. If you think about what our day is, it's all operational stuff. A lot of my day is operational, your day is operational. So how much of that backlog can you get? The answer is, there's a lot there. While any one of those things may not feel like a big deal, and if it was a big deal we probably already would have automated it, they compound. The pennies add up, and all of a sudden they become big numbers. The second part is that it allows us to continue to scale at a different efficiency. The old scaling function was that complexity would go geometrically against a linear scale, or exponentially in terms of complexity. Now that looks to be more linear, because you have so much compute resource keeping the complexity down. Unlocking Non-Engineers to Ship",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体是执行业务流程中每个微观步骤的最新形态——过去由人、专家、软件做的环节，现在可由智能体完成，并解锁了需要「一点点判断力」的那类任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            623,
+            665
+          ],
+          "quote": "It reminds me of how I tried to scale myself at my company before I hired a chief of staff. I trained that person to be me when I'm not in the room, and actually encouraged her to make decisions, even if it's not exactly my decision. I'd say a decision is better than no decision, and then I can clean the dirty laundry. That was helpful. And now, with AI, I'm on fire, because like you, I'm very predictable with some of my questions, and I found myself in meetings where people would do meetings for the meeting, which to me is the biggest letdown. So now I have my agent collect the information and answer the questions, so hopefully people come prepared and we can discuss the insights, instead of sharing a screen and trying to analyze a spreadsheet.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1944,
+            2120
+          ],
+          "quote": "Two things. One, no company is as sticky as it used to be. The switching cost has gone down across 100% of things. It's lovely, but it's really easy to get lost in the fact that \"oh, we're sticky,\" because that's not going to be as true a month from now, six months from now, twelve months from now. Every software is less sticky than it was twelve months ago. Then it goes back to: how do we solve this if we didn't have LLMs? Because the thing about LLMs is they largely replicate or approximate human behavior. So if we solve that problem the same way, how would we solve this before we had software? Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years. The macro process is generally the same: there's a bunch of information you have to fill out, forms you submit to a government, and they give you a visa. It's kind of universal. But what we now have is that each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed. Think about advertising: here's the product I want to sell, here's the creative I want to use, here are the people I want to target. Go watch Mad Men. Nothing's changed. But we have new toys and new tools to automate that and speed it up. As long as you can keep conviction that you can build software to do this thing a human does, and now it becomes way easier because an agent can do it much faster. There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. Just a little bit. The format's just a little bit off, or it could go left or right. That's where agents have been able to unlock that next set of macro processes. We still firmly believe there's a human in the loop for what we do, and I think for a lot of others. Compliance, someone getting paid the right amount, is not something you get to screw around with. Complicated medical leaves, complicated terminations, all these things are still going to be human. But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line. AI Replaces the Worst Part of Your Job",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说 LLM 本质上是在复制或逼近人类行为，是非确定性的，输入的结构化程度决定幻觉风险和输出质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            665,
+            735
+          ],
+          "quote": "Inevitably it so happens, because there's just work and insights that happen as a group that you can't do individually. As lovely as it is to have an AI as a thought partner, it's still somewhat reductive. But it is really powerful, because all of a sudden I get to be in a lot more places, or at least a reasonable facsimile of me gets to be in a bunch of different places. So it helps me scale, which is great. On the flip side, we spend a ton of effort, I look after our data organization as well, building semantic layers and our own little AI analysts. So rather than me having to ping someone, and one of the things about being a globally remote company is that at any point in time someone's asleep, being able to ask that semantic layer a question about a bit of data and short-circuit that is amazing. Those loops used to be, \"oh, until you could schedule a meeting,\" which became wildly inefficient, and then \"oh, until they're on Slack.\" But now I don't even need them to be awake to have that information flowing very freely. Building a Semantic Layer the LLM Can Read",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 20,
+          "t": [
+            741,
+            934
+          ],
+          "quote": "We've grown very, very quickly. You've heard the numbers, you've talked about the scale of engineering. Entropy is inevitable. One of our core promises is to deliver an all-in-one platform, where you don't necessarily have to take all the pieces, but there's a better-together thing. This is the classic G Suite or Office thing: what makes it wonderful is that these things naturally work together. In trying to figure out how we could make teams still move as quickly as possible but also deliver on that, there are two ends of the spectrum. One is everyone writes their own thing, which lets them move wildly quickly, you get a ton of endpoints. On the other side, everyone does the shared-service thing, but you always have to take a dependency. I tried to uncouple those two, because you want the upside of both but the downside of neither. So we let that happen at one layer and then used the dbt's of the world to create aggregation. There was an L2, which was how all the systems could talk to each other. Very quickly we realized that, both for our customers to access their own data and for us internally, because as you mentioned we're going to be one of the largest employers on the planet if you look at the folks through our payroll platform, we classically eat our own dog food. Almost every product we launch, we use internally first. We're always our first customer. So being able to say, \"these are the questions we need to ask of our organization\" for internal operational things, or trying to answer questions for our clients, is exactly the same problem. We built that semantic layer to say, \"how can I ask questions of all my data,\" knowing the surface area is so broad that no one's going to know what table it is. We got lucky, because we started doing this before the most recent evolution of the foundational or frontier models. The thing that makes that semantic layer good at explaining itself to a human, an internal resource or a customer, was actually really powerful for an LLM, because it's largely normalized. It looks like a spreadsheet, versus a complicated dataset. So the quality of response that comes out of it is incredibly good, which was a healthy reminder. We did this also with our knowledge base. The inputs you make matter. I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs. We customized and tailored it to that. We've been doing a lot of that, especially with the corpus of global work and all the legislation and compliance rules. It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects. So it's much more predictable outcomes. Removing Room for Error in a Regulated Environment",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 23,
+          "t": [
+            951,
+            958
+          ],
+          "quote": "So in those high-stakes situations, how do you really ensure the LLM has no room for error?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 24,
+          "t": [
+            958,
+            1071
+          ],
+          "quote": "There are a few things we're doing, and we started this before LLMs were privacy-safe, where you had a real chance of it giving you someone else's data. So it was all at the infrastructure level. At the end of the day, the LLM is non-deterministic: you ask it a question a thousand times, it's not going to give you the same answer a thousand times. Maybe with some of the classifier models that's going to be a bit more predictable, and I'm really excited about that for our use cases. But it really is about structuring your input and making sure you know what corpus you can pull from. We have thousands of compliance experts in all of these markets. We've built, just organically, a knowledge base, and we've made an enormous effort to put this all in a standard wiki, based off Wikipedia, in a very easily accessible way. It's a source of truth. Because we created this corpus, that's what we focus the LLMs at. Now we're taking some small language models and training them on our own knowledge base and corpus. We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost. What we're really seeing is that the investment in that foundational work is allowing us to build a moat in an AI world, because we now have our own model and it's performing really well. It's also highly reliable, because it's being trained on a known-good set of data, versus being trained on the universe and then told, \"try to only look here, but we can't enforce that, and pretty please don't do other things.\" The Right Tool for the Right Job",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 26,
+          "t": [
+            1088,
+            1249
+          ],
+          "quote": "There are two ways to think about this. One: I started asking teams, we love talking about the wins, \"I was able to make an LLM do this, the new model can now do that.\" One of the things I've really focused on asking my teams is: tell me the thing that didn't work. Tell me the thing the LLM sucks at. Because I find the teams that are performing really well understand where the edges are of the current model or approach. If you understand that edge, you can say this class of problems is really good to solve this way, and this class of problems is not. The thing I really like, and obviously it's the new hotness, the latest models, is that we were taking something that naturally outputs a narrative form, it writes back to you, and trying to use deterministic software to do that. Obviously the coding agents were creating deterministic software, but creating something where the output looks more consumable, rather than shoehorning computational data into this modality where narrative form comes out and then trying to recast it into computational data, the amount of error propagation and signal loss along that way is just wild. It was a square peg in a round hole. But now that we're starting to see things that output as computational data, or other models working on tabular data, it's speaking the right language. It's the right tool for the right place. Yes, you can technically use a wrench as a hammer, or a screwdriver as a hammer, but sometimes you just want the hammer. So it's allowing us to use the tools that are fit for the task, especially as folks get wildly excited. You just need to go to X on any day: every company is talking about how, \"look at all the things I was able to do with the new model.\" I joke about founders being like, \"I can now do 300% of our code using an LLM.\" That's more code than you. The math doesn't work, that's not how percentages work. But understanding where that edge is is what makes those teams incredibly comfortable, because there's so much noise in the system about what these things can do in theory but aren't great at yet. And the things they may be great at tomorrow, we're also finding cases where it was good at something and now it's not. There are regressions. There is drift. Understanding where that efficient frontier is is incredibly powerful for making sure teams use the tools in the right way. Finding $140 Million by Picking Up Change Off the Floor",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 32,
+          "t": [
+            1580,
+            1779
+          ],
+          "quote": "This is where those who do not learn from history are doomed to repeat it. The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now. Why don't we go build, in a weekend, this other system that maybe hundreds or thousands or millions of engineering hours and experience have been put into, which would be the buy case? You can get the happy path. In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face. The reality of this is hitting us now. It hits everybody. This is not unique to us, and not unique to this moment: you build a complex machine, it breaks. I didn't really appreciate this, but as a product leader I've spent the last couple of decades being able to think about how to frame problems, how to structure problems, how to communicate ideas to other product people and engineers so they can build them. What's been wildly fun for me is realizing this is now a superpower, because I can explain something to an LLM better than a lot of other folks. I was genuinely surprised when I found that. But structuring the question, thinking about maintainability, all of this is just as true as it was before, when we were building factories, actual machines. The thing is, it's become a lot easier, so now everyone can build stuff, which is amazing, because so many great things are being built that wouldn't otherwise. It's no longer this precious, artisanal craft. But those folks are now learning to do this for the first time. There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard. What's tricky there is the sunk-cost fallacy. \"I built this thing, this is my thing, I'm going to keep iterating, keep making it work.\" But sometimes it's, \"you know what, this thing did what it was supposed to do, you learned so much from it, and now it's time to do it again, start from scratch.\" The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\" But the thing is, how do you carry the knowledge forward? All those enterprise software things you would buy are wildly bloated in terms of software, cost, all of these things, but in them are also millions of insights. So how do you take the insights forward into a build, and a rebuild, and a rebuild, but lose the tech debt? How do you get the cream and lose the rest of it? Growing Fast and Profitably at the Same Time",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "small-language-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "小语言模型 (small language models)",
+      "file": "小语言模型",
+      "primary": true,
+      "how_described": "本集说 Deel 在自有知识库上训练小语言模型，质量至少与 Sonnet 相当、逼近 Opus，但响应秒级、成本只是零头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            958,
+            1071
+          ],
+          "quote": "There are a few things we're doing, and we started this before LLMs were privacy-safe, where you had a real chance of it giving you someone else's data. So it was all at the infrastructure level. At the end of the day, the LLM is non-deterministic: you ask it a question a thousand times, it's not going to give you the same answer a thousand times. Maybe with some of the classifier models that's going to be a bit more predictable, and I'm really excited about that for our use cases. But it really is about structuring your input and making sure you know what corpus you can pull from. We have thousands of compliance experts in all of these markets. We've built, just organically, a knowledge base, and we've made an enormous effort to put this all in a standard wiki, based off Wikipedia, in a very easily accessible way. It's a source of truth. Because we created this corpus, that's what we focus the LLMs at. Now we're taking some small language models and training them on our own knowledge base and corpus. We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost. What we're really seeing is that the investment in that foundational work is allowing us to build a moat in an AI world, because we now have our own model and it's performing really well. It's also highly reliable, because it's being trained on a known-good set of data, versus being trained on the universe and then told, \"try to only look here, but we can't enforce that, and pretty please don't do other things.\" The Right Tool for the Right Job",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 25,
+          "t": [
+            1071,
+            1088
+          ],
+          "quote": "That's a good one. You mentioned the latest models, and it's so fascinating now, because we have these large language models, small language models, your own proprietary data. So how do you orchestrate this and still give yourself the flexibility to make additional changes as new stuff comes up?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "semantic-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "语义层 (semantic layer)",
+      "file": "语义层",
+      "primary": true,
+      "how_described": "本集说语义层让人用自然语言直接问数据问题，因高度规范化、像电子表格，LLM 从中得到的回答质量非常好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            665,
+            735
+          ],
+          "quote": "Inevitably it so happens, because there's just work and insights that happen as a group that you can't do individually. As lovely as it is to have an AI as a thought partner, it's still somewhat reductive. But it is really powerful, because all of a sudden I get to be in a lot more places, or at least a reasonable facsimile of me gets to be in a bunch of different places. So it helps me scale, which is great. On the flip side, we spend a ton of effort, I look after our data organization as well, building semantic layers and our own little AI analysts. So rather than me having to ping someone, and one of the things about being a globally remote company is that at any point in time someone's asleep, being able to ask that semantic layer a question about a bit of data and short-circuit that is amazing. Those loops used to be, \"oh, until you could schedule a meeting,\" which became wildly inefficient, and then \"oh, until they're on Slack.\" But now I don't even need them to be awake to have that information flowing very freely. Building a Semantic Layer the LLM Can Read",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 19,
+          "t": [
+            735,
+            741
+          ],
+          "quote": "Tell me more about how you've built that semantic layer, that's helpful not only to you, but to other people on your team.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 20,
+          "t": [
+            741,
+            934
+          ],
+          "quote": "We've grown very, very quickly. You've heard the numbers, you've talked about the scale of engineering. Entropy is inevitable. One of our core promises is to deliver an all-in-one platform, where you don't necessarily have to take all the pieces, but there's a better-together thing. This is the classic G Suite or Office thing: what makes it wonderful is that these things naturally work together. In trying to figure out how we could make teams still move as quickly as possible but also deliver on that, there are two ends of the spectrum. One is everyone writes their own thing, which lets them move wildly quickly, you get a ton of endpoints. On the other side, everyone does the shared-service thing, but you always have to take a dependency. I tried to uncouple those two, because you want the upside of both but the downside of neither. So we let that happen at one layer and then used the dbt's of the world to create aggregation. There was an L2, which was how all the systems could talk to each other. Very quickly we realized that, both for our customers to access their own data and for us internally, because as you mentioned we're going to be one of the largest employers on the planet if you look at the folks through our payroll platform, we classically eat our own dog food. Almost every product we launch, we use internally first. We're always our first customer. So being able to say, \"these are the questions we need to ask of our organization\" for internal operational things, or trying to answer questions for our clients, is exactly the same problem. We built that semantic layer to say, \"how can I ask questions of all my data,\" knowing the surface area is so broad that no one's going to know what table it is. We got lucky, because we started doing this before the most recent evolution of the foundational or frontier models. The thing that makes that semantic layer good at explaining itself to a human, an internal resource or a customer, was actually really powerful for an LLM, because it's largely normalized. It looks like a spreadsheet, versus a complicated dataset. So the quality of response that comes out of it is incredibly good, which was a healthy reminder. We did this also with our knowledge base. The inputs you make matter. I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs. We customized and tailored it to that. We've been doing a lot of that, especially with the corpus of global work and all the legislation and compliance rules. It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects. So it's much more predictable outcomes. Removing Room for Error in a Regulated Environment",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-base",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识库 (knowledge base)",
+      "file": "知识库",
+      "primary": true,
+      "how_described": "本集说 Deel 把数千名合规专家的知识放进基于 Wikipedia 结构的标准知识库，作为唯一真相之源，把 LLM 聚焦于此以大幅降低幻觉风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            741,
+            934
+          ],
+          "quote": "We've grown very, very quickly. You've heard the numbers, you've talked about the scale of engineering. Entropy is inevitable. One of our core promises is to deliver an all-in-one platform, where you don't necessarily have to take all the pieces, but there's a better-together thing. This is the classic G Suite or Office thing: what makes it wonderful is that these things naturally work together. In trying to figure out how we could make teams still move as quickly as possible but also deliver on that, there are two ends of the spectrum. One is everyone writes their own thing, which lets them move wildly quickly, you get a ton of endpoints. On the other side, everyone does the shared-service thing, but you always have to take a dependency. I tried to uncouple those two, because you want the upside of both but the downside of neither. So we let that happen at one layer and then used the dbt's of the world to create aggregation. There was an L2, which was how all the systems could talk to each other. Very quickly we realized that, both for our customers to access their own data and for us internally, because as you mentioned we're going to be one of the largest employers on the planet if you look at the folks through our payroll platform, we classically eat our own dog food. Almost every product we launch, we use internally first. We're always our first customer. So being able to say, \"these are the questions we need to ask of our organization\" for internal operational things, or trying to answer questions for our clients, is exactly the same problem. We built that semantic layer to say, \"how can I ask questions of all my data,\" knowing the surface area is so broad that no one's going to know what table it is. We got lucky, because we started doing this before the most recent evolution of the foundational or frontier models. The thing that makes that semantic layer good at explaining itself to a human, an internal resource or a customer, was actually really powerful for an LLM, because it's largely normalized. It looks like a spreadsheet, versus a complicated dataset. So the quality of response that comes out of it is incredibly good, which was a healthy reminder. We did this also with our knowledge base. The inputs you make matter. I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs. We customized and tailored it to that. We've been doing a lot of that, especially with the corpus of global work and all the legislation and compliance rules. It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects. So it's much more predictable outcomes. Removing Room for Error in a Regulated Environment",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 24,
+          "t": [
+            958,
+            1071
+          ],
+          "quote": "There are a few things we're doing, and we started this before LLMs were privacy-safe, where you had a real chance of it giving you someone else's data. So it was all at the infrastructure level. At the end of the day, the LLM is non-deterministic: you ask it a question a thousand times, it's not going to give you the same answer a thousand times. Maybe with some of the classifier models that's going to be a bit more predictable, and I'm really excited about that for our use cases. But it really is about structuring your input and making sure you know what corpus you can pull from. We have thousands of compliance experts in all of these markets. We've built, just organically, a knowledge base, and we've made an enormous effort to put this all in a standard wiki, based off Wikipedia, in a very easily accessible way. It's a source of truth. Because we created this corpus, that's what we focus the LLMs at. Now we're taking some small language models and training them on our own knowledge base and corpus. We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost. What we're really seeing is that the investment in that foundational work is allowing us to build a moat in an AI world, because we now have our own model and it's performing really well. It's also highly reliable, because it's being trained on a known-good set of data, versus being trained on the universe and then told, \"try to only look here, but we can't enforce that, and pretty please don't do other things.\" The Right Tool for the Right Job",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集说为 LLM 写作的输入能把幻觉风险大幅降下来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            741,
+            934
+          ],
+          "quote": "We've grown very, very quickly. You've heard the numbers, you've talked about the scale of engineering. Entropy is inevitable. One of our core promises is to deliver an all-in-one platform, where you don't necessarily have to take all the pieces, but there's a better-together thing. This is the classic G Suite or Office thing: what makes it wonderful is that these things naturally work together. In trying to figure out how we could make teams still move as quickly as possible but also deliver on that, there are two ends of the spectrum. One is everyone writes their own thing, which lets them move wildly quickly, you get a ton of endpoints. On the other side, everyone does the shared-service thing, but you always have to take a dependency. I tried to uncouple those two, because you want the upside of both but the downside of neither. So we let that happen at one layer and then used the dbt's of the world to create aggregation. There was an L2, which was how all the systems could talk to each other. Very quickly we realized that, both for our customers to access their own data and for us internally, because as you mentioned we're going to be one of the largest employers on the planet if you look at the folks through our payroll platform, we classically eat our own dog food. Almost every product we launch, we use internally first. We're always our first customer. So being able to say, \"these are the questions we need to ask of our organization\" for internal operational things, or trying to answer questions for our clients, is exactly the same problem. We built that semantic layer to say, \"how can I ask questions of all my data,\" knowing the surface area is so broad that no one's going to know what table it is. We got lucky, because we started doing this before the most recent evolution of the foundational or frontier models. The thing that makes that semantic layer good at explaining itself to a human, an internal resource or a customer, was actually really powerful for an LLM, because it's largely normalized. It looks like a spreadsheet, versus a complicated dataset. So the quality of response that comes out of it is incredibly good, which was a healthy reminder. We did this also with our knowledge base. The inputs you make matter. I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs. We customized and tailored it to that. We've been doing a lot of that, especially with the corpus of global work and all the legislation and compliance rules. It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects. So it's much more predictable outcomes. Removing Room for Error in a Regulated Environment",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "switching-cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "切换成本 (switching cost)",
+      "file": "切换成本",
+      "primary": true,
+      "how_described": "本集说所有软件的切换成本都已下降，没有公司还像以前那样有粘性，一年后会更低。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            1922,
+            1944
+          ],
+          "quote": "Your product is very sticky; the switching cost is relatively high. At the same time, wearing the CEO hat now, when a company is trying to be efficient and leverage more agents than humans in some situations, what are the ways for you to still find product-market fit, so you're not just heavily dependent on the number of humans a company hires?",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 36,
+          "t": [
+            1944,
+            2120
+          ],
+          "quote": "Two things. One, no company is as sticky as it used to be. The switching cost has gone down across 100% of things. It's lovely, but it's really easy to get lost in the fact that \"oh, we're sticky,\" because that's not going to be as true a month from now, six months from now, twelve months from now. Every software is less sticky than it was twelve months ago. Then it goes back to: how do we solve this if we didn't have LLMs? Because the thing about LLMs is they largely replicate or approximate human behavior. So if we solve that problem the same way, how would we solve this before we had software? Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years. The macro process is generally the same: there's a bunch of information you have to fill out, forms you submit to a government, and they give you a visa. It's kind of universal. But what we now have is that each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed. Think about advertising: here's the product I want to sell, here's the creative I want to use, here are the people I want to target. Go watch Mad Men. Nothing's changed. But we have new toys and new tools to automate that and speed it up. As long as you can keep conviction that you can build software to do this thing a human does, and now it becomes way easier because an agent can do it much faster. There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. Just a little bit. The format's just a little bit off, or it could go left or right. That's where agents have been able to unlock that next set of macro processes. We still firmly believe there's a human in the loop for what we do, and I think for a lot of others. Compliance, someone getting paid the right amount, is not something you get to screw around with. Complicated medical leaves, complicated terminations, all these things are still going to be human. But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line. AI Replaces the Worst Part of Your Job",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人类在环 (human in the loop)",
+      "file": "人类在环",
+      "primary": true,
+      "how_described": "本集说合规、工资发放、复杂解约等关键环节必须有人在环，人只做真正需要专业判断的部分，从而成为高杠杆人才。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            1944,
+            2120
+          ],
+          "quote": "Two things. One, no company is as sticky as it used to be. The switching cost has gone down across 100% of things. It's lovely, but it's really easy to get lost in the fact that \"oh, we're sticky,\" because that's not going to be as true a month from now, six months from now, twelve months from now. Every software is less sticky than it was twelve months ago. Then it goes back to: how do we solve this if we didn't have LLMs? Because the thing about LLMs is they largely replicate or approximate human behavior. So if we solve that problem the same way, how would we solve this before we had software? Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years. The macro process is generally the same: there's a bunch of information you have to fill out, forms you submit to a government, and they give you a visa. It's kind of universal. But what we now have is that each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed. Think about advertising: here's the product I want to sell, here's the creative I want to use, here are the people I want to target. Go watch Mad Men. Nothing's changed. But we have new toys and new tools to automate that and speed it up. As long as you can keep conviction that you can build software to do this thing a human does, and now it becomes way easier because an agent can do it much faster. There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. Just a little bit. The format's just a little bit off, or it could go left or right. That's where agents have been able to unlock that next set of macro processes. We still firmly believe there's a human in the loop for what we do, and I think for a lot of others. Compliance, someone getting paid the right amount, is not something you get to screw around with. Complicated medical leaves, complicated terminations, all these things are still going to be human. But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line. AI Replaces the Worst Part of Your Job",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "judgment",
+      "type": "concept",
+      "role": "concept",
+      "name": "判断力 (judgment)",
+      "file": "判断力",
+      "primary": true,
+      "how_described": "本集说过去依赖人类是因为计算机不擅长那「一点点判断」，现在计算机反而很擅长；占据一天 80% 的小判断类杂务可以交给智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            1944,
+            2120
+          ],
+          "quote": "Two things. One, no company is as sticky as it used to be. The switching cost has gone down across 100% of things. It's lovely, but it's really easy to get lost in the fact that \"oh, we're sticky,\" because that's not going to be as true a month from now, six months from now, twelve months from now. Every software is less sticky than it was twelve months ago. Then it goes back to: how do we solve this if we didn't have LLMs? Because the thing about LLMs is they largely replicate or approximate human behavior. So if we solve that problem the same way, how would we solve this before we had software? Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years. The macro process is generally the same: there's a bunch of information you have to fill out, forms you submit to a government, and they give you a visa. It's kind of universal. But what we now have is that each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed. Think about advertising: here's the product I want to sell, here's the creative I want to use, here are the people I want to target. Go watch Mad Men. Nothing's changed. But we have new toys and new tools to automate that and speed it up. As long as you can keep conviction that you can build software to do this thing a human does, and now it becomes way easier because an agent can do it much faster. There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. Just a little bit. The format's just a little bit off, or it could go left or right. That's where agents have been able to unlock that next set of macro processes. We still firmly believe there's a human in the loop for what we do, and I think for a lot of others. Compliance, someone getting paid the right amount, is not something you get to screw around with. Complicated medical leaves, complicated terminations, all these things are still going to be human. But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line. AI Replaces the Worst Part of Your Job",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 38,
+          "t": [
+            2134,
+            2202
+          ],
+          "quote": "The way I like to talk about it is: it's not going to replace your job, it's going to replace the worst part of your job. What's the detritus of your day that you don't derive any value from, don't add any value to, but it still needs to get done? That's what you give the agents. I wouldn't say, \"have it write your three-year strategy and take that as gospel,\" that'd be an objectively terrible idea. Not to say you can't have it craft some of it and be a thought partner. But have it approve the expenses. What value do I add there? \"Oh yeah, this was the right amount for this hotel.\" I'm sure I'm responsible about it. Yes, if something's crazy, send it to me. But for the most part, it's that level of judgment. \"Oh well, they were ten cents above the limit.\" Trying to do something in New York and trying to do something in Lisbon are not the same, so okay, we create one limit, it's ten cents, it's fine. That judgment stuff, which relied on humans because computers were bad at it, computers are now actually really good at. So the set of detritus we couldn't do historically is now wildly achievable.",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 39,
+          "t": [
+            2202,
+            2217
+          ],
+          "quote": "I love that, because I keep hearing a lot of people talk about judgment as the ultimate differentiator. And to be honest, sometimes it comes across as an excuse not to try, not to put LLMs to do some stuff that doesn't require that much judgment.",
+          "speaker": "Carlos González de Villaumbrosia"
+        },
+        {
+          "seg": 40,
+          "t": [
+            2217,
+            2226
+          ],
+          "quote": "Yes. And the answer is that there's a lot of stuff that requires a little judgment, that probably occupies 80% of our day, that can go away.",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化 (automation)",
+      "file": "自动化",
+      "primary": true,
+      "how_described": "本集说软件曾是最后的手工艺，大量无人知晓的手工活「落在待办线以下」；AI 让自动化清单深了好多层并从工程师手中解放出来，零钱复利成 1.4 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            1277,
+            1464
+          ],
+          "quote": "It's picking up the change on the floor. In the before time, writing software, writing automation, was an incredibly expensive thing. Software was the last artisanal craft. Everything was handcrafted. You could look at a piece of code and know who wrote it. It was like people who built wagon wheels. And that has changed. So what happened is, when it was still that artisanal craft and a very precious commodity, there were so many aspects of the business that were still manual and didn't need to be. It wasn't because there wasn't a desire to automate, it was because there was no awareness that someone was manually moving this data from one system to another, or reformatting this spreadsheet every month, or \"I have to go log in to this one place and click this one button because it doesn't have an API.\" It just fell below the line. We hadn't gotten to it yet. What this enabled us to do, first, is that the list of things we were able to hit just got way, way deeper. The second unlock is we took it out of the hands of the engineers. How can people build these automations and workflows for themselves, not necessarily inherently technical resources, in a way that they feel really confident that their intention was captured and they could rely on the output, that it was as good as them? How would you do this if it was just humans? If you had an intern, you'd say, \"I have this thing I have to do every week, come shadow me, watch me do it, then show me how you do it, and I'll check the results.\" We built off exactly how humans interact. The product is called AKI, and that's how we built it. So how far down that list of wildly inefficient little things can you get? That includes the go-to-market function, the partnership function. It goes back to the marginal-user theory: who is the person who should be able to complete this task but is the least likely to be able to complete it? What's that one thing you need to fix, the button where you change the name, and all of a sudden they're successful? We were able to do that for a ton of operational things. If you think about what our day is, it's all operational stuff. A lot of my day is operational, your day is operational. So how much of that backlog can you get? The answer is, there's a lot there. While any one of those things may not feel like a big deal, and if it was a big deal we probably already would have automated it, they compound. The pennies add up, and all of a sudden they become big numbers. The second part is that it allows us to continue to scale at a different efficiency. The old scaling function was that complexity would go geometrically against a linear scale, or exponentially in terms of complexity. Now that looks to be more linear, because you have so much compute resource keeping the complexity down. Unlocking Non-Engineers to Ship",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product-market fit)",
+      "file": "产品市场契合度",
+      "primary": false,
+      "how_described": "本集说 Deel 拥有令人难以置信的产品市场契合度，先找到客户再和客户一起建，产品开建前就有买家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1805,
+            1922
+          ],
+          "quote": "We have the benefit of truly incredible product-market fit, which is not just us, it's the work we're doing and the tailwind of a generational moment in terms of people thinking about global work, between Covid, between expansion, all of these things. But the answer is: when companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably? Even if not in this moment, what are the unit economics of this? Always keeping that in mind. Even if this thing is wildly inefficient right now, will it be efficient? Because we have a big services component and operational component in addition to software, you could say, \"it's good, once we get to scale it'll be profitable,\" just belief. And because it was largely true. But we also always did the math. The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them. So you have your first buyer, and that is incredible market validation. This is a lot harder to do at the enterprise level; at SMB and mid-market it works great, because those are people willing to go on the journey with you. If you build along with your customers, what you end up getting is something people are going to buy, so it can be profitable. Then it's about cycle speed. Deel speed is one of our core tenets. When you put those things together, you grow profitably: one, because you've done enough of the math that even if it's inefficient at this moment, it'll be efficient, and you can get conviction around that; and two, you're growing with your customers, so this is never in search of revenue, there's always revenue attached to it. Then you just say, \"how fast can we turn that cycle?\" But we often have customers for things before we start building them. Why No Company Is as Sticky as It Used to Be",
+          "speaker": "Aaron Goldsmid"
+        },
+        {
+          "seg": 35,
+          "t": [
+            1922,
+            1944
+          ],
+          "quote": "Your product is very sticky; the switching cost is relatively high. At the same time, wearing the CEO hat now, when a company is trying to be efficient and leverage more agents than humans in some situations, what are the ways for you to still find product-market fit, so you're not just heavily dependent on the number of humans a company hires?",
+          "speaker": "Carlos González de Villaumbrosia"
+        }
+      ]
+    },
+    {
+      "id": "unit-economics",
+      "type": "concept",
+      "role": "concept",
+      "name": "单位经济模型 (unit economics)",
+      "file": "单位经济模型",
+      "primary": false,
+      "how_described": "本集说即使某项业务眼下低效，也要算清单位经济模型，确信规模化后会变好，这是「盈利地增长」的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            1805,
+            1922
+          ],
+          "quote": "We have the benefit of truly incredible product-market fit, which is not just us, it's the work we're doing and the tailwind of a generational moment in terms of people thinking about global work, between Covid, between expansion, all of these things. But the answer is: when companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably? Even if not in this moment, what are the unit economics of this? Always keeping that in mind. Even if this thing is wildly inefficient right now, will it be efficient? Because we have a big services component and operational component in addition to software, you could say, \"it's good, once we get to scale it'll be profitable,\" just belief. And because it was largely true. But we also always did the math. The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them. So you have your first buyer, and that is incredible market validation. This is a lot harder to do at the enterprise level; at SMB and mid-market it works great, because those are people willing to go on the journey with you. If you build along with your customers, what you end up getting is something people are going to buy, so it can be profitable. Then it's about cycle speed. Deel speed is one of our core tenets. When you put those things together, you grow profitably: one, because you've done enough of the math that even if it's inefficient at this moment, it'll be efficient, and you can get conviction around that; and two, you're growing with your customers, so this is never in search of revenue, there's always revenue attached to it. Then you just say, \"how fast can we turn that cycle?\" But we often have customers for things before we start building them. Why No Company Is as Sticky as It Used to Be",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债 (tech debt)",
+      "file": "技术债",
+      "primary": false,
+      "how_described": "本集说解决技术债的唯一方法是重写，重写过去极其昂贵，现在也许没那么难，但难点是如何把知识向前传递。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            1580,
+            1779
+          ],
+          "quote": "This is where those who do not learn from history are doomed to repeat it. The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now. Why don't we go build, in a weekend, this other system that maybe hundreds or thousands or millions of engineering hours and experience have been put into, which would be the buy case? You can get the happy path. In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face. The reality of this is hitting us now. It hits everybody. This is not unique to us, and not unique to this moment: you build a complex machine, it breaks. I didn't really appreciate this, but as a product leader I've spent the last couple of decades being able to think about how to frame problems, how to structure problems, how to communicate ideas to other product people and engineers so they can build them. What's been wildly fun for me is realizing this is now a superpower, because I can explain something to an LLM better than a lot of other folks. I was genuinely surprised when I found that. But structuring the question, thinking about maintainability, all of this is just as true as it was before, when we were building factories, actual machines. The thing is, it's become a lot easier, so now everyone can build stuff, which is amazing, because so many great things are being built that wouldn't otherwise. It's no longer this precious, artisanal craft. But those folks are now learning to do this for the first time. There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard. What's tricky there is the sunk-cost fallacy. \"I built this thing, this is my thing, I'm going to keep iterating, keep making it work.\" But sometimes it's, \"you know what, this thing did what it was supposed to do, you learned so much from it, and now it's time to do it again, start from scratch.\" The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\" But the thing is, how do you carry the knowledge forward? All those enterprise software things you would buy are wildly bloated in terms of software, cost, all of these things, but in them are also millions of insights. So how do you take the insights forward into a build, and a rebuild, and a rebuild, but lose the tech debt? How do you get the cream and lose the rest of it? Growing Fast and Profitably at the Same Time",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    },
+    {
+      "id": "citizen-developer",
+      "type": "concept",
+      "role": "concept",
+      "name": "公民开发者 (citizen developer)",
+      "file": "公民开发者",
+      "primary": false,
+      "how_described": "本集说新一代平民开发者将重新学习几十年工程史的老教训：构建容易，维护困难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            1580,
+            1779
+          ],
+          "quote": "This is where those who do not learn from history are doomed to repeat it. The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now. Why don't we go build, in a weekend, this other system that maybe hundreds or thousands or millions of engineering hours and experience have been put into, which would be the buy case? You can get the happy path. In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face. The reality of this is hitting us now. It hits everybody. This is not unique to us, and not unique to this moment: you build a complex machine, it breaks. I didn't really appreciate this, but as a product leader I've spent the last couple of decades being able to think about how to frame problems, how to structure problems, how to communicate ideas to other product people and engineers so they can build them. What's been wildly fun for me is realizing this is now a superpower, because I can explain something to an LLM better than a lot of other folks. I was genuinely surprised when I found that. But structuring the question, thinking about maintainability, all of this is just as true as it was before, when we were building factories, actual machines. The thing is, it's become a lot easier, so now everyone can build stuff, which is amazing, because so many great things are being built that wouldn't otherwise. It's no longer this precious, artisanal craft. But those folks are now learning to do this for the first time. There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard. What's tricky there is the sunk-cost fallacy. \"I built this thing, this is my thing, I'm going to keep iterating, keep making it work.\" But sometimes it's, \"you know what, this thing did what it was supposed to do, you learned so much from it, and now it's time to do it again, start from scratch.\" The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\" But the thing is, how do you carry the knowledge forward? All those enterprise software things you would buy are wildly bloated in terms of software, cost, all of these things, but in them are also millions of insights. So how do you take the insights forward into a build, and a rebuild, and a rebuild, but lose the tech debt? How do you get the cream and lose the rest of it? Growing Fast and Profitably at the Same Time",
+          "speaker": "Aaron Goldsmid"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -57,7 +57,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":55,"NVIDIA":71,"CPU":5,"推理":100,"芯片设计":2,"验证":2}</script>
+<script type="application/json" class="pd-epn">{"Elad":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":55,"NVIDIA":71,"CPU":5,"推理":101,"芯片设计":2,"验证":2}</script>
 
 <script>
 (function(){

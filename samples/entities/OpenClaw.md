@@ -85,7 +85,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[harness]] · [[OpenAI]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":112,"Codex":89,"Claude Code":113,"Anthropic":204,"Cursor":87,"Claude":97,"harness":65,"OpenAI":203,"Shopify":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":112,"Codex":90,"Claude Code":114,"Anthropic":204,"Cursor":87,"Claude":97,"harness":65,"OpenAI":203,"Shopify":17}</script>
 
 <script>
 (function(){

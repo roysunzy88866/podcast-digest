@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":36,"HubSpot":11,"CRM":6,"记录系统":7,"产品市场契合":31,"NDR":1,"发布视频":1,"ICP":3}</script>
+<script type="application/json" class="pd-epn">{"Lightfield":2,"Tome":2,"Salesforce":36,"HubSpot":11,"CRM":6,"记录系统":7,"产品市场契合":32,"NDR":1,"发布视频":1,"ICP":3}</script>
 
 <script>
 (function(){

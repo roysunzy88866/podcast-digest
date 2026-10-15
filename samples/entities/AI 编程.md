@@ -56,7 +56,7 @@ aliases: ["AI coding"]
 
 [[LLM]] · [[OpenAI]] · [[AGI]] · [[Anthropic]] · [[护栏]] · [[Waymo]] · [[推理]] · [[ChatGPT]] · [[评估]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"LLM":64,"OpenAI":203,"AGI":28,"Anthropic":204,"护栏":90,"Waymo":21,"推理":100,"ChatGPT":112,"评估":1,"开源":42}</script>
+<script type="application/json" class="pd-epn">{"LLM":65,"OpenAI":203,"AGI":28,"Anthropic":204,"护栏":91,"Waymo":21,"推理":101,"ChatGPT":112,"评估":1,"开源":43}</script>
 
 <script>
 (function(){

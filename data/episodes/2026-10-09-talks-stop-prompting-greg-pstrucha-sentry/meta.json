@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-talks-stop-prompting-greg-pstrucha-sentry",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/E3KbFLAGD6A.m4a",
+  "duration_sec": 945.732,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 202,
+  "asr": true,
+  "title_en": "Stop Prompting — Greg Pstrucha, Sentry",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "added": "2026-10-15",
+  "added_at": "2026-10-14T23:33:52.272Z",
+  "speaker_map": {
+    "SPEAKER_00": "Greg Pstrucha"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Greg Pstrucha"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "别再反复提示了：让代码仓库自己记住规则",
+  "guest_name": "Greg Pstrucha",
+  "guest_title": "Sentry 的 AI 工程师",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

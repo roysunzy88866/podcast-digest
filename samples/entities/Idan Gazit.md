@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":13,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":90,"提示词注入":1,"Cloudflare":17,"Slack":34}</script>
+<script type="application/json" class="pd-epn">{"GitHub Next":1,"Copilot":13,"ACE":1,"Dependabot":1,"GitHub Actions":1,"markdown":2,"护栏":91,"提示词注入":1,"Cloudflare":17,"Slack":34}</script>
 
 <script>
 (function(){

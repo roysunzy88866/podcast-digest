@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
+[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":10,"智能体":1,"推理时":1,"LLM 当裁判":11,"判断力":6,"探针":4,"Creativity API":1,"brand API":1}</script>
+<script type="application/json" class="pd-epn">{"Taste Labs":1,"垃圾话":10,"智能体":1,"推理时":1,"LLM 当裁判":11,"判断力":7,"探针":4,"Creativity API":1,"brand API":1}</script>
 
 <script>
 (function(){

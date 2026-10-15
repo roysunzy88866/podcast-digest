@@ -1,0 +1,1618 @@
+[
+ {
+  "seg": 0,
+  "start": 13.21,
+  "end": 13.49,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 1,
+  "start": 13.53,
+  "end": 14.03,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 2,
+  "start": 14.05,
+  "end": 21.173,
+  "speaker": "Unknown",
+  "en": "I'm going to try to speak as loud as I can, so it's reasonably good with all the commotion.",
+  "zh": "我会尽量大声讲话，所以在这么多嘈杂声中应该还行。"
+ },
+ {
+  "seg": 3,
+  "start": 22.013,
+  "end": 22.733,
+  "speaker": "Unknown",
+  "en": "My name is Greg.",
+  "zh": "我叫 Greg。"
+ },
+ {
+  "seg": 4,
+  "start": 23.093,
+  "end": 24.674,
+  "speaker": "Unknown",
+  "en": "I'm an AI engineer at Sentry.",
+  "zh": "我是 Sentry 的 AI 工程师。"
+ },
+ {
+  "seg": 5,
+  "start": 25.514,
+  "end": 29.996,
+  "speaker": "Unknown",
+  "en": "I work on the infrastructure that powers here Sentry's debugging agent.",
+  "zh": "我负责为 Sentry 的调试智能体提供支持的底层基础设施。"
+ },
+ {
+  "seg": 6,
+  "start": 30.876,
+  "end": 36.878,
+  "speaker": "Unknown",
+  "en": "And I have a little rage-bait-y title of the presentation that calls to stop prompting, but I do not mean loop engineering.",
+  "zh": "我给这次演讲起了一个有点“引战”性质的标题，叫「停止提示词」，但我指的不是循环工程。"
+ },
+ {
+  "seg": 7,
+  "start": 37.378,
+  "end": 39.679,
+  "speaker": "Unknown",
+  "en": "I'm going to get a little bit deeper here.",
+  "zh": "我会更深入地讲一点。"
+ },
+ {
+  "seg": 8,
+  "start": 40.299,
+  "end": 42.58,
+  "speaker": "Unknown",
+  "en": "Who still reads code that AI generates?",
+  "zh": "还有人在阅读 AI 生成的代码吗？"
+ },
+ {
+  "seg": 9,
+  "start": 43.747,
+  "end": 44.087,
+  "speaker": "Unknown",
+  "en": "Anyone?",
+  "zh": "有人吗？"
+ },
+ {
+  "seg": 10,
+  "start": 45.488,
+  "end": 47.388,
+  "speaker": "Unknown",
+  "en": "It's not a trick question, and I'm not trying to shame you.",
+  "zh": "这不是个陷阱问题，我也不是想让你难堪。"
+ },
+ {
+  "seg": 11,
+  "start": 48.409,
+  "end": 49.849,
+  "speaker": "Unknown",
+  "en": "I think it's contextual.",
+  "zh": "我觉得这要看情境。"
+ },
+ {
+  "seg": 12,
+  "start": 49.929,
+  "end": 57.032,
+  "speaker": "Unknown",
+  "en": "I read code when it's sentry code, and I need to make sure that we are not breaking the actual production for sentry.",
+  "zh": "如果是 Sentry 的代码，我会去读，我需要确保我们没有破坏 Sentry 的实际生产环境。"
+ },
+ {
+  "seg": 13,
+  "start": 57.392,
+  "end": 65.955,
+  "speaker": "Unknown",
+  "en": "But at the same time, if I am working on a side project, it doesn't really matter to read every line of code, and I can be a little bit more lenient with it.",
+  "zh": "但与此同时，如果我在做一个副业项目，读每一行代码就不那么重要了，我可以稍微宽松一点。"
+ },
+ {
+  "seg": 14,
+  "start": 66.675,
+  "end": 69.516,
+  "speaker": "Unknown",
+  "en": "But then every now and then, I go back to the actual code.",
+  "zh": "但隔三差五，我会回到实际的代码。"
+ },
+ {
+  "seg": 15,
+  "start": 69.936,
+  "end": 71.417,
+  "speaker": "Unknown",
+  "en": "I want to make improvements.",
+  "zh": "我想做一些改进。"
+ },
+ {
+  "seg": 16,
+  "start": 73.678,
+  "end": 74.179,
+  "speaker": "Unknown",
+  "en": "It's bad.",
+  "zh": "代码很糟。"
+ },
+ {
+  "seg": 17,
+  "start": 74.379,
+  "end": 75.84,
+  "speaker": "Unknown",
+  "en": "It's overly defensive code.",
+  "zh": "它是过度防御性的代码。"
+ },
+ {
+  "seg": 18,
+  "start": 76.441,
+  "end": 78.142,
+  "speaker": "Unknown",
+  "en": "It's tester crap.",
+  "zh": "全是没用的测试垃圾。"
+ },
+ {
+  "seg": 19,
+  "start": 78.303,
+  "end": 79.824,
+  "speaker": "Unknown",
+  "en": "They are not testing anything.",
+  "zh": "它们什么都没测到。"
+ },
+ {
+  "seg": 20,
+  "start": 81.005,
+  "end": 83.628,
+  "speaker": "Unknown",
+  "en": "I would not want to maintain or work in that codebase anymore.",
+  "zh": "我不会再想维护或在那个代码库里工作了。"
+ },
+ {
+  "seg": 21,
+  "start": 84.569,
+  "end": 87.932,
+  "speaker": "Unknown",
+  "en": "So then what you do is you talk to the agent.",
+  "zh": "于是你要做的就是和智能体对话。"
+ },
+ {
+  "seg": 22,
+  "start": 87.952,
+  "end": 88.573,
+  "speaker": "Unknown",
+  "en": "You say, hey,",
+  "zh": "你说，嘿，"
+ },
+ {
+  "seg": 23,
+  "start": 89.616,
+  "end": 90.477,
+  "speaker": "Unknown",
+  "en": "You've done a mistake.",
+  "zh": "你犯了个错误。"
+ },
+ {
+  "seg": 24,
+  "start": 90.497,
+  "end": 91.757,
+  "speaker": "Unknown",
+  "en": "This is overly complicated.",
+  "zh": "这过度复杂了。"
+ },
+ {
+  "seg": 25,
+  "start": 91.777,
+  "end": 92.918,
+  "speaker": "Unknown",
+  "en": "The code's too defensive.",
+  "zh": "代码太防御性了。"
+ },
+ {
+  "seg": 26,
+  "start": 93.818,
+  "end": 96.42,
+  "speaker": "Unknown",
+  "en": "You don't have to create endpoints for everything you're doing.",
+  "zh": "你不用为你做的每件事都创建 endpoint。"
+ },
+ {
+  "seg": 27,
+  "start": 96.78,
+  "end": 98.361,
+  "speaker": "Unknown",
+  "en": "Otherwise, I have to maintain it forever.",
+  "zh": "否则我就得永远维护它。"
+ },
+ {
+  "seg": 28,
+  "start": 98.381,
+  "end": 105.065,
+  "speaker": "Unknown",
+  "en": "And I had to remove a lot of swearing from this slide, because in my actual transcript, there is going to be a lot of rage.",
+  "zh": "我不得不从这张幻灯片里删掉大量脏话，因为在我的实际转写记录里，会有很多怒气。"
+ },
+ {
+  "seg": 29,
+  "start": 105.405,
+  "end": 110.628,
+  "speaker": "Unknown",
+  "en": "Usually, those are very elementary mistakes that the agents are making if you don't put any guardrails in place.",
+  "zh": "通常，如果你不设置任何护栏，智能体犯的都是非常初级错误。"
+ },
+ {
+  "seg": 30,
+  "start": 111.429,
+  "end": 114.09,
+  "speaker": "Unknown",
+  "en": "And that just outrages me.",
+  "zh": "而这让我火冒三丈。"
+ },
+ {
+  "seg": 31,
+  "start": 114.67,
+  "end": 115.311,
+  "speaker": "Unknown",
+  "en": "So then you do that.",
+  "zh": "于是你就这么做了。"
+ },
+ {
+  "seg": 32,
+  "start": 117.183,
+  "end": 119.445,
+  "speaker": "Unknown",
+  "en": "The agent says, you're absolutely right.",
+  "zh": "智能体说，你说得完全对。"
+ },
+ {
+  "seg": 33,
+  "start": 120.685,
+  "end": 121.426,
+  "speaker": "Unknown",
+  "en": "Let me fix this.",
+  "zh": "让我来修复这个。"
+ },
+ {
+  "seg": 34,
+  "start": 122.346,
+  "end": 125.168,
+  "speaker": "Unknown",
+  "en": "And it's going to run and try to fix the mistakes.",
+  "zh": "然后它会运行并尝试修复这些错误。"
+ },
+ {
+  "seg": 35,
+  "start": 126.309,
+  "end": 127.35,
+  "speaker": "Unknown",
+  "en": "And five minutes pass.",
+  "zh": "五分钟过去了。"
+ },
+ {
+  "seg": 36,
+  "start": 128.33,
+  "end": 130.592,
+  "speaker": "Unknown",
+  "en": "And compaction of context happens.",
+  "zh": "上下文压缩发生了。"
+ },
+ {
+  "seg": 37,
+  "start": 130.692,
+  "end": 132.953,
+  "speaker": "Unknown",
+  "en": "And we're back to square one.",
+  "zh": "我们又回到了原点。"
+ },
+ {
+  "seg": 38,
+  "start": 134.394,
+  "end": 139.738,
+  "speaker": "Unknown",
+  "en": "And you would have to now repeat yourself, re-prompt your fixes, re-prompt the agent on the right track.",
+  "zh": "然后你现在不得不重复自己，重新提示你的修改，重新提示智能体回到正轨。"
+ },
+ {
+  "seg": 39,
+  "start": 141.399,
+  "end": 148.505,
+  "speaker": "Unknown",
+  "en": "And my entire thesis for this talk, my entire claim here is you should stop prompting.",
+  "zh": "我这次演讲的全部论点，我在这里的全部主张是：你应该停止提示。"
+ },
+ {
+  "seg": 40,
+  "start": 148.525,
+  "end": 164.077,
+  "speaker": "Unknown",
+  "en": "You should start codifying the actual rules that the agents should be following, rules and policies that you want to establish inside your codebase that are going to capture both convention and the quality of code that you are expecting and would make you proud.",
+  "zh": "你应该开始把智能体应当遵循的实际规则成文化，也就是你想在代码库内部确立的规则和策略，它们既要捕捉约定惯例，也要捕捉你期望的、能让你引以为豪的代码质量。"
+ },
+ {
+  "seg": 41,
+  "start": 165.935,
+  "end": 171.383,
+  "speaker": "Unknown",
+  "en": "And so when I say you would want to add deterministic checks or rules, what are you thinking of?",
+  "zh": "那么当我说你会想添加确定性检查或规则时，你会想到什么？"
+ },
+ {
+  "seg": 42,
+  "start": 174.427,
+  "end": 174.607,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 43,
+  "start": 177.231,
+  "end": 177.552,
+  "speaker": "Unknown",
+  "en": "What's that?",
+  "zh": "那是什么？"
+ },
+ {
+  "seg": 44,
+  "start": 178.273,
+  "end": 178.893,
+  "speaker": "Unknown",
+  "en": "Evals, yes.",
+  "zh": "Evals，对。"
+ },
+ {
+  "seg": 45,
+  "start": 179.908,
+  "end": 180.508,
+  "speaker": "Unknown",
+  "en": "Hooks, yes.",
+  "zh": "Hooks，对。"
+ },
+ {
+  "seg": 46,
+  "start": 181.889,
+  "end": 187.071,
+  "speaker": "Unknown",
+  "en": "The three that I'm thinking of before I even get to hooks and evals, hooks and evals are important.",
+  "zh": "在我讲到 hooks 和 evals 之前，我想到的有三个——hooks 和 evals 很重要。"
+ },
+ {
+  "seg": 47,
+  "start": 187.091,
+  "end": 188.712,
+  "speaker": "Unknown",
+  "en": "Tests are absolutely the class of that.",
+  "zh": "测试绝对属于这一类。"
+ },
+ {
+  "seg": 48,
+  "start": 188.992,
+  "end": 191.253,
+  "speaker": "Unknown",
+  "en": "Hooks are how you run those things at the right time.",
+  "zh": "Hooks 是你在正确的时机运行这些东西的方式。"
+ },
+ {
+  "seg": 49,
+  "start": 192.214,
+  "end": 197.116,
+  "speaker": "Unknown",
+  "en": "To me, the three things that I want to optimize on the deterministic level are making sure that I have tests,",
+  "zh": "对我来说，我想在确定性层面优化的三件事是：确保我有测试，"
+ },
+ {
+  "seg": 50,
+  "start": 197.596,
+  "end": 201.299,
+  "speaker": "Unknown",
+  "en": "Making sure that there is strict typing, making sure that there are slinters.",
+  "zh": "确保有严格的类型约束，确保有 slinters。"
+ },
+ {
+  "seg": 51,
+  "start": 201.639,
+  "end": 207.404,
+  "speaker": "Unknown",
+  "en": "Those are not total statements, and they are not enough to actually get your agent to write good code.",
+  "zh": "这些不是全面的结论，它们不足以真正让你的智能体写出好的代码。"
+ },
+ {
+  "seg": 52,
+  "start": 207.644,
+  "end": 213.788,
+  "speaker": "Unknown",
+  "en": "As an example, if you just take from this that you have to put strict typing in place, you will still be in a bad place.",
+  "zh": "举个例子，如果你只是从这里得出你必须要实施严格类型约束，你仍然会处于糟糕的境地。"
+ },
+ {
+  "seg": 53,
+  "start": 215.27,
+  "end": 225.798,
+  "speaker": "Unknown",
+  "en": "If you don't discourage or ban a way of typing that removes edge cases you don't really want to see,",
+  "zh": "如果你不阻止或禁止某种会引入你不希望看到的边界情况的类型写法，"
+ },
+ {
+  "seg": 54,
+  "start": 226.785,
+  "end": 234.05,
+  "speaker": "Unknown",
+  "en": "Then the behaviors or the states that are representable in the app are going to lead the agent to introduce them.",
+  "zh": "那么应用中可表示的行为或状态就会导致智能体去引入它们。"
+ },
+ {
+  "seg": 55,
+  "start": 235.27,
+  "end": 238.452,
+  "speaker": "Unknown",
+  "en": "But the thing that I want to predominantly focus on in this talk is linters.",
+  "zh": "但我在这次演讲中主要想聚焦的是 linters。"
+ },
+ {
+  "seg": 56,
+  "start": 239.153,
+  "end": 247.758,
+  "speaker": "Unknown",
+  "en": "Linters are our way to codify the rules in a deterministic manner that we want to remove from the codebase.",
+  "zh": "Linters 是我们以确定性方式将我们想要从代码库中移除的规则编码化的手段。"
+ },
+ {
+  "seg": 57,
+  "start": 249.213,
+  "end": 256.675,
+  "speaker": "Unknown",
+  "en": "Historically, before AI, when you think about linters, the way that this worked is the trade-off wasn't clear.",
+  "zh": "从历史上看，在 AI 之前，当你想到 linters 时，它的工作方式是这样的：其中的权衡并不清晰。"
+ },
+ {
+  "seg": 58,
+  "start": 256.815,
+  "end": 258.795,
+  "speaker": "Unknown",
+  "en": "Writing an actual linter took a lot of work.",
+  "zh": "写一个真正的 linter 需要大量工作。"
+ },
+ {
+  "seg": 59,
+  "start": 260.316,
+  "end": 263.357,
+  "speaker": "Unknown",
+  "en": "It was a maintenance cost that you had to sort of sign yourself up for.",
+  "zh": "这是一种你不得不让自己承担的维护成本。"
+ },
+ {
+  "seg": 60,
+  "start": 263.957,
+  "end": 269.878,
+  "speaker": "Unknown",
+  "en": "And you had to consider how often the issue that you try to lint away comes up.",
+  "zh": "而且你必须考虑你试图用 lint 排除的问题出现的频率。"
+ },
+ {
+  "seg": 61,
+  "start": 269.958,
+  "end": 270.779,
+  "speaker": "Unknown",
+  "en": "Is it even worth it?",
+  "zh": "这到底值不值得？"
+ },
+ {
+  "seg": 62,
+  "start": 272.76,
+  "end": 286.148,
+  "speaker": "Unknown",
+  "en": "If it's pre-agents, and those are humans that are working in my code base, and the only thing I'm doing is once every three weeks telling people to use the right component from the design system, then I don't necessarily need a linter for that, right?",
+  "zh": "如果是在智能体之前，在我的代码库里工作的是人类，而我唯一做的就是每三周告诉人们使用设计系统中的正确组件，那我未必需要为此写一个 linter，对吧？"
+ },
+ {
+  "seg": 63,
+  "start": 286.929,
+  "end": 291.312,
+  "speaker": "Unknown",
+  "en": "And people have memories, so if I tell them that once or twice, they will usually remember that.",
+  "zh": "而且人有记忆，所以如果我告诉他们一次或两次，他们通常会记住。"
+ },
+ {
+  "seg": 64,
+  "start": 291.652,
+  "end": 299.137,
+  "speaker": "Unknown",
+  "en": "But then this shifts entirely into this new world where the things that are writing code do not have any memory.",
+  "zh": "但这一切完全转移到了这个新世界：写代码的东西没有任何记忆。"
+ },
+ {
+  "seg": 65,
+  "start": 300.159,
+  "end": 303.02,
+  "speaker": "Unknown",
+  "en": "And they're going to make the same repeated mistakes over and over again.",
+  "zh": "而且它们会一次又一次地犯同样的重复错误。"
+ },
+ {
+  "seg": 66,
+  "start": 304.36,
+  "end": 310.022,
+  "speaker": "Unknown",
+  "en": "And at the same time, to write a new linter is very cheap and very easy.",
+  "zh": "与此同时，写一个新的 linter 现在非常便宜、非常容易。"
+ },
+ {
+  "seg": 67,
+  "start": 310.162,
+  "end": 311.803,
+  "speaker": "Unknown",
+  "en": "You can just have the agent do that.",
+  "zh": "你直接让智能体去做就行。"
+ },
+ {
+  "seg": 68,
+  "start": 312.403,
+  "end": 316.345,
+  "speaker": "Unknown",
+  "en": "And it's going to be much less frustrated with the actual lint rules that you're trying to write.",
+  "zh": "而且它对你真正想写的 lint 规则会比人类少很多挫败感。"
+ },
+ {
+  "seg": 69,
+  "start": 316.765,
+  "end": 318.845,
+  "speaker": "Unknown",
+  "en": "So my claim for this is simple.",
+  "zh": "所以我对此的主张很简单。"
+ },
+ {
+  "seg": 70,
+  "start": 318.866,
+  "end": 322.807,
+  "speaker": "Unknown",
+  "en": "And if you take one thing from this entire talk, then I'm going to yap about a little bit more.",
+  "zh": "如果你从这整场演讲中只带走一件事——我还会再多啰嗦一点——"
+ },
+ {
+  "seg": 71,
+  "start": 323.467,
+  "end": 346.715,
+  "speaker": "Unknown",
+  "en": "is you can, after this talk, take your laptop, go to your agent and ask, hey, look at all my past transcripts, look at my GitHub reviews, the feedback from the bots, the feedback from my peers, and try to codify which ones of those are actual high-quality lint rules that are deterministic and will be able to capture issues that we otherwise reprompt all the time.",
+  "zh": "那就是：这场演讲之后，你可以拿起你的笔记本电脑，去找你的智能体，问：嘿，看看我所有的历史记录，看看我的 GitHub 审查、来自机器人的反馈、来自我同行的反馈，并尝试把其中哪些是真正高质量的、确定性的 lint 规则编码化，这些规则能够捕获那些我们否则要不断重复提示的问题。"
+ },
+ {
+  "seg": 72,
+  "start": 348.995,
+  "end": 356.6,
+  "speaker": "Unknown",
+  "en": "That's something that I do now and I happen to do that even more often sort of on the schedule to try to see whether there are new things that I haven't captured.",
+  "zh": "这是我现在就在做的事情，而且我碰巧还会更频繁地按计划去做，看看是否有我尚未捕获的新东西。"
+ },
+ {
+  "seg": 73,
+  "start": 358.04,
+  "end": 363.021,
+  "speaker": "Unknown",
+  "en": "So here are some examples of what I mean when I say custom lint rules.",
+  "zh": "下面是一些例子，说明我说的自定义 lint 规则是什么意思。"
+ },
+ {
+  "seg": 74,
+  "start": 363.441,
+  "end": 368.202,
+  "speaker": "Unknown",
+  "en": "Those are lint rules that try to capture conventions that you want in your code base.",
+  "zh": "这些是试图捕获你希望在代码库中拥有的约定的 lint 规则。"
+ },
+ {
+  "seg": 75,
+  "start": 368.422,
+  "end": 370.082,
+  "speaker": "Unknown",
+  "en": "There is a whole simple class of them.",
+  "zh": "有一整类很简单的规则。"
+ },
+ {
+  "seg": 76,
+  "start": 370.122,
+  "end": 373.443,
+  "speaker": "Unknown",
+  "en": "Those are the ones that you know and have written for a long time.",
+  "zh": "那些是你早就知道并且已经写了很久的。"
+ },
+ {
+  "seg": 77,
+  "start": 373.463,
+  "end": 387.185,
+  "speaker": "Unknown",
+  "en": "Those are things like, I want to lint out console log statements from a particular project, or I want to make sure that if I have a design system or React practices that I want to follow or discourage, those are codified and",
+  "zh": "比如这样的东西：我想在某个特定项目中 lint 掉 console log 语句，或者我想确保如果我有一个设计系统，或者有我想遵循或不鼓励的 React 实践，这些都被编码化并"
+ },
+ {
+  "seg": 78,
+  "start": 387.705,
+  "end": 388.365,
+  "speaker": "Unknown",
+  "en": "are linked to the way.",
+  "zh": "链接到对应的方式。"
+ },
+ {
+  "seg": 79,
+  "start": 389.406,
+  "end": 390.386,
+  "speaker": "Unknown",
+  "en": "Those are the simple things.",
+  "zh": "这些是简单的东西。"
+ },
+ {
+  "seg": 80,
+  "start": 390.766,
+  "end": 395.287,
+  "speaker": "Unknown",
+  "en": "But I think with agents we are getting into more interesting complexity.",
+  "zh": "但我认为有了智能体，我们正在进入更有趣的复杂性。"
+ },
+ {
+  "seg": 81,
+  "start": 395.307,
+  "end": 396.708,
+  "speaker": "Unknown",
+  "en": "We can push this a little bit further.",
+  "zh": "我们可以把这件事再往前推一点。"
+ },
+ {
+  "seg": 82,
+  "start": 397.728,
+  "end": 398.629,
+  "speaker": "Unknown",
+  "en": "So one example here.",
+  "zh": "这里有一个例子。"
+ },
+ {
+  "seg": 83,
+  "start": 398.849,
+  "end": 402.95,
+  "speaker": "Unknown",
+  "en": "This is a little bit of a tricky example, but I'll go through it.",
+  "zh": "这是一个有点棘手的例子，但我会把它讲清楚。"
+ },
+ {
+  "seg": 84,
+  "start": 404.183,
+  "end": 405.564,
+  "speaker": "Unknown",
+  "en": "Sentry is a pretty old codebase.",
+  "zh": "Sentry 是一个相当老的代码库。"
+ },
+ {
+  "seg": 85,
+  "start": 405.644,
+  "end": 406.484,
+  "speaker": "Unknown",
+  "en": "We are on Django.",
+  "zh": "我们用的是 Django。"
+ },
+ {
+  "seg": 86,
+  "start": 406.524,
+  "end": 407.384,
+  "speaker": "Unknown",
+  "en": "We are on DRF.",
+  "zh": "我们用的是 DRF。"
+ },
+ {
+  "seg": 87,
+  "start": 407.444,
+  "end": 409.585,
+  "speaker": "Unknown",
+  "en": "We don't have strict typing everywhere.",
+  "zh": "我们没有在所有地方都实施严格类型。"
+ },
+ {
+  "seg": 88,
+  "start": 409.625,
+  "end": 415.107,
+  "speaker": "Unknown",
+  "en": "This is a very common case for any mature codebase where you're not going to be at the top leading edge of the technology.",
+  "zh": "对于任何成熟的代码库来说，这都是非常常见的情况——你不会处于技术的最前沿。"
+ },
+ {
+  "seg": 89,
+  "start": 416.208,
+  "end": 419.069,
+  "speaker": "Unknown",
+  "en": "But we still want to improve the state of the world for the agents.",
+  "zh": "但我们仍然想改善智能体所处的世界状态。"
+ },
+ {
+  "seg": 90,
+  "start": 419.649,
+  "end": 430.033,
+  "speaker": "Unknown",
+  "en": "So concretely here, there was a lot of drift of what the OpenAPI schema for Sentry said it's going to do and what it did.",
+  "zh": "具体来说，这里存在大量偏差：Sentry 的 OpenAPI schema 声称它会做什么和它实际做了什么之间不一致。"
+ },
+ {
+  "seg": 91,
+  "start": 431.402,
+  "end": 434.165,
+  "speaker": "Unknown",
+  "en": "And so we started introducing lint rules for that.",
+  "zh": "于是我们开始为此引入 lint 规则。"
+ },
+ {
+  "seg": 92,
+  "start": 434.626,
+  "end": 440.713,
+  "speaker": "Unknown",
+  "en": "First lint rule is if something is an endpoint, a function for an endpoint, it needs to return a response type.",
+  "zh": "第一条 lint 规则是：如果某个东西是一个 endpoint、一个 endpoint 的函数，它需要返回一个响应类型。"
+ },
+ {
+  "seg": 93,
+  "start": 441.053,
+  "end": 445.879,
+  "speaker": "Unknown",
+  "en": "And within that response type, there cannot be any types, so that we can infer the actual information of the type.",
+  "zh": "而且在那个响应类型内，不能有任何类型占位，这样我们才能推断出该类型的实际信息。"
+ },
+ {
+  "seg": 94,
+  "start": 446.419,
+  "end": 448.281,
+  "speaker": "Unknown",
+  "en": "Second, if it's an endpoint,",
+  "zh": "第二，如果它是一个 endpoint,"
+ },
+ {
+  "seg": 95,
+  "start": 448.862,
+  "end": 453.884,
+  "speaker": "Unknown",
+  "en": "You get that little extend schema decorator so we can ensure that it's documented.",
+  "zh": "你会加上那个小小的 extend schema 装饰器，这样我们可以确保它被文档化了。"
+ },
+ {
+  "seg": 96,
+  "start": 454.264,
+  "end": 463.528,
+  "speaker": "Unknown",
+  "en": "And then third, enforce that the actual type being produced here agrees with what the OpenAPI schema, at the end of the day, declares.",
+  "zh": "然后第三，强制要求这里产生的实际类型与 OpenAPI schema 最终声明的内容一致。"
+ },
+ {
+  "seg": 97,
+  "start": 464.488,
+  "end": 467.79,
+  "speaker": "Unknown",
+  "en": "And that helps us because now APIs are a little bit more in sync.",
+  "zh": "这对我们有帮助，因为现在 API 之间的同步性好了一点。"
+ },
+ {
+  "seg": 98,
+  "start": 468.35,
+  "end": 473.312,
+  "speaker": "Unknown",
+  "en": "And that gets us to even more insane examples of linters.",
+  "zh": "这就引出了更加疯狂的 linter 例子。"
+ },
+ {
+  "seg": 99,
+  "start": 473.912,
+  "end": 475.413,
+  "speaker": "Unknown",
+  "en": "So Sier Agent.",
+  "zh": "所以是 Sier Agent。"
+ },
+ {
+  "seg": 100,
+  "start": 477.152,
+  "end": 481.635,
+  "speaker": "Unknown",
+  "en": "is a debugging agent, and it has to talk to Sentry a lot.",
+  "zh": "是一个调试智能体，它需要频繁与 Sentry 通信。"
+ },
+ {
+  "seg": 101,
+  "start": 482.015,
+  "end": 489.76,
+  "speaker": "Unknown",
+  "en": "It uses Sentry telemetry to debug and RCA issues and provides root cause analysis, solutions, all of that.",
+  "zh": "它使用 Sentry 的遥测数据来调试和做 RCA(根因分析)，并提供根因分析、解决方案等等。"
+ },
+ {
+  "seg": 102,
+  "start": 490.799,
+  "end": 495.581,
+  "speaker": "Unknown",
+  "en": "Because it has to talk to Sentry API, we oftentimes have to guide it.",
+  "zh": "因为它要与 Sentry API 通信，我们经常需要引导它。"
+ },
+ {
+  "seg": 103,
+  "start": 495.601,
+  "end": 496.962,
+  "speaker": "Unknown",
+  "en": "And the way we do it is through skills.",
+  "zh": "我们引导它的方式是通过 skills。"
+ },
+ {
+  "seg": 104,
+  "start": 497.422,
+  "end": 501.424,
+  "speaker": "Unknown",
+  "en": "Oftentimes, those are old endpoints that we are not able to easily fix.",
+  "zh": "通常，这些是我们无法轻易修复的旧端点。"
+ },
+ {
+  "seg": 105,
+  "start": 501.464,
+  "end": 505.646,
+  "speaker": "Unknown",
+  "en": "And they have some complexities that are hard to describe on the level of schema itself.",
+  "zh": "而它们有一些复杂之处，很难在 schema 层面描述清楚。"
+ },
+ {
+  "seg": 106,
+  "start": 506.106,
+  "end": 510.448,
+  "speaker": "Unknown",
+  "en": "So instead, we guide that through skills, which is a pretty common pattern in the age antique world.",
+  "zh": "所以我们改为通过 skills 来引导，这在当前这个时代是一个相当常见的模式。"
+ },
+ {
+  "seg": 107,
+  "start": 510.928,
+  "end": 515.45,
+  "speaker": "Unknown",
+  "en": "But here is an example of a skill that tells how a metric should be created at Sentry.",
+  "zh": "这里有一个 skill 的例子，它讲述了一个 metric 应该如何在 Sentry 中创建。"
+ },
+ {
+  "seg": 108,
+  "start": 517.158,
+  "end": 524.884,
+  "speaker": "Unknown",
+  "en": "We generated a lot of those skills and examples with those code blocks as the examples of code that can then be run in the sandbox by agent.",
+  "zh": "我们生成了大量这样的 skills 和示例，这些代码块作为代码示例，可以被智能体在沙箱中运行。"
+ },
+ {
+  "seg": 109,
+  "start": 525.544,
+  "end": 533.85,
+  "speaker": "Unknown",
+  "en": "And in the original attempt to do that, we lost the accuracy of the agent significantly because lots of those examples were hallucinated.",
+  "zh": "在最初的尝试中，智能体的准确性大幅下降，因为其中很多示例都是幻觉出来的。"
+ },
+ {
+  "seg": 110,
+  "start": 534.53,
+  "end": 538.794,
+  "speaker": "Unknown",
+  "en": "So the first linter we created was a linter that says if there is a code block",
+  "zh": "所以我们创建的第一个 linter 是这样一个 linter:它规定如果有代码块，"
+ },
+ {
+  "seg": 111,
+  "start": 539.574,
+  "end": 542.595,
+  "speaker": "Unknown",
+  "en": "Inside the skill, you've got to extract those code blocks.",
+  "zh": "在 skill 里面，你必须提取出那些代码块。"
+ },
+ {
+  "seg": 112,
+  "start": 543.135,
+  "end": 545.296,
+  "speaker": "Unknown",
+  "en": "You have to make sure they type check.",
+  "zh": "你必须确保它们能通过类型检查。"
+ },
+ {
+  "seg": 113,
+  "start": 545.596,
+  "end": 546.877,
+  "speaker": "Unknown",
+  "en": "They can run in our sandbox.",
+  "zh": "它们能在我们的沙箱中运行。"
+ },
+ {
+  "seg": 114,
+  "start": 546.917,
+  "end": 550.498,
+  "speaker": "Unknown",
+  "en": "And whatever they declare agrees with OpenAPI schema from Sentry.",
+  "zh": "并且它们声明的内容与 Sentry 的 OpenAPI schema 一致。"
+ },
+ {
+  "seg": 115,
+  "start": 551.779,
+  "end": 552.439,
+  "speaker": "Unknown",
+  "en": "And that helped.",
+  "zh": "这起作用了。"
+ },
+ {
+  "seg": 116,
+  "start": 553.14,
+  "end": 561.803,
+  "speaker": "Unknown",
+  "en": "But the first thing that the agent did when we tried to rerun the skill generation with that rule is, oh, there are lean-through errors.",
+  "zh": "但当我们尝试用这条规则重新运行 skill 生成时，智能体做的第一件事是：哦，这里有 linter 错误，"
+ },
+ {
+  "seg": 117,
+  "start": 562.463,
+  "end": 563.784,
+  "speaker": "Unknown",
+  "en": "Let me remove the code blocks.",
+  "zh": "让我把代码块删掉吧。"
+ },
+ {
+  "seg": 118,
+  "start": 565.805,
+  "end": 567.506,
+  "speaker": "Unknown",
+  "en": "And that wasn't very desired by us.",
+  "zh": "而这不是我们想要的结果。"
+ },
+ {
+  "seg": 119,
+  "start": 567.546,
+  "end": 568.346,
+  "speaker": "Unknown",
+  "en": "So we said, no, no, no.",
+  "zh": "所以我们说，不不不。"
+ },
+ {
+  "seg": 120,
+  "start": 568.386,
+  "end": 569.927,
+  "speaker": "Unknown",
+  "en": "Examples have to be put in code blocks.",
+  "zh": "示例必须放在代码块里。"
+ },
+ {
+  "seg": 121,
+  "start": 570.307,
+  "end": 576.231,
+  "speaker": "Unknown",
+  "en": "So it put the examples back, but it removed the backticks, because only the backticks are linted.",
+  "zh": "于是它把示例放了回去，但删掉了反引号，因为只有反引号里的内容才会被 lint。"
+ },
+ {
+  "seg": 122,
+  "start": 576.631,
+  "end": 579.232,
+  "speaker": "Unknown",
+  "en": "So let's fix the problem, right?",
+  "zh": "所以我们来解决这个问题，对吧？"
+ },
+ {
+  "seg": 123,
+  "start": 579.733,
+  "end": 580.493,
+  "speaker": "Unknown",
+  "en": "So we're like, no, no, no.",
+  "zh": "所以我们说，不不不。"
+ },
+ {
+  "seg": 124,
+  "start": 581.354,
+  "end": 587.637,
+  "speaker": "Unknown",
+  "en": "If it looks like a code, smells like a code, if it has underscores and parentheses, push those into code blocks.",
+  "zh": "如果它看起来像代码，闻起来像代码，如果它有下划线和括号，就把它放进代码块里。"
+ },
+ {
+  "seg": 125,
+  "start": 588.558,
+  "end": 589.138,
+  "speaker": "Unknown",
+  "en": "So I was like, OK.",
+  "zh": "它说，好吧。"
+ },
+ {
+  "seg": 126,
+  "start": 590.615,
+  "end": 592.456,
+  "speaker": "Unknown",
+  "en": "So you want me to put code into code blocks.",
+  "zh": "所以你想让我把代码放进代码块里。"
+ },
+ {
+  "seg": 127,
+  "start": 592.856,
+  "end": 594.796,
+  "speaker": "Unknown",
+  "en": "I'm going to describe the APIs.",
+  "zh": "那我来描述这些 API。"
+ },
+ {
+  "seg": 128,
+  "start": 595.216,
+  "end": 598.477,
+  "speaker": "Unknown",
+  "en": "So now in prose, it started describing what the APIs should do.",
+  "zh": "于是它开始用文字描述这些 API 应该做什么。"
+ },
+ {
+  "seg": 129,
+  "start": 599.277,
+  "end": 603.839,
+  "speaker": "Unknown",
+  "en": "But it did one mistake, which is it referred to the URLs of the APIs.",
+  "zh": "但它犯了一个错误，就是引用了这些 API 的 URL。"
+ },
+ {
+  "seg": 130,
+  "start": 604.139,
+  "end": 605.979,
+  "speaker": "Unknown",
+  "en": "So then we linted away the URLs.",
+  "zh": "于是我们用 linter 把 URL 排除掉了。"
+ },
+ {
+  "seg": 131,
+  "start": 606.92,
+  "end": 609.46,
+  "speaker": "Unknown",
+  "en": "And we played this little whack-a-mole for a little while.",
+  "zh": "我们玩了一小会儿这种打地鼠游戏。"
+ },
+ {
+  "seg": 132,
+  "start": 609.7,
+  "end": 614.242,
+  "speaker": "Unknown",
+  "en": "But at the end of the day, we ended up with skills that are synced to our OpenAPI schema.",
+  "zh": "但最终，我们得到了与我们的 OpenAPI schema 同步的 skills。"
+ },
+ {
+  "seg": 133,
+  "start": 614.602,
+  "end": 616.702,
+  "speaker": "Unknown",
+  "en": "And that wasn't that expensive to do.",
+  "zh": "而且这做起来并不那么昂贵。"
+ },
+ {
+  "seg": 134,
+  "start": 620.565,
+  "end": 628.39,
+  "speaker": "Unknown",
+  "en": "I'm not going to say unbreakable model, but we have a model where when API changes, we actually don't have to follow up on the agent skills all the time.",
+  "zh": "我不会说这是牢不可破的模型，但我们有一套机制，当 API 变化时，我们实际上不必一直跟进去更新智能体的 skills。"
+ },
+ {
+  "seg": 135,
+  "start": 628.55,
+  "end": 630.792,
+  "speaker": "Unknown",
+  "en": "It's kept in sync through the linters.",
+  "zh": "它通过 linter 保持同步。"
+ },
+ {
+  "seg": 136,
+  "start": 633.073,
+  "end": 644.901,
+  "speaker": "Unknown",
+  "en": "And when it comes to the actual movements, the actual how do we do this, you can use any sort of tool that you're using already, ESLint, OxLint, FlakeAid, Clippy, ASTGrep.",
+  "zh": "至于具体的操作、具体怎么做，你可以使用任何你已经在用的工具，ESLint、OxLint、FlakeAid、Clippy、ASTGrep。"
+ },
+ {
+  "seg": 137,
+  "start": 644.961,
+  "end": 649.705,
+  "speaker": "Unknown",
+  "en": "ASTGrep's great because it's language agnostic, so it's kind of unified tooling.",
+  "zh": "ASTGrep 很棒，因为它是语言无关的，所以算是统一的工具。"
+ },
+ {
+  "seg": 138,
+  "start": 650.305,
+  "end": 651.606,
+  "speaker": "Unknown",
+  "en": "Warm, fuzzy feelings about that.",
+  "zh": "对此我有一种温暖而美好的感觉。"
+ },
+ {
+  "seg": 139,
+  "start": 652.786,
+  "end": 657.789,
+  "speaker": "Unknown",
+  "en": "There is a bunch of new tools that are popping up that are trying to approach it from a different perspective.",
+  "zh": "现在有一堆新工具正在涌现，它们试图从不同的角度来解决这个问题。"
+ },
+ {
+  "seg": 140,
+  "start": 658.249,
+  "end": 663.471,
+  "speaker": "Unknown",
+  "en": "One example is Taskless, where instead of writing the actual linter, you write what you want the linter to do.",
+  "zh": "一个例子是 Taskless,你不用写实际的 linter，而是写你希望 linter 做什么。"
+ },
+ {
+  "seg": 141,
+  "start": 663.491,
+  "end": 668.674,
+  "speaker": "Unknown",
+  "en": "You write your intent in English language, and then the actual linter is derived from it.",
+  "zh": "你用英语写下你的意图，然后实际的 linter 就从中派生出来。"
+ },
+ {
+  "seg": 142,
+  "start": 672.374,
+  "end": 677.678,
+  "speaker": "Unknown",
+  "en": "The last thing that I will repeat is try asking the agent for the actual linters.",
+  "zh": "我要重复的最后一件事是，试着让智能体来生成实际的 linter。"
+ },
+ {
+  "seg": 143,
+  "start": 677.698,
+  "end": 680.64,
+  "speaker": "Unknown",
+  "en": "You will be surprised what it can generate.",
+  "zh": "你会惊讶于它能生成什么。"
+ },
+ {
+  "seg": 144,
+  "start": 681.18,
+  "end": 682.621,
+  "speaker": "Unknown",
+  "en": "But that's only half the picture.",
+  "zh": "但这只是一半的画面。"
+ },
+ {
+  "seg": 145,
+  "start": 683.181,
+  "end": 689.986,
+  "speaker": "Unknown",
+  "en": "What if there are rules that are deterministic cannot express, cannot be expressed for linters?",
+  "zh": "如果有些规则是确定性的、linter 无法表达的、不能被表达的呢？"
+ },
+ {
+  "seg": 146,
+  "start": 691.778,
+  "end": 692.919,
+  "speaker": "Unknown",
+  "en": "There is plenty of those, right?",
+  "zh": "这样的规则有很多，对吧？"
+ },
+ {
+  "seg": 147,
+  "start": 693.139,
+  "end": 695.499,
+  "speaker": "Unknown",
+  "en": "Those are all types of qualitative measures.",
+  "zh": "那些都是各种类型的定性指标。"
+ },
+ {
+  "seg": 148,
+  "start": 695.56,
+  "end": 704.723,
+  "speaker": "Unknown",
+  "en": "Like, you have a state machine with just three states, and I created a small PR to add small functionality and ballooned up the number of states into 10.",
+  "zh": "比如，你有一个只有三个状态的状态机，而我创建了一个小 PR 来添加一个小功能，却把状态数量膨胀到了 10 个。"
+ },
+ {
+  "seg": 149,
+  "start": 705.942,
+  "end": 708.063,
+  "speaker": "Unknown",
+  "en": "I don't know how to lean against that.",
+  "zh": "我不知道该怎么用 linter 来对抗这种情况。"
+ },
+ {
+  "seg": 150,
+  "start": 708.423,
+  "end": 710.443,
+  "speaker": "Unknown",
+  "en": "I don't think I reliably can lean against that.",
+  "zh": "我觉得我没法可靠地依仗那个。"
+ },
+ {
+  "seg": 151,
+  "start": 710.483,
+  "end": 716.786,
+  "speaker": "Unknown",
+  "en": "I can create small, tactical things like no more than four states, but it's all bullshit.",
+  "zh": "我可以创建一些小的、战术性的东西,比如不超过四个状态,但那都是扯淡。"
+ },
+ {
+  "seg": 152,
+  "start": 716.926,
+  "end": 718.266,
+  "speaker": "Unknown",
+  "en": "It's all made up.",
+  "zh": "全是编出来的。"
+ },
+ {
+  "seg": 153,
+  "start": 718.706,
+  "end": 729.91,
+  "speaker": "Unknown",
+  "en": "This is the situation where we're talking about qualitative measures, and this is where you are engaging your engineering experience or, as Twitter would say, your taste.",
+  "zh": "这就是我们谈论定性度量的情况,而这正是你要动用你的工程经验的地方,或者像 Twitter 会说的,你的品味(taste)。"
+ },
+ {
+  "seg": 154,
+  "start": 731.451,
+  "end": 733.153,
+  "speaker": "Unknown",
+  "en": "And you just have to decline it straight up.",
+  "zh": "你只能直接拒绝它。"
+ },
+ {
+  "seg": 155,
+  "start": 733.574,
+  "end": 739.901,
+  "speaker": "Unknown",
+  "en": "Or you can have an LLM agent that is going to do a pass and, for simpler things, help you with that.",
+  "zh": "或者你可以用一个 LLM 智能体来做一遍检查,对比较简单的东西,它能帮上忙。"
+ },
+ {
+  "seg": 156,
+  "start": 742.444,
+  "end": 748.952,
+  "speaker": "Unknown",
+  "en": "Concretely here, I've started to create policies for the repository.",
+  "zh": "具体来说,我开始为代码仓库创建一些政策。"
+ },
+ {
+  "seg": 157,
+  "start": 749.76,
+  "end": 753.541,
+  "speaker": "Unknown",
+  "en": "And those policies are such as, I don't want too many tests.",
+  "zh": "这些政策是这样的,比如我不想要太多测试。"
+ },
+ {
+  "seg": 158,
+  "start": 754.041,
+  "end": 755.361,
+  "speaker": "Unknown",
+  "en": "I want stronger tests.",
+  "zh": "我想要更强的测试。"
+ },
+ {
+  "seg": 159,
+  "start": 756.182,
+  "end": 759.683,
+  "speaker": "Unknown",
+  "en": "Or I do not want a code that's too defensive.",
+  "zh": "或者我不想要过度防御性的代码。"
+ },
+ {
+  "seg": 160,
+  "start": 760.063,
+  "end": 769.165,
+  "speaker": "Unknown",
+  "en": "I'm sure you've seen those where every single possible case is tricode by the agent, and it's just sloppy, long, long functions.",
+  "zh": "我相信你见过那种情况,智能体把每一种可能的情况都穷尽了(tricode),结果就是拖沓的、很长的函数。"
+ },
+ {
+  "seg": 161,
+  "start": 769.685,
+  "end": 776.027,
+  "speaker": "Unknown",
+  "en": "I would rather have code that in its type system does not allow to express states that are undesired.",
+  "zh": "我宁愿要那种在类型系统层面就不允许表达非预期状态的代码。"
+ },
+ {
+  "seg": 162,
+  "start": 778.07,
+  "end": 779.591,
+  "speaker": "Unknown",
+  "en": "So I created those policies.",
+  "zh": "于是我创建了那些政策。"
+ },
+ {
+  "seg": 163,
+  "start": 779.972,
+  "end": 782.614,
+  "speaker": "Unknown",
+  "en": "And then I created a skill that I called Grumpy Engineer.",
+  "zh": "然后我创建了一个技能,我把它叫做 Grumpy Engineer(暴躁工程师)。"
+ },
+ {
+  "seg": 164,
+  "start": 782.954,
+  "end": 784.876,
+  "speaker": "Unknown",
+  "en": "We call it Garfield internally.",
+  "zh": "我们内部叫它 Garfield(加菲猫)。"
+ },
+ {
+  "seg": 165,
+  "start": 785.937,
+  "end": 790.62,
+  "speaker": "Unknown",
+  "en": "And the way it works is it takes all the policies and runs sub-agents for each of the policies.",
+  "zh": "它的工作方式是,它拿走所有政策,为每一条政策运行子智能体。"
+ },
+ {
+  "seg": 166,
+  "start": 791.081,
+  "end": 794.644,
+  "speaker": "Unknown",
+  "en": "And the sub-agent can either give feedback or stand down.",
+  "zh": "子智能体可以给出反馈,或者收手。"
+ },
+ {
+  "seg": 167,
+  "start": 795.87,
+  "end": 796.852,
+  "speaker": "Unknown",
+  "en": "And we loop that.",
+  "zh": "我们循环这个过程。"
+ },
+ {
+  "seg": 168,
+  "start": 797.472,
+  "end": 800.316,
+  "speaker": "Unknown",
+  "en": "And this is the closest you will hear me doing loops, by the way.",
+  "zh": "顺便说一句,这是你能听到我离「循环」最近的一次。"
+ },
+ {
+  "seg": 169,
+  "start": 801.338,
+  "end": 806.385,
+  "speaker": "Unknown",
+  "en": "We will loop that until the agent stands down and says, I'm OK with that.",
+  "zh": "我们会循环这个过程,直到智能体收手并说,我可以接受这个。"
+ },
+ {
+  "seg": 170,
+  "start": 806.445,
+  "end": 807.166,
+  "speaker": "Unknown",
+  "en": "I validate that.",
+  "zh": "我认可这个。"
+ },
+ {
+  "seg": 171,
+  "start": 807.186,
+  "end": 807.686,
+  "speaker": "Unknown",
+  "en": "This is fine.",
+  "zh": "这没问题。"
+ },
+ {
+  "seg": 172,
+  "start": 808.307,
+  "end": 809.569,
+  "speaker": "Unknown",
+  "en": "And only then I read the code.",
+  "zh": "只有到那时我才去读代码。"
+ },
+ {
+  "seg": 173,
+  "start": 811.231,
+  "end": 824.361,
+  "speaker": "Unknown",
+  "en": "Sort of my metric of success here is how much I'm casting at the agent, how much when I'm reviewing the code, I'm like, oh yeah, this is not ideal, but I can steer it here and I don't have to do very elementary feedback all the time.",
+  "zh": "我在这里的成功指标,某种意义上是我对智能体的「投喂」程度,也就是我在审查代码时,有多少次是这种反应:哦对,这个不太理想,但我可以在这里引导它,而不必总是做非常初级的反馈。"
+ },
+ {
+  "seg": 174,
+  "start": 824.601,
+  "end": 840.253,
+  "speaker": "Unknown",
+  "en": "It is still qualitative, but the goal here isn't to remove the code review quite yet, you know, things will change as models get better, but more so to raise the floor and make it easier to work with the agents as you're going forward.",
+  "zh": "它仍然是定性的,但这里的目标还不是要取消代码审查,你知道,随着模型变得更好,情况会改变,而更多是抬高下限,让你在往前走的过程中更容易与智能体协作。"
+ },
+ {
+  "seg": 175,
+  "start": 841.739,
+  "end": 848.881,
+  "speaker": "Unknown",
+  "en": "There is also one thing that I want to mention, that is beware of a snake oil.",
+  "zh": "还有一件事我想提一下,那就是当心蛇油(骗人的万灵药)。"
+ },
+ {
+  "seg": 176,
+  "start": 850.061,
+  "end": 853.902,
+  "speaker": "Unknown",
+  "en": "We are talking about the tricky part being qualitative measures.",
+  "zh": "我们说的难点在于定性度量。"
+ },
+ {
+  "seg": 177,
+  "start": 854.642,
+  "end": 860.143,
+  "speaker": "Unknown",
+  "en": "And I've done experiments where I tried to capture a qualitative measure in a quantitative metric.",
+  "zh": "而我做过实验,试图把一个定性度量捕捉成一个量化指标。"
+ },
+ {
+  "seg": 178,
+  "start": 860.863,
+  "end": 862.564,
+  "speaker": "Unknown",
+  "en": "So two concrete examples.",
+  "zh": "两个具体例子。"
+ },
+ {
+  "seg": 179,
+  "start": 862.644,
+  "end": 863.144,
+  "speaker": "Unknown",
+  "en": "One of them is",
+  "zh": "其中一个是"
+ },
+ {
+  "seg": 180,
+  "start": 864.992,
+  "end": 867.394,
+  "speaker": "Unknown",
+  "en": "Cyclomatic complexity, and the other one is test coverage.",
+  "zh": "圈复杂度,另一个是测试覆盖率。"
+ },
+ {
+  "seg": 181,
+  "start": 867.915,
+  "end": 873.86,
+  "speaker": "Unknown",
+  "en": "Cyclomatic complexity is a measure that says how maintainable and testable the code is.",
+  "zh": "圈复杂度是一个衡量代码可维护性和可测试性的指标。"
+ },
+ {
+  "seg": 182,
+  "start": 874,
+  "end": 879.304,
+  "speaker": "Unknown",
+  "en": "And it tries to base that on how many branches happen in the code and how deep the call stack goes.",
+  "zh": "它试图基于代码中发生了多少分支、调用栈有多深来得出这个结论。"
+ },
+ {
+  "seg": 183,
+  "start": 879.965,
+  "end": 887.111,
+  "speaker": "Unknown",
+  "en": "And test coverage tries to tell you how much of the code is covered by test.",
+  "zh": "而测试覆盖率试图告诉你代码有多大比例被测试覆盖。"
+ },
+ {
+  "seg": 184,
+  "start": 888.792,
+  "end": 895.437,
+  "speaker": "Unknown",
+  "en": "And the problem with that is when you give a number to the agent, the agent will optimize the shit out of the number.",
+  "zh": "问题在于,当你给智能体一个数字,它会把这个数字优化到极致。"
+ },
+ {
+  "seg": 185,
+  "start": 897.038,
+  "end": 897.598,
+  "speaker": "Unknown",
+  "en": "And it did.",
+  "zh": "而它确实这么干了。"
+ },
+ {
+  "seg": 186,
+  "start": 897.778,
+  "end": 899.059,
+  "speaker": "Unknown",
+  "en": "And I got code bases.",
+  "zh": "我拿到了一些代码库。"
+ },
+ {
+  "seg": 187,
+  "start": 899.099,
+  "end": 903.583,
+  "speaker": "Unknown",
+  "en": "I got projects where I got to like 100% or close to 100% of test coverage.",
+  "zh": "我拿到一些项目,测试覆盖率达到了接近 100% 或者就是接近 100%。"
+ },
+ {
+  "seg": 188,
+  "start": 903.843,
+  "end": 905.544,
+  "speaker": "Unknown",
+  "en": "But the actual tests are bad.",
+  "zh": "但实际的测试很糟糕。"
+ },
+ {
+  "seg": 189,
+  "start": 905.604,
+  "end": 909.667,
+  "speaker": "Unknown",
+  "en": "They are like asserting particular string and particular output of the agent.",
+  "zh": "它们就像是在断言特定的字符串和智能体的特定输出。"
+ },
+ {
+  "seg": 190,
+  "start": 909.687,
+  "end": 911.448,
+  "speaker": "Unknown",
+  "en": "They are not measuring anything of value.",
+  "zh": "它们没有衡量任何有价值的东西。"
+ },
+ {
+  "seg": 191,
+  "start": 912.549,
+  "end": 915.251,
+  "speaker": "Unknown",
+  "en": "And more so, they are giving you a false sense of security.",
+  "zh": "而且更进一步,它们给你一种虚假的安全感。"
+ },
+ {
+  "seg": 192,
+  "start": 915.671,
+  "end": 916.932,
+  "speaker": "Unknown",
+  "en": "So beware of that.",
+  "zh": "所以要当心这个。"
+ },
+ {
+  "seg": 193,
+  "start": 917.112,
+  "end": 917.592,
+  "speaker": "Unknown",
+  "en": "Beware of,",
+  "zh": "要当心,"
+ },
+ {
+  "seg": 194,
+  "start": 919.232,
+  "end": 923.074,
+  "speaker": "Unknown",
+  "en": "The complexities of actual qualitative metrics.",
+  "zh": "真正的定性指标的复杂性。"
+ },
+ {
+  "seg": 195,
+  "start": 925.435,
+  "end": 926.135,
+  "speaker": "Unknown",
+  "en": "And that's it.",
+  "zh": "就这些。"
+ },
+ {
+  "seg": 196,
+  "start": 926.215,
+  "end": 926.835,
+  "speaker": "Unknown",
+  "en": "That's my call.",
+  "zh": "这是我的呼吁。"
+ },
+ {
+  "seg": 197,
+  "start": 926.855,
+  "end": 932.698,
+  "speaker": "Unknown",
+  "en": "My call to action for you is after this, try to ask your agent for linters and policies and see whether that helps you.",
+  "zh": "我给你们的行动号召是,在这之后,试着向你的智能体要一些 linter 和政策,看看那是否对你有帮助。"
+ },
+ {
+  "seg": 198,
+  "start": 933.358,
+  "end": 935.039,
+  "speaker": "Unknown",
+  "en": "Try things and make the repo remember.",
+  "zh": "多做尝试,并让仓库记住这些。"
+ },
+ {
+  "seg": 199,
+  "start": 935.699,
+  "end": 936.96,
+  "speaker": "Unknown",
+  "en": "And that's my time.",
+  "zh": "我的时间到了。"
+ },
+ {
+  "seg": 200,
+  "start": 937.3,
+  "end": 937.62,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 201,
+  "start": 945.33,
+  "end": 945.732,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

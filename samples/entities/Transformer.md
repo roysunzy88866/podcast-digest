@@ -56,7 +56,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Copilot]] · [[LLM]] · [[预训练]] · [[Claude Code]] · [[AGI]] · [[强化学习]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"推理":100,"Copilot":13,"LLM":64,"预训练":9,"Claude Code":113,"AGI":28,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"推理":101,"Copilot":13,"LLM":65,"预训练":9,"Claude Code":114,"AGI":28,"强化学习":1}</script>
 
 <script>
 (function(){

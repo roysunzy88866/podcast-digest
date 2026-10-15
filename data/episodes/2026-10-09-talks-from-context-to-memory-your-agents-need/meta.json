@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-talks-from-context-to-memory-your-agents-need",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/BIhiYL4U9_M.m4a",
+  "duration_sec": 1082.35,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 236,
+  "asr": true,
+  "title_en": "From Context to Memory: Your Agents Need a Real Memory Layer — Anders Swanson, Oracle",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "added": "2026-10-15",
+  "added_at": "2026-10-14T23:05:43.511Z",
+  "speaker_map": {
+    "SPEAKER_00": "Anders Swanson"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Anders Swanson"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI 智能体为什么总是“失忆”？",
+  "guest_name": "Anders Swanson",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

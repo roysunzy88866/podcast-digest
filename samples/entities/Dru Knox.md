@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":35,"沙箱":99,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
+<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":35,"沙箱":100,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
 
 <script>
 (function(){

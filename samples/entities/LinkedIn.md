@@ -49,7 +49,7 @@ unlisted: true
 
 [[网络效应]] · [[ChatGPT]] · [[GitHub]] · [[Facebook]] · [[Google]] · [[Apple]] · [[智能体]] · [[Lenny]] · [[Ajay Prakash]] · [[One Schema]]
 
-<script type="application/json" class="pd-epn">{"网络效应":16,"ChatGPT":112,"GitHub":35,"Facebook":17,"Google":72,"Apple":27,"智能体":1,"Lenny":69,"Ajay Prakash":1,"One Schema":1}</script>
+<script type="application/json" class="pd-epn">{"网络效应":16,"ChatGPT":112,"GitHub":35,"Facebook":18,"Google":72,"Apple":27,"智能体":1,"Lenny":69,"Ajay Prakash":1,"One Schema":1}</script>
 
 <script>
 (function(){

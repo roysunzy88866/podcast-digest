@@ -39,17 +39,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Harry Stebbings]] · [[Curative]] · [[TL Biolabs]] · [[Subcritical]] · [[Anthropic]] · [[Salesforce]] · [[YC]] · [[智能体]] · [[SaaS 已死]] · [[一次性代码]]
+[[Harry Stebbings]] · [[Curative]] · [[TL Biolabs]] · [[Subcritical]] · [[Anthropic]] · [[Salesforce]] · [[YC]] · [[Sentry]] · [[智能体]] · [[SaaS 已死]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":204,"Salesforce":36,"YC":17,"智能体":1,"SaaS 已死":1,"一次性代码":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":204,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
 
 <script>
 (function(){

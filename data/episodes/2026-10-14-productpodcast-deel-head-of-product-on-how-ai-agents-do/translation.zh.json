@@ -1,0 +1,346 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 0,
+  "speaker": "Unknown",
+  "en": "Trailer",
+  "zh": "预告片"
+ },
+ {
+  "seg": 1,
+  "start": 0,
+  "end": 13,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You guys recently published a study saying you found over $140 million in ARR. That's the equivalent of the work of 600 people that you can now do with agents. How did you actually connect that type of investment with real ROI?",
+  "zh": "你们最近发布了一项研究，说你们发现了超过1.4亿美元的ARR。这相当于600人的工作量，现在可以用智能体完成。你们究竟是如何把这种投资与真实的ROI挂钩起来的？"
+ },
+ {
+  "seg": 2,
+  "start": 13,
+  "end": 21,
+  "speaker": "Aaron Goldsmid",
+  "en": "It's picking up the change on the floor. Software was the last artisanal craft, and that has changed.",
+  "zh": "这就像捡起地上的零钱。软件曾是最后一种手工艺，而这一切已经改变了。"
+ },
+ {
+  "seg": 3,
+  "start": 21,
+  "end": 29,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Aaron Goldsmid, SVP of Product at Deel. You've been at Deel for almost four years at this point. I know you guys recently announced $1.5 billion in ARR, but where was the company when you joined?",
+  "zh": "Aaron Goldsmid，Deel的产品高级副总裁。到目前为止，你在Deel已经待了将近四年。我知道你们最近宣布了15亿美元的ARR，但当你加入时公司是什么状况？"
+ },
+ {
+  "seg": 4,
+  "start": 29,
+  "end": 40,
+  "speaker": "Aaron Goldsmid",
+  "en": "I think it was around 250 million, which is an inconceivable amount of growth for such a short period of time. There's one other aspect I believe is true: we're also the largest remote company, full stop.",
+  "zh": "我记得当时大约是2.5亿，对于这么短的时间来说，这是难以置信的增长。我相信还有另一个事实：我们也是最大的远程办公公司，就这么简单。"
+ },
+ {
+  "seg": 5,
+  "start": 40,
+  "end": 51,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "People have to choose: either you grow faster at the expense of not making money, or you become profitable at the expense of not growing fast enough. How were you able to pull both levers at the same time? Introduction",
+  "zh": "人们必须做出选择：要么以不赚钱为代价更快地增长，要么以增长不够快为代价实现盈利。你们是如何同时拉动这两根杠杆的？引言"
+ },
+ {
+  "seg": 6,
+  "start": 51,
+  "end": 158,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Hey, this is Carlos, CEO at Product School and your host on The Product Podcast. My guest today is Aaron Goldsmid, who runs product at Deel. He joined about four years ago, when the company was around $250 million in ARR. They just announced $1.5 billion, have been profitable for nearly three years, and are the largest fully remote company on the planet. He's been at Amazon, Facebook, and Twilio, and he says the hardest part of his job now is that headcount stopped being a useful proxy for anything. Here's what we'll cover: the bot he built that predicts his own review questions; training a small model on their own corpus and beating the frontier ones for their use case; how they found $140 million by picking up change off the floor; no company is as sticky as it used to be, including his; and AI does not replace your job, it replaces the worst part of it. Let's get into it. [Sponsor]  AI helps us generate ideas, draft plans, and spin up work in minutes. But faster doesn't necessarily mean better. When everyone has their own AI tools, their own outputs, and their own context, you get fragmentation: fractured version control, scattered review processes, decisions happening in parallel, not in concert. Rebuilding context between people and platforms costs you time and momentum. That's where Mural comes in. Mural gives teams a shared visual canvas to bring work together. You can generate structured starting points right on the canvas instead of moving outputs between tools, keep all of your context in one place, and compatible AI agents can contribute alongside the team, bringing in context from the tools they already know. The future of work is still human. Learn more at mural.co. Four Years From $250M to $1.5B ARR",
+  "zh": "嘿，我是Carlos，Product School的CEO，也是《The Product Podcast》的主持人。今天的嘉宾是Aaron Goldsmid，他在Deel负责产品。他大约四年前加入，当时公司的ARR大约是2.5亿美元。他们刚刚宣布了15亿美元，已经盈利近三年，而且是全球最大的全远程公司。他曾任职于Amazon、Facebook和Twilio，他说现在工作中最难的部分是，员工人数不再是衡量任何事物的有用代理指标。以下是我们将涵盖的内容：他构建的预测自己评审问题的机器人；在他们自己的语料库上训练小模型并在他们的用例中超越前沿模型；他们如何通过捡起地上的零钱找到了1.4亿美元；没有公司还像以前那样有粘性，包括他的公司；以及AI不会取代你的工作，它取代的是你工作中最糟糕的部分。让我们开始吧。[赞助商] AI帮助我们产生想法、起草计划，并在几分钟内启动工作。但更快并不一定意味着更好。当每个人都有自己的AI工具、自己的输出和自己的上下文时，你就会遇到碎片化：支离破碎的版本控制、分散的评审流程、并行而非协同进行的决策。在人与人、平台与平台之间重建上下文会消耗你的时间和动力。这就是Mural的用武之地。Mural为团队提供一个共享的可视化画布，将工作汇集在一起。你可以直接在画布上生成结构化的起点，而不是在工具之间搬运输出，把所有的上下文保存在一个地方，而且兼容的AI智能体可以与团队一起协作，从它们已经熟悉的工具中引入上下文。工作的未来仍然是人类的。了解更多请访问mural.co。四年从2.5亿美元到15亿美元ARR"
+ },
+ {
+  "seg": 7,
+  "start": 158,
+  "end": 159,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Welcome to The Product Podcast, Aaron.",
+  "zh": "欢迎来到《The Product Podcast》，Aaron。"
+ },
+ {
+  "seg": 8,
+  "start": 159,
+  "end": 167,
+  "speaker": "Aaron Goldsmid",
+  "en": "Thank you so much for having me. I like to say this is like public radio: long-time listener, first-time caller.",
+  "zh": "非常感谢你邀请我。我喜欢说这就像公共广播电台：老听众，新来电者。"
+ },
+ {
+  "seg": 9,
+  "start": 167,
+  "end": 176,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So you've been at Deel for almost four years at this point. I know you guys recently announced $1.5 billion in ARR, but where was the company when you joined?",
+  "zh": "那么到目前为止，你在Deel已经待了将近四年。我知道你们最近宣布了15亿美元的ARR，但当你加入时公司是什么状况？"
+ },
+ {
+  "seg": 10,
+  "start": 176,
+  "end": 210,
+  "speaker": "Aaron Goldsmid",
+  "en": "I was trying to think about this. I think it was around 250 million, which is an inconceivable amount of growth for such a short period of time. And I don't mean to say that as if two companies are wildly successful, but it still feels like the difference between the 250-million and the 1.5-billion company somehow feels like it's the same company. In other ways it's totally different, right? The way we've scaled, the sophistication of customers, the complexity of the product at that different level of scale. But as an organization, it kind of feels the same. It's also a very short window: like you said, about four years. What Stays True as You Scale, and What Changes",
+  "zh": "我一直在回想这件事。我记得当时大约是2.5亿，对于这么短的时间来说，这是难以置信的增长。我并不是要把它说得好像是两家截然不同的公司一样成功，但不知怎么的，2.5亿的公司和15亿的公司之间给人的感觉仍然是同一家公司。而在其他方面它又完全不同，对吧？我们扩张的方式、客户的成熟度、在那种不同规模层级下产品的复杂度。但作为一个组织，它感觉还是一样的。而且这也是一个非常短的时间窗口：就像你说的，大约四年。随着规模扩大什么保持不变，什么发生了变化"
+ },
+ {
+  "seg": 11,
+  "start": 210,
+  "end": 225,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "You're one of the fastest-growing companies, and also probably one of the largest employers, if you include all the people being hired through your platform. So I'm curious: what are some of the elements you think stay true as you scale, and which are the ones you actually had to change?",
+  "zh": "你们是增长最快的公司之一，如果把所有通过你们平台被雇用的人算进去，你们可能也是最大的雇主之一。所以我很好奇：你认为在规模扩大的过程中哪些要素保持不变，哪些是你们实际上不得不改变的？"
+ },
+ {
+  "seg": 12,
+  "start": 225,
+  "end": 374,
+  "speaker": "Aaron Goldsmid",
+  "en": "One other aspect that I believe is true is we're also the largest remote company, full stop, which is another aspect in part of what Deel is: really enabling global work, so you can work anywhere, being that global platform. There are certain things in the DNA of a company. I think about this a lot in terms of competing with other companies: what's their genetic makeup? It's very hard to change. So it's all centered around speed and customer centricity. I was at Amazon, and this is a new high-water mark for being customer-focused. You could be an average mid-market customer and be on a shared Slack channel with us within half an hour, talking to myself and most of the C-suite, and we'll probably be pushing code within 12 hours if it was an issue. That level of access into the organization is incredibly high. One of the things we've had to really learn, and there have been some bumps along the way, is that as we've scaled, the culture comes down from Alex, and he's very visible at every level of the organization. But because those interactions are not as frequent, that culture imprinting takes a little bit longer. So it's about making sure that the next set of leaders, the leaders below, are the culture carriers, making sure there's speed, customer centricity, a level of ownership. Everyone is a player-coach, before that became the rage. I'm espousing work every day, and I think it's great, because your hands are on the craft and you're not missing anything. Because of some law that says the number of people you have in that graph, the number of lines between them increases every time. So if you're not still hands-on, especially as a company scales, process bloat is very easy to happen, or things that didn't work at your SMB or mid-market suddenly become something you need for enterprise, or vice versa. By staying close to it, every strategic vision or insight I've ever had, even the ones that look like macroeconomic disruption, came from being in the weeds, working on something and just catching it, like, \"wait a second, what did that person just say? That was really interesting.\" They probably didn't know they said it, but it was the impetus for something that could put hundreds of engineers on the next thing in a short period of time. Why Headcount Is No Longer a Useful Proxy",
+  "zh": "我相信还有另一个事实：我们也是最大的远程办公公司，就这么简单，这也是Deel的一部分：真正实现全球工作，让你可以在任何地方工作，成为那个全球平台。一家公司的DNA里有一些东西。在与其它公司竞争时我经常思考这个问题：它们的基因构成是什么？这很难改变。所以一切都围绕着速度和以客户为中心。我曾任职于Amazon，那是以客户为中心的新高水位线。你可以是一个普通的中端市场客户，在半小时内与我们在一个共享的Slack频道上，和我以及大部分高管层对话，如果是个问题，我们可能会在12小时内推送代码。这种对组织的深入接触程度非常高。我们真正必须学到的一件事，虽然过程中有一些波折，就是随着我们的扩张，文化是从Alex那里传递下来的，他在组织的每一层都非常显眼。但因为这些互动不那么频繁，那种文化烙印需要更长的时间。所以关键是确保下一批领导者，下面的领导者，成为文化承载者，确保有速度、以客户为中心、一种责任感。每个人都是球员兼教练，在这成为潮流之前就是这样。我每天都在推崇亲自动手的工作，我认为这很棒，因为你的双手在技艺上，你不会错过任何东西。因为根据某种定律，图里的人数每增加一次，他们之间的连线数量就会增加。所以如果你不再亲自动手，尤其是当公司规模扩大时，流程膨胀很容易发生，或者在你们的SMB或中端市场不起作用的东西突然变成企业级所需要的东西，反之亦然。通过保持贴近，我曾有过的每一个战略愿景或洞察，即使是那些看起来像宏观经济颠覆的东西，都来自深入细节，在做某件事的时候恰好捕捉到它，比如“等一下，那个人刚才说了什么？那真的很有意思。”他们可能不知道自己说了那句话，但它是某种能在短时间内把数百名工程师投入到下一件事上的动因。为什么员工人数不再是有用的代理指标"
+ },
+ {
+  "seg": 13,
+  "start": 374,
+  "end": 375,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "How big is your team?",
+  "zh": "你的团队有多大？"
+ },
+ {
+  "seg": 14,
+  "start": 375,
+  "end": 425,
+  "speaker": "Aaron Goldsmid",
+  "en": "R&D is probably around 1,700, and that is almost certainly a wrong number, because we're hiring an engineer or two a day. Product is probably around 120, mixed up with a bunch of things between operations and so on. But the reality is, I actually don't pay a lot of attention to the count anymore. It used to be that those were incredibly good proxies for complexity, for output, for scope. But in the last 18 months, those proxies are just not valid anymore. So I end up focusing on how leveraged these people are. I don't talk about the PM-to-engineering ratio anymore. It's just, are these people fully loaded, and do they have the resources to be able to fully execute?",
+  "zh": "研发大概有1700人左右，而且这几乎肯定是一个错误的数字，因为我们每天都要雇一两个工程师。产品大概在120人左右，与运营等之间的很多东西混杂在一起。但现实是，我实际上已经不再那么关注人数了。过去这些是衡量复杂度、产出、范围非常好的代理指标。但在过去18个月里，这些代理指标已经不再有效了。所以我最终关注的是这些人有多高的杠杆。我不再谈论PM与工程的比例。只是问：这些人是否满负荷运转，他们是否有资源能够完全执行？"
+ },
+ {
+  "seg": 15,
+  "start": 425,
+  "end": 444,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "That was going to be my follow-up. If you're the largest remote company, you have a pretty large team, and you're in the weeds, how do you make sure people are fully loaded and as self-sufficient as possible, so you can stay there with them and not spend too much time on the politics and the processes?",
+  "zh": "那本来是我的下一个追问。如果你是最大的远程公司，你有一个相当大的团队，而且你又深入细节，你如何确保人们满负荷运转并尽可能自给自足，这样你就可以和他们一起待在那里，而不用在政治和流程上花太多时间？"
+ },
+ {
+  "seg": 16,
+  "start": 444,
+  "end": 623,
+  "speaker": "Aaron Goldsmid",
+  "en": "Most of that is really making sure you're close enough to the work on a regular basis that you can see. Almost every product team does a business review every two weeks, where it's engineering, product, design, and sometimes ops and sales, at the line level for that team. Their leadership, sometimes one above that, sometimes my level, and it's making sure they're going through the weeds: what's happened in the last few weeks, what shipped, how's the planning, how are things going, where are the blockers? It's not a time for pretty presentations. It's a time for the real work, and the only time that meeting goes well is when the team is aligned. They don't have to agree, but they have to be aligned. We may have two very different opinions on this topic, but there's no daylight between us on what those opinions are. We may not agree, but we all understand where everything is. What that forces us to do, especially as teams get bigger and the guilds (engineering, product, design) become identities in themselves, is they can never diverge for more than two weeks. They can drift, but within two weeks they have to come back and be on the same page. The other thing is it eliminates most of the pairwise conversations. I'm giving the product folks some advice, someone else is giving the design folks or the engineering folks advice, and even if we think we're aligned, we're saying it in slightly different ways, and it creates drift. Because when the organization gets to a certain scale, you're not in the room for every decision, so you need to make sure the decisions are good. Ideally, if you're doing your job well, the decisions are better when you're not there. The litmus test I hold for myself is: are my leaders asking all the questions in those reviews that I would, or better? If that happens, it's great, because I can step back and say, \"you guys got this.\" That's what I meant about imparting that culture down in the organization. I was actually talking with someone from another company last night, and I started building this overnight: a little bot that took all of our reviews and said, \"here are the questions I'm going to ask.\" Sadly, I'm wildly predictable, which I was kind of disappointed by, that I could be reduced to a soundboard, but apparently it's true. The idea is that I want the line-level PMs to be able to say, \"look, these are probably the questions you're going to get asked, make sure you have answers for them.\" I think that's really cool, because especially as I was coming up as a baby PM, you would obsess over this stuff: what am I missing, what am I not thinking about? After a review you'd beat yourself up, like, \"how did I not think about that?\" And as you grow up, you realize, of course these are the questions they're going to ask. Being able to short-circuit those cycles is going to be really cool.",
+  "zh": "其中大部分实际上是确保你足够贴近日常工作，以至于你能看到。几乎每个产品团队每两周做一次业务评审，由该团队一线的工程、产品、设计，有时还有运营和销售参加。他们的领导层，有时上一级，有时我这一级，关键是确保他们深入细节：过去几周发生了什么，发布了什么，规划如何，进展如何，障碍在哪里？这不是做漂亮演示的时间。这是做真正工作的时间，而那个会议顺利进行的唯一条件是团队是对齐的。他们不必同意，但他们必须对齐。我们在这个话题上可能有两种截然不同的观点，但在这些观点是什么这一点上我们之间没有分歧。我们可能不同意，但我们都清楚一切在哪里。这迫使我们做的事情，尤其是当团队变大、行会（工程、产品、设计）本身成为身份认同时，是它们分歧的时间不能超过两周。它们可以漂移，但在两周内它们必须回到同一页上。另一件事是它消除了大部分两两对话。我给产品的人一些建议，其他人给设计或工程的人建议，即使我们认为自己是对齐的，我们用略微不同的方式表达，这就会造成漂移。因为当组织达到一定规模时，你不是在每个决策的房间里，所以你需要确保那些决策是好的。理想情况下，如果你把工作做好了，当你不在那里时决策反而更好。我为自己设置的试金石是：我的领导者在那些评审中问的问题，是否是我会问的，或者更好？如果发生了这种情况，那就太好了，因为我可以退一步说：“你们搞定这个了。”这就是我所说的把文化传递到组织中。昨晚我实际上在和另一家公司的人交谈，我连夜开始构建这个小东西：一个小机器人，它读取我们所有的评审，然后说“这是我要问的问题”。可悲的是，我非常可预测，这让我有点失望，我居然可以被简化成一个共鸣板，但显然这是真的。这个想法是，我希望一线的PM们能够说：“看，这些可能是你会被问到的问题，确保你有答案。”我认为这真的很酷，因为尤其当我作为一个初出茅庐的PM成长起来的时候，你会为这些事情纠结：我遗漏了什么，我没有想到什么？评审之后你会自责，比如“我怎么没想到那个？”而当你成长起来后，你会意识到，当然这些就是他们会问的问题。能够缩短这些循环将会非常酷。"
+ },
+ {
+  "seg": 17,
+  "start": 623,
+  "end": 665,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "It reminds me of how I tried to scale myself at my company before I hired a chief of staff. I trained that person to be me when I'm not in the room, and actually encouraged her to make decisions, even if it's not exactly my decision. I'd say a decision is better than no decision, and then I can clean the dirty laundry. That was helpful. And now, with AI, I'm on fire, because like you, I'm very predictable with some of my questions, and I found myself in meetings where people would do meetings for the meeting, which to me is the biggest letdown. So now I have my agent collect the information and answer the questions, so hopefully people come prepared and we can discuss the insights, instead of sharing a screen and trying to analyze a spreadsheet.",
+  "zh": "这让我想起我在雇参谋长之前，是如何尝试在公司里扩展自己的。我训练那个人在我不在房间里时成为我，实际上还鼓励她做决策，即使那不完全是我会做的决策。我会说，有决策总比没有决策好，然后我可以收拾烂摊子。这很有帮助。而现在，有了AI，我如鱼得水，因为和你一样，我的问题非常可预测，而且我发现自己身处一些人们为了开会而开会的会议中，这对我来说是最大的失望。所以现在我让我的智能体收集信息并回答问题，这样希望人们能带着准备来，我们可以讨论洞察，而不是共享屏幕并试图分析电子表格。"
+ },
+ {
+  "seg": 18,
+  "start": 665,
+  "end": 735,
+  "speaker": "Aaron Goldsmid",
+  "en": "Inevitably it so happens, because there's just work and insights that happen as a group that you can't do individually. As lovely as it is to have an AI as a thought partner, it's still somewhat reductive. But it is really powerful, because all of a sudden I get to be in a lot more places, or at least a reasonable facsimile of me gets to be in a bunch of different places. So it helps me scale, which is great. On the flip side, we spend a ton of effort, I look after our data organization as well, building semantic layers and our own little AI analysts. So rather than me having to ping someone, and one of the things about being a globally remote company is that at any point in time someone's asleep, being able to ask that semantic layer a question about a bit of data and short-circuit that is amazing. Those loops used to be, \"oh, until you could schedule a meeting,\" which became wildly inefficient, and then \"oh, until they're on Slack.\" But now I don't even need them to be awake to have that information flowing very freely. Building a Semantic Layer the LLM Can Read",
+  "zh": "不可避免地会发生这种情况，因为有一些工作和洞察是作为一个群体才能产生的，你个人做不到。尽管拥有一个AI作为思考伙伴很美好，但它仍然在某种程度上是简化了的。但它确实非常强大，因为突然之间我可以在更多地方出现，或者至少一个合理的我的复制品可以在很多不同的地方出现。所以它帮助我扩展规模，这很棒。另一方面，我们花了大量精力，我也负责我们的数据组织，构建语义层和我们自己的小AI分析师。与其让我不得不去ping某人——作为一家全球远程公司的一个特点是任何时间点总有人在睡觉——能够向那个语义层问一个关于某块数据的问题并缩短那个循环真是太棒了。那些循环过去是：“哦，直到你能安排一个会议”，这变得极其低效，然后变成“哦，直到他们在Slack上”。但现在我甚至不需要他们醒着，就能让信息非常自由地流动。构建LLM能读懂的语义层"
+ },
+ {
+  "seg": 19,
+  "start": 735,
+  "end": 741,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Tell me more about how you've built that semantic layer, that's helpful not only to you, but to other people on your team.",
+  "zh": "多给我讲讲你们是如何构建那个语义层的，它不仅对你有帮助，也对你团队里的其他人有帮助。"
+ },
+ {
+  "seg": 20,
+  "start": 741,
+  "end": 934,
+  "speaker": "Aaron Goldsmid",
+  "en": "We've grown very, very quickly. You've heard the numbers, you've talked about the scale of engineering. Entropy is inevitable. One of our core promises is to deliver an all-in-one platform, where you don't necessarily have to take all the pieces, but there's a better-together thing. This is the classic G Suite or Office thing: what makes it wonderful is that these things naturally work together. In trying to figure out how we could make teams still move as quickly as possible but also deliver on that, there are two ends of the spectrum. One is everyone writes their own thing, which lets them move wildly quickly, you get a ton of endpoints. On the other side, everyone does the shared-service thing, but you always have to take a dependency. I tried to uncouple those two, because you want the upside of both but the downside of neither. So we let that happen at one layer and then used the dbt's of the world to create aggregation. There was an L2, which was how all the systems could talk to each other. Very quickly we realized that, both for our customers to access their own data and for us internally, because as you mentioned we're going to be one of the largest employers on the planet if you look at the folks through our payroll platform, we classically eat our own dog food. Almost every product we launch, we use internally first. We're always our first customer. So being able to say, \"these are the questions we need to ask of our organization\" for internal operational things, or trying to answer questions for our clients, is exactly the same problem. We built that semantic layer to say, \"how can I ask questions of all my data,\" knowing the surface area is so broad that no one's going to know what table it is. We got lucky, because we started doing this before the most recent evolution of the foundational or frontier models. The thing that makes that semantic layer good at explaining itself to a human, an internal resource or a customer, was actually really powerful for an LLM, because it's largely normalized. It looks like a spreadsheet, versus a complicated dataset. So the quality of response that comes out of it is incredibly good, which was a healthy reminder. We did this also with our knowledge base. The inputs you make matter. I've been talking about this for a couple of years: there's a new version of SEO. We almost had to rewrite all of the internet to work for search engines. We now need to think about all of our content, all of our data, all of our knowledge being consumed by these LLMs. We customized and tailored it to that. We've been doing a lot of that, especially with the corpus of global work and all the legislation and compliance rules. It's really powerful, because if you know you're writing for the LLM, the risk of hallucination goes wildly down, because it's consumable in a way the model expects. So it's much more predictable outcomes. Removing Room for Error in a Regulated Environment",
+  "zh": "我们增长得非常非常快。你已经听过了那些数字，你已经谈过了工程的规模。熵是不可避免的。我们的核心承诺之一是提供一个一体化平台，你不一定要采用所有的部件，但存在一个组合更好的东西。这就是经典的G Suite或Office的东西：它的美妙之处在于这些东西天然地协同工作。在试图弄清楚我们如何能让团队仍然尽可能快地移动、同时又能兑现这一承诺的过程中，存在光谱的两端。一端是每个人都写自己的东西，这让他们移动得飞快，你会得到大量的端点。另一端是每个人都做共享服务，但你总是必须接受一个依赖。我试图把这两者解耦，因为你想要两者的好处但不要两者的坏处。所以我们让这一切发生在一个层面上，然后用dbt这类工具来创建聚合。有一个L2，也就是所有系统可以互相通信的方式。很快我们意识到，无论是为了让我们的客户访问他们自己的数据，还是为了我们内部使用——因为正如你提到的，如果你看通过我们薪酬平台的所有人，我们将成为这个星球上最大的雇主之一，我们经典地吃自己的狗粮。几乎我们发布的每个产品，我们都先在内部使用。我们始终是自己的第一个客户。所以能够说“这些是我们需要问我们组织的问题”用于内部运营事项，或者试图为我们的客户回答问题，是完全相同的问题。我们构建那个语义层是为了说“我如何就我所有的数据提问”，因为知道表面面积如此之大，没有人会知道那是哪张表。我们很幸运，因为我们开始在基础模型或前沿模型最近一次演化之前就做这件事。让那个语义层擅长向人类、内部资源或客户解释自己的东西，实际上对LLM来说非常强大，因为它在很大程度上是规范化的。它看起来像电子表格，而不是复杂的数据集。所以从中得到的回答质量非常好，这是一个很好的提醒。我们对知识库也做了同样的事。你制造的输入很重要。我谈论这件事已经有几年了：有一个新版本的SEO。我们几乎不得不重写整个互联网以适配搜索引擎。我们现在需要考虑我们所有的内容、所有的数据、所有的知识被这些LLM消费。我们为此定制并调整了它们。我们一直在做很多这样的事，尤其是关于全球工作的语料库以及所有的立法和合规规则。它非常强大，因为如果你知道你在为LLM写作，幻觉的风险会大幅下降，因为它以模型期望的方式可被消费。所以结果是更可预测的。在受监管的环境中消除出错空间"
+ },
+ {
+  "seg": 21,
+  "start": 934,
+  "end": 942,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "But at the same time, Aaron, you guys are working in a highly regulated environment. Last time I checked there were 150 countries, maybe more now.",
+  "zh": "但与此同时，Aaron，你们是在一个高度受监管的环境中工作。上次我查的时候有150个国家，现在可能更多了。"
+ },
+ {
+  "seg": 22,
+  "start": 942,
+  "end": 951,
+  "speaker": "Aaron Goldsmid",
+  "en": "Yeah, we're running out of countries. We're going to need to create some new ones. There are still a few we're not allowed to work in, which is for the best, they're usually on a sanctions list.",
+  "zh": "是的，我们的国家快用完了。我们将需要创造一些新的国家。仍然有几个我们不被允许开展业务的国家，这其实是好事，它们通常在制裁名单上。"
+ },
+ {
+  "seg": 23,
+  "start": 951,
+  "end": 958,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "So in those high-stakes situations, how do you really ensure the LLM has no room for error?",
+  "zh": "那么在这些高风险的情况下，你如何真正确保LLM没有出错的空间？"
+ },
+ {
+  "seg": 24,
+  "start": 958,
+  "end": 1071,
+  "speaker": "Aaron Goldsmid",
+  "en": "There are a few things we're doing, and we started this before LLMs were privacy-safe, where you had a real chance of it giving you someone else's data. So it was all at the infrastructure level. At the end of the day, the LLM is non-deterministic: you ask it a question a thousand times, it's not going to give you the same answer a thousand times. Maybe with some of the classifier models that's going to be a bit more predictable, and I'm really excited about that for our use cases. But it really is about structuring your input and making sure you know what corpus you can pull from. We have thousands of compliance experts in all of these markets. We've built, just organically, a knowledge base, and we've made an enormous effort to put this all in a standard wiki, based off Wikipedia, in a very easily accessible way. It's a source of truth. Because we created this corpus, that's what we focus the LLMs at. Now we're taking some small language models and training them on our own knowledge base and corpus. We're at least as good as Sonnet and quickly approaching Opus in terms of quality on a small language model focused on the corpus of global work and compliance. The upside is second-level responses, versus waiting five, ten, fifteen, twenty seconds, and a fraction of the cost. What we're really seeing is that the investment in that foundational work is allowing us to build a moat in an AI world, because we now have our own model and it's performing really well. It's also highly reliable, because it's being trained on a known-good set of data, versus being trained on the universe and then told, \"try to only look here, but we can't enforce that, and pretty please don't do other things.\" The Right Tool for the Right Job",
+  "zh": "我们正在做几件事，我们在LLM还不是隐私安全的时候就开始了，那时它真的有可能给你别人的数据。所以一切都是基础设施层面的。归根结底，LLM是非确定性的：你问它一个问题一千次，它不会给你一千次相同的答案。也许对于一些分类器模型，这会变得更可预测一些，我对它应用于我们的用例感到非常兴奋。但这确实是关于构建你的输入并确保你知道可以从什么语料库中提取。我们在所有这些市场都有数千名合规专家。我们只是自然而然地建立了一个知识库，我们付出了巨大的努力把所有这些放进一个基于Wikipedia的标准wiki里，以一种非常易于访问的方式。它是一个真相之源。因为我们创建了这个语料库，那就是我们把LLM聚焦的地方。现在我们正在拿一些小语言模型，在我们自己的知识库和语料库上训练它们。一个专注于全球工作和合规语料库的小语言模型，在质量上我们至少与Sonnet一样好，并且正在快速接近Opus。好处是秒级响应，而不是等待五、十、十五、二十秒，以及一小部分的成本。我们真正看到的是，对那些基础工作的投入正在让我们在一个AI世界里建立护城河，因为我们现在有了自己的模型，而且它表现得非常好。它也非常可靠，因为它是在一个已知良好的数据集上训练的，而不是在整个宇宙上训练然后被告知“试着只看这里，但我们无法强制执行，拜托不要做其他事情”。正确的工具用于正确的工作"
+ },
+ {
+  "seg": 25,
+  "start": 1071,
+  "end": 1088,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "That's a good one. You mentioned the latest models, and it's so fascinating now, because we have these large language models, small language models, your own proprietary data. So how do you orchestrate this and still give yourself the flexibility to make additional changes as new stuff comes up?",
+  "zh": "这是个好例子。你提到了最新的模型，现在这太迷人了，因为我们有大语言模型、小语言模型、你自己的专有数据。那么你如何编排这一切，同时保持灵活性以便在新东西出现时做出额外的改变？"
+ },
+ {
+  "seg": 26,
+  "start": 1088,
+  "end": 1249,
+  "speaker": "Aaron Goldsmid",
+  "en": "There are two ways to think about this. One: I started asking teams, we love talking about the wins, \"I was able to make an LLM do this, the new model can now do that.\" One of the things I've really focused on asking my teams is: tell me the thing that didn't work. Tell me the thing the LLM sucks at. Because I find the teams that are performing really well understand where the edges are of the current model or approach. If you understand that edge, you can say this class of problems is really good to solve this way, and this class of problems is not. The thing I really like, and obviously it's the new hotness, the latest models, is that we were taking something that naturally outputs a narrative form, it writes back to you, and trying to use deterministic software to do that. Obviously the coding agents were creating deterministic software, but creating something where the output looks more consumable, rather than shoehorning computational data into this modality where narrative form comes out and then trying to recast it into computational data, the amount of error propagation and signal loss along that way is just wild. It was a square peg in a round hole. But now that we're starting to see things that output as computational data, or other models working on tabular data, it's speaking the right language. It's the right tool for the right place. Yes, you can technically use a wrench as a hammer, or a screwdriver as a hammer, but sometimes you just want the hammer. So it's allowing us to use the tools that are fit for the task, especially as folks get wildly excited. You just need to go to X on any day: every company is talking about how, \"look at all the things I was able to do with the new model.\" I joke about founders being like, \"I can now do 300% of our code using an LLM.\" That's more code than you. The math doesn't work, that's not how percentages work. But understanding where that edge is is what makes those teams incredibly comfortable, because there's so much noise in the system about what these things can do in theory but aren't great at yet. And the things they may be great at tomorrow, we're also finding cases where it was good at something and now it's not. There are regressions. There is drift. Understanding where that efficient frontier is is incredibly powerful for making sure teams use the tools in the right way. Finding $140 Million by Picking Up Change Off the Floor",
+  "zh": "有两种思考方式。第一：我开始问团队——我们都喜欢谈论成功——“我能让LLM做这个，新模型现在能做那个。”我真正专注于问我的团队的一件事是：告诉我那些不起眼的东西。告诉我LLM不擅长的事情。因为我发现表现非常好的团队理解当前模型或方法的边界在哪里。如果你理解那个边界，你就可以说这类问题用这种方式解决非常好，而这类问题不是。我真正喜欢的东西，显然它是最新最热的、最新的模型，是我们过去拿着一个天然输出叙述形式的东西，它会写回给你，却试图用确定性软件来做这件事。显然编码智能体是在创建确定性软件，但创建一个输出看起来更易消化的东西，而不是把计算数据硬塞进这种以叙述形式输出的模态，然后再试图把它重新转换为计算数据，沿着这条路的错误传播和信号损失简直是疯狂的。这曾是方枘圆凿。但现在我们开始看到输出计算数据的东西，或者其他在表格数据上工作的模型，它说的是正确的语言。它是适合正确位置的正确工具。是的，从技术上讲你可以把扳手当锤子用，或者把螺丝刀当锤子用，但有时候你就是想要那把锤子。所以这让我们能够使用适合任务的工具，尤其是当人们变得极度兴奋的时候。你只需要在任何一天打开X：每家公司都在谈论“看我用新模型能做的所有这些事情”。我开玩笑说创始人们就像“我现在可以用LLM完成我们300%的代码”。那比你的人还多。数学不成立，百分比不是那样算的。但理解那个边界在哪里是让这些团队非常自在的关键，因为关于这些东西理论上能做什么但还不擅长什么的噪音太多了。而他们明天可能擅长的事情，我们也发现了一些案例，它以前擅长某件事而现在不擅长了。存在回归。存在漂移。理解那个有效前沿在哪里对于确保团队以正确的方式使用工具是极其强大的。通过捡起地上的零钱找到1.4亿美元"
+ },
+ {
+  "seg": 27,
+  "start": 1249,
+  "end": 1277,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "It seems like not only you, but your team is allocating a lot of their time to using these LLMs and understanding the trade-offs. You guys recently published a stat saying you found over $140 million in ARR thanks to these optimizations, and that's the equivalent of the work of 600 people that you can now do with agents. I'm very curious about the specifics on how you actually connected that investment with real ROI.",
+  "zh": "看起来不仅是你，你的团队也在把大量时间分配给使用这些LLM和理解权衡。你们最近发布了一个数据，说通过这些优化你们发现了超过1.4亿美元的ARR，这相当于600人的工作量，现在可以用智能体完成。我很好奇具体细节，你们究竟是如何把这种投资与真实的ROI挂钩起来的。"
+ },
+ {
+  "seg": 28,
+  "start": 1277,
+  "end": 1464,
+  "speaker": "Aaron Goldsmid",
+  "en": "It's picking up the change on the floor. In the before time, writing software, writing automation, was an incredibly expensive thing. Software was the last artisanal craft. Everything was handcrafted. You could look at a piece of code and know who wrote it. It was like people who built wagon wheels. And that has changed. So what happened is, when it was still that artisanal craft and a very precious commodity, there were so many aspects of the business that were still manual and didn't need to be. It wasn't because there wasn't a desire to automate, it was because there was no awareness that someone was manually moving this data from one system to another, or reformatting this spreadsheet every month, or \"I have to go log in to this one place and click this one button because it doesn't have an API.\" It just fell below the line. We hadn't gotten to it yet. What this enabled us to do, first, is that the list of things we were able to hit just got way, way deeper. The second unlock is we took it out of the hands of the engineers. How can people build these automations and workflows for themselves, not necessarily inherently technical resources, in a way that they feel really confident that their intention was captured and they could rely on the output, that it was as good as them? How would you do this if it was just humans? If you had an intern, you'd say, \"I have this thing I have to do every week, come shadow me, watch me do it, then show me how you do it, and I'll check the results.\" We built off exactly how humans interact. The product is called AKI, and that's how we built it. So how far down that list of wildly inefficient little things can you get? That includes the go-to-market function, the partnership function. It goes back to the marginal-user theory: who is the person who should be able to complete this task but is the least likely to be able to complete it? What's that one thing you need to fix, the button where you change the name, and all of a sudden they're successful? We were able to do that for a ton of operational things. If you think about what our day is, it's all operational stuff. A lot of my day is operational, your day is operational. So how much of that backlog can you get? The answer is, there's a lot there. While any one of those things may not feel like a big deal, and if it was a big deal we probably already would have automated it, they compound. The pennies add up, and all of a sudden they become big numbers. The second part is that it allows us to continue to scale at a different efficiency. The old scaling function was that complexity would go geometrically against a linear scale, or exponentially in terms of complexity. Now that looks to be more linear, because you have so much compute resource keeping the complexity down. Unlocking Non-Engineers to Ship",
+  "zh": "这就像捡起地上的零钱。在过去，写软件、写自动化是一件极其昂贵的事情。软件曾是最后一种手工艺。一切都是手工制作的。你可以看一段代码就知道是谁写的。就像那些制造车轮的人。而这一切已经改变了。所以发生的事情是，当它还是那种手工艺、非常珍贵的商品时，业务中有太多方面仍然是手动的，其实不必如此。不是因为没有人想自动化，而是因为没有人意识到有人手动把这些数据从一个系统移到另一个系统，或者每个月重新格式化这个电子表格，或者“我必须去登录那个地方点击那个按钮，因为它没有API”。它只是落在了线以下。我们还没来得及处理它。这使我们能够做到的是，首先，我们能够触及的事情清单变得深得多。第二个解锁是我们把它从工程师手中拿了出来。人们如何为自己构建这些自动化和工作流——不一定本身就是技术资源——以一种他们真正有信心自己的意图被捕捉到、他们可以依赖输出的方式，即它和他们自己做的一样好？如果只有人类你会怎么做？如果你有一个实习生，你会说：“我有这件事每周都得做，来跟着我，看我怎么做，然后演示给我看你怎么做，我会检查结果。”我们完全按照人类互动的方式构建。这个产品叫AKI，我们就是这样构建它的。那么，在那份极其低效的小事清单上，你能深入到多远？这包括市场推广职能、合作伙伴职能。这又回到了边际用户理论：谁应该是能够完成这项任务的人，却是最不可能完成它的人？你需要修复的那一件事是什么，那个你改变名称的按钮，突然之间他们就成功了？我们能够为大量的运营事项做到这一点。如果你想想我们的一天，全是运营的事情。我一天的很大部分是运营，你的一天是运营。所以你能从那份积压清单中处理掉多少？答案是，那里有很多。虽然其中任何一件事可能都不觉得是什么大事，而且如果是什么大事我们可能早就把它自动化了，但它们会复合。一分钱一分钱地累积，突然之间它们变成了大数字。第二部分是它让我们能够以不同的效率继续扩展。旧的扩展函数是复杂度相对于线性规模呈几何级增长，或者说复杂度呈指数级增长。现在看起来更线性了，因为你拥有如此多的计算资源来压低复杂度。解锁非工程师来发布"
+ },
+ {
+  "seg": 29,
+  "start": 1464,
+  "end": 1501,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I resonate with what you're saying, because I remember when we sent our first AI manifesto and wanted everybody to use AI, we found the first bottleneck to be engineering capacity, because people were not fully self-sufficient. At the end of the day, engineers would get more and more requests. It was only when we unlocked non-engineers to actually ship, and I'm not just talking about code, that was huge. Getting to the bottom of that backlog, even though I'm sure there are some bad ideas there, to me was worth testing, because the risk of not launching is much higher than keeping it in the backlog forever.",
+  "zh": "我对你所说的很有共鸣，因为我记得当我们发出第一份AI宣言并希望每个人都使用AI时，我们发现第一个瓶颈是工程容量，因为人们并不完全自给自足。归根结底，工程师会收到越来越多的请求。只有当我们解锁了非工程师真正发布东西的时候——我不仅仅是在说代码——那才是巨大的。深入到那份积压清单的底部，即使我确信里面有一些糟糕的想法，对我来说也是值得尝试的，因为不发布的风险远比永远把它留在积压清单里要高。"
+ },
+ {
+  "seg": 30,
+  "start": 1501,
+  "end": 1556,
+  "speaker": "Aaron Goldsmid",
+  "en": "Yes. And these were things that last year weren't even on the backlog, because nobody even thought to mention them: \"oh, I don't want to bother you with that, it's just the thing I have to do.\" All of a sudden it was incredibly powerful. To your point, there are some really terrible ideas. People say there are no bad ideas; there actually are bad ideas. But what's great is the cost of failing fast has gotten so low. You can have bad ideas, go, \"oh, that's not a good idea, we should make that go away,\" and then make it go away. You don't need to be precious about it. But in those bad ideas are a bunch of real diamonds, things no one ever would have thought of, because they didn't want to raise their hand and mention it. Because you can just do this now, it allows a class of people who wouldn't otherwise have raised their hand to advocate for this thing and make some really cool stuff, because everything is now safe enough to try. Build vs. Buy When Building Is Cheap",
+  "zh": "是的。而这些东西在去年甚至都不在积压清单上，因为根本没有人想到要提：“哦，我不想拿那个烦你，这只是我不得不做的事情。”突然之间它变得极其强大。正如你所说，其中有一些非常糟糕的想法。人们说没有糟糕的想法；实际上是有糟糕的想法的。但很棒的是快速失败的代价已经变得如此之低。你可以有糟糕的想法，然后说“哦，这不是个好主意，我们应该让它消失”，然后让它消失。你不需要对它过分珍视。但在那些糟糕的想法中有一堆真正的钻石，是一些没有人会想到的东西，因为他们不想举手提起它。因为现在你可以直接做这件事，这让一类原本不会举手的人能够为这个东西发声并做出一些非常酷的东西，因为现在一切都足够安全可以尝试。构建很便宜时的自建还是外购"
+ },
+ {
+  "seg": 31,
+  "start": 1556,
+  "end": 1580,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "That leads me to the next point. In the past, a lot of people would default to buy versus build, just because you wouldn't have to maintain stuff. But now, given the cost of building is lower, we're seeing teams default more to building over buying. So as you deploy more agents and build more stuff, how do you think about that?",
+  "zh": "这引出了我的下一个问题。在过去，很多人会默认选择外购而不是自建，只因为你就不用维护东西了。但现在，鉴于构建的成本更低了，我们看到团队更倾向于自建而非外购。所以当你们部署更多智能体、构建更多东西时，你是如何看待这个问题的？"
+ },
+ {
+  "seg": 32,
+  "start": 1580,
+  "end": 1779,
+  "speaker": "Aaron Goldsmid",
+  "en": "This is where those who do not learn from history are doomed to repeat it. The engineering problems we're living today are the same engineering problems that someone making a printing press was figuring out. The cost of maintenance has always been true. It looks different now. Why don't we go build, in a weekend, this other system that maybe hundreds or thousands or millions of engineering hours and experience have been put into, which would be the buy case? You can get the happy path. In a weekend I can build the happy path of any enterprise software that ever existed. My favorite business guru, Mike Tyson, also known as the boxer, says every fool has a plan until you get punched in the face. The reality of this is hitting us now. It hits everybody. This is not unique to us, and not unique to this moment: you build a complex machine, it breaks. I didn't really appreciate this, but as a product leader I've spent the last couple of decades being able to think about how to frame problems, how to structure problems, how to communicate ideas to other product people and engineers so they can build them. What's been wildly fun for me is realizing this is now a superpower, because I can explain something to an LLM better than a lot of other folks. I was genuinely surprised when I found that. But structuring the question, thinking about maintainability, all of this is just as true as it was before, when we were building factories, actual machines. The thing is, it's become a lot easier, so now everyone can build stuff, which is amazing, because so many great things are being built that wouldn't otherwise. It's no longer this precious, artisanal craft. But those folks are now learning to do this for the first time. There's going to be a set of people, the citizen developer or whatever you want to call it, who are going to learn all the lessons we've learned in decades, if not centuries, of engineering: building is easy, maintaining is hard. What's tricky there is the sunk-cost fallacy. \"I built this thing, this is my thing, I'm going to keep iterating, keep making it work.\" But sometimes it's, \"you know what, this thing did what it was supposed to do, you learned so much from it, and now it's time to do it again, start from scratch.\" The one way to solve tech debt is the rewrite. The thing about the rewrite is it used to be wildly expensive, so it was the worst idea humanly possible. Now it's, \"wait a second, maybe that's not that hard to do anymore.\" But the thing is, how do you carry the knowledge forward? All those enterprise software things you would buy are wildly bloated in terms of software, cost, all of these things, but in them are also millions of insights. So how do you take the insights forward into a build, and a rebuild, and a rebuild, but lose the tech debt? How do you get the cream and lose the rest of it? Growing Fast and Profitably at the Same Time",
+  "zh": "这就是那些不从历史中学习的人注定要重蹈覆辙的地方。我们今天面对的工程问题，与制造印刷机的人在琢磨的工程问题是一样的。维护成本这一直是真理。它现在看起来不同了。为什么不我们在周末去构建另一个系统呢，那个系统也许已经有数百、数千或数百万的工程时间和经验投入其中，这会是最外购的理由？你可以得到快乐路径。在一个周末我可以构建任何曾经存在过的企业软件的快乐路径。我最喜欢的商业大师，Mike Tyson，也就是那个拳击手，说过每个傻瓜都有一个计划，直到你被打脸。这个现实现在正降临到我们头上。它降临到每个人身上。这不是我们独有的，也不是这个时刻独有的：你构建了一台复杂的机器，它会坏。我没有真正领会到这一点，但作为产品领导者，我花了过去几十年的时间思考如何框定问题、如何构建问题、如何把想法传达给其他产品人员和工程师以便他们能构建。对我来说非常有趣的是意识到这现在成了一种超能力，因为我可以比很多其他人更好地向LLM解释一件事。当我发现这一点时我真的感到惊讶。但构建问题、思考可维护性，所有这些和我们建造工厂、真实的机器的时代一样正确。问题是，它变得容易多了，所以现在每个人都能构建东西，这很了不起，因为这么多本来不会被构建的伟大东西正在被构建出来。它不再是这种珍贵的、手工艺般的手艺了。但那些人现在正在第一次学习做这件事。会有一批人，公民开发者或你想怎么称呼都行，他们将要学习我们在几十年、甚至几个世纪的工程中学到的所有教训：构建容易，维护困难。那里的棘手之处是沉没成本谬误。“我构建了这个东西，这是我的东西，我要继续迭代，继续让它运转。”但有时候是：“你知道吗，这个东西做了它该做的事，你从中学到了这么多，现在是时候再做一次，从头开始了。”解决技术债的唯一方法就是重写。关于重写的问题是它过去极其昂贵，所以那是人类所能想到的最糟糕的主意。现在是：“等一下，也许那已经没有那么难做到了。”但问题是，你如何把知识向前传递？那些你会外购的企业软件在软件、成本和所有这些方面都极度臃肿，但其中也蕴含着数百万的洞察。那么你如何把这些洞察带入一个构建、再构建、再重建中，同时丢掉技术债？你如何得到精华而丢掉其余的部分？快速增长的同时保持盈利"
+ },
+ {
+  "seg": 33,
+  "start": 1779,
+  "end": 1805,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I want to wrap this up talking about profit, because you guys have been profitable for almost three years at this point, and that's rare, especially at the growth rate you're at. Typically, people have to choose: either you grow faster at the expense of not making money, or you become profitable at the expense of not growing fast enough. So how were you able to pull both levers at the same time?",
+  "zh": "我想以谈论利润来收尾，因为到目前为止你们已经盈利近三年了，这很罕见，尤其是在你们的增长速度下。通常，人们必须做出选择：要么以不赚钱为代价更快地增长，要么以增长不够快为代价实现盈利。那么你们是如何同时拉动这两根杠杆的？"
+ },
+ {
+  "seg": 34,
+  "start": 1805,
+  "end": 1922,
+  "speaker": "Aaron Goldsmid",
+  "en": "We have the benefit of truly incredible product-market fit, which is not just us, it's the work we're doing and the tailwind of a generational moment in terms of people thinking about global work, between Covid, between expansion, all of these things. But the answer is: when companies are made with that diametric choice, grow faster or be profitable, they go to one end of the pendulum or the other. We ask, how do we grow this profitably? Even if not in this moment, what are the unit economics of this? Always keeping that in mind. Even if this thing is wildly inefficient right now, will it be efficient? Because we have a big services component and operational component in addition to software, you could say, \"it's good, once we get to scale it'll be profitable,\" just belief. And because it was largely true. But we also always did the math. The second part is, if you start with a customer, it's really hard not to be profitable, because we're not building something in anticipation of a customer. We're finding a customer and building it with them. So you have your first buyer, and that is incredible market validation. This is a lot harder to do at the enterprise level; at SMB and mid-market it works great, because those are people willing to go on the journey with you. If you build along with your customers, what you end up getting is something people are going to buy, so it can be profitable. Then it's about cycle speed. Deel speed is one of our core tenets. When you put those things together, you grow profitably: one, because you've done enough of the math that even if it's inefficient at this moment, it'll be efficient, and you can get conviction around that; and two, you're growing with your customers, so this is never in search of revenue, there's always revenue attached to it. Then you just say, \"how fast can we turn that cycle?\" But we often have customers for things before we start building them. Why No Company Is as Sticky as It Used to Be",
+  "zh": "我们拥有真正令人难以置信的产品市场契合度的优势，这不仅仅是我们的功劳，也是我们正在做的工作以及一代人时刻的顺风——人们开始思考全球工作，在Covid之间，在扩张之间，所有这些事情之间。但答案是：当公司面临那种截然对立的选择时，更快增长或盈利，他们会走向钟摆的一端或另一端。我们问的是，我们如何盈利地增长？即使不是在此刻，这个东西的单位经济模型是什么？始终记住这一点。即使这个东西现在极度低效，它将来会高效吗？因为除了软件之外我们还有一个很大的服务组件和运营组件，你可以说“它会好的，一旦我们达到规模它就会盈利”，这只是信念。而且因为它在很大程度上是真的。但我们也始终在做数学计算。第二部分是，如果你从一个客户开始，你很难不盈利，因为我们不是在预期客户的情况下构建东西。我们是先找到客户，然后和他们一起构建。所以你有了你的第一个买家，那是令人难以置信的市场验证。这在企业级要难得多；在SMB和中端市场它效果很好，因为那些是愿意和你一起踏上旅程的人。如果你和你的客户一起构建，你最终得到的是人们会购买的东西，所以它可以盈利。然后就是循环速度。Deel速度是我们的核心信条之一。当你把这些东西放在一起，你就盈利地增长：第一，因为你做了足够多的数学计算，即使它在这一刻是低效的，它也会变得高效，你可以对此获得信念；第二，你和你的客户一起成长，所以这从来不是在寻找收入，总是有收入附着其上。然后你只需要说：“我们能把这个循环转多快？”但我们经常在开始构建之前就已经有了这些东西的客户。为什么没有公司还像以前那样有粘性"
+ },
+ {
+  "seg": 35,
+  "start": 1922,
+  "end": 1944,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "Your product is very sticky; the switching cost is relatively high. At the same time, wearing the CEO hat now, when a company is trying to be efficient and leverage more agents than humans in some situations, what are the ways for you to still find product-market fit, so you're not just heavily dependent on the number of humans a company hires?",
+  "zh": "你的产品非常有粘性；切换成本相对较高。与此同时，现在戴上CEO的帽子，当一家公司试图提高效率、在某些情况下使用比人类更多的智能体时，你有什么方法仍能找到产品市场契合度，这样你就不会只是严重依赖于一家公司雇用的人数？"
+ },
+ {
+  "seg": 36,
+  "start": 1944,
+  "end": 2120,
+  "speaker": "Aaron Goldsmid",
+  "en": "Two things. One, no company is as sticky as it used to be. The switching cost has gone down across 100% of things. It's lovely, but it's really easy to get lost in the fact that \"oh, we're sticky,\" because that's not going to be as true a month from now, six months from now, twelve months from now. Every software is less sticky than it was twelve months ago. Then it goes back to: how do we solve this if we didn't have LLMs? Because the thing about LLMs is they largely replicate or approximate human behavior. So if we solve that problem the same way, how would we solve this before we had software? Almost none of those business processes have changed. The process of figuring out how someone needs to get paid, how much someone gets paid, how much tax you need to do, how you apply for this visa, those are largely static, and they've been static for probably a hundred years. The macro process is generally the same: there's a bunch of information you have to fill out, forms you submit to a government, and they give you a visa. It's kind of universal. But what we now have is that each one of those micro-steps used to have to be done by a human, then by an expert human, then by a human with good instructions, then by software, and now by agents. The end-to-end flow has almost not changed. Think about advertising: here's the product I want to sell, here's the creative I want to use, here are the people I want to target. Go watch Mad Men. Nothing's changed. But we have new toys and new tools to automate that and speed it up. As long as you can keep conviction that you can build software to do this thing a human does, and now it becomes way easier because an agent can do it much faster. There was a set of problems that were easy to automate, move this file from here to there, match this ad to this person. But where we got stuck was the next class of problems, which required a little bit of judgment. Just a little bit. The format's just a little bit off, or it could go left or right. That's where agents have been able to unlock that next set of macro processes. We still firmly believe there's a human in the loop for what we do, and I think for a lot of others. Compliance, someone getting paid the right amount, is not something you get to screw around with. Complicated medical leaves, complicated terminations, all these things are still going to be human. But what we want is that the human is only working on the part that is legitimately necessary for them, that requires their expertise. That's great, because all those humans are now high-leverage. They're being valued for their expertise, not for their ability to move stuff down an assembly line. AI Replaces the Worst Part of Your Job",
+  "zh": "两件事。第一，没有公司还像以前那样有粘性了。切换成本在100%的事情上都下降了。这很美好，但很容易迷失在“哦，我们很有粘性”这个事实中，因为一个月后、六个月后、十二个月后这就不会那么真实了。每款软件都比十二个月前粘性更低。然后它又回到了：如果我们没有LLM，我们如何解决这个问题？因为LLM的特点是它们在很大程度上复制或逼近人类行为。所以如果我们以同样的方式解决那个问题，在拥有软件之前我们会如何解决这个问题？几乎没有任何业务流程改变了。弄清楚某人需要如何获得报酬、某人获得多少报酬、你需要处理多少税、你如何申请这个签证的流程，这些在很大程度上是静态的，而且它们可能已经静态了一百年。宏观流程大体上是相同的：你有一堆信息要填写，提交给政府的表格，然后他们给你签证。这几乎是通用的。但我们现在拥有的是，那些微观步骤中的每一步过去都必须由人类完成，然后由专家人类完成，然后由有良好指令的人类完成，然后由软件完成，现在由智能体完成。端到端的流程几乎没有改变。想想广告：这是我想卖的产品，这是我想使用的创意，这些是我想定位的人。去看看《广告狂人》吧。什么都没变。但我们有了新的玩具和新的工具来自动化它并加快速度。只要你能保持信念，相信你可以构建软件来做人类做的这件事，现在它变得容易多了，因为一个智能体能快得多地完成它。有一类问题曾经很容易自动化，把这个文件从这里移到那里，把这个广告匹配给这个人。但我们卡住的地方是下一类问题，它需要一点点判断。就一点点。格式只是稍微有点不对，或者它可能向左也可能向右。这就是智能体能够解锁下一组宏观流程的地方。我们仍然坚定地相信在我们所做的事情中有人类在环，我认为对很多其他人也是如此。合规、某人获得正确的报酬，这不是你可以胡乱应付的事情。复杂的病假、复杂的解雇，所有这些事情仍然会由人类来做。但我们想要的是，人类只在那真正必要、需要他们专业知识的部分上工作。这很棒，因为所有那些人类现在都是高杠杆的。他们因为他们的专业知识而被重视，而不是因为他们沿着流水线搬东西的能力。AI取代你工作中最糟糕的部分"
+ },
+ {
+  "seg": 37,
+  "start": 2120,
+  "end": 2134,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "That's what I'm seeing with a lot of the AI-native businesses that are positioning themselves around \"now this tool does the work for you,\" for the most part, instead of \"I just have a hammer, but I still have to go do the heavy lifting.\"",
+  "zh": "这就是我在很多AI原生企业中看到的情况，它们把自己定位在“现在这个工具替你完成工作”上，在很大程度上，而不是“我只有一把锤子，但我仍然得去干重活。”"
+ },
+ {
+  "seg": 38,
+  "start": 2134,
+  "end": 2202,
+  "speaker": "Aaron Goldsmid",
+  "en": "The way I like to talk about it is: it's not going to replace your job, it's going to replace the worst part of your job. What's the detritus of your day that you don't derive any value from, don't add any value to, but it still needs to get done? That's what you give the agents. I wouldn't say, \"have it write your three-year strategy and take that as gospel,\" that'd be an objectively terrible idea. Not to say you can't have it craft some of it and be a thought partner. But have it approve the expenses. What value do I add there? \"Oh yeah, this was the right amount for this hotel.\" I'm sure I'm responsible about it. Yes, if something's crazy, send it to me. But for the most part, it's that level of judgment. \"Oh well, they were ten cents above the limit.\" Trying to do something in New York and trying to do something in Lisbon are not the same, so okay, we create one limit, it's ten cents, it's fine. That judgment stuff, which relied on humans because computers were bad at it, computers are now actually really good at. So the set of detritus we couldn't do historically is now wildly achievable.",
+  "zh": "我喜欢这样谈论它：它不会取代你的工作，它会取代你工作中最糟糕的部分。你一天中那些你从中得不到任何价值、也不添加任何价值、但它仍然需要被完成的无用杂务是什么？那就是你交给智能体的。我不会说“让它写你的三年战略并把它奉为圭臬”，那会是一个客观上糟糕透顶的主意。不是说你不可以让它撰写其中一部分并成为思考伙伴。但让它审批费用报销。我在那里增加了什么价值？“哦好吧，这家酒店这个金额是合理的。”我相信我自己在这方面是负责任的。是的，如果有什么东西太离谱，发给我。但在大多数情况下，就是那种程度的判断。“哦，他们超出限额十美分。”在纽约做一件事和在里斯本做一件事不是一回事，所以好吧，我们设一个限额，十美分，没关系。那些判断类的事情，过去依赖人类是因为计算机不擅长，现在计算机实际上真的非常擅长了。所以那些我们历史上无法处理的无用杂务，现在变得极度可实现。"
+ },
+ {
+  "seg": 39,
+  "start": 2202,
+  "end": 2217,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "I love that, because I keep hearing a lot of people talk about judgment as the ultimate differentiator. And to be honest, sometimes it comes across as an excuse not to try, not to put LLMs to do some stuff that doesn't require that much judgment.",
+  "zh": "我很喜欢这个，因为我不断听到很多人把判断力谈论成终极的差异点。说实话，有时候这听起来像是一个不尝试的借口，不让LLM去做一些并不需要那么多判断的事情。"
+ },
+ {
+  "seg": 40,
+  "start": 2217,
+  "end": 2226,
+  "speaker": "Aaron Goldsmid",
+  "en": "Yes. And the answer is that there's a lot of stuff that requires a little judgment, that probably occupies 80% of our day, that can go away.",
+  "zh": "是的。而答案是，有很多事情需要一点点判断，它们大概占据了我们80%的时间，这些是可以消失的。"
+ },
+ {
+  "seg": 41,
+  "start": 2226,
+  "end": 2231,
+  "speaker": "Carlos González de Villaumbrosia",
+  "en": "It's been awesome to have you on the pod, man. Thank you so much for sharing how you're actually building from the trenches.",
+  "zh": "能让你上这个播客真是太棒了，兄弟。非常感谢你分享你实际上是如何从战壕中构建的。"
+ },
+ {
+  "seg": 42,
+  "start": 2231,
+  "end": 2244.2,
+  "speaker": "Aaron Goldsmid",
+  "en": "Thank you so much. It was an honor and a pleasure, and I think the work you guys are doing is amazing, so I'm glad I could be one small part of it.",
+  "zh": "非常感谢。这是我的荣幸，我认为你们正在做的工作非常了不起，所以我很高兴我能成为其中微小的一部分。"
+ }
+]

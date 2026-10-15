@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":1,"编码智能体":35,"前沿模型":28,"Claude Code":113,"管理者日程":1,"评估":1,"爬坡":2,"沙箱":99}</script>
+<script type="application/json" class="pd-epn">{"The Browser Company":1,"DIA":2,"智能体":1,"编码智能体":35,"前沿模型":28,"Claude Code":114,"管理者日程":1,"评估":1,"爬坡":2,"沙箱":100}</script>
 
 <script>
 (function(){

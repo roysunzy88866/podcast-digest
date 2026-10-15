@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Previous Guests":1,"AppDirect":1,"Landbase":1,"Clay":8,"产品市场契合":31,"外呼开发":3,"TAM":4,"SDR":2,"智能体 AI":6}</script>
+<script type="application/json" class="pd-epn">{"Previous Guests":1,"AppDirect":1,"Landbase":1,"Clay":8,"产品市场契合":32,"外呼开发":3,"TAM":4,"SDR":2,"智能体 AI":6}</script>
 
 <script>
 (function(){

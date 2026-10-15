@@ -101,7 +101,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[推理]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"智能体":1,"Google":72,"Meta":55,"Amazon":33,"Apple":27,"NVIDIA":71,"推理":100,"数据中心":25}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":204,"OpenAI":203,"智能体":1,"Google":72,"Meta":55,"Amazon":34,"Apple":27,"NVIDIA":71,"推理":101,"数据中心":25}</script>
 
 <script>
 (function(){

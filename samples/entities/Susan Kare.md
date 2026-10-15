@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]] [[Tomer London]] [[Peter Sellis]]
+[[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]] [[Maggie Crowley]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Apple":27,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":32,"Facebook":17,"General Magic":2}</script>
+<script type="application/json" class="pd-epn">{"Apple":27,"Macintosh":1,"icon":1,"font":1,"Chicago":2,"bitmap":1,"Happy Mac":1,"Microsoft":32,"Facebook":18,"General Magic":2}</script>
 
 <script>
 (function(){

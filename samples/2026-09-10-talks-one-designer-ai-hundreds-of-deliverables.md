@@ -117,8 +117,8 @@ jsonLd: |
 **换个口味**
 
 - [[2026-08-24-pg-srini-raghavan-podcast|Freshworks CPO：用 AI PDLC 把发布周期从六个月压到两周]]<span class="pd-rz">同公司:Figma · 同概念:设计系统 (design system)、LLM、MCP</span>
+- [[2026-10-14-productpodcast-deel-head-of-product-on-how-ai-agents-do|Deel产品负责人：AI干了600个人的活，多赚1.4亿美元]]<span class="pd-rz">同概念:LLM、自动化 (automation)</span>
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]]<span class="pd-rz">同公司:Figma · 同概念:Claude、设计系统 (design system)</span>
-- [[2025-09-14-lennys-the-ultimate-guide-to-aeo-ethan-smith|AEO实战指南：如何让产品出现在ChatGPT答案里]]<span class="pd-rz">同概念:LLM、ChatGPT</span>
 
 </div>
 </div>

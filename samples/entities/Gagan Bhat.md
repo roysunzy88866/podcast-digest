@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
+[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":204,"智能体":1,"harness":65,"沙箱":99,"智能体循环":6,"上下文工程":18,"会话日志追踪":2,"泄露的凭证":5,"可观测性":46}</script>
+<script type="application/json" class="pd-epn">{"Isabella Kai He":1,"Anthropic":204,"智能体":1,"harness":65,"沙箱":100,"智能体循环":6,"上下文工程":18,"会话日志追踪":2,"泄露的凭证":5,"可观测性":46}</script>
 
 <script>
 (function(){

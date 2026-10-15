@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jeffrey Ladish]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":90,"红队测试":9,"开源模型":4,"前沿模型":28,"智能体":1,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
+<script type="application/json" class="pd-epn">{"Devin Thomas":1,"Obliteration":1,"护栏":91,"红队测试":9,"开源模型":4,"前沿模型":28,"智能体":1,"按小时计费":2,"订阅制转型":4,"微短剧":1}</script>
 
 <script>
 (function(){

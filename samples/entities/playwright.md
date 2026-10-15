@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[VS Code]] · [[MCP]] · [[Meng To]] · [[Harald Kirschner]] · [[Akash]] · [[Copilot CI]] · [[Codex]] · [[agents.md]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"VS Code":6,"MCP":95,"Meng To":1,"Harald Kirschner":1,"Akash":4,"Copilot CI":1,"Codex":89,"agents.md":3,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"VS Code":6,"MCP":95,"Meng To":1,"Harald Kirschner":1,"Akash":4,"Copilot CI":1,"Codex":90,"agents.md":3,"Cursor":87}</script>
 
 <script>
 (function(){

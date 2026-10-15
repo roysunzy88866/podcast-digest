@@ -1,0 +1,1890 @@
+[
+ {
+  "seg": 0,
+  "start": 12.673,
+  "end": 14.034,
+  "speaker": "Unknown",
+  "en": "Hey, so I'm Anders.",
+  "zh": "嘿,我是 Anders。"
+ },
+ {
+  "seg": 1,
+  "start": 14.734,
+  "end": 17.836,
+  "speaker": "Unknown",
+  "en": "I'm a developer advocate for Oracle AI Database.",
+  "zh": "我是 Oracle AI Database 的开发者布道师。"
+ },
+ {
+  "seg": 2,
+  "start": 18.557,
+  "end": 29.983,
+  "speaker": "Unknown",
+  "en": "And I'm talking about how we can approach agent memory as a systems problem, how we can take context and turn it into a real memory layer that is going to help your agents work better.",
+  "zh": "我要讲的是我们如何把智能体记忆当作一个系统问题来处理,如何把上下文变成一个真正的记忆层,来帮助你的智能体工作得更好。"
+ },
+ {
+  "seg": 3,
+  "start": 31.484,
+  "end": 40.49,
+  "speaker": "Unknown",
+  "en": "When we're talking about agent memory, we're talking about composing memory retrieval, memory formation, and the persistent storage that's backing these memories.",
+  "zh": "当我们谈论智能体记忆时,我们谈的是组合记忆检索、记忆形成,以及支撑这些记忆的持久化存储。"
+ },
+ {
+  "seg": 4,
+  "start": 41.962,
+  "end": 47.205,
+  "speaker": "Unknown",
+  "en": "And we've probably all used different agents at this point, agents like Claude Code or Codex.",
+  "zh": "到现在为止,我们可能都用过不同的智能体,比如 Claude Code 或 Codex 这样的智能体。"
+ },
+ {
+  "seg": 5,
+  "start": 47.965,
+  "end": 52.248,
+  "speaker": "Unknown",
+  "en": "And we've seen them work on a task and reread the same files over and over again.",
+  "zh": "我们见过它们处理一个任务,却一遍又一遍地重读同样的文件。"
+ },
+ {
+  "seg": 6,
+  "start": 52.388,
+  "end": 55.89,
+  "speaker": "Unknown",
+  "en": "And this is because they have no knowledge of what has happened in the past.",
+  "zh": "这是因为它们对过去发生了什么毫无认知。"
+ },
+ {
+  "seg": 7,
+  "start": 57.51,
+  "end": 59.671,
+  "speaker": "Unknown",
+  "en": "Context windows are not memory.",
+  "zh": "上下文窗口不是记忆。"
+ },
+ {
+  "seg": 8,
+  "start": 60.811,
+  "end": 64.153,
+  "speaker": "Unknown",
+  "en": "They are the input for the current run and not a persistent experience.",
+  "zh": "它们是当前运行的输入,而不是持久的经验。"
+ },
+ {
+  "seg": 9,
+  "start": 64.773,
+  "end": 81.901,
+  "speaker": "Unknown",
+  "en": "If I have some agent session, let's say he's working on customer support tickets, he reads a bunch of documents, he runs a bunch of queries, he reproduces a failure, finds root cause, and does all this great valuable work that synthesizes a useful procedure, what happens at the end of the session?",
+  "zh": "如果我有一个智能体会话,比如说它在处理客户支持工单,它读了一堆文档,跑了一堆查询,复现了一个故障,找到根因,并完成了所有这些有价值的、能综合出有用流程的工作,那么会话结束时会发生什么?"
+ },
+ {
+  "seg": 10,
+  "start": 83.782,
+  "end": 84.542,
+  "speaker": "Unknown",
+  "en": "It's tossed away.",
+  "zh": "被扔掉了。"
+ },
+ {
+  "seg": 11,
+  "start": 84.742,
+  "end": 86.503,
+  "speaker": "Unknown",
+  "en": "And this is because there's no persistence.",
+  "zh": "这是因为没有持久化。"
+ },
+ {
+  "seg": 12,
+  "start": 89.094,
+  "end": 94.417,
+  "speaker": "Unknown",
+  "en": "Long later, another agent comes on, he works on a similar task, and he has to repeat all of this same work.",
+  "zh": "很久之后,另一个智能体上线了,它处理一个类似的任务,又不得不重复所有这些同样的工作。"
+ },
+ {
+  "seg": 13,
+  "start": 94.897,
+  "end": 104.683,
+  "speaker": "Unknown",
+  "en": "So he's searching more documents, he's running more queries, and this is more opportunity for failure, more opportunity for hallucinations, and ultimately less fidelity.",
+  "zh": "于是它要搜索更多文档,跑更多查询,这带来了更多失败的机会、更多幻觉的机会,最终保真度更低。"
+ },
+ {
+  "seg": 14,
+  "start": 105.944,
+  "end": 113.208,
+  "speaker": "Unknown",
+  "en": "And memory really cannot begin until these useful experiences from our agents are transformed into managed state.",
+  "zh": "只有当智能体的这些有用经验被转化为受管理的状态时,记忆才真正开始。"
+ },
+ {
+  "seg": 15,
+  "start": 114.92,
+  "end": 117.581,
+  "speaker": "Unknown",
+  "en": "Larger context windows are also not the solution.",
+  "zh": "更大的上下文窗口也不是解决方案。"
+ },
+ {
+  "seg": 16,
+  "start": 117.621,
+  "end": 119.182,
+  "speaker": "Unknown",
+  "en": "We end up throwing more and more tokens.",
+  "zh": "我们最终会扔进越来越多的 token。"
+ },
+ {
+  "seg": 17,
+  "start": 119.222,
+  "end": 120.222,
+  "speaker": "Unknown",
+  "en": "The session goes longer.",
+  "zh": "会话变得更长。"
+ },
+ {
+  "seg": 18,
+  "start": 120.282,
+  "end": 121.222,
+  "speaker": "Unknown",
+  "en": "Compaction occurs.",
+  "zh": "压缩发生了。"
+ },
+ {
+  "seg": 19,
+  "start": 121.642,
+  "end": 128.105,
+  "speaker": "Unknown",
+  "en": "The useful signal that occurs for our agents is lost in a slew of other irrelevant information.",
+  "zh": "对智能体有用的信号被淹没在一堆其他无关信息之中。"
+ },
+ {
+  "seg": 20,
+  "start": 129.645,
+  "end": 132.166,
+  "speaker": "Unknown",
+  "en": "Likewise, scratch pads are workarounds.",
+  "zh": "同样,草稿板也只是权宜之计。"
+ },
+ {
+  "seg": 21,
+  "start": 133.566,
+  "end": 135.487,
+  "speaker": "Unknown",
+  "en": "So things like markdown files.",
+  "zh": "比如 markdown 文件这类东西。"
+ },
+ {
+  "seg": 22,
+  "start": 135.567,
+  "end": 140.129,
+  "speaker": "Unknown",
+  "en": "We start building large hierarchies of files, wikis, prompts.",
+  "zh": "我们开始构建庞大的文件层级、维基、提示词。"
+ },
+ {
+  "seg": 23,
+  "start": 140.649,
+  "end": 143.83,
+  "speaker": "Unknown",
+  "en": "These do help, but this is not governed recall.",
+  "zh": "这些确实有帮助,但这不是受治理的召回。"
+ },
+ {
+  "seg": 24,
+  "start": 144.979,
+  "end": 149.242,
+  "speaker": "Unknown",
+  "en": "Files do not scale in large multi-tenant environments.",
+  "zh": "文件在大型多租户环境中无法扩展。"
+ },
+ {
+  "seg": 25,
+  "start": 150.342,
+  "end": 157.826,
+  "speaker": "Unknown",
+  "en": "Tools like grep are extremely useful for finding data but they also don't scale well and it is not complex hybrid retrieval.",
+  "zh": "像 grep 这样的工具对查找数据极其有用,但它们同样无法很好地扩展,而且它也不是复杂的混合检索。"
+ },
+ {
+  "seg": 26,
+  "start": 159.027,
+  "end": 167.112,
+  "speaker": "Unknown",
+  "en": "And I feel like if we continue to the logical conclusion of trying to build a memory layer on top of files, we're gonna be building our own database.",
+  "zh": "我觉得如果我们继续沿着在文件之上构建记忆层的思路走到逻辑尽头,我们最终会是在自己造一个数据库。"
+ },
+ {
+  "seg": 27,
+  "start": 168.012,
+  "end": 170.914,
+  "speaker": "Unknown",
+  "en": "And I don't, you could just use a database.",
+  "zh": "而我不觉得——你直接用一个数据库就行了。"
+ },
+ {
+  "seg": 28,
+  "start": 173.167,
+  "end": 185.835,
+  "speaker": "Unknown",
+  "en": "In this presentation, this is unpacking the lessons that we've learned as a database vendor working with customers who are developing agent memory, customers who are solving real problems with agents and needing recall.",
+  "zh": "在这次演讲中,我要展开的是我们作为一家数据库厂商,与正在开发智能体记忆的客户、正在用智能体解决真实问题且需要召回能力的客户合作时所总结的经验教训。"
+ },
+ {
+  "seg": 29,
+  "start": 187.841,
+  "end": 197.029,
+  "speaker": "Unknown",
+  "en": "And where we're seeing modern agent memory systems converge is there's a pattern that's implementing memory formation, memory recall, evolution, and evaluation.",
+  "zh": "我们看到现代智能体记忆系统正在趋同的地方,是有一个模式在实现记忆形成、记忆召回、演化和评估。"
+ },
+ {
+  "seg": 30,
+  "start": 197.789,
+  "end": 202.873,
+  "speaker": "Unknown",
+  "en": "So when we form memories, these are distilled experiences, structured facts.",
+  "zh": "当我们形成记忆时,这些是提炼出的经验、结构化的事实。"
+ },
+ {
+  "seg": 31,
+  "start": 202.893,
+  "end": 204.595,
+  "speaker": "Unknown",
+  "en": "This is not a raw transcript dump.",
+  "zh": "这不是原始转写记录的倾倒。"
+ },
+ {
+  "seg": 32,
+  "start": 205.561,
+  "end": 209.984,
+  "speaker": "Unknown",
+  "en": "When we're recalling memories, hybrid retrieval is emerging as a dominant method.",
+  "zh": "当我们召回记忆时,混合检索正在成为主导方法。"
+ },
+ {
+  "seg": 33,
+  "start": 210.004,
+  "end": 223.653,
+  "speaker": "Unknown",
+  "en": "This is a form of retrieval that fuses different types of search, so vector similarity search, lexical search, entity search over relational objects, graph traversals, and different signals over temporal data, recency, and feedback.",
+  "zh": "这是一种融合不同类型搜索的检索形式,包括向量相似度搜索、词法搜索、针对关系对象的实体搜索、图遍历,以及针对时间数据的不同信号——新近度和反馈。"
+ },
+ {
+  "seg": 34,
+  "start": 224.374,
+  "end": 227.616,
+  "speaker": "Unknown",
+  "en": "We also need consolidation in these systems, so duplicates can emerge.",
+  "zh": "我们在这些系统中还需要整合,因为重复项可能出现。"
+ },
+ {
+  "seg": 35,
+  "start": 228.056,
+  "end": 229.297,
+  "speaker": "Unknown",
+  "en": "We need to resolve conflicts.",
+  "zh": "我们需要解决冲突。"
+ },
+ {
+  "seg": 36,
+  "start": 229.677,
+  "end": 234.841,
+  "speaker": "Unknown",
+  "en": "The system needs to evolve over time, otherwise it becomes stale, irrelevant, and useless.",
+  "zh": "系统需要随时间演化,否则它会变得陈旧、不相关、毫无用处。"
+ },
+ {
+  "seg": 37,
+  "start": 235.855,
+  "end": 237.896,
+  "speaker": "Unknown",
+  "en": "Memories need element of temporality.",
+  "zh": "记忆需要时间性要素。"
+ },
+ {
+  "seg": 38,
+  "start": 237.956,
+  "end": 239.117,
+  "speaker": "Unknown",
+  "en": "So when was this created?",
+  "zh": "比如它是什么时候创建的?"
+ },
+ {
+  "seg": 39,
+  "start": 239.397,
+  "end": 240.418,
+  "speaker": "Unknown",
+  "en": "When was it accessed?",
+  "zh": "什么时候被访问的?"
+ },
+ {
+  "seg": 40,
+  "start": 241.058,
+  "end": 242.079,
+  "speaker": "Unknown",
+  "en": "How long is it valid for?",
+  "zh": "有效期是多久?"
+ },
+ {
+  "seg": 41,
+  "start": 242.099,
+  "end": 244.1,
+  "speaker": "Unknown",
+  "en": "It may only be valid for a certain time window.",
+  "zh": "它可能只在某个时间窗口内有效。"
+ },
+ {
+  "seg": 42,
+  "start": 245.141,
+  "end": 248.623,
+  "speaker": "Unknown",
+  "en": "And this all needs to come into regular feedback and evaluation.",
+  "zh": "而这一切都需要进入定期的反馈和评估。"
+ },
+ {
+  "seg": 43,
+  "start": 249.284,
+  "end": 256.908,
+  "speaker": "Unknown",
+  "en": "If I'm not measuring use, I'm not sending feedback into the memory layer, it's all gonna fall over.",
+  "zh": "如果我不度量使用情况,不把反馈送回记忆层,一切都会崩塌。"
+ },
+ {
+  "seg": 44,
+  "start": 257.049,
+  "end": 257.329,
+  "speaker": "Unknown",
+  "en": "Another",
+  "zh": "另一个"
+ },
+ {
+  "seg": 45,
+  "start": 258.285,
+  "end": 260.267,
+  "speaker": "Unknown",
+  "en": "Important piece is the governance controls.",
+  "zh": "重要的部分是治理控制。"
+ },
+ {
+  "seg": 46,
+  "start": 261.187,
+  "end": 265.931,
+  "speaker": "Unknown",
+  "en": "So secrets, personal information, that needs to be redacted before it hits the memory layer.",
+  "zh": "比如机密、个人信息,这些需要在进入记忆层之前被脱敏。"
+ },
+ {
+  "seg": 47,
+  "start": 266.391,
+  "end": 270.234,
+  "speaker": "Unknown",
+  "en": "Writes need to be scoped, scoped to the agent, scoped to the workflow, the team, the user.",
+  "zh": "写入需要有作用域限定,限定到智能体,限定到工作流、团队、用户。"
+ },
+ {
+  "seg": 48,
+  "start": 270.254,
+  "end": 273.157,
+  "speaker": "Unknown",
+  "en": "This is especially important in multi-tenant environments.",
+  "zh": "这在多租户环境中尤为重要。"
+ },
+ {
+  "seg": 49,
+  "start": 274.158,
+  "end": 279.662,
+  "speaker": "Unknown",
+  "en": "We need appropriate admin approvals, review, and ability to suppress stale or poison data.",
+  "zh": "我们需要适当的管理员审批、审查,以及抑制陈旧或被污染数据的能力。"
+ },
+ {
+  "seg": 50,
+  "start": 281.371,
+  "end": 284.993,
+  "speaker": "Unknown",
+  "en": "When we walk through the memory loop, we have an agent session.",
+  "zh": "当我们走一遍记忆循环时,我们有一个智能体会话。"
+ },
+ {
+  "seg": 51,
+  "start": 285.513,
+  "end": 289.674,
+  "speaker": "Unknown",
+  "en": "It does some work, reads documents, run queries, synthesizes useful data.",
+  "zh": "它做一些工作,读取文档,运行查询,综合出有用的数据。"
+ },
+ {
+  "seg": 52,
+  "start": 291.075,
+  "end": 293.816,
+  "speaker": "Unknown",
+  "en": "After that session or during that session, a fact is created.",
+  "zh": "在那个会话之后或会话期间,会产生一个事实。"
+ },
+ {
+  "seg": 53,
+  "start": 294.637,
+  "end": 298.538,
+  "speaker": "Unknown",
+  "en": "We record that fact through redacting, enriching, storing it in the persistence layer.",
+  "zh": "我们通过脱敏、富化、存入持久层来记录那个事实。"
+ },
+ {
+  "seg": 54,
+  "start": 299.619,
+  "end": 306.301,
+  "speaker": "Unknown",
+  "en": "And then when another session comes along with related context, it can retrieve that fact and use it for context card reconstruction.",
+  "zh": "然后当另一个带有相关上下文的会话到来时,它可以检索那个事实并用它进行上下文卡片重构。"
+ },
+ {
+  "seg": 55,
+  "start": 306.662,
+  "end": 309.883,
+  "speaker": "Unknown",
+  "en": "So it's using that fact that came from a prior art",
+  "zh": "所以它是利用那个来自先前工作的事实"
+ },
+ {
+  "seg": 56,
+  "start": 311.266,
+  "end": 312.627,
+  "speaker": "Unknown",
+  "en": "to make the next task easier.",
+  "zh": "来让下一个任务更容易。"
+ },
+ {
+  "seg": 57,
+  "start": 313.007,
+  "end": 314.869,
+  "speaker": "Unknown",
+  "en": "That's less work for the next agent to do.",
+  "zh": "这让下一个智能体要做的活更少。"
+ },
+ {
+  "seg": 58,
+  "start": 315.849,
+  "end": 321.233,
+  "speaker": "Unknown",
+  "en": "And if that agent uses the facts successfully, we can add feedback scores to that memory.",
+  "zh": "而如果那个智能体成功使用了这个事实,我们可以给那条记忆添加反馈分数。"
+ },
+ {
+  "seg": 59,
+  "start": 321.273,
+  "end": 322.694,
+  "speaker": "Unknown",
+  "en": "So we're adapting over time.",
+  "zh": "这样我们就在随时间不断适应。"
+ },
+ {
+  "seg": 60,
+  "start": 323.315,
+  "end": 326.057,
+  "speaker": "Unknown",
+  "en": "We get related data and new temporality.",
+  "zh": "我们拿到相关数据和新的时间性信息。"
+ },
+ {
+  "seg": 61,
+  "start": 326.077,
+  "end": 326.957,
+  "speaker": "Unknown",
+  "en": "We access it again.",
+  "zh": "我们再次访问它。"
+ },
+ {
+  "seg": 62,
+  "start": 327.418,
+  "end": 328.358,
+  "speaker": "Unknown",
+  "en": "We did something with it.",
+  "zh": "我们用它做了些什么。"
+ },
+ {
+  "seg": 63,
+  "start": 330.88,
+  "end": 334.803,
+  "speaker": "Unknown",
+  "en": "Now, memory, it's invoked as a function by the agent runtime.",
+  "zh": "现在,记忆是被智能体运行时作为函数来调用的。"
+ },
+ {
+  "seg": 64,
+  "start": 334.923,
+  "end": 337.265,
+  "speaker": "Unknown",
+  "en": "So it needs read, write, and storage layers.",
+  "zh": "所以它需要读、写和存储层。"
+ },
+ {
+  "seg": 65,
+  "start": 338.445,
+  "end": 344.069,
+  "speaker": "Unknown",
+  "en": "Your agent runtime can invoke the memory layer through things like hooks, MCP, skills, or other methods.",
+  "zh": "你的智能体运行时可以通过 hooks、MCP、skills 或其他方法来调用记忆层。"
+ },
+ {
+  "seg": 66,
+  "start": 344.809,
+  "end": 354.456,
+  "speaker": "Unknown",
+  "en": "And the memory layer API is exposing the read-write, the feedback, administrative APIs, and then talking to the storage platform or databases.",
+  "zh": "而记忆层 API 暴露读写、反馈、管理 API,然后与存储平台或数据库通信。"
+ },
+ {
+  "seg": 67,
+  "start": 356.643,
+  "end": 371.571,
+  "speaker": "Unknown",
+  "en": "The choice of database here, I think multi-model databases are especially useful because they allow you to not work with your rows, columns, vector embeddings, full text search, relational entities, graphs, episodes and facts, all in one place.",
+  "zh": "这里的数据库选型,我认为多模型数据库特别有用,因为它们让你不必分别处理行、列、向量嵌入、全文搜索、关系实体、图、情节和事实,而是全都在一个地方搞定。"
+ },
+ {
+  "seg": 68,
+  "start": 372.691,
+  "end": 377.453,
+  "speaker": "Unknown",
+  "en": "So your memory can live in a consolidated place with one database query connection.",
+  "zh": "所以你的记忆可以集中存放在一个地方,只需要一个数据库查询连接。"
+ },
+ {
+  "seg": 69,
+  "start": 378.114,
+  "end": 384.057,
+  "speaker": "Unknown",
+  "en": "I can do all sorts of hybrid search and return that data back.",
+  "zh": "我可以做各种混合搜索,把数据返回回来。"
+ },
+ {
+  "seg": 70,
+  "start": 384.117,
+  "end": 385.798,
+  "speaker": "Unknown",
+  "en": "What does the memory look like?",
+  "zh": "记忆长什么样?"
+ },
+ {
+  "seg": 71,
+  "start": 387.002,
+  "end": 392.025,
+  "speaker": "Unknown",
+  "en": "It's going to be typed, and you may have seen this model in different presentations or some form of it.",
+  "zh": "它是有类型的,你可能在不同的演示里见过这个模型或它的某种形式。"
+ },
+ {
+  "seg": 72,
+  "start": 392.946,
+  "end": 394.226,
+  "speaker": "Unknown",
+  "en": "This loosely comes from human memory.",
+  "zh": "它大致来自人类记忆。"
+ },
+ {
+  "seg": 73,
+  "start": 394.246,
+  "end": 395.167,
+  "speaker": "Unknown",
+  "en": "It can be applied to agents.",
+  "zh": "它可以应用于智能体。"
+ },
+ {
+  "seg": 74,
+  "start": 395.847,
+  "end": 396.848,
+  "speaker": "Unknown",
+  "en": "So we have episodic memory.",
+  "zh": "所以我们有情节记忆。"
+ },
+ {
+  "seg": 75,
+  "start": 396.868,
+  "end": 400.33,
+  "speaker": "Unknown",
+  "en": "This is specific past events or slices of transcripts that the agents worked on.",
+  "zh": "这是特定的过往事件,或智能体处理过的转录片段。"
+ },
+ {
+  "seg": 76,
+  "start": 401.01,
+  "end": 403.432,
+  "speaker": "Unknown",
+  "en": "We have semantic memory.",
+  "zh": "我们有语义记忆。"
+ },
+ {
+  "seg": 77,
+  "start": 403.472,
+  "end": 407.915,
+  "speaker": "Unknown",
+  "en": "These are specific facts about our workflows, user preferences, and other entities.",
+  "zh": "这些是关于我们工作流、用户偏好和其他实体的具体事实。"
+ },
+ {
+  "seg": 78,
+  "start": 408.675,
+  "end": 409.576,
+  "speaker": "Unknown",
+  "en": "We have procedural memory.",
+  "zh": "我们有程序性记忆。"
+ },
+ {
+  "seg": 79,
+  "start": 409.596,
+  "end": 413.958,
+  "speaker": "Unknown",
+  "en": "This is like how we did a specific task or routine, maybe a build step.",
+  "zh": "这就像我们如何完成某个特定任务或例程,也许是一个构建步骤。"
+ },
+ {
+  "seg": 80,
+  "start": 413.978,
+  "end": 419.261,
+  "speaker": "Unknown",
+  "en": "These are reusable rules that agents are going to want to pull up again and again if there are repeating similar work.",
+  "zh": "这些是可复用的规则,如果有重复的类似工作,智能体会想要一次又一次地把它们调出来。"
+ },
+ {
+  "seg": 81,
+  "start": 420.221,
+  "end": 421.142,
+  "speaker": "Unknown",
+  "en": "And we have working state.",
+  "zh": "我们还有工作状态。"
+ },
+ {
+  "seg": 82,
+  "start": 421.402,
+  "end": 422.803,
+  "speaker": "Unknown",
+  "en": "Working state is like short-term memory.",
+  "zh": "工作状态就像短期记忆。"
+ },
+ {
+  "seg": 83,
+  "start": 423.123,
+  "end": 426.304,
+  "speaker": "Unknown",
+  "en": "It's what are we currently working on and that temporal data.",
+  "zh": "它是我们当前正在处理的东西以及那些时间性数据。"
+ },
+ {
+  "seg": 84,
+  "start": 426.325,
+  "end": 430.367,
+  "speaker": "Unknown",
+  "en": "It may only be valid for a certain time window and we may promote it to a different type of memory.",
+  "zh": "它可能只在某个时间窗口内有效,我们可能会把它提升为另一种类型的记忆。"
+ },
+ {
+  "seg": 85,
+  "start": 430.907,
+  "end": 436.33,
+  "speaker": "Unknown",
+  "en": "This helps us bucket into different areas and we can use different search techniques on these types of memory.",
+  "zh": "这帮助我们把记忆划分到不同区域,并且可以对这些类型的记忆使用不同的搜索技术。"
+ },
+ {
+  "seg": 86,
+  "start": 438.717,
+  "end": 441.319,
+  "speaker": "Unknown",
+  "en": "What does the storage schema look like for memory?",
+  "zh": "记忆的存储模式长什么样?"
+ },
+ {
+  "seg": 87,
+  "start": 441.86,
+  "end": 444.042,
+  "speaker": "Unknown",
+  "en": "So memory are typed objects plus lookup path.",
+  "zh": "记忆是有类型的对象加上查找路径。"
+ },
+ {
+  "seg": 88,
+  "start": 444.622,
+  "end": 448.265,
+  "speaker": "Unknown",
+  "en": "So our memory object is gonna have some ID like a primary key.",
+  "zh": "所以我们的记忆对象会有一个 ID,比如主键。"
+ },
+ {
+  "seg": 89,
+  "start": 448.826,
+  "end": 452.128,
+  "speaker": "Unknown",
+  "en": "It'll have its text content, JSON, tags, document data.",
+  "zh": "它会有文本内容、JSON、标签、文档数据。"
+ },
+ {
+  "seg": 90,
+  "start": 452.829,
+  "end": 453.97,
+  "speaker": "Unknown",
+  "en": "It'll have a vector embedding.",
+  "zh": "它会有一个向量嵌入。"
+ },
+ {
+  "seg": 91,
+  "start": 455.231,
+  "end": 458.494,
+  "speaker": "Unknown",
+  "en": "We have a vector created over the content with a vector index for similarity search.",
+  "zh": "我们对内容创建一个向量,并配有用于相似度搜索的向量索引。"
+ },
+ {
+  "seg": 92,
+  "start": 459.775,
+  "end": 463.778,
+  "speaker": "Unknown",
+  "en": "Ideally, we'll also have a text index to facilitate full text keyword search.",
+  "zh": "理想情况下,我们还会有一个文本索引,以支持全文关键词搜索。"
+ },
+ {
+  "seg": 93,
+  "start": 464.699,
+  "end": 465.86,
+  "speaker": "Unknown",
+  "en": "That combines with vector search.",
+  "zh": "它与向量搜索结合使用。"
+ },
+ {
+  "seg": 94,
+  "start": 467.064,
+  "end": 468.764,
+  "speaker": "Unknown",
+  "en": "We can have graph links to different edges.",
+  "zh": "我们可以有指向不同边的图链接。"
+ },
+ {
+  "seg": 95,
+  "start": 468.884,
+  "end": 470.765,
+  "speaker": "Unknown",
+  "en": "Memories can be related through an entity graph.",
+  "zh": "记忆可以通过实体图关联起来。"
+ },
+ {
+  "seg": 96,
+  "start": 471.185,
+  "end": 473.846,
+  "speaker": "Unknown",
+  "en": "So this memory is connected to this memory, which is connected to that memory.",
+  "zh": "所以这条记忆连接到这条记忆,这条记忆又连接到那条记忆。"
+ },
+ {
+  "seg": 97,
+  "start": 473.866,
+  "end": 476.506,
+  "speaker": "Unknown",
+  "en": "It's additional context that we can pull back during the search stage.",
+  "zh": "这是我们在搜索阶段可以拉回来的额外上下文。"
+ },
+ {
+  "seg": 98,
+  "start": 477.466,
+  "end": 478.667,
+  "speaker": "Unknown",
+  "en": "We can also have temporal facts.",
+  "zh": "我们还可以有时间性事实。"
+ },
+ {
+  "seg": 99,
+  "start": 479.567,
+  "end": 480.707,
+  "speaker": "Unknown",
+  "en": "When is this memory valid tool?",
+  "zh": "这条记忆什么时候有效?"
+ },
+ {
+  "seg": 100,
+  "start": 481.167,
+  "end": 482.687,
+  "speaker": "Unknown",
+  "en": "What was the last time that we used it?",
+  "zh": "我们上次使用它是什么时候？"
+ },
+ {
+  "seg": 101,
+  "start": 483.328,
+  "end": 485.828,
+  "speaker": "Unknown",
+  "en": "And then also, super importantly, audit events.",
+  "zh": "另外，还有超级重要的一点，审计事件。"
+ },
+ {
+  "seg": 102,
+  "start": 486.508,
+  "end": 487.448,
+  "speaker": "Unknown",
+  "en": "Who created this memory?",
+  "zh": "谁创建的这条记忆？"
+ },
+ {
+  "seg": 103,
+  "start": 487.529,
+  "end": 488.469,
+  "speaker": "Unknown",
+  "en": "What did they use it for?",
+  "zh": "他们用它来做什么？"
+ },
+ {
+  "seg": 104,
+  "start": 488.489,
+  "end": 494.19,
+  "speaker": "Unknown",
+  "en": "The log of how it's been used and associated metadata.",
+  "zh": "它如何被使用的日志以及相关联的元数据。"
+ },
+ {
+  "seg": 105,
+  "start": 496.129,
+  "end": 499.43,
+  "speaker": "Unknown",
+  "en": "This should all be part of your storage schema when we're working with memories.",
+  "zh": "当我们在处理记忆时，这些都应该成为你存储模式的一部分。"
+ },
+ {
+  "seg": 106,
+  "start": 500.951,
+  "end": 503.412,
+  "speaker": "Unknown",
+  "en": "When we create memories, we want to intentionally form them.",
+  "zh": "当我们创建记忆时，我们要有意地去塑造它们。"
+ },
+ {
+  "seg": 107,
+  "start": 504.052,
+  "end": 510.555,
+  "speaker": "Unknown",
+  "en": "Good memories are very intentional, so we need to decide the lifecycle, the scope, the different relationships and associated metadata.",
+  "zh": "好的记忆是非常有意图的，所以我们需要决定生命周期、作用域、不同的关系以及相关联的元数据。"
+ },
+ {
+  "seg": 108,
+  "start": 511.535,
+  "end": 515.677,
+  "speaker": "Unknown",
+  "en": "When an agent runtime decides to create a memory, we should first start with redaction.",
+  "zh": "当智能体运行时决定创建一条记忆时，我们应该首先从脱敏开始。"
+ },
+ {
+  "seg": 109,
+  "start": 516.927,
+  "end": 522.309,
+  "speaker": "Unknown",
+  "en": "Redaction's very important as a first step because before I do embeddings, before I do enrichment, I want to strip out PII.",
+  "zh": "脱敏作为第一步非常重要，因为在我做 embeddings 之前，在我做富化之前，我想先把 PII 剥离掉。"
+ },
+ {
+  "seg": 110,
+  "start": 522.329,
+  "end": 528.871,
+  "speaker": "Unknown",
+  "en": "I don't want secrets or irrelevant weird information slipping into the memory layer that's a recipe for disaster.",
+  "zh": "我不想让机密信息或不相关的奇怪信息溜进记忆层，那是灾难的根源。"
+ },
+ {
+  "seg": 111,
+  "start": 529.391,
+  "end": 530.591,
+  "speaker": "Unknown",
+  "en": "So we do redaction first.",
+  "zh": "所以我们先做脱敏。"
+ },
+ {
+  "seg": 112,
+  "start": 531.472,
+  "end": 532.652,
+  "speaker": "Unknown",
+  "en": "Then we can enrich the memory.",
+  "zh": "然后我们可以富化这条记忆。"
+ },
+ {
+  "seg": 113,
+  "start": 532.812,
+  "end": 535.033,
+  "speaker": "Unknown",
+  "en": "What is the memory related to?",
+  "zh": "这条记忆和什么相关？"
+ },
+ {
+  "seg": 114,
+  "start": 535.513,
+  "end": 536.933,
+  "speaker": "Unknown",
+  "en": "What is the metadata of the memory?",
+  "zh": "这条记忆的元数据是什么？"
+ },
+ {
+  "seg": 115,
+  "start": 537.053,
+  "end": 538.254,
+  "speaker": "Unknown",
+  "en": "We can apply the scope to it.",
+  "zh": "我们可以对它应用作用域。"
+ },
+ {
+  "seg": 116,
+  "start": 539.074,
+  "end": 540.914,
+  "speaker": "Unknown",
+  "en": "What is the agent that worked on this memory?",
+  "zh": "处理这条记忆的是哪个智能体？"
+ },
+ {
+  "seg": 117,
+  "start": 540.934,
+  "end": 541.695,
+  "speaker": "Unknown",
+  "en": "What's the team?",
+  "zh": "是哪个团队？"
+ },
+ {
+  "seg": 118,
+  "start": 541.855,
+  "end": 542.895,
+  "speaker": "Unknown",
+  "en": "What's the organization?",
+  "zh": "是哪个组织？"
+ },
+ {
+  "seg": 119,
+  "start": 543.378,
+  "end": 551.284,
+  "speaker": "Unknown",
+  "en": "This helps bucket into specific areas, so I'm not getting memories in other sessions that are associated with other agents or workflows, which adds confusion.",
+  "zh": "这有助于分桶到特定的区域，这样我就不会在其他会话中拿到与其他智能体或工作流相关联的记忆，那种情况会造成混乱。"
+ },
+ {
+  "seg": 120,
+  "start": 551.945,
+  "end": 556.648,
+  "speaker": "Unknown",
+  "en": "We can do the embedding, so we create the vector of the content, and then we can form what's called the episode.",
+  "zh": "我们可以做 embedding，也就是为内容创建向量，然后我们可以形成所谓的 episode。"
+ },
+ {
+  "seg": 121,
+  "start": 556.668,
+  "end": 559.571,
+  "speaker": "Unknown",
+  "en": "These are the slices of the transcript that created the memory.",
+  "zh": "这些是创建该记忆的转写片段切片。"
+ },
+ {
+  "seg": 122,
+  "start": 559.591,
+  "end": 563.394,
+  "speaker": "Unknown",
+  "en": "This is good for provenance and additional context.",
+  "zh": "这对溯源和额外的上下文很有用。"
+ },
+ {
+  "seg": 123,
+  "start": 563.454,
+  "end": 571.3,
+  "speaker": "Unknown",
+  "en": "Any organization-specific policies here can also be applied, whatever you need for your specific use case, and then we can save down to the storage layer.",
+  "zh": "这里也可以应用任何组织特定的策略，你的具体用例需要什么都行，然后我们就可以保存到存储层。"
+ },
+ {
+  "seg": 124,
+  "start": 573.38,
+  "end": 584.583,
+  "speaker": "Unknown",
+  "en": "When we create memory, the individual memories can be quite compressed, so we take the transcript and we distill it down to that content and metadata and embedding and related stuff, but we can also create these episodes.",
+  "zh": "当我们创建记忆时，单条记忆可以被压缩得相当厉害，所以我们把转写稿蒸馏成内容、元数据、embedding 以及相关的东西，但我们也可以创建这些 episode。"
+ },
+ {
+  "seg": 125,
+  "start": 585.223,
+  "end": 592.465,
+  "speaker": "Unknown",
+  "en": "So we take the agent transcripts, we filter them, find candidates for these episodes, save the memory record and link it back.",
+  "zh": "所以我们拿到智能体的转写稿，过滤它们，找到这些 episode 的候选，保存记忆记录并把它链接回去。"
+ },
+ {
+  "seg": 126,
+  "start": 592.845,
+  "end": 597.306,
+  "speaker": "Unknown",
+  "en": "You can do this with relations, just straight up database relationships.",
+  "zh": "你可以用关系来做到这一点，就是直接的数据库关系。"
+ },
+ {
+  "seg": 127,
+  "start": 597.766,
+  "end": 598.606,
+  "speaker": "Unknown",
+  "en": "You can do it with graphs.",
+  "zh": "你也可以用图来做。"
+ },
+ {
+  "seg": 128,
+  "start": 598.726,
+  "end": 602.247,
+  "speaker": "Unknown",
+  "en": "I particularly like graphs because they allow a broader search here.",
+  "zh": "我特别喜欢图，因为它们允许在这里做更广泛的搜索。"
+ },
+ {
+  "seg": 129,
+  "start": 604.542,
+  "end": 612.405,
+  "speaker": "Unknown",
+  "en": "When we're talking about memory recall, that is how do we remember something, this is a retrieval problem, so a query problem on the storage layer.",
+  "zh": "当我们谈论记忆召回时，也就是我们如何记住某件事，这是一个检索问题，也就是存储层上的一个查询问题。"
+ },
+ {
+  "seg": 130,
+  "start": 614.085,
+  "end": 621.628,
+  "speaker": "Unknown",
+  "en": "And with retrieval or recall, hybrid search is emerging as the dominant method of context reconstruction.",
+  "zh": "而在检索或召回方面，混合搜索正在成为上下文重建的主导方法。"
+ },
+ {
+  "seg": 131,
+  "start": 622.36,
+  "end": 626.481,
+  "speaker": "Unknown",
+  "en": "And this form of retrieval can fuse different search methods.",
+  "zh": "这种检索形式可以融合不同的搜索方法。"
+ },
+ {
+  "seg": 132,
+  "start": 626.521,
+  "end": 628.762,
+  "speaker": "Unknown",
+  "en": "So I can take vector similarity search.",
+  "zh": "所以我可以采用向量相似度搜索。"
+ },
+ {
+  "seg": 133,
+  "start": 629.162,
+  "end": 630.842,
+  "speaker": "Unknown",
+  "en": "I can take a full text keyword search.",
+  "zh": "我可以采用全文关键词搜索。"
+ },
+ {
+  "seg": 134,
+  "start": 631.342,
+  "end": 633.383,
+  "speaker": "Unknown",
+  "en": "I can take relational entities.",
+  "zh": "我可以采用关系实体。"
+ },
+ {
+  "seg": 135,
+  "start": 633.843,
+  "end": 635.043,
+  "speaker": "Unknown",
+  "en": "I can do graph traversal.",
+  "zh": "我可以做图遍历。"
+ },
+ {
+  "seg": 136,
+  "start": 635.463,
+  "end": 645.345,
+  "speaker": "Unknown",
+  "en": "I can take other feedback signals like importance, usefulness of the memory to yield more comprehensive results than one specific query branch alone.",
+  "zh": "我可以采用其他反馈信号，比如重要性、记忆的有用性，从而得到比单一查询分支更全面的结果。"
+ },
+ {
+  "seg": 137,
+  "start": 645.385,
+  "end": 652.167,
+  "speaker": "Unknown",
+  "en": "Like if I was only doing similarity search, I only get the most similar results according to the embedding model that I'm using.",
+  "zh": "比如，如果我只做相似度搜索，我只能得到根据我所使用的 embedding 模型来说最相似的结果。"
+ },
+ {
+  "seg": 138,
+  "start": 653.83,
+  "end": 655.252,
+  "speaker": "Unknown",
+  "en": "In general, this has not been enough.",
+  "zh": "总体而言，这一直都不够。"
+ },
+ {
+  "seg": 139,
+  "start": 655.612,
+  "end": 659.699,
+  "speaker": "Unknown",
+  "en": "We have all these different query branches, different types of memory.",
+  "zh": "我们有这些不同的查询分支、不同类型的记忆。"
+ },
+ {
+  "seg": 140,
+  "start": 659.739,
+  "end": 661.302,
+  "speaker": "Unknown",
+  "en": "You can decide which ones you want to do.",
+  "zh": "你可以决定你想做哪些。"
+ },
+ {
+  "seg": 141,
+  "start": 661.442,
+  "end": 663.586,
+  "speaker": "Unknown",
+  "en": "Things like facts, you might not want similarity.",
+  "zh": "像事实这类东西，你可能不想要相似度。"
+ },
+ {
+  "seg": 142,
+  "start": 663.606,
+  "end": 666.751,
+  "speaker": "Unknown",
+  "en": "You might just want to do an exact ID match on a fact.",
+  "zh": "你可能只想对某个事实做精确的 ID 匹配。"
+ },
+ {
+  "seg": 143,
+  "start": 667.986,
+  "end": 674.534,
+  "speaker": "Unknown",
+  "en": "We can take these results, we can fuse them, apply thresholds, do re-ranking, and then we get a context card with scored evidence.",
+  "zh": "我们可以拿到这些结果，融合它们，应用阈值，做重排序，然后我们就得到一张带有评分证据的上下文卡片。"
+ },
+ {
+  "seg": 144,
+  "start": 674.554,
+  "end": 680.301,
+  "speaker": "Unknown",
+  "en": "So we can say this memory, it rated very well on vector search and a little bit lower on lexical search.",
+  "zh": "所以我们可以说这条记忆，它在向量搜索上评分很高，而在词法搜索上评分稍低。"
+ },
+ {
+  "seg": 145,
+  "start": 681.502,
+  "end": 684.205,
+  "speaker": "Unknown",
+  "en": "That's the provenance of the memory, where it came from, how we got it.",
+  "zh": "这就是这条记忆的溯源，它从哪里来，我们是怎么拿到它的。"
+ },
+ {
+  "seg": 146,
+  "start": 684.786,
+  "end": 685.547,
+  "speaker": "Unknown",
+  "en": "That's important too.",
+  "zh": "这也很重要。"
+ },
+ {
+  "seg": 147,
+  "start": 688.274,
+  "end": 700.384,
+  "speaker": "Unknown",
+  "en": "As we walk through hybrid search vector distance, useful for semantically similar, things like contains operator, very good for lexical search, graph table, temporal data, all this stuff.",
+  "zh": "当我们走过混合搜索：向量距离，适用于语义相似；类似 contains 操作符的东西，非常适合词法搜索；图表、时间数据，所有这些东西。"
+ },
+ {
+  "seg": 148,
+  "start": 701.445,
+  "end": 704.028,
+  "speaker": "Unknown",
+  "en": "We take these branches, we apply weights to them.",
+  "zh": "我们拿到这些分支，给它们应用权重。"
+ },
+ {
+  "seg": 149,
+  "start": 704.468,
+  "end": 706.11,
+  "speaker": "Unknown",
+  "en": "We're going to weight differently as needed.",
+  "zh": "我们会根据需要采用不同的权重。"
+ },
+ {
+  "seg": 150,
+  "start": 706.13,
+  "end": 709.252,
+  "speaker": "Unknown",
+  "en": "This is something that can be tuned in your hybrid search algorithm.",
+  "zh": "这是可以在你的混合搜索算法中调节的东西。"
+ },
+ {
+  "seg": 151,
+  "start": 710.293,
+  "end": 714.177,
+  "speaker": "Unknown",
+  "en": "The results are merged to an overall score from the different query branches.",
+  "zh": "这些结果会被合并为来自不同查询分支的一个总分数。"
+ },
+ {
+  "seg": 152,
+  "start": 714.835,
+  "end": 720.878,
+  "speaker": "Unknown",
+  "en": "And then we can take the top K of the overall results to say the top three best results from our hybrid search algorithm.",
+  "zh": "然后我们可以取总体结果的前 K 个，也就是混合搜索算法中最好的前三条结果。"
+ },
+ {
+  "seg": 153,
+  "start": 721.798,
+  "end": 730.743,
+  "speaker": "Unknown",
+  "en": "And that's loosely how you could implement hybrid search in a multi-model database, a database that is capable of providing all of these different search methods from one pane of glass here.",
+  "zh": "这大致就是你在多模型数据库中实现混合搜索的方式——一个能够从单一面板提供所有这些不同搜索方法的数据库。"
+ },
+ {
+  "seg": 154,
+  "start": 732.984,
+  "end": 738.647,
+  "speaker": "Unknown",
+  "en": "Now, memories, it's not just a repository where we push data in and we pull data out.",
+  "zh": "现在，说到记忆，它不只是一个我们把数据推进去、再拉出来的仓库。"
+ },
+ {
+  "seg": 155,
+  "start": 739.506,
+  "end": 742.108,
+  "speaker": "Unknown",
+  "en": "Memories need to evolve over time to be truly useful.",
+  "zh": "记忆需要随时间演化，才能真正有用。"
+ },
+ {
+  "seg": 156,
+  "start": 742.689,
+  "end": 748.714,
+  "speaker": "Unknown",
+  "en": "We also don't want to just shove all our data in every time, otherwise we get tons of memories.",
+  "zh": "我们也不想每次都把所有数据一股脑塞进去，否则我们会得到海量记忆。"
+ },
+ {
+  "seg": 157,
+  "start": 748.754,
+  "end": 753.259,
+  "speaker": "Unknown",
+  "en": "And this is where we can kind of close the memory loop with consolidation and error handling.",
+  "zh": "而这正是我们可以通过整合和错误处理来闭合记忆环路的地方。"
+ },
+ {
+  "seg": 158,
+  "start": 754.443,
+  "end": 762.047,
+  "speaker": "Unknown",
+  "en": "Stale memory can occur when, say, my project uses NPM at one time and then we decide to switch to another build system.",
+  "zh": "陈旧记忆可能发生在，比如说，我的项目某个时期用的是 NPM，然后我们决定切换到另一个构建系统。"
+ },
+ {
+  "seg": 159,
+  "start": 762.567,
+  "end": 765.328,
+  "speaker": "Unknown",
+  "en": "But what happens to all the memories that were related to NPM?",
+  "zh": "但那些与 NPM 相关的记忆会怎么样呢？"
+ },
+ {
+  "seg": 160,
+  "start": 766.029,
+  "end": 771.151,
+  "speaker": "Unknown",
+  "en": "If an agent recalls those, it's going to be a little tricky and it may try to do the wrong thing.",
+  "zh": "如果一个智能体回想起那些记忆，事情会变得有点棘手，它可能会尝试做错误的事情。"
+ },
+ {
+  "seg": 161,
+  "start": 772.512,
+  "end": 777.114,
+  "speaker": "Unknown",
+  "en": "So the system, it needs to expect stale facts over recall quiet drift.",
+  "zh": "所以系统需要在召回时预期陈旧事实的悄然漂移。"
+ },
+ {
+  "seg": 162,
+  "start": 777.794,
+  "end": 779.235,
+  "speaker": "Unknown",
+  "en": "Bad scope can occur where",
+  "zh": "错误的范围界定可能发生在"
+ },
+ {
+  "seg": 163,
+  "start": 779.969,
+  "end": 784.131,
+  "speaker": "Unknown",
+  "en": "Hey, we're not appropriately scoping memories in the right context.",
+  "zh": "嘿，我们没有在正确的上下文中恰当地界定记忆。"
+ },
+ {
+  "seg": 164,
+  "start": 784.151,
+  "end": 788.032,
+  "speaker": "Unknown",
+  "en": "This is like if you log into your ChatGPT account and you get someone else's message history.",
+  "zh": "这就像你登录你的 ChatGPT 账号，却看到了别人的消息历史。"
+ },
+ {
+  "seg": 165,
+  "start": 788.653,
+  "end": 792.174,
+  "speaker": "Unknown",
+  "en": "If you're not applying scope properly, you're going to have some really bad data leaks.",
+  "zh": "如果你不正确地应用范围界定，你就会遇到非常严重的数据泄露。"
+ },
+ {
+  "seg": 166,
+  "start": 792.234,
+  "end": 794.515,
+  "speaker": "Unknown",
+  "en": "So this needs to happen on write and on read.",
+  "zh": "所以这需要在写入和读取时都进行。"
+ },
+ {
+  "seg": 167,
+  "start": 796.443,
+  "end": 801.387,
+  "speaker": "Unknown",
+  "en": "Poison memory is when a untrusted source plants a durable instruction in your memory layer.",
+  "zh": "毒化记忆是指一个不受信任的来源在你的记忆层中植入了一条持久指令。"
+ },
+ {
+  "seg": 168,
+  "start": 801.447,
+  "end": 815.117,
+  "speaker": "Unknown",
+  "en": "This is kind of the worst-case scenario, like a prompt injection happened, you didn't have appropriate guardrails, you didn't have the appropriate review, redaction, controls on memory, and some really nasty stuff got in there and all your data got exfiltrated.",
+  "zh": "这有点像最坏的情况，比如发生了一次提示词注入，你没有适当的护栏，没有适当的审查、脱敏、对记忆的控制，一些非常糟糕的东西进去了，然后你所有的数据都被泄露了。"
+ },
+ {
+  "seg": 169,
+  "start": 815.177,
+  "end": 820.941,
+  "speaker": "Unknown",
+  "en": "So be very sure to avoid these kind of things through the proper guardrails and administrative actions.",
+  "zh": "所以一定要通过适当的护栏和管理操作来避免这类事情。"
+ },
+ {
+  "seg": 170,
+  "start": 822.243,
+  "end": 824.965,
+  "speaker": "Unknown",
+  "en": "A memory conflict is when I have two different memories.",
+  "zh": "记忆冲突是指我有两条不同的记忆。"
+ },
+ {
+  "seg": 171,
+  "start": 825.065,
+  "end": 830.271,
+  "speaker": "Unknown",
+  "en": "One says, hey, we do the task this way, and the other says, well, actually, we do it this way.",
+  "zh": "一条说，嘿，我们是这样完成这个任务的，另一条说，嗯，其实，我们是那样做的。"
+ },
+ {
+  "seg": 172,
+  "start": 830.851,
+  "end": 837.438,
+  "speaker": "Unknown",
+  "en": "Because they're both about the same task, they're going to rank very highly on retrieval, so you'll probably get these same conflicts in your context card.",
+  "zh": "因为它们都是关于同一个任务的，它们在检索中会排名非常高，所以你可能会在你的上下文卡片中遇到这些相同的冲突。"
+ },
+ {
+  "seg": 173,
+  "start": 837.898,
+  "end": 839.74,
+  "speaker": "Unknown",
+  "en": "And when the agent consumed that, it's like, well,",
+  "zh": "而当智能体消化了这些内容时，它就像是，嗯，"
+ },
+ {
+  "seg": 174,
+  "start": 840.681,
+  "end": 844.584,
+  "speaker": "Unknown",
+  "en": "You know, you told me the restaurant's to the right and it's actually to the left.",
+  "zh": "你知道，你告诉我餐厅在右边，但它实际上在左边。"
+ },
+ {
+  "seg": 175,
+  "start": 844.624,
+  "end": 845.465,
+  "speaker": "Unknown",
+  "en": "I don't know what to do.",
+  "zh": "我不知道该怎么办。"
+ },
+ {
+  "seg": 176,
+  "start": 846.725,
+  "end": 851.449,
+  "speaker": "Unknown",
+  "en": "So detection review here is very important for conflict resolution.",
+  "zh": "所以这里的检测审查对于冲突解决非常重要。"
+ },
+ {
+  "seg": 177,
+  "start": 851.549,
+  "end": 852.209,
+  "speaker": "Unknown",
+  "en": "Scoping as well.",
+  "zh": "范围界定也是。"
+ },
+ {
+  "seg": 178,
+  "start": 852.249,
+  "end": 856.232,
+  "speaker": "Unknown",
+  "en": "Sometimes there are different ways to do the same task.",
+  "zh": "有时候完成同一个任务有不同的方式。"
+ },
+ {
+  "seg": 179,
+  "start": 856.452,
+  "end": 859.795,
+  "speaker": "Unknown",
+  "en": "Over-recall and irrelevance happen as your memory system grows.",
+  "zh": "过度召回和不相关性会随着你的记忆系统增长而出现。"
+ },
+ {
+  "seg": 180,
+  "start": 860.615,
+  "end": 868.521,
+  "speaker": "Unknown",
+  "en": "If we're just shoving all of our data in there and not really thinking about what we're writing, we can get into the situation of over-recall where we have",
+  "zh": "如果我们只是把所有数据都塞进去，而不真正思考我们在写什么，我们就会陷入过度召回的境地，在那里我们有"
+ },
+ {
+  "seg": 181,
+  "start": 868.963,
+  "end": 872.045,
+  "speaker": "Unknown",
+  "en": "So many different weak matches, they're crowding out the context card.",
+  "zh": "这么多不同的弱匹配，它们挤占了上下文卡片。"
+ },
+ {
+  "seg": 182,
+  "start": 872.646,
+  "end": 877.569,
+  "speaker": "Unknown",
+  "en": "This is the same problem with the very large context window where we try and smoosh in as much data as possible.",
+  "zh": "这和超大上下文窗口的问题一样，我们试图把尽可能多的数据硬塞进去。"
+ },
+ {
+  "seg": 183,
+  "start": 877.929,
+  "end": 878.77,
+  "speaker": "Unknown",
+  "en": "It's just confusing.",
+  "zh": "这只会让人困惑。"
+ },
+ {
+  "seg": 184,
+  "start": 880.151,
+  "end": 886.976,
+  "speaker": "Unknown",
+  "en": "Irrelevance, semantically close, memories that rank highly on hybrid search, but it's not actually about the task.",
+  "zh": "不相关性，就是语义上接近、在混合搜索中排名很高的记忆，但它实际上与任务无关。"
+ },
+ {
+  "seg": 185,
+  "start": 887.116,
+  "end": 888.357,
+  "speaker": "Unknown",
+  "en": "It just, it rated highly.",
+  "zh": "它只是，评分很高。"
+ },
+ {
+  "seg": 186,
+  "start": 888.397,
+  "end": 892.8,
+  "speaker": "Unknown",
+  "en": "So these are problems of management and your search algorithm tuning.",
+  "zh": "所以这些是管理和搜索算法调优的问题。"
+ },
+ {
+  "seg": 187,
+  "start": 893.73,
+  "end": 898.313,
+  "speaker": "Unknown",
+  "en": "Data leakage is when we get weird, unexpected data that enters the memory system.",
+  "zh": "数据泄露是指奇怪的、意外的数据进入记忆系统。"
+ },
+ {
+  "seg": 188,
+  "start": 898.333,
+  "end": 900.995,
+  "speaker": "Unknown",
+  "en": "This is a less serious version of poison memory.",
+  "zh": "这是毒化记忆的一个较轻的版本。"
+ },
+ {
+  "seg": 189,
+  "start": 901.295,
+  "end": 906.678,
+  "speaker": "Unknown",
+  "en": "Proper enrichment and distillation of the memory records on the right path is the way to solve leakage.",
+  "zh": "在正确的路径上对记忆记录进行适当的富集和蒸馏是解决泄露的方法。"
+ },
+ {
+  "seg": 190,
+  "start": 907.819,
+  "end": 909.66,
+  "speaker": "Unknown",
+  "en": "Over time, also, we get silent drift.",
+  "zh": "随着时间推移，我们还会遇到无声漂移。"
+ },
+ {
+  "seg": 191,
+  "start": 910.021,
+  "end": 911.482,
+  "speaker": "Unknown",
+  "en": "This is where the memory system grows.",
+  "zh": "这是记忆系统增长带来的问题。"
+ },
+ {
+  "seg": 192,
+  "start": 911.522,
+  "end": 920.848,
+  "speaker": "Unknown",
+  "en": "Maybe it works frickin' awesome at like a thousand records, but then when I have 50,000 or a million or more, I'm getting all these weird results and it's not really working.",
+  "zh": "也许在一千条记录时它运行得非常棒，但当我有了五万条或一百万条甚至更多时，我得到各种奇怪的结果，它就不太好用了。"
+ },
+ {
+  "seg": 193,
+  "start": 921.783,
+  "end": 930.227,
+  "speaker": "Unknown",
+  "en": "So it's very, very important to apply the proper countermeasures, the redaction before write, the scope checks, review, life cycle, and most importantly, feedback.",
+  "zh": "所以非常非常重要是要应用适当的对策：写入前的脱敏、范围检查、审查、生命周期，以及最重要的，反馈。"
+ },
+ {
+  "seg": 194,
+  "start": 931.028,
+  "end": 933.33,
+  "speaker": "Unknown",
+  "en": "Feedback is what closes the loop for memory.",
+  "zh": "反馈是闭合记忆环路的关键。"
+ },
+ {
+  "seg": 195,
+  "start": 933.731,
+  "end": 935.412,
+  "speaker": "Unknown",
+  "en": "Memory quality needs to be measurable.",
+  "zh": "记忆质量需要是可衡量的。"
+ },
+ {
+  "seg": 196,
+  "start": 935.452,
+  "end": 936.854,
+  "speaker": "Unknown",
+  "en": "We need to have correct retrieval.",
+  "zh": "我们需要有正确的检索。"
+ },
+ {
+  "seg": 197,
+  "start": 937.214,
+  "end": 939.456,
+  "speaker": "Unknown",
+  "en": "We need to account for stale or harmful memories.",
+  "zh": "我们需要考虑到陈旧或有害的记忆。"
+ },
+ {
+  "seg": 198,
+  "start": 939.796,
+  "end": 946.203,
+  "speaker": "Unknown",
+  "en": "And ultimately, the downstream usefulness of the system, it needs to feed back to these ranking lifecycle decisions.",
+  "zh": "而最终，系统的下游有用性需要反馈到这些排名和生命周期决策中。"
+ },
+ {
+  "seg": 199,
+  "start": 946.643,
+  "end": 949.786,
+  "speaker": "Unknown",
+  "en": "So if an agent retrieves a candidate memory, it'll use it.",
+  "zh": "所以如果一个智能体检索到一条候选记忆，它就会使用它。"
+ },
+ {
+  "seg": 200,
+  "start": 949.906,
+  "end": 950.707,
+  "speaker": "Unknown",
+  "en": "It'll reject it.",
+  "zh": "它会拒绝它。"
+ },
+ {
+  "seg": 201,
+  "start": 951.207,
+  "end": 955.011,
+  "speaker": "Unknown",
+  "en": "Maybe if it uses it, everything goes haywire and it crashes.",
+  "zh": "也许如果它用了它，一切都会失控并崩溃。"
+ },
+ {
+  "seg": 202,
+  "start": 956.593,
+  "end": 960.716,
+  "speaker": "Unknown",
+  "en": "Feedback needs to come back, and if the memory was harmful, the feedback should go down.",
+  "zh": "反馈需要传回来，如果记忆是有害的，反馈应该是向下的。"
+ },
+ {
+  "seg": 203,
+  "start": 960.776,
+  "end": 962.798,
+  "speaker": "Unknown",
+  "en": "If it was useful, maybe we promote it.",
+  "zh": "如果它是有用的，也许我们就提升它。"
+ },
+ {
+  "seg": 204,
+  "start": 963.799,
+  "end": 965.22,
+  "speaker": "Unknown",
+  "en": "So it's not just a repository.",
+  "zh": "所以它不只是一个仓库。"
+ },
+ {
+  "seg": 205,
+  "start": 965.74,
+  "end": 971.625,
+  "speaker": "Unknown",
+  "en": "It needs to store, your memory layer needs to store whether memories were helpful, stale, irrelevant, harmful, et cetera.",
+  "zh": "你的记忆层需要存储记忆是否有帮助、是否过时、是否无关、是否有害等等。"
+ },
+ {
+  "seg": 206,
+  "start": 974.273,
+  "end": 982.075,
+  "speaker": "Unknown",
+  "en": "And we want to design for measurable recall with governed memory formation built on a multi-model storage platform.",
+  "zh": "我们想设计的是可度量的召回，基于多模型存储平台的受治理的记忆形成。"
+ },
+ {
+  "seg": 207,
+  "start": 982.595,
+  "end": 986.416,
+  "speaker": "Unknown",
+  "en": "So without memory, these agents are more likely to restart the same tasks.",
+  "zh": "所以没有记忆，这些智能体更可能重新开始同样的任务。"
+ },
+ {
+  "seg": 208,
+  "start": 986.436,
+  "end": 988.937,
+  "speaker": "Unknown",
+  "en": "They're going to recreate over and over again.",
+  "zh": "它们会一遍又一遍地重新创建。"
+ },
+ {
+  "seg": 209,
+  "start": 988.957,
+  "end": 990.177,
+  "speaker": "Unknown",
+  "en": "They're going to read the same files.",
+  "zh": "它们会读取同样的文件。"
+ },
+ {
+  "seg": 210,
+  "start": 990.197,
+  "end": 991.277,
+  "speaker": "Unknown",
+  "en": "They're going to run the same queries.",
+  "zh": "它们会运行同样的查询。"
+ },
+ {
+  "seg": 211,
+  "start": 991.297,
+  "end": 998.359,
+  "speaker": "Unknown",
+  "en": "They're going to waste tons of time, tons of tokens, be much slower and much more failure prone.",
+  "zh": "它们会浪费大量时间、大量 token，慢得多，也更容易出错。"
+ },
+ {
+  "seg": 212,
+  "start": 998.379,
+  "end": 999.86,
+  "speaker": "Unknown",
+  "en": "They're going to repeat the same mistakes.",
+  "zh": "它们会重复同样的错误。"
+ },
+ {
+  "seg": 213,
+  "start": 1000.3,
+  "end": 1001.64,
+  "speaker": "Unknown",
+  "en": "If it doesn't know about prior art,",
+  "zh": "如果它不知道已有工作，"
+ },
+ {
+  "seg": 214,
+  "start": 1001.9,
+  "end": 1003.341,
+  "speaker": "Unknown",
+  "en": "It's going to do the same thing over again.",
+  "zh": "它就会把同样的事情再做一遍。"
+ },
+ {
+  "seg": 215,
+  "start": 1003.361,
+  "end": 1006.682,
+  "speaker": "Unknown",
+  "en": "And if that thing was wrong, it will be wrong again and again.",
+  "zh": "而如果那件事是错的，它就会一次又一次地错下去。"
+ },
+ {
+  "seg": 216,
+  "start": 1007.143,
+  "end": 1009.944,
+  "speaker": "Unknown",
+  "en": "And with governed memory, the agents can resume where they left off.",
+  "zh": "而有了受治理的记忆，智能体可以从上次中断的地方继续。"
+ },
+ {
+  "seg": 217,
+  "start": 1010.484,
+  "end": 1016.887,
+  "speaker": "Unknown",
+  "en": "They can reuse what came before them and ultimately reduce repeated failures.",
+  "zh": "它们可以复用之前的工作，最终减少重复的失败。"
+ },
+ {
+  "seg": 218,
+  "start": 1017.027,
+  "end": 1020.389,
+  "speaker": "Unknown",
+  "en": "This is the true goal of recording, retrieving, governing, evolving.",
+  "zh": "这才是记录、检索、治理、演进的真正目标。"
+ },
+ {
+  "seg": 219,
+  "start": 1021.329,
+  "end": 1022.83,
+  "speaker": "Unknown",
+  "en": "We want to improve the success rate.",
+  "zh": "我们想提高成功率。"
+ },
+ {
+  "seg": 220,
+  "start": 1022.85,
+  "end": 1023.71,
+  "speaker": "Unknown",
+  "en": "We want to do it faster.",
+  "zh": "我们想做得更快。"
+ },
+ {
+  "seg": 221,
+  "start": 1023.73,
+  "end": 1024.511,
+  "speaker": "Unknown",
+  "en": "We want to do it cheaper.",
+  "zh": "我们想做得更便宜。"
+ },
+ {
+  "seg": 222,
+  "start": 1024.551,
+  "end": 1025.291,
+  "speaker": "Unknown",
+  "en": "We want to do it better.",
+  "zh": "我们想做得更好。"
+ },
+ {
+  "seg": 223,
+  "start": 1027.891,
+  "end": 1033.357,
+  "speaker": "Unknown",
+  "en": "If you are hands-on, I recommend checking out our Python SDK for agent memory.",
+  "zh": "如果你想动手实践，我推荐去看我们用于智能体记忆的 Python SDK。"
+ },
+ {
+  "seg": 224,
+  "start": 1033.838,
+  "end": 1041.908,
+  "speaker": "Unknown",
+  "en": "This code will take you to a GitHub link with a Python notebook that walks through how to do this using our SDK.",
+  "zh": "这段代码会带你到一个 GitHub 链接，其中有一个 Python notebook，逐步讲解如何使用我们的 SDK 来实现这一点。"
+ },
+ {
+  "seg": 225,
+  "start": 1042.188,
+  "end": 1044.451,
+  "speaker": "Unknown",
+  "en": "The SDK is built on database primitives.",
+  "zh": "这个 SDK 构建在数据库原语之上。"
+ },
+ {
+  "seg": 226,
+  "start": 1045.532,
+  "end": 1049.833,
+  "speaker": "Unknown",
+  "en": "Everything that we talk about here lives in the database.",
+  "zh": "我们在这里谈到的一切都存在于数据库中。"
+ },
+ {
+  "seg": 227,
+  "start": 1050.253,
+  "end": 1052.014,
+  "speaker": "Unknown",
+  "en": "We also have our developer hub.",
+  "zh": "我们还有开发者中心。"
+ },
+ {
+  "seg": 228,
+  "start": 1052.174,
+  "end": 1057.815,
+  "speaker": "Unknown",
+  "en": "If you're an AI engineer, you're a builder, you're curious, like, how does a modern multi-model database fit into AI development?",
+  "zh": "如果你是 AI 工程师，你是构建者，你很好奇，比如，现代的多模型数据库如何融入 AI 开发？"
+ },
+ {
+  "seg": 229,
+  "start": 1058.155,
+  "end": 1067.517,
+  "speaker": "Unknown",
+  "en": "This is the place to go to check out our samples, see what's possible, and maybe inspire you to build something cool with a very awesome database.",
+  "zh": "这里就是你可以去查看我们示例的地方，看看有什么可能，也许还能启发你用一个非常好的数据库构建出很酷的东西。"
+ },
+ {
+  "seg": 230,
+  "start": 1068.482,
+  "end": 1069.203,
+  "speaker": "Unknown",
+  "en": "Again, I'm Anders.",
+  "zh": "再说一次，我是 Anders。"
+ },
+ {
+  "seg": 231,
+  "start": 1069.743,
+  "end": 1070.663,
+  "speaker": "Unknown",
+  "en": "I'm Anders Swanson.",
+  "zh": "我是 Anders Swanson。"
+ },
+ {
+  "seg": 232,
+  "start": 1070.763,
+  "end": 1074.306,
+  "speaker": "Unknown",
+  "en": "If you want to chat or connect with me, I'll be over at the Oracle booth.",
+  "zh": "如果你想和我聊聊或建立联系，我会在 Oracle 展位。"
+ },
+ {
+  "seg": 233,
+  "start": 1075.346,
+  "end": 1076.147,
+  "speaker": "Unknown",
+  "en": "And thank you so much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 234,
+  "start": 1076.167,
+  "end": 1081.29,
+  "speaker": "Unknown",
+  "en": "I hope this was useful to you guys and helpful as you're building awesome things.",
+  "zh": "我希望这对你们有用，对你们正在构建的精彩东西有所帮助。"
+ },
+ {
+  "seg": 235,
+  "start": 1081.81,
+  "end": 1082.35,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ }
+]

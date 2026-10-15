@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Jaan Tallinn]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":204,"OpenAI":203,"Hugging Face":38,"NVIDIA":71,"智能体":1,"超级智能":12,"对齐":25,"递归自我改进":12,"沙箱":99}</script>
+<script type="application/json" class="pd-epn">{"Palisade Research":1,"Anthropic":204,"OpenAI":203,"Hugging Face":38,"NVIDIA":71,"智能体":1,"超级智能":12,"对齐":25,"递归自我改进":12,"沙箱":100}</script>
 
 <script>
 (function(){

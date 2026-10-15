@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[harness]] · [[Claude Code]] · [[LangChain]] · [[Anthropic]] · [[护栏]] · [[子智能体]] · [[Deep Agents]] · [[OpenAI]] · [[LangSmith]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":65,"Claude Code":113,"LangChain":13,"Anthropic":204,"护栏":90,"子智能体":6,"Deep Agents":3,"OpenAI":203,"LangSmith":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":65,"Claude Code":114,"LangChain":13,"Anthropic":204,"护栏":91,"子智能体":7,"Deep Agents":3,"OpenAI":203,"LangSmith":6}</script>
 
 <script>
 (function(){

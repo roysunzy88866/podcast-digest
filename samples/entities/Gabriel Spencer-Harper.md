@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]] [[Matt Jones]] [[Sam Newman]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":2,"基于断言的测试":1,"代码覆盖率":1,"确定性":6,"pull request":6}</script>
+<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":2,"基于断言的测试":1,"代码覆盖率":1,"确定性":6,"pull request":7}</script>
 
 <script>
 (function(){

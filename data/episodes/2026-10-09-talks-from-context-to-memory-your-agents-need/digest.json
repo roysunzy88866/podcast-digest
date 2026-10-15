@@ -1,0 +1,167 @@
+{
+  "title_zh": "AI 智能体为什么总是“失忆”？",
+  "tldr": "Oracle 的 Anders Swanson 讲解如何把智能体的上下文变成真正的记忆层，让它们不再重复犯错。",
+  "digest_md": "你大概用过 Claude Code 或 Codex 这类智能体。它们干起活来很卖力，但经常一遍遍重读同样的文件、重复同样的查询——因为它们对过去发生的事一无所知。Oracle AI Database 的开发者布道师 Anders Swanson 在这场演讲里提出：智能体的记忆不该靠碰运气的补丁，而应该当成一个系统问题来解决。他的核心观点很直接：**上下文窗口不是记忆**。\n\n## 为什么上下文窗口和更大的窗口都救不了？\n\nSwanson 举了个例子：一个智能体处理客服工单，读文档、跑查询、复现故障、找到根因，干了一堆有价值的工作。会话结束后呢？全被丢掉。下一个智能体接手类似任务，只能从头再来一遍。[00:52 Unknown]\n\n==那把上下文窗口做大行不行==？也不行。塞进越来越多的内容，会话一长就会触发压缩，有用的信号反而淹没在无关信息里。[01:54 Unknown]\n\n用 Markdown 文件、笔记、维基这类“草稿本”来记事呢？他承认有帮助，但这不是受治理的检索——文件在多租户大环境下撑不住，grep 这类工具也不是复杂的混合检索。继续沿着这条路走下去，最终你会自己造一个数据库。那不如直接用数据库。[02:39 Unknown]\n\n## 记忆层到底要做什么？\n\nSwanson 观察到，现代智能体记忆系统正在收敛到一套模式：形成、检索、演化、评估。\n\n形成记忆时，存的是提炼过的结构化事实，不是原始对话的倾倒。检索记忆时，主流做法是混合检索——把向量相似度搜索、关键词全文搜索、关系实体、图遍历、时间新近度等多种搜索方式融合起来，而不是只靠某一种。[03:25 Unknown]\n\n记忆还需要治理：敏感信息和个人数据在写入前就要抹掉；写入要划定范围——属于哪个智能体、哪个团队、哪个用户，这在多租户环境尤其重要。还要有管理员审批、审查，以及压制过期或被污染数据的能力。[04:18 Unknown]\n\n整个流程形成一个闭环：智能体干活，提炼出事实，脱敏、增强、存进持久层；下一个智能体遇到相关任务时把它取回来，任务就轻松了。用得好，就给这条记忆加分；用坏了，就降分。系统随时间自我调整。\n\n## 记忆分几种？存成什么样？\n\nSwanson 借用了人类记忆的分类：情景记忆是过去的具体事件片段；语义记忆是关于工作流、用户偏好的具体事实；程序记忆是“怎么做某件事”的可复用规则，比如构建步骤；工作状态则像短期记忆，记录当前在干什么，可能只在某个时间窗口内有效，之后可以升级成别的类型。[06:27 Unknown]\n\n在存储层面，每条记忆是一个带类型的对象：有主键、文本内容、标签、向量嵌入和向量索引，有全文索引，可以通过实体图关联到其他记忆，还要记录时间信息——何时创建、上次何时使用、有效期到什么时候。他特别强调审计事件：谁创建的、拿来干什么用，这些日志都得在。[08:03 Unknown]\n\n写入时的顺序也有讲究：先脱敏，再做增强和嵌入。他把不可信来源植入持久指令的情况称为“毒记忆”，是最坏情形——没有护栏和审查，提示注入得手，数据全被拖走。[13:16 Unknown]\n\n## 记忆系统会出哪些故障？\n\nSwanson 列了一串真实会发生的坑。过期记忆：项目原来用 NPM，后来换了构建系统，但一堆关于 NPM 的记忆还在，智能体检索到就可能做错事。范围错误：相当于登录自己的账号却看到别人的聊天记录。记忆冲突：两条记忆对同一个任务给出相反做法，检索时都排得很靠前，智能体夹在中间不知所措。[13:42 Unknown]\n\n还有过度召回：一堆弱匹配把上下文卡片挤满了，跟超大上下文窗口是同一个问题——纯添乱。以及静默漂移：一千条记录时系统好得不得了，涨到 50,000 甚至上百万条就开始出怪结果。[15:07 Unknown]\n\n==解法是什么==？写前脱敏、范围检查、审查、生命周期管理，而最重要的是反馈。记忆质量必须可衡量：智能体用了某条记忆之后是成功还是崩了，要回馈到排序和淘汰决策里。用他的话说，反馈是“闭合记忆回路的东西”。[15:31 Unknown]\n\n## 为什么值得费这个劲？\n\n没有记忆的智能体会重启同样的任务、重读同样的文件、浪费大量时间和算力，还会重复同样的错误——上次错了，这次还会错。[16:22 Unknown]\n\n有了受治理的记忆，智能体可以从上次停下的地方继续，复用前人的成果，减少重复失败。目标说到底就四个词：更快、更便宜、更好、成功率更高。Swanson 还提到，Oracle 提供了基于数据库原语的 Python SDK，感兴趣的工程师可以在 GitHub 上找到配套的示例笔记本。[17:07 Unknown]\n\n## 本集带走\n\n- 上下文窗口是当次运行的输入，不是持久经验；更大的窗口和文件式草稿本都只是权宜之计。\n- 记忆层应该是一个系统：形成、检索、演化、评估缺一不可，而反馈是闭合回路的关键。\n- 检索的主流做法是混合搜索：向量、全文、实体、图、时间信号多路融合，再加权重和重排。\n- 治理必须前置：脱敏要在写入前做，范围划分要在读写两端都做，防止数据泄漏和“毒记忆”。\n- 好记的不是仓库，而是会进化的系统——记忆要能被加分、降分、合并、淘汰。",
+  "quotes": [
+    {
+      "en": "Context windows are not memory. They are the input for the current run and not a persistent experience.",
+      "zh": "上下文窗口不是记忆。它们是当前运行的输入，而不是持久的经验。",
+      "timestamp": "00:57",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "So he's searching more documents, he's running more queries, and this is more opportunity for failure, more opportunity for hallucinations, and ultimately less fidelity.",
+      "zh": "于是它要搜索更多文档，跑更多查询，这带来了更多失败的机会、更多幻觉的机会，最终保真度更低。",
+      "timestamp": "01:34",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "And memory really cannot begin until these useful experiences from our agents are transformed into managed state.",
+      "zh": "只有当智能体的这些有用经验被转化为受管理的状态时，记忆才真正开始。",
+      "timestamp": "01:45",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "Larger context windows are also not the solution.",
+      "zh": "更大的上下文窗口也不是解决方案。",
+      "timestamp": "01:54",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "Files do not scale in large multi-tenant environments.",
+      "zh": "文件在大型多租户环境中无法扩展。",
+      "timestamp": "02:24",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "And I feel like if we continue to the logical conclusion of trying to build a memory layer on top of files, we're gonna be building our own database. And I don't, you could just use a database.",
+      "zh": "我觉得如果我们继续沿着在文件之上构建记忆层的思路走到逻辑尽头，我们最终会是在自己造一个数据库。而你直接用一个数据库就行了。",
+      "timestamp": "02:39",
+      "speaker": "Anders Swanson"
+    },
+    {
+      "en": "If I'm not measuring use, I'm not sending feedback into the memory layer, it's all gonna fall over.",
+      "zh": "如果我不度量使用情况，不把反馈送回记忆层，一切都会崩塌。",
+      "timestamp": "04:09",
+      "speaker": "Anders Swanson"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:57",
+      "speaker": "Anders",
+      "en": "Context windows are not memory. They are the input for the current run and not a persistent experience.",
+      "zh": "上下文窗口不是记忆。它们是当前运行的输入，而不是持久的经验。"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Anders",
+      "en": "It's tossed away. And this is because there's no persistence.",
+      "zh": "被扔掉了。这是因为没有持久化。"
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Anders",
+      "en": "So he's searching more documents, he's running more queries, and this is more opportunity for failure, more opportunity for hallucinations, and ultimately less fidelity.",
+      "zh": "于是它要搜索更多文档，跑更多查询，这带来了更多失败的机会、更多幻觉的机会，最终保真度更低。"
+    },
+    {
+      "timestamp": "01:45",
+      "speaker": "Anders",
+      "en": "And memory really cannot begin until these useful experiences from our agents are transformed into managed state.",
+      "zh": "只有当智能体的这些有用经验被转化为受管理的状态时，记忆才真正开始。"
+    },
+    {
+      "timestamp": "01:54",
+      "speaker": "Anders",
+      "en": "Larger context windows are also not the solution.",
+      "zh": "更大的上下文窗口也不是解决方案。"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Anders",
+      "en": "Files do not scale in large multi-tenant environments.",
+      "zh": "文件在大型多租户环境中无法扩展。"
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Anders",
+      "en": "And I feel like if we continue to the logical conclusion of trying to build a memory layer on top of files, we're gonna be building our own database. And I don't, you could just use a database.",
+      "zh": "我觉得如果我们继续沿着在文件之上构建记忆层的思路走到逻辑尽头，我们最终会是在自己造一个数据库。而你直接用一个数据库就行了。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Anders",
+      "en": "This is not a raw transcript dump.",
+      "zh": "这不是原始转写记录的倾倒。"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Anders",
+      "en": "The system needs to evolve over time, otherwise it becomes stale, irrelevant, and useless.",
+      "zh": "系统需要随时间演化，否则它会变得陈旧、不相关、毫无用处。"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Anders",
+      "en": "If I'm not measuring use, I'm not sending feedback into the memory layer, it's all gonna fall over.",
+      "zh": "如果我不度量使用情况，不把反馈送回记忆层，一切都会崩塌。"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Anders",
+      "en": "So secrets, personal information, that needs to be redacted before it hits the memory layer.",
+      "zh": "比如机密、个人信息，这些需要在进入记忆层之前被脱敏。"
+    },
+    {
+      "timestamp": "08:42",
+      "speaker": "Anders",
+      "en": "I don't want secrets or irrelevant weird information slipping into the memory layer that's a recipe for disaster.",
+      "zh": "我不想让机密信息或不相关的奇怪信息溜进记忆层，那是灾难的根源。"
+    },
+    {
+      "timestamp": "10:53",
+      "speaker": "Anders",
+      "en": "In general, this has not been enough.",
+      "zh": "总体而言，这一直都不够。"
+    },
+    {
+      "timestamp": "13:08",
+      "speaker": "Anders",
+      "en": "If you're not applying scope properly, you're going to have some really bad data leaks.",
+      "zh": "如果你不正确地应用范围界定，你就会遇到非常严重的数据泄露。"
+    },
+    {
+      "timestamp": "13:16",
+      "speaker": "Anders",
+      "en": "Poison memory is when a untrusted source plants a durable instruction in your memory layer.",
+      "zh": "毒化记忆是指一个不受信任的来源在你的记忆层中植入了一条持久指令。"
+    },
+    {
+      "timestamp": "15:11",
+      "speaker": "Anders",
+      "en": "Maybe it works frickin' awesome at like a thousand records, but then when I have 50,000 or a million or more, I'm getting all these weird results and it's not really working.",
+      "zh": "也许在一千条记录时它运行得非常棒，但当我有了五万条或一百万条甚至更多时，我得到各种奇怪的结果，它就不太好用了。"
+    },
+    {
+      "timestamp": "15:31",
+      "speaker": "Anders",
+      "en": "Feedback is what closes the loop for memory.",
+      "zh": "反馈是闭合记忆环路的关键。"
+    },
+    {
+      "timestamp": "16:43",
+      "speaker": "Anders",
+      "en": "And if that thing was wrong, it will be wrong again and again.",
+      "zh": "而如果那件事是错的，它就会一次又一次地错下去。"
+    },
+    {
+      "timestamp": "16:50",
+      "speaker": "Anders",
+      "en": "They can reuse what came before them and ultimately reduce repeated failures.",
+      "zh": "它们可以复用之前的工作，最终减少重复的失败。"
+    }
+  ],
+  "voice_script": "你大概用过 Claude Code 或者 Codex 这类智能体。干起活来确实卖力，但不知道你有没有注意到一个怪现象：它们经常一遍一遍重读同样的文件、跑同样的查询，好像完全不记得自己刚做过什么。这不是 bug,而是因为它们对过去发生的事一无所知。今天这一期，就聊这个问题。主角是 Oracle AI Database 的开发者布道师 Anders Swanson,他在一场演讲里提出一个很直接的判断：上下文窗口不是记忆，它只是当前运行的输入，不是持久的经验。而智能体的记忆，不该靠碰运气的补丁，应该当成一个系统问题来解决。\n\n先说这个问题是怎么来的。Swanson 举了个例子：一个智能体处理客服工单，读文档、跑查询、复现故障、找到根因，干了一大堆有价值的工作。然后呢？会话一结束，全部丢掉。下一个智能体接手类似任务，只能从头再来一遍。上一个智能体的经验，一个字都没留下来。\n\n那有人会说，把上下文窗口做大点不就行了？Swanson 说也不行。窗口塞得越来越满，会话一长就会触发压缩，有用的信号反而被淹没在无关信息里。搜索更多文档、跑更多查询，结果就是更多失败的机会、更多幻觉的机会，保真度反而更低。\n\n还有人用更土的办法：拿 Markdown 文件、笔记、维基当草稿本，让智能体把学到的东西记下来。Swanson 承认这有帮助，但他指出，这不是受治理的检索。文件这种东西，在多租户的大环境里撑不住；grep 这类工具，也干不了复杂的混合检索。用他的话说，如果沿着在文件上盖记忆层这条路走到头，你最终是在自己造一个数据库——那还不如直接用一个数据库。\n\n好，既然要用系统化的办法，那记忆层到底要做什么？Swanson 观察到，现代智能体记忆系统正在收敛到四个环节：形成、检索、演化、评估。先说形成。关键在于，存进去的应该是提炼过的结构化事实，而不是把原始对话一股脑倾倒进去。再说检索。主流做法叫混合检索，就是把好几种搜索方式揉在一起用：向量相似度搜索、关键词全文搜索、关系实体、图遍历，再加上时间新近度，多路融合，而不是单靠某一种。\n\n但光存光取还不够，记忆还需要治理。敏感信息和个人数据，要在写入之前就抹掉；每条记忆写入时要划定范围，属于哪个智能体、哪个团队、哪个用户——这在多租户环境里尤其要命，不然就成了登录自己的账号，却看到别人的聊天记录。此外还得有管理员审批、审查，以及压制过期或被污染数据的能力。\n\n把这几个环节连起来，就是一个闭环：智能体干活，提炼出事实，脱敏、增强、存进持久层；下一个智能体遇到相关任务时把记忆取回来，活儿就轻松了。用得好，这条记忆加分；用坏了，降分。系统随着时间自己调整。\n\n那记忆具体分几种、又存成什么样呢？Swanson 借用了人类记忆的分类法。情景记忆，是过去具体事件的片段；语义记忆，是关于工作流、用户偏好的具体事实；程序记忆，是“怎么做某件事”的可复用规则，比如构建步骤；还有工作状态，相当于短期记忆，记录当前在干什么，只在某个时间窗口内有效，之后可以升级成别的类型。存储层面，每条记忆是一个带类型的对象：有主键、文本内容、标签、向量嵌入和索引，能通过实体图关联到别的记忆，还要记时间信息——什么时候创建的、上次什么时候用过、有效期到什么时候。而且 Swanson 特别强调审计事件：谁创建的、拿来干了什么，这些日志都得留着。\n\n写入的顺序也有讲究：先脱敏，再做增强和嵌入，顺序不能反。为什么这么较真？因为有专家把不可信来源植入持久指令的情况叫“毒记忆”，这是最坏的情形——没有护栏和审查，一次提示注入就得手，数据全被拖走。\n\n说到这儿，你可能会问，一个真实的记忆系统会出什么故障？Swanson 列了一串坑。比如过期记忆：项目原来用 NPM,后来换了构建系统，但一堆关于 NPM 的旧记忆还躺在库里，智能体检索到了就可能做错事。比如范围错误，就是刚才说的看到别人数据的问题。再比如记忆冲突：两条记忆对同一个任务给出完全相反的做法，检索时都排得很靠前，智能体夹在中间不知所措。还有过度召回，一堆弱匹配把上下文卡片挤得满满当当——这跟超大上下文窗口是同一个病，纯添乱。最后还有最隐蔽的一种，叫静默漂移：一千条记录的时候系统好得不得了，涨到五万条、上百万条，就开始出怪结果。\n\n那这些坑的解法是什么？写前脱敏、范围检查、审查、生命周期管理，而最重要的，是反馈。记忆质量必须可衡量：智能体用了某条记忆之后，任务到底是成功了还是崩了，这个结果要回馈到排序和淘汰的决策里。用 Swanson 本人的话说，反馈是“闭合记忆回路的东西”。\n\n最后说说，为什么值得费这个劲。没有记忆的智能体，会重启同样的任务、重读同样的文件，浪费大量时间和算力，还会重复同样的错误——上次错了，这次接着错。而有了受治理的记忆，智能体可以从上次停下的地方继续，复用前人成果，减少重复失败。目标说到底就四个词：更快、更便宜、更好、成功率更高。顺带一提，Oracle 提供了基于数据库原语的 Python SDK,感兴趣的工程师可以在 GitHub 上找到配套的示例笔记本。记住 Swanson 那句话：只有当智能体的有用经验被转化为受管理的状态时，记忆才真正开始。"
+}

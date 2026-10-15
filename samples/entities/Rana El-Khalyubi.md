@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Tibo Sottiaux]] [[Jeffrey Ladish]] [[Jaan Tallinn]]
+[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Tibo Sottiaux]] [[Anders Swanson]] [[Jeffrey Ladish]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":203,"Codex":89,"ChatGPT":112,"Dots":5,"Astra":8,"智能体":1,"沙箱":99,"对齐":25,"护栏":90}</script>
+<script type="application/json" class="pd-epn">{"Tibo Sottiaux":3,"OpenAI":203,"Codex":90,"ChatGPT":112,"Dots":5,"Astra":8,"智能体":1,"沙箱":100,"对齐":25,"护栏":91}</script>
 
 <script>
 (function(){

@@ -108,7 +108,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[ChatGPT]] · [[评估]] · [[LLM]] · [[MCP]] · [[Harry Stebbings]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"Cursor":87,"ChatGPT":112,"评估":1,"LLM":64,"MCP":95,"Harry Stebbings":21,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":203,"Anthropic":204,"Cursor":87,"ChatGPT":112,"评估":1,"LLM":65,"MCP":95,"Harry Stebbings":21,"Lenny":69}</script>
 
 <script>
 (function(){

@@ -1,0 +1,515 @@
+{
+  "episode_id": "2026-10-09-talks-stop-prompting-greg-pstrucha-sentry",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "代码质量",
+    "linter",
+    "工程实践"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "greg-pstrucha",
+      "type": "person",
+      "role": "guest",
+      "name": "Greg Pstrucha",
+      "file": "Greg Pstrucha",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sentry",
+      "type": "company",
+      "role": "concept",
+      "name": "Sentry",
+      "file": "Sentry",
+      "primary": true,
+      "how_described": "本集说 Sentry 是一个基于 Django/DRF 的老代码库，嘉宾是它的 AI 工程师，负责为 Sentry 的调试智能体提供基础设施；还讲了 Sentry 用 lint 规则让 API 与 OpenAPI schema 保持同步的实践。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.093,
+            24.674
+          ],
+          "quote": "I'm an AI engineer at Sentry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            25.514,
+            29.996
+          ],
+          "quote": "I work on the infrastructure that powers here Sentry's debugging agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            49.929,
+            57.032
+          ],
+          "quote": "I read code when it's sentry code, and I need to make sure that we are not breaking the actual production for sentry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            404.183,
+            405.564
+          ],
+          "quote": "Sentry is a pretty old codebase.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            419.649,
+            430.033
+          ],
+          "quote": "So concretely here, there was a lot of drift of what the OpenAPI schema for Sentry said it's going to do and what it did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            477.152,
+            481.635
+          ],
+          "quote": "is a debugging agent, and it has to talk to Sentry a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            482.015,
+            489.76
+          ],
+          "quote": "It uses Sentry telemetry to debug and RCA issues and provides root cause analysis, solutions, all of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            490.799,
+            495.581
+          ],
+          "quote": "Because it has to talk to Sentry API, we oftentimes have to guide it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            510.928,
+            515.45
+          ],
+          "quote": "But here is an example of a skill that tells how a metric should be created at Sentry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            546.917,
+            550.498
+          ],
+          "quote": "And whatever they declare agrees with OpenAPI schema from Sentry.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "linter",
+      "type": "concept",
+      "role": "concept",
+      "name": "linter",
+      "file": "linter",
+      "primary": true,
+      "how_described": "本集说 linter 是以确定性方式把代码库规则编码化的工具；AI 时代写新 linter 变得很便宜，可以直接让智能体来写，用它替代反复提示。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            256.815,
+            258.795
+          ],
+          "quote": "Writing an actual linter took a lot of work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            272.76,
+            286.148
+          ],
+          "quote": "If it's pre-agents, and those are humans that are working in my code base, and the only thing I'm doing is once every three weeks telling people to use the right component from the design system, then I don't necessarily need a linter for that, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            304.36,
+            310.022
+          ],
+          "quote": "And at the same time, to write a new linter is very cheap and very easy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            534.53,
+            538.794
+          ],
+          "quote": "So the first linter we created was a linter that says if there is a code block",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            658.249,
+            663.471
+          ],
+          "quote": "One example is Taskless, where instead of writing the actual linter, you write what you want the linter to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            663.491,
+            668.674
+          ],
+          "quote": "You write your intent in English language, and then the actual linter is derived from it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把写代码的智能体描述为没有记忆、会反复犯同样错误的东西；上下文压缩后一切回到原点，所以要停止反复提示，把规则写成代码让仓库记住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25.514,
+            29.996
+          ],
+          "quote": "I work on the infrastructure that powers here Sentry's debugging agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            84.569,
+            87.932
+          ],
+          "quote": "So then what you do is you talk to the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            117.183,
+            119.445
+          ],
+          "quote": "The agent says, you're absolutely right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            134.394,
+            139.738
+          ],
+          "quote": "And you would have to now repeat yourself, re-prompt your fixes, re-prompt the agent on the right track.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            201.639,
+            207.404
+          ],
+          "quote": "Those are not total statements, and they are not enough to actually get your agent to write good code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            226.785,
+            234.05
+          ],
+          "quote": "Then the behaviors or the states that are representable in the app are going to lead the agent to introduce them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            310.162,
+            311.803
+          ],
+          "quote": "You can just have the agent do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            323.467,
+            346.715
+          ],
+          "quote": "is you can, after this talk, take your laptop, go to your agent and ask, hey, look at all my past transcripts, look at my GitHub reviews, the feedback from the bots, the feedback from my peers, and try to codify which ones of those are actual high-quality lint rules that are deterministic and will be able to capture issues that we otherwise reprompt all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            473.912,
+            475.413
+          ],
+          "quote": "So Sier Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            477.152,
+            481.635
+          ],
+          "quote": "is a debugging agent, and it has to talk to Sentry a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            517.158,
+            524.884
+          ],
+          "quote": "We generated a lot of those skills and examples with those code blocks as the examples of code that can then be run in the sandbox by agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            525.544,
+            533.85
+          ],
+          "quote": "And in the original attempt to do that, we lost the accuracy of the agent significantly because lots of those examples were hallucinated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            553.14,
+            561.803
+          ],
+          "quote": "But the first thing that the agent did when we tried to rerun the skill generation with that rule is, oh, there are lean-through errors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            620.565,
+            628.39
+          ],
+          "quote": "I'm not going to say unbreakable model, but we have a model where when API changes, we actually don't have to follow up on the agent skills all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            672.374,
+            677.678
+          ],
+          "quote": "The last thing that I will repeat is try asking the agent for the actual linters.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            733.574,
+            739.901
+          ],
+          "quote": "Or you can have an LLM agent that is going to do a pass and, for simpler things, help you with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            760.063,
+            769.165
+          ],
+          "quote": "I'm sure you've seen those where every single possible case is tricode by the agent, and it's just sloppy, long, long functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            791.081,
+            794.644
+          ],
+          "quote": "And the sub-agent can either give feedback or stand down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            801.338,
+            806.385
+          ],
+          "quote": "We will loop that until the agent stands down and says, I'm OK with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            811.231,
+            824.361
+          ],
+          "quote": "Sort of my metric of success here is how much I'm casting at the agent, how much when I'm reviewing the code, I'm like, oh yeah, this is not ideal, but I can steer it here and I don't have to do very elementary feedback all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            888.792,
+            895.437
+          ],
+          "quote": "And the problem with that is when you give a number to the agent, the agent will optimize the shit out of the number.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            905.604,
+            909.667
+          ],
+          "quote": "They are like asserting particular string and particular output of the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            926.855,
+            932.698
+          ],
+          "quote": "My call to action for you is after this, try to ask your agent for linters and policies and see whether that helps you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "本集提到 Sentry 的调试智能体生成的示例代码块要能在沙箱里运行，作为 lint 规则的一部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            517.158,
+            524.884
+          ],
+          "quote": "We generated a lot of those skills and examples with those code blocks as the examples of code that can then be run in the sandbox by agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            545.596,
+            546.877
+          ],
+          "quote": "They can run in our sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-coverage",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试覆盖率 (test coverage)",
+      "file": "测试覆盖率",
+      "primary": true,
+      "how_described": "本集警告不要把定性标准塞进测试覆盖率这类数字指标：给智能体一个数字，它会优化到接近 100%，但测试只是在断言特定字符串，什么都没测到，给人虚假的安全感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            864.992,
+            867.394
+          ],
+          "quote": "Cyclomatic complexity, and the other one is test coverage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            879.965,
+            887.111
+          ],
+          "quote": "And test coverage tries to tell you how much of the code is covered by test.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            899.099,
+            903.583
+          ],
+          "quote": "I got projects where I got to like 100% or close to 100% of test coverage.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集提到 evals 是确定性检查的一类，与 hooks 并列，但未展开。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            178.273,
+            178.893
+          ],
+          "quote": "Evals, yes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            181.889,
+            187.071
+          ],
+          "quote": "The three that I'm thinking of before I even get to hooks and evals, hooks and evals are important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
