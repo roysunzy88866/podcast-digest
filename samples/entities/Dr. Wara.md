@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]] [[Dyna Robotics]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Thrive Capital":1,"OpenAI":204,"ChatGPT":113,"Neuralink":4,"Isomorphic Labs":1,"Fortel":1,"OpenEvidence":2,"Cadence":2,"Oscar Health":2,"AlphaFold":3}</script>
+<script type="application/json" class="pd-epn">{"Thrive Capital":1,"OpenAI":206,"ChatGPT":114,"Neuralink":4,"Isomorphic Labs":1,"Fortel":1,"OpenEvidence":2,"Cadence":2,"Oscar Health":2,"AlphaFold":4}</script>
 
 <script>
 (function(){

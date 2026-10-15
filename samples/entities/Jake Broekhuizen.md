@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LangChain":14,"LangSmith":7,"智能体":1,"记忆":30,"可观测性":46,"trace":7,"上下文":34,"程序性记忆":1,"读写循环":1,"Context Hub":2}</script>
+<script type="application/json" class="pd-epn">{"LangChain":15,"LangSmith":7,"智能体":1,"记忆":30,"可观测性":46,"trace":7,"上下文":34,"程序性记忆":1,"读写循环":1,"Context Hub":2}</script>
 
 <script>
 (function(){

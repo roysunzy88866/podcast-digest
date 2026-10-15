@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":204,"Anthropic":205,"基础模型":7,"AGI":28,"Lenny":69,"Jacob Efron":2,"Google":72,"TSMC":9,"Meta":55,"LLM":65}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":206,"Anthropic":206,"基础模型":7,"AGI":29,"Lenny":69,"Jacob Efron":2,"Google":72,"TSMC":9,"Meta":56,"LLM":65}</script>
 
 <script>
 (function(){

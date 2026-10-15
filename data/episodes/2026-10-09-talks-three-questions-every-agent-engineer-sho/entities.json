@@ -1,0 +1,782 @@
+{
+  "episode_id": "2026-10-09-talks-three-questions-every-agent-engineer-sho",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "智能体评估",
+    "追踪",
+    "后训练",
+    "测试体系",
+    "数据护城河"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集是 LangChain 工程师在新办公室的分享，介绍他们内部通过微调裁判模型、定义世界和任务规格来测试与改进智能体的实践经验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.284,
+            15.653
+          ],
+          "quote": "Really looking forward to covering how and why and the methodology around what we know at LangChain to be about owning your own intelligence.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            185.469,
+            187.69
+          ],
+          "quote": "And so we did this at LangChain recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            335.593,
+            350.691
+          ],
+          "quote": "This is an iterative process, but really a way that we found to do this quite successfully at LangChain, and again, this is something that's constantly evaluating, is through the idea of working with specifications to define the agent's world as well as the tasks within it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            376.028,
+            380.83
+          ],
+          "quote": "So an example of this is we have a very commonly used internal agent at LangChain.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：构建智能体要能回答三个问题——它在哪里出错、怎么让错误稳定重现、怎么让它以后不再错",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            20.906,
+            36.502
+          ],
+          "quote": "I'm going to approach what it means to own your own intelligence from a practitioner's angle for someone who's building with agents and for someone who is probably going through a lot of the processes that it takes that I'm about to cover when it comes to building and improving your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            38.482,
+            44.566
+          ],
+          "quote": "I think that there are three main questions that any person who's building an agent needs to have a very solid grasp of.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            49.409,
+            56.253
+          ],
+          "quote": "So that starts with when you're building agents, understanding what goes wrong and understanding where your agent fails.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            56.413,
+            63.517
+          ],
+          "quote": "This is obviously a very, you know, this is a simple question, but actually there's a lot of engineering work that goes into understanding if an agent failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            90.842,
+            101.286
+          ],
+          "quote": "I think to answer the first question and to understand really how and why your agent has failed requires a very strong grasp of tracing and understanding your agent's behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            101.506,
+            105.007
+          ],
+          "quote": "And this often comes from mining your agent's production traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            106.588,
+            108.889
+          ],
+          "quote": "Building an agent, hopefully you're tracing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            109.009,
+            115.051
+          ],
+          "quote": "You're gonna have a lot of trajectories and understandings of all of the different kinds of behavior that your agent is taking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            118.783,
+            121.784
+          ],
+          "quote": "that you can use to move on the path to improving your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            123.105,
+            129.928
+          ],
+          "quote": "That might be, for example, times where the agent either successfully called a tool or it incorrectly called a tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            134.289,
+            147.415
+          ],
+          "quote": "There's a variety of different signal within your agent traces, particularly your production traces, that is a very important element to capture when it comes to owning your own intelligence and understanding whether or not your agent failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            148.175,
+            160.659
+          ],
+          "quote": "The issue with doing that at scale, obviously, is that if you have an agent that has thousands of runs a day, millions of runs a day, it's going to be very hard to understand at scale whether or not your agent is performing as you expect it to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            168.602,
+            177.465
+          ],
+          "quote": "And so as an example, a way that we approach this and just one of the ways that you can look towards understanding and extracting signal from your agent traces",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            179.287,
+            185.449
+          ],
+          "quote": "is by making evaluation specific judges to go and extract and actually mine your agent for production signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            187.83,
+            198.334
+          ],
+          "quote": "We worked with fine tuning, labeling, and producing a judge to go and actually classify whether or not an agent was giving users a delightful experience, whether or not there was any perceived error.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            199.415,
+            211.347
+          ],
+          "quote": "So that might be, for example, an agent frustrating user or it might be a string of tool calls that an agent makes that actually leads it to performing the wrong action when a user was looking for it to do something else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            211.387,
+            221.638
+          ],
+          "quote": "And so being able to actually have some form of monitoring and understanding what your agent's doing at scale is a very important step towards understanding whether or not it failed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            221.798,
+            231.042
+          ],
+          "quote": "And also a very important way to be able to cluster the behaviors and the failure mechanisms that begin to emerge as you build and as you start to improve your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            231.062,
+            248.831
+          ],
+          "quote": "This is only the first step in the journey though, because once we know and once we have classified agent behaviors, we then need to go and take a variety of next steps to go and be able to reproduce and then actually remediate these issues as they continue to develop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            259.105,
+            260.286
+          ],
+          "quote": "Where your agent is failing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            271.193,
+            284.122
+          ],
+          "quote": "The typical way of doing this, and actually rather the shallow way of looking at this, is just evaluating whether or not the inputs or evaluating whether or not the outputs to your agent, given some simple input produces the behavior that you expect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            285.188,
+            291.37
+          ],
+          "quote": "This is very powerful for capturing a variety of different agent failure mechanisms, but often doesn't encapsulate the full picture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            291.75,
+            297.431
+          ],
+          "quote": "The reason why is an agent's behavior might be influenced by external factors of the environment that it's in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            313.757,
+            323.644
+          ],
+          "quote": "And so what we really need then is a way for us to be able to mock out the broader application machinery of your agent as it stands in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            325.586,
+            334.232
+          ],
+          "quote": "And that brings me to building more robust evaluations by creating a way where we can mimic the world or the environment that your agent exists in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            335.593,
+            350.691
+          ],
+          "quote": "This is an iterative process, but really a way that we found to do this quite successfully at LangChain, and again, this is something that's constantly evaluating, is through the idea of working with specifications to define the agent's world as well as the tasks within it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            356.37,
+            360.093
+          ],
+          "quote": "which defines the things that don't mutate across that agent's world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            360.113,
+            370.463
+          ],
+          "quote": "And so that might be things like the permissions, or that might be like the domain-specific rules that an agent has access to, or that might be things like the state of the file system and the dependencies that it interacts with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            370.883,
+            375.588
+          ],
+          "quote": "This is things that don't change across the agent's actions that it takes in this action space.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            376.028,
+            380.83
+          ],
+          "quote": "So an example of this is we have a very commonly used internal agent at LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            380.87,
+            382.03
+          ],
+          "quote": "It's called the GTM agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            398.837,
+            415.485
+          ],
+          "quote": "The world in that case would be all of the systems that the agent needs to interact with, Gong, Salesforce, Google Calendar, and effectively the systems that it touches and interacts with as this agent interacts and is engaged with by all of our sellers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            416.681,
+            429.384
+          ],
+          "quote": "Tasks within that world represent specific actions or tasks that the agent needs to take, which will go and actually test and hopefully surface different emergent behaviors and things you're trying to test for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            429.404,
+            443.348
+          ],
+          "quote": "And so a task within that go-to-market agent world, for example, would be go and research all of the Gong transcripts for a particular customer that we're looking to investigate or are in the process of working with and help me draft a next best reach out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            444.008,
+            461.724
+          ],
+          "quote": "And so if I'm someone who's building an environment or a place where I can reliably test my go-to-market agent in production, I'm probably going to want to have some concept of a robust world where it mimics the environment that that agent is operating with in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            466.41,
+            475.222
+          ],
+          "quote": "One thing that we've noticed though, when kind of going and creating these worlds and developing these specs and working with an agent, a coding agent side by side to actually go and develop these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            481.835,
+            493.069
+          ],
+          "quote": "And so something that's obviously very important in all of this is to make sure that the tasks that your agent is defining are both reliably hard and actually present a challenge for you to be able to continuously improve your agent with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            493.97,
+            498.131
+          ],
+          "quote": "And also there aren't methods where the agent has designed tasks that are easy to reward hack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            503.833,
+            519.759
+          ],
+          "quote": "This is obviously really important as well because it makes sure that the world that we're developing and the tasks that we're giving our agent are sufficiently hard so that when we make improvements, they are quantifiable and actually mimic really what the agent would be doing in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            526.167,
+            543.206
+          ],
+          "quote": "And once we have this kind of like mechanism now of knowing that the way for us to really kind of get a handle on our own intelligence and be able to create and develop an agent that is solving problems in a world that actually mimics the world that it's the kind of environment that it's operating in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            544.765,
+            554.471
+          ],
+          "quote": "is that we have the ability to go and do this through turning that data that we have from monitoring our agent in production into these kinds of tasks, into these kinds of worlds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            610.495,
+            624.881
+          ],
+          "quote": "And for that reason, they're able to produce data from their telemetry or they're able to understand how real people are actually interacting with and using their agent and therefore develop tasks and develop environments that a Frontier Lab never could.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 73,
+          "t": [
+            628.607,
+            645.153
+          ],
+          "quote": "Once we know that from the traces of our agent, from all of this exhaust, from all of this substrate, we can really help design powerful tasks and worlds to be able to go in and actually help improve our agent, then obviously we know that it's a data wrangling problem because there's going to need to be deduplication.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            650.798,
+            657.463
+          ],
+          "quote": "But once we do, we have the substrate and we have the foundation for a lot of further agent improvement and development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            658.083,
+            665.228
+          ],
+          "quote": "And really then we have a strong benchmark and starting point for us to be able to go and actually make quantitative agent improvements.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            668.47,
+            677.843
+          ],
+          "quote": "And so once we have a world, once we have a set of tasks within that world, ideally a task targets some kind of failure mode that you've seen in your agent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            677.863,
+            685.053
+          ],
+          "quote": "You would design tasks around where you've observed your production traffic or you've observed your production agent to be failing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            703.188,
+            712.536
+          ],
+          "quote": "Changes at the harness level might involve simple changes like prompts or tool schema changes or changing the way that context is injected so that an agent given a certain task can answer in a certain way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            743.243,
+            751.106
+          ],
+          "quote": "The environment and the agent running in that environment can pass those particular tasks and then begin to behave as we expect it to.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            760.917,
+            773.767
+          ],
+          "quote": "It's inevitable that as models develop, parts of what we test for will change and regressions will be introduced, but also parts of what we designed for to solve for particular deficiencies in our agent will be absorbed as part of the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            788.923,
+            794.389
+          ],
+          "quote": "But we'll be able to test for it because we now have a robust way to actually simulate how our agent is behaving in production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            796.675,
+            815.39
+          ],
+          "quote": "Also what will be also as well the interaction patterns of people using your agent will obviously change and having a strong way to be able to go and test and actually roll out and determine whether or not your agent holds up under those particular interaction patterns will still be available given that we have this really robust and powerful way to now test it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tracing",
+      "type": "concept",
+      "role": "concept",
+      "name": "追踪 (tracing)",
+      "file": "追踪",
+      "primary": true,
+      "how_described": "本集说理解智能体为何失败，需要靠追踪，从生产轨迹里挖掘工具调用对错、用户受挫等有价值信号",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            90.842,
+            101.286
+          ],
+          "quote": "I think to answer the first question and to understand really how and why your agent has failed requires a very strong grasp of tracing and understanding your agent's behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            106.588,
+            108.889
+          ],
+          "quote": "Building an agent, hopefully you're tracing it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说 LangChain 通过微调、标注制作了一个评判器，自动分类智能体是否给用户带来糟糕体验",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            187.83,
+            198.334
+          ],
+          "quote": "We worked with fine tuning, labeling, and producing a judge to go and actually classify whether or not an agent was giving users a delightful experience, whether or not there was any perceived error.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reward-hacking",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励作弊 (reward hacking)",
+      "file": "奖励作弊",
+      "primary": true,
+      "how_described": "本集警告：让编程智能体帮忙生成测试任务时要持续监督，防止它设计出容易被钻空子拿高分的任务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            498.252,
+            503.613
+          ],
+          "quote": "You might have heard of the term reward hacking or adjacent terms.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试框架 (harness)",
+      "file": "测试框架",
+      "primary": true,
+      "how_described": "本集说框架层指模型外层的工程代码，改进可以在这一层改提示词、工具 schema、上下文注入方式，而长任务分解、动态工具路由等功能会不断被吸收进模型层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            69.48,
+            81.804
+          ],
+          "quote": "This is obviously key on the process to being able to build agents that improve and to be able to own all parts of your model and maybe your harness and then the weights as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            688.635,
+            701.546
+          ],
+          "quote": "And this is really where owning your own intelligence and owning the mechanisms around both the harness and the models that are powering your agents really begins to compound because now you can have full flexibility to make changes at all levels here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            703.188,
+            712.536
+          ],
+          "quote": "Changes at the harness level might involve simple changes like prompts or tool schema changes or changing the way that context is injected so that an agent given a certain task can answer in a certain way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            774.167,
+            785.756
+          ],
+          "quote": "And I think that this is kind of no surprise to anyone, but we've constantly seen parts of the harness, whether it's a long task decomposition or whether it's dynamic tool routing be absorbed into the model layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说在模型层做改进时，可以选择偏好的后训练算法直接改模型本身",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            716.849,
+            724.454
+          ],
+          "quote": "I won't dive into it too much because I know that Charlie here is going to cover some of the different post-training techniques that you can do at this level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            724.514,
+            737.424
+          ],
+          "quote": "But again, now you have the flexibility to be able to go in and choose your post-training algorithm of choice and make changes to help go and remediate whatever it is that you're trying to test for and ideally mitigate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Frontier Labs",
+      "file": "Frontier Labs",
+      "primary": true,
+      "how_described": "本集说前沿实验室能砸钱买数据构建训练用的世界和任务（如 Google 出价 1000 万美元买 Spirit Airlines 的内部文档），但看不到真实用户怎么使用你的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            555.392,
+            560.035
+          ],
+          "quote": "So it's no surprise that some of the best models that we use today by produced by Frontier Labs",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            562.656,
+            565.117
+          ],
+          "quote": "It's no surprise that Frontier Labs are producing some of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            598.911,
+            609.615
+          ],
+          "quote": "But this is a bit of a David and Goliath situation because unlike Frontier Labs, application developers and application owners see the spiky edges around the ways that people are using their agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gtm-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "GTM 智能体 (GTM agent)",
+      "file": "GTM 智能体",
+      "primary": false,
+      "how_described": "本集举的内部智能体实例：销售团队用它做竞品调研、分析销售机会，其世界由 Gong、Salesforce、Google Calendar 构成",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            380.87,
+            382.03
+          ],
+          "quote": "It's called the GTM agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准 (benchmark)",
+      "file": "基准",
+      "primary": false,
+      "how_described": "本集说把生产轨迹清洗转化为可靠任务后，就拥有了一个强基准，可量化衡量智能体的每次改进",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            658.083,
+            665.228
+          ],
+          "quote": "And really then we have a strong benchmark and starting point for us to be able to go and actually make quantitative agent improvements.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM judges",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

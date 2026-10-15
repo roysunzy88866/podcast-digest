@@ -1,0 +1,714 @@
+{
+  "episode_id": "2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri",
+  "podcast": "No Priors",
+  "date": "2026-10-15",
+  "tags": [
+    "OpenAI",
+    "AI 安全",
+    "科学发现",
+    "药物研发",
+    "智能体"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "greg-brockman",
+      "type": "person",
+      "role": "host",
+      "name": "Greg Brockman",
+      "file": "Greg Brockman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.003,
+            45.966
+          ],
+          "quote": "Today, Ilad and I talk with Greg Brockman, the co-founder and president of OpenAI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集嘉宾 Greg Brockman 是 OpenAI 联合创始人兼总裁；公司以「确保 AGI 造福全人类」为使命，本周公布数学成果并向超十亿用户推送 GPT-6。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.003,
+            45.966
+          ],
+          "quote": "Today, Ilad and I talk with Greg Brockman, the co-founder and president of OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            46.97,
+            53.594
+          ],
+          "quote": "We discuss OpenAI's latest math results, Astra, and why Greg believes AI can now generate genuinely new knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            68.566,
+            72.448
+          ],
+          "quote": "So every week in AI feels like a year, and a lot's happened this week for OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            85.156,
+            88.778
+          ],
+          "quote": "What are you most excited about this happening right now, both at OpenAI and in the broader AI world?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            89.298,
+            98.129
+          ],
+          "quote": "Look, I think that in AI, like I have this belief about how OpenAI operates, that there's a cycling quote of, it never gets easier, you just go faster.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            494.425,
+            509.388
+          ],
+          "quote": "And so you realize that there are ways to train the AI that are actually very aligned with having humans be able to have oversight, to be able to be in the driver's seat, which is fundamental value, a fundamental thing that is important for the future from OpenAI's perspective.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            780.108,
+            790.934
+          ],
+          "quote": "How do you at OpenAI currently stack rank the different areas of scientific endeavor in terms of where you're focused or where you want to generate more data or more results or more capabilities that others can benefit from?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1213.373,
+            1220.399
+          ],
+          "quote": "OpenAI obviously has, you know, research efforts and then a consumer and an enterprise and developer business, platform business today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1327.13,
+            1332.213
+          ],
+          "quote": "And so one of the strengths of OpenAI is the fact that we have 1.2 billion consumers on ChatGPT.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1852.269,
+            1862.278
+          ],
+          "quote": "And I think the world we're moving to right now, and we've done this internally within OpenAI, is every time a new model drops, you need to apply it to secure yourself, find your vulnerabilities, and then saturate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2158.864,
+            2166.387
+          ],
+          "quote": "So it's really interesting to see that shift in terms of the third-party ecosystem as well developing to support the efforts that OpenAI and others are doing in terms of this market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2171.152,
+            2177.599
+          ],
+          "quote": "And I think that it is, again, a coordinated response, but we really view it as a core priority for OpenAI to lead, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2204.288,
+            2210.893
+          ],
+          "quote": "One of the things about OpenAI is that it's always been very pro-human and very pro-human agency, human progress.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2212.674,
+            2220.899
+          ],
+          "quote": "I think the original premise of OpenAI was let's have something that can counterbalance other companies in terms of creating AI that can be used very broadly and universally in a positive way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2221.319,
+            2225.162
+          ],
+          "quote": "Has that ethos continued at OpenAI, or how do you think about that in the context of the AI community?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2336.451,
+            2338.433
+          ],
+          "quote": "That is the belief of OpenAI.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dots",
+      "type": "concept",
+      "role": "concept",
+      "name": "DOTS",
+      "file": "DOTS",
+      "primary": true,
+      "how_described": "OpenAI 内部的主动式智能体，7×24 小时在线，盯待办、发现日历冲突、整合收件箱和 Slack 上下文；Brockman 说它改变的是形态而非能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            54.294,
+            61.658
+          ],
+          "quote": "We get into drug discovery, DOTS, and his case for why security spending should actually vastly outstrip software spending, which is quite a claim.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1118.647,
+            1121.409
+          ],
+          "quote": "Well, I think DOTS has really changed how many of us work.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1122.13,
+            1125.973
+          ],
+          "quote": "And the thing that DOTS represents is- Can you describe DOTS briefly?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1126.254,
+            1129.156
+          ],
+          "quote": "So DOTS is a proactive agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1132.579,
+            1135.221
+          ],
+          "quote": "And the kind of thing that my DOTS does, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1178.73,
+            1185.135
+          ],
+          "quote": "And I think that having, in some ways, what DOTS is, is to change to the form factor, not the capability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1196.88,
+            1201.142
+          ],
+          "quote": "And do you have multiple dots running or you just have one that's sort of covering all your background tasks or anything?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1221.36,
+            1232.109
+          ],
+          "quote": "Do you think that there's going to be a separation between, let's say, assistants that help you at work, like DOTS, which is how I primarily think of it, and then like consumer assistants, like the instincts, muses of the world?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1433.023,
+            1435.344
+          ],
+          "quote": "And that's literally what you can do with dots, like literally today.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "daybreak",
+      "type": "concept",
+      "role": "concept",
+      "name": "Daybreak 计划 (Daybreak)",
+      "file": "Daybreak 计划",
+      "primary": true,
+      "how_described": "OpenAI 的计划：负责任地向一线防御者开放最强模型，帮助他们发现并修复系统漏洞；公司为此承诺 10 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 319,
+          "t": [
+            1690.438,
+            1699.546
+          ],
+          "quote": "through our Daybreak program to defenders to be able to use our peak intelligence or use very capable models to find and fix vulnerabilities in their systems.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把 DOTS 描述为「a proactive agent」——一直在线、一直干活的主动式智能体，代表 AI 从聊天框走向主动替你工作的形态变革。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1126.254,
+            1129.156
+          ],
+          "quote": "So DOTS is a proactive agent.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 安全 (AI safety)",
+      "file": "AI 安全",
+      "primary": true,
+      "how_described": "Brockman 谈 debate、可理解性与对齐：训练 AI 互相挑刺既让人学到东西，也让人类保有监督权、坐在驾驶座上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            438.965,
+            445.469
+          ],
+          "quote": "And actually there's even connections to AI safety and alignment on having AI that we're able to understand what they're doing.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络安全 (cybersecurity)",
+      "file": "网络安全",
+      "primary": true,
+      "how_described": "本集的尖锐论点：我们处于「防御者窗口期」，网络安全的物理规律正在改变；OpenAI 抽调 25% 生产工程师专职安全，安全开支应远超软件开支。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            24.067,
+            29.692
+          ],
+          "quote": "I think that people have not yet really internalized how much the physics around cybersecurity are going to change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1638.235,
+            1643.4
+          ],
+          "quote": "Well, first of all, I do think the physics of cybersecurity are changing, and we're in what we call the defenders window.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1817.024,
+            1823.246
+          ],
+          "quote": "But I think that people have not yet really internalized how much the physics around cybersecurity are going to change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1952.299,
+            1959.347
+          ],
+          "quote": "It really requires defenders to internalize how the physics of cybersecurity are changing, that there is this window where",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2177.639,
+            2186.629
+          ],
+          "quote": "For us to really, because we have the frontier model, we have the peak intelligence model, certainly in cybersecurity, we think that there is transformative potential for the good possible.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "formal-verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formal verification)",
+      "file": "形式化验证",
+      "primary": false,
+      "how_described": "Brockman 说 AI 让人能偿还以前不敢想的技术债——用数学证明软件的安全性质，这技术早就存在，只是太费劲太贵。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 354,
+          "t": [
+            1835.494,
+            1838.076
+          ],
+          "quote": "The fact that you could do things like formal verification of software.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "drug-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "药物发现 (drug discovery)",
+      "file": "药物发现",
+      "primary": true,
+      "how_described": "本集说它是 AI 最该彻底革命的领域：一款药 15 年、15 亿美元，瓶颈在数据——但神经网络没有理由不擅长破解生物学的语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            54.294,
+            61.658
+          ],
+          "quote": "We get into drug discovery, DOTS, and his case for why security spending should actually vastly outstrip software spending, which is quite a claim.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            661.22,
+            672.427
+          ],
+          "quote": "When you transfer that over to biology and clearly what we want is drug discovery, all these things that are like fundamental changes in biology and our understanding of it to improve quality of life, that's what we want to apply.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            714.964,
+            719.345
+          ],
+          "quote": "And so I think that we're going to have to look at every step of the drug discovery process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            791.374,
+            799.338
+          ],
+          "quote": "Look, I think that drug discovery is the most clear and obvious area, if you get to pick one, that you want to fully revolutionize.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            820.413,
+            826.038
+          ],
+          "quote": "And I think we're going to find that humans are incredibly bad at biology, incredibly bad at drug discovery.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 162,
+          "t": [
+            874.902,
+            879.803
+          ],
+          "quote": "And I think, by the way, that there are many dimensions to drug discovery, for example, NF1 diseases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            951.614,
+            964.738
+          ],
+          "quote": "I think there is a moment here where, and there's more work to be done to reach this point, but if you can really prove that the physics of drug discovery have changed, then of course it should trickle through to every part of the system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "neural-net",
+      "type": "concept",
+      "role": "concept",
+      "name": "神经网络 (neural net)",
+      "file": "神经网络",
+      "primary": true,
+      "how_described": "Brockman 的第一性原理：神经网络在自然语言上成绩惊人，就没有理由在生物学上不行——虽然生物学对人完全陌生。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            842.489,
+            850.013
+          ],
+          "quote": "But for a neural net, I don't really think there's any reason to believe it should be better at natural language than it should be better, you know, compared to biology.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1041.053,
+            1047.16
+          ],
+          "quote": "Is it the case you actually reach the point that you can get better results from a neural net than from actually running a clinical trial?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1077.013,
+            1088.539
+          ],
+          "quote": "And all of the implications and that one of the, you know, if you're thinking about long-term studies of people and like question of like, you know, is this neural net actually in terms of what's predicting the simulation actually accurate for long-term outcomes?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说 OpenAI 在 ChatGPT 上有 12 亿消费者，并花大工程把记忆等功能带给所有免费用户；消费级与企业级会合流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            394.547,
+            403.595
+          ],
+          "quote": "And so like, for example, like I'm a math person, but at some point in school I stopped learning math and then I did Math Academy and then I did like ChatGPT to help me learn new math.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1271.508,
+            1272.949
+          ],
+          "quote": "And we've seen this in ChatGPT, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1272.969,
+            1283.399
+          ],
+          "quote": "That ChatGPT, we put in a lot of effort to have the largest scale free tier and bringing things like memory to all of our free users was an incredible endeavor, like a real huge engineering effort.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1327.13,
+            1332.213
+          ],
+          "quote": "And so one of the strengths of OpenAI is the fact that we have 1.2 billion consumers on ChatGPT.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-6",
+      "file": "GPT-6",
+      "primary": false,
+      "how_described": "本集开场提到 GPT-6 刚向超过 10 亿用户推送，并带来「先给快答案、继续思考再给完整答案」的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            73.089,
+            78.032
+          ],
+          "quote": "You rolled out GPT-6 to over a billion people, which is pretty amazing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1544.695,
+            1558.048
+          ],
+          "quote": "So that's something we're getting very good at and with the release of GPT-6 to everyone that we have the ability now for the AI if it's going to go think hard about a problem it actually can give you a quick answer and then keep thinking and then give you the more correct the more fulsome answer and",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "主持人问如何构建护栏抵御 AI 驱动的网络攻击，引出防御者窗口期与用新模型攻击自家基础设施的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1634.311,
+            1637.975
+          ],
+          "quote": "How are you building guardrails or how you're approaching the different aspects of cyber security?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alphafold",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaFold",
+      "file": "AlphaFold",
+      "primary": false,
+      "how_described": "本集说早期 AI 研究如 AlphaFold 集中在设计分子、理解分子结合，但药物链条下游还有一大堆事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            743.217,
+            753.204
+          ],
+          "quote": "But there's specific, you mentioned biology, and I think that's a great example where a lot of the early research, AlphaFold and things like that, were really focused on designing a molecule or understanding of something binds to each other.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "new-knowledge",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 生成新知识 (new knowledge)",
+      "file": "AI 生成新知识",
+      "primary": true,
+      "how_described": "围绕「AI 能否产生新知识」的争论，Brockman 说近 400 个开放数学问题被解决后「已经无法否认」；但还提不出全新宏大理论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            46.97,
+            53.594
+          ],
+          "quote": "We discuss OpenAI's latest math results, Astra, and why Greg believes AI can now generate genuinely new knowledge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            145.488,
+            149.452
+          ],
+          "quote": "And there's always been this question of, is AI actually able to come up with new knowledge?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "type": "company",
+      "role": "company",
+      "name": "CrowdStrike",
+      "file": "CrowdStrike",
+      "primary": false,
+      "how_described": "本集提到 OpenAI 正与 CrowdStrike 这样的公司合作，协调网络安全响应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 419,
+          "t": [
+            2169.129,
+            2171.092
+          ],
+          "quote": "We're partnering with companies like CrowdStrike.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

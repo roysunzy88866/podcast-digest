@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":1,"沙箱":101,"护栏":91,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":1,"Okta":3,"智能体":1,"沙箱":101,"护栏":92,"身份":5,"非确定性":2,"服务账号":1,"AI 采用":2,"仓库 AI 就绪度":1}</script>
 
 <script>
 (function(){

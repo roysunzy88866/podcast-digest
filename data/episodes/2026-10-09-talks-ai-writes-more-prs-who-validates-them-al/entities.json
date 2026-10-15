@@ -1,0 +1,389 @@
+{
+  "episode_id": "2026-10-09-talks-ai-writes-more-prs-who-validates-them-al",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "tags": [
+    "AI 编程",
+    "代码审查",
+    "智能体",
+    "AI 生成代码",
+    "程序分析"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "ali-reza-adl-tabatabai",
+      "type": "person",
+      "role": "guest",
+      "name": "Ali-Reza Adl-Tabatabai",
+      "file": "Ali-Reza Adl-Tabatabai",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "guitar-ai",
+      "type": "company",
+      "role": "company",
+      "name": "guitar.ai",
+      "file": "guitar.ai",
+      "primary": true,
+      "how_described": "Ali 联合创办的公司，构建了一个智能体验证系统，用智能体全流程自动化 PR 审查、修复与合并，约一个月前被 Sonar 收购",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.973,
+            31.707
+          ],
+          "quote": "I'm Ali and I'm one of the founders of guitar.ai and previously the CEO up until about a month ago where we were acquired by Sonar and now we are part of Sonar.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sonar",
+      "type": "company",
+      "role": "company",
+      "name": "Sonar",
+      "file": "Sonar",
+      "primary": true,
+      "how_described": "本集说它是收购了 guitar.ai 的公司，双方正把 Guitar 与 SonarQ 集成，把智能体验证与传统程序分析结合起来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            16.973,
+            31.707
+          ],
+          "quote": "I'm Ali and I'm one of the founders of guitar.ai and previously the CEO up until about a month ago where we were acquired by Sonar and now we are part of Sonar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            225.043,
+            235.469
+          ],
+          "quote": "It's an agentic approach to validation, which is essentially what we built at Guitar that we're now also shipping as part of Sonar.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            540.735,
+            546.117
+          ],
+          "quote": "Now that we're part of Sonar, we've been integrating guitar with SonarQ.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：一个智能体完全自动化所有验证步骤——审查 PR、拦截不合格 PR、自动修复、重试不稳定测试，直至自动批准合并",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            236.65,
+            241.893
+          ],
+          "quote": "And basically, what we've got here is an agent that fully automates all the validation steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            372.744,
+            377.786
+          ],
+          "quote": "So then they give teeth to the agent by allowing it to start blocking the PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            389.104,
+            400.37
+          ],
+          "quote": "And then where the real interesting leap is beginning to happen now is users setting up rules that define when the agent automatically approves and merges PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            494.683,
+            497.525
+          ],
+          "quote": "And then there's an agent runtime or harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            497.646,
+            506.812
+          ],
+          "quote": "We built our own harness here that handles multi-agent execution, context management, memory management, tool calling, all the integrations, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            507.713,
+            515.959
+          ],
+          "quote": "And having this, having our own agent harness has really allowed us to optimize specifically for the validation use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            516.9,
+            522.884
+          ],
+          "quote": "And it's allowed us to optimize for token costs, precision, and coverage of the agent itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集说 CI 加代码审查构成所有软件团队的集中式验证阶段，是代码进入生产的关键路径，而 AI 让 PR 更多更大，使它成了新瓶颈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            45.026,
+            52.329
+          ],
+          "quote": "So in almost all software teams, there is this centralized validation phase that is basically CI plus code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            277.628,
+            282.772
+          ],
+          "quote": "And then you can also configure the system to block merging if there are any unresolved code review findings.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            301.863,
+            311.986
+          ],
+          "quote": "You can also automatically fix any code review issues or any CI failures, any kind of failures that happen in CI, it can fix it for you, as well as address any of the issues that it raises.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            378.626,
+            387.788
+          ],
+          "quote": "And then they start using the autofix capabilities to automatically turn PRs green and fix all the issues that were raised by code review or any CI failures that come up.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集把 CI 失败描述为代价以小时和天计的外循环；智能体能分析 CI 失败根因、重试不稳定测试并自动修复",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            45.026,
+            52.329
+          ],
+          "quote": "So in almost all software teams, there is this centralized validation phase that is basically CI plus code review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            284.994,
+            289.898
+          ],
+          "quote": "It also analyzes CI failures and posts a summary of the root causes of those failures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            301.863,
+            311.986
+          ],
+          "quote": "You can also automatically fix any code review issues or any CI failures, any kind of failures that happen in CI, it can fix it for you, as well as address any of the issues that it raises.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            378.626,
+            387.788
+          ],
+          "quote": "And then they start using the autofix capabilities to automatically turn PRs green and fix all the issues that were raised by code review or any CI failures that come up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            422.834,
+            431.321
+          ],
+          "quote": "For example, one of the insights that is very useful to platform teams is a categorization of the top CI failures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            432.002,
+            434.684
+          ],
+          "quote": "Where are you seeing failures in your CI system?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-runtime",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体运行时 (agent runtime)",
+      "file": "智能体运行时",
+      "primary": true,
+      "how_described": "本集说他们自研了 agent runtime（harness），处理多智能体执行、上下文与内存管理、工具调用，专门针对验证用例优化 token 成本、精确率和覆盖率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            494.683,
+            497.525
+          ],
+          "quote": "And then there's an agent runtime or harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "program-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "程序分析 (program analysis)",
+      "file": "程序分析",
+      "primary": true,
+      "how_described": "本集认为把智能体验证与污点分析、控制流分析、数据流分析、软件成分分析等传统程序分析结合，能在好价位上获得远超任一方的精确率和覆盖率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            546.957,
+            553.24
+          ],
+          "quote": "There's a ton of opportunity here in combining an agentic approach to validation with program analysis.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            653.822,
+            666.506
+          ],
+          "quote": "And finally, the combination of using agents, doing agentic validation plus an algorithmic program analysis will give you something that I think is going to be much better than either alone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "flaky-tests",
+      "type": "concept",
+      "role": "concept",
+      "name": "不稳定测试 (flaky tests)",
+      "file": "不稳定测试",
+      "primary": false,
+      "how_described": "本集说智能体特别擅长捕捉时过时不过的 flaky tests，自动重试它们是很受欢迎的功能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            290.558,
+            294.081
+          ],
+          "quote": "And in particular, it's really good at catching flaky tests.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            294.762,
+            298.204
+          ],
+          "quote": "And you can even set up rules that automatically retry flaky tests if you want.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pr-validation",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR 验证 (PR validation)",
+      "file": "PR 验证",
+      "primary": true,
+      "how_described": "本集核心命题：AI 把 PR 验证变成摩擦点，Guitar 把它完全自动化，从创建 PR 一路走到合并",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            626.465,
+            632.83
+          ],
+          "quote": "To wrap up, PR validation is really critical, even more so in AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            637.333,
+            652.685
+          ],
+          "quote": "And Guitar, what we've built, allows you to automate this step, fully automate PR validation, go from created PRs all the way to merge, completely eliminating this friction, and helps you keep up with the rate at which you're generating code from AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

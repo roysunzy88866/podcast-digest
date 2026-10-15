@@ -25,7 +25,7 @@ unlisted: true
 
 [[Simon Mayfor]] · [[Dex Horthy]] · [[软件工厂]] · [[智能体]] · [[上下文工程]] · [[规范]] · [[计划]] · [[代码审查]] · [[垃圾话]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Dex Horthy":2,"软件工厂":1,"智能体":1,"上下文工程":18,"规范":2,"计划":1,"代码审查":24,"垃圾话":10,"技能":35}</script>
+<script type="application/json" class="pd-epn">{"Simon Mayfor":2,"Dex Horthy":2,"软件工厂":1,"智能体":1,"上下文工程":18,"规范":2,"计划":1,"代码审查":25,"垃圾话":10,"技能":35}</script>
 
 <script>
 (function(){

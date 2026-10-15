@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":1,"提示词注入":1,"沙箱":101,"护栏":91,"子智能体":7,"Yara":1,"上下文引擎":4}</script>
+<script type="application/json" class="pd-epn">{"PostHog":5,"wizard":1,"Warlock":1,"智能体":1,"提示词注入":1,"沙箱":101,"护栏":92,"子智能体":7,"Yara":1,"上下文引擎":4}</script>
 
 <script>
 (function(){

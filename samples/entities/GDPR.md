@@ -33,7 +33,7 @@ unlisted: true
 
 [[Imad Touil]] · [[Martin Casado]] · [[技能]] · [[Steven Sinofsky]] · [[编码智能体]] · [[Aaron Levie]] · [[工作流]] · [[智能体]] · [[harness]] · [[智能体集群]]
 
-<script type="application/json" class="pd-epn">{"Imad Touil":1,"Martin Casado":7,"技能":35,"Steven Sinofsky":4,"编码智能体":35,"Aaron Levie":3,"工作流":13,"智能体":1,"harness":66,"智能体集群":1}</script>
+<script type="application/json" class="pd-epn">{"Imad Touil":1,"Martin Casado":7,"技能":35,"Steven Sinofsky":4,"编码智能体":35,"Aaron Levie":3,"工作流":13,"智能体":1,"harness":67,"智能体集群":1}</script>
 
 <script>
 (function(){

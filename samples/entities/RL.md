@@ -69,7 +69,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[后训练]] · [[Cursor]] · [[奖励黑客]] · [[推理能力]] · [[开源模型]] · [[Harvey]] · [[思维链]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"后训练":1,"Cursor":87,"奖励黑客":10,"推理能力":6,"开源模型":4,"Harvey":21,"思维链":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":206,"Anthropic":206,"后训练":1,"Cursor":87,"奖励黑客":11,"推理能力":6,"开源模型":4,"Harvey":21,"思维链":12}</script>
 
 <script>
 (function(){

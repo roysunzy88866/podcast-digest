@@ -1,0 +1,233 @@
+{
+  "title_zh": "AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来",
+  "tldr": "OpenAI 联合创始人 Greg Brockman 聊数学突破、药物研发、网络安全，以及为什么安全开支应该远超软件开支。",
+  "digest_md": "GPT-6 刚推送给超过 10 亿用户，OpenAI 又公布了数学上的新结果。No Priors 请来 OpenAI 联合创始人兼总裁 Greg Brockman，聊了聊这些进展意味着什么。他谈的东西跨度很大：从证明百年数学难题，到开发一款药为什么这么贵，再到他那个听上去很激进的判断——安全上的花钱应该远远超过写软件的钱。\n\n## AI 能不能创造新知识？现在答案是肯定的\n\n这周 OpenAI 公布了数学上的成果：将近 400 个重要的开放问题得到解决，数学界正在逐个审视其中的洞见。\n\nBrockman 认为这是一个真正的里程碑。他说，过去一千年里人类生活质量提升的根本驱动力是技术、是科学进步，而现在我们有能力大幅加速科学发现。之前一直有人质疑 AI 到底能不能产生新知识，「at this point, it's just impossible to deny」——**到这一步已经无法否认了** [02:30 Unknown]。\n\n不过他也坦承，AI 还没能提出全新的宏大理论，目前解的是那些悬置已久的具体问题。真正让他兴奋的不是机器给出答案，而是拿着这些工具的人能做成什么。\n\n## 机器的证明，人类看得懂吗？\n\n一个自然的问题是：数学家都不一定能验证彼此的证明，==AI 给出的证明谁来评判==？\n\nBrockman 自己数学出身，年轻时受 Galois、Gauss 这些数学家启发。他说数学之美不只是问题解决了，而是从中提炼出的洞见。好消息是，这次的结果里就有惊喜——领域专家发现 AI 用了出人意料的方式去应用某些结论。数学史上不是没有过没人看得懂的证明，比如四色定理靠机器穷举一堆情况，毫无美感可言。但这次的机器发现不一样。\n\n他还提到一个思路：让一个 AI 生成结果，另一个 AI 专门去挑刺。比如总结一本书，你没法读完原书就没法判断总结好不好，但如果有另一个 AI 找出书里被遗漏的关键情节，你立刻就知道总结不合格。这类方法既帮人学到东西，也让人保住监督权。\n\n## 药物研发为什么慢？数据是关键瓶颈\n\n数学到生物学，差别在哪？Brockman 的核心洞察是数据。数学里有大量数据可以训练，理论物理也是；**而生物学严重缺数据**。\n\n他在访谈里算了一笔账：开发一款药要 15 年、15 亿美元，其中约 5000 万美元花在临床前（分子设计、小鼠实验），14 亿多美元花在临床试验，而且后一阶段要再花 12 年。早期 AI 研究（比如 AlphaFold 那一类工作）主要解决的是分子结合的问题，但整个链条后面还有一大堆事。\n\n他的第一性原理判断是：人类天生擅长语言，却天生不擅长生物学——生物学对人完全陌生，但对神经网络来说，没有理由它处理自然语言比处理生物学更在行。既然神经网络在语言上成绩惊人，理论上也应该能破解生物学的语言 [14:02 Unknown]。\n\n还有一些没那么深奥的瓶颈，比如监管申报材料——写一份临床试验的完整论证要花一年左右，这种文书工作 AI 能轻松得多地完成。\n\n## 监管也得跟着变\n\n如果药物研发的物理规律真的变了，整个系统理应随之改变。Brockman 拿自动驾驶打比方：如果自动驾驶比人类安全 10 倍、100 倍，那也许某些区域只该允许自动驾驶。\n\n他承认监管是世界各地不统一的——澳大利亚和美国在临床试验上的规定就很不同，已经有人在把试验挪到监管环境更合适的地方。他甚至提出一个更远的问题：如果神经网络预测药效和毒性的能力比真的跑临床试验还准，规则当然应该改——虽然现在还没到那一步。\n\n## DOTS：那个一直在替你干活的小助手\n\nOpenAI 内部最让他惊喜的产品是 DOTS——一个主动式智能体，7×24 小时在线，你下班它不下班。\n\n他自己的 DOTS（图标是一只小猫头鹰）会盯着他答应过却没做的事，每天早上给他一份待办清单；会主动发现他从没让它管的事，比如日历冲突、需要提前离会赶下一场；它看得懂他的收件箱、Slack 和项目上下文，知道他最近在关心什么问题。\n\n关键在于，**DOTS 改变的不是模型能力，而是形态**。模型就是 Astra 级别的，配一台自己的云端电脑，但这种形态放在工作场景里就是变革。\n\n## 消费级和企业级会合流，界面会消失\n\n有人问：==工作助手和消费助手会不会分开==？Brockman 断言会合流。差别主要在成本——大众产品要免费或低价，企业场景里只要回报够，多贵的算力都值得堆。OpenAI 的独特优势是同时握有 ChatGPT 的 12 亿消费者和领先的编程与企业业务，策略就是把两者统一。\n\n界面上他更激进：「the best UI is no UI」——**最好的界面就是没有界面** [23:41 Unknown]。你直接跟 AI 说话，用 Slack、iMessage 都行，DOTS 今天就能这样用。当然企业场景有管理员、安全团队这些额外干系人，有些功能要能被关掉，这个复杂度不会自动消失。\n\nOpenAI 也推出了智能界面：AI 可以现场生成界面。比如订机票需要复杂界面来比较选项，装自行车可能需要一个过去得写一个月的定制小应用——现在 AI 实时给你变一个出来。界面正在变成你此刻正好需要的东西。\n\n## 网络安全的物理规律正在改变\n\n整场访谈里最尖锐的观点在网络安全。Brockman 说我们正处在防御者窗口期：最强的前沿 AI 能力还在防御方手里，没广泛扩散，但每一次模型发布，人人可得的攻击能力都在往上走。韩国已经出现由模型驱动的高调银行入侵事件。\n\n互联网本来就是为韧性而非安全设计的，安全是后来打补丁加上去的。这些技术债现在要集中还了。OpenAI 的做法是：每出一个新模型，就用它攻击自己的基础设施，找到漏洞、修好、直到这个模型能找到的问题被穷尽。他们一度抽调 25% 的生产工程师，暂停所有项目专门做安全。公司还承诺了 10 亿美元，通过 Daybreak 项目把最强模型交给一线防御者找漏洞修漏洞。\n\n他更大的判断是：AI 能让人还清过去想都不敢想的技术债，比如形式化验证——数学上证明软件的安全性质。技术一直存在，只是太费劲、太贵，没人对重要系统做。这都能变 [30:28 Unknown]。\n\n由此得出他的惊人结论：「cyber spend, security spend, should actually vastly outstrip software spend」——**安全开支应该远超软件开支** [34:16 Unknown]。逻辑是：软件本身越来越便宜，几乎不构成门槛，真正值钱的是可靠、安全、可信的软件。\n\n## 人要留在驾驶座上\n\n回到 OpenAI 的底色。Brockman 重申使命是让通用人工智能造福全人类，而人类这个词是关键——**人应该牢牢坐在驾驶座上**，掌控未来，技术应该放大人的能动性，哪怕模型在能力上超过人 [00:00 Unknown]。\n\n他讲了一个故事：Steve Jobs 当年为什么给 iMac 装个把手？为了让人们觉得自己能掌控这台机器——实在不行，随时可以抱起来扔出窗外。同样的精神要适用于 AI。未来人在各个领域里会更像 CEO 或董事会成员：你身边全是比你懂的专家和机器，但最终的问题始终是——你满意吗？这是你想要的吗？\n\n## 本集带走\n\n- OpenAI 公布了近 400 个开放数学问题的解，Brockman 认为 AI 能否创造新知识的争论已经终结；下一步是把这些能力搬去生物学和材料科学。\n- 药物研发的瓶颈不只是模型，更是数据：一款药 15 年、15 亿美元，其中 14 亿多花在临床试验；监管文书这类瓶颈 AI 能先啃下来。\n- DOTS 代表的不是模型升级而是形态变革——一个始终在线、跨工具整合你工作上下文的主动式智能体。\n- 网络安全正处于防御者窗口期：OpenAI 抽调 25% 工程师专职安全，承诺 10 亿美元帮防御者用上最强模型；Brockman 判断安全开支应远超软件开支。\n- 最好的界面是没有界面：AI 正在从聊天框走向实时生成界面，消费级与企业级产品也会逐步合流。",
+  "quotes": [
+    {
+      "en": "And I think that we now have the ability to massively accelerate scientific discovery.",
+      "zh": "而我认为，我们现在已经有能力大规模加速科学发现。",
+      "timestamp": "02:20",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And there's always been this question of, is AI actually able to come up with new knowledge? And at this point, it's just impossible to deny, right? It is definitively, yes, possible.",
+      "zh": "一直存在这样一个问题：AI 真的能够提出新知识吗？到了这一步，这已经无法否认了，对吧？明确地，是的，这是可能的。",
+      "timestamp": "02:25",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "It's really what can a human equip with these tools? That was unthinkable before.",
+      "zh": "真正关键的是，一个装备了这些工具的人能做到什么？这在以前是不可想象的。",
+      "timestamp": "02:52",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And I think we're going to find that humans are incredibly bad at biology, incredibly bad at drug discovery.",
+      "zh": "而且我认为我们会发现，人类在生物学方面极其不擅长，在药物发现方面极其不擅长。",
+      "timestamp": "13:40",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And so the fact we're seeing such incredible results with neural nets in natural language, you're just like from first principles, you should be able to really be able to crack the language of biology.",
+      "zh": "所以，鉴于我们在自然语言上看到神经网络取得如此惊人的成果，你从第一性原理出发会觉得，你应该真的能够破解生物学的语言。",
+      "timestamp": "14:10",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "Even lots of people who get a drug to cure their particular condition exist. It's just out there somewhere in the literature that there's a paper, and if you can find that one paper that's relevant to your conditions, then you'll be able to cure the person.",
+      "zh": "甚至很多人的特定病症其实已经存在能治愈的药物。它就存在于文献中的某处，有一篇论文，如果你能找到那篇与你病症相关的论文，你就能治愈这个人。",
+      "timestamp": "14:41",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And I think that having, in some ways, what DOTS is, is to change to the form factor, not the capability.",
+      "zh": "而且我认为，从某种意义上说，DOTS 的本质是改变了形态，而不是能力。",
+      "timestamp": "19:38",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "So, first of all, I think that the best UI is no UI. And I think in AI, that is where we're going.",
+      "zh": "首先，我认为最好的 UI 就是没有 UI。我认为在 AI 领域，这正是我们正在走向的方向。",
+      "timestamp": "23:37",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "What we're heading to, there isn't even a text box, right? It's just like, that is the AI we were promised.",
+      "zh": "而我们正走向的方向，连文本框都没有了，对吧？就像是，那才是我们被承诺过的 AI。",
+      "timestamp": "25:15",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And so I think that there is something about these, like we're now in a world where the AI is molding itself much more to you, right? That the user interface is becoming exactly the thing you need at the moment you need it.",
+      "zh": "所以我认为这里面有一些东西，就像我们现在所处的世界，AI 正在更多地适应你，对吧？用户界面正在变成你在需要的那一刻恰好需要的东西。",
+      "timestamp": "26:44",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And you just start to realize that the way in which we built systems were kind of fundamentally insecure and we always knew it, right? There's never been a CISO who's been over-resourced.",
+      "zh": "你就会开始意识到，我们构建系统的方式基本上是不安全的，而我们一直都知道这一点，对吧？从来没有一个 CISO 的资源是过剩的。",
+      "timestamp": "28:35",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "Like the internet's really been built for resilience, not necessarily for security. And I think that what we're going to see now is a moment where a lot of that debt, a lot of that tech debt is going to come to the surface. It's time for us to pay it down.",
+      "zh": "互联网真的是为韧性而建的，而不一定是为安全而建的。而我认为我们现在将看到的，是大量那种债务、大量那种技术债务浮出水面的时刻。是时候偿还它了。",
+      "timestamp": "29:34",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "The fact that AI lets you pay down your tech debt in a way that was just previously unthinkable.",
+      "zh": "AI 让你能够以一种以前根本不可想象的方式偿还技术债。",
+      "timestamp": "30:28",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "And so, for example, we took about 25% of our production engineers and said, all of your projects are on hold, you are just securing now.",
+      "zh": "举例来说，我们抽调了大约 25% 的生产工程师，说，你们所有的项目都暂停，你们现在只做安全加固。",
+      "timestamp": "31:02",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "I have a feeling that cyber spend, security spend, should actually vastly outstrip software spend.",
+      "zh": "我有一种感觉，网络支出、安全支出，实际上应该大幅超过软件支出。",
+      "timestamp": "34:16",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "So that way people could feel that they could control the machine, that you can always pick it up and throw it out the window. And I think that the same spirit needs to apply to AI.",
+      "zh": "这样人们就能感觉到他们可以掌控这台机器，你可以随时把它拿起来扔出窗外。我认为同样的精神需要应用到 AI 上。",
+      "timestamp": "37:44",
+      "speaker": "Greg Brockman"
+    },
+    {
+      "en": "Technology is to lift up human civilization. It's the single most fundamental driver of improvement of quality of life.",
+      "zh": "技术是为了提升人类文明。它是生活质量改善最根本的驱动力。",
+      "timestamp": "38:47",
+      "speaker": "Greg Brockman"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:20",
+      "speaker": "Unknown",
+      "en": "And I think that we now have the ability to massively accelerate scientific discovery.",
+      "zh": "而我认为，我们现在已经有能力大规模加速科学发现。"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Unknown",
+      "en": "And there's always been this question of, is AI actually able to come up with new knowledge? And at this point, it's just impossible to deny, right? It is definitively, yes, possible.",
+      "zh": "一直存在这样一个问题：AI 真的能够提出新知识吗？到了这一步，这已经无法否认了，对吧？明确地，是的，这是可能的。"
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Unknown",
+      "en": "It's really what can a human equip with these tools? That was unthinkable before.",
+      "zh": "真正关键的是，一个装备了这些工具的人能做到什么？这在以前是不可想象的。"
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Unknown",
+      "en": "It's really about what are the insights that are derived. And the thing that I think we will see, but I think that there's promising signs of life on is that there's beautiful insights within the work that these AIs have done.",
+      "zh": "它真正关乎的是推导出了哪些洞见。而我认为我们会看到的东西——已经有令人振奋的迹象——就是这些 AI 所做的工作中存在着美丽的洞见。"
+    },
+    {
+      "timestamp": "10:18",
+      "speaker": "Unknown",
+      "en": "But the thing that actually I think is the core insight is really about data, right? It's that you can get lots of data in mathematics.",
+      "zh": "但我认为真正的核心洞察其实是关于数据的，对吧？就是在数学中你可以获得大量的数据。"
+    },
+    {
+      "timestamp": "10:46",
+      "speaker": "Unknown",
+      "en": "Compute data algorithms equals capability equals results.",
+      "zh": "算力、数据、算法等于能力等于成果。"
+    },
+    {
+      "timestamp": "13:40",
+      "speaker": "Unknown",
+      "en": "And I think we're going to find that humans are incredibly bad at biology, incredibly bad at drug discovery.",
+      "zh": "而且我认为我们会发现，人类在生物学方面极其不擅长，在药物发现方面极其不擅长。"
+    },
+    {
+      "timestamp": "14:10",
+      "speaker": "Unknown",
+      "en": "And so the fact we're seeing such incredible results with neural nets in natural language, you're just like from first principles, you should be able to really be able to crack the language of biology.",
+      "zh": "所以，鉴于我们在自然语言上看到神经网络取得如此惊人的成果，你从第一性原理出发会觉得，你应该真的能够破解生物学的语言。"
+    },
+    {
+      "timestamp": "14:41",
+      "speaker": "Unknown",
+      "en": "Even lots of people who get a drug to cure their particular condition exist. It's just out there somewhere in the literature that there's a paper, and if you can find that one paper that's relevant to your conditions, then you'll be able to cure the person.",
+      "zh": "甚至很多人的特定病症其实已经存在能治愈的药物。它就存在于文献中的某处，有一篇论文，如果你能找到那篇与你病症相关的论文，你就能治愈这个人。"
+    },
+    {
+      "timestamp": "19:38",
+      "speaker": "Unknown",
+      "en": "And I think that having, in some ways, what DOTS is, is to change to the form factor, not the capability.",
+      "zh": "而且我认为，从某种意义上说，DOTS 的本质是改变了形态，而不是能力。"
+    },
+    {
+      "timestamp": "23:37",
+      "speaker": "Unknown",
+      "en": "So, first of all, I think that the best UI is no UI. And I think in AI, that is where we're going.",
+      "zh": "首先，我认为最好的 UI 就是没有 UI。我认为在 AI 领域，这正是我们正在走向的方向。"
+    },
+    {
+      "timestamp": "25:15",
+      "speaker": "Unknown",
+      "en": "What we're heading to, there isn't even a text box, right? It's just like, that is the AI we were promised.",
+      "zh": "而我们正走向的方向，连文本框都没有了，对吧？就像是，那才是我们被承诺过的 AI。"
+    },
+    {
+      "timestamp": "26:44",
+      "speaker": "Unknown",
+      "en": "And so I think that there is something about these, like we're now in a world where the AI is molding itself much more to you, right? That the user interface is becoming exactly the thing you need at the moment you need it.",
+      "zh": "所以我认为这里面有一些东西，就像我们现在所处的世界，AI 正在更多地适应你，对吧？用户界面正在变成你在需要的那一刻恰好需要的东西。"
+    },
+    {
+      "timestamp": "28:35",
+      "speaker": "Unknown",
+      "en": "And you just start to realize that the way in which we built systems were kind of fundamentally insecure and we always knew it, right? There's never been a CISO who's been over-resourced.",
+      "zh": "你就会开始意识到，我们构建系统的方式基本上是不安全的，而我们一直都知道这一点，对吧？从来没有一个 CISO 的资源是过剩的。"
+    },
+    {
+      "timestamp": "29:34",
+      "speaker": "Unknown",
+      "en": "Like the internet's really been built for resilience, not necessarily for security. And I think that what we're going to see now is a moment where a lot of that debt, a lot of that tech debt is going to come to the surface. It's time for us to pay it down.",
+      "zh": "互联网真的是为韧性而建的，而不一定是为安全而建的。而我认为我们现在将看到的，是大量那种债务、大量那种技术债务浮出水面的时刻。是时候偿还它了。"
+    },
+    {
+      "timestamp": "30:28",
+      "speaker": "Unknown",
+      "en": "The fact that AI lets you pay down your tech debt in a way that was just previously unthinkable.",
+      "zh": "AI 让你能够以一种以前根本不可想象的方式偿还技术债。"
+    },
+    {
+      "timestamp": "31:02",
+      "speaker": "Unknown",
+      "en": "And so, for example, we took about 25% of our production engineers and said, all of your projects are on hold, you are just securing now.",
+      "zh": "举例来说，我们抽调了大约 25% 的生产工程师，说，你们所有的项目都暂停，你们现在只做安全加固。"
+    },
+    {
+      "timestamp": "34:16",
+      "speaker": "Unknown",
+      "en": "I have a feeling that cyber spend, security spend, should actually vastly outstrip software spend.",
+      "zh": "我有一种感觉，网络支出、安全支出，实际上应该大幅超过软件支出。"
+    },
+    {
+      "timestamp": "37:44",
+      "speaker": "Unknown",
+      "en": "So that way people could feel that they could control the machine, that you can always pick it up and throw it out the window. And I think that the same spirit needs to apply to AI.",
+      "zh": "这样人们就能感觉到他们可以掌控这台机器，你可以随时把它拿起来扔出窗外。我认为同样的精神需要应用到 AI 上。"
+    },
+    {
+      "timestamp": "38:47",
+      "speaker": "Unknown",
+      "en": "Technology is to lift up human civilization. It's the single most fundamental driver of improvement of quality of life.",
+      "zh": "技术是为了提升人类文明。它是生活质量改善最根本的驱动力。"
+    }
+  ],
+  "voice_script": "今天要讲的人是 Greg Brockman，OpenAI 的联合创始人兼总裁。这一期播客里，聊的东西跨度很大：从 AI 解开近百年的数学难题，到开发一款药为什么这么贵，再到一个听上去很激进的判断——安全上的花钱，应该远远超过写软件的钱。为什么现在值得聊这些？因为 GPT 刚推送给超过 10 亿用户，OpenAI 又紧接着公布了数学上的新成果，这两件事放在一起，其实指向同一个问题：AI 到底能帮人做成什么。\n\n先说数学。这周 OpenAI 公布了近 400 个重要的开放数学问题的解答，数学界正在逐个审视其中的洞见。过去一直有人质疑，AI 能不能真正产生新知识。Brockman 的原话是：到了这一步，已经无法否认了。因为在看来，过去一千年人类生活质量提升的根本驱动力就是技术和科学进步，而现在，我们第一次有能力大规模加速科学发现。\n\n不过这里有个很自然的问题：数学家都不一定能验证彼此的证明，机器给出的证明谁来评判？答案是，这次的结果里就有惊喜。领域专家发现，AI 用了出人意料的方式去应用某些结论——而数学之美，恰恰不只是问题解决了，而是从中提炼出洞见。为了保住监督权，OpenAI 还在用一个思路：让一个 AI 生成结果，另一个 AI 专门挑刺。举个例子，总结一本书，你没读过原书就不知道总结好不好，但如果另一个 AI 指出书里被漏掉的关键情节，你立刻就知道这份总结不合格。\n\n那数学讲完，为什么能接上药物研发？因为 Brockman 的核心洞察就在数据上。数学有大量数据可以训练，理论物理也是，而生物学严重缺数据。这笔账很好算：开发一款药要 15 年、15 亿美元，其中只有大约 5000 万花在临床前，也就是分子设计和小鼠实验；剩下 14 亿多全砸在临床试验，还得再等 12 年。从第一性原理出发，人类的判断是：人天生擅长语言，天生不擅长生物学——但对神经网络来说，没有理由处理语言就一定比处理生物学更在行。既然在自然语言上成绩如此惊人，理论上也应该能破解生物学的语言。甚至很多人的病症，可能早就有能治愈的药，就藏在某篇论文里，只是没人找到。还有些瓶颈没那么深奥，比如写一份临床试验的完整申报论证要花一年左右，这种文书工作 AI 轻松得多。\n\n既然研发的物理规律变了，监管是不是也该跟着变？拿自动驾驶打比方：如果自动驾驶比人安全 10 倍、100 倍，也许某些区域就该只允许自动驾驶。当然现在还没到那一步，但这个问题已经被摆上了台面。\n\n接下来看产品形态。OpenAI 内部最让人惊喜的产品叫 DOTS，一个 7 天 24 小时在线的主动式智能体。Brockman 自己的 DOTS 会盯着答应过却没做的事，每天早上给一份待办清单，还会主动发现从没人让它管的事，比如日历冲突、需要提前离会赶下一场。关键在于，DOTS 改变的不是模型能力，而是形态——同样的模型，配上一台云端电脑、放在工作场景里，就变成了变革。顺着这个逻辑，界面也在变：最好的界面就是没有界面。你直接跟 AI 说话就行；需要复杂界面的时候，AI 可以现场给你生成一个，比如订机票的比较页面，或者一个过去要写一个月的定制小应用。\n\n最后是整场访谈里最尖锐的部分：网络安全。现在的处境是一个防御者窗口期——最强的前沿 AI 能力还在防御方手里，没广泛扩散，但每一次模型发布，人人可得的攻击能力都在往上走，韩国已经出现由模型驱动的高调银行入侵。而互联网本来就是为韧性而非安全设计的，安全是后来打补丁加上去的，这些技术债现在要集中还了。OpenAI 的做法是每出一个新模型，就用它攻击自己的基础设施，找到漏洞、修好，直到穷尽；一度抽调 25% 的生产工程师，暂停所有项目专做安全，还承诺 10 亿美元，通过 Daybreak 项目把最强模型交给一线防御者。由此得出的结论就是那句惊人的话：安全开支应该远超软件开支——因为软件本身越来越便宜，真正值钱的是可靠、可信的软件。\n\n这一切背后，还是那个底色：人要牢牢坐在驾驶座上。Brockman 讲了个故事，Steve Jobs 当年为什么给 iMac 装个把手？为了让人们觉得能掌控这台机器——实在不行，随时可以抱起来扔出窗外。同样的精神要适用于 AI：未来人在各个领域会更像 CEO 或董事会成员，身边全是比你懂的专家和机器，但最终的问题始终是——你满意吗？这是你想要的吗？技术应该放大人的能动性，哪怕模型在能力上超过人，坐在驾驶座上的，始终应该是人。"
+}

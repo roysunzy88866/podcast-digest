@@ -98,7 +98,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":4,"Anthropic":205,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4,"招人":5,"eigenreviews":1}</script>
+<script type="application/json" class="pd-epn">{"Science":2,"Neuralink":4,"Anthropic":206,"Helix":2,"AI 基础设施":6,"迭代":4,"BCI":2,"归因":4,"招人":5,"eigenreviews":1}</script>
 
 <script>
 (function(){

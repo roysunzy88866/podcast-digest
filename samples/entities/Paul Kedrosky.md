@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"数据中心":25,"token":33,"GPU":33,"推理":101,"商业地产":1,"前沿模型":29,"harness":66,"预训练":9,"后训练":1,"AGI":28}</script>
+<script type="application/json" class="pd-epn">{"数据中心":25,"token":33,"GPU":33,"推理":101,"商业地产":1,"前沿模型":29,"harness":67,"预训练":9,"后训练":1,"AGI":29}</script>
 
 <script>
 (function(){

@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":205,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":206,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
 
 <script>
 (function(){

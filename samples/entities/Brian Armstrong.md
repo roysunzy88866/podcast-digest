@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":8,"NewLimit":2,"智能体":1,"智能体金融":1,"X402":3,"稳定币":6,"分词":5,"预测市场":2,"递归自我改进":12}</script>
+<script type="application/json" class="pd-epn">{"Elad Gil":1,"Coinbase":8,"NewLimit":2,"智能体":1,"智能体金融":1,"X402":3,"稳定币":6,"分词":5,"预测市场":2,"递归自我改进":13}</script>
 
 <script>
 (function(){

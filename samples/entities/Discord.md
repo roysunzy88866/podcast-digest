@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Codex]] · [[Anthropic]] · [[Meta]] · [[ChatGPT]] · [[OpenAI]] · [[Twitter]] · [[MCP]] · [[信任建立]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Codex":90,"Anthropic":205,"Meta":55,"ChatGPT":113,"OpenAI":204,"Twitter":7,"MCP":96,"信任建立":7,"护栏":91}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Codex":90,"Anthropic":206,"Meta":56,"ChatGPT":114,"OpenAI":206,"Twitter":7,"MCP":96,"信任建立":7,"护栏":92}</script>
 
 <script>
 (function(){

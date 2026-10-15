@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":5,"智能体":1,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":205,"OpenAI":204}</script>
+<script type="application/json" class="pd-epn">{"Sequence Holdings":1,"Baldwin":1,"Bank South":1,"Atlas":5,"智能体":1,"控股公司":1,"组织物理学":1,"Palantir":20,"Anthropic":206,"OpenAI":206}</script>
 
 <script>
 (function(){

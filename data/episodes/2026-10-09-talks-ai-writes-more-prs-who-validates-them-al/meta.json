@@ -1,0 +1,26 @@
+{
+  "id": "2026-10-09-talks-ai-writes-more-prs-who-validates-them-al",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/uuwDWRbxoYo.m4a",
+  "duration_sec": 684.018,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 100,
+  "asr": true,
+  "title_en": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar",
+  "podcast": "精选演讲",
+  "date": "2026-10-09",
+  "added": "2026-10-15",
+  "added_at": "2026-10-15T12:44:28.558Z",
+  "speaker_map": {
+    "SPEAKER_00": "Ali-Reza Adl-Tabatabai"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Ali-Reza Adl-Tabatabai"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "AI 写的代码越来越多，谁来负责把关？",
+  "guest_name": "Ali-Reza Adl-Tabatabai",
+  "guest_title": "guitar.ai 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

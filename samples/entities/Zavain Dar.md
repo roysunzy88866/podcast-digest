@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":2,"NVIDIA":71,"Hugging Face":38,"开源":43,"蒸馏":1,"推理":101,"新云":4,"前沿模型":29,"垂直 AI":2,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":2,"NVIDIA":71,"Hugging Face":39,"开源":43,"蒸馏":1,"推理":101,"新云":4,"前沿模型":29,"垂直 AI":2,"智能体":1}</script>
 
 <script>
 (function(){

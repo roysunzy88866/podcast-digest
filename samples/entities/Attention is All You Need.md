@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sophia Du]] · [[Lucas Kaiser]] · [[Transformer]] · [[LLM]] · [[GPU]] · [[OpenAI]] · [[开源运动]] · [[编码智能体]] · [[分布式模型]] · [[研究突破]]
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Lucas Kaiser":1,"Transformer":10,"LLM":65,"GPU":33,"OpenAI":204,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Lucas Kaiser":1,"Transformer":11,"LLM":65,"GPU":33,"OpenAI":206,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

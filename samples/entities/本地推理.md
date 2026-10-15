@@ -25,7 +25,7 @@ unlisted: true
 
 [[harness]] · [[智能体]] · [[子智能体]] · [[RLM]] · [[沙箱]] · [[上下文工程]] · [[REPL]] · [[自我改进 harness]] · [[技能]] · [[Prime Agent]]
 
-<script type="application/json" class="pd-epn">{"harness":66,"智能体":1,"子智能体":7,"RLM":1,"沙箱":101,"上下文工程":18,"REPL":1,"自我改进 harness":1,"技能":35,"Prime Agent":1}</script>
+<script type="application/json" class="pd-epn">{"harness":67,"智能体":1,"子智能体":7,"RLM":1,"沙箱":101,"上下文工程":18,"REPL":1,"自我改进 harness":1,"技能":35,"Prime Agent":1}</script>
 
 <script>
 (function(){

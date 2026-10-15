@@ -163,11 +163,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jev":7,"TypeSafe":4,"RLHF":7,"OpenAI":204,"RLCD":2,"可靠性":4,"RLVR":3,"分类器":1,"校准":4,"ChatGPT":113}</script>
+<script type="application/json" class="pd-epn">{"Jev":7,"TypeSafe":4,"RLHF":7,"OpenAI":206,"RLCD":2,"可靠性":4,"RLVR":3,"分类器":1,"校准":4,"ChatGPT":114}</script>
 
 <script>
 (function(){

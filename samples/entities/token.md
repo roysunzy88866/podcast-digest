@@ -193,7 +193,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[推理]] · [[Claude Code]] · [[NVIDIA]] · [[ChatGPT]] · [[OpenRouter]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":205,"OpenAI":204,"Cursor":87,"推理":101,"Claude Code":114,"NVIDIA":71,"ChatGPT":113,"OpenRouter":14,"harness":66}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":206,"Cursor":87,"推理":101,"Claude Code":114,"NVIDIA":71,"ChatGPT":114,"OpenRouter":14,"harness":67}</script>
 
 <script>
 (function(){

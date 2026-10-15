@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":204,"Codex":90,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":1,"语音转动作":1,"子智能体":7,"事件转语音":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":206,"Codex":90,"计算机使用":22,"语音智能体":2,"Gabriel Chua":1,"语音转语音":1,"智能体":1,"语音转动作":1,"子智能体":7,"事件转语音":1}</script>
 
 <script>
 (function(){

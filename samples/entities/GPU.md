@@ -105,7 +105,7 @@ unlisted: true
 
 [[推理]] · [[智能体]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[数据中心]] · [[OpenRouter]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"推理":101,"智能体":1,"NVIDIA":71,"OpenAI":204,"Anthropic":205,"Cursor":87,"Google":72,"数据中心":25,"OpenRouter":14,"开源":43}</script>
+<script type="application/json" class="pd-epn">{"推理":101,"智能体":1,"NVIDIA":71,"OpenAI":206,"Anthropic":206,"Cursor":87,"Google":72,"数据中心":25,"OpenRouter":14,"开源":43}</script>
 
 <script>
 (function(){

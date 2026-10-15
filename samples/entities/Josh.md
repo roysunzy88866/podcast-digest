@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":204,"药物发现":2,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":11,"湿实验室":1}</script>
+<script type="application/json" class="pd-epn">{"Matt":1,"Chai Discovery":1,"OpenAI":206,"药物发现":3,"药物设计":1,"抗体设计":1,"蛋白质折叠":1,"扩散模型":2,"苦涩的教训":11,"湿实验室":1}</script>
 
 <script>
 (function(){

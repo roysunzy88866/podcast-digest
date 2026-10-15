@@ -69,11 +69,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Anders Swanson]] [[Jeffrey Ladish]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":90,"OpenAI":204,"ChatGPT":113,"智能体":1,"护栏":91,"沙箱":101,"Dots":5,"ChatGPT work":1,"Notion":17,"Rana El-Khalyubi":1}</script>
+<script type="application/json" class="pd-epn">{"Codex":90,"OpenAI":206,"ChatGPT":114,"智能体":1,"护栏":92,"沙箱":101,"Dots":6,"ChatGPT work":1,"Notion":17,"Rana El-Khalyubi":1}</script>
 
 <script>
 (function(){

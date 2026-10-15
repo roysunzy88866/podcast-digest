@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":21,"ChatGPT":113,"物理 AI":11,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":30}</script>
+<script type="application/json" class="pd-epn">{"Physical Intelligence":3,"Waymo":21,"ChatGPT":114,"物理 AI":11,"强化学习":1,"长期自主性":1,"组合泛化":1,"价值函数":1,"记忆":30}</script>
 
 <script>
 (function(){

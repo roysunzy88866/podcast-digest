@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":1,"认知投降":3,"认知债务":3,"循环工程":6,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":91,"Chrome":4}</script>
+<script type="application/json" class="pd-epn">{"Chrome DevTools":1,"智能体":1,"认知投降":3,"认知债务":3,"循环工程":6,"软件工厂":1,"Core Web Vitals":1,"互相放大":1,"护栏":92,"Chrome":4}</script>
 
 <script>
 (function(){

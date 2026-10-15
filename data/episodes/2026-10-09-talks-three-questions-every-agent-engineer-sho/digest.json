@@ -1,0 +1,149 @@
+{
+  "title_zh": "智能体坏了不可怕，可怕的是你不知道它怎么坏的",
+  "tldr": "LangChain 工程师讲如何打造可靠的人工智能智能体：先找到失败，再稳定复现，最后修好它。",
+  "digest_md": "如果你在开发人工智能智能体(那种能自己调用工具、完成任务的程序)，有 3 个问题必须能回答：它在哪里出错？怎么让错误稳定重现？怎么让它以后不再错？能答好这 3 个问题，才算真正掌握了自己的智能体。这是 LangChain 一位工程师在新办公室首场分享中提出的框架，讲的全是一线踩坑经验。\n\n## 第一步：从生产数据里“挖矿”，找到失败在哪\n\n要搞清智能体为什么失败，靠的是追踪(tracing)——记录智能体跑起来的每一步轨迹。这些轨迹里藏着大量有价值的信号：什么时候工具调用对了，什么时候调错了，什么时候因为缺少上下文惹恼了用户。[00:02:03]\n\n==问题在于规模==。一天几千次、上百万次运行，不可能靠人眼看。用大模型当裁判来自动评估当然有效，但在这种量级下太贵了。[00:02:41]\n\nLangChain 的做法是微调出一个专门的“裁判模型”，去自动判断智能体有没有给用户带来糟糕体验、有没有可察觉的错误——比如惹恼了用户，或者一连串工具调用走偏，做了用户根本没要它做的事。[00:03:07]\n\n## 第二步：只测输入输出不够，要给智能体造一个“仿真世界”\n\n找到失败模式后，要能稳定复现。常见的做法是给智能体一个输入，看输出对不对。这能抓住很多问题，但看不到全貌。\n\n原因是：智能体的行为受外部环境影响——数据库的状态、它有什么权限、用的是什么数据结构、甚至它之前做过什么动作。[00:04:51]\n\n所以需要把智能体在生产环境里依赖的外部系统模拟出来，给它造一个逼真的“世界”。LangChain 的做法是写两类规格说明：一类定义“世界”——那些不会变的东西，比如权限、业务规则、文件系统状态；另一类定义“任务”——在这个世界里要完成的具体挑战。[00:05:51]\n\n举个真实例子。LangChain 内部有个叫 GTM agent 的智能体，销售团队用它做竞品调研、分析销售机会。它的“世界”就是 Gong、Salesforce、Google Calendar 这些它要打交道的系统；一个“任务”可以是：研究某个客户在 Gong 里的所有通话记录，然后帮我起草下一步跟进方案。[00:06:16]\n\n## 用智能体造任务，但得盯着它别作弊\n\n有趣的是，LangChain 是让一个编程智能体帮忙写这些世界和任务的。经验是：**智能体干这活儿需要持续监督**。[00:07:46]\n\n关键要防两件事：任务得足够难，才能真正帮你改进；任务不能留有空子，让被测的智能体“钻规则漏洞”轻松拿高分——这就是所谓 reward hacking(奖励作弊)。[00:08:13]\n\n## 小公司也有优势：你手里有前沿实验室拿不到的数据\n\n为什么最强的模型都出自前沿实验室？一个重要原因是资金：他们能砸钱买数据来构建训练用的世界和任务。演讲者举了个例子：Google 向 Spirit Airlines 开出 1000 万美元的报价，不是为了买公司，而是买它的内部 Slack 消息、邮件和文档——这些都会变成训练数据。[00:09:38]\n\n但应用开发者并非没有机会。这是个“大卫对歌利亚”的局面：前沿实验室看不到用户怎么真实使用你的智能体，而你看得见。**你可以从自己的运行日志里，提炼出他们永远造不出来的任务和环境**。[00:10:10]\n\n剩下的就是数据清洗的脏活：去重、把轨迹转成可靠的任务。做完这些，你就有了一个基准，可以量化地衡量智能体的每次改进。[00:10:28]\n\n## 改进在两层进行：框架层和模型层\n\n有了世界和任务(任务应该瞄准你在生产中观察到的具体失败)，改进可以从两个层面下手。\n\n框架层(harness,指模型外层的工程代码)可以改提示词、改工具定义、改上下文的注入方式。模型层则可以选合适的后训练算法，直接改模型本身。改完之后重跑任务，验证智能体是否通过。[00:11:26]\n\n## 模型在进化，你的测试体系才是护城河\n\n最后一点：模型会不断进步，今天你设计来弥补智能体缺陷的那部分代码，明天可能被新模型直接吸收——比如长任务分解、动态工具路由，就正在从框架层被吸收进模型层。[00:12:54]\n\n用户的使用方式也会变。但只要你有一套能仿真生产环境的测试体系，无论模型怎么变、用户怎么变，你都能重新验证智能体是否还撑得住。\n\n所谓“拥有自己的智能”，说到底就是这个：模型在变、用户在变，而你始终跟得上。\n\n## 本集带走\n\n- 判断智能体是否失败，不能靠人肉看日志，可以微调专门的“裁判模型”在规模化生产数据中自动挖掘失败模式\n- 只测输入输出不够，要模拟智能体所处的完整环境：数据库状态、权限、外部系统\n- 用智能体帮忙生成测试任务时要防“奖励作弊”，任务必须足够难\n- 应用开发者最大的资产是真实用户日志，能提炼出前沿实验室买不到的训练任务\n- 框架层的功能会被不断吸收进模型层，持久的竞争力是一套能跟随变化重新验证的测试体系",
+  "quotes": [
+    {
+      "en": "A classic example of this, by the way, is Google making a $10 million tender offer to Spirit Airlines, not to buy the company, but to buy the internal Slack memos, the emails, the documentation, because obviously all of that's going to be used to develop tasks and develop training data sets to be able to actually go and then produce and make better models.",
+      "zh": "顺便说一句，这方面的一个经典例子是 Google 向 Spirit Airlines 提出一笔 1000 万美元的收购要约，不是为了收购这家公司，而是为了购买其内部的 Slack 备忘录、电子邮件、文档，因为显然所有这些都将被用来开发任务、开发训练数据集，从而真正去生产并做出更好的模型。",
+      "timestamp": "09:38",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And for that reason, they're able to produce data from their telemetry or they're able to understand how real people are actually interacting with and using their agent and therefore develop tasks and develop environments that a Frontier Lab never could.",
+      "zh": "正因如此，他们能够从其遥测数据中产出数据，能够理解真实的人究竟是如何与他们的智能体交互并使用它的，从而开发出 Frontier Lab 永远无法做到的任务和环境。",
+      "timestamp": "10:10",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And this is really where owning your own intelligence and owning the mechanisms around both the harness and the models that are powering your agents really begins to compound because now you can have full flexibility to make changes at all levels here.",
+      "zh": "而这正是拥有你自己的智能、拥有围绕驱动智能体的测试框架和模型两者的机制真正开始产生复利效应的地方，因为现在你可以拥有充分的灵活性，在所有层面上做出改变。",
+      "timestamp": "11:28",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And I think that this is kind of no surprise to anyone, but we've constantly seen parts of the harness, whether it's a long task decomposition or whether it's dynamic tool routing be absorbed into the model layer.",
+      "zh": "我认为这对任何人来说都不算意外，但我们不断看到测试框架的部分内容，无论是长任务分解还是动态工具路由，都被吸收进了模型层。",
+      "timestamp": "12:54",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And so really being able to own your own intelligence comes down to being able to adapt to changes as models improve, as user interaction patterns change and",
+      "zh": "因此，真正能够拥有你自己的智能，归根结底是能够适应变化，随着模型改进、随着用户交互模式改变而适应。",
+      "timestamp": "13:35",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:41",
+      "speaker": "Unknown",
+      "en": "Using frontier judges, LLMS judges, online evaluators, obviously is very effective but also very expensive at scale.",
+      "zh": "使用前沿评判器、LLM 评判器、在线评估器，显然非常有效，但在规模化下也非常昂贵。"
+    },
+    {
+      "timestamp": "07:56",
+      "speaker": "Unknown",
+      "en": "Is that agents themselves aren't very good or rather need actual constant supervision and guidance when building these out.",
+      "zh": "智能体本身并不太好用，或者说，在构建这些东西时需要真正持续的监督和指导。"
+    },
+    {
+      "timestamp": "08:13",
+      "speaker": "Unknown",
+      "en": "And also there aren't methods where the agent has designed tasks that are easy to reward hack.",
+      "zh": "同时也要避免智能体设计出的任务存在容易被奖励作弊的方法。"
+    },
+    {
+      "timestamp": "09:25",
+      "speaker": "Unknown",
+      "en": "And the reason why, obviously, there are many reasons, but the capital that they can allocate towards acquiring data to build these worlds and to build these tasks far supersedes that of the average at-layer company.",
+      "zh": "至于原因，显然有很多，但他们能够分配用于获取数据以构建这些世界、构建这些任务的资本，远远超过了普通的分层应用公司。"
+    },
+    {
+      "timestamp": "09:38",
+      "speaker": "Unknown",
+      "en": "A classic example of this, by the way, is Google making a $10 million tender offer to Spirit Airlines, not to buy the company, but to buy the internal Slack memos, the emails, the documentation, because obviously all of that's going to be used to develop tasks and develop training data sets to be able to actually go and then produce and make better models.",
+      "zh": "顺便说一句，这方面的一个经典例子是 Google 向 Spirit Airlines 提出一笔 1000 万美元的收购要约，不是为了收购这家公司，而是为了购买其内部的 Slack 备忘录、电子邮件、文档，因为显然所有这些都将被用来开发任务、开发训练数据集，从而真正去生产并做出更好的模型。"
+    },
+    {
+      "timestamp": "09:58",
+      "speaker": "Unknown",
+      "en": "But this is a bit of a David and Goliath situation because unlike Frontier Labs, application developers and application owners see the spiky edges around the ways that people are using their agents.",
+      "zh": "但这有点像一场大卫与歌利亚的较量，因为与 Frontier Labs 不同，应用开发者和应用拥有者能看到人们使用其智能体的方式中那些参差不齐的边缘。"
+    },
+    {
+      "timestamp": "10:10",
+      "speaker": "Unknown",
+      "en": "And for that reason, they're able to produce data from their telemetry or they're able to understand how real people are actually interacting with and using their agent and therefore develop tasks and develop environments that a Frontier Lab never could.",
+      "zh": "正因如此，他们能够从其遥测数据中产出数据，能够理解真实的人究竟是如何与他们的智能体交互并使用它的，从而开发出 Frontier Lab 永远无法做到的任务和环境。"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Unknown",
+      "en": "This is very powerful for capturing a variety of different agent failure mechanisms, but often doesn't encapsulate the full picture.",
+      "zh": "这对于捕获各种不同的智能体失败机制非常有力，但往往不能涵盖全貌。"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Unknown",
+      "en": "The reason why is an agent's behavior might be influenced by external factors of the environment that it's in.",
+      "zh": "原因在于，智能体的行为可能受它所处环境的外部因素影响。"
+    },
+    {
+      "timestamp": "11:28",
+      "speaker": "Unknown",
+      "en": "And this is really where owning your own intelligence and owning the mechanisms around both the harness and the models that are powering your agents really begins to compound because now you can have full flexibility to make changes at all levels here.",
+      "zh": "而这正是拥有你自己的智能、拥有围绕驱动智能体的测试框架和模型两者的机制真正开始产生复利效应的地方，因为现在你可以拥有充分的灵活性，在所有层面上做出改变。"
+    },
+    {
+      "timestamp": "12:40",
+      "speaker": "Unknown",
+      "en": "It's inevitable that as models develop, parts of what we test for will change and regressions will be introduced, but also parts of what we designed for to solve for particular deficiencies in our agent will be absorbed as part of the model.",
+      "zh": "不可避免的是，随着模型的发展，我们所测试的部分内容会发生变化并引入回归，但同时，我们为解决智能体特定缺陷而设计的部分内容也会被模型吸收为自身的一部分。"
+    },
+    {
+      "timestamp": "12:54",
+      "speaker": "Unknown",
+      "en": "And I think that this is kind of no surprise to anyone, but we've constantly seen parts of the harness, whether it's a long task decomposition or whether it's dynamic tool routing be absorbed into the model layer.",
+      "zh": "我认为这对任何人来说都不算意外，但我们不断看到测试框架的部分内容，无论是长任务分解还是动态工具路由，都被吸收进了模型层。"
+    },
+    {
+      "timestamp": "11:08",
+      "speaker": "Unknown",
+      "en": "And so once we have a world, once we have a set of tasks within that world, ideally a task targets some kind of failure mode that you've seen in your agent, right?",
+      "zh": "因此，一旦我们拥有了一个世界，一旦我们在那个世界中拥有了一组任务，理想情况下，一个任务要针对你在智能体身上看到的某种失败模式，对吧？"
+    },
+    {
+      "timestamp": "11:17",
+      "speaker": "Unknown",
+      "en": "You would design tasks around where you've observed your production traffic or you've observed your production agent to be failing.",
+      "zh": "你会围绕你观察到生产流量或生产智能体失败的地方来设计任务。"
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Unknown",
+      "en": "The issue with doing that at scale, obviously, is that if you have an agent that has thousands of runs a day, millions of runs a day, it's going to be very hard to understand at scale whether or not your agent is performing as you expect it to.",
+      "zh": "显然，规模化做这件事的问题在于，如果你的智能体每天有数千次运行、数百万次运行，那么在规模化下理解你的智能体是否如你预期那样表现，会非常困难。"
+    },
+    {
+      "timestamp": "13:35",
+      "speaker": "Unknown",
+      "en": "And so really being able to own your own intelligence comes down to being able to adapt to changes as models improve, as user interaction patterns change and",
+      "zh": "因此，真正能够拥有你自己的智能，归根结底是能够适应变化，随着模型改进、随着用户交互模式改变而适应。"
+    },
+    {
+      "timestamp": "08:01",
+      "speaker": "Unknown",
+      "en": "And so something that's obviously very important in all of this is to make sure that the tasks that your agent is defining are both reliably hard and actually present a challenge for you to be able to continuously improve your agent with.",
+      "zh": "因此，在这一切中显然非常重要的一点，是确保你的智能体所定义的任务既可靠地有难度，又真正呈现出挑战，让你能够持续改进你的智能体。"
+    },
+    {
+      "timestamp": "08:23",
+      "speaker": "Unknown",
+      "en": "This is obviously really important as well because it makes sure that the world that we're developing and the tasks that we're giving our agent are sufficiently hard so that when we make improvements, they are quantifiable and actually mimic really what the agent would be doing in production.",
+      "zh": "这显然也非常重要，因为它确保我们正在开发的世界和我们交给智能体的任务足够难，这样当我们做出改进时，这些改进是可量化的，并且真正模拟了智能体在生产中实际会做的事情。"
+    }
+  ],
+  "voice_script": "今天想跟你聊的是LangChain的一位工程师，在新办公室首场分享里讲的一套方法论。这人是干什么的？LangChain你可能听说过，就是做智能体开发框架最有名的公司之一，所以这番话全是第一线踩坑踩出来的经验，不是纸上谈兵。\n\n讲什么问题呢？就是你在开发人工智能智能体的时候，怎么让它可靠。智能体这东西，说白了就是能自己调用工具、自己完成任务的程序。听起来很美好，但它一定会出错，而且出错的方式千奇百怪。这位工程师说，如果你是一个智能体的开发者，有三个问题你必须能回答：第一，它在哪里出错？第二，怎么让这个错误稳定重现？第三，怎么让它以后不再错？能答好这三个问题，才算真正掌握了自己的智能体。答不上来，那你的智能体就像个黑箱，坏了你都不知道是怎么坏的。\n\n那这三个问题怎么落地呢？先从第一个说起：找到失败在哪。\n\n方法靠的是追踪，也就是把智能体跑起来的每一步轨迹都记录下来。这些轨迹里其实藏着大量信号，比如什么时候工具调用对了，什么时候调错了，什么时候因为缺少上下文把用户惹恼了。但问题来了，是规模。如果你的智能体一天跑几千次、上百万次运行，靠人眼看日志根本看不过来。用大模型当裁判自动评估，理论上有效，但在这种量级下太贵了。\n\nLangChain的办法是，微调出一个专门的裁判模型，让它自动判断智能体有没有给用户带来糟糕体验。比如惹恼了用户，或者一连串工具调用走偏了，做了用户根本没让它做的事。这样失败就能在规模化生产数据里自动被挖出来。\n\n好，失败找到了，第二步就是要能稳定复现它。为什么要复现？因为修东西的前提是能稳定看到它坏，不然你改一处、测一遍，根本不知道有没有修好。\n\n常见的做法是给智能体一个输入，看输出对不对。这能抓住很多问题，但看不到全貌。为什么？因为智能体的行为不只是由输入决定的，它还受外部环境影响，比如数据库当时是什么状态、它有什么权限、用的是什么数据结构，甚至它之前做过什么动作。同样的输入，环境不一样，行为可能完全不同。\n\n所以光测输入输出不够，你得把智能体在生产环境里依赖的那些外部系统模拟出来，给它造一个逼真的世界。LangChain的做法是写两类规格说明：一类定义世界，就是那些不会变的东西，权限、业务规则、文件系统状态；另一类定义任务，就是在这个世界里要完成的具体挑战。\n\n举个例子你就明白了。LangChain内部有个叫GTM agent的智能体，销售团队拿它做竞品调研、分析销售机会。那它的世界是什么？就是它平时要打交道的那些系统，Gong、Salesforce、Google Calendar。一个任务可以是：研究某个客户在Gong里的所有通话记录，然后帮我起草下一步跟进方案。你看，有世界、有任务，失败就能逼真地重现出来了。\n\n有意思的是，写这些世界和任务的活儿，LangChain是让一个编程智能体帮忙干的。但经验是，智能体干这个活儿需要人持续盯着，关键要防两件事。第一，任务得足够难，不然测不出真问题。第二，不能留空子让被测的智能体钻规则漏洞轻松拿高分，这有个专有名词叫reward hacking，奖励作弊。智能体是很会偷懒走捷径的，你不盯着，它就给你糊弄出一些看起来分数很高、其实什么也没验证的任务。\n\n讲到这里你可能有个疑问：搞这么一整套仿真和测试，值不值得？尤其小团队，拿什么跟那些大厂拼？这就要说到一个很关键的不对称。\n\n为什么最强的模型都出自前沿实验室？一个重要原因是钱。他们能砸钱买数据来构建训练用的世界和任务。有个特别形象的例子：Google向Spirit Airlines开出一笔一千万美元的报价，注意，不是为了收购这家航空公司，而是为了买它内部的Slack消息、邮件和文档，因为这些东西都会变成训练数据。\n\n但话说回来，应用开发者手里也有一张牌。这是个大卫对歌利亚的局面：前沿实验室看不到用户是怎么真实使用你的智能体的，而你看得见。你可以从自己的运行日志里，提炼出他们永远造不出来的任务和环境。剩下的就是数据清洗的脏活，去重、把轨迹转成可靠的任务。做完这些，你就有了一个基准，可以量化地衡量智能体的每一次改进。\n\n那有了世界和任务，具体怎么改进呢？可以从两个层面下手。一个叫框架层，就是模型外面那层工程代码，你可以改提示词、改工具定义、改上下文的注入方式。另一个是模型层，选合适的后训练算法，直接改模型本身。改完之后重跑一遍任务，验证智能体是不是真的通过了。\n\n最后还有一层，我觉得是整场分享最深的一点。模型是会不断进步的，今天你为了弥补智能体缺陷写的代码，明天可能被新模型直接吸收掉。比如长任务分解、动态工具路由这些功能，就正在从框架层被吸收进模型层。用户的使用方式也会变。那什么是不变的？就是你那套能仿真生产环境的测试体系。只要它还在，无论模型怎么变、用户怎么变，你都能重新验证智能体是否撑得住。\n\n所以，拥有自己的智能，说到底就是这件事：模型在变、用户在变，而你始终跟得上。这套测试体系才是你真正的护城河，也是让一切持续产生复利的地方。"
+}

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Microsoft":32,"智能体":1,"智能体网络":3,"MCP":96,"缩放定律":18,"康威定律":2}</script>
+<script type="application/json" class="pd-epn">{"Microsoft":33,"智能体":1,"智能体网络":3,"MCP":96,"缩放定律":18,"康威定律":2}</script>
 
 <script>
 (function(){

@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"HubSpot":11,"Sequoia":7,"MongoDB":5,"Salesforce":36,"Google":72,"Microsoft":32,"McKinsey":7,"Clay":8,"Delphi":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"HubSpot":11,"Sequoia":7,"MongoDB":5,"Salesforce":36,"Google":72,"Microsoft":33,"McKinsey":7,"Clay":8,"Delphi":3}</script>
 
 <script>
 (function(){

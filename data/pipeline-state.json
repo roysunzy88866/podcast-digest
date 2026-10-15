@@ -276,7 +276,9 @@
     "E3KbFLAGD6A": "2026-10-09-talks-stop-prompting-greg-pstrucha-sentry",
     "Emo5FGGY-wM": "2026-10-09-talks-why-80-reliability-isn-t-good-enough-fel",
     "XcsspzECTKA": "2026-10-09-talks-managed-deep-agents-deploying-mission-cr",
-    "cSz7aL2nl2U": "2026-10-09-talks-why-your-company-needs-a-context-graph-a"
+    "cSz7aL2nl2U": "2026-10-09-talks-why-your-company-needs-a-context-graph-a",
+    "oVKGKdIAgtg": "2026-10-09-talks-three-questions-every-agent-engineer-sho",
+    "uuwDWRbxoYo": "2026-10-09-talks-ai-writes-more-prs-who-validates-them-al"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -548,6 +550,16 @@
       "status": "已收",
       "title": "#771. AlphaGo Zero：看懂 AI 如何摆脱人类数据、强化学习",
       "day": "2026-10-14"
+    },
+    "6ad0bea30e4e410a05bd694b": {
+      "status": "非 AI 也非科技创业(Jev),不对齐",
+      "title": "#774. Acquired｜NFL：联盟优先，球队才能一起赢",
+      "day": "2026-10-15"
+    },
+    "6ad0bd950e4e410a05bd68be": {
+      "status": "找不到播客版 → 交本机 YouTube",
+      "title": "#773. 黄仁勋：从算力需求看英伟达的增长逻辑",
+      "day": "2026-10-15"
     }
   },
   "cutoffs": {
@@ -557,16 +569,16 @@
     "yc": "2026-09-26T15:10:19.000Z",
     "mad": "2026-10-08T11:30:00.000Z",
     "trainingdata": "2026-10-13T09:00:00.000Z",
-    "bigtech": "2026-10-14T15:07:00.000Z",
+    "bigtech": "2026-10-15T02:00:00.000Z",
     "aiandi": "2026-10-14T16:22:14.000Z",
-    "nopriors": "2026-10-09T10:00:00.000Z",
+    "nopriors": "2026-10-15T10:00:00.000Z",
     "thepeel": "2026-10-08T16:14:09.000Z",
     "beyondcoding": "2026-10-14T11:00:00.000Z",
     "founders": "2026-10-13T23:30:00.000Z",
     "dwarkesh": "2026-10-01T15:28:28.000Z",
     "doac": "2026-10-12T05:00:00.000Z",
     "deepmind": "2026-10-01T16:38:11.000Z",
-    "twentyvc": "2026-10-12T07:07:00.000Z",
+    "twentyvc": "2026-10-15T07:07:00.000Z",
     "cogrev": "2026-10-14T07:50:16.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
     "pragmatic": "2026-10-07T17:19:58.000Z",
@@ -1592,6 +1604,12 @@
       "reason": "题材不对味:属 AI+生物科研类(AI 用于药物研发的实验室科研题材),命中 ❌ 第③类",
       "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
       "pubDate": "2026-10-14T20:35:09.000Z"
+    },
+    {
+      "id": "2026-10-15-twentyvc-20vc-the-pro-rata-battle-valar-atomics-s",
+      "reason": "题材不对味:属❌②多话题新闻速览:一期标题拼四条新闻(pro-rata诉讼/Meta模型/NVIDIA收购/Jev融资)的快讯拼盘体",
+      "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+      "pubDate": "2026-10-15T07:07:00.000Z"
     }
   ]
 }

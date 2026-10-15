@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":28,"ASI":2}</script>
+<script type="application/json" class="pd-epn">{"Chess.com":2,"Deep Blue":1,"Stockfish":2,"Leela Chess Zero":1,"反作弊":1,"评级系统":1,"AGI":29,"ASI":2}</script>
 
 <script>
 (function(){

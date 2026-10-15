@@ -1,0 +1,770 @@
+[
+ {
+  "seg": 0,
+  "start": 4.003,
+  "end": 4.724,
+  "speaker": "Unknown",
+  "en": "Welcome, everybody.",
+  "zh": "欢迎大家。"
+ },
+ {
+  "seg": 1,
+  "start": 5.284,
+  "end": 15.653,
+  "speaker": "Unknown",
+  "en": "Really looking forward to covering how and why and the methodology around what we know at LangChain to be about owning your own intelligence.",
+  "zh": "非常期待今天能讲清楚——怎么做、为什么做、以及方法论——关于我们在 LangChain 所了解的“拥有你自己的智能”这件事。"
+ },
+ {
+  "seg": 2,
+  "start": 17.162,
+  "end": 17.863,
+  "speaker": "Unknown",
+  "en": "It's our new office.",
+  "zh": "这是我们的新办公室。"
+ },
+ {
+  "seg": 3,
+  "start": 18.143,
+  "end": 19.164,
+  "speaker": "Unknown",
+  "en": "Really stoked to have everyone here.",
+  "zh": "真的很高兴大家能来。"
+ },
+ {
+  "seg": 4,
+  "start": 19.184,
+  "end": 20.205,
+  "speaker": "Unknown",
+  "en": "We've got an awesome lineup.",
+  "zh": "我们准备了一份很棒的议程。"
+ },
+ {
+  "seg": 5,
+  "start": 20.906,
+  "end": 36.502,
+  "speaker": "Unknown",
+  "en": "I'm going to approach what it means to own your own intelligence from a practitioner's angle for someone who's building with agents and for someone who is probably going through a lot of the processes that it takes that I'm about to cover when it comes to building and improving your agent.",
+  "zh": "我打算从一个实践者的角度来讲“拥有你自己的智能”意味着什么——面向正在用智能体做构建的人，面向很可能正在经历我在讲构建和改进智能体时要覆盖的那些流程的人。"
+ },
+ {
+  "seg": 6,
+  "start": 38.482,
+  "end": 44.566,
+  "speaker": "Unknown",
+  "en": "I think that there are three main questions that any person who's building an agent needs to have a very solid grasp of.",
+  "zh": "我认为，任何构建智能体的人都需要非常扎实地掌握三个主要问题。"
+ },
+ {
+  "seg": 7,
+  "start": 45.006,
+  "end": 49.128,
+  "speaker": "Unknown",
+  "en": "And if they can answer them well, then they can definitively say that they do own their own intelligence.",
+  "zh": "如果他们能很好地回答这些问题，那么他们就可以明确地说，他们确实拥有了自己的智能。"
+ },
+ {
+  "seg": 8,
+  "start": 49.409,
+  "end": 56.253,
+  "speaker": "Unknown",
+  "en": "So that starts with when you're building agents, understanding what goes wrong and understanding where your agent fails.",
+  "zh": "所以首先要说的是，在构建智能体时，要理解什么地方出了错，理解你的智能体在哪里失败。"
+ },
+ {
+  "seg": 9,
+  "start": 56.413,
+  "end": 63.517,
+  "speaker": "Unknown",
+  "en": "This is obviously a very, you know, this is a simple question, but actually there's a lot of engineering work that goes into understanding if an agent failed.",
+  "zh": "这显然是一个非常，你知道，这是个简单的问题，但实际上要理解一个智能体是否失败了，背后有很多工程工作。"
+ },
+ {
+  "seg": 10,
+  "start": 64.898,
+  "end": 68.939,
+  "speaker": "Unknown",
+  "en": "There's also a lot of engineering understanding that goes into understanding how we can make it fail again.",
+  "zh": "同样也有很多工程上的理解，用于搞清楚我们如何能让它再次失败。"
+ },
+ {
+  "seg": 11,
+  "start": 69.48,
+  "end": 81.804,
+  "speaker": "Unknown",
+  "en": "This is obviously key on the process to being able to build agents that improve and to be able to own all parts of your model and maybe your harness and then the weights as well.",
+  "zh": "这显然是构建能够不断改进的智能体过程中的关键，也是能够掌控你模型的所有部分、可能还有你的 harness 以及权重本身的关键。"
+ },
+ {
+  "seg": 12,
+  "start": 82.904,
+  "end": 88.546,
+  "speaker": "Unknown",
+  "en": "And then finally as well, being able to answer what needs to happen to make it stop failing in the future.",
+  "zh": "最后同样重要的是，能够回答：要让它未来停止失败，需要做什么。"
+ },
+ {
+  "seg": 13,
+  "start": 90.842,
+  "end": 101.286,
+  "speaker": "Unknown",
+  "en": "I think to answer the first question and to understand really how and why your agent has failed requires a very strong grasp of tracing and understanding your agent's behavior.",
+  "zh": "我认为，要回答第一个问题、真正理解你的智能体是如何以及为何失败的，需要对追踪以及理解智能体行为有非常强的把握。"
+ },
+ {
+  "seg": 14,
+  "start": 101.506,
+  "end": 105.007,
+  "speaker": "Unknown",
+  "en": "And this often comes from mining your agent's production traces.",
+  "zh": "而这通常来自对你的智能体生产环境轨迹的挖掘。"
+ },
+ {
+  "seg": 15,
+  "start": 106.588,
+  "end": 108.889,
+  "speaker": "Unknown",
+  "en": "Building an agent, hopefully you're tracing it.",
+  "zh": "构建一个智能体，希望你正在对它做追踪。"
+ },
+ {
+  "seg": 16,
+  "start": 109.009,
+  "end": 115.051,
+  "speaker": "Unknown",
+  "en": "You're gonna have a lot of trajectories and understandings of all of the different kinds of behavior that your agent is taking.",
+  "zh": "你会拥有大量的轨迹，以及对你智能体所采取的各种不同行为的理解。"
+ },
+ {
+  "seg": 17,
+  "start": 115.411,
+  "end": 118.072,
+  "speaker": "Unknown",
+  "en": "And amongst all of this, there's gonna be a lot of valuable signal.",
+  "zh": "而在所有这些之中，会有很多有价值的信号。"
+ },
+ {
+  "seg": 18,
+  "start": 118.783,
+  "end": 121.784,
+  "speaker": "Unknown",
+  "en": "that you can use to move on the path to improving your agent.",
+  "zh": "你可以用它们在改进智能体的道路上前进。"
+ },
+ {
+  "seg": 19,
+  "start": 123.105,
+  "end": 129.928,
+  "speaker": "Unknown",
+  "en": "That might be, for example, times where the agent either successfully called a tool or it incorrectly called a tool.",
+  "zh": "举个例子，那可能是智能体成功调用了一个工具，或者错误地调用了一个工具的时刻。"
+ },
+ {
+  "seg": 20,
+  "start": 130.108,
+  "end": 134.109,
+  "speaker": "Unknown",
+  "en": "It led to frustrating the user because it didn't have the right context.",
+  "zh": "它让用户感到沮丧，因为它没有正确的上下文。"
+ },
+ {
+  "seg": 21,
+  "start": 134.289,
+  "end": 147.415,
+  "speaker": "Unknown",
+  "en": "There's a variety of different signal within your agent traces, particularly your production traces, that is a very important element to capture when it comes to owning your own intelligence and understanding whether or not your agent failed.",
+  "zh": "在你的智能体轨迹中，尤其是生产环境轨迹中，有各种不同的信号，这是在拥有你自己的智能、理解你的智能体是否失败时，非常重要的需要捕获的要素。"
+ },
+ {
+  "seg": 22,
+  "start": 148.175,
+  "end": 160.659,
+  "speaker": "Unknown",
+  "en": "The issue with doing that at scale, obviously, is that if you have an agent that has thousands of runs a day, millions of runs a day, it's going to be very hard to understand at scale whether or not your agent is performing as you expect it to.",
+  "zh": "显然，规模化做这件事的问题在于，如果你的智能体每天有数千次运行、数百万次运行，那么在规模化下理解你的智能体是否如你预期那样表现，会非常困难。"
+ },
+ {
+  "seg": 23,
+  "start": 161.9,
+  "end": 168.582,
+  "speaker": "Unknown",
+  "en": "Using frontier judges, LLMS judges, online evaluators, obviously is very effective but also very expensive at scale.",
+  "zh": "使用前沿评判器、LLM 评判器、在线评估器，显然非常有效，但在规模化下也非常昂贵。"
+ },
+ {
+  "seg": 24,
+  "start": 168.602,
+  "end": 177.465,
+  "speaker": "Unknown",
+  "en": "And so as an example, a way that we approach this and just one of the ways that you can look towards understanding and extracting signal from your agent traces",
+  "zh": "所以举个例子，我们处理这个问题的一种方式，也是你可以用来理解和从智能体轨迹中提取信号的方式之一"
+ },
+ {
+  "seg": 25,
+  "start": 179.287,
+  "end": 185.449,
+  "speaker": "Unknown",
+  "en": "is by making evaluation specific judges to go and extract and actually mine your agent for production signal.",
+  "zh": "是制作针对特定评估的评判器，去提取并真正挖掘你的智能体的生产信号。"
+ },
+ {
+  "seg": 26,
+  "start": 185.469,
+  "end": 187.69,
+  "speaker": "Unknown",
+  "en": "And so we did this at LangChain recently.",
+  "zh": "我们最近在 LangChain 就这么做了。"
+ },
+ {
+  "seg": 27,
+  "start": 187.83,
+  "end": 198.334,
+  "speaker": "Unknown",
+  "en": "We worked with fine tuning, labeling, and producing a judge to go and actually classify whether or not an agent was giving users a delightful experience, whether or not there was any perceived error.",
+  "zh": "我们做了微调、标注，并制作了一个评判器，去实际分类智能体是否在给用户带来愉悦的体验，是否存在任何可感知的错误。"
+ },
+ {
+  "seg": 28,
+  "start": 199.415,
+  "end": 211.347,
+  "speaker": "Unknown",
+  "en": "So that might be, for example, an agent frustrating user or it might be a string of tool calls that an agent makes that actually leads it to performing the wrong action when a user was looking for it to do something else.",
+  "zh": "举个例子，那可能是智能体让用户感到沮丧，也可能是智能体做出的一连串工具调用，导致它在用户希望它做别的事情时执行了错误的动作。"
+ },
+ {
+  "seg": 29,
+  "start": 211.387,
+  "end": 221.638,
+  "speaker": "Unknown",
+  "en": "And so being able to actually have some form of monitoring and understanding what your agent's doing at scale is a very important step towards understanding whether or not it failed.",
+  "zh": "因此，能够真正拥有某种形式的监控、在规模化下理解你的智能体在做什么，是理解它是否失败的非常重要的一步。"
+ },
+ {
+  "seg": 30,
+  "start": 221.798,
+  "end": 231.042,
+  "speaker": "Unknown",
+  "en": "And also a very important way to be able to cluster the behaviors and the failure mechanisms that begin to emerge as you build and as you start to improve your agent.",
+  "zh": "也是能够聚类那些随着你构建、随着你开始改进智能体而开始浮现的行为和失败机制的一种非常重要的方式。"
+ },
+ {
+  "seg": 31,
+  "start": 231.062,
+  "end": 248.831,
+  "speaker": "Unknown",
+  "en": "This is only the first step in the journey though, because once we know and once we have classified agent behaviors, we then need to go and take a variety of next steps to go and be able to reproduce and then actually remediate these issues as they continue to develop.",
+  "zh": "不过这只是旅程中的第一步，因为一旦我们了解并对智能体行为做了分类，我们接下来就需要采取各种后续步骤，能够复现、并真正修复这些问题，因为它们会持续出现。"
+ },
+ {
+  "seg": 32,
+  "start": 250.945,
+  "end": 254.629,
+  "speaker": "Unknown",
+  "en": "So that brings me to my next point about what it really means to be able to own your own intelligence.",
+  "zh": "这就引出了我的下一个观点：能够拥有你自己的智能到底意味着什么。"
+ },
+ {
+  "seg": 33,
+  "start": 254.649,
+  "end": 258.072,
+  "speaker": "Unknown",
+  "en": "A very important part of that is being able to reliably reproduce.",
+  "zh": "其中非常重要的一部分，是能够可靠地复现。"
+ },
+ {
+  "seg": 34,
+  "start": 259.105,
+  "end": 260.286,
+  "speaker": "Unknown",
+  "en": "Where your agent is failing.",
+  "zh": "你的智能体在哪里失败。"
+ },
+ {
+  "seg": 35,
+  "start": 261.066,
+  "end": 264.989,
+  "speaker": "Unknown",
+  "en": "And I've worked with a variety of different application teams, a variety of different teams building their agents.",
+  "zh": "我和很多不同的应用团队合作过，和很多构建自己智能体的团队合作过。"
+ },
+ {
+  "seg": 36,
+  "start": 265.009,
+  "end": 270.853,
+  "speaker": "Unknown",
+  "en": "And really over the past six or seven months, this has began to take a pretty drastic shift.",
+  "zh": "真的，在过去六七个月里，这一点开始发生了相当剧烈的转变。"
+ },
+ {
+  "seg": 37,
+  "start": 271.193,
+  "end": 284.122,
+  "speaker": "Unknown",
+  "en": "The typical way of doing this, and actually rather the shallow way of looking at this, is just evaluating whether or not the inputs or evaluating whether or not the outputs to your agent, given some simple input produces the behavior that you expect.",
+  "zh": "典型的做法，实际上也是比较肤浅的看法，就是只评估输入，或者只评估智能体的输出——给定某个简单输入，是否产生你期望的行为。"
+ },
+ {
+  "seg": 38,
+  "start": 285.188,
+  "end": 291.37,
+  "speaker": "Unknown",
+  "en": "This is very powerful for capturing a variety of different agent failure mechanisms, but often doesn't encapsulate the full picture.",
+  "zh": "这对于捕获各种不同的智能体失败机制非常有力，但往往不能涵盖全貌。"
+ },
+ {
+  "seg": 39,
+  "start": 291.75,
+  "end": 297.431,
+  "speaker": "Unknown",
+  "en": "The reason why is an agent's behavior might be influenced by external factors of the environment that it's in.",
+  "zh": "原因在于，智能体的行为可能受它所处环境的外部因素影响。"
+ },
+ {
+  "seg": 40,
+  "start": 297.471,
+  "end": 312.035,
+  "speaker": "Unknown",
+  "en": "And so that might be, for example, the state of the database that it's interacting with, the permissions that it has access to, the particular schemas that it's working with, or even the past actions that it's taken that has led to it being in the environment in the state that it has.",
+  "zh": "举个例子，那可能是它交互的数据库的状态、它拥有的权限、它处理的特定 schema，甚至它过去采取的、导致它所处环境处于当前状态的那些动作。"
+ },
+ {
+  "seg": 41,
+  "start": 313.757,
+  "end": 323.644,
+  "speaker": "Unknown",
+  "en": "And so what we really need then is a way for us to be able to mock out the broader application machinery of your agent as it stands in production.",
+  "zh": "所以我们真正需要的，是一种能够把你的智能体在生产环境中所处的更广泛的应用机制模拟出来的方式。"
+ },
+ {
+  "seg": 42,
+  "start": 325.586,
+  "end": 334.232,
+  "speaker": "Unknown",
+  "en": "And that brings me to building more robust evaluations by creating a way where we can mimic the world or the environment that your agent exists in.",
+  "zh": "这就引出了通过创造一种方式来构建更稳健的评估，让我们能够模仿你的智能体所处的世界或环境。"
+ },
+ {
+  "seg": 43,
+  "start": 335.593,
+  "end": 350.691,
+  "speaker": "Unknown",
+  "en": "This is an iterative process, but really a way that we found to do this quite successfully at LangChain, and again, this is something that's constantly evaluating, is through the idea of working with specifications to define the agent's world as well as the tasks within it.",
+  "zh": "这是一个迭代的过程，但我们真的在 LangChain 找到了一种相当成功地做到这一点的方式——再次强调，这件事也在不断评估中——那就是通过使用规格说明来定义智能体的世界以及其中的任务。"
+ },
+ {
+  "seg": 44,
+  "start": 351.131,
+  "end": 355.476,
+  "speaker": "Unknown",
+  "en": "So what I mean by that is having some kind of generic world spec",
+  "zh": "我的意思是，拥有某种通用的世界规格"
+ },
+ {
+  "seg": 45,
+  "start": 356.37,
+  "end": 360.093,
+  "speaker": "Unknown",
+  "en": "which defines the things that don't mutate across that agent's world.",
+  "zh": "它定义了在智能体世界中不会变异的那些东西。"
+ },
+ {
+  "seg": 46,
+  "start": 360.113,
+  "end": 370.463,
+  "speaker": "Unknown",
+  "en": "And so that might be things like the permissions, or that might be like the domain-specific rules that an agent has access to, or that might be things like the state of the file system and the dependencies that it interacts with.",
+  "zh": "那可能是像权限这样的东西，或者像智能体可访问的领域特定规则，或者是像文件系统的状态以及它所交互的依赖。"
+ },
+ {
+  "seg": 47,
+  "start": 370.883,
+  "end": 375.588,
+  "speaker": "Unknown",
+  "en": "This is things that don't change across the agent's actions that it takes in this action space.",
+  "zh": "这些是在智能体在这个动作空间中所采取的动作中不会改变的东西。"
+ },
+ {
+  "seg": 48,
+  "start": 376.028,
+  "end": 380.83,
+  "speaker": "Unknown",
+  "en": "So an example of this is we have a very commonly used internal agent at LangChain.",
+  "zh": "举个例子，我们在 LangChain 有一个非常常用的内部智能体。"
+ },
+ {
+  "seg": 49,
+  "start": 380.87,
+  "end": 382.03,
+  "speaker": "Unknown",
+  "en": "It's called the GTM agent.",
+  "zh": "它叫 GTM 智能体。"
+ },
+ {
+  "seg": 50,
+  "start": 382.271,
+  "end": 398.137,
+  "speaker": "Unknown",
+  "en": "And so our go-to-market organization will use it, for example, to do things like do competitive research on competitors in deals or go and understand and spec out the pipeline of a particular sort of opportunity.",
+  "zh": "因此，我们的市场推广组织会使用它，例如去做诸如在交易中对竞争对手进行竞品调研，或者去理解并详细规划某个特定机会的管道。"
+ },
+ {
+  "seg": 51,
+  "start": 398.837,
+  "end": 415.485,
+  "speaker": "Unknown",
+  "en": "The world in that case would be all of the systems that the agent needs to interact with, Gong, Salesforce, Google Calendar, and effectively the systems that it touches and interacts with as this agent interacts and is engaged with by all of our sellers.",
+  "zh": "在那种情况下，世界就是智能体需要与之交互的所有系统，Gong、Salesforce、Google Calendar，实际上就是这个智能体所触及并交互的系统，因为我们所有的销售都会与这个智能体交互并使用它。"
+ },
+ {
+  "seg": 52,
+  "start": 416.681,
+  "end": 429.384,
+  "speaker": "Unknown",
+  "en": "Tasks within that world represent specific actions or tasks that the agent needs to take, which will go and actually test and hopefully surface different emergent behaviors and things you're trying to test for.",
+  "zh": "那个世界中的任务代表智能体需要采取的特定行动或任务，这些将真正去测试并有望显现出不同的涌现行为以及你试图测试的东西。"
+ },
+ {
+  "seg": 53,
+  "start": 429.404,
+  "end": 443.348,
+  "speaker": "Unknown",
+  "en": "And so a task within that go-to-market agent world, for example, would be go and research all of the Gong transcripts for a particular customer that we're looking to investigate or are in the process of working with and help me draft a next best reach out.",
+  "zh": "因此，在那个市场推广智能体世界中的一个任务，例如，会是去研究我们正在调查或正在合作的某个特定客户的所有 Gong 转写记录，并帮我起草一个最佳的下一步接触方案。"
+ },
+ {
+  "seg": 54,
+  "start": 444.008,
+  "end": 461.724,
+  "speaker": "Unknown",
+  "en": "And so if I'm someone who's building an environment or a place where I can reliably test my go-to-market agent in production, I'm probably going to want to have some concept of a robust world where it mimics the environment that that agent is operating with in production.",
+  "zh": "所以，如果我是一个正在构建环境的人，或者是一个能让我在生产环境中可靠测试我的市场推广智能体的地方，我可能会想要有一个健壮世界的概念，它能模拟该智能体在生产中所运行的环境。"
+ },
+ {
+  "seg": 55,
+  "start": 461.744,
+  "end": 462.966,
+  "speaker": "Unknown",
+  "en": "And that extends far beyond",
+  "zh": "而这远远超出了"
+ },
+ {
+  "seg": 56,
+  "start": 463.526,
+  "end": 466.07,
+  "speaker": "Unknown",
+  "en": "Just a simple input and output based evaluation.",
+  "zh": "简单的基于输入和输出的评估。"
+ },
+ {
+  "seg": 57,
+  "start": 466.41,
+  "end": 475.222,
+  "speaker": "Unknown",
+  "en": "One thing that we've noticed though, when kind of going and creating these worlds and developing these specs and working with an agent, a coding agent side by side to actually go and develop these.",
+  "zh": "不过，我们注意到的一点是，在去创建这些世界、开发这些规范、并与一个智能体——一个编码智能体——并肩协作实际去开发这些的时候。"
+ },
+ {
+  "seg": 58,
+  "start": 476.087,
+  "end": 481.414,
+  "speaker": "Unknown",
+  "en": "Is that agents themselves aren't very good or rather need actual constant supervision and guidance when building these out.",
+  "zh": "智能体本身并不太好用，或者说，在构建这些东西时需要真正持续的监督和指导。"
+ },
+ {
+  "seg": 59,
+  "start": 481.835,
+  "end": 493.069,
+  "speaker": "Unknown",
+  "en": "And so something that's obviously very important in all of this is to make sure that the tasks that your agent is defining are both reliably hard and actually present a challenge for you to be able to continuously improve your agent with.",
+  "zh": "因此，在这一切中显然非常重要的一点，是确保你的智能体所定义的任务既可靠地有难度，又真正呈现出挑战，让你能够持续改进你的智能体。"
+ },
+ {
+  "seg": 60,
+  "start": 493.97,
+  "end": 498.131,
+  "speaker": "Unknown",
+  "en": "And also there aren't methods where the agent has designed tasks that are easy to reward hack.",
+  "zh": "同时也要避免智能体设计出的任务存在容易被奖励作弊的方法。"
+ },
+ {
+  "seg": 61,
+  "start": 498.252,
+  "end": 503.613,
+  "speaker": "Unknown",
+  "en": "You might have heard of the term reward hacking or adjacent terms.",
+  "zh": "你可能听说过“奖励作弊”这个术语或类似的说法。"
+ },
+ {
+  "seg": 62,
+  "start": 503.833,
+  "end": 519.759,
+  "speaker": "Unknown",
+  "en": "This is obviously really important as well because it makes sure that the world that we're developing and the tasks that we're giving our agent are sufficiently hard so that when we make improvements, they are quantifiable and actually mimic really what the agent would be doing in production.",
+  "zh": "这显然也非常重要，因为它确保我们正在开发的世界和我们交给智能体的任务足够难，这样当我们做出改进时，这些改进是可量化的，并且真正模拟了智能体在生产中实际会做的事情。"
+ },
+ {
+  "seg": 63,
+  "start": 521.742,
+  "end": 525.506,
+  "speaker": "Unknown",
+  "en": "Something that I think is kind of really interesting and core to this.",
+  "zh": "我认为有一点相当有趣，而且是这个事情的核心。"
+ },
+ {
+  "seg": 64,
+  "start": 526.167,
+  "end": 543.206,
+  "speaker": "Unknown",
+  "en": "And once we have this kind of like mechanism now of knowing that the way for us to really kind of get a handle on our own intelligence and be able to create and develop an agent that is solving problems in a world that actually mimics the world that it's the kind of environment that it's operating in.",
+  "zh": "一旦我们有了这样一种机制，知道这就是让我们真正掌握自身智能的方式，并能够创建和开发一个在世界中解决问题的智能体，而这个世界真正模拟了它所处的那种运行环境。"
+ },
+ {
+  "seg": 65,
+  "start": 544.765,
+  "end": 554.471,
+  "speaker": "Unknown",
+  "en": "is that we have the ability to go and do this through turning that data that we have from monitoring our agent in production into these kinds of tasks, into these kinds of worlds.",
+  "zh": "那就是我们有能力通过把从生产中监控智能体得来的数据转化成这类任务、这类世界来实现这一点。"
+ },
+ {
+  "seg": 66,
+  "start": 555.392,
+  "end": 560.035,
+  "speaker": "Unknown",
+  "en": "So it's no surprise that some of the best models that we use today by produced by Frontier Labs",
+  "zh": "因此，毫不奇怪，我们今天使用的一些最好的模型是由 Frontier Labs 生产的"
+ },
+ {
+  "seg": 67,
+  "start": 562.656,
+  "end": 565.117,
+  "speaker": "Unknown",
+  "en": "It's no surprise that Frontier Labs are producing some of these models.",
+  "zh": "Frontier Labs 正在生产这些模型，这并不奇怪。"
+ },
+ {
+  "seg": 68,
+  "start": 565.137,
+  "end": 577.603,
+  "speaker": "Unknown",
+  "en": "And the reason why, obviously, there are many reasons, but the capital that they can allocate towards acquiring data to build these worlds and to build these tasks far supersedes that of the average at-layer company.",
+  "zh": "至于原因，显然有很多原因，但他们能够分配用于获取数据以构建这些世界、构建这些任务的资本，远远超过了普通的分层应用公司。"
+ },
+ {
+  "seg": 69,
+  "start": 578.836,
+  "end": 597.989,
+  "speaker": "Unknown",
+  "en": "A classic example of this, by the way, is Google making a $10 million tender offer to Spirit Airlines, not to buy the company, but to buy the internal Slack memos, the emails, the documentation, because obviously all of that's going to be used to develop tasks and develop training data sets to be able to actually go and then produce and make better models.",
+  "zh": "顺便说一句，这方面的一个经典例子是 Google 向 Spirit Airlines 提出一笔 1000 万美元的收购要约，不是为了收购这家公司，而是为了购买其内部的 Slack 备忘录、电子邮件、文档，因为显然所有这些都将被用来开发任务、开发训练数据集，从而真正去生产并做出更好的模型。"
+ },
+ {
+  "seg": 70,
+  "start": 598.911,
+  "end": 609.615,
+  "speaker": "Unknown",
+  "en": "But this is a bit of a David and Goliath situation because unlike Frontier Labs, application developers and application owners see the spiky edges around the ways that people are using their agents.",
+  "zh": "但这有点像一场大卫与歌利亚的较量，因为与 Frontier Labs 不同，应用开发者和应用拥有者能看到人们使用其智能体的方式中那些参差不齐的边缘。"
+ },
+ {
+  "seg": 71,
+  "start": 610.495,
+  "end": 624.881,
+  "speaker": "Unknown",
+  "en": "And for that reason, they're able to produce data from their telemetry or they're able to understand how real people are actually interacting with and using their agent and therefore develop tasks and develop environments that a Frontier Lab never could.",
+  "zh": "正因如此，他们能够从其遥测数据中产出数据，或者能够理解真实的人究竟是如何与他们的智能体交互并使用它的，从而开发出 Frontier Lab 永远无法做到的任务和环境。"
+ },
+ {
+  "seg": 72,
+  "start": 627.422,
+  "end": 627.762,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "因此，"
+ },
+ {
+  "seg": 73,
+  "start": 628.607,
+  "end": 645.153,
+  "speaker": "Unknown",
+  "en": "Once we know that from the traces of our agent, from all of this exhaust, from all of this substrate, we can really help design powerful tasks and worlds to be able to go in and actually help improve our agent, then obviously we know that it's a data wrangling problem because there's going to need to be deduplication.",
+  "zh": "一旦我们知道，从我们智能体的痕迹中，从所有这些尾气中，从所有这些底层基质中，我们真的能帮助设计强大的任务和世界，从而真正帮助改进我们的智能体，那么显然我们知道这是一个数据整理问题，因为将会需要去重。"
+ },
+ {
+  "seg": 74,
+  "start": 645.173,
+  "end": 649.695,
+  "speaker": "Unknown",
+  "en": "There's going to need to be all sorts of different ways that we turn these traces into reliable tasks.",
+  "zh": "将会有各种不同的方式，把这些痕迹转化为可靠的任务。"
+ },
+ {
+  "seg": 75,
+  "start": 650.798,
+  "end": 657.463,
+  "speaker": "Unknown",
+  "en": "But once we do, we have the substrate and we have the foundation for a lot of further agent improvement and development.",
+  "zh": "但一旦我们做到了，我们就拥有了基质，我们就拥有了进一步大量智能体改进与开发的基础。"
+ },
+ {
+  "seg": 76,
+  "start": 658.083,
+  "end": 665.228,
+  "speaker": "Unknown",
+  "en": "And really then we have a strong benchmark and starting point for us to be able to go and actually make quantitative agent improvements.",
+  "zh": "真的到那时，我们就拥有了一个强有力的基准和起点，能够真正实现可量化的智能体改进。"
+ },
+ {
+  "seg": 77,
+  "start": 668.47,
+  "end": 677.843,
+  "speaker": "Unknown",
+  "en": "And so once we have a world, once we have a set of tasks within that world, ideally a task targets some kind of failure mode that you've seen in your agent, right?",
+  "zh": "因此，一旦我们拥有了一个世界，一旦我们在那个世界中拥有了一组任务，理想情况下，一个任务要针对你在智能体身上看到的某种失败模式，对吧？"
+ },
+ {
+  "seg": 78,
+  "start": 677.863,
+  "end": 685.053,
+  "speaker": "Unknown",
+  "en": "You would design tasks around where you've observed your production traffic or you've observed your production agent to be failing.",
+  "zh": "你会围绕你观察到生产流量或生产智能体失败的地方来设计任务。"
+ },
+ {
+  "seg": 79,
+  "start": 686.293,
+  "end": 687.894,
+  "speaker": "Unknown",
+  "en": "Really then changes come at two layers.",
+  "zh": "真正到那时，改变是在两个层面发生的。"
+ },
+ {
+  "seg": 80,
+  "start": 688.635,
+  "end": 701.546,
+  "speaker": "Unknown",
+  "en": "And this is really where owning your own intelligence and owning the mechanisms around both the harness and the models that are powering your agents really begins to compound because now you can have full flexibility to make changes at all levels here.",
+  "zh": "而这正是拥有你自己的智能、拥有围绕驱动智能体的测试框架和模型两者的机制真正开始产生复利效应的地方，因为现在你可以拥有充分的灵活性，在所有层面上做出改变。"
+ },
+ {
+  "seg": 81,
+  "start": 703.188,
+  "end": 712.536,
+  "speaker": "Unknown",
+  "en": "Changes at the harness level might involve simple changes like prompts or tool schema changes or changing the way that context is injected so that an agent given a certain task can answer in a certain way.",
+  "zh": "测试框架层面的改变可能涉及简单的改变，比如提示词或工具模式（schema）的改变，或者改变上下文注入的方式，使得智能体在给定某个任务时能以某种方式作答。"
+ },
+ {
+  "seg": 82,
+  "start": 714.367,
+  "end": 715.928,
+  "speaker": "Unknown",
+  "en": "And then making changes at the model layer.",
+  "zh": "然后在模型层面做出改变。"
+ },
+ {
+  "seg": 83,
+  "start": 716.849,
+  "end": 724.454,
+  "speaker": "Unknown",
+  "en": "I won't dive into it too much because I know that Charlie here is going to cover some of the different post-training techniques that you can do at this level.",
+  "zh": "我不会深入太多，因为我知道 Charlie 会介绍你可以在这个层面做的一些不同的后训练技术。"
+ },
+ {
+  "seg": 84,
+  "start": 724.514,
+  "end": 737.424,
+  "speaker": "Unknown",
+  "en": "But again, now you have the flexibility to be able to go in and choose your post-training algorithm of choice and make changes to help go and remediate whatever it is that you're trying to test for and ideally mitigate.",
+  "zh": "但同样，现在你有灵活性去选择你偏好的后训练算法并做出改变，帮助去修复你正试图测试并理想情况下加以缓解的任何问题。"
+ },
+ {
+  "seg": 85,
+  "start": 739.125,
+  "end": 742.328,
+  "speaker": "Unknown",
+  "en": "Once you've got that, then we can rerun and then we can establish that",
+  "zh": "一旦你做到了这些，我们就可以重新运行，然后我们就能确立"
+ },
+ {
+  "seg": 86,
+  "start": 743.243,
+  "end": 751.106,
+  "speaker": "Unknown",
+  "en": "The environment and the agent running in that environment can pass those particular tasks and then begin to behave as we expect it to.",
+  "zh": "环境和在该环境中运行的智能体能够通过那些特定任务，并开始按照我们期望的方式表现。"
+ },
+ {
+  "seg": 87,
+  "start": 754.167,
+  "end": 759.149,
+  "speaker": "Unknown",
+  "en": "Finally, once we've established a robust environment or world and set of tasks,",
+  "zh": "最后，一旦我们确立了一个健壮的环境或世界以及一组任务，"
+ },
+ {
+  "seg": 88,
+  "start": 760.917,
+  "end": 773.767,
+  "speaker": "Unknown",
+  "en": "It's inevitable that as models develop, parts of what we test for will change and regressions will be introduced, but also parts of what we designed for to solve for particular deficiencies in our agent will be absorbed as part of the model.",
+  "zh": "不可避免的是，随着模型的发展，我们所测试的部分内容会发生变化并引入回归，但同时，我们为解决智能体特定缺陷而设计的部分内容也会被模型吸收为自身的一部分。"
+ },
+ {
+  "seg": 89,
+  "start": 774.167,
+  "end": 785.756,
+  "speaker": "Unknown",
+  "en": "And I think that this is kind of no surprise to anyone, but we've constantly seen parts of the harness, whether it's a long task decomposition or whether it's dynamic tool routing be absorbed into the model layer.",
+  "zh": "我认为这对任何人来说都不算意外，但我们不断看到测试框架的部分内容，无论是长任务分解还是动态工具路由，都被吸收进了模型层。"
+ },
+ {
+  "seg": 90,
+  "start": 786.176,
+  "end": 787.297,
+  "speaker": "Unknown",
+  "en": "And so we'll see that change.",
+  "zh": "因此我们会看到这种变化。"
+ },
+ {
+  "seg": 91,
+  "start": 788.923,
+  "end": 794.389,
+  "speaker": "Unknown",
+  "en": "But we'll be able to test for it because we now have a robust way to actually simulate how our agent is behaving in production.",
+  "zh": "但我们将能够测试它，因为我们现在有了一种健壮的方式，真正模拟我们的智能体在生产中的行为。"
+ },
+ {
+  "seg": 92,
+  "start": 796.675,
+  "end": 815.39,
+  "speaker": "Unknown",
+  "en": "Also what will be also as well the interaction patterns of people using your agent will obviously change and having a strong way to be able to go and test and actually roll out and determine whether or not your agent holds up under those particular interaction patterns will still be available given that we have this really robust and powerful way to now test it.",
+  "zh": "同样，人们使用你的智能体的交互模式显然也会改变，而拥有一种强大的方式去测试、实际推出并确定你的智能体在这些特定交互模式下是否依然站得住脚，也将仍然可行，因为我们现在有了这种真正健壮且强大的测试方式。"
+ },
+ {
+  "seg": 93,
+  "start": 815.89,
+  "end": 825.277,
+  "speaker": "Unknown",
+  "en": "And so really being able to own your own intelligence comes down to being able to adapt to changes as models improve, as user interaction patterns change and",
+  "zh": "因此，真正能够拥有你自己的智能，归根结底是能够适应变化，随着模型改进、随着用户交互模式改变而"
+ },
+ {
+  "seg": 94,
+  "start": 826.138,
+  "end": 839.884,
+  "speaker": "Unknown",
+  "en": "As builders, once we are aware of, and once we have put the mechanisms in place to be able to go and test different behaviors through robust environments and through different tasks, we really then can stay on top of this fast world of moving in.",
+  "zh": "作为构建者，一旦我们意识到这一点，并且一旦我们建立起能够通过健壮的环境和不同的任务去测试不同行为的机制，我们就能真正在这个快速变动的世界里保持领先。"
+ },
+ {
+  "seg": 95,
+  "start": 840.344,
+  "end": 842.065,
+  "speaker": "Unknown",
+  "en": "And so thank you for listening.",
+  "zh": "感谢大家的聆听。"
+ }
+]

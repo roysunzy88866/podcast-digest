@@ -1,0 +1,149 @@
+===标题===
+当AI解开百年数学题，安全问题成了10亿美元的生意
+===导语===
+OpenAI联合创始人兼总裁Greg Brockman聊数学突破、药物研发和网络安全。
+===正文===
+No Priors 请来了 Greg Brockman。他是 OpenAI 的联合创始人、总裁，聊的话题横跨 AI 解数学题、制药、以及一个听起来很激进的判断：花在安全上的钱，最终应该远远超过花在软件本身上的钱。
+
+## AI真的能创造新知识了吗？
+
+Brockman 认为，本周公布的数学成果是一个真正的里程碑。过去一千年里，人类生活质量的根本驱动力是技术进步，而现在，AI 有能力大幅加速科学发现。
+
+具体成果是：大约 400 个重要的公开数学问题被解决，数学界正在逐条梳理，寻找其中的洞见。领域专家反馈说，AI 会用出人意料的方式把不同领域的想法拼接在一起——为什么那个结论会用在 这里？这不是那种「机器穷举一堆情况、没人看得懂」的证明，历史上确实有过这种先例，比如四色定理，但 Brockman 觉得，机器发现已经进入了新阶段 [05:59 Greg]。
+
+还没做到的是提出全新的宏大理论。但「AI 能不能产生新知识」这个问题，在他看来已经有答案了 [02:30 Greg]。
+
+## 为什么数学跑得快，生物跑得慢？
+
+他的框架很简单：算力加数据加算法，等于能力等于结果。数学之所以先突破，是因为数据管够——大量问题、可验证的答案。生物不一样，数据本身就是瓶颈。
+
+但他从第一性原理出发有个判断：人类天生适合自然语言，生物却是完全陌生的领域；可对神经网络来说，没有理由它处理自然语言就该比处理生物更强。既然它在语言上表现惊人，原则上就应该能破译「生物的语言」[14:10 Greg]。
+
+他举了个短期能见效的例子：有些罕见病患者，其实文献里已经存在治他这种病的药，只是没人找到那篇论文。AI 可以把这类匹配大规模铺开。
+
+主持人补了一组数字：一款药从研发到上市要 15 年、15 亿美元，其中临床前阶段约 5000 万美元，临床试验超过 14 亿美元。所以 Brockman 说，要盯着整条流程的每一步找瓶颈——写监管申报材料要花一年，这种事 AI 做起来容易得多 [11:42 Greg]。至于长期研究，他说可能性能实现 80% 的部分会很快到来。
+
+## DOTS：不下班的AI助理
+
+OpenAI 内部用得最多的新产品叫 DOTS，一个主动式智能体：永远在线、永远在干活，你下班了它还在干 [18:49 Greg]。
+
+Brockman 自己就有一个（图标是只小猫头鹰）。它盯着他答应过却没做的事，每天早上给他一份待办清单；发现日程冲突会提醒他提前离会；它读他的收件箱、Slack，知道他最近在关心什么问题，还能注意到他从来没要求过它注意的事。
+
+他的定性是：DOTS 改变的不是模型能力，而是形态——模型还是那个档次的模型，但在工作场景里配上「永远在岗」这个形态，就是质变。
+
+## 最好的界面是没有界面
+
+他认为最好的界面就是没有界面：你只要能跟它说话就行，用语音、用 Slack、用 iMessage 都可以 [23:41 Greg]。
+
+但完全无界面也有问题：企业里有管理员、有安全团队，新功能上线要能控制，这反而需要某种界面来告诉用户「这里有个功能你用不了」。
+
+OpenAI 的解法是「智能界面」：AI 在现场即时生成你需要的界面。比如订机票需要复杂的比价界面，装自行车需要一个一次性的小工具应用——你永远不会雇人花一个月写这么个应用，但 AI 在当下那一秒给你现生成一个，完全没问题 [26:35 Greg]。
+
+另一个动向是消费端和企业端会走向融合。ChatGPT 有 12 亿消费者，OpenAI 同时又有领先的编程和企业业务，市面上没有第二家两者兼备——所以策略是把两条战线合成一条 [22:12 Greg]。
+
+## 网络安全的「物理规则」正在改变
+
+这是他态度最鲜明的一部分。他抛出的判断是：安全支出最终应该大幅超过软件支出。理由是软件本身正在变得近乎免费、成为入场券，而你要的从来不是软件，是可靠、安全、可信的软件——软件的韧性才是价值所在 [16:24 Greg]。
+
+现状不乐观。互联网天生为韧性而建、不是为安全而建，安全是后来「打补丁」加上去的，现在这些技术债要集中还了。他说从没有哪个安全负责人觉得资源够用，还引用了 XKCD 那幅著名漫画：全世界的基建都压在某个一个人在地下室维护的开源项目上。
+
+OpenAI 的做法是「防御者窗口」论：最前沿的 AI 能力可以先给防御方用，等它广泛扩散就晚了。他们承诺了 10 亿美元帮助一线防御者获得模型访问权，并与 CrowdStrike 等公司合作 [29:52 Greg]。
+
+内部实验更激进：抽调约 25% 的生产工程师，所有项目暂停，只做安全——让最强的模型去攻击自家全部基础设施，找出问题、修完、直到这个模型能找的问题被「榨干」。然后下一个模型发布，再来一轮 [31:10 Greg]。
+
+## 人类必须坐在驾驶座上
+
+谈到 OpenAI 的立场，他重申使命是让通用人工智能造福全人类，人类应该牢牢坐在驾驶座上、掌控未来，技术应该放大人的能动性——即使模型在能力上超过人类 [37:12 Greg]。
+
+他讲了个故事：Steve Jobs 当年为什么给 iMac 装个把手？为了让人们觉得自己能控制这台机器——大不了抱起来扔出窗外。同样的精神要适用于 AI。
+
+未来的分工也许是：人在很多领域更像 CEO 或董事会成员——你身边的 AI 团队懂得比你多，甚至想法比你好，但最终的问题是：你满意吗？这是你想要的吗？这才是技术该回答的问题。
+
+## 本集带走
+
+- AI 已解决约 400 个公开数学问题，「能否创造新知识」的争论基本结束，但全新理论还未出现。
+- 数学快、生物慢的关键在数据：模型能力是通用的，瓶颈在于生物领域有没有足够的数据。
+- 药物研发要盯全流程找瓶颈，监管申报这类「文书活」AI 能立刻提速。
+- Brockman 的大判断：安全支出应大幅超过软件支出，因为软件本身正在近乎免费。
+- OpenAI 内部已实践「模型一发布就自查安全」：25% 工程师停工、用最强模型攻击自家系统直至榨干。
+===金句===
+01:38 | Unknown
+And I think that's very much what happens is that there's just so much activity and that every time you think you're at kind of peak sort of
+ZH: 我认为实际情况正是如此，活动实在太多了，每当你以为自己达到了某种顶峰，
+
+02:20 | Unknown
+And I think that we now have the ability to massively accelerate scientific discovery.
+ZH: 而我认为，我们现在已经有能力大规模加速科学发现。
+
+02:30 | Unknown
+And at this point, it's just impossible to deny, right?
+ZH: 到了这一步，这已经无法否认了，对吧？
+
+02:58 | Unknown
+And I think it's almost like the leverage of humans to do whatever you want to do, it's going way, way up, right?
+ZH: 而且我认为，这几乎就像人类去做任何你想做的事情的杠杆，正在大幅、大幅地上升，对吧？
+
+05:16 | Unknown
+And the thing that I think we will see, but I think that there's promising signs of life on is that there's beautiful insights within the work that these AIs have done.
+ZH: 而我认为我们会看到的东西，但我认为已经有令人振奋的迹象，就是这些 AI 所做的工作中存在着美丽的洞见。
+
+06:18 | Unknown
+And so I think we're into a different phase of machine discovery.
+ZH: 所以我认为我们进入了机器发现的一个不同阶段。
+
+10:46 | Unknown
+Compute data algorithms equals capability equals results.
+ZH: 算力、数据、算法等于能力等于成果。
+
+11:16 | Unknown
+Do we have the ability to get the data?
+ZH: 我们有能力获得数据吗？
+
+13:40 | Unknown
+And I think we're going to find that humans are incredibly bad at biology, incredibly bad at drug discovery.
+ZH: 而且我认为我们会发现，人类在生物学方面极其不擅长，在药物发现方面极其不擅长。
+
+14:10 | Unknown
+And so the fact we're seeing such incredible results with neural nets in natural language, you're just like from first principles, you should be able to really be able to crack the language of biology.
+ZH: 所以，鉴于我们在自然语言上看到神经网络取得如此惊人的成果，你从第一性原理出发会觉得，你应该真的能够破解生物学的语言。
+
+16:17 | Unknown
+And if you have if you reach a point where self-driving cars are 10 times or 100 times safer than than human ones, right, that you've reached that point where AI is actually able to deliver the results in a domain that just are so unambiguously the thing that you want.
+ZH: 而如果你达到一个自动驾驶汽车比人类汽车安全 10 倍或 100 倍的节点，对吧，也就是你达到了 AI 真正能够在某个领域交付结果的程度，而这些结果是如此毫无歧义地就是你想要的东西。
+
+22:34 | Unknown
+We're going to have this renaissance of entrepreneurs.
+ZH: 我们将迎来创业者的文艺复兴。
+
+22:41 | Unknown
+I know people who are quitting their job to go start companies who say, I never would have done it if I didn't have an AI that I knew I could rely on.
+ZH: 我认识一些人，他们辞掉工作去创业，他们说，如果没有一个我知道可以依靠的 AI,我绝不会这么做。
+
+23:37 | Unknown
+So, first of all, I think that the best UI is no UI.
+ZH: 首先，我认为最好的 UI 就是没有 UI。
+
+25:18 | Unknown
+It's just like, that is the AI we were promised.
+ZH: 就像是，那才是我们被承诺过的 AI。
+
+28:41 | Unknown
+There's never been a CISO who's been over-resourced.
+ZH: 从来没有一个 CISO 的资源是过剩的。
+
+29:34 | Unknown
+Like the internet's really been built for resilience, not necessarily for security.
+ZH: 互联网真的是为韧性而建的，而不一定是为安全而建的。
+
+29:37 | Unknown
+And I think that what we're going to see now is a moment where a lot of that debt, a lot of that tech debt is going to come to the surface.
+ZH: 而我认为我们现在将看到的，是大量那种债务、大量那种技术债务浮出水面的时刻。
+
+34:16 | Unknown
+I have a feeling that cyber spend, security spend, should actually vastly outstrip software spend.
+ZH: 我有一种感觉，网络支出、安全支出，实际上应该大幅超过软件支出。
+
+37:44 | Unknown
+So that way people could feel that they could control the machine, that you can always pick it up and throw it out the window.
+ZH: 这样人们就能感觉到他们可以掌控这台机器，你可以随时把它拿起来扔出窗外。
+===END===

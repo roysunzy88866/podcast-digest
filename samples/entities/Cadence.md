@@ -33,7 +33,7 @@ unlisted: true
 
 [[Prakash Narayanan]] · [[Dr. Wara]] · [[Thomas Somers]] · [[Thrive Capital]] · [[Sean Wang]] · [[OpenAI]] · [[Positron]] · [[ChatGPT]] · [[Anthropic]] · [[Neuralink]]
 
-<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Dr. Wara":1,"Thomas Somers":1,"Thrive Capital":1,"Sean Wang":1,"OpenAI":204,"Positron":2,"ChatGPT":113,"Anthropic":205,"Neuralink":4}</script>
+<script type="application/json" class="pd-epn">{"Prakash Narayanan":1,"Dr. Wara":1,"Thomas Somers":1,"Thrive Capital":1,"Sean Wang":1,"OpenAI":206,"Positron":2,"ChatGPT":114,"Anthropic":206,"Neuralink":4}</script>
 
 <script>
 (function(){

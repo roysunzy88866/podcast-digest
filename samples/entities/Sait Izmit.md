@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Snowflake":23,"Cowork":6,"智能体":1,"MCP":96,"变革管理":4,"语义视图":1,"技能":35,"反馈回路":3,"护栏":91}</script>
+<script type="application/json" class="pd-epn">{"Snowflake":23,"Cowork":6,"智能体":1,"MCP":96,"变革管理":4,"语义视图":1,"技能":35,"反馈回路":3,"护栏":92}</script>
 
 <script>
 (function(){

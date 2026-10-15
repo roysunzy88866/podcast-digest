@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":101,"Transformer":10,"服务引擎":1,"Cerebras":2}</script>
+<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":101,"Transformer":11,"服务引擎":1,"Cerebras":2}</script>
 
 <script>
 (function(){

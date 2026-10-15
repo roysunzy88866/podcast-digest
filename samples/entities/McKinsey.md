@@ -42,7 +42,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Microsoft]] · [[AWS]] · [[Lenny]] · [[基准测试]] · [[ChatGPT]] · [[Sequoia]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Google":72,"Anthropic":205,"Microsoft":32,"AWS":24,"Lenny":69,"基准测试":2,"ChatGPT":113,"Sequoia":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":206,"Google":72,"Anthropic":206,"Microsoft":33,"AWS":24,"Lenny":69,"基准测试":2,"ChatGPT":114,"Sequoia":7}</script>
 
 <script>
 (function(){

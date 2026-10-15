@@ -25,7 +25,7 @@ unlisted: true
 
 [[Fred Turner]] · [[Harry Stebbings]] · [[Curative]] · [[Subcritical]] · [[Anthropic]] · [[Salesforce]] · [[YC]] · [[Sentry]] · [[智能体]] · [[SaaS 已死]]
 
-<script type="application/json" class="pd-epn">{"Fred Turner":1,"Harry Stebbings":21,"Curative":1,"Subcritical":1,"Anthropic":205,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
+<script type="application/json" class="pd-epn">{"Fred Turner":1,"Harry Stebbings":21,"Curative":1,"Subcritical":1,"Anthropic":206,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
 
 <script>
 (function(){

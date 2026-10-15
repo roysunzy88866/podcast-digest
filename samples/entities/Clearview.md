@@ -25,7 +25,7 @@ unlisted: true
 
 [[Imad Touil]] · [[技能]] · [[编码智能体]] · [[工作流]] · [[harness]] · [[MCP]] · [[子智能体]] · [[上下文窗口]] · [[微服务]] · [[渐进式披露]]
 
-<script type="application/json" class="pd-epn">{"Imad Touil":1,"技能":35,"编码智能体":35,"工作流":13,"harness":66,"MCP":96,"子智能体":7,"上下文窗口":19,"微服务":1,"渐进式披露":6}</script>
+<script type="application/json" class="pd-epn">{"Imad Touil":1,"技能":35,"编码智能体":35,"工作流":13,"harness":67,"MCP":96,"子智能体":7,"上下文窗口":19,"微服务":1,"渐进式披露":6}</script>
 
 <script>
 (function(){

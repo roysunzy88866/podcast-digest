@@ -25,7 +25,7 @@ unlisted: true
 
 [[Victor]] · [[LangChain]] · [[Deep Agents]] · [[智能体]] · [[harness]] · [[虚拟文件系统]] · [[人在回路]] · [[子智能体]] · [[LangGraph]] · [[LangSmith]]
 
-<script type="application/json" class="pd-epn">{"Victor":3,"LangChain":14,"Deep Agents":4,"智能体":1,"harness":66,"虚拟文件系统":1,"人在回路":24,"子智能体":7,"LangGraph":9,"LangSmith":7}</script>
+<script type="application/json" class="pd-epn">{"Victor":3,"LangChain":15,"Deep Agents":4,"智能体":1,"harness":67,"虚拟文件系统":1,"人在回路":24,"子智能体":7,"LangGraph":9,"LangSmith":7}</script>
 
 <script>
 (function(){

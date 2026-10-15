@@ -296,9 +296,9 @@ Patel 意识到：这个人比他共事过的任何人都聪明，却每天只�
 
 **换个口味**
 
+- [[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来]]<span class="pd-rz">同公司:OpenAI · 同概念:AI 安全 (AI safety)、智能体 (agent)</span>
 - [[2026-06-09-ainativedev-ryan-lopopolo-openai-39-s-framework-for|Harness 工程：让智能体零人工写代码的实操]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、Codex、护栏 (guardrails)</span>
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、Codex、护栏 (guardrails)</span>
-- [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|OpenAI产品负责人：不想让人类成为AI的「事后想起」]]<span class="pd-rz">同公司:OpenAI · 同概念:智能体 (agent)、Codex、护栏 (guardrails)</span>
 
 </div>
 </div>

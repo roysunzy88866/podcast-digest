@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":5,"Meta":55,"MuseSpark":1,"开源模型":4,"智能体":1,"多智能体设置":1,"训练数据":4,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":5,"Meta":56,"MuseSpark":1,"开源模型":4,"智能体":1,"多智能体设置":1,"训练数据":4,"前沿AI实验室":1,"主观能动性":1,"Spark API":1}</script>
 
 <script>
 (function(){

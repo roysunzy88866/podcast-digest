@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":4,"Replit":22,"vibe coding":51,"机器学习":5,"微调":38,"AGI":28,"ChatGPT":113,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":4,"Replit":22,"vibe coding":51,"机器学习":5,"微调":39,"AGI":29,"ChatGPT":114,"项目式学习":1,"过早优化":2,"Holacracy":1}</script>
 
 <script>
 (function(){

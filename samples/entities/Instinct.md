@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Muse]] · [[ChatGPT]] · [[OpenAI]] · [[Amazon]] · [[Anthropic]] · [[主动性]] · [[OpenClaw]] · [[订阅制转型]] · [[信任建立]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Muse":8,"ChatGPT":113,"OpenAI":204,"Amazon":34,"Anthropic":205,"主动性":2,"OpenClaw":24,"订阅制转型":4,"信任建立":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Muse":8,"ChatGPT":114,"OpenAI":206,"Amazon":34,"Anthropic":206,"主动性":2,"OpenClaw":24,"订阅制转型":4,"信任建立":7}</script>
 
 <script>
 (function(){

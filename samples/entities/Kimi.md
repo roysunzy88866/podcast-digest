@@ -34,7 +34,7 @@ unlisted: true
 
 [[Anthropic]] · [[开源]] · [[OpenAI]] · [[Anastasios Angelopoulos]] · [[Zilvinas]] · [[Leisha Lee]] · [[Mamoun Hamid]] · [[Laurent]] · [[Nathan Lambert]] · [[Jubin]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":205,"开源":43,"OpenAI":204,"Anastasios Angelopoulos":1,"Zilvinas":1,"Leisha Lee":1,"Mamoun Hamid":1,"Laurent":2,"Nathan Lambert":1,"Jubin":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"开源":43,"OpenAI":206,"Anastasios Angelopoulos":1,"Zilvinas":1,"Leisha Lee":1,"Mamoun Hamid":1,"Laurent":2,"Nathan Lambert":1,"Jubin":2}</script>
 
 <script>
 (function(){

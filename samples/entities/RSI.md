@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[对齐]] · [[后训练]] · [[奖励黑客]] · [[缩放定律]] · [[推理]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"对齐":25,"后训练":1,"奖励黑客":10,"缩放定律":18,"推理":101,"沙箱":101,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":206,"Anthropic":206,"对齐":25,"后训练":1,"奖励黑客":11,"缩放定律":18,"推理":101,"沙箱":101,"Cursor":87}</script>
 
 <script>
 (function(){

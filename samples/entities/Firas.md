@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Joel de la Garza":5,"Truffle Security":1,"Socket":1,"Hugging Face":38,"NPM":3,"前沿模型":29,"软件供应链":2,"零日漏洞":3,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":1,"Joel de la Garza":5,"Truffle Security":1,"Socket":1,"Hugging Face":39,"NPM":3,"前沿模型":29,"软件供应链":2,"零日漏洞":3,"NPM 蠕虫":1}</script>
 
 <script>
 (function(){

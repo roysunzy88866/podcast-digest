@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":10,"Attention is All You Need":1,"LLM":65,"GPU":33,"OpenAI":204,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":11,"Attention is All You Need":1,"LLM":65,"GPU":33,"OpenAI":206,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

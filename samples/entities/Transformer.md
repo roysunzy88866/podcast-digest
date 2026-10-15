@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Transformer">TR</div><div class="pi"><h1 class="pt">Transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Transformer">TR</div><div class="pi"><h1 class="pt">Transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(14:28起):2017 年的架构经位置编码、稀疏 MLP、激活函数等大量改造演化至今；Chris 认为堆叠 Transformer 极其低效，深度没有被用来学递归函数
 - **[[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with|《扩散模型能不能取代GPT？扩散模型之父下场创业》]]**(05:20起):本集说 2017 年业界从 RNN 转向 Transformer 是因为后者能并行处理 token、训练扩展性更好；Ermon 把扩散模型类比为推理阶段的 Transformer 式转折，且他们的模型仍基于 Transformer 架构。
 - **[[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]]**(14:07起):本集说 Transformer 擅长下一 token 预测;Hugging Face 在它问世后迅速转成 PyTorch 开源而走红,Matt 还沿「还有什么序列值得预测」这条线看好奇器人和科学模型。
+- **[[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]]**(16:33起):本集提到 Google「发明了 transformer 和所有驱动 AI 的东西」，却在竞赛中落后，Sergey Brin 为此不甘。
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为概念(提及)
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
@@ -49,14 +50,15 @@ unlisted: true
 - [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为概念
 - [[2026-09-18-nopriors-why-diffusion-will-win-ai-inference-with|《扩散模型能不能取代GPT？扩散模型之父下场创业》]] — 作为概念
 - [[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]] — 作为概念
+- [[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Copilot]] · [[LLM]] · [[预训练]] · [[Claude Code]] · [[AGI]] · [[强化学习]]
+[[OpenAI]] · [[Anthropic]] · [[智能体]] · [[AGI]] · [[推理]] · [[Microsoft]] · [[LLM]] · [[预训练]] · [[Google DeepMind]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"推理":101,"Copilot":13,"LLM":65,"预训练":9,"Claude Code":114,"AGI":28,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":206,"Anthropic":206,"智能体":1,"AGI":29,"推理":101,"Microsoft":33,"LLM":65,"预训练":9,"Google DeepMind":11,"Meta":56}</script>
 
 <script>
 (function(){

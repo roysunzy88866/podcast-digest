@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":1,"护栏":91,"MCP":96,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":51}</script>
+<script type="application/json" class="pd-epn">{"Bradon Rogers":1,"Island":1,"智能体":1,"护栏":92,"MCP":96,"企业浏览器":1,"拦截页面":1,"AI Protect":1,"AI Publish":1,"vibe coding":51}</script>
 
 <script>
 (function(){

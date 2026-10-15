@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Chaitanya Asawa]] · [[Vasant Kearney]] · [[Abridge]] · [[X12]] · [[Glean]] · [[harness]] · [[临床决策支持]] · [[护栏]] · [[评估]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Chaitanya Asawa":1,"Vasant Kearney":1,"Abridge":1,"X12":1,"Glean":2,"harness":66,"临床决策支持":1,"护栏":91,"评估":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Chaitanya Asawa":1,"Vasant Kearney":1,"Abridge":1,"X12":1,"Glean":2,"harness":67,"临床决策支持":1,"护栏":92,"评估":1}</script>
 
 <script>
 (function(){

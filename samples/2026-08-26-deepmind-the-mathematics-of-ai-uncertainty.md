@@ -139,7 +139,7 @@ jsonLd: |
 
 - [[2026-09-03-changelog-forking-cal-com-to-closed-source|开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌]]<span class="pd-rz">同概念:大语言模型 (large language model)</span>
 - [[2026-10-03-cogrev-one-brain-any-body-google-deepmind-s-kee|跑得比博尔特快没用？DeepMind 机器人负责人谈 Gemini Robotics 与 GPT-2 时代的机器人]]<span class="pd-rz">同公司:Google DeepMind</span>
-- [[2026-08-27-mad-ai-could-take-over-in-2029--is-it-alread|超级智能为什么危险：Ryan Greenblatt 的推演与解法]]<span class="pd-rz">同公司:Google DeepMind</span>
+- [[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|造出超级智能的人，彼此恨之入骨]]<span class="pd-rz">同公司:Google DeepMind</span>
 
 </div>
 <div class="pd-ex">

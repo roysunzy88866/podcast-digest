@@ -1,0 +1,802 @@
+[
+ {
+  "seg": 0,
+  "start": 13.31,
+  "end": 14.431,
+  "speaker": "Unknown",
+  "en": "Let's get started.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 15.832,
+  "end": 16.593,
+  "speaker": "Unknown",
+  "en": "Good afternoon, everyone.",
+  "zh": "大家下午好。"
+ },
+ {
+  "seg": 2,
+  "start": 16.973,
+  "end": 31.707,
+  "speaker": "Unknown",
+  "en": "I'm Ali and I'm one of the founders of guitar.ai and previously the CEO up until about a month ago where we were acquired by Sonar and now we are part of Sonar.",
+  "zh": "我是 Ali,我是 guitar.ai 的创始人之一,此前担任 CEO,直到大约一个月前我们被 Sonar 收购,现在我们是 Sonar 的一部分。"
+ },
+ {
+  "seg": 3,
+  "start": 33.005,
+  "end": 39.213,
+  "speaker": "Unknown",
+  "en": "And you've heard a lot in the past few days about the importance of verification in the age of AI.",
+  "zh": "过去几天里你们已经听到了很多关于 AI 时代验证重要性的内容。"
+ },
+ {
+  "seg": 4,
+  "start": 39.773,
+  "end": 43.618,
+  "speaker": "Unknown",
+  "en": "And so today I'm going to focus my talk on code and verifying code.",
+  "zh": "所以今天我的演讲将聚焦于代码和验证代码。"
+ },
+ {
+  "seg": 5,
+  "start": 45.026,
+  "end": 52.329,
+  "speaker": "Unknown",
+  "en": "So in almost all software teams, there is this centralized validation phase that is basically CI plus code review.",
+  "zh": "在几乎所有软件团队中,都有一个集中式的验证阶段,基本上就是 CI 加代码审查。"
+ },
+ {
+  "seg": 6,
+  "start": 53.23,
+  "end": 61.074,
+  "speaker": "Unknown",
+  "en": "And as you scale your engineering, this phase plays a very critical part, especially in an AI world.",
+  "zh": "随着你的工程规模扩大,这个阶段扮演着非常关键的角色,尤其是在 AI 世界中。"
+ },
+ {
+  "seg": 7,
+  "start": 61.874,
+  "end": 65.256,
+  "speaker": "Unknown",
+  "en": "First, it enforces all your quality gates centrally.",
+  "zh": "首先,它集中地执行你所有的质量门禁。"
+ },
+ {
+  "seg": 8,
+  "start": 65.656,
+  "end": 69.578,
+  "speaker": "Unknown",
+  "en": "So these are security, compliance, good quality gates.",
+  "zh": "这些是安全性、合规性、良好的质量门禁。"
+ },
+ {
+  "seg": 9,
+  "start": 70.458,
+  "end": 73.561,
+  "speaker": "Unknown",
+  "en": "It's on the critical path of getting your changes into production.",
+  "zh": "它处于让你的变更进入生产环境的关键路径上。"
+ },
+ {
+  "seg": 10,
+  "start": 74.161,
+  "end": 75.903,
+  "speaker": "Unknown",
+  "en": "So the faster is always the better.",
+  "zh": "所以越快总是越好。"
+ },
+ {
+  "seg": 11,
+  "start": 76.383,
+  "end": 80.306,
+  "speaker": "Unknown",
+  "en": "But as you scale engineering, this becomes kind of a challenge.",
+  "zh": "但随着工程规模的扩大,这会变成一种挑战。"
+ },
+ {
+  "seg": 12,
+  "start": 80.466,
+  "end": 91.475,
+  "speaker": "Unknown",
+  "en": "As you have longer running builds and tasks, you have asynchronous team review flows across sites and geographies, and things just get slower naturally as you grow.",
+  "zh": "随着你拥有运行时间更长的构建和任务,你有跨站点和跨地域的异步团队审查流程,随着你的成长,一切自然就变慢了。"
+ },
+ {
+  "seg": 13,
+  "start": 93.158,
+  "end": 97.961,
+  "speaker": "Unknown",
+  "en": "This is also a phase where you end up spending a lot of developer infrastructure dollars.",
+  "zh": "这也是一个你会花费大量开发者基础设施资金的阶段。"
+ },
+ {
+  "seg": 14,
+  "start": 98.322,
+  "end": 106.468,
+  "speaker": "Unknown",
+  "en": "So there's a lot of expensive tools here that need to be integrated and scaled up as you scale your organization.",
+  "zh": "这里有很多昂贵的工具,需要随着你的组织规模扩大而集成和扩展。"
+ },
+ {
+  "seg": 15,
+  "start": 107.349,
+  "end": 109.45,
+  "speaker": "Unknown",
+  "en": "And it all runs on very expensive infrastructure.",
+  "zh": "而且这一切都运行在非常昂贵的基础设施上。"
+ },
+ {
+  "seg": 16,
+  "start": 110.711,
+  "end": 117.937,
+  "speaker": "Unknown",
+  "en": "For these reasons, it's oftentimes the main focus of your platform organization team or your platform team.",
+  "zh": "出于这些原因,这往往是你的平台组织团队或平台团队的主要关注点。"
+ },
+ {
+  "seg": 17,
+  "start": 119.382,
+  "end": 124.767,
+  "speaker": "Unknown",
+  "en": "But any kind of failure in this phase is very expensive.",
+  "zh": "但这个阶段的任何失败都是非常昂贵的。"
+ },
+ {
+  "seg": 18,
+  "start": 125.168,
+  "end": 130.833,
+  "speaker": "Unknown",
+  "en": "Failures introduce an outer loop that are typically measured in hours and days.",
+  "zh": "失败会引入一个外循环,通常以小时和天来计算。"
+ },
+ {
+  "seg": 19,
+  "start": 131.574,
+  "end": 132.955,
+  "speaker": "Unknown",
+  "en": "So failures are expensive.",
+  "zh": "所以失败是昂贵的。"
+ },
+ {
+  "seg": 20,
+  "start": 132.995,
+  "end": 133.635,
+  "speaker": "Unknown",
+  "en": "They're costly.",
+  "zh": "它们代价很高。"
+ },
+ {
+  "seg": 21,
+  "start": 133.715,
+  "end": 135.357,
+  "speaker": "Unknown",
+  "en": "They really slow down your velocity.",
+  "zh": "它们真的会拖慢你的速度。"
+ },
+ {
+  "seg": 22,
+  "start": 136.358,
+  "end": 141.823,
+  "speaker": "Unknown",
+  "en": "You lose developer time, and that's compounded by disruptions to your flow state.",
+  "zh": "你会损失开发者的时间,而流状态被打断又使这一点雪上加霜。"
+ },
+ {
+  "seg": 23,
+  "start": 143.863,
+  "end": 167.183,
+  "speaker": "Unknown",
+  "en": "It's also very expensive to optimize so you've got a lot of fragmented systems that have been integrated together with bespoke configuration and scripting and you have a usually headcount restricted constrained platform organization trying to keep it all up and running for you and trying to address that all with AI is also kind of complex because it requires complex workflow orchestration",
+  "zh": "优化它也非常昂贵,所以你有很多碎片化的系统,它们通过定制的配置和脚本集成在一起,而且你有一个通常受编制限制的平台组织在努力让这一切保持正常运行,试图用 AI 来解决这一切也是相当复杂的,因为它需要复杂的工作流编排"
+ },
+ {
+  "seg": 24,
+  "start": 168.099,
+  "end": 173.527,
+  "speaker": "Unknown",
+  "en": "Involving various asynchronous interaction, team workflows, integrations across tools and so on.",
+  "zh": "涉及各种异步交互、团队工作流、跨工具的集成等等。"
+ },
+ {
+  "seg": 25,
+  "start": 176.718,
+  "end": 179.54,
+  "speaker": "Unknown",
+  "en": "In fact, AI kind of makes the problem even worse.",
+  "zh": "事实上,AI 反而有点让问题变得更糟。"
+ },
+ {
+  "seg": 26,
+  "start": 180.74,
+  "end": 189.666,
+  "speaker": "Unknown",
+  "en": "You've got a lot of PRs now being generated, more PRs than before, thanks to AI, and bigger PRs, all of which can have defects.",
+  "zh": "现在有很多 PR 在被生成,比以前更多的 PR,这要感谢 AI,而且 PR 更大,所有这些都可能有缺陷。"
+ },
+ {
+  "seg": 27,
+  "start": 190.486,
+  "end": 194.228,
+  "speaker": "Unknown",
+  "en": "And so your costs in your development lifecycle are kind of shifting to the right.",
+  "zh": "所以你的开发生命周期中的成本在向右移。"
+ },
+ {
+  "seg": 28,
+  "start": 194.849,
+  "end": 196.41,
+  "speaker": "Unknown",
+  "en": "You have a lot more code to review.",
+  "zh": "你有更多的代码要审查。"
+ },
+ {
+  "seg": 29,
+  "start": 196.75,
+  "end": 199.692,
+  "speaker": "Unknown",
+  "en": "You can now have potential for a lot more failures in production.",
+  "zh": "你现在可能有更多在生产环境中出现故障的可能性。"
+ },
+ {
+  "seg": 30,
+  "start": 200.832,
+  "end": 202.693,
+  "speaker": "Unknown",
+  "en": "And so your choices are kind of tough here.",
+  "zh": "所以你的选择在这里相当艰难。"
+ },
+ {
+  "seg": 31,
+  "start": 202.794,
+  "end": 210.559,
+  "speaker": "Unknown",
+  "en": "Either you slow down and ask developers to review every PR very carefully, or you rubber stamp PRs and you risk incidents in production.",
+  "zh": "要么你放慢速度,要求开发者非常仔细地审查每一个 PR,要么你对 PR 盖章放行,然后你冒着生产事故的风险。"
+ },
+ {
+  "seg": 32,
+  "start": 211.239,
+  "end": 219.605,
+  "speaker": "Unknown",
+  "en": "Either way, you've got less happy developers, lower sentiment, and much less productivity than you'd expect.",
+  "zh": "无论哪种方式,你的开发者都不会那么开心,情绪更低落,生产力也远低于你的预期。"
+ },
+ {
+  "seg": 33,
+  "start": 222.362,
+  "end": 223.142,
+  "speaker": "Unknown",
+  "en": "What's the answer here?",
+  "zh": "答案是什么?"
+ },
+ {
+  "seg": 34,
+  "start": 223.383,
+  "end": 224.703,
+  "speaker": "Unknown",
+  "en": "Of course, it's more AI.",
+  "zh": "当然,是更多的 AI。"
+ },
+ {
+  "seg": 35,
+  "start": 225.043,
+  "end": 235.469,
+  "speaker": "Unknown",
+  "en": "It's an agentic approach to validation, which is essentially what we built at Guitar that we're now also shipping as part of Sonar.",
+  "zh": "这是一种智能体验证方法,这基本上就是我们在 Guitar 构建的东西,现在我们也作为 Sonar 的一部分发布它。"
+ },
+ {
+  "seg": 36,
+  "start": 236.65,
+  "end": 241.893,
+  "speaker": "Unknown",
+  "en": "And basically, what we've got here is an agent that fully automates all the validation steps.",
+  "zh": "基本上,我们这里拥有的就是一个智能体,它完全自动化了所有验证步骤。"
+ },
+ {
+  "seg": 37,
+  "start": 242.793,
+  "end": 248.416,
+  "speaker": "Unknown",
+  "en": "And as outcomes, it delivers for you green PRs that are ready to merge or merge automatically.",
+  "zh": "作为结果,它为你交付可以合并或自动合并的绿色 PR。"
+ },
+ {
+  "seg": 38,
+  "start": 248.697,
+  "end": 249.397,
+  "speaker": "Unknown",
+  "en": "Now, how does this work?",
+  "zh": "那么,这是如何工作的?"
+ },
+ {
+  "seg": 39,
+  "start": 250.135,
+  "end": 254.218,
+  "speaker": "Unknown",
+  "en": "Well, first, when you create your PR, it reviews your PR and posts issues and inline comments.",
+  "zh": "首先,当你创建你的 PR 时,它会审查你的 PR,并发布问题和行内评论。"
+ },
+ {
+  "seg": 40,
+  "start": 254.338,
+  "end": 255.039,
+  "speaker": "Unknown",
+  "en": "No surprise there.",
+  "zh": "这不足为奇。"
+ },
+ {
+  "seg": 41,
+  "start": 256.08,
+  "end": 266.928,
+  "speaker": "Unknown",
+  "en": "But our goal has been to really make this experience as noise-free as possible, both in the way we handle the UX, as well as posting issues that are real and really matter.",
+  "zh": "但我们的目标是真正让这个体验尽可能无噪音,无论是我们处理 UX 的方式,还是发布真实且真正重要的问题。"
+ },
+ {
+  "seg": 42,
+  "start": 268.63,
+  "end": 276.096,
+  "speaker": "Unknown",
+  "en": "You can customize your review with your own rules, and you can add your own custom checks, and you can trigger your own custom workflow automations.",
+  "zh": "你可以用自己的规则自定义你的审查,你可以添加你自己的自定义检查,你可以触发你自己的自定义工作流自动化。"
+ },
+ {
+  "seg": 43,
+  "start": 277.628,
+  "end": 282.772,
+  "speaker": "Unknown",
+  "en": "And then you can also configure the system to block merging if there are any unresolved code review findings.",
+  "zh": "然后你还可以配置系统,在有任何未解决的代码审查发现时阻止合并。"
+ },
+ {
+  "seg": 44,
+  "start": 284.994,
+  "end": 289.898,
+  "speaker": "Unknown",
+  "en": "It also analyzes CI failures and posts a summary of the root causes of those failures.",
+  "zh": "它还分析 CI 失败,并发布这些失败根本原因的摘要。"
+ },
+ {
+  "seg": 45,
+  "start": 290.558,
+  "end": 294.081,
+  "speaker": "Unknown",
+  "en": "And in particular, it's really good at catching flaky tests.",
+  "zh": "尤其是它非常擅长捕捉不稳定的测试。"
+ },
+ {
+  "seg": 46,
+  "start": 294.762,
+  "end": 298.204,
+  "speaker": "Unknown",
+  "en": "And you can even set up rules that automatically retry flaky tests if you want.",
+  "zh": "如果你愿意,你甚至可以设置规则自动重试不稳定的测试。"
+ },
+ {
+  "seg": 47,
+  "start": 299.065,
+  "end": 300.166,
+  "speaker": "Unknown",
+  "en": "That's a very popular feature.",
+  "zh": "这是一个非常受欢迎的功能。"
+ },
+ {
+  "seg": 48,
+  "start": 301.863,
+  "end": 311.986,
+  "speaker": "Unknown",
+  "en": "You can also automatically fix any code review issues or any CI failures, any kind of failures that happen in CI, it can fix it for you, as well as address any of the issues that it raises.",
+  "zh": "你还可以自动修复任何代码审查问题或任何 CI 失败,任何在 CI 中发生的失败,它都可以为你修复,以及解决它提出的任何问题。"
+ },
+ {
+  "seg": 49,
+  "start": 313.027,
+  "end": 324.89,
+  "speaker": "Unknown",
+  "en": "You can either ask it to specifically fix an issue, or more interestingly, you can set it up to automatically loop until all the issues have been fixed in your PR and you have a green PR ready to merge.",
+  "zh": "你可以要求它专门修复某个问题,或者更有意思的是,你可以将它设置为自动循环,直到你的 PR 中所有问题都被修复,并且你有一个可以合并的绿色 PR。"
+ },
+ {
+  "seg": 50,
+  "start": 326.611,
+  "end": 327.031,
+  "speaker": "Unknown",
+  "en": "And finally,",
+  "zh": "最后,"
+ },
+ {
+  "seg": 51,
+  "start": 328.279,
+  "end": 332.52,
+  "speaker": "Unknown",
+  "en": "You can automatically approve and merge PRs that are green.",
+  "zh": "你可以自动批准并合并变绿的 PR。"
+ },
+ {
+  "seg": 52,
+  "start": 332.86,
+  "end": 344.044,
+  "speaker": "Unknown",
+  "en": "You can define rules and conditions that control when PRs get automatically approved by the agents and merged automatically.",
+  "zh": "你可以定义规则和条件,控制什么时候 PR 会被智能体自动批准并自动合并。"
+ },
+ {
+  "seg": 53,
+  "start": 345.053,
+  "end": 348.695,
+  "speaker": "Unknown",
+  "en": "So we're seeing actually a very interesting trend in our users.",
+  "zh": "我们实际上在用户中看到了一个非常有趣的趋势。"
+ },
+ {
+  "seg": 54,
+  "start": 349.375,
+  "end": 353.317,
+  "speaker": "Unknown",
+  "en": "There's a clear trajectory towards fully automated PRs.",
+  "zh": "有一条清晰的轨迹,朝着完全自动化的 PR 发展。"
+ },
+ {
+  "seg": 55,
+  "start": 354.078,
+  "end": 362.442,
+  "speaker": "Unknown",
+  "en": "As users use the system, as they build trust in the accuracy of the AI, what we see is they work towards full automation.",
+  "zh": "随着用户使用这个系统,随着他们对 AI 准确性建立起信任,我们看到他们会走向完全自动化。"
+ },
+ {
+  "seg": 56,
+  "start": 363.022,
+  "end": 368.343,
+  "speaker": "Unknown",
+  "en": "First, they get reviews, and they're happy with, they build trust in the accuracy of their reviews.",
+  "zh": "首先,他们获取评审,并且对评审的准确性建立信任,他们对此感到满意。"
+ },
+ {
+  "seg": 57,
+  "start": 368.363,
+  "end": 372.244,
+  "speaker": "Unknown",
+  "en": "They see that these reviews are not only accurate, but they're raising really important issues.",
+  "zh": "他们看到这些评审不仅准确,而且提出的问题非常重要。"
+ },
+ {
+  "seg": 58,
+  "start": 372.744,
+  "end": 377.786,
+  "speaker": "Unknown",
+  "en": "So then they give teeth to the agent by allowing it to start blocking the PRs.",
+  "zh": "于是他们给智能体装上牙齿,允许它开始拦截 PR。"
+ },
+ {
+  "seg": 59,
+  "start": 378.626,
+  "end": 387.788,
+  "speaker": "Unknown",
+  "en": "And then they start using the autofix capabilities to automatically turn PRs green and fix all the issues that were raised by code review or any CI failures that come up.",
+  "zh": "然后他们开始使用自动修复功能,自动让 PR 变绿,并修复代码评审提出的所有问题,以及出现的任何 CI 失败。"
+ },
+ {
+  "seg": 60,
+  "start": 389.104,
+  "end": 400.37,
+  "speaker": "Unknown",
+  "en": "And then where the real interesting leap is beginning to happen now is users setting up rules that define when the agent automatically approves and merges PRs.",
+  "zh": "然后现在真正有趣的飞跃开始发生,就是用户设置规则,定义智能体什么时候自动批准并合并 PR。"
+ },
+ {
+  "seg": 61,
+  "start": 401.511,
+  "end": 407.574,
+  "speaker": "Unknown",
+  "en": "So over time, as they build trust in the system, they unlock more levels of automation.",
+  "zh": "所以随着时间推移,随着他们对系统建立起信任,他们解锁更多层级的自动化。"
+ },
+ {
+  "seg": 62,
+  "start": 408.354,
+  "end": 412.877,
+  "speaker": "Unknown",
+  "en": "And with the additional levels of automation and with the trust, they're getting more value out of the system.",
+  "zh": "而随着额外的自动化层级和信任,他们从系统中获得了更多价值。"
+ },
+ {
+  "seg": 63,
+  "start": 414.808,
+  "end": 422.054,
+  "speaker": "Unknown",
+  "en": "Now because the system processes every single PR using AI, it's also able to uncover new types of insights.",
+  "zh": "现在,由于系统用 AI 处理每一个 PR,它还能发掘出新类型的洞察。"
+ },
+ {
+  "seg": 64,
+  "start": 422.834,
+  "end": 431.321,
+  "speaker": "Unknown",
+  "en": "For example, one of the insights that is very useful to platform teams is a categorization of the top CI failures.",
+  "zh": "例如,对平台团队非常有用的一个洞察,是对排名靠前的 CI 失败进行分类。"
+ },
+ {
+  "seg": 65,
+  "start": 432.002,
+  "end": 434.684,
+  "speaker": "Unknown",
+  "en": "Where are you seeing failures in your CI system?",
+  "zh": "你的 CI 系统里在哪里出现失败?"
+ },
+ {
+  "seg": 66,
+  "start": 434.864,
+  "end": 437.006,
+  "speaker": "Unknown",
+  "en": "Where your developer is running into failures?",
+  "zh": "你的开发者在哪些地方遇到失败?"
+ },
+ {
+  "seg": 67,
+  "start": 438.112,
+  "end": 443.515,
+  "speaker": "Unknown",
+  "en": "Are these flakiness issues that you need to address by improving the reliability of the tests?",
+  "zh": "这些是需要通过提高测试可靠性来解决的不稳定(flakiness)问题吗?"
+ },
+ {
+  "seg": 68,
+  "start": 444.115,
+  "end": 446.857,
+  "speaker": "Unknown",
+  "en": "Or are there infrastructure issues that you need to address?",
+  "zh": "还是你需要解决的基础设施问题?"
+ },
+ {
+  "seg": 69,
+  "start": 447.978,
+  "end": 449.979,
+  "speaker": "Unknown",
+  "en": "Or are there other kinds of failures that they're running into?",
+  "zh": "还是他们遇到的其他类型的失败?"
+ },
+ {
+  "seg": 70,
+  "start": 450.159,
+  "end": 451.72,
+  "speaker": "Unknown",
+  "en": "Very, very useful for platform teams.",
+  "zh": "这对平台团队非常、非常有用。"
+ },
+ {
+  "seg": 71,
+  "start": 452.86,
+  "end": 453.561,
+  "speaker": "Unknown",
+  "en": "We also have",
+  "zh": "我们还有"
+ },
+ {
+  "seg": 72,
+  "start": 454.892,
+  "end": 461.517,
+  "speaker": "Unknown",
+  "en": "Another example of what else we have in terms of AI-enabled insights are categorization of PRs.",
+  "zh": "在 AI 赋能的洞察方面,我们的另一个例子是对 PR 进行分类。"
+ },
+ {
+  "seg": 73,
+  "start": 461.837,
+  "end": 466.781,
+  "speaker": "Unknown",
+  "en": "What exactly is happening across your engineering team in terms of the PRs that are being landed?",
+  "zh": "就你们工程团队正在合入的 PR 而言,到底在发生什么?"
+ },
+ {
+  "seg": 74,
+  "start": 466.941,
+  "end": 469.183,
+  "speaker": "Unknown",
+  "en": "This is extremely useful for leadership teams.",
+  "zh": "这对领导团队极其有用。"
+ },
+ {
+  "seg": 75,
+  "start": 470.604,
+  "end": 478.11,
+  "speaker": "Unknown",
+  "en": "For example, what amount of PRs are going to feature development versus fixing issues, chores, refactors, and so on?",
+  "zh": "比如,有多少比例的 PR 用于功能开发, versus 修复问题、杂务、重构等等?"
+ },
+ {
+  "seg": 76,
+  "start": 479.932,
+  "end": 484.816,
+  "speaker": "Unknown",
+  "en": "Now, under the hood, if you look at the system, there's a number of components that constitute guitar.",
+  "zh": "现在,从底层看这个系统,有若干个组件构成了 guitar。"
+ },
+ {
+  "seg": 77,
+  "start": 485.636,
+  "end": 486.937,
+  "speaker": "Unknown",
+  "en": "There are three interesting pieces here.",
+  "zh": "这里有三个有意思的部分。"
+ },
+ {
+  "seg": 78,
+  "start": 487.158,
+  "end": 493.582,
+  "speaker": "Unknown",
+  "en": "One is the control plane that acts as this orchestration layer for handling PR workflows.",
+  "zh": "一个是控制平面,它作为处理 PR 工作流的编排层。"
+ },
+ {
+  "seg": 79,
+  "start": 494.683,
+  "end": 497.525,
+  "speaker": "Unknown",
+  "en": "And then there's an agent runtime or harness.",
+  "zh": "然后是智能体运行时或 harness。"
+ },
+ {
+  "seg": 80,
+  "start": 497.646,
+  "end": 506.812,
+  "speaker": "Unknown",
+  "en": "We built our own harness here that handles multi-agent execution, context management, memory management, tool calling, all the integrations, et cetera.",
+  "zh": "我们在这里构建了自己的 harness,处理多智能体执行、上下文管理、内存管理、工具调用、所有集成等等。"
+ },
+ {
+  "seg": 81,
+  "start": 507.713,
+  "end": 515.959,
+  "speaker": "Unknown",
+  "en": "And having this, having our own agent harness has really allowed us to optimize specifically for the validation use case.",
+  "zh": "拥有这个、拥有我们自己的智能体 harness,真正让我们能够专门针对验证这个用例做优化。"
+ },
+ {
+  "seg": 82,
+  "start": 516.9,
+  "end": 522.884,
+  "speaker": "Unknown",
+  "en": "And it's allowed us to optimize for token costs, precision, and coverage of the agent itself.",
+  "zh": "它让我们能够在 token 成本、精确率和智能体本身的覆盖率方面做优化。"
+ },
+ {
+  "seg": 83,
+  "start": 523.664,
+  "end": 531.35,
+  "speaker": "Unknown",
+  "en": "So that allows us to essentially guarantee outcomes at a fixed PR price while giving really good quality results.",
+  "zh": "所以这让我们能够在固定的 PR 价格下实质性地保证结果,同时给出非常好的质量。"
+ },
+ {
+  "seg": 84,
+  "start": 532.491,
+  "end": 538.934,
+  "speaker": "Unknown",
+  "en": "We also have an NLM proxy that handles the routing across different models as well as things like failover.",
+  "zh": "我们还有一个 NLM 代理,处理跨不同模型的路由以及故障转移之类的事情。"
+ },
+ {
+  "seg": 85,
+  "start": 540.735,
+  "end": 546.117,
+  "speaker": "Unknown",
+  "en": "Now that we're part of Sonar, we've been integrating guitar with SonarQ.",
+  "zh": "现在我们成为 Sonar 的一部分,我们一直在把 guitar 与 SonarQ 集成。"
+ },
+ {
+  "seg": 86,
+  "start": 546.957,
+  "end": 553.24,
+  "speaker": "Unknown",
+  "en": "There's a ton of opportunity here in combining an agentic approach to validation with program analysis.",
+  "zh": "这里存在巨大的机会:把智能体验证的思路与程序分析结合起来。"
+ },
+ {
+  "seg": 87,
+  "start": 553.56,
+  "end": 556.402,
+  "speaker": "Unknown",
+  "en": "So combining agents with things like",
+  "zh": "也就是把智能体与这些东西结合:"
+ },
+ {
+  "seg": 88,
+  "start": 558.816,
+  "end": 566.999,
+  "speaker": "Unknown",
+  "en": "Taint analysis, control flow analysis, data flow analysis, software composition analysis, so all the traditional approaches combined with agents.",
+  "zh": "污点分析、控制流分析、数据流分析、软件成分分析,即所有传统方法与智能体相结合。"
+ },
+ {
+  "seg": 89,
+  "start": 567.839,
+  "end": 575.862,
+  "speaker": "Unknown",
+  "en": "We think there's a ton of opportunity here and that together you can get much better precision, much better coverage at a really great price point.",
+  "zh": "我们认为这里有巨大的机会,两者结合可以在非常好的价位上获得好得多的精确率和覆盖率。"
+ },
+ {
+  "seg": 90,
+  "start": 577.483,
+  "end": 594.129,
+  "speaker": "Unknown",
+  "en": "So the overall results, the value that we're seeing in all of this is much better quality, much better security, especially with AI-generated code, faster delivery times through all the automation, going from PRs straight to approved and merged PRs.",
+  "zh": "总体结果,我们从这一切中看到的价值是:好得多的质量、好得多的安全性,尤其是针对 AI 生成的代码;通过所有自动化实现更快的交付速度,从 PR 直接走到已批准并合并的 PR。"
+ },
+ {
+  "seg": 91,
+  "start": 595.312,
+  "end": 609.277,
+  "speaker": "Unknown",
+  "en": "Much higher productivity and sentiment by developers, so less time spent on actually reviewing code and worrying about what's happening in production with more confidence, as well as sentiment because now you have much better sentiment because you have a lot of automation in place and less grunt work.",
+  "zh": "开发者的生产力和情绪都大幅提高,也就是花在实际评审代码上的时间更少,并且更有信心,不必再担心生产环境发生了什么;同时情绪也更好,因为现在有大量自动化就位,苦差事更少了。"
+ },
+ {
+  "seg": 92,
+  "start": 610.437,
+  "end": 624.122,
+  "speaker": "Unknown",
+  "en": "And finally, the features that we've built for platform teams gives them a lot more leverage to be able to fix issues and to add customizations and see insights in this critical part of the software development lifecycle.",
+  "zh": "最后,我们为平台团队构建的功能给了他们更多的杠杆,能够修复问题、添加自定义,并在这个软件开发生命周期的关键环节看到洞察。"
+ },
+ {
+  "seg": 93,
+  "start": 626.465,
+  "end": 632.83,
+  "speaker": "Unknown",
+  "en": "To wrap up, PR validation is really critical, even more so in AI.",
+  "zh": "总结一下,PR 验证真的非常关键,在 AI 时代更是如此。"
+ },
+ {
+  "seg": 94,
+  "start": 633.69,
+  "end": 636.352,
+  "speaker": "Unknown",
+  "en": "But AI turns validation into a friction point.",
+  "zh": "但 AI 把验证变成了一个摩擦点。"
+ },
+ {
+  "seg": 95,
+  "start": 637.333,
+  "end": 652.685,
+  "speaker": "Unknown",
+  "en": "And Guitar, what we've built, allows you to automate this step, fully automate PR validation, go from created PRs all the way to merge, completely eliminating this friction, and helps you keep up with the rate at which you're generating code from AI.",
+  "zh": "而 Guitar——我们构建的这个东西——让你能自动化这一步,把 PR 验证完全自动化,从创建的 PR 一直到合并,彻底消除这个摩擦,并帮助你跟上用 AI 生成代码的速度。"
+ },
+ {
+  "seg": 96,
+  "start": 653.822,
+  "end": 666.506,
+  "speaker": "Unknown",
+  "en": "And finally, the combination of using agents, doing agentic validation plus an algorithmic program analysis will give you something that I think is going to be much better than either alone.",
+  "zh": "最后,使用智能体做智能体验证加上算法化的程序分析,这种组合会带来我认为远比任何单独一种都好得多的东西。"
+ },
+ {
+  "seg": 97,
+  "start": 667.627,
+  "end": 674.989,
+  "speaker": "Unknown",
+  "en": "If you want to talk more and you want to see more, if you'd like to see a demo, come on and visit us at booth number P7 right down the hall there.",
+  "zh": "如果你想进一步交流,想看更多,想看演示,请到走廊那边的 P7 号展台来找我们。"
+ },
+ {
+  "seg": 98,
+  "start": 675.429,
+  "end": 675.71,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 99,
+  "start": 683.958,
+  "end": 684.018,
+  "speaker": "Unknown",
+  "en": "So,",
+  "zh": "那么,"
+ }
+]

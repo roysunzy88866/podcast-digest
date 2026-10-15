@@ -1,0 +1,239 @@
+{
+  "title_zh": "造出超级智能的人，彼此恨之入骨",
+  "tldr": "Kevin Roose 讲《The AGI Chronicles》：一群互相看不顺眼的 AI 掌门人，正在竞速建造可能比人更聪明的东西。",
+  "digest_md": "Big Technology Podcast 请来了《纽约时报》记者 Kevin Roose，聊他的新书《The AGI Chronicles》。他花了数年时间采访 OpenAI、Anthropic、Google DeepMind 内部的 150 多人，本想写一部严肃的技术史，结果发现这其实是一个关于仇恨、猜疑与信仰的故事——而主角们正在建造人类历史上最强大的技术。\n\n## 一群连自己公司都管不好的人，要保护我们？\n\n书里的核心矛盾很扎眼：Elon Musk 与 OpenAI 决裂、Sam Altman 被亲密同事赶下台、有 OpenAI 的人因为受不了而出走创办 Anthropic、Google 内部 Brain 和 DeepMind 内斗不断。几乎每个主角都卷入过戏剧性的政治风波。\n\n> 【背景】出走创办 Anthropic 的人指 Dario Amodei,他曾任 OpenAI 高管。\n\n而就是这些人，一边告诉公众这项技术危险到需要防备，一边根本坐不到一张桌子上谈安全。Roose 写了一句很妙的话：「Machines of Love and Grace would be built by humans of bitter spite.」——**慈爱优雅的机器，将由满怀怨毒的人类建造**。[06:04 Roose]\n\n他原本以为这只是可口可乐对百事式的商战，后来发现更像罗马对迦太基：10 年前 Dario Amade、Ilya Satzkever、Sam Altman 和 Elon Musk 还是 OpenAI 的同事，如今都在为不同的 AI 项目工作，很多人处于互相撕咬的状态。[04:14 Roose]\n\n## 问题不在谁坏，而在圈子太小\n\nRoose 的结论不是某个具体的人不可信，而是决策权太集中：过去十年，AI 的所有关键决定，大约出自几十个人之手。不管这些人动机纯不纯，**这么小的一群人秘密掌控并治理这样的技术，本身就不可信**。[07:07 Roose]\n\n他采访后的感受是更不放心了。起初他觉得实验室里至少有大人、有负责任的人——AI 领袖从第一天起就公开说自己害怕这项技术，这比当年只谈好处的社交媒体强多了。但很快他看清了格局：这是一场停不下来的竞赛，OpenAI 出新模型，Anthropic 必须跟上，Google 又必须跟上。生物學里管这叫 Red Queen's race——不管你跑多快，别人总在更快，你拼命奔跑只为留在原地。[12:03 Roose]\n\n## 仇恨从哪来？因为赌注是史上最重要\n\n为什么这些人斗得这么凶？Roose 的解释是：他们真心相信这是人类造过的最重要的技术，谁先造出来谁就是世界上最强大的实体。如果争的只是下个季度的营收，不会有人这么拼命。[21:35 Roose]\n\n书里有个好玩的细节：Demis Hassabis 始终想不通 Sam Altman 为什么要造 AGI，认定他背后藏着权力野心。而在 Dario 眼里，Sam 谈安全只是野心的遮羞布。有意思的是，所有人都觉得别人是为了权力，只有自己动机纯粹。[28:14 Roose]\n\n几个人的画像也很有味道。Sam 的超能力同时是他的弱点：他是世界上最强的融资者和推销员，能一眼看出你要什么然后给你——或者至少让你以为给了你。这也是他落下滑头的名声的原因。[29:23 Roose] Dario 则相反，一位熟人评价他「是个连撒谎救命都不会的人」，这「双数日子是资产，单数日子是负债」。他聪明、有原则，也固执得像道德绝对主义者。[32:22 Roose]\n\n## 信念，才是 OpenAI 依然领先的原因\n\n一个反直觉的问题：OpenAI 流失了那么多顶尖人才——Dario、Ilya、后来跳去 Meta 的一批人——==为什么还领先==？\n\nRoose 的答案是：信念。写到一半他发现，这不是一本关于技术的书，而是一本关于信仰的书。OpenAI 和 Anthropic 是信念最强的两家公司，人人都真的相信自己正在造改变世界的超级智能。Google 什么都有——资源、人才、突破、transformer 都是它发明的——唯独缺信念，领导者并不像 Dario 和 Sam 那样真的信 AGI。[57:05 Roose]\n\nGoogle 内部甚至有过著名的备忘录大战：一位研究员发内部信说必须谈 AGI，否则既抢不到想造 AGI 的人才，也不会认真对待 AGI 的风险；马上有人回信说别用这个词，不科学。这场笔仗 Google 员工多年后还在谈论。[58:42 Roose]\n\n信念的另一个体现是敢下注。当初 OpenAI 大手笔投算力时，连 Dario 都觉得这帮人疯了。现在所有人都跟进了，但 OpenAI 赢在它在该赌不赌得明的问题上，先赌了。[58:03 Roose]\n\n## 造 AI 的人，自己也被 AI 吓到\n\n书里最好的一类故事，是造技术的人被自己的技术吓到。GPT-1 时代，OpenAI 的研究员围着 Alec Radford 的电脑屏幕，发现一个用乱七八糟的 Reddit 链接训出来的模型，居然能回答各种问题、切换各种语气，一群人在 Slack 里发爆头表情包。后来推理模型出现前夜，2023 年某个深夜，两位研究员看着 Q* 模型的第一批思维链，意识到模型不用重新训练、光靠推理就能变聪明，深夜给 Sam 和 Mira 发消息，感觉世界要完蛋了。[37:38 Roose]\n\nRoose 说，正是这一步，让模型从数不清 strawberry 里有几个 r，三年内做到解千禧年大奖难题。这也是他反对AI 只是炒作论的原因：三年前连基本算术都不行的东西，现在已经这样了，**质疑者只是没看懂指数曲线**——他觉得有点像新冠早期，西雅图才 40 个病例的时刻。[23:22 Roose]\n\n他甚至因此改变了自己。他曾担心自己像当年对待加密货币一样被忽悠，但区别在于：加密货币从没成为他日常生活的必需品，而 AI 工具他天天用、越用越多。用一用，你就不会再怀疑它是不是真的了。[25:13 Roose]\n\n## 更吓人的是：他们不是失控，是在主动交权\n\n有个流行的说法是实验室正在失去对模型的控制。Roose 认为恰恰说反了：**他们是在主动把控制权交给模型**。Anthropic 披露，Claude 已经在主导其 26% 的 AI 研发项目——不是当编程助手，是当项目负责人。OpenAI 的目标则是造出一个全自动的 AI 研究员。一旦这个闭环合上，新模型可能不再半年一代，而是以机器的速度迭代。[60:07 Roose]\n\nRoose 的态度很明确：他信递归自我改进是可能的，也认为这很危险，实验室应该停手。但他同时是暂停派而非停止派：他希望 AI 治好癌症、帮他报销差旅，只是希望人类先慢下来，赢得研发控制方法的时间。[59:50 Roose]\n\n那什么能让大家真的慢下来？他的答案有点黑色幽默：可能得等一场灾难。9·11 之后爱国者法案几周就通过，三里岛事故后美国核电站停建了几十年。他并不希望灾难发生，但那可能是现状下唯一能改变节奏的情景。[14:14 Roose]\n\n## 本集带走\n\n- AI 圈的恩怨不是普通商战，而是前同事间的深仇，核心决策圈只有几十人，这本身就是治理风险。\n- OpenAI 屡经动荡仍领先的关键不是人才，而是从上到下真信 AGI 的组织信念——Google 恰恰输在这里。\n- 连造模型的人都不断被自己技术的进步速度惊到：推理范式让模型三年内从数不清字母到解千禧年难题。\n- 实验室不是失去对 AI 的控制，而是主动把研发交给 AI——Anthropic 称 Claude 已主导 26% 的研发项目。\n- Roose 自称暂停派：不反对造，但认为能力已跑在安全研究前面，人类需要用灾难以外的方式争取到减速的机会。",
+  "quotes": [
+    {
+      "en": "I had thought this was more like Coke and Pepsi, like kind of a normal business rivalry, but it was actually more like Rome and Carthage.",
+      "zh": "我原以为这更像是可口可乐和百事可乐，算是一种正常的商业竞争，但实际上更像是罗马和迦太基。",
+      "timestamp": "04:06",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "so much of what we're seeing is a reflection of how viscerally these people mistrust and dislike each other, even in things like how they feel about regulation and China and how they're racing toward this thing that all of them seem quite fearful of.",
+      "zh": "我们看到的很多东西，都是这些人在本能层面多么不信任、多么厌恶彼此的反映，甚至在他们对监管、对中国这类问题的态度上也是如此，以及他们如何竞相奔向这件他们所有人都似乎相当恐惧的东西。",
+      "timestamp": "04:41",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "You wrote, Machines of Love and Grace would be built by humans of bitter spite.",
+      "zh": "你写道：“Machines of Love and Grace 将由满怀恶毒怨恨的人类建造。”",
+      "timestamp": "05:59",
+      "speaker": "SPEAKER_05"
+    },
+    {
+      "en": "all of the relevant decisions in AI have been made by like a couple dozen people maybe.",
+      "zh": "AI 中所有相关的决策都是由大概也就几十个人做出的。",
+      "timestamp": "07:07",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "And so I don't trust any group of people that small to create and govern technology like this.",
+      "zh": "所以我不信任任何这么小的一群人去创造和治理像这样的技术。",
+      "timestamp": "07:24",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "But I am worried when I hear people saying things like, we don't know how to control these systems that are rapidly approaching superintelligence.",
+      "zh": "但当我听到人们说“我们不知道如何控制这些正在迅速接近超级智能的系统”这样的话时，我是担心的。",
+      "timestamp": "09:26",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "You're just kind of racing to stay in the same place.",
+      "zh": "你只是在拼命奔跑，为了留在原地。",
+      "timestamp": "12:15",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "I am slightly less pessimistic about the idea of a pause because things can change incredibly quickly.",
+      "zh": "我对暂停这种想法还没有那么悲观，因为事情的变化可以非常快。",
+      "timestamp": "14:00",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "We've never been the second smartest species on the planet before.",
+      "zh": "我们以前从来没有做过地球上第二聪明的物种。",
+      "timestamp": "21:42",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "Steam engines didn't go rogue and like hack competitors and develop bio weapons and do things that the engineers building the steam engines didn't expect or plan for.",
+      "zh": "蒸汽机可没有变得失控、去黑竞争对手、开发生物武器、做那些建造蒸汽机的工程师们没有预料到或没有计划到的事情。",
+      "timestamp": "21:55",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "I feel like the people who are looking at this technology and saying like what's the big deal are just not understanding the rate of progress.",
+      "zh": "我觉得那些看着这项技术说这有什么大不了的人，只是没有理解进步的速度。",
+      "timestamp": "23:41",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "I think that Sam's superpower is also his weakness.",
+      "zh": "我认为 Sam 的超能力同时也是他的弱点。",
+      "timestamp": "29:03",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "But all these guys think that the other people are in it for the power.",
+      "zh": "但所有这些人也都认为别人是为了权力。",
+      "timestamp": "28:17",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "There was maybe not a serious chance, but there was a chance that the way that whole situation resolved is they end up merging OpenAI and Anthropic.",
+      "zh": "也许不是一个认真的可能性，但确实存在一种可能：整个局面的收场方式是他们最终把 OpenAI 和 Anthropic 合并。",
+      "timestamp": "44:00",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "I thought it was gonna be a book about technology, but it was a book about belief.",
+      "zh": "我原本以为它会是一本关于技术的书，但它其实是一本关于信念的书。",
+      "timestamp": "56:16",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "They had all the ingredients except for belief.",
+      "zh": "他们有所有的要素，唯独缺信念。",
+      "timestamp": "57:05",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "But they have an advantage because they made the bet before it was obvious.",
+      "zh": "但他们有优势，因为他们在这还不明显之前就下了注。",
+      "timestamp": "58:11",
+      "speaker": "Kevin Roose"
+    },
+    {
+      "en": "I think the real answer is unsatisfying, which is that people are getting freaked out about AI because AI is getting scarier.",
+      "zh": "我觉得真实的答案并不令人满意，那就是：人们对 AI 感到恐慌，是因为 AI 正变得越来越可怕。",
+      "timestamp": "54:53",
+      "speaker": "Kevin Roose"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:05",
+      "speaker": "Kevin Roos",
+      "en": "I had thought this was more like Coke and Pepsi, like kind of a normal business rivalry, but it was actually more like Rome and Carthage.",
+      "zh": "我原以为这更像是可口可乐和百事可乐，算是一种正常的商业竞争，但实际上更像是罗马和迦太基。"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Kevin Roos",
+      "en": "so much of what we're seeing is a reflection of how viscerally these people mistrust and dislike each other, even in things like how they feel about regulation and China and how they're racing toward this thing that all of them seem quite fearful of.",
+      "zh": "我们看到的很多东西，都是这些人在本能层面多么不信任、多么厌恶彼此的反映，甚至在他们对监管、对中国这类问题的态度上也是如此，以及他们如何竞相奔向这件他们所有人都似乎相当恐惧的东西。"
+    },
+    {
+      "timestamp": "06:04",
+      "speaker": "主持人",
+      "en": "You wrote, Machines of Love and Grace would be built by humans of bitter spite.",
+      "zh": "你写道：“Machines of Love and Grace 将由满怀恶毒怨恨的人类建造。”"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Kevin Roos",
+      "en": "all of the relevant decisions in AI have been made by like a couple dozen people maybe.",
+      "zh": "AI 中所有相关的决策都是由大概也就几十个人做出的。"
+    },
+    {
+      "timestamp": "07:24",
+      "speaker": "Kevin Roos",
+      "en": "And so I don't trust any group of people that small to create and govern technology like this.",
+      "zh": "所以我不信任任何这么小的一群人去创造和治理像这样的技术。"
+    },
+    {
+      "timestamp": "09:26",
+      "speaker": "Kevin Roos",
+      "en": "But I am worried when I hear people saying things like, we don't know how to control these systems that are rapidly approaching superintelligence.",
+      "zh": "但当我听到人们说“我们不知道如何控制这些正在迅速接近超级智能的系统”这样的话时，我是担心的。"
+    },
+    {
+      "timestamp": "12:15",
+      "speaker": "Kevin Roos",
+      "en": "You're just kind of racing to stay in the same place.",
+      "zh": "你只是在拼命奔跑，为了留在原地。"
+    },
+    {
+      "timestamp": "14:08",
+      "speaker": "Kevin Roos",
+      "en": "I am slightly less pessimistic about the idea of a pause because things can change incredibly quickly.",
+      "zh": "我对暂停这种想法还没有那么悲观，因为事情的变化可以非常快。"
+    },
+    {
+      "timestamp": "21:47",
+      "speaker": "Kevin Roos",
+      "en": "We've never been the second smartest species on the planet before.",
+      "zh": "我们以前从来没有做过地球上第二聪明的物种。"
+    },
+    {
+      "timestamp": "21:55",
+      "speaker": "Kevin Roos",
+      "en": "Steam engines didn't go rogue and like hack competitors and develop bio weapons and do things that the engineers building the steam engines didn't expect or plan for.",
+      "zh": "蒸汽机可没有变得失控、去黑竞争对手、开发生物武器、做那些建造蒸汽机的工程师们没有预料到或没有计划到的事情。"
+    },
+    {
+      "timestamp": "23:41",
+      "speaker": "Kevin Roos",
+      "en": "I feel like the people who are looking at this technology and saying like what's the big deal are just not understanding the rate of progress.",
+      "zh": "我觉得那些看着这项技术说这有什么大不了的人，只是没有理解进步的速度。"
+    },
+    {
+      "timestamp": "29:03",
+      "speaker": "Kevin Roos",
+      "en": "I think that Sam's superpower is also his weakness.",
+      "zh": "我认为 Sam 的超能力同时也是他的弱点。"
+    },
+    {
+      "timestamp": "28:17",
+      "speaker": "Kevin Roos",
+      "en": "But all these guys think that the other people are in it for the power.",
+      "zh": "但所有这些人也都认为别人是为了权力。"
+    },
+    {
+      "timestamp": "30:17",
+      "speaker": "Kevin Roos",
+      "en": "And it's a big part of the reason that Dario and his six co-founders of Anthropic left.",
+      "zh": "而这也是 Dario 和他在 Anthropic 的六位联合创始人离开的一个重要原因。"
+    },
+    {
+      "timestamp": "44:00",
+      "speaker": "Kevin Roos",
+      "en": "There was maybe not a serious chance, but there was a chance that the way that whole situation resolved is they end up merging OpenAI and Anthropic.",
+      "zh": "也许不是一个认真的可能性，但确实存在一种可能：整个局面的收场方式是他们最终把 OpenAI 和 Anthropic 合并。"
+    },
+    {
+      "timestamp": "56:21",
+      "speaker": "Kevin Roos",
+      "en": "I thought it was gonna be a book about technology, but it was a book about belief.",
+      "zh": "我原本以为它会是一本关于技术的书，但它其实是一本关于信念的书。"
+    },
+    {
+      "timestamp": "57:05",
+      "speaker": "Kevin Roos",
+      "en": "They had all the ingredients except for belief.",
+      "zh": "他们有所有的要素，唯独缺信念。"
+    },
+    {
+      "timestamp": "58:11",
+      "speaker": "Kevin Roos",
+      "en": "But they have an advantage because they made the bet before it was obvious.",
+      "zh": "但他们有优势，因为他们在这还不明显之前就下了注。"
+    },
+    {
+      "timestamp": "61:24",
+      "speaker": "Kevin Roos",
+      "en": "Like they are giving control to their models.",
+      "zh": "他们是在主动把控制交给他们的模型。"
+    },
+    {
+      "timestamp": "54:53",
+      "speaker": "Kevin Roos",
+      "en": "I think the real answer is unsatisfying, which is that people are getting freaked out about AI because AI is getting scarier.",
+      "zh": "我觉得真实的答案并不令人满意，那就是：人们对 AI 感到恐慌，是因为 AI 正变得越来越可怕。"
+    }
+  ],
+  "voice_script": "今天这一期，咱们讲一个人和一本书。《纽约时报》的科技记者 Kevin Roose，出了本新书，叫《The AGI Chronicles》。为了写这本书，花了几年时间，采访了 OpenAI、Anthropic、Google DeepMind 内部一百五十多个人。本来想写一部严肃的技术史，结果写着写着发现，这根本不是技术史，这是一个关于仇恨、猜疑和信仰的故事——而故事里的主角们，正在建造人类历史上最强大的技术。\n\n先把这个局面给你摆清楚。今天站在 AI 最前排的这几个人——Elon Musk、Sam Altman、Dario Amodei，还有 Ilya——十年前，后面这三位还都是 OpenAI 的同事。现在呢？Musk 跟 OpenAI 彻底决裂了，Altman 被最亲密的同事联手赶下过台，受不了 OpenAI 的人出走创办了 Anthropic，Google 内部 Brain 和 DeepMind 两大团队内斗不断。Roose 本来以为这是可口可乐对百事那种正常商战，后来发现不是——更像罗马对迦太基，是你死我活的那种。\n\n这就引出一个特别扎眼的问题。这些人一边公开告诉公众，这项技术危险到需要全人类防备，一边彼此恨到根本坐不到一张桌子上谈安全。书里有句话说得特别妙，直译过来是：慈爱优雅的机器，将由满怀怨毒的人类建造。\n\n那问题到底出在哪？Roose 的结论不是某个具体的人坏，而是决策权太集中了。过去十年，AI 领域所有关键决定，大概就出自几十个人之手。不管这些人动机纯不纯，让这么小的一群人，秘密掌控并治理这样的技术，这件事本身就不可信。\n\n刚去采访的时候，感觉其实还不错。AI 这帮领袖从第一天起就公开说自己害怕这项技术，比起当年只谈好处的社交媒体大佬，至少显得有担当。但很快，Roose 看清了真正的格局：这是一场停不下来的竞赛。OpenAI 出新模型，Anthropic 必须跟上，Google 又必须跟上。生物学里管这叫红皇后赛跑——不管你跑多快，别人总在更快，你拼命奔跑，只为留在原地。\n\n那为什么斗得这么凶？因为赌注太大了。这些人真心相信，这是人类造过的最重要的技术，谁先造出来，谁就是世界上最强大的实体。如果争的只是下个季度的营收，不会有人这么拼命。\n\n书里有个好玩的细节，最能说明这种互相猜疑。Google DeepMind 的掌门人 Demis Hassabis 始终想不通，Altman 为什么要造 AGI——就是那个可能比人还聪明的通用人工智能——认定背后藏着权力野心。而在 Dario 眼里，Altman 谈安全，不过是野心的遮羞布。最有意思的是，所有人都觉得别人是为了权力，只有自己动机纯粹。\n\n几个人的画像也很有味道。Altman 的超能力同时是弱点：世界上最强的融资者和推销员，能一眼看出你想要什么然后给你——或者至少让你以为给了你——这也是落下滑头名声的原因。Dario 正相反，有熟人评价，是个连撒谎救命都不会的人，双数日子是资产，单数日子就是负债。聪明、有原则，也固执得像个道德绝对主义者。\n\n好，说到这，有个反直觉的问题值得停下来想想：OpenAI 流失了那么多顶尖人才——Dario 走了，Ilya 走了，后来还跳去 Meta 一批人——凭什么还领先？Roose 答案就俩字：信念。写到一半发现，这不是一本关于技术的书，是一本关于信仰的书。OpenAI 和 Anthropic 是信念最强的两家公司，人人都真信自己正在造改变世界的超级智能。Google 恰恰相反，什么都有——资源、人才、突破，连 transformer 都是发明的——唯独缺信念，领导者并不真信 AGI。Google 内部还打过一场著名的备忘录大战：一位研究员发内部信说必须谈 AGI，否则既抢不到人才，也不会认真对待风险；马上有人回信说别用这个词，不科学。这场笔仗，Google 员工多年后还在谈论。\n\n信念还体现在敢下注。当初 OpenAI 大手笔投算力的时候，连 Dario 都觉得这帮人疯了。现在所有人都跟进了，但 OpenAI 赢就赢在，在该赌不该赌还不明的问题上，先赌了。\n\n接下来这部分，可能是全书最好看的一类故事：造技术的人，被自己的技术吓到。GPT-1 时代，OpenAI 的研究员围着同事的电脑屏幕，发现一个用乱七八糟的 Reddit 链接训出来的模型，居然能回答各种问题、切换各种语气，一群人在聊天工具里刷爆头表情包。更吓人的是推理模型出现前夜，2023 年某个深夜，两位研究员盯着模型的第一批思维链，意识到一件事：模型不用重新训练，光靠推理就能变聪明。深更半夜给管理层发消息，感觉世界要完蛋了。\n\n正是这一步，让模型从数不清 strawberry 里有几个 r，三年内做到解千禧年大奖难题。这也是 Roose 反对“AI 只是炒作”论的原因：三年前连基本算术都不行的东西，现在已经是这样了，质疑者只是没看懂指数曲线。有点像新冠早期，西雅图才四十个病例的时刻。连自己也被改变了——本来担心像当年对待加密货币那样被忽悠，但区别在于，加密货币从没成为日常必需品，AI 工具却是天天用、越用越多。用一用，你就不会再怀疑它是真的了。\n\n最后这部分，可能是最值得你记住的。现在有个流行说法，说实验室正在失去对模型的控制。Roose 认为恰恰说反了——他们不是失控，是在主动把控制权交给模型。Anthropic 披露过，Claude 已经在主导自家百分之二十六的 AI 研发项目——注意，不是当编程助手，是当项目负责人。OpenAI 的目标则是造出一个全自动的 AI 研究员。一旦这个闭环合上，新模型可能不再半年一代，而是以机器的速度迭代。\n\nRoose 的态度很明确：信递归自我改进是可能的，也认为这很危险，实验室应该停手。但注意，属于暂停派，不是停止派——希望 AI 治好癌症、帮着报销差旅，只是希望人类先慢下来，赢得研发控制方法的时间。那什么能让大家真的慢下来？答案有点黑色幽默：可能得等一场灾难。九一一之后，爱国者法案几周就通过了；三里岛事故之后，美国核电站停建了几十年。并不希望灾难发生，但在现状之下，那可能是唯一能改变节奏的情景。\n\n最后送你一句书里的话，值得反复咀嚼：慈爱优雅的机器，将由满怀怨毒的人类建造。"
+}

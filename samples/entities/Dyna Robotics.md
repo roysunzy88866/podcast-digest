@@ -29,11 +29,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]] [[Mike Cannon-Brookes]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Ma":1,"Dyna2":1,"世界动作模型":1,"世界模型":15,"扩散 Transformer":1,"流匹配":1,"思维链":12,"第一人称数据":1,"微调":38,"蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"Jason Ma":1,"Dyna2":1,"世界动作模型":1,"世界模型":15,"扩散 Transformer":1,"流匹配":1,"思维链":12,"第一人称数据":1,"微调":39,"蒸馏":1}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Resolve AI":3,"智能体":1,"on call":2,"事故":2,"模型编排":1,"上下文工程":18,"因果推理":1,"护栏":91,"评估":1,"Slack":34}</script>
+<script type="application/json" class="pd-epn">{"Resolve AI":3,"智能体":1,"on call":2,"事故":2,"模型编排":1,"上下文工程":18,"因果推理":1,"护栏":92,"评估":1,"Slack":34}</script>
 
 <script>
 (function(){

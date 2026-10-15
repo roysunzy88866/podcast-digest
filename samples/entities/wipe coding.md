@@ -25,7 +25,7 @@ unlisted: true
 
 [[Aakash]] · [[Ankit Shukla]] · [[产品构建者]] · [[AI 产品经理]] · [[Claude]] · [[ChatGPT]] · [[Codex]] · [[智能体 AI]] · [[提示词工程]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"Ankit Shukla":1,"产品构建者":3,"AI 产品经理":1,"Claude":97,"ChatGPT":113,"Codex":90,"智能体 AI":6,"提示词工程":2,"RAG":29}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"Ankit Shukla":1,"产品构建者":3,"AI 产品经理":1,"Claude":98,"ChatGPT":114,"Codex":90,"智能体 AI":6,"提示词工程":2,"RAG":29}</script>
 
 <script>
 (function(){

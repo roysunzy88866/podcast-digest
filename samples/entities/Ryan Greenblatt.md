@@ -62,11 +62,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Nick Bostrom]] [[Rana El-Khalyubi]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":204,"Anthropic":205,"Hugging Face":38,"对齐":25,"奖励黑客":10,"智能体":1,"Matt Turk":5,"Theo Jaffe":8,"Google DeepMind":10}</script>
+<script type="application/json" class="pd-epn">{"Redwood Research":4,"OpenAI":206,"Anthropic":206,"Hugging Face":39,"对齐":25,"奖励黑客":11,"智能体":1,"Matt Turk":5,"Theo Jaffe":8,"Google DeepMind":11}</script>
 
 <script>
 (function(){

@@ -59,11 +59,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]] [[Arvind Srinivas]]
+[[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]] [[Daval Ajada]] [[Alex Cornell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":21,"Google":72,"智能体":1,"主观能动性":1,"零日漏洞":3,"护栏":91,"governance":7,"开源":43}</script>
+<script type="application/json" class="pd-epn">{"Palo Alto Networks":2,"CyberArk":1,"Waymo":21,"Google":72,"智能体":1,"主观能动性":1,"零日漏洞":3,"护栏":92,"governance":7,"开源":43}</script>
 
 <script>
 (function(){

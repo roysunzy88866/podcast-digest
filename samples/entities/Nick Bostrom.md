@@ -70,11 +70,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]] [[Anders Swanson]] [[Jeffrey Ladish]]
+[[Kevin Roose]] [[Greg Brockman]] [[Leisha Lee]] [[Nathan Lambert]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[Rana El-Khalyubi]] [[Tibo Sottiaux]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hugging Face":38,"对齐":25,"超级智能":12,"暂停":2,"Alex":6,"生存风险":5,"OpenAI":204,"工具性趋同":1,"Anthropic":205,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":39,"对齐":25,"超级智能":13,"暂停":2,"Alex":6,"生存风险":5,"OpenAI":206,"工具性趋同":1,"Anthropic":206,"强化学习":1}</script>
 
 <script>
 (function(){

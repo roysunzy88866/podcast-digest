@@ -1,0 +1,1268 @@
+{
+  "episode_id": "2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-10-15",
+  "tags": [
+    "AI 行业",
+    "AI 实验室",
+    "AI 安全",
+    "AGI",
+    "公司内斗"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "kevin-roose",
+      "type": "person",
+      "role": "guest",
+      "name": "Kevin Roose",
+      "file": "Kevin Roose",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它是 AI 竞赛的领先者：屡经内斗与人才流失仍领先，关键是从上到下真信 AGI 的组织信念，并率先在算力上下了疯狂的赌注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            146.688,
+            149.829
+          ],
+          "quote": "There is Elon Musk's split from OpenAI, of course.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 39,
+          "t": [
+            155.371,
+            159.633
+          ],
+          "quote": "Anthropic not being able to stand working with the OpenAI folks.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 42,
+          "t": [
+            167.796,
+            172.318
+          ],
+          "quote": "There's Ilya Sitzkever's botched attempt at steering OpenAI in a safe direction.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 44,
+          "t": [
+            173.719,
+            178.361
+          ],
+          "quote": "Mira Mirati couldn't lead OpenAI when she was there as the interim CEO for like five minutes.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 51,
+          "t": [
+            224.908,
+            238.205
+          ],
+          "quote": "And I interviewed more than 150 people, and I was sort of prepared to write like a sober history of technology book that would be about the scientific breakthroughs and the technical achievements at the labs, OpenAI, Anthropic, and Google DeepMind.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 58,
+          "t": [
+            260.202,
+            266.489
+          ],
+          "quote": "Dario Amade, Ilya Satzkever, Sam Altman, and Elon Musk were all colleagues at OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 67,
+          "t": [
+            332.464,
+            344.882
+          ],
+          "quote": "There's a report about how OpenAI and Anthropic and DeepMind are all talking about there's basically an inevitable seemingly black swan event that's going to happen as a result of this technology, whether it's",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 124,
+          "t": [
+            599.866,
+            602.007
+          ],
+          "quote": "DeepMind's been talking about, OpenAI's been talking about.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 146,
+          "t": [
+            706.04,
+            714.971
+          ],
+          "quote": "They are locked into this pattern of, you know, OpenAI releases a better model, so then Anthropic has to release a better model, so then Google has to release a better model.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 191,
+          "t": [
+            944.288,
+            950.43
+          ],
+          "quote": "And then he has this run in with this researcher, Dan Selsum from OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1083.079,
+            1090.403
+          ],
+          "quote": "And who's going to break out the company out of it other than the founder being like, OpenAI and Anthropic aren't, you know, doing the chill work day.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1714.035,
+            1720.36
+          ],
+          "quote": "I think that's something that I think you indicate a lot of people within OpenAI or who've interacted with him believe.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1778.743,
+            1786.246
+          ],
+          "quote": "And that is a huge asset for him when he's trying to raise money from someone like Massa Son or some of the other investors in OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1808.643,
+            1816.733
+          ],
+          "quote": "And so this is the consistent pattern that people have identified in SAM for going back to literally the founding days of OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1992.85,
+            2004.235
+          ],
+          "quote": "He came up with a lot of these ideas around scaling and his big blob of compute research memo was very instrumental in the early days of OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2150.751,
+            2164.308
+          ],
+          "quote": "I think there was a moment at the end of the book where Ilya, again, former OpenAI chief science officer, now the CEO of SafeSuperintelligence, like is reflecting to you about what happens and he's like, I can't believe this is all real.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2196.905,
+            2204.27
+          ],
+          "quote": "There's some great scenes around the early language models when all the researchers at OpenAI are huddled around a computer.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2294.892,
+            2317.643
+          ],
+          "quote": "Well, and to the point about these people not understanding the importance of what they built, there was this night in this conference room at OpenAI in 2023 when two of the top researchers there are looking at the first reasoning traces, the first chains of thought from one of these models, and it's the QSTAR model.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2333.33,
+            2335.491
+          ],
+          "quote": "And even the people at OpenAI thought they were crazy.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2562.861,
+            2568.485
+          ],
+          "quote": "And he offered to be the CEO of OpenAI after Sam was fired.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2609.046,
+            2621.933
+          ],
+          "quote": "And then there's this middle-of-the-night call between the board of OpenAI and Dario and Daniella Amade, the CEO and president of Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2622.533,
+            2631.027
+          ],
+          "quote": "Who at this point had just left OpenAI like three years earlier in this sort of cloud of frustration over not being able to trust him.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2640.071,
+            2647.932
+          ],
+          "quote": "There was maybe not a serious chance, but there was a chance that the way that whole situation resolved is they end up merging OpenAI and Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2671.959,
+            2676.241
+          ],
+          "quote": "And Alexander Wang running OpenAI would have been a real fork in the road, too.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2709.36,
+            2710.441
+          ],
+          "quote": "He invests in OpenAI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2764.568,
+            2769.632
+          ],
+          "quote": "And I think it's important to note, they were told by OpenAI, don't put this into production.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2792.226,
+            2799.209
+          ],
+          "quote": "OpenAI had sent them an early checkpoint of GPT-4 to start testing and figuring out what to do with.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2816.438,
+            2827.404
+          ],
+          "quote": "So OpenAI and Microsoft had been like hand in glove partners for years at this point and Satya and Sam would do these like events together and they were very much joined at the hip and then",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2828.404,
+            2849.444
+          ],
+          "quote": "Around the time of the Sydney thing they just started to like kind of fracture there's like lots of other drama about these Microsoft sent these like embeds to work inside OpenAI like at their headquarters and kind of learn from them like how do we avoid things like this in the future they don't really get along like the the OpenAI employees don't trust the Microsoft employees so they'll start excluding them from meetings and stuff like that.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2880.51,
+            2886.638
+          ],
+          "quote": "I think they should have been more tightly intertwined with OpenAI from the beginning.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2886.758,
+            2891.144
+          ],
+          "quote": "I think they should have learned the engineering culture of OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2894.428,
+            2897.952
+          ],
+          "quote": "I think there were some people at Microsoft who are very skeptical about OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2993.052,
+            2999.857
+          ],
+          "quote": "Bill Gates was, like, very skeptical of OpenAI for years, in part because of this Tay experience that they had.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 708,
+          "t": [
+            3342.954,
+            3344.275
+          ],
+          "quote": "All right, OpenAI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3381.288,
+            3392.876
+          ],
+          "quote": "And for all of its flaws and stumbles, for all the people who have left, OpenAI and Anthropic are the two most believing organizations.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3439.794,
+            3445.138
+          ],
+          "quote": "And so I think that this explains a lot of why OpenAI is still in the lead.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3476.06,
+            3481.181
+          ],
+          "quote": "Like, I remember like a year ago when everyone was like, oh, OpenAI is really investing a lot in compute.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3598.148,
+            3606.732
+          ],
+          "quote": "Anthropic is sort of trying to give, and OpenAI has done versions of this too, they're trying to give people a sense of how much of their own research is being automated by their own tools right now.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 774,
+          "t": [
+            3630.38,
+            3635.424
+          ],
+          "quote": "I mean, OpenAI has also said like their goal is to build an automated AI researcher.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它由受不了 OpenAI 的 Dario 等人出走创办，创始论点是必须成为领导者才能让人认真对待其安全警告；并披露 Claude 已主导其 26% 的 AI 研发项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            155.371,
+            159.633
+          ],
+          "quote": "Anthropic not being able to stand working with the OpenAI folks.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 51,
+          "t": [
+            224.908,
+            238.205
+          ],
+          "quote": "And I interviewed more than 150 people, and I was sort of prepared to write like a sober history of technology book that would be about the scientific breakthroughs and the technical achievements at the labs, OpenAI, Anthropic, and Google DeepMind.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 67,
+          "t": [
+            332.464,
+            344.882
+          ],
+          "quote": "There's a report about how OpenAI and Anthropic and DeepMind are all talking about there's basically an inevitable seemingly black swan event that's going to happen as a result of this technology, whether it's",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 123,
+          "t": [
+            595.984,
+            599.006
+          ],
+          "quote": "This is something, I mean, companies like Anthropic have been talking about for a long time.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 146,
+          "t": [
+            706.04,
+            714.971
+          ],
+          "quote": "They are locked into this pattern of, you know, OpenAI releases a better model, so then Anthropic has to release a better model, so then Google has to release a better model.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 154,
+          "t": [
+            743.619,
+            763.557
+          ],
+          "quote": "One of the things that struck me, speaking of the race, is, you know, reading your book, it sort of recalled this interview that I did when I was working on a profile about Dario Amode from Anthropic last year, where one of his early friends told me everybody that I knew was interested in AI because of safety.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 159,
+          "t": [
+            785.742,
+            787.983
+          ],
+          "quote": "Like if Anthropic was the number seven company.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 161,
+          "t": [
+            797.221,
+            799.602
+          ],
+          "quote": "And this was the founding thesis of Anthropic, by the way.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1083.079,
+            1090.403
+          ],
+          "quote": "And who's going to break out the company out of it other than the founder being like, OpenAI and Anthropic aren't, you know, doing the chill work day.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1170.938,
+            1175.36
+          ],
+          "quote": "They own like 12% of Anthropic and like they're going to be fine.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1817.914,
+            1823.757
+          ],
+          "quote": "And it's a big part of the reason that Dario and his six co-founders of Anthropic left.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2076.482,
+            2079.765
+          ],
+          "quote": "I think we were actually in Anthropic headquarters on the same day speaking.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2609.046,
+            2621.933
+          ],
+          "quote": "And then there's this middle-of-the-night call between the board of OpenAI and Dario and Daniella Amade, the CEO and president of Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2640.071,
+            2647.932
+          ],
+          "quote": "There was maybe not a serious chance, but there was a chance that the way that whole situation resolved is they end up merging OpenAI and Anthropic.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3381.288,
+            3392.876
+          ],
+          "quote": "And for all of its flaws and stumbles, for all the people who have left, OpenAI and Anthropic are the two most believing organizations.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3598.148,
+            3606.732
+          ],
+          "quote": "Anthropic is sort of trying to give, and OpenAI has done versions of this too, they're trying to give people a sense of how much of their own research is being automated by their own tools right now.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 770,
+          "t": [
+            3607.452,
+            3614.335
+          ],
+          "quote": "And according to Anthropic, Claude is now the lead on 26% of their AI research and development projects.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3745.869,
+            3750.19
+          ],
+          "quote": "Like before Jacob Coxon resigned from Anthropic, before Hugging Face,",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集说它资源、人才、突破（transformer）俱全，唯独缺信念——领导者不像 Dario 和 Sam 那样真信 AGI，内部还有著名的「AGI 备忘录大战」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            224.908,
+            238.205
+          ],
+          "quote": "And I interviewed more than 150 people, and I was sort of prepared to write like a sober history of technology book that would be about the scientific breakthroughs and the technical achievements at the labs, OpenAI, Anthropic, and Google DeepMind.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1098.286,
+            1101.647
+          ],
+          "quote": "You know, co-founder of DeepMind, until recently the CEO of Google DeepMind.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说它从 AI 竞赛的关键行动者沦为尴尬的边缘角色：把未完成微调的 GPT-4 早期版本塞进 Bing 酿成 Sydney 事件，与 OpenAI 关系从此出现裂痕。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 492,
+          "t": [
+            2421.866,
+            2430.344
+          ],
+          "quote": "Some more stories from the book including a great story about Alexander Wang, assessing Microsoft inside Inadella's role in all this, and plenty more when we're back right after this.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2713.304,
+            2720.159
+          ],
+          "quote": "And then, you know, as I'm looking at my notes, as I was reading the book, I was like, man, it's an all-time fumble by Microsoft.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2721.436,
+            2732.485
+          ],
+          "quote": "Talk a little bit about what happened with Satya and Microsoft and why they've gone from the key actor, it's not an exaggeration to say they were the key actor, to an afterthought, an embarrassment.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2749.018,
+            2754.942
+          ],
+          "quote": "Experience in 2023 of having this Microsoft Bing chatbot, like try to break up my marriage.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2787.604,
+            2792.106
+          ],
+          "quote": "And it turns out that, yes, this was a mistake on Microsoft's part.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2799.609,
+            2800.53
+          ],
+          "quote": "Microsoft goes ahead and",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2816.438,
+            2827.404
+          ],
+          "quote": "So OpenAI and Microsoft had been like hand in glove partners for years at this point and Satya and Sam would do these like events together and they were very much joined at the hip and then",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2828.404,
+            2849.444
+          ],
+          "quote": "Around the time of the Sydney thing they just started to like kind of fracture there's like lots of other drama about these Microsoft sent these like embeds to work inside OpenAI like at their headquarters and kind of learn from them like how do we avoid things like this in the future they don't really get along like the the OpenAI employees don't trust the Microsoft employees so they'll start excluding them from meetings and stuff like that.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2850.045,
+            2862.269
+          ],
+          "quote": "So it's just, it ends up being this like culture clash between this like very young, ambitious startup that's trying to build AGI and like the boring enterprise software giant that is Microsoft.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2871.633,
+            2873.133
+          ],
+          "quote": "How do you think Microsoft should have played this?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2894.428,
+            2897.952
+          ],
+          "quote": "I think there were some people at Microsoft who are very skeptical about OpenAI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2921.963,
+            2924.465
+          ],
+          "quote": "Microsoft also had its own AI research division",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2930.327,
+            2933.788
+          ],
+          "quote": "You also have to remember that like Microsoft had been really badly burned by Tay.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3000.738,
+            3003.502
+          ],
+          "quote": "Yeah, I think Microsoft, they are a player.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3017.238,
+            3033.242
+          ],
+          "quote": "I mean, one of the things that I thought after reading this was if some company, it's probably not going to be Microsoft, wanted to put a version of Sydney back in the wild, like this sort of naughty AI that like tries to, that talks to you without the normal guardrails, can hold a conversation.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集说它是竞争格局中不可被排除的玩家：几周前还垫底，突然能发布有竞争力的东西，且挖走了 OpenAI 的一批顶尖人才。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 241,
+          "t": [
+            1147.242,
+            1155.848
+          ],
+          "quote": "As we've seen, you could be at the bottom, like Meta was a couple weeks ago, and then all of a sudden you're able to release something that's competitive like Muse.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2572.588,
+            2574.85
+          ],
+          "quote": "He's the current head of Meta Super Intelligence Lab.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2677.082,
+            2687.347
+          ],
+          "quote": "But yeah, you know, I think this is one of the sort of the emerging rivalries now that Meta is sort of more serious as a contender.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3351.959,
+            3355.801
+          ],
+          "quote": "Dario, Ilya, all the people that went to Meta.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成所有实验室竞逐的目标、全书真正的主题——各方为它反目成仇，而 Google 内部甚至为「该不该用这个词」爆发备忘录大战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            82.467,
+            92.994
+          ],
+          "quote": "He's the author of the AGI Chronicles, a book looking into what is going on within the AI labs, what they're building, whether we should be afraid of it, and of course, the potential of this technology.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 27,
+          "t": [
+            112.96,
+            119.222
+          ],
+          "quote": "This is the book, the AGI Chronicles, the inside story of the race to create artificial superintelligence.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 204,
+          "t": [
+            989.772,
+            992.314
+          ],
+          "quote": "Like Google was the first AGI company.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1205.798,
+            1208.56
+          ],
+          "quote": "Where, like, I asked them both, when do you think AGI is coming?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1601.838,
+            1605.341
+          ],
+          "quote": "Grasping at why Sam wants to build AGI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1656.547,
+            1675.456
+          ],
+          "quote": "I think in Demis' case, he feels like his own pursuit of AGI is motivated by like scientific curiosity and sort of this inevitability argument, like this technology will be built and someone who cares about safety and the collective good of this technology should build it.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2046.418,
+            2049.681
+          ],
+          "quote": "And I have to race him like two labs racing to AGI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2547.329,
+            2556.116
+          ],
+          "quote": "And we're back here on Big Technology Podcast with Kevin Ruse, the author of the AGI Chronicles, the Inside Story of the Race to Artificial Super Intelligence.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2850.045,
+            2862.269
+          ],
+          "quote": "So it's just, it ends up being this like culture clash between this like very young, ambitious startup that's trying to build AGI and like the boring enterprise software giant that is Microsoft.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3393.785,
+            3397.587
+          ],
+          "quote": "They're AI-pilled, AGI-pilled, whatever you want to call them.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3409.813,
+            3417.477
+          ],
+          "quote": "It turns out that belief in what you're building and the fact that it could become AGI is an essential ingredient.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3428.926,
+            3438.633
+          ],
+          "quote": "The leaders of that company did not believe and may still not believe in AGI the way that people like Dario and Sam and Demis do.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3509.249,
+            3519.993
+          ],
+          "quote": "I mean, one of the things that you bring up in the book is there was a say AGI moment that there was like someone who literally was like, Google is such non-believers that we have to start saying AGI.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3522.613,
+            3538.698
+          ],
+          "quote": "They still refer to it as like the memo battle, you know, where there was like one researcher writes this memo saying like, hey guys, like we got to talk about AGI because not only are we missing out on like good talent because they want to build AGI, they don't want to build like autocomplete for Gmail.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3544.059,
+            3549.643
+          ],
+          "quote": "You know, sort of like consciously building toward AGI, then we're not going to take the risks seriously.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3551.744,
+            3554.946
+          ],
+          "quote": "And then someone else like immediately writes a memo that's like, don't say AGI.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3555.006,
+            3558.509
+          ],
+          "quote": "Like AGI is a bad term and it's unscientific and we shouldn't use it.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3846.12,
+            3848.52
+          ],
+          "quote": "The book is the AGI Chronicles.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "superintelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级智能 (superintelligence)",
+      "file": "超级智能",
+      "primary": true,
+      "how_described": "本集说它是这些实验室正在快速逼近的东西：人们承认「我们不知道如何控制这些正在迅速接近超级智能的系统」，却仍在加速开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            112.96,
+            119.222
+          ],
+          "quote": "This is the book, the AGI Chronicles, the inside story of the race to create artificial superintelligence.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 28,
+          "t": [
+            119.242,
+            121.343
+          ],
+          "quote": "You were ahead of the superintelligence on the subtitle.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 116,
+          "t": [
+            566.775,
+            575.818
+          ],
+          "quote": "But I am worried when I hear people saying things like, we don't know how to control these systems that are rapidly approaching superintelligence.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "type": "concept",
+      "role": "concept",
+      "name": "信念 (belief)",
+      "file": "信念",
+      "primary": true,
+      "how_described": "本集说这是解释 OpenAI 为何仍领先的核心答案：写到一半作者发现这不是一本关于技术的书，而是关于信念的书；Google 输就输在缺信念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 714,
+          "t": [
+            3367.109,
+            3370.472
+          ],
+          "quote": "A sort of surprising thing, which is belief.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3373.542,
+            3380.227
+          ],
+          "quote": "This is something that I realized halfway through writing this book was that I thought it was gonna be a book about technology, but it was a book about belief.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3409.813,
+            3417.477
+          ],
+          "quote": "It turns out that belief in what you're building and the fact that it could become AGI is an essential ingredient.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3425.703,
+            3428.905
+          ],
+          "quote": "They had all the ingredients except for belief.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3454.745,
+            3465.933
+          ],
+          "quote": "But they also have this ingredient of like everyone is kind of aligned behind the belief that they are building the sort of super intelligence that is going to change the world.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3466.753,
+            3475.46
+          ],
+          "quote": "And if you don't believe, if you don't have the belief, or you only kind of halfway have it, you don't make the kind of crazy sounding bets that you need to make.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3496.445,
+            3503.827
+          ],
+          "quote": "So I think that, I think belief, conviction, whatever you want to call it, is like the central explanation for why they're still in the lead or close to it.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3505.667,
+            3505.988
+          ],
+          "quote": "Belief.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3567.374,
+            3568.175
+          ],
+          "quote": "Last one on belief.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3571.216,
+            3580.721
+          ],
+          "quote": "Because there's this belief within the labs that like AI will start improving itself and the human will be out of the loop and then basically there's a foom and the stuff takes off and it's over.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理模型 (reasoning models)",
+      "file": "推理模型",
+      "primary": true,
+      "how_described": "本集说它是让模型能力跃迁的范式：不用重新训练、靠投入更多算力做思维链推理就能变聪明，让模型三年内从数不清字母到解千禧年大奖难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 459,
+          "t": [
+            2258.47,
+            2260.171
+          ],
+          "quote": "You see that again with the reasoning models.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "recursive-self-improvement",
+      "type": "concept",
+      "role": "concept",
+      "name": "递归自我改进 (recursive self-improvement)",
+      "file": "递归自我改进",
+      "primary": true,
+      "how_described": "本集说实验室正竞相实现它——不是「失去」对模型的控制，而是主动把控制交给模型（Claude 已主导 26% 研发项目）；Roose 相信它可能成真且很危险，认为实验室应该停手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 762,
+          "t": [
+            3569.195,
+            3571.156
+          ],
+          "quote": "Do you believe in recursive self-improvement?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3581.421,
+            3582.722
+          ],
+          "quote": "I believe in recursive self-improvement.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "ai-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 风险 (AI risk)",
+      "file": "AI 风险",
+      "primary": true,
+      "how_described": "本集说它已从湾区怪人的话题变成公众餐桌议题：实验室领袖公开承认能力跑在安全研究和控制方法前面，Roose 自称「暂停派」而非「停止派」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 804,
+          "t": [
+            3751.387,
+            3759.517
+          ],
+          "quote": "Like no one really thought about AI risk or existential threats or it was just like weirdos in the Bay Area who were thinking about it.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformer",
+      "file": "transformer",
+      "primary": false,
+      "how_described": "本集提到 Google「发明了 transformer 和所有驱动 AI 的东西」，却在竞赛中落后，Sergey Brin 为此不甘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            993.634,
+            999.037
+          ],
+          "quote": "Like we invented the transformer and all the stuff that powers the AI stuff and like we're losing.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到它遭到多智能体协同攻击，成为 AI 失控风险的标志性事件，连公司内部的人都被吓得措手不及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            311.731,
+            326.4
+          ],
+          "quote": "I mean, it's literally, if you can't hold a company together, how do you hold a technology at bay when we've already seen it in recent weeks, you know, go out and do this multi-agent coordinated attack on something like Hugging Face?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 117,
+          "t": [
+            576.578,
+            582.88
+          ],
+          "quote": "And I think we saw an example of where that goes with the Hugging Face thing, which like, you know, everyone is freaked out about that, which they should be.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3157.757,
+            3164.12
+          ],
+          "quote": "But that said, I think there's like real issues of like control and like the hugging face thing was not fun to me.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3745.869,
+            3750.19
+          ],
+          "quote": "Like before Jacob Coxon resigned from Anthropic, before Hugging Face,",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集说 Anthropic 披露 Claude 已主导其 26% 的 AI 研发项目——不是编程助手，而是项目负责人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 770,
+          "t": [
+            3607.452,
+            3614.335
+          ],
+          "quote": "And according to Anthropic, Claude is now the lead on 26% of their AI research and development projects.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

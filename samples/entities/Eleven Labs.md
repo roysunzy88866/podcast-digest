@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[NVIDIA]] · [[推理]] · [[可观测性]] · [[Harry Stebbings]] · [[Elena Berger]] · [[Uber]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":204,"Anthropic":205,"Cursor":87,"NVIDIA":71,"推理":101,"可观测性":46,"Harry Stebbings":21,"Elena Berger":5,"Uber":19}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":206,"Anthropic":206,"Cursor":87,"NVIDIA":71,"推理":101,"可观测性":46,"Harry Stebbings":21,"Elena Berger":5,"Uber":19}</script>
 
 <script>
 (function(){

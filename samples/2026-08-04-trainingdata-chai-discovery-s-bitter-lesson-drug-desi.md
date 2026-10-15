@@ -126,8 +126,8 @@ Chai 不自己研发药物,而是把模型作为基础设施,卖给礼来、诺�
 **换个口味**
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:OpenAI · 同概念:缩放定律 (scaling laws)</span>
+- [[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来]]<span class="pd-rz">同公司:OpenAI · 同概念:药物发现 (drug discovery)</span>
 - [[2026-08-26-twiml-why-the-next-ai-breakthrough-may-come-fr|用物理设计新材料：Max Welling 的 AI for Science 双向之路]]<span class="pd-rz">同概念:扩散模型 (diffusion models)</span>
-- [[2026-10-06-talks-building-ai-for-the-physical-world-with|机器人捡起香蕉当扫帚：Generalist 的物理世界通用智能]]<span class="pd-rz">同概念:缩放定律 (scaling laws)</span>
 
 </div>
 </div>

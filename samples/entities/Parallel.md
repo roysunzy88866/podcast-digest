@@ -63,7 +63,7 @@ unlisted: true
 
 [[智能体]] · [[ChatGPT]] · [[推理]] · [[Claude]] · [[OpenAI]] · [[沙箱]] · [[Twitter]] · [[Andrew]] · [[Sonia]] · [[Parag]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":113,"推理":101,"Claude":97,"OpenAI":204,"沙箱":101,"Twitter":7,"Andrew":3,"Sonia":2,"Parag":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":114,"推理":101,"Claude":98,"OpenAI":206,"沙箱":101,"Twitter":7,"Andrew":3,"Sonia":2,"Parag":2}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 [[推理]] · [[智能体]] · [[Meta]] · [[NVIDIA]] · [[OpenAI]] · [[Harry Stebbings]] · [[Michael Tannenbaum]] · [[Anthropic]] · [[Elad]] · [[Adam Neumann]]
 
-<script type="application/json" class="pd-epn">{"推理":101,"智能体":1,"Meta":55,"NVIDIA":71,"OpenAI":204,"Harry Stebbings":21,"Michael Tannenbaum":1,"Anthropic":205,"Elad":1,"Adam Neumann":1}</script>
+<script type="application/json" class="pd-epn">{"推理":101,"智能体":1,"Meta":56,"NVIDIA":71,"OpenAI":206,"Harry Stebbings":21,"Michael Tannenbaum":1,"Anthropic":206,"Elad":1,"Adam Neumann":1}</script>
 
 <script>
 (function(){

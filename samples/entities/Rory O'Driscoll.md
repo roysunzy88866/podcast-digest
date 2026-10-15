@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":21,"Cursor":87,"SpaceX":22,"OpenRouter":14,"Stripe":49,"Anthropic":205,"Workday":5,"Microsoft":32,"Meta":55}</script>
+<script type="application/json" class="pd-epn">{"Jason Lemkin":2,"Harry Stebbings":21,"Cursor":87,"SpaceX":22,"OpenRouter":14,"Stripe":49,"Anthropic":206,"Workday":5,"Microsoft":33,"Meta":56}</script>
 
 <script>
 (function(){

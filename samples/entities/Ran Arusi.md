@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]] [[Kamalakannan Nandagopal]]
+[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":1,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":205}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"智能体":1,"可教授的知识与习得的知识":1,"工作流":13,"软件工厂":1,"律所模式":1,"Automaze":1,"MUXI":1,"Y Finance":1,"Anthropic":206}</script>
 
 <script>
 (function(){

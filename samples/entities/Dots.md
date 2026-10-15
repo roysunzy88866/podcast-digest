@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dots</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Dots">DO</div><div class="pi"><h1 class="pt">Dots</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Dots">DO</div><div class="pi"><h1 class="pt">Dots</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,32 +16,36 @@ unlisted: true
 - **[[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]]**(02:36起):本集说 Dots 是 OpenAI 的个人助手，带着《芝麻街》风格吉祥物却实际更偏企业导向，只有每月 100 美元的 pro 订阅能用。
 - **[[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]]**(00:56起):本集介绍的 OpenAI 新产品:一个始终在线的持久 AI 助手,可以打电话给它,能编排你的 Codex 干活,本集主线产品。
 - **[[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]]**(06:34起):本集说 Dots 是 OpenAI 在 DevDay 发布的一套帮你干活的智能体；嘉宾的 Dot 在主题演讲前主动报告生产环境故障，并每天早上接他的电话汇报急事。
+- **[[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|《AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来》]]**(00:54起):OpenAI 内部的主动式智能体，7×24 小时在线，盯待办、发现日历冲突、整合收件箱和 Slack 上下文；Brockman 说它改变的是形态而非能力。
 
 ## ① 提到它的金句
 
-*2 条*
+*3 条*
 
 ![[2025-08-03-lennys-chip-conley#^q5]]
 
 ![[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi#^q4]]
 
+![[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri#^q7]]
+
 ## ② 出现在这些集
 
-*5 集*
+*6 集*
 
 - [[2026-09-30-aiandi-how-sam-altman-uses-dots-to-take-back-hi|《Sam Altman:AI 是新的文艺复兴,不是工业革命》]] — 作为概念
 - [[2026-10-04-lennys-openais-head-of-chatgpt-were-entering|《OpenAI Codex 负责人 Tibo:互联网上大多数操作将交给智能体》]] — 作为被讨论公司
 - [[2026-10-05-bigtech-who-wins-the-ai-assistant-wars-why-didn|《AI 个人助理大战开打，谁会赢？》]] — 作为被讨论公司
 - [[2026-10-08-talks-the-hottest-product-manager-in-tech-righ|《OpenAI 红人 Holly Lee：Dev Day 翻车之后，她发了人生第一条推》]] — 作为概念
 - [[2026-10-10-mos-pioneers-of-ai-openai-s-tibo-sottiaux-do|《OpenAI产品负责人：不想让人类成为AI的「事后想起」》]] — 作为概念
+- [[2026-10-15-nopriors-revolutionizing-cybersecurity-and-ai-dri|《AI 解开百年数学难题之后，OpenAI 联创谈药物、安全与「无界面」的未来》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[Astra]] · [[Tibo Sottiaux]] · [[Google]] · [[护栏]] · [[Amazon]] · [[Ultrafast]]
+[[OpenAI]] · [[智能体]] · [[ChatGPT]] · [[Codex]] · [[护栏]] · [[Astra]] · [[Tibo Sottiaux]] · [[Google]] · [[Amazon]] · [[Ultrafast]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":204,"智能体":1,"ChatGPT":113,"Codex":90,"Astra":8,"Tibo Sottiaux":3,"Google":72,"护栏":91,"Amazon":34,"Ultrafast":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":206,"智能体":1,"ChatGPT":114,"Codex":90,"护栏":92,"Astra":8,"Tibo Sottiaux":3,"Google":72,"Amazon":34,"Ultrafast":2}</script>
 
 <script>
 (function(){

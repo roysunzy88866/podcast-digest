@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Meta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>55</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Meta">ME</div><div class="pi"><h1 class="pt">Meta</h1><div class="byl">公司</div><div class="nums">本站收录 <b>56</b> 集 · <b>12</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -65,6 +65,7 @@ unlisted: true
 - **[[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]]**(01:19起):本集说 Meta 推出了 AI 智能助手 Muse，Alex Cornell 是其设计总监
 - **[[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]]**(03:15起):本集说 Meta 为造模型自下而上彻底重组后重回正向轨迹,且有传言将再次发布新的开放权重模型;Llama3 时期 Mark 写过解释开源策略的最佳博客文章。
 - **[[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]]**(00:07起):本集评测对象所属公司:Meta 发布了新的前沿智能模型家族 Muse Wonder,主打个人和专业场景的智能体工作。
+- **[[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]]**(19:07起):本集说它是竞争格局中不可被排除的玩家：几周前还垫底，突然能发布有竞争力的东西，且挖走了 OpenAI 的一批顶尖人才。
 
 ## ① 提到它的金句
 
@@ -96,7 +97,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*55 集*
+*56 集*
 
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|《Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源》]] — 作为被讨论公司(提及)
 - [[2025-08-24-lennys-inside-handshake-garrett-lord|《Handshake：靠学生网络四个月做到五千万ARR》]] — 作为被讨论公司(提及)
@@ -153,14 +154,15 @@ unlisted: true
 - [[2026-10-12-howiai-how-meta-designed-muse-an-ai-agent-peopl|《把AI助手当「人」来设计：Meta Muse 设计总监的思路与私藏玩法》]] — 作为被讨论公司
 - [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司
 - [[2026-10-14-lennys-metas-new-muse-wonder-model-good|《Meta 新模型 Muse Wonder 实测:干活的能手，做设计的差生》]] — 作为被讨论公司
+- [[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[ChatGPT]] · [[Cursor]] · [[Microsoft]] · [[Claude]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[推理]] · [[NVIDIA]] · [[Microsoft]] · [[Claude]] · [[ChatGPT]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":205,"OpenAI":204,"Google":72,"推理":101,"NVIDIA":71,"ChatGPT":113,"Cursor":87,"Microsoft":32,"Claude":97}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":206,"Google":72,"推理":101,"NVIDIA":71,"Microsoft":33,"Claude":98,"ChatGPT":114,"Cursor":87}</script>
 
 <script>
 (function(){

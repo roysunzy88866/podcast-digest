@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]] [[Jason Ma]]
+[[Kevin Roose]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]] [[Justin Baylor]] [[David Vélez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":7,"Kiavi":1,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":55}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":7,"Kiavi":1,"高管心态":1,"市场":4,"区块链":2,"分词":5,"SoftBank":5,"Meta":56}</script>
 
 <script>
 (function(){
