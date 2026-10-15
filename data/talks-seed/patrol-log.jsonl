@@ -1753,3 +1753,4 @@
 {"ts":"2026-10-14T07:42:33.709Z","action":"prefilter-skip","channel":"greylock","videoId":"c0rwy5x58c4","title":"Proving AI in Robotics Can Scale","reason":"时长 70s < 下限 1200s"}
 {"ts":"2026-10-14T07:53:49.353Z","action":"seeded","channel":"cgc","videoId":"L1OBRtfPS34","title":"Stanford CS146S: How always-on agents work","verdict":"对齐必收","reason":"跨国串门选过:#772. Grok Bot 的 Personal Agent 实践"}
 {"ts":"2026-10-14T07:58:22.576Z","action":"push-failed","videoId":null,"error":"pull --rebase + push 连败 3 次;种子已在本地提交,下轮巡航随新提交重推"}
+{"ts":"2026-10-14T13:41:34.010Z","action":"git-pull-failed","videoId":null,"error":"fatal: unable to access 'https://github.com/roysunzy88866/podcast-digest.git/': Error in the HTTP2 framing layer\n"}
