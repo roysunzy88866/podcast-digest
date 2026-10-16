@@ -189,7 +189,7 @@ C/C++ 里别在变量交给垃圾回收器后还去访问它、要检查身份�
 
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同概念:可观测性 (observability)、开源 (open source)</span>
 - [[2026-09-30-bigtech-sap-ceo-ai-won-t-kill-software-but-it-wi|SAP CEO:单靠 LLM 跑不动企业,商业 AI 只差几个月]]<span class="pd-rz">同概念:vibe coding、开源 (open source)</span>
-- [[2026-06-25-ainativedev-why-agents-are-forcing-enterprises-to-fi|DevOps 之父谈智能体开发：谁来管、怎么管、别踩什么坑]]<span class="pd-rz">同概念:可观测性 (observability)、护栏 (guardrails)</span>
+- [[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l|AI 智能体就跑在你的笔记本电脑上：致命三重威胁]]<span class="pd-rz">同概念:可观测性 (observability)、vibe coding、护栏 (guardrails)</span>
 
 </div>
 </div>

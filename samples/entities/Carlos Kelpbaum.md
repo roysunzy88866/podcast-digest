@@ -59,7 +59,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]]
+[[Carl Svera]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]]
 
 </div>
 

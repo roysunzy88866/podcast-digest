@@ -153,9 +153,9 @@ Pershing 投的是世界上确定性最高的公司，而 Netflix 的结果离�
 
 **换个口味**
 
+- [[2026-10-15-sed-software-verification-in-the-age-of-codi|代码越写越多，谁来抓那些没人想到的漏洞？]]<span class="pd-rz">同公司:Netflix · 同概念:AI</span>
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同概念:AI</span>
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:AI</span>
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]]<span class="pd-rz">同公司:Cognition</span>
 
 </div>
 </div>

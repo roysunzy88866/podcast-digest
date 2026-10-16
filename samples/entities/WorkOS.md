@@ -45,7 +45,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Anthropic]] · [[Mercury]] · [[Claude Code]] · [[Slack]] · [[Lovable]] · [[Cursor]] · [[Meta]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"Anthropic":206,"Mercury":5,"Claude Code":114,"Slack":34,"Lovable":20,"Cursor":87,"Meta":56,"Codex":90}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"智能体":1,"Anthropic":206,"Mercury":5,"Claude Code":115,"Slack":34,"Lovable":20,"Cursor":87,"Meta":56,"Codex":91}</script>
 
 <script>
 (function(){

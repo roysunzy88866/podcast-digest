@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":56,"NVIDIA":71,"CPU":5,"推理":101,"芯片设计":2,"验证":3}</script>
+<script type="application/json" class="pd-epn">{"Rene Haas":1,"Arm":2,"SoftBank":5,"TSMC":9,"Meta":56,"NVIDIA":71,"CPU":5,"推理":102,"芯片设计":2,"验证":3}</script>
 
 <script>
 (function(){

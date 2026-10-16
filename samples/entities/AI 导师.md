@@ -27,7 +27,7 @@ unlisted: true
 
 [[Jason]] · [[Daniel Whitenack]] · [[Aristotle]] · [[Chris Benson]] · [[Khan Academy]] · [[教育]] · [[Brilliant.org]] · [[批判性思考]] · [[Anthropic]] · [[PhD]]
 
-<script type="application/json" class="pd-epn">{"Jason":7,"Daniel Whitenack":12,"Aristotle":1,"Chris Benson":13,"Khan Academy":2,"教育":1,"Brilliant.org":1,"批判性思考":2,"Anthropic":206,"PhD":1}</script>
+<script type="application/json" class="pd-epn">{"Jason":8,"Daniel Whitenack":12,"Aristotle":1,"Chris Benson":13,"Khan Academy":2,"教育":1,"Brilliant.org":1,"批判性思考":2,"Anthropic":206,"PhD":1}</script>
 
 <script>
 (function(){

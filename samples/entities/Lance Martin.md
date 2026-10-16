@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":207,"任务视界":1,"Managed Agents":7,"harness":67,"沙箱":101,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":207,"任务视界":1,"Managed Agents":7,"harness":67,"沙箱":103,"验证器":7,"dreaming":3,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

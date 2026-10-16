@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":18,"Autobot":1,"Anthropic":206,"Claude":99,"代码审查":26,"股权占比":4,"可观测性":47}</script>
+<script type="application/json" class="pd-epn">{"Simon Maple":10,"Honeycomb":2,"Google":72,"Shopify":18,"Autobot":1,"Anthropic":206,"Claude":99,"代码审查":26,"股权占比":4,"可观测性":48}</script>
 
 <script>
 (function(){

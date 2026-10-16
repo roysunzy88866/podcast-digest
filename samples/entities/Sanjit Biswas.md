@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":6,"Samsara":2,"物理 AI":11,"护栏":92,"生成式 AI":2,"智能体":1,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":6,"Samsara":2,"物理 AI":11,"护栏":93,"生成式 AI":2,"智能体":1,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

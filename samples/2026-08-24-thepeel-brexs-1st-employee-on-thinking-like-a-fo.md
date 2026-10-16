@@ -170,9 +170,9 @@ Figure 最近收购了 [[Kiavi|Kiavi]]——投资人贷款（「修了卖」类
 
 **换个口味**
 
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路]]<span class="pd-rz">同概念:市场平台 (marketplace)</span>
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|Hilary Gridley：教团队"挨打"的产品领导力]]<span class="pd-rz">同公司:GPT</span>
 - [[2025-07-20-lennys-anthropic-co-founder-benjamin-mann|Anthropic 联合创始人：安全为什么不是添头，而是 Claude 性格的来源]]<span class="pd-rz">同公司:Claude</span>
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]]<span class="pd-rz">同公司:Stripe</span>
 
 </div>
 </div>

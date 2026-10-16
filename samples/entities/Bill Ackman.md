@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AI":34,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":9,"Brookfield":1,"Berkshire Hathaway":4}</script>
+<script type="application/json" class="pd-epn">{"AI":35,"颠覆风险":1,"泡沫":1,"永久资本":1,"Pershing Square":1,"Cognition":27,"Howard Hughes":1,"Netflix":10,"Brookfield":1,"Berkshire Hathaway":4}</script>
 
 <script>
 (function(){

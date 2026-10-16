@@ -27,7 +27,7 @@ unlisted: true
 
 [[数据中心]] · [[Saragawa]] · [[Herwig]] · [[Satya Nadella]] · [[Rorik]] · [[Microsoft]] · [[Yannick]] · [[Azure]] · [[Thema]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"数据中心":25,"Saragawa":1,"Herwig":1,"Satya Nadella":2,"Rorik":1,"Microsoft":34,"Yannick":1,"Azure":3,"Thema":1,"GitHub":35}</script>
+<script type="application/json" class="pd-epn">{"数据中心":25,"Saragawa":1,"Herwig":1,"Satya Nadella":2,"Rorik":1,"Microsoft":34,"Yannick":1,"Azure":3,"Thema":1,"GitHub":36}</script>
 
 <script>
 (function(){

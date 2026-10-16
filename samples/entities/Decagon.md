@@ -49,7 +49,7 @@ unlisted: true
 
 [[智能体]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[微调]] · [[Harvey]] · [[Salesforce]] · [[护城河]] · [[人在回路]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":87,"OpenAI":207,"Anthropic":206,"微调":39,"Harvey":21,"Salesforce":36,"护城河":14,"人在回路":24,"推理":101}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":87,"OpenAI":207,"Anthropic":206,"微调":39,"Harvey":21,"Salesforce":36,"护城河":14,"人在回路":25,"推理":102}</script>
 
 <script>
 (function(){

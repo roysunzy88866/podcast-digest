@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":1,"多智能体协调":3,"编码智能体":35,"Claude Code":114,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
+<script type="application/json" class="pd-epn">{"TLDraw":1,"智能体":1,"多智能体协调":3,"编码智能体":35,"Claude Code":115,"Canvas":2,"Fairies":1,"Agent Starter Kit":1,"TechTree 应用":1,"Replit":22}</script>
 
 <script>
 (function(){

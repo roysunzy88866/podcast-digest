@@ -25,7 +25,7 @@ unlisted: true
 
 [[Mario]] · [[Scott Morton]] · [[Revel]] · [[SpaceX]] · [[Python]] · [[vibe coding]] · [[CI-CD]] · [[Palantir]]
 
-<script type="application/json" class="pd-epn">{"Mario":4,"Scott Morton":1,"Revel":1,"SpaceX":23,"Python":5,"vibe coding":51,"CI-CD":17,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"Mario":4,"Scott Morton":1,"Revel":1,"SpaceX":23,"Python":5,"vibe coding":52,"CI-CD":18,"Palantir":20}</script>
 
 <script>
 (function(){

@@ -27,17 +27,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[DeepMind]] · [[Gemma 4]] · [[Google AI Edge Gallery]] · [[Managed Agents]] · [[开放模型]] · [[沙箱]] · [[推理]] · [[GPU]] · [[量化]] · [[函数调用]]
+[[DeepMind]] · [[Gemma 4]] · [[Google AI Edge Gallery]] · [[Managed Agents]] · [[开放模型]] · [[沙箱]] · [[推理]] · [[GPU]] · [[量化]] · [[WebAssembly]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":101,"推理":101,"GPU":33,"量化":1,"函数调用":4}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":103,"推理":102,"GPU":33,"量化":1,"WebAssembly":2}</script>
 
 <script>
 (function(){

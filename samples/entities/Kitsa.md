@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"编排器":4,"护栏":92,"循环":10,"规则":2,"police 文件":1,"vibe coding":51,"vibe engineering":1,"技能文件":4,"Codex":90}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"编排器":4,"护栏":93,"循环":10,"规则":2,"police 文件":1,"vibe coding":52,"vibe engineering":1,"技能文件":4,"Codex":91}</script>
 
 <script>
 (function(){

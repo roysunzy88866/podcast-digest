@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Eric Newcomer":2,"NVIDIA":71,"Hugging Face":39,"开源":43,"蒸馏":1,"推理":101,"新云":4,"前沿模型":29,"垂直 AI":2,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Newcomer":2,"NVIDIA":71,"Hugging Face":39,"开源":43,"蒸馏":1,"推理":102,"新云":4,"前沿模型":29,"垂直 AI":2,"智能体":1}</script>
 
 <script>
 (function(){

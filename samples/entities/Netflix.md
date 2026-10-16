@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Netflix">NE</div><div class="pi"><h1 class="pt">Netflix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Netflix">NE</div><div class="pi"><h1 class="pt">Netflix</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]]**(41:37起):嘉宾提到以前在 Netflix 时经理们爱谈「上下文，而非控制」的理念，并类比到智能体世界
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(24:54起):本集提到它在叫「微服务」之前一直管自己架构叫 fine-grained SOA，并以 Chaos Monkey 作为回弹演练的著名例子。
 - **[[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|《Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌》]]**(02:58起):本集把它当作数字原生公司颠覆在位者的样板:在没有任何数据的情况下进场,靠更好的算法和数据文化击败 Blockbuster。
+- **[[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]]**(12:31起):本集说 Netflix 是把混沌工程推广开来的公司:把压力测试搬上生产环境,让系统常年处于坏天气中,逼着可靠性快速提升。
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为被讨论公司
 - [[2026-07-28-eyeonai-video-is-about-to-stop-being-one-way-and|《Synthesia CEO：AI 视频不会进好莱坞，而是创造新媒介》]] — 作为被讨论公司(提及)
@@ -40,14 +41,15 @@ unlisted: true
 - [[2026-10-03-talks-live-poteto-creator-of-pstack-on-shippin|《一个月2500个代码合并是怎么做到的：专访pstack作者Potato》]] — 作为被讨论公司(提及)
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司(提及)
 - [[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|《Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌》]] — 作为被讨论公司(提及)
+- [[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Google]] · [[LLM]] · [[OpenAI]] · [[AI]] · [[Anthropic]] · [[TikTok]] · [[Meta]] · [[Lenny]] · [[Victor Riparbelli]]
+[[智能体]] · [[Google]] · [[AI]] · [[LLM]] · [[OpenAI]] · [[Anthropic]] · [[TikTok]] · [[Meta]] · [[模糊测试]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"LLM":66,"OpenAI":207,"AI":34,"Anthropic":206,"TikTok":8,"Meta":56,"Lenny":69,"Victor Riparbelli":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"AI":35,"LLM":66,"OpenAI":207,"Anthropic":206,"TikTok":8,"Meta":56,"模糊测试":3,"Lenny":69}</script>
 
 <script>
 (function(){

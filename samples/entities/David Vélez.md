@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nubank":1,"AI":34,"基础模型":7,"智能体":1,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":9}</script>
+<script type="application/json" class="pd-epn">{"Nubank":1,"AI":35,"基础模型":7,"智能体":1,"稳定币":6,"开放银行":1,"新银行":1,"冒名顶替综合症":2,"Netflix":10}</script>
 
 <script>
 (function(){

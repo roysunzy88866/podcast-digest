@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cursor":87,"Meta":56,"Netflix":9,"pstack":1,"智能体":1,"技能":35,"验证":3,"信任阶梯":1,"内环与外环":3,"确定性":6}</script>
+<script type="application/json" class="pd-epn">{"Cursor":87,"Meta":56,"Netflix":10,"pstack":1,"智能体":1,"技能":35,"验证":3,"信任阶梯":1,"内环与外环":3,"确定性":6}</script>
 
 <script>
 (function(){

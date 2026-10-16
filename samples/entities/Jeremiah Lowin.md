@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":97,"FastMCP":1,"Prefab":1,"智能体":1,"沙箱":101,"生成式 UI":6,"Claude":99}</script>
+<script type="application/json" class="pd-epn">{"MCP Apps":3,"MCP":98,"FastMCP":1,"Prefab":1,"智能体":1,"沙箱":103,"生成式 UI":6,"Claude":99}</script>
 
 <script>
 (function(){

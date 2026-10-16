@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Uber":20,"智能体":1,"模型网关":2,"MCP 网关":2,"上下文图":5,"技能":35,"DevPod":2,"Cortana":1,"Minion":2,"CI-CD":17}</script>
+<script type="application/json" class="pd-epn">{"Uber":20,"智能体":1,"模型网关":2,"MCP 网关":2,"上下文图":5,"技能":35,"DevPod":2,"Cortana":1,"Minion":2,"CI-CD":18}</script>
 
 <script>
 (function(){

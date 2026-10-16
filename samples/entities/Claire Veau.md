@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":4,"员工倡导":1,"FDE":4,"工作流":13,"Claude Code":114,"Anthropic":206,"OpenAI":207}</script>
+<script type="application/json" class="pd-epn">{"Alex Lieberman":1,"10X":1,"内容机器":1,"AI 垃圾内容":4,"员工倡导":1,"FDE":4,"工作流":13,"Claude Code":115,"Anthropic":206,"OpenAI":207}</script>
 
 <script>
 (function(){

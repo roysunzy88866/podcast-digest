@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":1,"X402":3,"微交易":2,"护栏":92,"Nanopayments":1,"Claude Code":114,"Circle Agent Wallet":1,"付费墙":3}</script>
+<script type="application/json" class="pd-epn">{"Circle":1,"USDC":1,"智能体":1,"X402":3,"微交易":2,"护栏":93,"Nanopayments":1,"Claude Code":115,"Circle Agent Wallet":1,"付费墙":3}</script>
 
 <script>
 (function(){

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":34,"Claude":99,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
+<script type="application/json" class="pd-epn">{"Gusto":2,"payroll（工资发放）":1,"小企业":1,"AI":35,"Claude":99,"联合创始人":4,"NPS":2,"MVP":3,"口碑":3,"SVB":3}</script>
 
 <script>
 (function(){

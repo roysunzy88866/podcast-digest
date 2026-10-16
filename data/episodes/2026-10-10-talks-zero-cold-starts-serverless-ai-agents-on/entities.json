@@ -1,0 +1,1204 @@
+{
+  "episode_id": "2026-10-10-talks-zero-cold-starts-serverless-ai-agents-on",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "WebAssembly",
+    "边缘计算",
+    "MCP"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "thorsten-hans",
+      "type": "person",
+      "role": "guest",
+      "name": "Thorsten Hans",
+      "file": "Thorsten Hans",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线之一:AI 智能体与其他应用一样需要超快响应时间,演讲演示了用 Vercel AI SDK 写、编译成 WebAssembly 并部署到 Akamai Functions 的游戏智能体,全链路走完 LLM 约 820 毫秒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.979,
+            23.723
+          ],
+          "quote": "In the upcoming 20 minutes, I want to give you an introduction on how you can build ultrafast agents and MCPs with spin and run them globally distributed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            29.786,
+            34.708
+          ],
+          "quote": "And I guess all of you have already built either MCPs or agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            67.959,
+            83.788
+          ],
+          "quote": "Depending on where you deploy your MCPs or your agents, it might be fast for a subset of your global audience, but others might experience a way lower latency and resulting in a way worse user experience.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            126.516,
+            135.38
+          ],
+          "quote": "So there are higher level solutions that we can use to run MCPs or agents, but they usually or often come",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            148.395,
+            163.044
+          ],
+          "quote": "Once you figured out about those constraints, moving away or migrating your workloads, your agents, to another hyperscaler, to another kind of infrastructure, it's often rather complex and extremely costly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            961.194,
+            962.955
+          ],
+          "quote": "Let's move on with agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            966.722,
+            969.223
+          ],
+          "quote": "So for AI agents, the story is no different.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            992.052,
+            994.133
+          ],
+          "quote": "And to build custom agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集用它作为 WebAssembly 边缘部署的核心演示对象:用 wasmcp 把工具、资源和提示词组合成 MCP server,一条命令全球分布,约 60 秒上线",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            377.138,
+            384.101
+          ],
+          "quote": "So these are the technical underpinnings that I want to use in order to build first MCP servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            385.442,
+            394.886
+          ],
+          "quote": "So instead of hand-rolling a new MCP server, I mean, we can implement the HTTP protocol or the specified API on top of HTTP,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            395.23,
+            398.691
+          ],
+          "quote": "To build an MCP, there is a smarter way of doing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            411.554,
+            420.437
+          ],
+          "quote": "And in the realm of an MCP, business logic basically means we implement our tools, we implement our resources, our prompts, and we are good to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            426.338,
+            447.743
+          ],
+          "quote": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            461.05,
+            469.477
+          ],
+          "quote": "So we can do, whereas MCP, new, we can choose a language, Rust, TypeScript, Python, and we can choose from templates.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            469.517,
+            480.607
+          ],
+          "quote": "The default template is me only caring about tools for now, and let's call this new MCP server, hello, we get instructions, hey, move into hello, hello,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            576.005,
+            582.808
+          ],
+          "quote": "So we end up with a tools WebAssembly component, which is not yet a full-fledged MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            586.355,
+            592.981
+          ],
+          "quote": "Let's compose a full-fledged MCP by taking our tools and saying, hey, please give me an MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            598.526,
+            606.933
+          ],
+          "quote": "Okay, it pulls all the necessary other components and composes together an MCP server and gives me instructions on how to run it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            614.709,
+            622.811
+          ],
+          "quote": "Okay, let's bring back the other terminal and let's run npx, the MCP inspector over here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            643.539,
+            650.903
+          ],
+          "quote": "So how can we take that to become a clue or how can we turn that into a globally distributed MCP server?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            652.383,
+            658.527
+          ],
+          "quote": "Well, instead of globally distributing the hello world MCP server, I have a decision log MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            678.48,
+            686.646
+          ],
+          "quote": "Where we branch out and either use one of the CRUD APIs or tools that is provided by my MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            746.127,
+            764.139
+          ],
+          "quote": "However, I think it's smarter to update the application manifest and concatenate those tasks so that I can remain in the spin developer experience and basically do a spin build to compile, compose and compile my MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            772.743,
+            781.068
+          ],
+          "quote": "So this right now composes the server, asks me, hey, how do you wanna call that MCP server on Akamai functions?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            781.628,
+            788.372
+          ],
+          "quote": "I call it ADR MCP, I allow my terminal to interact with the service registry.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            829.674,
+            838.66
+          ],
+          "quote": "Then we roll a generic subdomain on your behalf so that your MCP server will be on the public internet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            838.76,
+            851.348
+          ],
+          "quote": "Obviously you can shield that with other products and services like the property manager to shield it behind whatever you want to enforce before forwarding users to the MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            860.515,
+            866.339
+          ],
+          "quote": "I use Z over here, but that works with any client that basically supports MCP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            882.35,
+            886.232
+          ],
+          "quote": "And these are the CRUD tools that my MCP defined.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            886.752,
+            894.416
+          ],
+          "quote": "So I can go back and chat with my IDE in the context of my project so that it could leverage my MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 141,
+          "t": [
+            945.303,
+            952.948
+          ],
+          "quote": "MCP server that's routing all the requests to the closest service region no matter where your users are.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1222.549,
+            1232.717
+          ],
+          "quote": "So the developer workflow is always the same, no matter if you build any kind of line of business application, if you build an MCP, or if you build an agent, you implement",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1249.765,
+            1254.829
+          ],
+          "quote": "And finally, you point your clients to your MCP or to your agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "webassembly",
+      "type": "concept",
+      "role": "concept",
+      "name": "WebAssembly",
+      "file": "WebAssembly",
+      "primary": true,
+      "how_described": "本集的核心武器:服务端 WebAssembly,体积小、分发快、可移植、自带沙箱安全;它之于容器,就像容器之于虚拟机,可实现边缘零冷启动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            175.413,
+            179.697
+          ],
+          "quote": "And this is done by adopting WebAssembly on the server-side.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            179.777,
+            185.141
+          ],
+          "quote": "You can think of WebAssembly as containers relate to virtual machines.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            192.882,
+            204.84
+          ],
+          "quote": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            208.593,
+            220.257
+          ],
+          "quote": "SPIN, as I said, is a CNCF project that is vendor-agnostic, and it allows you to build WebAssembly applications that are meant to be executed on the server or in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            266.773,
+            277.095
+          ],
+          "quote": "And you can choose from all the languages that are able to be compiled down to WebAssembly, including the WebAssembly system interface, or short WASI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            330.075,
+            343.958
+          ],
+          "quote": "Security is observed by WebAssembly's sandbox, so there's no way a workload could interact with external resources without us as developers explicitly granting those permissions to our workloads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            570.682,
+            575.545
+          ],
+          "quote": "Make goes on and takes the JavaScript code, compiles that down to WebAssembly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            576.005,
+            582.808
+          ],
+          "quote": "So we end up with a tools WebAssembly component, which is not yet a full-fledged MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1107.685,
+            1116.833
+          ],
+          "quote": "That every WebAssembly application written in JavaScript is faster than a native JavaScript application when it comes to cold starts and runtime performance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1233.133,
+            1241.779
+          ],
+          "quote": "Your application using any language that you could compile down to WebAssembly, Rust, TypeScript, Python, Go are the most prominent ones these days.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1272.397,
+            1281.802
+          ],
+          "quote": "Everything is based on open standards, so Spinnis, CNCF, WASI, WebAssembly are governed by the ByteCode Alliance, but ultimately you gain speed, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cold-start",
+      "type": "concept",
+      "role": "concept",
+      "name": "冷启动 (cold start)",
+      "file": "冷启动",
+      "primary": true,
+      "how_described": "本集反复讨论:容器/VM 冷启动可能数秒到数分钟,Akamai Functions 号称平均冷启动不到半毫秒;JS 编译成 WebAssembly 后靠内存快照冷启动反而更快",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            85.653,
+            105.799
+          ],
+          "quote": "Depending on your distributable unit, right, so if you even either choose containers or VMs, you may experience a cold start delay that might range from several seconds up to multiple minutes, especially when you have to scale dramatically fast to meet unexpected user demand.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            292.774,
+            301.361
+          ],
+          "quote": "Akamai Functions is the first truly serverless computing platform that is globally distributed and has zero cold start at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            310.048,
+            313.751
+          ],
+          "quote": "And on average, we can cold start in less than half a millisecond.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集说 WebAssembly 的沙箱保障安全性:开发者不显式授权,工作负载就无法与外部资源交互",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            330.075,
+            343.958
+          ],
+          "quote": "Security is observed by WebAssembly's sandbox, so there's no way a workload could interact with external resources without us as developers explicitly granting those permissions to our workloads.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "edge-native-architectures",
+      "type": "concept",
+      "role": "concept",
+      "name": "边缘原生架构 (Edge Native Architectures)",
+      "file": "边缘原生架构",
+      "primary": true,
+      "how_described": "本集称传统绑定区域的架构面向全球用户会力不从心,延迟不均等摩擦催生了 Edge Native 架构",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            62.035,
+            63.796
+          ],
+          "quote": "Edge Native Architectures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory-snapshot",
+      "type": "concept",
+      "role": "concept",
+      "name": "内存快照 (memory snapshot)",
+      "file": "内存快照",
+      "primary": true,
+      "how_described": "本集解释解释型语言编译 WebAssembly 时的机制:加载解释器和依赖后拍内存快照写入 WASM,使 JS 应用冷启动和运行性能反超原生",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            1095.202,
+            1107.225
+          ],
+          "quote": "This has one advantage, that not just the runtime is hot, also all the dependencies are loaded, and then we take a memory snapshot, write that to WASM, store that on disk, meaning",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "key-value-store",
+      "type": "concept",
+      "role": "concept",
+      "name": "键值存储 (key value store)",
+      "file": "键值存储",
+      "primary": true,
+      "how_described": "本集说 Akamai Functions 自带多租户键值存储,本地开发用 SQLite 模拟,部署后自动换成全球分布存储,无需配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            352,
+            357.745
+          ],
+          "quote": "So Akamai functions comes with a built-in key value store that is, again, multi-tenant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            713.912,
+            738.323
+          ],
+          "quote": "Store so on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spin",
+      "type": "company",
+      "role": "company",
+      "name": "Spin",
+      "file": "Spin",
+      "primary": true,
+      "how_described": "本集介绍它是一个厂商无关的 CNCF 项目,由 CLI、基于 WasmTime 的运行时和各语言 SDK 组成,用于构建服务端 WebAssembly 应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.979,
+            23.723
+          ],
+          "quote": "In the upcoming 20 minutes, I want to give you an introduction on how you can build ultrafast agents and MCPs with spin and run them globally distributed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            192.882,
+            204.84
+          ],
+          "quote": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            205.912,
+            208.533
+          ],
+          "quote": "So let's dive into SPIN for a minute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            208.593,
+            220.257
+          ],
+          "quote": "SPIN, as I said, is a CNCF project that is vendor-agnostic, and it allows you to build WebAssembly applications that are meant to be executed on the server or in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            221.118,
+            223.619
+          ],
+          "quote": "SPIN itself consists of three major pillars.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            245.34,
+            260.568
+          ],
+          "quote": "Last but not least, SPIN gives us language-specific SDKs to boost the developer productivity when it comes to day-to-day jobs, like, for example, interacting with HTTP services, interacting with databases, or different kind of things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            262.072,
+            266.373
+          ],
+          "quote": "Although we have language-specific SDKs, SPIN itself is language-agnostic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            277.955,
+            280.756
+          ],
+          "quote": "And you can learn more about SPIN on spinframework.dev.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            281.236,
+            286.257
+          ],
+          "quote": "So scan this QR code and you will end up on the SPIN documentation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            286.717,
+            291.538
+          ],
+          "quote": "So SPIN is the developer tool that we use for building these kinds of applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            400.852,
+            404.593
+          ],
+          "quote": "Rasm.CP again is a CLI that integrates seamlessly with SPIN.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            426.338,
+            447.743
+          ],
+          "quote": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            607.013,
+            610.536
+          ],
+          "quote": "I can do a spin up dash f server dot wasm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            713.912,
+            738.323
+          ],
+          "quote": "Store so on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            746.127,
+            764.139
+          ],
+          "quote": "However, I think it's smarter to update the application manifest and concatenate those tasks so that I can remain in the spin developer experience and basically do a spin build to compile, compose and compile my MCP server.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            764.179,
+            770.803
+          ],
+          "quote": "However, I can also combine this one with spin Akamai deploy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            983.549,
+            991.372
+          ],
+          "quote": "So this allows us basically to create a new spin app using TypeScript, just bring in the Vercel AI dependencies,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1008.738,
+            1013.84
+          ],
+          "quote": "Obviously, I have created a new spin app using a template so that I can get started pretty quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            1021.369,
+            1023.911
+          ],
+          "quote": "And all my spin-up does, it defines the tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1064.815,
+            1073.882
+          ],
+          "quote": "Okay, let's go, let's do a quit all over here, and let's do another spin acker deploy no confirm build.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1242.46,
+            1245.542
+          ],
+          "quote": "You can test it locally with the spin CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1246.163,
+            1249.425
+          ],
+          "quote": "You deploy it using a single command called spin-acaddeploy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1262.106,
+            1267.192
+          ],
+          "quote": "You can take those spin apps and run them on any WESI-compliant runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1299.979,
+            1302.281
+          ],
+          "quote": "It's spin, aka, deploy is all you need.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1310.806,
+            1319.732
+          ],
+          "quote": "But developer experience is our highest metric when we started spin and why we continue in that direction.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "akamai-functions",
+      "type": "company",
+      "role": "company",
+      "name": "Akamai Functions",
+      "file": "Akamai Functions",
+      "primary": true,
+      "how_described": "本集称它是第一个全球分布式、零冷启动的无服务器计算平台,部署应用按请求冷启动,平均不到半毫秒(注意:来自 Akamai 演讲者的自述)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            192.882,
+            204.84
+          ],
+          "quote": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            292.774,
+            301.361
+          ],
+          "quote": "Akamai Functions is the first truly serverless computing platform that is globally distributed and has zero cold start at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            302.021,
+            309.487
+          ],
+          "quote": "So every application that you deploy to Akamai Functions is cold started per request that hits your endpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            352,
+            357.745
+          ],
+          "quote": "So Akamai functions comes with a built-in key value store that is, again, multi-tenant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            365.553,
+            376.118
+          ],
+          "quote": "Again, there is a QR code, scan that, and you can find out more about Akamai functions, sign up for a trial or a free account there, and, you know, explore it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            426.338,
+            447.743
+          ],
+          "quote": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            713.912,
+            738.323
+          ],
+          "quote": "Store so on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            772.743,
+            781.068
+          ],
+          "quote": "So this right now composes the server, asks me, hey, how do you wanna call that MCP server on Akamai functions?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            789.173,
+            799.719
+          ],
+          "quote": "Now it's taken my WASM file and my application manifest, generating OCI layers from those files, uploading them to Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1210.479,
+            1220.046
+          ],
+          "quote": "So roughly 820 milliseconds is what we could achieve with a full loop through the LLM by taking our agent and deploying it to Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1267.292,
+            1271.676
+          ],
+          "quote": "Akamai Functions is one runtime and it's the globally distributed runtime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wasmcp",
+      "type": "company",
+      "role": "company",
+      "name": "WASMCP",
+      "file": "WASMCP",
+      "primary": true,
+      "how_described": "本集演示的工具:与 Spin 无缝集成的 CLI,把 MCP 服务器的 OAuth2 认证等非功能性需求做成现成组件,开发者只写工具、资源和提示词",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            426.338,
+            447.743
+          ],
+          "quote": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            450.747,
+            454.194
+          ],
+          "quote": "So I have installed WASMCP on my machine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            454.314,
+            457.64
+          ],
+          "quote": "It's github.com wasmcp forward slash wasmcp.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "akamai",
+      "type": "company",
+      "role": "company",
+      "name": "Akamai",
+      "file": "Akamai",
+      "primary": true,
+      "how_described": "演讲者所在公司,本集的 Edge Native AI 栈由其 Akamai Functions 运行时承载,演示了全球边缘网络把请求路由到最近服务区域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            25.724,
+            28.845
+          ],
+          "quote": "I work as a senior developer advocate with Akamai.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            192.882,
+            204.84
+          ],
+          "quote": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            292.774,
+            301.361
+          ],
+          "quote": "Akamai Functions is the first truly serverless computing platform that is globally distributed and has zero cold start at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            302.021,
+            309.487
+          ],
+          "quote": "So every application that you deploy to Akamai Functions is cold started per request that hits your endpoint.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            352,
+            357.745
+          ],
+          "quote": "So Akamai functions comes with a built-in key value store that is, again, multi-tenant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            365.553,
+            376.118
+          ],
+          "quote": "Again, there is a QR code, scan that, and you can find out more about Akamai functions, sign up for a trial or a free account there, and, you know, explore it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            426.338,
+            447.743
+          ],
+          "quote": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            713.912,
+            738.323
+          ],
+          "quote": "Store so on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            764.179,
+            770.803
+          ],
+          "quote": "However, I can also combine this one with spin Akamai deploy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            772.743,
+            781.068
+          ],
+          "quote": "So this right now composes the server, asks me, hey, how do you wanna call that MCP server on Akamai functions?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            789.173,
+            799.719
+          ],
+          "quote": "Now it's taken my WASM file and my application manifest, generating OCI layers from those files, uploading them to Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1135.185,
+            1157.68
+          ],
+          "quote": "Let me replace this URL over here, and let's say toss a coin, and we see a response back, and if we look at these headers, we can see the point of presence where we enter the Akamai network is Santa Clara, and the closest service region for our AI agent is LAX.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1210.479,
+            1220.046
+          ],
+          "quote": "So roughly 820 milliseconds is what we could achieve with a full loop through the LLM by taking our agent and deploying it to Akamai functions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1267.292,
+            1271.676
+          ],
+          "quote": "Akamai Functions is one runtime and it's the globally distributed runtime.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1321.843,
+            1329.449
+          ],
+          "quote": "We have a new website that's called the Akamai Developer Hub where we share stories and experiments and experiences like these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1329.629,
+            1332.151
+          ],
+          "quote": "So go check out developers.akamai.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1332.872,
+            1336.414
+          ],
+          "quote": "And if you have any further questions, find me at the Akamai booth.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel AI SDK",
+      "file": "Vercel AI SDK",
+      "primary": false,
+      "how_described": "本集说写智能体时可以直接用它这种流行 SDK,不需要额外 CLI,在 Spin 应用里引入依赖构建自定义智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            979.347,
+            983.009
+          ],
+          "quote": "I think the Vercel AI SDK is pretty nice to use.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cncf",
+      "type": "company",
+      "role": "company",
+      "name": "CNCF",
+      "file": "CNCF",
+      "primary": false,
+      "how_described": "本集说 Spin 是 CNCF 旗下的厂商无关开源项目,体现其开放标准属性",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            192.882,
+            204.84
+          ],
+          "quote": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            208.593,
+            220.257
+          ],
+          "quote": "SPIN, as I said, is a CNCF project that is vendor-agnostic, and it allows you to build WebAssembly applications that are meant to be executed on the server or in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1272.397,
+            1281.802
+          ],
+          "quote": "Everything is based on open standards, so Spinnis, CNCF, WASI, WebAssembly are governed by the ByteCode Alliance, but ultimately you gain speed, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Paige Bailey]] · [[DeepMind]] · [[Gemma 4]] · [[Managed Agents]] · [[开放模型]] · [[沙箱]] · [[推理]] · [[GPU]] · [[量化]] · [[函数调用]]
+[[Paige Bailey]] · [[DeepMind]] · [[Gemma 4]] · [[Managed Agents]] · [[开放模型]] · [[沙箱]] · [[推理]] · [[GPU]] · [[量化]] · [[WebAssembly]]
 
-<script type="application/json" class="pd-epn">{"Paige Bailey":1,"DeepMind":19,"Gemma 4":2,"Managed Agents":7,"开放模型":3,"沙箱":101,"推理":101,"GPU":33,"量化":1,"函数调用":4}</script>
+<script type="application/json" class="pd-epn">{"Paige Bailey":1,"DeepMind":19,"Gemma 4":2,"Managed Agents":7,"开放模型":3,"沙箱":103,"推理":102,"GPU":33,"量化":1,"WebAssembly":2}</script>
 
 <script>
 (function(){

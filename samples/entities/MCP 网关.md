@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[Jim Clark]] · [[Sam]] · [[沙箱]] · [[Gravity]] · [[harness]] · [[提示词注入]] · [[泄露的凭证]] · [[数据外泄]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":97,"Jim Clark":1,"Sam":1,"沙箱":101,"Gravity":1,"harness":67,"提示词注入":1,"泄露的凭证":5,"数据外泄":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":98,"Jim Clark":1,"Sam":1,"沙箱":103,"Gravity":1,"harness":67,"提示词注入":1,"泄露的凭证":5,"数据外泄":1}</script>
 
 <script>
 (function(){

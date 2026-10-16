@@ -65,7 +65,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"送出你的乐高":1,"AI":34,"智能体":1,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"送出你的乐高":1,"AI":35,"智能体":1,"委托给 AI":1,"AI 垃圾内容":4,"生产力":2,"职业倦怠":4,"悲伤":1,"半人马":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,1682 @@
+[
+ {
+  "seg": 0,
+  "start": 12.558,
+  "end": 13.298,
+  "speaker": "Unknown",
+  "en": "Welcome, everybody.",
+  "zh": "欢迎大家。"
+ },
+ {
+  "seg": 1,
+  "start": 13.498,
+  "end": 14.719,
+  "speaker": "Unknown",
+  "en": "Thanks for joining my talk.",
+  "zh": "感谢各位参加我的演讲。"
+ },
+ {
+  "seg": 2,
+  "start": 14.979,
+  "end": 23.723,
+  "speaker": "Unknown",
+  "en": "In the upcoming 20 minutes, I want to give you an introduction on how you can build ultrafast agents and MCPs with spin and run them globally distributed.",
+  "zh": "在接下来的 20 分钟里，我想向大家介绍如何使用 spin 构建超快的智能体和 MCP，并将它们在全球范围内分布式运行。"
+ },
+ {
+  "seg": 3,
+  "start": 24.663,
+  "end": 25.624,
+  "speaker": "Unknown",
+  "en": "So my name is Torsten.",
+  "zh": "我叫 Torsten。"
+ },
+ {
+  "seg": 4,
+  "start": 25.724,
+  "end": 28.845,
+  "speaker": "Unknown",
+  "en": "I work as a senior developer advocate with Akamai.",
+  "zh": "我是 Akamai 的高级开发者布道师。"
+ },
+ {
+  "seg": 5,
+  "start": 29.786,
+  "end": 34.708,
+  "speaker": "Unknown",
+  "en": "And I guess all of you have already built either MCPs or agents.",
+  "zh": "我猜在座的各位都已经构建过 MCP 或智能体了。"
+ },
+ {
+  "seg": 6,
+  "start": 35.468,
+  "end": 45.775,
+  "speaker": "Unknown",
+  "en": "They are no different than any other kind of application, so they obviously demand super-fast response time so that we can deliver the best possible user experience.",
+  "zh": "它们与其他任何类型的应用程序没有什么不同，所以它们显然需要超快的响应时间，以便我们能够提供最佳的用户体验。"
+ },
+ {
+  "seg": 7,
+  "start": 46.375,
+  "end": 54.781,
+  "speaker": "Unknown",
+  "en": "However, traditional region-bound architectures or infrastructures fall short when you want to address a global audience.",
+  "zh": "然而，传统的绑定区域的架构或基础设施在面向全球受众时会力不从心。"
+ },
+ {
+  "seg": 8,
+  "start": 55.361,
+  "end": 61.405,
+  "speaker": "Unknown",
+  "en": "And they come with some frictions which lead to the inception of",
+  "zh": "而且它们带有一些摩擦，这导致了"
+ },
+ {
+  "seg": 9,
+  "start": 62.035,
+  "end": 63.796,
+  "speaker": "Unknown",
+  "en": "Edge Native Architectures.",
+  "zh": "Edge Native 架构的诞生。"
+ },
+ {
+  "seg": 10,
+  "start": 64.436,
+  "end": 67.378,
+  "speaker": "Unknown",
+  "en": "So obviously latency is one of the biggest concerns.",
+  "zh": "所以显然延迟是最大的问题之一。"
+ },
+ {
+  "seg": 11,
+  "start": 67.959,
+  "end": 83.788,
+  "speaker": "Unknown",
+  "en": "Depending on where you deploy your MCPs or your agents, it might be fast for a subset of your global audience, but others might experience a way lower latency and resulting in a way worse user experience.",
+  "zh": "根据你部署 MCP 或智能体的位置，它可能对全球受众中的一部分人来说很快，但其他人可能会体验到高得多的延迟，从而导致差得多的用户体验。"
+ },
+ {
+  "seg": 12,
+  "start": 85.653,
+  "end": 105.799,
+  "speaker": "Unknown",
+  "en": "Depending on your distributable unit, right, so if you even either choose containers or VMs, you may experience a cold start delay that might range from several seconds up to multiple minutes, especially when you have to scale dramatically fast to meet unexpected user demand.",
+  "zh": "取决于你的可分发单元，对吧，所以如果你选择容器或 VM，你可能会遇到冷启动延迟，范围从几秒到几分钟不等，尤其是当你必须极速扩容以满足意外的用户需求时。"
+ },
+ {
+  "seg": 13,
+  "start": 106.788,
+  "end": 111.81,
+  "speaker": "Unknown",
+  "en": "However, we can overcome that, obviously, by over-provisioning the infrastructure.",
+  "zh": "不过，我们显然可以通过过度配置基础设施来克服这个问题。"
+ },
+ {
+  "seg": 14,
+  "start": 112.19,
+  "end": 124.996,
+  "speaker": "Unknown",
+  "en": "However, keeping around many, many containers or servers and actually not utilizing them results in obviously higher cloud spendings and is not sustainable from an environmental footprint.",
+  "zh": "然而，保留很多很多容器或服务器却实际上没有利用它们，显然会导致更高的云支出，而且从环境足迹的角度来看也是不可持续的。"
+ },
+ {
+  "seg": 15,
+  "start": 126.516,
+  "end": 135.38,
+  "speaker": "Unknown",
+  "en": "So there are higher level solutions that we can use to run MCPs or agents, but they usually or often come",
+  "zh": "所以有一些更高层面的解决方案可以用来运行 MCP 或智能体，但它们通常或往往自带"
+ },
+ {
+  "seg": 16,
+  "start": 135.847,
+  "end": 146.634,
+  "speaker": "Unknown",
+  "en": "with proprietary SDKs or deployable units or have their own way on how you should treat them in order to make them work in a production-grade environment.",
+  "zh": "专有的 SDK 或可部署单元，或者有自己的一套方式要求你如何对待它们才能让它们在生产级环境中工作。"
+ },
+ {
+  "seg": 17,
+  "start": 148.395,
+  "end": 163.044,
+  "speaker": "Unknown",
+  "en": "Once you figured out about those constraints, moving away or migrating your workloads, your agents, to another hyperscaler, to another kind of infrastructure, it's often rather complex and extremely costly.",
+  "zh": "一旦你弄清楚了那些约束，把你的工作负载、你的智能体迁移到另一个超大规模云厂商、另一种基础设施上，往往相当复杂且成本极高。"
+ },
+ {
+  "seg": 18,
+  "start": 164.484,
+  "end": 174.232,
+  "speaker": "Unknown",
+  "en": "But there's a solution to that, and that solution involves a new way of how we as engineers could build back-end or server-side applications.",
+  "zh": "但对此有一个解决方案，这个方案涉及一种全新的方式，让我们工程师可以构建后端或服务端应用程序。"
+ },
+ {
+  "seg": 19,
+  "start": 175.413,
+  "end": 179.697,
+  "speaker": "Unknown",
+  "en": "And this is done by adopting WebAssembly on the server-side.",
+  "zh": "这就是通过在服务端采用 WebAssembly 来实现的。"
+ },
+ {
+  "seg": 20,
+  "start": 179.777,
+  "end": 185.141,
+  "speaker": "Unknown",
+  "en": "You can think of WebAssembly as containers relate to virtual machines.",
+  "zh": "你可以把 WebAssembly 之于容器，理解为容器之于虚拟机的关系。"
+ },
+ {
+  "seg": 21,
+  "start": 185.242,
+  "end": 191.467,
+  "speaker": "Unknown",
+  "en": "So they are binaries, super tiny in size, easy to distribute, super fast to run, and portable.",
+  "zh": "它们是二进制文件，体积超级小，易于分发，运行速度超快，而且是可移植的。"
+ },
+ {
+  "seg": 22,
+  "start": 192.882,
+  "end": 204.84,
+  "speaker": "Unknown",
+  "en": "What I refer to as the Edge Native AI stack is a combination of a CNCF project called Spin and Akamai Functions, one runtime where you can run those WebAssembly applications.",
+  "zh": "我所说的 Edge Native AI 栈，是一个名为 Spin 的 CNCF 项目和 Akamai Functions 的组合，后者是一个可以运行这些 WebAssembly 应用程序的运行时。"
+ },
+ {
+  "seg": 23,
+  "start": 205.912,
+  "end": 208.533,
+  "speaker": "Unknown",
+  "en": "So let's dive into SPIN for a minute.",
+  "zh": "那么我们花一分钟深入了解一下 SPIN。"
+ },
+ {
+  "seg": 24,
+  "start": 208.593,
+  "end": 220.257,
+  "speaker": "Unknown",
+  "en": "SPIN, as I said, is a CNCF project that is vendor-agnostic, and it allows you to build WebAssembly applications that are meant to be executed on the server or in the cloud.",
+  "zh": "正如我所说，SPIN 是一个厂商无关的 CNCF 项目，它允许你构建旨在在服务器或云上执行的 WebAssembly 应用程序。"
+ },
+ {
+  "seg": 25,
+  "start": 221.118,
+  "end": 223.619,
+  "speaker": "Unknown",
+  "en": "SPIN itself consists of three major pillars.",
+  "zh": "SPIN 本身由三大支柱组成。"
+ },
+ {
+  "seg": 26,
+  "start": 224.159,
+  "end": 231.742,
+  "speaker": "Unknown",
+  "en": "So it is a CLI that we as developers use to address all our day-to-day concerns, so everything in the realm of the inner loop.",
+  "zh": "首先它是一个 CLI，我们开发者用它来处理所有日常事务，也就是内循环领域的一切。"
+ },
+ {
+  "seg": 27,
+  "start": 232.733,
+  "end": 244.359,
+  "speaker": "Unknown",
+  "en": "It is a runtime, so it's based on WasmTime that allows us to run these kinds of applications either locally or on microcontrollers or constrained environments.",
+  "zh": "它是一个运行时，基于 WasmTime，让我们可以在本地、微控制器或受限环境中运行这类应用程序。"
+ },
+ {
+  "seg": 28,
+  "start": 245.34,
+  "end": 260.568,
+  "speaker": "Unknown",
+  "en": "Last but not least, SPIN gives us language-specific SDKs to boost the developer productivity when it comes to day-to-day jobs, like, for example, interacting with HTTP services, interacting with databases, or different kind of things.",
+  "zh": "最后，SPIN 为我们提供特定语言的 SDK，以提升日常工作的开发者生产力，比如与 HTTP 服务交互、与数据库交互，或者其他各种事情。"
+ },
+ {
+  "seg": 29,
+  "start": 262.072,
+  "end": 266.373,
+  "speaker": "Unknown",
+  "en": "Although we have language-specific SDKs, SPIN itself is language-agnostic.",
+  "zh": "尽管我们有特定语言的 SDK，但 SPIN 本身是语言无关的。"
+ },
+ {
+  "seg": 30,
+  "start": 266.773,
+  "end": 277.095,
+  "speaker": "Unknown",
+  "en": "And you can choose from all the languages that are able to be compiled down to WebAssembly, including the WebAssembly system interface, or short WASI.",
+  "zh": "你可以从所有能够编译到 WebAssembly 的语言中选择，包括 WebAssembly 系统接口，简称 WASI。"
+ },
+ {
+  "seg": 31,
+  "start": 277.955,
+  "end": 280.756,
+  "speaker": "Unknown",
+  "en": "And you can learn more about SPIN on spinframework.dev.",
+  "zh": "你可以在 spinframework.dev 上了解更多关于 SPIN 的信息。"
+ },
+ {
+  "seg": 32,
+  "start": 281.236,
+  "end": 286.257,
+  "speaker": "Unknown",
+  "en": "So scan this QR code and you will end up on the SPIN documentation.",
+  "zh": "扫描这个二维码，你就会进入 SPIN 的文档。"
+ },
+ {
+  "seg": 33,
+  "start": 286.717,
+  "end": 291.538,
+  "speaker": "Unknown",
+  "en": "So SPIN is the developer tool that we use for building these kinds of applications.",
+  "zh": "所以 SPIN 是我们用来构建这类应用程序的开发者工具。"
+ },
+ {
+  "seg": 34,
+  "start": 292.774,
+  "end": 301.361,
+  "speaker": "Unknown",
+  "en": "Akamai Functions is the first truly serverless computing platform that is globally distributed and has zero cold start at all.",
+  "zh": "Akamai Functions 是第一个真正意义上的无服务器计算平台，它是全球分布式的，并且完全没有冷启动。"
+ },
+ {
+  "seg": 35,
+  "start": 302.021,
+  "end": 309.487,
+  "speaker": "Unknown",
+  "en": "So every application that you deploy to Akamai Functions is cold started per request that hits your endpoint.",
+  "zh": "因此，你部署到 Akamai Functions 的每一个应用程序，都是针对每一个命中你端点的请求进行冷启动的。"
+ },
+ {
+  "seg": 36,
+  "start": 310.048,
+  "end": 313.751,
+  "speaker": "Unknown",
+  "en": "And on average, we can cold start in less than half a millisecond.",
+  "zh": "平均而言，我们的冷启动时间不到半毫秒。"
+ },
+ {
+  "seg": 37,
+  "start": 313.991,
+  "end": 314.872,
+  "speaker": "Unknown",
+  "en": "It's fully managed.",
+  "zh": "它是完全托管的。"
+ },
+ {
+  "seg": 38,
+  "start": 315.572,
+  "end": 317.232,
+  "speaker": "Unknown",
+  "en": "And it's, again, developer-centric.",
+  "zh": "而且它再次强调是以开发者为中心的。"
+ },
+ {
+  "seg": 39,
+  "start": 317.432,
+  "end": 328.535,
+  "speaker": "Unknown",
+  "en": "Your developers deploy the workload, no knobs to turn, no terraform to write, just a simple one-liner, and your app is globally distributed at no extra cost.",
+  "zh": "你的开发者只需部署工作负载，无需调任何旋钮，无需写 terraform，只需简单的一行命令，你的应用就以零额外成本实现了全球分布式部署。"
+ },
+ {
+  "seg": 40,
+  "start": 330.075,
+  "end": 343.958,
+  "speaker": "Unknown",
+  "en": "Security is observed by WebAssembly's sandbox, so there's no way a workload could interact with external resources without us as developers explicitly granting those permissions to our workloads.",
+  "zh": "安全性由 WebAssembly 的沙箱保障，因此如果没有我们开发者明确向工作负载授予相应权限，工作负载就不可能与外部资源交互。"
+ },
+ {
+  "seg": 41,
+  "start": 345.073,
+  "end": 351.499,
+  "speaker": "Unknown",
+  "en": "And to be a full-fledged serverless computing platform at the edge, we need some kind of persistence layer.",
+  "zh": "而要成为一个功能完备的边缘无服务器计算平台，我们需要某种持久化层。"
+ },
+ {
+  "seg": 42,
+  "start": 352,
+  "end": 357.745,
+  "speaker": "Unknown",
+  "en": "So Akamai functions comes with a built-in key value store that is, again, multi-tenant.",
+  "zh": "所以 Akamai Functions 自带一个内置的键值存储，它同样是多租户的。"
+ },
+ {
+  "seg": 43,
+  "start": 357.765,
+  "end": 359.447,
+  "speaker": "Unknown",
+  "en": "You don't have to roll credentials.",
+  "zh": "你不必自己管理凭证。"
+ },
+ {
+  "seg": 44,
+  "start": 359.967,
+  "end": 364.492,
+  "speaker": "Unknown",
+  "en": "It is automatically associated to your app if your intent is to use it.",
+  "zh": "如果你的意图是使用它，它会自动关联到你的应用。"
+ },
+ {
+  "seg": 45,
+  "start": 365.553,
+  "end": 376.118,
+  "speaker": "Unknown",
+  "en": "Again, there is a QR code, scan that, and you can find out more about Akamai functions, sign up for a trial or a free account there, and, you know, explore it.",
+  "zh": "同样，这里有一个二维码，扫描它，你可以了解更多关于 Akamai Functions 的信息，在那里注册试用或免费账户，然后，你知道，去探索它。"
+ },
+ {
+  "seg": 46,
+  "start": 377.138,
+  "end": 384.101,
+  "speaker": "Unknown",
+  "en": "So these are the technical underpinnings that I want to use in order to build first MCP servers.",
+  "zh": "这些就是我想要用来构建第一批 MCP 服务器的技术基础。"
+ },
+ {
+  "seg": 47,
+  "start": 385.442,
+  "end": 394.886,
+  "speaker": "Unknown",
+  "en": "So instead of hand-rolling a new MCP server, I mean, we can implement the HTTP protocol or the specified API on top of HTTP,",
+  "zh": "与其手动从头写一个新的 MCP 服务器，我是说，我们可以在 HTTP 之上实现 HTTP 协议或指定的 API，"
+ },
+ {
+  "seg": 48,
+  "start": 395.23,
+  "end": 398.691,
+  "speaker": "Unknown",
+  "en": "To build an MCP, there is a smarter way of doing that.",
+  "zh": "要构建一个 MCP，有一种更聪明的做法。"
+ },
+ {
+  "seg": 49,
+  "start": 398.911,
+  "end": 400.651,
+  "speaker": "Unknown",
+  "en": "And a smarter way is Rasm.CP.",
+  "zh": "那个更聪明的做法就是 Rasm.CP。"
+ },
+ {
+  "seg": 50,
+  "start": 400.852,
+  "end": 404.593,
+  "speaker": "Unknown",
+  "en": "Rasm.CP again is a CLI that integrates seamlessly with SPIN.",
+  "zh": "Rasm.CP 还是一个 CLI,它与 SPIN 无缝集成。"
+ },
+ {
+  "seg": 51,
+  "start": 405.413,
+  "end": 411.034,
+  "speaker": "Unknown",
+  "en": "So what this allows us to do is basically to focus just on the business logic.",
+  "zh": "所以这让我们能够做的,基本上就是只专注于业务逻辑。"
+ },
+ {
+  "seg": 52,
+  "start": 411.554,
+  "end": 420.437,
+  "speaker": "Unknown",
+  "en": "And in the realm of an MCP, business logic basically means we implement our tools, we implement our resources, our prompts, and we are good to go.",
+  "zh": "而在 MCP 的领域里,业务逻辑基本上意味着我们实现我们的工具、实现我们的资源、我们的提示词,然后我们就可以上线了。"
+ },
+ {
+  "seg": 53,
+  "start": 421.437,
+  "end": 426.298,
+  "speaker": "Unknown",
+  "en": "Everything else, all those non-functional requirements that we have to tackle, right?",
+  "zh": "其余的一切,所有那些我们必须处理的非功能性需求,对吧?"
+ },
+ {
+  "seg": 54,
+  "start": 426.338,
+  "end": 447.743,
+  "speaker": "Unknown",
+  "en": "Like, for example, authenticating users using OAuth2 and OIDC, that's done by WASMCP and we can take ready-to-use components off the shelf and compose a final MCP server component together and run that on SPIN or on Akamai functions.",
+  "zh": "比如,例如,使用 OAuth2 和 OIDC 对用户进行身份验证,这些都由 WASMCP 来完成,我们可以拿现成的组件直接使用,组合成一个最终的 MCP server 组件,并把它运行在 SPIN 或 Akamai functions 上。"
+ },
+ {
+  "seg": 55,
+  "start": 448.423,
+  "end": 450.427,
+  "speaker": "Unknown",
+  "en": "And that's what we are going to do right now.",
+  "zh": "这就是我们现在要做的。"
+ },
+ {
+  "seg": 56,
+  "start": 450.747,
+  "end": 454.194,
+  "speaker": "Unknown",
+  "en": "So I have installed WASMCP on my machine.",
+  "zh": "我已经在我的机器上安装了 WASMCP。"
+ },
+ {
+  "seg": 57,
+  "start": 454.314,
+  "end": 457.64,
+  "speaker": "Unknown",
+  "en": "It's github.com wasmcp forward slash wasmcp.",
+  "zh": "它是 github.com wasmcp 正斜杠 wasmcp。"
+ },
+ {
+  "seg": 58,
+  "start": 458.568,
+  "end": 460.99,
+  "speaker": "Unknown",
+  "en": "And it gives you a nice little CLI.",
+  "zh": "它给你一个不错的小 CLI。"
+ },
+ {
+  "seg": 59,
+  "start": 461.05,
+  "end": 469.477,
+  "speaker": "Unknown",
+  "en": "So we can do, whereas MCP, new, we can choose a language, Rust, TypeScript, Python, and we can choose from templates.",
+  "zh": "所以我们可以执行,wasmcp,new,我们可以选择一门语言,Rust、TypeScript、Python,而且我们可以从模板中选择。"
+ },
+ {
+  "seg": 60,
+  "start": 469.517,
+  "end": 480.607,
+  "speaker": "Unknown",
+  "en": "The default template is me only caring about tools for now, and let's call this new MCP server, hello, we get instructions, hey, move into hello, hello,",
+  "zh": "默认模板是我现在只关心工具,我们把这个新的 MCP server 叫作 hello,我们得到操作说明,嘿,进入 hello,hello,"
+ },
+ {
+  "seg": 61,
+  "start": 482.297,
+  "end": 485.36,
+  "speaker": "Unknown",
+  "en": "Then let's open up a new terminal on this side.",
+  "zh": "然后让我们在这一侧打开一个新终端。"
+ },
+ {
+  "seg": 62,
+  "start": 486.041,
+  "end": 488.042,
+  "speaker": "Unknown",
+  "en": "CD into hello over here as well.",
+  "zh": "同样在这里 CD 进入 hello。"
+ },
+ {
+  "seg": 63,
+  "start": 488.603,
+  "end": 492.967,
+  "speaker": "Unknown",
+  "en": "And let's run npm install because that takes a few seconds.",
+  "zh": "然后让我们运行 npm install,因为这需要几秒钟。"
+ },
+ {
+  "seg": 64,
+  "start": 494.048,
+  "end": 497.972,
+  "speaker": "Unknown",
+  "en": "And let's open this one in the editor and let's do",
+  "zh": "然后让我们在编辑器中打开这个,然后我们"
+ },
+ {
+  "seg": 65,
+  "start": 499.459,
+  "end": 500.42,
+  "speaker": "Unknown",
+  "en": "This full screen.",
+  "zh": "把这个全屏。"
+ },
+ {
+  "seg": 66,
+  "start": 501.04,
+  "end": 502.34,
+  "speaker": "Unknown",
+  "en": "So what do we get over here?",
+  "zh": "那么我们在这里得到了什么?"
+ },
+ {
+  "seg": 67,
+  "start": 503.261,
+  "end": 510.685,
+  "speaker": "Unknown",
+  "en": "We get a boilerplate that's ready to use and those squirrel lines will go away once NPM install is done.",
+  "zh": "我们得到一个可以直接使用的样板代码,那些波浪线会在 NPM install 完成后消失。"
+ },
+ {
+  "seg": 68,
+  "start": 511.345,
+  "end": 516.407,
+  "speaker": "Unknown",
+  "en": "So all we have to do is we have to express the scheme on which inputs we expect.",
+  "zh": "所以我们要做的就是表达我们期望输入的 schema。"
+ },
+ {
+  "seg": 69,
+  "start": 517.128,
+  "end": 520.389,
+  "speaker": "Unknown",
+  "en": "We have obviously to provide the list of our tools.",
+  "zh": "我们显然必须提供我们工具的列表。"
+ },
+ {
+  "seg": 70,
+  "start": 520.569,
+  "end": 525.672,
+  "speaker": "Unknown",
+  "en": "So again, we have to be good citizen over here and have to provide precise descriptions so that",
+  "zh": "所以再次强调,我们必须在这里做一个好公民,必须提供精确的描述,以便"
+ },
+ {
+  "seg": 71,
+  "start": 526.052,
+  "end": 529.917,
+  "speaker": "Unknown",
+  "en": "Humans and LLMs know how to handle these kind of tools.",
+  "zh": "人类和 LLM 知道如何处理这类工具。"
+ },
+ {
+  "seg": 72,
+  "start": 531.259,
+  "end": 544.775,
+  "speaker": "Unknown",
+  "en": "So we list them in a simple array, and then there's one ingestion function that's called CallTool, and depending on the payload that we receive, we have to decide which tool we have to execute.",
+  "zh": "所以我们用一个简单的数组列出它们,然后有一个被调用的摄取函数叫 CallTool,根据我们收到的 payload,我们必须决定要执行哪个工具。"
+ },
+ {
+  "seg": 73,
+  "start": 545.322,
+  "end": 562.824,
+  "speaker": "Unknown",
+  "en": "If we jump into handle example tool over here, we can see all incoming arguments are validated, and if everything's fine, then we basically concatenate the received input with a prefix and return that back to the user.",
+  "zh": "如果我们跳到这里的 handle example tool,我们可以看到所有传入的参数都会被验证,如果一切正常,那么我们基本上把收到的输入与一个前缀拼接起来,并把结果返回给用户。"
+ },
+ {
+  "seg": 74,
+  "start": 563.224,
+  "end": 564.106,
+  "speaker": "Unknown",
+  "en": "Nothing fancy.",
+  "zh": "没什么花哨的。"
+ },
+ {
+  "seg": 75,
+  "start": 565.12,
+  "end": 568.482,
+  "speaker": "Unknown",
+  "en": "So let's close the editor over here and follow the instructions.",
+  "zh": "那么让我们关闭这里的编辑器,按照说明操作。"
+ },
+ {
+  "seg": 76,
+  "start": 568.922,
+  "end": 570.222,
+  "speaker": "Unknown",
+  "en": "Next on list is make.",
+  "zh": "接下来的清单是 make。"
+ },
+ {
+  "seg": 77,
+  "start": 570.682,
+  "end": 575.545,
+  "speaker": "Unknown",
+  "en": "Make goes on and takes the JavaScript code, compiles that down to WebAssembly.",
+  "zh": "make 会执行,拿到 JavaScript 代码,把它编译成 WebAssembly。"
+ },
+ {
+  "seg": 78,
+  "start": 576.005,
+  "end": 582.808,
+  "speaker": "Unknown",
+  "en": "So we end up with a tools WebAssembly component, which is not yet a full-fledged MCP server.",
+  "zh": "所以我们最终得到一个 tools WebAssembly 组件,它还不是一个完整的 MCP server。"
+ },
+ {
+  "seg": 79,
+  "start": 583.713,
+  "end": 586.295,
+  "speaker": "Unknown",
+  "en": "Next in line would be wasm.cp.compose.",
+  "zh": "接下来的一步是 wasmcp compose。"
+ },
+ {
+  "seg": 80,
+  "start": 586.355,
+  "end": 592.981,
+  "speaker": "Unknown",
+  "en": "Let's compose a full-fledged MCP by taking our tools and saying, hey, please give me an MCP.",
+  "zh": "让我们通过拿上我们的工具并说,嘿,请给我一个 MCP,来组合出一个完整的 MCP。"
+ },
+ {
+  "seg": 81,
+  "start": 593.101,
+  "end": 597.285,
+  "speaker": "Unknown",
+  "en": "For the sake of this demo, I don't care about authentication.",
+  "zh": "为了这个演示的目的,我不关心身份验证。"
+ },
+ {
+  "seg": 82,
+  "start": 598.526,
+  "end": 606.933,
+  "speaker": "Unknown",
+  "en": "Okay, it pulls all the necessary other components and composes together an MCP server and gives me instructions on how to run it.",
+  "zh": "好的,它会拉取所有必要的其他组件,组合出一个 MCP server,并给我关于如何运行它的说明。"
+ },
+ {
+  "seg": 83,
+  "start": 607.013,
+  "end": 610.536,
+  "speaker": "Unknown",
+  "en": "I can do a spin up dash f server dot wasm.",
+  "zh": "我可以执行 spin up 短横线 f server 点 wasm。"
+ },
+ {
+  "seg": 84,
+  "start": 611.928,
+  "end": 614.609,
+  "speaker": "Unknown",
+  "en": "And we should see that running on localhost 3000.",
+  "zh": "我们应该会看到它运行在 localhost 3000 上。"
+ },
+ {
+  "seg": 85,
+  "start": 614.709,
+  "end": 622.811,
+  "speaker": "Unknown",
+  "en": "Okay, let's bring back the other terminal and let's run npx, the MCP inspector over here.",
+  "zh": "好的,让我们把另一个终端调回来,让我们在这里运行 npx 的 MCP inspector。"
+ },
+ {
+  "seg": 86,
+  "start": 622.911,
+  "end": 624.351,
+  "speaker": "Unknown",
+  "en": "That should fire up in the browser.",
+  "zh": "它应该会在浏览器中启动。"
+ },
+ {
+  "seg": 87,
+  "start": 624.371,
+  "end": 624.812,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 88,
+  "start": 626.232,
+  "end": 629.573,
+  "speaker": "Unknown",
+  "en": "It's already pointing to localhost 3000 right here.",
+  "zh": "它已经指向这里的 localhost 3000 了。"
+ },
+ {
+  "seg": 89,
+  "start": 629.633,
+  "end": 630.553,
+  "speaker": "Unknown",
+  "en": "So let's connect.",
+  "zh": "那么让我们连接。"
+ },
+ {
+  "seg": 90,
+  "start": 631.213,
+  "end": 632.274,
+  "speaker": "Unknown",
+  "en": "Let's list tools.",
+  "zh": "让我们列出工具。"
+ },
+ {
+  "seg": 91,
+  "start": 632.314,
+  "end": 633.734,
+  "speaker": "Unknown",
+  "en": "There's our example tool.",
+  "zh": "这就是我们的 example tool。"
+ },
+ {
+  "seg": 92,
+  "start": 633.754,
+  "end": 635.875,
+  "speaker": "Unknown",
+  "en": "We provide foo as an input parameter.",
+  "zh": "我们提供 foo 作为输入参数。"
+ },
+ {
+  "seg": 93,
+  "start": 635.895,
+  "end": 636.755,
+  "speaker": "Unknown",
+  "en": "We run the tool.",
+  "zh": "我们运行这个工具。"
+ },
+ {
+  "seg": 94,
+  "start": 637.395,
+  "end": 639.056,
+  "speaker": "Unknown",
+  "en": "And we should get back foo.",
+  "zh": "然后我们应该会得到 foo。"
+ },
+ {
+  "seg": 95,
+  "start": 639.256,
+  "end": 639.496,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 96,
+  "start": 639.576,
+  "end": 640.997,
+  "speaker": "Unknown",
+  "en": "Nothing fancy, cool, works.",
+  "zh": "没什么花哨的,很好,能用了。"
+ },
+ {
+  "seg": 97,
+  "start": 641.678,
+  "end": 643.519,
+  "speaker": "Unknown",
+  "en": "But that's the local experience.",
+  "zh": "但那是本地体验。"
+ },
+ {
+  "seg": 98,
+  "start": 643.539,
+  "end": 650.903,
+  "speaker": "Unknown",
+  "en": "So how can we take that to become a clue or how can we turn that into a globally distributed MCP server?",
+  "zh": "那么我们怎么把它变成一个 clue,或者我们怎么把它变成一个全球分布的 MCP server 呢?"
+ },
+ {
+  "seg": 99,
+  "start": 652.383,
+  "end": 658.527,
+  "speaker": "Unknown",
+  "en": "Well, instead of globally distributing the hello world MCP server, I have a decision log MCP server.",
+  "zh": "好吧,与其全球分布这个 hello world MCP server,我有一个 decision log MCP server。"
+ },
+ {
+  "seg": 100,
+  "start": 659.589,
+  "end": 662.432,
+  "speaker": "Unknown",
+  "en": "And let me open up this one first.",
+  "zh": "那让我先打开这一个。"
+ },
+ {
+  "seg": 101,
+  "start": 662.752,
+  "end": 668.437,
+  "speaker": "Unknown",
+  "en": "So there is, this one is implemented in Rust for the sake of implementing it in Rust.",
+  "zh": "所以有，这一个是为了用 Rust 实现而用 Rust 实现的。"
+ },
+ {
+  "seg": 102,
+  "start": 668.657,
+  "end": 670.719,
+  "speaker": "Unknown",
+  "en": "So let's go into librs over here.",
+  "zh": "那我们进入这里的 librs。"
+ },
+ {
+  "seg": 103,
+  "start": 671.219,
+  "end": 675.523,
+  "speaker": "Unknown",
+  "en": "There is an equivalent class or structure in Rust.",
+  "zh": "在 Rust 里有一个等价的类或结构体。"
+ },
+ {
+  "seg": 104,
+  "start": 675.743,
+  "end": 677.985,
+  "speaker": "Unknown",
+  "en": "As you can see, we're looking at the call tool function.",
+  "zh": "如你所见，我们在看 call tool 函数。"
+ },
+ {
+  "seg": 105,
+  "start": 678.48,
+  "end": 686.646,
+  "speaker": "Unknown",
+  "en": "Where we branch out and either use one of the CRUD APIs or tools that is provided by my MCP server.",
+  "zh": "在这里我们分支出去，要么使用我的 MCP server 提供的某个 CRUD API 或工具。"
+ },
+ {
+  "seg": 106,
+  "start": 686.906,
+  "end": 695.532,
+  "speaker": "Unknown",
+  "en": "If we dive into the actual implementation, let me, nope, this is wrong, I want this and then I want to do that.",
+  "zh": "如果我们深入实际实现，让我，不，这个不对，我要这个，然后我要那样做。"
+ },
+ {
+  "seg": 107,
+  "start": 697.031,
+  "end": 712.911,
+  "speaker": "Unknown",
+  "en": "Decision.rs if we go to the bottom of the file you can see this is slightly different syntax but the same meaning right I have to define my tools and if we go to line 15 or so yes list decisions you can see over here that I use",
+  "zh": "Decision.rs，如果我们到文件底部，你可以看到这里语法略有不同但含义相同，对吧，我必须定义我的工具，如果我们到第 15 行左右，是的，list decisions，你可以在这里看到我使用了"
+ },
+ {
+  "seg": 108,
+  "start": 713.912,
+  "end": 738.323,
+  "speaker": "Unknown",
+  "en": "Store so on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+  "zh": "Store，所以在我本地机器上，spin 识别出 Torsten 想使用键值存储，所以出于开发目的它自动在我的机器上用 SQLite 创建了一个键值存储，而在 Akamai functions 上它利用的是全球分布的键值存储，而我不需要配置任何东西。"
+ },
+ {
+  "seg": 109,
+  "start": 739.143,
+  "end": 742.745,
+  "speaker": "Unknown",
+  "en": "From here it's actually the same story right I have to",
+  "zh": "从这里开始其实是同样的流程，对吧，我必须"
+ },
+ {
+  "seg": 110,
+  "start": 743.265,
+  "end": 745.747,
+  "speaker": "Unknown",
+  "en": "Use that make file and compose the server.",
+  "zh": "使用那个 make file 并组合服务器。"
+ },
+ {
+  "seg": 111,
+  "start": 746.127,
+  "end": 764.139,
+  "speaker": "Unknown",
+  "en": "However, I think it's smarter to update the application manifest and concatenate those tasks so that I can remain in the spin developer experience and basically do a spin build to compile, compose and compile my MCP server.",
+  "zh": "不过，我认为更聪明的做法是更新 application manifest 并拼接那些任务，这样我就能保持在 spin 开发者体验里，基本上执行一次 spin build 来编译、组合并编译我的 MCP server。"
+ },
+ {
+  "seg": 112,
+  "start": 764.179,
+  "end": 770.803,
+  "speaker": "Unknown",
+  "en": "However, I can also combine this one with spin Akamai deploy",
+  "zh": "不过，我也可以把它与 spin Akamai deploy 结合起来"
+ },
+ {
+  "seg": 113,
+  "start": 772.743,
+  "end": 781.068,
+  "speaker": "Unknown",
+  "en": "So this right now composes the server, asks me, hey, how do you wanna call that MCP server on Akamai functions?",
+  "zh": "所以现在这一步组合服务器，问我，嘿，你想怎么称呼 Akamai functions 上那个 MCP server？"
+ },
+ {
+  "seg": 114,
+  "start": 781.628,
+  "end": 788.372,
+  "speaker": "Unknown",
+  "en": "I call it ADR MCP, I allow my terminal to interact with the service registry.",
+  "zh": "我叫它 ADR MCP，我允许我的终端与服务注册表交互。"
+ },
+ {
+  "seg": 115,
+  "start": 789.173,
+  "end": 799.719,
+  "speaker": "Unknown",
+  "en": "Now it's taken my WASM file and my application manifest, generating OCI layers from those files, uploading them to Akamai functions.",
+  "zh": "现在它拿走我的 WASM 文件和我的 application manifest，从这些文件生成 OCI 层，把它们上传到 Akamai functions。"
+ },
+ {
+  "seg": 116,
+  "start": 800.506,
+  "end": 809.589,
+  "speaker": "Unknown",
+  "en": "On the server side or on the service side, we receive those two files and we distribute them across the globe through all the service regions.",
+  "zh": "在服务器端或者说服务端，我们接收那两个文件，并把它们分发到全球所有服务区域。"
+ },
+ {
+  "seg": 117,
+  "start": 810.329,
+  "end": 817.611,
+  "speaker": "Unknown",
+  "en": "Every region has to confirm, A, that it received the workload that is capable of running the workload.",
+  "zh": "每个区域都必须确认，第一，它收到了这个工作负载，第二，它能够运行这个工作负载。"
+ },
+ {
+  "seg": 118,
+  "start": 818.311,
+  "end": 823.012,
+  "speaker": "Unknown",
+  "en": "Then we instantiate the workload once and do an internal health check.",
+  "zh": "然后我们实例化这个工作负载一次，并做一个内部健康检查。"
+ },
+ {
+  "seg": 119,
+  "start": 823.632,
+  "end": 827.874,
+  "speaker": "Unknown",
+  "en": "And once that came back for all the service regions with an HTTP 200,",
+  "zh": "一旦所有服务区域都返回了 HTTP 200，"
+ },
+ {
+  "seg": 120,
+  "start": 829.674,
+  "end": 838.66,
+  "speaker": "Unknown",
+  "en": "Then we roll a generic subdomain on your behalf so that your MCP server will be on the public internet.",
+  "zh": "那么我们就会替你滚动出一个通用子域名，这样你的 MCP server 就会出现在公共互联网上。"
+ },
+ {
+  "seg": 121,
+  "start": 838.76,
+  "end": 851.348,
+  "speaker": "Unknown",
+  "en": "Obviously you can shield that with other products and services like the property manager to shield it behind whatever you want to enforce before forwarding users to the MCP server.",
+  "zh": "显然，你可以用其他产品和服务来屏蔽它，比如 property manager，把它藏在任何你想强制执行的检查之后，再把用户转发到 MCP server。"
+ },
+ {
+  "seg": 122,
+  "start": 852.009,
+  "end": 856.472,
+  "speaker": "Unknown",
+  "en": "So we get that URL, so we are globally distributed in roughly 60 seconds.",
+  "zh": "所以我们拿到了那个 URL，所以我们大约在 60 秒内就实现了全球分布。"
+ },
+ {
+  "seg": 123,
+  "start": 857.993,
+  "end": 860.375,
+  "speaker": "Unknown",
+  "en": "Let's move over to a client.",
+  "zh": "让我们切换到一个客户端。"
+ },
+ {
+  "seg": 124,
+  "start": 860.515,
+  "end": 866.339,
+  "speaker": "Unknown",
+  "en": "I use Z over here, but that works with any client that basically supports MCP.",
+  "zh": "我这里用的是 Z，但它基本上适用于任何支持 MCP 的客户端。"
+ },
+ {
+  "seg": 125,
+  "start": 866.539,
+  "end": 867.459,
+  "speaker": "Unknown",
+  "en": "I add a server.",
+  "zh": "我添加一个服务器。"
+ },
+ {
+  "seg": 126,
+  "start": 869.561,
+  "end": 874.804,
+  "speaker": "Unknown",
+  "en": "I go to remote over here, and let me replace this one with the URL that we received.",
+  "zh": "我到这里选 remote，然后让我把这个替换成我们收到的 URL。"
+ },
+ {
+  "seg": 127,
+  "start": 875.585,
+  "end": 879.027,
+  "speaker": "Unknown",
+  "en": "Add the server, and we can see I have five tools already.",
+  "zh": "添加服务器，我们可以看到我已经有五个工具了。"
+ },
+ {
+  "seg": 128,
+  "start": 879.107,
+  "end": 879.928,
+  "speaker": "Unknown",
+  "en": "I can go here.",
+  "zh": "我可以到这里。"
+ },
+ {
+  "seg": 129,
+  "start": 880.389,
+  "end": 881.87,
+  "speaker": "Unknown",
+  "en": "And say view tools.",
+  "zh": "然后说 view tools。"
+ },
+ {
+  "seg": 130,
+  "start": 882.35,
+  "end": 886.232,
+  "speaker": "Unknown",
+  "en": "And these are the CRUD tools that my MCP defined.",
+  "zh": "这些就是我的 MCP 定义的 CRUD 工具。"
+ },
+ {
+  "seg": 131,
+  "start": 886.752,
+  "end": 894.416,
+  "speaker": "Unknown",
+  "en": "So I can go back and chat with my IDE in the context of my project so that it could leverage my MCP server.",
+  "zh": "所以我可以回去，在我项目的上下文里与我的 IDE 聊天，这样它就能利用我的 MCP server。"
+ },
+ {
+  "seg": 132,
+  "start": 894.516,
+  "end": 899.259,
+  "speaker": "Unknown",
+  "en": "Track decision to use OAuth 2.0.",
+  "zh": "跟踪一个使用 OAuth 2.0 的决策。"
+ },
+ {
+  "seg": 133,
+  "start": 901.896,
+  "end": 903.818,
+  "speaker": "Unknown",
+  "en": "2.0 for awesome.",
+  "zh": "2.0，很棒。"
+ },
+ {
+  "seg": 134,
+  "start": 904.158,
+  "end": 904.479,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 135,
+  "start": 904.899,
+  "end": 910.064,
+  "speaker": "Unknown",
+  "en": "So it should now identify my intent and ask permission to run the insert decision tool.",
+  "zh": "所以它现在应该识别我的意图，并请求运行 insert decision 工具的许可。"
+ },
+ {
+  "seg": 136,
+  "start": 910.565,
+  "end": 912.606,
+  "speaker": "Unknown",
+  "en": "We can see the raw input looks good.",
+  "zh": "我们可以看到原始输入看起来不错。"
+ },
+ {
+  "seg": 137,
+  "start": 912.647,
+  "end": 913.387,
+  "speaker": "Unknown",
+  "en": "We allow it.",
+  "zh": "我们允许它。"
+ },
+ {
+  "seg": 138,
+  "start": 913.788,
+  "end": 919.053,
+  "speaker": "Unknown",
+  "en": "It now calls out to echo my functions, has already tracked my decision.",
+  "zh": "它现在调用 echo my functions，已经记录了我的决策。"
+ },
+ {
+  "seg": 139,
+  "start": 919.593,
+  "end": 924.278,
+  "speaker": "Unknown",
+  "en": "And I can say, give me all the decisions, please.",
+  "zh": "然后我可以说，请给我所有的决策。"
+ },
+ {
+  "seg": 140,
+  "start": 925.972,
+  "end": 944.104,
+  "speaker": "Unknown",
+  "en": "Now the intent is to use the list decisions tool and again we are yes it might want to read details to give me everything that it's tracked or and with that we have a globally distributed",
+  "zh": "现在的意图是使用 list decisions 工具，再一次我们是，是的，它可能想读取细节，把它记录的所有内容都给我，这样我们就有了一个全球分布的"
+ },
+ {
+  "seg": 141,
+  "start": 945.303,
+  "end": 952.948,
+  "speaker": "Unknown",
+  "en": "MCP server that's routing all the requests to the closest service region no matter where your users are.",
+  "zh": "MCP server，它把所有请求路由到最近的服务区域，无论你的用户在哪里。"
+ },
+ {
+  "seg": 142,
+  "start": 953.188,
+  "end": 959.153,
+  "speaker": "Unknown",
+  "en": "And again, you can write those tools or prompts or resources using TypeScript, Python, or Rust templates.",
+  "zh": "再说一次，你可以用 TypeScript、Python 或 Rust 模板来编写那些工具、提示词或资源。"
+ },
+ {
+  "seg": 143,
+  "start": 960.273,
+  "end": 960.534,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 144,
+  "start": 961.194,
+  "end": 962.955,
+  "speaker": "Unknown",
+  "en": "Let's move on with agents.",
+  "zh": "让我们继续讲智能体。"
+ },
+ {
+  "seg": 145,
+  "start": 963.216,
+  "end": 964.937,
+  "speaker": "Unknown",
+  "en": "So, oops, nope, this one.",
+  "zh": "那么，哎呀，不对，是这个。"
+ },
+ {
+  "seg": 146,
+  "start": 966.722,
+  "end": 969.223,
+  "speaker": "Unknown",
+  "en": "So for AI agents, the story is no different.",
+  "zh": "所以对于 AI 智能体，情况没有什么不同。"
+ },
+ {
+  "seg": 147,
+  "start": 969.283,
+  "end": 978.707,
+  "speaker": "Unknown",
+  "en": "However, instead of using another CLI, we can simply pick any kind of SDK that's out there and that's popular.",
+  "zh": "不过，与其使用另一个 CLI，我们可以直接选用市面上任何流行的 SDK。"
+ },
+ {
+  "seg": 148,
+  "start": 979.347,
+  "end": 983.009,
+  "speaker": "Unknown",
+  "en": "I think the Vercel AI SDK is pretty nice to use.",
+  "zh": "我觉得 Vercel AI SDK 用起来挺不错的。"
+ },
+ {
+  "seg": 149,
+  "start": 983.549,
+  "end": 991.372,
+  "speaker": "Unknown",
+  "en": "So this allows us basically to create a new spin app using TypeScript, just bring in the Vercel AI dependencies,",
+  "zh": "所以这基本上让我们可以用 TypeScript 创建一个新的 spin app，只需引入 Vercel AI 的依赖，"
+ },
+ {
+  "seg": 150,
+  "start": 992.052,
+  "end": 994.133,
+  "speaker": "Unknown",
+  "en": "And to build custom agents.",
+  "zh": "以及构建自定义智能体。"
+ },
+ {
+  "seg": 151,
+  "start": 994.793,
+  "end": 997.814,
+  "speaker": "Unknown",
+  "en": "Again, let's move back to the terminal to see how that looks like.",
+  "zh": "再说一次,让我们回到终端看看那是什么样子。"
+ },
+ {
+  "seg": 152,
+  "start": 998.675,
+  "end": 1003.256,
+  "speaker": "Unknown",
+  "en": "So let's move one up and let's CD into a simple game agent over here.",
+  "zh": "让我们向上移一个,然后 CD 进入这里的 simple game agent。"
+ },
+ {
+  "seg": 153,
+  "start": 1007.618,
+  "end": 1008.678,
+  "speaker": "Unknown",
+  "en": "What's going on over here?",
+  "zh": "这里发生了什么?"
+ },
+ {
+  "seg": 154,
+  "start": 1008.738,
+  "end": 1013.84,
+  "speaker": "Unknown",
+  "en": "Obviously, I have created a new spin app using a template so that I can get started pretty quickly.",
+  "zh": "显然,我使用一个模板创建了一个新的 spin app,这样我可以很快地开始。"
+ },
+ {
+  "seg": 155,
+  "start": 1014.401,
+  "end": 1019.943,
+  "speaker": "Unknown",
+  "en": "I'm leveraging a large language model deployed to a Linode instance with a dedicated GPU.",
+  "zh": "我利用了一个部署到带专用 GPU 的 Linode 实例上的大语言模型。"
+ },
+ {
+  "seg": 156,
+  "start": 1021.369,
+  "end": 1023.911,
+  "speaker": "Unknown",
+  "en": "And all my spin-up does, it defines the tools.",
+  "zh": "我所有的 spin up 所做的,就是定义工具。"
+ },
+ {
+  "seg": 157,
+  "start": 1024.031,
+  "end": 1034.918,
+  "speaker": "Unknown",
+  "en": "So this is a simple game agent for the sake of demonstration purposes that can flip coins, that can roll a dice where you can specify how many sites that dice should have.",
+  "zh": "所以这是一个用于演示目的的简单游戏智能体,它可以抛硬币、掷骰子,你可以指定骰子应该有几个面。"
+ },
+ {
+  "seg": 158,
+  "start": 1035.538,
+  "end": 1046.986,
+  "speaker": "Unknown",
+  "en": "And over here in the actual HTTP handler, we load the config and we define our agent, you know, pointing it to the olama instance running on Linode.",
+  "zh": "而在实际的 HTTP 处理程序中,我们加载配置并定义我们的智能体,你知道的,把它指向运行在 Linode 上的 olama 实例。"
+ },
+ {
+  "seg": 159,
+  "start": 1048.062,
+  "end": 1053.486,
+  "speaker": "Unknown",
+  "en": "We give our agent an identity and an instruction on what its intent actually is.",
+  "zh": "我们给我们的智能体一个身份,以及关于它的意图到底是什么的指令。"
+ },
+ {
+  "seg": 160,
+  "start": 1054.167,
+  "end": 1059.611,
+  "speaker": "Unknown",
+  "en": "We register our tools, and we give it some constraints of how many steps it might take.",
+  "zh": "我们注册我们的工具,并给它一些关于它可能采取多少步骤的约束。"
+ },
+ {
+  "seg": 161,
+  "start": 1060.271,
+  "end": 1063.734,
+  "speaker": "Unknown",
+  "en": "We generate a response and return it back to the callie.",
+  "zh": "我们生成一个响应并把它返回给调用者。"
+ },
+ {
+  "seg": 162,
+  "start": 1064.815,
+  "end": 1073.882,
+  "speaker": "Unknown",
+  "en": "Okay, let's go, let's do a quit all over here, and let's do another spin acker deploy no confirm build.",
+  "zh": "好的,让我们在这里退出 quit,然后执行另一个 spin acker deploy no confirm build。"
+ },
+ {
+  "seg": 163,
+  "start": 1075.583,
+  "end": 1075.964,
+  "speaker": "Unknown",
+  "en": "And,",
+  "zh": "然后,"
+ },
+ {
+  "seg": 164,
+  "start": 1077.498,
+  "end": 1079.779,
+  "speaker": "Unknown",
+  "en": "It asks for the name, that's the game agent.",
+  "zh": "它要求输入名称,就是 game agent。"
+ },
+ {
+  "seg": 165,
+  "start": 1079.819,
+  "end": 1086.04,
+  "speaker": "Unknown",
+  "en": "So while it is uploading, let me explain what happens when we compile an interpreted language.",
+  "zh": "所以在上传期间,让我解释一下当我们编译一门解释型语言时会发生什么。"
+ },
+ {
+  "seg": 166,
+  "start": 1087.2,
+  "end": 1095.042,
+  "speaker": "Unknown",
+  "en": "So during compilation time, we load the interpreter, we load your custom JavaScript, and then we evaluate the global scope.",
+  "zh": "在编译期间,我们加载解释器,加载你的自定义 JavaScript,然后我们对全局作用域进行求值。"
+ },
+ {
+  "seg": 167,
+  "start": 1095.202,
+  "end": 1107.225,
+  "speaker": "Unknown",
+  "en": "This has one advantage, that not just the runtime is hot, also all the dependencies are loaded, and then we take a memory snapshot, write that to WASM, store that on disk, meaning",
+  "zh": "这有一个优势,不仅运行时是热的,所有的依赖也都被加载了,然后我们做一个内存快照,把它写入 WASM,存储到磁盘上,意思是"
+ },
+ {
+  "seg": 168,
+  "start": 1107.685,
+  "end": 1116.833,
+  "speaker": "Unknown",
+  "en": "That every WebAssembly application written in JavaScript is faster than a native JavaScript application when it comes to cold starts and runtime performance.",
+  "zh": "每一个用 JavaScript 编写的 WebAssembly 应用在冷启动和运行时性能方面都比原生 JavaScript 应用更快。"
+ },
+ {
+  "seg": 169,
+  "start": 1117.713,
+  "end": 1132.085,
+  "speaker": "Unknown",
+  "en": "The only trade-off, though, is that we have to ship the JavaScript runtime along with our user code, but we use an optimized JavaScript runtime called StarlingMonkey, which is roughly 10 megabytes in size.",
+  "zh": "不过唯一的代价是,我们必须把 JavaScript 运行时和我们的用户代码一起交付,但我们使用了一个叫做 StarlingMonkey 的优化过的 JavaScript 运行时,它的大小大约是 10 兆字节。"
+ },
+ {
+  "seg": 170,
+  "start": 1132.746,
+  "end": 1133.927,
+  "speaker": "Unknown",
+  "en": "So we get back an URL.",
+  "zh": "所以我们拿回一个 URL。"
+ },
+ {
+  "seg": 171,
+  "start": 1135.185,
+  "end": 1157.68,
+  "speaker": "Unknown",
+  "en": "Let me replace this URL over here, and let's say toss a coin, and we see a response back, and if we look at these headers, we can see the point of presence where we enter the Akamai network is Santa Clara, and the closest service region for our AI agent is LAX.",
+  "zh": "让我替换这里的这个 URL,然后我们说 toss a coin,我们看到一个响应回来了,如果我们看这些 header,我们可以看到进入 Akamai 网络的接入点是 Santa Clara,而我们 AI 智能体最近的服务区域是 LAX。"
+ },
+ {
+  "seg": 172,
+  "start": 1158.597,
+  "end": 1162.301,
+  "speaker": "Unknown",
+  "en": "Another interesting header is xEnvoyUpstreamServiceTime.",
+  "zh": "另一个有趣的 header 是 xEnvoyUpstreamServiceTime。"
+ },
+ {
+  "seg": 173,
+  "start": 1162.741,
+  "end": 1179.877,
+  "speaker": "Unknown",
+  "en": "And this tells me, and you right now as well, that it took 33, 34 milliseconds to receive the request, to run through the business logic, to reach out to the large language model, to generate a response, and to go all the way back to the user.",
+  "zh": "这告诉我,现在也告诉了你,接收请求、运行业务逻辑、联系大语言模型、生成响应,再一路返回给用户,花了 33、34 毫秒。"
+ },
+ {
+  "seg": 174,
+  "start": 1180.605,
+  "end": 1181.826,
+  "speaker": "Unknown",
+  "en": "Oh, there's an internal server error.",
+  "zh": "哦,有一个内部服务器错误。"
+ },
+ {
+  "seg": 175,
+  "start": 1181.846,
+  "end": 1182.086,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 176,
+  "start": 1182.526,
+  "end": 1182.807,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 177,
+  "start": 1182.967,
+  "end": 1183.927,
+  "speaker": "Unknown",
+  "en": "Let's try this again.",
+  "zh": "让我们再试一次。"
+ },
+ {
+  "seg": 178,
+  "start": 1183.947,
+  "end": 1184.628,
+  "speaker": "Unknown",
+  "en": "Oh, yeah.",
+  "zh": "哦,对。"
+ },
+ {
+  "seg": 179,
+  "start": 1185.168,
+  "end": 1187.31,
+  "speaker": "Unknown",
+  "en": "That was an user error.",
+  "zh": "那是一个用户错误。"
+ },
+ {
+  "seg": 180,
+  "start": 1187.37,
+  "end": 1187.71,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 181,
+  "start": 1188.31,
+  "end": 1191.432,
+  "speaker": "Unknown",
+  "en": "So the error was staying 30 centimeters in front of the screen.",
+  "zh": "所以那个错误是站在离屏幕 30 厘米的地方造成的。"
+ },
+ {
+  "seg": 182,
+  "start": 1192.293,
+  "end": 1195.395,
+  "speaker": "Unknown",
+  "en": "Looking at it now, we are 866 milliseconds.",
+  "zh": "现在看,我们是 866 毫秒。"
+ },
+ {
+  "seg": 183,
+  "start": 1196.376,
+  "end": 1203.901,
+  "speaker": "Unknown",
+  "en": "That is more realistic because we have to go through the LLM to basically see that our toss resulted in tails.",
+  "zh": "那更现实一些,因为我们必须经过 LLM 才能基本上看到我们的抛掷结果是反面。"
+ },
+ {
+  "seg": 184,
+  "start": 1203.961,
+  "end": 1204.842,
+  "speaker": "Unknown",
+  "en": "Let's do that again.",
+  "zh": "让我们再做一次。"
+ },
+ {
+  "seg": 185,
+  "start": 1205.402,
+  "end": 1207.483,
+  "speaker": "Unknown",
+  "en": "Tails, tails, tails.",
+  "zh": "反面,反面,反面。"
+ },
+ {
+  "seg": 186,
+  "start": 1208.637,
+  "end": 1209.518,
+  "speaker": "Unknown",
+  "en": "Oh, there they had.",
+  "zh": "哦,有了。"
+ },
+ {
+  "seg": 187,
+  "start": 1209.778,
+  "end": 1210.018,
+  "speaker": "Unknown",
+  "en": "Nice.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 188,
+  "start": 1210.479,
+  "end": 1220.046,
+  "speaker": "Unknown",
+  "en": "So roughly 820 milliseconds is what we could achieve with a full loop through the LLM by taking our agent and deploying it to Akamai functions.",
+  "zh": "所以大约 820 毫秒,就是我们通过让智能体走完整一圈 LLM 并把它部署到 Akamai functions 所能达到的效果。"
+ },
+ {
+  "seg": 189,
+  "start": 1221.808,
+  "end": 1222.068,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好。"
+ },
+ {
+  "seg": 190,
+  "start": 1222.549,
+  "end": 1232.717,
+  "speaker": "Unknown",
+  "en": "So the developer workflow is always the same, no matter if you build any kind of line of business application, if you build an MCP, or if you build an agent, you implement",
+  "zh": "所以开发者工作流总是一样的,无论你是构建任何类型的业务应用,还是构建 MCP,或者构建智能体,你实现"
+ },
+ {
+  "seg": 191,
+  "start": 1233.133,
+  "end": 1241.779,
+  "speaker": "Unknown",
+  "en": "Your application using any language that you could compile down to WebAssembly, Rust, TypeScript, Python, Go are the most prominent ones these days.",
+  "zh": "你的应用可以用任何能编译到 WebAssembly 的语言,Rust、TypeScript、Python、Go 是目前最流行的几种。"
+ },
+ {
+  "seg": 192,
+  "start": 1242.46,
+  "end": 1245.542,
+  "speaker": "Unknown",
+  "en": "You can test it locally with the spin CLI.",
+  "zh": "你可以用 spin CLI 在本地测试它。"
+ },
+ {
+  "seg": 193,
+  "start": 1246.163,
+  "end": 1249.425,
+  "speaker": "Unknown",
+  "en": "You deploy it using a single command called spin-acaddeploy.",
+  "zh": "你用一个叫做 spin-acaddeploy 的单一命令来部署它。"
+ },
+ {
+  "seg": 194,
+  "start": 1249.765,
+  "end": 1254.829,
+  "speaker": "Unknown",
+  "en": "And finally, you point your clients to your MCP or to your agent.",
+  "zh": "最后,你把你的客户端指向你的 MCP 或你的智能体。"
+ },
+ {
+  "seg": 195,
+  "start": 1256.08,
+  "end": 1261.586,
+  "speaker": "Unknown",
+  "en": "So, final or key takeaways from my point are portability.",
+  "zh": "所以,从我的角度来看,最终的或者说是关键的要点是可移植性。"
+ },
+ {
+  "seg": 196,
+  "start": 1262.106,
+  "end": 1267.192,
+  "speaker": "Unknown",
+  "en": "You can take those spin apps and run them on any WESI-compliant runtime.",
+  "zh": "你可以拿这些 spin app,在任何符合 WESI 标准的运行时上运行它们。"
+ },
+ {
+  "seg": 197,
+  "start": 1267.292,
+  "end": 1271.676,
+  "speaker": "Unknown",
+  "en": "Akamai Functions is one runtime and it's the globally distributed runtime.",
+  "zh": "Akamai Functions 是其中一个运行时,而且是全球分布的运行时。"
+ },
+ {
+  "seg": 198,
+  "start": 1272.397,
+  "end": 1281.802,
+  "speaker": "Unknown",
+  "en": "Everything is based on open standards, so Spinnis, CNCF, WASI, WebAssembly are governed by the ByteCode Alliance, but ultimately you gain speed, right?",
+  "zh": "一切都基于开放标准,所以 Spin 是 CNCF 的,WASI、WebAssembly 由 ByteCode Alliance 管理,但最终你获得的是速度,对吧?"
+ },
+ {
+  "seg": 199,
+  "start": 1281.822,
+  "end": 1292.708,
+  "speaker": "Unknown",
+  "en": "You have fast response times, even the time to market for your developers to build MCPs and to build agent goes down because you don't have to roll the infrastructure, you don't have to implement",
+  "zh": "你有快速的响应时间,甚至你的开发者构建 MCP 和构建智能体的上市时间也下降了,因为你不必搭建基础设施,你不必实现"
+ },
+ {
+  "seg": 200,
+  "start": 1293.175,
+  "end": 1294.676,
+  "speaker": "Unknown",
+  "en": "Non-functional requirements.",
+  "zh": "非功能性需求。"
+ },
+ {
+  "seg": 201,
+  "start": 1294.736,
+  "end": 1296.017,
+  "speaker": "Unknown",
+  "en": "That's all taken care of.",
+  "zh": "这些都已经被处理好了。"
+ },
+ {
+  "seg": 202,
+  "start": 1296.857,
+  "end": 1299.659,
+  "speaker": "Unknown",
+  "en": "And in terms of infrastructure, there's no ops.",
+  "zh": "在基础设施方面，没有任何运维工作。"
+ },
+ {
+  "seg": 203,
+  "start": 1299.979,
+  "end": 1302.281,
+  "speaker": "Unknown",
+  "en": "It's spin, aka, deploy is all you need.",
+  "zh": "就是 spin，换句话说，部署就是你所需要的一切。"
+ },
+ {
+  "seg": 204,
+  "start": 1302.821,
+  "end": 1310.086,
+  "speaker": "Unknown",
+  "en": "There are other commands in the box so that you can gather metrics, that you can retrieve logs, that you can upgrade, and so on and so forth.",
+  "zh": "盒子里还有其他命令，这样你就可以收集指标、检索日志、进行升级等等。"
+ },
+ {
+  "seg": 205,
+  "start": 1310.806,
+  "end": 1319.732,
+  "speaker": "Unknown",
+  "en": "But developer experience is our highest metric when we started spin and why we continue in that direction.",
+  "zh": "但开发者体验是我们在启动 spin 时最高的衡量指标，也是我们继续朝这个方向前进的原因。"
+ },
+ {
+  "seg": 206,
+  "start": 1321.843,
+  "end": 1329.449,
+  "speaker": "Unknown",
+  "en": "We have a new website that's called the Akamai Developer Hub where we share stories and experiments and experiences like these.",
+  "zh": "我们有一个叫 Akamai Developer Hub 的新网站，在那里我们分享这样的故事、实验和经验。"
+ },
+ {
+  "seg": 207,
+  "start": 1329.629,
+  "end": 1332.151,
+  "speaker": "Unknown",
+  "en": "So go check out developers.akamai.com.",
+  "zh": "所以去看看 developers.akamai.com。"
+ },
+ {
+  "seg": 208,
+  "start": 1332.872,
+  "end": 1336.414,
+  "speaker": "Unknown",
+  "en": "And if you have any further questions, find me at the Akamai booth.",
+  "zh": "如果你还有任何进一步的问题，可以在 Akamai 展位找到我。"
+ },
+ {
+  "seg": 209,
+  "start": 1336.975,
+  "end": 1338.496,
+  "speaker": "Unknown",
+  "en": "And with that, thank you very much.",
+  "zh": "就说到这里，非常感谢。"
+ }
+]

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Fuad]] · [[Arise]] · [[语音智能体]] · [[OTEL]] · [[trace]] · [[评估]] · [[延迟]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Fuad":1,"Arise":1,"语音智能体":2,"OTEL":2,"trace":7,"评估":1,"延迟":8,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Fuad":1,"Arise":1,"语音智能体":2,"OTEL":3,"trace":7,"评估":1,"延迟":8,"智能体":1}</script>
 
 <script>
 (function(){

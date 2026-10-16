@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>24</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenClaw">OP</div><div class="pi"><h1 class="pt">OpenClaw</h1><div class="byl">概念</div><div class="nums">本站收录 <b>25</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -34,6 +34,7 @@ unlisted: true
 - **[[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]]**(00:40起):本集提到但未选用:嘉宾看到 Craigslist 上预装 OpenClaw 的 Mac Mini 觉得『预装』是危险信号,最终选了更符合口味的 NanoClaw。
 - **[[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]]**(04:16起):本集说 OpenClaw 是个人智能体潮流的先驱，上一版本可冲进榜单前排，这一版因流量彻底下滑不见踪影，团队据称被 OpenAI 收购。
 - **[[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]]**(56:21起):本集说它有非常强大的形态和很棒的界面跃迁，但用户饱受可靠性问题之苦——问题不在 harness 在背后的智能。
+- **[[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l|《AI 智能体就跑在你的笔记本电脑上：致命三重威胁》]]**(02:26起):本集说 OpenClaw 是一个可把自己的 AI 装到电脑上当私人助理的工具,但有诸多安全漏洞,社区建议单独买一台 Mac Mini 来跑它。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
 ## ① 提到它的金句
@@ -52,7 +53,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
@@ -77,15 +78,16 @@ unlisted: true
 - [[2026-10-03-talks-i-built-a-personal-ai-agent-on-a-raspber|《把 AI 助手挂在脖子上：一块树莓派的随身记忆实验》]] — 作为概念(提及)
 - [[2026-10-05-a16z-the-top-100-consumer-ai-apps-whos-actual|《一半美国人在用 AI，只有 4.5% 在付钱：消费级 AI 的钱到底在哪》]] — 作为被讨论公司
 - [[2026-10-06-twiml-why-jev-is-changing-how-we-build-with-ai|《AI 为什么这么聪明，却干不了保险核保？》]] — 作为概念
+- [[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l|《AI 智能体就跑在你的笔记本电脑上：致命三重威胁》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[ChatGPT]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[harness]] · [[OpenAI]] · [[Shopify]]
+[[智能体]] · [[Codex]] · [[Claude Code]] · [[ChatGPT]] · [[Anthropic]] · [[Cursor]] · [[Claude]] · [[harness]] · [[OpenAI]] · [[提示词注入]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"ChatGPT":115,"Codex":90,"Claude Code":114,"Anthropic":206,"Cursor":87,"Claude":99,"harness":67,"OpenAI":207,"Shopify":18}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Codex":91,"Claude Code":115,"ChatGPT":115,"Anthropic":206,"Cursor":87,"Claude":99,"harness":67,"OpenAI":207,"提示词注入":1}</script>
 
 <script>
 (function(){

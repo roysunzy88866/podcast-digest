@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"E2B":3,"沙箱":101,"智能体":1,"快照":1,"模板":1,"孤儿进程":1,"生命周期":2,"Docker":8,"Firecracker":3,"Kubernetes":20}</script>
+<script type="application/json" class="pd-epn">{"E2B":3,"沙箱":103,"智能体":1,"快照":1,"模板":1,"孤儿进程":1,"生命周期":2,"Docker":8,"Firecracker":3,"Kubernetes":20}</script>
 
 <script>
 (function(){

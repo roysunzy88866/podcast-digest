@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sam Lessin]] · [[Lenny]] · [[Airbnb]] · [[Facebook]] · [[YC]] · [[礼仪]] · [[富足心态]] · [[低心率]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Sam Lessin":1,"Lenny":69,"Airbnb":14,"Facebook":18,"YC":17,"礼仪":1,"富足心态":1,"低心率":1,"vibe coding":51}</script>
+<script type="application/json" class="pd-epn">{"Sam Lessin":1,"Lenny":69,"Airbnb":14,"Facebook":18,"YC":17,"礼仪":1,"富足心态":1,"低心率":1,"vibe coding":52}</script>
 
 <script>
 (function(){

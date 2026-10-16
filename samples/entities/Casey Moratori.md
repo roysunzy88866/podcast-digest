@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":2,"多态":1,"游戏引擎":1,"测试驱动开发":3,"Substack":2,"Unity":2,"Python":5}</script>
+<script type="application/json" class="pd-epn">{"性能优化":1,"汇编语言":1,"串行依赖链":1,"过早优化":2,"多态":1,"游戏引擎":1,"测试驱动开发":4,"Substack":2,"Unity":2,"Python":5}</script>
 
 <script>
 (function(){

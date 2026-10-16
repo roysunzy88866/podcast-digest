@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"算力":10,"记忆":30,"数据中心":25,"token 流":1,"协同设计":3,"智能体":1,"机器人":14,"推理":101,"Broadcom":5,"Palantir":20}</script>
+<script type="application/json" class="pd-epn">{"算力":10,"记忆":30,"数据中心":25,"token 流":1,"协同设计":3,"智能体":1,"机器人":14,"推理":102,"Broadcom":5,"Palantir":20}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Elizabeth Stone]] · [[Netflix]] · [[WorkOS]] · [[Mercury]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]]
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Elizabeth Stone":1,"Netflix":9,"WorkOS":11,"Mercury":5,"GenAI":1,"智能体":1,"系统思维":5,"动荡阶段":1,"留任测试":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Elizabeth Stone":1,"Netflix":10,"WorkOS":11,"Mercury":5,"GenAI":1,"智能体":1,"系统思维":5,"动荡阶段":1,"留任测试":1}</script>
 
 <script>
 (function(){

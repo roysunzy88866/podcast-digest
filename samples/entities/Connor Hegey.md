@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":1,"子智能体":7,"harness":67,"提示词缓存":4,"记忆":30,"评估":1,"LLM 当裁判":11,"沙箱":101,"人在回路":24}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":1,"子智能体":7,"harness":67,"提示词缓存":4,"记忆":30,"评估":1,"LLM 当裁判":11,"沙箱":103,"人在回路":25}</script>
 
 <script>
 (function(){

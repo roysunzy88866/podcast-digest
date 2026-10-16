@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":1,"零日漏洞":3,"红队测试":9,"渗透测试":2,"自主防御":1,"开源模型":4,"护栏":92}</script>
+<script type="application/json" class="pd-epn">{"David George":6,"Armiden":1,"Mandiant":1,"智能体":1,"零日漏洞":3,"红队测试":9,"渗透测试":2,"自主防御":1,"开源模型":4,"护栏":93}</script>
 
 <script>
 (function(){

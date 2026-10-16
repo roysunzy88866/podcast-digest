@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Copilot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>13</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Copilot">CO</div><div class="pi"><h1 class="pt">Copilot</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -24,6 +24,7 @@ unlisted: true
 - **[[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]]**(56:02起):本集聊到 Mitchell Hashimoto 那条 X 帖:如果由他执掌 GitHub 会关掉 Copilot、收购 Cursor;GitHub 曾是 AI 编程领跑者(先做出 Copilot),如今成了落后者
 - **[[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]]**(26:37起):本集引 Ed Zitron 转发的例子：有用户收到 Copilot 通知上月账单 500 美元、按新计费下月将是 11,000 美元，作为 token 涨价的引子
 - **[[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]]**(14:03起):本集说新的 Copilot 是微软思路(Teams 是面向 SaaS 的操作系统)的新迭代:其中的 Autopilot 是有自己身份、记忆、电脑和工作区的「数字队友」,你睡觉时它在云端替你干活。
+- **[[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]]**(01:29起):本集核心产品：通过 IDE、CLI、SDK 多个入口与编码智能体交互，底层统一经过 CAPI 服务层
 
 ## ① 提到它的金句
 
@@ -37,7 +38,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*13 集*
+*14 集*
 
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|《Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图》]] — 作为被讨论公司
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -52,6 +53,7 @@ unlisted: true
 - [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为被讨论公司
 - [[2026-09-09-twiml-do-ai-tokenomics-matter-more-than-model|《斯坦福语言学家的代币经济学：你的 token 贬值了》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-apps-agents-and-aggregation-stratechery|《应用之后是什么？Ben Thompson 谈智能体时代的赢家》]] — 作为被讨论公司
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -59,7 +61,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Microsoft]] · [[ChatGPT]] · [[Claude Code]] · [[Anthropic]] · [[DeepMind]] · [[Windsurf]] · [[大语言模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Cursor":87,"Microsoft":34,"ChatGPT":115,"Claude Code":114,"Anthropic":206,"DeepMind":19,"Windsurf":7,"大语言模型":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Cursor":87,"Microsoft":34,"ChatGPT":115,"Claude Code":115,"Anthropic":206,"DeepMind":19,"Windsurf":7,"大语言模型":11}</script>
 
 <script>
 (function(){

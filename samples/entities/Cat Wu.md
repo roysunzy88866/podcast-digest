@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":3,"Anthropic":206,"Claude Code":114,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":8,"Gemini":16}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Thariq Shihipar":3,"Anthropic":206,"Claude Code":115,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":8,"Gemini":16}</script>
 
 <script>
 (function(){

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":101,"Transformer":11,"服务引擎":1,"Cerebras":2}</script>
+<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":102,"Transformer":11,"服务引擎":1,"Cerebras":2}</script>
 
 <script>
 (function(){

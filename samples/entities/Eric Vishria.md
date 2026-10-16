@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":24,"Cursor":87,"NVIDIA":71,"推理":101,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick O'Shaughnessy":3,"Fireworks":7,"Sierra":7,"Sunday Robotics":1,"AWS":24,"Cursor":87,"NVIDIA":71,"推理":102,"AI 能力的锯齿状边缘":1,"开源模型":4}</script>
 
 <script>
 (function(){

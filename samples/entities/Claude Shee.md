@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Holly Li":1,"OpenAI":207,"Dots":6,"智能体":1,"Codex":90,"ChatGPT":115,"Spaces":2,"隐私":3,"用户规则":1,"提示词注入":1}</script>
+<script type="application/json" class="pd-epn">{"Holly Li":1,"OpenAI":207,"Dots":6,"智能体":1,"Codex":91,"ChatGPT":115,"Spaces":2,"隐私":3,"用户规则":1,"提示词注入":1}</script>
 
 <script>
 (function(){

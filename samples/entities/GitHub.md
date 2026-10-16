@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>35</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>36</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -46,10 +46,11 @@ unlisted: true
 - **[[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]]**(10:35起):本集提到 Mercari 用批量变更产品修补一个 GitHub 代码注入漏洞(需正确设置环境变量)。
 - **[[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]]**(25:53起):本集在列举她当年按三条标准筛选出的、有兴趣加入的五家公司时顺带提到(Stripe、GitHub、Slack)。
 - **[[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]]**(02:26起):本集提到 GitHub 先冻结、后彻底取消了 Copilot 免费套餐的试用访问,作为连环定价事故之一。
+- **[[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]]**(00:16起):本集是 GitHub 员工 Jose Palafox 的分享，讲 GitHub 平台上智能体的构建、分享与流水线化运行
 
 ## ① 提到它的金句
 
-*5 条*
+*6 条*
 
 ![[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor#^q1]]
 
@@ -61,9 +62,11 @@ unlisted: true
 
 ![[2026-10-06-talks-move-fast-and-don-t-break-things-scaling#^q4]]
 
+![[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling#^q2]]
+
 ## ② 出现在这些集
 
-*35 集*
+*36 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司(提及)
 - [[2025-07-27-lennys-pricing-and-scaling-your-ai-product-madh|《AI 定价的黄金象限：别把 20% 的价值白送》]] — 作为被讨论公司(提及)
@@ -100,6 +103,7 @@ unlisted: true
 - [[2026-10-04-talks-ai-coding-agents-are-breaking-big-codeba|《AI 编码代理正在搞垮大型代码库》]] — 作为概念(提及)
 - [[2026-10-05-grit-how-vercel-is-rethinking-go-to-market-wi|《从 Stripe 到 Vercel：她要为 AI 时代重写销售法则》]] — 作为被讨论公司(提及)
 - [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]] — 作为被讨论公司(提及)
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -107,7 +111,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[Anthropic]] · [[Cursor]] · [[Claude Code]] · [[OpenAI]] · [[MCP]] · [[代码审查]] · [[Codex]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Slack":34,"Anthropic":206,"Cursor":87,"Claude Code":114,"OpenAI":207,"MCP":97,"代码审查":26,"Codex":90,"沙箱":101}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Slack":34,"Anthropic":206,"Cursor":87,"Claude Code":115,"OpenAI":207,"MCP":98,"代码审查":26,"Codex":91,"沙箱":103}</script>
 
 <script>
 (function(){

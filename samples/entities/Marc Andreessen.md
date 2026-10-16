@@ -80,11 +80,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Robert Hackett":1,"AI":34,"清晰法案":2,"生产力增长":1,"稳定币":6,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Robert Hackett":1,"AI":35,"清晰法案":2,"生产力增长":1,"稳定币":6,"一对一辅导":1,"加密货币":2,"超级赋能个体":1,"区块链":2}</script>
 
 <script>
 (function(){

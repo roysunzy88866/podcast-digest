@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>34</b> 集 · <b>618</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI">AI</div><div class="pi"><h1 class="pt">AI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>35</b> 集 · <b>623</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -45,10 +45,11 @@ unlisted: true
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(01:25起):本集把它说成「一台新计算机、计算机的重新发明」，比互联网更大，让构建能力商品化、创造力成为关键
 - **[[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]]**(01:03起):本集把它说成:真正的『大海啸』,是人工智能与人工生命的碰撞;首个一次性威胁整个高技能职业栈的创新,任何重复性工作 AI 都会做得比人更好。
 - **[[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|《Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌》]]**(00:12起):本集把它说成效率之上的再次乘数效应:既重塑金融服务的成本与智能,也触发了 Nubank 全公司 120 个工作流的原生重造和组织压扁。
+- **[[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]]**(00:19起):本集的关键判断:AI 生成的代码未必比人差,但人 barely 看过这些代码,责任就转移到了测试和验证上,工程投入应重新平衡到规格说明和验证。
 
 ## ① 提到它的金句
 
-*618 条*
+*623 条*
 
 ![[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d#^q6]]
 
@@ -1208,6 +1209,14 @@ unlisted: true
 
 ![[2026-10-10-cogrev-how-agents-decide-goodfire-s-eric-bigelo#^q2]]
 
+![[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l#^q3]]
+
+![[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l#^q4]]
+
+![[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l#^q6]]
+
+![[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l#^q7]]
+
 ![[2026-10-11-a16z-nick-bostrom-how-should-we-navigate-supe#^q2]]
 
 ![[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is#^q11]]
@@ -1286,9 +1295,11 @@ unlisted: true
 
 ![[2026-10-15-practicalai-education-is-failing-our-students-in-thi#^q8]]
 
+![[2026-10-15-sed-software-verification-in-the-age-of-codi#^q11]]
+
 ## ② 出现在这些集
 
-*34 集*
+*35 集*
 
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为概念
 - [[2025-11-02-lennys-the-making-of-canva|《Canva 创始人 Melanie Perkins:先想象未来,再一步步把它造出来》]] — 作为概念
@@ -1324,14 +1335,15 @@ unlisted: true
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为概念
 - [[2026-10-12-doac-ai-extinction-risk-expert-if-your-job-is|《数学物理学家 Eric Weinstein：AI 是人工生命，我们都在给「召唤恶魔」付费》]] — 作为概念
 - [[2026-10-13-iltb-david-v-lez-building-nubank-and-the-futu|《Nubank 创始人：银行还在 Blockbuster 时代，AI 会加速洗牌》]] — 作为概念
+- [[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[a16z]] · [[品味]]
+[[智能体]] · [[OpenAI]] · [[Claude]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[ChatGPT]] · [[Netflix]] · [[a16z]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Claude":99,"Anthropic":206,"Lenny":69,"Google":72,"Stripe":52,"ChatGPT":115,"a16z":21,"品味":15}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Claude":99,"Anthropic":206,"Lenny":69,"Google":72,"Stripe":52,"ChatGPT":115,"Netflix":10,"a16z":21}</script>
 
 <script>
 (function(){

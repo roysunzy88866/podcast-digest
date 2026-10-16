@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":20,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":101}</script>
+<script type="application/json" class="pd-epn">{"Young":1,"Nikhil":1,"Crusoe":2,"Slurm":1,"Kubernetes":20,"AutoClusters":1,"Crusoe Managed Slurm":1,"GPU 故障":1,"多节点训练":1,"推理":102}</script>
 
 <script>
 (function(){

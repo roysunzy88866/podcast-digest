@@ -1,0 +1,1754 @@
+[
+ {
+  "seg": 0,
+  "start": 13.028,
+  "end": 13.508,
+  "speaker": "Unknown",
+  "en": "Hey, everybody.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.528,
+  "end": 14.248,
+  "speaker": "Unknown",
+  "en": "Thanks for coming.",
+  "zh": "感谢各位的到来。"
+ },
+ {
+  "seg": 2,
+  "start": 14.689,
+  "end": 15.989,
+  "speaker": "Unknown",
+  "en": "My name's Jose Palafox.",
+  "zh": "我叫 Jose Palafox。"
+ },
+ {
+  "seg": 3,
+  "start": 16.069,
+  "end": 18.31,
+  "speaker": "Unknown",
+  "en": "I've been at GitHub for six and a half years.",
+  "zh": "我在 GitHub 已经待了六年半。"
+ },
+ {
+  "seg": 4,
+  "start": 18.43,
+  "end": 26.673,
+  "speaker": "Unknown",
+  "en": "So I joined the team right after the Microsoft acquisition of GitHub, and then shortly after GitHub acquired a tool called Semel.",
+  "zh": "我是在微软收购 GitHub 之后不久加入团队的，然后 GitHub 又收购了一款叫 Semel 的工具。"
+ },
+ {
+  "seg": 5,
+  "start": 26.693,
+  "end": 28.294,
+  "speaker": "Unknown",
+  "en": "We made an acquisition of a security company",
+  "zh": "我们收购了一家安全公司"
+ },
+ {
+  "seg": 6,
+  "start": 28.734,
+  "end": 33.656,
+  "speaker": "Unknown",
+  "en": "And so my role at GitHub really has been growing our security business for the last five or six years.",
+  "zh": "所以我在 GitHub 的角色，在过去五六年里，主要是发展我们的安全业务。"
+ },
+ {
+  "seg": 7,
+  "start": 34.316,
+  "end": 45.902,
+  "speaker": "Unknown",
+  "en": "In the last year, I've really kind of focused on AI, but my role is to work in the field, working with customers on how they adopt our technology, how to think about scaling our technology inside of their organization.",
+  "zh": "最近一年，我主要专注于 AI，但我的角色是在一线工作，与客户合作，帮助他们采用我们的技术，思考如何在他们的组织内部扩展我们的技术。"
+ },
+ {
+  "seg": 8,
+  "start": 45.982,
+  "end": 55.246,
+  "speaker": "Unknown",
+  "en": "So today, what we're going to talk about is really just like an introduction to agents on the platform, and there's sort of two different modes that I like to think of agents in.",
+  "zh": "那么今天我们要讲的，基本上就是平台上智能体的一个介绍，我喜欢从两种不同的模式来理解智能体。"
+ },
+ {
+  "seg": 9,
+  "start": 55.266,
+  "end": 58.207,
+  "speaker": "Unknown",
+  "en": "There's like autonomous agents that I have off running in the pipeline,",
+  "zh": "一种是自主智能体，让它们在流水线里独立运行，"
+ },
+ {
+  "seg": 10,
+  "start": 58.527,
+  "end": 62.749,
+  "speaker": "Unknown",
+  "en": "And then I have local agents that I'm using to do various bits of work.",
+  "zh": "然后还有本地智能体，我用它们来完成各种不同的工作。"
+ },
+ {
+  "seg": 11,
+  "start": 62.889,
+  "end": 70.913,
+  "speaker": "Unknown",
+  "en": "So I'm going to kind of walk you through sort of how to build those, how to think about them, how to think about scaling them, think about different workflows that are possible using agents.",
+  "zh": "所以我会带大家了解如何构建这些智能体、如何思考它们、如何思考扩展它们，以及思考使用智能体可以实现的不同工作流。"
+ },
+ {
+  "seg": 12,
+  "start": 71.473,
+  "end": 73.454,
+  "speaker": "Unknown",
+  "en": "This talk is going to be fairly high level.",
+  "zh": "这个演讲会是比较高层次的。"
+ },
+ {
+  "seg": 13,
+  "start": 73.494,
+  "end": 77.336,
+  "speaker": "Unknown",
+  "en": "So if you have additional questions afterwards, you want to chat, feel free to grab me.",
+  "zh": "所以如果你们之后有额外的问题，想聊聊，随时来找我。"
+ },
+ {
+  "seg": 14,
+  "start": 77.356,
+  "end": 80.018,
+  "speaker": "Unknown",
+  "en": "I'll kind of hang out right after the talk in the back of the room.",
+  "zh": "演讲结束后我会在房间后面待一会儿。"
+ },
+ {
+  "seg": 15,
+  "start": 80.318,
+  "end": 82.719,
+  "speaker": "Unknown",
+  "en": "You can feel free to come by and chat with me afterwards.",
+  "zh": "欢迎之后过来和我聊。"
+ },
+ {
+  "seg": 16,
+  "start": 82.739,
+  "end": 84.84,
+  "speaker": "Unknown",
+  "en": "We can talk a little bit deeper about your use cases.",
+  "zh": "我们可以更深入地谈谈你们的用例。"
+ },
+ {
+  "seg": 17,
+  "start": 85.14,
+  "end": 88.464,
+  "speaker": "Unknown",
+  "en": "This is a quick preview of just kind of things that are available on the platform.",
+  "zh": "这是平台上可用功能的一个快速预览。"
+ },
+ {
+  "seg": 18,
+  "start": 89.105,
+  "end": 102.539,
+  "speaker": "Unknown",
+  "en": "Just getting us started, I always like to baseline with sort of the overall data flow of how Copilot works on the platform because a lot of people aren't familiar with how Copilot works under the hood and maybe aren't familiar with all of our different interfaces.",
+  "zh": "作为开场，我总是喜欢先以 Copilot 在平台上工作的整体数据流作为基准，因为很多人不熟悉 Copilot 在底层是如何工作的，可能也不熟悉我们所有不同的接口。"
+ },
+ {
+  "seg": 19,
+  "start": 103.4,
+  "end": 111.089,
+  "speaker": "Unknown",
+  "en": "Just to give you a quick preview of what the product has, you've got a handful of different interfaces that you can use to interact with the coding agent.",
+  "zh": "简单预览一下这个产品有什么，你有几种不同的接口可以用来与编码智能体交互。"
+ },
+ {
+  "seg": 20,
+  "start": 111.129,
+  "end": 116.836,
+  "speaker": "Unknown",
+  "en": "You've got the IDE, you've got the GitHub CLI, which is sort of a lightweight interface that sits on your desktop.",
+  "zh": "你有 IDE，你有 GitHub CLI，它是一个位于你桌面上的轻量级接口。"
+ },
+ {
+  "seg": 21,
+  "start": 116.996,
+  "end": 120.621,
+  "speaker": "Unknown",
+  "en": "You can take any session from the CLI and you can stream it.",
+  "zh": "你可以从 CLI 获取任何会话并进行流式传输。"
+ },
+ {
+  "seg": 22,
+  "start": 120.701,
+  "end": 121.602,
+  "speaker": "Unknown",
+  "en": "So if you want to",
+  "zh": "所以如果你想"
+ },
+ {
+  "seg": 23,
+  "start": 122.583,
+  "end": 126.006,
+  "speaker": "Unknown",
+  "en": "You know, close your laptop or walk away from your laptop for a period of time.",
+  "zh": "你知道，合上笔记本，或者暂时离开笔记本一段时间。"
+ },
+ {
+  "seg": 24,
+  "start": 126.286,
+  "end": 138.095,
+  "speaker": "Unknown",
+  "en": "You can either delegate the agent to GitHub.com and have it go run in the background, or you can stream it using a command slash remote, and it'll let you log in through your mobile device and actually steer the agent from your mobile device.",
+  "zh": "你可以把智能体委托给 GitHub.com 让它在后台运行，或者你可以用 /remote 这个命令进行流式传输，它会让你通过移动设备登录，真正地从你的移动设备上操控智能体。"
+ },
+ {
+  "seg": 25,
+  "start": 138.695,
+  "end": 140.698,
+  "speaker": "Unknown",
+  "en": "You've also got the SDK.",
+  "zh": "你还有 SDK。"
+ },
+ {
+  "seg": 26,
+  "start": 140.738,
+  "end": 153.293,
+  "speaker": "Unknown",
+  "en": "So if you want to create agents that live inside of Slack or inside of Teams, expose some individual functionality to a set of team members that maybe don't have a GitHub license, you can do that pretty easily through the SDK.",
+  "zh": "所以如果你想创建生活在 Slack 或 Teams 里的智能体，向一组可能没有 GitHub 许可证的团队成员暴露某些单独的功能，你可以通过 SDK 很容易地做到。"
+ },
+ {
+  "seg": 27,
+  "start": 153.353,
+  "end": 156.897,
+  "speaker": "Unknown",
+  "en": "So you can build applications using the CLI or the SDK.",
+  "zh": "所以你可以使用 CLI 或 SDK 构建应用程序。"
+ },
+ {
+  "seg": 28,
+  "start": 157.838,
+  "end": 162.699,
+  "speaker": "Unknown",
+  "en": "Regardless of what door you go through on the top, you're going to hit this blue box here.",
+  "zh": "不管你从上面哪扇门进去，你都会碰到这个蓝色方框。"
+ },
+ {
+  "seg": 29,
+  "start": 162.779,
+  "end": 165.78,
+  "speaker": "Unknown",
+  "en": "And this is what we call CAPI, or the Copilot API service.",
+  "zh": "这就是我们所说的 CAPI，也就是 Copilot API 服务。"
+ },
+ {
+  "seg": 30,
+  "start": 165.84,
+  "end": 169.021,
+  "speaker": "Unknown",
+  "en": "And this is also referred to as like the harness, right?",
+  "zh": "它也被称为 harness（挽具），对吧？"
+ },
+ {
+  "seg": 31,
+  "start": 169.041,
+  "end": 176.403,
+  "speaker": "Unknown",
+  "en": "This is the thing that does all the difficult engineering tasks, taking your input and chunking them and sending them to the models, making sure that you're not",
+  "zh": "这是完成所有困难工程任务的东西，把你的输入分块并发送给模型，确保你不会"
+ },
+ {
+  "seg": 32,
+  "start": 177.344,
+  "end": 187.951,
+  "speaker": "Unknown",
+  "en": "Repeating any content from open source providers, dealing with authentication for you, dealing with metrics logging, dealing with audit logging, all of the kind of like to-dos of the infrastructure of the platform.",
+  "zh": "重复任何来自开源提供方的内容，为你处理身份验证，处理指标日志，处理审计日志，所有这类平台基础设施的待办事项。"
+ },
+ {
+  "seg": 33,
+  "start": 188.251,
+  "end": 192.995,
+  "speaker": "Unknown",
+  "en": "And then of course, once you send a message in, we take that and we pass it to the model providers.",
+  "zh": "然后当然，一旦你发送一条消息进来，我们就把它传递给模型提供方。"
+ },
+ {
+  "seg": 34,
+  "start": 193.075,
+  "end": 200.08,
+  "speaker": "Unknown",
+  "en": "So regardless of which door you go into, you hit the harness and then we take your output and we send it to the model providers.",
+  "zh": "所以不管你走哪扇门进去，你都会碰到 harness，然后我们把你的输出发送给模型提供方。"
+ },
+ {
+  "seg": 35,
+  "start": 200.78,
+  "end": 204.443,
+  "speaker": "Unknown",
+  "en": "Once we get the output back, we filter it and then display that back to you.",
+  "zh": "一旦我们拿到输出，我们对其进行过滤，然后展示给你。"
+ },
+ {
+  "seg": 36,
+  "start": 204.983,
+  "end": 212.425,
+  "speaker": "Unknown",
+  "en": "That's sort of under the hood how the product works just so you kind of have like a high level understanding of the different doors you can go through and where you can touch it.",
+  "zh": "这基本上就是产品在底层的工作方式，好让你对可以通过哪些不同的门、可以在哪里接触它有一个高层次的理解。"
+ },
+ {
+  "seg": 37,
+  "start": 213.225,
+  "end": 224.408,
+  "speaker": "Unknown",
+  "en": "Now if you're starting in the CLI, for example, you have a handful of embedded agents and I think it's useful to kind of look at the embedded agents just to understand what agents do because there's like",
+  "zh": "现在，比如如果你从 CLI 开始，你有若干嵌入式智能体，我认为看看这些嵌入式智能体是很有用的，可以借此理解智能体是做什么的，因为"
+ },
+ {
+  "seg": 38,
+  "start": 224.808,
+  "end": 232.35,
+  "speaker": "Unknown",
+  "en": "A lot of different, you know, potential ways that you could implement whether it's an agent or a skill or, you know, it all just ends up being marked down at the end of the day.",
+  "zh": "有很多不同的潜在实现方式，不管是智能体还是技能，你知道，归根结底它都只是 markdown。"
+ },
+ {
+  "seg": 39,
+  "start": 232.37,
+  "end": 238.732,
+  "speaker": "Unknown",
+  "en": "So it's useful to kind of see how we're implementing agents in the platform in a way that you can utilize.",
+  "zh": "所以看看我们如何在平台上以你可以利用的方式实现智能体，是很有用的。"
+ },
+ {
+  "seg": 40,
+  "start": 238.772,
+  "end": 245.254,
+  "speaker": "Unknown",
+  "en": "So I just type slash agents and all this does is drop up the default agents that are part of the CLI harness here.",
+  "zh": "我只需输入 /agents，它就会列出属于这个 CLI harness 的默认智能体。"
+ },
+ {
+  "seg": 41,
+  "start": 245.534,
+  "end": 247.255,
+  "speaker": "Unknown",
+  "en": "You can see I have a handful of them, right?",
+  "zh": "你可以看到我有若干个，对吧？"
+ },
+ {
+  "seg": 42,
+  "start": 248.335,
+  "end": 250.398,
+  "speaker": "Unknown",
+  "en": "I want to explore a code base, for example.",
+  "zh": "比如我想探索一个代码库。"
+ },
+ {
+  "seg": 43,
+  "start": 250.739,
+  "end": 254.885,
+  "speaker": "Unknown",
+  "en": "I don't necessarily want to use the biggest model possible in order to do that.",
+  "zh": "为了做到这一点，我不一定非要使用最大的模型。"
+ },
+ {
+  "seg": 44,
+  "start": 254.985,
+  "end": 263.839,
+  "speaker": "Unknown",
+  "en": "So we have a specialized research agent, which is our Explorer agent, that you can call or invoke through a keyword or actually invoking like the slash command.",
+  "zh": "所以我们有一个专门的研究智能体，也就是我们的 Explorer 智能体，你可以通过关键词调用或触发它，或者实际使用斜杠命令来调用。"
+ },
+ {
+  "seg": 45,
+  "start": 264.219,
+  "end": 270.962,
+  "speaker": "Unknown",
+  "en": "In the CLI, it'll spin up a small model using Haiku and go and investigate a code base.",
+  "zh": "在 CLI 里，它会用 Haiku 启动一个小模型，去调查一个代码库。"
+ },
+ {
+  "seg": 46,
+  "start": 271.402,
+  "end": 284.829,
+  "speaker": "Unknown",
+  "en": "If you have a plan that you've done and you've written out a planning document and you want a different model provider to come and audit the plan because it has different training data and different model weighting, then fine, you can do that.",
+  "zh": "如果你已经完成了一个计划，写好了一份规划文档，并且想让另一个模型提供方来审计这个计划，因为它有不同的训练数据和不同的模型权重，那没问题，你可以这么做。"
+ },
+ {
+  "seg": 47,
+  "start": 284.889,
+  "end": 292.092,
+  "speaker": "Unknown",
+  "en": "Rubber Duck is like an embedded agent that will validate a plan that we know was written by Opus with a pass from GPT or something like that.",
+  "zh": "Rubber Duck 是一个嵌入式智能体，它会验证一个我们知道是由 Opus 编写的计划，用 GPT 或类似的模型过一遍。"
+ },
+ {
+  "seg": 48,
+  "start": 292.752,
+  "end": 300.659,
+  "speaker": "Unknown",
+  "en": "You can see in all of these models they specify or in all of these agents they specify the model and that's one of the options that you have when you're building custom agents.",
+  "zh": "你可以看到，在所有这些模型中——或者说在所有这些智能体中——它们都指定了模型，这是你构建自定义智能体时的选项之一。"
+ },
+ {
+  "seg": 49,
+  "start": 300.679,
+  "end": 305.582,
+  "speaker": "Unknown",
+  "en": "You can always control the model that you're using and then you control the instructions that you're giving it.",
+  "zh": "你始终可以控制你所使用的模型，然后控制你给它的指令。"
+ },
+ {
+  "seg": 50,
+  "start": 305.662,
+  "end": 321.515,
+  "speaker": "Unknown",
+  "en": "So if these agents aren't doing something that you need done, if you have a specific task or a review or you have a compliance or regulatory requirement that you have to meet and maybe you have a tool that you want to run or a series of checks that you want to have that are",
+  "zh": "所以如果这些智能体没有在做你需要完成的事情,如果你有一个特定的任务或一次审查,或者你有一个必须满足的合规或监管要求,也许你有一个想运行的工具,或者一系列你想执行的检查,它们是"
+ },
+ {
+  "seg": 51,
+  "start": 321.835,
+  "end": 322.476,
+  "speaker": "Unknown",
+  "en": "Custom to you.",
+  "zh": "对你而言定制的。"
+ },
+ {
+  "seg": 52,
+  "start": 322.776,
+  "end": 324.177,
+  "speaker": "Unknown",
+  "en": "Maybe you want to write an agent.",
+  "zh": "也许你想写一个智能体。"
+ },
+ {
+  "seg": 53,
+  "start": 324.578,
+  "end": 335.968,
+  "speaker": "Unknown",
+  "en": "And if you want, you can just use the agent command here, and it will set you through a workflow to add an agent into your CLI environment.",
+  "zh": "如果你愿意,你可以直接用这里的 agent 命令,它会引导你走一个工作流,把一个智能体添加到你的 CLI 环境中。"
+ },
+ {
+  "seg": 54,
+  "start": 336.288,
+  "end": 343.114,
+  "speaker": "Unknown",
+  "en": "So here I'm getting to pick, do I want this on the project level, like in the get project that I'm working on, or do I want this as like a",
+  "zh": "这里我可以选择,我是想把它放在项目层级,比如在我正在开发的 get 项目里,还是想把它作为"
+ },
+ {
+  "seg": 55,
+  "start": 344.195,
+  "end": 347.878,
+  "speaker": "Unknown",
+  "en": "An agent that's available regardless of which project I'm working on at the user level, right?",
+  "zh": "一个不管我在做哪个项目都可用的智能体,放在用户层级,对吧?"
+ },
+ {
+  "seg": 56,
+  "start": 348.539,
+  "end": 353.583,
+  "speaker": "Unknown",
+  "en": "So maybe I'll say I'm at the org level or at my individual user level.",
+  "zh": "所以也许我可以说放在 org 层级,或者放在我的个人用户层级。"
+ },
+ {
+  "seg": 57,
+  "start": 354.463,
+  "end": 356.185,
+  "speaker": "Unknown",
+  "en": "And then I go ahead and create this with Copilot.",
+  "zh": "然后我继续用 Copilot 创建它。"
+ },
+ {
+  "seg": 58,
+  "start": 356.525,
+  "end": 358.807,
+  "speaker": "Unknown",
+  "en": "Copilot will do all the scaffolding for me.",
+  "zh": "Copilot 会为我做所有的脚手架搭建。"
+ },
+ {
+  "seg": 59,
+  "start": 358.887,
+  "end": 370.717,
+  "speaker": "Unknown",
+  "en": "So if I want, I can generate an agent that maybe looks at the GitHub change log and it will summarize all of the latest features or something that Copilot did.",
+  "zh": "所以如果我愿意,我可以生成一个智能体,它也许会查看 GitHub 变更日志,并总结所有最新功能,或者 Copilot 做的某些事情。"
+ },
+ {
+  "seg": 60,
+  "start": 371.297,
+  "end": 377.841,
+  "speaker": "Unknown",
+  "en": "I did that earlier today and just generated a sample agent using this agent builder that's built into the platform.",
+  "zh": "我今天早些时候就这么做了,用这个内置于平台的智能体构建器生成了一个示例智能体。"
+ },
+ {
+  "seg": 61,
+  "start": 377.861,
+  "end": 379.742,
+  "speaker": "Unknown",
+  "en": "And this is available in all of the interfaces.",
+  "zh": "而且这在所有界面里都可用。"
+ },
+ {
+  "seg": 62,
+  "start": 380.502,
+  "end": 385.725,
+  "speaker": "Unknown",
+  "en": "If you have the IDE, you have an agent's interface there as well that will do the same kind of build process with you.",
+  "zh": "如果你有 IDE,那里也有一个智能体界面,会和你进行同样类型的构建流程。"
+ },
+ {
+  "seg": 63,
+  "start": 386.065,
+  "end": 388.106,
+  "speaker": "Unknown",
+  "en": "But what's nice is it scaffolds everything out.",
+  "zh": "但很棒的是它把一切都搭建好了。"
+ },
+ {
+  "seg": 64,
+  "start": 388.166,
+  "end": 400.893,
+  "speaker": "Unknown",
+  "en": "So from a basic one-line prompt that just says, hey, I want to go to the changelog and summarize all the changes, it'll write the description for me, it'll format all the front matter, it will structure success criteria, it'll take an attempt at structuring methodology,",
+  "zh": "从一个只有一行的基础提示词,只说「嘿,我想去变更日志总结所有变更」开始,它会为我写描述,会排版所有的 front matter,会组织成功标准,还会尝试组织方法论,"
+ },
+ {
+  "seg": 65,
+  "start": 401.253,
+  "end": 403.476,
+  "speaker": "Unknown",
+  "en": "It kind of knows how to write these files.",
+  "zh": "它大概知道怎么写这些文件。"
+ },
+ {
+  "seg": 66,
+  "start": 403.536,
+  "end": 406.58,
+  "speaker": "Unknown",
+  "en": "So you get to be somewhat lazy with it.",
+  "zh": "所以你可以对此有点偷懒。"
+ },
+ {
+  "seg": 67,
+  "start": 406.6,
+  "end": 409.023,
+  "speaker": "Unknown",
+  "en": "You just write a general description of what you want to get done.",
+  "zh": "你只要写一个你想要完成什么的大致描述。"
+ },
+ {
+  "seg": 68,
+  "start": 409.284,
+  "end": 410.966,
+  "speaker": "Unknown",
+  "en": "We'll fill in all the specifics for you.",
+  "zh": "它会为你填上所有细节。"
+ },
+ {
+  "seg": 69,
+  "start": 411.206,
+  "end": 413.789,
+  "speaker": "Unknown",
+  "en": "You can, of course, come in here and edit all of this.",
+  "zh": "当然,你可以进来编辑所有这些内容。"
+ },
+ {
+  "seg": 70,
+  "start": 413.829,
+  "end": 418.816,
+  "speaker": "Unknown",
+  "en": "So if you don't like the order that it's picking sources in this case,",
+  "zh": "所以如果你不喜欢它在这次挑选来源的顺序,"
+ },
+ {
+  "seg": 71,
+  "start": 419.416,
+  "end": 420.477,
+  "speaker": "Unknown",
+  "en": "We could change that, right?",
+  "zh": "我们可以改掉它,对吧?"
+ },
+ {
+  "seg": 72,
+  "start": 420.517,
+  "end": 427.082,
+  "speaker": "Unknown",
+  "en": "Like this one wants to start with, you know, use the GitHub roadmap, but maybe you wanted just to jump straight to the changelog so you're not getting roadmap items.",
+  "zh": "比如这个想从使用 GitHub roadmap 开始,但也许你只想直接跳到变更日志,这样你就不会拿到 roadmap 条目。"
+ },
+ {
+  "seg": 73,
+  "start": 427.282,
+  "end": 428.663,
+  "speaker": "Unknown",
+  "en": "You know, you can just edit it here, right?",
+  "zh": "你知道,你可以直接在这里编辑,对吧?"
+ },
+ {
+  "seg": 74,
+  "start": 428.683,
+  "end": 429.624,
+  "speaker": "Unknown",
+  "en": "There's no big deal.",
+  "zh": "没什么大不了的。"
+ },
+ {
+  "seg": 75,
+  "start": 429.844,
+  "end": 431.885,
+  "speaker": "Unknown",
+  "en": "But this does all the scaffolding work for you.",
+  "zh": "但它确实为你做了所有的脚手架工作。"
+ },
+ {
+  "seg": 76,
+  "start": 432.946,
+  "end": 436.088,
+  "speaker": "Unknown",
+  "en": "What's nice now is you've created like an agent that works in the harness.",
+  "zh": "现在很棒的是,你已经创建了一个能在 harness 里工作的智能体。"
+ },
+ {
+  "seg": 77,
+  "start": 436.128,
+  "end": 440.912,
+  "speaker": "Unknown",
+  "en": "So if you have repeat tasks that you have to do, you can call this agent to do those tasks for you, right?",
+  "zh": "所以如果你有必须重复做的任务,你可以调用这个智能体来为你做那些任务,对吧?"
+ },
+ {
+  "seg": 78,
+  "start": 441.532,
+  "end": 442.753,
+  "speaker": "Unknown",
+  "en": "That's kind of step one.",
+  "zh": "这算是第一步。"
+ },
+ {
+  "seg": 79,
+  "start": 443.313,
+  "end": 447.536,
+  "speaker": "Unknown",
+  "en": "But once you do that, you're kind of like, what's the next thing that I got to go do?",
+  "zh": "但一旦你做到那一步,你就会有点想,我接下来该去做什么?"
+ },
+ {
+  "seg": 80,
+  "start": 447.717,
+  "end": 448.097,
+  "speaker": "Unknown",
+  "en": "And I think",
+  "zh": "而我认为"
+ },
+ {
+  "seg": 81,
+  "start": 449.197,
+  "end": 451.238,
+  "speaker": "Unknown",
+  "en": "The next thing is how do I share this agent?",
+  "zh": "下一步就是:我怎么分享这个智能体?"
+ },
+ {
+  "seg": 82,
+  "start": 451.258,
+  "end": 453.638,
+  "speaker": "Unknown",
+  "en": "How do other people take advantage of it?",
+  "zh": "其他人怎么利用它?"
+ },
+ {
+  "seg": 83,
+  "start": 453.799,
+  "end": 459.36,
+  "speaker": "Unknown",
+  "en": "And the easiest way to do that inside of Copilot is to do that by making a marketplace.",
+  "zh": "在 Copilot 里做到这一点最简单的方式,就是通过做一个 marketplace。"
+ },
+ {
+  "seg": 84,
+  "start": 459.58,
+  "end": 467.062,
+  "speaker": "Unknown",
+  "en": "So a marketplace is just a repository with a little bit of extra JSON in one of the directories that says, hey, this is a marketplace.",
+  "zh": "所以 marketplace 就是一个仓库,在其中一个目录里加了一点点额外的 JSON,写着「嘿,这是一个 marketplace」。"
+ },
+ {
+  "seg": 85,
+  "start": 467.082,
+  "end": 471.684,
+  "speaker": "Unknown",
+  "en": "And what it does is it gives you some light package management capabilities inside the repo.",
+  "zh": "它的作用是在仓库内给你提供一些轻量的包管理能力。"
+ },
+ {
+  "seg": 86,
+  "start": 471.724,
+  "end": 476.725,
+  "speaker": "Unknown",
+  "en": "So if I subscribe to a marketplace, then I can update all the agents simultaneously",
+  "zh": "所以如果我订阅了一个 marketplace,我就可以同时更新所有智能体,"
+ },
+ {
+  "seg": 87,
+  "start": 477.125,
+  "end": 478.646,
+  "speaker": "Unknown",
+  "en": "I can version them, things like that.",
+  "zh": "我可以给它们做版本管理,诸如此类。"
+ },
+ {
+  "seg": 88,
+  "start": 478.727,
+  "end": 480.768,
+  "speaker": "Unknown",
+  "en": "I can notify people of security vulnerabilities.",
+  "zh": "我可以通知别人安全漏洞。"
+ },
+ {
+  "seg": 89,
+  "start": 481.048,
+  "end": 485.172,
+  "speaker": "Unknown",
+  "en": "You know, there's features built in that allow me to communicate with the users that are downstream from me.",
+  "zh": "你知道,内置了一些功能,让我能与处在我下游的用户沟通。"
+ },
+ {
+  "seg": 90,
+  "start": 485.552,
+  "end": 494.64,
+  "speaker": "Unknown",
+  "en": "So creating a marketplace is oftentimes one of the first things that I work with companies on when I go in and try to talk with them about how to scale copilot adoption inside their organization.",
+  "zh": "所以创建 marketplace 往往是我与公司合作时最先着手的事情之一,当我进去试图和他们谈论如何在他们的组织内扩展 copilot 的采用时。"
+ },
+ {
+  "seg": 91,
+  "start": 495.16,
+  "end": 498.263,
+  "speaker": "Unknown",
+  "en": "A lot of times there's not a central repository for teams to even contribute",
+  "zh": "很多时候,团队甚至没有一个中央仓库可以贡献"
+ },
+ {
+  "seg": 92,
+  "start": 499.104,
+  "end": 503.708,
+  "speaker": "Unknown",
+  "en": "So if you don't have a central location, you should generate one, right?",
+  "zh": "所以如果你没有一个中央位置,你就应该生成一个,对吧?"
+ },
+ {
+  "seg": 93,
+  "start": 503.728,
+  "end": 510.373,
+  "speaker": "Unknown",
+  "en": "And there is a capability basically to sync those with the local client device and then push in and out different agents.",
+  "zh": "而且基本上有一种能力可以把它们和本地客户端设备同步,然后把不同的智能体推入和推出。"
+ },
+ {
+  "seg": 94,
+  "start": 511.254,
+  "end": 517.96,
+  "speaker": "Unknown",
+  "en": "You can also use a specific directory inside of your organization or a specific repo.",
+  "zh": "你也可以使用你组织内的一个特定目录,或者一个特定的仓库。"
+ },
+ {
+  "seg": 95,
+  "start": 518.32,
+  "end": 525.823,
+  "speaker": "Unknown",
+  "en": "So if you're inside of GitHub, I'm at the org level here, and then I went into a repository, and it has to be named .githubPrivate, right?",
+  "zh": "所以如果你在 GitHub 里,我现在在 org 层级,然后我进入了一个仓库,它必须被命名为 .githubPrivate,对吧?"
+ },
+ {
+  "seg": 96,
+  "start": 525.843,
+  "end": 527.744,
+  "speaker": "Unknown",
+  "en": "This is a naming convention that we've used.",
+  "zh": "这是我们用过的一个命名约定。"
+ },
+ {
+  "seg": 97,
+  "start": 528.004,
+  "end": 532.846,
+  "speaker": "Unknown",
+  "en": "But if you have a .githubPrivate repository, you'll be able to expose agent files.",
+  "zh": "但如果你有一个 .githubPrivate 仓库,你就能够暴露智能体文件。"
+ },
+ {
+  "seg": 98,
+  "start": 532.906,
+  "end": 535.107,
+  "speaker": "Unknown",
+  "en": "So in this case, I have three agents here.",
+  "zh": "所以在这个例子里,我这里有三个智能体。"
+ },
+ {
+  "seg": 99,
+  "start": 535.588,
+  "end": 541.25,
+  "speaker": "Unknown",
+  "en": "And you can see from the cloud agent, I'm actually able to call that specific agent on the platform.",
+  "zh": "而且你可以从 cloud agent 看到,我实际上能够在平台上调用那个特定的智能体。"
+ },
+ {
+  "seg": 100,
+  "start": 541.39,
+  "end": 543.892,
+  "speaker": "Unknown",
+  "en": "So I showed you earlier in the diagram.",
+  "zh": "就像我在前面那张图里给你们展示过的。"
+ },
+ {
+  "seg": 101,
+  "start": 543.932,
+  "end": 546.514,
+  "speaker": "Unknown",
+  "en": "You can interact with all of these from different surface areas.",
+  "zh": "你可以从不同的界面与所有这些进行交互。"
+ },
+ {
+  "seg": 102,
+  "start": 546.774,
+  "end": 548.335,
+  "speaker": "Unknown",
+  "en": "This is the cloud interaction.",
+  "zh": "这是云端交互。"
+ },
+ {
+  "seg": 103,
+  "start": 548.375,
+  "end": 552.238,
+  "speaker": "Unknown",
+  "en": "If I want to delegate to a cloud agent that's hosted on the platform, I can do that here.",
+  "zh": "如果我想把任务委派给一个托管在平台上的云端智能体，我可以在这里完成。"
+ },
+ {
+  "seg": 104,
+  "start": 552.298,
+  "end": 558.943,
+  "speaker": "Unknown",
+  "en": "But what's nice is this compliance bot that I'm showing you here in the dropdown is the same compliance bot that's in the repository.",
+  "zh": "但很棒的是，我 here 在下拉菜单里给你们展示的这个合规智能体，和仓库里的那个合规智能体是同一个。"
+ },
+ {
+  "seg": 105,
+  "start": 559.904,
+  "end": 563.467,
+  "speaker": "Unknown",
+  "en": "This is a way of distributing agents out to the team.",
+  "zh": "这是一种把智能体分发给团队的方式。"
+ },
+ {
+  "seg": 106,
+  "start": 563.507,
+  "end": 570.853,
+  "speaker": "Unknown",
+  "en": "If I write a handy agent that checks the changelog for me, then I can publish it here and I can share that with everybody else.",
+  "zh": "如果我写了一个帮我检查 changelog 的实用智能体，那么我可以把它发布在这里，并分享给其他所有人。"
+ },
+ {
+  "seg": 107,
+  "start": 571.413,
+  "end": 577.859,
+  "speaker": "Unknown",
+  "en": "This will push to everyone's IDE environment or push to their CLI environment for them, and then they can just call the same agent that I'm working on.",
+  "zh": "这会推送到每个人的 IDE 环境，或推送到他们的 CLI 环境，然后他们就可以直接调用我正在开发的同一个智能体。"
+ },
+ {
+  "seg": 108,
+  "start": 578.379,
+  "end": 580.081,
+  "speaker": "Unknown",
+  "en": "Now I have some reuse.",
+  "zh": "现在我就有了一些复用。"
+ },
+ {
+  "seg": 109,
+  "start": 580.121,
+  "end": 581.622,
+  "speaker": "Unknown",
+  "en": "I can publish them in a marketplace.",
+  "zh": "我可以把它们发布到一个市场里。"
+ },
+ {
+  "seg": 110,
+  "start": 581.923,
+  "end": 587.087,
+  "speaker": "Unknown",
+  "en": "I can publish them directly as assets inside of my business that anybody can call.",
+  "zh": "我可以把它们直接作为资产发布在我的企业内部，任何人都可以调用。"
+ },
+ {
+  "seg": 111,
+  "start": 587.107,
+  "end": 589.79,
+  "speaker": "Unknown",
+  "en": "And this is what's allowing me to do standardization.",
+  "zh": "而这正是让我能够做标准化的东西。"
+ },
+ {
+  "seg": 112,
+  "start": 590.17,
+  "end": 595.335,
+  "speaker": "Unknown",
+  "en": "If you look at the cost model for all of these products, the cheapest way to use them is to get cash hits.",
+  "zh": "如果你去看所有这些产品的成本模型，最便宜的使用方式是获得缓存命中。"
+ },
+ {
+  "seg": 113,
+  "start": 596.216,
+  "end": 599.238,
+  "speaker": "Unknown",
+  "en": "Exact matches between turns on common data.",
+  "zh": "也就是在常见数据上回合之间的精确匹配。"
+ },
+ {
+  "seg": 114,
+  "start": 599.598,
+  "end": 602.86,
+  "speaker": "Unknown",
+  "en": "And having reusable components will drive up your cash rate, right?",
+  "zh": "而拥有可复用的组件会提高你的缓存命中率，对吧？"
+ },
+ {
+  "seg": 115,
+  "start": 602.9,
+  "end": 615.927,
+  "speaker": "Unknown",
+  "en": "So if cost is a concern, building reusable agents and making sure that people are solving problems in the same way rather than reinventing the wheel every time, it's a good way to drive down your overall bill, drive up your cash rate.",
+  "zh": "所以如果成本是一个考量因素，构建可复用的智能体、确保大家用同样的方式解决问题，而不是每次都重新发明轮子，这是降低你整体账单、提高缓存命中率的好方法。"
+ },
+ {
+  "seg": 116,
+  "start": 616.993,
+  "end": 623.877,
+  "speaker": "Unknown",
+  "en": "So again, this DAG GitHub private directory, this is how you would share an agent internally to everyone inside the org, right?",
+  "zh": "再说一次，这个 DAG GitHub 私有目录，这就是你在组织内部向所有人共享一个智能体的方式，对吧？"
+ },
+ {
+  "seg": 117,
+  "start": 623.917,
+  "end": 629.299,
+  "speaker": "Unknown",
+  "en": "So you can make a marketplace that will work across organizations that could even work externally, right?",
+  "zh": "你可以做一个跨组织运作的市场，甚至可以对外部运作，对吧？"
+ },
+ {
+  "seg": 118,
+  "start": 629.319,
+  "end": 634.482,
+  "speaker": "Unknown",
+  "en": "So we have a repository called Awesome Copilot that has a bunch of example agents and things.",
+  "zh": "所以我们有一个叫 Awesome Copilot 的仓库，里面有一堆示例智能体之类的东西。"
+ },
+ {
+  "seg": 119,
+  "start": 634.502,
+  "end": 635.983,
+  "speaker": "Unknown",
+  "en": "You could register that as a marketplace.",
+  "zh": "你可以把它注册为一个市场。"
+ },
+ {
+  "seg": 120,
+  "start": 636.283,
+  "end": 637.784,
+  "speaker": "Unknown",
+  "en": "This is purely internal, right?",
+  "zh": "这是纯内部的，对吧？"
+ },
+ {
+  "seg": 121,
+  "start": 637.804,
+  "end": 640.245,
+  "speaker": "Unknown",
+  "en": "And this is like an admin can push this out.",
+  "zh": "而且这类似于由管理员来推送。"
+ },
+ {
+  "seg": 122,
+  "start": 641.81,
+  "end": 650.573,
+  "speaker": "Unknown",
+  "en": "The last thing that I want to do sometimes when I'm working with an agent is I want to be able to use agents across repositories.",
+  "zh": "有时候我在使用智能体时想做的最后一件事，就是能够跨仓库使用智能体。"
+ },
+ {
+  "seg": 123,
+  "start": 650.713,
+  "end": 658.516,
+  "speaker": "Unknown",
+  "en": "And the biggest challenge with these compliance agents, for example, is that they're always starting in the repo where the agent lives.",
+  "zh": "比如这些合规智能体，最大的挑战在于它们总是在智能体所在的那个仓库里启动。"
+ },
+ {
+  "seg": 124,
+  "start": 659.956,
+  "end": 665.504,
+  "speaker": "Unknown",
+  "en": "Agents living in this repository, they maybe can't take action in other repositories, right?",
+  "zh": "智能体在这个仓库里，它们可能无法在其他仓库中执行操作，对吧？"
+ },
+ {
+  "seg": 125,
+  "start": 665.544,
+  "end": 670.412,
+  "speaker": "Unknown",
+  "en": "I need to actually start the agent in the other repo so that it has permissions in that repository.",
+  "zh": "我需要真正地在另一个仓库里启动这个智能体，这样它才在那个仓库中拥有权限。"
+ },
+ {
+  "seg": 126,
+  "start": 671.073,
+  "end": 674.498,
+  "speaker": "Unknown",
+  "en": "Inside of the Copilot app, there's a command called orchestrate.",
+  "zh": "在 Copilot 应用里，有一个叫 orchestrate 的命令。"
+ },
+ {
+  "seg": 127,
+  "start": 675.078,
+  "end": 678.942,
+  "speaker": "Unknown",
+  "en": "And Orchestrate is our horizontal scaling for cross-repo.",
+  "zh": "而 Orchestrate 是我们针对跨仓库的横向扩展。"
+ },
+ {
+  "seg": 128,
+  "start": 679.582,
+  "end": 688.77,
+  "speaker": "Unknown",
+  "en": "So this will allow you to set a series of GitHub issues as goals for the agent and then spin up sub-agents to address all of those tasks.",
+  "zh": "所以这允许你把一系列 GitHub issue 设定为智能体的目标，然后启动子智能体来处理所有那些任务。"
+ },
+ {
+  "seg": 129,
+  "start": 688.85,
+  "end": 693.695,
+  "speaker": "Unknown",
+  "en": "But what's nice is that it will spin up agents in the repository that it's supposed to be working in.",
+  "zh": "但很棒的是，它会在智能体本该工作的那个仓库里启动智能体。"
+ },
+ {
+  "seg": 130,
+  "start": 694.415,
+  "end": 706.664,
+  "speaker": "Unknown",
+  "en": "If you want to take a task inside a microservice where you're modifying an API and then you have to make a change somewhere downstream because of that, Orchestrate will allow you to set up several agents that are going to make cross-repo changes simultaneously.",
+  "zh": "如果你想在一个微服务里执行一个任务，比如你在修改一个 API，然后你不得不因此在下游的某个地方做改动，Orchestrate 能让你设置多个智能体同时进行跨仓库的修改。"
+ },
+ {
+  "seg": 131,
+  "start": 706.744,
+  "end": 714.369,
+  "speaker": "Unknown",
+  "en": "So I can use the pre-canned agents, right, if they're available to me in those other marketplaces or being pushed to me by my org admin.",
+  "zh": "所以我可以使用预先做好的智能体，对吧，如果它们在那些其他的市场里对我可用，或者是由我的组织管理员推送给我的。"
+ },
+ {
+  "seg": 132,
+  "start": 714.709,
+  "end": 721.133,
+  "speaker": "Unknown",
+  "en": "I can kind of summon them here to go do work in individual repositories and keep them sort of on task using this Orchestrate tool.",
+  "zh": "我可以在这里把它们召唤出来，去各个仓库里干活，并用这个 Orchestrate 工具让它们保持在任务轨道上。"
+ },
+ {
+  "seg": 133,
+  "start": 721.674,
+  "end": 722.715,
+  "speaker": "Unknown",
+  "en": "And that's really, like,",
+  "zh": "而这真的，就像，"
+ },
+ {
+  "seg": 134,
+  "start": 723.535,
+  "end": 727.076,
+  "speaker": "Unknown",
+  "en": "Three layers of how do I use agents locally, right?",
+  "zh": "是我在本地使用智能体的三个层次，对吧？"
+ },
+ {
+  "seg": 135,
+  "start": 727.256,
+  "end": 731.137,
+  "speaker": "Unknown",
+  "en": "And using agents locally has a lot of utility, right?",
+  "zh": "而在本地使用智能体有很多实用价值，对吧？"
+ },
+ {
+  "seg": 136,
+  "start": 731.197,
+  "end": 734.038,
+  "speaker": "Unknown",
+  "en": "But sometimes I don't want to run an agent locally.",
+  "zh": "但有时候我不想在本地运行智能体。"
+ },
+ {
+  "seg": 137,
+  "start": 734.078,
+  "end": 737.879,
+  "speaker": "Unknown",
+  "en": "I actually want the agent to be run as a part of the repository.",
+  "zh": "我其实想让智能体作为仓库的一部分来运行。"
+ },
+ {
+  "seg": 138,
+  "start": 738.299,
+  "end": 742.34,
+  "speaker": "Unknown",
+  "en": "And certain agents maybe are going to be performing like maintenance tasks in the repo.",
+  "zh": "而某些智能体可能要在仓库里执行类似维护任务的工作。"
+ },
+ {
+  "seg": 139,
+  "start": 742.68,
+  "end": 748.562,
+  "speaker": "Unknown",
+  "en": "And so I want to run them in the repo on that repo's budget, not on my budget, right?",
+  "zh": "所以我想让它们在仓库里、用那个仓库的预算来运行，而不是用我的预算，对吧？"
+ },
+ {
+  "seg": 140,
+  "start": 748.662,
+  "end": 749.402,
+  "speaker": "Unknown",
+  "en": "Or I want to run it",
+  "zh": "或者我想让它"
+ },
+ {
+  "seg": 141,
+  "start": 749.782,
+  "end": 752.145,
+  "speaker": "Unknown",
+  "en": "using the repo identity, not my identity.",
+  "zh": "使用仓库的身份来运行，而不是我的身份。"
+ },
+ {
+  "seg": 142,
+  "start": 752.185,
+  "end": 755.209,
+  "speaker": "Unknown",
+  "en": "Not every agent needs to be me taking an action.",
+  "zh": "不是每个智能体都需要是我本人在执行操作。"
+ },
+ {
+  "seg": 143,
+  "start": 756.03,
+  "end": 760.016,
+  "speaker": "Unknown",
+  "en": "It's maybe a maintenance task that has to be done on behalf of the project.",
+  "zh": "它可能是代表项目必须完成的维护任务。"
+ },
+ {
+  "seg": 144,
+  "start": 760.636,
+  "end": 765.002,
+  "speaker": "Unknown",
+  "en": "When we're working in that model, we have a framework that you can use called agentic workflows.",
+  "zh": "当我们以那种模式工作时，我们有一个你可以使用的框架，叫 agentic workflows。"
+ },
+ {
+  "seg": 145,
+  "start": 765.863,
+  "end": 768.646,
+  "speaker": "Unknown",
+  "en": "And agentic workflows is a pretty simple concept.",
+  "zh": "而 agentic workflows 是个相当简单的概念。"
+ },
+ {
+  "seg": 146,
+  "start": 768.726,
+  "end": 772.429,
+  "speaker": "Unknown",
+  "en": "Like the Copilot CLI can be used in a headless mode.",
+  "zh": "比如 Copilot CLI 可以以无头模式使用。"
+ },
+ {
+  "seg": 147,
+  "start": 772.51,
+  "end": 774.732,
+  "speaker": "Unknown",
+  "en": "So I can call the Copilot CLI.",
+  "zh": "所以我可以调用 Copilot CLI。"
+ },
+ {
+  "seg": 148,
+  "start": 775.072,
+  "end": 780.457,
+  "speaker": "Unknown",
+  "en": "I can use the dash P command and basically pass it a single prompt, a one-shot prompt for it to go do.",
+  "zh": "我可以使用 dash P 命令，基本上传给它一个单独的提示词，一个一次性的提示词让它去执行。"
+ },
+ {
+  "seg": 149,
+  "start": 780.797,
+  "end": 785.322,
+  "speaker": "Unknown",
+  "en": "And then if I take that and I run that inside of a GitHub Actions runner or in some CI system,",
+  "zh": "然后，如果我拿着这个，在 GitHub Actions runner 或某个 CI 系统里运行它，"
+ },
+ {
+  "seg": 150,
+  "start": 785.622,
+  "end": 788.184,
+  "speaker": "Unknown",
+  "en": "Then I have an agent that's running in a pipeline for me, right?",
+  "zh": "然后我有一个智能体在流水线里为我运行,对吧?"
+ },
+ {
+  "seg": 151,
+  "start": 788.224,
+  "end": 791.306,
+  "speaker": "Unknown",
+  "en": "So I can trigger it on events that are happening in the repo.",
+  "zh": "所以我可以在仓库中发生的事件上触发它。"
+ },
+ {
+  "seg": 152,
+  "start": 791.366,
+  "end": 795.289,
+  "speaker": "Unknown",
+  "en": "Like on a release, I want to update documentation.",
+  "zh": "比如在一次发布时,我想更新文档。"
+ },
+ {
+  "seg": 153,
+  "start": 795.449,
+  "end": 798.171,
+  "speaker": "Unknown",
+  "en": "Or every week, I want to update my context files.",
+  "zh": "或者每周,我想更新我的上下文文件。"
+ },
+ {
+  "seg": 154,
+  "start": 798.371,
+  "end": 802.874,
+  "speaker": "Unknown",
+  "en": "Or in maybe a model like this, I have various maintenance tasks that I want to go do.",
+  "zh": "或者在像这样的模型中,我有各种想要去执行的维护任务。"
+ },
+ {
+  "seg": 155,
+  "start": 803.235,
+  "end": 811.661,
+  "speaker": "Unknown",
+  "en": "Like one of the biggest problems today that's happening in repositories where a lot of agentic development is happening is there's lots of spaghetti code getting added, lots of duplicate code.",
+  "zh": "比如今天在有大量智能体开发发生的仓库中,最大的问题之一就是有大量意大利面条式代码被加入,大量重复代码。"
+ },
+ {
+  "seg": 156,
+  "start": 811.901,
+  "end": 814.403,
+  "speaker": "Unknown",
+  "en": "Like the agents are lazy about implementing",
+  "zh": "智能体在实现上很偷懒,"
+ },
+ {
+  "seg": 157,
+  "start": 815.463,
+  "end": 821.344,
+  "speaker": "Unknown",
+  "en": "Functions, and they're really lazy about namespacing, so they'll just like create constant duplication inside the code base.",
+  "zh": "对函数很偷懒,对命名空间也很偷懒,所以它们就会在代码库内部不断制造重复。"
+ },
+ {
+  "seg": 158,
+  "start": 821.685,
+  "end": 832.047,
+  "speaker": "Unknown",
+  "en": "So maybe you want an agent that looks inside the code base, identifies opportunities for deduplication of code, and then creates a series of issues for you.",
+  "zh": "所以也许你想要一个智能体,去查看代码库,识别代码去重化的机会,然后为你创建一系列 issue。"
+ },
+ {
+  "seg": 159,
+  "start": 832.227,
+  "end": 844.93,
+  "speaker": "Unknown",
+  "en": "And if you use this framework, this agentic workflows framework, what's nice is we'll build in human-in-the-loop triggers for you so that you can review and decide when you're actually going to spend money on some of the next phase of the flow.",
+  "zh": "而且如果你使用这个框架,这个智能体工作流框架,很好的是我们会为你内置人在回路中的触发器,这样你就可以审查并决定何时真正要在流程的下一阶段花钱。"
+ },
+ {
+  "seg": 160,
+  "start": 845.37,
+  "end": 849.514,
+  "speaker": "Unknown",
+  "en": "So in this flow here, you see I have the first agent maybe running on a cron schedule.",
+  "zh": "所以在这个流程里,你可以看到我有第一个智能体也许是按 cron 计划运行的。"
+ },
+ {
+  "seg": 161,
+  "start": 849.834,
+  "end": 850.875,
+  "speaker": "Unknown",
+  "en": "It's looking in the repo.",
+  "zh": "它在查看仓库。"
+ },
+ {
+  "seg": 162,
+  "start": 850.935,
+  "end": 855.419,
+  "speaker": "Unknown",
+  "en": "It identifies, you know, three items where there's opportunity for me to make improvement in the code base.",
+  "zh": "它识别出,你知道的,三个可以让我在代码库中做出改进的机会项。"
+ },
+ {
+  "seg": 163,
+  "start": 855.919,
+  "end": 856.34,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的,很棒。"
+ },
+ {
+  "seg": 164,
+  "start": 856.62,
+  "end": 861.604,
+  "speaker": "Unknown",
+  "en": "The developer reads that and then makes a decision about whether or not those things are worth fixing.",
+  "zh": "开发者读到这些,然后决定这些东西是否值得修复。"
+ },
+ {
+  "seg": 165,
+  "start": 861.624,
+  "end": 866.748,
+  "speaker": "Unknown",
+  "en": "And they express that through a slash command that they can make as an issue comment, right?",
+  "zh": "而他们通过一个斜杠命令来表达这一点,可以作为 issue 评论发出,对吧?"
+ },
+ {
+  "seg": 166,
+  "start": 866.768,
+  "end": 868.43,
+  "speaker": "Unknown",
+  "en": "So they go to the issue and they say, okay,",
+  "zh": "所以他们去到那个 issue 说,好,"
+ },
+ {
+  "seg": 167,
+  "start": 868.79,
+  "end": 871.512,
+  "speaker": "Unknown",
+  "en": "Advance this issue to the next phase of the process, right?",
+  "zh": "把这个 issue 推进到流程的下一阶段,对吧?"
+ },
+ {
+  "seg": 168,
+  "start": 871.812,
+  "end": 873.793,
+  "speaker": "Unknown",
+  "en": "For us, that's maybe a planning phase, right?",
+  "zh": "对我们来说,那也许是一个规划阶段,对吧?"
+ },
+ {
+  "seg": 169,
+  "start": 873.813,
+  "end": 881.557,
+  "speaker": "Unknown",
+  "en": "So maybe I'm going to call another pipeline agent, right, which is the PRD generating product manager agent, right, that's going to scope the feature for me.",
+  "zh": "所以也许我会调用另一个流水线智能体,对吧,也就是生成 PRD 的产品经理智能体,对吧,它会为我界定这个功能。"
+ },
+ {
+  "seg": 170,
+  "start": 882.137,
+  "end": 889.961,
+  "speaker": "Unknown",
+  "en": "It generates a plan, it hands it off to Copilot in the platform for implementation, and then the developer comes back in the loop, maybe at an acceptance phase, right?",
+  "zh": "它生成一个计划,把它交给平台上的 Copilot 去实现,然后开发者回到回路中,也许是在验收阶段,对吧?"
+ },
+ {
+  "seg": 171,
+  "start": 889.981,
+  "end": 893.163,
+  "speaker": "Unknown",
+  "en": "Let's look at the code and evaluate whether or not we actually want to take it in the project.",
+  "zh": "我们来看看代码,评估我们是否真的想把它纳入项目。"
+ },
+ {
+  "seg": 172,
+  "start": 894.204,
+  "end": 899.648,
+  "speaker": "Unknown",
+  "en": "Now I've got pipeline agents, and what's really cool about the pipeline agents is how they scale.",
+  "zh": "现在我有了流水线智能体,而流水线智能体真正酷的地方在于它们的扩展方式。"
+ },
+ {
+  "seg": 173,
+  "start": 901.45,
+  "end": 906.414,
+  "speaker": "Unknown",
+  "en": "The challenge with working locally is you're on a single session or you're on your device.",
+  "zh": "本地工作的挑战在于你处于单一会话中,或者你在自己的设备上。"
+ },
+ {
+  "seg": 174,
+  "start": 906.454,
+  "end": 911.137,
+  "speaker": "Unknown",
+  "en": "If your device goes down or you lose network activity, your workflow is interrupted.",
+  "zh": "如果你的设备宕机了,或者你失去了网络连接,你的工作流就会中断。"
+ },
+ {
+  "seg": 175,
+  "start": 911.177,
+  "end": 914.86,
+  "speaker": "Unknown",
+  "en": "These are running in the platform, so they're running autonomously from you.",
+  "zh": "这些是在平台上运行的,所以它们是独立于你自主运行的。"
+ },
+ {
+  "seg": 176,
+  "start": 915.741,
+  "end": 926.464,
+  "speaker": "Unknown",
+  "en": "If you want to see a maximalist approach to how this works, the GitHub-AW project itself, the thing that is the framework for building all these agents, it is built entirely by agents.",
+  "zh": "如果你想看一个最大化方式的例子,GitHub-AW 项目本身,也就是构建所有这些智能体的框架,它完全是由智能体构建的。"
+ },
+ {
+  "seg": 177,
+  "start": 926.604,
+  "end": 935.926,
+  "speaker": "Unknown",
+  "en": "And this team has an internal goal that they're only going to do their development on their mobile devices because they interact entirely with this application through those slash commands.",
+  "zh": "而且这个团队有一个内部目标,他们只在移动设备上做开发,因为他们完全通过那些斜杠命令与这个应用交互。"
+ },
+ {
+  "seg": 178,
+  "start": 936.446,
+  "end": 944.988,
+  "speaker": "Unknown",
+  "en": "So just to give you a feel of what a fully agent-led development project looks like, this is our framework, and it has",
+  "zh": "所以只是为了让你感受一下一个完全由智能体主导的开发项目是什么样子,这是我们的框架,它有"
+ },
+ {
+  "seg": 179,
+  "start": 945.768,
+  "end": 967.92,
+  "speaker": "Unknown",
+  "en": "I don't know 200 agents in here that are all running different parts of the pipeline right and all of these follow a similar workflow that we just showed on that on that slide right that architecture is reusable so let me see if I can just pick one of these I'm a little bit picking at random here but let's see what this one does right so this is",
+  "zh": "我不知道大概 200 个智能体在这里,它们都在运行流水线的不同部分,对吧,而且所有这些都遵循我们刚才在那张幻灯片上展示的类似工作流,对吧,那个架构是可复用的。所以让我看看能不能随便挑一个,我这里有点随机挑的,但让我们看看这个是做什么的,对吧,这是"
+ },
+ {
+  "seg": 180,
+  "start": 969.241,
+  "end": 971.263,
+  "speaker": "Unknown",
+  "en": "Checking daily reports on other agents.",
+  "zh": "检查其他智能体的每日报告。"
+ },
+ {
+  "seg": 181,
+  "start": 971.283,
+  "end": 973.165,
+  "speaker": "Unknown",
+  "en": "So this is a meta-agent that's looking on things.",
+  "zh": "所以这是一个元智能体,在监督各种事情。"
+ },
+ {
+  "seg": 182,
+  "start": 973.565,
+  "end": 979.531,
+  "speaker": "Unknown",
+  "en": "It's running on a daily schedule, and it has its AgentMD file that's working away here.",
+  "zh": "它按每日计划运行,而且它有它的 AgentMD 文件在这里运作。"
+ },
+ {
+  "seg": 183,
+  "start": 979.972,
+  "end": 987.939,
+  "speaker": "Unknown",
+  "en": "So every time this thing runs, it's generating some markdown report or some action or input for another agent, and then we're just continuing to trigger it.",
+  "zh": "所以每当这个东西运行时,它都会生成某种 markdown 报告,或者为另一个智能体生成某种动作或输入,然后我们只是继续触发它。"
+ },
+ {
+  "seg": 184,
+  "start": 988.84,
+  "end": 990.381,
+  "speaker": "Unknown",
+  "en": "You can feel free to take a look through here.",
+  "zh": "你可以随便在这里面看看。"
+ },
+ {
+  "seg": 185,
+  "start": 990.721,
+  "end": 993.363,
+  "speaker": "Unknown",
+  "en": "There's hundreds of these that are creating this project.",
+  "zh": "有数百个这样的东西在创建这个项目。"
+ },
+ {
+  "seg": 186,
+  "start": 993.723,
+  "end": 997.065,
+  "speaker": "Unknown",
+  "en": "GitHub also has a bunch of them that we've bundled up.",
+  "zh": "GitHub 也有一堆我们打包好的智能体。"
+ },
+ {
+  "seg": 187,
+  "start": 997.165,
+  "end": 1001.028,
+  "speaker": "Unknown",
+  "en": "So inside of our GitHub Next organization, there's this project called Agentix.",
+  "zh": "所以在我们的 GitHub Next 组织里,有一个叫 Agentix 的项目。"
+ },
+ {
+  "seg": 188,
+  "start": 1001.428,
+  "end": 1007.772,
+  "speaker": "Unknown",
+  "en": "Agentix has 30 or so different pipeline agents that you may be interested in just pulling off the shelf and running in your project.",
+  "zh": "Agentix 有大约 30 个不同的流水线智能体,你可能会感兴趣直接拿来用,在你的项目中运行。"
+ },
+ {
+  "seg": 189,
+  "start": 1008.392,
+  "end": 1011.134,
+  "speaker": "Unknown",
+  "en": "Some of these will do the code deduplication that we talked about.",
+  "zh": "其中一些会做我们谈过的代码去重。"
+ },
+ {
+  "seg": 190,
+  "start": 1011.654,
+  "end": 1013.735,
+  "speaker": "Unknown",
+  "en": "Some of them are different types of reviewers.",
+  "zh": "其中一些是不同类型的审查者。"
+ },
+ {
+  "seg": 191,
+  "start": 1013.755,
+  "end": 1023.081,
+  "speaker": "Unknown",
+  "en": "So if you need a QA reviewer or you want one that's funny and just makes jokes, like there's all kinds of different sample agents here that you can pull and drop into the pipeline.",
+  "zh": "所以如果你需要一个 QA 审查者,或者你想要一个搞笑的、只会讲笑话的,这里有各种不同的示例智能体,你可以拿来放进流水线。"
+ },
+ {
+  "seg": 192,
+  "start": 1023.121,
+  "end": 1026.883,
+  "speaker": "Unknown",
+  "en": "But what's nice about this is it gets the workload off of your machine.",
+  "zh": "但这个的好处是它把工作负载从你的机器上移走了。"
+ },
+ {
+  "seg": 193,
+  "start": 1026.943,
+  "end": 1033.807,
+  "speaker": "Unknown",
+  "en": "And I think when we shift back to thinking about cost, getting the workload off of your machine is key for optimizing cost, right?",
+  "zh": "而且我认为当我们转回思考成本时,把工作负载从你的机器上移走是优化成本的关键,对吧?"
+ },
+ {
+  "seg": 194,
+  "start": 1034.167,
+  "end": 1044.853,
+  "speaker": "Unknown",
+  "en": "If I'm having everyone in my organization work with AI and I'm telling them to go use it, but I can't see how they're actually working with the tool, I don't have any opportunity to optimize, right?",
+  "zh": "如果我让组织里的每个人都与 AI 协作，我叫他们去使用它，但我看不到他们实际上是如何使用这个工具的，我就没有任何机会去优化，对吧？"
+ },
+ {
+  "seg": 195,
+  "start": 1044.873,
+  "end": 1051.897,
+  "speaker": "Unknown",
+  "en": "I can't actually see whether or not the agents that they're using are too verbose or are even achieving the task.",
+  "zh": "我实际上看不到他们使用的智能体是否太啰嗦,甚至是否完成了任务。"
+ },
+ {
+  "seg": 196,
+  "start": 1051.957,
+  "end": 1053.898,
+  "speaker": "Unknown",
+  "en": "I can't tell when tool calls are happening,",
+  "zh": "我无法知道工具调用何时发生,"
+ },
+ {
+  "seg": 197,
+  "start": 1054.538,
+  "end": 1056,
+  "speaker": "Unknown",
+  "en": "Successful or unsuccessful.",
+  "zh": "成功还是失败。"
+ },
+ {
+  "seg": 198,
+  "start": 1056.401,
+  "end": 1067.237,
+  "speaker": "Unknown",
+  "en": "I can't tell if they're using agent reasoning for all types of things or if they're correctly building little bash scripts to actually go and do different search functions and things like that.",
+  "zh": "我无法知道他们是否在所有类型的事情上都使用智能体推理,还是他们正确地构建了小 bash 脚本去真正执行不同的搜索功能之类的事情。"
+ },
+ {
+  "seg": 199,
+  "start": 1067.257,
+  "end": 1069.24,
+  "speaker": "Unknown",
+  "en": "There's lots of optimization opportunities for me.",
+  "zh": "对我来说有很多优化机会。 （注:以上 [[194]] 应为 [[194]],特此校正编号。）"
+ },
+ {
+  "seg": 200,
+  "start": 1069.5,
+  "end": 1072.281,
+  "speaker": "Unknown",
+  "en": "But if I can't see it, I can't do any of that optimization.",
+  "zh": "但如果我看不到它，我就没法做任何这些优化。"
+ },
+ {
+  "seg": 201,
+  "start": 1072.381,
+  "end": 1078.744,
+  "speaker": "Unknown",
+  "en": "So by getting the workload off of the laptop and moving it into CI, I get to see what's happening, right?",
+  "zh": "所以通过把工作负载从笔记本上移出去、移到 CI 里，我就能看到正在发生什么，对吧？"
+ },
+ {
+  "seg": 202,
+  "start": 1078.804,
+  "end": 1082.705,
+  "speaker": "Unknown",
+  "en": "I have every single agent running and it's instrumented with OTEL.",
+  "zh": "我有每一个智能体都在运行，并且都用 OTEL 做了埋点。"
+ },
+ {
+  "seg": 203,
+  "start": 1082.745,
+  "end": 1091.509,
+  "speaker": "Unknown",
+  "en": "So I can go to a SIM or some kind of logging platform and look, does my code deduplication agent, how does it run across repositories?",
+  "zh": "所以我可以去到一个 SIM 或某种日志平台上看，我的代码去重智能体，它在各个代码仓库之间运行得怎么样？"
+ },
+ {
+  "seg": 204,
+  "start": 1091.529,
+  "end": 1092.989,
+  "speaker": "Unknown",
+  "en": "How much does it cost me, right?",
+  "zh": "它要花我多少钱，对吧？"
+ },
+ {
+  "seg": 205,
+  "start": 1093.009,
+  "end": 1094.81,
+  "speaker": "Unknown",
+  "en": "I can pivot on average token use.",
+  "zh": "我可以对平均 token 使用量做数据透视。"
+ },
+ {
+  "seg": 206,
+  "start": 1095.17,
+  "end": 1105.634,
+  "speaker": "Unknown",
+  "en": "I can also do things like say, hey, every time that an agent exceeds its P90 for what I expect it to cost me to run, go investigate why it exceeded its threshold, right?",
+  "zh": "我还可以做这样的事，比如说，嘿，每次某个智能体超出我预期它运行成本的 P90,就去调查它为什么超出了阈值，对吧？"
+ },
+ {
+  "seg": 207,
+  "start": 1105.914,
+  "end": 1112.876,
+  "speaker": "Unknown",
+  "en": "I want it to tell me what debugging information I can take to evaluate it further or to improve it, right?",
+  "zh": "我想让它告诉我，我能拿到哪些调试信息来进一步评估它或者改进它，对吧？"
+ },
+ {
+  "seg": 208,
+  "start": 1113.236,
+  "end": 1118.738,
+  "speaker": "Unknown",
+  "en": "Or if I see that a tool call is failing over and over, maybe I want to A-B test different front matter, or maybe I want to A-B test",
+  "zh": "或者，如果我看到某个工具调用一次又一次地失败，也许我想对不同的 front matter 做 A-B 测试，或者我想对"
+ },
+ {
+  "seg": 209,
+  "start": 1119.098,
+  "end": 1124.885,
+  "speaker": "Unknown",
+  "en": "Different models and see if they produce the right output for me so I can pick a cheaper model at some point.",
+  "zh": "不同的模型做 A-B 测试，看它们能否为我产出正确的输出，这样我在某个时候就可以选一个更便宜的模型。"
+ },
+ {
+  "seg": 210,
+  "start": 1125.305,
+  "end": 1129.37,
+  "speaker": "Unknown",
+  "en": "All of this stuff is possible once I get the agents into the pipeline.",
+  "zh": "所有这些事情，一旦我把智能体放进流水线，就都成为可能。"
+ },
+ {
+  "seg": 211,
+  "start": 1130.696,
+  "end": 1135.099,
+  "speaker": "Unknown",
+  "en": "Anyhow, so this was a quick and dirty kind of tour of agents in the platform, right?",
+  "zh": "总之，这是一个比较快速粗糙的、关于平台上智能体的概览，对吧？"
+ },
+ {
+  "seg": 212,
+  "start": 1135.119,
+  "end": 1141.902,
+  "speaker": "Unknown",
+  "en": "We talked through building an agent locally, sharing agents through the platform, and then eventually moving those agents into the pipeline.",
+  "zh": "我们讲了在本地构建智能体、通过平台共享智能体，以及最终把这些智能体移进流水线。"
+ },
+ {
+  "seg": 213,
+  "start": 1142.423,
+  "end": 1145.405,
+  "speaker": "Unknown",
+  "en": "If you want to talk more about any part of that, I'll be in the back.",
+  "zh": "如果你想进一步聊聊其中任何部分，我会在后面。"
+ },
+ {
+  "seg": 214,
+  "start": 1145.465,
+  "end": 1149.487,
+  "speaker": "Unknown",
+  "en": "Feel free to come up and grab me, or you can add me on LinkedIn and ping me.",
+  "zh": "欢迎过来找我，或者你可以在 LinkedIn 上加我然后给我发消息。"
+ },
+ {
+  "seg": 215,
+  "start": 1149.567,
+  "end": 1151.188,
+  "speaker": "Unknown",
+  "en": "I'm happy to continue the conversation.",
+  "zh": "我很乐意继续这个对话。"
+ },
+ {
+  "seg": 216,
+  "start": 1151.908,
+  "end": 1157.572,
+  "speaker": "Unknown",
+  "en": "I work at GitHub in a field capacity, so if you know your GitHub AE and you want to chat with me, feel free to reach out with them.",
+  "zh": "我在 GitHub 以驻场的方式工作，所以如果你了解你们的 GitHub AE 并且想和我聊聊，欢迎通过他们联系我。"
+ },
+ {
+  "seg": 217,
+  "start": 1157.592,
+  "end": 1159.813,
+  "speaker": "Unknown",
+  "en": "We can get in touch and have a quick conversation as well.",
+  "zh": "我们可以取得联系，也做一次简短的交流。"
+ },
+ {
+  "seg": 218,
+  "start": 1160.273,
+  "end": 1161.354,
+  "speaker": "Unknown",
+  "en": "Thanks so much for your time today.",
+  "zh": "非常感谢大家今天的时间。"
+ }
+]

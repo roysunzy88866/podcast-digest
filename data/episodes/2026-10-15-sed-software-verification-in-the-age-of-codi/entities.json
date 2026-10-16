@@ -1,0 +1,1396 @@
+{
+  "episode_id": "2026-10-15-sed-software-verification-in-the-age-of-codi",
+  "podcast": "Software Engineering Daily",
+  "date": "2026-10-15",
+  "tags": [
+    "软件测试",
+    "确定性仿真测试",
+    "分布式系统",
+    "AI 编程",
+    "软件可靠性"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "sean-falconer",
+      "type": "person",
+      "role": "host",
+      "name": "Sean Falconer",
+      "file": "Sean Falconer",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            57.77,
+            76.3
+          ],
+          "quote": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            77.32,
+            79.563
+          ],
+          "quote": "This episode is hosted by Sean Falconer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "carl-svera",
+      "type": "person",
+      "role": "cohost",
+      "name": "Carl Svera",
+      "file": "Carl Svera",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            51.006,
+            57.169
+          ],
+          "quote": "Carl Svera is on the red team at Antithesis, and he also leads much of the company's AI strategy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "antithesis",
+      "type": "company",
+      "role": "concept",
+      "name": "Antithesis",
+      "file": "Antithesis",
+      "primary": true,
+      "how_described": "本集主线公司:一家软件验证公司,围绕确定性仿真测试(DST)构建平台,在完全受控环境中运行客户软件、自动探索状态空间,找出常规测试永远抓不到的罕见 bug。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.261,
+            31.722
+          ],
+          "quote": "Antithesis is a software verification company built around an approach called deterministic simulation testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            51.006,
+            57.169
+          ],
+          "quote": "Carl Svera is on the red team at Antithesis, and he also leads much of the company's AI strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            57.77,
+            76.3
+          ],
+          "quote": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            116.081,
+            120.402
+          ],
+          "quote": "So I work at Antithesis and Antithesis is a software verification company, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            145.028,
+            160.399
+          ],
+          "quote": "What if we gave them essentially unlimited access to antithesis to become experts in how to use antithesis as a testing technology and then basically use that team to then go and help our customers use the technology to its fullest?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            160.88,
+            170.907
+          ],
+          "quote": "So I would say my core goal is to become an expert in antithesis and then help our customers solve and find these very hard bugs in distributed systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            198.325,
+            207.529
+          ],
+          "quote": "Yeah, we have a full FTE team who they're actually in there with the customers and working with the customers on sort of a daily basis and helping them write test harnesses and use antithesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            266.73,
+            269.352
+          ],
+          "quote": "Yeah, so what do they call this function antithesis?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            321.974,
+            325.677
+          ],
+          "quote": "So I was the person who wrote the antithesis AI skills repos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            402.321,
+            407.365
+          ],
+          "quote": "So before I was at Antithesis, I was at a company called Singlestore, which used to be called MemSQL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            690.2,
+            698.623
+          ],
+          "quote": "And so people, in my experience at single store, so pre-antithesis, you basically ended up with integration tests, which tested series of events that we knew existed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            855.93,
+            864.452
+          ],
+          "quote": "Yeah, like I actually I've talked about this a lot with antithesis customers is like antithesis customers at some point, they need to bring their system into antithesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            869.533,
+            871.194
+          ],
+          "quote": "Well, we can't put Stripe in antithesis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            983.393,
+            998.278
+          ],
+          "quote": "And so the need for procedural testing or in antithesis parlance like deterministic simulation testing where you're actually testing like all of the possible next steps is even more important because you need to be able to handle sort of a much wider range of inputs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1020.467,
+            1024.43
+          ],
+          "quote": "Antithesis provides a solution that does this automatically for like Linux.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1060.013,
+            1062.433
+          ],
+          "quote": "So that's one way you can do it is use the antithesis model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1118.659,
+            1120.62
+          ],
+          "quote": "On antithesis, it's offloaded to the platform.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1146.06,
+            1149.121
+          ],
+          "quote": "When you're running an antithesis, we actually recommend that you don't do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1454.842,
+            1461.25
+          ],
+          "quote": "So your software is running inside antithesis, completely deterministic, and we are monitoring coverage branches as one of our inputs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1578.368,
+            1586.391
+          ],
+          "quote": "When I saw this bug, I was super excited because I was like, oh my gosh, a bug that is the perfect shape of a thing that Antithesis should be able to find quickly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1595.554,
+            1599.016
+          ],
+          "quote": "I put it into Antithesis with a very simple workload.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1617.265,
+            1629.031
+          ],
+          "quote": "And it sort of proved out this point that because of the way in which antithesis can sort of autonomously find interesting behavior spaces and then exhaustively test them, these kinds of bugs fall out of antithesis very easily.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1677.122,
+            1683.866
+          ],
+          "quote": "So the nice thing about antithesis is that like its ability to find these spaces that blow up the behavior space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1733.011,
+            1750.067
+          ],
+          "quote": "And so unlike traditional distributed systems where you have to guess which of these two events occurred in what order, in antithesis, because we control serialization of all execution, we can guarantee that the order you see the events in the log is exactly the order of events in the simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1757.353,
+            1762.176
+          ],
+          "quote": "And so when you put a system in antithesis, you also provide us a whole bunch of properties.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1767.339,
+            1776.484
+          ],
+          "quote": "I just simply told antithesis to run pragma integrity check, which is the built-in is my database corrupt check that is just built into SQLite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1783.749,
+            1785.45
+          ],
+          "quote": "And so antithesis will just do that automatically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1803.924,
+            1808.529
+          ],
+          "quote": "And then also teaches antithesis when you discover something potentially bad about your system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1808.889,
+            1813.933
+          ],
+          "quote": "The next two features are what separates antithesis from just being an observability platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2078.8,
+            2087.867
+          ],
+          "quote": "So I still think that having something like antithesis on top is good, but we can talk a little bit more about formal methods if you want, because formal methods has a different set of trade-offs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2132.235,
+            2139.386
+          ],
+          "quote": "So I think where the antithesis style testing, so deterministic simulation testing fits into like a short overall testing picture",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2171.704,
+            2177.327
+          ],
+          "quote": "The lower level idea is like antithesis really, really serves you well when you use it to test",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2179.308,
+            2187.932
+          ],
+          "quote": "So with a single antithesis test, you can basically write that test once and you can test almost the entire state space of your software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2276.338,
+            2284.462
+          ],
+          "quote": "I've been doing a lot of work with AI recently where I've been teaching AI how to write workloads that run an antithesis for arbitrary pieces of software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2284.742,
+            2296.127
+          ],
+          "quote": "And by virtue of doing this, I'm also learning about how to use antithesis more as like a tool to give the AI the superpower to ask questions about the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2326.142,
+            2330.765
+          ],
+          "quote": "Now with antithesis, if you do the exact same thing, instead of TDD, you do ADD, I guess.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2331.445,
+            2342.788
+          ],
+          "quote": "And with antithesis-driven development, I suppose, you end up with this interesting thing where you can't possibly overfit because antithesis is designed to find counter examples to whatever you give it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2417.88,
+            2421.362
+          ],
+          "quote": "Because Antithesis is effectively doing breadth-first search over the state space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2507.955,
+            2520.643
+          ],
+          "quote": "So yesterday, the code you shipped has been run overnight on a 12 hour stress test, which simulated, you know, three months worth of time in antithesis, at which point you're very confident that there isn't some kind of like big catastrophic bug.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2541.371,
+            2547.773
+          ],
+          "quote": "So an agent can basically kick off a run in antithesis and then immediately subscribe to a particular failing property that they're interested in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2666.677,
+            2674.26
+          ],
+          "quote": "And the antithesis sort of story to this is that your specification should derive properties and invariants of the code that you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2674.66,
+            2685.682
+          ],
+          "quote": "You should encode those into the workload that is running an antithesis, which then acts as a net that says for all possible paths through your simulation, we always reach a valid property outcome.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2765.642,
+            2770.665
+          ],
+          "quote": "And I think antithesis is a good sort of solution to the verification side of that problem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "singlestore",
+      "type": "company",
+      "role": "concept",
+      "name": "Singlestore",
+      "file": "Singlestore",
+      "primary": true,
+      "how_described": "Carl 待了 10 年的数据库公司(前身叫 MemSQL),有重度左移测试文化,内部测试集群 Cyduck 支持把一个测试参数化扩展成很多测试的程序化测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            402.321,
+            407.365
+          ],
+          "quote": "So before I was at Antithesis, I was at a company called Singlestore, which used to be called MemSQL.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            409.286,
+            415.691
+          ],
+          "quote": "And at Singlestore, we invested a very large amount of engineering effort in testing while we built a database.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            444.989,
+            449.592
+          ],
+          "quote": "So at Singlestore, we had this internal testing product called Cyduck.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sqlite",
+      "type": "concept",
+      "role": "concept",
+      "name": "SQLite",
+      "file": "SQLite",
+      "primary": true,
+      "how_described": "本集用它做了实证案例:SQLite 里一个存在了 10 年的 WAL 并发 bug,被放进 Antithesis 后用简单负载 15 分钟就精确定位到触发它的操作顺序。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1511.557,
+            1515.841
+          ],
+          "quote": "I don't know if you heard about the SQLite wall reset bug that happened earlier this year?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1520.284,
+            1522.625
+          ],
+          "quote": "So one of my other passions is SQLite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1522.645,
+            1523.385
+          ],
+          "quote": "I love SQLite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1524.586,
+            1531.15
+          ],
+          "quote": "And earlier this year, there was like a reported bug on SQLite and a fixed bug, which existed in the SQLite project for 10 years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1531.27,
+            1535.893
+          ],
+          "quote": "So it's been around since they basically wrote the original write-ahead log code in SQLite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1555.377,
+            1566.882
+          ],
+          "quote": "But the thing is, is that the window on this was so, so, so tight that I believe only like maybe one SQLite big customer, it happened to be Tailscale, but one big customer ever like actually hit this bug.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1576.807,
+            1578.148
+          ],
+          "quote": "SQLite has this sort of resolve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1588.372,
+            1595.074
+          ],
+          "quote": "So sure enough, I took the latest version of SQLite pre-patch, so the last version that has the bug in it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1657.768,
+            1661.651
+          ],
+          "quote": "So a workload that runs all SQLite operations with even probability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1762.336,
+            1767.119
+          ],
+          "quote": "So the specific property that I used for testing SQLite was a very simple property.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1767.339,
+            1776.484
+          ],
+          "quote": "I just simply told antithesis to run pragma integrity check, which is the built-in is my database corrupt check that is just built into SQLite.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1821.54,
+            1828.922
+          ],
+          "quote": "So let's say that you discover this bug in SQLite, you see that the integrity check happened at time, like 30 seconds.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1835.703,
+            1847.586
+          ],
+          "quote": "So one thing you could do is you can actually just SSH into SQLite, into the actual cluster, and then you could run SQLite operations and you could go back in time and you could basically binary search for when that corruption actually occurred.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2397.905,
+            2399.487
+          ],
+          "quote": "So my SQLite example is a good one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2399.807,
+            2404.471
+          ],
+          "quote": "I already have a workload that tests sort of the full state space and surface area of SQLite.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tailscale",
+      "type": "company",
+      "role": "concept",
+      "name": "Tailscale",
+      "file": "Tailscale",
+      "primary": false,
+      "how_described": "本集提到 SQLite 那个 10 年漏洞窗口极窄,只有 Tailscale 这一个大客户真正踩到过,并发布了研究发现推动修复。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 292,
+          "t": [
+            1555.377,
+            1566.882
+          ],
+          "quote": "But the thing is, is that the window on this was so, so, so tight that I believe only like maybe one SQLite big customer, it happened to be Tailscale, but one big customer ever like actually hit this bug.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1571.625,
+            1575.987
+          ],
+          "quote": "Tailscale did a lot of research earlier this year and they published their findings and it got fixed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "netflix",
+      "type": "company",
+      "role": "concept",
+      "name": "Netflix",
+      "file": "Netflix",
+      "primary": false,
+      "how_described": "本集说 Netflix 是把混沌工程推广开来的公司:把压力测试搬上生产环境,让系统常年处于坏天气中,逼着可靠性快速提升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            751.408,
+            758.096
+          ],
+          "quote": "Was Netflix's introduction of chaos engineering in some sense like an attempt to try to deal with this unknown?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            760.018,
+            763.061
+          ],
+          "quote": "So chaos engineering and Netflix, what is the other one?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            772.989,
+            776.051
+          ],
+          "quote": "I mean, I think that Netflix was the one that popularized it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            786.392,
+            794.619
+          ],
+          "quote": "Yeah, I mean, Netflix essentially is doing stress testing at scale, like they're essentially scaling up stress testing to production, first of all, which is amazing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-simulation-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性仿真测试 (deterministic simulation testing)",
+      "file": "确定性仿真测试",
+      "primary": true,
+      "how_described": "本集核心概念:两要素是确定性与模拟——平台注入并复现所有随机性,使软件可精确重放,并从历史任意时刻分叉出新的时间线,像广度优先搜索一样探索整个状态空间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            25.261,
+            31.722
+          ],
+          "quote": "Antithesis is a software verification company built around an approach called deterministic simulation testing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            57.77,
+            76.3
+          ],
+          "quote": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            983.393,
+            998.278
+          ],
+          "quote": "And so the need for procedural testing or in antithesis parlance like deterministic simulation testing where you're actually testing like all of the possible next steps is even more important because you need to be able to handle sort of a much wider range of inputs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            998.998,
+            1002.76
+          ],
+          "quote": "Can you go into a little bit more detail about the deterministic simulation testing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1085.746,
+            1092.13
+          ],
+          "quote": "So that is the first sort of ingredient to deterministic simulation testing is a deterministic way to run your software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2132.235,
+            2139.386
+          ],
+          "quote": "So I think where the antithesis style testing, so deterministic simulation testing fits into like a short overall testing picture",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distributed-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式系统 (distributed systems)",
+      "file": "分布式系统",
+      "primary": true,
+      "how_described": "本集说分布式系统因大量非确定性(时序、调度)而特别难测;Antithesis 的红团队就是雇分布式系统专家帮客户找这类系统里的难 bug。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            57.77,
+            76.3
+          ],
+          "quote": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            134.546,
+            144.728
+          ],
+          "quote": "In this case, we named the red team after the idea that what if we hired a bunch of distributed systems experts, people who had spent their whole careers working on building distributed systems and testing them,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            160.88,
+            170.907
+          ],
+          "quote": "So I would say my core goal is to become an expert in antithesis and then help our customers solve and find these very hard bugs in distributed systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            677.415,
+            683.377
+          ],
+          "quote": "But most modern software, especially distributed systems, they have a huge surface of the state space is non-deterministic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1292.723,
+            1294.826
+          ],
+          "quote": "In most distributed systems like Raft, for example,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1733.011,
+            1750.067
+          ],
+          "quote": "And so unlike traditional distributed systems where you have to guess which of these two events occurred in what order, in antithesis, because we control serialization of all execution, we can guarantee that the order you see the events in the log is exactly the order of events in the simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2235.64,
+            2241.124
+          ],
+          "quote": "We make a big deal talking about distributed systems as this kind of thing that you're only doing at scale.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chaos-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "混沌工程 (chaos engineering)",
+      "file": "混沌工程",
+      "primary": true,
+      "how_described": "本集把混沌工程描述为压力测试思路的延伸:由 Netflix 推广,把压力测试搬上生产环境,让系统持续经历坏天气以提升可靠性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            751.408,
+            758.096
+          ],
+          "quote": "Was Netflix's introduction of chaos engineering in some sense like an attempt to try to deal with this unknown?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            760.018,
+            763.061
+          ],
+          "quote": "So chaos engineering and Netflix, what is the other one?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            769.546,
+            772.589
+          ],
+          "quote": "Like Google does a lot of chaos engineering for like Google Cloud, for example.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fuzzing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模糊测试 (fuzzing)",
+      "file": "模糊测试",
+      "primary": true,
+      "how_described": "本集说 Antithesis 把 fuzzing 研究中的覆盖率引导策略应用到 DST:监控代码分支,发现新行为密集的区域就集中模糊测试能量,行为重复就转向别处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            1341.666,
+            1345.868
+          ],
+          "quote": "So there's another sort of adjacent area of research, which is called fuzzing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1346.268,
+            1348.049
+          ],
+          "quote": "And you've probably heard of fuzzing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1348.069,
+            1353.993
+          ],
+          "quote": "And if you haven't heard of fuzzing, I mean, fuzzing basically is, let's say you're writing like a JPEG encoder or an image encoder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1370.802,
+            1373.724
+          ],
+          "quote": "One of the strategies that they use is called coverage-guided fuzzing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1373.764,
+            1380.768
+          ],
+          "quote": "So coverage-guided fuzzing is basically we're going to monitor all of the branches that the code under test is taking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1449.557,
+            1454.642
+          ],
+          "quote": "So we basically apply the same strategies from fuzzing research to the DST.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1683.906,
+            1697.013
+          ],
+          "quote": "So like when when it discovers I'm seeing like a bunch of new behaviors happening, it will automatically focus on that area and then spend a bunch of fuzzing energy to until the rate at which we're seeing new behaviors starts slowing down.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1785.77,
+            1796.438
+          ],
+          "quote": "And whenever it discovers a corruption, it will then narrow down fuzzing energy around like that region, which is another way that we another signal that we have that we found something interesting, basically.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "software-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件测试 (software testing)",
+      "file": "软件测试",
+      "primary": true,
+      "how_described": "本集的主线议题:测试长期被当成没人愿意做的杂务,大多数测试只固化已知行为(回归测试),而最致命的故障藏在没人想到要检查的未知的未知里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.718,
+            7.504
+          ],
+          "quote": "Software testing is widely understood as essential to building reliable systems, and it's one of the hardest things to get right.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            349.219,
+            356.027
+          ],
+          "quote": "And we'll probably talk a lot about testing and approaches to testing today, but I think, like, clearly software testing is something that's always existed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "regression-tests",
+      "type": "concept",
+      "role": "concept",
+      "name": "回归测试 (regression tests)",
+      "file": "回归测试",
+      "primary": true,
+      "how_described": "本集说大多数测试是回归测试:实现功能后写测试把行为固化在验收空间里,测不了未来的未知部分,这也是工程师不爱写测试的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            699.023,
+            708.885
+          ],
+          "quote": "And those ended up being mostly regression tests, but maybe every once in a while we would inject some faults on the way sort of thing so we could try to verify that some error was like handled correctly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stateful",
+      "type": "concept",
+      "role": "concept",
+      "name": "有状态系统 (stateful)",
+      "file": "有状态系统",
+      "primary": true,
+      "how_described": "本集把代码分成纯代码和有状态两类:有状态软件的行为取决于全部输入历史加未来输入,构成巨大空间,是集成测试和仿真测试要应对的难点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            57.77,
+            76.3
+          ],
+          "quote": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            562.75,
+            567.955
+          ],
+          "quote": "So the first variable is that most code basically either is pure or it's somehow stateful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            588.975,
+            591.518
+          ],
+          "quote": "Almost the entire piece of software is highly stateful.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试驱动开发 (test-driven development)",
+      "file": "测试驱动开发",
+      "primary": true,
+      "how_described": "本集说 TDD 可能不适合 AI:AI 会过拟合到具体测试用例上;改为 Antithesis 驱动开发(ADD),目标是「数据库永不损坏」这类通用性质,AI 没法作弊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2296.347,
+            2301.189
+          ],
+          "quote": "So like if you think about AI writing like a normal test, like let's say you're doing test-driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2301.569,
+            2305.051
+          ],
+          "quote": "In test-driven development, you're going to write like an integration test that fails because it",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Antithesis 提供专给智能体用的 CLI 工具,AI skills 仓库让智能体能启动运行、订阅失败属性并立即开始调试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            961.068,
+            971.09
+          ],
+          "quote": "Like if you're in an extreme case, you're basically letting the LLM agent run in some kind of like Linux sandbox and it's just able to essentially do anything it wants on the machine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2541.371,
+            2547.773
+          ],
+          "quote": "So an agent can basically kick off a run in antithesis and then immediately subscribe to a particular failing property that they're interested in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2548.273,
+            2558
+          ],
+          "quote": "And if that failing property occurs, like let's say it happens within the first five minutes of the run, the agent can immediately get that notification and then start debugging without having to wait for the run to complete.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2687.742,
+            2697.444
+          ],
+          "quote": "And by doing this, as we go back to like the sort of TDD thing, like your agent ends up focusing just on building the code that can like exist within that net in a safe way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集的关键判断:AI 生成的代码未必比人差,但人 barely 看过这些代码,责任就转移到了测试和验证上,工程投入应重新平衡到规格说明和验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.155,
+            24.761
+          ],
+          "quote": "Those blind spots are only growing as AI produces more code that no human has closely reviewed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            51.006,
+            57.169
+          ],
+          "quote": "Carl Svera is on the red team at Antithesis, and he also leads much of the company's AI strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            171.227,
+            174.81
+          ],
+          "quote": "I also am taking a lead in a lot of our AI strategies.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            318.091,
+            321.874
+          ],
+          "quote": "So for me, I'm really focused on our relationship to AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            321.974,
+            325.677
+          ],
+          "quote": "So I was the person who wrote the antithesis AI skills repos.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2159.638,
+            2169.923
+          ],
+          "quote": "And obviously, in the age of AI, I think the more testing, the better, basically, like the more constrained you can make the model, the more likely it's going to give you something that is good quality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2276.338,
+            2284.462
+          ],
+          "quote": "I've been doing a lot of work with AI recently where I've been teaching AI how to write workloads that run an antithesis for arbitrary pieces of software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2284.742,
+            2296.127
+          ],
+          "quote": "And by virtue of doing this, I'm also learning about how to use antithesis more as like a tool to give the AI the superpower to ask questions about the future.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2296.347,
+            2301.189
+          ],
+          "quote": "So like if you think about AI writing like a normal test, like let's say you're doing test-driven development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2309.493,
+            2312.775
+          ],
+          "quote": "And then you're gonna like have the AI iterate to make sure that that works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2313.235,
+            2317.337
+          ],
+          "quote": "I actually think this maybe is not the right path for AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2317.658,
+            2320.539
+          ],
+          "quote": "AI tend to like hyperfocus on the goal you give them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2375.285,
+            2386.956
+          ],
+          "quote": "So I can get, if I'm doing AI coding, I get an immediate almost feedback loop to my AI system to know that, okay, well, we, this code doesn't work because it doesn't compile or this code doesn't work because it doesn't pass the unit test.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2566.526,
+            2575.593
+          ],
+          "quote": "And it's not necessarily because by default, or there's some truism that every line of code that AI generates is sub quality to a person's ability to generate it, but it's just that",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2702.497,
+            2715.068
+          ],
+          "quote": "Something that just I was thinking about recently that I'd like to like leave your audience with related to that last point of basically with modern coding, with AI coding, you want to build this like net and you want to build really good specification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2715.268,
+            2723.635
+          ],
+          "quote": "In some ways, like I've been thinking about the reality of coding sort of becoming almost like diffusion, like image diffusion, if you've seen like all the AI generated images.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2723.975,
+            2742.191
+          ],
+          "quote": "At which point we may get to an extreme case of this, like in some potential future, the ability for AI to generate very large volumes of code may be so much that we could actually completely change software engineering from an iterative process to almost like a diffusion process.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "formal-methods",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化方法 (formal methods)",
+      "file": "形式化方法",
+      "primary": false,
+      "how_described": "本集在对比编译时验证(如 Hydro 项目)时提到:形式化方法要为系统建抽象模型再证明其正确性和不变量,有一套不同的权衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 355,
+          "t": [
+            1901.259,
+            1904.164
+          ],
+          "quote": "Maybe you could think of it as like formal methods for testing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2078.8,
+            2087.867
+          ],
+          "quote": "So I still think that having something like antithesis on top is good, but we can talk a little bit more about formal methods if you want, because formal methods has a different set of trade-offs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2088.347,
+            2098.395
+          ],
+          "quote": "With formal methods, you end up modeling, you create like sort of a different version of your same system where it's an environment where you can actually express these kinds of like formal methods.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coverage-guided-fuzzing",
+      "type": "concept",
+      "role": "concept",
+      "name": "覆盖率引导的模糊测试 (coverage-guided fuzzing)",
+      "file": "覆盖率引导的模糊测试",
+      "primary": false,
+      "how_described": "本集解释其原理:监控被测代码走了哪些分支,构建「噪声触发分支序列」的地图,从而不依赖先验知识地了解系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 256,
+          "t": [
+            1370.802,
+            1373.724
+          ],
+          "quote": "One of the strategies that they use is called coverage-guided fuzzing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1373.764,
+            1380.768
+          ],
+          "quote": "So coverage-guided fuzzing is basically we're going to monitor all of the branches that the code under test is taking.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Astro Teller]] · [[David Silver]] · [[X]] · [[Ineffable Intelligence]] · [[Alphabet]] · [[DeepMind]] · [[Waymo]] · [[AlphaGo]] · [[Wing]] · [[AlphaGo Zero]]
 
-<script type="application/json" class="pd-epn">{"Astro Teller":1,"David Silver":1,"X":4,"Ineffable Intelligence":1,"Alphabet":1,"DeepMind":19,"Waymo":21,"AlphaGo":4,"Wing":1,"AlphaGo Zero":1}</script>
+<script type="application/json" class="pd-epn">{"Astro Teller":1,"David Silver":1,"X":4,"Ineffable Intelligence":1,"Alphabet":1,"DeepMind":19,"Waymo":21,"AlphaGo":5,"Wing":1,"AlphaGo Zero":1}</script>
 
 <script>
 (function(){

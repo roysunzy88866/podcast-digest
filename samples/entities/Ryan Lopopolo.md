@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":4,"Codex":90,"OpenAI":207,"智能体":1,"提示词注入":1,"护栏":92,"上下文工程":19,"Symfony":1,"规范":2}</script>
+<script type="application/json" class="pd-epn">{"Guy Fajani":3,"harness 工程":4,"Codex":91,"OpenAI":207,"智能体":1,"提示词注入":1,"护栏":93,"上下文工程":19,"Symfony":1,"规范":2}</script>
 
 <script>
 (function(){

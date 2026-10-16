@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":52,"Stripe Projects":2,"OpenAI":207,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":35,"vibe coding":51}</script>
+<script type="application/json" class="pd-epn">{"Metronome":3,"Stripe":52,"Stripe Projects":2,"OpenAI":207,"Anthropic":206,"Lovable":20,"HubSpot":11,"智能体":1,"编码智能体":35,"vibe coding":52}</script>
 
 <script>
 (function(){

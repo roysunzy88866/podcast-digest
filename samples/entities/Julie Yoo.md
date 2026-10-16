@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"a16z":21,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":34,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"a16z":21,"Kairos":1,"Council Health":1,"Devoted Health":2,"AI":35,"智能体 AI":6,"大型语言模型":6,"电子健康记录":1,"第三方支付体系":1}</script>
 
 <script>
 (function(){

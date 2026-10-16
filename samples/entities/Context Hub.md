@@ -27,7 +27,7 @@ unlisted: true
 
 [[LangChain]] · [[LangSmith]] · [[智能体]] · [[记忆]] · [[评估]] · [[Jake Broekhuizen]] · [[Victor]] · [[可观测性]] · [[Deep Agents]] · [[trace]]
 
-<script type="application/json" class="pd-epn">{"LangChain":15,"LangSmith":7,"智能体":1,"记忆":30,"评估":1,"Jake Broekhuizen":1,"Victor":3,"可观测性":47,"Deep Agents":4,"trace":7}</script>
+<script type="application/json" class="pd-epn">{"LangChain":15,"LangSmith":7,"智能体":1,"记忆":30,"评估":1,"Jake Broekhuizen":1,"Victor":3,"可观测性":48,"Deep Agents":4,"trace":7}</script>
 
 <script>
 (function(){

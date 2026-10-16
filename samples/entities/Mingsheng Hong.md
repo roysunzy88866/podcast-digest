@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":33,"代码审查":26,"CI-CD":17,"不稳定的测试":1,"智能体循环":6,"提示词缓存":4,"上下文修剪":1,"代码行数":3}</script>
+<script type="application/json" class="pd-epn">{"Ironclad":1,"可信吞吐量":1,"token":33,"代码审查":26,"CI-CD":18,"不稳定的测试":1,"智能体循环":6,"提示词缓存":4,"上下文修剪":1,"代码行数":3}</script>
 
 <script>
 (function(){

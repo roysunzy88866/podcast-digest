@@ -168,8 +168,8 @@ AI 拉平知识图谱之后，最先崩塌的是开源协作本身。以前收�
 **换个口味**
 
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同公司:GitHub · 同概念:开源 (open source)、智能体 (agent)</span>
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路]]<span class="pd-rz">同公司:Copilot、GitHub · 同概念:智能体 (agent)</span>
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同公司:Claude、Codex · 同概念:拉取请求 (pull request)、智能体 (agent)</span>
-- [[2026-08-18-lennys-i-tested-grok-bot-grok-46-and-cursor|GrokBot、Origin 与 Grok 4.6 实测]]<span class="pd-rz">同公司:GitHub、Cursor · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

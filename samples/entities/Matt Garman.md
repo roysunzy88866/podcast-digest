@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":24,"Amazon":36,"智能体":1,"GPU":33,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":101,"Firecracker":3}</script>
+<script type="application/json" class="pd-epn">{"Raguraguram":1,"AWS":24,"Amazon":36,"智能体":1,"GPU":33,"Trainium":1,"Graviton":1,"Bedrock":3,"沙箱":103,"Firecracker":3}</script>
 
 <script>
 (function(){

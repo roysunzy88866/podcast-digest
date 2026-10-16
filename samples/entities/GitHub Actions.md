@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub Actions</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub Actions">GI</div><div class="pi"><h1 class="pt">GitHub Actions</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub Actions">GI</div><div class="pi"><h1 class="pt">GitHub Actions</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]]**(06:20起):本集把它说成:智能体工作流的底层执行引擎,AI 会自动把 Markdown 编译成底层的 Actions 工作流(对开发者完全透明不可见)。
+- **[[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]]**(13:00起):本集说智能体工作流可以放进 GitHub Actions runner 或其他 CI 系统里运行
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-08-talks-realtime-multiplayer-automation-and-you|《别只盯着敲代码：GitHub Next 用 Markdown 重塑自动化与协作》]] — 作为概念
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Idan Gazit]] · [[GitHub Next]] · [[Copilot]] · [[ACE]] · [[Dependabot]] · [[markdown]] · [[护栏]] · [[提示词注入]] · [[Cloudflare]] · [[Slack]]
+[[Copilot]] · [[Idan Gazit]] · [[Jose Palafox]] · [[GitHub Next]] · [[GitHub]] · [[ACE]] · [[智能体]] · [[Dependabot]] · [[智能体工作流]] · [[markdown]]
 
-<script type="application/json" class="pd-epn">{"Idan Gazit":1,"GitHub Next":1,"Copilot":13,"ACE":1,"Dependabot":1,"markdown":2,"护栏":92,"提示词注入":1,"Cloudflare":18,"Slack":34}</script>
+<script type="application/json" class="pd-epn">{"Copilot":14,"Idan Gazit":1,"Jose Palafox":1,"GitHub Next":1,"GitHub":36,"ACE":1,"智能体":1,"Dependabot":1,"智能体工作流":1,"markdown":2}</script>
 
 <script>
 (function(){

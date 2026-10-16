@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":52,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":90,"AI 安全":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":52,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":91,"AI 安全":5}</script>
 
 <script>
 (function(){

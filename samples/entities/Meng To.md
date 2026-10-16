@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"Codex":90,"Cursor":87,"obsidian":2,"hey gen":1,"智能体":1,"上下文":34,"护栏":92,"Figma":23,"VS Code":6}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Codex":91,"Cursor":87,"obsidian":2,"hey gen":1,"智能体":1,"上下文":34,"护栏":93,"Figma":23,"VS Code":6}</script>
 
 <script>
 (function(){

@@ -1,0 +1,143 @@
+{
+  "title_zh": "零冷启动:把 AI 应用跑在离用户最近的边缘",
+  "tldr": "Akamai 开发者布道师 Thorsten Hans 讲解如何用 Spin 和 Akamai Functions,把 MCP 服务器和 AI 代理部署到全球边缘节点。",
+  "digest_md": "你写了一个 AI 代理或 MCP 服务器,自己也用得挺顺。但用户如果在另一个大洲,请求要跨洋往返,体验就崩了。这是 Akamai 高级开发者布道师 Thorsten Hans 在这场 20 分钟演讲里要解决的问题:用 WebAssembly 把 AI 应用部署到全球分布的边缘节点,做到零冷启动。\n\n## 传统部署 AI 应用,慢在哪?\n\n传统架构绑定在某个区域的服务器上。离服务器近的用户觉得快,远的用户延迟就高,体验参差不齐 [00:46 Unknown]。\n\n更大的麻烦是冷启动。如果你**用容器或虚拟机,遇到流量突增需要快速扩容时,冷启动可能要几秒甚至几分钟** [01:25 Unknown]。解决办法之一是提前多备机器,但闲置机器既烧钱又不环保。用云厂商的高级托管方案,又往往被专有开发套件锁死,以后想迁移,又贵又麻烦。\n\n## 关键武器:WebAssembly,容器的容器\n\nHans 的方案是服务端 WebAssembly。他打了个比方:WebAssembly 之于容器,就像容器之于虚拟机——体积更小、分发更快、随处可跑 [02:59 Unknown]。\n\n具体到工具链,是两个东西的组合:一个是 CNCF 开源项目 Spin,负责开发,提供命令行工具、运行时和各语言的开发套件,支持 Rust、TypeScript、Python 等所有能编译成 WebAssembly 的语言;另一个是 Akamai Functions,负责运行——一个全球分布的托管平台,号称零冷启动,平均每次请求的冷启动不到半毫秒 [05:10 Unknown]。\n\n部署也简单:不用写 Terraform,一条命令,应用就全球分布了。它还自带键值存储,本地开发时用 SQLite 模拟,部署后自动换成全球分布的存储,不用改配置 [11:53 Unknown]。\n\n## 写 MCP 服务器,只管业务逻辑\n\n演讲里演示了工具 wasmcp。它把 MCP 服务器里那些和业务无关的活——比如用 OAuth2 做用户认证——都做成了现成组件,你只管实现自己的工具、资源和提示词 [07:06 Unknown]。\n\n流程很短:用脚手架生成项目,写好工具定义和一个分发函数,然后编译成 WebAssembly 组件,再组装成完整的 MCP 服务器,本地跑在 localhost 上,用 MCP Inspector 一测就能通。\n\n接着是重头戏:**一条 `spin akamai deploy`,把编译产物上传,自动分发到全球所有服务区域**,每个区域确认能跑、健康检查通过后,给你生成一个公开网址——全程大约 60 秒 [14:17 Unknown]。把这个地址填进任何支持 MCP 的客户端,就能调用里面的工具了。演示里,IDE 里的 AI 识别出用户意图,自动调用记录决策和列出决策两个工具,数据都存在那个内置键值存储里。\n\n## AI 代理也能这么部署\n\n代理的逻辑类似,但不用额外工具,直接拿常用的 Vercel AI SDK 写就行。演示的游戏代理可以抛硬币、掷骰子,背后调用一台带独立 GPU 的 Linode 实例上跑的大语言模型。\n\n这里有个有意思的技术细节:解释型语言(如 JavaScript)编译成 WebAssembly 时,会把解释器、你的代码和所有依赖一起加载,然后拍一张内存快照存下来。结果是,**WebAssembly 版的 JavaScript 应用在冷启动和运行性能上,反而比原生 JavaScript 应用更快** [18:27 Unknown]。\n\n实际效果如何?请求响应头里能看到,用户从 Santa Clara 进入网络,被路由到最近的 LAX 节点,整个流程——收到请求、跑业务逻辑、调用大模型、生成回答、返回用户——大约 820 毫秒 [20:20 Unknown]。\n\n## 为什么值得在意?\n\nHans 总结了三点:可移植,Spin 应用能跑在任何符合 WASI 标准的运行时上,不被单一厂商锁死;全走开放标准,Spin 归 CNCF,WebAssembly 归 ByteCode Alliance;以及快——不只是响应快,上市也快,因为基础设施和非功能性需求都不用自己操心 [21:02 Unknown]。\n\n当然,这是一场厂商演讲,Akamai Functions 是他们的产品,数字都来自演讲者本人。但「用 WebAssembly 做边缘部署」这个思路本身,值得做 AI 应用的人了解。\n\n## 本集带走\n\n- 传统区域绑定的架构让全球用户延迟参差不齐,容器冷启动可能长达数秒到几分钟\n- WebAssembly 体积小、启动快、可移植,Spin + Akamai Functions 把它用于服务端,号称平均冷启动不到半毫秒\n- wasmcp 把 MCP 服务器的认证等非业务功能做成现成组件,开发者只写工具逻辑\n- 一条部署命令,约 60 秒即可把应用分发到全球边缘节点,并自动生成公开地址\n- JavaScript 编译成 WebAssembly 后,因内存快照机制,冷启动反而比原生更快",
+  "quotes": [
+    {
+      "en": "You can think of WebAssembly as containers relate to virtual machines.",
+      "zh": "你可以把 WebAssembly 之于容器，理解为容器之于虚拟机的关系。",
+      "timestamp": "02:59",
+      "speaker": "Thorsten Hans"
+    },
+    {
+      "en": "And on average, we can cold start in less than half a millisecond.",
+      "zh": "平均而言，我们的冷启动时间不到半毫秒。",
+      "timestamp": "05:10",
+      "speaker": "Thorsten Hans"
+    },
+    {
+      "en": "That every WebAssembly application written in JavaScript is faster than a native JavaScript application when it comes to cold starts and runtime performance.",
+      "zh": "每一个用 JavaScript 编写的 WebAssembly 应用在冷启动和运行时性能方面都比原生 JavaScript 应用更快。",
+      "timestamp": "18:27",
+      "speaker": "Thorsten Hans"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "02:59",
+      "speaker": "Unknown",
+      "en": "You can think of WebAssembly as containers relate to virtual machines.",
+      "zh": "你可以把 WebAssembly 之于容器，理解为容器之于虚拟机的关系。"
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Unknown",
+      "en": "So every application that you deploy to Akamai Functions is cold started per request that hits your endpoint.",
+      "zh": "因此，你部署到 Akamai Functions 的每一个应用程序，都是针对每一个命中你端点的请求进行冷启动的。"
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "Unknown",
+      "en": "And on average, we can cold start in less than half a millisecond.",
+      "zh": "平均而言，我们的冷启动时间不到半毫秒。"
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Unknown",
+      "en": "Your developers deploy the workload, no knobs to turn, no terraform to write, just a simple one-liner, and your app is globally distributed at no extra cost.",
+      "zh": "你的开发者只需部署工作负载，无需调任何旋钮，无需写 terraform，只需简单的一行命令，你的应用就以零额外成本实现了全球分布式部署。"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Unknown",
+      "en": "Security is observed by WebAssembly's sandbox, so there's no way a workload could interact with external resources without us as developers explicitly granting those permissions to our workloads.",
+      "zh": "安全性由 WebAssembly 的沙箱保障，因此如果没有我们开发者明确向工作负载授予相应权限，工作负载就不可能与外部资源交互。"
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Unknown",
+      "en": "Depending on your distributable unit, right, so if you even either choose containers or VMs, you may experience a cold start delay that might range from several seconds up to multiple minutes, especially when you have to scale dramatically fast to meet unexpected user demand.",
+      "zh": "取决于你的可分发单元，对吧，所以如果你选择容器或 VM，你可能会遇到冷启动延迟，范围从几秒到几分钟不等，尤其是当你必须极速扩容以满足意外的用户需求时。"
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Unknown",
+      "en": "Once you figured out about those constraints, moving away or migrating your workloads, your agents, to another hyperscaler, to another kind of infrastructure, it's often rather complex and extremely costly.",
+      "zh": "一旦你弄清楚了那些约束，把你的工作负载、你的智能体迁移到另一个超大规模云厂商、另一种基础设施上，往往相当复杂且成本极高。"
+    },
+    {
+      "timestamp": "06:35",
+      "speaker": "Unknown",
+      "en": "To build an MCP, there is a smarter way of doing that.",
+      "zh": "要构建一个 MCP，有一种更聪明的做法。"
+    },
+    {
+      "timestamp": "12:19",
+      "speaker": "Unknown",
+      "en": "From here it's actually the same story right I have to",
+      "zh": "从这里开始其实是同样的流程，对吧，我必须"
+    },
+    {
+      "timestamp": "11:53",
+      "speaker": "Unknown",
+      "en": "So on my local machine spin recognizes hey Torsten wants to use the key value store so it automatically creates a key value store using SQLite on my machine for development time purposes and on Akamai functions it's leveraging the globally distributed key value store without me having to configure anything.",
+      "zh": "在我本地机器上，spin 识别出 Torsten 想使用键值存储，所以出于开发目的它自动在我的机器上用 SQLite 创建了一个键值存储，而在 Akamai Functions 上它利用的是全球分布的键值存储，而我不需要配置任何东西。"
+    },
+    {
+      "timestamp": "14:12",
+      "speaker": "Unknown",
+      "en": "So we get that URL, so we are globally distributed in roughly 60 seconds.",
+      "zh": "所以我们拿到了那个 URL，所以我们大约在 60 秒内就实现了全球分布。"
+    },
+    {
+      "timestamp": "18:27",
+      "speaker": "Unknown",
+      "en": "That every WebAssembly application written in JavaScript is faster than a native JavaScript application when it comes to cold starts and runtime performance.",
+      "zh": "每一个用 JavaScript 编写的 WebAssembly 应用在冷启动和运行时性能方面都比原生 JavaScript 应用更快。"
+    },
+    {
+      "timestamp": "19:22",
+      "speaker": "Unknown",
+      "en": "And this tells me, and you right now as well, that it took 33, 34 milliseconds to receive the request, to run through the business logic, to reach out to the large language model, to generate a response, and to go all the way back to the user.",
+      "zh": "这告诉我，现在也告诉了你，接收请求、运行业务逻辑、联系大语言模型、生成响应，再一路返回给用户，花了 33、34 毫秒。"
+    },
+    {
+      "timestamp": "20:10",
+      "speaker": "Unknown",
+      "en": "So roughly 820 milliseconds is what we could achieve with a full loop through the LLM by taking our agent and deploying it to Akamai functions.",
+      "zh": "所以大约 820 毫秒，就是我们通过让智能体走完整一圈 LLM 并把它部署到 Akamai Functions 所能达到的效果。"
+    },
+    {
+      "timestamp": "21:12",
+      "speaker": "Unknown",
+      "en": "Everything is based on open standards, so Spinnis, CNCF, WASI, WebAssembly are governed by the ByteCode Alliance, but ultimately you gain speed, right?",
+      "zh": "一切都基于开放标准，Spin 是 CNCF 的，WASI、WebAssembly 由 ByteCode Alliance 管理，但最终你获得的是速度，对吧？"
+    },
+    {
+      "timestamp": "21:21",
+      "speaker": "Unknown",
+      "en": "You have fast response times, even the time to market for your developers to build MCPs and to build agent goes down because you don't have to roll the infrastructure, you don't have to implement",
+      "zh": "你有快速的响应时间，甚至你的开发者构建 MCP 和构建智能体的上市时间也下降了，因为你不必搭建基础设施，你不必实现"
+    },
+    {
+      "timestamp": "21:50",
+      "speaker": "Unknown",
+      "en": "But developer experience is our highest metric when we started spin and why we continue in that direction.",
+      "zh": "但开发者体验是我们在启动 Spin 时最高的衡量指标，也是我们继续朝这个方向前进的原因。"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Unknown",
+      "en": "Akamai Functions is the first truly serverless computing platform that is globally distributed and has zero cold start at all.",
+      "zh": "Akamai Functions 是第一个真正意义上的无服务器计算平台，它是全球分布式的，并且完全没有冷启动。"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Unknown",
+      "en": "with proprietary SDKs or deployable units or have their own way on how you should treat them in order to make them work in a production-grade environment.",
+      "zh": "专有的 SDK 或可部署单元，或者有自己的一套方式要求你如何对待它们才能让它们在生产级环境中工作。"
+    }
+  ],
+  "voice_script": "你写了一个 AI 代理,或者一个 MCP 服务器,自己也用得挺顺。但突然发现,用户在另一个大洲,每次请求都要跨洋跑一个来回,体验一下就崩了。今天这一期,讲的就是怎么解决这个问题。\n\n主讲人是 Thorsten Hans,Akamai 的高级开发者布道师。Akamai 是做全球内容分发起家的,在全球有一堆边缘节点——也就是离用户特别近的小型服务器。在这场二十分钟的演讲里,他给出了一套方案:用 WebAssembly,把 AI 应用部署到这些边缘节点上,做到零冷启动。\n\n先把问题拆开看。传统架构是把应用绑在某个区域的服务器上,离得近的用户觉得快,离得远的延迟就高,全球用户的体验参差不齐。那为什么不多部署几个区域?这就撞上第二个麻烦:冷启动。如果你的应用跑在容器或者虚拟机里,流量突然涨起来要快速扩容,新机器从启动到能干活,可能要几秒甚至几分钟。提前多备几台机器行不行?也行,但闲置机器既烧钱又不环保。用云厂商的高级托管方案呢?往往会被专有的开发套件锁死,以后想迁移,又贵又麻烦。\n\n那出路在哪?Hans 押注的是服务端 WebAssembly。这东西你可能听过,但一开始是给浏览器用的。打个比方,WebAssembly 之于容器,就像容器之于虚拟机——再往下一层,体积更小、分发更快、随处可跑。虚拟机要带整个操作系统,容器只需要带应用和依赖,而 WebAssembly 更轻,小到可以毫秒级启动。\n\n具体落地是两个工具的组合。一个是 CNCF 的开源项目 Spin,负责开发这一端,提供命令行工具、运行时,还有各种语言的开发套件,Rust、TypeScript、Python,凡是能编译成 WebAssembly 的语言都支持。另一个是 Akamai Functions,负责运行,是一个全球分布的托管平台,号称零冷启动——用演讲里的话说,平均而言,冷启动时间不到半毫秒。部署也简单,不用写 Terraform 那套基础设施代码,一条命令,应用就全球分布了。它还自带键值存储,本地开发时用 SQLite 模拟,部署之后自动换成全球分布的真存储,配置一行都不用改。\n\n光有平台还不够,AI 应用到底怎么写?演讲里演示了一个叫 wasmcp 的工具。写 MCP 服务器的朋友都知道,里面一堆活和业务毫无关系,比如用 OAuth2 做用户认证。wasmcp 把这些非业务的活都做成了现成组件,你只管实现自己的工具、资源和提示词。流程很短:用脚手架生成项目,写好工具定义和一个分发函数,编译成 WebAssembly 组件,组装成完整的 MCP 服务器,本地跑起来,用 MCP Inspector 一测就能通。\n\n然后是重头戏:部署。一条命令,把编译产物上传,自动分发到全球所有服务区域。每个区域确认能跑、健康检查通过之后,给你生成一个公开网址——全程大约六十秒。把这个地址填进任何支持 MCP 的客户端,就能调用了。演示里,IDE 里的 AI 识别出用户意图,自动调用了记录决策和列出决策两个工具,数据就存在那个内置键值存储里。\n\nAI 代理也能这么部署吗?能,而且更简单,连额外工具都不用,直接拿常用的 Vercel AI SDK 写就行。演示的是一个游戏代理,会抛硬币、掷骰子,背后调用一台带独立 GPU 的 Linode 实例上跑的大语言模型。\n\n这里有个挺有意思的技术细节。JavaScript 这类解释型语言编译成 WebAssembly 的时候,会把解释器、你的代码和所有依赖一起加载,然后拍一张内存快照存下来。下次启动直接恢复快照,不用重新初始化。结果就是,WebAssembly 版的 JavaScript 应用,冷启动和运行性能反而比原生 JavaScript 更快。听着反直觉,但原理就是这么回事。\n\n实际效果如何?看请求响应头就能验证:用户从 Santa Clara 进入网络,被路由到最近的 LAX 节点,整个流程——收到请求、跑业务逻辑、调大模型、生成回答、返回用户——加起来大约八百二十毫秒。跨半个美国,还带着一次大模型调用。\n\n当然,得提醒一句,这是一场厂商演讲,Akamai Functions 就是他们的产品,那些数字都来自演讲者本人,听的时候留个心。但抛开厂商立场,Hans 总结的三点还是值得琢磨:第一,可移植,Spin 应用能跑在任何符合 WASI 标准的运行时上,不被单一厂商锁死;第二,全走开放标准,Spin 归 CNCF,WebAssembly 归 ByteCode Alliance,都不是某家公司说了算;第三,快——不只是响应快,上市也快,因为基础设施和那些非功能性需求都不用你自己操心了。\n\n所以,如果你的 AI 应用要面向全球用户,又不想被容器冷启动和厂商锁定折腾,WebAssembly 这条路,值得认真看一眼。就像演讲里那句比方说的:WebAssembly 之于容器,就是容器之于虚拟机。"
+}

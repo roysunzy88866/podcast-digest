@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AMP":2,"智能体":1,"pull request":7,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":101,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"AMP":2,"智能体":1,"pull request":7,"Orb":2,"智能体工程":3,"泄露的凭证":5,"认知负荷":2,"云端智能体":2,"沙箱":103,"Cursor":87}</script>
 
 <script>
 (function(){

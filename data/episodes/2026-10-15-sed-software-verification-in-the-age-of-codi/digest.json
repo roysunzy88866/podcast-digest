@@ -1,0 +1,197 @@
+{
+  "title_zh": "代码越写越多，谁来抓那些没人想到的漏洞？",
+  "tldr": "Antithesis 红队工程师 Carl Svera 讲解确定性仿真测试：如何让平台在 15 分钟内找出潜伏 10 年的并发漏洞。",
+  "digest_md": "AI 正在大量生成代码，而人类对其中很多代码只是草草一瞥，甚至根本没看过。这意味着测试和验证的责任被前所未有地放大了。Antithesis 是一家做软件验证的公司，本期 Software Engineering Daily 节目里，主持人 Sean Falconer 和该公司红队成员 Carl Svera 聊了聊：为什么测试一直是被低估的脏活，以及一种叫确定性仿真测试的方法如何找到那些没人想到要去查的漏洞。\n\n## 为什么最好的工程师从来不做测试？\n\nCarl 说，大多数测试只测回归——你写完了某个功能，再写个测试把这个行为固化下来，确认它符合预期。但最致命的故障往往藏在没人想到要检查的边角情况里，也就是未知的未知[08:34 Carl]。\n\n他之前在 Singlestore（前身叫 MemSQL）做了 10 年数据库，团队内部有个测试集群叫 Cyduck，支持程序化测试：写一个测试，参数化输入空间后自动扩展成很多个测试。当测试变成一个工程谜题，工程师反而爱做。反过来，只做回归测试，就成了一件没人愿意投入的杂活。\n\n## 有状态的系统，为什么特别难测？\n\nCarl 把代码分成两类：纯代码和无状态代码，单元测试就够了。但真正的大型软件几乎全是有状态的——它的行为取决于从启动到现在的全部输入历史，加上未来的输入，是一个巨大的空间。\n\n测试这类系统，本质上是问「如果 A 发生，然后 B、C 这些坏事接着发生会怎样」。人写集成测试很容易，因为可以硬性规定事件顺序；但要测试一个你不知道存在的问题，就得在每一步枚举所有可能的下一步，组合成指数爆炸的树。分布式系统还叠加了大量非确定性——随机的时序、随机的调度。所以大多数人退而求其次：测已知路径，或者做压力测试，随机轰炸一大堆时间线然后看聚合性质。\n\nNetflix 推广的混沌工程就是这个思路的延伸：把压力测试搬上生产环境，让系统常年处于坏天气中，逼着可靠性提升 [13:06 Carl]。\n\n## Antithesis 的核心招数：让时间线可以分叉\n\n确定性仿真测试（DST）有两个要素。第一是确定性：你把软件部署到 Antithesis 平台（可以把它想象成一个 EC2 服务器那样的部署目标），软件看到的所有随机数、时间、事件顺序，都由平台注入，因此可以被精确复现。\n\n第二是仿真：因为一切可控，**平台可以回到运行历史的任意时刻，改变随机性，分叉出一条新的时间线**，像蝴蝶效应一样探索不同的演化路径 [20:19 Carl]。比如一个三节点的分布式系统，等一个节点崩溃后，从那个点分叉出大量时间线，试验节点恰好在新选举中途恢复会发生什么。\n\n怎么决定往哪儿探索？借鉴了模糊测试里的覆盖率引导：监控代码走了哪些分支，发现新行为密集的区域就集中火力，行为开始重复就换地方。一个副产品是它特别擅长找线程竞争类的漏洞。\n\n## 一个潜伏 10 年的漏洞，15 分钟找到\n\n今年早些时候，SQLite 曝出一个存在了 10 年的并发漏洞：一个线程读了共享内存后休眠，另一个线程改了数据，它醒来后没有重新校验。窗口极窄，据说只有 Tailscale 这一个客户真正踩到过 [26:07 Carl]。\n\nCarl 把打过补丁前的最后版本放进 Antithesis，只跑了一个循环执行插入和日志检查点的简单负载，**15 分钟后，模糊搜索就找到了这个漏洞**，并精确到触发它的具体操作顺序。后来他又写了一个等概率执行所有 SQLite 操作的通用负载，还是 15 分钟就找到了。\n\n调试工具也很讲究：因为平台控制所有执行的串行化，日志里事件的顺序就是真实顺序，不用猜谁先谁后。你还可以随时 SSH 进仿真中的系统，回溯时间，用二分法定位数据库是在哪一步被污染的；因果分析功能则让平台自动替你做这件事 [30:56 Carl]。\n\n## AI 写代码之后，测试反而更不能省\n\n主持人提出一个关键判断：AI 生成的代码未必比人差，但人 barely 看过这些代码，责任就转移到了测试和验证上。\n\nCarl 的应对思路是把测试驱动开发改成Antithesis 驱动开发：普通测试驱动会让 AI 过拟合到具体测试用例上，而**仿真测试的目标是数据库永不损坏这类通用性质，AI 没法作弊**，只能写出最通用、最正确的实现 [39:03 Carl]。\n\n速度上也不亏：默认 48 路并行，加上对 sleep 这类等待做时间快进，通常至少 48 倍加速，工作流引擎类代码甚至可达 1000 倍——15 分钟的运行可以覆盖数小时的仿真时间。团队的做法是像波纹一样扩散置信度：单个代码提交跑 15 分钟快速反馈，主干分支则整夜跑 12 小时压力测试，相当于模拟 3 个月的时间 [41:47 Carl]。\n\nCarl 甚至设想了一个更远的未来：写代码像图像扩散模型生成图片一样——改一改规格说明，整个代码库重新扩散生成一遍，只要通过覆盖巨大状态空间的验证之网，就直接发布全新版本。到那时，工程师的核心工作会变成两件事：写出极其精确的规格，以及保证验证覆盖所有可能的路径。\n\n## 本集带走\n\n- 最危险的漏洞藏在没人想到要测的边角情况里，而绝大多数测试只固化已知行为，测不了未知的未知。\n- 确定性仿真测试的原理：让软件的一切随机性可控可复现，然后从历史任意时刻分叉时间线，像广度优先搜索一样探索整个状态空间。\n- 混沌工程是把压力测试搬上生产；仿真测试是在受控环境里做同样的事，而且能精确复现和回溯。\n- AI 大量生成代码、人不再逐行审查之后，工程投入应当从写代码重新平衡到规格说明和验证上。\n- 用仿真测试驱动 AI 编程，可以避免 AI 针对具体测试用例过拟合，逼它写出通用而正确的实现。",
+  "quotes": [
+    {
+      "en": "the more we made testing something that you can do procedurally, so like the more testing could feel like procedural generation, the more likely engineers would like to use it.",
+      "zh": "我们越是把测试变成一件可以按程序化流程来做的事情，也就是说，测试越像程序化生成，工程师就越愿意使用它。",
+      "timestamp": "07:10",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "But the best kind of testing you can do is the one that can reach the space of like sort of future possibility.",
+      "zh": "但你能做的最好的测试，是那种能触及未来可能性空间的测试。",
+      "timestamp": "12:23",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "And the way I generally frame this is you just need to make sure that the mock is worse than what can happen.",
+      "zh": "而我一般的表述方式是，你只需要确保 mock 比可能发生的情况更糟糕。",
+      "timestamp": "14:44",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "I don't think it changes it. I think that it opens up the state space that you need to test quite a bit.",
+      "zh": "我不认为它改变了它。我认为它在相当大的程度上扩展了你需要测试的状态空间。",
+      "timestamp": "15:37",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "And so by being able to branch the simulation and trying different things out in different orders from any point, we have the ability to sort of breadth first search the state space of your software.",
+      "zh": "通过能够对模拟进行分支、从任意一点以不同顺序尝试不同的事情，我们就有能力对你的软件的状态空间进行某种广度优先搜索。",
+      "timestamp": "21:56",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "And 15 minutes later, the fuzzer found the exact bug, narrowed it down to the exact order of operations that had to occur.",
+      "zh": "15 分钟后，模糊测试器找到了那个确切的 bug，并把它缩小到了必须发生的精确操作顺序。",
+      "timestamp": "26:48",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "And with antithesis-driven development, I suppose, you end up with this interesting thing where you can't possibly overfit because antithesis is designed to find counter examples to whatever you give it.",
+      "zh": "也就是 Antithesis 驱动开发，我猜，你最终会遇到一个有趣的情况：你不可能过拟合，因为 Antithesis 的设计目的就是为你给它的任何东西找反例。",
+      "timestamp": "38:51",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "You're trying to solve like very general purpose properties, like the database never goes corrupt. And it's much harder to like overfit to those properties.",
+      "zh": "你要解决的是非常通用的性质，比如数据库永远不损坏。而对这这些性质过拟合要难得多。",
+      "timestamp": "39:08",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "So yesterday, the code you shipped has been run overnight on a 12 hour stress test, which simulated, you know, three months worth of time in antithesis, at which point you're very confident that there isn't some kind of like big catastrophic bug.",
+      "zh": "所以昨天，你发布的代码已经连夜跑了一个 12 小时的压力测试，在 antithesis 里模拟了相当于三个月的时间，到那时你就非常有信心不存在某种大的灾难性 bug。",
+      "timestamp": "41:47",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "I see the role of engineering in the future being one of being very, very precise in specifications, so being able to prescribe exactly what you want in higher precision than we currently do.",
+      "zh": "我认为工程在未来扮演的角色是，在规格说明上做到非常非常精确，能够以比我们现在更高的精度精确规定你想要什么。",
+      "timestamp": "43:53",
+      "speaker": "Carl Svera"
+    },
+    {
+      "en": "the ability for AI to generate very large volumes of code may be so much that we could actually completely change software engineering from an iterative process to almost like a diffusion process.",
+      "zh": "AI 生成非常大量代码的能力可能如此之强，以至于我们实际上可以把软件工程从一个迭代过程完全改变成一个几乎像扩散的过程。",
+      "timestamp": "45:29",
+      "speaker": "Carl Svera"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "07:07",
+      "speaker": "Carl Svera",
+      "en": "the more we made testing something that you can do procedurally, so like the more testing could feel like procedural generation, the more likely engineers would like to use it.",
+      "zh": "我们越是把测试变成一件可以按程序化流程来做的事情，也就是说，测试越像程序化生成，工程师就越愿意使用它。"
+    },
+    {
+      "timestamp": "08:06",
+      "speaker": "Carl Svera",
+      "en": "one of the reasons that engineers maybe don't like tests as much is because the tests tend to just usually test for regression.",
+      "zh": "工程师可能不太喜欢测试的原因之一是，测试往往只是用来测试回归。"
+    },
+    {
+      "timestamp": "08:27",
+      "speaker": "Carl Svera",
+      "en": "And rarely, it's actually really hard to write tests that test for the unknown, unknown part of the space, right? But that's sort of the most fun test.",
+      "zh": "而很少有人能写出针对未知、未知部分的测试，这真的很难，对吧？但那才是最有意思的测试。"
+    },
+    {
+      "timestamp": "12:23",
+      "speaker": "Carl Svera",
+      "en": "But the best kind of testing you can do is the one that can reach the space of like sort of future possibility.",
+      "zh": "但你能做的最好的测试，是那种能触及未来可能性空间的测试。"
+    },
+    {
+      "timestamp": "14:44",
+      "speaker": "Carl Svera",
+      "en": "And the way I generally frame this is you just need to make sure that the mock is worse than what can happen.",
+      "zh": "而我一般的表述方式是，你只需要确保 mock 比可能发生的情况更糟糕。"
+    },
+    {
+      "timestamp": "15:08",
+      "speaker": "Carl Svera",
+      "en": "And so that's one way to balance that equation.",
+      "zh": "这是平衡这个等式的一种方式。"
+    },
+    {
+      "timestamp": "15:37",
+      "speaker": "Carl Svera",
+      "en": "I don't think it changes it. I think that it opens up the state space that you need to test quite a bit.",
+      "zh": "我不认为它改变了它。我认为它在相当大的程度上扩展了你需要测试的状态空间。"
+    },
+    {
+      "timestamp": "21:56",
+      "speaker": "Carl Svera",
+      "en": "And so by being able to branch the simulation and trying different things out in different orders from any point, we have the ability to sort of breadth first search the state space of your software.",
+      "zh": "通过能够对模拟进行分支、从任意一点以不同顺序尝试不同的事情，我们就有能力对你的软件的状态空间进行某种广度优先搜索。"
+    },
+    {
+      "timestamp": "25:11",
+      "speaker": "Carl Svera",
+      "en": "I don't know if you heard about the SQLite wall reset bug that happened earlier this year?",
+      "zh": "我不知道你有没有听说今年早些时候发生的 SQLite WAL 重置 bug？"
+    },
+    {
+      "timestamp": "26:48",
+      "speaker": "Carl Svera",
+      "en": "And 15 minutes later, the fuzzer found the exact bug, narrowed it down to the exact order of operations that had to occur.",
+      "zh": "15 分钟后，模糊测试器找到了那个确切的 bug，并把它缩小到了必须发生的精确操作顺序。"
+    },
+    {
+      "timestamp": "27:57",
+      "speaker": "Carl Svera",
+      "en": "So the nice thing about antithesis is that like its ability to find these spaces that blow up the behavior space.",
+      "zh": "所以 Antithesis 的好处在于，它有能力找到那些让行为空间爆炸的区域。"
+    },
+    {
+      "timestamp": "38:51",
+      "speaker": "Carl Svera",
+      "en": "And with antithesis-driven development, I suppose, you end up with this interesting thing where you can't possibly overfit because antithesis is designed to find counter examples to whatever you give it.",
+      "zh": "也就是 Antithesis 驱动开发，我猜，你最终会遇到一个有趣的情况：你不可能过拟合，因为 Antithesis 的设计目的就是为你给它的任何东西找反例。"
+    },
+    {
+      "timestamp": "39:08",
+      "speaker": "Carl Svera",
+      "en": "You're trying to solve like very general purpose properties, like the database never goes corrupt. And it's much harder to like overfit to those properties.",
+      "zh": "你要解决的是非常通用的性质，比如数据库永远不损坏。而对这这些性质过拟合要难得多。"
+    },
+    {
+      "timestamp": "41:22",
+      "speaker": "Carl Svera",
+      "en": "So because of that, 15 minute runs give you like actually pretty high confidence that you haven't broken something obvious.",
+      "zh": "正因为如此，15 分钟的运行给了你实际上相当高的信心，确认你没有破坏某个明显的东西。"
+    },
+    {
+      "timestamp": "41:47",
+      "speaker": "Carl Svera",
+      "en": "So yesterday, the code you shipped has been run overnight on a 12 hour stress test, which simulated, you know, three months worth of time in antithesis, at which point you're very confident that there isn't some kind of like big catastrophic bug.",
+      "zh": "所以昨天，你发布的代码已经连夜跑了一个 12 小时的压力测试，在 antithesis 里模拟了相当于三个月的时间，到那时你就非常有信心不存在某种大的灾难性 bug。"
+    },
+    {
+      "timestamp": "43:53",
+      "speaker": "Carl Svera",
+      "en": "I see the role of engineering in the future being one of being very, very precise in specifications, so being able to prescribe exactly what you want in higher precision than we currently do.",
+      "zh": "我认为工程在未来扮演的角色是，在规格说明上做到非常非常精确，能够以比我们现在更高的精度精确规定你想要什么。"
+    },
+    {
+      "timestamp": "44:04",
+      "speaker": "Carl Svera",
+      "en": "I don't think markdown documents necessarily cut it for the level of precision that we need.",
+      "zh": "我不认为 markdown 文档 necessarily 能达到我们所需的那种精度水平。"
+    },
+    {
+      "timestamp": "44:18",
+      "speaker": "Carl Svera",
+      "en": "You want your verification to be a net of saying, for all possible paths, do they all match my specification, right?",
+      "zh": "你想让你的验证成为一张网，它在说：对于所有可能的路径，它们是否都符合我的规格说明，对吧？"
+    },
+    {
+      "timestamp": "45:23",
+      "speaker": "Carl Svera",
+      "en": "the ability for AI to generate very large volumes of code may be so much that we could actually completely change software engineering from an iterative process to almost like a diffusion process.",
+      "zh": "AI 生成非常大量代码的能力可能如此之强，以至于我们实际上可以把软件工程从一个迭代过程完全改变成一个几乎像扩散的过程。"
+    },
+    {
+      "timestamp": "45:42",
+      "speaker": "Carl Svera",
+      "en": "Where you change the specification and you rediffuse the entire code base.",
+      "zh": "在那里你改变规格说明，然后重新扩散整个代码库。"
+    }
+  ],
+  "voice_script": "今天要讲的是一期关于软件测试的节目，但先别急着划走，因为这事儿跟你有关系——哪怕你不写代码。\n\n先交代一下背景。这期节目来自 Software Engineering Daily，主持人是 Sean Falconer，嘉宾叫 Carl Svera，是 Antithesis 这家公司做软件验证的红队工程师。Antithesis 是一家专门帮别人找软件漏洞的公司，Carl 呢，之前在数据库公司 Singlestore 做了十年数据库，那家公司前身叫 MemSQL。这一期聊的核心问题其实一句话就能说明白：软件里的漏洞，尤其是那些最致命的，往往藏在没人想到要去查的地方——那有没有办法，系统性地把这种漏洞揪出来？\n\n为什么这个问题现在特别值得聊？因为 AI 正在大量生成代码，而人类对其中很多代码只是草草一瞥，甚至根本没看过。你想想，没人认真看过的代码在跑，那测试和验证的责任就被前所未有地放大了。\n\n好，背景交代完了，咱们顺着 Carl 的思路往下走。他说大多数工程师平时做的测试，其实叫回归测试——就是你写完一个功能，再写个测试把这个行为固化下来，确认它符合预期。听着挺负责任，对吧？但问题来了：这种测试只能验证你已经知道的行为，而最致命的故障往往藏在没人想到要检查的边角情况里。用他的话说，这叫未知的未知。\n\n那怎么让工程师愿意做更深度的测试？Carl 之前那个数据库团队有个测试集群叫 Cyduck，支持程序化测试——你写一个测试，把输入空间参数化之后，它能自动扩展成很多很多个测试。这里面有个挺有意思的反差：当测试变成一个工程谜题，工程师反而爱做；可如果只是天天做回归测试，那就成了一件没人愿意投入的杂活。这也是一个测试哲学：测试越像程序化生成，工程师就越愿意用它。\n\n接着往下推一层。Carl 把代码分成两类：纯代码、无状态的代码，单元测试就够了。但你真正在用的大型软件，几乎全是有状态的。什么叫有状态？就是说这个系统现在的行为，取决于它从启动到现在的全部输入历史，再加上未来会发生什么——这是一个巨大的空间。\n\n测试这类系统，本质上是在问：如果 A 发生，然后 B、C 这些坏事接着发生，会怎样？人写集成测试容易，因为可以硬性规定事件顺序。可你面对的是一个你不知道存在的问题啊——要找到它，你就得在每一步枚举所有可能的下一步，组合起来是一棵指数爆炸的树。分布式系统还要再叠加一大堆非确定性：随机的时序、随机的调度。所以大多数人只能退而求其次：要么测已知路径，要么做压力测试，随机轰炸一大堆时间线，看聚合结果。Netflix 推广的混沌工程，就是这条路的延伸——把压力测试搬上生产环境，让系统常年泡在坏天气里，逼着可靠性往上走。\n\n那有没有更聪明的办法？这就引出 Antithesis 的核心招数，叫确定性仿真测试。它有两个要素。\n\n第一个是确定性。你把软件部署到 Antithesis 平台上，可以把它想象成一个类似 EC2 服务器那样的部署目标。关键在于：软件看到的所有随机数、时间、事件顺序，全都是平台注入的。既然是注入的，就都能被精确复现。\n\n第二个要素，也是真正厉害的地方，叫仿真。因为一切都可控，平台可以回到运行历史的任意一个时刻，改一改随机性，分叉出一条全新的时间线。有点像蝴蝶效应：同样一段历史，换个细节，就会演化出完全不同的路径。举个例子，一个三节点的分布式系统，等一个节点崩溃之后，从这个点分叉出大量时间线，去试如果节点恰好在选举进行到一半的时候恢复，会发生什么。\n\n那这么多时间线，往哪儿探索呢？答案是借鉴模糊测试里的覆盖率引导：监控代码都走了哪些分支，哪个区域新行为密集就集中火力，行为开始重复了就换地方。还有一个副产品——这方法特别擅长抓线程竞争类的漏洞。\n\n光说原理有点抽象，来听一个真实的例子。今年早些时候，SQLite 曝出一个存在了十年的并发漏洞：一个线程读了共享内存之后休眠，另一个线程趁它睡着改了数据，等它醒来却没有重新校验。触发窗口极窄，据说全世界只有 Tailscale 这一个客户真正踩到过。\n\n然后是见证奇迹的时刻。Carl 把打过补丁之前的最后版本放进 Antithesis，只跑了一个特别简单的负载——循环执行插入和日志检查点。15 分钟后，模糊搜索就找到了这个漏洞，而且精确到了必须发生的那一串操作顺序。后来他又换了一个等概率执行所有 SQLite 操作的通用负载，还是 15 分钟就找到了。\n\n调试起来也很讲究。因为平台控制着所有执行的串行化，日志里事件的顺序就是真实顺序，不用去猜谁先谁后。你还可以随时 SSH 进仿真中的系统，回溯时间，用二分法定位数据库到底是在哪一步被污染的。嫌麻烦？平台还有因果分析功能，自动替你干这活。\n\n这时候主持人抛出一个关键的判断，也是这期节目跟当下最相关的地方。他的意思是：AI 生成的代码未必比人写得差，但问题是人几乎没看过这些代码。责任就转移了——转移到测试和验证上。\n\nCarl 的应对思路特别妙：把测试驱动开发改成 Antithesis 驱动开发。为什么？普通的测试驱动开发，AI 会过拟合到你写的具体测试用例上——测试怎么写，它就怎么糊弄过去，等于作弊。而仿真测试的目标是\"数据库永不损坏\"这类通用性质，AI 没法针对通用性质作弊，只能写出最通用、最正确的实现。\n\n速度上也一点不亏。平台默认 48 路并行，再加上对 sleep 这类等待做时间快进，通常至少有 48 倍加速，工作引擎类的代码甚至能到 1000 倍——15 分钟的运行，可以覆盖好几个小时的仿真时间。团队的实际做法是像波纹一样扩散置信度：每次代码提交跑 15 分钟快速反馈，主干分支整夜跑 12 小时压力测试，相当于模拟了 3 个月的时间。\n\nCarl 还设想过一个更远的未来：写代码就像图像扩散模型生成图片——改一改规格说明，整个代码库重新扩散生成一遍，只要能通过那张覆盖巨大状态空间的验证之网，就直接发布全新版本。到那时候，工程师的核心工作就只剩两件事：写出极其精确的规格，以及保证验证覆盖所有可能的路径。\n\n所以回头看，AI 并没有改变测试的本质。用 Carl 的说法，它是在相当大的程度上扩展了你需要测试的状态空间。但正因为有了像分支时间线这样的能力——从任意一点，以不同顺序尝试不同的事情——我们才第一次可以对整个软件状态空间做某种广度优先搜索。\n\n最后留一句值得记住的话：你能做的最好的测试，是那种能触及未来可能性空间的测试。"
+}

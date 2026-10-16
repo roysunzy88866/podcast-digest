@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OTEL</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OTEL">OT</div><div class="pi"><h1 class="pt">OTEL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OTEL">OT</div><div class="pi"><h1 class="pt">OTEL</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]]**(05:52起):本集称 OpenInference 符合 OTEL 规范，是把 GenAI 数据规范化的开放标准基础，可发往 Grafana 等任何后端。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(47:25起):本集提到有了 OTEL 这个厂商中立的开放遥测标准，可观测性的落地和讨论变得容易多了。
+- **[[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]]**(17:58起):本集说流水线里每个智能体都用 OTEL 埋点，可查各智能体跨仓库的表现与成本、按平均 token 用量分析、对超 P90 阈值自动追查原因
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-10-05-talks-the-transcript-looked-fine-the-call-wasn|《文字稿看着没问题,通话却出事了——语音智能体的调试困境》]] — 作为概念
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为概念(提及)
+- [[2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling|《从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Fuad]] · [[Sam Newman]] · [[Arise]] · [[微服务]] · [[语音智能体]] · [[ThoughtWorks]] · [[OpenInference]] · [[Uber]] · [[trace]]
+[[智能体]] · [[Fuad]] · [[Sam Newman]] · [[Jose Palafox]] · [[Arise]] · [[微服务]] · [[GitHub]] · [[语音智能体]] · [[ThoughtWorks]] · [[Copilot]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Fuad":1,"Sam Newman":1,"Arise":1,"微服务":1,"语音智能体":2,"ThoughtWorks":1,"OpenInference":1,"Uber":20,"trace":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Fuad":1,"Sam Newman":1,"Jose Palafox":1,"Arise":1,"微服务":1,"GitHub":36,"语音智能体":2,"ThoughtWorks":1,"Copilot":14}</script>
 
 <script>
 (function(){

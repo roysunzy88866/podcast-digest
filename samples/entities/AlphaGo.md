@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AlphaGo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AlphaGo">AL</div><div class="pi"><h1 class="pt">AlphaGo</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AlphaGo">AL</div><div class="pi"><h1 class="pt">AlphaGo</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]]**(07:17起):本集说 AlphaGo 能做规划是因为我们已知游戏规则和算子，但真实世界中智能体必须自己学习世界的模型
 - **[[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]]**(24:44起):本集将其作为类比：就像 AlphaGo 解决围棋但人们不清楚其实际经济效用一样，当前 AI 解数学也面临「解决方案的另一边是什么」的疑问。
 - **[[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]]**(12:09起):本集作为核心论据：花了约两年、大量使用人类棋谱和人在回路调校才击败李世石，说明依赖人类数据的路径的局限。
+- **[[2026-10-15-twist-the-ex-deepmind-researcher-taking-on-chi|《智能该租还是该买？前DeepMind研究员的美国开源大模型突围战》]]**(01:59起):本集用它讲清大模型训练逻辑：先模仿学习看人类棋谱，再用强化学习试错超越人类——正是语言模型先预训练后强化学习的同一套配方。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d|《让 AI 像人一样犯错：Simile 创始人的模拟人类生意》]] — 作为概念(提及)
 - [[2026-08-18-trainingdata-rich-sutton-and-khurram-javed-why-ai-mod|《Rich Sutton：LLM 不是全部智能，真正的AI必须持续学习》]] — 作为概念(提及)
 - [[2026-08-25-a16z-the-new-economics-of-ai-martin-casado-st|《AI 如何把工程问题变回资本问题》]] — 作为概念(提及)
 - [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]] — 作为被讨论公司
+- [[2026-10-15-twist-the-ex-deepmind-researcher-taking-on-chi|《智能该租还是该买？前DeepMind研究员的美国开源大模型突围战》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[模拟]] · [[强化学习]] · [[缩放定律]] · [[OpenAI]] · [[Anthropic]] · [[算力]] · [[Joon Sung Park]] · [[Rich Sutton]] · [[Martin Casado]]
+[[智能体]] · [[强化学习]] · [[模拟]] · [[预训练]] · [[缩放定律]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[算力]] · [[Joon Sung Park]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"模拟":1,"强化学习":1,"缩放定律":18,"OpenAI":207,"Anthropic":206,"算力":10,"Joon Sung Park":1,"Rich Sutton":1,"Martin Casado":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"强化学习":1,"模拟":1,"预训练":10,"缩放定律":18,"推理":102,"OpenAI":207,"Anthropic":206,"算力":10,"Joon Sung Park":1}</script>
 
 <script>
 (function(){

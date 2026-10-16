@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":31,"ClaudeMD":4,"Railway":1,"护栏":92,"内部试用":3}</script>
+<script type="application/json" class="pd-epn">{"Assembly AI":1,"Joey":1,"前向部署工程师":2,"语音智能体":2,"Claude Agent SDK":2,"RAG":31,"ClaudeMD":4,"Railway":1,"护栏":93,"内部试用":3}</script>
 
 <script>
 (function(){

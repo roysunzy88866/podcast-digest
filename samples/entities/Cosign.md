@@ -25,7 +25,7 @@ unlisted: true
 
 [[David Booth]] · [[Josh Ellman]] · [[Olivia Moore]] · [[背书]] · [[职业声誉]] · [[社会资本]] · [[网络效应]] · [[Signal]] · [[信息不对称]] · [[AI]]
 
-<script type="application/json" class="pd-epn">{"David Booth":1,"Josh Ellman":2,"Olivia Moore":3,"背书":1,"职业声誉":1,"社会资本":1,"网络效应":17,"Signal":4,"信息不对称":1,"AI":34}</script>
+<script type="application/json" class="pd-epn">{"David Booth":1,"Josh Ellman":2,"Olivia Moore":3,"背书":1,"职业声誉":1,"社会资本":1,"网络效应":17,"Signal":4,"信息不对称":1,"AI":35}</script>
 
 <script>
 (function(){

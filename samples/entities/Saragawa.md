@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":34,"Azure":3,"GitHub":35,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":67,"轨迹":4,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":2,"Microsoft":34,"Azure":3,"GitHub":36,"Microsoft 365":1,"MAI":1,"私有评估":1,"harness":67,"轨迹":4,"智能体":1}</script>
 
 <script>
 (function(){

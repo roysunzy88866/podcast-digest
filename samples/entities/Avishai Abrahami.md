@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Wix":4,"Base44":4,"Salesforce":36,"Atlassian":6,"vibe coding":51,"SaaS":23,"回购":1,"股权激励":1,"微调":39}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Wix":4,"Base44":4,"Salesforce":36,"Atlassian":6,"vibe coding":52,"SaaS":23,"回购":1,"股权激励":1,"微调":39}</script>
 
 <script>
 (function(){

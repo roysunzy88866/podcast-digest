@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]]
+[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codex":90,"OpenAI":207,"应用服务器":2,"智能体控制框架":3,"ACP（智能体客户端协议）":2,"动态工具":1,"开发者指令":1,"Codex CLI":1,"Codex Exec":1,"沙箱":101}</script>
+<script type="application/json" class="pd-epn">{"Codex":91,"OpenAI":207,"应用服务器":2,"智能体控制框架":3,"ACP（智能体客户端协议）":2,"动态工具":1,"开发者指令":1,"Codex CLI":1,"Codex Exec":1,"沙箱":103}</script>
 
 <script>
 (function(){

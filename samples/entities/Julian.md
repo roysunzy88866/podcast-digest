@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Base 10":2,"推理":101,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"推理模型":2,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"Base 10":2,"推理":102,"专用推理":1,"开源模型":4,"后训练":1,"持续学习":1,"GPU 容量":1,"分布式推理":1,"推理模型":2,"Cursor":87}</script>
 
 <script>
 (function(){

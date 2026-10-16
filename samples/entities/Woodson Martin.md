@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":1,"Mentor":1,"智能体铸造厂":1,"微调":39,"前沿模型":29,"MCP":97,"合规积压清单":1,"企业就绪":2}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"OutSystems":1,"智能体":1,"Mentor":1,"智能体铸造厂":1,"微调":39,"前沿模型":29,"MCP":98,"合规积压清单":1,"企业就绪":2}</script>
 
 <script>
 (function(){

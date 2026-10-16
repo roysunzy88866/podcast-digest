@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":7,"Kiavi":1,"高管心态":1,"市场":4,"区块链":2,"分词":6,"SoftBank":5,"Meta":56}</script>
+<script type="application/json" class="pd-epn">{"Figure":2,"SoFi":1,"Brex":7,"Kiavi":1,"高管心态":1,"市场":5,"区块链":2,"分词":6,"SoftBank":5,"Meta":56}</script>
 
 <script>
 (function(){

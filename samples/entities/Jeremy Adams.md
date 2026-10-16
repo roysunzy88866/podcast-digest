@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"NanoClaw":1,"树莓派":2,"MCP 服务器":3,"Docker":8,"Claude Agent SDK":2,"推理":101,"OpenClaw":24}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"NanoClaw":1,"树莓派":2,"MCP 服务器":3,"Docker":8,"Claude Agent SDK":2,"推理":102,"OpenClaw":25}</script>
 
 <script>
 (function(){

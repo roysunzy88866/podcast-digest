@@ -78,7 +78,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[设计系统]] · [[ChatGPT]] · [[Cursor]] · [[Notion]] · [[Anthropic]] · [[GitHub]] · [[Claude]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":97,"设计系统":7,"ChatGPT":115,"Cursor":87,"Notion":17,"Anthropic":206,"GitHub":35,"Claude":99,"OpenAI":207}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":98,"设计系统":7,"ChatGPT":115,"Cursor":87,"Notion":17,"Anthropic":206,"GitHub":36,"Claude":99,"OpenAI":207}</script>
 
 <script>
 (function(){

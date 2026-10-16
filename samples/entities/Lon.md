@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jacob":1,"Jason":7,"Apple":27,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"Lucid":1,"GoAI":1,"Eleven Labs":10,"Sony":1}</script>
+<script type="application/json" class="pd-epn">{"Jacob":1,"Jason":8,"Apple":27,"Disney":1,"Boston Dynamics":3,"DigitalOcean":2,"Lucid":1,"GoAI":1,"Eleven Labs":10,"Sony":1}</script>
 
 <script>
 (function(){

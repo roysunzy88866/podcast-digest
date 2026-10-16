@@ -1,0 +1,1026 @@
+{
+  "episode_id": "2026-10-10-talks-from-your-laptop-to-the-pipeline-scaling",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "GitHub Copilot",
+    "智能体工作流",
+    "成本优化"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jose-palafox",
+      "type": "person",
+      "role": "host",
+      "name": "Jose Palafox",
+      "file": "Jose Palafox",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.689,
+            15.989
+          ],
+          "quote": "My name's Jose Palafox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集是 GitHub 员工 Jose Palafox 的分享，讲 GitHub 平台上智能体的构建、分享与流水线化运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            16.069,
+            18.31
+          ],
+          "quote": "I've been at GitHub for six and a half years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            18.43,
+            26.673
+          ],
+          "quote": "So I joined the team right after the Microsoft acquisition of GitHub, and then shortly after GitHub acquired a tool called Semel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            28.734,
+            33.656
+          ],
+          "quote": "And so my role at GitHub really has been growing our security business for the last five or six years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            111.129,
+            116.836
+          ],
+          "quote": "You've got the IDE, you've got the GitHub CLI, which is sort of a lightweight interface that sits on your desktop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            126.286,
+            138.095
+          ],
+          "quote": "You can either delegate the agent to GitHub.com and have it go run in the background, or you can stream it using a command slash remote, and it'll let you log in through your mobile device and actually steer the agent from your mobile device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            140.738,
+            153.293
+          ],
+          "quote": "So if you want to create agents that live inside of Slack or inside of Teams, expose some individual functionality to a set of team members that maybe don't have a GitHub license, you can do that pretty easily through the SDK.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            358.887,
+            370.717
+          ],
+          "quote": "So if I want, I can generate an agent that maybe looks at the GitHub change log and it will summarize all of the latest features or something that Copilot did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            420.517,
+            427.082
+          ],
+          "quote": "Like this one wants to start with, you know, use the GitHub roadmap, but maybe you wanted just to jump straight to the changelog so you're not getting roadmap items.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            518.32,
+            525.823
+          ],
+          "quote": "So if you're inside of GitHub, I'm at the org level here, and then I went into a repository, and it has to be named .githubPrivate, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            616.993,
+            623.877
+          ],
+          "quote": "So again, this DAG GitHub private directory, this is how you would share an agent internally to everyone inside the org, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            679.582,
+            688.77
+          ],
+          "quote": "So this will allow you to set a series of GitHub issues as goals for the agent and then spin up sub-agents to address all of those tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            780.797,
+            785.322
+          ],
+          "quote": "And then if I take that and I run that inside of a GitHub Actions runner or in some CI system,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            915.741,
+            926.464
+          ],
+          "quote": "If you want to see a maximalist approach to how this works, the GitHub-AW project itself, the thing that is the framework for building all these agents, it is built entirely by agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            993.723,
+            997.065
+          ],
+          "quote": "GitHub also has a bunch of them that we've bundled up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            997.165,
+            1001.028
+          ],
+          "quote": "So inside of our GitHub Next organization, there's this project called Agentix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1151.908,
+            1157.572
+          ],
+          "quote": "I work at GitHub in a field capacity, so if you know your GitHub AE and you want to chat with me, feel free to reach out with them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "copilot",
+      "type": "company",
+      "role": "company",
+      "name": "Copilot",
+      "file": "Copilot",
+      "primary": true,
+      "how_described": "本集核心产品：通过 IDE、CLI、SDK 多个入口与编码智能体交互，底层统一经过 CAPI 服务层",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            89.105,
+            102.539
+          ],
+          "quote": "Just getting us started, I always like to baseline with sort of the overall data flow of how Copilot works on the platform because a lot of people aren't familiar with how Copilot works under the hood and maybe aren't familiar with all of our different interfaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            162.779,
+            165.78
+          ],
+          "quote": "And this is what we call CAPI, or the Copilot API service.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            354.463,
+            356.185
+          ],
+          "quote": "And then I go ahead and create this with Copilot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            356.525,
+            358.807
+          ],
+          "quote": "Copilot will do all the scaffolding for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            358.887,
+            370.717
+          ],
+          "quote": "So if I want, I can generate an agent that maybe looks at the GitHub change log and it will summarize all of the latest features or something that Copilot did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            453.799,
+            459.36
+          ],
+          "quote": "And the easiest way to do that inside of Copilot is to do that by making a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            485.552,
+            494.64
+          ],
+          "quote": "So creating a marketplace is oftentimes one of the first things that I work with companies on when I go in and try to talk with them about how to scale copilot adoption inside their organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            629.319,
+            634.482
+          ],
+          "quote": "So we have a repository called Awesome Copilot that has a bunch of example agents and things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            671.073,
+            674.498
+          ],
+          "quote": "Inside of the Copilot app, there's a command called orchestrate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            768.726,
+            772.429
+          ],
+          "quote": "Like the Copilot CLI can be used in a headless mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            772.51,
+            774.732
+          ],
+          "quote": "So I can call the Copilot CLI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            882.137,
+            889.961
+          ],
+          "quote": "It generates a plan, it hands it off to Copilot in the platform for implementation, and then the developer comes back in the loop, maybe at an acceptance phase, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：从本地构建智能体，到通过 marketplace 分享给全团队，再到搬进 CI 流水线自主运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            103.4,
+            111.089
+          ],
+          "quote": "Just to give you a quick preview of what the product has, you've got a handful of different interfaces that you can use to interact with the coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            126.286,
+            138.095
+          ],
+          "quote": "You can either delegate the agent to GitHub.com and have it go run in the background, or you can stream it using a command slash remote, and it'll let you log in through your mobile device and actually steer the agent from your mobile device.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            224.808,
+            232.35
+          ],
+          "quote": "A lot of different, you know, potential ways that you could implement whether it's an agent or a skill or, you know, it all just ends up being marked down at the end of the day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            254.985,
+            263.839
+          ],
+          "quote": "So we have a specialized research agent, which is our Explorer agent, that you can call or invoke through a keyword or actually invoking like the slash command.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            284.889,
+            292.092
+          ],
+          "quote": "Rubber Duck is like an embedded agent that will validate a plan that we know was written by Opus with a pass from GPT or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            322.776,
+            324.177
+          ],
+          "quote": "Maybe you want to write an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            324.578,
+            335.968
+          ],
+          "quote": "And if you want, you can just use the agent command here, and it will set you through a workflow to add an agent into your CLI environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            344.195,
+            347.878
+          ],
+          "quote": "An agent that's available regardless of which project I'm working on at the user level, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            358.887,
+            370.717
+          ],
+          "quote": "So if I want, I can generate an agent that maybe looks at the GitHub change log and it will summarize all of the latest features or something that Copilot did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            371.297,
+            377.841
+          ],
+          "quote": "I did that earlier today and just generated a sample agent using this agent builder that's built into the platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            380.502,
+            385.725
+          ],
+          "quote": "If you have the IDE, you have an agent's interface there as well that will do the same kind of build process with you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            432.946,
+            436.088
+          ],
+          "quote": "What's nice now is you've created like an agent that works in the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            436.128,
+            440.912
+          ],
+          "quote": "So if you have repeat tasks that you have to do, you can call this agent to do those tasks for you, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            449.197,
+            451.238
+          ],
+          "quote": "The next thing is how do I share this agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            528.004,
+            532.846
+          ],
+          "quote": "But if you have a .githubPrivate repository, you'll be able to expose agent files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            535.588,
+            541.25
+          ],
+          "quote": "And you can see from the cloud agent, I'm actually able to call that specific agent on the platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            548.375,
+            552.238
+          ],
+          "quote": "If I want to delegate to a cloud agent that's hosted on the platform, I can do that here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            563.507,
+            570.853
+          ],
+          "quote": "If I write a handy agent that checks the changelog for me, then I can publish it here and I can share that with everybody else.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            571.413,
+            577.859
+          ],
+          "quote": "This will push to everyone's IDE environment or push to their CLI environment for them, and then they can just call the same agent that I'm working on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            616.993,
+            623.877
+          ],
+          "quote": "So again, this DAG GitHub private directory, this is how you would share an agent internally to everyone inside the org, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            641.81,
+            650.573
+          ],
+          "quote": "The last thing that I want to do sometimes when I'm working with an agent is I want to be able to use agents across repositories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            650.713,
+            658.516
+          ],
+          "quote": "And the biggest challenge with these compliance agents, for example, is that they're always starting in the repo where the agent lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            665.544,
+            670.412
+          ],
+          "quote": "I need to actually start the agent in the other repo so that it has permissions in that repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            679.582,
+            688.77
+          ],
+          "quote": "So this will allow you to set a series of GitHub issues as goals for the agent and then spin up sub-agents to address all of those tasks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            731.197,
+            734.038
+          ],
+          "quote": "But sometimes I don't want to run an agent locally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            734.078,
+            737.879
+          ],
+          "quote": "I actually want the agent to be run as a part of the repository.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            752.185,
+            755.209
+          ],
+          "quote": "Not every agent needs to be me taking an action.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            785.622,
+            788.184
+          ],
+          "quote": "Then I have an agent that's running in a pipeline for me, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            821.685,
+            832.047
+          ],
+          "quote": "So maybe you want an agent that looks inside the code base, identifies opportunities for deduplication of code, and then creates a series of issues for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            845.37,
+            849.514
+          ],
+          "quote": "So in this flow here, you see I have the first agent maybe running on a cron schedule.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            873.813,
+            881.557
+          ],
+          "quote": "So maybe I'm going to call another pipeline agent, right, which is the PRD generating product manager agent, right, that's going to scope the feature for me.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            936.446,
+            944.988
+          ],
+          "quote": "So just to give you a feel of what a fully agent-led development project looks like, this is our framework, and it has",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            971.283,
+            973.165
+          ],
+          "quote": "So this is a meta-agent that's looking on things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            979.972,
+            987.939
+          ],
+          "quote": "So every time this thing runs, it's generating some markdown report or some action or input for another agent, and then we're just continuing to trigger it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1056.401,
+            1067.237
+          ],
+          "quote": "I can't tell if they're using agent reasoning for all types of things or if they're correctly building little bash scripts to actually go and do different search functions and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1078.804,
+            1082.705
+          ],
+          "quote": "I have every single agent running and it's instrumented with OTEL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1082.745,
+            1091.509
+          ],
+          "quote": "So I can go to a SIM or some kind of logging platform and look, does my code deduplication agent, how does it run across repositories?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1095.17,
+            1105.634
+          ],
+          "quote": "I can also do things like say, hey, every time that an agent exceeds its P90 for what I expect it to cost me to run, go investigate why it exceeded its threshold, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1135.119,
+            1141.902
+          ],
+          "quote": "We talked through building an agent locally, sharing agents through the platform, and then eventually moving those agents into the pipeline.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-workflows",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工作流 (agentic workflows)",
+      "file": "智能体工作流",
+      "primary": true,
+      "how_described": "本集说它是让智能体作为仓库一部分运行的框架：Copilot CLI 以无头模式传入一次性提示词，放进 GitHub Actions 或 CI 里按事件或定时触发，并内置人在回路触发器",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            760.636,
+            765.002
+          ],
+          "quote": "When we're working in that model, we have a framework that you can use called agentic workflows.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            765.863,
+            768.646
+          ],
+          "quote": "And agentic workflows is a pretty simple concept.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            832.227,
+            844.93
+          ],
+          "quote": "And if you use this framework, this agentic workflows framework, what's nice is we'll build in human-in-the-loop triggers for you so that you can review and decide when you're actually going to spend money on some of the next phase of the flow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capi",
+      "type": "concept",
+      "role": "concept",
+      "name": "CAPI",
+      "file": "CAPI",
+      "primary": true,
+      "how_described": "本集说它也叫 harness（挽具），是 Copilot 所有入口都经过的服务层，负责输入分块、认证、指标与审计日志等工程杂务",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            162.779,
+            165.78
+          ],
+          "quote": "And this is what we call CAPI, or the Copilot API service.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestrate",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体编排 (orchestrate)",
+      "file": "子智能体编排",
+      "primary": true,
+      "how_described": "本集说 Orchestrate 命令是跨仓库的横向扩展：设定一组 GitHub issue 为目标，在各仓库分别启动子智能体同时做跨仓库修改",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            671.073,
+            674.498
+          ],
+          "quote": "Inside of the Copilot app, there's a command called orchestrate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            675.078,
+            678.942
+          ],
+          "quote": "And Orchestrate is our horizontal scaling for cross-repo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            694.415,
+            706.664
+          ],
+          "quote": "If you want to take a task inside a microservice where you're modifying an API and then you have to make a change somewhere downstream because of that, Orchestrate will allow you to set up several agents that are going to make cross-repo changes simultaneously.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            714.709,
+            721.133
+          ],
+          "quote": "I can kind of summon them here to go do work in individual repositories and keep them sort of on task using this Orchestrate tool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github-cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub CLI",
+      "file": "GitHub CLI",
+      "primary": true,
+      "how_described": "本集说它是桌面上的轻量级 Copilot 接口，内置多个嵌入式智能体，支持会话流式到手机远程操控，也可切到无头模式在 CI 中运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            111.129,
+            116.836
+          ],
+          "quote": "You've got the IDE, you've got the GitHub CLI, which is sort of a lightweight interface that sits on your desktop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "type": "concept",
+      "role": "concept",
+      "name": "marketplace",
+      "file": "marketplace",
+      "primary": true,
+      "how_described": "本集说它就是一个加了声明 JSON 的仓库，提供轻量包管理：统一更新、版本管理、漏洞通知，是组织内规模化推广智能体的第一步",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            453.799,
+            459.36
+          ],
+          "quote": "And the easiest way to do that inside of Copilot is to do that by making a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            459.58,
+            467.062
+          ],
+          "quote": "So a marketplace is just a repository with a little bit of extra JSON in one of the directories that says, hey, this is a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            471.724,
+            476.725
+          ],
+          "quote": "So if I subscribe to a marketplace, then I can update all the agents simultaneously",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            485.552,
+            494.64
+          ],
+          "quote": "So creating a marketplace is oftentimes one of the first things that I work with companies on when I go in and try to talk with them about how to scale copilot adoption inside their organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            580.121,
+            581.622
+          ],
+          "quote": "I can publish them in a marketplace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            623.917,
+            629.299
+          ],
+          "quote": "So you can make a marketplace that will work across organizations that could even work externally, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            634.502,
+            635.983
+          ],
+          "quote": "You could register that as a marketplace.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路 (human-in-the-loop)",
+      "file": "人在回路",
+      "primary": true,
+      "how_described": "本集说 agentic workflows 框架内置人在回路触发器：智能体停下等开发者用斜杠命令决定是否推进，花钱的每一步都有人把关",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            832.227,
+            844.93
+          ],
+          "quote": "And if you use this framework, this agentic workflows framework, what's nice is we'll build in human-in-the-loop triggers for you so that you can review and decide when you're actually going to spend money on some of the next phase of the flow.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集强调把工作负载从笔记本移进 CI 是优化成本的关键：进了流水线才能看到智能体是否啰嗦、工具调用成败、该不该换便宜模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            780.797,
+            785.322
+          ],
+          "quote": "And then if I take that and I run that inside of a GitHub Actions runner or in some CI system,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1072.381,
+            1078.744
+          ],
+          "quote": "So by getting the workload off of the laptop and moving it into CI, I get to see what's happening, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "otel",
+      "type": "concept",
+      "role": "concept",
+      "name": "OTEL",
+      "file": "OTEL",
+      "primary": true,
+      "how_described": "本集说流水线里每个智能体都用 OTEL 埋点，可查各智能体跨仓库的表现与成本、按平均 token 用量分析、对超 P90 阈值自动追查原因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            1078.804,
+            1082.705
+          ],
+          "quote": "I have every single agent running and it's instrumented with OTEL.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github-aw",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub-AW",
+      "file": "GitHub-AW",
+      "primary": true,
+      "how_described": "本集举的极致例子：构建智能体的框架本身完全由约 200 个智能体搭建，团队内部目标只在手机上开发",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            915.741,
+            926.464
+          ],
+          "quote": "If you want to see a maximalist approach to how this works, the GitHub-AW project itself, the thing that is the framework for building all these agents, it is built entirely by agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentix",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agentix",
+      "file": "Agentix",
+      "primary": false,
+      "how_described": "本集提到 GitHub Next 组织下的开源项目，含约 30 个现成流水线智能体（去重、QA 审查、讲笑话等）可直接取用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            997.165,
+            1001.028
+          ],
+          "quote": "So inside of our GitHub Next organization, there's this project called Agentix.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1001.428,
+            1007.772
+          ],
+          "quote": "Agentix has 30 or so different pipeline agents that you may be interested in just pulling off the shelf and running in your project.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "github-actions",
+      "type": "concept",
+      "role": "concept",
+      "name": "GitHub Actions",
+      "file": "GitHub Actions",
+      "primary": false,
+      "how_described": "本集说智能体工作流可以放进 GitHub Actions runner 或其他 CI 系统里运行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            780.797,
+            785.322
+          ],
+          "quote": "And then if I take that and I run that inside of a GitHub Actions runner or in some CI system,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

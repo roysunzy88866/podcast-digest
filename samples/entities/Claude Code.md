@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>114</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude Code">CL</div><div class="pi"><h1 class="pt">Claude Code</h1><div class="byl">公司</div><div class="nums">本站收录 <b>115</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -120,6 +120,7 @@ unlisted: true
 - **[[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]]**(02:48起):本集提到 OpenAI 用同一个 app server 把 Codex 接入了 Claude Code,有插件可在其中调用 Codex
 - **[[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]]**(00:41起):本集开头举例说人们都用过 Claude Code 这类智能体，见过它们一遍遍重读同样的文件。
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(33:37起):本集说 Ben 用上它之后第二天就取消了 HubSpot 订阅、自己写 CRM 和融资平台，象征软件构建门槛的坍塌
+- **[[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l|《AI 智能体就跑在你的笔记本电脑上：致命三重威胁》]]**(01:28起):本集说 Claude Code 去年三月发布时改变了整个格局,是跑在笔记本电脑上的智能体编程工具,也是致命三要素的典型例子。
 - **[[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]]**(35:51起):本集说 Matt 用 Claude Code 加上 superpowers 技能做了语音转文字工具 Ghost Pepper,让它研究 Hugging Face 上的语音模型仓库,本地运行、零推理成本。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:55起):本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。
 
@@ -155,7 +156,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*114 集*
+*115 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为被讨论公司
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司
@@ -269,6 +270,7 @@ unlisted: true
 - [[2026-10-09-talks-building-on-the-codex-harness-dominik-ku|《把 Codex 塞进《毁灭战士》：OpenAI 开源了智能体的「发动机」》]] — 作为概念(提及)
 - [[2026-10-09-talks-from-context-to-memory-your-agents-need|《AI 智能体为什么总是“失忆”？》]] — 作为概念(提及)
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为概念
+- [[2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l|《AI 智能体就跑在你的笔记本电脑上：致命三重威胁》]] — 作为概念
 - [[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
@@ -278,7 +280,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[harness]] · [[MCP]] · [[Cursor]] · [[评估]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"Codex":90,"沙箱":101,"OpenAI":207,"harness":67,"MCP":97,"Cursor":87,"评估":1,"Lenny":69}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"Codex":91,"沙箱":103,"OpenAI":207,"harness":67,"MCP":98,"Cursor":87,"评估":1,"Lenny":69}</script>
 
 <script>
 (function(){

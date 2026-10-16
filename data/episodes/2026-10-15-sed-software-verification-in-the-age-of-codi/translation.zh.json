@@ -1,0 +1,4122 @@
+[
+ {
+  "seg": 0,
+  "start": 0.718,
+  "end": 7.504,
+  "speaker": "Unknown",
+  "en": "Software testing is widely understood as essential to building reliable systems, and it's one of the hardest things to get right.",
+  "zh": "软件测试被广泛认为是构建可靠系统的关键，也是最难做对的事情之一。"
+ },
+ {
+  "seg": 1,
+  "start": 7.985,
+  "end": 18.715,
+  "speaker": "Unknown",
+  "en": "A fundamental issue is that tests are good at confirming the behavior a team expects, but the most damaging failures tend to hide in the edge cases no one thought to check during development.",
+  "zh": "一个根本问题在于，测试擅长确认团队预期的行为，但最具破坏性的故障往往隐藏在开发过程中没人想到要去检查的边缘情况里。"
+ },
+ {
+  "seg": 2,
+  "start": 19.155,
+  "end": 24.761,
+  "speaker": "Unknown",
+  "en": "Those blind spots are only growing as AI produces more code that no human has closely reviewed.",
+  "zh": "随着 AI 产出越来越多没有经过人类仔细审查的代码，这些盲区只会不断扩大。"
+ },
+ {
+  "seg": 3,
+  "start": 25.261,
+  "end": 31.722,
+  "speaker": "Unknown",
+  "en": "Antithesis is a software verification company built around an approach called deterministic simulation testing.",
+  "zh": "Antithesis 是一家软件验证公司，围绕一种叫做确定性仿真测试的方法而构建。"
+ },
+ {
+  "seg": 4,
+  "start": 32.282,
+  "end": 39.464,
+  "speaker": "Unknown",
+  "en": "The platform runs a customer software in a fully controlled environment, exploring thousands of different paths through it at runtime.",
+  "zh": "该平台在完全受控的环境中运行客户软件，在运行时探索其中成千上万条不同的路径。"
+ },
+ {
+  "seg": 5,
+  "start": 39.944,
+  "end": 45.045,
+  "speaker": "Unknown",
+  "en": "Crucially, the paths aren't pre-specified and they're not merely the expected cases.",
+  "zh": "至关重要的是，这些路径不是预先指定的，也不仅仅是那些预期的情况。"
+ },
+ {
+  "seg": 6,
+  "start": 45.685,
+  "end": 50.366,
+  "speaker": "Unknown",
+  "en": "In this way, it can surface rare, damaging bugs that normal testing would never catch.",
+  "zh": "通过这种方式，它能够暴露出正常测试永远不会捕捉到的罕见且具破坏性的 bug。"
+ },
+ {
+  "seg": 7,
+  "start": 51.006,
+  "end": 57.169,
+  "speaker": "Unknown",
+  "en": "Carl Svera is on the red team at Antithesis, and he also leads much of the company's AI strategy.",
+  "zh": "Carl Svera 在 Antithesis 的红团队工作，他还领导着公司的很多 AI 战略。"
+ },
+ {
+  "seg": 8,
+  "start": 57.77,
+  "end": 76.3,
+  "speaker": "Unknown",
+  "en": "In this episode, Carl joins Sean Falconer to discuss the Antithesis approach to software verification, why reliability tooling has been chronically underinvested, what makes stateful and distributed systems so hard to test, how deterministic simulation testing works under the hood, and much more.",
+  "zh": "在本期节目中，Carl 与 Sean Falconer 一起讨论 Antithesis 的软件验证方法、为什么可靠性工具长期投入不足、是什么让有状态系统和分布式系统如此难以测试、确定性仿真测试在底层是如何工作的，以及更多内容。"
+ },
+ {
+  "seg": 9,
+  "start": 77.32,
+  "end": 79.563,
+  "speaker": "Unknown",
+  "en": "This episode is hosted by Sean Falconer.",
+  "zh": "本期节目由 Sean Falconer 主持。"
+ },
+ {
+  "seg": 10,
+  "start": 80.044,
+  "end": 83.288,
+  "speaker": "Unknown",
+  "en": "Check the show notes for more information on Sean's work and where to find him.",
+  "zh": "请查看节目备注，了解更多关于 Sean 工作的信息以及在哪里可以找到他。"
+ },
+ {
+  "seg": 11,
+  "start": 95.479,
+  "end": 97.121,
+  "speaker": "Unknown",
+  "en": "Carl, welcome to the show.",
+  "zh": "Carl,欢迎来到节目。"
+ },
+ {
+  "seg": 12,
+  "start": 97.161,
+  "end": 97.501,
+  "speaker": "Unknown",
+  "en": "Hey, John.",
+  "zh": "嘿，John。"
+ },
+ {
+  "seg": 13,
+  "start": 97.561,
+  "end": 98.202,
+  "speaker": "Unknown",
+  "en": "Happy to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 14,
+  "start": 98.522,
+  "end": 99.143,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 15,
+  "start": 99.183,
+  "end": 107.433,
+  "speaker": "Unknown",
+  "en": "So we're going to get into all kinds of stuff today, but I thought just to start things off, could you give people maybe a sense of like what you actually do day to day?",
+  "zh": "那么我们今天会聊到各种各样的话题，不过我想先从一个问题开始，你能让大家大概了解一下你平时每天都做些什么吗？"
+ },
+ {
+  "seg": 16,
+  "start": 107.453,
+  "end": 112.038,
+  "speaker": "Unknown",
+  "en": "It seems like you're embedded with customers, you're tracking the shape of defects as they hit.",
+  "zh": "看起来你深度嵌入在客户那里，跟踪缺陷出现时的形态。"
+ },
+ {
+  "seg": 17,
+  "start": 112.578,
+  "end": 114.661,
+  "speaker": "Unknown",
+  "en": "What is it your day to day kind of look like?",
+  "zh": "你的日常工作到底是什么样的？"
+ },
+ {
+  "seg": 18,
+  "start": 114.861,
+  "end": 115.701,
+  "speaker": "Unknown",
+  "en": "That's a great question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 19,
+  "start": 116.081,
+  "end": 120.402,
+  "speaker": "Unknown",
+  "en": "So I work at Antithesis and Antithesis is a software verification company, right?",
+  "zh": "我在 Antithesis 工作，Antithesis 是一家软件验证公司，对吧？"
+ },
+ {
+  "seg": 20,
+  "start": 120.802,
+  "end": 125.584,
+  "speaker": "Unknown",
+  "en": "And what my job is on the paper is I'm on a team called the red team.",
+  "zh": "从纸面上看，我的工作是在一个叫红团队的团队里。"
+ },
+ {
+  "seg": 21,
+  "start": 126.084,
+  "end": 134.366,
+  "speaker": "Unknown",
+  "en": "And this is not to be confused with red teams in like a lot of times red teams are like more like a security team, maybe like an internal like red teaming security team.",
+  "zh": "这不要和通常意义上的红团队混淆，很多时候红团队更像是安全团队，也许是内部的红队安全测试团队。"
+ },
+ {
+  "seg": 22,
+  "start": 134.546,
+  "end": 144.728,
+  "speaker": "Unknown",
+  "en": "In this case, we named the red team after the idea that what if we hired a bunch of distributed systems experts, people who had spent their whole careers working on building distributed systems and testing them,",
+  "zh": "在这里，我们把团队命名为红团队，是基于这样一个想法：如果我们雇一批分布式系统专家，那些整个职业生涯都在构建分布式系统和测试分布式系统的人，"
+ },
+ {
+  "seg": 23,
+  "start": 145.028,
+  "end": 160.399,
+  "speaker": "Unknown",
+  "en": "What if we gave them essentially unlimited access to antithesis to become experts in how to use antithesis as a testing technology and then basically use that team to then go and help our customers use the technology to its fullest?",
+  "zh": "如果我们让他们几乎无限制地使用 Antithesis，让他们成为把 Antithesis 作为一种测试技术来使用的专家，然后用这个团队去帮助我们的客户把这项技术发挥到极致，会怎么样？"
+ },
+ {
+  "seg": 24,
+  "start": 160.88,
+  "end": 170.907,
+  "speaker": "Unknown",
+  "en": "So I would say my core goal is to become an expert in antithesis and then help our customers solve and find these very hard bugs in distributed systems.",
+  "zh": "所以我想说，我的核心目标是成为 Antithesis 的专家，然后帮助我们的客户解决并找到分布式系统中这些非常难的 bug。"
+ },
+ {
+  "seg": 25,
+  "start": 171.227,
+  "end": 174.81,
+  "speaker": "Unknown",
+  "en": "I also am taking a lead in a lot of our AI strategies.",
+  "zh": "我还在我们的很多 AI 战略中承担主导角色。"
+ },
+ {
+  "seg": 26,
+  "start": 174.87,
+  "end": 179.373,
+  "speaker": "Unknown",
+  "en": "So I sort of bridge the gap between a customer facing role and more of like a product role.",
+  "zh": "所以我在某种程度上 bridging 了面向客户的角色和更偏产品角色之间的鸿沟。"
+ },
+ {
+  "seg": 27,
+  "start": 179.833,
+  "end": 180.054,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 28,
+  "start": 180.194,
+  "end": 186.879,
+  "speaker": "Unknown",
+  "en": "And so it sounds like in a lot of ways, you're like the zeroth developer in some sense with these tools and doing some customer zero stuff.",
+  "zh": "那么听起来在很多方面，从某种意义上说，你就像是这些工具的第零号开发者，在做一些客户零的事情。"
+ },
+ {
+  "seg": 29,
+  "start": 186.919,
+  "end": 190.101,
+  "speaker": "Unknown",
+  "en": "And then you're also, I mean, how hands on are you with customers?",
+  "zh": "然后你也是，我是说，你和客户的接触有多深？"
+ },
+ {
+  "seg": 30,
+  "start": 190.121,
+  "end": 197.927,
+  "speaker": "Unknown",
+  "en": "Is this like fully, hey, we're FDE organization and we're going in and making commits or what is sort of the overlay capacity that you're doing with customers?",
+  "zh": "是像完全的，嘿，我们是 FDE 组织，我们要进去提交代码，还是说你和客户合作的这种叠加角色是什么样的？"
+ },
+ {
+  "seg": 31,
+  "start": 198.325,
+  "end": 207.529,
+  "speaker": "Unknown",
+  "en": "Yeah, we have a full FTE team who they're actually in there with the customers and working with the customers on sort of a daily basis and helping them write test harnesses and use antithesis.",
+  "zh": "是的，我们有一个完整的 FTE 团队，他们真正地和客户在一起，每天和客户合作，帮助他们编写测试工具并使用 Antithesis。"
+ },
+ {
+  "seg": 32,
+  "start": 207.93,
+  "end": 210.731,
+  "speaker": "Unknown",
+  "en": "We act as like an internal backup team.",
+  "zh": "我们扮演的角色更像是内部的后备团队。"
+ },
+ {
+  "seg": 33,
+  "start": 210.811,
+  "end": 214.433,
+  "speaker": "Unknown",
+  "en": "So we will go in to a customer situation and",
+  "zh": "所以我们会进入一个客户的场景，"
+ },
+ {
+  "seg": 34,
+  "start": 215.413,
+  "end": 222.019,
+  "speaker": "Unknown",
+  "en": "Try to figure out the strategic thing that needs to happen for that customer to become successful and then offload that to the FDE.",
+  "zh": "试图弄清楚要让那个客户取得成功，战略上需要做什么，然后把任务交给 FDE。"
+ },
+ {
+  "seg": 35,
+  "start": 222.179,
+  "end": 227.383,
+  "speaker": "Unknown",
+  "en": "So basically make sure the FDEs have the information that they need and the knowledge they need to be able to like make the right call.",
+  "zh": "所以基本上就是确保 FDE 拥有他们所需的信息和知识，能够做出正确的判断。"
+ },
+ {
+  "seg": 36,
+  "start": 227.684,
+  "end": 233.088,
+  "speaker": "Unknown",
+  "en": "So a lot of times our FDEs just like learn strategies from us and then can apply those strategies to a bunch of different customers.",
+  "zh": "所以很多时候，我们的 FDE 就是从我们这里学习策略，然后可以把这些策略应用到很多不同的客户身上。"
+ },
+ {
+  "seg": 37,
+  "start": 233.248,
+  "end": 240.735,
+  "speaker": "Unknown",
+  "en": "So in many ways, our goal is to find that multiplier effect where if we teach a couple FDEs to fish, then they can go and fish a lot more.",
+  "zh": "所以在很多方面，我们的目标是找到那种乘数效应，如果我们教会几个 FDE 钓鱼，那他们就能钓到多得多的鱼。"
+ },
+ {
+  "seg": 38,
+  "start": 241.147,
+  "end": 241.267,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 39,
+  "start": 241.307,
+  "end": 250.513,
+  "speaker": "Unknown",
+  "en": "And I guess also in the multiplier effect, some of this is going to go back into product warnings, I'm assuming, to try to take your, in the team's subject matter expertise back into the product.",
+  "zh": "而且我想在乘数效应中，其中一部分会回流到产品里，我猜，试图把你和团队的专业知识带回到产品中。"
+ },
+ {
+  "seg": 40,
+  "start": 250.533,
+  "end": 254.195,
+  "speaker": "Unknown",
+  "en": "So this isn't something that you're just one-off fixing or addressing each time.",
+  "zh": "所以这不是那种你每次都只是临时修复或处理一次的事情。"
+ },
+ {
+  "seg": 41,
+  "start": 254.675,
+  "end": 255.596,
+  "speaker": "Unknown",
+  "en": "That's exactly right.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 42,
+  "start": 255.716,
+  "end": 259.118,
+  "speaker": "Unknown",
+  "en": "We actually report up to head of product and not in the sales org.",
+  "zh": "我们实际上是汇报给产品负责人，而不是在销售组织里。"
+ },
+ {
+  "seg": 43,
+  "start": 259.318,
+  "end": 266.322,
+  "speaker": "Unknown",
+  "en": "And we do that specifically because we want to bring everything really deeply into the product so that every single customer can take advantage of it.",
+  "zh": "我们这么做正是因为我们想把所有东西都非常深入地融入产品，让每一个客户都能利用它。"
+ },
+ {
+  "seg": 44,
+  "start": 266.73,
+  "end": 269.352,
+  "speaker": "Unknown",
+  "en": "Yeah, so what do they call this function antithesis?",
+  "zh": "是的，那他们把 Antithesis 的这个职能叫做什么？"
+ },
+ {
+  "seg": 45,
+  "start": 269.732,
+  "end": 270.793,
+  "speaker": "Unknown",
+  "en": "We just call it the red team.",
+  "zh": "我们就叫它红团队。"
+ },
+ {
+  "seg": 46,
+  "start": 271.013,
+  "end": 272.174,
+  "speaker": "Unknown",
+  "en": "Oh yeah, sorry, the red team, yeah.",
+  "zh": "哦对，抱歉，红团队，对。"
+ },
+ {
+  "seg": 47,
+  "start": 272.394,
+  "end": 277.158,
+  "speaker": "Unknown",
+  "en": "It's such an ambiguous role because we sort of bridge this weird gap between customer facing and product.",
+  "zh": "这是一个非常模糊的角色，因为我们在某种程度上 bridging 了面向客户和产品之间这个奇怪的鸿沟。"
+ },
+ {
+  "seg": 48,
+  "start": 277.498,
+  "end": 282.862,
+  "speaker": "Unknown",
+  "en": "So it needed a name that was just sort of abstract to give us a lot of latitude as to what we could help with.",
+  "zh": "所以它需要一个足够抽象的名字，给我们留下很大的余地，让我们可以帮忙做各种各样的事情。"
+ },
+ {
+  "seg": 49,
+  "start": 283.2,
+  "end": 288.665,
+  "speaker": "Unknown",
+  "en": "Yeah, I've seen different versions of this, maybe not exactly this configuration at different companies I've worked for.",
+  "zh": "是的，我在不同公司见过这类职能的不同版本，也许不完全是这种配置。"
+ },
+ {
+  "seg": 50,
+  "start": 288.705,
+  "end": 292.609,
+  "speaker": "Unknown",
+  "en": "And I've been part of even some of those teams in certain areas during my time at Google, for example.",
+  "zh": "比如，我在 Google 工作期间，甚至曾在某些领域参与过其中一些团队。"
+ },
+ {
+  "seg": 51,
+  "start": 292.629,
+  "end": 299.615,
+  "speaker": "Unknown",
+  "en": "But I think it's like a highly valuable function that hasn't quite made like a mainstream name for everyone's kind of agreed on.",
+  "zh": "但我认为这是一个非常有价值的功能，只是还没有形成一个大家都认可的、主流的名称。"
+ },
+ {
+  "seg": 52,
+  "start": 299.695,
+  "end": 307.543,
+  "speaker": "Unknown",
+  "en": "But it seems like in a lot of ways, it's this intersection between product engineering and I guess like some level of field engineering at the same time.",
+  "zh": "但在很多方面，它似乎是产品工程与某种程度的现场工程之间的交叉点。"
+ },
+ {
+  "seg": 53,
+  "start": 307.863,
+  "end": 308.624,
+  "speaker": "Unknown",
+  "en": "That's a really good point.",
+  "zh": "这个观点非常好。"
+ },
+ {
+  "seg": 54,
+  "start": 308.644,
+  "end": 317.771,
+  "speaker": "Unknown",
+  "en": "Like, I think what's most interesting about the red team is every single red team member has a sort of product area that they are really focused and specialized in.",
+  "zh": "我认为红队最有趣的地方在于，每一位红队成员都有一个他们真正专注和擅长的产品领域。"
+ },
+ {
+  "seg": 55,
+  "start": 318.091,
+  "end": 321.874,
+  "speaker": "Unknown",
+  "en": "So for me, I'm really focused on our relationship to AI.",
+  "zh": "对我来说，我非常专注于我们与 AI 的关系。"
+ },
+ {
+  "seg": 56,
+  "start": 321.974,
+  "end": 325.677,
+  "speaker": "Unknown",
+  "en": "So I was the person who wrote the antithesis AI skills repos.",
+  "zh": "所以我就是编写 Antithesis AI skills 仓库的人。"
+ },
+ {
+  "seg": 57,
+  "start": 326.097,
+  "end": 330.44,
+  "speaker": "Unknown",
+  "en": "We have like a CLI tool that is designed to be used by agents to interact with the product.",
+  "zh": "我们有一个 CLI 工具，专门设计给智能体用来与产品交互。"
+ },
+ {
+  "seg": 58,
+  "start": 330.861,
+  "end": 332.202,
+  "speaker": "Unknown",
+  "en": "So that's sort of my focus.",
+  "zh": "所以这算是我的关注点。"
+ },
+ {
+  "seg": 59,
+  "start": 332.282,
+  "end": 332.522,
+  "speaker": "Unknown",
+  "en": "And then",
+  "zh": "然后"
+ },
+ {
+  "seg": 60,
+  "start": 332.802,
+  "end": 340.507,
+  "speaker": "Unknown",
+  "en": "One of my team members, Lawrence, he is focused on our property-based testing libraries like Hegel and Bombadil.",
+  "zh": "我的团队里有一位成员 Lawrence，他专注于我们基于属性的测试库，比如 Hegel 和 Bombadil。"
+ },
+ {
+  "seg": 61,
+  "start": 340.647,
+  "end": 347.312,
+  "speaker": "Unknown",
+  "en": "So we each sort of have a different product facet that we're really excited about that we spend a little bit of more product time as well.",
+  "zh": "所以我们每个人都有一块自己非常热衷的产品领域，我们也会花更多的时间投入到产品工作中。"
+ },
+ {
+  "seg": 62,
+  "start": 347.857,
+  "end": 348.017,
+  "speaker": "Unknown",
+  "en": "Mm-hmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 63,
+  "start": 348.358,
+  "end": 349.199,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好。"
+ },
+ {
+  "seg": 64,
+  "start": 349.219,
+  "end": 356.027,
+  "speaker": "Unknown",
+  "en": "And we'll probably talk a lot about testing and approaches to testing today, but I think, like, clearly software testing is something that's always existed.",
+  "zh": "我们今天可能会聊很多关于测试和测试方法的话题，但很明显，软件测试是一直存在的东西。"
+ },
+ {
+  "seg": 65,
+  "start": 356.607,
+  "end": 363.536,
+  "speaker": "Unknown",
+  "en": "It's kind of gone through, I think, different phases of where a lot of it used to be sort of manual QA engineering, and then we",
+  "zh": "它经历了几种不同的阶段，我想很多测试曾经是手动 QA 工程，然后我们"
+ },
+ {
+  "seg": 66,
+  "start": 364.016,
+  "end": 369.58,
+  "speaker": "Unknown",
+  "en": "We moved into a world where we shifted some of the responsibility, kind of left the engineers writing the code with unit tests, system tests.",
+  "zh": "进入了一个把部分职责转移出去的世界，把单元测试、系统测试留给了编写代码的工程师。"
+ },
+ {
+  "seg": 67,
+  "start": 369.6,
+  "end": 373.902,
+  "speaker": "Unknown",
+  "en": "But I think in a lot of ways, this was echoed by your CEO, Will Wilson.",
+  "zh": "但我想这在很多方面与你们的 CEO Will Wilson 所说的相呼应。"
+ },
+ {
+  "seg": 68,
+  "start": 374.443,
+  "end": 380.166,
+  "speaker": "Unknown",
+  "en": "It's been treated as this genitalial work that most engineers hate and few people are focused on.",
+  "zh": "测试一直被视为一种大多数工程师讨厌、很少人专注的“杂务”性工作。"
+ },
+ {
+  "seg": 69,
+  "start": 380.366,
+  "end": 387.331,
+  "speaker": "Unknown",
+  "en": "Typically, you don't put your very best people on what is your testing strategy, whereas it might be focused on some other area.",
+  "zh": "通常，你不会把你最优秀的人放在测试策略上，而是可能专注于其他领域。"
+ },
+ {
+  "seg": 70,
+  "start": 387.371,
+  "end": 390.293,
+  "speaker": "Unknown",
+  "en": "But I guess, why do you think that...",
+  "zh": "但我想问的是，为什么你觉得……"
+ },
+ {
+  "seg": 71,
+  "start": 390.853,
+  "end": 400.5,
+  "speaker": "Unknown",
+  "en": "Reliability, tooling, testing has kind of been this chronically under-invested area given how impactful a bad bug could be to an actual product experience.",
+  "zh": "考虑到一个糟糕的 bug 对实际产品体验可能造成多大的影响，可靠性、工具、测试为什么一直是这个长期投入不足的领域？"
+ },
+ {
+  "seg": 72,
+  "start": 400.98,
+  "end": 401.921,
+  "speaker": "Unknown",
+  "en": "That's such a good question.",
+  "zh": "这个问题问得真好。"
+ },
+ {
+  "seg": 73,
+  "start": 402.321,
+  "end": 407.365,
+  "speaker": "Unknown",
+  "en": "So before I was at Antithesis, I was at a company called Singlestore, which used to be called MemSQL.",
+  "zh": "在加入 Antithesis 之前，我在一家叫 Singlestore 的公司工作，它以前叫 MemSQL。"
+ },
+ {
+  "seg": 74,
+  "start": 407.705,
+  "end": 408.626,
+  "speaker": "Unknown",
+  "en": "I was there for 10 years.",
+  "zh": "我在那里待了 10 年。"
+ },
+ {
+  "seg": 75,
+  "start": 409.286,
+  "end": 415.691,
+  "speaker": "Unknown",
+  "en": "And at Singlestore, we invested a very large amount of engineering effort in testing while we built a database.",
+  "zh": "在 Singlestore，我们投入了大量工程精力在测试上，同时我们构建数据库。"
+ },
+ {
+  "seg": 76,
+  "start": 415.991,
+  "end": 419.433,
+  "speaker": "Unknown",
+  "en": "And not only that, but we were extremely like hyper shift left culture.",
+  "zh": "不仅如此，我们还是一种极度“左移”的文化。"
+ },
+ {
+  "seg": 77,
+  "start": 419.513,
+  "end": 423.596,
+  "speaker": "Unknown",
+  "en": "So every developer wrote all the tests to test every single thing they wrote.",
+  "zh": "所以每个开发者都要为自己写的每一件事编写所有的测试。"
+ },
+ {
+  "seg": 78,
+  "start": 423.656,
+  "end": 427.498,
+  "speaker": "Unknown",
+  "en": "So it was a very like, you know, you write your code, you write your tests, you own the whole thing.",
+  "zh": "所以那是一种非常……你知道的，你写代码，你写测试，你为整个事情负责。"
+ },
+ {
+  "seg": 79,
+  "start": 427.978,
+  "end": 442.707,
+  "speaker": "Unknown",
+  "en": "And what we discovered was that the more we made testing something that you can do procedurally, so like the more testing could feel like procedural generation, the more likely engineers would like to use it.",
+  "zh": "我们发现，当我们越是把测试变成一件可以按程序化流程来做的事情，也就是说，测试越像程序化生成，工程师就越愿意使用它。"
+ },
+ {
+  "seg": 80,
+  "start": 443.187,
+  "end": 444.928,
+  "speaker": "Unknown",
+  "en": "And maybe I can phrase that slightly differently.",
+  "zh": "也许我可以换一种方式来说。"
+ },
+ {
+  "seg": 81,
+  "start": 444.989,
+  "end": 449.592,
+  "speaker": "Unknown",
+  "en": "So at Singlestore, we had this internal testing product called Cyduck.",
+  "zh": "在 Singlestore，我们有一个叫 Cyduck 的内部测试产品。"
+ },
+ {
+  "seg": 82,
+  "start": 449.652,
+  "end": 451.594,
+  "speaker": "Unknown",
+  "en": "So that was our testing cluster.",
+  "zh": "那是我们的测试集群。"
+ },
+ {
+  "seg": 83,
+  "start": 452.074,
+  "end": 456.177,
+  "speaker": "Unknown",
+  "en": "And one of the things about Cyduck was that it allowed you to write procedural tests.",
+  "zh": "Cyduck 的一个特点就是它允许你编写程序化的测试。"
+ },
+ {
+  "seg": 84,
+  "start": 456.197,
+  "end": 464.224,
+  "speaker": "Unknown",
+  "en": "You could write tests that essentially were like, you'd write one test, but it would be expanded into many tests by sort of parameterizing the input space.",
+  "zh": "你可以编写这样的测试，本质上就是，你写一个测试，但通过参数化输入空间，它会扩展成很多测试。"
+ },
+ {
+  "seg": 85,
+  "start": 464.864,
+  "end": 468.546,
+  "speaker": "Unknown",
+  "en": "And by doing this, it turned testing into like a little bit of an engineering puzzle.",
+  "zh": "通过这样做，它把测试变成了一个有点像工程谜题的东西。"
+ },
+ {
+  "seg": 86,
+  "start": 468.586,
+  "end": 471.887,
+  "speaker": "Unknown",
+  "en": "Like you had to sort of think about, okay, what is the thing I'm trying to test?",
+  "zh": "你需要去思考：好，我要测试的东西到底是什么？"
+ },
+ {
+  "seg": 87,
+  "start": 471.967,
+  "end": 474.588,
+  "speaker": "Unknown",
+  "en": "And like, what are all the different ways I could test it?",
+  "zh": "然后呢，我可以用哪些不同的方式来测试它？"
+ },
+ {
+  "seg": 88,
+  "start": 474.708,
+  "end": 481.871,
+  "speaker": "Unknown",
+  "en": "And then let me generate, write a test that generates all of those different sort of attack strategies to try to verify this particular piece of code.",
+  "zh": "然后让我生成、编写一个测试，生成所有这些不同的攻击策略，来验证这段特定的代码。"
+ },
+ {
+  "seg": 89,
+  "start": 482.331,
+  "end": 486.313,
+  "speaker": "Unknown",
+  "en": "And by doing that, it actually turned testing into a little bit more of an engineering problem.",
+  "zh": "通过这样做，它实际上把测试变成了一个更像工程问题的东西。"
+ },
+ {
+  "seg": 90,
+  "start": 486.673,
+  "end": 495.678,
+  "speaker": "Unknown",
+  "en": "Now, I mention this because I feel like one of the reasons that engineers maybe don't like tests as much is because the tests tend to just usually test for regression.",
+  "zh": "我提到这一点，是因为我觉得工程师可能不太喜欢测试的原因之一是，测试往往只是用来测试回归。"
+ },
+ {
+  "seg": 91,
+  "start": 495.758,
+  "end": 503.123,
+  "speaker": "Unknown",
+  "en": "Like most tests are written as a, I've implemented feature X, and the test sort of cements feature X into like the acceptance space.",
+  "zh": "大多数测试的写法是：我实现了功能 X，然后测试把功能 X 固化在验收空间里，"
+ },
+ {
+  "seg": 92,
+  "start": 503.683,
+  "end": 507.324,
+  "speaker": "Unknown",
+  "en": "of being like, this is an acceptable outcome for the software to behave.",
+  "zh": "也就是说：这是软件可以接受的一种行为结果。"
+ },
+ {
+  "seg": 93,
+  "start": 507.824,
+  "end": 513.785,
+  "speaker": "Unknown",
+  "en": "And rarely, it's actually really hard to write tests that test for the unknown, unknown part of the space, right?",
+  "zh": "而很少有人能写出针对未知、未知部分的测试，这真的很难，对吧？"
+ },
+ {
+  "seg": 94,
+  "start": 514.045,
+  "end": 515.406,
+  "speaker": "Unknown",
+  "en": "But that's sort of the most fun test.",
+  "zh": "但那才是最有意思的测试。"
+ },
+ {
+  "seg": 95,
+  "start": 515.446,
+  "end": 533.39,
+  "speaker": "Unknown",
+  "en": "So I think that the reason why testing isn't something that we think of as being really, like, you don't want to put your best engineers on it is because we tend to write more tests in the, like, regression space where we're just having to encode behavior that already exists, as opposed to tests in the future space of what are the unknown,",
+  "zh": "所以我认为，为什么我们不觉得测试是值得投入最优秀工程师的事情，原因在于我们往往写的更多是回归空间的测试，只是去编码已经存在的行为，而不是针对未知未来的测试，也就是那些未知的部分。"
+ },
+ {
+  "seg": 96,
+  "start": 534.511,
+  "end": 548.863,
+  "speaker": "Unknown",
+  "en": "In terms of testing in the future space of the unknown unknowns, I guess what is hard about that type of testing where you have all these moving parts, presumably, especially in a redeployment, you're in multiple machines, concurrent processes, things are probably happening in unpredictable order.",
+  "zh": "说到针对未知之未知这个未来空间的测试，这种测试的难点是什么？在有很多活动部件的情况下，尤其是在重新部署时，你有多台机器、并发进程，事情很可能以不可预测的顺序发生。"
+ },
+ {
+  "seg": 97,
+  "start": 549.564,
+  "end": 553.367,
+  "speaker": "Unknown",
+  "en": "Those are not things typically a regular unit test is going to catch.",
+  "zh": "这些通常不是普通的单元测试能捕捉到的东西。"
+ },
+ {
+  "seg": 98,
+  "start": 553.407,
+  "end": 555.228,
+  "speaker": "Unknown",
+  "en": "So what is the hard parts about that?",
+  "zh": "那么这方面的难点在哪里？"
+ },
+ {
+  "seg": 99,
+  "start": 555.268,
+  "end": 558.091,
+  "speaker": "Unknown",
+  "en": "And then why is it that we haven't typically focused on it?",
+  "zh": "还有，为什么我们通常一直没有专注于这个方向？"
+ },
+ {
+  "seg": 100,
+  "start": 558.546,
+  "end": 558.846,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 101,
+  "start": 559.167,
+  "end": 562.73,
+  "speaker": "Unknown",
+  "en": "So I think what's hard about that is a couple of different variables.",
+  "zh": "所以我觉得这件事的难点在于几个不同的变量。"
+ },
+ {
+  "seg": 102,
+  "start": 562.75,
+  "end": 567.955,
+  "speaker": "Unknown",
+  "en": "So the first variable is that most code basically either is pure or it's somehow stateful.",
+  "zh": "第一个变量是，大多数代码基本上要么是纯的，要么是某种有状态的。"
+ },
+ {
+  "seg": 103,
+  "start": 568.475,
+  "end": 571.298,
+  "speaker": "Unknown",
+  "en": "If it's pure code, we tend to reach for unit tests.",
+  "zh": "如果是纯代码，我们倾向于用单元测试。"
+ },
+ {
+  "seg": 104,
+  "start": 571.338,
+  "end": 578.105,
+  "speaker": "Unknown",
+  "en": "We tend to basically think about just verifying some number of inputs lead to some number of accepted outputs.",
+  "zh": "我们基本上倾向于只去验证某些输入能导致某些可接受的输出。"
+ },
+ {
+  "seg": 105,
+  "start": 578.585,
+  "end": 582.489,
+  "speaker": "Unknown",
+  "en": "And the sort of like space of how you test that is very straightforward.",
+  "zh": "而测试它的方式的空间是非常直截了当的。"
+ },
+ {
+  "seg": 106,
+  "start": 582.829,
+  "end": 588.535,
+  "speaker": "Unknown",
+  "en": "But most actual interesting software and like once you get to like a higher order software, you know, it just should be the system.",
+  "zh": "但大多数真正有趣的软件，比如说到了更高阶的软件，你知道的，它就应该是整个系统。"
+ },
+ {
+  "seg": 107,
+  "start": 588.975,
+  "end": 591.518,
+  "speaker": "Unknown",
+  "en": "Almost the entire piece of software is highly stateful.",
+  "zh": "几乎整个软件都是高度有状态的。"
+ },
+ {
+  "seg": 108,
+  "start": 591.558,
+  "end": 596.843,
+  "speaker": "Unknown",
+  "en": "It's highly dependent on the history of inputs up to this point across the entire software and also all the future inputs.",
+  "zh": "它高度依赖于到目前为止整个软件的输入历史，也依赖于所有未来的输入。"
+ },
+ {
+  "seg": 109,
+  "start": 596.903,
+  "end": 598.645,
+  "speaker": "Unknown",
+  "en": "It's like this huge, huge space.",
+  "zh": "这是一个巨大的、巨大的空间。"
+ },
+ {
+  "seg": 110,
+  "start": 599.065,
+  "end": 609.654,
+  "speaker": "Unknown",
+  "en": "And I think that when you're wrestling with trying to test that, just by testing it, you basically have to take into account the fact that a lot of behavior stems from faults.",
+  "zh": "而且我认为，当你在苦于试图测试它时，仅仅通过测试，你基本上必须考虑到很多行为都源于故障这一事实。"
+ },
+ {
+  "seg": 111,
+  "start": 610.094,
+  "end": 617.72,
+  "speaker": "Unknown",
+  "en": "Essentially with tests, you want to say like, what if A happens and then B happens and then C happens, where B and C are like bad things, like faults usually.",
+  "zh": "本质上，用测试时，你想说的是，如果 A 发生了，然后 B 发生了，然后 C 发生了会怎样，其中 B 和 C 是坏事情，通常是故障。"
+ },
+ {
+  "seg": 112,
+  "start": 618.021,
+  "end": 619.942,
+  "speaker": "Unknown",
+  "en": "Something went wrong, some input was incorrect.",
+  "zh": "某些东西出错了，某个输入不正确。"
+ },
+ {
+  "seg": 113,
+  "start": 620.383,
+  "end": 622.725,
+  "speaker": "Unknown",
+  "en": "And in order to test such a thing,",
+  "zh": "而为了测试这样的事情，"
+ },
+ {
+  "seg": 114,
+  "start": 623.285,
+  "end": 625.348,
+  "speaker": "Unknown",
+  "en": "People tend to reach for like integration tests, right?",
+  "zh": "人们倾向于用集成测试，对吧？"
+ },
+ {
+  "seg": 115,
+  "start": 625.388,
+  "end": 628.872,
+  "speaker": "Unknown",
+  "en": "So they sort of encode a particular series or a particular timeline of events.",
+  "zh": "所以他们会编码一个特定的事件序列或一个特定的事件时间线。"
+ },
+ {
+  "seg": 116,
+  "start": 629.472,
+  "end": 642.248,
+  "speaker": "Unknown",
+  "en": "And as humans, it's very easy to reason about an integration test because I can think, okay, I just want to force the software to like do A, do B, do C. But let's say you wanted to write an integration test to test something you didn't know existed.",
+  "zh": "作为人类，理解一个集成测试非常容易，因为我可以想，好的，我只想强迫软件去做 A、做 B、做 C。但假设你想写一个集成测试来测试某个你不知道存在的东西。"
+ },
+ {
+  "seg": 117,
+  "start": 642.808,
+  "end": 644.969,
+  "speaker": "Unknown",
+  "en": "Like, it's not obvious how to do that.",
+  "zh": "比如，怎么做并不明显。"
+ },
+ {
+  "seg": 118,
+  "start": 645.009,
+  "end": 656.933,
+  "speaker": "Unknown",
+  "en": "The only way you could maybe reasonably do that is write a test which tests all possible inputs at A, and then test all possible inputs at B for all possible inputs at A, and then so on.",
+  "zh": "你也许能合理做到的唯一方法，是写一个测试，测试 A 处所有可能的输入，然后对所有 A 处可能的输入测试 B 处所有可能的输入，依此类推。"
+ },
+ {
+  "seg": 119,
+  "start": 656.973,
+  "end": 659.174,
+  "speaker": "Unknown",
+  "en": "So you end up with this sort of tree-shaped thing.",
+  "zh": "所以你最终会得到这种树状的东西。"
+ },
+ {
+  "seg": 120,
+  "start": 659.434,
+  "end": 661.256,
+  "speaker": "Unknown",
+  "en": "Yeah, like a combinatorial problem there.",
+  "zh": "是的，就像一个组合问题。"
+ },
+ {
+  "seg": 121,
+  "start": 661.517,
+  "end": 661.957,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 122,
+  "start": 661.997,
+  "end": 668.244,
+  "speaker": "Unknown",
+  "en": "You sort of want to like test all the things that can occur after every sort of step of this like big state machine.",
+  "zh": "你基本上想测试这个大型状态机的每一步之后可能发生的所有事情。"
+ },
+ {
+  "seg": 123,
+  "start": 668.585,
+  "end": 676.814,
+  "speaker": "Unknown",
+  "en": "And state machine testing is very straightforward if it's pure, like if the state machine doesn't have any kind of like side effects that are non-deterministic.",
+  "zh": "而状态机测试在它是纯的情况下非常直截了当，比如说这个状态机没有任何非确定性的副作用。"
+ },
+ {
+  "seg": 124,
+  "start": 677.415,
+  "end": 683.377,
+  "speaker": "Unknown",
+  "en": "But most modern software, especially distributed systems, they have a huge surface of the state space is non-deterministic.",
+  "zh": "但大多数现代软件，尤其是分布式系统，它们的状态空间有巨大的一块是非确定性的。"
+ },
+ {
+  "seg": 125,
+  "start": 683.697,
+  "end": 690.18,
+  "speaker": "Unknown",
+  "en": "And because you can't sort of simulate those non-determinisms deterministically, it becomes this like very difficult problem.",
+  "zh": "而因为你无法确定性地模拟那些非确定性，这就变成了一个非常困难的问题。"
+ },
+ {
+  "seg": 126,
+  "start": 690.2,
+  "end": 698.623,
+  "speaker": "Unknown",
+  "en": "And so people, in my experience at single store, so pre-antithesis, you basically ended up with integration tests, which tested series of events that we knew existed.",
+  "zh": "所以以我在 Single Store 的经验，也就是 antithesis 之前，你基本上最终会得到测试我们已知存在的事件序列的集成测试。"
+ },
+ {
+  "seg": 127,
+  "start": 699.023,
+  "end": 708.885,
+  "speaker": "Unknown",
+  "en": "And those ended up being mostly regression tests, but maybe every once in a while we would inject some faults on the way sort of thing so we could try to verify that some error was like handled correctly.",
+  "zh": "那些最终大多是回归测试，但也许偶尔我们会在过程中注入一些故障，这样我们可以尝试验证某个错误被正确处理了。"
+ },
+ {
+  "seg": 128,
+  "start": 709.125,
+  "end": 709.745,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 129,
+  "start": 709.765,
+  "end": 717.707,
+  "speaker": "Unknown",
+  "en": "Or they sort of showed up as like stress tests where instead of trying to like test a particular timeline, we just tested huge numbers of random timelines.",
+  "zh": "或者它们表现为压力测试，我们不去测试特定的时间线，而是测试大量的随机时间线。"
+ },
+ {
+  "seg": 130,
+  "start": 718.207,
+  "end": 727.889,
+  "speaker": "Unknown",
+  "en": "And then we were basically saying like an aggregate, all of these timelines have a behavior that we want or property that we want, like they all converge or they all recover sort of thing.",
+  "zh": "然后我们基本上是在聚合层面说，所有这些时间线都有我们想要的行为或属性，比如它们都收敛，或者它们都能恢复之类。"
+ },
+ {
+  "seg": 131,
+  "start": 728.249,
+  "end": 735.635,
+  "speaker": "Unknown",
+  "en": "So that was basically a long way of saying, I think it's just way harder to test for unknown unknowns.",
+  "zh": "所以这基本上是在长篇大论地说，我认为测试未知的未知要难得多。"
+ },
+ {
+  "seg": 132,
+  "start": 735.715,
+  "end": 743.281,
+  "speaker": "Unknown",
+  "en": "And so I think most people just prefer to stick with the sort of simpler case of like, okay, let's make sure that the most obvious failure paths are sort of handled.",
+  "zh": "所以我想大多数人只是更愿意坚持较简单的情形，比如，好的，让我们确保最明显的失败路径得到处理。"
+ },
+ {
+  "seg": 133,
+  "start": 743.902,
+  "end": 750.287,
+  "speaker": "Unknown",
+  "en": "But the best kind of testing you can do is the one that can reach the space of like sort of future possibility.",
+  "zh": "但你能做的最好的测试，是那种能触及未来可能性空间的测试。"
+ },
+ {
+  "seg": 134,
+  "start": 750.667,
+  "end": 750.867,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 135,
+  "start": 751.408,
+  "end": 758.096,
+  "speaker": "Unknown",
+  "en": "Was Netflix's introduction of chaos engineering in some sense like an attempt to try to deal with this unknown?",
+  "zh": "Netflix 引入混沌工程，在某种意义上是不是就是试图应对这种未知？"
+ },
+ {
+  "seg": 136,
+  "start": 758.656,
+  "end": 759.657,
+  "speaker": "Unknown",
+  "en": "Yes, absolutely.",
+  "zh": "是的，绝对是。"
+ },
+ {
+  "seg": 137,
+  "start": 760.018,
+  "end": 763.061,
+  "speaker": "Unknown",
+  "en": "So chaos engineering and Netflix, what is the other one?",
+  "zh": "混沌工程和 Netflix，另一个是什么来着？"
+ },
+ {
+  "seg": 138,
+  "start": 764.022,
+  "end": 767.925,
+  "speaker": "Unknown",
+  "en": "I feel like Meta had a similar thing that they sort of talked about.",
+  "zh": "我感觉 Meta 也有类似的东西，他们谈论过。"
+ },
+ {
+  "seg": 139,
+  "start": 767.985,
+  "end": 769.506,
+  "speaker": "Unknown",
+  "en": "And I know Google does this as well.",
+  "zh": "我知道 Google 也这么做。"
+ },
+ {
+  "seg": 140,
+  "start": 769.546,
+  "end": 772.589,
+  "speaker": "Unknown",
+  "en": "Like Google does a lot of chaos engineering for like Google Cloud, for example.",
+  "zh": "比如 Google 为 Google Cloud 做很多混沌工程。"
+ },
+ {
+  "seg": 141,
+  "start": 772.809,
+  "end": 772.969,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 142,
+  "start": 772.989,
+  "end": 776.051,
+  "speaker": "Unknown",
+  "en": "I mean, I think that Netflix was the one that popularized it.",
+  "zh": "我是说，我认为 Netflix 是把它推广开来的那个。"
+ },
+ {
+  "seg": 143,
+  "start": 776.151,
+  "end": 783.697,
+  "speaker": "Unknown",
+  "en": "And then I'm sure the similar, the like hyperscalers probably had similar functions, but maybe it didn't have such a memorable name to it.",
+  "zh": "然后我确信类似的，那些超大规模云厂商可能也有类似的职能，但也许没有那么令人印象深刻的名字。"
+ },
+ {
+  "seg": 144,
+  "start": 784.157,
+  "end": 785.719,
+  "speaker": "Unknown",
+  "en": "And then other people sort of copied from there.",
+  "zh": "然后其他人就从那里开始效仿。"
+ },
+ {
+  "seg": 145,
+  "start": 786.392,
+  "end": 794.619,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, Netflix essentially is doing stress testing at scale, like they're essentially scaling up stress testing to production, first of all, which is amazing.",
+  "zh": "是的，我是说，Netflix 本质上是在做大规模的压力测试，比如他们本质上是把压力测试扩展到了生产环境，首先这一点就很了不起。"
+ },
+ {
+  "seg": 146,
+  "start": 794.96,
+  "end": 802.447,
+  "speaker": "Unknown",
+  "en": "And then they're doing it with the goal of basically verifying that if your system is constantly experiencing sort of bad weather,",
+  "zh": "然后他们这么做的目标基本上是验证，如果你的系统持续经历坏天气，"
+ },
+ {
+  "seg": 147,
+  "start": 803.007,
+  "end": 810.894,
+  "speaker": "Unknown",
+  "en": "You're going to be having to make it more reliable at a much faster pace than if you only experienced bad weather very rarely.",
+  "zh": "你将不得不以快得多的速度让它变得更可靠，而不是只在很少经历坏天气的情况下。"
+ },
+ {
+  "seg": 148,
+  "start": 811.255,
+  "end": 815.799,
+  "speaker": "Unknown",
+  "en": "And so they changed the culture to be, we have to handle this sort of bad weather all the time.",
+  "zh": "所以他们把文化改变成，我们必须一直应对这种坏天气。"
+ },
+ {
+  "seg": 149,
+  "start": 816.239,
+  "end": 828.01,
+  "speaker": "Unknown",
+  "en": "And that's a very similar mental model to just like, what if you make your testing system basically a continuous bad weather stress test, and then you require that your system can survive under that weather at all times.",
+  "zh": "这和这样的心智模型非常相似：如果你让你的测试系统基本上变成一个持续的坏天气压力测试，然后你要求你的系统在任何时候都能在那样的天气下存活。"
+ },
+ {
+  "seg": 150,
+  "start": 828.597,
+  "end": 831.598,
+  "speaker": "Unknown",
+  "en": "Yeah, we had an unintentional version of this years ago.",
+  "zh": "是的，我们多年前有过一个无意中形成的这种版本。"
+ },
+ {
+  "seg": 151,
+  "start": 831.618,
+  "end": 834.96,
+  "speaker": "Unknown",
+  "en": "Like my first ever engineering job was like 20 years ago in college.",
+  "zh": "我的第一份工程工作大概是 20 年前，还在上大学的时候。"
+ },
+ {
+  "seg": 152,
+  "start": 835.28,
+  "end": 848.006,
+  "speaker": "Unknown",
+  "en": "But we had basically our dev server was so bad and so slow that if we could make things work there in some reasonable way, we knew it would work on production because the production server was like, had so much more capacity.",
+  "zh": "但当时我们的 dev server 太差太慢，以至于如果我们能让东西在那里以某种合理的方式跑起来，我们就知道它在生产环境也能跑，因为生产服务器的容量大得多。"
+ },
+ {
+  "seg": 153,
+  "start": 848.346,
+  "end": 849.007,
+  "speaker": "Unknown",
+  "en": "It was such better.",
+  "zh": "它好太多了。"
+ },
+ {
+  "seg": 154,
+  "start": 849.027,
+  "end": 855.43,
+  "speaker": "Unknown",
+  "en": "So it was like, if this is fast in this environment, it's going to be really fast when it actually hits production and it can survive a whole host of conditions.",
+  "zh": "所以就相当于，如果它在那个环境里很快，那等它真正进入生产环境时就会非常快，而且能经受住各种条件的考验。"
+ },
+ {
+  "seg": 155,
+  "start": 855.93,
+  "end": 864.452,
+  "speaker": "Unknown",
+  "en": "Yeah, like I actually I've talked about this a lot with antithesis customers is like antithesis customers at some point, they need to bring their system into antithesis.",
+  "zh": "是的，我实际上和 antithesis 的客户经常聊这个话题，就是 antithesis 的客户在某些时候，需要把他们的系统带进 antithesis。"
+ },
+ {
+  "seg": 156,
+  "start": 864.572,
+  "end": 867.393,
+  "speaker": "Unknown",
+  "en": "And sometimes that means that you might have to like mock a service.",
+  "zh": "而有时这意味着你可能不得不 mock 某个服务。"
+ },
+ {
+  "seg": 157,
+  "start": 867.413,
+  "end": 869.253,
+  "speaker": "Unknown",
+  "en": "Like, for example, let's say you depend on Stripe.",
+  "zh": "比如说，假设你依赖 Stripe。"
+ },
+ {
+  "seg": 158,
+  "start": 869.533,
+  "end": 871.194,
+  "speaker": "Unknown",
+  "en": "Well, we can't put Stripe in antithesis.",
+  "zh": "嗯，我们没法把 Stripe 放进 antithesis。"
+ },
+ {
+  "seg": 159,
+  "start": 871.634,
+  "end": 875.455,
+  "speaker": "Unknown",
+  "en": "So we need to provide some kind of like Stripe like thing like a mock.",
+  "zh": "所以我们需要提供某种类似 Stripe 的东西，比如一个 mock。"
+ },
+ {
+  "seg": 160,
+  "start": 875.935,
+  "end": 882.34,
+  "speaker": "Unknown",
+  "en": "And a question that comes up often is like, well, what if the fidelity of the mock isn't as equivalent to Stripe?",
+  "zh": "一个经常出现的问题是，好吧，如果 mock 的保真度不如 Stripe 怎么办？"
+ },
+ {
+  "seg": 161,
+  "start": 882.72,
+  "end": 884.241,
+  "speaker": "Unknown",
+  "en": "Isn't that going to be an invalid test?",
+  "zh": "那这不就成了一个无效的测试吗？"
+ },
+ {
+  "seg": 162,
+  "start": 884.361,
+  "end": 889.905,
+  "speaker": "Unknown",
+  "en": "And the way I generally frame this is you just need to make sure that the mock is worse than what can happen.",
+  "zh": "而我一般的表述方式是，你只需要确保 mock 比可能发生的情况更糟糕。"
+ },
+ {
+  "seg": 163,
+  "start": 890.246,
+  "end": 900.353,
+  "speaker": "Unknown",
+  "en": "As long as it's sort of a superset of behaviors where the behaviors are all worse than what you're going to get for production, you sort of can use that as a way of like verifying some software, right?",
+  "zh": "只要它在某种程度上是行为的一个超集，而这些行为都比你在生产环境中会遇到的情况更糟，你基本上就可以用它作为一种验证软件的方式，对吧？"
+ },
+ {
+  "seg": 164,
+  "start": 900.393,
+  "end": 903.956,
+  "speaker": "Unknown",
+  "en": "So it's easier sometimes to make a worse mock that has",
+  "zh": "所以有时候，做一个更糟糕但"
+ },
+ {
+  "seg": 165,
+  "start": 904.476,
+  "end": 908.508,
+  "speaker": "Unknown",
+  "en": "A wider range of potential failure scenarios than a perfect fidelity mock.",
+  "zh": "拥有更广范围潜在失败场景的 mock，比做一个完美保真度的 mock 更容易。"
+ },
+ {
+  "seg": 166,
+  "start": 908.588,
+  "end": 911.215,
+  "speaker": "Unknown",
+  "en": "And so that's one way to balance that equation.",
+  "zh": "这是平衡这个等式的一种方式。"
+ },
+ {
+  "seg": 167,
+  "start": 911.873,
+  "end": 922.615,
+  "speaker": "Unknown",
+  "en": "What about now where increasingly we're building software systems that are also largely dependent on non-determinist processes where they're going to hit some LLM to generate an output?",
+  "zh": "那现在呢，我们越来越多地在构建那些也在很大程度上依赖非确定性过程的软件系统，它们会调用某个 LLM 来生成输出？"
+ },
+ {
+  "seg": 168,
+  "start": 922.995,
+  "end": 933.837,
+  "speaker": "Unknown",
+  "en": "And essentially, we can eval that and basically have a probabilistic measurement of how often it's going to return the result in a form that matches our expectation.",
+  "zh": "本质上，我们可以对它做 eval，基本上得到一个概率性的度量，即它以符合我们期望的形式返回结果的频率有多高。"
+ },
+ {
+  "seg": 169,
+  "start": 933.897,
+  "end": 936.898,
+  "speaker": "Unknown",
+  "en": "But how does that change, I guess, like the way that we think about testing?",
+  "zh": "但我想问，这会怎么改变我们思考测试的方式呢？"
+ },
+ {
+  "seg": 170,
+  "start": 937.358,
+  "end": 938.358,
+  "speaker": "Unknown",
+  "en": "I don't think it changes it.",
+  "zh": "我不认为它改变了它。"
+ },
+ {
+  "seg": 171,
+  "start": 938.519,
+  "end": 943.341,
+  "speaker": "Unknown",
+  "en": "I think that it opens up the state space that you need to test quite a bit.",
+  "zh": "我认为它在相当大的程度上扩展了你需要测试的状态空间。"
+ },
+ {
+  "seg": 172,
+  "start": 943.781,
+  "end": 953.405,
+  "speaker": "Unknown",
+  "en": "So if you think about, let's say that as part of your application's business logic, it's essentially asking the LLM what to do next at some point in some multi-step process.",
+  "zh": "所以你想想，比如说，作为你应用业务逻辑的一部分，它在某个多步骤流程中的某个时刻，本质上是问 LLM 下一步该做什么。"
+ },
+ {
+  "seg": 173,
+  "start": 953.845,
+  "end": 958.427,
+  "speaker": "Unknown",
+  "en": "Now, the potential next steps you might be able to go from that point",
+  "zh": "现在，从那个点出发的潜在下一步"
+ },
+ {
+  "seg": 174,
+  "start": 958.887,
+  "end": 960.948,
+  "speaker": "Unknown",
+  "en": "May have just exploded in possibility.",
+  "zh": "可能已经爆炸式增长了。"
+ },
+ {
+  "seg": 175,
+  "start": 961.068,
+  "end": 971.09,
+  "speaker": "Unknown",
+  "en": "Like if you're in an extreme case, you're basically letting the LLM agent run in some kind of like Linux sandbox and it's just able to essentially do anything it wants on the machine.",
+  "zh": "比如在一个极端的情况下，你基本上是让 LLM 智能体在某种 Linux 沙箱里运行，它基本上可以在机器上做任何它想做的事。"
+ },
+ {
+  "seg": 176,
+  "start": 971.53,
+  "end": 983.033,
+  "speaker": "Unknown",
+  "en": "So now what you have to do is you basically have to verify that all of your downstream effect, all of your software that reacts to that new input can react to a much wider range of new inputs.",
+  "zh": "所以现在你要做的，基本上是验证你所有的下游影响，你所有对这个新输入作出反应的软件，都能应对范围大得多的新输入。"
+ },
+ {
+  "seg": 177,
+  "start": 983.393,
+  "end": 998.278,
+  "speaker": "Unknown",
+  "en": "And so the need for procedural testing or in antithesis parlance like deterministic simulation testing where you're actually testing like all of the possible next steps is even more important because you need to be able to handle sort of a much wider range of inputs.",
+  "zh": "因此，对程序化测试的需求，或者用 antithesis 的说法叫确定性仿真测试，也就是你真正在测试所有可能的下一步，就变得更加重要了，因为你需要能够应对范围大得多的输入。"
+ },
+ {
+  "seg": 178,
+  "start": 998.858,
+  "end": 998.978,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 179,
+  "start": 998.998,
+  "end": 1002.76,
+  "speaker": "Unknown",
+  "en": "Can you go into a little bit more detail about the deterministic simulation testing?",
+  "zh": "你能再详细讲讲确定性仿真测试吗？"
+ },
+ {
+  "seg": 180,
+  "start": 1002.84,
+  "end": 1005.441,
+  "speaker": "Unknown",
+  "en": "How do you explain that, I guess, to like clients?",
+  "zh": "我想问，你会怎么向客户解释它？"
+ },
+ {
+  "seg": 181,
+  "start": 1005.461,
+  "end": 1006.641,
+  "speaker": "Unknown",
+  "en": "Like what exactly was happening there?",
+  "zh": "比如那里到底发生了什么？"
+ },
+ {
+  "seg": 182,
+  "start": 1007.137,
+  "end": 1011.74,
+  "speaker": "Unknown",
+  "en": "Yeah, so the fundamental idea of DST is a couple of things.",
+  "zh": "好的，DST 的基本思想有这么几点。"
+ },
+ {
+  "seg": 183,
+  "start": 1011.84,
+  "end": 1018.385,
+  "speaker": "Unknown",
+  "en": "The first thing is that you need to take your code, your system that you're testing, and you need to basically be able to make it deterministic.",
+  "zh": "第一件事是，你需要拿你的代码，你正在测试的系统，然后你基本上要能让它变得确定性。"
+ },
+ {
+  "seg": 184,
+  "start": 1018.545,
+  "end": 1020.187,
+  "speaker": "Unknown",
+  "en": "And there's a number of ways to do that.",
+  "zh": "做这件事有很多种方法。"
+ },
+ {
+  "seg": 185,
+  "start": 1020.467,
+  "end": 1024.43,
+  "speaker": "Unknown",
+  "en": "Antithesis provides a solution that does this automatically for like Linux.",
+  "zh": "antithesis 提供了一个针对 Linux 自动做到这一点的解决方案。"
+ },
+ {
+  "seg": 186,
+  "start": 1024.95,
+  "end": 1028.974,
+  "speaker": "Unknown",
+  "en": "So you can just deploy your software as is to our platform.",
+  "zh": "所以你可以原封不动地把你的软件部署到我们的平台上。"
+ },
+ {
+  "seg": 187,
+  "start": 1029.514,
+  "end": 1032.236,
+  "speaker": "Unknown",
+  "en": "You can think of us as like a deployment target, like an EC2 server.",
+  "zh": "你可以把我们想象成一个部署目标，就像一台 EC2 服务器。"
+ },
+ {
+  "seg": 188,
+  "start": 1032.276,
+  "end": 1033.878,
+  "speaker": "Unknown",
+  "en": "So you deploy your software to us.",
+  "zh": "所以你把软件部署到我们这里。"
+ },
+ {
+  "seg": 189,
+  "start": 1034.318,
+  "end": 1044.267,
+  "speaker": "Unknown",
+  "en": "And as long as the software is entirely running inside of that same EC2 server, so like let's say you split up your software into Docker containers or whatnot, the whole system as a whole is deterministic.",
+  "zh": "而只要软件完全运行在那台同一台 EC2 服务器里面，比如假设你把软件拆成了 Docker 容器之类的，整个系统作为一个整体就是确定性的。"
+ },
+ {
+  "seg": 190,
+  "start": 1044.387,
+  "end": 1047.768,
+  "speaker": "Unknown",
+  "en": "So it will only suffer non-determinism that we inject.",
+  "zh": "所以它只会遭受我们注入的非确定性。"
+ },
+ {
+  "seg": 191,
+  "start": 1047.928,
+  "end": 1048.829,
+  "speaker": "Unknown",
+  "en": "So we control it.",
+  "zh": "也就是说它由我们控制。"
+ },
+ {
+  "seg": 192,
+  "start": 1049.049,
+  "end": 1050.709,
+  "speaker": "Unknown",
+  "en": "Your software still sees non-determinism.",
+  "zh": "你的软件仍然会看到非确定性。"
+ },
+ {
+  "seg": 193,
+  "start": 1050.729,
+  "end": 1055.551,
+  "speaker": "Unknown",
+  "en": "So it sees randomness, it sees time, it seems ordering of events that may differ, stuff like that.",
+  "zh": "所以它会看到随机性，会看到时间，会看到可能不同的时间排序之类的东西。"
+ },
+ {
+  "seg": 194,
+  "start": 1055.911,
+  "end": 1059.692,
+  "speaker": "Unknown",
+  "en": "But we can reproduce the exact non-determinism that we inject.",
+  "zh": "但我们可以复现我们注入的完全相同的非确定性。"
+ },
+ {
+  "seg": 195,
+  "start": 1060.013,
+  "end": 1062.433,
+  "speaker": "Unknown",
+  "en": "So that's one way you can do it is use the antithesis model.",
+  "zh": "这是一种做法，就是使用 antithesis 模式。"
+ },
+ {
+  "seg": 196,
+  "start": 1062.674,
+  "end": 1069.416,
+  "speaker": "Unknown",
+  "en": "The other way you can do it, of course, is by essentially rewriting your software where all possible non-determinism is injected.",
+  "zh": "另一种做法，当然，是本质上重写你的软件，把所有可能的非确定性都变成注入式的。"
+ },
+ {
+  "seg": 197,
+  "start": 1069.716,
+  "end": 1072.338,
+  "speaker": "Unknown",
+  "en": "So that essentially means you need to control the environment.",
+  "zh": "那这本质上意味着你需要控制环境。"
+ },
+ {
+  "seg": 198,
+  "start": 1072.358,
+  "end": 1078.181,
+  "speaker": "Unknown",
+  "en": "So any reads you have to a non-deterministic source, like time, randomness, and so on is controllable.",
+  "zh": "所以你对任何非确定性来源的读取，比如时间、随机性等等，都要是可控制的。"
+ },
+ {
+  "seg": 199,
+  "start": 1078.541,
+  "end": 1080.743,
+  "speaker": "Unknown",
+  "en": "And then you also need to be able to control scheduling.",
+  "zh": "然后你还需要能够控制调度。"
+ },
+ {
+  "seg": 200,
+  "start": 1080.763,
+  "end": 1085.225,
+  "speaker": "Unknown",
+  "en": "So you need to make sure that like the software ordering of events occur in a controlled way.",
+  "zh": "所以你需要确保软件中事件的顺序以一种受控的方式发生。"
+ },
+ {
+  "seg": 201,
+  "start": 1085.746,
+  "end": 1092.13,
+  "speaker": "Unknown",
+  "en": "So that is the first sort of ingredient to deterministic simulation testing is a deterministic way to run your software.",
+  "zh": "这就是确定性模拟测试的第一个要素，即以确定性的方式运行你的软件。"
+ },
+ {
+  "seg": 202,
+  "start": 1092.39,
+  "end": 1094.931,
+  "speaker": "Unknown",
+  "en": "And is the user responsible for some of that?",
+  "zh": "那其中一部分是用户负责的吗？"
+ },
+ {
+  "seg": 203,
+  "start": 1094.951,
+  "end": 1096.512,
+  "speaker": "Unknown",
+  "en": "Like you mentioned, for example, like time.",
+  "zh": "比如你刚才提到的，例如时间。"
+ },
+ {
+  "seg": 204,
+  "start": 1096.532,
+  "end": 1097.293,
+  "speaker": "Unknown",
+  "en": "So if I have something that",
+  "zh": "所以如果我有某个东西"
+ },
+ {
+  "seg": 205,
+  "start": 1097.873,
+  "end": 1099.754,
+  "speaker": "Unknown",
+  "en": "Maybe it generates like a random number in my code.",
+  "zh": "也许它会在我的代码里生成一个随机数。"
+ },
+ {
+  "seg": 206,
+  "start": 1100.354,
+  "end": 1115.298,
+  "speaker": "Unknown",
+  "en": "Do I have to, when I'm using the software to set up these tests, do I have to set something specific in my software, like using, I don't know, library or whatever it is, to kind of mock up a deterministic response rather than a random response in that case?",
+  "zh": "那么当我在使用这个软件来搭建这些测试时，我是否需要在软件里设置一些特定的东西，比如使用某个库之类的，来模拟出一个确定性的响应而不是随机响应？"
+ },
+ {
+  "seg": 207,
+  "start": 1115.358,
+  "end": 1118.259,
+  "speaker": "Unknown",
+  "en": "Or is that something that is offloaded to the platform?",
+  "zh": "还是说这是交给平台来处理的？"
+ },
+ {
+  "seg": 208,
+  "start": 1118.659,
+  "end": 1120.62,
+  "speaker": "Unknown",
+  "en": "On antithesis, it's offloaded to the platform.",
+  "zh": "在 antithesis 上，这是交给平台处理的。"
+ },
+ {
+  "seg": 209,
+  "start": 1120.72,
+  "end": 1122.822,
+  "speaker": "Unknown",
+  "en": "So we control system randomness.",
+  "zh": "所以我们控制系统随机性。"
+ },
+ {
+  "seg": 210,
+  "start": 1122.842,
+  "end": 1133.03,
+  "speaker": "Unknown",
+  "en": "So if you read any random number from the system, like, for example, you read, like, DevUrandom on Linux, or you do anything like that, you're always going to get something that we completely control.",
+  "zh": "所以如果你从系统里读取任何随机数，比如你在 Linux 上读取 DevUrandom，或者做类似的事情，你得到的永远是我们完全控制的东西。"
+ },
+ {
+  "seg": 211,
+  "start": 1133.31,
+  "end": 1145.6,
+  "speaker": "Unknown",
+  "en": "Now, a lot of software will read DevUrandom and time, and then they'll, like, mix the bits, and then they'll initialize, like, a PRNG, for example, to be able to have faster random number generation, which most runtimes will do.",
+  "zh": "现在，很多软件会读取 DevUrandom 和时间，然后把比特混合起来，然后初始化一个 PRNG，以便能有更快的随机数生成，大多数运行时都会这么做。"
+ },
+ {
+  "seg": 212,
+  "start": 1146.06,
+  "end": 1149.121,
+  "speaker": "Unknown",
+  "en": "When you're running an antithesis, we actually recommend that you don't do this.",
+  "zh": "当你在 antithesis 上运行时，我们实际上建议你不要这样做。"
+ },
+ {
+  "seg": 213,
+  "start": 1149.241,
+  "end": 1155.983,
+  "speaker": "Unknown",
+  "en": "So if you do use a PRNG in your software, you actually replace the PRNG with direct reads to system randomness.",
+  "zh": "所以如果你的软件里确实使用了 PRNG，你应该用对系统随机性的直接读取来替代 PRNG。"
+ },
+ {
+  "seg": 214,
+  "start": 1156.543,
+  "end": 1157.503,
+  "speaker": "Unknown",
+  "en": "And there's a reason for that.",
+  "zh": "这是有原因的。"
+ },
+ {
+  "seg": 215,
+  "start": 1157.523,
+  "end": 1160.104,
+  "speaker": "Unknown",
+  "en": "And that reason is the second ingredient of DST.",
+  "zh": "而这个原因就是 DST 的第二个要素。"
+ },
+ {
+  "seg": 216,
+  "start": 1160.164,
+  "end": 1162.064,
+  "speaker": "Unknown",
+  "en": "So the first ingredient is determinism.",
+  "zh": "第一个要素是确定性。"
+ },
+ {
+  "seg": 217,
+  "start": 1162.124,
+  "end": 1164.245,
+  "speaker": "Unknown",
+  "en": "So the ability to be deterministic.",
+  "zh": "也就是能够做到确定性的能力。"
+ },
+ {
+  "seg": 218,
+  "start": 1164.265,
+  "end": 1165.505,
+  "speaker": "Unknown",
+  "en": "So the same series of events occur.",
+  "zh": "即同样的一系列事件发生。"
+ },
+ {
+  "seg": 219,
+  "start": 1165.985,
+  "end": 1168.227,
+  "speaker": "Unknown",
+  "en": "The second ingredient of DST is simulation.",
+  "zh": "DST 的第二个要素是模拟。"
+ },
+ {
+  "seg": 220,
+  "start": 1168.688,
+  "end": 1185.784,
+  "speaker": "Unknown",
+  "en": "And the reason why we want to be able to control randomness at every moment, so you not having a PRNG that's preceded that has a particular series of events that's going to happen, but instead you're always asking us for randomness, is that in DST, we want to be able to branch the simulation.",
+  "zh": "我们为什么想要能够在每一个时刻控制随机性，也就是你不拥有一个预先确定了特定事件序列将要发生的 PRNG，而是始终向我们请求随机性，原因在于在 DST 中，我们希望能够对模拟进行分支。"
+ },
+ {
+  "seg": 221,
+  "start": 1186.264,
+  "end": 1197.074,
+  "speaker": "Unknown",
+  "en": "So if you think about your software as being like a series of inputs that lead to some change to the software, some state change, effectively, all of this starts at like the root moment.",
+  "zh": "如果你把你的软件想象成一系列输入，这些输入导致软件发生某种变化、某种状态变化，那么实际上这一切都始于一个根时刻。"
+ },
+ {
+  "seg": 222,
+  "start": 1197.114,
+  "end": 1198.795,
+  "speaker": "Unknown",
+  "en": "So your software has just booted.",
+  "zh": "你的软件刚刚启动。"
+ },
+ {
+  "seg": 223,
+  "start": 1199.015,
+  "end": 1199.516,
+  "speaker": "Unknown",
+  "en": "It's fresh.",
+  "zh": "它是全新的。"
+ },
+ {
+  "seg": 224,
+  "start": 1199.736,
+  "end": 1201.838,
+  "speaker": "Unknown",
+  "en": "It's starting from like a completely known state.",
+  "zh": "它从一个完全已知的状态开始。"
+ },
+ {
+  "seg": 225,
+  "start": 1202.258,
+  "end": 1208.145,
+  "speaker": "Unknown",
+  "en": "And then something is happening to the software, it's provided inputs, it's proceeding linearly through history.",
+  "zh": "然后软件上发生了一些事情，它被提供输入，它沿着历史线性推进。"
+ },
+ {
+  "seg": 226,
+  "start": 1208.665,
+  "end": 1219.017,
+  "speaker": "Unknown",
+  "en": "And since it's deterministic, we can go back to any point in that linear history, and we can branch and we can say, you know what, what we want to do is at this moment, we want to change randomness, for example.",
+  "zh": "由于它是确定性的，我们可以回到那段线性历史中的任何一个点，然后我们可以分支，我们可以说，你知道，我们想要做的是在这个时刻，比如改变随机性。"
+ },
+ {
+  "seg": 227,
+  "start": 1219.457,
+  "end": 1226.4,
+  "speaker": "Unknown",
+  "en": "And then we're going to create a new timeline starting at that moment that's going to proceed in its own sort of butterfly effect history.",
+  "zh": "然后我们会从那一刻创建一条新的时间线，它会以自己那种蝴蝶效应式的历史推进。"
+ },
+ {
+  "seg": 228,
+  "start": 1226.801,
+  "end": 1237.506,
+  "speaker": "Unknown",
+  "en": "And so because your software is reading from like, for example, our random source, like our system randomness every single time it's making a decision, we can branch at a much more fine grained point.",
+  "zh": "因此，因为你的软件每次做决策时都是从——比如——我们的随机源、我们的系统随机性中读取，我们可以在更细粒度的点上进行分支。"
+ },
+ {
+  "seg": 229,
+  "start": 1238.118,
+  "end": 1252.232,
+  "speaker": "Unknown",
+  "en": "Like this is a little bit of in the weeds detail, but if you instead use a PRNG, then even if we branch the timeline, you're still going to see like the same series of random numbers in that new branch, unless we have a way of like reseeding the PRNG.",
+  "zh": "这有点过于细节了，但如果你改用 PRNG，那么即使我们对时间线进行了分支，在那条新分支里你仍然会看到同样的随机数序列，除非我们有办法重新给 PRNG 播种。"
+ },
+ {
+  "seg": 230,
+  "start": 1252.732,
+  "end": 1253.053,
+  "speaker": "Unknown",
+  "en": "Mm-hmm .",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 231,
+  "start": 1254.554,
+  "end": 1260.296,
+  "speaker": "Unknown",
+  "en": "A little bit of an aside on like randomness, but the point going back to like your original question of like, what is DSD, right?",
+  "zh": "关于随机性稍微说点题外话，但回到你最初的问题，也就是什么是 DSD，对吧？"
+ },
+ {
+  "seg": 232,
+  "start": 1260.316,
+  "end": 1262.077,
+  "speaker": "Unknown",
+  "en": "We have determinism and simulation.",
+  "zh": "我们有确定性和模拟。"
+ },
+ {
+  "seg": 233,
+  "start": 1262.117,
+  "end": 1267.419,
+  "speaker": "Unknown",
+  "en": "So determinism is your software sees the same series of events every time and we can replay basically.",
+  "zh": "所以确定性是你的软件每次都看到同样的事件序列，而且我们基本上可以进行重放。"
+ },
+ {
+  "seg": 234,
+  "start": 1267.86,
+  "end": 1275.683,
+  "speaker": "Unknown",
+  "en": "Then simulation is the ability to branch the state space or branch that timeline into a new timeline and explore different orders of events.",
+  "zh": "然后模拟是将状态空间分支，或者说把那条时间线分支成一条新的时间线，并探索不同的事件顺序。"
+ },
+ {
+  "seg": 235,
+  "start": 1276.163,
+  "end": 1284.613,
+  "speaker": "Unknown",
+  "en": "And so the really powerful thing about DST is once you do this, you can basically say like a good example is, let's say you have a distributed system with like three nodes.",
+  "zh": "所以 DST 真正强大的地方在于，一旦你做到这一点，你基本上可以说——举个例子，假设你有一个有三个节点的分布式系统。"
+ },
+ {
+  "seg": 236,
+  "start": 1285.034,
+  "end": 1291.161,
+  "speaker": "Unknown",
+  "en": "What you can do is you can basically say, all right, like we're going to wait until one of the nodes crashes for some reason.",
+  "zh": "你可以做的基本上是，好吧，我们要等到其中一个节点因为某种原因崩溃。"
+ },
+ {
+  "seg": 237,
+  "start": 1291.562,
+  "end": 1292.403,
+  "speaker": "Unknown",
+  "en": "So great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 238,
+  "start": 1292.723,
+  "end": 1294.826,
+  "speaker": "Unknown",
+  "en": "In most distributed systems like Raft, for example,",
+  "zh": "在大多数分布式系统中，比如 Raft，"
+ },
+ {
+  "seg": 239,
+  "start": 1295.226,
+  "end": 1297.269,
+  "speaker": "Unknown",
+  "en": "It should be able to handle like one node dying, right?",
+  "zh": "它应该能够处理一个节点挂掉的情况，对吧？"
+ },
+ {
+  "seg": 240,
+  "start": 1297.309,
+  "end": 1298.57,
+  "speaker": "Unknown",
+  "en": "So one node crashes.",
+  "zh": "于是有一个节点崩溃了。"
+ },
+ {
+  "seg": 241,
+  "start": 1299.031,
+  "end": 1307.842,
+  "speaker": "Unknown",
+  "en": "And then what we want to do is we want to basically branch a whole bunch of timelines after that node dies and then experiment with different series of events that happen.",
+  "zh": "然后我们想要做的是，基本上在那个节点挂掉之后分支出一大堆时间线，然后试验不同的事件序列。"
+ },
+ {
+  "seg": 242,
+  "start": 1308.143,
+  "end": 1309.925,
+  "speaker": "Unknown",
+  "en": "So what happens if that node recovers?",
+  "zh": "所以如果那个节点恢复了会怎样？"
+ },
+ {
+  "seg": 243,
+  "start": 1310.225,
+  "end": 1316.429,
+  "speaker": "Unknown",
+  "en": "During a new leadership election, like right in the middle of leadership election, does something occur that is bad?",
+  "zh": "在一次新的领导选举期间，就在领导选举进行到一半的时候，会不会发生什么糟糕的事情？"
+ },
+ {
+  "seg": 244,
+  "start": 1316.629,
+  "end": 1325.856,
+  "speaker": "Unknown",
+  "en": "And so by being able to branch the simulation and trying different things out in different orders from any point, we have the ability to sort of breadth first search the state space of your software.",
+  "zh": "通过能够对模拟进行分支、从任意一点以不同顺序尝试不同的事情，我们就有能力对你的软件的状态空间进行某种广度优先搜索。"
+ },
+ {
+  "seg": 245,
+  "start": 1326.396,
+  "end": 1329.939,
+  "speaker": "Unknown",
+  "en": "And that is the sort of ingredients of what DST is.",
+  "zh": "这就是 DST 的组成要素。"
+ },
+ {
+  "seg": 246,
+  "start": 1330.639,
+  "end": 1331.46,
+  "speaker": "Unknown",
+  "en": "How does it figure that out?",
+  "zh": "它是怎么弄清楚这一点的？"
+ },
+ {
+  "seg": 247,
+  "start": 1331.48,
+  "end": 1336.082,
+  "speaker": "Unknown",
+  "en": "Like how's it deciding where to look and like what tests to run and do that branching?",
+  "zh": "它是怎么决定往哪里看、运行什么测试、以及做那个分支的？"
+ },
+ {
+  "seg": 248,
+  "start": 1336.423,
+  "end": 1340.345,
+  "speaker": "Unknown",
+  "en": "Is it actually inspecting like the bytes of the code that I've uploaded to execute?",
+  "zh": "它是不是真的在检查我上传来执行的那些代码的字节？"
+ },
+ {
+  "seg": 249,
+  "start": 1340.685,
+  "end": 1341.325,
+  "speaker": "Unknown",
+  "en": "So almost.",
+  "zh": "几乎是。"
+ },
+ {
+  "seg": 250,
+  "start": 1341.666,
+  "end": 1345.868,
+  "speaker": "Unknown",
+  "en": "So there's another sort of adjacent area of research, which is called fuzzing.",
+  "zh": "所以还有另一个相邻的研究领域，叫做 fuzzing(模糊测试)。"
+ },
+ {
+  "seg": 251,
+  "start": 1346.268,
+  "end": 1348.049,
+  "speaker": "Unknown",
+  "en": "And you've probably heard of fuzzing.",
+  "zh": "你可能听说过 fuzzing。"
+ },
+ {
+  "seg": 252,
+  "start": 1348.069,
+  "end": 1353.993,
+  "speaker": "Unknown",
+  "en": "And if you haven't heard of fuzzing, I mean, fuzzing basically is, let's say you're writing like a JPEG encoder or an image encoder.",
+  "zh": "如果你没听说过 fuzzing,我的意思是，fuzzing 基本上就是，假设你在写一个 JPEG 编码器或者图像编码器。"
+ },
+ {
+  "seg": 253,
+  "start": 1354.273,
+  "end": 1365.859,
+  "speaker": "Unknown",
+  "en": "And you want to basically verify that the encoder can take any amount of input bytes, so some arbitrary noise, and it always can encode like a valid JPEG, or it can error in a clean way.",
+  "zh": "你想基本上验证这个编码器可以接受任意数量的输入字节，也就是一些任意的噪声，并且它总是能编码出一个有效的 JPEG,或者能以一种干净的方式报错。"
+ },
+ {
+  "seg": 254,
+  "start": 1365.879,
+  "end": 1367.24,
+  "speaker": "Unknown",
+  "en": "It doesn't ever crash, for example.",
+  "zh": "比如它永远不会崩溃。"
+ },
+ {
+  "seg": 255,
+  "start": 1367.44,
+  "end": 1370.342,
+  "speaker": "Unknown",
+  "en": "And so in fuzzers, in that world of research,",
+  "zh": "所以在 fuzzer 领域，在那个研究世界里，"
+ },
+ {
+  "seg": 256,
+  "start": 1370.802,
+  "end": 1373.724,
+  "speaker": "Unknown",
+  "en": "One of the strategies that they use is called coverage-guided fuzzing.",
+  "zh": "他们使用的一种策略叫做覆盖率引导的 fuzzing(coverage-guided fuzzing)。"
+ },
+ {
+  "seg": 257,
+  "start": 1373.764,
+  "end": 1380.768,
+  "speaker": "Unknown",
+  "en": "So coverage-guided fuzzing is basically we're going to monitor all of the branches that the code under test is taking.",
+  "zh": "覆盖率引导的 fuzzing 基本上就是，我们要监控被测代码所走的所有分支。"
+ },
+ {
+  "seg": 258,
+  "start": 1380.788,
+  "end": 1387.291,
+  "speaker": "Unknown",
+  "en": "So we have this fuzzer code like libjpg, for example, and it has a bunch of internal if conditions that go down different branches.",
+  "zh": "比如我们有这个 fuzzer 代码，例如 libjpg,它有一堆内部 if 条件，会走向不同的分支。"
+ },
+ {
+  "seg": 259,
+  "start": 1387.531,
+  "end": 1389.853,
+  "speaker": "Unknown",
+  "en": "And we're going to monitor which branches are triggered.",
+  "zh": "而我们要监控哪些分支被触发了。"
+ },
+ {
+  "seg": 260,
+  "start": 1390.273,
+  "end": 1397.317,
+  "speaker": "Unknown",
+  "en": "And as we run random noise through this, we're going to start building a map of this noise triggered this series of branches.",
+  "zh": "当我们把随机噪声灌进去运行时，我们开始构建一个地图：这段噪声触发了这一系列分支。"
+ },
+ {
+  "seg": 261,
+  "start": 1397.617,
+  "end": 1401.098,
+  "speaker": "Unknown",
+  "en": "And then we changed the noise and we could see, oh, a different series of branches were taken.",
+  "zh": "然后我们改变噪声，可以看到，哦，走了另一系列不同的分支。"
+ },
+ {
+  "seg": 262,
+  "start": 1401.479,
+  "end": 1406.12,
+  "speaker": "Unknown",
+  "en": "And by doing this over and over and over in a tight loop, we gained some knowledge about the system without having to- Right.",
+  "zh": "通过在一个紧密的循环里一遍又一遍地这样做，我们在不必——对。"
+ },
+ {
+  "seg": 263,
+  "start": 1406.36,
+  "end": 1406.621,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 264,
+  "start": 1406.641,
+  "end": 1414.003,
+  "speaker": "Unknown",
+  "en": "So basically you're treating the system as a black box, but you have inputs coming in and you can send the same input, generate the same output.",
+  "zh": "所以基本上你是把系统当作黑盒，但你有输入进来，你可以发送相同的输入，生成相同的输出。"
+ },
+ {
+  "seg": 265,
+  "start": 1414.303,
+  "end": 1414.544,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 266,
+  "start": 1414.564,
+  "end": 1416.404,
+  "speaker": "Unknown",
+  "en": "And then vary the inputs to vary the output.",
+  "zh": "然后通过改变输入来改变输出。"
+ },
+ {
+  "seg": 267,
+  "start": 1416.724,
+  "end": 1425.468,
+  "speaker": "Unknown",
+  "en": "It's actually kind of similar to a conversation I had last year on reverse engineering kernels, essentially, where they're doing the same thing to try to figure out",
+  "zh": "这其实有点像去年我做过的一次关于逆向工程内核的对话，本质上，他们在做同样的事情来试图弄清楚"
+ },
+ {
+  "seg": 268,
+  "start": 1426.148,
+  "end": 1438.012,
+  "speaker": "Unknown",
+  "en": "What is the, or sorry, reverse engineering chips, where Apple doesn't give you the blueprint of how the chips work, but you can basically through inputs, you can simulate what the hardware is going to generate.",
+  "zh": "什么是，或者抱歉，是逆向工程芯片，Apple 不会给你芯片工作原理的蓝图，但你基本上可以通过输入，模拟硬件会生成什么。"
+ },
+ {
+  "seg": 269,
+  "start": 1438.152,
+  "end": 1439.192,
+  "speaker": "Unknown",
+  "en": "You can watch what happens.",
+  "zh": "你可以观察发生了什么。"
+ },
+ {
+  "seg": 270,
+  "start": 1439.552,
+  "end": 1446.214,
+  "speaker": "Unknown",
+  "en": "And then eventually you can build a simulator that actually mimics what the hardware does, but you don't actually know specifically the internals of it.",
+  "zh": "然后最终你可以构建一个真正模仿硬件行为的模拟器，但你其实并不知道它的具体内部构造。"
+ },
+ {
+  "seg": 271,
+  "start": 1446.234,
+  "end": 1447.575,
+  "speaker": "Unknown",
+  "en": "You just know what the inputs and the outputs are.",
+  "zh": "你只知道输入和输出是什么。"
+ },
+ {
+  "seg": 272,
+  "start": 1448.175,
+  "end": 1449.477,
+  "speaker": "Unknown",
+  "en": "Yeah, it's exactly like that.",
+  "zh": "是的，就是这样。"
+ },
+ {
+  "seg": 273,
+  "start": 1449.557,
+  "end": 1454.642,
+  "speaker": "Unknown",
+  "en": "So we basically apply the same strategies from fuzzing research to the DST.",
+  "zh": "所以我们基本上把 fuzzing 研究中的同样策略应用到了这个 DST 上。"
+ },
+ {
+  "seg": 274,
+  "start": 1454.842,
+  "end": 1461.25,
+  "speaker": "Unknown",
+  "en": "So your software is running inside antithesis, completely deterministic, and we are monitoring coverage branches as one of our inputs.",
+  "zh": "你的软件运行在 Antithesis 里，完全确定性，我们把监控覆盖率分支作为我们的输入之一。"
+ },
+ {
+  "seg": 275,
+  "start": 1461.59,
+  "end": 1468.778,
+  "speaker": "Unknown",
+  "en": "We have a bunch of other inputs that we monitor about the system that helps us understand whether or not we're seeing sort of new behaviors or pre-existing behaviors.",
+  "zh": "我们还监控系统的许多其他输入，这些输入帮助我们理解我们看到的是某种新行为还是已有的行为。"
+ },
+ {
+  "seg": 276,
+  "start": 1468.958,
+  "end": 1479.34,
+  "speaker": "Unknown",
+  "en": "Effectively, we're trying to detect if we're going in like a cycle, and then we can essentially branch to try to break out of that cycle and find some like different interesting area of code to exercise.",
+  "zh": "实际上，我们是在试图检测我们是否陷入了某种循环，然后我们基本上可以分叉出去尝试打破那个循环，找到某个不同的有趣代码区域去锻炼。"
+ },
+ {
+  "seg": 277,
+  "start": 1479.94,
+  "end": 1485.101,
+  "speaker": "Unknown",
+  "en": "And there's a couple of really cool sort of emergent properties of this that is neat.",
+  "zh": "而这有一些非常酷的涌现特性，很妙。"
+ },
+ {
+  "seg": 278,
+  "start": 1485.161,
+  "end": 1496.383,
+  "speaker": "Unknown",
+  "en": "So like one emergent property is that we're really good at finding thread, like a bug caused by like a particular order of threads, and how they're like taking locks and interacting with shared memory and stuff like this.",
+  "zh": "比如其中一个涌现特性是，我们非常擅长发现线程，比如由某种特定的线程顺序导致的 bug,以及它们如何获取锁、与共享内存交互之类的事情。"
+ },
+ {
+  "seg": 279,
+  "start": 1496.523,
+  "end": 1501.588,
+  "speaker": "Unknown",
+  "en": "Because what we'll do is we'll notice that we're seeing different branch paths really quickly in that area.",
+  "zh": "因为我们会注意到，在那个区域我们很快看到了不同的分支路径。"
+ },
+ {
+  "seg": 280,
+  "start": 1501.748,
+  "end": 1509.755,
+  "speaker": "Unknown",
+  "en": "And we'll kick off like a whole bunch of autonomous sort of searchers that are gonna all start from that like beginning of that sort of highly contentious section of code.",
+  "zh": "然后我们会启动一大堆自主的搜索器，它们都将从那段高争用代码区域的开头开始。"
+ },
+ {
+  "seg": 281,
+  "start": 1510.075,
+  "end": 1511.477,
+  "speaker": "Unknown",
+  "en": "This was very useful recently.",
+  "zh": "这最近非常有用。"
+ },
+ {
+  "seg": 282,
+  "start": 1511.557,
+  "end": 1515.841,
+  "speaker": "Unknown",
+  "en": "I don't know if you heard about the SQLite wall reset bug that happened earlier this year?",
+  "zh": "我不知道你有没有听说今年早些时候发生的 SQLite WAL 重置 bug?"
+ },
+ {
+  "seg": 283,
+  "start": 1516.241,
+  "end": 1519.803,
+  "speaker": "Unknown",
+  "en": "I mean, it vaguely rings a bell, but maybe give us some background on that.",
+  "zh": "我意思是，有点模糊的印象，但也许给我们讲讲背景。"
+ },
+ {
+  "seg": 284,
+  "start": 1520.284,
+  "end": 1522.625,
+  "speaker": "Unknown",
+  "en": "So one of my other passions is SQLite.",
+  "zh": "我的另一个热爱是 SQLite。"
+ },
+ {
+  "seg": 285,
+  "start": 1522.645,
+  "end": 1523.385,
+  "speaker": "Unknown",
+  "en": "I love SQLite.",
+  "zh": "我爱 SQLite。"
+ },
+ {
+  "seg": 286,
+  "start": 1523.405,
+  "end": 1524.306,
+  "speaker": "Unknown",
+  "en": "I like to track it.",
+  "zh": "我喜欢追踪它。"
+ },
+ {
+  "seg": 287,
+  "start": 1524.586,
+  "end": 1531.15,
+  "speaker": "Unknown",
+  "en": "And earlier this year, there was like a reported bug on SQLite and a fixed bug, which existed in the SQLite project for 10 years.",
+  "zh": "今年早些时候，SQLite 上有一个被报告的 bug 和一个被修复的 bug,它存在于 SQLite 项目中已经 10 年了。"
+ },
+ {
+  "seg": 288,
+  "start": 1531.27,
+  "end": 1535.893,
+  "speaker": "Unknown",
+  "en": "So it's been around since they basically wrote the original write-ahead log code in SQLite.",
+  "zh": "所以从他们基本上写下 SQLite 中原始的 write-ahead log 代码以来，它就一直存在。"
+ },
+ {
+  "seg": 289,
+  "start": 1536.173,
+  "end": 1539.438,
+  "speaker": "Unknown",
+  "en": "And the bug is like, you know, your standard sort of bug that's really hard to find.",
+  "zh": "这个 bug 就像，你知道的，那种非常难找的标准 bug。"
+ },
+ {
+  "seg": 290,
+  "start": 1539.798,
+  "end": 1553.416,
+  "speaker": "Unknown",
+  "en": "It was like, you know, one thread read a shared memory, essentially some data out of shared memory, then the thread like slept, and then another thread changed the data, then it woke up and then, but it didn't do a correct like revalid validation after it woke up.",
+  "zh": "它就像是，你知道的，一个线程读取了共享内存，本质上是从共享内存里读出一些数据，然后这个线程睡眠了，接着另一个线程改变了数据，然后它醒来，但它在醒来后没有做正确的重新校验。"
+ },
+ {
+  "seg": 291,
+  "start": 1553.496,
+  "end": 1555.257,
+  "speaker": "Unknown",
+  "en": "So your standard sort of concurrency bug.",
+  "zh": "所以是你那种标准类型的并发 bug。"
+ },
+ {
+  "seg": 292,
+  "start": 1555.377,
+  "end": 1566.882,
+  "speaker": "Unknown",
+  "en": "But the thing is, is that the window on this was so, so, so tight that I believe only like maybe one SQLite big customer, it happened to be Tailscale, but one big customer ever like actually hit this bug.",
+  "zh": "但问题是，这个窗口实在太紧太紧太紧了，我相信可能只有一个 SQLite 大客户，碰巧是 Tailscale,真正碰到过这个 bug。"
+ },
+ {
+  "seg": 293,
+  "start": 1567.403,
+  "end": 1571.565,
+  "speaker": "Unknown",
+  "en": "Anyways, it took a long time to narrow it and like nail down what the bug was.",
+  "zh": "不管怎样，花了很长时间去缩小范围、搞清楚这个 bug 到底是什么。"
+ },
+ {
+  "seg": 294,
+  "start": 1571.625,
+  "end": 1575.987,
+  "speaker": "Unknown",
+  "en": "Tailscale did a lot of research earlier this year and they published their findings and it got fixed.",
+  "zh": "Tailscale 今年早些时候做了大量研究，他们发布了他们的发现，然后 bug 被修复了。"
+ },
+ {
+  "seg": 295,
+  "start": 1576.347,
+  "end": 1576.627,
+  "speaker": "Unknown",
+  "en": "Great.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 296,
+  "start": 1576.807,
+  "end": 1578.148,
+  "speaker": "Unknown",
+  "en": "SQLite has this sort of resolve.",
+  "zh": "SQLite 有这种决心。"
+ },
+ {
+  "seg": 297,
+  "start": 1578.368,
+  "end": 1586.391,
+  "speaker": "Unknown",
+  "en": "When I saw this bug, I was super excited because I was like, oh my gosh, a bug that is the perfect shape of a thing that Antithesis should be able to find quickly.",
+  "zh": "当我看到这个 bug 时，我超级兴奋，因为我想，天哪，这是一个完美形状的 bug,正是 Antithesis 应该能快速找到的那种。"
+ },
+ {
+  "seg": 298,
+  "start": 1586.471,
+  "end": 1588.012,
+  "speaker": "Unknown",
+  "en": "This should be very easy for us to find.",
+  "zh": "这对我们来说应该非常容易找到。"
+ },
+ {
+  "seg": 299,
+  "start": 1588.372,
+  "end": 1595.074,
+  "speaker": "Unknown",
+  "en": "So sure enough, I took the latest version of SQLite pre-patch, so the last version that has the bug in it.",
+  "zh": "所以果然，我拿了打补丁之前的最新版 SQLite,也就是最后一个还带着这个 bug 的版本。"
+ },
+ {
+  "seg": 300,
+  "start": 1595.554,
+  "end": 1599.016,
+  "speaker": "Unknown",
+  "en": "I put it into Antithesis with a very simple workload.",
+  "zh": "我把它放进 Antithesis,用一个很简单的负载。"
+ },
+ {
+  "seg": 301,
+  "start": 1599.036,
+  "end": 1602.257,
+  "speaker": "Unknown",
+  "en": "The workload just ran inserts and wall checkpoints in a loop.",
+  "zh": "这个负载就是循环地跑插入和打检查点。"
+ },
+ {
+  "seg": 302,
+  "start": 1602.857,
+  "end": 1607.4,
+  "speaker": "Unknown",
+  "en": "So it wasn't trying to specifically hit this bug, but it was exercising the relevant code.",
+  "zh": "所以它并不是专门想命中这个 bug,但它确实在运行相关的代码。"
+ },
+ {
+  "seg": 303,
+  "start": 1607.54,
+  "end": 1608.4,
+  "speaker": "Unknown",
+  "en": "And I just ran it in a loop.",
+  "zh": "然后我就直接循环地跑它。"
+ },
+ {
+  "seg": 304,
+  "start": 1608.84,
+  "end": 1617.025,
+  "speaker": "Unknown",
+  "en": "And 15 minutes later, the fuzzer found the exact bug, narrowed it down to the exact order of operations that had to occur.",
+  "zh": "15 分钟后,模糊测试器找到了那个确切的 bug,并把它缩小到了必须发生的精确操作顺序。"
+ },
+ {
+  "seg": 305,
+  "start": 1617.265,
+  "end": 1629.031,
+  "speaker": "Unknown",
+  "en": "And it sort of proved out this point that because of the way in which antithesis can sort of autonomously find interesting behavior spaces and then exhaustively test them, these kinds of bugs fall out of antithesis very easily.",
+  "zh": "这在一定程度上证明了一点:由于 Antithesis 能够自主地发现有趣的行为空间,然后对它们进行穷尽式测试,这类 bug 在 Antithesis 中很容易就浮现出来。"
+ },
+ {
+  "seg": 306,
+  "start": 1629.446,
+  "end": 1639.552,
+  "speaker": "Unknown",
+  "en": "Did you, in this situation, since you already knew the bug was there, was there anything that you're giving in terms of like an unfair advantage since you already know that the bug is there to kind of point it in the right direction?",
+  "zh": "在这种情况下,既然你已经知道 bug 在那里,你是否提供了什么“不公平的优势”,比如因为你已经知道 bug 的存在,从而把它指向正确的方向?"
+ },
+ {
+  "seg": 307,
+  "start": 1639.592,
+  "end": 1644.275,
+  "speaker": "Unknown",
+  "en": "Or is this something that you didn't have to do any kind of configuration, you just let it go and it discovered it?",
+  "zh": "还是说你完全不需要做任何配置,就让它自己去跑,然后它就发现了?"
+ },
+ {
+  "seg": 308,
+  "start": 1644.855,
+  "end": 1648.519,
+  "speaker": "Unknown",
+  "en": "The actual workload that was created, like I did know the bug existed.",
+  "zh": "关于我创建的那个实际负载,我确实知道 bug 存在。"
+ },
+ {
+  "seg": 309,
+  "start": 1648.539,
+  "end": 1652.262,
+  "speaker": "Unknown",
+  "en": "So obviously, I focused the workload on exercising that area of the code.",
+  "zh": "所以显然,我把负载聚焦在运行代码的那个区域上。"
+ },
+ {
+  "seg": 310,
+  "start": 1652.462,
+  "end": 1657.748,
+  "speaker": "Unknown",
+  "en": "However, after I verified the bug, and I was able to find it very quickly, I then wrote a generic workload.",
+  "zh": "不过,在我验证了这个 bug 并能很快找到它之后,我又写了一个通用负载。"
+ },
+ {
+  "seg": 311,
+  "start": 1657.768,
+  "end": 1661.651,
+  "speaker": "Unknown",
+  "en": "So a workload that runs all SQLite operations with even probability.",
+  "zh": "也就是一个以均等概率运行所有 SQLite 操作的负载。"
+ },
+ {
+  "seg": 312,
+  "start": 1661.731,
+  "end": 1666.015,
+  "speaker": "Unknown",
+  "en": "So it runs selects, inserts, it uses other things than the write-ahead logs.",
+  "zh": "所以它会跑 select、insert,还使用预写日志以外的东西。"
+ },
+ {
+  "seg": 313,
+  "start": 1666.055,
+  "end": 1668.358,
+  "speaker": "Unknown",
+  "en": "It uses like the default journal based.",
+  "zh": "它也使用默认的基于日志的,"
+ },
+ {
+  "seg": 314,
+  "start": 1668.778,
+  "end": 1670.079,
+  "speaker": "Unknown",
+  "en": "Like transactional system.",
+  "zh": "就是那种事务系统。"
+ },
+ {
+  "seg": 315,
+  "start": 1670.339,
+  "end": 1673.941,
+  "speaker": "Unknown",
+  "en": "So basically like I wrote like a generic book that just sort of exercises the entire system.",
+  "zh": "基本上就是我写了一个通用的负载,大致运行整个系统。"
+ },
+ {
+  "seg": 316,
+  "start": 1674.341,
+  "end": 1676.622,
+  "speaker": "Unknown",
+  "en": "And that still found the bug in like 15 minutes.",
+  "zh": "而它同样在 15 分钟左右找到了那个 bug。"
+ },
+ {
+  "seg": 317,
+  "start": 1677.122,
+  "end": 1683.866,
+  "speaker": "Unknown",
+  "en": "So the nice thing about antithesis is that like its ability to find these spaces that blow up the behavior space.",
+  "zh": "所以 Antithesis 的好处在于,它有能力找到那些让行为空间爆炸的区域。"
+ },
+ {
+  "seg": 318,
+  "start": 1683.906,
+  "end": 1697.013,
+  "speaker": "Unknown",
+  "en": "So like when when it discovers I'm seeing like a bunch of new behaviors happening, it will automatically focus on that area and then spend a bunch of fuzzing energy to until the rate at which we're seeing new behaviors starts slowing down.",
+  "zh": "就像当它发现我——发现很多新行为正在出现时,它会自动聚焦到那个区域,然后投入大量模糊测试的能量,直到观察到新行为的速率开始放缓。"
+ },
+ {
+  "seg": 319,
+  "start": 1697.553,
+  "end": 1699.215,
+  "speaker": "Unknown",
+  "en": "And then we'll go and focus on another area.",
+  "zh": "然后它会转向聚焦另一个区域。"
+ },
+ {
+  "seg": 320,
+  "start": 1699.696,
+  "end": 1703.62,
+  "speaker": "Unknown",
+  "en": "What is, as the user of this, what are you giving me?",
+  "zh": "作为这个产品的用户,我要提供什么?"
+ },
+ {
+  "seg": 321,
+  "start": 1703.86,
+  "end": 1713.832,
+  "speaker": "Unknown",
+  "en": "How do I, since this is a black box, how do you help point me in the right direction other than it was this input that presumably generated an output that was unexpected?",
+  "zh": "既然这是一个黑盒,除了“是这个输入大概生成了一个意想不到的输出”之外,你怎么帮我指向正确的方向?"
+ },
+ {
+  "seg": 322,
+  "start": 1714.298,
+  "end": 1721.583,
+  "speaker": "Unknown",
+  "en": "Yeah, so our platform offers a couple of tools that help you understand what's happening, like debugging, essentially, and observability.",
+  "zh": "是的,我们的平台提供了一些工具,帮助你理解正在发生的事情,本质上就是调试和可观测性。"
+ },
+ {
+  "seg": 323,
+  "start": 1721.663,
+  "end": 1732.531,
+  "speaker": "Unknown",
+  "en": "So from an observability perspective, we give you basically a view of all of the logs in the system, except the logs are strictly serialized with the exact order of operations.",
+  "zh": "从可观测性的角度来说,我们基本上给你一个查看系统中所有日志的视图,只是这些日志是严格按照确切的操作顺序串行化的。"
+ },
+ {
+  "seg": 324,
+  "start": 1733.011,
+  "end": 1750.067,
+  "speaker": "Unknown",
+  "en": "And so unlike traditional distributed systems where you have to guess which of these two events occurred in what order, in antithesis, because we control serialization of all execution, we can guarantee that the order you see the events in the log is exactly the order of events in the simulation.",
+  "zh": "所以,与传统的分布式系统不同——在传统系统里你得猜测这两个事件中哪一个以什么顺序发生——在 Antithesis 中,因为我们控制所有执行的串行化,我们可以保证你在日志中看到事件的顺序就是模拟中事件的确切顺序。"
+ },
+ {
+  "seg": 325,
+  "start": 1750.127,
+  "end": 1752.69,
+  "speaker": "Unknown",
+  "en": "So you get this very high-resolution log, basically.",
+  "zh": "所以你基本上得到的是一个非常高分辨率的日志。"
+ },
+ {
+  "seg": 326,
+  "start": 1752.71,
+  "end": 1753.831,
+  "speaker": "Unknown",
+  "en": "So that's one output.",
+  "zh": "这是一种输出。"
+ },
+ {
+  "seg": 327,
+  "start": 1754.011,
+  "end": 1757.253,
+  "speaker": "Unknown",
+  "en": "The second output is we have this concept called properties.",
+  "zh": "第二种输出是我们有一个叫作“属性(properties)”的概念。"
+ },
+ {
+  "seg": 328,
+  "start": 1757.353,
+  "end": 1762.176,
+  "speaker": "Unknown",
+  "en": "And so when you put a system in antithesis, you also provide us a whole bunch of properties.",
+  "zh": "当你把一个系统放进 Antithesis 时,你还要向我们提供一大堆属性。"
+ },
+ {
+  "seg": 329,
+  "start": 1762.336,
+  "end": 1767.119,
+  "speaker": "Unknown",
+  "en": "So the specific property that I used for testing SQLite was a very simple property.",
+  "zh": "我用来测试 SQLite 的那个具体属性非常简单。"
+ },
+ {
+  "seg": 330,
+  "start": 1767.339,
+  "end": 1776.484,
+  "speaker": "Unknown",
+  "en": "I just simply told antithesis to run pragma integrity check, which is the built-in is my database corrupt check that is just built into SQLite.",
+  "zh": "我只是告诉 Antithesis 去运行 pragma integrity check,这是 SQLite 内置的“我的数据库是否损坏”的检查。"
+ },
+ {
+  "seg": 331,
+  "start": 1776.864,
+  "end": 1781.087,
+  "speaker": "Unknown",
+  "en": "I just basically said, run that check at random points in the simulation.",
+  "zh": "我基本上就是说,在模拟中的随机时间点运行那个检查。"
+ },
+ {
+  "seg": 332,
+  "start": 1781.307,
+  "end": 1783.389,
+  "speaker": "Unknown",
+  "en": "Just like pick any point and just see if it's corrupt.",
+  "zh": "就是随便挑一个时间点,看看数据库是否损坏了。"
+ },
+ {
+  "seg": 333,
+  "start": 1783.749,
+  "end": 1785.45,
+  "speaker": "Unknown",
+  "en": "And so antithesis will just do that automatically.",
+  "zh": "Antithesis 会自动去做这件事。"
+ },
+ {
+  "seg": 334,
+  "start": 1785.77,
+  "end": 1796.438,
+  "speaker": "Unknown",
+  "en": "And whenever it discovers a corruption, it will then narrow down fuzzing energy around like that region, which is another way that we another signal that we have that we found something interesting, basically.",
+  "zh": "每当它发现一处损坏,它就会把模糊测试的能量聚焦到那个区域附近,这是我们拥有的另一个信号,表明我们基本上发现了某些有趣的东西。"
+ },
+ {
+  "seg": 335,
+  "start": 1796.858,
+  "end": 1803.704,
+  "speaker": "Unknown",
+  "en": "Those two things get you pretty far because it gives you the ability to look at the system in any particular order that, you know, discover something.",
+  "zh": "这两样东西能让你走得很远,因为它们让你能够以任何特定的顺序查看系统,你知道的,去发现一些东西。"
+ },
+ {
+  "seg": 336,
+  "start": 1803.924,
+  "end": 1808.529,
+  "speaker": "Unknown",
+  "en": "And then also teaches antithesis when you discover something potentially bad about your system.",
+  "zh": "同时也教会 Antithesis,当你发现了系统中潜在的坏东西时。"
+ },
+ {
+  "seg": 337,
+  "start": 1808.889,
+  "end": 1813.933,
+  "speaker": "Unknown",
+  "en": "The next two features are what separates antithesis from just being an observability platform.",
+  "zh": "接下来的两个特性,是把 Antithesis 与仅仅是一个可观测性平台区分开的东西。"
+ },
+ {
+  "seg": 338,
+  "start": 1814.033,
+  "end": 1815.935,
+  "speaker": "Unknown",
+  "en": "So the first one is multiverse debugging.",
+  "zh": "第一个是多元宇宙调试(multiverse debugging)。"
+ },
+ {
+  "seg": 339,
+  "start": 1816.015,
+  "end": 1821.4,
+  "speaker": "Unknown",
+  "en": "So we basically give you the ability to SSH into the system at any time in the simulation.",
+  "zh": "我们基本上让你有能力在模拟中的任意时刻 SSH 进入系统。"
+ },
+ {
+  "seg": 340,
+  "start": 1821.54,
+  "end": 1828.922,
+  "speaker": "Unknown",
+  "en": "So let's say that you discover this bug in SQLite, you see that the integrity check happened at time, like 30 seconds.",
+  "zh": "比方说你在 SQLite 中发现了这个 bug,你看到完整性检查发生在,比如 30 秒的时候。"
+ },
+ {
+  "seg": 341,
+  "start": 1829.322,
+  "end": 1835.563,
+  "speaker": "Unknown",
+  "en": "Well, you know that something corrupted the database in the previous 30 seconds, but you don't know exactly where it corrupted that database.",
+  "zh": "那么你知道在前面的 30 秒里有什么东西损坏了数据库,但你不知道它具体是在哪里损坏数据库的。"
+ },
+ {
+  "seg": 342,
+  "start": 1835.703,
+  "end": 1847.586,
+  "speaker": "Unknown",
+  "en": "So one thing you could do is you can actually just SSH into SQLite, into the actual cluster, and then you could run SQLite operations and you could go back in time and you could basically binary search for when that corruption actually occurred.",
+  "zh": "所以你可以做的一件事是,你可以直接 SSH 进入 SQLite,进入实际的集群,然后你可以运行 SQLite 操作,你可以回到过去,基本上可以对损坏实际发生的时间做二分查找。"
+ },
+ {
+  "seg": 343,
+  "start": 1847.826,
+  "end": 1848.746,
+  "speaker": "Unknown",
+  "en": "That's sort of one thing.",
+  "zh": "这是一件事。"
+ },
+ {
+  "seg": 344,
+  "start": 1848.786,
+  "end": 1851.247,
+  "speaker": "Unknown",
+  "en": "And then once you find it, you can GDB in and stuff like that.",
+  "zh": "然后一旦你找到了它,你可以用 GDB 调进去之类的。"
+ },
+ {
+  "seg": 345,
+  "start": 1851.747,
+  "end": 1856.57,
+  "speaker": "Unknown",
+  "en": "The fourth tool that we have is called causality analysis, which is where we do that for you autonomously.",
+  "zh": "我们拥有的第四个工具叫作因果性分析(causality analysis),也就是我们自主地替你做这件事。"
+ },
+ {
+  "seg": 346,
+  "start": 1856.67,
+  "end": 1864.956,
+  "speaker": "Unknown",
+  "en": "So basically, if you find a bug and you're like, I want to figure out exactly when this bug was introduced into the system, we'll basically just binary search for you.",
+  "zh": "基本上,如果你找到一个 bug,然后你说,我想搞清楚这个 bug 到底是什么时候被引入系统的,我们基本上就直接替你做二分查找。"
+ },
+ {
+  "seg": 347,
+  "start": 1864.996,
+  "end": 1871.82,
+  "speaker": "Unknown",
+  "en": "So we'll go back in time, we'll perturb the environment, and we'll roll out, and we'll see where the bug was sort of locked into the simulation.",
+  "zh": "我们会回到过去,扰动环境,然后回放,看看这个 bug 是在模拟中的哪个点被锁定的。"
+ },
+ {
+  "seg": 348,
+  "start": 1871.84,
+  "end": 1873.922,
+  "speaker": "Unknown",
+  "en": "So yeah, those are some of the ways that we help.",
+  "zh": "是的,这些就是我们提供帮助的一些方式。"
+ },
+ {
+  "seg": 349,
+  "start": 1874.322,
+  "end": 1880.545,
+  "speaker": "Unknown",
+  "en": "So we had Joe Hellerson from AWS a little while ago talking about the project Hydro.",
+  "zh": "前不久,我们请到了 AWS 的 Joe Hellerson,聊了 Hydro 项目。"
+ },
+ {
+  "seg": 350,
+  "start": 1880.585,
+  "end": 1881.605,
+  "speaker": "Unknown",
+  "en": "Are you familiar with Hydro?",
+  "zh": "你了解 Hydro 吗?"
+ },
+ {
+  "seg": 351,
+  "start": 1881.845,
+  "end": 1882.826,
+  "speaker": "Unknown",
+  "en": "I don't think I am.",
+  "zh": "我觉得我不了解。"
+ },
+ {
+  "seg": 352,
+  "start": 1883.166,
+  "end": 1889.328,
+  "speaker": "Unknown",
+  "en": "So essentially what they're doing is they're trying to catch distributed bugs at compile time through the type system.",
+  "zh": "所以他们本质上在做的事情,是试图通过类型系统在编译时捕获分布式 bug。"
+ },
+ {
+  "seg": 353,
+  "start": 1889.568,
+  "end": 1897.452,
+  "speaker": "Unknown",
+  "en": "So essentially the theory is that certain classes of bugs can't be written in the first place because essentially the compiler stops you from running it.",
+  "zh": "所以本质上理论是,某些类别的 bug 一开始就写不出来,因为编译器会阻止你运行它。"
+ },
+ {
+  "seg": 354,
+  "start": 1898.132,
+  "end": 1901.199,
+  "speaker": "Unknown",
+  "en": "And so a lot of it's kind of like trying to prove this stuff upfront.",
+  "zh": "所以这很大程度上有点像试图预先证明这些东西。"
+ },
+ {
+  "seg": 355,
+  "start": 1901.259,
+  "end": 1904.164,
+  "speaker": "Unknown",
+  "en": "Maybe you could think of it as like formal methods for testing.",
+  "zh": "你也许可以把它看作是某种用于测试的形式化方法。"
+ },
+ {
+  "seg": 356,
+  "start": 1904.893,
+  "end": 1911.975,
+  "speaker": "Unknown",
+  "en": "Whereas, you know, some of the stuff that you're talking about is really about catching these things at runtime, you know, breaking them through this simulation.",
+  "zh": "而你说的那些东西,其实是关于在运行时捕获这些问题,通过这种模拟来破坏它们。"
+ },
+ {
+  "seg": 357,
+  "start": 1912.035,
+  "end": 1913.695,
+  "speaker": "Unknown",
+  "en": "I guess, like, what's your take on that?",
+  "zh": "我想知道,你对此怎么看?"
+ },
+ {
+  "seg": 358,
+  "start": 1913.715,
+  "end": 1917.056,
+  "speaker": "Unknown",
+  "en": "Are these like two approaches in tension, or are they sort of complementary?",
+  "zh": "这是两种相互冲突的方法,还是它们在某种程度上是互补的?"
+ },
+ {
+  "seg": 359,
+  "start": 1917.376,
+  "end": 1918.636,
+  "speaker": "Unknown",
+  "en": "Yeah, this is a really good question.",
+  "zh": "是的,这是一个非常好的问题。"
+ },
+ {
+  "seg": 360,
+  "start": 1918.716,
+  "end": 1920.997,
+  "speaker": "Unknown",
+  "en": "So I'm not deeply familiar with Hydro.",
+  "zh": "我对 Hydro 并不深入熟悉。"
+ },
+ {
+  "seg": 361,
+  "start": 1921.057,
+  "end": 1930.119,
+  "speaker": "Unknown",
+  "en": "However, from what you just described, does Hydro try to make these proofs on the actual implementation of the software?",
+  "zh": "不过,从你刚才描述的来看,Hydro 是在软件的实际实现上做这些证明吗?"
+ },
+ {
+  "seg": 362,
+  "start": 1930.199,
+  "end": 1934.56,
+  "speaker": "Unknown",
+  "en": "Or is it making these proofs on sort of a formal, like abstract model of your software?",
+  "zh": "还是在某种形式的、你软件的抽象模型上做这些证明?"
+ },
+ {
+  "seg": 363,
+  "start": 1935.02,
+  "end": 1939.881,
+  "speaker": "Unknown",
+  "en": "So I believe that from what I remember, it's actually, it's a compile time check.",
+  "zh": "我记得,据我所知,它实际上是一种编译时检查。"
+ },
+ {
+  "seg": 364,
+  "start": 1940.221,
+  "end": 1943.182,
+  "speaker": "Unknown",
+  "en": "So it's actually running, you're writing your code.",
+  "zh": "所以它实际上是在运行……你在写你的代码。"
+ },
+ {
+  "seg": 365,
+  "start": 1943.682,
+  "end": 1951.384,
+  "speaker": "Unknown",
+  "en": "And then during compilation, it can determine whether the code that you wrote is going to break something that would break in the distributed system.",
+  "zh": "然后在编译期间,它能判断你写的代码是否会破坏一些在分布式系统中会出问题的地方。"
+ },
+ {
+  "seg": 366,
+  "start": 1951.404,
+  "end": 1952.904,
+  "speaker": "Unknown",
+  "en": "So it prevents you from writing it in the first place.",
+  "zh": "所以它从一开始就阻止你写出来。"
+ },
+ {
+  "seg": 367,
+  "start": 1952.924,
+  "end": 1955.465,
+  "speaker": "Unknown",
+  "en": "So it's not something like a model on top of the software.",
+  "zh": "所以它不是软件之上的一个模型之类的东西。"
+ },
+ {
+  "seg": 368,
+  "start": 1955.485,
+  "end": 1964.787,
+  "speaker": "Unknown",
+  "en": "It's actually like basically baked into the software because they give it the same way that you might do like a type system check on you're suddenly stuffing an int into a string or vice versa.",
+  "zh": "它实际上基本上是内置在软件里的,因为他们提供它的方式,就像你可能做类型系统检查一样,比如你突然把一个 int 塞进一个 string,或者反过来。"
+ },
+ {
+  "seg": 369,
+  "start": 1965.468,
+  "end": 1966.188,
+  "speaker": "Unknown",
+  "en": "Yeah, that makes sense.",
+  "zh": "是的,这说得通。"
+ },
+ {
+  "seg": 370,
+  "start": 1966.669,
+  "end": 1969.292,
+  "speaker": "Unknown",
+  "en": "I don't think these approaches are necessarily intention.",
+  "zh": "我不认为这些方法一定是相互冲突的。"
+ },
+ {
+  "seg": 371,
+  "start": 1969.372,
+  "end": 1970.853,
+  "speaker": "Unknown",
+  "en": "So let me explain why.",
+  "zh": "让我解释一下为什么。"
+ },
+ {
+  "seg": 372,
+  "start": 1970.993,
+  "end": 1976.159,
+  "speaker": "Unknown",
+  "en": "So first of all, hydro is like a very advanced form of other kinds of like static verification.",
+  "zh": "首先,Hydro 是其他类型的静态验证的一种非常高级的形式。"
+ },
+ {
+  "seg": 373,
+  "start": 1976.199,
+  "end": 1982.825,
+  "speaker": "Unknown",
+  "en": "So for example, like if you're using rust, you're obviously already taking advantage of the type system to ideally eliminate a whole bunch of bugs.",
+  "zh": "比如说,如果你在用 Rust,你显然已经在利用类型系统来理想地消除一大堆 bug 了。"
+ },
+ {
+  "seg": 374,
+  "start": 1982.965,
+  "end": 1987.45,
+  "speaker": "Unknown",
+  "en": "If you write very pure rust and very safe rust, you can actually just eliminate whole classes of bugs.",
+  "zh": "如果你写非常纯粹的 Rust、非常安全的 Rust,你实际上可以直接消除整类 bug。"
+ },
+ {
+  "seg": 375,
+  "start": 1987.47,
+  "end": 1988.752,
+  "speaker": "Unknown",
+  "en": "Like memory style bugs, right?",
+  "zh": "比如内存类的 bug,对吧?"
+ },
+ {
+  "seg": 376,
+  "start": 1989.112,
+  "end": 1990.554,
+  "speaker": "Unknown",
+  "en": "So you should be doing this.",
+  "zh": "所以你应该这么做。"
+ },
+ {
+  "seg": 377,
+  "start": 1990.614,
+  "end": 1996.201,
+  "speaker": "Unknown",
+  "en": "Like the more lines of defense between you and your buggy software you have, I think the better.",
+  "zh": "你和你的有 bug 的软件之间的防线越多,我觉得就越好。"
+ },
+ {
+  "seg": 378,
+  "start": 1996.341,
+  "end": 1997.262,
+  "speaker": "Unknown",
+  "en": "So like that makes sense.",
+  "zh": "所以这说得通。"
+ },
+ {
+  "seg": 379,
+  "start": 1997.603,
+  "end": 2005.252,
+  "speaker": "Unknown",
+  "en": "The thing that I'll have to like research Hydro and understand it more deeply as to like whether or not it has any kind of compromises, but-",
+  "zh": "我需要去研究一下 Hydro 并更深入地理解它,看它是否有什么样的妥协,但是——"
+ },
+ {
+  "seg": 380,
+  "start": 2006.073,
+  "end": 2010.775,
+  "speaker": "Unknown",
+  "en": "Sometimes these types of systems force you to write your code in a very particular way.",
+  "zh": "有时候这类系统迫使你以一种非常特殊的方式写你的代码。"
+ },
+ {
+  "seg": 381,
+  "start": 2011.015,
+  "end": 2019.239,
+  "speaker": "Unknown",
+  "en": "They tend to be integrated into your runtime, essentially, maybe just that kind of compile time, but it's basically integrated in sort of the way in which you structure your code.",
+  "zh": "它们往往会集成进你的运行时,本质上也许只是那种编译时,但它基本上是以你组织代码的方式被集成了进去。"
+ },
+ {
+  "seg": 382,
+  "start": 2019.439,
+  "end": 2032.726,
+  "speaker": "Unknown",
+  "en": "And so just like building your own DST is really, really valuable that you should do it, Hydro may also fall into that same category of being perhaps I suited better for like Greenfield projects, projects that start from zero.",
+  "zh": "所以,就像构建你自己的 DST 是非常、非常有价值、你应该做的一样,Hydro 也可能落入同一个类别,即它也许更适合像绿地项目、从零开始的项目。"
+ },
+ {
+  "seg": 383,
+  "start": 2033.406,
+  "end": 2037.09,
+  "speaker": "Unknown",
+  "en": "Where you can write your code in a very particular way to take advantage of these properties.",
+  "zh": "在那些项目里,你可以用非常特殊的方式写代码来利用这些特性。"
+ },
+ {
+  "seg": 384,
+  "start": 2037.47,
+  "end": 2046.199,
+  "speaker": "Unknown",
+  "en": "The downside, of course, is that like that particular way, first of all, it may not be that intuitive how to express like your problem in that way.",
+  "zh": "当然,缺点是,那种特殊的方式,首先,如何以那种方式表达你的问题可能并不那么直观。"
+ },
+ {
+  "seg": 385,
+  "start": 2046.519,
+  "end": 2053.606,
+  "speaker": "Unknown",
+  "en": "And of course, you're sort of stuck with potentially having to have some compromises in like your implementation to be able to make those proofs.",
+  "zh": "当然,你某种程度上会陷入可能不得不在你的实现里做一些妥协,才能做出那些证明。"
+ },
+ {
+  "seg": 386,
+  "start": 2054.187,
+  "end": 2067.774,
+  "speaker": "Unknown",
+  "en": "I don't know about Hydro, so I can't say maybe they've made something even better, but the traditional solution to this, or like other traditional sort of ways of doing this that I've seen, like rolling your own DST, involves a very high tax on the software development effort.",
+  "zh": "我不了解 Hydro,所以我不能说他们也许做出了更好的东西,但针对这个问题的传统解决方案,或者我见过的其他传统的做法,比如自己搞一套 DST,会对软件开发工作量征收非常高的税。"
+ },
+ {
+  "seg": 387,
+  "start": 2067.994,
+  "end": 2069.415,
+  "speaker": "Unknown",
+  "en": "So that's sort of one aspect of it.",
+  "zh": "所以这是它的一个方面。"
+ },
+ {
+  "seg": 388,
+  "start": 2069.795,
+  "end": 2078.48,
+  "speaker": "Unknown",
+  "en": "It would be interesting to know what classes of things can be checked with something like Hydro versus what are still unknown unknowns in the system.",
+  "zh": "有意思的是要知道,用像 Hydro 这样的东西能检查哪些类别的东西,而系统中还有哪些是未知的未知。"
+ },
+ {
+  "seg": 389,
+  "start": 2078.8,
+  "end": 2087.867,
+  "speaker": "Unknown",
+  "en": "So I still think that having something like antithesis on top is good, but we can talk a little bit more about formal methods if you want, because formal methods has a different set of trade-offs.",
+  "zh": "所以我仍然认为在上面有像 Antithesis 这样的东西是好的,但如果你愿意的话我们可以再多聊聊形式化方法,因为形式化方法有另一套权衡。"
+ },
+ {
+  "seg": 390,
+  "start": 2088.347,
+  "end": 2098.395,
+  "speaker": "Unknown",
+  "en": "With formal methods, you end up modeling, you create like sort of a different version of your same system where it's an environment where you can actually express these kinds of like formal methods.",
+  "zh": "用形式化方法,你最终是在建模,你会创建一个同一系统的另一个版本,那是一个你能够真正表达这类形式化方法的环境。"
+ },
+ {
+  "seg": 391,
+  "start": 2098.415,
+  "end": 2104.7,
+  "speaker": "Unknown",
+  "en": "You basically end up defining an abstract model of your system, which you can then prove has some kind of correctness and variance.",
+  "zh": "你基本上最终会定义你系统的一个抽象模型,然后你可以证明它具有某种正确性和不变量。"
+ },
+ {
+  "seg": 392,
+  "start": 2104.96,
+  "end": 2107.343,
+  "speaker": "Unknown",
+  "en": "There's a lot of different ways of testing software.",
+  "zh": "测试软件有很多不同的方式。"
+ },
+ {
+  "seg": 393,
+  "start": 2107.763,
+  "end": 2110.507,
+  "speaker": "Unknown",
+  "en": "We've mentioned a few of them around unit tests, system tests.",
+  "zh": "我们已经提到了其中几种,比如单元测试、系统测试。"
+ },
+ {
+  "seg": 394,
+  "start": 2111.027,
+  "end": 2112.829,
+  "speaker": "Unknown",
+  "en": "There's compilation as a test.",
+  "zh": "还有把编译当作测试。"
+ },
+ {
+  "seg": 395,
+  "start": 2113.19,
+  "end": 2117.975,
+  "speaker": "Unknown",
+  "en": "I guess the approach that you're taking, which is simulation testing, kind of fit within this stack.",
+  "zh": "我猜你正在采取的这种方法,也就是模拟测试,某种程度上契合在这个技术栈里。"
+ },
+ {
+  "seg": 396,
+  "start": 2118.696,
+  "end": 2124.003,
+  "speaker": "Unknown",
+  "en": "As a software vendor, how should I be thinking about, I'm going to build out my testing stack?",
+  "zh": "作为一个软件供应商,我应该如何思考——我要搭建我的测试技术栈?"
+ },
+ {
+  "seg": 397,
+  "start": 2124.523,
+  "end": 2126.486,
+  "speaker": "Unknown",
+  "en": "Where do all these pieces kind of fit together?",
+  "zh": "这些组成部分是如何组合在一起的?"
+ },
+ {
+  "seg": 398,
+  "start": 2126.807,
+  "end": 2131.814,
+  "speaker": "Unknown",
+  "en": "And what problems do they specifically solve that are maybe complementary and don't overlap with each other?",
+  "zh": "它们各自具体解决什么问题,也许是互补的、彼此不重叠的?"
+ },
+ {
+  "seg": 399,
+  "start": 2132.235,
+  "end": 2139.386,
+  "speaker": "Unknown",
+  "en": "So I think where the antithesis style testing, so deterministic simulation testing fits into like a short overall testing picture",
+  "zh": "所以我认为 Antithesis 风格的测试,也就是确定性模拟测试,在整体测试图景中的位置是这样"
+ },
+ {
+  "seg": 400,
+  "start": 2139.826,
+  "end": 2144.409,
+  "speaker": "Unknown",
+  "en": "is a little bit closer to like the integration and sort of stress testing world.",
+  "zh": "更接近于集成和压力测试的领域。"
+ },
+ {
+  "seg": 401,
+  "start": 2144.509,
+  "end": 2149.332,
+  "speaker": "Unknown",
+  "en": "So you should still be obviously using unit tests to verify small independent pieces of code.",
+  "zh": "所以你显然还是应该使用单元测试来验证小的独立代码片段。"
+ },
+ {
+  "seg": 402,
+  "start": 2149.632,
+  "end": 2152.074,
+  "speaker": "Unknown",
+  "en": "It's the fastest way to be able to verify those types of code.",
+  "zh": "这是验证那类代码最快的方式。"
+ },
+ {
+  "seg": 403,
+  "start": 2152.174,
+  "end": 2158.758,
+  "speaker": "Unknown",
+  "en": "And you should still be using as many types of testing as you basically can spend money on just because you're gonna have an overall better.",
+  "zh": "而且你仍然应该使用你基本上花得起钱的所有类型的测试，因为你总体上会得到更好的结果。"
+ },
+ {
+  "seg": 404,
+  "start": 2159.638,
+  "end": 2169.923,
+  "speaker": "Unknown",
+  "en": "And obviously, in the age of AI, I think the more testing, the better, basically, like the more constrained you can make the model, the more likely it's going to give you something that is good quality.",
+  "zh": "而且显然，在 AI 时代，我认为测试越多越好，基本上，你能给模型施加的约束越多，它就越有可能给你高质量的东西。"
+ },
+ {
+  "seg": 405,
+  "start": 2170.023,
+  "end": 2171.624,
+  "speaker": "Unknown",
+  "en": "So that's sort of the high level idea.",
+  "zh": "所以这就是大致的高层次想法。"
+ },
+ {
+  "seg": 406,
+  "start": 2171.704,
+  "end": 2177.327,
+  "speaker": "Unknown",
+  "en": "The lower level idea is like antithesis really, really serves you well when you use it to test",
+  "zh": "更低层次的想法是，Antithesis 在你用它来测试"
+ },
+ {
+  "seg": 407,
+  "start": 2177.867,
+  "end": 2179.228,
+  "speaker": "Unknown",
+  "en": "The unknown unknown space.",
+  "zh": "未知的未知领域时，真的、真的非常有用。"
+ },
+ {
+  "seg": 408,
+  "start": 2179.308,
+  "end": 2187.932,
+  "speaker": "Unknown",
+  "en": "So with a single antithesis test, you can basically write that test once and you can test almost the entire state space of your software.",
+  "zh": "所以用一个 Antithesis 测试，你基本上可以只写一次那个测试，就可以测试你软件的几乎整个状态空间。"
+ },
+ {
+  "seg": 409,
+  "start": 2187.972,
+  "end": 2193.095,
+  "speaker": "Unknown",
+  "en": "You can theoretically reach everything that can possibly happen, every bad order of events that can happen.",
+  "zh": "这对于集成级别的测试尤其有用，你同时在测试多个组件，比如一个分布式系统，或者甚至只是一个 CRUD 应用，你有一个数据库，你有几个水平扩展的 web 服务器，你有一个缓存，你还有一个客户端，即便是这样"
+ },
+ {
+  "seg": 410,
+  "start": 2193.355,
+  "end": 2207.901,
+  "speaker": "Unknown",
+  "en": "And this is particularly good for integration level tests where you're testing like multiple components at the same time, like a distributed system, for example, or even just like a CRUD app where you have a database, you have some like, you know, horizontally scaled web servers, you have a cache, and you have a client, even that",
+  "zh": "这对集成级别的测试特别有用，就是那种同时测试多个组件的场景，比如一个分布式系统，或者甚至只是一个 CRUD 应用，你有一个数据库、一些你知道的横向扩展的 Web 服务器、一个缓存，还有一个客户端，即便这样"
+ },
+ {
+  "seg": 411,
+  "start": 2208.441,
+  "end": 2220.446,
+  "speaker": "Unknown",
+  "en": "Distributed system is complex enough that you can very easily have weird situations where like, you know, a client sends a write to one node, it for some reason gets cached, it doesn't flush to the database right away, sends a read to another node, and then it fails.",
+  "zh": "的分布式系统也足够复杂，你很容易遇到奇怪的情况，比如一个客户端向一个节点发送写请求，它由于某种原因被缓存了，没有立即刷入数据库，然后向另一个节点发送读请求，然后就失败了。"
+ },
+ {
+  "seg": 412,
+  "start": 2220.766,
+  "end": 2231.59,
+  "speaker": "Unknown",
+  "en": "Testing these types of systems in integration tests, I find you just, it's just really hard to express in an integration test all the different sort of flavors of failure that can occur and order of events.",
+  "zh": "用集成测试来测试这类系统，我发现就是很难在集成测试中表达出所有可能发生的不同类型的失败和事件顺序。"
+ },
+ {
+  "seg": 413,
+  "start": 2232.031,
+  "end": 2235.252,
+  "speaker": "Unknown",
+  "en": "And so I find simulation testing just like a more natural way to do it.",
+  "zh": "所以我发现模拟测试是一种更自然的方式。"
+ },
+ {
+  "seg": 414,
+  "start": 2235.64,
+  "end": 2241.124,
+  "speaker": "Unknown",
+  "en": "We make a big deal talking about distributed systems as this kind of thing that you're only doing at scale.",
+  "zh": "我们把分布式系统说得很了不起，好像只有在大规模场景下才会做的那种事情。"
+ },
+ {
+  "seg": 415,
+  "start": 2241.505,
+  "end": 2245.308,
+  "speaker": "Unknown",
+  "en": "But in reality, every system is basically distributed now, like even databases, client, and server.",
+  "zh": "但实际上，现在每个系统基本上都是分布式的，比如数据库、客户端和服务器。"
+ },
+ {
+  "seg": 416,
+  "start": 2245.328,
+  "end": 2254.255,
+  "speaker": "Unknown",
+  "en": "We've had those systems for a very long time that far predate even cloud and Kubernetes and the types of technologies we're going to be using today at scale.",
+  "zh": "我们拥有这些系统已经很长时间了，它们远远早于云和 Kubernetes，也远远早于我们今天要在大规模下使用的那类技术。"
+ },
+ {
+  "seg": 417,
+  "start": 2254.575,
+  "end": 2260.28,
+  "speaker": "Unknown",
+  "en": "So these bugs can absolutely occur even in a very simple three-tier architecture or something like that.",
+  "zh": "所以这些 bug 完全可能发生，即使是在非常简单的三层架构之类的系统里。"
+ },
+ {
+  "seg": 418,
+  "start": 2260.62,
+  "end": 2275.798,
+  "speaker": "Unknown",
+  "en": "Even inside a single process, I mean, like if you have multiple threads interacting with shared memory or message passing, you have a distributed system and you need to be able to think deeply about the order of events that can occur within that system to be able to know that it is correct.",
+  "zh": "甚至在单个进程内部，我是说，比如如果你有多个线程通过共享内存或消息传递进行交互，你就有了一个分布式系统，你需要能够深入思考该系统内可能发生的事件顺序，才能知道它是正确的。"
+ },
+ {
+  "seg": 419,
+  "start": 2276.338,
+  "end": 2284.462,
+  "speaker": "Unknown",
+  "en": "I've been doing a lot of work with AI recently where I've been teaching AI how to write workloads that run an antithesis for arbitrary pieces of software.",
+  "zh": "我最近做了很多与 AI 相关的工作，我一直在教 AI 如何为任意软件编写在 Antithesis 上运行的 workload。"
+ },
+ {
+  "seg": 420,
+  "start": 2284.742,
+  "end": 2296.127,
+  "speaker": "Unknown",
+  "en": "And by virtue of doing this, I'm also learning about how to use antithesis more as like a tool to give the AI the superpower to ask questions about the future.",
+  "zh": "而且通过做这件事，我也在学习如何更多地使用 Antithesis，把它当作一种工具，赋予 AI 向未来提问的超能力。"
+ },
+ {
+  "seg": 421,
+  "start": 2296.347,
+  "end": 2301.189,
+  "speaker": "Unknown",
+  "en": "So like if you think about AI writing like a normal test, like let's say you're doing test-driven development.",
+  "zh": "比如如果你想想 AI 编写一个普通的测试，比如假设你在做测试驱动开发。"
+ },
+ {
+  "seg": 422,
+  "start": 2301.569,
+  "end": 2305.051,
+  "speaker": "Unknown",
+  "en": "In test-driven development, you're going to write like an integration test that fails because it",
+  "zh": "在测试驱动开发中，你会写一个失败的集成测试，因为它"
+ },
+ {
+  "seg": 423,
+  "start": 2305.371,
+  "end": 2309.033,
+  "speaker": "Unknown",
+  "en": "Dependent on some kind of feature or change that you haven't yet written, right?",
+  "zh": "依赖于你尚未编写的某个功能或改动，对吧？"
+ },
+ {
+  "seg": 424,
+  "start": 2309.493,
+  "end": 2312.775,
+  "speaker": "Unknown",
+  "en": "And then you're gonna like have the AI iterate to make sure that that works.",
+  "zh": "然后你会让 AI 不断迭代，确保它能通过。"
+ },
+ {
+  "seg": 425,
+  "start": 2313.235,
+  "end": 2317.337,
+  "speaker": "Unknown",
+  "en": "I actually think this maybe is not the right path for AI.",
+  "zh": "我实际上认为这可能不是 AI 的正确路径。"
+ },
+ {
+  "seg": 426,
+  "start": 2317.658,
+  "end": 2320.539,
+  "speaker": "Unknown",
+  "en": "AI tend to like hyperfocus on the goal you give them.",
+  "zh": "AI 往往会超级聚焦于你给它们的目标。"
+ },
+ {
+  "seg": 427,
+  "start": 2320.599,
+  "end": 2323.241,
+  "speaker": "Unknown",
+  "en": "So if you give them- You're right, you're basically overfitting to the test.",
+  "zh": "所以如果你给它们——你说得对，你基本上是在对测试过拟合。"
+ },
+ {
+  "seg": 428,
+  "start": 2323.701,
+  "end": 2324.161,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "正是如此。"
+ },
+ {
+  "seg": 429,
+  "start": 2324.241,
+  "end": 2325.902,
+  "speaker": "Unknown",
+  "en": "You end up really fitting tightly.",
+  "zh": "你最终会拟合得非常紧。"
+ },
+ {
+  "seg": 430,
+  "start": 2326.142,
+  "end": 2330.765,
+  "speaker": "Unknown",
+  "en": "Now with antithesis, if you do the exact same thing, instead of TDD, you do ADD, I guess.",
+  "zh": "现在用 Antithesis，如果你做完全一样的事情，不做 TDD，你做 ADD，我猜。"
+ },
+ {
+  "seg": 431,
+  "start": 2331.445,
+  "end": 2342.788,
+  "speaker": "Unknown",
+  "en": "And with antithesis-driven development, I suppose, you end up with this interesting thing where you can't possibly overfit because antithesis is designed to find counter examples to whatever you give it.",
+  "zh": "也就是 Antithesis 驱动开发，我猜，你最终会遇到一个有趣的情况：你不可能过拟合，因为 Antithesis 的设计目的就是为你给它的任何东西找反例。"
+ },
+ {
+  "seg": 432,
+  "start": 2343.208,
+  "end": 2348.129,
+  "speaker": "Unknown",
+  "en": "So if you, you know, make the code behave to pass the test, there's nothing really to overfit to.",
+  "zh": "所以如果你，你知道，让代码表现得能通过测试，其实没有什么可以过拟合的东西。"
+ },
+ {
+  "seg": 433,
+  "start": 2348.189,
+  "end": 2352.43,
+  "speaker": "Unknown",
+  "en": "You're trying to solve like very general purpose properties, like the database never goes corrupt.",
+  "zh": "你要解决的是非常通用的性质，比如数据库永远不损坏。"
+ },
+ {
+  "seg": 434,
+  "start": 2352.85,
+  "end": 2355.291,
+  "speaker": "Unknown",
+  "en": "And it's much harder to like overfit to those properties.",
+  "zh": "而要对这些性质过拟合要难得多。"
+ },
+ {
+  "seg": 435,
+  "start": 2355.351,
+  "end": 2360.812,
+  "speaker": "Unknown",
+  "en": "And so you just end up basically being forced to just implement the code in the most like generic and correct way possible.",
+  "zh": "所以你基本上最终会被迫以尽可能通用和正确的方式来实现代码。"
+ },
+ {
+  "seg": 436,
+  "start": 2361.312,
+  "end": 2369.4,
+  "speaker": "Unknown",
+  "en": "What is the cost to the development lifecycle in terms of like how long it takes to run one of these simulation tests?",
+  "zh": "那么对开发生命周期的成本是多少，就运行一个这样的模拟测试需要多长时间而言？"
+ },
+ {
+  "seg": 437,
+  "start": 2369.48,
+  "end": 2375.245,
+  "speaker": "Unknown",
+  "en": "I mean, the advantage of a unit test, for example, or even a test as compilation is very fast.",
+  "zh": "我是说，比如单元测试的优势，甚至编译即测试，都非常快。"
+ },
+ {
+  "seg": 438,
+  "start": 2375.285,
+  "end": 2386.956,
+  "speaker": "Unknown",
+  "en": "So I can get, if I'm doing AI coding, I get an immediate almost feedback loop to my AI system to know that, okay, well, we, this code doesn't work because it doesn't compile or this code doesn't work because it doesn't pass the unit test.",
+  "zh": "所以如果我做 AI 编码，我几乎可以立即得到反馈回路，让我的 AI 系统知道，好，这段代码不工作，因为它不能编译，或者这段代码不工作，因为它没通过单元测试。"
+ },
+ {
+  "seg": 439,
+  "start": 2387.356,
+  "end": 2390.719,
+  "speaker": "Unknown",
+  "en": "Yes, the question is basically like, you know, how tight of an iteration loop can we create?",
+  "zh": "是的，问题基本上就是，我们能创建多紧凑的迭代回路？"
+ },
+ {
+  "seg": 440,
+  "start": 2390.739,
+  "end": 2392.24,
+  "speaker": "Unknown",
+  "en": "And like, what's the sort of cost of development?",
+  "zh": "还有，开发成本是什么样的？"
+ },
+ {
+  "seg": 441,
+  "start": 2392.32,
+  "end": 2394.242,
+  "speaker": "Unknown",
+  "en": "So there's a couple different ways to answer that question.",
+  "zh": "这个问题有几种不同的回答方式。"
+ },
+ {
+  "seg": 442,
+  "start": 2394.262,
+  "end": 2397.885,
+  "speaker": "Unknown",
+  "en": "So the first question, the first way to answer is like, let's say you already have a workload.",
+  "zh": "第一个问题，第一种回答方式是，假设你已经有一个 workload。"
+ },
+ {
+  "seg": 443,
+  "start": 2397.905,
+  "end": 2399.487,
+  "speaker": "Unknown",
+  "en": "So my SQLite example is a good one.",
+  "zh": "我的 SQLite 例子就是一个很好的例子。"
+ },
+ {
+  "seg": 444,
+  "start": 2399.807,
+  "end": 2404.471,
+  "speaker": "Unknown",
+  "en": "I already have a workload that tests sort of the full state space and surface area of SQLite.",
+  "zh": "我已经有一个 workload，可以测试 SQLite 的几乎整个状态空间和覆盖面。"
+ },
+ {
+  "seg": 445,
+  "start": 2404.831,
+  "end": 2410.596,
+  "speaker": "Unknown",
+  "en": "So I can use that exact same workload on a new feature, and I can continue to verify that all the properties hold.",
+  "zh": "所以我可以把完全相同的 workload 用在一个新功能上，并且我可以继续验证所有性质都成立。"
+ },
+ {
+  "seg": 446,
+  "start": 2410.676,
+  "end": 2412.818,
+  "speaker": "Unknown",
+  "en": "So the database never goes corrupt and all this stuff.",
+  "zh": "比如数据库永远不损坏，诸如此类。"
+ },
+ {
+  "seg": 447,
+  "start": 2413.138,
+  "end": 2417.86,
+  "speaker": "Unknown",
+  "en": "However, the longer you run that workload, the more confidence you get in the output, right?",
+  "zh": "不过，你运行那个 workload 的时间越长，你对输出的信心就越大，对吧？"
+ },
+ {
+  "seg": 448,
+  "start": 2417.88,
+  "end": 2421.362,
+  "speaker": "Unknown",
+  "en": "Because Antithesis is effectively doing breadth-first search over the state space.",
+  "zh": "因为 Antithesis 实际上是在状态空间上做广度优先搜索。"
+ },
+ {
+  "seg": 449,
+  "start": 2421.402,
+  "end": 2424.263,
+  "speaker": "Unknown",
+  "en": "So if you run it for 15 minutes, you get some amount of coverage.",
+  "zh": "所以如果你运行 15 分钟，你会得到一定程度的覆盖。"
+ },
+ {
+  "seg": 450,
+  "start": 2424.563,
+  "end": 2427.064,
+  "speaker": "Unknown",
+  "en": "If you run it for an hour, you get more coverage and so on.",
+  "zh": "如果你运行一个小时，你会得到更多的覆盖率，等等。"
+ },
+ {
+  "seg": 451,
+  "start": 2427.364,
+  "end": 2429.745,
+  "speaker": "Unknown",
+  "en": "And it probably plateaus at some point, right?",
+  "zh": "而且它在某个点上可能会趋于平缓，对吧？"
+ },
+ {
+  "seg": 452,
+  "start": 2429.765,
+  "end": 2435.127,
+  "speaker": "Unknown",
+  "en": "So if you ran it for like 12 hours, maybe you're getting very little value after a certain number of hours, like eight hours or something.",
+  "zh": "所以如果你运行了大概 12 个小时，也许在某个小时数之后，比如八个小时左右，你得到的价值就非常少了。"
+ },
+ {
+  "seg": 453,
+  "start": 2435.488,
+  "end": 2438.049,
+  "speaker": "Unknown",
+  "en": "So the way that we tend to like wire this up",
+  "zh": "所以我们通常喜欢把这套东西"
+ },
+ {
+  "seg": 454,
+  "start": 2438.969,
+  "end": 2442.731,
+  "speaker": "Unknown",
+  "en": "It's almost like this continuous exponential process.",
+  "zh": "接起来的方式，几乎就像一个连续的指数过程。"
+ },
+ {
+  "seg": 455,
+  "start": 2442.891,
+  "end": 2447.613,
+  "speaker": "Unknown",
+  "en": "So on an individual PR, you may want to just run into this for like 15 minutes.",
+  "zh": "所以在一个单独的 PR 上，你可能只想运行大概 15 分钟。"
+ },
+ {
+  "seg": 456,
+  "start": 2447.953,
+  "end": 2451.135,
+  "speaker": "Unknown",
+  "en": "In 15 minutes, we run at a default parallelism of 48.",
+  "zh": "在 15 分钟内，我们以默认 48 的并行度运行。"
+ },
+ {
+  "seg": 457,
+  "start": 2451.495,
+  "end": 2455.797,
+  "speaker": "Unknown",
+  "en": "And we also do a bunch of tricks inside of the systems to sort of fast forward time.",
+  "zh": "而且我们还在系统内部做了一堆技巧来某种意义上快进时间。"
+ },
+ {
+  "seg": 458,
+  "start": 2455.817,
+  "end": 2459.299,
+  "speaker": "Unknown",
+  "en": "So for example, if you sleep in the code, we'll fast forward to that.",
+  "zh": "比如说，如果代码里有 sleep,我们会快进跳过它。"
+ },
+ {
+  "seg": 459,
+  "start": 2460.119,
+  "end": 2463.3,
+  "speaker": "Unknown",
+  "en": "So we don't have to actually spend real time on those types of things.",
+  "zh": "这样我们就不必在这些类型的事情上真正花费实际时间。"
+ },
+ {
+  "seg": 460,
+  "start": 2463.501,
+  "end": 2470.263,
+  "speaker": "Unknown",
+  "en": "And so because of that, we often see at least a 48X speedup, sometimes much, much higher depending on the shape of the code.",
+  "zh": "正因为如此，我们经常看到至少 48 倍的加速，有时根据代码的形态会高得多得多。"
+ },
+ {
+  "seg": 461,
+  "start": 2470.463,
+  "end": 2475.545,
+  "speaker": "Unknown",
+  "en": "If the code is like a workflow engine or a job system, the speedup could be like 1000X, right?",
+  "zh": "如果代码是类似工作流引擎或者作业系统这样的东西，加速可能达到 1000 倍，对吧？"
+ },
+ {
+  "seg": 462,
+  "start": 2475.885,
+  "end": 2482.088,
+  "speaker": "Unknown",
+  "en": "And so basically in 15 minutes, you could easily test like hours and hours and hours of simulation time of your software.",
+  "zh": "所以基本上在 15 分钟内，你就可以轻松测试你的软件几个小时又几个小时的模拟时间。"
+ },
+ {
+  "seg": 463,
+  "start": 2482.488,
+  "end": 2487.51,
+  "speaker": "Unknown",
+  "en": "So because of that, 15 minute runs give you like actually pretty high confidence that you haven't broken something obvious.",
+  "zh": "正因为如此，15 分钟的运行给了你实际上相当高的信心，确认你没有破坏某个明显的东西。"
+ },
+ {
+  "seg": 464,
+  "start": 2487.77,
+  "end": 2495.252,
+  "speaker": "Unknown",
+  "en": "But then what you want to do is you want to basically run like exponentially longer runs on exponentially larger chunks of untested code.",
+  "zh": "但接下来你想做的是，基本上在指数级更大的未测试代码块上运行指数级更长的测试。"
+ },
+ {
+  "seg": 465,
+  "start": 2495.452,
+  "end": 2507.715,
+  "speaker": "Unknown",
+  "en": "And so we tend to have this like almost a propagation wave from PR where you're running relatively short tests, but you get feedback quickly to like your main integration branch, which has a propagation wave of confidence.",
+  "zh": "所以我们往往会有这种几乎像是从 PR 发出的传播波，在 PR 上你运行相对较短的测试，但你能快速得到反馈，然后到你的主集成分支，那里有一个信心的传播波。"
+ },
+ {
+  "seg": 466,
+  "start": 2507.955,
+  "end": 2520.643,
+  "speaker": "Unknown",
+  "en": "So yesterday, the code you shipped has been run overnight on a 12 hour stress test, which simulated, you know, three months worth of time in antithesis, at which point you're very confident that there isn't some kind of like big catastrophic bug.",
+  "zh": "所以昨天，你发布的代码已经连夜跑了一个 12 小时的压力测试，在 antithesis 里模拟了，你知道的，相当于三个月的时间，到那时你就非常有信心不存在某种大的灾难性 bug。"
+ },
+ {
+  "seg": 467,
+  "start": 2520.723,
+  "end": 2525.106,
+  "speaker": "Unknown",
+  "en": "But maybe like the PR you landed three hours ago has only had a one hour test on it.",
+  "zh": "但也许你三个小时前合入的 PR 只跑了一个小时的测试。"
+ },
+ {
+  "seg": 468,
+  "start": 2525.166,
+  "end": 2527.248,
+  "speaker": "Unknown",
+  "en": "So you have like a lot lower amount of confidence.",
+  "zh": "所以你的信心量就低得多。"
+ },
+ {
+  "seg": 469,
+  "start": 2527.668,
+  "end": 2531.369,
+  "speaker": "Unknown",
+  "en": "So those are some of the ways that we're exploring making this iteration faster.",
+  "zh": "这些就是我们正在探索的让这个迭代更快的一些方式。"
+ },
+ {
+  "seg": 470,
+  "start": 2531.809,
+  "end": 2541.351,
+  "speaker": "Unknown",
+  "en": "We also have recently started exploring giving agents the ability to run commands and ask questions about in-progress runs.",
+  "zh": "我们最近还开始探索给智能体运行命令以及就有进行中的运行提问的能力。"
+ },
+ {
+  "seg": 471,
+  "start": 2541.371,
+  "end": 2547.773,
+  "speaker": "Unknown",
+  "en": "So an agent can basically kick off a run in antithesis and then immediately subscribe to a particular failing property that they're interested in.",
+  "zh": "这样一个智能体基本上可以在 antithesis 里启动一个运行，然后立即订阅它们感兴趣的某个特定失败属性。"
+ },
+ {
+  "seg": 472,
+  "start": 2548.273,
+  "end": 2558,
+  "speaker": "Unknown",
+  "en": "And if that failing property occurs, like let's say it happens within the first five minutes of the run, the agent can immediately get that notification and then start debugging without having to wait for the run to complete.",
+  "zh": "如果那个失败属性出现了，比如说它发生在运行的前五分钟内，智能体可以立即收到那个通知，然后开始调试，而不必等待运行完成。"
+ },
+ {
+  "seg": 473,
+  "start": 2558.32,
+  "end": 2566.106,
+  "speaker": "Unknown",
+  "en": "And I would think too, you kind of touched on this earlier, where testing has become even more critical when we're generating more and more code.",
+  "zh": "我也在想，你之前有点提到了这一点，就是当我们生成越来越多的代码时，测试变得甚至更加关键。"
+ },
+ {
+  "seg": 474,
+  "start": 2566.526,
+  "end": 2575.593,
+  "speaker": "Unknown",
+  "en": "And it's not necessarily because by default, or there's some truism that every line of code that AI generates is sub quality to a person's ability to generate it, but it's just that",
+  "zh": "而这并不一定是因为，默认来说，或者有某种真理说 AI 生成的每一行代码都比人生成的能力差，而只是因为"
+ },
+ {
+  "seg": 475,
+  "start": 2576.113,
+  "end": 2584.999,
+  "speaker": "Unknown",
+  "en": "You know, if the person generating the code is only maybe looking at it a little bit or not looking at it, they don't have the same connection to that code and might not fully understand it at the same length.",
+  "zh": "你知道的，如果生成代码的人只是稍微看一眼或者根本不看，他们对那段代码没有同样的联系，可能无法以同样的深度完全理解它。"
+ },
+ {
+  "seg": 476,
+  "start": 2585.019,
+  "end": 2590.162,
+  "speaker": "Unknown",
+  "en": "So then a lot of it gets shifted to like the responsibility gets shifted to sort of testing and verification.",
+  "zh": "于是很多责任就被转移到了测试和验证上。"
+ },
+ {
+  "seg": 477,
+  "start": 2590.542,
+  "end": 2599.448,
+  "speaker": "Unknown",
+  "en": "I think that would also shift what is maybe the amount of effort and time that we're putting into actually testing and verification because",
+  "zh": "我认为这也会改变我们投入到实际测试和验证上的精力和时间量，因为"
+ },
+ {
+  "seg": 478,
+  "start": 2600.308,
+  "end": 2608.689,
+  "speaker": "Unknown",
+  "en": "There's such a risk now associated with pumping out code that maybe hasn't been fully vetted because a person never looked at it or barely looked at it.",
+  "zh": "现在 pumping 出可能没有经过完全审查的代码有如此大的风险，因为人从未看过或者只是勉强看过。"
+ },
+ {
+  "seg": 479,
+  "start": 2608.99,
+  "end": 2621.172,
+  "speaker": "Unknown",
+  "en": "So it kind of changes the equation, I guess, is what I'm trying to say in terms of where we're willing to spend time and compute cycles on than maybe what we were willing to spend time and compute cycles on just a few years ago.",
+  "zh": "所以，我想这就是我想说的，它某种程度上改变了这个等式，关于我们愿意把时间和算力周期花在哪里，相比可能就在几年前我们愿意把时间和算力周期花在哪里。"
+ },
+ {
+  "seg": 480,
+  "start": 2621.512,
+  "end": 2622.392,
+  "speaker": "Unknown",
+  "en": "I totally agree with that.",
+  "zh": "我完全同意这一点。"
+ },
+ {
+  "seg": 481,
+  "start": 2622.492,
+  "end": 2628.093,
+  "speaker": "Unknown",
+  "en": "I think that as we sort of see the time it takes code, effectively as the coding time decreases,",
+  "zh": "我认为，随着我们看到代码所需的时间，实际上是编码时间在减少，"
+ },
+ {
+  "seg": 482,
+  "start": 2628.693,
+  "end": 2632.937,
+  "speaker": "Unknown",
+  "en": "We basically should be rebalancing that effort into verification and specification.",
+  "zh": "我们基本上应该把那些精力重新平衡到验证和规格说明上。"
+ },
+ {
+  "seg": 483,
+  "start": 2633.337,
+  "end": 2644.546,
+  "speaker": "Unknown",
+  "en": "I see the role of engineering in the future being one of being very, very precise in specifications, so being able to prescribe exactly what you want in higher precision than we currently do.",
+  "zh": "我认为工程在未来扮演的角色是，在规格说明上做到非常非常精确，能够以比我们现在更高的精度精确规定你想要什么。"
+ },
+ {
+  "seg": 484,
+  "start": 2644.586,
+  "end": 2648.95,
+  "speaker": "Unknown",
+  "en": "I don't think markdown documents necessarily cut it for the level of precision that we need.",
+  "zh": "我不认为 markdown 文档 necessarily 能达到我们所需的那种精度水平。"
+ },
+ {
+  "seg": 485,
+  "start": 2649.47,
+  "end": 2653.312,
+  "speaker": "Unknown",
+  "en": "And then on the other side, you want verification to tie back to specification.",
+  "zh": "然后在另一边，你要让验证与规格说明挂钩。"
+ },
+ {
+  "seg": 486,
+  "start": 2653.392,
+  "end": 2658.594,
+  "speaker": "Unknown",
+  "en": "You want verification to not be hyper-focused on like individual paths through your software.",
+  "zh": "你不想让验证过度聚焦于软件中的单个路径。"
+ },
+ {
+  "seg": 487,
+  "start": 2658.914,
+  "end": 2666.597,
+  "speaker": "Unknown",
+  "en": "You want your verification to be a net of saying, for all possible paths, do they all match my specification, right?",
+  "zh": "你想让你的验证成为一张网，它在说：对于所有可能的路径，它们是否都符合我的规格说明，对吧？"
+ },
+ {
+  "seg": 488,
+  "start": 2666.677,
+  "end": 2674.26,
+  "speaker": "Unknown",
+  "en": "And the antithesis sort of story to this is that your specification should derive properties and invariants of the code that you want.",
+  "zh": "而 antithesis 在这件事上的故事是，你的规格说明应该推导出你想要的代码的属性和不变量。"
+ },
+ {
+  "seg": 489,
+  "start": 2674.66,
+  "end": 2685.682,
+  "speaker": "Unknown",
+  "en": "You should encode those into the workload that is running an antithesis, which then acts as a net that says for all possible paths through your simulation, we always reach a valid property outcome.",
+  "zh": "你应该把它们编码进正在运行 antithesis 的工作负载里，然后它充当一张网，它说：对于你的模拟中所有可能的路径，我们总是达到一个有效的属性结果。"
+ },
+ {
+  "seg": 490,
+  "start": 2686.002,
+  "end": 2687.502,
+  "speaker": "Unknown",
+  "en": "We never see a counter example.",
+  "zh": "我们从未见过反例。"
+ },
+ {
+  "seg": 491,
+  "start": 2687.742,
+  "end": 2697.444,
+  "speaker": "Unknown",
+  "en": "And by doing this, as we go back to like the sort of TDD thing, like your agent ends up focusing just on building the code that can like exist within that net in a safe way.",
+  "zh": "通过这样做，回到那个类似 TDD 的东西，你的智能体最终只会专注于构建能够以安全方式存在于那张网内的代码。"
+ },
+ {
+  "seg": 492,
+  "start": 2697.844,
+  "end": 2702.025,
+  "speaker": "Unknown",
+  "en": "Carl, as we start to get close on time here, is there anything else you'd like to share?",
+  "zh": "Carl,随着我们的时间快到了，还有什么你想分享的吗？"
+ },
+ {
+  "seg": 493,
+  "start": 2702.497,
+  "end": 2715.068,
+  "speaker": "Unknown",
+  "en": "Something that just I was thinking about recently that I'd like to like leave your audience with related to that last point of basically with modern coding, with AI coding, you want to build this like net and you want to build really good specification.",
+  "zh": "就是我最近一直在思考的东西，我想留给你的听众，与刚才最后一点相关，基本上在现代编码、AI 编码中，你想构建这张网，并且你想构建非常好的规格说明。"
+ },
+ {
+  "seg": 494,
+  "start": 2715.268,
+  "end": 2723.635,
+  "speaker": "Unknown",
+  "en": "In some ways, like I've been thinking about the reality of coding sort of becoming almost like diffusion, like image diffusion, if you've seen like all the AI generated images.",
+  "zh": "在某种程度上，我一直在思考编码这个现实几乎变成类似于扩散，就像图像扩散，如果你见过那些 AI 生成的图像的话。"
+ },
+ {
+  "seg": 495,
+  "start": 2723.975,
+  "end": 2742.191,
+  "speaker": "Unknown",
+  "en": "At which point we may get to an extreme case of this, like in some potential future, the ability for AI to generate very large volumes of code may be so much that we could actually completely change software engineering from an iterative process to almost like a diffusion process.",
+  "zh": "到那时我们可能会到达一个极端情况，比如在某种潜在的未来，AI 生成非常大量代码的能力可能如此之强，以至于我们实际上可以把软件工程从一个迭代过程完全改变成一个几乎像扩散的过程。"
+ },
+ {
+  "seg": 496,
+  "start": 2742.791,
+  "end": 2747.173,
+  "speaker": "Unknown",
+  "en": "Where you change the specification and you rediffuse the entire code base.",
+  "zh": "在那里你改变规格说明，然后重新扩散整个代码库。"
+ },
+ {
+  "seg": 497,
+  "start": 2747.613,
+  "end": 2758.999,
+  "speaker": "Unknown",
+  "en": "And as long as it matches the specification and the, you know, passes this sort of huge, huge net of potential state space, you basically just release that completely net new code base as the new version of code.",
+  "zh": "只要它符合规格说明，并且，你知道的，通过这张巨大的巨大的潜在状态空间的网，你基本上就直接发布那个全新的代码库作为代码的新版本。"
+ },
+ {
+  "seg": 498,
+  "start": 2759.319,
+  "end": 2765.202,
+  "speaker": "Unknown",
+  "en": "And I'm very interested to see how software engineering as a practice evolves as we get closer to that point.",
+  "zh": "而我非常感兴趣想看到，随着我们越来越接近那个点，软件工程作为一种实践会如何演进。"
+ },
+ {
+  "seg": 499,
+  "start": 2765.642,
+  "end": 2770.665,
+  "speaker": "Unknown",
+  "en": "And I think antithesis is a good sort of solution to the verification side of that problem.",
+  "zh": "而且，我认为 antithesis 是这个问题验证侧的一个很好的解决方案。"
+ },
+ {
+  "seg": 500,
+  "start": 2771.081,
+  "end": 2771.762,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 501,
+  "start": 2771.862,
+  "end": 2773.483,
+  "speaker": "Unknown",
+  "en": "I mean, this was super fascinating.",
+  "zh": "我觉得这次聊得非常精彩。"
+ },
+ {
+  "seg": 502,
+  "start": 2773.543,
+  "end": 2776.406,
+  "speaker": "Unknown",
+  "en": "I feel like we're just barely scratching the surface here.",
+  "zh": "感觉我们才刚刚触及皮毛。"
+ },
+ {
+  "seg": 503,
+  "start": 2776.446,
+  "end": 2777.527,
+  "speaker": "Unknown",
+  "en": "And I totally agree.",
+  "zh": "而且我完全同意。"
+ },
+ {
+  "seg": 504,
+  "start": 2777.587,
+  "end": 2782.411,
+  "speaker": "Unknown",
+  "en": "I think that so much has changed in software development, even in a six month period.",
+  "zh": "我认为软件开发已经发生了太多变化,哪怕只是在六个月的时间里。"
+ },
+ {
+  "seg": 505,
+  "start": 2782.751,
+  "end": 2784.493,
+  "speaker": "Unknown",
+  "en": "I don't think we're at steady state now.",
+  "zh": "我不认为我们现在处于稳定状态。"
+ },
+ {
+  "seg": 506,
+  "start": 2784.533,
+  "end": 2788.176,
+  "speaker": "Unknown",
+  "en": "I think things are going to continue to massively change over the next couple of years.",
+  "zh": "我认为在未来几年里,事情还会继续发生巨大变化。"
+ },
+ {
+  "seg": 507,
+  "start": 2788.216,
+  "end": 2796.664,
+  "speaker": "Unknown",
+  "en": "I don't know that anybody knows for sure where we're going to end up, but regardless of where we end up, I think it's going to be sort of exciting times, highs and lows to maybe get there.",
+  "zh": "我不知道有没有人能确定我们最终会走向哪里,但无论我们最终走到哪里,我想那都会是激动人心的时代,到达那里可能会有高峰也有低谷。"
+ },
+ {
+  "seg": 508,
+  "start": 2797.044,
+  "end": 2798.225,
+  "speaker": "Unknown",
+  "en": "Yeah, totally agree.",
+  "zh": "是的,完全同意。"
+ },
+ {
+  "seg": 509,
+  "start": 2798.505,
+  "end": 2800.186,
+  "speaker": "Unknown",
+  "en": "Well, I had a really good time on this chat.",
+  "zh": "嗯,这次聊天我过得非常愉快。"
+ },
+ {
+  "seg": 510,
+  "start": 2800.266,
+  "end": 2801.406,
+  "speaker": "Unknown",
+  "en": "Thank you so much for having me.",
+  "zh": "非常感谢你们邀请我。"
+ },
+ {
+  "seg": 511,
+  "start": 2801.686,
+  "end": 2803.427,
+  "speaker": "Unknown",
+  "en": "I'm excited to listen to this when it goes live.",
+  "zh": "我很期待节目上线后去听。"
+ },
+ {
+  "seg": 512,
+  "start": 2803.788,
+  "end": 2805.408,
+  "speaker": "Unknown",
+  "en": "Carl, thanks so much for being here and cheers.",
+  "zh": "Carl,非常感谢你来到这里,干杯。"
+ },
+ {
+  "seg": 513,
+  "start": 2805.629,
+  "end": 2805.909,
+  "speaker": "Unknown",
+  "en": "Cheers.",
+  "zh": "干杯。"
+ },
+ {
+  "seg": 514,
+  "start": 2806.049,
+  "end": 2806.389,
+  "speaker": "Unknown",
+  "en": "Thanks, Sean.",
+  "zh": "谢谢,Sean。"
+ }
+]

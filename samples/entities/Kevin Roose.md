@@ -63,7 +63,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 

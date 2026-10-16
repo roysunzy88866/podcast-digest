@@ -1,0 +1,606 @@
+{
+  "episode_id": "2026-10-10-talks-the-lethal-trifecta-is-already-on-your-l",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "提示词注入",
+    "远程开发环境",
+    "影子 AI"
+  ],
+  "categories": [
+    "AI 安全",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "michael-patterson",
+      "type": "person",
+      "role": "guest",
+      "name": "Michael Patterson",
+      "file": "Michael Patterson",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            26.914,
+            28.154
+          ],
+          "quote": "My name's Michael Patterson.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1217.251,
+            1220.072
+          ],
+          "quote": "My name is Michael Patterson, Staff Solutions Engineer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coder",
+      "type": "company",
+      "role": "company",
+      "name": "Coder",
+      "file": "Coder",
+      "primary": true,
+      "how_described": "本集说 Coder 是 2017 年成立的开源公司,提供一致、可靠且安全的远程开发环境,可用 Terraform 配置、本地部署、不绑定模型和云,客户包括大银行、对冲基金和政府机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.174,
+            30.675
+          ],
+          "quote": "I'm a staff solutions engineer here at Coder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            48.725,
+            57.553
+          ],
+          "quote": "So what I'm going to do is explain a little bit about what the lethal trifecta is and what we've learned here at Coder in addressing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            201.844,
+            218.173
+          ],
+          "quote": "So today I'm going to spend a little bit of time talking about the lethal trifecta if you haven't heard of it and how Coder is addressing the principles of agentic security and how folks are coming to us so that they can address these problems and scale out AI at their company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            219.517,
+            221.078
+          ],
+          "quote": "So a little bit about Coder.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            221.759,
+            223.66
+          ],
+          "quote": "Coder was founded in 2017.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            241.953,
+            248.615
+          ],
+          "quote": "What Coder does is it delivers consistent, reliable, and secure remote development environments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            936.234,
+            940.735
+          ],
+          "quote": "The first thing is cloud development environments, and this is something that Coder does, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1041.574,
+            1049.057
+          ],
+          "quote": "And so everything that Coder does that helps developers, they don't have to worry about mucking around the shell, mucking around their precious laptop.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说 Claude Code 去年三月发布时改变了整个格局,是跑在笔记本电脑上的智能体编程工具,也是致命三要素的典型例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            88.626,
+            92.69
+          ],
+          "quote": "Claude Code basically changed the game when it came out last March.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            325.194,
+            333.657
+          ],
+          "quote": "One is if you have your agent on a laptop, that could be Claude Code, OpenClaw, Codex, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集说 OpenClaw 是一个可把自己的 AI 装到电脑上当私人助理的工具,但有诸多安全漏洞,社区建议单独买一台 Mac Mini 来跑它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            146.792,
+            150.174
+          ],
+          "quote": "Everyone here familiar with OpenClaw?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            150.394,
+            152.596
+          ],
+          "quote": "So what's the deal with OpenClaw?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            165.064,
+            175.11
+          ],
+          "quote": "You've probably seen everyone is saying, if you're going to use OpenClaw, you need to buy Mac Mini and put it on a different computer than your personal computer, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            178.011,
+            192.559
+          ],
+          "quote": "The last thing you want is OpenClaw to go download all of your sensitive files, put it up on the internet, download viruses on the internet, put that on your laptop, and then delete all your personal files so that you don't have them, but the rest of the world does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            325.194,
+            333.657
+          ],
+          "quote": "One is if you have your agent on a laptop, that could be Claude Code, OpenClaw, Codex, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lethal-trifecta",
+      "type": "concept",
+      "role": "concept",
+      "name": "致命三要素 (lethal trifecta)",
+      "file": "致命三要素",
+      "primary": true,
+      "how_described": "本集说这是 Simon Ellison 提出的术语,指智能体的三层攻击面:能访问私有数据、能与互联网通信、能从互联网下载东西——三层全占,出事只是时间问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            31.416,
+            35.638
+          ],
+          "quote": "Today, I want to talk to you about the lethal trifecta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            39.639,
+            41.2
+          ],
+          "quote": "Has anyone heard of the lethal trifecta?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            48.725,
+            57.553
+          ],
+          "quote": "So what I'm going to do is explain a little bit about what the lethal trifecta is and what we've learned here at Coder in addressing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            201.844,
+            218.173
+          ],
+          "quote": "So today I'm going to spend a little bit of time talking about the lethal trifecta if you haven't heard of it and how Coder is addressing the principles of agentic security and how folks are coming to us so that they can address these problems and scale out AI at their company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            310.869,
+            313.65
+          ],
+          "quote": "So what is the lethal trifecta?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            314.911,
+            324.454
+          ],
+          "quote": "The lethal trifecta was a term coined by Simon Ellison, and it's essentially three layers, three threat layers to the attack surface.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            488.365,
+            491.687
+          ],
+          "quote": "There are three pillars of the lethal trifecta.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1201.244,
+            1204.125
+          ],
+          "quote": "Agents are powerful, but beware of that lethal trifecta.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集说提示词注入是在智能体信任的信息源(错误信息、支持工单、CI/CD 日志)里放置恶意指令,智能体会把它当事实来源照做。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            405.294,
+            415.519
+          ],
+          "quote": "I'm sure everyone here has heard of prompt injection, which is essentially you have some kind of malicious guidance in the information source that an agent would trust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-poisoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文投毒 (context poisoning)",
+      "file": "上下文投毒",
+      "primary": true,
+      "how_described": "本集说上下文投毒是把坏信息塞进文档、数据等智能体会读取的地方,智能体读到恶意数据就会照着执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            434.128,
+            452.757
+          ],
+          "quote": "Context poisoning is in that same realm where you're essentially putting bad information into documentation, into data, anywhere where your agent is going to grab information and then if there's any malicious data in there, the agent is going to go ahead and run with it and do whatever it wants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            467.792,
+            472.216
+          ],
+          "quote": "And so any one of these prompt injections or context poisoning can",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "privilege-escalation",
+      "type": "concept",
+      "role": "concept",
+      "name": "权限提升 (privilege escalation)",
+      "file": "权限提升",
+      "primary": true,
+      "how_described": "本集说智能体为了干活往往被授予几乎全部访问权限,一旦被提示词注入或上下文投毒,权限会被不知不觉提升,导致删表、上传数据等不该做的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            453.337,
+            455.399
+          ],
+          "quote": "And then there's privilege escalation, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "shadow-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "影子 AI (shadow AI)",
+      "file": "影子 AI",
+      "primary": true,
+      "how_described": "本集说影子 AI 是员工用个人订阅在笔记本电脑上未经授权使用 AI,就像影子 IT 一样;企业看不到智能体在做什么,风险更大,规模化版本叫 Ninja AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            679.13,
+            680.531
+          ],
+          "quote": "We call that shadow AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            680.871,
+            689.617
+          ],
+          "quote": "Just like shadow IT, when you're bringing your own VMs, you're bringing your own technology into your company to get the work done, shadow AI is just unauthorized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            707.461,
+            716.303
+          ],
+          "quote": "We're starting to see a new term in the industry called Ninja AI, which is shadow AI at scale, where you're not just having one agent breaking stuff,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-development-environments",
+      "type": "concept",
+      "role": "concept",
+      "name": "云开发环境 (cloud development environments)",
+      "file": "云开发环境",
+      "primary": true,
+      "how_described": "本集说云开发环境是第一道防线:把智能体放到被安全团队审核过的远程隔离环境里,只能碰里面的代码、凭证和数据,还能开箱即用、加速 AI 生产力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            936.234,
+            940.735
+          ],
+          "quote": "The first thing is cloud development environments, and this is something that Coder does, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-proxy",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型代理 (model proxy)",
+      "file": "模型代理",
+      "primary": true,
+      "how_described": "本集说模型代理是智能体与 LLM 提供方之间的关卡,嗅探并记录所有流量、剥离注入内容、拦下不小心贴进提示词的信用卡数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1083.456,
+            1086.119
+          ],
+          "quote": "The next thing is a model proxy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1135.9,
+            1140.083
+          ],
+          "quote": "Model proxy can strip that and it logs everything that's happening.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-firewall",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体防火墙 (agent firewall)",
+      "file": "智能体防火墙",
+      "primary": true,
+      "how_described": "本集说智能体防火墙在进程层面盯着智能体,如果它运行 GH repo delete 或 drop table 这类未批准的命令就直接拒绝。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1141.327,
+            1143.828
+          ],
+          "quote": "Lastly, you want an agent firewall.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集说 CISO 们的共识是:想让大家在 AI 高速路上尽量快跑,但必须有护栏,否则出了事背锅的是安全团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            798.289,
+            800.331
+          ],
+          "quote": "But I need guardrails for them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            816.662,
+            829.705
+          ],
+          "quote": "And they don't want the finger being pointed at them because someone used agentic AI and they didn't know what they were doing or they didn't have the proper guardrails for agentic usage at the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            926.709,
+            933.754
+          ],
+          "quote": "So I'm going to talk a little bit about how you can address all of these guardrails that everyone is concerned for.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说平台团队担心可观测性:怎么获取智能体对 LLM 提供方的每一次调用,同时避免告警疲劳——警报一多就没人看,真正致命的事反而被漏掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            829.825,
+            835.247
+          ],
+          "quote": "Platform admins, DevOps, infrastructure, security engineering, they're worried about observability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            839.899,
+            845.562
+          ],
+          "quote": "How do I get every call that they make to an LLM provider and some kind of observability tool?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            851.725,
+            859.388
+          ],
+          "quote": "So another thing that's happening is maybe we do get some kind of observability around AI, but now there's alerts going all over the place.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集在列举跑在笔记本电脑上的智能体时顺带提到 Codex(Claude Code、OpenClaw、Codex)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            325.194,
+            333.657
+          ],
+          "quote": "One is if you have your agent on a laptop, that could be Claude Code, OpenClaw, Codex, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集开头提到 vibe coding 当时非常火,并讲了 Jason 用智能体编程后两天内被删库的故事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            98.75,
+            102.596
+          ],
+          "quote": "So vibe coding was a really big thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

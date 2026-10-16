@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Twilio":4,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":92,"提示词注入":1,"推理模型":2,"fail open":2,"负载卸载":1}</script>
+<script type="application/json" class="pd-epn">{"Twilio":4,"LLM 网关":3,"回退":1,"断路器":1,"延迟":8,"护栏":93,"提示词注入":1,"推理模型":2,"fail open":2,"负载卸载":1}</script>
 
 <script>
 (function(){

@@ -27,7 +27,7 @@ unlisted: true
 
 [[推理]] · [[Carlos Sanchez]] · [[Stefano Ermon]] · [[智能体网站]] · [[inception 阶段]] · [[超个性化]] · [[Mercury]] · [[Gemma 4]] · [[扩散]] · [[Adobe Experience Manager]]
 
-<script type="application/json" class="pd-epn">{"推理":101,"Carlos Sanchez":1,"Stefano Ermon":1,"智能体网站":1,"inception 阶段":2,"超个性化":1,"Mercury":5,"Gemma 4":2,"扩散":2,"Adobe Experience Manager":1}</script>
+<script type="application/json" class="pd-epn">{"推理":102,"Carlos Sanchez":1,"Stefano Ermon":1,"智能体网站":1,"inception 阶段":2,"超个性化":1,"Mercury":5,"Gemma 4":2,"扩散":2,"Adobe Experience Manager":1}</script>
 
 <script>
 (function(){

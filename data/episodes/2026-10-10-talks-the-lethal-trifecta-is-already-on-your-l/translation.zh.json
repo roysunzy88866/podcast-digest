@@ -1,0 +1,1778 @@
+[
+ {
+  "seg": 0,
+  "start": 13.028,
+  "end": 13.948,
+  "speaker": "Unknown",
+  "en": "How's everybody doing?",
+  "zh": "大家最近怎么样?"
+ },
+ {
+  "seg": 1,
+  "start": 16.069,
+  "end": 16.61,
+  "speaker": "Unknown",
+  "en": "Coolio.",
+  "zh": "很好。"
+ },
+ {
+  "seg": 2,
+  "start": 18.75,
+  "end": 20.631,
+  "speaker": "Unknown",
+  "en": "Well, it's nice to be presenting to you all.",
+  "zh": "好了,很高兴能在这里给大家做分享。"
+ },
+ {
+  "seg": 3,
+  "start": 20.651,
+  "end": 26.474,
+  "speaker": "Unknown",
+  "en": "I hope we're all having a good time here at the AI engineers conference.",
+  "zh": "希望我们大家在 AI 工程师大会上都能玩得开心。"
+ },
+ {
+  "seg": 4,
+  "start": 26.914,
+  "end": 28.154,
+  "speaker": "Unknown",
+  "en": "My name's Michael Patterson.",
+  "zh": "我叫 Michael Patterson。"
+ },
+ {
+  "seg": 5,
+  "start": 28.174,
+  "end": 30.675,
+  "speaker": "Unknown",
+  "en": "I'm a staff solutions engineer here at Coder.",
+  "zh": "我是 Coder 的一名资深解决方案工程师。"
+ },
+ {
+  "seg": 6,
+  "start": 31.416,
+  "end": 35.638,
+  "speaker": "Unknown",
+  "en": "Today, I want to talk to you about the lethal trifecta.",
+  "zh": "今天,我想和你们聊聊致命三要素。"
+ },
+ {
+  "seg": 7,
+  "start": 36.498,
+  "end": 38.019,
+  "speaker": "Unknown",
+  "en": "So we're a bit of a small crowd.",
+  "zh": "我们今天观众不算多。"
+ },
+ {
+  "seg": 8,
+  "start": 38.679,
+  "end": 39.619,
+  "speaker": "Unknown",
+  "en": "Can I get a raise of hands?",
+  "zh": "能举个手吗?"
+ },
+ {
+  "seg": 9,
+  "start": 39.639,
+  "end": 41.2,
+  "speaker": "Unknown",
+  "en": "Has anyone heard of the lethal trifecta?",
+  "zh": "有谁听说过致命三要素?"
+ },
+ {
+  "seg": 10,
+  "start": 43.48,
+  "end": 48.064,
+  "speaker": "Unknown",
+  "en": "All of us, or half of us, so about 50-50, fantastic.",
+  "zh": "全体,或者说一半人,大约五五开,太好了。"
+ },
+ {
+  "seg": 11,
+  "start": 48.725,
+  "end": 57.553,
+  "speaker": "Unknown",
+  "en": "So what I'm going to do is explain a little bit about what the lethal trifecta is and what we've learned here at Coder in addressing it.",
+  "zh": "那么我要做的是稍微解释一下致命三要素是什么,以及我们在 Coder 解决这个问题时学到了什么。"
+ },
+ {
+  "seg": 12,
+  "start": 59.855,
+  "end": 66.602,
+  "speaker": "Unknown",
+  "en": "So I want to start off by removing these granola notes from the presenter view, sorry.",
+  "zh": "我想先把这些燕麦棒笔记从演示者视图里删掉,抱歉。"
+ },
+ {
+  "seg": 13,
+  "start": 70.889,
+  "end": 77.255,
+  "speaker": "Unknown",
+  "en": "I want to start off just on a quick recap of agentic AI in 2025.",
+  "zh": "我想先快速回顾一下 2025 年的智能体 AI。"
+ },
+ {
+  "seg": 14,
+  "start": 77.355,
+  "end": 80.458,
+  "speaker": "Unknown",
+  "en": "2025 was undoubtedly the year of the AI agent.",
+  "zh": "2025 年毫无疑问是 AI 智能体之年。"
+ },
+ {
+  "seg": 15,
+  "start": 81.219,
+  "end": 88.066,
+  "speaker": "Unknown",
+  "en": "Everybody had a new agentic tool, Microsoft, Salesforce, AWS.",
+  "zh": "每个人都有一款新的智能体工具,微软、Salesforce、AWS。"
+ },
+ {
+  "seg": 16,
+  "start": 88.626,
+  "end": 92.69,
+  "speaker": "Unknown",
+  "en": "Claude Code basically changed the game when it came out last March.",
+  "zh": "Claude Code 在去年三月发布时基本上改变了整个格局。"
+ },
+ {
+  "seg": 17,
+  "start": 93.03,
+  "end": 94.312,
+  "speaker": "Unknown",
+  "en": "Everybody was using this stuff.",
+  "zh": "每个人都在用这些东西。"
+ },
+ {
+  "seg": 18,
+  "start": 96.827,
+  "end": 98.67,
+  "speaker": "Unknown",
+  "en": "And I have a quick story.",
+  "zh": "我有个小故事。"
+ },
+ {
+  "seg": 19,
+  "start": 98.75,
+  "end": 102.596,
+  "speaker": "Unknown",
+  "en": "So vibe coding was a really big thing.",
+  "zh": "vibe coding 当时是一件非常火的事。"
+ },
+ {
+  "seg": 20,
+  "start": 103.958,
+  "end": 107.203,
+  "speaker": "Unknown",
+  "en": "Jason had this Twitter post about how",
+  "zh": "Jason 发过一条推文,讲的是"
+ },
+ {
+  "seg": 21,
+  "start": 108.415,
+  "end": 110.616,
+  "speaker": "Unknown",
+  "en": "Agentec coding changed his life.",
+  "zh": "智能体编程如何改变了他的人生。"
+ },
+ {
+  "seg": 22,
+  "start": 111.116,
+  "end": 116.297,
+  "speaker": "Unknown",
+  "en": "He's pushing out all of this code, making all of these new changes to his product.",
+  "zh": "他在推送所有这些代码,为他的产品做所有这些新改动。"
+ },
+ {
+  "seg": 23,
+  "start": 116.777,
+  "end": 118.177,
+  "speaker": "Unknown",
+  "en": "This was the future for him.",
+  "zh": "这对他来说就是未来。"
+ },
+ {
+  "seg": 24,
+  "start": 118.898,
+  "end": 135.242,
+  "speaker": "Unknown",
+  "en": "And then I think less than 24 hours later, or two days later, he posts on Twitter again and says, Agentec AI just destroyed my product, deleted my production database, and how can anyone ever use Agentec AI?",
+  "zh": "然后我想不到 24 小时后,或者说两天后,他再次发推说,智能体 AI 刚刚毁掉了我的产品,删除了我的生产数据库,还有谁敢用智能体 AI?"
+ },
+ {
+  "seg": 25,
+  "start": 137.886,
+  "end": 145.671,
+  "speaker": "Unknown",
+  "en": "The thing is, AI agents are very powerful, but they create problems.",
+  "zh": "问题是,AI 智能体非常强大,但它们也会制造问题。"
+ },
+ {
+  "seg": 26,
+  "start": 146.792,
+  "end": 150.174,
+  "speaker": "Unknown",
+  "en": "Everyone here familiar with OpenClaw?",
+  "zh": "在座的各位熟悉 OpenClaw 吗?"
+ },
+ {
+  "seg": 27,
+  "start": 150.394,
+  "end": 152.596,
+  "speaker": "Unknown",
+  "en": "So what's the deal with OpenClaw?",
+  "zh": "那 OpenClaw 是怎么回事?"
+ },
+ {
+  "seg": 28,
+  "start": 153.156,
+  "end": 154.617,
+  "speaker": "Unknown",
+  "en": "It's a really, really cool tool.",
+  "zh": "它是一个非常、非常酷的工具。"
+ },
+ {
+  "seg": 29,
+  "start": 154.957,
+  "end": 163.683,
+  "speaker": "Unknown",
+  "en": "You can put your own AI on a computer, and it can essentially be your personal assistant, do all of this really, really awesome stuff for you.",
+  "zh": "你可以把自己的 AI 装到一台电脑上,它基本上可以成为你的私人助理,为你做所有这些非常、非常棒的事情。"
+ },
+ {
+  "seg": 30,
+  "start": 165.064,
+  "end": 175.11,
+  "speaker": "Unknown",
+  "en": "You've probably seen everyone is saying, if you're going to use OpenClaw, you need to buy Mac Mini and put it on a different computer than your personal computer, right?",
+  "zh": "你们大概见过,大家都在说,如果你要用 OpenClaw,你需要买一台 Mac Mini,把它放在和你的个人电脑不同的另一台电脑上,对吧?"
+ },
+ {
+  "seg": 31,
+  "start": 175.43,
+  "end": 177.671,
+  "speaker": "Unknown",
+  "en": "Because it's got all these security vulnerabilities.",
+  "zh": "因为它有所有这些安全漏洞。"
+ },
+ {
+  "seg": 32,
+  "start": 178.011,
+  "end": 192.559,
+  "speaker": "Unknown",
+  "en": "The last thing you want is OpenClaw to go download all of your sensitive files, put it up on the internet, download viruses on the internet, put that on your laptop, and then delete all your personal files so that you don't have them, but the rest of the world does.",
+  "zh": "你最不想要的就是 OpenClaw 去下载你所有的敏感文件,把它们传到互联网上,再从互联网上下载病毒,装到你的笔记本上,然后删除你所有的个人文件,让你自己没有这些文件,而世界上的其他人却有。"
+ },
+ {
+  "seg": 33,
+  "start": 194.14,
+  "end": 201.164,
+  "speaker": "Unknown",
+  "en": "There are quite a few issues with agents that we are still wrapping our heads around and how to securely develop with AI agents.",
+  "zh": "智能体有相当多的问题,我们仍在努力理解,以及如何安全地用 AI 智能体进行开发。"
+ },
+ {
+  "seg": 34,
+  "start": 201.844,
+  "end": 218.173,
+  "speaker": "Unknown",
+  "en": "So today I'm going to spend a little bit of time talking about the lethal trifecta if you haven't heard of it and how Coder is addressing the principles of agentic security and how folks are coming to us so that they can address these problems and scale out AI at their company.",
+  "zh": "所以今天我会花一点时间讲讲致命三要素,如果你没听说过的话,以及 Coder 如何落实智能体安全的原则,以及大家如何找上我们,以便他们能解决这些问题,并在他们的公司规模化部署 AI。"
+ },
+ {
+  "seg": 35,
+  "start": 219.517,
+  "end": 221.078,
+  "speaker": "Unknown",
+  "en": "So a little bit about Coder.",
+  "zh": "简单介绍一下 Coder。"
+ },
+ {
+  "seg": 36,
+  "start": 221.759,
+  "end": 223.66,
+  "speaker": "Unknown",
+  "en": "Coder was founded in 2017.",
+  "zh": "Coder 创立于 2017 年。"
+ },
+ {
+  "seg": 37,
+  "start": 224.881,
+  "end": 235.47,
+  "speaker": "Unknown",
+  "en": "It was founded by three teenagers who were making Minecraft mods, and they got tired of having to configure VMs constantly to run Minecraft so that they could develop mods on it.",
+  "zh": "它由三个制作 Minecraft 模组的青少年创立,他们厌倦了为了运行 Minecraft 而不断配置虚拟机以便在其中开发模组。"
+ },
+ {
+  "seg": 38,
+  "start": 235.87,
+  "end": 239.193,
+  "speaker": "Unknown",
+  "en": "Somehow they stumbled on an $80 million company.",
+  "zh": "不知怎的,他们摸索成了一家 8000 万美元的公司。"
+ },
+ {
+  "seg": 39,
+  "start": 240.213,
+  "end": 241.393,
+  "speaker": "Unknown",
+  "en": "We're very proud of them.",
+  "zh": "我们为他们感到非常骄傲。"
+ },
+ {
+  "seg": 40,
+  "start": 241.953,
+  "end": 248.615,
+  "speaker": "Unknown",
+  "en": "What Coder does is it delivers consistent, reliable, and secure remote development environments.",
+  "zh": "Coder 所做的,是提供一致、可靠且安全的远程开发环境。"
+ },
+ {
+  "seg": 41,
+  "start": 249.075,
+  "end": 252.276,
+  "speaker": "Unknown",
+  "en": "Those environments can be stood up pretty much anywhere you want.",
+  "zh": "这些环境几乎可以在你想要的任何地方搭建起来。"
+ },
+ {
+  "seg": 42,
+  "start": 252.656,
+  "end": 254.056,
+  "speaker": "Unknown",
+  "en": "They're configured with Terraform.",
+  "zh": "它们用 Terraform 配置。"
+ },
+ {
+  "seg": 43,
+  "start": 254.456,
+  "end": 255.636,
+  "speaker": "Unknown",
+  "en": "We're open source.",
+  "zh": "我们是开源的。"
+ },
+ {
+  "seg": 44,
+  "start": 256.136,
+  "end": 257.617,
+  "speaker": "Unknown",
+  "en": "We're model agnostic.",
+  "zh": "我们对模型不可知(不绑定特定模型)。"
+ },
+ {
+  "seg": 45,
+  "start": 258.037,
+  "end": 259.737,
+  "speaker": "Unknown",
+  "en": "We're cloud agnostic.",
+  "zh": "我们对云不可知(不绑定特定云)。"
+ },
+ {
+  "seg": 46,
+  "start": 260.377,
+  "end": 261.798,
+  "speaker": "Unknown",
+  "en": "You can host this on-premise.",
+  "zh": "你可以在本地部署(on-premise)托管它。"
+ },
+ {
+  "seg": 47,
+  "start": 262.238,
+  "end": 262.958,
+  "speaker": "Unknown",
+  "en": "And we find that",
+  "zh": "而且我们发现,"
+ },
+ {
+  "seg": 48,
+  "start": 263.978,
+  "end": 272.621,
+  "speaker": "Unknown",
+  "en": "This is a really, really good solution if you need a self-hosted model for developer environments or agentic environments.",
+  "zh": "如果你需要一个自托管的模型用于开发者环境或智能体环境,这是一个非常、非常好的解决方案。"
+ },
+ {
+  "seg": 49,
+  "start": 273.281,
+  "end": 279.824,
+  "speaker": "Unknown",
+  "en": "We're trusted by some of the biggest companies here in the United States and across Europe.",
+  "zh": "我们被美国和欧洲各地一些最大的公司所信赖。"
+ },
+ {
+  "seg": 50,
+  "start": 280.084,
+  "end": 281.785,
+  "speaker": "Unknown",
+  "en": "Here are some of the names on our board.",
+  "zh": "这里是一些我们董事会上的名字。"
+ },
+ {
+  "seg": 51,
+  "start": 282.365,
+  "end": 289.267,
+  "speaker": "Unknown",
+  "en": "We're in, I believe, six of the top ten big banks, lots of hedge funds, lots of three-letter government agencies.",
+  "zh": "我们进入了我相信是前十的大银行中的六家,还有很多对冲基金,很多三字母缩写的政府机构。"
+ },
+ {
+  "seg": 52,
+  "start": 289.868,
+  "end": 290.388,
+  "speaker": "Unknown",
+  "en": "Essentially,",
+  "zh": "本质上,"
+ },
+ {
+  "seg": 53,
+  "start": 291.505,
+  "end": 309.549,
+  "speaker": "Unknown",
+  "en": "If a SaaS model doesn't work for you, if you've got on-prem infrastructure, if you cannot have code sitting on a developer's laptop or in some kind of perimeter that you cannot control, code is usually a good solution, just like these companies need it.",
+  "zh": "如果 SaaS 模式不适合你,如果你有本地部署的基础设施,如果你不能让代码放在开发者的笔记本电脑上或放在某种你无法控制的边界内,那么代码通常是一个好的解决方案,就像这些公司需要的那样。"
+ },
+ {
+  "seg": 54,
+  "start": 310.869,
+  "end": 313.65,
+  "speaker": "Unknown",
+  "en": "So what is the lethal trifecta?",
+  "zh": "那么什么是致命三要素?"
+ },
+ {
+  "seg": 55,
+  "start": 314.911,
+  "end": 324.454,
+  "speaker": "Unknown",
+  "en": "The lethal trifecta was a term coined by Simon Ellison, and it's essentially three layers, three threat layers to the attack surface.",
+  "zh": "致命三要素是 Simon Ellison 创造的一个术语,本质上是三层,攻击面的三个威胁层。"
+ },
+ {
+  "seg": 56,
+  "start": 325.194,
+  "end": 333.657,
+  "speaker": "Unknown",
+  "en": "One is if you have your agent on a laptop, that could be Claude Code, OpenClaw, Codex, right?",
+  "zh": "一个是如果你的智能体在笔记本电脑上,那可能是 Claude Code、OpenClaw、Codex,对吧?"
+ },
+ {
+  "seg": 57,
+  "start": 334.097,
+  "end": 344.321,
+  "speaker": "Unknown",
+  "en": "Well, that laptop has access to private data that can be personal information as files on your computer, credentials, company IP,",
+  "zh": "那么,那台笔记本电脑可以访问私有数据,可能是你电脑上作为文件存在的个人信息、凭证、公司知识产权,"
+ },
+ {
+  "seg": 58,
+  "start": 344.921,
+  "end": 345.703,
+  "speaker": "Unknown",
+  "en": "Databases.",
+  "zh": "数据库。"
+ },
+ {
+  "seg": 59,
+  "start": 346.504,
+  "end": 348.888,
+  "speaker": "Unknown",
+  "en": "So now your laptop has access to it.",
+  "zh": "所以现在你的笔记本电脑可以访问它。"
+ },
+ {
+  "seg": 60,
+  "start": 349.73,
+  "end": 351.994,
+  "speaker": "Unknown",
+  "en": "Your agent now has access to this private data.",
+  "zh": "你的智能体现在可以访问这些私有数据。"
+ },
+ {
+  "seg": 61,
+  "start": 352.996,
+  "end": 355.721,
+  "speaker": "Unknown",
+  "en": "Now that it has access to this private data, it can also",
+  "zh": "既然它可以访问这些私有数据,它还可以"
+ },
+ {
+  "seg": 62,
+  "start": 357.78,
+  "end": 359.922,
+  "speaker": "Unknown",
+  "en": "communicate to the internet.",
+  "zh": "与互联网通信。"
+ },
+ {
+  "seg": 63,
+  "start": 360.002,
+  "end": 363.906,
+  "speaker": "Unknown",
+  "en": "So it has access to private data and it can put that data on the internet.",
+  "zh": "所以它可以访问私有数据,并且可以把这些数据放到互联网上。"
+ },
+ {
+  "seg": 64,
+  "start": 364.226,
+  "end": 369.371,
+  "speaker": "Unknown",
+  "en": "And not only can it put that data on the internet, it can also download things off the internet.",
+  "zh": "而且它不仅能把这些数据放到互联网上,它还可以从互联网上下载东西。"
+ },
+ {
+  "seg": 65,
+  "start": 369.832,
+  "end": 378.04,
+  "speaker": "Unknown",
+  "en": "So this is a problem because you don't have oversight into what exactly that agent might do when you prompt it.",
+  "zh": "所以这是一个问题,因为当你提示它时,你无法监督那个智能体究竟会做什么。"
+ },
+ {
+  "seg": 66,
+  "start": 379.643,
+  "end": 390.475,
+  "speaker": "Unknown",
+  "en": "So one of these three isn't really a big problem, but two out of three is completely unacceptable in any kind of secure enterprise environment.",
+  "zh": "所以这三者之一其实不算什么大问题,但三者中有两个在任何安全的企业环境中都是完全不可接受的。"
+ },
+ {
+  "seg": 67,
+  "start": 390.876,
+  "end": 393.919,
+  "speaker": "Unknown",
+  "en": "Having all three, it's basically not acceptable.",
+  "zh": "三者全有,基本上是不可接受的。"
+ },
+ {
+  "seg": 68,
+  "start": 394.079,
+  "end": 400.727,
+  "speaker": "Unknown",
+  "en": "It's not if, it's when you're going to have some kind of security incident by having an agent on that laptop.",
+  "zh": "问题不是会不会,而是什么时候,你会因为在那台笔记本电脑上运行智能体而遭遇某种安全事件。"
+ },
+ {
+  "seg": 69,
+  "start": 402.293,
+  "end": 404.754,
+  "speaker": "Unknown",
+  "en": "And so here I've got a couple of attack scenarios.",
+  "zh": "所以这里我准备了几种攻击场景。"
+ },
+ {
+  "seg": 70,
+  "start": 405.294,
+  "end": 415.519,
+  "speaker": "Unknown",
+  "en": "I'm sure everyone here has heard of prompt injection, which is essentially you have some kind of malicious guidance in the information source that an agent would trust.",
+  "zh": "我相信在座的每个人都听说过提示词注入,本质上就是你在智能体会信任的信息源中放置某种恶意指令。"
+ },
+ {
+  "seg": 71,
+  "start": 415.999,
+  "end": 417.86,
+  "speaker": "Unknown",
+  "en": "So it might be looking at error messages.",
+  "zh": "所以它可能在查看错误信息。"
+ },
+ {
+  "seg": 72,
+  "start": 418.06,
+  "end": 419.861,
+  "speaker": "Unknown",
+  "en": "It might be looking at support tickets.",
+  "zh": "它可能在查看支持工单。"
+ },
+ {
+  "seg": 73,
+  "start": 420.241,
+  "end": 421.802,
+  "speaker": "Unknown",
+  "en": "It might be looking at CICD logs.",
+  "zh": "它可能在查看 CICD 日志。"
+ },
+ {
+  "seg": 74,
+  "start": 422.102,
+  "end": 424.143,
+  "speaker": "Unknown",
+  "en": "And it's very easy for a malicious actor",
+  "zh": "恶意行为者很容易"
+ },
+ {
+  "seg": 75,
+  "start": 424.983,
+  "end": 433.047,
+  "speaker": "Unknown",
+  "en": "Put something in any of those messages and the agent just accepts us as a source of truth and can do something that you didn't expect it to do.",
+  "zh": "在这些消息中的任何一条里放一些东西,而智能体就把它当作事实来源接受下来,并做出你没有预料到的事情。"
+ },
+ {
+  "seg": 76,
+  "start": 434.128,
+  "end": 452.757,
+  "speaker": "Unknown",
+  "en": "Context poisoning is in that same realm where you're essentially putting bad information into documentation, into data, anywhere where your agent is going to grab information and then if there's any malicious data in there, the agent is going to go ahead and run with it and do whatever it wants.",
+  "zh": "上下文投毒属于同一个范畴,你本质上是把坏信息放进文档、放进数据,放进智能体会获取信息的任何地方,然后如果里面有任何恶意数据,智能体就会拿着它继续运行,做任何它想做的事。"
+ },
+ {
+  "seg": 77,
+  "start": 453.337,
+  "end": 455.399,
+  "speaker": "Unknown",
+  "en": "And then there's privilege escalation, right?",
+  "zh": "然后还有权限提升,对吧?"
+ },
+ {
+  "seg": 78,
+  "start": 455.559,
+  "end": 460.484,
+  "speaker": "Unknown",
+  "en": "So everyone's familiar with the least privileged access principle, right?",
+  "zh": "每个人都熟悉最小权限原则,对吧?"
+ },
+ {
+  "seg": 79,
+  "start": 460.965,
+  "end": 467.672,
+  "speaker": "Unknown",
+  "en": "And generally we're giving agents access to pretty much everything because it needs access to do the work, right?",
+  "zh": "而通常我们给智能体的访问权限几乎是所有东西,因为它需要访问权限才能完成工作,对吧?"
+ },
+ {
+  "seg": 80,
+  "start": 467.792,
+  "end": 472.216,
+  "speaker": "Unknown",
+  "en": "And so any one of these prompt injections or context poisoning can",
+  "zh": "所以任何一种提示词注入或上下文投毒都可以"
+ },
+ {
+  "seg": 81,
+  "start": 473.197,
+  "end": 477.539,
+  "speaker": "Unknown",
+  "en": "Unwittingly, escalate the privilege of that agent so it can do things that it shouldn't do.",
+  "zh": "在不知不觉中提升那个智能体的权限,让它能做它不该做的事。"
+ },
+ {
+  "seg": 82,
+  "start": 477.98,
+  "end": 483.103,
+  "speaker": "Unknown",
+  "en": "Drop a table, upload, make requests, or post things that it shouldn't be able to do.",
+  "zh": "删掉一张表、上传、发出请求,或者发布它本不该能做的事。"
+ },
+ {
+  "seg": 83,
+  "start": 484.203,
+  "end": 486.885,
+  "speaker": "Unknown",
+  "en": "So how do we address that?",
+  "zh": "那么我们如何解决这个问题?"
+ },
+ {
+  "seg": 84,
+  "start": 488.365,
+  "end": 491.687,
+  "speaker": "Unknown",
+  "en": "There are three pillars of the lethal trifecta.",
+  "zh": "致命三要素有三大支柱。"
+ },
+ {
+  "seg": 85,
+  "start": 492.028,
+  "end": 495.71,
+  "speaker": "Unknown",
+  "en": "There are three pillars of agentic security.",
+  "zh": "智能体安全有三大支柱。"
+ },
+ {
+  "seg": 86,
+  "start": 495.73,
+  "end": 497.531,
+  "speaker": "Unknown",
+  "en": "We call it the trifecta of agent security.",
+  "zh": "我们称之为智能体安全的三要素。"
+ },
+ {
+  "seg": 87,
+  "start": 497.951,
+  "end": 501.433,
+  "speaker": "Unknown",
+  "en": "The first thing is you want to control data access.",
+  "zh": "第一件事是你要控制数据访问。"
+ },
+ {
+  "seg": 88,
+  "start": 501.973,
+  "end": 505.334,
+  "speaker": "Unknown",
+  "en": "If you're going to use an agent, you don't want it on your laptop.",
+  "zh": "如果你要使用智能体,你不要把它放在你的笔记本电脑上。"
+ },
+ {
+  "seg": 89,
+  "start": 505.674,
+  "end": 518.559,
+  "speaker": "Unknown",
+  "en": "You want it in an environment that is secure, preferably a virtual environment that's going to block private file access, is going to prevent destructive actions on your machine because it's on some other machine.",
+  "zh": "你要把它放在一个安全的环境中,最好是一个虚拟环境,它会阻止私有文件访问,会防止在你的机器上进行破坏性操作,因为它在另一台机器上。"
+ },
+ {
+  "seg": 90,
+  "start": 518.939,
+  "end": 519.94,
+  "speaker": "Unknown",
+  "en": "Then you restrict",
+  "zh": "然后你要限制"
+ },
+ {
+  "seg": 91,
+  "start": 520.66,
+  "end": 521.982,
+  "speaker": "Unknown",
+  "en": "That external communication.",
+  "zh": "那种对外通信。"
+ },
+ {
+  "seg": 92,
+  "start": 522.422,
+  "end": 532.714,
+  "speaker": "Unknown",
+  "en": "So if you're going to put that agent on some kind of box, a VM, it's going to now be isolated architecturally from your network.",
+  "zh": "所以如果你要把那个智能体放在某种机器上,一台虚拟机,它现在在架构上与你的网络隔离开来。"
+ },
+ {
+  "seg": 93,
+  "start": 533.074,
+  "end": 536.478,
+  "speaker": "Unknown",
+  "en": "It's only going to be able to go to domains that you want it to go through.",
+  "zh": "它只能访问你希望它访问的域名。"
+ },
+ {
+  "seg": 94,
+  "start": 536.698,
+  "end": 538.46,
+  "speaker": "Unknown",
+  "en": "It's going to be on your VPN.",
+  "zh": "它会在你的 VPN 上。"
+ },
+ {
+  "seg": 95,
+  "start": 538.48,
+  "end": 540.362,
+  "speaker": "Unknown",
+  "en": "Your VPC is going to go through a firewall.",
+  "zh": "你的 VPC 会经过防火墙。"
+ },
+ {
+  "seg": 96,
+  "start": 541.143,
+  "end": 546.025,
+  "speaker": "Unknown",
+  "en": "Anything that that agent is doing on that box, that traffic is going to be governed.",
+  "zh": "那个智能体在那台机器上做的任何事,那些流量都会被管控。"
+ },
+ {
+  "seg": 97,
+  "start": 546.045,
+  "end": 548.506,
+  "speaker": "Unknown",
+  "en": "You're going to be able to see every little thing that it does.",
+  "zh": "你将能看到它做的每一件小事。"
+ },
+ {
+  "seg": 98,
+  "start": 549.046,
+  "end": 562.171,
+  "speaker": "Unknown",
+  "en": "And if it ever breaches that perimeter, you should have some way of alerting your admins, alerting yourself that your agent is going somewhere it shouldn't so that you can effectively kill that VM, kill that agent.",
+  "zh": "如果它一旦突破那个边界,你应该有某种方式提醒你的管理员、提醒你自己,你的智能体正在去它不该去的地方,这样你就可以有效地杀死那台虚拟机、杀死那个智能体。"
+ },
+ {
+  "seg": 99,
+  "start": 562.751,
+  "end": 567.394,
+  "speaker": "Unknown",
+  "en": "And then you want to lock down the content and the contact and the access.",
+  "zh": "然后你要锁定内容、联系和访问。"
+ },
+ {
+  "seg": 100,
+  "start": 567.555,
+  "end": 569.056,
+  "speaker": "Unknown",
+  "en": "So you want to lock down to permissions.",
+  "zh": "所以你要锁定权限。"
+ },
+ {
+  "seg": 101,
+  "start": 569.436,
+  "end": 571.938,
+  "speaker": "Unknown",
+  "en": "You want to restrict what access it has to.",
+  "zh": "你要限制它能访问什么。"
+ },
+ {
+  "seg": 102,
+  "start": 571.998,
+  "end": 574.319,
+  "speaker": "Unknown",
+  "en": "You want tightly scoped credentials.",
+  "zh": "你要严格限定范围的凭证。"
+ },
+ {
+  "seg": 103,
+  "start": 574.72,
+  "end": 581.745,
+  "speaker": "Unknown",
+  "en": "The thing about agenda security is it's really no different from sound security practices for anyone.",
+  "zh": "智能体安全这件事,其实和针对任何人的健全安全实践没有区别。"
+ },
+ {
+  "seg": 104,
+  "start": 582.785,
+  "end": 590.328,
+  "speaker": "Unknown",
+  "en": "And we think that because AI is so powerful, we can just give it whatever it needs, and it's not going to make the same kind of mistakes.",
+  "zh": "而我们以为因为 AI 太强大了,我们可以随便给它它需要的一切,它不会犯同样的错误。"
+ },
+ {
+  "seg": 105,
+  "start": 590.708,
+  "end": 594.35,
+  "speaker": "Unknown",
+  "en": "It's not exploitable by other vulnerabilities that a human would be.",
+  "zh": "它不会像人类那样被其他漏洞利用。"
+ },
+ {
+  "seg": 106,
+  "start": 594.65,
+  "end": 606.034,
+  "speaker": "Unknown",
+  "en": "So we want to make sure to separate that machine, secure that environment, intercept any kind of communication that that agent might do to the wider internet.",
+  "zh": "所以我们要确保隔离那台机器、保护那个环境、拦截那个智能体可能向更广互联网进行的任何通信。"
+ },
+ {
+  "seg": 107,
+  "start": 609.748,
+  "end": 617.252,
+  "speaker": "Unknown",
+  "en": "Kind of quickly go over what it looks like deploying agents at scale at really, really large companies.",
+  "zh": "简单过一下在非常大非常大的公司大规模部署智能体是什么样子。"
+ },
+ {
+  "seg": 108,
+  "start": 617.793,
+  "end": 619.514,
+  "speaker": "Unknown",
+  "en": "What are the blockers to adoption?",
+  "zh": "采用的阻碍是什么?"
+ },
+ {
+  "seg": 109,
+  "start": 619.894,
+  "end": 621.835,
+  "speaker": "Unknown",
+  "en": "Why companies don't want to do this?",
+  "zh": "为什么公司不想这么做?"
+ },
+ {
+  "seg": 110,
+  "start": 622.516,
+  "end": 627.198,
+  "speaker": "Unknown",
+  "en": "What are the challenges if you do decide to roll out agentic AI at a company?",
+  "zh": "如果你确实决定在公司推智能体 AI,会面临哪些挑战?"
+ },
+ {
+  "seg": 111,
+  "start": 627.519,
+  "end": 632.982,
+  "speaker": "Unknown",
+  "en": "And the questions you can expect if you're trying to lead an initiative to get AI at your company.",
+  "zh": "以及如果你想在你的公司主导一个引入 AI 的倡议,你会遇到哪些问题。"
+ },
+ {
+  "seg": 112,
+  "start": 634.304,
+  "end": 636.644,
+  "speaker": "Unknown",
+  "en": "So some challenges to expect, right?",
+  "zh": "所以可以预期的一些挑战,对吧?"
+ },
+ {
+  "seg": 113,
+  "start": 637.085,
+  "end": 642.306,
+  "speaker": "Unknown",
+  "en": "Before adoption, you pretty much need security approval from CISOs.",
+  "zh": "在采用之前,你几乎需要 CISO 的安全批准。"
+ },
+ {
+  "seg": 114,
+  "start": 642.866,
+  "end": 647.167,
+  "speaker": "Unknown",
+  "en": "You need buy-in from DevOps because they're the ones that have to roll this out to teams.",
+  "zh": "你需要 DevOps 的支持,因为他们是必须向团队推这个的人。"
+ },
+ {
+  "seg": 115,
+  "start": 647.567,
+  "end": 652.228,
+  "speaker": "Unknown",
+  "en": "You're going to need real-world examples of, hey, this is why I need it.",
+  "zh": "你需要真实世界的例子,比如,嘿,这就是我需要它的原因。"
+ },
+ {
+  "seg": 116,
+  "start": 652.288,
+  "end": 654.008,
+  "speaker": "Unknown",
+  "en": "This is the workflow I want to do.",
+  "zh": "这是我想做的工作流。"
+ },
+ {
+  "seg": 117,
+  "start": 654.548,
+  "end": 663.23,
+  "speaker": "Unknown",
+  "en": "And the trick here is if you're not getting these approvals, if you're at a company right now and they are not letting you use agents,",
+  "zh": "这里的诀窍是,如果你拿不到这些批准,如果你现在所在的公司不让你使用智能体,"
+ },
+ {
+  "seg": 118,
+  "start": 664.3,
+  "end": 675.027,
+  "speaker": "Unknown",
+  "en": "Most people are going to use their personal Claude subscriptions, their personal ChatGPT subscriptions, put that on the laptop, because they do get tangible benefits from using AI.",
+  "zh": "大多数人会使用他们的个人 Claude 订阅、个人 ChatGPT 订阅,装到笔记本电脑上,因为他们确实从使用 AI 中获得切实的好处。"
+ },
+ {
+  "seg": 119,
+  "start": 675.327,
+  "end": 677.409,
+  "speaker": "Unknown",
+  "en": "They're just not being authorized by the company.",
+  "zh": "只是没有得到公司的授权。"
+ },
+ {
+  "seg": 120,
+  "start": 677.429,
+  "end": 678.75,
+  "speaker": "Unknown",
+  "en": "They're going to get that stuff done anyway.",
+  "zh": "他们反正会把那些事情搞定。"
+ },
+ {
+  "seg": 121,
+  "start": 679.13,
+  "end": 680.531,
+  "speaker": "Unknown",
+  "en": "We call that shadow AI.",
+  "zh": "我们把这叫影子 AI(shadow AI)。"
+ },
+ {
+  "seg": 122,
+  "start": 680.871,
+  "end": 689.617,
+  "speaker": "Unknown",
+  "en": "Just like shadow IT, when you're bringing your own VMs, you're bringing your own technology into your company to get the work done, shadow AI is just unauthorized.",
+  "zh": "就像影子 IT(shadow IT)一样,当你自带虚拟机、把自己的技术带进公司来完成工作时,影子 AI 就是未经授权的"
+ },
+ {
+  "seg": 123,
+  "start": 690.317,
+  "end": 692.638,
+  "speaker": "Unknown",
+  "en": "usage of AI on your laptops.",
+  "zh": "在你笔记本电脑上使用 AI。"
+ },
+ {
+  "seg": 124,
+  "start": 693.658,
+  "end": 701.78,
+  "speaker": "Unknown",
+  "en": "It's a real problem because once you get AI on your laptop, you're using your personal subscription, the enterprise doesn't know what's happening.",
+  "zh": "这是个真实的问题,因为一旦你把 AI 装到笔记本上,用的是个人订阅,企业就不知道发生了什么。"
+ },
+ {
+  "seg": 125,
+  "start": 702.44,
+  "end": 707.081,
+  "speaker": "Unknown",
+  "en": "And usually, agentic AI can do a lot of damage really fast.",
+  "zh": "而且通常,智能体 AI 能在很短的时间内造成很大的破坏。"
+ },
+ {
+  "seg": 126,
+  "start": 707.461,
+  "end": 716.303,
+  "speaker": "Unknown",
+  "en": "We're starting to see a new term in the industry called Ninja AI, which is shadow AI at scale, where you're not just having one agent breaking stuff,",
+  "zh": "我们开始看到行业里出现一个新名词叫 Ninja AI,也就是大规模的影子 AI,不只是一个智能体在搞坏东西,"
+ },
+ {
+  "seg": 127,
+  "start": 716.663,
+  "end": 725.153,
+  "speaker": "Unknown",
+  "en": "You've got multitudes of agents doing lots of things at an organization that no one knows until it's too late that a whole lot of stuff has gotten broken.",
+  "zh": "而是大量智能体在一个组织里做很多事,直到太迟了才发现一大堆东西已经被搞坏了,而之前没人知道。"
+ },
+ {
+  "seg": 128,
+  "start": 726.408,
+  "end": 734.75,
+  "speaker": "Unknown",
+  "en": "So if you are going to adopt AI at your company, you need to make sure that there are good outcomes, right?",
+  "zh": "所以如果你要在公司采用 AI,你需要确保有好的结果,对吧?"
+ },
+ {
+  "seg": 129,
+  "start": 735.31,
+  "end": 742.872,
+  "speaker": "Unknown",
+  "en": "Usually companies come to us, they start with the developers because they're getting the most use out of using AI, but you want to be adaptable.",
+  "zh": "通常公司来找我们,他们从开发者开始,因为他们从使用 AI 中获益最多,但你要有适应性。"
+ },
+ {
+  "seg": 130,
+  "start": 743.132,
+  "end": 745.192,
+  "speaker": "Unknown",
+  "en": "You need to be rethinking your architecture.",
+  "zh": "你需要重新思考你的架构。"
+ },
+ {
+  "seg": 131,
+  "start": 745.212,
+  "end": 755.975,
+  "speaker": "Unknown",
+  "en": "You need to be rethinking how you're going to protect your organization from incidents like agents dropping databases, deleting personal information, uploading customer information,",
+  "zh": "你需要重新思考你要如何保护你的组织免受诸如智能体删库、删除个人信息、上传客户信息之类的事故,"
+ },
+ {
+  "seg": 132,
+  "start": 756.775,
+  "end": 761.839,
+  "speaker": "Unknown",
+  "en": "Essentially extracting your company's IP onto the public internet.",
+  "zh": "本质上就是把你们公司的知识产权提取到公共互联网上。"
+ },
+ {
+  "seg": 133,
+  "start": 764.34,
+  "end": 770.945,
+  "speaker": "Unknown",
+  "en": "So once you start wanting to bring AI, you're going to definitely need to be talking to the security people.",
+  "zh": "所以一旦你开始想引入 AI,你肯定需要和安全团队的人谈。"
+ },
+ {
+  "seg": 134,
+  "start": 771.345,
+  "end": 774.727,
+  "speaker": "Unknown",
+  "en": "What is the CISO concerned about?",
+  "zh": "CISO 关心的是什么?"
+ },
+ {
+  "seg": 135,
+  "start": 775.147,
+  "end": 778.35,
+  "speaker": "Unknown",
+  "en": "How do I stop agents from violating best practices?",
+  "zh": "我怎么阻止智能体违反最佳实践?"
+ },
+ {
+  "seg": 136,
+  "start": 778.67,
+  "end": 782.192,
+  "speaker": "Unknown",
+  "en": "How do I put boundaries around these agents?",
+  "zh": "我怎么给这些智能体设置边界?"
+ },
+ {
+  "seg": 137,
+  "start": 782.993,
+  "end": 784.694,
+  "speaker": "Unknown",
+  "en": "I personally talked to CISOs",
+  "zh": "我本人和 CISO 交谈"
+ },
+ {
+  "seg": 138,
+  "start": 786.139,
+  "end": 787.42,
+  "speaker": "Unknown",
+  "en": "Probably once or twice a week.",
+  "zh": "大概每周一到两次。"
+ },
+ {
+  "seg": 139,
+  "start": 787.84,
+  "end": 790.823,
+  "speaker": "Unknown",
+  "en": "And they're saying, hey, we understand the value of AI.",
+  "zh": "他们说,嘿,我们理解 AI 的价值。"
+ },
+ {
+  "seg": 140,
+  "start": 791.143,
+  "end": 792.484,
+  "speaker": "Unknown",
+  "en": "We want to bring AI.",
+  "zh": "我们想引入 AI。"
+ },
+ {
+  "seg": 141,
+  "start": 792.524,
+  "end": 797.929,
+  "speaker": "Unknown",
+  "en": "We want people to go as fast as they can on the development AI superhighway.",
+  "zh": "我们想让人们在开发 AI 高速公路上尽可能快地跑。"
+ },
+ {
+  "seg": 142,
+  "start": 798.289,
+  "end": 800.331,
+  "speaker": "Unknown",
+  "en": "But I need guardrails for them.",
+  "zh": "但我需要给他们护栏。"
+ },
+ {
+  "seg": 143,
+  "start": 800.791,
+  "end": 807.097,
+  "speaker": "Unknown",
+  "en": "And I can't just have my platform team or this business team come to me and say, hey, we need AI.",
+  "zh": "而我不能只是让我的平台团队或某个业务团队来找我,说,嘿,我们需要 AI。"
+ },
+ {
+  "seg": 144,
+  "start": 807.457,
+  "end": 808.338,
+  "speaker": "Unknown",
+  "en": "I need you to bless it.",
+  "zh": "别人的错,而是首席安全团队的问题,对吧?"
+ },
+ {
+  "seg": 145,
+  "start": 808.378,
+  "end": 810.54,
+  "speaker": "Unknown",
+  "en": "Because if anything goes wrong, it's not",
+  "zh": "因为一旦出了任何问题,那就不是"
+ },
+ {
+  "seg": 146,
+  "start": 811.18,
+  "end": 816.602,
+  "speaker": "Unknown",
+  "en": "Anyone's fault but the chief security team's problem, right?",
+  "zh": "别人的错,而是首席安全团队的问题,对吧?"
+ },
+ {
+  "seg": 147,
+  "start": 816.662,
+  "end": 829.705,
+  "speaker": "Unknown",
+  "en": "And they don't want the finger being pointed at them because someone used agentic AI and they didn't know what they were doing or they didn't have the proper guardrails for agentic usage at the company.",
+  "zh": "他们不想被人指着说,因为有人用了智能体 AI 却不知道自己在做什么,或者公司没有为智能体使用配备合适的护栏。"
+ },
+ {
+  "seg": 148,
+  "start": 829.825,
+  "end": 835.247,
+  "speaker": "Unknown",
+  "en": "Platform admins, DevOps, infrastructure, security engineering, they're worried about observability.",
+  "zh": "平台管理员、DevOps、基础设施、安全工程,他们担心的是可观测性。"
+ },
+ {
+  "seg": 149,
+  "start": 836.658,
+  "end": 837.759,
+  "speaker": "Unknown",
+  "en": "What are these agents doing?",
+  "zh": "这些智能体在干什么?"
+ },
+ {
+  "seg": 150,
+  "start": 838.299,
+  "end": 839.519,
+  "speaker": "Unknown",
+  "en": "How do I know it's doing?",
+  "zh": "我怎么知道它在做什么？"
+ },
+ {
+  "seg": 151,
+  "start": 839.899,
+  "end": 845.562,
+  "speaker": "Unknown",
+  "en": "How do I get every call that they make to an LLM provider and some kind of observability tool?",
+  "zh": "我怎么获取它们对 LLM 提供方的每一次调用，并接入某种可观测性工具？"
+ },
+ {
+  "seg": 152,
+  "start": 846.002,
+  "end": 851.304,
+  "speaker": "Unknown",
+  "en": "And how can I then set up some kind of alerting for that without also getting alert fatigue?",
+  "zh": "然后我怎么能为此设置某种告警，同时又不产生告警疲劳？"
+ },
+ {
+  "seg": 153,
+  "start": 851.725,
+  "end": 859.388,
+  "speaker": "Unknown",
+  "en": "So another thing that's happening is maybe we do get some kind of observability around AI, but now there's alerts going all over the place.",
+  "zh": "所以另一件正在发生的事情是，也许我们确实围绕 AI 获得了某种可观测性，但现在告警到处都是。"
+ },
+ {
+  "seg": 154,
+  "start": 859.788,
+  "end": 863.95,
+  "speaker": "Unknown",
+  "en": "Once you get alert fatigue, you stop really looking at what's actually happening.",
+  "zh": "一旦你产生告警疲劳，你就不再真正去看实际发生了什么。"
+ },
+ {
+  "seg": 155,
+  "start": 864.39,
+  "end": 870.834,
+  "speaker": "Unknown",
+  "en": "Everything AI is doing just becomes noise and you're missing the really, really critical things that actually need to be addressed.",
+  "zh": "AI 所做的一切都变成了噪音，而你错过了真正、真正需要处理的关键事情。"
+ },
+ {
+  "seg": 156,
+  "start": 871.535,
+  "end": 882.582,
+  "speaker": "Unknown",
+  "en": "And then another thing is, if I am going to roll out AI, how do I actually set this up in a repeatable, consistent, reliable, secure way for everyone at the company?",
+  "zh": "另外一件事是，如果我要推行 AI，我怎么真正以一种可重复、一致、可靠、安全的方式为公司里的每个人设置好它？"
+ },
+ {
+  "seg": 157,
+  "start": 883.838,
+  "end": 886.8,
+  "speaker": "Unknown",
+  "en": "Lastly, developers are going to have concerns as well.",
+  "zh": "最后，开发者也会有担忧。"
+ },
+ {
+  "seg": 158,
+  "start": 887.26,
+  "end": 895.726,
+  "speaker": "Unknown",
+  "en": "There is still a holy war happening where some of the most technical people are not quite converted that AI can do code better than them.",
+  "zh": "仍然有一场圣战正在进行，一些最有技术能力的人还没有被说服 AI 能比他们更好地写代码。"
+ },
+ {
+  "seg": 159,
+  "start": 896.107,
+  "end": 906.314,
+  "speaker": "Unknown",
+  "en": "They're worried about more technical debt, more code bloat, more security vulnerabilities, and spending most of their time fixing AI slop versus just doing it themselves.",
+  "zh": "他们担心更多的技术债、更多的代码膨胀、更多的安全漏洞，以及把大部分时间花在修复 AI 垃圾上，而不是自己直接做。"
+ },
+ {
+  "seg": 160,
+  "start": 906.714,
+  "end": 912.899,
+  "speaker": "Unknown",
+  "en": "And then if they are going to put Claude on YOLO mode and have it crank out a bunch of PRs,",
+  "zh": "然后如果他们要让 Claude 以 YOLO 模式运行，让它批量产出一堆 PR,"
+ },
+ {
+  "seg": 161,
+  "start": 913.619,
+  "end": 918.643,
+  "speaker": "Unknown",
+  "en": "How do I make sure that that agent isn't doing stuff that would actually get me in trouble?",
+  "zh": "我怎么确保那个智能体不会做出真正会给我惹麻烦的事情？"
+ },
+ {
+  "seg": 162,
+  "start": 918.983,
+  "end": 925.528,
+  "speaker": "Unknown",
+  "en": "Because at the end of the day, someone is going to be accountable when an agent actually does something that we didn't expect it to do.",
+  "zh": "因为归根结底，当智能体真的做了我们没预料到的事情时，总要有人负责。"
+ },
+ {
+  "seg": 163,
+  "start": 926.709,
+  "end": 933.754,
+  "speaker": "Unknown",
+  "en": "So I'm going to talk a little bit about how you can address all of these guardrails that everyone is concerned for.",
+  "zh": "所以我要谈一点，就是你可以如何应对所有人都关心的这些护栏问题。"
+ },
+ {
+  "seg": 164,
+  "start": 936.234,
+  "end": 940.735,
+  "speaker": "Unknown",
+  "en": "The first thing is cloud development environments, and this is something that Coder does, right?",
+  "zh": "第一件事是云开发环境，这是 Coder 在做的事情，对吧？"
+ },
+ {
+  "seg": 165,
+  "start": 941.095,
+  "end": 943.355,
+  "speaker": "Unknown",
+  "en": "You want a remote execution layer.",
+  "zh": "你想要一个远程执行层。"
+ },
+ {
+  "seg": 166,
+  "start": 943.375,
+  "end": 944.736,
+  "speaker": "Unknown",
+  "en": "You want a remote environment.",
+  "zh": "你想要一个远程环境。"
+ },
+ {
+  "seg": 167,
+  "start": 945.056,
+  "end": 946.396,
+  "speaker": "Unknown",
+  "en": "You don't want it on your laptop.",
+  "zh": "你不想把它放在你的笔记本电脑上。"
+ },
+ {
+  "seg": 168,
+  "start": 946.776,
+  "end": 948.516,
+  "speaker": "Unknown",
+  "en": "You want to go to a URL.",
+  "zh": "你想要访问一个 URL。"
+ },
+ {
+  "seg": 169,
+  "start": 948.576,
+  "end": 949.196,
+  "speaker": "Unknown",
+  "en": "You want an RDP.",
+  "zh": "你想要一个 RDP。"
+ },
+ {
+  "seg": 170,
+  "start": 949.236,
+  "end": 963.839,
+  "speaker": "Unknown",
+  "en": "You want an SSH into something that is not your laptop but something that is in a secure environment that has been blessed by the security team, by the platform team, and let agents write code, execute code on cloud infrastructure that is",
+  "zh": "你想要 SSH 到某个不是你笔记本电脑的东西上，而是某个处于安全环境中的东西，它已被安全团队、平台团队认可，并让智能体在云基础设施上写代码、执行代码，这个基础设施是"
+ },
+ {
+  "seg": 171,
+  "start": 964.919,
+  "end": 975.524,
+  "speaker": "Unknown",
+  "en": "is isolated, that has right scoped permissions, and cannot communicate to anything unless you allow it to communicate to that public internet.",
+  "zh": "隔离的，拥有恰当限定的权限，并且除非你允许它与公共互联网通信，否则它不能与任何东西通信。"
+ },
+ {
+  "seg": 172,
+  "start": 976.265,
+  "end": 979.906,
+  "speaker": "Unknown",
+  "en": "So this is kind of what it would look like.",
+  "zh": "所以这大致就是它会是什么样子。"
+ },
+ {
+  "seg": 173,
+  "start": 980.087,
+  "end": 985.209,
+  "speaker": "Unknown",
+  "en": "Instead of putting things on your local machine, you go to an isolated cloud environment.",
+  "zh": "与其把东西放在你的本地机器上，你进入一个隔离的云环境。"
+ },
+ {
+  "seg": 174,
+  "start": 985.469,
+  "end": 986.57,
+  "speaker": "Unknown",
+  "en": "Now it can only do",
+  "zh": "现在它只能做"
+ },
+ {
+  "seg": 175,
+  "start": 987.29,
+  "end": 989.093,
+  "speaker": "Unknown",
+  "en": "It can only work on the code that's in there.",
+  "zh": "它只能处理里面的代码。"
+ },
+ {
+  "seg": 176,
+  "start": 989.273,
+  "end": 991.076,
+  "speaker": "Unknown",
+  "en": "It can only touch credentials that are in there.",
+  "zh": "它只能碰里面的凭证。"
+ },
+ {
+  "seg": 177,
+  "start": 991.496,
+  "end": 996.544,
+  "speaker": "Unknown",
+  "en": "It can only touch data that you purposely put into that development environment.",
+  "zh": "它只能碰你特意放进那个开发环境里的数据。"
+ },
+ {
+  "seg": 178,
+  "start": 1000.323,
+  "end": 1011.006,
+  "speaker": "Unknown",
+  "en": "CDEs accelerate AI productivity because the thing is, if you grab a project and you put it on your laptop, what do you have to do to get that project running?",
+  "zh": "CDE 能加速 AI 生产力，因为问题是，如果你抓取一个项目放到你的笔记本电脑上，你要做什么才能让那个项目跑起来？"
+ },
+ {
+  "seg": 179,
+  "start": 1011.466,
+  "end": 1012.906,
+  "speaker": "Unknown",
+  "en": "You've got to download dependencies.",
+  "zh": "你得下载依赖。"
+ },
+ {
+  "seg": 180,
+  "start": 1013.366,
+  "end": 1016.027,
+  "speaker": "Unknown",
+  "en": "You've got to update your path.",
+  "zh": "你得更新你的 path。"
+ },
+ {
+  "seg": 181,
+  "start": 1016.707,
+  "end": 1024.629,
+  "speaker": "Unknown",
+  "en": "If your computer's running Python version 3, but this project needs Python version 2, you're going to get conflicts.",
+  "zh": "如果你的电脑运行的是 Python 3 版本，但这个项目需要 Python 2 版本，你会遇到冲突。"
+ },
+ {
+  "seg": 182,
+  "start": 1025.109,
+  "end": 1027.029,
+  "speaker": "Unknown",
+  "en": "You have to create virtual environments.",
+  "zh": "你得创建虚拟环境。"
+ },
+ {
+  "seg": 183,
+  "start": 1027.329,
+  "end": 1029.81,
+  "speaker": "Unknown",
+  "en": "You have to do a lot of extra stuff that",
+  "zh": "你得做很多额外的事情，"
+ },
+ {
+  "seg": 184,
+  "start": 1030.97,
+  "end": 1035.052,
+  "speaker": "Unknown",
+  "en": "While it may not break your laptop, you really don't want to go through the trouble of doing that.",
+  "zh": "虽然它可能不会弄坏你的笔记本电脑，但你真的不想费那个劲去做。"
+ },
+ {
+  "seg": 185,
+  "start": 1035.352,
+  "end": 1041.214,
+  "speaker": "Unknown",
+  "en": "It would be better if you had a consistent cloud environment that was already configured to run that application, right?",
+  "zh": "如果你有一个已经配置好运行那个应用的一致的云环境，那会更好，对吧？"
+ },
+ {
+  "seg": 186,
+  "start": 1041.574,
+  "end": 1049.057,
+  "speaker": "Unknown",
+  "en": "And so everything that Coder does that helps developers, they don't have to worry about mucking around the shell, mucking around their precious laptop.",
+  "zh": "所以 Coder 做的所有这些帮助开发者的事情，他们不必操心折腾 shell、折腾他们宝贵的笔记本电脑。"
+ },
+ {
+  "seg": 187,
+  "start": 1049.077,
+  "end": 1056.18,
+  "speaker": "Unknown",
+  "en": "They can just go to this lightweight or heavy VM and everything's already ready to go and they can just start developing.",
+  "zh": "他们只需进入这个轻量级或重量级的 VM,一切都已经准备好了，他们就可以直接开始开发。"
+ },
+ {
+  "seg": 188,
+  "start": 1056.6,
+  "end": 1059.901,
+  "speaker": "Unknown",
+  "en": "Well, that same thing is true for agents, right?",
+  "zh": "那么，同样的事情对智能体也成立，对吧？"
+ },
+ {
+  "seg": 189,
+  "start": 1060.261,
+  "end": 1065.703,
+  "speaker": "Unknown",
+  "en": "If you put an agent on a fresh box and say, download this GitHub repo or run the project, what is it going to do?",
+  "zh": "如果你把一个智能体放到一台全新的机器上，说，下载这个 GitHub 仓库或者运行这个项目，它会做什么？"
+ },
+ {
+  "seg": 190,
+  "start": 1066.023,
+  "end": 1066.903,
+  "speaker": "Unknown",
+  "en": "It's going to read the contents.",
+  "zh": "它会读取内容。"
+ },
+ {
+  "seg": 191,
+  "start": 1066.923,
+  "end": 1069.084,
+  "speaker": "Unknown",
+  "en": "It's going to say, oh, I need to start downloading stuff.",
+  "zh": "它会说，哦，我需要开始下载东西了。"
+ },
+ {
+  "seg": 192,
+  "start": 1069.604,
+  "end": 1072.065,
+  "speaker": "Unknown",
+  "en": "You never know where it's going to download things from.",
+  "zh": "你永远不知道它会从哪里下载东西。"
+ },
+ {
+  "seg": 193,
+  "start": 1072.085,
+  "end": 1076.486,
+  "speaker": "Unknown",
+  "en": "And if it grabs things from some kind of registry, that registry could be contaminated.",
+  "zh": "而如果它从某种 registry 抓取东西，那个 registry 可能已被污染。"
+ },
+ {
+  "seg": 194,
+  "start": 1076.886,
+  "end": 1081.428,
+  "speaker": "Unknown",
+  "en": "You really want things to already be ready so that the agent could just start developing.",
+  "zh": "你真的希望东西已经准备就绪，这样智能体就可以直接开始开发。"
+ },
+ {
+  "seg": 195,
+  "start": 1083.456,
+  "end": 1086.119,
+  "speaker": "Unknown",
+  "en": "The next thing is a model proxy.",
+  "zh": "下一件事是模型代理(model proxy)。"
+ },
+ {
+  "seg": 196,
+  "start": 1086.459,
+  "end": 1092.907,
+  "speaker": "Unknown",
+  "en": "And this is really just something in between that agent or that model on your machine.",
+  "zh": "这实际上就是在那个智能体或你机器上那个模型之间的某种东西。"
+ },
+ {
+  "seg": 197,
+  "start": 1093.287,
+  "end": 1098.193,
+  "speaker": "Unknown",
+  "en": "Before it hits the LLM provider, it needs to go through a box where we're",
+  "zh": "在它到达 LLM 提供方之前，它需要经过一个盒子，我们"
+ },
+ {
+  "seg": 198,
+  "start": 1099.074,
+  "end": 1103.958,
+  "speaker": "Unknown",
+  "en": "Sniffing all of that traffic and we're able to log every little thing that it's doing, right?",
+  "zh": "嗅探所有的流量，我们能够记录它做的每一件小事，对吧？"
+ },
+ {
+  "seg": 199,
+  "start": 1104.398,
+  "end": 1114.746,
+  "speaker": "Unknown",
+  "en": "So here you can see normally in a normal scenario, the agent would be sitting somewhere and it can just go straight to the internet, straight to the model provider and get what it needs.",
+  "zh": "所以这里你可以看到，在正常场景下，智能体会待在某个地方，它可以直接上互联网，直接找模型提供方，获取它需要的东西。"
+ },
+ {
+  "seg": 200,
+  "start": 1115.186,
+  "end": 1117.348,
+  "speaker": "Unknown",
+  "en": "But the solution is really simple, right?",
+  "zh": "但解决方案其实非常简单，对吧？"
+ },
+ {
+  "seg": 201,
+  "start": 1117.628,
+  "end": 1123.953,
+  "speaker": "Unknown",
+  "en": "Before the agent hits the model provider, it goes to your proxy server, it goes to your gateway,",
+  "zh": "在智能体访问模型提供商之前，它先到你的代理服务器，再到你的网关，"
+ },
+ {
+  "seg": 202,
+  "start": 1124.393,
+  "end": 1124.673,
+  "speaker": "Unknown",
+  "en": "Right?",
+  "zh": "对吧？"
+ },
+ {
+  "seg": 203,
+  "start": 1125.134,
+  "end": 1128.476,
+  "speaker": "Unknown",
+  "en": "And it can sanitize, it can strip injections.",
+  "zh": "它可以进行清理，可以剥离注入内容。"
+ },
+ {
+  "seg": 204,
+  "start": 1128.936,
+  "end": 1135.12,
+  "speaker": "Unknown",
+  "en": "If you have like, if you accidentally put credit card data into a prompt, you don't want that going to the LLM provider.",
+  "zh": "如果说，如果你不小心把信用卡数据放进了提示词，你不会希望它被发送到 LLM 提供商那里。"
+ },
+ {
+  "seg": 205,
+  "start": 1135.9,
+  "end": 1140.083,
+  "speaker": "Unknown",
+  "en": "Model proxy can strip that and it logs everything that's happening.",
+  "zh": "模型代理可以剥离这些数据，并且它会记录正在发生的一切。"
+ },
+ {
+  "seg": 206,
+  "start": 1141.327,
+  "end": 1143.828,
+  "speaker": "Unknown",
+  "en": "Lastly, you want an agent firewall.",
+  "zh": "最后，你需要一个智能体防火墙。"
+ },
+ {
+  "seg": 207,
+  "start": 1144.168,
+  "end": 1154.151,
+  "speaker": "Unknown",
+  "en": "So when that agent starts executing at the process level, you want to make sure that it can't run commands that you haven't already blessed, right?",
+  "zh": "当那个智能体开始在进程层面执行时，你要确保它不能运行你还没有批准过的命令，对吧？"
+ },
+ {
+  "seg": 208,
+  "start": 1154.491,
+  "end": 1157.912,
+  "speaker": "Unknown",
+  "en": "So on that remote environment that goes to the proxy,",
+  "zh": "所以在那个远程环境中，它先到代理那里，"
+ },
+ {
+  "seg": 209,
+  "start": 1159.232,
+  "end": 1173.635,
+  "speaker": "Unknown",
+  "en": "It runs, if that agent, for whatever reasons, runs GH repo delete or drop this table, you want some kind of agentic firewall that's looking at the process logs and saying, do not run this.",
+  "zh": "它运行时，如果那个智能体出于任何原因运行了 GH repo delete 或者 drop 这个表，你需要某种智能体防火墙，它在查看进程日志并说，不要运行这个。"
+ },
+ {
+  "seg": 210,
+  "start": 1174.496,
+  "end": 1175.956,
+  "speaker": "Unknown",
+  "en": "That command is denied.",
+  "zh": "该命令被拒绝。"
+ },
+ {
+  "seg": 211,
+  "start": 1176.416,
+  "end": 1183.858,
+  "speaker": "Unknown",
+  "en": "And so these are the three ways, architecturally, you can protect your organization from an agent going crazy.",
+  "zh": "所以这就是从架构上保护你的组织免受智能体失控的三种方式。"
+ },
+ {
+  "seg": 212,
+  "start": 1184.398,
+  "end": 1188.159,
+  "speaker": "Unknown",
+  "en": "So don't have time to run a demo right now, but",
+  "zh": "所以现在没时间跑演示了，但是"
+ },
+ {
+  "seg": 213,
+  "start": 1189.459,
+  "end": 1193.181,
+  "speaker": "Unknown",
+  "en": "If you're interested, please come over to our Kerter booth.",
+  "zh": "如果你感兴趣，请来我们的 Kerter 展位。"
+ },
+ {
+  "seg": 214,
+  "start": 1193.401,
+  "end": 1197.603,
+  "speaker": "Unknown",
+  "en": "We're opposite of this stage and over to the left.",
+  "zh": "我们在这个舞台的对面，往左边一点。"
+ },
+ {
+  "seg": 215,
+  "start": 1198.443,
+  "end": 1200.744,
+  "speaker": "Unknown",
+  "en": "And just some key takeaways, right?",
+  "zh": "再讲几个关键要点，对吧？"
+ },
+ {
+  "seg": 216,
+  "start": 1201.244,
+  "end": 1204.125,
+  "speaker": "Unknown",
+  "en": "Agents are powerful, but beware of that lethal trifecta.",
+  "zh": "智能体很强大，但要警惕那个致命三要素。"
+ },
+ {
+  "seg": 217,
+  "start": 1204.506,
+  "end": 1209.448,
+  "speaker": "Unknown",
+  "en": "Make sure that you've got some way of seeing everything that that agent does.",
+  "zh": "确保你有某种方式能看到那个智能体所做的一切。"
+ },
+ {
+  "seg": 218,
+  "start": 1209.888,
+  "end": 1216.471,
+  "speaker": "Unknown",
+  "en": "It's okay to go slow so that you can think about your architecture, know what your infrastructure actually needs.",
+  "zh": "慢一点也没关系，这样你就可以思考你的架构，了解你的基础设施实际需要什么。"
+ },
+ {
+  "seg": 219,
+  "start": 1217.251,
+  "end": 1220.072,
+  "speaker": "Unknown",
+  "en": "My name is Michael Patterson, Staff Solutions Engineer.",
+  "zh": "我叫 Michael Patterson,Staff Solutions Engineer。"
+ },
+ {
+  "seg": 220,
+  "start": 1220.092,
+  "end": 1223.674,
+  "speaker": "Unknown",
+  "en": "Would love to talk to you guys about how you can securely develop with agents.",
+  "zh": "很乐意和你们聊聊如何安全地使用智能体进行开发。"
+ },
+ {
+  "seg": 221,
+  "start": 1224.434,
+  "end": 1225.114,
+  "speaker": "Unknown",
+  "en": "Thank you for your time.",
+  "zh": "感谢你们的时间。"
+ }
+]

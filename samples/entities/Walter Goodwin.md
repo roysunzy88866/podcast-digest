@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":71,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":101,"内存带宽":2,"ASIC":2}</script>
+<script type="application/json" class="pd-epn">{"Fractile":1,"NVIDIA":71,"Broadcom":5,"TSMC":9,"Grok":7,"Cerebrus":3,"AMD":5,"推理":102,"内存带宽":2,"ASIC":2}</script>
 
 <script>
 (function(){

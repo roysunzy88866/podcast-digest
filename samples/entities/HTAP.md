@@ -27,7 +27,7 @@ unlisted: true
 
 [[Databricks]] · [[Snowflake]] · [[Neon]] · [[智能体]] · [[Matei Zaharia]] · [[Andy Pavlo]] · [[Reynold Xin]] · [[Matt Turk]] · [[MosaicML]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Databricks":26,"Snowflake":23,"Neon":4,"智能体":1,"Matei Zaharia":1,"Andy Pavlo":1,"Reynold Xin":1,"Matt Turk":6,"MosaicML":2,"护栏":92}</script>
+<script type="application/json" class="pd-epn">{"Databricks":26,"Snowflake":23,"Neon":4,"智能体":1,"Matei Zaharia":1,"Andy Pavlo":1,"Reynold Xin":1,"Matt Turk":6,"MosaicML":2,"护栏":93}</script>
 
 <script>
 (function(){

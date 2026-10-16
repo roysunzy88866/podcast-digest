@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":4,"Eve":3,"Vercel":20,"DZero":1,"智能体":1,"评估":1,"技能":35,"MCP":97,"沙箱":101}</script>
+<script type="application/json" class="pd-epn">{"Shar Dara":1,"Kevin Ball":4,"Eve":3,"Vercel":20,"DZero":1,"智能体":1,"评估":1,"技能":35,"MCP":98,"沙箱":103}</script>
 
 <script>
 (function(){

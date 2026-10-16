@@ -153,7 +153,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Vercel]] · [[Claude]] · [[SpaceX]] · [[NVIDIA]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Anthropic":206,"推理":101,"Cursor":87,"Vercel":20,"Claude":99,"SpaceX":23,"NVIDIA":71,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Anthropic":206,"推理":102,"Cursor":87,"Vercel":20,"Claude":99,"SpaceX":23,"NVIDIA":71,"OpenRouter":14}</script>
 
 <script>
 (function(){

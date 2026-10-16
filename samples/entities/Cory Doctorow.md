@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":3,"自动化盲视":1,"vibe coding":51,"垃圾话":10,"团结":1}</script>
+<script type="application/json" class="pd-epn">{"Josh Goldberg":2,"半人马":3,"反向半人马":1,"劣化":1,"AI 泡沫":2,"单位经济":3,"自动化盲视":1,"vibe coding":52,"垃圾话":10,"团结":1}</script>
 
 <script>
 (function(){

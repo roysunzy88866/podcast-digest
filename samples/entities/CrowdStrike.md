@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[David George]] · [[护栏]] · [[OpenAI]] · [[Damien Lewke]] · [[Sarah Wang]] · [[Rowan Christmas]] · [[Kevin Mandia]] · [[Greg Brockman]] · [[Nebulock]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"David George":6,"护栏":92,"OpenAI":207,"Damien Lewke":1,"Sarah Wang":4,"Rowan Christmas":1,"Kevin Mandia":1,"Greg Brockman":2,"Nebulock":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"David George":6,"护栏":93,"OpenAI":207,"Damien Lewke":1,"Sarah Wang":4,"Rowan Christmas":1,"Kevin Mandia":1,"Greg Brockman":2,"Nebulock":1}</script>
 
 <script>
 (function(){

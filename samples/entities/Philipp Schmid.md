@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":101,"函数调用":4,"harness":67,"Google DeepMind":11,"上下文窗口":19,"Gemini API":2,"评估":1,"Interactions API":2,"JSON schema":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":103,"函数调用":4,"harness":67,"Google DeepMind":11,"上下文窗口":19,"Gemini API":2,"评估":1,"Interactions API":2,"JSON schema":1}</script>
 
 <script>
 (function(){

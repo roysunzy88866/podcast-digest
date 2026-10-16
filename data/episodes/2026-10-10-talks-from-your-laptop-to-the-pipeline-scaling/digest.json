@@ -1,0 +1,131 @@
+{
+  "title_zh": "从你的笔记本电脑到流水线：GitHub Copilot 智能体的进阶之路",
+  "tldr": "GitHub 的 Jose Palafox 讲解如何用 GitHub Copilot 构建、共享和规模化部署自定义智能体。",
+  "digest_md": "GitHub 的 Jose Palafox 在公司工作了 6 年半，前几年负责安全业务，现在专门帮客户在组织内部推广和规模化 AI 技术。这场演讲讲的是一条清晰的路径：先在本地构建一个智能体，再把它分享给全团队，最后搬进流水线里自主运行。对任何想在公司里真正用起 AI 编程工具的人来说，这条路都很实用。\n\n## Copilot 底下是怎么运转的？\n\nPalafox 先科普了 Copilot 的整体数据流。用户可以从好几个门进去：IDE、GitHub 命令行工具、软件开发工具包（SDK）。命令行里的会话还能流式转到手机上，人离开电脑也能远程操控智能体 [02:02 Unknown]。\n\n不管从哪个门进去，最终都会碰到一个叫 CAPI 的服务，团队管它叫harness（挽具，意思是替模型干脏活的那套装备）。它负责把你的输入切块发给模型、处理认证、记录日志这些工程杂事，拿到模型输出后过滤一遍再还给你 [02:42 Unknown]。\n\n## 为什么要给不同任务配不同的模型？\n\n命令行里内置了一批智能体，每个都指定了用什么模型。比如想探索一个代码库，不需要动用最大的模型——有个叫 Explorer 的研究型智能体，会用 Haiku 这种小模型去调研代码库，省钱又够用 [04:24 Unknown]。\n\n还有个叫 Rubber Duck 的智能体，作用类似「用另一双眼睛审计划」：让 Opus 写的规划文档，交给 GPT 这类训练数据不同的模型再过一遍，相当于交叉验证。\n\n如果这些内置智能体满足不了你——比如有合规要求、要跑特定的检查工具——你可以自己写一个。用一条命令，Copilot 会帮你把脚手架全搭好：你只写一句「去 changelog 总结最新变更」，它会自动生成描述、成功标准、方法论 [06:28 Unknown]。不满意的地方随时手改。\n\n## 做出一个好智能体，怎么让全团队用上？\n\n这是 Palafox 帮企业做规模化推广时最常谈的第一步：建一个 marketplace（市场）。说白了就是一个仓库，加了点配置文件声明我是市场，就能对智能体做轻量的包管理——统一更新、版本管理、通知安全漏洞 [07:39 Unknown]。\n\n如果只想在组织内部分发，还有更简单的办法：建一个名叫 .githubPrivate 的仓库，把智能体文件放进去，全组织的人就能直接调用。管理员也可以主动把智能体推送到每个人的开发环境里。\n\n这么做不只是图方便，还直接关系到成本。这类产品最便宜的用法，是让不同轮次的对话在常见数据上产生精确命中——**可复用的智能体会提高命中率**。让所有人用同样的方式解决问题，而不是每次重新发明轮子，账单才会降下来 [09:56 Unknown]。\n\n## 一个智能体只能管一个仓库，跨仓库怎么办？\n\n智能体默认只能在它所在的仓库里干活。但现实里，改一个微服务的 API，往往还要连带改下游的仓库。Copilot 里有个叫 Orchestrate（编排）的命令，专门解决这个横向扩展问题：你设定一组 GitHub issue 作为目标，它会在各自该干活的仓库里分别启动子智能体，同时做跨仓库修改 [11:15 Unknown]。\n\n## 让智能体脱离你的电脑，自己跑\n\n本地用智能体有个天然限制：设备关机、断网，工作就中断了。更进一步的做法是让智能体作为仓库的一部分运行——用仓库的预算、仓库的身份，而不是你个人的。这样维护类任务就以项目的名义自动完成 [12:22 Unknown]。\n\n实现方式叫 agentic workflows（智能体工作流）：把 Copilot 命令行切到无界面模式，传入一条一次性指令，放进 GitHub Actions 或其他持续集成系统里跑。触发条件可以是事件（比如发新版本时更新文档）或定时任务（比如每周更新上下文文件）[12:52 Unknown]。\n\n一个很实际的应用场景：现在大量用智能体写代码的仓库里，充斥着重复代码——智能体很懒，不爱做函数封装和命名空间，随手就复制常量。可以做一个智能体定期扫描代码库，找出可以合并的重复代码，自动建好 issue [13:23 Unknown]。\n\n这套框架还内置了人机协作的触发点：智能体发现改进机会后先停下来，开发者看完在 issue 里发条斜杠命令决定是否推进，才会进入下一阶段——比如让一个产品经理智能体写需求文档，再交给平台实现，最后开发者回来做验收 [14:05 Unknown]。**花钱的每一步都有人把关**。\n\n## 搬进流水线之后，才谈得上优化\n\nPalafox 认为，**把工作负载从笔记本电脑挪到持续集成系统里，是控制成本的关键**。如果只是让员工各自用 AI，公司看不见他们怎么用，就毫无优化空间——不知道智能体是否啰嗦、工具调用成没成功、该不该换个便宜模型 [17:14 Unknown]。\n\n进了流水线就不一样了。每个智能体都带 OTEL 监控，你可以去日志平台查某个去重智能体在各仓库的表现和成本，按平均 token 用量做分析。还可以设规矩：一旦某个智能体的运行成本超过了预期的 P90 阈值，就让它自动解释为什么会超支，把调试信息交出来 [18:11 Unknown]。\n\n最极端的例子是 GitHub 自己的 GitHub-AW 项目——这个用来构建智能体的框架，本身就是完全由智能体搭建的。团队还有个内部目标：所有开发只在手机上完成，因为整个交互都通过斜杠命令进行 [15:15 Unknown]。这个项目里跑着约 200 个智能体，各自负责流水线的不同环节。\n\n> 【背景】GitHub 还在 GitHub Next 组织下开源了 Agentix 项目，包含约 30 个现成的流水线智能体，有做代码去重的，有 QA 审查的，甚至还有专门讲笑话的，可以直接拿来放进自己的项目 [16:41 Unknown]。\n\n## 本集带走\n\n- Copilot 的所有入口（IDE、命令行、SDK）都经过同一个 CAPI 服务层，它负责切块、认证、日志等工程杂活\n- 小任务用小模型：探索代码库这类工作不需要最大的模型，智能体可以各自指定合适的模型\n- 建一个 marketplace 或 .githubPrivate 仓库来分发智能体，既能标准化做法，还能提高缓存命中、降低成本\n- 用 Orchestrate 命令可以让多个智能体在不同仓库里同时做跨仓库修改\n- 把智能体从本地搬进持续集成流水线，才能获得监控和成本数据，进而做真正的优化",
+  "quotes": [
+    {
+      "en": "Like the agents are lazy about implementing functions, and they're really lazy about namespacing, so they'll just like create constant duplication inside the code base.",
+      "zh": "智能体在实现函数上很偷懒，对命名空间也很偷懒，所以它们就会在代码库内部不断制造重复。",
+      "timestamp": "13:31",
+      "speaker": "Jose Palafox"
+    },
+    {
+      "en": "If you want to see a maximalist approach to how this works, the GitHub-AW project itself, the thing that is the framework for building all these agents, it is built entirely by agents.",
+      "zh": "如果你想看一个最大化方式的例子，GitHub-AW 项目本身，也就是构建所有这些智能体的框架，它完全是由智能体构建的。",
+      "timestamp": "15:15",
+      "speaker": "Jose Palafox"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "09:50",
+      "speaker": "Unknown",
+      "en": "If you look at the cost model for all of these products, the cheapest way to use them is to get cash hits.",
+      "zh": "如果你去看所有这些产品的成本模型，最便宜的使用方式是获得缓存命中。"
+    },
+    {
+      "timestamp": "10:02",
+      "speaker": "Unknown",
+      "en": "So if cost is a concern, building reusable agents and making sure that people are solving problems in the same way rather than reinventing the wheel every time, it's a good way to drive down your overall bill, drive up your cash rate.",
+      "zh": "所以如果成本是一个考量因素，构建可复用的智能体、确保大家用同样的方式解决问题，而不是每次都重新发明轮子，这是降低你整体账单、提高缓存命中率的好方法。"
+    },
+    {
+      "timestamp": "13:23",
+      "speaker": "Unknown",
+      "en": "Like one of the biggest problems today that's happening in repositories where a lot of agentic development is happening is there's lots of spaghetti code getting added, lots of duplicate code.",
+      "zh": "比如今天在有大量智能体开发发生的仓库中，最大的问题之一就是有大量意大利面条式代码被加入，大量重复代码。"
+    },
+    {
+      "timestamp": "13:31",
+      "speaker": "Unknown",
+      "en": "Like the agents are lazy about implementing functions, and they're really lazy about namespacing, so they'll just like create constant duplication inside the code base.",
+      "zh": "智能体在实现函数上很偷懒，对命名空间也很偷懒，所以它们就会在代码库内部不断制造重复。"
+    },
+    {
+      "timestamp": "12:32",
+      "speaker": "Unknown",
+      "en": "Not every agent needs to be me taking an action.",
+      "zh": "不是每个智能体都需要是我本人在执行操作。"
+    },
+    {
+      "timestamp": "12:22",
+      "speaker": "Unknown",
+      "en": "And so I want to run them in the repo on that repo's budget, not on my budget, right?",
+      "zh": "所以我想让它们在仓库里、用那个仓库的预算来运行，而不是用我的预算，对吧？"
+    },
+    {
+      "timestamp": "15:15",
+      "speaker": "Unknown",
+      "en": "If you want to see a maximalist approach to how this works, the GitHub-AW project itself, the thing that is the framework for building all these agents, it is built entirely by agents.",
+      "zh": "如果你想看一个最大化方式的例子，GitHub-AW 项目本身，也就是构建所有这些智能体的框架，它完全是由智能体构建的。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Unknown",
+      "en": "And this team has an internal goal that they're only going to do their development on their mobile devices because they interact entirely with this application through those slash commands.",
+      "zh": "而且这个团队有一个内部目标，他们只在移动设备上做开发，因为他们完全通过那些斜杠命令与这个应用交互。"
+    },
+    {
+      "timestamp": "15:45",
+      "speaker": "Unknown",
+      "en": "I don't know 200 agents in here that are all running different parts of the pipeline right and all of these follow a similar workflow that we just showed on that on that slide right that architecture is reusable.",
+      "zh": "我不知道大概 200 个智能体在这里，它们都在运行流水线的不同部分，对吧，而且所有这些都遵循我们刚才在那张幻灯片上展示的类似工作流，那个架构是可复用的。"
+    },
+    {
+      "timestamp": "17:14",
+      "speaker": "Unknown",
+      "en": "If I'm having everyone in my organization work with AI and I'm telling them to go use it, but I can't see how they're actually working with the tool, I don't have any opportunity to optimize, right?",
+      "zh": "如果我让组织里的每个人都与 AI 协作，我叫他们去使用它，但我看不到他们实际上是如何使用这个工具的，我就没有任何机会去优化，对吧？"
+    },
+    {
+      "timestamp": "17:49",
+      "speaker": "Unknown",
+      "en": "But if I can't see it, I can't do any of that optimization.",
+      "zh": "但如果我看不到它，我就没法做任何这些优化。"
+    },
+    {
+      "timestamp": "17:06",
+      "speaker": "Unknown",
+      "en": "And I think when we shift back to thinking about cost, getting the workload off of your machine is key for optimizing cost, right?",
+      "zh": "而且我认为当我们转回思考成本时，把工作负载从你的机器上移走是优化成本的关键，对吧？"
+    },
+    {
+      "timestamp": "18:15",
+      "speaker": "Unknown",
+      "en": "I can also do things like say, hey, every time that an agent exceeds its P90 for what I expect it to cost me to run, go investigate why it exceeded its threshold, right?",
+      "zh": "我还可以做这样的事，比如说，嘿，每次某个智能体超出我预期它运行成本的 P90，就去调查它为什么超出了阈值，对吧？"
+    },
+    {
+      "timestamp": "18:33",
+      "speaker": "Unknown",
+      "en": "Or if I see that a tool call is failing over and over, maybe I want to A-B test different front matter, or maybe I want to A-B test different models and see if they produce the right output for me so I can pick a cheaper model at some point.",
+      "zh": "或者，如果我看到某个工具调用一次又一次地失败，也许我想对不同的 front matter 做 A-B 测试，或者对不同的模型做 A-B 测试，看它们能否为我产出正确的输出，这样我在某个时候就可以选一个更便宜的模型。"
+    },
+    {
+      "timestamp": "11:15",
+      "speaker": "Unknown",
+      "en": "And Orchestrate is our horizontal scaling for cross-repo.",
+      "zh": "而 Orchestrate 是我们针对跨仓库的横向扩展。"
+    },
+    {
+      "timestamp": "14:52",
+      "speaker": "Unknown",
+      "en": "Now I've got pipeline agents, and what's really cool about the pipeline agents is how they scale.",
+      "zh": "现在我有了流水线智能体，而流水线智能体真正酷的地方在于它们的扩展方式。"
+    },
+    {
+      "timestamp": "15:11",
+      "speaker": "Unknown",
+      "en": "These are running in the platform, so they're running autonomously from you.",
+      "zh": "这些是在平台上运行的，所以它们是独立于你自主运行的。"
+    },
+    {
+      "timestamp": "09:47",
+      "speaker": "Unknown",
+      "en": "And this is what's allowing me to do standardization.",
+      "zh": "而这正是让我能够做标准化的东西。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个特别实际的问题：AI 编程工具,怎么从一个人的小玩具,变成整个公司真正用起来的生产力。讲这个的人叫 Jose Palafox,来自 GitHub,在公司干了六年半,前几年做安全业务,现在专门帮客户在组织内部推广和规模化 AI 技术。这一场演讲,讲的就是一条很清晰的路径:先在你自己的电脑上构建一个智能体——说白了就是一个能替你干活的 AI 助手——然后把它分享给全团队,最后搬进流水线里,让它自己跑起来。想在公司里真正用上 AI 编程工具的人,这条路都值得听一听。\n\n先交代一下背景,GitHub Copilot 底下是怎么运转的。你可以从好几个门进去用 Copilot:可以在 IDE 里用,就是写代码的编辑器;可以用 GitHub 的命令行工具;还有软件开发工具包。有个细节很有意思,命令行里的会话还能流式转到手机上,人离开电脑了,也能远程操控智能体继续干活。\n\n不管你从哪个门进去,最后都会碰到一个叫 CAPI 的服务。团队管它叫 harness,挽具,就是替模型干脏活累活的那套装备。它负责把你的输入切块发给模型,处理认证,记日志这些工程杂事,拿到模型的输出之后,过滤一遍再还给你。\n\n那为什么要了解这个数据流呢?因为接下来就是第一个关键选择:给不同任务配不同的模型。Copilot 命令行里内置了一批智能体,每个都指定了自己用什么模型。举个例子,你想探索一个代码库,看看里面有什么,这种事不需要动用最大的模型。有个叫 Explorer 的研究型智能体,就用 Haiku 这种小模型去调研代码库,省钱,而且够用。还有个叫 Rubber Duck 的智能体,作用类似用另一双眼睛审计划:让一个模型写的规划文档,交给另一个训练数据完全不同的模型再过一遍,相当于交叉验证。\n\n如果这些内置的满足不了你呢?比如你有合规要求,或者要跑特定的检查工具,那就自己写一个。用一条命令,Copilot 会帮你把脚手架全搭好。你只需要写一句\"去 changelog 总结最新变更\",它就会自动生成描述、成功标准、方法论。不满意的地方,随时手改。\n\n好,那现在你做出一个好用的智能体了,怎么让全团队都用上?这是 Palafox 帮企业做规模化推广时,最常谈的第一步:建一个 marketplace,市场。说白了就是一个仓库,加上一点配置文件,声明\"我是一个市场\",就能对智能体做轻量的包管理——统一更新、版本管理、发现安全漏洞时发通知。如果你只想在组织内部分发,还有更简单的办法:建一个叫 .githubPrivate 的仓库,把智能体文件放进去,全组织的人就能直接调用。管理员也可以主动把这些智能体推送到每个人的开发环境里。\n\n这么做不只是图方便,还直接关系到成本。这里有个关键逻辑:这类产品最便宜的用法,是让不同轮次的对话在常见数据上产生精确命中,而可复用的智能体会提高命中率。意思是,让所有人用同样的方式解决问题,而不是每个人每次都重新发明轮子,账单才能降下来。\n\n不过还有一个现实问题。智能体默认只能在它所在的仓库里干活。但现实里,你改一个微服务的 API,往往还要连带改下游的仓库。一个智能体只能管一个仓库,跨仓库怎么办?Copilot 里有个叫 Orchestrate,编排的命令,专门解决这个横向扩展问题:你设定一组 GitHub issue 作为目标,它会在各自该干活的仓库里分别启动子智能体,同时做跨仓库修改。\n\n再往前走一步,就是让智能体彻底脱离你的电脑。本地用智能体有个天然限制:你设备关机、断网,工作就中断了。更进一步的做法,是让智能体作为仓库的一部分运行——用仓库的预算、仓库的身份,而不是你个人的。这样,维护类的任务就能以项目的名义自动完成。实现方式叫智能体工作流:把 Copilot 命令行切到无界面模式,传一条一次性指令进去,放进 GitHub Actions 这类持续集成系统里跑。触发条件可以是事件,比如发新版本时自动更新文档;也可以是定时任务,比如每周更新一次上下文文件。\n\n这里有个特别实际的场景。现在大量用智能体写代码的仓库里,充斥着重复代码。有句话说得挺形象:智能体在实现函数上很偷懒,对命名空间也很偷懒,所以它们就会在代码库内部不断制造重复。随手就复制常量,不爱做函数封装。那你就可以做一个智能体,定期扫描代码库,找出可以合并的重复代码,自动建好 issue。\n\n那会不会失控,智能体自己乱花钱乱改东西?这套框架内置了人机协作的触发点。智能体发现改进机会后,先停下来,开发者看完,在 issue 里发一条斜杠命令决定是否推进,才会进入下一阶段——比如让一个产品经理智能体写需求文档,再交给平台实现,最后开发者回来做验收。也就是说,花钱的每一步,都有人把关。\n\n搬进流水线之后,才谈得上优化。Palafox 有个很明确的观点:把工作负载从笔记本电脑挪到持续集成系统里,是控制成本的关键。道理很简单,如果只是让员工各自用 AI,公司看不见他们怎么用,就毫无优化空间——你不知道智能体是不是太啰嗦,工具调用成没成功,该不该换个便宜模型。进了流水线就不一样了,每个智能体都带监控,你可以去日志平台查某个去重智能体在各仓库的表现和成本,按平均 token 用量做分析。还可以设规矩:一旦某个智能体的运行成本超过了预期的 P90 阈值,就让它自动解释为什么会超支,把调试信息交出来。\n\n最后说个最极端的例子。GitHub 自己有个 GitHub-AW 项目,这个用来构建智能体的框架,本身完全是由智能体搭建的。团队还有个内部目标:所有开发只在手机上完成,因为整个交互都通过斜杠命令进行。这个项目里跑着大约两百个智能体,各自负责流水线的不同环节。如果你也想上手,GitHub 还在 GitHub Next 组织下开源了 Agentix 项目,包含大约三十个现成的流水线智能体,有做代码去重的,有做 QA 审查的,甚至还有专门讲笑话的,可以直接拿去放进自己的项目。\n\n整条路听下来,脉络其实很清楚:从你自己的笔记本电脑上写第一个智能体,到建市场让全团队复用,再到搬进流水线获得监控和成本数据,进而做真正的优化。用 Palafox 的话说,把工作负载从笔记本挪进持续集成系统,才是控制成本的关键——智能体要规模化,得先搬出你的电脑。"
+}

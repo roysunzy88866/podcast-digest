@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SQLite</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SQLite">SQ</div><div class="pi"><h1 class="pt">SQLite</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SQLite">SQ</div><div class="pi"><h1 class="pt">SQLite</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(16:34起):本集说 SQLite 以安全写入保障著称,与其用文件系统费力管理写入安全,不如直接用 SQLite——它本来就做这些
+- **[[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]]**(25:11起):本集用它做了实证案例:SQLite 里一个存在了 10 年的 WAL 并发 bug,被放进 Antithesis 后用简单负载 15 分钟就精确定位到触发它的操作顺序。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
+- [[2026-10-15-sed-software-verification-in-the-age-of-codi|《代码越写越多，谁来抓那些没人想到的漏洞？》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Andy Pavlo]] · [[Matt Turk]] · [[智能体]] · [[护栏]] · [[沙箱]] · [[分支]] · [[向量数据库]] · [[向量搜索]] · [[RAG]] · [[text to SQL]]
+[[智能体]] · [[Andy Pavlo]] · [[Sean Falconer]] · [[Matt Turk]] · [[Carl Svera]] · [[护栏]] · [[Antithesis]] · [[沙箱]] · [[Singlestore]] · [[分支]]
 
-<script type="application/json" class="pd-epn">{"Andy Pavlo":1,"Matt Turk":6,"智能体":1,"护栏":92,"沙箱":101,"分支":1,"向量数据库":9,"向量搜索":6,"RAG":31,"text to SQL":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Andy Pavlo":1,"Sean Falconer":2,"Matt Turk":6,"Carl Svera":1,"护栏":93,"Antithesis":1,"沙箱":103,"Singlestore":1,"分支":1}</script>
 
 <script>
 (function(){

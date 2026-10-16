@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Braintrust":5,"Salesforce":36,"Databricks":26,"评估":1,"可观测性":47,"智能体":1,"LLM":66,"trace":7,"编码智能体":35,"BTQL":1}</script>
+<script type="application/json" class="pd-epn">{"Braintrust":5,"Salesforce":36,"Databricks":26,"评估":1,"可观测性":48,"智能体":1,"LLM":66,"trace":7,"编码智能体":35,"BTQL":1}</script>
 
 <script>
 (function(){

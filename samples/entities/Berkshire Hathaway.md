@@ -31,7 +31,7 @@ unlisted: true
 
 [[Teledyne]] · [[Bill Ackman]] · [[Luca Ferrari]] · [[Arvind Srinivas]] · [[资本配置]] · [[AI]] · [[Bending Spoons]] · [[Perplexity]] · [[去中心化]] · [[颠覆风险]]
 
-<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"Luca Ferrari":3,"Arvind Srinivas":1,"资本配置":1,"AI":34,"Bending Spoons":3,"Perplexity":10,"去中心化":2,"颠覆风险":1}</script>
+<script type="application/json" class="pd-epn">{"Teledyne":1,"Bill Ackman":1,"Luca Ferrari":3,"Arvind Srinivas":1,"资本配置":1,"AI":35,"Bending Spoons":3,"Perplexity":10,"去中心化":2,"颠覆风险":1}</script>
 
 <script>
 (function(){
