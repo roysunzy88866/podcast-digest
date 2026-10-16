@@ -1,0 +1,731 @@
+{
+  "episode_id": "2026-10-16-a16z-ai-can-write-the-code-can-it-run-the-sys",
+  "podcast": "The a16z Show",
+  "date": "2026-10-16",
+  "tags": [
+    "AI 编程",
+    "运维",
+    "智能体",
+    "分布式系统",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jad-naous",
+      "type": "person",
+      "role": "host",
+      "name": "Jad Naous",
+      "file": "Jad Naous",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "grepper",
+      "type": "company",
+      "role": "company",
+      "name": "Grepper",
+      "file": "Grepper",
+      "primary": true,
+      "how_described": "本集嘉宾 Jad Naous 创办的 10 人公司：把客户日志流过滤提纯信号、降低约 90% 的遥测/可观测性成本，再把这些信号喂给 AI 层去做故障排查与可靠性运维。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            65.471,
+            78.198
+          ],
+          "quote": "In this episode, A16Z general partner Martin Cassato sits down with Grepper CEO Jad Naus, a systems engineer Martin first met when they were both at Stanford, to ask what happens as AI moves from coding into operations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            127.178,
+            132.742
+          ],
+          "quote": "For those of you who don't know, Jad is the CEO of Grepper, but also we went to grad school in the same group.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            606.727,
+            608.668
+          ],
+          "quote": "And so Grepper helps companies.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集说这是 Jad 的主力编程工具：配 Opus 5.5 模型，同时开三四个会话窗口，让负责实现的智能体和扮演技术负责人的智能体互相审代码、迭代 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            752.718,
+            771.665
+          ],
+          "quote": "And I think like, you know, we tried, for example, using OpenCode or like different harnesses or like using Codex versus Claude, like Claude Code, like different ones have different ways of managing context or thinking through problems or when to spin up the right sub-agents and what to tell it, like the kind of prompts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 173,
+          "t": [
+            771.685,
+            777.087
+          ],
+          "quote": "Like for example, with Claude Code, I find that if I don't tell it, don't spin up",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1121.503,
+            1124.284
+          ],
+          "quote": "So I use Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1190.387,
+            1192.809
+          ],
+          "quote": "And so WSL, I use Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1208.623,
+            1209.964
+          ],
+          "quote": "And Claude Code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把智能体说成编程工作流的核心：子智能体通过命令行保持持久会话、互相提问审查 PR；在运维侧，智能体不负责预测，而是在收到『有东西变了』的信号后跑假设、查代码、做实验、逐步收窄问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            1347.885,
+            1352.388
+          ],
+          "quote": "Like the first thing that I do is I ask that agent to do it, ask the tech leads to review the PR doc.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2138.684,
+            2149.254
+          ],
+          "quote": "Because the goal is not actually having the agent try to predict, but have it get a signal that something changed deterministically.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-for-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编程 (AI for coding)",
+      "file": "AI 编程",
+      "primary": true,
+      "how_described": "本集说 AI 编程已从自动补全突破预期，好工程师被放大得更多；Jad 一个人用 AI 把原本要 6 个月的 auto-promotion 生产功能压到 10 天做完。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.425,
+            8.186
+          ],
+          "quote": "When we started doing AI for coding, it was autocomplete.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2244.546,
+            2254.032
+          ],
+          "quote": "I think it's, I think, I mean, I think like very, very simply, when we started doing like AI for coding, it was autocomplete.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "type": "concept",
+      "role": "concept",
+      "name": "运维 (operations)",
+      "file": "运维",
+      "primary": true,
+      "how_described": "本集的核心争论：Martin 认为生产系统的状态空间是重尾、异常主导的，AI 难以学会；Jad 则提出先检测变化、再让 AI 沿有限的调试步骤序列去推理，认为 AI 接管人类调试角色已经可行但仍早期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.293,
+            22.594
+          ],
+          "quote": "I just don't know if operations is constrained in the same way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            27.337,
+            30.061
+          ],
+          "quote": "that understands like all of the operations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            65.471,
+            78.198
+          ],
+          "quote": "In this episode, A16Z general partner Martin Cassato sits down with Grepper CEO Jad Naus, a systems engineer Martin first met when they were both at Stanford, to ask what happens as AI moves from coding into operations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 30,
+          "t": [
+            169.418,
+            171.64
+          ],
+          "quote": "Especially when it comes to things like operations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            576.041,
+            590.225
+          ],
+          "quote": "And if you can extract that signal in real-time upstream, then you can, one, reduce the cost, but two, you can now feed it into other systems and use it for driving reliability operations afterwards.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1605.792,
+            1614.956
+          ],
+          "quote": "And it's not like these things can like, like where's even the data to learn how to like build a system that understands like all of the operations, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1818.85,
+            1821.912
+          ],
+          "quote": "But of course, when it comes to operations, like production systems don't behave",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1978.545,
+            1983.63
+          ],
+          "quote": "It's hard for me to actually even think of a bound on the actual operations of software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2007.946,
+            2013.23
+          ],
+          "quote": "This is why like product approaches to operations have never really worked, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2087.621,
+            2112.454
+          ],
+          "quote": "The goal of what we need to be able to do is to like get to have enough telemetry and enough understanding to like make everything really visible from a hey here's what the system looks like here's how it's working here's like whatever and then I think ultimately most of the issues that end up really showing up in operations assuming you have the system previously running okay is due to some kind of change.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2286.017,
+            2290.583
+          ],
+          "quote": "And I just don't know if operations is constrained in the same way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2551.91,
+            2556.013
+          ],
+          "quote": "And that seems even harder to me because the operations one, the argument is,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2593.37,
+            2596.392
+          ],
+          "quote": "It takes a little while, you know, longer to do operations and take a lot longer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2618.788,
+            2627.376
+          ],
+          "quote": "Like, to a certain extent, what you just said, but for operations and systems in general, like, there is a discretization of like...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2714.43,
+            2730.414
+          ],
+          "quote": "So I do think at some level, like we do underestimate like the number of states that like, you know, systems can get into and like maybe, I will tell you from the perspective of the VC that looks at these companies, the ones that are trying to tackle operations are having a tough go at it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2806.79,
+            2817.236
+          ],
+          "quote": "If we can make it work in code, we can continue expanding that level of complexity bit by bit and kind of adding layers and layers and layers until we can handle those problems of operations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3194.053,
+            3195.694
+          ],
+          "quote": "So we talked a little bit about operations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3528.729,
+            3531.81
+          ],
+          "quote": "And I think the operations stuff now, it's still like… Pretty early.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集说企业把 5%-20% 的基础设施开支花在可观测性上，实际上是购买『可靠性』的代理，但随微服务架构数据量膨胀，其边际可靠性收益正在趋平——这是 Grepr 切入的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            464.639,
+            468.18
+          ],
+          "quote": "Everybody would say, first it was infrastructure and then observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 126,
+          "t": [
+            475.142,
+            481.523
+          ],
+          "quote": "First, people were spending somewhere between 5% and 20% of what they spend on infrastructure, on observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            495.271,
+            498.752
+          ],
+          "quote": "And so they were putting money into observability as a proxy for reliability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 136,
+          "t": [
+            513.158,
+            525.905
+          ],
+          "quote": "There was much deeper market penetration for observability and kind of the volume of data that you're collecting and the cost of observability was actually starting to grow faster than the units of function that you're outputting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            526.706,
+            533.57
+          ],
+          "quote": "And the marginal rate or like the marginal increase in reliability for every additional dollar you're spending on observability was just flattening out.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            539.811,
+            552.68
+          ],
+          "quote": "And so the question was, can we actually solve that problem and bring back that increase in reliability, that marginal increase in reliability, not necessarily by spending more money on observability, but some other way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            554.01,
+            575.541
+          ],
+          "quote": "And so the thinking was like, okay, great, if we can figure out what is the signal, what is the noise, can we actually turn the observability data that you're collecting that's mostly fluff and mostly insurance at this point and do that kind of extraction of information upstream, do whatever you need upstream and be able to ultimately massively reduce the cost of observability downstream.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "semantics",
+      "type": "concept",
+      "role": "concept",
+      "name": "语法与语义 (semantics)",
+      "file": "语法与语义",
+      "primary": true,
+      "how_described": "本集用『语法=你输入的字符，语义=机器实际做的事』区分写代码与系统运行行为：模型能学会代码的语法分布，但可用性、正确性、性能这些运行时语义取决于真实工作负载，无法只从语法推出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            898.395,
+            908.885
+          ],
+          "quote": "The semantics of the query and how to get to the semantics of the query and then explain it to the model and then have the model go and build the translation layer, let's say.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 199,
+          "t": [
+            909.466,
+            914.351
+          ],
+          "quote": "So for the people that are listening that may not be so deep in computer science, what do you mean by semantics?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            919.255,
+            936.789
+          ],
+          "quote": "So semantics are really the meanings of things like the semantic of a dog of the word dog is the animal that actually walks on four legs and barks and the syntax is the fact that it's just three a three letter word and it has three different letters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            947.078,
+            950.841
+          ],
+          "quote": "And so they might have the same semantics, but they might have a different syntax.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            951.382,
+            956.887
+          ],
+          "quote": "So a dog and a puppy might be slightly different semantics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 207,
+          "t": [
+            960.45,
+            972.018
+          ],
+          "quote": "So the way, and just for like computer science, the way that I describe it very simply is syntax, you know, it's like the characters you type and semantics is what the machine actually does, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1002.209,
+            1011.154
+          ],
+          "quote": "And then when you talk about semantics, you're literally talking about you have a machine that interprets that code, whether it's compiled or not, and that machine does something, and semantics is what the machine actually does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1013.935,
+            1017.397
+          ],
+          "quote": "So for example, some semantics you can't even derive by looking at the syntax.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1043.21,
+            1045.631
+          ],
+          "quote": "But that's, I would not call that semantics though.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1051.153,
+            1055.815
+          ],
+          "quote": "Oh sure, yeah, I think that would be like- Like I would say like the semantics part of that would be like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1057.47,
+            1064.597
+          ],
+          "quote": "Depending on like what the shape of data is or like what the configuration, you might end up with different semantics because like you said, you want null to be treated as false.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1071.243,
+            1080.992
+          ],
+          "quote": "So for the purpose of this conversation, I think we should just say that there's like the actual code you write and there's how the system behaves and we'll call the second one semantics just so we can have a conversation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1084.653,
+            1087.854
+          ],
+          "quote": "We need to dive into the semantics of this and make sure they're clear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1560.671,
+            1562.512
+          ],
+          "quote": "Or are you talking about, like, the semantics?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "distributed-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式系统 (distributed systems)",
+      "file": "分布式系统",
+      "primary": true,
+      "how_described": "本集说 Jad 的团队做的就是分布式系统与分布式算法这类硬核生意，AI 无法替人处理其中的复杂度；Martin 补充运行分布式集群的『肮脏秘密』长期就是靠人来管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            873.843,
+            882.904
+          ],
+          "quote": "In my experience for the things that we do, that is the case because we build distributed systems and distributed algorithms and like your brain has to handle the complexity because like AI doesn't do it.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "root-cause",
+      "type": "concept",
+      "role": "concept",
+      "name": "根因排查 (root cause)",
+      "file": "根因排查",
+      "primary": true,
+      "how_described": "本集说常见 AI SRE 方案从滞后指标出发回溯根因、所以不管用；Grepr 反过来先在全部日志里大规模聚类找出没见过的新模式，再让 AI 一步步收窄问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 436,
+          "t": [
+            1873.743,
+            1901.226
+          ],
+          "quote": "It's you know that's why those don't work because like backtracking into a root cause is actually very problematic and so instead what we're doing is doing it the other way around which is can we actually start by figuring out if there's something different in your environment that has changed like can we do a large-scale clustering a large-scale kind of figure out a needle in a haystack something that is different and now so you're assuming that it was working",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "over-provision",
+      "type": "concept",
+      "role": "concept",
+      "name": "过度配置 (over-provision)",
+      "file": "过度配置",
+      "primary": true,
+      "how_described": "Martin 搬出系统史铁律：聪明的虚拟内存管理、自适应路由等每次都失败，人们最终总是选择过度配置资源、用钱换简单，而不是去预测。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 534,
+          "t": [
+            2323.957,
+            2325.398
+          ],
+          "quote": "No, we over-provision every time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2333.479,
+            2335.26
+          ],
+          "quote": "So, like, we literally over-provision RAM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2340.461,
+            2343.641
+          ],
+          "quote": "But you have oscillations, like, fuck it, we over-provision, we just use ECMP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2344.282,
+            2349.323
+          ],
+          "quote": "You know, so I just feel like the history of systems is that you don't predict stuff, you over-provision because you can't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2351.783,
+            2364.406
+          ],
+          "quote": "You know, so I feel like in the operation side, so either we build this, you know, we will build the systems up front that are over provision so you don't have to like do kind of complex operational stuff, or maybe AI can do it the way that a human being.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "self-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (self-driving)",
+      "file": "自动驾驶",
+      "primary": false,
+      "how_described": "本集把它当作『解的分布是真实世界』领域的例子：从 DARPA 挑战赛到现在花了 20 年和 1700 亿美元投资，单位经济性还不如 Uber。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 737,
+          "t": [
+            3200.517,
+            3205.181
+          ],
+          "quote": "And in my mind, like there's so many other things, like for example, self-driving cars.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3266.568,
+            3267.789
+          ],
+          "quote": "Self-driving is a great example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3275.472,
+            3277.212
+          ],
+          "quote": "Self-driving cars is around the corner.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集的 funny story 里客户一听说能省 90% 的 Datadog 账单就只想买这个，AI 可靠性的事『先不用』——用来说明运维价值难以定价。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 804,
+          "t": [
+            3471.312,
+            3474.876
+          ],
+          "quote": "Rollback, you said you can save 90% of our Datadog bills?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

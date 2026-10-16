@@ -32,7 +32,7 @@ unlisted: true
 
 [[Jev]] · [[Diogo Almeida]] · [[RLHF]] · [[OpenAI]] · [[RLCD]] · [[分类器]] · [[RLVR]] · [[ChatGPT]] · [[Claude Code]] · [[System 1 模型]]
 
-<script type="application/json" class="pd-epn">{"Jev":8,"Diogo Almeida":4,"RLHF":8,"OpenAI":207,"RLCD":3,"分类器":1,"RLVR":4,"ChatGPT":115,"Claude Code":115,"System 1 模型":2}</script>
+<script type="application/json" class="pd-epn">{"Jev":8,"Diogo Almeida":4,"RLHF":8,"OpenAI":207,"RLCD":3,"分类器":1,"RLVR":4,"ChatGPT":115,"Claude Code":116,"System 1 模型":2}</script>
 
 <script>
 (function(){

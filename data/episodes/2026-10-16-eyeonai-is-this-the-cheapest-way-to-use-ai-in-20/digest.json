@@ -1,0 +1,209 @@
+{
+  "title_zh": "一个入口用65个AI模型？Trioma想让AI自己挑模型干活",
+  "tldr": "Trioma联合创始人Iskander Malikov做客Eye On A.I.，讲他如何让用户只说需求、不挑模型，用编排引擎自动组合65个AI模型完成任务。",
+  "digest_md": "市面上已经有不少公司提供一次订阅、多个模型的服务，Trioma走得更远：用户根本不用挑模型，说出想要什么，背后的编排引擎自己决定用哪个模型、怎么组合。公司刚正式上线，平台上有65个AI模型，从中国的GLM到美国、欧洲的模型都有。这家总部位于阿联酋的公司，想做的远不止一个聊天入口。\n\n## 为什么不让用户自己挑模型？\n\nIskander Malikov的观察是：大多数人用AI，要的不是过程，而是结果 [04:24 Iskander]。早期大家把AI当搜索引擎用，一问一答；后来要求变成了图片、视频这样的实际产出。既然用户要的是事情被办成，那就让他们用一句话或一段语音说出需求，剩下交给引擎。\n\n这个引擎不只是把任务路由到某个模型。它会分析你的指令，把任务拆成子任务，可能调用一个模型，也可能让三、四个模型接力配合。有个巧妙之处：**某些任务会被美国模型的审查机制卡住，引擎就换一个不受限制的模型完成那一步**，再交回原来更高效的模型继续 [08:39 Iskander]。全程用户无感，只看结果。\n\n## 用户不用学怎么跟AI说话\n\n早期AI圈流行提示词工程，即学习怎么措辞才能让模型给出好结果。Trioma从第一天就认为这东西不该存在——AI应该听懂人话 [33:15 Iskander]。\n\n一些内容创作平台堆满了复杂预设和难以复现的提示词，普通人根本搞不定。Trioma的做法是让用户像平时说话一样说出想要什么，引擎里有类似内部翻译器的组件去理解意图、安排执行。\n\n## 便宜的逻辑：看结果的成本，不是单个token的价格\n\n主持人问：成本会不会成为竞争壁垒？Malikov的回答很实在。他说**关键不在每百万token收多少钱，而在得到满意结果花了多少钱**[23:52 Iskander]。\n\n他举了个例子：一个平台做一份文档要反复修改15次，花20或30美元；另一个平台一条提示词基本搞定，成本只有十分之一。这种情况下token单价毫无意义。此外Trioma与各家头部实验室签了企业协议，相当于批量采购拿折扣——模型公司也乐意，因为Trioma是稳定大客户，比伺候随时可能退订的散户省心 [10:47 Iskander]。\n\n## 买GPU份额换AI额度：一个很有想象力的设计\n\nTrioma还有一层业务：TGN，即Trioma GPU网络。用户花最低约30或50美元买一个席位，参与公司的GPU建设，GPU会持续产出一种叫能量的东西，可以换成AI额度用来跑模型，也可以随时以稳定币退出 [17:07 Iskander]。\n\n公司目前向云厂商租GPU，但正逐步走向自持芯片，理由是去中心化和AI主权——不自有算力就谈不上主权。自持之后利润率更好，还可以部署开放权重模型，省下的成本再让利给用户。\n\nMalikov说，重度用户最喜欢这个设计：反正token总是要买的，不如买一次席位，产出持续覆盖自己的用量。也有用户纯粹看好AI行业，想通过这个渠道分一杯羹。\n\n## 订阅制正在伤害AI公司？\n\n谈到之前Anthropic限制第三方套利的事件时，Malikov给出了一个清晰的解释。传统软件多一个用户几乎零成本，但AI不同：每次生成都消耗真实算力 [19:42 Iskander]。用户把订阅额度用到极限，公司就可能亏本——这正是各家纷纷加上限的原因。他判断行业最终会转向按用量付费。\n\n他还提到一个正在消失的套利空间：**越来越多人意识到，自己的任务用够用的中等模型就能完成，价格只有旗舰模型的十分之一**。用户在变聪明。\n\n## 编程的人爱桌面版，甚至有人10分钟搓出一个通讯软件\n\n编程用户主要用Trioma的桌面应用，因为浏览器出于隐私限制访问不了本地文件夹和应用，桌面版才能发挥整台电脑的能力 [34:53 Iskander]。\n\nMalikov讲了个亲眼所见的事：他的联合创始人用氛围编程给自己做了一个即时通讯软件，带音频、视频、群聊，看起来像个正经产品，只花了10分钟。原本这种东西要开发几个月甚至几年 [42:04 Iskander]。他的结论是：**开发能力不再是稀缺资源，稀缺的是你要为用户做什么产品**。这对传统软件公司是坏消息——当你可以直接让AI画图建模，为什么还要自己学Photoshop？\n\n## 本集带走\n\n- Trioma的核心主张：用户只要说出想要的结果，编排引擎自动拆解任务、挑选和组合65个模型，包括会被审查卡住的任务自动换模型完成\n- 成本竞争的真正维度是结果的成本而非token单价——15次迭代和1次搞定，差距远大于单价差异\n- TGN让普通用户花小额资金就能参与GPU建设，产出的能量可换AI额度或以稳定币退出\n- 订阅制对AI公司是亏本买卖：每次生成都消耗真实算力，行业将转向按用量付费\n- 开发不再是稀缺资源：有人10分钟做出了功能完整的通讯软件，产品判断力变得比工程能力更重要",
+  "quotes": [
+    {
+      "en": "AI has been trained by using universal knowledge and therefore everyone should be able to fully leverage that knowledge",
+      "zh": "AI 是用通用的知识训练出来的,因此每个人都应该能够充分利用这些知识",
+      "timestamp": "05:55",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "Orchestration shines because it literally picks a different model to work on that particular task where censorship is stopping it from completing it and then it goes back to the original model which is more efficient, for example.",
+      "zh": "编排大放异彩的地方在于,当审查阻止某个模型完成特定任务时,它会真的换一个模型来处理那个任务,然后再切回原来效率更高的模型。",
+      "timestamp": "08:39",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "At some point, if the price of tokens keeps increasing, they will figure out that it's cheaper for me to hire someone versus letting the agent do the work.",
+      "zh": "到某个时候,如果 token 价格持续上涨,他们会发现雇一个人比让智能体完成工作更便宜。",
+      "timestamp": "13:19",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "So it's actually cheaper to hire a person versus paying an agent through tokens.",
+      "zh": "所以雇一个人实际上比通过 token 支付智能体费用更便宜。",
+      "timestamp": "13:33",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "And eventually, in my opinion, we're just going to shift towards AI usage.",
+      "zh": "而最终,在我看来,我们只会转向按 AI 用量付费。",
+      "timestamp": "21:39",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "An average model is just as fine, but it costs like 10 times less.",
+      "zh": "一个普通的模型就足够好了,但它的成本要低 10 倍。",
+      "timestamp": "22:51",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "I would say cost becomes an edge, but not in terms of token price or price per millions of tokens, as we usually count it, but the cost of the actual result.",
+      "zh": "我想说成本确实会成为一种优势,但不是按 token 价格或每百万 token 的价格来算,就像我们通常计价的那样,而是实际结果的成本。",
+      "timestamp": "23:40",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "You realize that the price of token is meaningless if the end result is like 10 times cheaper.",
+      "zh": "你就会意识到,如果最终结果便宜了 10 倍,token 的价格是毫无意义的。",
+      "timestamp": "24:30",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "So we thought from day one that this thing should not exist. People should not learn how to talk to AI.",
+      "zh": "所以我们从第一天起就认为这种东西不应该存在。人们不应该学习如何与 AI 对话。",
+      "timestamp": "33:15",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "We live in a pretty weird age, I'd say, where it's easier to vibe code an app than to look it up or find it and download it.",
+      "zh": "我想说,我们生活在一个相当奇怪的时代,用 vibe coding 做一个应用比查找、找到并下载它还容易。",
+      "timestamp": "41:00",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "Development is no longer a scarce resource.",
+      "zh": "开发不再是一种稀缺资源。",
+      "timestamp": "42:29",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "And what we're observing today is that there is no single model that is good at everything.",
+      "zh": "而我们今天观察到的是,没有任何单一模型在所有事情上都擅长。",
+      "timestamp": "45:02",
+      "speaker": "Iskander Malikov"
+    },
+    {
+      "en": "However, when you combine these models, you multiply that intelligence and that's what we're trying to build.",
+      "zh": "然而,当你把这些模型组合起来时,你把那种智能相乘了,而这正是我们想要构建的。",
+      "timestamp": "45:30",
+      "speaker": "Iskander Malikov"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "04:24",
+      "speaker": "Vibhu",
+      "en": "What we've realized is that most people actually want certain things to get done.",
+      "zh": "我们意识到,大多数人实际上是想要把某些事情做成的。"
+    },
+    {
+      "timestamp": "05:48",
+      "speaker": "Vibhu",
+      "en": "AI has been trained by using universal knowledge and therefore everyone should be able to fully leverage that knowledge",
+      "zh": "AI 是用通用的知识训练出来的,因此每个人都应该能够充分利用这些知识"
+    },
+    {
+      "timestamp": "08:39",
+      "speaker": "Vibhu",
+      "en": "Orchestration shines because it literally picks a different model to work on that particular task where censorship is stopping it from completing it and then it goes back to the original model which is more efficient, for example.",
+      "zh": "编排大放异彩的地方在于,当审查阻止某个模型完成特定任务时,它会真的换一个模型来处理那个任务,然后再切回原来效率更高的模型。"
+    },
+    {
+      "timestamp": "09:24",
+      "speaker": "Vibhu",
+      "en": "A lot of stuff done, they can also burn a lot of tokens.",
+      "zh": "能完成很多事情,但它们也会烧掉大量 token。"
+    },
+    {
+      "timestamp": "13:19",
+      "speaker": "Vibhu",
+      "en": "At some point, if the price of tokens keeps increasing, they will figure out that it's cheaper for me to hire someone versus letting the agent do the work.",
+      "zh": "到某个时候,如果 token 价格持续上涨,他们会发现雇一个人比让智能体完成工作更便宜。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Vibhu",
+      "en": "So it's actually cheaper to hire a person versus paying an agent through tokens.",
+      "zh": "所以雇一个人实际上比通过 token 支付智能体费用更便宜。"
+    },
+    {
+      "timestamp": "17:07",
+      "speaker": "Vibhu",
+      "en": "You just buy TGN, just participate in our TGN infrastructure.",
+      "zh": "你只需购买 TGN,参与我们的 TGN 基础设施就行。"
+    },
+    {
+      "timestamp": "21:39",
+      "speaker": "Vibhu",
+      "en": "And eventually, in my opinion, we're just going to shift towards AI usage.",
+      "zh": "而最终,在我看来,我们只会转向按 AI 用量付费。"
+    },
+    {
+      "timestamp": "22:51",
+      "speaker": "Vibhu",
+      "en": "An average model is just as fine, but it costs like 10 times less.",
+      "zh": "一个普通的模型就足够好了,但它的成本要低 10 倍。"
+    },
+    {
+      "timestamp": "23:40",
+      "speaker": "Vibhu",
+      "en": "I would say cost becomes an edge, but not in terms of token price or price per millions of tokens, as we usually count it, but the cost of the actual result.",
+      "zh": "我想说成本确实会成为一种优势,但不是按 token 价格或每百万 token 的价格来算,就像我们通常计价的那样,而是实际结果的成本。"
+    },
+    {
+      "timestamp": "24:30",
+      "speaker": "Vibhu",
+      "en": "You realize that the price of token is meaningless if the end result is like 10 times cheaper.",
+      "zh": "你就会意识到,如果最终结果便宜了 10 倍,token 的价格是毫无意义的。"
+    },
+    {
+      "timestamp": "33:15",
+      "speaker": "Vibhu",
+      "en": "So we thought from day one that this thing should not exist. People should not learn how to talk to AI.",
+      "zh": "所以我们从第一天起就认为这种东西不应该存在。人们不应该学习如何与 AI 对话。"
+    },
+    {
+      "timestamp": "33:22",
+      "speaker": "Vibhu",
+      "en": "People should just talk like they normally do.",
+      "zh": "人们应该像平常说话那样说话。"
+    },
+    {
+      "timestamp": "38:42",
+      "speaker": "Vibhu",
+      "en": "First of all, that's bad news for SaaS companies.",
+      "zh": "首先,这对 SaaS 公司是个坏消息。"
+    },
+    {
+      "timestamp": "41:00",
+      "speaker": "Vibhu",
+      "en": "We live in a pretty weird age, I'd say, where it's easier to vibe code an app than to look it up or find it and download it.",
+      "zh": "我想说,我们生活在一个相当奇怪的时代,用 vibe coding 做一个应用比查找、找到并下载它还容易。"
+    },
+    {
+      "timestamp": "42:13",
+      "speaker": "Vibhu",
+      "en": "So it is exciting and scary, but also, again, exciting in a sense that we live in a world where so many new applications will emerge because now everyone have tools to build something truly unique.",
+      "zh": "所以这既令人兴奋又令人恐惧,但同样,从某种意义上说也令人兴奋,因为我们生活的这个世界将会涌现出许多新的应用,因为现在每个人都拥有工具去构建真正独一无二的东西。"
+    },
+    {
+      "timestamp": "42:29",
+      "speaker": "Vibhu",
+      "en": "Development is no longer a scarce resource.",
+      "zh": "开发不再是一种稀缺资源。"
+    },
+    {
+      "timestamp": "45:02",
+      "speaker": "Vibhu",
+      "en": "And what we're observing today is that there is no single model that is good at everything.",
+      "zh": "而我们今天观察到的是,没有任何单一模型在所有事情上都擅长。"
+    },
+    {
+      "timestamp": "45:30",
+      "speaker": "Vibhu",
+      "en": "However, when you combine these models, you multiply that intelligence and that's what we're trying to build.",
+      "zh": "然而,当你把这些模型组合起来时,你把那种智能相乘了,而这正是我们想要构建的。"
+    },
+    {
+      "timestamp": "53:37",
+      "speaker": "Vibhu",
+      "en": "I mean, AI is actually creating a lot of threats to entry-level jobs, right?",
+      "zh": "我是说,AI 确实正在对入门级工作造成很多威胁,对吧?"
+    }
+  ],
+  "voice_script": "今天咱们聊一家想改变你用AI方式的公司。这家公司叫Trioma，总部在阿联酋，联合创始人叫Iskander Malikov。他们做了个平台，上面接了65个AI模型，从中国的GLM到美国、欧洲的模型都有。听起来好像又是那种一次订阅、随便用多个模型的服务？不是，Trioma走得更远：用户根本不用挑模型。你说出想要什么，背后的编排引擎自己决定用哪个模型、怎么组合。\n\n为什么不让用户自己挑？Malikov的观察是，大多数人用AI，要的不是过程，而是结果。早期大家把AI当搜索引擎用，一问一答；后来要求变成了图片、视频这样的实际产出。既然用户要的是事情被办成，那就让他们用一句话、甚至一段语音说出需求，剩下的交给引擎。\n\n那这个引擎具体干什么？它不只是把你的任务扔给某个模型完事。它会分析你的指令，把任务拆成子任务，可能调用一个模型，也可能让三四个模型接力配合。这里有个很巧妙的地方：某些任务会被美国模型的审查机制卡住，引擎就换一个不受限制的模型完成那一步，再交回原来更高效的模型继续。全程用户无感，只看结果。\n\n顺着这个思路再往下走一步，就引出一个更有意思的立场。早期AI圈流行一个东西叫提示词工程，就是学习怎么措辞才能让模型给出好结果。Trioma从第一天就认为这东西不该存在——AI应该听懂人话。你去看一些内容创作平台，上面堆满了复杂预设和难以复现的提示词，普通人根本搞不定。Trioma的做法是让你像平时说话一样说出想要什么，引擎里有个类似内部翻译器的组件去理解你的意图、安排执行。\n\n好，讲到这儿你可能有个疑问：背后调度这么多模型，成本扛得住吗？成本会不会成为竞争壁垒？主持人也问了这个问题。Malikov的回答很实在：关键不在每百万token收多少钱，而在得到满意结果花了多少钱。举个例子，一个平台做一份文档要反复修改15次，花20或30美元；另一个平台一条提示词基本搞定，成本只有十分之一。这种情况下，token单价毫无意义。而且Trioma跟各家头部实验室签了企业协议，相当于批量采购拿折扣。模型公司也乐意，因为Trioma是稳定大客户，比伺候随时可能退订的散户省心。\n\n除了编排引擎，Trioma还有一层业务，叫TGN，也就是Trioma GPU网络。用户花最低大概30或50美元买一个席位，参与公司的GPU建设。GPU会持续产出一种叫能量的东西，可以换成AI额度用来跑模型，也可以随时以稳定币退出。公司目前是向云厂商租GPU，但正逐步走向自持芯片，理由是去中心化和AI主权——不自有算力，就谈不上主权。而且自持之后利润率更好，还可以部署开放权重模型，省下的成本再让利给用户。重度用户最喜欢这个设计：反正token总是要买的，不如买一次席位，产出持续覆盖自己的用量。也有用户纯粹看好AI行业，想通过这个渠道分一杯羹。\n\n聊到行业格局，Malikov还讲了一个很多人关心的事：订阅制对AI公司来说，可能是个亏本买卖。之前Anthropic限制第三方套利的事件，给了一个清晰的解释。传统软件多一个用户几乎零成本，但AI不同：每次生成都消耗真实算力。用户把订阅额度用到极限，公司就可能亏本——这正是各家纷纷加上限的原因。按Malikov的判断，行业最终会转向按用量付费。\n\n顺便还有个正在消失的套利空间：越来越多人意识到，自己的任务用够用的中等模型就能完成，价格只有旗舰模型的十分之一。用户在变聪明。\n\n最后说说真实的用户在干嘛。编程用户主要用Trioma的桌面应用，因为浏览器出于隐私限制访问不了本地文件夹和应用，桌面版才能发挥整台电脑的能力。Malikov讲了个亲眼所见的事：联合创始人用氛围编程给自己做了一个即时通讯软件，带音频、视频、群聊，看起来像个正经产品，只花了10分钟。原本这种东西要开发几个月甚至几年。由此得出的结论是：开发能力不再是稀缺资源，稀缺的是你要为用户做什么产品。这对传统软件公司是坏消息——当你可以直接让AI画图建模，为什么还要自己学Photoshop？\n\n一句话带走：比拼的不该是每个token多少钱，而是把事情办成花了多少钱——当AI听懂人话、自动挑模型干活，用户要变聪明，公司也得跟着换算法。"
+}

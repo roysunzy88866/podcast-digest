@@ -27,7 +27,7 @@ unlisted: true
 
 [[可观测性]] · [[CI-CD]] · [[Ken]] · [[Simon Maple]] · [[Dave Fletcher]] · [[Liz Fong-Jones]] · [[Lead Dev]] · [[Google]] · [[AI 编程工具]] · [[Shopify]]
 
-<script type="application/json" class="pd-epn">{"可观测性":48,"CI-CD":18,"Ken":1,"Simon Maple":10,"Dave Fletcher":1,"Liz Fong-Jones":1,"Lead Dev":1,"Google":72,"AI 编程工具":2,"Shopify":18}</script>
+<script type="application/json" class="pd-epn">{"可观测性":49,"CI-CD":18,"Ken":1,"Simon Maple":10,"Dave Fletcher":1,"Liz Fong-Jones":1,"Lead Dev":1,"Google":72,"AI 编程工具":2,"Shopify":18}</script>
 
 <script>
 (function(){

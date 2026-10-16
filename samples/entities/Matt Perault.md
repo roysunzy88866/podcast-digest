@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
+[[Iskander Malikov]] [[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":21,"Speedrun":1,"小科技":1,"regulation":3,"风险投资":1,"AI 编程":7,"Tech Week":1,"财富税":2}</script>
+<script type="application/json" class="pd-epn">{"Andrew Chen":1,"a16z":21,"Speedrun":1,"小科技":1,"regulation":3,"风险投资":1,"AI 编程":1,"Tech Week":1,"财富税":2}</script>
 
 <script>
 (function(){

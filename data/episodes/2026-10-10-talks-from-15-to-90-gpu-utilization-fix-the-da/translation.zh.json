@@ -1,0 +1,1250 @@
+[
+ {
+  "seg": 0,
+  "start": 13.126,
+  "end": 13.846,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.627,
+  "end": 16.508,
+  "speaker": "Unknown",
+  "en": "Thank you for joining me here.",
+  "zh": "感谢大家来到这里。"
+ },
+ {
+  "seg": 2,
+  "start": 18.61,
+  "end": 29.737,
+  "speaker": "Unknown",
+  "en": "Yeah, today I'm going to talk about Ray Actors, Vision Tokens, and the GIL, engineering a multimodal SFT data pipeline that keeps the GPUs busy.",
+  "zh": "是的，今天我要讲的是 Ray Actors、Vision Tokens 和 GIL，也就是打造一条能让 GPU 保持忙碌的多模态 SFT 数据流水线。"
+ },
+ {
+  "seg": 3,
+  "start": 33.166,
+  "end": 37.47,
+  "speaker": "Unknown",
+  "en": "There's a lot of talk about how to optimize training paradigms.",
+  "zh": "关于如何优化训练范式有很多讨论。"
+ },
+ {
+  "seg": 4,
+  "start": 38.451,
+  "end": 45.197,
+  "speaker": "Unknown",
+  "en": "But I want to give a different perspective on the whole ecosystem of what it takes to get a model trained.",
+  "zh": "但我想就训练一个模型所需的整个生态系统给出一个不同的视角。"
+ },
+ {
+  "seg": 5,
+  "start": 45.458,
+  "end": 49.421,
+  "speaker": "Unknown",
+  "en": "And so the question I'm going to be asking here is, does your training loop really",
+  "zh": "所以我在这里要问的问题是，你的训练循环现在真的"
+ },
+ {
+  "seg": 6,
+  "start": 50.513,
+  "end": 51.935,
+  "speaker": "Unknown",
+  "en": "depend on the GPUs right now.",
+  "zh": "依赖于 GPU 吗？"
+ },
+ {
+  "seg": 7,
+  "start": 52.135,
+  "end": 53.296,
+  "speaker": "Unknown",
+  "en": "Is it blocked on the GPUs?",
+  "zh": "它是否被 GPU 阻塞了？"
+ },
+ {
+  "seg": 8,
+  "start": 54.097,
+  "end": 63.788,
+  "speaker": "Unknown",
+  "en": "And I think we're going to learn that we're going to see in this experiment that the hardest part of optimizing multimodal throughput is not necessarily kernel optimization.",
+  "zh": "而且我认为我们会在这个实验中发现，优化多模态吞吐量最难的部分不一定是内核优化。"
+ },
+ {
+  "seg": 9,
+  "start": 64.349,
+  "end": 68.274,
+  "speaker": "Unknown",
+  "en": "It is making sure that the GPUs are constantly fed with data.",
+  "zh": "而是确保 GPU 不断地有数据喂入。"
+ },
+ {
+  "seg": 10,
+  "start": 69.548,
+  "end": 73.57,
+  "speaker": "Unknown",
+  "en": "So let's go over the overview of what this topic will be about anyway.",
+  "zh": "那么让我们来概述一下这个主题要讲的内容。"
+ },
+ {
+  "seg": 11,
+  "start": 73.61,
+  "end": 77.651,
+  "speaker": "Unknown",
+  "en": "So we will establish a baseline multimodal training pipeline.",
+  "zh": "我们会建立一个基线的多模态训练流水线。"
+ },
+ {
+  "seg": 12,
+  "start": 78.732,
+  "end": 83.313,
+  "speaker": "Unknown",
+  "en": "And then we will encounter bottlenecks and then address them one at a time.",
+  "zh": "然后我们会遇到瓶颈，并逐一解决它们。"
+ },
+ {
+  "seg": 13,
+  "start": 83.794,
+  "end": 86.074,
+  "speaker": "Unknown",
+  "en": "So loosely they are, one, concurrency.",
+  "zh": "大致来说它们是：第一，并发性。"
+ },
+ {
+  "seg": 14,
+  "start": 86.234,
+  "end": 90.316,
+  "speaker": "Unknown",
+  "en": "How fast can you process one image before feeding it to the model?",
+  "zh": "在把图像喂给模型之前，你能多快地处理完一张图像？"
+ },
+ {
+  "seg": 15,
+  "start": 91.056,
+  "end": 92.337,
+  "speaker": "Unknown",
+  "en": "Two, prefetching.",
+  "zh": "第二，预取。"
+ },
+ {
+  "seg": 16,
+  "start": 92.617,
+  "end": 94.938,
+  "speaker": "Unknown",
+  "en": "How can we make sure that we have data on demand?",
+  "zh": "我们如何确保能够按需获取数据？"
+ },
+ {
+  "seg": 17,
+  "start": 95.884,
+  "end": 100.846,
+  "speaker": "Unknown",
+  "en": "Three, how can we minimize data copies across different processes?",
+  "zh": "第三，我们如何最小化跨不同进程的数据拷贝？"
+ },
+ {
+  "seg": 18,
+  "start": 101.526,
+  "end": 105.988,
+  "speaker": "Unknown",
+  "en": "And four, additional framework optimizations.",
+  "zh": "第四，额外的框架优化。"
+ },
+ {
+  "seg": 19,
+  "start": 106.128,
+  "end": 107.749,
+  "speaker": "Unknown",
+  "en": "So just tweaking your bells and whistles.",
+  "zh": "也就是调整你那些锦上添花的功能。"
+ },
+ {
+  "seg": 20,
+  "start": 111.05,
+  "end": 112.631,
+  "speaker": "Unknown",
+  "en": "Yeah, so let's set up our premise.",
+  "zh": "是的，让我们来设定一下前提。"
+ },
+ {
+  "seg": 21,
+  "start": 113.191,
+  "end": 121.195,
+  "speaker": "Unknown",
+  "en": "We all know that GPUs incur expensive costs and generally want to maximize their utilization while we have them at hand.",
+  "zh": "我们都知道 GPU 会产生高昂的成本，而且通常希望在拥有它们的时候最大化它们的利用率。"
+ },
+ {
+  "seg": 22,
+  "start": 122.145,
+  "end": 134.933,
+  "speaker": "Unknown",
+  "en": "Multimodal processing is different than text only because there's a lot of CPU intensive operations that have to happen before you actually feed the model the data.",
+  "zh": "多模态处理与纯文本处理不同，因为在真正把数据喂给模型之前，有很多 CPU 密集型的操作必须发生。"
+ },
+ {
+  "seg": 23,
+  "start": 135.493,
+  "end": 142.857,
+  "speaker": "Unknown",
+  "en": "So whether that is loading, resizing, or normalizing images using a library like Pill.",
+  "zh": "比如使用像 Pill 这样的库来加载、调整大小或归一化图像。"
+ },
+ {
+  "seg": 24,
+  "start": 143.277,
+  "end": 146.139,
+  "speaker": "Unknown",
+  "en": "For audio, you do a lot of loading and cropping.",
+  "zh": "对于音频，你要做大量的加载和裁剪。"
+ },
+ {
+  "seg": 25,
+  "start": 146.399,
+  "end": 147.56,
+  "speaker": "Unknown",
+  "en": "You can use NumPy arrays.",
+  "zh": "你可以使用 NumPy 数组。"
+ },
+ {
+  "seg": 26,
+  "start": 147.88,
+  "end": 150.682,
+  "speaker": "Unknown",
+  "en": "And then videos are some sort of combination of both.",
+  "zh": "而视频则是两者的某种组合。"
+ },
+ {
+  "seg": 27,
+  "start": 152.51,
+  "end": 162.276,
+  "speaker": "Unknown",
+  "en": "And then it's also true that usually your training clusters have a lot more CPUs than GPUs at hand, yet the GPU is what is starving in this pipeline.",
+  "zh": "而且通常你的训练集群拥有比 GPU 多得多的 CPU，然而在这条流水线中挨饿的却是 GPU。"
+ },
+ {
+  "seg": 28,
+  "start": 162.856,
+  "end": 172.642,
+  "speaker": "Unknown",
+  "en": "So today we're going to introduce this equation called like wait time ratio, which is generally I formulate as like the time it takes to prep your data and transfer it to the GPUs.",
+  "zh": "所以今天我们要引入这个叫做等待时间比率(wait time ratio)的等式，我大致把它表述为准备数据并把数据传输到 GPU 所需的时间。"
+ },
+ {
+  "seg": 29,
+  "start": 174.123,
+  "end": 179.149,
+  "speaker": "Unknown",
+  "en": "And then we divide all of that by the time it takes to do both of those and the train as well.",
+  "zh": "然后我们把这一切除以做这两件事以及训练所需的时间。"
+ },
+ {
+  "seg": 30,
+  "start": 179.189,
+  "end": 183.173,
+  "speaker": "Unknown",
+  "en": "So basically the denominator is like your total pipeline.",
+  "zh": "所以基本上分母就是你的整条流水线。"
+ },
+ {
+  "seg": 31,
+  "start": 184.74,
+  "end": 193.048,
+  "speaker": "Unknown",
+  "en": "And we're going to see that during our run, we will go from a utilization of 15% to utilization of 90%.",
+  "zh": "而且我们会看到，在我们的运行过程中，我们会把利用率从 15% 提升到 90%。"
+ },
+ {
+  "seg": 32,
+  "start": 193.549,
+  "end": 205.501,
+  "speaker": "Unknown",
+  "en": "So our baseline spends 85% of its time backed on data acquisition, whereas after we do these optimizations, it's less than 10%.",
+  "zh": "所以我们的基线把 85% 的时间花在了被数据获取阻塞上，而在我们做了这些优化之后，这个比例低于 10%。"
+ },
+ {
+  "seg": 33,
+  "start": 206.602,
+  "end": 210.39,
+  "speaker": "Unknown",
+  "en": "And so for the scope of this talk, GPUs are not the goal.",
+  "zh": "因此就本次演讲的范围而言，GPU 不是目标。"
+ },
+ {
+  "seg": 34,
+  "start": 210.65,
+  "end": 213.997,
+  "speaker": "Unknown",
+  "en": "It's making sure that the data is never the bottleneck is the goal.",
+  "zh": "目标是确保数据永远不是瓶颈。"
+ },
+ {
+  "seg": 35,
+  "start": 215.186,
+  "end": 219.467,
+  "speaker": "Unknown",
+  "en": "And so here's a little bit of background as to what our stack will look like.",
+  "zh": "这里稍微介绍一下我们的技术栈会是什么样子。"
+ },
+ {
+  "seg": 36,
+  "start": 220.768,
+  "end": 232.832,
+  "speaker": "Unknown",
+  "en": "We kind of take like a QN3VL-based model, kind of try to train it on the paradigms of chat VQA and multi-term VLM conversations.",
+  "zh": "我们大致采用一个基于 QN3VL 的模型，尝试按照 chat VQA 和多轮 VLM 对话的范式来训练它。"
+ },
+ {
+  "seg": 37,
+  "start": 233.512,
+  "end": 239.954,
+  "speaker": "Unknown",
+  "en": "So to recap, before the GPUs do any math, we have to load the data.",
+  "zh": "回顾一下，在 GPU 做任何计算之前，我们必须加载数据。"
+ },
+ {
+  "seg": 38,
+  "start": 241.134,
+  "end": 242.435,
+  "speaker": "Unknown",
+  "en": "We have to transform the data.",
+  "zh": "我们必须转换数据。"
+ },
+ {
+  "seg": 39,
+  "start": 243.223,
+  "end": 246.564,
+  "speaker": "Unknown",
+  "en": "And then we have to transport it to the GPUs.",
+  "zh": "然后我们必须把它传输到 GPU。"
+ },
+ {
+  "seg": 40,
+  "start": 248.697,
+  "end": 252.138,
+  "speaker": "Unknown",
+  "en": "OK, this is an overview of what our data actually looks like.",
+  "zh": "好的，这是我们数据实际样子的概览。"
+ },
+ {
+  "seg": 41,
+  "start": 252.578,
+  "end": 261.36,
+  "speaker": "Unknown",
+  "en": "So we will be using JSON-L files, and then images are linked relatively to where the example lives.",
+  "zh": "我们将使用 JSON-L 文件，然后图像以相对路径链接到样例所在的位置。"
+ },
+ {
+  "seg": 42,
+  "start": 261.56,
+  "end": 264.461,
+  "speaker": "Unknown",
+  "en": "And then we're going to assume that our data is just stored in S3.",
+  "zh": "然后我们假设我们的数据就存储在 S3 中。"
+ },
+ {
+  "seg": 43,
+  "start": 265.902,
+  "end": 274.244,
+  "speaker": "Unknown",
+  "en": "In this example, for example, it seems like that image 33471.jpg seems to be a picture of a blue bus.",
+  "zh": "在这个例子中，比如，image 33471.jpg 看起来像是一辆蓝色巴士的图片。"
+ },
+ {
+  "seg": 44,
+  "start": 276.905,
+  "end": 278.868,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is our system layout.",
+  "zh": "是的，这是我们的系统布局。"
+ },
+ {
+  "seg": 45,
+  "start": 279.188,
+  "end": 285.538,
+  "speaker": "Unknown",
+  "en": "On the left, we have a data generator, which is responsible for the data loading, data transporting, and data transporting.",
+  "zh": "在左边，我们有一个数据生成器，它负责数据加载、数据传输和数据传输。"
+ },
+ {
+  "seg": 46,
+  "start": 286.819,
+  "end": 291.686,
+  "speaker": "Unknown",
+  "en": "And that's labeled as fan out to the Megatron data parallel ranks.",
+  "zh": "它被标注为扇出到 Megatron 的数据并行 ranks。"
+ },
+ {
+  "seg": 47,
+  "start": 292.828,
+  "end": 297.613,
+  "speaker": "Unknown",
+  "en": "So the parallel ranks receive partitions of the data as decided by the coordinator.",
+  "zh": "这些并行 ranks 接收由协调器决定的分区数据。"
+ },
+ {
+  "seg": 48,
+  "start": 298.894,
+  "end": 302.738,
+  "speaker": "Unknown",
+  "en": "It collates it, performs forward pass and backwards pass on this data.",
+  "zh": "它对其进行整理，并在这份数据上执行前向传播和反向传播。"
+ },
+ {
+  "seg": 49,
+  "start": 303.199,
+  "end": 313.73,
+  "speaker": "Unknown",
+  "en": "So Megatron takes care of optimizing the model weights across the DP ranks, and we're going to assume that it is kind of working as a black box.",
+  "zh": "所以 Megatron 负责在各 DP ranks 之间优化模型权重，而且我们假设它基本上是作为一个黑盒来工作的。"
+ },
+ {
+  "seg": 50,
+  "start": 315.948,
+  "end": 319.05,
+  "speaker": "Unknown",
+  "en": "So let's start with the naive baseline path.",
+  "zh": "那么让我们从最朴素的基线路径开始。"
+ },
+ {
+  "seg": 51,
+  "start": 319.11,
+  "end": 332.318,
+  "speaker": "Unknown",
+  "en": "So for each example, we fetch the images from object store, we tokenize it, we resize the images, normalize them, and then feed them to the model.",
+  "zh": "对每个样本，我们从对象存储获取图片，对其进行分词，调整图片大小、归一化，然后把它们喂给模型。"
+ },
+ {
+  "seg": 52,
+  "start": 333.218,
+  "end": 335.56,
+  "speaker": "Unknown",
+  "en": "Yeah, and then when we do that,",
+  "zh": "是的，当我们这么做之后，"
+ },
+ {
+  "seg": 53,
+  "start": 337.068,
+  "end": 346.452,
+  "speaker": "Unknown",
+  "en": "We can see that there's serial operations in the red, which is namely getting all the images one by one and then processing them one by one.",
+  "zh": "我们可以看到红色的部分是串行操作，也就是逐个获取所有图片，然后逐个处理它们。"
+ },
+ {
+  "seg": 54,
+  "start": 346.512,
+  "end": 353.155,
+  "speaker": "Unknown",
+  "en": "So if your trainer is asking for a batch size of like 256, then you have to serially process all these images.",
+  "zh": "所以如果你的训练器请求的 batch size 是 256 左右，那你就得串行地处理所有这些图片。"
+ },
+ {
+  "seg": 55,
+  "start": 354.5,
+  "end": 359.964,
+  "speaker": "Unknown",
+  "en": "And then we can see that our train time is somewhere between 15 to 20 seconds.",
+  "zh": "然后我们可以看到训练时间在 15 到 20 秒之间。"
+ },
+ {
+  "seg": 56,
+  "start": 360.084,
+  "end": 364.587,
+  "speaker": "Unknown",
+  "en": "However, the time spent to actually fetch the data is more than 100 seconds.",
+  "zh": "然而，实际获取数据所花的时间超过了 100 秒。"
+ },
+ {
+  "seg": 57,
+  "start": 365.087,
+  "end": 370.13,
+  "speaker": "Unknown",
+  "en": "So that's why we result in only 15% utilization of our GPUs.",
+  "zh": "所以这就是为什么我们的 GPU 利用率只有 15%。"
+ },
+ {
+  "seg": 58,
+  "start": 370.271,
+  "end": 374.894,
+  "speaker": "Unknown",
+  "en": "And then you can even see a profiling flame graph that we spend most of the time doing S3 loads.",
+  "zh": "然后你甚至可以看到一个性能剖析火焰图，我们大部分时间都花在做 S3 加载上。"
+ },
+ {
+  "seg": 59,
+  "start": 374.974,
+  "end": 381.298,
+  "speaker": "Unknown",
+  "en": "And then you can see a little tail at the end about loading the actual image on the pill library.",
+  "zh": "深入探讨正确的方案本身值得单独开一场演讲，但网上有 plenty 的资源可以帮你针对自己的用例做决定。"
+ },
+ {
+  "seg": 60,
+  "start": 382.644,
+  "end": 385.785,
+  "speaker": "Unknown",
+  "en": "So OK, solution one, let's try to add some concurrency to this.",
+  "zh": "好的，方案一，我们试着给它加一些并发。"
+ },
+ {
+  "seg": 61,
+  "start": 386.286,
+  "end": 395.19,
+  "speaker": "Unknown",
+  "en": "Instead of those red singular serial processes, let's try to parallelize it by kind of having like a worker pool.",
+  "zh": "与其用那些红色的单个串行进程，我们试着通过某种工作池的方式把它并行化。"
+ },
+ {
+  "seg": 62,
+  "start": 395.33,
+  "end": 400.892,
+  "speaker": "Unknown",
+  "en": "So when you request 256 examples, maybe let's just process all of those at once.",
+  "zh": "所以当你请求 256 个样本时，也许我们干脆一次性处理所有这些。"
+ },
+ {
+  "seg": 63,
+  "start": 403.738,
+  "end": 404.038,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 64,
+  "start": 404.278,
+  "end": 407.98,
+  "speaker": "Unknown",
+  "en": "So for example, for sample, we have two costs.",
+  "zh": "举例来说，对于每个样本，我们有两个开销。"
+ },
+ {
+  "seg": 65,
+  "start": 408.36,
+  "end": 409.64,
+  "speaker": "Unknown",
+  "en": "One is fetching the images.",
+  "zh": "一是获取图片。"
+ },
+ {
+  "seg": 66,
+  "start": 409.961,
+  "end": 410.881,
+  "speaker": "Unknown",
+  "en": "Two is processing.",
+  "zh": "二是处理。"
+ },
+ {
+  "seg": 67,
+  "start": 410.901,
+  "end": 415.923,
+  "speaker": "Unknown",
+  "en": "So that's like decoding, vision preprocessing, and then tokenizing your text.",
+  "zh": "也就是解码、视觉预处理，然后对你的文本做分词。"
+ },
+ {
+  "seg": 68,
+  "start": 416.843,
+  "end": 418.904,
+  "speaker": "Unknown",
+  "en": "Samples are very independent.",
+  "zh": "样本之间是非常独立的。"
+ },
+ {
+  "seg": 69,
+  "start": 418.924,
+  "end": 421.826,
+  "speaker": "Unknown",
+  "en": "So this just means it's like embarrassingly paralyzable.",
+  "zh": "所以这只是意味着它是那种令人尴尬的可瘫痪(paralyzable)的。"
+ },
+ {
+  "seg": 70,
+  "start": 423.997,
+  "end": 426.36,
+  "speaker": "Unknown",
+  "en": "And so, yeah, you have a design decisions here.",
+  "zh": "那么，是的，这里你有一些设计决策要做。"
+ },
+ {
+  "seg": 71,
+  "start": 426.54,
+  "end": 428.643,
+  "speaker": "Unknown",
+  "en": "What forms of concurrency do you want?",
+  "zh": "你想要哪种形式的并发？"
+ },
+ {
+  "seg": 72,
+  "start": 429.203,
+  "end": 437.573,
+  "speaker": "Unknown",
+  "en": "So there's asynchronous programming, which is suitable for IEO work, such as making SQL queries or performing network requests.",
+  "zh": "有异步编程，它适合 IEO 类的工作，比如执行 SQL 查询或发起网络请求。"
+ },
+ {
+  "seg": 73,
+  "start": 437.994,
+  "end": 442.359,
+  "speaker": "Unknown",
+  "en": "There's threads, which you can use for CPU-intensive",
+  "zh": "还有线程，你可以把它用于 CPU 密集型的"
+ },
+ {
+  "seg": 74,
+  "start": 443.38,
+  "end": 447.083,
+  "speaker": "Unknown",
+  "en": "Workloads that relinquish the Python gill, like the global interpreter lock.",
+  "zh": "会释放 Python gill(即全局解释器锁)的工作负载。"
+ },
+ {
+  "seg": 75,
+  "start": 448.404,
+  "end": 454.428,
+  "speaker": "Unknown",
+  "en": "So it's not straightforward what operations actually release the lock, so you have to do a little more of your investigation.",
+  "zh": "哪些操作真正释放锁并不直观，所以你需要多做一点调查。"
+ },
+ {
+  "seg": 76,
+  "start": 454.468,
+  "end": 463.655,
+  "speaker": "Unknown",
+  "en": "But common uses are like using Hugging Face Transformers tokenizers, using the pill transforms API, or like some pandas operations.",
+  "zh": "但常见的用途比如使用 Hugging Face Transformers 的 tokenizers、使用 pill 的 transforms API，或者某些 pandas 操作。"
+ },
+ {
+  "seg": 77,
+  "start": 464.315,
+  "end": 470.358,
+  "speaker": "Unknown",
+  "en": "Processes are more heavyweight, but also provide total isolation between your workloads.",
+  "zh": "进程更重量级，但也为你的工作负载之间提供了完全的隔离。"
+ },
+ {
+  "seg": 78,
+  "start": 470.378,
+  "end": 475.401,
+  "speaker": "Unknown",
+  "en": "So you can leverage multiple cores on your machine as you finish your work.",
+  "zh": "所以当你完成工作时，你可以在机器上利用多个核心。"
+ },
+ {
+  "seg": 79,
+  "start": 475.441,
+  "end": 482.005,
+  "speaker": "Unknown",
+  "en": "Doing a deep dive on the right solution would warrant its own talk, but there's plenty of online resources that can help you decide for your use case.",
+  "zh": "对正确解决方案做深入探讨值得单独开一场讲座，不过网上有大量资源可以帮你针对你的用例做出决定。"
+ },
+ {
+  "seg": 80,
+  "start": 483.138,
+  "end": 489.663,
+  "speaker": "Unknown",
+  "en": "What's important for our solution is that we need to match our bottleneck, not simply going with a lever that's worked for us before.",
+  "zh": "对我们的方案来说，重要的是我们要匹配我们的瓶颈，而不是简单地沿用以前对我们有效的那个手段。"
+ },
+ {
+  "seg": 81,
+  "start": 490.863,
+  "end": 499.91,
+  "speaker": "Unknown",
+  "en": "So we'll choose AsyncIO for fetching images here and then use Ray Actors as our processors, as our multiprocessing library.",
+  "zh": "所以这里我们选择 AsyncIO 来获取图片，然后用 Ray Actors 作为我们的处理器，作为我们的多进程库。"
+ },
+ {
+  "seg": 82,
+  "start": 501.011,
+  "end": 509.457,
+  "speaker": "Unknown",
+  "en": "Ray Actors are essentially the same as general processes, but they offer us APIs to communicate across workers that just make it so that we don't have to reinvent the wheel.",
+  "zh": "Ray Actors 本质上和一般的进程相同，但它们为我们提供了跨 worker 通信的 API，这让我们不必重新发明轮子。"
+ },
+ {
+  "seg": 83,
+  "start": 510.512,
+  "end": 514.574,
+  "speaker": "Unknown",
+  "en": "So yeah, your process is only as slow as your slowest link.",
+  "zh": "所以是的，你的流程只会和最慢的一环一样慢。"
+ },
+ {
+  "seg": 84,
+  "start": 514.734,
+  "end": 520.357,
+  "speaker": "Unknown",
+  "en": "And we can see that our wait time ratio has gone down on the second example, which is in the pink.",
+  "zh": "我们可以看到，在第二个例子(粉色那个)中，我们的等待时间比率已经下降了。"
+ },
+ {
+  "seg": 85,
+  "start": 520.377,
+  "end": 525.219,
+  "speaker": "Unknown",
+  "en": "You can see that the time spent fetching data per batch has gone basically around 40 seconds.",
+  "zh": "你可以看到每个 batch 花在获取数据上的时间基本降到了 40 秒左右。"
+ },
+ {
+  "seg": 86,
+  "start": 525.279,
+  "end": 527.42,
+  "speaker": "Unknown",
+  "en": "So this gives us a 25% speed up.",
+  "zh": "所以这给了我们 25% 的提速。"
+ },
+ {
+  "seg": 87,
+  "start": 533.523,
+  "end": 542.228,
+  "speaker": "Unknown",
+  "en": "However, yeah, as you can see, there's a huge gap that starts generating, especially as we're going through many steps.",
+  "zh": "然而，是的，如你所见，开始出现了一个巨大的缺口，尤其是当我们跑过很多步之后。"
+ },
+ {
+  "seg": 88,
+  "start": 543.208,
+  "end": 552.113,
+  "speaker": "Unknown",
+  "en": "So can we somehow limit our bottleneck of waiting on the trainer to request before provisioning our worker pool to fetch the data?",
+  "zh": "那么，我们能否以某种方式限制「等训练器先发出请求再供应 worker 池去取数据」这个瓶颈？"
+ },
+ {
+  "seg": 89,
+  "start": 552.973,
+  "end": 555.635,
+  "speaker": "Unknown",
+  "en": "So can we just preemptively fetch our data?",
+  "zh": "所以我们能不能预先主动地取数据？"
+ },
+ {
+  "seg": 90,
+  "start": 558.144,
+  "end": 568.704,
+  "speaker": "Unknown",
+  "en": "So we came up with solution two, which was that we have a background thread that fills up a queue ahead of time, and it always stays ahead of the consumer, which means that",
+  "zh": "于是我们想出了方案二：我们用一个后台线程提前填充一个队列，并且它始终领先于消费者，这意味着"
+ },
+ {
+  "seg": 91,
+  "start": 571.435,
+  "end": 579.621,
+  "speaker": "Unknown",
+  "en": "Your producer is producing examples at a multiplier of your consumer, and so the trainer is never bottlenecked on actually requesting the data.",
+  "zh": "你的生产者以消费者的某个倍数速率生产样本，所以训练器永远不会被「实际请求数据」卡住瓶颈。"
+ },
+ {
+  "seg": 92,
+  "start": 579.661,
+  "end": 582.983,
+  "speaker": "Unknown",
+  "en": "When it requests data, it is available on demand.",
+  "zh": "当它请求数据时，数据是随取随用的。"
+ },
+ {
+  "seg": 93,
+  "start": 583.583,
+  "end": 585.104,
+  "speaker": "Unknown",
+  "en": "There's a caveat to prefetching.",
+  "zh": "预取有一个注意事项。"
+ },
+ {
+  "seg": 94,
+  "start": 585.505,
+  "end": 598.294,
+  "speaker": "Unknown",
+  "en": "It makes your model and data loader checkpointing and resumption a little intricate of a process, and it can also suffer from a cold start period in which your queue is actually getting filled up so it can be ready for training.",
+  "zh": "它会让你的模型和数据加载器的检查点保存与恢复变成一个有点繁琐的过程，而且它还可能遭受一段冷启动期，即你的队列实际上正在被填满、以便为训练做好准备的时期。"
+ },
+ {
+  "seg": 95,
+  "start": 600.476,
+  "end": 605.743,
+  "speaker": "Unknown",
+  "en": "If you work around those details, I think prefetching is a great idea.",
+  "zh": "如果你绕过了这些细节，我认为预取是个好主意。"
+ },
+ {
+  "seg": 96,
+  "start": 608.567,
+  "end": 615.998,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think making sure your producer is always ahead of your consumer will pay great dividends for you here.",
+  "zh": "是的，我认为确保你的生产者始终领先于你的消费者，会在这里给你带来丰厚的回报。"
+ },
+ {
+  "seg": 97,
+  "start": 617.215,
+  "end": 627.165,
+  "speaker": "Unknown",
+  "en": "Unsurprisingly, we achieved close to zero seconds of data fetching and processing per batch because we've already fetched data and processed it way before the trainer even needs it.",
+  "zh": "不出所料，我们实现了每个 batch 接近零秒的数据获取和处理时间，因为我们在训练器需要数据之前很早就已经把数据取好并处理好了。"
+ },
+ {
+  "seg": 98,
+  "start": 628.006,
+  "end": 631.81,
+  "speaker": "Unknown",
+  "en": "And so we've effectively solved both the data load and the transform bottlenecks.",
+  "zh": "于是我们实际上同时解决了数据加载和转换这两个瓶颈。"
+ },
+ {
+  "seg": 99,
+  "start": 633.072,
+  "end": 635.834,
+  "speaker": "Unknown",
+  "en": "So after these two mitigations, we thought we were done.",
+  "zh": "在这两项缓解措施之后，我们以为已经大功告成了。"
+ },
+ {
+  "seg": 100,
+  "start": 635.994,
+  "end": 638.175,
+  "speaker": "Unknown",
+  "en": "Throughput, up, GPUs, fed.",
+  "zh": "吞吐量上去了,GPU 喂饱了。"
+ },
+ {
+  "seg": 101,
+  "start": 638.456,
+  "end": 642.118,
+  "speaker": "Unknown",
+  "en": "However, we observed that the data transport costs still linger.",
+  "zh": "然而,我们观察到数据传输成本仍然存在。"
+ },
+ {
+  "seg": 102,
+  "start": 643.059,
+  "end": 644.219,
+  "speaker": "Unknown",
+  "en": "In fact, they've gone up.",
+  "zh": "事实上,它们反而上升了。"
+ },
+ {
+  "seg": 103,
+  "start": 644.98,
+  "end": 650.704,
+  "speaker": "Unknown",
+  "en": "So every sample transfers a large amount of image arrays across process boundaries multiple times.",
+  "zh": "所以每个样本都要多次跨进程边界传输大量图像数组。"
+ },
+ {
+  "seg": 104,
+  "start": 651.604,
+  "end": 656.388,
+  "speaker": "Unknown",
+  "en": "Every sample is pickled on the worker, copied to the coordinator, and then re-pickled onto the trainer.",
+  "zh": "每个样本先在 worker 上被序列化,复制到协调器,然后再重新序列化传给训练器。"
+ },
+ {
+  "seg": 105,
+  "start": 657.168,
+  "end": 661.291,
+  "speaker": "Unknown",
+  "en": "Per sample, per step, we have a mem copy that nobody really asked for.",
+  "zh": "每个样本、每一步,都有一 次 没人真正要求的内存拷贝。"
+ },
+ {
+  "seg": 106,
+  "start": 663.059,
+  "end": 668.784,
+  "speaker": "Unknown",
+  "en": "So how this manifests is that your data generator can often oom.",
+  "zh": "这种情况的表现就是你的数据生成器经常会 OOM(内存溢出)。"
+ },
+ {
+  "seg": 107,
+  "start": 669.864,
+  "end": 672.006,
+  "speaker": "Unknown",
+  "en": "And so multimodal tensors are huge.",
+  "zh": "多模态张量非常庞大。"
+ },
+ {
+  "seg": 108,
+  "start": 672.046,
+  "end": 673.387,
+  "speaker": "Unknown",
+  "en": "They're megabytes per sample.",
+  "zh": "每个样本有好几兆字节。"
+ },
+ {
+  "seg": 109,
+  "start": 675.249,
+  "end": 683.195,
+  "speaker": "Unknown",
+  "en": "And so by default, every sample is returned by value, which means that these expensive arrays are copied over from process to process.",
+  "zh": "默认情况下,每个样本都是按值返回的,这意味着这些昂贵的数组会在进程之间被复制来复制去。"
+ },
+ {
+  "seg": 110,
+  "start": 683.856,
+  "end": 686.418,
+  "speaker": "Unknown",
+  "en": "So a fix for this, you can come up with an object store.",
+  "zh": "针对这个问题,一个解决方案是你可以搞一个对象存储。"
+ },
+ {
+  "seg": 111,
+  "start": 688.031,
+  "end": 691.534,
+  "speaker": "Unknown",
+  "en": "This is a nice convenience method that Ray provides you.",
+  "zh": "这是 Ray 提供的一个很方便的方法。"
+ },
+ {
+  "seg": 112,
+  "start": 692.114,
+  "end": 696.398,
+  "speaker": "Unknown",
+  "en": "Each sample carries an object reference, which is just a pointer to the data.",
+  "zh": "每个样本携带一个对象引用,它只是一个指向数据的指针。"
+ },
+ {
+  "seg": 113,
+  "start": 696.559,
+  "end": 698.26,
+  "speaker": "Unknown",
+  "en": "And then the driver just holds the pointer.",
+  "zh": "然后驱动程序只需持有这个指针。"
+ },
+ {
+  "seg": 114,
+  "start": 698.32,
+  "end": 701.623,
+  "speaker": "Unknown",
+  "en": "The tensor never round trips to the head node.",
+  "zh": "张量永远不会往返到头节点。"
+ },
+ {
+  "seg": 115,
+  "start": 701.964,
+  "end": 708.57,
+  "speaker": "Unknown",
+  "en": "And the Megatron data parallel ranks, they can just directly call the Ray store to fetch the data as they need.",
+  "zh": "而 Megatron 的数据并行 rank,可以直接调用 Ray 存储按需获取数据。"
+ },
+ {
+  "seg": 116,
+  "start": 710.802,
+  "end": 717.854,
+  "speaker": "Unknown",
+  "en": "So with every choice of your parallelism and concurrency solution, you always have to think about the added communication costs.",
+  "zh": "所以每当你选择并行化和并发方案时,你都必须考虑额外的通信成本。"
+ },
+ {
+  "seg": 117,
+  "start": 717.974,
+  "end": 719.557,
+  "speaker": "Unknown",
+  "en": "So plan wisely around that.",
+  "zh": "所以要围绕这一点明智地做规划。"
+ },
+ {
+  "seg": 118,
+  "start": 720.828,
+  "end": 721.749,
+  "speaker": "Unknown",
+  "en": "OK. Yeah.",
+  "zh": "好。是的。"
+ },
+ {
+  "seg": 119,
+  "start": 721.829,
+  "end": 734.579,
+  "speaker": "Unknown",
+  "en": "And we were able to eliminate extraneous like put object kind of call that our prefetcher solution had that we did not have to deal with by using the ray store.",
+  "zh": "而且我们能够消除我们之前的预取方案中那种多余的 put object 之类的调用,通过使用 Ray 存储我们就不必处理这个问题了。"
+ },
+ {
+  "seg": 120,
+  "start": 735,
+  "end": 741.165,
+  "speaker": "Unknown",
+  "en": "And we can see that our communication costs go down and the ratio of the time spent waiting also goes down.",
+  "zh": "我们可以看到我们的通信成本下降了,等待时间占比也下降了。"
+ },
+ {
+  "seg": 121,
+  "start": 742.439,
+  "end": 754.105,
+  "speaker": "Unknown",
+  "en": "So to recap, we took a serial baseline, we added concurrency for data loading and processing, we added prefetching to stay ahead of training requests, and we added the restore to minimize data transfer.",
+  "zh": "总结一下:我们从一个串行基线开始,为数据加载和处理增加了并发,增加了预取以领先于训练请求,还增加了对象存储以最小化数据传输。"
+ },
+ {
+  "seg": 122,
+  "start": 754.825,
+  "end": 759.047,
+  "speaker": "Unknown",
+  "en": "We went from a baseline weight ratio of 85% to 20%.",
+  "zh": "我们把基线的权重等待时间占比从 85% 降到了 20%。"
+ },
+ {
+  "seg": 123,
+  "start": 759.787,
+  "end": 769.612,
+  "speaker": "Unknown",
+  "en": "And you can see that the sawtooth pattern that you see in the top graph is alleviated to a large extent, which means our utilization of the GPUs has gone up.",
+  "zh": "你可以看到上面图表中的锯齿模式在很大程度上得到了缓解,这意味着我们的 GPU 利用率上升了。"
+ },
+ {
+  "seg": 124,
+  "start": 771.65,
+  "end": 779.014,
+  "speaker": "Unknown",
+  "en": "So when we're scaling up, now that we have a good multimodal training pipeline, let's try to scale it up to a production run.",
+  "zh": "那么,当我们向上扩展时——现在我们有了一条不错的多模态训练流水线——我们试着把它扩展到一次生产运行。"
+ },
+ {
+  "seg": 125,
+  "start": 780.695,
+  "end": 786.858,
+  "speaker": "Unknown",
+  "en": "While doing that, we observed that our wait time ratio for the same pipeline went up when all we did was scale some numbers.",
+  "zh": "在这样做的时候,我们观察到同一条流水线的等待时间占比上升了,而我们所做的只是扩大了一些数字。"
+ },
+ {
+  "seg": 126,
+  "start": 786.979,
+  "end": 789.44,
+  "speaker": "Unknown",
+  "en": "So we just added four times the data parallel rings.",
+  "zh": "我们只是把数据并行环增加了四倍。"
+ },
+ {
+  "seg": 127,
+  "start": 789.86,
+  "end": 791.661,
+  "speaker": "Unknown",
+  "en": "We added 200 data streams.",
+  "zh": "我们加了 200 个数据流。"
+ },
+ {
+  "seg": 128,
+  "start": 792.181,
+  "end": 794.723,
+  "speaker": "Unknown",
+  "en": "And then bat size is x by 4.",
+  "zh": "然后 batch size 乘以 4。"
+ },
+ {
+  "seg": 129,
+  "start": 797.056,
+  "end": 822.805,
+  "speaker": "Unknown",
+  "en": "So it turns out that since the data generator and the worker pool are co-located for fast data transfer, what happens is that there's a bottleneck on the network interface card of that node, which means that while we're packing all of this working and processing into specific nodes, that their network throughput is not able to keep up with the demand of the training pipeline.",
+  "zh": "结果发现,由于数据生成器和 worker 池是同址部署以实现快速数据传输的,那个节点的网络接口卡就成了瓶颈,这意味着当我们把所有这些工作负载和处理都打包到特定节点上时,它们的网络吞吐量无法跟上训练流水线的需求。"
+ },
+ {
+  "seg": 130,
+  "start": 826.072,
+  "end": 843.923,
+  "speaker": "Unknown",
+  "en": "So, at this point, we did a little bit of digging into the frameworks that we are using, and we saw that, by default, Ray schedules workers on the same nodes and co-locate workers, which means that it's easy to bottleneck one machine before you move to another machine.",
+  "zh": "所以在这一点上,我们对正在使用的框架做了一些深入挖掘,我们发现默认情况下 Ray 会把 worker 调度到相同的节点上并使 worker 同址,这意味着在一台机器被打满瓶颈之前,它是不会转移到另一台机器的。"
+ },
+ {
+  "seg": 131,
+  "start": 844.463,
+  "end": 846.925,
+  "speaker": "Unknown",
+  "en": "So, what we did was",
+  "zh": "所以,我们做的是"
+ },
+ {
+  "seg": 132,
+  "start": 848.768,
+  "end": 865.489,
+  "speaker": "Unknown",
+  "en": "Consider a possibility where we disaggregate this whole process where workers are spread across multiple nodes so they can do their own image processing and storing and in a lazy, just-in-time manner are retrieved and used by our DP ranks.",
+  "zh": "考虑一种可能性,把这个整个过程拆散开,让 worker 分布在多个节点上,这样它们可以各自进行图像处理和存储,然后以一种惰性的、即时的方式被我们的 DP rank 检索和使用。"
+ },
+ {
+  "seg": 133,
+  "start": 867.5,
+  "end": 873.082,
+  "speaker": "Unknown",
+  "en": "So these are the two flags that we tuned.",
+  "zh": "这就是我们调优的两个开关参数。"
+ },
+ {
+  "seg": 134,
+  "start": 873.182,
+  "end": 877.604,
+  "speaker": "Unknown",
+  "en": "One is a zero copy retrieval, and second is a spread scheduling mechanism.",
+  "zh": "一个是零拷贝检索,第二个是分散调度机制。"
+ },
+ {
+  "seg": 135,
+  "start": 878.865,
+  "end": 886.928,
+  "speaker": "Unknown",
+  "en": "Neither of these actually helped in a small scale experiment, but together they had a synergistic effect in a large scale experiment.",
+  "zh": "在小规模实验中,这两个参数单独都没有起到帮助,但在大规模实验中,它们合在一起产生了协同效应。"
+ },
+ {
+  "seg": 136,
+  "start": 888.789,
+  "end": 895.134,
+  "speaker": "Unknown",
+  "en": "Yeah, so a config can do poorly at a small scale, but can do really good at a larger scale.",
+  "zh": "是的,一个配置在小规模下可能表现很差,但在更大规模下可能表现得非常好。"
+ },
+ {
+  "seg": 137,
+  "start": 895.154,
+  "end": 899.458,
+  "speaker": "Unknown",
+  "en": "So you should always think about how to ablate across your scaling ladders.",
+  "zh": "所以你应该始终思考如何在你的扩展阶梯上进行消融实验。"
+ },
+ {
+  "seg": 138,
+  "start": 901.219,
+  "end": 907.965,
+  "speaker": "Unknown",
+  "en": "And these were the two flags that ended up making a huge difference in how fast our data processing pipeline was.",
+  "zh": "而正是这两个开关参数最终对我们数据处理流水线的速度产生了巨大的影响。"
+ },
+ {
+  "seg": 139,
+  "start": 909.252,
+  "end": 924.799,
+  "speaker": "Unknown",
+  "en": "And so now this is the final pipeline that we've accomplished, a concurrent, eager, and a data access pattern aware system that shares the training across loads and enables that GPU stay warm while providing smoothness and stability in training.",
+  "zh": "现在这就是我们最终完成的流水线,一个并发的、急切的、感知数据访问模式的系统,它在各个负载之间共享训练,并使 GPU 保持热度,同时在训练中提供平滑性和稳定性。"
+ },
+ {
+  "seg": 140,
+  "start": 926.52,
+  "end": 930.901,
+  "speaker": "Unknown",
+  "en": "Overall, we achieved a 50% additional throughput at scale just from these two flags.",
+  "zh": "总体而言,仅凭这两个开关参数,我们在大规模下额外获得了 50% 的吞吐量。"
+ },
+ {
+  "seg": 141,
+  "start": 931.642,
+  "end": 936.104,
+  "speaker": "Unknown",
+  "en": "It's the same knob opposite verdict set by the bottleneck.",
+  "zh": "还是同一个旋钮,只是瓶颈变了,结论相反。"
+ },
+ {
+  "seg": 142,
+  "start": 937.054,
+  "end": 942.057,
+  "speaker": "Unknown",
+  "en": "So these are the learnings we get from this talk, if nothing else.",
+  "zh": "如果说这个演讲有什么可以带走的,那就是这些经验教训。"
+ },
+ {
+  "seg": 143,
+  "start": 942.577,
+  "end": 946.459,
+  "speaker": "Unknown",
+  "en": "GPUs are expensive, but sometimes the biggest battles happen outside of the GPU.",
+  "zh": "GPU 很昂贵,但有时最艰苦的战斗发生在 GPU 之外。"
+ },
+ {
+  "seg": 144,
+  "start": 946.559,
+  "end": 949.5,
+  "speaker": "Unknown",
+  "en": "So first ask yourself, are you CPU bound or GPU bound?",
+  "zh": "所以首先要问自己:你是 CPU 受限还是 GPU 受限?"
+ },
+ {
+  "seg": 145,
+  "start": 950.661,
+  "end": 952.202,
+  "speaker": "Unknown",
+  "en": "Are you IO bound or compute bound?",
+  "zh": "你是 IO 受限还是计算受限?"
+ },
+ {
+  "seg": 146,
+  "start": 953.122,
+  "end": 955.943,
+  "speaker": "Unknown",
+  "en": "And then solving one bottleneck often exposes another.",
+  "zh": "然后解决一个瓶颈往往会暴露另一个瓶颈。"
+ },
+ {
+  "seg": 147,
+  "start": 956.284,
+  "end": 963.007,
+  "speaker": "Unknown",
+  "en": "So first it was throughput for us, then it became wait time, then it became memory, then it became retrieval costs.",
+  "zh": "对我们来说,先是吞吐量,然后变成了等待时间,然后变成了内存,然后变成了检索成本。"
+ },
+ {
+  "seg": 148,
+  "start": 964.867,
+  "end": 966.869,
+  "speaker": "Unknown",
+  "en": "Classic moves are not the end.",
+  "zh": "经典的招数并不是终点。"
+ },
+ {
+  "seg": 149,
+  "start": 966.929,
+  "end": 977.456,
+  "speaker": "Unknown",
+  "en": "Parallelism and prefetching matter, and I think a lot of content has covered this, but so do the semantics of the frameworks that you're using and the constraints that you're dealing with.",
+  "zh": "并行化和预取很重要,我想很多内容已经讲过这个了,但你正在使用的框架的语义以及你所面对的约束也同样重要。"
+ },
+ {
+  "seg": 150,
+  "start": 978.517,
+  "end": 980.138,
+  "speaker": "Unknown",
+  "en": "And scale always changes the answer.",
+  "zh": "而规模总是会改变答案。"
+ },
+ {
+  "seg": 151,
+  "start": 980.278,
+  "end": 991.987,
+  "speaker": "Unknown",
+  "en": "Tuning parameters like zero copy waste and spreading workers become important only at larger scales, and they may not manifest as obvious improvements at smaller levels.",
+  "zh": "像零拷贝浪费和分散 worker 这类调参，只有在更大规模下才变得重要，而在较小规模下它们可能不会表现为明显的提升。"
+ },
+ {
+  "seg": 152,
+  "start": 993.765,
+  "end": 996.406,
+  "speaker": "Unknown",
+  "en": "Overall, profiling your baseline helps you move the needle.",
+  "zh": "总的来说，对基线做性能分析能帮你推动进展。"
+ },
+ {
+  "seg": 153,
+  "start": 998.387,
+  "end": 1000.227,
+  "speaker": "Unknown",
+  "en": "Yeah, thank you everyone for attending the talk.",
+  "zh": "是的，感谢大家来听这场演讲。"
+ },
+ {
+  "seg": 154,
+  "start": 1000.988,
+  "end": 1002.868,
+  "speaker": "Unknown",
+  "en": "If you have any questions, I'm happy to answer them.",
+  "zh": "如果你们有任何问题，我很乐意回答。"
+ },
+ {
+  "seg": 155,
+  "start": 1004.009,
+  "end": 1004.269,
+  "speaker": "Unknown",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ }
+]

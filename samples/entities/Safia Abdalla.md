@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
+[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Warp":5,"智能体":1,"子智能体":7,"编排":8,"沙箱":103,"harness":67,"API":6,"护栏":93,"Claude Code":115,"Codex":91}</script>
+<script type="application/json" class="pd-epn">{"Warp":5,"智能体":1,"子智能体":7,"编排":9,"沙箱":103,"harness":67,"API":6,"护栏":93,"Claude Code":116,"Codex":91}</script>
 
 <script>
 (function(){

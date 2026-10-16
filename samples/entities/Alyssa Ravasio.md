@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
+[[Iskander Malikov]] [[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":14,"市场":5,"网络效应":17,"供需":1,"商业模式":1,"Scale":5,"vibe coding":52}</script>
+<script type="application/json" class="pd-epn">{"HipCamp":1,"Airbnb":14,"市场":5,"网络效应":17,"供需":1,"商业模式":1,"Scale":6,"vibe coding":52}</script>
 
 <script>
 (function(){

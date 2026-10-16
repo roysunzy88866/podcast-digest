@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
+[[Iskander Malikov]] [[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":6,"OpenAI":207,"数据中心":25,"液冷":2,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":102,"GPU":33,"核能":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":6,"OpenAI":207,"数据中心":25,"液冷":2,"Stargate":1,"Jalapeno":1,"MRC":1,"推理":102,"GPU":35,"核能":1}</script>
 
 <script>
 (function(){

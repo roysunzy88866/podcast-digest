@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Cursor":87,"Claude Code":115,"Bolt":3,"Lovable":20,"Linear":11,"Anthropic":206,"Composer":2,"Base44":4,"Codex":91}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Cursor":87,"Claude Code":116,"Bolt":3,"Lovable":20,"Linear":11,"Anthropic":206,"Composer":2,"Base44":4,"Codex":91}</script>
 
 <script>
 (function(){

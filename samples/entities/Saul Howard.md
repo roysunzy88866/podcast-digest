@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
+[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":206,"智能体":1,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":3,"零信任":2,"提示词注入":1,"PHI":1}</script>
+<script type="application/json" class="pd-epn">{"Christopher Lovejoy":1,"Anthropic":206,"智能体":1,"审计轨迹":1,"交易日志":1,"事件溯源":2,"对象存储":1,"零信任":2,"提示词注入":1,"PHI":1}</script>
 
 <script>
 (function(){

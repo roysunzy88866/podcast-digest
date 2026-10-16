@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
+[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":48,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
+<script type="application/json" class="pd-epn">{"Traversal":2,"ServiceNow":4,"American Express":1,"Pepsi":1,"DigitalOcean":2,"事故响应中的 AI":2,"可观测性":49,"自动驾驶式生产":1,"因果机器学习":1,"生产世界模型":2}</script>
 
 <script>
 (function(){

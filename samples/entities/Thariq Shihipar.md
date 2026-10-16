@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"智能体":1,"自动模式":4,"沙箱":103,"Claude Code":115,"OpenAI":207,"提示词":3,"Hugging Face":39,"评估":1,"探针":4}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"智能体":1,"自动模式":4,"沙箱":103,"Claude Code":116,"OpenAI":207,"提示词":3,"Hugging Face":39,"评估":1,"探针":4}</script>
 
 <script>
 (function(){

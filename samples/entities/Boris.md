@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"Claude Code":115,"智能体":1,"ClaudeMD":4,"MCP":98,"SDK":1,"LLM":66,"GitHub":36,"VS Code":6,"JetBrains":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"Claude Code":116,"智能体":1,"ClaudeMD":4,"MCP":98,"SDK":1,"LLM":66,"GitHub":36,"VS Code":6,"JetBrains":2}</script>
 
 <script>
 (function(){

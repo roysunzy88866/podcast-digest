@@ -1,0 +1,1129 @@
+{
+  "episode_id": "2026-10-16-eyeonai-is-this-the-cheapest-way-to-use-ai-in-20",
+  "podcast": "Eye On A.I.",
+  "date": "2026-10-16",
+  "tags": [
+    "AI 基础设施",
+    "多模型聚合",
+    "智能体",
+    "vibe coding",
+    "商业模式与定价"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "iskander-malikov",
+      "type": "person",
+      "role": "host",
+      "name": "Iskander Malikov",
+      "file": "Iskander Malikov",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "trioma",
+      "type": "company",
+      "role": "company",
+      "name": "Trioma",
+      "file": "Trioma",
+      "primary": true,
+      "how_described": "本集主角:一家总部位于阿联酋的公司,定位为垂直整合的 AI 生态系统,分界面层、65 个模型的编排层、GPU 底层三层,用户不用挑模型,编排引擎自动拆任务、组合模型拿结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            15.183,
+            17.904
+          ],
+          "quote": "Trioma does something a little bit more.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            42.511,
+            48.356
+          ],
+          "quote": "Trioma is a vertically integrated AI ecosystem where there are three separate layers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            73.417,
+            78.823
+          ],
+          "quote": "And altogether, we call it trioma, as we have, yeah, three layers essentially.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            205.572,
+            208.314
+          ],
+          "quote": "Trioma does something a little bit more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 31,
+          "t": [
+            208.415,
+            220.105
+          ],
+          "quote": "Rather than the user picking the model, Trioma routes the model to the appropriate model depending on the task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            444.863,
+            453.346
+          ],
+          "quote": "Trioma, break down tasks into subtasks and use an ensemble of models to get the task done.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            819.712,
+            830.619
+          ],
+          "quote": "So what we've built is something that we call TGN is the Trioma GPU network, which allows our customers, both businesses and consumers to participate in that GPU build out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            924.138,
+            940.611
+          ],
+          "quote": "The GPUs are then being rented to companies and they're also being utilized internally by Trioma as we deploy openweight models and we're able to improve our margins and we as a business are able to essentially become more efficient.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            961.546,
+            963.368
+          ],
+          "quote": "The energy, the Trioma energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1032.022,
+            1039.55
+          ],
+          "quote": "So we have a section called TGN, Trioma GPU Network, and anyone can participate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1056.726,
+            1071.517
+          ],
+          "quote": "And so first of all, I have my subscription to Trioma, and then I buy in the Trioma GPU network a certain amount of energy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1117.052,
+            1123.134
+          ],
+          "quote": "But if they no longer wish to use AI for some reason, they can always withdraw and not use it on Trioma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1161.038,
+            1167.099
+          ],
+          "quote": "And they realize that on Trioma, they can purchase their slot once and they no longer have to think about it constantly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1306.337,
+            1308.718
+          ],
+          "quote": "At Trioma, we've realized that very, very quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1537.93,
+            1542.413
+          ],
+          "quote": "And users were able to use Trioma since August.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1559.104,
+            1562.605
+          ],
+          "quote": "So we're letting people decide where Trioma should go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1628.81,
+            1633.536
+          ],
+          "quote": "And obviously Trioma is a global product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2043.123,
+            2047.086
+          ],
+          "quote": "And here at Trioma, we understand that this is not how normal people interact with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2061.694,
+            2069.238
+          ],
+          "quote": "And on the coding side, if somebody wants to use Trioma to code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2471.36,
+            2497.826
+          ],
+          "quote": "So we're seeing a lot of that lately, and Trioma is actually benefiting from that, to be completely honest, because many of our users are experimenting with different models, with the orchestration, and they understand that their capabilities are increasing as we add more models, because now they can, you know, pick and choose, or they can just leverage the auto mode, the orchestration mode through desktop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2530.595,
+            2532.457
+          ],
+          "quote": "And Trioma did it in like 10 minutes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2583.268,
+            2589.115
+          ],
+          "quote": "So Trioma, you were saying there are three elements in the, that make it try.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2592.74,
+            2594.902
+          ],
+          "quote": "Orchestration, Trioma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2595.422,
+            2606.31
+          ],
+          "quote": "The reason why we call it the three is because we have the three elements, which is the TGN, Trioma GPU Network, then there's TESS, Trioma Energy Stream, and then there's TI, Trioma AI Credits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2623.303,
+            2626.725
+          ],
+          "quote": "Together they form this loop, which we call Trioma.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2630.502,
+            2631.522
+          ],
+          "quote": "Trioma going?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2798.135,
+            2812.122
+          ],
+          "quote": "Is there any difference in running a prompt through a model within the Trioma stack and running it through the foundation model directly?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2847.874,
+            2869.822
+          ],
+          "quote": "And secondly, on Trioma, because of the orchestration, you may select the auto mode on Trioma, or maybe you can even select a specific model and also select that same model on the Frontier AI Lab website, and your result could be different because they have an orchestration as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2887.511,
+            2895.379
+          ],
+          "quote": "Trioma to build a website and the Frontier AI Lab to build a website, the result could be completely different because of the orchestration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2895.539,
+            2903.868
+          ],
+          "quote": "If you turn on the auto mode on Trioma, then the result is going to be way different because then the orchestration truly kicks in and now you're leveraging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 524,
+          "t": [
+            2948.403,
+            2951.504
+          ],
+          "quote": "Would Trioma be able to handle something like that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3051.346,
+            3053.747
+          ],
+          "quote": "We want Trioma to be accessible by everyone.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3060.409,
+            3068.851
+          ],
+          "quote": "So our number one goal is to let people know what Trioma is capable of doing and essentially spread the message.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3170.408,
+            3185.08
+          ],
+          "quote": "And when you say community or focus on the people, you're talking about a relationship between Trioma and its users, or are you talking about building a user community that communicates among itself?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3188.223,
+            3195.109
+          ],
+          "quote": "The users who use Trioma and users who talk to each other while they use Trioma to us, that it's the same community.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排引擎 (orchestration)",
+      "file": "编排引擎",
+      "primary": true,
+      "how_described": "本集核心概念:Trioma 的引擎分析提示词、把任务拆成子任务、挑选并组合多个模型接力完成,遇到审查卡住就换模型,一切在底层完成,用户只看结果",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            29.849,
+            33.41
+          ],
+          "quote": "And then the orchestration engine will figure out the best way to get there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            57.643,
+            65.81
+          ],
+          "quote": "Then there's the mid layer where we have 65 different AI models as well as the orchestration layer that connects them and makes them work together.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            295.768,
+            299.649
+          ],
+          "quote": "And then the orchestration engine will figure out the best way to get there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            304.572,
+            312.076
+          ],
+          "quote": "It could be an orchestration engine, again, that utilizes different models to pick the most optimal and efficient model to get the job done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            390.539,
+            396.641
+          ],
+          "quote": "They leverage the agentic workflow where different models work hand in hand when the orchestration kicks in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            491.078,
+            503
+          ],
+          "quote": "And that includes both orchestration that uses and leverages models that are picked based on efficiency, but also models that can get the job done.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            519.243,
+            531.531
+          ],
+          "quote": "Orchestration shines because it literally picks a different model to work on that particular task where censorship is stopping it from completing it and then it goes back to the original model which is more efficient, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            540.677,
+            549.001
+          ],
+          "quote": "And all of that orchestration is essentially required to deliver the best result and consume the least amount of tokens for the customer or for the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1600.908,
+            1602.71
+          ],
+          "quote": "First of all, it's not going to be used in orchestration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1611.637,
+            1616.941
+          ],
+          "quote": "So we only add models that are likely to be utilized through our orchestration engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1723.593,
+            1739.722
+          ],
+          "quote": "You know, I use perplexity, but it gets very expensive to use all of their routing and orchestration, I think.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2090.683,
+            2092.503
+          ],
+          "quote": "They're able to use orchestration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2471.36,
+            2497.826
+          ],
+          "quote": "So we're seeing a lot of that lately, and Trioma is actually benefiting from that, to be completely honest, because many of our users are experimenting with different models, with the orchestration, and they understand that their capabilities are increasing as we add more models, because now they can, you know, pick and choose, or they can just leverage the auto mode, the orchestration mode through desktop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2592.74,
+            2594.902
+          ],
+          "quote": "Orchestration, Trioma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2828.288,
+            2834.31
+          ],
+          "quote": "So it's a bit of a black box to a lot of users as they have their own orchestration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2847.874,
+            2869.822
+          ],
+          "quote": "And secondly, on Trioma, because of the orchestration, you may select the auto mode on Trioma, or maybe you can even select a specific model and also select that same model on the Frontier AI Lab website, and your result could be different because they have an orchestration as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2887.511,
+            2895.379
+          ],
+          "quote": "Trioma to build a website and the Frontier AI Lab to build a website, the result could be completely different because of the orchestration.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2895.539,
+            2903.868
+          ],
+          "quote": "If you turn on the auto mode on Trioma, then the result is going to be way different because then the orchestration truly kicks in and now you're leveraging.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说企业和消费者都用智能体和智能体工作流来构建网站、自动化流程,而且趋势正从问答式交互转向 agentic workflow 兴起",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            389.419,
+            390.479
+          ],
+          "quote": "They leverage agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            397.241,
+            411.585
+          ],
+          "quote": "But the same thing applies to businesses as well, as many of them actually need agents in their businesses to build websites, to automate certain workflows, to automate certain processes, whether it's customer support, compliance,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            846.547,
+            853.89
+          ],
+          "quote": "If they want to participate in that network build out and potentially profit from that or if they want to spend it on their AI agents, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2233.791,
+            2239.535
+          ],
+          "quote": "Then it sort of shifted towards, I ask a question, I get a response, and now it's all about agents basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2287.674,
+            2310.081
+          ],
+          "quote": "And, you know, so a lot, or I've seen people talk about Photoshop, you know, that you can build essentially a Photoshop application using coding agents that doesn't have the myriad of options that confuse everybody that is built really for your use case.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agentic-workflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体工作流 (agentic workflow)",
+      "file": "智能体工作流",
+      "primary": true,
+      "how_described": "本集说企业客户最感兴趣的是用智能体工作流把整个流程自动化,且成熟用户正因它转向桌面应用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            390.539,
+            396.641
+          ],
+          "quote": "They leverage the agentic workflow where different models work hand in hand when the orchestration kicks in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            414.746,
+            420.908
+          ],
+          "quote": "Most of our business customers are interested in the agentic workflow where they automate the entire flow.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2214.461,
+            2217.182
+          ],
+          "quote": "And we're seeing a lot of this agentic workflow picking up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2217.702,
+            2225.486
+          ],
+          "quote": "And because of that agentic workflow, many of them are now switching towards the desktop application to be able to automate these processes and workflows.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词工程 (prompt engineering)",
+      "file": "提示词工程",
+      "primary": true,
+      "how_described": "本集说这是早期流行词,人们要学习怎么跟 AI 说话;Trioma 从第一天就认为它不该存在,AI 应听懂自然语言",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1986.075,
+            1995.061
+          ],
+          "quote": "And if you remember in the early days, we had this term called prompt engineering as people were supposed to learn how to talk to AI to get the best possible result.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "tokens",
+      "file": "tokens",
+      "primary": true,
+      "how_described": "本集围绕 token 展开大量讨论:企业消耗大量 token、智能体工作流烧 token、成本竞争的真正维度是「结果的成本」而非每百万 token 单价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            540.677,
+            549.001
+          ],
+          "quote": "And all of that orchestration is essentially required to deliver the best result and consume the least amount of tokens for the customer or for the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            564.967,
+            568.789
+          ],
+          "quote": "A lot of stuff done, they can also burn a lot of tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 92,
+          "t": [
+            581.216,
+            589.58
+          ],
+          "quote": "Able to, obviously, otherwise it wouldn't be a business, charge more than your spending in tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            647.537,
+            655.782
+          ],
+          "quote": "And to them, we are a reliable and stable customer because we are a business that consumes millions and billions of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            697.05,
+            715.262
+          ],
+          "quote": "We, on the other hand, are a pretty clear business to them, to our enterprise partners, and they're interested in having long-term relationships with us because, in a way, we are purchasing these tokens in bulks through an API integration, and we are the distribution layer for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            759.547,
+            761.669
+          ],
+          "quote": "Companies today are consuming a lot of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            761.749,
+            771.976
+          ],
+          "quote": "And if you remember earlier this year, like there was this concept of token maxing and a lot of corporations were actually encouraging their employees to sort of consume a lot of tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            779.061,
+            799.117
+          ],
+          "quote": "And we thought about this and we're like, okay, like, if there is so much demand for AI token, how do we make sure that our clients, both individuals and businesses are set so that they don't have to overspend on tokens and they can build their agentic workflows and automate their workflows and not think too much of an, oh, like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            799.877,
+            809.124
+          ],
+          "quote": "At some point, if the price of tokens keeps increasing, they will figure out that it's cheaper for me to hire someone versus letting the agent do the work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            813.768,
+            818.491
+          ],
+          "quote": "So it's actually cheaper to hire a person versus paying an agent through tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1144.974,
+            1151.496
+          ],
+          "quote": "And we're seeing a lot of heavy usage on our platform, quite a lot of power users who are consuming, as you said, many of these tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1151.936,
+            1160.538
+          ],
+          "quote": "And to them, TGN is a perfect solution because they pay for these tokens anyways through Frontier AI models or through aggregators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1257.411,
+            1274.895
+          ],
+          "quote": "So as you scale and as you have more people and they're fully utilizing and maxing their subscriptions, very quickly you realize that you're probably not running a very profitable operation here because your subscriptions may end up giving more tokens than the actual cost of that subscriptions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1283.477,
+            1290.283
+          ],
+          "quote": "They start arbitraging the tokens that they're getting through those subscriptions and the actual cost of that subscription.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1420.352,
+            1431.578
+          ],
+          "quote": "I would say cost becomes an edge, but not in terms of token price or price per millions of tokens, as we usually count it, but the cost of the actual result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1432.279,
+            1437.002
+          ],
+          "quote": "So you're no longer looking at, oh, like this company charges X amount of dollars for like million tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1832.424,
+            1843.253
+          ],
+          "quote": "And if we're able to let our users spend less money, it doesn't really matter that much whether like our tokens are like 10% or 20% cheaper or more expensive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1843.553,
+            1848.758
+          ],
+          "quote": "What matters is how many tokens you've actually used at the end of the day and what models have been used.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "subscription-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "订阅模式 (subscription model)",
+      "file": "订阅模式",
+      "primary": true,
+      "how_described": "本集说订阅模式对 AI 公司不自然:每次生成消耗真实算力,重度用户可套利,导致各家加上限,行业终将转向按用量付费",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1198.155,
+            1212.754
+          ],
+          "quote": "We have to understand that all of these companies, they are commercial organizations, first of all, and they understand that this whole subscription model is something that is a little bit unnatural to AI companies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tgn",
+      "type": "concept",
+      "role": "concept",
+      "name": "TGN",
+      "file": "TGN",
+      "primary": true,
+      "how_described": "本集说 TGN 是 Trioma GPU Network:用户花最低约 30-50 美元买席位参与 GPU 建设,产生「能量」可换 AI 额度或以稳定币提现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 128,
+          "t": [
+            819.712,
+            830.619
+          ],
+          "quote": "So what we've built is something that we call TGN is the Trioma GPU network, which allows our customers, both businesses and consumers to participate in that GPU build out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1027.958,
+            1031.982
+          ],
+          "quote": "You just buy TGN, just participate in our TGN infrastructure.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1032.022,
+            1039.55
+          ],
+          "quote": "So we have a section called TGN, Trioma GPU Network, and anyone can participate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1073.858,
+            1077.84
+          ],
+          "quote": "You buy TGN, which is your slot, basically.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1125.737,
+            1129.782
+          ],
+          "quote": "They're not withdrawing revenue from TGN.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1151.936,
+            1160.538
+          ],
+          "quote": "And to them, TGN is a perfect solution because they pay for these tokens anyways through Frontier AI models or through aggregators.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2595.422,
+            2606.31
+          ],
+          "quote": "The reason why we call it the three is because we have the three elements, which is the TGN, Trioma GPU Network, then there's TESS, Trioma Energy Stream, and then there's TI, Trioma AI Credits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2606.891,
+            2612.395
+          ],
+          "quote": "So TGN is the GPU infrastructure to build out so people can participate in that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2612.995,
+            2617.179
+          ],
+          "quote": "TESS is the energy stream, what essentially TGN generates.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 是 Trioma 三层生态的底层,目前租用云厂商、正走向自持芯片,以实现去中心化、AI 主权和更好利润率",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            66.55,
+            72.416
+          ],
+          "quote": "And then there's the bottom layer, which is GPU, essentially chips that power that compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            819.712,
+            830.619
+          ],
+          "quote": "So what we've built is something that we call TGN is the Trioma GPU network, which allows our customers, both businesses and consumers to participate in that GPU build out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            881.282,
+            884.344
+          ],
+          "quote": "So you're building out this GPU network.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1015.694,
+            1021.155
+          ],
+          "quote": "But the actual compute happens at the bottom layer, which is GPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1032.022,
+            1039.55
+          ],
+          "quote": "So we have a section called TGN, Trioma GPU Network, and anyone can participate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1056.726,
+            1071.517
+          ],
+          "quote": "And so first of all, I have my subscription to Trioma, and then I buy in the Trioma GPU network a certain amount of energy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1077.86,
+            1081.061
+          ],
+          "quote": "You participate in that GPU infrastructure build-out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1083.161,
+            1085.242
+          ],
+          "quote": "So your GPU generates energy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2595.422,
+            2606.31
+          ],
+          "quote": "The reason why we call it the three is because we have the three elements, which is the TGN, Trioma GPU Network, then there's TESS, Trioma Energy Stream, and then there's TI, Trioma AI Credits.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2606.891,
+            2612.395
+          ],
+          "quote": "So TGN is the GPU infrastructure to build out so people can participate in that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3069.751,
+            3084.2
+          ],
+          "quote": "But at the same time, fully participate in this global GPU network build out as that is an essential part of our core principles for us to be fully sovereign and to be able to deploy our open-weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3103.335,
+            3106.497
+          ],
+          "quote": "And in order for us to do that, we need to have our own GPU infrastructure.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open-weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集说 Trioma 自持 GPU 后可部署开放权重模型来改善利润率,并接入中国等地的开放权重模型,不歧视来源",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1569.507,
+            1574.189
+          ],
+          "quote": "And you mentioned access to open-weight models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1619.463,
+            1628.41
+          ],
+          "quote": "Us being a UAE-based company, we're happy to work with both Chinese models, open-weight models, as well as US models and European models as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3069.751,
+            3084.2
+          ],
+          "quote": "But at the same time, fully participate in this global GPU network build out as that is an essential part of our core principles for us to be fully sovereign and to be able to deploy our open-weight models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编程智能体 (coding agent)",
+      "file": "编程智能体",
+      "primary": true,
+      "how_described": "本集说可以用编程智能体构建应用,甚至造一个为你的用例定制的、没有无数困惑选项的 Photoshop",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 398,
+          "t": [
+            2278.775,
+            2286.582
+          ],
+          "quote": "And they said, well, we don't have it yet, but you can build that with your coding agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

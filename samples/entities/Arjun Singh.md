@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":103,"基准测试":3,"上下文":34,"开放权重模型":1,"Slack":34,"Claude Code":115,"Codex":91,"Cursor":87}</script>
+<script type="application/json" class="pd-epn">{"Superconductor":1,"智能体":1,"沙箱":103,"基准测试":3,"上下文":34,"开放权重模型":1,"Slack":34,"Claude Code":116,"Codex":91,"Cursor":87}</script>
 
 <script>
 (function(){

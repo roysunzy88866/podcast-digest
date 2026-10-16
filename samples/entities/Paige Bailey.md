@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
+[[Iskander Malikov]] [[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":103,"推理":102,"GPU":33,"量化":1,"WebAssembly":2}</script>
+<script type="application/json" class="pd-epn">{"DeepMind":19,"Gemma 4":2,"Google AI Edge Gallery":1,"Managed Agents":7,"开放模型":3,"沙箱":103,"推理":102,"GPU":35,"量化":1,"WebAssembly":2}</script>
 
 <script>
 (function(){

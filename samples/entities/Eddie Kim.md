@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":7,"Gusto":2,"联合创始人":4,"vibe coding":52,"永久 Zoom":1,"智能体":1,"垃圾桶法":1,"Cloudflare Worker":2,"Vercel AI SDK":3,"Claude Code":115}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":7,"Gusto":2,"联合创始人":4,"vibe coding":52,"永久 Zoom":1,"智能体":1,"垃圾桶法":1,"Cloudflare Worker":2,"Vercel AI SDK":3,"Claude Code":116}</script>
 
 <script>
 (function(){

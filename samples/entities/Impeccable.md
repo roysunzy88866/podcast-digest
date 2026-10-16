@@ -27,7 +27,7 @@ unlisted: true
 
 [[Paul Bakaus]] · [[harness]] · [[品味]] · [[智能体]] · [[技能]] · [[一次性设计]] · [[子智能体]] · [[AI 垃圾内容]] · [[Claude Code]] · [[形容词引导设计]]
 
-<script type="application/json" class="pd-epn">{"Paul Bakaus":2,"harness":67,"品味":15,"智能体":1,"技能":35,"一次性设计":1,"子智能体":7,"AI 垃圾内容":4,"Claude Code":115,"形容词引导设计":1}</script>
+<script type="application/json" class="pd-epn">{"Paul Bakaus":2,"harness":67,"品味":15,"智能体":1,"技能":35,"一次性设计":1,"子智能体":7,"AI 垃圾内容":4,"Claude Code":116,"形容词引导设计":1}</script>
 
 <script>
 (function(){

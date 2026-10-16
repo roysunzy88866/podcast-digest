@@ -1,0 +1,185 @@
+{
+  "title_zh": "AI 会写代码了，那它能替人运维系统吗？",
+  "tldr": "Grepr CEO Jad Naous 与 a16z 合伙人 Martin Casado 对谈：AI 写代码效率暴涨之后，能不能接管真正的生产系统。",
+  "digest_md": "AI 写代码这件事已经基本成了：Jad Naous 用它把过去要 6 个月的项目压到 10 天。但代码写完只是开始——真正难的，是让一个由无数服务器、日志、流量组成的系统在生产环境里稳定跑下去。这一期 The a16z Show 里，a16z 的一位普通合伙人找来了老同学、Grepr 的 CEO Jad Naous,两人从斯坦福读博时就认识，一个成了风险投资人，一个成了系统工程师。他们聊的正是这道分界线：AI 为什么擅长写代码，却未必擅长运行系统。\n\n## 一个 10 人团队，怎么用 AI 干出 20 人的活\n\nJad 的公司只有 10 个人，做的却是分布式系统这种硬核生意。他描述了自己现在的工作流：用 Windows 加 WSL(在 Windows 里跑 Linux),主力工具是 Claude Code,模型用 Opus 5.5。他会同时开三四个会话窗口，让一个负责实现的智能体去问一个扮演技术负责人的智能体：==这个设计合理吗==？帮我审一下这段代码。两个智能体互相迭代，最后产出一套代码和设计文档，他作为人来把关。\n\n他的经验是：**越是好的工程师，从 AI 那里得到的放大效应越大**。差的工程师并不会因为 AI 变好，因为 AI 不会替你处理复杂度——你得自己能把问题拆开、讲清楚，模型才能干活 [13:58 Unknown]。他甚至发现，好的工程师在用 AI 的过程中，反过来被 AI 训练了：学会怎么跟它说话、什么时候该拦住它别乱开 20 个子智能体烧掉所有配额 [11:56 Unknown]。\n\n## 效率提升有多夸张？6 个月变 10 天\n\n最有说服力的例子是他最近做的一个叫 auto-promotion 的功能：把日志里杂乱的字段自动拆成数据湖里独立的列，让查询变快。这事牵扯元数据系统、多写入方协调，非常复杂。他一个人用 AI 做完，花了大约 10 天。放到以前，他说，**一个人得干大约 6 个月** [24:41 Unknown]。而且这是正式上线的生产代码，不是玩具。\n\n## 写代码和运行系统，是两回事\n\nMartin 的疑问从这里开始。他说自己是个简单的思考者：这些模型说到底是输入一个分布，输出一个分布。人类写过的所有代码是一个相对规整的分布，所以模型学得会。但生产环境里的故障是另一回事——重尾分布、极端情况、没人见过的状态组合。他说，程序每加一个比特，系统可能进入的状态就翻一倍，很快就「比宇宙里的原子还多」[33:08 Unknown]。\n\nJad 承认这确实是硬问题，但他给出了另一条路。行业里常见的做法是等警报响了、指标飙了，再让 AI 回头去复杂的系统里找根因——这很难。Grepr 反过来做：扫描全部日志，一旦出现从没见过的新模式，就把这个信号抛给 AI。AI 不需要预测未来，只需要知道有东西变了，然后去跑假设、查代码、做实验，一步步把问题收窄 [35:49 Unknown]。\n\nMartin 一下就抓住了要害：坏状态的组合可能是天文数字，但排查问题的步骤序列是有限的——这正是可以教给模型的。Jad 说，对，这就是让 AI 接管人的调试角色。他透露，有几次他们忽略了系统的警告，后来那些都真的变成了生产事故 [32:37 Unknown]。\n\n## 系统史的铁律：别预测，堆资源\n\nMartin 搬出了计算机系统的历史：每当人们想做聪明的虚拟内存管理、自适应路由，结果总是失败，最后大家都选择超配资源——多买内存、多铺带宽，用钱换简单。混沌工程那波浪潮也没真做成。运维的肮脏秘密长期以来就是靠人在管 [33:35 Unknown]。\n\n他的判断是：写代码这类问题，**解的空间和训练数据分布一致，AI 会像野火一样蔓延**；而那些解的空间是真实世界的问题，会难得多、慢得多。自动驾驶就是例子——从 DARPA 挑战赛到今天，花了 20 年和 1700 亿美元投资，单位经济性还不如 Uber [53:38 Unknown]。\n\nJad 更乐观一点，但也承认 Martin 说到一个关键：也许有些东西是计算不可化约的，必须真跑一遍才能知道答案。不过 AI 可以自己去设计实验、规划执行，去获取它需要的信息——相当于模拟一个科学家 [49:31 Unknown]。\n\n## 一个尴尬的商业真相：客户只想省钱\n\n节目最后 Jad 讲了个 funny story。他们去跟客户讲：我们有 AI 帮你提升系统可靠性。客户说：等等，回去——你说能省 90% 的 Datadog 账单？我就要买这个，AI 的事先不用 [57:51 Unknown]。\n\n原因不难理解：写代码的价值一目了然，就是工程效率，是公司账上最大的一笔开销之一。而运维的价值很难定价——省下一次故障值多少钱？这大概也解释了为什么 AI 在代码领域突飞猛进，在运维领域还停在早期。\n\n## 本集带走\n\n- 好工程师从 AI 获得的杠杆最大，差工程师并不会自动变好；用 AI 本身是一门需要学的手艺，甚至是在被 AI 反向训练。\n- 用智能体当技术负责人互相审代码、开三四个会话窗口并行，一个人加 AI 可以把 6 个月的生产级项目压到 10 天。\n- 写代码(语法)和系统实际运行的行为(语义)是两回事；AI 能学会前者，后者依赖真实世界的负载和状态。\n- 运维 AI 的可行路径：不靠预测，而是检测什么变了，让 AI 跑假设、做实验、逐步收窄问题——把人做调试的步骤序列交给模型。\n- 解的空间与训练数据分布一致的领域(代码、图像)AI 会狂飙；面对真实世界分布的问题(自动驾驶、运维)则更难、更慢，最终由经济均衡决定成败。",
+  "quotes": [
+    {
+      "en": "The dirty secret for the longest time of running a distributed cluster was just human beings managing it.",
+      "zh": "长期以来，运行分布式集群的一个肮脏秘密就是靠人工来管理它。",
+      "timestamp": "00:44",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "AI can now write remarkable amounts of production code, but writing software and running it are two very different problems.",
+      "zh": "AI 现在能写出数量惊人的生产代码，但写软件和运行软件是两个非常不同的问题。",
+      "timestamp": "00:58",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "How far can AI go when the answer isn't already contained in the world it was trained on?",
+      "zh": "当答案并不已经包含在 AI 被训练时所用的世界里时，AI 能走多远？",
+      "timestamp": "01:56",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And what I've noticed is that really good engineers are able to somehow put it into their workflows in a way where the AI starts training them.",
+      "zh": "而我注意到的是，真正优秀的工程师能够以某种方式把它融入自己的工作流，让 AI 开始反过来训练他们。",
+      "timestamp": "11:43",
+      "speaker": "Jad Naous"
+    },
+    {
+      "en": "And then as we started hiring more people into the team that disparity between you know okay engineers and really good engineers just multiplied 10x.",
+      "zh": "然后当我们开始往团队里招更多人时，普通工程师和真正优秀工程师之间的差距直接翻了 10 倍。",
+      "timestamp": "13:28",
+      "speaker": "Jad Naous"
+    },
+    {
+      "en": "So like if you're a good engineer, you're just a better good engineer. It's not like there's some like bad engineers all of a sudden became good engineers.",
+      "zh": "就是说，如果你是个好工程师，你就只是变成一个更好的好工程师。并不是有些差工程师突然变成了好工程师。",
+      "timestamp": "13:50",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "It's you know that's why those don't work because like backtracking into a root cause is actually very problematic and so instead what we're doing is doing it the other way around which is can we actually start by figuring out if there's something different in your environment that has changed",
+      "zh": "你知道的，这就是为什么那些方案不管用，因为回溯到一个根因实际上是非常成问题的，所以我们做的反而是反过来的，就是我们能不能先弄清楚你的环境里有没有什么发生了变化的东西",
+      "timestamp": "31:13",
+      "speaker": "Jad Naous"
+    },
+    {
+      "en": "You know, so I just feel like the history of systems is that you don't predict stuff, you over-provision because you can't.",
+      "zh": "你知道，所以我就觉得，系统的历史就是你不去预测东西，你过度配置，因为你预测不了。",
+      "timestamp": "39:04",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "And it took 20 years and $170 billion of investment to get to worse unit economics than Uber, right?",
+      "zh": "然后花了 20 年和 1700 亿美元的投资，结果单位经济效益还不如 Uber，对吧？",
+      "timestamp": "54:38",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:44",
+      "speaker": "Martin",
+      "en": "The dirty secret for the longest time of running a distributed cluster was just human beings managing it.",
+      "zh": "长期以来，运行分布式集群的一个肮脏秘密就是靠人工来管理它。"
+    },
+    {
+      "timestamp": "00:54",
+      "speaker": "Jad",
+      "en": "AI can now write remarkable amounts of production code, but writing software and running it are two very different problems.",
+      "zh": "AI 现在能写出数量惊人的生产代码，但写软件和运行软件是两个非常不同的问题。"
+    },
+    {
+      "timestamp": "01:56",
+      "speaker": "Martin",
+      "en": "How far can AI go when the answer isn't already contained in the world it was trained on?",
+      "zh": "当答案并不已经包含在 AI 被训练时所用的世界里时，AI 能走多远？"
+    },
+    {
+      "timestamp": "07:55",
+      "speaker": "Jad",
+      "en": "First, people were spending somewhere between 5% and 20% of what they spend on infrastructure, on observability.",
+      "zh": "首先，人们在可观测性上的花费，大约是基础设施花费的 5% 到 20%。"
+    },
+    {
+      "timestamp": "11:43",
+      "speaker": "Jad",
+      "en": "And what I've noticed is that really good engineers are able to somehow put it into their workflows in a way where the AI starts training them.",
+      "zh": "而我注意到的是，真正优秀的工程师能够以某种方式把它融入自己的工作流，让 AI 开始反过来训练他们。"
+    },
+    {
+      "timestamp": "13:28",
+      "speaker": "Jad",
+      "en": "And then as we started hiring more people into the team that disparity between you know okay engineers and really good engineers just multiplied 10x.",
+      "zh": "然后当我们开始往团队里招更多人时，普通工程师和真正优秀工程师之间的差距直接翻了 10 倍。"
+    },
+    {
+      "timestamp": "13:50",
+      "speaker": "Jad",
+      "en": "So like if you're a good engineer, you're just a better good engineer. It's not like there's some like bad engineers all of a sudden became good engineers.",
+      "zh": "就是说，如果你是个好工程师，你就只是变成一个更好的好工程师。并不是有些差工程师突然变成了好工程师。"
+    },
+    {
+      "timestamp": "14:33",
+      "speaker": "Jad",
+      "en": "In my experience for the things that we do, that is the case because we build distributed systems and distributed algorithms and like your brain has to handle the complexity because like AI doesn't do it.",
+      "zh": "以我的经验，对我们做的事情而言，情况确实如此，因为我们构建分布式系统和分布式算法，你的大脑必须处理那些复杂度，因为 AI 做不到。"
+    },
+    {
+      "timestamp": "20:20",
+      "speaker": "Jad",
+      "en": "And it's, I've shipped in the last two weeks, these massive 20 PR things that I just dump on my team to go on and review.",
+      "zh": "而且，过去两周我已经发布了这些规模巨大的、20 个 PR 的东西，我直接丢给我的团队去继续审查。"
+    },
+    {
+      "timestamp": "23:20",
+      "speaker": "Jad",
+      "en": "So the latest project that I shipped was something like… By the way, this is like, to be clear, this is production code.",
+      "zh": "我最近交付的项目是这样的……顺便说明一下，这是生产代码。"
+    },
+    {
+      "timestamp": "24:41",
+      "speaker": "Jad",
+      "en": "In previous days, that would have taken maybe about six months for a single person.",
+      "zh": "在以前，那对一个人来说大概要花六个月。"
+    },
+    {
+      "timestamp": "26:45",
+      "speaker": "Martin",
+      "en": "And it's not like these things can like, like where's even the data to learn how to like build a system that understands like all of the operations, right?",
+      "zh": "而且学习如何构建一个能理解所有运维工作的系统的数据到底在哪里，对吧？"
+    },
+    {
+      "timestamp": "29:57",
+      "speaker": "Jad",
+      "en": "And that has to come from actual experiments that run in production.",
+      "zh": "而这必须来自在生产环境中运行的真实实验。"
+    },
+    {
+      "timestamp": "31:13",
+      "speaker": "Jad",
+      "en": "It's you know that's why those don't work because like backtracking into a root cause is actually very problematic and so instead what we're doing is doing it the other way around which is can we actually start by figuring out if there's something different in your environment that has changed",
+      "zh": "你知道的，这就是为什么那些方案不管用，因为回溯到一个根因实际上是非常成问题的，所以我们做的反而是反过来的，就是我们能不能先弄清楚你的环境里有没有什么发生了变化的东西"
+    },
+    {
+      "timestamp": "32:44",
+      "speaker": "Jad",
+      "en": "And there was a couple of cases where we ignored it, and those turned into production incidents.",
+      "zh": "有几个案例我们忽略了它，结果变成了生产事故。"
+    },
+    {
+      "timestamp": "33:08",
+      "speaker": "Martin",
+      "en": "It's like every time you add a bit to a program, the state space of like what it can do operationally increases by a factor of two.",
+      "zh": "就好像你每给一个程序加一个比特，它在操作上能做的事情的状态空间就增加一倍。"
+    },
+    {
+      "timestamp": "38:43",
+      "speaker": "Martin",
+      "en": "No, we over-provision every time.",
+      "zh": "不，我们每次都是过度配置。"
+    },
+    {
+      "timestamp": "39:04",
+      "speaker": "Martin",
+      "en": "You know, so I just feel like the history of systems is that you don't predict stuff, you over-provision because you can't.",
+      "zh": "你知道，所以我就觉得，系统的历史就是你不去预测东西，你过度配置，因为你预测不了。"
+    },
+    {
+      "timestamp": "40:47",
+      "speaker": "Jad",
+      "en": "The number of bad things that can happen is probably an exception thing, but the set of steps used to debug it is a manageable thing.",
+      "zh": "可能发生的坏事数量大概是一种例外的事情，但用于调试它的步骤集合是一种可管理的事情。"
+    },
+    {
+      "timestamp": "54:38",
+      "speaker": "Martin",
+      "en": "And it took 20 years and $170 billion of investment to get to worse unit economics than Uber, right?",
+      "zh": "然后花了 20 年和 1700 亿美元的投资，结果单位经济效益还不如 Uber，对吧？"
+    }
+  ],
+  "voice_script": "今天聊一个人和AI运维的话题。主角叫Jad Naous,是一家叫Grepr公司的CEO,这家公司做分布式系统，就是那种由无数服务器、日志、流量组成的复杂系统生意。公司只有10个人。跟他对话的，是风险投资机构a16z的一位普通合伙人，两人是斯坦福读博时的老同学，一个去做了投资人，一个成了系统工程师。他们聊的正是这道分界线：AI为什么擅长写代码，却未必擅长运行系统。\n\n先把背景垫一下。AI写代码这件事，现在基本已经成了。Jad自己就是重度用户，用它把过去要干6个月的项目压到了10天。但问题在于，代码写完只是开始，真正难的，是让一个系统在生产环境里稳定跑下去。这期节目聊的，就是AI能不能迈过这道坎。\n\n先看看AI写代码的效率到底有多夸张。Jad描述了自己现在的工作流：主力工具是Claude Code,同时开三四个会话窗口，让一个负责实现的智能体去问另一个扮演技术负责人的智能体——这个设计合理吗？帮我审一下这段代码。两个智能体互相迭代，最后产出一套代码和设计文档，人来做最后把关。最有说服力的例子，是最近做的一个叫auto-promotion的功能，把日志里杂乱的字段自动拆成数据湖里独立的列，让查询变快。这事牵扯元数据系统和多写入方协调，非常复杂。一个人带着AI做完，花了大约10天。放到以前，一个人得干大约6个月。而且这是正式上线的生产代码，不是玩具。\n\n这里有个值得记住的观察。越是好的工程师，从AI那里得到的放大效应越大。差的工程师并不会因为AI变好，因为AI不会替你处理复杂度，你得自己能把问题拆开、讲清楚，模型才能干活。更有意思的是，好的工程师在用AI的过程中，反过来被AI训练了：学会怎么跟它说话，什么时候该拦住它，别乱开20个子智能体把配额全烧掉。说白了，如果你是个好工程师，你就只是变成一个更好的好工程师，并不是有些差工程师突然变成了好工程师。\n\n那写代码这么猛，运维系统为什么是另一回事？这就要说到a16z这位合伙人的疑问了。他的思路很简单：这些模型说到底是输入一个分布，输出一个分布。人类写过的所有代码是一个相对规整的分布，所以模型学得会。但生产环境里的故障是另一回事——重尾分布、极端情况、没人见过的状态组合。程序每加一个比特，系统可能进入的状态就翻一倍，很快就比宇宙里的原子还多。\n\nJad承认这确实是硬问题，但给出了另一条路。行业里常见的做法，是等警报响了、指标飙了，再让AI回头去复杂的系统里找根因，这很难。Grepr反过来做：扫描全部日志，一旦出现从没见过的新模式，就把这个信号抛给AI。AI不需要预测未来，只需要知道有东西变了，然后去跑假设、查代码、做实验，一步步把问题收窄。这位合伙人一下就抓住了要害：坏状态的组合可能是天文数字，但排查问题的步骤序列是有限的，这正是可以教给模型的。也就是说，这等于让AI接管人的调试角色。Jad还透露，有几次他们忽略了系统的警告，后来那些都真的变成了生产事故。\n\n不过这位合伙人又搬出了计算机系统的历史泼了盆冷水。每当人们想做聪明的虚拟内存管理、自适应路由，结果总是失败，最后大家都选择超配资源——多买内存、多铺带宽，用钱换简单。混沌工程那波浪潮也没真做成。长期以来，运行分布式集群的一个肮脏秘密，就是靠人工来管理它。所以判断是：写代码这类问题，解的空间和训练数据分布一致，AI会像野火一样蔓延；而那些解的空间是真实世界的问题，会难得多、慢得多。自动驾驶就是例子，从DARPA挑战赛到今天，花了20年和1700亿美元投资，单位经济性还不如Uber。\n\nJad更乐观一点，但也承认对方说到一个关键：也许有些东西是计算不可化约的，必须真跑一遍才能知道答案。不过AI可以自己去设计实验、规划执行，去获取需要的信息，相当于模拟一个科学家。\n\n最后还有个尴尬的商业真相。Grepr去跟客户讲，我们有AI帮你提升系统可靠性。客户说：等等，回去——你说能省90%的Datadog账单？我就要买这个，AI的事先不用。原因不难理解：写代码的价值一目了然，是工程效率，是公司账上最大的一笔开销之一；而运维的价值很难定价，省下一次故障值多少钱？这大概也解释了为什么AI在代码领域突飞猛进，在运维领域还停在早期。\n\n所以这一集留下的核心判断是：AI现在能写出数量惊人的生产代码，但写软件和运行软件，是两个非常不同的问题。"
+}

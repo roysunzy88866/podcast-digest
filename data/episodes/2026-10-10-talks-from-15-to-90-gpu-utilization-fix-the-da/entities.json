@@ -1,0 +1,426 @@
+{
+  "episode_id": "2026-10-10-talks-from-15-to-90-gpu-utilization-fix-the-da",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 基础设施",
+    "多模态训练",
+    "数据管道",
+    "GPU 利用率",
+    "性能优化"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集的核心问题:GPU 昂贵、理应满负荷运转,但多模态训练中挨饿的往往是 GPU——瓶颈不在内核优化,而在喂数据的管道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            152.51,
+            162.276
+          ],
+          "quote": "And then it's also true that usually your training clusters have a lot more CPUs than GPUs at hand, yet the GPU is what is starving in this pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            909.252,
+            924.799
+          ],
+          "quote": "And so now this is the final pipeline that we've accomplished, a concurrent, eager, and a data access pattern aware system that shares the training across loads and enables that GPU stay warm while providing smoothness and stability in training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            942.577,
+            946.459
+          ],
+          "quote": "GPUs are expensive, but sometimes the biggest battles happen outside of the GPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            946.559,
+            949.5
+          ],
+          "quote": "So first ask yourself, are you CPU bound or GPU bound?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ray-actors",
+      "type": "concept",
+      "role": "concept",
+      "name": "Ray Actors",
+      "file": "Ray Actors",
+      "primary": true,
+      "how_described": "本集把它说成:本质上等同多进程、但自带跨 worker 通信 API 的并行处理方案,被选作图像处理的并发工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.61,
+            29.737
+          ],
+          "quote": "Yeah, today I'm going to talk about Ray Actors, Vision Tokens, and the GIL, engineering a multimodal SFT data pipeline that keeps the GPUs busy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            490.863,
+            499.91
+          ],
+          "quote": "So we'll choose AsyncIO for fetching images here and then use Ray Actors as our processors, as our multiprocessing library.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            501.011,
+            509.457
+          ],
+          "quote": "Ray Actors are essentially the same as general processes, but they offer us APIs to communicate across workers that just make it so that we don't have to reinvent the wheel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multimodal-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "多模态训练 (multimodal training)",
+      "file": "多模态训练",
+      "primary": true,
+      "how_described": "本集说它与纯文本训练不同:图像加载、缩放、归一化等 CPU 密集操作必须在喂数据给模型之前完成,导致数据管道成为最大瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            73.61,
+            77.651
+          ],
+          "quote": "So we will establish a baseline multimodal training pipeline.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            771.65,
+            779.014
+          ],
+          "quote": "So when we're scaling up, now that we have a good multimodal training pipeline, let's try to scale it up to a production run.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "data-pipeline",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据管道 (data pipeline)",
+      "file": "数据管道",
+      "primary": true,
+      "how_described": "本集主线就是工程化这条多模态 SFT 数据流水线:通过并发、预取、对象存储与调度调参,把 GPU 利用率从 15% 提到 90%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.61,
+            29.737
+          ],
+          "quote": "Yeah, today I'm going to talk about Ray Actors, Vision Tokens, and the GIL, engineering a multimodal SFT data pipeline that keeps the GPUs busy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prefetching",
+      "type": "concept",
+      "role": "concept",
+      "name": "预取 (prefetching)",
+      "file": "预取",
+      "primary": true,
+      "how_described": "本集说成:用后台线程提前填满队列、让生产者始终领先于消费者,使每批数据获取时间接近零;代价是检查点恢复变复杂且有冷启动期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            91.056,
+            92.337
+          ],
+          "quote": "Two, prefetching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            583.583,
+            585.104
+          ],
+          "quote": "There's a caveat to prefetching.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            600.476,
+            605.743
+          ],
+          "quote": "If you work around those details, I think prefetching is a great idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            742.439,
+            754.105
+          ],
+          "quote": "So to recap, we took a serial baseline, we added concurrency for data loading and processing, we added prefetching to stay ahead of training requests, and we added the restore to minimize data transfer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            966.929,
+            977.456
+          ],
+          "quote": "Parallelism and prefetching matter, and I think a lot of content has covered this, but so do the semantics of the frameworks that you're using and the constraints that you're dealing with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "type": "concept",
+      "role": "concept",
+      "name": "并发 (concurrency)",
+      "file": "并发",
+      "primary": true,
+      "how_described": "本集把并发当作第一步优化:异步适合 IO、线程适合释放 GIL 的 CPU 操作、进程最重但隔离最彻底,关键是匹配瓶颈而不是沿用旧手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            83.794,
+            86.074
+          ],
+          "quote": "So loosely they are, one, concurrency.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            382.644,
+            385.785
+          ],
+          "quote": "So OK, solution one, let's try to add some concurrency to this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            426.54,
+            428.643
+          ],
+          "quote": "What forms of concurrency do you want?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            710.802,
+            717.854
+          ],
+          "quote": "So with every choice of your parallelism and concurrency solution, you always have to think about the added communication costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            742.439,
+            754.105
+          ],
+          "quote": "So to recap, we took a serial baseline, we added concurrency for data loading and processing, we added prefetching to stay ahead of training requests, and we added the restore to minimize data transfer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gil",
+      "type": "concept",
+      "role": "concept",
+      "name": "GIL",
+      "file": "GIL",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            18.61,
+            29.737
+          ],
+          "quote": "Yeah, today I'm going to talk about Ray Actors, Vision Tokens, and the GIL, engineering a multimodal SFT data pipeline that keeps the GPUs busy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wait-time-ratio",
+      "type": "concept",
+      "role": "concept",
+      "name": "等待时间占比 (wait time ratio)",
+      "file": "等待时间占比",
+      "primary": true,
+      "how_described": "本集引入的关键指标:准备并传输数据的时间除以整条流水线总时间,本集用它把优化过程从 85% 一路降到 20% 以下。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            162.856,
+            172.642
+          ],
+          "quote": "So today we're going to introduce this equation called like wait time ratio, which is generally I formulate as like the time it takes to prep your data and transfer it to the GPUs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 84,
+          "t": [
+            514.734,
+            520.357
+          ],
+          "quote": "And we can see that our wait time ratio has gone down on the second example, which is in the pink.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            780.695,
+            786.858
+          ],
+          "quote": "While doing that, we observed that our wait time ratio for the same pipeline went up when all we did was scale some numbers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "object-store",
+      "type": "concept",
+      "role": "concept",
+      "name": "对象存储 (object store)",
+      "file": "对象存储",
+      "primary": true,
+      "how_described": "本集的第三步优化:每个样本只传指向数据的引用(指针),张量不再跨进程复制、不往返头节点,训练进程按需直接取数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            319.11,
+            332.318
+          ],
+          "quote": "So for each example, we fetch the images from object store, we tokenize it, we resize the images, normalize them, and then feed them to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            683.856,
+            686.418
+          ],
+          "quote": "So a fix for this, you can come up with an object store.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "scale",
+      "type": "concept",
+      "role": "concept",
+      "name": "规模扩展 (scale)",
+      "file": "规模扩展",
+      "primary": true,
+      "how_described": "本集的核心教训:规模会改变答案——零拷贝读取和分散调度这两个参数在小规模实验里毫无作用,合在一起在大规模下才带来 50% 的额外吞吐量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            771.65,
+            779.014
+          ],
+          "quote": "So when we're scaling up, now that we have a good multimodal training pipeline, let's try to scale it up to a production run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            780.695,
+            786.858
+          ],
+          "quote": "While doing that, we observed that our wait time ratio for the same pipeline went up when all we did was scale some numbers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            878.865,
+            886.928
+          ],
+          "quote": "Neither of these actually helped in a small scale experiment, but together they had a synergistic effect in a large scale experiment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            888.789,
+            895.134
+          ],
+          "quote": "Yeah, so a config can do poorly at a small scale, but can do really good at a larger scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            926.52,
+            930.901
+          ],
+          "quote": "Overall, we achieved a 50% additional throughput at scale just from these two flags.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            978.517,
+            980.138
+          ],
+          "quote": "And scale always changes the answer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -128,11 +128,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]] [[Leisha Lee]]
+[[Iskander Malikov]] [[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Cursor":87,"护城河":14,"编码智能体":35,"Anthropic":206,"a16z":21,"Decagon":9,"循环":10,"个人智能体":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Cursor":87,"护城河":14,"编码智能体":36,"Anthropic":206,"a16z":21,"Decagon":9,"循环":10,"个人智能体":2}</script>
 
 <script>
 (function(){

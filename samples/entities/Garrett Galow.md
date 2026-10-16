@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":115,"Lovable":20,"Cloudflare":18,"Okta":3,"Doppler":1,"Snowflake":23,"非工程师开发":1}</script>
+<script type="application/json" class="pd-epn">{"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":116,"Lovable":20,"Cloudflare":18,"Okta":3,"Doppler":1,"Snowflake":23,"非工程师开发":1}</script>
 
 <script>
 (function(){

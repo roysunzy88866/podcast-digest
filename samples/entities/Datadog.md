@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Datadog</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Datadog">DA</div><div class="pi"><h1 class="pt">Datadog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Datadog">DA</div><div class="pi"><h1 class="pt">Datadog</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,10 +18,11 @@ unlisted: true
 - **[[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]]**(01:06起):本集讨论的云监控公司，嘉宾 Emilio 担任其 CISO；内部高达 98% 的员工都在用各类 AI 工具，团队为管控编程智能体自研了「法官」、沙箱及基于角色的 MCP 服务器。
 - **[[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]]**(22:36起):本集说 Datadog 是基础设施公司的代表，卖可观测性，模式根本没变，只是现在多了一个需要购买量比任何人都大 100 倍的基础设施客户，不需要发明新东西
 - **[[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]]**(03:12起):本集作为现有可观测性工具的代表提及：告诉你什么坏了，但不会告诉你为什么、该怎么处理。
+- **[[2026-10-16-a16z-ai-can-write-the-code-can-it-run-the-sys|《AI 会写代码了，那它能替人运维系统吗？》]]**(57:51起):本集的 funny story 里客户一听说能省 90% 的 Datadog 账单就只想买这个，AI 可靠性的事『先不用』——用来说明运维价值难以定价。
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|《评测优先:Braintrust 创始人谈 AI 产品开发的真正工程》]] — 作为被讨论公司
 - [[2026-07-07-ainativedev-inside-anthropic-how-claude-tag-is-chang|《Claude Tag:住在 Slack 里的主动型队友，如何让 65% 的 PR 由 AI 开出》]] — 作为被讨论公司(提及)
@@ -31,14 +32,15 @@ unlisted: true
 - [[2026-08-11-a16z-the-ciso-playbook-for-ai-agents-datadog|《AI失控了别慌,先盯紧漏洞数量爆炸》]] — 作为被讨论公司
 - [[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it|《Canva 增长骤降背后：无代码时代终结与 AI 蚕食的真相》]] — 作为被讨论公司
 - [[2026-10-02-talks-the-5-levels-of-self-driving-production|《AI SRE 与自动驾驶式生产:Traversal 如何替财富 500 强修故障》]] — 作为被讨论公司(提及)
+- [[2026-10-16-a16z-ai-can-write-the-code-can-it-run-the-sys|《AI 会写代码了，那它能替人运维系统吗？》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[可观测性]] · [[评估]] · [[Anthropic]] · [[Claude Code]] · [[Cursor]] · [[沙箱]] · [[harness]] · [[提示词]] · [[Simon Maple]]
+[[智能体]] · [[可观测性]] · [[评估]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Cursor]] · [[harness]] · [[提示词]] · [[Simon Maple]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"可观测性":48,"评估":1,"Anthropic":206,"Claude Code":115,"Cursor":87,"沙箱":103,"harness":67,"提示词":3,"Simon Maple":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"可观测性":49,"评估":1,"Anthropic":206,"Claude Code":116,"沙箱":103,"Cursor":87,"harness":67,"提示词":3,"Simon Maple":10}</script>
 
 <script>
 (function(){

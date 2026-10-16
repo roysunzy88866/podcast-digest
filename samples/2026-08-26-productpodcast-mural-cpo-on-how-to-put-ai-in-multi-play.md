@@ -149,9 +149,9 @@ Mural 把团队分成两类。核心产品团队用传统的"铁三角"（设计
 
 **换个口味**
 
+- [[2026-10-16-eyeonai-is-this-the-cheapest-way-to-use-ai-in-20|一个入口用65个AI模型？Trioma想让AI自己挑模型干活]]<span class="pd-rz">同概念:tokens、智能体 (agents)</span>
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]]<span class="pd-rz">同公司:Slack · 同概念:智能体 (agents)</span>
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]]<span class="pd-rz">同公司:Linear · 同概念:原型 (prototype)</span>
-- [[2026-08-26-aiandi-a-10b-hedge-fund-s-ai-playbook-best-of-t|对冲基金掌门人全员押注 AI:备忘录、数据湖与“数字员工”]]<span class="pd-rz">同概念:智能体 (agents)、LLM</span>
 
 </div>
 </div>

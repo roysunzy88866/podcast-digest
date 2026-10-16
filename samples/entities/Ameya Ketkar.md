@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]]
+[[Jad Naous]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":20,"uReview":1,"自动化代码评审":1,"代码审查":26,"智能体化的 SDLC":1,"智能体":1,"可观测性":48,"护栏":93,"内环与外环":3}</script>
+<script type="application/json" class="pd-epn">{"Will Bond":1,"Uber":20,"uReview":1,"自动化代码评审":1,"代码审查":26,"智能体化的 SDLC":1,"智能体":1,"可观测性":49,"护栏":93,"内环与外环":3}</script>
 
 <script>
 (function(){

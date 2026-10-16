@@ -25,7 +25,7 @@ unlisted: true
 
 [[Garrett Galow]] · [[WorkOS]] · [[Atlas]] · [[WOW]] · [[Claude Code]] · [[Lovable]] · [[Cloudflare]] · [[Okta]] · [[Doppler]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"Garrett Galow":1,"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":115,"Lovable":20,"Cloudflare":18,"Okta":3,"Doppler":1,"Snowflake":23}</script>
+<script type="application/json" class="pd-epn">{"Garrett Galow":1,"WorkOS":11,"Atlas":5,"WOW":1,"Claude Code":116,"Lovable":20,"Cloudflare":18,"Okta":3,"Doppler":1,"Snowflake":23}</script>
 
 <script>
 (function(){

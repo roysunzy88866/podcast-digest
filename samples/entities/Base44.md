@@ -41,7 +41,7 @@ unlisted: true
 
 [[Wix]] · [[Lenny]] · [[Claude Code]] · [[Lovable]] · [[Codex]] · [[Bolt]] · [[智能体]] · [[Replit]] · [[Cursor]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Wix":4,"Lenny":69,"Claude Code":115,"Lovable":20,"Codex":91,"Bolt":3,"智能体":1,"Replit":22,"Cursor":87,"vibe coding":52}</script>
+<script type="application/json" class="pd-epn">{"Wix":4,"Lenny":69,"Claude Code":116,"Lovable":20,"Codex":91,"Bolt":3,"智能体":1,"Replit":22,"Cursor":87,"vibe coding":52}</script>
 
 <script>
 (function(){

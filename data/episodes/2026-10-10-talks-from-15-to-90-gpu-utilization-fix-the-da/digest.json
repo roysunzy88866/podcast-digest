@@ -1,0 +1,203 @@
+{
+  "title_zh": "GPU利用率从15%到90%:该修的是数据管道，不是模型",
+  "tldr": "一位工程师拆解多模态训练流水线，讲清GPU为什么闲置，以及如何让显卡一直吃得上数据。",
+  "digest_md": "买GPU很贵，所以人人都想让它们满负荷运转。但一场关于多模态模型训练的演讲给出了一个反直觉的结论：**最拖后腿的往往不是GPU本身，也不是模型优化，而是喂数据的管道**。演讲者逐步修好一条多模态微调数据管道，把GPU利用率从15%拉到90%，吞吐量在大规模下又提升了50%。\n\n## 为什么GPU在挨饿？\n\n训练多模态模型和纯文本不一样。在数据送到GPU之前，图像要先加载、缩放、归一化，音频要先裁剪，这些全是CPU密集的活儿。而训练集群里CPU通常比GPU多得多——挨饿的偏偏是GPU。\n\n演讲者给出一个关键指标：等待时间占比，即准备和传输数据的时间，除以整个流水线的总时间。最朴素的基线里，每个批次训练只要15到20秒，取数据却要超过100秒，GPU利用率只有15% [05:54 Unknown]。剖析火焰图显示，大部分时间花在从对象存储拉取图像上。\n\n## 第一步：并发处理图像\n\n基线的问题在于串行：256个样本一张一张下载、一张一张处理。样本之间彼此独立，天然适合并行。做法是用异步编程拉取图像，用Ray Actors做并行处理——后者本质上就是多进程，只是自带跨进程通信的接口，不用自己造轮子 [08:21 Unknown]。\n\n演讲者提醒，选并发方式要匹配瓶颈：异步适合网络请求这类输入输出工作；线程适合会释放全局解释器锁的CPU操作，比如分词器和图像处理；进程最重但隔离最彻底。\n\n> 【背景】原文此处提及的图像处理，在 Python 生态中常用 Pillow 库实现。\n\n**这一步之后，每批取数据的时间降到约40秒，提速25%**。但GPU和取数据之间仍会出现大片空隙。\n\n## 第二步：预取，让数据跑在训练前面\n\n与其等训练器来要数据再开工，不如开一个后台线程，提前把队列填满。生产者始终跑在消费者前面，训练器要数据时随手可取，**数据加载和处理的时间几乎归零** [10:17 Unknown]。\n\n预取有两个代价：检查点和断点恢复的流程会变复杂；还会有冷启动期，得先等队列填起来。但只要处理好这些细节，收益非常可观。\n\n## 第三步：别让数据在进程间反复搬运\n\n==前两步做完，新的问题浮出水面==：传输开销不降反升。每个样本的图像数组要在进程边界间被序列化、复制好几次——先打包传到协调器，再打包传给训练器。多模态张量很大，每个样本好几兆，数据生成器动不动就内存溢出 [11:03 Unknown]。\n\n解法是用Ray提供的对象存储：每个样本只传一个引用（本质上是指针），张量不再来回往返主节点，各个训练进程按需直接去存储取数据。等待时间占比降到20%。\n\n## 规模一变，答案全变\n\n把这条管道放大到生产规模——并行路数乘4、200个数据流、批次大小乘4——等待占比反而回升了。原因：数据生成和工人池被调度在同一批节点上，网卡成了瓶颈 [13:06 Unknown]。\n\n他们调了两个参数：零拷贝读取，以及把工人分散到多台机器的调度策略。有意思的是，这两个开关在小规模实验里都没用，合在一起、且在大规模下才有协同效应，仅此就带来50%的额外吞吐量 [15:26 Unknown]。演讲者的教训是：同一组配置，小规模下平平无奇，大规模下可能是胜负手，要在不同的规模阶梯上做消融实验。\n\n## 本集带走\n\n- 先搞清你是卡在CPU还是GPU、卡在输入输出还是计算，再动手优化。\n- 解决一个瓶颈往往会暴露下一个：吞吐量之后是等待时间，然后是内存，然后是传输开销 [15:53 Unknown]。\n- 并发加预取是经典套路，但所用框架的默认行为（比如把工人挤在同一台机器上）同样关键。\n- 规模会改变答案，调参效果要在不同规模下验证。\n- 给基线做性能剖析，是所有优化的起点。",
+  "quotes": [
+    {
+      "en": "And I think we're going to learn that we're going to see in this experiment that the hardest part of optimizing multimodal throughput is not necessarily kernel optimization. It is making sure that the GPUs are constantly fed with data.",
+      "zh": "我认为我们会在这个实验中发现，优化多模态吞吐量最难的部分不一定是内核优化，而是确保 GPU 不断地有数据喂入。",
+      "timestamp": "00:54",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And then it's also true that usually your training clusters have a lot more CPUs than GPUs at hand, yet the GPU is what is starving in this pipeline.",
+      "zh": "而且通常你的训练集群拥有比 GPU 多得多的 CPU，然而在这条流水线中挨饿的却是 GPU。",
+      "timestamp": "02:32",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "So our baseline spends 85% of its time backed on data acquisition, whereas after we do these optimizations, it's less than 10%.",
+      "zh": "所以我们的基线把 85% 的时间花在了被数据获取阻塞上，而在我们做了这些优化之后，这个比例低于 10%。",
+      "timestamp": "03:13",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And so for the scope of this talk, GPUs are not the goal. It's making sure that the data is never the bottleneck is the goal.",
+      "zh": "因此就本次演讲的范围而言，GPU 不是目标，目标是确保数据永远不是瓶颈。",
+      "timestamp": "03:26",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Neither of these actually helped in a small scale experiment, but together they had a synergistic effect in a large scale experiment.",
+      "zh": "在小规模实验中，这两个参数单独都没有起到帮助，但在大规模实验中，它们合在一起产生了协同效应。",
+      "timestamp": "14:38",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Yeah, so a config can do poorly at a small scale, but can do really good at a larger scale. So you should always think about how to ablate across your scaling ladders.",
+      "zh": "一个配置在小规模下可能表现很差，但在更大规模下可能表现得非常好。所以你应该始终思考如何在你的扩展阶梯上进行消融实验。",
+      "timestamp": "14:48",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "Overall, we achieved a 50% additional throughput at scale just from these two flags.",
+      "zh": "总体而言，仅凭这两个开关参数，我们在大规模下额外获得了 50% 的吞吐量。",
+      "timestamp": "15:26",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "It's the same knob opposite verdict set by the bottleneck.",
+      "zh": "还是同一个旋钮，只是瓶颈变了，结论相反。",
+      "timestamp": "15:31",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "GPUs are expensive, but sometimes the biggest battles happen outside of the GPU.",
+      "zh": "GPU 很昂贵，但有时最艰苦的战斗发生在 GPU 之外。",
+      "timestamp": "15:42",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And then solving one bottleneck often exposes another. So first it was throughput for us, then it became wait time, then it became memory, then it became retrieval costs.",
+      "zh": "解决一个瓶颈往往会暴露另一个瓶颈。对我们来说，先是吞吐量，然后变成了等待时间，然后变成了内存，然后变成了检索成本。",
+      "timestamp": "15:53",
+      "speaker": "SPEAKER_00"
+    },
+    {
+      "en": "And scale always changes the answer.",
+      "zh": "而规模总是会改变答案。",
+      "timestamp": "16:18",
+      "speaker": "SPEAKER_00"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:54",
+      "speaker": "Unknown",
+      "en": "And I think we're going to learn that we're going to see in this experiment that the hardest part of optimizing multimodal throughput is not necessarily kernel optimization. It is making sure that the GPUs are constantly fed with data.",
+      "zh": "我认为我们会在这个实验中发现，优化多模态吞吐量最难的部分不一定是内核优化，而是确保 GPU 不断地有数据喂入。"
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Unknown",
+      "en": "And then it's also true that usually your training clusters have a lot more CPUs than GPUs at hand, yet the GPU is what is starving in this pipeline.",
+      "zh": "而且通常你的训练集群拥有比 GPU 多得多的 CPU，然而在这条流水线中挨饿的却是 GPU。"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Unknown",
+      "en": "So our baseline spends 85% of its time backed on data acquisition, whereas after we do these optimizations, it's less than 10%.",
+      "zh": "所以我们的基线把 85% 的时间花在了被数据获取阻塞上，而在我们做了这些优化之后，这个比例低于 10%。"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Unknown",
+      "en": "And so for the scope of this talk, GPUs are not the goal. It's making sure that the data is never the bottleneck is the goal.",
+      "zh": "因此就本次演讲的范围而言，GPU 不是目标，目标是确保数据永远不是瓶颈。"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Unknown",
+      "en": "And then we can see that our train time is somewhere between 15 to 20 seconds. However, the time spent to actually fetch the data is more than 100 seconds.",
+      "zh": "我们可以看到训练时间在 15 到 20 秒之间，然而实际获取数据所花的时间超过了 100 秒。"
+    },
+    {
+      "timestamp": "08:30",
+      "speaker": "Unknown",
+      "en": "So yeah, your process is only as slow as your slowest link.",
+      "zh": "所以，你的流程只会和最慢的一环一样慢。"
+    },
+    {
+      "timestamp": "09:31",
+      "speaker": "Unknown",
+      "en": "Your producer is producing examples at a multiplier of your consumer, and so the trainer is never bottlenecked on actually requesting the data. When it requests data, it is available on demand.",
+      "zh": "你的生产者以消费者的某个倍数速率生产样本，所以训练器永远不会被「实际请求数据」卡住瓶颈——当它请求数据时，数据是随取随用的。"
+    },
+    {
+      "timestamp": "09:43",
+      "speaker": "Unknown",
+      "en": "There's a caveat to prefetching. It makes your model and data loader checkpointing and resumption a little intricate of a process, and it can also suffer from a cold start period in which your queue is actually getting filled up so it can be ready for training.",
+      "zh": "预取有一个注意事项：它会让你的模型和数据加载器的检查点保存与恢复变成一个有点繁琐的过程，而且它还可能有一段冷启动期，即你的队列正在被填满、以便为训练做好准备的时期。"
+    },
+    {
+      "timestamp": "10:08",
+      "speaker": "Unknown",
+      "en": "Yeah, so I think making sure your producer is always ahead of your consumer will pay great dividends for you here.",
+      "zh": "是的，我认为确保你的生产者始终领先于你的消费者，会在这里给你带来丰厚的回报。"
+    },
+    {
+      "timestamp": "10:57",
+      "speaker": "Unknown",
+      "en": "Per sample, per step, we have a mem copy that nobody really asked for.",
+      "zh": "每个样本、每一步，都有一次没人真正要求的内存拷贝。"
+    },
+    {
+      "timestamp": "11:09",
+      "speaker": "Unknown",
+      "en": "And so multimodal tensors are huge. They're megabytes per sample. And so by default, every sample is returned by value, which means that these expensive arrays are copied over from process to process.",
+      "zh": "多模态张量非常庞大，每个样本有好几兆字节。默认情况下，每个样本都是按值返回的，这意味着这些昂贵的数组会在进程之间被复制来复制去。"
+    },
+    {
+      "timestamp": "11:38",
+      "speaker": "Unknown",
+      "en": "The tensor never round trips to the head node.",
+      "zh": "张量永远不会往返到头节点。"
+    },
+    {
+      "timestamp": "11:50",
+      "speaker": "Unknown",
+      "en": "So with every choice of your parallelism and concurrency solution, you always have to think about the added communication costs.",
+      "zh": "所以每当你选择并行化和并发方案时，你都必须考虑额外的通信成本。"
+    },
+    {
+      "timestamp": "13:00",
+      "speaker": "Unknown",
+      "en": "While doing that, we observed that our wait time ratio for the same pipeline went up when all we did was scale some numbers.",
+      "zh": "在这样做的时候，我们观察到同一条流水线的等待时间占比上升了，而我们所做的只是扩大了一些数字。"
+    },
+    {
+      "timestamp": "14:38",
+      "speaker": "Unknown",
+      "en": "Neither of these actually helped in a small scale experiment, but together they had a synergistic effect in a large scale experiment.",
+      "zh": "在小规模实验中，这两个参数单独都没有起到帮助，但在大规模实验中，它们合在一起产生了协同效应。"
+    },
+    {
+      "timestamp": "14:48",
+      "speaker": "Unknown",
+      "en": "Yeah, so a config can do poorly at a small scale, but can do really good at a larger scale. So you should always think about how to ablate across your scaling ladders.",
+      "zh": "一个配置在小规模下可能表现很差，但在更大规模下可能表现得非常好。所以你应该始终思考如何在你的扩展阶梯上进行消融实验。"
+    },
+    {
+      "timestamp": "15:26",
+      "speaker": "Unknown",
+      "en": "Overall, we achieved a 50% additional throughput at scale just from these two flags.",
+      "zh": "总体而言，仅凭这两个开关参数，我们在大规模下额外获得了 50% 的吞吐量。"
+    },
+    {
+      "timestamp": "15:31",
+      "speaker": "Unknown",
+      "en": "It's the same knob opposite verdict set by the bottleneck.",
+      "zh": "还是同一个旋钮，只是瓶颈变了，结论相反。"
+    },
+    {
+      "timestamp": "15:42",
+      "speaker": "Unknown",
+      "en": "GPUs are expensive, but sometimes the biggest battles happen outside of the GPU.",
+      "zh": "GPU 很昂贵，但有时最艰苦的战斗发生在 GPU 之外。"
+    },
+    {
+      "timestamp": "15:53",
+      "speaker": "Unknown",
+      "en": "And then solving one bottleneck often exposes another. So first it was throughput for us, then it became wait time, then it became memory, then it became retrieval costs.",
+      "zh": "解决一个瓶颈往往会暴露另一个瓶颈。对我们来说，先是吞吐量，然后变成了等待时间，然后变成了内存，然后变成了检索成本。"
+    },
+    {
+      "timestamp": "16:18",
+      "speaker": "Unknown",
+      "en": "And scale always changes the answer.",
+      "zh": "而规模总是会改变答案。"
+    }
+  ],
+  "voice_script": "今天要讲的，是一位工程师拆解多模态模型训练流水线的故事。这场分享的核心问题很实在：GPU特别贵，人人都想让显卡满负荷运转，可实际上很多训练任务里，GPU大部分时间都在闲着。一场关于多模态训练的演讲给出了一个反直觉的结论，最拖后腿的往往不是GPU本身，也不是模型优化，而是喂数据的管道。演讲者一步步修好这条管道，把GPU利用率从15%拉到了90%,大规模下吞吐量还额外提升了50%。下面咱们顺着这条修复之路，一步步看过来。\n\n先说说背景。训练多模态模型和纯文本不一样。纯文本训练，数据整理起来相对轻；但多模态不一样，图像要先加载、缩放、归一化，音频要先裁剪，这些全是CPU密集的活儿。也就是说，在数据送到GPU之前，有一大堆准备工作得先做。更讽刺的是，训练集群里CPU通常比GPU多得多，可挨饿的偏偏是GPU。有句话值得记住：通常你的训练集群拥有比GPU多得多的CPU,然而在这条流水线中挨饿的却是GPU。\n\n那怎么判断问题出在哪？这里得先交代一个关键指标：等待时间占比。说白了，就是准备和传输数据的时间，除以整个流水线的总时间。在最朴素的基线里，这个数字很难看，每个批次的训练只要15到20秒，可取数据却要超过100秒，GPU利用率只有15%。做性能剖析的火焰图显示，大部分时间花在了从对象存储拉取图像上。基线把85%的时间花在了被数据获取阻塞上。 diagnosis清楚了，开始动手。\n\n第一步，是并发处理图像。基线的问题在于串行：256个样本一张一张下载、一张一张处理。可样本之间彼此独立，天然适合并行。做法是用异步编程去拉图像，再用Ray Actors做并行处理，这东西本质上就是多进程，只是自带跨进程通信的接口，不用自己造轮子。这里演讲者提醒了一个容易被忽略的点：选并发方式要匹配瓶颈。异步适合网络请求这类输入输出工作；线程适合会释放全局解释器锁的CPU操作，比如分词器和图像处理；进程最重，但隔离最彻底。这一步做完，每批取数据的时间降到约40秒，提速了25%。\n\n但25%还不够，GPU和取数据之间仍会出现大片空隙。这就引出第二步：预取。思路是，与其等训练器来要数据再开工，不如开一个后台线程，提前把队列填满。生产者始终跑在消费者前面，训练器要数据的时候随手可取，数据加载和处理的时间几乎归零。当然预取有两个代价：一是检查点和断点恢复的流程会变复杂，二是有个冷启动期，得先等队列填起来。但只要处理好这些细节，收益非常可观。\n\n可前两步做完，新的问题又浮出水面了，而且有点意外，传输开销不降反升。原因在数据的搬运方式上：每个样本的图像数组，要在进程边界之间被序列化、复制好几次，先打包传到协调器，再打包传给训练器。多模态张量很大，每个样本好几兆，这么来回倒腾，数据生成器动不动就内存溢出。解法是用Ray提供的对象存储：每个样本只传一个引用，本质上就是个指针，张量不再来回往返主节点，各个训练进程按需直接去存储里取数据。这一招下来，等待时间占比降到了20%。\n\n讲到这儿你可能觉得差不多了，但规模一变，答案全变。把这条管道放大到生产规模，并行路数乘4、200个数据流、批次大小乘4,等待占比反而回升了。原因很隐蔽：数据生成和工人池被调度到了同一批节点上，网卡成了瓶颈。他们调了两个参数：一是零拷贝读取，二是把工人分散到多台机器的调度策略。有意思的是，这两个开关在小规模实验里单独都没起作用，但在大规模下合在一起产生了协同效应，仅此就带来50%的额外吞吐量。演讲者从这件事里得到的教训是：同一组配置，小规模下平平无奇，大规模下可能是胜负手，一个配置在小规模下可能表现很差，但在更大规模下可能表现得非常好，所以要始终思考如何在你的扩展阶梯上做消融实验。\n\n回头看这一路：先搞清你是卡在CPU还是GPU、卡在输入输出还是计算，再动手优化。解决一个瓶颈往往会暴露下一个，吞吐量之后是等待时间，然后是内存，然后是传输开销。并发加预取是经典套路，但框架的默认行为，比如把工人挤在同一台机器上，同样关键。而在演讲者看来，GPU本身不是目标，目标是确保数据永远不是瓶颈。就这次实验而言，优化多模态吞吐量最难的部分，不一定是内核优化，而是确保GPU不断地有数据喂入。"
+}

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]]
+[[Jad Naous]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Clay":8,"GTM 工程":1,"智能体":1,"编排":8,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":1,"Salesforce":36}</script>
+<script type="application/json" class="pd-epn">{"Clay":8,"GTM 工程":1,"智能体":1,"编排":9,"数据层":1,"瀑布式查询":1,"CRM":6,"评估":1,"Salesforce":36}</script>
 
 <script>
 (function(){
