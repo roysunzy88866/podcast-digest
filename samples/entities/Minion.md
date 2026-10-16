@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Minion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Minion">MI</div><div class="pi"><h1 class="pt">Minion</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Minion">MI</div><div class="pi"><h1 class="pt">Minion</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-21-talks-building-blocks-for-uber-s-software-fact|《Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写》]]**(13:22起):Uber 的云端编码智能体，由 DevPod 驱动，有完整构建环境、能跨仓库同时改前后端；会停在 draft PR 阶段不推 CI，以便先在内循环完成验证。
+- **[[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside|《造好地基再上AI：Uber工程师的内部工具全景》]]**(00:28起):Uber 的后台编码智能体，目前约 15% 的生产 PR 由它完成，可从 Slack 或网页 @ 它读取上下文并跨仓库生成 PR
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside#^q4]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-21-talks-building-blocks-for-uber-s-software-fact|《Uber 的智能体软件工厂:70% 的 PR 已经由 AI 写》]] — 作为概念
+- [[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside|《造好地基再上AI：Uber工程师的内部工具全景》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Uday Kiran Medisetty]] · [[Uber]] · [[智能体]] · [[模型网关]] · [[MCP 网关]] · [[上下文图]] · [[技能]] · [[DevPod]] · [[Cortana]] · [[CI-CD]]
+[[Uber]] · [[智能体]] · [[模型网关]] · [[MCP 网关]] · [[上下文图]] · [[DevPod]] · [[Uday Kiran Medisetty]] · [[Udaykira Mendicetti]] · [[技能]] · [[AIFX]]
 
-<script type="application/json" class="pd-epn">{"Uday Kiran Medisetty":1,"Uber":19,"智能体":1,"模型网关":1,"MCP 网关":2,"上下文图":4,"技能":35,"DevPod":1,"Cortana":1,"CI-CD":17}</script>
+<script type="application/json" class="pd-epn">{"Uber":20,"智能体":1,"模型网关":2,"MCP 网关":2,"上下文图":5,"DevPod":2,"Uday Kiran Medisetty":1,"Udaykira Mendicetti":1,"技能":35,"AIFX":1}</script>
 
 <script>
 (function(){

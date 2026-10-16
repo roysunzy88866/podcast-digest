@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":4,"Lassie":1,"智能体":1,"人在回路":24,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":51}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":3,"Frederick Rankin":1,"Alex Rampell":4,"Lassie":1,"智能体":1,"人在回路":24,"现有巨头":2,"Robinhood":4,"Superhuman":5,"Stripe":52}</script>
 
 <script>
 (function(){

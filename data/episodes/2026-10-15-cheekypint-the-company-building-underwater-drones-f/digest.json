@@ -1,0 +1,215 @@
+{
+  "title_zh": "一台 5 万美元的水下机器人，想把海洋变成下一个前沿",
+  "tldr": "Ulysses 联合创始人 Will O'Brien 讲述如何从种海草做到给美国海军找水雷，以及为什么海洋是最后的前沿。",
+  "digest_md": "Will O'Brien 是水下机器人公司 Ulysses 的联合创始人兼总裁。他在爱尔兰海边长大，家里几代人都是做生意的，第一个创业项目是英国和爱尔兰最早的共享滑板车公司。这期播客里，他和投资人边喝边聊，从健力士的创新史聊到海洋经济——不过最值得读的，还是他怎么用 5 万美元的水下机器人，去挑战一个每天烧几十万美元的行业。\n\n## 为什么是海草？这个最被低估的海洋植物\n\n公司的起点有点意外。一位联合创始人冲浪时遇到一位海洋生物学家，她的工作是水下拍照、采种子、收集水样——全是纯手工活。这位创始人之前做过送餐无人机，心想水下为什么不能有同样的东西。\n\n他们选的第一项任务是海草修复。O'Brien 说海草是海洋里最被低估的物种：珊瑚像那个好看的朋友，拿走了所有注意力和资金，但海草只覆盖 2% 的海底，却储存了海洋 20% 的碳；约 20% 的重要经济鱼类依赖海草作为栖息地 [11:15 Unknown]。\n\n问题是，**我们失去生态系统的速度比修复它的速度快 100 到 1000 倍**。到 2040 年代，许多关键鱼类种群可能彻底崩溃，而几十亿人靠海洋获取蛋白质或收入。\n\n## 一套母舰加潜艇的组合\n\n干海草修复，先得弄清整套流程：测绘海底，建模找出适合修复的区域，找到开花结种的海草，采集种子，再运到需要的地方播下去。\n\n做这件事的过程中，他们意识到海洋里到处是同样形状的问题——都需要有人下水干活，都贵得离谱。于是公司转向了平台化。\n\n他们的系统是两部分：一台叫 Leviathan 的自主水面艇，航程 2000 海里，负责长途奔袭，就像送孩子上学的校车；到了地方放下叫 Mako 的水下机器人，它自己去扫描海床或机械作业，完事再回收 [10:03 Unknown]。水面艇通过 Starlink 连网，还能给水下机器人无线充电、做远程诊断。\n\nMako 的设计像乐高积木：想要更多续航就加电池包，想快就加推进模块，要三维成像就配立体相机，要测深图就装声呐。正因为早期这些架构决定，后来美国海军和海上能源公司找上门时，改改配置就能接活。\n\n## 水下最难的不是压力，是通信\n\n海水腐蚀和水压都可以想办法对付——涂层、阳极氧化，他们的机器人经过 2200 米的压碎测试，通常在 1500 米以内作业，而今天大部分海洋经济活动都发生在这个深度 [28:29 Unknown]。\n\n真正的难题是水下通信。声学通信的带宽极低，5 公里大约只有每秒 10 千字节——主持人形容得准确，像拨号上网。**所以机器人必须在本地完成感知和决策**。Mako 搭载的机载计算能力是其他自主水下机器人的约 100 倍，跑着一整块 NVIDIA 5090 加 Intel 处理器 [30:06 Unknown]。\n\n现在的自主行为还比较基础：画一个多边形区域，它自动生成割草机式的测线，看到石头就绕过去。但一切都是本地完成的。\n\n## 5 万美元对 500 万美元\n\n传统海上作业的账是这样的：一艘大船每天租金几十万美元，船上带着缆控水下机器人，操作员看着屏幕轮班干活。因为劳动法限制每天工作 8 小时，要 24 小时作业就得配 3 班人，加上船长、大副、厨子，超过 8 人离港还得配医生——人力成本层层叠加 [44:26 Unknown]。\n\nUlysses 的打法是把这些全干掉。卖给海军的入门版水下机器人最低 5 万美元，而美国海军今天最常买的自主水下航行器大约 500 万美元一台——差两个数量级 [39:09 Unknown]。加上高级传感和导航后会贵一些，但依然便宜一个数量级。水面艇的价格在 50 万到 100 万美元之间。对能源公司这类客户，他们主要卖服务而非卖硬件。\n\n客户确实难伺候：能源方要走完健康安全审查和主服务协议，政府方要过合同渠道和安全审查。但 O'Brien 认为这恰恰适合拿风险投资的公司——研发投入等得起，而一旦签下合同，客户极其粘人，不会为了换供应商再等两年。**公司现在的问题不是卖不动，而是在拒绝订单、忙着建厂** [25:44 Unknown]。他们打算明年在自有工厂造几百台，也许上千台。\n\n## 从海草到找水雷、给风电场剪渔网\n\n第二年，公司拿到了第一份美国海军合同，做的是反水雷——在红海危机爆发之前就开始了。还有一份来自海上风电开发商：加州想建漂浮式海上风电，但水下电缆会缠上废弃渔网，渔网又会缠住海豚和鲸鱼，这成了项目最大的阻力之一。Ulysses 在造一套系统，每天巡检这些电缆，检查结构完好情况，发现缠上的渔线就直接剪掉 [32:06 Unknown]。\n\n更大的图景是海底电缆安全。全球大约 200 条海底电缆承载着洲际通信，从美国到欧洲的电缆几乎都要经过爱尔兰以西海域。这些电缆大多只在被船锚意外刮断时才有人管，但针对性的破坏并不难，被监听也不难。O'Brien 说，所有关键水道都应该 24 小时不间断监控，只是人工巡逻根本付不起这个钱 [47:09 Unknown]。\n\n## 造几百万台水下无人机\n\n这是 O'Brien 的核心论点，也是一个类比：SpaceX 把发射成本打下来之后，才有了 Starlink 这类全新的生意；美国西部先有皮毛贸易式的单点探索，再有铁路，才有了加利福尼亚的开发。海洋也一样——**只要让机器人在海上长期驻扎干活足够便宜，海洋经济就能从 3 万亿美元变成 10 万亿美元以上** [45:54 Unknown]。\n\n要便宜就得自造。第一代车 80% 用现成零件，现在到第五代，声呐、惯导系统都在往自研转。原因很现实：全球每年造约 2000 万台空中无人机，水下无人机只有一两千台 [24:51 Unknown]。有个供应商的零件一年只产 100 到 200 个，根本撑不起他的产量目标。所以要尽量搭电动汽车和消费电子的供应链——那些以百万为单位的供应链。四位联合创始人里，有一位几乎只管制造。\n\n> 【背景】播客开头花了不少篇幅聊 Guinness（健力士）这家公司：它在 1890 年代就建了内部研发团队，统计学里著名的学生 t 检验就出自它的研究员 William Sealy Gossett；80 年代的Acorns 项目发明了罐装健力士里的 Widget 气囊装置，曾被评为 20 世纪百大发明之一，排名在互联网之前。\n\n## 本集带走\n\n- 海草只覆盖 2% 的海底，却储存了海洋 20% 的碳，但生态修复的速度远跟不上破坏速度，机器人能填补这个缺口。\n- Ulysses 的架构是自主水面艇 Leviathan 加模块化水下机器人 Mako，靠本地大算力解决水下通信带宽极低的难题。\n- 入门版水下机器人最低 5 万美元，而美国海军现役同类设备约 500 万美元，差两个数量级。\n- 公司真正的瓶颈是产能：正在拒绝合同、自建供应链和工厂，目标是把水下无人机的产量从每年一两千台做到百万级。\n- 长期愿景是复制 SpaceX 逻辑——把海上作业成本降到足够低，把海洋经济从 3 万亿美元做到 10 万亿美元以上，并让关键水道和海底电缆实现 24 小时监控。",
+  "quotes": [
+    {
+      "en": "The state of underwater vehicles before we started building Mako were primarily to gather data and not to do robotics.",
+      "zh": "在我们开始造 Mako 之前，水下载具主要是用来收集数据，而不是做机器人作业。",
+      "timestamp": "10:22",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "It covers 2% of the seafloor but holds 20% of the ocean's carbon.",
+      "zh": "它覆盖海床的 2%，却持有海洋 20% 的碳。",
+      "timestamp": "12:15",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "We've mapped more of the surface of Mars than we have our the depths of our ocean",
+      "zh": "我们对火星表面的测绘比对海洋深处的测绘还要多。",
+      "timestamp": "16:02",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "Less than maybe 100 people are thinking about this and working this on a daily basis.",
+      "zh": "可能不到 100 个人在思考这个问题、每天从事这项工作。",
+      "timestamp": "16:25",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "And so we're going to, and for those components that seem like the supply chain might be dicey, we will literally make them from scratch so that we control everything, the entire vertical stack of our device.",
+      "zh": "而对于那些供应链看起来不太可靠的部件，我们会真的从零开始制造它们，这样我们就能掌控一切，掌控我们设备整个垂直堆栈。",
+      "timestamp": "21:58",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "There's maybe 1,000 to 2,000 underwater drones. For us to really fully manifest our vision, we need to build millions of underwater drones.",
+      "zh": "水下无人机大概只有 1000 到 2000 台。对我们来说，要真正完整实现我们的愿景，我们需要制造数百万台水下无人机。",
+      "timestamp": "24:51",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "We are saying no to contracts. We have more demand than we can supply.",
+      "zh": "我们在拒绝合同。我们的需求超过了我们的供给能力。",
+      "timestamp": "25:40",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "Another thing is we have around 100 times more onboard compute than any other autonomous underwater vehicle.",
+      "zh": "另一件事是，我们的机载算力大约是任何其他自主水下航行器的 100 倍。",
+      "timestamp": "29:59",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "But if you're working with a navy, we can sell them for as cheap as $50,000. For contrast, the most common autonomous underwater vehicle that the US Navy is buying today is somewhere on the order of maybe $5 million.",
+      "zh": "但如果你是和海军合作，我们可以以低至 5 万美元的价格卖给他们。相比之下，美国海军目前购买的最常见的自主水下航行器，价格大约在 500 万美元左右。",
+      "timestamp": "39:05",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "I think they're actually the shape of business that venture companies are actually very well suited to go after. We can afford to invest the money in the R&D and wait because once you win those contracts, you're very sticky actually.",
+      "zh": "我认为它们实际上是风投公司非常适合去追求的那类业务形态。我们有能力投入资金做研发并等待，因为一旦你赢得那些合同，你实际上是非常稳固的。",
+      "timestamp": "40:54",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "There is a future where Ulysses is the largest navy in the world.",
+      "zh": "存在这样一种未来：Ulysses 成为世界上最大的海军。",
+      "timestamp": "42:34",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "Any numbnuts can put C4 on a vehicle and make it go boom. The very difficult, interesting technical question is, how do you build a general purpose underwater robotic platform?",
+      "zh": "任何笨蛋都能把 C4 放到一艘航行器上让它爆炸。非常困难、有趣的技术问题是，你如何建造一个通用的水下机器人平台？",
+      "timestamp": "45:42",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "That's the thing that turns it from a $3 trillion economy into a $10 trillion plus place for commerce.",
+      "zh": "这就是把一个 3 万亿美元的经济体变成一个 10 万亿美元以上的商业场所的东西。",
+      "timestamp": "45:54",
+      "speaker": "Will O'Brien"
+    },
+    {
+      "en": "Yeah, so we have about 200 undersea cables today, and they typically only get taken out by anchor-draggings accidental for the most part, some of them not.",
+      "zh": "是的，我们今天大约有 200 条海底电缆，它们通常只因为拖锚事故而被弄断，绝大多数是意外，有些不是。",
+      "timestamp": "48:44",
+      "speaker": "Will O'Brien"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "10:22",
+      "speaker": "说话人",
+      "en": "The state of underwater vehicles before we started building Mako were primarily to gather data and not to do robotics.",
+      "zh": "在我们开始造 Mako 之前，水下载具主要是用来收集数据，而不是做机器人作业。"
+    },
+    {
+      "timestamp": "11:52",
+      "speaker": "说话人",
+      "en": "Yeah, seagrass is your rapper's favorite rapper or something like that. It's the most slept on plant, I think, out there.",
+      "zh": "是的，海草是你最喜欢的说唱歌手最喜欢的说唱歌手之类的。我觉得它是全世界最被忽视的植物。"
+    },
+    {
+      "timestamp": "12:15",
+      "speaker": "说话人",
+      "en": "It covers 2% of the seafloor but holds 20% of the ocean's carbon.",
+      "zh": "它覆盖海床的 2%，却持有海洋 20% 的碳。"
+    },
+    {
+      "timestamp": "16:02",
+      "speaker": "说话人",
+      "en": "We've mapped more of the surface of Mars than we have our the depths of our ocean",
+      "zh": "我们对火星表面的测绘比对海洋深处的测绘还要多。"
+    },
+    {
+      "timestamp": "16:25",
+      "speaker": "说话人",
+      "en": "Less than maybe 100 people are thinking about this and working this on a daily basis.",
+      "zh": "可能不到 100 个人在思考这个问题、每天从事这项工作。"
+    },
+    {
+      "timestamp": "17:10",
+      "speaker": "说话人",
+      "en": "I think there is this very generalizable framework for how frontiers get developed.",
+      "zh": "我认为关于前沿如何被开发，存在一个非常可推广的框架。"
+    },
+    {
+      "timestamp": "17:41",
+      "speaker": "说话人",
+      "en": "And in space, it's defense reasons. You put satellites up there to watch the Russians.",
+      "zh": "而在太空，是出于国防原因。你把卫星送上去监视俄国人。"
+    },
+    {
+      "timestamp": "18:30",
+      "speaker": "说话人",
+      "en": "Unfortunately, I think this is one of the saddest things about the environmental movement, is this concept of green tape, red tape and green tape.",
+      "zh": "不幸的是，我认为这是环保运动中最令人难过的事情之一，就是「绿色胶带」这个概念，红胶带和绿胶带。"
+    },
+    {
+      "timestamp": "21:58",
+      "speaker": "说话人",
+      "en": "And so we're going to, and for those components that seem like the supply chain might be dicey, we will literally make them from scratch so that we control everything, the entire vertical stack of our device.",
+      "zh": "而对于那些供应链看起来不太可靠的部件，我们会真的从零开始制造它们，这样我们就能掌控一切，掌控我们设备整个垂直堆栈。"
+    },
+    {
+      "timestamp": "22:10",
+      "speaker": "说话人",
+      "en": "That would get you shown to the parking lot.",
+      "zh": "那样的话，你会被直接带到停车场（赶出去）。"
+    },
+    {
+      "timestamp": "24:51",
+      "speaker": "说话人",
+      "en": "There's maybe 1,000 to 2,000 underwater drones. For us to really fully manifest our vision, we need to build millions of underwater drones.",
+      "zh": "水下无人机大概只有 1000 到 2000 台。对我们来说，要真正完整实现我们的愿景，我们需要制造数百万台水下无人机。"
+    },
+    {
+      "timestamp": "25:40",
+      "speaker": "说话人",
+      "en": "We are saying no to contracts. We have more demand than we can supply.",
+      "zh": "我们在拒绝合同。我们的需求超过了我们的供给能力。"
+    },
+    {
+      "timestamp": "29:56",
+      "speaker": "说话人",
+      "en": "Another thing is we have around 100 times more onboard compute than any other autonomous underwater vehicle.",
+      "zh": "另一件事是，我们的机载算力大约是任何其他自主水下航行器的 100 倍。"
+    },
+    {
+      "timestamp": "30:06",
+      "speaker": "说话人",
+      "en": "We run a full NVIDIA 5090 onboard with an Intel CPU.",
+      "zh": "我们在机载运行一整块 NVIDIA 5090，搭配 Intel CPU。"
+    },
+    {
+      "timestamp": "39:05",
+      "speaker": "说话人",
+      "en": "But if you're working with a navy, we can sell them for as cheap as $50,000. For contrast, the most common autonomous underwater vehicle that the US Navy is buying today is somewhere on the order of maybe $5 million.",
+      "zh": "但如果你是和海军合作，我们可以以低至 5 万美元的价格卖给他们。相比之下，美国海军目前购买的最常见的自主水下航行器，价格大约在 500 万美元左右。"
+    },
+    {
+      "timestamp": "40:54",
+      "speaker": "说话人",
+      "en": "I think they're actually the shape of business that venture companies are actually very well suited to go after. We can afford to invest the money in the R&D and wait because once you win those contracts, you're very sticky actually.",
+      "zh": "我认为它们实际上是风投公司非常适合去追求的那类业务形态。我们有能力投入资金做研发并等待，因为一旦你赢得那些合同，你实际上是非常稳固的。"
+    },
+    {
+      "timestamp": "42:34",
+      "speaker": "说话人",
+      "en": "There is a future where Ulysses is the largest navy in the world.",
+      "zh": "存在这样一种未来：Ulysses 成为世界上最大的海军。"
+    },
+    {
+      "timestamp": "45:42",
+      "speaker": "说话人",
+      "en": "Any numbnuts can put C4 on a vehicle and make it go boom. The very difficult, interesting technical question is, how do you build a general purpose underwater robotic platform?",
+      "zh": "任何笨蛋都能把 C4 放到一艘航行器上让它爆炸。非常困难、有趣的技术问题是，你如何建造一个通用的水下机器人平台？"
+    },
+    {
+      "timestamp": "45:54",
+      "speaker": "说话人",
+      "en": "That's the thing that turns it from a $3 trillion economy into a $10 trillion plus place for commerce.",
+      "zh": "这就是把一个 3 万亿美元的经济体变成一个 10 万亿美元以上的商业场所的东西。"
+    },
+    {
+      "timestamp": "48:44",
+      "speaker": "说话人",
+      "en": "Yeah, so we have about 200 undersea cables today, and they typically only get taken out by anchor-draggings accidental for the most part, some of them not.",
+      "zh": "是的，我们今天大约有 200 条海底电缆，它们通常只因为拖锚事故而被弄断，绝大多数是意外，有些不是。"
+    }
+  ],
+  "voice_script": "今天这期，聊一家你可能没听过的水下机器人公司，叫 Ulysses。它的联合创始人兼总裁叫 Will O'Brien，在爱尔兰海边长大，家里几代人都是做生意的，第一个创业项目是英国和爱尔兰最早的共享滑板车公司。这一期播客里，他是和投资人边喝边聊的，但真正值得听的东西，是他怎么用一台 5 万美元的水下机器人，去挑战一个每天烧几十万美元的传统行业。说白了就是一句话：想把海洋变成下一个前沿。\n\n先说说这家公司是怎么起步的，因为起点有点意外。一位联合创始人冲浪的时候，碰到一位海洋生物学家。这位科学家的日常工作是什么？潜到水下拍照、采种子、收集水样，全是纯手工活。这位创始人之前是做送餐无人机的，心里就冒出一个念头：天上有无人机，水下为什么不能有？\n\n那水下第一件事做什么？他们选了海草修复。这里先垫个背景。O'Brien 说，海草是海洋里最被低估的物种。举个例子你就明白了：珊瑚像那个长得好看的朋友，拿走了所有的注意力和资金；但海草只覆盖 2% 的海底，却储存了海洋 20% 的碳，而且大约 20% 的重要经济鱼类都靠海草当栖息地。问题在于，我们破坏生态系统的速度，比修复它的速度快 100 到 1000 倍。到 2040 年代，很多关键鱼种可能彻底崩溃，而几十亿人还指着海洋获取蛋白质和收入。所以机器人如果能把这个修复的缺口填上，这事就值得干。\n\n不过干着干着，他们发现了一件事，也正是这件事改变了公司的方向。海草修复的流程其实很复杂：先测绘海底，建模找出适合修复的区域，找到开花结种的海草，采集种子，再运到需要的地方播下去。而在这个过程中他们意识到，海洋里到处都是同样形状的问题——都需要有人下水干活，而且全都贵得离谱。于是公司干脆转向平台化，做一套通用的系统。\n\n这套系统分两部分。一艘叫 Leviathan 的自主水面艇，航程 2000 海里，负责长途奔袭，就像送孩子上学的校车；到了地方，放下一台叫 Mako 的水下机器人，它自己去扫描海床或者干机械活，干完了再回收。水面艇通过 Starlink 连网，还能给水下的机器人无线充电、做远程诊断。更有意思的是，Mako 的设计像乐高积木：想要更多续航就加电池包，想跑快就加推进模块，要三维成像就配立体相机，要测深图就装声呐。正因为早期定了这样的架构，后来美国海军和海上能源公司找上门时，改改配置就能接活。\n\n那造水下机器人，最难的是什么？你可能会以为是水压。其实不是。海水的腐蚀和水压都有办法对付——涂层、阳极氧化，他们的机器人做过 2200 米的压碎测试，平时在 1500 米以内作业，而今天大部分海洋经济活动，本来也都发生在这个深度。真正的难题是通信。水下的声学通信带宽极低，5 公里大概只有每秒 10 千字节，节目主持人形容得特别准——像拨号上网。也就是说，机器人没法靠岸上指挥，必须在本地完成感知和决策。所以 Mako 搭载的机载算力，大约是其他自主水下机器人的 100 倍，跑着一整块 NVIDIA 5090 加 Intel 处理器。现在的自主行为还比较基础：画一个多边形区域，它自动生成割草机式的测线，看到石头就绕开。但一切都靠自己本地完成。\n\n好，这就说到最关键的地方了——为什么 5 万美元能撼动一个行业。传统的海上作业账是这样的：一艘大船每天租金几十万美元，船上带着缆控水下机器人，操作员看着屏幕轮班干活。因为劳动法限制每天工作 8 小时，要 24 小时作业就得配 3 班人，再加上船长、大副、厨子，超过 8 个人离港还得配医生。人力成本就这么层层叠上去。Ulysses 的打法，是把这些全干掉。卖给海军的入门版水下机器人最低 5 万美元，而美国海军今天最常买的自主水下航行器，大约 500 万美元一台——差两个数量级。加上高级传感和导航会贵一些，但依然便宜一个数量级。水面艇的价格在 50 万到 100 万美元之间。对能源公司这类客户，他们主要卖服务而不是卖硬件。\n\n客户确实难伺候：能源方要走健康安全审查，政府方要过合同渠道和安全审查。但 O'Brien 觉得，这恰恰适合拿风险投资的公司——研发投入等得起，而一旦签下合同，客户极其粘人，不会为了换供应商再等两年。所以公司现在的问题根本不是卖不动，而是在拒绝订单、忙着建厂，打算明年自己造几百台，也许上千台。\n\n那这些机器人现在都在干什么活？第二年开始，公司拿到了第一份美国海军合同，做反水雷——红海危机爆发之前就开始了。还有一份来自海上风电：加州想建漂浮式海上风电，但水下电缆会缠上废弃渔网，渔网又会缠住海豚和鲸鱼，这成了项目最大的阻力之一。Ulysses 在造一套系统，每天巡检电缆，发现缠上的渔线就直接剪掉。更大的图景是海底电缆安全。全球大约 200 条海底电缆承载着洲际通信，从美国到欧洲的电缆几乎都要经过爱尔兰以西海域。这些电缆大多只在被船锚意外刮断时才有人管，但针对性的破坏并不难，被监听也不难。O'Brien 的看法是，所有关键水道都应该 24 小时不间断监控——只是用人工巡逻，根本付不起这个钱。\n\n最后说回他的核心论点。SpaceX 把发射成本打下来之后，才有了 Starlink 这类全新的生意；美国西部也是先有皮毛贸易式的单点探索，再有铁路，才有了加利福尼亚的开发。海洋同理——只要让机器人在海上长期驻扎干活足够便宜，海洋经济就能从 3 万亿美元变成 10 万亿美元以上。而要做到便宜，就得自己造。他们的第一代产品 80% 用现成零件，现在到第五代，连声呐、惯导系统都在往自研转。原因很现实：全球每年造约 2000 万台空中无人机，水下无人机只有一两千台。有个供应商的零件一年只产 100 到 200 个，根本撑不起产量目标。所以要用尽量搭电动汽车和消费电子的供应链——那些以百万为单位的供应链。四位联合创始人里，有一位几乎只管制造。\n\nO'Brien 有句话说得很实在：要真正完整实现这个愿景，他们需要制造数百万台水下无人机。毕竟，我们对火星表面的测绘，比对海洋深处的测绘还要多。海洋是最后的前沿，而钥匙就是让水下机器人便宜到可以无处不在。"
+}

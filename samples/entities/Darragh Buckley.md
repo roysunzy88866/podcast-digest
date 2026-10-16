@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dara":1,"Stripe":51,"Increase":1,"Increase Bank":1,"Federal Reserve":1,"ACH":2,"API":6,"抽象层":2,"合规":1,"欺诈":3}</script>
+<script type="application/json" class="pd-epn">{"Dara":1,"Stripe":52,"Increase":1,"Increase Bank":1,"Federal Reserve":1,"ACH":2,"API":6,"抽象层":2,"合规":1,"欺诈":3}</script>
 
 <script>
 (function(){

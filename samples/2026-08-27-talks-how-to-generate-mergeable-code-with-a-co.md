@@ -123,7 +123,7 @@ Unblocked 还有一个[[代码评审智能体|代码评审智能体]]。它从�
 
 - [[2026-08-17-devtools-dennis-pilarinos-from-unblocked-context|AI 写代码很快，但它每天都是入职第一天]]<span class="pd-rz">同公司:Unblocked · 同概念:搜索满足感 (satisfaction of search)、智能体 (agent)、Claude Code、MCP</span>
 - [[2026-09-09-talks-your-agents-lack-context-here-s-how-to-f|差距不再是智能，而是上下文：给智能体造一个「上下文引擎」]]<span class="pd-rz">同公司:Unblocked · 同概念:上下文引擎 (context engine)、智能体 (agent)、MCP</span>
-- [[2026-09-18-talks-total-recall-agent-memory-and-harness-en|模型是租的，harness 才是你的：拆解智能体的七层框架]]<span class="pd-rz">同概念:上下文窗口 (context window)、智能体 (agent)、Claude Code、MCP</span>
+- [[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|上下文引擎:让AI不再像新员工一样瞎摸]]<span class="pd-rz">同公司:Unblocked · 同概念:上下文引擎 (context engine)、智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

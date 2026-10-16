@@ -1,0 +1,191 @@
+{
+  "title_zh": "造好地基再上AI：Uber工程师的内部工具全景",
+  "tldr": "Uber资深工程师 Uday 讲述公司近二十套内部AI开发系统，以及为何AI时代的红利属于早年打好地基的公司。",
+  "digest_md": "Uday 在 2015 年 5 月加入 Uber，是公司里任职最久的一批工程师之一，如今负责 Uber 内部的智能体（agent）AI 平台。他在 The Pragmatic Engineer 这期节目里展示了几十个内部系统——从AI时代之前的 DevPod、Slate，到最新的 Minion、Context Graph、Fox——讲的其实是一个核心道理：AI 编码工具本身不难买，难的是它周围的一切。\n\n## 2015年的Uber只有两个服务，然后呢？\n\nUday 刚入职时，Uber 全公司只有两个服务：用 Node.js 写的 Dispatch，处理乘客和司机的全部流量；用 Python 写的 API，负责行程结束后的支付和收据。随着业务狂奔，服务拆成了上千个微服务，团队也从约 600 名工程师涨到数千人 [07:11 Unknown]。\n\n2018、2019 年前后，Uber 收了手：**统一用 Go 和 Java，把服务整合成数量更合理的平台**，至今维持单一全球技术栈。这十年里被迫自建的工具清单很长：查资产归属的 UOwn、每秒处理约 5 亿指标的 M3DB、机器学习平台 Michelangelo、工作流引擎 Cadence、实验平台 Morpheus。其中不少后来开源，Temporal 的前身思路就出自 Cadence [11:11 Unknown]。\n\n## 为什么说AI是站在十年地基上的？\n\n这是全期最重要的洞察。Uber 在 2017 年就做了 DevPod——云上的开发环境，每个大仓库配一台预装好构建缓存的远程机器。到了AI时代，智能体恰好需要一模一样的东西：能跨仓库读代码、能跑构建和测试的云端工作区。Uber 直接把所有仓库合并成一个超大 DevPod给编码智能体用，Claude Code、Codex 等工具开箱即装 [17:35 Unknown]。\n\n类似的故事反复出现。所有服务的接口早就有统一注册，所以 MCP 网关可以自动为几千个服务生成工具描述；分布式追踪 Jaeger 十年前就铺好了，所以测试环境 Slate 能把指定测试账号的请求精确路由到某个分支。主持人总结得很准：如果 Uber 没有 Slate 这类系统，智能体根本没法自我验证 [65:24 Unknown]。\n\n## 模型会换、工具会换，所以先建中间层\n\nAI 变化太快，Uber 的策略是把所有基础组件做成不绑定任何模型、任何编码工具的。Model Gateway 从 2023 年就上线，**全公司每一个模型请求都必须经过它**——安全审查、审计日志、按人按项目的成本归因都在这一个口子上 [23:35 Unknown]。\n\n另一个叫 AIFX 的封装层则包住所有编码工具：换工具不用重配，技能和设置自动同步。还有 MCP Gateway，把内部几千个服务和 Slack、Google 等外部工具统统变成智能体能调用的工具，同一套东西还能以命令行形式暴露。现在每天有约 3 万次技能调用跑在这套体系上 [35:39 Unknown]。\n\n## 最有意思的新东西：给AI画一张全公司地图\n\nContext Graph 是 Uday 最引以为傲的系统。它把公司里每个人、每个服务、每份设计文档、每次故障都连成一张图，有 100 多种节点、130 多种关系 [39:02 Unknown]。员工问「全球用现金支付的出行有多少单」，AI 助手先在图上定位到相关的人和表，再深入查数据，来回次数、成本、延迟都降了。\n\n理由很直白：人手动写图数据库查询很难，但**智能体天生擅长在图里导航**——就像它们擅长用命令行翻文件系统一样 [41:35 Unknown]。\n\n## 15%的生产代码来自后台智能体\n\nMinion 是 Uber 的后台编码智能体，目前**约 15% 上线的代码改动由它完成** [50:00 Unknown]。在 Slack 里 @ 它、贴一个讨论串，它就能读完上下文、跨仓库生成代码改动。值班工程师处理报障时，让 Minion 查根因、当场修复，省去了往待办清单里塞一条的循环。\n\n验证环节同样交给机器：智能体可以在隔离环境里自己部署分支、跑模拟器截图、对比改动前后的界面，生成报告附在代码改动里。Uber 还为每个改动算风险分和影响范围，帮工程师决定哪些值得细看——目前每个改动仍须人审，但低风险的绿色通道自动合入已在规划中 [59:08 Unknown]。\n\n## 工程师的工作变成了什么？\n\nUday 说，他任职以来从没见过工作方式变化这么剧烈。他现在做的代码改动比去年多得多，但核心技能变了：给智能体搭好上下文、写清约束、同时在多个会话间切换、快速验证输出。「**如果你没法快速验证、抓不住智能体代码里的坏味道，那你就是在往生产环境里塞隐患**。」[87:00 Unknown]\n\n度量方式也在变。Uber 不只看代码量，而是给每个改动打标签——是功能、修bug还是维护——发现功能类改动占比在上升、维护类在下降，说明方向对了 [84:01 Unknown]。\n\n## 本集带走\n\n- 编码智能体本身是容易的部分，难的是验证、路由、权限、成本追踪这些周边系统——它们决定了AI能否真正干活。\n- Uber 2017 年建的云端开发环境、十年前铺的分布式追踪、统一的接口注册，几乎全部被AI复用：早打地基的公司上AI便宜得多。\n- 全公司所有模型请求走同一个网关，换来统一的安全基线、审计和成本核算；每天约 3 万次技能调用。\n- 约 15% 的生产代码改动已由后台智能体 Minion 完成，人审仍是强制环节，但自动化风险评分正在为免审合入铺路。\n- 工程师的新技能：上下文工程、多任务并行、快速验证智能体产出。",
+  "quotes": [
+    {
+      "en": "Even now, we are kind of in the similar ballpark of number of services, even though our business is 10 times larger, we are doing many, many more products.",
+      "zh": "即使现在，我们的服务数量也差不多在类似的量级，尽管我们的业务大了 10 倍，我们在做多得多的产品。",
+      "timestamp": "06:17",
+      "speaker": "Udaykira Mendicetti"
+    },
+    {
+      "en": "Every model request at Uber goes through this.",
+      "zh": "Uber 的每一个模型请求都经过这里。",
+      "timestamp": "23:32",
+      "speaker": "Udaykira Mendicetti"
+    },
+    {
+      "en": "Like it's much harder for us to manually write all of these cipher queries, but agents are really good at navigating the graph, like how they're really good at navigating file system with bash.",
+      "zh": "比如，让我们手动写所有这些 cipher 查询要难得多，但智能体非常擅长在图上导航，就像它们非常擅长用 bash 在文件系统上导航一样。",
+      "timestamp": "41:35",
+      "speaker": "Udaykira Mendicetti"
+    },
+    {
+      "en": "So around 15% of all of the production PRs go through Minion right now.",
+      "zh": "目前大约 15% 的生产 PR 通过 Minion 完成。",
+      "timestamp": "49:52",
+      "speaker": "Udaykira Mendicetti"
+    },
+    {
+      "en": "Because now, we are internally talking about not necessarily just depth velocity, but feature velocity.",
+      "zh": "因为现在，我们内部讨论的不一定只是代码速度，而是功能速度。",
+      "timestamp": "83:07",
+      "speaker": "Udaykira Mendicetti"
+    },
+    {
+      "en": "So it feels like companies that are getting some of the most benefit from AI are the ones that have had developer platform teams pre-AI as well, at least in the case of Uber.",
+      "zh": "所以感觉是，从 AI 中获得最多收益的公司，恰恰是那些在 AI 时代之前就有开发者平台团队的公司——至少在 Uber 这个案例中是这样。",
+      "timestamp": "92:54",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:58",
+      "speaker": "swyx",
+      "en": "One of the takeaways will be that production-ready code is far more complicated than just using an AI coding harness.",
+      "zh": "其中一个收获会是：生产就绪的代码远比仅仅使用一个 AI 编程工具套件要复杂得多。"
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "swyx",
+      "en": "The harness is the easy part.",
+      "zh": "套件是容易的部分。"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Uday",
+      "en": "So when I joined, we had just two services at Uber.",
+      "zh": "我加入的时候，整个 Uber 只有两个服务。"
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Uday",
+      "en": "Even now, we are kind of in the similar ballpark of number of services, even though our business is 10 times larger, we are doing many, many more products.",
+      "zh": "即使现在，我们的服务数量也差不多在类似的量级，尽管我们的业务大了 10 倍，我们在做多得多的产品。"
+    },
+    {
+      "timestamp": "09:55",
+      "speaker": "Uday",
+      "en": "Like even back in 2015, 2016, we used to probably have around like 500 million metrics emitted per second with with the cardinality.",
+      "zh": "比如早在 2015、2016 年，我们大概每秒发出约 5 亿个指标，还有基数问题。"
+    },
+    {
+      "timestamp": "16:41",
+      "speaker": "Uday",
+      "en": "And now the interesting part is as we got to the AI era like even the agents need the similar workspaces and cloud boxes and we are able to kind of latch on to that and we also created like now a mega dev pod with all of the repositories because then I can have my agents create PRs across the repositories.",
+      "zh": "现在有趣的部分是，当我们进入 AI 时代，就连智能体也需要类似的工作区和云盒子，我们能够顺势搭上这班车，我们还创建了现在这种包含所有仓库的 mega dev pod，因为这样我就可以让我的智能体跨仓库创建 PR。"
+    },
+    {
+      "timestamp": "17:44",
+      "speaker": "swyx",
+      "en": "Yeah, so I guess like having cloud development environments just like really early helped a lot.",
+      "zh": "是的，所以我觉得很早就拥有云开发环境真的帮助很大。"
+    },
+    {
+      "timestamp": "20:49",
+      "speaker": "Uday",
+      "en": "Looking back, I think that was pretty early investment that gave a lot of ROI later.",
+      "zh": "回头看，我觉得那是一笔相当早的投资，后来带来了很高的 ROI。"
+    },
+    {
+      "timestamp": "23:32",
+      "speaker": "Uday",
+      "en": "Every model request at Uber goes through this.",
+      "zh": "Uber 的每一个模型请求都经过这里。"
+    },
+    {
+      "timestamp": "23:35",
+      "speaker": "Uday",
+      "en": "So there is no model request that doesn't go through this.",
+      "zh": "所以没有任何模型请求是不经过它的。"
+    },
+    {
+      "timestamp": "29:00",
+      "speaker": "Uday",
+      "en": "And we quickly realized that we can really increase the power of AI by exposing all of our internal tools in an easy way across things.",
+      "zh": "我们很快意识到，通过用一种简单的方式把所有内部工具暴露出来，我们可以真正提升 AI 的能力。"
+    },
+    {
+      "timestamp": "36:22",
+      "speaker": "Uday",
+      "en": "It's very hard to make it really good across all kinds of use cases.",
+      "zh": "但要让它对所有各种用例都真正好用，就非常难。"
+    },
+    {
+      "timestamp": "36:43",
+      "speaker": "Uday",
+      "en": "They updated all of the skills in this repository to use the CLI pattern because it's more token efficient.",
+      "zh": "他们更新了这个仓库里所有的技能，让它们使用 CLI 模式，因为这样 token 效率更高。"
+    },
+    {
+      "timestamp": "38:52",
+      "speaker": "Uday",
+      "en": "We have 100 plus node types, 130 plus edge types, and this is live data as of three days ago.",
+      "zh": "我们有 100 多种节点类型，130 多种边类型，这是三天前的实时数据。"
+    },
+    {
+      "timestamp": "41:35",
+      "speaker": "Uday",
+      "en": "Like it's much harder for us to manually write all of these cipher queries, but agents are really good at navigating the graph, like how they're really good at navigating file system with bash.",
+      "zh": "比如，让我们手动写所有这些 cipher 查询要难得多，但智能体非常擅长在图上导航，就像它们非常擅长用 bash 在文件系统上导航一样。"
+    },
+    {
+      "timestamp": "49:52",
+      "speaker": "Uday",
+      "en": "So around 15% of all of the production PRs go through Minion right now.",
+      "zh": "目前大约 15% 的生产 PR 通过 Minion 完成。"
+    },
+    {
+      "timestamp": "52:11",
+      "speaker": "Uday",
+      "en": "And then Minyan will come back with, oh, this is the root cause.",
+      "zh": "然后 Minyan 会回来说，哦，这是根本原因。"
+    },
+    {
+      "timestamp": "58:35",
+      "speaker": "Uday",
+      "en": "So even with all of this tooling, we like right now, we still require an engineer to review.",
+      "zh": "所以即使有了所有这些工具，我们现在仍然要求一名工程师来评审每一个进入的 PR。"
+    },
+    {
+      "timestamp": "76:22",
+      "speaker": "Uday",
+      "en": "In some sense, the more toil we reduce, the more amount of time engineers can spend on the true feature work.",
+      "zh": "在某种意义上，我们减少的杂务越多，工程师能花在真正功能开发上的时间就越多。"
+    },
+    {
+      "timestamp": "83:07",
+      "speaker": "Uday",
+      "en": "Because now, we are internally talking about not necessarily just depth velocity, but feature velocity.",
+      "zh": "因为现在，我们内部讨论的不一定只是代码速度，而是功能速度。"
+    },
+    {
+      "timestamp": "83:25",
+      "speaker": "Uday",
+      "en": "Because like you can create 100 divs, but if they are not all feature divs, then like maybe it's not necessarily increasing the value that we can provide to the users, right?",
+      "zh": "因为你可以创建 100 个 diff，但如果它们不全是功能 diff，那么也许它不一定在增加我们能为用户提供的价值，对吧？"
+    },
+    {
+      "timestamp": "85:57",
+      "speaker": "Uday",
+      "en": "Like in some sense, like you need to get really good at context engineering.",
+      "zh": "从某种意义上说，你需要真正擅长上下文工程。"
+    },
+    {
+      "timestamp": "87:00",
+      "speaker": "Uday",
+      "en": "The context engineering, ability to multitask, ability to review and verify the outputs, these things have become much more important now because you're able to parallelize a lot more than before.",
+      "zh": "上下文工程、多任务处理的能力、审查和验证输出的能力，这些现在变得重要得多，因为你能够比以前并行化得多得多。"
+    },
+    {
+      "timestamp": "92:54",
+      "speaker": "swyx",
+      "en": "So it feels like companies that are getting some of the most benefit from AI are the ones that have had developer platform teams pre-AI as well, at least in the case of Uber.",
+      "zh": "所以感觉是，从 AI 中获得最多收益的公司，恰恰是那些在 AI 时代之前就有开发者平台团队的公司——至少在 Uber 这个案例中是这样。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一家你可能天天在用的公司——Uber,聊聊他们内部搞AI开发工具的全景。\n\n讲故事的人叫 Uday,2015年5月加入Uber,是公司里资历最老的那批工程师之一,现在负责Uber内部的智能体AI平台。他最近上了一档很有名的工程播客,The Pragmatic Engineer,在节目里展示了Uber内部几十套系统。这一期讲的其实就一个道理:AI编码工具本身不难买,难的是它周围的一切。\n\n要听懂这句话,得先回到2015年。Uday刚入职的时候,整个Uber只有两个服务:一个是用Node.js写的调度系统,处理乘客和司机的全部流量;另一个用Python写的API,负责行程结束后的支付和收据。就这么简单。然后业务开始狂奔,服务拆成了上千个微服务,工程师团队从大约600人涨到了几千人。到了2018、2019年,Uber收了手,统一用Go和Java,把服务整合成数量更合理的平台,一直维持单一全球技术栈到今天。这十年里,被迫自建的工具拉出一串长名单:查资产归属的UOwn、每秒处理约5亿指标的M3DB、机器学习平台Michelangelo、工作流引擎Cadence、实验平台Morpheus。其中不少后来还开源了,你可能在别处听过的工作流工具Temporal,前身思路就出自Cadence。\n\n为什么要交代这段历史?因为接下来的核心洞察全靠它垫底——AI是站在十年地基上的。\n\n举个最典型的例子。Uber早在2017年就做了个叫DevPod的东西,就是云上的开发环境,每个大仓库配一台远程机器,预装好构建缓存,工程师打开就能干活。到了AI时代,编码智能体需要的恰好是一模一样的东西:能跨仓库读代码、能跑构建和测试的云端工作区。于是Uber直接把所有仓库合并成一个超大DevPod,交给智能体用,Claude Code、Codex这些工具开箱即装。2017年打的地基,一分钱没多花,直接喂给了AI。\n\n类似的故事反复出现。所有服务的接口早就统一注册过,所以Uber能做一个网关,自动为几千个服务生成工具描述,让智能体知道能调用谁。再比如,分布式追踪系统Jaeger十年前就铺好了,所以Uber能把指定测试账号的请求精确路由到某个分支,方便测试。节目主持人总结得很准:如果Uber没有这类系统,智能体根本没法自我验证。\n\n这里自然引出一个问题——AI技术变化这么快,模型每隔几个月换一代,怎么避免白干?Uber的策略是:所有基础组件,都不绑定任何模型、任何编码工具。Model Gateway从2023年就上线了,全公司每一个模型请求都必须经过它,安全审查、审计日志、按人按项目的成本归因,全都在这一个口子上完成。AIFX这个封装层则包住所有编码工具,换工具不用重新配置,技能和设置自动同步。还有MCP Gateway,把内部几千个服务和Slack、Google这些外部工具,统统变成智能体能调用的工具。现在每天有大约3万次技能调用跑在这套体系上。\n\n那这套地基,到底长出了什么新东西?Uday最引以为傲的一个系统叫Context Graph。说白了,就是给AI画一张全公司的地图:把每个人、每个服务、每份设计文档、每次故障,都连成一张图,有100多种节点、130多种关系。比如员工问\"全球用现金支付的出行有多少单\",AI助手先在图上定位到相关的人和数据表,再深入去查,来回次数、成本、延迟全都降下来了。为什么选图?理由很直白:让人手动写图数据库查询很难,但智能体天生擅长在图里导航,就像它们擅长用命令行翻文件系统一样。\n\n这些能力叠加起来,就有了实实在在的产出。Uber有个后台编码智能体叫Minion,在Slack里艾特它、贴一个讨论串,它就能读完上下文、跨仓库生成代码改动。目前大约15%上线的生产代码改动,就是Minion完成的。值班工程师处理报障的时候,让Minion查根因、当场修复,不用再往待办清单里塞一条。验证环节也交给了机器:智能体可以在隔离环境里自己部署分支、跑模拟器截图、对比改动前后的界面,生成报告附在代码改动里。Uber还为每个改动算风险分和影响范围,帮工程师决定哪些值得细看。目前每个改动仍然必须人审,但低风险的自动合入已经在规划中。\n\n那么,工程师自己呢?Uday说,任职以来从没见过工作方式变化这么剧烈。他现在做的代码改动比去年多得多,但核心技能变了:给智能体搭好上下文、写清约束、同时在多个会话之间切换、快速验证输出。有句话值得记住:如果你没法快速验证、抓不住智能体代码里的坏味道,那你就是在往生产环境里塞隐患。度量方式也在变。Uber不只看代码量,而是给每个改动打标签——是做功能、修bug还是维护——结果发现功能类改动占比在上升、维护类在下降,现在内部讨论的已经不只是代码速度,而是功能速度,说明方向对了。\n\n回到开头那个道理。编码智能体是容易买到的部分,真正难的是验证、路由、权限、成本追踪这些周边系统。Uber 2017年建的云端开发环境、十年前铺的分布式追踪,几乎全部被AI复用了。正如Uday的总结:从AI中获得最多收益的公司,恰恰是那些在AI时代之前就有开发者平台团队的公司。红利,永远属于早早打好地基的人。"
+}

@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":1,"vibe coding":51,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":10,"一人独角兽":1,"提示词":3}</script>
+<script type="application/json" class="pd-epn">{"Replit":22,"Replit Agent":1,"智能体":1,"vibe coding":51,"云开发环境":1,"基于使用量的计费":2,"基于结果的定价":4,"自主性":11,"一人独角兽":1,"提示词":3}</script>
 
 <script>
 (function(){

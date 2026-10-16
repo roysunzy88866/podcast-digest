@@ -72,7 +72,7 @@ aliases: ["K8s", "k8s"]
 
 [[智能体]] · [[沙箱]] · [[MCP]] · [[Anthropic]] · [[推理]] · [[Claude]] · [[LLM]] · [[可观测性]] · [[OpenAI]] · [[CI-CD]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":101,"MCP":97,"Anthropic":206,"推理":101,"Claude":98,"LLM":65,"可观测性":47,"OpenAI":207,"CI-CD":17}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":101,"MCP":97,"Anthropic":206,"推理":101,"Claude":99,"LLM":66,"可观测性":47,"OpenAI":207,"CI-CD":17}</script>
 
 <script>
 (function(){

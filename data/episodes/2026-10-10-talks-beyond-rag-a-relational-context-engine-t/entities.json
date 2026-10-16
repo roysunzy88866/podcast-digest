@@ -1,0 +1,564 @@
+{
+  "episode_id": "2026-10-10-talks-beyond-rag-a-relational-context-engine-t",
+  "podcast": "精选演讲",
+  "date": "2026-10-10",
+  "tags": [
+    "AI 智能体",
+    "上下文引擎",
+    "RAG",
+    "自然语言转查询",
+    "开源项目"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "peter",
+      "type": "person",
+      "role": "host",
+      "name": "Peter",
+      "file": "Peter",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.019,
+            27.662
+          ],
+          "quote": "But I'm Peter from Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            596.578,
+            599.561
+          ],
+          "quote": "So I can say PR is by Peter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            784.683,
+            792.586
+          ],
+          "quote": "Maybe some information about the user that's asking the question so it can easily resolve questions like my PRs and not just Peter's PRs.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "unblocked",
+      "type": "company",
+      "role": "concept",
+      "name": "Unblocked",
+      "file": "Unblocked",
+      "primary": true,
+      "how_described": "本集说 Unblocked 构建一个上下文引擎(context engine),把散落在代码、文档、PR、Slack 里的公司知识整合成相互关联、带权限意识的上下文包,接上后任务成本从 2.60 美元降到 1.29 美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            25.019,
+            27.662
+          ],
+          "quote": "But I'm Peter from Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            28.774,
+            31.877
+          ],
+          "quote": "And at Unblocked, we build a context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            272.258,
+            276.559
+          ],
+          "quote": "It's an interesting session that my colleague had with Unblocked the other week.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            289.662,
+            291.343
+          ],
+          "quote": "So he just asked Unblocked.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            291.503,
+            293.984
+          ],
+          "quote": "And then Unblocked was able to pull this information.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            318.772,
+            322.895
+          ],
+          "quote": "And now Unblocked was able to just create a PR behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1113.722,
+            1125.73
+          ],
+          "quote": "If you don't want to wire up unblocked right away because you've got some constraints in your environment, we have an open source project that will allow you to do this entirely locally yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎 (context engine)",
+      "file": "上下文引擎",
+      "primary": true,
+      "how_described": "本集把它说成:把机构知识拉进来、把散落的上下文变成有依据的(grounded)上下文——互相关联、针对具体意图、个性化、权限感知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.774,
+            31.877
+          ],
+          "quote": "And at Unblocked, we build a context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            36.741,
+            41.485
+          ],
+          "quote": "I'm going to show you what a context engine is and how it can add value to your organization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 11,
+          "t": [
+            41.585,
+            46.23
+          ],
+          "quote": "And then we're going to actually go and build a component of a context engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            56.818,
+            57.858
+          ],
+          "quote": "What's a context engine?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            104.682,
+            123.319
+          ],
+          "quote": "So what a context engine does is it takes all of that institutional knowledge, and it pulls it in, and you get the scattered context that goes into the context engine, and out the other end, you get grounded context, which means that the context is all interrelated to each other.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            147.46,
+            157.822
+          ],
+          "quote": "So I asked Claude here, this is without a context engine attached, to create a plan to optimize a component in our layer called the source mark engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            189.723,
+            193.826
+          ],
+          "quote": "But now I'm going to show you what it looks like when you attach a context engine to the back end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            194.907,
+            205.536
+          ],
+          "quote": "So now what it does is it calls the Unblock context engine, and Unblock now delivers a very comprehensive but task-specific context bundle for this task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            248.919,
+            255.661
+          ],
+          "quote": "That was with the context engine, but without, I'm spending up to $2.60 and three minutes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1108.139,
+            1112.842
+          ],
+          "quote": "On the description, you probably saw that we were promising a context engine simulator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说上下文引擎为智能体提供结构化、可查询的上下文;查询引擎还能驱动一个聊天智能体,它会展示自己生成了哪些查询,拿到数据后再推理作答。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            417.604,
+            421.548
+          ],
+          "quote": "And if you wrap that stuff in an agent loop, it can go really, really far.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            422.289,
+            426.593
+          ],
+          "quote": "You give an agent loop tools to do file search after this, and it's very powerful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1057.465,
+            1059.747
+          ],
+          "quote": "is that it also powers a chat agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集说 RAG 解决了检索的内容/语义那一半,但「上周合并的 PR」这类有时间条件、要按人过滤的结构性问题是查询不是语义搜索,RAG 做不到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            405.432,
+            407.834
+          ],
+          "quote": "And RAG nails the content part.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1037.452,
+            1047.397
+          ],
+          "quote": "And this is what we built, something that can effectively handle all of the other half of RAG, so anything that has to do with the structural-based data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "document-query-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "Document Query Engine",
+      "file": "Document Query Engine",
+      "primary": true,
+      "how_described": "本集现场演示的开源项目:把自然语言转成结构化查询的引擎,包含 schema 自动发现、身份解析、查询验证与自我修正、全文搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            590.012,
+            591.654
+          ],
+          "quote": "It's called the Document Query Engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engine-simulator",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文引擎模拟器 (context engine simulator)",
+      "file": "上下文引擎模拟器",
+      "primary": true,
+      "how_described": "本集最后介绍的开源项目:可完全本地运行,按任务生成上下文包并做 A/B 测试,让你亲眼看到上下文齐全时智能体的表现差异。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            1108.139,
+            1112.842
+          ],
+          "quote": "On the description, you probably saw that we were promising a context engine simulator.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集用 Claude 做对比实验:不接上下文引擎时它像新员工在代码库里到处 grep,接上后拿到紧凑的上下文包,成本和时间砍半。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            136.617,
+            147.38
+          ],
+          "quote": "Let's imagine that I'm going to go into here, into Claude, and I'm going to show you a couple of interesting sessions that I had.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 26,
+          "t": [
+            147.46,
+            157.822
+          ],
+          "quote": "So I asked Claude here, this is without a context engine attached, to create a plan to optimize a component in our layer called the source mark engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            159.465,
+            164.07
+          ],
+          "quote": "And I'm sure you're all familiar with what Claude does when it starts a new task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            227.87,
+            235.215
+          ],
+          "quote": "So now if Claude wants to go back and fetch more information, it has all these great jump off points.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集反复讨论如何围绕 LLM 搭脚手架:喂 schema、当前时间、提问者身份让它合成查询;它生成的查询不可信必须验证;出错则回传错误让它自我纠正;身份匹配最后才让 LLM 当裁判,能过程式解决的别动用 LLM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            529.977,
+            533.36
+          ],
+          "quote": "And then, when you get the query out of the LLM, it's untrusted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 102,
+          "t": [
+            555.811,
+            560.193
+          ],
+          "quote": "And so we can actually get the LLM to try to correct itself if it gets into that situation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            662.202,
+            671.409
+          ],
+          "quote": "Now, the outcome from this is that you can use an LLM as a Thor hammer, and it can do a pretty good job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            677.875,
+            684.66
+          ],
+          "quote": "So you don't always fall back to an LLM to do this kind of what looks like non-deterministic work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            754.008,
+            759.85
+          ],
+          "quote": "And then in the end, if you have to, you can pass a list of names to an LLM and have it act as a tiebreaker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            793.646,
+            797.527
+          ],
+          "quote": "And then we pass it to the LLM and ask it to synthesize a query for us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            846.399,
+            855.083
+          ],
+          "quote": "Like, for example, you might have hidden fields that you don't want to be surfaced either to the LLM or for the LLM to derive and execute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            863.867,
+            870.97
+          ],
+          "quote": "You're better off making sure that the LLM doesn't interact with those fields at all and then just constraining it behind the scenes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            924.887,
+            932.349
+          ],
+          "quote": "But what we can do instead is just take that error and just loop it back in to the LLM and have the LLM kind of self-correct.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mongo",
+      "type": "company",
+      "role": "concept",
+      "name": "Mongo",
+      "file": "Mongo",
+      "primary": false,
+      "how_described": "本集演示所用的无 schema 文档数据库,他们的做法是采样一批文档、在运行时推导出 schema。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            635.565,
+            641.371
+          ],
+          "quote": "Mongo is schema-less, and not all databases are schema-less, but the same kind of principle can apply.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证引擎 (validation)",
+      "file": "验证引擎",
+      "primary": true,
+      "how_described": "本集说验证是最重要的一步:LLM 生成的查询不可信,要拦下能在数据库服务器执行原始 JavaScript 的 function 操作符等危险操作、拦截正则表达式,并把租户 ID 等字段隔离在幕后注入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            545.704,
+            550.347
+          ],
+          "quote": "And then finally, even though you do that validation, there could be errors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            825.528,
+            828.31
+          ],
+          "quote": "Now the next step I was talking about was validation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            884.296,
+            889.058
+          ],
+          "quote": "Let's go up to our validation step.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            905.944,
+            910.008
+          ],
+          "quote": "So our validation engine said, sorry, regular expressions aren't allowed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            917.025,
+            918.345
+          ],
+          "quote": "So validation is cool.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

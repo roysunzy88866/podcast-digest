@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":11,"Attention is All You Need":1,"LLM":65,"GPU":33,"OpenAI":207,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
+<script type="application/json" class="pd-epn">{"Sophia Du":5,"Transformer":11,"Attention is All You Need":1,"LLM":66,"GPU":33,"OpenAI":207,"开源运动":1,"编码智能体":35,"分布式模型":1,"研究突破":1}</script>
 
 <script>
 (function(){

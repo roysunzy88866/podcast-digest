@@ -1,0 +1,1929 @@
+{
+  "episode_id": "2026-10-14-pragmatic-ubers-ai-infra-from-the-inside",
+  "podcast": "The Pragmatic Engineer",
+  "date": "2026-10-14",
+  "tags": [
+    "AI 编程",
+    "智能体",
+    "开发者平台",
+    "工程文化",
+    "微服务"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "udaykira-mendicetti",
+      "type": "person",
+      "role": "host",
+      "name": "Udaykira Mendicetti",
+      "file": "Udaykira Mendicetti",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.875,
+            9.921
+          ],
+          "quote": "We get an exclusive, insider, and visuals-heavy look from one of Uber's longest-tenured engineers, Udaykira Mendicetti.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": true,
+      "how_described": "本集聚焦 Uber 内部为 AI 智能体开发构建的近二十多个系统，嘉宾 Uday 2015 年加入、如今领导公司智能体 AI 平台的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            3.615
+          ],
+          "quote": "What kind of internal tools do software engineers at Uber used to build software today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1,
+          "t": [
+            3.875,
+            9.921
+          ],
+          "quote": "We get an exclusive, insider, and visuals-heavy look from one of Uber's longest-tenured engineers, Udaykira Mendicetti.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 2,
+          "t": [
+            10.541,
+            13.344
+          ],
+          "quote": "Today, Uday leads much of the work on agentic AI at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 3,
+          "t": [
+            13.825,
+            22.513
+          ],
+          "quote": "In this conversation, we get into internal developer systems Uber has built and used pre-AI like UOwn, M3DB, Michelangelo, Cadence, Morpheus, and others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            33.618,
+            44.643
+          ],
+          "quote": "If you want to understand what AI native development looks inside of a modern tech company with thousands of engineers like Uber, and why it's much easier to retrofit AI on top of battle-tested developer Infra, this episode is for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            52.585,
+            57.586
+          ],
+          "quote": "Today's episode is about the close to two dozen internal systems that Uber has built to help engineer ship with AI agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            127.027,
+            132.209
+          ],
+          "quote": "Well, we worked together well before the pragmatic engineer was born back at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            134.811,
+            136.611
+          ],
+          "quote": "When did you join Uber exactly?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            137.012,
+            140.013
+          ],
+          "quote": "So I joined Uber in May 2015.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            160.688,
+            173.607
+          ],
+          "quote": "Since then, I've worked on many different business platforms from our Fulfillment, Uber for Business, on our earner onboarding, marketplace pricing, and the last one year has been all agentic AI, both for our users, customer support, end users, and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            189.333,
+            194.257
+          ],
+          "quote": "So when I joined, we had just two services at Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            251.413,
+            267.195
+          ],
+          "quote": "So it used to be at that point like one of the highest QPS services and over the years we kind of because all of our stack was just Node.js and Python so that was the natural choice at that point but in the subsequent years we have converted that into Go and it's still one of our highest QPS services at Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            267.555,
+            277.662
+          ],
+          "quote": "And I think for people listening, they're going to be surprised when they hear like, oh, there was only two services in 2015 or around that time at Uber, because of course, Uber was known for the microservices boom.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            294.991,
+            315.317
+          ],
+          "quote": "So I think like when I joined, right, like we were, as I said, like we were just two services and there, and you also think going back in those days, the kind of hyper growth phase where we were in, we were constantly expanding to new countries, we were constantly expanding our product portfolio across mobility and later we started Uber Eats and that also was expanding",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            414.469,
+            419.751
+          ],
+          "quote": "Would you mind telling us when you joined, how big was Uber's engineering team and how did it grow over time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            508.86,
+            513.323
+          ],
+          "quote": "Can you take us back to 2015 on how Uber's internal tooling changed?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            525.11,
+            531.68
+          ],
+          "quote": "Back in 2015, 2016, if an engineer joined Uber, what kind of tools did they use and how did those evolve?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            531.7,
+            537.869
+          ],
+          "quote": "I'm talking obviously the main ones that most engineers back under mobile engineers touched at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            681.486,
+            688.928
+          ],
+          "quote": "I'm not even sure it was the open source version of Cadence, but it had a lot of, like it's kind of the external version of whatever Cadence is for Uber or used to be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            689.148,
+            698.414
+          ],
+          "quote": "Yeah, and I think those folks like they saw, like, you know, there's a real need for something like this, and they were able to go and, like, you know, build, like, scale it even further beyond Uber.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            730.48,
+            734.444
+          ],
+          "quote": "It's basically launched directly for Uber, but it was way more integrated into everywhere, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            743.974,
+            749.3
+          ],
+          "quote": "And it was like, I remember inside Uber, like all of these integrations, it was just integrated into a bunch of tools, all of them, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            749.985,
+            771.009
+          ],
+          "quote": "Yeah and since we are also expanding to so many countries like you need a really good configuration platform whether it's for like configuring our backend services or also having feature flag system and also experimentation and Uber is a very data driven company and like everything goes through a feature flag, everything goes through an XP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            817.468,
+            825.174
+          ],
+          "quote": "In fact, cities are first class citizens because inside Uber, like I think cities were so important and like a lot of our tools have cities as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1092.421,
+            1098.283
+          ],
+          "quote": "So like there was so many things being built for platforms, for tools, often custom for Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1412.402,
+            1415.466
+          ],
+          "quote": "Every model request at Uber goes through this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1774.331,
+            1781.573
+          ],
+          "quote": "And just to add, I guess, for those who don't know, Uber services either emit thrift or protobuffers as strong contracts, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1940.896,
+            1951.383
+          ],
+          "quote": "And then so when you have it, that's what I'm starting to see with Uber, that like you built a bunch of stuff before 2022 and you could just kind of add AI infra pretty easily on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2146.822,
+            2149.984
+          ],
+          "quote": "I'm not talking about Uber, but like, oh, you just do a get...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2507.499,
+            2512.681
+          ],
+          "quote": "And I assume it's a ton of data to store just because Uber has like 10,000 plus people working there easily, so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2611.7,
+            2618.244
+          ],
+          "quote": "Yeah, because inside Uber, I remember it used to be called break glass when you added a permission for a system you didn't have access to.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2621.927,
+            2623.488
+          ],
+          "quote": "But I know Uber was really big.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2646.581,
+            2651.482
+          ],
+          "quote": "Would I just mention how Uber wrapped up AI foundations work but already more foundations work is to come?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2745.255,
+            2747.857
+          ],
+          "quote": "Uber has built custom tools to deal with this, but so has Linear.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2808.125,
+            2814.067
+          ],
+          "quote": "With this, let's get back to Uber and how building a feature looks like today in terms of tools used by devs at the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2821.59,
+            2825.912
+          ],
+          "quote": "Like it's like the product spec and engineering plan for those not familiar inside Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2950.984,
+            2964.778
+          ],
+          "quote": "Yeah, I guess just need needless to add, but I'll just add it because it might not be as obvious, but Uber operates in so many countries and cities and even between two cities, the reality might be different or might be different expectations or people are used to different things and so on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3373.699,
+            3381.525
+          ],
+          "quote": "So this is like a uber-specific line that we add to all GitHub PRs that you can link to the issue that you're working on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            3504.133,
+            3514.621
+          ],
+          "quote": "So I think one is for us, like we want to err always on the safer side because the cost of an incident for Uber is like really high.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3787.567,
+            3804.136
+          ],
+          "quote": "I just wanted to add one of the things that, again, you might not appreciate if you're not outside of Uber, but Slate is so important because Uber literally today still has thousands of microservices, or maybe not micro, but to run a change on just one service when you want to do end-to-end, that's just difficult, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3897.6,
+            3904.585
+          ],
+          "quote": "So like I'm starting to sense a trend where like Uber builds stuff over years, pre-AI, just infrastructure that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3933.209,
+            3937.814
+          ],
+          "quote": "I'll also talk about one more pretty interesting thing, which is so uber specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3959.912,
+            3964.554
+          ],
+          "quote": "Like we have hundreds of screens, we have- And the Rider app is what most people think is Uber app, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3964.634,
+            3965.815
+          ],
+          "quote": "Yeah, Uber app, exactly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            4135.876,
+            4145.883
+          ],
+          "quote": "So then let's say if someone, if I'm working on a bug that's only affecting for some reason, San Francisco, Uber Eats trips, I fix that bug.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4289.666,
+            4292.668
+          ],
+          "quote": "Edge Gateway, that's just kind of Uber's internal API, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4486.521,
+            4491.225
+          ],
+          "quote": "Essentially, any service at Uber, they can go here and roll their service into different skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4546.996,
+            4553.638
+          ],
+          "quote": "And I love that you can enroll your code base because everyone knows like a code base is owned by an engineer team at Uber, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 810,
+          "t": [
+            4833.704,
+            4838.487
+          ],
+          "quote": "How do you think the job of software engineers inside of Uber is changing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4926.125,
+            4930.969
+          ],
+          "quote": "Because when I was at Uber, this was, again, up to 2020, us managers did look at things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            4948.412,
+            4952.774
+          ],
+          "quote": "You know, what is a productive engineer in your mind right now inside of Uber or inside of your team?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 852,
+          "t": [
+            5118.888,
+            5127.931
+          ],
+          "quote": "Like, for example, like, you know, we say, like, all the engineers at Uber are hands-on, like, even distinguished engineers at Uber, like, our hands-on, they, like, they create PRs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 900,
+          "t": [
+            5417.661,
+            5422.784
+          ],
+          "quote": "Uday, thank you so much for walking through all of the internals that are being used at Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 908,
+          "t": [
+            5450.401,
+            5452.903
+          ],
+          "quote": "I hope you enjoyed this look into Uber's tooling as much as I did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 909,
+          "t": [
+            5453.363,
+            5458.446
+          ],
+          "quote": "It's now been six years since I left Uber, so a lot of the tooling that Uday showed me was also new to me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 910,
+          "t": [
+            5458.746,
+            5464.009
+          ],
+          "quote": "Uber was known for having about 5,000 services with about 2,000 engineers 10 years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 915,
+          "t": [
+            5484.261,
+            5497.01
+          ],
+          "quote": "Back in my time at Uber, between 2016 and 2020, we had two tools called Deputy and Cerebrus that could do some level of production data replay, but it wasn't all that easy to use and it was just really hard to capture real base to start with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 917,
+          "t": [
+            5506.44,
+            5512.587
+          ],
+          "quote": "Building a system at Capri is especially complex when you have closer to 4,500 or 5,000 services running like Uber has.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 920,
+          "t": [
+            5518.611,
+            5526.937
+          ],
+          "quote": "But looking at the tooling Uber built around CodeReview with CodeInbox, every PR still gets merged after a human engineer decides that it's ready to do so.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 921,
+          "t": [
+            5527.377,
+            5529.739
+          ],
+          "quote": "But Uber is building a lot of automated checks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 925,
+          "t": [
+            5549.607,
+            5556.089
+          ],
+          "quote": "Finally, I had the sense that Uber investing 10 plus years in developer productivity is really, really paying off with their AI integrations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            5561.43,
+            5565.931
+          ],
+          "quote": "Uber got to reuse almost all of this infra in building out their cloud agents called minions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 929,
+          "t": [
+            5574.494,
+            5583.017
+          ],
+          "quote": "So it feels like companies that are getting some of the most benefit from AI are the ones that have had developer platform teams pre-AI as well, at least in the case of Uber.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 930,
+          "t": [
+            5583.937,
+            5587.724
+          ],
+          "quote": "Do check out the show notes for more of the pragmatic engineering deep dives on Uber's engineering culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 931,
+          "t": [
+            5588.365,
+            5591.271
+          ],
+          "quote": "Uber is probably one of the companies I have covered in the most detail so far.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线：编码智能体（后台 Minion、交互式 harness）与公司内部各类 agentic AI 工作流，强调智能体依赖周边基础设施才能真正干活",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            75.45,
+            78.772
+          ],
+          "quote": "Do you want an agent to have standing access to everything it might touch?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            86.218,
+            94.684
+          ],
+          "quote": "Airlock is an authorization layer that sits between your agents and the tools they call, and it judges every single request against the agent's intent and your rules.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2383.052,
+            2389.275
+          ],
+          "quote": "So it reduces your agent traces and the amount of turns it needs to give you a good answer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2990.22,
+            2992.382
+          ],
+          "quote": "So this is our background coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            3326.634,
+            3333.978
+          ],
+          "quote": "So then when agent creates a PR, it can run the linter, the coverage rules, the build rules, the template rules, like all of these things so that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3595.91,
+            3600.432
+          ],
+          "quote": "Then typical workflow for engineers is like pre-agent equalist.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3728.447,
+            3736.629
+          ],
+          "quote": "And now like the agent internally can like use all of these skills and tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3742.93,
+            3752.892
+          ],
+          "quote": "It ran agent browser in that slate environment with what is on main and what is on my branch and it created like a report for me to review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4270.869,
+            4276.554
+          ],
+          "quote": "And now the agent can, even though it cannot see, but it can see the delta and it can tell that nothing has changed, for example.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4282.279,
+            4287.204
+          ],
+          "quote": "Now the agent can also do capture replay on Slate with any of these.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 732,
+          "t": [
+            4423.963,
+            4430.865
+          ],
+          "quote": "I can create set of prompts and skills that then agent can run across every module and fix all the issues in every service faster.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4479.656,
+            4486.221
+          ],
+          "quote": "Essentially, we want to create self-improving code bases since we already have a whole bunch of agent skills.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 785,
+          "t": [
+            4703.966,
+            4711.528
+          ],
+          "quote": "And now that we have all of this context, we built a managed agent called DebugAssist that looks all of this, looks at the code base, and it will try to pinpoint",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 789,
+          "t": [
+            4727.131,
+            4728.151
+          ],
+          "quote": "Yeah, coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 859,
+          "t": [
+            5160.804,
+            5174.09
+          ],
+          "quote": "Before I was operating with some context to do some tasks, so I'm always thinking about, okay, if I want to offload some of this work to an agent, what kind of context it would need and how do I set up the environment with that right context so that it can produce that work?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 866,
+          "t": [
+            5207.497,
+            5218.269
+          ],
+          "quote": "Because if you're not able to verify the work and pick any code smells from the agent, then that's hard, then you're shipping some recreations into production, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 870,
+          "t": [
+            5242.273,
+            5249.843
+          ],
+          "quote": "Whereas now the question that you said is often, how do I set up an agent to be able to build this and to be able to verify it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 877,
+          "t": [
+            5274.777,
+            5279.701
+          ],
+          "quote": "You are going through a whole bunch of steps to create a policy that AI agent can follow.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 884,
+          "t": [
+            5313.601,
+            5315.323
+          ],
+          "quote": "That an agent can create.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "minion",
+      "type": "company",
+      "role": "company",
+      "name": "Minion",
+      "file": "Minion",
+      "primary": true,
+      "how_described": "Uber 的后台编码智能体，目前约 15% 的生产 PR 由它完成，可从 Slack 或网页 @ 它读取上下文并跨仓库生成 PR",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.416,
+            33.278
+          ],
+          "quote": "Recent systems used by nearly all engineers like Minion, CodeInbox, Slate, Shepard, Wisdom, and others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2984.755,
+            2988.899
+          ],
+          "quote": "Now we're kind of going into what we call Minion internally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2992.982,
+            2999.907
+          ],
+          "quote": "So around 15% of all of the production PRs go through Minion right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3009.475,
+            3017.581
+          ],
+          "quote": "Once you have for the task that I have really good spec or I want to do minimal steering, I can hand off that to a Minion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            3056.943,
+            3061.045
+          ],
+          "quote": "Mostly maintenance kind of tasks used to be offloaded to Minion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3061.625,
+            3082.194
+          ],
+          "quote": "As we progress on this journey, as we are adding more and more tools into the Minion environment where Minion can self-validate its work in web or mobile or backend APIs, our goal is we can increase the kind of tasks people can do with Minion over time, increase the percentage of tasks over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3087.46,
+            3090.602
+          ],
+          "quote": "You can just mention, do you mention at Minion or what do you say?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            3090.942,
+            3101.587
+          ],
+          "quote": "You can do at Minion and then it will show you the status and you can also like, you don't need to go to the web, you can steer it on Slack itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            3109.252,
+            3117.259
+          ],
+          "quote": "If it's a simple thing, you are just iterating and get alignment there and then say, hey, at Minion, follow this thread and can you create a PR?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3143.698,
+            3147.08
+          ],
+          "quote": "So we see more and more cases of that as Minion gets powerful as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3169.093,
+            3177.536
+          ],
+          "quote": "For Minion, there is a DevPod flavor that has all of the repositories and optimized for Minion usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3259.979,
+            3263.162
+          ],
+          "quote": "So you can do interactive hardness, you can do like through Minion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3353.445,
+            3359.427
+          ],
+          "quote": "And now Minion or even my interactive harnesses, they know these agents know how to like have the skills for this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 788,
+          "t": [
+            4718.349,
+            4726.671
+          ],
+          "quote": "Now, once I think, okay, this is the right root cause, I can hand off this to Minion that we talked about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 792,
+          "t": [
+            4731.892,
+            4737.713
+          ],
+          "quote": "Minion will take all of that context that we have, it creates a PR, it will attach that PR to the Jira task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 796,
+          "t": [
+            4752.482,
+            4753.623
+          ],
+          "quote": "How do we improve minion?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-graph",
+      "type": "company",
+      "role": "company",
+      "name": "Context Graph",
+      "file": "Context Graph",
+      "primary": true,
+      "how_described": "Uber 把全公司的人、服务、设计文档、故障连成的一张图（100 多种节点、130 多种关系），作为 AI 助手的默认 grounding，减少智能体往返轮次与成本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            2241.105,
+            2263.006
+          ],
+          "quote": "It reduces one more step of configuration and so then like this the discoverability is easy the setup and configuration and management is easy and we could build a whole bunch of like eval pipelines around that discoverability pipelines around that we still have teams that have like their own repositories but majority of the skills go through this my favorite is like context graph",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2365.985,
+            2368.806
+          ],
+          "quote": "It has the context graph as the default grounding.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3159.688,
+            3161.989
+          ],
+          "quote": "Since I'm working on context graph, you see that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "devpod",
+      "type": "company",
+      "role": "company",
+      "name": "DevPod",
+      "file": "DevPod",
+      "primary": true,
+      "how_described": "Uber 2017 年建的云开发环境，每个 Monorepo 一个预装构建缓存的远程盒子；AI 时代升级为包含所有仓库的「mega dev pod」，智能体开箱即用 Claude Code、Codex",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            891.673,
+            898.595
+          ],
+          "quote": "One other system I wanted to ask you about that I remember using and it was being developed in 2017, I believe, which is DevPod.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            904.616,
+            910.678
+          ],
+          "quote": "So I think the backstory for DevPod is because we already talked about the growth of microservices.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            965.992,
+            970.596
+          ],
+          "quote": "So we took on this thing of like DevPod, which is like cloud developer boxes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            974.217,
+            976.477
+          ],
+          "quote": "We had one DevPod per Monorepo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            976.617,
+            984.279
+          ],
+          "quote": "So if I'm working primarily in Java Monorepo, I create the Java version of the flavor of the DevPod and it has all the build system cached.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1044.255,
+            1047.858
+          ],
+          "quote": "And like on the DevPod, all of the AI tools are installed by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1047.978,
+            1050.08
+          ],
+          "quote": "So you can get a new DevPod.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1052.382,
+            1055.043
+          ],
+          "quote": "Like Claude Code, Codex, OpenGo, they're all there in the DevPod.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1055.203,
+            1064.006
+          ],
+          "quote": "So this made it really easy even for non-engineers in the company to create a DevPod and start playing with Claude Code, start playing with Codex out of the bat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1493.422,
+            1500.764
+          ],
+          "quote": "So even if you're using any of the hardnesses on your local or on DevPod and or any of your DevPod, the settings are synced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 517,
+          "t": [
+            3151.463,
+            3153.904
+          ],
+          "quote": "We also before talked about DevPod.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3162.529,
+            3168.333
+          ],
+          "quote": "But yeah, if you want to create a new DevPod, you'll see which flavor you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            3169.093,
+            3177.536
+          ],
+          "quote": "For Minion, there is a DevPod flavor that has all of the repositories and optimized for Minion usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            3177.676,
+            3186.239
+          ],
+          "quote": "But for interactive, like it will create a DevPod and within a matter of seconds, you will have that running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3238.228,
+            3239.989
+          ],
+          "quote": "Like within order of seconds, I create DevPod.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-gateway",
+      "type": "company",
+      "role": "company",
+      "name": "Model Gateway",
+      "file": "Model Gateway",
+      "primary": true,
+      "how_described": "Uber 2023 年底上线的统一模型网关，全公司每一个模型请求都必须经过它，提供安全护栏、审计日志和按人按项目的成本归因",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            1139.741,
+            1144.086
+          ],
+          "quote": "So few things that we invested like, so we started working on a model gateway from",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1149.191,
+            1156.859
+          ],
+          "quote": "So we had a model gateway back then, which would expose an OpenAI Compatibility API or Anthropic Compatibility API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1174.75,
+            1182.954
+          ],
+          "quote": "And so we had a model gateway that would abstract all of the complexity behind where we had all of the security and policy guards in place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1197.64,
+            1203.802
+          ],
+          "quote": "So this will use expose it as like a model selector and it piped into the model gateway and it would route it to the right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1258.097,
+            1259.038
+          ],
+          "quote": "What is Model Gateway?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1309.508,
+            1317.874
+          ],
+          "quote": "But my Model Gateway was the first such one, and the initial version, we didn't have all of these middle version components, and we built some of these over the last one, two years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1751.517,
+            1755.78
+          ],
+          "quote": "We started working on MCP Gateway, similar to Model Gateway.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp-gateway",
+      "type": "company",
+      "role": "company",
+      "name": "MCP Gateway",
+      "file": "MCP Gateway",
+      "primary": true,
+      "how_described": "Uber 所有工具共用的一个网关：基于统一接口注册为几千个内部服务自动生成 MCP spec，外部供应商工具（Slack、Google）也经由它暴露，还能投射为 CLI",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.394,
+            27.816
+          ],
+          "quote": "AI Foundational Systems is a company built like its MCP Gateway, AIGuard, and AIFX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1710.073,
+            1711.414
+          ],
+          "quote": "Oh, MCP Gateway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1751.517,
+            1755.78
+          ],
+          "quote": "We started working on MCP Gateway, similar to Model Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1798.997,
+            1828.087
+          ],
+          "quote": "And as they go through rewrites usually like team switch to proto but whether they're in thrift or proto like we we would have since we have all of the ideals in the in one single registry we could use that registry to generate a default MCP spec for them so they could anyone in the company they can go to this tool MCP gateway they can see all of the MCP servers that we auto generated and if you go to any of that you could see all of the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1871.58,
+            1877.686
+          ],
+          "quote": "We have like a framework for creating a custom MCP and proxy their custom MCP also through MCP Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1880.728,
+            1887.194
+          ],
+          "quote": "Even all of our vendor tools, whether it's Google, Slack, all of them are also exposed through MCP Gateway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1951.583,
+            1969.234
+          ],
+          "quote": "Yeah, and the same team that works on our API Gateway also worked on MCP Gateway, so they're already in the business of building API Gateway, so they know how to do any kind of protocol transformations, any kind of API Gateways, so it was like we were able to pretty quickly build this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2080.392,
+            2089.114
+          ],
+          "quote": "And since all of the skills are using the tools from the MCP Gateway, we also have one standard mechanism for all these skills to access any of the tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2513.447,
+            2520.312
+          ],
+          "quote": "Yeah, the good part is, you know, similar to how our API Edge Gateway team worked on MCP Gateway effort.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aifx",
+      "type": "company",
+      "role": "company",
+      "name": "AIFX",
+      "file": "AIFX",
+      "primary": true,
+      "how_described": "Uber 包住所有编码 harness 的包装层，统一管理设置与技能、跨环境同步，让工程师在不同 AI 编码工具间切换无需重新配置",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.394,
+            27.816
+          ],
+          "quote": "AI Foundational Systems is a company built like its MCP Gateway, AIGuard, and AIFX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1461.861,
+            1468.625
+          ],
+          "quote": "So we internally wrap all of the harnesses with a wrapper called AIFX, AI Foundations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2054.39,
+            2057.952
+          ],
+          "quote": "So you install with the same AIFX tooling that I mentioned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3312.647,
+            3325.934
+          ],
+          "quote": "So first thing that we did was we took a whole bunch of like simple CI jobs that used to run once you create the PR and we moved it to inner loop and we kept all of this behind one single command like AIFX validate.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slate",
+      "type": "company",
+      "role": "company",
+      "name": "Slate",
+      "file": "Slate",
+      "primary": true,
+      "how_described": "Uber 的测试环境系统：部署指定分支并把测试账号流量精确路由到该实例，本集说没有它智能体就难以自我验证，现已作为 MCP 暴露给智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            28.416,
+            33.278
+          ],
+          "quote": "Recent systems used by nearly all engineers like Minion, CodeInbox, Slate, Shepard, Wisdom, and others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            3600.772,
+            3602.213
+          ],
+          "quote": "We call it Slate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3642.677,
+            3648.564
+          ],
+          "quote": "It will go through other services and when it touches the service under test then it will go to your Slate instance.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3657.214,
+            3662.219
+          ],
+          "quote": "Now that we had this we we had to just teach agents how to deploy Slate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3694.556,
+            3697.797
+          ],
+          "quote": "It's using Slate MCP create new slate environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3713.302,
+            3714.482
+          ],
+          "quote": "This is like the Slate UI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3742.93,
+            3752.892
+          ],
+          "quote": "It ran agent browser in that slate environment with what is on main and what is on my branch and it created like a report for me to review.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3787.567,
+            3804.136
+          ],
+          "quote": "I just wanted to add one of the things that, again, you might not appreciate if you're not outside of Uber, but Slate is so important because Uber literally today still has thousands of microservices, or maybe not micro, but to run a change on just one service when you want to do end-to-end, that's just difficult, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3804.156,
+            3806.878
+          ],
+          "quote": "This is why Slate took years to build to start with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            3857.772,
+            3867.419
+          ],
+          "quote": "So when you pin from the slate web we are essentially adding saying that these are the services under test and this is the account that I want to route.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 641,
+          "t": [
+            3867.819,
+            3878.507
+          ],
+          "quote": "So as it is going through our service mesh, service mesh knows this baggage and then it can say oh I want to route this request not to this environment but to the slate environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3918.216,
+            3924.402
+          ],
+          "quote": "I think if we did not have a system like Slate, it could have been really hard for agents to self-validate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 685,
+          "t": [
+            4130.612,
+            4134.795
+          ],
+          "quote": "And if you see at the top, there is slate workflow UID or search environment name.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 687,
+          "t": [
+            4146.343,
+            4151.387
+          ],
+          "quote": "Then I can create a slate environment for that bug for my code changes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            4155.249,
+            4159.712
+          ],
+          "quote": "Just this request on my slate environment and show me the delta here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            4219.265,
+            4229.668
+          ],
+          "quote": "But now that we have Slate, we don't necessarily have to use Deputy and Cerberus because like it's already like you can deploy a Slate environment and we don't need to use any of them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            4246.83,
+            4269.368
+          ],
+          "quote": "Yeah and now I think the same like similar to how we exposed like Slate to agents we can expose all of the Capri functionality to agents so agents can check oh I'm trying to fix this let me get all of the sessions of this type and then see what request looks like can I compose a request of that type on my Slate instance and see did it fix or did it not fix let me go in a loop until I fix this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4282.279,
+            4287.204
+          ],
+          "quote": "Now the agent can also do capture replay on Slate with any of these.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "capri",
+      "type": "company",
+      "role": "company",
+      "name": "Capri",
+      "file": "Capri",
+      "primary": true,
+      "how_described": "Uber 的事件捕获与回放系统：用中间件捕获真实生产流量及下游请求响应，生成维度组合集合，可重放到 Slate 环境验证修复——主持人称这是他最喜欢的软件之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 652,
+          "t": [
+            3937.834,
+            3938.354
+          ],
+          "quote": "What is Capri?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 701,
+          "t": [
+            4246.83,
+            4269.368
+          ],
+          "quote": "Yeah and now I think the same like similar to how we exposed like Slate to agents we can expose all of the Capri functionality to agents so agents can check oh I'm trying to fix this let me get all of the sessions of this type and then see what request looks like can I compose a request of that type on my Slate instance and see did it fix or did it not fix let me go in a loop until I fix this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4308.48,
+            4331.1
+          ],
+          "quote": "So like again all APIs go through one single entry point where we can build a whole bunch of tooling around that on monitoring, on alerting and like even there is like a like with this all the reliability features the edge also has its own capture replay similar to the Capri it's using Capri behind the scenes",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            5479.158,
+            5483.841
+          ],
+          "quote": "One piece of software that I really liked is Capri, the event capture and replay software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 916,
+          "t": [
+            5497.51,
+            5506.26
+          ],
+          "quote": "With Capri, it's far more trivial to capture sessions, then replay them, and this works really well to reproduce bugs and also to test data fix work for a certain bug fix.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 917,
+          "t": [
+            5506.44,
+            5512.587
+          ],
+          "quote": "Building a system at Capri is especially complex when you have closer to 4,500 or 5,000 services running like Uber has.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jaeger",
+      "type": "company",
+      "role": "company",
+      "name": "Jaeger",
+      "file": "Jaeger",
+      "primary": true,
+      "how_described": "Uber 2017-18 年构建的分布式追踪基础设施，已开源；Slate 的测试账号精确路由正是靠它在调用栈上传播 baggage 实现的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 634,
+          "t": [
+            3831.922,
+            3836.724
+          ],
+          "quote": "It's called Jaeger, which is a distributed tracing infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3839.825,
+            3842.105
+          ],
+          "quote": "And all of our services have Jaeger spans.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 718,
+          "t": [
+            4343.228,
+            4346.49
+          ],
+          "quote": "With Jaeger tracing, we know exactly the service dependencies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "michelangelo",
+      "type": "company",
+      "role": "company",
+      "name": "Michelangelo",
+      "file": "Michelangelo",
+      "primary": true,
+      "how_described": "Uber 自建的端到端机器学习平台，属于 AI 之前就已构建并使用的内部开发者系统之一，Model Gateway 和 GenAI 基础组件就构建在它之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.825,
+            22.513
+          ],
+          "quote": "In this conversation, we get into internal developer systems Uber has built and used pre-AI like UOwn, M3DB, Michelangelo, Cadence, Morpheus, and others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            635.506,
+            636.927
+          ],
+          "quote": "This is Michelangelo, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            637.247,
+            637.887
+          ],
+          "quote": "Michelangelo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            637.947,
+            644.591
+          ],
+          "quote": "And we recently, just a couple of months ago, we open sourced our deep learning and part of the Michelangelo infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1208.903,
+            1212.484
+          ],
+          "quote": "Yeah, like and and it was built on Michelangelo itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1212.564,
+            1214.925
+          ],
+          "quote": "So we create a Michelangelo Gen AI product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1215.265,
+            1219.069
+          ],
+          "quote": "Oh, Michelangelo, but that's the ML platform, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1219.309,
+            1223.654
+          ],
+          "quote": "Yeah, and then now there's a Gen.AI set of foundations on Michelangelo platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1223.674,
+            1228.038
+          ],
+          "quote": "So then you go to create a Gen.AI project or a Gen.AI project on Michelangelo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1238.771,
+            1249.327
+          ],
+          "quote": "So then you have all of the same, we're able to use the same Michelangelo infrastructure then to start building on AI specific evals and like stuff on the same on the same foundations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1277.053,
+            1282.235
+          ],
+          "quote": "And this was built on top of the Michelangelo platform and one more component inside that they can set up there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1282.655,
+            1288.118
+          ],
+          "quote": "And Michelangelo, just to recap, that's the ML platform that was built from like 2015, 2016.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1292.317,
+            1302.284
+          ],
+          "quote": "Exactly, and now we have like a GenAI or Agentic AI set of components also inside Michelangelo, and we're also building a lot more right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1318.374,
+            1330.14
+          ],
+          "quote": "But the experience for any team in the company is, you know, they create a client, they give their project ID, which they initialized in Michelangelo, and then the caller token, and that's all.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集说工程师的核心新技能变了：为智能体搭好上下文、写清规格与约束，让它产出可靠的输出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 858,
+          "t": [
+            5157.743,
+            5160.504
+          ],
+          "quote": "Like in some sense, like you need to get really good at context engineering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 867,
+          "t": [
+            5220.772,
+            5232.903
+          ],
+          "quote": "The context engineering, ability to multitask, ability to review and verify the outputs, these things have become much more important now because you're able to parallelize a lot more than before.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码评审 (code review)",
+      "file": "代码评审",
+      "primary": true,
+      "how_described": "本集说 PR 暴涨后 review 成为大瓶颈；Uber 用风险评分、影响范围和 CodeInbox 给信号，每个 PR 仍须人审，但低风险「green lane」自动合入已在规划中",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 563,
+          "t": [
+            3421.131,
+            3424.955
+          ],
+          "quote": "So it makes it really easy for me to get, oh, the AI code review passed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            3495.848,
+            3498.989
+          ],
+          "quote": "What is your take on what will happen with code review over time?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3499.01,
+            3503.032
+          ],
+          "quote": "Do you think there will always be human code review or for some things it might go away?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monorepo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Monorepo",
+      "file": "Monorepo",
+      "primary": true,
+      "how_described": "Uber 2017-18 年从微仓库转向每种语言一个 Monorepo，统一构建系统（Bazel），也为技能 mono repo 和顶层 AgentsMD/ClaudeMD 打下基础",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            942.215,
+            944.617
+          ],
+          "quote": "We had one monorepo per language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            944.717,
+            950.041
+          ],
+          "quote": "So we had a monorepo for Go, one for Java, one for mobile iOS, one for Android and so on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            974.217,
+            976.477
+          ],
+          "quote": "We had one DevPod per Monorepo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 174,
+          "t": [
+            976.617,
+            984.279
+          ],
+          "quote": "So if I'm working primarily in Java Monorepo, I create the Java version of the flavor of the DevPod and it has all the build system cached.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            4373.077,
+            4378.238
+          ],
+          "quote": "After we moved to Monorepo, like then we moved to Monorepo because upgrading libraries was very hard, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 727,
+          "t": [
+            4381.46,
+            4391.068
+          ],
+          "quote": "Then you move to monorepo, but then now you need to, someone has to like go and upgrade this library usage across all of the modules in that repository.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

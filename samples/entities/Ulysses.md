@@ -7,25 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ulysses</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Ulysses">UL</div><div class="pi"><h1 class="pt">Ulysses</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Ulysses">UL</div><div class="pi"><h1 class="pt">Ulysses</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]]**(00:07起):本集说它是「海洋公司」，制造能像鲨鱼、可低成本成群部署的自主水下航行器（如 Mako），以「全栈」软硬件方案保护海底电缆等基础设施。
+- **[[2026-10-15-cheekypint-the-company-building-underwater-drones-f|《一台 5 万美元的水下机器人，想把海洋变成下一个前沿》]]**(00:13起):本集主角：Will O'Brien 联合创办的海洋机器人公司，从海草修复起步，现在做自主水面艇 Leviathan 加模块化水下机器人 Mako，正忙着建厂拒绝订单。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-15-cheekypint-the-company-building-underwater-drones-f#^q11]]
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]] — 作为被讨论公司
+- [[2026-10-15-cheekypint-the-company-building-underwater-drones-f|《一台 5 万美元的水下机器人，想把海洋变成下一个前沿》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Willowryan]] · [[Mariana Minerals]] · [[Radiant]] · [[a16z]] · [[SpaceX]] · [[自主水下航行器]] · [[关键矿物]] · [[微反应堆]] · [[垂直整合]] · [[强化学习]]
+[[SpaceX]] · [[Willowryan]] · [[Will O'Brien]] · [[Mariana Minerals]] · [[Guinness]] · [[Radiant]] · [[Starlink]] · [[a16z]] · [[US Navy]] · [[自主水下航行器]]
 
-<script type="application/json" class="pd-epn">{"Willowryan":1,"Mariana Minerals":1,"Radiant":1,"a16z":21,"SpaceX":22,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":1}</script>
+<script type="application/json" class="pd-epn">{"SpaceX":23,"Willowryan":1,"Will O'Brien":1,"Mariana Minerals":1,"Guinness":1,"Radiant":1,"Starlink":4,"a16z":21,"US Navy":1,"自主水下航行器":1}</script>
 
 <script>
 (function(){

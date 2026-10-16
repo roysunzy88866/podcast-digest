@@ -1,0 +1,167 @@
+{
+  "title_zh": "上下文引擎:让AI不再像新员工一样瞎摸",
+  "tldr": "Unblocked 的 Peter 演示了上下文引擎如何把散落各处的公司知识喂给 AI,省一半成本,还开源了代码。",
+  "digest_md": "在 AI 智能体出现之前,公司的“上下文层”其实是你自己。新员工要翻代码、翻文档,还要消化组织多年积累的事故教训和“伤疤”。Unblocked 的 Peter 在一场 20 分钟的演讲里,讲了他们怎么把这些散落的知识变成 AI 可以直接使用的上下文,并现场从零搭出了这个系统的核心部分。\n\n## 上下文引擎到底省了多少钱?\n\nPeter 先做了个对比实验。他让 Claude 制定一个优化某个内部组件的计划。不接上下文引擎时,Claude 就像个新员工,在代码库里到处搜索,折腾半天给出建议——花了 2.60 美元、3 分钟。\n\n接上 Unblocked 之后,AI 拿到的是一个紧凑的上下文包:不仅有源代码,还有 Notion 架构文档、相关拉取请求、Slack 讨论记录。**成本降到 1.29 美元,时间约 1 分半,成本砍半** [04:08 Unknown]。\n\n另一个例子更有说服力。同事 Richie 发现代码审查产品报告的问题数量在下降,直接问 Unblocked,系统很快定位到原因:他们把模型从旧版本切换到了新版本,行为变化导致问题被漏掉。接着他让系统直接修复——Unblocked 自己创建了拉取请求,还引用了当初引发回退的那个拉取请求和相关的 Slack 讨论 [05:37 Unknown]。\n\n## 为什么 RAG 只解决了一半问题?\n\nPeter 把散落的知识分了两类。一类是内容问题:找某段代码、改它的拉取请求、讨论它的聊天线程——这类语义检索,RAG(检索增强生成)已经很擅长。\n\n另一类是结构性问题:上周合并了哪些拉取请求?谁审查支付模块最多?这些问题有时间条件、要按人过滤、要做统计,RAG 的向量库做不到,必须转成真正的数据库查询 [07:07 Unknown]。Richie 那个案例的开头——“给我看 1 月 1 日以来每周的比率图表”——正是这种查询。\n\n## 从零搭一个查询引擎,难在哪?\n\nPeter 现场用他们的开源项目 Document Query Engine 演示了搭建过程。他说**生成查询本身是最简单的部分,难的是周边的脚手架** [08:22 Unknown]:\n\n第一,自动发现数据结构。MongoDB 没有固定模式,他们的做法是采样一批文档,在运行时推导出模式。Peter 特意提醒:别什么都用大模型,像推断枚举值这种看起来不确定的活,传统的过程式方法就能干得很好 [11:11 Unknown]。\n\n第二,身份映射。你问“Rasheen 的开放拉取请求”,但他在 GitHub 上的账号名可能完全不同。Unblocked 用模糊匹配把不同系统的身份对上,实在不行再让大模型做裁判 [12:34 Unknown]。\n\n第三,把模式、当前时间、提问者身份一起喂给大模型,让它生成查询——这样“我的拉取请求”这种问题也能解析。\n\n## 最关键的一步:别让 AI 的查询跑了野马\n\n**大模型生成的查询是不可信的**。Peter 举了个吓人的例子:某个操作符可以在数据库服务器上执行原始 JavaScript,绝对不能放行 [14:03 Unknown]。另外,如果有租户 ID 这类元数据字段,最好根本不让大模型碰,由系统在后台悄悄注入,保证查询不会越界。\n\n他的演示里,问“标题含 authentication 的拉取请求”,验证引擎拦下了正则表达式——不允许,驳回 [15:05 Unknown]。\n\n被驳回之后怎么办?把错误信息塞回给大模型,让它自我修正。技术上就是一个带重试上限的循环 [15:34 Unknown]。Peter 又演示了最后一块拼图:全文检索。加上之后,模糊的问题也能最终找到结果。\n\n搭完的引擎不只是个查询工具,还能驱动聊天智能体——问“上周我们做了哪些和身份验证相关的事”,它会展示自己生成了哪些查询、拿到数据后再推理作答 [18:08 Unknown]。\n\n演讲最后,Peter 提到还有一个开源的“上下文引擎模拟器”:如果你暂时不方便接入 Unblocked,可以完全在本地跑,它会按任务生成上下文包,做 A/B 测试,让你亲眼看到上下文齐全时智能体的表现差异 [18:53 Unknown]。\n\n## 本集带走\n\n- 上下文引擎把散落在代码、文档、拉取请求、聊天里的公司知识,整合成互相关联、带权限意识的上下文包。\n- 接上上下文引擎后,同一个任务的花费从 2.60 美元降到 1.29 美元,时间从 3 分钟缩到 1 分半。\n- RAG 擅长语义检索,但“上周合并的拉取请求”这类结构性查询需要另一套引擎:把自然语言转成数据库查询。\n- 大模型生成的查询必须验证:拦截危险操作符、隔离租户字段,出错就把错误回传让它自我修正。\n- 相关代码全部开源:Document Query Engine 和上下文引擎模拟器都可以自己动手玩。",
+  "quotes": [
+    {
+      "en": "And in those days, you were the context layer.",
+      "zh": "在那些日子里，你自己就是上下文层。",
+      "timestamp": "01:08",
+      "speaker": "Peter"
+    },
+    {
+      "en": "And it figures it out eventually, or at least it confidently projects that it's figured it out.",
+      "zh": "最终它搞清楚了，或者至少它自信地表现出它搞清楚了。",
+      "timestamp": "02:57",
+      "speaker": "Peter"
+    },
+    {
+      "en": "And if you wrap that stuff in an agent loop, it can go really, really far.",
+      "zh": "如果你把这些东西包进一个智能体循环，它能走得非常非常远。",
+      "timestamp": "06:57",
+      "speaker": "Peter"
+    },
+    {
+      "en": "You're better off making sure that the LLM doesn't interact with those fields at all and then just constraining it behind the scenes.",
+      "zh": "你最好确保 LLM 完全不与那些字段交互，然后在幕后对它进行约束。",
+      "timestamp": "14:23",
+      "speaker": "Peter"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:08",
+      "speaker": "Peter",
+      "en": "And in those days, you were the context layer.",
+      "zh": "在那些日子里，你自己就是上下文层。"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Peter",
+      "en": "And it figures it out eventually, or at least it confidently projects that it's figured it out.",
+      "zh": "最终它搞清楚了，或者至少它自信地表现出它搞清楚了。"
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Peter",
+      "en": "But the really interesting thing is this.",
+      "zh": "但真正有趣的是这个。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Peter",
+      "en": "That was with the context engine, but without, I'm spending up to $2.60 and three minutes.",
+      "zh": "那是连接上下文引擎的情况；而不连接的话，我要花多达 2.60 美元和三分钟。"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Peter",
+      "en": "So what you see essentially is a 50% reduction in cost, which is pretty incredible.",
+      "zh": "所以你基本上看到的是成本降低了 50%，这相当惊人。"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Peter",
+      "en": "And then it found a Slack conversation where this was being discussed and pulled on some of the data here to help inform the fix, which is just nuts.",
+      "zh": "然后它找到了一条正在讨论此事的 Slack 对话，并拉取了其中的一些数据来帮助确定修复方案，这简直是疯了。"
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Peter",
+      "en": "It understood the PR that caused the regression in the first place.",
+      "zh": "它理解了最初导致回归的那个 PR。"
+    },
+    {
+      "timestamp": "06:45",
+      "speaker": "Peter",
+      "en": "And RAG nails the content part.",
+      "zh": "RAG 解决了内容这部分。"
+    },
+    {
+      "timestamp": "06:57",
+      "speaker": "Peter",
+      "en": "And if you wrap that stuff in an agent loop, it can go really, really far.",
+      "zh": "如果你把这些东西包进一个智能体循环，它能走得非常非常远。"
+    },
+    {
+      "timestamp": "07:21",
+      "speaker": "Peter",
+      "en": "And these are queries.",
+      "zh": "而这些是查询。"
+    },
+    {
+      "timestamp": "07:22",
+      "speaker": "Peter",
+      "en": "They're not semantic searches.",
+      "zh": "它们不是语义搜索。"
+    },
+    {
+      "timestamp": "07:59",
+      "speaker": "Peter",
+      "en": "And so retrieval has two halves, essentially.",
+      "zh": "因此，检索本质上分为两半。"
+    },
+    {
+      "timestamp": "08:20",
+      "speaker": "Peter",
+      "en": "But generating the queries is actually the easy part.",
+      "zh": "但生成查询其实是最容易的部分。"
+    },
+    {
+      "timestamp": "08:22",
+      "speaker": "Peter",
+      "en": "The hard part is the scaffolding that sits around it.",
+      "zh": "难的部分是围绕它的脚手架。"
+    },
+    {
+      "timestamp": "08:49",
+      "speaker": "Peter",
+      "en": "And then, when you get the query out of the LLM, it's untrusted.",
+      "zh": "然后，当你从 LLM 拿到查询时，它是不可信的。"
+    },
+    {
+      "timestamp": "11:02",
+      "speaker": "Peter",
+      "en": "Now, the outcome from this is that you can use an LLM as a Thor hammer, and it can do a pretty good job.",
+      "zh": "这样做的结果是，你可以把 LLM 当作雷神之锤来用，它能做得相当不错。"
+    },
+    {
+      "timestamp": "11:11",
+      "speaker": "Peter",
+      "en": "But actually, you get really, really far just using traditional procedural methods.",
+      "zh": "但实际上，只使用传统的过程式方法你就能走得很远很远。"
+    },
+    {
+      "timestamp": "11:24",
+      "speaker": "Peter",
+      "en": "This is actually quite deterministic, this kind of thing.",
+      "zh": "这种事情其实相当确定性。"
+    },
+    {
+      "timestamp": "13:48",
+      "speaker": "Peter",
+      "en": "This is actually the most important thing.",
+      "zh": "这其实是最重要的事情。"
+    },
+    {
+      "timestamp": "14:23",
+      "speaker": "Peter",
+      "en": "You're better off making sure that the LLM doesn't interact with those fields at all and then just constraining it behind the scenes.",
+      "zh": "你最好确保 LLM 完全不与那些字段交互，然后在幕后对它进行约束。"
+    },
+    {
+      "timestamp": "15:38",
+      "speaker": "Peter",
+      "en": "It's just a loop with some sort of maximum retry.",
+      "zh": "它只是一个带有某种最大重试次数的循环。"
+    },
+    {
+      "timestamp": "17:17",
+      "speaker": "Peter",
+      "en": "And this is what we built, something that can effectively handle all of the other half of RAG, so anything that has to do with the structural-based data.",
+      "zh": "这就是我们构建的东西，它能有效处理 RAG 的另外那一半，也就是所有与基于结构的数据相关的事情。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人叫 Peter,来自一家叫 Unblocked 的公司。这一期聊的问题特别实在:公司里的知识散落在各个角落——代码库里、Notion 文档里、Slack 聊天记录里、一个个拉取请求里,怎么把这些东西喂给 AI,让它干活又快又省?Peter 在一场只有二十分钟的演讲里,不光讲了思路,还现场从零搭出了这套系统的核心部分,而且代码全部开源了。\n\n先说说这个问题的来龙去脉。在 AI 智能体出现之前,公司里的所谓\"上下文层\",其实就是你自己。新员工来了要翻代码、翻文档,还得消化组织多年积累的事故教训和那些踩过的坑。你脑子里的这些东西,AI 一概不知道。所以 AI 用起来就像个啥也不懂的新员工,在代码库里到处瞎摸。\n\nPeter 先做了个对比实验,让 Claude 制定一个优化内部组件的计划。不接任何上下文的时候,Claude 就到处搜索,折腾半天给出建议——花了 2.60 美元,耗时 3 分钟。有句话挺有意思:最终它搞清楚了,或者至少它自信地表现出它搞清楚了。那接上 Unblocked 之后呢?AI 拿到的是一个紧凑的上下文包,里面不光有源代码,还有 Notion 上的架构文档、相关的拉取请求、Slack 的讨论记录。结果成本降到 1.29 美元,时间缩到一分半,直接砍半。\n\n还有一个例子更有说服力。同事 Richie 发现代码审查产品报告的问题数量在下降,直接问 Unblocked 为什么。系统很快定位到原因:他们把模型从旧版本切换到了新版本,行为变化导致一些问题被漏掉了。接着让系统直接修——Unblocked 自己创建了拉取请求,还引用了当初引发回退的那个拉取请求和相关的 Slack 讨论。你想想,这个过程中人基本没干啥活。\n\n那这套东西是怎么搭起来的?这就引出一个关键问题:很多人会说,这不就是 RAG 吗?检索增强生成,把文档切片、向量化、搜出来塞给大模型。Peter 说,RAG 只解决了一半问题。散落的知识分两类:一类是内容问题,比如找某段代码、找改它的拉取请求、找讨论它的聊天线程——这类语义检索,RAG 确实很擅长。但另一类是结构性问题:上周合并了哪些拉取请求?谁审查支付模块最多?这类问题有时间条件、要按人过滤、还得做统计,RAG 的向量库做不到,必须转成真正的数据库查询。 Richie 那个案例的开头——\"给我看 1 月 1 日以来每周的比率图表\"——就是这种查询。\n\n所以 Unblocked 做了一个叫 Document Query Engine 的东西,并且开源了。Peter 现场用这个项目演示了搭建过程。他说了一句很实在的话:生成查询本身是最简单的部分,难的是周边的脚手架。难在哪?主要有三块。\n\n第一块,自动发现数据结构。MongoDB 没有固定的模式,他们的做法是采样一批文档,在运行时推导出模式。这里 Peter 还特意提醒了一句:别什么都用大模型。像推断枚举值这种看起来不确定的活,传统的过程式方法就能干得很好。\n\n第二块,身份映射。你问\"Rasheen 的开放拉取请求\",但这个人在 GitHub 上的账号名可能完全不同。Unblocked 用模糊匹配把不同系统里的身份对上,实在对不上,再让大模型做裁判。\n\n第三块,把数据模式、当前时间、提问者的身份一起喂给大模型,让它生成查询。这样连\"我的拉取请求\"这种带\"我\"字的问题也能正确解析。\n\n不过,搭到这里还没完,最关键的一步来了。你让大模型生成查询,但这些查询是不可信的,绝对不能放跑了野马。Peter 举了个吓人的例子:某个操作符可以在数据库服务器上直接执行原始 JavaScript,这种东西绝对不能放行。另外,如果有租户 ID 这类元数据字段,用他的话说,你最好确保大模型完全不跟这些字段交互,然后在幕后由系统悄悄注入,保证查询不会越界。他的演示里,问\"标题含 authentication 的拉取请求\",验证引擎发现里面用了正则表达式,直接拦下、驳回。\n\n那被驳回之后怎么办?把错误信息塞回给大模型,让它自我修正。技术上就是一个带重试上限的循环。到这里,最后一块拼图是全文检索——加上之后,连很模糊的问题也能最终找到结果。\n\n搭完的这个引擎不只是个查询工具。把它包进一个智能体循环里,它能走得非常非常远。比如你问\"上周我们做了哪些和身份验证相关的事\",它会先展示自己生成了哪些查询,拿到数据之后再推理作答,整个过程你看得到。\n\n最后还有个贴心的事:Unblocked 还开源了一个上下文引擎模拟器。如果你暂时不方便接入他们的产品,可以完全在本地跑这个模拟器,它会按任务生成上下文包,做 A/B 测试,让你亲眼看到上下文齐全时智能体的表现差距。\n\n回顾一下今天的重点。上下文引擎把散落在代码、文档、拉取请求和聊天里的公司知识,整合成互相关联、带权限意识的上下文包,同一个任务的成本直接砍半。RAG 擅长语义检索,但\"上周合并了什么\"这类结构性查询,需要另一套引擎,把自然语言转成数据库查询。而大模型生成的查询必须严格验证:拦危险操作符、隔离租户字段,出错了就把错误回传让它自己修。\n\n说到底,在那些日子里,你自己就是上下文层。而现在,你可以把这一层交给一套搭得好的系统了。"
+}

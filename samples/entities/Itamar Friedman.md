@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
+[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":25,"上下文":34,"部落知识":4,"上下文引擎":4,"软件图":1,"智能体":1,"代码治理":1,"语义规则":1,"Claude Code":114}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":26,"上下文":34,"部落知识":4,"上下文引擎":5,"软件图":1,"智能体":1,"代码治理":1,"语义规则":1,"Claude Code":114}</script>
 
 <script>
 (function(){

@@ -45,7 +45,7 @@ unlisted: true
 
 [[定价]] · [[A-B 测试]] · [[LLM]] · [[Lenny]] · [[Jon Noronha]] · [[Jason Cohen]] · [[Gamma]] · [[客户流失率]] · [[PowerPoint]] · [[NRR]]
 
-<script type="application/json" class="pd-epn">{"定价":1,"A-B 测试":2,"LLM":65,"Lenny":69,"Jon Noronha":1,"Jason Cohen":1,"Gamma":3,"客户流失率":3,"PowerPoint":1,"NRR":4}</script>
+<script type="application/json" class="pd-epn">{"定价":1,"A-B 测试":2,"LLM":66,"Lenny":69,"Jon Noronha":1,"Jason Cohen":1,"Gamma":3,"客户流失率":3,"PowerPoint":1,"NRR":4}</script>
 
 <script>
 (function(){

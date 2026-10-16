@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":2,"Asana":2,"Stripe":51,"Shopify":18,"Snowflake":23,"Twilio":4,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
+<script type="application/json" class="pd-epn">{"Alvaro Morales":1,"Orb":2,"Asana":2,"Stripe":52,"Shopify":18,"Snowflake":23,"Twilio":4,"Vercel":20,"Pinecone":3,"Perplexity":10}</script>
 
 <script>
 (function(){

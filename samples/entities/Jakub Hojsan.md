@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
+[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":87,"Cognition":27,"Warp":5,"Exa Agent":1,"智能体":1,"网页搜索":2,"知识截止日期":1,"代码审查":25,"语义搜索":3}</script>
+<script type="application/json" class="pd-epn">{"Exa":4,"Cursor":87,"Cognition":27,"Warp":5,"Exa Agent":1,"智能体":1,"网页搜索":2,"知识截止日期":1,"代码审查":26,"语义搜索":3}</script>
 
 <script>
 (function(){

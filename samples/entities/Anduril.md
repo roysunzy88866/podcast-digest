@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[Stripe]] · [[模拟]] · [[Harj]] · [[Sorin]] · [[Mike LeBlanc]] · [[Brian Singerman]] · [[Turner]] · [[Patrick Collison]] · [[Neros]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"Stripe":51,"模拟":1,"Harj":1,"Sorin":1,"Mike LeBlanc":1,"Brian Singerman":1,"Turner":3,"Patrick Collison":3,"Neros":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"Stripe":52,"模拟":1,"Harj":1,"Sorin":1,"Mike LeBlanc":1,"Brian Singerman":1,"Turner":3,"Patrick Collison":3,"Neros":1}</script>
 
 <script>
 (function(){

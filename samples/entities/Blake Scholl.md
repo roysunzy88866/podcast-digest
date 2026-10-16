@@ -82,11 +82,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":36,"Boeing":2,"FAA":2,"Uber":19,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":4,"马赫切断":1}</script>
+<script type="application/json" class="pd-epn">{"Boom":2,"Amazon":36,"Boeing":2,"FAA":2,"Uber":20,"超音速飞行":2,"音爆":1,"XB-1":1,"迭代":4,"马赫切断":1}</script>
 
 <script>
 (function(){

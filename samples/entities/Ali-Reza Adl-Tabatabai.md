@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"guitar.ai":1,"Sonar":1,"智能体":1,"代码审查":25,"CI-CD":17,"智能体运行时":1,"程序分析":1,"PR 验证":1}</script>
+<script type="application/json" class="pd-epn">{"guitar.ai":1,"Sonar":1,"智能体":1,"代码审查":26,"CI-CD":17,"智能体运行时":1,"程序分析":1,"PR 验证":1}</script>
 
 <script>
 (function(){

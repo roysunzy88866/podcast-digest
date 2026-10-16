@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>98</b> 集 · <b>59</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">概念</div><div class="nums">本站收录 <b>99</b> 集 · <b>59</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -107,6 +107,7 @@ unlisted: true
 - **[[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]]**(03:33起):本集把 Claude 当作贯穿全程的工作工具:用它爬取分析招聘数据、生成用户画像实现「规模化的同理心」、写邮件系统规格,以及面试模拟
 - **[[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]]**(03:49起):本集说课程同样涉及 Claude 的 hook 系统，技能目录设计成对 Codex、Claude、OpenCode 等工具都通用。
 - **[[2026-10-08-talks-your-ai-agent-has-no-nervous-system-matt|《你的 AI 智能体没有神经系统——所以它总是瞎忙》]]**(02:15起):本集举例：用 Claude 干活它反复做同一件事、不停消耗 token；以及若 Claude 无法访问环境上下文，给出的建议长期看是错的。
+- **[[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|《上下文引擎:让AI不再像新员工一样瞎摸》]]**(02:16起):本集用 Claude 做对比实验:不接上下文引擎时它像新员工在代码库里到处 grep,接上后拿到紧凑的上下文包,成本和时间砍半。
 - **[[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]]**(60:07起):本集说 Anthropic 披露 Claude 已主导其 26% 的 AI 研发项目——不是编程助手，而是项目负责人。
 
 ## ① 提到它的金句
@@ -233,7 +234,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*98 集*
+*99 集*
 
 - [[2025-06-15-lennys-how-to-build-a-team-that-can-take-a-punc|《Hilary Gridley：教团队"挨打"的产品领导力》]] — 作为概念(提及)
 - [[2025-07-17-lennys-inside-every-dan-shipper|《Dan Shipper：15人零手写代码，AI原生公司怎么运转》]] — 作为被讨论公司(提及)
@@ -332,6 +333,7 @@ unlisted: true
 - [[2026-10-08-pg-pm-to-product-builder-roadmap|《从产品经理到产品构建者：一份被 12500 份招聘启事验证的转型路线图》]] — 作为概念
 - [[2026-10-08-talks-how-a-remote-company-builds-ai-fluency-e|《1400 人分布在全球 82 国，这家公司怎么让员工学会用 AI》]] — 作为概念
 - [[2026-10-08-talks-your-ai-agent-has-no-nervous-system-matt|《你的 AI 智能体没有神经系统——所以它总是瞎忙》]] — 作为概念(提及)
+- [[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|《上下文引擎:让AI不再像新员工一样瞎摸》]] — 作为概念(提及)
 - [[2026-10-15-bigtech-ai-leaders-can-t-get-along-so-how-will-t|《造出超级智能的人，彼此恨之入骨》]] — 作为概念(提及)
 
 ## ③ 关联

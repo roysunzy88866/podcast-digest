@@ -1,0 +1,714 @@
+{
+  "episode_id": "2026-10-15-cheekypint-the-company-building-underwater-drones-f",
+  "podcast": "Cheeky Pint",
+  "date": "2026-10-15",
+  "tags": [
+    "海洋科技",
+    "机器人与自主系统",
+    "硬科技制造",
+    "国防科技",
+    "创业公司故事"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "will-o-brien",
+      "type": "person",
+      "role": "host",
+      "name": "Will O'Brien",
+      "file": "Will O'Brien",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.394,
+            15.754
+          ],
+          "quote": "Will O'Brien is the co-founder and president of Ulysses.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ulysses",
+      "type": "company",
+      "role": "company",
+      "name": "Ulysses",
+      "file": "Ulysses",
+      "primary": true,
+      "how_described": "本集主角：Will O'Brien 联合创办的海洋机器人公司，从海草修复起步，现在做自主水面艇 Leviathan 加模块化水下机器人 Mako，正忙着建厂拒绝订单。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.394,
+            15.754
+          ],
+          "quote": "Will O'Brien is the co-founder and president of Ulysses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            29.673,
+            37.779
+          ],
+          "quote": "Before we get to Ulysses, we have lots to talk about, but just getting to Ireland's most innovative company, just explain the technical innovations for Chris.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            365.537,
+            366.737
+          ],
+          "quote": "What does Ulysses actually do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2554.389,
+            2557.071
+          ],
+          "quote": "There is a future where Ulysses is the largest navy in the world.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "guinness",
+      "type": "company",
+      "role": "company",
+      "name": "Guinness",
+      "file": "Guinness",
+      "primary": true,
+      "how_described": "开场花大篇幅聊的爱尔兰公司：1890 年代就有内部研发团队，学生 t 检验出自其研究员，还发明了罐装啤酒的 widget，被评为 20 世纪百大发明之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            38.1,
+            45.205
+          ],
+          "quote": "The Guinness Company, a great example of a business, you know, its growth largely derived from technical innovations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            45.345,
+            47.487
+          ],
+          "quote": "And you don't think of it, you think of just like a pint of Guinness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 12,
+          "t": [
+            59.683,
+            61.786
+          ],
+          "quote": "Wait, they had Xerox PARC in Guinness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            84.519,
+            95.164
+          ],
+          "quote": "This was a problem in Guinness because to, one of the biggest predeterminants of the quality of a pint of Guinness is the amount of lipids or fats in hops.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            141.188,
+            143.189
+          ],
+          "quote": "Oh, so not associate the advanced with Guinness?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            151.481,
+            158.751
+          ],
+          "quote": "Acorns standing for Advanced Cans of Rich Nectar, which was the basically how do we make a Guinness at home version?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            198.103,
+            200.504
+          ],
+          "quote": "Marketing is another place where Guinness was really...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            204.748,
+            215.119
+          ],
+          "quote": "They produced, like, the James Bond of Nigeria, and that's why, like, people know Guinness is very popular in Nigeria, it's one of the top markets, but it's because they just, like, made a movie where, well, I guess it was Guinness… It's the top market, actually.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            215.32,
+            217.022
+          ],
+          "quote": "Okay, yeah, yeah, it was, like, Guinness the top…",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            220.025,
+            223.108
+          ],
+          "quote": "But the marketing, I think, is really one of the areas where Guinness was most standout.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            223.128,
+            226.031
+          ],
+          "quote": "I think Guinness Is Good For You is this iconic campaign.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 56,
+          "t": [
+            229.615,
+            236.983
+          ],
+          "quote": "The Toucan as well, the iconic Guinness Toucan Bird, and they've won more Cannes Lion advertising awards than",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 68,
+          "t": [
+            265.225,
+            269.468
+          ],
+          "quote": "These are the seven C's of Guinness quality standards.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 97,
+          "t": [
+            346.002,
+            347.423
+          ],
+          "quote": "By the way, do you need another Guinness?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "O'Brien 的核心类比对象：SpaceX 把入轨成本打下来之后才有 Starlink 这类新生意，他想在海洋上复制同一条路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1012.867,
+            1020.329
+          ],
+          "quote": "And part of your thesis is, if I understand this, just like SpaceX, if you lower the cost to orbit, then there's other things you can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1654.946,
+            1658.307
+          ],
+          "quote": "And it really, it is a religion that came out of SpaceX and Tesla.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "starlink",
+      "type": "company",
+      "role": "company",
+      "name": "Starlink",
+      "file": "Starlink",
+      "primary": true,
+      "how_described": "本集称之为对 Ulysses 巨大的赋能技术：水面艇靠它连网，实现远程诊断和对水下机器人的控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1020.429,
+            1023.469
+          ],
+          "quote": "You can do Starlink if you can get things up into orbit cheaply.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1791.32,
+            1794.581
+          ],
+          "quote": "Yeah, and it's connected then to Starlink, so we can see.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1794.882,
+            1796.682
+          ],
+          "quote": "And Starlink is a huge enabling technology for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2696.943,
+            2702.686
+          ],
+          "quote": "So then the idea is if you can, yeah, do that autonomously, you don't have any of the labor cost, you can control over Starlink.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2883.344,
+            2888.247
+          ],
+          "quote": "But if you really want to take a data center offline until we have Starlink and other",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "us-navy",
+      "type": "company",
+      "role": "company",
+      "name": "US Navy",
+      "file": "US Navy",
+      "primary": true,
+      "how_described": "Ulysses 的关键客户：第二年获首份合同做反水雷；其现役最常见自主水下航行器约 500 万美元一台，反衬 Ulysses 5 万美元入门款的价格优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            678.931,
+            696.163
+          ],
+          "quote": "So, yeah, there was a few very deliberate early design decisions which enabled us then when the US Navy comes knocking and says, hey, we've got some problems you'd like to just work on or offshore energy companies that, oh, well, because we made these early design decisions in the architecture, it's very easy for us to adapt.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2349.091,
+            2356.093
+          ],
+          "quote": "For contrast, the most common autonomous underwater vehicle that the US Navy is buying today is somewhere on the order of maybe $5 million.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "underwater-drones",
+      "type": "concept",
+      "role": "concept",
+      "name": "水下无人机 (underwater drones)",
+      "file": "水下无人机",
+      "primary": true,
+      "how_described": "本集核心产品品类：全球每年造约 2000 万台空中无人机，水下无人机只有一两千台，O'Brien 论点是要造几百万台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.592,
+            6.352
+          ],
+          "quote": "We need to build millions of underwater drones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1491.087,
+            1493.129
+          ],
+          "quote": "There's maybe 1,000 to 2,000 underwater drones.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1493.149,
+            1496.573
+          ],
+          "quote": "For us to really fully manifest our vision, we need to build millions of underwater drones.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
+      "primary": true,
+      "how_described": "本集说 Mako 的自主性还相对初级——画多边形自动生成割草机式测线、遇石绕行——但因为水下带宽极低，感知和决策完全在本地完成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 211,
+          "t": [
+            809.482,
+            820.485
+          ],
+          "quote": "And the core platform of under vehicle, sensing stack, nav stack, autonomy, and surface vehicle is something that can then go off and work with the folks in the energy sector.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1810.588,
+            1812.849
+          ],
+          "quote": "And that's been very important to our autonomy stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 421,
+          "t": [
+            1836.918,
+            1840.701
+          ],
+          "quote": "Yeah, like right now the autonomy is like relatively rudimentary.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1840.721,
+            1848.527
+          ],
+          "quote": "We haven't got into like very complex kind of like autonomy behaviors just yet, but not many of our tasks require it just yet, but yes.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "seagrass",
+      "type": "concept",
+      "role": "concept",
+      "name": "海草修复 (seagrass)",
+      "file": "海草修复",
+      "primary": true,
+      "how_described": "公司起点任务：海草覆盖 2% 海床却储存海洋 20% 的碳，约 20% 商业重要鱼种依赖它，而生态修复速度只有破坏速度的百分之一到千分之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.014,
+            22.156
+          ],
+          "quote": "The company started doing seagrass restoration and is now expanding into everything from mapping the seabed to keeping ports secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            419.789,
+            421.17
+          ],
+          "quote": "You started with Seagrass, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            421.19,
+            424.832
+          ],
+          "quote": "Maybe describe why you started with Seagrass and how you ended up pivoting to the robots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            508.953,
+            512.655
+          ],
+          "quote": "OK, so with seagrass, why does it need to be restored, period?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            552.76,
+            554.421
+          ],
+          "quote": "Okay, so it's important to restore the seagrass.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 157,
+          "t": [
+            560.424,
+            564.026
+          ],
+          "quote": "As part of the need to restore the seagrass, you ended up making an underwater robot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            568.188,
+            579.518
+          ],
+          "quote": "Yeah, we start solving the seagrass problem, but very quickly into solving that problem, it was very clear, wow, there's a lot of other similarly shaped problems in the ocean.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 190,
+          "t": [
+            702.147,
+            711.814
+          ],
+          "quote": "First of all, just for all the geeks, I'd love to hear why seagrass and how it compares as a carbon sequester compared to everything else out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            712.635,
+            717.478
+          ],
+          "quote": "Yeah, seagrass is your rapper's favorite rapper or something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            723.148,
+            729.553
+          ],
+          "quote": "You know, is the very good-looking friend or something like that that gets all the attention, but seagrass is really who you should be talking to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            731.495,
+            734.637
+          ],
+          "quote": "Carl gets a lot of the funding and seagrass is really this unsung hero of the ocean.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            776.92,
+            780.623
+          ],
+          "quote": "Well, you started the company to do seagrass restoration, and you're now mostly focused on the robot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            781.363,
+            784.426
+          ],
+          "quote": "You haven't left Seagrass because you're now working on Seagrass projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            785.087,
+            792.894
+          ],
+          "quote": "Fundamentally, the tech platform we're building, again, because we made these early design decisions, mean that you build the technology once that does the Seagrass restoration and then",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 212,
+          "t": [
+            820.945,
+            823.506
+          ],
+          "quote": "What do you have to do to restore seagrass?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            826.366,
+            830.507
+          ],
+          "quote": "So you have to map and understand where is there seagrass, where is there not.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            902.59,
+            905.871
+          ],
+          "quote": "But how do you choose Seagrass initially?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1102.67,
+            1109.392
+          ],
+          "quote": "If you want to go plant a bunch of seagrass, do you get approval from anyone on that, or is it just seagrass away?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "undersea-cables",
+      "type": "concept",
+      "role": "concept",
+      "name": "海底电缆 (undersea cables)",
+      "file": "海底电缆",
+      "primary": true,
+      "how_described": "本集称之为防御最薄弱的基础设施：全球约 200 条，承载洲际通信，被船锚刮断、定点破坏、监听都不难，关键水道应 24 小时持续监控但人工巡逻付不起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 637,
+          "t": [
+            2760.916,
+            2763.477
+          ],
+          "quote": "The undersea cables, how worried should we be about that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2924.73,
+            2934.654
+          ],
+          "quote": "Yeah, so we have about 200 undersea cables today, and they typically only get taken out by anchor-draggings accidental for the most part, some of them not.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vertical",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertical)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集重点讲的制造路线：从第一代 80% 现成零件到第五代把声呐、惯导转自研，因为海事供应链一年只产一两百个零件，必须搭上以百万为单位的电动车和消费电子供应链。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1318.187,
+            1329.756
+          ],
+          "quote": "And so we're going to, and for those components that seem like the supply chain might be dicey, we will literally make them from scratch so that we control everything, the entire vertical stack of our device.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-5090",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA 5090",
+      "file": "NVIDIA 5090",
+      "primary": false,
+      "how_described": "本集提到 Mako 机载跑一整块 NVIDIA 5090 加 Intel CPU，算力约为其他自主水下航行器的 100 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 416,
+          "t": [
+            1806.306,
+            1810.128
+          ],
+          "quote": "We run a full NVIDIA 5090 onboard with an Intel CPU.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "被顺带提及：主持人所在公司，其杂志 Works in Progress 在中段插播；O'Brien 也说自己一直敬重像 Stripe 这样的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            328.868,
+            333.052
+          ],
+          "quote": "I've always revered technology and revered companies like Stripe and others and whatever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1237.673,
+            1244.355
+          ],
+          "quote": "One of my favorite parts of Stripe is Works in Progress, our magazine dedicated to new ideas driving economic and technological progress.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1607.309,
+            1609.39
+          ],
+          "quote": "It's not unlike what you guys have done with Stripe.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

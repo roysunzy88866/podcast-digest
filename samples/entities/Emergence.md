@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Garry Tan]] · [[David Silver]] · [[技能文件]] · [[Ineffable Intelligence]] · [[上下文工程]] · [[DeepMind]] · [[公司大脑]] · [[AlphaGo]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Garry Tan":2,"David Silver":1,"技能文件":4,"Ineffable Intelligence":1,"上下文工程":18,"DeepMind":19,"公司大脑":3,"AlphaGo":4,"RAG":30}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Garry Tan":2,"David Silver":1,"技能文件":4,"Ineffable Intelligence":1,"上下文工程":19,"DeepMind":19,"公司大脑":3,"AlphaGo":4,"RAG":31}</script>
 
 <script>
 (function(){

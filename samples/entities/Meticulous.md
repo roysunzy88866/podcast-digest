@@ -33,7 +33,7 @@ unlisted: true
 
 [[Gabriel Spencer-Harper]] · [[验证]] · [[基于断言的测试]] · [[代码覆盖率]] · [[确定性]] · [[pull request]]
 
-<script type="application/json" class="pd-epn">{"Gabriel Spencer-Harper":1,"验证":2,"基于断言的测试":1,"代码覆盖率":1,"确定性":6,"pull request":7}</script>
+<script type="application/json" class="pd-epn">{"Gabriel Spencer-Harper":1,"验证":3,"基于断言的测试":1,"代码覆盖率":1,"确定性":6,"pull request":7}</script>
 
 <script>
 (function(){

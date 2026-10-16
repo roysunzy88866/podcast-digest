@@ -279,7 +279,9 @@
     "cSz7aL2nl2U": "2026-10-09-talks-why-your-company-needs-a-context-graph-a",
     "oVKGKdIAgtg": "2026-10-09-talks-three-questions-every-agent-engineer-sho",
     "uuwDWRbxoYo": "2026-10-09-talks-ai-writes-more-prs-who-validates-them-al",
-    "7v2myBde05o": "2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th"
+    "7v2myBde05o": "2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th",
+    "ORVh4GivEU0": "2026-10-10-talks-beyond-rag-a-relational-context-engine-t",
+    "TyPpSRXGhbc": "2026-10-10-talks-small-models-big-results-training-a-fina"
   },
   "blocked": {
     "2025-06-19-lennys-ai-prompt-engineering-in-2025-sander-sch": 1
@@ -289,16 +291,14 @@
     "2026-09-18-twist-hugging-face-co-founder-on-open-source-m": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9908320817.mp3",
     "2026-09-02-twist-vc-experts-on-why-physical-ai-funding-is": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT7305736664.mp3",
     "2026-08-28-twist-breaking-down-nvidia-s-hugging-face-and": "https://rss.podscribe.ai/p/traffic.megaphone.fm/LTANT9523716331.mp3",
-    "2026-09-30-pragmatic-distributed-databases-with-peter": "https://api.substack.com/feed/podcast/217889431/bba96d28746310eb65c6f215045feb9f.mp3",
-    "2026-10-14-pragmatic-ubers-ai-infra-from-the-inside": "https://api.substack.com/feed/podcast/220071064/bd8e63e86d1fcf09a618b7402be21faa.mp3"
+    "2026-09-30-pragmatic-distributed-databases-with-peter": "https://api.substack.com/feed/podcast/217889431/bba96d28746310eb65c6f215045feb9f.mp3"
   },
   "transient": {
     "2026-08-03-pmf-he-fired-almost-everyone-kept-2-engineer": 1,
     "2026-09-15-talks-5-voice-agent-failure-modes-you-ll-hit-i": 1,
     "2026-09-21-lennys-how-warp-ships-2000-prs-a-month-with": 1,
     "2026-10-06-knowledge-charlie-munger-s-interview-with-todd-com": 1,
-    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1,
-    "2026-10-14-pragmatic-ubers-ai-infra-from-the-inside": 1
+    "2026-10-06-ainativedev-legora-cto-why-ai-agents-need-more-than": 1
   },
   "redoDone": {
     "2026-10-02-nopriors-the-future-of-frontier-model-architectur": "feed 里已找不到",
@@ -582,7 +582,7 @@
     "twentyvc": "2026-10-15T07:07:00.000Z",
     "cogrev": "2026-10-14T07:50:16.000Z",
     "knowledge": "2026-10-13T10:00:00.000Z",
-    "pragmatic": "2026-10-07T17:19:58.000Z",
+    "pragmatic": "2026-10-14T17:06:56.000Z",
     "practicalai": "2026-10-15T13:32:00.000Z",
     "changelog": "2026-10-09T19:00:00.000Z",
     "devtools": "2026-09-03T01:59:52.000Z",
@@ -594,7 +594,7 @@
     "indepth": "2026-08-27T11:00:00.000Z",
     "uncapped": "2026-10-01T09:00:00.000Z",
     "pmf": "2026-10-12T09:00:00.000Z",
-    "cheekypint": "2026-10-12T19:16:55.000Z",
+    "cheekypint": "2026-10-15T11:50:00.000Z",
     "productpodcast": "2026-10-14T19:00:00.000Z",
     "ainativedev": "2026-10-13T12:00:00.000Z",
     "newcomer": "2026-10-13T22:06:35.000Z",
@@ -1611,6 +1611,12 @@
       "reason": "题材不对味:属❌②多话题新闻速览:一期标题拼四条新闻(pro-rata诉讼/Meta模型/NVIDIA收购/Jev融资)的快讯拼盘体",
       "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
       "pubDate": "2026-10-15T07:07:00.000Z"
+    },
+    {
+      "id": "2026-10-10-talks-small-models-big-results-training-a-fina",
+      "reason": "导读/实体事实层未过(删句兜底删不下,重做一次浓缩后仍未过)",
+      "title": "Small Models, Big Results: Training a Finance Agent for Under $500 — Charles Dickens, Snorkel AI",
+      "pubDate": "2026-10-10T00:00:00.000Z"
     }
   ]
 }

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]] [[David Booth]]
+[[Will O'Brien]] [[Tim Herbig]] [[Aaron Goldsmid]] [[Alex Cornell]] [[Arvind Srinivas]] [[Josh Woodward]] [[Felipe Blanes]] [[Kent C. Dodds]] [[Sarah Simionescu]] [[Andrii Hrytseniuk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":115,"Claude":98,"GPT":4}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Whoop":1,"行为激活":1,"心智模型":1,"奖励循环":1,"ChatGPT":115,"Claude":99,"GPT":4}</script>
 
 <script>
 (function(){

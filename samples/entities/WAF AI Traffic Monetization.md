@@ -25,7 +25,7 @@ unlisted: true
 
 [[Anil Nadiminti]] · [[智能体]] · [[智能体电商]] · [[X402]] · [[AgentCore Payments]] · [[AWS]] · [[Coinbase]] · [[Stripe]] · [[Anthropic]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Anil Nadiminti":1,"智能体":1,"智能体电商":1,"X402":3,"AgentCore Payments":1,"AWS":24,"Coinbase":8,"Stripe":51,"Anthropic":206,"护栏":92}</script>
+<script type="application/json" class="pd-epn">{"Anil Nadiminti":1,"智能体":1,"智能体电商":1,"X402":3,"AgentCore Payments":1,"AWS":24,"Coinbase":8,"Stripe":52,"Anthropic":206,"护栏":92}</script>
 
 <script>
 (function(){

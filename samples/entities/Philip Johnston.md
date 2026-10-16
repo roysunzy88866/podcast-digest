@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":25,"SpaceX":22,"NVIDIA":71,"发射成本":1,"H100":1,"基准测试":3,"相变材料":1,"辐射":1,"McKinsey":7}</script>
+<script type="application/json" class="pd-epn">{"StarCloud":3,"数据中心":25,"SpaceX":23,"NVIDIA":71,"发射成本":1,"H100":1,"基准测试":3,"相变材料":1,"辐射":1,"McKinsey":7}</script>
 
 <script>
 (function(){

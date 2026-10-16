@@ -41,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Amazon]] · [[Cursor]] · [[隐私]] · [[Meta]] · [[11 Labs]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":207,"Google":72,"Amazon":36,"Cursor":87,"隐私":3,"Meta":56,"11 Labs":4,"Claude":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":207,"Google":72,"Amazon":36,"Cursor":87,"隐私":3,"Meta":56,"11 Labs":4,"Claude":99}</script>
 
 <script>
 (function(){

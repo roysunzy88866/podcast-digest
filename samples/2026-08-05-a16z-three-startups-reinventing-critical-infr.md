@@ -133,7 +133,7 @@ Doug 对核能行业现状有一个非常耸人听闻、但他坚称完全真实
 
 - [[2026-09-29-generalist-periodic-labs-a-chatbot-walks-into-a-lab|让 AI 走进实验室:两位 OpenAI、DeepMind 老将为什么押注超导体]]<span class="pd-rz">同概念:LLMs、强化学习 (reinforcement learning)</span>
 - [[2026-09-06-a16z-your-ai-doctor-is-coming-julie-yoo-yemlp|为什么医疗是 AI 受益最大的行业: Julie Yu 的判断]]<span class="pd-rz">同公司:A16Z · 同概念:LLMs</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同概念:强化学习 (reinforcement learning)</span>
+- [[2026-10-15-cheekypint-the-company-building-underwater-drones-f|一台 5 万美元的水下机器人，想把海洋变成下一个前沿]]<span class="pd-rz">同公司:Ulysses、SpaceX</span>
 
 </div>
 <div class="pd-ex">

@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":7,"Sequin":1,"排序模型":1,"大型事件模型":1,"隐式反馈":1,"Rust":8,"TikTok":8,"Amazon":36,"RAG":30}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":7,"Sequin":1,"排序模型":1,"大型事件模型":1,"隐式反馈":1,"Rust":8,"TikTok":8,"Amazon":36,"RAG":31}</script>
 
 <script>
 (function(){

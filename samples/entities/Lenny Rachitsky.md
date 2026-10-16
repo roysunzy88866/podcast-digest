@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":14,"Medium":1,"Stripe":51,"简报":2,"播客":2,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":14,"Medium":1,"Stripe":52,"简报":2,"播客":2,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

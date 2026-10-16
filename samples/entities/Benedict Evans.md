@@ -64,11 +64,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"Anthropic":206,"基础模型":7,"AGI":29,"Lenny":69,"Jacob Efron":2,"Google":72,"TSMC":9,"Meta":56,"LLM":65}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"Anthropic":206,"基础模型":7,"AGI":29,"Lenny":69,"Jacob Efron":2,"Google":72,"TSMC":9,"Meta":56,"LLM":66}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Uber</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>19</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Uber">UB</div><div class="pi"><h1 class="pt">Uber</h1><div class="byl">公司</div><div class="nums">本站收录 <b>20</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -30,10 +30,11 @@ unlisted: true
 - **[[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]]**(27:18起):本集回望网约车史：Uber 用好 10 倍的产品把旧金山 1 亿美元出租车市场变成 10 亿，以此类比自动驾驶的下一个 10 倍扩张。
 - **[[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]]**(20:19起):本集借 Uber 前高管的话说：Uber 本不想要那么多服务，只是因为大单体拖慢交付才下死命令「一切新功能必须是独立服务」，结果服务数量失控；后又在按业务领域考虑合并。
 - **[[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]]**(04:22起):本集举例:Uber 在年初几周内就用光了全年的 AI 使用消耗预算。
+- **[[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside|《造好地基再上AI：Uber工程师的内部工具全景》]]**(00:00起):本集聚焦 Uber 内部为 AI 智能体开发构建的近二十多个系统，嘉宾 Uday 2015 年加入、如今领导公司智能体 AI 平台的工作
 
 ## ① 提到它的金句
 
-*4 条*
+*6 条*
 
 ![[2026-07-22-a16z-travis-kalanick-is-back-building-the-fut#^q1]]
 
@@ -43,9 +44,13 @@ unlisted: true
 
 ![[2026-08-13-twentyvc-20vc-canva-slashes-growth-how-much-is-it#^q5]]
 
+![[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside#^q2]]
+
+![[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside#^q6]]
+
 ## ② 出现在这些集
 
-*19 集*
+*20 集*
 
 - [[2024-05-16-talks-fermat-ceo-rishabh-jain-on-reinventing-d|《追踪失效之后：Fermat CEO 谈 AI 如何重写电商获客》]] — 作为被讨论公司(提及)
 - [[2025-06-22-lennys-the-quiet-architect-peter-deng|《Peter Deng：产品不必是最重要的东西》]] — 作为被讨论公司
@@ -66,6 +71,7 @@ unlisted: true
 - [[2026-10-01-uncapped-uncapped-58--david-george-from-a16z-e3pl|《一切都会成功：a16z 投资人 David 的 AI 全栈乐观主义》]] — 作为被讨论公司(提及)
 - [[2026-10-07-pragmatic-building-resilient-systems-with-sam|《写出最火微服务书籍的人，为什么说微服务是“最后的手段”？》]] — 作为被讨论公司
 - [[2026-10-07-talks-every-ai-company-is-accidentally-buildin|《每家 AI 公司都在不知不觉间盖了一座银行》]] — 作为被讨论公司(提及)
+- [[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside|《造好地基再上AI：Uber工程师的内部工具全景》]] — 作为被讨论公司
 
 ## ③ 关联
 

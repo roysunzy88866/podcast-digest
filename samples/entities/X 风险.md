@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Martin Casado]] · [[Benjamin Mann]] · [[Steven Sinofsky]] · [[Anthropic]] · [[Aaron Levie]] · [[OpenAI]] · [[智能体集群]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":69,"Martin Casado":7,"Benjamin Mann":1,"Steven Sinofsky":4,"Anthropic":206,"Aaron Levie":3,"OpenAI":207,"智能体集群":1,"Claude":98}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Lenny":69,"Martin Casado":7,"Benjamin Mann":1,"Steven Sinofsky":4,"Anthropic":206,"Aaron Levie":3,"OpenAI":207,"智能体集群":1,"Claude":99}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"后训练":1,"强化学习":1,"评估":1,"RAG":30,"数据准备":1,"测试时计算":5,"系统思维":5,"采样策略":1,"监督微调":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"后训练":1,"强化学习":1,"评估":1,"RAG":31,"数据准备":1,"测试时计算":5,"系统思维":5,"采样策略":1,"监督微调":2}</script>
 
 <script>
 (function(){

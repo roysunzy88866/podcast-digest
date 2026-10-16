@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Hart Aerospace":1,"电动马达":1,"喷气发动机":1,"混动":2,"SpaceX":22,"电池":1}</script>
+<script type="application/json" class="pd-epn">{"Hart Aerospace":1,"电动马达":1,"喷气发动机":1,"混动":2,"SpaceX":23,"电池":1}</script>
 
 <script>
 (function(){

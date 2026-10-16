@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Carlos Kelpbaum]] [[James Norman]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]] [[Em Shreve]] [[Garrett Galow]]
+[[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Ali-Reza Adl-Tabatabai]] [[Dominik Kundel]] [[Pedro Lopez]] [[Gabriel Martinez]] [[Greg Pstrucha]] [[Ankit Shukla]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"LinkedIn":6,"编码智能体":35,"MCP":97,"剧本":4,"上下文工程":18,"AI 基础设施":6}</script>
+<script type="application/json" class="pd-epn">{"LinkedIn":6,"编码智能体":35,"MCP":97,"剧本":4,"上下文工程":19,"AI 基础设施":6}</script>
 
 <script>
 (function(){

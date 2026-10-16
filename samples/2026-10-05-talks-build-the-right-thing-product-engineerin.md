@@ -202,9 +202,9 @@ Wayne Allen 在澳洲一家房地产公司的教训值得每个人记住：
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-10-10-talks-beyond-rag-a-relational-context-engine-t|上下文引擎:让AI不再像新员工一样瞎摸]]<span class="pd-rz">同概念:想法验证 (validation)、智能体 (agent)</span>
 - [[2026-05-27-devtools-cloudflare-devs|Cloudflare 三人聊：让模型直接写代码，别再堆工具了]]<span class="pd-rz">同公司:Cloudflare · 同概念:智能体 (agent)</span>
 - [[2026-09-27-talks-no-that-s-not-a-software-factory-ryan-co|WorkOS 的软件工厂：别只盯着 AI 写了多少代码]]<span class="pd-rz">同公司:WorkOS · 同概念:智能体 (agent)</span>
-- [[2025-07-17-lennys-inside-every-dan-shipper|Dan Shipper：15人零手写代码，AI原生公司怎么运转]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">

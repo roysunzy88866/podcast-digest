@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":67,"多智能体系统":1,"确定性":6,"Saga(晚绑定的 saga)":1,"持久性":2,"SRE 智能体":1,"LLM":65,"Conductor":3,"Kubernetes":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":67,"多智能体系统":1,"确定性":6,"Saga(晚绑定的 saga)":1,"持久性":2,"SRE 智能体":1,"LLM":66,"Conductor":3,"Kubernetes":20}</script>
 
 <script>
 (function(){

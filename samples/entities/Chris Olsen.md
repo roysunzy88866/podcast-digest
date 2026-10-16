@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
+[[Terry Angelos]] [[Kevin Roose]] [[Will O'Brien]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Turner":3,"Sequoia":7,"Path Robotics":1,"LLM":65,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":32,"第一性原理":6}</script>
+<script type="application/json" class="pd-epn">{"Turner":3,"Sequoia":7,"Path Robotics":1,"LLM":66,"云计算":4,"真空":1,"主题化投资":1,"投资组合构建":2,"产品市场契合":32,"第一性原理":6}</script>
 
 <script>
 (function(){

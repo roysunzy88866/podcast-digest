@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Merge":3,"上下文图":4,"MCP":97,"实时 API 调用":1,"同步缓存数据":1,"技能":35,"记忆":30,"派生上下文":1,"向量数据库":9,"可追溯性":2}</script>
+<script type="application/json" class="pd-epn">{"Merge":3,"上下文图":5,"MCP":97,"实时 API 调用":1,"同步缓存数据":1,"技能":35,"记忆":30,"派生上下文":1,"向量数据库":9,"可追溯性":2}</script>
 
 <script>
 (function(){

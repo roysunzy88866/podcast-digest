@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]] [[Owen He]]
+[[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Aaron Goldsmid]] [[Dr. Wara]] [[Jason Ma]] [[Dyna Robotics]] [[David Silver]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":4,"知识图谱":8,"推理记忆":1,"技能":35,"APE":1,"NAMS":1,"技能蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":5,"知识图谱":8,"推理记忆":1,"技能":35,"APE":1,"NAMS":1,"技能蒸馏":1}</script>
 
 <script>
 (function(){

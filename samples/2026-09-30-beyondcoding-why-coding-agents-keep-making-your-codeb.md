@@ -194,8 +194,8 @@ Dex 的 crusade 是：到底什么东西真正管用？从第一性原理建立�
 **顺着「AI 编程」挖下去**
 
 - [[2026-09-22-ainativedev-dexter-horthy-why-we-stopped-trusting-ai|软件工厂的教训：不读代码的四五个月后，我们重写了整个产品]]<span class="pd-rz">同概念:上下文工程 (context engineering)、代码评审 (code review)、智能体 (agent)</span>
+- [[2026-10-14-pragmatic-ubers-ai-infra-from-the-inside|造好地基再上AI：Uber工程师的内部工具全景]]<span class="pd-rz">同概念:上下文工程 (context engineering)、代码评审 (code review)、智能体 (agent)</span>
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|AI 生成的代码到底行不行：百万 PR 数据给出的答案]]<span class="pd-rz">同概念:代码评审 (code review)、智能体 (agent)、Claude、Codex</span>
-- [[2026-09-09-pragmatic-building-codex-with-tibo-sottiaux|Codex 负责人亲述:OpenAI 内部如何造编程智能体]]<span class="pd-rz">同概念:代码评审 (code review)、智能体 (agent)、Codex</span>
 
 </div>
 <div class="pd-ex">

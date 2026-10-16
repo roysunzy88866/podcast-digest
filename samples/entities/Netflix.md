@@ -47,7 +47,7 @@ unlisted: true
 
 [[智能体]] · [[Google]] · [[LLM]] · [[OpenAI]] · [[AI]] · [[Anthropic]] · [[TikTok]] · [[Meta]] · [[Lenny]] · [[Victor Riparbelli]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"LLM":65,"OpenAI":207,"AI":34,"Anthropic":206,"TikTok":8,"Meta":56,"Lenny":69,"Victor Riparbelli":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Google":72,"LLM":66,"OpenAI":207,"AI":34,"Anthropic":206,"TikTok":8,"Meta":56,"Lenny":69,"Victor Riparbelli":1}</script>
 
 <script>
 (function(){

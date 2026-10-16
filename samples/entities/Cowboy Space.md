@@ -25,7 +25,7 @@ unlisted: true
 
 [[Baiju Bhatt]] · [[Robinhood]] · [[SpaceX]] · [[太空数据中心]] · [[近地轨道]] · [[单位经济]] · [[垂直整合]] · [[太空太阳能]] · [[产品市场契合]]
 
-<script type="application/json" class="pd-epn">{"Baiju Bhatt":1,"Robinhood":4,"SpaceX":22,"太空数据中心":1,"近地轨道":1,"单位经济":3,"垂直整合":1,"太空太阳能":1,"产品市场契合":32}</script>
+<script type="application/json" class="pd-epn">{"Baiju Bhatt":1,"Robinhood":4,"SpaceX":23,"太空数据中心":1,"近地轨道":1,"单位经济":3,"垂直整合":1,"太空太阳能":1,"产品市场契合":32}</script>
 
 <script>
 (function(){
