@@ -1,0 +1,227 @@
+{
+  "title_zh": "Stripe 一号员工为什么去买了一家银行",
+  "tldr": "Stripe 首位员工 Darragh Buckley 讲述他创办 Increase、买下银行、直接对接美联储的经过。",
+  "digest_md": "Darragh Buckley 是 Stripe 的第一位员工。2010 年加入这家由 Limerick 同乡 Collison 兄弟创办的公司时，他负责的是银行相关事务。如今他创办的 Increase 每年处理超过 5000 亿美元的支付流水，而他在一年多前做了一件更彻底的事：买下了一家真实的银行。他在 The Peel 播客里聊了这整段经历，以及他在 Stripe 学到的那些东西。\n\n## 在 Stripe 造产品，为什么总像穿着别人的鞋\n\nStripe 早期建在一批合作银行之上，Darragh 的感受是：始终像穿着别人的鞋，尺码总有点不对。\n\n一个例子：Stripe 从 Visa 收到钱，要打给平台上的商户。大额转账最自然的方式是电汇，但 Stripe 一直很犹豫——因为电汇失败时，银行伙伴会发一封邮件说这笔电汇没送出去，请你自己去修。你没法在这种手工流程上造出一个让自己骄傲的产品 [03:02 Darragh]。\n\n更典型的是 ACH(美国的银行转账系统)的退回对账。ACH 文件里有个叫 trace ID 的字段，本该用来标识每笔交易，但经过 Wells Fargo 的处理后传不到 Stripe 手里。结果 Stripe一度组了一个几十人的团队，专门靠启发式规则去猜哪笔退回对应哪笔交易 [04:38 Darragh]。不是谁的错——银行系统本来就不是为程序员设计的。\n\n## 他的答案：不是再加一层，而是往下重建一层\n\n在 Darragh 看来，今天的银行业很像 2010 年的支付行业。当年的模式是：你去银行拿一个商户号，再到 Authorize.net 这类网关获得编程接口——两个公司干一件事。Stripe 的洞见是把它们合并成一个产品，开发者周日晚上就能注册开通。\n\n而今天的金融科技公司建在银行之上，中间隔着 API 层，结构一模一样。Darragh 认为这是错的：「**我们需要的是一家有技术肌肉的银行，而不是继续在银行技术上叠加层级**」[14:02 Darragh]。Increase 做的就是替换掉银行的核心系统(记录余额和交易的那套东西)加上外面的 API 层，就像 Stripe 当年做的那样。\n\n关键差别在于产品哲学。Stripe 为普通开发者造漂亮的抽象；Increase 面向的是 Ramp、Gusto 这类本身就是支付公司的客户，他们要的是原样透传——API 参数的名字都和网络层的叫法一致，不做任何包装 [35:02 Darragh]。\n\n## 直接连美联储，比想象中靠谱\n\nIncrease 的系统直接和美联储的 FedACH、Fedwire、FedNow 等网络对话，而不是通过中间银行转一手。中间商转手时，数据可能被改动；Stripe 拿不到的数据，也没法暴露给自己的客户——别人的抽象限制了你能做的事 [30:49 Darragh]。\n\n美联储这一层本身质量出奇地好。一年半前，Fedwire 系统整体切换到国际标准 ISO 20022,需要全美金融机构同一时刻硬切换——听起来像 Y2K 级别的灾难，结果靠几个月的规划和测试平稳完成，外人根本没听说过这件事 [32:27 Darragh]。\n\n他的结论：**美国的底层存款网络其实很棒，缺的是最后一公里**——把它产品化、暴露出来的那一层。\n\n## 怎么买一家银行：先开一场谁都不承认的会\n\n买银行比买公司古怪。银行不能公开说自己要卖——一旦消息传开，放贷的员工会先跑光，而贷款是银行的核心资产。于是行业里有个名字很妙的年会，叫「Acquire or Be Acquired」,去的每家银行都声称自己只买不卖 [19:05 Darragh]。\n\nDarragh 最早在 2023 年想买华盛顿州的 Washington Business Bank,走到监管审批后期，监管方的回复大意是：你人不错，但你先去银行董事会坐一阵子，我们互相了解一下。他照做了，在董事会学到了很多——比如银行必须守住自己的放贷专长，别去追风口。2010 年前后一批社区银行盲目上马金融科技合作，最后引来监管整顿，教训就是能力跟不上野心 [22:17 Darragh]。\n\n最终他买下的是 Twin City Bank——一家华盛顿州特许的小银行，离他在俄勒冈州中部的家不远，上个月刚改名为 Increase Bank。但他强调，买下只是开始：不能简单贴个 API 就完事，合规体系必须从一开始就写进代码里。\n\n## 把监管检查当成每天跑的自动化测试\n\n==合规怎么和工程结合==？Darragh 举了个例子：汇款超过 3000 美元时适用一条叫旅行规则的监管要求，规定哪些数据必须随钱一起传输。正确做法是在建汇款系统的第一天就把它写进去，而不是等第一次审计时再打补丁 [26:39 Darragh]。\n\n他的方法论来自工程：怎么擅长做难事？多做。就像工程师每天部署几十次，监管检查也应该每天对自己跑多遍，让那种「检查通过后松一口气」的感觉趋于零 [28:03 Darragh]。\n\n这也是 Increase 团队极小的原因——据 LinkedIn 大约 33 人撑起超过 5000 亿美元的年流水。很多金融机构的运营团队，本质上是在为底层抽象的漏洞打补丁；把底层修好，人就不用那么多 [43:16 Darragh]。前提是安全，他特意强调。\n\n## Stripe 早期教会他的事：跑着搬箱子\n\nDarragh 和 Collison 兄弟在爱尔兰 Limerick 长大，在美国读大学时走得更近，2010 年以第一号员工身份加入。他之前在 Lehman Brothers 工作过——按现在的标准看，那根本不算懂银行。\n\n有两个场景他印象最深。一次是早期接入信用卡网络，对方说下一个认证窗口在六周后，团队问有没有更早的——明天上午十点，但你们肯定准备不好。他们要了那个时间，通宵干完 150 个测试用例，早上八点跑去 Fry's 买电话线零件，十点接上，十点全部通过 [51:57]，当天跑通了公司第一笔真实交易 [51:57 Darragh]。\n\n另一个更小：搬进第一个办公室，去宜家买了六套桌椅。卸货时，别人搬一箱走回去搬下一箱；John 和 Patrick 放下箱子之后是小跑着回去的。「==如果周围的人都在跑，你会是唯一一个走路的吗==？」[58:08 Darragh] 他认为 Collison 兄弟最厉害的能力之一，就是用友善而非施压的方式制造这种紧迫感。\n\n## 防欺诈没有捷径：先人肉看每一笔交易\n\n有位金融业高管曾点破：Stripe 表面上是支付公司，实际上是防欺诈公司。支付天然吸引坏人，而欺诈的根源是身份问题——在线身份验证没解决，欺诈就解决不了 [61:24 Darragh]。\n\n他给支付创业公司的建议很朴素：**在每天 5000 笔交易之前，应该有人肉眼看每一笔**。你可以提前设计各种风控系统，但没见过数据之前你不会知道模式长什么样。你脑子里有一个很有效的神经网络，去用它 [63:43 Darragh]。\n\n## 他连 AI 助手都配了银行账户\n\nDarragh 现在给自己的 AI 智能体发支付卡。智能体有自己的银行账户，账户里有多少花多少，花完了会来要：「给我的 100 美元用完了，能再给点吗？」[66:36 Darragh]\n\n他刻意不坐在同步审批环节里——如果每笔交易都要他确认，智能体就会因超时陷入循环。控制手段很简单：只能花账户里的钱。而且智能体不需要加密货币或专门的接口，给它一张卡、16 位卡号，互联网上现有的结账页面就全能用了。\n\n## 银行业最好的状态，是无聊\n\n谈到启发他的人，Darragh 提到 Anthropic 联合创始人 Tom Brown 早年的一篇文章：用无聊的技术。别为每个场景挑最精巧的工具，复杂性本身是有代价的 [70:03 Darragh]。\n\n他把这条原则用到极致：如果朋友是空管员，见面时说今天上班特别刺激，你会害怕。银行也一样——「我想让你希望你的银行家度过平淡无奇的一天」[72:01 Darragh]。基础设施就该像水和电，无事发生，就是最好的状态。\n\n## 本集带走\n\n- 建在别人系统上，别人的抽象会限制你能造的产品——Stripe 当年为 ACH 退回对账养了数十人团队，根因是一个传丢的数据字段\n- Increase 的打法不是在银行技术上加 API 层，而是替换掉银行核心系统本身，再直接对接美联储等底层网络\n- 买银行要过 10% 和 25% 两道持股审批门槛；银行不能公开说自己要卖，行业靠名为「Acquire or Be Acquired」的年会和投资银行家牵线\n- 合规要像工程测试一样从第一天写进代码、每天自动跑，而不是等审计时打补丁\n- 防欺诈的起点是人工：每天 5000 笔交易之前，应该有人看每一笔",
+  "quotes": [
+    {
+      "en": "Like you're always wearing someone else's shoes, right? Like something always felt a little off, be it the size or the scale.",
+      "zh": "就像你总是穿着别人的鞋，对吧？总有些东西感觉不太对，无论是尺寸还是规模。",
+      "timestamp": "02:09",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "There was a stone in your shoe and you were trying to explain to someone why the stone in your shoe was super annoying. But they can't see the stone in your shoe.",
+      "zh": "就像你鞋里有块石头，而你在努力向别人解释为什么鞋里的石头特别烦人。但他们看不见你鞋里的那块石头。",
+      "timestamp": "03:06",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "One of us should surely go back and do a redo of the foundations. And that's what prompted increase.",
+      "zh": "我们当中总该有人回去把地基重做一遍。而这就是催生 Increase 的原因。",
+      "timestamp": "05:30",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "Why is it messed up is a fascinating trigger question for like, oh, I'm about to learn something instead, right?",
+      "zh": "「为什么它搞砸了」是一个很妙的引子问题，意味着，哦，我即将学到一些东西，对吧？",
+      "timestamp": "09:41",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "What we need is a bank with a technology muscle. We don't need to keep adding layers up on top of bank technology.",
+      "zh": "我们需要的是一家有技术实力的银行。我们不需要继续在银行技术之上不断叠加层级。",
+      "timestamp": "14:02",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "And the way you get good at doing hard things is by doing them more often, right?",
+      "zh": "而你擅长做难事的方法就是更频繁地做它们，对吧？",
+      "timestamp": "28:39",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "Someone else's abstraction places a limit on what you can do.",
+      "zh": "别人的抽象会限制你能做的事情。",
+      "timestamp": "30:49",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "Stripe maintained it to a higher headcount than Facebook maintained it to. Facebook maintained it to a higher headcount than Google maintained it to.",
+      "zh": "Stripe 把这种文化维持到了比 Facebook 更高的员工规模。Facebook 把它维持到了比 Google 更高的员工规模。",
+      "timestamp": "46:33",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "And if you're in an environment where someone else is running, are you going to be the one person who's not running? Like, of course not.",
+      "zh": "而且如果你所处的环境里别人都在跑，你会是那个唯一不跑的人吗？比如，当然不会。",
+      "timestamp": "58:10",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "If you're able to tell me how to properly solve the identity problem, I will be able to tell you how to solve the fraud problem.",
+      "zh": "如果你能告诉我如何妥善地解决身份问题，我就能告诉你如何解决欺诈问题。",
+      "timestamp": "61:24",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "You have a pretty effective neural net between your ears. You should go use it.",
+      "zh": "你两耳之间有一个相当有效的神经网络。你应该去用它。",
+      "timestamp": "63:43",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "Now I'm able to give my agents payment cards, right? Agents have their own bank account.",
+      "zh": "现在我能够给我的智能体发支付卡了，对吧？智能体拥有自己的银行账户。",
+      "timestamp": "66:23",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "It's okay to do something in the wholly uneventful way. It doesn't need to seem bright or clever. It just needs to seem maintainable.",
+      "zh": "以一种完全没有波澜的方式去做一件事是可以的。它不需要看起来光鲜或聪明。它只需要看起来可维护。",
+      "timestamp": "70:43",
+      "speaker": "Darragh Buckley"
+    },
+    {
+      "en": "I think you want your banker to, in fact, enjoy uneventful days.",
+      "zh": "我想你希望你的银行家，事实上，享受没有波澜的日子。",
+      "timestamp": "72:01",
+      "speaker": "Darragh Buckley"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:38",
+      "speaker": "Dara",
+      "en": "Like you're always wearing someone else's shoes, right? Like something always felt a little off, be it the size or the scale.",
+      "zh": "就像你总是穿着别人的鞋，对吧？总有些东西感觉不太对，无论是尺寸还是规模。"
+    },
+    {
+      "timestamp": "02:49",
+      "speaker": "Dara",
+      "en": "And it's just hard to build a product that you're proud of up on top of those kind of manual flows.",
+      "zh": "要在这种手工流程之上打造一个让你引以为豪的产品实在太难了。"
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Dara",
+      "en": "There was a stone in your shoe and you were trying to explain to someone why the stone in your shoe was super annoying. But they can't see the stone in your shoe.",
+      "zh": "就像你鞋里有块石头，而你在努力向别人解释为什么鞋里的石头特别烦人。但他们看不见你鞋里的那块石头。"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Dara",
+      "en": "The alternative is that you end up growing large manual operations teams, or worse, just like not building that product, right?",
+      "zh": "否则的话，你最终会养起庞大的手动运营团队，或者更糟，干脆就不做那个产品了，对吧？"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Dara",
+      "en": "One of us should surely go back and do a redo of the foundations. And that's what prompted increase.",
+      "zh": "我们当中总该有人回去把地基重做一遍。而这就是催生 Increase 的原因。"
+    },
+    {
+      "timestamp": "09:41",
+      "speaker": "Dara",
+      "en": "Why is it messed up is a fascinating trigger question for like, oh, I'm about to learn something instead, right?",
+      "zh": "「为什么它搞砸了」是一个很妙的引子问题，意味着，哦，我即将学到一些东西，对吧？"
+    },
+    {
+      "timestamp": "14:02",
+      "speaker": "Dara",
+      "en": "What we need is a bank with a technology muscle. We don't need to keep adding layers up on top of bank technology.",
+      "zh": "我们需要的是一家有技术实力的银行。我们不需要继续在银行技术之上不断叠加层级。"
+    },
+    {
+      "timestamp": "25:57",
+      "speaker": "Dara",
+      "en": "Like it's very useful if you're able to embed the compliance regimes as code early on.",
+      "zh": "如果你能够在早期就把合规制度作为代码嵌入进去，那会非常有用。"
+    },
+    {
+      "timestamp": "28:39",
+      "speaker": "Dara",
+      "en": "And the way you get good at doing hard things is by doing them more often, right?",
+      "zh": "而你擅长做难事的方法就是更频繁地做它们，对吧？"
+    },
+    {
+      "timestamp": "30:49",
+      "speaker": "Dara",
+      "en": "Someone else's abstraction places a limit on what you can do.",
+      "zh": "别人的抽象会限制你能做的事情。"
+    },
+    {
+      "timestamp": "35:16",
+      "speaker": "Dara",
+      "en": "Very much so. Our users and use cases are like, are those technology companies building financial products for others?",
+      "zh": "非常如此。我们的用户和用例就是那些为别人构建金融产品的科技公司。"
+    },
+    {
+      "timestamp": "43:03",
+      "speaker": "Dara",
+      "en": "But the preamble aside, I'd go to, it's fascinating how much you can scale when you're just like building on top of the Federal Reserve, when you don't have those abstractions.",
+      "zh": "但撇开这段开场白，我想说的是，当你直接构建在美联储之上、没有那些抽象层时，你能扩展到什么程度是很迷人的。"
+    },
+    {
+      "timestamp": "46:33",
+      "speaker": "Dara",
+      "en": "Stripe maintained it to a higher headcount than Facebook maintained it to. Facebook maintained it to a higher headcount than Google maintained it to.",
+      "zh": "Stripe 把这种文化维持到了比 Facebook 更高的员工规模。Facebook 把它维持到了比 Google 更高的员工规模。"
+    },
+    {
+      "timestamp": "52:30",
+      "speaker": "Dara",
+      "en": "And it's a fantastic, I know, shared stress, strife, and struggle is great for, you know, building camaraderie.",
+      "zh": "而且这是一种很棒的，你知道，共同的紧张、奋斗和挣扎非常有助于建立战友情谊。"
+    },
+    {
+      "timestamp": "56:59",
+      "speaker": "Dara",
+      "en": "Yes, and you would get all of the value for doing that and none of what actually matters.",
+      "zh": "是的，而且你会从中得到全部的价值，却得不到任何真正重要的东西。"
+    },
+    {
+      "timestamp": "58:06",
+      "speaker": "Dara",
+      "en": "And if you're in an environment where someone else is running, are you going to be the one person who's not running? Like, of course not.",
+      "zh": "而且如果你所处的环境里别人都在跑，你会是那个唯一不跑的人吗？比如，当然不会。"
+    },
+    {
+      "timestamp": "61:24",
+      "speaker": "Dara",
+      "en": "If you're able to tell me how to properly solve the identity problem, I will be able to tell you how to solve the fraud problem.",
+      "zh": "如果你能告诉我如何妥善地解决身份问题，我就能告诉你如何解决欺诈问题。"
+    },
+    {
+      "timestamp": "63:43",
+      "speaker": "Dara",
+      "en": "You have a pretty effective neural net between your ears. You should go use it.",
+      "zh": "你两耳之间有一个相当有效的神经网络。你应该去用它。"
+    },
+    {
+      "timestamp": "66:23",
+      "speaker": "Dara",
+      "en": "Now I'm able to give my agents payment cards, right? Agents have their own bank account.",
+      "zh": "现在我能够给我的智能体发支付卡了，对吧？智能体拥有自己的银行账户。"
+    },
+    {
+      "timestamp": "68:10",
+      "speaker": "Dara",
+      "en": "Societally, I hope we run both of these experiments. It'd be great to know which one plays out, but for the immediate use case, it's very, very useful that we use the card with its known dispute process.",
+      "zh": "从社会层面来说，我希望我们同时跑这两个实验。能知道哪一个会胜出会很棒，但对于眼下的用例来说，用这张卡及其已知的争议处理流程是非常、非常有用的。"
+    },
+    {
+      "timestamp": "70:38",
+      "speaker": "Dara",
+      "en": "It's okay to do something in the wholly uneventful way. It doesn't need to seem bright or clever. It just needs to seem maintainable.",
+      "zh": "以一种完全没有波澜的方式去做一件事是可以的。它不需要看起来光鲜或聪明。它只需要看起来可维护。"
+    },
+    {
+      "timestamp": "72:01",
+      "speaker": "Dara",
+      "en": "I think you want your banker to, in fact, enjoy uneventful days.",
+      "zh": "我想你希望你的银行家，事实上，享受没有波澜的日子。"
+    }
+  ],
+  "voice_script": "今天要讲的这个人，叫 Darragh Buckley。名字你可能没听过，但一说身份你就明白了：他是 Stripe 的第一位员工。2010 年加入这家公司的时候，负责的就是银行相关事务。十几年过去，如今自己创办的 Increase,每年处理超过五千亿美元的支付流水。而一年多前，这个人干了一件更彻底的事：买下了一家真实的银行。为什么一个做支付的人要去买银行？这就要从在 Stripe 造产品的那种别扭感说起了。\n\nStripe 早期是建在一批合作银行之上的。用 Darragh 自己的比喻，那种感觉就像总穿着别人的鞋，尺码总有点不对。举个例子：Stripe 从 Visa 收到钱，要打给平台上的商户。大额转账最自然的方式是电汇，但 Stripe 一直很犹豫。因为电汇一旦失败，银行伙伴会发一封邮件，说这笔钱没送出去，请你自己去修。你没法在这种手工流程上，造出一个让自己骄傲的产品。\n\n更典型的麻烦是 ACH 的退回对账。ACH 就是美国的银行转账系统，文件里有个叫 trace ID 的字段，本该用来标识每笔交易。可经过 Wells Fargo 的处理之后，这个字段根本传不到 Stripe 手里。结果 Stripe 一度组了几十人的团队，专门靠启发式规则去猜：哪笔退回对应哪笔交易。注意，这不是谁的错——银行系统本来就不是为程序员设计的。\n\n那怎么办？多数人的思路是在上面再加一层 API,方便一点。但 Darragh 认为这条路本身就是错的。这里面有个类比：今天的银行业，很像 2010 年的支付行业。当年你要去银行拿一个商户号，再到 Authorize.net 这类网关获得编程接口，两家公司干一件事。Stripe 的洞见，是把它们合并成一个产品，开发者周日晚上就能注册开通。而今天的金融科技公司建在银行之上、中间隔着 API 层，结构一模一样。有句话说得非常直白：我们需要的是一家有技术实力的银行，而不是继续在银行技术上叠加层级。所以 Increase 做的，就是替换掉银行的核心系统——也就是记录余额和交易的那套东西——再加上外面的 API 层，就像 Stripe 当年那样。产品哲学上还有个关键差别：Stripe 面向普通开发者，造漂亮的抽象；Increase 的客户是 Ramp、Gusto 这种本身就是支付公司的公司，要的是原样透传，连 API 参数的名字都和网络层的叫法一致，不做任何包装。\n\n替换掉核心系统之后，下一步就是直接和美联储的网络对话，包括 FedACH、Fedwire、FedNow,不再通过中间银行转一手。为什么？因为中间商转手时，数据可能被改动；Stripe 当年拿不到的数据，也就没法暴露给自己的客户——别人的抽象，限制了你能做的事。有意思的是，美联储这一层的质量出奇地好。一年半前，Fedwire 整体切换到国际标准 ISO 20022,全美金融机构要在同一时刻硬切换，听起来像 Y2K 级别的灾难，结果靠几个月的规划和测试平稳完成，外人根本没听说过。所以结论是：美国的底层存款网络其实很棒，缺的是最后一公里，把它产品化、暴露出来的那一层。\n\n好，方向定了，那怎么买一家银行？这比买普通公司古怪得多。银行不能公开说自己要卖——消息一旦传开，放贷的员工会先跑光，而贷款是银行的核心资产。于是行业里有个名字很妙的年会，叫「Acquire or Be Acquired」,去的企业每一家都声称自己只买不卖。最早在 2023 年，Darragh 想买华盛顿州的 Washington Business Bank,走到监管审批后期，监管方的回复大意是：你人不错，但你先去银行董事会坐一阵子，我们互相了解一下。照做了，也学到了很多——比如银行必须守住自己的放贷专长，别去追风口。2010 年前后一批社区银行盲目上马金融科技合作，最后引来监管整顿，教训就是能力跟不上野心。最终买下的是 Twin City Bank,华盛顿州特许的小银行，上个月刚改名为 Increase Bank。但买下只是开始，合规体系必须从一开始就写进代码里。比如汇款超过三千美元时适用一条旅行规则，规定哪些数据必须随钱一起传输。正确做法是建系统的第一天就写进去，而不是等第一次审计时打补丁。这套方法论来自工程：怎么擅长做难事？多做。工程师每天部署几十次，监管检查也应该每天对自己跑多遍，让那种检查通过后松一口气的感觉，趋于零。这也是 Increase 团队极小的原因——按 LinkedIn 大约三十三人，撑起超过五千亿美元的年流水。很多金融机构的运营团队，本质上是在给底层抽象的漏洞打补丁；把底层修好，人就不用那么多。前提当然是安全，这一点特意强调过。\n\n最后回到 Stripe 早期，有两个场景很能说明这种公司是怎么炼成的。一次是早期接入信用卡网络，对方说下一个认证窗口在六周后。团队问有没有更早的——明天上午十点，但你们肯定准备不好。他们要了那个时间，通宵干完一百五十个测试用例，早上八点跑去 Fry's 买电话线零件，十点接上，十点全部通过，当天跑通了公司第一笔真实交易。另一个更小：搬进第一个办公室，去宜家买六套桌椅。卸货时，别人搬一箱走回去搬下一箱，John 和 Patrick 放下箱子之后，是小跑着回去的。有句话值得记住：如果周围的人都在跑，你会是唯一一个走路的吗？\n\n把这一集收拢成一句话就是：美国的底层银行系统其实很好，缺的只是把它好好产品化的最后一公里——所以总得有人回去，把地基重做一遍。而 Increase 做的，就是这件事。"
+}

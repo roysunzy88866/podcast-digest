@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"tokenflation":1,"tokenomics":2,"token":33,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":11,"Transformer":11,"DSPy":1,"提示词优化":1}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":7,"tokenflation":1,"tokenomics":2,"token":33,"消费者价格指数":1,"推理时扩展":1,"苦涩的教训":11,"Transformer":11,"DSPy":1,"提示词优化":1}</script>
 
 <script>
 (function(){

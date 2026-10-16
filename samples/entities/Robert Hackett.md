@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":6,"加密货币":2,"区块链":2,"分词":6,"开源":43,"JP Morgan":4,"Coinbase":8,"Stripe":50}</script>
+<script type="application/json" class="pd-epn">{"Marc Andreessen":2,"清晰法案":2,"稳定币":6,"加密货币":2,"区块链":2,"分词":6,"开源":43,"JP Morgan":4,"Coinbase":8,"Stripe":51}</script>
 
 <script>
 (function(){

@@ -1,0 +1,679 @@
+{
+  "episode_id": "2026-10-15-twiml-your-ranking-model-is-optimizing-the-wro",
+  "podcast": "The TWIML AI Podcast",
+  "date": "2026-10-15",
+  "tags": [
+    "排序模型",
+    "推荐系统",
+    "电商",
+    "隐式反馈",
+    "Rust"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sam-charrington",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Charrington",
+      "file": "Sam Charrington",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            165.942,
+            169.024
+          ],
+          "quote": "I'm Sam Charrington, and this is the TwiML AI Podcast.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "zoe-weil",
+      "type": "person",
+      "role": "cohost",
+      "name": "Zoe Weil",
+      "file": "Zoe Weil",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            87.783,
+            91.325
+          ],
+          "quote": "Zoe Weil's answer, at least in retail, is to look between the clicks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sequin",
+      "type": "company",
+      "role": "concept",
+      "name": "Sequin",
+      "file": "Sequin",
+      "primary": true,
+      "how_described": "本集说 Sequin 是 Zoe 联合创办、为全球最大消费公司提供排序模型的公司;它不帮用户找东西,而是在高购买意愿时刻影响用户行为,靠会话内实时信号而非跨客户数据共享实现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            91.765,
+            96.788
+          ],
+          "quote": "The company she co-founded and leads, Sequin, is built on signals most systems ignore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            548.355,
+            549.715
+          ],
+          "quote": "That is not what Sequin does at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            963.209,
+            974.054
+          ],
+          "quote": "And Sequin's big unlock is that we're finally able to get you that unlock without you having that data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1582.307,
+            1601.412
+          ],
+          "quote": "So our ability to narrow that to specific contexts and see just like two or three token queries in a very specific dimension within the user's overall journey because the user is the first class citizen at Sequin.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1717.803,
+            1720.385
+          ],
+          "quote": "And that's why you would use sequin, because we would never do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2111.19,
+            2119.393
+          ],
+          "quote": "Now what Sequin has proven that we can do time and time again is we can get people to click significantly more and get them to also buy after the fact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2923.458,
+            2937.067
+          ],
+          "quote": "And even though we're in the ordering business and our whole business is ranking, I'll take you back to the fundamental concept that the first class citizen at Sequin is the user.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ranking-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "排序模型 (ranking model)",
+      "file": "排序模型",
+      "primary": true,
+      "how_described": "本集说线上消费的每一美元都经过某个地方的排序模型,而传统排序以信息检索的相关性为目标,Sequin 则以购买转化和业务指标为目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            207.861,
+            218.888
+          ],
+          "quote": "And these seem maybe to most people to be unrelated, but every dollar of online spending consumption goes through a ranking model somewhere.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3117.343,
+            3133.369
+          ],
+          "quote": "So I would say that is probably where we're most focused on are on things that actually make the core ranking model itself better rather than the auxiliary components that involve more traditional representation learning.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "large-event-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型事件模型 (large event models)",
+      "file": "大型事件模型",
+      "primary": true,
+      "how_described": "本集说 large event models 不是大语言模型,而是像 LLM 泛化到文本那样、实时泛化到人类行为和事件流的模型,是 Sequin 起家的黑盒方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            562.855,
+            569.302
+          ],
+          "quote": "So we started the company with a black box solution that was powered by what we call large event models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            581.822,
+            586.145
+          ],
+          "quote": "And in any case, so we started with large event models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            586.585,
+            591.888
+          ],
+          "quote": "And the idea behind large event models is that the same way that large language models are able to generalize.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            599.758,
+            606.408
+          ],
+          "quote": "Large event models are able to generalize to human behavior and streams of events all in real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2702.37,
+            2710.817
+          ],
+          "quote": "We talked about this a little bit earlier, but kind of with the context of the full conversation thus far, what is large event models?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2797.659,
+            2806.063
+          ],
+          "quote": "Then we built what we called large mesh models, which were like large event models, but they're much more relationally focused.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2821.031,
+            2833.92
+          ],
+          "quote": "Then we started creating different classes of what we called frontier ranking models, which were independent of large event models and large mesh models, but which large mesh models and large event models contributed to.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "implicit-feedback",
+      "type": "concept",
+      "role": "concept",
+      "name": "隐式反馈 (implicit feedback)",
+      "file": "隐式反馈",
+      "primary": true,
+      "how_described": "本集说 Sequin 绝大多数依赖隐式反馈数据——滚动速度、悬停时长、来回比较次数等微反馈——因为点击和交易只占人类行为的一小部分。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 365,
+          "t": [
+            2202.947,
+            2203.887
+          ],
+          "quote": "Implicit feedback, yeah.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2205.069,
+            2208.697
+          ],
+          "quote": "Yeah, no, we rely, I would say, overwhelmingly on implicit feedback data.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": true,
+      "how_described": "本集说 Sequin 核心后端全部用 Rust 写,Zoe 明确表示 Python 做不到他们所需的超低延迟特征变换和服务;并赶上 Rust 在开源 AI 库支持成熟的时机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            1193.558,
+            1208.019
+          ],
+          "quote": "I think we got lucky in a sense because maybe like six, seven years ago, Rust didn't have a ton of support in like open source AI libraries like Hugging Face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1225.709,
+            1232.453
+          ],
+          "quote": "We got very, very lucky because we started building this company at a time when support for Rust and many, many open source",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1256.89,
+            1263.173
+          ],
+          "quote": "Certainly we do a lot of R&D in Python, but the core of our backend is all in Rust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1267.736,
+            1280.522
+          ],
+          "quote": "And we are very, very lucky to benefit from a lot of the open source contributors that have, for free, devoted their time and efforts to bringing support for languages like Rust.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "surveillance-capitalism",
+      "type": "concept",
+      "role": "concept",
+      "name": "监控资本主义 (surveillance capitalism)",
+      "file": "监控资本主义",
+      "primary": false,
+      "how_described": "本集主持人问 Sequin 是否在往监控资本主义兔子洞里钻,Zoe 回应他们不做跨站追踪、不存储个人信息,只工作在实时交互内。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            1007.221,
+            1030.407
+          ],
+          "quote": "How do you respond to folks who kind of see that as like, you know, going deeper into this like surveillance capitalism kind of rabbit hole and like extracting more data about folks, you know, as they're trying to do pretty pedestrian things like, you know, that whole, I'm sure you've encountered that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            1032.686,
+            1041.728
+          ],
+          "quote": "I'm very, I'm one of the people that's probably the most vocal opponent of that kind of, I love what you called it, surveillance capitalism.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "concept",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": false,
+      "how_described": "本集说 TikTok 靠数十亿人每天打开应用 10 到 21 次的海量数据,擅长影响用户行为、让人想要原本不想要的东西,是消费公司做不到的对照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            50.055,
+            53.661
+          ],
+          "quote": "TikTok is known for getting you to buy things you never knew you wanted.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            54.342,
+            58.188
+          ],
+          "quote": "Online retailers would love that kind of impact, but they don't have TikTok's data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            312.802,
+            326.488
+          ],
+          "quote": "However, in a commercial context, you know, modern recommender systems, if you think about TikTok, Instagram, and the like, they're not really recommending content anymore, and they're definitely not trying to help people find things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            341.01,
+            350.117
+          ],
+          "quote": "You know, the latest fashion that you might not need, you know, whatever it is that you can think of that people end up just, you know, buying on Instagram or TikTok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            350.157,
+            357.763
+          ],
+          "quote": "They do that not because Instagram and TikTok are, you know, really good at helping you find what you're looking for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            427.508,
+            433.513
+          ],
+          "quote": "But again, people don't use Wayfair the same way that they use Instagram or TikTok.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "wayfair",
+      "type": "company",
+      "role": "concept",
+      "name": "Wayfair",
+      "file": "Wayfair",
+      "primary": false,
+      "how_described": "本集说 Wayfair 是交易额数百亿美元的大公司,但用户不会像刷 TikTok 那样刷它,所以天然数据匮乏;也是本集多处举例的 Sequin 客户场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            136.545,
+            138.806
+          ],
+          "quote": "So if you're a scientist at Wayfair,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            408.573,
+            419.043
+          ],
+          "quote": "But the truth is that consumer companies, regardless of how large they are, you know, regardless of how many customers they have, Wayfair is a good example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            427.508,
+            433.513
+          ],
+          "quote": "But again, people don't use Wayfair the same way that they use Instagram or TikTok.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            941.911,
+            948.716
+          ],
+          "quote": "So if you're a scientist at Wayfair or at Priceline or at any of the companies that we work with,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1100.856,
+            1104.617
+          ],
+          "quote": "You already have intent, which is why you're on Wayfair.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1120.389,
+            1128.272
+          ],
+          "quote": "And so it does, yes, you know, Priceline ends up making a lot of money, Wayfair ends up making a lot of money, but the customers end up walking away happy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1302.003,
+            1305.825
+          ],
+          "quote": "You mentioned that Wayfair was an early adopter of Transformers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1382.345,
+            1387.766
+          ],
+          "quote": "But if you're, if we're operating within an ads module, let's just say Wayfair,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1663.412,
+            1666.833
+          ],
+          "quote": "I'm envisioning like, you know, we've talked about Wayfair.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1666.873,
+            1676.236
+          ],
+          "quote": "You go to Wayfair, you search for Blue Sofa, you've got your primary list and that needs to be re-ranked, but then there's like, you may also be interested in this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2051.588,
+            2070.115
+          ],
+          "quote": "From an Amazon perspective, because it's, you know, very, you know, it's, it's surface is, you know, more or less transparent, you know, a little bit more than less, you know, whereas I don't know that when I think about Wayfair, I think about sponsored items versus non-spider sponsored items.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "priceline",
+      "type": "company",
+      "role": "concept",
+      "name": "Priceline",
+      "file": "Priceline",
+      "primary": false,
+      "how_described": "本集把 Priceline 与 Wayfair 并列为数据匮乏的大型消费公司例子,其科学家照搬社交媒体论文也无法获得同样效果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            419.163,
+            420.944
+          ],
+          "quote": "Priceline is another really good example.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 137,
+          "t": [
+            941.911,
+            948.716
+          ],
+          "quote": "So if you're a scientist at Wayfair or at Priceline or at any of the companies that we work with,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1120.389,
+            1128.272
+          ],
+          "quote": "And so it does, yes, you know, Priceline ends up making a lot of money, Wayfair ends up making a lot of money, but the customers end up walking away happy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "concept",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集以 Amazon 买完冰箱还推冰箱为例说明糟糕的互补推荐,并提到 Amazon 过去常发表排序论文,广告业务远大于其他电商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            933.744,
+            940.89
+          ],
+          "quote": "Amazon used to publish quite a bit about this too, but they have a wealth of data that none of our customers have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1710.339,
+            1716.562
+          ],
+          "quote": "Well, you would think, but then we also have the classic, I just bought a refrigerator on Amazon and now they're showing me refrigerators.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2034.765,
+            2045.49
+          ],
+          "quote": "When you talk about ad revenue, are you talking about ad spend that's getting the user to the site, or are you talking about like at an Amazon where there's promoted items versus...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2051.588,
+            2070.115
+          ],
+          "quote": "From an Amazon perspective, because it's, you know, very, you know, it's, it's surface is, you know, more or less transparent, you know, a little bit more than less, you know, whereas I don't know that when I think about Wayfair, I think about sponsored items versus non-spider sponsored items.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            2080.009,
+            2086.694
+          ],
+          "quote": "I just think that you see it more on Amazon because Amazon has a much, much larger ads business and they're a huge, huge company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "self-attention",
+      "type": "concept",
+      "role": "concept",
+      "name": "自注意力机制 (self-attention)",
+      "file": "自注意力机制",
+      "primary": false,
+      "how_described": "本集说 Sequin 所有模型都使用自注意力机制,很多还是混合专家模型,但并非全部采用 Transformer 架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1310.08,
+            1317.023
+          ],
+          "quote": "We have, I would say all of our models certainly use self-attention, the self-attention mechanism.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1321.145,
+            1328.809
+          ],
+          "quote": "We have many mixture of experts models now, but they all rely on self-attention.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": false,
+      "how_described": "本集以 RAG 系统为例,说明做检索增强的团队反馈信号只有点击或点赞,苦于缺少反馈,呼应隐式反馈的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            82.44,
+            87.043
+          ],
+          "quote": "If you're building a RAG system, a copilot, or an agent, you may be making the same bet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2163.433,
+            2175.601
+          ],
+          "quote": "And usually it's like, or, you know, historically has been in, I'm thinking about like RAG systems, for example, like, you know, did the user click?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

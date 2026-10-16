@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":6,"Cytronic":1,"iBot":1,"Amazon":35,"3PL":1,"履约":1,"机器人":14,"物理 AI":11,"自动化":1,"眼镜处方":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":6,"Cytronic":1,"iBot":1,"Amazon":36,"3PL":1,"履约":1,"机器人":14,"物理 AI":11,"自动化":1,"眼镜处方":1}</script>
 
 <script>
 (function(){

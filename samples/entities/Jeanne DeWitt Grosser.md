@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
+[[Rich Roll]] [[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Vercel":20,"Stripe":50,"Gong":3,"OpenAI":207,"go-to-market":14,"智能体":1,"GTM 工程师":1,"市场细分":1,"PLG":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Vercel":20,"Stripe":51,"Gong":3,"OpenAI":207,"go-to-market":14,"智能体":1,"GTM 工程师":1,"市场细分":1,"PLG":12}</script>
 
 <script>
 (function(){

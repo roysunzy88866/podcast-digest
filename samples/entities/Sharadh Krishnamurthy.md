@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":50,"Kai":1,"智能体":1,"governance":7,"项目":1,"工具策略":1,"人在回路":24,"技能":35,"沙箱":101}</script>
+<script type="application/json" class="pd-epn">{"Claire Vaux":1,"Stripe":51,"Kai":1,"智能体":1,"governance":7,"项目":1,"工具策略":1,"人在回路":24,"技能":35,"沙箱":101}</script>
 
 <script>
 (function(){

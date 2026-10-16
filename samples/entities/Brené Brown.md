@@ -69,7 +69,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeff Berman":4,"Reid Hoffman":2,"勇敢领导力":1,"勇气":1,"盔甲":1,"认知共情":1,"情感共情":1,"同情":1,"情绪颗粒度":1,"自我觉察":1}</script>
+<script type="application/json" class="pd-epn">{"Jeff Berman":5,"Reid Hoffman":2,"勇敢领导力":1,"勇气":1,"盔甲":1,"认知共情":1,"情感共情":1,"同情":1,"情绪颗粒度":1,"自我觉察":1}</script>
 
 <script>
 (function(){

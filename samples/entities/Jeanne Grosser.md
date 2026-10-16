@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Juven]] [[Jonathan Awad]] [[Shuo]] [[Nick Fleisher]]
+[[Rich Roll]] [[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":50,"Google":72,"GitHub":35,"Slack":34,"Claude":98,"go-to-market":14,"智能体":1,"产品市场契合":32}</script>
+<script type="application/json" class="pd-epn">{"Juven":1,"Vercel":20,"Stripe":51,"Google":72,"GitHub":35,"Slack":34,"Claude":98,"go-to-market":14,"智能体":1,"产品市场契合":32}</script>
 
 <script>
 (function(){

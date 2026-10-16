@@ -1,0 +1,1593 @@
+{
+  "episode_id": "2026-10-15-thepeel-why-stripes-1st-employee-bought-a-bank",
+  "podcast": "The Peel",
+  "date": "2026-10-15",
+  "tags": [
+    "金融基础设施",
+    "支付",
+    "银行业",
+    "合规",
+    "智能体支付"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "dara",
+      "type": "person",
+      "role": "host",
+      "name": "Dara",
+      "file": "Dara",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            2.835,
+            3.797
+          ],
+          "quote": "Dara, welcome to the show.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "darragh-buckley",
+      "type": "person",
+      "role": "cohost",
+      "name": "Darragh Buckley",
+      "file": "Darragh Buckley",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说 Stripe 是 Darragh 以第一号员工身份加入的支付公司，靠合并商户账户与网关造出漂亮抽象，但建在合作银行之上始终像「穿着别人的鞋」，甚至为 ACH 退回对账养了几十人团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            7.023,
+            10.89
+          ],
+          "quote": "So you were the first employee at Stripe and you just bought a bank.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            102.279,
+            107.402
+          ],
+          "quote": "Well, I think if it's okay here, I'll speak to some kind of experience from, from, from Stripe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 28,
+          "t": [
+            108.823,
+            118.05
+          ],
+          "quote": "While I was building Stripe, we built on top of, of a cohort of US banks that grew out to global banks and integrating in with the card networks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            142.255,
+            144.999
+          ],
+          "quote": "Stripe never did disbursements to merchants by wire, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            145.019,
+            149.606
+          ],
+          "quote": "So Stripe would receive a chunk of change from the card network from Visa and need to push that out to Stripe users.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            158.237,
+            168.365
+          ],
+          "quote": "But Stripe was always hesitant to do that because when a wire would fail, we'd receive an email from the bank partner saying, we were unable to deliver this wire.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            213.686,
+            222.308
+          ],
+          "quote": "And so Increase is the banking technology that I wanted while building Stripe, exposing all of the data and all of the capabilities by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 73,
+          "t": [
+            277.185,
+            278.506
+          ],
+          "quote": "Did Stripe do that for a while?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            284.59,
+            290.134
+          ],
+          "quote": "I know Stripe ended up with a team at one stage with like dozens of people on it for like ACH return reconciliation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 117,
+          "t": [
+            484.282,
+            489.905
+          ],
+          "quote": "2010 payments, so that like pre-Stripe and Adyen and similar payments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 170,
+          "t": [
+            670.23,
+            675.515
+          ],
+          "quote": "And among the insights from Stripe was like, these two things are not two separate things, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 174,
+          "t": [
+            679.639,
+            681.04
+          ],
+          "quote": "So Stripe combined them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            681.1,
+            689.108
+          ],
+          "quote": "That was kind of at least one of the initial insights of Stripe was one of these things is not worthwhile without the other.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 177,
+          "t": [
+            691.909,
+            696.334
+          ],
+          "quote": "And that's what allowed, for example, you know, Sunday night signups on Stripe, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 178,
+          "t": [
+            696.354,
+            701.019
+          ],
+          "quote": "That allowed for, you were just able to, everything was within Stripe's control.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 179,
+          "t": [
+            701.079,
+            706.785
+          ],
+          "quote": "It wasn't like Stripe told you to go off to talk to Wells Fargo Merchant Services and come back when you had your identifier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 180,
+          "t": [
+            706.805,
+            707.946
+          ],
+          "quote": "Stripe would just take care of it all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            708.346,
+            718.935
+          ],
+          "quote": "And would you kind of almost be like a buffer layer between the rougher, harder parts and you'd kind of do that inside of the Stripe backend so it made it simple for people to do?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            743.19,
+            746.171
+          ],
+          "quote": "Stripe creates these beautiful abstractions over all of these things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            881.077,
+            888.686
+          ],
+          "quote": "Increase replaces both the banks core and the API that you used to talk on top of it in much the same way that Stripe did this back in 2010.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1799.917,
+            1805.222
+          ],
+          "quote": "You know, so like Stripe built on top of Wells Fargo and the way that like Stripe would interact with Wells Fargo is Stripe would...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1819.182,
+            1820.983
+          ],
+          "quote": "So then you can adjust it as your Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1826.927,
+            1829.909
+          ],
+          "quote": "So, you know, Stripe was not talking directly to the Federal Reserve there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1830.93,
+            1834.032
+          ],
+          "quote": "And that meant it was difficult for Stripe to expose that to others, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1839.946,
+            1843.209
+          ],
+          "quote": "If Stripe did not receive that from Wells Fargo, it fundamentally couldn't expose.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1843.249,
+            1845.69
+          ],
+          "quote": "It wasn't Stripe's gift to give unless it had been given that gift, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2108.496,
+            2110.238
+          ],
+          "quote": "And that's what I wanted while building Stripe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2110.578,
+            2115.964
+          ],
+          "quote": "So you're almost like building, the increased product is like built for the Stripes of the world and Stripe is built for developers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2126.168,
+            2143.48
+          ],
+          "quote": "So I'm curious, then, like, how did this go when, like, Stripe's a customer, wouldn't maybe have, like, an inside track with Stripe, where it's like, but with some customers, they may have already been using a product, and you're like, or they built it all internally, and then you go to them and say, hey, you have this whole team, like, switch to increase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2446.437,
+            2450.32
+          ],
+          "quote": "I mean, I could say Stripe is like basically almost the scale of a public company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2612.041,
+            2612.842
+          ],
+          "quote": "An example from Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2685.947,
+            2689.35
+          ],
+          "quote": "Stripe didn't have that trace ID because of some systems issues with...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2691.801,
+            2693.483
+          ],
+          "quote": "How Stripe interacted with Wells Fargo.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2789.43,
+            2792.934
+          ],
+          "quote": "Stripe was very good at this for very many years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2793.595,
+            2798.22
+          ],
+          "quote": "Stripe maintained it to a higher headcount than Facebook maintained it to.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2821.751,
+            2823.831
+          ],
+          "quote": "One thing we talk about now, going back to Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2877.217,
+            2884.74
+          ],
+          "quote": "And then I ended up joining up with them in about 2010 as Stripe's first employee.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2900.06,
+            2908.949
+          ],
+          "quote": "Well, I expect that this is where we'll show the, you know, the kind of how early Stripe was in its journey with respect to what is a bank, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2955.834,
+            2963.218
+          ],
+          "quote": "Like, I'll go be the banking guy of this Stripe company and be the Irish superheroes coming over to fix payments in the US?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2995.94,
+            3004.305
+          ],
+          "quote": "And so I arrived into Stripe and like the early group project is like, well, it's John Collison, it's Patrick Collison, that's Greg Brockman.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3021.006,
+            3024.448
+          ],
+          "quote": "So, so what did you learn working with, with the early Stripe team?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3044.504,
+            3051.542
+          ],
+          "quote": "We jump on the call with a partner and this was how Stripe was finally going to be able to talk to the credit card network more directly, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3262.919,
+            3274.766
+          ],
+          "quote": "Is there anything about Stripe maybe that someone from the outside wouldn't have seen or like wouldn't have understood about the reason that Stripe was so successful and the reason that it worked?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 840,
+          "t": [
+            3595.994,
+            3609.039
+          ],
+          "quote": "One thing, going back to the podcast I had with Will, when he came on, he said an early thing that you guys learned at Stripe was it was like a really high up executive slash CEO or something in financial services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3849.622,
+            3863.447
+          ],
+          "quote": "I think Will actually told me that Stripe has built their own kind of like model internally where when certain entities make a transaction, you can kind of tell based on learnings over time of where they might be grouped and more chances of these happening.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "increase",
+      "type": "company",
+      "role": "company",
+      "name": "Increase",
+      "file": "Increase",
+      "primary": true,
+      "how_described": "本集说 Increase 是 Darragh 创办的公司，通过 API 暴露美国存款功能，年流水超五千亿美元，做法是替换银行核心系统并直连美联储网络，团队仅约 33 人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            14.54,
+            16.121
+          ],
+          "quote": "The bank is now called Increase Bank.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 8,
+          "t": [
+            16.822,
+            18.163
+          ],
+          "quote": "I run a company called Increase.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 9,
+          "t": [
+            19.004,
+            22.546
+          ],
+          "quote": "Increase exposes U.S. depository functionality by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            76.676,
+            84.041
+          ],
+          "quote": "And Increase is designed to expose all of the data and capability of US depository functionality by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            213.686,
+            222.308
+          ],
+          "quote": "And so Increase is the banking technology that I wanted while building Stripe, exposing all of the data and all of the capabilities by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            336.94,
+            337.962
+          ],
+          "quote": "And that's what prompted increase.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            746.751,
+            750.332
+          ],
+          "quote": "And this is actually in contrast to increase, but we'll probably get to that in a bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            878.394,
+            879.675
+          ],
+          "quote": "So that prompted increase, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            879.715,
+            881.017
+          ],
+          "quote": "Like increase verticalizes that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            881.077,
+            888.686
+          ],
+          "quote": "Increase replaces both the banks core and the API that you used to talk on top of it in much the same way that Stripe did this back in 2010.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            899.904,
+            905.546
+          ],
+          "quote": "My journey into banking started with kind of increase in 2020 as building the technology.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            937.213,
+            956.696
+          ],
+          "quote": "Increase built that first because that's the part that is very important for us as a company is growing to know and understand whether or not it's, you know, me and my friends who are interested in this or whether or not the appeal is broader, whether or not other people felt the same problem and wanted it solved.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1860.62,
+            1865.023
+          ],
+          "quote": "So Increase's role there was to step down and talk to the Federal Reserve directly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2086.93,
+            2091.516
+          ],
+          "quote": "Product at increase is, oh, this is the FedACH API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2126.168,
+            2143.48
+          ],
+          "quote": "So I'm curious, then, like, how did this go when, like, Stripe's a customer, wouldn't maybe have, like, an inside track with Stripe, where it's like, but with some customers, they may have already been using a product, and you're like, or they built it all internally, and then you go to them and say, hey, you have this whole team, like, switch to increase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2150.942,
+            2158.972
+          ],
+          "quote": "It's usually someone from product or engineering is the person interested in picking up increase.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2212.589,
+            2221.817
+          ],
+          "quote": "Yeah, actually, the founder I was mentioning earlier that uses Increase that I know, he was telling me, I was like, oh, Increase, I don't know if I've heard of them before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2226.521,
+            2233.307
+          ],
+          "quote": "And he was like, I don't know, they just felt like they were engineers and everyone else I talked to was like a salesperson and they increase.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2246.078,
+            2247.178
+          ],
+          "quote": "Increase is about half engineers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 515,
+          "t": [
+            2248.158,
+            2255.061
+          ],
+          "quote": "And it's very, very important to have not just engineering within increase, but I think everyone takes the same approach.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2289.104,
+            2294.549
+          ],
+          "quote": "The intention of increase is that you're composing it into your own product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2450.54,
+            2453.722
+          ],
+          "quote": "Like, so you have all the, like, so what does a customer look like of increase?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2557.659,
+            2565.923
+          ],
+          "quote": "One thing I think is super interesting about Increase, you mentioned you're doing over half a trillion in volume and you have, according to LinkedIn, there's 33 employees.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2728.025,
+            2729.965
+          ],
+          "quote": "And hence increase.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2807.666,
+            2814.508
+          ],
+          "quote": "You know, so I aspire and hope that that increase will maintain it to an even larger headcount.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3257.776,
+            3262.899
+          ],
+          "quote": "And so carrying that forward and to increase was very important for me.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "increase-bank",
+      "type": "company",
+      "role": "company",
+      "name": "Increase Bank",
+      "file": "Increase Bank",
+      "primary": true,
+      "how_described": "本集说它是 Darragh 一年前买下的华盛顿州特许小银行（原 Twin City Bank），上个月刚改名，他强调买下只是开始，合规要从第一天写进代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            14.54,
+            16.121
+          ],
+          "quote": "The bank is now called Increase Bank.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "federal-reserve",
+      "type": "company",
+      "role": "company",
+      "name": "Federal Reserve",
+      "file": "Federal Reserve",
+      "primary": true,
+      "how_described": "本集说美联储（其技术层 Federal Reserve Services）是极其可靠的服务提供商，Increase 直连其 FedACH、Fedwire、FedNow 网络；Fedwire 切换 ISO 20022 的硬切换平稳完成就是例证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 231,
+          "t": [
+            918.034,
+            928.108
+          ],
+          "quote": "But having that talk directly to the underlying networks, so talking directly to the Federal Reserve for FedACH, Fedwire, Check21, FedNow, talking directly to Visa for our card issuing products.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1785.483,
+            1790.247
+          ],
+          "quote": "And also one thing that you mentioned was you talk directly to the Fed, to the Federal Reserve.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1806.334,
+            1811.257
+          ],
+          "quote": "Send Wells Fargo the messages that Wells Fargo was to send to the Federal Reserve, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 422,
+          "t": [
+            1826.927,
+            1829.909
+          ],
+          "quote": "So, you know, Stripe was not talking directly to the Federal Reserve there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1860.62,
+            1865.023
+          ],
+          "quote": "So Increase's role there was to step down and talk to the Federal Reserve directly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 430,
+          "t": [
+            1868.103,
+            1872.285
+          ],
+          "quote": "The Federal Reserve is also a fantastically reliable and good service provider.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1887.913,
+            1890.814
+          ],
+          "quote": "Well, Federal Reserve is later than that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1890.854,
+            1892.815
+          ],
+          "quote": "Federal Reserve is like a hundred years, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1897.321,
+            1900.744
+          ],
+          "quote": "And the actual group, the Federal Reserve is many things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1903.527,
+            1911.473
+          ],
+          "quote": "I also mean in its, it's got this division called Federal Reserve Services, which is its technology layer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1912.774,
+            1925.405
+          ],
+          "quote": "And so, you know, central bank, bank regulator, and technology provider are not fundamentally like components that need to be placed together, but we have chosen to do so as a nation, calling them the Federal Reserve.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1927.287,
+            1932.49
+          ],
+          "quote": "So it's Federal Reserve Services is the technology layer that we end up chatting with a bunch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1938.674,
+            1947.719
+          ],
+          "quote": "Like, I know the fun fact here is about a year and a half ago, the Federal Reserve ran an update to its messaging specification to do with wires, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1998.195,
+            2009.218
+          ],
+          "quote": "And with, you know, the Federal Reserve was under constraints, and this is the one that made most sense that it was going to be a hard cutover, but successfully operated that hard cutover through just good planning, good",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2514.885,
+            2527.228
+          ],
+          "quote": "Ramp uses us to pull in money from the payer and push out money to the payee and we are their means of interacting with the Federal Reserve for that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2583.85,
+            2595.8
+          ],
+          "quote": "But the preamble aside, I'd go to, it's fascinating how much you can scale when you're just like building on top of the Federal Reserve, when you don't have those abstractions.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "wells-fargo",
+      "type": "company",
+      "role": "company",
+      "name": "Wells Fargo",
+      "file": "Wells Fargo",
+      "primary": false,
+      "how_described": "本集说 Stripe 当年构建在 Wells Fargo 之上，因 trace ID 数据元素传递问题导致 Stripe 只能靠启发式规则做 ACH 退回对账。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            299.78,
+            304.723
+          ],
+          "quote": "And when you dug into the details, you could see why Wells Fargo was like altering this data element.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            512.192,
+            514.653
+          ],
+          "quote": "You'd get that from Wells Fargo Merchant Services or similar.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            701.079,
+            706.785
+          ],
+          "quote": "It wasn't like Stripe told you to go off to talk to Wells Fargo Merchant Services and come back when you had your identifier.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 190,
+          "t": [
+            764.238,
+            774.006
+          ],
+          "quote": "You end up with these layers that are built on top of banks, and fundamentally, you've got like the bank, the Wells Fargo, running their own, what's known as bank core, their own maintenance of transactions and balances.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1799.917,
+            1805.222
+          ],
+          "quote": "You know, so like Stripe built on top of Wells Fargo and the way that like Stripe would interact with Wells Fargo is Stripe would...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1806.334,
+            1811.257
+          ],
+          "quote": "Send Wells Fargo the messages that Wells Fargo was to send to the Federal Reserve, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1839.946,
+            1843.209
+          ],
+          "quote": "If Stripe did not receive that from Wells Fargo, it fundamentally couldn't expose.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2691.801,
+            2693.483
+          ],
+          "quote": "How Stripe interacted with Wells Fargo.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ach",
+      "type": "concept",
+      "role": "concept",
+      "name": "ACH",
+      "file": "ACH",
+      "primary": true,
+      "how_described": "本集说 ACH 是美国的银行转账/拉款机制，其退回对账因 trace ID 传丢曾逼 Stripe 组几十人团队，Increase 把发起与处理退回全做成 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            84.862,
+            91.487
+          ],
+          "quote": "So it's, I know, the joke is always like, Ramp does not need me in any way, shape, or form to explain like ACH payments to them.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            222.468,
+            226.369
+          ],
+          "quote": "Of course, you want to be able to originate the ACH by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            233.702,
+            239.526
+          ],
+          "quote": "Secondary and tertiary processes, in the case of ACH, this, you know, hold harmless requests, et cetera, by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            242.888,
+            246.81
+          ],
+          "quote": "Yeah, I get emails from my bank sometimes, it's like, someone just pulled an ACH.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            246.85,
+            249.512
+          ],
+          "quote": "Like, do you approve the ACH poll that has already been pulled?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            284.59,
+            290.134
+          ],
+          "quote": "I know Stripe ended up with a team at one stage with like dozens of people on it for like ACH return reconciliation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            290.614,
+            299.7
+          ],
+          "quote": "And the reason that that was necessary is because there was a particular data element in the ACH file, it's called a trace ID, that didn't traverse correctly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2079.866,
+            2081.407
+          ],
+          "quote": "You do not care about ACH.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2527.688,
+            2542.732
+          ],
+          "quote": "So in particular, you originate ACH debits, so the US mechanism for pulling money from someone's accounts and then how you do the funding to the payee, be it by ACH credit or Fedwire or even",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2615.783,
+            2619.484
+          ],
+          "quote": "ACH reconciliation or ACH turn allocation.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": true,
+      "how_described": "本集反复谈通过 API 暴露存款功能与数据：Stripe 的洞见是合并接口，Darragh 认为缺的是把底层网络产品化、通过 API 暴露的最后一公里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            19.004,
+            22.546
+          ],
+          "quote": "Increase exposes U.S. depository functionality by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 20,
+          "t": [
+            76.676,
+            84.041
+          ],
+          "quote": "And Increase is designed to expose all of the data and capability of US depository functionality by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            213.686,
+            222.308
+          ],
+          "quote": "And so Increase is the banking technology that I wanted while building Stripe, exposing all of the data and all of the capabilities by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            222.468,
+            226.369
+          ],
+          "quote": "Of course, you want to be able to originate the ACH by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 60,
+          "t": [
+            226.629,
+            229.69
+          ],
+          "quote": "And of course, you want to be able to handle the return of it by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            233.702,
+            239.526
+          ],
+          "quote": "Secondary and tertiary processes, in the case of ACH, this, you know, hold harmless requests, et cetera, by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 71,
+          "t": [
+            262.899,
+            268.462
+          ],
+          "quote": "All of those should be exposed to companies that are looking to programmatically orchestrate their finances by API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 139,
+          "t": [
+            564.093,
+            570.056
+          ],
+          "quote": "Like, why do we have all these layers of, like, you know, there should be an API to just be like, hey, send a wire, and it just does it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            831.586,
+            836.892
+          ],
+          "quote": "So current day banking, when you end up with a technology layer or an API layer that's talking to a bank's core,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            881.077,
+            888.686
+          ],
+          "quote": "Increase replaces both the banks core and the API that you used to talk on top of it in much the same way that Stripe did this back in 2010.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1398.972,
+            1403.704
+          ],
+          "quote": "You can't just slap an API on it kind of thing and like, we're good to go.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1460.549,
+            1468.932
+          ],
+          "quote": "It's easy to set up and they automatically handle all registrations, ongoing filings, and their API provides sales tax rates wherever you need them with all the integrations you need.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1518.061,
+            1522.766
+          ],
+          "quote": "If you strapped a jet engine to a go-kart or if you exposed a bank by API?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1526.358,
+            1531.202
+          ],
+          "quote": "So I'm assuming you like build this API and you were probably like within pretty quickly, like, all right, we're good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1700.19,
+            1705.293
+          ],
+          "quote": "And so there's never any question when you're rolling out the next version of the API whether or not you're correctly",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2086.93,
+            2091.516
+          ],
+          "quote": "Product at increase is, oh, this is the FedACH API.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2543.832,
+            2553.437
+          ],
+          "quote": "Even checks, more modern mechanisms are things like real-time payments or FedNow or push to card and being able to combine all of those nicely within one API.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "abstraction",
+      "type": "concept",
+      "role": "concept",
+      "name": "抽象 (abstraction)",
+      "file": "抽象",
+      "primary": true,
+      "how_described": "本集把它说成核心张力：别人的抽象会限制你能做的事；Stripe 造漂亮抽象，Increase 则做高保真透传、不加抽象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            1849.052,
+            1853.776
+          ],
+          "quote": "Someone else's abstraction places a limit on what you can do.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2084.729,
+            2085.789
+          ],
+          "quote": "You want this abstraction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2096.623,
+            2101.99
+          ],
+          "quote": "Like we do not try to be creative and to create an abstraction there because you want",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "type": "concept",
+      "role": "concept",
+      "name": "合规 (compliance)",
+      "file": "合规",
+      "primary": true,
+      "how_described": "本集说合规制度应从第一天就作为代码嵌入系统（如 3000 美元电汇的旅行规则），并像工程测试一样每天对自己跑检查，让「如释重负」趋于零。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 344,
+          "t": [
+            1469.962,
+            1475.904
+          ],
+          "quote": "Their solution combines AI-driven automation with human expertise to manage global sales tax compliance end-to-end.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1494.554,
+            1501.483
+          ],
+          "quote": "That's N-U-M-E-R-A-L.com for the end-to-end platform for sales tax and VAT compliance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1548.977,
+            1551.379
+          ],
+          "quote": "But how that interacts with compliance regimes is...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1557.518,
+            1564.081
+          ],
+          "quote": "Like it's very useful if you're able to embed the compliance regimes as code early on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1564.961,
+            1570.563
+          ],
+          "quote": "And that requires engineers being comfortable, you know, reading the source docs for the compliance regimes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1570.863,
+            1578.325
+          ],
+          "quote": "It also requires compliance professionals and experienced practitioners",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1585.716,
+            1598.924
+          ],
+          "quote": "If, for example, you are, there's a compliance regime that has to do with the data elements that need to traverse when you're sending a wire, and they apply at a threshold, dollar amount threshold of $3,000, and it's called the travel rule.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1712.838,
+            1717.5
+          ],
+          "quote": "And if you can do the same with respect to compliance regimes, you can help yourself a lot.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1740.38,
+            1748.125
+          ],
+          "quote": "And if you're able to apply like, I don't know, the same concept to compliance regimes, how do you get good at doing examinations?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2776.606,
+            2782.809
+          ],
+          "quote": "You have to allow a compliance person to wander into engineering and an engineering person to wander into compliance.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "fraud",
+      "type": "concept",
+      "role": "concept",
+      "name": "欺诈 (fraud)",
+      "file": "欺诈",
+      "primary": true,
+      "how_described": "本集说 Stripe 表面上是支付公司实际是反欺诈公司，欺诈的根源是线上身份问题；建议早期支付公司每天 5000 笔交易前人肉看每一笔。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 847,
+          "t": [
+            3620.423,
+            3623.645
+          ],
+          "quote": "You're actually in the fraud business or something to that effect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3636.88,
+            3638.58
+          ],
+          "quote": "You're actually in the fraud business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            3639.52,
+            3653.144
+          ],
+          "quote": "Yeah, I think, as you can imagine, cards in particular, but payments generally are magnets for bad actors and in particular fraud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 861,
+          "t": [
+            3680.091,
+            3683.653
+          ],
+          "quote": "Why has it been so hard to solve the fraud problem?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 862,
+          "t": [
+            3684.686,
+            3690.631
+          ],
+          "quote": "If you're able to tell me how to properly solve the identity problem, I will be able to tell you how to solve the fraud problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3709.748,
+            3718.893
+          ],
+          "quote": "But like, you know, that's a fundamental problem of fraud payments is identity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 870,
+          "t": [
+            3730.785,
+            3736.166
+          ],
+          "quote": "Or you may or may not count as fraud, like first party fraud, you received a good and you pretended like you hadn't received the good, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3738.107,
+            3751.45
+          ],
+          "quote": "But from a, you know, something that rounds to correct definition, saying, if you solve identity for me, you will vastly, you will solve fraud for me is correct.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3765.876,
+            3780.86
+          ],
+          "quote": "Like that you can try to design all of your fraud systems from, you know, in the absence of data and like try to think deeply around it, but know that you'll miss it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Darragh 给自己的智能体发支付卡和独立银行账户，智能体可自主结账、花完再来要钱，他刻意不坐进同步审批环节，控制手段是只能花账户里的钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 912,
+          "t": [
+            3948.742,
+            3952.503
+          ],
+          "quote": "And being able to set the agent upon that task is great.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3955.223,
+            3965.786
+          ],
+          "quote": "Like if an agent goes to the local flower shop, jumps on their site, is able to stack up the checkout, et cetera, et cetera, it would be useful if they're able to complete that.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 931,
+          "t": [
+            4036.041,
+            4041.067
+          ],
+          "quote": "But having the agent have an account, having the agent have a payment card is great.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4063.256,
+            4067.6
+          ],
+          "quote": "It's almost like applying the same principles in a way to an agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bank-core",
+      "type": "concept",
+      "role": "concept",
+      "name": "银行核心系统 (bank core)",
+      "file": "银行核心系统",
+      "primary": true,
+      "how_described": "本集说 bank core 是银行维护余额和交易的那套系统（像活的客户总账），Increase 的打法就是替换掉它再加上外面的 API 层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            764.238,
+            774.006
+          ],
+          "quote": "You end up with these layers that are built on top of banks, and fundamentally, you've got like the bank, the Wells Fargo, running their own, what's known as bank core, their own maintenance of transactions and balances.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 191,
+          "t": [
+            774.327,
+            775.207
+          ],
+          "quote": "That's what a bank core is.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "boring-technology",
+      "type": "concept",
+      "role": "concept",
+      "name": "无聊的技术 (boring technology)",
+      "file": "无聊的技术",
+      "primary": false,
+      "how_described": "本集提到 Anthropic 联合创始人 Tom Brown 早期文章：广泛使用无聊的技术，复杂性本身有代价——Darragh 说自己每天都用到这条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 967,
+          "t": [
+            4203.505,
+            4211.026
+          ],
+          "quote": "Like a technical essay from early on of like, just use boring technology widely, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集主持在预告下期嘉宾时提到 Databricks 的 CRO Ron Gabrisco 建了非常技术化的销售团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 527,
+          "t": [
+            2295.51,
+            2305.358
+          ],
+          "quote": "And I had recently, I think it will have come out before this episode goes live, but I guess like a peak preview in the future, if not, I had Ron Gabrisco, who's the CRO of Databricks.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

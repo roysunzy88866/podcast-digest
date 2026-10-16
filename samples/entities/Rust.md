@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rust</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]]**(17:11起):本集提到 LightParse 基于 Rust,是现有最快的开源解析器。
 - **[[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|《Vercel CEO：AI 时代，写代码的人要变成什么》]]**(30:42起):本集说应把 libheif 这类关键库迁到 Rust 这类内存安全语言，Microsoft 已在拥抱 Rust，未来可能全是 Rust。
 - **[[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]]**(27:36起):本集说人们在用 Rust 构建卫星等场景,它上面有精简特性集合的标准来让语言确定,但写起来非常痛苦;Carlos 觉得 Rust 后期难改,能工作就不再碰。
+- **[[2026-10-15-twiml-your-ranking-model-is-optimizing-the-wro|《别再优化点击了：你的排序模型瞄错了目标》]]**(19:53起):本集说 Sequin 核心后端全部用 Rust 写,Zoe 明确表示 Python 做不到他们所需的超低延迟特征变换和服务;并赶上 Rust 在开源 AI 库支持成熟的时机。
 
 ## ① 提到它的金句
 
@@ -27,7 +28,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念(提及)
@@ -36,14 +37,15 @@ unlisted: true
 - [[2026-09-23-talks-building-the-document-context-layer-for|《为 AI 智能体构建文档上下文层:LlamaIndex 谈 2026 年的 RAG》]] — 作为概念(提及)
 - [[2026-10-02-talks-vercel-ceo-reveals-his-agentic-engineeri|《Vercel CEO：AI 时代，写代码的人要变成什么》]] — 作为概念
 - [[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]] — 作为概念
+- [[2026-10-15-twiml-your-ranking-model-is-optimizing-the-wro|《别再优化点击了：你的排序模型瞄错了目标》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude Code]] · [[代码审查]] · [[Codex]] · [[开源]] · [[沙箱]] · [[评估]] · [[上下文]] · [[Claude]] · [[Simon Willison]]
+[[智能体]] · [[Claude Code]] · [[代码审查]] · [[Codex]] · [[开源]] · [[沙箱]] · [[评估]] · [[RAG]] · [[Claude]] · [[上下文]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":114,"代码审查":25,"Codex":90,"开源":43,"沙箱":101,"评估":1,"上下文":34,"Claude":98,"Simon Willison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude Code":114,"代码审查":25,"Codex":90,"开源":43,"沙箱":101,"评估":1,"RAG":30,"Claude":98,"上下文":34}</script>
 
 <script>
 (function(){

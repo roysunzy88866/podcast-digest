@@ -51,7 +51,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Shuo]] [[Nick Fleisher]]
+[[Rich Roll]] [[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Shuo]]
 
 </div>
 

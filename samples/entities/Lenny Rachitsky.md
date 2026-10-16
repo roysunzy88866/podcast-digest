@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]] [[Shuo]]
+[[Rich Roll]] [[Daniel Saks]] [[Previous Guests]] [[Max Freeman]] [[Harry]] [[Alyssa Ravasio]] [[Bilal Zuberi]] [[Jeanne Grosser]] [[Juven]] [[Jonathan Awad]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":14,"Medium":1,"Stripe":50,"简报":2,"播客":1,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
+<script type="application/json" class="pd-epn">{"Michelle Rial":1,"Substack":2,"Airbnb":14,"Medium":1,"Stripe":51,"简报":2,"播客":2,"付费墙":3,"林迪效应":1,"幸福基线":1}</script>
 
 <script>
 (function(){

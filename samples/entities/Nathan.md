@@ -25,7 +25,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[MCP]] · [[RAG]] · [[确定性代码]] · [[微调]] · [[推理]] · [[Flo Crivello]] · [[Inherent Laboratories]] · [[Pete Johnson]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"MCP":97,"RAG":29,"确定性代码":2,"微调":39,"推理":101,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"MCP":97,"RAG":30,"确定性代码":2,"微调":39,"推理":101,"Flo Crivello":1,"Inherent Laboratories":1,"Pete Johnson":1}</script>
 
 <script>
 (function(){

@@ -33,7 +33,7 @@ unlisted: true
 
 [[George He]] · [[LlamaIndex]] · [[Claude Code]] · [[Anthropic]] · [[LlamaParse]] · [[LightParse]] · [[TurboPuffer]] · [[智能体]] · [[预索引]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"George He":1,"LlamaIndex":3,"Claude Code":114,"Anthropic":206,"LlamaParse":2,"LightParse":2,"TurboPuffer":3,"智能体":1,"预索引":1,"RAG":29}</script>
+<script type="application/json" class="pd-epn">{"George He":1,"LlamaIndex":3,"Claude Code":114,"Anthropic":206,"LlamaParse":2,"LightParse":2,"TurboPuffer":3,"智能体":1,"预索引":1,"RAG":30}</script>
 
 <script>
 (function(){

@@ -82,7 +82,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":207,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":50,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":90,"AI 安全":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":207,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":51,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":90,"AI 安全":5}</script>
 
 <script>
 (function(){

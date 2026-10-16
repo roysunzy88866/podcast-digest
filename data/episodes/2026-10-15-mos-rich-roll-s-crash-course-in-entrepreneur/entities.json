@@ -1,0 +1,626 @@
+{
+  "episode_id": "2026-10-15-mos-rich-roll-s-crash-course-in-entrepreneur",
+  "podcast": "Masters of Scale",
+  "date": "2026-10-15",
+  "tags": [
+    "播客与媒体",
+    "创作者商业化",
+    "正直与信任",
+    "个人成长",
+    "品牌合作"
+  ],
+  "categories": [
+    "创业与行业",
+    "增长与销售"
+  ],
+  "entities": [
+    {
+      "id": "jeff-berman",
+      "type": "person",
+      "role": "host",
+      "name": "Jeff Berman",
+      "file": "Jeff Berman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            176.624,
+            184.772
+          ],
+          "quote": "I'm Jeff Berman, your host, and I am sitting in the Los Angeles area in the iconic studios of the iconic Rich Roll.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2301.688,
+            2302.209
+          ],
+          "quote": "I'm Jeff Berman.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rich-roll",
+      "type": "person",
+      "role": "cohost",
+      "name": "Rich Roll",
+      "file": "Rich Roll",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            176.624,
+            184.772
+          ],
+          "quote": "I'm Jeff Berman, your host, and I am sitting in the Los Angeles area in the iconic studios of the iconic Rich Roll.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2298.486,
+            2301.668
+          ],
+          "quote": "If anyone I've interviewed for this show is living in integrity, it's Rich Roll.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "voicing-change-media",
+      "type": "company",
+      "role": "company",
+      "name": "Voicing Change Media",
+      "file": "Voicing Change Media",
+      "primary": true,
+      "how_described": "Rich Roll 创立的播客网络,与 RXR Sports 合资,用体育经纪思路替少数优质播客主直接与品牌 CMO 谈年度合作,帮他们拿到应得的报酬",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1138.137,
+            1144.241
+          ],
+          "quote": "So Voicing Change Media is basically a joint venture with RXR.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "rxr-sports",
+      "type": "company",
+      "role": "company",
+      "name": "RXR Sports",
+      "file": "RXR Sports",
+      "primary": true,
+      "how_described": "Jonathan Retzek 在纽约运营的体育经纪公司,Rich Roll 的经纪方,Voicing Change Media 的合资伙伴,视角来自体育管理而非广告业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1133.013,
+            1137.296
+          ],
+          "quote": "One of those partners is Jonathan Retzek, who runs RXR Sports in New York City.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "aiken-gump",
+      "type": "company",
+      "role": "company",
+      "name": "Aiken Gump",
+      "file": "Aiken Gump",
+      "primary": false,
+      "how_described": "在戒瘾治疗期间给 Roll 发过录用通知的律所,因要求他治疗期间处理案卷而工作告吹,成为他人生的『岔路口』时刻",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            1708.697,
+            1711.661
+          ],
+          "quote": "And Aiken Gump was opening an office in Los Angeles.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1711.721,
+            1716.186
+          ],
+          "quote": "And I interviewed with Aiken Gump and they gave me an offer.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1816.16,
+            1824.765
+          ],
+          "quote": "I was in DC recently and I was riding a bike around and I rode by the Aiken Gump office and I was like, oh my God, like I could have been like living a completely different life.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "podcast",
+      "type": "concept",
+      "role": "concept",
+      "name": "播客 (podcast)",
+      "file": "播客",
+      "primary": true,
+      "how_described": "本集主线:从 2012 年『说出口都难为情』的玩票项目到 1000 期、1 万平方英尺录音棚群的播客事业,以及整个播客行业的商业化生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            159.821,
+            165.727
+          ],
+          "quote": "What happened in your life that you found yourself on that farm in Hawaii thinking about putting a first podcast out?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            207.095,
+            208.397
+          ],
+          "quote": "It's a business podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 44,
+          "t": [
+            208.617,
+            212.14
+          ],
+          "quote": "It might be the first, quote unquote, business podcast that I've ever been on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 52,
+          "t": [
+            241.812,
+            246.677
+          ],
+          "quote": "You know, this parasocial friendship that I began to develop with certain podcast hosts.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 55,
+          "t": [
+            255.446,
+            258.069
+          ],
+          "quote": "It was almost embarrassing to say you had a podcast, but when I...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 106,
+          "t": [
+            529.26,
+            532.944
+          ],
+          "quote": "I mean, I was the first person to have David Goggins on a podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 111,
+          "t": [
+            553.204,
+            557.007
+          ],
+          "quote": "I had been chasing him to come on the podcast for quite a while.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 150,
+          "t": [
+            722.729,
+            733.498
+          ],
+          "quote": "The idea for the network grew out of noticing there were a lot of really good voices out there that weren't operating their podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 158,
+          "t": [
+            787.4,
+            789.962
+          ],
+          "quote": "But the podcast is one thing of many that they're doing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1144.261,
+            1151.626
+          ],
+          "quote": "I was represented by them as a client and they would handle my speaking engagements and brand relationships outside of the podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1153.393,
+            1155.294
+          ],
+          "quote": "They took on handling the podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1223.498,
+            1235.674
+          ],
+          "quote": "But many of our partnerships are what we call 360 deals, meaning the podcast ad buy is just one portion of a larger deal, more like an ambassador deal.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1349.398,
+            1355.283
+          ],
+          "quote": "What happened in your life that you found yourself on that farm in Hawaii thinking about putting a first podcast out?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1693.083,
+            1695.205
+          ],
+          "quote": "I don't think I've ever told this story on a podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1865.572,
+            1872.354
+          ],
+          "quote": "I think if you Google me, it might sound like I got sober and then I started running ultra marathons and I had a podcast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2061.503,
+            2074.667
+          ],
+          "quote": "Curious, Rich, as you sit here 15 or so years into this podcast journey and building this business and showing up in the world how you do for so many people, how do you stay in integrity?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2378.139,
+            2385.021
+          ],
+          "quote": "I'm Rana Elkayubi, and on my podcast, Pioneers of AI, we answer that question and so many more.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "cpm",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPM",
+      "file": "CPM",
+      "primary": true,
+      "how_described": "本集说行业通行的按听众规模算千次播放计价极其交易化,品牌与主播不匹配、流失率高,是 Roll 用经纪模式替代的对象",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1096.166,
+            1103.289
+          ],
+          "quote": "So much of media broadly and podcasting specifically is driven by CPM cost per thousand impressions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1174.581,
+            1178.804
+          ],
+          "quote": "The way it's done in podcasting, to your point, CPM, size of audience.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1181.866,
+            1185.008
+          ],
+          "quote": "That means we'll give you this CPM and you'll get paid that.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "360-deals",
+      "type": "concept",
+      "role": "concept",
+      "name": "360 度协议 (360 deals)",
+      "file": "360 度协议",
+      "primary": true,
+      "how_described": "本集说他们主打的合作形态:广告投放只是更大交易的一部分,还包括出席、演讲、拍摄,且品类独家,换来真实的品牌关系和更高转化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1223.498,
+            1235.674
+          ],
+          "quote": "But many of our partnerships are what we call 360 deals, meaning the podcast ad buy is just one portion of a larger deal, more like an ambassador deal.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "algorithm",
+      "type": "concept",
+      "role": "concept",
+      "name": "算法 (algorithm)",
+      "file": "算法",
+      "primary": true,
+      "how_described": "本集说如今的信息版图由算法驱动,博眼球最有效的路子是贩卖反主流观点和戏剧冲突;Roll 选择完全不去想算法并接受传播半径的代价",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            392.789,
+            402.913
+          ],
+          "quote": "How are you balancing maintaining your integrity while differentiating your episode from all the others and not chasing the algorithm and the outrage machine for the clips?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 84,
+          "t": [
+            403.184,
+            405.525
+          ],
+          "quote": "Yeah, I try not to think about the algorithm at all.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 175,
+          "t": [
+            876.506,
+            879.828
+          ],
+          "quote": "And they're trying to do it against the incentives of the algorithm.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1085.458,
+            1086.899
+          ],
+          "quote": "You're not chasing the algorithm.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "信任 (trust)",
+      "file": "信任",
+      "primary": true,
+      "how_described": "本集把它称为终极资产:人们最终会寻找可以信任的人,但信任随时被人以『几分钱一美元』的代价贱卖——这是 Roll 最想不明白的事",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 447,
+          "t": [
+            2223.187,
+            2224.147
+          ],
+          "quote": "People you can trust.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2248.632,
+            2253.496
+          ],
+          "quote": "You know, trade their trust and their integrity for pennies on the dollar all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2255.537,
+            2270.628
+          ],
+          "quote": "Like I play the long game, you know, and that means maybe you're not the shiniest object, but over the long haul, I know that when I'm scrolling online, I'm looking for the person that I can trust, even if my dopamine is getting hijacked by somebody I don't trust.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "integrity",
+      "type": "concept",
+      "role": "concept",
+      "name": "正直 (integrity)",
+      "file": "正直",
+      "primary": true,
+      "how_described": "贯穿本集的核心词:Roll 定义为心理、灵性、身体、人际上的生活一致,不追逐算法、不贱卖信任,靠长期主义取胜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            153.678,
+            159.061
+          ],
+          "quote": "As somebody who is trying to operate from a place of integrity, it creates a conundrum.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            382.204,
+            384.345
+          ],
+          "quote": "is trying to operate from a place of integrity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 82,
+          "t": [
+            389.827,
+            392.589
+          ],
+          "quote": "And I'm still doing my best to operate from a place of integrity.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            392.789,
+            402.913
+          ],
+          "quote": "How are you balancing maintaining your integrity while differentiating your episode from all the others and not chasing the algorithm and the outrage machine for the clips?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1086.979,
+            1088.601
+          ],
+          "quote": "You are really producing an integrity.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1844.62,
+            1853.267
+          ],
+          "quote": "I'm struck by how out of integrity you were at the time and how much integrity is central to your life and your work now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1855.248,
+            1863.251
+          ],
+          "quote": "How did you continue on the journey to integrity and leave the law and end up on that organic farm in Hawaii?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1916.35,
+            1921.834
+          ],
+          "quote": "Like some might say it was burnout, but I think it was really just, I'm so out of integrity being here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2061.503,
+            2074.667
+          ],
+          "quote": "Curious, Rich, as you sit here 15 or so years into this podcast journey and building this business and showing up in the world how you do for so many people, how do you stay in integrity?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2110.195,
+            2119.02
+          ],
+          "quote": "And integrity for me means that I'm living my life in alignment mentally, spiritually, physically, and interpersonally.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2127.866,
+            2130.267
+          ],
+          "quote": "Like integrity is multifaceted.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2130.407,
+            2137.892
+          ],
+          "quote": "And I think on any given day, I'm probably out of, you know, you can't be in perfect integrity or alignment with everything simultaneously.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2224.587,
+            2240.41
+          ],
+          "quote": "People who are operating from a place of integrity, who might not be the biggest, but are the people that when you really want to know what to pay attention to, what not to pay attention to, who's telling you the truth and who isn't, that becomes a very valuable thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2248.632,
+            2253.496
+          ],
+          "quote": "You know, trade their trust and their integrity for pennies on the dollar all the time.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2294.824,
+            2298.426
+          ],
+          "quote": "Rich is an inspiring example of what it means to truly make integrity a priority in your brand.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2298.486,
+            2301.668
+          ],
+          "quote": "If anyone I've interviewed for this show is living in integrity, it's Rich Roll.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

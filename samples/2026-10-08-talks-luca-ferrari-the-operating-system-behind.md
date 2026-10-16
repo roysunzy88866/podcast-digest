@@ -264,7 +264,7 @@ Ferrari 在丹麦读完工程、和联合创始人关掉他们的 AI 初创公�
 
 - [[2026-09-18-sourcery-bending-spoons-is-eating-silicon-valley|Bending Spoons：被硅谷误读的「收购机器」，人均 400 万美元收入怎么来的]]<span class="pd-rz">同公司:Bending Spoons · 同概念:极度主人翁意识 (extreme ownership)</span>
 - [[2026-08-06-mos-always-be-the-challenger-with-savannah-b|把棒球变成马戏团：Savannah Bananas 创始人的粉丝优先生意经]]<span class="pd-rz">同概念:天赋与经验的权衡 (experience)</span>
-- [[2026-08-28-talks-how-to-avoid-disaster-when-vibe-coding-a|智能体怎么付钱、怎么花钱:Metronome 讲透按量计费与智能体商务]]<span class="pd-rz">同公司:HubSpot</span>
+- [[2026-10-15-mos-rich-roll-s-crash-course-in-entrepreneur|从酒瘾律师到播客创业者:Rich Roll 的诚意生意经]]<span class="pd-rz">同概念:诚信 (integrity)</span>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>50</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>51</b> 集 · <b>11</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -61,10 +61,11 @@ unlisted: true
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(00:24起):本集主线公司:2025 年处理 1.9 万亿美元交易(同比增 34%),正在为 AI/智能体商务『彻底重构』自己,包括收购 Bridge、Privy、Metronome、OpenRouter。
 - **[[2026-10-09-talks-why-your-company-needs-a-context-graph-a|《给公司装一个“大脑”：为什么你需要上下文图谱》]]**(05:13起):本集说对 Stripe 的查询永远是关于特定客户的静态查询或单一操作，适合用 MCP 实时接口，不必同步副本。
 - **[[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]]**(09:13起):本集说 Stripe 像「智能体时代的 AOL」：其 Link 钱包有约 3 亿消费者，在商户无连接时用一次性 Visa 虚拟卡代买，是典型的围墙花园做法。
+- **[[2026-10-15-thepeel-why-stripes-1st-employee-bought-a-bank|《Stripe 一号员工为什么去买了一家银行》]]**(00:07起):本集说 Stripe 是 Darragh 以第一号员工身份加入的支付公司，靠合并商户账户与网关造出漂亮抽象，但建在合作银行之上始终像「穿着别人的鞋」，甚至为 ACH 退回对账养了几十人团队。
 
 ## ① 提到它的金句
 
-*10 条*
+*11 条*
 
 ![[2026-08-03-yc-patrick-collison-what-if-you-succeed-e3m#^q3]]
 
@@ -86,9 +87,11 @@ unlisted: true
 
 ![[2026-10-15-a16z-when-ai-agents-start-spending-your-money#^q6]]
 
+![[2026-10-15-thepeel-why-stripes-1st-employee-bought-a-bank#^q8]]
+
 ## ② 出现在这些集
 
-*50 集*
+*51 集*
 
 - [[2024-10-08-talks-ship-pricing-as-fast-as-product-orb-s-m|《Orb CEO Alvaro Morales:定价为什么该像产品一样快速迭代》]] — 作为概念
 - [[2025-10-16-lennys-why-ai-makes-design-craft-and-quality-th|《Figma CEO Dylan Field:想赢,产品就得有品味》]] — 作为被讨论公司(提及)
@@ -140,14 +143,15 @@ unlisted: true
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
 - [[2026-10-09-talks-why-your-company-needs-a-context-graph-a|《给公司装一个“大脑”：为什么你需要上下文图谱》]] — 作为被讨论公司(提及)
 - [[2026-10-15-a16z-when-ai-agents-start-spending-your-money|《AI 会替你付钱了，但你的信用卡世界要变天了》]] — 作为被讨论公司
+- [[2026-10-15-thepeel-why-stripes-1st-employee-bought-a-bank|《Stripe 一号员工为什么去买了一家银行》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Vercel]] · [[Claude]] · [[OpenRouter]] · [[NVIDIA]] · [[ChatGPT]]
+[[智能体]] · [[OpenAI]] · [[Anthropic]] · [[推理]] · [[Cursor]] · [[Vercel]] · [[Claude]] · [[OpenRouter]] · [[NVIDIA]] · [[Databricks]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Anthropic":206,"推理":101,"Cursor":87,"Vercel":20,"Claude":98,"OpenRouter":14,"NVIDIA":71,"ChatGPT":115}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"OpenAI":207,"Anthropic":206,"推理":101,"Cursor":87,"Vercel":20,"Claude":98,"OpenRouter":14,"NVIDIA":71,"Databricks":26}</script>
 
 <script>
 (function(){

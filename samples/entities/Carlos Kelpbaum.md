@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"子智能体":7,"主智能体":1,"脚手架":1,"pull request":7,"上下文":34,"确定性语言":1,"Rust":7,"开源":43,"GPU":33}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"子智能体":7,"主智能体":1,"脚手架":1,"pull request":7,"上下文":34,"确定性语言":1,"Rust":8,"开源":43,"GPU":33}</script>
 
 <script>
 (function(){

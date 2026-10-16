@@ -1,0 +1,203 @@
+{
+  "title_zh": "别再优化点击了：你的排序模型瞄错了目标",
+  "tldr": "Sequin 联合创始人 Zoe Weil 讲解为什么电商排序不该学 TikTok,以及如何从犹豫和滚动里读出购物者真心。",
+  "digest_md": "你在网上看到的一切——一条裤子、一间酒店、一条广告——背后都有一个排序模型在决定先给你看什么。Zoe Weil 联合创办的 Sequin 就是为全球最大的消费公司做这件事的。她的核心观点很反直觉：几十年来大家都在解决“帮用户找到东西”，但真正值钱的是“在用户购买意愿最强的那一刻，影响他的行为”。\n\n## 为什么说排序模型优化错了东西？\n\n信息检索领域的传统智慧是：只要检索结果和查询足够相关，转化率自然会上去。Zoe 在研究生院学的就是这个。她承认这条路已经被走通了，前沿实验室做得很好，不再是有趣的研究方向。\n\n但商业世界是另一回事。TikTok 和 Instagram 表面上在做推荐，实际上是在潜移默化地让你想要原本不想要的东西。它们能做到，靠的是几十亿人每天打开应用 10 到 21 次产生的海量数据 [06:10 Zoe]。\n\n而 Wayfair、Priceline 这样的大公司做不到——没人像刷 TikTok 一样刷家具网站。所以无论多大，消费公司天然缺数据。\n\n## 缺数据怎么办？往一次会话里挖\n\nSequin 的答案不是跨客户汇总数据(他们明确不共享客户数据)，**而是把单次访问的信息榨到极致**：悬停多久、滚动多快、在两件商品之间来回多少次。所有数据要在纳秒级清洗、毫秒级过模型，50 毫秒内把重新排序的结果端给用户。\n\n支撑这一切的是他们叫“大事件模型”的东西——不是大语言模型，Sequin 几乎不用大语言模型，也不做生成式 AI。大事件模型类比大语言模型对文本的泛化能力，但泛化的对象是人的行为和事件流 [09:52 Zoe]。\n\n技术栈上有个反常识的选择：核心后端全部用 Rust 写。主持人问能不能用 Python,Zoe 的回答很干脆：“我真心觉得不行”，因为超低延迟的特征变换和推理太核心了 [20:56 Zoe]。他们赶上了一个好时机——Rust 在开源 AI 库里的支持在过去几年才成熟起来。\n\n## 你买了网球拍，就不该再给你看网球拍\n\n一个具体例子。你把网球拍加进购物车后，Sequin 不会展示其他网球拍——那只会拉低转化。他们会推荐吸汗带、网球球。但具体推哪一款，因人而异：你是怎么在蓝色和粉色之间做出决定的？花了多久？来回比了多少次？\n\n有意思的是，同一个“配套商品”模块在商品详情页和购物车页面的排序逻辑完全不同。到了购物车页，你已经认定了这支球拍；在详情页，你还没committed,所以要展示更多样化的选择 [29:31 Zoe]。\n\n关键在于：Sequin 完全不关心用户身份。姓名、位置统统不要。在他们眼里，“用户就是一次会话里的一串事件” [26:56 Zoe]。这也是她回应“监控资本主义”质疑的方式：不做跨站追踪，不存储个人信息，只在一次实时交互里工作——像店里的售货员注意到你在某件商品前多停留了一会儿。\n\n## 最被浪费的数据，是那 99% 没买的人\n\nZoe 讲了一个她和大银行高管的对话。对方炫耀自己有海量交易数据，她的回应是：这是最没意思的数据，因为 99% 的人根本不会成交，“**我感兴趣的是你实际上没有的那 99% 的数据**” [37:25 Zoe]。\n\n这一点对做 AI 系统的人有普遍启示。很多团队做检索增强、做智能助手，反馈信号只有点击或点赞，团队苦于反馈太少。Sequin 的思路是：隐式反馈几乎无限——滚动速度、悬停时长都是反馈。\n\n另一个成果：广告收入和自然转化通常此消彼长，因为列表位置就那么多。Sequin 声称能让两者同时上涨，因为他们展示的是用户真正想看的东西，而不是诱导点击 [35:19 Zoe]。\n\n## 大厂论文为什么帮不了你\n\nZoe 对行业惯例的一段话很扎心。这个领域最大的创新者是社交媒体公司，它们发表了大量论文，Amazon 以前也常发。Wayfair 或 Priceline 的科学家读论文、照着实现，往往也能实现成功——但产出的效果和人家不一样，因为你没有他们的数据 [15:53 Zoe]。\n\nSequin 的解法之一是自己积累论文里没有的知识。她指出大厂科学家发论文要等几个月的法务审批，发出来的版本已经严重稀释。Sequin 从这些机构挖人，把没有发表过的经验(她称之为“剩余知识”)整理成内部的评测工具库和知识库，再加上嵌入客户现场的部署工程师，构成了他们所谓的“递归栈”的核心。\n\n## 本集带走\n\n- 排序系统的默认目标是“帮人找到东西”，但在商业场景里，真正的目标是影响高购买意愿时刻的行为——两者的优化方向完全不同。\n- 数据匮乏的公司照搬大厂论文，即使实现成功也达不到同样效果，因为缺的不是算法而是数据。\n- 点击和交易只占用户行为的一小撮；悬停时长、滚动速度、来回比较的次数这些隐式信号才是被浪费的富矿。\n- 身份不重要：把用户看作“一次会话中的一串事件”，既能做实时个性化，又避开跨站追踪的隐私问题。\n- 超低延迟系统选语言是认真的事：Sequin 的核心后端全用 Rust,他们认为 Python 做不到毫秒级的特征变换和推理。",
+  "quotes": [
+    {
+      "en": "And these seem maybe to most people to be unrelated, but every dollar of online spending consumption goes through a ranking model somewhere.",
+      "zh": "这些在大多数人看来也许互不相关，但线上消费的每一美元都经过某个地方的排序模型。",
+      "timestamp": "03:27",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "Instead, they're bending the end user's will in subtle ways over time to make them want things that they otherwise wouldn't want, right?",
+      "zh": "相反，它们是在随着时间推移以微妙的方式扭曲终端用户的意愿，让他们想要那些原本不会想要的东西，对吧？",
+      "timestamp": "05:27",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "And so regardless of how big you are as a consumer business, you are going to be data starved.",
+      "zh": "所以，无论你作为一家消费类业务规模有多大，你都会面临数据匮乏。",
+      "timestamp": "07:14",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "The point is I can get people to buy $102, but I can do it consistently and at scale.",
+      "zh": "关键是，我能让人们多买 2 美元，但我可以持续地、大规模地做到这一点。",
+      "timestamp": "07:59",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "We are not at all trying to help people find things.",
+      "zh": "我们完全不是在试图帮助人们找到东西。",
+      "timestamp": "09:10",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "So no, I can definitively say we could not have done it in Python at all.",
+      "zh": "所以不，我可以明确地说，我们完全不可能用 Python 做成。",
+      "timestamp": "21:03",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "I was like, actually, that's like, that's the least interesting data you could give me because you're only showing me a sliver of human behavior.",
+      "zh": "我说，实际上，那是我能拿到的最不有趣的数据，因为你只给我看了人类行为的一小部分。",
+      "timestamp": "37:07",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "That transaction data is useless because 99% of people don't actually convert.",
+      "zh": "那些交易数据是没用的，因为 99% 的人实际上不会转化。",
+      "timestamp": "37:18",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "I'm interested in the 99% of data you actually don't have.",
+      "zh": "我感兴趣的是你实际上没有的那 99% 的数据。",
+      "timestamp": "37:25",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "The thing is that getting these models to work requires you to have an innate understanding of what features drive value, and that is not written in any research paper.",
+      "zh": "问题是，让这些模型工作需要你对什么特征驱动价值有内在的理解，而这没有写在任何研究论文里。",
+      "timestamp": "38:44",
+      "speaker": "Zoe Weil"
+    },
+    {
+      "en": "Language, despite however creative that you can get, has a certain repetition to it that human beings simply do not have, right?",
+      "zh": "语言，无论你能多有创造力，都有一定的重复性，而人类根本没有，对吧？",
+      "timestamp": "49:11",
+      "speaker": "Zoe Weil"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:27",
+      "speaker": "Unknown",
+      "en": "And these seem maybe to most people to be unrelated, but every dollar of online spending consumption goes through a ranking model somewhere.",
+      "zh": "这些在大多数人看来也许互不相关，但线上消费的每一美元都经过某个地方的排序模型。"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Unknown",
+      "en": "Instead, they're bending the end user's will in subtle ways over time to make them want things that they otherwise wouldn't want, right?",
+      "zh": "相反，它们是在随着时间推移以微妙的方式扭曲终端用户的意愿，让他们想要那些原本不会想要的东西，对吧？"
+    },
+    {
+      "timestamp": "06:02",
+      "speaker": "Unknown",
+      "en": "No, they're very, very good at influencing your behavior.",
+      "zh": "不，它们非常非常擅长影响你的行为。"
+    },
+    {
+      "timestamp": "07:14",
+      "speaker": "Unknown",
+      "en": "And so regardless of how big you are as a consumer business, you are going to be data starved.",
+      "zh": "所以，无论你作为一家消费类业务规模有多大，你都会面临数据匮乏。"
+    },
+    {
+      "timestamp": "07:59",
+      "speaker": "Unknown",
+      "en": "The point is I can get people to buy $102, but I can do it consistently and at scale.",
+      "zh": "关键是，我能让人们多买 2 美元，但我可以持续地、大规模地做到这一点。"
+    },
+    {
+      "timestamp": "09:10",
+      "speaker": "Unknown",
+      "en": "We are not at all trying to help people find things.",
+      "zh": "我们完全不是在试图帮助人们找到东西。"
+    },
+    {
+      "timestamp": "10:59",
+      "speaker": "Unknown",
+      "en": "in milliseconds and serve dynamic re-ranked items to a user as they're browsing a site all in under 50 milliseconds for thousands of requests per second is incredibly difficult to do.",
+      "zh": "在毫秒级完成，并在用户浏览网站时向其提供动态重排序的条目，全部在 50 毫秒以内、每秒数千个请求，这是极其难以做到的。"
+    },
+    {
+      "timestamp": "16:03",
+      "speaker": "Unknown",
+      "en": "And Sequin's big unlock is that we're finally able to get you that unlock without you having that data.",
+      "zh": "而 Sequin 的重大突破在于，我们终于能够在你不拥有那些数据的情况下让你获得那个突破。"
+    },
+    {
+      "timestamp": "20:15",
+      "speaker": "Unknown",
+      "en": "And, you know, this is why I always say whenever you make a successful startup, like there's quite a bit of luck there as well.",
+      "zh": "而且，你知道，这就是为什么我总是说，每当你做成一个成功的创业公司，其中也有相当多的运气成分。"
+    },
+    {
+      "timestamp": "21:03",
+      "speaker": "Unknown",
+      "en": "So no, I can definitively say we could not have done it in Python at all.",
+      "zh": "所以不，我可以明确地说，我们完全不可能用 Python 做成。"
+    },
+    {
+      "timestamp": "24:54",
+      "speaker": "Unknown",
+      "en": "Our largest models are a tiny, tiny, tiny fraction of that.",
+      "zh": "我们最大的模型只占那的一丁点、一丁点、一丁点比例。"
+    },
+    {
+      "timestamp": "28:30",
+      "speaker": "Unknown",
+      "en": "In fact, that will most likely drive down conversion.",
+      "zh": "事实上，那样做很可能会拉低转化率。"
+    },
+    {
+      "timestamp": "28:37",
+      "speaker": "Unknown",
+      "en": "And that's why you would use sequin, because we would never do that.",
+      "zh": "这正是你会用 Sequin 的原因，因为我们绝不会那么做。"
+    },
+    {
+      "timestamp": "37:07",
+      "speaker": "Unknown",
+      "en": "I was like, actually, that's like, that's the least interesting data you could give me because you're only showing me a sliver of human behavior.",
+      "zh": "我说，实际上，那是我能拿到的最不有趣的数据，因为你只给我看了人类行为的一小部分。"
+    },
+    {
+      "timestamp": "37:18",
+      "speaker": "Unknown",
+      "en": "That transaction data is useless because 99% of people don't actually convert.",
+      "zh": "那些交易数据是没用的，因为 99% 的人实际上不会转化。"
+    },
+    {
+      "timestamp": "37:25",
+      "speaker": "Unknown",
+      "en": "I'm interested in the 99% of data you actually don't have.",
+      "zh": "我感兴趣的是你实际上没有的那 99% 的数据。"
+    },
+    {
+      "timestamp": "39:30",
+      "speaker": "Unknown",
+      "en": "And the version of those papers that actually ends up getting published is a very, very watered down version of that line of work.",
+      "zh": "而最终真正发表出来的那些论文版本，是那条研究路线一个非常非常注水的版本。"
+    },
+    {
+      "timestamp": "38:56",
+      "speaker": "Unknown",
+      "en": "The thing is that getting these models to work requires you to have an innate understanding of what features drive value, and that is not written in any research paper.",
+      "zh": "问题是，让这些模型工作需要你对什么特征驱动价值有内在的理解，而这没有写在任何研究论文里。"
+    },
+    {
+      "timestamp": "49:09",
+      "speaker": "Unknown",
+      "en": "People aren't like languages.",
+      "zh": "人不像语言。"
+    },
+    {
+      "timestamp": "49:11",
+      "speaker": "Unknown",
+      "en": "Language, despite however creative that you can get, has a certain repetition to it that human beings simply do not have, right?",
+      "zh": "语言，无论你能多有创造力，都有一定的重复性，而人类根本没有，对吧？"
+    },
+    {
+      "timestamp": "49:33",
+      "speaker": "Unknown",
+      "en": "You know, there is something inherently unpredictable about human behavior.",
+      "zh": "人类行为存在某种本质上不可预测的东西。"
+    }
+  ],
+  "voice_script": "今天要讲的人和事，都跟一件你可能从没留意过的事情有关。你在网上买东西的时候，看到什么、先看到哪个、往下翻到第几屏才出现它，背后全有一个排序模型在决定。线上消费的每一美元，其实都经过某个地方的排序模型。今天的主角叫 Zoe Weil,联合创办了一家公司叫 Sequin,专门给全球最大的消费公司做这件事——把排序模型做到毫秒级的实时调优。这一集她要讲一个很反直觉的观点：几十年来，整个行业都在解决“帮用户找到东西”这个问题，但她说，这不是商业里真正值钱的题目。真正值钱的，是在用户购买意愿最强的那一刻，影响他的行为。\n\n先把这个来龙去脉讲清楚。Zoe 在研究生院学的是信息检索，这个领域的传统智慧是：只要检索结果和查询足够相关，转化率自然就上去了。这条路其实已经被走通了，前沿的实验室做得很好，已经不再是有趣的研究方向。但商业世界是另一回事。你看看 TikTok 和 Instagram 在做什么——表面上是推荐，实际上是随着时间推移，用微妙的方式扭曲你的意愿，让你想要那些原本不会想要的东西。它们能做到这一点，靠的是海量数据：几十亿人每天打开应用十到二十一次，每一次都在喂数据。\n\n那问题来了——像 Wayfair、Priceline 这样的大公司怎么办？没人像刷 TikTok 一样刷家具网站。所以 Zoe 有一句很扎心的话：无论你作为一家消费类业务规模有多大，你都会面临数据匮乏。这就引出这一集最核心的问题：缺数据，怎么办？\n\nSequin 的答案分两步。第一步，不是去凑数据。他们明确不做跨客户的汇总，不共享客户数据。既然跨不过去，那就往里面挖——把单次访问的信息榨到极致。悬停多久、滚动多快、在两件商品之间来回多少次，这些全都算数据。而且所有数据要在纳秒级清洗、毫秒级过模型，五十毫秒以内，把重新排好的结果端到用户面前。支撑这一切的是他们叫“大事件模型”的东西——注意，不是大语言模型。它借的是大语言模型对文本泛化的思路，但泛化的对象不是文字，是人的行为和事件流。顺便说一句，Sequin 几乎不用大语言模型，也不做生成式 AI。\n\n既然要毫秒级，第二步就是技术选型，这里有个反常识的选择：核心后端全部用 Rust 写。主持人问，能不能用 Python?Zoe 的回答很干脆，我可以明确地说，我们完全不可能用 Python 做成——因为超低延迟的特征变换和推理太核心了。他们也是赶上了一个好时机，Rust 在开源 AI 库里的支持，是过去几年才成熟起来的。\n\n这套东西落到具体场景里是什么样？举个例子。你把一支网球拍加进购物车，Sequin 不会给你展示别的网球拍——那只会拉低转化，因为你的主意已经定了。他们会推荐吸汗带、网球这些配套的东西。但具体推哪一款，因人而异：你是怎么在蓝色和粉色之间做决定的？花了多久？来回比了多少次？更有意思的是，同一个“配套商品”模块，在商品详情页和购物车页面的排序逻辑完全不同。到了购物车，你已经认定了这支球拍；但在详情页，你还没拍板，所以要展示更多样化的选择。\n\n这里有个很关键的点：做这一切，完全不需要知道你是谁。姓名、位置，统统不要。在 Sequin 眼里，用户就是一次会话里的一串事件。这也是回应“监控资本主义”质疑的方式：不做跨站追踪，不存个人信息，只在一次实时交互里工作——就像店里的售货员，注意到你在某件商品前多停留了一会儿，走过来搭句话。仅此而已。\n\n沿着“隐式信号”这个思路再往前推一步，你会看到一个更扎心的判断。Zoe 讲过一次和大银行高管的对话，对方炫耀自己有海量交易数据，她的回应是：这是最没意思的数据，因为百分之九十九的人根本不会成交——我感兴趣的是你实际上没有的那百分之九十九的数据。这句话对做 AI 系统的人有普遍的启示。很多团队苦于反馈太少，只有点击或点赞。但 Sequin 的思路是：隐式反馈几乎无限，滚动速度、悬停时长，全都是反馈。\n\n顺着这条路，还有一个反常识的成果。广告收入和自然转化，通常此消彼长，因为列表位置就那么多，给了广告就没法给自然结果。但 Sequin 声称能让两者同时上涨——因为他们展示的是用户真正想看的东西，而不是诱导点击。\n\n那为什么别家公司不照着学呢？这就引出 Zoe 对行业惯例的一段很扎心的话。这个领域最大的创新者是社交媒体公司，它们发表了大量论文，Amazon 以前也常发。Wayfair 或 Priceline 的科学家读论文、照着实现，往往也能实现成功——但产出的效果和人家不一样，因为你没有他们的数据。Zoe 还指出，大厂科学家发论文要等几个月的法务审批，发出来的版本早就严重稀释了。所以 Sequin 的解法之一，是自己去积累论文里没有的东西：从这些大机构挖人，把没发表过的经验——她管这叫“剩余知识”——整理成内部的评测工具库和知识库，再加上嵌入客户现场的部署工程师，构成他们所谓的“递归栈”的核心。\n\n最后总结一下这一集能带走什么。排序系统的默认目标是帮人找到东西，但 Zoe 说得很直白：我们完全不是在试图帮助人们找到东西，商业场景里真正的目标，是在购买意愿最强的那一刻影响行为——两者的优化方向完全不同。缺数据的公司照搬大厂论文，就算实现成功，效果也到不了位，因为缺的不是算法，是数据。而点击和交易只占用户行为的一小撮，悬停、滚动、来回比较，这些隐式信号才是被浪费的富矿。关键就在于，我能让人们多买两美元——但我可以持续地、大规模地做到这一点。"
+}

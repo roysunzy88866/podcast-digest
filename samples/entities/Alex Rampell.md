@@ -46,7 +46,7 @@ unlisted: true
 
 [[智能体]] · [[Stripe]] · [[PayPal]] · [[Olivia Moore]] · [[Max Levchin]] · [[Keith Parris]] · [[Terry Angelos]] · [[Frederick Rankin]] · [[Affirm]] · [[Joe Schmidt]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":50,"PayPal":9,"Olivia Moore":3,"Max Levchin":1,"Keith Parris":1,"Terry Angelos":1,"Frederick Rankin":1,"Affirm":2,"Joe Schmidt":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Stripe":51,"PayPal":9,"Olivia Moore":3,"Max Levchin":1,"Keith Parris":1,"Terry Angelos":1,"Frederick Rankin":1,"Affirm":2,"Joe Schmidt":2}</script>
 
 <script>
 (function(){

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Incorruptible":1,"Cloudflare":18,"Novo Nordisk":2,"Anthropic":206,"Vectura":1,"Groupon":1,"结构完整性":2,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Incorruptible":1,"Cloudflare":18,"Novo Nordisk":2,"Anthropic":206,"Vectura":1,"Groupon":1,"结构完整性":3,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

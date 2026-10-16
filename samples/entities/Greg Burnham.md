@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sam Charrington":6,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":3,"递归自我改进":13,"研究品味":1,"上下文学习":4,"harness":67,"对齐":25}</script>
+<script type="application/json" class="pd-epn">{"Sam Charrington":7,"Epoch AI":1,"Frontier Math":1,"AI 能力":1,"基准测试":3,"递归自我改进":13,"研究品味":1,"上下文学习":4,"harness":67,"对齐":25}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]] [[Dr. Wara]] [[Liz Harkaby]] [[Dan Bonnet]] [[Eddie Lazarin]]
+[[Terry Angelos]] [[Kevin Roose]] [[Diogo Almeida]] [[Rich Roll]] [[Dara]] [[Darragh Buckley]] [[Zoe Weil]] [[Leisha Lee]] [[Nathan Lambert]] [[Tim Herbig]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":35,"AI":34,"构建者":5,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
+<script type="application/json" class="pd-epn">{"Ring":1,"Amazon":36,"AI":34,"构建者":5,"零基预算":1,"第一性原理":6,"智能视频描述":1,"虚拟保安":1,"电视广告":1,"AI 原生公司":1}</script>
 
 <script>
 (function(){

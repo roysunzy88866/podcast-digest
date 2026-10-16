@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Maggie Landers":1,"Harvey":21,"公司文化":3,"招人":5,"信任建立":7,"判断力":7,"自我筛选":1,"自主性":10,"透明":4,"Anthropic":206}</script>
+<script type="application/json" class="pd-epn">{"Maggie Landers":1,"Harvey":21,"公司文化":3,"招人":5,"信任建立":8,"判断力":7,"自我筛选":1,"自主性":10,"透明":4,"Anthropic":206}</script>
 
 <script>
 (function(){
