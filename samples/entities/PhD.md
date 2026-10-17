@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PhD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PhD">PH</div><div class="pi"><h1 class="pt">PhD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>6</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PhD">PH</div><div class="pi"><h1 class="pt">PhD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-15-practicalai-education-is-failing-our-students-in-thi|《AI冲进课堂，教育还没准备好》]]**(34:31起):Daniel 以自身经历论证：博士的价值不在具体发现（AI 知道的是现有水平），而在做出真正新颖研究、在模糊中工作、并在坐满专家的房间里当场为自己辩护的过程。
+- **[[2026-10-15-practicalai-is-education-failing-our-students-in-thi|《AI时代，学校还在教孩子“不用AI”》]]**(34:31起):本集把 PhD 说成:必须发表原创研究才能拿到的学位,其真正价值是在 50 位专家的质疑中练出在模糊性中工作、走向可辩护立场的能力。
 
 ## ① 提到它的金句
 
@@ -31,17 +32,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-10-15-practicalai-education-is-failing-our-students-in-thi|《AI冲进课堂，教育还没准备好》]] — 作为概念
+- [[2026-10-15-practicalai-is-education-failing-our-students-in-thi|《AI时代，学校还在教孩子“不用AI”》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Daniel Whitenack]] · [[Chris Benson]] · [[教育]] · [[批判性思考]] · [[聊天机器人]] · [[AI 导师]] · [[挣扎]] · [[Purdue]]
+[[Daniel Whitenack]] · [[Chris Benson]] · [[批判性思考]] · [[聊天机器人]] · [[AI 导师]] · [[挣扎]] · [[Purdue]] · [[教育]] · [[创造力]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":12,"Chris Benson":13,"教育":1,"批判性思考":2,"聊天机器人":4,"AI 导师":2,"挣扎":1,"Purdue":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":13,"Chris Benson":14,"批判性思考":3,"聊天机器人":5,"AI 导师":3,"挣扎":2,"Purdue":2,"教育":1,"创造力":1,"智能体":1}</script>
 
 <script>
 (function(){

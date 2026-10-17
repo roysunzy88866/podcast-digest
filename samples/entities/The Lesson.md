@@ -35,7 +35,7 @@ unlisted: true
 
 [[Daniel Whitenack]] · [[Chris Benson]] · [[Reef Frerichs]] · [[叙事智能]] · [[讲故事]] · [[拥有、书写、行动]] · [[重新框架]] · [[冒名顶替综合征]] · [[股权占比]] · [[情商]]
 
-<script type="application/json" class="pd-epn">{"Daniel Whitenack":12,"Chris Benson":13,"Reef Frerichs":1,"叙事智能":1,"讲故事":1,"拥有、书写、行动":1,"重新框架":1,"冒名顶替综合征":1,"股权占比":4,"情商":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":13,"Chris Benson":14,"Reef Frerichs":1,"叙事智能":1,"讲故事":1,"拥有、书写、行动":1,"重新框架":1,"冒名顶替综合征":1,"股权占比":4,"情商":1}</script>
 
 <script>
 (function(){

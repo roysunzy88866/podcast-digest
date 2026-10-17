@@ -1,0 +1,28 @@
+{
+  "id": "2026-10-11-talks-parsing-the-epstein-files-for-jmail-pala",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/HGfsfKaVuGY.m4a",
+  "duration_sec": 1751.029,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 314,
+  "asr": true,
+  "title_en": "Parsing the Epstein Files for JMail — Palak Agarwal & Omar Alhait, Reducto",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-18",
+  "added_at": "2026-10-17T17:52:33.537Z",
+  "speaker_map": {
+    "SPEAKER_00": "Palak Agarwal",
+    "SPEAKER_01": "Omar Alhait"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Palak Agarwal",
+    "Omar Alhait"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "三百万页乱七八糟的爱泼斯坦文件，是怎么被 AI 读懂的",
+  "guest_name": "Palak Agarwal",
+  "guest_title": "Reducto 开发者关系负责人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -1,0 +1,2514 @@
+[
+ {
+  "seg": 0,
+  "start": 13.023,
+  "end": 13.684,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 13.704,
+  "end": 14.584,
+  "speaker": "Unknown",
+  "en": "My name is Palak.",
+  "zh": "我叫 Palak。"
+ },
+ {
+  "seg": 2,
+  "start": 14.745,
+  "end": 17.127,
+  "speaker": "Unknown",
+  "en": "I lead developer relations at Reducto.",
+  "zh": "我在 Reducto 负责开发者关系。"
+ },
+ {
+  "seg": 3,
+  "start": 17.887,
+  "end": 22.271,
+  "speaker": "Unknown",
+  "en": "And before we dive into Gmail, I'd love to give you a little background on what we do.",
+  "zh": "在我们深入 Gmail 之前，我想先简单介绍一下我们是做什么的。"
+ },
+ {
+  "seg": 4,
+  "start": 23.132,
+  "end": 31.078,
+  "speaker": "Unknown",
+  "en": "We're an agentic document platform, which basically means we help teams turn messy, unstructured documents into data that AI can actually use accurately.",
+  "zh": "我们是一个智能体文档平台，基本上就是帮助团队把杂乱、非结构化的文档转换成 AI 能够真正准确使用的数据。"
+ },
+ {
+  "seg": 5,
+  "start": 33.108,
+  "end": 46.633,
+  "speaker": "Unknown",
+  "en": "To give you some context, in the last three years, we've raised $108 million from investors like ACCNC, Benchmark, and more, and processed over two billion documents across customers like Harvey, Scale, and a top five global hedge fund.",
+  "zh": "给大家一些背景，过去三年里，我们从 ACCNC、Benchmark 等投资方那里融资了 1.08 亿美元，并为 Harvey、Scale 以及一家全球前五的对冲基金等客户处理了超过 20 亿份文档。"
+ },
+ {
+  "seg": 6,
+  "start": 47.254,
+  "end": 56.537,
+  "speaker": "Unknown",
+  "en": "And operating at that scale means that we've basically dealt with every document you can possibly think of, and we've iterated Reducto's product to handle anything.",
+  "zh": "在那样的规模下运营，意味着我们基本上处理过你能想到的任何文档，并且我们不断迭代 Reducto 的产品以应对任何情况。"
+ },
+ {
+  "seg": 7,
+  "start": 59.028,
+  "end": 69.715,
+  "speaker": "Unknown",
+  "en": "Now, getting AI to work on a clean PDF with a frontier model is not that hard, but the truth is that most of enterprise documents are unstructured.",
+  "zh": "用前沿模型处理一份干净的 PDF 并不难，但事实是，大多数企业文档都是非结构化的。"
+ },
+ {
+  "seg": 8,
+  "start": 69.755,
+  "end": 75.759,
+  "speaker": "Unknown",
+  "en": "That means, like, scanned documents, rotated documents, charts, and that's when things get really complex.",
+  "zh": "也就是说，比如扫描文档、旋转过的文档、图表，这时事情就变得非常复杂了。"
+ },
+ {
+  "seg": 9,
+  "start": 76.179,
+  "end": 78.801,
+  "speaker": "Unknown",
+  "en": "Reducto is the layer that sits right before your model.",
+  "zh": "Reducto 就是位于你模型之前的那一层。"
+ },
+ {
+  "seg": 10,
+  "start": 79.582,
+  "end": 87.307,
+  "speaker": "Unknown",
+  "en": "We handle complex layouts, but also as well as post-processing, so you can focus on building your actual product.",
+  "zh": "我们处理复杂布局，同时也做后处理，这样你就可以专注于构建你真正的产品。"
+ },
+ {
+  "seg": 11,
+  "start": 88.307,
+  "end": 91.49,
+  "speaker": "Unknown",
+  "en": "The reason this works is that we take a rasterization-based approach.",
+  "zh": "这之所以有效，是因为我们采用了基于光栅化的方法。"
+ },
+ {
+  "seg": 12,
+  "start": 91.87,
+  "end": 96.974,
+  "speaker": "Unknown",
+  "en": "That means we look at your document like a human would look at the document instead of the underlying embedding.",
+  "zh": "这意味着我们像人类看文档一样去看你的文档，而不是看底层的嵌入。"
+ },
+ {
+  "seg": 13,
+  "start": 98.115,
+  "end": 110.024,
+  "speaker": "Unknown",
+  "en": "Everything is powered by our agentic OCR framework where rather than making a single pass and committing to an answer, the model flags things that it's uncertain about, corrects them, and then moves on to the next step.",
+  "zh": "一切都由我们的智能体 OCR 框架驱动：模型不是一次性处理并直接给出答案，而是标记它不确定的地方，进行纠正，然后再进入下一步。"
+ },
+ {
+  "seg": 14,
+  "start": 110.744,
+  "end": 112.666,
+  "speaker": "Unknown",
+  "en": "We'll give you access to our studio.",
+  "zh": "我们会给你访问我们 studio 的权限。"
+ },
+ {
+  "seg": 15,
+  "start": 113.067,
+  "end": 115.289,
+  "speaker": "Unknown",
+  "en": "We've made it self-serve just for this session.",
+  "zh": "专门为这次活动我们把它做成了自助式的。"
+ },
+ {
+  "seg": 16,
+  "start": 116.05,
+  "end": 121.276,
+  "speaker": "Unknown",
+  "en": "But in total, we have five core capabilities, parse, split, extract, edit, and classify.",
+  "zh": "总的来说，我们有五大核心能力：parse、split、extract、edit 和 classify。"
+ },
+ {
+  "seg": 17,
+  "start": 123.078,
+  "end": 124.64,
+  "speaker": "Unknown",
+  "en": "Now, a quick show of hands.",
+  "zh": "现在，快速举手调查一下。"
+ },
+ {
+  "seg": 18,
+  "start": 124.76,
+  "end": 127.904,
+  "speaker": "Unknown",
+  "en": "Who here has heard of Gmail or looked through Gmail before?",
+  "zh": "在座谁听说过 Gmail，或者浏览过 Gmail？"
+ },
+ {
+  "seg": 19,
+  "start": 129.771,
+  "end": 131.894,
+  "speaker": "Unknown",
+  "en": "Okay, wow, that's a good chunk of people.",
+  "zh": "好的，哇，还挺多人。"
+ },
+ {
+  "seg": 20,
+  "start": 132.795,
+  "end": 134.957,
+  "speaker": "Unknown",
+  "en": "But I'll give a quick rundown in case you haven't.",
+  "zh": "但以防有人没听过，我快速介绍一下。"
+ },
+ {
+  "seg": 21,
+  "start": 135.378,
+  "end": 140.984,
+  "speaker": "Unknown",
+  "en": "So, Gmail was originally built by Riley Walls and Luke Igel in five hours last November.",
+  "zh": "Gmail 最初是 Riley Walls 和 Luke Igel 在去年十一月份花五个小时做出来的。"
+ },
+ {
+  "seg": 22,
+  "start": 141.064,
+  "end": 143.247,
+  "speaker": "Unknown",
+  "en": "That's when the Epstein files were released.",
+  "zh": "那正是 Epstein 文件公布的时候。"
+ },
+ {
+  "seg": 23,
+  "start": 143.307,
+  "end": 148.453,
+  "speaker": "Unknown",
+  "en": "The concept is basically Gmail forked, and you can log into the inbox like you're",
+  "zh": "这个概念基本上就是 Gmail 的一个 fork，你可以像 Epstein 本人一样登录收件箱，"
+ },
+ {
+  "seg": 24,
+  "start": 148.793,
+  "end": 149.193,
+  "speaker": "Unknown",
+  "en": "Epstein.",
+  "zh": "像 Epstein 一样。"
+ },
+ {
+  "seg": 25,
+  "start": 149.293,
+  "end": 150.954,
+  "speaker": "Unknown",
+  "en": "And then that grew into a full suite.",
+  "zh": "后来它发展成了一个完整的产品套件。"
+ },
+ {
+  "seg": 26,
+  "start": 150.974,
+  "end": 155.355,
+  "speaker": "Unknown",
+  "en": "So you can think of like J Drive, J Flight, J Amazon, J Photos, and so much more.",
+  "zh": "你可以把它想成 J Drive、J Flight、J Amazon、J Photos 等等等等。"
+ },
+ {
+  "seg": 27,
+  "start": 156.135,
+  "end": 162.737,
+  "speaker": "Unknown",
+  "en": "By February, there were over 450 million visits and 18 million users that had accessed Gmail.",
+  "zh": "到二月份，Gmail 的访问量超过 4.5 亿次，有 1800 万用户访问过它。"
+ },
+ {
+  "seg": 28,
+  "start": 163.217,
+  "end": 166.998,
+  "speaker": "Unknown",
+  "en": "And we're really proud to share that Reducto was behind parsing all of the documents.",
+  "zh": "我们很自豪地告诉大家，所有这些文档的解析背后都是 Reducto。"
+ },
+ {
+  "seg": 29,
+  "start": 167.558,
+  "end": 168.678,
+  "speaker": "Unknown",
+  "en": "And that's not a small number.",
+  "zh": "而且这不是一个小数字。"
+ },
+ {
+  "seg": 30,
+  "start": 168.718,
+  "end": 174.38,
+  "speaker": "Unknown",
+  "en": "It's over 3 million pages of redacted PDFs, scanned documents, and messy government files as well.",
+  "zh": "超过 300 万页经过遮盖处理的 PDF、扫描文档，以及杂乱的政府文件。"
+ },
+ {
+  "seg": 31,
+  "start": 175.378,
+  "end": 183.8,
+  "speaker": "Unknown",
+  "en": "And to give you an idea, this ranged from anything like really complex forms and tables to messy handwriting of so many different people.",
+  "zh": "给大家一个概念，这些文档五花八门，从非常复杂的表单和表格，到许许多多不同的人的潦草手写体。"
+ },
+ {
+  "seg": 32,
+  "start": 184.8,
+  "end": 193.681,
+  "speaker": "Unknown",
+  "en": "Now I'm going to hand it over to Omar, who's one of our founding engineers and worked very closely with the JML team back in November, and he'll give you a technical rundown and more.",
+  "zh": "现在我要交给 Omar，他是我们的创始工程师之一，去年十一月份与 JML 团队紧密合作，他会给大家做一个技术讲解以及更多内容。"
+ },
+ {
+  "seg": 33,
+  "start": 195.002,
+  "end": 195.542,
+  "speaker": "Unknown",
+  "en": "All righty.",
+  "zh": "好嘞。"
+ },
+ {
+  "seg": 34,
+  "start": 195.642,
+  "end": 197.782,
+  "speaker": "Unknown",
+  "en": "Who's ready to talk about some documents?",
+  "zh": "谁准备好聊一聊文档了？"
+ },
+ {
+  "seg": 35,
+  "start": 197.962,
+  "end": 198.542,
+  "speaker": "Unknown",
+  "en": "Yippee!",
+  "zh": "耶！"
+ },
+ {
+  "seg": 36,
+  "start": 200.003,
+  "end": 200.323,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 37,
+  "start": 202.757,
+  "end": 207.46,
+  "speaker": "Unknown",
+  "en": "Yeah, so walking us back to a very fateful night in November, right?",
+  "zh": "是这样，让我们回到十一月份一个非常关键的时刻，对吧？"
+ },
+ {
+  "seg": 38,
+  "start": 208.5,
+  "end": 222.289,
+  "speaker": "Unknown",
+  "en": "I was talking with the founding team and we were trying to figure out what would be a great way to use Reducto with this kind of transformational cultural event that was going to be unveiled to the public, right?",
+  "zh": "我当时和创始团队在讨论，面对这个即将向公众公布的、具有变革意义的文化事件，怎样才能很好地用上 Reducto，对吧？"
+ },
+ {
+  "seg": 39,
+  "start": 224.201,
+  "end": 231.405,
+  "speaker": "Unknown",
+  "en": "It just so happened that, you know, we're very close to Luke, who is a founder at Kino and is working downstairs.",
+  "zh": "恰好，我们和 Luke 关系很近，他是 Kino 的创始人，就在楼下办公。"
+ },
+ {
+  "seg": 40,
+  "start": 231.545,
+  "end": 234.027,
+  "speaker": "Unknown",
+  "en": "And we were all just kind of talking about, you know, what would be cool to build?",
+  "zh": "我们当时就在聊，做什么东西会很酷？"
+ },
+ {
+  "seg": 41,
+  "start": 234.047,
+  "end": 234.767,
+  "speaker": "Unknown",
+  "en": "What would be funny?",
+  "zh": "什么会很有趣？"
+ },
+ {
+  "seg": 42,
+  "start": 234.868,
+  "end": 236.549,
+  "speaker": "Unknown",
+  "en": "Ha, ha, ha.",
+  "zh": "哈哈哈。"
+ },
+ {
+  "seg": 43,
+  "start": 237.009,
+  "end": 246.255,
+  "speaker": "Unknown",
+  "en": "And then it kind of snowballed into this idea of, like, what if you could, you know, sign into your email as if you were Jeffrey Epstein?",
+  "zh": "然后这件事就像滚雪球一样，变成了这样一个想法：如果你能以 Jeffrey Epstein 的身份登录你的电子邮箱，会怎么样？"
+ },
+ {
+  "seg": 44,
+  "start": 246.695,
+  "end": 250.378,
+  "speaker": "Unknown",
+  "en": "And view, you know, your email as if you were him.",
+  "zh": "并且以他的视角查看你的邮件。"
+ },
+ {
+  "seg": 45,
+  "start": 250.718,
+  "end": 263.866,
+  "speaker": "Unknown",
+  "en": "And so, you know, it's a really, really cool concept as a product, but there was one really hard problem to solve that, you know, was basically a barrier between us and the productized solution.",
+  "zh": "所以，你知道，作为一个产品这是个非常非常酷的概念，但有一个非常难解决的问题，基本上就是横在我们和产品化方案之间的一道坎。"
+ },
+ {
+  "seg": 46,
+  "start": 264.146,
+  "end": 265.747,
+  "speaker": "Unknown",
+  "en": "And you're looking at part of it, right?",
+  "zh": "你们现在看到的就是其中一部分，对吧？"
+ },
+ {
+  "seg": 47,
+  "start": 267.563,
+  "end": 281.266,
+  "speaker": "Unknown",
+  "en": "It's really, really, like I would urge you if you haven't done this before to send this like, you know, cover sheet to ChatGPT and try to get some results out of it that, and just see how accurate it is, right?",
+  "zh": "说真的，如果你之前没试过，我强烈建议你把这份，你知道，封面页发给 ChatGPT，试着从里面提取一些结果，然后看看它有多准确，对吧？"
+ },
+ {
+  "seg": 48,
+  "start": 281.566,
+  "end": 287.327,
+  "speaker": "Unknown",
+  "en": "It's a very, very complex problem where, you know, layouts are pretty hard to understand.",
+  "zh": "这是一个非常非常复杂的问题，布局相当难以理解。"
+ },
+ {
+  "seg": 49,
+  "start": 287.427,
+  "end": 291.288,
+  "speaker": "Unknown",
+  "en": "The reading order of this is also somewhat subjective, right?",
+  "zh": "它的阅读顺序也有一定的主观性，对吧？"
+ },
+ {
+  "seg": 50,
+  "start": 292.268,
+  "end": 292.688,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "所以,"
+ },
+ {
+  "seg": 51,
+  "start": 293.448,
+  "end": 301.535,
+  "speaker": "Unknown",
+  "en": "We needed something to basically solve this bottleneck so that we could work on all of these cool little products downstream.",
+  "zh": "我们需要一些东西来基本上解决这个瓶颈,这样我们才能在下游开发所有这些很酷的小产品。"
+ },
+ {
+  "seg": 52,
+  "start": 302.055,
+  "end": 303.696,
+  "speaker": "Unknown",
+  "en": "And so this is where Reducto came in.",
+  "zh": "这就是 Reducto 出现的地方。"
+ },
+ {
+  "seg": 53,
+  "start": 304.597,
+  "end": 309.901,
+  "speaker": "Unknown",
+  "en": "So I'm actually going to show you guys what we had used for a couple of our products, right?",
+  "zh": "我实际上要给你们看看我们在几个产品里用过什么,对吧?"
+ },
+ {
+  "seg": 54,
+  "start": 310.742,
+  "end": 314.225,
+  "speaker": "Unknown",
+  "en": "So, oh yes, let me do this real quick.",
+  "zh": "那么,哦对,让我快速做一下这个。"
+ },
+ {
+  "seg": 55,
+  "start": 315.746,
+  "end": 316.707,
+  "speaker": "Unknown",
+  "en": "Doo, doo, doo, doo.",
+  "zh": "嘟、嘟、嘟、嘟。"
+ },
+ {
+  "seg": 56,
+  "start": 322.264,
+  "end": 322.805,
+  "speaker": "Unknown",
+  "en": "Alrighty.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 57,
+  "start": 324.026,
+  "end": 324.406,
+  "speaker": "Unknown",
+  "en": "Whoops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 58,
+  "start": 325.568,
+  "end": 326.469,
+  "speaker": "Unknown",
+  "en": "Gonna bring this over.",
+  "zh": "把这个移过来。"
+ },
+ {
+  "seg": 59,
+  "start": 328.02,
+  "end": 330.901,
+  "speaker": "Unknown",
+  "en": "Alrighty, so here you see a cool product, right?",
+  "zh": "好了,这里你们看到一个很酷的产品,对吧?"
+ },
+ {
+  "seg": 60,
+  "start": 331.081,
+  "end": 331.621,
+  "speaker": "Unknown",
+  "en": "JFlights.",
+  "zh": "JFlights。"
+ },
+ {
+  "seg": 61,
+  "start": 332.181,
+  "end": 336.722,
+  "speaker": "Unknown",
+  "en": "Basically all of Jeffrey Epstein and his affiliate's flight history, right?",
+  "zh": "基本上就是 Jeffrey Epstein 及其关联人员的所有飞行历史,对吧?"
+ },
+ {
+  "seg": 62,
+  "start": 337.042,
+  "end": 338.522,
+  "speaker": "Unknown",
+  "en": "This guy was flying people out.",
+  "zh": "这家伙在往外送人。"
+ },
+ {
+  "seg": 63,
+  "start": 338.542,
+  "end": 339.842,
+  "speaker": "Unknown",
+  "en": "He was flying diplomats out.",
+  "zh": "他在往外送外交官。"
+ },
+ {
+  "seg": 64,
+  "start": 339.922,
+  "end": 343.803,
+  "speaker": "Unknown",
+  "en": "He himself was flying many places to and from his island, right?",
+  "zh": "他自己飞了很多地方,往返于他的岛屿,对吧?"
+ },
+ {
+  "seg": 65,
+  "start": 345.103,
+  "end": 353.465,
+  "speaker": "Unknown",
+  "en": "What was basically the barrier between us and finding all these flights were these pretty shoddy handwritten documents, right?",
+  "zh": "在我们与找到所有这些航班之间的障碍,基本上就是这些相当糟糕的手写文件,对吧?"
+ },
+ {
+  "seg": 66,
+  "start": 354.327,
+  "end": 359.059,
+  "speaker": "Unknown",
+  "en": "Again, if you thought that cover sheet was a little bit rough, think about handwriting, right?",
+  "zh": "再说一次,如果你觉得那个封面页已经有点粗糙了,想想手写的,对吧?"
+ },
+ {
+  "seg": 67,
+  "start": 359.319,
+  "end": 362.367,
+  "speaker": "Unknown",
+  "en": "So, we can see here.",
+  "zh": "那么,我们在这里可以看到。"
+ },
+ {
+  "seg": 68,
+  "start": 363.832,
+  "end": 373.82,
+  "speaker": "Unknown",
+  "en": "A pipeline that I had actually set up way back when, when we were trying to build a good config to basically make our parsing really, really good, right?",
+  "zh": "一个我实际上在很久以前搭建的流水线,当时我们在尝试构建一个好的 config,以基本上让我们的解析变得非常非常好,对吧?"
+ },
+ {
+  "seg": 69,
+  "start": 374.22,
+  "end": 386.01,
+  "speaker": "Unknown",
+  "en": "And so in this case, we had, for the flights use case, you know, an idea had flown out that I, what if we, you know, spin this off as a completely separate product where you could just see all of his flights?",
+  "zh": "在这种情况下,针对航班用例,你知道,冒出了一个想法:如果我们把它拆分成一个完全独立的产品,你可以只看到他所有的航班,会怎么样?"
+ },
+ {
+  "seg": 70,
+  "start": 387.074,
+  "end": 394.537,
+  "speaker": "Unknown",
+  "en": "And so what that meant is taking all of his flight documentation and then applying a separate extraction config for it.",
+  "zh": "这意味着要拿走他所有的飞行文件,然后为它应用一个单独的提取 config。"
+ },
+ {
+  "seg": 71,
+  "start": 395.077,
+  "end": 399.738,
+  "speaker": "Unknown",
+  "en": "And so what you'll see here is kind of a little tour as to how Reducto works, right?",
+  "zh": "所以你们在这里看到的,算是对 Reducto 工作原理的一个小介绍,对吧?"
+ },
+ {
+  "seg": 72,
+  "start": 400.058,
+  "end": 404.54,
+  "speaker": "Unknown",
+  "en": "So Reducto within the document extraction use case first parses the document.",
+  "zh": "Reducto 在文档提取用例中,首先解析文档。"
+ },
+ {
+  "seg": 73,
+  "start": 405.36,
+  "end": 415.728,
+  "speaker": "Unknown",
+  "en": "And so this kind of shows you, you could stick any document that you would like here, and you could just click Run, configure any of our bells and whistles, and see real-time results.",
+  "zh": "这基本上向你展示,你可以把任何你想要的文档放在这里,只需点击运行,配置我们的任何花哨功能,然后看到实时结果。"
+ },
+ {
+  "seg": 74,
+  "start": 416.108,
+  "end": 428.136,
+  "speaker": "Unknown",
+  "en": "So this was sort of the canvas for myself that I was playing around with to kind of understand, before I start scaling this up to a million different documents and run up a quick check on Reducto's receipts, let me make sure that",
+  "zh": "所以这算是供我自己玩弄的一个画布,用来理解,在我把它扩展到一百万个不同的文档、并快速核查 Reducto 的账单之前,让我先确保"
+ },
+ {
+  "seg": 75,
+  "start": 432.579,
+  "end": 436.007,
+  "speaker": "Unknown",
+  "en": "Our extraction accuracy is what I would expect it to be.",
+  "zh": "我们的提取准确率是我所期望的。"
+ },
+ {
+  "seg": 76,
+  "start": 437.052,
+  "end": 440.955,
+  "speaker": "Unknown",
+  "en": "And so here is kind of what we ended up with.",
+  "zh": "这基本上就是我们最终得到的东西。"
+ },
+ {
+  "seg": 77,
+  "start": 440.995,
+  "end": 445.959,
+  "speaker": "Unknown",
+  "en": "You could see here for a couple of these different documents, you know, some redactions that we had to deal with.",
+  "zh": "你们可以在这里看到,对于其中几个不同的文档,有一些我们必须处理的涂黑遮盖。"
+ },
+ {
+  "seg": 78,
+  "start": 447.019,
+  "end": 448.481,
+  "speaker": "Unknown",
+  "en": "Woody Allen, I know that guy.",
+  "zh": "Woody Allen,我认识那家伙。"
+ },
+ {
+  "seg": 79,
+  "start": 449.842,
+  "end": 459.389,
+  "speaker": "Unknown",
+  "en": "But yeah, just like a lot of different, you know, use cases that we had to handle through one extraction schema for the flights use case, right?",
+  "zh": "不过,是的,就是很多不同的、我们必须通过一个提取 schema 处理的用例,针对航班用例,对吧?"
+ },
+ {
+  "seg": 80,
+  "start": 459.769,
+  "end": 463.452,
+  "speaker": "Unknown",
+  "en": "And so we parsed all the documents very quickly.",
+  "zh": "于是我们非常快速地解析了所有文档。"
+ },
+ {
+  "seg": 81,
+  "start": 463.592,
+  "end": 465.093,
+  "speaker": "Unknown",
+  "en": "And actually a fun story about this.",
+  "zh": "实际上关于这个有个有趣的故事。"
+ },
+ {
+  "seg": 82,
+  "start": 467.019,
+  "end": 467.84,
+  "speaker": "Unknown",
+  "en": "Is Alvin in the room?",
+  "zh": "Alvin 在房间里吗?"
+ },
+ {
+  "seg": 83,
+  "start": 468.78,
+  "end": 469.581,
+  "speaker": "Unknown",
+  "en": "Alvin is in the room.",
+  "zh": "Alvin 在房间里。"
+ },
+ {
+  "seg": 84,
+  "start": 469.681,
+  "end": 479.188,
+  "speaker": "Unknown",
+  "en": "So back when the first drop came out, I was paging Alvin maybe like a couple times at night.",
+  "zh": "回到第一次数据公布出来的时候,我在晚上大概给他发了几次寻呼。"
+ },
+ {
+  "seg": 85,
+  "start": 479.988,
+  "end": 483.951,
+  "speaker": "Unknown",
+  "en": "He just happened to be on call the night that I was parsing all of these documents.",
+  "zh": "他恰好在我解析所有这些文档的那个晚上值班。"
+ },
+ {
+  "seg": 86,
+  "start": 484.352,
+  "end": 486.593,
+  "speaker": "Unknown",
+  "en": "And we were trying to parse them very, very quickly.",
+  "zh": "而我们试图非常非常快地解析它们。"
+ },
+ {
+  "seg": 87,
+  "start": 486.713,
+  "end": 491.036,
+  "speaker": "Unknown",
+  "en": "And so we put a decent amount of stress on our infra.",
+  "zh": "于是我们给我们的基础设施施加了相当大的压力。"
+ },
+ {
+  "seg": 88,
+  "start": 491.377,
+  "end": 495.36,
+  "speaker": "Unknown",
+  "en": "And so Alvin was sending me a lot of fun messages late at night like, hey, bro, can you slow down?",
+  "zh": "所以 Alvin 深夜给我发了好多有趣的消息,比如,嘿,兄弟,你能慢一点吗?"
+ },
+ {
+  "seg": 89,
+  "start": 496.941,
+  "end": 497.841,
+  "speaker": "Unknown",
+  "en": "But yeah, we got through them.",
+  "zh": "不过,是的,我们处理完了。"
+ },
+ {
+  "seg": 90,
+  "start": 497.881,
+  "end": 498.822,
+  "speaker": "Unknown",
+  "en": "We got through them in time.",
+  "zh": "我们及时处理完了。"
+ },
+ {
+  "seg": 91,
+  "start": 498.922,
+  "end": 511.128,
+  "speaker": "Unknown",
+  "en": "And then once we had this kind of corpus of documents that we were able to kind of take as a ground truth, we then spun off a billion different products.",
+  "zh": "然后一旦我们有了这样一批可以作为基准真值的文档语料库,我们就衍生出了十亿个不同的产品。"
+ },
+ {
+  "seg": 92,
+  "start": 511.448,
+  "end": 517.872,
+  "speaker": "Unknown",
+  "en": "And so Paula kind of touched on this a little bit, but I'm going to go back to Gmail.",
+  "zh": "Paula 已经稍微提到过这个了,但我要回到 Gmail。"
+ },
+ {
+  "seg": 93,
+  "start": 520.007,
+  "end": 526.791,
+  "speaker": "Unknown",
+  "en": "So, you know, we spun up anything from Jamazon to JFlights to Gemini, right?",
+  "zh": "你知道,我们衍生出了从 Jamazon 到 JFlights 再到 Gemini 的各种东西,对吧?"
+ },
+ {
+  "seg": 94,
+  "start": 527.672,
+  "end": 529.733,
+  "speaker": "Unknown",
+  "en": "Yeah, so, and also Jcal.",
+  "zh": "是的,还有 Jcal。"
+ },
+ {
+  "seg": 95,
+  "start": 529.753,
+  "end": 534.516,
+  "speaker": "Unknown",
+  "en": "This was actually a product that I worked on myself.",
+  "zh": "这实际上是我自己做的一个产品。"
+ },
+ {
+  "seg": 96,
+  "start": 534.536,
+  "end": 535.637,
+  "speaker": "Unknown",
+  "en": "So, some fun stuff there.",
+  "zh": "那里有不少有趣的东西。"
+ },
+ {
+  "seg": 97,
+  "start": 537.038,
+  "end": 541.2,
+  "speaker": "Unknown",
+  "en": "Cool, and so, I guess, you know, if you could kind of take anything out of this.",
+  "zh": "好的,那么,我想,你知道,如果你能从中带走点什么的话。"
+ },
+ {
+  "seg": 98,
+  "start": 543.042,
+  "end": 545.083,
+  "speaker": "Unknown",
+  "en": "I do want to say, actually,",
+  "zh": "我确实想说,实际上,"
+ },
+ {
+  "seg": 99,
+  "start": 548.59,
+  "end": 561.514,
+  "speaker": "Unknown",
+  "en": "Yeah, so if you could take anything out of this, right, like the simplicity from this is really like, you know, getting a schema, right, looking at these results, making sure that the results look like what I would expect, and then just deploying, right.",
+  "zh": "是的,如果你能从中带走点什么,对吧,比如这里面的简洁性真的是,你知道,拿到一个 schema,对吧,看这些结果,确保结果看起来符合我的预期,然后直接部署,对吧。"
+ },
+ {
+  "seg": 100,
+  "start": 561.794,
+  "end": 566.176,
+  "speaker": "Unknown",
+  "en": "So if I was to deploy this code snippet, I'll just redeploy here for our use case.",
+  "zh": "所以如果我要部署这个代码片段，我就为我们的用例在这里重新部署一下。"
+ },
+ {
+  "seg": 101,
+  "start": 568.187,
+  "end": 575.053,
+  "speaker": "Unknown",
+  "en": "And I can get either a direct API call or just a pipeline code snippet that I can invoke very quickly.",
+  "zh": "然后我可以得到一个直接的 API 调用，或者一个可以很快调用的流水线代码片段。"
+ },
+ {
+  "seg": 102,
+  "start": 575.754,
+  "end": 587.024,
+  "speaker": "Unknown",
+  "en": "So the name of the game here is stick your documents in this platform and then immediately start visualizing your data and you could immediately also productionize it afterwards.",
+  "zh": "所以这里的重点就是把你的文档放进这个平台，然后立即开始可视化你的数据，之后你还可以立刻把它产品化。"
+ },
+ {
+  "seg": 103,
+  "start": 587.665,
+  "end": 591.067,
+  "speaker": "Unknown",
+  "en": "So I'm gonna stop here real quick.",
+  "zh": "那我先在这里快速停一下。"
+ },
+ {
+  "seg": 104,
+  "start": 591.327,
+  "end": 601.293,
+  "speaker": "Unknown",
+  "en": "Does anybody have any questions thus far about Jmail or Reducto in general before we can kind of start working on a little interactive exercise?",
+  "zh": "在我们开始一个小的互动练习之前，到目前为止有人对 Jmail 或 Reducto 有任何问题吗?"
+ },
+ {
+  "seg": 105,
+  "start": 602.334,
+  "end": 602.514,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "有。"
+ },
+ {
+  "seg": 106,
+  "start": 610.878,
+  "end": 611.998,
+  "speaker": "Unknown",
+  "en": "Great question.",
+  "zh": "好问题。"
+ },
+ {
+  "seg": 107,
+  "start": 612.038,
+  "end": 614.319,
+  "speaker": "Unknown",
+  "en": "So we can actually come up with this for you, right?",
+  "zh": "所以我们其实可以为你想出这个，对吧?"
+ },
+ {
+  "seg": 108,
+  "start": 614.659,
+  "end": 622.22,
+  "speaker": "Unknown",
+  "en": "You know, my fun analogy here is that, like, your extract schema is sort of like the paintbrush on your Reducto canvas, right?",
+  "zh": "你知道，我这里有个有趣的类比，就是你的 extract schema 就像是你 Reducto 画布上的画笔，对吧?"
+ },
+ {
+  "seg": 109,
+  "start": 622.5,
+  "end": 627.981,
+  "speaker": "Unknown",
+  "en": "So it definitely drives everything that you, you know, you get out of the schema.",
+  "zh": "所以它确实决定了你从这个 schema 中得到的一切。"
+ },
+ {
+  "seg": 110,
+  "start": 628.001,
+  "end": 636.283,
+  "speaker": "Unknown",
+  "en": "So for example, right, I could create a new pipeline here, right, and create a new extract pipeline and just call this, I don't know,",
+  "zh": "举个例子，对吧，我可以在这里创建一个新流水线，对吧，然后创建一个新的 extract 流水线，就叫它……我也不知道，"
+ },
+ {
+  "seg": 111,
+  "start": 638.379,
+  "end": 643.2,
+  "speaker": "Unknown",
+  "en": "Let me make a resume schema because I want to parse some resumes, right?",
+  "zh": "我来做一个简历 schema，因为我想解析一些简历，对吧?"
+ },
+ {
+  "seg": 112,
+  "start": 645.321,
+  "end": 647.301,
+  "speaker": "Unknown",
+  "en": "Oh, whoops, sorry about that.",
+  "zh": "哦，哎呀，抱歉。"
+ },
+ {
+  "seg": 113,
+  "start": 647.481,
+  "end": 648.982,
+  "speaker": "Unknown",
+  "en": "Actually, I'm gonna do this real quick.",
+  "zh": "其实我要快速做一下这个。"
+ },
+ {
+  "seg": 114,
+  "start": 651.283,
+  "end": 655.104,
+  "speaker": "Unknown",
+  "en": "Cool, so anyway, I'll do this again because it's very simple.",
+  "zh": "好了，总之我再做一次，因为这很简单。"
+ },
+ {
+  "seg": 115,
+  "start": 656.824,
+  "end": 658.504,
+  "speaker": "Unknown",
+  "en": "So I'll create a new extract pipeline here.",
+  "zh": "所以我在这里创建一个新的 extract 流水线。"
+ },
+ {
+  "seg": 116,
+  "start": 658.965,
+  "end": 661.005,
+  "speaker": "Unknown",
+  "en": "By the way, we could do a lot of things with documents.",
+  "zh": "顺便说一下，我们可以对文档做很多事情。"
+ },
+ {
+  "seg": 117,
+  "start": 661.065,
+  "end": 664.026,
+  "speaker": "Unknown",
+  "en": "We parse, split, extract, edit, even classify.",
+  "zh": "我们可以解析、切分、提取、编辑，甚至分类。"
+ },
+ {
+  "seg": 118,
+  "start": 665.361,
+  "end": 670.926,
+  "speaker": "Unknown",
+  "en": "And so what I'm gonna do here is create a resume schema.",
+  "zh": "所以我在这里要做的是创建一个简历 schema。"
+ },
+ {
+  "seg": 119,
+  "start": 672.388,
+  "end": 672.628,
+  "speaker": "Unknown",
+  "en": "Oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 120,
+  "start": 675.791,
+  "end": 679.535,
+  "speaker": "Unknown",
+  "en": "My WiFi is not being helpful with me today.",
+  "zh": "我的 WiFi 今天不太配合我。"
+ },
+ {
+  "seg": 121,
+  "start": 679.615,
+  "end": 680.135,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "好了。"
+ },
+ {
+  "seg": 122,
+  "start": 681.476,
+  "end": 681.877,
+  "speaker": "Unknown",
+  "en": "Alrighty.",
+  "zh": "行了。"
+ },
+ {
+  "seg": 123,
+  "start": 683.14,
+  "end": 691.082,
+  "speaker": "Unknown",
+  "en": "So I got a fun schema here and now it's up to me to basically decide whether or not this schema is satisfactory or not.",
+  "zh": "所以我这里有了一个有趣的 schema，现在基本上由我来决定这个 schema 是否令人满意。"
+ },
+ {
+  "seg": 124,
+  "start": 691.182,
+  "end": 698.963,
+  "speaker": "Unknown",
+  "en": "It's gonna give me exactly what I'm asking for and once I plug a document here I might realize this is actually not what I want.",
+  "zh": "它会完全按照我的要求给出结果，而一旦我在这里放入一份文档，我可能会意识到这其实不是我想要的。"
+ },
+ {
+  "seg": 125,
+  "start": 699.043,
+  "end": 702.044,
+  "speaker": "Unknown",
+  "en": "So I have a bunch of handy dandy resumes.",
+  "zh": "所以我有一堆方便好用的简历。"
+ },
+ {
+  "seg": 126,
+  "start": 702.084,
+  "end": 703.364,
+  "speaker": "Unknown",
+  "en": "I'm gonna stick them in here.",
+  "zh": "我要把它们放进去。"
+ },
+ {
+  "seg": 127,
+  "start": 706.125,
+  "end": 707.245,
+  "speaker": "Unknown",
+  "en": "Upload.",
+  "zh": "上传。"
+ },
+ {
+  "seg": 128,
+  "start": 709.085,
+  "end": 711.686,
+  "speaker": "Unknown",
+  "en": "And then just run this.",
+  "zh": "然后直接运行这个。"
+ },
+ {
+  "seg": 129,
+  "start": 714.275,
+  "end": 716.316,
+  "speaker": "Unknown",
+  "en": "So yeah, I hope that answered your question.",
+  "zh": "所以，希望这回答了你的问题。"
+ },
+ {
+  "seg": 130,
+  "start": 717.897,
+  "end": 718.118,
+  "speaker": "Unknown",
+  "en": "Cool?",
+  "zh": "还行吧?"
+ },
+ {
+  "seg": 131,
+  "start": 718.678,
+  "end": 720.099,
+  "speaker": "Unknown",
+  "en": "Any other questions while we wait for this?",
+  "zh": "在等这个的时候还有其他问题吗?"
+ },
+ {
+  "seg": 132,
+  "start": 735.183,
+  "end": 736.324,
+  "speaker": "Unknown",
+  "en": "Are you talking about the loading state?",
+  "zh": "你说的是加载状态吗?"
+ },
+ {
+  "seg": 133,
+  "start": 736.344,
+  "end": 738.566,
+  "speaker": "Unknown",
+  "en": "This is just like a fun loading state.",
+  "zh": "这只是一个有趣的加载状态。"
+ },
+ {
+  "seg": 134,
+  "start": 738.586,
+  "end": 745.933,
+  "speaker": "Unknown",
+  "en": "At the end of the day, right, like our product is like a really, you know, it's a suite of different models and different VLMs that we deploy, right?",
+  "zh": "说到底，对吧，就像我们的产品，它是一套我们部署的不同模型和不同 VLM 的组合，对吧?"
+ },
+ {
+  "seg": 135,
+  "start": 745.953,
+  "end": 750.917,
+  "speaker": "Unknown",
+  "en": "I'm sorry, it's not the loading state, but I was following what you were saying, is that generally, you start with a schema for what that document looks like.",
+  "zh": "抱歉，不是加载状态，但我理解你说的意思是，一般来说，你要先为那个文档的样子定一个 schema。"
+ },
+ {
+  "seg": 136,
+  "start": 750.937,
+  "end": 751.037,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 137,
+  "start": 751.057,
+  "end": 758.484,
+  "speaker": "Unknown",
+  "en": "And you look at the result of that.",
+  "zh": "然后你看它的结果。"
+ },
+ {
+  "seg": 138,
+  "start": 758.504,
+  "end": 759.605,
+  "speaker": "Unknown",
+  "en": "Oh, that's a great question.",
+  "zh": "哦，这是个好问题。"
+ },
+ {
+  "seg": 139,
+  "start": 759.785,
+  "end": 762.087,
+  "speaker": "Unknown",
+  "en": "So if I'm understanding correctly, right, what you're saying here.",
+  "zh": "所以如果我理解正确的话，对吧，你这里说的。"
+ },
+ {
+  "seg": 140,
+  "start": 763.884,
+  "end": 777.31,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, so this specific schema generation that I had just used is really out of the box, and it's just kind of like a quick LLM call that builds a JSON schema exactly for what I asked for.",
+  "zh": "对，对，所以我刚才用的这个特定的 schema 生成功能确实是开箱即用的，它基本上就是一次快速的 LLM 调用，完全按照我的要求构建一个 JSON schema。"
+ },
+ {
+  "seg": 141,
+  "start": 777.63,
+  "end": 780.931,
+  "speaker": "Unknown",
+  "en": "However, we do have an enhanced schema generation, right?",
+  "zh": "不过，我们确实有一个增强版 schema 生成，对吧?"
+ },
+ {
+  "seg": 142,
+  "start": 781.292,
+  "end": 790.956,
+  "speaker": "Unknown",
+  "en": "And so what this will do is, let's say I've parsed my documents, it will then take the output of what's in the documents and tailor a schema description directly for them.",
+  "zh": "它会做的是，假设我已经解析了我的文档，它就会获取文档中的内容输出，并直接为它们量身定制一个 schema 描述。"
+ },
+ {
+  "seg": 143,
+  "start": 791.276,
+  "end": 792.797,
+  "speaker": "Unknown",
+  "en": "So if you're looking, for example,",
+  "zh": "所以如果你在看，比如，"
+ },
+ {
+  "seg": 144,
+  "start": 793.597,
+  "end": 822.004,
+  "speaker": "Unknown",
+  "en": "You know something just really quick to just get up on the screen and just see some results I would recommend regular you know schema generation but if you are a lot more interested in like nuance I definitely suggest parsing the documents first and then kind of passing them in all you would have to do is just click enhance schema generation and what we will be able to do is you know run the documents first try to get an understanding of what's in the in the document so that we can tailor these schema descriptions directly for that.",
+  "zh": "你知道，如果只是想快速地在屏幕上展示并看到一些结果，我推荐普通的 schema 生成，但如果你对细微差别更感兴趣，我肯定建议先解析文档然后把它们传进来，你只需要点击增强 schema 生成，我们就能先运行文档，尝试理解文档里有什么，这样我们就能直接为它量身定制这些 schema 描述。"
+ },
+ {
+  "seg": 145,
+  "start": 823.419,
+  "end": 823.759,
+  "speaker": "Unknown",
+  "en": "Make sense?",
+  "zh": "明白了吗?"
+ },
+ {
+  "seg": 146,
+  "start": 824.92,
+  "end": 825.841,
+  "speaker": "Unknown",
+  "en": "Cool, cool, cool, cool.",
+  "zh": "好，好，好，好。"
+ },
+ {
+  "seg": 147,
+  "start": 831.004,
+  "end": 831.625,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 148,
+  "start": 834.667,
+  "end": 835.888,
+  "speaker": "Unknown",
+  "en": "Correct, yes.",
+  "zh": "没错，是的。"
+ },
+ {
+  "seg": 149,
+  "start": 836.228,
+  "end": 839.25,
+  "speaker": "Unknown",
+  "en": "So, I mean, yeah, like, at the end of the, this is a great question, right?",
+  "zh": "所以，我的意思是，是的，到头来，这是个很好的问题，对吧?"
+ },
+ {
+  "seg": 150,
+  "start": 839.31,
+  "end": 843.333,
+  "speaker": "Unknown",
+  "en": "So Reducto actually parses PDF metadata as well, right?",
+  "zh": "所以 Reducto 实际上也会解析 PDF 元数据,对吧?"
+ },
+ {
+  "seg": 151,
+  "start": 843.853,
+  "end": 850.558,
+  "speaker": "Unknown",
+  "en": "So sometimes, and this is honestly testament to, like, who was doing the redaction, right?",
+  "zh": "所以有时候——说实话这得看做脱敏的人是谁,对吧?"
+ },
+ {
+  "seg": 152,
+  "start": 850.838,
+  "end": 852.539,
+  "speaker": "Unknown",
+  "en": "Sometimes the redaction was actually not that great.",
+  "zh": "有时候脱敏做得其实没那么好。"
+ },
+ {
+  "seg": 153,
+  "start": 853.059,
+  "end": 860.703,
+  "speaker": "Unknown",
+  "en": "And so what that ended up being, the responsibility ended up being on us as the Gmail team to then have to do a bunch of redaction, right?",
+  "zh": "结果呢,责任就落到了我们 Gmail 团队头上,我们得做大量的脱敏工作,对吧?"
+ },
+ {
+  "seg": 154,
+  "start": 860.963,
+  "end": 866.546,
+  "speaker": "Unknown",
+  "en": "Because you can't just stick a box on a PDF and then expect it to actually be fully redacted, right?",
+  "zh": "因为不能只在 PDF 上盖一个框,然后就指望它真的被完全脱敏了,对吧?"
+ },
+ {
+  "seg": 155,
+  "start": 866.966,
+  "end": 871.708,
+  "speaker": "Unknown",
+  "en": "Yeah, seems like there was a lack of understanding, whoever was cooking up that redaction.",
+  "zh": "是啊,看来做那个脱敏的人缺乏一些理解。"
+ },
+ {
+  "seg": 156,
+  "start": 878.559,
+  "end": 883.601,
+  "speaker": "Unknown",
+  "en": "I would say it's, like, for the files that came out and myself looking through them, that's not the case, right?",
+  "zh": "我想说的是,就那些流出来的文件,以及我自己翻看它们的情况来看,情况不是那样,对吧?"
+ },
+ {
+  "seg": 157,
+  "start": 883.701,
+  "end": 896.964,
+  "speaker": "Unknown",
+  "en": "Some files were actually redacted correctly, but there was some files where we were just able to see who was, like, you know, who the redaction was behind, and so it became a really, really serious, you know, situation, right?",
+  "zh": "有些文件其实脱敏是正确的,但也有一些文件我们就是能看到脱敏背后是谁,所以这就变成了一个非常非常严重的情况,对吧?"
+ },
+ {
+  "seg": 158,
+  "start": 897.024,
+  "end": 900.345,
+  "speaker": "Unknown",
+  "en": "Because we're dealing with, you know, people's data that, like...",
+  "zh": "因为我们处理的是人们的数据,这数据……"
+ },
+ {
+  "seg": 159,
+  "start": 902.305,
+  "end": 903.926,
+  "speaker": "Unknown",
+  "en": "Data is redacted for a reason, right?",
+  "zh": "数据被脱敏是有原因的,对吧?"
+ },
+ {
+  "seg": 160,
+  "start": 904.306,
+  "end": 911.328,
+  "speaker": "Unknown",
+  "en": "And you want to really make sure that you're not the one that ends up getting sued at the end of the day because of this.",
+  "zh": "而你肯定不想最后成为因为这个被起诉的那个人。"
+ },
+ {
+  "seg": 161,
+  "start": 911.408,
+  "end": 920.89,
+  "speaker": "Unknown",
+  "en": "And so, yeah, there was a heavy kind of level of responsibility on our shoulders to make sure that whatever was intended to be redacted was actually redacted.",
+  "zh": "所以,是的,我们肩上有很重的责任,要确保所有本该被脱敏的内容真的被脱敏了。"
+ },
+ {
+  "seg": 162,
+  "start": 921.19,
+  "end": 922.611,
+  "speaker": "Unknown",
+  "en": "Our tool was working a little too well.",
+  "zh": "我们的工具有点好使得过头了。"
+ },
+ {
+  "seg": 163,
+  "start": 925.071,
+  "end": 926.972,
+  "speaker": "Unknown",
+  "en": "Cool, yeah, at the front, and then I'll after you.",
+  "zh": "好,是的,前面那位,然后轮到你。"
+ },
+ {
+  "seg": 164,
+  "start": 938.687,
+  "end": 939.308,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "好,好,好。"
+ },
+ {
+  "seg": 165,
+  "start": 939.468,
+  "end": 940.31,
+  "speaker": "Unknown",
+  "en": "It's a great question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 166,
+  "start": 942.418,
+  "end": 944.941,
+  "speaker": "Unknown",
+  "en": "I'll give you an example, right?",
+  "zh": "我给你举个例子,对吧?"
+ },
+ {
+  "seg": 167,
+  "start": 945.201,
+  "end": 951.088,
+  "speaker": "Unknown",
+  "en": "There was a schema that I was looking at maybe on Friday that had like 156 fields, right?",
+  "zh": "大概周五的时候我看到一个 schema,大概有 156 个字段,对吧?"
+ },
+ {
+  "seg": 168,
+  "start": 952.049,
+  "end": 957.336,
+  "speaker": "Unknown",
+  "en": "And all of these different fields need, like they were requesting something completely different, right?",
+  "zh": "而所有这些不同的字段——它们请求的东西完全不同,对吧?"
+ },
+ {
+  "seg": 169,
+  "start": 958.076,
+  "end": 958.557,
+  "speaker": "Unknown",
+  "en": "And so,",
+  "zh": "所以,"
+ },
+ {
+  "seg": 170,
+  "start": 959.518,
+  "end": 962.539,
+  "speaker": "Unknown",
+  "en": "I urge you to kind of put our schema to the test.",
+  "zh": "我劝你们去把我们的 schema 好好测试一下。"
+ },
+ {
+  "seg": 171,
+  "start": 962.619,
+  "end": 969.882,
+  "speaker": "Unknown",
+  "en": "I think like our, the like nesting limits to our schema are maybe like four or five layers.",
+  "zh": "我觉得我们 schema 的嵌套限制大概是四到五层。"
+ },
+ {
+  "seg": 172,
+  "start": 970.542,
+  "end": 975.224,
+  "speaker": "Unknown",
+  "en": "But if you wanna, you know, ask for everything in the world, you can still technically be able to fit it in a schema.",
+  "zh": "但如果你想,你懂的,把世界上所有东西都请求一遍,从技术上讲仍然可以塞进一个 schema 里。"
+ },
+ {
+  "seg": 173,
+  "start": 975.244,
+  "end": 983.567,
+  "speaker": "Unknown",
+  "en": "Most processing steps in getting to this later, do you have any capabilities for like entity resolution?",
+  "zh": "在走到后面这一步的大多数处理环节中,你们有没有类似实体消解的能力?"
+ },
+ {
+  "seg": 174,
+  "start": 983.587,
+  "end": 984.907,
+  "speaker": "Unknown",
+  "en": "Entity resolution, can you give me an example?",
+  "zh": "实体消解,你能给我举个例子吗?"
+ },
+ {
+  "seg": 175,
+  "start": 990.603,
+  "end": 992.444,
+  "speaker": "Unknown",
+  "en": "So this is a good question.",
+  "zh": "这是个好问题。"
+ },
+ {
+  "seg": 176,
+  "start": 993.345,
+  "end": 996.667,
+  "speaker": "Unknown",
+  "en": "There is a lot of post-processing that we end up doing.",
+  "zh": "我们最终会做大量的后处理。"
+ },
+ {
+  "seg": 177,
+  "start": 996.707,
+  "end": 998.168,
+  "speaker": "Unknown",
+  "en": "Let's say on the extraction side.",
+  "zh": "比如在抽取这一侧。"
+ },
+ {
+  "seg": 178,
+  "start": 999.449,
+  "end": 1002.932,
+  "speaker": "Unknown",
+  "en": "I'm personally a little bit farther abstracted away from the ML side of things.",
+  "zh": "我个人离机器学习那一侧稍微远一些。"
+ },
+ {
+  "seg": 179,
+  "start": 1003.592,
+  "end": 1009.636,
+  "speaker": "Unknown",
+  "en": "But I can tell you that we are doing a decent amount of post-processing to basically link entities together.",
+  "zh": "但我可以告诉你,我们在做相当多的后处理,基本上就是把实体关联起来。"
+ },
+ {
+  "seg": 180,
+  "start": 1009.696,
+  "end": 1017.142,
+  "speaker": "Unknown",
+  "en": "For example, we have a citation model where we have one model that could be responsible for extraction.",
+  "zh": "举个例子,我们有一个引用模型,我们有一个模型可能负责抽取。"
+ },
+ {
+  "seg": 181,
+  "start": 1017.422,
+  "end": 1020.064,
+  "speaker": "Unknown",
+  "en": "But then there might be another model that's also responsible for",
+  "zh": "但可能还有另一个模型同样负责:"
+ },
+ {
+  "seg": 182,
+  "start": 1020.504,
+  "end": 1024.528,
+  "speaker": "Unknown",
+  "en": "Once this data is extracted, where is each piece extracted from?",
+  "zh": "这些数据被抽取出来之后,每一块是从哪里抽取出来的?"
+ },
+ {
+  "seg": 183,
+  "start": 1025.609,
+  "end": 1031.774,
+  "speaker": "Unknown",
+  "en": "NVIDIA actually did a cool paper on this that I just found out about yesterday.",
+  "zh": "NVIDIA 其实就这个发了一篇很不错的论文,我昨天刚看到。"
+ },
+ {
+  "seg": 184,
+  "start": 1031.914,
+  "end": 1044.606,
+  "speaker": "Unknown",
+  "en": "I think it's called Find Everything or something like that, where they try to address the bottleneck of citation determination and the speed at which you could find a citation for something that's in a document.",
+  "zh": "我记得叫 Find Everything 之类的,他们试图解决引用判定的瓶颈,以及为一篇文档里的内容找到引用的速度问题。"
+ },
+ {
+  "seg": 185,
+  "start": 1045.818,
+  "end": 1048.36,
+  "speaker": "Unknown",
+  "en": "If you're interested about these things, we are hiring.",
+  "zh": "如果你对这些事情感兴趣,我们在招人。"
+ },
+ {
+  "seg": 186,
+  "start": 1048.56,
+  "end": 1051.341,
+  "speaker": "Unknown",
+  "en": "And so, come speak to us after.",
+  "zh": "所以,散场后来找我们聊。"
+ },
+ {
+  "seg": 187,
+  "start": 1052.282,
+  "end": 1052.782,
+  "speaker": "Unknown",
+  "en": "Sorry.",
+  "zh": "抱歉。"
+ },
+ {
+  "seg": 188,
+  "start": 1061.908,
+  "end": 1062.648,
+  "speaker": "Unknown",
+  "en": "Yeah, absolutely.",
+  "zh": "是的,当然。"
+ },
+ {
+  "seg": 189,
+  "start": 1062.949,
+  "end": 1068.272,
+  "speaker": "Unknown",
+  "en": "So, I'm gonna try to see if one of the resumes I uploaded has an image in it.",
+  "zh": "那么,我试着看看我上传的简历里有没有带图片的。"
+ },
+ {
+  "seg": 190,
+  "start": 1070.28,
+  "end": 1071.381,
+  "speaker": "Unknown",
+  "en": "So let's see here, right?",
+  "zh": "我们来看看,对吧?"
+ },
+ {
+  "seg": 191,
+  "start": 1071.501,
+  "end": 1080.189,
+  "speaker": "Unknown",
+  "en": "So we have some figure models, right, that are basically determining, let me actually also rerun this real quick so that it wouldn't return figures.",
+  "zh": "我们有一些图表模型,对吧,它们基本上是在判定——让我先重新跑一下,这样它就不会返回图表了。"
+ },
+ {
+  "seg": 192,
+  "start": 1080.209,
+  "end": 1081.67,
+  "speaker": "Unknown",
+  "en": "Mm-hm.",
+  "zh": "嗯嗯。"
+ },
+ {
+  "seg": 193,
+  "start": 1099.083,
+  "end": 1100.384,
+  "speaker": "Unknown",
+  "en": "Ah, that's a great question.",
+  "zh": "啊,这个问题问得好。"
+ },
+ {
+  "seg": 194,
+  "start": 1100.924,
+  "end": 1101.664,
+  "speaker": "Unknown",
+  "en": "Alvin, did you hear that?",
+  "zh": "Alvin,你听到了吗?"
+ },
+ {
+  "seg": 195,
+  "start": 1102.885,
+  "end": 1104.026,
+  "speaker": "Unknown",
+  "en": "No, no, so I'll explain.",
+  "zh": "不,不,我来解释。"
+ },
+ {
+  "seg": 196,
+  "start": 1104.406,
+  "end": 1109.589,
+  "speaker": "Unknown",
+  "en": "The reason why I asked Alvin is because Alvin worked on our hybrid OCR model, right?",
+  "zh": "我之所以叫 Alvin,是因为 Alvin 做的是我们的混合 OCR 模型,对吧?"
+ },
+ {
+  "seg": 197,
+  "start": 1110.069,
+  "end": 1119.354,
+  "speaker": "Unknown",
+  "en": "And so we have a specific OCR, like, you know, configuration that you can enable here that will figure out kind of intelligently what to prioritize, right?",
+  "zh": "所以我们有一个特定的 OCR,你懂的,配置,你可以在这里启用,它会比较智能地判断优先处理什么,对吧?"
+ },
+ {
+  "seg": 198,
+  "start": 1120.054,
+  "end": 1128.64,
+  "speaker": "Unknown",
+  "en": "So in some cases we will actually pick out just strict OCR data or we might pick out metadata from the PDF.",
+  "zh": "所以在某些情况下,我们真的会只挑出严格的 OCR 数据,或者我们可能会挑出 PDF 的元数据。"
+ },
+ {
+  "seg": 199,
+  "start": 1129.14,
+  "end": 1131.842,
+  "speaker": "Unknown",
+  "en": "Yeah, we've done a lot of work here.",
+  "zh": "是啊,我们在这方面做了很多工作。"
+ },
+ {
+  "seg": 200,
+  "start": 1131.862,
+  "end": 1134.364,
+  "speaker": "Unknown",
+  "en": "And it's not a simple answer.",
+  "zh": "这不是一个简单的答案。"
+ },
+ {
+  "seg": 201,
+  "start": 1135.584,
+  "end": 1137.546,
+  "speaker": "Unknown",
+  "en": "This is something we could do an entire different talk on.",
+  "zh": "这个话题我们完全可以另外做一整场演讲。"
+ },
+ {
+  "seg": 202,
+  "start": 1139.247,
+  "end": 1139.447,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "是吗?"
+ },
+ {
+  "seg": 203,
+  "start": 1161.827,
+  "end": 1161.987,
+  "speaker": "Unknown",
+  "en": "Mm-hmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 204,
+  "start": 1163.828,
+  "end": 1167.21,
+  "speaker": "Unknown",
+  "en": "So I'll be frank with you, this is actually exactly what this pipeline is doing, right?",
+  "zh": "那我坦白跟你说，这实际上正是这条 pipeline 在做的事情，对吧？"
+ },
+ {
+  "seg": 205,
+  "start": 1167.27,
+  "end": 1174.274,
+  "speaker": "Unknown",
+  "en": "So we first parsed the, hold on, let me turn figures.",
+  "zh": "所以我们首先解析了……等等，让我调一下图表。"
+ },
+ {
+  "seg": 206,
+  "start": 1175.395,
+  "end": 1175.595,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 207,
+  "start": 1175.935,
+  "end": 1181.918,
+  "speaker": "Unknown",
+  "en": "So while I rerun this, what we're doing here, let me pick a different example.",
+  "zh": "在我重新跑这个的时候，我们在这里做的事情……让我换一个例子。"
+ },
+ {
+  "seg": 208,
+  "start": 1182.779,
+  "end": 1184.12,
+  "speaker": "Unknown",
+  "en": "Actually, we're gonna have to wait now.",
+  "zh": "实际上，我们现在得等一下了。"
+ },
+ {
+  "seg": 209,
+  "start": 1185.83,
+  "end": 1193.075,
+  "speaker": "Unknown",
+  "en": "What we're actually doing in extraction is taking the parse results and then feeding them into some extraction pipeline downstream.",
+  "zh": "我们在 extraction 环节真正做的，是把解析结果取出来，然后喂给下游的某个 extraction pipeline。"
+ },
+ {
+  "seg": 210,
+  "start": 1193.395,
+  "end": 1200.44,
+  "speaker": "Unknown",
+  "en": "So parse is what made reducto reducto in the first place.",
+  "zh": "所以 parse 才是让 reducto 之所以成为 reducto 的根本。"
+ },
+ {
+  "seg": 211,
+  "start": 1200.72,
+  "end": 1207.045,
+  "speaker": "Unknown",
+  "en": "And then we can do a lot of cool things downstream of reducto once we have that parse content.",
+  "zh": "而一旦有了这份解析内容，我们就可以在 reducto 下游做很多很酷的事情。"
+ },
+ {
+  "seg": 212,
+  "start": 1207.105,
+  "end": 1211.588,
+  "speaker": "Unknown",
+  "en": "For example, we could split the document into different regions and figure out",
+  "zh": "比如说，我们可以把文档切分成不同的区域，然后搞清楚——"
+ },
+ {
+  "seg": 213,
+  "start": 1212.068,
+  "end": 1219.935,
+  "speaker": "Unknown",
+  "en": "If I'm parsing some math textbook, I want to understand where exactly every chapter starts and ends.",
+  "zh": "如果我在解析一本数学教材，我想确切知道每一章从哪里开始、到哪里结束。"
+ },
+ {
+  "seg": 214,
+  "start": 1220.256,
+  "end": 1228.083,
+  "speaker": "Unknown",
+  "en": "And then for each chapter, I might want to do an extraction based on that and get the chapter summary or something like that.",
+  "zh": "然后针对每一章，我可以基于它做一次 extraction，得到章节摘要之类的结果。"
+ },
+ {
+  "seg": 215,
+  "start": 1228.944,
+  "end": 1237.792,
+  "speaker": "Unknown",
+  "en": "So parse is really the foundation for all of these other agentic document processing features.",
+  "zh": "所以 parse 确实是所有这些 agentic 文档处理功能的基石。"
+ },
+ {
+  "seg": 216,
+  "start": 1242.972,
+  "end": 1244.272,
+  "speaker": "Unknown",
+  "en": "Ha, ha, ha, man.",
+  "zh": "哈，哈，老兄。"
+ },
+ {
+  "seg": 217,
+  "start": 1244.552,
+  "end": 1247.273,
+  "speaker": "Unknown",
+  "en": "If I answer that question, I might lose my job tomorrow.",
+  "zh": "如果我回答了这个问题，我明天可能就要丢工作了。"
+ },
+ {
+  "seg": 218,
+  "start": 1248.093,
+  "end": 1251.254,
+  "speaker": "Unknown",
+  "en": "So, I mean, it's a, yeah, continue.",
+  "zh": "所以，我是说，这是个……对，你继续。"
+ },
+ {
+  "seg": 219,
+  "start": 1252.374,
+  "end": 1257.435,
+  "speaker": "Unknown",
+  "en": "I think it depends on what prod data we collect as well.",
+  "zh": "我觉得这也取决于我们收集到了什么样的 prod 数据。"
+ },
+ {
+  "seg": 220,
+  "start": 1258.015,
+  "end": 1265.757,
+  "speaker": "Unknown",
+  "en": "So we specifically train on certain types of data if we find that it's doing poorly on certain types of data.",
+  "zh": "所以如果我们发现模型在某类数据上表现不好，我们会专门针对那类数据做训练。"
+ },
+ {
+  "seg": 221,
+  "start": 1266.137,
+  "end": 1270.438,
+  "speaker": "Unknown",
+  "en": "So we see that long context recall is not great, then we gotta try to fix that.",
+  "zh": "比如我们看到长上下文召回不太好，那我们就得想办法修复它。"
+ },
+ {
+  "seg": 222,
+  "start": 1271.358,
+  "end": 1272.398,
+  "speaker": "Unknown",
+  "en": "Specifically for extract,",
+  "zh": "具体到 extract 来说——"
+ },
+ {
+  "seg": 223,
+  "start": 1274.803,
+  "end": 1279.065,
+  "speaker": "Unknown",
+  "en": "It's not really a needle in a haystack, it's like all the needles in a haystack, if you think about it.",
+  "zh": "它其实不是大海捞针，你想想看，它更像是把海里所有的针都捞出来。"
+ },
+ {
+  "seg": 224,
+  "start": 1279.446,
+  "end": 1286.149,
+  "speaker": "Unknown",
+  "en": "So that's a really challenging research problem that our MLEs are somehow able to figure out pretty well.",
+  "zh": "所以这是一个非常有挑战性的研究问题，我们的 MLE 们不知怎么把它解决得相当好。"
+ },
+ {
+  "seg": 225,
+  "start": 1286.709,
+  "end": 1287.71,
+  "speaker": "Unknown",
+  "en": "But yeah, happy to chat more later.",
+  "zh": "不过是的，很乐意之后多聊。"
+ },
+ {
+  "seg": 226,
+  "start": 1291.188,
+  "end": 1292.269,
+  "speaker": "Unknown",
+  "en": "Ooh, we've been neglecting you guys.",
+  "zh": "哦，我们一直冷落你们各位了。"
+ },
+ {
+  "seg": 227,
+  "start": 1292.289,
+  "end": 1295.47,
+  "speaker": "Unknown",
+  "en": "Yeah, what's up?",
+  "zh": "对，怎么了？"
+ },
+ {
+  "seg": 228,
+  "start": 1295.49,
+  "end": 1300.632,
+  "speaker": "Unknown",
+  "en": "You should stay tapped into our socials, and you'll find out about this very soon.",
+  "zh": "你应该持续关注我们的社交媒体，很快你就会知道这件事。"
+ },
+ {
+  "seg": 229,
+  "start": 1300.692,
+  "end": 1317.54,
+  "speaker": "Unknown",
+  "en": "I think benchmarking is always a topic of discussion and something that we want to really stay on top of, especially because somebody who is testing, who wants to do document extraction might not know where to go or who's better without actually testing themselves.",
+  "zh": "我觉得 benchmarking 始终是大家讨论的话题，也是我们真正想持续保持领先的事情，尤其因为想要做文档 extraction 的人，如果不亲自测试，可能不知道该去哪里、谁更好。"
+ },
+ {
+  "seg": 230,
+  "start": 1318.501,
+  "end": 1327.55,
+  "speaker": "Unknown",
+  "en": "So that's why benchmarking is something that we're prioritizing a lot, especially in the coming months, to try to show people how well we are doing.",
+  "zh": "所以这就是为什么 benchmarking 是我们重点优先的事情，尤其是在接下来的几个月里，努力向人们展示我们做得有多好。"
+ },
+ {
+  "seg": 231,
+  "start": 1328.311,
+  "end": 1333.516,
+  "speaker": "Unknown",
+  "en": "We're very confident in our models and us being the premier document extraction solution on the market.",
+  "zh": "我们对自己的模型、对我们是市场上卓越的文档 extraction 方案这一点非常有信心。"
+ },
+ {
+  "seg": 232,
+  "start": 1334.236,
+  "end": 1354.264,
+  "speaker": "Unknown",
+  "en": "But there need to be more data points that we can rest on and that the entire industry can kind of see at face value without having to go test themselves or pass in the entire Arc AGI dataset to try to understand how well Reducto is doing against another solution.",
+  "zh": "但需要有更多的数据点供我们依托，也让整个行业能够直观地看到，而不用他们亲自去测试，或者把整个 Arc AGI 数据集跑一遍来理解 Reducto 相比另一个方案做得怎么样。"
+ },
+ {
+  "seg": 233,
+  "start": 1355.245,
+  "end": 1362.668,
+  "speaker": "Unknown",
+  "en": "So we're going to release some benchmarks soon, but the real deeper answer here is you typically have to make your own benchmarks, unfortunately.",
+  "zh": "所以我们很快会发布一些 benchmark，但更深层的真实答案是：很遗憾，你通常得做自己的 benchmark。"
+ },
+ {
+  "seg": 234,
+  "start": 1363.645,
+  "end": 1366.426,
+  "speaker": "Unknown",
+  "en": "Every single one of our customers typically have some benchmark.",
+  "zh": "我们的每一个客户通常都有自己的 benchmark。"
+ },
+ {
+  "seg": 235,
+  "start": 1366.446,
+  "end": 1368.727,
+  "speaker": "Unknown",
+  "en": "They're like, oh, we're evaluating documental providers.",
+  "zh": "他们会说，哦，我们在评估文档供应商。"
+ },
+ {
+  "seg": 236,
+  "start": 1369.728,
+  "end": 1374.47,
+  "speaker": "Unknown",
+  "en": "We're going to run some hit-to-hits of reducto versus all these other use cases.",
+  "zh": "我们要把 reducto 和所有这些其他方案跑一些 hit-to-hits 对比。"
+ },
+ {
+  "seg": 237,
+  "start": 1374.95,
+  "end": 1379.892,
+  "speaker": "Unknown",
+  "en": "And sometimes they don't use maybe our APIs really well because they use the wrong configs.",
+  "zh": "有时候他们没用好我们的 API，因为他们用了错误的 config。"
+ },
+ {
+  "seg": 238,
+  "start": 1379.952,
+  "end": 1381.033,
+  "speaker": "Unknown",
+  "en": "So we work closely with them.",
+  "zh": "所以我们会和他们紧密合作。"
+ },
+ {
+  "seg": 239,
+  "start": 1381.093,
+  "end": 1383.474,
+  "speaker": "Unknown",
+  "en": "Like, hey, turn this on, turn this on.",
+  "zh": "比如，嘿，把这个打开，把那个打开。"
+ },
+ {
+  "seg": 240,
+  "start": 1383.614,
+  "end": 1384.474,
+  "speaker": "Unknown",
+  "en": "You get this trade-off.",
+  "zh": "你会得到这样的权衡。"
+ },
+ {
+  "seg": 241,
+  "start": 1385.115,
+  "end": 1386.816,
+  "speaker": "Unknown",
+  "en": "And then we let them decide.",
+  "zh": "然后我们让他们自己决定。"
+ },
+ {
+  "seg": 242,
+  "start": 1387.396,
+  "end": 1391.278,
+  "speaker": "Unknown",
+  "en": "And then we often win these hit-to-hits in performance.",
+  "zh": "而且我们在这些 hit-to-hits 的性能比拼中经常获胜。"
+ },
+ {
+  "seg": 243,
+  "start": 1393.311,
+  "end": 1396.153,
+  "speaker": "Unknown",
+  "en": "As with most projects, you know, gather a simple data set.",
+  "zh": "和大多数项目一样，你知道，先收集一个简单的数据集。"
+ },
+ {
+  "seg": 244,
+  "start": 1396.294,
+  "end": 1398.155,
+  "speaker": "Unknown",
+  "en": "You can do some, like, vibe evals.",
+  "zh": "你可以先做一些，比如，vibe evals。"
+ },
+ {
+  "seg": 245,
+  "start": 1398.175,
+  "end": 1399.276,
+  "speaker": "Unknown",
+  "en": "Just look in Studio.",
+  "zh": "直接在 Studio 里看看。"
+ },
+ {
+  "seg": 246,
+  "start": 1399.596,
+  "end": 1400.557,
+  "speaker": "Unknown",
+  "en": "See if the outputs make sense.",
+  "zh": "看输出是否合理。"
+ },
+ {
+  "seg": 247,
+  "start": 1401.118,
+  "end": 1404.921,
+  "speaker": "Unknown",
+  "en": "And then, like, as you want to scale it out, then get, like, 100 documents, 1,000 documents.",
+  "zh": "然后，比如，当你想规模化的时候，就拿到，比如，100 份文档、1000 份文档。"
+ },
+ {
+  "seg": 248,
+  "start": 1405.281,
+  "end": 1406.282,
+  "speaker": "Unknown",
+  "en": "Do something more systematic.",
+  "zh": "做一些更系统化的事情。"
+ },
+ {
+  "seg": 249,
+  "start": 1406.682,
+  "end": 1412.607,
+  "speaker": "Unknown",
+  "en": "And you can also work with our team, where we have a lot of people to, you know, work with customers to help you do your evals.",
+  "zh": "你也可以和我们的团队合作，我们有很多人，你知道，专门和客户协作，帮你做你的 evals。"
+ },
+ {
+  "seg": 250,
+  "start": 1413.188,
+  "end": 1413.348,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 251,
+  "start": 1415.67,
+  "end": 1416.05,
+  "speaker": "Unknown",
+  "en": "All righty.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 252,
+  "start": 1417.131,
+  "end": 1417.852,
+  "speaker": "Unknown",
+  "en": "Any more questions?",
+  "zh": "还有问题吗?"
+ },
+ {
+  "seg": 253,
+  "start": 1417.872,
+  "end": 1418.172,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 254,
+  "start": 1418.733,
+  "end": 1420.534,
+  "speaker": "Unknown",
+  "en": "Well, yeah, absolutely, right?",
+  "zh": "嗯，是的，当然，对吧?"
+ },
+ {
+  "seg": 255,
+  "start": 1420.734,
+  "end": 1421.055,
+  "speaker": "Unknown",
+  "en": "I think",
+  "zh": "我认为"
+ },
+ {
+  "seg": 256,
+  "start": 1422.718,
+  "end": 1424.7,
+  "speaker": "Unknown",
+  "en": "So I'll answer this pretty honestly.",
+  "zh": "所以我会非常诚实地回答这个问题。"
+ },
+ {
+  "seg": 257,
+  "start": 1424.821,
+  "end": 1435.794,
+  "speaker": "Unknown",
+  "en": "I think when I was working on this solution, or I was working on this problem, I was trying to figure out what is a good productized way to surface our reductose parsing.",
+  "zh": "补充：原文如此。[[275]] 如果我们要在其上训练一个新模型，并对结果或该数据的可靠性非常有、非常有把握，我们就必须筛选大量文档。"
+ },
+ {
+  "seg": 258,
+  "start": 1438.297,
+  "end": 1448.421,
+  "speaker": "Unknown",
+  "en": "To be frank with you, I came up with something that was pretty shoddy in the beginning, like basically a RAG chatbot application where you can ask anything about the emails.",
+  "zh": "坦白说，我一开始想出来的东西相当糟糕，基本上就是一个 RAG 聊天机器人应用，你可以问任何关于邮件的问题。"
+ },
+ {
+  "seg": 259,
+  "start": 1448.681,
+  "end": 1451.482,
+  "speaker": "Unknown",
+  "en": "And it might be something that would be really, really useful for a journalist.",
+  "zh": "这可能对记者来说是非常、非常有用的东西。"
+ },
+ {
+  "seg": 260,
+  "start": 1451.762,
+  "end": 1452.182,
+  "speaker": "Unknown",
+  "en": "However,",
+  "zh": "然而，"
+ },
+ {
+  "seg": 261,
+  "start": 1454.003,
+  "end": 1463.729,
+  "speaker": "Unknown",
+  "en": "I think it's testament to the hundreds of millions of people that were using J-Mail and the tens of million that still log on from week to week nowadays.",
+  "zh": "我认为这证明了数亿使用 J-Mail 的用户，以及如今仍然每周登录的数千万用户的价值。"
+ },
+ {
+  "seg": 262,
+  "start": 1465.009,
+  "end": 1474.735,
+  "speaker": "Unknown",
+  "en": "It's testament to the fact that a nice product on top of a really, really nice novel document extraction solution is what is going to kind of be a one-two punch here.",
+  "zh": "这证明了一个事实：在一个非常、非常出色的全新文档提取解决方案之上，做一个好的产品，将会形成一种「组合拳」。"
+ },
+ {
+  "seg": 263,
+  "start": 1475.23,
+  "end": 1479.151,
+  "speaker": "Unknown",
+  "en": "Yeah, like, would you read three million, like, scanned documents?",
+  "zh": "是啊，比如，你会去读三百万份，比如，扫描文档吗?"
+ },
+ {
+  "seg": 264,
+  "start": 1479.311,
+  "end": 1479.811,
+  "speaker": "Unknown",
+  "en": "Honestly, no.",
+  "zh": "说实话，不会。"
+ },
+ {
+  "seg": 265,
+  "start": 1479.991,
+  "end": 1483.552,
+  "speaker": "Unknown",
+  "en": "And honestly, when I saw the job, I was like, this is, like, way too much work for me.",
+  "zh": "说实话，当我看到这个工作时，我想，这对我来说工作量太大了。"
+ },
+ {
+  "seg": 266,
+  "start": 1484.073,
+  "end": 1489.834,
+  "speaker": "Unknown",
+  "en": "But once Omar built it, I just, like, logged on and, like, started searching, like, random, like, famous people for fun.",
+  "zh": "但一旦 Omar 把它做出来，我就只是登录上去，开始搜索，比如，随便搜一些名人玩玩。"
+ },
+ {
+  "seg": 267,
+  "start": 1490.334,
+  "end": 1491.935,
+  "speaker": "Unknown",
+  "en": "And so that's the beauty of it, right?",
+  "zh": "所以这就是它的美妙之处，对吧?"
+ },
+ {
+  "seg": 268,
+  "start": 1491.995,
+  "end": 1494.656,
+  "speaker": "Unknown",
+  "en": "Like, I think, like, unstructured data is, like, everywhere.",
+  "zh": "比如，我认为非结构化数据无处不在。"
+ },
+ {
+  "seg": 269,
+  "start": 1495.336,
+  "end": 1500.477,
+  "speaker": "Unknown",
+  "en": "And sometimes all you need to do is, like, to extract it and then, like, do whatever you want with it.",
+  "zh": "有时候你只需要把它提取出来，然后随心所欲地处理它。"
+ },
+ {
+  "seg": 270,
+  "start": 1501.197,
+  "end": 1503.338,
+  "speaker": "Unknown",
+  "en": "It's basically what all our customers, like, do.",
+  "zh": "这基本上就是我们所有客户做的事情。"
+ },
+ {
+  "seg": 271,
+  "start": 1504.526,
+  "end": 1505.047,
+  "speaker": "Unknown",
+  "en": "Conceptually.",
+  "zh": "从概念上讲。"
+ },
+ {
+  "seg": 272,
+  "start": 1505.347,
+  "end": 1511.316,
+  "speaker": "Unknown",
+  "en": "So I think Gmail is a pretty fun example, but it's actually very, it's exactly what happens in industry.",
+  "zh": "所以我认为 Gmail 是一个很有趣的例子，但它实际上非常，它正是工业界发生的事情。"
+ },
+ {
+  "seg": 273,
+  "start": 1515.404,
+  "end": 1517.265,
+  "speaker": "Unknown",
+  "en": "It's just hard work.",
+  "zh": "只是艰苦的工作。"
+ },
+ {
+  "seg": 274,
+  "start": 1517.425,
+  "end": 1520.608,
+  "speaker": "Unknown",
+  "en": "We have a data labeling team.",
+  "zh": "我们有一个数据标注团队。"
+ },
+ {
+  "seg": 275,
+  "start": 1521.769,
+  "end": 1530.957,
+  "speaker": "Unknown",
+  "en": "We have to sift through a lot of documents if we're going to train a new model on top of it and be very, very certain in the outcomes or the sanctity of that data.",
+  "zh": "如果我们要在上面训练一个新模型，并对结果或该数据的神圣性非常有、非常有把握，我们就得筛选大量文档。"
+ },
+ {
+  "seg": 276,
+  "start": 1531.458,
+  "end": 1537.883,
+  "speaker": "Unknown",
+  "en": "And so the short answer for you is it's a lot of hard, menial, annoying work.",
+  "zh": "所以给你的简短回答是，这是大量艰苦、琐碎、烦人的工作。"
+ },
+ {
+  "seg": 277,
+  "start": 1538.284,
+  "end": 1539.585,
+  "speaker": "Unknown",
+  "en": "But that's really what comes into",
+  "zh": "但这正是最终成就"
+ },
+ {
+  "seg": 278,
+  "start": 1540.125,
+  "end": 1542.787,
+  "speaker": "Unknown",
+  "en": "The beauty of a machine learning model at the end of the day, right?",
+  "zh": "机器学习模型之美的地方，对吧?"
+ },
+ {
+  "seg": 279,
+  "start": 1542.987,
+  "end": 1562.137,
+  "speaker": "Unknown",
+  "en": "There is nothing that, you know, really beats that, like, really, really hard, you know, just rote classification work that then compounds into model training and then, you know, then you can kind of figure out, like, how to stagger your data and, like, how to train, you know, on top of your training set, but at the end of the day, you still have to label that data.",
+  "zh": "没有什么能真正打败那种非常、非常艰苦的、你知道的、纯粹机械的分类工作，它然后累积成模型训练，然后，你知道的，你就可以想办法如何错开安排你的数据，如何在你的训练集之上继续训练，但归根结底，你仍然必须标注那些数据。"
+ },
+ {
+  "seg": 280,
+  "start": 1563.998,
+  "end": 1568.181,
+  "speaker": "Unknown",
+  "en": "Cool, I think we'll take, yeah, we can take one more, but, yeah.",
+  "zh": "好，我想我们再接受，是的，我们可以再接受一个问题，但是，是的。"
+ },
+ {
+  "seg": 281,
+  "start": 1568.622,
+  "end": 1583.951,
+  "speaker": "Unknown",
+  "en": "Yeah, so to repeat the question, and let me know how accurate it was, but it seems like there are cases in which you need to really customize your logic on top of different documents, whether it be corresponding to specific models.",
+  "zh": "是的，复述一下问题，如果我复述得不准确请告诉我，但看起来有些情况下，你需要在不同的文档之上真正定制你的逻辑，无论是对应特定的模型。"
+ },
+ {
+  "seg": 282,
+  "start": 1584.271,
+  "end": 1589.835,
+  "speaker": "Unknown",
+  "en": "Sometimes there might be metadata set up in specific ways in specific documents, and you want to really",
+  "zh": "有时候可能在特定文档中以特定方式设置了元数据，而你想要真正地"
+ },
+ {
+  "seg": 283,
+  "start": 1590.635,
+  "end": 1594.077,
+  "speaker": "Unknown",
+  "en": "Condition for these specific use cases, right?",
+  "zh": "针对这些特定的使用场景做条件处理，对吧?"
+ },
+ {
+  "seg": 284,
+  "start": 1594.898,
+  "end": 1597.059,
+  "speaker": "Unknown",
+  "en": "This is a fantastic question, right?",
+  "zh": "这是一个非常好的问题，对吧?"
+ },
+ {
+  "seg": 285,
+  "start": 1597.379,
+  "end": 1601.422,
+  "speaker": "Unknown",
+  "en": "And so this is where our agentic section really comes in, right?",
+  "zh": "所以这正是我们的智能体部分真正派上用场的地方，对吧?"
+ },
+ {
+  "seg": 286,
+  "start": 1601.762,
+  "end": 1614.39,
+  "speaker": "Unknown",
+  "en": "So you can actually apply all of these different, you know, configs and apply like system prompts on top of separate models that will do specific processing that's tailored directly to what you're asking for.",
+  "zh": "所以你实际上可以应用所有这些不同的配置，并在不同的模型之上应用系统提示词，这些模型会进行直接针对你所提需求定制的特定处理。"
+ },
+ {
+  "seg": 287,
+  "start": 1614.75,
+  "end": 1633.521,
+  "speaker": "Unknown",
+  "en": "So for example, right, if you want to do some complex figure extraction, let's say I have a bunch of logos and I want to try to determine like, you know, what differentiates like, I don't know, some, you know, Lincoln Financial from like Google and like how to separate those kinds of logos, right?",
+  "zh": "举个例子，对吧，如果你想做一些复杂的图表提取，假设我有一堆 logo,我想弄清楚，比如，你知道的，是什么区分了，比如，我不知道，某个 Lincoln Financial 和 Google 之类的，以及如何区分那些 logo,对吧?"
+ },
+ {
+  "seg": 288,
+  "start": 1633.821,
+  "end": 1641.005,
+  "speaker": "Unknown",
+  "en": "I could add some additional color here within our, you know, prompts in this config to custom",
+  "zh": "我可以在我们的配置中的提示词里添加一些额外的说明，来定制"
+ },
+ {
+  "seg": 289,
+  "start": 1641.505,
+  "end": 1644.266,
+  "speaker": "Unknown",
+  "en": "Kind of tailor the outputs that I'm looking for.",
+  "zh": "我想要的输出。"
+ },
+ {
+  "seg": 290,
+  "start": 1644.546,
+  "end": 1654.208,
+  "speaker": "Unknown",
+  "en": "So if you wanted some specific metadata here, let's say like, you know, some layout might be like really, really hard to read in, I don't know, like a construction blueprint, right?",
+  "zh": "所以如果你想要一些特定的元数据，比如说，你知道的，某些版式可能非常、非常难读，比如在，我不知道，建筑蓝图里，对吧?"
+ },
+ {
+  "seg": 291,
+  "start": 1654.828,
+  "end": 1668.911,
+  "speaker": "Unknown",
+  "en": "I would spend a lot of time in the layout prompt kind of tailoring to try to understand how well, you know, my current extraction solution is mapping across all of my different, you know, construction blueprints, I guess, right?",
+  "zh": "我会花大量时间在版式提示词上，试图理解我当前的提取方案在我所有不同的建筑蓝图上映射得有多好，我猜，对吧?"
+ },
+ {
+  "seg": 292,
+  "start": 1669.512,
+  "end": 1670.532,
+  "speaker": "Unknown",
+  "en": "Cool.",
+  "zh": "好。"
+ },
+ {
+  "seg": 293,
+  "start": 1670.552,
+  "end": 1671.212,
+  "speaker": "Unknown",
+  "en": "Does that answer your question?",
+  "zh": "这回答了你的问题吗?"
+ },
+ {
+  "seg": 294,
+  "start": 1672.262,
+  "end": 1672.963,
+  "speaker": "Unknown",
+  "en": "Fantastic.",
+  "zh": "太好了。"
+ },
+ {
+  "seg": 295,
+  "start": 1673.284,
+  "end": 1673.544,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 296,
+  "start": 1673.604,
+  "end": 1678.173,
+  "speaker": "Unknown",
+  "en": "So now we want to kind of spin this off.",
+  "zh": "所以现在我们想把这个"
+ },
+ {
+  "seg": 297,
+  "start": 1680.167,
+  "end": 1682.368,
+  "speaker": "Unknown",
+  "en": "into an interactive exercise, right?",
+  "zh": "变成一个互动练习，对吧?"
+ },
+ {
+  "seg": 298,
+  "start": 1682.788,
+  "end": 1689.793,
+  "speaker": "Unknown",
+  "en": "So if you guys would like, we're going to basically give you guys however much time you would like.",
+  "zh": "所以如果你们愿意的话，我们基本上会给你们想要多少时间就给多少时间。"
+ },
+ {
+  "seg": 299,
+  "start": 1689.813,
+  "end": 1691.153,
+  "speaker": "Unknown",
+  "en": "I think we have about 30 minutes left.",
+  "zh": "我想我们大概还剩 30 分钟。"
+ },
+ {
+  "seg": 300,
+  "start": 1692.234,
+  "end": 1700.339,
+  "speaker": "Unknown",
+  "en": "And you could sign up today at Studio and essentially just get started on some document extraction solution, right?",
+  "zh": "而且你今天就可以在 Studio 上注册，基本上直接开始做一些文档提取的解决方案，对吧？"
+ },
+ {
+  "seg": 301,
+  "start": 1700.639,
+  "end": 1706.763,
+  "speaker": "Unknown",
+  "en": "So what you'll see here in a QR code is something that you could basically paste directly into a Claude Code or a Codex or whatever,",
+  "zh": "你在这个二维码里看到的，是一段基本上可以直接粘贴到 Claude Code 或 Codex 或其他什么工具里的内容，"
+ },
+ {
+  "seg": 302,
+  "start": 1707.223,
+  "end": 1711.665,
+  "speaker": "Unknown",
+  "en": "And something you could just get started on document extraction with immediately.",
+  "zh": "你可以立即用它开始做文档提取。"
+ },
+ {
+  "seg": 303,
+  "start": 1712.205,
+  "end": 1713.745,
+  "speaker": "Unknown",
+  "en": "So we're going to give you guys about 30 minutes.",
+  "zh": "所以我们会给你们大约 30 分钟时间。"
+ },
+ {
+  "seg": 304,
+  "start": 1714.085,
+  "end": 1721.728,
+  "speaker": "Unknown",
+  "en": "And by maybe around like five minutes, like at the five minute remaining mark, we'd love to kind of see what you guys have cooked up.",
+  "zh": "大概五分钟的时候，也就是剩余五分钟的时候，我们很想看看你们做出了什么东西。"
+ },
+ {
+  "seg": 305,
+  "start": 1721.928,
+  "end": 1728.85,
+  "speaker": "Unknown",
+  "en": "And we have a bunch of cool swag and a couple of cool prizes for you guys to just kind of show us what you got with respect to document extraction.",
+  "zh": "我们有一堆很酷的周边礼品，还有几个很棒的奖品，就文档提取这个主题，给我们展示一下你们的本事吧。"
+ },
+ {
+  "seg": 306,
+  "start": 1729.631,
+  "end": 1733.312,
+  "speaker": "Unknown",
+  "en": "It could totally be just like an idea and like a single shot prompt.",
+  "zh": "完全可以只是一个想法，加上一个单次生成的提示词。"
+ },
+ {
+  "seg": 307,
+  "start": 1733.692,
+  "end": 1736.553,
+  "speaker": "Unknown",
+  "en": "But feel free to just kind of give it a whirl.",
+  "zh": "但尽管放手一试。"
+ },
+ {
+  "seg": 308,
+  "start": 1737.518,
+  "end": 1737.838,
+  "speaker": "Unknown",
+  "en": "Sound good?",
+  "zh": "听起来不错吧？"
+ },
+ {
+  "seg": 309,
+  "start": 1738.279,
+  "end": 1742.642,
+  "speaker": "Unknown",
+  "en": "Also, we'll be kind of like circling around if you guys have any questions as to how to use Reducto.",
+  "zh": "另外，如果你们在使用 Reducto 方面有任何问题，我们也会在场地里转来转去。"
+ },
+ {
+  "seg": 310,
+  "start": 1743.463,
+  "end": 1744.764,
+  "speaker": "Unknown",
+  "en": "I want to come work for you guys.",
+  "zh": "我想为你们工作。"
+ },
+ {
+  "seg": 311,
+  "start": 1745.064,
+  "end": 1747.646,
+  "speaker": "Unknown",
+  "en": "I want to hear about your models, how you guys train, whatever.",
+  "zh": "我想听听你们的模型、你们是怎么训练的，等等。"
+ },
+ {
+  "seg": 312,
+  "start": 1748.387,
+  "end": 1749.928,
+  "speaker": "Unknown",
+  "en": "We are happy to answer.",
+  "zh": "我们很乐意回答。"
+ },
+ {
+  "seg": 313,
+  "start": 1750.668,
+  "end": 1751.029,
+  "speaker": "Unknown",
+  "en": "Sound good?",
+  "zh": "听起来不错吧？"
+ }
+]

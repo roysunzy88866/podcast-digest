@@ -1,0 +1,149 @@
+{
+  "title_zh": "三百万页乱七八糟的爱泼斯坦文件，是怎么被 AI 读懂的",
+  "tldr": "Reducto 的 Palak Agarwal 和 Omar Alhait 讲解如何用文档解析技术处理 300 万页爱泼斯坦档案。",
+  "digest_md": "这个玩笑式的产品火得出乎意料：到今年 2 月，访问量超过 4.5 亿，用户 1800 万。支撑这一切的，是把 300 万页涂黑、扫描、手写的政府文件变成可用数据的技术。这场演讲的两位主角，是文档处理公司 Reducto 的开发者关系负责人 Palak Agarwal 和创始工程师 Omar Alhait。\n\n## 让 AI 读干净 PDF 不难，难的是乱文件\n\nPalak 开门见山：用顶尖模型处理一份干净的 PDF，不是什么难事。但企业里的大部分文档根本不干净——**扫描件、歪着放的纸、图表、表格、各种人的潦草手写**。这才是真正复杂的地方 [00:59 Unknown]。\n\nReducto 做的就是模型前面那一层。他们的思路是“栅格化”：不看文件的底层编码，而是像人一样，直接“看”这份文档长什么样 [00:28 Unknown]。背后是一套带智能体的 OCR 框架：模型不是一口气给出答案，而是标记出自己不确定的地方，先纠正，再往下走 [00:38 Unknown]。过去三年，他们融资 1.08 亿美元，处理了超过 20 亿份文档。\n\n## JMail 是怎么诞生的：一个玩笑滚雪球\n\n他们和楼下的朋友 Luke（JMail 的开发者之一）闲聊，讨论有什么好玩的点子，聊着聊着就滚成了这个想法：==如果你能以爱泼斯坦的身份登录邮箱，看到他看到的邮件，会怎样== [03:57 Unknown]。\n\n点子很酷，但横在中间的是一个硬问题：那些文件实在太难读了。版面复杂，阅读顺序都带主观性。Omar 半开玩笑地建议观众做个实验：把那种封面文件丢给 ChatGPT，看看结果有多不准 [04:27 Unknown]。\n\nReducto 解决了这个瓶颈。之后一连串产品冒出来：JFlights（爱泼斯坦及其关联者的全部飞行记录）、JAmazon、JPhotos、JCal……飞行记录的原始材料是一堆手写文档，比打印件还难处理。团队先小规模调试提取配置，确认准确率达标，再扩展到全部文档 [07:04 Unknown]。那几天晚上，Omar 深夜连发消息给值班的同事，请他“慢一点”，因为解析任务把基础设施压得够呛 [08:11 Unknown]。\n\n## 有些文件涂黑涂得不合格，责任落到了他们头上\n\n一个严肃的插曲：Reducto 会解析 PDF 的元数据，结果发现部分文件的涂黑处理不合格——在黑框背后，其实能看到被遮住的人名 [14:03 Unknown]。\n\nOmar 说，有些文件涂得对，有些则“我们的工具工作得太好了”，真的把本该遮住的信息提取了出来 [15:21 Unknown]。这涉及真实的人的隐私，涂黑是有原因的，搞不好最后吃官司的就是自己。于是 JMail 团队反过来承担起了补涂黑的责任。\n\n## 提取的套路：先定“表格”，再验结果\n\nOmar 现场演示了工作流。他把提取模式比作画布上的画笔：你定义一个模式（比如解析简历要哪些字段），丢文档进去，看结果像不像预期，不像就改，满意了就直接部署，拿到 API 调用或代码片段 [10:14 Unknown]。\n\n还有一个进阶玩法：**先解析文档，让系统理解里面到底有什么，再根据内容定制字段描述**。他还见过一个有 156 个字段的提取模式，各要各的东西——系统的嵌套上限大约四五层，但想问什么都塞得进去 [15:45 Unknown]。\n\n## 为什么一个聊天机器人失败了，一个“邮箱”成功了\n\n有人问产品心得，Omar 答得很坦白：他最初做的东西很糙——一个能对邮件提问的问答机器人，记者可能会觉得有用，但也就那样了 [23:58 Unknown]。\n\n真正成功的是 JMail 这种形态。他的总结是：一个好产品加上一套真正好用的文档提取方案，才是“组合拳” [24:28 Unknown]。Palak 补了一句大实话：你会去读 300 万份扫描文件吗？不会。但产品做好后，他自己也天天上去搜各种名人的名字玩 [24:39 Unknown]。\n\n他的感悟是：非结构化数据到处都是，**有时候你只需要把它提取出来，之后想干什么都行** [24:51 Unknown]。JMail 看着好玩，但本质上和工业界客户做的事一模一样。\n\n## 机器学习背后，还是大量枯燥的人工\n\n被问到模型怎么训练，Omar 没有回避：有专门的数据标注团队，要人工翻阅大量文档，确保训练数据的可靠性。短答案是“**大量辛苦、乏味、烦人的工作**” [25:31 Unknown]。\n\n他还提到一个有趣的说法：提取任务不是“草垛里找针”，而是“草垛里找所有的针”——这是真正难的研究问题 [21:14 Unknown]。至于评测基准，他认为遗憾的是，通常得自己做：客户会拿 Reducto 和其他方案对比测试，团队会帮忙调配置、说明取舍，最后往往能赢 [22:35 Unknown]。\n\n## 本集带走\n\n- JMail 由 Riley Walls 和 Luke Igel 在文件公布当晚用 5 小时做出，2 个月内积累 1800 万用户、4.5 亿访问量。\n- Reducto 用“像人看文档”的栅格化方法加带自我纠错的 OCR 框架，处理了 300 万页涂黑、扫描和手写文件。\n- 部分官方涂黑不合格，黑框背后能看到被遮信息，JMail 团队主动承担了二次涂黑的责任。\n- 工作流核心是：定义提取模式、小规模验证结果、再部署扩展，几十分钟就能从想法到上线。\n- 非结构化数据无处不在，提取出来之后，产品想象空间才是真正的战场。",
+  "quotes": [
+    {
+      "en": "The reason this works is that we take a rasterization-based approach. That means we look at your document like a human would look at the document instead of the underlying embedding.",
+      "zh": "这之所以有效，是因为我们采用了基于光栅化的方法：我们像人类看文档一样去看你的文档，而不是看底层的嵌入。",
+      "timestamp": "01:28",
+      "speaker": "Palak Agarwal"
+    },
+    {
+      "en": "Because you can't just stick a box on a PDF and then expect it to actually be fully redacted, right?",
+      "zh": "因为不能只在 PDF 上盖一个框，然后就指望它真的被完全脱敏了，对吧？",
+      "timestamp": "14:20",
+      "speaker": "Omar Alhait"
+    },
+    {
+      "en": "It's not really a needle in a haystack, it's like all the needles in a haystack, if you think about it.",
+      "zh": "它其实不是大海捞针，你想想看，它更像是把海里所有的针都捞出来。",
+      "timestamp": "21:14",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "So we're going to release some benchmarks soon, but the real deeper answer here is you typically have to make your own benchmarks, unfortunately.",
+      "zh": "所以我们很快会发布一些 benchmark，但更深层的真实答案是：很遗憾，你通常得做自己的 benchmark。",
+      "timestamp": "22:35",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "And so the short answer for you is it's a lot of hard, menial, annoying work. But that's really what comes into the beauty of a machine learning model at the end of the day, right?",
+      "zh": "所以给你的简短回答是，这是大量艰苦、琐碎、烦人的工作。但这正是最终成就机器学习模型之美的地方，对吧？",
+      "timestamp": "25:31",
+      "speaker": "Omar Alhait"
+    },
+    {
+      "en": "So parse is what made reducto reducto in the first place.",
+      "zh": "所以 parse 才是让 reducto 之所以成为 reducto 的根本。",
+      "timestamp": "19:53",
+      "speaker": "Omar Alhait"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:59",
+      "speaker": "Unknown",
+      "en": "Now, getting AI to work on a clean PDF with a frontier model is not that hard, but the truth is that most of enterprise documents are unstructured.",
+      "zh": "用前沿模型处理一份干净的 PDF 并不难，但事实是，大多数企业文档都是非结构化的。"
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Unknown",
+      "en": "The reason this works is that we take a rasterization-based approach. That means we look at your document like a human would look at the document instead of the underlying embedding.",
+      "zh": "这之所以有效，是因为我们采用了基于光栅化的方法：我们像人类看文档一样去看你的文档，而不是看底层的嵌入。"
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Unknown",
+      "en": "Everything is powered by our agentic OCR framework where rather than making a single pass and committing to an answer, the model flags things that it's uncertain about, corrects them, and then moves on to the next step.",
+      "zh": "一切都由我们的智能体 OCR 框架驱动：模型不是一次性处理并直接给出答案，而是标记它不确定的地方，进行纠正，然后再进入下一步。"
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Unknown",
+      "en": "By February, there were over 450 million visits and 18 million users that had accessed Gmail.",
+      "zh": "到二月份，Gmail 的访问量超过 4.5 亿次，有 1800 万用户访问过它。"
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Unknown",
+      "en": "It's over 3 million pages of redacted PDFs, scanned documents, and messy government files as well.",
+      "zh": "超过 300 万页经过遮盖处理的 PDF、扫描文档，以及杂乱的政府文件。"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Unknown",
+      "en": "So, you know, it's a really, really cool concept as a product, but there was one really hard problem to solve that, you know, was basically a barrier between us and the productized solution.",
+      "zh": "作为一个产品这是个非常酷的概念，但有一个非常难解决的问题，基本上就是横在我们和产品化方案之间的一道坎。"
+    },
+    {
+      "timestamp": "08:18",
+      "speaker": "Unknown",
+      "en": "And then once we had this kind of corpus of documents that we were able to kind of take as a ground truth, we then spun off a billion different products.",
+      "zh": "然后一旦我们有了这样一批可以作为基准真值的文档语料库，我们就衍生出了十亿个不同的产品。"
+    },
+    {
+      "timestamp": "14:20",
+      "speaker": "Unknown",
+      "en": "Because you can't just stick a box on a PDF and then expect it to actually be fully redacted, right?",
+      "zh": "因为不能只在 PDF 上盖一个框，然后就指望它真的被完全脱敏了，对吧？"
+    },
+    {
+      "timestamp": "15:21",
+      "speaker": "Unknown",
+      "en": "Our tool was working a little too well.",
+      "zh": "我们的工具有点好使得过头了。"
+    },
+    {
+      "timestamp": "21:14",
+      "speaker": "Unknown",
+      "en": "It's not really a needle in a haystack, it's like all the needles in a haystack, if you think about it.",
+      "zh": "它其实不是大海捞针，你想想看，它更像是把海里所有的针都捞出来。"
+    },
+    {
+      "timestamp": "22:35",
+      "speaker": "Unknown",
+      "en": "So we're going to release some benchmarks soon, but the real deeper answer here is you typically have to make your own benchmarks, unfortunately.",
+      "zh": "所以我们很快会发布一些 benchmark，但更深层的真实答案是：很遗憾，你通常得做自己的 benchmark。"
+    },
+    {
+      "timestamp": "23:07",
+      "speaker": "Unknown",
+      "en": "And then we often win these hit-to-hits in performance.",
+      "zh": "而且我们在这些性能比拼中经常获胜。"
+    },
+    {
+      "timestamp": "24:25",
+      "speaker": "Unknown",
+      "en": "It's testament to the fact that a nice product on top of a really, really nice novel document extraction solution is what is going to kind of be a one-two punch here.",
+      "zh": "这证明了一个事实：在一个非常出色的全新文档提取解决方案之上，做一个好的产品，将会形成一种「组合拳」。"
+    },
+    {
+      "timestamp": "24:55",
+      "speaker": "Unknown",
+      "en": "And sometimes all you need to do is, like, to extract it and then, like, do whatever you want with it.",
+      "zh": "有时候你只需要把数据提取出来，然后随心所欲地处理它。"
+    },
+    {
+      "timestamp": "25:05",
+      "speaker": "Unknown",
+      "en": "So I think Gmail is a pretty fun example, but it's actually very, it's exactly what happens in industry.",
+      "zh": "所以我认为 Gmail 是一个很有趣的例子，但它实际上正是工业界发生的事情。"
+    },
+    {
+      "timestamp": "25:31",
+      "speaker": "Unknown",
+      "en": "And so the short answer for you is it's a lot of hard, menial, annoying work. But that's really what comes into the beauty of a machine learning model at the end of the day, right?",
+      "zh": "所以给你的简短回答是，这是大量艰苦、琐碎、烦人的工作。但这正是最终成就机器学习模型之美的地方，对吧？"
+    },
+    {
+      "timestamp": "19:53",
+      "speaker": "Unknown",
+      "en": "So parse is what made reducto reducto in the first place.",
+      "zh": "所以 parse 才是让 reducto 之所以成为 reducto 的根本。"
+    }
+  ],
+  "voice_script": "今天想跟你聊一个挺特别的故事，主角是一家叫 Reducto 的文档处理公司，来讲的是这家公司的开发者关系负责人 Palak Agarwal 和创始工程师 Omar Alhait。\n\n先说说这件事的来龙去脉。今年年初，美国政府公布了爱泼斯坦案的相关文件，整整三百万页。这些文件什么情况都有：扫描件、手写的、还有大量被涂黑的地方。有个团队在文件公布当晚，只花了五个小时就做出一个产品，叫 JMail，说白了，就是让你能以爱泼斯坦的视角去登录、浏览那些邮箱，看到他当年看到的邮件。听起来像个玩笑，结果火得一塌糊涂：两个月，一千八百万用户，四亿五千万次访问。\n\n但你可能没想过一个问题：这么火爆的产品，最核心的难题其实不在产品本身，而是——那三百万页乱七八糟的文件，到底怎么才能让机器读懂？\n\n这就是 Reducto 出场的地方。这家公司干的活，是给大模型前面加一层：把那些歪着放的纸、复杂的表格、各种人的潦草手写，变成 AI 能用的数据。过去三年，他们融了一亿零八百万美元，处理超过二十亿份文档。\n\n那这层技术具体是怎么做的？Palak 说得很清楚：现在顶尖的模型，读一份干净的 PDF 一点问题都没有。难的是企业里那些不干净的文档。他们的思路叫栅格化，说白了就是不看文件的底层编码，而是像人一样，直接去看这份文档长什么样。用 Omar 的话说，这之所以有效，是因为我们像人类看文档一样去看你的文档，而不是看底层的嵌入。再往深一层，他们有一套带智能体的 OCR 框架——模型不是一口气给出答案，而是会标记出自己不确定的地方，先纠正，再往下走。\n\n有了这层能力打底，JMail 那边的产品就像滚雪球一样冒出来。JMail 之后是 JFlights，把爱泼斯坦和关联者的全部飞行记录都提取出来了——那可是手写文档，比打印件还难处理。然后是 JAmazon、JPhotos、JCal，一个接一个。Omar 半开玩笑地说过，你可以做个实验，把那种封面文件直接丢给 ChatGPT，看看结果有多不准。而 Reducto 的工作流程也简单：先定好要提取哪些字段，小规模验证准确率，达标了再扩展到全部文档。那几天晚上，解析任务把基础设施压得够呛，Omar 深夜连发消息给值班的同事，请人家慢一点。\n\n不过，故事里还有一个严肃的插曲。Reducto 会解析 PDF 的元数据，结果发现一个问题：部分文件的涂黑处理根本不合格。什么意思？就是在那个黑框背后，其实还能看到被遮住的人名。这就麻烦了——涂黑是有原因的，涉及真实的人的隐私，真把信息提取出来，搞不好吃官司的就是自己。所以 JMail 团队反过来，主动承担起了二次涂黑的责任。这也是提醒所有人：你不能只在 PDF 上盖一个黑框，就指望它真的被完全脱敏了。\n\n再往深聊一层，是方法论的功夫。Omar 把提取模式比作画布上的画笔：你定义好一个模式，丢文档进去，看结果像不像预期，不像就改，满意了直接部署。还有个进阶玩法，是先让系统解析文档、理解里面到底有什么，再根据内容定制字段。见过最夸张的提取模式有一百五十六个字段。至于机器学习背后是什么？Omar 没回避，答案是大量艰苦、琐碎、烦人的工作——专门的数据标注团队，人工翻阅大量文档。但据说，这正是最终成就机器学习模型之美的地方。他还提过一个有意思的说法：这个任务不是大海捞针，更像是把海里所有的针都捞出来——这才是真正难的研究问题。\n\n最后是产品心得，我觉得最值得琢磨。Omar 最早做的东西其实很糙，一个能对邮件提问的问答机器人，记者可能觉得有点用，也就那样了。真正成功的是 JMail 这种形态。总结起来是一套组合拳：一个好产品，加上一套真正好用的文档提取方案。缺了哪一头都不行。\n\n所以你看，非结构化的数据到处都是，有时候你只需要把它提取出来，之后想干什么都行。JMail 看着好玩，但本质上和工业界客户做的事一模一样——三百万页的扫描文件，你不会去读，但机器读懂之后，世界就不一样了。"
+}

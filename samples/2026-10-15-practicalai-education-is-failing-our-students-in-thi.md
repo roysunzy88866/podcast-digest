@@ -183,6 +183,7 @@ Daniel 说，他在模糊和不确定中从容工作的能力，就是从那个�
 
 **顺着「职业与个人成长」挖下去**
 
+- [[2026-10-15-practicalai-is-education-failing-our-students-in-thi|AI时代，学校还在教孩子“不用AI”]]<span class="pd-rz">同嘉宾:Chris Benson · 同公司:Purdue · 同概念:PhD、批判性思维 (critical thinking)、挣扎 (struggle)、聊天机器人 (chatbot)、AI 辅导员 (AI tutor)</span>
 - [[2026-10-08-practicalai-narrative-intelligence-and-the-human-adv|AI时代，你最值钱的资产是你自己的故事]]<span class="pd-rz">同嘉宾:Chris Benson</span>
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药]]<span class="pd-rz">同概念:AI 辅导员 (AI tutor)</span>
 

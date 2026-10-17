@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 导师 (AI tutor)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 导师">AI</div><div class="pi"><h1 class="pt">AI 导师 (AI tutor)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 导师">AI</div><div class="pi"><h1 class="pt">AI 导师 (AI tutor)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]]**(44:36起):本集以 Aristotle 为主线，说 AI 能提供「你所能拥有的最好的导师」，并论述一对一 AI 辅导是最好的学习方式、能规模化 Bloom 两个标准差的提升。
 - **[[2026-10-15-practicalai-education-is-failing-our-students-in-thi|《AI冲进课堂，教育还没准备好》]]**(29:24起):哈佛物理课约 200 名本科生的实验发现，精心设计的 AI 辅导员两节课内带来的即时学习效果超过主动学习课堂对照组。
+- **[[2026-10-15-practicalai-is-education-failing-our-students-in-thi|《AI时代，学校还在教孩子“不用AI”》]]**(29:24起):本集引用哈佛约 200 名学生的研究:精心结构化的 AI 导师在两节课里带来的即时学习收益超过主动学习课堂——怎么用是关键。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-10-05-twist-jason-mentors-the-next-generation-why-ai|《一年读十本传记，AI 当导师：Jason Calacanis 给年轻人的两剂猛药》]] — 作为概念
 - [[2026-10-15-practicalai-education-is-failing-our-students-in-thi|《AI冲进课堂，教育还没准备好》]] — 作为概念(提及)
+- [[2026-10-15-practicalai-is-education-failing-our-students-in-thi|《AI时代，学校还在教孩子“不用AI”》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jason]] · [[Daniel Whitenack]] · [[Aristotle]] · [[Chris Benson]] · [[Khan Academy]] · [[教育]] · [[Brilliant.org]] · [[批判性思考]] · [[Anthropic]] · [[PhD]]
+[[Daniel Whitenack]] · [[Chris Benson]] · [[批判性思考]] · [[PhD]] · [[聊天机器人]] · [[挣扎]] · [[Purdue]] · [[Jason]] · [[教育]] · [[创造力]]
 
-<script type="application/json" class="pd-epn">{"Jason":8,"Daniel Whitenack":12,"Aristotle":1,"Chris Benson":13,"Khan Academy":2,"教育":1,"Brilliant.org":1,"批判性思考":2,"Anthropic":206,"PhD":1}</script>
+<script type="application/json" class="pd-epn">{"Daniel Whitenack":13,"Chris Benson":14,"批判性思考":3,"PhD":2,"聊天机器人":5,"挣扎":2,"Purdue":2,"Jason":8,"教育":1,"创造力":1}</script>
 
 <script>
 (function(){

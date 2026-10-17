@@ -1,0 +1,531 @@
+{
+  "episode_id": "2026-10-11-talks-parsing-the-epstein-files-for-jmail-pala",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "文档提取",
+    "非结构化数据",
+    "智能体",
+    "OCR",
+    "产品案例"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "palak-agarwal",
+      "type": "person",
+      "role": "guest",
+      "name": "Palak Agarwal",
+      "file": "Palak Agarwal",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "omar-alhait",
+      "type": "person",
+      "role": "guest",
+      "name": "Omar Alhait",
+      "file": "Omar Alhait",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "reducto",
+      "type": "company",
+      "role": "concept",
+      "name": "Reducto",
+      "file": "Reducto",
+      "primary": true,
+      "how_described": "本集把它说成:位于模型之前的一层智能体文档平台,用基于光栅化的方法把杂乱非结构化文档(扫描件、手写、涂黑 PDF)变成 AI 可用的数据,三年融资 1.08 亿美元、处理超 20 亿份文档",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.745,
+            17.127
+          ],
+          "quote": "I lead developer relations at Reducto.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            47.254,
+            56.537
+          ],
+          "quote": "And operating at that scale means that we've basically dealt with every document you can possibly think of, and we've iterated Reducto's product to handle anything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            76.179,
+            78.801
+          ],
+          "quote": "Reducto is the layer that sits right before your model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            163.217,
+            166.998
+          ],
+          "quote": "And we're really proud to share that Reducto was behind parsing all of the documents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            208.5,
+            222.289
+          ],
+          "quote": "I was talking with the founding team and we were trying to figure out what would be a great way to use Reducto with this kind of transformational cultural event that was going to be unveiled to the public, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            302.055,
+            303.696
+          ],
+          "quote": "And so this is where Reducto came in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            395.077,
+            399.738
+          ],
+          "quote": "And so what you'll see here is kind of a little tour as to how Reducto works, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            400.058,
+            404.54
+          ],
+          "quote": "So Reducto within the document extraction use case first parses the document.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            416.108,
+            428.136
+          ],
+          "quote": "So this was sort of the canvas for myself that I was playing around with to kind of understand, before I start scaling this up to a million different documents and run up a quick check on Reducto's receipts, let me make sure that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            591.327,
+            601.293
+          ],
+          "quote": "Does anybody have any questions thus far about Jmail or Reducto in general before we can kind of start working on a little interactive exercise?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            614.659,
+            622.22
+          ],
+          "quote": "You know, my fun analogy here is that, like, your extract schema is sort of like the paintbrush on your Reducto canvas, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            839.31,
+            843.333
+          ],
+          "quote": "So Reducto actually parses PDF metadata as well, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1193.395,
+            1200.44
+          ],
+          "quote": "So parse is what made reducto reducto in the first place.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1200.72,
+            1207.045
+          ],
+          "quote": "And then we can do a lot of cool things downstream of reducto once we have that parse content.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1334.236,
+            1354.264
+          ],
+          "quote": "But there need to be more data points that we can rest on and that the entire industry can kind of see at face value without having to go test themselves or pass in the entire Arc AGI dataset to try to understand how well Reducto is doing against another solution.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1369.728,
+            1374.47
+          ],
+          "quote": "We're going to run some hit-to-hits of reducto versus all these other use cases.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1738.279,
+            1742.642
+          ],
+          "quote": "Also, we'll be kind of like circling around if you guys have any questions as to how to use Reducto.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "j-mail",
+      "type": "company",
+      "role": "concept",
+      "name": "J-Mail",
+      "file": "J-Mail",
+      "primary": true,
+      "how_described": "本集说它是文件公布当晚花 5 小时做出来的玩笑式产品,可以像 Epstein 本人一样登录收件箱,到 2 月有 4.5 亿访问量、1800 万用户,后续衍生出 JFlights、JAmazon、JPhotos、JCal 等产品套件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1454.003,
+            1463.729
+          ],
+          "quote": "I think it's testament to the hundreds of millions of people that were using J-Mail and the tens of million that still log on from week to week nowadays.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "unstructured-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "非结构化数据 (unstructured data)",
+      "file": "非结构化数据",
+      "primary": true,
+      "how_described": "本集说它无处不在,大多数企业文档都是非结构化的(扫描件、旋转文档、图表、潦草手写),有时候你只需要把它提取出来,之后想干什么都行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1491.995,
+            1494.656
+          ],
+          "quote": "Like, I think, like, unstructured data is, like, everywhere.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agentic-document-processing",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体文档处理 (agentic document processing)",
+      "file": "智能体文档处理",
+      "primary": true,
+      "how_described": "本集说 Reducto 是由智能体 OCR 框架驱动:模型不是一口气给出答案,而是标记自己不确定的地方、先纠正再进入下一步,还能对模型应用系统提示词做定制化处理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            1228.944,
+            1237.792
+          ],
+          "quote": "So parse is really the foundation for all of these other agentic document processing features.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "schema",
+      "type": "concept",
+      "role": "concept",
+      "name": "提取模式 (schema)",
+      "file": "提取模式",
+      "primary": true,
+      "how_described": "本集把它比作 Reducto 画布上的画笔:定义要提取的字段、丢文档进去验证结果、满意就部署拿到 API 调用;嵌套限制约四五层,见过一个 156 个字段的 schema",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            449.842,
+            459.389
+          ],
+          "quote": "But yeah, just like a lot of different, you know, use cases that we had to handle through one extraction schema for the flights use case, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            548.59,
+            561.514
+          ],
+          "quote": "Yeah, so if you could take anything out of this, right, like the simplicity from this is really like, you know, getting a schema, right, looking at these results, making sure that the results look like what I would expect, and then just deploying, right.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            614.659,
+            622.22
+          ],
+          "quote": "You know, my fun analogy here is that, like, your extract schema is sort of like the paintbrush on your Reducto canvas, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            622.5,
+            627.981
+          ],
+          "quote": "So it definitely drives everything that you, you know, you get out of the schema.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            638.379,
+            643.2
+          ],
+          "quote": "Let me make a resume schema because I want to parse some resumes, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            665.361,
+            670.926
+          ],
+          "quote": "And so what I'm gonna do here is create a resume schema.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            683.14,
+            691.082
+          ],
+          "quote": "So I got a fun schema here and now it's up to me to basically decide whether or not this schema is satisfactory or not.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            745.953,
+            750.917
+          ],
+          "quote": "I'm sorry, it's not the loading state, but I was following what you were saying, is that generally, you start with a schema for what that document looks like.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 140,
+          "t": [
+            763.884,
+            777.31
+          ],
+          "quote": "Yeah, yeah, so this specific schema generation that I had just used is really out of the box, and it's just kind of like a quick LLM call that builds a JSON schema exactly for what I asked for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            777.63,
+            780.931
+          ],
+          "quote": "However, we do have an enhanced schema generation, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            781.292,
+            790.956
+          ],
+          "quote": "And so what this will do is, let's say I've parsed my documents, it will then take the output of what's in the documents and tailor a schema description directly for them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            793.597,
+            822.004
+          ],
+          "quote": "You know something just really quick to just get up on the screen and just see some results I would recommend regular you know schema generation but if you are a lot more interested in like nuance I definitely suggest parsing the documents first and then kind of passing them in all you would have to do is just click enhance schema generation and what we will be able to do is you know run the documents first try to get an understanding of what's in the in the document so that we can tailor these schema descriptions directly for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            945.201,
+            951.088
+          ],
+          "quote": "There was a schema that I was looking at maybe on Friday that had like 156 fields, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            959.518,
+            962.539
+          ],
+          "quote": "I urge you to kind of put our schema to the test.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            962.619,
+            969.882
+          ],
+          "quote": "I think like our, the like nesting limits to our schema are maybe like four or five layers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            970.542,
+            975.224
+          ],
+          "quote": "But if you wanna, you know, ask for everything in the world, you can still technically be able to fit it in a schema.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "redaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "涂黑脱敏 (redaction)",
+      "file": "涂黑脱敏",
+      "primary": true,
+      "how_described": "本集说部分官方文件的涂黑做得不合格,黑框背后能看到被遮住的人名,工具好使得过头反而把本该遮住的信息提了出来,于是 JMail 团队主动承担了补涂黑的责任,以免被起诉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            843.853,
+            850.558
+          ],
+          "quote": "So sometimes, and this is honestly testament to, like, who was doing the redaction, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            850.838,
+            852.539
+          ],
+          "quote": "Sometimes the redaction was actually not that great.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            853.059,
+            860.703
+          ],
+          "quote": "And so what that ended up being, the responsibility ended up being on us as the Gmail team to then have to do a bunch of redaction, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            866.966,
+            871.708
+          ],
+          "quote": "Yeah, seems like there was a lack of understanding, whoever was cooking up that redaction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            883.701,
+            896.964
+          ],
+          "quote": "Some files were actually redacted correctly, but there was some files where we were just able to see who was, like, you know, who the redaction was behind, and so it became a really, really serious, you know, situation, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": false,
+      "how_described": "本集说遗憾通常得自己做自己的 benchmark:客户拿 Reducto 与其他方案跑对比测试,团队帮忙调配置、说明取舍,并且经常赢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            33.108,
+            46.633
+          ],
+          "quote": "To give you some context, in the last three years, we've raised $108 million from investors like ACCNC, Benchmark, and more, and processed over two billion documents across customers like Harvey, Scale, and a top five global hedge fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1363.645,
+            1366.426
+          ],
+          "quote": "Every single one of our customers typically have some benchmark.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rag-chatbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG 聊天机器人 (RAG chatbot)",
+      "file": "RAG 聊天机器人",
+      "primary": false,
+      "how_described": "本集说 Omar 最初做的东西很糙——一个能对邮件提问的 RAG 问答机器人,可能对记者有用但失败了;真正成功的是 JMail 这种产品形态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            1438.297,
+            1448.421
+          ],
+          "quote": "To be frank with you, I came up with something that was pretty shoddy in the beginning, like basically a RAG chatbot application where you can ask anything about the emails.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

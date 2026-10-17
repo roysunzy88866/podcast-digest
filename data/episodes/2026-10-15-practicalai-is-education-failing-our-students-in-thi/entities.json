@@ -1,0 +1,565 @@
+{
+  "episode_id": "2026-10-15-practicalai-is-education-failing-our-students-in-thi",
+  "podcast": "Practical AI",
+  "date": "2026-10-15",
+  "tags": [
+    "AI 与教育",
+    "批判性思维",
+    "AI 导师",
+    "高等教育",
+    "育儿与家长视角"
+  ],
+  "categories": [
+    "职业与个人成长",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "daniel-whitenack",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel Whitenack",
+      "file": "Daniel Whitenack",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            41.489998,
+            75.615
+          ],
+          "quote": "Welcome to another episode of the Practical AI podcast. In this episode, it's just Chris and I, my cohost. In these episodes where we don't have a guest, it's a lot of fun to just dive into some of the topics that are of interest to us and that are in the news or at the top of our minds or guests or, listeners' minds as they've expressed them to us. So excited to dig in with my cohost, Benson, today, is a principal AI and autonomy research engineer. I'm Daniel Whitenack.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "chris-benson",
+      "type": "person",
+      "role": "cohost",
+      "name": "Chris Benson",
+      "file": "Chris Benson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "critical-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "批判性思维 (critical thinking)",
+      "file": "批判性思维",
+      "primary": true,
+      "how_described": "本集把它说成:无论具体技能怎么变,跨领域批判性思维永远是教育的底座,是和 AI 协作解决难问题的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            741.63,
+            789.495
+          ],
+          "quote": "I think it does. I agree with everything you said. I think to draw that out a little bit more, there are some skills such as the ability to do critical thinking across a number of domains, the ability to be creative across a number of domains, and then to have the content... Whatever discrete discrete skills that you might be taught in school, as you pointed out, and those may change, and some things that we think of as foundational may be changing. But having enough context in your learning around your ability to do critical thinking and to be creative together so that you can collaborate with the technologies going forward and arrive.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 33,
+          "t": [
+            789.495,
+            819.055
+          ],
+          "quote": "So without the context, and that's kind of what you're getting at there, having math skills that you need to be able to follow along, maybe with harder math that you might be working with in AI, but there's a certain level you gotta get to. And so I think being able to find that mix of educational context mixed with those creative and critical thinking abilities to solve problems collaboratively going forward with AI because that's gonna be the reality we're all facing.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 64,
+          "t": [
+            1614.57,
+            1635.09
+          ],
+          "quote": "Well, it is really a... You're looking at the output of this and not treating it as a gold standard. Right? But you're building intuition that this needs to be checked, you're working back and forth on improving. And there's still critical thinking where you have to determine what what is what is best, what is not, what is better, what is worse, etcetera.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1855.63,
+            1889.01
+          ],
+          "quote": "To your point, Chris, the system is doing certain things. So Purdue... And I know this... They're not the only ones doing this, but they have now an actual requirement in the undergraduate, like across all undergraduate degrees that there's an AI competency requirement, and they say, it's AI focused coursework designed to build critical thinking, responsible AI use, and workforce ready skills. So, yeah, I think to your point, Chris, you were mentioning mentoring people coming in out of university.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2109.24,
+            2145.3452
+          ],
+          "quote": "Yeah. I would say maybe just in reflecting on my own journey, which is is mostly what I can do, I guess. Sure. What's interesting is I would say that in... I grew more as an individual and my abilities as an individual in terms of, confidence, critical thinking, problem solving, creativity in my PhD program, like, by many, many orders of magnitude than undergraduate or or high school sort of environment.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2410.5,
+            2482.575
+          ],
+          "quote": "I know that you were saying that you had deviated a bit from the question, but you definitely inspired some thinking as we're winding up here on our discussion. One of the things I think I'll take away and that maybe others might want to consider as well is with you talking about the value of ambiguity, creativity, and the struggle itself and how that really enabled you to grow as a person. You said orders of magnitude. As I'm looking at what if you were to take that process a little bit earlier in the educational process down to where you are addressing fundamentals, how might introducing ambiguity, creativity, and struggle, and then allowing for some tooling to be part of that process introduce fundamentals in a way that creates that critical thinking, enhances that creativity, allows kids to do it, though it may be a different path on how they're achieving that from what we're doing today. A little bit less memorization and that kind of stuff and a little bit more driving them forward and relying on the rote stuff to the tool.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "chatbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天机器人 (chatbot)",
+      "file": "聊天机器人",
+      "primary": true,
+      "how_described": "本集引用土耳其 2025 年近千名高中生的实验:通用聊天机器人虽改善有辅助练习,但后续无辅助考试成绩比对照组低 17%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            1764.355,
+            1828.25
+          ],
+          "quote": "So Chris, just to highlight a couple things, which you you had sent me prior to this conversation, which I think are interesting, just a a couple of data points here. There was a 2025, study field experiment with nearly a thousand high school mathematics students in Turkey, that found that a general chatbot improved assisted practice but reduced subsequent unassisted exam performance by 17% relative to a control. The... Study, that was from Harvard undergraduate physics program, this was with around 200 students, found stronger immediate learning gains with a carefully structured AI tutor across two lessons than with its active learning classroom comparison. I know actually even when I was a teaching assistant at Purdue, this sort of active learning, stuff was very much the thing that everyone was experimenting with.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "ai-tutor",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 导师 (AI tutor)",
+      "file": "AI 导师",
+      "primary": true,
+      "how_described": "本集引用哈佛约 200 名学生的研究:精心结构化的 AI 导师在两节课里带来的即时学习收益超过主动学习课堂——怎么用是关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            1764.355,
+            1828.25
+          ],
+          "quote": "So Chris, just to highlight a couple things, which you you had sent me prior to this conversation, which I think are interesting, just a a couple of data points here. There was a 2025, study field experiment with nearly a thousand high school mathematics students in Turkey, that found that a general chatbot improved assisted practice but reduced subsequent unassisted exam performance by 17% relative to a control. The... Study, that was from Harvard undergraduate physics program, this was with around 200 students, found stronger immediate learning gains with a carefully structured AI tutor across two lessons than with its active learning classroom comparison. I know actually even when I was a teaching assistant at Purdue, this sort of active learning, stuff was very much the thing that everyone was experimenting with.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "phd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PhD",
+      "file": "PhD",
+      "primary": true,
+      "how_described": "本集把 PhD 说成:必须发表原创研究才能拿到的学位,其真正价值是在 50 位专家的质疑中练出在模糊性中工作、走向可辩护立场的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            2071.08,
+            2098.3052
+          ],
+          "quote": "I'd like to ask you a question. What are your I'm talking to my daughter a lot about college. I'm talking to her about higher education. What does it look like to go through graduate school? What does a PhD what kinds of passions that she has, given the fact that the world is changing rapidly and none of us really know what kinds of changes in our career will be required because the world is changing.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 79,
+          "t": [
+            2098.52,
+            2109.24
+          ],
+          "quote": "What are your thoughts on higher education and the utility of the PhD or how that utility may need to evolve to keep it relevant? What are your thoughts there?",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 80,
+          "t": [
+            2109.24,
+            2145.3452
+          ],
+          "quote": "Yeah. I would say maybe just in reflecting on my own journey, which is is mostly what I can do, I guess. Sure. What's interesting is I would say that in... I grew more as an individual and my abilities as an individual in terms of, confidence, critical thinking, problem solving, creativity in my PhD program, like, by many, many orders of magnitude than undergraduate or or high school sort of environment.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 81,
+          "t": [
+            2145.5051,
+            2180.8152
+          ],
+          "quote": "And I think that one, that's because obviously it was a lot harder. And so, again, that fits maybe my my leaning towards, that side of the the utility of of struggle, in terms of your your growth. But I think also the PhD, if you're thinking about PhD specifically, it is different from other educational endeavors in that it is necessarily... Like, you can't get a PhD without publishing novel research. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 82,
+          "t": [
+            2180.8152,
+            2211.575
+          ],
+          "quote": "And so regardless of how well AI systems can help you parse through the state of the art, they, at the end of the day, know the state of the art. And I know that people are working on AI systems that can kind of autonomously make maybe discoveries of their own. Right? And so I do think that AI systems could assist in that exploration of what is novel. But to some degree, the PhD does force you to say, well, here are the fundamentals.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 86,
+          "t": [
+            2272.8098,
+            2323.0999
+          ],
+          "quote": "And I'm not saying that everyone should do a PhD, but I think it is unique within that, you know, educational paradigm, and it produces some of that unique outcome where I think a lot of a lot of my confidence in operating in ambiguity came out of that process. So it maybe it's less so the individual discoveries that I think are still valuable in that graduate school PhD program because I think you could argue, AI systems, if they're good enough, they could help us explore these topics and make new discoveries. And it's more more that comfort level in working with ambiguity through the struggle towards a defensible position that you're confident in. That... That's actually a very creative process, and I think that that's a value.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2358.1,
+            2391.4949
+          ],
+          "quote": "So there's the PhD, there's entrepreneurship and venture building, there's creative pursuits. Right, whether it's... You mentioned writing writing a new piece, you know, writing a book or, or art or whatever those things are that are pushing those boundaries, where human creativity is still what's needed. I think I strayed quite a bit from your initial question, but those are some of what it makes me think of. Maybe it's a definition of where is...",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 90,
+          "t": [
+            2391.4949,
+            2409.94
+          ],
+          "quote": "Where are we finding value in our creative endeavors as humans, and how do we promote more of that, which could be through a PhD program. I I think they're still relevant. It could be through these other pursuits, but yeah, there's a real creative element at its core.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2496.11,
+            2524.85
+          ],
+          "quote": "All is with the caveat of I have no idea what I'm talking about, think that's... Maybe it ties back PhD to thing. Yeah. It's like, I'm perfectly fine operating in this space where I don't I don't know everything and still having opinions and creativity. And I think, you know, I recognize that caveat that I am no educational expert.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "creativity",
+      "type": "concept",
+      "role": "concept",
+      "name": "创造力 (creativity)",
+      "file": "创造力",
+      "primary": true,
+      "how_described": "本集把它说成:与批判性思维并列的永久底座,AI 时代人类创造力的用武之地在博士、创业、写作等推动边界的事业里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            2109.24,
+            2145.3452
+          ],
+          "quote": "Yeah. I would say maybe just in reflecting on my own journey, which is is mostly what I can do, I guess. Sure. What's interesting is I would say that in... I grew more as an individual and my abilities as an individual in terms of, confidence, critical thinking, problem solving, creativity in my PhD program, like, by many, many orders of magnitude than undergraduate or or high school sort of environment.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 88,
+          "t": [
+            2338.765,
+            2358.1
+          ],
+          "quote": "And even if it does have product market fit, you can still sabotage your own business to make it not succeed. It... It's a very creative and difficult and, you know, struggle filled endeavor. And so that produces that level of working in ambiguity, creativity, etcetera. And, you know, you could probably come up with other examples.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 89,
+          "t": [
+            2358.1,
+            2391.4949
+          ],
+          "quote": "So there's the PhD, there's entrepreneurship and venture building, there's creative pursuits. Right, whether it's... You mentioned writing writing a new piece, you know, writing a book or, or art or whatever those things are that are pushing those boundaries, where human creativity is still what's needed. I think I strayed quite a bit from your initial question, but those are some of what it makes me think of. Maybe it's a definition of where is...",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2410.5,
+            2482.575
+          ],
+          "quote": "I know that you were saying that you had deviated a bit from the question, but you definitely inspired some thinking as we're winding up here on our discussion. One of the things I think I'll take away and that maybe others might want to consider as well is with you talking about the value of ambiguity, creativity, and the struggle itself and how that really enabled you to grow as a person. You said orders of magnitude. As I'm looking at what if you were to take that process a little bit earlier in the educational process down to where you are addressing fundamentals, how might introducing ambiguity, creativity, and struggle, and then allowing for some tooling to be part of that process introduce fundamentals in a way that creates that critical thinking, enhances that creativity, allows kids to do it, though it may be a different path on how they're achieving that from what we're doing today. A little bit less memorization and that kind of stuff and a little bit more driving them forward and relying on the rote stuff to the tool.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 93,
+          "t": [
+            2496.11,
+            2524.85
+          ],
+          "quote": "All is with the caveat of I have no idea what I'm talking about, think that's... Maybe it ties back PhD to thing. Yeah. It's like, I'm perfectly fine operating in this space where I don't I don't know everything and still having opinions and creativity. And I think, you know, I recognize that caveat that I am no educational expert.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 94,
+          "t": [
+            2525.4102,
+            2564.265
+          ],
+          "quote": "But I think it is an evidence of the fact that you can... We can, I hope, into this future, still develop people that have confidence and problem solving skills and creativity? But I definitely think it's gonna be gonna be different moving forward. And I guess maybe there's a follow-up show here in the future to maybe dive in with some educators specifically around around how that's developing. I certainly know from even my experience with other technologies that the educational systems are often behind, you know, even before AI that was true and that's problematic.",
+          "speaker": "Daniel"
+        }
+      ]
+    },
+    {
+      "id": "struggle",
+      "type": "concept",
+      "role": "concept",
+      "name": "挣扎 (struggle)",
+      "file": "挣扎",
+      "primary": true,
+      "how_described": "本集说成:人离开不适和挣扎就无法在品格与成长上进步;用 AI 后挣扎没有消失,只是换了位置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            819.055,
+            859.26
+          ],
+          "quote": "Yeah. Maybe another way to put it is, I I... Well, again, people have different opinions probably, but at least from my point of view or worldview or however you would frame it, I don't think you really advance in your character and development as a human without discomfort and struggle. Right? I agree with And so and so a part of whether that's, you know, advancing in your marriage, advancing in your ability as a worker, in your, you know, character as a as a human being and the values that that you wanna hold to.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 35,
+          "t": [
+            859.98,
+            888.07
+          ],
+          "quote": "You... The the the struggle of life is actually how how that is stressed and how those things are are built up. Right? And so I would view a part of the educational system as... Or maybe the counterexample I'm trying to draw out is, well, maybe it doesn't really matter if basic math or spelling is a part, is like a fundamental skill now.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 40,
+          "t": [
+            1037.855,
+            1085.005
+          ],
+          "quote": "Are we already offloading some of those skills to AI, and how are we collaborating to solve really tough problems? To your point about the struggle, I know that in my own life, as I'm working with AI every day, I know both you and I are collaborating with AI models all the time, and that has changed the workflows on how I engage a lot of problems, and in a lot of ways it supercharged what I can do, the productivity. Know I've mentioned that before in terms of what I can generate, so my output is way above what was possible a year ago. And so I'm starting to really look at how am I doing that, but I am noticing that that struggle still exists. It's just being placed in different places.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 51,
+          "t": [
+            1304.01,
+            1336.2201
+          ],
+          "quote": "Figure out how can I do that? I know for me, these tools, and I suspect it's the same for you, I rarely go and just get an answer unless it's a completely trivial thing. I usually go and explore the nature of a problem so that by the time I get to an answer, I've used these tools to ensure that I've done a certain amount of that struggle myself, and it's a self imposed struggle so that I've learned. I found that by doing that, these tools are catering to me. I've helped them.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 54,
+          "t": [
+            1411.24,
+            1437.89
+          ],
+          "quote": "Are they just getting shallow answers? Are they diving into it? But you can actually... And as a parent, I can smooth out in certain areas where I know my daughter might struggle in certain areas, and I can smooth that out, introduce things earlier, expand the period of time she's exposed to it, and get her learning because I already do that as a parent. And so when I suggested, Let everybody do their faces kind of fell.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 59,
+          "t": [
+            1488.445,
+            1490.5249
+          ],
+          "quote": "in front of me there. There's a struggle there.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 68,
+          "t": [
+            1716.3401,
+            1764.355
+          ],
+          "quote": "And maybe the AI, I'm just gonna throw, maybe there's an earpiece in that the kid has. He can hear or she can hear the teacher clearly, but there's also an AI talking and saying, Well, how would you think about this? And as the teacher is working on that and the AI is observing the kid's struggle through the process, and they can cue them in ways that are customized for that particular student. So the AI that the next student over may be cuing them a little bit differently, but it keeps them on track, keeps them focused on the work, and keeps them on a learning curve. I love to hear, that's not a new idea, we've heard about those things in the past, I'd love to hear how people are thinking about that, whether that's on track, whether there needs to be something different, and how you would use that kind of capability.",
+          "speaker": "Chris"
+        },
+        {
+          "seg": 72,
+          "t": [
+            1889.545,
+            1925.765
+          ],
+          "quote": "I, you know, I I struggle to believe that... Well, or maybe the way to put it is a lot of those students coming out of university, at least if they're working in my company, so maybe I just speak to my own experience. If they're not comfortable with wanting and digging into AI assistance in their day to day work, then that's going to be a problem for for for them at at our company. That is an expectation. However, that's not necessarily what they're learning in their in their university program where maybe they're...",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 81,
+          "t": [
+            2145.5051,
+            2180.8152
+          ],
+          "quote": "And I think that one, that's because obviously it was a lot harder. And so, again, that fits maybe my my leaning towards, that side of the the utility of of struggle, in terms of your your growth. But I think also the PhD, if you're thinking about PhD specifically, it is different from other educational endeavors in that it is necessarily... Like, you can't get a PhD without publishing novel research. Right?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 86,
+          "t": [
+            2272.8098,
+            2323.0999
+          ],
+          "quote": "And I'm not saying that everyone should do a PhD, but I think it is unique within that, you know, educational paradigm, and it produces some of that unique outcome where I think a lot of a lot of my confidence in operating in ambiguity came out of that process. So it maybe it's less so the individual discoveries that I think are still valuable in that graduate school PhD program because I think you could argue, AI systems, if they're good enough, they could help us explore these topics and make new discoveries. And it's more more that comfort level in working with ambiguity through the struggle towards a defensible position that you're confident in. That... That's actually a very creative process, and I think that that's a value.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 88,
+          "t": [
+            2338.765,
+            2358.1
+          ],
+          "quote": "And even if it does have product market fit, you can still sabotage your own business to make it not succeed. It... It's a very creative and difficult and, you know, struggle filled endeavor. And so that produces that level of working in ambiguity, creativity, etcetera. And, you know, you could probably come up with other examples.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 91,
+          "t": [
+            2410.5,
+            2482.575
+          ],
+          "quote": "I know that you were saying that you had deviated a bit from the question, but you definitely inspired some thinking as we're winding up here on our discussion. One of the things I think I'll take away and that maybe others might want to consider as well is with you talking about the value of ambiguity, creativity, and the struggle itself and how that really enabled you to grow as a person. You said orders of magnitude. As I'm looking at what if you were to take that process a little bit earlier in the educational process down to where you are addressing fundamentals, how might introducing ambiguity, creativity, and struggle, and then allowing for some tooling to be part of that process introduce fundamentals in a way that creates that critical thinking, enhances that creativity, allows kids to do it, though it may be a different path on how they're achieving that from what we're doing today. A little bit less memorization and that kind of stuff and a little bit more driving them forward and relying on the rote stuff to the tool.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "purdue",
+      "type": "company",
+      "role": "company",
+      "name": "Purdue",
+      "file": "Purdue",
+      "primary": true,
+      "how_described": "本集说 Purdue 已在所有本科专业加入 AI 能力必修要求,目标是培养批判性思维、负责任的 AI 使用和就业技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            1764.355,
+            1828.25
+          ],
+          "quote": "So Chris, just to highlight a couple things, which you you had sent me prior to this conversation, which I think are interesting, just a a couple of data points here. There was a 2025, study field experiment with nearly a thousand high school mathematics students in Turkey, that found that a general chatbot improved assisted practice but reduced subsequent unassisted exam performance by 17% relative to a control. The... Study, that was from Harvard undergraduate physics program, this was with around 200 students, found stronger immediate learning gains with a carefully structured AI tutor across two lessons than with its active learning classroom comparison. I know actually even when I was a teaching assistant at Purdue, this sort of active learning, stuff was very much the thing that everyone was experimenting with.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 70,
+          "t": [
+            1828.25,
+            1855.63
+          ],
+          "quote": "I I don't know that that field in its entirety, but I I know that was a big thing back then. So it is encouraging that people are doing some of these experiments. I know that Purdue, which is in the town where I live for those that that don't that don't know, local here to me, I... You know, there's all sorts of mixed things. Different departments are handling things differently, but I know the sis...",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 71,
+          "t": [
+            1855.63,
+            1889.01
+          ],
+          "quote": "To your point, Chris, the system is doing certain things. So Purdue... And I know this... They're not the only ones doing this, but they have now an actual requirement in the undergraduate, like across all undergraduate degrees that there's an AI competency requirement, and they say, it's AI focused coursework designed to build critical thinking, responsible AI use, and workforce ready skills. So, yeah, I think to your point, Chris, you were mentioning mentoring people coming in out of university.",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 77,
+          "t": [
+            2023.3201,
+            2070.84
+          ],
+          "quote": "We need to find a way of getting those critical skills to those students, acknowledging that we all go and drive cars and do things that are just completely part of our life. This is also now part of that life, and so we need to acknowledge that education is never going to be without this again, and so that's the kind little parental mission that I'm on right here is trying to do. Don't claim to have all the answers, but it's a process, I think, that we need to engage in in the large. It's a societal problem that's only going to get worse as we go forward unless we actively do that. I love hearing about Purdue's efforts and trying to start moving things incrementally forward on that.",
+          "speaker": "Chris"
+        }
+      ]
+    },
+    {
+      "id": "prediction-guard",
+      "type": "company",
+      "role": "company",
+      "name": "Prediction Guard",
+      "file": "Prediction Guard",
+      "primary": false,
+      "how_described": "主持人 Daniel 所在的、为本播客提供运营支持的 AI 公司,本集仅作背景提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            75.615,
+            78.735
+          ],
+          "quote": "I'm CEO at Prediction Guard. How are doing, Chris?",
+          "speaker": "Daniel"
+        },
+        {
+          "seg": 99,
+          "t": [
+            2595.225,
+            2618
+          ],
+          "quote": "That's our show for this week. If you haven't checked out our website, head to practicalai.fm and be sure to connect with us on LinkedIn, X, or Blue Sky. You'll see us posting insights related to the latest AI developments, and we would love for you to join the conversation. Thanks to our partner, Prediction Guard, for providing operational support for the show. Check them out at predictionguard.com.",
+          "speaker": "Narrator"
+        }
+      ]
+    },
+    {
+      "id": "serp-api",
+      "type": "company",
+      "role": "company",
+      "name": "SERP API",
+      "file": "SERP API",
+      "primary": false,
+      "how_described": "本集赞助商:为 AI 智能体提供实时搜索引擎结果结构化访问的网页搜索 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            906.965,
+            933.665
+          ],
+          "quote": "We've talked a lot on the show about how an AI agent needs an underlying harness that has connections into the real world, into MCP servers and real systems and data sources. That's the only way that it can work towards a a useful goal. And that's why I'm so happy that we're partnering with SERP API, which is a web search API that gives developers real time structured access to search engine results.",
+          "speaker": "Sponsor"
+        },
+        {
+          "seg": 38,
+          "t": [
+            933.665,
+            981.65497
+          ],
+          "quote": "This is an amazing tool that you can plug directly into AI agents to power their actions and get them to the proper outcomes. This very simple integration and this includes access to over a 100 APIs within SERP API to to access things like Google, Bing, Amazon, YouTube, and many other sources. So I would really encourage you to check out SERP API, integrate it into your AI agents. Visit serpapi.compracticalai to get started with surf a pi for free and get 250 searches every month. Visit surfapi.compracticalai to get started with surf API for free and get two fifty searches every month.",
+          "speaker": "Sponsor"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "仅在赞助段落被提及为需要连接现实系统的 AI agent,以及 Chris 正在写的智能体时代主题书中出现,非本集主线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            906.965,
+            933.665
+          ],
+          "quote": "We've talked a lot on the show about how an AI agent needs an underlying harness that has connections into the real world, into MCP servers and real systems and data sources. That's the only way that it can work towards a a useful goal. And that's why I'm so happy that we're partnering with SERP API, which is a web search API that gives developers real time structured access to search engine results.",
+          "speaker": "Sponsor"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

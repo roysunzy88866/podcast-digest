@@ -177,9 +177,9 @@ Daniel对技术人群的建议也一样：别问该做什么，先问你痴迷�
 
 **顺着「职业与个人成长」挖下去**
 
+- [[2026-10-15-practicalai-is-education-failing-our-students-in-thi|AI时代，学校还在教孩子“不用AI”]]<span class="pd-rz">同嘉宾:Chris Benson · 同概念:智能体 (agent)</span>
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]]<span class="pd-rz">同概念:智能体 (agent)</span>
 - [[2026-04-22-beyondcoding-oss-expert-why-world-class-engineers-get|开源贡献的真正门槛：不是代码，是认知负荷]]<span class="pd-rz">同概念:智能体 (agent)</span>
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]]<span class="pd-rz">同概念:智能体 (agent)</span>
 
 </div>
 <div class="pd-ex">
