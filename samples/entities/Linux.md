@@ -31,7 +31,7 @@ unlisted: true
 
 [[NVIDIA]] · [[智能体]] · [[开源模型]] · [[蒸馏]] · [[沙箱]] · [[推理]] · [[强化学习]] · [[Theo Jaffe]] · [[Jensen Huang]] · [[Mike Cannon-Brookes]]
 
-<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"开源模型":4,"蒸馏":1,"沙箱":104,"推理":103,"强化学习":1,"Theo Jaffe":8,"Jensen Huang":4,"Mike Cannon-Brookes":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"开源模型":4,"蒸馏":1,"沙箱":104,"推理":105,"强化学习":1,"Theo Jaffe":8,"Jensen Huang":4,"Mike Cannon-Brookes":1}</script>
 
 <script>
 (function(){

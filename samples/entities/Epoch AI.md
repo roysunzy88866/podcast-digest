@@ -25,7 +25,7 @@ unlisted: true
 
 [[Greg Burnham]] · [[Sam Charrington]] · [[Frontier Math]] · [[AI 能力]] · [[基准测试]] · [[递归自我改进]] · [[研究品味]] · [[上下文学习]] · [[harness]] · [[对齐]]
 
-<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":7,"Frontier Math":1,"AI 能力":1,"基准测试":3,"递归自我改进":13,"研究品味":1,"上下文学习":4,"harness":67,"对齐":25}</script>
+<script type="application/json" class="pd-epn">{"Greg Burnham":1,"Sam Charrington":7,"Frontier Math":1,"AI 能力":1,"基准测试":3,"递归自我改进":13,"研究品味":1,"上下文学习":4,"harness":68,"对齐":25}</script>
 
 <script>
 (function(){

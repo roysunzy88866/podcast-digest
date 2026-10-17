@@ -25,7 +25,7 @@ unlisted: true
 
 [[Pedro Lopez]] · [[MCP]] · [[CLI]] · [[智能体]] · [[上下文存储]] · [[OAuth]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Pedro Lopez":1,"MCP":100,"CLI":5,"智能体":1,"上下文存储":1,"OAuth":4,"技能":35}</script>
+<script type="application/json" class="pd-epn">{"Pedro Lopez":1,"MCP":100,"CLI":5,"智能体":1,"上下文存储":1,"OAuth":4,"技能":36}</script>
 
 <script>
 (function(){

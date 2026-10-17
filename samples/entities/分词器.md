@@ -25,7 +25,7 @@ unlisted: true
 
 [[Charles Frye]] · [[Modal]] · [[SGLang]] · [[vLLM]] · [[PyTorch]] · [[NVIDIA]] · [[Cognition]] · [[推理]] · [[推理引擎]] · [[调度器]]
 
-<script type="application/json" class="pd-epn">{"Charles Frye":1,"Modal":8,"SGLang":4,"vLLM":8,"PyTorch":3,"NVIDIA":72,"Cognition":27,"推理":103,"推理引擎":1,"调度器":1}</script>
+<script type="application/json" class="pd-epn">{"Charles Frye":1,"Modal":9,"SGLang":5,"vLLM":9,"PyTorch":4,"NVIDIA":72,"Cognition":27,"推理":105,"推理引擎":1,"调度器":1}</script>
 
 <script>
 (function(){

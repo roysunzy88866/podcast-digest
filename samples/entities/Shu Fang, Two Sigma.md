@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":1,"Claude Code":116,"Kubernetes":22,"提示词注入":1,"可观测性":49,"MCP":100,"推理":103}</script>
+<script type="application/json" class="pd-epn">{"Two Sigma":1,"智能体":1,"Claude Code":117,"Kubernetes":22,"提示词注入":1,"可观测性":49,"MCP":100,"推理":105}</script>
 
 <script>
 (function(){

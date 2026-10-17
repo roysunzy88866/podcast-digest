@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"NanoClaw":1,"树莓派":2,"MCP 服务器":3,"Docker":8,"Claude Agent SDK":2,"推理":103,"OpenClaw":25}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"NanoClaw":1,"树莓派":2,"MCP 服务器":3,"Docker":8,"Claude Agent SDK":2,"推理":105,"OpenClaw":25}</script>
 
 <script>
 (function(){

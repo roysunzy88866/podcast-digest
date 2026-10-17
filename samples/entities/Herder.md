@@ -25,7 +25,7 @@ unlisted: true
 
 [[Tyler Folkman]] · [[JobNimbus]] · [[Claude]] · [[循环]] · [[智能体]] · [[技能]] · [[闸门]] · [[原型]] · [[hooks]] · [[构建者]]
 
-<script type="application/json" class="pd-epn">{"Tyler Folkman":1,"JobNimbus":1,"Claude":99,"循环":10,"智能体":1,"技能":35,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
+<script type="application/json" class="pd-epn">{"Tyler Folkman":1,"JobNimbus":1,"Claude":99,"循环":10,"智能体":1,"技能":36,"闸门":2,"原型":8,"hooks":4,"构建者":5}</script>
 
 <script>
 (function(){

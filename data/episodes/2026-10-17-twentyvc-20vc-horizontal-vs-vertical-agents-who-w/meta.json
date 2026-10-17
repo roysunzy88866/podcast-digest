@@ -1,0 +1,36 @@
+{
+  "id": "2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w",
+  "audio_mp3": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Memo__Harrison_Chase__Langchain.mp3?dest-id=240976",
+  "duration_sec": 3707.991,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 919,
+  "asr": true,
+  "title_en": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-17",
+  "cover_official_url": "https://static.libsyn.com/p/assets/5/7/e/3/57e3d06286258cbe5f2e77a3093c12a1/WhatsApp_Image_2026-10-16_at_14.04.46.jpeg",
+  "added": "2026-10-17",
+  "added_at": "2026-10-17T10:01:23.295Z",
+  "speaker_map": {
+    "SPEAKER_00": "Harrison Chase",
+    "SPEAKER_01": "Harry Stebbings"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Harrison Chase",
+  "cohosts": [
+    "Harry Stebbings"
+  ],
+  "title_zh": "LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里",
+  "guest_name": "Harrison Chase",
+  "guest_title": "LangChain 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://static.libsyn.com/p/assets/5/7/e/3/57e3d06286258cbe5f2e77a3093c12a1/WhatsApp_Image_2026-10-16_at_14.04.46.jpeg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-10-17T13:27:46.180Z"
+  }
+}

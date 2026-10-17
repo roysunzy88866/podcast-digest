@@ -61,7 +61,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":103,"Transformer":11,"服务引擎":1,"Cerebras":2}</script>
+<script type="application/json" class="pd-epn">{"inception 阶段":2,"Mercury":5,"扩散":2,"自回归模型":1,"推理":105,"Transformer":11,"服务引擎":1,"Cerebras":2}</script>
 
 <script>
 (function(){

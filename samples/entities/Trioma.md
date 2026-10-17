@@ -25,7 +25,7 @@ unlisted: true
 
 [[Iskander Malikov]] · [[编排]] · [[智能体]] · [[智能体工作流]] · [[提示词工程]] · [[令牌]] · [[订阅模式]] · [[TGN]] · [[GPU]] · [[开放权重模型]]
 
-<script type="application/json" class="pd-epn">{"Iskander Malikov":1,"编排":9,"智能体":1,"智能体工作流":1,"提示词工程":3,"令牌":6,"订阅模式":1,"TGN":1,"GPU":35,"开放权重模型":1}</script>
+<script type="application/json" class="pd-epn">{"Iskander Malikov":1,"编排":9,"智能体":1,"智能体工作流":1,"提示词工程":3,"令牌":6,"订阅模式":1,"TGN":1,"GPU":36,"开放权重模型":1}</script>
 
 <script>
 (function(){

@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":3,"Anthropic":206,"Claude Code":116,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":8,"Gemini":16}</script>
+<script type="application/json" class="pd-epn">{"Cat Wu":1,"Thariq Shihipar":3,"Anthropic":206,"Claude Code":117,"ClaudeTag":1,"Fable":11,"Slack":34,"Bun":4,"Rust":8,"Gemini":16}</script>
 
 <script>
 (function(){

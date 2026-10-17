@@ -31,7 +31,7 @@ unlisted: true
 
 [[Stripe]] · [[编码智能体]] · [[智能体]] · [[Shopify]] · [[Gabriel Vasquez]] · [[Eric Schwartz]] · [[Alex Rampell]] · [[Max Canet-Alexander]] · [[Elena Berger]] · [[Traversal]]
 
-<script type="application/json" class="pd-epn">{"Stripe":53,"编码智能体":38,"智能体":1,"Shopify":19,"Gabriel Vasquez":1,"Eric Schwartz":1,"Alex Rampell":4,"Max Canet-Alexander":1,"Elena Berger":5,"Traversal":2}</script>
+<script type="application/json" class="pd-epn">{"Stripe":53,"编码智能体":40,"智能体":1,"Shopify":19,"Gabriel Vasquez":1,"Eric Schwartz":1,"Alex Rampell":4,"Max Canet-Alexander":1,"Elena Berger":5,"Traversal":2}</script>
 
 <script>
 (function(){

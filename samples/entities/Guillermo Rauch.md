@@ -85,11 +85,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Vercel":22,"智能体":1,"编码智能体":38,"沙箱":104,"开源模型":4,"部署":1,"提示词注入":1,"无服务器":4,"Next.js":3,"MCP":100}</script>
+<script type="application/json" class="pd-epn">{"Vercel":22,"智能体":1,"编码智能体":40,"沙箱":104,"开源模型":4,"部署":1,"提示词注入":1,"无服务器":4,"Next.js":3,"MCP":100}</script>
 
 <script>
 (function(){

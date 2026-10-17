@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LangChain</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LangChain">LA</div><div class="pi"><h1 class="pt">LangChain</h1><div class="byl">公司</div><div class="nums">本站收录 <b>16</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]]**(00:27起):本集说 Jake 在 LangChain 领导 Labs 团队，该团队在帮金融服务公司构建能从经历中持续学习的智能体
 - **[[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]]**(00:07起):本集是 LangChain 产品经理的演讲，介绍其 Deep Agents 框架与随 0.8 版本发布的 Managed Deep Agents。
 - **[[2026-10-09-talks-three-questions-every-agent-engineer-sho|《智能体坏了不可怕，可怕的是你不知道它怎么坏的》]]**(00:05起):本集是 LangChain 工程师在新办公室的分享，介绍他们内部通过微调裁判模型、定义世界和任务规格来测试与改进智能体的实践经验
+- **[[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]]**(00:29起):本集主题公司:约 400 人、估值数十亿美元,做让构建智能体变容易的开发者工具——开源框架连接模型与工具/数据/计算,LangSmith 提供可观测性与评估。
 
 ## ① 提到它的金句
 
@@ -35,7 +36,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*15 集*
+*16 集*
 
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
 - [[2026-07-31-talks-building-deep-agents-and-deploying-in-pr|《把智能体推向生产环境:为什么标准基础设施不够用》]] — 作为被讨论公司
@@ -52,14 +53,15 @@ unlisted: true
 - [[2026-10-08-talks-giving-ai-agents-memory-that-learns-jake|《让 AI 智能体越用越聪明：LangChain 团队谈“会学习的记忆”》]] — 作为概念
 - [[2026-10-09-talks-managed-deep-agents-deploying-mission-cr|《从本机跑通到正式上线：LangChain 发布 Managed Deep Agents》]] — 作为被讨论公司
 - [[2026-10-09-talks-three-questions-every-agent-engineer-sho|《智能体坏了不可怕，可怕的是你不知道它怎么坏的》]] — 作为被讨论公司
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[harness]] · [[评估]] · [[沙箱]] · [[LangSmith]] · [[LangGraph]] · [[微调]] · [[trace]] · [[护栏]] · [[Deep Agents]]
+[[智能体]] · [[harness]] · [[评估]] · [[沙箱]] · [[LangSmith]] · [[后训练]] · [[LangGraph]] · [[微调]] · [[trace]] · [[基准测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":67,"评估":1,"沙箱":104,"LangSmith":7,"LangGraph":9,"微调":40,"trace":7,"护栏":94,"Deep Agents":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":68,"评估":1,"沙箱":104,"LangSmith":7,"后训练":1,"LangGraph":9,"微调":40,"trace":7,"基准测试":3}</script>
 
 <script>
 (function(){

@@ -1,0 +1,4218 @@
+[
+ {
+  "seg": 0,
+  "start": 13.649,
+  "end": 19.393,
+  "speaker": "Unknown",
+  "en": "So my name is Naina Ndukwe, and I am a Developer Relations Lead at Codo.",
+  "zh": "我叫 Naina Ndukwe,我是 Codo 的开发者关系负责人。"
+ },
+ {
+  "seg": 1,
+  "start": 20.053,
+  "end": 26.077,
+  "speaker": "Unknown",
+  "en": "We used to be just like an AI code review platform, but now we're kind of expanding beyond that.",
+  "zh": "我们以前只是一个 AI 代码审查平台,但现在正在某种程度上向那之外扩展。"
+ },
+ {
+  "seg": 2,
+  "start": 26.747,
+  "end": 31.208,
+  "speaker": "Unknown",
+  "en": "That's all about code quality and governance across the software development lifecycle.",
+  "zh": "那都是关于整个软件开发生命周期中的代码质量和治理。"
+ },
+ {
+  "seg": 3,
+  "start": 31.808,
+  "end": 40.549,
+  "speaker": "Unknown",
+  "en": "And I've spent a lot of time thinking about and working on, like, what does a structured AI coding process look like?",
+  "zh": "而且我花了很多时间思考和琢磨,一个结构化的 AI 编码流程是什么样的?"
+ },
+ {
+  "seg": 4,
+  "start": 40.669,
+  "end": 42.71,
+  "speaker": "Unknown",
+  "en": "There are many different ways that we're all doing it.",
+  "zh": "我们每个人都有很多不同的做法。"
+ },
+ {
+  "seg": 5,
+  "start": 42.77,
+  "end": 45.89,
+  "speaker": "Unknown",
+  "en": "I would love to hear from y'all, especially towards the end of this.",
+  "zh": "我很想听听大家的想法,尤其是在这个环节的最后。"
+ },
+ {
+  "seg": 6,
+  "start": 46.43,
+  "end": 50.771,
+  "speaker": "Unknown",
+  "en": "But I'm just gonna have, what I want is to walk through what that can look like.",
+  "zh": "但我想要做的,就是带大家走一遍这个东西可以是什么样子。"
+ },
+ {
+  "seg": 7,
+  "start": 51.131,
+  "end": 53.572,
+  "speaker": "Unknown",
+  "en": "There's a repo I have that everyone can fork.",
+  "zh": "我有一个仓库,每个人都可以 fork。"
+ },
+ {
+  "seg": 8,
+  "start": 54.172,
+  "end": 56.312,
+  "speaker": "Unknown",
+  "en": "And if you do nothing else from this,",
+  "zh": "如果你在这场分享里什么都不做,"
+ },
+ {
+  "seg": 9,
+  "start": 57.033,
+  "end": 64.899,
+  "speaker": "Unknown",
+  "en": "Ask your AI to analyze and grab some tips from the structure of the repo and try to see what you can apply to your own workflow, all right?",
+  "zh": "那就让你的 AI 去分析这个仓库的结构,并从中提取一些技巧,然后看看你能把什么应用到自己的工作流程里,好吗?"
+ },
+ {
+  "seg": 10,
+  "start": 66.781,
+  "end": 72.425,
+  "speaker": "Unknown",
+  "en": "All right, so we're gonna walk through just a little bit of the beginning, who I am, Naina.",
+  "zh": "好的,我们先稍微过一下开头部分,我是谁,我是 Naina。"
+ },
+ {
+  "seg": 11,
+  "start": 73.046,
+  "end": 76.528,
+  "speaker": "Unknown",
+  "en": "Definitely passionate about AI for developers.",
+  "zh": "我绝对是对开发者 AI 充满热情的。"
+ },
+ {
+  "seg": 12,
+  "start": 76.668,
+  "end": 81.032,
+  "speaker": "Unknown",
+  "en": "This is my thing as a DevRel and as a former full-time software engineer.",
+  "zh": "这就是我作为一个 DevRel 和前全职软件工程师所专注的事。"
+ },
+ {
+  "seg": 13,
+  "start": 81.798,
+  "end": 84.719,
+  "speaker": "Unknown",
+  "en": "And I live in Boston, and this is my cat, Pippin.",
+  "zh": "我住在波士顿,这是我的猫,Pippin。"
+ },
+ {
+  "seg": 14,
+  "start": 85.179,
+  "end": 90.821,
+  "speaker": "Unknown",
+  "en": "He's named after Lord of the Rings Hobbit, not the basketball player, which people ask me a lot about.",
+  "zh": "它是以《指环王》里的霍比特人命名的,不是那个篮球运动员,经常有人问我这个。"
+ },
+ {
+  "seg": 15,
+  "start": 91.502,
+  "end": 95.703,
+  "speaker": "Unknown",
+  "en": "And, you know, this is what I'm here for, implementing structured AI coding workflow.",
+  "zh": "还有,你们知道的,这就是我今天来这里的目的:实现结构化的 AI 编码工作流程。"
+ },
+ {
+  "seg": 16,
+  "start": 96.323,
+  "end": 97.904,
+  "speaker": "Unknown",
+  "en": "We're gonna be using Codo.",
+  "zh": "我们会使用 Codo。"
+ },
+ {
+  "seg": 17,
+  "start": 98.544,
+  "end": 100.325,
+  "speaker": "Unknown",
+  "en": "You'll be able to sign into the platform.",
+  "zh": "你们可以登录这个平台。"
+ },
+ {
+  "seg": 18,
+  "start": 100.385,
+  "end": 108.388,
+  "speaker": "Unknown",
+  "en": "If you don't wanna use it for some of the earlier stages of the SDLC we'll walk through, you can just use it for PR code reviews.",
+  "zh": "如果你不想在我们接下来要走的 SDLC 前期某些阶段中使用它,你可以只把它用于 PR 代码审查。"
+ },
+ {
+  "seg": 19,
+  "start": 110.83,
+  "end": 135.286,
+  "speaker": "Unknown",
+  "en": "And first things first, you'll want to have access to the slides and I think the best way to do that or the easiest way to do that is to go to github.com forward slash my name and then the repo should be at the top of the repository or those are the slides that will link to my Google slides.",
+  "zh": "首先第一件事,你需要能访问幻灯片,我认为最好的或最简单的方式是去 github.com 斜杠我的名字,然后那个仓库应该会在仓库列表的顶部,或者那些就是幻灯片,会链接到我的 Google 幻灯片。"
+ },
+ {
+  "seg": 20,
+  "start": 138.942,
+  "end": 139.943,
+  "speaker": "Unknown",
+  "en": "So hopefully everybody can...",
+  "zh": "所以希望每个人都能……"
+ },
+ {
+  "seg": 21,
+  "start": 140.763,
+  "end": 142.944,
+  "speaker": "Unknown",
+  "en": "I'll give everyone a minute to do that.",
+  "zh": "我给大家一分钟时间去做这件事。"
+ },
+ {
+  "seg": 22,
+  "start": 145.986,
+  "end": 147.406,
+  "speaker": "Unknown",
+  "en": "So yeah, slides are here.",
+  "zh": "好,幻灯片在这里。"
+ },
+ {
+  "seg": 23,
+  "start": 147.947,
+  "end": 150.788,
+  "speaker": "Unknown",
+  "en": "The repository should be at the top of that.",
+  "zh": "仓库应该在那个页面的顶部。"
+ },
+ {
+  "seg": 24,
+  "start": 151.588,
+  "end": 156.251,
+  "speaker": "Unknown",
+  "en": "And anybody raise their hand if they don't see it or can't get access?",
+  "zh": "有谁没看到或者无法访问的,请举手?"
+ },
+ {
+  "seg": 25,
+  "start": 163.795,
+  "end": 166.396,
+  "speaker": "Unknown",
+  "en": "Thumbs up if I'm good to move on or I'll wait.",
+  "zh": "如果我可以继续往下讲就竖个大拇指,不然我就等着。"
+ },
+ {
+  "seg": 26,
+  "start": 166.416,
+  "end": 166.516,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 27,
+  "start": 174.983,
+  "end": 178.427,
+  "speaker": "Unknown",
+  "en": "So, in general, where and how code quality can break down.",
+  "zh": "那么,总的来说,代码质量会在哪里、以何种方式崩坏。"
+ },
+ {
+  "seg": 28,
+  "start": 180.349,
+  "end": 182.872,
+  "speaker": "Unknown",
+  "en": "Who here is using AI for coding?",
+  "zh": "在座的谁在用 AI 编码?"
+ },
+ {
+  "seg": 29,
+  "start": 182.952,
+  "end": 183.933,
+  "speaker": "Unknown",
+  "en": "I'm assuming everybody.",
+  "zh": "我猜是所有人。"
+ },
+ {
+  "seg": 30,
+  "start": 183.953,
+  "end": 187.778,
+  "speaker": "Unknown",
+  "en": "Do we have Claude Code fans here?",
+  "zh": "这里有 Claude Code 的粉丝吗?"
+ },
+ {
+  "seg": 31,
+  "start": 190.061,
+  "end": 190.882,
+  "speaker": "Unknown",
+  "en": "And Codex?",
+  "zh": "还有 Codex?"
+ },
+ {
+  "seg": 32,
+  "start": 192.951,
+  "end": 194.912,
+  "speaker": "Unknown",
+  "en": "Wow, wait, less hands for Codex.",
+  "zh": "哇,等等,Codex 的手更少。"
+ },
+ {
+  "seg": 33,
+  "start": 194.992,
+  "end": 197.612,
+  "speaker": "Unknown",
+  "en": "Okay, I thought they blew up in the past couple months.",
+  "zh": "好吧,我还以为它们在过去几个月里爆火了呢。"
+ },
+ {
+  "seg": 34,
+  "start": 197.812,
+  "end": 200.033,
+  "speaker": "Unknown",
+  "en": "I've been using Codex for a lot of stuff.",
+  "zh": "我一直用 Codex 做很多事情。"
+ },
+ {
+  "seg": 35,
+  "start": 200.433,
+  "end": 205.894,
+  "speaker": "Unknown",
+  "en": "But where can code quality break down in the agentic development lifecycle?",
+  "zh": "但是,在智能体开发生命周期中,代码质量会在哪里崩坏呢?"
+ },
+ {
+  "seg": 36,
+  "start": 207.035,
+  "end": 207.415,
+  "speaker": "Unknown",
+  "en": "Everywhere.",
+  "zh": "到处都会。"
+ },
+ {
+  "seg": 37,
+  "start": 208.355,
+  "end": 211.876,
+  "speaker": "Unknown",
+  "en": "Planning and design, development, code review, testing, deployment.",
+  "zh": "规划与设计、开发、代码审查、测试、部署。"
+ },
+ {
+  "seg": 38,
+  "start": 212.196,
+  "end": 219.718,
+  "speaker": "Unknown",
+  "en": "There are so many potential failure modes for using AI for coding, just to ship high-quality software.",
+  "zh": "用 AI 编码来交付高质量软件,有着太多潜在的失败模式。"
+ },
+ {
+  "seg": 39,
+  "start": 221.313,
+  "end": 234.095,
+  "speaker": "Unknown",
+  "en": "That is where we come into this process where we kind of have to overdo it with steering AI coding agents to get what we need out of it just so that we can get behind or stand behind the quality of the code",
+  "zh": "所以我们才进入这样一个流程:我们不得不过度地去引导(steering)AI 编码智能体,才能从中得到我们需要的东西,就为了让我们能够认可或为代码的质量背书,"
+ },
+ {
+  "seg": 40,
+  "start": 234.582,
+  "end": 235.583,
+  "speaker": "Unknown",
+  "en": "And be like, okay, you know what?",
+  "zh": "然后说:好了,你猜怎么着?"
+ },
+ {
+  "seg": 41,
+  "start": 235.623,
+  "end": 236.604,
+  "speaker": "Unknown",
+  "en": "I can put my name on that.",
+  "zh": "我可以在那上面署上我的名字。"
+ },
+ {
+  "seg": 42,
+  "start": 236.744,
+  "end": 237.565,
+  "speaker": "Unknown",
+  "en": "This is good to go.",
+  "zh": "这个可以交付了。"
+ },
+ {
+  "seg": 43,
+  "start": 237.865,
+  "end": 239.547,
+  "speaker": "Unknown",
+  "en": "We can move this forward through the pipeline.",
+  "zh": "我们可以让它继续走完流水线。"
+ },
+ {
+  "seg": 44,
+  "start": 239.567,
+  "end": 243.35,
+  "speaker": "Unknown",
+  "en": "Or I feel safe to have another developer review my code at this point.",
+  "zh": "或者说,到了这个节点,我觉得可以放心地让另一位开发者来审查我的代码了。"
+ },
+ {
+  "seg": 45,
+  "start": 243.951,
+  "end": 247.975,
+  "speaker": "Unknown",
+  "en": "And so I really believe that we should be building quality-driven systems.",
+  "zh": "所以我真心认为,我们应该构建以质量为驱动的系统。"
+ },
+ {
+  "seg": 46,
+  "start": 248.415,
+  "end": 253.139,
+  "speaker": "Unknown",
+  "en": "I think that there needs to be a verification aspect to agentic engineering.",
+  "zh": "我认为智能体工程中需要有一个验证环节。"
+ },
+ {
+  "seg": 47,
+  "start": 253.66,
+  "end": 259.045,
+  "speaker": "Unknown",
+  "en": "And it really starts with, number one, defining what code quality means to you.",
+  "zh": "而这真正要从第一件事开始:定义代码质量对你来说意味着什么。"
+ },
+ {
+  "seg": 48,
+  "start": 260.174,
+  "end": 267.321,
+  "speaker": "Unknown",
+  "en": "And your team, if you're working on a team of developers, that needs to be defined and then that needs to live somewhere.",
+  "zh": "对你的团队也是一样——如果你在一个开发者团队里工作,那就需要把这一点定义出来,然后把它放在某个地方。"
+ },
+ {
+  "seg": 49,
+  "start": 267.461,
+  "end": 280.073,
+  "speaker": "Unknown",
+  "en": "It needs to be codified so that our AI, no matter what interface you're using, can extract that information and do its best to adhere to the code standards that you have in place.",
+  "zh": "它需要被成文化(codified),这样我们的 AI,无论你用的是哪种界面,都能提取出这些信息,并尽力遵守你们已经制定的代码标准。"
+ },
+ {
+  "seg": 50,
+  "start": 280.954,
+  "end": 294.964,
+  "speaker": "Unknown",
+  "en": "And then once you've decided where those standards live, whether they're locally in your specific individual repos or if they're in a context management layer, which we'll get into, then you can decide and pull that into the different interfaces.",
+  "zh": "然后，一旦你决定了这些标准放在哪里，是放在你本地特定的个人仓库里，还是放在一个上下文管理层里——这个我们后面会讲到——你就可以决定如何把它们引入不同的接口。"
+ },
+ {
+  "seg": 51,
+  "start": 295.404,
+  "end": 302.93,
+  "speaker": "Unknown",
+  "en": "If that's your CLI, if that's your IDE, your CI workflows, it should be distributable.",
+  "zh": "如果那是你的 CLI，如果那是你的 IDE、你的 CI 工作流，它应该是可分发的。"
+ },
+ {
+  "seg": 52,
+  "start": 306.394,
+  "end": 309.496,
+  "speaker": "Unknown",
+  "en": "And we do not have to go through all of that.",
+  "zh": "而我们不必把所有那些都过一遍。"
+ },
+ {
+  "seg": 53,
+  "start": 310.357,
+  "end": 311.918,
+  "speaker": "Unknown",
+  "en": "I already explained that.",
+  "zh": "我已经解释过了。"
+ },
+ {
+  "seg": 54,
+  "start": 312.298,
+  "end": 315.02,
+  "speaker": "Unknown",
+  "en": "We might just be able to, okay, well, here's what we're gonna do.",
+  "zh": "我们也许可以，好的，那我们就这么做。"
+ },
+ {
+  "seg": 55,
+  "start": 315.5,
+  "end": 319.263,
+  "speaker": "Unknown",
+  "en": "We are going to operationalize our context.",
+  "zh": "我们要把我们的上下文运营化。"
+ },
+ {
+  "seg": 56,
+  "start": 319.863,
+  "end": 330.391,
+  "speaker": "Unknown",
+  "en": "I have a repo that has rules, it has skills, it has a bunch of different things in it, and we wanna leverage that for planning, for code generation, and code review.",
+  "zh": "我有一个仓库，里面有规则，有技能，还有一堆不同的东西，我们想把它用于规划、代码生成和代码评审。"
+ },
+ {
+  "seg": 57,
+  "start": 331.111,
+  "end": 335.054,
+  "speaker": "Unknown",
+  "en": "And the whole point is that we want to verify the quality",
+  "zh": "关键在于我们想要验证质量"
+ },
+ {
+  "seg": 58,
+  "start": 336.683,
+  "end": 337.723,
+  "speaker": "Unknown",
+  "en": "Early and often.",
+  "zh": "尽早且频繁地验证。"
+ },
+ {
+  "seg": 59,
+  "start": 338.504,
+  "end": 346.407,
+  "speaker": "Unknown",
+  "en": "And ideally, it's the same standards that we are asking the agents to check against across each of those phases.",
+  "zh": "理想情况下，在每一个阶段，我们让智能体对照检查的都是同一套标准。"
+ },
+ {
+  "seg": 60,
+  "start": 346.507,
+  "end": 347.747,
+  "speaker": "Unknown",
+  "en": "That's really the whole point.",
+  "zh": "这才是真正的核心所在。"
+ },
+ {
+  "seg": 61,
+  "start": 351.509,
+  "end": 352.529,
+  "speaker": "Unknown",
+  "en": "Oh, these are my skills.",
+  "zh": "哦，这些是我的技能。"
+ },
+ {
+  "seg": 62,
+  "start": 352.689,
+  "end": 353.489,
+  "speaker": "Unknown",
+  "en": "I have so many.",
+  "zh": "我有好多。"
+ },
+ {
+  "seg": 63,
+  "start": 355.85,
+  "end": 361.372,
+  "speaker": "Unknown",
+  "en": "And yeah, so I think I'm gonna go ahead and just jump into what we need to do.",
+  "zh": "对，所以我想我可以直接开始讲我们需要做什么了。"
+ },
+ {
+  "seg": 64,
+  "start": 361.392,
+  "end": 362.753,
+  "speaker": "Unknown",
+  "en": "So first,",
+  "zh": "那么，首先，"
+ },
+ {
+  "seg": 65,
+  "start": 366.802,
+  "end": 372.206,
+  "speaker": "Unknown",
+  "en": "Let's go to the Kodo Quality Workshop Signal Pay.",
+  "zh": "我们去 Kodo Quality Workshop Signal Pay。"
+ },
+ {
+  "seg": 66,
+  "start": 372.226,
+  "end": 375.649,
+  "speaker": "Unknown",
+  "en": "If y'all can see that.",
+  "zh": "如果你们能看到的话。"
+ },
+ {
+  "seg": 67,
+  "start": 377.15,
+  "end": 382.995,
+  "speaker": "Unknown",
+  "en": "Oh, I can't increase the... Let's see.",
+  "zh": "哦，我没法放大……让我看看。"
+ },
+ {
+  "seg": 68,
+  "start": 390.376,
+  "end": 392.818,
+  "speaker": "Unknown",
+  "en": "Okay, so this is the repo that we're going to.",
+  "zh": "好的，这就是我们要去的仓库。"
+ },
+ {
+  "seg": 69,
+  "start": 393.058,
+  "end": 395.36,
+  "speaker": "Unknown",
+  "en": "It is Codo Quality Workshop SignalPay.",
+  "zh": "它是 Codo Quality Workshop SignalPay。"
+ },
+ {
+  "seg": 70,
+  "start": 395.38,
+  "end": 404.227,
+  "speaker": "Unknown",
+  "en": "This is a payment app, and what I want you to do is fork this repo and let me know when you have done that, and then what you're gonna do is clone it.",
+  "zh": "这是一个支付应用，我要你们做的是 fork 这个仓库，完成后告诉我，然后你们要做的就是 clone 它。"
+ },
+ {
+  "seg": 71,
+  "start": 405.147,
+  "end": 417.397,
+  "speaker": "Unknown",
+  "en": "If you want to work through this on your own time, all of the instructions are there in the README, and I'm gonna be leaning heavily on my coding agents to actually help me implement this at a meta level.",
+  "zh": "如果你想在自己的时间里完成这个练习，所有的说明都在 README 里，而我会在元层面上大量依赖我的编码智能体来帮我实际实现这些。"
+ },
+ {
+  "seg": 72,
+  "start": 422.29,
+  "end": 425.077,
+  "speaker": "Unknown",
+  "en": "So codequalityworkshop-signalpay.",
+  "zh": "所以是 codequalityworkshop-signalpay。"
+ },
+ {
+  "seg": 73,
+  "start": 427.041,
+  "end": 428.184,
+  "speaker": "Unknown",
+  "en": "And in this repo,",
+  "zh": "在这个仓库里，"
+ },
+ {
+  "seg": 74,
+  "start": 429.664,
+  "end": 435.506,
+  "speaker": "Unknown",
+  "en": "This is where we're just gonna walk through the process of planning for a coding change.",
+  "zh": "这就是我们要走一遍为一个代码变更做规划的过程的地方。"
+ },
+ {
+  "seg": 75,
+  "start": 436.166,
+  "end": 442.289,
+  "speaker": "Unknown",
+  "en": "We are going to read the repo rules to determine which rules are relevant for this particular coding change.",
+  "zh": "我们要读取仓库的规则，以确定哪些规则与这个特定的代码变更相关。"
+ },
+ {
+  "seg": 76,
+  "start": 442.609,
+  "end": 451.652,
+  "speaker": "Unknown",
+  "en": "We're gonna use skills and then make sure that we're writing proper tests using some TDD and BDD skills, test-driven, behavior-driven development.",
+  "zh": "我们会使用技能，然后确保我们用一些 TDD 和 BDD 技能——测试驱动、行为驱动开发——来编写正确的测试。"
+ },
+ {
+  "seg": 77,
+  "start": 452.172,
+  "end": 456.114,
+  "speaker": "Unknown",
+  "en": "Then we're gonna ask our coding agent to implement the code change",
+  "zh": "然后我们会让我们的编码智能体实现这个代码变更"
+ },
+ {
+  "seg": 78,
+  "start": 456.698,
+  "end": 458.68,
+  "speaker": "Unknown",
+  "en": "And then run local gates.",
+  "zh": "接着运行本地门禁。"
+ },
+ {
+  "seg": 79,
+  "start": 459.08,
+  "end": 460.261,
+  "speaker": "Unknown",
+  "en": "We have linters.",
+  "zh": "我们有 linter。"
+ },
+ {
+  "seg": 80,
+  "start": 460.341,
+  "end": 468.788,
+  "speaker": "Unknown",
+  "en": "We have static analysis that we're running because we want some deterministic checks and we want AI as well, like a good combination.",
+  "zh": "我们有正在运行的静态分析，因为我们想要一些确定性的检查，我们也想要 AI，也就是一个好的组合。"
+ },
+ {
+  "seg": 81,
+  "start": 469.189,
+  "end": 475.954,
+  "speaker": "Unknown",
+  "en": "And then we'll open a pull request and have Kodo review our PR directly in GitHub.",
+  "zh": "然后我们会打开一个 pull request，让 Kodo 直接在 GitHub 里评审我们的 PR。"
+ },
+ {
+  "seg": 82,
+  "start": 476.655,
+  "end": 485.162,
+  "speaker": "Unknown",
+  "en": "And after that, we'll actually review what the coding, the issues were that Kodo found, and we're gonna resolve that automatically with an agent skill.",
+  "zh": "在那之后，我们会实际看看 Kodo 发现的代码问题，然后用一个智能体技能自动解决它们。"
+ },
+ {
+  "seg": 83,
+  "start": 486.272,
+  "end": 487.593,
+  "speaker": "Unknown",
+  "en": "And what are we building?",
+  "zh": "那我们在构建什么呢？"
+ },
+ {
+  "seg": 84,
+  "start": 487.713,
+  "end": 501.979,
+  "speaker": "Unknown",
+  "en": "This is a self-contained fast API payments API, and there's no front end or anything, so we can just go ahead and focus on, it'll be like an API that you can view in the UI.",
+  "zh": "这是一个自包含的 fast API 支付 API，没有前端或任何东西，所以我们可以直接专注于——它会是一个你可以在 UI 里查看的 API。"
+ },
+ {
+  "seg": 85,
+  "start": 507.962,
+  "end": 509.283,
+  "speaker": "Unknown",
+  "en": "Okay, some things to",
+  "zh": "好的，有一些事情需要"
+ },
+ {
+  "seg": 86,
+  "start": 510.502,
+  "end": 534.841,
+  "speaker": "Unknown",
+  "en": "Look at with the repo structure, we have an AgentsMD file, we have a hidden plan directory, hidden, and rules, skills, docs, we have the actual API itself, we have tests, and we're using SEMGREP as well for static analysis, and we have our CI workflow, like verification process.",
+  "zh": "看看仓库结构，我们有一个 AgentsMD 文件，一个隐藏的 plan 目录——是隐藏的——还有 rules、skills、docs，有实际的 API 本身，有 tests，我们还在用 SEMGREP 做静态分析，还有我们的 CI 工作流，也就是验证流程。"
+ },
+ {
+  "seg": 87,
+  "start": 534.861,
+  "end": 538.243,
+  "speaker": "Unknown",
+  "en": "So first things first, we want to run this app locally.",
+  "zh": "那么，第一步，我们要在本地运行这个应用。"
+ },
+ {
+  "seg": 88,
+  "start": 539.393,
+  "end": 543.914,
+  "speaker": "Unknown",
+  "en": "We're gonna use the instructions make setup once you have cloned this repo.",
+  "zh": "在你 clone 了这个仓库之后，我们会按说明使用 make setup。"
+ },
+ {
+  "seg": 89,
+  "start": 544.795,
+  "end": 550.036,
+  "speaker": "Unknown",
+  "en": "And like I said, you can walk through this on your own and just copy and paste the instructions.",
+  "zh": "就像我说的，你可以自己独立完成这个练习，直接复制粘贴那些说明。"
+ },
+ {
+  "seg": 90,
+  "start": 550.796,
+  "end": 552.137,
+  "speaker": "Unknown",
+  "en": "Let's see, where do I have?",
+  "zh": "让我看看，我的……在哪儿？"
+ },
+ {
+  "seg": 91,
+  "start": 559.859,
+  "end": 560.139,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 92,
+  "start": 561.199,
+  "end": 564.1,
+  "speaker": "Unknown",
+  "en": "Once we've done that, it should be make run, I believe.",
+  "zh": "完成之后，应该是 make run，我记得是。"
+ },
+ {
+  "seg": 93,
+  "start": 569.397,
+  "end": 571.018,
+  "speaker": "Unknown",
+  "en": "All right, now it's running.",
+  "zh": "好了，现在它跑起来了。"
+ },
+ {
+  "seg": 94,
+  "start": 572.34,
+  "end": 577.744,
+  "speaker": "Unknown",
+  "en": "And locally it should be available.",
+  "zh": "在本地它应该是可访问的。"
+ },
+ {
+  "seg": 95,
+  "start": 578.645,
+  "end": 581.468,
+  "speaker": "Unknown",
+  "en": "And this is the payments API that we have.",
+  "zh": "这就是我们的支付 API。"
+ },
+ {
+  "seg": 96,
+  "start": 582.268,
+  "end": 583.69,
+  "speaker": "Unknown",
+  "en": "Nothing crazy, very simple.",
+  "zh": "没什么复杂的，非常简单。"
+ },
+ {
+  "seg": 97,
+  "start": 584.811,
+  "end": 589.675,
+  "speaker": "Unknown",
+  "en": "Not really the point of this, but this is what you should see when the app is running locally.",
+  "zh": "这不是本次的重点，但这就是应用在本地运行时你应该看到的样子。"
+ },
+ {
+  "seg": 98,
+  "start": 596.687,
+  "end": 600.65,
+  "speaker": "Unknown",
+  "en": "Okay, there's also some other endpoints available if you want to take a look at that.",
+  "zh": "好的，还有一些其他的 endpoint 可用，如果你想看看的话。"
+ },
+ {
+  "seg": 99,
+  "start": 601.371,
+  "end": 607.976,
+  "speaker": "Unknown",
+  "en": "Now, you can choose your lane if you want to just do this hands-on or if you just want to observe.",
+  "zh": "现在，你可以选择你的路线，是想亲手实践做这个，还是只想旁观。"
+ },
+ {
+  "seg": 100,
+  "start": 608.357,
+  "end": 615.663,
+  "speaker": "Unknown",
+  "en": "Here are the quality gate checkpoints that we'll be walking through and there's a whole setup gate process, right?",
+  "zh": "下面是我们将要讲解的质量闸门检查点，这里有一整套设置闸门流程，对吧？"
+ },
+ {
+  "seg": 101,
+  "start": 615.683,
+  "end": 621.948,
+  "speaker": "Unknown",
+  "en": "We have these different commands that we're running and we have a verification command that is pretty important.",
+  "zh": "我们要运行这些不同的命令，还有一个相当重要的验证命令。"
+ },
+ {
+  "seg": 102,
+  "start": 621.988,
+  "end": 625.751,
+  "speaker": "Unknown",
+  "en": "So you have this working already in your local repo",
+  "zh": "所以你已经在你本地的仓库里把这个跑通了"
+ },
+ {
+  "seg": 103,
+  "start": 626.368,
+  "end": 633.21,
+  "speaker": "Unknown",
+  "en": "And if you need help, ask your agent for changing anything locally to make sure that this can run very smoothly.",
+  "zh": "如果你需要帮助，可以让你的智能体帮忙在本地做任何修改，确保这一切能非常顺利地运行。"
+ },
+ {
+  "seg": 104,
+  "start": 633.75,
+  "end": 636.711,
+  "speaker": "Unknown",
+  "en": "The next step we're doing is we are going to use Kodo.",
+  "zh": "我们要做的下一步是使用 Kodo。"
+ },
+ {
+  "seg": 105,
+  "start": 637.231,
+  "end": 643.393,
+  "speaker": "Unknown",
+  "en": "And what's great about Kodo here is that we're not just gonna run this in a pull request.",
+  "zh": "Kodo 在这里的好处是，我们不只是要在一次 pull request 中运行它。"
+ },
+ {
+  "seg": 106,
+  "start": 643.593,
+  "end": 652.295,
+  "speaker": "Unknown",
+  "en": "We wanna set up our account with Kodo so it can actually ingest the skills that are in this repo already and to ingest the rules that are in this repo.",
+  "zh": "我们想把我们的账号和 Kodo 设置好，这样它就能真正摄取这个仓库里已有的技能，并摄取这个仓库里的规则。"
+ },
+ {
+  "seg": 107,
+  "start": 652.867,
+  "end": 662.871,
+  "speaker": "Unknown",
+  "en": "And this is going to be critical for us to be able to then apply that as context to the code review phase as well, not just with your coding agents or when you're planning.",
+  "zh": "这对我们来说将至关重要，因为这样我们就能把这些作为上下文应用到代码审查阶段，而不仅仅是在你的编码智能体或规划阶段使用。"
+ },
+ {
+  "seg": 108,
+  "start": 664.291,
+  "end": 666.312,
+  "speaker": "Unknown",
+  "en": "And like I said, you don't have to do this,",
+  "zh": "就像我说的，你不必非得这么做，"
+ },
+ {
+  "seg": 109,
+  "start": 667.109,
+  "end": 670.131,
+  "speaker": "Unknown",
+  "en": "We'll get to that part in a second.",
+  "zh": "我们马上就会讲到那部分。"
+ },
+ {
+  "seg": 110,
+  "start": 670.811,
+  "end": 675.054,
+  "speaker": "Unknown",
+  "en": "So some standards gates that are important to this are the rules themselves.",
+  "zh": "所以对这套流程重要的一些标准闸门就是规则本身。"
+ },
+ {
+  "seg": 111,
+  "start": 675.414,
+  "end": 680.317,
+  "speaker": "Unknown",
+  "en": "We have different payments, API-focused rules that are contained in this repo.",
+  "zh": "这个仓库里包含了不同的支付类、聚焦 API 的规则。"
+ },
+ {
+  "seg": 112,
+  "start": 680.717,
+  "end": 692.925,
+  "speaker": "Unknown",
+  "en": "And it is the agent's job to be able to determine, when I have to implement this code change that you're requesting for me, I need to determine which of these rules are going to be relevant for this so I can adhere to them.",
+  "zh": "而智能体的任务就是去判断：当我要实现你要求的这个代码变更时，我需要确定这些规则中哪些与此相关，这样我才能遵守它们。"
+ },
+ {
+  "seg": 113,
+  "start": 693.365,
+  "end": 695.066,
+  "speaker": "Unknown",
+  "en": "They're all here in this repo.",
+  "zh": "它们都在这个仓库里。"
+ },
+ {
+  "seg": 114,
+  "start": 697.274,
+  "end": 699.839,
+  "speaker": "Unknown",
+  "en": "as well as the skills for implementation.",
+  "zh": "还有用于实现的技能。"
+ },
+ {
+  "seg": 115,
+  "start": 700.661,
+  "end": 703.467,
+  "speaker": "Unknown",
+  "en": "And then we have the planning and test-driven development gate.",
+  "zh": "接下来是规划和测试驱动开发闸门。"
+ },
+ {
+  "seg": 116,
+  "start": 703.787,
+  "end": 707.655,
+  "speaker": "Unknown",
+  "en": "There is a high-level planning template in this repo.",
+  "zh": "这个仓库里有一个高层次的规划模板。"
+ },
+ {
+  "seg": 117,
+  "start": 708.166,
+  "end": 710.768,
+  "speaker": "Unknown",
+  "en": "And then we have an execution-focused plan.",
+  "zh": "然后我们还有一个聚焦执行的计划。"
+ },
+ {
+  "seg": 118,
+  "start": 711.248,
+  "end": 729.44,
+  "speaker": "Unknown",
+  "en": "And this is very detailed templates because from what I have found is the more detailed that you are, relatively speaking, the more detailed that you are or consistent and structured with your planning phase and the document that your agent has to go back to and read,",
+  "zh": "这些是非常详细的模板，因为根据我的经验，相对而言，你在规划阶段越详细，或者说越一致、越结构化，以及你的智能体必须回头去读的那份文档越详细，"
+ },
+ {
+  "seg": 119,
+  "start": 729.86,
+  "end": 738.402,
+  "speaker": "Unknown",
+  "en": "Then it's going to adhere a bit better and also correct itself when it realizes it's missing some critical points of your process.",
+  "zh": "它就会遵守得越好，而且当它意识到自己遗漏了你流程中的某些关键点时，也更能自我纠正。"
+ },
+ {
+  "seg": 120,
+  "start": 740.683,
+  "end": 743.804,
+  "speaker": "Unknown",
+  "en": "And you want to be able to identify what is the expected behavior?",
+  "zh": "而且你要能够识别出：预期的行为是什么？"
+ },
+ {
+  "seg": 121,
+  "start": 744.244,
+  "end": 747.565,
+  "speaker": "Unknown",
+  "en": "What are the skills that I'm going to use for implementation?",
+  "zh": "我要使用哪些技能来实现？"
+ },
+ {
+  "seg": 122,
+  "start": 748.085,
+  "end": 750.746,
+  "speaker": "Unknown",
+  "en": "All of that is here as a part of the planning template.",
+  "zh": "所有这些都作为规划模板的一部分包含在这里。"
+ },
+ {
+  "seg": 123,
+  "start": 752.119,
+  "end": 754.92,
+  "speaker": "Unknown",
+  "en": "And then we have the local verification gates.",
+  "zh": "然后是本地验证闸门。"
+ },
+ {
+  "seg": 124,
+  "start": 755.54,
+  "end": 767.565,
+  "speaker": "Unknown",
+  "en": "I use RUF, PyRite, Bandit, PyTest, SEMGREP, and conventional commits, deterministic evidence that the changes made locally preserve the local contract.",
+  "zh": "我使用 RUF、PyRite、Bandit、PyTest、SEMGREP 和 conventional commits，这些是确定性的证据，证明本地所做的变更保留了本地契约。"
+ },
+ {
+  "seg": 125,
+  "start": 768.245,
+  "end": 773.567,
+  "speaker": "Unknown",
+  "en": "I am a huge believer in combining deterministic tools with AI.",
+  "zh": "我非常坚信要把确定性工具和 AI 结合起来。"
+ },
+ {
+  "seg": 126,
+  "start": 774.627,
+  "end": 778.629,
+  "speaker": "Unknown",
+  "en": "And then the last gate is the pull request review and the remediation gate.",
+  "zh": "最后一个闸门是 pull request 审查和整改闸门。"
+ },
+ {
+  "seg": 127,
+  "start": 778.669,
+  "end": 779.829,
+  "speaker": "Unknown",
+  "en": "When we open a PR,",
+  "zh": "当我们打开一个 PR 时，"
+ },
+ {
+  "seg": 128,
+  "start": 780.425,
+  "end": 790.816,
+  "speaker": "Unknown",
+  "en": "Codo's findings are inspected, fixes and deferrals are documented, and then we can rerun our verification command after we fix those coding changes.",
+  "zh": "会检查 Codo 的发现，记录修复和延后处理项，然后在我们修复那些代码变更之后，我们可以重新运行我们的验证命令。"
+ },
+ {
+  "seg": 129,
+  "start": 791.497,
+  "end": 801.887,
+  "speaker": "Unknown",
+  "en": "And that is going to be a process of completing the code review loop on your own, as opposed to just stopping right there at that local, passing that local run.",
+  "zh": "这将是一个自己完成代码审查闭环的过程，而不是就停在那个本地环节、通过那次本地运行就完事了。"
+ },
+ {
+  "seg": 130,
+  "start": 803.675,
+  "end": 805.075,
+  "speaker": "Unknown",
+  "en": "Here are the prerequisites.",
+  "zh": "以下是前提条件。"
+ },
+ {
+  "seg": 131,
+  "start": 805.175,
+  "end": 820.02,
+  "speaker": "Unknown",
+  "en": "We need Git to GitHub account, GitHub CLI, and Python, UV, Node.js, and NPM, and any coding agent that you use, preferably Codex or Claude Code, and then we will get our Codo account.",
+  "zh": "我们需要 Git、GitHub 账号、GitHub CLI、Python、UV、Node.js 和 NPM，以及你使用的任何编码智能体，最好是 Codex 或 Claude Code，然后我们要创建我们的 Codo 账号。"
+ },
+ {
+  "seg": 132,
+  "start": 822.121,
+  "end": 824.702,
+  "speaker": "Unknown",
+  "en": "Okay, so here are the setup instructions.",
+  "zh": "好的，以下是设置说明。"
+ },
+ {
+  "seg": 133,
+  "start": 824.742,
+  "end": 829.383,
+  "speaker": "Unknown",
+  "en": "I'll let you all do that, and we're going to sign in to the Codo app.",
+  "zh": "我会让大家自己去做，我们要登录 Codo 应用。"
+ },
+ {
+  "seg": 134,
+  "start": 830.503,
+  "end": 831.244,
+  "speaker": "Unknown",
+  "en": "This is app.",
+  "zh": "这是 app。"
+ },
+ {
+  "seg": 135,
+  "start": 832.773,
+  "end": 836.035,
+  "speaker": "Unknown",
+  "en": "app.kodo.ai, and that's it.",
+  "zh": "app.kodo.ai，就是这样。"
+ },
+ {
+  "seg": 136,
+  "start": 836.215,
+  "end": 843.159,
+  "speaker": "Unknown",
+  "en": "If you can sign in here, you'll be able to get set up to connect the GitHub application to the forked repository.",
+  "zh": "如果你在这里能登录，你就可以完成设置，把 GitHub 应用连接到 fork 的仓库。"
+ },
+ {
+  "seg": 137,
+  "start": 843.82,
+  "end": 845.781,
+  "speaker": "Unknown",
+  "en": "So app.kodo.ai.",
+  "zh": "所以是 app.kodo.ai。"
+ },
+ {
+  "seg": 138,
+  "start": 847.902,
+  "end": 849.543,
+  "speaker": "Unknown",
+  "en": "Who here has a Kodo account already?",
+  "zh": "在座谁已经有 Kodo 账号了？"
+ },
+ {
+  "seg": 139,
+  "start": 849.563,
+  "end": 850.944,
+  "speaker": "Unknown",
+  "en": "Does anyone?",
+  "zh": "有人吗？"
+ },
+ {
+  "seg": 140,
+  "start": 851.684,
+  "end": 852.985,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 141,
+  "start": 853.365,
+  "end": 856.967,
+  "speaker": "Unknown",
+  "en": "So yeah, sign in and sign in using your GitHub email.",
+  "zh": "那么是的，登录，用你的 GitHub 邮箱登录。"
+ },
+ {
+  "seg": 142,
+  "start": 856.987,
+  "end": 858.328,
+  "speaker": "Unknown",
+  "en": "I think that's the easiest way.",
+  "zh": "我觉得那是最简单的方式。"
+ },
+ {
+  "seg": 143,
+  "start": 858.963,
+  "end": 876.557,
+  "speaker": "Unknown",
+  "en": "And you will be able to, you'll land, let's see, here at the integrations page or the home page, and you'll need to add a connection, which will be the GitHub Cloud connection, and it'll take you through the installation guide.",
+  "zh": "然后你就可以——你看，在这里 landing 到集成页面或主页，你需要添加一个连接，也就是 GitHub Cloud 连接，它会带你走一遍安装指南。"
+ },
+ {
+  "seg": 144,
+  "start": 876.997,
+  "end": 881.801,
+  "speaker": "Unknown",
+  "en": "I recommend not connecting all of your repositories, just the forked repo.",
+  "zh": "我建议不要连接你所有的仓库，只连接 fork 出来的那个仓库。"
+ },
+ {
+  "seg": 145,
+  "start": 881.861,
+  "end": 885.584,
+  "speaker": "Unknown",
+  "en": "It should be listed under there, but let me know if it's not.",
+  "zh": "它应该会列在那里，但如果没列出请告诉我。"
+ },
+ {
+  "seg": 146,
+  "start": 886.484,
+  "end": 888.406,
+  "speaker": "Unknown",
+  "en": "So if I click on GitHub,",
+  "zh": "所以如果我点击 GitHub，"
+ },
+ {
+  "seg": 147,
+  "start": 888.83,
+  "end": 891.552,
+  "speaker": "Unknown",
+  "en": "And the installation guide, connect your organization.",
+  "zh": "还有安装指南，连接你的组织。"
+ },
+ {
+  "seg": 148,
+  "start": 891.572,
+  "end": 897.758,
+  "speaker": "Unknown",
+  "en": "I'm already connected, but it should be listed right here for you to add.",
+  "zh": "我已经连接了，但它应该会列在这里供你添加。"
+ },
+ {
+  "seg": 149,
+  "start": 899.973,
+  "end": 909.416,
+  "speaker": "Unknown",
+  "en": "This is just an example, like we're using Codo as an example of whether you use Codo or not, you'll want skills and rules to live somewhere.",
+  "zh": "这只是一个示例，就像我们把 Codo 作为一个示例一样——不管你用不用 Codo，你都会希望技能和规则存放在某个地方。"
+ },
+ {
+  "seg": 150,
+  "start": 909.856,
+  "end": 919.118,
+  "speaker": "Unknown",
+  "en": "Ideally, if you're working on a team, it's gonna be outside of your local repo unless you have a good use case for containing them in that repo and it's like hidden or something.",
+  "zh": "理想情况下，如果你在一个团队里工作，它应该在你本地仓库之外，除非你有一个很好的用例需要把它们包含在那个仓库里，比如隐藏起来之类的。"
+ },
+ {
+  "seg": 151,
+  "start": 919.658,
+  "end": 924.24,
+  "speaker": "Unknown",
+  "en": "If not, there are a few context management layers that are out there.",
+  "zh": "如果不是，外面有一些上下文管理层可用。"
+ },
+ {
+  "seg": 152,
+  "start": 924.26,
+  "end": 926,
+  "speaker": "Unknown",
+  "en": "I think Unblocked is one of them.",
+  "zh": "我觉得 Unblocked 就是其中之一。"
+ },
+ {
+  "seg": 153,
+  "start": 926.578,
+  "end": 934.859,
+  "speaker": "Unknown",
+  "en": "And it's just a separate place for you to manage that context at all times that you should be able to pull down wherever you are.",
+  "zh": "它只是一个独立的地方，让你随时管理那些上下文，你应该能够在任何地方把它拉下来。"
+ },
+ {
+  "seg": 154,
+  "start": 935.179,
+  "end": 935.9,
+  "speaker": "Unknown",
+  "en": "Does that make sense?",
+  "zh": "这样讲有意义吗？"
+ },
+ {
+  "seg": 155,
+  "start": 939.98,
+  "end": 942.401,
+  "speaker": "Unknown",
+  "en": "And us using Kodo is just an example.",
+  "zh": "我们使用 Kodo 只是一个例子。"
+ },
+ {
+  "seg": 156,
+  "start": 944.741,
+  "end": 955.563,
+  "speaker": "Unknown",
+  "en": "Okay, when you've signed into the Kodo portal, you've connected GitHub to your fork, then you'll need to generate an API key from the Kodo portal, and you can do that down here.",
+  "zh": "好的，当你登录 Kodo 门户后，把 GitHub 连接到你的 fork，然后你需要从 Kodo 门户生成一个 API key，你可以在这里下面操作。"
+ },
+ {
+  "seg": 157,
+  "start": 956.85,
+  "end": 963.374,
+  "speaker": "Unknown",
+  "en": "by clicking on API keys on your profile and create an API key and name it.",
+  "zh": "点击你个人资料里的 API keys，创建一个 API key 并给它命名。"
+ },
+ {
+  "seg": 158,
+  "start": 966.676,
+  "end": 980.685,
+  "speaker": "Unknown",
+  "en": "You'll probably want to save this API key somewhere locally so that you can then add it to .kodo.forward slash config.json.",
+  "zh": "你可能想把这个 API key 保存到本地某个地方，这样你就可以把它添加到 .kodo.forward slash config.json。"
+ },
+ {
+  "seg": 159,
+  "start": 981.266,
+  "end": 983.107,
+  "speaker": "Unknown",
+  "en": "So generate the API key first",
+  "zh": "所以先生成 API key"
+ },
+ {
+  "seg": 160,
+  "start": 983.633,
+  "end": 989.876,
+  "speaker": "Unknown",
+  "en": "And then you'll want to save that through this JSON structure.",
+  "zh": "然后你要通过这个 JSON 结构来保存它。"
+ },
+ {
+  "seg": 161,
+  "start": 990.617,
+  "end": 995.059,
+  "speaker": "Unknown",
+  "en": "And again, if you have access to the repo, you can have your coding agent do all of this for you.",
+  "zh": "再说一次，如果你有仓库的访问权限，你可以让你的编码智能体帮你完成所有这些。"
+ },
+ {
+  "seg": 162,
+  "start": 997.921,
+  "end": 999.642,
+  "speaker": "Unknown",
+  "en": "We also have Kodo skills.",
+  "zh": "我们还有 Kodo skills。"
+ },
+ {
+  "seg": 163,
+  "start": 1000.102,
+  "end": 1007.586,
+  "speaker": "Unknown",
+  "en": "You can use npx skills add kodo-ai forward slash kodo skills forward slash skills.",
+  "zh": "你可以用 npx skills add kodo-ai forward slash kodo skills forward slash skills。"
+ },
+ {
+  "seg": 164,
+  "start": 1008.326,
+  "end": 1013.069,
+  "speaker": "Unknown",
+  "en": "If you don't want to use it, the skills are already local in the repo.",
+  "zh": "如果你不想用它，skills 已经在仓库本地了。"
+ },
+ {
+  "seg": 165,
+  "start": 1015.763,
+  "end": 1022.126,
+  "speaker": "Unknown",
+  "en": "Okay, this is the task that we're gonna work on, a payment workflow safety process.",
+  "zh": "好的，这就是我们要做的任务，一个支付工作流安全流程。"
+ },
+ {
+  "seg": 166,
+  "start": 1022.567,
+  "end": 1025.208,
+  "speaker": "Unknown",
+  "en": "The task is to add one small payment workflow.",
+  "zh": "任务是添加一个小型支付工作流。"
+ },
+ {
+  "seg": 167,
+  "start": 1025.268,
+  "end": 1030.071,
+  "speaker": "Unknown",
+  "en": "It's going to be either a refund workflow or a capture retry handling workflow.",
+  "zh": "它要么是一个退款工作流，要么是一个 capture retry 处理工作流。"
+ },
+ {
+  "seg": 168,
+  "start": 1030.431,
+  "end": 1044.078,
+  "speaker": "Unknown",
+  "en": "You can choose which one you want, but this is an intentionally small change, right, with some potential risks kind of built into the code, or it's a sensitive aspect of this payments API.",
+  "zh": "你可以选一个你想做的，但这是一个刻意做小的改动，对吧，代码里内置了一些潜在风险，或者说这是这个 payments API 的一个敏感部分。"
+ },
+ {
+  "seg": 169,
+  "start": 1044.959,
+  "end": 1053.701,
+  "speaker": "Unknown",
+  "en": "And payment mutations are where a lot of AI-generated code can look like plausibly correct but can introduce some issues.",
+  "zh": "而支付变更操作正是很多 AI 生成的代码可能看起来合理正确、但可能引入一些问题的地方。"
+ },
+ {
+  "seg": 170,
+  "start": 1053.741,
+  "end": 1056.302,
+  "speaker": "Unknown",
+  "en": "So I think it's a perfect example for us to walk through.",
+  "zh": "所以我觉得这是我们走一遍流程的完美例子。"
+ },
+ {
+  "seg": 171,
+  "start": 1059.103,
+  "end": 1071.426,
+  "speaker": "Unknown",
+  "en": "And yeah, we're just going to use this, all of this text really, we're gonna have our coding agent use all of this to do either one of these tasks, refund workflow or capture retry handling.",
+  "zh": "然后，我们就是要用这些，真的所有这些文字，让我们的编码智能体用所有这些来完成这两个任务之一，退款工作流或 capture retry 处理。"
+ },
+ {
+  "seg": 172,
+  "start": 1076.708,
+  "end": 1080.191,
+  "speaker": "Unknown",
+  "en": "And here is where you can copy-paste the agent prompts to get started.",
+  "zh": "这里就是你可以复制粘贴智能体提示词来开始的地方。"
+ },
+ {
+  "seg": 173,
+  "start": 1080.732,
+  "end": 1083.454,
+  "speaker": "Unknown",
+  "en": "First, it's like, help me configure this repo for the workshop.",
+  "zh": "第一个，比如，帮我为这个 workshop 配置这个仓库。"
+ },
+ {
+  "seg": 174,
+  "start": 1083.554,
+  "end": 1086.697,
+  "speaker": "Unknown",
+  "en": "I have a Kodo API key from the portal if you're using that.",
+  "zh": "如果你用那个的话，我有一个来自门户的 Kodo API key。"
+ },
+ {
+  "seg": 175,
+  "start": 1087.198,
+  "end": 1090.1,
+  "speaker": "Unknown",
+  "en": "And then here are the requirements for getting set up locally.",
+  "zh": "然后这里是本地搭建环境的要求。"
+ },
+ {
+  "seg": 176,
+  "start": 1091.362,
+  "end": 1102.692,
+  "speaker": "Unknown",
+  "en": "I am going to, since I already have this part, I'm just going to copy and paste, install or verify Kodo skills, read agents.md and rules.",
+  "zh": "我打算，既然我已经有了这部分，我就直接复制粘贴，安装或验证 Kodo skills，阅读 agents.md 和 rules。"
+ },
+ {
+  "seg": 177,
+  "start": 1103.095,
+  "end": 1107.736,
+  "speaker": "Unknown",
+  "en": "And select the relevant repo local rule IDs for this hands-on task.",
+  "zh": "并为这个动手任务选择相关的 repo local rule ID。"
+ },
+ {
+  "seg": 178,
+  "start": 1109.356,
+  "end": 1112.477,
+  "speaker": "Unknown",
+  "en": "And I'm doing that in Codex.",
+  "zh": "我是在 Codex 里做的。"
+ },
+ {
+  "seg": 179,
+  "start": 1113.037,
+  "end": 1113.997,
+  "speaker": "Unknown",
+  "en": "I wish I could.",
+  "zh": "我真希望能那样。"
+ },
+ {
+  "seg": 180,
+  "start": 1114.938,
+  "end": 1115.358,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "让我们看看。"
+ },
+ {
+  "seg": 181,
+  "start": 1118.479,
+  "end": 1129.221,
+  "speaker": "Unknown",
+  "en": "So I'm in the project, and I'm just copying and pasting, getting my agent really ready to start working on this project, giving it that context that it needs.",
+  "zh": "所以我在项目里，我就在复制粘贴，让我的智能体真正准备好开始做这个项目，给它需要的那些上下文。"
+ },
+ {
+  "seg": 182,
+  "start": 1135.723,
+  "end": 1142.328,
+  "speaker": "Unknown",
+  "en": "And raise your hand if you have any questions of where we're at at this point, or if you want me to slow down or go back.",
+  "zh": "如果你对目前进行到哪里有任何疑问，或者你想让我放慢速度或退回去，请举手。"
+ },
+ {
+  "seg": 183,
+  "start": 1148.712,
+  "end": 1149.032,
+  "speaker": "Unknown",
+  "en": "Right here?",
+  "zh": "就在这里？"
+ },
+ {
+  "seg": 184,
+  "start": 1150.913,
+  "end": 1152.735,
+  "speaker": "Unknown",
+  "en": "Install or verify Kodo skills.",
+  "zh": "安装或验证 Kodo skills。"
+ },
+ {
+  "seg": 185,
+  "start": 1153.115,
+  "end": 1156.157,
+  "speaker": "Unknown",
+  "en": "We're reading the agents.md file and the rules.",
+  "zh": "我们正在读 agents.md 文件和 rules。"
+ },
+ {
+  "seg": 186,
+  "start": 1156.757,
+  "end": 1160.44,
+  "speaker": "Unknown",
+  "en": "And then we are asking it to take a look at the repo rules.",
+  "zh": "然后我们让它看一看 repo rules。"
+ },
+ {
+  "seg": 187,
+  "start": 1161.28,
+  "end": 1169.807,
+  "speaker": "Unknown",
+  "en": "for the hands-on tasks that we're about to implement and explain why each of these rules will be relevant for the upcoming task.",
+  "zh": "针对我们即将实现的动手任务，并解释为什么这些规则每一条都与接下来的任务相关。"
+ },
+ {
+  "seg": 188,
+  "start": 1171.228,
+  "end": 1178.454,
+  "speaker": "Unknown",
+  "en": "And then I have optionally compare those rules with Kodo get rules if those skills are available, if you want to download the skills.",
+  "zh": "然后我有一个可选项，用 Kodo get rules 比较那些规则，如果那些 skills 可用的话，如果你想下载这些 skills。"
+ },
+ {
+  "seg": 189,
+  "start": 1182.778,
+  "end": 1184.239,
+  "speaker": "Unknown",
+  "en": "Okay, let's see, what is it saying?",
+  "zh": "好的，让我们看看，它在说什么？"
+ },
+ {
+  "seg": 190,
+  "start": 1184.659,
+  "end": 1190.444,
+  "speaker": "Unknown",
+  "en": "I'll ground this in the repo's own instructions first and verify the local Kodo setup and dependency health",
+  "zh": "我会先以仓库自身的说明为依据，验证本地的 Kodo 设置和依赖健康状况"
+ },
+ {
+  "seg": 191,
+  "start": 1190.937,
+  "end": 1192.738,
+  "speaker": "Unknown",
+  "en": "before selecting the rules.",
+  "zh": "然后再选择规则。"
+ },
+ {
+  "seg": 192,
+  "start": 1193.879,
+  "end": 1208.307,
+  "speaker": "Unknown",
+  "en": "Okay, it found, it's aware that we're inside the workshop project, and it has also identified that I have the code of skills.",
+  "zh": "好的，它发现了，它知道我们在 workshop 项目里，而且它还识别出我有 code of skills。"
+ },
+ {
+  "seg": 193,
+  "start": 1211.849,
+  "end": 1216.671,
+  "speaker": "Unknown",
+  "en": "Oh, the repo local workshop skills are not installed yet, so I'm gonna run the repos installer,",
+  "zh": "哦，repo local workshop skills 还没安装，所以我要运行仓库的安装器，"
+ },
+ {
+  "seg": 194,
+  "start": 1218.678,
+  "end": 1222.6,
+  "speaker": "Unknown",
+  "en": "Only copies committed local skill folders into the agent skills directory.",
+  "zh": "只把已提交的本地 skill 文件夹复制到 agent skills 目录。"
+ },
+ {
+  "seg": 195,
+  "start": 1222.66,
+  "end": 1223.261,
+  "speaker": "Unknown",
+  "en": "Okay, great.",
+  "zh": "好的，很好。"
+ },
+ {
+  "seg": 196,
+  "start": 1223.301,
+  "end": 1225.862,
+  "speaker": "Unknown",
+  "en": "So it's gonna process the local skills that we have.",
+  "zh": "所以它会处理我们已有的本地 skills。"
+ },
+ {
+  "seg": 197,
+  "start": 1228.204,
+  "end": 1229.785,
+  "speaker": "Unknown",
+  "en": "And I'm gonna let that run.",
+  "zh": "我会让它跑着。"
+ },
+ {
+  "seg": 198,
+  "start": 1230.565,
+  "end": 1233.967,
+  "speaker": "Unknown",
+  "en": "I'll go back up to where we are at.",
+  "zh": "我回到我们刚才的地方。"
+ },
+ {
+  "seg": 199,
+  "start": 1234.127,
+  "end": 1235.348,
+  "speaker": "Unknown",
+  "en": "It's the setup prompt.",
+  "zh": "这是 setup prompt。"
+ },
+ {
+  "seg": 200,
+  "start": 1244.894,
+  "end": 1246.395,
+  "speaker": "Unknown",
+  "en": "Let's see if it's made progress.",
+  "zh": "我们来看看它有没有进展。"
+ },
+ {
+  "seg": 201,
+  "start": 1247.477,
+  "end": 1253.419,
+  "speaker": "Unknown",
+  "en": "After we are clear with the agents and they're good to go, then we're gonna switch into plan mode.",
+  "zh": "在我们明确智能体的任务并确认它们准备就绪之后，我们就会切换到计划模式。"
+ },
+ {
+  "seg": 202,
+  "start": 1253.879,
+  "end": 1268.803,
+  "speaker": "Unknown",
+  "en": "And so for this planning mode, we're saying use the repo local workshop planning skill to turn the hands-on task in the README into a high-level implementation plan and a build session execution plan.",
+  "zh": "所以在这个计划模式里，我们要求它使用仓库本地的 workshop 计划技能，把 README 里的动手任务转化为一个高层次的实现计划和一个构建会话执行计划。"
+ },
+ {
+  "seg": 203,
+  "start": 1270.12,
+  "end": 1278.043,
+  "speaker": "Unknown",
+  "en": "And then we wanted to read agents, read the rules, and use any relevant skills to determine what are the constraints.",
+  "zh": "然后我们要求智能体阅读规则，并使用任何相关技能来确定约束条件是什么。"
+ },
+ {
+  "seg": 204,
+  "start": 1279.124,
+  "end": 1292.409,
+  "speaker": "Unknown",
+  "en": "And this plan must include an implementation skill handoff, and that names the first implementation skill and the test-driven development prompt that it's going to be chained to and run next.",
+  "zh": "而且这个计划必须包含一个实现技能交接，其中指明第一个实现技能，以及接下来要串联运行的测试驱动开发提示词。"
+ },
+ {
+  "seg": 205,
+  "start": 1293.53,
+  "end": 1294.73,
+  "speaker": "Unknown",
+  "en": "Do not write the code yet.",
+  "zh": "先不要写代码。"
+ },
+ {
+  "seg": 206,
+  "start": 1295.11,
+  "end": 1298.872,
+  "speaker": "Unknown",
+  "en": "I'm a big fan of plan mode, but if you don't want to use plan mode, it still has",
+  "zh": "我是计划模式的忠实粉丝，但如果你不想用计划模式，它仍然有"
+ },
+ {
+  "seg": 207,
+  "start": 1299.3,
+  "end": 1304.643,
+  "speaker": "Unknown",
+  "en": "This prompt to make sure that you're not gonna implement anything.",
+  "zh": "这个提示词来确保你不会实现任何东西。"
+ },
+ {
+  "seg": 208,
+  "start": 1306.584,
+  "end": 1307.985,
+  "speaker": "Unknown",
+  "en": "It is taking a while.",
+  "zh": "这需要一点时间。"
+ },
+ {
+  "seg": 209,
+  "start": 1309.806,
+  "end": 1312.247,
+  "speaker": "Unknown",
+  "en": "Well, that's because I have all the verification stuff set up.",
+  "zh": "嗯，那是因为我把所有验证相关的东西都设置好了。"
+ },
+ {
+  "seg": 210,
+  "start": 1314.868,
+  "end": 1315.409,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 211,
+  "start": 1318.971,
+  "end": 1319.631,
+  "speaker": "Unknown",
+  "en": "Let's see.",
+  "zh": "我们看看。"
+ },
+ {
+  "seg": 212,
+  "start": 1335.29,
+  "end": 1341.295,
+  "speaker": "Unknown",
+  "en": "All right, okay, it's taking a while to do this.",
+  "zh": "好吧，好吧，这确实需要一点时间。"
+ },
+ {
+  "seg": 213,
+  "start": 1349.221,
+  "end": 1351.022,
+  "speaker": "Unknown",
+  "en": "I'm probably gonna do the capture retry.",
+  "zh": "我大概会做捕获重试。"
+ },
+ {
+  "seg": 214,
+  "start": 1354.625,
+  "end": 1355.146,
+  "speaker": "Unknown",
+  "en": "What about you?",
+  "zh": "你呢？"
+ },
+ {
+  "seg": 215,
+  "start": 1355.166,
+  "end": 1357.788,
+  "speaker": "Unknown",
+  "en": "It should prompt you and ask you.",
+  "zh": "它应该会提示你并询问你。"
+ },
+ {
+  "seg": 216,
+  "start": 1363.769,
+  "end": 1368.991,
+  "speaker": "Unknown",
+  "en": "And if not, then you can make that clear as a part of the prompt.",
+  "zh": "如果没有，那你可以在提示词中把这一点说清楚。"
+ },
+ {
+  "seg": 217,
+  "start": 1371.532,
+  "end": 1372.912,
+  "speaker": "Unknown",
+  "en": "And what point are you at now?",
+  "zh": "你现在进行到哪一步了？"
+ },
+ {
+  "seg": 218,
+  "start": 1374.873,
+  "end": 1376.554,
+  "speaker": "Unknown",
+  "en": "Okay, awesome.",
+  "zh": "好的，太棒了。"
+ },
+ {
+  "seg": 219,
+  "start": 1378.074,
+  "end": 1379.214,
+  "speaker": "Unknown",
+  "en": "Okay, finally, it's done.",
+  "zh": "好了，终于完成了。"
+ },
+ {
+  "seg": 220,
+  "start": 1379.715,
+  "end": 1381.795,
+  "speaker": "Unknown",
+  "en": "Verified the repo instructions.",
+  "zh": "它验证了仓库的指令。"
+ },
+ {
+  "seg": 221,
+  "start": 1382.696,
+  "end": 1388.338,
+  "speaker": "Unknown",
+  "en": "It ran the install skills instructions or command.",
+  "zh": "它运行了安装技能的指令或者说命令。"
+ },
+ {
+  "seg": 222,
+  "start": 1389.538,
+  "end": 1391.759,
+  "speaker": "Unknown",
+  "en": "All of the local skills are now pulled down",
+  "zh": "所有本地技能现在都已经拉取下来了"
+ },
+ {
+  "seg": 223,
+  "start": 1392.71,
+  "end": 1397.412,
+  "speaker": "Unknown",
+  "en": "And here are the selected repo local rules for this payment workflow task.",
+  "zh": "这里是针对这个支付工作流任务所选定的仓库本地规则。"
+ },
+ {
+  "seg": 224,
+  "start": 1401.374,
+  "end": 1406.736,
+  "speaker": "Unknown",
+  "en": "So these are all the rules that are going to be considered as a part of this process.",
+  "zh": "所以这些就是会在这个流程中被考虑的所有规则。"
+ },
+ {
+  "seg": 225,
+  "start": 1409.417,
+  "end": 1412.439,
+  "speaker": "Unknown",
+  "en": "You know, maybe I'll do the refund workflow with you as well.",
+  "zh": "你知道吗，也许我也可以跟你一起做退款工作流。"
+ },
+ {
+  "seg": 226,
+  "start": 1413.379,
+  "end": 1416.681,
+  "speaker": "Unknown",
+  "en": "I'm gonna copy and paste the planning prompt and switch into plan mode.",
+  "zh": "我要复制粘贴这个计划提示词，然后切换到计划模式。"
+ },
+ {
+  "seg": 227,
+  "start": 1424.192,
+  "end": 1428.876,
+  "speaker": "Unknown",
+  "en": "It should ask me, but I will say I will work on the refund.",
+  "zh": "它应该会问我，但我会说我要做退款。"
+ },
+ {
+  "seg": 228,
+  "start": 1429.978,
+  "end": 1430.438,
+  "speaker": "Unknown",
+  "en": "What was it?",
+  "zh": "刚才那个是什么来着？"
+ },
+ {
+  "seg": 229,
+  "start": 1431.799,
+  "end": 1433.421,
+  "speaker": "Unknown",
+  "en": "What is it called, the refund?",
+  "zh": "它叫什么，退款？"
+ },
+ {
+  "seg": 230,
+  "start": 1439.507,
+  "end": 1440.027,
+  "speaker": "Unknown",
+  "en": "Here we go.",
+  "zh": "找到了。"
+ },
+ {
+  "seg": 231,
+  "start": 1440.708,
+  "end": 1441.729,
+  "speaker": "Unknown",
+  "en": "The refund workflow.",
+  "zh": "退款工作流。"
+ },
+ {
+  "seg": 232,
+  "start": 1445.392,
+  "end": 1445.692,
+  "speaker": "Unknown",
+  "en": "Plan.",
+  "zh": "计划。"
+ },
+ {
+  "seg": 233,
+  "start": 1465.232,
+  "end": 1466.232,
+  "speaker": "Unknown",
+  "en": "Okay, let's see.",
+  "zh": "好，我们看看。"
+ },
+ {
+  "seg": 234,
+  "start": 1466.772,
+  "end": 1477.316,
+  "speaker": "Unknown",
+  "en": "So I'm gonna use the repo local workshop plan from task skill and the payment idempotency skill and then ground the plan in agents.md, readme, and the rules.",
+  "zh": "所以我要使用仓库本地的 workshop 计划任务技能和支付幂等性技能，然后以 agents.md、readme 和规则作为计划的依据。"
+ },
+ {
+  "seg": 235,
+  "start": 1477.816,
+  "end": 1479.316,
+  "speaker": "Unknown",
+  "en": "I'll only read and inspect files.",
+  "zh": "我只会读取和查看文件。"
+ },
+ {
+  "seg": 236,
+  "start": 1479.416,
+  "end": 1483.198,
+  "speaker": "Unknown",
+  "en": "No code or plan files will be written in this particular mode.",
+  "zh": "在这个特定模式下不会写任何代码或计划文件。"
+ },
+ {
+  "seg": 237,
+  "start": 1488.779,
+  "end": 1490.98,
+  "speaker": "Unknown",
+  "en": "So now Codex is assessing",
+  "zh": "所以现在 Codex 正在评估"
+ },
+ {
+  "seg": 238,
+  "start": 1491.571,
+  "end": 1500.459,
+  "speaker": "Unknown",
+  "en": "The current behavior of the app, we obviously, we don't have this implemented, but it's determining, okay, what needs to be done?",
+  "zh": "这个应用的当前行为，显然，我们还没有实现这个功能，但它正在判断，好，需要做些什么？"
+ },
+ {
+  "seg": 239,
+  "start": 1500.939,
+  "end": 1504.602,
+  "speaker": "Unknown",
+  "en": "What would take, what would be the shape of the code change that needs to take place?",
+  "zh": "需要进行的代码改动会是什么样的形态？"
+ },
+ {
+  "seg": 240,
+  "start": 1505.123,
+  "end": 1513.75,
+  "speaker": "Unknown",
+  "en": "This is, I should probably dig into the templates actually right now as Codo is working so that you can see what the planning templates look like.",
+  "zh": "这个时候，我应该在 Codex 工作的同时深入讲一下模板，好让大家看看这些计划模板长什么样。"
+ },
+ {
+  "seg": 241,
+  "start": 1516.715,
+  "end": 1520.636,
+  "speaker": "Unknown",
+  "en": "So here are the planning templates.",
+  "zh": "这些就是计划模板。"
+ },
+ {
+  "seg": 242,
+  "start": 1520.656,
+  "end": 1529.578,
+  "speaker": "Unknown",
+  "en": "I truly believe that this is a really important artifact to be able to take with you if you're not already using a structured template.",
+  "zh": "我真心相信，如果你还没有在使用结构化模板的话，这是一个非常重要的、值得带走的产物。"
+ },
+ {
+  "seg": 243,
+  "start": 1530.678,
+  "end": 1545.041,
+  "speaker": "Unknown",
+  "en": "I think that a plan should answer what behavior are we changing, which rules apply, what skills would guide the agent, which tests prove the expected behavior, and what kind of quality gauge should pass before we review.",
+  "zh": "我认为一份计划应该回答：我们在改变什么行为，哪些规则适用，哪些技能可以指导智能体，哪些测试能证明预期行为，以及在评审之前应该通过什么样的质量门槛。"
+ },
+ {
+  "seg": 244,
+  "start": 1546.918,
+  "end": 1552.081,
+  "speaker": "Unknown",
+  "en": "And it starts with a template for a high-level plan and then a build session execution plan.",
+  "zh": "它从一个高层次计划的模板开始，然后是构建会话执行计划。"
+ },
+ {
+  "seg": 245,
+  "start": 1552.801,
+  "end": 1557.124,
+  "speaker": "Unknown",
+  "en": "And for this workshop, this is what we would expect it to look somewhat like.",
+  "zh": "而对于这个 workshop，这就是我们期望它大致呈现的样子。"
+ },
+ {
+  "seg": 246,
+  "start": 1562.266,
+  "end": 1564.167,
+  "speaker": "Unknown",
+  "en": "And here are the templates.",
+  "zh": "这里是这些模板。"
+ },
+ {
+  "seg": 247,
+  "start": 1564.988,
+  "end": 1569.09,
+  "speaker": "Unknown",
+  "en": "We have a summary, the problem that we're solving,",
+  "zh": "我们有摘要，我们要解决的问题，"
+ },
+ {
+  "seg": 248,
+  "start": 1569.452,
+  "end": 1571.813,
+  "speaker": "Unknown",
+  "en": "Any particular constraints that we need to worry about.",
+  "zh": "我们需要担心的任何特定约束。"
+ },
+ {
+  "seg": 249,
+  "start": 1572.153,
+  "end": 1573.654,
+  "speaker": "Unknown",
+  "en": "And then we have skill routing.",
+  "zh": "然后我们有技能路由。"
+ },
+ {
+  "seg": 250,
+  "start": 1574.114,
+  "end": 1592.884,
+  "speaker": "Unknown",
+  "en": "This can be helpful if you need to plan ahead of all the skills that you would expect your coding agent during the implementation to start kicking off one by one, especially if you want to use some type of loops or like goals in Codex or Claude Code to work on your behalf without you stepping in.",
+  "zh": "如果你需要提前规划你期望编码智能体在实现过程中逐一启动的所有技能，这会很有帮助，尤其是当你想使用某种循环或在 Codex 或 Claude Code 中设置目标，让它们在没有你介入的情况下代你工作。"
+ },
+ {
+  "seg": 251,
+  "start": 1593.564,
+  "end": 1594.405,
+  "speaker": "Unknown",
+  "en": "And we have a scope.",
+  "zh": "然后我们有一个范围。"
+ },
+ {
+  "seg": 252,
+  "start": 1595.167,
+  "end": 1601.893,
+  "speaker": "Unknown",
+  "en": "Behavior scenarios and verification gates, failure and recovery rules, and a commit plan.",
+  "zh": "证明就在于我在一个大型 PR 中所更改的代码行数。"
+ },
+ {
+  "seg": 253,
+  "start": 1602.354,
+  "end": 1617.347,
+  "speaker": "Unknown",
+  "en": "This allows for a very structured process for your coding agents to work on very specific tasks, organize the code in a nice way that is presentable, make those commits in an organized way using conventional commits, and then",
+  "zh": "这为你的编码智能体提供了一个非常结构化的流程，让它们处理非常具体的任务，以整洁、可展示的方式组织代码，使用约定式提交以有条理的方式进行那些提交，然后"
+ },
+ {
+  "seg": 254,
+  "start": 1618.582,
+  "end": 1627.79,
+  "speaker": "Unknown",
+  "en": "Get to a point where you can actually submit a pull request and everything is organized the same way that one would working on a team back when we didn't have AI.",
+  "zh": "达到你能够实际提交一个 pull request 的程度，而且一切都像过去没有 AI 时在团队中工作那样井然有序。"
+ },
+ {
+  "seg": 255,
+  "start": 1633.194,
+  "end": 1635.876,
+  "speaker": "Unknown",
+  "en": "And then the build execution template.",
+  "zh": "然后是构建执行模板。"
+ },
+ {
+  "seg": 256,
+  "start": 1637.718,
+  "end": 1642.822,
+  "speaker": "Unknown",
+  "en": "What I've noticed is super helpful is having a documentation of the starting state.",
+  "zh": "我注意到超级有用的一点，是对起始状态进行文档化。"
+ },
+ {
+  "seg": 257,
+  "start": 1643.222,
+  "end": 1644.183,
+  "speaker": "Unknown",
+  "en": "What branch are we in?",
+  "zh": "我们现在在哪个分支？"
+ },
+ {
+  "seg": 258,
+  "start": 1645.223,
+  "end": 1648.126,
+  "speaker": "Unknown",
+  "en": "What is the current local verification process?",
+  "zh": "当前的本地验证流程是什么？"
+ },
+ {
+  "seg": 259,
+  "start": 1648.146,
+  "end": 1657.057,
+  "speaker": "Unknown",
+  "en": "Are there any commands that are expected to run to determine that this code passes or fails any of the expectations with linters?",
+  "zh": "是否有需要运行的命令，用来确定这段代码在 linter 的各项预期下是通过还是失败？"
+ },
+ {
+  "seg": 260,
+  "start": 1657.738,
+  "end": 1662.183,
+  "speaker": "Unknown",
+  "en": "And then, of course, this is the implementation skill handoff.",
+  "zh": "然后，当然，这就是实现技能交接。"
+ },
+ {
+  "seg": 261,
+  "start": 1662.862,
+  "end": 1665.464,
+  "speaker": "Unknown",
+  "en": "And execution steps.",
+  "zh": "以及执行步骤。"
+ },
+ {
+  "seg": 262,
+  "start": 1666.064,
+  "end": 1676.371,
+  "speaker": "Unknown",
+  "en": "I want to know that the agent knows every single step in this process of making the code change, and I want it to determine what the test plan is as well.",
+  "zh": "我想知道智能体了解修改代码这个过程中每一个步骤，我也希望它来确定测试计划是什么。"
+ },
+ {
+  "seg": 263,
+  "start": 1677.772,
+  "end": 1680.213,
+  "speaker": "Unknown",
+  "en": "And then it's definition of done or completion notes.",
+  "zh": "然后是完成的定义或完成说明。"
+ },
+ {
+  "seg": 264,
+  "start": 1680.534,
+  "end": 1685.257,
+  "speaker": "Unknown",
+  "en": "You need to make sure you've run all of the commands for this branch.",
+  "zh": "你需要确保已经为这个分支运行了所有命令。"
+ },
+ {
+  "seg": 265,
+  "start": 1685.557,
+  "end": 1690.32,
+  "speaker": "Unknown",
+  "en": "You need to make sure that you've identified what was deferred if you've changed your mind at some point.",
+  "zh": "你需要确保已经标明哪些内容被延后了，如果你在某个时刻改变了主意的话。"
+ },
+ {
+  "seg": 266,
+  "start": 1690.773,
+  "end": 1693.235,
+  "speaker": "Unknown",
+  "en": "Everything is documented in this plan.",
+  "zh": "一切都记录在这个计划中。"
+ },
+ {
+  "seg": 267,
+  "start": 1695.856,
+  "end": 1700.679,
+  "speaker": "Unknown",
+  "en": "And now we've got one, the refund workflow workshop plan.",
+  "zh": "现在，我们有了第一份，退款工作流研讨会计划。"
+ },
+ {
+  "seg": 268,
+  "start": 1701.159,
+  "end": 1702.24,
+  "speaker": "Unknown",
+  "en": "We've got our summary.",
+  "zh": "我们有了摘要。"
+ },
+ {
+  "seg": 269,
+  "start": 1702.64,
+  "end": 1709.604,
+  "speaker": "Unknown",
+  "en": "We have the repo rules that are associated, the high-level implementation plan, and the build session execution plan.",
+  "zh": "我们有了关联的仓库规则、高层次实现计划，以及构建会话执行计划。"
+ },
+ {
+  "seg": 270,
+  "start": 1713.327,
+  "end": 1714.988,
+  "speaker": "Unknown",
+  "en": "And also there's some assumptions here.",
+  "zh": "这里还有一些假设。"
+ },
+ {
+  "seg": 271,
+  "start": 1718.19,
+  "end": 1719.851,
+  "speaker": "Unknown",
+  "en": "Who here has arrived at this point?",
+  "zh": "在座有谁已经到达了这一步？"
+ },
+ {
+  "seg": 272,
+  "start": 1722.877,
+  "end": 1723.417,
+  "speaker": "Unknown",
+  "en": "Okay, cool.",
+  "zh": "好的，很棒。"
+ },
+ {
+  "seg": 273,
+  "start": 1723.938,
+  "end": 1727.34,
+  "speaker": "Unknown",
+  "en": "So, I'm gonna go ahead and implement this.",
+  "zh": "那么，我要开始实现这个了。"
+ },
+ {
+  "seg": 274,
+  "start": 1732.142,
+  "end": 1745.53,
+  "speaker": "Unknown",
+  "en": "And while this is happening, we can go to some of the slides.",
+  "zh": "在此进行期间，我们可以看几页幻灯片。"
+ },
+ {
+  "seg": 275,
+  "start": 1748.054,
+  "end": 1758.617,
+  "speaker": "Unknown",
+  "en": "So what I was saying about operationalizing context, planning, code gen, and code review, this is what I found to be incredibly helpful for consistency across the SDLC.",
+  "zh": "关于我之前说的将上下文、规划、代码生成和代码审查操作化，这就是我发现对整个 SDLC 保持一致性极其有用的东西。"
+ },
+ {
+  "seg": 276,
+  "start": 1759.137,
+  "end": 1765.279,
+  "speaker": "Unknown",
+  "en": "I use a combination of different agent skills, and it depends on the repos that I'm working in.",
+  "zh": "我使用不同智能体技能的组合，这取决于我所在的仓库。"
+ },
+ {
+  "seg": 277,
+  "start": 1765.299,
+  "end": 1768.86,
+  "speaker": "Unknown",
+  "en": "It depends on the programming languages and frameworks that I'm utilizing.",
+  "zh": "这取决于我所使用的编程语言和框架。"
+ },
+ {
+  "seg": 278,
+  "start": 1769.32,
+  "end": 1774.522,
+  "speaker": "Unknown",
+  "en": "But at a high level, and so you'll see some Python skills here at the top, like Python, Pydantic, PyWrite.",
+  "zh": "但在高层面上，你会看到顶部有一些 Python 技能，比如 Python、Pydantic、PyWrite。"
+ },
+ {
+  "seg": 279,
+  "start": 1774.832,
+  "end": 1777.774,
+  "speaker": "Unknown",
+  "en": "or Python typing contracts.",
+  "zh": "或者 Python 类型契约。"
+ },
+ {
+  "seg": 280,
+  "start": 1777.834,
+  "end": 1783.418,
+  "speaker": "Unknown",
+  "en": "A lot of these skills are available all over the internet or you can have your coding agent build it themselves.",
+  "zh": "这些技能中的很多都可以在互联网上各处找到，或者你可以让你的编码智能体自己构建它们。"
+ },
+ {
+  "seg": 281,
+  "start": 1783.878,
+  "end": 1788.061,
+  "speaker": "Unknown",
+  "en": "And there are some ones that I've gotten from some popular developers out there.",
+  "zh": "其中一些是我从外面一些知名开发者那里获得的。"
+ },
+ {
+  "seg": 282,
+  "start": 1789.538,
+  "end": 1794.681,
+  "speaker": "Unknown",
+  "en": "And those are ones from Aaron Francis are the audit skills.",
+  "zh": "来自 Aaron Francis 的是那些审计技能。"
+ },
+ {
+  "seg": 283,
+  "start": 1795.102,
+  "end": 1801.646,
+  "speaker": "Unknown",
+  "en": "There's audit boundaries, drift, audit names, audit abstractions, dead code, and auditing errors.",
+  "zh": "有 audit boundaries、drift、audit names、audit abstractions、dead code 和 auditing errors。"
+ },
+ {
+  "seg": 284,
+  "start": 1802.166,
+  "end": 1810.532,
+  "speaker": "Unknown",
+  "en": "I found that these are incredibly powerful for really simplifying and improving the quality of code during the implementation phase.",
+  "zh": "我发现这些技能对于在实现阶段真正简化和提升代码质量极其强大。"
+ },
+ {
+  "seg": 285,
+  "start": 1811.012,
+  "end": 1818.877,
+  "speaker": "Unknown",
+  "en": "I don't know if he has these publicly available, but if you can look these up or find them or have your coding agent create them yourselves,",
+  "zh": "我不知道他是否公开了这些，但如果你能查到或找到它们，或者让你的编码智能体自己创建它们，"
+ },
+ {
+  "seg": 286,
+  "start": 1819.328,
+  "end": 1823.369,
+  "speaker": "Unknown",
+  "en": "This is definitely a step forward in the right direction for quality.",
+  "zh": "这绝对是在质量方面朝正确方向迈出的一步。"
+ },
+ {
+  "seg": 287,
+  "start": 1826.29,
+  "end": 1829.111,
+  "speaker": "Unknown",
+  "en": "As I said, enforcing quality early and often.",
+  "zh": "正如我所说，尽早且经常地强制执行质量。"
+ },
+ {
+  "seg": 288,
+  "start": 1829.551,
+  "end": 1844.035,
+  "speaker": "Unknown",
+  "en": "So one of the values of using skills and the Codo Get rules here, this is about pulling down those rules from your context management layer and then determining which rules are gonna be relevant for the task.",
+  "zh": "使用技能和这里的 Codo Get 规则的价值之一在于，从你的上下文管理层拉取那些规则，然后确定哪些规则与任务相关。"
+ },
+ {
+  "seg": 289,
+  "start": 1845.271,
+  "end": 1848.833,
+  "speaker": "Unknown",
+  "en": "And then I believe in then running local code review workflows.",
+  "zh": "然后我信奉接着运行本地代码审查工作流。"
+ },
+ {
+  "seg": 290,
+  "start": 1849.333,
+  "end": 1867.683,
+  "speaker": "Unknown",
+  "en": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+  "zh": "我不在乎你用什么工具，如果是 Codex，如果是 Claude Code，它们内置的代码审查，如果你用的是 Codo，无论是什么，总是要运行一次本地代码审查，因为总有一些小的改动，你本可以在另一个开发者不得不查看你的代码之前更早地做出。"
+ },
+ {
+  "seg": 291,
+  "start": 1868.023,
+  "end": 1870.524,
+  "speaker": "Unknown",
+  "en": "And it's worth it to be able to address that sooner rather than later.",
+  "zh": "能够更早而不是更晚地解决这些问题是值得的。"
+ },
+ {
+  "seg": 292,
+  "start": 1872.882,
+  "end": 1875.863,
+  "speaker": "Unknown",
+  "en": "We're trying to mitigate issues popping up.",
+  "zh": "我们在尽量减少问题的涌现。"
+ },
+ {
+  "seg": 293,
+  "start": 1876.363,
+  "end": 1881.484,
+  "speaker": "Unknown",
+  "en": "And then we're running automated code review in CI or GitProvider, which is by default.",
+  "zh": "然后我们在 CI 或 GitProvider 中运行自动化代码审查，这是默认做法。"
+ },
+ {
+  "seg": 294,
+  "start": 1882.304,
+  "end": 1887.685,
+  "speaker": "Unknown",
+  "en": "And when I did this, I walked through this entire workflow for an open source tool that I'm building.",
+  "zh": "当我做这个的时候，我为一个我正在构建的开源工具走完了这整个工作流。"
+ },
+ {
+  "seg": 295,
+  "start": 1888.245,
+  "end": 1893.006,
+  "speaker": "Unknown",
+  "en": "And the proof was in the amount of lines that I changed in a large PR.",
+  "zh": "而证明就在于我在一个大 PR 中修改的代码行数。"
+ },
+ {
+  "seg": 296,
+  "start": 1893.026,
+  "end": 1899.027,
+  "speaker": "Unknown",
+  "en": "It was intentionally large because I wanted to test the quality of this actual workflow itself.",
+  "zh": "它是故意做得很大，因为我想测试这个工作流本身的质量。"
+ },
+ {
+  "seg": 297,
+  "start": 1899.625,
+  "end": 1907.611,
+  "speaker": "Unknown",
+  "en": "And only one bug was uncovered in over 1,900 lines of code using Codo for that automated code review.",
+  "zh": "而在使用 Codo 进行那次自动化代码审查的超过 1,900 行代码中，只发现了一个 bug。"
+ },
+ {
+  "seg": 298,
+  "start": 1908.011,
+  "end": 1911.753,
+  "speaker": "Unknown",
+  "en": "And it was one reliability bug which made a lot of sense.",
+  "zh": "而且那是一个可靠性 bug，这非常说得通。"
+ },
+ {
+  "seg": 299,
+  "start": 1912.714,
+  "end": 1918.038,
+  "speaker": "Unknown",
+  "en": "But this was a really good exercise for me to see that there was value in this process.",
+  "zh": "但这对我来说是一次非常好的练习，让我看到这个流程是有价值的。"
+ },
+ {
+  "seg": 300,
+  "start": 1928.681,
+  "end": 1945.305,
+  "speaker": "Unknown",
+  "en": "Yeah, so I wish I had like a graph I could show you of how I have like higher level, I have like planning templates that I'll use for like no matter what repo I'm in, here is the planned structure that I expect.",
+  "zh": "是的,我真希望我有一张图可以给你看,说明我如何有更高层面的——我有一些规划模板,不管我在哪个仓库里都会用,这就是我期望的计划结构。"
+ },
+ {
+  "seg": 301,
+  "start": 1945.665,
+  "end": 1950.526,
+  "speaker": "Unknown",
+  "en": "And then there's overall code quality like at the highest level like engineering standards.",
+  "zh": "然后还有整体的代码质量,在最顶层,比如工程标准。"
+ },
+ {
+  "seg": 302,
+  "start": 1951.443,
+  "end": 1980.527,
+  "speaker": "Unknown",
+  "en": "that are specific or that can apply to any programming language and then like below that it's okay all the repos that use Python here are all the skills for that and like you kind of have to decide what would be most relevant depending on your use case but the more general a skill is then the more access you need to have other many repos need to have to it.",
+  "zh": "这些标准是特定的,或者可以适用于任何编程语言;再往下就是,好,所有使用 Python 的仓库,这里是对应的全部技能,你需要根据你的用例来决定什么最相关,但一个技能越通用,就越需要有权限让更多仓库都能访问到它。"
+ },
+ {
+  "seg": 303,
+  "start": 1981.279,
+  "end": 1982.26,
+  "speaker": "Unknown",
+  "en": "Does that make sense?",
+  "zh": "这样说得通吗?"
+ },
+ {
+  "seg": 304,
+  "start": 1982.981,
+  "end": 1995.913,
+  "speaker": "Unknown",
+  "en": "Take a look at this, for example, let me make sure I'm scoping this just to my repos.",
+  "zh": "看一下这个,比如,让我确认一下我把它限定在我自己的仓库。"
+ },
+ {
+  "seg": 305,
+  "start": 1997.174,
+  "end": 1997.695,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦,好的。"
+ },
+ {
+  "seg": 306,
+  "start": 1998.78,
+  "end": 2000.041,
+  "speaker": "Unknown",
+  "en": "Okay, well, take a look at this.",
+  "zh": "好,那看看这个。"
+ },
+ {
+  "seg": 307,
+  "start": 2000.101,
+  "end": 2004.582,
+  "speaker": "Unknown",
+  "en": "We're in the Codo portal, and this is the rules section.",
+  "zh": "我们现在在 Codo 门户里,这是规则部分。"
+ },
+ {
+  "seg": 308,
+  "start": 2005.082,
+  "end": 2013.366,
+  "speaker": "Unknown",
+  "en": "So across multiple repos, there are rules that were inferred and ingested and saved here in the portal.",
+  "zh": "跨多个仓库,有一些规则被推断、摄取并保存到了这个门户里。"
+ },
+ {
+  "seg": 309,
+  "start": 2013.866,
+  "end": 2024.67,
+  "speaker": "Unknown",
+  "en": "And they are divided by, there's like a rule name in general, and like all the details that are generated here based off of the context from your repository.",
+  "zh": "它们是这样划分的,有一个总的规则名称,以及基于你仓库的上下文生成的所有细节。"
+ },
+ {
+  "seg": 310,
+  "start": 2024.983,
+  "end": 2026.564,
+  "speaker": "Unknown",
+  "en": "And then they're divided by categories.",
+  "zh": "然后它们按类别划分。"
+ },
+ {
+  "seg": 311,
+  "start": 2026.604,
+  "end": 2030.787,
+  "speaker": "Unknown",
+  "en": "There's accessibility, correctness, maintainability, architecture, security.",
+  "zh": "有可访问性、正确性、可维护性、架构、安全。"
+ },
+ {
+  "seg": 312,
+  "start": 2032.208,
+  "end": 2035.53,
+  "speaker": "Unknown",
+  "en": "And then they're also organized by level of severity.",
+  "zh": "然后它们也按严重程度来组织。"
+ },
+ {
+  "seg": 313,
+  "start": 2038.573,
+  "end": 2041.855,
+  "speaker": "Unknown",
+  "en": "Not every rule should be treated with the same level of severity.",
+  "zh": "不是每条规则都应该以同样的严重程度来对待。"
+ },
+ {
+  "seg": 314,
+  "start": 2041.875,
+  "end": 2044.957,
+  "speaker": "Unknown",
+  "en": "There are some rules that are strong enough to where you wanna block a merge.",
+  "zh": "有些规则足够强硬,以至于你会想要阻止合并。"
+ },
+ {
+  "seg": 315,
+  "start": 2045.317,
+  "end": 2051.902,
+  "speaker": "Unknown",
+  "en": "There are others that are just like, it's good practice, but this isn't something that would be detrimental if it were to get through.",
+  "zh": "还有一些规则只是说,这是好实践,但即使它被放过去了,也不会造成什么损害。"
+ },
+ {
+  "seg": 316,
+  "start": 2056.712,
+  "end": 2078.647,
+  "speaker": "Unknown",
+  "en": "These are some of the ways in which these rules can be categorized and I believe they can also be scoped to specific repos if you want to get granular or if you want Coda to infer that itself or whichever tool that you use, you can actually design that process yourself to scope those rules or skills so that they only apply",
+  "zh": "这些就是这些规则可以被归类的一些方式,我相信它们还可以被限定到特定的仓库,如果你想更细粒度,或者你想让 Coda 自己去推断,或者不管你用哪个工具,你其实可以自己设计这个流程来限定这些规则或技能,让它们只应用于"
+ },
+ {
+  "seg": 317,
+  "start": 2080.927,
+  "end": 2083.108,
+  "speaker": "Unknown",
+  "en": "to very specific repositories.",
+  "zh": "非常特定的仓库。"
+ },
+ {
+  "seg": 318,
+  "start": 2086.01,
+  "end": 2093.654,
+  "speaker": "Unknown",
+  "en": "Can you, what was that?",
+  "zh": "你能——那是什么?"
+ },
+ {
+  "seg": 319,
+  "start": 2093.674,
+  "end": 2095.335,
+  "speaker": "Unknown",
+  "en": "I don't think so.",
+  "zh": "我觉得不行。"
+ },
+ {
+  "seg": 320,
+  "start": 2095.715,
+  "end": 2103.14,
+  "speaker": "Unknown",
+  "en": "I think the only thing you can do is filter on that in this dashboard, but that's a really good question.",
+  "zh": "我觉得你唯一能做的就是在这个仪表盘里做筛选,但这是个很好的问题。"
+ },
+ {
+  "seg": 321,
+  "start": 2103.18,
+  "end": 2106.622,
+  "speaker": "Unknown",
+  "en": "I'll probably bring that back to the product team to verify.",
+  "zh": "我可能会把这个带回给产品团队去确认。"
+ },
+ {
+  "seg": 322,
+  "start": 2107.182,
+  "end": 2108.623,
+  "speaker": "Unknown",
+  "en": "But what brought up that idea?",
+  "zh": "不过是什么让你想到这个的?"
+ },
+ {
+  "seg": 323,
+  "start": 2121.375,
+  "end": 2122.355,
+  "speaker": "Unknown",
+  "en": "The repositories.",
+  "zh": "仓库。"
+ },
+ {
+  "seg": 324,
+  "start": 2123.656,
+  "end": 2123.916,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 325,
+  "start": 2124.417,
+  "end": 2132.322,
+  "speaker": "Unknown",
+  "en": "They're divided right now by org level and by repo level, naturally, or natively.",
+  "zh": "它们现在天然地或者说是原生地就按组织层级和仓库层级划分了。"
+ },
+ {
+  "seg": 326,
+  "start": 2136.605,
+  "end": 2137.446,
+  "speaker": "Unknown",
+  "en": "Those were good questions.",
+  "zh": "这些都是好问题。"
+ },
+ {
+  "seg": 327,
+  "start": 2137.486,
+  "end": 2137.686,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "是的?"
+ },
+ {
+  "seg": 328,
+  "start": 2143.564,
+  "end": 2143.844,
+  "speaker": "Unknown",
+  "en": "Yeah?",
+  "zh": "嗯?"
+ },
+ {
+  "seg": 329,
+  "start": 2144.944,
+  "end": 2157.108,
+  "speaker": "Unknown",
+  "en": "Could you talk a little bit about how .",
+  "zh": "你能不能稍微讲一下怎么……"
+ },
+ {
+  "seg": 330,
+  "start": 2180.019,
+  "end": 2181.901,
+  "speaker": "Unknown",
+  "en": "It can be, and so great question.",
+  "zh": "它可以,这是个好问题。"
+ },
+ {
+  "seg": 331,
+  "start": 2181.961,
+  "end": 2183.622,
+  "speaker": "Unknown",
+  "en": "How do rules become rules?",
+  "zh": "规则是怎么变成规则的?"
+ },
+ {
+  "seg": 332,
+  "start": 2183.662,
+  "end": 2187.406,
+  "speaker": "Unknown",
+  "en": "Like how does Coda determine what is a rule or what is it?",
+  "zh": "就是说 Coda 是怎么确定什么是规则的,或者它是什么?"
+ },
+ {
+  "seg": 333,
+  "start": 2187.446,
+  "end": 2188.867,
+  "speaker": "Unknown",
+  "en": "Because it seems very automated.",
+  "zh": "因为它看起来非常自动化。"
+ },
+ {
+  "seg": 334,
+  "start": 2189.335,
+  "end": 2194.036,
+  "speaker": "Unknown",
+  "en": "So it depends on how you've organized things already.",
+  "zh": "这取决于你原本是怎么组织的。"
+ },
+ {
+  "seg": 335,
+  "start": 2194.396,
+  "end": 2210.639,
+  "speaker": "Unknown",
+  "en": "If you have coding rules that are literally in a rules directory, it's gonna be very easy for Codo to be like, okay, every single one of the rules that I see here, I'm just going to copy and paste most of those contents and ingest it here into the portal.",
+  "zh": "如果你有一些编码规则就实实在在地放在一个 rules 目录里,那 Coda 会非常容易地说,好,我在这里看到的每一条规则,我就把其中的大部分内容复制粘贴过来,摄取到这个门户里。"
+ },
+ {
+  "seg": 336,
+  "start": 2211.099,
+  "end": 2215.94,
+  "speaker": "Unknown",
+  "en": "But there are some rules that will show up as suggestions.",
+  "zh": "但也有一些规则会以建议的形式出现。"
+ },
+ {
+  "seg": 337,
+  "start": 2217.061,
+  "end": 2224.493,
+  "speaker": "Unknown",
+  "en": "And this is specifically from reading or analyzing the actual code base.",
+  "zh": "这具体是来自于阅读或分析实际的代码库。"
+ },
+ {
+  "seg": 338,
+  "start": 2224.573,
+  "end": 2228.7,
+  "speaker": "Unknown",
+  "en": "So you might not have explicitly written these rules into your code,",
+  "zh": "所以你可能并没有把这些规则明确地写进你的代码,"
+ },
+ {
+  "seg": 339,
+  "start": 2229.183,
+  "end": 2234.364,
+  "speaker": "Unknown",
+  "en": "But these are the conventions that Codo has noticed based on analyzing the entire code base.",
+  "zh": "但这些是 Coda 通过分析整个代码库注意到的约定。"
+ },
+ {
+  "seg": 340,
+  "start": 2234.784,
+  "end": 2240.485,
+  "speaker": "Unknown",
+  "en": "It will not automatically create a rule for it, but it will come up as a suggestion for you to be able to review.",
+  "zh": "它不会自动为它创建规则,而是会作为建议出现,供你审阅。"
+ },
+ {
+  "seg": 341,
+  "start": 2241.546,
+  "end": 2243.086,
+  "speaker": "Unknown",
+  "en": "And this is what will be generated.",
+  "zh": "这就是会被生成的内容。"
+ },
+ {
+  "seg": 342,
+  "start": 2243.446,
+  "end": 2245.086,
+  "speaker": "Unknown",
+  "en": "You can edit all of this.",
+  "zh": "你可以编辑所有这些内容。"
+ },
+ {
+  "seg": 343,
+  "start": 2245.526,
+  "end": 2254.228,
+  "speaker": "Unknown",
+  "en": "There are examples of good code examples and bad code, just to make it very clear to AI agents what good and bad is.",
+  "zh": "有好代码示例和坏代码的示例,就是为了让 AI 智能体非常清楚什么是好的、什么是坏的。"
+ },
+ {
+  "seg": 344,
+  "start": 2254.708,
+  "end": 2258.309,
+  "speaker": "Unknown",
+  "en": "And then you can define the category and the warning levels.",
+  "zh": "然后你可以定义类别和警告等级。"
+ },
+ {
+  "seg": 345,
+  "start": 2258.807,
+  "end": 2266.491,
+  "speaker": "Unknown",
+  "en": "And then once you're happy with the way that this looks, you can then accept it and activate that rule and it'll automatically be applied.",
+  "zh": "一旦你对它的呈现满意了,你就可以接受它并激活那条规则,它就会自动被应用。"
+ },
+ {
+  "seg": 346,
+  "start": 2268.692,
+  "end": 2269.592,
+  "speaker": "Unknown",
+  "en": "Yes, keep going.",
+  "zh": "是的,继续。"
+ },
+ {
+  "seg": 347,
+  "start": 2287.509,
+  "end": 2289.591,
+  "speaker": "Unknown",
+  "en": "For Codo, it's, or...",
+  "zh": "对于 Coda 来说,它是……或者……"
+ },
+ {
+  "seg": 348,
+  "start": 2308.347,
+  "end": 2313.772,
+  "speaker": "Unknown",
+  "en": "I think for this, it's just pulling in the local repo rules that are",
+  "zh": "我认为对于这个,它只是拉取了本地的仓库规则,这些规则"
+ },
+ {
+  "seg": 349,
+  "start": 2314.68,
+  "end": 2319.942,
+  "speaker": "Unknown",
+  "en": "Most of them, if not all of them are associated with the different paths to take in this workshop.",
+  "zh": "大部分,如果不是全部的话,都是和这次工作坊里要走的各条路径相关联的。"
+ },
+ {
+  "seg": 350,
+  "start": 2320.922,
+  "end": 2337.369,
+  "speaker": "Unknown",
+  "en": "But in general, like the Kodo get rule skill is talking to the backend of the Kodo platform and it's sort of like this agentic RAG process of determining which ones are actually relevant and it filters it down.",
+  "zh": "但总的来说，这个 Kodo get rule skill 就是和 Kodo 平台的后端对话，这有点像一个确定哪些规则真正相关的 agentic RAG 过程，它会过滤筛选。"
+ },
+ {
+  "seg": 351,
+  "start": 2340.33,
+  "end": 2340.53,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 352,
+  "start": 2347.994,
+  "end": 2349.014,
+  "speaker": "Unknown",
+  "en": "That was a really good question.",
+  "zh": "这是个非常好的问题。"
+ },
+ {
+  "seg": 353,
+  "start": 2350.395,
+  "end": 2354.816,
+  "speaker": "Unknown",
+  "en": "Okay, so the plan was implemented, and I don't know why it created a draft.",
+  "zh": "好的，所以计划已经实现了，我不知道它为什么创建了一个草稿。"
+ },
+ {
+  "seg": 354,
+  "start": 2354.917,
+  "end": 2357.277,
+  "speaker": "Unknown",
+  "en": "I like real PRs, but fine, whatever.",
+  "zh": "我喜欢真正的 PR，不过没关系，随便吧。"
+ },
+ {
+  "seg": 355,
+  "start": 2359.098,
+  "end": 2360.438,
+  "speaker": "Unknown",
+  "en": "Copy the link.",
+  "zh": "复制链接。"
+ },
+ {
+  "seg": 356,
+  "start": 2365.34,
+  "end": 2367.921,
+  "speaker": "Unknown",
+  "en": "All right, add refund workflow with quality gates.",
+  "zh": "好的，添加带质量门的退款工作流。"
+ },
+ {
+  "seg": 357,
+  "start": 2367.961,
+  "end": 2368.862,
+  "speaker": "Unknown",
+  "en": "Did you get there?",
+  "zh": "你到了那一步吗？"
+ },
+ {
+  "seg": 358,
+  "start": 2370.442,
+  "end": 2372.023,
+  "speaker": "Unknown",
+  "en": "Okay, awesome.",
+  "zh": "好的，太棒了。"
+ },
+ {
+  "seg": 359,
+  "start": 2372.923,
+  "end": 2375.564,
+  "speaker": "Unknown",
+  "en": "And here we've got the summary.",
+  "zh": "这里我们有摘要。"
+ },
+ {
+  "seg": 360,
+  "start": 2376.797,
+  "end": 2386.005,
+  "speaker": "Unknown",
+  "en": "I'm just gonna go ahead and make this a real PR because what I want is for Kodo to review this without merging the pull request.",
+  "zh": "我要直接把它变成一个真正的 PR，因为我想要的是让 Kodo 在不合并拉取请求的情况下审查它。"
+ },
+ {
+  "seg": 361,
+  "start": 2388.207,
+  "end": 2394.732,
+  "speaker": "Unknown",
+  "en": "If Kodo is connected to your repo, this is what you should see automatically pop up.",
+  "zh": "如果 Kodo 已连接到你的仓库，这就是你会看到的自动弹出的内容。"
+ },
+ {
+  "seg": 362,
+  "start": 2395.573,
+  "end": 2398.155,
+  "speaker": "Unknown",
+  "en": "It's going to start the analysis process.",
+  "zh": "它将开始分析过程。"
+ },
+ {
+  "seg": 363,
+  "start": 2399.557,
+  "end": 2403.5,
+  "speaker": "Unknown",
+  "en": "And of course, I'm not looking at all of the code because we don't have all day to do that.",
+  "zh": "当然，我不会去看所有的代码，因为我们没有那么多时间来做这件事。"
+ },
+ {
+  "seg": 364,
+  "start": 2404.352,
+  "end": 2408.873,
+  "speaker": "Unknown",
+  "en": "But you understand the point of implementing these processes.",
+  "zh": "但你能理解实现这些流程的意义所在。"
+ },
+ {
+  "seg": 365,
+  "start": 2409.394,
+  "end": 2417.916,
+  "speaker": "Unknown",
+  "en": "So in a few minutes, Coda will be done analyzing this code and will bring up any potential issues and we're gonna take a look at what those are.",
+  "zh": "所以几分钟后，Coda 将完成对此代码的分析，并会提出任何潜在的问题，我们将看看那些问题是什么。"
+ },
+ {
+  "seg": 366,
+  "start": 2419.216,
+  "end": 2425.578,
+  "speaker": "Unknown",
+  "en": "As a result of any potential coding issues that come up, we're gonna run an agent skill to automatically resolve it.",
+  "zh": "作为对出现的任何潜在编码问题的处理结果，我们将运行一个 agent skill 来自动解决它。"
+ },
+ {
+  "seg": 367,
+  "start": 2430.27,
+  "end": 2431.671,
+  "speaker": "Unknown",
+  "en": "Are there any other questions?",
+  "zh": "还有其他问题吗？"
+ },
+ {
+  "seg": 368,
+  "start": 2431.711,
+  "end": 2432.652,
+  "speaker": "Unknown",
+  "en": "Those were really good.",
+  "zh": "这些问题都非常好。"
+ },
+ {
+  "seg": 369,
+  "start": 2432.692,
+  "end": 2432.953,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "嗯，有吗？"
+ },
+ {
+  "seg": 370,
+  "start": 2432.973,
+  "end": 2434.915,
+  "speaker": "Unknown",
+  "en": "I have a question.",
+  "zh": "我有一个问题。"
+ },
+ {
+  "seg": 371,
+  "start": 2435.015,
+  "end": 2438.158,
+  "speaker": "Unknown",
+  "en": "And a question that follows from it is something I've seen with skills",
+  "zh": "由这个问题引出的一个问题是我在 skills 中见过的情况"
+ },
+ {
+  "seg": 372,
+  "start": 2440.24,
+  "end": 2442.742,
+  "speaker": "Unknown",
+  "en": "I have dry code and this is what good code looks like.",
+  "zh": "我有 DRY 代码，这就是好代码的样子。"
+ },
+ {
+  "seg": 373,
+  "start": 2442.802,
+  "end": 2445.683,
+  "speaker": "Unknown",
+  "en": "And I have arguments with engineers where I'm like, this is super general.",
+  "zh": "我和工程师们有过争论，我会说，这个太通用了。"
+ },
+ {
+  "seg": 374,
+  "start": 2445.703,
+  "end": 2447.284,
+  "speaker": "Unknown",
+  "en": "It should be in the agent's waits by now.",
+  "zh": "现在它应该已经在 agent 的 waits 里了。"
+ },
+ {
+  "seg": 375,
+  "start": 2447.825,
+  "end": 2449.806,
+  "speaker": "Unknown",
+  "en": "And I think you should wait until something pops up.",
+  "zh": "而我认为你应该等到有情况出现时再做。"
+ },
+ {
+  "seg": 376,
+  "start": 2450.206,
+  "end": 2456.67,
+  "speaker": "Unknown",
+  "en": "But to settle these arguments, it would be really useful to have data of this skill in the metric shows that it's actually useful.",
+  "zh": "但为了平息这些争论，拥有这个 skill 的数据会非常有用，指标会表明它确实有用。"
+ },
+ {
+  "seg": 377,
+  "start": 2457.03,
+  "end": 2458.991,
+  "speaker": "Unknown",
+  "en": "Does Codo offer anything like that?",
+  "zh": "Codo 有提供类似这样的东西吗？"
+ },
+ {
+  "seg": 378,
+  "start": 2459.031,
+  "end": 2461.393,
+  "speaker": "Unknown",
+  "en": "Or how do you know these skills are actually valuable versus just",
+  "zh": "或者说，你怎么知道这些 skill 确实有价值，而不只是"
+ },
+ {
+  "seg": 379,
+  "start": 2463.296,
+  "end": 2465.757,
+  "speaker": "Unknown",
+  "en": "Codo is just ingesting the skills.",
+  "zh": "Codo 只是摄取 skills。"
+ },
+ {
+  "seg": 380,
+  "start": 2465.817,
+  "end": 2470.979,
+  "speaker": "Unknown",
+  "en": "It's not evaluating the quality of them, but there's a tool that does do that, TESL.",
+  "zh": "它并不评估它们的质量，但有一个工具确实能做到这一点，TESL。"
+ },
+ {
+  "seg": 381,
+  "start": 2471.119,
+  "end": 2472.659,
+  "speaker": "Unknown",
+  "en": "Have you heard of TESL before?",
+  "zh": "你以前听说过 TESL 吗？"
+ },
+ {
+  "seg": 382,
+  "start": 2473.199,
+  "end": 2485.703,
+  "speaker": "Unknown",
+  "en": "T-E-S-S-L is a company that is all about skills evals, and it will tell you, are there any security concerns with this skill, or is this actually as effective as you expect it to be?",
+  "zh": "T-E-S-S-L 是一家专注于 skills 评估的公司，它会告诉你，这个 skill 是否存在安全隐患，或者它是否真的像你期望的那样有效？"
+ },
+ {
+  "seg": 383,
+  "start": 2486.183,
+  "end": 2491.765,
+  "speaker": "Unknown",
+  "en": "That's a tool that I would recommend for integrating that to determine",
+  "zh": "那是我会推荐用于集成的一个工具，用来确定"
+ },
+ {
+  "seg": 384,
+  "start": 2492.545,
+  "end": 2493.105,
+  "speaker": "Unknown",
+  "en": "To determine that.",
+  "zh": "用来确定这一点。"
+ },
+ {
+  "seg": 385,
+  "start": 2493.906,
+  "end": 2501.692,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 386,
+  "start": 2501.732,
+  "end": 2502.092,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 387,
+  "start": 2502.512,
+  "end": 2502.693,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 388,
+  "start": 2502.853,
+  "end": 2505.775,
+  "speaker": "Unknown",
+  "en": "A PR summary was generated automatically.",
+  "zh": "PR 摘要已自动生成。"
+ },
+ {
+  "seg": 389,
+  "start": 2506.816,
+  "end": 2511.079,
+  "speaker": "Unknown",
+  "en": "We've got a description and we've got a diagram of the changes.",
+  "zh": "我们有描述，还有一张变更的图表。"
+ },
+ {
+  "seg": 390,
+  "start": 2513.16,
+  "end": 2516.723,
+  "speaker": "Unknown",
+  "en": "And it's showing the legend API in memory store in the function.",
+  "zh": "它显示了图例中的 API、内存存储和函数。"
+ },
+ {
+  "seg": 391,
+  "start": 2516.823,
+  "end": 2519.485,
+  "speaker": "Unknown",
+  "en": "We've got the API client and the fast API app.",
+  "zh": "我们有 API client 和 FastAPI 应用。"
+ },
+ {
+  "seg": 392,
+  "start": 2520.073,
+  "end": 2526.444,
+  "speaker": "Unknown",
+  "en": "And the different, let's see, the endpoint of the payment refund endpoint.",
+  "zh": "还有不同的，让我们看看，payment refund 端点。"
+ },
+ {
+  "seg": 393,
+  "start": 2527.546,
+  "end": 2531.854,
+  "speaker": "Unknown",
+  "en": "That's pointing to four different fields.",
+  "zh": "它指向四个不同的部分。"
+ },
+ {
+  "seg": 394,
+  "start": 2542.713,
+  "end": 2549.075,
+  "speaker": "Unknown",
+  "en": "So one of the things that I would recommend, but I realize I just skipped over, was the verification prompt.",
+  "zh": "所以我本来会推荐的一件事，但我意识到我刚才跳过了，就是验证提示词。"
+ },
+ {
+  "seg": 395,
+  "start": 2549.555,
+  "end": 2563.439,
+  "speaker": "Unknown",
+  "en": "So we can, after doing a, you know, a process of creating the, making the code change and actually doing a local review, we run a verification prompt to ensure that everything passes.",
+  "zh": "所以我们可以在完成创建、修改代码以及实际进行本地审查的过程之后，运行一个验证提示词来确保一切通过。"
+ },
+ {
+  "seg": 396,
+  "start": 2563.899,
+  "end": 2570.701,
+  "speaker": "Unknown",
+  "en": "But Codex already did that automatically on its own just because of the way that the repo is actually set up.",
+  "zh": "但 Codex 因为这个仓库本身的设置方式，已经自动完成了这件事。"
+ },
+ {
+  "seg": 397,
+  "start": 2570.94,
+  "end": 2574.742,
+  "speaker": "Unknown",
+  "en": "But this would be a best practice for walking through that process.",
+  "zh": "但这会是走一遍这个流程的最佳实践。"
+ },
+ {
+  "seg": 398,
+  "start": 2579.425,
+  "end": 2582.287,
+  "speaker": "Unknown",
+  "en": "And any day now, Codo, would be great.",
+  "zh": "Codo 什么时候都能好就太棒了。"
+ },
+ {
+  "seg": 399,
+  "start": 2585.529,
+  "end": 2589.551,
+  "speaker": "Unknown",
+  "en": "Well, we can take a look at a PR that I've already created.",
+  "zh": "好吧，我们可以看看一个我已经创建好的 PR。"
+ },
+ {
+  "seg": 400,
+  "start": 2590.272,
+  "end": 2596.876,
+  "speaker": "Unknown",
+  "en": "And this was a PR where I didn't run any of the processes that we were just talking about.",
+  "zh": "这是一个 PR，我并没有运行我们刚才谈论的那些流程。"
+ },
+ {
+  "seg": 401,
+  "start": 2598.341,
+  "end": 2604.004,
+  "speaker": "Unknown",
+  "en": "But I do have the context pulled in through the Codo portal.",
+  "zh": "但我确实通过 Codo 门户拉取了上下文。"
+ },
+ {
+  "seg": 402,
+  "start": 2604.644,
+  "end": 2612.087,
+  "speaker": "Unknown",
+  "en": "And this is something that I highly consider you looking into when it comes to that context management layer that I was talking about.",
+  "zh": "这是我强烈建议你们研究的东西，关于我刚才谈到的那个上下文管理层。"
+ },
+ {
+  "seg": 403,
+  "start": 2612.808,
+  "end": 2621.252,
+  "speaker": "Unknown",
+  "en": "Here in the code review, Codo identified that there were rules in the Codo portal that are relevant for this actual code review.",
+  "zh": "在这次代码审查中，Codo 识别出 Codo 门户中有一些规则与这次实际的代码审查相关。"
+ },
+ {
+  "seg": 404,
+  "start": 2621.312,
+  "end": 2623.973,
+  "speaker": "Unknown",
+  "en": "We're not talking about planning or implementation anymore.",
+  "zh": "我们现在谈的不是规划或实现。"
+ },
+ {
+  "seg": 405,
+  "start": 2624.153,
+  "end": 2625.974,
+  "speaker": "Unknown",
+  "en": "We're talking about code review specifically.",
+  "zh": "我们专门谈的是代码审查。"
+ },
+ {
+  "seg": 406,
+  "start": 2626.327,
+  "end": 2632.136,
+  "speaker": "Unknown",
+  "en": "And then it pulled in also the relevant skills for this code change.",
+  "zh": "然后它还拉入了与这次代码变更相关的技能。"
+ },
+ {
+  "seg": 407,
+  "start": 2634.869,
+  "end": 2638.973,
+  "speaker": "Unknown",
+  "en": "And here there were some action required results that came up.",
+  "zh": "这里出现了一些需要操作的结果。"
+ },
+ {
+  "seg": 408,
+  "start": 2639.433,
+  "end": 2648.881,
+  "speaker": "Unknown",
+  "en": "There's a rule inside of my org where Python functions must all have a doc string attached to it.",
+  "zh": "我的组织里有一条规则：Python 函数都必须附带一个文档字符串。"
+ },
+ {
+  "seg": 409,
+  "start": 2649.181,
+  "end": 2653.745,
+  "speaker": "Unknown",
+  "en": "And so this was shown as a rule violation and an issue around maintainability.",
+  "zh": "所以这被显示为一条规则违规，以及一个关于可维护性的问题。"
+ },
+ {
+  "seg": 410,
+  "start": 2654.326,
+  "end": 2661.712,
+  "speaker": "Unknown",
+  "en": "The only reason why it's action required is because that was determined by our engineering org that this is as high of a severity.",
+  "zh": "之所以它需要操作，是因为这是我们的工程组织确定的严重级别就是这么高。"
+ },
+ {
+  "seg": 411,
+  "start": 2662.068,
+  "end": 2667.81,
+  "speaker": "Unknown",
+  "en": "Because you can customize the level of severity of your rules, it doesn't have to be something that is block worthy.",
+  "zh": "因为你可以自定义规则的严重级别，它不一定是值得阻断的东西。"
+ },
+ {
+  "seg": 412,
+  "start": 2668.17,
+  "end": 2670.591,
+  "speaker": "Unknown",
+  "en": "It just needs to be something that is addressed.",
+  "zh": "它只是需要被处理的东西。"
+ },
+ {
+  "seg": 413,
+  "start": 2670.771,
+  "end": 2671.652,
+  "speaker": "Unknown",
+  "en": "That is up to you.",
+  "zh": "这取决于你。"
+ },
+ {
+  "seg": 414,
+  "start": 2673.092,
+  "end": 2675.353,
+  "speaker": "Unknown",
+  "en": "And here is the evidence that's associated with it.",
+  "zh": "这里是与它相关的证据。"
+ },
+ {
+  "seg": 415,
+  "start": 2675.493,
+  "end": 2678.094,
+  "speaker": "Unknown",
+  "en": "Require doc strings for all Python functions.",
+  "zh": "要求所有 Python 函数都有文档字符串。"
+ },
+ {
+  "seg": 416,
+  "start": 2678.314,
+  "end": 2679.315,
+  "speaker": "Unknown",
+  "en": "Well, I would say methods.",
+  "zh": "嗯，我想说方法。"
+ },
+ {
+  "seg": 417,
+  "start": 2679.375,
+  "end": 2679.635,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 418,
+  "start": 2688.038,
+  "end": 2688.238,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 419,
+  "start": 2703.171,
+  "end": 2711.922,
+  "speaker": "Unknown",
+  "en": "Yeah, so this is being determined right during the code review phase of, okay, which rules are going to be relevant",
+  "zh": "对，这是在代码审查阶段就确定好的：哪些规则会是相关的"
+ },
+ {
+  "seg": 420,
+  "start": 2712.232,
+  "end": 2723.136,
+  "speaker": "Unknown",
+  "en": "The part that can be deterministic is that you can decide based on the level of severity of the rule, this code, this branch or PR will be blocked.",
+  "zh": "可以做到确定性的一点是，你可以根据规则的严重级别来决定，这段代码、这个分支或 PR 将被阻断。"
+ },
+ {
+  "seg": 421,
+  "start": 2723.716,
+  "end": 2738.321,
+  "speaker": "Unknown",
+  "en": "And so that's something you can configure in the Codo portal is in the case of any action required or high severity issue is identified, we block the merge until you have fixed it and Codo will run again and verify that you have.",
+  "zh": "所以这是你可以在 Codo 门户中配置的：一旦识别出任何需要操作或高严重级别的问题，我们就阻断合并，直到你修复了它，然后 Codo 会再次运行并验证你已经修复了。"
+ },
+ {
+  "seg": 422,
+  "start": 2746.993,
+  "end": 2752.895,
+  "speaker": "Unknown",
+  "en": "There's a potential that it won't determine that the relevant rule will actually, yes.",
+  "zh": "有可能它不会判断出相关规则确实——是的。"
+ },
+ {
+  "seg": 423,
+  "start": 2753.475,
+  "end": 2769.701,
+  "speaker": "Unknown",
+  "en": "And I'm really glad that you brought that up because it is something that we have talked about with the product team and the more enterprise customers that we speak to, especially in highly regulated industries, they really want determinism in exactly that fashion.",
+  "zh": "我真的很高兴你提出这一点，因为这是我们和产品团队讨论过的，而且和我们交流过的企业客户越多，尤其是高度受监管行业的客户，他们真的非常想要那种方式的确定性。"
+ },
+ {
+  "seg": 424,
+  "start": 2770.641,
+  "end": 2775.523,
+  "speaker": "Unknown",
+  "en": "So that's something I'm hoping we can push for for making a real thing because I think it's extremely important.",
+  "zh": "所以这是我希望我们能推动实现的东西，因为我认为它极其重要。"
+ },
+ {
+  "seg": 425,
+  "start": 2776.602,
+  "end": 2777.222,
+  "speaker": "Unknown",
+  "en": "I agree with you.",
+  "zh": "我同意你的看法。"
+ },
+ {
+  "seg": 426,
+  "start": 2784.787,
+  "end": 2785.087,
+  "speaker": "Unknown",
+  "en": "Yes?",
+  "zh": "是吗？"
+ },
+ {
+  "seg": 427,
+  "start": 2787.349,
+  "end": 2788.009,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 428,
+  "start": 2788.209,
+  "end": 2789.67,
+  "speaker": "Unknown",
+  "en": "You mean this?",
+  "zh": "你是指这个？"
+ },
+ {
+  "seg": 429,
+  "start": 2789.69,
+  "end": 2789.85,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 430,
+  "start": 2790.991,
+  "end": 2793.212,
+  "speaker": "Unknown",
+  "en": "After you've resolved issues?",
+  "zh": "在你解决了问题之后？"
+ },
+ {
+  "seg": 431,
+  "start": 2806.181,
+  "end": 2811.224,
+  "speaker": "Unknown",
+  "en": "Yes, I think it's best practice, too, just in case.",
+  "zh": "是的，我认为这也是最佳实践，以防万一。"
+ },
+ {
+  "seg": 432,
+  "start": 2811.324,
+  "end": 2812.225,
+  "speaker": "Unknown",
+  "en": "You never know, so.",
+  "zh": "你永远不知道，所以。"
+ },
+ {
+  "seg": 433,
+  "start": 2812.825,
+  "end": 2816.708,
+  "speaker": "Unknown",
+  "en": "Is it done out automatically?",
+  "zh": "它是自动完成的吗？"
+ },
+ {
+  "seg": 434,
+  "start": 2816.728,
+  "end": 2821.07,
+  "speaker": "Unknown",
+  "en": "So how many iterations you have here for it?",
+  "zh": "那么这里它有多少次迭代？"
+ },
+ {
+  "seg": 435,
+  "start": 2822.031,
+  "end": 2828.635,
+  "speaker": "Unknown",
+  "en": "I think that's more on your agent might be the one that will determine, like, oh, I'm going to run verification or not.",
+  "zh": "我认为那更多是取决于你的智能体，它可能是决定「哦，我要不要运行验证」的那一方。"
+ },
+ {
+  "seg": 436,
+  "start": 2829.156,
+  "end": 2833.718,
+  "speaker": "Unknown",
+  "en": "And you can prompt your agent to do that anyway, regardless.",
+  "zh": "而且无论如何你都可以提示你的智能体去做这件事。"
+ },
+ {
+  "seg": 437,
+  "start": 2834.998,
+  "end": 2839.499,
+  "speaker": "Unknown",
+  "en": "But yeah, so it depends on how your agent kind of responds.",
+  "zh": "不过对，这取决于你的智能体如何响应。"
+ },
+ {
+  "seg": 438,
+  "start": 2843.101,
+  "end": 2845.161,
+  "speaker": "Unknown",
+  "en": "And finally, here are the results.",
+  "zh": "最后，这里是结果。"
+ },
+ {
+  "seg": 439,
+  "start": 2846.702,
+  "end": 2848.842,
+  "speaker": "Unknown",
+  "en": "Oh, okay, five skills were invoked.",
+  "zh": "哦，好的，五个技能被调用了。"
+ },
+ {
+  "seg": 440,
+  "start": 2850.803,
+  "end": 2856.205,
+  "speaker": "Unknown",
+  "en": "All right, so we've got one bug, three rule violations, and two skill insights.",
+  "zh": "好的，我们有 1 个 bug、3 个规则违规，以及 2 个技能洞察。"
+ },
+ {
+  "seg": 441,
+  "start": 2857.048,
+  "end": 2862.853,
+  "speaker": "Unknown",
+  "en": "There is an issue with the refund impotency stored in memory.",
+  "zh": "有一个问题：存储在内存中的退款幂等性。"
+ },
+ {
+  "seg": 442,
+  "start": 2863.714,
+  "end": 2872.101,
+  "speaker": "Unknown",
+  "en": "So refund payment uses the process local dictionary to store and replay fund results, which is not durable persistent storage.",
+  "zh": "退款支付使用进程本地的字典来存储和重放退款结果，这不是持久化的存储。"
+ },
+ {
+  "seg": 443,
+  "start": 2873.002,
+  "end": 2880.709,
+  "speaker": "Unknown",
+  "en": "And we have the piece of code that is related to that, and we have the evidence as well, the rules and the following files.",
+  "zh": "我们有与它相关的代码片段，我们也有证据，规则以及涉及的文件。"
+ },
+ {
+  "seg": 444,
+  "start": 2882.471,
+  "end": 2892.316,
+  "speaker": "Unknown",
+  "en": "The important part here that you all should definitely play around with is copy and pasting this agent prompt that is meant to fix the suggestions that pop up.",
+  "zh": "这里你们所有人都绝对应该试一玩的，是复制粘贴这个旨在修复弹出的建议的智能体提示词。"
+ },
+ {
+  "seg": 445,
+  "start": 2892.456,
+  "end": 2902.441,
+  "speaker": "Unknown",
+  "en": "You can do that manually for each of the issues that present themselves, or you can run the Codo PR resolver to automatically resolve.",
+  "zh": "你可以对出现的每个问题手动处理,或者运行 Codo PR resolver 来自动解决。"
+ },
+ {
+  "seg": 446,
+  "start": 2902.641,
+  "end": 2904.502,
+  "speaker": "Unknown",
+  "en": "Did you already run that skill?",
+  "zh": "你已经运行过那个技能了吗？"
+ },
+ {
+  "seg": 447,
+  "start": 2904.522,
+  "end": 2907.363,
+  "speaker": "Unknown",
+  "en": "Right now.",
+  "zh": "就是现在。"
+ },
+ {
+  "seg": 448,
+  "start": 2909.653,
+  "end": 2910.333,
+  "speaker": "Unknown",
+  "en": "Mm-hm.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 449,
+  "start": 2910.353,
+  "end": 2910.373,
+  "speaker": "Unknown",
+  "en": ".",
+  "zh": "。"
+ },
+ {
+  "seg": 450,
+  "start": 2910.553,
+  "end": 2911.554,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对的。"
+ },
+ {
+  "seg": 451,
+  "start": 2911.574,
+  "end": 2911.934,
+  "speaker": "Unknown",
+  "en": "Mm-hm.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 452,
+  "start": 2936.49,
+  "end": 2946.555,
+  "speaker": "Unknown",
+  "en": "Yep, I think that's best practice, and that's what I would do, or I guess pre-GenAI era, just to be careful, and that's what you want your agents to do as well.",
+  "zh": "对,我觉得那是最佳实践,那也是我会做的,或者说是 GenAI 之前的时代,就是要谨慎,那也是你想让你的智能体去做的事情。"
+ },
+ {
+  "seg": 453,
+  "start": 2948.796,
+  "end": 2950.777,
+  "speaker": "Unknown",
+  "en": "So that's a really good point.",
+  "zh": "所以这是一个非常好的观点。"
+ },
+ {
+  "seg": 454,
+  "start": 2953.198,
+  "end": 2962.983,
+  "speaker": "Unknown",
+  "en": "After seeing all of the results in this PR, then that's when I ran the Kodo PR resolver skill, and I ran it against the pull request number four,",
+  "zh": "在看到这个 PR 里的所有结果之后,那时我就运行了 Kodo PR resolver skill,我对着 pull request 编号四运行了它,"
+ },
+ {
+  "seg": 455,
+  "start": 2963.623,
+  "end": 2971.887,
+  "speaker": "Unknown",
+  "en": "And I saw that it's pulled down all of the issues that CODO has already identified from critical to high.",
+  "zh": "我看到它把 CODO 已经识别出的所有问题都拉下来了,从 critical 到 high。"
+ },
+ {
+  "seg": 456,
+  "start": 2972.887,
+  "end": 2973.848,
+  "speaker": "Unknown",
+  "en": "And where did it go?",
+  "zh": "然后它去哪了?"
+ },
+ {
+  "seg": 457,
+  "start": 2977.03,
+  "end": 2977.59,
+  "speaker": "Unknown",
+  "en": "Oh, okay.",
+  "zh": "哦,好的。"
+ },
+ {
+  "seg": 458,
+  "start": 2977.71,
+  "end": 2986.475,
+  "speaker": "Unknown",
+  "en": "So it pulled down all of the results and now I can decide, do I want to review each issue individually or do I want to auto-fix all?",
+  "zh": "所以它拉下了所有结果,现在我可以决定,我是想逐个审查每个问题,还是想全部自动修复?"
+ },
+ {
+  "seg": 459,
+  "start": 2987.376,
+  "end": 3006.267,
+  "speaker": "Unknown",
+  "en": "For the sake of this workshop, I'm just going to auto-fix all, but this is something if you want to be a bit more hands-on and make decisions with your agent to actually plan how you're going to make the fix, you can do that yourself with the review each issue option.",
+  "zh": "为了这次 workshop 的目的,我就直接全部自动修复了,但如果你想要更亲自动手一些、和你的智能体一起做决策来实际规划你要怎么修复,你可以用逐个审查每个问题的选项自己来做。"
+ },
+ {
+  "seg": 460,
+  "start": 3008.792,
+  "end": 3010.473,
+  "speaker": "Unknown",
+  "en": "Autofix all.",
+  "zh": "全部自动修复。"
+ },
+ {
+  "seg": 461,
+  "start": 3016.176,
+  "end": 3019.137,
+  "speaker": "Unknown",
+  "en": "Now let's see how it reacts.",
+  "zh": "现在让我们看看它怎么反应。"
+ },
+ {
+  "seg": 462,
+  "start": 3019.617,
+  "end": 3022.018,
+  "speaker": "Unknown",
+  "en": "So I'm gonna autofix all six code of issues.",
+  "zh": "所以我要自动修复全部六个 code of 问题。"
+ },
+ {
+  "seg": 463,
+  "start": 3022.999,
+  "end": 3033.304,
+  "speaker": "Unknown",
+  "en": "And what should happen is, okay, and you can see here it says, then it's gonna run verification and it's gonna make the,",
+  "zh": "应该会发生的是,好,你可以看到这里它说,然后它会运行验证,它会进行,"
+ },
+ {
+  "seg": 464,
+  "start": 3034.698,
+  "end": 3042.823,
+  "speaker": "Unknown",
+  "en": "The commit will be blocked if it's not structured in the correct way automatically, but this is that point where it'll do that after.",
+  "zh": "如果 commit 没有以正确的方式结构化,它会被自动阻止,但这是它之后会做的那一步。"
+ },
+ {
+  "seg": 465,
+  "start": 3042.843,
+  "end": 3052.889,
+  "speaker": "Unknown",
+  "en": "And it'll take that next step further by actually posting back to the PR and with a summary of all the changes that were fixed.",
+  "zh": "它会进一步采取下一步,实际回发到 PR 并附上所有已修复变更的总结。"
+ },
+ {
+  "seg": 466,
+  "start": 3054.05,
+  "end": 3062.415,
+  "speaker": "Unknown",
+  "en": "And from there, that's how the PR will be updated and all of the issues that were resolved will be crossed out.",
+  "zh": "从那里开始,PR 就会被更新,所有已解决的问题都会被划掉。"
+ },
+ {
+  "seg": 467,
+  "start": 3072.273,
+  "end": 3077.902,
+  "speaker": "Unknown",
+  "en": "I mean, I've used Worktrees for that.",
+  "zh": "我是说,我用过 Worktrees 来做这个。"
+ },
+ {
+  "seg": 468,
+  "start": 3077.962,
+  "end": 3079.224,
+  "speaker": "Unknown",
+  "en": "Is that something that you've used?",
+  "zh": "那是你用过什么东西吗?"
+ },
+ {
+  "seg": 469,
+  "start": 3080.106,
+  "end": 3080.286,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 470,
+  "start": 3087.771,
+  "end": 3091.412,
+  "speaker": "Unknown",
+  "en": "Yeah, that's not something that Codo really handles.",
+  "zh": "对,那不是 Codo 真正处理的东西。"
+ },
+ {
+  "seg": 471,
+  "start": 3091.612,
+  "end": 3095.094,
+  "speaker": "Unknown",
+  "en": "That's something I found that coding agents kind of handle themselves.",
+  "zh": "我发现那是编码智能体自己会处理的东西。"
+ },
+ {
+  "seg": 472,
+  "start": 3096.535,
+  "end": 3098.296,
+  "speaker": "Unknown",
+  "en": "That's a good point, a good question.",
+  "zh": "这是个好观点,好问题。"
+ },
+ {
+  "seg": 473,
+  "start": 3100.857,
+  "end": 3105.059,
+  "speaker": "Unknown",
+  "en": "Any other questions before I wrap this up?",
+  "zh": "在我收尾之前还有其他问题吗?"
+ },
+ {
+  "seg": 474,
+  "start": 3107.24,
+  "end": 3107.44,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "有。"
+ },
+ {
+  "seg": 475,
+  "start": 3116.299,
+  "end": 3125.987,
+  "speaker": "Unknown",
+  "en": "Yes, you can run a code review, and I didn't run that for this because time was flying, but you mean for Kodo or for your coding agent?",
+  "zh": "是的,你可以运行一次 code review,这次我没有运行它因为时间飞逝,但你是指对 Kodo 还是对你的编码智能体?"
+ },
+ {
+  "seg": 476,
+  "start": 3127.348,
+  "end": 3141.641,
+  "speaker": "Unknown",
+  "en": "So we are coming out with a Kodo review local workflow, and it will talk directly to the Kodo backend, so all of the agentic capabilities that you would have at a pull request, you would also have locally and be able to address.",
+  "zh": "我们即将推出 Kodo review 本地工作流,它会直接和 Kodo 后端通信,所以你在 pull request 上拥有的所有 agentic 能力,你在本地也会有并且能够处理。"
+ },
+ {
+  "seg": 477,
+  "start": 3141.661,
+  "end": 3143.142,
+  "speaker": "Unknown",
+  "en": "Mm-hmm.",
+  "zh": "嗯哼。"
+ },
+ {
+  "seg": 478,
+  "start": 3148.23,
+  "end": 3148.67,
+  "speaker": "Unknown",
+  "en": "What was that?",
+  "zh": "那是什么?"
+ },
+ {
+  "seg": 479,
+  "start": 3160.556,
+  "end": 3162.657,
+  "speaker": "Unknown",
+  "en": "How does it review all of the code?",
+  "zh": "它是怎么审查所有代码的?"
+ },
+ {
+  "seg": 480,
+  "start": 3162.777,
+  "end": 3164.058,
+  "speaker": "Unknown",
+  "en": "It clones the repo.",
+  "zh": "它克隆了这个仓库。"
+ },
+ {
+  "seg": 481,
+  "start": 3165.759,
+  "end": 3168,
+  "speaker": "Unknown",
+  "en": "Yeah, that's the process that we do on the backend.",
+  "zh": "对,那是我们在后端做的流程。"
+ },
+ {
+  "seg": 482,
+  "start": 3170.261,
+  "end": 3173.903,
+  "speaker": "Unknown",
+  "en": "It's like a temporary cloning just so it has an understanding of",
+  "zh": "就像一个临时克隆,只是为了让它理解"
+ },
+ {
+  "seg": 483,
+  "start": 3174.444,
+  "end": 3177.845,
+  "speaker": "Unknown",
+  "en": "Yeah, the broader scope of the changes beyond the code diff.",
+  "zh": "对,代码 diff 之外的更广泛的变更范围。"
+ },
+ {
+  "seg": 484,
+  "start": 3178.866,
+  "end": 3179.746,
+  "speaker": "Unknown",
+  "en": "Really good question.",
+  "zh": "非常好的问题。"
+ },
+ {
+  "seg": 485,
+  "start": 3186.469,
+  "end": 3189.41,
+  "speaker": "Unknown",
+  "en": "Okay, I think we are just about out of time.",
+  "zh": "好,我觉得我们的时间差不多到了。"
+ },
+ {
+  "seg": 486,
+  "start": 3189.93,
+  "end": 3197.633,
+  "speaker": "Unknown",
+  "en": "So I wasn't able to go through everything in detail, but like I said, if nothing else that you take from this,",
+  "zh": "所以我没能详细讲完所有内容,但就像我说的,如果你从这次只带走一样东西,"
+ },
+ {
+  "seg": 487,
+  "start": 3198.865,
+  "end": 3208.674,
+  "speaker": "Unknown",
+  "en": "Take this repo and ask your AI some tips on what kind of verification steps that you would want to implement or you would want to practice implementing locally.",
+  "zh": "那就是拿走这个仓库,问问你的 AI 一些关于你想实现什么样的验证步骤、或者你想练习在本地实现什么的建议。"
+ },
+ {
+  "seg": 488,
+  "start": 3209.855,
+  "end": 3217.142,
+  "speaker": "Unknown",
+  "en": "And I think that that would be a really good major step to just automatically add more structure into your workflows.",
+  "zh": "我觉得那会是一个非常好的重大步骤,可以自动给你的工作流添加更多结构。"
+ },
+ {
+  "seg": 489,
+  "start": 3217.532,
+  "end": 3219.133,
+  "speaker": "Unknown",
+  "en": "And consider any tools.",
+  "zh": "并且考虑任何工具。"
+ },
+ {
+  "seg": 490,
+  "start": 3219.173,
+  "end": 3225.299,
+  "speaker": "Unknown",
+  "en": "There are some open source tools that have similar context management layers to what Codo does.",
+  "zh": "有一些开源工具拥有和 Codo 所做的类似的上下文管理层。"
+ },
+ {
+  "seg": 491,
+  "start": 3225.879,
+  "end": 3246.316,
+  "speaker": "Unknown",
+  "en": "I think there is one of them out there, but if you look it up, you should try practicing having rules and skills and other engineering standards, whatever it is, stored elsewhere so that you can pull down that information when relevant to the stages of your workflow.",
+  "zh": "我觉得外面有其中一个,但如果你去查一下,你应该尝试练习把规则和 skills 以及其他工程标准,不管是什么,存储在别处,这样你就可以在工作流的相关阶段拉取那些信息。"
+ },
+ {
+  "seg": 492,
+  "start": 3248.703,
+  "end": 3251.464,
+  "speaker": "Unknown",
+  "en": "Oh yes, it's called PacMind, I think.",
+  "zh": "哦对,它叫 PacMind,我记得。"
+ },
+ {
+  "seg": 493,
+  "start": 3252.364,
+  "end": 3253.424,
+  "speaker": "Unknown",
+  "en": "PacMind.com.",
+  "zh": "PacMind.com。"
+ },
+ {
+  "seg": 494,
+  "start": 3255.105,
+  "end": 3271.669,
+  "speaker": "Unknown",
+  "en": "So definitely look into this if you want an open source solution for governing your AI code through different rules and things like that consistently across your teams and your repos.",
+  "zh": "所以如果你想要一个开源解决方案来通过不同的规则之类的东西在跨团队和跨仓库之间一致地治理你的 AI 代码,一定要去看看这个。"
+ },
+ {
+  "seg": 495,
+  "start": 3281.488,
+  "end": 3289.575,
+  "speaker": "Unknown",
+  "en": "Okay, I wish the internet was faster, but it's not, so I don't, I can't, this never happens, but here we are.",
+  "zh": "好,我真希望网速更快一点,但它不是,所以我不,我没法,这从来不发生的,但事已至此。"
+ },
+ {
+  "seg": 496,
+  "start": 3292.197,
+  "end": 3294.259,
+  "speaker": "Unknown",
+  "en": "Let me know if y'all have any questions.",
+  "zh": "如果你们有任何问题告诉我。"
+ },
+ {
+  "seg": 497,
+  "start": 3295.58,
+  "end": 3297.902,
+  "speaker": "Unknown",
+  "en": "I'm here I guess for the next couple minutes.",
+  "zh": "接下来几分钟我大概就在这里。"
+ },
+ {
+  "seg": 498,
+  "start": 3299.664,
+  "end": 3300.124,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 499,
+  "start": 3308.852,
+  "end": 3309.052,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "好。"
+ },
+ {
+  "seg": 500,
+  "start": 3316.012,
+  "end": 3316.352,
+  "speaker": "Unknown",
+  "en": "I did.",
+  "zh": "我做了。"
+ },
+ {
+  "seg": 501,
+  "start": 3322.656,
+  "end": 3336.545,
+  "speaker": "Unknown",
+  "en": "I'm at a point now where I don't clear, like I let the context compact and I haven't really had issues like I would have maybe three, four months ago with the, I guess, the advancements that they have made.",
+  "zh": "我现在到了一个不会去清理的程度，比如我让上下文压缩，而且我不太会遇到问题，三四个月前我可能会有问题，我想是他们取得的进步。"
+ },
+ {
+  "seg": 502,
+  "start": 3336.565,
+  "end": 3338.807,
+  "speaker": "Unknown",
+  "en": "I just don't experience much degradation.",
+  "zh": "我基本感觉不到什么性能退化。"
+ },
+ {
+  "seg": 503,
+  "start": 3341.387,
+  "end": 3342.307,
+  "speaker": "Unknown",
+  "en": "Yeah, I do.",
+  "zh": "是的，我会。"
+ },
+ {
+  "seg": 504,
+  "start": 3343.227,
+  "end": 3350.791,
+  "speaker": "Unknown",
+  "en": "But if I really feel like it, I'll just create a new session and maybe copy and paste some of the stuff from the previous session into it.",
+  "zh": "但如果我真想这么做，我就新建一个会话，然后把上一个会话的一些内容复制粘贴过去。"
+ },
+ {
+  "seg": 505,
+  "start": 3355.233,
+  "end": 3357.634,
+  "speaker": "Unknown",
+  "en": "Yes, we have a massive booth here.",
+  "zh": "是的，我们在这里有一个很大的展位。"
+ },
+ {
+  "seg": 506,
+  "start": 3357.914,
+  "end": 3359.755,
+  "speaker": "Unknown",
+  "en": "So yeah, check us out.",
+  "zh": "所以，来看看我们吧。"
+ },
+ {
+  "seg": 507,
+  "start": 3368.28,
+  "end": 3368.641,
+  "speaker": "Unknown",
+  "en": "Codo?",
+  "zh": "Codo？"
+ },
+ {
+  "seg": 508,
+  "start": 3369.541,
+  "end": 3370.301,
+  "speaker": "Unknown",
+  "en": "Yes, yes.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 509,
+  "start": 3370.662,
+  "end": 3377.865,
+  "speaker": "Unknown",
+  "en": "Do you have any local options for security reasons?",
+  "zh": "出于安全原因，你们有本地部署的选项吗？"
+ },
+ {
+  "seg": 510,
+  "start": 3377.965,
+  "end": 3390.412,
+  "speaker": "Unknown",
+  "en": "Yes, we have on-prem deployments and pretty much all deployment options that you would want because we do work with banks and things like that and companies like some teams at NVIDIA.",
+  "zh": "有，我们有本地部署，以及基本上你想要的所有部署选项，因为我们和银行之类的机构合作，还有像 NVIDIA 的一些团队这样的公司。"
+ },
+ {
+  "seg": 511,
+  "start": 3390.932,
+  "end": 3393.333,
+  "speaker": "Unknown",
+  "en": "There's no other option but to do that.",
+  "zh": "没有别的选择，只能这么做。"
+ },
+ {
+  "seg": 512,
+  "start": 3393.413,
+  "end": 3395.254,
+  "speaker": "Unknown",
+  "en": "So yeah, we do that integration.",
+  "zh": "所以，我们做这种集成。"
+ },
+ {
+  "seg": 513,
+  "start": 3395.274,
+  "end": 3396.895,
+  "speaker": "Unknown",
+  "en": "Okay, thank you.",
+  "zh": "好的，谢谢。"
+ },
+ {
+  "seg": 514,
+  "start": 3399.601,
+  "end": 3400.141,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 515,
+  "start": 3400.161,
+  "end": 3410.104,
+  "speaker": "Unknown",
+  "en": "Let's see, where did, oh, there it is.",
+  "zh": "让我看看，刚才……哦，在这儿。"
+ },
+ {
+  "seg": 516,
+  "start": 3412.304,
+  "end": 3413.645,
+  "speaker": "Unknown",
+  "en": "And here is the fixed summary.",
+  "zh": "这是修复后的摘要。"
+ },
+ {
+  "seg": 517,
+  "start": 3420.766,
+  "end": 3421.467,
+  "speaker": "Unknown",
+  "en": "Yeah, it did.",
+  "zh": "是的，它做到了。"
+ },
+ {
+  "seg": 518,
+  "start": 3421.487,
+  "end": 3426.528,
+  "speaker": "Unknown",
+  "en": "I'm like not even, I don't even know what time it actually, it is right now.",
+  "zh": "我甚至……我都不知道现在到底是几点了。"
+ },
+ {
+  "seg": 519,
+  "start": 3427.732,
+  "end": 3429.534,
+  "speaker": "Unknown",
+  "en": "And how many things were resolved?",
+  "zh": "那有多少问题被解决了？"
+ },
+ {
+  "seg": 520,
+  "start": 3430.155,
+  "end": 3430.615,
+  "speaker": "Unknown",
+  "en": "All of them.",
+  "zh": "全部。"
+ },
+ {
+  "seg": 521,
+  "start": 3431.816,
+  "end": 3433.618,
+  "speaker": "Unknown",
+  "en": "All issues were resolved.",
+  "zh": "所有问题都被解决了。"
+ },
+ {
+  "seg": 522,
+  "start": 3435.66,
+  "end": 3435.96,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 523,
+  "start": 3437.161,
+  "end": 3437.402,
+  "speaker": "Unknown",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 524,
+  "start": 3438.363,
+  "end": 3438.883,
+  "speaker": "Unknown",
+  "en": "Thank you all.",
+  "zh": "谢谢大家。"
+ },
+ {
+  "seg": 525,
+  "start": 3439.584,
+  "end": 3441.085,
+  "speaker": "Unknown",
+  "en": "If you have any questions, I'll be out there.",
+  "zh": "如果你们有任何问题，我会在外面。"
+ },
+ {
+  "seg": 526,
+  "start": 3454.476,
+  "end": 3455.237,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

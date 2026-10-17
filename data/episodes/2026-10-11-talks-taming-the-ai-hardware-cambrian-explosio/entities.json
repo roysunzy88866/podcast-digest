@@ -1,0 +1,684 @@
+{
+  "episode_id": "2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 基础设施",
+    "推理",
+    "GPU",
+    "编程语言",
+    "开源"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "abdul-dakkak",
+      "type": "person",
+      "role": "guest",
+      "name": "Abdul Dakkak",
+      "file": "Abdul Dakkak",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "modular",
+      "type": "company",
+      "role": "company",
+      "name": "Modular",
+      "file": "Modular",
+      "primary": true,
+      "how_described": "本集嘉宾所在的公司，主张从零重新架构 AI 软件栈，构建统一所有硬件的统一层：底层 Mojo 语言、中间 Max 推理引擎、上层 Modular 云。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            19.486,
+            20.326
+          ],
+          "quote": "I'm from Modular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 3,
+          "t": [
+            20.887,
+            24.789
+          ],
+          "quote": "Today I'm gonna be talking about what Modular is and what value it brings to you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            206.37,
+            209.132
+          ],
+          "quote": "So putting it all together, we built a modular platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 33,
+          "t": [
+            221.415,
+            227.716
+          ],
+          "quote": "So it could be, if you have a cloud setup, you can actually download the modular cloud and deploy it there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            570.871,
+            574.642
+          ],
+          "quote": "Finally layered on top of all of this is the modular clouds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            609.45,
+            619.937
+          ],
+          "quote": "We also have a modular cloud lab that allows you to experiment with all these different parameters and pick the best point in the Pareto frontier that you have for that model or based on your workload as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            989.82,
+            993.921
+          ],
+          "quote": "You can pip install modular right now if you want to and try all of this stuff.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mojo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mojo",
+      "file": "Mojo",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            132.894,
+            142.338
+          ],
+          "quote": "So at the bottom-most level, we've developed Mojo, a heterogeneous programming language that's targeted towards AI as well as general-purpose programming as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            143.278,
+            149.081
+          ],
+          "quote": "It's kind of Pythonic in style, so folks that actually know Python today pretty much know 90% of Mojo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            158.189,
+            164.494
+          ],
+          "quote": "On top of that, we leverage Mojo to build Max, our inference engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            173.662,
+            178.646
+          ],
+          "quote": "We've built all our kernels underneath the hood that are built on top of Mojo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            234.398,
+            235.498
+          ],
+          "quote": "So the first is Mojo.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            236.985,
+            240.788
+          ],
+          "quote": "So Mojo, as I mentioned, is a Pythonic system programming language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            267.323,
+            276.548
+          ],
+          "quote": "In terms of how we think about Mojo, you know, you can think about, there's three different quadrants, usability, performance, and portability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            306.021,
+            311.747
+          ],
+          "quote": "And Mojo is trying to kind of fill the niche of the sweet spot where it's the best of both worlds.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            360.211,
+            366.355
+          ],
+          "quote": "One thing that we've announced a month ago or so is Mojo 1.0, the stabilization of our APIs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            367.475,
+            370.417
+          ],
+          "quote": "And we're going to be releasing Mojo 1.0 in the next few months.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            370.998,
+            374.52
+          ],
+          "quote": "And we're also open sourcing Mojo in the next few months as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            377.557,
+            379.718
+          ],
+          "quote": "Sitting on top of Mojo is Max.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            422.579,
+            444.216
+          ],
+          "quote": "So again, it's built from the ground up with the best technologies, with the best state-of-the-art graph compilers, the eager mode execution, it's portable across devices, it understands your mojo programs to do novel fusion, and it gives you the maximum performance and deployability that you're otherwise not able to do in regular PyTorch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            589.815,
+            601.418
+          ],
+          "quote": "We think of it as a glass box because you can actually tinker with all the variables that are available for you in both Macs, Mojo, and everything in between within your endpoints.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            954.52,
+            965.472
+          ],
+          "quote": "So if you're not familiar with Mojo or Max, you can actually use the AI skills to port from languages that you're familiar with into Mojo or Max.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "max",
+      "type": "concept",
+      "role": "concept",
+      "name": "Max",
+      "file": "Max",
+      "primary": true,
+      "how_described": "本集把 Max 说成用 Mojo 从头构建的推理引擎/框架，为今天的生成式 AI 推理设计，含最先进的图编译器、eager 执行、跨设备可移植，支持数千种模型架构与 OpenAI 兼容接口，内置多 GPU、多节点异构编程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            158.189,
+            164.494
+          ],
+          "quote": "On top of that, we leverage Mojo to build Max, our inference engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            377.557,
+            379.718
+          ],
+          "quote": "Sitting on top of Mojo is Max.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            381.278,
+            389.022
+          ],
+          "quote": "So Max is trying to kind of solve a few of the assumptions that were made back in the day for PyTorch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            418.976,
+            422.299
+          ],
+          "quote": "So think of a new approach, and we call that the MAX framework.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            460.772,
+            466.655
+          ],
+          "quote": "Within Max, we support thousands of models, in fact, thousands of architectures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            474.756,
+            486.087
+          ],
+          "quote": "So any model that you think about is practically supported in Max, and it has the same interface that you'd expect from what is standard today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            540.435,
+            559.021
+          ],
+          "quote": "So also the Max APIs provide you with a way to program multi-GPU system as well as multi-node systems from within the API so that the model is natively supported across different GPUs and different nodes as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            828.166,
+            837.715
+          ],
+          "quote": "This is just raw speed because we can leverage the hardware from the ground up and make sure that we're getting the max perf benefit from the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            946.852,
+            951.295
+          ],
+          "quote": "We've open sourced all of our model definitions, all of our max serve.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            954.52,
+            965.472
+          ],
+          "quote": "So if you're not familiar with Mojo or Max, you can actually use the AI skills to port from languages that you're familiar with into Mojo or Max.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集主线之一：AI 推理天然是分布式、异构的，现有推理栈让硬件差异渗透到上层、变得混乱；Modular 的整套三层结构都是为更好的推理服务，并给出比 vLLM 快 5.5 倍首字延迟等性能数字。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            158.189,
+            164.494
+          ],
+          "quote": "On top of that, we leverage Mojo to build Max, our inference engine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            164.634,
+            172.801
+          ],
+          "quote": "So that provides you with AI inference for a bunch of different modalities, like image, video, speech, as well as text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            180.11,
+            182.752
+          ],
+          "quote": "Finally, today's AI inference is distributed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            186.295,
+            204.688
+          ],
+          "quote": "You need to pick which hardware to deploy your model on, how to route different user requests to different machines, how to do KVCache offloading and distributed inference and disaggregated inference to be able to serve the model at the speed and the cost that folks expect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            391.442,
+            394.464
+          ],
+          "quote": "It was not really designed for the Gen.AI inference of today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            575.832,
+            579.673
+          ],
+          "quote": "So as I mentioned, today's AI inference is distributed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            847.881,
+            855.292
+          ],
+          "quote": "Again, it means you can open up applications that are otherwise kind of not possible because of slow inference.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集说 GPU 种类正经历「寒武纪大爆发」（NVIDIA 几代产品、AMD 等），编程困难；Mojo/Max 让同一套代码跨 GPU 运行，并在 B200、MI355 等硬件上给出基准数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            540.435,
+            559.021
+          ],
+          "quote": "So also the Max APIs provide you with a way to program multi-GPU system as well as multi-node systems from within the API so that the model is natively supported across different GPUs and different nodes as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            715.635,
+            727.538
+          ],
+          "quote": "We can also get 1.5x throughput improvements, so the token per minute per GPU is 1.5x faster on B200 than it is on VLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            790.746,
+            800.343
+          ],
+          "quote": "You have to factor in the cost per GPU and AMD is usually 30% cheaper than the NVIDIA equivalent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "type": "concept",
+      "role": "concept",
+      "name": "PyTorch",
+      "file": "PyTorch",
+      "primary": true,
+      "how_described": "本集说 PyTorch 约有 10 年历史，并非为今天的生成式 AI 推理设计，导致 vLLM、SGLang 等补丁层把生态搞复杂；Max 是对这套假设的重新清算，但开发模型仍用 Python、对 PyTorch 用户友好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            381.278,
+            389.022
+          ],
+          "quote": "So Max is trying to kind of solve a few of the assumptions that were made back in the day for PyTorch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            389.042,
+            390.562
+          ],
+          "quote": "PyTorch is about 10 years old.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            405.73,
+            410.116
+          ],
+          "quote": "But all of that kind of complicated the entire PyTorch ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            410.257,
+            414.122
+          ],
+          "quote": "A lot of folks don't really use PyTorch as is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            422.579,
+            444.216
+          ],
+          "quote": "So again, it's built from the ground up with the best technologies, with the best state-of-the-art graph compilers, the eager mode execution, it's portable across devices, it understands your mojo programs to do novel fusion, and it gives you the maximum performance and deployability that you're otherwise not able to do in regular PyTorch.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            494.525,
+            505.394
+          ],
+          "quote": "If you're familiar with PyTorch programming, the figure on the right or the left will not be a massive departure of your mental model.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kernel",
+      "type": "concept",
+      "role": "concept",
+      "name": "核函数 (kernel)",
+      "file": "核函数",
+      "primary": true,
+      "how_described": "本集说他们在 NVIDIA、AMD 等硬件上构建了最先进的 kernel，几乎全部开源（超 70 万行），矩阵乘法与 attention 内核快过官方库和 FlashAttention 4。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            348.663,
+            359.65
+          ],
+          "quote": "We have the fastest attention kernel out there, faster than flash attention 4, as well as the AI iter and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            942.11,
+            946.312
+          ],
+          "quote": "We have over 700,000 lines of kernel code that we've open sourced.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            974.152,
+            982.935
+          ],
+          "quote": "So as you probably know, we hire from low-level kernel engineers to high-level folks that work on Kubernetes and everything in between.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": false,
+      "how_described": "本集把它当作当前主流推理框架/对比基线：架构图复杂、Kimi K2.5 上 TTFT 比 Modular 慢 5.5 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            94.595,
+            103.397
+          ],
+          "quote": "Now today, folks actually deploy not only using VLLM, but also SGLang, TRTLM, LlamaCPP, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            694.434,
+            700.016
+          ],
+          "quote": "And this is against state-of-the-art, the best combination of VLLM or SGLang.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            705.698,
+            709.04
+          ],
+          "quote": "So in terms of Kimi K2.5, we're 5.5 faster on TTFT compared to VLLM.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sglang",
+      "type": "concept",
+      "role": "concept",
+      "name": "SGLang",
+      "file": "SGLang",
+      "primary": false,
+      "how_described": "本集提到的另一主流推理框架，与 vLLM 并列作为部署现状和性能对比对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            94.595,
+            103.397
+          ],
+          "quote": "Now today, folks actually deploy not only using VLLM, but also SGLang, TRTLM, LlamaCPP, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            395.624,
+            402.867
+          ],
+          "quote": "As a result, you have like VLM and SGLang that stepped into the void to give you things like KVCache, page attention, and things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            694.434,
+            700.016
+          ],
+          "quote": "And this is against state-of-the-art, the best combination of VLLM or SGLang.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "artificial-analysis",
+      "type": "company",
+      "role": "company",
+      "name": "Artificial Analysis",
+      "file": "Artificial Analysis",
+      "primary": false,
+      "how_described": "本集说 Modular 与其合作，由它独立验证性能结果：Flux 2 dev 模型上比下一名竞争者快约 3 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 123,
+          "t": [
+            803.015,
+            810.942
+          ],
+          "quote": "Artificial analysis, actually, we've been partnering with them and they've independently been verifying our results.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            840.298,
+            844.182
+          ],
+          "quote": "And you can actually go to artificial analysis today and see these results.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "speculative decoding",
+      "reason": "专名「speculative decoding」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

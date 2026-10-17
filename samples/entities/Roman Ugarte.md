@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":88,"SpaceXAI":1,"OpenClaw":25,"OpenAI":208,"Anthropic":206,"Codex":91,"Cowork":6,"Salesforce":36,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Grok Bot":1,"Cursor":88,"SpaceXAI":1,"OpenClaw":25,"OpenAI":208,"Anthropic":206,"Codex":92,"Cowork":6,"Salesforce":36,"智能体":1}</script>
 
 <script>
 (function(){

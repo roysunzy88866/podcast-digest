@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":206,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":22,"Curative":1,"TL Biolabs":1,"Subcritical":1,"Anthropic":206,"Salesforce":36,"YC":17,"Sentry":6,"智能体":1,"SaaS 已死":1}</script>
 
 <script>
 (function(){

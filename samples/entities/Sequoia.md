@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sequoia</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Sequoia">SE</div><div class="pi"><h1 class="pt">Sequoia</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Sequoia">SE</div><div class="pi"><h1 class="pt">Sequoia</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds|《从 NFL 超级碗到 40 亿美元基金：运动员如何真正做好风险投资》]]**(32:20起):本集把它列为值得研究排名和持续高水平表现原因的顶级机构之一。
 - **[[2026-09-17-thepeel-building-a-venture-firm-like-a-product|《轮次标签已死：一位早期风投人的进化手册》]]**(02:56起):被反复引用的顶级机构:当天早上做了一个 6000 万美元的「种子轮」,证明轮次标签已失效;也是新基金不应正面竞争的对象
 - **[[2026-09-28-pmf-he-runs-3-dinners-a-week-instead-of-cold|《Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售》]]**(00:00起):本集说 Sandstone 辞职当天就从它融了 pre-seed，没带 deck 只带客户视频；Nick 强调「Sequoia 投资我们，其实是 Bogomil 在投资我们」。
+- **[[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]]**(00:00起):本集说红杉是一台机器:帮招聘、营销、发布,LangChain 不少候选人来自其人才网络;为它打折值得。
 
 ## ① 提到它的金句
 
@@ -29,7 +30,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-02-15-lennys-sequoia-ceo-coach-why-its-never-been|《Brian Halligan：CEO 的实战手册》]] — 作为被讨论公司(提及)
 - [[2026-08-24-twentyvc-20vc-inside-sequoia-s-investment-committ|《Sequoia 合伙人拆解：如何判断创始人、读懂智能体经济》]] — 作为被讨论公司
@@ -38,14 +39,15 @@ unlisted: true
 - [[2026-09-03-thepeel-how-athletes-get-into-the-top-vc-funds|《从 NFL 超级碗到 40 亿美元基金：运动员如何真正做好风险投资》]] — 作为被讨论公司(提及)
 - [[2026-09-17-thepeel-building-a-venture-firm-like-a-product|《轮次标签已死：一位早期风投人的进化手册》]] — 作为被讨论公司
 - [[2026-09-28-pmf-he-runs-3-dinners-a-week-instead-of-cold|《Sandstone 创始人：pre-seed 当天从 Sequoia 融资、没 PMF 就先雇顶级销售》]] — 作为被讨论公司
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Salesforce]] · [[Harry Stebbings]] · [[Turner]] · [[Microsoft]] · [[SpaceX]] · [[投资组合构建]] · [[McKinsey]] · [[OpenAI]]
+[[智能体]] · [[Harry Stebbings]] · [[Anthropic]] · [[Fireworks]] · [[Salesforce]] · [[SpaceX]] · [[Turner]] · [[OpenRouter]] · [[Microsoft]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"Salesforce":36,"Harry Stebbings":21,"Turner":3,"Microsoft":34,"SpaceX":23,"投资组合构建":2,"McKinsey":7,"OpenAI":208}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Harry Stebbings":22,"Anthropic":206,"Fireworks":9,"Salesforce":36,"SpaceX":23,"Turner":3,"OpenRouter":15,"Microsoft":34,"OpenAI":208}</script>
 
 <script>
 (function(){

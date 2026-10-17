@@ -1,0 +1,167 @@
+{
+  "title_zh": "AI芯片太多，软件太乱：Modular想从头重写整套底层",
+  "tldr": "Modular的Abdul Dakkak讲他们如何用新语言Mojo和推理引擎Max统一各家芯片上的AI开发。",
+  "digest_md": "算力紧张，芯片却越来越多。NVIDIA几代GPU、Intel、Arm、Apple都在抢占不同的细分市场。Dakkak把这称为硬件的寒武纪大爆发：芯片种类爆炸式增长，但没人回答一个基本问题——==这些系统到底该怎么编程==？[00:39 Unknown]\n\n更糟的是软件。今天的推理栈里，各种硬件差异会一路渗透到上层，让整个系统变成一团乱麻。他以主流推理框架为例：光是同时支持NVIDIA和AMD，架构图就已经很复杂，再加几家硬件厂商更没法看。而实际部署中，大家还同时在用多个不同的推理框架。\n\nModular的想法是：别再打补丁了，推倒重来，做一个统一层，让所有硬件都能在同一套软件栈上跑。\n\n## 三层积木：语言、引擎、云\n\n整套东西分三层。最底层是编程语言Mojo，一种面向AI和通用编程的异构语言，风格接近Python——会Python的人等于已经会了九成Mojo。[02:12 Unknown]它同时支持CPU、GPU和其他加速器。\n\n中间层是推理引擎Max，用Mojo写成，支持图像、视频、语音、文本等多种模态。\n\n最上面是Modular云。因为今天的AI推理天然是分布式的：要决定模型跑在哪个硬件上、用户请求怎么路由、缓存怎么卸载。云平台还带一个实验环境，让你调各种参数，找到适合自己工作负载的最佳平衡点。\n\n## Mojo想同时要性能、易用和可移植\n\n怎么理解Mojo的位置？Dakkak画了三个维度：易用性、性能、可移植性。CUDA性能顶级，但既难写又绑死一家硬件；早年流行的OpenCL可移植性好，但性能和易用性都差；Triton拿到了七成性能，兼顾了另外两项。Mojo想占的就是这个甜点位——**既能写可移植、好懂的核函数，又保留底层控制力，把性能榨到极致**。[05:06 Unknown]\n\n成绩单也拿得出来：他们的矩阵乘法比现成的 BLAS 库（kube losses、hip losses，即官方矩阵乘法库）以及外面所有的实现都快，有些场景快 2%；注意力核函数号称超过 FlashAttention 4。[05:36 Unknown]这些核函数几乎全部开源了，任何人都能下载来在自己机器上跑分验证。Mojo 1.0将在未来几个月发布并开源。[06:07 Unknown]\n\n> 【背景】原文转写中的 \"kube losses / hip losses\" 应指 NVIDIA 的 cuBLAS 与 AMD 的 hipBLAS 矩阵乘法库。\n\n## Max是对PyTorch十年老账的重新清算\n\n==为什么还需要Max==?Dakkak的判断是：**PyTorch大约10岁了，设计时根本没考虑今天的生成式AI推理**。于是出现了各种补丁层，把整个生态越搞越复杂——很多人其实已经不直接用PyTorch本身了。[06:26 Unknown]\n\nMax就是为AI推理从头造的替代品：最好的图编译器、支持即时执行方便调试、跨设备可移植、能理解Mojo代码做更激进的融合优化。接口上对PyTorch用户很友好，开发模型还是用Python。它支持数千种模型架构，从Gemma 4到MiniMax 3到GLM,并提供标准的OpenAI兼容接口。[07:40 Unknown]\n\n一个有意思的能力：多GPU、多节点编程直接内置在接口里，而且可以异构——比如预填充阶段跑在A硬件上，解码阶段跑在B硬件上。[09:19 Unknown]\n\n## 快多少？最狠的数字是7倍\n\n性能是这场演讲的核心卖点，而且不少数字经过第三方独立验证：\n\n- Kimi K2.5的首字延迟比vLLM快5.5倍，B200上每GPU每分钟token吞吐量是1.5倍；[11:45 Unknown]\n- 图像生成模型Flux 2,比编译版diffusers快约7倍；\n- 在AMD的MI355系统上比对手快4倍——而且AMD的GPU通常比NVIDIA同档便宜30%,总拥有成本优势更大；[12:56 Unknown]\n- 与Artificial Analysis合作独立验证，Flux 2 dev模型上比下一名竞争者快约3倍，而且「不是蒸馏和量化之类的把戏」，纯粹是底层榨硬件的裸速度；[13:23 Unknown]\n\n他强调这些优化还在持续，只是刚起步。\n\n## 快，意味着新的应用形态\n\n这些数字对普通人意味着什么？Dakkak放了一段现场演示：图像生成可以做到亚秒级，很多情况只要0.3秒。[14:31 Unknown]当生成不再需要等待，**一些原本因为推理太慢而做不了的应用就打开了**——比如现场那个一边读摄像头画面一边实时渲染的演示。\n\n最后他的态度很实在：这不是演示用的幻灯片，现在就可以用一行命令安装Modular来试用所有功能，欢迎大家自己去验证这些结果。[16:26 Unknown]\n\n## 本集带走\n\n- AI硬件正经历寒武纪大爆发，但软件栈没跟上，成为整个行业的痛点\n- Modular的方案是三层：Python风格的系统语言Mojo、推理引擎Max、可部署的Modular云\n- Mojo瞄准性能、易用性、可移植性三者的平衡点，核函数开源超70万行，Mojo 1.0即将发布并开源\n- Max重写了为AI推理设计的新框架，替代给PyTorch打补丁的做法，支持异构多节点部署\n- 性能数字包括：Flux 2快7倍、Kimi K2.5首字延迟快5.5倍，部分经Artificial Analysis独立验证",
+  "quotes": [
+    {
+      "en": "Let's re-architect the stack from the ground up, and let's build a unifying layer that unifies all the hardware, so everything runs on our stack.",
+      "zh": "让我们从零开始重新架构整个技术栈，构建一个统一所有硬件的统一层，让一切都运行在我们的技术栈上。",
+      "timestamp": "01:48",
+      "speaker": "Abdul Dakkak"
+    },
+    {
+      "en": "We have the fastest attention kernel out there, faster than flash attention 4, as well as the AI iter and things like that.",
+      "zh": "我们有目前最快的 attention 内核，比 flash attention 4 之类的还要快。",
+      "timestamp": "05:48",
+      "speaker": "Abdul Dakkak"
+    },
+    {
+      "en": "PyTorch is about 10 years old. It was not really designed for the Gen.AI inference of today.",
+      "zh": "PyTorch 大约有 10 年历史了，它并不是真正为今天的 GenAI 推理而设计的。",
+      "timestamp": "06:29",
+      "speaker": "Abdul Dakkak"
+    },
+    {
+      "en": "So in terms of Kimi K2.5, we're 5.5 faster on TTFT compared to VLLM.",
+      "zh": "以 Kimi K2.5 为例，在 TTFT 上我们比 VLLM 快 5.5 倍。",
+      "timestamp": "11:45",
+      "speaker": "Abdul Dakkak"
+    },
+    {
+      "en": "You have to factor in the cost per GPU and AMD is usually 30% cheaper than the NVIDIA equivalent.",
+      "zh": "你必须把每块 GPU 的成本算进去，而 AMD 通常比同等的 NVIDIA 便宜 30%。",
+      "timestamp": "13:10",
+      "speaker": "Abdul Dakkak"
+    },
+    {
+      "en": "And this is not playing tricks of distillation and quantization or anything like that. This is just raw speed because we can leverage the hardware from the ground up and make sure that we're getting the max perf benefit from the model.",
+      "zh": "而且这不是靠蒸馏和量化之类的把戏，这就是纯粹的原始速度，因为我们能从底层充分调动硬件，确保从模型中获得最大的性能收益。",
+      "timestamp": "13:42",
+      "speaker": "Abdul Dakkak"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "00:26",
+      "speaker": "Unknown",
+      "en": "So as you probably know, today there is a huge crunch for compute. And there's like no alleviation in sight.",
+      "zh": "如你所知，如今算力出现巨大紧缺，而且短期内看不到缓解的迹象。"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Unknown",
+      "en": "We call it like a Cambrian explosion.",
+      "zh": "我们把它称为寒武纪大爆发。"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Unknown",
+      "en": "Now, if you look at the current software as it is today, it's kind of a mess as well.",
+      "zh": "现在如果你看看当今的软件现状，它同样是一团糟。"
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Unknown",
+      "en": "So this is a diagram showing how VLM supports both NVIDIA and AMD. If you add extra hardware, the diagram becomes even more difficult.",
+      "zh": "这张图展示了 VLM 如何同时支持 NVIDIA 和 AMD。如果你加入额外的硬件，这张图会变得更加复杂。"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Unknown",
+      "en": "Let's re-architect the stack from the ground up, and let's build a unifying layer that unifies all the hardware, so everything runs on our stack.",
+      "zh": "让我们从零开始重新架构整个技术栈，构建一个统一所有硬件的统一层，让一切都运行在我们的技术栈上。"
+    },
+    {
+      "timestamp": "02:23",
+      "speaker": "Unknown",
+      "en": "It's kind of Pythonic in style, so folks that actually know Python today pretty much know 90% of Mojo.",
+      "zh": "它的风格有点像 Python，所以今天熟悉 Python 的人基本上已经掌握了 90% 的 Mojo。"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Unknown",
+      "en": "A lot of folks use agents to actually program these systems nowadays.",
+      "zh": "如今很多人实际上使用智能体来为这些系统编程。"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Unknown",
+      "en": "And Mojo is trying to kind of fill the niche of the sweet spot where it's the best of both worlds.",
+      "zh": "而 Mojo 试图填补的正是这个最佳平衡点的生态位，做到两全其美。"
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Unknown",
+      "en": "And it's not by 1%.",
+      "zh": "而且不是快 1%。"
+    },
+    {
+      "timestamp": "05:48",
+      "speaker": "Unknown",
+      "en": "We have the fastest attention kernel out there, faster than flash attention 4, as well as the AI iter and things like that.",
+      "zh": "我们有目前最快的 attention 内核，比 flash attention 4 之类的还要快。"
+    },
+    {
+      "timestamp": "06:21",
+      "speaker": "Unknown",
+      "en": "So Max is trying to kind of solve a few of the assumptions that were made back in the day for PyTorch.",
+      "zh": "Max 试图解决的是当年 PyTorch 所做的一些假设。"
+    },
+    {
+      "timestamp": "06:29",
+      "speaker": "Unknown",
+      "en": "PyTorch is about 10 years old. It was not really designed for the Gen.AI inference of today.",
+      "zh": "PyTorch 大约有 10 年历史了，它并不是真正为今天的 GenAI 推理而设计的。"
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Unknown",
+      "en": "A lot of folks don't really use PyTorch as is. They're resorting to these layers on top.",
+      "zh": "很多人实际上并不按原样使用 PyTorch，他们求助于这些叠加在上面的层。"
+    },
+    {
+      "timestamp": "09:20",
+      "speaker": "Unknown",
+      "en": "So there's nothing to stop you from saying the prefill is on hardware X and the decode is on hardware Y.",
+      "zh": "没有什么能阻止你说 prefill 在硬件 X 上，而 decode 在硬件 Y 上。"
+    },
+    {
+      "timestamp": "11:21",
+      "speaker": "Unknown",
+      "en": "You're not beholden to one hardware provider.",
+      "zh": "你不必受制于某一家硬件供应商。"
+    },
+    {
+      "timestamp": "11:45",
+      "speaker": "Unknown",
+      "en": "So in terms of Kimi K2.5, we're 5.5 faster on TTFT compared to VLLM.",
+      "zh": "以 Kimi K2.5 为例，在 TTFT 上我们比 VLLM 快 5.5 倍。"
+    },
+    {
+      "timestamp": "13:10",
+      "speaker": "Unknown",
+      "en": "You have to factor in the cost per GPU and AMD is usually 30% cheaper than the NVIDIA equivalent.",
+      "zh": "你必须把每块 GPU 的成本算进去，而 AMD 通常比同等的 NVIDIA 便宜 30%。"
+    },
+    {
+      "timestamp": "13:42",
+      "speaker": "Unknown",
+      "en": "And this is not playing tricks of distillation and quantization or anything like that. This is just raw speed because we can leverage the hardware from the ground up and make sure that we're getting the max perf benefit from the model.",
+      "zh": "而且这不是靠蒸馏和量化之类的把戏，这就是纯粹的原始速度，因为我们能从底层充分调动硬件，确保从模型中获得最大的性能收益。"
+    },
+    {
+      "timestamp": "14:07",
+      "speaker": "Unknown",
+      "en": "Again, it means you can open up applications that are otherwise kind of not possible because of slow inference.",
+      "zh": "这意味着你可以打开那些原本因为推理太慢而几乎不可能实现的应用。"
+    },
+    {
+      "timestamp": "16:26",
+      "speaker": "Unknown",
+      "en": "So this is not demo-ware or slide-ware. You can pip install modular right now if you want to and try all of this stuff.",
+      "zh": "这不是演示用的或幻灯片上的东西。你现在就可以 pip install modular，然后试用所有这些东西。"
+    }
+  ],
+  "voice_script": "今天这期,咱们聊一个特别基础、但很多人没意识到的问题:AI芯片这么多,软件却这么乱。主角叫Modular,一家想从头重写整个AI底层软件的公司,来的人是Dakkak。这一集讲的事情一句话就能说明白:怎么让所有芯片,都能在同一套软件栈上跑。\n\n先把来龙去脉垫一下。现在算力紧张,但芯片反而越来越多——NVIDIA几代GPU、Intel、Arm、Apple,各抢各的细分市场。Dakkak管这叫硬件的寒武纪大爆炸:芯片种类爆炸式增长,可没人回答一个最基本的问题——这些系统到底该怎么编程?\n\n更糟的是软件这头。今天的推理栈里,各家硬件的差异会一路渗透到上层,整个系统变成一团乱麻。举个例子,主流的推理框架,光是同时支持NVIDIA和AMD,架构图就已经复杂得没法看,再加几家厂商,更没法想象。而实际部署的时候,大家还同时在用好几个不同的推理框架。所以Modular的想法是:别再打补丁了,推倒重来,做一个统一层。\n\n那这套东西长什么样?分三层积木。最底下是编程语言,叫Mojo。这是一种面向AI的异构语言——所谓异构,就是CPU、GPU、各种加速器都能用同一种语言写。风格特别接近Python,会Python的人等于已经会了九成Mojo。\n\n中间那层是推理引擎Max,用Mojo写成,支持图像、视频、语音、文本各种模态。最上面是Modular云。为什么还要个云?因为今天的AI推理天然是分布式的:模型跑在哪个硬件上、用户请求怎么路由、缓存怎么卸载,这些事总得有人管。\n\n那Mojo在行业里处在什么位置?Dakkak画了三个维度:易用性、性能、可移植性。CUDA性能顶级,但难写,而且绑死一家硬件;早年流行的OpenCL可移植性好,但性能和易用性都差;后来的Triton拿到了七成性能,兼顾了另外两项。Mojo想占的,就是这个甜点位——既能写可移植、好懂的核函数,又保留底层控制力,把性能榨到极致。成绩单也拿得出来:矩阵乘法比官方的cuBLAS和hipBLAS这些现成库都快,注意力核函数号称超过了FlashAttention 4。而且这些核函数几乎全部开源了,任何人都能下载到自己机器上跑分验证。Mojo 1.0也会在未来几个月发布并开源。\n\n说到这,你可能会问:推理框架已经有PyTorch了,为什么还要再造一个Max?Dakkak的判断很直接:PyTorch大约10岁了,设计的时候根本没考虑今天的生成式AI推理。于是这些年出现了各种补丁层,把生态越搞越复杂——很多人其实已经不直接用PyTorch本身了。Max就是为AI推理从头造的替代品:有最好的图编译器,支持即时执行方便调试,还能理解Mojo代码、做更激进的融合优化。接口上对PyTorch用户很友好,写模型还是用Python。它支持数千种模型架构,从Gemma 4到MiniMax 3到GLM,还提供标准的OpenAI兼容接口。有个挺有意思的能力:多GPU、多节点的编程直接内置在接口里,而且可以异构——比如预填充阶段跑在一种硬件上,解码阶段跑在另一种上。\n\n那到底快多少?这才是这场演讲的核心卖点,而且不少数字经过第三方独立验证。Kimi K2.5的首字延迟,比vLLM快5.5倍;图像生成模型Flux 2,比编译版的diffusers快约7倍;在AMD的MI355系统上比对手快4倍——考虑到AMD的GPU通常比NVIDIA同档便宜30%,总拥有成本优势就更大了。还有和Artificial Analysis合作的独立验证:Flux 2 dev模型上,比下一名竞争者快约3倍。关键在于,这不是靠蒸馏和量化之类的把戏,这就是纯粹的原始速度,因为能从底层充分调动硬件。而且Dakkak强调,这些优化还在持续,只是刚起步。\n\n这些数字对普通人意味着什么?现场有个演示:图像生成做到了亚秒级,很多情况只要0.3秒。当生成不再需要等待,一些原本因为推理太慢而做不了的应用就打开了——比如那个一边读摄像头画面、一边实时渲染的演示。\n\nDakkak最后的态度很实在:这不是演示用的幻灯片,现在就可以用一行命令安装Modular,把所有功能试一遍,欢迎你自己去验证这些结果。从零开始重新架构整个技术栈,构建一个统一所有硬件的统一层——这就是Modular正在做的事。"
+}

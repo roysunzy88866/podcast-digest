@@ -105,7 +105,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Google]] · [[Meta]] · [[Amazon]] · [[Apple]] · [[NVIDIA]] · [[推理]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"Anthropic":206,"智能体":1,"Google":72,"Meta":56,"Amazon":36,"Apple":27,"NVIDIA":72,"推理":103,"ChatGPT":115}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"Anthropic":206,"智能体":1,"Google":72,"Meta":56,"Amazon":36,"Apple":27,"NVIDIA":72,"推理":105,"ChatGPT":115}</script>
 
 <script>
 (function(){

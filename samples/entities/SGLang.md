@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SGLang</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SGLang">SG</div><div class="pi"><h1 class="pt">SGLang</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SGLang">SG</div><div class="pi"><h1 class="pt">SGLang</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,6 +15,7 @@ unlisted: true
 - **[[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]]**(11:29起):本集把 SGLang 与 vLLM 并列为推理的服务运行时和技术栈例子
 - **[[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]]**(01:38起):本集用来拆解内部架构的典型开源推理引擎,由一组相互通信的进程组成,有多个 token 化进程和一个调度器
 - **[[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]]**(33:29起):本集把它与 vLLM 并列为很好的开源推理引擎起点,几乎所有推理云都已改用这类开源引擎做调优。
+- **[[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|《AI芯片太多，软件太乱：Modular想从头重写整套底层》]]**(01:34起):本集提到的另一主流推理框架，与 vLLM 并列作为部署现状和性能对比对象。
 
 ## ① 提到它的金句
 
@@ -24,20 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念(提及)
 - [[2026-09-19-talks-operating-distributed-inference-systems|《推理已成一个分布式系统问题:Meta 讲透大规模推理的编排之道》]] — 作为概念(提及)
 - [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]] — 作为被讨论公司
 - [[2026-10-06-unsupervised-ep-94-applied-compute-ceo-on-the-limits|《每家公司都该有自己的AI模型吗？》]] — 作为被讨论公司(提及)
+- [[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|《AI芯片太多，软件太乱：Modular想从头重写整套底层》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[vLLM]] · [[智能体]] · [[投机解码]] · [[Modal]] · [[GPU]] · [[Kubernetes]] · [[可观测性]] · [[OpenAI]] · [[Cognition]]
+[[推理]] · [[vLLM]] · [[智能体]] · [[GPU]] · [[投机解码]] · [[Modal]] · [[可观测性]] · [[PyTorch]] · [[Kubernetes]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"推理":103,"vLLM":8,"智能体":1,"投机解码":1,"Modal":8,"GPU":35,"Kubernetes":22,"可观测性":49,"OpenAI":208,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"推理":105,"vLLM":9,"智能体":1,"GPU":36,"投机解码":1,"Modal":9,"可观测性":49,"PyTorch":4,"Kubernetes":22,"OpenAI":208}</script>
 
 <script>
 (function(){

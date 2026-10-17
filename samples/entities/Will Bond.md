@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":20,"uReview":1,"自动化代码评审":1,"代码审查":27,"智能体化的 SDLC":1,"智能体":1,"可观测性":49,"护栏":94,"内环与外环":3}</script>
+<script type="application/json" class="pd-epn">{"Ameya Ketkar":1,"Uber":20,"uReview":1,"自动化代码评审":1,"代码审查":28,"智能体化的 SDLC":1,"智能体":1,"可观测性":49,"护栏":94,"内环与外环":3}</script>
 
 <script>
 (function(){

@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":4,"产品构建者":3,"AI 产品经理":1,"Claude":99,"ChatGPT":115,"Codex":91,"wipe coding":1,"智能体 AI":6,"提示词工程":3,"RAG":31}</script>
+<script type="application/json" class="pd-epn">{"Aakash":4,"产品构建者":3,"AI 产品经理":1,"Claude":99,"ChatGPT":115,"Codex":92,"wipe coding":1,"智能体 AI":6,"提示词工程":3,"RAG":31}</script>
 
 <script>
 (function(){

@@ -168,8 +168,8 @@ ASIC 芯片在模型定制化场景下非常理想。如果你要做大量模型
 **顺着「智能体」挖下去**
 
 - [[2026-10-11-talks-stop-renting-intelligence-the-train-to-d|别再租用智能:开源模型怎么训练到部署一把抓]]<span class="pd-rz">同公司:Fireworks、Cursor · 同概念:开源模型 (open source models)、智能体 (agent)、推理 (inference)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同公司:Fireworks、OpenRouter · 同概念:开源模型 (open source models)、智能体 (agent)、推理 (inference)</span>
 - [[2026-08-06-talks-the-state-of-model-routing-nvidia-cognit|不靠一个模型打天下:多模型路由的早期探索与实战权衡]]<span class="pd-rz">同公司:OpenRouter · 同概念:前沿模型 (frontier models)、开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同概念:前沿模型 (frontier models)、智能体 (agent)、沙箱 (sandbox)</span>
 
 </div>
 <div class="pd-ex">

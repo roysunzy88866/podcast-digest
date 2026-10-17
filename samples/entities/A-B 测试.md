@@ -33,7 +33,7 @@ unlisted: true
 
 [[Vali]] · [[Sydney]] · [[Luca Ferrari]] · [[LangChain]] · [[Bending Spoons]] · [[LangSmith]] · [[AOL]] · [[OpenSWE]] · [[Grindr]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Vali":1,"Sydney":2,"Luca Ferrari":3,"LangChain":15,"Bending Spoons":3,"LangSmith":7,"AOL":3,"OpenSWE":1,"Grindr":1,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Vali":1,"Sydney":2,"Luca Ferrari":3,"LangChain":16,"Bending Spoons":3,"LangSmith":7,"AOL":3,"OpenSWE":1,"Grindr":1,"智能体":1}</script>
 
 <script>
 (function(){

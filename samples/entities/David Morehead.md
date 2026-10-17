@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"捐赠基金":1,"LP":2,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":22,"捐赠基金":1,"LP":2,"GP":1,"资本的速度":1,"复合":2,"私募":1,"成长型股权":1,"fund of one":1,"混合基金":1}</script>
 
 <script>
 (function(){

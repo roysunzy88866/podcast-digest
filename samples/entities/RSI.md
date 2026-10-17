@@ -51,7 +51,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[对齐]] · [[后训练]] · [[奖励黑客]] · [[缩放定律]] · [[推理]] · [[沙箱]] · [[Cursor]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Anthropic":206,"对齐":25,"后训练":1,"奖励黑客":12,"缩放定律":18,"推理":103,"沙箱":104,"Cursor":88}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Anthropic":206,"对齐":25,"后训练":1,"奖励黑客":12,"缩放定律":18,"推理":105,"沙箱":104,"Cursor":88}</script>
 
 <script>
 (function(){

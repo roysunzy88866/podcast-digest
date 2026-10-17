@@ -157,7 +157,7 @@ Suji 最后提醒：
 
 - [[2026-09-19-twentyvc-20vc-anti-data-centres-is-a-chinese-psyo|推理才是赚钱的生意：Positron 联合创始人谈内存墙、缓存暴利与「守住前沿」之争]]<span class="pd-rz">同公司:NVIDIA · 同概念:KV cache、推理 (inference)、量化 (quantization)</span>
 - [[2026-05-20-talks-the-infrastructure-behind-ai-agents-with|Base 10 的 Julian：推理正在从「租用智能」走向「拥有智能」]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、推理 (inference)</span>
-- [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、微调 (fine-tuning)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

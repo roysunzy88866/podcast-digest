@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[Jensen Huang]] · [[Guillermo Rauch]] · [[Jerry]] · [[Vercel]] · [[NVIDIA]] · [[编码智能体]] · [[Sega]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"Jensen Huang":4,"Guillermo Rauch":1,"Jerry":1,"Vercel":22,"NVIDIA":72,"编码智能体":38,"Sega":1,"开源模型":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"Jensen Huang":4,"Guillermo Rauch":1,"Jerry":1,"Vercel":22,"NVIDIA":72,"编码智能体":40,"Sega":1,"开源模型":4}</script>
 
 <script>
 (function(){

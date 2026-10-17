@@ -126,9 +126,9 @@ Fireworks 把训练和推理放在同一平台，保证训练完部署不会出�
 
 **顺着「智能体」挖下去**
 
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同公司:Fireworks · 同概念:开源模型 (open source models)、推理 (inference)、智能体 (agent)</span>
 - [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同公司:Fireworks、Cursor · 同概念:开源模型 (open source models)、智能体 (agent)、推理 (inference)</span>
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]]<span class="pd-rz">同概念:投机解码 (speculative decoding)、推理 (inference)、智能体 (agent)、Kubernetes</span>
-- [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言]]<span class="pd-rz">同公司:Cursor、Fireworks · 同概念:推理 (inference)</span>
 
 </div>
 <div class="pd-ex">

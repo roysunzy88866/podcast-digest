@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":4,"Codex":91,"Cursor":88,"obsidian":2,"hey gen":1,"智能体":1,"上下文":35,"护栏":94,"Figma":23,"VS Code":6}</script>
+<script type="application/json" class="pd-epn">{"Akash":4,"Codex":92,"Cursor":88,"obsidian":2,"hey gen":1,"智能体":1,"上下文":35,"护栏":94,"Figma":23,"VS Code":6}</script>
 
 <script>
 (function(){

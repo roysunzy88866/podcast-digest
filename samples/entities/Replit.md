@@ -74,7 +74,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[ChatGPT]] · [[Cursor]] · [[vibe coding]] · [[Lenny]] · [[Lovable]] · [[LLM]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":208,"ChatGPT":115,"Cursor":88,"vibe coding":52,"Lenny":69,"Lovable":20,"LLM":66,"推理":103}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":208,"ChatGPT":115,"Cursor":88,"vibe coding":52,"Lenny":69,"Lovable":20,"LLM":66,"推理":105}</script>
 
 <script>
 (function(){

@@ -147,7 +147,7 @@ LangChain 的做法是[[微调|微调]]出一个专门的“裁判模型”，�
 
 - [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:LangChain · 同概念:后训练 (post-training)、微调 (fine tuning)、智能体 (agent)、测试框架 (harness)</span>
 - [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]]<span class="pd-rz">同公司:LangChain · 同概念:后训练 (post-training)、智能体 (agent)、测试框架 (harness)</span>
-- [[2026-08-13-talks-when-to-build-your-own-agent-harness-har|拥有你自己的智能：Harness、Eval 与数据飞轮]]<span class="pd-rz">同公司:LangChain · 同概念:智能体 (agent)、测试框架 (harness)、微调 (fine tuning)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同公司:LangChain · 同概念:后训练 (post-training)、智能体 (agent)、测试框架 (harness)</span>
 
 </div>
 <div class="pd-ex">

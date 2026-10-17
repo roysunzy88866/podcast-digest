@@ -78,11 +78,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Misha Laskin]] [[Carlos Kelpbaum]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":53,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":91,"AI 安全":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"ChatGPT":115,"Ben Horowitz":7,"Dots":6,"Stripe":53,"Daybreak 计划":1,"Astra":8,"智能体":1,"Codex":92,"AI 安全":5}</script>
 
 <script>
 (function(){

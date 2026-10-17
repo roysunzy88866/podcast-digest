@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Eric Sager]] · [[Harry Stebbings]] · [[Alex Rampell]] · [[Square]] · [[JD]] · [[Terry Angelos]] · [[Visa]] · [[Town]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Eric Sager":1,"Harry Stebbings":21,"Alex Rampell":4,"Square":5,"JD":1,"Terry Angelos":1,"Visa":2,"Town":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Eric Sager":1,"Harry Stebbings":22,"Alex Rampell":4,"Square":5,"JD":1,"Terry Angelos":1,"Visa":2,"Town":5}</script>
 
 <script>
 (function(){

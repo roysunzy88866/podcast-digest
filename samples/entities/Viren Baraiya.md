@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness":67,"多智能体系统":1,"确定性":6,"Saga(晚绑定的 saga)":1,"持久性":2,"SRE 智能体":1,"LLM":66,"Conductor":3,"Kubernetes":22}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness":68,"多智能体系统":1,"确定性":7,"Saga(晚绑定的 saga)":1,"持久性":2,"SRE 智能体":1,"LLM":66,"Conductor":3,"Kubernetes":22}</script>
 
 <script>
 (function(){

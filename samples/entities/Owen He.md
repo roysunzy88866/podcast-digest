@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Martin Casado":7,"Daval Ajada":1,"MakerMaker":1,"RSI":8,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":1,"推理":103}</script>
+<script type="application/json" class="pd-epn">{"Martin Casado":7,"Daval Ajada":1,"MakerMaker":1,"RSI":8,"自催化":1,"闭环":3,"分子与分母":1,"多智能体系统":1,"智能体":1,"推理":105}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>pull request</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="pull request">PU</div><div class="pi"><h1 class="pt">pull request</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="pull request">PU</div><div class="pi"><h1 class="pt">pull request</h1><div class="byl">概念</div><div class="nums">本站收录 <b>8</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age|《一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法》]]**(01:39起):本集核心论点：Dario 认为取消 pull request 能带来两位数到三位数的生产力提升，它源于互不信任的环境、审查常走过场，而有没有它质量没差别、差别在交付速度。
 - **[[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]]**(00:27起):本集用 PR 作为衡量 AI 编程质量的基本单位:统计约 1/4 的企业 PR 已完全或大部分由 AI 生成,并用回退率、bug 数、评审轮数三个指标衡量其质量。
 - **[[2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas|《AI 写代码太快的时代，验证才是新瓶颈》]]**(02:28起):本集以「AI 生成的 PR 你敢直接合并并发布吗」作为自查问题，并演示 Meticulous 在 PR 评论中几分钟内列出各处 diff。
+- **[[2026-10-11-talks-how-to-build-quality-gates-into-agentic|《AI 写代码这么多，质量谁来把关？》]]**(07:49起):本集流程的最后一道闸门:打开 PR 让 Qodo 自动审查,再运行 PR resolver 技能自动修复问题并回发到 PR,已解决的问题被划掉
 - **[[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]]**(02:16起):本集以它代表正在消失的协作:以前人们在自己和别人的拉取请求上评论,现在有人说拉取请求可能会消失;Carlos 担心 PR 里不再有评论、只剩「Looks good to me」。
 
 ## ① 提到它的金句
@@ -39,7 +40,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-07-09-beyondcoding-cracked-solo-dev-why-the-fastest-enginee|《氛围编码 vs 氛围工程：智能体时代谁被淘汰》]] — 作为概念(提及)
 - [[2026-09-03-changelog-forking-cal-com-to-closed-source|《开源的钟摆摆向另一边：Cal.com 联合创始人 Pierre 谈 AI 时代的安全崩塌》]] — 作为概念
@@ -47,15 +48,16 @@ unlisted: true
 - [[2026-09-23-beyondcoding-how-amp-ships-50-times-a-day-with-ai-age|《一天上线 50 次、不用代码评审：Amp 工程师的 AI 协作法》]] — 作为概念
 - [[2026-09-27-talks-ai-generated-code-is-already-competing-w|《AI 生成的代码到底行不行：百万 PR 数据给出的答案》]] — 作为概念
 - [[2026-10-02-talks-why-ai-didn-t-actually-make-you-ship-fas|《AI 写代码太快的时代，验证才是新瓶颈》]] — 作为概念
+- [[2026-10-11-talks-how-to-build-quality-gates-into-agentic|《AI 写代码这么多，质量谁来把关？》]] — 作为概念
 - [[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Cursor]] · [[Codex]] · [[沙箱]] · [[Claude]] · [[vibe coding]] · [[开源]] · [[Copilot]] · [[GitHub]] · [[Kitsa]]
+[[智能体]] · [[Codex]] · [[Cursor]] · [[Claude]] · [[沙箱]] · [[规则]] · [[开源]] · [[代码审查]] · [[确定性]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Cursor":88,"Codex":91,"沙箱":104,"Claude":99,"vibe coding":52,"开源":43,"Copilot":14,"GitHub":37,"Kitsa":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Codex":92,"Cursor":88,"Claude":99,"沙箱":104,"规则":3,"开源":43,"代码审查":28,"确定性":7,"vibe coding":52}</script>
 
 <script>
 (function(){

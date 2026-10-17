@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":7,"Co-work":4,"Claude Code":116,"Codex":91,"ChatGPT":115,"Notion":17,"Slack":34,"Whisper":2,"Cursor":88,"Optimizely":2}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":7,"Co-work":4,"Claude Code":117,"Codex":92,"ChatGPT":115,"Notion":17,"Slack":34,"Whisper":2,"Cursor":88,"Optimizely":2}</script>
 
 <script>
 (function(){

@@ -174,7 +174,7 @@ Paul 概括:美国历史上最大的泡沫都跟「技术、地产、宽松信�
 
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同公司:Meta · 同概念:后训练 (post-training)、推理 (inference)、预训练 (pre-training)</span>
 - [[2026-09-29-latent-thariq|Anthropic 的 Thariq 谈 Claude Code：提示词、CloudMods 与给前沿踩刹车]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:挽具 (harness)、推理 (inference)</span>
-- [[2026-07-30-cogrev-is-offense-or-defense-dominant-far-ai-s|AI 安全排行榜：谁扛住了越狱，谁没有]]<span class="pd-rz">同公司:Anthropic、OpenAI · 同概念:后训练 (post-training)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同公司:OpenRouter · 同概念:后训练 (post-training)、挽具 (harness)、推理 (inference)</span>
 
 </div>
 </div>

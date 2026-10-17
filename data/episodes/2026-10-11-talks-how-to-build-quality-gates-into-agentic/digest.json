@@ -1,0 +1,131 @@
+{
+  "title_zh": "AI 写代码这么多，质量谁来把关？",
+  "tldr": "Qodo 开发者布道师 Nnenna Ndukwe 现场演示如何用规则、技能和层层关卡，让 AI 生成的代码敢署名、敢提交。",
+  "digest_md": "AI 写代码已经很普遍了，但很少有人敢拍着胸脯说：这段 AI 生成的代码，出了问题我负责。在一场现场工作坊里，Qodo 的开发者布道师 Nnenna Ndukwe 演示了一套完整流程——从规划到提交，每一关都设置质量关卡。她的一句话概括了核心问题：我们得反复操舵AI 编程代理，==才能有底气说我可以把名字签在这段代码上==[03:41 Unknown]。\n\n## 为什么 AI 写的代码不能直接用？\n\n她的判断是：在整个开发生命周期里——规划、开发、代码审查、测试、部署——代码质量在每一个环节都可能出问题，出问题的可能性无处不在[03:27 Unknown]。\n\n尤其是支付这类敏感场景。她举的例子是：支付类改动里，AI 生成的代码经常看起来很对，但会埋下隐患 [17:24 Unknown]。这正适合用来演示质量关卡的价值。\n\n## 第一步：把什么是好代码写下来，放在 AI 能读到的地方\n\n她强调，团队要先定义清楚代码质量标准，而且这套标准要成文化，存在某个固定位置，让不管哪个 AI 界面——命令行、编辑器还是 CI 流程——都能读取并遵守 [04:13 Unknown]。\n\n具体来说，仓库里要放两样东西：规则和技能。规则告诉 AI 什么能做什么不能做；技能则是 AI 执行具体任务的方法指引，比如测试驱动开发的技能。规则还可以按严重程度分级：有的违规直接阻止合并，有的只是建议改进。这些规则按可访问性、正确性、可维护性、架构、安全等类别管理 [33:46 Unknown]。\n\n如果团队协作，这些规则最好放在团队统一的上下文管理层里，而不是散落在各个仓库——AI 会自动从中挑出与当前任务相关的规则来遵守。\n\n## 规划先行：先出计划，再写代码\n\n演示中，她先让代理进入计划模式：只读代码、不许动手，产出两份文档——一份高层实现计划，一份详细的执行计划。计划里包括要改什么行为、哪些规则适用、用什么技能、哪些测试能证明行为符合预期，还有提交代码的计划 [25:30 Unknown]。\n\n她特别提到，**规划越详细、越有结构，代理就越能遵守要求**，甚至能在发现遗漏时自我纠正 [12:09 Unknown]。计划末尾还有完成的定义：哪些命令必须跑过、哪些改动被搁置了，全都记录在案。\n\n## 确定性工具加 AI，缺一不可\n\n在本地验证环节，她用了一整套确定性工具：RUF、PyRite、Bandit、PyTest、SEMGREP，再加上 conventional commits 提交规范 [12:35 Unknown]。她的立场很明确：**自己是确定性工具与 AI 结合的坚定信徒**——AI 擅长理解意图，但跑测试、做静态分析这种有明确对错的事，交给传统工具更可靠。\n\n最后是拉取请求环节。AI 代码审查工具自动分析变更，发现问题后，再用一个修复技能自动解决，修复完重新验证、把结果回传到拉取请求上，被解决的问题自动划掉。\n\n## 效果如何？她拿自己试过\n\n她用这套流程给自己的一个开源项目做过验证，故意提交了一个超过 1900 行代码的大拉取请求来测试流程本身。**结果只发现了一个可靠性方面的漏洞** [31:39 Unknown]。对她来说，这证明了流程的价值。\n\n## 本集带走\n\n- 代码质量标准要成文化，放在 AI 能读取的地方，并按严重程度分级，部分规则可阻止合并\n- 让 AI 先出详细计划再动手：计划包含行为目标、适用规则、测试方案和完成的定义\n- 确定性工具（测试、静态分析、格式检查）与 AI 审查结合，早期且频繁地验证\n- AI 审查发现问题后，可用代理技能自动修复，再重新验证，形成闭环\n- 支付等敏感场景尤其要警惕：AI 生成的代码可能看起来很对但暗藏问题",
+  "quotes": [
+    {
+      "en": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+      "zh": "我不在乎你用什么工具，Codex、Claude Code 内置的代码审查、Codo，无论是什么，总是要运行一次本地代码审查，因为总有一些小的改动，你本可以在另一个开发者不得不查看你的代码之前更早地做出。",
+      "timestamp": "30:49",
+      "speaker": "Nnenna Ndukwe"
+    },
+    {
+      "en": "And only one bug was uncovered in over 1,900 lines of code using Codo for that automated code review.",
+      "zh": "而在使用 Codo 进行那次自动化代码审查的超过 1,900 行代码中，只发现了一个 bug。",
+      "timestamp": "31:39",
+      "speaker": "Nnenna Ndukwe"
+    },
+    {
+      "en": "That is where we come into this process where we kind of have to overdo it with steering AI coding agents to get what we need out of it just so that we can get behind or stand behind the quality of the code",
+      "zh": "所以我们才进入这样一个流程：我们不得不过度地去引导 AI 编码智能体，才能从中得到我们需要的东西，就为了让我们能够为代码的质量背书。",
+      "timestamp": "03:41",
+      "speaker": "Nnenna Ndukwe"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "03:32",
+      "speaker": "Naina Ndukwe",
+      "en": "There are so many potential failure modes for using AI for coding, just to ship high-quality software.",
+      "zh": "用 AI 编码来交付高质量软件，有着太多潜在的失败模式。"
+    },
+    {
+      "timestamp": "04:03",
+      "speaker": "Naina Ndukwe",
+      "en": "And so I really believe that we should be building quality-driven systems.",
+      "zh": "所以我真心认为，我们应该构建以质量为驱动的系统。"
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Naina Ndukwe",
+      "en": "I think that there needs to be a verification aspect to agentic engineering.",
+      "zh": "我认为智能体工程中需要有一个验证环节。"
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Naina Ndukwe",
+      "en": "It needs to be codified so that our AI, no matter what interface you're using, can extract that information and do its best to adhere to the code standards that you have in place.",
+      "zh": "它需要被成文化，这样我们的 AI，无论你用的是哪种界面，都能提取出这些信息，并尽力遵守你们已经制定的代码标准。"
+    },
+    {
+      "timestamp": "12:09",
+      "speaker": "Naina Ndukwe",
+      "en": "Then it's going to adhere a bit better and also correct itself when it realizes it's missing some critical points of your process.",
+      "zh": "它就会遵守得越好，而且当它意识到自己遗漏了你流程中的某些关键点时，也更能自我纠正。"
+    },
+    {
+      "timestamp": "17:24",
+      "speaker": "Naina Ndukwe",
+      "en": "And payment mutations are where a lot of AI-generated code can look like plausibly correct but can introduce some issues.",
+      "zh": "而支付变更操作正是很多 AI 生成的代码可能看起来合理正确、但可能引入一些问题的地方。"
+    },
+    {
+      "timestamp": "25:30",
+      "speaker": "Naina Ndukwe",
+      "en": "I think that a plan should answer what behavior are we changing, which rules apply, what skills would guide the agent, which tests prove the expected behavior, and what kind of quality gauge should pass before we review.",
+      "zh": "我认为一份计划应该回答：我们在改变什么行为，哪些规则适用，哪些技能可以指导智能体，哪些测试能证明预期行为，以及在评审之前应该通过什么样的质量门槛。"
+    },
+    {
+      "timestamp": "27:17",
+      "speaker": "Naina Ndukwe",
+      "en": "What I've noticed is super helpful is having a documentation of the starting state.",
+      "zh": "我注意到超级有用的一点，是对起始状态进行文档化。"
+    },
+    {
+      "timestamp": "28:00",
+      "speaker": "Naina Ndukwe",
+      "en": "You need to make sure you've run all of the commands for this branch.",
+      "zh": "你需要确保已经为这个分支运行了所有命令。"
+    },
+    {
+      "timestamp": "30:49",
+      "speaker": "Naina Ndukwe",
+      "en": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+      "zh": "我不在乎你用什么工具，Codex、Claude Code 内置的代码审查、Codo，无论是什么，总是要运行一次本地代码审查，因为总有一些小的改动，你本可以在另一个开发者不得不查看你的代码之前更早地做出。"
+    },
+    {
+      "timestamp": "31:39",
+      "speaker": "Naina Ndukwe",
+      "en": "And only one bug was uncovered in over 1,900 lines of code using Codo for that automated code review.",
+      "zh": "而在使用 Codo 进行那次自动化代码审查的超过 1,900 行代码中，只发现了一个 bug。"
+    },
+    {
+      "timestamp": "33:58",
+      "speaker": "Naina Ndukwe",
+      "en": "Not every rule should be treated with the same level of severity.",
+      "zh": "不是每条规则都应该以同样的严重程度来对待。"
+    },
+    {
+      "timestamp": "34:01",
+      "speaker": "Naina Ndukwe",
+      "en": "There are some rules that are strong enough to where you wanna block a merge.",
+      "zh": "有些规则足够强硬，以至于你会想要阻止合并。"
+    },
+    {
+      "timestamp": "44:22",
+      "speaker": "Naina Ndukwe",
+      "en": "Because you can customize the level of severity of your rules, it doesn't have to be something that is block worthy.",
+      "zh": "因为你可以自定义规则的严重级别，它不一定是值得阻断的东西。"
+    },
+    {
+      "timestamp": "45:53",
+      "speaker": "Naina Ndukwe",
+      "en": "And I'm really glad that you brought that up because it is something that we have talked about with the product team and the more enterprise customers that we speak to, especially in highly regulated industries, they really want determinism in exactly that fashion.",
+      "zh": "我真的很高兴你提出这一点，因为这是我们和产品团队讨论过的，而且和我们交流过的企业客户越多，尤其是高度受监管行业的客户，他们真的非常想要那种方式的确定性。"
+    },
+    {
+      "timestamp": "32:31",
+      "speaker": "Naina Ndukwe",
+      "en": "But the more general a skill is then the more access you need to have other many repos need to have to it.",
+      "zh": "但一个技能越通用，就越需要有权限让更多仓库都能访问到它。"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Naina Ndukwe",
+      "en": "That is where we come into this process where we kind of have to overdo it with steering AI coding agents to get what we need out of it just so that we can get behind or stand behind the quality of the code",
+      "zh": "所以我们才进入这样一个流程：我们不得不过度地去引导 AI 编码智能体，才能从中得到我们需要的东西，就为了让我们能够为代码的质量背书。"
+    }
+  ],
+  "voice_script": "AI 现在写代码写得越来越多、越来越快，但有个问题一直没人敢正面回答：这段 AI 生成的代码，出了问题谁来负责？谁敢拍着胸脯说我签字担保？今天这期，就来聊这件事。\n\n这一集的主角是 Qodo 的开发者布道师 Nnenna Ndukwe。她在一个现场工作坊里，边讲边演示，把一套完整的流程从头到尾走了一遍——从 AI 开始规划，到代码最终提交，每一关都设了质量关卡。她有句话概括了整件事的核心：我们得反复操舵这些 AI 编程代理，才能有底气说，我可以把名字签在这段代码上。\n\n为什么非得这么麻烦？先听听她的判断。在整个开发生命周期里——规划、开发、代码审查、测试、部署——代码质量在每一个环节都可能出问题，出问题的可能性无处不在。尤其是支付这类敏感场景。她举的例子就是支付类的改动：AI 生成的代码经常看起来很对，但里面埋着隐患，肉眼很难看出来。这次工作坊的演示，就是拿支付这种敏感场景开刀的。\n\n那怎么把关？她的第一个建议特别朴素：把什么是好代码，白纸黑字写下来，放在 AI 能读到的地方。说白了，团队得先定义清楚自己的代码质量标准，而且这套标准要成文化，存在一个固定的位置，让不管哪个 AI 界面——命令行也好，编辑器也好，CI 流程也好——都能读到、都能遵守。\n\n具体到仓库里，要放两样东西：规则和技能。规则告诉 AI 什么能做、什么不能做；技能是干具体活的方法指引，比如怎么按测试驱动开发来干活。规则还能按严重程度分级——有的违规直接阻止合并，有的只是建议改进。这些规则按可访问性、正确性、可维护性、架构、安全这些类别来管理。如果是团队协作，规则最好放在团队统一的上下文管理层里，别散落在各个仓库，AI 会自动挑出跟当前任务相关的规则来遵守。\n\n标准立好了，下一步就是干活的方式。这里她强调一个顺序问题：先出计划，再写代码。演示里，她让代理先进计划模式——只读代码，不许动手，最后产出两份文档，一份高层实现计划，一份详细的执行计划。计划里要写清楚：要改什么行为、哪些规则适用、用什么技能、哪些测试能证明行为符合预期，连提交代码的计划都得列上。\n\n为什么计划要写得这么细？她的经验是，规划越详细、越有结构，代理就越能遵守要求，甚至能在发现遗漏的时候自我纠正。计划末尾还有一项很实在的内容：完成的定义。哪些命令必须跑过，哪些改动被搁置了，全都记录在案，不允许含糊。\n\n好，计划有了，代码写出来了，怎么验证？这里她有个很鲜明的立场：自己是确定性工具与 AI 结合的坚定信徒。这话是什么意思？AI 擅长理解意图，但像跑测试、做静态分析这种有明确对错的事情，交给传统工具更可靠。所以在本地验证环节，她用了一整套确定性工具：RUF、PyRite、Bandit、PyTest、SEMGREP，再加上 conventional commits 提交规范，一个不落。\n\n最后是拉取请求这一关。AI 代码审查工具自动分析变更，发现问题之后，再用一个修复技能自动解决；修完重新验证，结果回传到拉取请求上，被解决的问题自动划掉，整个形成闭环。\n\n这套流程管不管用？她自己拿真项目试过。用这套流程给自己的一个开源项目做验证，还故意提交了一个超过一千九百行代码的大拉取请求，专门来测试流程本身。结果呢？在这么多代码里，只发现了一个可靠性方面的漏洞。对她来说，这就足够证明流程的价值了。\n\n节目最后，用她的原话收个尾。她说，我不在乎你用什么工具，Codex、Claude Code 内置的代码审查也好，Codo 也好，无论是什么，总是要运行一次本地代码审查——因为总有一些小的改动，你本可以在另一个开发者不得不查看你的代码之前，更早地做出来。AI 可以帮你写得飞快，但敢署名的前提，是你把该设的关卡一个不落地设上。"
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenRouter</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>14</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenRouter">OP</div><div class="pi"><h1 class="pt">OpenRouter</h1><div class="byl">公司</div><div class="nums">本站收录 <b>15</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,6 +25,7 @@ unlisted: true
 - **[[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]]**(00:18起):本集主角:开发者一站式调用各家大模型的 API 路由与市场平台,把供应商向 SKU 发布、消费者订阅的市场结构套在模型上,后被 Stripe 收购。
 - **[[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]]**(00:07起):本集说它是 AI 模型聚合与路由平台、一个高效的市场，帮企业避免模型锁定、压低成本；刚被 Stripe 收购，Alex 称未来支付和推理会融合。
 - **[[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]]**(11:42起):本集说 Stripe 收购它赌的是企业内部会同时用多个模型并按用户生命周期价值路由,『据我们所知他们走得最靠前』。
+- **[[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]]**(18:01起):本集说 OpenRouter 是网关层公司:大部分使用量来自作为 gateway 提供统一模型入口,真正的智能路由做得远比外界以为的少。
 
 ## ① 提到它的金句
 
@@ -38,7 +39,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*14 集*
+*15 集*
 
 - [[2026-07-20-twentyvc-20vc-are-openai-and-anthropic-overvalued|《「智能是数据的派生物」：Fireworks 创始人 Lin Kuo 的专用智能宣言》]] — 作为被讨论公司(提及)
 - [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|《主导投资 Anthropic 的人：风投的游戏规则已经彻底变了》]] — 作为被讨论公司
@@ -54,14 +55,15 @@ unlisted: true
 - [[2026-09-25-latent-openrouter|《OpenRouter 创始人：「套壳论」最愚蠢，代币经济需要新警长》]] — 作为被讨论公司
 - [[2026-10-03-a16z-beyond-the-god-model-alex-atallah-amjad|《AI 的下一阶段：不是一个超级模型，而是一群专业化模型》]] — 作为被讨论公司
 - [[2026-10-05-sourcery-john-collison--stripe-ai-agents-will-rew|《Stripe 联合创始人：AI 智能体会重造互联网的商业逻辑》]] — 作为被讨论公司
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[推理]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[NVIDIA]] · [[token]] · [[GPU]] · [[Harry Stebbings]]
+[[推理]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Cursor]] · [[Stripe]] · [[NVIDIA]] · [[token]] · [[Harry Stebbings]] · [[开源模型]]
 
-<script type="application/json" class="pd-epn">{"推理":103,"Anthropic":206,"智能体":1,"OpenAI":208,"Cursor":88,"Stripe":53,"NVIDIA":72,"token":33,"GPU":35,"Harry Stebbings":21}</script>
+<script type="application/json" class="pd-epn">{"推理":105,"Anthropic":206,"智能体":1,"OpenAI":208,"Cursor":88,"Stripe":53,"NVIDIA":72,"token":33,"Harry Stebbings":22,"开源模型":4}</script>
 
 <script>
 (function(){

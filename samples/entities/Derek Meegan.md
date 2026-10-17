@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Browserbase":4,"浏览器智能体":1,"智能体":1,"工具调用":4,"计算机使用":22,"无障碍树":1,"可观测性":49,"模型成本":1,"反机器人机制":1,"技能":35}</script>
+<script type="application/json" class="pd-epn">{"Browserbase":4,"浏览器智能体":1,"智能体":1,"工具调用":4,"计算机使用":22,"无障碍树":1,"可观测性":49,"模型成本":1,"反机器人机制":1,"技能":36}</script>
 
 <script>
 (function(){

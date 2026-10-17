@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>35</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GPU">GP</div><div class="pi"><h1 class="pt">GPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>36</b> 集 · <b>9</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -43,13 +43,14 @@ unlisted: true
 - **[[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]]**(17:36起):本集在讲数据中心建设时说，一吉瓦成本大头在 GPU 上，GPU 从服务器内互连扩展到机架、再到跨数据中心的网络连接。
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(24:51起):本集说对 GPU 的需求是无限的，但拜登政府曾行政令规定未经批准出售 GPU 违法，且未来可能出现 GPU 暂时过剩
 - **[[2026-10-10-talks-from-15-to-90-gpu-utilization-fix-the-da|《GPU利用率从15%到90%:该修的是数据管道，不是模型》]]**(02:32起):本集的核心问题:GPU 昂贵、理应满负荷运转,但多模态训练中挨饿的往往是 GPU——瓶颈不在内核优化,而在喂数据的管道。
+- **[[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|《AI芯片太多，软件太乱：Modular想从头重写整套底层》]]**(09:00起):本集说 GPU 种类正经历「寒武纪大爆发」（NVIDIA 几代产品、AMD 等），编程困难；Mojo/Max 让同一套代码跨 GPU 运行，并在 B200、MI355 等硬件上给出基准数据。
 - **[[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]]**(55:02起):他们基于 NVIDIA GPU 的集群上尽量让模拟、训练、推理都跑在 GPU 上，避免依赖大量 CPU。
 - **[[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]]**(25:33起):本集说 GPU 非常确定性——分配内存、填满、跑函数,没有堆和分配的复杂性;Carlos 主张把 CPU 以确定性的方式拉回到 GPU 的做法。
 - **[[2026-10-16-eyeonai-is-this-the-cheapest-way-to-use-ai-in-20|《一个入口用65个AI模型？Trioma想让AI自己挑模型干活》]]**(01:06起):本集说 GPU 是 Trioma 三层生态的底层,目前租用云厂商、正走向自持芯片,以实现去中心化、AI 主权和更好利润率
 
 ## ① 提到它的金句
 
-*8 条*
+*9 条*
 
 ![[2026-08-01-twentyvc-20vc-the-best-ai-companies-have-unique-d#^q9]]
 
@@ -67,9 +68,11 @@ unlisted: true
 
 ![[2026-10-10-talks-from-15-to-90-gpu-utilization-fix-the-da#^q9]]
 
+![[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio#^q5]]
+
 ## ② 出现在这些集
 
-*35 集*
+*36 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为概念
@@ -103,6 +106,7 @@ unlisted: true
 - [[2026-10-08-talks-how-jeetu-patel-runs-cisco-like-the-worl|《像经营世界上最大的创业公司一样经营思科》]] — 作为概念(提及)
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为概念
 - [[2026-10-10-talks-from-15-to-90-gpu-utilization-fix-the-da|《GPU利用率从15%到90%:该修的是数据管道，不是模型》]] — 作为概念
+- [[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|《AI芯片太多，软件太乱：Modular想从头重写整套底层》]] — 作为概念
 - [[2026-10-13-trainingdata-david-silver-and-lasse-espeholt-of-ineff|《AlphaGo 幕后团队再出发：这次不学人类，让 AI 自己发现一切》]] — 作为概念
 - [[2026-10-14-beyondcoding-lead-architect-reveals-his-rules-for-cod|《让 AI 写代码之前，先把架子搭好：一位资深架构师的智能体工作法》]] — 作为概念(提及)
 - [[2026-10-16-eyeonai-is-this-the-cheapest-way-to-use-ai-in-20|《一个入口用65个AI模型？Trioma想让AI自己挑模型干活》]] — 作为概念
@@ -113,7 +117,7 @@ unlisted: true
 
 [[推理]] · [[智能体]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Cursor]] · [[Google]] · [[数据中心]] · [[OpenRouter]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"推理":103,"智能体":1,"NVIDIA":72,"OpenAI":208,"Anthropic":206,"Cursor":88,"Google":72,"数据中心":25,"OpenRouter":14,"开源":43}</script>
+<script type="application/json" class="pd-epn">{"推理":105,"智能体":1,"NVIDIA":72,"OpenAI":208,"Anthropic":206,"Cursor":88,"Google":72,"数据中心":25,"OpenRouter":15,"开源":43}</script>
 
 <script>
 (function(){

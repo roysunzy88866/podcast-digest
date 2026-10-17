@@ -78,7 +78,7 @@ aliases: ["K8s", "k8s"]
 
 [[智能体]] · [[沙箱]] · [[MCP]] · [[推理]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[LLM]] · [[可观测性]] · [[投机解码]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"MCP":100,"推理":103,"Anthropic":206,"OpenAI":208,"Claude":99,"LLM":66,"可观测性":49,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"MCP":100,"推理":105,"Anthropic":206,"OpenAI":208,"Claude":99,"LLM":66,"可观测性":49,"投机解码":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Will Lyon]] · [[Neo4j]] · [[智能体]] · [[智能体记忆]] · [[上下文图]] · [[知识图谱]] · [[推理记忆]] · [[技能]] · [[NAMS]] · [[技能蒸馏]]
 
-<script type="application/json" class="pd-epn">{"Will Lyon":1,"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":5,"知识图谱":8,"推理记忆":1,"技能":35,"NAMS":1,"技能蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"Will Lyon":1,"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":5,"知识图谱":8,"推理记忆":1,"技能":36,"NAMS":1,"技能蒸馏":1}</script>
 
 <script>
 (function(){

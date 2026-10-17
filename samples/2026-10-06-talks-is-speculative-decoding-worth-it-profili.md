@@ -123,9 +123,9 @@ Sheila 用的是 [[vLLM|vLLM]] 这个[[推理|推理]]服务引擎，文档写�
 
 **换个口味**
 
+- [[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|AI芯片太多，软件太乱：Modular想从头重写整套底层]]<span class="pd-rz">同概念:GPU、推理 (inference)、vLLM</span>
 - [[2026-08-12-bigtech-here-s-how-the-ai-bubble-bursts-with-pau|AI 投资泡沫的崩盘剧本:为什么万亿美元建数据中心注定亏钱]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
 - [[2026-08-27-doac-the-man-who-calls-bs-on-ai-ai-is-the-wor|Ed Zitron：生成式 AI 是一场万亿级骗局]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
-- [[2026-09-30-sourcery-imec-says-todays-ai-will-look-ancient-in|GPU 之后是什么：内存短缺、光子学与摩尔定律的尽头]]<span class="pd-rz">同概念:GPU、推理 (inference)</span>
 
 </div>
 </div>

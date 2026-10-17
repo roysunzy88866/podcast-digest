@@ -215,7 +215,7 @@ Benchling 在 12 个月里遭遇了七年的客户流失，那场磨砺里他全
 
 - [[2026-09-25-talks-why-llm-recommenders-will-be-ai-s-bigges|Tokens 进、互动出：推荐系统正在像 LLM 一样扩展]]<span class="pd-rz">同概念:后训练 (post-training)、推理 (inference)、预训练 (pre-training)</span>
 - [[2026-10-11-talks-stop-renting-intelligence-the-train-to-d|别再租用智能:开源模型怎么训练到部署一把抓]]<span class="pd-rz">同公司:Cursor、Fireworks · 同概念:推理 (inference)</span>
-- [[2026-10-01-practicalai-open-models-and-the-future-of-physical-a|NVIDIA 开放模型与物理 AI:世界模型为什么是关键拼图]]<span class="pd-rz">同公司:NVIDIA · 同概念:推理 (inference)、后训练 (post-training)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同公司:Fireworks · 同概念:后训练 (post-training)、推理 (inference)</span>
 
 </div>
 </div>

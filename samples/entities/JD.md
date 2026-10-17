@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Harry Stebbings":21,"Town":5,"Plaid":3,"AI 助手":2,"智能体":1,"网络效应":17,"护城河":14,"模型路由":12,"前沿模型":29,"Anthropic":206}</script>
+<script type="application/json" class="pd-epn">{"Harry Stebbings":22,"Town":5,"Plaid":3,"AI 助手":2,"智能体":1,"网络效应":17,"护城河":14,"模型路由":13,"前沿模型":29,"Anthropic":206}</script>
 
 <script>
 (function(){

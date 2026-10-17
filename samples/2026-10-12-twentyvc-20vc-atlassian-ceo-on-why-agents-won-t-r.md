@@ -234,8 +234,8 @@ Atlassian 的做法是：先做让人惊艳的功能，等真有几百万人用�
 **顺着「智能体」挖下去**
 
 - [[2026-09-26-twentyvc-20vc-five-predictions-for-a-world-of-age|智能体才是互联网的下一个大客户：Parallel 创始人 Parag Agrawal 谈智能体搜索]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:开源模型 (open models)、推理 (inference)、智能体 (agent)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:推理 (inference)、智能体 (agent)、模型路由 (model routing)</span>
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Atlassian · 同概念:开源模型 (open models)、智能体 (agent)、推理 (inference)</span>
-- [[2026-09-04-talks-open-models-change-the-economics-of-ai|Ollama CEO：开源模型正吃掉企业 80-90% 的 token]]<span class="pd-rz">同概念:开源模型 (open models)、推理 (inference)、智能体 (agent)、微调 (fine tune)</span>
 
 </div>
 <div class="pd-ex">

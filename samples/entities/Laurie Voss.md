@@ -63,11 +63,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"代码审查":27,"智能体":1,"提示词注入":1,"基准测试":3,"误报":2,"GitHub":37,"Cursor":88,"OpenAI":208,"Anthropic":206,"Cognition":27}</script>
+<script type="application/json" class="pd-epn">{"代码审查":28,"智能体":1,"提示词注入":1,"基准测试":3,"误报":2,"GitHub":37,"Cursor":88,"OpenAI":208,"Anthropic":206,"Cognition":27}</script>
 
 <script>
 (function(){

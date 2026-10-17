@@ -180,9 +180,9 @@ Frye 强调，大多数优化都是挤百分比的游戏，一次挣 5%、10%;�
 
 **换个口味**
 
+- [[2026-10-11-talks-taming-the-ai-hardware-cambrian-explosio|AI芯片太多，软件太乱：Modular想从头重写整套底层]]<span class="pd-rz">同公司:PyTorch、SGLang、vLLM · 同概念:推理 (inference)</span>
 - [[2026-02-24-talks-braintrust-s-ankur-goyal-on-why-evals-ar|评测优先:Braintrust 创始人谈 AI 产品开发的真正工程]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
 - [[2026-07-14-ainativedev-patrick-debois-maps-the-patterns-of-ai-n|DevOps 之父 Patrick Debois：AI 时代组织比技术更难成熟]]<span class="pd-rz">同概念:可观测性 (observability)、智能体 (agent)</span>
-- [[2026-07-27-twentyvc-20vc-leading-anthropic-s-first-ever-roun|主导投资 Anthropic 的人：风投的游戏规则已经彻底变了]]<span class="pd-rz">同概念:可观测性 (observability)、推理 (inference)</span>
 
 </div>
 </div>

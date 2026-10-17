@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"投机解码":1,"草稿模型":1,"接受率":2,"KVCache":5,"推理":103,"GPU":35,"vLLM":8,"Llama":3,"RAG":31,"Akamai":4}</script>
+<script type="application/json" class="pd-epn">{"投机解码":1,"草稿模型":1,"接受率":2,"KVCache":5,"推理":105,"GPU":36,"vLLM":9,"Llama":3,"RAG":31,"Akamai":4}</script>
 
 <script>
 (function(){

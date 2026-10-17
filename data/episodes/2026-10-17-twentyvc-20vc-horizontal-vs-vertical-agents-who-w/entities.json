@@ -1,0 +1,2620 @@
+{
+  "episode_id": "2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w",
+  "podcast": "The Twenty Minute VC",
+  "date": "2026-10-17",
+  "tags": [
+    "智能体",
+    "垂直智能体",
+    "模型路由",
+    "编码智能体成本",
+    "融资"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "harrison-chase",
+      "type": "person",
+      "role": "host",
+      "name": "Harrison Chase",
+      "file": "Harrison Chase",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "harry-stebbings",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harry Stebbings",
+      "file": "Harry Stebbings",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            21.267,
+            23.028
+          ],
+          "quote": "This is 20VC with me, Harry Stebbings.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集主题公司:约 400 人、估值数十亿美元,做让构建智能体变容易的开发者工具——开源框架连接模型与工具/数据/计算,LangSmith 提供可观测性与评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            29.693,
+            31.675
+          ],
+          "quote": "Harrison, the founder of LangChain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            264.488,
+            270.512
+          ],
+          "quote": "For those that don't know, 60 seconds, what is LangChain and where do you like sit in the stack?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            455.613,
+            464.42
+          ],
+          "quote": "So for example, early on, the way that we would do tool calling in LangChain was by having the model generate JSON, DSL, and then parsing it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2799.271,
+            2806.453
+          ],
+          "quote": "I think when it comes to how things will play out with respect to inference, there's two things that I think I really underestimated from the start of LangChain to now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 749,
+          "t": [
+            3032.565,
+            3037.048
+          ],
+          "quote": "When I think about our advantages at LangChain, I think we iterate really, really quickly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            3050.997,
+            3052.737
+          ],
+          "quote": "You look at LangChain early on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            3064.102,
+            3072.745
+          ],
+          "quote": "And because there are so many competitors, and maybe this is even because of it, but because there are so many competitors, there were like 100 different frameworks that came out in the two months after LangChain came out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3113.878,
+            3125.084
+          ],
+          "quote": "But to your point, yeah, LangChain comes out, and then months after more and more come out, but Instinct, same, same, but actually the durable brand monopoly that comes from being the haloed first is very real.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3134.332,
+            3141.919
+          ],
+          "quote": "AutoGPT, I don't know if you remember the AutoGPT project, but it came out a few months after LangChain, was the fastest growing GitHub project of all time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说智能体难做是因为模型是非确定性黑盒、输入输出空间无限、多级调用导致级联错误;价值在验证与评估,领域专家最有优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            276.136,
+            282.12
+          ],
+          "quote": "We have an open source framework, which basically connects the model to everything else that you need to build a useful agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            530.49,
+            535.074
+          ],
+          "quote": "We see bluntly very brilliant agent builders from the models themselves.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            538.738,
+            549.787
+          ],
+          "quote": "I think the reason we need neutral harnesses is that there is a lot of state that you build up either before you build the agent or as part of the agent running.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            557.132,
+            561.035
+          ],
+          "quote": "It can be from interacting with the agent versus from the agent learning from the environment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 130,
+          "t": [
+            563.317,
+            568.423
+          ],
+          "quote": "State gets built up as the agent interacts, it goes out, it learns, it chats, and it learns things to make it better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            652.89,
+            662.197
+          ],
+          "quote": "The version that we think owning your intelligence means, we think there's a few different components of that, but one key component is having this open and controllable agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            694.938,
+            700.084
+          ],
+          "quote": "So model, the harness itself, and the context make up kind of like this open and controllable agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 163,
+          "t": [
+            704.808,
+            716.531
+          ],
+          "quote": "When we think about, like, agent value, so to speak, some people say that the value is actually in the verification, like, whether it did well or not, because that unlocks the next step, which is automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            756.749,
+            763.772
+          ],
+          "quote": "So very practically, if you're getting started building a vertical agent, I would highly suggest you start at the harness layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            780.901,
+            784.864
+          ],
+          "quote": "And that'll let them build not only vertical agents, but also vertical agent experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            901.529,
+            907.893
+          ],
+          "quote": "So what I mean by that is when you have an agent harness that's doing interesting work, it's actually very rarely just one model running the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            915.958,
+            928.133
+          ],
+          "quote": "And so a lot of the places where we see post-training being efficient now are for simpler tasks like classification or extraction or summarization that might be a tool the agent uses or a guardrail or things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            933.76,
+            942.087
+          ],
+          "quote": "I think the question that is more unanswered is for this core model that's driving the loop because the main way an agent works is there's an LLM running in a loop calling tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1270.571,
+            1274.976
+          ],
+          "quote": "If you're building a vertical agent, I think routing needs to be in the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1328.022,
+            1332.849
+          ],
+          "quote": "I mean, this is the main reason that building evals is such an important part of building a vertical-specific agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1368.648,
+            1374.229
+          ],
+          "quote": "If traces are exhaustive agent work, where is the value then?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1378.771,
+            1384.733
+          ],
+          "quote": "If you're building an agent, I think the value is at what makes that agent good at the domain or vertical that you're working in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1384.753,
+            1389.474
+          ],
+          "quote": "So what I mean by that is, again, I think there's different ways to control what an agent does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1441.94,
+            1450.43
+          ],
+          "quote": "For bringing things back to the context or memory, you're probably going to want to run another agent over those traces and then have that agent output learnings from memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1451.712,
+            1460.318
+          ],
+          "quote": "And then for bringing these learnings in the traces back to the harness, you're probably going to want to run an agent over those traces and update the code of the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1463.301,
+            1466.283
+          ],
+          "quote": "It's an agent in LangSmith that runs over traces and tries to update code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1476.316,
+            1486.544
+          ],
+          "quote": "Continual learning, I don't think so much changes how agents work, but I think it changes the systems that you want to have running around the agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1486.564,
+            1494.571
+          ],
+          "quote": "So what I mean by that is I think the core loop for a continual learning agent, the core inner loop maybe to say, will still largely be the same.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1614.023,
+            1619.405
+          ],
+          "quote": "I think a context layer for agent will look more similar to an agent around a database than just a database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1638.031,
+            1653.297
+          ],
+          "quote": "The hard part is taking all of the observations that happen, whether it's from the user interacting with, let's say it's a traditional SaaS interacting with the software, or the user interacting with the agent, and distilling that into information that's valuable enough to go into this context there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1663.941,
+            1668.964
+          ],
+          "quote": "Reflecting on prompts and improving prompts, reflecting on agent architecture, improving agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1671.085,
+            1674.446
+          ],
+          "quote": "We do have some benchmarks for this in terms of engine, which is our agent that's running on things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1706.585,
+            1708.667
+          ],
+          "quote": "What should the harness for this agent be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1876.484,
+            1882.572
+          ],
+          "quote": "I think memory is so early that I think a lot of the solutions that you want to build are actually very domain or agent specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1888.233,
+            1897.179
+          ],
+          "quote": "So again, going back to what the hard part of memory is, I think the hard part of memory is that process for learning from facts about what to remember and that agent that does that remembering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1922.734,
+            1923.875
+          ],
+          "quote": "Deep agents is an agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 472,
+          "t": [
+            1963.434,
+            1966.335
+          ],
+          "quote": "Where does it make sense to have a vertical agent versus not?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1966.754,
+            1971.056
+          ],
+          "quote": "I think for most apps, it probably makes sense to have a vertical agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1983.98,
+            1985.902
+          ],
+          "quote": "Better than a general horizontal agent could.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1999.035,
+            2001.798
+          ],
+          "quote": "And I think the best way to expose those learnings is probably through an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2007.123,
+            2007.985
+          ],
+          "quote": "Don't build an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2009.847,
+            2023.104
+          ],
+          "quote": "I actually think it's a better experience if there is an agent that wraps those APIs and exposes a single, or maybe multiple, but probably a single natural language interface for a horizontal agent to interact with that vertical agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2047.989,
+            2053.11
+          ],
+          "quote": "How does the infrastructure require change in a world of agent interaction or human interaction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2080.364,
+            2084.399
+          ],
+          "quote": "Do you think providers will allow agent usage or not?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2084.899,
+            2093.881
+          ],
+          "quote": "I think the future is providers exposing their own agent and having people either interact with that agent or having people's horizontal agents interact with that agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2093.901,
+            2098.923
+          ],
+          "quote": "So my horizontal agents would interact with Resi's vertical agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2112.727,
+            2114.207
+          ],
+          "quote": "Why would agent-to-agent work?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2114.61,
+            2117.371
+          ],
+          "quote": "I think you could include some of those things in the agent response.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2117.751,
+            2123.333
+          ],
+          "quote": "So you could do advertising for specific things on Resi or Etsy or whatever and include that in the agent's response.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2126.895,
+            2130.276
+          ],
+          "quote": "That's now a natural language response that goes back to kind of like the main agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2130.596,
+            2140.98
+          ],
+          "quote": "I think also to the point around the strain on the systems, if you have a vertical agent, it's going to be better and more efficient at interacting with the underlying systems than a third party agent will.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2177.748,
+            2183.412
+          ],
+          "quote": "When you start talking about agents talking to agents or multi-agent systems, there are just so many more tokens that are getting burned.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2217.611,
+            2228.754
+          ],
+          "quote": "So I think primarily a lot of harness engineering has been done around making the agent more efficient because that's the... Or sorry, a lot of the harness engineering has been done to make the agent just like better, more accurate because that's the biggest blocker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2235.636,
+            2244.398
+          ],
+          "quote": "We're seeing model providers actually make this easier by... And this is getting a little bit in the weeds, but they introduce things like where you can change the tools that are available to an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2323.185,
+            2328.826
+          ],
+          "quote": "We tracked all of our coding agent usage to LangSmith so we could tell who was spending how much, what they were spending it on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2347.092,
+            2351.694
+          ],
+          "quote": "So one of the things we've done is we actually built our own in-house cloud coding agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2351.794,
+            2354.917
+          ],
+          "quote": "So not an IDE, not a terminal-based agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2356.838,
+            2360.301
+          ],
+          "quote": "But we built our own cloud-based agent, OpenSwee is what we call it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2412.613,
+            2429.541
+          ],
+          "quote": "So an example of this, we had one or two tasks where some plugin was being used that basically would screenshot or take a snapshot of the DOM of a web page and send that back every turn of the agent because they were doing some front-end engineering and they wanted to take what it looked like and just send it back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2460.196,
+            2466.781
+          ],
+          "quote": "I think the hard part about estimating coding agent spend is that orgs are just changing so rapidly.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2467.221,
+            2479.21
+          ],
+          "quote": "So what I mean by that is I think there's a future where orgs are much smaller and coding agent spend is the same as human salary or more or an order of magnitude more.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 615,
+          "t": [
+            2528.267,
+            2532.509
+          ],
+          "quote": "And in that situation, I would say agent spend, maybe 3x the cost of...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3444.383,
+            3447.506
+          ],
+          "quote": "We built our own database for storing agent traces, SmithDB.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vertical-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直智能体 (vertical agents)",
+      "file": "垂直智能体",
+      "primary": true,
+      "how_described": "Chase 在本集极度看好垂直智能体:领域专家最能写出好验证器、构建 evals,建议从 harness 层和上下文工程起步,而非一开始就训模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 169,
+          "t": [
+            737.4,
+            743.243
+          ],
+          "quote": "I'm massively bullish on vertical agents for different domains for this reason, because I think the domain experts...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 182,
+          "t": [
+            780.901,
+            784.864
+          ],
+          "quote": "And that'll let them build not only vertical agents, but also vertical agent experiences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            787.045,
+            791.528
+          ],
+          "quote": "And so I think a lot of the value will get massively bullish on vertical agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1897.699,
+            1901.042
+          ],
+          "quote": "As I said, I'm massively bullish in vertical agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1940.724,
+            1944.526
+          ],
+          "quote": "Do you think you will have vertical agents for consumer applications?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1958.131,
+            1963.114
+          ],
+          "quote": "You'll have both horizontal and vertical agents, and the horizontal agents will interact with the vertical agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1971.076,
+            1976.798
+          ],
+          "quote": "And I think the reason that having vertical agents makes sense at all is probably twofold, maybe more, but two that jump to mind.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2932.64,
+            2938.285
+          ],
+          "quote": "So like low level infrastructure, temporal, modal, supabase, convex, vertical agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2938.645,
+            2941.608
+          ],
+          "quote": "I think vertical agents are going to be a good layer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "驾驭层 (harness)",
+      "file": "驾驭层",
+      "primary": true,
+      "how_described": "本集把 harness 描述为围绕模型的工程框架:负责连接模型与工具、数据、记忆,中立 harness 让数据和上下文可移植、不被单一模型锁定;模型路由也应在垂直场景放在 harness 层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            374.689,
+            380.251
+          ],
+          "quote": "And two, we've figured out how to build systems that basically harness these models better.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            412.276,
+            418.499
+          ],
+          "quote": "So our open source is all about basically the harness and the framework for taking these models and helping them do things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 140,
+          "t": [
+            602.022,
+            604.723
+          ],
+          "quote": "The harness can be very tied to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            606.084,
+            609.265
+          ],
+          "quote": "The context right now is really intricately linked to the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            609.425,
+            613.307
+          ],
+          "quote": "So the harness's job is to basically take the model and interact with all the other things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            617.329,
+            623.371
+          ],
+          "quote": "And so if you build this memory in a way that is linked to the harness and the harness is linked to the model, then you're kind of stuck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            623.691,
+            629.434
+          ],
+          "quote": "So the true value of the harness structure is the portability of data that it allows the user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            686.347,
+            692.535
+          ],
+          "quote": "And so when you get out of distribution of what the model labs are training on, you want to have control over what the harness does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            694.938,
+            700.084
+          ],
+          "quote": "So model, the harness itself, and the context make up kind of like this open and controllable agent architecture.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            721.013,
+            721.533
+          ],
+          "quote": "The harness?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            752.607,
+            753.967
+          ],
+          "quote": "And it won't be just the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 175,
+          "t": [
+            756.749,
+            763.772
+          ],
+          "quote": "So very practically, if you're getting started building a vertical agent, I would highly suggest you start at the harness layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            765.532,
+            766.913
+          ],
+          "quote": "You kind of like tweak the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            770.795,
+            774.478
+          ],
+          "quote": "I think it's much higher ROI to start at the context or harness layer first.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            793.469,
+            796.051
+          ],
+          "quote": "You said, like, if I was building that, I would start at the harness layer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            831.612,
+            833.613
+          ],
+          "quote": "You use an off-the-shelf harness, off-the-shelf model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            833.893,
+            840.517
+          ],
+          "quote": "The next level down is you start tweaking the harness, and that gives you more control than just the context, but it's a little bit more expensive to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            869.786,
+            875.769
+          ],
+          "quote": "And so they've gotten all the juice they can out of the context, all the juice they can out of the harness, and now they've arrived at basically post-training of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            890.662,
+            901.509
+          ],
+          "quote": "I think what we've seen in regards to post-training is that a lot of the post-training that practically makes sense right now is probably for simpler tasks that make up a larger harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 212,
+          "t": [
+            901.529,
+            907.893
+          ],
+          "quote": "So what I mean by that is when you have an agent harness that's doing interesting work, it's actually very rarely just one model running the loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1000.529,
+            1003.131
+          ],
+          "quote": "Should it be at the harness level or should it be in the gateway level?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1007.174,
+            1011.639
+          ],
+          "quote": "The difference is in the harness level, it's in kind of like the code of how it runs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1013.741,
+            1018.627
+          ],
+          "quote": "So the benefits of putting it in the gateway level, because it's just an API call, you can drop it into any harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1018.687,
+            1025.915
+          ],
+          "quote": "You could put this routing that's happening at the gateway level into Claude Code, into any harness without having to change the code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1026.135,
+            1037.38
+          ],
+          "quote": "The downside, and why I think we're more bullish on routing happening in the harness, as are, I think, Factory and Cognition have also written things about this, is that in the harness, you just have more knowledge of what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1046.025,
+            1050.77
+          ],
+          "quote": "You have more state in the harness to know, hey, what's going on with the prompt cache?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1058.777,
+            1063.542
+          ],
+          "quote": "And so if you do the routing at the harness layer, you can more easily change the prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1063.722,
+            1070.589
+          ],
+          "quote": "And so I think a lot of what we've seen is, one, this debate between gateway and harness and where does routing go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1070.689,
+            1073.552
+          ],
+          "quote": "I think we probably believe it belongs in the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1129.497,
+            1134.304
+          ],
+          "quote": "But I think right now, I pretty strongly believe that routing, you have to be harness aware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1135.866,
+            1137.167
+          ],
+          "quote": "You have to know what the harness looks like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1142.835,
+            1145.058
+          ],
+          "quote": "It's going to be very domain and very harness specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1145.178,
+            1152.265
+          ],
+          "quote": "I'm sorry, when I listen to you, it seems so unwaveringly obvious that routing should be at the harness layer, given the context and memory that is stored there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1168.606,
+            1172.629
+          ],
+          "quote": "If you tell people, hey, you can't use Claude Code, you have to use this other harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1173.029,
+            1188.918
+          ],
+          "quote": "There are other good harnesses out there, but let's pretend for a second that you love Claude Code, and you want to let them keep on using that, but you want to do some semblance of kind of like routing to maybe like a deep seek or an open source model or something like that, then the only way you can do that is at the gateway layer, because you don't control the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1218.739,
+            1220.741
+          ],
+          "quote": "Harness aware, but we'll be use case aware.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1253.306,
+            1256.787
+          ],
+          "quote": "As soon as you get into a domain-specific thing, I really think it has to be at the harness layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1259.348,
+            1265.269
+          ],
+          "quote": "So in two to three years' time, you think the majority is within the harness, given the benefits that come from that context.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1270.571,
+            1274.976
+          ],
+          "quote": "If you're building a vertical agent, I think routing needs to be in the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1389.494,
+            1392.035
+          ],
+          "quote": "There's the context, there's the harness, and there's the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1409.891,
+            1418.339
+          ],
+          "quote": "Controlling the harness is a little bit harder, but you can still put a lot of your domain knowledge around what should do, both routing and things in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1427.306,
+            1435.232
+          ],
+          "quote": "So there is a ton of value in these, but there's only value in that you capture insights that you bring back to the context, or bring back to the harness, or bring back to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1451.712,
+            1460.318
+          ],
+          "quote": "And then for bringing these learnings in the traces back to the harness, you're probably going to want to run an agent over those traces and update the code of the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1523.885,
+            1527.826
+          ],
+          "quote": "It could update the context, it could update the code of the harness, or it could update the weights of the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1706.585,
+            1708.667
+          ],
+          "quote": "What should the harness for this agent be?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1823.587,
+            1832.533
+          ],
+          "quote": "What memory looks like for Instinct or Muse is actually pretty different than what it probably looks like for a company or org harness and it's pretty different than what it looks like for legal or finance or things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1913.609,
+            1918.832
+          ],
+          "quote": "And I don't know if there's a general... What does the harness for these learning agents look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1922.734,
+            1923.875
+          ],
+          "quote": "Deep agents is an agent harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 536,
+          "t": [
+            2215.63,
+            2217.591
+          ],
+          "quote": "And then third is actually impacting the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2217.611,
+            2228.754
+          ],
+          "quote": "So I think primarily a lot of harness engineering has been done around making the agent more efficient because that's the... Or sorry, a lot of the harness engineering has been done to make the agent just like better, more accurate because that's the biggest blocker.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2344.952,
+            2346.772
+          ],
+          "quote": "And then third would be we control the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2365.165,
+            2367.587
+          ],
+          "quote": "But in that harness, we've done a bunch of work to control costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2367.927,
+            2371.229
+          ],
+          "quote": "So things like prompt caching, but also things like routing, we've built into this harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2380.916,
+            2382.637
+          ],
+          "quote": "Third, like try to improve the harness itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2974.345,
+            2987.091
+          ],
+          "quote": "The key part is basically just having some domain expertise that can either be captured in data or logic that goes in the harness, and eventually maybe the model weights, but I wouldn't start there, having some domain expertise that can be captured there and then putting it to work.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "model-routing",
+      "type": "concept",
+      "role": "concept",
+      "name": "模型路由 (model routing)",
+      "file": "模型路由",
+      "primary": true,
+      "how_described": "本集说模型路由是让不同请求走不同模型的机制,是最热门也最具争议的话题:垂直场景应放在 harness 层,通用聊天/编码可放网关层,且不是同质化商品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            114.888,
+            128.652
+          ],
+          "quote": "To see intelligent model routing and practice, visit Fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            983.017,
+            989.081
+          ],
+          "quote": "One of the things that harnesses also need to do, I imagine, is model routing, depending on request.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            989.582,
+            991.943
+          ],
+          "quote": "How much value is in the model routing layer?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            992.184,
+            993.384
+          ],
+          "quote": "Model routing is so interesting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            997.627,
+            1000.509
+          ],
+          "quote": "First, there's a question of where the model routing should even be.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3574.405,
+            3588.176
+          ],
+          "quote": "To see intelligent model routing and practice, visit fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集说 evals 很难写但极其关键:学术 evals 已被基准极限优化而失去信息量,领域内部 evals 才有用,是构建垂直智能体和验证器的核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            286.763,
+            288.544
+          ],
+          "quote": "LangSmith is observability and evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            729.637,
+            730.997
+          ],
+          "quote": "Building evals is a very hard job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 170,
+          "t": [
+            743.563,
+            749.305
+          ],
+          "quote": "Who are best suited to write those verifiers or build those evals as we kind of talk about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1303.404,
+            1304.445
+          ],
+          "quote": "Do you trust evals?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1305.035,
+            1308.096
+          ],
+          "quote": "I think evals are useful, but I wouldn't trust them fully.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1308.296,
+            1317.458
+          ],
+          "quote": "And so what I mean by that is I think a lot of the academic evals that are out there that are used when a lot of the models come out are not really that useful anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1317.478,
+            1321.799
+          ],
+          "quote": "I think all the models that come out are kind of benchmark maxed against those evals, and so you don't learn a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1321.939,
+            1326.78
+          ],
+          "quote": "I think internal evals that you have and that you build for your domain absolutely can still be useful.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1328.022,
+            1332.849
+          ],
+          "quote": "I mean, this is the main reason that building evals is such an important part of building a vertical-specific agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1335.973,
+            1338.477
+          ],
+          "quote": "And I think you can generally trust those evals.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1348.666,
+            1349.847
+          ],
+          "quote": "Maybe your evals aren't perfect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1349.947,
+            1350.888
+          ],
+          "quote": "Evals are really hard.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1421.782,
+            1426.925
+          ],
+          "quote": "The thing that lets you iterate on each of those is evals and traces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1470.006,
+            1471.286
+          ],
+          "quote": "And this is where evals come in handy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2670.197,
+            2671.817
+          ],
+          "quote": "I think that's where evals come in handy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "记忆层 (memory)",
+      "file": "记忆层",
+      "primary": true,
+      "how_described": "本集称智能体的记忆层是最大的未解之谜:难的不是存储而是把海量观察提炼成值得记住的信息(元反思是 LLM 短板),解决方案必然领域特定,LangChain 自己也砍掉了通用记忆商业产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            550.107,
+            554.871
+          ],
+          "quote": "And the state can include things like memory, whether that's short-term memory or long-term memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            555.131,
+            557.092
+          ],
+          "quote": "Memory also comes in different form factors.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            613.607,
+            616.988
+          ],
+          "quote": "All the other things includes data and APIs, but also includes memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            617.329,
+            623.371
+          ],
+          "quote": "And so if you build this memory in a way that is linked to the harness and the harness is linked to the model, then you're kind of stuck.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            634.151,
+            643.661
+          ],
+          "quote": "And if memory, if context starts building up in a way that is specific to how one model wants to interact with memory, wants to interact with context, that's very bad for portability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1145.178,
+            1152.265
+          ],
+          "quote": "I'm sorry, when I listen to you, it seems so unwaveringly obvious that routing should be at the harness layer, given the context and memory that is stored there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1404.306,
+            1409.411
+          ],
+          "quote": "And that would be data, that would be memory, that would be specific APIs, specific tools that you can use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1441.94,
+            1450.43
+          ],
+          "quote": "For bringing things back to the context or memory, you're probably going to want to run another agent over those traces and then have that agent output learnings from memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1538.23,
+            1544.652
+          ],
+          "quote": "But that exact changing, again, updating weights of model, very different from updating a text file that is like a memory file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1629.628,
+            1632.289
+          ],
+          "quote": "The hardest part about memory is actually not the database at all.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1632.309,
+            1636.23
+          ],
+          "quote": "When we talk to a number of companies, the way that they do memory is they just store it in a single file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1653.577,
+            1655.217
+          ],
+          "quote": "That's the hard part in memory right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1787.097,
+            1790.46
+          ],
+          "quote": "I mean, I think this memory layer for agents is still massively unsolved.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1790.741,
+            1796.406
+          ],
+          "quote": "I think one thing about agents that is rare today but will be incredibly common in the next few years is this memory layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1809.038,
+            1811.2
+          ],
+          "quote": "And so I think memory is super, super early.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1811.48,
+            1815.882
+          ],
+          "quote": "We've been talking with folks about memory for like two years and trying to do things in the open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1815.963,
+            1820.165
+          ],
+          "quote": "We launched in alpha and then killed a commercial solution for memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            1820.585,
+            1823.567
+          ],
+          "quote": "It's just so early on in memory and it's so domain specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1823.587,
+            1832.533
+          ],
+          "quote": "What memory looks like for Instinct or Muse is actually pretty different than what it probably looks like for a company or org harness and it's pretty different than what it looks like for legal or finance or things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1832.773,
+            1836.236
+          ],
+          "quote": "So I think memory is one thing that really makes a difference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1842.903,
+            1846.806
+          ],
+          "quote": "And I would expect all products in a few years to have some aspect of memory in it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 443,
+          "t": [
+            1848.967,
+            1856.816
+          ],
+          "quote": "I think the fact that memory will have an impact is quite obvious, and that's why you see so many people interested in it and having it be interested in it for the past few years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1861.34,
+            1863.182
+          ],
+          "quote": "I don't think anyone knows what the answer for memory is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 451,
+          "t": [
+            1876.484,
+            1882.572
+          ],
+          "quote": "I think memory is so early that I think a lot of the solutions that you want to build are actually very domain or agent specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1882.97,
+            1886.933
+          ],
+          "quote": "And so you would build vertically specific memory solutions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1888.233,
+            1897.179
+          ],
+          "quote": "So again, going back to what the hard part of memory is, I think the hard part of memory is that process for learning from facts about what to remember and that agent that does that remembering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1924.075,
+            1935.601
+          ],
+          "quote": "It probably looks similar to that, and all I'm running the loop, but it's got specific instructions and specific tools, and maybe there's some specific sub-agents that are really good at navigating existing memory structures or distilling facts.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集透露 LangChain 约 30% 工程薪资花在编码工具上,管控分三步:可见性(接入 LangSmith)、预算控制、自改驾驭层(自建 OpenSwee);曾一周烧掉 4 万美元于截图循环失误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 531,
+          "t": [
+            2195.379,
+            2199.201
+          ],
+          "quote": "I mean, if you look at how we're tackling coding agents, I think there's a few hints there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2199.261,
+            2201.943
+          ],
+          "quote": "So when we're tackling coding agents, we think of it in three steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2371.49,
+            2376.834
+          ],
+          "quote": "And I actually think that's a pretty repeatable three-step process for getting coding agents spend under control.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2806.933,
+            2810.074
+          ],
+          "quote": "One is the demand for inference, and two is the demand for coding agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集说 Harvey、Ramp 宣称的「自研模型」大多是对开源权重模型做后训练而非从零训练;目前有效的后训练多针对分类、抽取等较简单任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            767.233,
+            770.715
+          ],
+          "quote": "And then when you've got users, then you start tweaking the model in post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            815.423,
+            819.565
+          ],
+          "quote": "I think a lot of it is they are post-training open weight models, absolutely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            856.301,
+            857.521
+          ],
+          "quote": "I think most are post-training.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            869.786,
+            875.769
+          ],
+          "quote": "And so they've gotten all the juice they can out of the context, all the juice they can out of the harness, and now they've arrived at basically post-training of these models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            876.029,
+            882.813
+          ],
+          "quote": "Can I ask you, the jury's kind of out on the efficacy of these specialized models in the post-training realm, like we mentioned there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 211,
+          "t": [
+            890.662,
+            901.509
+          ],
+          "quote": "I think what we've seen in regards to post-training is that a lot of the post-training that practically makes sense right now is probably for simpler tasks that make up a larger harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            915.958,
+            928.133
+          ],
+          "quote": "And so a lot of the places where we see post-training being efficient now are for simpler tasks like classification or extraction or summarization that might be a tool the agent uses or a guardrail or things like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            928.534,
+            933.3
+          ],
+          "quote": "I think those types of post-training right now make a ton of sense and will continue going forward.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            957.781,
+            964.285
+          ],
+          "quote": "We do see people like Harvey and Ramp and others kind of like experimenting with post-training models for this core loop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1437.595,
+            1441.479
+          ],
+          "quote": "So post-training, great for bringing these insights from traces back to the model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            2761.795,
+            2773.16
+          ],
+          "quote": "And like, yes, that's true, but if you really know what you're going to do, so you have to have a high volume use case, and if there are a few components of that that are simple enough to ask, I think it's very good ROI to start kind of like post-training models for those use cases.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集说 Chase 从创业以来最看走眼的就是推理需求的规模——这个市场比三四年前想象的大得多,大到 Fireworks、AWS、Crusoe 都能活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.16,
+            14.622
+          ],
+          "quote": "I think I really underestimated the demand for inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2773.5,
+            2775.901
+          ],
+          "quote": "How do you see the inference market playing out?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2790.608,
+            2798.911
+          ],
+          "quote": "How does this business play out, and how do you think about the need to do all of the stack versus inference-only providers like a Fireworks or a Base10?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2799.271,
+            2806.453
+          ],
+          "quote": "I think when it comes to how things will play out with respect to inference, there's two things that I think I really underestimated from the start of LangChain to now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2806.933,
+            2810.074
+          ],
+          "quote": "One is the demand for inference, and two is the demand for coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2825.599,
+            2834.06
+          ],
+          "quote": "I think Thomas Tungs as well had something around just like the market for inference is just so big that I think Eric said it about more broad stuff than just inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2834.08,
+            2836.861
+          ],
+          "quote": "But I think applying it to inference, I think any inference will work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2898.031,
+            2903.193
+          ],
+          "quote": "I think inference, we already talked about, I think there's a tremendous... Let's do this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 711,
+          "t": [
+            2907.454,
+            2909.095
+          ],
+          "quote": "Number one, we should have inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2909.155,
+            2910.937
+          ],
+          "quote": "We should have inference.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2927.095,
+            2929.938
+          ],
+          "quote": "So we've got inference layer, one, the coding layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 724,
+          "t": [
+            2930.298,
+            2932.48
+          ],
+          "quote": "I would say inference and then like infrastructure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3165.173,
+            3170.655
+          ],
+          "quote": "The bull case for GEV is that there's a new type of inference and new type of model, and the model category is literally named after them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3427.812,
+            3429.694
+          ],
+          "quote": "MARKET FOR INFERENCE IS MASSIVE.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型使用量很大但主要用于路由、护栏、抽取、摘要等狭窄任务,还没真正驱动主流智能体的核心循环;12 个月内会有可比的美国开源模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 657,
+          "t": [
+            2685.22,
+            2688.721
+          ],
+          "quote": "Do you think in the next 12 months we'll have comparable US open source models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 658,
+          "t": [
+            2689.108,
+            2692.151
+          ],
+          "quote": "I think in the next 12 months we will absolutely have comparable US open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2726.317,
+            2735.406
+          ],
+          "quote": "So I think we see a lot of people using more open source models and more post-trained models than I would have maybe expected a year or a year and a half ago.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2748.1,
+            2756.049
+          ],
+          "quote": "And so I think open source models are kind of divisive because you have some people on one end who are like, great, they're good enough, let's use them for everything, and I don't think they're quite there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "prompt-caching",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词缓存 (prompt caching)",
+      "file": "提示词缓存",
+      "primary": true,
+      "how_described": "本集把提示词缓存说成控制编码智能体成本的关键手段:LangChain 把它内置进自建的 OpenSwee harness,模型提供商也在改进 API 让中途改工具不打破缓存。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 538,
+          "t": [
+            2229.154,
+            2235.395
+          ],
+          "quote": "I think as cost becomes more a concern, we're seeing people care more about things like prompt caching, which are really good for kind of like reducing costs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2367.927,
+            2371.229
+          ],
+          "quote": "So things like prompt caching, but also things like routing, we've built into this harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "type": "company",
+      "role": "company",
+      "name": "OpenRouter",
+      "file": "OpenRouter",
+      "primary": true,
+      "how_described": "本集说 OpenRouter 是网关层公司:大部分使用量来自作为 gateway 提供统一模型入口,真正的智能路由做得远比外界以为的少。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 253,
+          "t": [
+            1081.68,
+            1084.261
+          ],
+          "quote": "Obviously, OpenRouter, incredible company, incredible usage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1086.802,
+            1093.325
+          ],
+          "quote": "I think a lot of why people use OpenRouter and Vercel and other gateways is largely for the model access.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1096.306,
+            1103.149
+          ],
+          "quote": "And so I would probably say most of OpenRouter's usage, and Alex obviously knows the numbers a lot better than I do, but if I had to guess,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1106.69,
+            1113.172
+          ],
+          "quote": "So people specify the model they want upfront, and OpenRouter just provides a single API with a single API key for accessing that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1208.292,
+            1210.994
+          ],
+          "quote": "And I actually think OpenRouter has done this to some extent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集说 Fireworks 是推理提供商,Uber、Cursor、Harvey 都构建在它之上;团队写了 PyTorch,Chase 认为推理需求大到它一定能活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            65.916,
+            69.097
+          ],
+          "quote": "Well, they made the really wise decision to build on fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            69.457,
+            74.202
+          ],
+          "quote": "Fireworks is the specialized intelligence platform behind many of the world's leading AI products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 19,
+          "t": [
+            74.462,
+            85.574
+          ],
+          "quote": "Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 22,
+          "t": [
+            95.481,
+            97.801
+          ],
+          "quote": "Well, that's where Fireworks Nexus comes in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            114.888,
+            128.652
+          ],
+          "quote": "To see intelligent model routing and practice, visit Fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            128.952,
+            133.033
+          ],
+          "quote": "While Fireworks powers AI, Laredin helps you measure its impact.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 649,
+          "t": [
+            2655.15,
+            2659.814
+          ],
+          "quote": "And again, if you're using fireworks or hosting it yourself, I think that's just ridiculous.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2775.921,
+            2782.364
+          ],
+          "quote": "You mentioned that at Fireworks, very openly, we're a big investor in Fireworks, and I love Lynn and the team, but everyone's trying to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2790.608,
+            2798.911
+          ],
+          "quote": "How does this business play out, and how do you think about the need to do all of the stack versus inference-only providers like a Fireworks or a Base10?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2842.602,
+            2843.462
+          ],
+          "quote": "Fireworks will work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2920.487,
+            2921.969
+          ],
+          "quote": "Do they not compete with Fireworks?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3003.676,
+            3004.696
+          ],
+          "quote": "Lin and Fireworks, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3525.447,
+            3528.649
+          ],
+          "quote": "Well, they made the really wise decision to build on Fireworks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3528.989,
+            3533.713
+          ],
+          "quote": "Fireworks is the specialized intelligence platform behind many of the world's leading AI products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3533.993,
+            3545.102
+          ],
+          "quote": "Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 886,
+          "t": [
+            3555.01,
+            3557.332
+          ],
+          "quote": "Well, that's where Fireworks Nexus comes in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3574.405,
+            3588.176
+          ],
+          "quote": "To see intelligent model routing and practice, visit fireworks.ai forward slash 20VC to create a free account and use the promo code 20VC50 to claim $50 in credits for 20VC50.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 889,
+          "t": [
+            3588.476,
+            3592.56
+          ],
+          "quote": "While fireworks powers AI, LARADIN helps you measure its impact.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": false,
+      "how_described": "Chase 在本集把它列为值得投的底层基础设施公司,说它很了不起、还做沙箱,人才团队极强。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 715,
+          "t": [
+            2917.064,
+            2918.465
+          ],
+          "quote": "Modal, incredible company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 718,
+          "t": [
+            2922.43,
+            2924.232
+          ],
+          "quote": "Modal does on some things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2932.64,
+            2938.285
+          ],
+          "quote": "So like low level infrastructure, temporal, modal, supabase, convex, vertical agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3000.535,
+            3003.416
+          ],
+          "quote": "Modal has an incredibly strong talent team.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "company",
+      "role": "company",
+      "name": "Benchmark",
+      "file": "Benchmark",
+      "primary": false,
+      "how_described": "本集说 Benchmark 在公司只有两人时投资,被当作第三位联合创始人,风格像共鸣板帮打磨公司内核;为它打折 absolutely 值得。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            2.933
+          ],
+          "quote": "I think absolutely it's worth taking a discount for Sequoia and Benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            23.068,
+            29.473
+          ],
+          "quote": "Now, I remember sitting down with my friend, Myles Grimshaw, when he was at Benchmark, and he said about this incredible founder he met.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            253.661,
+            260.705
+          ],
+          "quote": "I've been looking forward to it for a while because I remember Miles telling me about you when he was at Benchmark and just singing your praises.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1317.478,
+            1321.799
+          ],
+          "quote": "I think all the models that come out are kind of benchmark maxed against those evals, and so you don't learn a lot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1669.344,
+            1671.065
+          ],
+          "quote": "We should build a benchmark for this internally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2815.416,
+            2817.837
+          ],
+          "quote": "I think actually it's Eric Vichry at Benchmark who",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 783,
+          "t": [
+            3191.649,
+            3194.852
+          ],
+          "quote": "Does taking money from benchmark change the trajectory of a company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            3195.998,
+            3201.7
+          ],
+          "quote": "I think Benchmark, when Miles and really the whole Benchmark partnership invested in us, it was me and Ankush.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3225.394,
+            3230.178
+          ],
+          "quote": "And we're very lucky to have Sequoia join us after like two months, three months after the benchmark round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 798,
+          "t": [
+            3238.965,
+            3249.948
+          ],
+          "quote": "Benchmark is maybe a little bit more what's the core nucleus of the company and we're going to be a sounding board for that and we're going to kind of help with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3282.079,
+            3289.162
+          ],
+          "quote": "I think absolutely it's worth taking a discount for Sequoia and Benchmark and probably other of these top one or tier one VC firms, but those are the ones that we work with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3347.995,
+            3352.159
+          ],
+          "quote": "I think that was the approach that Benchmark kind of took when we were fundraising from them as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 844,
+          "t": [
+            3392.528,
+            3393.829
+          ],
+          "quote": "First pitch with Benchmark.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sequoia",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia",
+      "file": "Sequoia",
+      "primary": false,
+      "how_described": "本集说红杉是一台机器:帮招聘、营销、发布,LangChain 不少候选人来自其人才网络;为它打折值得。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            2.933
+          ],
+          "quote": "I think absolutely it's worth taking a discount for Sequoia and Benchmark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3225.394,
+            3230.178
+          ],
+          "quote": "And we're very lucky to have Sequoia join us after like two months, three months after the benchmark round.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3232.26,
+            3233.161
+          ],
+          "quote": "Who was it from Sequoia?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3233.361,
+            3236.864
+          ],
+          "quote": "Sonya from Sequoia, who is one of the most plugged in people in the spaces.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            3259.65,
+            3262.611
+          ],
+          "quote": "Sequoia's style, I think, is they help with everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3270.933,
+            3274.035
+          ],
+          "quote": "I mean, we've gotten a lot of our candidates from Sequoia references.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3279.017,
+            3281.738
+          ],
+          "quote": "Would you say to founders it's worth taking a discount for Sequoia?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 811,
+          "t": [
+            3282.079,
+            3289.162
+          ],
+          "quote": "I think absolutely it's worth taking a discount for Sequoia and Benchmark and probably other of these top one or tier one VC firms, but those are the ones that we work with.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 834,
+          "t": [
+            3360.106,
+            3371.594
+          ],
+          "quote": "But when I look at our most recent rounds that we've done, we raised from Tom at IVP, our Series B. I had been chatting with Tom from I think right around the Sequoia round for over two and a half years.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jatishree]] · [[Fireworks]] · [[Cursor]] · [[Vercel]] · [[开源模型]] · [[推理]] · [[微调]] · [[智能体]] · [[投机解码]] · [[Kubernetes]]
 
-<script type="application/json" class="pd-epn">{"Jatishree":1,"Fireworks":8,"Cursor":88,"Vercel":22,"开源模型":4,"推理":103,"微调":40,"智能体":1,"投机解码":1,"Kubernetes":22}</script>
+<script type="application/json" class="pd-epn">{"Jatishree":1,"Fireworks":9,"Cursor":88,"Vercel":22,"开源模型":4,"推理":105,"微调":40,"智能体":1,"投机解码":1,"Kubernetes":22}</script>
 
 <script>
 (function(){

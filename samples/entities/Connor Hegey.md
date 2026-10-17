@@ -51,11 +51,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Unify":1,"智能体":1,"子智能体":7,"harness":67,"提示词缓存":4,"记忆":30,"评估":1,"LLM 当裁判":11,"沙箱":104,"人在回路":25}</script>
+<script type="application/json" class="pd-epn">{"Unify":1,"智能体":1,"子智能体":7,"harness":68,"提示词缓存":5,"记忆":31,"评估":1,"LLM 当裁判":11,"沙箱":104,"人在回路":25}</script>
 
 <script>
 (function(){

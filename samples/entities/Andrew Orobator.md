@@ -65,11 +65,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"自动驾驶代码库":1,"技能":35,"工作日志":1,"人设":1,"验证":3,"闸门":2,"护栏":94,"心智社会":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"harness 工程":4,"自动驾驶代码库":1,"技能":36,"工作日志":1,"人设":1,"验证":3,"闸门":2,"护栏":94,"心智社会":1}</script>
 
 <script>
 (function(){

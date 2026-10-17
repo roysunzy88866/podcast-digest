@@ -173,9 +173,9 @@ Sean McGuire：除了 ELO 评分法（只问 2400 分的棋手谁是另一个异
 
 **换个口味**
 
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Fireworks、Sequoia · 同概念:智能体 (agent)</span>
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]]<span class="pd-rz">同公司:Anthropic · 同概念:IC、智能体 (agent)</span>
 - [[2026-08-15-twentyvc-20growth-how-to-build-a-100m-growth-engi|SaaS增长该抄电商作业：付费广告立刻开打]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同概念:智能体 (agent)、AEO</span>
-- [[2026-08-22-twentyvc-20vc-the-ai-bubble-will-burst-half-the-n|Insight 创始人 Jerry Murdock：AI 泡沫何时破裂，谁会死掉]]<span class="pd-rz">同嘉宾:Harry Stebbings · 同公司:Fireworks · 同概念:智能体 (agent)</span>
 
 </div>
 </div>

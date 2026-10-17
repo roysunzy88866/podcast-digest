@@ -183,7 +183,7 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 
 - [[2026-10-11-talks-stop-renting-intelligence-the-train-to-d|别再租用智能:开源模型怎么训练到部署一把抓]]<span class="pd-rz">同概念:开源模型 (open source models)、微调 (fine-tune)、智能体 (agent)</span>
 - [[2026-09-15-talks-voice-agents-can-just-do-things-charlie|语音智能体不一定要说话:OpenAI 的三种语音交互模式]]<span class="pd-rz">同公司:OpenAI · 同概念:延迟 (latency)、推理 (reasoning)</span>
-- [[2025-06-03-talks-pioneering-agentic-applications-with-dec|三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？]]<span class="pd-rz">同公司:Decagon · 同概念:智能体 (agent)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同概念:开源模型 (open source models)、智能体 (agent)、评估 (evals)</span>
 
 </div>
 </div>

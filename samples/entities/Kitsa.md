@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"编排器":4,"护栏":94,"循环":10,"规则":2,"police 文件":1,"vibe coding":52,"vibe engineering":1,"技能文件":4,"Codex":91}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"编排器":4,"护栏":94,"循环":10,"规则":3,"police 文件":1,"vibe coding":52,"vibe engineering":1,"技能文件":4,"Codex":92}</script>
 
 <script>
 (function(){

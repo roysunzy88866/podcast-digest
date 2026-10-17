@@ -50,11 +50,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"函数调用":4,"harness":67,"Google DeepMind":11,"上下文窗口":20,"Gemini API":2,"评估":1,"Interactions API":2,"JSON schema":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"函数调用":4,"harness":68,"Google DeepMind":11,"上下文窗口":20,"Gemini API":2,"评估":1,"Interactions API":2,"JSON schema":1}</script>
 
 <script>
 (function(){

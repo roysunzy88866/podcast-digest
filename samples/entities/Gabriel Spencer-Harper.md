@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":3,"基于断言的测试":1,"代码覆盖率":1,"确定性":6,"pull request":7}</script>
+<script type="application/json" class="pd-epn">{"Meticulous":1,"验证":3,"基于断言的测试":1,"代码覆盖率":1,"确定性":7,"pull request":8}</script>
 
 <script>
 (function(){

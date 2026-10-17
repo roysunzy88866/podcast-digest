@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[推理]] · [[Anjney Midha]] · [[Meta]] · [[Sheila]] · [[Alex Atallah]] · [[Facebook]] · [[投机解码]] · [[OpenRouter]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":208,"推理":103,"Anjney Midha":1,"Meta":56,"Sheila":1,"Alex Atallah":2,"Facebook":18,"投机解码":1,"OpenRouter":14}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":206,"OpenAI":208,"推理":105,"Anjney Midha":1,"Meta":56,"Sheila":1,"Alex Atallah":2,"Facebook":18,"投机解码":1,"OpenRouter":15}</script>
 
 <script>
 (function(){

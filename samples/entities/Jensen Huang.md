@@ -94,11 +94,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"沙箱":104,"深度学习":4,"Anthropic":206,"OpenAI":208,"Condi Rice":1,"harness":67,"Jerry":1,"Ezra Klein":1}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":72,"智能体":1,"沙箱":104,"深度学习":4,"Anthropic":206,"OpenAI":208,"Condi Rice":1,"harness":68,"Jerry":1,"Ezra Klein":1}</script>
 
 <script>
 (function(){

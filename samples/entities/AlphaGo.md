@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[强化学习]] · [[模拟]] · [[预训练]] · [[缩放定律]] · [[推理]] · [[OpenAI]] · [[Anthropic]] · [[算力]] · [[Joon Sung Park]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"强化学习":1,"模拟":1,"预训练":10,"缩放定律":18,"推理":103,"OpenAI":208,"Anthropic":206,"算力":10,"Joon Sung Park":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"强化学习":1,"模拟":1,"预训练":10,"缩放定律":18,"推理":105,"OpenAI":208,"Anthropic":206,"算力":10,"Joon Sung Park":1}</script>
 
 <script>
 (function(){

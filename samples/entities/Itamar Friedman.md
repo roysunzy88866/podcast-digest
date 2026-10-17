@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":27,"上下文":35,"部落知识":4,"上下文引擎":5,"软件图":1,"智能体":1,"代码治理":1,"语义规则":1,"Claude Code":116}</script>
+<script type="application/json" class="pd-epn">{"Codo":1,"代码审查":28,"上下文":35,"部落知识":4,"上下文引擎":5,"软件图":1,"智能体":1,"代码治理":1,"语义规则":1,"Claude Code":117}</script>
 
 <script>
 (function(){

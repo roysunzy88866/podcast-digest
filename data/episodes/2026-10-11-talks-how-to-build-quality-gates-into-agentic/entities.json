@@ -1,0 +1,1400 @@
+{
+  "episode_id": "2026-10-11-talks-how-to-build-quality-gates-into-agentic",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 编程",
+    "代码质量",
+    "AI 代码审查",
+    "智能体工作流",
+    "开发者工具"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "nnenna-ndukwe",
+      "type": "person",
+      "role": "guest",
+      "name": "Nnenna Ndukwe",
+      "file": "Nnenna Ndukwe",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集现场演示用的编码智能体之一,嘉宾用它完成规则选择、计划模式下的规划与代码实现",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            190.061,
+            190.882
+          ],
+          "quote": "And Codex?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 32,
+          "t": [
+            192.951,
+            194.912
+          ],
+          "quote": "Wow, wait, less hands for Codex.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 34,
+          "t": [
+            197.812,
+            200.033
+          ],
+          "quote": "I've been using Codex for a lot of stuff.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            805.175,
+            820.02
+          ],
+          "quote": "We need Git to GitHub account, GitHub CLI, and Python, UV, Node.js, and NPM, and any coding agent that you use, preferably Codex or Claude Code, and then we will get our Codo account.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1109.356,
+            1112.477
+          ],
+          "quote": "And I'm doing that in Codex.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1488.779,
+            1490.98
+          ],
+          "quote": "So now Codex is assessing",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1574.114,
+            1592.884
+          ],
+          "quote": "This can be helpful if you need to plan ahead of all the skills that you would expect your coding agent during the implementation to start kicking off one by one, especially if you want to use some type of loops or like goals in Codex or Claude Code to work on your behalf without you stepping in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1849.333,
+            1867.683
+          ],
+          "quote": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2563.899,
+            2570.701
+          ],
+          "quote": "But Codex already did that automatically on its own just because of the way that the repo is actually set up.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集提到的另一款主流编码智能体,与 Codex 并列为推荐的前置条件,讨论中常作为智能体循环/目标设置的例子",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            183.953,
+            187.778
+          ],
+          "quote": "Do we have Claude Code fans here?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            805.175,
+            820.02
+          ],
+          "quote": "We need Git to GitHub account, GitHub CLI, and Python, UV, Node.js, and NPM, and any coding agent that you use, preferably Codex or Claude Code, and then we will get our Codo account.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1574.114,
+            1592.884
+          ],
+          "quote": "This can be helpful if you need to plan ahead of all the skills that you would expect your coding agent during the implementation to start kicking off one by one, especially if you want to use some type of loops or like goals in Codex or Claude Code to work on your behalf without you stepping in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1849.333,
+            1867.683
+          ],
+          "quote": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编码 (AI coding)",
+      "file": "AI 编码",
+      "primary": true,
+      "how_described": "本集主线:用 AI 编码交付高质量软件存在大量潜在失败模式,必须靠结构化流程和质量闸门反复操舵,才能为代码质量背书",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            31.808,
+            40.549
+          ],
+          "quote": "And I've spent a lot of time thinking about and working on, like, what does a structured AI coding process look like?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 15,
+          "t": [
+            91.502,
+            95.703
+          ],
+          "quote": "And, you know, this is what I'm here for, implementing structured AI coding workflow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 39,
+          "t": [
+            221.313,
+            234.095
+          ],
+          "quote": "That is where we come into this process where we kind of have to overdo it with steering AI coding agents to get what we need out of it just so that we can get behind or stand behind the quality of the code",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集把它们说成:需要明确上下文、规则与详细计划约束的智能体,规划越结构化它们遵守得越好、越能自我纠正",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            452.172,
+            456.114
+          ],
+          "quote": "Then we're gonna ask our coding agent to implement the code change",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 131,
+          "t": [
+            805.175,
+            820.02
+          ],
+          "quote": "We need Git to GitHub account, GitHub CLI, and Python, UV, Node.js, and NPM, and any coding agent that you use, preferably Codex or Claude Code, and then we will get our Codo account.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            990.617,
+            995.059
+          ],
+          "quote": "And again, if you have access to the repo, you can have your coding agent do all of this for you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1059.103,
+            1071.426
+          ],
+          "quote": "And yeah, we're just going to use this, all of this text really, we're gonna have our coding agent use all of this to do either one of these tasks, refund workflow or capture retry handling.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1574.114,
+            1592.884
+          ],
+          "quote": "This can be helpful if you need to plan ahead of all the skills that you would expect your coding agent during the implementation to start kicking off one by one, especially if you want to use some type of loops or like goals in Codex or Claude Code to work on your behalf without you stepping in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1777.834,
+            1783.418
+          ],
+          "quote": "A lot of these skills are available all over the internet or you can have your coding agent build it themselves.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1811.012,
+            1818.877
+          ],
+          "quote": "I don't know if he has these publicly available, but if you can look these up or find them or have your coding agent create them yourselves,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3116.299,
+            3125.987
+          ],
+          "quote": "Yes, you can run a code review, and I didn't run that for this because time was flying, but you mean for Kodo or for your coding agent?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集质量闸门流程的关键环节:既要在本地跑一次代码审查尽早发现小问题,也要在 CI/GitProvider 里跑自动化审查,发现后用智能体技能自动修复形成闭环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            20.053,
+            26.077
+          ],
+          "quote": "We used to be just like an AI code review platform, but now we're kind of expanding beyond that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 37,
+          "t": [
+            208.355,
+            211.876
+          ],
+          "quote": "Planning and design, development, code review, testing, deployment.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 56,
+          "t": [
+            319.863,
+            330.391
+          ],
+          "quote": "I have a repo that has rules, it has skills, it has a bunch of different things in it, and we wanna leverage that for planning, for code generation, and code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 107,
+          "t": [
+            652.867,
+            662.871
+          ],
+          "quote": "And this is going to be critical for us to be able to then apply that as context to the code review phase as well, not just with your coding agents or when you're planning.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 129,
+          "t": [
+            791.497,
+            801.887
+          ],
+          "quote": "And that is going to be a process of completing the code review loop on your own, as opposed to just stopping right there at that local, passing that local run.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1748.054,
+            1758.617
+          ],
+          "quote": "So what I was saying about operationalizing context, planning, code gen, and code review, this is what I found to be incredibly helpful for consistency across the SDLC.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1845.271,
+            1848.833
+          ],
+          "quote": "And then I believe in then running local code review workflows.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1849.333,
+            1867.683
+          ],
+          "quote": "I don't care what tool that you use, if it's a Codex, if it's Claude Code, their built-in code review, if you're using Codo, whatever it is, always run a local code review because there are always these small changes that you could probably make earlier before another developer has to see your code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1876.363,
+            1881.484
+          ],
+          "quote": "And then we're running automated code review in CI or GitProvider, which is by default.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1899.625,
+            1907.611
+          ],
+          "quote": "And only one bug was uncovered in over 1,900 lines of code using Codo for that automated code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2612.808,
+            2621.252
+          ],
+          "quote": "Here in the code review, Codo identified that there were rules in the Codo portal that are relevant for this actual code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2624.153,
+            2625.974
+          ],
+          "quote": "We're talking about code review specifically.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2703.171,
+            2711.922
+          ],
+          "quote": "Yeah, so this is being determined right during the code review phase of, okay, which rules are going to be relevant",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 475,
+          "t": [
+            3116.299,
+            3125.987
+          ],
+          "quote": "Yes, you can run a code review, and I didn't run that for this because time was flying, but you mean for Kodo or for your coding agent?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "code-quality",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码质量 (code quality)",
+      "file": "代码质量",
+      "primary": true,
+      "how_described": "本集核心议题:代码质量在规划、开发、审查、测试、部署的每个环节都可能崩坏,要先定义、成文化标准并尽早且频繁地验证",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            26.747,
+            31.208
+          ],
+          "quote": "That's all about code quality and governance across the software development lifecycle.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 27,
+          "t": [
+            174.983,
+            178.427
+          ],
+          "quote": "So, in general, where and how code quality can break down.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 35,
+          "t": [
+            200.433,
+            205.894
+          ],
+          "quote": "But where can code quality break down in the agentic development lifecycle?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 47,
+          "t": [
+            253.66,
+            259.045
+          ],
+          "quote": "And it really starts with, number one, defining what code quality means to you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1945.665,
+            1950.526
+          ],
+          "quote": "And then there's overall code quality like at the highest level like engineering standards.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "tdd",
+      "type": "concept",
+      "role": "concept",
+      "name": "TDD",
+      "file": "TDD",
+      "primary": true,
+      "how_described": "本集把 TDD 作为一项智能体技能和规划闸门的一部分:让智能体用 TDD/BDD 技能编写正确的测试来证明行为符合预期",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            442.609,
+            451.652
+          ],
+          "quote": "We're gonna use skills and then make sure that we're writing proper tests using some TDD and BDD skills, test-driven, behavior-driven development.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把 skills 说成:给 AI 执行具体任务的方法指引,如 TDD 技能、审计技能,存放在仓库或上下文管理层供智能体按任务调用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            319.863,
+            330.391
+          ],
+          "quote": "I have a repo that has rules, it has skills, it has a bunch of different things in it, and we wanna leverage that for planning, for code generation, and code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 61,
+          "t": [
+            351.509,
+            352.529
+          ],
+          "quote": "Oh, these are my skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 76,
+          "t": [
+            442.609,
+            451.652
+          ],
+          "quote": "We're gonna use skills and then make sure that we're writing proper tests using some TDD and BDD skills, test-driven, behavior-driven development.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 86,
+          "t": [
+            510.502,
+            534.841
+          ],
+          "quote": "Look at with the repo structure, we have an AgentsMD file, we have a hidden plan directory, hidden, and rules, skills, docs, we have the actual API itself, we have tests, and we're using SEMGREP as well for static analysis, and we have our CI workflow, like verification process.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 106,
+          "t": [
+            643.593,
+            652.295
+          ],
+          "quote": "We wanna set up our account with Kodo so it can actually ingest the skills that are in this repo already and to ingest the rules that are in this repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 114,
+          "t": [
+            697.274,
+            699.839
+          ],
+          "quote": "as well as the skills for implementation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 121,
+          "t": [
+            744.244,
+            747.565
+          ],
+          "quote": "What are the skills that I'm going to use for implementation?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 149,
+          "t": [
+            899.973,
+            909.416
+          ],
+          "quote": "This is just an example, like we're using Codo as an example of whether you use Codo or not, you'll want skills and rules to live somewhere.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 162,
+          "t": [
+            997.921,
+            999.642
+          ],
+          "quote": "We also have Kodo skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1000.102,
+            1007.586
+          ],
+          "quote": "You can use npx skills add kodo-ai forward slash kodo skills forward slash skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1008.326,
+            1013.069
+          ],
+          "quote": "If you don't want to use it, the skills are already local in the repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1091.362,
+            1102.692
+          ],
+          "quote": "I am going to, since I already have this part, I'm just going to copy and paste, install or verify Kodo skills, read agents.md and rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1150.913,
+            1152.735
+          ],
+          "quote": "Install or verify Kodo skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1171.228,
+            1178.454
+          ],
+          "quote": "And then I have optionally compare those rules with Kodo get rules if those skills are available, if you want to download the skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1193.879,
+            1208.307
+          ],
+          "quote": "Okay, it found, it's aware that we're inside the workshop project, and it has also identified that I have the code of skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1211.849,
+            1216.671
+          ],
+          "quote": "Oh, the repo local workshop skills are not installed yet, so I'm gonna run the repos installer,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1218.678,
+            1222.6
+          ],
+          "quote": "Only copies committed local skill folders into the agent skills directory.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1223.301,
+            1225.862
+          ],
+          "quote": "So it's gonna process the local skills that we have.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1270.12,
+            1278.043
+          ],
+          "quote": "And then we wanted to read agents, read the rules, and use any relevant skills to determine what are the constraints.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1382.696,
+            1388.338
+          ],
+          "quote": "It ran the install skills instructions or command.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1389.538,
+            1391.759
+          ],
+          "quote": "All of the local skills are now pulled down",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1530.678,
+            1545.041
+          ],
+          "quote": "I think that a plan should answer what behavior are we changing, which rules apply, what skills would guide the agent, which tests prove the expected behavior, and what kind of quality gauge should pass before we review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1574.114,
+            1592.884
+          ],
+          "quote": "This can be helpful if you need to plan ahead of all the skills that you would expect your coding agent during the implementation to start kicking off one by one, especially if you want to use some type of loops or like goals in Codex or Claude Code to work on your behalf without you stepping in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1759.137,
+            1765.279
+          ],
+          "quote": "I use a combination of different agent skills, and it depends on the repos that I'm working in.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1769.32,
+            1774.522
+          ],
+          "quote": "But at a high level, and so you'll see some Python skills here at the top, like Python, Pydantic, PyWrite.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1777.834,
+            1783.418
+          ],
+          "quote": "A lot of these skills are available all over the internet or you can have your coding agent build it themselves.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1789.538,
+            1794.681
+          ],
+          "quote": "And those are ones from Aaron Francis are the audit skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1829.551,
+            1844.035
+          ],
+          "quote": "So one of the values of using skills and the Codo Get rules here, this is about pulling down those rules from your context management layer and then determining which rules are gonna be relevant for the task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1951.443,
+            1980.527
+          ],
+          "quote": "that are specific or that can apply to any programming language and then like below that it's okay all the repos that use Python here are all the skills for that and like you kind of have to decide what would be most relevant depending on your use case but the more general a skill is then the more access you need to have other many repos need to have to it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2056.712,
+            2078.647
+          ],
+          "quote": "These are some of the ways in which these rules can be categorized and I believe they can also be scoped to specific repos if you want to get granular or if you want Coda to infer that itself or whichever tool that you use, you can actually design that process yourself to scope those rules or skills so that they only apply",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2435.015,
+            2438.158
+          ],
+          "quote": "And a question that follows from it is something I've seen with skills",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2459.031,
+            2461.393
+          ],
+          "quote": "Or how do you know these skills are actually valuable versus just",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2463.296,
+            2465.757
+          ],
+          "quote": "Codo is just ingesting the skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2473.199,
+            2485.703
+          ],
+          "quote": "T-E-S-S-L is a company that is all about skills evals, and it will tell you, are there any security concerns with this skill, or is this actually as effective as you expect it to be?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2626.327,
+            2632.136
+          ],
+          "quote": "And then it pulled in also the relevant skills for this code change.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2846.702,
+            2848.842
+          ],
+          "quote": "Oh, okay, five skills were invoked.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 491,
+          "t": [
+            3225.879,
+            3246.316
+          ],
+          "quote": "I think there is one of them out there, but if you look it up, you should try practicing having rules and skills and other engineering standards, whatever it is, stored elsewhere so that you can pull down that information when relevant to the stages of your workflow.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "type": "concept",
+      "role": "concept",
+      "name": "规则 (rules)",
+      "file": "规则",
+      "primary": true,
+      "how_described": "本集把 rules 说成:告诉 AI 什么能做什么不能做的成文标准,按可访问性、正确性、安全等类别和严重程度分级,最高可阻止合并",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            319.863,
+            330.391
+          ],
+          "quote": "I have a repo that has rules, it has skills, it has a bunch of different things in it, and we wanna leverage that for planning, for code generation, and code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 75,
+          "t": [
+            436.166,
+            442.289
+          ],
+          "quote": "We are going to read the repo rules to determine which rules are relevant for this particular coding change.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 86,
+          "t": [
+            510.502,
+            534.841
+          ],
+          "quote": "Look at with the repo structure, we have an AgentsMD file, we have a hidden plan directory, hidden, and rules, skills, docs, we have the actual API itself, we have tests, and we're using SEMGREP as well for static analysis, and we have our CI workflow, like verification process.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 106,
+          "t": [
+            643.593,
+            652.295
+          ],
+          "quote": "We wanna set up our account with Kodo so it can actually ingest the skills that are in this repo already and to ingest the rules that are in this repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 110,
+          "t": [
+            670.811,
+            675.054
+          ],
+          "quote": "So some standards gates that are important to this are the rules themselves.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 111,
+          "t": [
+            675.414,
+            680.317
+          ],
+          "quote": "We have different payments, API-focused rules that are contained in this repo.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 112,
+          "t": [
+            680.717,
+            692.925
+          ],
+          "quote": "And it is the agent's job to be able to determine, when I have to implement this code change that you're requesting for me, I need to determine which of these rules are going to be relevant for this so I can adhere to them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 149,
+          "t": [
+            899.973,
+            909.416
+          ],
+          "quote": "This is just an example, like we're using Codo as an example of whether you use Codo or not, you'll want skills and rules to live somewhere.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1091.362,
+            1102.692
+          ],
+          "quote": "I am going to, since I already have this part, I'm just going to copy and paste, install or verify Kodo skills, read agents.md and rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1153.115,
+            1156.157
+          ],
+          "quote": "We're reading the agents.md file and the rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1156.757,
+            1160.44
+          ],
+          "quote": "And then we are asking it to take a look at the repo rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1161.28,
+            1169.807
+          ],
+          "quote": "for the hands-on tasks that we're about to implement and explain why each of these rules will be relevant for the upcoming task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1171.228,
+            1178.454
+          ],
+          "quote": "And then I have optionally compare those rules with Kodo get rules if those skills are available, if you want to download the skills.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1190.937,
+            1192.738
+          ],
+          "quote": "before selecting the rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1270.12,
+            1278.043
+          ],
+          "quote": "And then we wanted to read agents, read the rules, and use any relevant skills to determine what are the constraints.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1392.71,
+            1397.412
+          ],
+          "quote": "And here are the selected repo local rules for this payment workflow task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1401.374,
+            1406.736
+          ],
+          "quote": "So these are all the rules that are going to be considered as a part of this process.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1466.772,
+            1477.316
+          ],
+          "quote": "So I'm gonna use the repo local workshop plan from task skill and the payment idempotency skill and then ground the plan in agents.md, readme, and the rules.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1530.678,
+            1545.041
+          ],
+          "quote": "I think that a plan should answer what behavior are we changing, which rules apply, what skills would guide the agent, which tests prove the expected behavior, and what kind of quality gauge should pass before we review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1595.167,
+            1601.893
+          ],
+          "quote": "Behavior scenarios and verification gates, failure and recovery rules, and a commit plan.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1702.64,
+            1709.604
+          ],
+          "quote": "We have the repo rules that are associated, the high-level implementation plan, and the build session execution plan.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1829.551,
+            1844.035
+          ],
+          "quote": "So one of the values of using skills and the Codo Get rules here, this is about pulling down those rules from your context management layer and then determining which rules are gonna be relevant for the task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2000.101,
+            2004.582
+          ],
+          "quote": "We're in the Codo portal, and this is the rules section.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 308,
+          "t": [
+            2005.082,
+            2013.366
+          ],
+          "quote": "So across multiple repos, there are rules that were inferred and ingested and saved here in the portal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 314,
+          "t": [
+            2041.875,
+            2044.957
+          ],
+          "quote": "There are some rules that are strong enough to where you wanna block a merge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2056.712,
+            2078.647
+          ],
+          "quote": "These are some of the ways in which these rules can be categorized and I believe they can also be scoped to specific repos if you want to get granular or if you want Coda to infer that itself or whichever tool that you use, you can actually design that process yourself to scope those rules or skills so that they only apply",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2181.961,
+            2183.622
+          ],
+          "quote": "How do rules become rules?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2194.396,
+            2210.639
+          ],
+          "quote": "If you have coding rules that are literally in a rules directory, it's gonna be very easy for Codo to be like, okay, every single one of the rules that I see here, I'm just going to copy and paste most of those contents and ingest it here into the portal.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2211.099,
+            2215.94
+          ],
+          "quote": "But there are some rules that will show up as suggestions.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 338,
+          "t": [
+            2224.573,
+            2228.7
+          ],
+          "quote": "So you might not have explicitly written these rules into your code,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2308.347,
+            2313.772
+          ],
+          "quote": "I think for this, it's just pulling in the local repo rules that are",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2612.808,
+            2621.252
+          ],
+          "quote": "Here in the code review, Codo identified that there were rules in the Codo portal that are relevant for this actual code review.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2662.068,
+            2667.81
+          ],
+          "quote": "Because you can customize the level of severity of your rules, it doesn't have to be something that is block worthy.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2703.171,
+            2711.922
+          ],
+          "quote": "Yeah, so this is being determined right during the code review phase of, okay, which rules are going to be relevant",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2873.002,
+            2880.709
+          ],
+          "quote": "And we have the piece of code that is related to that, and we have the evidence as well, the rules and the following files.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 491,
+          "t": [
+            3225.879,
+            3246.316
+          ],
+          "quote": "I think there is one of them out there, but if you look it up, you should try practicing having rules and skills and other engineering standards, whatever it is, stored elsewhere so that you can pull down that information when relevant to the stages of your workflow.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 494,
+          "t": [
+            3255.105,
+            3271.669
+          ],
+          "quote": "So definitely look into this if you want an open source solution for governing your AI code through different rules and things like that consistently across your teams and your repos.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取请求 (pull request)",
+      "file": "拉取请求",
+      "primary": true,
+      "how_described": "本集流程的最后一道闸门:打开 PR 让 Qodo 自动审查,再运行 PR resolver 技能自动修复问题并回发到 PR,已解决的问题被划掉",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            469.189,
+            475.954
+          ],
+          "quote": "And then we'll open a pull request and have Kodo review our PR directly in GitHub.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 105,
+          "t": [
+            637.231,
+            643.393
+          ],
+          "quote": "And what's great about Kodo here is that we're not just gonna run this in a pull request.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 126,
+          "t": [
+            774.627,
+            778.629
+          ],
+          "quote": "And then the last gate is the pull request review and the remediation gate.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1618.582,
+            1627.79
+          ],
+          "quote": "Get to a point where you can actually submit a pull request and everything is organized the same way that one would working on a team back when we didn't have AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            2376.797,
+            2386.005
+          ],
+          "quote": "I'm just gonna go ahead and make this a real PR because what I want is for Kodo to review this without merging the pull request.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2953.198,
+            2962.983
+          ],
+          "quote": "After seeing all of the results in this PR, then that's when I ran the Kodo PR resolver skill, and I ran it against the pull request number four,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 476,
+          "t": [
+            3127.348,
+            3141.641
+          ],
+          "quote": "So we are coming out with a Kodo review local workflow, and it will talk directly to the Kodo backend, so all of the agentic capabilities that you would have at a pull request, you would also have locally and be able to address.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性工具 (deterministic)",
+      "file": "确定性工具",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            460.341,
+            468.788
+          ],
+          "quote": "We have static analysis that we're running because we want some deterministic checks and we want AI as well, like a good combination.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 124,
+          "t": [
+            755.54,
+            767.565
+          ],
+          "quote": "I use RUF, PyRite, Bandit, PyTest, SEMGREP, and conventional commits, deterministic evidence that the changes made locally preserve the local contract.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 125,
+          "t": [
+            768.245,
+            773.567
+          ],
+          "quote": "I am a huge believer in combining deterministic tools with AI.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2712.232,
+            2723.136
+          ],
+          "quote": "The part that can be deterministic is that you can decide based on the level of severity of the rule, this code, this branch or PR will be blocked.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "static-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "静态分析 (static analysis)",
+      "file": "静态分析",
+      "primary": false,
+      "how_described": "本集本地验证闸门中运行的确定性检查,与 linter 一起作为变更保留契约的确定性证据",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            460.341,
+            468.788
+          ],
+          "quote": "We have static analysis that we're running because we want some deterministic checks and we want AI as well, like a good combination.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 86,
+          "t": [
+            510.502,
+            534.841
+          ],
+          "quote": "Look at with the repo structure, we have an AgentsMD file, we have a hidden plan directory, hidden, and rules, skills, docs, we have the actual API itself, we have tests, and we're using SEMGREP as well for static analysis, and we have our CI workflow, like verification process.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context-management-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文管理层 (context management layer)",
+      "file": "上下文管理层",
+      "primary": true,
+      "how_described": "本集建议团队协作时把规则和技能放在仓库之外的统一上下文管理层,让任何 AI 界面都能随时拉取并自动挑出与任务相关的规则",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            280.954,
+            294.964
+          ],
+          "quote": "And then once you've decided where those standards live, whether they're locally in your specific individual repos or if they're in a context management layer, which we'll get into, then you can decide and pull that into the different interfaces.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1829.551,
+            1844.035
+          ],
+          "quote": "So one of the values of using skills and the Codo Get rules here, this is about pulling down those rules from your context management layer and then determining which rules are gonna be relevant for the task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2604.644,
+            2612.087
+          ],
+          "quote": "And this is something that I highly consider you looking into when it comes to that context management layer that I was talking about.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Qodo",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "TESSL",
+      "reason": "专名「TESSL」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

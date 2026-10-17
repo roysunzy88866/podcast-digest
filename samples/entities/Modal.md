@@ -8,7 +8,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Modal</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Modal">MO</div><div class="pi"><h1 class="pt">Modal</h1><div class="byl">公司 · 又名 Modal Labs / Modo / moto</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,10 +20,11 @@ aliases: ["Modal Labs", "Modo", "moto"]
 - **[[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]]**(15:22起):本集在列举 NeoCloud 时顺带提到 Modal，作为使用中国开源模型路径的推理服务之一
 - **[[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]]**(06:33起):嘉宾工作的云平台,帮许多团队在成百上千块 GPU 上部署和优化推理,并有 Modal Endpoints 新产品帮助快速部署推理引擎
 - **[[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]]**(28:07起):本集把 Modal 列为增长极快的技术创始人公司例子,用来对比 Hugging Face 花了十年才走到今天的速度。
+- **[[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]]**(48:37起):Chase 在本集把它列为值得投的底层基础设施公司,说它很了不起、还做沙箱,人才团队极强。
 
 ## ② 出现在这些集
 
-*8 集*
+*9 集*
 
 - [[2026-06-16-devtools-swyx-aie|《AI Engineer 大会背后的社区逻辑与创业生存法则》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
@@ -33,14 +34,15 @@ aliases: ["Modal Labs", "Modo", "moto"]
 - [[2026-09-10-newcomer-zavain-dar-on-hugging-face--nvidia--why|《从 Hugging Face 到中国药企：NVIDIA 的开源终局与 AI 制药的未来》]] — 作为被讨论公司(提及)
 - [[2026-10-06-talks-what-is-an-inference-engine-anyway-charl|《大模型背后：推理引擎到底在干什么》]] — 作为被讨论公司
 - [[2026-10-14-aiandi-how-hugging-face-s-investor-spots-winner|《投资Hugging Face的人怎么看AI创业》]] — 作为被讨论公司(提及)
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|《LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[推理]] · [[Cognition]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[Hugging Face]] · [[Swyx]] · [[投机解码]] · [[Claude Code]]
+[[智能体]] · [[推理]] · [[Cognition]] · [[Anthropic]] · [[沙箱]] · [[OpenAI]] · [[Hugging Face]] · [[Swyx]] · [[投机解码]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"推理":103,"Cognition":27,"Anthropic":206,"沙箱":104,"OpenAI":208,"Hugging Face":39,"Swyx":2,"投机解码":1,"Claude Code":116}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"推理":105,"Cognition":27,"Anthropic":206,"沙箱":104,"OpenAI":208,"Hugging Face":39,"Swyx":2,"投机解码":1,"harness":68}</script>
 
 <script>
 (function(){

@@ -47,11 +47,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[James Norman]] [[Peter]] [[Jose Palafox]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Carl Svera]] [[Carlos Kelpbaum]] [[Udaykira Mendicetti]] [[Nnenna Ndukwe]] [[James Norman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":38,"沙箱":104,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
+<script type="application/json" class="pd-epn">{"TESOL":1,"软件工厂":1,"harness 工程":4,"编码智能体":40,"沙箱":104,"技能注册表":2,"控制平面":3,"Agent IT":1,"内环与外环":3,"外循环":1}</script>
 
 <script>
 (function(){

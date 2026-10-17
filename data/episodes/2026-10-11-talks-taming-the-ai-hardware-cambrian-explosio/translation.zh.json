@@ -1,0 +1,1330 @@
+[
+ {
+  "seg": 0,
+  "start": 14.002,
+  "end": 15.023,
+  "speaker": "Unknown",
+  "en": "So let's get started.",
+  "zh": "那么我们开始吧。"
+ },
+ {
+  "seg": 1,
+  "start": 15.663,
+  "end": 17.805,
+  "speaker": "Unknown",
+  "en": "Hi, my name is Abdul.",
+  "zh": "大家好，我叫 Abdul。"
+ },
+ {
+  "seg": 2,
+  "start": 19.486,
+  "end": 20.326,
+  "speaker": "Unknown",
+  "en": "I'm from Modular.",
+  "zh": "我来自 Modular。"
+ },
+ {
+  "seg": 3,
+  "start": 20.887,
+  "end": 24.789,
+  "speaker": "Unknown",
+  "en": "Today I'm gonna be talking about what Modular is and what value it brings to you.",
+  "zh": "今天我要讲的是 Modular 是什么，以及它能给你带来什么价值。"
+ },
+ {
+  "seg": 4,
+  "start": 26.57,
+  "end": 31.613,
+  "speaker": "Unknown",
+  "en": "So as you probably know, today there is a huge crunch for compute.",
+  "zh": "如你所知，如今算力出现巨大的紧缺。"
+ },
+ {
+  "seg": 5,
+  "start": 32.414,
+  "end": 34.475,
+  "speaker": "Unknown",
+  "en": "And there's like no alleviation in sight.",
+  "zh": "而且短期内看不到缓解的迹象。"
+ },
+ {
+  "seg": 6,
+  "start": 34.555,
+  "end": 37.497,
+  "speaker": "Unknown",
+  "en": "A lot of these things are booked for the next few years.",
+  "zh": "很多资源在未来几年都已被预订一空。"
+ },
+ {
+  "seg": 7,
+  "start": 39.772,
+  "end": 43.133,
+  "speaker": "Unknown",
+  "en": "But there's also a kind of, as a result, you have an explosion of hardware.",
+  "zh": "但也因此，出现了硬件的爆发式增长。"
+ },
+ {
+  "seg": 8,
+  "start": 43.173,
+  "end": 45.073,
+  "speaker": "Unknown",
+  "en": "We call it like a Cambrian explosion.",
+  "zh": "我们把它称为寒武纪大爆发。"
+ },
+ {
+  "seg": 9,
+  "start": 45.113,
+  "end": 54.356,
+  "speaker": "Unknown",
+  "en": "You have NVIDIA providing, you know, a few generations of GPUs, the Intels, the Arms, the Apples, everything is present.",
+  "zh": "有 NVIDIA 提供的几代 GPU，还有 Intel、Arm、Apple，应有尽有。"
+ },
+ {
+  "seg": 10,
+  "start": 54.976,
+  "end": 63.518,
+  "speaker": "Unknown",
+  "en": "They all have some niches that they cover, but the problem is that you have to ask is how do you program all of these systems?",
+  "zh": "它们各自覆盖一些细分领域，但问题在于：你要如何为所有这些系统编程？"
+ },
+ {
+  "seg": 11,
+  "start": 66.666,
+  "end": 72.388,
+  "speaker": "Unknown",
+  "en": "Now, if you look at the current software as it is today, it's kind of a mess as well.",
+  "zh": "现在，如果你看看当今的软件现状，它同样是一团糟。"
+ },
+ {
+  "seg": 12,
+  "start": 72.788,
+  "end": 81.811,
+  "speaker": "Unknown",
+  "en": "And that's because a lot of these hardware choices bubble up from down under into upwards into the stack.",
+  "zh": "这是因为很多底层硬件的选择会一路向上冒泡，渗透到整个技术栈。"
+ },
+ {
+  "seg": 13,
+  "start": 82.471,
+  "end": 87.753,
+  "speaker": "Unknown",
+  "en": "So this is a diagram showing how VLM supports both NVIDIA and AMD.",
+  "zh": "这张图展示了 VLM 如何同时支持 NVIDIA 和 AMD。"
+ },
+ {
+  "seg": 14,
+  "start": 89.714,
+  "end": 94.475,
+  "speaker": "Unknown",
+  "en": "If you add extra hardware, the diagram becomes even more difficult.",
+  "zh": "如果你加入额外的硬件，这张图会变得更加复杂。"
+ },
+ {
+  "seg": 15,
+  "start": 94.595,
+  "end": 103.397,
+  "speaker": "Unknown",
+  "en": "Now today, folks actually deploy not only using VLLM, but also SGLang, TRTLM, LlamaCPP, et cetera.",
+  "zh": "如今，人们实际部署时不仅使用 VLLM，还使用 SGLang、TRTLM、LlamaCPP 等等。"
+ },
+ {
+  "seg": 16,
+  "start": 105.217,
+  "end": 108.738,
+  "speaker": "Unknown",
+  "en": "So at Moduro, we thought, well, this is kind of a huge mess.",
+  "zh": "所以在 Moduro，我们想，这实在是一团巨大的乱麻。"
+ },
+ {
+  "seg": 17,
+  "start": 108.838,
+  "end": 118.76,
+  "speaker": "Unknown",
+  "en": "Let's re-architect the stack from the ground up, and let's build a unifying layer that unifies all the hardware, so everything runs on our stack.",
+  "zh": "让我们从零开始重新架构整个技术栈，构建一个统一所有硬件的统一层，让一切都运行在我们的技术栈上。"
+ },
+ {
+  "seg": 18,
+  "start": 120.93,
+  "end": 131.794,
+  "speaker": "Unknown",
+  "en": "To realize this, you have to actually go back to first principles and build a complete software stack with portability, performance, and programmability in mind.",
+  "zh": "要实现这一点，你必须回归第一性原理，以可移植性、性能和可编程性为核心，构建一个完整的软件栈。"
+ },
+ {
+  "seg": 19,
+  "start": 132.894,
+  "end": 142.338,
+  "speaker": "Unknown",
+  "en": "So at the bottom-most level, we've developed Mojo, a heterogeneous programming language that's targeted towards AI as well as general-purpose programming as well.",
+  "zh": "所以在最底层，我们开发了 Mojo，一种面向 AI 以及通用编程的异构编程语言。"
+ },
+ {
+  "seg": 20,
+  "start": 143.278,
+  "end": 149.081,
+  "speaker": "Unknown",
+  "en": "It's kind of Pythonic in style, so folks that actually know Python today pretty much know 90% of Mojo.",
+  "zh": "它的风格有点像 Python，所以今天熟悉 Python 的人基本上已经掌握了 90% 的 Mojo。"
+ },
+ {
+  "seg": 21,
+  "start": 151.643,
+  "end": 157.328,
+  "speaker": "Unknown",
+  "en": "So we've built that language, and that targets both CPUs, GPUs, as well as other accelerators.",
+  "zh": "我们构建了这门语言，它面向 CPU、GPU 以及其他加速器。"
+ },
+ {
+  "seg": 22,
+  "start": 158.189,
+  "end": 164.494,
+  "speaker": "Unknown",
+  "en": "On top of that, we leverage Mojo to build Max, our inference engine.",
+  "zh": "在此之上，我们利用 Mojo 构建了 Max，我们的推理引擎。"
+ },
+ {
+  "seg": 23,
+  "start": 164.634,
+  "end": 172.801,
+  "speaker": "Unknown",
+  "en": "So that provides you with AI inference for a bunch of different modalities, like image, video, speech, as well as text.",
+  "zh": "它为多种不同的模态提供 AI 推理，比如图像、视频、语音以及文本。"
+ },
+ {
+  "seg": 24,
+  "start": 173.662,
+  "end": 178.646,
+  "speaker": "Unknown",
+  "en": "We've built all our kernels underneath the hood that are built on top of Mojo.",
+  "zh": "我们在底层构建了所有的 kernel，它们都构建在 Mojo 之上。"
+ },
+ {
+  "seg": 25,
+  "start": 180.11,
+  "end": 182.752,
+  "speaker": "Unknown",
+  "en": "Finally, today's AI inference is distributed.",
+  "zh": "最后，如今的 AI 推理是分布式的。"
+ },
+ {
+  "seg": 26,
+  "start": 183.352,
+  "end": 186.215,
+  "speaker": "Unknown",
+  "en": "So you actually need a cloud solution as well.",
+  "zh": "所以你实际上还需要一个云解决方案。"
+ },
+ {
+  "seg": 27,
+  "start": 186.295,
+  "end": 204.688,
+  "speaker": "Unknown",
+  "en": "You need to pick which hardware to deploy your model on, how to route different user requests to different machines, how to do KVCache offloading and distributed inference and disaggregated inference to be able to serve the model at the speed and the cost that folks expect.",
+  "zh": "你需要选择将模型部署在哪种硬件上，如何把不同的用户请求路由到不同的机器，如何做 KVCache 卸载、分布式推理和分离式推理，才能以人们期望的速度和成本来服务模型。"
+ },
+ {
+  "seg": 28,
+  "start": 206.37,
+  "end": 209.132,
+  "speaker": "Unknown",
+  "en": "So putting it all together, we built a modular platform.",
+  "zh": "把这些整合在一起，我们构建了 modular 平台。"
+ },
+ {
+  "seg": 29,
+  "start": 209.932,
+  "end": 211.332,
+  "speaker": "Unknown",
+  "en": "That's fully programmable.",
+  "zh": "它是完全可编程的。"
+ },
+ {
+  "seg": 30,
+  "start": 211.872,
+  "end": 213.193,
+  "speaker": "Unknown",
+  "en": "It's hardware abstracted.",
+  "zh": "它是硬件抽象化的。"
+ },
+ {
+  "seg": 31,
+  "start": 213.933,
+  "end": 215.333,
+  "speaker": "Unknown",
+  "en": "It's SodaPerf.",
+  "zh": "它是 SodaPerf。"
+ },
+ {
+  "seg": 32,
+  "start": 216.434,
+  "end": 221.295,
+  "speaker": "Unknown",
+  "en": "And then it actually can be deployed both on-prem as well as on our cloud as well.",
+  "zh": "它既可以部署在本地，也可以部署在我们的云上。"
+ },
+ {
+  "seg": 33,
+  "start": 221.415,
+  "end": 227.716,
+  "speaker": "Unknown",
+  "en": "So it could be, if you have a cloud setup, you can actually download the modular cloud and deploy it there.",
+  "zh": "也就是说，如果你有一个云环境，你可以下载 modular cloud 并部署在那里。"
+ },
+ {
+  "seg": 34,
+  "start": 229.637,
+  "end": 233.858,
+  "speaker": "Unknown",
+  "en": "So let me kind of dig into each one at a time, each part of the stack.",
+  "zh": "那么让我逐一深入介绍技术栈的每个部分。"
+ },
+ {
+  "seg": 35,
+  "start": 234.398,
+  "end": 235.498,
+  "speaker": "Unknown",
+  "en": "So the first is Mojo.",
+  "zh": "第一个是 Mojo。"
+ },
+ {
+  "seg": 36,
+  "start": 236.985,
+  "end": 240.788,
+  "speaker": "Unknown",
+  "en": "So Mojo, as I mentioned, is a Pythonic system programming language.",
+  "zh": "正如我提到的，Mojo 是一种类 Python 的系统编程语言。"
+ },
+ {
+  "seg": 37,
+  "start": 241.448,
+  "end": 245.611,
+  "speaker": "Unknown",
+  "en": "It's not unlike C++, Rust, or CUDA C++.",
+  "zh": "它和 C++、Rust 或 CUDA C++ 没有太大不同。"
+ },
+ {
+  "seg": 38,
+  "start": 246.071,
+  "end": 251.095,
+  "speaker": "Unknown",
+  "en": "The thing is, what it enables is programmability across different accelerators.",
+  "zh": "关键在于，它实现的是跨不同加速器的可编程性。"
+ },
+ {
+  "seg": 39,
+  "start": 251.595,
+  "end": 252.676,
+  "speaker": "Unknown",
+  "en": "It's blazing fast.",
+  "zh": "它速度极快。"
+ },
+ {
+  "seg": 40,
+  "start": 253.536,
+  "end": 257.679,
+  "speaker": "Unknown",
+  "en": "Again, it actually competes with CUDA in terms of performance.",
+  "zh": "再说一次，它在性能上确实能与 CUDA 竞争。"
+ },
+ {
+  "seg": 41,
+  "start": 258.7,
+  "end": 265.224,
+  "speaker": "Unknown",
+  "en": "And you can think of it as the best way to program CPUs and GPUs within a Python-like programming language.",
+  "zh": "你可以把它看作在一种类 Python 的编程语言中为 CPU 和 GPU 编程的最佳方式。"
+ },
+ {
+  "seg": 42,
+  "start": 267.323,
+  "end": 276.548,
+  "speaker": "Unknown",
+  "en": "In terms of how we think about Mojo, you know, you can think about, there's three different quadrants, usability, performance, and portability.",
+  "zh": "至于我们如何看待 Mojo，你可以这样想，有三个不同的象限：易用性、性能和可移植性。"
+ },
+ {
+  "seg": 43,
+  "start": 277.328,
+  "end": 284.472,
+  "speaker": "Unknown",
+  "en": "Rockham and CUDA gives you massive performance, but they sacrifice on both usability and programmability.",
+  "zh": "Rockham 和 CUDA 给你极致的性能，但它们在易用性和可编程性上都有牺牲。"
+ },
+ {
+  "seg": 44,
+  "start": 284.492,
+  "end": 287.874,
+  "speaker": "Unknown",
+  "en": "A lot of folks use agents to actually program these systems nowadays.",
+  "zh": "如今很多人实际上使用智能体来为这些系统编程。"
+ },
+ {
+  "seg": 45,
+  "start": 289.048,
+  "end": 292.529,
+  "speaker": "Unknown",
+  "en": "OpenCL, back a few years ago, was popular.",
+  "zh": "OpenCL 几年前曾经流行过。"
+ },
+ {
+  "seg": 46,
+  "start": 292.989,
+  "end": 296.55,
+  "speaker": "Unknown",
+  "en": "It gives you great portability, but it's sacrificed on performance and usability.",
+  "zh": "它给了你很好的可移植性，但在性能和易用性上有所牺牲。"
+ },
+ {
+  "seg": 47,
+  "start": 297.271,
+  "end": 304.193,
+  "speaker": "Unknown",
+  "en": "Triton has a good sweet spot that gives you 70% of the perf, but it gives you portability and usability.",
+  "zh": "Triton 有一个不错的平衡点，能给你 70% 的性能，同时提供可移植性和易用性。"
+ },
+ {
+  "seg": 48,
+  "start": 306.021,
+  "end": 311.747,
+  "speaker": "Unknown",
+  "en": "And Mojo is trying to kind of fill the niche of the sweet spot where it's the best of both worlds.",
+  "zh": "而 Mojo 试图填补的正是这个最佳平衡点的生态位，做到两全其美。"
+ },
+ {
+  "seg": 49,
+  "start": 312.048,
+  "end": 321.999,
+  "speaker": "Unknown",
+  "en": "It gives you the abstraction to allow you to write portable kernels and usable kernels while giving you also the low-level access to get the maximum performance.",
+  "zh": "它给你抽象能力，让你能编写可移植且易用的 kernel，同时给你底层访问权限以获得最大性能。"
+ },
+ {
+  "seg": 50,
+  "start": 323.832,
+  "end": 327.314,
+  "speaker": "Unknown",
+  "en": "We've actually open sourced practically all of our kernels.",
+  "zh": "我们实际上几乎开源了我们所有的内核。"
+ },
+ {
+  "seg": 51,
+  "start": 327.794,
+  "end": 329.334,
+  "speaker": "Unknown",
+  "en": "So you can actually test this stuff.",
+  "zh": "所以你其实可以测试这些东西。"
+ },
+ {
+  "seg": 52,
+  "start": 329.354,
+  "end": 331.095,
+  "speaker": "Unknown",
+  "en": "You can benchmark it on your own machine.",
+  "zh": "你可以在自己的机器上进行基准测试。"
+ },
+ {
+  "seg": 53,
+  "start": 331.976,
+  "end": 335.497,
+  "speaker": "Unknown",
+  "en": "We have state-of-the-art kernels on NVIDIA, AMD, and other hardware.",
+  "zh": "我们在 NVIDIA、AMD 和其他硬件上都有最先进的内核。"
+ },
+ {
+  "seg": 54,
+  "start": 336.317,
+  "end": 345.081,
+  "speaker": "Unknown",
+  "en": "So to tell you what state-of-the-art is, it means that our matrix multiplication is faster than the kube losses, the hip losses, everything out there.",
+  "zh": "那么告诉你什么是“最先进”，它的意思是，我们的矩阵乘法比 kube losses、hip losses 以及外面所有的实现都要快。"
+ },
+ {
+  "seg": 55,
+  "start": 345.361,
+  "end": 346.002,
+  "speaker": "Unknown",
+  "en": "And it's not by 1%.",
+  "zh": "而且不是快 1%。"
+ },
+ {
+  "seg": 56,
+  "start": 347.202,
+  "end": 348.563,
+  "speaker": "Unknown",
+  "en": "In some cases by 2%.",
+  "zh": "在某些情况下快 2%。"
+ },
+ {
+  "seg": 57,
+  "start": 348.663,
+  "end": 359.65,
+  "speaker": "Unknown",
+  "en": "We have the fastest attention kernel out there, faster than flash attention 4, as well as the AI iter and things like that.",
+  "zh": "我们有目前最快的 attention 内核，比 flash attention 4 以及 AI iter 之类的还要快。"
+ },
+ {
+  "seg": 58,
+  "start": 360.211,
+  "end": 366.355,
+  "speaker": "Unknown",
+  "en": "One thing that we've announced a month ago or so is Mojo 1.0, the stabilization of our APIs.",
+  "zh": "大约一个月前我们宣布的一件事是 Mojo 1.0，即我们 API 的稳定化。"
+ },
+ {
+  "seg": 59,
+  "start": 367.475,
+  "end": 370.417,
+  "speaker": "Unknown",
+  "en": "And we're going to be releasing Mojo 1.0 in the next few months.",
+  "zh": "我们将在未来几个月内发布 Mojo 1.0。"
+ },
+ {
+  "seg": 60,
+  "start": 370.998,
+  "end": 374.52,
+  "speaker": "Unknown",
+  "en": "And we're also open sourcing Mojo in the next few months as well.",
+  "zh": "我们也将在未来几个月内开源 Mojo。"
+ },
+ {
+  "seg": 61,
+  "start": 377.557,
+  "end": 379.718,
+  "speaker": "Unknown",
+  "en": "Sitting on top of Mojo is Max.",
+  "zh": "构建在 Mojo 之上的是 Max。"
+ },
+ {
+  "seg": 62,
+  "start": 381.278,
+  "end": 389.022,
+  "speaker": "Unknown",
+  "en": "So Max is trying to kind of solve a few of the assumptions that were made back in the day for PyTorch.",
+  "zh": "Max 试图解决的是当年 PyTorch 所做的一些假设。"
+ },
+ {
+  "seg": 63,
+  "start": 389.042,
+  "end": 390.562,
+  "speaker": "Unknown",
+  "en": "PyTorch is about 10 years old.",
+  "zh": "PyTorch 大约有 10 年历史了。"
+ },
+ {
+  "seg": 64,
+  "start": 391.442,
+  "end": 394.464,
+  "speaker": "Unknown",
+  "en": "It was not really designed for the Gen.AI inference of today.",
+  "zh": "它并不是真正为今天的 Gen.AI 推理而设计的。"
+ },
+ {
+  "seg": 65,
+  "start": 395.624,
+  "end": 402.867,
+  "speaker": "Unknown",
+  "en": "As a result, you have like VLM and SGLang that stepped into the void to give you things like KVCache, page attention, and things like that.",
+  "zh": "因此，就有了 VLM 和 SGLang 这样的项目填补空白，为你提供 KVCache、page attention 之类的东西。"
+ },
+ {
+  "seg": 66,
+  "start": 405.73,
+  "end": 410.116,
+  "speaker": "Unknown",
+  "en": "But all of that kind of complicated the entire PyTorch ecosystem.",
+  "zh": "但所有这些都使整个 PyTorch 生态变得复杂了。"
+ },
+ {
+  "seg": 67,
+  "start": 410.257,
+  "end": 414.122,
+  "speaker": "Unknown",
+  "en": "A lot of folks don't really use PyTorch as is.",
+  "zh": "很多人实际上并不按原样使用 PyTorch。"
+ },
+ {
+  "seg": 68,
+  "start": 414.643,
+  "end": 416.806,
+  "speaker": "Unknown",
+  "en": "They're resorting to these layers on top.",
+  "zh": "他们求助于这些叠加在上面的层。"
+ },
+ {
+  "seg": 69,
+  "start": 418.976,
+  "end": 422.299,
+  "speaker": "Unknown",
+  "en": "So think of a new approach, and we call that the MAX framework.",
+  "zh": "所以我们想了一种新方法，我们称之为 MAX 框架。"
+ },
+ {
+  "seg": 70,
+  "start": 422.579,
+  "end": 444.216,
+  "speaker": "Unknown",
+  "en": "So again, it's built from the ground up with the best technologies, with the best state-of-the-art graph compilers, the eager mode execution, it's portable across devices, it understands your mojo programs to do novel fusion, and it gives you the maximum performance and deployability that you're otherwise not able to do in regular PyTorch.",
+  "zh": "再说一次，它从零开始构建，采用了最好的技术、最先进的图编译器、eager 模式执行，可跨设备移植，它理解你的 mojo 程序以实现新颖的融合，并为你提供在常规 PyTorch 中无法达到的最大性能和可部署性。"
+ },
+ {
+  "seg": 71,
+  "start": 446.924,
+  "end": 460.712,
+  "speaker": "Unknown",
+  "en": "So compared to other stacks, this is a single stack that allows you to serve, develop the model, as well as optimize everything in one cohesive system.",
+  "zh": "所以与其他技术栈相比，这是一个单一的技术栈，让你可以在一个内聚的系统中进行服务、开发模型以及优化一切。"
+ },
+ {
+  "seg": 72,
+  "start": 460.772,
+  "end": 466.655,
+  "speaker": "Unknown",
+  "en": "Within Max, we support thousands of models, in fact, thousands of architectures.",
+  "zh": "在 Max 中，我们支持数千个模型，实际上是数千种架构。"
+ },
+ {
+  "seg": 73,
+  "start": 467.508,
+  "end": 474.175,
+  "speaker": "Unknown",
+  "en": "Everything from Gemma 4 to MiniMax 3 to GLM.",
+  "zh": "从 Gemma 4 到 MiniMax 3 再到 GLM，应有尽有。"
+ },
+ {
+  "seg": 74,
+  "start": 474.756,
+  "end": 486.087,
+  "speaker": "Unknown",
+  "en": "So any model that you think about is practically supported in Max, and it has the same interface that you'd expect from what is standard today.",
+  "zh": "所以你能想到的任何模型几乎都在 Max 中得到支持，而且它具有与当今标准一致的接口。"
+ },
+ {
+  "seg": 75,
+  "start": 486.447,
+  "end": 491.012,
+  "speaker": "Unknown",
+  "en": "So we also provide OpenAI endpoints that you can use within the stack.",
+  "zh": "我们还提供你可以在该技术栈中使用的 OpenAI endpoints。"
+ },
+ {
+  "seg": 76,
+  "start": 494.525,
+  "end": 505.394,
+  "speaker": "Unknown",
+  "en": "If you're familiar with PyTorch programming, the figure on the right or the left will not be a massive departure of your mental model.",
+  "zh": "如果你熟悉 PyTorch 编程，右边或左边的图与你的心智模型不会有太大出入。"
+ },
+ {
+  "seg": 77,
+  "start": 506.254,
+  "end": 508.276,
+  "speaker": "Unknown",
+  "en": "You can build a model as you expect.",
+  "zh": "你可以像预期那样构建模型。"
+ },
+ {
+  "seg": 78,
+  "start": 508.296,
+  "end": 510.978,
+  "speaker": "Unknown",
+  "en": "You can import modules.",
+  "zh": "你可以导入模块。"
+ },
+ {
+  "seg": 79,
+  "start": 510.998,
+  "end": 516.843,
+  "speaker": "Unknown",
+  "en": "The programming language for developing models is Python, so that's familiar to folks.",
+  "zh": "开发模型的编程语言是 Python，所以对大家来说很熟悉。"
+ },
+ {
+  "seg": 80,
+  "start": 516.903,
+  "end": 519.725,
+  "speaker": "Unknown",
+  "en": "And you can compose things as you build them.",
+  "zh": "你可以在构建时进行组合。"
+ },
+ {
+  "seg": 81,
+  "start": 522.771,
+  "end": 526.174,
+  "speaker": "Unknown",
+  "en": "We also support the eager execution to enable debugging as well.",
+  "zh": "我们也支持 eager 执行以支持调试。"
+ },
+ {
+  "seg": 82,
+  "start": 529.456,
+  "end": 539.324,
+  "speaker": "Unknown",
+  "en": "Now the other thing that one has to realize is modern LLMs are run on across different GPUs and in many cases multiple nodes.",
+  "zh": "现在必须意识到的另一件事是，现代 LLM 运行在不同的 GPU 上，而且很多情况下是在多个节点上。"
+ },
+ {
+  "seg": 83,
+  "start": 540.435,
+  "end": 559.021,
+  "speaker": "Unknown",
+  "en": "So also the Max APIs provide you with a way to program multi-GPU system as well as multi-node systems from within the API so that the model is natively supported across different GPUs and different nodes as well.",
+  "zh": "所以 Max API 也为你提供了一种在 API 内对多 GPU 系统以及多节点系统进行编程的方式，使模型原生地得到跨不同 GPU 和不同节点的支持。"
+ },
+ {
+  "seg": 84,
+  "start": 559.401,
+  "end": 560.881,
+  "speaker": "Unknown",
+  "en": "And this can also be heterogeneous.",
+  "zh": "这也可以是异构的。"
+ },
+ {
+  "seg": 85,
+  "start": 560.921,
+  "end": 567.223,
+  "speaker": "Unknown",
+  "en": "So there's nothing to stop you from saying the prefill is on hardware X and the decode is on hardware Y.",
+  "zh": "没有什么能阻止你说 prefill 在硬件 X 上，而 decode 在硬件 Y 上。"
+ },
+ {
+  "seg": 86,
+  "start": 570.871,
+  "end": 574.642,
+  "speaker": "Unknown",
+  "en": "Finally layered on top of all of this is the modular clouds.",
+  "zh": "最后，叠加在这一切之上的是 modular clouds。"
+ },
+ {
+  "seg": 87,
+  "start": 575.832,
+  "end": 579.673,
+  "speaker": "Unknown",
+  "en": "So as I mentioned, today's AI inference is distributed.",
+  "zh": "所以正如我提到的，今天的 AI 推理是分布式的。"
+ },
+ {
+  "seg": 88,
+  "start": 580.253,
+  "end": 582.013,
+  "speaker": "Unknown",
+  "en": "It runs on many, many different machines.",
+  "zh": "它运行在许多许多不同的机器上。"
+ },
+ {
+  "seg": 89,
+  "start": 582.033,
+  "end": 583.934,
+  "speaker": "Unknown",
+  "en": "It's heterogeneous.",
+  "zh": "它是异构的。"
+ },
+ {
+  "seg": 90,
+  "start": 584.954,
+  "end": 589.175,
+  "speaker": "Unknown",
+  "en": "So we provide the module cloud, which is a performance native.",
+  "zh": "所以我们提供 modular cloud，它是性能原生的。"
+ },
+ {
+  "seg": 91,
+  "start": 589.815,
+  "end": 601.418,
+  "speaker": "Unknown",
+  "en": "We think of it as a glass box because you can actually tinker with all the variables that are available for you in both Macs, Mojo, and everything in between within your endpoints.",
+  "zh": "我们把它看作一个玻璃盒子，因为你实际上可以在你的 endpoints 中调整 Macs、Mojo 以及介于其间的所有可用变量。"
+ },
+ {
+  "seg": 92,
+  "start": 602.225,
+  "end": 607.969,
+  "speaker": "Unknown",
+  "en": "So it provides endpoint deployment as well as bring your own cloud deployment as well.",
+  "zh": "所以它既提供 endpoint 部署，也提供自带云部署。"
+ },
+ {
+  "seg": 93,
+  "start": 609.45,
+  "end": 619.937,
+  "speaker": "Unknown",
+  "en": "We also have a modular cloud lab that allows you to experiment with all these different parameters and pick the best point in the Pareto frontier that you have for that model or based on your workload as well.",
+  "zh": "我们还有一个 modular cloud lab，让你可以试验所有这些不同的参数，并为该模型或根据你的工作负载，在帕累托前沿上挑选最佳点。"
+ },
+ {
+  "seg": 94,
+  "start": 622.852,
+  "end": 644.258,
+  "speaker": "Unknown",
+  "en": "So in terms of the UI, if you're familiar with any cloud provider, it should be pretty familiar, you just go to the website, you click on which model you want to run, you get an API key, and then you plug that in to your HTTP request, and you can run it.",
+  "zh": "就 UI 而言，如果你熟悉任何云服务提供商，它应该会非常熟悉，你只需访问网站，点击你想运行的模型，获取一个 API key，然后把它插入你的 HTTP 请求，就可以运行了。"
+ },
+ {
+  "seg": 95,
+  "start": 645.486,
+  "end": 648.968,
+  "speaker": "Unknown",
+  "en": "You can have dedicated endpoints as well as we can serve your own custom model.",
+  "zh": "你可以拥有专属的 endpoints，我们也可以为你服务你自己的自定义模型。"
+ },
+ {
+  "seg": 96,
+  "start": 650.229,
+  "end": 655.213,
+  "speaker": "Unknown",
+  "en": "In many cases, folks have fine-tuned models or models with their own custom speculative decoders.",
+  "zh": "很多情况下，人们有微调过的模型，或者带有自定义投机解码器的模型。"
+ },
+ {
+  "seg": 97,
+  "start": 656.133,
+  "end": 658.335,
+  "speaker": "Unknown",
+  "en": "We could do all of that for you as well.",
+  "zh": "我们也可以为你完成所有这些。"
+ },
+ {
+  "seg": 98,
+  "start": 660.476,
+  "end": 662.718,
+  "speaker": "Unknown",
+  "en": "Now, why do you care about all of this?",
+  "zh": "那么，你为什么要关心这一切？"
+ },
+ {
+  "seg": 99,
+  "start": 663.038,
+  "end": 665.219,
+  "speaker": "Unknown",
+  "en": "There's a lot of tech.",
+  "zh": "这里面有很多技术。"
+ },
+ {
+  "seg": 100,
+  "start": 665.319,
+  "end": 666.22,
+  "speaker": "Unknown",
+  "en": "Why do folks care?",
+  "zh": "为什么人们在意这个?"
+ },
+ {
+  "seg": 101,
+  "start": 666.921,
+  "end": 670.743,
+  "speaker": "Unknown",
+  "en": "Well, it's because you can actually accomplish more things",
+  "zh": "嗯,这是因为你真的能完成更多事情"
+ },
+ {
+  "seg": 102,
+  "start": 673.181,
+  "end": 674.541,
+  "speaker": "Unknown",
+  "en": "Through the system, right?",
+  "zh": "通过这个系统,对吧?"
+ },
+ {
+  "seg": 103,
+  "start": 674.901,
+  "end": 676.562,
+  "speaker": "Unknown",
+  "en": "So you can actually decrease cost.",
+  "zh": "所以你实际上可以降低成本。"
+ },
+ {
+  "seg": 104,
+  "start": 677.022,
+  "end": 681.103,
+  "speaker": "Unknown",
+  "en": "You can get greater flexibility because you can actually use different hardware.",
+  "zh": "你可以获得更大的灵活性,因为你真的可以使用不同的硬件。"
+ },
+ {
+  "seg": 105,
+  "start": 681.123,
+  "end": 683.124,
+  "speaker": "Unknown",
+  "en": "You're not beholden to one hardware provider.",
+  "zh": "你不必受制于某一家硬件供应商。"
+ },
+ {
+  "seg": 106,
+  "start": 684.244,
+  "end": 685.264,
+  "speaker": "Unknown",
+  "en": "You get portability.",
+  "zh": "你能获得可移植性。"
+ },
+ {
+  "seg": 107,
+  "start": 685.284,
+  "end": 688.225,
+  "speaker": "Unknown",
+  "en": "You can use multiple different models, et cetera.",
+  "zh": "你可以使用多种不同的模型,等等。"
+ },
+ {
+  "seg": 108,
+  "start": 689.945,
+  "end": 691.246,
+  "speaker": "Unknown",
+  "en": "So how does perf look like?",
+  "zh": "那么性能表现如何?"
+ },
+ {
+  "seg": 109,
+  "start": 692.213,
+  "end": 693.914,
+  "speaker": "Unknown",
+  "en": "Well, we benchmarked a lot of these.",
+  "zh": "嗯,我们对其中很多做了基准测试。"
+ },
+ {
+  "seg": 110,
+  "start": 694.434,
+  "end": 700.016,
+  "speaker": "Unknown",
+  "en": "And this is against state-of-the-art, the best combination of VLLM or SGLang.",
+  "zh": "这是与最先进的、VLLM 或 SGLang 的最佳组合对比。"
+ },
+ {
+  "seg": 111,
+  "start": 700.476,
+  "end": 704.338,
+  "speaker": "Unknown",
+  "en": "In a bunch of cases, these benchmarks are independently verified as well.",
+  "zh": "在很多情况下,这些基准测试也经过了独立验证。"
+ },
+ {
+  "seg": 112,
+  "start": 705.698,
+  "end": 709.04,
+  "speaker": "Unknown",
+  "en": "So in terms of Kimi K2.5, we're 5.5 faster on TTFT compared to VLLM.",
+  "zh": "以 Kimi K2.5 为例,在 TTFT 上我们比 VLLM 快 5.5。"
+ },
+ {
+  "seg": 113,
+  "start": 715.635,
+  "end": 727.538,
+  "speaker": "Unknown",
+  "en": "We can also get 1.5x throughput improvements, so the token per minute per GPU is 1.5x faster on B200 than it is on VLM.",
+  "zh": "我们还能获得 1.5 倍的吞吐量提升,所以每块 GPU 每分钟的 token 数在 B200 上比 VLM 快 1.5 倍。"
+ },
+ {
+  "seg": 114,
+  "start": 731.819,
+  "end": 737.161,
+  "speaker": "Unknown",
+  "en": "In terms of Flux 2, I encourage folks to actually visit the booth behind this curtain.",
+  "zh": "至于 Flux 2,我鼓励大家到这个帘子后面的展台去看看。"
+ },
+ {
+  "seg": 115,
+  "start": 738.162,
+  "end": 740.123,
+  "speaker": "Unknown",
+  "en": "There's a nice demo of Flux 2.",
+  "zh": "那里有一个很棒的 Flux 2 演示。"
+ },
+ {
+  "seg": 116,
+  "start": 740.964,
+  "end": 745.426,
+  "speaker": "Unknown",
+  "en": "We're about 7x faster compared to the compile with diffusers.",
+  "zh": "相比用 diffusers 编译的版本,我们大约快 7 倍。"
+ },
+ {
+  "seg": 117,
+  "start": 746.366,
+  "end": 756.111,
+  "speaker": "Unknown",
+  "en": "So again, Mac supports different modalities within the same framework, so you don't have to use an omni variant of a piece of software or anything like that.",
+  "zh": "再说一次,Mac 在同一框架内支持不同模态,所以你不必使用某个软件的 omni 变体或类似的东西。"
+ },
+ {
+  "seg": 118,
+  "start": 756.151,
+  "end": 761.474,
+  "speaker": "Unknown",
+  "en": "We support both video generation, audio generation, image generation, as well as text generation.",
+  "zh": "我们同时支持视频生成、音频生成、图像生成,以及文本生成。"
+ },
+ {
+  "seg": 119,
+  "start": 763.467,
+  "end": 775.878,
+  "speaker": "Unknown",
+  "en": "We also support things on AMD where you can get a TCO benefit as well where we're 4x faster than the equivalent on the MI355 systems.",
+  "zh": "我们还支持 AMD 上的东西,你也能获得 TCO 收益,在 MI355 系统上我们比同等方案快 4 倍。"
+ },
+ {
+  "seg": 120,
+  "start": 776.879,
+  "end": 786.007,
+  "speaker": "Unknown",
+  "en": "Actually some of this is not a fair comparison because some folks might say 7x is much larger than 4x but this is",
+  "zh": "实际上,这其中的部分对比并不公平,因为有些人可能会说 7 倍比 4 倍大得多,但这是"
+ },
+ {
+  "seg": 121,
+  "start": 787.36,
+  "end": 789.504,
+  "speaker": "Unknown",
+  "en": "You cannot do that comparison very easily.",
+  "zh": "你不能那么轻易地做这种对比。"
+ },
+ {
+  "seg": 122,
+  "start": 790.746,
+  "end": 800.343,
+  "speaker": "Unknown",
+  "en": "You have to factor in the cost per GPU and AMD is usually 30% cheaper than the NVIDIA equivalent.",
+  "zh": "你必须把每块 GPU 的成本算进去,而 AMD 通常比同等的 NVIDIA 便宜 30%。"
+ },
+ {
+  "seg": 123,
+  "start": 803.015,
+  "end": 810.942,
+  "speaker": "Unknown",
+  "en": "Artificial analysis, actually, we've been partnering with them and they've independently been verifying our results.",
+  "zh": "至于 Artificial Analysis,实际上,我们一直在与他们合作,他们一直在独立验证我们的结果。"
+ },
+ {
+  "seg": 124,
+  "start": 811.262,
+  "end": 813.684,
+  "speaker": "Unknown",
+  "en": "This is our results as of today.",
+  "zh": "这是我们截至今天的结果。"
+ },
+ {
+  "seg": 125,
+  "start": 814.965,
+  "end": 821.671,
+  "speaker": "Unknown",
+  "en": "We're about 3x faster than the next competitor on the Flux2 dev model as well.",
+  "zh": "在 Flux2 dev 模型上,我们也比下一个竞争对手大约快 3 倍。"
+ },
+ {
+  "seg": 126,
+  "start": 822.44,
+  "end": 827.545,
+  "speaker": "Unknown",
+  "en": "And this is not playing tricks of distillation and quantization or anything like that.",
+  "zh": "而且这不是靠蒸馏和量化之类的把戏。"
+ },
+ {
+  "seg": 127,
+  "start": 828.166,
+  "end": 837.715,
+  "speaker": "Unknown",
+  "en": "This is just raw speed because we can leverage the hardware from the ground up and make sure that we're getting the max perf benefit from the model.",
+  "zh": "这就是纯粹的原始速度,因为我们能从底层充分调动硬件,确保从模型中获得最大的性能收益。"
+ },
+ {
+  "seg": 128,
+  "start": 840.298,
+  "end": 844.182,
+  "speaker": "Unknown",
+  "en": "And you can actually go to artificial analysis today and see these results.",
+  "zh": "你今天就可以去 Artificial Analysis 看到这些结果。"
+ },
+ {
+  "seg": 129,
+  "start": 845.998,
+  "end": 847.801,
+  "speaker": "Unknown",
+  "en": "Now what does that mean to folks?",
+  "zh": "那这对人们意味着什么?"
+ },
+ {
+  "seg": 130,
+  "start": 847.881,
+  "end": 855.292,
+  "speaker": "Unknown",
+  "en": "Again, it means you can open up applications that are otherwise kind of not possible because of slow inference.",
+  "zh": "再说一次,这意味着你可以打开那些原本因为推理太慢而几乎不可能实现的应用。"
+ },
+ {
+  "seg": 131,
+  "start": 856.301,
+  "end": 860.223,
+  "speaker": "Unknown",
+  "en": "So this is actually kind of a live demo.",
+  "zh": "所以这其实有点像是一个现场演示。"
+ },
+ {
+  "seg": 132,
+  "start": 860.263,
+  "end": 867.307,
+  "speaker": "Unknown",
+  "en": "It's just somebody's pasting in the prompts, but the generation is accurate.",
+  "zh": "只是有人在粘贴提示词,但生成是真实的。"
+ },
+ {
+  "seg": 133,
+  "start": 867.607,
+  "end": 870.669,
+  "speaker": "Unknown",
+  "en": "So you can generate images in sub-second.",
+  "zh": "所以你可以在亚秒级生成图像。"
+ },
+ {
+  "seg": 134,
+  "start": 871.93,
+  "end": 873.911,
+  "speaker": "Unknown",
+  "en": "In many cases, these are 0.3 seconds.",
+  "zh": "在很多情况下,这些是 0.3 秒。"
+ },
+ {
+  "seg": 135,
+  "start": 874.511,
+  "end": 875.752,
+  "speaker": "Unknown",
+  "en": "Again, you can go to the booth.",
+  "zh": "再说一次,你可以去展台。"
+ },
+ {
+  "seg": 136,
+  "start": 875.832,
+  "end": 884.317,
+  "speaker": "Unknown",
+  "en": "There's a nice demo where you can give a prompt and then it reads the video feed and then renders it as well.",
+  "zh": "那里有一个很棒的演示,你可以给出一个提示词,它会读取视频画面,然后进行渲染。"
+ },
+ {
+  "seg": 137,
+  "start": 888.42,
+  "end": 891.041,
+  "speaker": "Unknown",
+  "en": "The other one data point is Gemma 4.",
+  "zh": "另一个数据点是 Gemma 4。"
+ },
+ {
+  "seg": 138,
+  "start": 891.101,
+  "end": 896.543,
+  "speaker": "Unknown",
+  "en": "So Gemma 4 was a recent model that was just introduced about a month ago, a month and a half ago.",
+  "zh": "Gemma 4 是大约一个月前、一个半月前刚刚发布的模型。"
+ },
+ {
+  "seg": 139,
+  "start": 898.243,
+  "end": 902.985,
+  "speaker": "Unknown",
+  "en": "Again, we're quite faster than any other competition out there.",
+  "zh": "同样,我们比外面任何其他竞争对手都快得多。"
+ },
+ {
+  "seg": 140,
+  "start": 904.43,
+  "end": 910.432,
+  "speaker": "Unknown",
+  "en": "So, you know, in many cases, actually, some of these are hardware companies.",
+  "zh": "所以,你知道,实际上,其中一些是硬件公司。"
+ },
+ {
+  "seg": 141,
+  "start": 910.652,
+  "end": 912.892,
+  "speaker": "Unknown",
+  "en": "You know, SambaNova is a hardware accelerator.",
+  "zh": "你知道,SambaNova 是一个硬件加速器。"
+ },
+ {
+  "seg": 142,
+  "start": 913.852,
+  "end": 920.074,
+  "speaker": "Unknown",
+  "en": "We're, you know, let's say 6x faster than that, and in general, we're much, much faster than others.",
+  "zh": "我们,你知道,可以说比它快 6 倍,总体而言,我们比其他人快得多得多。"
+ },
+ {
+  "seg": 143,
+  "start": 920.434,
+  "end": 923.415,
+  "speaker": "Unknown",
+  "en": "And by the way, for all these cases, we're just starting.",
+  "zh": "顺便说一下,在所有这些情况下,我们都只是刚刚起步。"
+ },
+ {
+  "seg": 144,
+  "start": 923.815,
+  "end": 929.216,
+  "speaker": "Unknown",
+  "en": "There's more optimizations that we're landing as time goes on.",
+  "zh": "随着时间推移,还有更多优化将要落地。"
+ },
+ {
+  "seg": 145,
+  "start": 929.676,
+  "end": 932.357,
+  "speaker": "Unknown",
+  "en": "So we're never stopping to improving these things.",
+  "zh": "所以我们永远不会停止改进这些东西。"
+ },
+ {
+  "seg": 146,
+  "start": 934.105,
+  "end": 937.947,
+  "speaker": "Unknown",
+  "en": "So we have a bunch of places where you can get involved.",
+  "zh": "我们有很多你可以参与进来的途径。"
+ },
+ {
+  "seg": 147,
+  "start": 937.987,
+  "end": 939.728,
+  "speaker": "Unknown",
+  "en": "You can join our open source community.",
+  "zh": "你可以加入我们的开源社区。"
+ },
+ {
+  "seg": 148,
+  "start": 939.908,
+  "end": 941.629,
+  "speaker": "Unknown",
+  "en": "So a lot of our code is open source.",
+  "zh": "我们的很多代码都是开源的。"
+ },
+ {
+  "seg": 149,
+  "start": 942.11,
+  "end": 946.312,
+  "speaker": "Unknown",
+  "en": "We have over 700,000 lines of kernel code that we've open sourced.",
+  "zh": "我们已经开源了超过 70 万行内核代码。"
+ },
+ {
+  "seg": 150,
+  "start": 946.852,
+  "end": 951.295,
+  "speaker": "Unknown",
+  "en": "We've open sourced all of our model definitions, all of our max serve.",
+  "zh": "我们已经开源了我们所有的模型定义，所有的 Max serve。"
+ },
+ {
+  "seg": 151,
+  "start": 953.379,
+  "end": 954.48,
+  "speaker": "Unknown",
+  "en": "We have AI skills.",
+  "zh": "我们有 AI skills。"
+ },
+ {
+  "seg": 152,
+  "start": 954.52,
+  "end": 965.472,
+  "speaker": "Unknown",
+  "en": "So if you're not familiar with Mojo or Max, you can actually use the AI skills to port from languages that you're familiar with into Mojo or Max.",
+  "zh": "所以如果你不熟悉 Mojo 或 Max，你实际上可以使用这些 AI skills，把你熟悉的语言移植到 Mojo 或 Max。"
+ },
+ {
+  "seg": 153,
+  "start": 966.55,
+  "end": 967.51,
+  "speaker": "Unknown",
+  "en": "You can also join us.",
+  "zh": "你也可以加入我们。"
+ },
+ {
+  "seg": 154,
+  "start": 967.59,
+  "end": 968.351,
+  "speaker": "Unknown",
+  "en": "We're hiring.",
+  "zh": "我们在招人。"
+ },
+ {
+  "seg": 155,
+  "start": 968.831,
+  "end": 973.752,
+  "speaker": "Unknown",
+  "en": "So there's pamphlets on the booth where we're hiring for a variety of different positions.",
+  "zh": "展台上有一些手册，我们正在招聘各种不同的职位。"
+ },
+ {
+  "seg": 156,
+  "start": 974.152,
+  "end": 982.935,
+  "speaker": "Unknown",
+  "en": "So as you probably know, we hire from low-level kernel engineers to high-level folks that work on Kubernetes and everything in between.",
+  "zh": "大家可能知道，我们从底层内核工程师到做 Kubernetes 的上层人员，以及介于两者之间的各种岗位都有招聘。"
+ },
+ {
+  "seg": 157,
+  "start": 984.538,
+  "end": 985.998,
+  "speaker": "Unknown",
+  "en": "You can actually try all of this.",
+  "zh": "你实际上可以试用所有这些内容。"
+ },
+ {
+  "seg": 158,
+  "start": 986.038,
+  "end": 989.4,
+  "speaker": "Unknown",
+  "en": "So this is not demo-ware or slide-ware.",
+  "zh": "这不是演示用的或幻灯片上的东西。"
+ },
+ {
+  "seg": 159,
+  "start": 989.82,
+  "end": 993.921,
+  "speaker": "Unknown",
+  "en": "You can pip install modular right now if you want to and try all of this stuff.",
+  "zh": "你现在就可以 pip install modular，然后试用所有这些东西。"
+ },
+ {
+  "seg": 160,
+  "start": 993.961,
+  "end": 996.302,
+  "speaker": "Unknown",
+  "en": "And I welcome everybody to validate these results.",
+  "zh": "我欢迎大家来验证这些结果。"
+ },
+ {
+  "seg": 161,
+  "start": 998.282,
+  "end": 1002.624,
+  "speaker": "Unknown",
+  "en": "So with that, I kind of, that's it.",
+  "zh": "就到这里，我差不多讲完了。"
+ },
+ {
+  "seg": 162,
+  "start": 1002.664,
+  "end": 1004.444,
+  "speaker": "Unknown",
+  "en": "But I'm open to questions if folks have it.",
+  "zh": "但如果大家有问题，我欢迎提问。"
+ },
+ {
+  "seg": 163,
+  "start": 1004.484,
+  "end": 1007.685,
+  "speaker": "Unknown",
+  "en": "And I'll also be on the booth for the next few hours as well.",
+  "zh": "接下来几个小时我也会在展台。"
+ },
+ {
+  "seg": 164,
+  "start": 1017.891,
+  "end": 1019.318,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 165,
+  "start": 1019.358,
+  "end": 1020.001,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

@@ -169,7 +169,7 @@ Andrew 说，有时他们提出这一点还会遭到敌意回应：「整个行�
 
 - [[2026-01-29-lennys-marc-andreessen-the-real-ai-boom|Marc Andreessen：AI 是现代炼金术，为什么你不是在失业而是在变贵]]<span class="pd-rz">同公司:A16Z · 同概念:AI 编程 (AI coding)</span>
 - [[2026-09-26-a16z-aaron-levie-steven-sinofsky-martin-casad|当AI agent满网跑，安全怎么办？三位老将吵了一期]]<span class="pd-rz">同概念:监管 (regulation)</span>
-- [[2026-09-01-a16z-daniel-litt-the-mathematicians-guide-to|AI解数学题≠理解数学]]<span class="pd-rz">同公司:A16Z</span>
+- [[2026-10-11-talks-how-to-build-quality-gates-into-agentic|AI 写代码这么多，质量谁来把关？]]<span class="pd-rz">同概念:AI 编程 (AI coding)</span>
 
 </div>
 </div>

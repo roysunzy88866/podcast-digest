@@ -164,8 +164,8 @@ Gabe 用《点球成金》收尾：连胜 20 场不重要，赢得总冠军才�
 **顺着「智能体」挖下去**
 
 - [[2025-12-02-talks-powering-the-ai-law-firm-with-harvey|Harvey 联合创始人 Gabe：产品就是模型，AI 律所的五年赌注]]<span class="pd-rz">同公司:Harvey、DeepMind · 同概念:后训练 (post-training)、强化学习环境 (RL environments)、智能体 (agent)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同概念:后训练 (post-training)、开源模型 (open source models)、智能体 (agent)、模型路由 (model routing)、基准测试 (benchmark)</span>
 - [[2024-06-21-talks-product-led-ai-mustafa-suleyman-on-defin|Mustafa Suleiman:数据是新的护城河——AI 创业者的机会地图]]<span class="pd-rz">同公司:DeepMind · 同概念:后训练 (post-training)、开源模型 (open source models)、智能体 (agent)</span>
-- [[2026-08-12-talks-rl-environments-explained-how-ai-agents|RL 环境:让模型学会用你电脑上所有工具的数据生意]]<span class="pd-rz">同公司:Harvey · 同概念:合成数据 (synthetic data)、后训练 (post-training)、强化学习环境 (RL environments)</span>
 
 </div>
 <div class="pd-ex">

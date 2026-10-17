@@ -84,7 +84,7 @@ unlisted: true
 
 [[智能体]] · [[Snowflake]] · [[Anthropic]] · [[OpenAI]] · [[Stripe]] · [[Cursor]] · [[ChatGPT]] · [[LLM]] · [[推理]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Snowflake":23,"Anthropic":206,"OpenAI":208,"Stripe":53,"Cursor":88,"ChatGPT":115,"LLM":66,"推理":103,"开源":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Snowflake":23,"Anthropic":206,"OpenAI":208,"Stripe":53,"Cursor":88,"ChatGPT":115,"LLM":66,"推理":105,"开源":43}</script>
 
 <script>
 (function(){

@@ -213,7 +213,7 @@ Yash 在 OpenAI 时主要做 Codex，但他注意到自己认识的最优秀的�
 
 - [[2026-08-29-twentyvc-20vc-is-anthropic-s-coding-business-wort|最便宜的模型反而是最便宜的：Factory CTO 谈 AI 定价陷阱]]<span class="pd-rz">同公司:OpenAI · 同概念:harness、前沿模型 (frontier models)、后训练 (post-training)、开源模型 (open models)、推理 (inference)</span>
 - [[2026-08-13-talks-continual-learning-how-ai-agents-get-bet|经验差距：让智能体越用越聪明]]<span class="pd-rz">同公司:Harvey · 同概念:harness、RL、后训练 (post-training)</span>
-- [[2026-10-05-talks-interrupt-nyc-opening-keynote|模型不再是护城河，谁在围绕模型建「自己的智能」]]<span class="pd-rz">同公司:Harvey、OpenAI · 同概念:harness、后训练 (post-training)、评估 (evals)</span>
+- [[2026-10-17-twentyvc-20vc-horizontal-vs-vertical-agents-who-w|LangChain 创始人：智能体为什么还这么难做，钱又会流向哪里]]<span class="pd-rz">同概念:harness、后训练 (post-training)、推理 (inference)、评估 (evals)</span>
 
 </div>
 <div class="pd-ex">

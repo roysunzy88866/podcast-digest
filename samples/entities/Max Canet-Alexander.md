@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]] [[Carlos Kelpbaum]]
+[[Harrison Chase]] [[Jad Naous]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Brian Houck":2,"Margaret Ann":1,"Irini":1,"上下文":35,"CAFES":1,"智能体":1,"编码智能体":38,"幻觉":15,"提示词注入":1,"上下文窗口":20}</script>
+<script type="application/json" class="pd-epn">{"Brian Houck":2,"Margaret Ann":1,"Irini":1,"上下文":35,"CAFES":1,"智能体":1,"编码智能体":40,"幻觉":15,"提示词注入":1,"上下文窗口":20}</script>
 
 <script>
 (function(){

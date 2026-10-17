@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":5,"知识图谱":8,"推理记忆":1,"技能":35,"APE":1,"NAMS":1,"技能蒸馏":1}</script>
+<script type="application/json" class="pd-epn">{"Neo4j":6,"智能体":1,"智能体记忆":5,"上下文图":5,"知识图谱":8,"推理记忆":1,"技能":36,"APE":1,"NAMS":1,"技能蒸馏":1}</script>
 
 <script>
 (function(){

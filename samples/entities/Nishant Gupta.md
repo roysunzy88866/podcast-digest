@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]] [[Misha Laskin]]
+[[Harrison Chase]] [[Jad Naous]] [[Max Canet-Alexander]] [[Margaret Ann]] [[Irini]] [[Iskander Malikov]] [[Guillermo Rauch]] [[Terry Angelos]] [[Diogo Almeida]] [[Greg Brockman]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":56,"推理":103,"智能体":1,"微服务":1,"GPU":35,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":49}</script>
+<script type="application/json" class="pd-epn">{"Naman Ahuja":1,"Meta":56,"推理":105,"智能体":1,"微服务":1,"GPU":36,"KVCache":5,"批处理":1,"投机解码":1,"可观测性":49}</script>
 
 <script>
 (function(){
