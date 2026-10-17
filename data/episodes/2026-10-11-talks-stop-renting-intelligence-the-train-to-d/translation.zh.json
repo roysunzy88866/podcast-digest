@@ -1,0 +1,1162 @@
+[
+ {
+  "seg": 0,
+  "start": 12.997,
+  "end": 13.777,
+  "speaker": "Unknown",
+  "en": "Hi, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 14.257,
+  "end": 17.499,
+  "speaker": "Unknown",
+  "en": "Before we get started, I actually have a quick question for all of you.",
+  "zh": "在开始之前，我其实想先问大家一个简短的问题。"
+ },
+ {
+  "seg": 2,
+  "start": 18.099,
+  "end": 23.701,
+  "speaker": "Unknown",
+  "en": "How many of you actually today use a closed source model like ChatGPT or Anthropic?",
+  "zh": "今天有多少人实际在使用闭源模型，比如 ChatGPT 或 Anthropic?"
+ },
+ {
+  "seg": 3,
+  "start": 24.741,
+  "end": 28.963,
+  "speaker": "Unknown",
+  "en": "OK. How many of you feel like it's getting really expensive really quickly?",
+  "zh": "好。有多少人觉得它变得非常快地越来越贵了？"
+ },
+ {
+  "seg": 4,
+  "start": 30.983,
+  "end": 33.806,
+  "speaker": "Unknown",
+  "en": "OK. That's a good percentage of you all.",
+  "zh": "好。你们当中占了相当大的比例。"
+ },
+ {
+  "seg": 5,
+  "start": 34.446,
+  "end": 48.759,
+  "speaker": "Unknown",
+  "en": "And just like all of you might be thinking of switching from closed source model to open source models for cost reasons, performance reasons, there are other customers and users that are going through the same journey.",
+  "zh": "正如你们所有人可能出于成本原因、性能原因在考虑从闭源模型切换到开源模型一样，还有其他的客户和用户也正在经历同样的旅程。"
+ },
+ {
+  "seg": 6,
+  "start": 49.46,
+  "end": 51.121,
+  "speaker": "Unknown",
+  "en": "And today I'm going to talk about",
+  "zh": "今天我要讲的是"
+ },
+ {
+  "seg": 7,
+  "start": 52.082,
+  "end": 61.451,
+  "speaker": "Unknown",
+  "en": "where these open source models shine and how to make the performance or quality of these open source models match the closed source models itself.",
+  "zh": "这些开源模型在哪些方面表现出色，以及如何让这些开源模型的性能或质量比肩闭源模型本身。"
+ },
+ {
+  "seg": 8,
+  "start": 62.172,
+  "end": 65.475,
+  "speaker": "Unknown",
+  "en": "And before I get into that, quick introduction of myself.",
+  "zh": "在深入之前，先简单自我介绍一下。"
+ },
+ {
+  "seg": 9,
+  "start": 66.156,
+  "end": 67.237,
+  "speaker": "Unknown",
+  "en": "I work at Fireworks.",
+  "zh": "我在 Fireworks 工作。"
+ },
+ {
+  "seg": 10,
+  "start": 67.857,
+  "end": 70.219,
+  "speaker": "Unknown",
+  "en": "I lead part of the Applied Machine Learning team.",
+  "zh": "我领导应用机器学习团队的一部分。"
+ },
+ {
+  "seg": 11,
+  "start": 70.38,
+  "end": 73.563,
+  "speaker": "Unknown",
+  "en": "My name is Jatishree, but feel free to call me Jett if that's easier.",
+  "zh": "我的名字是 Jatishree,不过如果觉得更容易的话，可以叫我 Jett。"
+ },
+ {
+  "seg": 12,
+  "start": 74.764,
+  "end": 83.593,
+  "speaker": "Unknown",
+  "en": "Let's talk about the whole chain to deploy loop that the open source models are taking today when users are switching from closed source to open source models.",
+  "zh": "我们来聊聊当用户从闭源模型切换到开源模型时，开源模型今天所经历的完整部署闭环。"
+ },
+ {
+  "seg": 13,
+  "start": 85.462,
+  "end": 92.648,
+  "speaker": "Unknown",
+  "en": "But even before we get into that, let's talk about some fundamental truths that are true today in the AI ecosystem.",
+  "zh": "但在深入之前，先聊聊当今 AI 生态中成立的一些基本事实。"
+ },
+ {
+  "seg": 14,
+  "start": 93.129,
+  "end": 100.175,
+  "speaker": "Unknown",
+  "en": "So the three fundamental truths that are true are, one, open source models for the most part are production ready.",
+  "zh": "成立的三个基本事实是：第一，开源模型在很大程度上已经具备生产可用性。"
+ },
+ {
+  "seg": 15,
+  "start": 100.615,
+  "end": 107.241,
+  "speaker": "Unknown",
+  "en": "If any of you have used GLM 5.2, you know that that is true, especially for the coding use cases.",
+  "zh": "如果你们中有谁用过 GLM 5.2,你就会知道这是真的，尤其是在编程用例方面。"
+ },
+ {
+  "seg": 16,
+  "start": 108.574,
+  "end": 123.863,
+  "speaker": "Unknown",
+  "en": "Two, if open source models don't beat or match the quality of closed source models, the differentiating factor comes from how you customize, train, and improve these open source models to match the performance and quality of closed source models.",
+  "zh": "第二，如果开源模型不能超越或比肩闭源模型的质量，那么差异化的关键就在于你如何定制、训练和改进这些开源模型，使其性能和质量达到闭源模型的水平。"
+ },
+ {
+  "seg": 17,
+  "start": 124.975,
+  "end": 143.632,
+  "speaker": "Unknown",
+  "en": "And three, the AI stack itself for most of our customers and users is shifting from let's just serve a model once and that's done to a more continuous loop that is improving from training to inferencing the same open source model itself.",
+  "zh": "第三，对于我们大多数客户和用户来说，AI 技术栈本身正在从“只需把模型服务一次就完事”转变为一个更加持续的闭环，即从训练到推理不断改进同一个开源模型本身。"
+ },
+ {
+  "seg": 18,
+  "start": 144.628,
+  "end": 147.329,
+  "speaker": "Unknown",
+  "en": "So that's where Fireworks kind of comes in.",
+  "zh": "这就是 Fireworks 发挥作用的地方。"
+ },
+ {
+  "seg": 19,
+  "start": 147.429,
+  "end": 159.151,
+  "speaker": "Unknown",
+  "en": "It makes the whole process of you having to go through the continuous journey of training these open source models as well as hosting these open source models at scale much more easier and also much more cost effective as well.",
+  "zh": "它让你经历的训练这些开源模型以及大规模托管这些开源模型的整个持续过程变得容易得多，而且成本效益也高得多。"
+ },
+ {
+  "seg": 20,
+  "start": 159.672,
+  "end": 166.453,
+  "speaker": "Unknown",
+  "en": "And I'll get into how we actually do the training itself and different flavors of training that we offer towards the end of the presentation.",
+  "zh": "在演示的最后，我会讲我们实际如何做训练，以及我们提供的不同形式的训练。"
+ },
+ {
+  "seg": 21,
+  "start": 166.753,
+  "end": 174.455,
+  "speaker": "Unknown",
+  "en": "But I did also want to quickly talk about inference before we go to the training portion of it, which has become really popular among our customers and user base.",
+  "zh": "但在进入训练部分之前，我确实想快速聊聊推理，这在我们客户和用户群体中已经变得非常流行。"
+ },
+ {
+  "seg": 22,
+  "start": 175.796,
+  "end": 191.725,
+  "speaker": "Unknown",
+  "en": "And before we also talk about inference and training, I just wanted to give you a quick overview of how inference looks like, especially at scales, and what are the kind of production impact that we have seen among some of our customers and user base itself.",
+  "zh": "在聊推理和训练之前，我只是想给大家快速概述一下推理是什么样子，尤其是在大规模场景下，以及我们在一些客户和用户群体中所看到的生产影响。"
+ },
+ {
+  "seg": 23,
+  "start": 192.445,
+  "end": 199.011,
+  "speaker": "Unknown",
+  "en": "So today in production at scale, we serve about 30 trillion tokens and it's increasing.",
+  "zh": "目前在生产环境中大规模运行，我们每天服务约 30 万亿 token,而且还在增长。"
+ },
+ {
+  "seg": 24,
+  "start": 199.912,
+  "end": 202.814,
+  "speaker": "Unknown",
+  "en": "This number was actually pre-GLM 5.2 release.",
+  "zh": "这个数字实际上是在 GLM 5.2 发布之前的。"
+ },
+ {
+  "seg": 25,
+  "start": 202.834,
+  "end": 210.22,
+  "speaker": "Unknown",
+  "en": "I'm sure this has pretty much kind of increased by about at least 5 trillion tokens a day now with the GLM 5.2 release.",
+  "zh": "我确信随着 GLM 5.2 的发布，现在这个数字大概每天至少增加了 5 万亿 token。"
+ },
+ {
+  "seg": 26,
+  "start": 210.721,
+  "end": 218.568,
+  "speaker": "Unknown",
+  "en": "We support more than 10,000 companies globally and process about 200k requests a particular second itself.",
+  "zh": "我们在全球支持超过 10,000 家公司，每秒处理约 20 万个请求。"
+ },
+ {
+  "seg": 27,
+  "start": 219.228,
+  "end": 225.715,
+  "speaker": "Unknown",
+  "en": "And the kind of production impact that we are seeing within our customer and user base is very significant.",
+  "zh": "我们在客户和用户群体中看到的生产影响是非常显著的。"
+ },
+ {
+  "seg": 28,
+  "start": 226.116,
+  "end": 236.707,
+  "speaker": "Unknown",
+  "en": "So Cursor, for those of you who already use Cursor and Cursor models, the Composer 2 model for Cursor was trained and also hosted on our platform today.",
+  "zh": "比如说 Cursor,如果你们中有人已经在用 Cursor 和 Cursor 模型，Cursor 的 Composer 2 模型今天就是在我们的平台上训练和托管的。"
+ },
+ {
+  "seg": 29,
+  "start": 239.37,
+  "end": 245.117,
+  "speaker": "Unknown",
+  "en": "It is able to achieve 13x faster inference because of the fire retention engine that we have.",
+  "zh": "由于我们拥有的 fire retention 引擎，它能够实现 13 倍更快的推理。"
+ },
+ {
+  "seg": 30,
+  "start": 245.157,
+  "end": 247.92,
+  "speaker": "Unknown",
+  "en": "And I'll speak a little bit about that in the next slide as well.",
+  "zh": "下一张幻灯片中我也会稍微讲一下这个。"
+ },
+ {
+  "seg": 31,
+  "start": 248.841,
+  "end": 251.985,
+  "speaker": "Unknown",
+  "en": "Vercel is also another big customer of ours.",
+  "zh": "Vercel 也是我们的另一个大客户。"
+ },
+ {
+  "seg": 32,
+  "start": 252.125,
+  "end": 256.069,
+  "speaker": "Unknown",
+  "en": "We help them actually fine tune and also host the model on our platform.",
+  "zh": "我们帮助他们进行微调，也在我们的平台上托管模型。"
+ },
+ {
+  "seg": 33,
+  "start": 256.83,
+  "end": 259.853,
+  "speaker": "Unknown",
+  "en": "And they see a 40x latency improvement.",
+  "zh": "他们看到了 40 倍的延迟改善。"
+ },
+ {
+  "seg": 34,
+  "start": 260.394,
+  "end": 263.455,
+  "speaker": "Unknown",
+  "en": "And another big use case study is actually GenSpark.",
+  "zh": "另一个大的用例案例实际上是 GenSpark。"
+ },
+ {
+  "seg": 35,
+  "start": 264.235,
+  "end": 271.157,
+  "speaker": "Unknown",
+  "en": "GenSpark lavables are in a very similar field where they actually let you design systems with just prompts itself.",
+  "zh": "GenSpark lavables 处于一个非常相似的领域，它们实际上让你仅用提示词就能设计系统。"
+ },
+ {
+  "seg": 36,
+  "start": 272.097,
+  "end": 279.92,
+  "speaker": "Unknown",
+  "en": "And quality is a big bottleneck or was a big bottleneck for them when they were trying to switch from closed source to open source models.",
+  "zh": "质量是他们在尝试从闭源模型切换到开源模型时的一个大瓶颈，或者说曾经是一个大瓶颈。"
+ },
+ {
+  "seg": 37,
+  "start": 280.44,
+  "end": 281.78,
+  "speaker": "Unknown",
+  "en": "And we helped them fine tune.",
+  "zh": "我们帮助他们进行微调。"
+ },
+ {
+  "seg": 38,
+  "start": 281.82,
+  "end": 283.681,
+  "speaker": "Unknown",
+  "en": "We did RFT for them.",
+  "zh": "我们为他们做了 RFT。"
+ },
+ {
+  "seg": 39,
+  "start": 283.741,
+  "end": 287.482,
+  "speaker": "Unknown",
+  "en": "We helped them clean the data set, define evaluator functions,",
+  "zh": "我们帮助他们清洗数据集、定义评估函数，"
+ },
+ {
+  "seg": 40,
+  "start": 287.902,
+  "end": 294.926,
+  "speaker": "Unknown",
+  "en": "And at the end of the RFP training job itself, we saw that there was 12% quality improvement for the GemSpark use case.",
+  "zh": "在 RFT 训练任务结束时，我们看到 GemSpark 用例的质量提升了 12%。"
+ },
+ {
+  "seg": 41,
+  "start": 296.587,
+  "end": 310.236,
+  "speaker": "Unknown",
+  "en": "Also, we are a trusted platform among all our other customers and user base as well, and we have raised around 327 million CDC a while ago, and we are about 200 people working at Fireworks.",
+  "zh": "此外，在我们所有其他客户和用户群体中，我们也是一个值得信赖的平台，我们前段时间刚融资约 3.27 亿 CDC,Fireworks 目前约有 200 名员工。"
+ },
+ {
+  "seg": 42,
+  "start": 311.216,
+  "end": 313.298,
+  "speaker": "Unknown",
+  "en": "That brings me to the next portion of it.",
+  "zh": "这就引出了下一部分。"
+ },
+ {
+  "seg": 43,
+  "start": 313.458,
+  "end": 319.943,
+  "speaker": "Unknown",
+  "en": "I know in the previous slide I did mention that we made latency faster for a couple of our customers, such as Vercel.",
+  "zh": "我知道在上一张幻灯片中我提到我们让一些客户的延迟更快了，比如 Vercel。"
+ },
+ {
+  "seg": 44,
+  "start": 320.524,
+  "end": 325.087,
+  "speaker": "Unknown",
+  "en": "And how we do it is quite simple at a higher level.",
+  "zh": "而在较高的层面上，我们是如何做到的其实相当简单。"
+ },
+ {
+  "seg": 45,
+  "start": 326.208,
+  "end": 329.631,
+  "speaker": "Unknown",
+  "en": "At Fireworks, we have our own inference engine called FireAttention.",
+  "zh": "在 Fireworks,我们有自己的推理引擎，叫做 FireAttention。"
+ },
+ {
+  "seg": 46,
+  "start": 330.051,
+  "end": 337.277,
+  "speaker": "Unknown",
+  "en": "So you have a model, you have GPUs, and the way the model sits on top of the GPUs is through a translation layer called CUDA kernels.",
+  "zh": "你有一个模型，你有 GPU,模型运行在 GPU 之上的方式是通过一个叫 CUDA kernel 的转换层。"
+ },
+ {
+  "seg": 47,
+  "start": 337.797,
+  "end": 340.841,
+  "speaker": "Unknown",
+  "en": "And as part of FHIR attention, we build our own CUDA kernel.",
+  "zh": "作为 FHIR attention 的一部分，我们构建自己的 CUDA kernel。"
+ },
+ {
+  "seg": 48,
+  "start": 341.181,
+  "end": 353.776,
+  "speaker": "Unknown",
+  "en": "So when a customer comes to us with a workload and a performance target in mind, then we can optimize this particular inference engine and the whole AI stack, including that CUDA kernel for that specific use case.",
+  "zh": "所以当客户带着工作负载和性能目标来找我们时，我们就可以针对那个特定用例优化这个推理引擎和整个 AI 技术栈，包括那个 CUDA kernel。"
+ },
+ {
+  "seg": 49,
+  "start": 354.297,
+  "end": 368.245,
+  "speaker": "Unknown",
+  "en": "So most of the time, customers like Vercel in the previous slide come to us and tell us they have X input tokens, Y output tokens, they have Z prompt cache hit rate, and they want to meet so-and-so latency targets.",
+  "zh": "所以大多数时候，像上一张幻灯片中 Vercel 这样的客户会来找我们，告诉我们他们有 X 个输入 token、Y 个输出 token、Z 的提示词缓存命中率，以及他们想达到的某某延迟目标。"
+ },
+ {
+  "seg": 50,
+  "start": 369.005,
+  "end": 381.692,
+  "speaker": "Unknown",
+  "en": "And we help them optimize this whole inference stack, including that CUDA kernel, so that we can solve this model at a cheaper price, but also that can meet their performance target and for their specific workload itself.",
+  "zh": "我们帮助他们优化整个推理栈，包括那个 CUDA kernel,这样我们就能以更便宜的价格解决这个模型，同时也能达到他们的性能目标，并满足他们特定的工作负载本身。"
+ },
+ {
+  "seg": 51,
+  "start": 382.552,
+  "end": 396.446,
+  "speaker": "Unknown",
+  "en": "As part of fire retention and inference optimization, we do also implement the very well-known techniques in the AI field, which is things like speculative decoding, disaggregation, quantization.",
+  "zh": "作为微调和推理优化的一部分，我们也实现了 AI 领域中非常知名的技术，比如投机解码、分离式部署、量化。"
+ },
+ {
+  "seg": 52,
+  "start": 396.926,
+  "end": 404.954,
+  "speaker": "Unknown",
+  "en": "In terms of speculative decoding itself, we also allow customers to train their draft models on our platform, so they can even upload",
+  "zh": "就投机解码本身而言，我们也允许客户在我们的平台上训练他们的 draft 模型，所以他们甚至可以上传"
+ },
+ {
+  "seg": 53,
+  "start": 405.795,
+  "end": 422.935,
+  "speaker": "Unknown",
+  "en": "The data set, very similar to how they do for fine tuning, for training a draft model, which helps them make the model, the main model, perform much faster, meet latency requirements, also gives you better throughput if the draft model is trained very well.",
+  "zh": "数据集，和微调的方式非常类似，用来训练 draft 模型，这能帮助他们让模型，也就是主模型，运行得更快，满足延迟要求，如果 draft 模型训练得很好的话，也能带来更好的吞吐量。"
+ },
+ {
+  "seg": 54,
+  "start": 424.236,
+  "end": 431.061,
+  "speaker": "Unknown",
+  "en": "And so once people actually get to this stage, mainly once they're happy with model quality.",
+  "zh": "所以当人们真正到了这个阶段，主要是指他们对模型质量满意之后。"
+ },
+ {
+  "seg": 55,
+  "start": 431.481,
+  "end": 439.426,
+  "speaker": "Unknown",
+  "en": "But when customers are switching from closed source to open source models, the biggest bottleneck or the gap is quality.",
+  "zh": "但当客户从闭源模型切换到开源模型时，最大的瓶颈或差距是质量。"
+ },
+ {
+  "seg": 56,
+  "start": 439.966,
+  "end": 444.149,
+  "speaker": "Unknown",
+  "en": "And the way we try to solve for it is through our training product.",
+  "zh": "而我们试图解决这个问题的方法是通过我们的训练产品。"
+ },
+ {
+  "seg": 57,
+  "start": 444.829,
+  "end": 454.272,
+  "speaker": "Unknown",
+  "en": "And our training product itself comes in three different flavors for different segments within our customer and user base, one being the training agent.",
+  "zh": "我们的训练产品本身有三种不同的形态，面向我们客户和用户群体中的不同细分人群，其一是训练智能体。"
+ },
+ {
+  "seg": 58,
+  "start": 455.272,
+  "end": 464.495,
+  "speaker": "Unknown",
+  "en": "This is very popular among our product managers and builders that got into this AI inferencing and training field very recently.",
+  "zh": "这在我们的产品经理和构建者中非常受欢迎，他们是最近才进入这个 AI 推理和训练领域的。"
+ },
+ {
+  "seg": 59,
+  "start": 465.095,
+  "end": 468.977,
+  "speaker": "Unknown",
+  "en": "So the agent can be accessed through our UI, and you can",
+  "zh": "这个智能体可以通过我们的 UI 访问，而且你可以"
+ },
+ {
+  "seg": 60,
+  "start": 471.057,
+  "end": 480.459,
+  "speaker": "Unknown",
+  "en": "You just need to link in the dataset that you have uploaded on the Fireworks platform, as well as description on what you're trying to do as part of this training run itself.",
+  "zh": "你只需要关联你已上传到 Fireworks 平台上的数据集，以及描述你在这次训练运行本身中想要做的事情。"
+ },
+ {
+  "seg": 61,
+  "start": 481.079,
+  "end": 482.719,
+  "speaker": "Unknown",
+  "en": "It will even let you choose the model.",
+  "zh": "它甚至会让你选择模型。"
+ },
+ {
+  "seg": 62,
+  "start": 482.899,
+  "end": 484.56,
+  "speaker": "Unknown",
+  "en": "It will clean the dataset for you.",
+  "zh": "它会帮你清洗数据集。"
+ },
+ {
+  "seg": 63,
+  "start": 484.76,
+  "end": 497.582,
+  "speaker": "Unknown",
+  "en": "It will also help you do the hyperparameter fine-tuning itself, because it's not always easy to get the right hyperparameters itself when you are doing training for your specific workload.",
+  "zh": "它还会帮你做超参数微调本身，因为当你为自己的特定工作负载做训练时，得到正确的超参数本身并不总是容易的。"
+ },
+ {
+  "seg": 64,
+  "start": 498.442,
+  "end": 505.524,
+  "speaker": "Unknown",
+  "en": "The next flavor, also one of our most popular flavors among our customer and user base, is managed training.",
+  "zh": "下一种形态，也是我们客户和用户群体中最受欢迎的形态之一，是托管训练。"
+ },
+ {
+  "seg": 65,
+  "start": 506.024,
+  "end": 508.365,
+  "speaker": "Unknown",
+  "en": "And this is what most of our customers use today.",
+  "zh": "这是我们今天大多数客户使用的方式。"
+ },
+ {
+  "seg": 66,
+  "start": 509.365,
+  "end": 516.647,
+  "speaker": "Unknown",
+  "en": "They can use a managed training platform, one, through API, and second, through the UI itself.",
+  "zh": "他们可以使用托管训练平台，一是通过 API,二是通过 UI 本身。"
+ },
+ {
+  "seg": 67,
+  "start": 517.147,
+  "end": 527.45,
+  "speaker": "Unknown",
+  "en": "It is as simple as you inputting the hyperparameters that you think will be good for your model, choosing a model, uploading the data set itself, and then clicking a button.",
+  "zh": "它就是这么简单：你输入你认为对你的模型合适的超参数，选择一个模型，上传数据集本身，然后点击一个按钮。"
+ },
+ {
+  "seg": 68,
+  "start": 527.95,
+  "end": 532.132,
+  "speaker": "Unknown",
+  "en": "That's how simple we make it on Fireworks for the managed training itself.",
+  "zh": "这就是我们在 Fireworks 上让托管训练本身变得如此简单的方式。"
+ },
+ {
+  "seg": 69,
+  "start": 532.912,
+  "end": 538.755,
+  "speaker": "Unknown",
+  "en": "And I know one challenge a lot of people have is observability once the training run itself kicks in.",
+  "zh": "我知道很多人面临的一个挑战是，一旦训练运行本身启动后的可观测性问题。"
+ },
+ {
+  "seg": 70,
+  "start": 539.135,
+  "end": 547.239,
+  "speaker": "Unknown",
+  "en": "So we also have a good UI dashboard that shows you how the training is happening, how well your model is learning at each epoch.",
+  "zh": "所以我们也有一个很好的 UI 仪表盘，向你展示训练是如何进行的，你的模型在每个 epoch 学得怎么样。"
+ },
+ {
+  "seg": 71,
+  "start": 547.259,
+  "end": 548.899,
+  "speaker": "Unknown",
+  "en": "What does the loss function look like?",
+  "zh": "损失函数看起来是什么样？"
+ },
+ {
+  "seg": 72,
+  "start": 549.4,
+  "end": 551.681,
+  "speaker": "Unknown",
+  "en": "Additionally, you can also plug in",
+  "zh": "此外，你还可以接入"
+ },
+ {
+  "seg": 73,
+  "start": 552.801,
+  "end": 563.646,
+  "speaker": "Unknown",
+  "en": "Your weights and biases API key into the managed training service itself and export some of the observability metrics to platforms like weights and biases if you're already using that.",
+  "zh": "你的 weights and biases API key 到托管训练服务本身，并导出一些可观测性指标到像 weights and biases 这样的平台，如果你已经在用它的话。"
+ },
+ {
+  "seg": 74,
+  "start": 564.226,
+  "end": 571.189,
+  "speaker": "Unknown",
+  "en": "And the third and the kind of the most advanced flavor of training that we offer is the training API itself.",
+  "zh": "而我们提供的第三种，也可以说是最先进的训练形态，是训练 API 本身。"
+ },
+ {
+  "seg": 75,
+  "start": 572.469,
+  "end": 580.915,
+  "speaker": "Unknown",
+  "en": "And the training API is very popular among some of the ML engineers within different organizations or within our customer base.",
+  "zh": "训练 API 在不同组织内部或我们客户群体中的一些 ML 工程师中非常受欢迎。"
+ },
+ {
+  "seg": 76,
+  "start": 581.776,
+  "end": 591.743,
+  "speaker": "Unknown",
+  "en": "And in this particular offering of the product lets ML engineers define their own training loop and loss functions.",
+  "zh": "这个特定的产品形态让 ML 工程师可以定义他们自己的训练循环和损失函数。"
+ },
+ {
+  "seg": 77,
+  "start": 592.283,
+  "end": 603.192,
+  "speaker": "Unknown",
+  "en": "And this becomes important when you want to customize your training job according to your needs that goes well above beyond the managed training service that we offer itself.",
+  "zh": "当你想根据自己的需求定制训练任务，而这远远超出了我们提供的托管训练服务本身时，这就变得很重要。"
+ },
+ {
+  "seg": 78,
+  "start": 604.073,
+  "end": 617.804,
+  "speaker": "Unknown",
+  "en": "And these different flavors or the products within the training ecosystem that we offered are offered for supervised fine-tuning, reinforcement fine-tuning, and even DPO as well.",
+  "zh": "而我们在训练生态系统中提供的这些不同形态或产品，可用于监督微调、强化微调，甚至 DPO。"
+ },
+ {
+  "seg": 79,
+  "start": 618.844,
+  "end": 641.251,
+  "speaker": "Unknown",
+  "en": "Nowadays, I think RFT has become extremely, extremely popular, and if you ever need help in helping define a good evaluator function, then we have worked with customers like GenSpark that I was talking to you about in the previous slide to help them define an evaluator function, clean the data set, and also choose the right hyperparameters, especially for RFT.",
+  "zh": "如今，我认为 RFT 已经变得极其、极其受欢迎，如果你需要帮助来定义一个好的评估器函数，我们曾与像 GenSpark 这样的客户合作——就是我在上一张幻灯片中提到的——帮助他们定义评估器函数、清洗数据集，以及选择正确的超参数，尤其是针对 RFT。"
+ },
+ {
+  "seg": 80,
+  "start": 641.711,
+  "end": 645.672,
+  "speaker": "Unknown",
+  "en": "Unfortunately, the training agent itself does not support RFT, so it does not",
+  "zh": "不幸的是，训练智能体本身不支持 RFT,所以它不能"
+ },
+ {
+  "seg": 81,
+  "start": 646.553,
+  "end": 654.27,
+  "speaker": "Unknown",
+  "en": "help you clean the dataset or even do the hyperparameter tweaking, but we are more than happy to help you do it if you have a big use case in mind.",
+  "zh": "帮你清洗数据集或进行超参数调整，但如果你有一个大的用例设想，我们非常乐意帮你做这些。"
+ },
+ {
+  "seg": 82,
+  "start": 655.614,
+  "end": 667.142,
+  "speaker": "Unknown",
+  "en": "So now that we know all about the different training offerings that we have, I also wanted to show you a quick demo of each of these, the training agent, managed training, and the training API itself.",
+  "zh": "既然我们已经了解了我们所有的不同训练产品，我还想给每一个做一个快速演示，训练智能体、托管训练，以及训练 API 本身。"
+ },
+ {
+  "seg": 83,
+  "start": 668.222,
+  "end": 674.687,
+  "speaker": "Unknown",
+  "en": "But before we get into that, I just wanted to close off by saying how the data flywheel looks like today on our platform.",
+  "zh": "但在进入那个之前，我只是想在结束前说一下，如今在我们的平台上这个数据飞轮是什么样子的。"
+ },
+ {
+  "seg": 84,
+  "start": 675.287,
+  "end": 682.452,
+  "speaker": "Unknown",
+  "en": "I know in the first slide I was talking to you about the realities of AI today, where most people prefer doing a continuous loop.",
+  "zh": "我知道在第一张幻灯片中，我跟你们谈过今天 AI 的现实，大多数人更喜欢做一个持续的循环。"
+ },
+ {
+  "seg": 85,
+  "start": 682.832,
+  "end": 688.433,
+  "speaker": "Unknown",
+  "en": "Where they train, host, train, host, as they get new and new data and feedback from their users.",
+  "zh": "在这个循环中，他们训练、托管、训练、托管，随着他们不断获得新的数据以及来自用户的反馈。"
+ },
+ {
+  "seg": 86,
+  "start": 688.894,
+  "end": 704.197,
+  "speaker": "Unknown",
+  "en": "And that is what we are trying to make more seamless on our platform, and that's also why we have different training products, different offerings, as well as making it easier for you to host and make it also cheaper and faster for you to host those models at scale itself.",
+  "zh": "而这正是我们试图在我们的平台上让之更加无缝的，这也是为什么我们有不同的训练产品、不同的产品形态，同时让你更容易地托管，并让你大规模托管这些模型时更便宜、更快。"
+ },
+ {
+  "seg": 87,
+  "start": 704.677,
+  "end": 706.378,
+  "speaker": "Unknown",
+  "en": "And the way this Flywheel works is",
+  "zh": "而这个飞轮运作的方式是"
+ },
+ {
+  "seg": 88,
+  "start": 707.158,
+  "end": 708.179,
+  "speaker": "Unknown",
+  "en": "Kind of very simple.",
+  "zh": "相当简单的。"
+ },
+ {
+  "seg": 89,
+  "start": 708.279,
+  "end": 714.666,
+  "speaker": "Unknown",
+  "en": "Once these models are trained, I will show you a demo in the next slide where the models get trained.",
+  "zh": "一旦这些模型训练完成，我会在下一张幻灯片中给你展示模型是如何训练的。"
+ },
+ {
+  "seg": 90,
+  "start": 716.007,
+  "end": 719.891,
+  "speaker": "Unknown",
+  "en": "You just are one click away from deploying these models into production.",
+  "zh": "你只需一键就能将这些模型部署到生产环境。"
+ },
+ {
+  "seg": 91,
+  "start": 720.391,
+  "end": 722.593,
+  "speaker": "Unknown",
+  "en": "And once you've deployed, you can monitor.",
+  "zh": "而一旦你完成部署，你就可以监控。"
+ },
+ {
+  "seg": 92,
+  "start": 724.435,
+  "end": 731.721,
+  "speaker": "Unknown",
+  "en": "Monitoring metrics for the number of tokens, cached rate, how your speculator is working if you've trained a speculator.",
+  "zh": "监控指标包括 token 数量、缓存命中率，如果你训练了一个 speculator 的话，它的工作情况如何。"
+ },
+ {
+  "seg": 93,
+  "start": 732.441,
+  "end": 745.932,
+  "speaker": "Unknown",
+  "en": "We help you collect, gather feedback from all the metrics that you have collected, and if you choose to also retrain on the same platform from the checkpoint that you were using to a new checkpoint itself.",
+  "zh": "我们帮你收集、汇聚你收集到的所有指标中的反馈，如果你选择的话，还可以在同一平台上从你之前使用的 checkpoint 训练到一个新的 checkpoint 本身。"
+ },
+ {
+  "seg": 94,
+  "start": 746.452,
+  "end": 756.119,
+  "speaker": "Unknown",
+  "en": "So some capabilities on the platform that makes these data flywheel possible is, one, definitely having a host of GPUs.",
+  "zh": "所以，让这个数据飞轮成为可能的平台能力，一是肯定要拥有大量 GPU。"
+ },
+ {
+  "seg": 95,
+  "start": 756.199,
+  "end": 763.825,
+  "speaker": "Unknown",
+  "en": "We do partner with different cloud and new cloud providers, which makes it easier for us to provide compute and also host these models at scale.",
+  "zh": "我们确实与不同的云和新兴云提供商合作，这使我们更容易提供算力，也能大规模托管这些模型。"
+ },
+ {
+  "seg": 96,
+  "start": 764.305,
+  "end": 766.986,
+  "speaker": "Unknown",
+  "en": "Another thing we offer is hotloading.",
+  "zh": "我们提供的另一项功能是 hotloading。"
+ },
+ {
+  "seg": 97,
+  "start": 767.066,
+  "end": 771.808,
+  "speaker": "Unknown",
+  "en": "And this has become really popular, especially when we were training models for Cursor.",
+  "zh": "这已经变得非常受欢迎，尤其是在我们为 Cursor 训练模型的时候。"
+ },
+ {
+  "seg": 98,
+  "start": 772.308,
+  "end": 779.71,
+  "speaker": "Unknown",
+  "en": "And this was actually a feature we implemented specifically for Cursor and then we thought would be useful for general public while they were training models as well.",
+  "zh": "而这实际上是我们专门为 Cursor 实现的一个功能，然后我们认为它在公众训练模型时也会有用的。"
+ },
+ {
+  "seg": 99,
+  "start": 780.55,
+  "end": 788.733,
+  "speaker": "Unknown",
+  "en": "What hotloading essentially means is when you have a new checkpoint, you can directly go to live deployment without any downtime itself.",
+  "zh": "hotloading 的本质含义是，当你有了一个新的 checkpoint,你可以直接上线部署，不需要任何停机时间。"
+ },
+ {
+  "seg": 100,
+  "start": 789.073,
+  "end": 790.354,
+  "speaker": "Unknown",
+  "en": "So if you have a deployment,",
+  "zh": "所以如果你有一个部署，"
+ },
+ {
+  "seg": 101,
+  "start": 791.254,
+  "end": 802.225,
+  "speaker": "Unknown",
+  "en": "And you've gone through this continuous loop and trained a new checkpoint, then you can just click a button and swap out the weights itself that you were using previously with the new endpoints.",
+  "zh": "而且你已经走完了这个持续循环、训练出了一个新的 checkpoint，那么你只需点击一个按钮，就能把之前使用的权重换成新的 endpoints。"
+ },
+ {
+  "seg": 102,
+  "start": 802.805,
+  "end": 808.071,
+  "speaker": "Unknown",
+  "en": "Another thing that makes it easier to train on our platform is the numerical fidelity.",
+  "zh": "另一个让我们平台上训练更容易的东西是数值保真度。"
+ },
+ {
+  "seg": 103,
+  "start": 808.471,
+  "end": 813.297,
+  "speaker": "Unknown",
+  "en": "So a lot of the time, customers use Platform A for training and host on Platform B.",
+  "zh": "很多时候，客户用平台 A 训练，然后托管在平台 B 上。"
+ },
+ {
+  "seg": 104,
+  "start": 813.677,
+  "end": 818.603,
+  "speaker": "Unknown",
+  "en": "But what happens when you do that is you have issues in quality of the model.",
+  "zh": "但你这样做会遇到模型质量方面的问题。"
+ },
+ {
+  "seg": 105,
+  "start": 818.944,
+  "end": 826.473,
+  "speaker": "Unknown",
+  "en": "And the reason you have those issues is Kubernetes is not always compatible when you train on a different platform and host on a different platform.",
+  "zh": "你之所以会有这些问题，是因为当你在不同平台训练、又在另一个平台托管时，Kubernetes 并不总是兼容的。"
+ },
+ {
+  "seg": 106,
+  "start": 826.833,
+  "end": 839.284,
+  "speaker": "Unknown",
+  "en": "So that's why we offer training and inferencing on the same platform and ensure that you won't find any numerical differences after you finish training and once you decide to host this particular model on the platform itself.",
+  "zh": "所以这就是为什么我们提供在同一平台上进行训练和推理，并确保你在完成训练后、决定把模型托管在本平台上时，不会发现任何数值差异。"
+ },
+ {
+  "seg": 107,
+  "start": 840.405,
+  "end": 851.535,
+  "speaker": "Unknown",
+  "en": "And one other thing that makes it more seamless is because training and inference is on the same platform, you're just one click away from deploying this model at production scale.",
+  "zh": "另一个让它更无缝的地方是，因为训练和推理在同一个平台上，你只需一键就能把这个模型部署到生产规模。"
+ },
+ {
+  "seg": 108,
+  "start": 852.869,
+  "end": 862.055,
+  "speaker": "Unknown",
+  "en": "Now that we have learned all about the inference and training, I just wanted to show you a quick demo of different training products and how they work on our platform.",
+  "zh": "现在我们已经了解了推理和训练的全部内容，我想快速给你演示几个不同的训练产品，以及它们在我们平台上是如何工作的。"
+ },
+ {
+  "seg": 109,
+  "start": 862.516,
+  "end": 867.339,
+  "speaker": "Unknown",
+  "en": "The first portion of the demo is showing you how you can use the training agent itself.",
+  "zh": "演示的第一部分是向你展示如何使用这个训练智能体本身。"
+ },
+ {
+  "seg": 110,
+  "start": 868.019,
+  "end": 874.244,
+  "speaker": "Unknown",
+  "en": "Over here, you can input where your training dataset lives within the fireworks, what it's called.",
+  "zh": "在这里，你可以输入你的训练数据集存放在 fireworks 里的位置、它叫什么名字。"
+ },
+ {
+  "seg": 111,
+  "start": 875.084,
+  "end": 875.865,
+  "speaker": "Unknown",
+  "en": "You can also",
+  "zh": "你还可以"
+ },
+ {
+  "seg": 112,
+  "start": 877.841,
+  "end": 880.805,
+  "speaker": "Unknown",
+  "en": "Give it the eval data set itself.",
+  "zh": "给它提供 eval 数据集本身。"
+ },
+ {
+  "seg": 113,
+  "start": 881.286,
+  "end": 885.051,
+  "speaker": "Unknown",
+  "en": "I know people have the train and eval or a test data set separately.",
+  "zh": "我知道大家通常把 train 和 eval 或 test 数据集分开存放。"
+ },
+ {
+  "seg": 114,
+  "start": 885.091,
+  "end": 888.136,
+  "speaker": "Unknown",
+  "en": "So you give the agent both the data sets.",
+  "zh": "所以你把两个数据集都交给这个智能体。"
+ },
+ {
+  "seg": 115,
+  "start": 888.576,
+  "end": 894.284,
+  "speaker": "Unknown",
+  "en": "And then you ask it to fine tune and even select the hyperparameters and the model for you.",
+  "zh": "然后你让它做微调，甚至可以让它帮你选择超参数和模型。"
+ },
+ {
+  "seg": 116,
+  "start": 895.605,
+  "end": 902.088,
+  "speaker": "Unknown",
+  "en": "The agent then goes on and tells you the step that it will take to accomplish the task that you have given it.",
+  "zh": "然后智能体会继续告诉你，它将采取哪些步骤来完成你交给它的任务。"
+ },
+ {
+  "seg": 117,
+  "start": 902.448,
+  "end": 904.829,
+  "speaker": "Unknown",
+  "en": "So it details the SFD plan.",
+  "zh": "所以它会详细列出 SFD 计划。"
+ },
+ {
+  "seg": 118,
+  "start": 905.189,
+  "end": 907.57,
+  "speaker": "Unknown",
+  "en": "It tells you why it selected the base model.",
+  "zh": "它会告诉你为什么选择了那个基础模型。"
+ },
+ {
+  "seg": 119,
+  "start": 907.59,
+  "end": 909.331,
+  "speaker": "Unknown",
+  "en": "In this case, it selected QUEN 3, 8B.",
+  "zh": "在这个例子里，它选择了 QUEN 3, 8B。"
+ },
+ {
+  "seg": 120,
+  "start": 911.223,
+  "end": 918.566,
+  "speaker": "Unknown",
+  "en": "And it'll also give you some information on the hyperparameters and what the whole training process can look like at a high level.",
+  "zh": "它还会给你一些关于超参数的信息，以及整个训练过程在高层面上大概是什么样子。"
+ },
+ {
+  "seg": 121,
+  "start": 919.186,
+  "end": 927.089,
+  "speaker": "Unknown",
+  "en": "And once you're done, once you feel okay about the output that the agent has given, you can approve whatever the agent has outlined.",
+  "zh": "等你完成后，等你对智能体给出的输出感到满意了，你就可以批准智能体列出的所有内容。"
+ },
+ {
+  "seg": 122,
+  "start": 928.87,
+  "end": 936.897,
+  "speaker": "Unknown",
+  "en": "And once you approve it, it will actually go through different steps and keep you posted on if it finishes step two, what does it look like?",
+  "zh": "而一旦你批准了，它就会实际执行不同的步骤，并随时向你汇报进度，比如它完成了第二步，结果是什么样子？"
+ },
+ {
+  "seg": 123,
+  "start": 937.237,
+  "end": 940.44,
+  "speaker": "Unknown",
+  "en": "If it successfully finishes step three, what does that look like now?",
+  "zh": "如果它成功完成了第三步，现在又是什么样子？"
+ },
+ {
+  "seg": 124,
+  "start": 941.041,
+  "end": 953.972,
+  "speaker": "Unknown",
+  "en": "And at the end of the whole training run, it will also give you a summary of the config, the base model, and different hyperparameters and how that impacts it as well.",
+  "zh": "在整个训练运行结束时，它还会给你一个总结，包括 config、基础模型、不同的超参数，以及它们如何产生影响。"
+ },
+ {
+  "seg": 125,
+  "start": 959.671,
+  "end": 966.353,
+  "speaker": "Unknown",
+  "en": "And once the whole model training is done, it actually gives you metrics such as accuracy and F1 score.",
+  "zh": "而且在整个模型训练完成后，它实际上会给你诸如准确率和 F1 分数这样的指标。"
+ },
+ {
+  "seg": 126,
+  "start": 967.493,
+  "end": 972.915,
+  "speaker": "Unknown",
+  "en": "And it also summarizes, kind of resummarizes and gives you an overview of everything that it did.",
+  "zh": "它还会做总结，算是重新总结一遍，给你一个它所做的一切的概览。"
+ },
+ {
+  "seg": 127,
+  "start": 973.355,
+  "end": 980.137,
+  "speaker": "Unknown",
+  "en": "And one cool feature is it also gives you recommended next step as part of the training run itself.",
+  "zh": "还有一个很酷的功能是，它还会在训练运行本身中给你推荐下一步该做什么。"
+ },
+ {
+  "seg": 128,
+  "start": 981.057,
+  "end": 987.883,
+  "speaker": "Unknown",
+  "en": "Now the next portion of this demo actually talks about how we can use our managed training platform.",
+  "zh": "现在这个演示的下一部分要讲的是我们如何使用我们的托管训练平台。"
+ },
+ {
+  "seg": 129,
+  "start": 988.323,
+  "end": 996.93,
+  "speaker": "Unknown",
+  "en": "I did mention that you just have to select the model data set and the hyperparameters and then you're just a button click away from actually training a model.",
+  "zh": "我刚才提到，你只需要选择模型、数据集和超参数，然后就只需点一下按钮就可以真正训练一个模型了。"
+ },
+ {
+  "seg": 130,
+  "start": 997.41,
+  "end": 1003.515,
+  "speaker": "Unknown",
+  "en": "Say you've uploaded the data set, chosen a model, all you'll have to do is then go to the",
+  "zh": "假设你已经上传了数据集、选好了模型，接下来你只需要去"
+ },
+ {
+  "seg": 131,
+  "start": 1006.357,
+  "end": 1019.249,
+  "speaker": "Unknown",
+  "en": "Evaluator settings, choose the evaluator data set, and also you get to choose the hyperparameter as part of optional settings if you decide to have a more fine-grained hyperparameter for your training run itself.",
+  "zh": "Evaluator 设置里，选择 evaluator 数据集，而且在可选设置里你还可以选择超参数，如果你想为你的训练运行设置更细粒度的超参数的话。"
+ },
+ {
+  "seg": 132,
+  "start": 1020.95,
+  "end": 1031.974,
+  "speaker": "Unknown",
+  "en": "And once you're happy with all the configurations, including the model and the data set itself, you just need to click on the button that says Create.",
+  "zh": "一旦你对所有配置都满意了，包括模型和数据集本身，你只需要点击那个写着 Create 的按钮。"
+ },
+ {
+  "seg": 133,
+  "start": 1032.595,
+  "end": 1037.636,
+  "speaker": "Unknown",
+  "en": "And as soon as you click on the button that says Create, a training job then kicks out.",
+  "zh": "而你一点击那个写着 Create 的按钮，一个训练任务就会启动。"
+ },
+ {
+  "seg": 134,
+  "start": 1038.377,
+  "end": 1043.799,
+  "speaker": "Unknown",
+  "en": "And you can see that the UI looks similar to this when a training job actually gets completed.",
+  "zh": "你可以看到，当一个训练任务真正完成时，UI 看起来就像这样。"
+ },
+ {
+  "seg": 135,
+  "start": 1046.85,
+  "end": 1064.868,
+  "speaker": "Unknown",
+  "en": "And if you click on that particular training job itself, it'll give you information on the data set it used, the hyperparameters it used, what the model loss itself looks like when the model was training, and then you can even clone these training runs and reproduce it with different settings and configurations itself.",
+  "zh": "如果你点进那个具体的训练任务，它会给你所用数据集的信息、所用超参数、模型训练时 loss 本身的样子，而且你甚至可以克隆这些训练运行，用不同的设置和配置来复现它。"
+ },
+ {
+  "seg": 136,
+  "start": 1067.786,
+  "end": 1082.412,
+  "speaker": "Unknown",
+  "en": "And once you're happy with the fine-tuned model, you can go to the deployment section, choose the custom model that just got trained on our platform, and then click on deploy once you're happy with the deployment configurations, or you can choose a",
+  "zh": "等你对微调后的模型满意了，你可以去部署部分，选择刚刚在我们平台上训练好的自定义模型，然后在你对部署配置满意后点击部署，或者你也可以选择我们提供的"
+ },
+ {
+  "seg": 137,
+  "start": 1082.852,
+  "end": 1088.978,
+  "speaker": "Unknown",
+  "en": "set of deployment configurations that we have, such as throughput, fast, minimal.",
+  "zh": "一组部署配置，比如 throughput、fast、minimal。"
+ },
+ {
+  "seg": 138,
+  "start": 1089.618,
+  "end": 1101.449,
+  "speaker": "Unknown",
+  "en": "And this is kind of a template that works well for generic workloads that we have optimized based on throughput, latency, time to first token, and other such metrics.",
+  "zh": "这是一种适用于通用工作负载的模板，我们是基于吞吐量、延迟、首 token 时间等指标优化的。"
+ },
+ {
+  "seg": 139,
+  "start": 1103.968,
+  "end": 1112.75,
+  "speaker": "Unknown",
+  "en": "And I unfortunately don't have an entire demo for our training API because the setup itself differs from customer to customer.",
+  "zh": "遗憾的是，我们的训练 API 我没有完整的演示，因为具体设置因客户而异。"
+ },
+ {
+  "seg": 140,
+  "start": 1113.09,
+  "end": 1123.713,
+  "speaker": "Unknown",
+  "en": "But we do have a lot of cookbooks on our websites that you can see and follow, especially if you're interested in customizing your own training loops and last functions itself.",
+  "zh": "但我们的网站上有很多 cookbook，你可以查看并照着做，尤其是如果你有兴趣自定义自己的训练循环和 last functions 本身的话。"
+ },
+ {
+  "seg": 141,
+  "start": 1124.813,
+  "end": 1126.674,
+  "speaker": "Unknown",
+  "en": "And that's all I have for you for today.",
+  "zh": "今天我要讲的就是这些。"
+ },
+ {
+  "seg": 142,
+  "start": 1127.134,
+  "end": 1131.915,
+  "speaker": "Unknown",
+  "en": "I just wanted to give you a brief overview of how the whole training to inferencing loop looks like.",
+  "zh": "我只是想给大家简单概览一下从训练到推理的整个循环是什么样子。"
+ },
+ {
+  "seg": 143,
+  "start": 1132.635,
+  "end": 1133.416,
+  "speaker": "Unknown",
+  "en": "Thank you very much.",
+  "zh": "非常感谢。"
+ },
+ {
+  "seg": 144,
+  "start": 1133.476,
+  "end": 1137.279,
+  "speaker": "Unknown",
+  "en": "And if you have any questions, I'm happy to take them in the next minute or so that we have.",
+  "zh": "如果你有任何问题，我很乐意在我们剩下的这一分钟左右时间里回答。"
+ }
+]

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Renen Hallak]] · [[Matt Turk]] · [[NVIDIA]] · [[XAI]] · [[软件基础设施]] · [[AI 工厂]] · [[机密计算]] · [[权重]] · [[智能体]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Renen Hallak":1,"Matt Turk":6,"NVIDIA":71,"XAI":8,"软件基础设施":1,"AI 工厂":4,"机密计算":1,"权重":4,"智能体":1,"推理":102}</script>
+<script type="application/json" class="pd-epn">{"Renen Hallak":1,"Matt Turk":6,"NVIDIA":72,"XAI":8,"软件基础设施":1,"AI 工厂":4,"机密计算":1,"权重":4,"智能体":1,"推理":103}</script>
 
 <script>
 (function(){

@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[智能体 AI]] · [[Fred Turner]] · [[Willem Avé]] · [[Poolside]] · [[Daniel Saks]] · [[Harry Stebbings]] · [[Square]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"智能体 AI":6,"Fred Turner":1,"Willem Avé":1,"Poolside":1,"Daniel Saks":1,"Harry Stebbings":21,"Square":5,"NVIDIA":71}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"智能体 AI":6,"Fred Turner":1,"Willem Avé":1,"Poolside":1,"Daniel Saks":1,"Harry Stebbings":21,"Square":5,"NVIDIA":72}</script>
 
 <script>
 (function(){

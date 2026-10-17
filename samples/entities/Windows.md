@@ -43,7 +43,7 @@ unlisted: true
 
 [[Hugging Face]] · [[OpenAI]] · [[Microsoft]] · [[Theo Jaffe]] · [[Steven Sinofsky]] · [[Ben Horowitz]] · [[对齐]] · [[Sofia Puccini]] · [[bug]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Hugging Face":39,"OpenAI":208,"Microsoft":34,"Theo Jaffe":8,"Steven Sinofsky":4,"Ben Horowitz":7,"对齐":25,"Sofia Puccini":4,"bug":1,"NVIDIA":71}</script>
+<script type="application/json" class="pd-epn">{"Hugging Face":39,"OpenAI":208,"Microsoft":34,"Theo Jaffe":8,"Steven Sinofsky":4,"Ben Horowitz":7,"对齐":25,"Sofia Puccini":4,"bug":1,"NVIDIA":72}</script>
 
 <script>
 (function(){

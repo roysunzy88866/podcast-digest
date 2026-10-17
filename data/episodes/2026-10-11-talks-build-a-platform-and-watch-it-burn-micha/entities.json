@@ -1,0 +1,1206 @@
+{
+  "episode_id": "2026-10-11-talks-build-a-platform-and-watch-it-burn-micha",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 安全",
+    "智能体",
+    "Kubernetes",
+    "提示词注入",
+    "MCP"
+  ],
+  "categories": [
+    "智能体",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "michael-forrester",
+      "type": "person",
+      "role": "guest",
+      "name": "Michael Forrester",
+      "file": "Michael Forrester",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "whitney-lee",
+      "type": "person",
+      "role": "guest",
+      "name": "Whitney Lee",
+      "file": "Whitney Lee",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线就是「在内部开发者平台上放出一个智能体然后看它怎么被黑」：讲者认为大部分智能体安全事故的根源是权限给多了，是基础设施和流程问题而非 AI 问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            23.323,
+            24.704
+          ],
+          "quote": "And then we unleashed an agent on it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            82.65,
+            92.259
+          ],
+          "quote": "So even if you don't have your agent locked down, it can cause a reputation damage in addition to actual financial and data damage.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            237.598,
+            245.708
+          ],
+          "quote": "And even though we gave our agent a prompt that said, yes, go ahead and do it, do it, do it, do it, the model prompt underneath those just won't let it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            639.242,
+            645.527
+          ],
+          "quote": "And we've deployed the agent with k-agent, which is a framework for running agents on Kubernetes specifically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            647.198,
+            655.583
+          ],
+          "quote": "And just to say this is that there's a proxy in front of K-agent with LLM guard hooked up to it, which are technologies that are all in the repo, right, if you're not familiar with this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            657.764,
+            660.306
+          ],
+          "quote": "And K-agent itself can actually hook into a classifier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 160,
+          "t": [
+            662.447,
+            665.269
+          ],
+          "quote": "And there is an agent gateway in play as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            678.614,
+            682.255
+          ],
+          "quote": "K-Agent is actually submitting context as it builds a history on the right-hand side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            811.486,
+            822.695
+          ],
+          "quote": "Everything you're doing in regular Kubernetes security is more important than ever now that you're letting an agent in your cluster and there's this unknown entity, this new interface for attackers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1001.073,
+            1011.077
+          ],
+          "quote": "You can give your agent's identity with Spiffy or Spire, and then once that agent has an identity, you can make policy around what it is and is not allowed to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1246.4,
+            1254.994
+          ],
+          "quote": "I'm going to show, so everything we have here is instrumented with OpenTelemetry, so the k-agent and the guard proxy, which he's gonna talk about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1272.433,
+            1281.538
+          ],
+          "quote": "So somebody, so as y'all are working on this cluster, I can actually see everybody's inputs and outputs and conversations with the agent in my backend.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1297.617,
+            1304.18
+          ],
+          "quote": "So I can see from this one trace, I can see the input tokens, the input cost, the model it's using as a K-agent trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1355.253,
+            1362.321
+          ],
+          "quote": "So I have all of the information from my agent in one cool interface, and it's helpful for a myriad of reasons.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 460,
+          "t": [
+            1792.409,
+            1802.712
+          ],
+          "quote": "So, for example, let's say that Challenge 5 is that the agent leaks an output guard, and so we're having a little bit of an issue, and we want to basically see, will it actually leak an output guard?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1826.986,
+            1827.366
+          ],
+          "quote": "The agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2073.091,
+            2085.7
+          ],
+          "quote": "So just be aware there's a proxy here, right, that's actually like running things through LLMGuard to basically scrub it and make sure that it's like rock solid before it even gets actually back to K-Agent and then back to Bedrock in this particular case.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2230.9,
+            2243.734
+          ],
+          "quote": "And so, if we also have this happening at the infrastructure layer for every agent that's running in our cluster, we have this added level of protection that is against a broad swath of everything coming in and out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3089.843,
+            3092.384
+          ],
+          "quote": "But this is at PeopleForce to Unleash an Agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把护栏分为基础设施护栏（网络策略、准入控制、运行时监控）和 AI 护栏（输入/输出清洗），并强调输入端拦截比输出端便宜，且大部分护栏并非 AI 专属。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            98.945,
+            108.555
+          ],
+          "quote": "And we have a very helpful burrito bot friend that has no guardrails at all, and we're gonna hack the heck out of our Kubernetes cluster with a burrito bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            144.209,
+            152.872
+          ],
+          "quote": "Yeah, so for those of you who've done IDPs like platform engineering, there's 34 components underneath here, all integrated, including AI guardrails and other pieces, which I'll talk about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            205.979,
+            218.063
+          ],
+          "quote": "So, the first thing, what we're going to do at a higher level is we're going to have you hack the burrito bot in certain ways and then show you the exact guardrails to put into place to stop that type of hacking.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            245.848,
+            248.431
+          ],
+          "quote": "So some of these guardrails are model level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            580.383,
+            584.025
+          ],
+          "quote": "You may have noticed the big red sign that said no guardrails, so let's see what it's up for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            631.276,
+            638.582
+          ],
+          "quote": "So with minimal sets of guardrails, just to make sure that, you know, we don't put things on the screen that might be offensive to people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1387.989,
+            1390.652
+          ],
+          "quote": "Oddly enough, what we just talked about was AR guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1390.952,
+            1399.74
+          ],
+          "quote": "I'm just curious for any of you, when we say infrastructure guardrails is what we just covered, sorry, correcting what I just said, we just did infrastructure guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1410.27,
+            1418.392
+          ],
+          "quote": "When I say AI guardrails, by the way, first of all, I have a bevy of confusing conversations with people, but I'm just kind of curious, and please just shout this out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1418.932,
+            1424.213
+          ],
+          "quote": "When I say AI guardrails, someone just name, raise your hand and just like name one guardrail that you, for AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1633.869,
+            1637.03
+          ],
+          "quote": "And so what will happen here is that notice it says all guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1640.439,
+            1644.822
+          ],
+          "quote": "All of the infrastructure guardrails are activated, but the AI guardrails are not activated.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 418,
+          "t": [
+            1645.902,
+            1653.148
+          ],
+          "quote": "So the problem with this is that you're going to activate the AI guardrails by following the instructions that you see in the terminal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1719.383,
+            1749.093
+          ],
+          "quote": "So this will take you to provisioning.agenticburn.com, and what will happen here is that when you put your email address in here, and by the way, it doesn't have to be your real email address, I'm gonna say this, we're not harvesting your email addresses, we're not gonna send you an email unless you email us, but if you wanna put a fake email address in here, that's totally fine, as long as you remember what it is, because you're gonna get assigned an EKS cluster, right, that has Burrito Bot on it, has all the guardrails, has the VTT, has everything, has the terminal, has everything you need to actually run",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1835.058,
+            1845.501
+          ],
+          "quote": "So if I come back here and I turn the guardrails on... Do you want me to type it for you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            1861.212,
+            1865.315
+          ],
+          "quote": "So what will happen now is that the output guardrails will activate on the system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2063.758,
+            2066.06
+          ],
+          "quote": "So that's output guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2099.758,
+            2107.924
+          ],
+          "quote": "Well, first, well, luckily, we already know that the input guardrails are off because we had to go and turn them off because they were already on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2224.873,
+            2230.76
+          ],
+          "quote": "The developers should absolutely try to have all the guardrails at their layer, but things might get missed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2299.029,
+            2300.95
+          ],
+          "quote": "Let's turn the guardrails on and show it in action.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2311.653,
+            2317.355
+          ],
+          "quote": "We're gonna turn the guardrails on for input, and then we'll repeat the thing, and then in this particular case, we'll repeat the prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2331.482,
+            2333.102
+          ],
+          "quote": "So it's blocked by input guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2342.145,
+            2351.353
+          ],
+          "quote": "Just to mention this is that LLM guardrail and Nemo guardrails and other classifier models, if you're not familiar with it, there's this whole set of models that sit at about 8 billion parameters.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2419.2,
+            2423.802
+          ],
+          "quote": "So, I'm haptended to see if guardrails are already off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 652,
+          "t": [
+            2519.985,
+            2524.869
+          ],
+          "quote": "So, that being said, let's turn on the guardrails and see what's going on here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2527.23,
+            2528.111
+          ],
+          "quote": "Let's turn the guardrails on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2935.62,
+            2939.722
+          ],
+          "quote": "Like, why did we, for example, show guardrails about AI workflows?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3093.385,
+            3099.788
+          ],
+          "quote": "This is the entire repository from IDP, integration, guardrails, everything.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集现场演示了社工式提示词攻击：编造营销故事和工单号就能让机器人部署任意镜像，讲者称通常 20-30 条提示词内就能让模型做任何事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1426.774,
+            1430.515
+          ],
+          "quote": "Prompt injection, so standardization of input, yes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2575.54,
+            2578.182
+          ],
+          "quote": "Prompt injection is now baked into most models, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2616.846,
+            2619.507
+          ],
+          "quote": "But prompt injection seems like it's like, oh, well, we can work that out.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集称 MCP 是给 AI 提供外部工具的标准协议，并演示了恶意 MCP 服务器在工具描述里夹带指令、让智能体悄悄调用 ReadInternalConfig 外泄数据；建议企业别从公共 MCP 服务器起步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 582,
+          "t": [
+            2246.592,
+            2252.115
+          ],
+          "quote": "Okay, so we're going to do the last one, which this one is going to be MCP auth, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2416.019,
+            2418.46
+          ],
+          "quote": "So, next we're gonna switch over to MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2466.968,
+            2475.713
+          ],
+          "quote": "Someone the other day said to someone in front of me that, just go ahead and get your enterprise to use all the public MCP servers that are out there, and that way you can discover MCP in your enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2476.113,
+            2482.016
+          ],
+          "quote": "And I just have to say, that's a great, that's a significant way to discover MCP in your enterprise.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            2487.041,
+            2492.122
+          ],
+          "quote": "Is that there's a certain percentage of MCP servers out there on the public space that have horrible security vulnerabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2499.364,
+            2504.365
+          ],
+          "quote": "If you are in an enterprise and you're like, oh, I want to get started with MCP, please don't start with public MCP servers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2504.405,
+            2509.646
+          ],
+          "quote": "Either roll your own or get in relationship with a vendor or get an MCP registry or a gateway or let's talk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2539.114,
+            2554.163
+          ],
+          "quote": "So the MCP does get the weather for the agents, but then it also has this second instruction of like the MCP tool descriptions that gives you the weather, but also asks you to look for the config that's on the machine right now and spit that out and put it into chat.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2561.048,
+            2566.232
+          ],
+          "quote": "So the person running, checking the weather with the MCP tool never even knows that data was exfiltrated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 679,
+          "t": [
+            2631.37,
+            2637.333
+          ],
+          "quote": "And notice that these are all AI levels, so input sanitization, output sanitization, right, checking MCP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            2655.497,
+            2658.458
+          ],
+          "quote": "I wanted to show you that MCP get weather call.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            2679.662,
+            2684.544
+          ],
+          "quote": "That's what an evil MCP might do to try to exfiltrate some extra data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 741,
+          "t": [
+            2819.768,
+            2824.231
+          ],
+          "quote": "So also note that we filter out input and then of course here's the MCP authorization.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2824.972,
+            2835.798
+          ],
+          "quote": "You know, just something to say this is that a lot of people at this level are not, for lack of a better word, are not wiring MCP servers directly into their platform per se.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2836.758,
+            2844.663
+          ],
+          "quote": "They're talking to a registry, right, or an MCP gateway, and it's providing a list of tools that are then allowed for that particular thing, and it gets pulled in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "idp",
+      "type": "concept",
+      "role": "concept",
+      "name": "IDP",
+      "file": "IDP",
+      "primary": true,
+      "how_described": "本集的演示底座是一个 34 个组件集成的 IDP 平台，跑在 Kubernetes 上，讲者把整个平台连同护栏开源供人参考。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            15.877,
+            22.102
+          ],
+          "quote": "And we're going to take you on this grand adventure that we went through to basically launch an IDP platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3093.385,
+            3099.788
+          ],
+          "quote": "This is the entire repository from IDP, integration, guardrails, everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3119.582,
+            3128.044
+          ],
+          "quote": "But if you're looking to stand up an IDP, a platform that has like backstage and all the proper security rails and all the provisioning and follows best practices, this is the one to look at.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集用 Kubernetes 集群做被攻击对象，强调过去十年的 Kubernetes 安全经验（网络策略、CI/CD、SDLC）在 AI 时代比以往更重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            98.945,
+            108.555
+          ],
+          "quote": "And we have a very helpful burrito bot friend that has no guardrails at all, and we're gonna hack the heck out of our Kubernetes cluster with a burrito bot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            639.242,
+            645.527
+          ],
+          "quote": "And we've deployed the agent with k-agent, which is a framework for running agents on Kubernetes specifically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 189,
+          "t": [
+            789.213,
+            798.68
+          ],
+          "quote": "Now this is not at all the end-all, be-all for Kubernetes security, but what I want to point out here is A, these security features for these three things are not AI-specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            805.161,
+            809.845
+          ],
+          "quote": "This is, Kubernetes security is a deeply layered complex thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            811.486,
+            822.695
+          ],
+          "quote": "Everything you're doing in regular Kubernetes security is more important than ever now that you're letting an agent in your cluster and there's this unknown entity, this new interface for attackers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            921.59,
+            927.773
+          ],
+          "quote": "So challenge one, which was the network, which is solved by Kubernetes network policy that we weren't able to demo here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            928.333,
+            934.557
+          ],
+          "quote": "But you should have Kubernetes network policy and actually network policy at L4, L7 and wherever you can.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            940.822,
+            954.815
+          ],
+          "quote": "So Kaverno is an admission controller software, so it adds admission controller webhook in with your Kubernetes admission, and when it gets a request that falls under the jurisdiction of a certain rule,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1068.554,
+            1071.136
+          ],
+          "quote": "It doesn't know about your Kubernetes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 771,
+          "t": [
+            2968.677,
+            2969.978
+          ],
+          "quote": "Is it like a Kubernetes system?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kyverno",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kyverno",
+      "file": "Kyverno",
+      "primary": true,
+      "how_described": "本集说 Kyverno 是一个 Kubernetes 准入控制器，部署请求先经它的验证引擎裁决，本集用它挡住了从外部镜像仓库拉取公开镜像的攻击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            955.215,
+            966.064
+          ],
+          "quote": "It'll say, oh, it's going to send that to Kyverno running in the cluster, which is going to, it has a validation engine, and it's going to say, yes, you can deploy this, or no, you cannot deploy this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 227,
+          "t": [
+            991.069,
+            993.03
+          ],
+          "quote": "That's how Kyverno works.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1011.498,
+            1019.521
+          ],
+          "quote": "What's great about Kyverno, it's cluster-level policy, so you can make organization-specific rules about what's allowed, where you work exactly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "falco",
+      "type": "concept",
+      "role": "concept",
+      "name": "Falco",
+      "file": "Falco",
+      "primary": true,
+      "how_described": "本集把 Falco 描述为运行时监控工具，监视 Linux 内核层面的可疑命令，发现异常时发告警或杀掉容器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1030.493,
+            1033.135
+          ],
+          "quote": "Challenge 3 should have been blocked by Falco.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1041.5,
+            1042.601
+          ],
+          "quote": "We started out with Falco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1055.235,
+            1059.502
+          ],
+          "quote": "So you should, like with Falco, a really, so Kubarmer, Tetragaard, I know less.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1077.903,
+            1079.724
+          ],
+          "quote": "And so Falco,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1110.399,
+            1119.707
+          ],
+          "quote": "As opposed with Falco, if an LS command is attempted, it goes through briefly and then Talon kills the pod or whatever you have it do, based on your policy.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fork-bomb",
+      "type": "concept",
+      "role": "concept",
+      "name": "fork 炸弹 (fork bomb)",
+      "file": "fork 炸弹",
+      "primary": true,
+      "how_described": "本集说 fork 炸弹是不断自我复制、指数级耗尽系统资源的进程，200 毫秒内可拖垮集群；所有模型无论怎么诱导都拒绝执行，且 Linux 上一行内核配置即可防住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1131.031,
+            1133.252
+          ],
+          "quote": "I want to mention that originally we were going to do a fork bomb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1139.834,
+            1148.018
+          ],
+          "quote": "The reason we took that one out, that was actually challenge four, is because no model, no matter how freely encouraged to run a fork bomb, would run a fork bomb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1148.318,
+            1154.081
+          ],
+          "quote": "The minute it saw a fork bomb, in our witchy parliament, it was like, whoa, hold on, that spell is gonna take down the entire cluster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1154.521,
+            1159.403
+          ],
+          "quote": "And there was no model that we could run that will allow us to run a fork bomb no matter how many system prompts we gave.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1176.906,
+            1178.426
+          ],
+          "quote": "A fork bomb can start.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1178.827,
+            1180.267
+          ],
+          "quote": "Does everyone know what a fork bomb is?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1214.964,
+            1218.067
+          ],
+          "quote": "By the way, does anyone know the best way to stop a fork bomb on a Linux box?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 673,
+          "t": [
+            2600.918,
+            2611.763
+          ],
+          "quote": "So just to say this, even though we're not wasting your time by going through the 20 or 30 prompts because, one, they don't work consistently, we have gotten the models to do everything we want to do except for the fork bomb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 674,
+          "t": [
+            2612.023,
+            2613.024
+          ],
+          "quote": "Except for the fork bomb.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2614.324,
+            2616.745
+          ],
+          "quote": "But the fork bomb just seems to be immutable, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "excessive-agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "过度主观能动性 (excessive agency)",
+      "file": "过度主观能动性",
+      "primary": false,
+      "how_described": "本集说过度主观能动性是新闻里大多数 AI 黑客攻击事件的头号原因——给智能体的权限范围太大、环境里还散落着提权凭证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 351,
+          "t": [
+            1448.322,
+            1449.102
+          ],
+          "quote": "Excessive agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1450.403,
+            1457.549
+          ],
+          "quote": "So excessive agency is the number one reason that most of the hacks that have shown up in the news have happened.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "burritobot",
+      "type": "concept",
+      "role": "concept",
+      "name": "BurritoBot",
+      "file": "BurritoBot",
+      "primary": true,
+      "how_described": "本集讲者自建的「卷饼机器人」演示应用：底层跑在 Kubernetes 集群上，前面接一个几乎无防护的 AI 智能体，让观众现场攻击再用护栏逐个防住。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            301.099,
+            312.869
+          ],
+          "quote": "And it should be able to, it does have a tool, I think, to list pods for the, as most BurritoBot agents should, to list pods for you to see if you could try to see what's going through the BurritoBot itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1024.57,
+            1029.833
+          ],
+          "quote": "And so we tried, again, to get BurritoBot to deploy the public image, and it won't this time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2252.375,
+            2257.318
+          ],
+          "quote": "So the issue here is that we're going to ask in BurritoBot, we're going to ask you just a very innocuous question, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llmguard",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMGuard",
+      "file": "LLMGuard",
+      "primary": false,
+      "how_described": "本集说 LLMGuard 是挂在代理上做输出清洗的工具，用 scrub 字段遮蔽敏感配方内容，属参数量约 80 亿的分类器模型一类。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 522,
+          "t": [
+            2009.425,
+            2019.332
+          ],
+          "quote": "By the way, this is an output underscore scrub field, right, that you can run in LLMGuard that will actually just make sure that none of these words ever get seen, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 537,
+          "t": [
+            2070.91,
+            2072.571
+          ],
+          "quote": "This is LLMGuard in action, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2072.651,
+            2073.051
+          ],
+          "quote": "LLMGuard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2073.091,
+            2085.7
+          ],
+          "quote": "So just be aware there's a proxy here, right, that's actually like running things through LLMGuard to basically scrub it and make sure that it's like rock solid before it even gets actually back to K-Agent and then back to Bedrock in this particular case.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集讲者提到自己在 Datadog 工作，并用 Datadog 界面展示 OpenTelemetry 追踪数据里的智能体输入输出和工具调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            823.655,
+            831.902
+          ],
+          "quote": "So I just want to say this is that Whitney and I in our respective roles at Datadog and Accenture talk to a lot of customers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1259.845,
+            1272.353
+          ],
+          "quote": "Okay, I'm gonna show you, aha, so this is, so as we mentioned before, I worked at Datadog, so I'm gonna show you a Datadog interface, but it's all open telemetry, so it's gonna work with whatever your observability backend is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1507.192,
+            1512.673
+          ],
+          "quote": "For round three now, you have your own cluster, your own instance of Datadog, your own everything.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1620.243,
+            1629.687
+          ],
+          "quote": "So in a second, you're going to get access to a series of like a terminal and a Datadog login, and you're going to get access to your own burrito bot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集引用 NVIDIA CFO 的说法：如今 AI 做的工作里约七成由人类做反而更便宜可靠，用来支撑「值不值得用 AI」的判断框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 778,
+          "t": [
+            2983.925,
+            2995.495
+          ],
+          "quote": "NVIDIA's CFO, by the way, just a couple weeks ago, I want to say like a month ago, maybe six weeks ago, was basically saying, you know, about like 70-something percent of the jobs that are being done by AI today could be done by humans cheaply and more reliably.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 779,
+          "t": [
+            2995.795,
+            2997.696
+          ],
+          "quote": "This is the CFO of NVIDIA, by the way.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

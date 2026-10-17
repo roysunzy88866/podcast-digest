@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":69,"Codex":91,"OpenAI":208,"ChatGPT":115,"Cursor":87,"Sentry":6,"智能体":1,"vibe coding":52,"脚手架":1,"业务流程自动化":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":69,"Codex":91,"OpenAI":208,"ChatGPT":115,"Cursor":88,"Sentry":6,"智能体":1,"vibe coding":52,"脚手架":1,"业务流程自动化":1}</script>
 
 <script>
 (function(){

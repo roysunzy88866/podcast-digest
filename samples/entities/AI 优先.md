@@ -39,7 +39,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Ken]] · [[Lenny]] · [[Dave Fletcher]] · [[Cisco]] · [[Lead Dev]] · [[NVIDIA]] · [[Honeycomb]] · [[Box]] · [[AI 编程工具]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"Ken":1,"Lenny":69,"Dave Fletcher":1,"Cisco":4,"Lead Dev":1,"NVIDIA":71,"Honeycomb":2,"Box":5,"AI 编程工具":2}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":2,"Ken":1,"Lenny":69,"Dave Fletcher":1,"Cisco":4,"Lead Dev":1,"NVIDIA":72,"Honeycomb":2,"Box":5,"AI 编程工具":2}</script>
 
 <script>
 (function(){

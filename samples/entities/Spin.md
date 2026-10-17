@@ -49,7 +49,7 @@ unlisted: true
 
 [[Thorsten Hans]] · [[智能体]] · [[MCP]] · [[WebAssembly]] · [[冷启动]] · [[沙箱]] · [[边缘原生架构]] · [[内存快照]] · [[键值存储]] · [[Akamai Functions]]
 
-<script type="application/json" class="pd-epn">{"Thorsten Hans":1,"智能体":1,"MCP":99,"WebAssembly":2,"冷启动":4,"沙箱":104,"边缘原生架构":1,"内存快照":1,"键值存储":1,"Akamai Functions":1}</script>
+<script type="application/json" class="pd-epn">{"Thorsten Hans":1,"智能体":1,"MCP":100,"WebAssembly":2,"冷启动":4,"沙箱":104,"边缘原生架构":1,"内存快照":1,"键值存储":1,"Akamai Functions":1}</script>
 
 <script>
 (function(){

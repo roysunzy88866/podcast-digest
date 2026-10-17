@@ -49,7 +49,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Modal":8,"SGLang":4,"vLLM":8,"PyTorch":3,"NVIDIA":71,"Cognition":27,"推理":102,"推理引擎":1,"调度器":1,"预填充":1}</script>
+<script type="application/json" class="pd-epn">{"Modal":8,"SGLang":4,"vLLM":8,"PyTorch":3,"NVIDIA":72,"Cognition":27,"推理":103,"推理引擎":1,"调度器":1,"预填充":1}</script>
 
 <script>
 (function(){

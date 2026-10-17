@@ -27,7 +27,7 @@ unlisted: true
 
 [[GitHub]] · [[Terraform]] · [[开源]] · [[Bruno Scott Sperka]] · [[AI 智能体]] · [[Kubernetes]] · [[就业市场]] · [[智能体]] · [[软技能]] · [[PR]]
 
-<script type="application/json" class="pd-epn">{"GitHub":37,"Terraform":2,"开源":43,"Bruno Scott Sperka":1,"AI 智能体":4,"Kubernetes":20,"就业市场":1,"智能体":1,"软技能":1,"PR":6}</script>
+<script type="application/json" class="pd-epn">{"GitHub":37,"Terraform":2,"开源":43,"Bruno Scott Sperka":1,"AI 智能体":4,"Kubernetes":22,"就业市场":1,"智能体":1,"软技能":1,"PR":6}</script>
 
 <script>
 (function(){

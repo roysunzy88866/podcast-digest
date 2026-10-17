@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GLM 5.2</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GLM 5.2">GL</div><div class="pi"><h1 class="pt">GLM 5.2</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GLM 5.2">GL</div><div class="pi"><h1 class="pt">GLM 5.2</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,12 @@ unlisted: true
 - **[[2026-08-20-talks-unlock-agent-autonomy-the-runtime-for-ai|《解锁智能体自主性：安全才是下一个瓶颈》]]**(04:35起):本集作为「我们都会用开源模型」的证据被提了一句：GLM 5.2 最近几周进展令人惊叹，这只是开始。
 - **[[2026-09-19-talks-the-frontier-ai-inference-cloud-for-agen|《智能体推理不是聊天加量：Friendly AI 重建推理云》]]**(02:19起):本集把它说成:运行在 Friendly AI 上的开放权重模型,完成塔防游戏任务只要 0.27 美元、比 Opus 4.8 便宜 5.6 倍,质量明显可用。
 - **[[2026-10-15-twist-the-ex-deepmind-researcher-taking-on-chi|《智能该租还是该买？前DeepMind研究员的美国开源大模型突围战》]]**(47:48起):本集提到 Beam 能力接近 GLM 5.2——一个几个月前还是前沿的中国模型。
+
+## ① 提到它的金句
+
+*1 条*
+
+![[2026-10-11-talks-stop-renting-intelligence-the-train-to-d#^q3]]
 
 ## ② 出现在这些集
 
@@ -35,7 +41,7 @@ unlisted: true
 
 [[智能体]] · [[沙箱]] · [[OpenAI]] · [[开放权重模型]] · [[harness]] · [[推理]] · [[Codex]] · [[Chris Benson]] · [[Arjun Singh]] · [[Connor Hegey]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"OpenAI":208,"开放权重模型":1,"harness":67,"推理":102,"Codex":91,"Chris Benson":13,"Arjun Singh":1,"Connor Hegey":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"沙箱":104,"OpenAI":208,"开放权重模型":1,"harness":67,"推理":103,"Codex":91,"Chris Benson":13,"Arjun Singh":1,"Connor Hegey":1}</script>
 
 <script>
 (function(){

@@ -113,7 +113,7 @@ jsonLd: |
 
 - [[2026-06-11-practicalai-zero-trust-for-ai-agents|Anthropic 零信任框架：智能体安全的六层防御]]<span class="pd-rz">同概念:可观测性 (observability)、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
 - [[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|AI 智能体不读你的政策文档，它们只会调用你的接口]]<span class="pd-rz">同概念:可观测性 (observability)、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]]<span class="pd-rz">同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)</span>
+- [[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|造一个平台，然后放个 AI 进去搞破坏]]<span class="pd-rz">同概念:Kubernetes、提示词注入 (prompt injection)、智能体 (agent)、MCP</span>
 
 </div>
 <div class="pd-ex">

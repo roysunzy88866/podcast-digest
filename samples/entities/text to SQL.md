@@ -27,7 +27,7 @@ unlisted: true
 
 [[LLM]] · [[Albert Cheng]] · [[Andy Pavlo]] · [[Lenny]] · [[Matt Turk]] · [[Duolingo]] · [[智能体]] · [[Grammarly]] · [[护栏]] · [[Chess.com]]
 
-<script type="application/json" class="pd-epn">{"LLM":66,"Albert Cheng":1,"Andy Pavlo":1,"Lenny":69,"Matt Turk":6,"Duolingo":4,"智能体":1,"Grammarly":2,"护栏":93,"Chess.com":2}</script>
+<script type="application/json" class="pd-epn">{"LLM":66,"Albert Cheng":1,"Andy Pavlo":1,"Lenny":69,"Matt Turk":6,"Duolingo":4,"智能体":1,"Grammarly":2,"护栏":94,"Chess.com":2}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Pat Gelsinger]] · [[Intel]] · [[VMware]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[HBM]] · [[记忆]] · [[推理]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Pat Gelsinger":1,"Intel":4,"VMware":3,"NVIDIA":71,"OpenAI":208,"Anthropic":206,"HBM":2,"记忆":30,"推理":102,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Pat Gelsinger":1,"Intel":4,"VMware":3,"NVIDIA":72,"OpenAI":208,"Anthropic":206,"HBM":2,"记忆":30,"推理":103,"智能体":1}</script>
 
 <script>
 (function(){

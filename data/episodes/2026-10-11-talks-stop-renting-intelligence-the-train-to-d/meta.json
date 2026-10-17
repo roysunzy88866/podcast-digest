@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-11-talks-stop-renting-intelligence-the-train-to-d",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/13YZ1EB9hjU.m4a",
+  "duration_sec": 1137.279,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 145,
+  "asr": true,
+  "title_en": "Stop Renting Intelligence: The Train-to-Deploy Loop for Specialized AI — Fireworks AI",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "added": "2026-10-17",
+  "added_at": "2026-10-17T03:34:22.010Z",
+  "speaker_map": {
+    "SPEAKER_00": "Jatishree"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jatishree",
+  "cohosts": [],
+  "title_zh": "别再租用智能:开源模型怎么训练到部署一把抓",
+  "guest_name": "Jatishree",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}

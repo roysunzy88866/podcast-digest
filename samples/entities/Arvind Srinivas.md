@@ -63,7 +63,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Perplexity":10,"Perplexity Computer":1,"NVIDIA":71,"Apple":27,"Apple Silicon":1,"DeepMind":19,"Hugging Face":39,"Berkshire Hathaway":4,"JP Morgan":4,"智能体":1}</script>
+<script type="application/json" class="pd-epn">{"Perplexity":10,"Perplexity Computer":1,"NVIDIA":72,"Apple":27,"Apple Silicon":1,"DeepMind":19,"Hugging Face":39,"Berkshire Hathaway":4,"JP Morgan":4,"智能体":1}</script>
 
 <script>
 (function(){

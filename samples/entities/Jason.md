@@ -76,7 +76,7 @@ unlisted: true
 
 [[Kimberly]] · [[智能体]] · [[David]] · [[37Signals]] · [[Basecamp]] · [[后训练]] · [[沙箱]] · [[推理]] · [[客户反馈]] · [[入职引导]]
 
-<script type="application/json" class="pd-epn">{"Kimberly":3,"智能体":1,"David":3,"37Signals":4,"Basecamp":2,"后训练":1,"沙箱":104,"推理":102,"客户反馈":2,"入职引导":2}</script>
+<script type="application/json" class="pd-epn">{"Kimberly":3,"智能体":1,"David":3,"37Signals":4,"Basecamp":2,"后训练":1,"沙箱":104,"推理":103,"客户反馈":2,"入职引导":2}</script>
 
 <script>
 (function(){

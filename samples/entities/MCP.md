@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MCP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>99</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MCP">MC</div><div class="pi"><h1 class="pt">MCP</h1><div class="byl">概念</div><div class="nums">本站收录 <b>100</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -106,6 +106,7 @@ unlisted: true
 - **[[2026-10-09-talks-why-your-company-needs-a-context-graph-a|《给公司装一个“大脑”：为什么你需要上下文图谱》]]**(03:20起):本集说只接一个或几个 MCP 服务器就完事是不够的——平台的 API 底层访问模式不支持语义化的实时查询，MCP 没有完全解决这些问题。
 - **[[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|《AI 智能体不读你的政策文档，它们只会调用你的接口》]]**(02:56起):本集说智能体通过 MCP 发现和调用工具；第三方 MCP 服务器会暴露过多工具（如其 CRM 暴露 64 个）撑大上下文和成本，应精选收敛以限制影响范围。
 - **[[2026-10-10-talks-zero-cold-starts-serverless-ai-agents-on|《零冷启动:把 AI 应用跑在离用户最近的边缘》]]**(06:17起):本集用它作为 WebAssembly 边缘部署的核心演示对象:用 wasmcp 把工具、资源和提示词组合成 MCP server,一条命令全球分布,约 60 秒上线
+- **[[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]]**(37:26起):本集称 MCP 是给 AI 提供外部工具的标准协议，并演示了恶意 MCP 服务器在工具描述里夹带指令、让智能体悄悄调用 ReadInternalConfig 外泄数据；建议企业别从公共 MCP 服务器起步。
 - **[[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]]**(05:48起):本集说 Atlassian 大力投入 MCP,拥有世界前五前三的 MCP 服务器,让智能体读写其 teamwork graph,但 MCP 展示的只是数据质量,界面与体验仍不可放弃。
 - **[[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]]**(25:21起):本集把它说成:智能体互联网的新协议,让你能向智能体声明'这些是我服务里你可以用的工具',比如 Vercel 的 MCP 告诉智能体如何部署软件、列出项目。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(05:25起):Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。
@@ -160,7 +161,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*99 集*
+*100 集*
 
 - [[2025-05-22-talks-mastering-claude-code-in-30-minutes|《Claude Code 实战技巧：从提问到并行》]] — 作为概念
 - [[2025-06-03-talks-pioneering-agentic-applications-with-dec|《三位 AI 智能体公司 CEO 圆桌：从 Copilot 到智能体，还要几年？》]] — 作为概念
@@ -258,6 +259,7 @@ unlisted: true
 - [[2026-10-09-talks-why-your-company-needs-a-context-graph-a|《给公司装一个“大脑”：为什么你需要上下文图谱》]] — 作为概念
 - [[2026-10-10-talks-ai-agents-don-t-read-your-policy-docs-th|《AI 智能体不读你的政策文档，它们只会调用你的接口》]] — 作为概念
 - [[2026-10-10-talks-zero-cold-starts-serverless-ai-agents-on|《零冷启动:把 AI 应用跑在离用户最近的边缘》]] — 作为概念
+- [[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]] — 作为概念
 - [[2026-10-12-twentyvc-20vc-atlassian-ceo-on-why-agents-won-t-r|《智能体时代,界面和设计反而更重要?Atlassian CEO 的清醒判断》]] — 作为概念
 - [[2026-10-16-sourcery-vercel-ceo-guillermo-rauch-on-building-t|《当机器人开始给机器人写代码：Vercel CEO 谈智能体时代的互联网》]] — 作为概念
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
@@ -266,9 +268,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[技能]] · [[harness]] · [[护栏]]
+[[智能体]] · [[Claude]] · [[Anthropic]] · [[Claude Code]] · [[Codex]] · [[沙箱]] · [[OpenAI]] · [[护栏]] · [[技能]] · [[harness]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Claude":99,"Anthropic":206,"Claude Code":116,"Codex":91,"沙箱":104,"OpenAI":208,"技能":35,"harness":67,"护栏":93}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Claude":99,"Anthropic":206,"Claude Code":116,"Codex":91,"沙箱":104,"OpenAI":208,"护栏":94,"技能":35,"harness":67}</script>
 
 <script>
 (function(){

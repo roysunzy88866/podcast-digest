@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11"/><path d="M8 7l4-3.5L16 7"/><path d="M6 12.5V19a1.5 1.5 0 0 0 1.5 1.5h9A1.5 1.5 0 0 0 18 19v-6.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg><svg class="if" viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M12 20.3C12 20.3 4 16 4 10.2 4 7.6 6 6 8.1 6c1.6 0 2.9.9 3.9 2.3C13 6.9 14.3 6 15.9 6 18 6 20 7.6 20 10.2c0 5.8-8 10.1-8 10.1z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>71</b> 集 · <b>18</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>72</b> 集 · <b>19</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -79,11 +79,12 @@ unlisted: true
 - **[[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]]**(64:09起):本集说 NVIDIA 吞并了一批苦苦挣扎的 GPU 数据库公司(含 HeavyDB)、全力押注 GPU 数据库,动机显然是多卖 GPU
 - **[[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]]**(18:47起):本集说 NVIDIA 是会挑选赢家芯片方案的大玩家之一，会像收购 Grok 后那样把异构性藏进自己的架构；还提到 NVL72 是工程奇迹也是制造噩梦。
 - **[[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]]**(39:31起):本集说它的芯片需求无限但产能不足，并批评现有芯片是「耗电巨大、良率低、为打游戏而造」的，未必适合 AI
+- **[[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]]**(49:43起):本集引用 NVIDIA CFO 的说法：如今 AI 做的工作里约七成由人类做反而更便宜可靠，用来支撑「值不值得用 AI」的判断框架。
 - **[[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]]**(00:45起):本集说 NVIDIA 的使命从来不是 AI，而是做只有超级计算机才能做的事；它与 Perplexity 合作推出完全本地运行的 portable computer，据报道正考虑以超 300 亿美元估值投资 Perplexity
 
 ## ① 提到它的金句
 
-*18 条*
+*19 条*
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
 
@@ -119,11 +120,13 @@ unlisted: true
 
 ![[2026-10-08-cogrev-ai-am-a-level-we-shouldn-t-pass-notes-fr#^q8]]
 
+![[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha#^q8]]
+
 ![[2026-10-14-sourcery-thrive-capitals-bet-on-neuralink--openai#^q8]]
 
 ## ② 出现在这些集
 
-*71 集*
+*72 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
@@ -194,6 +197,7 @@ unlisted: true
 - [[2026-10-08-mad-what-happens-when-billions-of-ai-agents|《当几十亿个AI智能体冲向你的数据库》]] — 作为被讨论公司
 - [[2026-10-09-a16z-chips-memory-and-power-pat-gelsinger-uwh|《芯片设计变快了，瓶颈却跑到别处去了：Pat Gelsinger 谈 AI 硬件的下一个战场》]] — 作为被讨论公司
 - [[2026-10-10-a16z-what-makes-a-great-entrepreneur-ben-horo|《好老板不看短板：Ben Horowitz 聊选人、AI 与嘻哈教会他的事》]] — 作为被讨论公司
+- [[2026-10-11-talks-build-a-platform-and-watch-it-burn-micha|《造一个平台，然后放个 AI 进去搞破坏》]] — 作为被讨论公司(提及)
 - [[2026-10-12-sourcery-perplexity-ceo-smbs-could-drive-the-next|《AI 没有网络效应，只有「复利效应」：Perplexity CEO 的反共识打法》]] — 作为被讨论公司
 - [[2026-10-14-a16z-can-open-models-keep-up-with-the-ai-fron|《开源模型追得上前沿吗？一位AI研究者拆解谣言与真相》]] — 作为被讨论公司(提及)
 
@@ -201,9 +205,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[数据中心]] · [[Meta]] · [[Hugging Face]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[推理]] · [[GPU]] · [[Google]] · [[Cursor]] · [[数据中心]] · [[Meta]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":206,"智能体":1,"OpenAI":208,"推理":102,"GPU":35,"Google":72,"Cursor":87,"数据中心":25,"Meta":56,"Hugging Face":39}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":208,"推理":103,"GPU":35,"Google":72,"Cursor":88,"数据中心":25,"Meta":56,"Hugging Face":39}</script>
 
 <script>
 (function(){

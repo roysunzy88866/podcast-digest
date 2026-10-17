@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Python]] · [[Vaibhav Gupta]] · [[Claude Code]] · [[Poteto]] · [[BAML]] · [[Bun]] · [[Cursor]] · [[垃圾话]] · [[动态工作流]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Python":5,"Vaibhav Gupta":1,"Claude Code":116,"Poteto":1,"BAML":1,"Bun":4,"Cursor":87,"垃圾话":10,"动态工作流":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Python":5,"Vaibhav Gupta":1,"Claude Code":116,"Poteto":1,"BAML":1,"Bun":4,"Cursor":88,"垃圾话":10,"动态工作流":3}</script>
 
 <script>
 (function(){

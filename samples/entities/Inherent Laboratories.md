@@ -25,7 +25,7 @@ unlisted: true
 
 [[Nathan]] · [[Vercel]] · [[Arm]] · [[DeepSec]] · [[RL]] · [[智能体]] · [[思维链]] · [[奖励信号]] · [[递归自我改进]] · [[分工]]
 
-<script type="application/json" class="pd-epn">{"Nathan":5,"Vercel":21,"Arm":2,"DeepSec":2,"RL":14,"智能体":1,"思维链":12,"奖励信号":1,"递归自我改进":13,"分工":1}</script>
+<script type="application/json" class="pd-epn">{"Nathan":5,"Vercel":22,"Arm":2,"DeepSec":2,"RL":14,"智能体":1,"思维链":12,"奖励信号":1,"递归自我改进":13,"分工":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Kieran Klaassen]] · [[compound engineering]] · [[Cora]] · [[Every]] · [[智能体]] · [[Claude Code]] · [[Codex]] · [[Cursor]] · [[vibe coding]]
 
-<script type="application/json" class="pd-epn">{"Kieran Klaassen":1,"compound engineering":2,"Cora":2,"Every":4,"智能体":1,"Claude Code":116,"Codex":91,"Cursor":87,"vibe coding":52}</script>
+<script type="application/json" class="pd-epn">{"Kieran Klaassen":1,"compound engineering":2,"Cora":2,"Every":4,"智能体":1,"Claude Code":116,"Codex":91,"Cursor":88,"vibe coding":52}</script>
 
 <script>
 (function(){

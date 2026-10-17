@@ -37,7 +37,7 @@ unlisted: true
 
 [[Sam]] · [[智能体]] · [[MCP 网关]] · [[提示词注入]] · [[数据外泄]] · [[限流]] · [[语义缓存]] · [[MCP]] · [[LLM 路由]] · [[影子 AI]]
 
-<script type="application/json" class="pd-epn">{"Sam":1,"智能体":1,"MCP 网关":2,"提示词注入":1,"数据外泄":1,"限流":1,"语义缓存":1,"MCP":99,"LLM 路由":1,"影子 AI":2}</script>
+<script type="application/json" class="pd-epn">{"Sam":1,"智能体":1,"MCP 网关":2,"提示词注入":1,"数据外泄":1,"限流":1,"语义缓存":1,"MCP":100,"LLM 路由":1,"影子 AI":2}</script>
 
 <script>
 (function(){

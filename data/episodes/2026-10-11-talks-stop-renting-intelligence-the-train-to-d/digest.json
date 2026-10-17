@@ -1,0 +1,131 @@
+{
+  "title_zh": "别再租用智能:开源模型怎么训练到部署一把抓",
+  "tldr": "Fireworks AI 应用机器学习团队负责人 Jatishree 讲解企业如何从闭源模型迁移到开源模型，并持续训练优化。",
+  "digest_md": "在演讲一开始，Jatishree(可以叫她 Jett)先问观众两个问题：有多少人在用 ChatGPT 或 Anthropic 这样的闭源模型？又有多少人觉得账单涨得太快了？举手的人不少。她在 Fireworks 带领应用机器学习团队的一部分，这次演讲讲的就是这条迁移路：闭源模型太贵，开源模型质量不够，中间的差距怎么补上。\n\n## 开源模型真的能上生产了吗？\n\n她先给出当前 AI 生态的 3 个基本事实。第一，开源模型大体上已经可以在生产环境使用了，比如 GLM 5.2,尤其在编程场景里表现好。第二，**如果开源模型本身追不上闭源模型，那胜负手就在于你怎么定制、训练、持续改进它** [01:52 Unknown]。第三，整个技术栈正在从“部署一次就完事”变成一个持续循环：训练、部署、拿到新数据再训练 [02:04 Unknown]。\n\nFireworks 做的事，就是让这个循环又便宜又顺畅。规模也不小：平台每天服务约 30 万亿个 token,支持全球超过 10000 家公司，每秒处理约 20 万个请求 [03:12 Unknown]。\n\n## 客户拿到了什么真实收益？\n\n几个具体案例。编程工具 Cursor 的 Composer 2 模型在 Fireworks 上训练和托管，推理速度达到 13 倍提升。Vercel 在平台上做微调和托管，延迟改善 40 倍 [04:16 Unknown]。GenSpark 主要靠提示词来设计系统，从闭源切到开源时质量是最大瓶颈，Fireworks 帮他们做了强化微调(行话叫 RFT,即用评估函数给模型输出打分、让模型朝高分方向改进)，包括清洗数据集、定义评估函数，最终质量提升了 12% [04:47 Unknown]。\n\n她还提到公司已融资约 3.27 亿美元，团队约 200 人 [05:11 Unknown]。\n\n## 推理快 40 倍，靠的是自己写底层代码\n\n模型跑在 GPU 上，中间隔着一层叫 CUDA 内核的翻译层。Fireworks 自研了推理引擎 FireAttention,**连这层翻译代码都是自己写的** [05:30 Unknown]。客户带着明确目标来：多少输入 token、多少输出 token、多高的缓存命中率、要达到什么延迟，平台就针对这个具体负载优化整个推理栈，用更便宜的价格达标。此外也用上了投机解码(先让小模型猜、大模型验证，从而加速)、解耦和量化等业界常见技术，客户还能在平台上训练自己的草稿模型来进一步提速。\n\n## 训练产品分三档，从一键到全自定义\n\n第一档是训练代理，适合刚入行的产品经理和开发者。在界面上挂上数据集、描述目标，代理会自己选模型、清洗数据、调超参数，还会给出训练计划、准确率和 F1 分数，最后推荐下一步动作 [07:35 Unknown]。不过它目前不支持强化微调。\n\n第二档是托管训练，也是最受欢迎的：选模型、传数据、填超参数、点一个按钮。训练过程中有面板实时显示损失曲线，还能把观测数据导出到 Weights & Biases [08:26 Unknown]。\n\n第三档是训练 API,给资深机器学习工程师自定义训练循环和损失函数用的 [09:32 Unknown]。三档产品都支持监督微调、强化微调和 DPO。\n\n## 训练完到上线，只差一次点击\n\n**平台的核心是一个数据飞轮**：训练、部署、监控、收集反馈、再训练。为了让这个轮子转得顺，平台提供了几项能力。一是热加载，训练出新版本后可以直接替换线上权重，不宕机——这个功能最初就是为 Cursor 定制的，后来开放给了所有用户 [12:52 Unknown]。\n\n二是数值保真：很多客户在 A 平台训练、B 平台部署，因为底层系统不兼容，模型质量会莫名下降。Fireworks 把训练和推理放在同一平台，保证训练完部署不会出现数值差异 [13:28 Unknown]。\n\n> 【背景】Fireworks AI 是一家提供大模型推理与训练服务的平台公司，客户在自己的数据上定制开源模型并部署上线。\n\n## 本集带走\n\n- 开源模型已基本具备生产能力，真正的差距在于定制和持续训练\n- Fireworks 每天服务约 30 万亿 token,支持超 10000 家公司，客户案例包括 Cursor(13 倍推理提速)和 Vercel(40 倍延迟改善)\n- 自研推理引擎 FireAttention 连 CUDA 内核都自己写，可针对单一负载做深度优化\n- 训练产品分三档：训练代理、托管训练、训练 API,覆盖从新手到资深工程师\n- 热加载、同平台数值保真、一键部署，让“训练—部署—再训练”的循环转得更顺",
+  "quotes": [
+    {
+      "en": "if open source models don't beat or match the quality of closed source models, the differentiating factor comes from how you customize, train, and improve these open source models to match the performance and quality of closed source models.",
+      "zh": "如果开源模型不能超越或比肩闭源模型的质量，那么差异化的关键就在于你如何定制、训练和改进这些开源模型，使其性能和质量达到闭源模型的水平。",
+      "timestamp": "01:49",
+      "speaker": "Jatishree"
+    },
+    {
+      "en": "So today in production at scale, we serve about 30 trillion tokens and it's increasing.",
+      "zh": "目前在生产环境中大规模运行，我们每天服务约 30 万亿 token,而且还在增长。",
+      "timestamp": "03:12",
+      "speaker": "Jatishree"
+    },
+    {
+      "en": "I'm sure this has pretty much kind of increased by about at least 5 trillion tokens a day now with the GLM 5.2 release.",
+      "zh": "我确信随着 GLM 5.2 的发布，现在这个数字大概每天至少增加了 5 万亿 token。",
+      "timestamp": "03:22",
+      "speaker": "Jatishree"
+    },
+    {
+      "en": "It is able to achieve 13x faster inference because of the fire retention engine that we have.",
+      "zh": "由于我们拥有的 fire retention 引擎，它能够实现 13 倍更快的推理。",
+      "timestamp": "03:59",
+      "speaker": "Jatishree"
+    }
+  ],
+  "writer": "v3",
+  "quotes_candidates": [
+    {
+      "timestamp": "01:33",
+      "speaker": "Jatishree (Jett)",
+      "en": "open source models for the most part are production ready.",
+      "zh": "开源模型在很大程度上已经具备生产可用性。"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Jatishree (Jett)",
+      "en": "if open source models don't beat or match the quality of closed source models, the differentiating factor comes from how you customize, train, and improve these open source models to match the performance and quality of closed source models.",
+      "zh": "如果开源模型不能超越或比肩闭源模型的质量，那么差异化的关键就在于你如何定制、训练和改进这些开源模型，使其性能和质量达到闭源模型的水平。"
+    },
+    {
+      "timestamp": "02:04",
+      "speaker": "Jatishree (Jett)",
+      "en": "the AI stack itself for most of our customers and users is shifting from let's just serve a model once and that's done to a more continuous loop that is improving from training to inferencing the same open source model itself.",
+      "zh": "对于我们大多数客户和用户来说，AI 技术栈本身正在从“只需把模型服务一次就完事”转变为一个更加持续的闭环，即从训练到推理不断改进同一个开源模型本身。"
+    },
+    {
+      "timestamp": "03:12",
+      "speaker": "Jatishree (Jett)",
+      "en": "So today in production at scale, we serve about 30 trillion tokens and it's increasing.",
+      "zh": "目前在生产环境中大规模运行，我们每天服务约 30 万亿 token,而且还在增长。"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Jatishree (Jett)",
+      "en": "We support more than 10,000 companies globally and process about 200k requests a particular second itself.",
+      "zh": "我们在全球支持超过 10,000 家公司，每秒处理约 20 万个请求。"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Jatishree (Jett)",
+      "en": "I'm sure this has pretty much kind of increased by about at least 5 trillion tokens a day now with the GLM 5.2 release.",
+      "zh": "我确信随着 GLM 5.2 的发布，现在这个数字大概每天至少增加了 5 万亿 token。"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Jatishree (Jett)",
+      "en": "It is able to achieve 13x faster inference because of the fire retention engine that we have.",
+      "zh": "由于我们拥有的 fire retention 引擎，它能够实现 13 倍更快的推理。"
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Jatishree (Jett)",
+      "en": "And they see a 40x latency improvement.",
+      "zh": "他们看到了 40 倍的延迟改善。"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Jatishree (Jett)",
+      "en": "And at the end of the RFP training job itself, we saw that there was 12% quality improvement for the GemSpark use case.",
+      "zh": "在 RFT 训练任务结束时，我们看到 GenSpark 用例的质量提升了 12%。"
+    },
+    {
+      "timestamp": "07:11",
+      "speaker": "Jatishree (Jett)",
+      "en": "But when customers are switching from closed source to open source models, the biggest bottleneck or the gap is quality.",
+      "zh": "但当客户从闭源模型切换到开源模型时，最大的瓶颈或差距是质量。"
+    },
+    {
+      "timestamp": "08:04",
+      "speaker": "Jatishree (Jett)",
+      "en": "It will also help you do the hyperparameter fine-tuning itself, because it's not always easy to get the right hyperparameters itself when you are doing training for your specific workload.",
+      "zh": "它还会帮你做超参数微调，因为当你为自己的特定工作负载做训练时，得到正确的超参数并不总是容易的。"
+    },
+    {
+      "timestamp": "09:41",
+      "speaker": "Jatishree (Jett)",
+      "en": "And in this particular offering of the product lets ML engineers define their own training loop and loss functions.",
+      "zh": "这个特定的产品形态让 ML 工程师可以定义他们自己的训练循环和损失函数。"
+    },
+    {
+      "timestamp": "11:56",
+      "speaker": "Jatishree (Jett)",
+      "en": "You just are one click away from deploying these models into production.",
+      "zh": "你只需一键就能将这些模型部署到生产环境。"
+    },
+    {
+      "timestamp": "12:52",
+      "speaker": "Jatishree (Jett)",
+      "en": "And this was actually a feature we implemented specifically for Cursor and then we thought would be useful for general public while they were training models as well.",
+      "zh": "这实际上是我们专门为 Cursor 实现的一个功能，然后我们认为它在公众训练模型时也会有用的。"
+    },
+    {
+      "timestamp": "13:33",
+      "speaker": "Jatishree (Jett)",
+      "en": "But what happens when you do that is you have issues in quality of the model.",
+      "zh": "但你这样做会遇到模型质量方面的问题。"
+    },
+    {
+      "timestamp": "13:46",
+      "speaker": "Jatishree (Jett)",
+      "en": "So that's why we offer training and inferencing on the same platform and ensure that you won't find any numerical differences after you finish training and once you decide to host this particular model on the platform itself.",
+      "zh": "所以这就是为什么我们提供在同一平台上进行训练和推理，并确保你在完成训练后、决定把模型托管在本平台上时，不会发现任何数值差异。"
+    }
+  ],
+  "voice_script": "今天咱们聊一个很多公司都在头疼的事：AI 的账单。先问一下，你现在用的是不是 ChatGPT 或者 Anthropic 这样的闭源模型？账单是不是涨得有点快？今天这期,讲的就是怎么把这条路走通——从闭源模型搬到开源模型,而且不是搬过去就完了,还要持续训练,让它越来越好用。\n\n今天的主角是 Jatishree,大家可以叫她 Jett,她是 Fireworks AI 应用机器学习团队的负责人。Fireworks 是一家提供大模型推理和训练服务的平台公司,客户在平台上定制开源模型、部署上线。演讲一开始,Jett 问观众那两个问题,举手的人不少——说明贵这件事,是普遍痛点。\n\n那开源模型现在到底能不能上生产?她先给了三个基本事实。第一,开源模型大体上已经可以在生产环境里用了,比如 GLM 5.2,在编程场景里表现相当好。第二,也是最关键的一点:如果开源模型本身还追不上闭源模型,那胜负手就在你怎么定制、怎么训练、怎么持续改进。第三,整个技术栈正在变——以前是\"部署一次就完事\",现在是一个持续循环:训练、部署、拿到新数据,再回头训练。Fireworks 做的事,就是让这个循环又便宜又顺畅。\n\n这个循环到底能带来什么收益?看几个真实案例就明白了。编程工具 Cursor 的 Composer 2 模型在 Fireworks 上训练和托管,推理速度提升了 13 倍。Vercel 在平台上做微调和托管,延迟改善了 40 倍。还有一个更有意思的案例是 GenSpark,这家公司的系统主要靠提示词来设计,从闭源切到开源的时候,质量是最大瓶颈。Fireworks 帮他们做了强化微调——行话叫 RFT,说白了就是用评估函数给模型输出打分,让模型朝着高分的方向自己改进——从清洗数据集到定义评估函数,最后质量提升了 12%。这些案例背后是平台本身的规模:每天服务大约 30 万亿个 token,支持全球超过一万家公司,每秒处理大约 20 万个请求。公司已经融资约 3.27 亿美元,团队约 200 人。\n\n那这些提速是怎么做到的?这里面有个底层细节值得说。模型跑在 GPU 上,中间隔着一层叫 CUDA 内核的翻译层。Fireworks 自研了推理引擎 FireAttention,连这层翻译代码都是自己写的。为什么费这个劲?因为客户是带着明确目标来的:多少输入 token、多少输出 token、多高的缓存命中率、要达到什么延迟。自己写了底层,就能针对这个具体负载,把整个推理栈优化到目标,用更便宜的价格达标。除了自研引擎,也用上了投机解码——先让小模型猜、大模型验证,从而加速——还有解耦、量化这些业界常见技术,客户甚至可以在平台上训练自己的草稿模型来进一步提速。\n\n不过光跑得快还不够,模型得能训练出来才行。那不会训练的人怎么办?Fireworks 的训练产品分三档,覆盖从新手到资深工程师。第一档是训练代理,适合刚入行的产品经理和开发者:在界面上挂上数据集、描述目标,代理自己选模型、清洗数据、调超参数,还会给出训练计划、准确率和 F1 分数,最后推荐下一步动作——目前还不支持强化微调。第二档是托管训练,也是最受欢迎的:选模型、传数据、填超参数、点一个按钮,训练过程中有面板实时显示损失曲线,观测数据还能导出到 Weights & Biases。第三档是训练 API,给资深机器学习工程师自定义训练循环和损失函数用。三档都支持监督微调、强化微调和 DPO。\n\n那训练完之后呢?离上线只差一次点击。这背后其实是整个平台的核心逻辑——一个数据飞轮:训练、部署、监控、收集反馈、再训练。为了让轮子转得顺,平台提供了几项关键能力。一是热加载,训练出新版本后可以直接替换线上权重,不宕机——这个功能最初就是为 Cursor 定制的,后来开放给了所有用户。二是数值保真,这个很多人有切肤之痛:很多客户在 A 平台训练、B 平台部署,因为底层系统不兼容,模型质量会莫名下降。Fireworks 把训练和推理放在同一个平台上,保证训练完部署不会出现数值差异。再加上一键部署,那个\"训练、部署、再训练\"的循环,才能真正转起来。\n\n回头看这一集,其实就讲了一件事:开源模型已经基本具备生产能力了,真正的差距不在模型本身,而在你会不会定制、会不会持续训练。用 Jett 的话说——如果开源模型不能比肩闭源模型的质量,那么差异化的关键,就在于你如何定制、训练和改进这些开源模型,使其性能和质量达到闭源模型的水平。"
+}

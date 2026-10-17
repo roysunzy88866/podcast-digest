@@ -1,0 +1,586 @@
+{
+  "episode_id": "2026-10-11-talks-stop-renting-intelligence-the-train-to-d",
+  "podcast": "精选演讲",
+  "date": "2026-10-11",
+  "tags": [
+    "AI 基础设施",
+    "开源模型",
+    "推理优化",
+    "模型微调",
+    "AI 编程"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "jatishree",
+      "type": "person",
+      "role": "host",
+      "name": "Jatishree",
+      "file": "Jatishree",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            70.38,
+            73.563
+          ],
+          "quote": "My name is Jatishree, but feel free to call me Jett if that's easier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fireworks",
+      "type": "company",
+      "role": "company",
+      "name": "Fireworks",
+      "file": "Fireworks",
+      "primary": true,
+      "how_described": "本集说 Fireworks 是一个大模型推理与训练平台，每天服务约 30 万亿 token、支持超 10000 家公司，帮助客户从闭源模型迁移到开源模型，让『训练—部署—再训练』的数据飞轮更顺畅、更便宜",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            66.156,
+            67.237
+          ],
+          "quote": "I work at Fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            144.628,
+            147.329
+          ],
+          "quote": "So that's where Fireworks kind of comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            296.587,
+            310.236
+          ],
+          "quote": "Also, we are a trusted platform among all our other customers and user base as well, and we have raised around 327 million CDC a while ago, and we are about 200 people working at Fireworks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            326.208,
+            329.631
+          ],
+          "quote": "At Fireworks, we have our own inference engine called FireAttention.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            471.057,
+            480.459
+          ],
+          "quote": "You just need to link in the dataset that you have uploaded on the Fireworks platform, as well as description on what you're trying to do as part of this training run itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            527.95,
+            532.132
+          ],
+          "quote": "That's how simple we make it on Fireworks for the managed training itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            868.019,
+            874.244
+          ],
+          "quote": "Over here, you can input where your training dataset lives within the fireworks, what it's called.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集说 Cursor 的 Composer 2 模型在 Fireworks 平台上训练和托管，推理速度达到 13 倍提升；平台的热加载（hotloading）功能最初就是专为 Cursor 定制的",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            226.116,
+            236.707
+          ],
+          "quote": "So Cursor, for those of you who already use Cursor and Cursor models, the Composer 2 model for Cursor was trained and also hosted on our platform today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            767.066,
+            771.808
+          ],
+          "quote": "And this has become really popular, especially when we were training models for Cursor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            772.308,
+            779.71
+          ],
+          "quote": "And this was actually a feature we implemented specifically for Cursor and then we thought would be useful for general public while they were training models as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说 Vercel 是 Fireworks 的大客户，在平台上做微调和托管，延迟改善了 40 倍",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            248.841,
+            251.985
+          ],
+          "quote": "Vercel is also another big customer of ours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            313.458,
+            319.943
+          ],
+          "quote": "I know in the previous slide I did mention that we made latency faster for a couple of our customers, such as Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            354.297,
+            368.245
+          ],
+          "quote": "So most of the time, customers like Vercel in the previous slide come to us and tell us they have X input tokens, Y output tokens, they have Z prompt cache hit rate, and they want to meet so-and-so latency targets.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "genspark",
+      "type": "company",
+      "role": "company",
+      "name": "GenSpark",
+      "file": "GenSpark",
+      "primary": true,
+      "how_described": "本集说 GenSpark 让用户仅用提示词设计系统，从闭源切到开源模型时质量是最大瓶颈，Fireworks 帮他们做强化微调（RFT）、清洗数据集、定义评估函数，最终质量提升 12%",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            260.394,
+            263.455
+          ],
+          "quote": "And another big use case study is actually GenSpark.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            264.235,
+            271.157
+          ],
+          "quote": "GenSpark lavables are in a very similar field where they actually let you design systems with just prompts itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            618.844,
+            641.251
+          ],
+          "quote": "Nowadays, I think RFT has become extremely, extremely popular, and if you ever need help in helping define a good evaluator function, then we have worked with customers like GenSpark that I was talking to you about in the previous slide to help them define an evaluator function, clean the data set, and also choose the right hyperparameters, especially for RFT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说开源模型大部分已具备生产可用性（如 GLM 5.2 尤其擅长编程用例），与闭源模型的质量差距要靠定制、训练和持续改进来弥补",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            34.446,
+            48.759
+          ],
+          "quote": "And just like all of you might be thinking of switching from closed source model to open source models for cost reasons, performance reasons, there are other customers and users that are going through the same journey.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            52.082,
+            61.451
+          ],
+          "quote": "where these open source models shine and how to make the performance or quality of these open source models match the closed source models itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            74.764,
+            83.593
+          ],
+          "quote": "Let's talk about the whole chain to deploy loop that the open source models are taking today when users are switching from closed source to open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            93.129,
+            100.175
+          ],
+          "quote": "So the three fundamental truths that are true are, one, open source models for the most part are production ready.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            108.574,
+            123.863
+          ],
+          "quote": "Two, if open source models don't beat or match the quality of closed source models, the differentiating factor comes from how you customize, train, and improve these open source models to match the performance and quality of closed source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            147.429,
+            159.151
+          ],
+          "quote": "It makes the whole process of you having to go through the continuous journey of training these open source models as well as hosting these open source models at scale much more easier and also much more cost effective as well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            272.097,
+            279.92
+          ],
+          "quote": "And quality is a big bottleneck or was a big bottleneck for them when they were trying to switch from closed source to open source models.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            431.481,
+            439.426
+          ],
+          "quote": "But when customers are switching from closed source to open source models, the biggest bottleneck or the gap is quality.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集用大篇幅讲推理优化：Fireworks 自研推理引擎 FireAttention、自写 CUDA kernel、按客户具体工作负载优化整个推理栈，并指出训练与推理在同一平台可保证数值保真",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            166.753,
+            174.455
+          ],
+          "quote": "But I did also want to quickly talk about inference before we go to the training portion of it, which has become really popular among our customers and user base.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            175.796,
+            191.725
+          ],
+          "quote": "And before we also talk about inference and training, I just wanted to give you a quick overview of how inference looks like, especially at scales, and what are the kind of production impact that we have seen among some of our customers and user base itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            239.37,
+            245.117
+          ],
+          "quote": "It is able to achieve 13x faster inference because of the fire retention engine that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            326.208,
+            329.631
+          ],
+          "quote": "At Fireworks, we have our own inference engine called FireAttention.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            341.181,
+            353.776
+          ],
+          "quote": "So when a customer comes to us with a workload and a performance target in mind, then we can optimize this particular inference engine and the whole AI stack, including that CUDA kernel for that specific use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            369.005,
+            381.692
+          ],
+          "quote": "And we help them optimize this whole inference stack, including that CUDA kernel, so that we can solve this model at a cheaper price, but also that can meet their performance target and for their specific workload itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            382.552,
+            396.446
+          ],
+          "quote": "As part of fire retention and inference optimization, we do also implement the very well-known techniques in the AI field, which is things like speculative decoding, disaggregation, quantization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            840.405,
+            851.535
+          ],
+          "quote": "And one other thing that makes it more seamless is because training and inference is on the same platform, you're just one click away from deploying this model at production scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            852.869,
+            862.055
+          ],
+          "quote": "Now that we have learned all about the inference and training, I just wanted to show you a quick demo of different training products and how they work on our platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集说微调是缩小开源与闭源模型质量差距的核心手段，平台三档训练产品都支持监督微调、强化微调（RFT）和 DPO，Vercel 等客户都在平台上微调模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            252.125,
+            256.069
+          ],
+          "quote": "We help them actually fine tune and also host the model on our platform.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            280.44,
+            281.78
+          ],
+          "quote": "And we helped them fine tune.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            888.576,
+            894.284
+          ],
+          "quote": "And then you ask it to fine tune and even select the hyperparameters and the model for you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集介绍 Fireworks 的训练智能体（training agent）：适合刚入行的产品经理和开发者，通过 UI 挂载数据集、描述目标后，智能体自己选模型、清洗数据、调超参数，并给出训练计划、准确率、F1 分数和下一步推荐",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            444.829,
+            454.272
+          ],
+          "quote": "And our training product itself comes in three different flavors for different segments within our customer and user base, one being the training agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            465.095,
+            468.977
+          ],
+          "quote": "So the agent can be accessed through our UI, and you can",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            641.711,
+            645.672
+          ],
+          "quote": "Unfortunately, the training agent itself does not support RFT, so it does not",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            655.614,
+            667.142
+          ],
+          "quote": "So now that we know all about the different training offerings that we have, I also wanted to show you a quick demo of each of these, the training agent, managed training, and the training API itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            862.516,
+            867.339
+          ],
+          "quote": "The first portion of the demo is showing you how you can use the training agent itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            885.091,
+            888.136
+          ],
+          "quote": "So you give the agent both the data sets.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            895.605,
+            902.088
+          ],
+          "quote": "The agent then goes on and tells you the step that it will take to accomplish the task that you have given it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            919.186,
+            927.089
+          ],
+          "quote": "And once you're done, once you feel okay about the output that the agent has given, you can approve whatever the agent has outlined.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (speculative decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "本集说投机解码是 Fireworks 推理优化使用的知名技术之一（小模型猜、大模型验证以加速），客户还可在平台上训练自己的 draft 模型来进一步提升主模型速度和吞吐量",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            382.552,
+            396.446
+          ],
+          "quote": "As part of fire retention and inference optimization, we do also implement the very well-known techniques in the AI field, which is things like speculative decoding, disaggregation, quantization.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            396.926,
+            404.954
+          ],
+          "quote": "In terms of speculative decoding itself, we also allow customers to train their draft models on our platform, so they can even upload",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集顺带提到：跨平台训练和托管时模型质量会莫名下降，原因是 Kubernetes 在不同平台之间并不总是兼容",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            818.944,
+            826.473
+          ],
+          "quote": "And the reason you have those issues is Kubernetes is not always compatible when you train on a different platform and host on a different platform.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "GPU",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

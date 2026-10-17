@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[MCP]] · [[上下文引擎]] · [[搜索满足感]] · [[RAG]] · [[Claude Code]] · [[GitHub]] · [[Dennis Pilarinos]] · [[Peter Werry]] · [[Brandon Waselnuk]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":99,"上下文引擎":5,"搜索满足感":2,"RAG":31,"Claude Code":116,"GitHub":37,"Dennis Pilarinos":1,"Peter Werry":1,"Brandon Waselnuk":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"上下文引擎":5,"搜索满足感":2,"RAG":31,"Claude Code":116,"GitHub":37,"Dennis Pilarinos":1,"Peter Werry":1,"Brandon Waselnuk":1}</script>
 
 <script>
 (function(){

@@ -30,7 +30,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Zavain Dar]] · [[Josh Elman]] · [[NVIDIA]] · [[聊天机器人]] · [[Hugging Face]] · [[LLM]] · [[开源]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":208,"Zavain Dar":1,"Josh Elman":2,"NVIDIA":71,"聊天机器人":4,"Hugging Face":39,"LLM":66,"开源":43}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anthropic":206,"OpenAI":208,"Zavain Dar":1,"Josh Elman":2,"NVIDIA":72,"聊天机器人":4,"Hugging Face":39,"LLM":66,"开源":43}</script>
 
 <script>
 (function(){

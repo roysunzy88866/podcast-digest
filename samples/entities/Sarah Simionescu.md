@@ -59,7 +59,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Composio":2,"智能体":1,"MCP":99,"仪表盘":3,"上下文窗口":20,"Claude":99,"Anthropic":206}</script>
+<script type="application/json" class="pd-epn">{"Composio":2,"智能体":1,"MCP":100,"仪表盘":3,"上下文窗口":20,"Claude":99,"Anthropic":206}</script>
 
 <script>
 (function(){

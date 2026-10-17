@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"AgentCraft":1,"loopers":1,"智能体":1,"编排器":4,"可见性":1,"自主性":11,"协作":2,"审查工具包":1,"MCP":99,"Codex":91}</script>
+<script type="application/json" class="pd-epn">{"AgentCraft":1,"loopers":1,"智能体":1,"编排器":4,"可见性":1,"自主性":11,"协作":2,"审查工具包":1,"MCP":100,"Codex":91}</script>
 
 <script>
 (function(){

@@ -51,7 +51,7 @@ unlisted: true
 
 [[OpenAI]] · [[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[AGI]] · [[沙箱]] · [[Microsoft]] · [[持续学习]] · [[Meta]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Anthropic":206,"ChatGPT":115,"AGI":29,"沙箱":104,"Microsoft":34,"持续学习":1,"Meta":56,"护栏":93}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":208,"智能体":1,"Anthropic":206,"ChatGPT":115,"AGI":29,"沙箱":104,"Microsoft":34,"持续学习":1,"Meta":56,"护栏":94}</script>
 
 <script>
 (function(){

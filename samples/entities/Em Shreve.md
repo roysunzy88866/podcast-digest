@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"MCP":99,"智能体":1,"技能":35,"Codex":91,"Claude":99,"Claude Code":116}</script>
+<script type="application/json" class="pd-epn">{"MCP":100,"智能体":1,"技能":35,"Codex":91,"Claude":99,"Claude Code":116}</script>
 
 <script>
 (function(){

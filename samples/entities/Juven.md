@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jeanne Grosser":1,"Vercel":21,"Stripe":53,"Google":72,"GitHub":37,"Slack":34,"Claude":99,"go-to-market":14,"智能体":1,"产品市场契合":32}</script>
+<script type="application/json" class="pd-epn">{"Jeanne Grosser":1,"Vercel":22,"Stripe":53,"Google":72,"GitHub":37,"Slack":34,"Claude":99,"go-to-market":14,"智能体":1,"产品市场契合":32}</script>
 
 <script>
 (function(){

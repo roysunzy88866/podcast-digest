@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":1,"MCP":99,"WebAssembly":2,"冷启动":4,"沙箱":104,"边缘原生架构":1,"内存快照":1,"键值存储":1,"Spin":1,"Akamai Functions":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"MCP":100,"WebAssembly":2,"冷启动":4,"沙箱":104,"边缘原生架构":1,"内存快照":1,"键值存储":1,"Spin":1,"Akamai Functions":1}</script>
 
 <script>
 (function(){

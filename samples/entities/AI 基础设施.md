@@ -127,7 +127,7 @@ unlisted: true
 
 [[智能体]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Max Hodak]] · [[a16z]] · [[数据中心]] · [[Science]] · [[Neuralink]] · [[Helix]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"NVIDIA":71,"Anthropic":206,"OpenAI":208,"Max Hodak":2,"a16z":21,"数据中心":25,"Science":2,"Neuralink":4,"Helix":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"NVIDIA":72,"Anthropic":206,"OpenAI":208,"Max Hodak":2,"a16z":21,"数据中心":25,"Science":2,"Neuralink":4,"Helix":2}</script>
 
 <script>
 (function(){

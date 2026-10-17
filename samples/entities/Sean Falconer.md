@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[Anurag Gohl]] · [[Carl Svera]] · [[Render]] · [[Antithesis]] · [[Stripe]] · [[Singlestore]] · [[AWS]] · [[SQLite]] · [[Kubernetes]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"Anurag Gohl":1,"Carl Svera":1,"Render":2,"Antithesis":1,"Stripe":53,"Singlestore":1,"AWS":24,"SQLite":2,"Kubernetes":20}</script>
+<script type="application/json" class="pd-epn">{"智能体":1,"Anurag Gohl":1,"Carl Svera":1,"Render":2,"Antithesis":1,"Stripe":53,"Singlestore":1,"AWS":24,"SQLite":2,"Kubernetes":22}</script>
 
 <script>
 (function(){
